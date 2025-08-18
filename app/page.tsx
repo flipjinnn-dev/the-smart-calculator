@@ -46,7 +46,7 @@ const categories = [
     bgColor: "bg-green-50",
     textColor: "text-green-600",
     calculators: getCalculatorCount("financial"),
-    href: getCategoryUrl("financial"),
+    href: "/financial",
   },
   {
     id: "health",
@@ -57,7 +57,7 @@ const categories = [
     bgColor: "bg-red-50",
     textColor: "text-red-600",
     calculators: getCalculatorCount("health"),
-    href: getCategoryUrl("health"),
+    href: "/health",
   },
   {
     id: "math",
@@ -68,7 +68,7 @@ const categories = [
     bgColor: "bg-blue-50",
     textColor: "text-blue-600",
     calculators: getCalculatorCount("math"),
-    href: getCategoryUrl("math"),
+    href: "/math",
   },
   {
     id: "physics",
@@ -79,7 +79,7 @@ const categories = [
     bgColor: "bg-yellow-50",
     textColor: "text-yellow-600",
     calculators: getCalculatorCount("physics"),
-    href: getCategoryUrl("physics"),
+    href: "/physics",
   },
   {
     id: "real-estate",
@@ -90,7 +90,7 @@ const categories = [
     bgColor: "bg-purple-50",
     textColor: "text-purple-600",
     calculators: getCalculatorCount("real-estate"),
-    href: getCategoryUrl("real-estate"),
+    href: "/real-estate",
   },
   {
     id: "automotive",
@@ -101,7 +101,7 @@ const categories = [
     bgColor: "bg-gray-50",
     textColor: "text-gray-600",
     calculators: getCalculatorCount("automotive"),
-    href: getCategoryUrl("automotive"),
+    href: "/automotive",
   },
   {
     id: "business",
@@ -112,7 +112,7 @@ const categories = [
     bgColor: "bg-indigo-50",
     textColor: "text-indigo-600",
     calculators: getCalculatorCount("business"),
-    href: getCategoryUrl("business"),
+    href: "/business",
   },
   {
     id: "education",
@@ -123,7 +123,7 @@ const categories = [
     bgColor: "bg-pink-50",
     textColor: "text-pink-600",
     calculators: getCalculatorCount("education"),
-    href: getCategoryUrl("education"),
+    href: "/education",
   },
 ]
 
