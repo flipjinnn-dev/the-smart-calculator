@@ -23,7 +23,7 @@ const jsonLd = {
   "@type": "CollectionPage",
   name: "Financial Calculators",
   description: "Free financial calculators for mortgage, loans, investments, and more",
-  url: "https://www.thesmartcalculator.com//financial",
+  url: "https://www.thesmartcalculator.com/financial",
   mainEntity: {
     "@type": "ItemList",
     itemListElement: financialCalculators.map((calc, index) => ({
