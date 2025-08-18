@@ -178,7 +178,7 @@ export default function InvestmentCalculator() {
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbLink href="/category/financial">Financial</BreadcrumbLink>
+                <BreadcrumbLink href="/financial">Financial</BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>

@@ -226,7 +226,7 @@ export default function AutoLoanCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/category/financial" className="text-gray-500 hover:text-blue-600">
+              <Link href="/financial" className="text-gray-500 hover:text-blue-600">
                 Financial
               </Link>
               <span className="text-gray-400">/</span>
@@ -415,7 +415,7 @@ export default function AutoLoanCalculator() {
                             <Checkbox
                               id="includeTaxes"
                               checked={includeTaxesInLoan}
-                              onCheckedChange={setIncludeTaxesInLoan}
+                              onCheckedChange={(checked) => setIncludeTaxesInLoan(!!checked)}
                             />
                             <Label htmlFor="includeTaxes" className="text-base">
                               Include taxes and fees in loan
@@ -581,7 +581,7 @@ export default function AutoLoanCalculator() {
                             <Checkbox
                               id="includeTaxesMonthly"
                               checked={includeTaxesInLoan}
-                              onCheckedChange={setIncludeTaxesInLoan}
+                              onCheckedChange={(checked) => setIncludeTaxesInLoan(checked as boolean)}
                             />
                             <Label htmlFor="includeTaxesMonthly" className="text-base">
                               Include taxes and fees in loan

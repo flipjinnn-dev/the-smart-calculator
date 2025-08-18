@@ -103,7 +103,7 @@ export default function InterestCalculator() {
             <div className="flex items-center space-x-2 py-4 text-sm">
               <Link href="/" className="text-gray-500 hover:text-blue-600">Home</Link>
               <span className="text-gray-400">/</span>
-              <Link href="/category/financial" className="text-gray-500 hover:text-blue-600">Financial</Link>
+              <Link href="/financial" className="text-gray-500 hover:text-blue-600">Financial</Link>
               <span className="text-gray-400">/</span>
               <span className="text-gray-900 font-medium">Interest Calculator</span>
             </div>

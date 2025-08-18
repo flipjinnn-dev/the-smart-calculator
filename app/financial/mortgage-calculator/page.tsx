@@ -248,7 +248,7 @@ export default function MortgageCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/category/financial" className="text-gray-500 hover:text-blue-600">
+              <Link href="/financial" className="text-gray-500 hover:text-blue-600">
                 Financial
               </Link>
               <span className="text-gray-400">/</span>

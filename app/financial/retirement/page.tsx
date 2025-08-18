@@ -1,6 +1,5 @@
 "use client"
 
-
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -299,7 +298,7 @@ export default function RetirementCalculator() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </span>
-              <Link href="/category/financial" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">Financial</Link>
+              <Link href="/financial" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">Financial</Link>
               <span className="text-gray-400 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
