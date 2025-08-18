@@ -441,7 +441,7 @@ export default function HomePage() {
                   </li>
                   <li>
                     <Link
-                      href="/category/health"
+                      href="/health"
                       className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                     >
                       Health & Fitness
@@ -449,7 +449,7 @@ export default function HomePage() {
                   </li>
                   <li>
                     <Link
-                      href="/category/math"
+                      href="/math"
                       className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                     >
                       Math Calculators
@@ -457,7 +457,7 @@ export default function HomePage() {
                   </li>
                   <li>
                     <Link
-                      href="/category/physics"
+                      href="/physics"
                       className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                     >
                       Physics Calculators
