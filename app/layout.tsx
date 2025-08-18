@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://smartcalculator.com"),
+  metadataBase: new URL("https://www.thesmartcalculator.com/"),
   title: {
     default: "Smart Calculator - Free Online Calculators for Every Need",
     template: "%s | Smart Calculator",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://smartcalculator.com",
+    url: "https://www.thesmartcalculator.com/",
     siteName: "Smart Calculator",
     title: "Smart Calculator - Free Online Calculators",
     description: "Access hundreds of free online calculators for every need",
@@ -69,7 +69,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://smartcalculator.com" />
+        <link rel="canonical" href="https://www.thesmartcalculator.com/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#3b82f6" />
         <link rel="icon" href="/favicon.ico" />

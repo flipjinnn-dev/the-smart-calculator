@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://smartcalculator.com"
+  const baseUrl = "https://www.thesmartcalculator.com/"
 
   // Static pages
   const staticPages = [

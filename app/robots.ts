@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/private/", "/admin/", "/api/"],
     },
-    sitemap: "https://smartcalculator.com/sitemap.xml",
+    sitemap: "https://www.thesmartcalculator.com/sitemap.xml",
   }
 }
