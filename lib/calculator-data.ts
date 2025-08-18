@@ -15,7 +15,7 @@ export const calculators: Calculator[] = [
     id: "mortgage",
     name: "Mortgage Calculator",
     description: "Calculate monthly mortgage payments, total interest, and amortization schedule",
-    href: "/calculator/mortgage-calculator",
+    href: "/financial/mortgage-calculator",
     category: "financial",
     popular: true,
   },
