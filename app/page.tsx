@@ -433,7 +433,7 @@ export default function HomePage() {
                 <ul className="space-y-3 text-gray-400">
                   <li>
                     <Link
-                      href="/category/financial"
+                      href="/financial"
                       className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                     >
                       Financial Calculators
