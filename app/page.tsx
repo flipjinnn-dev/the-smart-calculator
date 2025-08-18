@@ -29,10 +29,10 @@ export const metadata: Metadata = {
     title: "Smart Calculator - Free Online Calculators",
     description: "Access hundreds of free online calculators for every need",
     type: "website",
-    url: "https://smartcalculator.com",
+    url: "https://www.thesmartcalculator.com/",
   },
   alternates: {
-    canonical: "https://smartcalculator.com",
+    canonical: "https://www.thesmartcalculator.com/",
   },
 }
 
@@ -177,12 +177,12 @@ const jsonLd = {
   "@type": "WebSite",
   name: "Smart Calculator",
   description: "Free online calculators for finance, health, math, physics, and more",
-  url: "https://smartcalculator.com",
+  url: "https://www.thesmartcalculator.com/",
   potentialAction: {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: "https://smartcalculator.com/search?q={search_term_string}",
+      urlTemplate: "https://www.thesmartcalculator.com/search?q={search_term_string}",
     },
     "query-input": "required name=search_term_string",
   },
@@ -191,7 +191,7 @@ const jsonLd = {
     name: "Smart Calculator",
     logo: {
       "@type": "ImageObject",
-      url: "https://smartcalculator.com/logo.png",
+      url: "https://www.thesmartcalculator.com/logo.png",
     },
   },
 }
