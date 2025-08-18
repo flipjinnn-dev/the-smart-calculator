@@ -81,7 +81,7 @@ export default function PercentErrorCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/category/math" className="text-gray-500 hover:text-blue-600">
+              <Link href="/maths" className="text-gray-500 hover:text-blue-600">
                 Math
               </Link>
               <span className="text-gray-400">/</span>

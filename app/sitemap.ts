@@ -37,21 +37,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Calculator pages
   const calculators = [
-    "mortgage",
-    "loan",
-    "compound-interest",
-    "investment",
-    "retirement",
-    "tax",
-    "credit-card-payoff",
-    "auto-loan",
-    "savings",
-    "roi",
-    "budget",
-    "debt-consolidation",
-    "bmi",
-    "calorie",
-    "percentage",
+    "mortgage-calculator",
+    "loan-calculator",
+    "compound-interest-calculator",
+    "investment-calculator",
+    "retirement-calculator",
+    "tax-calculator",
+    "credit-card-payoff-calculator",
+    "auto-loan-calculator",
+    "savings-calculator",
+    "roi-calculator",
+    "budget-calculator",
+    "debt-consolidation-calculator",
+    "bmi-calculator",
+    "calorie-calculator",
+    "percentage-calculator",
   ]
 
   const calculatorPages = calculators.map((calculator) => ({

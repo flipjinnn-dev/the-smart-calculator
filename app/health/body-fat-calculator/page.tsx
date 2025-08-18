@@ -18,7 +18,7 @@ const jsonLd = {
   name: "Body Fat Calculator",
   description:
     "Calculate your body fat percentage using the U.S. Navy method and BMI method. Get comprehensive analysis of your body composition.",
-  url: "https://smartcalculator.com/calculator/body-fat",
+  url: "https://www.thesmartcalculator.com/health/body-fat-calculator",
   applicationCategory: "HealthApplication",
   operatingSystem: "Web Browser",
   offers: {
@@ -251,7 +251,7 @@ export default function BodyFatCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/category/health" className="text-gray-500 hover:text-blue-600">
+              <Link href="/health" className="text-gray-500 hover:text-blue-600">
                 Health
               </Link>
               <span className="text-gray-400">/</span>

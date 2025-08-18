@@ -17,55 +17,55 @@ const mathCalculators = [
   {
     name: "Volume Calculator",
     description: "Calculate the volume of spheres, cones, cubes, cylinders, and more.",
-    href: "/calculator/volume",
+    href: "/maths/volume-calculator",
     popular: true,
   },
   {
     name: "Percentage Calculator",
     description: "Calculate percentages, ratios, and percentage changes easily",
-    href: "/calculator/percentage",
+    href: "/maths/percentage-calculator",
     popular: true,
   },
   {
     name: "Scientific Calculator",
     description: "Advanced math calculator for trigonometry, powers, roots, and more.",
-    href: "/calculator/scientific",
+    href: "/maths/scientific-calculator",
     popular: true,
   },
   {
     name: "Fraction Calculator",
     description: "Add, subtract, multiply, and divide fractions",
-    href: "/calculator/fraction",
+    href: "/maths/fraction-calculator",
   },
   {
     name: "Algebra Calculator",
     description: "Solve algebraic equations and expressions",
-    href: "/calculator/algebra",
+    href: "/maths/algebra-calculator",
   },
   {
     name: "Geometry Calculator",
     description: "Calculate area, perimeter, and volume of geometric shapes",
-    href: "/calculator/geometry",
+    href: "/maths/geometry-calculator",
   },
   {
     name: "Statistics Calculator",
     description: "Calculate mean, median, mode, and standard deviation",
-    href: "/calculator/statistics",
+    href: "/maths/statistics-calculator",
   },
   {
     name: "Probability Calculator",
     description: "Calculate probability and combinations",
-    href: "/calculator/probability",
+    href: "/maths/probability-calculator",
   },
   {
     name: "Random Number Generator",
     description: "Generate random numbers in a custom range, with or without repeats.",
-    href: "/calculator/random-number-generator",
+    href: "/maths/random-number-generator-calculator",
   },
   {
     name: "Percent Error Calculator",
     description: "Calculate percent error between measured and actual values.",
-    href: "/calculator/percent-error",
+    href: "/maths/percent-error-calculator",
   },
 ]
 

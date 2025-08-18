@@ -17,61 +17,61 @@ const healthCalculators = [
   {
     name: "BMI Calculator",
     description: "Calculate your Body Mass Index and understand your weight status",
-    href: "/calculator/bmi",
+    href: "/health/bmi-calculator",
     popular: true,
   },
   {
     name: "Calorie Calculator",
     description: "Calculate your daily calorie needs based on activity level",
-    href: "/calculator/calorie",
+    href: "/health/calorie-calculator",
     popular: true,
   },
   {
     name: "Body Fat Calculator",
     description: "Calculate your body fat percentage using various methods",
-    href: "/calculator/body-fat",
+    href: "/health/body-fat-calculator",
     popular: true,
   },
   {
     name: "Ideal Weight Calculator",
     description: "Calculate your ideal weight based on height and body frame",
-    href: "/calculator/ideal-weight",
+    href: "/health/ideal-weight-calculator",
   },
   {
     name: "Heart Rate Calculator",
     description: "Calculate target heart rate zones for exercise",
-    href: "/calculator/heart-rate",
+    href: "/health/heart-rate-calculator",
   },
   {
     name: "Pregnancy Calculator",
     description: "Calculate due date and pregnancy milestones",
-    href: "/calculator/pregnancy",
+    href: "/health/pregnancy-calculator",
   },
   {
     name: "Pregnancy Conception Calculator",
     description: "Estimate conception date and pregnancy milestones based on due date, last period, or ultrasound date.",
-    href: "/calculator/pregnancy-conception",
+    href: "/health/pregnancy-conception-calculator",
     popular: true,
   },
   {
     name: "Water Intake Calculator",
     description: "Calculate daily water intake requirements",
-    href: "/calculator/water-intake",
+    href: "/health/water-intake-calculator",
   },
   {
     name: "Sleep Calculator",
     description: "Calculate optimal bedtime and wake-up times",
-    href: "/calculator/sleep",
+    href: "/health/sleep-calculator",
   },
   {
     name: "Macro Calculator",
     description: "Calculate macronutrient requirements for your goals",
-    href: "/calculator/macro",
+    href: "/health/macro-calculator",
   },
   {
     name: "Blood Pressure Calculator",
     description: "Understand your blood pressure readings",
-    href: "/calculator/blood-pressure",
+    href: "/health/blood-pressure-calculator",
   },
 ]
 
@@ -80,7 +80,7 @@ const jsonLd = {
   "@type": "CollectionPage",
   name: "Health & Fitness Calculators",
   description: "Free health and fitness calculators for BMI, calories, body fat, and more",
-  url: "https://smartcalculator.com/category/health",
+  url: "https://www.thesmartcalculator.com/health",
   mainEntity: {
     "@type": "ItemList",
     itemListElement: healthCalculators.map((calc, index) => ({
@@ -88,7 +88,7 @@ const jsonLd = {
       position: index + 1,
       name: calc.name,
       description: calc.description,
-      url: `https://smartcalculator.com${calc.href}`,
+      url: `https://www.thesmartcalculator.com${calc.href}`,
       applicationCategory: "HealthApplication",
     })),
   },
@@ -240,7 +240,7 @@ export default function HealthCategoryPage() {
                 <ul className="space-y-3 text-gray-400">
                   <li>
                     <Link
-                      href="/category/financial"
+                      href="/financial"
                       className="hover:text-white transition-colors hover:translate-x-1 inline-block"
                     >
                       Financial Calculators
@@ -248,7 +248,7 @@ export default function HealthCategoryPage() {
                   </li>
                   <li>
                     <Link
-                      href="/category/health"
+                      href="/health"
                       className="hover:text-white transition-colors hover:translate-x-1 inline-block"
                     >
                       Health & Fitness
@@ -256,7 +256,7 @@ export default function HealthCategoryPage() {
                   </li>
                   <li>
                     <Link
-                      href="/category/math"
+                      href="/math"
                       className="hover:text-white transition-colors hover:translate-x-1 inline-block"
                     >
                       Math Calculators
@@ -264,7 +264,7 @@ export default function HealthCategoryPage() {
                   </li>
                   <li>
                     <Link
-                      href="/category/physics"
+                      href="/physics"
                       className="hover:text-white transition-colors hover:translate-x-1 inline-block"
                     >
                       Physics Calculators
@@ -278,7 +278,7 @@ export default function HealthCategoryPage() {
                 <ul className="space-y-3 text-gray-400">
                   <li>
                     <Link
-                      href="/category/business"
+                      href="/business"
                       className="hover:text-white transition-colors hover:translate-x-1 inline-block"
                     >
                       Business Tools
@@ -286,7 +286,7 @@ export default function HealthCategoryPage() {
                   </li>
                   <li>
                     <Link
-                      href="/category/real-estate"
+                      href="/real-estate"
                       className="hover:text-white transition-colors hover:translate-x-1 inline-block"
                     >
                       Real Estate
@@ -294,7 +294,7 @@ export default function HealthCategoryPage() {
                   </li>
                   <li>
                     <Link
-                      href="/category/automotive"
+                      href="/automotive"
                       className="hover:text-white transition-colors hover:translate-x-1 inline-block"
                     >
                       Automotive
@@ -302,7 +302,7 @@ export default function HealthCategoryPage() {
                   </li>
                   <li>
                     <Link
-                      href="/category/education"
+                      href="/education"
                       className="hover:text-white transition-colors hover:translate-x-1 inline-block"
                     >
                       Education

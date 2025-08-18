@@ -19,7 +19,7 @@ const jsonLd = {
   name: "Macro Calculator",
   description:
     "Calculate your daily macronutrient needs based on your goals, activity level, and body composition using accurate BMR formulas.",
-  url: "https://smartcalculator.com/calculator/macro",
+  url: "https://www.thesmartcalculator.com/health/macro-calculator",
   applicationCategory: "HealthApplication",
   operatingSystem: "Web Browser",
   offers: {
@@ -243,7 +243,7 @@ export default function MacroCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/category/health" className="text-gray-500 hover:text-blue-600">
+              <Link href="/health" className="text-gray-500 hover:text-blue-600">
                 Health
               </Link>
               <span className="text-gray-400">/</span>

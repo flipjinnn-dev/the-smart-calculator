@@ -91,7 +91,7 @@ export default function CalorieCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/category/health" className="text-gray-500 hover:text-blue-600">
+              <Link href="/health" className="text-gray-500 hover:text-blue-600">
                 Health
               </Link>
               <span className="text-gray-400">/</span>

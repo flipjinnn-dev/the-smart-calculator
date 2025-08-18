@@ -18,7 +18,7 @@ const jsonLd = {
   name: "BMI Calculator",
   description:
     "Calculate your Body Mass Index (BMI) and understand your weight status with age and gender considerations",
-  url: "https://smartcalculator.com/calculator/bmi",
+  url: "https://www.thesmartcalculator.com/health/bmi-calculator",
   applicationCategory: "HealthApplication",
   operatingSystem: "Web Browser",
   offers: {
@@ -279,7 +279,7 @@ export default function BMICalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/category/health" className="text-gray-500 hover:text-blue-600">
+              <Link href="/health" className="text-gray-500 hover:text-blue-600">
                 Health
               </Link>
               <span className="text-gray-400">/</span>
