@@ -10,7 +10,7 @@ export const ROUTES = {
 
   // Categories
   CATEGORIES: {
-    FINANCIAL: "/category/financial",
+    FINANCIAL: "/financial",
     HEALTH: "/category/health",
     MATH: "/category/math",
     PHYSICS: "/category/physics",
