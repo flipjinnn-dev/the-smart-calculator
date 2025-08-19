@@ -35,6 +35,7 @@ export const ROUTES = {
     ROI: "/financial/roi-calculator",
     BUDGET: "/financial/budget-calculator",
     DEBT_CONSOLIDATION: "/financial/debt-consolidation-calculator",
+    INFLATION: "/financial/inflation-calculator",
 
     // Health
     BMI: "/health/bmi-calculator",

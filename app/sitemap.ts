@@ -38,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Calculator pages
   const calculators = [
     "mortgage-calculator",
+    "inflation-calculator",
     "loan-calculator",
     "compound-interest-calculator",
     "investment-calculator",

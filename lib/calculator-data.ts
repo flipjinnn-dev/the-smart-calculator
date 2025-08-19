@@ -20,6 +20,14 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
+    id: "inflation",
+    name: "Inflation Calculator",
+    description: "Calculate the impact of inflation on purchasing power over time",
+    href: "/financial/inflation-calculator",
+    category: "financial",
+    popular: true,
+  },
+  {
     id: "loan",
     name: "Loan Calculator",
     description: "Calculate loan payments, interest rates, and payoff schedules",
