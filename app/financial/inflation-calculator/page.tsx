@@ -194,7 +194,7 @@ export default function InflationCalculator() {
                   <TrendingUp className="w-10 h-10 text-white drop-shadow-md" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-red-600">
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 bg-clip-text bg-gradient-to-r from-orange-600 to-red-600">
                 Inflation Calculator
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
