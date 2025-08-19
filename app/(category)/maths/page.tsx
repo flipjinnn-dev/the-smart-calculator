@@ -5,6 +5,7 @@ import { Calculator, GraduationCap } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Logo from "@/components/logo"
+import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
 
 export const metadata: Metadata = {
   title: "Math Calculators - Smart Calculator",
@@ -13,65 +14,29 @@ export const metadata: Metadata = {
   keywords: "math calculator, percentage calculator, fraction calculator, algebra calculator, geometry calculator, statistics calculator, probability calculator",
 }
 
-const mathCalculators = [
-  {
-    name: "Volume Calculator",
-    description: "Calculate the volume of spheres, cones, cubes, cylinders, and more.",
-    href: "/maths/volume-calculator",
-    popular: true,
-  },
-  {
-    name: "Percentage Calculator",
-    description: "Calculate percentages, ratios, and percentage changes easily",
-    href: "/maths/percentage-calculator",
-    popular: true,
-  },
-  {
-    name: "Scientific Calculator",
-    description: "Advanced math calculator for trigonometry, powers, roots, and more.",
-    href: "/maths/scientific-calculator",
-    popular: true,
-  },
-  {
-    name: "Fraction Calculator",
-    description: "Add, subtract, multiply, and divide fractions",
-    href: "/maths/fraction-calculator",
-  },
-  {
-    name: "Algebra Calculator",
-    description: "Solve algebraic equations and expressions",
-    href: "/maths/algebra-calculator",
-  },
-  {
-    name: "Geometry Calculator",
-    description: "Calculate area, perimeter, and volume of geometric shapes",
-    href: "/maths/geometry-calculator",
-  },
-  {
-    name: "Statistics Calculator",
-    description: "Calculate mean, median, mode, and standard deviation",
-    href: "/maths/statistics-calculator",
-  },
-  {
-    name: "Probability Calculator",
-    description: "Calculate probability and combinations",
-    href: "/maths/probability-calculator",
-  },
-  {
-    name: "Random Number Generator",
-    description: "Generate random numbers in a custom range, with or without repeats.",
-    href: "/maths/random-number-generator-calculator",
-  },
-  {
-    name: "Percent Error Calculator",
-    description: "Calculate percent error between measured and actual values.",
-    href: "/maths/percent-error-calculator",
-  },
-]
+const mathCalculators = getCalculatorsByCategory("maths")
+const popularMathCalculators = getPopularCalculatorsByCategory("maths")
+
 
 export default function MathCategoryPage() {
-  // Split calculators into popular and all
-  const popularCalculators = mathCalculators.filter(c => c.popular)
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Math Calculators",
+    description: "Free math calculators for percentage, fraction, algebra, geometry, statistics, and probability",
+    url: "https://www.thesmartcalculator.com/maths",
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: mathCalculators.map((calc, index) => ({
+        "@type": "SoftwareApplication",
+        position: index + 1,
+        name: calc.name,
+        description: calc.description,
+        url: `https://www.thesmartcalculator.com${calc.href}`,
+        applicationCategory: "MathApplication",
+      })),
+    },
+  }
   const allCalculators = mathCalculators
 
   return (
@@ -128,7 +93,7 @@ export default function MathCategoryPage() {
             {/* Most Popular */}
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Most Popular</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-              {popularCalculators.map(calc => (
+              {popularMathCalculators.map(calc => (
                 <Link key={calc.name} href={calc.href}>
                   <Card className="h-full hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer group border-l-4 border-l-blue-500 hover-lift">
                     <CardHeader>

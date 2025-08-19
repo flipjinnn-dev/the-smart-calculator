@@ -94,48 +94,6 @@ export const calculators: Calculator[] = [
     href: "/financial/retirement-calculator",
     category: "financial",
   },
-  {
-    id: "tax",
-    name: "Tax Calculator",
-    description: "Calculate income tax, deductions, and tax refunds",
-    href: "/financial/tax-calculator",
-    category: "financial",
-  },
-  {
-    id: "credit-card-payoff",
-    name: "Credit Card Payoff Calculator",
-    description: "Calculate time and interest to pay off credit card debt",
-    href: "/financial/credit-card-payoff-calculator",
-    category: "financial",
-  },
-  {
-    id: "savings",
-    name: "Savings Calculator",
-    description: "Calculate savings growth with regular deposits",
-    href: "/financial/savings-calculator",
-    category: "financial",
-  },
-  {
-    id: "roi",
-    name: "ROI Calculator",
-    description: "Calculate return on investment for various scenarios",
-    href: "/financial/roi-calculator",
-    category: "financial",
-  },
-  {
-    id: "budget",
-    name: "Budget Calculator",
-    description: "Create and manage your personal budget",
-    href: "/financial/budget-calculator",
-    category: "financial",
-  },
-  {
-    id: "debt-consolidation",
-    name: "Debt Consolidation Calculator",
-    description: "Compare debt consolidation options and savings",
-    href: "/financial/debt-consolidation-calculator",
-    category: "financial",
-  },
 
   // Health Calculators
   {
@@ -162,41 +120,6 @@ export const calculators: Calculator[] = [
     category: "health",
   },
   {
-    id: "ideal-weight",
-    name: "Ideal Weight Calculator",
-    description: "Calculate your ideal weight based on height and body frame",
-    href: "/health/ideal-weight-calculator",
-    category: "health",
-  },
-  {
-    id: "heart-rate",
-    name: "Heart Rate Calculator",
-    description: "Calculate target heart rate zones for exercise",
-    href: "/health/heart-rate-calculator",
-    category: "health",
-  },
-  {
-    id: "pregnancy",
-    name: "Pregnancy Calculator",
-    description: "Calculate due date and pregnancy milestones",
-    href: "/health/pregnancy-calculator",
-    category: "health",
-  },
-  {
-    id: "water-intake",
-    name: "Water Intake Calculator",
-    description: "Calculate daily water intake requirements",
-    href: "/health/water-intake-calculator",
-    category: "health",
-  },
-  {
-    id: "sleep",
-    name: "Sleep Calculator",
-    description: "Calculate optimal sleep and wake times",
-    href: "/health/sleep-calculator",
-    category: "health",
-  },
-  {
     id: "macro",
     name: "Macro Calculator",
     description: "Calculate macronutrient requirements for your goals",
@@ -219,13 +142,6 @@ export const calculators: Calculator[] = [
     category: "health",
     popular: true,
   },
-  {
-    id: "blood-pressure",
-    name: "Blood Pressure Calculator",
-    description: "Understand blood pressure readings and categories",
-    href: "/health/blood-pressure-calculator",
-    category: "health",
-  },
 
   // Math Calculators
   {
@@ -237,38 +153,31 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
-    id: "fraction",
-    name: "Fraction Calculator",
-    description: "Add, subtract, multiply, and divide fractions",
-    href: "/maths/fraction-calculator",
+    id:"percent-error",
+    name: "Percentage Error Calculator",
+    description: "Calculate the percentage error between an estimated value and the actual value.",
+    href: "/maths/percent-error-calculator",
     category: "maths",
   },
   {
-    id: "algebra",
-    name: "Algebra Calculator",
-    description: "Solve algebraic equations and expressions",
-    href: "/maths/algebra-calculator",
+    id: "random-number-generator",
+    name: "Random Number Generator",
+    description: "Generate random numbers within a specified range",
+    href: "/maths/random-number-generator",
     category: "maths",
   },
   {
-    id: "geometry",
-    name: "Geometry Calculator",
-    description: "Calculate area, perimeter, and volume of geometric shapes",
-    href: "/maths/geometry-calculator",
+    id:"scientific-calculator",
+    name: "Scientific Calculator",
+    description: "Perform advanced mathematical calculations and graphing",
+    href: "/maths/scientific-calculator",
     category: "maths",
   },
-  {
-    id: "statistics",
-    name: "Statistics Calculator",
-    description: "Calculate mean, median, mode, and standard deviation",
-    href: "/maths/statistics-calculator",
-    category: "maths",
-  },
-  {
-    id: "probability",
-    name: "Probability Calculator",
-    description: "Calculate probability and combinations",
-    href: "/maths/probability-calculator",
+    {
+    id:"volume-calculator",
+    name: "Volume Calculator",
+    description: "Calculate the volume of various shapes",
+    href: "/maths/volume-calculator",
     category: "maths",
   },
 
@@ -279,77 +188,23 @@ export const calculators: Calculator[] = [
     description: "Calculate velocity, speed, and acceleration",
     href: "/calculator/velocity",
     category: "physics",
+    popular: true
   },
+  // Real Estate Calculators
   {
-    id: "acceleration",
-    name: "Acceleration Calculator",
-    description: "Calculate acceleration and motion parameters",
-    href: "/calculator/acceleration",
-    category: "physics",
+    id: "property-tax",
+    name: "Property Tax Calculator",
+    description: "Calculate property taxes and assessments",
+    href: "/real-estate/property-tax",
+    category: "real-estate",
+    popular:true
   },
-  {
-    id: "force",
-    name: "Force Calculator",
-    description: "Calculate force using Newton's laws of motion",
-    href: "/calculator/force",
-    category: "physics",
-  },
-  {
-    id: "energy",
-    name: "Energy Calculator",
-    description: "Calculate kinetic and potential energy",
-    href: "/calculator/energy",
-    category: "physics",
-  },
-  {
-    id: "power",
-    name: "Power Calculator",
-    description: "Calculate electrical and mechanical power",
-    href: "/calculator/power",
-    category: "physics",
-  },
-  {
-    id: "pressure",
-    name: "Pressure Calculator",
-    description: "Calculate pressure, force, and area relationships",
-    href: "/calculator/pressure",
-    category: "physics",
-  },
-
   // Business Calculators
   {
     id: "profit-margin",
     name: "Profit Margin Calculator",
     description: "Calculate gross and net profit margins",
     href: "/calculator/profit-margin",
-    category: "business",
-  },
-  {
-    id: "break-even",
-    name: "Break Even Calculator",
-    description: "Calculate break-even point for your business",
-    href: "/calculator/break-even",
-    category: "business",
-  },
-  {
-    id: "cash-flow",
-    name: "Cash Flow Calculator",
-    description: "Calculate and analyze cash flow projections",
-    href: "/calculator/cash-flow",
-    category: "business",
-  },
-  {
-    id: "depreciation",
-    name: "Depreciation Calculator",
-    description: "Calculate asset depreciation using various methods",
-    href: "/calculator/depreciation",
-    category: "business",
-  },
-  {
-    id: "payroll",
-    name: "Payroll Calculator",
-    description: "Calculate employee payroll and deductions",
-    href: "/calculator/payroll",
     category: "business",
   },
 
@@ -361,27 +216,6 @@ export const calculators: Calculator[] = [
     href: "/calculator/gpa",
     category: "education",
   },
-  {
-    id: "grade",
-    name: "Grade Calculator",
-    description: "Calculate final grades and required scores",
-    href: "/calculator/grade",
-    category: "education",
-  },
-  {
-    id: "student-loan",
-    name: "Student Loan Calculator",
-    description: "Calculate student loan payments and repayment options",
-    href: "/calculator/student-loan",
-    category: "education",
-  },
-  {
-    id: "scholarship",
-    name: "Scholarship Calculator",
-    description: "Calculate scholarship amounts and requirements",
-    href: "/calculator/scholarship",
-    category: "education",
-  },
 
   // Automotive Calculators
   {
@@ -390,57 +224,7 @@ export const calculators: Calculator[] = [
     description: "Calculate car loan payments and financing options",
     href: "/calculator/car-loan",
     category: "automotive",
-  },
-  {
-    id: "fuel-economy",
-    name: "Fuel Economy Calculator",
-    description: "Calculate fuel efficiency and gas mileage",
-    href: "/calculator/fuel-economy",
-    category: "automotive",
-  },
-  {
-    id: "lease",
-    name: "Lease Calculator",
-    description: "Calculate car lease payments and terms",
-    href: "/calculator/lease",
-    category: "automotive",
-  },
-  {
-    id: "insurance",
-    name: "Insurance Calculator",
-    description: "Calculate auto insurance premiums and coverage",
-    href: "/calculator/insurance",
-    category: "automotive",
-  },
-
-  // Real Estate Calculators
-  {
-    id: "property-tax",
-    name: "Property Tax Calculator",
-    description: "Calculate property taxes and assessments",
-    href: "/calculator/property-tax",
-    category: "real-estate",
-  },
-  {
-    id: "rent-vs-buy",
-    name: "Rent vs Buy Calculator",
-    description: "Compare renting vs buying a home financially",
-    href: "/calculator/rent-vs-buy",
-    category: "real-estate",
-  },
-  {
-    id: "cap-rate",
-    name: "Cap Rate Calculator",
-    description: "Calculate capitalization rate for investment properties",
-    href: "/calculator/cap-rate",
-    category: "real-estate",
-  },
-  {
-    id: "cash-on-cash",
-    name: "Cash on Cash Calculator",
-    description: "Calculate cash-on-cash return for real estate investments",
-    href: "/calculator/cash-on-cash",
-    category: "real-estate",
+    popular:true
   },
 ]
 
