@@ -199,7 +199,7 @@ export default function BMICalculator() {
 
   const BMIChart = () => (
     <div className="space-y-4">
-      <div className="relative w-full h-8 bg-gradient-to-r from-blue-400 via-green-400 via-yellow-400 to-red-400 rounded-lg overflow-hidden">
+      <div className="relative w-full h-8 bg-gradient-to-r from-blue-400 via-green-400 to-red-400 rounded-lg overflow-hidden">
         <div className="absolute inset-0 flex">
           <div className="flex-1 bg-blue-400 flex items-center justify-center text-white text-xs font-bold">16</div>
           <div className="flex-1 bg-blue-300 flex items-center justify-center text-white text-xs font-bold">17</div>

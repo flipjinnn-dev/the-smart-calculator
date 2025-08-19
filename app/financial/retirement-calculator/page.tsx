@@ -317,7 +317,7 @@ export default function RetirementCalculator() {
                   <TrendingUp className="w-10 h-10 text-white drop-shadow-md" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">Retirement Calculator</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Retirement Calculator</h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">Plan your retirement savings, withdrawals, and future with this all-in-one tool.</p>
               <div className="flex justify-center mt-4">
                 <div className="h-1 w-24 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full"></div>

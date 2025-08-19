@@ -151,8 +151,8 @@ const popularCalculators = [
   },
   {
     name: "Percentage Calculator",
-    category: "Math",
-    href: "/math/percentage-calculator",
+    category: "Maths",
+    href: "/maths/percentage-calculator",
     description: "Calculate percentages, ratios, and percentage changes easily",
     color: "bg-gradient-to-r from-blue-400 to-blue-600",
   },
