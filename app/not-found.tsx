@@ -61,12 +61,12 @@ export default function NotFound() {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Popular Calculators</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                { name: "Mortgage Calculator", href: "/calculator/mortgage", category: "Financial" },
-                { name: "BMI Calculator", href: "/calculator/bmi", category: "Health" },
-                { name: "Loan Calculator", href: "/calculator/loan", category: "Financial" },
-                { name: "Percentage Calculator", href: "/calculator/percentage", category: "Math" },
-                { name: "Compound Interest", href: "/calculator/compound-interest", category: "Financial" },
-                { name: "Calorie Calculator", href: "/calculator/calorie", category: "Health" },
+                { name: "Mortgage Calculator", href: "/financial/mortgage-calculator", category: "Financial" },
+                { name: "BMI Calculator", href: "/health/bmi-calculator", category: "Health" },
+                { name: "Loan Calculator", href: "/financial/loan-calculator", category: "Financial" },
+                { name: "Percentage Calculator", href: "/maths/percentage-calculator", category: "Maths" },
+                { name: "Compound Interest", href: "/financial/compound-interest-calculator", category: "Financial" },
+                { name: "Calorie Calculator", href: "/health/calorie-calculator", category: "Health" },
               ].map((calc, index) => (
                 <Link key={index} href={calc.href}>
                   <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer">
@@ -105,19 +105,6 @@ export default function NotFound() {
           </section>
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="flex items-center justify-center space-x-3 mb-4">
-              <Logo />
-              <span className="text-xl font-bold">Smart Calculator</span>
-            </div>
-            <p className="text-gray-400">&copy; 2024 Smart Calculator. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }

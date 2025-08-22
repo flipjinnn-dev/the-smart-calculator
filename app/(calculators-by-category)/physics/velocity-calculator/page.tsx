@@ -467,7 +467,7 @@ export default function VelocityCalculator() {
               </div>
 
               {/* Result Card (right side) */}
-              <div className="hidden lg:block">
+              <div className="">
                 <Card className="shadow-2xl border-0 bg-gradient-to-br  h-full flex flex-col justify-center items-center p-8">
                   <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-yellow-500 to-amber-500 flex items-center justify-center mb-3 shadow-lg">
@@ -567,21 +567,6 @@ export default function VelocityCalculator() {
           </div>
         </main>
 
-        <footer className="bg-gray-900 text-white py-16 mt-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image_720-8sE77EX08xKuB6AvLTisdyhRT3j1X2.png"
-                  alt="Smart Calculator Logo"
-                  className="w-12 h-12"
-                />
-                <span className="text-2xl font-bold">Smart Calculator</span>
-              </div>
-              <p className="text-gray-400">&copy; 2025 Smart Calculator. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
       </div>
     </>
   )

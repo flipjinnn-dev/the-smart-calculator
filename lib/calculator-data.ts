@@ -190,6 +190,13 @@ export const calculators: Calculator[] = [
     category: "physics",
     popular: true
   },
+  {
+    id: "arrow-speed",
+    name: "Arrow Speed Calculator",
+    description: "Calculate arrow speed, momentum, and kinetic energy using IBO ratings.",
+    href: "/physics/arrow-speed-calculator",
+    category: "physics",
+  },
   // Construction Calculators
   {
     id: "board-foot",
@@ -199,34 +206,63 @@ export const calculators: Calculator[] = [
     category: "construction",
     popular:true
   },
-    // Food Calculators
   {
-    id: "car-loan",
-    name: "Car Loan Calculator",
-    description: "Calculate car loan payments and financing options",
-    href: "/food/car-loan",
+    id: "cubic-yard",
+    name: "Cubic Yard Calculator",
+    description: "Calculate cubic yards for concrete, soil, and other materials",
+    href: "/construction/cubic-yard-calculator",
+    category: "construction",
+  },
+  // Food Calculators
+  {
+    id: "buttor",
+    name: "Butter Calculator",
+    description: "Convert butter measurements between sticks, cups, tablespoons, teaspoons, and grams.",
+    href: "/food/butter-calculator",
+    category: "food",
+    popular:true
+  },
+  {
+    id: "cake-pan",
+    name: "Cake Pan Calculator",
+    description: "Calculate the equivalent sizes of round, square, and rectangular cake pans.",
+    href: "/food/cake-pan-calculator",
     category: "food",
     popular:true
   },
   // Sports Calculators
   {
-    id: "profit-margin",
-    name: "Profit Margin Calculator",
-    description: "Calculate gross and net profit margins",
-    href: "/sports/profit-margin",
+    id: "batting-average",
+    name: "Batting Average Calculator",
+    description: "Calculate batting average and related statistics",
+    href: "/sports/batting-average-calculator",
     category: "sports",
     popular: true
+  },
+  {
+    id:"earned-run-average",
+    name: "Earned Run Average Calculator",
+    description: "Calculate earned run average (ERA) for pitchers",
+    href: "/sports/earned-run-average-calculator",
+    category: "sports",
   },
 
   // Other Calculators
   {
-    id: "gpa",
-    name: "GPA Calculator",
-    description: "Calculate Grade Point Average for academic performance",
-    href: "/other/gpa",
+    id: "age",
+    name: "Age Calculator",
+    description: "Calculate age in years, months, and days",
+    href: "/other/age-calculator",
     category: "other",
     popular: true
   },
+  {
+    id:"time-calculator",
+    name: "Time Calculator",
+    description: "Perform calculations related to time, such as duration and time zone conversions.",
+    href: "/other/time-calculator",
+    category: "other",
+  }
 
 
 ]

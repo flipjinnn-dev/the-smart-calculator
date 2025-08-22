@@ -244,18 +244,7 @@ export default function LoanCalculator() {
           </div>
         </main>
 
-        {/* Footer */}
-        <footer className="bg-gray-900 text-white py-16 mt-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <Logo />
-                <span className="text-2xl font-bold">Smart Calculator</span>
-              </div>
-              <p className="text-gray-400">&copy; 2024 Smart Calculator. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
+
       </div>
     </>
   )

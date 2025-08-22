@@ -579,7 +579,7 @@ export default function BodyFatCalculator() {
                         {/* Body Fat Scale */}
                         <div className="space-y-3">
                           <h3 className="font-bold text-lg text-gray-900">Body Fat Scale</h3>
-                          <div className="relative w-full h-8 bg-gradient-to-r from-green-400 via-yellow-400 via-orange-400 to-red-400 rounded-lg overflow-hidden">
+                          <div className="relative w-full h-8 bg-gradient-to-r from-green-400 via-orange-400 to-red-400 rounded-lg overflow-hidden">
                             <div
                               className="absolute top-0 w-1 h-full bg-black"
                               style={{ left: `${Math.min(Math.max(result.bodyFatPercentage * 2, 0), 100)}%` }}
@@ -687,18 +687,7 @@ export default function BodyFatCalculator() {
           </div>
         </main>
 
-        {/* Footer */}
-        <footer className="bg-gray-900 text-white py-16 mt-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <Logo />
-                <span className="text-2xl font-bold">Smart Calculator</span>
-              </div>
-              <p className="text-gray-400">&copy; 2025 Smart Calculator. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
+
       </div>
     </>
   )

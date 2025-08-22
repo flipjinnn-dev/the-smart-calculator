@@ -1054,16 +1054,7 @@ export default function InvestmentCalculator() {
           </div>
         </main>
 
-        {/* Footer - matching retirement calculator */}
-        <footer className="bg-white border-t py-8">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500">
-            <p className="text-sm">&copy; {new Date().getFullYear()} Smart Calculator. All rights reserved.</p>
-            <p className="mt-2 text-xs">
-              This calculator is for illustrative purposes only and does not constitute financial advice. Consult with a
-              qualified financial advisor for personalized recommendations.
-            </p>
-          </div>
-        </footer>
+
       </div>
     </>
   )

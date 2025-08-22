@@ -192,7 +192,7 @@ export default function ScientificCalculator() {
                 </Card>
               </div>
               {/* Result Card (right side) */}
-              <div className="hidden lg:block">
+              <div className="">
                 <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-blue-200 h-full flex flex-col justify-center items-center p-8">
                   <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center mb-3 shadow-lg">
@@ -251,17 +251,6 @@ export default function ScientificCalculator() {
           </div>
         </main>
         {/* Footer */}
-        <footer className="bg-gray-900 text-white py-16 mt-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <Logo />
-                <span className="text-2xl font-bold">Smart Calculator</span>
-              </div>
-              <p className="text-gray-400">&copy; 2025 Smart Calculator. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
       </div>
     </>
   )

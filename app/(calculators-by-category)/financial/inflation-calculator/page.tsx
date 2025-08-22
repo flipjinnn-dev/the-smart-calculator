@@ -605,28 +605,7 @@ export default function InflationCalculator() {
         </main>
 
         {/* Footer */}
-        <footer className="bg-white border-t mt-16">
-          <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="flex justify-center mb-4">
-                <Logo />
-              </div>
-              <p className="text-gray-600 mb-4">Smart Calculator - Your trusted companion for financial calculations</p>
-              <div className="flex justify-center space-x-6 text-sm text-gray-500">
-                <Link href="/privacy" className="hover:text-orange-600 transition-colors">
-                  Privacy Policy
-                </Link>
-                <Link href="/terms" className="hover:text-orange-600 transition-colors">
-                  Terms of Service
-                </Link>
-                <Link href="/contact" className="hover:text-orange-600 transition-colors">
-                  Contact Us
-                </Link>
-              </div>
-              <p className="text-xs text-gray-400 mt-4">© 2024 Smart Calculator. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
+
       </div>
     </>
   )
