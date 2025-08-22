@@ -235,7 +235,7 @@ export default function HomePage() {
             <div className="mb-8">
               <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg border border-white/20 mb-8">
                 <Sparkles className="w-5 h-5 text-blue-600 mr-2" />
-                <span className="text-sm font-semibold text-gray-700">Trusted by 10M+ Users Worldwide</span>
+                <span className="text-sm font-semibold text-gray-700">Trusted by 10M+  Users Worldwide</span>
               </div>
             </div>
             <h2 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-tight">
