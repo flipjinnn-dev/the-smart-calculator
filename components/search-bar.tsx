@@ -1,63 +1,20 @@
 "use client"
 
 import type React from "react"
-
 import { useState, useRef, useEffect } from "react"
-import { Search, X, Calculator, TrendingUp, Heart } from "lucide-react"
+import { Search, X, Calculator } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
+import { calculators } from "@/lib/calculator-data"
 
-const suggestedCalculators = [
-  {
-    name: "Mortgage Calculator",
-    href: "/calculator/mortgage",
-    category: "Financial",
-    icon: TrendingUp,
-    color: "text-green-600",
-  },
-  {
-    name: "BMI Calculator",
-    href: "/calculator/bmi",
-    category: "Health",
-    icon: Heart,
-    color: "text-red-600",
-  },
-  {
-    name: "Loan Calculator",
-    href: "/calculator/loan",
-    category: "Financial",
-    icon: TrendingUp,
-    color: "text-green-600",
-  },
-  {
-    name: "Percentage Calculator",
-    href: "/calculator/percentage",
-    category: "Math",
-    icon: Calculator,
-    color: "text-blue-600",
-  },
-  {
-    name: "Compound Interest",
-    href: "/calculator/compound-interest",
-    category: "Financial",
-    icon: TrendingUp,
-    color: "text-green-600",
-  },
-  {
-    name: "Calorie Calculator",
-    href: "/calculator/calorie",
-    category: "Health",
-    icon: Heart,
-    color: "text-red-600",
-  },
-]
+const popularCalculators = calculators.filter((calc) => calc.popular)
 
 export default function SearchBar() {
   const [isOpen, setIsOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
-  const [filteredCalculators, setFilteredCalculators] = useState(suggestedCalculators)
+  const [filteredCalculators, setFilteredCalculators] = useState(popularCalculators)
   const searchRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -75,12 +32,13 @@ export default function SearchBar() {
 
   useEffect(() => {
     if (searchQuery.trim() === "") {
-      setFilteredCalculators(suggestedCalculators)
+      setFilteredCalculators(popularCalculators)
     } else {
-      const filtered = suggestedCalculators.filter(
+      const filtered = calculators.filter(
         (calc) =>
           calc.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          calc.category.toLowerCase().includes(searchQuery.toLowerCase()),
+          calc.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          calc.description.toLowerCase().includes(searchQuery.toLowerCase()),
       )
       setFilteredCalculators(filtered)
     }
@@ -89,11 +47,35 @@ export default function SearchBar() {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
     if (searchQuery.trim()) {
-      // Navigate to search results or first matching calculator
       const firstMatch = filteredCalculators[0]
       if (firstMatch) {
         window.location.href = firstMatch.href
       }
+    }
+  }
+
+  const getCategoryColor = (category: string) => {
+    switch (category.toLowerCase()) {
+      case "financial":
+        return "text-green-600"
+      case "health":
+        return "text-red-600"
+      case "physics":
+        return "text-purple-600"
+      case "real-estate":
+        return "text-orange-600"
+      case "construction":
+        return "text-amber-600"
+      case "maths":
+        return "text-blue-600"
+      case "food":
+        return "text-pink-600"
+      case "sports":
+        return "text-indigo-600"
+      case "other":
+        return "text-gray-600"
+      default:
+        return "text-blue-600"
     }
   }
 
@@ -143,7 +125,6 @@ export default function SearchBar() {
             </Button>
           </form>
 
-          {/* Search Suggestions Dropdown */}
           {isOpen && (
             <Card className="absolute top-full left-0 right-0 mt-2 z-50 shadow-2xl border-0 rounded-2xl overflow-hidden">
               <CardContent className="p-0">
@@ -155,35 +136,33 @@ export default function SearchBar() {
                   )}
 
                   {filteredCalculators.length > 0 ? (
-                    filteredCalculators.map((calc, index) => {
-                      const IconComponent = calc.icon
-                      return (
-                        <Link
-                          key={index}
-                          href={calc.href}
-                          onClick={() => {
-                            setIsOpen(false)
-                            setSearchQuery("")
-                          }}
-                        >
-                          <div className="flex items-center space-x-4 px-6 py-4 hover:bg-gray-50 transition-colors cursor-pointer border-b border-gray-100 last:border-b-0">
-                            <div className={`w-10 h-10 rounded-xl bg-gray-100 flex items-center justify-center`}>
-                              <IconComponent className={`w-5 h-5 ${calc.color}`} />
-                            </div>
-                            <div className="flex-1">
-                              <p className="font-semibold text-gray-900 text-base">{calc.name}</p>
-                              <p className="text-sm text-gray-500">{calc.category}</p>
-                            </div>
-                            <Search className="w-4 h-4 text-gray-400" />
+                    filteredCalculators.map((calc) => (
+                      <Link
+                        key={calc.id}
+                        href={calc.href}
+                        onClick={() => {
+                          setIsOpen(false)
+                          setSearchQuery("")
+                        }}
+                      >
+                        <div className="flex items-center space-x-4 px-6 py-4 hover:bg-gray-50 transition-colors cursor-pointer border-b border-gray-100 last:border-b-0">
+                          <div className={`w-10 h-10 rounded-xl bg-gray-100 flex items-center justify-center`}>
+                            <Calculator className={`w-5 h-5 ${getCategoryColor(calc.category)}`} />
                           </div>
-                        </Link>
-                      )
-                    })
+                          <div className="flex-1">
+                            <p className="font-semibold text-gray-900 text-base">{calc.name}</p>
+                            <p className="text-sm text-gray-500">{calc.category}</p>
+                            <p className="text-xs text-gray-400 mt-1 line-clamp-1">{calc.description}</p>
+                          </div>
+                          <Search className="w-4 h-4 text-gray-400" />
+                        </div>
+                      </Link>
+                    ))
                   ) : (
                     <div className="px-6 py-12 text-center">
                       <Search className="w-12 h-12 text-gray-400 mx-auto mb-4" />
                       <p className="text-gray-500 font-medium">No calculators found</p>
-                      <p className="text-sm text-gray-400 mt-2">Try searching for "mortgage", "BMI", or "percentage"</p>
+                      <p className="text-sm text-gray-400 mt-2">Try searching for different terms</p>
                     </div>
                   )}
                 </div>

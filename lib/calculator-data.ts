@@ -186,46 +186,49 @@ export const calculators: Calculator[] = [
     id: "velocity",
     name: "Velocity Calculator",
     description: "Calculate velocity, speed, and acceleration",
-    href: "/calculator/velocity",
+    href: "/physics/velocity-calculator",
     category: "physics",
     popular: true
   },
-  // Real Estate Calculators
+  // Construction Calculators
   {
-    id: "property-tax",
-    name: "Property Tax Calculator",
-    description: "Calculate property taxes and assessments",
-    href: "/real-estate/property-tax",
-    category: "real-estate",
+    id: "board-foot",
+    name: "Board Foot Calculator",
+    description: "Calculate board feet for lumber and building materials",
+    href: "/construction/board-foot-calculator",
+    category: "construction",
     popular:true
   },
-  // Business Calculators
-  {
-    id: "profit-margin",
-    name: "Profit Margin Calculator",
-    description: "Calculate gross and net profit margins",
-    href: "/calculator/profit-margin",
-    category: "business",
-  },
-
-  // Education Calculators
-  {
-    id: "gpa",
-    name: "GPA Calculator",
-    description: "Calculate Grade Point Average for academic performance",
-    href: "/calculator/gpa",
-    category: "education",
-  },
-
-  // Automotive Calculators
+    // Food Calculators
   {
     id: "car-loan",
     name: "Car Loan Calculator",
     description: "Calculate car loan payments and financing options",
-    href: "/calculator/car-loan",
-    category: "automotive",
+    href: "/food/car-loan",
+    category: "food",
     popular:true
   },
+  // Sports Calculators
+  {
+    id: "profit-margin",
+    name: "Profit Margin Calculator",
+    description: "Calculate gross and net profit margins",
+    href: "/sports/profit-margin",
+    category: "sports",
+    popular: true
+  },
+
+  // Other Calculators
+  {
+    id: "gpa",
+    name: "GPA Calculator",
+    description: "Calculate Grade Point Average for academic performance",
+    href: "/other/gpa",
+    category: "other",
+    popular: true
+  },
+
+
 ]
 
 // Helper functions to get calculators by category

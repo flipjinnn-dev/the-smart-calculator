@@ -5,14 +5,14 @@ import {
   Calculator,
   TrendingUp,
   Home,
-  Car,
+  Bike,
   Heart,
-  Briefcase,
-  GraduationCap,
-  Zap,
   Sparkles,
   Shield,
   Rocket,
+  Atom,
+  MoreHorizontal,
+  Beef,
 } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Logo from "@/components/logo"
@@ -74,7 +74,7 @@ const categories = [
     id: "physics",
     name: "Physics",
     description: "Force, energy, motion, and physics calculations",
-    icon: Zap,
+    icon: Atom,
     color: "from-yellow-400 to-yellow-600",
     bgColor: "bg-yellow-50",
     textColor: "text-yellow-600",
@@ -82,48 +82,49 @@ const categories = [
     href: "/physics",
   },
   {
-    id: "real-estate",
-    name: "Real Estate",
-    description: "Property, rent, and real estate calculations",
+    id: "construction",
+    name: "Construction",
+    description: "Property, rent, and construction calculations",
     icon: Home,
     color: "from-purple-400 to-purple-600",
     bgColor: "bg-purple-50",
     textColor: "text-purple-600",
-    calculators: getCalculatorCount("real-estate"),
-    href: "/real-estate",
+    calculators: getCalculatorCount("construction"),
+    href: "/construction",
   },
   {
-    id: "automotive",
-    name: "Automotive",
-    description: "Car loan, fuel, and vehicle-related calculators",
-    icon: Car,
+    id: "food",
+    name: "Food",
+    description: "Nutrition, calorie, and meal planning calculators",
+    icon: Beef,
+    color: "from-orange-400 to-red-500",
+    bgColor: "bg-orange-50",
+    textColor: "text-orange-600",
+    calculators: getCalculatorCount("food"),
+    href: "/food",
+  },
+  {
+    id: "sports",
+    name: "Sports",
+    description: "Fitness, exercise, and sports-related calculators",
+    icon: Bike,
+    color: "from-blue-400 to-cyan-500",
+    bgColor: "bg-blue-50",
+    textColor: "text-blue-600",
+
+    calculators: getCalculatorCount("sports"),
+    href: "/sports",
+  },
+  {
+    id: "other",
+    name: "Other",
+    description: "Miscellaneous calculators that don't fit into other categories",
+    icon: MoreHorizontal,
     color: "from-gray-400 to-gray-600",
     bgColor: "bg-gray-50",
-    textColor: "text-gray-600",
-    calculators: getCalculatorCount("automotive"),
-    href: "/automotive",
-  },
-  {
-    id: "business",
-    name: "Business",
-    description: "ROI, profit margin, and business calculators",
-    icon: Briefcase,
-    color: "from-indigo-400 to-indigo-600",
-    bgColor: "bg-indigo-50",
-    textColor: "text-indigo-600",
-    calculators: getCalculatorCount("business"),
-    href: "/business",
-  },
-  {
-    id: "education",
-    name: "Education",
-    description: "GPA, grade, and academic calculators",
-    icon: GraduationCap,
-    color: "from-pink-400 to-pink-600",
-    bgColor: "bg-pink-50",
     textColor: "text-pink-600",
-    calculators: getCalculatorCount("education"),
-    href: "/education",
+    calculators: getCalculatorCount("other"),
+    href: "/other",
   },
 ]
 
@@ -212,7 +213,7 @@ export default function HomePage() {
                 <Logo />
                 <div>
                   <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-500 via-red-500 to-green-500 bg-clip-text text-transparent">
-                    Smart Calculator
+                    Smart Calculators
                   </h1>
                   <p className="text-sm text-gray-500">Free Online Calculators</p>
                 </div>
@@ -240,7 +241,7 @@ export default function HomePage() {
             <h2 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-tight">
               Smart
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent block">
-                Calculator
+                Calculators
               </span>
             </h2>
 
