@@ -59,7 +59,7 @@ export default function SearchBar() {
       case "financial":
         return "text-green-600"
       case "health":
-        return "text-red-600"
+        return "text-red-500"
       case "physics":
         return "text-purple-600"
       case "real-estate":
