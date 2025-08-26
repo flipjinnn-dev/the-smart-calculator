@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Ruler, Package, DollarSign } from "lucide-react"
@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -42,6 +43,8 @@ interface BoardFootResults {
 }
 
 export default function BoardFootCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [pieces, setPieces] = useState("1")
   const [thickness, setThickness] = useState("1")
   const [width, setWidth] = useState("6")
@@ -97,6 +100,10 @@ export default function BoardFootCalculator() {
     }
 
     setResults(calculationResults)
+
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   }
 
   return (
@@ -298,7 +305,7 @@ export default function BoardFootCalculator() {
 
               {/* Results */}
               <div className="lg:col-span-1">
-                <Card className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
+                <Card ref={resultsRef} className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
                   <CardHeader className="bg-gradient-to-r from-orange-50 to-red-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="text-2xl">Results</CardTitle>
                     <CardDescription className="text-base">Board foot calculations</CardDescription>

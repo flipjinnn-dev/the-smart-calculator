@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -9,8 +9,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Link from "next/link"
 import Head from "next/head"
 import { Trophy, Target, Activity } from "lucide-react"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function BattingAverageCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [tab, setTab] = useState("basic")
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
@@ -95,6 +98,8 @@ export default function BattingAverageCalculator() {
         calculateAdvancedAverage()
         break
     }
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
   }
 
   return (
@@ -313,7 +318,7 @@ export default function BattingAverageCalculator() {
 
               {/* Result Card (right side) */}
               <div className="">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-emerald-100 h-full flex flex-col justify-center items-center p-8">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-emerald-100 h-full flex flex-col justify-center items-center p-8">
                   <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 flex items-center justify-center mb-3 shadow-lg">
                       <Trophy className="w-6 h-6 text-white" />

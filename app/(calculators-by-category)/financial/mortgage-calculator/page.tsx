@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Home, DollarSign, Percent, Calendar, Plus, Minus } from "lucide-react"
@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 interface ExtraPayment {
   id: string
@@ -21,6 +22,8 @@ interface ExtraPayment {
 }
 
 export default function MortgageCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [homePrice, setHomePrice] = useState("400000")
   const [downPaymentType, setDownPaymentType] = useState("percent")
   const [downPaymentAmount, setDownPaymentAmount] = useState("80000")
@@ -207,6 +210,9 @@ export default function MortgageCalculator() {
       insurancePercent,
       otherPercent,
     })
+    // Scroll to results
+  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   }
 
   return (
@@ -635,7 +641,10 @@ export default function MortgageCalculator() {
                     </Collapsible>
 
                     <Button
-                      onClick={calculateMortgage}
+                      onClick={() => {
+                          calculateMortgage()
+                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                        }}
                       className="w-full h-14 text-xl bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow-xl font-bold mt-12"
                     >
                       Calculate Mortgage
@@ -646,7 +655,7 @@ export default function MortgageCalculator() {
 
               {/* Results */}
               <div className="lg:col-span-1">
-                <Card className="shadow-2xl border-0 bg-white sticky top-24 pt-0">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24 pt-0">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="text-2xl">Monthly Payment</CardTitle>
                     <CardDescription className="text-base">Your complete payment breakdown</CardDescription>

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Logo from "@/components/logo";
@@ -10,10 +10,13 @@ import { Calculator, TrendingUp, DollarSign, Percent, Calendar } from "lucide-re
 import Head from "next/head";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { useMobileScroll } from "@/hooks/useMobileScroll";
 
 
 export default function RetirementCalculator() {
   // State for results
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [result, setResult] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
 
@@ -263,6 +266,8 @@ export default function RetirementCalculator() {
       default:
         return null;
     }
+  // Scroll to results
+  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
   }
 
   return (
@@ -368,6 +373,7 @@ export default function RetirementCalculator() {
                     </div>
                     <Button
                       onClick={() => {
+                        scrollToRef(resultsRef as React.RefObject<HTMLElement>);
                         if (calcType === 'need') {
                           calculateNeed();
                         } else if (calcType === 'save') {
@@ -437,7 +443,7 @@ export default function RetirementCalculator() {
               </div>
               {/* Right: Results card */}
               <div>
-                <Card className="shadow-xl border-0 pt-0 min-h-0 rounded-xl overflow-hidden hover:shadow-blue-100/50 transition-shadow duration-300">
+                <Card ref={resultsRef} className="shadow-xl border-0 pt-0 min-h-0 rounded-xl overflow-hidden hover:shadow-blue-100/50 transition-shadow duration-300">
                   <CardHeader className="bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 rounded-t-xl py-5 px-6 border-b border-blue-100/50">
                     <CardTitle className="flex items-center space-x-3 text-xl">
                       <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center shadow-lg">

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, DollarSign, Percent, Calendar, TrendingUp } from "lucide-react"
@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -26,6 +27,8 @@ const jsonLd = {
 }
 
 export default function LoanCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [loanAmount, setLoanAmount] = useState("")
   const [interestRate, setInterestRate] = useState("")
   const [loanTerm, setLoanTerm] = useState("")
@@ -54,6 +57,9 @@ export default function LoanCalculator() {
       totalInterest,
       totalPayment,
     })
+   // Scroll to results
+  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   }
 
   return (
@@ -181,7 +187,10 @@ export default function LoanCalculator() {
                   </div>
 
                   <Button
-                    onClick={calculateLoan}
+                    onClick={() => {
+                          calculateLoan()
+                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                        }}
                     className="w-full h-12 text-lg bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow-lg"
                   >
                     Calculate Loan
@@ -190,7 +199,7 @@ export default function LoanCalculator() {
               </Card>
 
               {/* Results */}
-              <Card className="shadow-xl border-0 pt-0">
+              <Card ref={resultsRef} className="shadow-xl border-0 pt-0">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg">
                   <CardTitle className="text-2xl">Calculation Results</CardTitle>
                   <CardDescription className="text-base">Your loan payment breakdown</CardDescription>

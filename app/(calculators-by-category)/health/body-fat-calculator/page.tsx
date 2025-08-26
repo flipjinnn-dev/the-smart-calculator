@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Heart, User, Ruler, Weight, Activity, Calendar, Scale } from "lucide-react"
@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -47,6 +48,8 @@ interface BodyFatResult {
 }
 
 export default function BodyFatCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [unitSystem, setUnitSystem] = useState<"us" | "metric" | "other">("metric")
   const [gender, setGender] = useState<"male" | "female">("male")
   const [age, setAge] = useState<string>("25")
@@ -81,6 +84,9 @@ export default function BodyFatCalculator() {
     let neckCmValue: number
     let waistCmValue: number
     let hipCmValue: number
+
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
 
     // Convert to metric
     if (unitSystem === "us") {
@@ -559,7 +565,7 @@ export default function BodyFatCalculator() {
 
               {/* Results */}
               <div className="lg:col-span-1">
-                <Card className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
+                <Card ref={resultsRef} className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="text-2xl">Body Fat Analysis</CardTitle>
                     <CardDescription className="text-base">Your complete body composition breakdown</CardDescription>

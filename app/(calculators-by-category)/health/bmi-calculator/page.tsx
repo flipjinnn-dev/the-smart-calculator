@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Heart, User, Ruler, Calendar, Scale } from "lucide-react"
@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -51,6 +52,8 @@ interface BMIResults {
 }
 
 export default function BMICalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [unitSystem, setUnitSystem] = useState("metric")
   const [age, setAge] = useState("25")
   const [gender, setGender] = useState("")
@@ -85,6 +88,9 @@ export default function BMICalculator() {
     let heightInM = 0
     let weightInKg = 0
     const ageNum = Number.parseInt(age)
+
+  // Scroll to results
+  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
 
     if (!ageNum || ageNum < 2 || ageNum > 120) return
 
@@ -443,7 +449,7 @@ export default function BMICalculator() {
 
               {/* Results */}
               <div className="lg:col-span-1">
-                <Card className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
+                <Card ref={resultsRef} className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="text-2xl">Result</CardTitle>
                     <CardDescription className="text-base">Save this calculation</CardDescription>

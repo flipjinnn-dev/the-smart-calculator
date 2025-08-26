@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Car, DollarSign } from "lucide-react"
@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Checkbox } from "@/components/ui/checkbox"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 const US_STATES = [
   { value: "AL", label: "Alabama", tax: 4.0 },
@@ -68,6 +69,8 @@ const US_STATES = [
 ]
 
 export default function AutoLoanCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [autoPrice, setAutoPrice] = useState("50000")
   const [loanTerm, setLoanTerm] = useState("60")
   const [interestRate, setInterestRate] = useState("5")
@@ -101,6 +104,8 @@ export default function AutoLoanCalculator() {
     }>
   } | null>(null)
 
+  // Scroll to results
+  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
   const handleStateChange = (stateValue: string) => {
     setSelectedState(stateValue)
     const state = US_STATES.find((s) => s.value === stateValue)
@@ -425,7 +430,10 @@ export default function AutoLoanCalculator() {
                       </div>
 
                       <Button
-                        onClick={calculateAutoLoan}
+                        onClick={() => {
+                          calculateAutoLoan();
+                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                        }}
                         className="w-full h-14 text-xl bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow-xl font-bold mt-12"
                       >
                         Calculate
@@ -591,7 +599,10 @@ export default function AutoLoanCalculator() {
                       </div>
 
                       <Button
-                        onClick={calculateAutoLoan}
+                        onClick={() => {
+                          calculateAutoLoan()
+                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                        }}
                         className="w-full h-14 text-xl bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow-xl font-bold mt-12"
                       >
                         Calculate
@@ -602,7 +613,7 @@ export default function AutoLoanCalculator() {
               </Card>
 
               {/* Results */}
-              <Card className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
+              <Card ref={resultsRef} className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
                 <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
                   <CardTitle className="text-2xl">Monthly Payment</CardTitle>
                   <CardDescription className="text-base">Your complete loan breakdown</CardDescription>

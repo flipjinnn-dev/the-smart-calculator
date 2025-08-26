@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { Calculator } from "lucide-react";
@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Logo from "@/components/logo";
+import { useMobileScroll } from "@/hooks/useMobileScroll";
 
 const SHAPES = [
   {
@@ -127,6 +128,8 @@ const SHAPES = [
 
 
 export default function VolumeCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [shape, setShape] = useState<typeof SHAPES[number]>(SHAPES[0]);
   const [inputs, setInputs] = useState<Record<string, number>>({});
   const [inputUnits, setInputUnits] = useState<Record<string, string>>({});
@@ -199,6 +202,9 @@ export default function VolumeCalculator() {
     } catch {
       setResult(null);
     }
+  // Scroll to results
+  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   };
 
   return (
@@ -319,7 +325,7 @@ export default function VolumeCalculator() {
               </div>
               {/* Right: Results */}
               <div className="col-span-1 flex items-stretch">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-green-200 flex flex-col w-full h-full">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-green-200 flex flex-col w-full h-full">
                   <div className="flex flex-1 flex-col justify-center items-center h-full py-12">
                     <div className="flex flex-col items-center justify-center w-full">
                       <div className="w-14 h-14 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center mb-4 shadow-lg">

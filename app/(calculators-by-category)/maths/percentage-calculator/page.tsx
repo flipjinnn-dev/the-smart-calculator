@@ -1,6 +1,6 @@
 
 "use client"
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Percent } from "lucide-react"
@@ -9,8 +9,11 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function PercentageCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [tab, setTab] = useState("of")
   const [value1, setValue1] = useState("")
   const [value2, setValue2] = useState("")
@@ -39,6 +42,9 @@ export default function PercentageCalculator() {
         break
     }
     setResult(res)
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   }
 
   return (
@@ -178,7 +184,7 @@ export default function PercentageCalculator() {
               </div>
               {/* Result Card (right side) */}
               <div className="">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-blue-200 h-full flex flex-col justify-center items-center p-8">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-blue-200 h-full flex flex-col justify-center items-center p-8">
                   <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center mb-3 shadow-lg">
                       <Percent className="w-6 h-6 text-white" />

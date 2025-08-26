@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -13,8 +13,11 @@ import Logo from "@/components/logo"
 import Link from "next/link"
 import Head from "next/head"
 import { Calculator, TrendingUp, DollarSign, Percent, Calendar } from "lucide-react"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function InvestmentCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [tab, setTab] = useState("end")
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
@@ -55,6 +58,9 @@ export default function InvestmentCalculator() {
       contributions: PMT * N,
     })
     setShowResult(true)
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   }
 
   const calculateContribution = () => {
@@ -849,7 +855,10 @@ export default function InvestmentCalculator() {
 
                     {/* Updated button styling to match blue theme */}
                     <Button
-                      onClick={handleCalculate}
+                      onClick={() => {
+                          handleCalculate()
+                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                        }}
                       className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
                     >
                       <Calculator className="mr-2 h-5 w-5" />
@@ -861,7 +870,7 @@ export default function InvestmentCalculator() {
 
               {/* Right: Results Card - Updated to use blue theme consistently */}
               <div>
-                <Card className="shadow-xl border-0 pt-0 min-h-0 rounded-xl overflow-hidden hover:shadow-blue-100/50 transition-shadow duration-300">
+                <Card ref={resultsRef} className="shadow-xl border-0 pt-0 min-h-0 rounded-xl overflow-hidden hover:shadow-blue-100/50 transition-shadow duration-300">
                   <CardHeader className="bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 rounded-t-xl py-5 px-6 border-b border-blue-100/50">
                     <CardTitle className="flex items-center space-x-3 text-xl">
                       <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 flex items-center justify-center shadow-lg">

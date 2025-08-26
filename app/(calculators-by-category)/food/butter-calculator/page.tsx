@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -9,8 +9,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Link from "next/link"
 import Head from "next/head"
 import { ChefHat, Scale, Utensils } from "lucide-react"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function ButterCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [tab, setTab] = useState("sticks")
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
@@ -43,6 +46,9 @@ export default function ButterCalculator() {
       formula: "1 stick = ½ cup = 8 tbsp = 24 tsp = 113g",
     })
     setShowResult(true)
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+  
   }
 
   const calculateFromCups = () => {
@@ -351,7 +357,10 @@ export default function ButterCalculator() {
                     </div>
 
                     <Button
-                      onClick={handleCalculate}
+                      onClick={() => {
+                          handleCalculate()
+                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                        }}
                       className="w-full h-12 text-lg bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600"
                     >
                       Convert Butter
@@ -362,7 +371,7 @@ export default function ButterCalculator() {
 
               {/* Result Card (right side) */}
               <div className="">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-amber-50 to-orange-100 h-full flex flex-col justify-center items-center p-8">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-amber-50 to-orange-100 h-full flex flex-col justify-center items-center p-8">
                   <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 flex items-center justify-center mb-3 shadow-lg">
                       <ChefHat className="w-6 h-6 text-white" />

@@ -1,6 +1,6 @@
 
 "use client"
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calendar, Baby } from "lucide-react"
@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -42,6 +43,8 @@ const calculateOptions = [
 ]
 
 export default function PregnancyCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [calculateBasedOn, setCalculateBasedOn] = useState("dueDate")
   const [inputDate, setInputDate] = useState("")
   const [result, setResult] = useState<any>(null)
@@ -81,6 +84,10 @@ export default function PregnancyCalculator() {
           ? "Second Trimester"
           : "Third Trimester",
     })
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
+
   }
 
   return (
@@ -189,7 +196,7 @@ export default function PregnancyCalculator() {
 
               {/* Results Info Section */}
               <div className="lg:col-span-1">
-                <Card className="shadow-2xl border-0 bg-white sticky top-24">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24">
                   <CardHeader className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="text-2xl">Pregnancy Info</CardTitle>
                     <CardDescription className="text-base">Your pregnancy schedule breakdown</CardDescription>

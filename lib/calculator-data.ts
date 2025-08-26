@@ -183,6 +183,13 @@ export const calculators: Calculator[] = [
 
   // Physics Calculators
   {
+    id: "ballistic-coefficient",
+    name: "Ballistic Coefficient Calculator",
+    description: "Calculate the ballistic coefficient of a projectile.",
+    href: "/physics/ballistic-coefficient-calculator",
+    category: "physics",
+  },
+  {
     id: "velocity",
     name: "Velocity Calculator",
     description: "Calculate velocity, speed, and acceleration",
@@ -195,6 +202,20 @@ export const calculators: Calculator[] = [
     name: "Arrow Speed Calculator",
     description: "Calculate arrow speed, momentum, and kinetic energy using IBO ratings.",
     href: "/physics/arrow-speed-calculator",
+    category: "physics",
+  },
+  {
+    id: "car-jump-distance",
+    name: "Car Jump Distance Calculator",
+    description: "Calculate the distance a car can jump based on speed and angle.",
+    href: "/physics/car-jump-distance-calculator",
+    category: "physics",
+  },
+  {
+    id:"conservation-of-momentum",
+    name: "Conservation of Momentum Calculator",
+    description: "Calculate the conservation of momentum in collisions.",
+    href: "/physics/conservation-of-momentum-calculator",
     category: "physics",
   },
   // Construction Calculators
@@ -213,9 +234,30 @@ export const calculators: Calculator[] = [
     href: "/construction/cubic-yard-calculator",
     category: "construction",
   },
+  {
+    id:"gallons-per-square-foot",
+    name: "Gallons per Square Foot Calculator",
+    description: "Calculate the number of gallons needed per square foot for painting or flooring.",
+    href: "/construction/gallons-per-square-foot-calculator",
+    category: "construction",
+  },
+  {
+    id: "size-to-weight-rectangular-cuboid",
+    name: "Size to Weight Calculator",
+    description: "Calculate the weight of a rectangular cuboid given its dimensions and material density.",
+    href: "/construction/size-to-weight-rectangular-cuboid-calculator",
+    category: "construction"
+  },
+  {
+    id: "square-feet-to-cubic-yards",
+    name: "Square Feet to Cubic Yards Calculator",
+    description: "Convert square feet to cubic yards for concrete and other materials.",
+    href: "/construction/square-feet-to-cubic-yards-calculator",
+    category: "construction"
+  },
   // Food Calculators
   {
-    id: "buttor",
+    id: "butter",
     name: "Butter Calculator",
     description: "Convert butter measurements between sticks, cups, tablespoons, teaspoons, and grams.",
     href: "/food/butter-calculator",
@@ -229,6 +271,27 @@ export const calculators: Calculator[] = [
     href: "/food/cake-pan-calculator",
     category: "food",
     popular:true
+  },
+  {
+    id:"cooking-measurement",
+    name: "Cooking Measurement Converter",
+    description: "Convert between different cooking measurements.",
+    href: "/food/cooking-measurement-converter",
+    category: "food",
+  },
+  {
+    id: "cups-to-pounds",
+    name: "Cups to Pounds Converter",
+    description: "Convert cups to pounds for various ingredients.",
+    href: "/food/cups-to-pounds-converter",
+    category: "food",
+  },
+  {
+    id: "dry-to-cooked-pasta",
+    name: "Dry to Cooked Pasta Converter",
+    description: "Convert dry pasta measurements to cooked pasta equivalents.",
+    href: "/food/dry-to-cooked-pasta-converter",
+    category: "food"
   },
   // Sports Calculators
   {

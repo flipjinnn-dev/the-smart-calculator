@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useRef } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, DollarSign, Percent, Calendar, TrendingUp } from "lucide-react"
@@ -23,17 +23,81 @@ export default function InterestCalculator() {
   const [taxRate, setTaxRate] = useState("")
   const [inflationRate, setInflationRate] = useState("")
   const [results, setResults] = useState<any>(null)
+  const [errors, setErrors] = useState<{ [key: string]: string }>({})
+  const resultsRef = useRef<HTMLDivElement>(null)
+
+  const validateInputs = () => {
+    const newErrors: { [key: string]: string } = {}
+
+    // Initial investment validation
+    const initialInv = Number.parseFloat(initialInvestment)
+    if (!initialInvestment || isNaN(initialInv) || initialInv < 0) {
+      newErrors.initialInvestment = "Please enter a valid initial investment amount (≥ 0)"
+    }
+
+    // Annual contribution validation
+    const annualCont = Number.parseFloat(annualContribution)
+    if (annualContribution && (isNaN(annualCont) || annualCont < 0)) {
+      newErrors.annualContribution = "Annual contribution must be ≥ 0"
+    }
+
+    // Monthly contribution validation
+    const monthlyCont = Number.parseFloat(monthlyContribution)
+    if (monthlyContribution && (isNaN(monthlyCont) || monthlyCont < 0)) {
+      newErrors.monthlyContribution = "Monthly contribution must be ≥ 0"
+    }
+
+    // Interest rate validation
+    const rate = Number.parseFloat(interestRate)
+    if (!interestRate || isNaN(rate) || rate < 0 || rate > 100) {
+      newErrors.interestRate = "Please enter a valid interest rate (0-100%)"
+    }
+
+    // Years validation
+    const yearsNum = Number.parseInt(years)
+    const monthsNum = Number.parseInt(months) || 0
+    if ((!years || isNaN(yearsNum) || yearsNum < 0) && monthsNum === 0) {
+      newErrors.years = "Please enter a valid investment period"
+    }
+
+    // Months validation
+    if (months && (isNaN(monthsNum) || monthsNum < 0 || monthsNum > 11)) {
+      newErrors.months = "Months must be between 0-11"
+    }
+
+    // Tax rate validation
+    const taxRateNum = Number.parseFloat(taxRate)
+    if (taxRate && (isNaN(taxRateNum) || taxRateNum < 0 || taxRateNum > 100)) {
+      newErrors.taxRate = "Tax rate must be between 0-100%"
+    }
+
+    // Inflation rate validation
+    const inflationRateNum = Number.parseFloat(inflationRate)
+    if (inflationRate && (isNaN(inflationRateNum) || inflationRateNum < 0 || inflationRateNum > 100)) {
+      newErrors.inflationRate = "Inflation rate must be between 0-100%"
+    }
+
+    setErrors(newErrors)
+    return Object.keys(newErrors).length === 0
+  }
 
   const calculateInterest = () => {
-    const P = parseFloat(initialInvestment) || 0
-    const annualCont = parseFloat(annualContribution) || 0
-    const monthlyCont = parseFloat(monthlyContribution) || 0
-    const r = (parseFloat(interestRate) || 0) / 100
-    const n = parseInt(compound)
-    const t = (parseInt(years) || 0) + ((parseInt(months) || 0) / 12)
-    const tax = (parseFloat(taxRate) || 0) / 100
-    const inflation = (parseFloat(inflationRate) || 0) / 100
-    if (P < 0 || r < 0 || n <= 0 || t <= 0) return
+    // Clear previous errors
+    setErrors({})
+
+    // Validate inputs
+    if (!validateInputs()) {
+      return
+    }
+
+    const P = Number.parseFloat(initialInvestment) || 0
+    const annualCont = Number.parseFloat(annualContribution) || 0
+    const monthlyCont = Number.parseFloat(monthlyContribution) || 0
+    const r = (Number.parseFloat(interestRate) || 0) / 100
+    const n = Number.parseInt(compound)
+    const t = (Number.parseInt(years) || 0) + (Number.parseInt(months) || 0) / 12
+    const tax = (Number.parseFloat(taxRate) || 0) / 100
+    const inflation = (Number.parseFloat(inflationRate) || 0) / 100
 
     // Calculate total contributions
     const totalAnnualCont = annualCont * t
@@ -44,16 +108,16 @@ export default function InterestCalculator() {
     let FV = P * Math.pow(1 + r / n, n * t)
     // Add annual contributions
     if (annualCont > 0) {
-      const factor = contributionTiming === "beginning" ? (1 + r / n) : 1
-      FV += annualCont * factor * (Math.pow(1 + r / n, n * t) - 1) / (r / n)
+      const factor = contributionTiming === "beginning" ? 1 + r / n : 1
+      FV += (annualCont * factor * (Math.pow(1 + r / n, n * t) - 1)) / (r / n)
     }
     // Add monthly contributions
     if (monthlyCont > 0) {
       const m = 12
       const monthlyRate = r / m
       const monthsTotal = t * 12
-      const factor = contributionTiming === "beginning" ? (1 + monthlyRate) : 1
-      FV += monthlyCont * factor * (Math.pow(1 + monthlyRate, monthsTotal) - 1) / monthlyRate
+      const factor = contributionTiming === "beginning" ? 1 + monthlyRate : 1
+      FV += (monthlyCont * factor * (Math.pow(1 + monthlyRate, monthsTotal) - 1)) / monthlyRate
     }
 
     // Interest earned
@@ -63,7 +127,7 @@ export default function InterestCalculator() {
     // Interest of contributions
     const interestContributions = totalInterest - interestInitial
     // After-tax
-    const afterTax = FV - (totalInterest * tax)
+    const afterTax = FV - totalInterest * tax
     // After inflation
     const afterInflation = FV / Math.pow(1 + inflation, t)
 
@@ -76,13 +140,25 @@ export default function InterestCalculator() {
       interestContributions: interestContributions,
       afterInflation: afterInflation,
     })
+
+    if (window.innerWidth <= 768 && resultsRef.current) {
+      setTimeout(() => {
+        resultsRef.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        })
+      }, 100)
+    }
   }
 
   return (
     <>
       <Head>
         <title>Interest Calculator - Smart Calculator</title>
-        <meta name="description" content="Calculate interest, contributions, and future value of your investments with our Interest Calculator." />
+        <meta
+          name="description"
+          content="Calculate interest, contributions, and future value of your investments with our Interest Calculator."
+        />
       </Head>
       <div className="min-h-screen bg-white">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
@@ -91,7 +167,12 @@ export default function InterestCalculator() {
               <div className="flex items-center space-x-3">
                 <Logo />
                 <div>
-                  <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Smart Calculator</Link>
+                  <Link
+                    href="/"
+                    className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+                  >
+                    Smart Calculator
+                  </Link>
                   <p className="text-sm text-gray-500">Interest Calculator</p>
                 </div>
               </div>
@@ -101,9 +182,13 @@ export default function InterestCalculator() {
         <nav className="bg-gray-50 border-b px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-blue-600">Home</Link>
+              <Link href="/" className="text-gray-500 hover:text-blue-600">
+                Home
+              </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/financial" className="text-gray-500 hover:text-blue-600">Financial</Link>
+              <Link href="/financial" className="text-gray-500 hover:text-blue-600">
+                Financial
+              </Link>
               <span className="text-gray-400">/</span>
               <span className="text-gray-900 font-medium">Interest Calculator</span>
             </div>
@@ -118,10 +203,12 @@ export default function InterestCalculator() {
                 </div>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Interest Calculator</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">Calculate your investment growth, interest, and buying power after inflation.</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Calculate your investment growth, interest, and buying power after inflation.
+              </p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              <Card className="shadow-md border-0 min-h-0 pt-0">
+              <Card className="shadow-md border-0 min-h-0 pt-0 main-card">
                 <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg py-4 px-4">
                   <CardTitle className="flex items-center space-x-2 text-xl">
                     <Calculator className="w-5 h-5 text-green-600" />
@@ -136,24 +223,59 @@ export default function InterestCalculator() {
                         <DollarSign className="w-4 h-4" />
                         <span>Initial investment</span>
                       </Label>
-                      <Input id="initialInvestment" type="number" placeholder="20000" value={initialInvestment} onChange={e => setInitialInvestment(e.target.value)} className="h-10 text-base" />
+                      <Input
+                        id="initialInvestment"
+                        type="number"
+                        placeholder="20000"
+                        value={initialInvestment}
+                        onChange={(e) => setInitialInvestment(e.target.value)}
+                        className={`h-10 text-base ${errors.initialInvestment ? "border-red-500" : ""}`}
+                      />
+                      {errors.initialInvestment && (
+                        <p className="text-xs text-red-500 mt-1">{errors.initialInvestment}</p>
+                      )}
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="annualContribution" className="flex items-center space-x-2 text-sm font-semibold">
                         <DollarSign className="w-4 h-4" />
                         <span>Annual contribution</span>
                       </Label>
-                      <Input id="annualContribution" type="number" placeholder="5000" value={annualContribution} onChange={e => setAnnualContribution(e.target.value)} className="h-10 text-base" />
+                      <Input
+                        id="annualContribution"
+                        type="number"
+                        placeholder="5000"
+                        value={annualContribution}
+                        onChange={(e) => setAnnualContribution(e.target.value)}
+                        className={`h-10 text-base ${errors.annualContribution ? "border-red-500" : ""}`}
+                      />
+                      {errors.annualContribution && (
+                        <p className="text-xs text-red-500 mt-1">{errors.annualContribution}</p>
+                      )}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="monthlyContribution" className="flex items-center space-x-2 text-sm font-semibold">
+                      <Label
+                        htmlFor="monthlyContribution"
+                        className="flex items-center space-x-2 text-sm font-semibold"
+                      >
                         <DollarSign className="w-4 h-4" />
                         <span>Monthly contribution</span>
                       </Label>
-                      <Input id="monthlyContribution" type="number" placeholder="0" value={monthlyContribution} onChange={e => setMonthlyContribution(e.target.value)} className="h-10 text-base" />
+                      <Input
+                        id="monthlyContribution"
+                        type="number"
+                        placeholder="0"
+                        value={monthlyContribution}
+                        onChange={(e) => setMonthlyContribution(e.target.value)}
+                        className={`h-10 text-base ${errors.monthlyContribution ? "border-red-500" : ""}`}
+                      />
+                      {errors.monthlyContribution && (
+                        <p className="text-xs text-red-500 mt-1">{errors.monthlyContribution}</p>
+                      )}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="contributionTiming" className="text-sm font-semibold">Contribute at the</Label>
+                      <Label htmlFor="contributionTiming" className="text-sm font-semibold">
+                        Contribute at the
+                      </Label>
                       <Select value={contributionTiming} onValueChange={setContributionTiming}>
                         <SelectTrigger className="h-10">
                           <SelectValue />
@@ -170,10 +292,21 @@ export default function InterestCalculator() {
                         <Percent className="w-4 h-4" />
                         <span>Interest rate (%)</span>
                       </Label>
-                      <Input id="interestRate" type="number" step="0.01" placeholder="5" value={interestRate} onChange={e => setInterestRate(e.target.value)} className="h-10 text-base" />
+                      <Input
+                        id="interestRate"
+                        type="number"
+                        step="0.01"
+                        placeholder="5"
+                        value={interestRate}
+                        onChange={(e) => setInterestRate(e.target.value)}
+                        className={`h-10 text-base ${errors.interestRate ? "border-red-500" : ""}`}
+                      />
+                      {errors.interestRate && <p className="text-xs text-red-500 mt-1">{errors.interestRate}</p>}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="compound" className="text-sm font-semibold">Compound</Label>
+                      <Label htmlFor="compound" className="text-sm font-semibold">
+                        Compound
+                      </Label>
                       <Select value={compound} onValueChange={setCompound}>
                         <SelectTrigger className="h-10">
                           <SelectValue />
@@ -191,34 +324,73 @@ export default function InterestCalculator() {
                         <Calendar className="w-4 h-4" />
                         <span>Years</span>
                       </Label>
-                      <Input id="years" type="number" placeholder="5" value={years} onChange={e => setYears(e.target.value)} className="h-10 text-base" />
+                      <Input
+                        id="years"
+                        type="number"
+                        placeholder="5"
+                        value={years}
+                        onChange={(e) => setYears(e.target.value)}
+                        className={`h-10 text-base ${errors.years ? "border-red-500" : ""}`}
+                      />
+                      {errors.years && <p className="text-xs text-red-500 mt-1">{errors.years}</p>}
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="months" className="flex items-center space-x-2 text-sm font-semibold">
                         <Calendar className="w-4 h-4" />
                         <span>Months</span>
                       </Label>
-                      <Input id="months" type="number" placeholder="0" value={months} onChange={e => setMonths(e.target.value)} className="h-10 text-base" />
+                      <Input
+                        id="months"
+                        type="number"
+                        placeholder="0"
+                        value={months}
+                        onChange={(e) => setMonths(e.target.value)}
+                        className={`h-10 text-base ${errors.months ? "border-red-500" : ""}`}
+                      />
+                      {errors.months && <p className="text-xs text-red-500 mt-1">{errors.months}</p>}
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="taxRate" className="flex items-center space-x-2 text-sm font-semibold">
                         <Percent className="w-4 h-4" />
                         <span>Tax rate (%)</span>
                       </Label>
-                      <Input id="taxRate" type="number" step="0.01" placeholder="0" value={taxRate} onChange={e => setTaxRate(e.target.value)} className="h-10 text-base" />
+                      <Input
+                        id="taxRate"
+                        type="number"
+                        step="0.01"
+                        placeholder="0"
+                        value={taxRate}
+                        onChange={(e) => setTaxRate(e.target.value)}
+                        className={`h-10 text-base ${errors.taxRate ? "border-red-500" : ""}`}
+                      />
+                      {errors.taxRate && <p className="text-xs text-red-500 mt-1">{errors.taxRate}</p>}
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="inflationRate" className="flex items-center space-x-2 text-sm font-semibold">
                         <Percent className="w-4 h-4" />
                         <span>Inflation rate (%)</span>
                       </Label>
-                      <Input id="inflationRate" type="number" step="0.01" placeholder="3" value={inflationRate} onChange={e => setInflationRate(e.target.value)} className="h-10 text-base" />
+                      <Input
+                        id="inflationRate"
+                        type="number"
+                        step="0.01"
+                        placeholder="3"
+                        value={inflationRate}
+                        onChange={(e) => setInflationRate(e.target.value)}
+                        className={`h-10 text-base ${errors.inflationRate ? "border-red-500" : ""}`}
+                      />
+                      {errors.inflationRate && <p className="text-xs text-red-500 mt-1">{errors.inflationRate}</p>}
                     </div>
                   </div>
-                  <Button onClick={calculateInterest} className="w-full h-10 text-base bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow mt-4">Calculate</Button>
+                  <Button
+                    onClick={calculateInterest}
+                    className="w-full h-10 text-base bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow mt-4"
+                  >
+                    Calculate
+                  </Button>
                 </CardContent>
               </Card>
-              <Card className="shadow-md border-0 min-h-0 pt-0">
+              <Card ref={resultsRef} className="shadow-md border-0 min-h-0 pt-0">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg py-4 px-4">
                   <CardTitle className="text-xl">Results</CardTitle>
                   <CardDescription className="text-sm">Investment summary</CardDescription>
@@ -229,44 +401,72 @@ export default function InterestCalculator() {
                       <div className="text-center p-4 bg-gradient-to-r from-green-50 to-green-100 rounded-xl">
                         <p className="text-base text-gray-600 mb-1">Ending balance</p>
                         <p className="text-3xl font-bold text-green-600 mb-2">
-                          ${results.endingBalance.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                          $
+                          {results.endingBalance.toLocaleString("en-US", {
+                            minimumFractionDigits: 2,
+                            maximumFractionDigits: 2,
+                          })}
                         </p>
                       </div>
                       <div className="grid grid-cols-1 gap-3">
                         <div className="text-center p-2 bg-blue-50 rounded">
                           <p className="text-xs text-gray-600 mb-1">Total principal</p>
                           <p className="text-lg font-bold text-blue-600">
-                            ${results.totalPrincipal.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                            $
+                            {results.totalPrincipal.toLocaleString("en-US", {
+                              minimumFractionDigits: 2,
+                              maximumFractionDigits: 2,
+                            })}
                           </p>
                         </div>
                         <div className="text-center p-2 bg-gray-50 rounded">
                           <p className="text-xs text-gray-600 mb-1">Total contributions</p>
                           <p className="text-lg font-bold text-gray-900">
-                            ${results.totalContributions.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                            $
+                            {results.totalContributions.toLocaleString("en-US", {
+                              minimumFractionDigits: 2,
+                              maximumFractionDigits: 2,
+                            })}
                           </p>
                         </div>
                         <div className="text-center p-2 bg-green-50 rounded">
                           <p className="text-xs text-gray-600 mb-1">Total interest</p>
                           <p className="text-lg font-bold text-green-700">
-                            ${results.totalInterest.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                            $
+                            {results.totalInterest.toLocaleString("en-US", {
+                              minimumFractionDigits: 2,
+                              maximumFractionDigits: 2,
+                            })}
                           </p>
                         </div>
                         <div className="text-center p-2 bg-yellow-50 rounded">
                           <p className="text-xs text-gray-600 mb-1">Interest of initial investment</p>
                           <p className="text-lg font-bold text-yellow-600">
-                            ${results.interestInitial.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                            $
+                            {results.interestInitial.toLocaleString("en-US", {
+                              minimumFractionDigits: 2,
+                              maximumFractionDigits: 2,
+                            })}
                           </p>
                         </div>
                         <div className="text-center p-2 bg-purple-50 rounded">
                           <p className="text-xs text-gray-600 mb-1">Interest of the contributions</p>
                           <p className="text-lg font-bold text-purple-700">
-                            ${results.interestContributions.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                            $
+                            {results.interestContributions.toLocaleString("en-US", {
+                              minimumFractionDigits: 2,
+                              maximumFractionDigits: 2,
+                            })}
                           </p>
                         </div>
                         <div className="text-center p-2 bg-pink-50 rounded">
                           <p className="text-xs text-gray-600 mb-1">Buying power after inflation</p>
                           <p className="text-lg font-bold text-pink-700">
-                            ${results.afterInflation.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                            $
+                            {results.afterInflation.toLocaleString("en-US", {
+                              minimumFractionDigits: 2,
+                              maximumFractionDigits: 2,
+                            })}
                           </p>
                         </div>
                       </div>
@@ -282,25 +482,45 @@ export default function InterestCalculator() {
             </div>
           </div>
           {/* How to Use Section */}
-            <div className="max-w-6xl mx-auto mt-10">
-              <div className="rounded-2xl bg-gradient-to-r from-blue-50 to-green-50  p-8 shadow flex flex-col items-left">
-                <h2 className="text-2xl font-bold text-green-700 mb-2 flex items-center gap-2">
-                  <Calculator className="w-6 h-6 text-green-500" /> How to Use This Calculator
-                </h2>
-                <ol className="list-decimal list-inside text-gray-700 text-base space-y-2 mb-2">
-                  <li>Enter your <span className="font-semibold text-green-700">Initial investment</span> amount.</li>
-                  <li>Fill in your <span className="font-semibold text-green-700">Annual</span> and/or <span className="font-semibold text-green-700">Monthly contribution</span>.</li>
-                  <li>Select whether you contribute at the <span className="font-semibold text-green-700">beginning</span> or <span className="font-semibold text-green-700">end</span> of each period.</li>
-                  <li>Set your <span className="font-semibold text-green-700">Interest rate</span> and <span className="font-semibold text-green-700">Compounding frequency</span>.</li>
-                  <li>Enter the <span className="font-semibold text-green-700">Investment length</span> in years and months.</li>
-                  <li>Optionally, add <span className="font-semibold text-green-700">Tax</span> and <span className="font-semibold text-green-700">Inflation</span> rates for more accurate results.</li>
-                  <li>Click <span className="font-semibold text-green-700">Calculate</span> to see your investment summary!</li>
-                </ol>
-                <p className="text-sm text-gray-500 mt-2 text-center">This tool helps you estimate your investment growth, total interest, and buying power after inflation. Adjust the values to plan your financial future smartly!</p>
-              </div>
+          <div className="max-w-6xl mx-auto mt-10">
+            <div className="rounded-2xl bg-gradient-to-r from-blue-50 to-green-50  p-8 shadow flex flex-col items-left">
+              <h2 className="text-2xl font-bold text-green-700 mb-2 flex items-center gap-2">
+                <Calculator className="w-6 h-6 text-green-500" /> How to Use This Calculator
+              </h2>
+              <ol className="list-decimal list-inside text-gray-700 text-base space-y-2 mb-2">
+                <li>
+                  Enter your <span className="font-semibold text-green-700">Initial investment</span> amount.
+                </li>
+                <li>
+                  Fill in your <span className="font-semibold text-green-700">Annual</span> and/or{" "}
+                  <span className="font-semibold text-green-700">Monthly contribution</span>.
+                </li>
+                <li>
+                  Select whether you contribute at the <span className="font-semibold text-green-700">beginning</span>{" "}
+                  or <span className="font-semibold text-green-700">end</span> of each period.
+                </li>
+                <li>
+                  Set your <span className="font-semibold text-green-700">Interest rate</span> and{" "}
+                  <span className="font-semibold text-green-700">Compounding frequency</span>.
+                </li>
+                <li>
+                  Enter the <span className="font-semibold text-green-700">Investment length</span> in years and months.
+                </li>
+                <li>
+                  Optionally, add <span className="font-semibold text-green-700">Tax</span> and{" "}
+                  <span className="font-semibold text-green-700">Inflation</span> rates for more accurate results.
+                </li>
+                <li>
+                  Click <span className="font-semibold text-green-700">Calculate</span> to see your investment summary!
+                </li>
+              </ol>
+              <p className="text-sm text-gray-500 mt-2 text-center">
+                This tool helps you estimate your investment growth, total interest, and buying power after inflation.
+                Adjust the values to plan your financial future smartly!
+              </p>
             </div>
+          </div>
         </main>
-
       </div>
     </>
   )

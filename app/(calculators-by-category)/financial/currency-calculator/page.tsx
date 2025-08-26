@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, ArrowRightLeft, Globe, TrendingUp, RefreshCw } from "lucide-react"
@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 const currencies = [
   { code: "USD", name: "US Dollar", symbol: "$", flag: "🇺🇸" },
@@ -134,6 +135,8 @@ const getExchangeRates = async (baseCurrency = "USD") => {
 }
 
 export default function CurrencyCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [amount, setAmount] = useState("100")
   const [fromCurrency, setFromCurrency] = useState("USD")
   const [toCurrency, setToCurrency] = useState("EUR")
@@ -146,6 +149,9 @@ export default function CurrencyCalculator() {
     fromCurrency: string
     toCurrency: string
   } | null>(null)
+
+  // Scroll to results
+  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
 
   // Fetch exchange rates on component mount
   useEffect(() => {
@@ -344,7 +350,10 @@ export default function CurrencyCalculator() {
 
                   <div className="flex justify-center">
                     <Button
-                      onClick={swapCurrencies}
+                      onClick={() => {
+                        swapCurrencies()
+                        scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                      }}
                       variant="outline"
                       size="sm"
                       className="rounded-full p-3 hover:bg-gray-100 bg-transparent"
@@ -376,7 +385,10 @@ export default function CurrencyCalculator() {
                   </div>
 
                   <Button
-                    onClick={convertCurrency}
+                    onClick={() => {
+                          convertCurrency()
+                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                        }}
                     disabled={loading || !exchangeRates}
                     className="w-full h-12 text-lg bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 shadow-lg"
                   >
@@ -386,7 +398,7 @@ export default function CurrencyCalculator() {
               </Card>
 
               {/* Results */}
-              <Card className="shadow-xl border-0 overflow-hidden pt-0">
+              <Card ref={resultsRef} className="shadow-xl border-0 overflow-hidden pt-0">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg px-8 py-6">
                   <CardTitle className="text-2xl">Conversion Result</CardTitle>
                   <CardDescription className="text-base">Real-time currency conversion details</CardDescription>

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { Calculator } from "lucide-react";
@@ -8,8 +8,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Logo from "@/components/logo";
+import { useMobileScroll } from "@/hooks/useMobileScroll";
 
 export default function PercentErrorCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [measured, setMeasured] = useState<string>("");
   const [actual, setActual] = useState<string>("");
   const [result, setResult] = useState<{
@@ -48,6 +51,8 @@ export default function PercentErrorCalculator() {
       `= ${absPercent}% error`,
     ];
     setResult({ signed: signedPercent, abs: absPercent, steps, measured: measuredNum, actual: actualNum });
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
   };
 
   return (
@@ -134,7 +139,7 @@ export default function PercentErrorCalculator() {
               </div>
               {/* Right: Results */}
               <div className="col-span-1 flex items-stretch">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-yellow-100 flex flex-col w-full h-full">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-yellow-100 flex flex-col w-full h-full">
                   <div className="flex flex-1 flex-col justify-center items-center h-full py-12">
                     <div className="flex flex-col items-center justify-center w-full">
                       <div className="w-14 h-14 rounded-full bg-gradient-to-r from-orange-400 to-yellow-500 flex items-center justify-center mb-4 shadow-lg">

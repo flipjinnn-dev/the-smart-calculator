@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -10,8 +10,11 @@ import Link from "next/link"
 import Head from "next/head"
 import { Zap, Clock, Ruler } from "lucide-react"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function VelocityCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [tab, setTab] = useState("simple")
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
@@ -157,6 +160,9 @@ export default function VelocityCalculator() {
         calculateAlternateFormulas()
         break
     }
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   }
 
   return (
@@ -468,7 +474,7 @@ export default function VelocityCalculator() {
 
               {/* Result Card (right side) */}
               <div className="">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br  h-full flex flex-col justify-center items-center p-8">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br  h-full flex flex-col justify-center items-center p-8">
                   <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-yellow-500 to-amber-500 flex items-center justify-center mb-3 shadow-lg">
                       <Zap className="w-6 h-6 text-white" />

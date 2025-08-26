@@ -1,7 +1,9 @@
 import React from 'react'
 import Logo from './logo'
 import Link from 'next/link'
-
+import { Instagram, TwitterIcon, LinkedinIcon } from 'lucide-react'
+import { FaPinterestP } from "react-icons/fa";
+import { AiOutlineYoutube } from "react-icons/ai";
 export const Footer = () => {
   return (
         <footer className="bg-gray-900 text-white py-16">
@@ -17,15 +19,26 @@ export const Footer = () => {
                   users worldwide.
                 </p>
                 <div className="flex space-x-4">
-                  <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
-                    <span className="text-white font-bold">f</span>
-                  </div>
-                  <div className="w-10 h-10 bg-blue-400 rounded-lg flex items-center justify-center hover:bg-blue-500 transition-colors cursor-pointer">
-                    <span className="text-white font-bold">t</span>
-                  </div>
-                  <div className="w-10 h-10 bg-blue-700 rounded-lg flex items-center justify-center hover:bg-blue-800 transition-colors cursor-pointer">
-                    <span className="text-white font-bold">in</span>
-                  </div>
+                  <Link href="https://www.pinterest.com/thesmartcalculators/">
+                    <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center hover:bg-red-700 transition-colors cursor-pointer">
+                      <span className="text-white font-bold"><FaPinterestP /></span>
+                    </div>
+                  </Link>
+                  <Link href="https://x.com/SmartCalculat0r">
+                    <div className="w-10 h-10 bg-blue-400 rounded-lg flex items-center justify-center hover:bg-blue-500 transition-colors cursor-pointer">
+                      <span className="text-white font-bold"><TwitterIcon /></span>
+                    </div>
+                  </Link>
+                  <Link href="https://www.instagram.com/thesmartcalculators/">
+                    <div className="w-10 h-10 bg-pink-700 rounded-lg flex items-center justify-center hover:bg-pink-800 transition-colors cursor-pointer">
+                      <span className="text-white font-bold"><Instagram /></span>
+                    </div>
+                  </Link>
+                  <Link href="https://www.youtube.com/@TheSmartCalculators">
+                    <div className="w-10 h-10 bg-red-700 rounded-lg flex items-center justify-center hover:bg-red-800 transition-colors cursor-pointer">
+                      <span className="text-white font-extrabold font-xl"><AiOutlineYoutube /></span>
+                    </div>
+                  </Link>
                 </div>
               </div>
 

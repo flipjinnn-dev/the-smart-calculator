@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -9,8 +9,11 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Link from "next/link"
 import Head from "next/head"
 import { Box, Calculator, Ruler, DollarSign, AlertCircle, Building2 } from "lucide-react"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function CubicYardCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
@@ -194,6 +197,9 @@ export default function CubicYardCalculator() {
       },
     })
     setShowResult(true)
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   }
 
   const renderInputFields = () => {
@@ -925,7 +931,7 @@ export default function CubicYardCalculator() {
 
               {/* Result Card (right side) */}
               <div className="">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-100 h-full flex flex-col justify-center items-center p-8">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-100 h-full flex flex-col justify-center items-center p-8">
                   <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-orange-600 to-amber-700 flex items-center justify-center mb-3 shadow-lg">
                       <Box className="w-6 h-6 text-white" />

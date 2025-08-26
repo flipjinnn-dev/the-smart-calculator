@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, DollarSign, Percent, Calendar, CreditCard } from "lucide-react"
@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 interface PaymentResults {
   monthlyPayment: number
@@ -29,6 +30,8 @@ interface AmortizationEntry {
 }
 
 export default function PaymentCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [loanAmount, setLoanAmount] = useState("200000")
   const [loanTerm, setLoanTerm] = useState("15")
   const [interestRate, setInterestRate] = useState("6")
@@ -131,7 +134,8 @@ export default function PaymentCalculator() {
 
     setAmortization(schedule)
   }
-
+  // Scroll to results
+  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
   const clearForm = () => {
     setLoanAmount("200000")
     setLoanTerm("15")
@@ -346,7 +350,10 @@ export default function PaymentCalculator() {
 
                         <div className="flex space-x-4 mt-8">
                           <Button
-                            onClick={calculateFixedPayment}
+                            onClick={() => {
+                              calculateFixedPayment()
+                              scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                            }}
                             className="flex-1 h-12 text-lg bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-lg"
                           >
                             Calculate
@@ -367,7 +374,7 @@ export default function PaymentCalculator() {
 
               {/* Results */}
               <div className="lg:col-span-1">
-                <Card className="shadow-2xl border-0 bg-white sticky top-24 pt-0">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24 pt-0">
                   <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="text-2xl">Monthly Payment</CardTitle>
                     <CardDescription className="text-base">Your payment calculation details</CardDescription>

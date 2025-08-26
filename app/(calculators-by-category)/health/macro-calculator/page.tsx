@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Heart, User, Ruler, Weight, Activity, Target, Utensils, Calendar, Scale } from "lucide-react"
@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -53,6 +54,8 @@ interface MacroResults {
 }
 
 export default function MacroCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [unitSystem, setUnitSystem] = useState<"us" | "metric" | "other">("metric")
   const [age, setAge] = useState("25")
   const [gender, setGender] = useState<"male" | "female">("male")
@@ -120,6 +123,10 @@ export default function MacroCalculator() {
     const weightKgValue = unitSystem === "us" ? Number.parseFloat(weightLbs) * 0.453592 : Number.parseFloat(weightKg)
     const heightCmValue = unitSystem === "us" ? (Number.parseFloat(heightFeet) * 12 + Number.parseFloat(heightInches)) * 2.54 : Number.parseFloat(heightCm)
     const ageNum = Number.parseFloat(age)
+
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
 
     if (weightKgValue <= 0 || heightCmValue <= 0 || ageNum <= 0) return
 
@@ -476,7 +483,7 @@ export default function MacroCalculator() {
 
               {/* Results */}
               <div className="lg:col-span-1">
-                <Card className="shadow-2xl border-0 bg-white sticky top-24 pt-0">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24 pt-0">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="text-2xl">Macro Results</CardTitle>
                     <CardDescription className="text-base">Your daily macronutrient breakdown</CardDescription>

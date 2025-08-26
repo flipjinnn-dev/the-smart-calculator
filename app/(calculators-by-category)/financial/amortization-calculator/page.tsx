@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, DollarSign, Percent, Calendar, FileText } from "lucide-react"
@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 interface AmortizationRow {
   payment: number
@@ -19,6 +20,8 @@ interface AmortizationRow {
 }
 
 export default function AmortizationCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [loanAmount, setLoanAmount] = useState("200000")
   const [interestRate, setInterestRate] = useState("6.5")
   const [loanTerm, setLoanTerm] = useState("30")
@@ -29,7 +32,10 @@ export default function AmortizationCalculator() {
     totalPayment: number
     schedule: AmortizationRow[]
   } | null>(null)
+  
 
+  // Scroll to results
+  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
   const calculateAmortization = () => {
     const principal = Number.parseFloat(loanAmount)
     const monthlyRate = Number.parseFloat(interestRate) / 100 / 12
@@ -55,6 +61,7 @@ export default function AmortizationCalculator() {
         interest: interestPayment,
         balance: Math.max(0, remainingBalance),
       })
+      
     }
 
     const totalPayment = monthlyPayment * numberOfPayments
@@ -66,6 +73,7 @@ export default function AmortizationCalculator() {
       totalPayment,
       schedule,
     })
+    
   }
 
   return (
@@ -206,7 +214,10 @@ export default function AmortizationCalculator() {
                   </div>
 
                   <Button
-                    onClick={calculateAmortization}
+                    onClick={() => {
+                      calculateAmortization();
+                      scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                    }}
                     className="w-full h-10 bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 shadow-lg"
                   >
                     Generate Schedule
@@ -215,7 +226,7 @@ export default function AmortizationCalculator() {
               </Card>
 
               {/* Results Summary */}
-              <Card className="shadow-xl border-0">
+              <Card className="shadow-xl border-0" ref={resultsRef}>
                 <CardHeader className="bg-gradient-to-r py-6 from-green-50 to-blue-50 rounded-t-lg">
                   <CardTitle className="text-xl">Loan Summary</CardTitle>
                   <CardDescription className="text-sm">Payment overview</CardDescription>

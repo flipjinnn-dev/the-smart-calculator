@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, DollarSign, Percent, Calendar, TrendingUp } from "lucide-react"
@@ -10,8 +10,11 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function CompoundInterestCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [principal, setPrincipal] = useState("")
   const [rate, setRate] = useState("")
   const [time, setTime] = useState("")
@@ -55,6 +58,9 @@ export default function CompoundInterestCalculator() {
       totalInterest,
       totalContributions,
     })
+  // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   }
 
   return (
@@ -213,16 +219,19 @@ export default function CompoundInterestCalculator() {
                   </div>
 
                   <Button
-                    onClick={calculateCompoundInterest}
+                    onClick={() => {
+                          calculateCompoundInterest()
+                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                        }}
                     className="w-full h-12 text-lg bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow-lg"
-                  >
+                    >
                     Calculate Growth
                   </Button>
                 </CardContent>
               </Card>
 
               {/* Results */}
-              <Card className="shadow-xl border-0 pt-0">
+              <Card ref={resultsRef} className="shadow-xl border-0 pt-0">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg">
                   <CardTitle className="text-2xl">Investment Growth</CardTitle>
                   <CardDescription className="text-base">Your investment projection</CardDescription>

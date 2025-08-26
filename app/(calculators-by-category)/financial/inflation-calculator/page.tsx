@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -13,8 +13,11 @@ import Logo from "@/components/logo"
 import Link from "next/link"
 import Head from "next/head"
 import { Calculator, TrendingUp, DollarSign, Percent, Calendar } from "lucide-react"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function InflationCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [tab, setTab] = useState("future")
   const [amount, setAmount] = useState("1000")
   const [inflationRate, setInflationRate] = useState("3")
@@ -32,6 +35,9 @@ export default function InflationCalculator() {
     const pastVal = Number.parseFloat(pastValue) || 0
 
     let calculationResult: any = {}
+
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
 
     if (tab === "future") {
       const futureAmount = principal * Math.pow(1 + rate, time)
@@ -396,7 +402,10 @@ export default function InflationCalculator() {
                     </div>
 
                     <Button
-                      onClick={handleCalculate}
+                      onClick={() => {
+                          handleCalculate()
+                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                        }}
                       className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
                     >
                       <Calculator className="mr-2 h-5 w-5" />
@@ -408,7 +417,7 @@ export default function InflationCalculator() {
 
               {/* Right: Results Card */}
               <div>
-                <Card className="shadow-xl border-0 pt-0 min-h-0 rounded-xl overflow-hidden hover:shadow-orange-100/50 transition-shadow duration-300">
+                <Card ref={resultsRef} className="shadow-xl border-0 pt-0 min-h-0 rounded-xl overflow-hidden hover:shadow-orange-100/50 transition-shadow duration-300">
                   <CardHeader className="bg-gradient-to-r from-orange-50 via-red-50 to-pink-50 rounded-t-xl py-5 px-6 border-b border-orange-100/50">
                     <CardTitle className="flex items-center space-x-3 text-xl">
                       <div className="w-10 h-10 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center shadow-lg">

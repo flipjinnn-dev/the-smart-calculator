@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Heart, Activity } from "lucide-react"
@@ -10,8 +10,11 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function CalorieCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [age, setAge] = useState("")
   const [gender, setGender] = useState("")
   const [height, setHeight] = useState("")
@@ -29,6 +32,11 @@ export default function CalorieCalculator() {
     const heightNum = Number.parseFloat(height)
     const weightNum = Number.parseFloat(weight)
     const activityNum = Number.parseFloat(activity)
+
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
+
 
     if (!ageNum || !heightNum || !weightNum || !activityNum || !gender) return
 
@@ -214,7 +222,7 @@ export default function CalorieCalculator() {
               </Card>
 
               {/* Results */}
-              <Card className="shadow-xl border-0 pt-0">
+              <Card ref={resultsRef} className="shadow-xl border-0 pt-0">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg">
                   <CardTitle className="text-2xl">Your Calorie Needs</CardTitle>
                   <CardDescription className="text-base">

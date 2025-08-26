@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
 import { Calculator } from "lucide-react"
@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 const buttons = [
   ["sin", "cos", "tan", "Deg/Rad", "AC"],
@@ -70,6 +71,8 @@ function evaluate(expr: string, deg: boolean): string {
 }
 
 export default function ScientificCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null);
+  const scrollToRef = useMobileScroll();
   const [expression, setExpression] = useState("")
   const [result, setResult] = useState<string | null>(null)
   const [deg, setDeg] = useState(true)
@@ -107,6 +110,7 @@ export default function ScientificCalculator() {
     } else {
       setExpression(expression + val)
     }
+
   }
 
   return (
@@ -193,7 +197,7 @@ export default function ScientificCalculator() {
               </div>
               {/* Result Card (right side) */}
               <div className="">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-blue-200 h-full flex flex-col justify-center items-center p-8">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-blue-200 h-full flex flex-col justify-center items-center p-8">
                   <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center mb-3 shadow-lg">
                       <Calculator className="w-6 h-6 text-white" />
