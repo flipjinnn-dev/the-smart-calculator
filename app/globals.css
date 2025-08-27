@@ -234,6 +234,7 @@
 * {
   transition: all 0.2s ease;
 }
+
 /* Placeholder CSS */
 .main-card input::placeholder {
     color: #0000005e;

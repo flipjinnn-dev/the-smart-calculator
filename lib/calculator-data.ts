@@ -309,13 +309,34 @@ export const calculators: Calculator[] = [
     href: "/sports/earned-run-average-calculator",
     category: "sports",
   },
+  {
+    id:"fielding-percentage",
+    name: "Fielding Percentage Calculator",
+    description: "Calculate fielding percentage for baseball players",
+    href: "/sports/fielding-percentage-calculator",
+    category: "sports",
+  },
+  {
+    id:"fielding-independent-pitching",
+    name: "Fielding Independent Pitching Calculator",
+    description: "Calculate fielding independent pitching (FIP) for baseball players",
+    href: "/sports/fielding-independent-pitching-calculator",
+    category: "sports",
+  },
+  {
+    id:"magic-number",
+    name: "Magic Number Calculator",
+    description: "Calculate the magic number for playoff contention in sports.",
+    href: "/sports/magic-number-calculator",
+    category: "sports",
+  },
 
   // Other Calculators
   {
     id: "age",
     name: "Age Calculator",
     description: "Calculate age in years, months, and days",
-    href: "/other/age-calculator",
+    href: "/age-calculator",
     category: "other",
     popular: true
   },
@@ -323,9 +344,31 @@ export const calculators: Calculator[] = [
     id:"time-calculator",
     name: "Time Calculator",
     description: "Perform calculations related to time, such as duration and time zone conversions.",
-    href: "/other/time-calculator",
+    href: "/time-calculator",
+    category: "other",
+  },
+  {
+    id:"gpa-calculator",
+    name: "GPA Calculator",
+    description: "Calculate GPA based on course grades and credits.",
+    href: "/gpa-calculator",
+    category: "other",
+  },
+  {
+    id:"height-calculator",
+    name: "Height Calculator",
+    description: "Calculate height in different units.",
+    href: "/height-calculator",
+    category: "other",
+  },
+  {
+    id:"ip-subnet-calculator",
+    name: "IP Subnet Calculator",
+    description: "Calculate subnets and IP ranges.",
+    href: "/ip-subnet-calculator",
     category: "other",
   }
+
 
 
 ]

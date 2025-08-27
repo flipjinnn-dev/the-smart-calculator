@@ -1,15 +1,16 @@
 "use client"
 
-import { useState, useEffect, useRef } from "react"
+import type React from "react"
+
+import { useState, useRef } from "react"
 import Head from "next/head"
 import Link from "next/link"
-import { Calculator, Heart, User, Ruler, Calendar, Scale } from "lucide-react"
+import { Calculator, Heart, Ruler, Calendar, Scale } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 
@@ -54,99 +55,91 @@ interface BMIResults {
 export default function BMICalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
   const scrollToRef = useMobileScroll()
-  const [unitSystem, setUnitSystem] = useState("metric")
   const [age, setAge] = useState("25")
   const [gender, setGender] = useState("")
   const [height, setHeight] = useState("180")
+  const [heightUnit, setHeightUnit] = useState("cm")
   const [weight, setWeight] = useState("65")
-  const [heightFeet, setHeightFeet] = useState("")
-  const [heightInches, setHeightInches] = useState("")
+  const [weightUnit, setWeightUnit] = useState("kg")
   const [results, setResults] = useState<BMIResults | null>(null)
-
-  // Calculate BMI when inputs change
-  useEffect(() => {
-    if (age && gender && ((unitSystem === "metric" && height && weight) || (unitSystem === "us" && heightFeet && weight))) {
-      calculateBMI()
-    }
-  }, [age, gender, height, weight, heightFeet, heightInches, unitSystem])
-
-  // Auto-calculate on page load with default values
-  useEffect(() => {
-    if (age && height && weight) {
-      // Set a default gender if not selected
-      if (!gender) {
-        setGender("male")
-      }
-      // Small delay to ensure all state is set
-      setTimeout(() => {
-        calculateBMI()
-      }, 100)
-    }
-  }, [])
 
   const calculateBMI = () => {
     let heightInM = 0
     let weightInKg = 0
     const ageNum = Number.parseInt(age)
 
-  // Scroll to results
-  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>)
 
     if (!ageNum || ageNum < 2 || ageNum > 120) return
 
-    // Convert height to meters based on unit system
-    if (unitSystem === "us") {
-      const feet = Number.parseFloat(heightFeet)
-      const inches = Number.parseFloat(heightInches || "0")
-      if (!feet || feet < 1 || feet > 8) return
-      const totalInches = feet * 12 + inches
-      heightInM = totalInches * 0.0254
-      weightInKg = Number.parseFloat(weight) * 0.453592 // pounds to kg
-    } else {
-      // metric units
-      const heightCm = Number.parseFloat(height)
-      if (!heightCm || heightCm < 50 || heightCm > 250) return
-      heightInM = heightCm / 100
-      weightInKg = Number.parseFloat(weight)
+    const heightValue = Number.parseFloat(height)
+    const weightValue = Number.parseFloat(weight)
+
+    if (!heightValue || !weightValue || heightValue <= 0 || weightValue <= 0) return
+
+    switch (heightUnit) {
+      case "cm":
+        heightInM = heightValue / 100
+        break
+      case "m":
+        heightInM = heightValue
+        break
+      case "ft":
+        heightInM = heightValue * 0.3048
+        break
+      case "in":
+        heightInM = heightValue * 0.0254
+        break
+      default:
+        heightInM = heightValue / 100
+    }
+
+    switch (weightUnit) {
+      case "kg":
+        weightInKg = weightValue
+        break
+      case "g":
+        weightInKg = weightValue / 1000
+        break
+      case "lbs":
+        weightInKg = weightValue * 0.453592
+        break
+      case "oz":
+        weightInKg = weightValue * 0.0283495
+        break
+      case "st":
+        weightInKg = weightValue * 6.35029
+        break
+      default:
+        weightInKg = weightValue
     }
 
     if (weightInKg <= 0 || heightInM <= 0) return
 
-    // Calculate BMI: weight (kg) / height (m)²
     const bmi = weightInKg / (heightInM * heightInM)
-
-    // Calculate BMI Prime (BMI / 25) - ratio of actual BMI to upper limit of normal BMI
     const bmiPrime = bmi / 25
-
-    // Calculate Ponderal Index (weight in kg / height in m³) - alternative to BMI
     const ponderalIndex = weightInKg / (heightInM * heightInM * heightInM)
-
-    // Calculate healthy weight range (BMI 18.5-25)
     const healthyWeightRange = {
       min: 18.5 * heightInM * heightInM,
       max: 25 * heightInM * heightInM,
     }
-
-    // Calculate ideal weight (BMI 22 - middle of healthy range)
     const idealWeight = 22 * heightInM * heightInM
-
-    // Calculate Body Surface Area (DuBois formula)
     const bodySurfaceArea = 0.007184 * Math.pow(weightInKg, 0.425) * Math.pow(heightInM * 100, 0.725)
 
-    // Determine category with age considerations
     let category = ""
     let description = ""
     let color = ""
 
-    // BMI categories for adults (18+ years)
     if (ageNum >= 18) {
       if (bmi < 18.5) {
         category = "Underweight"
-        description = "Your BMI indicates you are underweight. Consider consulting with a healthcare provider for a healthy weight gain plan."
+        description =
+          "Your BMI indicates you are underweight. Consider consulting with a healthcare provider for a healthy weight gain plan."
         color = "text-blue-600"
       } else if (bmi < 25) {
         category = "Normal"
-        description = "Your BMI is within the healthy range. Maintain your current lifestyle with regular exercise and balanced nutrition."
+        description =
+          "Your BMI is within the healthy range. Maintain your current lifestyle with regular exercise and balanced nutrition."
         color = "text-green-600"
       } else if (bmi < 30) {
         category = "Overweight"
@@ -154,7 +147,8 @@ export default function BMICalculator() {
         color = "text-yellow-600"
       } else if (bmi < 35) {
         category = "Obesity Class I"
-        description = "Your BMI indicates Class I obesity. Consider consulting with a healthcare provider for weight management."
+        description =
+          "Your BMI indicates Class I obesity. Consider consulting with a healthcare provider for weight management."
         color = "text-orange-600"
       } else if (bmi < 40) {
         category = "Obesity Class II"
@@ -166,8 +160,6 @@ export default function BMICalculator() {
         color = "text-red-800"
       }
     } else {
-      // BMI categories for children and teens (2-17 years)
-      // Simplified categories for children
       if (bmi < 18.5) {
         category = "Underweight"
         description = "Your BMI indicates you are underweight for your age. Consult with a pediatrician."
@@ -237,9 +229,6 @@ export default function BMICalculator() {
       </div>
     </div>
   )
-
-  const getWeightUnit = () => unitSystem === "metric" ? "kg" : "lbs"
-  const getHeightUnit = () => unitSystem === "metric" ? "cm" : "ft"
 
   return (
     <>
@@ -324,18 +313,6 @@ export default function BMICalculator() {
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="p-8">
-                    {/* Unit System Selection */}
-                    <div className="mb-8">
-                      <Label className="text-base font-semibold text-gray-900 mb-4 block">Unit System</Label>
-                      <Tabs value={unitSystem} onValueChange={setUnitSystem} className="w-full">
-                        <TabsList className="grid w-full grid-cols-3">
-                          <TabsTrigger value="metric">Metric Units</TabsTrigger>
-                          <TabsTrigger value="us">US Units</TabsTrigger>
-                          <TabsTrigger value="other">Other Units</TabsTrigger>
-                        </TabsList>
-                      </Tabs>
-                    </div>
-
                     {/* Input Fields */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                       <div className="space-y-3">
@@ -371,35 +348,8 @@ export default function BMICalculator() {
 
                       <div className="space-y-3">
                         <Label className="text-base font-semibold text-gray-900">Height</Label>
-                        {unitSystem === "us" ? (
-                          <div className="flex space-x-2">
-                            <div className="relative flex-1">
-                              <Input
-                                type="number"
-                                placeholder="5"
-                                value={heightFeet}
-                                onChange={(e) => setHeightFeet(e.target.value)}
-                                className="h-12 text-lg border-2 focus:border-green-500"
-                                min="1"
-                                max="8"
-                              />
-                              <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500">ft</span>
-                            </div>
-                            <div className="relative flex-1">
-                              <Input
-                                type="number"
-                                placeholder="10"
-                                value={heightInches}
-                                onChange={(e) => setHeightInches(e.target.value)}
-                                className="h-12 text-lg border-2 focus:border-green-500"
-                                min="0"
-                                max="11"
-                              />
-                              <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500">in</span>
-                            </div>
-                          </div>
-                        ) : (
-                          <div className="relative">
+                        <div className="flex space-x-2">
+                          <div className="relative flex-1">
                             <Ruler className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
                             <Input
                               type="number"
@@ -407,32 +357,51 @@ export default function BMICalculator() {
                               value={height}
                               onChange={(e) => setHeight(e.target.value)}
                               className="pl-10 h-12 text-lg border-2 focus:border-green-500"
-                              min="50"
-                              max="250"
+                              min="10"
+                              max="300"
                             />
-                            <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500">
-                              {unitSystem === "metric" ? "cm" : "cm"}
-                            </span>
                           </div>
-                        )}
+                          <Select value={heightUnit} onValueChange={setHeightUnit}>
+                            <SelectTrigger className="w-24 h-12 border-2 focus:border-green-500">
+                              <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value="cm">cm</SelectItem>
+                              <SelectItem value="m">m</SelectItem>
+                              <SelectItem value="ft">ft</SelectItem>
+                              <SelectItem value="in">in</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        </div>
                       </div>
 
                       <div className="space-y-3">
                         <Label className="text-base font-semibold text-gray-900">Weight</Label>
-                        <div className="relative">
-                          <Scale className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                          <Input
-                            type="number"
-                            placeholder="65"
-                            value={weight}
-                            onChange={(e) => setWeight(e.target.value)}
-                            className="pl-10 h-12 text-lg border-2 focus:border-green-500"
-                            min="10"
-                            max="500"
-                          />
-                          <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500">
-                            {getWeightUnit()}
-                          </span>
+                        <div className="flex space-x-2">
+                          <div className="relative flex-1">
+                            <Scale className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+                            <Input
+                              type="number"
+                              placeholder="65"
+                              value={weight}
+                              onChange={(e) => setWeight(e.target.value)}
+                              className="pl-10 h-12 text-lg border-2 focus:border-green-500"
+                              min="1"
+                              max="1000"
+                            />
+                          </div>
+                          <Select value={weightUnit} onValueChange={setWeightUnit}>
+                            <SelectTrigger className="w-24 h-12 border-2 focus:border-green-500">
+                              <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value="kg">kg</SelectItem>
+                              <SelectItem value="g">g</SelectItem>
+                              <SelectItem value="lbs">lbs</SelectItem>
+                              <SelectItem value="oz">oz</SelectItem>
+                              <SelectItem value="st">st</SelectItem>
+                            </SelectContent>
+                          </Select>
                         </div>
                       </div>
                     </div>
@@ -457,20 +426,17 @@ export default function BMICalculator() {
                   <CardContent className="p-6">
                     {results ? (
                       <div className="space-y-6">
-                                                 {/* Main BMI Result */}
-                         <div className="text-center p-6 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-2 border-green-200">
-                           <p className="text-lg text-gray-600 mb-2">BMI = {results.bmi} kg/m²</p>
-                           <p className={`text-2xl font-bold ${results.color} mb-2`}>({results.category})</p>
-                           <p className="text-4xl font-bold text-gray-900 mb-2">BMI = {results.bmi}</p>
-                         </div>
+                        <div className="text-center p-6 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-2 border-green-200">
+                          <p className="text-lg text-gray-600 mb-2">BMI = {results.bmi} kg/m²</p>
+                          <p className={`text-2xl font-bold ${results.color} mb-2`}>({results.category})</p>
+                          <p className="text-4xl font-bold text-gray-900 mb-2">BMI = {results.bmi}</p>
+                        </div>
 
-                        {/* BMI Chart */}
                         <div className="space-y-3">
                           <h3 className="font-bold text-lg text-gray-900">BMI Scale</h3>
                           <BMIChart />
                         </div>
 
-                        {/* Detailed Results */}
                         <div className="space-y-4">
                           <h3 className="font-bold text-lg text-gray-900">Detailed Results</h3>
                           <div className="space-y-3">
@@ -505,7 +471,6 @@ export default function BMICalculator() {
                           </div>
                         </div>
 
-                        {/* Save Button */}
                         <Button className="w-full h-12 bg-blue-600 hover:bg-blue-700 text-white font-bold">
                           Save This Calculation
                         </Button>
@@ -532,7 +497,7 @@ export default function BMICalculator() {
                     Body Mass Index (BMI) is a simple calculation using a person's height and weight. The formula is BMI
                     = kg/m² where kg is a person's weight in kilograms and m² is their height in metres squared.
                   </p>
-                  
+
                   <h3 className="text-xl font-bold text-gray-900 mb-4">BMI Categories</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div className="space-y-3">
@@ -553,13 +518,19 @@ export default function BMICalculator() {
                         <span className="text-red-600 font-bold">30 and above</span>
                       </div>
                     </div>
-                    
+
                     <div className="space-y-4">
                       <h4 className="font-bold text-gray-900">Additional Metrics</h4>
                       <div className="space-y-2 text-sm">
-                        <p><strong>BMI Prime:</strong> Ratio of actual BMI to upper limit of normal BMI (25)</p>
-                        <p><strong>Ponderal Index:</strong> Alternative to BMI that accounts for body proportions</p>
-                        <p><strong>Body Surface Area:</strong> Calculated using the DuBois formula</p>
+                        <p>
+                          <strong>BMI Prime:</strong> Ratio of actual BMI to upper limit of normal BMI (25)
+                        </p>
+                        <p>
+                          <strong>Ponderal Index:</strong> Alternative to BMI that accounts for body proportions
+                        </p>
+                        <p>
+                          <strong>Body Surface Area:</strong> Calculated using the DuBois formula
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -575,7 +546,6 @@ export default function BMICalculator() {
             </section>
           </div>
         </main>
-
       </div>
     </>
   )
