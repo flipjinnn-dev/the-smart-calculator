@@ -20,6 +20,13 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
+    id: "finance-calculator",
+    name: "Finance Calculator",
+    description: "A comprehensive tool for various financial calculations",
+    href: "/financial/finance-calculator",
+    category: "financial",
+  },
+  {
     id: "inflation",
     name: "Inflation Calculator",
     description: "Calculate the impact of inflation on purchasing power over time",
