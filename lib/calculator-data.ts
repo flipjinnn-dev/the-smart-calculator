@@ -111,6 +111,69 @@ export const calculators: Calculator[] = [
     category: "health",
     popular: true,
   },
+  { 
+    id: "pregnancy-weight-gain-calculator",
+    name: "Pregnancy Weight Gain Calculator",
+    description: "Calculate your recommended weight gain during pregnancy",
+    href: "/health/pregnancy-weight-gain-calculator",
+    category: "health",
+  },
+  {
+    id:"due-date-calculator",
+    name: "Due Date Calculator",
+    description: "Estimate your due date based on your last menstrual period or conception date.",
+    href: "/health/due-date-calculator",
+    category: "health",
+  },
+  {
+    id:"pace-calculator",
+    name: "Pace Calculator",
+    description: "Calculate your running pace and speed",
+    href: "/health/pace-calculator",
+    category: "health",
+  },
+  {
+    id: "army-body-fat-calculator",
+    name: "Army Body Fat Calculator",
+    description: "Calculate body fat percentage using the U.S. Army method.",
+    href: "/health/army-body-fat-calculator",
+    category: "health"
+  },
+  {
+    id:"healthy-weight-calculator",
+    name: "Healthy Weight Calculator",
+    description: "Calculate your healthy weight range based on height and gender",
+    href: "/health/healthy-weight-calculator",
+    category: "health"
+  },
+  {
+    id:"carbohydrate-calculator",
+    name: "Carbohydrate Calculator",
+    description: "Calculate your daily carbohydrate needs based on activity level and goals",
+    href: "/health/carbohydrate-calculator",
+    category: "health"
+  },
+  {
+    id:"lean-body-mass-calculator",
+    name: "Lean Body Mass Calculator",
+    description: "Calculate your lean body mass based on weight and body fat percentage",
+    href: "/health/lean-body-mass-calculator",
+    category: "health"
+  },
+  {
+    id: "ideal-weight",
+    name: "Ideal Weight Calculator",
+    description: "Calculate your ideal body weight range based on height and gender",
+    href: "/health/ideal-weight-calculator",
+    category: "health"
+  },
+  {
+    id: "bmr",
+    name: "BMR Calculator",
+    description: "Calculate your Basal Metabolic Rate (BMR) for calorie needs",
+    href: "/health/bmr-calculator",
+    category: "health",
+  },
   {
     id: "calorie",
     name: "Calorie Calculator",
