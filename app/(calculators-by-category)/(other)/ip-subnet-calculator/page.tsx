@@ -257,7 +257,7 @@ export default function IPv4SubnetCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/other" className="text-gray-500 hover:text-slate-600">
+              <Link href="/other-calculators" className="text-gray-500 hover:text-slate-600">
                 Other
               </Link>
               <span className="text-gray-400">/</span>

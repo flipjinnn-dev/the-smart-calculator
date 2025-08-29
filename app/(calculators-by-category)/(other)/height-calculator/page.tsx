@@ -301,7 +301,7 @@ export default function HeightCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/other" className="text-gray-500 hover:text-teal-600">
+              <Link href="/other-calculators" className="text-gray-500 hover:text-teal-600">
                 Other
               </Link>
               <span className="text-gray-400">/</span>

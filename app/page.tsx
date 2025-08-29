@@ -17,7 +17,6 @@ import {
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Logo from "@/components/logo"
 import SearchBar from "@/components/search-bar"
-import { getCategoryUrl } from "@/lib/routes"
 import { getCalculatorCount } from "@/lib/calculator-data"
 
 export const metadata: Metadata = {
@@ -124,7 +123,7 @@ const categories = [
     bgColor: "bg-gray-50",
     textColor: "text-pink-600",
     calculators: getCalculatorCount("other"),
-    href: "/other",
+    href: "/other-calculators",
   },
 ]
 
