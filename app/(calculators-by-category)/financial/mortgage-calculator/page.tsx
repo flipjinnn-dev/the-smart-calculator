@@ -12,7 +12,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
-
+import CalculatorGuide from "@/components/calculator-guide"
+import mortgageData from "@/app/content/mortgage-calculator.json"
 interface ExtraPayment {
   id: string
   type: "monthly" | "yearly" | "one-time"
@@ -821,7 +822,13 @@ export default function MortgageCalculator() {
                   </CardContent>
                 </Card>
               </div>
+
+
             </div>
+
+          </div>
+          <div className="mt-8">
+              <CalculatorGuide data={mortgageData} />
           </div>
         </main>
 
