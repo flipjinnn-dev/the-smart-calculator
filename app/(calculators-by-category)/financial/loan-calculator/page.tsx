@@ -10,6 +10,8 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import CalculatorGuide from "@/components/calculator-guide"
+import loanData from "@/app/content/loan-calculator.json"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -251,6 +253,10 @@ export default function LoanCalculator() {
               </Card>
             </div>
           </div>
+
+          <div className="mt-8">
+              <CalculatorGuide data={loanData} />
+            </div>
         </main>
 
 

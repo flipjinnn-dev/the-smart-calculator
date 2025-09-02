@@ -1,6 +1,5 @@
 "use client"
-
-import { useRef, useState } from "react"
+import { useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -13,11 +12,10 @@ import Logo from "@/components/logo"
 import Link from "next/link"
 import Head from "next/head"
 import { Calculator, TrendingUp, DollarSign, Percent, Calendar } from "lucide-react"
-import { useMobileScroll } from "@/hooks/useMobileScroll"
+import CalculatorGuide from "@/components/calculator-guide"
+import inflationData from "@/app/content/inflation-calculator.json"
 
 export default function InflationCalculator() {
-  const resultsRef = useRef<HTMLDivElement>(null)
-  const scrollToRef = useMobileScroll()
   const [tab, setTab] = useState("future")
   const [amount, setAmount] = useState("1000")
   const [inflationRate, setInflationRate] = useState("3")
@@ -35,9 +33,6 @@ export default function InflationCalculator() {
     const pastVal = Number.parseFloat(pastValue) || 0
 
     let calculationResult: any = {}
-
-    // Scroll to results
-    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
 
     if (tab === "future") {
       const futureAmount = principal * Math.pow(1 + rate, time)
@@ -402,10 +397,7 @@ export default function InflationCalculator() {
                     </div>
 
                     <Button
-                      onClick={() => {
-                          handleCalculate()
-                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
-                        }}
+                      onClick={handleCalculate}
                       className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
                     >
                       <Calculator className="mr-2 h-5 w-5" />
@@ -417,7 +409,7 @@ export default function InflationCalculator() {
 
               {/* Right: Results Card */}
               <div>
-                <Card ref={resultsRef} className="shadow-xl border-0 pt-0 min-h-0 rounded-xl overflow-hidden hover:shadow-orange-100/50 transition-shadow duration-300">
+                <Card className="shadow-xl border-0 pt-0 min-h-0 rounded-xl overflow-hidden hover:shadow-orange-100/50 transition-shadow duration-300">
                   <CardHeader className="bg-gradient-to-r from-orange-50 via-red-50 to-pink-50 rounded-t-xl py-5 px-6 border-b border-orange-100/50">
                     <CardTitle className="flex items-center space-x-3 text-xl">
                       <div className="w-10 h-10 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center shadow-lg">
@@ -565,7 +557,7 @@ export default function InflationCalculator() {
                             <div>
                               <h4 className="font-semibold text-orange-800 mb-3">Year-by-Year Breakdown</h4>
                               <div className="max-h-64 overflow-y-auto border border-orange-200 rounded-lg">
-                                <Table>
+                                <Table >
                                   <TableHeader className="bg-orange-50">
                                     <TableRow>
                                       <TableHead className="text-orange-800">Year</TableHead>
@@ -611,9 +603,278 @@ export default function InflationCalculator() {
               </div>
             </div>
           </div>
-        </main>
 
-        {/* Footer */}
+          {/* Historical Inflation Data Section */}
+          <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+            <Card className="shadow-xl p-0 border-0 rounded-xl overflow-hidden hover:shadow-orange-100/50 transition-shadow duration-300">
+              <CardHeader className="bg-gradient-to-r from-orange-50 via-red-50 to-pink-50 py-6 px-8 border-b border-orange-100/50">
+                <CardTitle className="flex items-center space-x-3 text-2xl">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center shadow-lg">
+                    <TrendingUp className="w-7 h-7 text-white" />
+                  </div>
+                  <span className="text-orange-800 font-bold">Historical US Inflation Rates</span>
+                </CardTitle>
+                <CardDescription className="text-base text-orange-700/80 mt-2">
+                  Monthly and annual inflation rates from 2013 to 2025 to help you understand historical trends
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="p-8 bg-white">
+                <div className="overflow-x-auto">
+                  <Table>
+                    <TableHeader>
+                      <TableRow className="bg-gradient-to-r from-orange-50 to-red-50">
+                        <TableHead className="text-orange-800 font-semibold">Year</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Jan</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Feb</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Mar</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Apr</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">May</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Jun</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Jul</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Aug</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Sep</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Oct</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Nov</TableHead>
+                        <TableHead className="text-orange-800 font-semibold">Dec</TableHead>
+                        <TableHead className="text-orange-800 font-semibold bg-orange-100">Average</TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2025</TableCell>
+                        <TableCell>3.00%</TableCell>
+                        <TableCell>2.82%</TableCell>
+                        <TableCell>2.39%</TableCell>
+                        <TableCell>2.31%</TableCell>
+                        <TableCell>2.35%</TableCell>
+                        <TableCell>2.67%</TableCell>
+                        <TableCell>2.70%</TableCell>
+                        <TableCell className="text-gray-400">-</TableCell>
+                        <TableCell className="text-gray-400">-</TableCell>
+                        <TableCell className="text-gray-400">-</TableCell>
+                        <TableCell className="text-gray-400">-</TableCell>
+                        <TableCell className="text-gray-400">-</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">-</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2024</TableCell>
+                        <TableCell>3.09%</TableCell>
+                        <TableCell>3.15%</TableCell>
+                        <TableCell>3.48%</TableCell>
+                        <TableCell>3.36%</TableCell>
+                        <TableCell>3.27%</TableCell>
+                        <TableCell>2.97%</TableCell>
+                        <TableCell>2.89%</TableCell>
+                        <TableCell>2.53%</TableCell>
+                        <TableCell>2.44%</TableCell>
+                        <TableCell>2.60%</TableCell>
+                        <TableCell>2.75%</TableCell>
+                        <TableCell>2.89%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">2.95%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2023</TableCell>
+                        <TableCell>6.41%</TableCell>
+                        <TableCell>6.04%</TableCell>
+                        <TableCell>4.98%</TableCell>
+                        <TableCell>4.93%</TableCell>
+                        <TableCell>4.05%</TableCell>
+                        <TableCell>2.97%</TableCell>
+                        <TableCell>3.18%</TableCell>
+                        <TableCell>3.67%</TableCell>
+                        <TableCell>3.70%</TableCell>
+                        <TableCell>3.24%</TableCell>
+                        <TableCell>3.14%</TableCell>
+                        <TableCell>3.35%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">4.12%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2022</TableCell>
+                        <TableCell className="text-red-600 font-medium">7.48%</TableCell>
+                        <TableCell className="text-red-600 font-medium">7.87%</TableCell>
+                        <TableCell className="text-red-600 font-medium">8.54%</TableCell>
+                        <TableCell className="text-red-600 font-medium">8.26%</TableCell>
+                        <TableCell className="text-red-600 font-medium">8.58%</TableCell>
+                        <TableCell className="text-red-600 font-medium">9.06%</TableCell>
+                        <TableCell className="text-red-600 font-medium">8.52%</TableCell>
+                        <TableCell className="text-red-600 font-medium">8.26%</TableCell>
+                        <TableCell className="text-red-600 font-medium">8.20%</TableCell>
+                        <TableCell className="text-red-600 font-medium">7.75%</TableCell>
+                        <TableCell className="text-red-600 font-medium">7.11%</TableCell>
+                        <TableCell className="text-red-600 font-medium">6.45%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50 text-red-600">8.00%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2021</TableCell>
+                        <TableCell>1.40%</TableCell>
+                        <TableCell>1.68%</TableCell>
+                        <TableCell>2.62%</TableCell>
+                        <TableCell>4.16%</TableCell>
+                        <TableCell>4.99%</TableCell>
+                        <TableCell>5.39%</TableCell>
+                        <TableCell>5.37%</TableCell>
+                        <TableCell>5.25%</TableCell>
+                        <TableCell>5.39%</TableCell>
+                        <TableCell>6.22%</TableCell>
+                        <TableCell>6.81%</TableCell>
+                        <TableCell>7.04%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">4.70%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2020</TableCell>
+                        <TableCell>2.49%</TableCell>
+                        <TableCell>2.33%</TableCell>
+                        <TableCell>1.54%</TableCell>
+                        <TableCell>0.33%</TableCell>
+                        <TableCell>0.12%</TableCell>
+                        <TableCell>0.65%</TableCell>
+                        <TableCell>0.99%</TableCell>
+                        <TableCell>1.31%</TableCell>
+                        <TableCell>1.37%</TableCell>
+                        <TableCell>1.18%</TableCell>
+                        <TableCell>1.17%</TableCell>
+                        <TableCell>1.36%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">1.24%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2019</TableCell>
+                        <TableCell>1.55%</TableCell>
+                        <TableCell>1.52%</TableCell>
+                        <TableCell>1.86%</TableCell>
+                        <TableCell>2.00%</TableCell>
+                        <TableCell>1.79%</TableCell>
+                        <TableCell>1.65%</TableCell>
+                        <TableCell>1.81%</TableCell>
+                        <TableCell>1.75%</TableCell>
+                        <TableCell>1.71%</TableCell>
+                        <TableCell>1.76%</TableCell>
+                        <TableCell>2.05%</TableCell>
+                        <TableCell>2.29%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">1.81%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2018</TableCell>
+                        <TableCell>2.07%</TableCell>
+                        <TableCell>2.21%</TableCell>
+                        <TableCell>2.36%</TableCell>
+                        <TableCell>2.46%</TableCell>
+                        <TableCell>2.80%</TableCell>
+                        <TableCell>2.87%</TableCell>
+                        <TableCell>2.95%</TableCell>
+                        <TableCell>2.70%</TableCell>
+                        <TableCell>2.28%</TableCell>
+                        <TableCell>2.52%</TableCell>
+                        <TableCell>2.18%</TableCell>
+                        <TableCell>1.91%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">2.44%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2017</TableCell>
+                        <TableCell>2.50%</TableCell>
+                        <TableCell>2.74%</TableCell>
+                        <TableCell>2.38%</TableCell>
+                        <TableCell>2.20%</TableCell>
+                        <TableCell>1.87%</TableCell>
+                        <TableCell>1.63%</TableCell>
+                        <TableCell>1.73%</TableCell>
+                        <TableCell>1.94%</TableCell>
+                        <TableCell>2.23%</TableCell>
+                        <TableCell>2.04%</TableCell>
+                        <TableCell>2.20%</TableCell>
+                        <TableCell>2.11%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">2.13%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2016</TableCell>
+                        <TableCell>1.37%</TableCell>
+                        <TableCell>1.02%</TableCell>
+                        <TableCell>0.85%</TableCell>
+                        <TableCell>1.13%</TableCell>
+                        <TableCell>1.02%</TableCell>
+                        <TableCell>1.01%</TableCell>
+                        <TableCell>0.84%</TableCell>
+                        <TableCell>1.06%</TableCell>
+                        <TableCell>1.46%</TableCell>
+                        <TableCell>1.64%</TableCell>
+                        <TableCell>1.69%</TableCell>
+                        <TableCell>2.07%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">1.26%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2015</TableCell>
+                        <TableCell className="text-blue-600">-0.09%</TableCell>
+                        <TableCell className="text-blue-600">-0.03%</TableCell>
+                        <TableCell className="text-blue-600">-0.07%</TableCell>
+                        <TableCell className="text-blue-600">-0.20%</TableCell>
+                        <TableCell className="text-blue-600">-0.04%</TableCell>
+                        <TableCell>0.12%</TableCell>
+                        <TableCell>0.17%</TableCell>
+                        <TableCell>0.20%</TableCell>
+                        <TableCell className="text-blue-600">-0.04%</TableCell>
+                        <TableCell>0.17%</TableCell>
+                        <TableCell>0.50%</TableCell>
+                        <TableCell>0.73%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">0.12%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2014</TableCell>
+                        <TableCell>1.58%</TableCell>
+                        <TableCell>1.13%</TableCell>
+                        <TableCell>1.51%</TableCell>
+                        <TableCell>1.95%</TableCell>
+                        <TableCell>2.13%</TableCell>
+                        <TableCell>2.07%</TableCell>
+                        <TableCell>1.99%</TableCell>
+                        <TableCell>1.70%</TableCell>
+                        <TableCell>1.66%</TableCell>
+                        <TableCell>1.66%</TableCell>
+                        <TableCell>1.32%</TableCell>
+                        <TableCell>0.76%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">1.62%</TableCell>
+                      </TableRow>
+                      <TableRow className="hover:bg-orange-50/30">
+                        <TableCell className="font-semibold text-orange-800">2013</TableCell>
+                        <TableCell>1.59%</TableCell>
+                        <TableCell>1.98%</TableCell>
+                        <TableCell>1.47%</TableCell>
+                        <TableCell>1.06%</TableCell>
+                        <TableCell>1.36%</TableCell>
+                        <TableCell>1.75%</TableCell>
+                        <TableCell>1.96%</TableCell>
+                        <TableCell>1.52%</TableCell>
+                        <TableCell>1.18%</TableCell>
+                        <TableCell>0.96%</TableCell>
+                        <TableCell>1.24%</TableCell>
+                        <TableCell>1.50%</TableCell>
+                        <TableCell className="font-semibold bg-orange-50">1.46%</TableCell>
+                      </TableRow>
+                    </TableBody>
+                  </Table>
+                </div>
+                <div className="mt-6 p-4 bg-gradient-to-r from-orange-50 to-red-50 rounded-lg border border-orange-200">
+                  <h4 className="font-semibold text-orange-800 mb-2">Key Insights:</h4>
+                  <ul className="text-sm text-orange-700 space-y-1">
+                    <li>
+                      • <strong>2022</strong> saw the highest inflation rates in decades, peaking at 9.06% in June
+                    </li>
+                    <li>
+                      • <strong>2015</strong> experienced deflation (negative inflation) in several months
+                    </li>
+                    <li>
+                      • The Federal Reserve typically targets around <strong>2% annual inflation</strong>
+                    </li>
+                    <li>• Use this historical data to make informed assumptions about future inflation rates</li>
+                  </ul>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+
+           <div className="mt-8">
+              <CalculatorGuide data={inflationData} />
+            </div>
+        </main>
 
       </div>
     </>

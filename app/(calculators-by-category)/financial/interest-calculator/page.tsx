@@ -10,6 +10,8 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
+import CalculatorGuide from "@/components/calculator-guide"
+import interestData from "@/app/content/interest-calculator.json"
 
 export default function InterestCalculator() {
   const [initialInvestment, setInitialInvestment] = useState("")
@@ -482,43 +484,8 @@ export default function InterestCalculator() {
             </div>
           </div>
           {/* How to Use Section */}
-          <div className="max-w-6xl mx-auto mt-10">
-            <div className="rounded-2xl bg-gradient-to-r from-blue-50 to-green-50  p-8 shadow flex flex-col items-left">
-              <h2 className="text-2xl font-bold text-green-700 mb-2 flex items-center gap-2">
-                <Calculator className="w-6 h-6 text-green-500" /> How to Use This Calculator
-              </h2>
-              <ol className="list-decimal list-inside text-gray-700 text-base space-y-2 mb-2">
-                <li>
-                  Enter your <span className="font-semibold text-green-700">Initial investment</span> amount.
-                </li>
-                <li>
-                  Fill in your <span className="font-semibold text-green-700">Annual</span> and/or{" "}
-                  <span className="font-semibold text-green-700">Monthly contribution</span>.
-                </li>
-                <li>
-                  Select whether you contribute at the <span className="font-semibold text-green-700">beginning</span>{" "}
-                  or <span className="font-semibold text-green-700">end</span> of each period.
-                </li>
-                <li>
-                  Set your <span className="font-semibold text-green-700">Interest rate</span> and{" "}
-                  <span className="font-semibold text-green-700">Compounding frequency</span>.
-                </li>
-                <li>
-                  Enter the <span className="font-semibold text-green-700">Investment length</span> in years and months.
-                </li>
-                <li>
-                  Optionally, add <span className="font-semibold text-green-700">Tax</span> and{" "}
-                  <span className="font-semibold text-green-700">Inflation</span> rates for more accurate results.
-                </li>
-                <li>
-                  Click <span className="font-semibold text-green-700">Calculate</span> to see your investment summary!
-                </li>
-              </ol>
-              <p className="text-sm text-gray-500 mt-2 text-center">
-                This tool helps you estimate your investment growth, total interest, and buying power after inflation.
-                Adjust the values to plan your financial future smartly!
-              </p>
-            </div>
+          <div className="mt-8">
+              <CalculatorGuide data={interestData} />
           </div>
         </main>
       </div>

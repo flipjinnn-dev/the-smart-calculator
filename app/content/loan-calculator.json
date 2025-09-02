@@ -1,0 +1,168 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "What is a Loan Calculator?",
+      "content": "Managing a loan becomes simple when you have the right tools. Our Loan Calculator helps you estimate your monthly installments, total interest cost, and repayment schedule. Whether you are planning a personal loan, car loan, home loan, or business loan, this tool gives you clear insights into your borrowing capacity and repayment plan."
+    },
+    {
+      "heading": "Why Use a Loan Calculator?",
+      "subSections": [
+        {
+          "heading": "Estimate Monthly Payment",
+          "content": "Calculate your monthly loan payment using loan amount, loan term, and interest rate."
+        },
+        {
+          "heading": "Compare Loan Types",
+          "content": "Check different calculators like personal loan, auto loan, student loan, and mortgage loan calculators."
+        },
+        {
+          "heading": "Understand Interest Costs",
+          "content": "Use the loan interest calculator or EMI calculator to see how much interest you will pay over time."
+        },
+        {
+          "heading": "Check Amortization Schedule",
+          "content": "See how each payment is divided into principal and interest throughout the loan term."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use Loan Calculator (Step by Step)",
+      "subSections": [
+        {
+          "heading": "Step 1: Enter Loan Amount",
+          "content": "Type the total amount you plan to borrow."
+        },
+        {
+          "heading": "Step 2: Select Loan Term",
+          "content": "Choose how long you want to repay the loan (in months or years)."
+        },
+        {
+          "heading": "Step 3: Input Interest Rate",
+          "content": "Enter the annual interest rate offered by your bank or lender."
+        },
+        {
+          "heading": "Step 4: Click Calculate",
+          "content": "Instantly see your monthly EMI, total interest payable, and repayment schedule."
+        }
+      ]
+    },
+    {
+      "heading": "Types of Loan Calculators You Can Use",
+      "subSections": [
+        {
+          "heading": "Personal Loan Calculator",
+          "content": "Plan your short-term borrowing needs."
+        },
+        {
+          "heading": "Auto Loan Calculator",
+          "content": "Find the best repayment plan for your car loan."
+        },
+        {
+          "heading": "Student Loan Calculator",
+          "content": "Estimate your education loan payments."
+        },
+        {
+          "heading": "Mortgage Loan Calculator",
+          "content": "Calculate home loan affordability and monthly EMI."
+        },
+        {
+          "heading": "Business Loan Calculator",
+          "content": "Check financing options for your business needs."
+        },
+        {
+          "heading": "Home Loan Calculator",
+          "content": "Understand the total cost of owning a house."
+        },
+        {
+          "heading": "Debt Consolidation Calculator",
+          "content": "Combine multiple loans into one easy payment."
+        },
+        {
+          "heading": "Loan Eligibility Calculator",
+          "content": "Estimate how much you can borrow based on income and expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Advanced Loan Calculations",
+      "subSections": [
+        {
+          "heading": "Simple Interest Loan Calculator",
+          "content": "For basic loans with fixed interest."
+        },
+        {
+          "heading": "Compound Interest Calculator",
+          "content": "See the effect of compounding on your loan."
+        },
+        {
+          "heading": "Loan Term Calculator",
+          "content": "Adjust repayment duration to fit your budget."
+        },
+        {
+          "heading": "Loan Affordability Calculator",
+          "content": "Know how much loan you can manage comfortably."
+        },
+        {
+          "heading": "Interest Rate Calculator",
+          "content": "Compare loan offers by adjusting the interest rate."
+        },
+        {
+          "heading": "Loan Schedule Calculator",
+          "content": "View a full breakdown of payments month by month."
+        },
+        {
+          "heading": "Finance Calculator",
+          "content": "A general tool for multiple financial calculations."
+        }
+      ]
+    },
+    {
+      "heading": "Benefits of Using a Loan Calculator",
+      "subSections": [
+        {
+          "heading": "Save Time",
+          "content": "Get instant results without manual calculations."
+        },
+        {
+          "heading": "Better Budgeting",
+          "content": "Plan your finances more effectively with clear repayment estimates."
+        },
+        {
+          "heading": "Compare Options",
+          "content": "Evaluate different loan scenarios side by side."
+        },
+        {
+          "heading": "Early Repayment Insights",
+          "content": "Understand how early payments can reduce interest."
+        },
+        {
+          "heading": "Smart Decision-Making",
+          "content": "Make informed decisions before applying for a loan."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a loan calculator?",
+      "a": "A loan calculator helps you estimate monthly EMI, interest cost, and repayment schedule based on loan amount, interest rate, and term."
+    },
+    {
+      "q": "Can I compare different loan types?",
+      "a": "Yes, our tool works as a personal loan, auto loan, student loan, mortgage loan, and business loan calculator."
+    },
+    {
+      "q": "What is EMI?",
+      "a": "EMI (Equated Monthly Installment) is the fixed payment you make each month towards your loan, which includes both principal and interest."
+    },
+    {
+      "q": "How does an amortization schedule help?",
+      "a": "It shows the breakdown of each EMI into principal and interest, helping you understand your repayment progress."
+    },
+    {
+      "q": "Can I calculate early repayment benefits?",
+      "a": "Yes, by adjusting loan terms and payments, you can see how much interest you save with early repayment."
+    }
+  ]
+}

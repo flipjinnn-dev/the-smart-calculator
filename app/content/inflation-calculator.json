@@ -1,0 +1,100 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "What is Inflation?",
+      "content": "Inflation refers to the rise in the general price level of goods and services over time. When prices rise, the purchasing power of money decreases. <br><br>For example, if $100 bought you 10 items in the year 2000, the same $100 might only buy 6–7 items in 2025. <br><br>The most common way to measure inflation is through the Consumer Price Index (CPI), which tracks the price changes of a 'basket of goods and services' over time."
+    },
+    {
+      "heading": "How is Inflation Calculated?",
+      "content": "Inflation is usually calculated using this formula:<br><br><strong>Inflation Rate = (CPI (current year) - CPI (previous year)) / CPI (previous year) × 100</strong>",
+      "subSections": [
+        {
+          "heading": "Example Calculation",
+          "content": "CPI in 2024 = 305 <br>CPI in 2023 = 295 <br><br><strong>Inflation Rate = (305 - 295) / 295 × 100 = 3.39%</strong> <br><br>This means the average price level increased by 3.39% in one year."
+        }
+      ]
+    },
+    {
+      "heading": "Why Does Inflation Happen?",
+      "subSections": [
+        {
+          "heading": "Demand-Pull Inflation",
+          "content": "When demand for goods and services is higher than supply, prices increase."
+        },
+        {
+          "heading": "Cost-Push Inflation",
+          "content": "When production costs (like wages, fuel, or raw materials) rise, businesses increase prices to maintain profits."
+        },
+        {
+          "heading": "Built-In Inflation",
+          "content": "When workers expect prices to rise, they demand higher wages, which increases production costs and further pushes prices up."
+        }
+      ]
+    },
+    {
+      "heading": "Examples of Inflation in History",
+      "subSections": [
+        {
+          "heading": "Hyperinflation in Germany (1920s)",
+          "content": "Prices rose so fast that people needed wheelbarrows of cash to buy basic goods."
+        },
+        {
+          "heading": "Brazil (1980s–1990s)",
+          "content": "Annual inflation reached over 2,000%, severely impacting the economy."
+        },
+        {
+          "heading": "Recent U.S. Inflation (2021–2022)",
+          "content": "Post-pandemic supply chain issues and high demand caused the highest inflation rates in 40 years."
+        }
+      ]
+    },
+    {
+      "heading": "What About Deflation?",
+      "content": "The opposite of inflation is deflation, when prices fall over time. While it may sound good, deflation can hurt the economy because businesses earn less, leading to wage cuts and job losses."
+    },
+    {
+      "heading": "Why Use an Inflation Calculator?",
+      "subSections": [
+        {
+          "heading": "Compare Value of Money",
+          "content": "See how the value of money changes over time (past vs present)."
+        },
+        {
+          "heading": "Financial Planning",
+          "content": "Understand how inflation affects long-term savings, investments, and retirement goals."
+        },
+        {
+          "heading": "Economic Analysis",
+          "content": "Analyze historical economic trends and adjust strategies accordingly."
+        },
+        {
+          "heading": "Salary & Savings Adjustment",
+          "content": "Adjust salaries, savings, and investments for inflation to maintain purchasing power."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is inflation in simple terms?",
+      "a": "Inflation means the prices of goods and services increase over time, reducing the purchasing power of money."
+    },
+    {
+      "q": "How do I calculate inflation?",
+      "a": "Use the formula: (CPI current year - CPI previous year) / CPI previous year × 100. Our inflation calculator does this for you automatically."
+    },
+    {
+      "q": "What causes inflation?",
+      "a": "Common causes include demand-pull inflation, cost-push inflation, and built-in inflation driven by wage-price cycles."
+    },
+    {
+      "q": "Is inflation always bad?",
+      "a": "Not necessarily. Moderate inflation is normal and can indicate a growing economy. However, high inflation or hyperinflation can be damaging."
+    },
+    {
+      "q": "What is deflation?",
+      "a": "Deflation is the opposite of inflation, where prices fall over time. While it seems positive, it can slow economic growth and lead to unemployment."
+    }
+  ]
+}

@@ -14,7 +14,8 @@ export const metadata: Metadata = {
   },
   description:
     "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
-  keywords: "calculator, online calculator, financial calculator, health calculator, math calculator, free tools",
+  keywords:
+    "calculator, online calculator, financial calculator, health calculator, math calculator, free tools",
   authors: [{ name: "Smart Calculator Team" }],
   creator: "Smart Calculator",
   publisher: "Smart Calculator",
@@ -46,20 +47,20 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
     googleBot: {
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
     },
   },
   verification: {
-    google: "your-google-verification-code",
+    google: "RehqhdOImhqlzUM1_EWsYdmed39YNrO6MQyARIW9rK4", // ✅ Google Site Verification
   },
-    generator: 'v0.dev'
+  generator: "Smart Calculator",
 }
 
 export default function RootLayout({
@@ -70,18 +71,38 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Canonical + Basic Meta */}
         <link rel="canonical" href="https://www.thesmartcalculator.com/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#3b82f6" />
+
+        {/* Favicon & App Icons */}
         <link rel="icon" href="/logo.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
-      </head>
-      <body className={inter.className}>{children}
-      <Footer />
-      </body>
-      
 
+        {/* ✅ Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-18W2MEF31Q"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-18W2MEF31Q', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
+      </head>
+      <body className={inter.className}>
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

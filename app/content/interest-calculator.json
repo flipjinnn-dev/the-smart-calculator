@@ -1,0 +1,156 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "What is an Interest Calculator?",
+      "content": "Our Online Interest Calculator helps you find out how much interest you will earn on savings and investments or pay on loans. Whether you need a Simple Interest Calculator or a Compound Interest Calculator, this tool gives you accurate results instantly. You can use it as a Loan Interest Calculator, Savings Interest Calculator, Investment Interest Calculator, or Bank Interest Calculator – all in one place."
+    },
+    {
+      "heading": "What is Interest?",
+      "subSections": [
+        {
+          "heading": "Simple Interest (SI)",
+          "content": "Calculated only on the principal amount. Formula: SI = (Principal × Rate × Time) ÷ 100"
+        },
+        {
+          "heading": "Compound Interest (CI)",
+          "content": "Calculated on the principal plus accumulated interest. Formula: A = P × (1 + R/100)^T"
+        },
+        {
+          "heading": "Why Use Interest Calculators?",
+          "content": "Daily, Monthly, and Annual Interest Calculators help you plan better for loans, savings, and investments."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Interest Calculator (Step by Step)",
+      "subSections": [
+        {
+          "heading": "Step 1: Enter Principal Amount",
+          "content": "Type the loan or investment amount."
+        },
+        {
+          "heading": "Step 2: Enter Interest Rate",
+          "content": "Provide the annual percentage rate (APR)."
+        },
+        {
+          "heading": "Step 3: Select Time Period",
+          "content": "Choose the duration in months or years."
+        },
+        {
+          "heading": "Step 4: Choose Interest Type",
+          "content": "Select either Simple Interest or Compound Interest."
+        },
+        {
+          "heading": "Step 5: Click Calculate",
+          "content": "See total interest earned/paid and final balance."
+        }
+      ]
+    },
+    {
+      "heading": "How to Calculate Investment Growth",
+      "subSections": [
+        {
+          "heading": "Step 1: Enter Initial Investment",
+          "content": "Start with the base amount you plan to invest."
+        },
+        {
+          "heading": "Step 2: Add Contributions",
+          "content": "Fill in your Annual and/or Monthly contribution."
+        },
+        {
+          "heading": "Step 3: Contribution Timing",
+          "content": "Select whether you contribute at the beginning or end of each period."
+        },
+        {
+          "heading": "Step 4: Set Interest & Compounding",
+          "content": "Enter the Interest rate and choose compounding frequency."
+        },
+        {
+          "heading": "Step 5: Enter Investment Duration",
+          "content": "Specify length in years and months."
+        },
+        {
+          "heading": "Step 6: Add Optional Factors",
+          "content": "Include Tax and Inflation rates for more accurate results."
+        },
+        {
+          "heading": "Step 7: Click Calculate",
+          "content": "See your investment summary, growth, total interest, and buying power after inflation."
+        }
+      ],
+      "content": "This tool helps you estimate your investment growth, total interest, and buying power after inflation. Adjust the values to plan your financial future smartly!"
+    },
+    {
+      "heading": "Example Calculation",
+      "subSections": [
+        {
+          "heading": "Simple Interest Example",
+          "content": "Investment: $10,000 at 8% annual interest for 5 years. SI = (10,000 × 8 × 5) ÷ 100 = $4,000. Final Amount = $14,000."
+        },
+        {
+          "heading": "Compound Interest Example",
+          "content": "Investment: $10,000 at 8% annual interest for 5 years (yearly compounding). A = 10,000 × (1 + 0.08)^5 = $14,693. Compound interest gives $693 more than simple interest."
+        }
+      ]
+    },
+    {
+      "heading": "Benefits of Using Our Interest Calculator",
+      "subSections": [
+        {
+          "heading": "Fast & Accurate",
+          "content": "Instant results without manual calculations."
+        },
+        {
+          "heading": "Compare SI vs CI",
+          "content": "See the difference between simple and compound interest easily."
+        },
+        {
+          "heading": "Works for All Cases",
+          "content": "Loans, savings, FDs, mortgages, and investments."
+        },
+        {
+          "heading": "Supports Flexible Modes",
+          "content": "Daily, monthly, and yearly interest calculations."
+        },
+        {
+          "heading": "Versatile Usage",
+          "content": "Perfect for home loans, car loans, credit cards, business loans, and EMIs."
+        }
+      ]
+    },
+    {
+      "heading": "Types of Interest Calculations You Can Do",
+      "subSections": [
+        { "heading": "Simple Interest Calculator", "content": "For short-term loans or deposits." },
+        { "heading": "Compound Interest Calculator", "content": "See how interest grows with compounding (daily, monthly, yearly)." },
+        { "heading": "Loan Interest Calculator", "content": "Estimate total loan interest over time." },
+        { "heading": "Car Loan Interest Calculator", "content": "Calculate interest on vehicle loans." },
+        { "heading": "Personal Loan Interest Calculator", "content": "Check how much you’ll repay." },
+        { "heading": "Credit Card Interest Calculator", "content": "Understand monthly card charges." },
+        { "heading": "Savings Interest Calculator", "content": "See how your savings grow." },
+        { "heading": "Fixed Deposit Interest Calculator", "content": "Calculate FD maturity value." },
+        { "heading": "Investment Interest Calculator", "content": "Evaluate returns on investments." },
+        { "heading": "EMI Interest Calculator", "content": "Find the interest portion in EMIs." },
+        { "heading": "Business Loan Interest Calculator", "content": "Plan repayments for your business." },
+        { "heading": "Home Loan Interest Calculator", "content": "Estimate interest for housing loans." },
+        { "heading": "Interest Rate Calculator", "content": "Compare results at different rates." },
+        { "heading": "Interest Accrual Calculator", "content": "Track accumulated interest over time." }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the formula for simple interest?",
+      "a": "SI = (Principal × Rate × Time) ÷ 100"
+    },
+    {
+      "q": "What is the formula for compound interest?",
+      "a": "CI = Principal × (1 + Rate/100)^Time – Principal"
+    },
+    {
+      "q": "Can I use this calculator for loans and savings both?",
+      "a": "Yes, our tool works as a Loan Interest Calculator, Savings Interest Calculator, Investment Calculator, and Mortgage Interest Calculator."
+    }
+  ]
+}

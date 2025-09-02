@@ -119,6 +119,13 @@ export const calculators: Calculator[] = [
     category: "health",
   },
   {
+    id: "calories-burned-calculator",
+    name: "Calories Burned Calculator",
+    description: "Estimate the number of calories burned during physical activities.",
+    href: "/health/calories-burned-calculator",
+    category: "health"
+  },
+  {
     id:"due-date-calculator",
     name: "Due Date Calculator",
     description: "Estimate your due date based on your last menstrual period or conception date.",
@@ -133,10 +140,31 @@ export const calculators: Calculator[] = [
     category: "health",
   },
   {
+    id:"one-rep-max-calculator",
+    name: "One Rep Max Calculator",
+    description: "Estimate your one-rep max for strength training exercises.",
+    href: "/health/one-rep-max-calculator",
+    category: "health"
+  },
+  {
     id: "army-body-fat-calculator",
     name: "Army Body Fat Calculator",
     description: "Calculate body fat percentage using the U.S. Army method.",
     href: "/health/army-body-fat-calculator",
+    category: "health"
+  },
+  {
+    id:"target-heart-rate-calculator",
+    name: "Target Heart Rate Calculator",
+    description: "Calculate your target heart rate zone for exercise.",
+    href: "/health/target-heart-rate-calculator",
+    category: "health"
+  },
+  {
+    id:"protein-calculator",
+    name: "Protein Calculator",
+    description: "Calculate your daily protein needs based on activity level and goals",
+    href: "/health/protein-calculator",
     category: "health"
   },
   {
@@ -147,10 +175,24 @@ export const calculators: Calculator[] = [
     category: "health"
   },
   {
+    id:"fat-intake-calculator",
+    name: "Fat Intake Calculator",
+    description: "Calculate your daily fat needs based on activity level and goals",
+    href: "/health/fat-intake-calculator",
+    category: "health"
+  },
+  {
     id:"carbohydrate-calculator",
     name: "Carbohydrate Calculator",
     description: "Calculate your daily carbohydrate needs based on activity level and goals",
     href: "/health/carbohydrate-calculator",
+    category: "health"
+  },
+  {
+    id:"ovulation-calculator",
+    name: "Ovulation Calculator",
+    description: "Estimate your ovulation date and fertile window",
+    href: "/health/ovulation-calculator",
     category: "health"
   },
   {
@@ -161,10 +203,45 @@ export const calculators: Calculator[] = [
     category: "health"
   },
   {
+    id:"tdee-calculator",
+    name: "TDEE Calculator",
+    description: "Calculate your Total Daily Energy Expenditure (TDEE) based on activity level",
+    href: "/health/tdee-calculator",
+    category: "health"
+  },
+  {
+    id:"conception-calculator",
+    name: "Conception Calculator",
+    description: "Estimate your conception date based on ovulation and intercourse dates.",
+    href: "/health/conception-calculator",
+    category: "health"
+  },
+  {
+    id:"gfr-calculator",
+    name: "GFR Calculator",
+    description: "Estimate your Glomerular Filtration Rate (GFR) based on creatinine levels.",
+    href: "/health/gfr-calculator",
+    category: "health"
+  },
+  {
     id: "ideal-weight",
     name: "Ideal Weight Calculator",
     description: "Calculate your ideal body weight range based on height and gender",
     href: "/health/ideal-weight-calculator",
+    category: "health"
+  },
+  {
+    id:"body-type-calculator",
+    name: "Body Type Calculator",
+    description: "Determine your body type based on measurements and characteristics.",
+    href: "/health/body-type-calculator",
+    category: "health"
+  },
+  {
+    id:"period-calculator",
+    name: "Period Calculator",
+    description: "Calculate your menstrual cycle and ovulation dates.",
+    href: "/health/period-calculator",
     category: "health"
   },
   {
