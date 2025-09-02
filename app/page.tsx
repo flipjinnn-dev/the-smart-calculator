@@ -211,9 +211,9 @@ export default function HomePage() {
               <div className="flex items-center space-x-3">
                 <Logo />
                 <div>
-                  <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-500 via-red-500 to-green-500 bg-clip-text text-transparent">
+                  <p className="text-2xl font-bold bg-gradient-to-r from-blue-500 via-red-500 to-green-500 bg-clip-text text-transparent">
                     Smart Calculators
-                  </h1>
+                  </p>  
                   <p className="text-sm text-gray-500">Free Online Calculators</p>
                 </div>
               </div>
@@ -234,15 +234,15 @@ export default function HomePage() {
             <div className="mb-8">
               <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg border border-white/20 mb-8">
                 <Sparkles className="w-5 h-5 text-blue-600 mr-2" />
-                <span className="text-sm font-semibold text-gray-700">Trusted by 10M+ Users Worldwide</span>
+                <span className="text-sm font-semibold text-gray-700">Trusted by 1M+ Users Worldwide</span>
               </div>
             </div>
-            <h2 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-tight">
+            <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-[100px]">
               Smart
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent block">
                 Calculators
               </span>
-            </h2>
+            </h1>
 
             <p className="text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
               The most comprehensive collection of{" "}
@@ -252,7 +252,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <div className="flex items-center space-x-2 text-gray-600">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium">200+ Calculators</span>
+                <span className="text-sm font-medium">60+ Calculators</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-600">
                 <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>

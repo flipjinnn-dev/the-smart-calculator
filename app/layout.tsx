@@ -6,14 +6,9 @@ import { Footer } from "@/components/footer"
 
 const inter = Inter({ subsets: ["latin"] })
 
+// Sirf global settings rakhe hain, title/description hata diye
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.thesmartcalculator.com/"),
-  title: {
-    default: "Smart Calculator - Free Online Calculators for Every Need",
-    template: "%s | Smart Calculator",
-  },
-  description:
-    "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
   keywords:
     "calculator, online calculator, financial calculator, health calculator, math calculator, free tools",
   authors: [{ name: "Smart Calculator Team" }],
@@ -29,8 +24,6 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.thesmartcalculator.com/",
     siteName: "Smart Calculator",
-    title: "Smart Calculator - Free Online Calculators",
-    description: "Access hundreds of free online calculators for every need",
     images: [
       {
         url: "/og-image.png",
@@ -42,8 +35,6 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Smart Calculator - Free Online Calculators",
-    description: "Access hundreds of free online calculators for every need",
     images: ["/og-image.png"],
   },
   robots: {
@@ -58,7 +49,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "RehqhdOImhqlzUM1_EWsYdmed39YNrO6MQyARIW9rK4", // ✅ Google Site Verification
+    google: "RehqhdOImhqlzUM1_EWsYdmed39YNrO6MQyARIW9rK4",
   },
   generator: "Smart Calculator",
 }
@@ -95,6 +86,20 @@ export default function RootLayout({
               gtag('config', 'G-18W2MEF31Q', {
                 page_path: window.location.pathname,
               });
+            `,
+          }}
+        />
+
+        {/* ✅ Microsoft Clarity */}
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "t4gsw89qux");
             `,
           }}
         />
