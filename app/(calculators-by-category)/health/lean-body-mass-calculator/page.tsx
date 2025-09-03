@@ -211,10 +211,10 @@ export default function LeanBodyMassCalculator() {
   return (
     <>
       <Head>
-        <title>Lean Body Mass Calculator - Health & Fitness Calculator - Smart Calculator</title>
+        <title>Lean Body Mass Calculator – Fitness Measurement</title>
         <meta
           name="description"
-          content="Calculate lean body mass using Boer, James, Hume, and Peters formulas. Professional LBM calculator with body fat percentage option."
+          content="Estimate your lean body mass quickly and accurately. Use our free calculator to track muscle vs. fat for health goals."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-slate-50">

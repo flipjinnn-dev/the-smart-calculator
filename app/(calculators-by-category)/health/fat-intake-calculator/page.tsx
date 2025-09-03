@@ -226,10 +226,10 @@ export default function FatIntakeCalculator() {
   return (
     <>
       <Head>
-        <title>Fat Intake Calculator - Daily Fat Requirement Calculator - Smart Calculator</title>
+        <title>Fat Intake Calculator – Daily Nutrition Tracker</title>
         <meta
           name="description"
-          content="Calculate your daily fat intake requirements based on age, weight, activity level, and calorie goals. Professional nutrition calculator for optimal fat consumption."
+          content="Calculate your recommended daily fat intake. Use our free fat intake calculator to balance diet and support health."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">

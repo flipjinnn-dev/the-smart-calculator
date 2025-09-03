@@ -206,10 +206,10 @@ export default function GFRCalculator() {
   return (
     <>
       <Head>
-        <title>GFR Calculator - Glomerular Filtration Rate & Kidney Function Test - Smart Calculator</title>
+        <title>GFR Calculator – Kidney Function Estimator</title>
         <meta
           name="description"
-          content="Calculate estimated GFR (eGFR) using MDRD, CKD-EPI, and Schwartz formulas. Professional kidney function calculator for adults and children."
+          content="Check kidney health with our free GFR calculator. Estimate glomerular filtration rate and monitor kidney function easily."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">

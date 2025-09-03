@@ -155,10 +155,10 @@ export default function PeriodCalculator() {
   return (
     <>
       <Head>
-        <title>Period Calculator - Menstrual Cycle Tracker & Fertility Calendar - Smart Calculator</title>
+        <title>Period Calculator – Track Menstrual Cycle</title>
         <meta
           name="description"
-          content="Track your menstrual cycle, predict next period dates, and calculate fertile windows. Professional period calculator for cycle tracking and fertility planning."
+          content="Predict your next period with our free calculator. Track menstrual cycle, fertile days, and ovulation for better planning."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-purple-50">

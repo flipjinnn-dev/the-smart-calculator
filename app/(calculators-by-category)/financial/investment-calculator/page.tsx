@@ -256,10 +256,10 @@ export default function InvestmentCalculator() {
   return (
     <>
       <Head>
-        <title>Investment Calculator - Smart Calculator</title>
+        <title> Investment Calculator – Plan Returns Easily</title>
         <meta
           name="description"
-          content="Calculate your investment returns, contributions, and plan your financial future with our Investment Calculator."
+          content="Estimate your investment growth with our free calculator. Calculate returns, compound interest, and future value for smarter financial planning."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">

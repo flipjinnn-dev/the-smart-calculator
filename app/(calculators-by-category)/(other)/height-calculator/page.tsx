@@ -268,10 +268,10 @@ export default function HeightCalculator() {
   return (
     <>
       <Head>
-        <title>Height Calculator - Child Adult Height Predictor - Smart Calculator</title>
+        <title>Height Calculator – Estimate Adult Height</title>
         <meta
           name="description"
-          content="Predict your child's future adult height using Khamis-Roche and Mid-Parental Height methods. Accurate height estimation for children."
+          content="Predict adult height from current age. Use our free height calculator for kids, teens, and accurate growth estimation."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50">

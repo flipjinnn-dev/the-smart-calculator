@@ -129,10 +129,10 @@ export default function AgeCalculator() {
   return (
     <>
       <Head>
-        <title>Age Calculator - Smart Calculator</title>
+        <title>Age Calculator – Calculate Age by Date of Birth</title>
         <meta
           name="description"
-          content="Calculate your exact age in years, months, weeks, days, hours, minutes, and seconds. Precise age calculation with leap year handling."
+          content="Find your exact age in years, months, and days. Use our free age calculator to calculate age instantly by date of birth."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-50">

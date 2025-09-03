@@ -63,10 +63,10 @@ export default function CalorieCalculator() {
   return (
     <>
       <Head>
-        <title>Calorie Calculator - Calculate Daily Calorie Needs | Smart Calculator</title>
+        <title>Calorie Calculator – Daily Calorie Needs Tracker</title>
         <meta
           name="description"
-          content="Free calorie calculator to calculate your daily calorie needs based on age, gender, height, weight, and activity level."
+          content="Find out how many calories you need daily. Use our free calorie calculator to plan weight loss, gain, or maintenance."
         />
       </Head>
 

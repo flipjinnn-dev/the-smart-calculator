@@ -295,10 +295,10 @@ export default function CookingMeasurementConverter() {
   return (
     <>
       <Head>
-        <title>Cooking Measurement Converter | Smart Calculator</title>
+        <title>Cooking Measurement Converter – Recipe Helper</title>
         <meta
           name="description"
-          content="Convert between weight and volume of cooking ingredients using density. Perfect for recipe conversions and cooking measurements."
+          content="Convert cooking measurements easily. Use our free converter for cups, grams, ounces, and tablespoons in recipes."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-red-50 to-pink-50">

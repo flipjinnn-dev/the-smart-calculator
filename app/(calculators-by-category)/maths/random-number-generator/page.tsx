@@ -65,8 +65,8 @@ export default function RandomNumberGenerator() {
   return (
     <>
       <Head>
-        <title>Random Number Generator - Smart Calculator</title>
-        <meta name="description" content="Generate random numbers in a range with or without repeats. Free online random number generator." />
+        <title>Random Number Generator – Instant Random Picks</title>
+        <meta name="description" content="Generate random numbers instantly. Use our free random number generator for games, statistics, and decision-making anytime." />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}

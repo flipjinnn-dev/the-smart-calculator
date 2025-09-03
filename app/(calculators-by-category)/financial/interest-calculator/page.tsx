@@ -156,10 +156,10 @@ export default function InterestCalculator() {
   return (
     <>
       <Head>
-        <title>Interest Calculator - Smart Calculator</title>
+        <title>Interest Calculator – Quick & Accurate Results</title>
         <meta
           name="description"
-          content="Calculate interest, contributions, and future value of your investments with our Interest Calculator."
+          content="Calculate interest on savings, loans, or investments instantly. Use our free interest calculator to plan better and maximize financial growth."
         />
       </Head>
       <div className="min-h-screen bg-white">

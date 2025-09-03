@@ -124,10 +124,10 @@ export default function ArrowSpeedCalculator() {
   return (
     <>
       <Head>
-        <title>Arrow Speed Calculator - Smart Calculator</title>
+        <title>Arrow Speed Calculator – Archery Accuracy Tool</title>
         <meta
           name="description"
-          content="Calculate arrow speed, momentum, and kinetic energy using IBO ratings. Professional archery calculator with unit conversions."
+          content="Estimate arrow speed in seconds. Use our free arrow speed calculator to improve archery accuracy and bow performance."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">

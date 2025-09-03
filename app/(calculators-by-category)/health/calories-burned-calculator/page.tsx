@@ -173,10 +173,10 @@ export default function CaloriesBurnedCalculator() {
   return (
     <>
       <Head>
-        <title>Calories Burned Calculator - Health & Fitness Calculator - Smart Calculator</title>
+        <title>Calories Burned Calculator – Track Workout Results</title>
         <meta
           name="description"
-          content="Calculate calories burned during physical activities using MET values. Professional fitness calculator for tracking energy expenditure."
+          content="Calculate calories burned for any activity. Use our free calories burned calculator to track workouts and reach your fitness goals."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">

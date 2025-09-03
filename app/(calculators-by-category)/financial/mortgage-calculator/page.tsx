@@ -219,10 +219,10 @@ export default function MortgageCalculator() {
   return (
     <>
       <Head>
-        <title>Advanced Mortgage Calculator - Calculate Monthly Payments | Smart Calculator</title>
+        <title>Mortgage Calculator – Estimate Payments Easily</title>
         <meta
           name="description"
-          content="Advanced mortgage calculator with extra payments, tax increases, and detailed payment breakdown. Calculate your complete mortgage costs."
+          content="Calculate monthly mortgage payments, interest, and amortization in seconds. Use our free mortgage calculator to plan your home loan smarter."
         />
       </Head>
 

@@ -140,10 +140,10 @@ export default function ButterCalculator() {
   return (
     <>
       <Head>
-        <title>Butter Conversion Calculator - Smart Calculator</title>
+        <title>Butter Calculator – Baking & Cooking Converter</title>
         <meta
           name="description"
-          content="Convert butter measurements between sticks, cups, tablespoons, teaspoons, and grams with precise cooking conversions."
+          content="Convert butter measurements easily between cups, sticks, and grams. Use our free butter calculator for accurate recipes."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50">

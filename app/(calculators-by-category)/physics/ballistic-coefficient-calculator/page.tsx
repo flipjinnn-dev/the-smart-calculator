@@ -149,10 +149,10 @@ export default function BallisticCoefficientCalculator() {
   return (
     <>
       <Head>
-        <title>Ballistic Coefficient Calculator - Smart Calculator</title>
+        <title>Ballistic Coefficient Calculator – Bullet Efficiency</title>
         <meta
           name="description"
-          content="Calculate ballistic coefficient for projectiles using mass, cross-sectional area, and drag coefficient."
+          content="Calculate ballistic coefficient easily. Use our free ballistic coefficient calculator to measure bullet aerodynamics and accuracy."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">

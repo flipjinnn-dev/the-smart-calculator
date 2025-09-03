@@ -109,10 +109,10 @@ export default function BoardFootCalculator() {
   return (
     <>
       <Head>
-        <title>Board Foot Calculator - Calculate Lumber Volume & Cost | Smart Calculator</title>
+        <title>Board Foot Calculator – Lumber Measurement Tool</title>
         <meta
           name="description"
-          content="Calculate board feet for lumber and wood projects. Get accurate volume measurements and cost estimates for your construction needs."
+          content="Calculate board feet of lumber easily. Use our free board foot calculator for accurate wood measurement in construction and carpentry."
         />
         <meta
           name="keywords"

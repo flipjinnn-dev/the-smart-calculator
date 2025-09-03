@@ -118,10 +118,10 @@ export default function InflationCalculator() {
   return (
     <>
       <Head>
-        <title>Inflation Calculator - Smart Calculator</title>
+        <title>Inflation Calculator – Track Money’s True Value</title>
         <meta
           name="description"
-          content="Calculate the impact of inflation on your money over time. See how inflation affects purchasing power and plan accordingly."
+          content="See how inflation affects your money over time. Use our free inflation calculator to understand purchasing power and make informed financial choices."
         />
       </Head>
 

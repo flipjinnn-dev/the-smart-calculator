@@ -91,10 +91,10 @@ export default function ERACalculator() {
   return (
     <>
       <Head>
-        <title>ERA Calculator - Earned Run Average - Smart Calculator</title>
+        <title>ERA Calculator – Earned Run Average Tool</title>
         <meta
           name="description"
-          content="Calculate Earned Run Average (ERA) for baseball and softball pitchers. Convert innings and outs to precise ERA calculations."
+          content="Calculate ERA quickly for baseball pitchers. Use our free earned run average calculator to analyze pitching performance."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">

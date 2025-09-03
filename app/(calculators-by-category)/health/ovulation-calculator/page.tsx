@@ -160,10 +160,10 @@ export default function OvulationCalculator() {
   return (
     <>
       <Head>
-        <title>Ovulation Calculator - Fertility & Ovulation Tracker - Smart Calculator</title>
+        <title>Ovulation Calculator – Predict Fertile Days</title>
         <meta
           name="description"
-          content="Calculate your ovulation dates, fertile window, and pregnancy test dates. Professional ovulation calculator for family planning and fertility tracking."
+          content="Track your ovulation cycle and find fertile days. Use our free ovulation calculator to increase chances of pregnancy."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-rose-50">

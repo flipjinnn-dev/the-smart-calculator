@@ -110,10 +110,10 @@ export default function MagicNumberCalculator() {
   return (
     <>
       <Head>
-        <title>Magic Number Calculator - Baseball Standings - Smart Calculator</title>
+        <title>Magic Number Calculator – Baseball Playoff Tool</title>
         <meta
           name="description"
-          content="Calculate the Magic Number in baseball standings. Find out how many wins or rival losses are needed to clinch division title or playoff spot."
+          content="Find your team’s magic number instantly. Use our free magic number calculator to track playoff standings and wins."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">

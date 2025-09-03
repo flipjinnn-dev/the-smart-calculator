@@ -321,10 +321,10 @@ export default function GPACalculator() {
   return (
     <>
       <Head>
-        <title>GPA Calculator - Academic Grade Point Average - Smart Calculator</title>
+        <title>GPA Calculator – Calculate Your Grade Point Average</title>
         <meta
           name="description"
-          content="Calculate your semester GPA, cumulative GPA, and plan future grades. Supports letter grades, percentages, and point values with multiple semesters."
+          content="Calculate GPA quickly and accurately. Use our free GPA calculator to track academic performance and improve grades."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">

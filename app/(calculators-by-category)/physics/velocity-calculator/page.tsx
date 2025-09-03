@@ -168,10 +168,10 @@ export default function VelocityCalculator() {
   return (
     <>
       <Head>
-        <title>Velocity Calculator - Smart Calculator</title>
+        <title>Velocity Calculator – Speed & Motion Finder</title>
         <meta
           name="description"
-          content="Calculate velocity using different formulas including simple velocity, acceleration-based velocity, and weighted averages."
+          content="Find velocity quickly with our free calculator. Calculate speed, distance, and time for physics, motion, and real-life applications."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">

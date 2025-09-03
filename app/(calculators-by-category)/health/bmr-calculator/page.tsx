@@ -200,10 +200,10 @@ export default function BMRCalculator() {
   return (
     <>
       <Head>
-        <title>BMR Calculator - Basal Metabolic Rate Calculator - Smart Calculator</title>
+        <title>BMR Calculator – Basal Metabolic Rate Estimator</title>
         <meta
           name="description"
-          content="Calculate your Basal Metabolic Rate (BMR) using Mifflin-St Jeor, Harris-Benedict, or Katch-McArdle formulas. Get daily calorie needs by activity level."
+          content="Calculate your BMR and daily calorie needs. Use our free BMR calculator to plan diet, weight loss, and energy balance."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-teal-50">

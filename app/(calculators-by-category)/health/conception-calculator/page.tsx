@@ -166,10 +166,10 @@ export default function ConceptionCalculator() {
   return (
     <>
       <Head>
-        <title>Conception Calculator - Pregnancy Planning & Fertility Tracker - Smart Calculator</title>
+        <title>Conception Calculator – Estimate Fertile Window</title>
         <meta
           name="description"
-          content="Calculate your conception dates, fertile window, and estimated due dates. Professional conception calculator for pregnancy planning and fertility tracking."
+          content="Find your best conception days with our calculator. Track ovulation and fertile periods to boost chances of pregnancy."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-violet-50">

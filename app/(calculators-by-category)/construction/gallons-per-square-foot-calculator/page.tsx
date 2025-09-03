@@ -132,10 +132,10 @@ export default function GallonsPerSqftCalculator() {
   return (
     <>
       <Head>
-        <title>Gallons per Square Foot Calculator | Smart Calculator</title>
+        <title>Gallons per Sq Ft Calculator – Water Usage Tool</title>
         <meta
           name="description"
-          content="Calculate gallons per square foot for liquid coverage, pool volume, tank capacity, and construction applications."
+          content="Calculate gallons per square foot instantly. Use our free calculator for irrigation, farming, and water management needs."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">

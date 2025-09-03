@@ -182,10 +182,10 @@ export default function ArmyBodyFatCalculator() {
   return (
     <>
       <Head>
-        <title>U.S. Army Body Fat Calculator - Health & Fitness Calculator - Smart Calculator</title>
+        <title>Army Body Fat Calculator – Accurate Measurement</title>
         <meta
           name="description"
-          content="Calculate body fat percentage using the U.S. Army's June 2023 one-site tape test formula. Compare against AR 600-9 standards."
+          content="Calculate body fat percentage using army standards. Use our free body fat calculator for fitness and military readiness."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-50">

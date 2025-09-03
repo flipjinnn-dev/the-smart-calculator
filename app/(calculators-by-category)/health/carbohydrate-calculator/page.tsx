@@ -193,10 +193,10 @@ export default function CarbohydrateCalculator() {
   return (
     <>
       <Head>
-        <title>Carbohydrate Calculator - Nutrition Calculator - Smart Calculator</title>
+        <title>Carbohydrate Calculator – Daily Carb Needs</title>
         <meta
           name="description"
-          content="Calculate daily carbohydrate needs based on BMR, TDEE, and activity level. Professional nutrition calculator with Mifflin-St Jeor and Katch-McArdle formulas."
+          content="Find your daily carb intake for energy and health. Use our free carbohydrate calculator to support diet and fitness goals."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-green-50 to-teal-50">

@@ -171,10 +171,10 @@ export default function BodyTypeCalculator() {
   return (
     <>
       <Head>
-        <title>Body Type & WHR Calculator - Body Shape Classification & Waist-Hip Ratio - Smart Calculator</title>
+        <title>Body Type Calculator – Find Your Shape Fast</title>
         <meta
           name="description"
-          content="Determine your body shape (hourglass, pear, apple, etc.) and calculate waist-hip ratio for health assessment. Free body type calculator."
+          content="Discover your body type with our free calculator. Identify if you’re ectomorph, mesomorph, or endomorph for fitness planning."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-purple-50">

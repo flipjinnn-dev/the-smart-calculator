@@ -224,10 +224,10 @@ export default function IPv4SubnetCalculator() {
   return (
     <>
       <Head>
-        <title>IPv4 Subnet Calculator - Network Subnetting Tool - Smart Calculator</title>
+        <title>IP Subnet Calculator – Network Subnetting Tool</title>
         <meta
           name="description"
-          content="Calculate IPv4 subnet details including network address, broadcast address, host range, and IP class. Advanced networking calculator."
+          content="Calculate subnets, masks, and ranges quickly. Use our free IP subnet calculator for accurate networking and IT planning."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-50">

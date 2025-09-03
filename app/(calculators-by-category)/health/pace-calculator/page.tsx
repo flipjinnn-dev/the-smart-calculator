@@ -252,10 +252,10 @@ export default function RunningPaceCalculator() {
   return (
     <>
       <Head>
-        <title>Running Pace Calculator - Health & Fitness Calculator - Smart Calculator</title>
+        <title>Pace Calculator – Running & Walking Speed</title>
         <meta
           name="description"
-          content="Calculate running pace, time, or distance with flexible time formats and multiple units. Perfect for runners and athletes."
+          content="Calculate pace, distance, and time for running or walking. Use our free pace calculator to train smarter and achieve goals."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">

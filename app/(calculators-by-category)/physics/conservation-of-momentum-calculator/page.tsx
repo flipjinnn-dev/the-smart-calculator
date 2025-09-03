@@ -151,10 +151,10 @@ export default function CollisionCalculator() {
   return (
     <>
       <Head>
-        <title>Conservation of Momentum Calculator | Smart Calculator</title>
+        <title>Conservation of Momentum Calculator – Physics Tool</title>
         <meta
           name="description"
-          content="Calculate collision outcomes using conservation of momentum and energy principles for elastic, inelastic, and general collisions."
+          content="Calculate momentum conservation instantly. Use our free conservation of momentum calculator for collisions and physics problems."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50">

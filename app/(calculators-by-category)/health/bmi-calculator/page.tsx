@@ -233,10 +233,10 @@ export default function BMICalculator() {
   return (
     <>
       <Head>
-        <title>BMI Calculator - Calculate Body Mass Index with Age & Gender | Smart Calculator</title>
+        <title>BMI Calculator – Check Your Body Mass Index</title>
         <meta
           name="description"
-          content="Advanced BMI calculator with age and gender considerations. Calculate BMI, BMI Prime, Ponderal Index, and healthy weight range with accurate results."
+          content="Instantly calculate your BMI and check if you’re in a healthy weight range. Use our free BMI calculator for accurate results."
         />
         <meta
           name="keywords"

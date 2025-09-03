@@ -180,10 +180,10 @@ export default function PastaConverter() {
   return (
     <>
       <Head>
-        <title>Dry to Cooked Pasta Converter | Smart Calculator</title>
+        <title>Dry to Cooked Pasta Converter – Portion Guide</title>
         <meta
           name="description"
-          content="Convert dry pasta measurements to cooked equivalents. Supports both short-shaped and long-shaped pasta with adjustable expansion ratios."
+          content="Convert dry pasta weight to cooked servings. Use our free pasta converter to measure portions accurately for any recipe."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-teal-50">

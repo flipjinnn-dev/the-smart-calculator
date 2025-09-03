@@ -102,10 +102,10 @@ export default function HealthyWeightCalculator() {
   return (
     <>
       <Head>
-        <title>Healthy Weight Calculator - Health & Fitness Calculator - Smart Calculator</title>
+        <title>Healthy Weight Calculator – Check Your Ideal Range</title>
         <meta
           name="description"
-          content="Calculate your healthy weight range based on BMI guidelines. Professional healthy weight calculator for adults."
+          content="Find your healthy weight based on BMI and height. Use our free healthy weight calculator to set and achieve fitness goals."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-emerald-50">

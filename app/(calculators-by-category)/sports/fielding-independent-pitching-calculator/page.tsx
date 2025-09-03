@@ -175,10 +175,10 @@ export default function FIPCalculator() {
   return (
     <>
       <Head>
-        <title>FIP Calculator - Fielding Independent Pitching - Smart Calculator</title>
+        <title>FIP Calculator – Fielding Independent Pitching</title>
         <meta
           name="description"
-          content="Calculate Fielding Independent Pitching (FIP) for baseball pitchers. Evaluate pitcher performance independent of fielding using sabermetric analysis."
+          content="Calculate FIP easily for pitchers. Use our free fielding independent pitching calculator for advanced baseball stats."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-50">
@@ -251,7 +251,7 @@ export default function FIPCalculator() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                       {/* Home Runs */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block flex items-center">
+                        <Label className="text-sm font-medium text-gray-700 mb-3  flex items-center">
                           Home Runs Allowed (HR)
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
@@ -289,7 +289,7 @@ export default function FIPCalculator() {
 
                       {/* Walks */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block flex items-center">
+                        <Label className="text-sm font-medium text-gray-700 mb-3  flex items-center">
                           Walks (BB)
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
@@ -327,7 +327,7 @@ export default function FIPCalculator() {
 
                       {/* Hit By Pitch */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block flex items-center">
+                        <Label className="text-sm font-medium text-gray-700 mb-3  flex items-center">
                           Hit By Pitch (HBP)
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
@@ -365,7 +365,7 @@ export default function FIPCalculator() {
 
                       {/* Strikeouts */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block flex items-center">
+                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">
                           Strikeouts (K)
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
@@ -403,7 +403,7 @@ export default function FIPCalculator() {
 
                       {/* Innings Pitched */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block flex items-center">
+                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">
                           Innings Pitched (IP)
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
@@ -441,7 +441,7 @@ export default function FIPCalculator() {
 
                       {/* FIP Constant */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block flex items-center">
+                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">
                           FIP Constant (cFIP)
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
@@ -822,22 +822,6 @@ export default function FIPCalculator() {
             </div>
           </div>
         </main>
-
-        <footer className="bg-gray-900 text-white py-16 mt-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image_720-8sE77EX08xKuB6AvLTisdyhRT3j1X2.png"
-                  alt="Smart Calculator Logo"
-                  className="w-12 h-12"
-                />
-                <span className="text-2xl font-bold">Smart Calculator</span>
-              </div>
-              <p className="text-gray-400">&copy; 2025 Smart Calculator. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
       </div>
     </>
   )

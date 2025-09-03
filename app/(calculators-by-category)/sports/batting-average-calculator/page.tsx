@@ -105,10 +105,10 @@ export default function BattingAverageCalculator() {
   return (
     <>
       <Head>
-        <title>Batting Average Calculator - Smart Calculator</title>
+        <title>Batting Average Calculator – Baseball Stats Tool</title>
         <meta
           name="description"
-          content="Calculate cricket batting average with runs scored and dismissals. Includes basic and advanced calculations with innings and not outs."
+          content="Calculate batting average instantly. Use our free batting average calculator to track baseball performance and stats."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-50">

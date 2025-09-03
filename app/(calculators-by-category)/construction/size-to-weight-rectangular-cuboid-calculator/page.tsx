@@ -153,10 +153,10 @@ export default function CuboidWeightCalculator() {
   return (
     <>
       <Head>
-        <title>Size to Weight of Rectangular Cuboid Calculator | Smart Calculator</title>
+        <title>Size to Weight Calculator – Quick Conversion Tool</title>
         <meta
           name="description"
-          content="Calculate weight of rectangular cuboids from dimensions and density. Supports multiple units and material presets."
+          content="Convert size to weight accurately. Use our free calculator for shipping, packaging, and material weight estimation."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50">

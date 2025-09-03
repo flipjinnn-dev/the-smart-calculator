@@ -116,8 +116,8 @@ export default function ScientificCalculator() {
   return (
     <>
       <Head>
-        <title>Scientific Calculator - Smart Calculator</title>
-        <meta name="description" content="Free scientific calculator for advanced math calculations. Supports trigonometry, powers, roots, and more." />
+        <title>Scientific Calculator – Free Online Tool</title>
+        <meta name="description" content="Solve equations and complex math easily. Use our free online scientific calculator for accurate results in seconds." />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}

@@ -218,10 +218,10 @@ export default function PregnancyDueDateCalculator() {
   return (
     <>
       <Head>
-        <title>Pregnancy Due Date Calculator - Health & Pregnancy Calculator - Smart Calculator</title>
+        <title>Due Date Calculator – Estimate Your Baby’s Arrival</title>
         <meta
           name="description"
-          content="Calculate your pregnancy due date using LMP, ultrasound, conception date, or IVF transfer date with medical accuracy."
+          content="Find your estimated due date in seconds. Use our free pregnancy due date calculator to plan ahead for your baby’s arrival."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-50">

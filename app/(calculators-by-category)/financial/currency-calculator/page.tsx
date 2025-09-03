@@ -233,10 +233,10 @@ export default function CurrencyCalculator() {
   return (
     <>
       <Head>
-        <title>Currency Calculator - Convert Currencies | Smart Calculator</title>
+        <title>Currency Calculator – Real-Time Exchange Rates</title>
         <meta
           name="description"
-          content="Free currency calculator to convert between 50+ world currencies with real-time exchange rates. Support for major and minor currencies."
+          content="Convert currencies instantly with live exchange rates. Use our free currency calculator for accurate conversions anytime, anywhere."
         />
       </Head>
 

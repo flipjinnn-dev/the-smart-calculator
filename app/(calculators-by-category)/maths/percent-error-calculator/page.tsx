@@ -58,8 +58,8 @@ export default function PercentErrorCalculator() {
   return (
     <>
       <Head>
-        <title>Percent Error Calculator - Smart Calculator</title>
-        <meta name="description" content="Calculate percent error between measured and actual values. Free online percent error calculator." />
+        <title>Percentage Error Calculator – Fast Error Finder</title>
+        <meta name="description" content="Find percentage error quickly and accurately. Use our free calculator for math, science, and real-world calculations with precision." />
       </Head>
       <div className="min-h-screen bg-white">
         {/* Header */}

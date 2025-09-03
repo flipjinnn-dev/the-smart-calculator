@@ -66,10 +66,10 @@ export default function CompoundInterestCalculator() {
   return (
     <>
       <Head>
-        <title>Compound Interest Calculator - Calculate Investment Growth | Smart Calculator</title>
+        <title>Compound Interest Calculator – Grow Savings Fast</title>
         <meta
           name="description"
-          content="Free compound interest calculator to calculate investment growth over time with regular contributions. See how your money grows with compound interest."
+          content="Discover how your money grows with compound interest. Use our free calculator to project returns and boost your long-term financial goals."
         />
       </Head>
 

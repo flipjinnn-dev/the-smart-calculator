@@ -240,10 +240,10 @@ export default function CakePanCalculator() {
   return (
     <>
       <Head>
-        <title>Cake Pan Calculator - Smart Calculator</title>
+        <title>Cake Pan Calculator – Baking Pan Converter</title>
         <meta
           name="description"
-          content="Calculate cake pan volume and recipe scaling ratios. Perfect for adjusting recipes to different pan sizes."
+          content="Adjust recipes to fit any cake pan size. Use our free cake pan calculator for perfect baking results every time."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 to-rose-50">

@@ -117,10 +117,10 @@ export default function OneRepMaxCalculator() {
   return (
     <>
       <Head>
-        <title>One-Rep Max (1RM) Calculator - Strength Training Calculator - Smart Calculator</title>
+        <title>One Rep Max Calculator – Max Weight Estimator</title>
         <meta
           name="description"
-          content="Calculate your one-rep max using Epley, Brzycki, and Lombardi formulas. Professional strength training calculator for powerlifting and weightlifting."
+          content="Find your one rep max safely with our calculator. Estimate max lifting weight for strength training and track progress."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-red-50 via-white to-rose-50">

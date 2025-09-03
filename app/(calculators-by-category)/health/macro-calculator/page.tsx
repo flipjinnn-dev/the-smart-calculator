@@ -209,10 +209,10 @@ export default function MacroCalculator() {
   return (
     <>
       <Head>
-        <title>Macro Calculator - Calculate Daily Macronutrient Needs | Smart Calculator</title>
+        <title>Macro Calculator – Track Protein, Carbs & Fats</title>
         <meta
           name="description"
-          content="Calculate your daily macronutrient needs based on your goals, activity level, and body composition using accurate BMR formulas."
+          content="Calculate daily macros for weight loss or muscle gain. Use our free macro calculator to optimize nutrition and fitness."
         />
         <meta
           name="keywords"

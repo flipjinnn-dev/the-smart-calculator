@@ -765,10 +765,10 @@ export default function CubicYardCalculator() {
   return (
     <>
       <Head>
-        <title>Cubic Yard Calculator - Smart Calculator</title>
+        <title>Cubic Yard Calculator – Volume Measurement Tool</title>
         <meta
           name="description"
-          content="Calculate cubic yards for construction projects. Support for multiple shapes with cost estimation."
+          content="Quickly convert dimensions into cubic yards. Use our free cubic yard calculator for landscaping, concrete, and material planning."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">

@@ -1,6 +1,7 @@
 "use client"
 
-import { useState } from "react"
+import type React from "react"
+import { useState, useRef } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -9,6 +10,7 @@ import { Switch } from "@/components/ui/switch"
 import Link from "next/link"
 import Head from "next/head"
 import { Trophy, Calculator, Target, AlertCircle, Activity, RotateCcw, HelpCircle } from "lucide-react"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
 
 export default function FieldingPercentageCalculator() {
@@ -21,6 +23,9 @@ export default function FieldingPercentageCalculator() {
   const [putouts, setPutouts] = useState("")
   const [assists, setAssists] = useState("")
   const [errorsCount, setErrorsCount] = useState("")
+
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
 
   const validateInputs = () => {
     const newErrors: { [key: string]: string } = {}
@@ -49,6 +54,8 @@ export default function FieldingPercentageCalculator() {
 
   const calculateFPCT = () => {
     if (!validateInputs()) return
+
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>)
 
     const p = Number.parseInt(putouts)
     const a = Number.parseInt(assists)
@@ -172,7 +179,7 @@ export default function FieldingPercentageCalculator() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
                       {/* Putouts */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block flex items-center">
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block md:flex items-center">
                           Putouts (P)
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
@@ -210,7 +217,7 @@ export default function FieldingPercentageCalculator() {
 
                       {/* Assists */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block flex items-center">
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block md:flex items-center">
                           Assists (A)
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
@@ -248,7 +255,7 @@ export default function FieldingPercentageCalculator() {
 
                       {/* Errors */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block flex items-center">
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block md:flex items-center">
                           Errors (E)
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
@@ -287,7 +294,7 @@ export default function FieldingPercentageCalculator() {
 
                     {/* Output Format Toggle */}
                     <div className="mb-6 p-4 bg-green-50 rounded-lg border border-green-200">
-                      <div className="flex items-center justify-between">
+                      <div className="block md:flex items-center justify-between">
                         <div>
                           <Label className="text-sm font-medium text-gray-700">Output Format</Label>
                           <p className="text-xs text-gray-600 mt-1">
@@ -342,17 +349,17 @@ export default function FieldingPercentageCalculator() {
               </div>
 
               {/* Result Card (right side) */}
-              <div className="hidden lg:block">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-emerald-100 h-full flex flex-col justify-center items-center p-8">
-                  <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-green-600 to-emerald-700 flex items-center justify-center mb-3 shadow-lg">
+              <div ref={resultsRef} className="hidden lg:block p-0">
+                <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-emerald-100 h-full">
+                  <CardHeader className="w-full text-center mb-2">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-green-600 to-emerald-700 flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Trophy className="w-6 h-6 text-white" />
                     </div>
                     <CardTitle className="text-2xl font-bold text-green-700 tracking-tight">FPCT Results</CardTitle>
                   </CardHeader>
-                  <CardContent className="w-full flex flex-col items-center justify-center">
+                  <CardContent className="w-full text-center">
                     {showResult && result ? (
-                      <div className="text-center space-y-4">
+                      <div className="space-y-4">
                         <div className="grid grid-cols-1 gap-3 text-sm">
                           <div className="bg-white p-4 rounded-lg border border-green-200">
                             <p className="text-3xl font-bold text-green-900">
@@ -371,9 +378,9 @@ export default function FieldingPercentageCalculator() {
                         </div>
                       </div>
                     ) : (
-                      <div className="flex flex-col items-center justify-center">
-                        <Trophy className="w-8 h-8 text-green-300 mb-2" />
-                        <p className="text-gray-500 text-center text-base">
+                      <div className="text-center">
+                        <Trophy className="w-8 h-8 text-green-300 mb-2 mx-auto" />
+                        <p className="text-gray-500 text-base">
                           Enter fielding statistics and click{" "}
                           <span className="font-semibold text-green-600">Calculate</span> to see FPCT.
                         </p>
@@ -386,8 +393,8 @@ export default function FieldingPercentageCalculator() {
 
             {/* Detailed Results Section */}
             {showResult && result && (
-              <div className="mt-8">
-                <Card className="shadow-2xl border-0 bg-white">
+              <div className="mt-8" ref={resultsRef}>
+                <Card className="shadow-2xl border-0 p-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calculator className="w-6 h-6 text-green-600" />
@@ -519,21 +526,6 @@ export default function FieldingPercentageCalculator() {
           </div>
         </main>
 
-        <footer className="bg-gray-900 text-white py-16 mt-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image_720-8sE77EX08xKuB6AvLTisdyhRT3j1X2.png"
-                  alt="Smart Calculator Logo"
-                  className="w-12 h-12"
-                />
-                <span className="text-2xl font-bold">Smart Calculator</span>
-              </div>
-              <p className="text-gray-400">&copy; 2025 Smart Calculator. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
       </div>
     </>
   )

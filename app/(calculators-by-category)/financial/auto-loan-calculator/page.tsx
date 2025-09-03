@@ -195,10 +195,10 @@ export default function AutoLoanCalculator() {
   return (
     <>
       <Head>
-        <title>Auto Loan Calculator - Calculate Car Payments | Smart Calculator</title>
+        <title>Auto Loan Calculator – Car Payment Estimator</title>
         <meta
           name="description"
-          content="Advanced auto loan calculator with state taxes, trade-in values, and amortization schedule. Calculate your complete car loan costs."
+          content="Calculate monthly car loan payments quickly. Use our free auto loan calculator to compare financing options and plan your next vehicle purchase."
         />
       </Head>
 

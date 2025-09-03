@@ -93,10 +93,10 @@ export default function PregnancyCalculator() {
   return (
     <>
       <Head>
-        <title>Pregnancy Calculator - Smart Calculator</title>
+        <title>Pregnancy Calculator – Track Your Pregnancy Weeks</title>
         <meta
           name="description"
-          content="Estimate your pregnancy schedule based on due date, last period, ultrasound, conception, or IVF transfer date." />
+          content="Find your current pregnancy week and due date. Use our free pregnancy calculator for accurate results and better planning." />
         <meta
           name="keywords"
           content="pregnancy calculator, due date, conception, IVF, trimester, weeks pregnant" />

@@ -148,10 +148,10 @@ export default function PaymentCalculator() {
   return (
     <>
       <Head>
-        <title>Payment Calculator - Calculate Loan Payments | Smart Calculator</title>
+        <title>Payment Calculator – Plan Payments Smartly</title>
         <meta
           name="description"
-          content="Free payment calculator to calculate monthly payments, loan amounts, and payment schedules. Works for any type of loan."
+          content="Estimate monthly payments for loans, mortgages, or credit with ease. Use our free payment calculator to budget smarter and stay on track."
         />
       </Head>
 

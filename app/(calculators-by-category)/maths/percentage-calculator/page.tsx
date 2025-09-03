@@ -50,8 +50,8 @@ export default function PercentageCalculator() {
   return (
     <>
       <Head>
-        <title>Percentage Calculator - Smart Calculator</title>
-        <meta name="description" content="Free percentage calculator for all your percentage calculations. Calculate percentage of a number, percentage increase, decrease and more." />
+        <title>Percentage Calculator – Quick & Accurate Results</title>
+        <meta name="description" content="Calculate percentages easily with our free percentage calculator. Get fast, accurate results for discounts, increases, and comparisons." />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}

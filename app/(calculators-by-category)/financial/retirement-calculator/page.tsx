@@ -273,8 +273,8 @@ export default function RetirementCalculator() {
   return (
     <>
       <Head>
-        <title>Retirement Calculator - Smart Calculator</title>
-        <meta name="description" content="Calculate your retirement savings, income, and plan your future with our Retirement Calculator." />
+        <title>Retirement Calculator – Secure Your Future Today</title>
+        <meta name="description" content="Plan your retirement savings with ease. Use our free retirement calculator to estimate how much you need and create a secure future." />
       </Head>
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
         {/* Header */}

@@ -245,10 +245,10 @@ export default function TDEECalculator() {
   return (
     <>
       <Head>
-        <title>TDEE Calculator - Total Daily Energy Expenditure Calculator - Smart Calculator</title>
+        <title>TDEE Calculator – Total Daily Energy Needs</title>
         <meta
           name="description"
-          content="Calculate your Total Daily Energy Expenditure (TDEE) based on BMR and activity level. Professional calorie needs calculator for weight management."
+          content="Find your daily calorie burn with our TDEE calculator. Plan diet, workouts, and weight goals with accurate energy estimates."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50">

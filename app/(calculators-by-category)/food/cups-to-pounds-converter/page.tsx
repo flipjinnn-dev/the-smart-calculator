@@ -136,10 +136,10 @@ export default function CupsToPoundsConverter() {
   return (
     <>
       <Head>
-        <title>Cups to Pounds Converter | Smart Calculator</title>
+        <title>Cups to Pounds Converter – Quick Kitchen Tool</title>
         <meta
           name="description"
-          content="Convert between US cups and pounds for cooking ingredients using density. Perfect for recipe conversions and baking measurements."
+          content="Convert cups to pounds instantly for cooking and baking. Use our free cups to pounds converter for accurate recipes."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">

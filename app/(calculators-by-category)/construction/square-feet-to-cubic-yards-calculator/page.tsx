@@ -124,10 +124,10 @@ export default function SqftToCubicYardsCalculator() {
   return (
     <>
       <Head>
-        <title>Square Feet to Cubic Yards Calculator | Smart Calculator</title>
+        <title>Sq Ft to Cubic Yards Calculator – Easy Converter</title>
         <meta
           name="description"
-          content="Convert area in square feet with depth to volume in cubic yards. Perfect for construction and landscaping projects."
+          content="Convert square feet to cubic yards instantly. Use our free calculator for landscaping, concrete, and construction projects."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">

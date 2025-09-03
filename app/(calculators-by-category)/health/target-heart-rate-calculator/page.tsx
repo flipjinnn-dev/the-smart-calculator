@@ -227,10 +227,10 @@ export default function TargetHeartRateCalculator() {
   return (
     <>
       <Head>
-        <title>Target Heart Rate Calculator - Training Zone Calculator - Smart Calculator</title>
+        <title>Target Heart Rate Calculator – Train Smarter</title>
         <meta
           name="description"
-          content="Calculate your target heart rate zones using Haskell & Fox, Tanaka, and Nes formulas. Professional heart rate training calculator for fitness and cardio."
+          content="Find your ideal heart rate zones for workouts. Use our free target heart rate calculator to maximize fitness and endurance."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50">

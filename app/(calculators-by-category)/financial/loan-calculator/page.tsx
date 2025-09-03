@@ -67,10 +67,10 @@ export default function LoanCalculator() {
   return (
     <>
       <Head>
-        <title>Loan Calculator - Calculate Monthly Payments | Smart Calculator</title>
+        <title>Loan Calculator – Calculate Payments Fast</title>
         <meta
           name="description"
-          content="Free loan calculator to calculate monthly payments, total interest, and payment schedules. Get accurate loan calculations instantly."
+          content="Estimate loan payments, interest, and total cost instantly. Use our free loan calculator to compare options and make smarter borrowing decisions."
         />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </Head>

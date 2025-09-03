@@ -224,10 +224,24 @@ export const calculators: Calculator[] = [
     category: "health"
   },
   {
+    id:"anorexic-bmi-calculator",
+    name: "Anorexic BMI Calculator",
+    description: "Calculate BMI for individuals with anorexia.",
+    href: "/health/anorexic-bmi-calculator",
+    category: "health"
+  },
+  {
     id: "ideal-weight",
     name: "Ideal Weight Calculator",
     description: "Calculate your ideal body weight range based on height and gender",
     href: "/health/ideal-weight-calculator",
+    category: "health"
+  },
+  {
+    id:"overweight-calculator",
+    name: "Overweight Calculator",
+    description: "Calculate BMI for individuals with overweight.",
+    href: "/health/overweight-calculator",
     category: "health"
   },
   {
@@ -252,12 +266,33 @@ export const calculators: Calculator[] = [
     category: "health",
   },
   {
+    id:"weight-watchers-points-calculator",
+    name: "Weight Watchers Points Calculator",
+    description: "Calculate Weight Watchers points based on food items.",
+    href: "/health/weight-watchers-points-calculator",
+    category: "health"
+  },
+  {
+    id:"body-surface-area-calculator",
+    name: "Body Surface Area Calculator",
+    description: "Calculate your body surface area (BSA) using various methods.",
+    href: "/health/body-surface-area-calculator",
+    category: "health"
+  },
+  {
     id: "calorie",
     name: "Calorie Calculator",
     description: "Calculate daily calorie needs based on your lifestyle and goals",
     href: "/health/calorie-calculator",
     category: "health",
     popular: true,
+  },
+  {
+    id:"bac-calculator",
+    name: "Blood Alcohol Content (BAC) Calculator",
+    description: "Estimate your blood alcohol content (BAC) based on drinks consumed.",
+    href: "/health/bac-calculator",
+    category: "health"
   },
   {
     id: "body-fat",

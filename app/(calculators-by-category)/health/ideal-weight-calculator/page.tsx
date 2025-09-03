@@ -148,10 +148,10 @@ export default function IdealWeightCalculator() {
   return (
     <>
       <Head>
-        <title>Ideal Weight Calculator - Health & Fitness Calculator - Smart Calculator</title>
+        <title>Ideal Weight Calculator – Find Your Healthy Range</title>
         <meta
           name="description"
-          content="Calculate your ideal weight using Hamwi, Devine, Robinson, and Miller formulas plus BMI-based healthy weight ranges."
+          content="Calculate your ideal body weight for height and age. Use our free calculator to set realistic health and fitness goals."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-cyan-50">

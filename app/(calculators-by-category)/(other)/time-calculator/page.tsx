@@ -120,10 +120,10 @@ export default function TimeCalculator() {
   return (
     <>
       <Head>
-        <title>Time Calculator - Addition & Subtraction - Smart Calculator</title>
+        <title>Time Calculator – Add & Subtract Time Easily</title>
         <meta
           name="description"
-          content="Add or subtract time values with days, hours, minutes, and seconds. Precise time calculations with detailed breakdowns."
+          content="Add, subtract, or convert time in seconds. Use our free time calculator for schedules, work, or personal planning."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-slate-50">

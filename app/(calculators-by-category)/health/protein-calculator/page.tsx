@@ -217,10 +217,10 @@ export default function ProteinIntakeCalculator() {
   return (
     <>
       <Head>
-        <title>Protein Intake Calculator - Daily Protein Requirement Calculator - Smart Calculator</title>
+        <title> Protein Calculator – Daily Protein Intake Guide</title>
         <meta
           name="description"
-          content="Calculate your daily protein requirement based on age, weight, activity level, and fitness goals. Professional nutrition calculator for optimal protein intake."
+          content="Calculate your daily protein needs for fitness and health. Use our free protein calculator to optimize diet and muscle growth."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-emerald-50">

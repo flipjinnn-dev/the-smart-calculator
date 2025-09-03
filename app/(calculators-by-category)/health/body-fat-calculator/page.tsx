@@ -216,10 +216,10 @@ export default function BodyFatCalculator() {
   return (
     <>
       <Head>
-        <title>Body Fat Calculator - Calculate Body Fat Percentage | Smart Calculator</title>
+        <title>Body Fat Calculator – Percentage Measurement Tool</title>
         <meta
           name="description"
-          content="Calculate your body fat percentage using the U.S. Navy method and BMI method. Get comprehensive analysis of your body composition."
+          content="Estimate body fat percentage instantly. Use our free body fat calculator to track progress and improve fitness goals."
         />
         <meta
           name="keywords"

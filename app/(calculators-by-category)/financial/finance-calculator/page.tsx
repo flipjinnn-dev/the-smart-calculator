@@ -208,10 +208,10 @@ export default function TVMCalculator() {
   return (
     <>
       <Head>
-        <title>Time Value of Money Calculator - TVM Financial Calculator - Smart Calculator</title>
+        <title>Free Finance Calculator – Smart Money Planning</title>
         <meta
           name="description"
-          content="Calculate time value of money with PV, FV, PMT, I/Y, and N. Professional TVM calculator for financial planning and analysis."
+          content="Simplify financial decisions with our finance calculator. Estimate payments, plan budgets, and manage investments with quick, accurate results."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-emerald-50 to-green-50">

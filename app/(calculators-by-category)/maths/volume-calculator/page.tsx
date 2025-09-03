@@ -210,8 +210,8 @@ export default function VolumeCalculator() {
   return (
     <>
       <Head>
-        <title>Volume Calculator - Smart Calculator</title>
-        <meta name="description" content="Free volume calculator for spheres, cones, cubes, cylinders, and more. Calculate the volume of common 3D shapes easily." />
+        <title>Volume Calculator – Calculate Space & Capacity</title>
+        <meta name="description" content="Calculate volume of cubes, spheres, cylinders, and more. Use our free volume calculator for math, construction, or daily use." />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}

@@ -79,10 +79,10 @@ export default function AmortizationCalculator() {
   return (
     <>
       <Head>
-        <title>Amortization Calculator - Loan Payment Schedule | Smart Calculator</title>
+        <title>Amortization Calculator – Loan Schedule Made Easy</title>
         <meta
           name="description"
-          content="Free amortization calculator to create detailed loan payment schedules showing principal and interest breakdown for each payment."
+          content="Generate a full amortization schedule instantly. Use our free amortization calculator to track payments, interest, and principal with clarity."
         />
       </Head>
 

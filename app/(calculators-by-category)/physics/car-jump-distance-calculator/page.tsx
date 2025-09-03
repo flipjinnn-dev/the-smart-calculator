@@ -365,10 +365,10 @@ export default function CarJumpCalculator() {
   return (
     <>
       <Head>
-        <title>Car Jump Distance Calculator - Smart Calculator</title>
+        <title>Car Jump Distance Calculator – Physics Estimator</title>
         <meta
           name="description"
-          content="Calculate car jump distance using projectile motion physics with optional air drag and rotation effects."
+          content="Calculate car jump distance with physics accuracy. Use our free calculator to estimate speed, distance, and landing safely."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50">

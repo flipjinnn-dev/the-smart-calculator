@@ -215,10 +215,10 @@ export default function PregnancyWeightGainCalculator() {
   return (
     <>
       <Head>
-        <title>Pregnancy Weight Gain Calculator - Health & Wellness Calculator - Smart Calculator</title>
+        <title>Pregnancy Weight Gain Calculator – Track Progress</title>
         <meta
           name="description"
-          content="Calculate recommended pregnancy weight gain based on IOM guidelines with trimester schedules and progress tracking."
+          content="Estimate healthy pregnancy weight gain week by week. Use our free calculator to track changes and support a healthy pregnancy."
         />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 to-rose-50">
