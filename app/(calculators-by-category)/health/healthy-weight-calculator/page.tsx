@@ -1,17 +1,20 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Activity, Target, Heart, Scale } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function HealthyWeightCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
@@ -48,6 +51,7 @@ export default function HealthyWeightCalculator() {
   }
 
   const calculateHealthyWeight = () => {
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
     if (!validateInputs()) return
 
     try {
@@ -101,13 +105,12 @@ export default function HealthyWeightCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Healthy Weight Calculator – Check Your Ideal Range</title>
-        <meta
-          name="description"
-          content="Find your healthy weight based on BMI and height. Use our free healthy weight calculator to set and achieve fitness goals."
-        />
-      </Head>
+<SEO
+  title="Healthy Weight Calculator – Check Your Ideal Range"
+  description="Find your healthy weight based on BMI and height. Use our free healthy weight calculator to set and achieve fitness goals."
+  keywords="healthy weight calculator, ideal weight calculator, BMI range"
+  slug="/health/healthy-weight-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-emerald-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -324,7 +327,7 @@ export default function HealthyWeightCalculator() {
 
             {showResult && result && (
               <div className="mt-8">
-                <Card className="shadow-2xl border-0 bg-white p-0">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white p-0">
                   <CardHeader className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Scale className="w-6 h-6 text-green-600" />

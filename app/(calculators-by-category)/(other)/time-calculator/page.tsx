@@ -7,9 +7,10 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
 import { Clock, Calculator, Plus, Minus, AlertCircle, Timer } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
+
 
 export default function TimeCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -119,13 +120,15 @@ export default function TimeCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Time Calculator – Add & Subtract Time Easily</title>
-        <meta
-          name="description"
-          content="Add, subtract, or convert time in seconds. Use our free time calculator for schedules, work, or personal planning."
-        />
-      </Head>
+
+      <SEO
+        title="Time Calculator – Add & Subtract Time Easily"
+        description="Add, subtract, or convert time in seconds. Use our free time calculator for schedules, work, or personal planning."
+        slug="/time-calculator"
+        keywords="time calculator, add time, subtract time, convert time"
+        type="SoftwareApplication"
+      />
+
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-slate-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

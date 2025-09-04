@@ -6,11 +6,11 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, RotateCcw, Square, Ruler } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import SEO from "@/lib/seo"
 
 export default function SqftToCubicYardsCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -123,13 +123,12 @@ export default function SqftToCubicYardsCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Sq Ft to Cubic Yards Calculator – Easy Converter</title>
-        <meta
-          name="description"
-          content="Convert square feet to cubic yards instantly. Use our free calculator for landscaping, concrete, and construction projects."
-        />
-      </Head>
+<SEO
+  title="Sq Ft to Cubic Yards Calculator – Easy Converter"
+  description="Convert square feet to cubic yards instantly. Use our free calculator for landscaping, concrete, and construction projects."
+  keywords="square feet to cubic yards calculator, sq ft to cubic yards, landscaping calculator, concrete calculator, construction calculator"
+  slug="/construction/square-feet-to-cubic-yards-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

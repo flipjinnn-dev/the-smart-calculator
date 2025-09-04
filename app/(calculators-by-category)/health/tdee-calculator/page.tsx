@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -8,11 +8,14 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
-import Head from "next/head"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Zap, User, Activity } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function TDEECalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
@@ -87,6 +90,8 @@ export default function TDEECalculator() {
   }
 
   const calculateTDEE = () => {
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
     if (!validateInputs()) return
 
     try {
@@ -244,13 +249,12 @@ export default function TDEECalculator() {
 
   return (
     <>
-      <Head>
-        <title>TDEE Calculator – Total Daily Energy Needs</title>
-        <meta
-          name="description"
-          content="Find your daily calorie burn with our TDEE calculator. Plan diet, workouts, and weight goals with accurate energy estimates."
-        />
-      </Head>
+<SEO
+  title="TDEE Calculator – Total Daily Energy Needs"
+  description="Find your daily calorie burn with our TDEE calculator. Plan diet, workouts, and weight goals with accurate energy estimates."
+  keywords="TDEE calculator, daily energy expenditure, calorie burn calculator"
+  slug="/health/tdee-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -656,7 +660,7 @@ export default function TDEECalculator() {
 
             {showResult && result && (
               <div className="mt-8">
-                <Card className="shadow-2xl border-0 bg-white">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Activity className="w-6 h-6 text-blue-600" />

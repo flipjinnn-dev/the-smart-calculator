@@ -5,10 +5,10 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import Link from "next/link"
-import Head from "next/head"
 import { Droplets, Calculator, RotateCcw, Ruler, Square, Cable as Cube } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function GallonsPerSqftCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -131,13 +131,12 @@ export default function GallonsPerSqftCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Gallons per Sq Ft Calculator – Water Usage Tool</title>
-        <meta
-          name="description"
-          content="Calculate gallons per square foot instantly. Use our free calculator for irrigation, farming, and water management needs."
-        />
-      </Head>
+<SEO
+  title="Gallons per Sq Ft Calculator – Water Usage Tool"
+  description="Calculate gallons per square foot instantly. Use our free calculator for irrigation, farming, and water management needs."
+  keywords="gallons per square foot calculator, irrigation calculator, farming calculator, water usage calculator"
+  slug="/construction/gallons-per-square-foot-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

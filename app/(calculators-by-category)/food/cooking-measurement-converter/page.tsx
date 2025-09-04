@@ -6,11 +6,11 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, RotateCcw, Scale, Droplets, ChefHat } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import SEO from "@/lib/seo"
 
 const ingredients = [
   { name: "Water", density: 1000 },
@@ -294,13 +294,12 @@ export default function CookingMeasurementConverter() {
 
   return (
     <>
-      <Head>
-        <title>Cooking Measurement Converter – Recipe Helper</title>
-        <meta
-          name="description"
-          content="Convert cooking measurements easily. Use our free converter for cups, grams, ounces, and tablespoons in recipes."
-        />
-      </Head>
+<SEO
+  title="Cooking Measurement Converter – Recipe Helper"
+  description="Convert cooking measurements easily. Use our free converter for cups, grams, ounces, and tablespoons in recipes."
+  keywords="cooking measurement converter, recipe converter, cups to grams calculator, kitchen converter"
+  slug="/food/cooking-measurement-converter"
+/>
       <div className="min-h-screen bg-gradient-to-br from-red-50 to-pink-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

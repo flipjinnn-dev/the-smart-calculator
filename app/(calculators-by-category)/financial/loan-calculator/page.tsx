@@ -1,7 +1,6 @@
 "use client"
 
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, DollarSign, Percent, Calendar, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -12,6 +11,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import CalculatorGuide from "@/components/calculator-guide"
 import loanData from "@/app/content/loan-calculator.json"
+import SEO from "@/lib/seo"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -66,14 +66,12 @@ export default function LoanCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Loan Calculator – Calculate Payments Fast</title>
-        <meta
-          name="description"
-          content="Estimate loan payments, interest, and total cost instantly. Use our free loan calculator to compare options and make smarter borrowing decisions."
-        />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      </Head>
+<SEO
+  title="Loan Calculator – Calculate Payments Fast"
+  description="Estimate loan payments, interest, and total cost instantly. Use our free loan calculator to compare options and make smarter borrowing decisions."
+  keywords="loan calculator, payment calculator, interest calculator, borrowing calculator"
+  slug="/financial/loan-calculator"
+/>
 
       <div className="min-h-screen bg-white">
         {/* Header */}

@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Heart, User, Ruler, Weight, Activity, Calendar, Scale } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -12,6 +11,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -215,18 +215,12 @@ export default function BodyFatCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Body Fat Calculator – Percentage Measurement Tool</title>
-        <meta
-          name="description"
-          content="Estimate body fat percentage instantly. Use our free body fat calculator to track progress and improve fitness goals."
-        />
-        <meta
-          name="keywords"
-          content="body fat calculator, body fat percentage, U.S. Navy method, BMI method, body composition"
-        />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      </Head>
+<SEO
+  title="Body Fat Calculator – Percentage Measurement Tool"
+  description="Estimate body fat percentage instantly. Use our free body fat calculator to track progress and improve fitness goals."
+  keywords="body fat calculator, body fat percentage calculator, fitness calculator"
+  slug="/health/body-fat-calculator"
+/>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}

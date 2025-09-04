@@ -6,10 +6,10 @@ import { Label } from "@/components/ui/label"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, RotateCcw, Heart, AlertTriangle, User } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function BodyTypeCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -170,13 +170,12 @@ export default function BodyTypeCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Body Type Calculator – Find Your Shape Fast</title>
-        <meta
-          name="description"
-          content="Discover your body type with our free calculator. Identify if you’re ectomorph, mesomorph, or endomorph for fitness planning."
-        />
-      </Head>
+<SEO
+  title="Body Type Calculator – Find Your Shape Fast"
+  description="Discover your body type with our free calculator. Identify if you’re ectomorph, mesomorph, or endomorph for fitness planning."
+  keywords="body type calculator, ectomorph mesomorph endomorph, fitness body type"
+  slug="/health/body-type-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-purple-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

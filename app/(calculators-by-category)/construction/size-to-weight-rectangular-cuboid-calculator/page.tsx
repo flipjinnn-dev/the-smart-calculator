@@ -7,10 +7,10 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import Link from "next/link"
-import Head from "next/head"
 import { Package, Calculator, RotateCcw, Ruler, Square, Cable as Cube, Weight } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function CuboidWeightCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -152,13 +152,12 @@ export default function CuboidWeightCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Size to Weight Calculator – Quick Conversion Tool</title>
-        <meta
-          name="description"
-          content="Convert size to weight accurately. Use our free calculator for shipping, packaging, and material weight estimation."
-        />
-      </Head>
+<SEO
+  title="Size to Weight Calculator – Quick Conversion Tool"
+  description="Convert size to weight accurately. Use our free calculator for shipping, packaging, and material weight estimation."
+  keywords="size to weight calculator, weight converter, shipping calculator, packaging calculator, material weight calculator"
+  slug="/conversion/size-to-weight-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

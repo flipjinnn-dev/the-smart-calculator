@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Link from "next/link"
-import Head from "next/head"
 import { ChefHat, Scale, Utensils } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function ButterCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -139,13 +139,12 @@ export default function ButterCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Butter Calculator – Baking & Cooking Converter</title>
-        <meta
-          name="description"
-          content="Convert butter measurements easily between cups, sticks, and grams. Use our free butter calculator for accurate recipes."
-        />
-      </Head>
+<SEO
+  title="Butter Calculator – Baking & Cooking Converter"
+  description="Convert butter measurements easily between cups, sticks, and grams. Use our free butter calculator for accurate recipes."
+  keywords="butter calculator, butter converter, cups to grams butter, sticks to grams butter, baking calculator"
+  slug="/food/butter-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

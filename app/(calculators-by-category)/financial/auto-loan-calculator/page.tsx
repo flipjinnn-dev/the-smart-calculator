@@ -1,7 +1,6 @@
 "use client"
 
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Car, DollarSign } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -13,6 +12,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Checkbox } from "@/components/ui/checkbox"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 const US_STATES = [
   { value: "AL", label: "Alabama", tax: 4.0 },
@@ -194,13 +194,12 @@ export default function AutoLoanCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Auto Loan Calculator – Car Payment Estimator</title>
-        <meta
-          name="description"
-          content="Calculate monthly car loan payments quickly. Use our free auto loan calculator to compare financing options and plan your next vehicle purchase."
-        />
-      </Head>
+<SEO
+  title="Auto Loan Calculator – Car Payment Estimator"
+  description="Calculate monthly car loan payments quickly. Use our free auto loan calculator to compare financing options and plan your next vehicle purchase."
+  keywords="auto loan calculator, car payment calculator, vehicle finance calculator, car loan estimator"
+  slug="/financial/auto-loan-calculator"
+/>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}

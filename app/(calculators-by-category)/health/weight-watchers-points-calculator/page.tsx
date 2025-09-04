@@ -7,10 +7,10 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Apple } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function WeightWatchersPointsCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -104,13 +104,12 @@ export default function WeightWatchersPointsCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Weight Watchers SmartPoints Calculator - Smart Calculator</title>
-        <meta
-          name="description"
-          content="Calculate Weight Watchers SmartPoints using the 2015-2021 formula. Enter calories, saturated fat, sugar, and protein to get your points value."
-        />
-      </Head>
+<SEO
+  title="Weight Watchers SmartPoints Calculator – 2015-2021 Formula"
+  description="Calculate Weight Watchers SmartPoints using the 2015-2021 formula. Enter calories, saturated fat, sugar, and protein to get your points value instantly."
+  keywords="weight watchers smartpoints calculator, smartpoints 2015-2021, ww calculator, diet points calculator, calorie to smartpoints"
+  slug="/health/weight-watchers-smartpoints-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

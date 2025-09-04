@@ -11,9 +11,9 @@ import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/
 import { PieChart, Pie } from "recharts"
 import Logo from "@/components/logo"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, TrendingUp, DollarSign, Percent, Calendar } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function InvestmentCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -255,13 +255,12 @@ export default function InvestmentCalculator() {
 
   return (
     <>
-      <Head>
-        <title> Investment Calculator – Plan Returns Easily</title>
-        <meta
-          name="description"
-          content="Estimate your investment growth with our free calculator. Calculate returns, compound interest, and future value for smarter financial planning."
-        />
-      </Head>
+<SEO
+  title="Investment Calculator – Plan Returns Easily"
+  description="Estimate your investment growth with our free calculator. Calculate returns, compound interest, and future value for smarter financial planning."
+  keywords="investment calculator, returns calculator, compound interest calculator, future value calculator"
+  slug="/financial/investment-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
         {/* Header - Updated to use blue theme consistently */}
         <header className="bg-white shadow-md border-b sticky top-0 z-50">

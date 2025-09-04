@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import Head from "next/head"
+import Script from "next/script"
 import Link from "next/link"
 import { Calculator, Users, Target, Award, Heart, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -12,16 +12,28 @@ export const metadata: Metadata = {
   keywords: "about smart calculator, online calculator platform, free calculators, calculation tools",
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: "About Smart Calculator",
+  description: "Learn about Smart Calculator, the leading platform for free online calculators across finance, health, math, and everyday use.",
+  url: "https://www.thesmartcalculator.com/about",
+  mainEntity: {
+    "@type": "Organization",
+    name: "Smart Calculator",
+    url: "https://www.thesmartcalculator.com",
+    logo: "https://www.thesmartcalculator.com/logo.png", // apna actual logo URL lagao
+    sameAs: [
+      "https://x.com/SmartCalculat0r", 
+      "https://www.instagram.com/thesmartcalculators/"
+    ]
+  }
+}
+
 export default function AboutPage() {
   return (
     <>
-      <Head>
-        <title>About Smart Calculator - Free Online Calculator Platform</title>
-        <meta
-          name="description"
-          content="Learn about Smart Calculator, the leading platform for free online calculators. Our mission is to provide accurate, fast, and easy-to-use calculation tools for everyone."
-        />
-      </Head>
+      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="min-h-screen bg-white">
         {/* Header */}

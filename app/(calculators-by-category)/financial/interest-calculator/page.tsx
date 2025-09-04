@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useRef } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, DollarSign, Percent, Calendar, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -12,8 +11,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Logo from "@/components/logo"
 import CalculatorGuide from "@/components/calculator-guide"
 import interestData from "@/app/content/interest-calculator.json"
+import SEO from "@/lib/seo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function InterestCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [initialInvestment, setInitialInvestment] = useState("")
   const [annualContribution, setAnnualContribution] = useState("")
   const [monthlyContribution, setMonthlyContribution] = useState("")
@@ -26,7 +29,6 @@ export default function InterestCalculator() {
   const [inflationRate, setInflationRate] = useState("")
   const [results, setResults] = useState<any>(null)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
-  const resultsRef = useRef<HTMLDivElement>(null)
 
   const validateInputs = () => {
     const newErrors: { [key: string]: string } = {}
@@ -84,6 +86,8 @@ export default function InterestCalculator() {
   }
 
   const calculateInterest = () => {
+  // Scroll to results
+  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
     // Clear previous errors
     setErrors({})
 
@@ -155,13 +159,12 @@ export default function InterestCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Interest Calculator – Quick & Accurate Results</title>
-        <meta
-          name="description"
-          content="Calculate interest on savings, loans, or investments instantly. Use our free interest calculator to plan better and maximize financial growth."
-        />
-      </Head>
+<SEO
+  title="Interest Calculator – Quick & Accurate Results"
+  description="Calculate interest on savings, loans, or investments instantly. Use our free interest calculator to plan better and maximize financial growth."
+  keywords="interest calculator, loan interest calculator, savings interest calculator, investment interest calculator"
+  slug="/financial/interest-calculator"
+/>
       <div className="min-h-screen bg-white">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -9,10 +9,10 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
 import { Wine, Calculator, Clock, AlertTriangle, Activity, RotateCcw, HelpCircle, Plus, Minus } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 interface Drink {
   id: string
@@ -230,13 +230,12 @@ export default function BACCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Blood Alcohol Concentration (BAC) Calculator - Smart Calculator</title>
-        <meta
-          name="description"
-          content="Calculate Blood Alcohol Concentration (BAC) using the Watson formula. Estimate BAC levels and time until sober for responsible drinking."
-        />
-      </Head>
+<SEO
+  title="BAC Calculator – Blood Alcohol Content Estimator"
+  description="Estimate your blood alcohol content in seconds. Use our free BAC calculator to understand alcohol effects, legal limits, and safe driving levels."
+  keywords="BAC calculator, blood alcohol content calculator, alcohol limit estimator, drunk driving calculator"
+  slug="/health/bac-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Home, DollarSign, Percent, Calendar, Plus, Minus } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -14,6 +13,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import CalculatorGuide from "@/components/calculator-guide"
 import mortgageData from "@/app/content/mortgage-calculator.json"
+import SEO from "@/lib/seo"
 interface ExtraPayment {
   id: string
   type: "monthly" | "yearly" | "one-time"
@@ -218,13 +218,12 @@ export default function MortgageCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Mortgage Calculator – Estimate Payments Easily</title>
-        <meta
-          name="description"
-          content="Calculate monthly mortgage payments, interest, and amortization in seconds. Use our free mortgage calculator to plan your home loan smarter."
-        />
-      </Head>
+<SEO
+  title="Mortgage Calculator – Estimate Payments Easily"
+  description="Calculate monthly mortgage payments, interest, and amortization in seconds. Use our free mortgage calculator to plan your home loan smarter."
+  keywords="mortgage calculator, home loan calculator, mortgage payments, amortization calculator"
+  slug="/financial/mortgage-calculator"
+/>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}

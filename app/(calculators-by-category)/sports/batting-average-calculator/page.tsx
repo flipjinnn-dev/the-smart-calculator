@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Link from "next/link"
-import Head from "next/head"
 import { Trophy, Target, Activity } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function BattingAverageCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -104,13 +104,12 @@ export default function BattingAverageCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Batting Average Calculator – Baseball Stats Tool</title>
-        <meta
-          name="description"
-          content="Calculate batting average instantly. Use our free batting average calculator to track baseball performance and stats."
-        />
-      </Head>
+<SEO
+  title="Batting Average Calculator – Baseball Stats Tool"
+  description="Calculate batting average instantly. Use our free batting average calculator to track baseball performance and stats."
+  keywords="batting average calculator, baseball stats calculator, baseball performance calculator, batting stats tool"
+  slug="/sports/batting-average-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

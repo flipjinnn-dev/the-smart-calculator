@@ -9,10 +9,10 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
 import { Heart, Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Scale } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function OverweightCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -180,13 +180,12 @@ export default function OverweightCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Overweight Calculator - Smart Calculator</title>
-        <meta
-          name="description"
-          content="Calculate BMI and determine if you are underweight, normal, overweight, or obese. Get your healthy weight range and BMI classification."
-        />
-      </Head>
+<SEO
+  title="Overweight Calculator – Check Healthy Weight Range"
+  description="Quickly check if you are overweight based on BMI and height. Use our free overweight calculator for accurate health and fitness insights."
+  keywords="overweight calculator, BMI overweight calculator, healthy weight range, obesity calculator"
+  slug="/health/overweight-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

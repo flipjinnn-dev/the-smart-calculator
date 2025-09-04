@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, ArrowRightLeft, Globe, TrendingUp, RefreshCw } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -11,6 +10,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 const currencies = [
   { code: "USD", name: "US Dollar", symbol: "$", flag: "🇺🇸" },
@@ -232,13 +232,12 @@ export default function CurrencyCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Currency Calculator – Real-Time Exchange Rates</title>
-        <meta
-          name="description"
-          content="Convert currencies instantly with live exchange rates. Use our free currency calculator for accurate conversions anytime, anywhere."
-        />
-      </Head>
+<SEO
+  title="Currency Calculator – Real-Time Exchange Rates"
+  description="Convert currencies instantly with live exchange rates. Use our free currency calculator for accurate conversions anytime, anywhere."
+  keywords="currency calculator, exchange rate calculator, forex calculator, money converter"
+  slug="/financial/currency-calculator"
+/>
 
       <div className="min-h-screen bg-white">
         {/* Header */}

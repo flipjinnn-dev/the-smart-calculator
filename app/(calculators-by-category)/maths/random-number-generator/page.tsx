@@ -1,6 +1,5 @@
 "use client";
 import React, { useRef, useState } from "react";
-import Head from "next/head";
 import Link from "next/link";
 import { Calculator } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -9,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Logo from "@/components/logo";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SEO from "@/lib/seo";
 
 export default function RandomNumberGenerator() {
   const resultsRef = useRef<HTMLDivElement>(null);
@@ -64,10 +64,12 @@ export default function RandomNumberGenerator() {
 
   return (
     <>
-      <Head>
-        <title>Random Number Generator – Instant Random Picks</title>
-        <meta name="description" content="Generate random numbers instantly. Use our free random number generator for games, statistics, and decision-making anytime." />
-      </Head>
+<SEO
+  title="Random Number Generator – Instant Random Picks"
+  description="Generate random numbers instantly. Use our free random number generator for games, statistics, and decision-making anytime."
+  keywords="random number generator, RNG calculator, number picker, randomizer tool"
+  slug="/maths/random-number-generator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">

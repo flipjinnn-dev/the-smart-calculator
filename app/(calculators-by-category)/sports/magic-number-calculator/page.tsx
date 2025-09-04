@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Switch } from "@/components/ui/switch"
 import Link from "next/link"
-import Head from "next/head"
 import { Trophy, Calculator, Target, AlertCircle, Activity, RotateCcw, HelpCircle, Crown } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function MagicNumberCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -109,13 +109,12 @@ export default function MagicNumberCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Magic Number Calculator – Baseball Playoff Tool</title>
-        <meta
-          name="description"
-          content="Find your team’s magic number instantly. Use our free magic number calculator to track playoff standings and wins."
-        />
-      </Head>
+<SEO
+  title="Magic Number Calculator – Baseball Playoff Tool"
+  description="Find your team’s magic number instantly. Use our free magic number calculator to track playoff standings and wins."
+  keywords="magic number calculator, baseball playoff calculator, team standings calculator, baseball wins tracker"
+  slug="/sports/magic-number-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

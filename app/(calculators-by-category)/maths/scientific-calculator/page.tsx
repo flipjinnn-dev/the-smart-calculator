@@ -1,6 +1,5 @@
 "use client"
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -9,6 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 const buttons = [
   ["sin", "cos", "tan", "Deg/Rad", "AC"],
@@ -115,10 +115,12 @@ export default function ScientificCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Scientific Calculator – Free Online Tool</title>
-        <meta name="description" content="Solve equations and complex math easily. Use our free online scientific calculator for accurate results in seconds." />
-      </Head>
+<SEO
+  title="Scientific Calculator – Free Online Tool"
+  description="Solve equations and complex math easily. Use our free online scientific calculator for accurate results in seconds."
+  keywords="scientific calculator, online calculator, math equations solver, advanced calculator"
+  slug="/maths/scientific-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">

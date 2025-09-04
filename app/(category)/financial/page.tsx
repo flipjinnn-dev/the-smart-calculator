@@ -1,11 +1,11 @@
 import type { Metadata } from "next"
-import Head from "next/head"
 import Link from "next/link"
 import { ArrowLeft, Calculator, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Logo from "@/components/logo"
 import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
+import Script from "next/script"
 
 export const metadata: Metadata = {
   title: "Financial Calculators - Smart Calculator",
@@ -40,9 +40,7 @@ const jsonLd = {
 export default function FinancialCategoryPage() {
   return (
     <>
-      <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      </Head>
+        <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
         {/* Header */}

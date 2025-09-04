@@ -1,9 +1,9 @@
 import React from 'react'
 import Logo from './logo'
 import Link from 'next/link'
-import { Instagram, TwitterIcon, LinkedinIcon } from 'lucide-react'
+import { Instagram, TwitterIcon } from 'lucide-react'
 import { FaPinterestP } from "react-icons/fa";
-import { AiOutlineYoutube } from "react-icons/ai";
+import { AiOutlineYoutube, } from "react-icons/ai";
 export const Footer = () => {
   return (
         <footer className="bg-gray-900 text-white py-16">
@@ -77,6 +77,14 @@ export const Footer = () => {
                       Physics Calculators
                     </Link>
                   </li>
+                   <li>
+                    <Link
+                      href="/other-calculators"
+                      className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
+                    >
+                      Other Calculators
+                    </Link>
+                  </li>
                 </ul>
               </div>
 
@@ -109,10 +117,18 @@ export const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/privacy"
+                      href="/privacy-policy"
                       className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                     >
                       Privacy Policy
+                    </Link>
+                  </li>
+                    <li>
+                    <Link
+                      href="/terms-and-conditions"
+                      className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
+                    >
+                      Terms and Conditions
                     </Link>
                   </li>
                 </ul>
@@ -120,19 +136,8 @@ export const Footer = () => {
             </div>
 
             <div className="border-t border-gray-800 mt-12 pt-8">
-              <div className="flex flex-col md:flex-row justify-between items-center">
+              <div className="flex items-center text-center justify-center">
                 <p className="text-gray-400 mb-4 md:mb-0">&copy; 2025 Smart Calculator. All rights reserved.</p>
-                <div className="flex space-x-6 text-gray-400">
-                  <Link href="/privacy" className="hover:text-white transition-colors">
-                    Privacy Policy
-                  </Link>
-                  <Link href="/terms" className="hover:text-white transition-colors">
-                    Terms of Service
-                  </Link>
-                  <Link href="/contact" className="hover:text-white transition-colors">
-                    Contact
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

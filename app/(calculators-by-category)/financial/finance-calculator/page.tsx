@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -8,11 +8,14 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Switch } from "@/components/ui/switch"
 import Link from "next/link"
-import Head from "next/head"
 import { DollarSign, Calculator, RotateCcw, TrendingUp, PiggyBank, Target } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 
 export default function TVMCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
@@ -188,6 +191,8 @@ export default function TVMCalculator() {
     } catch (error) {
       setErrors({ general: "Error calculating TVM. Please check your inputs and try again." })
     }
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   }
 
   const resetCalculator = () => {
@@ -207,13 +212,12 @@ export default function TVMCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Free Finance Calculator – Smart Money Planning</title>
-        <meta
-          name="description"
-          content="Simplify financial decisions with our finance calculator. Estimate payments, plan budgets, and manage investments with quick, accurate results."
-        />
-      </Head>
+<SEO
+  title="Free Finance Calculator – Smart Money Planning"
+  description="Simplify financial decisions with our finance calculator. Estimate payments, plan budgets, and manage investments with quick, accurate results."
+  keywords="finance calculator, budget calculator, investment calculator, money planning"
+  slug="/financial/finance-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-emerald-50 to-green-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -555,7 +559,7 @@ export default function TVMCalculator() {
 
             {showResult && result && (
               <div className="mt-8">
-                <Card className="shadow-2xl border-0 bg-white">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-emerald-50 to-green-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calculator className="w-6 h-6 text-emerald-600" />

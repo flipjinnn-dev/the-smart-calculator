@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import Head from "next/head"
+import Script from "next/script"
 import Link from "next/link"
 import { ArrowLeft, Calculator, Atom } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -40,9 +40,7 @@ const jsonLd = {
 export default function PhysicsCategoryPage() {
   return (
     <>
-      <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      </Head>
+      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
         {/* Header */}

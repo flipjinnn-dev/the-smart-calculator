@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Heart, User, Ruler, Weight, Activity, Target, Utensils, Calendar, Scale } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -13,6 +12,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -208,18 +208,13 @@ export default function MacroCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Macro Calculator – Track Protein, Carbs & Fats</title>
-        <meta
-          name="description"
-          content="Calculate daily macros for weight loss or muscle gain. Use our free macro calculator to optimize nutrition and fitness."
-        />
-        <meta
-          name="keywords"
-          content="macro calculator, macronutrients, BMR calculator, calorie calculator, protein carbs fat"
-        />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      </Head>
+
+<SEO
+  title="Macro Calculator – Track Protein, Carbs & Fats"
+  description="Calculate daily macros for weight loss or muscle gain. Use our free macro calculator to optimize nutrition and fitness."
+  keywords="macro calculator, daily macros calculator, protein carbs fats tracker"
+  slug="/health/macro-calculator"
+/>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}

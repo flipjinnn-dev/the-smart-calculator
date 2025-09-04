@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, RotateCcw, Shield, Activity, Target, TrendingUp } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function ArmyBodyFatCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -181,13 +181,12 @@ export default function ArmyBodyFatCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Army Body Fat Calculator – Accurate Measurement</title>
-        <meta
-          name="description"
-          content="Calculate body fat percentage using army standards. Use our free body fat calculator for fitness and military readiness."
-        />
-      </Head>
+<SEO
+  title="Army Body Fat Calculator – Accurate Measurement"
+  description="Calculate body fat percentage using army standards. Use our free body fat calculator for fitness and military readiness."
+  keywords="army body fat calculator, body fat calculator, military fitness standards"
+  slug="/health/army-body-fat-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

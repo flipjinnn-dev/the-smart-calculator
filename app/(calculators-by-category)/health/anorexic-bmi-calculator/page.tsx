@@ -9,10 +9,10 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
 import { Heart, Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Scale } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function AnorexicBMICalculator() {
   const [result, setResult] = useState<any>(null)
@@ -169,13 +169,12 @@ export default function AnorexicBMICalculator() {
 
   return (
     <>
-      <Head>
-        <title>Anorexic BMI Calculator - Smart Calculator</title>
-        <meta
-          name="description"
-          content="Calculate BMI and assess anorexia nervosa severity using medical thresholds. Educational tool for understanding BMI classifications."
-        />
-      </Head>
+<SEO
+  title="Anorexic BMI Calculator – Low BMI Measurement Tool"
+  description="Check BMI levels to identify anorexia risks. Use our free anorexic BMI calculator to measure underweight health conditions."
+  keywords="anorexic BMI calculator, low BMI calculator, underweight calculator, anorexia risk estimator"
+  slug="/health/anorexic-bmi-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

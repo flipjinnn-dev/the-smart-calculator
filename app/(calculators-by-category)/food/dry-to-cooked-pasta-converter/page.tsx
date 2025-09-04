@@ -8,11 +8,11 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Slider } from "@/components/ui/slider"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, RotateCcw, ChefHat, Wheat } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import SEO from "@/lib/seo"
 
 export default function PastaConverter() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -179,13 +179,12 @@ export default function PastaConverter() {
 
   return (
     <>
-      <Head>
-        <title>Dry to Cooked Pasta Converter – Portion Guide</title>
-        <meta
-          name="description"
-          content="Convert dry pasta weight to cooked servings. Use our free pasta converter to measure portions accurately for any recipe."
-        />
-      </Head>
+<SEO
+  title="Dry to Cooked Pasta Converter – Portion Guide"
+  description="Convert dry pasta weight to cooked servings. Use our free pasta converter to measure portions accurately for any recipe."
+  keywords="dry to cooked pasta converter, pasta portion calculator, pasta measurement converter, cooking calculator"
+  slug="/food/dry-to-cooked-pasta-converter"
+/>
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-teal-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import Head from "next/head"
+import Script from "next/script"
 import Link from "next/link"
 import { Calculator, GraduationCap } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -41,11 +41,8 @@ export default function MathCategoryPage() {
 
   return (
     <>
-      <Head>
-        <title>Math Calculators - Smart Calculator</title>
-        <meta name="description" content="Free math calculators including percentage, fraction, algebra, geometry, statistics, and probability calculators." />
-        <meta name="keywords" content="math calculator, percentage calculator, fraction calculator, algebra calculator, geometry calculator, statistics calculator, probability calculator" />
-      </Head>
+      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">

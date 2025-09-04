@@ -7,11 +7,11 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, RotateCcw, Scale, Coffee, ChefHat } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import SEO from "@/lib/seo"
 
 const ingredients = [
   { name: "All-purpose flour", density: 0.593 },
@@ -135,13 +135,12 @@ export default function CupsToPoundsConverter() {
 
   return (
     <>
-      <Head>
-        <title>Cups to Pounds Converter – Quick Kitchen Tool</title>
-        <meta
-          name="description"
-          content="Convert cups to pounds instantly for cooking and baking. Use our free cups to pounds converter for accurate recipes."
-        />
-      </Head>
+<SEO
+  title="Cups to Pounds Converter – Quick Kitchen Tool"
+  description="Convert cups to pounds instantly for cooking and baking. Use our free cups to pounds converter for accurate recipes."
+  keywords="cups to pounds calculator, kitchen converter, baking calculator, recipe measurement converter"
+  slug="/food/cups-to-pounds-converter"
+/>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

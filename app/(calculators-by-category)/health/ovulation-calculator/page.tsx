@@ -1,17 +1,20 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
-import Head from "next/head"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Heart, Calendar } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function OvulationCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
@@ -53,6 +56,7 @@ export default function OvulationCalculator() {
   }
 
   const calculateOvulation = () => {
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
     if (!validateInputs()) return
 
     try {
@@ -159,13 +163,12 @@ export default function OvulationCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Ovulation Calculator – Predict Fertile Days</title>
-        <meta
-          name="description"
-          content="Track your ovulation cycle and find fertile days. Use our free ovulation calculator to increase chances of pregnancy."
-        />
-      </Head>
+<SEO
+  title="Ovulation Calculator – Predict Fertile Days"
+  description="Track your ovulation cycle and find fertile days. Use our free ovulation calculator to increase chances of pregnancy."
+  keywords="ovulation calculator, fertile days calculator, pregnancy planning"
+  slug="/health/ovulation-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-rose-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -335,7 +338,7 @@ export default function OvulationCalculator() {
 
             {showResult && result && (
               <div className="mt-8">
-                <Card className="shadow-2xl border-0 bg-white p-0">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white p-0">
                   <CardHeader className="bg-gradient-to-r from-pink-50 to-rose-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calendar className="w-6 h-6 text-pink-600" />

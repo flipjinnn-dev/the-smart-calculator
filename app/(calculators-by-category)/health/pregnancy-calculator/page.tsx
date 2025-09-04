@@ -1,7 +1,6 @@
 
 "use client"
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calendar, Baby } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -11,6 +10,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -92,16 +92,12 @@ export default function PregnancyCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Pregnancy Calculator – Track Your Pregnancy Weeks</title>
-        <meta
-          name="description"
-          content="Find your current pregnancy week and due date. Use our free pregnancy calculator for accurate results and better planning." />
-        <meta
-          name="keywords"
-          content="pregnancy calculator, due date, conception, IVF, trimester, weeks pregnant" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      </Head>
+<SEO
+  title="Pregnancy Calculator – Estimate Key Pregnancy Dates"
+  description="Calculate important pregnancy milestones instantly. Use our free pregnancy calculator to estimate conception, due date, and trimester progress."
+  keywords="pregnancy calculator, due date calculator, conception calculator, pregnancy week calculator"
+  slug="/health/pregnancy-calculator"
+/>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-pink-50">
         {/* Header */}

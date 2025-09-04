@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -8,11 +8,14 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
-import Head from "next/head"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Droplets, User, Target } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function FatIntakeCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
@@ -86,6 +89,7 @@ export default function FatIntakeCalculator() {
   }
 
   const calculateFatIntake = () => {
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
     if (!validateInputs()) return
 
     try {
@@ -225,13 +229,12 @@ export default function FatIntakeCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Fat Intake Calculator – Daily Nutrition Tracker</title>
-        <meta
-          name="description"
-          content="Calculate your recommended daily fat intake. Use our free fat intake calculator to balance diet and support health."
-        />
-      </Head>
+<SEO
+  title="Fat Intake Calculator – Daily Nutrition Tracker"
+  description="Calculate your recommended daily fat intake. Use our free fat intake calculator to balance diet and support health."
+  keywords="fat intake calculator, daily fat needs, nutrition calculator"
+  slug="/health/fat-intake-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -614,7 +617,7 @@ export default function FatIntakeCalculator() {
 
             {showResult && result && (
               <div className="mt-8">
-                <Card className="shadow-2xl border-0 bg-white p-0">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white p-0">
                   <CardHeader className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Target className="w-6 h-6 text-orange-600" />

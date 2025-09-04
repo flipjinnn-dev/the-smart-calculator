@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Shield, Eye, Lock, UserCheck, Database, Globe } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Logo from "@/components/logo"
+import Script from "next/script"
 
 export const metadata: Metadata = {
   title: "Privacy Policy - Smart Calculator",
@@ -11,13 +12,40 @@ export const metadata: Metadata = {
   keywords: "privacy policy, data protection, user privacy, smart calculator privacy",
 }
 
-export default function PrivacyPage() {
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Privacy Policy - Smart Calculator",
+  description:
+    "This Privacy Policy explains how Smart Calculator collects, uses, and safeguards your information when using our free online calculators.",
+  url: "https://www.thesmartcalculator.com/privacy-policy",
+  mainEntity: {
+    "@type": "Organization",
+    name: "Smart Calculator",
+    url: "https://www.thesmartcalculator.com",
+    logo: "https://www.thesmartcalculator.com/logo.png", // apna actual logo dalna
+    sameAs: [
+      "https://www.instagram.com/thesmartcalculators",
+      "https://x.com/SmartCalculat0r"
+    ]
+  }
+}
+
+
+export default function PrivacyPolicyPage() {
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
+    <>
+      <Script
+        id="privacy-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="min-h-screen bg-white">
+        {/* Header */}
+        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-3">
               <Logo />
               <div>
@@ -252,5 +280,6 @@ export default function PrivacyPage() {
       </section>
 
     </div>
+    </>
   )
 }

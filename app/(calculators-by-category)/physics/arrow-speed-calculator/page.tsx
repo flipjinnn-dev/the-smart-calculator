@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Switch } from "@/components/ui/switch"
 import Link from "next/link"
-import Head from "next/head"
 import { Target, Zap, Activity, AlertCircle, ToggleLeft } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function ArrowSpeedCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -123,13 +123,12 @@ export default function ArrowSpeedCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Arrow Speed Calculator – Archery Accuracy Tool</title>
-        <meta
-          name="description"
-          content="Estimate arrow speed in seconds. Use our free arrow speed calculator to improve archery accuracy and bow performance."
-        />
-      </Head>
+<SEO
+  title="Arrow Speed Calculator – Archery Accuracy Tool"
+  description="Estimate arrow speed in seconds. Use our free arrow speed calculator to improve archery accuracy and bow performance."
+  keywords="arrow speed calculator, archery calculator, bow performance calculator, arrow velocity tool"
+  slug="/physics/arrow-speed-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

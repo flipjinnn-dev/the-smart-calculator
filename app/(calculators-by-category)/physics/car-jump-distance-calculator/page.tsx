@@ -10,10 +10,10 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Switch } from "@/components/ui/switch"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
-import Head from "next/head"
 import { Car, Calculator, TrendingUp, Gauge, Settings } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function CarJumpCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -364,13 +364,12 @@ export default function CarJumpCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Car Jump Distance Calculator – Physics Estimator</title>
-        <meta
-          name="description"
-          content="Calculate car jump distance with physics accuracy. Use our free calculator to estimate speed, distance, and landing safely."
-        />
-      </Head>
+<SEO
+  title="Car Jump Distance Calculator – Physics Estimator"
+  description="Calculate car jump distance with physics accuracy. Use our free calculator to estimate speed, distance, and landing safely."
+  keywords="car jump distance calculator, physics jump calculator, stunt calculator, motion distance calculator"
+  slug="/physics/car-jump-distance-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

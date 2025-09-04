@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -11,8 +11,12 @@ import Link from "next/link"
 import Head from "next/head"
 import { Calculator, RotateCcw, Apple, Activity, Target, TrendingUp, Zap } from "lucide-react"
 import Logo from "@/components/logo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
+
 
 export default function CarbohydrateCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
@@ -171,7 +175,10 @@ export default function CarbohydrateCalculator() {
     } catch (error) {
       setErrors({ general: "Error calculating carbohydrates. Please check your inputs and try again." })
     }
-  }
+  
+scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
+    }
 
   const resetCalculator = () => {
     setAge("")
@@ -530,7 +537,7 @@ export default function CarbohydrateCalculator() {
 
             {showResult && result && (
               <div className="mt-8">
-                <Card className="shadow-2xl border-0 bg-white p-0">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white p-0">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-green-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Apple className="w-6 h-6 text-blue-600" />

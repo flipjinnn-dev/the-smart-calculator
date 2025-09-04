@@ -6,9 +6,9 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import Link from "next/link"
-import Head from "next/head"
 import { Calendar, Clock, User, AlertCircle } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function AgeCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -128,13 +128,13 @@ export default function AgeCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Age Calculator – Calculate Age by Date of Birth</title>
-        <meta
-          name="description"
-          content="Find your exact age in years, months, and days. Use our free age calculator to calculate age instantly by date of birth."
-        />
-      </Head>
+      <SEO
+        title="Age Calculator – Calculate Age by Date of Birth"
+        description="Find your exact age in years, months, and days. Use our free age calculator to calculate age instantly by date of birth."
+        slug="/age-calculator"
+        keywords="age calculator, calculate age, date of birth calculator, age in years months days"
+        type="SoftwareApplication"
+      />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

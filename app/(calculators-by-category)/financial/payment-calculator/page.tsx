@@ -1,7 +1,6 @@
 "use client"
 
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, DollarSign, Percent, Calendar, CreditCard } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -11,6 +10,7 @@ import { Label } from "@/components/ui/label"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 interface PaymentResults {
   monthlyPayment: number
@@ -147,13 +147,12 @@ export default function PaymentCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Payment Calculator – Plan Payments Smartly</title>
-        <meta
-          name="description"
-          content="Estimate monthly payments for loans, mortgages, or credit with ease. Use our free payment calculator to budget smarter and stay on track."
-        />
-      </Head>
+<SEO
+  title="Payment Calculator – Plan Payments Smartly"
+  description="Estimate monthly payments for loans, mortgages, or credit with ease. Use our free payment calculator to budget smarter and stay on track."
+  keywords="payment calculator, loan payment calculator, mortgage payment calculator, credit payment calculator"
+  slug="/financial/payment-calculator"
+/>
 
       <div className="min-h-screen bg-white">
         {/* Header */}

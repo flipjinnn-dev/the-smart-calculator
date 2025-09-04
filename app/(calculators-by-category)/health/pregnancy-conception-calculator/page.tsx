@@ -1,6 +1,5 @@
 "use client"
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calendar, Baby } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -10,6 +9,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -77,16 +77,12 @@ export default function PregnancyConceptionCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Pregnancy Conception Calculator - Smart Calculator</title>
-        <meta
-          name="description"
-          content="Estimate conception date and pregnancy milestones based on due date, last period, or ultrasound date." />
-        <meta
-          name="keywords"
-          content="pregnancy conception calculator, due date, last period, ultrasound, conception date" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      </Head>
+<SEO
+  title="Pregnancy Conception Calculator – Estimate Fertile Days"
+  description="Find your estimated conception date quickly. Use our free conception calculator to track fertile days and improve pregnancy planning."
+  keywords="pregnancy conception calculator, fertile days calculator, conception date estimator"
+  slug="/health/pregnancy-conception-calculator"
+/>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-pink-50">
         {/* Header */}

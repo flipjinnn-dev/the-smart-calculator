@@ -8,10 +8,10 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Switch } from "@/components/ui/switch"
 import Link from "next/link"
-import Head from "next/head"
 import { Trophy, Calculator, Target, AlertCircle, Activity, RotateCcw, HelpCircle } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function FieldingPercentageCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -103,13 +103,12 @@ export default function FieldingPercentageCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Fielding Percentage Calculator - FPCT - Smart Calculator</title>
-        <meta
-          name="description"
-          content="Calculate Fielding Percentage (FPCT) for baseball and softball players. Determine defensive performance using putouts, assists, and errors."
-        />
-      </Head>
+<SEO
+  title="Fielding Percentage Calculator – Baseball Stats"
+  description="Calculate fielding percentage instantly. Use our free calculator to measure baseball defense and player performance."
+  keywords="fielding percentage calculator, baseball defense stats, baseball calculator, player performance tool"
+  slug="/sports/fielding-percentage-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -7,10 +7,10 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Link from "next/link"
-import Head from "next/head"
 import { Zap, Clock, Ruler } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function VelocityCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -167,13 +167,12 @@ export default function VelocityCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Velocity Calculator – Speed & Motion Finder</title>
-        <meta
-          name="description"
-          content="Find velocity quickly with our free calculator. Calculate speed, distance, and time for physics, motion, and real-life applications."
-        />
-      </Head>
+<SEO
+  title="Velocity Calculator – Speed & Motion Finder"
+  description="Find velocity quickly with our free calculator. Calculate speed, distance, and time for physics, motion, and real-life applications."
+  keywords="velocity calculator, speed calculator, motion calculator, physics velocity tool"
+  slug="/physics/velocity-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

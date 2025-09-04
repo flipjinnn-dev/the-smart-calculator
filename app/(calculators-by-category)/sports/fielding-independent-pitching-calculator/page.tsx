@@ -8,9 +8,9 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Switch } from "@/components/ui/switch"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
-import Head from "next/head"
 import { Trophy, Calculator, Target, AlertCircle, Activity, RotateCcw, HelpCircle, BarChart3 } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function FIPCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -174,13 +174,12 @@ export default function FIPCalculator() {
 
   return (
     <>
-      <Head>
-        <title>FIP Calculator – Fielding Independent Pitching</title>
-        <meta
-          name="description"
-          content="Calculate FIP easily for pitchers. Use our free fielding independent pitching calculator for advanced baseball stats."
-        />
-      </Head>
+<SEO
+  title="FIP Calculator – Fielding Independent Pitching"
+  description="Calculate FIP easily for pitchers. Use our free fielding independent pitching calculator for advanced baseball stats."
+  keywords="FIP calculator, fielding independent pitching calculator, advanced baseball stats, pitcher performance calculator"
+  slug="/sports/fielding-independent-pitching-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

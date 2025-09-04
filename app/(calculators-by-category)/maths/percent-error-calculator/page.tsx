@@ -1,6 +1,5 @@
 "use client";
 import React, { useRef, useState } from "react";
-import Head from "next/head";
 import Link from "next/link";
 import { Calculator } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -9,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Logo from "@/components/logo";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SEO from "@/lib/seo";
 
 export default function PercentErrorCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -57,10 +57,12 @@ export default function PercentErrorCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Percentage Error Calculator – Fast Error Finder</title>
-        <meta name="description" content="Find percentage error quickly and accurately. Use our free calculator for math, science, and real-world calculations with precision." />
-      </Head>
+<SEO
+  title="Percentage Error Calculator – Fast Error Finder"
+  description="Find percentage error quickly and accurately. Use our free calculator for math, science, and real-world calculations with precision."
+  keywords="percentage error calculator, error percentage calculator, math error calculator, science calculator"
+  slug="/maths/percent-error-calculator"
+/>
       <div className="min-h-screen bg-white">
         {/* Header */}
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">

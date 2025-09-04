@@ -1,6 +1,5 @@
 "use client";
 import React, { useRef, useState } from "react";
-import Head from "next/head";
 import Link from "next/link";
 import { Calculator } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -9,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Logo from "@/components/logo";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SEO from "@/lib/seo";
 
 const SHAPES = [
   {
@@ -209,10 +209,12 @@ export default function VolumeCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Volume Calculator – Calculate Space & Capacity</title>
-        <meta name="description" content="Calculate volume of cubes, spheres, cylinders, and more. Use our free volume calculator for math, construction, or daily use." />
-      </Head>
+<SEO
+  title="Volume Calculator – Calculate Space & Capacity"
+  description="Calculate volume of cubes, spheres, cylinders, and more. Use our free volume calculator for math, construction, or daily use."
+  keywords="volume calculator, cube volume calculator, sphere volume calculator, cylinder volume calculator"
+  slug="/maths/volume-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">

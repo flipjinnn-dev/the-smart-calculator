@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -8,9 +8,11 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, RotateCcw, Activity, Clock, Weight, Flame } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
+
 
 // Activity data with MET values
 const activities = [
@@ -77,6 +79,8 @@ const activities = [
 ]
 
 export default function CaloriesBurnedCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
@@ -157,6 +161,8 @@ export default function CaloriesBurnedCalculator() {
     } catch (error) {
       setErrors({ general: "Error calculating calories. Please check your inputs and try again." })
     }
+
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
   }
 
   const resetCalculator = () => {
@@ -172,13 +178,12 @@ export default function CaloriesBurnedCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Calories Burned Calculator – Track Workout Results</title>
-        <meta
-          name="description"
-          content="Calculate calories burned for any activity. Use our free calories burned calculator to track workouts and reach your fitness goals."
-        />
-      </Head>
+<SEO
+  title="Calories Burned Calculator – Track Workout Results"
+  description="Calculate calories burned for any activity. Use our free calories burned calculator to track workouts and reach your fitness goals."
+  keywords="calories burned calculator, workout calorie calculator, exercise calorie burn"
+  slug="/health/calories-burned-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -406,7 +411,7 @@ export default function CaloriesBurnedCalculator() {
 
             {showResult && result && (
               <div className="mt-8">
-                <Card className="shadow-2xl border-0 bg-white p-0">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white p-0">
                   <CardHeader className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Flame className="w-6 h-6 text-orange-600" />

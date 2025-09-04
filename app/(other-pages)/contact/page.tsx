@@ -12,6 +12,7 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -35,6 +36,14 @@ export default function ContactPage() {
   }
 
   return (
+    <>
+      <SEO
+        title="Contact Us - Smart Calculator"
+        description="Get in touch with the Smart Calculator team. Contact us for support, feedback, or partnership opportunities."
+        slug="/contact"
+        keywords="contact smart calculator, support, feedback, calculator help"
+        type="WebPage"
+      />
     <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="bg-white shadow-sm border-b sticky top-0 z-50">
@@ -288,5 +297,6 @@ export default function ContactPage() {
 
       {/* Footer */}
     </div>
+    </>
   )
 }

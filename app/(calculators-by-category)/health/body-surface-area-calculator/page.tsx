@@ -9,10 +9,10 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
-import Head from "next/head"
 import { Activity, Calculator, User, Scale, Ruler, AlertCircle, RotateCcw, HelpCircle } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function BSACalculator() {
   const [result, setResult] = useState<any>(null)
@@ -128,13 +128,12 @@ export default function BSACalculator() {
 
   return (
     <>
-      <Head>
-        <title>Body Surface Area Calculator - BSA Calculator - Smart Calculator</title>
-        <meta
-          name="description"
-          content="Calculate Body Surface Area (BSA) using 7 major formulas including Du Bois, Mosteller, Haycock, and more. Essential for medical dosing calculations."
-        />
-      </Head>
+<SEO
+  title="Body Surface Area Calculator – Medical BSA Tool"
+  description="Calculate body surface area instantly with accurate formulas. Use our free BSA calculator for medical, health, and dosage calculations."
+  keywords="body surface area calculator, BSA calculator, medical dosage calculator, health measurement tool"
+  slug="/health/body-surface-area-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

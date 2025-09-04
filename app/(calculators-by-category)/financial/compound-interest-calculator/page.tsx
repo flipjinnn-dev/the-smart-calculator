@@ -1,7 +1,6 @@
 "use client"
 
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, DollarSign, Percent, Calendar, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -11,6 +10,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function CompoundInterestCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -65,13 +65,12 @@ export default function CompoundInterestCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Compound Interest Calculator – Grow Savings Fast</title>
-        <meta
-          name="description"
-          content="Discover how your money grows with compound interest. Use our free calculator to project returns and boost your long-term financial goals."
-        />
-      </Head>
+<SEO
+  title="Compound Interest Calculator – Grow Savings Fast"
+  description="Discover how your money grows with compound interest. Use our free calculator to project returns and boost your long-term financial goals."
+  keywords="compound interest calculator, savings calculator, returns calculator, investment calculator"
+  slug="/financial/compound-interest-calculator"
+/>
 
       <div className="min-h-screen bg-white">
         {/* Header */}

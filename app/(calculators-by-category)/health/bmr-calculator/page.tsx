@@ -9,9 +9,9 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Switch } from "@/components/ui/switch"
 import { Slider } from "@/components/ui/slider"
 import Link from "next/link"
-import Head from "next/head"
 import { Heart, Calculator, RotateCcw, Activity, Scale, Ruler, User } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function BMRCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -199,13 +199,12 @@ export default function BMRCalculator() {
 
   return (
     <>
-      <Head>
-        <title>BMR Calculator – Basal Metabolic Rate Estimator</title>
-        <meta
-          name="description"
-          content="Calculate your BMR and daily calorie needs. Use our free BMR calculator to plan diet, weight loss, and energy balance."
-        />
-      </Head>
+<SEO
+  title="BMR Calculator – Basal Metabolic Rate Estimator"
+  description="Calculate your BMR and daily calorie needs. Use our free BMR calculator to plan diet, weight loss, and energy balance."
+  keywords="BMR calculator, basal metabolic rate calculator, calorie needs calculator"
+  slug="/health/bmr-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-teal-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

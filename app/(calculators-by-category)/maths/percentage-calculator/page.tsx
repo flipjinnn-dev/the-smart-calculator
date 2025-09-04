@@ -1,7 +1,6 @@
 
 "use client"
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Percent } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -10,6 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function PercentageCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -49,10 +49,12 @@ export default function PercentageCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Percentage Calculator – Quick & Accurate Results</title>
-        <meta name="description" content="Calculate percentages easily with our free percentage calculator. Get fast, accurate results for discounts, increases, and comparisons." />
-      </Head>
+<SEO
+  title="Percentage Calculator – Quick & Accurate Results"
+  description="Calculate percentages easily with our free percentage calculator. Get fast, accurate results for discounts, increases, and comparisons."
+  keywords="percentage calculator, discount calculator, increase percentage calculator, comparison calculator"
+  slug="/maths/percentage-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">

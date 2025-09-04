@@ -3,7 +3,6 @@
 import type React from "react"
 
 import { useState, useRef } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Heart, Ruler, Calendar, Scale } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -13,6 +12,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -232,18 +232,12 @@ export default function BMICalculator() {
 
   return (
     <>
-      <Head>
-        <title>BMI Calculator – Check Your Body Mass Index</title>
-        <meta
-          name="description"
-          content="Instantly calculate your BMI and check if you’re in a healthy weight range. Use our free BMI calculator for accurate results."
-        />
-        <meta
-          name="keywords"
-          content="BMI calculator, body mass index, weight calculator, health calculator, BMI chart, age gender BMI"
-        />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      </Head>
+<SEO
+  title="BMI Calculator – Check Your Body Mass Index"
+  description="Instantly calculate your BMI and check if you’re in a healthy weight range. Use our free BMI calculator for accurate results."
+  keywords="BMI calculator, body mass index calculator, healthy weight calculator, BMI chart"
+  slug="/health/bmi-calculator"
+/>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         {/* Header */}

@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
-import Head from "next/head"
 import { Trophy, Calculator, Target, AlertCircle, Activity } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function ERACalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -90,13 +90,12 @@ export default function ERACalculator() {
 
   return (
     <>
-      <Head>
-        <title>ERA Calculator – Earned Run Average Tool</title>
-        <meta
-          name="description"
-          content="Calculate ERA quickly for baseball pitchers. Use our free earned run average calculator to analyze pitching performance."
-        />
-      </Head>
+<SEO
+  title="ERA Calculator – Earned Run Average Tool"
+  description="Calculate ERA quickly for baseball pitchers. Use our free earned run average calculator to analyze pitching performance."
+  keywords="ERA calculator, earned run average calculator, baseball pitching stats, baseball performance tool"
+  slug="/sports/era-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

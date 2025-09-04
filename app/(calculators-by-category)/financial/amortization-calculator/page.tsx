@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 interface AmortizationRow {
   payment: number
@@ -78,14 +79,12 @@ export default function AmortizationCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Amortization Calculator – Loan Schedule Made Easy</title>
-        <meta
-          name="description"
-          content="Generate a full amortization schedule instantly. Use our free amortization calculator to track payments, interest, and principal with clarity."
-        />
-      </Head>
-
+<SEO
+  title="Amortization Calculator – Loan Schedule Made Easy"
+  description="Generate a full amortization schedule instantly. Use our free amortization calculator to track payments, interest, and principal with clarity."
+  keywords="amortization calculator, loan schedule calculator, repayment calculator, loan breakdown calculator"
+  slug="/financial/amortization-calculator"
+/>
       <div className="min-h-screen bg-white">
         {/* Header */}
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">

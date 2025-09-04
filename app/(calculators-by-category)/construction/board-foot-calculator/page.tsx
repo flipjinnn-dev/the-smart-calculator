@@ -1,7 +1,6 @@
 "use client"
 
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Ruler, Package, DollarSign } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -11,28 +10,8 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: "Board Foot Calculator",
-  description: "Calculate board feet for lumber and wood projects with cost estimation",
-  url: "https://www.thesmartcalculator.com/construction/board-foot-calculator",
-  applicationCategory: "ConstructionApplication",
-  operatingSystem: "Web Browser",
-  offers: {
-    "@type": "Offer",
-    price: "0",
-    priceCurrency: "USD",
-  },
-  featureList: [
-    "Board foot calculation",
-    "Multiple pieces calculation",
-    "Cost estimation",
-    "Length in feet or inches",
-    "Lumber volume calculation",
-  ],
-}
 
 interface BoardFootResults {
   boardFeetPerPiece: number
@@ -108,18 +87,12 @@ export default function BoardFootCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Board Foot Calculator – Lumber Measurement Tool</title>
-        <meta
-          name="description"
-          content="Calculate board feet of lumber easily. Use our free board foot calculator for accurate wood measurement in construction and carpentry."
-        />
-        <meta
-          name="keywords"
-          content="board foot calculator, lumber calculator, wood volume, construction calculator, board feet"
-        />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      </Head>
+      <SEO
+      title={"Board Foot Calculator – Lumber Measurement Tool"}
+      description={"Calculate board feet of lumber easily. Use our free board foot calculator for accurate wood measurement in construction and carpentry."}
+      keywords={"board foot calculator, lumber calculator, wood volume, construction calculator, board feet"}
+      slug="/construction/board-foot-calculator"
+      />
 
       <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50">
         {/* Header */}

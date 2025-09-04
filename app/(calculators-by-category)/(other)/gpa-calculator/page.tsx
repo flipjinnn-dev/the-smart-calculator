@@ -8,9 +8,9 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Switch } from "@/components/ui/switch"
 import Link from "next/link"
-import Head from "next/head"
 import { GraduationCap, Calculator, Plus, Trash2, RotateCcw, BookOpen } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 interface Course {
   id: string
@@ -320,13 +320,14 @@ export default function GPACalculator() {
 
   return (
     <>
-      <Head>
-        <title>GPA Calculator – Calculate Your Grade Point Average</title>
-        <meta
-          name="description"
-          content="Calculate GPA quickly and accurately. Use our free GPA calculator to track academic performance and improve grades."
-        />
-      </Head>
+      <SEO
+        title="GPA Calculator – Calculate Your Grade Point Average"
+        description="Calculate GPA quickly and accurately. Use our free GPA calculator to track academic performance and improve grades."
+        slug="/gpa-calculator"
+        keywords="GPA calculator, calculate GPA, grade point average, academic performance"
+        type="SoftwareApplication"
+      />
+
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

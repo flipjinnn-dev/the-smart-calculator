@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function CalorieCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -62,13 +63,12 @@ export default function CalorieCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Calorie Calculator – Daily Calorie Needs Tracker</title>
-        <meta
-          name="description"
-          content="Find out how many calories you need daily. Use our free calorie calculator to plan weight loss, gain, or maintenance."
-        />
-      </Head>
+<SEO
+  title="Calorie Calculator – Daily Calorie Needs Tracker"
+  description="Find out how many calories you need daily. Use our free calorie calculator to plan weight loss, gain, or maintenance."
+  keywords="calorie calculator, daily calorie intake calculator, weight management"
+  slug="/health/calorie-calculator"
+/>
 
       <div className="min-h-screen bg-white">
         {/* Header */}

@@ -8,10 +8,10 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, RotateCcw, Activity, AlertTriangle } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function GFRCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -205,13 +205,12 @@ export default function GFRCalculator() {
 
   return (
     <>
-      <Head>
-        <title>GFR Calculator – Kidney Function Estimator</title>
-        <meta
-          name="description"
-          content="Check kidney health with our free GFR calculator. Estimate glomerular filtration rate and monitor kidney function easily."
-        />
-      </Head>
+      <SEO
+        title="GFR Calculator – Kidney Function Estimator"
+        description="Check kidney health with our free GFR calculator. Estimate glomerular filtration rate and monitor kidney function easily."
+        keywords="GFR calculator, kidney function calculator, glomerular filtration rate"
+        slug="/health/gfr-calculator"
+      />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

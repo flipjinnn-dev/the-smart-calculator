@@ -8,9 +8,9 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Link from "next/link"
-import Head from "next/head"
 import { Ruler, Calculator, RotateCcw, Users, TrendingUp } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function HeightCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -267,13 +267,13 @@ export default function HeightCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Height Calculator – Estimate Adult Height</title>
-        <meta
-          name="description"
-          content="Predict adult height from current age. Use our free height calculator for kids, teens, and accurate growth estimation."
-        />
-      </Head>
+      <SEO
+        title="Height Calculator – Estimate Adult Height"
+        description="Predict adult height from current age. Use our free height calculator for kids, teens, and accurate growth estimation."
+        slug="/height-calculator"
+        keywords="height calculator, predict height, growth estimation, adult height prediction"
+        type="SoftwareApplication"
+      />
       <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

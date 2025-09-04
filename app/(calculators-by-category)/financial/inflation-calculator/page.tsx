@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -10,12 +10,16 @@ import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from "recharts"
 import Logo from "@/components/logo"
 import Link from "next/link"
-import Head from "next/head"
 import { Calculator, TrendingUp, DollarSign, Percent, Calendar } from "lucide-react"
 import CalculatorGuide from "@/components/calculator-guide"
 import inflationData from "@/app/content/inflation-calculator.json"
+import SEO from "@/lib/seo"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
+
 
 export default function InflationCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [tab, setTab] = useState("future")
   const [amount, setAmount] = useState("1000")
   const [inflationRate, setInflationRate] = useState("3")
@@ -113,17 +117,19 @@ export default function InflationCalculator() {
 
   const handleCalculate = () => {
     calculateInflation()
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+
   }
 
   return (
     <>
-      <Head>
-        <title>Inflation Calculator – Track Money’s True Value</title>
-        <meta
-          name="description"
-          content="See how inflation affects your money over time. Use our free inflation calculator to understand purchasing power and make informed financial choices."
-        />
-      </Head>
+<SEO
+  title="Inflation Calculator – Track Money’s True Value"
+  description="See how inflation affects your money over time. Use our free inflation calculator to understand purchasing power and make informed financial choices."
+  keywords="inflation calculator, purchasing power calculator, money value, finance calculator"
+  slug="/financial/inflation-calculator"
+/>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
         {/* Header */}
@@ -409,7 +415,7 @@ export default function InflationCalculator() {
 
               {/* Right: Results Card */}
               <div>
-                <Card className="shadow-xl border-0 pt-0 min-h-0 rounded-xl overflow-hidden hover:shadow-orange-100/50 transition-shadow duration-300">
+                <Card ref={resultsRef} className="shadow-xl border-0 pt-0 min-h-0 rounded-xl overflow-hidden hover:shadow-orange-100/50 transition-shadow duration-300">
                   <CardHeader className="bg-gradient-to-r from-orange-50 via-red-50 to-pink-50 rounded-t-xl py-5 px-6 border-b border-orange-100/50">
                     <CardTitle className="flex items-center space-x-3 text-xl">
                       <div className="w-10 h-10 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center shadow-lg">

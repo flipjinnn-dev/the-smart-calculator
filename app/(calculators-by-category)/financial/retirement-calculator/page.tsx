@@ -6,11 +6,10 @@ import { Label } from "@/components/ui/label";
 import Logo from "@/components/logo";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Calculator, TrendingUp, DollarSign, Percent, Calendar } from "lucide-react";
-
-import Head from "next/head";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SEO from "@/lib/seo";
 
 
 export default function RetirementCalculator() {
@@ -272,10 +271,12 @@ export default function RetirementCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Retirement Calculator – Secure Your Future Today</title>
-        <meta name="description" content="Plan your retirement savings with ease. Use our free retirement calculator to estimate how much you need and create a secure future." />
-      </Head>
+<SEO
+  title="Retirement Calculator – Secure Your Future Today"
+  description="Plan your retirement savings with ease. Use our free retirement calculator to estimate how much you need and create a secure future."
+  keywords="retirement calculator, pension calculator, savings calculator, future planning calculator"
+  slug="/financial/retirement-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
         {/* Header */}
         <header className="bg-white shadow-md border-b sticky top-0 z-50">

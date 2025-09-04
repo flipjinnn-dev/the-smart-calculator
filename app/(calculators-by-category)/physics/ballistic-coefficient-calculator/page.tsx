@@ -10,10 +10,10 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
-import Head from "next/head"
 import { Target, Calculator, Ruler } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function BallisticCoefficientCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -148,13 +148,12 @@ export default function BallisticCoefficientCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Ballistic Coefficient Calculator – Bullet Efficiency</title>
-        <meta
-          name="description"
-          content="Calculate ballistic coefficient easily. Use our free ballistic coefficient calculator to measure bullet aerodynamics and accuracy."
-        />
-      </Head>
+<SEO
+  title="Ballistic Coefficient Calculator – Bullet Efficiency"
+  description="Calculate ballistic coefficient easily. Use our free ballistic coefficient calculator to measure bullet aerodynamics and accuracy."
+  keywords="ballistic coefficient calculator, bullet efficiency calculator, bullet aerodynamics, shooting calculator"
+  slug="/physics/ballistic-coefficient-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

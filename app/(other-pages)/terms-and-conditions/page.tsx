@@ -3,6 +3,7 @@ import Link from "next/link"
 import { FileText, Scale, AlertTriangle, CheckCircle, XCircle, Info } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Logo from "@/components/logo"
+import Script from "next/script"
 
 export const metadata: Metadata = {
   title: "Terms of Service - Smart Calculator",
@@ -11,8 +12,34 @@ export const metadata: Metadata = {
   keywords: "terms of service, terms and conditions, user agreement, smart calculator terms",
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Terms and Conditions - Smart Calculator",
+  description:
+    "Read the Terms and Conditions of Smart Calculator to understand the rules, disclaimers, and user responsibilities when using our free online calculators.",
+  url: "https://www.thesmartcalculator.com/terms-and-conditions",
+  mainEntity: {
+    "@type": "Organization",
+    name: "Smart Calculator",
+    url: "https://www.thesmartcalculator.com",
+    logo: "https://www.thesmartcalculator.com/logo.png",
+    sameAs: [
+      "https://www.instagram.com/thesmartcalculators",
+      "https://x.com/SmartCalculat0r"
+    ]
+  }
+}
+
 export default function TermsPage() {
   return (
+    <>
+      <Script
+        id="terms-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="bg-white shadow-sm border-b sticky top-0 z-50">
@@ -263,5 +290,6 @@ export default function TermsPage() {
       </section>
 
     </div>
+    </>
   )
 }

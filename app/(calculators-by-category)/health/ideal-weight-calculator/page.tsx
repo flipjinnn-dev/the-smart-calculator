@@ -1,17 +1,20 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
-import Head from "next/head"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Scale, Ruler, User } from "lucide-react"
 import Logo from "@/components/logo"
+import SEO from "@/lib/seo"
 
 export default function IdealWeightCalculator() {
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
@@ -66,6 +69,7 @@ export default function IdealWeightCalculator() {
   }
 
   const calculateIdealWeight = () => {
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
     if (!validateInputs()) return
 
     try {
@@ -147,13 +151,12 @@ export default function IdealWeightCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Ideal Weight Calculator – Find Your Healthy Range</title>
-        <meta
-          name="description"
-          content="Calculate your ideal body weight for height and age. Use our free calculator to set realistic health and fitness goals."
-        />
-      </Head>
+<SEO
+  title="Ideal Weight Calculator – Find Your Healthy Range"
+  description="Calculate your ideal body weight for height and age. Use our free calculator to set realistic health and fitness goals."
+  keywords="ideal weight calculator, healthy weight calculator, BMI weight range"
+  slug="/health/ideal-weight-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-cyan-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -390,7 +393,7 @@ export default function IdealWeightCalculator() {
 
             {showResult && result && (
               <div className="mt-8">
-                <Card className="shadow-2xl border-0 bg-white">
+                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Scale className="w-6 h-6 text-blue-600" />

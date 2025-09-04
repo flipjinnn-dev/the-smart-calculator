@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Link from "next/link"
-import Head from "next/head"
 import { ChefHat, Calculator, Ruler, AlertCircle, Cookie } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SEO from "@/lib/seo"
 
 export default function CakePanCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -239,13 +239,12 @@ export default function CakePanCalculator() {
 
   return (
     <>
-      <Head>
-        <title>Cake Pan Calculator – Baking Pan Converter</title>
-        <meta
-          name="description"
-          content="Adjust recipes to fit any cake pan size. Use our free cake pan calculator for perfect baking results every time."
-        />
-      </Head>
+<SEO
+  title="Cake Pan Calculator – Baking Pan Converter"
+  description="Adjust recipes to fit any cake pan size. Use our free cake pan calculator for perfect baking results every time."
+  keywords="cake pan calculator, baking pan converter, recipe converter, cake size calculator"
+  slug="/food/cake-pan-calculator"
+/>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 to-rose-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
