@@ -2,6 +2,7 @@
 
 import type React from "react"
 import { useState, useRef } from "react"
+import Link from "next/link"
 import { Calculator, DollarSign, Home, TrendingDown, AlertTriangle, HelpCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -13,7 +14,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Separator } from "@/components/ui/separator"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
-import { useMobileScroll } from "@/hooks/useMobileScroll"
+import {useMobileScroll} from "@/hooks/useMobileScroll"
 
 interface MortgageResult {
   standardPayoffMonths: number
@@ -82,53 +83,89 @@ export default function MortgagePayoffCalculator() {
     return (monthlyRate * principal) / (1 - Math.pow(1 + monthlyRate, -months))
   }
 
-  const calculateAmortization = (
-    principal: number,
+  const calculateRemainingBalance = (
+    originalPrincipal: number,
     monthlyRate: number,
-    payment: number,
+    originalPayment: number,
+    elapsedMonths: number,
+  ): number => {
+    // Bk = P(1+r)^k - M * ((1+r)^k - 1) / r
+    const compoundFactor = Math.pow(1 + monthlyRate, elapsedMonths)
+    return originalPrincipal * compoundFactor - originalPayment * ((compoundFactor - 1) / monthlyRate)
+  }
+
+  const calculatePayoffMonths = (remainingBalance: number, monthlyRate: number, newPayment: number): number => {
+    // N' = ln(M' / (M' - r * Bk)) / ln(1 + r)
+    if (monthlyRate === 0) return remainingBalance / newPayment
+
+    const numerator = newPayment / (newPayment - monthlyRate * remainingBalance)
+    if (numerator <= 1) return 0 // Payment too small to cover interest
+
+    return Math.log(numerator) / Math.log(1 + monthlyRate)
+  }
+
+  const calculateFinalPayment = (
+    remainingBalance: number,
+    monthlyRate: number,
+    newPayment: number,
+    fullPayments: number,
+  ): number => {
+    // Balance after n_full payments: Bk(1+r)^n_full - M' * ((1+r)^n_full - 1) / r
+    const compoundFactor = Math.pow(1 + monthlyRate, fullPayments)
+    const balanceAfterFullPayments =
+      remainingBalance * compoundFactor - newPayment * ((compoundFactor - 1) / monthlyRate)
+
+    // Final payment: L = B_n_full * (1 + r)
+    return Math.max(0, balanceAfterFullPayments * (1 + monthlyRate))
+  }
+
+  const calculateExactAmortization = (
+    remainingBalance: number,
+    monthlyRate: number,
+    standardPayment: number,
     extraMonthly = 0,
     extraAnnual = 0,
     oneTime = 0,
-    isBiweekly = false,
   ) => {
-    let balance = principal - oneTime
-    let monthCount = 0
-    let totalInterest = 0
-    let totalPayments = oneTime
+    // Apply one-time payment immediately
+    const adjustedBalance = Math.max(0, remainingBalance - oneTime)
 
-    while (balance > 0.01 && monthCount < 600) {
-      // Safety limit
-      monthCount++
-      const interest = balance * monthlyRate
-      let principalPaid = payment + extraMonthly - interest
-
-      // Annual extra payment
-      if (extraAnnual > 0 && monthCount % 12 === 0) {
-        principalPaid += extraAnnual
-        totalPayments += extraAnnual
+    if (adjustedBalance === 0) {
+      return {
+        months: 0,
+        totalInterest: 0,
+        totalPayments: oneTime,
+        finalPayment: 0,
       }
-
-      // Biweekly adjustment (26 payments = 13 months worth)
-      if (isBiweekly) {
-        principalPaid += payment / 12 // Approximate extra payment
-      }
-
-      // Don't overpay
-      if (principalPaid > balance + interest) {
-        principalPaid = balance + interest
-      }
-
-      balance -= principalPaid - interest
-      totalInterest += interest
-      totalPayments += payment + extraMonthly
-
-      if (balance <= 0.01) break
     }
 
+    const newPayment = standardPayment + extraMonthly
+
+    // Calculate exact payoff months using closed-form formula
+    const exactMonths = calculatePayoffMonths(adjustedBalance, monthlyRate, newPayment)
+    const fullPayments = Math.floor(exactMonths)
+
+    // Calculate final payment
+    const finalPayment = calculateFinalPayment(adjustedBalance, monthlyRate, newPayment, fullPayments)
+
+    // Calculate totals
+    let totalPayments = oneTime + fullPayments * newPayment + finalPayment
+    let totalInterest = 0
+
+    // Add annual extra payments
+    if (extraAnnual > 0) {
+      const annualPayments = Math.floor(exactMonths / 12)
+      totalPayments += annualPayments * extraAnnual
+    }
+
+    // Calculate total interest paid
+    totalInterest = totalPayments - remainingBalance
+
     return {
-      months: monthCount,
-      totalInterest,
+      months: exactMonths,
+      totalInterest: Math.max(0, totalInterest),
       totalPayments,
+      finalPayment,
     }
   }
 
@@ -148,49 +185,35 @@ export default function MortgagePayoffCalculator() {
 
     if (calculationMode === "known") {
       remainingTermMonths = Number.parseFloat(remainingYears) * 12 + (Number.parseFloat(remainingMonths) || 0)
+      const elapsedMonths = originalTermMonths - remainingTermMonths
 
-      // Calculate remaining balance using amortization
-      const totalPayments = calculatePayment(principal, monthlyRate, originalTermMonths)
-      const paidMonths = originalTermMonths - remainingTermMonths
-
-      let balance = principal
-      for (let i = 0; i < paidMonths; i++) {
-        const interest = balance * monthlyRate
-        const principalPaid = totalPayments - interest
-        balance -= principalPaid
-      }
-
-      remainingBalance = Math.max(0, balance)
+      const originalPayment = calculatePayment(principal, monthlyRate, originalTermMonths)
+      remainingBalance = calculateRemainingBalance(principal, monthlyRate, originalPayment, elapsedMonths)
       standardMonthlyPayment = calculatePayment(remainingBalance, monthlyRate, remainingTermMonths)
     } else {
       remainingBalance = Number.parseFloat(unpaidPrincipal)
       standardMonthlyPayment = Number.parseFloat(monthlyPayment)
 
-      // Calculate remaining term
-      if (monthlyRate === 0) {
-        remainingTermMonths = remainingBalance / standardMonthlyPayment
-      } else {
-        remainingTermMonths =
-          -Math.log(1 - (monthlyRate * remainingBalance) / standardMonthlyPayment) / Math.log(1 + monthlyRate)
-      }
+      // Calculate remaining term using exact formula
+      remainingTermMonths = calculatePayoffMonths(remainingBalance, monthlyRate, standardMonthlyPayment)
     }
 
-    // Calculate standard payoff
-    const standard = calculateAmortization(remainingBalance, monthlyRate, standardMonthlyPayment)
+    const standard = calculateExactAmortization(remainingBalance, monthlyRate, standardMonthlyPayment)
 
-    // Calculate with extra payments
     const extraMonthlyAmount = Number.parseFloat(monthlyExtra) || 0
     const extraAnnualAmount = Number.parseFloat(annualExtra) || 0
     const oneTimeAmount = Number.parseFloat(oneTimeExtra) || 0
 
-    const withExtra = calculateAmortization(
+    // Adjust for biweekly payments (26 payments = 13 months worth per year)
+    const biweeklyExtra = biweekly ? standardMonthlyPayment / 12 : 0
+
+    const withExtra = calculateExactAmortization(
       remainingBalance,
       monthlyRate,
       standardMonthlyPayment,
-      extraMonthlyAmount,
+      extraMonthlyAmount + biweeklyExtra,
       extraAnnualAmount,
       oneTimeAmount,
-      biweekly,
     )
 
     const mortgageResult: MortgageResult = {
@@ -258,63 +281,65 @@ export default function MortgagePayoffCalculator() {
         slug="/financial/mortgage-payoff-calculator"
       />
 
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
-        <header className="bg-white/90 backdrop-blur-md shadow-lg border-b border-blue-100">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-4">
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-between items-center h-20">
+              <div className="flex items-center space-x-3">
                 <Logo />
                 <div>
-                  <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                  <Link
+                    href="/"
+                    className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+                  >
                     Smart Calculator
-                  </h1>
-                  <p className="text-sm text-gray-600">Professional Financial Tools</p>
+                  </Link>
+                  <p className="text-sm text-gray-500">Mortgage Payoff Calculator</p>
                 </div>
               </div>
             </div>
           </div>
         </header>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center space-x-2 text-sm">
-            <span className="text-gray-500 hover:text-blue-600 transition-colors cursor-pointer">Home</span>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-500 hover:text-blue-600 transition-colors cursor-pointer">Financial</span>
-            <span className="text-gray-400">/</span>
-            <span className="text-blue-600 font-semibold">Mortgage Payoff Calculator</span>
+        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex items-center space-x-2 py-4 text-sm">
+              <Link href="/" className="text-gray-500 hover:text-blue-600">
+                Home
+              </Link>
+              <span className="text-gray-400">/</span>
+              <Link href="/financial" className="text-gray-500 hover:text-blue-600">
+                Financial
+              </Link>
+              <span className="text-gray-400">/</span>
+              <span className="text-gray-900 font-medium">Mortgage Payoff Calculator</span>
+            </div>
           </div>
-        </div>
+        </nav>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center mb-12">
-            <div className="flex justify-center mb-6">
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-600 rounded-full blur-lg opacity-30 animate-pulse"></div>
-                <div className="relative p-4 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full shadow-2xl">
-                  <Home className="h-10 w-10 text-white" />
+        <main className="py-8 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-8">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
+                  <Home className="w-8 h-8 text-white" />
                 </div>
               </div>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Mortgage Payoff Calculator</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Discover how extra payments can save you thousands in interest and help you become mortgage-free years
+                earlier
+              </p>
             </div>
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-indigo-800 bg-clip-text text-transparent mb-6 leading-tight">
-              Mortgage Payoff Calculator
-            </h1>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Discover how extra payments can save you thousands in interest and help you become mortgage-free years
-              earlier
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="lg:col-span-2">
-              <Card className="shadow-2xl border-0 bg-white/95 backdrop-blur-sm overflow-hidden">
-                <CardHeader className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white">
-                  <CardTitle className="flex items-center gap-3 text-xl">
-                    <Calculator className="h-6 w-6" />
-                    Mortgage Payoff Calculator
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Calculator Form */}
+              <Card className="shadow-2xl border-0 pt-0 bg-white overflow-hidden">
+                <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
+                  <CardTitle className="flex items-center space-x-3 text-2xl">
+                    <Calculator className="w-6 h-6 text-blue-600" />
+                    <span>Mortgage Payoff Calculator</span>
                   </CardTitle>
-                  <CardDescription className="text-blue-100 text-base">
-                    Enter your mortgage details to calculate payoff scenarios and potential savings
-                  </CardDescription>
                 </CardHeader>
                 <CardContent className="p-8 space-y-8">
                   <div className="space-y-4">
@@ -323,7 +348,7 @@ export default function MortgagePayoffCalculator() {
                       Basic Loan Information
                     </h3>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-end">
                       <div className="space-y-2">
                         <Label htmlFor="originalAmount" className="flex items-center gap-2">
                           Original Loan Amount ($)
@@ -498,7 +523,7 @@ export default function MortgagePayoffCalculator() {
                       Extra Payment Options
                     </h3>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-end">
                       <div className="space-y-2">
                         <Label htmlFor="oneTimeExtra">One-time Extra Payment ($)</Label>
                         <Input
@@ -553,85 +578,64 @@ export default function MortgagePayoffCalculator() {
                   <div className="flex flex-col sm:flex-row gap-4 pt-6">
                     <Button
                       onClick={calculateMortgagePayoff}
-                      className="flex-1 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                      className="w-full h-14 text-xl bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow-xl font-bold"
                     >
                       <Calculator className="mr-2 h-5 w-5" />
-                      Calculate Payoff Savings
-                    </Button>
-                    <Button
-                      onClick={resetCalculator}
-                      variant="outline"
-                      className="flex-1 border-2 border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400 font-semibold py-4 px-8 rounded-xl transition-all duration-300 bg-white"
-                    >
-                      Reset Calculator
+                      Calculate
                     </Button>
                   </div>
                 </CardContent>
               </Card>
-            </div>
 
-            <div className="hidden lg:block">
-              <Card className="shadow-2xl border-0 bg-white/95 backdrop-blur-sm sticky top-8 overflow-hidden">
-                <CardHeader className="bg-gradient-to-r from-green-500 to-emerald-600 text-white">
-                  <CardTitle className="flex items-center gap-2 text-lg">
-                    <TrendingDown className="h-5 w-5" />
-                    Savings Preview
-                  </CardTitle>
+              <Card ref={resultsRef} className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
+                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
+                  <CardTitle className="text-2xl">Payoff Analysis</CardTitle>
+                  <CardDescription className="text-base">Your mortgage payoff breakdown</CardDescription>
                 </CardHeader>
                 <CardContent className="p-6">
                   {showResult && result ? (
                     <div className="space-y-6">
-                      <div className="text-center">
-                        <div className="text-4xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-2">
+                      {/* Interest Savings */}
+                      <div className="text-center p-6 bg-gradient-to-r from-green-100 to-green-200 rounded-2xl border-2 border-green-300">
+                        <p className="text-lg text-green-800 mb-2 font-semibold">Interest Savings:</p>
+                        <p className="text-4xl font-bold text-green-700 mb-2">
                           {formatCurrency(result.interestSavings)}
-                        </div>
-                        <div className="text-sm text-gray-600 mb-6 font-medium">Total Interest Savings</div>
-
-                        <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">
-                          {formatTime(result.timeSavings)}
-                        </div>
-                        <div className="text-sm text-gray-600 font-medium">Time Saved</div>
+                        </p>
                       </div>
 
-                      <div className="space-y-3 text-sm bg-gray-50 rounded-lg p-4">
-                        <div className="flex justify-between items-center">
-                          <span className="text-gray-600">New Payoff Time:</span>
-                          <span className="font-semibold text-green-700">{formatTime(result.extraPayoffMonths)}</span>
+                      {/* Summary */}
+                      <div className="space-y-3">
+                        <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
+                          <span className="font-medium text-gray-700">Time Saved</span>
+                          <span className="font-bold text-blue-600">{formatTime(result.timeSavings)}</span>
                         </div>
-                        <div className="flex justify-between items-center">
-                          <span className="text-gray-600">Original Payoff:</span>
-                          <span className="text-gray-800">{formatTime(result.standardPayoffMonths)}</span>
+                        <div className="flex justify-between items-center p-3 bg-orange-50 rounded-lg border border-orange-200">
+                          <span className="font-medium text-gray-700">New Payoff Time</span>
+                          <span className="font-bold text-orange-600">{formatTime(result.extraPayoffMonths)}</span>
+                        </div>
+                        <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg border border-purple-200">
+                          <span className="font-medium text-gray-700">Monthly Payment</span>
+                          <span className="font-bold text-purple-600">{formatCurrency(result.monthlyPayment)}</span>
                         </div>
                       </div>
                     </div>
                   ) : (
-                    <div className="text-center text-gray-500 py-12">
-                      <div className="relative mb-6">
-                        <div className="absolute inset-0 bg-blue-100 rounded-full blur-xl opacity-50"></div>
-                        <Calculator className="relative h-16 w-16 mx-auto text-blue-400" />
-                      </div>
-                      <p className="text-lg font-medium">Enter your mortgage details</p>
-                      <p className="text-sm text-gray-400 mt-1">to see potential savings</p>
+                    <div className="text-center py-12 text-gray-500">
+                      <Home className="w-16 h-16 mx-auto mb-4 opacity-50" />
+                      <p className="text-lg">Enter mortgage details to see your payoff analysis</p>
                     </div>
                   )}
                 </CardContent>
               </Card>
             </div>
-          </div>
 
-          {showResult && result && (
-            <div ref={resultsRef} className="mt-8">
-              <Card className="shadow-2xl border-0 bg-white/80 backdrop-blur">
-                <CardHeader className="bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-t-lg">
-                  <CardTitle className="flex items-center gap-2">
-                    <TrendingDown className="h-6 w-6" />
-                    Mortgage Payoff Analysis
-                  </CardTitle>
-                  <CardDescription className="text-green-100">
-                    Detailed breakdown of your mortgage payoff scenarios
-                  </CardDescription>
+            {showResult && result && (
+              <Card className="shadow-2xl border-0 pt-0 bg-white mt-8">
+                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
+                  <CardTitle className="text-2xl">Detailed Analysis</CardTitle>
+                  <CardDescription className="text-base">Complete mortgage payoff comparison</CardDescription>
                 </CardHeader>
-                <CardContent className="p-6">
+                <CardContent className="p-8">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                     <div className="text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl border border-green-200">
                       <div className="text-3xl font-bold text-green-600 mb-2">
@@ -738,81 +742,82 @@ export default function MortgagePayoffCalculator() {
                   </div>
                 </CardContent>
               </Card>
+            )}
+
+            <div className="mt-8">
+              <Card className="shadow-xl border-0 bg-white/80 backdrop-blur">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Home className="h-5 w-5 text-blue-600" />
+                    Understanding Mortgage Payoff Strategies
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="p-6 space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <h3 className="font-semibold text-gray-900 mb-3">Extra Payment Benefits</h3>
+                      <ul className="space-y-2 text-sm text-gray-600">
+                        <li className="flex items-start gap-2">
+                          <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                          <span>
+                            <strong>Interest Savings:</strong> Extra payments go directly to principal, reducing total
+                            interest paid
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                          <span>
+                            <strong>Time Savings:</strong> Pay off your mortgage years earlier than scheduled
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
+                          <span>
+                            <strong>Equity Building:</strong> Build home equity faster with accelerated principal
+                            payments
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-gray-900 mb-3">Payment Strategies</h3>
+                      <ul className="space-y-2 text-sm text-gray-600">
+                        <li className="flex items-start gap-2">
+                          <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
+                          <span>
+                            <strong>Monthly Extra:</strong> Add a fixed amount to each monthly payment
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
+                          <span>
+                            <strong>Annual Lump Sum:</strong> Use tax refunds or bonuses for extra payments
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <div className="w-2 h-2 bg-indigo-500 rounded-full mt-2 flex-shrink-0"></div>
+                          <span>
+                            <strong>Biweekly Payments:</strong> Pay half monthly amount every 2 weeks (26 payments/year)
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <Alert>
+                    <AlertTriangle className="h-4 w-4" />
+                    <AlertDescription>
+                      <strong>Important:</strong> Before making extra mortgage payments, ensure you have an emergency
+                      fund, are maximizing employer 401(k) matching, and have paid off higher-interest debt. Consider
+                      your mortgage interest rate versus potential investment returns when deciding on extra payments.
+                    </AlertDescription>
+                  </Alert>
+                </CardContent>
+              </Card>
             </div>
-          )}
-
-          <div className="mt-8">
-            <Card className="shadow-xl border-0 bg-white/80 backdrop-blur">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Home className="h-5 w-5 text-blue-600" />
-                  Understanding Mortgage Payoff Strategies
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="p-6 space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-3">Extra Payment Benefits</h3>
-                    <ul className="space-y-2 text-sm text-gray-600">
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Interest Savings:</strong> Extra payments go directly to principal, reducing total
-                          interest paid
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Time Savings:</strong> Pay off your mortgage years earlier than scheduled
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Equity Building:</strong> Build home equity faster with accelerated principal payments
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-3">Payment Strategies</h3>
-                    <ul className="space-y-2 text-sm text-gray-600">
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Monthly Extra:</strong> Add a fixed amount to each monthly payment
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Annual Lump Sum:</strong> Use tax refunds or bonuses for extra payments
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-indigo-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Biweekly Payments:</strong> Pay half monthly amount every 2 weeks (26 payments/year)
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <Alert>
-                  <AlertTriangle className="h-4 w-4" />
-                  <AlertDescription>
-                    <strong>Important:</strong> Before making extra mortgage payments, ensure you have an emergency
-                    fund, are maximizing employer 401(k) matching, and have paid off higher-interest debt. Consider your
-                    mortgage interest rate versus potential investment returns when deciding on extra payments.
-                  </AlertDescription>
-                </Alert>
-              </CardContent>
-            </Card>
           </div>
-        </div>
+        </main>
       </div>
     </>
   )

@@ -81,6 +81,13 @@ export const calculators: Calculator[] = [
     category: "financial",
   },
   {
+    id: "mortgage-payoff-calculator",
+    name: "Mortgage Payoff Calculator",
+    description: "Calculate your mortgage payoff date and total interest savings",
+    href: "/financial/mortgage-payoff-calculator",
+    category: "financial",
+  },
+  {
     id: "currency",
     name: "Currency Calculator",
     description: "Convert between different currencies with real-time rates",
