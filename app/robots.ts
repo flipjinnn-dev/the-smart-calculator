@@ -1,8 +1,12 @@
-import type { Metadata } from "next"
+import type { MetadataRoute } from "next";
 
-export const metadata: Metadata = {
-  robots: {
-    index: false,
-    follow: false,
-  },
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: [
+      {
+        userAgent: "*",
+        disallow: "/", // 👈 sab block kar diya
+      },
+    ],
+  };
 }
