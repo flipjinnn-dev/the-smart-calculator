@@ -1,2 +1,12 @@
 User-agent: *
-Disallow: /
+Allow: /
+
+# Block Next.js internals and build files
+Disallow: /_next/
+Disallow: /api/
+Disallow: /404
+Disallow: /500
+Disallow: /server-sitemap.xml
+
+# Sitemap locations
+Sitemap: https://www.thesmartcalculator.com/sitemap.xml 

@@ -5,8 +5,16 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        disallow: "/", // 👈 sab block kar diya
+        allow: "/",
+        disallow: [
+          "/_next/",
+          "/api/",
+          "/404",
+          "/500",
+          "/server-sitemap.xml",
+        ],
       },
     ],
+    sitemap: "https://www.thesmartcalculator.com/sitemap.xml",
   };
 }

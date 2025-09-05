@@ -1,40 +1,11 @@
 "use client"
-
-import type React from "react"
-
-import { useState } from "react"
 import Link from "next/link"
-import { Mail, MapPin, Send, MessageCircle, Clock, CheckCircle } from "lucide-react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Mail, MessageCircle, Clock, Users, Bug, Lightbulb, Handshake, Instagram, Twitter, Youtube } from "lucide-react"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    category: "",
-    message: "",
-  })
-  const [isSubmitted, setIsSubmitted] = useState(false)
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission here
-    setIsSubmitted(true)
-    setTimeout(() => setIsSubmitted(false), 3000)
-  }
-
-  const handleChange = (field: string, value: string) => {
-    setFormData((prev) => ({ ...prev, [field]: value }))
-  }
-
   return (
     <>
       <SEO
@@ -44,259 +15,203 @@ export default function ContactPage() {
         keywords="contact smart calculator, support, feedback, calculator help"
         type="WebPage"
       />
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
-            <div className="flex items-center space-x-3">
-              <Logo />
-              <div>
-                <Link
-                  href="/"
-                  className="text-2xl font-bold bg-gradient-to-r from-blue-500 via-red-500 to-green-500 bg-clip-text text-transparent"
-                >
-                  Smart Calculator
-                </Link>
-                <p className="text-sm text-gray-500">Contact Us</p>
+      <div className="min-h-screen bg-white">
+        {/* Header */}
+        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-between items-center h-20">
+              <div className="flex items-center space-x-3">
+                <Logo />
+                <div>
+                  <Link
+                    href="/"
+                    className="text-2xl font-bold bg-gradient-to-r from-blue-500 via-red-500 to-green-500 bg-clip-text text-transparent"
+                  >
+                    Smart Calculator
+                  </Link>
+                  <p className="text-sm text-gray-500">Contact Us</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </header>
+        </header>
 
-      {/* Hero Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-purple-50 to-indigo-100">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="flex justify-center mb-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
-              <MessageCircle className="w-8 h-8 text-white" />
-            </div>
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Get in Touch</h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Have a question, suggestion, or need help with our calculators? We'd love to hear from you!
-          </p>
-        </div>
-      </section>
-
-      {/* Contact Content */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            {/* Contact Information */}
-            <div className="lg:col-span-1">
-              <div className="space-y-8">
-                <Card className="border-0 shadow-lg">
-                  <CardHeader>
-                    <CardTitle className="flex items-center space-x-3">
-                      <Mail className="w-6 h-6 text-blue-600" />
-                      <span>Email Us</span>
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-gray-600 mb-4">Send us an email and we'll get back to you within 24 hours.</p>
-                    <a
-                      href="mailto:support@smartcalculator.com"
-                      className="text-blue-600 font-semibold hover:text-blue-700 transition-colors"
-                    >
-                      support@smartcalculator.com
-                    </a>
-                  </CardContent>
-                </Card>
-
-                <Card className="border-0 shadow-lg">
-                  <CardHeader>
-                    <CardTitle className="flex items-center space-x-3">
-                      <Clock className="w-6 h-6 text-green-600" />
-                      <span>Response Time</span>
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-gray-600 mb-2">We typically respond within:</p>
-                    <ul className="space-y-2 text-sm text-gray-600">
-                      <li>• General inquiries: 24 hours</li>
-                      <li>• Technical support: 12 hours</li>
-                      <li>• Bug reports: 6 hours</li>
-                    </ul>
-                  </CardContent>
-                </Card>
-
-                <Card className="border-0 shadow-lg">
-                  <CardHeader>
-                    <CardTitle className="flex items-center space-x-3">
-                      <MapPin className="w-6 h-6 text-red-600" />
-                      <span>Our Mission</span>
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-gray-600">
-                      We're committed to providing the best free online calculators and helping millions of users make
-                      better decisions every day.
-                    </p>
-                  </CardContent>
-                </Card>
+        {/* Hero Section */}
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-purple-50 to-indigo-100">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="flex justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
+                <MessageCircle className="w-8 h-8 text-white" />
               </div>
             </div>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Contact Us – The Smart Calculator</h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              At The Smart Calculator, we value your feedback, questions, and suggestions. Whether you're facing an
+              issue with one of our calculators, have a feature request, or simply want to share your experience, our
+              team is here to listen.
+            </p>
+          </div>
+        </section>
 
-            {/* Contact Form */}
-            <div className="lg:col-span-2">
+        {/* Contact Content */}
+        <section className="py-20 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="space-y-12">
+              {/* How You Can Reach Us */}
               <Card className="border-0 shadow-xl">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg">
-                  <CardTitle className="text-2xl">Send us a Message</CardTitle>
-                  <CardDescription className="text-base">
-                    Fill out the form below and we'll get back to you as soon as possible.
-                  </CardDescription>
+                <CardHeader className="bg-gradient-to-r py-6 from-blue-50 to-purple-50 rounded-t-lg">
+                  <CardTitle className="text-2xl flex items-center space-x-3">
+                    <Mail className="w-8 h-8 text-blue-600" />
+                    <span>How You Can Reach Us</span>
+                  </CardTitle>
                 </CardHeader>
                 <CardContent className="p-8">
-                  {isSubmitted ? (
-                    <div className="text-center py-12">
-                      <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Message Sent!</h3>
-                      <p className="text-gray-600">
-                        Thank you for contacting us. We'll get back to you within 24 hours.
+                  <div className="space-y-6">
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Support</h3>
+                      <p className="text-gray-600 mb-3">
+                        For general inquiries, technical support, or partnership opportunities, reach us at:
                       </p>
-                    </div>
-                  ) : (
-                    <form onSubmit={handleSubmit} className="space-y-6">
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div className="space-y-2">
-                          <Label htmlFor="name" className="text-base font-semibold">
-                            Full Name *
-                          </Label>
-                          <Input
-                            id="name"
-                            type="text"
-                            placeholder="John Doe"
-                            value={formData.name}
-                            onChange={(e) => handleChange("name", e.target.value)}
-                            required
-                            className="h-12 text-base"
-                          />
-                        </div>
-                        <div className="space-y-2">
-                          <Label htmlFor="email" className="text-base font-semibold">
-                            Email Address *
-                          </Label>
-                          <Input
-                            id="email"
-                            type="email"
-                            placeholder="john@example.com"
-                            value={formData.email}
-                            onChange={(e) => handleChange("email", e.target.value)}
-                            required
-                            className="h-12 text-base"
-                          />
-                        </div>
-                      </div>
-
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div className="space-y-2">
-                          <Label htmlFor="category" className="text-base font-semibold">
-                            Category
-                          </Label>
-                          <Select value={formData.category} onValueChange={(value) => handleChange("category", value)}>
-                            <SelectTrigger className="h-12">
-                              <SelectValue placeholder="Select a category" />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value="general">General Inquiry</SelectItem>
-                              <SelectItem value="technical">Technical Support</SelectItem>
-                              <SelectItem value="bug">Bug Report</SelectItem>
-                              <SelectItem value="feature">Feature Request</SelectItem>
-                              <SelectItem value="partnership">Partnership</SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className="space-y-2">
-                          <Label htmlFor="subject" className="text-base font-semibold">
-                            Subject *
-                          </Label>
-                          <Input
-                            id="subject"
-                            type="text"
-                            placeholder="Brief description of your inquiry"
-                            value={formData.subject}
-                            onChange={(e) => handleChange("subject", e.target.value)}
-                            required
-                            className="h-12 text-base"
-                          />
-                        </div>
-                      </div>
-
-                      <div className="space-y-2">
-                        <Label htmlFor="message" className="text-base font-semibold">
-                          Message *
-                        </Label>
-                        <Textarea
-                          id="message"
-                          placeholder="Please provide details about your inquiry..."
-                          value={formData.message}
-                          onChange={(e) => handleChange("message", e.target.value)}
-                          required
-                          rows={6}
-                          className="text-base resize-none"
-                        />
-                      </div>
-
-                      <Button
-                        type="submit"
-                        className="w-full h-12 text-lg bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg"
+                      <a
+                        href="mailto:thesmartcalculators@gmail.com"
+                        className="text-blue-600 font-semibold hover:text-blue-700 transition-colors text-lg"
                       >
-                        <Send className="w-5 h-5 mr-2" />
-                        Send Message
-                      </Button>
-                    </form>
-                  )}
+                        thesmartcalculators@gmail.com
+                      </a>
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">Website Feedback</h3>
+                      <p className="text-gray-600 mb-3">
+                        Found a bug or calculation error? Please let us know via our feedback form so we can fix it
+                        quickly and improve your experience, reach us at:
+                      </p>
+                      <a
+                        href="mailto:thesmartcalculators@gmail.com"
+                        className="text-blue-600 font-semibold hover:text-blue-700 transition-colors text-lg"
+                      >
+                        thesmartcalculators@gmail.com
+                      </a>
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">Business & Collaboration</h3>
+                      <p className="text-gray-600 mb-3">
+                        If you're interested in collaborations, embedding our calculators, or advertising opportunities,
+                        reach us at:
+                      </p>
+                      <a
+                        href="mailto:thesmartcalculators@gmail.com"
+                        className="text-blue-600 font-semibold hover:text-blue-700 transition-colors text-lg"
+                      >
+                        thesmartcalculators@gmail.com
+                      </a>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Response Time */}
+              <Card className="border-0 shadow-xl">
+                <CardHeader className="bg-gradient-to-r py-6 from-green-50 to-blue-50 rounded-t-lg">
+                  <CardTitle className="text-2xl flex items-center space-x-3">
+                    <Clock className="w-8 h-8 text-green-600" />
+                    <span>Response Time</span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="p-8">
+                  <p className="text-gray-600 text-lg leading-relaxed">
+                    We aim to reply to all inquiries within <strong>24–48 business hours</strong>. For urgent issues,
+                    please mark your email as <strong>"High Priority"</strong> in the subject line.
+                  </p>
+                </CardContent>
+              </Card>
+
+              {/* Why Contact Us */}
+              <Card className="border-0 shadow-xl">
+                <CardHeader className="bg-gradient-to-r py-6 from-purple-50 to-pink-50 rounded-t-lg">
+                  <CardTitle className="text-2xl flex items-center space-x-3">
+                    <Users className="w-8 h-8 text-purple-600" />
+                    <span>Why Contact Us?</span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="p-8">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="flex items-start space-x-3">
+                      <Bug className="w-6 h-6 text-red-500 mt-1 flex-shrink-0" />
+                      <span className="text-gray-700">Report bugs or incorrect calculations</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <Lightbulb className="w-6 h-6 text-yellow-500 mt-1 flex-shrink-0" />
+                      <span className="text-gray-700">Suggest new calculator ideas</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <MessageCircle className="w-6 h-6 text-blue-500 mt-1 flex-shrink-0" />
+                      <span className="text-gray-700">Get help with using our tools</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <Handshake className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
+                      <span className="text-gray-700">Discuss business partnerships and collaborations</span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Stay Connected */}
+              <Card className="border-0 shadow-xl">
+                <CardHeader className="bg-gradient-to-r py-6 from-indigo-50 to-purple-50 rounded-t-lg">
+                  <CardTitle className="text-2xl">Stay Connected</CardTitle>
+                </CardHeader>
+                <CardContent className="p-8">
+                  <p className="text-gray-600 text-lg mb-6">
+                    Follow us on social media to stay updated about new calculators and features:
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <a
+                      href="https://www.instagram.com/thesmartcalculators/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-3 p-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-lg hover:shadow-lg transition-all duration-200"
+                    >
+                      <Instagram className="w-6 h-6" />
+                      <span className="font-semibold">Instagram</span>
+                    </a>
+                    <a
+                      href="https://x.com/SmartCalculat0r"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-3 p-4 bg-gradient-to-r from-blue-400 to-blue-600 text-white rounded-lg hover:shadow-lg transition-all duration-200"
+                    >
+                      <Twitter className="w-6 h-6" />
+                      <span className="font-semibold">Twitter/X</span>
+                    </a>
+                    <a
+                      href="https://www.pinterest.com/thesmartcalculators/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-3 p-4 bg-gradient-to-r from-red-500 to-red-600 text-white rounded-lg hover:shadow-lg transition-all duration-200"
+                    >
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0C5.374 0 0 5.374 0 12s5.374 12 12 12 12-5.374 12-12S18.626 0 12 0zm0 19c-.721 0-1.418-.109-2.073-.312.286-.465.713-1.227.713-1.227s.179.179.566.179c1.074 0 1.794-.956 1.794-2.236 0-1.928-1.148-3.759-2.666-3.759-.943 0-1.794.465-1.794 1.227 0 .465.179.956.465 1.227.107.107.179.286.107.465-.107.286-.465.956-.572 1.227-.179.465-.465.465-.572.179-.465-.465-.751-1.227-.751-2.236 0-2.236 1.688-4.294 4.759-4.294 2.594 0 4.294 1.794 4.294 4.115 0 2.773-1.227 4.937-3.044 4.937z" />
+                      </svg>
+                      <span className="font-semibold">Pinterest</span>
+                    </a>
+                    <a
+                      href="https://www.youtube.com/@TheSmartCalculators"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-3 p-4 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-lg hover:shadow-lg transition-all duration-200"
+                    >
+                      <Youtube className="w-6 h-6" />
+                      <span className="font-semibold">YouTube</span>
+                    </a>
+                  </div>
                 </CardContent>
               </Card>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-            <p className="text-lg text-gray-600">Quick answers to common questions</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              {
-                question: "Are all calculators really free?",
-                answer: "Yes! All our calculators are completely free to use with no hidden charges or subscriptions.",
-              },
-              {
-                question: "How accurate are the calculations?",
-                answer:
-                  "Our calculators use industry-standard formulas and are verified by experts to ensure maximum accuracy.",
-              },
-              {
-                question: "Can I use calculators on mobile?",
-                answer: "All our calculators are fully responsive and work perfectly on mobile devices and tablets.",
-              },
-              {
-                question: "Do you store my calculation data?",
-                answer:
-                  "No, we don't store any of your calculation data. All calculations are performed locally in your browser.",
-              },
-            ].map((faq, index) => (
-              <Card key={index} className="border-0 shadow-md">
-                <CardContent className="p-6">
-                  <h3 className="font-bold text-lg text-gray-900 mb-3">{faq.question}</h3>
-                  <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-    </div>
+        </section>
+      </div>
     </>
   )
 }
