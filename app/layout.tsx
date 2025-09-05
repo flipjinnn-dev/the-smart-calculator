@@ -63,8 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Canonical + Basic Meta */}
-        <link rel="canonical" href="https://www.thesmartcalculator.com/" />
+        {/* Basic Meta */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#3b82f6" />
 
