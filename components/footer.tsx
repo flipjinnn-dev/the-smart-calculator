@@ -101,18 +101,18 @@ export const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/about-us"
                       className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                     >
-                      About
+                      About Us
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/contact"
+                      href="/contact-us"
                       className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                     >
-                      Contact
+                      Contact Us
                     </Link>
                   </li>
                   <li>
