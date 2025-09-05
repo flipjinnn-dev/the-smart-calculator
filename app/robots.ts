@@ -13,6 +13,7 @@ export default function robots(): MetadataRoute.Robots {
           "/500",
           "/server-sitemap.xml",
         ],
+        // index/follow ka option nahi hota — Allow: "/" hi enough hai
       },
     ],
     sitemap: "https://www.thesmartcalculator.com/sitemap.xml",
