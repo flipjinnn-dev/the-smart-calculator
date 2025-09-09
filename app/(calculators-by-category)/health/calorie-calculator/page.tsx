@@ -1,7 +1,6 @@
 "use client"
 
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, Heart, Activity } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
