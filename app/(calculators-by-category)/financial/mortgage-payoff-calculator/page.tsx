@@ -338,7 +338,7 @@ export default function MortgagePayoffCalculator() {
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
                   <CardTitle className="flex items-center space-x-3 text-2xl">
                     <Calculator className="w-6 h-6 text-blue-600" />
-                    <span>Mortgage Payoff Calculator</span>
+                    <h2 className="text-gray-900">Mortgage Payoff Calculator</h2>
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-8 space-y-8">
@@ -589,7 +589,7 @@ export default function MortgagePayoffCalculator() {
 
               <Card ref={resultsRef} className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
                 <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Payoff Analysis</CardTitle>
+                  <CardTitle className="text-2xl"><h2>Payoff Analysis</h2></CardTitle>
                   <CardDescription className="text-base">Your mortgage payoff breakdown</CardDescription>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -747,9 +747,9 @@ export default function MortgagePayoffCalculator() {
             <div className="mt-8">
               <Card className="shadow-xl border-0 bg-white/80 backdrop-blur">
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
+                  <CardTitle className="flex items-center text-xl gap-2">
                     <Home className="h-5 w-5 text-blue-600" />
-                    Understanding Mortgage Payoff Strategies
+                    <h2>Understanding Mortgage Payoff Strategies</h2>
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 space-y-6">

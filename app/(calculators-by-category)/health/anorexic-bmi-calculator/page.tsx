@@ -2,74 +2,60 @@
 
 import type React from "react"
 import { useState, useRef } from "react"
-import { Calculator, DollarSign, Home, TrendingDown, AlertTriangle, HelpCircle } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { Button } from "@/components/ui/button"
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Checkbox } from "@/components/ui/checkbox"
-import { Alert, AlertDescription } from "@/components/ui/alert"
-import { Separator } from "@/components/ui/separator"
+import Link from "next/link"
+import { Heart, Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Scale } from "lucide-react"
+import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
-import { useMobileScroll } from "@/hooks/useMobileScroll"
 
-interface MortgageResult {
-  standardPayoffMonths: number
-  standardTotalInterest: number
-  standardTotalPayments: number
-  extraPayoffMonths: number
-  extraTotalInterest: number
-  extraTotalPayments: number
-  interestSavings: number
-  timeSavings: number
-  monthlyPayment: number
-}
-
-export default function MortgagePayoffCalculator() {
-  const [originalAmount, setOriginalAmount] = useState("")
-  const [originalTerm, setOriginalTerm] = useState("")
-  const [interestRate, setInterestRate] = useState("")
-  const [calculationMode, setCalculationMode] = useState("known")
-  const [remainingYears, setRemainingYears] = useState("")
-  const [remainingMonths, setRemainingMonths] = useState("")
-  const [unpaidPrincipal, setUnpaidPrincipal] = useState("")
-  const [monthlyPayment, setMonthlyPayment] = useState("")
-  const [oneTimeExtra, setOneTimeExtra] = useState("")
-  const [monthlyExtra, setMonthlyExtra] = useState("")
-  const [annualExtra, setAnnualExtra] = useState("")
-  const [biweekly, setBiweekly] = useState(false)
-  const [result, setResult] = useState<MortgageResult | null>(null)
+export default function AnorexicBMICalculator() {
+  const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
-  const [errors, setErrors] = useState<Record<string, string>>({})
+  const [errors, setErrors] = useState<{ [key: string]: string }>({})
+
+  // Input states
+  const [unitSystem, setUnitSystem] = useState("us")
+  const [age, setAge] = useState("")
+  const [gender, setGender] = useState("")
+  const [weight, setWeight] = useState("")
+  const [heightFt, setHeightFt] = useState("")
+  const [heightIn, setHeightIn] = useState("")
+  const [heightCm, setHeightCm] = useState("")
 
   const resultsRef = useRef<HTMLDivElement>(null)
   const scrollToRef = useMobileScroll()
 
   const validateInputs = () => {
-    const newErrors: Record<string, string> = {}
+    const newErrors: { [key: string]: string } = {}
 
-    if (!originalAmount || Number.parseFloat(originalAmount) <= 0) {
-      newErrors.originalAmount = "Please enter a valid original loan amount"
-    }
-    if (!originalTerm || Number.parseFloat(originalTerm) <= 0) {
-      newErrors.originalTerm = "Please enter a valid original loan term"
-    }
-    if (!interestRate || Number.parseFloat(interestRate) < 0) {
-      newErrors.interestRate = "Please enter a valid interest rate"
+    if (!age || Number.parseFloat(age) <= 0 || Number.parseFloat(age) > 120) {
+      newErrors.age = "Please enter a valid age (1-120)"
     }
 
-    if (calculationMode === "known") {
-      if (!remainingYears || Number.parseFloat(remainingYears) < 0) {
-        newErrors.remainingYears = "Please enter valid remaining years"
+    if (!gender) {
+      newErrors.gender = "Please select gender"
+    }
+
+    if (!weight || Number.parseFloat(weight) <= 0) {
+      newErrors.weight = "Please enter a valid weight"
+    }
+
+    if (unitSystem === "us") {
+      if (!heightFt || Number.parseFloat(heightFt) <= 0) {
+        newErrors.heightFt = "Please enter valid feet"
+      }
+      if (!heightIn || Number.parseFloat(heightIn) < 0 || Number.parseFloat(heightIn) >= 12) {
+        newErrors.heightIn = "Please enter valid inches (0-11)"
       }
     } else {
-      if (!unpaidPrincipal || Number.parseFloat(unpaidPrincipal) <= 0) {
-        newErrors.unpaidPrincipal = "Please enter a valid unpaid principal"
-      }
-      if (!monthlyPayment || Number.parseFloat(monthlyPayment) <= 0) {
-        newErrors.monthlyPayment = "Please enter a valid monthly payment"
+      if (!heightCm || Number.parseFloat(heightCm) <= 0) {
+        newErrors.heightCm = "Please enter valid height in cm"
       }
     }
 
@@ -77,742 +63,659 @@ export default function MortgagePayoffCalculator() {
     return Object.keys(newErrors).length === 0
   }
 
-  const calculatePayment = (principal: number, monthlyRate: number, months: number): number => {
-    if (monthlyRate === 0) return principal / months
-    return (monthlyRate * principal) / (1 - Math.pow(1 + monthlyRate, -months))
-  }
-
-  const calculateAmortization = (
-    principal: number,
-    monthlyRate: number,
-    payment: number,
-    extraMonthly = 0,
-    extraAnnual = 0,
-    oneTime = 0,
-    isBiweekly = false,
-  ) => {
-    let balance = principal - oneTime
-    let monthCount = 0
-    let totalInterest = 0
-    let totalPayments = oneTime
-
-    while (balance > 0.01 && monthCount < 600) {
-      // Safety limit
-      monthCount++
-      const interest = balance * monthlyRate
-      let principalPaid = payment + extraMonthly - interest
-
-      // Annual extra payment
-      if (extraAnnual > 0 && monthCount % 12 === 0) {
-        principalPaid += extraAnnual
-        totalPayments += extraAnnual
-      }
-
-      // Biweekly adjustment (26 payments = 13 months worth)
-      if (isBiweekly) {
-        principalPaid += payment / 12 // Approximate extra payment
-      }
-
-      // Don't overpay
-      if (principalPaid > balance + interest) {
-        principalPaid = balance + interest
-      }
-
-      balance -= principalPaid - interest
-      totalInterest += interest
-      totalPayments += payment + extraMonthly
-
-      if (balance <= 0.01) break
-    }
-
-    return {
-      months: monthCount,
-      totalInterest,
-      totalPayments,
-    }
-  }
-
-  const calculateMortgagePayoff = () => {
-    scrollToRef(resultsRef as React.RefObject<HTMLElement>)
-
+  const calculateBMI = () => {
     if (!validateInputs()) return
 
-    const principal = Number.parseFloat(originalAmount)
-    const annualRate = Number.parseFloat(interestRate) / 100
-    const monthlyRate = annualRate / 12
-    const originalTermMonths = Number.parseFloat(originalTerm) * 12
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>)
 
-    let remainingBalance: number
-    let standardMonthlyPayment: number
-    let remainingTermMonths: number
+    let weightInKg = Number.parseFloat(weight)
+    let heightInM = 0
 
-    if (calculationMode === "known") {
-      remainingTermMonths = Number.parseFloat(remainingYears) * 12 + (Number.parseFloat(remainingMonths) || 0)
+    // Convert weight to kg if needed
+    if (unitSystem === "us") {
+      weightInKg = weightInKg * 0.45359237 // lb to kg conversion
+    }
 
-      // Calculate remaining balance using amortization
-      const totalPayments = calculatePayment(principal, monthlyRate, originalTermMonths)
-      const paidMonths = originalTermMonths - remainingTermMonths
-
-      let balance = principal
-      for (let i = 0; i < paidMonths; i++) {
-        const interest = balance * monthlyRate
-        const principalPaid = totalPayments - interest
-        balance -= principalPaid
-      }
-
-      remainingBalance = Math.max(0, balance)
-      standardMonthlyPayment = calculatePayment(remainingBalance, monthlyRate, remainingTermMonths)
+    // Convert height to meters
+    if (unitSystem === "us") {
+      const totalInches = Number.parseFloat(heightFt) * 12 + Number.parseFloat(heightIn)
+      heightInM = totalInches * 0.0254 // inches to meters
     } else {
-      remainingBalance = Number.parseFloat(unpaidPrincipal)
-      standardMonthlyPayment = Number.parseFloat(monthlyPayment)
-
-      // Calculate remaining term
-      if (monthlyRate === 0) {
-        remainingTermMonths = remainingBalance / standardMonthlyPayment
-      } else {
-        remainingTermMonths =
-          -Math.log(1 - (monthlyRate * remainingBalance) / standardMonthlyPayment) / Math.log(1 + monthlyRate)
-      }
+      heightInM = Number.parseFloat(heightCm) / 100 // cm to meters
     }
 
-    // Calculate standard payoff
-    const standard = calculateAmortization(remainingBalance, monthlyRate, standardMonthlyPayment)
+    // Calculate BMI using standard formula
+    const bmi = weightInKg / (heightInM * heightInM)
 
-    // Calculate with extra payments
-    const extraMonthlyAmount = Number.parseFloat(monthlyExtra) || 0
-    const extraAnnualAmount = Number.parseFloat(annualExtra) || 0
-    const oneTimeAmount = Number.parseFloat(oneTimeExtra) || 0
+    // Determine severity classification
+    let severity = ""
+    let severityLevel = ""
+    let warningLevel = ""
+    let message = ""
 
-    const withExtra = calculateAmortization(
-      remainingBalance,
-      monthlyRate,
-      standardMonthlyPayment,
-      extraMonthlyAmount,
-      extraAnnualAmount,
-      oneTimeAmount,
-      biweekly,
-    )
-
-    const mortgageResult: MortgageResult = {
-      standardPayoffMonths: standard.months,
-      standardTotalInterest: standard.totalInterest,
-      standardTotalPayments: standard.totalPayments,
-      extraPayoffMonths: withExtra.months,
-      extraTotalInterest: withExtra.totalInterest,
-      extraTotalPayments: withExtra.totalPayments,
-      interestSavings: standard.totalInterest - withExtra.totalInterest,
-      timeSavings: standard.months - withExtra.months,
-      monthlyPayment: standardMonthlyPayment,
+    if (bmi >= 18.5) {
+      severity = "Normal"
+      severityLevel = "normal"
+      warningLevel = "safe"
+      message = "Does not suggest anorexia nervosa."
+    } else if (bmi >= 17.5) {
+      severity = "Mild Anorexia"
+      severityLevel = "mild"
+      warningLevel = "warning"
+      message = `Your BMI suggests possible anorexia (Severity: ${severity}). Note: BMI alone is not a diagnosis.`
+    } else if (bmi >= 17.0) {
+      severity = "Mild Anorexia"
+      severityLevel = "mild"
+      warningLevel = "warning"
+      message = `Your BMI suggests possible anorexia (Severity: ${severity}). Note: BMI alone is not a diagnosis.`
+    } else if (bmi >= 16.0) {
+      severity = "Moderate Anorexia"
+      severityLevel = "moderate"
+      warningLevel = "danger"
+      message = `Your BMI suggests possible anorexia (Severity: ${severity}). Note: BMI alone is not a diagnosis.`
+    } else if (bmi >= 15.0) {
+      severity = "Severe Anorexia"
+      severityLevel = "severe"
+      warningLevel = "danger"
+      message = `Your BMI suggests possible anorexia (Severity: ${severity}). Note: BMI alone is not a diagnosis.`
+    } else {
+      severity = "Extreme Anorexia"
+      severityLevel = "extreme"
+      warningLevel = "critical"
+      message = `Your BMI suggests possible anorexia (Severity: ${severity}). Note: BMI alone is not a diagnosis.`
     }
 
-    setResult(mortgageResult)
+    // Critical warnings
+    let criticalWarning = ""
+    if (bmi < 12) {
+      criticalWarning = "Life-threatening condition — seek immediate medical care."
+    } else if (bmi < 13.5) {
+      criticalWarning = "Danger: Risk of organ failure."
+    }
+
+    // Age warning for children/adolescents
+    const ageWarning =
+      Number.parseFloat(age) <= 20
+        ? "For children and adolescents (≤20 years), use CDC growth charts for proper BMI interpretation."
+        : ""
+
+    setResult({
+      bmi: bmi,
+      severity,
+      severityLevel,
+      warningLevel,
+      message,
+      criticalWarning,
+      ageWarning,
+      weightInKg,
+      heightInM,
+      age: Number.parseFloat(age),
+    })
     setShowResult(true)
   }
 
   const resetCalculator = () => {
-    setOriginalAmount("")
-    setOriginalTerm("")
-    setInterestRate("")
-    setCalculationMode("known")
-    setRemainingYears("")
-    setRemainingMonths("")
-    setUnpaidPrincipal("")
-    setMonthlyPayment("")
-    setOneTimeExtra("")
-    setMonthlyExtra("")
-    setAnnualExtra("")
-    setBiweekly(false)
+    setUnitSystem("us")
+    setAge("")
+    setGender("")
+    setWeight("")
+    setHeightFt("")
+    setHeightIn("")
+    setHeightCm("")
     setResult(null)
     setShowResult(false)
     setErrors({})
   }
 
-  const formatCurrency = (amount: number) => {
-    return new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    }).format(amount)
-  }
-
-  const formatTime = (months: number) => {
-    const years = Math.floor(months / 12)
-    const remainingMonths = Math.round(months % 12)
-
-    if (years === 0) return `${remainingMonths} month${remainingMonths !== 1 ? "s" : ""}`
-    if (remainingMonths === 0) return `${years} year${years !== 1 ? "s" : ""}`
-    return `${years} year${years !== 1 ? "s" : ""} ${remainingMonths} month${remainingMonths !== 1 ? "s" : ""}`
-  }
-
-  const handleBiweeklyChange = (checked: boolean | "indeterminate") => {
-    setBiweekly(checked === true)
-  }
-
   return (
     <>
-      <SEO
-        title="Mortgage Payoff Calculator – Extra Payment Savings Tool"
-        description="Calculate how extra mortgage payments can save thousands in interest and years off your loan. Free mortgage payoff calculator with detailed analysis."
-        keywords="mortgage payoff calculator, extra payment calculator, mortgage savings, early payoff, interest savings"
-        slug="/financial/mortgage-payoff-calculator"
-      />
+      <SEO 
+      title={"Anorexic BMI Calculator"} 
+      description={"Calculate BMI and assess anorexia nervosa severity using medical thresholds."} 
+      slug={"/health/anorexic-bmi-calculator"}
+      keywords="BMI, anorexia nervosa, medical thresholds" />
 
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
-        <header className="bg-white/90 backdrop-blur-md shadow-lg border-b border-blue-100">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-4">
+      <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-50">
+        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-between items-center h-20">
+              <div className="flex items-center space-x-3">
                 <Logo />
                 <div>
-                  <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                  <Link
+                    href="/"
+                    className="text-2xl font-bold bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent"
+                  >
                     Smart Calculator
-                  </h1>
-                  <p className="text-sm text-gray-600">Professional Financial Tools</p>
+                  </Link>
+                  <p className="text-sm text-gray-500">Anorexic BMI Calculator</p>
                 </div>
               </div>
             </div>
           </div>
         </header>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center space-x-2 text-sm">
-            <span className="text-gray-500 hover:text-blue-600 transition-colors cursor-pointer">Home</span>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-500 hover:text-blue-600 transition-colors cursor-pointer">Financial</span>
-            <span className="text-gray-400">/</span>
-            <span className="text-blue-600 font-semibold">Mortgage Payoff Calculator</span>
+        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex items-center space-x-2 py-4 text-sm">
+              <Link href="/" className="text-gray-500 hover:text-red-600">
+                Home
+              </Link>
+              <span className="text-gray-400">/</span>
+              <Link href="/health" className="text-gray-500 hover:text-red-600">
+                Health
+              </Link>
+              <span className="text-gray-400">/</span>
+              <span className="text-gray-900 font-medium">Anorexic BMI Calculator</span>
+            </div>
           </div>
-        </div>
+        </nav>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center mb-12">
-            <div className="flex justify-center mb-6">
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-600 rounded-full blur-lg opacity-30 animate-pulse"></div>
-                <div className="relative p-4 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full shadow-2xl">
-                  <Home className="h-10 w-10 text-white" />
+        {/* Main Content */}
+        <main className="py-8 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-8">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-orange-700 rounded-2xl flex items-center justify-center shadow-lg">
+                  <Scale className="w-8 h-8 text-white" />
                 </div>
               </div>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Anorexic BMI Calculator</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Calculate BMI and assess anorexia nervosa severity using medical classification thresholds. Educational
+                tool for understanding BMI ranges and health implications.
+              </p>
             </div>
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-indigo-800 bg-clip-text text-transparent mb-6 leading-tight">
-              Mortgage Payoff Calculator
-            </h1>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Discover how extra payments can save you thousands in interest and help you become mortgage-free years
-              earlier
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="lg:col-span-2">
-              <Card className="shadow-2xl border-0 bg-white/95 backdrop-blur-sm overflow-hidden">
-                <CardHeader className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white">
-                  <CardTitle className="flex items-center gap-3 text-xl">
-                    <Calculator className="h-6 w-6" />
-                    Mortgage Payoff Calculator
-                  </CardTitle>
-                  <CardDescription className="text-blue-100 text-base">
-                    Enter your mortgage details to calculate payoff scenarios and potential savings
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="p-8 space-y-8">
-                  <div className="space-y-4">
-                    <h3 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
-                      <DollarSign className="h-5 w-5 text-blue-600" />
-                      Basic Loan Information
-                    </h3>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* Calculator Form (left) */}
+              <div className="lg:col-span-2">
+                <Card className="shadow-2xl border-0 bg-white p-0">
+                  <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
+                    <CardTitle className="flex items-center space-x-3 text-2xl">
+                      <Activity className="w-6 h-6 text-red-600" />
+                      <h2 className="text-gray-900">Anorexic BMI Calculation</h2>
+                    </CardTitle>
+                    <CardDescription className="text-base">
+                      Enter your measurements to calculate BMI and assess anorexia severity
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="p-8">
+                    {/* Unit System Toggle */}
+                    <div className="mb-6">
+                      <Label className="text-sm font-medium text-gray-700 mb-3 block">Unit System</Label>
+                      <RadioGroup value={unitSystem} onValueChange={setUnitSystem} className="flex space-x-6">
+                        <div className="flex items-center space-x-2">
+                          <RadioGroupItem value="us" id="us" />
+                          <Label htmlFor="us">US Units (ft/in, lb)</Label>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <RadioGroupItem value="metric" id="metric" />
+                          <Label htmlFor="metric">Metric Units (cm, kg)</Label>
+                        </div>
+                      </RadioGroup>
+                    </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <div className="space-y-2">
-                        <Label htmlFor="originalAmount" className="flex items-center gap-2">
-                          Original Loan Amount ($)
-                          <div className="group relative">
-                            <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+                      {/* Age */}
+                      <div>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">
+                          Age (years)
+                          <div className="group relative ml-2">
+                            <HelpCircle className="h-4 w-4 text-gray-400 cursor-help group-hover:text-gray-600" />
                             <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none">
-                              The original amount you borrowed
+                              Age affects BMI interpretation for children/adolescents
                             </div>
                           </div>
                         </Label>
                         <Input
-                          id="originalAmount"
+                          className={`h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${
+                            errors.age ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                          }`}
                           type="number"
-                          placeholder="300000"
-                          value={originalAmount}
-                          onChange={(e) => setOriginalAmount(e.target.value)}
-                          className={errors.originalAmount ? "border-red-500" : ""}
+                          step="1"
+                          min="1"
+                          max="120"
+                          placeholder="Enter age"
+                          value={age}
+                          onChange={(e) => {
+                            setAge(e.target.value)
+                            if (errors.age) setErrors((prev) => ({ ...prev, age: "" }))
+                          }}
                         />
-                        {errors.originalAmount && (
-                          <p className="text-red-500 text-sm flex items-center gap-1">
-                            <AlertTriangle className="h-4 w-4" />
-                            {errors.originalAmount}
-                          </p>
+                        {errors.age && (
+                          <div className="flex items-center mt-2 text-red-600">
+                            <AlertTriangle className="w-4 h-4 mr-1" />
+                            <span className="text-sm">{errors.age}</span>
+                          </div>
                         )}
                       </div>
 
-                      <div className="space-y-2">
-                        <Label htmlFor="originalTerm" className="flex items-center gap-2">
-                          Original Term (Years)
-                          <div className="group relative">
-                            <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
-                            <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none">
-                              Original loan term in years
-                            </div>
+                      {/* Gender */}
+                      <div>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block">Gender</Label>
+                        <Select value={gender} onValueChange={setGender}>
+                          <SelectTrigger
+                            className={`h-12 rounded-xl border-gray-200 focus:border-red-400 ${
+                              errors.gender ? "border-red-300 focus:border-red-400" : ""
+                            }`}
+                          >
+                            <SelectValue placeholder="Select gender" />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="male">Male</SelectItem>
+                            <SelectItem value="female">Female</SelectItem>
+                          </SelectContent>
+                        </Select>
+                        {errors.gender && (
+                          <div className="flex items-center mt-2 text-red-600">
+                            <AlertTriangle className="w-4 h-4 mr-1" />
+                            <span className="text-sm">{errors.gender}</span>
                           </div>
-                        </Label>
-                        <Input
-                          id="originalTerm"
-                          type="number"
-                          placeholder="30"
-                          value={originalTerm}
-                          onChange={(e) => setOriginalTerm(e.target.value)}
-                          className={errors.originalTerm ? "border-red-500" : ""}
-                        />
-                        {errors.originalTerm && (
-                          <p className="text-red-500 text-sm flex items-center gap-1">
-                            <AlertTriangle className="h-4 w-4" />
-                            {errors.originalTerm}
-                          </p>
                         )}
                       </div>
 
-                      <div className="space-y-2">
-                        <Label htmlFor="interestRate" className="flex items-center gap-2">
-                          Annual Interest Rate (%)
-                          <div className="group relative">
-                            <HelpCircle className="h-4 w-4 text-gray-400 cursor-help" />
+                      {/* Height */}
+                      <div>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">
+                          Height {unitSystem === "us" ? "(ft + in)" : "(cm)"}
+                          <div className="group relative ml-2">
+                            <HelpCircle className="h-4 w-4 text-gray-400 cursor-help group-hover:text-gray-600" />
                             <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none">
-                              Your mortgage interest rate
+                              Your current height measurement
+                            </div>
+                          </div>
+                        </Label>
+                        {unitSystem === "us" ? (
+                          <div className="flex space-x-2">
+                            <Input
+                              className={`flex-1 h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${
+                                errors.heightFt ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                              }`}
+                              type="number"
+                              step="1"
+                              min="0"
+                              placeholder="Feet"
+                              value={heightFt}
+                              onChange={(e) => {
+                                setHeightFt(e.target.value)
+                                if (errors.heightFt) setErrors((prev) => ({ ...prev, heightFt: "" }))
+                              }}
+                            />
+                            <Input
+                              className={`flex-1 h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${
+                                errors.heightIn ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                              }`}
+                              type="number"
+                              step="1"
+                              min="0"
+                              max="11"
+                              placeholder="Inches"
+                              value={heightIn}
+                              onChange={(e) => {
+                                setHeightIn(e.target.value)
+                                if (errors.heightIn) setErrors((prev) => ({ ...prev, heightIn: "" }))
+                              }}
+                            />
+                          </div>
+                        ) : (
+                          <Input
+                            className={`h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${
+                              errors.heightCm ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                            }`}
+                            type="number"
+                            step="0.1"
+                            min="0"
+                            placeholder="Enter height in cm"
+                            value={heightCm}
+                            onChange={(e) => {
+                              setHeightCm(e.target.value)
+                              if (errors.heightCm) setErrors((prev) => ({ ...prev, heightCm: "" }))
+                            }}
+                          />
+                        )}
+                        {(errors.heightFt || errors.heightIn || errors.heightCm) && (
+                          <div className="flex items-center mt-2 text-red-600">
+                            <AlertTriangle className="w-4 h-4 mr-1" />
+                            <span className="text-sm">{errors.heightFt || errors.heightIn || errors.heightCm}</span>
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Weight */}
+                      <div>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">
+                          Weight {unitSystem === "us" ? "(lb)" : "(kg)"}
+                          <div className="group relative ml-2">
+                            <HelpCircle className="h-4 w-4 text-gray-400 cursor-help group-hover:text-gray-600" />
+                            <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none">
+                              Your current body weight
                             </div>
                           </div>
                         </Label>
                         <Input
-                          id="interestRate"
+                          className={`h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${
+                            errors.weight ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                          }`}
                           type="number"
-                          step="0.01"
-                          placeholder="6.5"
-                          value={interestRate}
-                          onChange={(e) => setInterestRate(e.target.value)}
-                          className={errors.interestRate ? "border-red-500" : ""}
+                          step="0.1"
+                          min="0"
+                          placeholder={`Enter weight in ${unitSystem === "us" ? "pounds" : "kilograms"}`}
+                          value={weight}
+                          onChange={(e) => {
+                            setWeight(e.target.value)
+                            if (errors.weight) setErrors((prev) => ({ ...prev, weight: "" }))
+                          }}
                         />
-                        {errors.interestRate && (
-                          <p className="text-red-500 text-sm flex items-center gap-1">
-                            <AlertTriangle className="h-4 w-4" />
-                            {errors.interestRate}
-                          </p>
+                        {errors.weight && (
+                          <div className="flex items-center mt-2 text-red-600">
+                            <AlertTriangle className="w-4 h-4 mr-1" />
+                            <span className="text-sm">{errors.weight}</span>
+                          </div>
                         )}
                       </div>
                     </div>
-                  </div>
 
-                  <Separator />
+                    <div className="mb-6 p-4 bg-red-50 rounded-lg border border-red-200">
+                      <p className="text-sm text-gray-700">
+                        <strong>BMI Formula:</strong>{" "}
+                        {unitSystem === "us"
+                          ? "BMI = (weight in lb / (height in inches)²) × 703"
+                          : "BMI = weight in kg / (height in meters)²"}
+                      </p>
+                      <p className="text-xs text-gray-600 mt-1">Healthy BMI Range: 18.5 – 25 kg/m²</p>
+                    </div>
 
-                  <div className="space-y-4">
-                    <h3 className="text-lg font-semibold text-gray-900">Calculation Method</h3>
-                    <RadioGroup value={calculationMode} onValueChange={setCalculationMode}>
-                      <div className="flex items-center space-x-2">
-                        <RadioGroupItem value="known" id="known" />
-                        <Label htmlFor="known">I know the remaining term</Label>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <RadioGroupItem value="unknown" id="unknown" />
-                        <Label htmlFor="unknown">I know the unpaid balance and monthly payment</Label>
-                      </div>
-                    </RadioGroup>
+                    <div className="flex space-x-4">
+                      <Button
+                        onClick={calculateBMI}
+                        className="flex-1 h-12 text-lg bg-gradient-to-r from-red-600 to-orange-700 hover:from-red-700 hover:to-orange-800"
+                      >
+                        Calculate BMI
+                      </Button>
+                      <Button
+                        onClick={resetCalculator}
+                        variant="outline"
+                        className="h-12 px-6 border-red-300 text-red-700 hover:bg-red-50 bg-transparent"
+                      >
+                        <RotateCcw className="w-4 h-4 mr-2" />
+                        Reset
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
 
-                    {calculationMode === "known" ? (
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div className="space-y-2">
-                          <Label htmlFor="remainingYears">Remaining Years</Label>
-                          <Input
-                            id="remainingYears"
-                            type="number"
-                            placeholder="25"
-                            value={remainingYears}
-                            onChange={(e) => setRemainingYears(e.target.value)}
-                            className={errors.remainingYears ? "border-red-500" : ""}
-                          />
-                          {errors.remainingYears && (
-                            <p className="text-red-500 text-sm flex items-center gap-1">
-                              <AlertTriangle className="h-4 w-4" />
-                              {errors.remainingYears}
-                            </p>
-                          )}
-                        </div>
-                        <div className="space-y-2">
-                          <Label htmlFor="remainingMonths">Remaining Months (Optional)</Label>
-                          <Input
-                            id="remainingMonths"
-                            type="number"
-                            placeholder="6"
-                            value={remainingMonths}
-                            onChange={(e) => setRemainingMonths(e.target.value)}
-                          />
+              {/* Result Card (right side) */}
+              <div className="hidden lg:block">
+                <Card className="shadow-2xl border-0 bg-gradient-to-br from-red-50 to-orange-100 h-full">
+                  <CardHeader className="w-full text-center mb-2">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-red-600 to-orange-700 flex items-center justify-center mx-auto mb-3 shadow-lg">
+                      <Scale className="w-6 h-6 text-white" />
+                    </div>
+                    <CardTitle className="text-2xl font-bold text-red-700 tracking-tight">BMI Results</CardTitle>
+                  </CardHeader>
+                  <CardContent className="w-full text-center">
+                    {showResult && result ? (
+                      <div className="space-y-4">
+                        <div className="grid grid-cols-1 gap-3 text-sm">
+                          <div
+                            className={`bg-white p-4 rounded-lg border-2 ${
+                              result.warningLevel === "critical"
+                                ? "border-red-500"
+                                : result.warningLevel === "danger"
+                                  ? "border-red-400"
+                                  : result.warningLevel === "warning"
+                                    ? "border-orange-300"
+                                    : "border-green-300"
+                            }`}
+                          >
+                            <p className="text-3xl font-bold text-red-900">{result.bmi.toFixed(2)}</p>
+                            <p className="text-gray-600">BMI kg/m²</p>
+                          </div>
+                          <div className="bg-white p-3 rounded-lg border border-red-200">
+                            <p className="text-lg font-bold text-red-900">{result.severity}</p>
+                            <p className="text-gray-600">Classification</p>
+                          </div>
+                          <div className="bg-white p-3 rounded-lg border border-red-200">
+                            <p className="text-sm font-bold text-green-700">18.5 - 25</p>
+                            <p className="text-gray-600">Healthy Range</p>
+                          </div>
                         </div>
                       </div>
                     ) : (
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div className="space-y-2">
-                          <Label htmlFor="unpaidPrincipal">Unpaid Principal ($)</Label>
-                          <Input
-                            id="unpaidPrincipal"
-                            type="number"
-                            placeholder="250000"
-                            value={unpaidPrincipal}
-                            onChange={(e) => setUnpaidPrincipal(e.target.value)}
-                            className={errors.unpaidPrincipal ? "border-red-500" : ""}
-                          />
-                          {errors.unpaidPrincipal && (
-                            <p className="text-red-500 text-sm flex items-center gap-1">
-                              <AlertTriangle className="h-4 w-4" />
-                              {errors.unpaidPrincipal}
-                            </p>
-                          )}
-                        </div>
-                        <div className="space-y-2">
-                          <Label htmlFor="monthlyPayment">Monthly Payment ($)</Label>
-                          <Input
-                            id="monthlyPayment"
-                            type="number"
-                            placeholder="1500"
-                            value={monthlyPayment}
-                            onChange={(e) => setMonthlyPayment(e.target.value)}
-                            className={errors.monthlyPayment ? "border-red-500" : ""}
-                          />
-                          {errors.monthlyPayment && (
-                            <p className="text-red-500 text-sm flex items-center gap-1">
-                              <AlertTriangle className="h-4 w-4" />
-                              {errors.monthlyPayment}
-                            </p>
-                          )}
-                        </div>
+                      <div className="text-center">
+                        <Scale className="w-8 h-8 text-red-300 mb-2 mx-auto" />
+                        <p className="text-gray-500 text-base">
+                          Enter your measurements, then click{" "}
+                          <span className="font-semibold text-red-600">Calculate</span> to see BMI.
+                        </p>
                       </div>
                     )}
-                  </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
 
-                  <Separator />
-
-                  <div className="space-y-4">
-                    <h3 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
-                      <TrendingDown className="h-5 w-5 text-green-600" />
-                      Extra Payment Options
-                    </h3>
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <div className="space-y-2">
-                        <Label htmlFor="oneTimeExtra">One-time Extra Payment ($)</Label>
-                        <Input
-                          id="oneTimeExtra"
-                          type="number"
-                          placeholder="5000"
-                          value={oneTimeExtra}
-                          onChange={(e) => setOneTimeExtra(e.target.value)}
-                        />
+            {/* Detailed Results Section */}
+            {showResult && result && (
+              <div className="mt-8" ref={resultsRef}>
+                <Card className="shadow-2xl border-0 bg-white">
+                  <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
+                    <CardTitle className="flex items-center space-x-3 text-2xl">
+                      <Calculator className="w-6 h-6 text-red-600" />
+                      <span>BMI Analysis & Anorexia Assessment</span>
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="p-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                      <div
+                        className={`text-center p-6 rounded-xl border-2 ${
+                          result.warningLevel === "critical"
+                            ? "bg-gradient-to-br from-red-100 to-red-200 border-red-500"
+                            : result.warningLevel === "danger"
+                              ? "bg-gradient-to-br from-red-50 to-red-100 border-red-400"
+                              : result.warningLevel === "warning"
+                                ? "bg-gradient-to-br from-orange-50 to-orange-100 border-orange-300"
+                                : "bg-gradient-to-br from-green-50 to-green-100 border-green-300"
+                        }`}
+                      >
+                        <div
+                          className={`w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3 ${
+                            result.warningLevel === "critical"
+                              ? "bg-gradient-to-r from-red-700 to-red-800"
+                              : result.warningLevel === "danger"
+                                ? "bg-gradient-to-r from-red-600 to-red-700"
+                                : result.warningLevel === "warning"
+                                  ? "bg-gradient-to-r from-orange-600 to-orange-700"
+                                  : "bg-gradient-to-r from-green-600 to-green-700"
+                          }`}
+                        >
+                          <Scale className="w-6 h-6 text-white" />
+                        </div>
+                        <h3
+                          className={`text-lg font-semibold mb-2 ${
+                            result.warningLevel === "critical"
+                              ? "text-red-800"
+                              : result.warningLevel === "danger"
+                                ? "text-red-700"
+                                : result.warningLevel === "warning"
+                                  ? "text-orange-700"
+                                  : "text-green-700"
+                          }`}
+                        >
+                          BMI Value
+                        </h3>
+                        <p
+                          className={`text-3xl font-bold mb-1 ${
+                            result.warningLevel === "critical"
+                              ? "text-red-900"
+                              : result.warningLevel === "danger"
+                                ? "text-red-900"
+                                : result.warningLevel === "warning"
+                                  ? "text-orange-900"
+                                  : "text-green-900"
+                          }`}
+                        >
+                          {result.bmi.toFixed(2)}
+                        </p>
+                        <p
+                          className={`text-sm ${
+                            result.warningLevel === "critical"
+                              ? "text-red-700"
+                              : result.warningLevel === "danger"
+                                ? "text-red-600"
+                                : result.warningLevel === "warning"
+                                  ? "text-orange-600"
+                                  : "text-green-600"
+                          }`}
+                        >
+                          kg/m²
+                        </p>
                       </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="monthlyExtra">Monthly Extra Payment ($)</Label>
-                        <Input
-                          id="monthlyExtra"
-                          type="number"
-                          placeholder="200"
-                          value={monthlyExtra}
-                          onChange={(e) => setMonthlyExtra(e.target.value)}
-                        />
+                      <div className="text-center p-6 bg-gradient-to-br from-red-50 to-orange-50 rounded-xl border border-red-200">
+                        <div className="w-12 h-12 bg-gradient-to-r from-red-600 to-orange-700 rounded-full flex items-center justify-center mx-auto mb-3">
+                          <Heart className="w-6 h-6 text-white" />
+                        </div>
+                        <h3 className="text-lg font-semibold text-red-700 mb-2">Classification</h3>
+                        <p className="text-2xl font-bold text-red-900 mb-1">{result.severity}</p>
+                        <p className="text-sm text-red-600">{result.severityLevel}</p>
                       </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="annualExtra">Annual Extra Payment ($)</Label>
-                        <Input
-                          id="annualExtra"
-                          type="number"
-                          placeholder="2000"
-                          value={annualExtra}
-                          onChange={(e) => setAnnualExtra(e.target.value)}
-                        />
+                      <div className="text-center p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-xl border border-green-200">
+                        <div className="w-12 h-12 bg-gradient-to-r from-green-600 to-green-700 rounded-full flex items-center justify-center mx-auto mb-3">
+                          <Activity className="w-6 h-6 text-white" />
+                        </div>
+                        <h3 className="text-lg font-semibold text-green-700 mb-2">Healthy BMI Range</h3>
+                        <p className="text-2xl font-bold text-green-900 mb-1">18.5 - 25</p>
+                        <p className="text-sm text-green-600">kg/m²</p>
                       </div>
                     </div>
 
-                    <div className="flex items-center space-x-3">
-                      <Checkbox
-                        id="biweekly"
-                        checked={biweekly}
-                        onCheckedChange={handleBiweeklyChange}
-                        className="data-[state=checked]:bg-blue-600 data-[state=checked]:border-blue-600"
-                      />
-                      <Label htmlFor="biweekly" className="flex items-center gap-2 text-sm font-medium">
-                        Switch to biweekly payments
-                        <div className="group relative">
-                          <HelpCircle className="h-4 w-4 text-gray-400 cursor-help hover:text-blue-500 transition-colors" />
-                          <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none shadow-lg">
-                            Pay half your monthly payment every 2 weeks (26 payments/year)
+                    <div className="mt-6 p-4 bg-gradient-to-r from-red-50 to-orange-50 rounded-lg border border-red-200">
+                      <h4 className="font-semibold text-red-700 mb-2">Assessment Result:</h4>
+                      <p className="text-gray-700 mb-2">{result.message}</p>
+
+                      {result.criticalWarning && (
+                        <div className="mt-3 p-3 bg-red-100 rounded-lg border border-red-300">
+                          <div className="flex items-start space-x-2">
+                            <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
+                            <p className="text-red-800 font-semibold">{result.criticalWarning}</p>
                           </div>
                         </div>
-                      </Label>
+                      )}
+
+                      {result.ageWarning && (
+                        <div className="mt-3 p-3 bg-blue-50 rounded-lg border border-blue-200">
+                          <div className="flex items-start space-x-2">
+                            <AlertTriangle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                            <p className="text-blue-800">{result.ageWarning}</p>
+                          </div>
+                        </div>
+                      )}
                     </div>
-                  </div>
 
-                  <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                    <Button
-                      onClick={calculateMortgagePayoff}
-                      className="flex-1 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-                    >
-                      <Calculator className="mr-2 h-5 w-5" />
-                      Calculate Payoff Savings
-                    </Button>
-                    <Button
-                      onClick={resetCalculator}
-                      variant="outline"
-                      className="flex-1 border-2 border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400 font-semibold py-4 px-8 rounded-xl transition-all duration-300 bg-white"
-                    >
-                      Reset Calculator
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                    <div className="mt-6 p-4 bg-red-50 rounded-lg border border-red-200">
+                      <div className="flex items-start space-x-2">
+                        <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
+                        <div>
+                          <h4 className="font-semibold text-red-700 mb-1">Important Disclaimer</h4>
+                          <p className="text-sm text-red-600">
+                            This calculator is for informational purposes only. BMI is one indicator and not a
+                            diagnosis. Consult a healthcare professional for proper assessment and treatment of eating
+                            disorders.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            )}
 
-            <div className="hidden lg:block">
-              <Card className="shadow-2xl border-0 bg-white/95 backdrop-blur-sm sticky top-8 overflow-hidden">
-                <CardHeader className="bg-gradient-to-r from-green-500 to-emerald-600 text-white">
-                  <CardTitle className="flex items-center gap-2 text-lg">
-                    <TrendingDown className="h-5 w-5" />
-                    Savings Preview
+            {/* Educational Content */}
+            <div className="mt-12">
+              <Card className="shadow-2xl border-0 bg-gradient-to-br from-red-50 to-orange-100 p-8">
+                <CardHeader className="w-full flex flex-row items-center justify-start mb-4">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-r from-red-600 to-orange-700 flex items-center justify-center mr-3 shadow-lg">
+                    <Scale className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-2xl font-bold text-red-700 tracking-tight">
+                    <h2>Understanding BMI & Anorexia Classification</h2>
                   </CardTitle>
                 </CardHeader>
-                <CardContent className="p-6">
-                  {showResult && result ? (
-                    <div className="space-y-6">
-                      <div className="text-center">
-                        <div className="text-4xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-2">
-                          {formatCurrency(result.interestSavings)}
-                        </div>
-                        <div className="text-sm text-gray-600 mb-6 font-medium">Total Interest Savings</div>
-
-                        <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">
-                          {formatTime(result.timeSavings)}
-                        </div>
-                        <div className="text-sm text-gray-600 font-medium">Time Saved</div>
+                <CardContent className="w-full">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                      <h3 className="text-lg font-semibold text-red-700 mb-3">BMI Classifications</h3>
+                      <div className="bg-white p-4 rounded-lg border border-red-200 mb-4">
+                        <ul className="space-y-2 text-gray-700">
+                          <li>
+                            <strong>Normal:</strong> BMI ≥ 18.5 - Does not suggest anorexia
+                          </li>
+                          <li>
+                            <strong>Mild Anorexia:</strong> BMI 17.0 - 17.49
+                          </li>
+                          <li>
+                            <strong>Moderate Anorexia:</strong> BMI 16.0 - 16.99
+                          </li>
+                          <li>
+                            <strong>Severe Anorexia:</strong> BMI 15.0 - 15.99
+                          </li>
+                          <li>
+                            <strong>Extreme Anorexia:</strong> BMI &lt; 15.0
+                          </li>
+                        </ul>
                       </div>
-
-                      <div className="space-y-3 text-sm bg-gray-50 rounded-lg p-4">
-                        <div className="flex justify-between items-center">
-                          <span className="text-gray-600">New Payoff Time:</span>
-                          <span className="font-semibold text-green-700">{formatTime(result.extraPayoffMonths)}</span>
-                        </div>
-                        <div className="flex justify-between items-center">
-                          <span className="text-gray-600">Original Payoff:</span>
-                          <span className="text-gray-800">{formatTime(result.standardPayoffMonths)}</span>
-                        </div>
+                      <h3 className="text-lg font-semibold text-red-700 mb-3">Critical Warnings</h3>
+                      <div className="bg-white p-4 rounded-lg border border-red-200">
+                        <ul className="space-y-2 text-gray-700">
+                          <li>
+                            <strong>BMI &lt; 13.5:</strong> Risk of organ failure
+                          </li>
+                          <li>
+                            <strong>BMI &lt; 12:</strong> Life-threatening condition
+                          </li>
+                        </ul>
                       </div>
                     </div>
-                  ) : (
-                    <div className="text-center text-gray-500 py-12">
-                      <div className="relative mb-6">
-                        <div className="absolute inset-0 bg-blue-100 rounded-full blur-xl opacity-50"></div>
-                        <Calculator className="relative h-16 w-16 mx-auto text-blue-400" />
+                    <div>
+                      <h3 className="text-lg font-semibold text-red-700 mb-3">Important Notes</h3>
+                      <div className="bg-white p-4 rounded-lg border border-red-200 mb-4">
+                        <ul className="list-disc list-inside text-gray-700 space-y-2">
+                          <li>BMI alone is not sufficient for diagnosing anorexia nervosa</li>
+                          <li>Clinical assessment requires psychological evaluation</li>
+                          <li>Age, muscle mass, and bone density affect BMI interpretation</li>
+                          <li>For children ≤20 years, use CDC growth charts</li>
+                        </ul>
                       </div>
-                      <p className="text-lg font-medium">Enter your mortgage details</p>
-                      <p className="text-sm text-gray-400 mt-1">to see potential savings</p>
+                      <h3 className="text-lg font-semibold text-red-700 mb-3">Healthy BMI Range</h3>
+                      <div className="bg-white p-4 rounded-lg border border-red-200">
+                        <p className="text-gray-700 mb-2">
+                          <strong>18.5 – 25 kg/m²</strong> is considered the healthy BMI range for adults.
+                        </p>
+                        <p className="text-gray-700">
+                          This range is associated with the lowest risk of health problems and mortality.
+                        </p>
+                      </div>
                     </div>
-                  )}
+                  </div>
+                  <div className="mt-6 p-4 bg-red-100 rounded-lg border border-red-300">
+                    <div className="flex items-start space-x-2">
+                      <AlertTriangle className="w-5 h-5 text-red-700 mt-0.5 flex-shrink-0" />
+                      <div>
+                        <h4 className="font-semibold text-red-800 mb-1">Seek Professional Help</h4>
+                        <p className="text-sm text-red-700">
+                          If you or someone you know is struggling with eating disorders, please consult healthcare
+                          professionals. Early intervention and proper treatment are crucial for recovery.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </CardContent>
               </Card>
             </div>
           </div>
-
-          {showResult && result && (
-            <div ref={resultsRef} className="mt-8">
-              <Card className="shadow-2xl border-0 bg-white/80 backdrop-blur">
-                <CardHeader className="bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-t-lg">
-                  <CardTitle className="flex items-center gap-2">
-                    <TrendingDown className="h-6 w-6" />
-                    Mortgage Payoff Analysis
-                  </CardTitle>
-                  <CardDescription className="text-green-100">
-                    Detailed breakdown of your mortgage payoff scenarios
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="p-6">
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                    <div className="text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl border border-green-200">
-                      <div className="text-3xl font-bold text-green-600 mb-2">
-                        {formatCurrency(result.interestSavings)}
-                      </div>
-                      <div className="text-sm font-medium text-green-800">Interest Savings</div>
-                      <div className="text-xs text-green-600 mt-1">Total interest saved with extra payments</div>
-                    </div>
-
-                    <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl border border-blue-200">
-                      <div className="text-3xl font-bold text-blue-600 mb-2">{formatTime(result.timeSavings)}</div>
-                      <div className="text-sm font-medium text-blue-800">Time Saved</div>
-                      <div className="text-xs text-blue-600 mt-1">Earlier payoff with extra payments</div>
-                    </div>
-
-                    <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl border border-purple-200">
-                      <div className="text-3xl font-bold text-purple-600 mb-2">
-                        {formatCurrency(result.monthlyPayment)}
-                      </div>
-                      <div className="text-sm font-medium text-purple-800">Monthly Payment</div>
-                      <div className="text-xs text-purple-600 mt-1">Standard principal & interest</div>
-                    </div>
-                  </div>
-
-                  <div className="overflow-x-auto">
-                    <table className="w-full border-collapse bg-white rounded-lg shadow-sm">
-                      <thead>
-                        <tr className="bg-gray-50">
-                          <th className="border border-gray-200 px-4 py-3 text-left font-semibold text-gray-900">
-                            Scenario
-                          </th>
-                          <th className="border border-gray-200 px-4 py-3 text-right font-semibold text-gray-900">
-                            Payoff Time
-                          </th>
-                          <th className="border border-gray-200 px-4 py-3 text-right font-semibold text-gray-900">
-                            Total Interest
-                          </th>
-                          <th className="border border-gray-200 px-4 py-3 text-right font-semibold text-gray-900">
-                            Total Payments
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td className="border border-gray-200 px-4 py-3 font-medium text-gray-900">
-                            Standard Payments
-                          </td>
-                          <td className="border border-gray-200 px-4 py-3 text-right">
-                            {formatTime(result.standardPayoffMonths)}
-                          </td>
-                          <td className="border border-gray-200 px-4 py-3 text-right">
-                            {formatCurrency(result.standardTotalInterest)}
-                          </td>
-                          <td className="border border-gray-200 px-4 py-3 text-right">
-                            {formatCurrency(result.standardTotalPayments)}
-                          </td>
-                        </tr>
-                        <tr className="bg-green-50">
-                          <td className="border border-gray-200 px-4 py-3 font-medium text-green-800">
-                            With Extra Payments
-                          </td>
-                          <td className="border border-gray-200 px-4 py-3 text-right text-green-800 font-semibold">
-                            {formatTime(result.extraPayoffMonths)}
-                          </td>
-                          <td className="border border-gray-200 px-4 py-3 text-right text-green-800 font-semibold">
-                            {formatCurrency(result.extraTotalInterest)}
-                          </td>
-                          <td className="border border-gray-200 px-4 py-3 text-right text-green-800 font-semibold">
-                            {formatCurrency(result.extraTotalPayments)}
-                          </td>
-                        </tr>
-                        <tr className="bg-blue-50">
-                          <td className="border border-gray-200 px-4 py-3 font-medium text-blue-800">
-                            Difference (Savings)
-                          </td>
-                          <td className="border border-gray-200 px-4 py-3 text-right text-blue-800 font-semibold">
-                            {formatTime(result.timeSavings)}
-                          </td>
-                          <td className="border border-gray-200 px-4 py-3 text-right text-blue-800 font-semibold">
-                            {formatCurrency(result.interestSavings)}
-                          </td>
-                          <td className="border border-gray-200 px-4 py-3 text-right text-blue-800 font-semibold">
-                            {formatCurrency(result.standardTotalPayments - result.extraTotalPayments)}
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-
-                  <div className="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
-                    <h4 className="font-semibold text-blue-900 mb-2">Key Insights:</h4>
-                    <ul className="text-sm text-blue-800 space-y-1">
-                      <li>
-                        • Extra payments reduce your loan term by <strong>{formatTime(result.timeSavings)}</strong>
-                      </li>
-                      <li>
-                        • You'll save <strong>{formatCurrency(result.interestSavings)}</strong> in total interest
-                      </li>
-                      <li>
-                        • Your effective interest savings rate is{" "}
-                        <strong>{((result.interestSavings / result.standardTotalInterest) * 100).toFixed(1)}%</strong>
-                      </li>
-                    </ul>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-          )}
-
-          <div className="mt-8">
-            <Card className="shadow-xl border-0 bg-white/80 backdrop-blur">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Home className="h-5 w-5 text-blue-600" />
-                  Understanding Mortgage Payoff Strategies
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="p-6 space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-3">Extra Payment Benefits</h3>
-                    <ul className="space-y-2 text-sm text-gray-600">
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Interest Savings:</strong> Extra payments go directly to principal, reducing total
-                          interest paid
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Time Savings:</strong> Pay off your mortgage years earlier than scheduled
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Equity Building:</strong> Build home equity faster with accelerated principal payments
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-3">Payment Strategies</h3>
-                    <ul className="space-y-2 text-sm text-gray-600">
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Monthly Extra:</strong> Add a fixed amount to each monthly payment
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Annual Lump Sum:</strong> Use tax refunds or bonuses for extra payments
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 bg-indigo-500 rounded-full mt-2 flex-shrink-0"></div>
-                        <span>
-                          <strong>Biweekly Payments:</strong> Pay half monthly amount every 2 weeks (26 payments/year)
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <Alert>
-                  <AlertTriangle className="h-4 w-4" />
-                  <AlertDescription>
-                    <strong>Important:</strong> Before making extra mortgage payments, ensure you have an emergency
-                    fund, are maximizing employer 401(k) matching, and have paid off higher-interest debt. Consider your
-                    mortgage interest rate versus potential investment returns when deciding on extra payments.
-                  </AlertDescription>
-                </Alert>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
+        </main>
       </div>
     </>
   )

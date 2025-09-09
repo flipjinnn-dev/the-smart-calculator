@@ -1,7 +1,9 @@
+// lib/SEO.tsx
 "use client"
 
 import { useEffect } from "react"
 import Script from "next/script"
+import Head from "next/head"
 
 type SEOProps = {
   title: string
@@ -20,11 +22,11 @@ export default function SEO({
 }: SEOProps) {
   const fullUrl = `https://www.thesmartcalculator.com${slug}`
 
-  // ✅ JSON-LD object (type ke hisaab se change hoga)
+  // ✅ JSON-LD object
   let jsonLd: Record<string, any> = {
     "@context": "https://schema.org",
     "@type": type,
-    name: title.replace(/ –.*/, ""), // title ka pehla hissa name banega
+    name: title.replace(/ –.*/, ""),
     description,
     url: fullUrl,
   }
@@ -50,7 +52,7 @@ export default function SEO({
       ...jsonLd,
       mainEntity: {
         "@type": "ItemList",
-        itemListElement: [], // Agar tum chaho to dynamically calculators pass kar sakte ho
+        itemListElement: [],
       },
     }
   } else if (type === "WebPage") {
@@ -65,11 +67,12 @@ export default function SEO({
     }
   }
 
-  // ✅ Document head me meta tags inject karna
+  // ✅ Client-side fallback (for hydration/update)
   useEffect(() => {
     if (title) document.title = title
 
     const setMeta = (name: string, content: string) => {
+      if (!content) return
       let tag = document.querySelector(`meta[name='${name}']`)
       if (tag) {
         tag.setAttribute("content", content)
@@ -96,11 +99,22 @@ export default function SEO({
   }, [title, description, keywords, fullUrl])
 
   return (
-    <Script
-      id={`${slug}-jsonld`}
-      type="application/ld+json"
-      strategy="afterInteractive"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-    />
+    <>
+      {/* ✅ Server-side inject (SEO friendly) */}
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        {keywords && <meta name="keywords" content={keywords} />}
+        <link rel="canonical" href={fullUrl} />
+      </Head>
+
+      {/* ✅ JSON-LD */}
+      <Script
+        id={`${slug}-jsonld`}
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+    </>
   )
 }
