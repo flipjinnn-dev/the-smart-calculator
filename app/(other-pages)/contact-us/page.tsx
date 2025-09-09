@@ -11,9 +11,8 @@ export default function ContactPage() {
       <SEO
         title="Contact Us - Smart Calculator"
         description="Get in touch with the Smart Calculator team. Contact us for support, feedback, or partnership opportunities."
-        slug="/contact"
+        slug="/contact-us"
         keywords="contact smart calculator, support, feedback, calculator help"
-        type="WebPage"
       />
       <div className="min-h-screen bg-white">
         {/* Header */}

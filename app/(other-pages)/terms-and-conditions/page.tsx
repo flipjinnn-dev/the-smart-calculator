@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description:
     "Read our terms and conditions to understand the rules and guidelines for using The Smart Calculator's free online calculators.",
   keywords: "terms and conditions, user agreement, smart calculator terms, terms of service",
+  alternates: {
+      canonical: "https://www.thesmartcalculator.com/terms-and-conditions",
+    },
 }
 
 const jsonLd = {

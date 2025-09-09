@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description:
     "Learn how The Smart Calculator protects your privacy and handles your data. We are committed to transparency and user privacy.",
   keywords: "privacy policy, data protection, user privacy, smart calculator privacy",
+  alternates: {
+      canonical: "https://www.thesmartcalculator.com/privacy-policy",
+    },
 }
 
 const jsonLd = {

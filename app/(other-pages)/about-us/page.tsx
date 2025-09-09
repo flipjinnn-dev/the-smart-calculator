@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description:
     "Learn about Smart Calculator, the leading platform for free online calculators. Our mission is to provide accurate, fast, and easy-to-use calculation tools for everyone.",
   keywords: "about smart calculator, online calculator platform, free calculators, calculation tools",
+    alternates: {
+      canonical: "https://www.thesmartcalculator.com/about-us",
+    },
 }
 
 const jsonLd = {
