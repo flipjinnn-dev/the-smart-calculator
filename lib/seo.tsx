@@ -1,5 +1,5 @@
-"use client"
-import { useEffect } from "react"
+// lib/SEO.tsx
+import Head from "next/head"
 
 type SEOProps = {
   title: string
@@ -22,51 +22,78 @@ export default function SEO({
 }: SEOProps) {
   const fullUrl = `https://www.thesmartcalculator.com${slug}`
 
-  useEffect(() => {
-    // ------- Title -------
-    document.title = title
+  // ✅ JSON-LD schema (structured data)
+  let jsonLd: Record<string, any> = {
+    "@context": "https://schema.org",
+    "@type": type,
+    name: title.replace(/ –.*/, ""), // "Mortgage Calculator – Estimate..." -> "Mortgage Calculator"
+    description,
+    url: fullUrl,
+  }
 
-    // ------- Meta helper -------
-    const setMeta = (attr: "name" | "property", key: string, content: string) => {
-      if (!content) return
-      let tag = document.querySelector<HTMLMetaElement>(
-        `meta[${attr}="${key}"]`
-      )
-      if (!tag) {
-        tag = document.createElement("meta")
-        tag.setAttribute(attr, key)
-        document.head.appendChild(tag)
-      }
-      tag.setAttribute("content", content)
+  if (type === "SoftwareApplication") {
+    jsonLd = {
+      ...jsonLd,
+      applicationCategory: "UtilityApplication",
+      operatingSystem: "Web",
+      publisher: {
+        "@type": "Organization",
+        name: "Smart Calculator",
+        url: "https://www.thesmartcalculator.com",
+        logo: "https://www.thesmartcalculator.com/logo.png",
+        sameAs: [
+          "https://www.instagram.com/thesmartcalculators",
+          "https://x.com/SmartCalculat0r",
+        ],
+      },
     }
-
-    // ------- Basic Meta -------
-    setMeta("name", "description", description)
-    if (keywords) setMeta("name", "keywords", keywords)
-    setMeta("name", "robots", robots)
-
-    // ------- Canonical -------
-    let link = document.querySelector<HTMLLinkElement>("link[rel='canonical']")
-    if (!link) {
-      link = document.createElement("link")
-      link.rel = "canonical"
-      document.head.appendChild(link)
+  } else if (type === "CollectionPage") {
+    jsonLd = {
+      ...jsonLd,
+      mainEntity: {
+        "@type": "ItemList",
+        itemListElement: [],
+      },
     }
-    link.href = fullUrl
+  } else if (type === "WebPage") {
+    jsonLd = {
+      ...jsonLd,
+      publisher: {
+        "@type": "Organization",
+        name: "Smart Calculator",
+        url: "https://www.thesmartcalculator.com",
+        logo: "https://www.thesmartcalculator.com/logo.png",
+      },
+    }
+  }
 
-    // ------- Open Graph -------
-    setMeta("property", "og:title", title)
-    setMeta("property", "og:description", description)
-    setMeta("property", "og:type", "website")
-    setMeta("property", "og:url", fullUrl)
-    setMeta("property", "og:image", image)
+  return (
+    <Head>
+      {/* ✅ Basic Meta */}
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      {keywords && <meta name="keywords" content={keywords} />}
+      <meta name="robots" content={robots} />
+      <link rel="canonical" href={fullUrl} />
 
-    // ------- Twitter -------
-    setMeta("name", "twitter:card", "summary_large_image")
-    setMeta("name", "twitter:title", title)
-    setMeta("name", "twitter:description", description)
-    setMeta("name", "twitter:image", image)
-  }, [title, description, slug, keywords, image, robots])
+      {/* ✅ Open Graph */}
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={fullUrl} />
+      <meta property="og:image" content={image} />
 
-  return null
+      {/* ✅ Twitter */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
+
+      {/* ✅ JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+    </Head>
+  )
 }
