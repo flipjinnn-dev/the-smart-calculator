@@ -1,16 +1,14 @@
-// lib/SEO.tsx
 "use client"
-
 import { useEffect } from "react"
-import Script from "next/script"
-import Head from "next/head"
 
 type SEOProps = {
   title: string
   description: string
-  slug: string // e.g. "/time-calculator"
+  slug: string
   keywords?: string
   type?: "SoftwareApplication" | "CollectionPage" | "WebPage"
+  image?: string
+  robots?: string
 }
 
 export default function SEO({
@@ -19,102 +17,56 @@ export default function SEO({
   slug,
   keywords,
   type = "SoftwareApplication",
+  image = "https://www.thesmartcalculator.com/og-default.png",
+  robots = "index,follow",
 }: SEOProps) {
   const fullUrl = `https://www.thesmartcalculator.com${slug}`
 
-  // ✅ JSON-LD object
-  let jsonLd: Record<string, any> = {
-    "@context": "https://schema.org",
-    "@type": type,
-    name: title.replace(/ –.*/, ""),
-    description,
-    url: fullUrl,
-  }
-
-  if (type === "SoftwareApplication") {
-    jsonLd = {
-      ...jsonLd,
-      applicationCategory: "UtilityApplication",
-      operatingSystem: "Web",
-      publisher: {
-        "@type": "Organization",
-        name: "Smart Calculator",
-        url: "https://www.thesmartcalculator.com",
-        logo: "https://www.thesmartcalculator.com/logo.png",
-        sameAs: [
-          "https://www.instagram.com/thesmartcalculators",
-          "https://x.com/SmartCalculat0r",
-        ],
-      },
-    }
-  } else if (type === "CollectionPage") {
-    jsonLd = {
-      ...jsonLd,
-      mainEntity: {
-        "@type": "ItemList",
-        itemListElement: [],
-      },
-    }
-  } else if (type === "WebPage") {
-    jsonLd = {
-      ...jsonLd,
-      publisher: {
-        "@type": "Organization",
-        name: "Smart Calculator",
-        url: "https://www.thesmartcalculator.com",
-        logo: "https://www.thesmartcalculator.com/logo.png",
-      },
-    }
-  }
-
-  // ✅ Client-side fallback (for hydration/update)
   useEffect(() => {
-    if (title) document.title = title
+    // ------- Title -------
+    document.title = title
 
-    const setMeta = (name: string, content: string) => {
+    // ------- Meta helper -------
+    const setMeta = (attr: "name" | "property", key: string, content: string) => {
       if (!content) return
-      let tag = document.querySelector(`meta[name='${name}']`)
-      if (tag) {
-        tag.setAttribute("content", content)
-      } else {
+      let tag = document.querySelector<HTMLMetaElement>(
+        `meta[${attr}="${key}"]`
+      )
+      if (!tag) {
         tag = document.createElement("meta")
-        tag.setAttribute("name", name)
-        tag.setAttribute("content", content)
+        tag.setAttribute(attr, key)
         document.head.appendChild(tag)
       }
+      tag.setAttribute("content", content)
     }
 
-    setMeta("description", description)
-    if (keywords) setMeta("keywords", keywords)
+    // ------- Basic Meta -------
+    setMeta("name", "description", description)
+    if (keywords) setMeta("name", "keywords", keywords)
+    setMeta("name", "robots", robots)
 
-    let canonical = document.querySelector("link[rel='canonical']")
-    if (canonical) {
-      canonical.setAttribute("href", fullUrl)
-    } else {
-      canonical = document.createElement("link")
-      canonical.setAttribute("rel", "canonical")
-      canonical.setAttribute("href", fullUrl)
-      document.head.appendChild(canonical)
+    // ------- Canonical -------
+    let link = document.querySelector<HTMLLinkElement>("link[rel='canonical']")
+    if (!link) {
+      link = document.createElement("link")
+      link.rel = "canonical"
+      document.head.appendChild(link)
     }
-  }, [title, description, keywords, fullUrl])
+    link.href = fullUrl
 
-  return (
-    <>
-      {/* ✅ Server-side inject (SEO friendly) */}
-      <Head>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        {keywords && <meta name="keywords" content={keywords} />}
-        <link rel="canonical" href={fullUrl} />
-      </Head>
+    // ------- Open Graph -------
+    setMeta("property", "og:title", title)
+    setMeta("property", "og:description", description)
+    setMeta("property", "og:type", "website")
+    setMeta("property", "og:url", fullUrl)
+    setMeta("property", "og:image", image)
 
-      {/* ✅ JSON-LD */}
-      <Script
-        id={`${slug}-jsonld`}
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-    </>
-  )
+    // ------- Twitter -------
+    setMeta("name", "twitter:card", "summary_large_image")
+    setMeta("name", "twitter:title", title)
+    setMeta("name", "twitter:description", description)
+    setMeta("name", "twitter:image", image)
+  }, [title, description, slug, keywords, image, robots])
+
+  return null
 }
