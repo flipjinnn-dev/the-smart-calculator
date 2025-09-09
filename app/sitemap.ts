@@ -1,12 +1,13 @@
 import type { MetadataRoute } from "next";
-import { ROUTES, CALCULATOR_CATEGORIES } from "@/lib/routes";
+import { ROUTES, CATEGORIES, getCalculatorsByCategory } from "@/lib/routes";
+import { calculators } from "@/lib/calculator-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.thesmartcalculator.com";
 
   const pages: MetadataRoute.Sitemap = [];
 
-  // Add main pages dynamically
+  // ✅ Add main static pages
   const MAIN_PAGES = [
     ROUTES.HOME,
     ROUTES.ABOUT,
@@ -24,8 +25,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  // Add categories dynamically
-  Object.values(ROUTES.CATEGORIES).forEach((path) => {
+  // ✅ Add category pages (from fixed CATEGORIES)
+  Object.values(CATEGORIES).forEach((path) => {
     pages.push({
       url: `${baseUrl}${path}`,
       lastModified: new Date(),
@@ -34,15 +35,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  // Add calculators dynamically from CALCULATOR_CATEGORIES
-  Object.entries(CALCULATOR_CATEGORIES).forEach(([category, calculators]) => {
-    calculators.forEach((slug) => {
-      pages.push({
-        url: `${baseUrl}/${category}/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: "weekly",
-        priority: 0.8,
-      });
+  // ✅ Add all calculators dynamically from calculator-data.ts
+  calculators.forEach((calc) => {
+    pages.push({
+      url: `${baseUrl}${calc.href}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
     });
   });
 
