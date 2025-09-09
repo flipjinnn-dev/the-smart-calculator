@@ -35,6 +35,13 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
+    id: "income-tax-calculator",
+    name: "Income Tax Calculator",
+    description: "Calculate your income tax based on various deductions and exemptions",
+    href: "/financial/income-tax-calculator",
+    category: "financial",
+  },
+  {
     id: "loan",
     name: "Loan Calculator",
     description: "Calculate loan payments, interest rates, and payoff schedules",

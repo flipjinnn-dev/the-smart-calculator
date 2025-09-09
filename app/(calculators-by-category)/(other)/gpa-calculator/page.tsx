@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useRef } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -11,6 +11,7 @@ import Link from "next/link"
 import { GraduationCap, Calculator, Plus, Trash2, RotateCcw, BookOpen } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import {useMobileScroll} from "@/hooks/useMobileScroll"
 
 interface Course {
   id: string
@@ -211,17 +212,21 @@ export default function GPACalculator() {
     return Object.keys(newErrors).length === 0
   }
 
-
   interface CourseResult {
-  name: string;
-  credits: number;
-  grade: string;
-  gradeFormat: string;
-  gradePoints: number;
-  courseGP: number;
-}
+    name: string
+    credits: number
+    grade: string
+    gradeFormat: string
+    gradePoints: number
+    courseGP: number
+  }
 
   const calculateGPA = () => {
+    const resultsRefElement = resultsRef.current
+    if (resultsRefElement) {
+      resultsRefElement.scrollIntoView({ behavior: "smooth" })
+    }
+
     if (!validateInputs()) return
 
     const semesterResults = semesters.map((semester) => {
@@ -318,6 +323,9 @@ export default function GPACalculator() {
     setErrors({})
   }
 
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const scrollToRef = useMobileScroll()
+
   return (
     <>
       <SEO
@@ -325,7 +333,6 @@ export default function GPACalculator() {
         description="Calculate GPA quickly and accurately. Use our free GPA calculator to track academic performance and improve grades."
         slug="/gpa-calculator"
         keywords="GPA calculator, calculate GPA, grade point average, academic performance"
-        type="SoftwareApplication"
       />
 
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
@@ -463,9 +470,9 @@ export default function GPACalculator() {
                           {semester.courses.map((course, courseIndex) => (
                             <div
                               key={course.id}
-                              className="grid grid-cols-12 gap-3 items-end p-4 bg-gray-50 rounded-lg"
+                              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-3 items-end p-4 bg-gray-50 rounded-lg"
                             >
-                              <div className="col-span-4">
+                              <div className="sm:col-span-2 lg:col-span-4">
                                 <Label className="text-sm font-medium text-gray-700 mb-2 block">Course Name</Label>
                                 <Input
                                   className="h-10"
@@ -474,7 +481,7 @@ export default function GPACalculator() {
                                   onChange={(e) => updateCourse(semester.id, course.id, "name", e.target.value)}
                                 />
                               </div>
-                              <div className="col-span-2">
+                              <div className="lg:col-span-2">
                                 <Label className="text-sm font-medium text-gray-700 mb-2 block">Credits</Label>
                                 <Input
                                   className={`h-10 ${errors[`credits_${course.id}`] ? "border-red-300" : ""}`}
@@ -490,7 +497,7 @@ export default function GPACalculator() {
                                   <p className="text-red-600 text-xs mt-1">{errors[`credits_${course.id}`]}</p>
                                 )}
                               </div>
-                              <div className="col-span-2">
+                              <div className="lg:col-span-2">
                                 <Label className="text-sm font-medium text-gray-700 mb-2 block">Format</Label>
                                 <Select
                                   value={course.gradeFormat}
@@ -508,7 +515,7 @@ export default function GPACalculator() {
                                   </SelectContent>
                                 </Select>
                               </div>
-                              <div className="col-span-3">
+                              <div className="lg:col-span-3">
                                 <Label className="text-sm font-medium text-gray-700 mb-2 block">Grade</Label>
                                 {course.gradeFormat === "letter" ? (
                                   <Select
@@ -552,7 +559,7 @@ export default function GPACalculator() {
                                   <p className="text-red-600 text-xs mt-1">{errors[`grade_${course.id}`]}</p>
                                 )}
                               </div>
-                              <div className="col-span-1">
+                              <div className="lg:col-span-1 flex justify-end">
                                 {semester.courses.length > 1 && (
                                   <Button
                                     onClick={() => removeCourse(semester.id, course.id)}
@@ -651,8 +658,8 @@ export default function GPACalculator() {
               </div>
 
               {/* Result Card */}
-              <div className="hidden lg:block">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-indigo-100 h-full flex flex-col justify-center items-center p-8">
+              <div className="lg:sticky lg:top-8 lg:h-fit">
+                <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col justify-center items-center p-6 lg:p-8">
                   <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-600 to-indigo-700 flex items-center justify-center mb-3 shadow-lg">
                       <GraduationCap className="w-6 h-6 text-white" />
@@ -698,7 +705,7 @@ export default function GPACalculator() {
 
             {/* Detailed Results */}
             {showResult && result && (
-              <div className="mt-8">
+              <div ref={resultsRef} className="mt-8">
                 <Card className="shadow-2xl border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
