@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Free sports calculators including BMI, calorie burn, and training pace tools. Make informed fitness decisions.",
   keywords: "sports calculator, BMI calculator, calorie burn calculator, training pace calculator",
+  alternates: {
+    canonical: "https://www.thesmartcalculator.com/sports",
+  },
 }
 
 // Get calculators dynamically

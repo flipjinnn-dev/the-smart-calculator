@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Free Other calculators including loan payments, investment analysis, and expense tracking tools. Make informed business decisions.",
   keywords: "other calculator, loan payment calculator, investment analysis calculator, expense tracking calculator",
+    alternates: {
+      canonical: "https://www.thesmartcalculator.com/other-calculators",
+  },
 }
 
 // Get calculators dynamically

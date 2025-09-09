@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Free health and fitness calculators including BMI, calorie, body fat, and medical calculators. Calculate your health metrics with ease.",
   keywords: "health calculator, BMI calculator, calorie calculator, fitness calculator, body fat calculator",
+  alternates: {
+      canonical: "https://www.thesmartcalculator.com/health",
+    },
 }
 
 const healthCalculators = getCalculatorsByCategory("health")

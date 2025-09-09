@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Free construction calculators including material estimates, cost analysis, and project management tools. Make informed construction decisions.",
   keywords: "construction calculator, material estimator, cost analysis, project management",
+  alternates: {
+    canonical: "https://www.thesmartcalculator.com/construction",
+  },
 }
 
 // Get calculators dynamically

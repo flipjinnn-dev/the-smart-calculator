@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Free math calculators including percentage, fraction, algebra, geometry, statistics, and probability calculators. Calculate your math problems with ease.",
   keywords: "math calculator, percentage calculator, fraction calculator, algebra calculator, geometry calculator, statistics calculator, probability calculator",
+  alternates: {
+    canonical: "https://www.thesmartcalculator.com/maths",
+  },
 }
 
 const mathCalculators = getCalculatorsByCategory("maths")

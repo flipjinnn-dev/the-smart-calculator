@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Free physics calculators including motion, energy, force, electricity, and thermodynamics tools. Calculate physics problems with ease.",
   keywords: "physics calculator, motion calculator, energy calculator, force calculator, electricity calculator",
+  alternates: {
+      canonical: "https://www.thesmartcalculator.com/physics",
+  },
 }
 
 // Get calculators dynamically

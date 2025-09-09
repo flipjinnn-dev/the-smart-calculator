@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Free food calculators including calorie, nutrition, and meal planning tools. Make informed dietary decisions.",
   keywords: "food calculator, calorie calculator, nutrition calculator, meal planning calculator",
+  alternates: {
+      canonical: "https://www.thesmartcalculator.com/food",
+    },
 }
 
 // Get calculators dynamically

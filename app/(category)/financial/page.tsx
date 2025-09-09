@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Free financial calculators including mortgage, loan, investment, tax, and retirement planning tools. Calculate your finances with ease.",
   keywords: "financial calculator, mortgage calculator, loan calculator, investment calculator, tax calculator",
+    alternates: {
+      canonical: "https://www.thesmartcalculator.com/financial",
+    },
 }
 
 // Get calculators dynamically
