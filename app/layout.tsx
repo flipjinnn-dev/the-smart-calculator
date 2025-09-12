@@ -1,13 +1,14 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import Script from "next/script"
 import "./globals.css"
 import { Footer } from "@/components/footer"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ["latin"] })
 
-// Sirf global settings rakhe hain, title/description hata diye
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.thesmartcalculator.com/"),
   keywords:
@@ -73,40 +74,38 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
 
         {/* ✅ Google Analytics */}
-        <script
-          async
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-18W2MEF31Q"
+          strategy="afterInteractive"
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-18W2MEF31Q', {
-                page_path: window.location.pathname,
-              });
-            `,
-          }}
-        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-18W2MEF31Q', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
 
         {/* ✅ Microsoft Clarity */}
-        <script
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(c,l,a,r,i,t,y){
-                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "t4gsw89qux");
-            `,
-          }}
-        />
+        <Script id="microsoft-clarity" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "t4gsw89qux");
+          `}
+        </Script>
       </head>
       <body className={inter.className}>
         {children}
-         <SpeedInsights />
+        {/* ✅ Vercel tools */}
+        <SpeedInsights />
+        <Analytics />
+
         <Footer />
       </body>
     </html>
