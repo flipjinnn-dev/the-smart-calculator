@@ -252,7 +252,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <div className="flex items-center space-x-2 text-gray-600">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium">60+ Calculators</span>
+                <span className="text-sm font-medium">90+ Calculators</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-600">
                 <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
