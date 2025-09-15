@@ -110,7 +110,6 @@ const categories = [
     color: "from-blue-400 to-cyan-500",
     bgColor: "bg-blue-50",
     textColor: "text-blue-600",
-
     calculators: getCalculatorCount("sports"),
     href: "/sports",
   },
@@ -213,24 +212,42 @@ export default function HomePage() {
                 <div>
                   <p className="text-2xl font-bold bg-gradient-to-r from-blue-500 via-red-500 to-green-500 bg-clip-text text-transparent">
                     Smart Calculators
-                  </p>  
+                  </p>
                   <p className="text-sm text-gray-500">Free Online Calculators</p>
                 </div>
               </div>
-              <SearchBar />
+              <div className="hidden md:block">
+                <SearchBar />
+              </div>
             </div>
           </div>
         </header>
 
-        {/* Hero Section */}
-        <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-purple-50 to-indigo-100 overflow-hidden">
-          {/* Background decorative elements */}
-          <div className="absolute inset-0 overflow-hidden">
+        <section className="md:relative md:py-24 px-4 sm:px-6 lg:px-8 md:bg-gradient-to-br md:from-blue-50 md:via-purple-50 md:to-indigo-100 md:overflow-hidden">
+          {/* Desktop background decorative elements */}
+          <div className="hidden md:block absolute inset-0 overflow-hidden">
             <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl"></div>
             <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-purple-400/20 to-indigo-400/20 rounded-full blur-3xl"></div>
           </div>
 
-          <div className="relative max-w-6xl mx-auto text-center">
+          <div className="md:hidden pt-6 pb-4">
+            <div className="text-center">
+              <h1 className="text-3xl font-bold text-gray-900 mb-2">
+                Your life in{" "}
+                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  90+ free calculators
+                </span>
+              </h1>
+            </div>
+
+            <div className="mt-6 mb-6 px-4">
+              <div className="max-w-md mx-auto">
+                <SearchBar />
+              </div>
+            </div>
+          </div>
+
+          <div className="hidden md:block relative max-w-6xl mx-auto text-center">
             <div className="mb-8">
               <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg border border-white/20 mb-8">
                 <Sparkles className="w-5 h-5 text-blue-600 mr-2" />
@@ -267,16 +284,37 @@ export default function HomePage() {
         </section>
 
         {/* Categories Grid */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-white to-blue-50">
+        <section className="md:py-20 px-4 sm:px-6 lg:px-8 md:bg-gradient-to-br md:from-slate-50 md:via-white md:to-blue-50">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16">
+            <div className="hidden md:block text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Calculator Categories</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Choose from our comprehensive collection of calculators organized by category
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 animate-stagger">
+            <div className="md:hidden flex flex-col gap-4 px-2">
+              {categories.map((category) => {
+                const IconComponent = category.icon
+                return (
+                  <Link key={category.id} href={category.href}>
+                    <div className="flex items-center justify-between p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow mb-0">
+                      <div className="flex items-center space-x-3">
+                        <div
+                          className={`w-10 h-10 rounded-lg bg-gradient-to-r ${category.color} flex items-center justify-center`}
+                        >
+                          <IconComponent className="w-5 h-5 text-white" />
+                        </div>
+                        <span className="font-medium text-gray-900 text-base">{category.name}</span>
+                      </div>
+                      <span className="text-sm text-gray-500 font-medium">{category.calculators} calculators</span>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+
+            <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 animate-stagger">
               {categories.map((category) => {
                 const IconComponent = category.icon
                 return (
@@ -313,30 +351,29 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Popular Calculators */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        {/* Popular Calculators (now visible on all screens) */}
+        <section className="py-12 md:py-20 px-2 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">Most Popular Calculators</h2>
-              <p className="text-xl text-gray-600">Our most frequently used calculation tools</p>
+            <div className="text-center mb-10 md:mb-16">
+              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">Most Popular Calculators</h2>
+              <p className="text-base md:text-xl text-gray-600">Our most frequently used calculation tools</p>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-stagger">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 animate-stagger">
               {popularCalculators.map((calc, index) => (
                 <Link key={index} href={calc.href}>
                   <Card className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 cursor-pointer border-0 shadow-lg overflow-hidden h-full flex flex-col">
                     <div className={`h-2 ${calc.color}`}></div>
-                    <CardContent className="p-8 flex-1 flex flex-col">
+                    <CardContent className="p-5 md:p-8 flex-1 flex flex-col">
                       <div className="flex-1">
-                        <h3 className="font-bold text-xl text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                        <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-2 md:mb-3 group-hover:text-blue-600 transition-colors">
                           {calc.name}
                         </h3>
-                        <p className="text-gray-600 mb-4 leading-relaxed">{calc.description}</p>
+                        <p className="text-gray-600 mb-2 md:mb-4 leading-relaxed text-sm md:text-base">{calc.description}</p>
                         <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
                           {calc.category}
                         </span>
                       </div>
-                      <div className="flex items-center justify-between pt-6 border-t border-gray-100 mt-6">
+                      <div className="flex items-center justify-between pt-4 md:pt-6 border-t border-gray-100 mt-4 md:mt-6">
                         <span className="text-blue-600 font-semibold group-hover:translate-x-1 transition-transform">
                           Calculate Now
                         </span>
@@ -350,15 +387,14 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Features Section */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        {/* Features Section (now visible on all screens) */}
+        <section className="py-12 md:py-20 px-2 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Choose Smart Calculator?</h2>
-              <p className="text-xl text-gray-600">Fast, accurate, and completely free to use</p>
+            <div className="text-center mb-10 md:mb-16">
+              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">Why Choose Smart Calculator?</h2>
+              <p className="text-base md:text-xl text-gray-600">Fast, accurate, and completely free to use</p>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
               {[
                 {
                   title: "Lightning Fast",
@@ -386,15 +422,15 @@ export default function HomePage() {
                 return (
                   <Card
                     key={index}
-                    className="text-center p-8 border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                    className="text-center p-6 md:p-8 border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                   >
                     <div
-                      className={`w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-r ${feature.color} flex items-center justify-center shadow-lg`}
+                      className={`w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-6 rounded-2xl bg-gradient-to-r ${feature.color} flex items-center justify-center shadow-lg`}
                     >
-                      <IconComponent className="w-8 h-8 text-white" />
+                      <IconComponent className="w-7 h-7 md:w-8 md:h-8 text-white" />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">{feature.title}</h3>
-                    <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+                    <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-4">{feature.title}</h3>
+                    <p className="text-gray-600 leading-relaxed text-sm md:text-base">{feature.description}</p>
                   </Card>
                 )
               })}
