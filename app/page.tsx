@@ -221,7 +221,7 @@ export default function HomePage() {
         </header>
 
         <section className="relative py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50/80 via-blue-50/80 to-red-50/80 overflow-hidden">
-          <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute inset-0 overflow-hidden h-[300px] md:h-auto opacity-[0.5] md:opacity-[1]">
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-gradient-to-br from-green-400/30 to-green-600/30 rounded-full blur-xl"></div>
             <div className="absolute top-32 left-32 w-24 h-24 bg-gradient-to-br from-blue-400/40 to-blue-600/40 rounded-full blur-lg"></div>
             <div className="absolute -bottom-16 -right-16 w-56 h-56 bg-gradient-to-br from-red-400/25 to-red-600/25 rounded-full blur-2xl"></div>
@@ -245,9 +245,6 @@ export default function HomePage() {
                   calculators
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 max-w-md md:max-w-lg mx-auto md:mx-0">
-                  <span className="md:hidden">
-                    Fast, accurate, and completely free calculation tools for every need
-                  </span>
                   <span className="hidden md:inline">
                     From financial planning to health tracking, discover powerful calculation tools that make complex
                     math simple and accessible.
@@ -275,18 +272,18 @@ export default function HomePage() {
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-12">
                   <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Calculator Categories</h2>
-                  <p className="text-lg text-gray-600">
+                  <p className="text-lg hidden md:block text-gray-600">
                     Explore our comprehensive collection of specialized calculators
                   </p>
                 </div>
 
-                {/* Mobile List View */}
-                <div className="block md:hidden space-y-2">
+                <div className="space-y-2 md:space-y-0 md:grid md:grid-cols-1 md:sm:grid-cols-2 md:lg:grid-cols-3 md:xl:grid-cols-4 md:gap-8">
                   {categories.map((category) => {
                     const IconComponent = category.icon
                     return (
-                      <Link key={category.id} href={category.href}>
-                        <div className="flex items-center justify-between p-4 bg-white border-b border-gray-100 hover:bg-gray-50 transition-colors duration-200 group">
+                      <Link key={category.id} href={category.href} className="block md:h-full">
+                        {/* Mobile List Layout */}
+                        <div className="flex md:hidden items-center justify-between p-4 bg-white border-b border-gray-100 hover:bg-gray-50 transition-colors duration-200 group">
                           <div className="flex items-center space-x-4">
                             <div className="w-8 h-8 flex items-center justify-center">
                               <IconComponent className="w-5 h-5 text-blue-500" />
@@ -301,31 +298,19 @@ export default function HomePage() {
                             <span className="text-sm text-gray-500">{category.calculators} calculators</span>
                           </div>
                         </div>
-                      </Link>
-                    )
-                  })}
-                </div>
 
-                {/* Desktop Grid View */}
-                <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                  {categories.map((category) => {
-                    const IconComponent = category.icon
-                    return (
-                      <Link key={category.id} href={category.href}>
-                        <Card className="h-full hover:shadow-2xl transition-all duration-300 cursor-pointer group border border-gray-200 rounded-2xl p-8 hover:-translate-y-2 bg-gradient-to-b from-white to-gray-50/50">
+                        {/* Desktop Card Layout */}
+                        <Card className="hidden md:block h-full hover:shadow-xl transition-all duration-200 cursor-pointer group border border-gray-200 rounded-2xl p-8 hover:-translate-y-1 bg-white">
                           <div className="text-center space-y-6">
                             <div className="relative">
                               <div
-                                className={`w-16 h-16 mx-auto rounded-2xl bg-gradient-to-r ${category.color} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}
+                                className={`w-16 h-16 mx-auto rounded-2xl bg-gradient-to-r ${category.color} flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform duration-200`}
                               >
                                 <IconComponent className="w-8 h-8 text-white" />
                               </div>
-                              <div
-                                className={`absolute inset-0 w-16 h-16 mx-auto rounded-2xl bg-gradient-to-r ${category.color} opacity-20 blur-xl group-hover:opacity-40 transition-opacity duration-300`}
-                              ></div>
                             </div>
                             <div>
-                              <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                              <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-200">
                                 {category.name}
                               </h3>
                               <p className="text-sm text-gray-600 mb-4 leading-relaxed">{category.description}</p>
