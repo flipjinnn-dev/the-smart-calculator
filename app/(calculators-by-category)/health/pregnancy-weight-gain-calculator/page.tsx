@@ -11,6 +11,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Scale, Ruler, Baby, Heart } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import pregnancyData from "@/app/content/pregnancy-weight-gain-calculator.json"
 
 export default function PregnancyWeightGainCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -706,6 +708,11 @@ export default function PregnancyWeightGainCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+           {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={pregnancyData} />
           </div>
         </main>
       </div>

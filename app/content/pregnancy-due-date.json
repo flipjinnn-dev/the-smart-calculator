@@ -1,0 +1,110 @@
+{
+  "color": "pink",
+  "sections": [
+    {
+      "heading": "What is a Pregnancy Due Date Calculator?",
+      "content": "Our Pregnancy Due Date Calculator is a simple, medically accurate, and free online tool to help you estimate when your baby might arrive. By using your last menstrual period (LMP), ovulation date, or IVF transfer date, this Due Date Calculator Online provides an estimated delivery date (EDD), week-by-week pregnancy calendar, and trimester timeline. Keep in mind: Due dates are estimates—only about 4% of babies are born exactly on their due date. Most arrive within a two-week window before or after."
+    },
+    {
+      "heading": "How to Calculate Pregnancy Due Date",
+      "subSections": [
+        {
+          "heading": "LMP Due Date Calculator",
+          "content": "Based on the first day of your last menstrual period (most common method)."
+        },
+        {
+          "heading": "Conception Due Date Calculator",
+          "content": "If you know your ovulation or conception date, you can use it to calculate the due date."
+        },
+        {
+          "heading": "IVF Due Date Calculator",
+          "content": "For pregnancies achieved through IVF or assisted reproductive technology, the embryo transfer date is used."
+        },
+        {
+          "heading": "Ultrasound Due Date Calculator",
+          "content": "Based on early pregnancy scans, especially accurate in the first trimester."
+        },
+        {
+          "heading": "Gestational Age & Due Date Calculator",
+          "content": "Combines weeks and days of pregnancy with the expected delivery date."
+        }
+      ]
+    },
+    {
+      "heading": "Pregnancy Timeline: Trimester & Week-by-Week",
+      "subSections": [
+        {
+          "heading": "First Trimester (Weeks 1–12)",
+          "content": "Conception, early development, and common symptoms like morning sickness."
+        },
+        {
+          "heading": "Second Trimester (Weeks 13–27)",
+          "content": "Baby growth accelerates, anatomy scan is performed, and the mother feels movement."
+        },
+        {
+          "heading": "Third Trimester (Weeks 28–40+)",
+          "content": "Rapid baby growth, preparation for delivery, and full-term pregnancy."
+        },
+        {
+          "heading": "Full Term Pregnancy",
+          "content": "Assumes 40 weeks (280 days) from your LMP. Babies may safely arrive anytime between 37 and 42 weeks."
+        }
+      ]
+    },
+    {
+      "heading": "Global Use – Pregnancy Due Date Calculator by Country",
+      "content": "Whether you are in the USA, UK, Canada, India, Pakistan, or Australia, this Pregnancy Due Date Tool Free works universally. Healthcare systems may vary, but the calculation method remains medically aligned with WHO, NHS, and ACOG guidelines."
+    },
+    {
+      "heading": "Why Use Our Expected Delivery Date Calculator?",
+      "subSections": [
+        {
+          "heading": "Free & Easy",
+          "content": "No registration required."
+        },
+        {
+          "heading": "Accurate Methods",
+          "content": "LMP, conception, IVF, and ultrasound options available."
+        },
+        {
+          "heading": "Medical Alignment",
+          "content": "Based on the standard 40-week gestation model."
+        },
+        {
+          "heading": "Personalized Pregnancy Calendar",
+          "content": "Track milestones week by week with a clear pregnancy timeline."
+        },
+        {
+          "heading": "Shareable Tool",
+          "content": "Helpful for expectant parents, families, and healthcare providers."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a due date calculator be wrong?",
+      "a": "Yes. A due date is only an estimate. Only 1 in 25 babies are born on the exact predicted date. Most arrive within 2 weeks before or after."
+    },
+    {
+      "q": "How accurate is a pregnancy due date calculator?",
+      "a": "LMP-based calculators assume a 28-day cycle. Ultrasound-based dates (especially in the first trimester) are more accurate. Accuracy may vary if you have irregular cycles."
+    },
+    {
+      "q": "What if I don’t know my last period date?",
+      "a": "You can use a Conception Due Date Calculator or consult your doctor for an ultrasound due date estimator."
+    },
+    {
+      "q": "What’s the difference between due date calculator vs. ultrasound?",
+      "a": "Due Date Calculator Online uses menstrual/conception data, while ultrasound calculators measure baby’s growth and are often more reliable in early pregnancy."
+    },
+    {
+      "q": "Can I calculate my due date if I had IVF?",
+      "a": "Yes. Use the IVF Due Date Calculator with your embryo transfer date for higher accuracy."
+    },
+    {
+      "q": "What is the baby due date week range?",
+      "a": "Pregnancy typically lasts 37–42 weeks. Babies born between these weeks are considered within the normal range."
+    }
+  ]
+}

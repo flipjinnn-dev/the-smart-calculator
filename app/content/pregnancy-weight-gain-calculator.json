@@ -1,0 +1,127 @@
+{
+  "color": "pink",
+  "sections": [
+    {
+      "heading": "What is a Pregnancy Weight Gain Calculator?",
+      "content": "Our Pregnancy Weight Gain Calculator is a free tool designed to help expectant mothers estimate their ideal weight gain during pregnancy. It uses guidelines from the World Health Organization (WHO), Institute of Medicine (IOM), and NHS. <br><br>⚠️ Disclaimer: This tool is for educational purposes only. Always consult your doctor, gynecologist, or midwife for personalized guidance."
+    },
+    {
+      "heading": "Why Pregnancy Weight Gain Matters",
+      "subSections": [
+        {
+          "heading": "Supports Fetal Growth",
+          "content": "Ensures healthy development of the baby."
+        },
+        {
+          "heading": "Reduces Complications",
+          "content": "Helps lower risks of gestational diabetes and high blood pressure."
+        },
+        {
+          "heading": "Maintains Maternal Health",
+          "content": "Supports the mother’s health and recovery after delivery."
+        }
+      ]
+    },
+    {
+      "heading": "Recommended Weight Gain During Pregnancy (IOM/WHO/NHS)",
+      "subSections": [
+        {
+          "heading": "Underweight (BMI < 18.5)",
+          "content": "28–40 lbs (12.5–18 kg)"
+        },
+        {
+          "heading": "Normal Weight (BMI 18.5–24.9)",
+          "content": "25–35 lbs (11.5–16 kg)"
+        },
+        {
+          "heading": "Overweight (BMI 25–29.9)",
+          "content": "15–25 lbs (7–11.5 kg)"
+        },
+        {
+          "heading": "Obese (BMI ≥ 30)",
+          "content": "11–20 lbs (5–9 kg)"
+        },
+        {
+          "heading": "Twin/Multiple Pregnancy",
+          "content": "Higher ranges recommended — consult your doctor."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Pregnancy Weight Gain Calculator (Step-by-Step)",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter your height and weight (kg/cm or lbs/inches)."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Select your pre-pregnancy BMI category (or let the calculator auto-compute)."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Input your current week of pregnancy (1–40 weeks)."
+        },
+        {
+          "heading": "Step 4",
+          "content": "Click Calculate → Instantly see your recommended weight gain range and chart."
+        },
+        {
+          "heading": "Step 5",
+          "content": "View trimester-specific guidance and weekly tracking."
+        }
+      ]
+    },
+    {
+      "heading": "Key Features of Our Tool",
+      "subSections": [
+        {
+          "heading": "Global + Local Support",
+          "content": "Works in kg/cm (Asia, EU) and lbs/inches (US, UK)."
+        },
+        {
+          "heading": "Trimester Tracking",
+          "content": "Provides week-by-week pregnancy weight gain insights."
+        },
+        {
+          "heading": "Guideline-Based",
+          "content": "Follows WHO, IOM, and NHS recommendations."
+        },
+        {
+          "heading": "Supports All BMIs",
+          "content": "Works for underweight, normal, overweight, and obese mothers."
+        },
+        {
+          "heading": "Multiple Pregnancies",
+          "content": "Includes guidance for twin/multiple pregnancies."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much weight should I gain during pregnancy?",
+      "a": "It depends on your pre-pregnancy BMI. On average, women with normal BMI gain 11–16 kg (25–35 lbs)."
+    },
+    {
+      "q": "How do I calculate pregnancy weight gain?",
+      "a": "Use this calculator by entering your height, weight, BMI, and current pregnancy week."
+    },
+    {
+      "q": "Why is pregnancy weight gain important?",
+      "a": "It ensures your baby’s healthy growth and reduces risks of complications like premature birth or gestational diabetes."
+    },
+    {
+      "q": "What is safe pregnancy weight gain per week?",
+      "a": "First trimester: 1–2 kg (2–5 lbs) total. <br>Second & third trimesters: about 0.5 kg (1 lb) per week."
+    },
+    {
+      "q": "Can I use this calculator for twins or multiples?",
+      "a": "Yes, but multiple pregnancies require special care. Consult your doctor for personalized advice."
+    },
+    {
+      "q": "Is this calculator valid worldwide?",
+      "a": "Yes, it follows WHO and NHS guidelines and works globally (South Asia, Europe, US, etc.)."
+    }
+  ]
+}

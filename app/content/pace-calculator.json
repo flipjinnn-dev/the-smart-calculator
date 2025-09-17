@@ -1,0 +1,107 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "What is a Running Pace Calculator?",
+      "content": "Our Running Pace Calculator makes it simple to calculate running pace online for any distance and time. Whether you’re training for a 5K, 10K, half marathon, marathon, or just jogging for fitness, this free tool helps you track your pace per mile or pace per km with ease."
+    },
+    {
+      "heading": "How to Calculate Running Pace",
+      "content": "Running pace is the time it takes to cover one mile or one kilometer. The formula is simple: Pace = Total Time ÷ Distance. For example: If you run 5K in 25 minutes, your pace is 5:00 min/km (or 8:03 min/mile). If you run a marathon (42.2 km) in 4 hours, your pace is 5:41 min/km. This tool automatically calculates it for you in both metric (km/min) and imperial (mile/min) units."
+    },
+    {
+      "heading": "Why Running Pace Matters",
+      "subSections": [
+        {
+          "heading": "Race Planning",
+          "content": "Helps with pacing for 5K, 10K, half marathon, or marathon events."
+        },
+        {
+          "heading": "Training Zones",
+          "content": "Used to set easy runs, tempo runs, and interval workouts."
+        },
+        {
+          "heading": "Progress Tracking",
+          "content": "Compare your jogging pace vs race pace over time."
+        },
+        {
+          "heading": "Walking Pace",
+          "content": "Estimate walking times for fitness or hiking."
+        }
+      ]
+    },
+    {
+      "heading": "Running Pace vs Speed – What’s the Difference?",
+      "content": "Pace = minutes per km or minutes per mile (slower is a higher number). Speed = distance per hour (km/h or mph). Our calculator works as both a pace calculator and a running speed to pace converter."
+    },
+    {
+      "heading": "Average Running Paces & Training Examples",
+      "content": "Here’s how pace looks across common events:",
+      "subSections": [
+        {
+          "heading": "5K",
+          "content": "Finish Time: 25:00 | Pace: 5:00 min/km | 8:03 min/mile"
+        },
+        {
+          "heading": "10K",
+          "content": "Finish Time: 50:00 | Pace: 5:00 min/km | 8:03 min/mile"
+        },
+        {
+          "heading": "Half Marathon",
+          "content": "Finish Time: 2:00:00 | Pace: 5:41 min/km | 9:09 min/mile"
+        },
+        {
+          "heading": "Marathon",
+          "content": "Finish Time: 4:00:00 | Pace: 5:41 min/km | 9:09 min/mile"
+        }
+      ]
+    },
+    {
+      "heading": "Training Zones with a Pace Calculator",
+      "subSections": [
+        {
+          "heading": "Easy Run Pace",
+          "content": "60–75% effort, conversational pace."
+        },
+        {
+          "heading": "Tempo Pace",
+          "content": "Comfortably hard, sustainable for 20–40 minutes."
+        },
+        {
+          "heading": "Marathon Pace",
+          "content": "Target pace for your 26.2-mile race."
+        },
+        {
+          "heading": "Interval Pace",
+          "content": "Faster efforts for speed training."
+        },
+        {
+          "heading": "AI Running Pace Calculator",
+          "content": "Helps set realistic training zones from your latest race time."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a good running pace for beginners?",
+      "a": "A good starting pace is 7:00–9:00 min/km (11–14 min/mile), depending on fitness level."
+    },
+    {
+      "q": "What is a 5 min/km pace in miles?",
+      "a": "It equals about 8:03 min/mile or 12 km/h (7.5 mph)."
+    },
+    {
+      "q": "How do I calculate pace if I run 10K in 55 minutes?",
+      "a": "Divide 55 by 10 → 5:30 min/km (8:51 min/mile)."
+    },
+    {
+      "q": "Can I use this for walking or jogging pace?",
+      "a": "Yes, it works for walking pace, jogging pace, or running pace in both km and miles."
+    },
+    {
+      "q": "What’s the difference between a Race Pace Calculator and a Jogging Pace Calculator?",
+      "a": "Race Pace Calculator helps predict competitive race splits, while Jogging Pace Calculator is useful for casual fitness tracking."
+    }
+  ]
+}

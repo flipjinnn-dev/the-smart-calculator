@@ -32,6 +32,12 @@ const getColorVariants = (color: string) => {
       ultraLight: "#3b82f608",
       gradient: "from-blue-500 to-blue-600",
     },
+    pink: {
+      primary: "#ec4899",
+      light: "#ec489920",
+      ultraLight: "#ec489908",
+      gradient: "from-pink-500 to-pink-600",
+    },
     green: {
       primary: "#10b981",
       light: "#10b98120",

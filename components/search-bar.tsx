@@ -80,7 +80,10 @@ export default function SearchBar() {
   }
 
   return (
-    <div className="relative" ref={searchRef}>
+    <div
+      className={`relative z-[2147483647]`}
+      ref={searchRef}
+    >
       <div className="relative">
         <form
           onSubmit={handleSearch}
@@ -121,7 +124,9 @@ export default function SearchBar() {
         </form>
 
         {isOpen && (
-          <Card className="absolute top-full left-0 right-0 mt-2 z-50 shadow-2xl border-0 rounded-2xl overflow-hidden">
+          <Card
+            className="absolute top-full left-0 right-0 mt-2 z-[2147483647] shadow-2xl border-0 rounded-2xl overflow-hidden"
+          >
             <CardContent className="p-0">
               <div className="max-h-96 overflow-y-auto">
                 {searchQuery.trim() === "" && (

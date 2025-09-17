@@ -11,6 +11,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Dumbbell, Target, TrendingUp } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import oneRepMaxData from "@/app/content/one-rap-calculator.json"
 
 export default function OneRepMaxCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -181,7 +183,7 @@ export default function OneRepMaxCalculator() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Calculator Form */}
               <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 bg-white">
+                <Card className="shadow-2xl p-0 border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-red-50 to-rose-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calculator className="w-6 h-6 text-red-600" />
@@ -543,6 +545,12 @@ export default function OneRepMaxCalculator() {
               </Card>
             </div>
           </div>
+
+           {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={oneRepMaxData} />
+          </div>
+
         </main>
       </div>
     </>

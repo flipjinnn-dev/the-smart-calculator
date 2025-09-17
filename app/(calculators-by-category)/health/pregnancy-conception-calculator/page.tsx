@@ -10,6 +10,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import pregnancyConceptionData from "@/app/content/pregnancy-due-date.json"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -140,7 +142,7 @@ export default function PregnancyConceptionCalculator() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Calculator Form */}
               <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 bg-white">
+                <Card className="shadow-2xl border-0 bg-white p-0">
                   <CardHeader className="bg-gradient-to-r from-pink-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Baby className="w-6 h-6 text-pink-500" />
@@ -177,7 +179,7 @@ export default function PregnancyConceptionCalculator() {
 
               {/* Results Info Section */}
               <div className="lg:col-span-1">
-                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24">
+                <Card ref={resultsRef} className="shadow-2xl p-0 border-0 bg-white sticky top-24">
                   <CardHeader className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="text-2xl">Conception Info</CardTitle>
                     <CardDescription className="text-base">Your conception and pregnancy milestones</CardDescription>
@@ -201,46 +203,14 @@ export default function PregnancyConceptionCalculator() {
                 </Card>
               </div>
             </div>
-
-            {/* Information Section */}
-            <section className="mt-16">
-              <Card className="shadow-2xl border-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-gray-50 to-pink-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How Conception is Calculated?</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8 prose max-w-none">
-                  <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-                    The Pregnancy Conception Calculator estimates your conception date and milestones based on the provided date and method. It uses standard medical formulas for conception, due date, and pregnancy milestones. Always consult your doctor for personalized advice.
-                  </p>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-                    <div className="space-y-4">
-                      <h3 className="text-xl font-bold text-gray-900">Conception Date</h3>
-                      <p className="text-gray-600">
-                        The estimated date when conception occurred. Calculated based on your selected method and input date.
-                      </p>
-                    </div>
-                    <div className="space-y-4">
-                      <h3 className="text-xl font-bold text-gray-900">Due Date</h3>
-                      <p className="text-gray-600">
-                        The estimated date when your baby is due, based on conception date.
-                      </p>
-                    </div>
-                    <div className="space-y-4">
-                      <h3 className="text-xl font-bold text-gray-900">Weeks Since Conception</h3>
-                      <p className="text-gray-600">
-                        The number of weeks since conception, calculated from conception date to today.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="mt-8 p-6 bg-yellow-50 rounded-lg border-l-4 border-yellow-400">
-                    <p className="text-gray-700 font-medium">
-                      <strong>Important:</strong> The results above are a guideline for typical situations. Please consult with a doctor for your conception and pregnancy milestones if you have special medical conditions or questions.
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-            </section>
           </div>
+        
+          {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={pregnancyConceptionData} />
+          </div>
+
+
         </main>
 
       </div>

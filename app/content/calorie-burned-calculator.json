@@ -1,0 +1,119 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "What is a Calories Burned Calculator?",
+      "content": "A Calories Burned Calculator (also called Activity Calories Burned Calculator or Workout Calories Burned Calculator) estimates how many calories your body uses during physical activity. It helps with:<br><br>- Weight loss tracking<br>- Fitness planning<br>- Daily activity estimation<br>- Exercise comparison (running, walking, cycling, swimming, yoga, HIIT)"
+    },
+    {
+      "heading": "How to Calculate Calories Burned?",
+      "content": "The calculator uses the formula:<br><br><strong>Calories Burned = MET × Weight (kg) × Duration (hours)</strong><br><br>- MET = Intensity of activity<br>- Weight = Body weight in kg or lbs<br>- Duration = Time spent exercising",
+      "subSections": [
+        {
+          "heading": "Example Calculation",
+          "content": "Running at 8 km/h (MET 8.3) for 30 minutes at 70 kg weight:<br><br><strong>8.3 × 70 × 0.5 = ~290 calories burned</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "Calories Burned by Activity (Examples)",
+      "subSections": [
+        {
+          "heading": "Running (8 km/h)",
+          "content": "~580 calories/hour"
+        },
+        {
+          "heading": "Walking (5 km/h)",
+          "content": "~280 calories/hour"
+        },
+        {
+          "heading": "Cycling (moderate)",
+          "content": "~500 calories/hour"
+        },
+        {
+          "heading": "Swimming (freestyle)",
+          "content": "~700 calories/hour"
+        },
+        {
+          "heading": "Yoga",
+          "content": "~200 calories/hour"
+        },
+        {
+          "heading": "HIIT Workout",
+          "content": "~750 calories/hour"
+        },
+        {
+          "heading": "Strength Training",
+          "content": "~400 calories/hour"
+        },
+        {
+          "heading": "Zumba Dance",
+          "content": "~450 calories/hour"
+        },
+        {
+          "heading": "Treadmill Jogging",
+          "content": "~600 calories/hour"
+        },
+        {
+          "heading": "Elliptical Trainer",
+          "content": "~550 calories/hour"
+        }
+      ]
+    },
+    {
+      "heading": "Personalized Calories Burned Calculation",
+      "subSections": [
+        {
+          "heading": "By Weight",
+          "content": "Calories Burned Calculator by Weight (kg, lbs)."
+        },
+        {
+          "heading": "By Age & Gender",
+          "content": "Adjusts results based on age and gender."
+        },
+        {
+          "heading": "By Height & Weight",
+          "content": "More precise tracking with body measurements."
+        },
+        {
+          "heading": "By Heart Rate",
+          "content": "Calculates based on intensity and heart rate."
+        },
+        {
+          "heading": "For Overweight Individuals",
+          "content": "Provides more accurate calorie estimates."
+        }
+      ]
+    },
+    {
+      "heading": "Global Use and Local Relevance",
+      "content": "This calculator works worldwide (USA, UK, Canada, Australia, India, Pakistan, Europe). Trainers and fitness apps use it for weight loss programs, gym workouts, and personalized health plans."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How to calculate calories burned during exercise?",
+      "a": "Use the formula: MET × Weight (kg) × Duration (hours) or simply enter your details into our calculator."
+    },
+    {
+      "q": "What is the most accurate calorie burn calculator?",
+      "a": "Accurate calculators adjust for weight, age, gender, BMI, and heart rate—like ours."
+    },
+    {
+      "q": "How many calories are burned by running, walking, cycling, or swimming?",
+      "a": "Running: 500–800/hour, Walking: 200–350/hour, Cycling: 400–700/hour, Swimming: 500–900/hour."
+    },
+    {
+      "q": "How many calories are burned in 30 minutes of exercise?",
+      "a": "Yoga: ~100, Walking: ~150, Running: ~300, HIIT: ~350–400."
+    },
+    {
+      "q": "Can I calculate daily calories burned?",
+      "a": "Yes. Our Daily Calories Burned Calculator estimates energy expenditure across all activities."
+    },
+    {
+      "q": "Does weight affect calories burned?",
+      "a": "Yes, heavier individuals burn more calories per activity compared to lighter individuals."
+    }
+  ]
+}

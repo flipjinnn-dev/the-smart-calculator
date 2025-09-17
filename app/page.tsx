@@ -14,7 +14,7 @@ import {
   MoreHorizontal,
   Beef,
 } from "lucide-react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import Logo from "@/components/logo"
 import SearchBar from "@/components/search-bar"
 import { getCalculatorCount } from "@/lib/calculator-data"
@@ -206,153 +206,148 @@ export default function HomePage() {
         {/* Header */}
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
+            <div className="flex justify-center items-center h-20">
               <div className="flex items-center space-x-3">
                 <Logo />
                 <div>
-                  <p className="text-2xl font-bold bg-gradient-to-r from-blue-500 via-red-500 to-green-500 bg-clip-text text-transparent">
+                  <p className="text-2xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-red-500 bg-clip-text text-transparent">
                     Smart Calculators
                   </p>
                   <p className="text-sm text-gray-500">Free Online Calculators</p>
                 </div>
               </div>
-              <div className="hidden md:block">
-                <SearchBar />
-              </div>
             </div>
           </div>
         </header>
 
-        <section className="md:relative md:py-24 px-4 sm:px-6 lg:px-8 md:bg-gradient-to-br md:from-blue-50 md:via-purple-50 md:to-indigo-100 md:overflow-hidden">
-          {/* Desktop background decorative elements */}
-          <div className="hidden md:block absolute inset-0 overflow-hidden">
-            <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl"></div>
-            <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-purple-400/20 to-indigo-400/20 rounded-full blur-3xl"></div>
+        <section className="relative py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50/80 via-blue-50/80 to-red-50/80 overflow-hidden">
+          <div className="absolute inset-0 overflow-hidden">
+            <div className="absolute -top-10 -left-10 w-40 h-40 bg-gradient-to-br from-green-400/30 to-green-600/30 rounded-full blur-xl"></div>
+            <div className="absolute top-32 left-32 w-24 h-24 bg-gradient-to-br from-blue-400/40 to-blue-600/40 rounded-full blur-lg"></div>
+            <div className="absolute -bottom-16 -right-16 w-56 h-56 bg-gradient-to-br from-red-400/25 to-red-600/25 rounded-full blur-2xl"></div>
+            <div className="absolute bottom-32 right-40 w-32 h-32 bg-gradient-to-br from-green-400/30 to-blue-500/30 rounded-full blur-xl"></div>
+
+            <div className="absolute top-20 right-20 w-6 h-6 bg-gradient-to-r from-green-500 to-blue-500 rounded transform rotate-45 opacity-60"></div>
+            <div className="absolute bottom-40 left-40 w-4 h-4 bg-gradient-to-r from-blue-500 to-red-500 rounded-full opacity-50"></div>
+            <div className="absolute top-1/2 left-20 w-8 h-8 border-2 border-green-400/40 rounded transform rotate-12"></div>
           </div>
 
-          <div className="md:hidden pt-6 pb-4">
-            <div className="text-center">
-              <h1 className="text-3xl font-bold text-gray-900 mb-2">
-                Your life in{" "}
-                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  90+ free calculators
-                </span>
-              </h1>
-            </div>
-
-            <div className="mt-6 mb-6 px-4">
-              <div className="max-w-md mx-auto">
-                <SearchBar />
+          <div className="relative max-w-7xl mx-auto">
+            <div className="text-center md:grid md:grid-cols-2 md:gap-20 md:items-center md:min-h-[500px] md:text-left space-y-10 md:space-y-0">
+              {/* Left side - Hero text */}
+              <div className="space-y-6 md:space-y-8">
+                <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
+                  Your life in{" "}
+                  <span className="bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent">
+                    90+ free
+                  </span>
+                  <br />
+                  calculators
+                </h1>
+                <p className="text-lg md:text-xl text-gray-600 max-w-md md:max-w-lg mx-auto md:mx-0">
+                  <span className="md:hidden">
+                    Fast, accurate, and completely free calculation tools for every need
+                  </span>
+                  <span className="hidden md:inline">
+                    From financial planning to health tracking, discover powerful calculation tools that make complex
+                    math simple and accessible.
+                  </span>
+                </p>
               </div>
-            </div>
-          </div>
 
-          <div className="hidden md:block relative max-w-6xl mx-auto text-center">
-            <div className="mb-8">
-              <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg border border-white/20 mb-8">
-                <Sparkles className="w-5 h-5 text-blue-600 mr-2" />
-                <span className="text-sm font-semibold text-gray-700">Trusted by 1M+ Users Worldwide</span>
-              </div>
-            </div>
-            <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-[100px]">
-              Smart
-              <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent block">
-                Calculators
-              </span>
-            </h1>
-
-            <p className="text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
-              The most comprehensive collection of{" "}
-              <span className="font-semibold text-gray-800">free online calculators</span> for all your needs
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <div className="flex items-center space-x-2 text-gray-600">
-                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium">90+ Calculators</span>
-              </div>
-              <div className="flex items-center space-x-2 text-gray-600">
-                <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium">100% Free</span>
-              </div>
-              <div className="flex items-center space-x-2 text-gray-600">
-                <div className="w-2 h-2 bg-purple-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium">Instant Results</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Categories Grid */}
-        <section className="md:py-20 px-4 sm:px-6 lg:px-8 md:bg-gradient-to-br md:from-slate-50 md:via-white md:to-blue-50">
-          <div className="max-w-7xl mx-auto">
-            <div className="hidden md:block text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">Calculator Categories</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Choose from our comprehensive collection of calculators organized by category
-              </p>
-            </div>
-
-            <div className="md:hidden flex flex-col gap-4 px-2">
-              {categories.map((category) => {
-                const IconComponent = category.icon
-                return (
-                  <Link key={category.id} href={category.href}>
-                    <div className="flex items-center justify-between p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow mb-0">
-                      <div className="flex items-center space-x-3">
-                        <div
-                          className={`w-10 h-10 rounded-lg bg-gradient-to-r ${category.color} flex items-center justify-center`}
-                        >
-                          <IconComponent className="w-5 h-5 text-white" />
-                        </div>
-                        <span className="font-medium text-gray-900 text-base">{category.name}</span>
-                      </div>
-                      <span className="text-sm text-gray-500 font-medium">{category.calculators} calculators</span>
+              {/* Right side - Search bar */}
+              <div className="flex justify-center md:justify-end items-center">
+                <div className="w-full max-w-md md:max-w-lg px-4 md:px-0">
+                  <div className="bg-white/90 md:bg-white/95 backdrop-blur-sm md:backdrop-blur-md rounded-2xl md:rounded-3xl p-4 md:p-8 shadow-lg md:shadow-2xl border border-white/20 md:border-white/30 hover:shadow-3xl transition-all duration-300">
+                    <div className="hidden md:block mb-4">
+                      <h2 className="text-lg font-semibold text-gray-800 mb-2">Find your calculator</h2>
+                      <p className="text-sm text-gray-600">Search from hundreds of free tools</p>
                     </div>
-                  </Link>
-                )
-              })}
+                    <SearchBar />
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
 
-            <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 animate-stagger">
-              {categories.map((category) => {
-                const IconComponent = category.icon
-                return (
-                  <Link key={category.id} href={category.href}>
-                    <Card className="h-full hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer group border-0 shadow-lg hover-lift">
-                      <CardHeader className="pb-4">
-                        <div
-                          className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${category.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg`}
-                        >
-                          <IconComponent className="w-8 h-8 text-white" />
+          <div className="w-full bg-white mt-16 -mb-16 rounded-t-3xl shadow-xl">
+            <section className="py-12 md:py-20 px-4 sm:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="text-center mb-12">
+                  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Calculator Categories</h2>
+                  <p className="text-lg text-gray-600">
+                    Explore our comprehensive collection of specialized calculators
+                  </p>
+                </div>
+
+                {/* Mobile List View */}
+                <div className="block md:hidden space-y-2">
+                  {categories.map((category) => {
+                    const IconComponent = category.icon
+                    return (
+                      <Link key={category.id} href={category.href}>
+                        <div className="flex items-center justify-between p-4 bg-white border-b border-gray-100 hover:bg-gray-50 transition-colors duration-200 group">
+                          <div className="flex items-center space-x-4">
+                            <div className="w-8 h-8 flex items-center justify-center">
+                              <IconComponent className="w-5 h-5 text-blue-500" />
+                            </div>
+                            <div>
+                              <h3 className="font-medium text-gray-900 text-base group-hover:text-blue-600 transition-colors">
+                                {category.name}
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="text-right">
+                            <span className="text-sm text-gray-500">{category.calculators} calculators</span>
+                          </div>
                         </div>
-                        <CardTitle className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors mb-2">
-                          {category.name}
-                        </CardTitle>
-                        <CardDescription className="text-gray-600 text-base leading-relaxed">
-                          {category.description}
-                        </CardDescription>
-                      </CardHeader>
-                      <CardContent>
-                        <div className="flex items-center justify-between">
-                          <span className="text-sm font-semibold text-gray-500">
-                            {category.calculators} calculators
-                          </span>
-                          <span className="text-blue-600 text-sm font-bold group-hover:translate-x-2 transition-transform">
-                            Explore →
-                          </span>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </Link>
-                )
-              })}
-            </div>
+                      </Link>
+                    )
+                  })}
+                </div>
+
+                {/* Desktop Grid View */}
+                <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                  {categories.map((category) => {
+                    const IconComponent = category.icon
+                    return (
+                      <Link key={category.id} href={category.href}>
+                        <Card className="h-full hover:shadow-2xl transition-all duration-300 cursor-pointer group border border-gray-200 rounded-2xl p-8 hover:-translate-y-2 bg-gradient-to-b from-white to-gray-50/50">
+                          <div className="text-center space-y-6">
+                            <div className="relative">
+                              <div
+                                className={`w-16 h-16 mx-auto rounded-2xl bg-gradient-to-r ${category.color} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}
+                              >
+                                <IconComponent className="w-8 h-8 text-white" />
+                              </div>
+                              <div
+                                className={`absolute inset-0 w-16 h-16 mx-auto rounded-2xl bg-gradient-to-r ${category.color} opacity-20 blur-xl group-hover:opacity-40 transition-opacity duration-300`}
+                              ></div>
+                            </div>
+                            <div>
+                              <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                                {category.name}
+                              </h3>
+                              <p className="text-sm text-gray-600 mb-4 leading-relaxed">{category.description}</p>
+                              <div className="inline-flex items-center px-4 py-2 bg-gray-100 rounded-full">
+                                <span className="text-sm font-semibold text-gray-700">
+                                  {category.calculators} calculators
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </Card>
+                      </Link>
+                    )
+                  })}
+                </div>
+              </div>
+            </section>
           </div>
         </section>
 
-        {/* Popular Calculators (now visible on all screens) */}
-        <section className="py-12 md:py-20 px-2 sm:px-6 lg:px-8 bg-white">
+        {/* Popular Calculators */}
+        <section className="py-12 md:py-20 px-2 sm:px-6 lg:px-8 bg-gray-50">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-10 md:mb-16">
               <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">Most Popular Calculators</h2>
@@ -368,7 +363,9 @@ export default function HomePage() {
                         <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-2 md:mb-3 group-hover:text-blue-600 transition-colors">
                           {calc.name}
                         </h3>
-                        <p className="text-gray-600 mb-2 md:mb-4 leading-relaxed text-sm md:text-base">{calc.description}</p>
+                        <p className="text-gray-600 mb-2 md:mb-4 leading-relaxed text-sm md:text-base">
+                          {calc.description}
+                        </p>
                         <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
                           {calc.category}
                         </span>
@@ -387,11 +384,13 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Features Section (now visible on all screens) */}
+        {/* Features Section */}
         <section className="py-12 md:py-20 px-2 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-10 md:mb-16">
-              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">Why Choose Smart Calculator?</h2>
+              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">
+                Why Choose Smart Calculator?
+              </h2>
               <p className="text-base md:text-xl text-gray-600">Fast, accurate, and completely free to use</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">

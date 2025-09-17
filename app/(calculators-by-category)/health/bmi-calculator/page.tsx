@@ -13,6 +13,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import bmiData from "@/app/content/bmi-calculator.json"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -482,61 +484,10 @@ export default function BMICalculator() {
 
             {/* Information Section */}
             <section className="mt-16">
-              <Card className="shadow-2xl border-0 pt-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-gray-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">About BMI Calculator</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8 prose max-w-none">
-                  <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-                    Body Mass Index (BMI) is a simple calculation using a person's height and weight. The formula is BMI
-                    = kg/m² where kg is a person's weight in kilograms and m² is their height in metres squared.
-                  </p>
-
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">BMI Categories</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                    <div className="space-y-3">
-                      <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
-                        <span className="font-medium">Underweight</span>
-                        <span className="text-blue-600 font-bold">Below 18.5</span>
-                      </div>
-                      <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
-                        <span className="font-medium">Normal weight</span>
-                        <span className="text-green-600 font-bold">18.5 - 24.9</span>
-                      </div>
-                      <div className="flex justify-between items-center p-3 bg-yellow-50 rounded-lg">
-                        <span className="font-medium">Overweight</span>
-                        <span className="text-yellow-600 font-bold">25 - 29.9</span>
-                      </div>
-                      <div className="flex justify-between items-center p-3 bg-red-50 rounded-lg">
-                        <span className="font-medium">Obese</span>
-                        <span className="text-red-600 font-bold">30 and above</span>
-                      </div>
-                    </div>
-
-                    <div className="space-y-4">
-                      <h4 className="font-bold text-gray-900">Additional Metrics</h4>
-                      <div className="space-y-2 text-sm">
-                        <p>
-                          <strong>BMI Prime:</strong> Ratio of actual BMI to upper limit of normal BMI (25)
-                        </p>
-                        <p>
-                          <strong>Ponderal Index:</strong> Alternative to BMI that accounts for body proportions
-                        </p>
-                        <p>
-                          <strong>Body Surface Area:</strong> Calculated using the DuBois formula
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="mt-8 p-6 bg-yellow-50 rounded-lg border-l-4 border-yellow-400">
-                    <p className="text-gray-700 font-medium">
-                      <strong>Important:</strong> BMI is a screening tool and is not intended to diagnose disease or
-                      illness. Please consult with a healthcare professional for personalized health advice.
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
+          {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={bmiData} />
+          </div>
             </section>
           </div>
         </main>

@@ -11,6 +11,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Timer, Activity, Zap, Clock } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import paceData from "@/app/content/pace-calculator.json"
 
 export default function RunningPaceCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -626,6 +628,11 @@ export default function RunningPaceCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+            {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={paceData} />
           </div>
         </main>
       </div>

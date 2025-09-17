@@ -12,6 +12,8 @@ import { Calculator, RotateCcw, Activity, Clock, Weight, Flame } from "lucide-re
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import CalculatorGuide from "@/components/calculator-guide"
+import calorieBurnData from "@/app/content/calorie-burned-calculator.json"
 
 
 // Activity data with MET values
@@ -585,6 +587,11 @@ export default function CaloriesBurnedCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={calorieBurnData} />
           </div>
         </main>
       </div>
