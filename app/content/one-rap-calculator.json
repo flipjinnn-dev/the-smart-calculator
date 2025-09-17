@@ -2,182 +2,139 @@
   "color": "pink",
   "sections": [
     {
-      "heading": "What is a BMI Calculator?",
-      "content": "A BMI Calculator (Body Mass Index Calculator) is a health tool that measures body fat based on height and weight. It gives you a BMI score that falls into categories such as underweight, normal, overweight, or obese. Our free online BMI Calculator supports both kg & cm and lbs & inches, making it useful worldwide (USA, UK, India, Pakistan, Canada, Australia, etc.)."
+      "heading": "What is a One Rep Max (1RM) Calculator?",
+      "content": "A One Rep Max Calculator (also called a 1RM Calculator Online or One Repetition Maximum Calculator) is a strength-training tool that estimates the maximum weight you can lift for one single repetition of an exercise. Instead of testing your absolute max lift in the gym which can be risky, you can calculate one rep max free by inputting the weight you lifted and the number of reps performed."
     },
     {
-      "heading": "BMI Definition and Calculation",
-      "content": "BMI is calculated using height and weight. Formula (Metric): BMI = Weight (kg) ÷ Height (m)². Formula (Imperial): BMI = (Weight (lbs) × 703) ÷ Height (in)²."
-    },
-    {
-      "heading": "How to Calculate BMI Online (Step-by-Step Guide)",
-      "content": "Steps to calculate BMI using our free online calculator:",
+      "heading": "Why is Calculating Your 1RM Important?",
       "subSections": [
         {
-          "heading": "Step 1",
-          "content": "Choose your measurement unit: kg/cm or lbs/inches."
+          "heading": "Set Training Loads",
+          "content": "Accurately adjust loads for strength, hypertrophy, or endurance."
         },
         {
-          "heading": "Step 2",
-          "content": "Enter your weight in kilograms or pounds."
+          "heading": "Track Progress",
+          "content": "Monitor improvements in bodybuilding, CrossFit, Olympic lifting, and powerlifting."
         },
         {
-          "heading": "Step 3",
-          "content": "Enter your height in centimeters or inches."
+          "heading": "Prevent Overtraining",
+          "content": "Stay safe by lifting within optimal intensity ranges."
         },
         {
-          "heading": "Step 4",
-          "content": "Select age & gender (optional) for better insights."
-        },
-        {
-          "heading": "Step 5",
-          "content": "Click Calculate BMI to instantly see your BMI score and category."
+          "heading": "Customize Programs",
+          "content": "Apply to 5x5 training, progressive overload, and hypertrophy cycles."
         }
       ]
     },
     {
-      "heading": "BMI Categories (WHO Standard BMI Chart)",
+      "heading": "Popular One Rep Max Formulas Explained",
       "subSections": [
         {
-          "heading": "Underweight",
-          "content": "Below 18.5"
+          "heading": "Epley Formula",
+          "content": "1RM = Weight × (1 + 0.0333 × Reps). Best for general lifters. Simple and accurate up to 10 reps but less accurate at very high reps."
         },
         {
-          "heading": "Normal Weight",
-          "content": "18.5 – 24.9"
+          "heading": "Brzycki Formula",
+          "content": "1RM = Weight × (36 ÷ (37 − Reps)). Good for strength and hypertrophy. Reliable under 10 reps but may underestimate for endurance sets."
         },
         {
-          "heading": "Overweight",
-          "content": "25 – 29.9"
-        },
-        {
-          "heading": "Obesity (Class 1)",
-          "content": "30 – 34.9"
-        },
-        {
-          "heading": "Obesity (Class 2)",
-          "content": "35 – 39.9"
-        },
-        {
-          "heading": "Obesity (Class 3 / Severe)",
-          "content": "40+"
+          "heading": "Lombardi Formula",
+          "content": "1RM = Weight × Reps^0.10. Popular among powerlifters. Works across wide rep ranges but may overestimate for beginners."
         }
       ]
     },
     {
-      "heading": "Why Use a BMI Calculator?",
+      "heading": "Safe Ways to Calculate 1RM Without Max Lifting",
       "subSections": [
         {
-          "heading": "Track Fitness Goals",
-          "content": "Monitor progress with a Fitness BMI Calculator."
+          "heading": "Choose Moderate Weights",
+          "content": "Lift 3–10 reps with proper form instead of maxing out."
         },
         {
-          "heading": "Compare BMI vs Body Fat",
-          "content": "Useful for athletes and gym users."
+          "heading": "Log Data",
+          "content": "Record the exact weight and repetitions performed."
         },
         {
-          "heading": "Medical Use",
-          "content": "Recommended by doctors as a quick health check."
-        },
-        {
-          "heading": "Assess Health Risks",
-          "content": "BMI helps identify risk of obesity-related conditions."
-        },
-        {
-          "heading": "Nutrition Tracking",
-          "content": "Supports balanced diet planning and wellness goals."
+          "heading": "Use Percentage Charts",
+          "content": "Estimate training loads at 50%, 60%, 70%, 80%, 90% safely."
         }
       ]
     },
     {
-      "heading": "BMI Calculator by Age and Gender",
+      "heading": "How to Use 1RM in Training Programs",
       "subSections": [
         {
-          "heading": "For Men & Women",
-          "content": "Separate BMI tracking for gender-specific insights."
+          "heading": "Strength Training",
+          "content": "Train at 80–90% of 1RM for 1–5 reps. Best for powerlifting, Olympic lifting, and CrossFit."
         },
         {
-          "heading": "For Kids & Teenagers",
-          "content": "Uses BMI percentile charts for growth monitoring."
+          "heading": "Hypertrophy (Muscle Growth)",
+          "content": "Train at 65–75% of 1RM for 6–12 reps. Effective for bodybuilding and size gains."
         },
         {
-          "heading": "For Adults & Seniors",
-          "content": "Age-based adjustments for accurate results."
+          "heading": "Endurance & Conditioning",
+          "content": "Train at 50–65% of 1RM for 12–20+ reps. Great for general fitness and functional training."
         },
         {
-          "heading": "Pregnancy BMI Calculator",
-          "content": "Helps monitor maternal health during pregnancy."
+          "heading": "Examples",
+          "content": "5x5 Workout (~75–85%), Progressive Overload (increase gradually), Hypertrophy Training, CrossFit strength-conditioning."
         }
       ]
     },
     {
-      "heading": "Global and Local BMI Calculator",
-      "content": "Our Global BMI Calculator works worldwide with region-specific formats:",
+      "heading": "Best Practices, Safety & Disclaimers",
       "subSections": [
         {
-          "heading": "USA",
-          "content": "Uses lbs/inches format."
+          "heading": "Warm Up",
+          "content": "Always warm up before testing or estimating."
         },
         {
-          "heading": "UK",
-          "content": "Widely applied in healthcare and fitness."
+          "heading": "Never Max Alone",
+          "content": "Use a spotter or safety equipment."
         },
         {
-          "heading": "India & Pakistan",
-          "content": "Uses kg/cm with WHO standards."
+          "heading": "Start Conservatively",
+          "content": "Beginners should lift cautiously."
         },
         {
-          "heading": "Canada & Australia",
-          "content": "kg/cm format plus BMI charts for health monitoring."
-        }
-      ]
-    },
-    {
-      "heading": "Ideal BMI Calculator – Find Your Healthy Weight",
-      "subSections": [
-        {
-          "heading": "Overweight BMI Calculator",
-          "content": "Supports weight-loss planning."
+          "heading": "Lift-Specific Adjustments",
+          "content": "Apply separately for bench, squat, deadlift, Olympic lifts."
         },
         {
-          "heading": "Underweight BMI Calculator",
-          "content": "Helps identify nutrition needs."
-        },
-        {
-          "heading": "Obesity BMI Calculator",
-          "content": "Shows risks linked with obesity."
+          "heading": "Listen to Your Body",
+          "content": "Avoid lifting through pain."
         }
       ]
     }
   ],
   "faq": [
     {
-      "q": "What is a BMI Calculator?",
-      "a": "A BMI Calculator measures your body mass index, showing if your weight is healthy for your height."
+      "q": "What is the most accurate One Rep Max formula?",
+      "a": "The Epley 1RM Formula Calculator is most accurate for lifts under 10 reps. Brzycki works well for moderate reps, while Lombardi suits powerlifters."
     },
     {
-      "q": "What is the normal BMI range?",
-      "a": "According to WHO, a normal BMI is 18.5 to 24.9."
+      "q": "Can beginners use a One Rep Max Calculator?",
+      "a": "Yes, beginners should avoid true max attempts and instead use submaximal lifts (3–10 reps) for safe estimates."
     },
     {
-      "q": "Is BMI accurate for everyone?",
-      "a": "BMI is a good screening tool but may not be accurate for athletes, pregnant women, or seniors."
+      "q": "How often should I recalculate my 1RM?",
+      "a": "Most lifters update results every 6–8 weeks. Advanced athletes may recalculate more often during strength cycles."
     },
     {
-      "q": "How do I calculate BMI manually?",
-      "a": "Use the formula: Weight (kg) ÷ Height (m²) or Weight (lbs) × 703 ÷ Height (in²)."
+      "q": "Is it safe to test my true one rep max in the gym?",
+      "a": "It can be risky without a spotter or proper equipment. Using a 1RM Calculator is safer and effective."
     },
     {
-      "q": "Can I use BMI Calculator for children?",
-      "a": "Yes, BMI percentile charts are used for kids and teenagers."
+      "q": "How do I use my 1RM to program workouts?",
+      "a": "Use a One Rep Max Percentage Calculator: 50–65% endurance, 65–75% hypertrophy, 75–85% strength, 85–95% power."
     },
     {
-      "q": "Is this BMI calculator free?",
-      "a": "Yes, it’s a free online tool available worldwide."
+      "q": "Does this calculator work for all exercises?",
+      "a": "Yes, it works for bench press, squat, deadlift, military press, Olympic lifts, and accessory movements."
     },
     {
-      "q": "What is the best BMI calculator online in 2025?",
-      "a": "Our BMI Calculator is accurate, globally compatible, and provides health tips, making it one of the best options in 2025."
+      "q": "Can I use this tool on mobile or in the gym?",
+      "a": "Yes, this free 1RM Calculator is optimized for mobile, desktop, and gym use worldwide."
     }
   ]
 }
