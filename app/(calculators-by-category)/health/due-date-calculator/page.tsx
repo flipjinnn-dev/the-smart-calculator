@@ -11,6 +11,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Calendar, Baby, Heart, Clock } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import dueDateData from "@/app/content/due-date-calculator.json"
 
 export default function PregnancyDueDateCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -282,7 +284,7 @@ export default function PregnancyDueDateCalculator() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Calculator Form */}
               <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 bg-white">
+                <Card className="shadow-2xl p-0  border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calculator className="w-6 h-6 text-purple-600" />
@@ -745,8 +747,13 @@ export default function PregnancyDueDateCalculator() {
               </Card>
             </div>
           </div>
-        </main>
-      </div>
+
+      {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={dueDateData} />
+          </div>
+      </main>
+    </div>
     </>
   )
 }
