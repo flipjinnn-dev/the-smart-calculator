@@ -220,11 +220,11 @@ export default function HomePage() {
           </div>
         </header>
 
-        <section className="relative py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50/80 via-blue-50/80 to-red-50/80 overflow-hidden">
-          <div className="absolute inset-0 overflow-hidden h-[300px] md:h-auto opacity-[0.5] md:opacity-[1]">
+        <section className="relative py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50/80 via-blue-50/80 to-red-50/80 overflow-hidden">
+          <div className="absolute inset-0 overflow-hidden h-[300px] md:h-[60vh] opacity-[0.5]">
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-gradient-to-br from-green-400/30 to-green-600/30 rounded-full blur-xl"></div>
             <div className="absolute top-32 left-32 w-24 h-24 bg-gradient-to-br from-blue-400/40 to-blue-600/40 rounded-full blur-lg"></div>
-            <div className="absolute -bottom-16 -right-16 w-56 h-56 bg-gradient-to-br from-red-400/25 to-red-600/25 rounded-full blur-2xl"></div>
+            <div className="absolute -bottom-16 -right-16 w-56 h-56 bg-gradient-to-br from-red-400/25 mb-[82px] to-red-600/25 rounded-full blur-2xl"></div>
             <div className="absolute bottom-32 right-40 w-32 h-32 bg-gradient-to-br from-green-400/30 to-blue-500/30 rounded-full blur-xl"></div>
 
             <div className="absolute top-20 right-20 w-6 h-6 bg-gradient-to-r from-green-500 to-blue-500 rounded transform rotate-45 opacity-60"></div>
