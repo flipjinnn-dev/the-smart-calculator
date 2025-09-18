@@ -159,17 +159,17 @@ export default function AboutPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-5xl font-bold text-blue-600 mb-4">200+</div>
+                <div className="text-5xl font-bold text-blue-600 mb-4">100+</div>
                 <p className="text-xl font-semibold text-gray-900 mb-2">Calculators</p>
                 <p className="text-gray-600">Comprehensive calculation tools</p>
               </div>
               <div className="text-center">
-                <div className="text-5xl font-bold text-green-600 mb-4">10M+</div>
+                <div className="text-5xl font-bold text-green-600 mb-4">1M+</div>
                 <p className="text-xl font-semibold text-gray-900 mb-2">Users</p>
                 <p className="text-gray-600">People trust our platform</p>
               </div>
               <div className="text-center">
-                <div className="text-5xl font-bold text-purple-600 mb-4">50M+</div>
+                <div className="text-5xl font-bold text-purple-600 mb-4">5M+</div>
                 <p className="text-xl font-semibold text-gray-900 mb-2">Calculations</p>
                 <p className="text-gray-600">Performed monthly</p>
               </div>
