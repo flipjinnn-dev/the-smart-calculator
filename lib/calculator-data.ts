@@ -649,6 +649,20 @@ export const calculators: Calculator[] = [
     popular: true
   },
   {
+    id:"simpsons-rule-calculator",
+    name: "Simpson's Rule Calculator",
+    description: "Calculate definite integrals using Simpson's Rule.",
+    href: "/simpsons-rule-calculator",
+    category: "other",
+  },
+  {
+    id:"piecewise-function-calculator-grapher",
+    name: "Piecewise Function Calculator & Grapher",
+    description: "Define, evaluate, and graph piecewise functions.",
+    href: "/piecewise-function-calculator-grapher",
+    category: "other",
+  },
+  {
     id:"time-calculator",
     name: "Time Calculator",
     description: "Perform calculations related to time, such as duration and time zone conversions.",

@@ -133,7 +133,6 @@ export default function AgeCalculator() {
         description="Find your exact age in years, months, and days. Use our free age calculator to calculate age instantly by date of birth."
         slug="/age-calculator"
         keywords="age calculator, calculate age, date of birth calculator, age in years months days"
-        type="SoftwareApplication"
       />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
