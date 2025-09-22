@@ -11,6 +11,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import pregnancyData from "@/app/content/pregnancy-calculator.json"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -155,7 +157,7 @@ export default function PregnancyCalculator() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Calculator Form */}
               <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 bg-white">
+                <Card className="shadow-2xl p-0 border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-pink-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Baby className="w-6 h-6 text-pink-500" />
@@ -192,7 +194,7 @@ export default function PregnancyCalculator() {
 
               {/* Results Info Section */}
               <div className="lg:col-span-1">
-                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24">
+                <Card ref={resultsRef} className="shadow-2xl p-0 border-0 bg-white sticky top-24">
                   <CardHeader className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="text-2xl">Pregnancy Info</CardTitle>
                     <CardDescription className="text-base">Your pregnancy schedule breakdown</CardDescription>
@@ -220,7 +222,7 @@ export default function PregnancyCalculator() {
 
             {/* Information Section */}
             <section className="mt-16">
-              <Card className="shadow-2xl border-0 bg-white">
+              <Card className="shadow-2xl p-0 border-0 bg-white">
                 <CardHeader className="bg-gradient-to-r from-gray-50 to-pink-50 rounded-t-lg border-b px-8 py-6">
                   <CardTitle className="text-2xl">How Pregnancy is Calculated?</CardTitle>
                 </CardHeader>
@@ -257,6 +259,12 @@ export default function PregnancyCalculator() {
               </Card>
             </section>
           </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={pregnancyData} />
+          </div>
+
         </main>
 
       </div>

@@ -11,6 +11,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Heart, Calendar } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import ovulationData from "@/app/content/ovulation-calculator.json"
 
 export default function OvulationCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -490,6 +492,11 @@ export default function OvulationCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+           {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={ovulationData} />
           </div>
         </main>
       </div>

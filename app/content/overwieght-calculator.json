@@ -1,0 +1,131 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Understand Your BMI and Overweight Status",
+      "content": "Maintaining a healthy weight is crucial for overall well-being, and the Overweight Calculator is a simple tool to help you understand your body weight in relation to your height. This calculator uses the Body Mass Index (BMI), a standard method recommended by health authorities to assess weight categories and potential health risks."
+    },
+    {
+      "heading": "What is BMI?",
+      "content": "BMI (Body Mass Index) is a measure that uses your height and weight to estimate whether you are underweight, normal weight, overweight, or obese. While it doesn’t measure body fat directly, it provides a reliable indicator for most adults.",
+      "subSections": [
+        {
+          "heading": "Key points",
+          "content": "• Easy to calculate with your weight and height\n• Helps classify weight categories\n• Useful for adults and children"
+        }
+      ]
+    },
+    {
+      "heading": "Overweight BMI Range",
+      "content": "The BMI scale classifies weight as follows:",
+      "subSections": [
+        {
+          "heading": "Underweight",
+          "content": "BMI < 18.5"
+        },
+        {
+          "heading": "Normal weight",
+          "content": "BMI 18.5 – 24.9"
+        },
+        {
+          "heading": "Overweight",
+          "content": "BMI 25 – 29.9"
+        },
+        {
+          "heading": "Obese",
+          "content": "BMI ≥ 30"
+        }
+      ]
+    },
+    {
+      "heading": "How to Calculate BMI",
+      "content": "You can calculate BMI using different methods:",
+      "subSections": [
+        {
+          "heading": "Metric Formula",
+          "content": "BMI = weight (kg) ÷ height² (m²)"
+        },
+        {
+          "heading": "Imperial Formula",
+          "content": "BMI = weight (lbs) ÷ height² (in²) × 703"
+        },
+        {
+          "heading": "Online BMI Calculator",
+          "content": "Or, simply use our free online BMI calculator below to get instant results."
+        }
+      ]
+    },
+    {
+      "heading": "BMI vs. Body Fat Percentage",
+      "content": "BMI gives a general idea of weight status but doesn’t distinguish between muscle and fat. For a more detailed health assessment, consider body composition analysis or combining BMI with waist circumference."
+    },
+    {
+      "heading": "Why Use a Healthy Weight Calculator?",
+      "content": "Using this BMI calculator for weight management, health assessment, or fitness tracking can help you:",
+      "subSections": [
+        {
+          "heading": "Benefits",
+          "content": "• Monitor weight trends over time\n• Understand health risks associated with overweight and obesity\n• Compare BMI with other measures like Ponderal Index or waist-to-height ratio"
+        }
+      ]
+    },
+    {
+      "heading": "Tool-Based Features",
+      "content": "Our calculator is designed for convenience and accuracy:",
+      "subSections": [
+        {
+          "heading": "Features",
+          "content": "• Online BMI calculator – accessible anywhere\n• Free BMI calculator – no sign-up required\n• BMI calculator with age – tailored for different age groups\n• Metric & Imperial BMI calculator – choose your preferred units\n• BMI calculator for weight loss, fitness, and overall health assessment"
+        }
+      ]
+    },
+    {
+      "heading": "Health Insights: BMI and Health Risks",
+      "content": "Understanding your BMI can help you take proactive steps toward better health:",
+      "subSections": [
+        {
+          "heading": "BMI and heart disease",
+          "content": "Higher BMI increases cardiovascular risk."
+        },
+        {
+          "heading": "BMI and diabetes",
+          "content": "Overweight individuals are more prone to type 2 diabetes."
+        },
+        {
+          "heading": "BMI and sleep apnea",
+          "content": "Excess weight may affect breathing during sleep."
+        },
+        {
+          "heading": "BMI and cholesterol levels",
+          "content": "Overweight BMI often correlates with higher cholesterol."
+        },
+        {
+          "heading": "BMI and physical activity",
+          "content": "Maintaining active habits improves BMI and overall health."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is BMI accurate for everyone?",
+      "a": "BMI is a good general guideline but may not fully reflect body fat for athletes, pregnant women, or older adults. Pair it with other measures for precise assessment."
+    },
+    {
+      "q": "Can children use this calculator?",
+      "a": "Yes! Our calculator includes BMI for children and BMI charts specific to age and gender."
+    },
+    {
+      "q": "How often should I check my BMI?",
+      "a": "Check your BMI periodically—monthly or quarterly—to monitor trends and make lifestyle adjustments as needed."
+    },
+    {
+      "q": "What should I do if my BMI shows overweight?",
+      "a": "Consult a healthcare provider for personalized guidance. Focus on balanced nutrition, regular physical activity, and weight management strategies."
+    },
+    {
+      "q": "Can BMI predict health problems?",
+      "a": "BMI is a useful screening tool for obesity classification and associated health risks, but it doesn’t diagnose conditions. Combine it with other assessments for a complete picture."
+    }
+  ]
+}

@@ -13,6 +13,8 @@ import { Wine, Calculator, Clock, AlertTriangle, Activity, RotateCcw, HelpCircle
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import bacData from "@/app/content/bac-calculator.json"
 
 interface Drink {
   id: string
@@ -291,7 +293,7 @@ export default function BACCalculator() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Calculator Form (left) */}
               <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 bg-white">
+                <Card className="shadow-2xl border-0 p-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Activity className="w-6 h-6 text-purple-600" />
@@ -934,6 +936,12 @@ export default function BACCalculator() {
               </Card>
             </div>
           </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={bacData} />
+          </div>
+
         </main>
       </div>
     </>

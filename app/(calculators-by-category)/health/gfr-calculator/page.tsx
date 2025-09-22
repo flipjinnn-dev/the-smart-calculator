@@ -12,6 +12,8 @@ import { Calculator, RotateCcw, Activity, AlertTriangle } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import gfrData from "@/app/content/gfr-calculator.json"
 
 export default function GFRCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -673,6 +675,11 @@ export default function GFRCalculator() {
               </Card>
             </div>
           </div>
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={gfrData} />
+          </div>
+
         </main>
       </div>
     </>

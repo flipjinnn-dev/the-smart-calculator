@@ -1,0 +1,147 @@
+{
+  "color": "lightgreen",
+  "sections": [
+    {
+      "heading": "Body Surface Area (BSA) Calculator Online – Accurate, Free, and Easy to Use",
+      "content": "Understanding your body surface area (BSA) is essential in medicine, research, and clinical care. This free BSA calculator helps you quickly and accurately estimate your BSA for adults, children, and special clinical scenarios. Whether you're a healthcare professional, medical student, or patient, this tool provides a smart, user-friendly solution for calculating BSA online."
+    },
+    {
+      "heading": "What is Body Surface Area (BSA) and Why is It Important?",
+      "content": "BSA is the total surface area of the human body, usually expressed in square meters (m²). It plays a critical role in medicine because it:",
+      "subSections": [
+        {
+          "heading": "Drug Dosages",
+          "content": "Helps calculate drug dosages, especially chemotherapy and critical care medications."
+        },
+        {
+          "heading": "Fluid Replacement",
+          "content": "Guides fluid replacement therapy in ICU patients."
+        },
+        {
+          "heading": "Kidney Assessments",
+          "content": "Supports kidney function assessments and other diagnostic tests."
+        },
+        {
+          "heading": "Personalized Care",
+          "content": "Provides personalized measurements for pediatric and adult care."
+        }
+      ]
+    },
+    {
+      "heading": "How to Calculate Body Surface Area (BSA) Accurately",
+      "content": "This BSA calculator online uses widely accepted formulas based on weight, height, and sometimes gender. Popular formulas include:",
+      "subSections": [
+        {
+          "heading": "Du Bois BSA Formula",
+          "content": "BSA (m²) = 0.007184 × Weight^0.425 × Height^0.725 — Used for adults & children, clinical standard."
+        },
+        {
+          "heading": "Mosteller Formula",
+          "content": "BSA (m²) = √(Height × Weight / 3600) — Simple, commonly used in hospitals."
+        },
+        {
+          "heading": "Haycock Formula",
+          "content": "BSA (m²) = 0.024265 × Weight^0.5378 × Height^0.3964 — Pediatric medicine."
+        },
+        {
+          "heading": "Gehan & George",
+          "content": "BSA (m²) = 0.0235 × Weight^0.51456 × Height^0.42246 — Research & clinical studies."
+        },
+        {
+          "heading": "Inputs",
+          "content": "Weight (kg), Height (cm), Gender (optional: pediatric adjustments)."
+        }
+      ]
+    },
+    {
+      "heading": "Clinical Applications of BSA",
+      "content": "The BSA measurement is not just a number—it has real-world medical applications:",
+      "subSections": [
+        {
+          "heading": "Chemotherapy dosing",
+          "content": "Personalized drug doses reduce toxicity while maintaining efficacy."
+        },
+        {
+          "heading": "ICU patients",
+          "content": "Guides fluid therapy and critical care monitoring."
+        },
+        {
+          "heading": "Pediatric medicine",
+          "content": "Adjusts medication and nutrition for children accurately."
+        },
+        {
+          "heading": "Kidney function tests",
+          "content": "Helps calculate renal clearance and dialysis parameters."
+        },
+        {
+          "heading": "Medical research",
+          "content": "Supports epidemiological studies, drug trials, and clinical audits."
+        }
+      ]
+    },
+    {
+      "heading": "Limitations & Disclaimer",
+      "content": "While this BSA calculator for adults and children is medically accurate, remember:",
+      "subSections": [
+        {
+          "heading": "Estimates only",
+          "content": "Results are estimates and should not replace medical advice."
+        },
+        {
+          "heading": "Professional guidance",
+          "content": "Always consult a healthcare professional before adjusting treatment."
+        },
+        {
+          "heading": "Other factors",
+          "content": "Body composition, hydration, and age may affect accuracy."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is BSA and why is it important?",
+      "a": "BSA represents your body's total surface area. It's crucial for drug dosing, ICU care, and medical testing, as it provides a more precise measure than BMI for clinical purposes."
+    },
+    {
+      "q": "How do I calculate BSA accurately?",
+      "a": "Enter your weight, height, and optionally gender into the calculator. Formulas like Du Bois, Mosteller, or Haycock are commonly used for accurate results."
+    },
+    {
+      "q": "Which BSA formula is the most reliable?",
+      "a": "The Du Bois formula is widely accepted for adults and children, but Mosteller is simpler and commonly used in hospitals."
+    },
+    {
+      "q": "How does BSA affect chemotherapy dosing?",
+      "a": "Chemotherapy drugs are dosed based on BSA to ensure treatment is effective while minimizing toxicity."
+    },
+    {
+      "q": "Can children and adults use the same BSA calculator?",
+      "a": "Yes, but pediatric formulas like Haycock provide more accurate results for children due to different body proportions."
+    },
+    {
+      "q": "How does weight and height influence BSA?",
+      "a": "BSA increases with both weight and height, reflecting the total body surface area more accurately than BMI."
+    },
+    {
+      "q": "Is the BSA calculator accurate for ICU patients?",
+      "a": "Yes, it is clinically validated, but adjustments may be required for critically ill patients with fluid imbalances."
+    },
+    {
+      "q": "Can I use this tool for medical research?",
+      "a": "Absolutely. The personalized BSA calculator online supports research and clinical studies by providing standardized measurements."
+    },
+    {
+      "q": "How is AI used in BSA calculations?",
+      "a": "AI can enhance accuracy, generate reports, and recommend clinical adjustments based on patient data trends."
+    },
+    {
+      "q": "Can this calculator be used in hospitals for clinical purposes?",
+      "a": "Yes, the medical BSA calculator and AI-powered BSA tools are suitable for hospital, ICU, and pediatric settings."
+    }
+  ],
+  "cta": {
+    "heading": "Calculate Your BSA Now",
+    "content": "Get accurate, fast, and reliable Body Surface Area results in seconds. Use our Free BSA Calculator today to personalize drug dosing, improve ICU care, and support clinical research. Take control of your health with precise BSA insights."
+  }
+}

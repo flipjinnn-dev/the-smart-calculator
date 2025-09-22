@@ -1,0 +1,92 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Discover Your Ideal Weight with Our Free Calculator",
+      "content": "Maintaining a healthy weight is crucial for overall well-being, fitness, and disease prevention. Our Ideal Weight Calculator helps you determine your optimal weight based on your height, age, gender, and body composition. Whether you want to calculate ideal weight for men, women, or for fitness goals, this tool provides accurate, science-backed results in seconds."
+    },
+    {
+      "heading": "How the Ideal Weight Calculator Works",
+      "subSections": [
+        {
+          "heading": "Hamwi Formula",
+          "content": "Men: 106 lbs for the first 5 feet + 6 lbs per inch over 5 feet\nWomen: 100 lbs for the first 5 feet + 5 lbs per inch over 5 feet"
+        },
+        {
+          "heading": "Devine Formula",
+          "content": "Similar to Hamwi but slightly adjusted for clinical accuracy."
+        },
+        {
+          "heading": "Robinson Formula",
+          "content": "Men: 52 kg + 1.9 kg per inch over 5 feet\nWomen: 49 kg + 1.7 kg per inch over 5 feet"
+        },
+        {
+          "heading": "Miller Formula",
+          "content": "Men: 56.2 kg + 1.41 kg per inch over 5 feet\nWomen: 53.1 kg + 1.36 kg per inch over 5 feet"
+        }
+      ]
+    },
+    {
+      "heading": "Why Ideal Weight Matters",
+      "content": "✔ Supports heart health and reduces cardiovascular risks\n✔ Helps maintain healthy blood sugar and cholesterol levels\n✔ Improves physical performance and endurance\n✔ Guides safe and effective weight management"
+    },
+    {
+      "heading": "Ideal Weight vs BMI vs Actual Weight",
+      "content": "• BMI (Body Mass Index): Measures body fat based on weight and height but does not account for muscle mass.\n• Ideal Weight: Provides a target weight range optimized for height, gender, and body type.\n• Actual Weight: Your current weight—comparing it with your ideal weight helps identify areas for improvement.\n\n💡 Tip: Use our BMI and Ideal Weight Calculator to get a complete picture of your body composition."
+    },
+    {
+      "heading": "Guidelines for Maintaining Ideal Weight",
+      "content": "✔ Follow a balanced diet rich in fruits, vegetables, lean proteins, and whole grains\n✔ Incorporate regular physical activity: cardio, strength training, and flexibility exercises\n✔ Monitor portion sizes and avoid excessive snacking\n✔ Stay hydrated and get adequate sleep\n✔ Track your progress using our Body Weight Calculator Tool and Body Fat Calculator"
+    },
+    {
+      "heading": "Related Tools",
+      "content": "• BMI Calculator – Check your Body Mass Index and see how it compares to your ideal weight\n• Body Fat Calculator – Measure body fat percentage for more precise health insights\n• Healthy Weight Calculator – Get a comprehensive view of healthy weight ranges for your age and height"
+    },
+    {
+      "heading": "Example Calculation",
+      "content": "Scenario: A 5’7” woman wants to know her ideal weight.\nHamwi Formula: 100 lbs + (5 lbs × 7 inches) = 135 lbs\nRobinson Formula: 49 kg + (1.7 kg × 7 inches) ≈ 61.9 kg (~136 lbs)\n\n✅ These results give a clear ideal weight range of 135–137 lbs."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the ideal weight for my height and age?",
+      "a": "It depends on your height, gender, and body composition. The calculator uses multiple formulas to give you a reliable range."
+    },
+    {
+      "q": "How accurate is the Ideal Weight Calculator?",
+      "a": "It provides estimates using trusted formulas, but factors like muscle mass and body fat distribution may affect accuracy."
+    },
+    {
+      "q": "Which formula is best for calculating ideal weight?",
+      "a": "Different formulas serve different purposes—Hamwi and Devine are traditional, while Robinson and Miller offer clinically adjusted values."
+    },
+    {
+      "q": "How does ideal weight differ from BMI?",
+      "a": "BMI measures body fat based on weight and height, while ideal weight provides a more specific target range for your height and gender."
+    },
+    {
+      "q": "Can I use this calculator for men and women?",
+      "a": "Yes, the tool supports both men and women with gender-specific formulas."
+    },
+    {
+      "q": "How often should I check my ideal weight?",
+      "a": "You can check periodically, especially when starting a new fitness or diet plan."
+    },
+    {
+      "q": "Is ideal weight the same as healthy weight?",
+      "a": "Not exactly—healthy weight may cover a broader range depending on lifestyle, age, and body composition."
+    },
+    {
+      "q": "How can I maintain my ideal weight?",
+      "a": "Follow a balanced diet, exercise regularly, monitor portion sizes, and track progress with calculators."
+    },
+    {
+      "q": "Does muscle mass affect ideal weight calculations?",
+      "a": "Yes, individuals with high muscle mass may weigh more than their 'ideal weight' but still be very healthy."
+    },
+    {
+      "q": "Are there tools to track changes from actual to ideal weight?",
+      "a": "Yes, you can use our Body Weight Calculator, BMI Calculator, and Body Fat Calculator to monitor your progress."
+    }
+  ]
+}

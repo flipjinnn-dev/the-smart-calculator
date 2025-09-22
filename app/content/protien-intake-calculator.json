@@ -1,0 +1,119 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "Protein Intake Calculator – Find Your Daily Protein Needs",
+      "content": "Our Protein Intake Calculator helps you determine exactly how much protein you need per day based on your weight, age, gender, activity level, and fitness goals. Whether you want to build muscle, lose fat, improve recovery, or maintain weight, this free tool provides a personalized daily protein requirement backed by nutrition science."
+    },
+    {
+      "heading": "How Much Protein Do I Need Daily?",
+      "subSections": [
+        {
+          "heading": "Sedentary adults",
+          "content": "0.8 g of protein per kilogram of body weight."
+        },
+        {
+          "heading": "Active adults & athletes",
+          "content": "1.2 – 2.0 g/kg."
+        },
+        {
+          "heading": "Muscle gain & bodybuilding",
+          "content": "1.6 – 2.2 g/kg."
+        },
+        {
+          "heading": "Fat loss while preserving muscle",
+          "content": "1.8 – 2.4 g/kg."
+        },
+        {
+          "heading": "Example",
+          "content": "A 70 kg person aiming for muscle gain may need 112–154 g of protein per day."
+        }
+      ]
+    },
+    {
+      "heading": "Recommended Protein Intake Calculator by Goal",
+      "subSections": [
+        {
+          "heading": "Muscle Gain",
+          "content": "Higher protein (1.6–2.2 g/kg) to support hypertrophy and recovery."
+        },
+        {
+          "heading": "Fat Loss",
+          "content": "Slightly higher protein (1.8–2.4 g/kg) to preserve lean muscle mass."
+        },
+        {
+          "heading": "Athletes & Runners",
+          "content": "Moderate to high protein (1.2–2.0 g/kg) for endurance and recovery."
+        },
+        {
+          "heading": "General Health & Weight Maintenance",
+          "content": "0.8–1.2 g/kg to meet basic needs."
+        }
+      ]
+    },
+    {
+      "heading": "Protein Intake Chart by Body Weight",
+      "content": "Body Weight (kg) | Sedentary (0.8 g/kg) | Active (1.4 g/kg) | Muscle Gain (2.0 g/kg) | Fat Loss (2.2 g/kg)\n--- | --- | --- | --- | ---\n60 | 48 g | 84 g | 120 g | 132 g\n70 | 56 g | 98 g | 140 g | 154 g\n80 | 64 g | 112 g | 160 g | 176 g\n90 | 72 g | 126 g | 180 g | 198 g\n100 | 80 g | 140 g | 200 g | 220 g"
+    },
+    {
+      "heading": "How to Calculate Protein Intake",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter your weight, age, gender, and activity level in the Protein Intake Calculator Online."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Choose your goal – muscle gain, fat loss, or maintenance."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Get your daily protein intake in grams, along with a recommended range."
+        }
+      ]
+    },
+    {
+      "heading": "Why Use a Protein Needs Calculator?",
+      "subSections": [
+        {
+          "heading": "Gym & Fitness enthusiasts",
+          "content": "Track muscle-building macros."
+        },
+        {
+          "heading": "Athletes & Runners",
+          "content": "Optimize recovery & performance."
+        },
+        {
+          "heading": "People on weight loss journeys",
+          "content": "Ensure safe protein intake."
+        },
+        {
+          "heading": "Anyone curious about healthy eating",
+          "content": "Balance macros for wellness."
+        },
+        {
+          "heading": "AI-powered precision",
+          "content": "Unlike generic charts, this tool adjusts for activity level, BMI, and fitness goals for a personalized result."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is my recommended protein intake?",
+      "a": "Your protein needs depend on body weight and activity level. Most adults need 0.8–2.2 g/kg/day depending on their fitness goals."
+    },
+    {
+      "q": "How much protein per kg of body weight?",
+      "a": "Sedentary: 0.8 g/kg | Active: 1.2–2.0 g/kg | Muscle gain: 1.6–2.2 g/kg | Fat loss: 1.8–2.4 g/kg."
+    },
+    {
+      "q": "Is high protein safe for fat loss?",
+      "a": "Yes, when paired with a calorie deficit. Higher protein helps preserve lean muscle while losing weight."
+    },
+    {
+      "q": "Do athletes need more protein?",
+      "a": "Yes. Endurance athletes need 1.2–1.6 g/kg, while strength athletes may need 1.6–2.2 g/kg for performance and recovery."
+    }
+  ]
+}

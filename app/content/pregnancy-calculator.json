@@ -1,0 +1,125 @@
+{
+  "color": "pink",
+  "sections": [
+    {
+      "heading": "Pregnancy Calculator Online: Your Guide to Tracking Pregnancy Weeks & Due Date",
+      "content": "Planning or tracking your pregnancy can be both exciting and overwhelming. A Pregnancy Calculator Online is a simple, reliable tool to estimate your pregnancy weeks, due date, and trimester milestones. Whether you want to know your conception date, track progress after IVF, or just understand your pregnancy timeline, this smart tool makes it easy and accurate."
+    },
+    {
+      "heading": "How Does a Pregnancy Calculator Work?",
+      "content": "A Pregnancy Due Date Calculator uses different methods to estimate your pregnancy timeline:",
+      "subSections": [
+        {
+          "heading": "LMP (Last Menstrual Period) Method",
+          "content": "Most commonly used method for calculating pregnancy weeks. Counts from the first day of your last period and provides an estimated due date with trimester breakdown."
+        },
+        {
+          "heading": "Conception Date Method",
+          "content": "If you know the exact date of conception, this method gives a precise week count. Useful for women with irregular periods or those tracking fertility."
+        },
+        {
+          "heading": "Ultrasound Method",
+          "content": "Estimates gestational age based on fetal measurements. Most accurate in early pregnancy (first trimester). May adjust your due date if LMP and ultrasound dates differ significantly."
+        },
+        {
+          "heading": "IVF (In Vitro Fertilization) Method",
+          "content": "Calculates pregnancy weeks from the embryo transfer date and provides a clear timeline for monitoring IVF pregnancy progress."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding Pregnancy Weeks & Trimesters",
+      "content": "Pregnancy is typically divided into three trimesters:",
+      "subSections": [
+        {
+          "heading": "First Trimester (Weeks 1–12)",
+          "content": "Early development, initial symptoms, and prenatal tests."
+        },
+        {
+          "heading": "Second Trimester (Weeks 13–26)",
+          "content": "Growth and movement, anatomy scans, and routine checkups."
+        },
+        {
+          "heading": "Third Trimester (Weeks 27–40)",
+          "content": "Final growth, labor preparation, and delivery planning."
+        }
+      ]
+    },
+    {
+      "heading": "Accuracy of Pregnancy Calculators",
+      "content": "Pregnancy calculators provide estimated due dates, not exact ones. Accuracy can vary depending on the method used (LMP vs. ultrasound vs. IVF). Most calculators are accurate within ±1–2 weeks. Irregular cycles, multiples, or late ovulation can affect predictions."
+    },
+    {
+      "heading": "Tips for Using a Pregnancy Calculator",
+      "content": "Make the most of your pregnancy tracking with these tips:",
+      "subSections": [
+        {
+          "heading": "Use a Pregnancy Weeks Calculator",
+          "content": "Track your current pregnancy week easily."
+        },
+        {
+          "heading": "Calendar View Tracking",
+          "content": "Use a calculator with a calendar view for visual progress tracking."
+        },
+        {
+          "heading": "For Multiple Pregnancies",
+          "content": "Use a Pregnancy Calculator for Twins or Multiples for tailored results."
+        },
+        {
+          "heading": "Personalized Tracking",
+          "content": "Maintain records of appointments and test results using a customized pregnancy calculator."
+        }
+      ]
+    },
+    {
+      "heading": "Medical Disclaimer",
+      "content": "This calculator is for informational purposes only. It is not a substitute for professional medical advice. Always consult your obstetrician or healthcare provider for personalized guidance and prenatal care."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How to calculate pregnancy weeks?",
+      "a": "Pregnancy weeks are calculated from the first day of your last menstrual period (LMP) or conception date."
+    },
+    {
+      "q": "What is my pregnancy due date?",
+      "a": "Your due date is an estimate based on LMP, ultrasound, or IVF transfer date, typically 40 weeks from conception."
+    },
+    {
+      "q": "Can ultrasound determine pregnancy weeks?",
+      "a": "Yes, early ultrasound is highly accurate for estimating gestational age, especially in the first trimester."
+    },
+    {
+      "q": "How accurate is a pregnancy calculator?",
+      "a": "Pregnancy calculators are generally accurate within 1–2 weeks, but factors like irregular cycles or multiples can affect estimates."
+    },
+    {
+      "q": "Pregnancy calculation by LMP vs Ultrasound — which is better?",
+      "a": "LMP is simple but may be less accurate for irregular cycles. Ultrasound provides a more precise estimate early in pregnancy."
+    },
+    {
+      "q": "How to calculate pregnancy with irregular periods?",
+      "a": "Use conception date if known, or an early ultrasound for more accurate results."
+    },
+    {
+      "q": "Pregnancy calculator according to IVF transfer — how does it work?",
+      "a": "It calculates gestational age from the embryo transfer date instead of LMP."
+    },
+    {
+      "q": "Why is the due date only an estimate?",
+      "a": "Pregnancy length varies naturally, so calculators provide an estimated window rather than an exact delivery date."
+    },
+    {
+      "q": "How to know conception date in pregnancy?",
+      "a": "Track ovulation or use a conception-based calculator to estimate the likely date."
+    },
+    {
+      "q": "Can I track my pregnancy online?",
+      "a": "Yes, tools like Smart Pregnancy Calculator Tools and apps help monitor progress, milestones, and trimesters."
+    }
+  ],
+  "cta": {
+    "heading": "Track Your Pregnancy Journey Today",
+    "content": "Use our Free Pregnancy Calculator to estimate your due date, pregnancy weeks, and trimesters with accuracy. Stay informed, plan your appointments, and follow your baby’s growth confidently!"
+  }
+}

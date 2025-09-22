@@ -1,0 +1,164 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "What is the Blood Alcohol Content (BAC) Calculator?",
+      "content": "The Blood Alcohol Content (BAC) Calculator is a reliable tool that estimates your alcohol levels based on drinks consumed, body weight, gender, and time. Unlike guessing, this calculator applies scientific formulas such as Widmark and Watson to estimate BAC Percentage. You can use this BAC Calculator Online for free to track your alcohol intake, understand limits, and reduce the risk of DUI or alcohol-related harm."
+    },
+    {
+      "heading": "How BAC is Calculated Accurately",
+      "subSections": [
+        {
+          "heading": "Body Weight & Gender",
+          "content": "Heavier individuals generally have lower BAC for the same alcohol intake. Gender also affects alcohol metabolism."
+        },
+        {
+          "heading": "Number of Drinks Consumed",
+          "content": "More drinks raise BAC, depending on volume and alcohol percentage."
+        },
+        {
+          "heading": "Time Since First Drink",
+          "content": "BAC decreases gradually as your body metabolizes alcohol (approx. 0.015% per hour)."
+        },
+        {
+          "heading": "Alcohol Concentration",
+          "content": "Different drinks (beer, wine, liquor) contain different alcohol percentages."
+        },
+        {
+          "heading": "Metabolism & Tolerance",
+          "content": "Individual differences like liver health, metabolism, and tolerance affect BAC."
+        }
+      ]
+    },
+    {
+      "heading": "Common Formulas Used in BAC Calculators",
+      "subSections": [
+        {
+          "heading": "Widmark Formula",
+          "content": "Estimates BAC using body weight, gender, drinks consumed, and hours since drinking."
+        },
+        {
+          "heading": "Watson Formula",
+          "content": "A more advanced method that considers body water content for precise calculation."
+        },
+        {
+          "heading": "Smart BAC Tools",
+          "content": "Modern BAC Calculators combine formulas to give quick and reliable results."
+        }
+      ]
+    },
+    {
+      "heading": "Effects of BAC Levels on Body and Brain",
+      "subSections": [
+        {
+          "heading": "0.02–0.05%",
+          "content": "Mild relaxation, slight euphoria."
+        },
+        {
+          "heading": "0.06–0.10%",
+          "content": "Impaired judgment, reduced coordination, slower reaction time."
+        },
+        {
+          "heading": "0.11–0.20%",
+          "content": "Significant impairment, poor balance, slurred speech."
+        },
+        {
+          "heading": "0.21–0.30%",
+          "content": "Confusion, dizziness, risk of blackout."
+        },
+        {
+          "heading": "0.31–0.40%",
+          "content": "Severe intoxication, possible unconsciousness."
+        },
+        {
+          "heading": "0.41%+",
+          "content": "Life-threatening alcohol poisoning."
+        }
+      ]
+    },
+    {
+      "heading": "Legal BAC Limits and DUI Awareness",
+      "subSections": [
+        {
+          "heading": "U.S. Drivers (21+)",
+          "content": "0.08% BAC is the legal limit in most states."
+        },
+        {
+          "heading": "Europe",
+          "content": "Many countries set the limit at 0.05% BAC."
+        },
+        {
+          "heading": "Professional & Underage Drivers",
+          "content": "Limits range from 0.00–0.03% BAC depending on law."
+        },
+        {
+          "heading": "DUI Risk",
+          "content": "Even small amounts of alcohol can impair driving ability."
+        }
+      ]
+    },
+    {
+      "heading": "Limitations of BAC Calculators",
+      "subSections": [
+        {
+          "heading": "Estimates Only",
+          "content": "Results may not reflect exact BAC due to metabolism, medications, or food intake."
+        },
+        {
+          "heading": "Not a Legal Tool",
+          "content": "Does not replace breathalyzer or law enforcement testing."
+        },
+        {
+          "heading": "Health Factors",
+          "content": "Conditions like liver disease or age affect accuracy."
+        },
+        {
+          "heading": "Safe Practice",
+          "content": "Never rely solely on a calculator to decide if you can drive."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a safe BAC level for driving?",
+      "a": "Typically, staying below 0.08% BAC is legally safe for drivers in the U.S., but lower limits may apply depending on age or profession."
+    },
+    {
+      "q": "How do I calculate my BAC?",
+      "a": "Enter your weight, gender, drinks consumed, and time since drinking into this BAC Calculator. It applies Widmark and Watson formulas."
+    },
+    {
+      "q": "How long does it take to sober up?",
+      "a": "On average, the body metabolizes alcohol at 0.015% BAC per hour, but this varies by age, metabolism, and liver health."
+    },
+    {
+      "q": "How many drinks reach 0.08% BAC?",
+      "a": "It depends on weight, gender, drink strength, and pace. Use the BAC Calculator by Drinks and Weight for a personalized estimate."
+    },
+    {
+      "q": "Are BAC calculators accurate?",
+      "a": "They provide estimates but cannot account for individual variations like food intake, tolerance, or medications."
+    },
+    {
+      "q": "Does body weight affect BAC?",
+      "a": "Yes. Higher body weight usually dilutes alcohol concentration, resulting in lower BAC for the same number of drinks."
+    },
+    {
+      "q": "Can athletes or seniors use a BAC calculator?",
+      "a": "Yes. Athletes may show lower BAC due to high muscle mass, while seniors may metabolize alcohol more slowly."
+    },
+    {
+      "q": "How fast does alcohol leave the bloodstream?",
+      "a": "On average, 0.015% BAC is metabolized per hour, but hydration, food, and liver health affect this."
+    },
+    {
+      "q": "Can BAC calculators prevent DUI?",
+      "a": "They raise awareness but cannot replace responsible choices. Always avoid driving after drinking."
+    },
+    {
+      "q": "Can AI help track BAC levels?",
+      "a": "Yes. AI-powered BAC calculators and apps can monitor consumption, estimate BAC in real time, and provide safety tips."
+    }
+  ]
+}

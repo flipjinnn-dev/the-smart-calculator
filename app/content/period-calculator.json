@@ -1,0 +1,97 @@
+{
+  "color": "pink",
+  "sections": [
+    {
+      "heading": "Period Calculator: Track Your Menstrual Cycle Accurately",
+      "content": "Understanding your menstrual cycle is essential for managing your health, planning pregnancies, and tracking fertility. Our Free Period Calculator Online helps you predict your next period, ovulation dates, and fertile window with ease and accuracy. Whether you have a regular cycle or irregular periods, this tool provides personalized insights based on your menstrual data."
+    },
+    {
+      "heading": "How to Use the Period Calculator",
+      "content": "Using our Menstrual Cycle Calculator is simple:",
+      "subSections": [
+        {
+          "heading": "Step 1: Enter Last Period Date (LMP)",
+          "content": "Input the first day of your last menstrual cycle."
+        },
+        {
+          "heading": "Step 2: Enter Average Cycle Length",
+          "content": "Typically 28 days, but it can range from 21 to 35 days."
+        },
+        {
+          "heading": "Step 3: Press 'Calculate'",
+          "content": "Get your next period date, fertile window, and ovulation date instantly."
+        }
+      ]
+    },
+    {
+      "heading": "Why Use a Period Calculator?",
+      "content": "Tracking your cycle offers multiple benefits:",
+      "subSections": [
+        {
+          "heading": "Plan for Pregnancy",
+          "content": "Know your ovulation days with our Ovulation and Fertility Calculator."
+        },
+        {
+          "heading": "Monitor Irregular Cycles",
+          "content": "Understand how cycle length affects your fertility days."
+        },
+        {
+          "heading": "Track Symptoms",
+          "content": "Predict PMS or period-related changes."
+        },
+        {
+          "heading": "Health Insights",
+          "content": "Detect changes in your menstrual cycle that may require medical attention."
+        },
+        {
+          "heading": "AI-Based Prediction",
+          "content": "Use AI-powered cycle tracking for higher accuracy."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding Menstrual Cycles, Ovulation & Fertility",
+      "content": "Get a deeper understanding of your reproductive health:",
+      "subSections": [
+        {
+          "heading": "What is a Menstrual Cycle?",
+          "content": "A monthly process involving ovulation, bleeding, and hormone changes. A typical cycle lasts 21–35 days, with menstruation usually 3–7 days."
+        },
+        {
+          "heading": "Fertile Window Explained",
+          "content": "The fertile window is the period when conception is most likely, usually 5 days before ovulation and on the day of ovulation."
+        },
+        {
+          "heading": "Ovulation and Conception",
+          "content": "Ovulation occurs when an egg is released from the ovary, usually mid-cycle. Tracking ovulation increases the chances of pregnancy."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How accurate is a period calculator?",
+      "a": "A period calculator predicts your cycle based on your input. Accuracy is highest with regular cycles and improves with AI-based tools."
+    },
+    {
+      "q": "Can I use a period calculator for irregular periods?",
+      "a": "Yes, our smart menstrual tracker adapts to irregular cycles to provide personalized predictions."
+    },
+    {
+      "q": "What is the normal length of a menstrual cycle?",
+      "a": "A normal cycle ranges from 21–35 days, with an average of 28 days."
+    },
+    {
+      "q": "How do I track my fertile days?",
+      "a": "Enter your cycle information in the Period and Ovulation Tracker to see your fertile window and ovulation dates."
+    },
+    {
+      "q": "Are there period calculators with reminders?",
+      "a": "Yes, some period calculator apps include reminders that notify you before your next period or fertile window."
+    }
+  ],
+  "cta": {
+    "heading": "Start Tracking Your Cycle Today",
+    "content": "Take control of your reproductive health with our Accurate Period Prediction Calculator. Enter your details to calculate your next period, ovulation date, and fertile days instantly. Start tracking your cycles for better planning and improved health insights!"
+  }
+}

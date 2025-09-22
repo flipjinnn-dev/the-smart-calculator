@@ -1,0 +1,101 @@
+{
+  "color": "red",
+  "sections": [
+    {
+      "heading": "Anorexic BMI Calculator: Assess Your Body Mass Index Safely",
+      "content": "The Anorexic BMI Calculator is a specialized tool designed to help individuals and caregivers assess body mass index (BMI) levels associated with anorexia nervosa. This online anorexic BMI tool provides quick insights into whether someone may be at risk of underweight-related health issues, ranging from mild to extreme anorexia. Using this calculator, you can calculate anorexic BMI safely and understand how your BMI compares to healthy ranges, guiding early intervention and clinical consultation."
+    },
+    {
+      "heading": "How to Use the Free Anorexic BMI Calculator Online",
+      "subSections": [
+        {
+          "heading": "Step-by-Step Guide (Metric Units)",
+          "content": "1. Enter your weight in kilograms (kg).\n2. Enter your height in centimeters (cm).\n3. Click “Calculate” to get your BMI."
+        },
+        {
+          "heading": "Step-by-Step Guide (US Units)",
+          "content": "1. Enter your weight in pounds (lbs).\n2. Enter your height in inches (in).\n3. Click “Calculate” to determine your BMI."
+        },
+        {
+          "heading": "Results",
+          "content": "Once calculated, your BMI will be displayed along with the risk category—mild, moderate, severe, or extreme anorexia."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding BMI Ranges for Anorexia",
+      "subSections": [
+        {
+          "heading": "Mild Anorexia",
+          "content": "BMI: 17–18.5 → Slightly below healthy BMI, increased risk of health complications."
+        },
+        {
+          "heading": "Moderate Anorexia",
+          "content": "BMI: 16–16.9 → Moderate underweight, higher risk of organ stress and nutrient deficiency."
+        },
+        {
+          "heading": "Severe Anorexia",
+          "content": "BMI: 15–15.9 → Significant underweight, requires medical supervision."
+        },
+        {
+          "heading": "Extreme Anorexia",
+          "content": "BMI: <15 → Life-threatening, urgent clinical intervention needed."
+        }
+      ]
+    },
+    {
+      "heading": "Why Use an Anorexic Body Mass Index Calculator?",
+      "content": "✔ Quickly compare your BMI against anorexia-specific thresholds.\n✔ Identify early warning signs of anorexia nervosa.\n✔ Understand low BMI health risks, including organ failure, bone density loss, and weakened immunity.\n✔ Support age-appropriate BMI interpretation for anorexia, especially in teens and young adults.\n✔ Compare your BMI with healthy BMI vs anorexic BMI ranges."
+    },
+    {
+      "heading": "Anorexic BMI vs Other BMI Categories",
+      "content": "• Anorexic BMI vs Healthy BMI: Highlights underweight severity.\n• Anorexic BMI vs Underweight BMI: Shows the difference between mild underweight and clinically significant anorexia.\n• Anorexia vs Bulimia BMI Chart: Useful for distinguishing between different eating disorders.\n• BMI Calculator for Extreme Thinness: Helps track dangerously low BMI trends."
+    },
+    {
+      "heading": "Limitations and Disclaimer",
+      "content": "⚠ BMI alone cannot diagnose anorexia nervosa. Clinical evaluation is essential.\n⚠ Does not account for muscle mass, body composition, or underlying medical conditions.\n⚠ Use this tool as a screening guide only, not a replacement for professional healthcare advice."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is anorexic BMI?",
+      "a": "Anorexic BMI refers to the body mass index range associated with anorexia nervosa, indicating underweight and potential health risks."
+    },
+    {
+      "q": "How do I calculate anorexic BMI?",
+      "a": "Enter your weight and height into our free anorexic BMI calculator online to get an immediate BMI reading."
+    },
+    {
+      "q": "What are the BMI ranges for anorexia?",
+      "a": "Mild: 17–18.5, Moderate: 16–16.9, Severe: 15–15.9, Extreme: <15."
+    },
+    {
+      "q": "Is anorexic BMI the same as underweight BMI?",
+      "a": "Not exactly. Underweight BMI is a broader category; anorexic BMI indicates clinically significant low weight."
+    },
+    {
+      "q": "Can teenagers use this anorexia BMI calculator?",
+      "a": "Yes, but BMI interpretation for teens may differ. Always consult a pediatrician or nutritionist."
+    },
+    {
+      "q": "What are the signs of anorexia by BMI?",
+      "a": "Signs include rapid weight loss, extremely low BMI, fatigue, dizziness, and irregular menstruation in females."
+    },
+    {
+      "q": "Can I use this tool to track my progress?",
+      "a": "Yes, the anorexia weight calculator helps monitor BMI changes, but professional guidance is recommended."
+    },
+    {
+      "q": "What are the health risks of a low BMI?",
+      "a": "Risks include heart complications, bone density loss, organ failure, weakened immunity, and hormonal imbalances."
+    },
+    {
+      "q": "How accurate is this anorexic BMI calculator?",
+      "a": "It provides an accurate BMI estimate, but clinical evaluation is essential for diagnosis and treatment planning."
+    },
+    {
+      "q": "What should I do if my BMI is in the extreme anorexia range?",
+      "a": "Seek immediate medical assistance. Extreme anorexia is life-threatening and requires professional intervention."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "color": "pink",
+  "sections": [
+    {
+      "heading": "Discover Your Body Type Easily",
+      "content": "Understanding your body shape is essential for setting realistic fitness goals, choosing flattering clothing, and improving overall health. Our Body Type Calculator Online is a fast, accurate, and user-friendly tool designed to help you calculate your body shape in minutes. Whether you want to identify an hourglass, pear, apple, or rectangular body shape, this tool provides precise measurements to guide your fitness and lifestyle choices."
+    },
+    {
+      "heading": "How to Use the Body Type Calculator",
+      "content": "Using our Body Shape Calculator Tool is simple and intuitive. Follow these steps:",
+      "subSections": [
+        {
+          "heading": "Step 1: Enter Your Measurements",
+          "content": "Input your bust/chest, waist, and hip measurements. For men, include shoulder and chest measurements for accurate classification."
+        },
+        {
+          "heading": "Step 2: Calculate Your Waist to Hip Ratio (WHR)",
+          "content": "This ratio is a key indicator of body type and health risk. Check our Waist to Hip Ratio Calculator for detailed analysis."
+        },
+        {
+          "heading": "Step 3: Click “Calculate”",
+          "content": "Instantly see your body type result with a clear breakdown and recommendations."
+        },
+        {
+          "heading": "Step 4: Review Personalized Insights",
+          "content": "Get guidance on fitness, diet, and styling tips based on your body shape."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding Body Types",
+      "content": "Different body types have distinct characteristics that can influence fitness, posture, and health outcomes.",
+      "subSections": [
+        {
+          "heading": "Hourglass",
+          "content": "Balanced bust and hip, narrow waist. Focus on strength training and core exercises."
+        },
+        {
+          "heading": "Pear",
+          "content": "Wider hips, smaller upper body. Emphasize lower body workouts and maintain cardio."
+        },
+        {
+          "heading": "Apple",
+          "content": "Broad upper body, larger waist. Prioritize cardio, core strengthening, and balanced diet."
+        },
+        {
+          "heading": "Rectangle",
+          "content": "Similar bust, waist, and hip measurements. Build curves with strength training and flexibility exercises."
+        },
+        {
+          "heading": "Inverted Triangle",
+          "content": "Broader shoulders, narrower hips. Focus on lower body and core development."
+        }
+      ]
+    },
+    {
+      "heading": "Why WHR Matters",
+      "content": "A higher waist-to-hip ratio can indicate increased risk of metabolic and cardiovascular conditions. Knowing your WHR helps you track health risks and design an effective fitness plan."
+    },
+    {
+      "heading": "Why Use a Body Type Calculator?",
+      "content": "Our Body Type Calculator provides multiple benefits:",
+      "subSections": [
+        {
+          "heading": "Advantages",
+          "content": "• Quick & Accurate: Get results in seconds using precise measurements.\n• Personalized Fitness Guidance: Tailor workouts to your body shape for better results.\n• Clothing & Styling Tips: Find the most flattering styles based on your body type.\n• Health Awareness: Monitor WHR and understand potential health risks.\n• Free & Easy: Fully online and accessible anytime."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a body type?",
+      "a": "Body type refers to the natural shape of your body determined by bone structure, fat distribution, and muscle mass. Common types include hourglass, pear, apple, rectangle, and inverted triangle."
+    },
+    {
+      "q": "Can I calculate my body shape at home?",
+      "a": "Yes! Use a tape measure to record your bust/chest, waist, and hips, then enter these values in our Body Type Calculator."
+    },
+    {
+      "q": "How does body type affect health?",
+      "a": "Certain body shapes, especially those with higher waist-to-hip ratios, may have increased risk of diabetes, heart disease, or metabolic conditions."
+    },
+    {
+      "q": "Is this calculator suitable for both men and women?",
+      "a": "Absolutely. Our tool is designed to accurately classify male and female body types and provide actionable insights."
+    },
+    {
+      "q": "How is body type different from BMI?",
+      "a": "BMI measures overall body weight relative to height, whereas body type focuses on shape and fat distribution, offering more personalized fitness guidance."
+    }
+  ],
+  "cta": {
+    "heading": "Take Control of Your Fitness & Style",
+    "content": "Stop guessing and start understanding your body. Use our Free Body Type Calculator now to identify your body shape, calculate WHR, and get tailored health and fitness recommendations. Knowing your body type is the first step toward smarter workouts, healthier habits, and a more confident you."
+  }
+}

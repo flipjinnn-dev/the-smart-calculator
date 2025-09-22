@@ -1,0 +1,148 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "What is a Lean Body Mass Calculator?",
+      "content": "A Lean Body Mass Calculator helps you estimate how much of your total body weight is made up of muscle, bones, organs, skin, and fluids — excluding body fat. Unlike a BMI Calculator, which only considers weight and height, an LBM Calculator provides a more accurate picture of your health, fitness, and metabolism. It uses formulas such as Boer, James, Hume, and Peters equations for accurate results."
+    },
+    {
+      "heading": "What is Lean Body Mass (LBM)?",
+      "subSections": [
+        {
+          "heading": "Definition",
+          "content": "Lean Body Mass (LBM) is your body weight minus all stored fat. It includes muscle, bones, connective tissues, organs, and water."
+        },
+        {
+          "heading": "Formula",
+          "content": "Lean Body Mass = Total Body Weight – Fat Mass."
+        },
+        {
+          "heading": "Example",
+          "content": "If you weigh 80 kg with 20% body fat, your LBM is 64 kg."
+        }
+      ]
+    },
+    {
+      "heading": "How to Calculate Lean Body Mass",
+      "subSections": [
+        {
+          "heading": "Boer Formula",
+          "content": "Commonly used in medical dosing."
+        },
+        {
+          "heading": "James Formula",
+          "content": "Designed for the general adult population."
+        },
+        {
+          "heading": "Hume Formula",
+          "content": "Widely used in clinical practice."
+        },
+        {
+          "heading": "Peters Formula",
+          "content": "Specially designed for children."
+        }
+      ]
+    },
+    {
+      "heading": "Why is Lean Body Mass Important?",
+      "subSections": [
+        {
+          "heading": "Fitness & Bodybuilding",
+          "content": "Tracks muscle growth and fat loss."
+        },
+        {
+          "heading": "Weight Loss Goals",
+          "content": "Helps optimize fat-burning without losing muscle."
+        },
+        {
+          "heading": "Medical Use",
+          "content": "Determines drug dosage, kidney function, and metabolic rate."
+        },
+        {
+          "heading": "Athletic Performance",
+          "content": "Higher LBM supports strength, endurance, and recovery."
+        }
+      ]
+    },
+    {
+      "heading": "Average Lean Body Mass by Gender",
+      "subSections": [
+        {
+          "heading": "Men",
+          "content": "Typically 70–85% of body weight."
+        },
+        {
+          "heading": "Women",
+          "content": "Typically 60–75% of body weight."
+        },
+        {
+          "heading": "Athletes",
+          "content": "Athletes and bodybuilders often have higher LBM percentages."
+        }
+      ]
+    },
+    {
+      "heading": "Lean Body Mass vs Body Fat vs BMI",
+      "subSections": [
+        {
+          "heading": "LBM vs Body Fat",
+          "content": "LBM is everything except fat, while body fat is stored fat only."
+        },
+        {
+          "heading": "LBM vs BMI",
+          "content": "BMI is a weight-to-height ratio and does not separate fat from muscle, while LBM gives a more precise health indicator."
+        },
+        {
+          "heading": "Best Use",
+          "content": "Combine LBM + Body Fat % + BMI for complete health assessment."
+        }
+      ]
+    },
+    {
+      "heading": "Use Our Lean Body Mass Calculator Now",
+      "content": "Quickly calculate your lean body weight online with our free tool. Enter your details, select a formula, and get instant results for health tracking, medication dosing, and fitness planning."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a Lean Body Mass Calculator?",
+      "a": "It estimates the amount of weight in your body that is not fat, including muscle, bone, water, and organs."
+    },
+    {
+      "q": "How accurate is the Lean Body Mass Calculator?",
+      "a": "It uses clinically validated formulas (Boer, James, Hume, Peters) for accurate estimates, but direct body composition tests (DEXA, BIA) are more precise."
+    },
+    {
+      "q": "Which formula is best for calculating LBM?",
+      "a": "Boer Formula is best for medical dosing, James Formula for general use, Hume Formula for clinical settings, and Peters Formula for children."
+    },
+    {
+      "q": "What is a healthy lean body mass percentage?",
+      "a": "Men: 70–85% of body weight. Women: 60–75%. Athletes often exceed these ranges."
+    },
+    {
+      "q": "How does LBM differ from BMI?",
+      "a": "BMI only measures weight vs. height, while LBM separates fat mass from lean tissues, offering a clearer health picture."
+    },
+    {
+      "q": "Can I use Lean Body Mass for medication dosing?",
+      "a": "Yes, many doctors use LBM to calculate drug dosages, chemotherapy dosing, and kidney function estimates."
+    },
+    {
+      "q": "Does having more lean body mass mean I’m healthier?",
+      "a": "Generally, yes. More LBM supports a faster metabolism, stronger muscles, and better overall health."
+    },
+    {
+      "q": "How can I increase lean body mass naturally?",
+      "a": "Strength training, adequate protein intake, proper sleep, and resistance workouts help build muscle and increase LBM."
+    },
+    {
+      "q": "Is Lean Body Mass better than Body Fat Percentage for tracking fitness?",
+      "a": "Both are important. LBM shows how much muscle you have, while body fat % shows how much fat you carry."
+    },
+    {
+      "q": "Is Lean Body Mass Calculator free to use?",
+      "a": "Yes, our Free Lean Body Mass Calculator Online is available anytime without cost."
+    }
+  ]
+}

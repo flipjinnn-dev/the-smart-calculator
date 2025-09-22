@@ -12,6 +12,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Zap, User, Activity } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import tdeeData from "@/app/content/tdee-calculator.json"
 
 export default function TDEECalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -249,12 +251,12 @@ export default function TDEECalculator() {
 
   return (
     <>
-<SEO
-  title="TDEE Calculator – Total Daily Energy Needs"
-  description="Find your daily calorie burn with our TDEE calculator. Plan diet, workouts, and weight goals with accurate energy estimates."
-  keywords="TDEE calculator, daily energy expenditure, calorie burn calculator"
-  slug="/health/tdee-calculator"
-/>
+      <SEO
+        title="TDEE Calculator – Total Daily Energy Needs"
+        description="Find your daily calorie burn with our TDEE calculator. Plan diet, workouts, and weight goals with accurate energy estimates."
+        keywords="TDEE calculator, daily energy expenditure, calorie burn calculator"
+        slug="/health/tdee-calculator"
+      />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -310,7 +312,7 @@ export default function TDEECalculator() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Calculator Form */}
               <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 bg-white">
+                <Card className="shadow-2xl p-0 border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calculator className="w-6 h-6 text-blue-600" />
@@ -376,22 +378,20 @@ export default function TDEECalculator() {
                             <button
                               type="button"
                               onClick={() => setHeightUnit("metric")}
-                              className={`px-3 py-1 text-xs rounded ${
-                                heightUnit === "metric"
+                              className={`px-3 py-1 text-xs rounded ${heightUnit === "metric"
                                   ? "bg-blue-600 text-white"
                                   : "bg-gray-200 text-gray-600 hover:bg-gray-300"
-                              }`}
+                                }`}
                             >
                               Metric
                             </button>
                             <button
                               type="button"
                               onClick={() => setHeightUnit("us")}
-                              className={`px-3 py-1 text-xs rounded ${
-                                heightUnit === "us"
+                              className={`px-3 py-1 text-xs rounded ${heightUnit === "us"
                                   ? "bg-blue-600 text-white"
                                   : "bg-gray-200 text-gray-600 hover:bg-gray-300"
-                              }`}
+                                }`}
                             >
                               US
                             </button>
@@ -460,22 +460,20 @@ export default function TDEECalculator() {
                             <button
                               type="button"
                               onClick={() => setWeightUnit("metric")}
-                              className={`px-3 py-1 text-xs rounded ${
-                                weightUnit === "metric"
+                              className={`px-3 py-1 text-xs rounded ${weightUnit === "metric"
                                   ? "bg-blue-600 text-white"
                                   : "bg-gray-200 text-gray-600 hover:bg-gray-300"
-                              }`}
+                                }`}
                             >
                               Metric
                             </button>
                             <button
                               type="button"
                               onClick={() => setWeightUnit("us")}
-                              className={`px-3 py-1 text-xs rounded ${
-                                weightUnit === "us"
+                              className={`px-3 py-1 text-xs rounded ${weightUnit === "us"
                                   ? "bg-blue-600 text-white"
                                   : "bg-gray-200 text-gray-600 hover:bg-gray-300"
-                              }`}
+                                }`}
                             >
                               US
                             </button>
@@ -866,6 +864,12 @@ export default function TDEECalculator() {
               </Card>
             </div>
           </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={tdeeData} />
+          </div>
+
         </main>
       </div>
     </>

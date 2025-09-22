@@ -13,6 +13,8 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import macroData from "@/app/content/macro-calculator.json" 
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -272,7 +274,7 @@ export default function MacroCalculator() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Calculator Form */}
               <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 bg-white">
+                <Card className="shadow-2xl border-0 p-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calculator className="w-6 h-6 text-green-600" />
@@ -760,6 +762,12 @@ export default function MacroCalculator() {
               </Card>
             </section>
           </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={macroData} />
+          </div>
+
         </main>
 
       </div>

@@ -12,6 +12,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Zap, User, Target } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import proteinIntakeData from "@/app/content/protien-intake-calculator.json"
 
 export default function ProteinIntakeCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -763,6 +765,11 @@ export default function ProteinIntakeCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+           {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={proteinIntakeData} />
           </div>
         </main>
       </div>

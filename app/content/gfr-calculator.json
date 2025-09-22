@@ -1,0 +1,122 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "What is a GFR Calculator?",
+      "content": "A GFR (Glomerular Filtration Rate) Calculator estimates how well your kidneys are filtering blood. It uses your age, sex, and serum creatinine levels to provide an estimated GFR (eGFR) and identify your CKD (Chronic Kidney Disease) stage. This tool is essential for monitoring kidney health in both adults and children."
+    },
+    {
+      "heading": "How the GFR Calculator Works",
+      "subSections": [
+        {
+          "heading": "Inputs Required",
+          "content": "Age, Sex, Serum Creatinine (mg/dL or μmol/L), Pediatric or Adult selection."
+        },
+        {
+          "heading": "Formulas Used",
+          "content": "CKD-EPI (most accurate for adults), MDRD (commonly used in CKD monitoring), and Schwartz Formula (for pediatric GFR calculation)."
+        },
+        {
+          "heading": "What Happens Next",
+          "content": "After entering details, the calculator estimates your eGFR and identifies CKD stage if applicable."
+        }
+      ]
+    },
+    {
+      "heading": "Why Use a GFR Calculator?",
+      "subSections": [
+        {
+          "heading": "Clear Kidney Health Insights",
+          "content": "Quickly understand how efficiently your kidneys filter blood."
+        },
+        {
+          "heading": "CKD Monitoring",
+          "content": "Track progression or detect early-stage kidney disease."
+        },
+        {
+          "heading": "Personalized Tracking",
+          "content": "Separate calculators for adults and children ensure accuracy."
+        },
+        {
+          "heading": "Formula Comparison",
+          "content": "Check results with CKD-EPI vs MDRD for optimal accuracy."
+        },
+        {
+          "heading": "Convenience",
+          "content": "Fast, free, and online without manual calculations."
+        }
+      ]
+    },
+    {
+      "heading": "Tips to Improve Kidney Function Naturally",
+      "subSections": [
+        {
+          "heading": "Stay Hydrated",
+          "content": "Drink enough water daily to support kidney filtration."
+        },
+        {
+          "heading": "Control Blood Pressure & Blood Sugar",
+          "content": "Helps prevent CKD progression."
+        },
+        {
+          "heading": "Eat a Kidney-Friendly Diet",
+          "content": "Limit salt, processed foods, and excess protein intake."
+        },
+        {
+          "heading": "Avoid Nephrotoxic Medications",
+          "content": "Only take medications that affect kidneys if prescribed."
+        },
+        {
+          "heading": "Exercise Regularly",
+          "content": "Supports cardiovascular health, indirectly improving kidneys."
+        },
+        {
+          "heading": "Regular Monitoring",
+          "content": "Use a GFR calculator online to track trends over time."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is GFR and why is it important?",
+      "a": "GFR measures how efficiently your kidneys filter blood, indicating overall kidney health."
+    },
+    {
+      "q": "How do I calculate GFR online?",
+      "a": "Enter your age, sex, and serum creatinine into the calculator to get an eGFR value."
+    },
+    {
+      "q": "What is the normal GFR range for adults?",
+      "a": "Typically 90–120 mL/min/1.73 m², though it varies with age and sex."
+    },
+    {
+      "q": "How does GFR compare to creatinine levels?",
+      "a": "GFR adjusts for age, sex, and body size, giving a more complete picture than creatinine alone."
+    },
+    {
+      "q": "Can a pediatric GFR calculator help children?",
+      "a": "Yes, the Schwartz formula is used to estimate kidney function in children."
+    },
+    {
+      "q": "Which is better: CKD-EPI or MDRD formula?",
+      "a": "CKD-EPI is more accurate for adults with normal or mildly reduced kidney function, while MDRD is widely used in CKD monitoring."
+    },
+    {
+      "q": "Can I track my kidney function over time?",
+      "a": "Yes, regular tracking with the GFR Calculator helps monitor changes and detect early issues."
+    },
+    {
+      "q": "Is this GFR calculator suitable for irregular kidney function?",
+      "a": "Yes, it adjusts for age, sex, and adult/pediatric status to remain reliable."
+    },
+    {
+      "q": "Are free GFR calculators as accurate as paid ones?",
+      "a": "Yes, our free calculator uses the same validated formulas as professional tools."
+    },
+    {
+      "q": "How can I improve GFR naturally?",
+      "a": "Hydration, healthy diet, blood pressure control, exercise, and regular monitoring can help maintain or improve kidney function."
+    }
+  ]
+}

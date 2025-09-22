@@ -11,6 +11,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Activity, Target, Heart, Scale } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import healthyWeightData from "@/app/content/healthy-weight-calculator.json"
 
 export default function HealthyWeightCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -486,6 +488,11 @@ export default function HealthyWeightCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+           {/* How to Use Section */}
+          <div className="mt-8">
+           <CalculatorGuide data={healthyWeightData} />
           </div>
         </main>
       </div>

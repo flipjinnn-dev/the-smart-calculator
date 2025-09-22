@@ -11,6 +11,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Heart, Activity, Target } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import targetHeartRateData from "@/app/content/target-heart-rate-calculator.json"
 
 export default function TargetHeartRateCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -788,6 +790,11 @@ export default function TargetHeartRateCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+         {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={targetHeartRateData} />
           </div>
         </main>
       </div>

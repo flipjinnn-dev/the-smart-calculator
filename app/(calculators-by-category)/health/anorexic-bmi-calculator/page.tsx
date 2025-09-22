@@ -13,6 +13,8 @@ import { Heart, Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Scal
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import anorexicBmiData from "@/app/content/anorexic-bmi-calculator.json"
 
 export default function AnorexicBMICalculator() {
   const [result, setResult] = useState<any>(null)
@@ -169,11 +171,11 @@ export default function AnorexicBMICalculator() {
 
   return (
     <>
-      <SEO 
-      title={"Anorexic BMI Calculator"} 
-      description={"Calculate BMI and assess anorexia nervosa severity using medical thresholds."} 
-      slug={"/health/anorexic-bmi-calculator"}
-      keywords="BMI, anorexia nervosa, medical thresholds" />
+      <SEO
+        title={"Anorexic BMI Calculator"}
+        description={"Calculate BMI and assess anorexia nervosa severity using medical thresholds."}
+        slug={"/health/anorexic-bmi-calculator"}
+        keywords="BMI, anorexia nervosa, medical thresholds" />
 
       <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
@@ -269,9 +271,8 @@ export default function AnorexicBMICalculator() {
                           </div>
                         </Label>
                         <Input
-                          className={`h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${
-                            errors.age ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                          }`}
+                          className={`h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${errors.age ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                            }`}
                           type="number"
                           step="1"
                           min="1"
@@ -296,9 +297,8 @@ export default function AnorexicBMICalculator() {
                         <Label className="text-sm font-medium text-gray-700 mb-3 block">Gender</Label>
                         <Select value={gender} onValueChange={setGender}>
                           <SelectTrigger
-                            className={`h-12 rounded-xl border-gray-200 focus:border-red-400 ${
-                              errors.gender ? "border-red-300 focus:border-red-400" : ""
-                            }`}
+                            className={`h-12 rounded-xl border-gray-200 focus:border-red-400 ${errors.gender ? "border-red-300 focus:border-red-400" : ""
+                              }`}
                           >
                             <SelectValue placeholder="Select gender" />
                           </SelectTrigger>
@@ -329,9 +329,8 @@ export default function AnorexicBMICalculator() {
                         {unitSystem === "us" ? (
                           <div className="flex space-x-2">
                             <Input
-                              className={`flex-1 h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${
-                                errors.heightFt ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                              }`}
+                              className={`flex-1 h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${errors.heightFt ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                                }`}
                               type="number"
                               step="1"
                               min="0"
@@ -343,9 +342,8 @@ export default function AnorexicBMICalculator() {
                               }}
                             />
                             <Input
-                              className={`flex-1 h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${
-                                errors.heightIn ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                              }`}
+                              className={`flex-1 h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${errors.heightIn ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                                }`}
                               type="number"
                               step="1"
                               min="0"
@@ -360,9 +358,8 @@ export default function AnorexicBMICalculator() {
                           </div>
                         ) : (
                           <Input
-                            className={`h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${
-                              errors.heightCm ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                            }`}
+                            className={`h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${errors.heightCm ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                              }`}
                             type="number"
                             step="0.1"
                             min="0"
@@ -394,9 +391,8 @@ export default function AnorexicBMICalculator() {
                           </div>
                         </Label>
                         <Input
-                          className={`h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${
-                            errors.weight ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                          }`}
+                          className={`h-12 rounded-xl border-gray-200 focus:border-red-400 focus:ring-red-200 shadow-sm ${errors.weight ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                            }`}
                           type="number"
                           step="0.1"
                           min="0"
@@ -460,15 +456,14 @@ export default function AnorexicBMICalculator() {
                       <div className="space-y-4">
                         <div className="grid grid-cols-1 gap-3 text-sm">
                           <div
-                            className={`bg-white p-4 rounded-lg border-2 ${
-                              result.warningLevel === "critical"
+                            className={`bg-white p-4 rounded-lg border-2 ${result.warningLevel === "critical"
                                 ? "border-red-500"
                                 : result.warningLevel === "danger"
                                   ? "border-red-400"
                                   : result.warningLevel === "warning"
                                     ? "border-orange-300"
                                     : "border-green-300"
-                            }`}
+                              }`}
                           >
                             <p className="text-3xl font-bold text-red-900">{result.bmi.toFixed(2)}</p>
                             <p className="text-gray-600">BMI kg/m²</p>
@@ -510,65 +505,60 @@ export default function AnorexicBMICalculator() {
                   <CardContent className="p-8">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                       <div
-                        className={`text-center p-6 rounded-xl border-2 ${
-                          result.warningLevel === "critical"
+                        className={`text-center p-6 rounded-xl border-2 ${result.warningLevel === "critical"
                             ? "bg-gradient-to-br from-red-100 to-red-200 border-red-500"
                             : result.warningLevel === "danger"
                               ? "bg-gradient-to-br from-red-50 to-red-100 border-red-400"
                               : result.warningLevel === "warning"
                                 ? "bg-gradient-to-br from-orange-50 to-orange-100 border-orange-300"
                                 : "bg-gradient-to-br from-green-50 to-green-100 border-green-300"
-                        }`}
+                          }`}
                       >
                         <div
-                          className={`w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3 ${
-                            result.warningLevel === "critical"
+                          className={`w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3 ${result.warningLevel === "critical"
                               ? "bg-gradient-to-r from-red-700 to-red-800"
                               : result.warningLevel === "danger"
                                 ? "bg-gradient-to-r from-red-600 to-red-700"
                                 : result.warningLevel === "warning"
                                   ? "bg-gradient-to-r from-orange-600 to-orange-700"
                                   : "bg-gradient-to-r from-green-600 to-green-700"
-                          }`}
+                            }`}
                         >
                           <Scale className="w-6 h-6 text-white" />
                         </div>
                         <h3
-                          className={`text-lg font-semibold mb-2 ${
-                            result.warningLevel === "critical"
+                          className={`text-lg font-semibold mb-2 ${result.warningLevel === "critical"
                               ? "text-red-800"
                               : result.warningLevel === "danger"
                                 ? "text-red-700"
                                 : result.warningLevel === "warning"
                                   ? "text-orange-700"
                                   : "text-green-700"
-                          }`}
+                            }`}
                         >
                           BMI Value
                         </h3>
                         <p
-                          className={`text-3xl font-bold mb-1 ${
-                            result.warningLevel === "critical"
+                          className={`text-3xl font-bold mb-1 ${result.warningLevel === "critical"
                               ? "text-red-900"
                               : result.warningLevel === "danger"
                                 ? "text-red-900"
                                 : result.warningLevel === "warning"
                                   ? "text-orange-900"
                                   : "text-green-900"
-                          }`}
+                            }`}
                         >
                           {result.bmi.toFixed(2)}
                         </p>
                         <p
-                          className={`text-sm ${
-                            result.warningLevel === "critical"
+                          className={`text-sm ${result.warningLevel === "critical"
                               ? "text-red-700"
                               : result.warningLevel === "danger"
                                 ? "text-red-600"
                                 : result.warningLevel === "warning"
                                   ? "text-orange-600"
                                   : "text-green-600"
-                          }`}
+                            }`}
                         >
                           kg/m²
                         </p>
@@ -714,6 +704,11 @@ export default function AnorexicBMICalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={anorexicBmiData} />
           </div>
         </main>
       </div>

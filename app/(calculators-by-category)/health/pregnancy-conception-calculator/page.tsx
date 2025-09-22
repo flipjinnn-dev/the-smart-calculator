@@ -11,7 +11,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
-import pregnancyConceptionData from "@/app/content/pregnancy-due-date.json"
+import pregnancyConceptionData from "@/app/content/pregnancy-conception-calculator.json"
 
 const jsonLd = {
   "@context": "https://schema.org",

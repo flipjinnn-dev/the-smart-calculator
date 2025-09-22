@@ -13,6 +13,8 @@ import { Calculator, RotateCcw, Calendar, Heart } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import periodData from "@/app/content/period-calculator.json"
 
 export default function PeriodCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -155,12 +157,12 @@ export default function PeriodCalculator() {
   return (
     <>
 
-<SEO
-  title="Period Calculator – Track Menstrual Cycle"
-  description="Predict your next period with our free calculator. Track menstrual cycle, fertile days, and ovulation for better planning."
-  keywords="period calculator, menstrual cycle calculator, ovulation and fertility tracker"
-  slug="/health/period-calculator"
-/>
+      <SEO
+        title="Period Calculator – Track Menstrual Cycle"
+        description="Predict your next period with our free calculator. Track menstrual cycle, fertile days, and ovulation for better planning."
+        keywords="period calculator, menstrual cycle calculator, ovulation and fertility tracker"
+        slug="/health/period-calculator"
+      />
       <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-purple-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -521,6 +523,11 @@ export default function PeriodCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={periodData} />
           </div>
         </main>
       </div>

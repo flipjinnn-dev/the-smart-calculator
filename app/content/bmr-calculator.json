@@ -1,0 +1,126 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "What is BMR and Why It Matters",
+      "content": "Basal Metabolic Rate (BMR) is the number of calories your body needs to maintain basic physiological functions at rest, such as breathing, circulation, and cell production.",
+      "subSections": [
+        {
+          "heading": "Weight Management",
+          "content": "Knowing your BMR helps you lose, gain, or maintain weight efficiently."
+        },
+        {
+          "heading": "Fitness Planning",
+          "content": "Design diet and exercise routines based on daily calorie needs."
+        },
+        {
+          "heading": "Health Monitoring",
+          "content": "Understand metabolism and energy expenditure for long-term health."
+        },
+        {
+          "heading": "Foundation of TDEE",
+          "content": "BMR forms the basis for Total Daily Energy Expenditure (TDEE)."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding TDEE: Total Daily Energy Expenditure",
+      "content": "Your TDEE is the total number of calories you burn in a day, factoring in physical activity.",
+      "subSections": [
+        {
+          "heading": "Sedentary",
+          "content": "Little to no exercise. Multiplier: 1.2"
+        },
+        {
+          "heading": "Light Activity",
+          "content": "Light exercise 1–3 days/week. Multiplier: 1.375"
+        },
+        {
+          "heading": "Moderate Activity",
+          "content": "Moderate exercise 3–5 days/week. Multiplier: 1.55"
+        },
+        {
+          "heading": "Very Active",
+          "content": "Intense exercise 6–7 days/week. Multiplier: 1.725"
+        },
+        {
+          "heading": "Extra Active",
+          "content": "Physically demanding job or training twice daily. Multiplier: 1.9"
+        }
+      ]
+    },
+    {
+      "heading": "How to Use This BMR Calculator",
+      "content": "Follow these steps to calculate your BMR and TDEE:",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter your details – Age, gender, height (cm), weight (kg), and activity level."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Click 'Calculate' – your BMR and TDEE will be displayed instantly."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Interpret results – use BMR/TDEE to plan weight loss, gain, or maintenance."
+        }
+      ]
+    },
+    {
+      "heading": "BMR Formulas Explained",
+      "content": "Different formulas exist for calculating BMR accurately:",
+      "subSections": [
+        {
+          "heading": "Mifflin-St Jeor Formula",
+          "content": "Most accurate for adults. Men: (10 × weight) + (6.25 × height) - (5 × age) + 5. Women: (10 × weight) + (6.25 × height) - (5 × age) - 161."
+        },
+        {
+          "heading": "Harris-Benedict Formula",
+          "content": "An older formula that may slightly overestimate BMR."
+        },
+        {
+          "heading": "Katch-McArdle Formula",
+          "content": "Ideal for those with known lean body mass."
+        }
+      ]
+    },
+    {
+      "heading": "Tips to Naturally Increase Your BMR",
+      "content": "Boost your metabolism with these strategies:",
+      "subSections": [
+        { "heading": "Strength Training", "content": "Build lean muscle mass." },
+        { "heading": "High-Protein Diet", "content": "Boost thermogenesis with protein." },
+        { "heading": "Stay Active", "content": "Increase NEAT (non-exercise activity thermogenesis)." },
+        { "heading": "Get Enough Sleep", "content": "Ensure optimal metabolic function." },
+        { "heading": "Stay Hydrated", "content": "Water intake supports metabolism." }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How accurate is a BMR calculator?",
+      "a": "Accuracy depends on the formula used and input precision. Mifflin-St Jeor is the most reliable for adults."
+    },
+    {
+      "q": "What’s the difference between BMR and TDEE?",
+      "a": "BMR measures calories at rest, while TDEE includes all daily activity. TDEE = BMR × activity factor."
+    },
+    {
+      "q": "Can I use BMR to lose weight?",
+      "a": "Yes. Consume fewer calories than your TDEE to lose weight, or more to gain weight."
+    },
+    {
+      "q": "How many calories do I burn a day?",
+      "a": "Your TDEE provides an estimate based on your BMR and activity level."
+    },
+    {
+      "q": "Which BMR formula should I use?",
+      "a": "Mifflin-St Jeor is best for general use, while Katch-McArdle suits those who know their body fat percentage."
+    }
+  ],
+  "cta": {
+    "heading": "Calculate Your BMR and TDEE Today",
+    "content": "Use our free BMR Calculator to understand your metabolism, daily calorie needs, and take control of your health and fitness goals."
+  }
+}

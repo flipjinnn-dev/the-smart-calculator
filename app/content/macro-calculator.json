@@ -1,0 +1,140 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "What is the Macro Calculator?",
+      "content": "The Macro Calculator Online helps you track daily macronutrients — protein, carbohydrates, and fats — based on your age, weight, height, activity level, and personal goals. Whether your goal is weight loss, muscle gain, or maintenance, this free tool provides precise daily macro targets to guide your nutrition plan."
+    },
+    {
+      "heading": "What Are Macronutrients and Why Are They Important?",
+      "subSections": [
+        {
+          "heading": "Protein",
+          "content": "Supports muscle repair, growth, and overall body function."
+        },
+        {
+          "heading": "Carbohydrates",
+          "content": "Provide energy for workouts, brain function, and daily activities."
+        },
+        {
+          "heading": "Fats",
+          "content": "Essential for hormone production, brain health, and nutrient absorption."
+        }
+      ]
+    },
+    {
+      "heading": "How Does a Macro Calculator Work?",
+      "subSections": [
+        {
+          "heading": "Calculate Total Daily Energy Expenditure (TDEE)",
+          "content": "Your Basal Metabolic Rate (BMR) multiplied by an activity factor determines total daily energy needs."
+        },
+        {
+          "heading": "Set Your Goal",
+          "content": "Weight Loss: Calorie deficit | Muscle Gain: Calorie surplus | Maintenance: Balanced intake."
+        },
+        {
+          "heading": "Determine Macro Ratios",
+          "content": "Weight Loss: 40% protein, 30% carbs, 30% fats | Muscle Gain: 30% protein, 50% carbs, 20% fats."
+        },
+        {
+          "heading": "Adjust for Diet Preferences",
+          "content": "Keto: Low carbs, high fats | Vegan: Plant-based protein | Intermittent Fasting: Adjust meal timing while keeping totals consistent."
+        }
+      ]
+    },
+    {
+      "heading": "Macro Calculator for Specific Goals",
+      "subSections": [
+        {
+          "heading": "Weight Loss",
+          "content": "Higher protein, moderate carbs, lower fats — helps preserve lean muscle."
+        },
+        {
+          "heading": "Muscle Gain",
+          "content": "Higher protein and carbs — supports muscle growth and recovery."
+        },
+        {
+          "heading": "Maintenance",
+          "content": "Balanced macros — maintains current weight and energy levels."
+        }
+      ]
+    },
+    {
+      "heading": "Diet-Specific Considerations",
+      "subSections": [
+        {
+          "heading": "Keto",
+          "content": "Keep carbs very low (5–10%) and increase healthy fats."
+        },
+        {
+          "heading": "Vegan",
+          "content": "Use plant proteins such as lentils, beans, and tofu."
+        },
+        {
+          "heading": "Intermittent Fasting",
+          "content": "Track total daily macros within eating windows."
+        }
+      ]
+    },
+    {
+      "heading": "Limitations of Macro Calculators",
+      "subSections": [
+        {
+          "heading": "Estimates Only",
+          "content": "Results vary depending on metabolism, health conditions, and lifestyle."
+        },
+        {
+          "heading": "Not a Medical Substitute",
+          "content": "Always consult a healthcare provider or dietitian before major dietary changes."
+        },
+        {
+          "heading": "Variations by Diet",
+          "content": "Different diet types (keto, vegan, bodybuilding) may shift macro ratios."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I calculate my daily macros?",
+      "a": "Your macros are calculated from TDEE, fitness goal, and macro ratio. This Macro Calculator does the math for you automatically."
+    },
+    {
+      "q": "How many carbs, proteins, and fats should I eat for weight loss?",
+      "a": "A common ratio is 40% protein, 30% carbs, 30% fats, but activity level and diet type matter."
+    },
+    {
+      "q": "Can macros help with muscle gain?",
+      "a": "Yes, a surplus with higher protein and carbs supports growth and recovery."
+    },
+    {
+      "q": "What is the difference between calories and macronutrients?",
+      "a": "Calories measure energy. Macros (protein, carbs, fats) are the nutrients that provide those calories."
+    },
+    {
+      "q": "Can I use a macro calculator for a vegan or keto diet?",
+      "a": "Yes, the calculator can be customized for vegan, keto, or intermittent fasting plans."
+    },
+    {
+      "q": "How accurate are macro calculators?",
+      "a": "They’re generally accurate within 5–10%, but personal metabolism and lifestyle affect actual needs."
+    },
+    {
+      "q": "Can macros change based on activity level?",
+      "a": "Yes, active people require more protein and carbs, while sedentary individuals need fewer calories."
+    },
+    {
+      "q": "Is this tool suitable for seniors or athletes?",
+      "a": "Yes, it adjusts recommendations based on age, activity, and performance goals."
+    },
+    {
+      "q": "Can I get a printable macro plan?",
+      "a": "Yes, some calculators provide downloadable or printable daily macro plans."
+    },
+    {
+      "q": "How can I adjust macros for different diets?",
+      "a": "You can modify ratios for keto, vegan, bodybuilding, or fasting while keeping calories aligned with goals."
+    }
+  ]
+}

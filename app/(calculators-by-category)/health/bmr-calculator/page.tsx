@@ -12,6 +12,8 @@ import Link from "next/link"
 import { Heart, Calculator, RotateCcw, Activity, Scale, Ruler, User } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import bmrData from "@/app/content/bmr-calculator.json"
 
 export default function BMRCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -199,12 +201,12 @@ export default function BMRCalculator() {
 
   return (
     <>
-<SEO
-  title="BMR Calculator – Basal Metabolic Rate Estimator"
-  description="Calculate your BMR and daily calorie needs. Use our free BMR calculator to plan diet, weight loss, and energy balance."
-  keywords="BMR calculator, basal metabolic rate calculator, calorie needs calculator"
-  slug="/health/bmr-calculator"
-/>
+      <SEO
+        title="BMR Calculator – Basal Metabolic Rate Estimator"
+        description="Calculate your BMR and daily calorie needs. Use our free BMR calculator to plan diet, weight loss, and energy balance."
+        keywords="BMR calculator, basal metabolic rate calculator, calorie needs calculator"
+        slug="/health/bmr-calculator"
+      />
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-teal-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -755,6 +757,11 @@ export default function BMRCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={bmrData} />
           </div>
         </main>
       </div>

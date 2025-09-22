@@ -11,6 +11,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Activity, Target, TrendingUp, Zap, Heart } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import leanBodyMassData from "@/app/content/lean-body-mass-calculator.json"
 
 export default function LeanBodyMassCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -214,12 +216,12 @@ export default function LeanBodyMassCalculator() {
 
   return (
     <>
-<SEO
-  title="Lean Body Mass Calculator – Fitness Measurement"
-  description="Estimate your lean body mass quickly and accurately. Use our free calculator to track muscle vs. fat for health goals."
-  keywords="lean body mass calculator, LBM calculator, muscle mass calculator"
-  slug="/health/lean-body-mass-calculator"
-/>
+      <SEO
+        title="Lean Body Mass Calculator – Fitness Measurement"
+        description="Estimate your lean body mass quickly and accurately. Use our free calculator to track muscle vs. fat for health goals."
+        keywords="lean body mass calculator, LBM calculator, muscle mass calculator"
+        slug="/health/lean-body-mass-calculator"
+      />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-slate-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -576,8 +578,8 @@ export default function LeanBodyMassCalculator() {
                               {result.methods.find((m: any) => m.recommended)?.result || result.averageLBM}kg (
                               {Math.round(
                                 (result.methods.find((m: any) => m.recommended)?.result || result.averageLBM) *
-                                  2.20462 *
-                                  10,
+                                2.20462 *
+                                10,
                               ) / 10}
                               lbs)
                             </p>
@@ -730,6 +732,12 @@ export default function LeanBodyMassCalculator() {
               </Card>
             </div>
           </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={leanBodyMassData} />
+          </div>
+
         </main>
       </div>
     </>

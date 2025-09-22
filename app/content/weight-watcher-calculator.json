@@ -1,0 +1,129 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Calculate Your Weight Watchers Points Instantly",
+      "content": "Use our Weight Watchers Points Calculator to quickly and accurately determine the SmartPoints for your meals, snacks, and recipes. Whether you’re following the WW program for weight loss or tracking your daily food intake, this WW Points Calculator Online provides a fast, reliable, and easy way to manage your points without guesswork."
+    },
+    {
+      "heading": "What Are Weight Watchers Points?",
+      "content": "Weight Watchers (WW) assigns a point value, called SmartPoints, to every food and beverage based on its nutritional content. The system helps you make healthier choices by:",
+      "subSections": [
+        {
+          "heading": "Encourages Healthy Choices",
+          "content": "High-protein, low-sugar foods are prioritized."
+        },
+        {
+          "heading": "Limits Unhealthy Items",
+          "content": "Discourages saturated fat and calorie-dense foods."
+        },
+        {
+          "heading": "Flexible Budgets",
+          "content": "Daily and weekly point budgets allow balance and flexibility."
+        },
+        {
+          "heading": "SmartPoints Calculation Factors",
+          "content": "Calories per serving, saturated fat content, sugar content, protein content."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the WW Points Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter your food items (name, quantity, or nutrition info)."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Add ingredients for recipes to calculate total SmartPoints."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Click 'Calculate' to get the WW points value."
+        },
+        {
+          "heading": "Step 4",
+          "content": "Track your points using the WW Points Tracker Tool."
+        },
+        {
+          "heading": "Tips",
+          "content": "Use exact portions, check Zero Point Foods, compare SmartPoints vs PointsPlus."
+        }
+      ]
+    },
+    {
+      "heading": "WW Points Calculator for Meals and Recipes",
+      "content": "Our Weight Watchers Recipe Points Calculator helps you determine points for:",
+      "subSections": [
+        {
+          "heading": "Meals & Snacks",
+          "content": "Breakfast, lunch, dinner, snacks."
+        },
+        {
+          "heading": "Food Types",
+          "content": "Homemade, packaged, and special diet meals (low-carb, high-protein)."
+        },
+        {
+          "heading": "Examples",
+          "content": "1 boiled egg = 0 points, 1 slice whole-grain bread = 2 points, 1 serving grilled chicken breast = 0 points."
+        }
+      ]
+    },
+    {
+      "heading": "Benefits of Using a WW Points Calculator",
+      "subSections": [
+        {
+          "heading": "Accurate Tracking",
+          "content": "Know the exact points in every food or recipe."
+        },
+        {
+          "heading": "Weight Loss Support",
+          "content": "Stay within daily SmartPoints for effective weight management."
+        },
+        {
+          "heading": "Meal Planning",
+          "content": "Quickly calculate points for meal prep."
+        },
+        {
+          "heading": "Convenience",
+          "content": "No app needed — use our Free Online WW SmartPoints Calculator anytime."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I calculate WW points for a meal?",
+      "a": "Enter each ingredient or food item into the calculator. The tool sums the points for the total meal value."
+    },
+    {
+      "q": "How many SmartPoints are in an egg?",
+      "a": "A standard boiled egg is 0 WW points."
+    },
+    {
+      "q": "Can I calculate WW points without the app?",
+      "a": "Yes, use our WW Points Calculator Online directly in your browser."
+    },
+    {
+      "q": "How many WW points should I eat per day?",
+      "a": "Daily points vary by age, gender, weight, and activity. Follow your WW plan target."
+    },
+    {
+      "q": "What foods have zero WW points?",
+      "a": "Eggs, lean chicken, fish, and non-starchy vegetables typically have 0 points."
+    },
+    {
+      "q": "How to convert calories to WW points?",
+      "a": "Enter calorie, protein, sugar, and fat values; the calculator converts them to SmartPoints."
+    },
+    {
+      "q": "How to calculate WW points for recipes?",
+      "a": "Enter each ingredient, sum the points, then divide by servings for per-serving value."
+    },
+    {
+      "q": "How do WW points help with weight loss?",
+      "a": "They guide you to choose lower-calorie, higher-protein foods, limiting sugar/fat for sustainable weight loss."
+    }
+  ]
+}

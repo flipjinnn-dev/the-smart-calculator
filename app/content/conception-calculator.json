@@ -1,0 +1,130 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "What is a Conception Calculator?",
+      "content": "A Conception Calculator helps you estimate your most fertile days, probable conception date, and expected due date based on your menstrual cycle. By analyzing your Last Menstrual Period (LMP), cycle length, and ovulation timing, this tool guides you in planning your pregnancy with confidence."
+    },
+    {
+      "heading": "How the Conception Calculator Works",
+      "subSections": [
+        {
+          "heading": "Last Menstrual Period (LMP)",
+          "content": "Enter the first day of your last period."
+        },
+        {
+          "heading": "Cycle Length",
+          "content": "Provide the average number of days between your periods."
+        },
+        {
+          "heading": "Ovulation Day",
+          "content": "Estimated automatically based on your cycle length."
+        },
+        {
+          "heading": "Fertile Window",
+          "content": "Identifies the days when conception probability is highest."
+        },
+        {
+          "heading": "Peak Fertility Days",
+          "content": "Highlights the best days to conceive."
+        },
+        {
+          "heading": "Estimated Conception & Due Date",
+          "content": "Provides your likely conception date and expected due date."
+        }
+      ]
+    },
+    {
+      "heading": "Why Use a Conception Calculator?",
+      "subSections": [
+        {
+          "heading": "Maximize Chances of Conception",
+          "content": "Target the best days to conceive for higher success rates."
+        },
+        {
+          "heading": "Understand Fertility Window",
+          "content": "Learn when you’re most fertile for natural conception."
+        },
+        {
+          "heading": "Accurate Pregnancy Planning",
+          "content": "Estimate both conception date and due date."
+        },
+        {
+          "heading": "Personalized Guidance",
+          "content": "Adjusts for irregular cycles and age-related fertility factors."
+        },
+        {
+          "heading": "Convenience",
+          "content": "Quick, free, and easy to access anytime."
+        }
+      ]
+    },
+    {
+      "heading": "Tips for Successful Conception",
+      "subSections": [
+        {
+          "heading": "Track Ovulation Signs",
+          "content": "Watch for cervical mucus changes and basal body temperature."
+        },
+        {
+          "heading": "Maintain a Healthy Lifestyle",
+          "content": "Balanced nutrition, exercise, and proper sleep improve fertility."
+        },
+        {
+          "heading": "Plan Intercourse Around Fertile Days",
+          "content": "Focus on your peak fertile days for the best chances."
+        },
+        {
+          "heading": "Manage Stress",
+          "content": "Lower stress levels to support hormonal balance and fertility."
+        },
+        {
+          "heading": "Use Fertility Tools",
+          "content": "Combine with trackers or apps for continuous monitoring."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a Conception Calculator?",
+      "a": "It estimates your fertile days and probable conception date based on your menstrual cycle and ovulation timing."
+    },
+    {
+      "q": "How accurate is a Conception Date Calculator?",
+      "a": "It is highly reliable for regular cycles, but accuracy decreases with irregular cycles."
+    },
+    {
+      "q": "Can I use a Free Conception Calculator online?",
+      "a": "Yes, our tool is completely free and easy to use."
+    },
+    {
+      "q": "How do I calculate my conception date?",
+      "a": "Enter your LMP and cycle length; the calculator estimates ovulation, fertile window, and conception date."
+    },
+    {
+      "q": "What’s the difference between a Conception Calculator and an Ovulation Calculator?",
+      "a": "Ovulation calculators only predict ovulation. Conception calculators also estimate fertile days and due date."
+    },
+    {
+      "q": "Can this tool help with irregular cycles?",
+      "a": "Yes, it adjusts calculations for irregular cycles to provide the most accurate results possible."
+    },
+    {
+      "q": "What are the best days to conceive?",
+      "a": "The 5 days before ovulation and the ovulation day itself are the peak fertile days."
+    },
+    {
+      "q": "How is the Fertile Window calculated?",
+      "a": "It’s based on ovulation timing, sperm survival (up to 5 days), and egg availability."
+    },
+    {
+      "q": "Can I track conception probability by age?",
+      "a": "Yes, some advanced calculators factor in age for more precise fertility insights."
+    },
+    {
+      "q": "Should I use a Conception Calculator vs other fertility tools?",
+      "a": "A conception calculator is best for pregnancy planning as it combines ovulation, fertile window, and due date estimation."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Fat Intake Calculator – Find Your Daily Recommended Fat Intake",
+      "content": "Our Fat Intake Calculator helps you determine exactly how much fat you should eat per day based on your age, gender, weight, activity level, and fitness goals. Whether you want to lose weight, build muscle, or simply maintain a balanced diet, this tool gives you a personalized recommendation for healthy fat intake. Unlike generic advice, our Daily Fat Intake Calculator uses your calorie needs to estimate the right percentage of calories from fat—aligned with WHO and USDA dietary guidelines."
+    },
+    {
+      "heading": "What is Fat Intake and Why It Matters?",
+      "subSections": [
+        {
+          "heading": "Definition",
+          "content": "Dietary fat is one of the three essential macronutrients (alongside protein and carbohydrates). It plays a vital role in providing energy and supporting metabolism, aiding hormone production and vitamin absorption (A, D, E, K), protecting brain and heart health, and supporting cell growth and repair."
+        },
+        {
+          "heading": "Balance",
+          "content": "Balanced fat intake is essential—too little can harm hormones and energy levels, while too much can lead to weight gain and heart disease."
+        }
+      ]
+    },
+    {
+      "heading": "How Our Fat Intake Calculator Works",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "The calculator estimates your recommended fat intake by analyzing total calorie needs (based on BMR + activity level)."
+        },
+        {
+          "heading": "Step 2",
+          "content": "It applies dietary guidelines (20–35% of daily calories from fat, per USDA/WHO)."
+        },
+        {
+          "heading": "Step 3",
+          "content": "It adjusts fat intake for fitness goals such as weight loss, maintenance, or muscle gain."
+        },
+        {
+          "heading": "Example",
+          "content": "If you need 2,000 calories/day, 25% fat = 55 g fat per day."
+        }
+      ]
+    },
+    {
+      "heading": "Recommended Daily Fat Intake by Age, Gender & Activity",
+      "content": "Sedentary Women (2,000 kcal) → 44–78 g fat/day\nActive Women (2,400 kcal) → 53–93 g fat/day\nSedentary Men (2,500 kcal) → 55–97 g fat/day\nActive Men (3,000 kcal) → 67–117 g fat/day"
+    },
+    {
+      "heading": "Fat Intake for Weight Loss vs Muscle Gain",
+      "subSections": [
+        {
+          "heading": "Weight Loss",
+          "content": "Lower fat intake (20–25% of calories) while prioritizing protein."
+        },
+        {
+          "heading": "Muscle Gain",
+          "content": "Moderate fat (25–30% of calories) to support hormones and recovery."
+        },
+        {
+          "heading": "Maintenance",
+          "content": "Balanced intake (25–35% of calories) depending on energy needs."
+        }
+      ]
+    },
+    {
+      "heading": "Healthy vs Unhealthy Fats",
+      "subSections": [
+        {
+          "heading": "Healthy Fats",
+          "content": "Monounsaturated fats (olive oil, avocados, nuts); Polyunsaturated fats (omega-3 & omega-6 from fish, flaxseeds, walnuts)."
+        },
+        {
+          "heading": "Limit Unhealthy Fats",
+          "content": "Saturated fats (butter, fatty meats—consume in moderation); Trans fats (processed foods, fried items—avoid completely)."
+        }
+      ]
+    },
+    {
+      "heading": "Fat Intake Guidelines from WHO & USDA",
+      "subSections": [
+        {
+          "heading": "WHO",
+          "content": "20–35% of daily calories from fat, <10% from saturated fat."
+        },
+        {
+          "heading": "USDA",
+          "content": "20–35% total fat, <10% saturated fat, avoid trans fats entirely."
+        }
+      ]
+    },
+    {
+      "heading": "Related Tools for Better Nutrition",
+      "subSections": [
+        {
+          "heading": "BMI Calculator",
+          "content": "Check your healthy weight range."
+        },
+        {
+          "heading": "Protein Intake Calculator",
+          "content": "Estimate protein for muscle growth & recovery."
+        },
+        {
+          "heading": "Healthy Weight Calculator",
+          "content": "Track long-term weight management goals."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much fat should I eat per day?",
+      "a": "Most adults should get 20–35% of daily calories from fat, which is about 44–77 g per day on a 2,000 calorie diet."
+    },
+    {
+      "q": "What is the recommended fat intake for weight loss?",
+      "a": "For weight loss, aim for 20–25% of calories from fat while keeping protein high to preserve muscle."
+    },
+    {
+      "q": "How to calculate fat intake from calories?",
+      "a": "Multiply your daily calories by 0.20–0.35, then divide by 9 (calories per gram of fat)."
+    },
+    {
+      "q": "What is the difference between healthy and unhealthy fats?",
+      "a": "Healthy fats are unsaturated (olive oil, fish). Unhealthy fats include trans fats and excess saturated fat."
+    },
+    {
+      "q": "How much saturated fat per day is safe?",
+      "a": "Less than 10% of daily calories (around 20 g for a 2,000 calorie diet)."
+    },
+    {
+      "q": "Is fat intake different for men and women?",
+      "a": "Yes. Men often need more fat due to higher calorie needs, but the percentage of calories from fat is similar."
+    },
+    {
+      "q": "Can I use this calculator for keto diet planning?",
+      "a": "Yes. The Keto Diet typically uses 70–75% calories from fat, so this tool helps estimate your fat grams."
+    },
+    {
+      "q": "How to calculate fat intake based on activity level?",
+      "a": "More activity → higher calorie needs → proportionally higher fat intake (while keeping 20–35%)."
+    },
+    {
+      "q": "What happens if I eat too little fat?",
+      "a": "Too little fat can cause hormone imbalance, fatigue, nutrient deficiencies, and brain fog."
+    },
+    {
+      "q": "How to balance fat intake with protein and carbs?",
+      "a": "Follow macronutrient splits: Protein 25–30%, Fat 20–35%, Carbs 40–55% (adjust per goals)."
+    }
+  ]
+}

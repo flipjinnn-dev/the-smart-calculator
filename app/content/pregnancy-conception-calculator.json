@@ -1,0 +1,137 @@
+{
+  "color": "pink",
+  "sections": [
+    {
+      "heading": "Pregnancy Conception Calculator – Find Your Conception Date",
+      "content": "This Pregnancy Conception Calculator helps you estimate your conception date, ovulation day, and expected due date based on your last menstrual period (LMP), cycle length, ultrasound results, or IVF transfer details. It works as a reliable conception date estimator tool for both natural pregnancies and assisted reproduction."
+    },
+    {
+      "heading": "Disclaimer",
+      "content": "This calculator provides general estimates and does not replace medical advice. Always confirm your dates with your healthcare provider."
+    },
+    {
+      "heading": "How Does a Pregnancy Conception Calculator Work?",
+      "content": "A Pregnancy Conception Date Calculator Online estimates when fertilization likely occurred by counting backward from your due date or forward from your last menstrual period.",
+      "subSections": [
+        {
+          "heading": "By LMP",
+          "content": "Assumes ovulation occurs about 14 days after your last period starts."
+        },
+        {
+          "heading": "By Due Date",
+          "content": "Counts about 38 weeks back from your estimated due date (EDD)."
+        },
+        {
+          "heading": "By Ultrasound",
+          "content": "Uses fetal measurements, which are more precise in early pregnancy."
+        },
+        {
+          "heading": "By IVF",
+          "content": "Calculates using the exact embryo transfer date for highly accurate results."
+        }
+      ]
+    },
+    {
+      "heading": "Conception Timeline Explained",
+      "content": "Typical stages in conception and pregnancy calculation:",
+      "subSections": [
+        {
+          "heading": "First Day of Last Period",
+          "content": "Cycle Day 1 – Reference for LMP-based calculators."
+        },
+        {
+          "heading": "Ovulation Window",
+          "content": "Usually Cycle Day 12–16 (in a 28-day cycle)."
+        },
+        {
+          "heading": "Fertilization (Conception)",
+          "content": "Occurs within 24 hours of ovulation."
+        },
+        {
+          "heading": "Implantation",
+          "content": "Happens 6–12 days after ovulation."
+        },
+        {
+          "heading": "Positive Pregnancy Test",
+          "content": "Typically about 2 weeks after ovulation."
+        }
+      ]
+    },
+    {
+      "heading": "When to Use the Calculator",
+      "content": "This tool is useful for multiple scenarios:",
+      "subSections": [
+        {
+          "heading": "Natural Pregnancy Tracking",
+          "content": "Estimate conception date based on LMP or cycle length."
+        },
+        {
+          "heading": "Irregular Periods",
+          "content": "Conception calculator adapts for cycle irregularities."
+        },
+        {
+          "heading": "IVF Conception Calculation",
+          "content": "Based on embryo transfer date (day 3 or day 5 transfer)."
+        },
+        {
+          "heading": "Ultrasound-Based Dating",
+          "content": "Relies on early ultrasound for accuracy."
+        },
+        {
+          "heading": "Twins or Multiples",
+          "content": "Helps monitor multiple pregnancies, though conception date remains the same."
+        }
+      ]
+    },
+    {
+      "heading": "Accuracy of Conception Calculators",
+      "content": "A Free Pregnancy Conception Calculator provides an estimate, not an exact date. Ultrasound in the first trimester is usually more accurate than LMP-based estimates. Doctors combine cycle history, ultrasound, and medical data for higher accuracy. IVF conception calculators are highly precise but may still vary slightly."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How does a pregnancy conception calculator work?",
+      "a": "It estimates your conception date using your last period, due date, cycle length, or ultrasound data."
+    },
+    {
+      "q": "Can a calculator tell the exact day I conceived?",
+      "a": "No, it gives an estimated window. Exact conception cannot be pinpointed."
+    },
+    {
+      "q": "How accurate is ultrasound for conception date?",
+      "a": "Ultrasound in the first trimester is the most reliable method for dating pregnancy."
+    },
+    {
+      "q": "Can irregular cycles affect my conception date estimate?",
+      "a": "Yes. Irregular cycles make predictions harder, so ultrasound is more accurate."
+    },
+    {
+      "q": "How is IVF conception date calculated?",
+      "a": "It is based on the embryo transfer date and embryo stage (day 3 or day 5 transfer)."
+    },
+    {
+      "q": "What is the difference between conception date and ovulation date?",
+      "a": "Ovulation is when the egg is released. Conception happens when sperm fertilizes the egg shortly after ovulation."
+    },
+    {
+      "q": "Why is my due date different from my ultrasound date?",
+      "a": "Ultrasound often corrects LMP-based estimates, especially if cycles are irregular."
+    },
+    {
+      "q": "Can I use a conception calculator if I don’t know my LMP?",
+      "a": "Yes. You can use your ultrasound date or due date instead."
+    },
+    {
+      "q": "Do twins or multiples change conception date calculation?",
+      "a": "No. The conception date remains the same, but pregnancy progress and delivery dates may differ."
+    },
+    {
+      "q": "Is my due date guaranteed to be correct?",
+      "a": "No. The due date is only an estimate, and most babies are not born exactly on that day."
+    }
+  ],
+  "cta": {
+    "heading": "Find Your Conception Date Today",
+    "content": "Use our Free Pregnancy Conception Calculator to estimate your conception date, ovulation day, and due date. Get accurate insights whether through natural pregnancy, ultrasound, or IVF tracking."
+  }
+}

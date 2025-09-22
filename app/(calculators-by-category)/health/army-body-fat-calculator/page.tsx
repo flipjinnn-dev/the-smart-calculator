@@ -10,6 +10,8 @@ import Link from "next/link"
 import { Calculator, RotateCcw, Shield, Activity, Target, TrendingUp } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import armyBodyFatData from "@/app/content/army-body-fat-calculator.json"
 
 export default function ArmyBodyFatCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -566,6 +568,11 @@ export default function ArmyBodyFatCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+         {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={armyBodyFatData} />
           </div>
         </main>
       </div>

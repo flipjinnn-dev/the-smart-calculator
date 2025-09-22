@@ -11,6 +11,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Scale, Ruler, User } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import idealWeightData from "@/app/content/ideal-weight-calculator.json"
 
 export default function IdealWeightCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -151,12 +153,12 @@ export default function IdealWeightCalculator() {
 
   return (
     <>
-<SEO
-  title="Ideal Weight Calculator – Find Your Healthy Range"
-  description="Calculate your ideal body weight for height and age. Use our free calculator to set realistic health and fitness goals."
-  keywords="ideal weight calculator, healthy weight calculator, BMI weight range"
-  slug="/health/ideal-weight-calculator"
-/>
+      <SEO
+        title="Ideal Weight Calculator – Find Your Healthy Range"
+        description="Calculate your ideal body weight for height and age. Use our free calculator to set realistic health and fitness goals."
+        keywords="ideal weight calculator, healthy weight calculator, BMI weight range"
+        slug="/health/ideal-weight-calculator"
+      />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-cyan-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -622,6 +624,11 @@ export default function IdealWeightCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={idealWeightData} />
           </div>
         </main>
       </div>

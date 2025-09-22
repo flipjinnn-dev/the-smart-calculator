@@ -13,6 +13,8 @@ import { Activity, Calculator, User, Scale, Ruler, AlertCircle, RotateCcw, HelpC
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import bsaData from "@/app/content/bsa-calculator.json"
 
 export default function BSACalculator() {
   const [result, setResult] = useState<any>(null)
@@ -581,6 +583,11 @@ export default function BSACalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+           {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={bsaData} />
           </div>
         </main>
 

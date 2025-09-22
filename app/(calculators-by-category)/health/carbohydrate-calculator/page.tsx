@@ -12,7 +12,9 @@ import Head from "next/head"
 import { Calculator, RotateCcw, Apple, Activity, Target, TrendingUp, Zap } from "lucide-react"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
-
+import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import carbIntakeData from "@/app/content/carbohydrate-calculator.json"
 
 export default function CarbohydrateCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -199,13 +201,12 @@ scrollToRef(resultsRef as React.RefObject<HTMLElement>);
 
   return (
     <>
-      <Head>
-        <title>Carbohydrate Calculator – Daily Carb Needs</title>
-        <meta
-          name="description"
-          content="Find your daily carb intake for energy and health. Use our free carbohydrate calculator to support diet and fitness goals."
-        />
-      </Head>
+      <SEO
+        title="Carbohydrate Calculator – Daily Carb Needs"
+        description="Find your daily carb intake for energy and health. Use our free carbohydrate calculator to support diet and fitness goals."
+        slug="/health/carbohydrate-calculator"
+        keywords="carbohydrate calculator, daily carb needs, carb intake calculator, nutrition calculator, diet calculator, fitness calculator, health calculator"
+      />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-green-50 to-teal-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -739,6 +740,11 @@ scrollToRef(resultsRef as React.RefObject<HTMLElement>);
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+           {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={carbIntakeData} />
           </div>
         </main>
       </div>

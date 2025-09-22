@@ -13,6 +13,8 @@ import { Heart, Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Scal
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import overweightData from "@/app/content/overwieght-calculator.json"
 
 export default function OverweightCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -723,6 +725,11 @@ export default function OverweightCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+           {/* How to Use Section */}
+          <div className="mt-8">
+           <CalculatorGuide data={overweightData} />
           </div>
         </main>
       </div>

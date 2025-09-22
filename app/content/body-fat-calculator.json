@@ -1,0 +1,143 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "What is the Body Fat Calculator?",
+      "content": "The Body Fat Calculator is a free and accurate tool that helps you estimate your body fat percentage and overall composition. By using inputs such as body weight, height, gender, and measurements, it provides insights into lean mass, fat percentage, and health status. Whether you’re a fitness enthusiast, athlete, or someone monitoring health metrics, this calculator helps you make informed decisions about diet, exercise, and lifestyle."
+    },
+    {
+      "heading": "How Body Fat is Measured",
+      "subSections": [
+        {
+          "heading": "BMI and Body Fat Calculator",
+          "content": "BMI shows body weight relative to height but does not distinguish between muscle and fat. Combining BMI with fat estimates gives a clearer picture."
+        },
+        {
+          "heading": "Tape Measurements",
+          "content": "Measuring waist, hips, and neck with a tape can estimate body fat. This method is common in Army Body Fat Calculators and athlete assessments."
+        },
+        {
+          "heading": "Skinfold Calipers",
+          "content": "Calipers measure the thickness of skinfolds at specific points on the body. Reliable for tracking when performed correctly."
+        },
+        {
+          "heading": "Bioelectrical Impedance & Smart Scales",
+          "content": "Smart scales and devices send a safe current through the body to estimate fat versus lean mass."
+        },
+        {
+          "heading": "Military & Specialized Standards",
+          "content": "The Army Body Fat Calculator uses standardized formulas to assess body composition for fitness and eligibility."
+        }
+      ]
+    },
+    {
+      "heading": "Body Fat Ranges by Age, Gender, and Fitness Goals",
+      "subSections": [
+        {
+          "heading": "Essential Fat",
+          "content": "Men: 2–5%, Women: 10–13% — Required for survival and hormonal functions."
+        },
+        {
+          "heading": "Athletes",
+          "content": "Men: 6–13%, Women: 14–20% — Ideal for competitive performance."
+        },
+        {
+          "heading": "Fitness",
+          "content": "Men: 14–17%, Women: 21–24% — Healthy range for active adults."
+        },
+        {
+          "heading": "Average",
+          "content": "Men: 18–24%, Women: 25–31% — Typical range for general population."
+        },
+        {
+          "heading": "Obese",
+          "content": "Men: 25%+, Women: 32%+ — Higher risk of health issues."
+        }
+      ]
+    },
+    {
+      "heading": "Tips to Reduce Body Fat Safely",
+      "subSections": [
+        {
+          "heading": "Exercise",
+          "content": "Combine strength training with regular cardio."
+        },
+        {
+          "heading": "Balanced Diet",
+          "content": "Eat protein, fiber, and healthy fats while avoiding processed foods."
+        },
+        {
+          "heading": "Calorie Tracking",
+          "content": "Use TDEE or BMR calculators to track calorie intake."
+        },
+        {
+          "heading": "Lifestyle Habits",
+          "content": "Sleep well, manage stress, and avoid extreme crash diets."
+        }
+      ]
+    },
+    {
+      "heading": "Limitations of Body Fat Calculators",
+      "subSections": [
+        {
+          "heading": "Estimates Only",
+          "content": "Results may not be 100% accurate as factors like hydration and genetics affect results."
+        },
+        {
+          "heading": "Not a Medical Substitute",
+          "content": "This tool does not replace professional diagnosis or healthcare advice."
+        },
+        {
+          "heading": "Method Variations",
+          "content": "Different methods (calipers, impedance, etc.) may show slightly different results."
+        },
+        {
+          "heading": "Best Practice",
+          "content": "Use the calculator regularly and combine with other fitness tracking methods."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a healthy body fat percentage for men and women?",
+      "a": "For general adults: Men 14–24%, Women 21–31%. Athletes may be lower."
+    },
+    {
+      "q": "How do I calculate my body fat percentage?",
+      "a": "Use methods like tape measurements, calipers, bioelectrical impedance, or our online Body Fat Calculator."
+    },
+    {
+      "q": "Are body fat calculators accurate?",
+      "a": "They provide estimates. Accuracy improves when multiple methods are combined."
+    },
+    {
+      "q": "How can I reduce body fat safely?",
+      "a": "Follow a balanced diet, consistent exercise, proper sleep, and avoid extreme diets."
+    },
+    {
+      "q": "What is the difference between BMI and body fat?",
+      "a": "BMI measures weight vs. height but does not separate fat from muscle. Body fat percentage measures fat vs. lean mass."
+    },
+    {
+      "q": "Can athletes use a body fat calculator?",
+      "a": "Yes, body fat calculators for athletes provide tailored insights for training goals."
+    },
+    {
+      "q": "Is the Army Body Fat Calculator different?",
+      "a": "Yes, it uses military-specific formulas to assess eligibility."
+    },
+    {
+      "q": "Can seniors use this tool?",
+      "a": "Yes, it helps monitor body composition changes related to aging."
+    },
+    {
+      "q": "How often should I check my body fat percentage?",
+      "a": "Every 4–6 weeks for meaningful tracking."
+    },
+    {
+      "q": "Can AI help track my body fat progress?",
+      "a": "Yes, AI-powered calculators can analyze trends and integrate with health apps."
+    }
+  ]
+}

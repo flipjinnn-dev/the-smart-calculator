@@ -11,6 +11,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Baby, Calendar } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import conceptionData from "@/app/content/conception-calculator.json"
 
 export default function ConceptionCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -169,12 +171,12 @@ export default function ConceptionCalculator() {
 
   return (
     <>
-<SEO
-  title="Conception Calculator – Estimate Fertile Window"
-  description="Find your best conception days with our calculator. Track ovulation and fertile periods to boost chances of pregnancy."
-  keywords="conception calculator, fertility calculator, pregnancy planning"
-  slug="/health/conception-calculator"
-/>
+      <SEO
+        title="Conception Calculator – Estimate Fertile Window"
+        description="Find your best conception days with our calculator. Track ovulation and fertile periods to boost chances of pregnancy."
+        keywords="conception calculator, fertility calculator, pregnancy planning"
+        slug="/health/conception-calculator"
+      />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-violet-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -520,6 +522,10 @@ export default function ConceptionCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={conceptionData} />
           </div>
         </main>
       </div>

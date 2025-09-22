@@ -1,0 +1,106 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "What Is Target Heart Rate?",
+      "content": "Your target heart rate (THR) is the ideal range of beats per minute (BPM) your heart should be working at during exercise to maximize effectiveness while staying safe. It helps ensure you’re training at the right intensity whether your goal is weight loss, building endurance, cardiovascular health, or athletic performance.\n\nStaying in your target heart rate zone helps you burn fat efficiently, improve aerobic capacity, and avoid overtraining."
+    },
+    {
+      "heading": "How to Calculate Your Target Heart Rate",
+      "subSections": [
+        {
+          "heading": "1. Maximum Heart Rate (220 – Age Formula)",
+          "content": "Formula: 220 – Age = Maximum Heart Rate (MHR)\n\nTarget Zone: 50–85% of your MHR\n\nExample: At age 30 → 220 – 30 = 190 MHR → Target zone = 95–162 BPM"
+        },
+        {
+          "heading": "2. Karvonen Formula (Heart Rate Reserve Method)",
+          "content": "More personalized, considers resting heart rate (RHR).\n\nFormula: THR = ((MHR – RHR) × %Intensity) + RHR\n\nBest for athletes or those with specific training goals."
+        },
+        {
+          "heading": "3. Tanaka Formula (Alternative for Accuracy)",
+          "content": "Formula: 208 – (0.7 × Age)\n\nOften more accurate for older adults."
+        }
+      ]
+    },
+    {
+      "heading": "Heart Rate Training Zones",
+      "subSections": [
+        {
+          "heading": "Warm-Up Zone (50–60% MHR)",
+          "content": "Gentle activity, good for beginners & recovery."
+        },
+        {
+          "heading": "Fat-Burning Zone (60–70% MHR)",
+          "content": "Burns stored fat, supports weight loss."
+        },
+        {
+          "heading": "Cardio Zone (70–80% MHR)",
+          "content": "Builds endurance, strengthens heart & lungs."
+        },
+        {
+          "heading": "Peak/HIIT Zone (80–90% MHR)",
+          "content": "Improves speed, power, and VO₂ max."
+        },
+        {
+          "heading": "Maximum Effort (90–100% MHR)",
+          "content": "Short bursts, only for advanced training."
+        }
+      ]
+    },
+    {
+      "heading": "Target Heart Rate by Age (Chart Example)",
+      "content": "Age | Estimated MHR (220 – Age) | 50–85% Target Zone (BPM)\n--- | --- | ---\n20 | 200 | 100–170\n30 | 190 | 95–162\n40 | 180 | 90–153\n50 | 170 | 85–145\n60 | 160 | 80–136\n70 | 150 | 75–128\n\n(Values are estimates; individual variation applies.)"
+    },
+    {
+      "heading": "Benefits of Training in Your Target Heart Rate Zone",
+      "subSections": [
+        {
+          "heading": "Weight Loss",
+          "content": "Train in the fat-burning zone for steady calorie burn."
+        },
+        {
+          "heading": "Cardio Fitness",
+          "content": "Improve heart and lung efficiency in the cardio zone."
+        },
+        {
+          "heading": "Endurance & Sports Performance",
+          "content": "Peak zone helps athletes push limits."
+        },
+        {
+          "heading": "HIIT Workouts",
+          "content": "Alternating between moderate and peak zones boosts metabolism."
+        },
+        {
+          "heading": "Safe Exercise for Seniors",
+          "content": "Lower zones maintain health without overexertion."
+        }
+      ]
+    },
+    {
+      "heading": "⚠️ Important Disclaimer",
+      "content": "This calculator provides general fitness guidance only. Always consult a doctor or certified trainer before starting a new exercise program, especially if you have a heart condition, take medication, or are new to exercise."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best formula for calculating target heart rate?",
+      "a": "The 220 – age formula is most common, but the Karvonen formula is more accurate since it includes resting heart rate."
+    },
+    {
+      "q": "What heart rate should I aim for during cardio?",
+      "a": "Most people should stay in the 70–85% MHR range for effective cardio training."
+    },
+    {
+      "q": "Can I use a smartwatch or fitness tracker?",
+      "a": "Yes. Devices like Apple Watch, Fitbit, and Garmin use real-time HR data to keep you in your target zone."
+    },
+    {
+      "q": "Is it safe to exceed my target heart rate?",
+      "a": "Occasional peaks are normal, but consistently exceeding your THR may increase injury or heart risk. Stay within safe limits unless supervised."
+    },
+    {
+      "q": "What is a good target heart rate for seniors?",
+      "a": "Adults over 60 should aim for 50–70% of their MHR, focusing on safety and steady endurance."
+    }
+  ]
+}

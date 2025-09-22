@@ -1,0 +1,132 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "Healthy Weight Calculator – Find Your Ideal Weight Range",
+      "content": "Our Healthy Weight Calculator helps you quickly estimate your healthy weight range based on height, age, gender, and BMI guidelines. This tool is designed to give you a medically accurate reference point for setting healthy body weight goals whether for general wellness, fitness, or weight management."
+    },
+    {
+      "heading": "What is a Healthy Weight?",
+      "subSections": [
+        {
+          "heading": "Definition",
+          "content": "A healthy weight is the range at which your body functions optimally, reducing the risk of chronic diseases such as diabetes, heart disease, and high blood pressure."
+        },
+        {
+          "heading": "Guidelines",
+          "content": "Health professionals often use the BMI (Body Mass Index) formula recommended by the World Health Organization (WHO) and CDC to define healthy weight."
+        },
+        {
+          "heading": "Range",
+          "content": "Healthy weight range (BMI 18.5–24.9), adjusted for age, height, gender, and lifestyle factors."
+        }
+      ]
+    },
+    {
+      "heading": "How to Calculate Healthy Weight for Height?",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter your height, age, gender, and weight."
+        },
+        {
+          "heading": "Step 2",
+          "content": "The tool applies the BMI healthy weight calculator formula."
+        },
+        {
+          "heading": "Step 3",
+          "content": "You’ll see your healthy weight range in kg and lbs by height."
+        }
+      ]
+    },
+    {
+      "heading": "Example Healthy Weight by Height Chart",
+      "content": "Height (cm) | Healthy Weight Range (kg) | Healthy Weight Range (lbs)\n--- | --- | ---\n150 cm (4’11”) | 43 – 56 kg | 95 – 123 lbs\n160 cm (5’3”) | 47 – 64 kg | 104 – 141 lbs\n170 cm (5’7”) | 54 – 72 kg | 119 – 159 lbs\n180 cm (5’11”) | 60 – 81 kg | 132 – 178 lbs\n190 cm (6’3”) | 66 – 90 kg | 145 – 198 lbs"
+    },
+    {
+      "heading": "Healthy Weight for Different Groups",
+      "subSections": [
+        {
+          "heading": "Adults (Men & Women)",
+          "content": "Use the Ideal Weight Calculator for Adults for balanced ranges."
+        },
+        {
+          "heading": "Athletes & Bodybuilders",
+          "content": "May have higher muscle mass, so ideal weight vs healthy weight difference should be considered."
+        },
+        {
+          "heading": "Seniors (50+)",
+          "content": "Slightly higher BMI may be protective."
+        },
+        {
+          "heading": "Teenagers",
+          "content": "Use with caution as growth stages affect results."
+        },
+        {
+          "heading": "Pregnancy",
+          "content": "Refer to healthy weight during pregnancy guidelines."
+        }
+      ]
+    },
+    {
+      "heading": "Healthy Weight for Fitness & Lifestyle Goals",
+      "subSections": [
+        {
+          "heading": "Weight Management",
+          "content": "Set healthy weight goals for fat loss or maintenance."
+        },
+        {
+          "heading": "Bodybuilding",
+          "content": "Balance muscle gain vs BMI differences."
+        },
+        {
+          "heading": "Tracking",
+          "content": "Track changes with a smart healthy weight tracker tool."
+        }
+      ]
+    },
+    {
+      "heading": "Why BMI is Used for Healthy Weight Calculation?",
+      "subSections": [
+        {
+          "heading": "Standardized Estimate",
+          "content": "Provides a quick, standardized measure of healthy weight."
+        },
+        {
+          "heading": "Health Correlation",
+          "content": "BMI correlates with risks of diseases like diabetes and heart problems."
+        },
+        {
+          "heading": "WHO/CDC Approved",
+          "content": "Fits globally recognized guidelines."
+        },
+        {
+          "heading": "Limitation",
+          "content": "BMI does not account for muscle mass, bone density, or fat distribution. Use it as a general reference, not a final medical judgment."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is my healthy weight range?",
+      "a": "Your healthy weight range depends on your height and BMI (18.5–24.9). Use the calculator above to find your exact number."
+    },
+    {
+      "q": "What’s the difference between ideal weight and healthy weight?",
+      "a": "Ideal weight is based on formulas like Devine or Hamwi (often appearance-focused), while healthy weight is based on BMI ranges linked to lower health risks."
+    },
+    {
+      "q": "How do I calculate healthy weight for height?",
+      "a": "Divide weight (kg) by height (m²) to get BMI. Compare with the WHO healthy weight chart by height."
+    },
+    {
+      "q": "What is the healthy weight for women vs men?",
+      "a": "Ranges are similar by BMI, but body composition differs — women often have higher fat percentage, men more lean mass."
+    },
+    {
+      "q": "Can I use this tool as a personalized healthy weight calculator online?",
+      "a": "Yes. Our tool is a standard healthy weight calculator but also works as a personalized healthy body weight calculator by adjusting for age, gender, and goals."
+    }
+  ]
+}

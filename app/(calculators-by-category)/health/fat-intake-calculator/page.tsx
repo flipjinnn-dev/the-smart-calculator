@@ -12,6 +12,8 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import { Calculator, RotateCcw, Droplets, User, Target } from "lucide-react"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import fatIntakeData from "@/app/content/fat-intake-calculator.json"
 
 export default function FatIntakeCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -810,6 +812,11 @@ export default function FatIntakeCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+           {/* How to Use Section */}
+          <div className="mt-8">
+              <CalculatorGuide data={fatIntakeData} />
           </div>
         </main>
       </div>

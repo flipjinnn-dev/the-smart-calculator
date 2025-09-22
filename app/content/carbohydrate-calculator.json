@@ -1,0 +1,122 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Carbohydrate Calculator – Find Your Daily Carb Needs",
+      "content": "Our Carbohydrate Calculator helps you quickly determine your recommended daily carbohydrate intake based on your age, weight, height, gender, activity level, and fitness goals. Whether you’re aiming for weight loss, muscle gain, athletic performance, or balanced health, this daily carbohydrate calculator online uses scientifically validated methods (such as the Mifflin-St Jeor BMR formula) to estimate your energy needs and calculate how many carbs you should eat per day."
+    },
+    {
+      "heading": "How the Carbohydrate Calculator Works",
+      "subSections": [
+        {
+          "heading": "Basal Metabolic Rate (BMR)",
+          "content": "Calculated using the Mifflin-St Jeor equation."
+        },
+        {
+          "heading": "Activity Level",
+          "content": "Sedentary, lightly active, moderately active, very active, or athlete."
+        },
+        {
+          "heading": "Fitness Goals",
+          "content": "Weight loss, maintenance, or muscle gain."
+        },
+        {
+          "heading": "Carb Distribution",
+          "content": "Typically 45–65% of daily calories should come from carbohydrates."
+        },
+        {
+          "heading": "Grams per Body Weight",
+          "content": "3–12 g/kg body weight depending on physical activity and training demands."
+        }
+      ]
+    },
+    {
+      "heading": "Why Use a Carbohydrate Calculator?",
+      "subSections": [
+        {
+          "heading": "Weight Loss",
+          "content": "Helps reduce excess carbs and manage blood sugar."
+        },
+        {
+          "heading": "Muscle Gain",
+          "content": "Ensures sufficient glycogen stores for strength and hypertrophy."
+        },
+        {
+          "heading": "Athletic Performance",
+          "content": "Endurance athletes need higher carb intake (6–10 g/kg)."
+        },
+        {
+          "heading": "Diabetes & Health Management",
+          "content": "Provides safe ranges to maintain stable glucose."
+        },
+        {
+          "heading": "Balanced Nutrition",
+          "content": "Ensures proper macronutrient ratios alongside protein and fat."
+        }
+      ]
+    },
+    {
+      "heading": "Recommended Carbohydrate Intake Guidelines",
+      "content": "Sedentary Adults: ~3–4 g/kg body weight (45–50% of calories)\nModerately Active Individuals: ~5–7 g/kg body weight (50–55% of calories)\nEndurance Athletes / High Training Volume: ~6–10 g/kg body weight (55–65% of calories)\nElite Athletes / Extreme Training: ~8–12 g/kg body weight\nWeight Loss Plans: 2–4 g/kg body weight (lower-carb, higher protein)\nMuscle Gain: 4–7 g/kg body weight to maximize glycogen and recovery"
+    },
+    {
+      "heading": "Related Tools for Balanced Nutrition",
+      "subSections": [
+        {
+          "heading": "Protein Intake Calculator",
+          "content": "Estimate daily protein requirements for recovery and muscle growth."
+        },
+        {
+          "heading": "Fat Intake Calculator",
+          "content": "Determine optimal daily fat needs for energy and hormone health."
+        },
+        {
+          "heading": "Healthy Weight Calculator",
+          "content": "Check your ideal healthy weight range using BMI guidelines."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a Carbohydrate Calculator?",
+      "a": "A carbohydrate calculator is a tool that estimates your daily carbohydrate needs based on weight, activity level, and goals."
+    },
+    {
+      "q": "How many carbs should I eat per day?",
+      "a": "Most adults need 45–65% of calories from carbs, or 3–7 g/kg body weight, depending on activity."
+    },
+    {
+      "q": "Is this calculator good for weight loss?",
+      "a": "Yes. It can recommend a lower-carb range to help reduce calories while maintaining energy."
+    },
+    {
+      "q": "How many carbs do athletes need daily?",
+      "a": "Endurance athletes may need 6–10 g/kg body weight, while elite athletes may require up to 12 g/kg."
+    },
+    {
+      "q": "Can diabetics use this carbohydrate calculator?",
+      "a": "Yes, but results should be discussed with a doctor or dietitian for safe blood sugar management."
+    },
+    {
+      "q": "Does the calculator use the Mifflin-St Jeor formula?",
+      "a": "Yes. It calculates BMR first using Mifflin-St Jeor, then applies activity and carb ratios."
+    },
+    {
+      "q": "What is carbohydrate intake per kg body weight?",
+      "a": "Carb needs are typically 3–12 g/kg per day, adjusted for training intensity and goals."
+    },
+    {
+      "q": "Can this tool calculate carbs for keto or low-carb diets?",
+      "a": "Yes. You can select a lower carb percentage (5–20% of calories) for ketogenic or low-carb plans."
+    },
+    {
+      "q": "How is this calculator different from a general calorie calculator?",
+      "a": "It’s macronutrient-specific, focusing only on carbohydrate needs, unlike general calorie calculators."
+    },
+    {
+      "q": "What other calculators should I use with this?",
+      "a": "For a complete nutrition plan, use our Protein Calculator, Fat Calculator, and Healthy Weight Calculator."
+    }
+  ]
+}

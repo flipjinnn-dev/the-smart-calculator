@@ -12,6 +12,8 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import bodyFatData from "@/app/content/body-fat-calculator.json"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -685,6 +687,12 @@ export default function BodyFatCalculator() {
               </Card>
             </section>
           </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={bodyFatData} />
+          </div>
+
         </main>
 
 

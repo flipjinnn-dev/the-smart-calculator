@@ -11,6 +11,8 @@ import { Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Apple } fro
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import weightWatchersPointsData from "@/app/content/weight-watcher-calculator.json"
 
 export default function WeightWatchersPointsCalculator() {
   const [result, setResult] = useState<any>(null)
@@ -104,12 +106,12 @@ export default function WeightWatchersPointsCalculator() {
 
   return (
     <>
-<SEO
-  title="Weight Watchers SmartPoints Calculator – 2015-2021 Formula"
-  description="Calculate Weight Watchers SmartPoints using the 2015-2021 formula. Enter calories, saturated fat, sugar, and protein to get your points value instantly."
-  keywords="weight watchers smartpoints calculator, smartpoints 2015-2021, ww calculator, diet points calculator, calorie to smartpoints"
-  slug="/health/weight-watchers-smartpoints-calculator"
-/>
+      <SEO
+        title="Weight Watchers SmartPoints Calculator – 2015-2021 Formula"
+        description="Calculate Weight Watchers SmartPoints using the 2015-2021 formula. Enter calories, saturated fat, sugar, and protein to get your points value instantly."
+        keywords="weight watchers smartpoints calculator, smartpoints 2015-2021, ww calculator, diet points calculator, calorie to smartpoints"
+        slug="/health/weight-watchers-smartpoints-calculator"
+      />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -191,9 +193,8 @@ export default function WeightWatchersPointsCalculator() {
                           </div>
                         </Label>
                         <Input
-                          className={`h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${
-                            errors.calories ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                          }`}
+                          className={`h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${errors.calories ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                            }`}
                           type="number"
                           step="1"
                           min="0"
@@ -224,9 +225,8 @@ export default function WeightWatchersPointsCalculator() {
                           </div>
                         </Label>
                         <Input
-                          className={`h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${
-                            errors.saturatedFat ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                          }`}
+                          className={`h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${errors.saturatedFat ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                            }`}
                           type="number"
                           step="0.1"
                           min="0"
@@ -257,9 +257,8 @@ export default function WeightWatchersPointsCalculator() {
                           </div>
                         </Label>
                         <Input
-                          className={`h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${
-                            errors.sugar ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                          }`}
+                          className={`h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${errors.sugar ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                            }`}
                           type="number"
                           step="0.1"
                           min="0"
@@ -290,9 +289,8 @@ export default function WeightWatchersPointsCalculator() {
                           </div>
                         </Label>
                         <Input
-                          className={`h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${
-                            errors.protein ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                          }`}
+                          className={`h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${errors.protein ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
+                            }`}
                           type="number"
                           step="0.1"
                           min="0"
@@ -539,6 +537,12 @@ export default function WeightWatchersPointsCalculator() {
               </Card>
             </div>
           </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={weightWatchersPointsData} />
+          </div>
+
         </main>
       </div>
     </>

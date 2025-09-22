@@ -11,6 +11,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import calorieData from "@/app/content/calorie-calculator.json"
 
 export default function CalorieCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -62,12 +64,12 @@ export default function CalorieCalculator() {
 
   return (
     <>
-<SEO
-  title="Calorie Calculator – Daily Calorie Needs Tracker"
-  description="Find out how many calories you need daily. Use our free calorie calculator to plan weight loss, gain, or maintenance."
-  keywords="calorie calculator, daily calorie intake calculator, weight management"
-  slug="/health/calorie-calculator"
-/>
+      <SEO
+        title="Calorie Calculator – Daily Calorie Needs Tracker"
+        description="Find out how many calories you need daily. Use our free calorie calculator to plan weight loss, gain, or maintenance."
+        keywords="calorie calculator, daily calorie intake calculator, weight management"
+        slug="/health/calorie-calculator"
+      />
 
       <div className="min-h-screen bg-white">
         {/* Header */}
@@ -125,7 +127,7 @@ export default function CalorieCalculator() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Calculator Form */}
               <Card className="shadow-xl border-0 pt-0">
-                <CardHeader className="bg-gradient-to-r from-red-50 to-pink-50 rounded-t-lg">
+                <CardHeader className="bg-gradient-to-r from-red-50 py-4 to-pink-50 rounded-t-lg">
                   <CardTitle className="flex items-center space-x-3 text-2xl">
                     <Calculator className="w-6 h-6 text-red-600" />
                     <span>Personal Information</span>
@@ -222,7 +224,7 @@ export default function CalorieCalculator() {
 
               {/* Results */}
               <Card ref={resultsRef} className="shadow-xl border-0 pt-0">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg">
+                <CardHeader className="bg-gradient-to-r from-blue-50 py-4 to-purple-50 rounded-t-lg">
                   <CardTitle className="text-2xl">Your Calorie Needs</CardTitle>
                   <CardDescription className="text-base">
                     Daily calorie requirements for different goals
@@ -266,6 +268,12 @@ export default function CalorieCalculator() {
               </Card>
             </div>
           </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={calorieData} />
+          </div>
+
         </main>
 
 
