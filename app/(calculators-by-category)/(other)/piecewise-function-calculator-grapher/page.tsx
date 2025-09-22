@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef, useEffect } from "react"
+import { useState, useEffect } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
@@ -12,6 +12,8 @@ import { FenceIcon as Function, AlertCircle, Plus, Trash2 } from "lucide-react"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import SEO from "@/lib/seo"
 import Logo from "@/components/logo"
+import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Legend } from "recharts"
 
 // Mathematical expression evaluator
 const evaluateExpression = (expression: string, x: number): number => {
@@ -112,7 +114,6 @@ interface PiecewisePiece {
 }
 
 export default function PiecewiseFunctionCalculator() {
-  const canvasRef = useRef<HTMLCanvasElement>(null)
   const [pieces, setPieces] = useState<PiecewisePiece[]>([
     { id: "1", expression: "x**2", domain: "-2 ≤ x < 0", color: "#ef4444" },
     { id: "2", expression: "sin(x)", domain: "0 ≤ x ≤ 3", color: "#3b82f6" },
@@ -126,21 +127,18 @@ export default function PiecewiseFunctionCalculator() {
     maxY: 4,
   })
 
-  // Zoom and pan handlers
+  // Zoom and pan handlers for recharts (simulate by changing viewWindow)
+  // Mouse wheel zoom
   useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-
-    let isDragging = false;
-    let lastX = 0;
-    let lastY = 0;
-
     const handleWheel = (e: WheelEvent) => {
+      const chartDiv = document.getElementById('piecewise-recharts-chart');
+      if (!chartDiv || !chartDiv.contains(e.target as Node)) return;
       e.preventDefault();
       const { minX, maxX, minY, maxY } = viewWindow;
       const zoomIntensity = 0.1;
-      const mouseX = e.offsetX / canvas.width;
-      const mouseY = 1 - e.offsetY / canvas.height;
+      const rect = chartDiv.getBoundingClientRect();
+      const mouseX = (e.clientX - rect.left) / rect.width;
+      const mouseY = 1 - (e.clientY - rect.top) / rect.height;
       const xRange = maxX - minX;
       const yRange = maxY - minY;
       const wheel = e.deltaY < 0 ? 1 - zoomIntensity : 1 + zoomIntensity;
@@ -152,39 +150,8 @@ export default function PiecewiseFunctionCalculator() {
       const newMaxY = newMinY + newYRange;
       setViewWindow({ minX: newMinX, maxX: newMaxX, minY: newMinY, maxY: newMaxY });
     };
-
-    const handleMouseDown = (e: MouseEvent) => {
-      isDragging = true;
-      lastX = e.clientX;
-      lastY = e.clientY;
-    };
-    const handleMouseUp = () => {
-      isDragging = false;
-    };
-    const handleMouseMove = (e: MouseEvent) => {
-      if (!isDragging) return;
-      const dx = e.clientX - lastX;
-      const dy = e.clientY - lastY;
-      lastX = e.clientX;
-      lastY = e.clientY;
-      const { minX, maxX, minY, maxY } = viewWindow;
-      const xRange = maxX - minX;
-      const yRange = maxY - minY;
-      const moveX = -dx / canvas.width * xRange;
-      const moveY = dy / canvas.height * yRange;
-      setViewWindow({ minX: minX + moveX, maxX: maxX + moveX, minY: minY + moveY, maxY: maxY + moveY });
-    };
-
-    canvas.addEventListener('wheel', handleWheel, { passive: false });
-    canvas.addEventListener('mousedown', handleMouseDown);
-    window.addEventListener('mouseup', handleMouseUp);
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => {
-      canvas.removeEventListener('wheel', handleWheel);
-      canvas.removeEventListener('mousedown', handleMouseDown);
-      window.removeEventListener('mouseup', handleMouseUp);
-      window.removeEventListener('mousemove', handleMouseMove);
-    };
+    window.addEventListener('wheel', handleWheel, { passive: false });
+    return () => window.removeEventListener('wheel', handleWheel);
   }, [viewWindow]);
 
   const [graphOptions, setGraphOptions] = useState({
@@ -212,7 +179,7 @@ export default function PiecewiseFunctionCalculator() {
           color: newColor,
         },
       ];
-      setTimeout(() => plotFunction(), 0);
+  // chart updates automatically
       return updated;
     });
   }
@@ -221,7 +188,7 @@ export default function PiecewiseFunctionCalculator() {
     if (pieces.length > 1) {
       setPieces(prev => {
         const updated = prev.filter((p) => p.id !== id);
-        setTimeout(() => plotFunction(), 0);
+  // chart updates automatically
         return updated;
       });
     }
@@ -230,255 +197,61 @@ export default function PiecewiseFunctionCalculator() {
   const updatePiece = (id: string, field: keyof PiecewisePiece, value: string) => {
     setPieces(prev => {
       const updated = prev.map((p) => (p.id === id ? { ...p, [field]: value } : p));
-      setTimeout(() => plotFunction(), 0);
+  // chart updates automatically
       return updated;
     });
   }
 
-  const plotFunction = () => {
-    setError("")
-
-    if (!canvasRef.current || !graphOptions.showGraph) return
-
-    const canvas = canvasRef.current
-    const ctx = canvas.getContext("2d")
-    if (!ctx) return
-
-    // Clear canvas
-    ctx.clearRect(0, 0, canvas.width, canvas.height)
-
-    const { minX, maxX, minY, maxY } = viewWindow
-    const width = canvas.width
-    const height = canvas.height
-
-    // Transform functions
-    const toCanvasX = (x: number) => ((x - minX) / (maxX - minX)) * width
-    const toCanvasY = (y: number) => height - ((y - minY) / (maxY - minY)) * height
-
-    // Draw grid and axis labels
-    if (graphOptions.showGrid) {
-      ctx.strokeStyle = "#e5e7eb"
-      ctx.lineWidth = 1
-
-      const gridStepX = (maxX - minX) / 10
-      const gridStepY = (maxY - minY) / 10
-
-      ctx.font = "12px Arial";
-      ctx.fillStyle = "#6b7280";
-      ctx.textAlign = "center";
-      ctx.textBaseline = "top";
-
-      for (let x = minX; x <= maxX + 1e-8; x += gridStepX) {
-        const canvasX = toCanvasX(x)
-        ctx.beginPath()
-        ctx.moveTo(canvasX, 0)
-        ctx.lineTo(canvasX, height)
-        ctx.stroke()
-        // Draw x-axis label
-        if (graphOptions.labelAxis) {
-          ctx.fillText(x.toFixed(2), canvasX, height - 18)
-        }
-      }
-
-      ctx.textAlign = "right";
-      ctx.textBaseline = "middle";
-      for (let y = minY; y <= maxY + 1e-8; y += gridStepY) {
-        const canvasY = toCanvasY(y)
-        ctx.beginPath()
-        ctx.moveTo(0, canvasY)
-        ctx.lineTo(width, canvasY)
-        ctx.stroke()
-        // Draw y-axis label
-        if (graphOptions.labelAxis) {
-          ctx.fillText(y.toFixed(2), 36, canvasY)
-        }
-      }
-    }
-
-    // Draw axes
-    if (graphOptions.showAxis) {
-      ctx.strokeStyle = "#374151"
-      ctx.lineWidth = 2
-
-      // X-axis
-      if (minY <= 0 && maxY >= 0) {
-        const y0 = toCanvasY(0)
-        ctx.beginPath()
-        ctx.moveTo(0, y0)
-        ctx.lineTo(width, y0)
-        ctx.stroke()
-      }
-
-      // Y-axis
-      if (minX <= 0 && maxX >= 0) {
-        const x0 = toCanvasX(0)
-        ctx.beginPath()
-        ctx.moveTo(x0, 0)
-        ctx.lineTo(x0, height)
-        ctx.stroke()
-      }
-    }
-
+  // Compute chart data for recharts
+  const [chartData, setChartData] = useState<any[]>([]);
+  useEffect(() => {
+    setError("");
+    if (!graphOptions.showGraph) return;
+    const { minX, maxX, minY, maxY } = viewWindow;
     // Parse domains and validate
     const parsedPieces = pieces.map((piece) => ({
       ...piece,
       parsedDomain: parseDomain(piece.domain),
-    }))
-
+    }));
     // Check for invalid domains
-    const invalidPieces = parsedPieces.filter((p) => p.parsedDomain.type === "invalid")
+    const invalidPieces = parsedPieces.filter((p) => p.parsedDomain.type === "invalid");
     if (invalidPieces.length > 0) {
-      setError(`Invalid domain syntax in piece(s): ${invalidPieces.map((p) => p.id).join(", ")}`)
-      return
+      setError(`Invalid domain syntax in piece(s): ${invalidPieces.map((p) => p.id).join(", ")}`);
+      setChartData([]);
+      setEvaluationPoints([]);
+      return;
     }
-
     // Sample and plot each piece
-    const samplePoints = Math.max(400, width)
-    const dx = (maxX - minX) / (samplePoints - 1)
-    const evalPoints: any[] = []
-
+    const samplePoints = 500;
+    const dx = (maxX - minX) / (samplePoints - 1);
+    const evalPoints: any[] = [];
     for (let i = 0; i < samplePoints; i++) {
-      const x = minX + i * dx
-
-      // Find which piece applies to this x
+      const x = minX + i * dx;
+      let y: number | null = null;
+      let color: string | null = null;
+      let pieceId: string | null = null;
       for (const piece of parsedPieces) {
         if (isInDomain(x, piece.parsedDomain)) {
-          const y = evaluateExpression(piece.expression, x)
-
-          if (isFinite(y) && y >= minY && y <= maxY) {
-            evalPoints.push({ x, y, pieceId: piece.id, color: piece.color })
-          }
-          break // First piece wins for overlapping domains
+          y = evaluateExpression(piece.expression, x);
+          color = piece.color;
+          pieceId = piece.id;
+          break;
         }
       }
-    }
-
-    // Group consecutive points by piece and plot
-    let currentPiece = null
-    let currentPath: any[] = []
-
-    const drawPath = (points: any[], color: string) => {
-      if (points.length < 2) return
-
-      ctx.strokeStyle = color
-      ctx.lineWidth = 3
-      ctx.beginPath()
-
-      for (let i = 0; i < points.length; i++) {
-        const canvasX = toCanvasX(points[i].x)
-        const canvasY = toCanvasY(points[i].y)
-
-        if (i === 0) {
-          ctx.moveTo(canvasX, canvasY)
-        } else {
-          ctx.lineTo(canvasX, canvasY)
-        }
-      }
-
-      ctx.stroke()
-    }
-
-    for (const point of evalPoints) {
-      if (point.pieceId !== currentPiece) {
-        // Draw previous path
-        if (currentPath.length > 0) {
-          drawPath(currentPath, currentPath[0].color)
-        }
-
-        // Start new path
-        currentPiece = point.pieceId
-        currentPath = [point]
+      if (y !== null && isFinite(y) && y >= minY && y <= maxY) {
+        evalPoints.push({ x, y, pieceId, color });
       } else {
-        currentPath.push(point)
+        evalPoints.push({ x, y: null, pieceId: null, color: null });
       }
     }
-
-    // Draw final path
-    if (currentPath.length > 0) {
-      drawPath(currentPath, currentPath[0].color)
-    }
-
-    // Draw endpoint markers
-    for (const piece of parsedPieces) {
-      const domain = piece.parsedDomain
-
-      if (domain.type === "exact" && domain.value !== undefined) {
-        const x = domain.value
-        const y = evaluateExpression(piece.expression, x)
-
-        if (isFinite(y) && x >= minX && x <= maxX && y >= minY && y <= maxY) {
-          const canvasX = toCanvasX(x)
-          const canvasY = toCanvasY(y)
-
-          ctx.fillStyle = piece.color
-          ctx.beginPath()
-          ctx.arc(canvasX, canvasY, 4, 0, 2 * Math.PI)
-          ctx.fill()
-        }
-      } else if (domain.type === "interval") {
-        // Draw endpoint markers for intervals
-        if (domain.min !== undefined) {
-          const x = domain.min
-          const y = evaluateExpression(piece.expression, x)
-
-          if (isFinite(y) && x >= minX && x <= maxX && y >= minY && y <= maxY) {
-            const canvasX = toCanvasX(x)
-            const canvasY = toCanvasY(y)
-
-            ctx.strokeStyle = piece.color
-            ctx.lineWidth = 2
-
-            if (domain.includeMin) {
-              ctx.fillStyle = piece.color
-              ctx.beginPath()
-              ctx.arc(canvasX, canvasY, 4, 0, 2 * Math.PI)
-              ctx.fill()
-            } else {
-              ctx.beginPath()
-              ctx.arc(canvasX, canvasY, 4, 0, 2 * Math.PI)
-              ctx.stroke()
-            }
-          }
-        }
-
-        if (domain.max !== undefined) {
-          const x = domain.max
-          const y = evaluateExpression(piece.expression, x)
-
-          if (isFinite(y) && x >= minX && x <= maxX && y >= minY && y <= maxY) {
-            const canvasX = toCanvasX(x)
-            const canvasY = toCanvasY(y)
-
-            ctx.strokeStyle = piece.color
-            ctx.lineWidth = 2
-
-            if (domain.includeMax) {
-              ctx.fillStyle = piece.color
-              ctx.beginPath()
-              ctx.arc(canvasX, canvasY, 4, 0, 2 * Math.PI)
-              ctx.fill()
-            } else {
-              ctx.beginPath()
-              ctx.arc(canvasX, canvasY, 4, 0, 2 * Math.PI)
-              ctx.stroke()
-            }
-          }
-        }
-      }
-    }
-
-    setEvaluationPoints(evalPoints.slice(0, 20)) // Show first 20 points in table
-  }
+    setChartData(evalPoints);
+    setEvaluationPoints(evalPoints.filter(p => p.y !== null).slice(0, 20));
+  }, [pieces, viewWindow, graphOptions]);
 
   const clearGraph = () => {
-    if (canvasRef.current) {
-      const ctx = canvasRef.current.getContext("2d")
-      if (ctx) {
-        ctx.clearRect(0, 0, canvasRef.current.width, canvasRef.current.height)
-      }
-    }
-    setEvaluationPoints([])
-    setError("")
+    setEvaluationPoints([]);
+    setError("");
+    setChartData([]);
   }
 
   const runExample = () => {
@@ -488,14 +261,10 @@ export default function PiecewiseFunctionCalculator() {
       { id: "3", expression: "1/(x-2)", domain: "3 < x ≤ 5", color: "#10b981" },
     ])
     setViewWindow({ minX: -3, maxX: 6, minY: -2, maxY: 4 })
-    setTimeout(() => plotFunction(), 100)
+  // chart updates automatically
   }
 
-  useEffect(() => {
-    if (graphOptions.showGraph) {
-      plotFunction()
-    }
-  }, [pieces, viewWindow, graphOptions])
+  // chart updates automatically via useEffect above
 
   return (
     <>
@@ -731,8 +500,8 @@ export default function PiecewiseFunctionCalculator() {
 
                       <div className="flex gap-4">
                         <Button
-                          onClick={plotFunction}
                           className="flex-1 h-12 text-lg bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700"
+                          disabled
                         >
                           Plot Function
                         </Button>
@@ -758,7 +527,7 @@ export default function PiecewiseFunctionCalculator() {
 
               {/* Right: Graph and Results */}
               <div className="space-y-6">
-                {/* Graph Canvas */}
+                {/* Graph (Recharts) */}
                 <Card className="shadow-2xl border-0 p-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 border-b px-6 py-4">
                     <CardTitle className="text-xl font-bold text-blue-700">Interactive Graph</CardTitle>
@@ -780,44 +549,55 @@ export default function PiecewiseFunctionCalculator() {
                       }))}>Zoom Out</Button>
                       <Button size="sm" variant="outline" onClick={() => setViewWindow({ minX: -3, maxX: 6, minY: -2, maxY: 4 })}>Reset View</Button>
                     </div>
-                    <div className="relative bg-gradient-to-br from-blue-100 to-purple-100 border border-blue-200 rounded-2xl shadow-inner p-2">
-                      <canvas
-                        ref={canvasRef}
-                        width={500}
-                        height={400}
-                        className="w-full h-auto rounded-xl border-2 border-blue-300 shadow-lg transition-all duration-200"
-                        style={{ background: 'white', cursor: 'grab' }}
-                        onMouseMove={e => {
-                          const rect = e.currentTarget.getBoundingClientRect();
-                          const x = ((e.nativeEvent.offsetX / 500) * (viewWindow.maxX - viewWindow.minX)) + viewWindow.minX;
-                          const y = viewWindow.maxY - ((e.nativeEvent.offsetY / 400) * (viewWindow.maxY - viewWindow.minY));
-                          const tooltip = document.getElementById('graph-tooltip');
-                          if (tooltip) {
-                            tooltip.style.display = 'block';
-                            tooltip.style.left = `${e.nativeEvent.offsetX + 20}px`;
-                            tooltip.style.top = `${e.nativeEvent.offsetY + 10}px`;
-                            tooltip.innerText = `x: ${x.toFixed(2)}, y: ${y.toFixed(2)}`;
-                          }
-                        }}
-                        onMouseLeave={() => {
-                          const tooltip = document.getElementById('graph-tooltip');
-                          if (tooltip) tooltip.style.display = 'none';
-                        }}
-                      />
-                      <div id="graph-tooltip" style={{ position: 'absolute', pointerEvents: 'none', zIndex: 10, display: 'none', background: 'rgba(30,41,59,0.95)', color: 'white', fontSize: '12px', borderRadius: '6px', padding: '4px 8px', boxShadow: '0 2px 8px rgba(0,0,0,0.15)' }} />
-                    </div>
-                    {/* Legend */}
-                    <div className="mt-4">
-                      <h4 className="font-semibold text-gray-900 mb-2">Legend</h4>
-                      <div className="space-y-2">
-                        {pieces.map((piece, index) => (
-                          <div key={piece.id} className="flex items-center space-x-3 text-sm">
-                            <div className="w-4 h-4 rounded" style={{ backgroundColor: piece.color }} />
-                            <span className="font-mono">{piece.expression}</span>
-                            <span className="text-gray-500">for {piece.domain}</span>
-                          </div>
-                        ))}
-                      </div>
+                    <div id="piecewise-recharts-chart" className="relative bg-gradient-to-br from-blue-100 to-purple-100 border border-blue-200 rounded-2xl shadow-inner p-2" style={{ height: 400 }}>
+                      <ChartContainer
+                        config={pieces.reduce((acc, piece) => {
+                          acc[piece.id] = { label: piece.expression, color: piece.color };
+                          return acc;
+                        }, {} as any)}
+                        className="h-full w-full"
+                      >
+                        <ResponsiveContainer width="100%" height={"100%"}>
+                          <LineChart
+                            data={chartData}
+                            margin={{ top: 20, right: 30, left: 40, bottom: 40 }}
+                          >
+                            {graphOptions.showGrid && <CartesianGrid strokeDasharray="3 3" stroke="#c7d2fe" />}
+                            <XAxis
+                              dataKey="x"
+                              type="number"
+                              domain={[viewWindow.minX, viewWindow.maxX]}
+                              tickFormatter={v => v.toFixed(2)}
+                              stroke="#2563eb"
+                              allowDataOverflow
+                              tick={{ fontSize: 12 }}
+                            />
+                            <YAxis
+                              type="number"
+                              domain={[viewWindow.minY, viewWindow.maxY]}
+                              tickFormatter={v => v.toFixed(2)}
+                              stroke="#2563eb"
+                              allowDataOverflow
+                              tick={{ fontSize: 12 }}
+                            />
+                            <ChartTooltip content={<ChartTooltipContent />} />
+                            <Legend />
+                            {pieces.map(piece => (
+                              <Line
+                                key={piece.id}
+                                type="monotone"
+                                dataKey={d => d.pieceId === piece.id ? d.y : null}
+                                name={piece.expression + ' for ' + piece.domain}
+                                stroke={piece.color}
+                                strokeWidth={3}
+                                dot={false}
+                                isAnimationActive={true}
+                                connectNulls={false}
+                              />
+                            ))}
+                          </LineChart>
+                        </ResponsiveContainer>
+                      </ChartContainer>
                     </div>
                   </CardContent>
                 </Card>
