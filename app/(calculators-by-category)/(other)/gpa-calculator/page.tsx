@@ -363,7 +363,7 @@ export default function GPACalculator() {
               </Link>
               <span className="text-gray-400">/</span>
               <Link href="/other-calculators" className="text-gray-500 hover:text-blue-600">
-                Other
+                Other Calculators
               </Link>
               <span className="text-gray-400">/</span>
               <span className="text-gray-900 font-medium">GPA Calculator</span>

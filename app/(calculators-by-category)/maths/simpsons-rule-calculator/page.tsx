@@ -188,8 +188,8 @@ export default function SimpsonsRuleCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/other-calculators" className="text-gray-500 hover:text-green-600">
-                Other Calculators
+              <Link href="/maths" className="text-gray-500 hover:text-green-600">
+                Math Calculators
               </Link>
               <span className="text-gray-400">/</span>
               <span className="text-gray-900 font-medium">Simpson's Rule Calculator</span>

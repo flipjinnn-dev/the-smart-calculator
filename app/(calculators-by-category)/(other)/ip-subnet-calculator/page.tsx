@@ -228,7 +228,6 @@ export default function IPv4SubnetCalculator() {
         description="Calculate subnets, masks, and ranges quickly. Use our free IP subnet calculator for accurate networking and IT planning."
         slug="/ip-subnet-calculator"
         keywords="IP subnet calculator, network calculator, CIDR calculator, subnetting tool"
-        type="SoftwareApplication"
         />
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">

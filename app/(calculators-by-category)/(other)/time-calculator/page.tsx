@@ -126,7 +126,6 @@ export default function TimeCalculator() {
         description="Add, subtract, or convert time in seconds. Use our free time calculator for schedules, work, or personal planning."
         slug="/time-calculator"
         keywords="time calculator, add time, subtract time, convert time"
-        type="SoftwareApplication"
       />
 
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-slate-50">

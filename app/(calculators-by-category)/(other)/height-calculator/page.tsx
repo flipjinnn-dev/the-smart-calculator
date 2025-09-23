@@ -272,7 +272,6 @@ export default function HeightCalculator() {
         description="Predict adult height from current age. Use our free height calculator for kids, teens, and accurate growth estimation."
         slug="/height-calculator"
         keywords="height calculator, predict height, growth estimation, adult height prediction"
-        type="SoftwareApplication"
       />
       <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">

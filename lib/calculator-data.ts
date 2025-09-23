@@ -468,6 +468,13 @@ export const calculators: Calculator[] = [
     category: "maths",
   },
   {
+    id:"simpsons-rule-calculator",
+    name: "Simpson's Rule Calculator",
+    description: "Calculate definite integrals using Simpson's Rule.",
+    href: "/maths/simpsons-rule-calculator",
+    category: "maths",
+  },
+  {
     id: "random-number-generator",
     name: "Random Number Generator",
     description: "Generate random numbers within a specified range",
@@ -649,17 +656,24 @@ export const calculators: Calculator[] = [
     popular: true
   },
   {
-    id:"simpsons-rule-calculator",
-    name: "Simpson's Rule Calculator",
-    description: "Calculate definite integrals using Simpson's Rule.",
-    href: "/simpsons-rule-calculator",
-    category: "other",
-  },
-  {
     id:"piecewise-function-calculator-grapher",
     name: "Piecewise Function Calculator & Grapher",
     description: "Define, evaluate, and graph piecewise functions.",
     href: "/piecewise-function-calculator-grapher",
+    category: "other",
+  },
+  {
+    id:"rpe-calculator",
+    name: "RPE Calculator",
+    description: "Calculate the rate of perceived exertion (RPE) for various activities.",
+    href: "/rpe-calculator",
+    category: "other",
+  },
+  {
+    id:"indiana-child-support-calculator" ,
+    name: "Indiana Child Support Calculator",
+    description: "Estimate child support payments based on Indiana state guidelines.",
+    href: "/indiana-child-support-calculator",
     category: "other",
   },
   {
