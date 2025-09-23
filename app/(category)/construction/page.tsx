@@ -84,7 +84,7 @@ export default function ConstructionCategoryPage() {
                 <Home className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Construction Calculators</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Construct Calculators</h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Make informed construction decisions with our comprehensive collection of calculators. From material
               estimates and cost analysis to project management tools.
