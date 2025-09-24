@@ -12,6 +12,8 @@ import { DollarSign, Calculator, RotateCcw, TrendingUp, PiggyBank, Target } from
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import CalculatorGuide from "@/components/calculator-guide"
+import financeData from "@/app/content/finance-calculator.json"
 
 export default function TVMCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -245,8 +247,8 @@ export default function TVMCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/finance" className="text-gray-500 hover:text-emerald-600">
-                Finance
+              <Link href="/financial" className="text-gray-500 hover:text-emerald-600">
+                Financial Calculators
               </Link>
               <span className="text-gray-400">/</span>
               <span className="text-gray-900 font-medium">Time Value of Money Calculator</span>
@@ -804,6 +806,12 @@ export default function TVMCalculator() {
               </Card>
             </div>
           </div>
+
+          {/* How to Use Section */}
+          <div className="mt-8">
+            <CalculatorGuide data={financeData} />
+          </div>
+          
         </main>
       </div>
     </>

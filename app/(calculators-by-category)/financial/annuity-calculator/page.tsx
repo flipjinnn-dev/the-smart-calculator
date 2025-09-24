@@ -14,6 +14,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import annuityData from "@/app/content/annuity-calculator.json"
 
 interface AnnuityResults {
   endBalance: number
@@ -547,82 +549,8 @@ export default function AnnuityCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">FAQs</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <Accordion type="single" collapsible className="w-full">
-                    <AccordionItem value="item-1">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          What's the difference between annuity due and ordinary annuity?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        <p className="text-gray-700">
-                          <strong>Ordinary Annuity:</strong> Payments are made at the end of each period. Interest is
-                          earned after the payment is made.
-                          <br />
-                          <br />
-                          <strong>Annuity Due:</strong> Payments are made at the beginning of each period. Interest is
-                          earned immediately on the payment, resulting in higher future values.
-                        </p>
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-2">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          How are monthly and annual additions handled differently?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        <p className="text-gray-700">
-                          Monthly additions use monthly compounding with the monthly periodic rate r_m = (1 + r)^(1/12)
-                          - 1. Annual additions use annual compounding with the annual rate r. This reflects how
-                          different deposit frequencies interact with compound interest.
-                        </p>
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-3">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          What happens when the interest rate is 0%?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        <p className="text-gray-700">
-                          When the interest rate is 0%, the calculator uses mathematical limits to avoid division by
-                          zero. The future value becomes simply the sum of all deposits: starting principal + (annual
-                          addition × years) + (monthly addition × 12 × years).
-                        </p>
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-4">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          Can I use negative values for withdrawals?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        <p className="text-gray-700">
-                          Yes, you can enter negative values for additions to model regular withdrawals from your
-                          account. The formulas work with negative values, allowing you to calculate scenarios where
-                          you're drawing down your balance over time.
-                        </p>
-                      </AccordionContent>
-                    </AccordionItem>
-                  </Accordion>
-                </CardContent>
-              </Card>
+              {/* Guide */}
+              <CalculatorGuide data={annuityData} />
             </div>
           </div>
         </main>

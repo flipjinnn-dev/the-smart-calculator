@@ -1,0 +1,115 @@
+{
+  "color": "red",
+  "sections": [
+    {
+      "heading": "Why Use Our Credit Card Payoff Calculator?",
+      "subSections": [
+        {
+          "heading": "Interest Savings Insights",
+          "content": "See exactly how much interest you’ll pay and how much you can save with extra payments."
+        },
+        {
+          "heading": "Customizable Options",
+          "content": "Choose lump-sum payments, bi-weekly payments, or fixed extra monthly payments."
+        },
+        {
+          "heading": "Multiple Card Support",
+          "content": "Enter balances for several cards and compare strategies side by side."
+        },
+        {
+          "heading": "Avalanche vs Snowball Comparison",
+          "content": "Decide whether targeting high-APR cards first (avalanche) or low-balance cards first (snowball) is better for your budget."
+        },
+        {
+          "heading": "Printable & Shareable Schedule",
+          "content": "Get a clear amortization-style payoff schedule you can print or export."
+        },
+        {
+          "heading": "Visual Payoff Charts",
+          "content": "Track your debt-free journey with interactive graphs."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Credit Card Payoff Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter your balance, interest rate (APR), and current monthly payment for each card."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Select between debt avalanche, snowball, or custom payoff plans."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Test how making extra monthly or lump-sum payments changes your payoff timeline."
+        },
+        {
+          "heading": "Step 4",
+          "content": "View your estimated payoff date, total interest paid, and potential savings."
+        },
+        {
+          "heading": "Step 5",
+          "content": "Download or print your personalized payoff schedule to stay motivated."
+        }
+      ]
+    },
+    {
+      "heading": "How the Calculator Works (Formulas & Methodology)",
+      "subSections": [
+        {
+          "heading": "Interest per Month",
+          "content": "Interest = (APR ÷ 12) × Current Balance."
+        },
+        {
+          "heading": "New Balance",
+          "content": "New Balance = Previous Balance + Interest – Payment."
+        },
+        {
+          "heading": "Multiple Card Strategies",
+          "content": "Avalanche Method → Pay off highest APR first, minimums on others. Snowball Method → Pay off smallest balance first, then roll payments forward."
+        }
+      ]
+    },
+    {
+      "heading": "Example Payoff Scenarios",
+      "subSections": [
+        {
+          "heading": "Single Card Example",
+          "content": "A $5,000 balance at 20% APR with a $200 monthly payment will take about 32 months to pay off, with over $1,400 in interest. Adding $100 extra per month reduces payoff time to 21 months and saves nearly $700."
+        },
+        {
+          "heading": "Multiple Cards Example",
+          "content": "If you owe $3,000 at 18% APR and $2,000 at 25% APR, the avalanche method saves more in interest, while the snowball method provides quicker psychological wins."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I calculate my credit card payoff date?",
+      "a": "Enter your balance, APR, and payments in the calculator. It will estimate your payoff date and total interest."
+    },
+    {
+      "q": "What is the best method to pay off credit card debt?",
+      "a": "The avalanche method usually saves the most money by tackling high-interest cards first, while the snowball method helps with motivation by clearing small balances quickly."
+    },
+    {
+      "q": "How does this calculator compare to debt consolidation?",
+      "a": "Unlike a debt consolidation loan or balance transfer card, this calculator shows your payoff path with your existing accounts."
+    },
+    {
+      "q": "Can I use this as a multiple credit card payoff calculator?",
+      "a": "Yes. Enter details for several cards and choose a strategy to see how different approaches affect your timeline."
+    },
+    {
+      "q": "What if I only make minimum payments?",
+      "a": "The calculator shows how paying only the minimum extends your debt and increases total interest."
+    },
+    {
+      "q": "Should I use a balance transfer instead of this tool?",
+      "a": "A balance transfer can reduce interest if you qualify for a 0% intro APR, but the calculator helps you compare whether sticking to a payoff plan or transferring balances is more beneficial."
+    }
+  ]
+}

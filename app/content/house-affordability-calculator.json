@@ -1,0 +1,60 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "House Affordability Calculator – Find Out How Much Home You Can Afford",
+      "content": "A House Affordability Calculator helps you answer the big question: “How much house can I afford?” By analyzing your income, expenses, mortgage rates, property taxes, and debt-to-income ratio (DTI), this tool gives you a personalized estimate of what price range is realistic for your budget. Whether you’re a first-time homebuyer or upgrading, the calculator above provides an instant, AI-powered result—faster and more accurate than manual calculations.\n\nUse the free house affordability calculator online above to get started."
+    },
+    {
+      "heading": "How to Calculate Home Affordability",
+      "subSections": [
+        {
+          "heading": "Manual Method (Step-by-Step)",
+          "content": "Add up your monthly gross income.\n\nApply the 28/36 rule (spend no more than 28% of income on housing and 36% on total debt).\n\nEstimate monthly mortgage payments using current interest rates.\n\nAdd property taxes, homeowner’s insurance, PMI, and HOA fees.\n\nCompare to your monthly budget."
+        },
+        {
+          "heading": "Calculator Method (Recommended)",
+          "content": "Simply enter your income, expenses, down payment, loan term, and interest rate into our best home affordability calculator tool, and the AI instantly shows your results—saving time and avoiding errors."
+        }
+      ]
+    },
+    {
+      "heading": "Factors That Affect How Much House You Can Afford",
+      "content": "Several key elements determine your home affordability:\n\nIncome & Employment: Higher stable income increases loan approval chances.\n\nDebt-to-Income Ratio (DTI): Lenders typically want DTI under 36%.\n\nDown Payment: Larger down payments reduce monthly costs and may remove PMI.\n\nMortgage Interest Rate: Even a 1% difference significantly changes affordability.\n\nProperty Taxes & Insurance: These vary by location and must be included.\n\nHOA Fees: Some homes add monthly homeowner association dues.\n\nStudent Loans or Credit Debt: Ongoing obligations reduce what you can borrow.\n\nOur house affordability calculator with HOA fees, PMI, and taxes ensures these are factored in automatically."
+    },
+    {
+      "heading": "Rules of Thumb for Home Affordability",
+      "content": "28/36 Rule: Spend ≤ 28% of income on housing, ≤ 36% on all debt.\n\n3x Income Rule: Many experts suggest your home price should be ~3x your annual income.\n\nEmergency Savings: Always keep 3–6 months of expenses after your down payment.\n\nExample: What income is needed to afford a $300k house?\n\nWith a 20% down payment and 6.5% interest, you’ll need about $70,000 annual income to stay within the 28/36 rule."
+    },
+    {
+      "heading": "House Affordability Calculator vs Other Tools",
+      "content": "House Affordability Calculator vs Mortgage Calculator → Affordability looks at income, debt, and budget. Mortgage calculators only show loan payments.\n\nSmart Calculator vs Zillow Calculator → Our AI-powered Smart Calculator house affordability tool gives more personalized, real-time results.\n\nDebt-to-Income Ratio Calculator vs Affordability Calculator → DTI calculators only show debt load, while affordability combines debt, income, and taxes for the full picture."
+    },
+    {
+      "heading": "Why Choose Smart Calculator?",
+      "content": "AI-powered financial insights for more accurate results.\n\nBuilt-in options for down payment, PMI, HOA, and insurance.\n\nWorks as a real estate affordability calculator free, accessible anytime.\n\nOptimized for quick answers, voice search, and mobile users.\n\nTry the online house affordability calculator with mortgage rates above and see your results instantly."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do lenders determine house affordability?",
+      "a": "Lenders analyze your income, DTI ratio, credit score, and down payment to decide how much you can borrow."
+    },
+    {
+      "q": "What’s the difference between house affordability and pre-approval?",
+      "a": "Affordability calculators estimate what you can afford, while pre-approval shows what a lender is willing to offer."
+    },
+    {
+      "q": "Can I afford a house with student loan debt?",
+      "a": "Yes, but student loans increase your DTI, reducing how much house you qualify for. Our calculator factors this in."
+    },
+    {
+      "q": "How accurate are house affordability calculators?",
+      "a": "They’re highly accurate for estimates. However, final numbers depend on lender guidelines, credit, and local taxes."
+    },
+    {
+      "q": "Alexa, how much house can I afford?",
+      "a": "You can use the Smart Calculator house affordability tool for instant, AI-powered affordability results."
+    }
+  ]
+}

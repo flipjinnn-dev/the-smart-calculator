@@ -1,0 +1,110 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "What Is the Federal Estate Tax?",
+      "content": "The estate tax is a federal tax on the transfer of assets at death. Unlike an inheritance tax, which is paid by beneficiaries in certain states, the federal estate tax is paid by the estate itself before distribution."
+    },
+    {
+      "heading": "2025 Federal Estate Tax Exemption",
+      "content": "In 2025, the estate tax exemption is $13.99 million per person. Amounts above this exemption are subject to tax, with a top rate of 40%. Estates are reported to the IRS using Form 706 (United States Estate and Generation-Skipping Transfer Tax Return)."
+    },
+    {
+      "heading": "How the Estate Tax Is Calculated",
+      "subSections": [
+        {
+          "heading": "Gross Estate",
+          "content": "Total value of assets (real estate, securities, life insurance proceeds, business interests, retirement accounts)."
+        },
+        {
+          "heading": "Allowable Deductions",
+          "content": "Funeral expenses, debts, charitable contributions, and marital deduction (transfers to a spouse are generally exempt)."
+        },
+        {
+          "heading": "Taxable Estate",
+          "content": "Gross estate minus deductions."
+        },
+        {
+          "heading": "Estate Tax Exemption",
+          "content": "Subtract exemption ($13.99M in 2025) to determine taxable amount."
+        },
+        {
+          "heading": "Apply IRS Estate Tax Brackets",
+          "content": "Up to 40% rate is applied to calculate the final estate tax owed."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use This Estate Tax Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter your total estate value."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Add deductions (debts, charitable gifts, funeral costs)."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Include marital transfers or spousal exemption if applicable."
+        },
+        {
+          "heading": "Step 4",
+          "content": "Enter lifetime gifts to see how they reduce exemption."
+        },
+        {
+          "heading": "Step 5",
+          "content": "View estimated estate tax owed, based on 2025 IRS thresholds."
+        }
+      ]
+    },
+    {
+      "heading": "Estate Tax vs. Inheritance Tax vs. Capital Gains",
+      "subSections": [
+        {
+          "heading": "Estate Tax (federal)",
+          "content": "Paid by the estate before heirs receive assets."
+        },
+        {
+          "heading": "Inheritance Tax (state-specific)",
+          "content": "Paid by heirs; applies in only a few states (e.g., PA, NJ, NE)."
+        },
+        {
+          "heading": "Capital Gains Tax",
+          "content": "Paid when inherited assets are later sold; based on stepped-up basis at death."
+        }
+      ]
+    },
+    {
+      "heading": "Disclaimer & Next Steps",
+      "content": "This federal estate tax calculator 2025 is for educational purposes only. Results are estimates and may vary by state rules, inflation adjustments, and IRS updates. Always consult a qualified tax professional or estate planning attorney for personalized guidance."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the estate tax exemption in 2025?",
+      "a": "The exemption is $13.99 million per person ($27.98M for married couples with portability)."
+    },
+    {
+      "q": "How do lifetime gifts affect estate tax?",
+      "a": "Gifts above the annual exclusion ($18,000 in 2025) reduce your lifetime exemption and increase your taxable estate."
+    },
+    {
+      "q": "Do life insurance proceeds count toward the estate?",
+      "a": "Yes, if the deceased owned the policy. Proceeds may increase the gross estate."
+    },
+    {
+      "q": "How much estate tax would I owe on a $15 million estate?",
+      "a": "Roughly $400,000 after applying the $13.99M exemption, assuming no deductions."
+    },
+    {
+      "q": "Do charitable contributions reduce estate tax?",
+      "a": "Yes. Charitable deductions directly reduce the taxable estate, lowering overall liability."
+    },
+    {
+      "q": "Do I need to file IRS Form 706?",
+      "a": "Estates above the exemption amount must file Form 706 within nine months of death (extensions available)."
+    }
+  ]
+}

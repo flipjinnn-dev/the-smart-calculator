@@ -236,7 +236,7 @@ export default function ArmyBodyFatCalculator() {
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">U.S. Army Body Fat Calculator</h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Calculate body fat percentage using the U.S. Army's June 2023 one-site tape test formula and compare
+                Calculate body fat percentage using the U.S. Army's June 2025-26 one-site tape test formula and compare
                 against AR 600-9 standards.
               </p>
             </div>

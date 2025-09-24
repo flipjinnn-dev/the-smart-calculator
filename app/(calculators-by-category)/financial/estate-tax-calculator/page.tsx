@@ -14,6 +14,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import estateTaxData from "@/app/content/estate-tax-calculator.json"
 
 export default function EstateTaxCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -553,38 +555,6 @@ export default function EstateTaxCalculator() {
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
-              {/* How to Use */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How to Use the Estate Tax Calculator</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>Enter Assets:</strong> Include all assets such as real estate, investments, savings,
-                        vehicles, retirement plans, and life insurance benefits
-                      </li>
-                      <li>
-                        <strong>Add Liabilities:</strong> Input debts including mortgages, loans, funeral expenses, and
-                        administration costs
-                      </li>
-                      <li>
-                        <strong>Include Deductions:</strong> Add charitable contributions that reduce the taxable estate
-                      </li>
-                      <li>
-                        <strong>Lifetime Gifts:</strong> Include any lifetime gifts made above the annual exclusion
-                        limits
-                      </li>
-                      <li>
-                        <strong>Review Results:</strong> See your gross estate, taxable estate, and estimated federal
-                        estate tax
-                      </li>
-                    </ol>
-                  </div>
-                </CardContent>
-              </Card>
-
               {/* Formulas */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
                 <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
@@ -624,95 +594,9 @@ export default function EstateTaxCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 bg-white p-0">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <Accordion type="single" collapsible className="w-full">
-                    <AccordionItem value="item-1">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          What is the federal estate tax exemption for 2025?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        The federal estate tax exemption for 2025 is $13.99 million per individual. This means estates
-                        valued below this threshold are not subject to federal estate tax.
-                      </AccordionContent>
-                    </AccordionItem>
+              {/* Guide */}
+              <CalculatorGuide data={estateTaxData} />
 
-                    <AccordionItem value="item-2">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          How is life insurance treated in estate tax calculations?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        Life insurance proceeds are included in the gross estate if the deceased owned the policy or had
-                        "incidents of ownership." However, if the policy is owned by someone else and proceeds are paid
-                        directly to beneficiaries, it may not be included.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-3">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          What expenses can be deducted from the gross estate?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        Deductible expenses include funeral expenses, administration costs, debts of the deceased,
-                        mortgages, and charitable bequests. These reduce the taxable estate value.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-4">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          How do lifetime gifts affect estate taxes?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        Lifetime gifts above the annual exclusion limit ($18,000 per recipient in 2024) use up part of
-                        your lifetime exemption. Any unused exemption at death is available for estate tax purposes.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-5">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          Are there state estate taxes in addition to federal?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        Some states impose their own estate or inheritance taxes with different exemption amounts and
-                        rates. This calculator only covers federal estate tax. Consult a tax professional for
-                        state-specific calculations.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-6">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          When is the estate tax return due?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        Form 706 (estate tax return) is due 9 months after the date of death, with a possible 6-month
-                        extension. The tax is generally due at the same time as the return filing.
-                      </AccordionContent>
-                    </AccordionItem>
-                  </Accordion>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </main>

@@ -13,6 +13,8 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import creditPayoffData from "@/app/content/credit-card-payoff-calculator.json"
 
 interface CreditCard {
   id: number
@@ -561,35 +563,6 @@ export default function DebtAvalancheCalculator() {
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8 p-0">
-              {/* How to Use */}
-              <Card className="shadow-2xl border-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How to Use the Calculator</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>Set Your Budget:</strong> Enter the total amount you can afford to pay toward all credit
-                        cards each month
-                      </li>
-                      <li>
-                        <strong>Add Your Cards:</strong> Input the current balance, minimum payment, and APR for each
-                        credit card
-                      </li>
-                      <li>
-                        <strong>Review Strategy:</strong> The calculator applies the debt avalanche method, paying
-                        minimums on all cards and extra toward the highest APR card
-                      </li>
-                      <li>
-                        <strong>Track Progress:</strong> View your month-by-month payoff schedule and total interest
-                        savings
-                      </li>
-                    </ol>
-                  </div>
-                </CardContent>
-              </Card>
-
               {/* Formulas */}
               <Card className="shadow-2xl border-0 bg-white p-0">
                 <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
@@ -653,58 +626,8 @@ export default function DebtAvalancheCalculator() {
                   </div>
                 </CardContent>
               </Card>
-
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 bg-white p-0">
-                <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        What is the debt avalanche method?
-                      </h3>
-                      <p className="text-gray-700">
-                        The debt avalanche method prioritizes paying off debts with the highest interest rates first
-                        while making minimum payments on all other debts. This mathematically optimal approach minimizes
-                        total interest paid.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        Is it better than debt snowball?
-                      </h3>
-                      <p className="text-gray-700">
-                        Debt avalanche saves more money on interest compared to debt snowball (paying smallest balances
-                        first). However, debt snowball may provide more psychological motivation through quick wins.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        How long will it take to pay off my cards?
-                      </h3>
-                      <p className="text-gray-700">
-                        Payoff time depends on your total debt, interest rates, and monthly payment budget. The
-                        calculator provides an exact timeline based on your specific situation.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        What if I can't afford the minimum payments?
-                      </h3>
-                      <p className="text-gray-700">
-                        If your budget is less than total minimum payments, contact your credit card companies to
-                        discuss hardship programs, payment plans, or consider credit counseling services.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Guide */}
+              <CalculatorGuide data={creditPayoffData} />
             </div>
           </div>
         </main>

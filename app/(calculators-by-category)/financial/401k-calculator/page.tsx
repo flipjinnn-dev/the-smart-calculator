@@ -13,6 +13,8 @@ import { Checkbox } from "@/components/ui/checkbox"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import fourOhOneKData from "@/app/content/401-k-calculator.json"
 
 export default function FourOhOneKCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -934,40 +936,8 @@ export default function FourOhOneKCalculator() {
             </div>
 
             {/* Educational Content */}
-            <div className="mt-12 space-y-8">
-              {/* How to Use */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-green-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How to Use the 401(k) Calculator</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>Enter Basic Information:</strong> Input your current age, planned retirement age,
-                        current salary, and existing 401(k) balance
-                      </li>
-                      <li>
-                        <strong>Set Contribution Rates:</strong> Enter your contribution percentage and your employer's
-                        matching policy
-                      </li>
-                      <li>
-                        <strong>Adjust Growth Assumptions:</strong> Set expected salary growth, investment returns, and
-                        inflation rates
-                      </li>
-                      <li>
-                        <strong>Review Projections:</strong> See your estimated retirement balance in both nominal and
-                        inflation-adjusted dollars
-                      </li>
-                      <li>
-                        <strong>Consider Early Withdrawal:</strong> Optionally calculate the impact of early withdrawals
-                        with penalties and taxes
-                      </li>
-                    </ol>
-                  </div>
-                </CardContent>
-              </Card>
-
+            <div className="mt-0 space-y-8">
+              <CalculatorGuide data={fourOhOneKData} />
               {/* Formulas */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-green-50 rounded-t-lg border-b px-8 py-6">
@@ -1011,61 +981,11 @@ export default function FourOhOneKCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-green-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        What are the 2024 401(k) contribution limits?
-                      </h3>
-                      <p className="text-gray-700">
-                        For 2024, the employee contribution limit is $23,000. If you're 50 or older, you can contribute
-                        an additional $7,500 catch-up contribution. The total contribution limit (employee + employer)
-                        is $69,000.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        How does employer matching work?
-                      </h3>
-                      <p className="text-gray-700">
-                        Employer matching is typically a percentage of your salary, up to a certain limit. For example,
-                        "50% match up to 6%" means your employer contributes 50 cents for every dollar you contribute,
-                        up to 6% of your salary.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        What happens if I withdraw early?
-                      </h3>
-                      <p className="text-gray-700">
-                        Withdrawals before age 59½ typically incur a 10% penalty plus regular income taxes. Some
-                        exceptions exist for hardships, first-time home purchases, or higher education expenses.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        How accurate are these projections?
-                      </h3>
-                      <p className="text-gray-700">
-                        These are estimates based on your inputs. Actual returns will vary due to market conditions,
-                        changes in salary, contribution rates, and other factors. Use this as a planning tool, not a
-                        guarantee.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
             </div>
           </div>
+
+          
+
         </main>
       </div>
     </>

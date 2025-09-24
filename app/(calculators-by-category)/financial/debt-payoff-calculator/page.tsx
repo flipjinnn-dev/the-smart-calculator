@@ -14,6 +14,8 @@ import { Switch } from "@/components/ui/switch"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import deptPayoffData from "@/app/content/debt-payoff-calculator.json"
 
 interface Debt {
   id: number
@@ -754,7 +756,8 @@ export default function DebtPayoffCalculator() {
                   </div>
                 </CardContent>
               </Card>
-
+              {/* Calculator Guide */}
+              <CalculatorGuide data={deptPayoffData} />
               {/* Example Debt Payoff Schedule */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
                 <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
@@ -786,60 +789,8 @@ export default function DebtPayoffCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">FAQs</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        What is the debt avalanche method?
-                      </h3>
-                      <p className="text-gray-700">
-                        The debt avalanche method prioritizes paying off debts with the highest interest rates first
-                        while making minimum payments on all other debts. This mathematically optimal approach minimizes
-                        total interest paid over the life of your debts.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        Should I use avalanche or snowball?
-                      </h3>
-                      <p className="text-gray-700">
-                        Debt avalanche saves more money on interest compared to debt snowball (paying smallest balances
-                        first). However, debt snowball may provide more psychological motivation through quick wins.
-                        Choose avalanche for maximum savings, snowball for motivation.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        How do extra payments affect my debt payoff?
-                      </h3>
-                      <p className="text-gray-700">
-                        Extra payments dramatically reduce payoff time and interest costs. Even an extra $50/month can
-                        save thousands in interest and years of payments. The calculator shows exactly how much time and
-                        money you'll save with different extra payment amounts.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        What is "Fixed Total Amount" mode?
-                      </h3>
-                      <p className="text-gray-700">
-                        When enabled, payments from paid-off debts are automatically reallocated to remaining debts,
-                        maintaining your total monthly payment amount. This accelerates payoff of remaining debts. When
-                        disabled, your total payments decrease as debts are eliminated.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+
+
             </div>
           </div>
         </main>

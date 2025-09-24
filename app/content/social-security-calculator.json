@@ -1,0 +1,184 @@
+{
+  "color": "#1a73e8",
+  "sections": [
+    {
+      "heading": "Maximize Your Social Security Benefits with Our Calculator",
+      "content": "Planning for retirement can be complex, but understanding your Social Security benefits doesn’t have to be. Our Social Security Calculator helps you estimate Social Security benefits quickly and accurately, providing personalized insights based on your work history, age, and family circumstances."
+    },
+    {
+      "heading": "Key Features of the Social Security Calculator",
+      "subSections": [
+        {
+          "heading": "Social Security Retirement Estimator",
+          "content": "Calculate your estimated monthly benefits based on your earnings history."
+        },
+        {
+          "heading": "Full Retirement Age Calculator",
+          "content": "Determine the age at which you can claim full Social Security benefits."
+        },
+        {
+          "heading": "Early Retirement Benefits Calculator",
+          "content": "Explore the reduction in benefits if you claim before your full retirement age."
+        },
+        {
+          "heading": "Delayed Retirement Credits Calculator",
+          "content": "Understand how waiting past full retirement age increases your benefit."
+        },
+        {
+          "heading": "Primary Insurance Amount (PIA) Calculator",
+          "content": "Estimate the base benefit amount used to calculate your monthly payments."
+        },
+        {
+          "heading": "Average Indexed Monthly Earnings (AIME) Calculator",
+          "content": "See how your lifetime earnings affect your Social Security benefits."
+        },
+        {
+          "heading": "Cost-of-Living Adjustment (COLA) Impact",
+          "content": "Track how inflation adjustments may increase your benefits over time."
+        },
+        {
+          "heading": "Break-even Age for Social Security",
+          "content": "Compare claiming early vs. delayed to find the age when delayed benefits outweigh early claiming."
+        }
+      ]
+    },
+    {
+      "heading": "Why Use This Calculator?",
+      "subSections": [
+        {
+          "heading": "Social Security Claiming Age Comparison",
+          "content": "Decide whether early or delayed claiming fits your retirement plan."
+        },
+        {
+          "heading": "Benefit Reduction for Early Claiming",
+          "content": "Understand how claiming before full retirement age affects monthly payments."
+        },
+        {
+          "heading": "Delayed Retirement Benefit Increase",
+          "content": "Calculate the benefit boost for waiting until age 70."
+        },
+        {
+          "heading": "Benefit Taxability",
+          "content": "See how your income may affect taxation of benefits."
+        },
+        {
+          "heading": "WEP & GPO Impact",
+          "content": "Evaluate how pensions from non-Social Security-covered work influence benefits."
+        }
+      ]
+    },
+    {
+      "heading": "Who Can Benefit?",
+      "subSections": [
+        {
+          "heading": "Spouses & Non-Working Spouses",
+          "content": "Estimate spousal and survivor benefits."
+        },
+        {
+          "heading": "Divorced Individuals",
+          "content": "Calculate benefits based on an ex-spouse’s work record."
+        },
+        {
+          "heading": "Widows/Widowers",
+          "content": "Use the survivor benefits estimator."
+        },
+        {
+          "heading": "Military Veterans",
+          "content": "Factor in service credit adjustments."
+        },
+        {
+          "heading": "Federal & State/Local Employees",
+          "content": "Understand Social Security coverage differences."
+        },
+        {
+          "heading": "Self-Employed",
+          "content": "Get PIA and AIME estimates based on self-employment earnings."
+        },
+        {
+          "heading": "Caregivers & Stay-at-Home Parents",
+          "content": "See eligibility for non-working spouse benefits."
+        },
+        {
+          "heading": "Non-Citizens & Immigrants",
+          "content": "Check eligibility and estimated benefits."
+        },
+        {
+          "heading": "Children",
+          "content": "Calculate dependent children’s Social Security benefits."
+        },
+        {
+          "heading": "Disability Claimants",
+          "content": "Estimate disability benefits."
+        }
+      ]
+    },
+    {
+      "heading": "Practical Scenarios",
+      "subSections": [
+        {
+          "heading": "Early Retirement",
+          "content": "Jane, age 62, will receive a 25% reduction, but factoring in life expectancy and COLA impact, she can decide if early claiming is financially viable."
+        },
+        {
+          "heading": "Delayed Retirement",
+          "content": "John, age 66, sees a 32% increase by waiting until 70, allowing him to plan for higher retirement income."
+        },
+        {
+          "heading": "Spousal Benefits",
+          "content": "Mary, who never worked, can estimate spousal benefits using her spouse’s earnings record and optimize her claiming strategy."
+        }
+      ]
+    },
+    {
+      "heading": "How It Works",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter your date of birth, earnings history, and other personal information."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Choose your claiming strategy: early, full retirement age, or delayed."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Review your estimated benefits, including COLA, WEP, GPO, and taxes."
+        },
+        {
+          "heading": "Step 4",
+          "content": "Use the break-even analysis to compare different claiming ages and maximize lifetime benefits."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the Full Retirement Age calculator?",
+      "a": "It determines the age at which you qualify for full Social Security benefits without reductions."
+    },
+    {
+      "q": "How does early retirement affect my benefits?",
+      "a": "Claiming before full retirement age reduces monthly benefits. Use the Early Retirement Benefits Calculator to see your exact reduction."
+    },
+    {
+      "q": "What is the Primary Insurance Amount (PIA) calculator?",
+      "a": "PIA represents your base Social Security benefit before adjustments like early or delayed claiming."
+    },
+    {
+      "q": "How can I estimate Social Security benefits for my spouse or children?",
+      "a": "Our calculator includes options for spouses, non-working spouses, and children, allowing personalized benefit projections."
+    },
+    {
+      "q": "How do Windfall Elimination Provision (WEP) and Government Pension Offset (GPO) affect benefits?",
+      "a": "WEP may reduce benefits for those with a pension from non-Social Security-covered employment, while GPO can reduce spousal benefits for government pension recipients."
+    },
+    {
+      "q": "Can this calculator help military veterans or federal employees?",
+      "a": "Yes, it accounts for special service credits and pension interactions for veterans and federal/state employees."
+    },
+    {
+      "q": "Does this calculator include Cost-of-Living Adjustments (COLA)?",
+      "a": "Yes, COLA is factored in to reflect potential future increases in benefits due to inflation."
+    }
+  ]
+}

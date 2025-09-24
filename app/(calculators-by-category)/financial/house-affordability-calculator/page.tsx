@@ -13,6 +13,8 @@ import { Separator } from "@/components/ui/separator"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import houseAffordabilityData from "@/app/content/house-affordability-calculator.json"
 
 export default function HouseAffordabilityCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -669,59 +671,8 @@ export default function HouseAffordabilityCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl p-0 border-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        How do lenders decide house affordability?
-                      </h3>
-                      <p className="text-gray-700">
-                        Lenders use debt-to-income ratios, credit scores, employment history, and down payment amount to
-                        determine how much you can borrow. The 28/36 rule is a common guideline, but some lenders may
-                        allow higher ratios for qualified borrowers.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        What is DTI ratio?
-                      </h3>
-                      <p className="text-gray-700">
-                        Debt-to-Income (DTI) ratio is the percentage of your monthly gross income that goes toward
-                        paying debts. It includes housing costs, credit cards, loans, and other monthly debt
-                        obligations.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        How does down payment affect affordability?
-                      </h3>
-                      <p className="text-gray-700">
-                        A larger down payment reduces your loan amount, which lowers your monthly mortgage payment and
-                        allows you to afford a more expensive home. It also helps you avoid PMI if you put down 20% or
-                        more.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        What if interest rates are zero?
-                      </h3>
-                      <p className="text-gray-700">
-                        If interest rates were zero, your monthly payment would simply be the loan amount divided by the
-                        number of months. However, zero interest rates are extremely rare in real-world scenarios.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              {/* How to use */}
+              <CalculatorGuide data={houseAffordabilityData} />
 
             </div>
           </div>

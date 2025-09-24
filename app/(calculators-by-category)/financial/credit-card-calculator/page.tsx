@@ -14,6 +14,8 @@ import { Separator } from "@/components/ui/separator"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import creditCardData from "@/app/content/credit-card-calculator.json"
 
 interface PaymentScheduleEntry {
   month: number
@@ -569,34 +571,6 @@ export default function CreditCardCalculator() {
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
-              {/* How to Use */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How to Use the Calculator</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>Enter Credit Card Details:</strong> Input your current balance and annual interest rate
-                        (APR)
-                      </li>
-                      <li>
-                        <strong>Choose Payment Strategy:</strong> Select from fixed payment, fixed timeframe, or minimum
-                        payment options
-                      </li>
-                      <li>
-                        <strong>Set Payment Parameters:</strong> Enter your monthly payment amount, desired payoff time,
-                        or minimum payment percentage
-                      </li>
-                      <li>
-                        <strong>Review Results:</strong> See your payoff timeline, total interest, and detailed payment
-                        schedule
-                      </li>
-                    </ol>
-                  </div>
-                </CardContent>
-              </Card>
 
               {/* Formulas */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
@@ -660,56 +634,9 @@ export default function CreditCardCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        How long will it take to pay off my credit card?
-                      </h3>
-                      <p className="text-gray-700">
-                        The payoff time depends on your balance, interest rate, and monthly payment. Higher payments
-                        significantly reduce both time and total interest paid.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        How do I calculate minimum payments?
-                      </h3>
-                      <p className="text-gray-700">
-                        Minimum payments typically include the monthly interest plus 1-3% of the principal balance. This
-                        calculator shows how long minimum payments take to pay off debt.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        What's the best way to reduce credit card interest?
-                      </h3>
-                      <p className="text-gray-700">
-                        Pay more than the minimum, consider balance transfers to lower-rate cards, or look into debt
-                        consolidation loans with lower interest rates.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-red-600" />
-                        Should I pay off high-interest debt first?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes, the "avalanche method" of paying high-interest debt first saves the most money. Pay
-                        minimums on all cards, then put extra money toward the highest-rate card.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Calculator Guide */}
+              <CalculatorGuide data={creditCardData} />
+
             </div>
           </div>
         </main>

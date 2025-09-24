@@ -15,6 +15,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import annuityPayoutData from "@/app/content/annuity-payout-calculator.json"
 
 interface PayoutScheduleEntry {
   period: number
@@ -532,38 +534,6 @@ export default function AnnuityPayoutCalculator() {
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
-              {/* How to Use */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How to Use</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>Choose Calculation Mode:</strong> Select "Fixed Length" to calculate payment amounts for
-                        a specific duration, or "Fixed Payment" to determine how long your fund will last.
-                      </li>
-                      <li>
-                        <strong>Enter Starting Principal:</strong> Input the current value of your annuity or retirement
-                        fund.
-                      </li>
-                      <li>
-                        <strong>Set Interest Rate:</strong> Enter the expected annual return rate on your remaining
-                        balance.
-                      </li>
-                      <li>
-                        <strong>Select Frequency:</strong> Choose how often you want to receive payments (monthly,
-                        quarterly, etc.).
-                      </li>
-                      <li>
-                        <strong>Review Results:</strong> See your payment amount or fund duration, plus detailed
-                        amortization schedule.
-                      </li>
-                    </ol>
-                  </div>
-                </CardContent>
-              </Card>
 
               {/* Formulas */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
@@ -600,72 +570,7 @@ export default function AnnuityPayoutCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl p-0 border-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <Accordion type="single" collapsible className="w-full">
-                    <AccordionItem value="item-1">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          What is an annuity payout?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        An annuity payout is a series of regular payments made from an annuity or retirement fund. The
-                        payments continue until the fund is depleted or for a predetermined period, depending on the
-                        type of annuity.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-2">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          How do you calculate annuity payments?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        Annuity payments are calculated using present value formulas that account for the principal
-                        amount, interest rate, and payment frequency. The calculation ensures that regular payments plus
-                        earned interest will exactly deplete the fund over the specified period.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-3">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          What's the difference between fixed length vs fixed payment annuities?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        Fixed length annuities have a predetermined payout period (e.g., 20 years), and the payment
-                        amount is calculated to deplete the fund over that time. Fixed payment annuities have a set
-                        payment amount, and the duration is calculated based on how long the fund will last with those
-                        payments.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-4">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                          How does interest affect annuity payouts?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        Higher interest rates allow for larger payments or longer payout periods because the remaining
-                        balance continues to earn returns. Even small differences in interest rates can significantly
-                        impact the total amount you can withdraw from your annuity.
-                      </AccordionContent>
-                    </AccordionItem>
-                  </Accordion>
-                </CardContent>
-              </Card>
+              <CalculatorGuide data={annuityPayoutData} />
             </div>
           </div>
         </main>

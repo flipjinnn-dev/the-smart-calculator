@@ -1,0 +1,123 @@
+{
+  "color": "red",
+  "sections": [
+    {
+      "heading": "How to Use the Credit Card Calculator",
+      "subSections": [
+        {
+          "heading": "Enter Your Balance",
+          "content": "Use our credit card balance calculator to input the current amount you owe."
+        },
+        {
+          "heading": "Add Your Interest Rate (APR)",
+          "content": "The credit card APR calculator will determine how much interest you’ll pay over time."
+        },
+        {
+          "heading": "Input Your Monthly Payment",
+          "content": "Use the credit card monthly payment calculator or credit card minimum payment calculator to see different repayment options."
+        },
+        {
+          "heading": "Choose a Repayment Method",
+          "content": "Compare options like the snowball method or avalanche method for faster debt reduction."
+        },
+        {
+          "heading": "View Your Results",
+          "content": "See your payoff time, total interest, and payment schedule instantly."
+        }
+      ]
+    },
+    {
+      "heading": "Different Calculation Methods",
+      "subSections": [
+        {
+          "heading": "Payoff Time Calculator",
+          "content": "Estimate how long it will take to clear your balance with current or planned payments."
+        },
+        {
+          "heading": "Interest Calculator",
+          "content": "Understand how much interest accrues over time to optimize your payments."
+        },
+        {
+          "heading": "Debt Consolidation Calculator",
+          "content": "Explore combining multiple high-interest cards into one lower-interest option."
+        },
+        {
+          "heading": "Snowball vs Avalanche Methods",
+          "content": "Decide whether to pay off smaller balances first (snowball) or higher interest rates first (avalanche) for faster savings."
+        }
+      ]
+    },
+    {
+      "heading": "Example Scenarios",
+      "subSections": [
+        {
+          "heading": "Multiple Credit Cards",
+          "content": "Use the calculator for multiple cards to prioritize payments and reduce interest efficiently."
+        },
+        {
+          "heading": "High Balances or High Interest",
+          "content": "Focus on costly debt with the credit card payoff calculator for high interest rates."
+        },
+        {
+          "heading": "Low Credit Scores",
+          "content": "Tailor your plan using the calculator for low credit scores to avoid late fees and maximize repayment."
+        },
+        {
+          "heading": "Extra Payments or Lump Sums",
+          "content": "Add extra or lump-sum payments to accelerate payoff."
+        },
+        {
+          "heading": "Biweekly Payments",
+          "content": "Reduce interest faster with biweekly payment scheduling."
+        }
+      ]
+    },
+    {
+      "heading": "Benefits of Using the Credit Card Calculator",
+      "subSections": [
+        {
+          "heading": "Save Money on Interest",
+          "content": "Plan payments to minimize interest accumulation."
+        },
+        {
+          "heading": "Reduce Stress",
+          "content": "Gain clarity with a clear debt repayment and payment schedule."
+        },
+        {
+          "heading": "Compare Strategies",
+          "content": "Decide between snowball and avalanche methods for debt reduction."
+        },
+        {
+          "heading": "Track Progress",
+          "content": "Monitor payoff progress with apps, Excel, or spreadsheet versions."
+        },
+        {
+          "heading": "Plan Multiple Scenarios",
+          "content": "Evaluate balance transfer and consolidation strategies with built-in comparisons."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this credit card calculator free?",
+      "a": "Yes, our credit card payoff calculator is completely free to use online."
+    },
+    {
+      "q": "Can I calculate payments for multiple cards?",
+      "a": "Absolutely! Enter balances for several cards and manage them all in one place."
+    },
+    {
+      "q": "Does it help with high-interest credit cards?",
+      "a": "Yes. The calculator for high interest rates helps you prioritize and save on interest."
+    },
+    {
+      "q": "Can I use it for extra or biweekly payments?",
+      "a": "Yes, you can test extra or biweekly payments to see how much faster you’ll be debt-free."
+    },
+    {
+      "q": "Is this calculator suitable for debt consolidation?",
+      "a": "Definitely. Use the consolidation and balance transfer features to compare options."
+    }
+  ]
+}

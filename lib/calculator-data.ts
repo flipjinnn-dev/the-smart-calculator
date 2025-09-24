@@ -468,10 +468,24 @@ export const calculators: Calculator[] = [
     category: "maths",
   },
   {
+    id:"critical-point-calculator",
+    name: "Critical Point Calculator",
+    description: "Calculate the critical point of a function.",
+    href: "/maths/critical-point-calculator",
+    category: "maths",
+  },
+  {
     id:"simpsons-rule-calculator",
     name: "Simpson's Rule Calculator",
     description: "Calculate definite integrals using Simpson's Rule.",
     href: "/maths/simpsons-rule-calculator",
+    category: "maths",
+  },
+  {
+    id:"mean-value-theorem-calculator",
+    name: "Mean Value Theorem Calculator",
+    description: "Apply the Mean Value Theorem to find points on a curve.",
+    href: "/maths/mean-value-theorem-calculator",
     category: "maths",
   },
   {

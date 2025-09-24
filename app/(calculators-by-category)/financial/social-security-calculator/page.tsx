@@ -15,6 +15,8 @@ import { Checkbox } from "@/components/ui/checkbox"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import socialSecurityData from "@/app/content/social-security-calculator.json"
 
 // Full Retirement Age table based on birth year
 const FRA_TABLE: { [key: string]: number } = {
@@ -656,6 +658,9 @@ export default function SocialSecurityCalculator() {
                   </Accordion>
                 </CardContent>
               </Card>
+
+              {/* Calculator Guide */}
+              <CalculatorGuide data={socialSecurityData} />
             </div>
           </div>
         </main>
