@@ -1,0 +1,111 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "Compound Interest Calculator: Maximize Your Savings & Investments",
+      "content": "Understanding how your money can grow over time is essential for smart financial planning. Our compound interest calculator online helps you easily calculate potential returns on savings, investments, and loans, giving you clear insights into your financial future."
+    },
+    {
+      "heading": "Why Use a Compound Interest Calculator?",
+      "subSections": [
+        {
+          "heading": "Accelerated Growth",
+          "content": "Compound interest allows your money to earn interest on both the principal and the accumulated interest over time, helping savings and investments grow faster compared to simple interest."
+        },
+        {
+          "heading": "Clear Financial Insights",
+          "content": "Instantly view your potential growth without needing to understand complex formulas."
+        },
+        {
+          "heading": "Retirement & Savings Planning",
+          "content": "Plan ahead with accurate forecasts for retirement or other long-term savings goals."
+        },
+        {
+          "heading": "Flexible Comparisons",
+          "content": "Compare different interest rates, compounding periods, and contribution strategies."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter the principal amount – the starting balance of your investment or loan."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Set the interest rate – annual or monthly, depending on your plan."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Choose the compounding frequency – daily, monthly, quarterly, or yearly."
+        },
+        {
+          "heading": "Step 4",
+          "content": "Add contributions – if applicable, enter monthly or annual deposits."
+        },
+        {
+          "heading": "Step 5",
+          "content": "View results – the calculator will display your total interest earned, final balance, and a growth chart."
+        }
+      ]
+    },
+    {
+      "heading": "Examples & Scenarios",
+      "subSections": [
+        {
+          "heading": "Fixed Deposit",
+          "content": "Deposit $10,000 at 5% annual interest, compounded monthly. Your investment grows significantly over time."
+        },
+        {
+          "heading": "Retirement Planning",
+          "content": "Small monthly contributions accumulate into a substantial retirement fund over decades."
+        },
+        {
+          "heading": "Student Savings",
+          "content": "Even small regular deposits can grow, making it an ideal tool for students."
+        }
+      ]
+    },
+    {
+      "heading": "Compound Interest Explained",
+      "subSections": [
+        {
+          "heading": "Compound vs Simple Interest",
+          "content": "Simple interest is calculated only on the principal, while compound interest grows on both the principal and accrued interest."
+        },
+        {
+          "heading": "Compounding Frequency",
+          "content": "Daily, monthly, or yearly compounding affects growth. More frequent compounding results in higher returns."
+        },
+        {
+          "heading": "Step-by-Step",
+          "content": "Identify principal, interest rate, and time period → choose compounding frequency → add contributions → view balance and interest."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How to calculate compound interest with monthly deposits?",
+      "a": "Enter your monthly contributions in the calculator, select monthly compounding, and it will show your total growth over time."
+    },
+    {
+      "q": "What is the difference between simple and compound interest?",
+      "a": "Simple interest is calculated only on your principal, while compound interest is calculated on both principal and accrued interest, allowing faster growth."
+    },
+    {
+      "q": "How much will my investment grow with compound interest?",
+      "a": "Use our online calculator to input your details and see projected growth over months or years."
+    },
+    {
+      "q": "Can I compare compound interest rates for banks?",
+      "a": "Yes! You can simulate different rates and compounding periods to choose the most profitable option."
+    },
+    {
+      "q": "Does the interest rate affect compound interest growth?",
+      "a": "Absolutely. Even a small change in the interest rate can significantly impact long-term growth."
+    }
+  ]
+}

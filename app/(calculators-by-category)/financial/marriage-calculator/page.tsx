@@ -13,6 +13,8 @@ import { Checkbox } from "@/components/ui/checkbox"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import marriageData from "@/app/content/marriage-calculator.json"
 
 // 2025 Tax brackets
 const TAX_BRACKETS_2025 = {
@@ -814,7 +816,7 @@ export default function MarriageTaxCalculator() {
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
               {/* Formulas */}
-              <Card className="shadow-2xl border-0 bg-white">
+              <Card className="shadow-2xl p-0 border-0 bg-white">
                 <CardHeader className="bg-gradient-to-r from-pink-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
                   <CardTitle className="text-2xl">Formulas & Calculation Details</CardTitle>
                 </CardHeader>
@@ -853,56 +855,8 @@ export default function MarriageTaxCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-pink-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-pink-600" />
-                        What causes a marriage penalty?
-                      </h3>
-                      <p className="text-gray-700">
-                        Marriage penalties typically occur when both spouses have similar high incomes, pushing them
-                        into higher tax brackets when filing jointly compared to filing separately.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-pink-600" />
-                        What causes a marriage benefit?
-                      </h3>
-                      <p className="text-gray-700">
-                        Marriage benefits often occur when spouses have significantly different incomes, allowing the
-                        higher earner's income to be partially taxed at the lower earner's lower rates.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-pink-600" />
-                        Should we file jointly or separately?
-                      </h3>
-                      <p className="text-gray-700">
-                        Most couples benefit from filing jointly, but this calculator helps you determine the optimal
-                        strategy. Consider other factors like eligibility for certain credits and deductions.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-pink-600" />
-                        How accurate are these calculations?
-                      </h3>
-                      <p className="text-gray-700">
-                        This calculator provides estimates based on 2025 tax brackets and standard deductions. Actual
-                        taxes may vary based on additional factors like AMT, phase-outs, and specific credits.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Guide */}
+              <CalculatorGuide data={marriageData} />
             </div>
           </div>
         </main>

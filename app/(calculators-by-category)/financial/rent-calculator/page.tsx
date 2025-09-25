@@ -14,6 +14,8 @@ import { Separator } from "@/components/ui/separator"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import rentData from "@/app/content/rent-calculator.json"
 
 export default function RentAffordabilityCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -411,56 +413,8 @@ export default function RentAffordabilityCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        What is the front-end ratio?
-                      </h3>
-                      <p className="text-gray-700">
-                        The front-end ratio is the percentage of your gross monthly income that goes toward housing
-                        costs. Lenders typically prefer this to be no more than 28-30%.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        What is the back-end ratio?
-                      </h3>
-                      <p className="text-gray-700">
-                        The back-end ratio is the percentage of your gross monthly income that goes toward all debt
-                        payments, including housing. Lenders typically prefer this to be no more than 36-40%.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        Should I include utilities in my rent budget?
-                      </h3>
-                      <p className="text-gray-700">
-                        This calculator shows the maximum rent payment only. You should budget separately for utilities,
-                        renter's insurance, parking, and other housing-related expenses.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        What debts should I include in monthly debt payments?
-                      </h3>
-                      <p className="text-gray-700">
-                        Include all recurring monthly debt payments such as credit cards, car loans, student loans,
-                        personal loans, and other installment debts. Do not include utilities or insurance.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Guide */}
+              <CalculatorGuide data={rentData} />
             </div>
           </div>
         </main>

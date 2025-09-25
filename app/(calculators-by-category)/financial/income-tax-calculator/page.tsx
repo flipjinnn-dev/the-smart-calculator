@@ -14,6 +14,8 @@ import { Separator } from "@/components/ui/separator"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import incomeTaxData from "@/app/content/income-tax-calculator.json"
 
 // Tax brackets for 2024 and 2025
 const TAX_BRACKETS_2024 = {
@@ -766,34 +768,6 @@ const marginalTaxRate = foundBracket ? foundBracket.rate * 100 : 0
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
-              {/* How to Use */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How to Use the Tax Calculator</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>Select Filing Status:</strong> Choose your tax filing status (Single, Married Filing
-                        Jointly, etc.)
-                      </li>
-                      <li>
-                        <strong>Enter Income Information:</strong> Input wages from W-2 forms, business income, and
-                        other income sources
-                      </li>
-                      <li>
-                        <strong>Add Deductions:</strong> Include itemized deductions like mortgage interest, charitable
-                        donations, and state taxes
-                      </li>
-                      <li>
-                        <strong>Review Results:</strong> See your estimated tax liability, refund, and effective tax
-                        rate
-                      </li>
-                    </ol>
-                  </div>
-                </CardContent>
-              </Card>
 
               {/* Formulas */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
@@ -828,56 +802,8 @@ const marginalTaxRate = foundBracket ? foundBracket.rate * 100 : 0
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 bg-white p-0">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        Should I take the standard deduction or itemize?
-                      </h3>
-                      <p className="text-gray-700">
-                        The calculator automatically uses whichever deduction is larger. Itemize if your deductions
-                        exceed the standard deduction for your filing status.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        How are capital gains taxed?
-                      </h3>
-                      <p className="text-gray-700">
-                        Long-term capital gains (held &gt; 1 year) are taxed at preferential rates of 0%, 15%, or 20%
-                        based on your income level.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        What is self-employment tax?
-                      </h3>
-                      <p className="text-gray-700">
-                        Self-employment tax is 15.3% (Social Security + Medicare) on business income. Half of this tax
-                        is deductible from your AGI.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        Does this calculator consider AMT?
-                      </h3>
-                      <p className="text-gray-700">
-                        This calculator provides estimates based on regular tax calculations. For complex situations
-                        involving AMT, consult a tax professional.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Guide */}
+              <CalculatorGuide data={incomeTaxData} />
             </div>
           </div>
         </main>

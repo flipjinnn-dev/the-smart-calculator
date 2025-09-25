@@ -1,0 +1,94 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "Sales Tax Calculator – Find Pre-Tax, After-Tax & Reverse Sales Tax Instantly",
+      "content": "Our online Sales Tax Calculator helps you quickly calculate the sales tax, pre-tax price, after-tax total, and reverse tax in just seconds. Whether you’re shopping, preparing an invoice, or running an eCommerce store, this tool saves time by giving you accurate tax-inclusive and tax-exclusive amounts."
+    },
+    {
+      "heading": "How the Sales Tax Calculator Works",
+      "subSections": [
+        {
+          "heading": "1. Add Sales Tax (Tax Exclusive → Tax Inclusive)",
+          "content": "Total Price = Pre-Tax Price + (Pre-Tax Price × Sales Tax Rate)"
+        },
+        {
+          "heading": "2. Find Sales Tax from Total Price (Reverse Tax)",
+          "content": "Sales Tax = Total Price – (Total Price ÷ (1 + Tax Rate))"
+        },
+        {
+          "heading": "3. Pre-Tax Price from Total (Tax Inclusive → Exclusive)",
+          "content": "Pre-Tax Price = Total Price ÷ (1 + Tax Rate)"
+        }
+      ]
+    },
+    {
+      "heading": "Sales Tax Calculation Examples",
+      "subSections": [
+        {
+          "heading": "Example 1 (Add Tax)",
+          "content": "Item price = $100, Sales Tax Rate = 8% → Total = $100 + ($100 × 0.08) = $108"
+        },
+        {
+          "heading": "Example 2 (Reverse Tax)",
+          "content": "Total Price (Tax Inclusive) = $108, Tax Rate = 8% → Pre-Tax Price = $108 ÷ 1.08 = $100, Sales Tax = $108 – $100 = $8"
+        }
+      ]
+    },
+    {
+      "heading": "Common Use Cases",
+      "content": "Shopping & Retail, Invoices & Billing, eCommerce, State-Specific calculations (US state taxes), and International use (Canada GST/HST, UK VAT)."
+    },
+    {
+      "heading": "Sales Tax vs VAT (Quick Comparison)",
+      "subSections": [
+        {
+          "heading": "Sales Tax (USA)",
+          "content": "Charged at the final point of sale to the consumer."
+        },
+        {
+          "heading": "VAT (UK & EU)",
+          "content": "Added at each stage of the supply chain, with businesses reclaiming input tax."
+        }
+      ]
+    },
+    {
+      "heading": "Why Use This Calculator?",
+      "content": "✔ Fast & Accurate instant results\n✔ Works for pre-tax, after-tax, and reverse tax\n✔ Covers USA, Canada (GST/HST), UK VAT, and more\n✔ Perfect for shoppers, freelancers, accountants, and businesses"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do you calculate sales tax manually?",
+      "a": "Multiply the pre-tax price by the sales tax rate, then add it to the original price."
+    },
+    {
+      "q": "What is reverse sales tax and when is it useful?",
+      "a": "Reverse sales tax helps you find the pre-tax price when you only know the total (tax-inclusive) amount. Useful for receipts, invoices, and accounting."
+    },
+    {
+      "q": "How do I find sales tax from the total price?",
+      "a": "Use this formula: Sales Tax = Total Price – (Total Price ÷ (1 + Tax Rate))"
+    },
+    {
+      "q": "What is the difference between VAT and sales tax?",
+      "a": "Sales Tax is collected only at the final sale, while VAT is collected at each stage of production and distribution."
+    },
+    {
+      "q": "How does tax inclusive vs exclusive pricing work?",
+      "a": "Tax Exclusive means tax is added separately to the base price, while Tax Inclusive means the final price already includes tax."
+    },
+    {
+      "q": "What is the sales tax rate in the USA?",
+      "a": "Rates vary by state, e.g., California (7.25%), New York (4% state + local rates), Texas (6.25%). Always check your local rate."
+    },
+    {
+      "q": "Can I use this calculator for Canada GST/HST or UK VAT?",
+      "a": "Yes. The calculator works with any tax rate, including Canada GST/HST and UK VAT."
+    },
+    {
+      "q": "Is sales tax the same for online shopping and in-store purchases?",
+      "a": "It depends. Many US states now require eCommerce sales tax collection, similar to in-store purchases."
+    }
+  ]
+}

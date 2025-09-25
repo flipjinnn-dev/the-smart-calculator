@@ -1,7 +1,6 @@
 "use client"
 
 import { useRef, useState } from "react"
-import Head from "next/head"
 import Link from "next/link"
 import { Calculator, DollarSign, Percent, Calendar, FileText } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -12,6 +11,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import amortizationData from "@/app/content/amortization-calculator.json"
 
 interface AmortizationRow {
   payment: number
@@ -33,7 +34,7 @@ export default function AmortizationCalculator() {
     totalPayment: number
     schedule: AmortizationRow[]
   } | null>(null)
-  
+
 
   // Scroll to results
   scrollToRef(resultsRef as React.RefObject<HTMLElement>);
@@ -62,7 +63,7 @@ export default function AmortizationCalculator() {
         interest: interestPayment,
         balance: Math.max(0, remainingBalance),
       })
-      
+
     }
 
     const totalPayment = monthlyPayment * numberOfPayments
@@ -74,17 +75,17 @@ export default function AmortizationCalculator() {
       totalPayment,
       schedule,
     })
-    
+
   }
 
   return (
     <>
-<SEO
-  title="Amortization Calculator – Loan Schedule Made Easy"
-  description="Generate a full amortization schedule instantly. Use our free amortization calculator to track payments, interest, and principal with clarity."
-  keywords="amortization calculator, loan schedule calculator, repayment calculator, loan breakdown calculator"
-  slug="/financial/amortization-calculator"
-/>
+      <SEO
+        title="Amortization Calculator – Loan Schedule Made Easy"
+        description="Generate a full amortization schedule instantly. Use our free amortization calculator to track payments, interest, and principal with clarity."
+        keywords="amortization calculator, loan schedule calculator, repayment calculator, loan breakdown calculator"
+        slug="/financial/amortization-calculator"
+      />
       <div className="min-h-screen bg-white">
         {/* Header */}
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
@@ -348,6 +349,12 @@ export default function AmortizationCalculator() {
               </Card>
             </div>
           </div>
+
+          {/* Calculator Guide */}
+          <div className="mx-auto mt-12">
+            <CalculatorGuide data={amortizationData} />
+          </div>
+
         </main>
 
 

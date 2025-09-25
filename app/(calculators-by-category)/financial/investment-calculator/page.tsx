@@ -14,6 +14,8 @@ import Link from "next/link"
 import { Calculator, TrendingUp, DollarSign, Percent, Calendar } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import investmentData from "@/app/content/investment-calculator.json"
 
 export default function InvestmentCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -1060,6 +1062,9 @@ export default function InvestmentCalculator() {
               </div>
             </div>
           </div>
+
+          {/* Guide */}
+          <CalculatorGuide data={investmentData} />
         </main>
 
 

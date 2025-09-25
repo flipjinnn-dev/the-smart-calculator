@@ -1,0 +1,127 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "Understand Your Taxes with Our Income Tax Calculator",
+      "content": "Filing taxes doesn’t have to be confusing. Our Income Tax Calculator helps you calculate income tax online quickly and accurately, giving you clear insights into your taxable income, deductions, and take-home pay. Whether you want to estimate your tax liability for 2025, check if you’ll get a refund, or plan your finances ahead, this free income tax calculator is your go-to tool."
+    },
+    {
+      "heading": "With instant results, you can:",
+      "subSections": [
+        {
+          "heading": "Avoid manual errors",
+          "content": "With the income tax calculation formula."
+        },
+        {
+          "heading": "Compare federal vs state income tax",
+          "content": "See results in seconds."
+        },
+        {
+          "heading": "Plan better",
+          "content": "Use insights to optimize savings, deductions, and filing strategy."
+        }
+      ]
+    },
+    {
+      "heading": "How the Income Tax Calculator Works?",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter your income – salary, business, or self-employed earnings."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Apply deductions – choose between the standard deduction vs itemized deduction."
+        },
+        {
+          "heading": "Step 3",
+          "content": "See your taxable income – understand what taxable income means and how it’s different from gross vs net income."
+        },
+        {
+          "heading": "Step 4",
+          "content": "Review tax brackets 2025 explained – check which portion of your income falls into each bracket."
+        },
+        {
+          "heading": "Step 5",
+          "content": "View your results instantly – see your tax liability, after-tax income, or potential refund."
+        }
+      ]
+    },
+    {
+      "heading": "Use Cases & Variations",
+      "subSections": [
+        {
+          "heading": "Federal Income Tax Calculator",
+          "content": "For U.S. federal brackets."
+        },
+        {
+          "heading": "State Income Tax Calculator",
+          "content": "See how your state affects your liability."
+        },
+        {
+          "heading": "Income Tax Refund Calculator",
+          "content": "Estimate your refund in minutes."
+        },
+        {
+          "heading": "After-Tax Income Calculator / Take-Home Pay Calculator",
+          "content": "Find out what’s left after deductions."
+        },
+        {
+          "heading": "Self-Employed & Business Income Tax Calculator",
+          "content": "Built for freelancers, entrepreneurs, and LLCs."
+        },
+        {
+          "heading": "Dividend and Capital Gains Tax Calculator",
+          "content": "Track investments and returns."
+        },
+        {
+          "heading": "Married Filing Jointly or With Dependents",
+          "content": "Calculate benefits and compare filing status options."
+        }
+      ]
+    },
+    {
+      "heading": "Why Choose This Income Tax Calculator?",
+      "subSections": [
+        {
+          "heading": "Fast & Free",
+          "content": "No sign-ups, no fees."
+        },
+        {
+          "heading": "Accurate & Reliable",
+          "content": "Updated with tax brackets 2025 explained."
+        },
+        {
+          "heading": "User-Friendly",
+          "content": "Simple interface for individuals, families, and businesses."
+        },
+        {
+          "heading": "Comprehensive",
+          "content": "Works as an income tax estimator 2025, refund calculator, and take-home pay estimator all in one."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How to calculate tax on salary online?",
+      "a": "Enter your gross salary, apply deductions, and let the calculator estimate your tax liability and take-home pay."
+    },
+    {
+      "q": "What is pre-tax vs after-tax income?",
+      "a": "Pre-tax income is your total earnings before taxes, while after-tax income shows what you keep after deductions."
+    },
+    {
+      "q": "What is tax inclusive vs tax exclusive price?",
+      "a": "Tax-inclusive means the tax is already included in the total, while tax-exclusive means tax is added separately."
+    },
+    {
+      "q": "How does the calculator handle dependents or married filing jointly?",
+      "a": "Simply select your filing status and number of dependents for personalized results."
+    },
+    {
+      "q": "How to estimate a refund with an income tax calculator?",
+      "a": "Enter your withholding details, and the calculator will estimate whether you’ll owe or receive a refund."
+    }
+  ]
+}

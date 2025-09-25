@@ -13,6 +13,8 @@ import { Separator } from "@/components/ui/separator"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import salaryCalculator from "@/app/content/salary-calculator.json"
 
 type PayFrequency = "hourly" | "daily" | "weekly" | "biweekly" | "semimonthly" | "monthly" | "quarterly" | "yearly"
 
@@ -423,36 +425,6 @@ export default function SalaryCalculator() {
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
-              {/* How to Use */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How to Use the Salary Calculator</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>Enter Salary Amount:</strong> Input your current salary or wage rate
-                      </li>
-                      <li>
-                        <strong>Select Pay Frequency:</strong> Choose how often you're paid (hourly, weekly, monthly,
-                        etc.)
-                      </li>
-                      <li>
-                        <strong>Set Work Schedule:</strong> For hourly/daily rates, specify hours per week and days per
-                        week
-                      </li>
-                      <li>
-                        <strong>Add Time Off:</strong> Include holidays and vacation days for adjusted calculations
-                      </li>
-                      <li>
-                        <strong>Review Results:</strong> See both unadjusted and adjusted salary conversions across all
-                        pay periods
-                      </li>
-                    </ol>
-                  </div>
-                </CardContent>
-              </Card>
 
               {/* Formulas */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
@@ -507,56 +479,8 @@ export default function SalaryCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        What's the difference between unadjusted and adjusted salary?
-                      </h3>
-                      <p className="text-gray-700">
-                        Unadjusted salary assumes you work all 260 weekdays per year. Adjusted salary accounts for
-                        holidays and vacation days, giving you a more realistic annual income.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        How many working days are in a year?
-                      </h3>
-                      <p className="text-gray-700">
-                        There are typically 260 working days in a year (52 weeks × 5 days). This excludes weekends but
-                        includes holidays and vacation days, which are then subtracted for adjusted calculations.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        Should I include overtime in my salary calculation?
-                      </h3>
-                      <p className="text-gray-700">
-                        For the most accurate results, use your base hourly rate without overtime. Overtime pay varies
-                        and isn't guaranteed, so it's better to calculate it separately.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        Does this calculator account for taxes?
-                      </h3>
-                      <p className="text-gray-700">
-                        No, this calculator shows gross salary before taxes and deductions. Use our tax calculator to
-                        estimate your take-home pay after federal and state taxes.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Guide */}
+              <CalculatorGuide data={salaryCalculator}/>
             </div>
           </div>
         </main>

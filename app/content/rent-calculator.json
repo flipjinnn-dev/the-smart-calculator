@@ -1,0 +1,111 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "Rent Calculator – Find Out How Much Rent You Can Afford",
+      "content": "Our Rent Calculator (also called a rent affordability calculator or rent budget calculator) helps you answer one of the most important housing questions: “How much rent can I afford?” Whether you’re moving into your first apartment, relocating to a new city, or trying to balance rent with other expenses, this tool gives you a quick, accurate estimate of the maximum rent you should pay based on your income and debts."
+    },
+    {
+      "heading": "Why It’s Useful",
+      "subSections": [
+        {
+          "heading": "Budget planning",
+          "content": "Stay within a safe rent-to-income ratio."
+        },
+        {
+          "heading": "Debt awareness",
+          "content": "Factor in loans, credit cards, and living expenses."
+        },
+        {
+          "heading": "Smart choices",
+          "content": "Compare renting vs. buying with our Mortgage Calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How Does the Rent Calculator Work?",
+      "subSections": [
+        {
+          "heading": "Front-End Ratio (Housing Ratio)",
+          "content": "This guideline suggests you should spend no more than 30% of your gross monthly income on rent.\nFormula: Max Rent = Gross Monthly Income × 0.30"
+        },
+        {
+          "heading": "Back-End Ratio (Debt-to-Income Ratio)",
+          "content": "This rule considers all debts (rent + car loans + credit cards + student loans). Lenders usually prefer your total debt payments to be ≤ 40% of your gross monthly income.\nFormula: (Max Rent + Other Debts) ≤ Gross Monthly Income × 0.40"
+        },
+        {
+          "heading": "Example",
+          "content": "Salary: $60,000/year → $5,000/month.\n30% rule: $5,000 × 0.30 = $1,500 max rent.\nIf monthly debts = $500 → $1,500 rent + $500 debt = $2,000 (40% of $5,000). Affordable."
+        }
+      ]
+    },
+    {
+      "heading": "Who Should Use a Rent Affordability Calculator?",
+      "subSections": [
+        {
+          "heading": "Students",
+          "content": "Estimate rent when splitting costs with roommates."
+        },
+        {
+          "heading": "Single income households",
+          "content": "Find safe rent limits based on one salary."
+        },
+        {
+          "heading": "Dual income households",
+          "content": "Combine incomes for a more realistic rent budget."
+        },
+        {
+          "heading": "Low-income families",
+          "content": "Explore affordable rent options and avoid overspending."
+        },
+        {
+          "heading": "By geography",
+          "content": "Works whether you’re using it as a rent calculator NYC, London rent calculator, California rent calculator, or any other city."
+        }
+      ]
+    },
+    {
+      "heading": "Practical Rent Affordability Guidance",
+      "subSections": [
+        {
+          "heading": "What percent of income should rent be?",
+          "content": "General rule: 25%–30% of gross income. Conservative planners aim for 20%–25% if you have high expenses. If debts are low, some households stretch to 35%–40%, but it’s risky."
+        },
+        {
+          "heading": "Should I include utilities and other expenses?",
+          "content": "Yes. Always factor in: Utilities (electricity, gas, water, internet), Renters’ insurance, Transportation and commuting costs, Groceries & daily living."
+        },
+        {
+          "heading": "Rent vs Mortgage – Which is better?",
+          "content": "Renting is flexible and requires less upfront cost, but mortgages build equity. Compare options with our Rent vs Mortgage Calculator and Home Loan Calculator."
+        }
+      ]
+    },
+    {
+      "heading": "Rent Affordability by Salary (Quick Reference)",
+      "content": "$40,000 salary → ~$1,000/month rent\n$50,000 salary → ~$1,250/month rent\n$60,000 salary → ~$1,500/month rent\n$75,000 salary → ~$1,875/month rent\n$100,000 salary → ~$2,500/month rent\n(Assumes 30% rule, before debts and utilities.)"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much rent can I afford on $50k salary?",
+      "a": "Using the 30% rule, about $1,250 per month."
+    },
+    {
+      "q": "What percent of my income should rent be?",
+      "a": "Most experts recommend 25–30% of your gross monthly income."
+    },
+    {
+      "q": "Should I calculate rent based on net income (after tax)?",
+      "a": "Most calculators use gross income, but budgeting by net income is safer and more realistic."
+    },
+    {
+      "q": "Can students or low-income earners use this rent calculator?",
+      "a": "Yes. It adjusts to any income level. For tight budgets, aim for 20–25% of income for rent and seek housing assistance programs if needed."
+    },
+    {
+      "q": "Is it better to rent or buy?",
+      "a": "It depends on your city, career stability, and financial goals. Renting offers flexibility, while buying builds long-term equity. Use our Mortgage Calculator and Income Tax Calculator to compare."
+    }
+  ]
+}

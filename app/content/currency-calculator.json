@@ -1,0 +1,123 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Why Use Our Currency Calculator?",
+      "subSections": [
+        {
+          "heading": "Live Exchange Rates",
+          "content": "Get real-time currency values updated every few seconds from global forex markets and central banks."
+        },
+        {
+          "heading": "50+ Currencies Supported",
+          "content": "Convert between USD, EUR, GBP, JPY, CAD, AUD, INR, CNY, and more with instant results."
+        },
+        {
+          "heading": "Travel-Friendly",
+          "content": "Perfect for international travelers—avoid hidden bank fees and calculate costs abroad instantly."
+        },
+        {
+          "heading": "Multi-Currency Mode",
+          "content": "Convert multiple currencies at once, making it ideal for businesses handling international transactions."
+        },
+        {
+          "heading": "Historical Data Option",
+          "content": "Compare past rates to make better financial and investment decisions."
+        },
+        {
+          "heading": "Crypto & Fiat Support",
+          "content": "Track both traditional currencies and cryptocurrencies in one calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Currency Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter the amount you want to convert."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Select the base currency (e.g., USD)."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Choose the target currency (e.g., EUR, INR, GBP)."
+        },
+        {
+          "heading": "Step 4",
+          "content": "Click calculate to get the live exchange rate and converted amount."
+        },
+        {
+          "heading": "Step 5",
+          "content": "Optional: Enable historical mode or multi-currency mode for deeper insights."
+        }
+      ]
+    },
+    {
+      "heading": "How the Calculator Works (Process & Methodology)",
+      "subSections": [
+        {
+          "heading": "Live Forex Data",
+          "content": "The calculator fetches real-time rates from central banks and financial institutions."
+        },
+        {
+          "heading": "Conversion Formula",
+          "content": "Converted Value = Amount × Current Exchange Rate."
+        },
+        {
+          "heading": "Accuracy",
+          "content": "Unlike banks, which add fees and margins, this tool shows pure mid-market rates."
+        },
+        {
+          "heading": "Advanced Features",
+          "content": "Includes multi-currency conversions, fee comparison, and historical rate checks."
+        }
+      ]
+    },
+    {
+      "heading": "Example Conversion Scenarios",
+      "subSections": [
+        {
+          "heading": "Travel Example",
+          "content": "Converting $1,000 USD to EUR at a 1.10 rate gives €1,100 instantly, helping travelers plan expenses abroad."
+        },
+        {
+          "heading": "Business Example",
+          "content": "A company receiving 100,000 INR from India can check real-time USD value, ensuring fair international transactions."
+        },
+        {
+          "heading": "Student Example",
+          "content": "A student studying finance can compare historical GBP/USD rates to learn how exchange markets fluctuate over time."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the most accurate online currency calculator?",
+      "a": "The most accurate calculators use live forex market data updated in real time—like this one."
+    },
+    {
+      "q": "How do currency calculators update rates?",
+      "a": "They connect to global forex feeds and refresh automatically every few seconds."
+    },
+    {
+      "q": "Can I use this calculator for travel?",
+      "a": "Yes, it’s designed for international travelers to calculate costs abroad instantly without hidden fees."
+    },
+    {
+      "q": "What’s the difference between bank exchange rates and calculator rates?",
+      "a": "Banks usually add conversion margins and fees. This calculator shows mid-market rates so you can compare fairly."
+    },
+    {
+      "q": "Can I convert multiple currencies at once?",
+      "a": "Yes, the multi-currency mode allows you to convert across several currencies in a single calculation."
+    },
+    {
+      "q": "Does it support cryptocurrency conversions?",
+      "a": "Yes, it supports both fiat currencies and major cryptocurrencies for real-time conversions."
+    }
+  ]
+}

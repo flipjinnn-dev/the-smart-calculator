@@ -1,0 +1,86 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Payment Calculator: Simplify Your Loan Planning",
+      "content": "Our Payment Calculator is designed to help you quickly estimate your loan payments, whether for a car, home, personal loan, or any fixed installment plan. With just a few inputs, you can see your monthly payments, interest, and total repayment, empowering you to make informed financial decisions."
+    },
+    {
+      "heading": "How to Use the Payment Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Select your loan type – Car, Mortgage, Personal Loan, or Fixed Payment."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Enter the loan amount you plan to borrow."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Input the interest rate and loan term (months or years)."
+        },
+        {
+          "heading": "Step 4",
+          "content": "Click Calculate to view your monthly payment, total interest, and payment schedule."
+        }
+      ]
+    },
+    {
+      "heading": "Benefits of Using a Payment Calculator",
+      "subSections": [
+        {
+          "heading": "Quick Estimates",
+          "content": "Instantly determine monthly installments and total payments."
+        },
+        {
+          "heading": "Financial Planning",
+          "content": "Compare different loan options before committing."
+        },
+        {
+          "heading": "Amortization Insight",
+          "content": "Understand how payments break down between principal and interest."
+        },
+        {
+          "heading": "Decision-Making",
+          "content": "Choose the best loan based on realistic repayment expectations."
+        }
+      ]
+    },
+    {
+      "heading": "Common Scenarios",
+      "subSections": [
+        {
+          "heading": "Car Loan",
+          "content": "Use our car payment calculator to estimate monthly payments and compare financing options."
+        },
+        {
+          "heading": "Mortgage",
+          "content": "Plan ahead with our mortgage payment calculator for home loans."
+        },
+        {
+          "heading": "Personal Loan",
+          "content": "Calculate flexible repayment plans using our personal loan payment calculator."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I calculate monthly payments?",
+      "a": "Monthly payments are calculated using your loan amount, interest rate, and term. Our calculator automatically applies the standard loan payment formula and breaks down your amortization."
+    },
+    {
+      "q": "Can I compare different calculators?",
+      "a": "Yes! You can see the difference between an online payment calculator, amortization calculator, and fixed payment calculator to find the best fit for your needs."
+    },
+    {
+      "q": "Is this calculator free to use?",
+      "a": "Absolutely! Our free payment calculator provides instant results without hidden fees or signup requirements."
+    },
+    {
+      "q": "What is the difference between monthly vs. yearly payments?",
+      "a": "Monthly payments spread your loan cost over time, while yearly payments consolidate it into fewer, larger installments. Use our monthly vs. yearly payments option for clear comparisons."
+    }
+  ]
+}

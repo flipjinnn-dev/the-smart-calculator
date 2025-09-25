@@ -13,6 +13,8 @@ import { Checkbox } from "@/components/ui/checkbox"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import autoLoanData from "@/app/content/auto-loan-calculator.json"
 
 const US_STATES = [
   { value: "AL", label: "Alabama", tax: 4.0 },
@@ -797,6 +799,12 @@ export default function AutoLoanCalculator() {
               </Card>
             )}
           </div>
+
+          {/* Calculator Guide */}
+          <div className="mx-auto mt-12">
+            <CalculatorGuide data={autoLoanData} />
+          </div>
+
         </main>
 
 

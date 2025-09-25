@@ -1,0 +1,75 @@
+{
+  "color": "pink",
+  "sections": [
+    {
+      "heading": "Understand Your Tax Impact with Our Marriage Calculator",
+      "content": "Getting married is exciting—but it also comes with important financial decisions. Our Marriage Calculator helps you understand the tax impact of marriage, showing how your filing status, combined income, and deductions can affect your taxes. Whether you’re curious about a marriage tax penalty, a potential marriage tax bonus, or how taxable income after marriage may change, this tool simplifies the process and empowers you to plan ahead."
+    },
+    {
+      "heading": "How the Marriage Calculator Works",
+      "content": "Using our calculator is quick and easy:",
+      "subSections": [
+        { "heading": "Enter Your Income", "content": "Include your annual income and your spouse’s income." },
+        { "heading": "Select Your Filing Status", "content": "Choose between married filing jointly or married filing separately." },
+        { "heading": "Include Deductions", "content": "Factor in deductions such as the standard deduction for married couples." },
+        { "heading": "View Results", "content": "Get a clear estimate of your taxes, potential savings, and tax consequences of marriage." }
+      ]
+    },
+    {
+      "heading": "Key Tax Concepts for Married Couples",
+      "content": "Understanding key tax concepts is crucial to maximizing benefits:",
+      "subSections": [
+        { "heading": "Filing Jointly vs Separately", "content": "Joint filing often results in lower tax rates and more credits, while separate filing may lead to higher tax rates and fewer deductions." },
+        { "heading": "Standard Deduction for Married Couples", "content": "In 2025, IRS rules provide a higher standard deduction when filing jointly." },
+        { "heading": "Tax Brackets for Married Couples", "content": "Your combined income determines which tax brackets apply, affecting your overall tax liability." },
+        { "heading": "Marriage Tax Penalty vs Bonus", "content": "A penalty occurs when combined income pushes you into a higher bracket, while a bonus happens if joint filing qualifies you for lower tax rates." },
+        { "heading": "Impact on Tax Return", "content": "Filing status changes, deductions, and credits all influence taxable income after marriage." }
+      ]
+    },
+    {
+      "heading": "Practical Tax Tips for Newlyweds",
+      "content": "Helpful strategies for newly married couples:",
+      "subSections": [
+        { "heading": "Plan Ahead", "content": "Use our marriage and income tax calculator to estimate your taxes before filing." },
+        { "heading": "Consider Tax Planning", "content": "Adjust withholdings and retirement contributions to optimize savings." },
+        { "heading": "Track Deductions", "content": "Include deductions for married couples like mortgage interest, education credits, or childcare expenses." },
+        { "heading": "Use Tax Software", "content": "Tax filing software for married couples can simplify calculations and ensure accuracy." },
+        { "heading": "Stay on Top of Deadlines", "content": "Know tax filing deadlines for married couples to avoid penalties." }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a marriage tax calculator?",
+      "a": "A marriage tax calculator estimates your tax liability after marriage, taking into account your combined income, filing status, and deductions."
+    },
+    {
+      "q": "How does filing jointly vs separately affect taxes?",
+      "a": "Filing jointly often provides tax benefits such as lower rates and larger deductions, while filing separately may limit credits and increase tax liability."
+    },
+    {
+      "q": "What is a marriage tax penalty?",
+      "a": "It occurs when combining incomes pushes a couple into a higher tax bracket, resulting in higher taxes than if they filed individually."
+    },
+    {
+      "q": "What is a marriage tax bonus?",
+      "a": "A bonus happens when joint filing lowers your overall tax rate, saving you money compared to filing separately."
+    },
+    {
+      "q": "How can newlyweds optimize their taxes?",
+      "a": "By adjusting withholdings, tracking deductions, planning contributions, and using tax software for accuracy."
+    },
+    {
+      "q": "What are the standard deductions for married couples in 2025?",
+      "a": "The standard deduction for married couples filing jointly in 2025 is higher than for single filers, reducing taxable income and lowering taxes."
+    },
+    {
+      "q": "What are the tax filing options for married couples?",
+      "a": "Filing options include married filing jointly or married filing separately, each with different pros and cons."
+    },
+    {
+      "q": "How can a joint tax return estimator help?",
+      "a": "It provides a clear view of your taxable income after marriage, helping you identify potential savings and plan for the tax implications of marriage in 2025."
+    }
+  ]
+}

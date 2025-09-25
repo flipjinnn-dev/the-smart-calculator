@@ -13,6 +13,8 @@ import { Separator } from "@/components/ui/separator"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import savingsData from "@/app/content/savings-calculator.json"
 
 interface YearlyBreakdown {
   year: number
@@ -539,52 +541,9 @@ export default function SavingsCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        How does compounding frequency affect my savings?
-                      </h3>
-                      <p className="text-gray-700">
-                        More frequent compounding (daily vs annually) means interest is calculated and added to your balance more often, leading to slightly higher returns due to earning interest on previously earned interest.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        Should I include inflation in my calculations?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes, inflation reduces the purchasing power of money over time. The "real value" shows what your future savings will be worth in today's dollars, helping you plan more accurately.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        How are taxes applied to my savings?
-                      </h3>
-                      <p className="text-gray-700">
-                        The calculator applies taxes only to interest earned, not to your principal contributions. This simulates a taxable savings account where contributions are made with after-tax dollars.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        What's the difference between annual and monthly contributions?
-                      </h3>
-                      <p className="text-gray-700">
-                        Annual contributions are added once per year at the beginning, while monthly contributions are added each month. Both can have separate growth rates to account for salary increases or changing financial situations.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Guide */}
+              <CalculatorGuide data={savingsData} />
+
             </div>
           </div>
         </main>

@@ -15,6 +15,8 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import pensionData from "@/app/content/pension-calculator.json"
 
 export default function PensionCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -275,8 +277,8 @@ export default function PensionCalculator() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/retirement" className="text-gray-500 hover:text-blue-600">
-                Retirement
+              <Link href="/financial" className="text-gray-500 hover:text-blue-600">
+                Financial Calculators
               </Link>
               <span className="text-gray-400">/</span>
               <span className="text-gray-900 font-medium">Pension Calculator</span>
@@ -822,35 +824,6 @@ export default function PensionCalculator() {
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
-              {/* How to Use */}
-              <Card className="shadow-2xl border-0 bg-white p-0">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-green-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How to Use the Pension Calculator</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>Choose Your Comparison:</strong> Select from three pension decision scenarios using the
-                        tabs
-                      </li>
-                      <li>
-                        <strong>Enter Your Information:</strong> Input your age, pension amounts, investment
-                        assumptions, and life expectancy
-                      </li>
-                      <li>
-                        <strong>Review Present Values:</strong> Compare the present value of each option to see which
-                        provides more lifetime value
-                      </li>
-                      <li>
-                        <strong>Consider Other Factors:</strong> Remember that financial value is just one factor - also
-                        consider risk tolerance and family needs
-                      </li>
-                    </ol>
-                  </div>
-                </CardContent>
-              </Card>
-
               {/* Formulas */}
               <Card className="shadow-2xl border-0 bg-white p-0">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-green-50 rounded-t-lg border-b px-8 py-6">
@@ -884,94 +857,8 @@ export default function PensionCalculator() {
                   </div>
                 </CardContent>
               </Card>
-
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 bg-white p-0">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-green-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <Accordion type="single" collapsible className="space-y-4">
-                    <AccordionItem value="item-1">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                          Should I take the lump sum or monthly pension?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        <p className="text-gray-700">
-                          It depends on your investment return assumptions, life expectancy, and risk tolerance. The
-                          lump sum gives you control and inheritance potential, while monthly payments provide
-                          guaranteed income for life.
-                        </p>
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-2">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                          What is a joint and survivor pension?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        <p className="text-gray-700">
-                          A joint and survivor pension continues payments to your spouse after your death, typically at
-                          50-100% of the original amount. This provides security for your spouse but usually means lower
-                          initial payments.
-                        </p>
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-3">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                          How important is the investment return assumption?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        <p className="text-gray-700">
-                          Very important. Higher assumed returns favor the lump sum option, while lower returns favor
-                          monthly payments. Consider using conservative estimates and testing different scenarios.
-                        </p>
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-4">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                          What is COLA and why does it matter?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        <p className="text-gray-700">
-                          COLA (Cost of Living Adjustment) is an annual increase to protect against inflation. Pensions
-                          with COLA are more valuable over time, especially during periods of high inflation.
-                        </p>
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-5">
-                      <AccordionTrigger className="text-left">
-                        <div className="flex items-center">
-                          <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                          Should I work longer for a higher pension?
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        <p className="text-gray-700">
-                          Working longer often increases your pension significantly, but you lose years of retirement.
-                          The calculator helps quantify this trade-off, but also consider your health, job satisfaction,
-                          and personal goals.
-                        </p>
-                      </AccordionContent>
-                    </AccordionItem>
-                  </Accordion>
-                </CardContent>
-              </Card>
+              {/* Guide */}
+              <CalculatorGuide data={pensionData} />
             </div>
           </div>
         </main>

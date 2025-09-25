@@ -11,6 +11,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import paymentData from "@/app/content/payment-calculator.json"
 
 interface PaymentResults {
   monthlyPayment: number
@@ -528,6 +530,9 @@ export default function PaymentCalculator() {
               </div>
             )}
           </div>
+
+          <CalculatorGuide data={paymentData} />
+
         </main>
 
 

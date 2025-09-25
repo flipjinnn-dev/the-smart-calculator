@@ -15,6 +15,8 @@ import { Separator } from "@/components/ui/separator"
 import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
 import {useMobileScroll} from "@/hooks/useMobileScroll"
+import CalculatorGuide from "@/components/calculator-guide"
+import mortgagePayoffData from "@/app/content/mortgage-payoff-calculator.json"
 
 interface MortgageResult {
   standardPayoffMonths: number
@@ -817,6 +819,9 @@ export default function MortgagePayoffCalculator() {
               </Card>
             </div>
           </div>
+
+          <CalculatorGuide data={mortgagePayoffData} />
+
         </main>
       </div>
     </>

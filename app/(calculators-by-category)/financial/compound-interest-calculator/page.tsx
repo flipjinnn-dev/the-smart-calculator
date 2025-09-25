@@ -11,6 +11,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import compoundInterestData from "@/app/content/compound-interest-calculator.json"
 
 export default function CompoundInterestCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -76,7 +78,7 @@ export default function CompoundInterestCalculator() {
         {/* Header */}
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-16">
+            <div className="flex justify-between items-center h-18">
               <div className="flex items-center space-x-3">
                 <Logo />
                 <div>
@@ -128,7 +130,7 @@ export default function CompoundInterestCalculator() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Calculator Form */}
               <Card className="shadow-xl border-0 pt-0">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg">
+                <CardHeader className="bg-gradient-to-r py-4 from-green-50 to-blue-50 rounded-t-lg">
                   <CardTitle className="flex items-center space-x-3 text-2xl">
                     <Calculator className="w-6 h-6 text-green-600" />
                     <span>Investment Details</span>
@@ -231,7 +233,7 @@ export default function CompoundInterestCalculator() {
 
               {/* Results */}
               <Card ref={resultsRef} className="shadow-xl border-0 pt-0">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg">
+                <CardHeader className="bg-gradient-to-r py-4 from-blue-50 to-purple-50 rounded-t-lg">
                   <CardTitle className="text-2xl">Investment Growth</CardTitle>
                   <CardDescription className="text-base">Your investment projection</CardDescription>
                 </CardHeader>
@@ -282,6 +284,8 @@ export default function CompoundInterestCalculator() {
               </Card>
             </div>
           </div>
+
+          <CalculatorGuide data={compoundInterestData} />
         </main>
 
 

@@ -1,0 +1,116 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "What is an Investment Calculator?",
+      "subSections": [
+        {
+          "heading": "Definition",
+          "content": "An investment calculator is a free online tool that estimates the future value of your money based on lump sums, monthly contributions, interest rates, and compounding frequency."
+        },
+        {
+          "heading": "Purpose",
+          "content": "It provides quick insights into how your savings or investments grow over time, making financial planning easier and smarter."
+        }
+      ]
+    },
+    {
+      "heading": "How Our Free Investment Calculator Works",
+      "subSections": [
+        {
+          "heading": "Inputs You Can Customize",
+          "content": "- Initial investment amount (lump sum)\n- Monthly contributions (SIP/recurring deposits)\n- Compounding frequency (monthly, quarterly, yearly)\n- Expected rate of return (stocks, bonds, savings)\n- Investment duration (years)\n- Inflation or tax adjustment (optional)"
+        },
+        {
+          "heading": "Calculation Method",
+          "content": "The calculator applies compound interest formulas to project future value. It shows how contributions and returns accumulate over time."
+        },
+        {
+          "heading": "Flexibility",
+          "content": "You can calculate lump sum growth, compare SIP vs one-time deposits, or simulate stock market returns."
+        }
+      ]
+    },
+    {
+      "heading": "Benefits & Use Cases",
+      "subSections": [
+        {
+          "heading": "Retirement Planning",
+          "content": "Estimate your future nest egg with or without inflation adjustments."
+        },
+        {
+          "heading": "Scenario Comparison",
+          "content": "Visualize differences between monthly vs yearly contributions and compounding."
+        },
+        {
+          "heading": "Wealth Growth Visualization",
+          "content": "Understand the long-term power of compound returns."
+        },
+        {
+          "heading": "Goal Setting",
+          "content": "Plan for milestones like buying a house, child’s education, or early retirement."
+        },
+        {
+          "heading": "Inflation Testing",
+          "content": "Check how inflation impacts the real purchasing power of your savings."
+        }
+      ]
+    },
+    {
+      "heading": "Example Scenarios",
+      "subSections": [
+        {
+          "heading": "Monthly Contributions",
+          "content": "$500/month invested for 20 years at 8% annual return grows to over $295,000 with compounding."
+        },
+        {
+          "heading": "Lump Sum Investment",
+          "content": "A $10,000 one-time investment at 7% annual return for 15 years grows to around $27,590."
+        },
+        {
+          "heading": "Retirement Estimate",
+          "content": "Combining lump sum + monthly contributions helps project retirement savings adjusted for inflation."
+        }
+      ]
+    },
+    {
+      "heading": "Investment Calculator vs Other Tools",
+      "subSections": [
+        {
+          "heading": "Savings Calculator",
+          "content": "Focuses on fixed deposit growth, not variable investment returns."
+        },
+        {
+          "heading": "Loan Calculator",
+          "content": "Calculates repayment schedules, while investment calculators show future value growth."
+        },
+        {
+          "heading": "Retirement Calculator",
+          "content": "Retirement tools focus on withdrawals and income, while investment calculators focus on accumulation."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much will my investment be worth in 10 years?",
+      "a": "It depends on your initial amount, monthly contributions, interest rate, and compounding frequency. Use the calculator for exact results."
+    },
+    {
+      "q": "What is the future value of $500 monthly investment?",
+      "a": "At 8% annual return, $500/month for 20 years grows to over $295,000 with compounding."
+    },
+    {
+      "q": "Does the investment calculator include inflation?",
+      "a": "Yes, you can adjust for inflation to see the real value of your investments."
+    },
+    {
+      "q": "How do I calculate compound returns automatically?",
+      "a": "Simply enter your inputs (amount, rate, time, contributions) and the calculator projects results instantly."
+    },
+    {
+      "q": "Which is the best free investment calculator online?",
+      "a": "The best calculators include lump sum + SIP options, monthly contributions, and inflation adjustment—like this one."
+    }
+  ]
+}

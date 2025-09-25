@@ -10,7 +10,8 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SEO from "@/lib/seo";
-
+import CalculatorGuide from "@/components/calculator-guide";
+import retirementData from "@/app/content/retirement-calculator.json";
 
 export default function RetirementCalculator() {
   // State for results
@@ -281,7 +282,7 @@ export default function RetirementCalculator() {
         {/* Header */}
         <header className="bg-white shadow-md border-b sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-16">
+            <div className="flex justify-between items-center h-18">
               <div className="flex items-center space-x-3">
                 <Logo />
                 <div>
@@ -486,20 +487,7 @@ export default function RetirementCalculator() {
               </div>
             </div>
             {/* How to Use Section (below main grid) */}
-            <section className="max-w-6xl mx-auto mt-16 mb-12 px-4 sm:px-6 lg:px-8">
-              <div className="bg-white rounded-lg shadow p-6">
-                <h2 className="text-xl font-semibold mb-4 flex items-center">
-                  <Calculator className="w-5 h-5 mr-2 text-blue-600" />
-                  How to Use the Retirement Calculator
-                </h2>
-                <ol className="list-decimal pl-5 space-y-2">
-                  <li className="text-gray-700">Select the calculation type from the dropdown above</li>
-                  <li className="text-gray-700">Fill in your details for the selected calculation</li>
-                  <li className="text-gray-700">Click <span className="font-medium text-blue-600">Calculate Retirement Plan</span> to see your results</li>
-                  <li className="text-gray-700">Review the results and adjust your inputs as needed</li>
-                </ol>
-              </div>
-            </section>
+            <CalculatorGuide data={retirementData} />
           </div>
         </main>
         {/* Footer */}

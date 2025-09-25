@@ -1,0 +1,124 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Interest Rate Calculator – Find the Right Loan Rate Instantly",
+      "content": "Managing loans can feel complicated, but understanding your interest rate shouldn’t be. Our Interest Rate Calculator helps you quickly and accurately calculate loan interest rates for mortgages, car loans, personal loans, home loans, and even credit cards. Whether you want to calculate monthly loan interest, find the effective annual interest rate, or compare multiple loan offers, this free tool gives you instant clarity."
+    },
+    {
+      "heading": "Why Use an Interest Rate Calculator?",
+      "subSections": [
+        {
+          "heading": "Save time",
+          "content": "No manual math required."
+        },
+        {
+          "heading": "Plan smarter",
+          "content": "Know your exact cost of borrowing."
+        },
+        {
+          "heading": "Compare lenders",
+          "content": "See which loan offers the best rate."
+        },
+        {
+          "heading": "Stay accurate",
+          "content": "Built with the same formulas banks and lenders use."
+        }
+      ]
+    },
+    {
+      "heading": "How Does the Calculator Work?",
+      "content": "Our calculator uses the loan interest rate formula and loan amortization methods to give you precise results.",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Enter your loan amount (principal)."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Add your monthly payment and loan term."
+        },
+        {
+          "heading": "Step 3",
+          "content": "The calculator applies the effective interest rate formula and shows your monthly or annual interest rate."
+        },
+        {
+          "heading": "Note",
+          "content": "This is the same process lenders use to calculate APR vs interest rate and repayment schedules."
+        }
+      ]
+    },
+    {
+      "heading": "Types of Loans You Can Calculate",
+      "subSections": [
+        {
+          "heading": "Mortgage Interest Rate Calculator",
+          "content": "For home loans."
+        },
+        {
+          "heading": "Car Loan Interest Rate Calculator",
+          "content": "Auto financing & leasing."
+        },
+        {
+          "heading": "Personal Loan Interest Rate Calculator",
+          "content": "Unsecured borrowing."
+        },
+        {
+          "heading": "Home Loan Interest Rate Calculator",
+          "content": "Property and housing finance."
+        },
+        {
+          "heading": "Credit Card Interest Rate Calculator",
+          "content": "Revolving credit balances."
+        },
+        {
+          "heading": "Advanced Loan Interest Rate Calculator",
+          "content": "With fees, APR, and comparison tools."
+        }
+      ]
+    },
+    {
+      "heading": "Educational Insights – Understand Your Loan Better",
+      "subSections": [
+        {
+          "heading": "APR vs Interest Rate",
+          "content": "Interest Rate: The base cost of borrowing. APR (Annual Percentage Rate): Includes interest + fees, giving a clearer picture of your loan’s true cost."
+        },
+        {
+          "heading": "Monthly vs Annual Interest Rate",
+          "content": "Monthly: Useful for budgeting and EMI planning. Annual: Best for comparing lenders and long-term costs."
+        },
+        {
+          "heading": "Nominal vs Effective Interest Rate",
+          "content": "Nominal Rate: Stated interest without compounding. Effective Annual Rate (EAR): Includes compounding, showing the real cost."
+        }
+      ]
+    },
+    {
+      "heading": "Compare & Find the Best Loan",
+      "content": "Looking for the best loan interest rate calculator online? Our tool doubles as an interest rate comparison tool, allowing you to check multiple loan scenarios side by side.\n- Compare mortgage vs personal loan rates.\n- Understand auto loan APR vs interest rate.\n- Use it as an online EMI calculator with interest rates.\nIt’s free, accurate, and built for smarter financial decisions."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How to calculate interest rate on a loan manually?",
+      "a": "You divide total interest paid by principal, then adjust for loan term. Our tool automates this instantly."
+    },
+    {
+      "q": "Can I calculate interest rate from monthly payment?",
+      "a": "Yes – enter your loan amount, term, and monthly payment, and the calculator finds the rate."
+    },
+    {
+      "q": "What’s the difference between APR and interest rate?",
+      "a": "APR includes fees; interest rate does not. APR is always equal to or higher than the nominal rate."
+    },
+    {
+      "q": "How do banks calculate loan interest rates?",
+      "a": "Banks use factors like credit score, loan type, and market rates, then apply amortization formulas."
+    },
+    {
+      "q": "Is this calculator accurate for all loans?",
+      "a": "Yes – it works for mortgages, car loans, personal loans, credit cards, and more."
+    }
+  ]
+}

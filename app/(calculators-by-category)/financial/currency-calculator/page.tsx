@@ -11,6 +11,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import currencyData from "@/app/content/currency-calculator.json"
 
 const currencies = [
   { code: "USD", name: "US Dollar", symbol: "$", flag: "🇺🇸" },
@@ -527,6 +529,10 @@ export default function CurrencyCalculator() {
               </Card>
             </section>
           </div>
+
+          <CalculatorGuide data={currencyData} />
+
+
         </main>
 
       </div>

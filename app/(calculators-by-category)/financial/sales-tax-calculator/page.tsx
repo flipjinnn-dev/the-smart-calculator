@@ -13,6 +13,8 @@ import { Separator } from "@/components/ui/separator"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import salesTaxData from "@/app/content/sales-tax-calulcator.json"
 
 export default function SalesTaxCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -335,33 +337,6 @@ export default function SalesTaxCalculator() {
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
-              {/* How to Use */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How to Use the Sales Tax Calculator</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>Select Calculation Mode:</strong> Choose whether you want to calculate from pre-tax
-                        price, after-tax price, or find the tax rate
-                      </li>
-                      <li>
-                        <strong>Enter Required Information:</strong> Input the price and tax rate based on your selected
-                        mode
-                      </li>
-                      <li>
-                        <strong>Calculate:</strong> Click the calculate button to see your results
-                      </li>
-                      <li>
-                        <strong>Review Results:</strong> See the breakdown of pre-tax price, tax amount, and final price
-                      </li>
-                    </ol>
-                  </div>
-                </CardContent>
-              </Card>
-
               {/* Sales Tax Formulas */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
                 <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
@@ -418,56 +393,8 @@ export default function SalesTaxCalculator() {
                 </CardContent>
               </Card>
 
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions (FAQ)</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        How is sales tax calculated?
-                      </h3>
-                      <p className="text-gray-700">
-                        Sales tax is calculated by multiplying the pre-tax price by the tax rate percentage. The tax
-                        amount is then added to the original price to get the final price.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        Can I calculate reverse sales tax?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes! If you know the final price and tax rate, you can calculate the original pre-tax price and
-                        tax amount using our reverse calculation mode.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        What is the difference between VAT and Sales Tax?
-                      </h3>
-                      <p className="text-gray-700">
-                        VAT (Value Added Tax) is applied at each stage of production, while sales tax is only applied at
-                        the final point of sale to the consumer. This calculator works for both types of taxes.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-green-600" />
-                        Are sales tax rates the same everywhere?
-                      </h3>
-                      <p className="text-gray-700">
-                        No, sales tax rates vary by location. They can differ by state, county, and city. Always check
-                        your local tax rates for accurate calculations.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Guide */}
+              <CalculatorGuide data={salesTaxData} />
             </div>
           </div>
         </main>

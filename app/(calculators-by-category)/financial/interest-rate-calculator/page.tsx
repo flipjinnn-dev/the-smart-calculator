@@ -12,6 +12,8 @@ import { Label } from "@/components/ui/label"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
+import CalculatorGuide from "@/components/calculator-guide"
+import interestRateData from "@/app/content/interest-rate-calculator.json"
 
 export default function InterestRateCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -298,31 +300,6 @@ export default function InterestRateCalculator() {
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
-              {/* How to Use */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">How to Use the Interest Rate Calculator</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>Enter Loan Amount:</strong> Input the total amount borrowed or financed
-                      </li>
-                      <li>
-                        <strong>Set Loan Term:</strong> Specify the length of the loan in years and months
-                      </li>
-                      <li>
-                        <strong>Input Monthly Payment:</strong> Enter the fixed monthly payment amount
-                      </li>
-                      <li>
-                        <strong>Calculate:</strong> Click calculate to determine the interest rate and total costs
-                      </li>
-                    </ol>
-                  </div>
-                </CardContent>
-              </Card>
-
               {/* Formulas */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
@@ -359,59 +336,8 @@ export default function InterestRateCalculator() {
                   </div>
                 </CardContent>
               </Card>
-
               {/* FAQ */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">Frequently Asked Questions</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        When would I use this calculator?
-                      </h3>
-                      <p className="text-gray-700">
-                        This calculator is useful when you know the loan amount, payment, and term, but need to find the
-                        interest rate. Common scenarios include car loans where dealers quote monthly payments without
-                        clearly stating the APR.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        Is this the same as APR?
-                      </h3>
-                      <p className="text-gray-700">
-                        The calculated rate is the periodic interest rate. For loans with additional fees, the APR would
-                        be higher. This calculator assumes no additional fees beyond the stated payment amount.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        How accurate are the results?
-                      </h3>
-                      <p className="text-gray-700">
-                        The calculator uses advanced numerical methods to solve for interest rates with high precision.
-                        Results are accurate to several decimal places for standard loan scenarios.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />
-                        What if I get unusual results?
-                      </h3>
-                      <p className="text-gray-700">
-                        Verify that your inputs are realistic. Very low payments relative to loan amount may result in
-                        negative interest rates, while very high payments may indicate calculation errors in the
-                        original loan terms.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              <CalculatorGuide data={interestRateData} />
             </div>
           </div>
         </main>
