@@ -677,6 +677,13 @@ export const calculators: Calculator[] = [
     category: "other",
   },
   {
+    id:"enterprise-seo-roi-calculator",
+    name: "Enterprise SEO ROI Calculator",
+    description: "Calculate the return on investment (ROI) for enterprise SEO.",
+    href: "/enterprise-seo-roi-calculator",
+    category: "other",
+  },
+  {
     id:"rpe-calculator",
     name: "RPE Calculator",
     description: "Calculate the rate of perceived exertion (RPE) for various activities.",
