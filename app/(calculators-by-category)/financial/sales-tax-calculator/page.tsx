@@ -14,6 +14,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import salesTaxData from "@/app/content/sales-tax-calulcator.json"
 
 export default function SalesTaxCalculator() {
@@ -333,6 +334,31 @@ export default function SalesTaxCalculator() {
                   )}
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Similar Calculators */}
+            <div className="mt-12">
+              <SimilarCalculators 
+                calculators={[
+                  {
+                    calculatorName: "Estate Tax Calculator",
+                    calculatorHref: "/financial/estate-tax-calculator",
+                    calculatorDescription: "Calculate federal estate tax liability, exemptions, and tax planning strategies for estates."
+                  },
+                  {
+                    calculatorName: "Salary Calculator",
+                    calculatorHref: "/financial/salary-calculator",
+                    calculatorDescription: "Convert between different pay periods and calculate your salary breakdown across various timeframes."
+                  },
+                  {
+                    calculatorName: "Income Tax Calculator",
+                    calculatorHref: "/financial/income-tax-calculator",
+                    calculatorDescription: "Calculate federal and state income taxes, deductions, and your total tax liability."
+                  }
+                ]}
+                color="green"
+                title="Related Financial Calculators"
+              />
             </div>
 
             {/* Educational Content */}

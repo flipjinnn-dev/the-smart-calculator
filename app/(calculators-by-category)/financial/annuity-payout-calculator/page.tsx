@@ -16,6 +16,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import annuityPayoutData from "@/app/content/annuity-payout-calculator.json"
 
 interface PayoutScheduleEntry {
@@ -531,6 +532,29 @@ export default function AnnuityPayoutCalculator() {
                 </CardContent>
               </Card>
             )}
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Annuity Calculator",
+                  calculatorHref: "/financial/annuity-calculator",
+                  calculatorDescription: "Calculate annuity values, payments, and accumulation periods"
+                },
+                {
+                  calculatorName: "Savings Calculator", 
+                  calculatorHref: "/financial/savings-calculator",
+                  calculatorDescription: "Track savings growth and plan for financial goals over time"
+                },
+                {
+                  calculatorName: "401(k) Calculator Suite",
+                  calculatorHref: "/financial/401k-calculator",
+                  calculatorDescription: "Comprehensive 401(k) planning with retirement projections and optimization"
+                }
+              ]}
+              color="green"
+              title="Related Financial Calculators"
+            />
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">

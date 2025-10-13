@@ -14,6 +14,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import creditPayoffData from "@/app/content/credit-card-payoff-calculator.json"
 
 interface CreditCard {
@@ -560,6 +561,29 @@ export default function DebtAvalancheCalculator() {
                 </CardContent>
               </Card>
             </div>
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Credit Card Calculator",
+                  calculatorHref: "/financial/credit-card-calculator",
+                  calculatorDescription: "Calculate monthly payments and payoff time for credit card balances"
+                },
+                {
+                  calculatorName: "Interest Calculator", 
+                  calculatorHref: "/financial/interest-calculator",
+                  calculatorDescription: "Calculate simple and compound interest for loans and investments"
+                },
+                {
+                  calculatorName: "Payment Calculator",
+                  calculatorHref: "/financial/payment-calculator",
+                  calculatorDescription: "Calculate loan payments for various types of financing scenarios"
+                }
+              ]}
+              color="red"
+              title="Related Financial Calculators"
+            />
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8 p-0">

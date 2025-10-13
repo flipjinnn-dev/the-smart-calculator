@@ -14,6 +14,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import salaryCalculator from "@/app/content/salary-calculator.json"
 
 type PayFrequency = "hourly" | "daily" | "weekly" | "biweekly" | "semimonthly" | "monthly" | "quarterly" | "yearly"
@@ -421,6 +422,31 @@ export default function SalaryCalculator() {
                   )}
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Similar Calculators */}
+            <div className="mt-12">
+              <SimilarCalculators 
+                calculators={[
+                  {
+                    calculatorName: "Investment Calculator",
+                    calculatorHref: "/financial/investment-calculator",
+                    calculatorDescription: "Plan your investment strategy and see how your portfolio can grow over time."
+                  },
+                  {
+                    calculatorName: "Time Value of Money Calculator",
+                    calculatorHref: "/financial/finance-calculator",
+                    calculatorDescription: "Calculate present and future values, analyze investment returns, and make informed financial decisions."
+                  },
+                  {
+                    calculatorName: "Savings Calculator",
+                    calculatorHref: "/financial/savings-calculator",
+                    calculatorDescription: "Calculate how your savings grow over time with compound interest and regular contributions."
+                  }
+                ]}
+                color="blue"
+                title="Related Financial Calculators"
+              />
             </div>
 
             {/* Educational Content */}

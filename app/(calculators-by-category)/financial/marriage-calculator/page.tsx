@@ -14,6 +14,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import marriageData from "@/app/content/marriage-calculator.json"
 
 // 2025 Tax brackets
@@ -811,6 +812,31 @@ export default function MarriageTaxCalculator() {
                   )}
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Similar Calculators */}
+            <div className="mt-12">
+              <SimilarCalculators 
+                calculators={[
+                  {
+                    calculatorName: "House Affordability Calculator",
+                    calculatorHref: "/financial/house-affordability-calculator",
+                    calculatorDescription: "Calculate how much house you can afford based on your income, debts, and down payment."
+                  },
+                  {
+                    calculatorName: "Loan Calculator",
+                    calculatorHref: "/financial/loan-calculator",
+                    calculatorDescription: "Calculate monthly payments, interest rates, and loan terms for personal and auto loans."
+                  },
+                  {
+                    calculatorName: "Salary Calculator",
+                    calculatorHref: "/financial/salary-calculator",
+                    calculatorDescription: "Convert between different pay periods and calculate your salary breakdown across various timeframes."
+                  }
+                ]}
+                color="pink"
+                title="Related Financial Calculators"
+              />
             </div>
 
             {/* Educational Content */}

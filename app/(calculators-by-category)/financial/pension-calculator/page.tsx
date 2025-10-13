@@ -16,6 +16,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import pensionData from "@/app/content/pension-calculator.json"
 
 export default function PensionCalculator() {
@@ -820,6 +821,31 @@ export default function PensionCalculator() {
                   )}
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Similar Calculators */}
+            <div className="mt-12">
+              <SimilarCalculators 
+                calculators={[
+                  {
+                    calculatorName: "Time Value of Money Calculator",
+                    calculatorHref: "/financial/finance-calculator",
+                    calculatorDescription: "Calculate present and future values, analyze investment returns, and make informed financial decisions."
+                  },
+                  {
+                    calculatorName: "Salary Calculator",
+                    calculatorHref: "/financial/salary-calculator",
+                    calculatorDescription: "Convert between different pay periods and calculate your salary breakdown across various timeframes."
+                  },
+                  {
+                    calculatorName: "Payment Calculator",
+                    calculatorHref: "/financial/payment-calculator",
+                    calculatorDescription: "Calculate monthly payments for loans, mortgages, and other financing options."
+                  }
+                ]}
+                color="blue"
+                title="Related Financial Calculators"
+              />
             </div>
 
             {/* Educational Content */}

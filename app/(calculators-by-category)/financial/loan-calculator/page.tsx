@@ -10,6 +10,7 @@ import { Label } from "@/components/ui/label"
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import loanData from "@/app/content/loan-calculator.json"
 import SEO from "@/lib/seo"
 
@@ -250,6 +251,31 @@ export default function LoanCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+          {/* Similar Calculators */}
+          <div className="mt-12">
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Auto Loan Calculator",
+                  calculatorHref: "/financial/auto-loan-calculator",
+                  calculatorDescription: "Calculate car loan payments, interest rates, and financing options for vehicle purchases."
+                },
+                {
+                  calculatorName: "Interest Calculator",
+                  calculatorHref: "/financial/interest-calculator",
+                  calculatorDescription: "Calculate simple and compound interest on loans, investments, and savings accounts."
+                },
+                {
+                  calculatorName: "Savings Calculator",
+                  calculatorHref: "/financial/savings-calculator",
+                  calculatorDescription: "Calculate how your savings grow over time with compound interest and regular contributions."
+                }
+              ]}
+              color="green"
+              title="Related Financial Calculators"
+            />
           </div>
 
           <div className="mt-8">

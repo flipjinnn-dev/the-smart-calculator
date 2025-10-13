@@ -13,6 +13,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
 import paymentData from "@/app/content/payment-calculator.json"
+import SimilarCalculators from "@/components/similar-calculators"
 
 interface PaymentResults {
   monthlyPayment: number
@@ -530,10 +531,31 @@ export default function PaymentCalculator() {
               </div>
             )}
           </div>
-
+        <SimilarCalculators
+          calculators={[
+            {
+              calculatorName: "Currency Calculator",
+              calculatorHref: "/financial/currency-calculator",
+              calculatorDescription: "Convert between different currencies with real-time rates"
+            },
+            {
+              calculatorName: "Salary Calculator",
+              calculatorHref: "/financial/salary-calculator",
+              calculatorDescription: "Calculate net salary after taxes and deductions"
+            },
+            {
+              calculatorName: "Savings Calculator",
+              calculatorHref: "/financial/savings-calculator",
+              calculatorDescription: "Calculate future value of savings with compound interest"
+            }
+          ]}
+          color="blue"
+          title="Related Financial Calculators"
+        />
           <CalculatorGuide data={paymentData} />
 
         </main>
+
 
 
       </div>

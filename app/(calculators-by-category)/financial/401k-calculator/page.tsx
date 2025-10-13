@@ -14,6 +14,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import fourOhOneKData from "@/app/content/401-k-calculator.json"
 
 export default function FourOhOneKCalculator() {
@@ -934,6 +935,29 @@ export default function FourOhOneKCalculator() {
                 </div>
               </div>
             </div>
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Retirement Calculator",
+                  calculatorHref: "/financial/retirement-calculator",
+                  calculatorDescription: "Plan your complete retirement strategy with comprehensive projections"
+                },
+                {
+                  calculatorName: "Salary Calculator", 
+                  calculatorHref: "/financial/salary-calculator",
+                  calculatorDescription: "Calculate your take-home pay and understand salary breakdowns"
+                },
+                {
+                  calculatorName: "Savings Calculator",
+                  calculatorHref: "/financial/savings-calculator",
+                  calculatorDescription: "Track savings growth and plan for financial goals"
+                }
+              ]}
+              color="blue"
+              title="Related Financial Calculators"
+            />
 
             {/* Educational Content */}
             <div className="mt-0 space-y-8">

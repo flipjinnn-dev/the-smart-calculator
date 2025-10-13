@@ -14,6 +14,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import houseAffordabilityData from "@/app/content/house-affordability-calculator.json"
 
 export default function HouseAffordabilityCalculator() {
@@ -556,6 +557,29 @@ export default function HouseAffordabilityCalculator() {
                 </CardContent>
               </Card>
             </div>
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Income Tax Calculator",
+                  calculatorHref: "/financial/income-tax-calculator",
+                  calculatorDescription: "Calculate your federal and state income tax liability and refunds"
+                },
+                {
+                  calculatorName: "Debt Payoff Calculator", 
+                  calculatorHref: "/financial/debt-payoff-calculator",
+                  calculatorDescription: "Create a strategy to pay off debts faster using avalanche method"
+                },
+                {
+                  calculatorName: "Finance Calculator",
+                  calculatorHref: "/financial/finance-calculator",
+                  calculatorDescription: "Calculate time value of money for investment and loan scenarios"
+                }
+              ]}
+              color="green"
+              title="Related Financial Calculators"
+            />
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">

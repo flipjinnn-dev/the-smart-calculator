@@ -12,6 +12,7 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/component
 import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import mortgageData from "@/app/content/mortgage-calculator.json"
 import SEO from "@/lib/seo"
 interface ExtraPayment {
@@ -826,6 +827,30 @@ export default function MortgageCalculator() {
             </div>
 
           </div>
+          
+          {/* Similar Calculators Section */}
+          <SimilarCalculators 
+            calculators={[
+              {
+                calculatorName: "Amortization Calculator",
+                calculatorHref: "/financial/amortization-calculator",
+                calculatorDescription: "Calculate loan payments and schedules for any type of loan"
+              },
+              {
+                calculatorName: "Mortgage Payoff Calculator", 
+                calculatorHref: "/financial/mortgage-payoff-calculator",
+                calculatorDescription: "Calculate car loan payments and total cost"
+              },
+              {
+                calculatorName: "House Affordability Calculator",
+                calculatorHref: "/financial/house-affordability-calculator",
+                calculatorDescription: "Determine how much house you can afford based on your income"
+              }
+            ]}
+            color="green"
+            title="Related Financial Calculators"
+          />
+          
           <div className="mt-8">
               <CalculatorGuide data={mortgageData} />
           </div>

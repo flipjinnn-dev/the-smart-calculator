@@ -13,6 +13,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
 import currencyData from "@/app/content/currency-calculator.json"
+import SimilarCalculators from "@/components/similar-calculators"
 
 const currencies = [
   { code: "USD", name: "US Dollar", symbol: "$", flag: "🇺🇸" },
@@ -532,7 +533,27 @@ export default function CurrencyCalculator() {
 
           <CalculatorGuide data={currencyData} />
 
-
+          <SimilarCalculators
+            calculators={[
+              {
+                calculatorName: "Salary Calculator",
+                calculatorHref: "/financial/salary-calculator",
+                calculatorDescription: "Calculate net salary after taxes and deductions"
+              },
+              {
+                calculatorName: "Savings Calculator",
+                calculatorHref: "/financial/savings-calculator",
+                calculatorDescription: "Calculate future value of savings with compound interest"
+              },
+              {
+                calculatorName: "Money Calculator",
+                calculatorHref: "/financial/finance-calculator",
+                calculatorDescription: "Calculate time value of money and financial planning"
+              }
+            ]}
+            color="blue"
+            title="Related Financial Calculators"
+          />
         </main>
 
       </div>

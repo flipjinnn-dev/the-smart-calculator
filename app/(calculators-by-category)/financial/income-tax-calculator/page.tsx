@@ -15,6 +15,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import incomeTaxData from "@/app/content/income-tax-calculator.json"
 
 // Tax brackets for 2024 and 2025
@@ -764,6 +765,31 @@ const marginalTaxRate = foundBracket ? foundBracket.rate * 100 : 0
                   )}
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Similar Calculators */}
+            <div className="mt-12">
+              <SimilarCalculators 
+                calculators={[
+                  {
+                    calculatorName: "401(k) Calculator Suite",
+                    calculatorHref: "/financial/401k-calculator",
+                    calculatorDescription: "Plan your 401(k) contributions, employer matching, and retirement savings strategy."
+                  },
+                  {
+                    calculatorName: "Sales Tax Calculator",
+                    calculatorHref: "/financial/sales-tax-calculator",
+                    calculatorDescription: "Calculate sales tax, final price, or determine tax rate with our comprehensive sales tax calculator."
+                  },
+                  {
+                    calculatorName: "Currency Calculator",
+                    calculatorHref: "/financial/currency-calculator",
+                    calculatorDescription: "Convert between different currencies with real-time exchange rates and historical data."
+                  }
+                ]}
+                color="green"
+                title="Related Financial Calculators"
+              />
             </div>
 
             {/* Educational Content */}

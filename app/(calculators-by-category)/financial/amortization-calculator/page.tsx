@@ -12,6 +12,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import amortizationData from "@/app/content/amortization-calculator.json"
 
 interface AmortizationRow {
@@ -349,7 +350,27 @@ export default function AmortizationCalculator() {
               </Card>
             </div>
           </div>
-
+        <SimilarCalculators
+          calculators={[
+            {
+              calculatorName: "Interest Calculator",
+              calculatorHref: "/financial/interest-calculator",
+              calculatorDescription: "Calculate simple and compound interest on investments"
+            },
+            {
+              calculatorName: "Investment Calculator",
+              calculatorHref: "/financial/investment-calculator",
+              calculatorDescription: "Calculate investment returns and portfolio growth"
+            },
+            {
+              calculatorName: "Interest Rate Calculator",
+              calculatorHref: "/financial/interest-rate-calculator",
+              calculatorDescription: "Calculate interest rates for loans and investments"
+            }
+          ]}
+          color="blue"
+          title="Related Financial Calculators"
+        />
           {/* Calculator Guide */}
           <div className="mx-auto mt-12">
             <CalculatorGuide data={amortizationData} />
@@ -358,6 +379,33 @@ export default function AmortizationCalculator() {
         </main>
 
 
+
+        <div className="max-w-4xl mx-auto p-6 space-y-8">
+          <h2 className="text-2xl font-bold text-gray-900">How to Use the Amortization Calculator</h2>
+          <p className="text-gray-600">
+            The amortization calculator is a powerful tool designed to help you understand the breakdown of your loan payments. Here’s how to use it:
+          </p>
+          <ol className="list-decimal list-inside space-y-4">
+            <li>
+              <strong>Enter Loan Amount:</strong> Input the total amount of the loan you wish to calculate.
+            </li>
+            <li>
+              <strong>Enter Interest Rate:</strong> Provide the annual interest rate of the loan.
+            </li>
+            <li>
+              <strong>Select Loan Term:</strong> Choose the duration of the loan in years.
+            </li>
+            <li>
+              <strong>Enter Start Date:</strong> Specify the date when the loan payments will begin.
+            </li>
+            <li>
+              <strong>Generate Schedule:</strong> Click the button to generate the amortization schedule.
+            </li>
+          </ol>
+          <p className="text-gray-600">
+            The calculator will display a detailed schedule showing each payment, the amount allocated to principal and interest, and the remaining balance.
+          </p>
+        </div>
       </div>
     </>
   )

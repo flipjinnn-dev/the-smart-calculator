@@ -15,6 +15,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import deptPayoffData from "@/app/content/debt-payoff-calculator.json"
 
 interface Debt {
@@ -642,6 +643,29 @@ export default function DebtPayoffCalculator() {
                 </CardContent>
               </Card>
             </div>
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Interest Calculator",
+                  calculatorHref: "/financial/interest-calculator",
+                  calculatorDescription: "Calculate simple and compound interest for loans and investments"
+                },
+                {
+                  calculatorName: "Loan Calculator", 
+                  calculatorHref: "/financial/loan-calculator",
+                  calculatorDescription: "Calculate monthly payments and total costs for various loan types"
+                },
+                {
+                  calculatorName: "Compound Interest Calculator",
+                  calculatorHref: "/financial/compound-interest-calculator",
+                  calculatorDescription: "See how compound interest grows your investments over time"
+                }
+              ]}
+              color="red"
+              title="Related Financial Calculators"
+            />
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">

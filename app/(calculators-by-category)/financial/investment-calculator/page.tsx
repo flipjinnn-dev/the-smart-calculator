@@ -16,6 +16,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
 import investmentData from "@/app/content/investment-calculator.json"
+import SimilarCalculators from "@/components/similar-calculators"
 
 export default function InvestmentCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -1067,6 +1068,27 @@ export default function InvestmentCalculator() {
           <CalculatorGuide data={investmentData} />
         </main>
 
+        <SimilarCalculators
+          calculators={[
+            {
+              calculatorName: "Interest Calculator",
+              calculatorHref: "/financial/interest-calculator",
+              calculatorDescription: "Calculate simple and compound interest on investments"
+            },
+            {
+              calculatorName: "Salary Calculator",
+              calculatorHref: "/financial/salary-calculator",
+              calculatorDescription: "Calculate net salary after taxes and deductions"
+            },
+            {
+              calculatorName: "Time Value of Money Calculator",
+              calculatorHref: "/financial/finance-calculator",
+              calculatorDescription: "Calculate present and future value of money with time"
+            }
+          ]}
+          color="blue"
+          title="Related Financial Calculators"
+        />
 
       </div>
     </>

@@ -12,6 +12,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import compoundInterestData from "@/app/content/compound-interest-calculator.json"
 
 export default function CompoundInterestCalculator() {
@@ -283,6 +284,31 @@ export default function CompoundInterestCalculator() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+          {/* Similar Calculators */}
+          <div className="mt-12">
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Interest Calculator",
+                  calculatorHref: "/financial/interest-calculator",
+                  calculatorDescription: "Calculate simple and compound interest on loans, investments, and savings accounts."
+                },
+                {
+                  calculatorName: "Interest Rate Calculator",
+                  calculatorHref: "/financial/interest-rate-calculator",
+                  calculatorDescription: "Determine the interest rate on loans with fixed terms and monthly payments."
+                },
+                {
+                  calculatorName: "Credit Card Calculator",
+                  calculatorHref: "/financial/credit-card-calculator",
+                  calculatorDescription: "Calculate credit card payments, payoff time, and interest costs for different payment strategies."
+                }
+              ]}
+              color="green"
+              title="Related Financial Calculators"
+            />
           </div>
 
           <CalculatorGuide data={compoundInterestData} />

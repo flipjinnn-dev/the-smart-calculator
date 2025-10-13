@@ -12,6 +12,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SEO from "@/lib/seo";
 import CalculatorGuide from "@/components/calculator-guide";
 import retirementData from "@/app/content/retirement-calculator.json";
+import SimilarCalculators from "@/components/similar-calculators";
 
 export default function RetirementCalculator() {
   // State for results
@@ -45,7 +46,11 @@ export default function RetirementCalculator() {
     // 4) Equivalent in Today's Money
     const PV_today = FV_yearly / Math.pow(1 + infl, n_years);
     setResult(
-      `Future Value (Monthly): $${Math.round(FV_monthly).toLocaleString()}\nFuture Value (Yearly): $${Math.round(FV_yearly).toLocaleString()}\nTotal Principal (Monthly): $${Math.round(Total_Principal_monthly).toLocaleString()}\nTotal Interest (Monthly): $${Math.round(Total_Interest_monthly).toLocaleString()}\nEquivalent in Today's Money: $${Math.round(PV_today).toLocaleString()}`
+      `Future Value (Monthly): $${Math.round(FV_monthly).toLocaleString()}
+Future Value (Yearly): $${Math.round(FV_yearly).toLocaleString()}
+Total Principal (Monthly): $${Math.round(Total_Principal_monthly).toLocaleString()}
+Total Interest (Monthly): $${Math.round(Total_Interest_monthly).toLocaleString()}
+Equivalent in Today's Money: $${Math.round(PV_today).toLocaleString()}`
     );
     setShowResult(true);
   }
@@ -488,11 +493,36 @@ export default function RetirementCalculator() {
             </div>
             {/* How to Use Section (below main grid) */}
             <CalculatorGuide data={retirementData} />
+
+         <SimilarCalculators
+        calculators={[
+          {
+            calculatorName: "Pension Calculator",
+            calculatorHref: "/financial/pension-calculator",
+            calculatorDescription: "Calculate pension benefits and retirement income"
+          },
+          {
+            calculatorName: "Investment Calculator",
+            calculatorHref: "/financial/investment-calculator",
+            calculatorDescription: "Calculate investment returns and portfolio growth"
+          },
+          {
+            calculatorName: "Savings Calculator",
+            calculatorHref: "/financial/savings-calculator",
+            calculatorDescription: "Calculate future value of savings with compound interest"
+          }
+        ]}
+        color="blue"
+        title="Related Financial Calculators"
+      />
           </div>
         </main>
         {/* Footer */}
 
       </div>
+
+
+
     </>
   );
 }

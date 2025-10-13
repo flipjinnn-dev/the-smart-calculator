@@ -16,6 +16,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import socialSecurityData from "@/app/content/social-security-calculator.json"
 
 // Full Retirement Age table based on birth year
@@ -540,6 +541,31 @@ export default function SocialSecurityCalculator() {
                   )}
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Similar Calculators */}
+            <div className="mt-12">
+              <SimilarCalculators 
+                calculators={[
+                  {
+                    calculatorName: "Savings Calculator",
+                    calculatorHref: "/financial/savings-calculator",
+                    calculatorDescription: "Calculate how your savings grow over time with compound interest and regular contributions."
+                  },
+                  {
+                    calculatorName: "Investment Calculator",
+                    calculatorHref: "/financial/investment-calculator",
+                    calculatorDescription: "Plan your investment strategy and see how your portfolio can grow over time."
+                  },
+                  {
+                    calculatorName: "Retirement Calculator",
+                    calculatorHref: "/financial/retirement-calculator",
+                    calculatorDescription: "Calculate how much you need to save for retirement and plan your financial future."
+                  }
+                ]}
+                color="blue"
+                title="Related Financial Calculators"
+              />
             </div>
 
             {/* Educational Content */}

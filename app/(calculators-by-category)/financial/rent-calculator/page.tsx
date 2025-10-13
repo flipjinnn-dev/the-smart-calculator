@@ -15,6 +15,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import rentData from "@/app/content/rent-calculator.json"
 
 export default function RentAffordabilityCalculator() {
@@ -342,6 +343,26 @@ export default function RentAffordabilityCalculator() {
                   )}
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Similar Calculators */}
+            <div className="mt-12">
+              <SimilarCalculators 
+                calculators={[
+                  {
+                    calculatorName: "Payment Calculator",
+                    calculatorHref: "/financial/payment-calculator",
+                    calculatorDescription: "Calculate monthly payments for loans, mortgages, and other financing options."
+                  },
+                  {
+                    calculatorName: "Time Value of Money Calculator",
+                    calculatorHref: "/financial/finance-calculator",
+                    calculatorDescription: "Calculate present and future values, analyze investment returns, and make informed financial decisions."
+                  },
+                ]}
+                color="green"
+                title="Related Financial Calculators"
+              />
             </div>
 
             {/* Educational Content */}

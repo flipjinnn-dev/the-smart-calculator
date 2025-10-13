@@ -14,6 +14,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import savingsData from "@/app/content/savings-calculator.json"
 
 interface YearlyBreakdown {
@@ -496,6 +497,31 @@ export default function SavingsCalculator() {
                   )}
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Similar Calculators */}
+            <div className="mt-12">
+              <SimilarCalculators 
+                calculators={[
+                  {
+                    calculatorName: "Interest Calculator",
+                    calculatorHref: "/financial/interest-calculator",
+                    calculatorDescription: "Calculate simple and compound interest on loans, investments, and savings accounts."
+                  },
+                  {
+                    calculatorName: "Investment Calculator",
+                    calculatorHref: "/financial/investment-calculator",
+                    calculatorDescription: "Plan your investment strategy and see how your portfolio can grow over time."
+                  },
+                  {
+                    calculatorName: "Salary Calculator",
+                    calculatorHref: "/financial/salary-calculator",
+                    calculatorDescription: "Convert between different pay periods and calculate your salary breakdown across various timeframes."
+                  }
+                ]}
+                color="green"
+                title="Related Financial Calculators"
+              />
             </div>
 
             {/* Educational Content */}

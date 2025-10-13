@@ -1,13 +1,16 @@
 "use client"
 
-import { useState, useRef } from "react"
-import Link from "next/link"
-import { Calculator, DollarSign, Percent, Calendar, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button"
+import { useState, useEffect, useRef } from "react"
+import { AlertCircle } from "lucide-react"
+import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import SimilarCalculators from "@/components/similar-calculators"
+import { Calculator, DollarSign, Percent, Calendar, TrendingUp } from "lucide-react"
+import Link from "next/link"
 import Logo from "@/components/logo"
 import CalculatorGuide from "@/components/calculator-guide"
 import interestData from "@/app/content/interest-calculator.json"
@@ -486,12 +489,45 @@ export default function InterestCalculator() {
               </Card>
             </div>
           </div>
+        <SimilarCalculators
+        calculators={[
+          {
+            calculatorName: "Compound Interest Calculator",
+            calculatorHref: "/financial/compound-interest-calculator",
+            calculatorDescription: "Calculate compound interest with various compounding frequencies"
+          },
+          {
+            calculatorName: "Interest Calculator",
+            calculatorHref: "/financial/interest-calculator",
+            calculatorDescription: "Calculate simple and compound interest on investments"
+          },
+          {
+            calculatorName: "Time Value of Money Calculator",
+            calculatorHref: "/financial/finance-calculator",
+            calculatorDescription: "Calculate present and future value of money with time"
+          }
+        ]}
+        color="green"
+        title="Related Financial Calculators"
+      />
           {/* How to Use Section */}
           <div className="mt-8">
               <CalculatorGuide data={interestData} />
           </div>
         </main>
       </div>
+
+
+
+      <div className="max-w-4xl mx-auto p-6 space-y-8">
+        <div className="bg-green-50 p-4 rounded-lg">
+          <AlertCircle className="w-6 h-6 text-green-600" />
+          <AlertDescription className="ml-4">
+            This calculator is for educational purposes only and should not be used as financial advice.
+          </AlertDescription>
+        </div>
+      </div>
+
     </>
   )
 }

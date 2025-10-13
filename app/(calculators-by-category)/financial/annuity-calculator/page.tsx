@@ -15,6 +15,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import annuityData from "@/app/content/annuity-calculator.json"
 
 interface AnnuityResults {
@@ -512,6 +513,29 @@ export default function AnnuityCalculator() {
                 </CardContent>
               </Card>
             </div>
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Finance Calculator",
+                  calculatorHref: "/financial/finance-calculator",
+                  calculatorDescription: "Calculate time value of money for investment and loan scenarios"
+                },
+                {
+                  calculatorName: "Credit Card Payoff Calculator", 
+                  calculatorHref: "/financial/credit-card-payoff-calculator",
+                  calculatorDescription: "Create optimal debt payoff strategy using avalanche method"
+                },
+                {
+                  calculatorName: "Annuity Payout Calculator",
+                  calculatorHref: "/financial/annuity-payout-calculator",
+                  calculatorDescription: "Calculate periodic withdrawals and payout duration from annuities"
+                }
+              ]}
+              color="green"
+              title="Related Financial Calculators"
+            />
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">

@@ -15,6 +15,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import creditCardData from "@/app/content/credit-card-calculator.json"
 
 interface PaymentScheduleEntry {
@@ -568,6 +569,29 @@ export default function CreditCardCalculator() {
                 </CardContent>
               </Card>
             </div>
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Credit Card Payoff Calculator",
+                  calculatorHref: "/financial/credit-card-payoff-calculator",
+                  calculatorDescription: "Create optimal debt payoff strategy using avalanche method"
+                },
+                {
+                  calculatorName: "Finance Calculator", 
+                  calculatorHref: "/financial/finance-calculator",
+                  calculatorDescription: "Calculate time value of money for investment and loan scenarios"
+                },
+                {
+                  calculatorName: "Salary Calculator",
+                  calculatorHref: "/financial/salary-calculator",
+                  calculatorDescription: "Calculate take-home pay, deductions, and salary conversions"
+                }
+              ]}
+              color="red"
+              title="Related Financial Calculators"
+            />
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">

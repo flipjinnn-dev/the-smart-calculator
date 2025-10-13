@@ -13,6 +13,7 @@ import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import financeData from "@/app/content/finance-calculator.json"
 
 export default function TVMCalculator() {
@@ -710,6 +711,29 @@ export default function TVMCalculator() {
                 </Card>
               </div>
             )}
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Investment Calculator",
+                  calculatorHref: "/financial/investment-calculator",
+                  calculatorDescription: "Calculate returns on investments and compare different investment scenarios"
+                },
+                {
+                  calculatorName: "Estate Tax Calculator", 
+                  calculatorHref: "/financial/estate-tax-calculator",
+                  calculatorDescription: "Estimate estate taxes and plan for wealth transfer strategies"
+                },
+                {
+                  calculatorName: "Credit Card Payoff Calculator",
+                  calculatorHref: "/financial/credit-card-payoff-calculator",
+                  calculatorDescription: "Calculate time and interest to pay off credit card debt"
+                }
+              ]}
+              color="blue"
+              title="Related Financial Calculators"
+            />
 
             {/* Educational Content */}
             <div className="mt-12">

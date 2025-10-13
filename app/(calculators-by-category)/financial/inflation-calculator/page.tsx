@@ -12,6 +12,7 @@ import Logo from "@/components/logo"
 import Link from "next/link"
 import { Calculator, TrendingUp, DollarSign, Percent, Calendar } from "lucide-react"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import inflationData from "@/app/content/inflation-calculator.json"
 import SEO from "@/lib/seo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
@@ -876,6 +877,31 @@ export default function InflationCalculator() {
             </Card>
           </div>
 
+
+          {/* Similar Calculators */}
+          <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Currency Calculator",
+                  calculatorHref: "/financial/currency-calculator",
+                  calculatorDescription: "Convert between different currencies with real-time exchange rates and historical data."
+                },
+                {
+                  calculatorName: "Interest Calculator",
+                  calculatorHref: "/financial/interest-calculator",
+                  calculatorDescription: "Calculate simple and compound interest on loans, investments, and savings accounts."
+                },
+                {
+                  calculatorName: "Salary Calculator",
+                  calculatorHref: "/financial/salary-calculator",
+                  calculatorDescription: "Convert between different pay periods and calculate your salary breakdown across various timeframes."
+                }
+              ]}
+              color="red"
+              title="Related Financial Calculators"
+            />
+          </div>
 
            <div className="mt-8">
               <CalculatorGuide data={inflationData} />

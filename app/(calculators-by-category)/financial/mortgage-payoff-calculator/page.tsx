@@ -17,6 +17,7 @@ import SEO from "@/lib/seo"
 import {useMobileScroll} from "@/hooks/useMobileScroll"
 import CalculatorGuide from "@/components/calculator-guide"
 import mortgagePayoffData from "@/app/content/mortgage-payoff-calculator.json"
+import SimilarCalculators from "@/components/similar-calculators"
 
 interface MortgageResult {
   standardPayoffMonths: number
@@ -822,8 +823,26 @@ export default function MortgagePayoffCalculator() {
 
           <CalculatorGuide data={mortgagePayoffData} />
 
+        <SimilarCalculators
+        calculators={[
+          {
+            calculatorName: "Advanced Mortgage Calculator",
+            calculatorHref: "/financial/mortgage-calculator",
+            calculatorDescription: "Calculate comprehensive mortgage payments and scenarios"
+          },
+          {
+            calculatorName: "Annuity Payout Calculator",
+            calculatorHref: "/financial/annuity-payout-calculator",
+            calculatorDescription: "Calculate annuity payments and retirement income"
+          }
+        ]}
+        color="blue"
+        title="Related Financial Calculators"
+      />
+
         </main>
       </div>
+
     </>
   )
 }

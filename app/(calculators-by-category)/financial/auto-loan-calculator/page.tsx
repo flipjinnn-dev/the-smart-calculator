@@ -15,6 +15,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
 import autoLoanData from "@/app/content/auto-loan-calculator.json"
+import SimilarCalculators from "@/components/similar-calculators"
 
 const US_STATES = [
   { value: "AL", label: "Alabama", tax: 4.0 },
@@ -799,7 +800,27 @@ export default function AutoLoanCalculator() {
               </Card>
             )}
           </div>
-
+      <SimilarCalculators
+        calculators={[
+          {
+            calculatorName: "Loan Calculator",
+            calculatorHref: "/financial/loan-calculator",
+            calculatorDescription: "Calculate loan payments, interest, and amortization schedules"
+          },
+          {
+            calculatorName: "Payment Calculator",
+            calculatorHref: "/financial/payment-calculator",
+            calculatorDescription: "Calculate monthly payments for various loan types"
+          },
+          {
+            calculatorName: "Interest Calculator",
+            calculatorHref: "/financial/interest-calculator",
+            calculatorDescription: "Calculate simple and compound interest on investments"
+          }
+        ]}
+        color="blue"
+        title="Related Financial Calculators"
+      />
           {/* Calculator Guide */}
           <div className="mx-auto mt-12">
             <CalculatorGuide data={autoLoanData} />
@@ -807,6 +828,11 @@ export default function AutoLoanCalculator() {
 
         </main>
 
+      </div>
+
+
+
+      <div className="max-w-4xl mx-auto p-6 space-y-8">
 
       </div>
     </>

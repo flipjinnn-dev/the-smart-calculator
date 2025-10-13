@@ -15,6 +15,7 @@ import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
+import SimilarCalculators from "@/components/similar-calculators"
 import estateTaxData from "@/app/content/estate-tax-calculator.json"
 
 export default function EstateTaxCalculator() {
@@ -552,6 +553,29 @@ export default function EstateTaxCalculator() {
                 </CardContent>
               </Card>
             </div>
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Sales Tax Calculator",
+                  calculatorHref: "/financial/sales-tax-calculator",
+                  calculatorDescription: "Calculate sales tax rates and total costs for purchases across states"
+                },
+                {
+                  calculatorName: "Salary Calculator", 
+                  calculatorHref: "/financial/salary-calculator",
+                  calculatorDescription: "Calculate take-home pay, deductions, and salary conversions"
+                },
+                {
+                  calculatorName: "Income Tax Calculator",
+                  calculatorHref: "/financial/income-tax-calculator",
+                  calculatorDescription: "Estimate federal and state income tax liability and refunds"
+                }
+              ]}
+              color="green"
+              title="Related Financial Calculators"
+            />
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
