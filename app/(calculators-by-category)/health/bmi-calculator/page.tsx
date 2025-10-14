@@ -15,6 +15,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
 import bmiData from "@/app/content/bmi-calculator.json"
+import SimilarCalculators from "@/components/similar-calculators"
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -482,6 +483,29 @@ export default function BMICalculator() {
               </div>
             </div>
 
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Body Mass Calculator",
+                  calculatorHref: "/health/lean-body-mass-calculator",
+                  calculatorDescription: "Calculate your lean body mass based on weight and body fat percentage"
+                },
+                {
+                  calculatorName: "Anorexic BMI Calculator", 
+                  calculatorHref: "/health/anorexic-bmi-calculator",
+                  calculatorDescription: "Calculate BMI for individuals with anorexia"
+                },
+                {
+                  calculatorName: "Overweight Calculator",
+                  calculatorHref: "/health/overweight-calculator",
+                  calculatorDescription: "Calculate BMI for individuals with overweight"
+                }
+              ]}
+              color="green"
+              title="Related Health Calculators"
+            />
+            
             {/* Information Section */}
             <section className="mt-16">
           {/* How to Use Section */}
