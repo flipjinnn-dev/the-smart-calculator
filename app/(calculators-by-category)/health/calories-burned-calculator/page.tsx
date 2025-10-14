@@ -14,7 +14,7 @@ import SEO from "@/lib/seo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import CalculatorGuide from "@/components/calculator-guide"
 import calorieBurnData from "@/app/content/calorie-burned-calculator.json"
-
+import SimilarCalculators from "@/components/similar-calculators"
 
 // Activity data with MET values
 const activities = [
@@ -587,6 +587,30 @@ export default function CaloriesBurnedCalculator() {
                 </CardContent>
               </Card>
             </div>
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "BMI Calculator",
+                  calculatorHref: "/health/bmi-calculator",
+                  calculatorDescription: "Calculate your Body Mass Index and understand your weight status"
+                },
+                {
+                  calculatorName: "Healthy Weight Calculator", 
+                  calculatorHref: "/health/healthy-weight-calculator",
+                  calculatorDescription: "Calculate your healthy weight range based on height and gender"
+                },
+                {
+                  calculatorName: "Overweight Calculator",
+                  calculatorHref: "/health/overweight-calculator",
+                  calculatorDescription: "Calculate BMI for individuals with overweight"
+                }
+              ]}
+              color="orange"
+              title="Related Health Calculators"
+            />
+
           </div>
 
           {/* How to Use Section */}

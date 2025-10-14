@@ -13,6 +13,7 @@ import Logo from "@/components/logo"
 import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
 import dueDateData from "@/app/content/due-date-calculator.json"
+import SimilarCalculators from "@/components/similar-calculators"
 
 export default function PregnancyDueDateCalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -746,6 +747,30 @@ export default function PregnancyDueDateCalculator() {
                 </CardContent>
               </Card>
             </div>
+
+            {/* Similar Calculators Section */}
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Pregnancy Weight Gain Calculator",
+                  calculatorHref: "/health/pregnancy-weight-gain-calculator",
+                  calculatorDescription: "Calculate recommended weight gain ranges and schedules based on Institute of Medicine (IOM) guidelines"
+                },
+                {
+                  calculatorName: "Pregnancy Calculator", 
+                  calculatorHref: "/health/pregnancy-calculator",
+                  calculatorDescription: "Estimate pregnancy schedule based on due date, last period, ultrasound, conception, or IVF transfer date"
+                },
+                {
+                  calculatorName: "Pregnancy Conception Calculator",
+                  calculatorHref: "/health/pregnancy-conception-calculator",
+                  calculatorDescription: "Estimate conception date and pregnancy milestones based on due date, last period, or ultrasound date"
+                }
+              ]}
+              color="purple"
+              title="Related Health Calculators"
+            />
+
           </div>
 
       {/* How to Use Section */}
