@@ -322,7 +322,7 @@ Equivalent in Today's Money: $${Math.round(PV_today).toLocaleString()}`
         </nav>
         {/* Main Content */}
         <main className="flex-1">
-          <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <div className="flex justify-center mb-6">
                 <div className="w-20 h-20 bg-gradient-to-br from-blue-400 via-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg transform hover:scale-105 transition-transform duration-300 ring-4 ring-blue-100">
