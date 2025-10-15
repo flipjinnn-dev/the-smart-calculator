@@ -1,0 +1,183 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "What is a BMI Calculator?",
+      "content": "A BMI Calculator (Body Mass Index Calculator) is a health tool that measures body fat based on height and weight. It gives you a BMI score that falls into categories such as underweight, normal, overweight, or obese. <br><br>Our free online BMI Calculator supports both kg & cm and lbs & inches, making it useful worldwide (USA, UK, India, Pakistan, Canada, Australia, etc.)."
+    },
+    {
+      "heading": "BMI Definition and Calculation",
+      "content": "BMI is calculated using height and weight. <br><br><strong>Formula (Metric):</strong> BMI = Weight (kg) ÷ Height (m)² <br><strong>Formula (Imperial):</strong> BMI = (Weight (lbs) × 703) ÷ Height (in)²"
+    },
+    {
+      "heading": "How to Calculate BMI Online (Step-by-Step Guide)",
+      "content": "Steps to calculate BMI using our free online calculator:",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Choose your measurement unit: kg/cm or lbs/inches."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Enter your weight in kilograms or pounds."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Enter your height in centimeters or inches."
+        },
+        {
+          "heading": "Step 4",
+          "content": "Select age & gender (optional) for better insights."
+        },
+        {
+          "heading": "Step 5",
+          "content": "Click Calculate BMI → Instantly see your BMI score and category."
+        }
+      ]
+    },
+    {
+      "heading": "BMI Categories (WHO Standard BMI Chart)",
+      "subSections": [
+        {
+          "heading": "Underweight",
+          "content": "Below 18.5"
+        },
+        {
+          "heading": "Normal Weight",
+          "content": "18.5 – 24.9"
+        },
+        {
+          "heading": "Overweight",
+          "content": "25 – 29.9"
+        },
+        {
+          "heading": "Obesity (Class 1)",
+          "content": "30 – 34.9"
+        },
+        {
+          "heading": "Obesity (Class 2)",
+          "content": "35 – 39.9"
+        },
+        {
+          "heading": "Obesity (Class 3 / Severe)",
+          "content": "40+"
+        }
+      ]
+    },
+    {
+      "heading": "Why Use a BMI Calculator?",
+      "subSections": [
+        {
+          "heading": "Track Fitness Goals",
+          "content": "Monitor progress with a Fitness BMI Calculator."
+        },
+        {
+          "heading": "Compare BMI vs Body Fat",
+          "content": "Useful for athletes and gym users."
+        },
+        {
+          "heading": "Medical Use",
+          "content": "Recommended by doctors as a quick health check."
+        },
+        {
+          "heading": "Assess Health Risks",
+          "content": "BMI helps identify risk of obesity-related conditions."
+        },
+        {
+          "heading": "Nutrition Tracking",
+          "content": "Supports balanced diet planning and wellness goals."
+        }
+      ]
+    },
+    {
+      "heading": "BMI Calculator by Age and Gender",
+      "subSections": [
+        {
+          "heading": "For Men & Women",
+          "content": "Separate BMI tracking for gender-specific insights."
+        },
+        {
+          "heading": "For Kids & Teenagers",
+          "content": "Uses BMI percentile charts for growth monitoring."
+        },
+        {
+          "heading": "For Adults & Seniors",
+          "content": "Age-based adjustments for accurate results."
+        },
+        {
+          "heading": "Pregnancy BMI Calculator",
+          "content": "Helps monitor maternal health during pregnancy."
+        }
+      ]
+    },
+    {
+      "heading": "Global and Local BMI Calculator",
+      "content": "Our Global BMI Calculator works worldwide with region-specific formats:",
+      "subSections": [
+        {
+          "heading": "USA",
+          "content": "Uses lbs/inches format."
+        },
+        {
+          "heading": "UK",
+          "content": "Widely applied in healthcare and fitness."
+        },
+        {
+          "heading": "India & Pakistan",
+          "content": "Uses kg/cm with WHO standards."
+        },
+        {
+          "heading": "Canada & Australia",
+          "content": "kg/cm format + BMI charts for health monitoring."
+        }
+      ]
+    },
+    {
+      "heading": "Ideal BMI Calculator – Find Your Healthy Weight",
+      "subSections": [
+        {
+          "heading": "Overweight BMI Calculator",
+          "content": "Supports weight-loss planning."
+        },
+        {
+          "heading": "Underweight BMI Calculator",
+          "content": "Helps identify nutrition needs."
+        },
+        {
+          "heading": "Obesity BMI Calculator",
+          "content": "Shows risks linked with obesity."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a BMI Calculator?",
+      "a": "A BMI Calculator measures your body mass index, showing if your weight is healthy for your height."
+    },
+    {
+      "q": "What is the normal BMI range?",
+      "a": "According to WHO, a normal BMI is 18.5 to 24.9."
+    },
+    {
+      "q": "Is BMI accurate for everyone?",
+      "a": "BMI is a good screening tool but may not be accurate for athletes, pregnant women, or seniors."
+    },
+    {
+      "q": "How do I calculate BMI manually?",
+      "a": "Use the formula: Weight (kg) ÷ Height (m²) or Weight (lbs) × 703 ÷ Height (in²)."
+    },
+    {
+      "q": "Can I use BMI Calculator for children?",
+      "a": "Yes, BMI percentile charts are used for kids and teenagers."
+    },
+    {
+      "q": "Is this BMI calculator free?",
+      "a": "Yes, it's a free online tool available worldwide."
+    },
+    {
+      "q": "What is the best BMI calculator online in 2025?",
+      "a": "Our BMI Calculator is accurate, globally compatible, and provides health tips, making it one of the best options in 2025."
+    }
+  ]
+}
