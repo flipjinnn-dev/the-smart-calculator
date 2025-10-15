@@ -94,7 +94,7 @@ export default function ERACalculator() {
   title="ERA Calculator – Earned Run Average Tool"
   description="Calculate ERA quickly for baseball pitchers. Use our free earned run average calculator to analyze pitching performance."
   keywords="ERA calculator, earned run average calculator, baseball pitching stats, baseball performance tool"
-  slug="/sports/era-calculator"
+  slug="/sports/earned-run-average-calculator"
 />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
         <header className="bg-white shadow-sm border-b sticky top-0 z-50">
