@@ -863,7 +863,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Calorias Queimadas",
       description: "Estime o número de calorias queimadas durante atividades físicas com base na intensidade, duração e peso corporal.",
-      slug: "/br/calculadora-de-calorias-queimadas",
+      slug: "/br/saude/calculadora-de-calorias-queimadas",
       keywords: "calorias queimadas, gasto calórico, atividade física, cálculo calorias, perda peso"
     },
     de: {
@@ -941,7 +941,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de 1RM (Uma Repetição Máxima)",
       description: "Estime sua carga máxima para uma repetição (1RM) em exercícios de força. Útil para programar treinos e progressão.",
-      slug: "/br/calculadora-de-uma-repeticao-maxima",
+      slug: "/br/saude/calculadora-de-uma-repeticao-maxima",
       keywords: "1RM, uma repetição máxima, força, treinamento, carga máxima, cálculo 1RM"
     },
     de: {
@@ -967,7 +967,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Gordura Corporal (Método do Exército dos EUA)",
       description: "Calcule a porcentagem de gordura corporal usando o método do Exército dos EUA. Indicador usado para padrões de aptidão.",
-      slug: "/br/calculadora-de-gordura-corporal-do-exercito",
+      slug: "/br/saude/calculadora-de-gordura-corporal-do-exercito",
       keywords: "percentual gordura corporal, método exército, cálculo gordura, aptidão física, composição corporal"
     },
     de: {
@@ -993,7 +993,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Zona de Frequência Cardíaca Alvo",
       description: "Calcule sua zona-alvo de frequência cardíaca para exercícios com base na idade e condicionamento físico.",
-      slug: "/br/calculadora-de-frequencia-cardiaca-alvo",
+      slug: "/br/saude/calculadora-de-frequencia-cardiaca-alvo",
       keywords: "frequência cardíaca alvo, zona treino, cardio, frequência cardíaca exercício, treinamento"
     },
     de: {
@@ -1045,7 +1045,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Peso Saudável",
       description: "Calcule a faixa de peso saudável com base na altura e sexo. Utilize como referência para metas de saúde.",
-      slug: "/br/calculadora-de-peso-saudavel",
+      slug: "/br/saude/calculadora-de-peso-saudavel",
       keywords: "peso saudável, faixa de peso, IMC, meta peso, saúde"
     },
     de: {
@@ -1071,7 +1071,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Gorduras",
       description: "Calcule sua necessidade diária de gorduras de acordo com nível de atividade e objetivos (saúde, perda de peso, ganho muscular).",
-      slug: "/br/calculadora-de-consumo-de-gordura",
+      slug: "/br/saude/calculadora-de-consumo-de-gordura",
       keywords: "gordura diária, ingestão de gorduras, cálculo gordura, dieta, macronutrientes"
     },
     de: {
@@ -1149,7 +1149,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Massa Corporal Magra",
       description: "Calcule sua massa corporal magra com base no peso e percentual de gordura corporal. Útil para planejamento de treino e dieta.",
-      slug: "/br/calculadora-de-massa-corporal-magra",
+      slug: "/br/saude/calculadora-de-massa-corporal-magra",
       keywords: "massa magra, massa corporal magra, composição corporal, cálculo massa magra"
     },
     de: {
@@ -1175,7 +1175,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora TDEE",
       description: "Calcule seu gasto energético total diário (TDEE) com base no nível de atividade. Use para planejar calorias para perda, manutenção ou ganho.",
-      slug: "/br/calculadora-gdet",
+      slug: "/br/saude/calculadora-gdet",
       keywords: "TDEE, gasto energético, calorias diárias, manutenção peso, perda gordura"
     },
     de: {
@@ -1227,7 +1227,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Taxa de Filtração Glomerular (TFG)",
       description: "Estime sua taxa de filtração glomerular (TFG) com base nos níveis de creatinina. Indicador importante da função renal.",
-      slug: "/br/calculadora-tfg",
+      slug: "/br/saude/calculadora-tfg",
       keywords: "TFG, função renal, creatinina, calculadora TFG, saúde renal"
     },
     de: {
@@ -1253,7 +1253,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de IMC para Anorexia",
       description: "Calcule o IMC para indivíduos com anorexia. Use como ferramenta de triagem — consulte um profissional de saúde para interpretação.",
-      slug: "/br/calculadora-imc-anorexico",
+      slug: "/br/saude/calculadora-imc-anorexico",
       keywords: "IMC anorexia, triagem anorexia, saúde mental, avaliação nutricional"
     },
     de: {
@@ -1409,7 +1409,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Pontos (Weight Watchers)",
       description: "Calcule pontos de acordo com o método Weight Watchers para alimentos consumidos. Use como referência de controle alimentar.",
-      slug: "/br/calculadora-de-pontos-vigilantes-do-peso",
+      slug: "/br/saude/calculadora-de-pontos-vigilantes-do-peso",
       keywords: "Weight Watchers, pontos WW, controle alimentar, cálculo pontos"
     },
     de: {
@@ -1435,7 +1435,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Área de Superfície Corporal (ASC)",
       description: "Calcule a área de superfície corporal (ASC) usando diferentes fórmulas clínicas. Útil para dosagem medicamentosa.",
-      slug: "/br/calculadora-de-area-de-superficie-corporal",
+      slug: "/br/saude/calculadora-de-area-de-superficie-corporal",
       keywords: "ASC, área superfície corporal, dosagem medicamentosa, cálculo BSA"
     },
     de: {
@@ -1591,7 +1591,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Concepção e Gravidez",
       description: "Estime a data da concepção e os marcos da gravidez com base na data prevista do parto, última menstruação ou data do ultrassom. Planeje sua jornada gestacional.",
-      slug: "/br/calculadora-de-concepcao-de-gravidez",
+      slug: "/br/saude/calculadora-de-concepcao-de-gravidez",
       keywords: "concepção, marcos gravidez, data parto, ultrassom gestacional, planejamento gestacional"
     },
     de: {
@@ -1669,7 +1669,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Ponto Crítico",
       description: "Encontre pontos críticos de uma função (máximos, mínimos e pontos de inflexão) analisando derivadas.",
-      slug: "/br/calculadora-de-ponto-critico",
+      slug: "/br/matematica/calculadora-de-ponto-critico",
       keywords: "ponto crítico, derivada, máximo, mínimo, ponto inflexão"
     },
     de: {
@@ -1695,7 +1695,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Regra de Simpson",
       description: "Calcule integrais definidas numericamente usando a regra de Simpson para aproximação precisa.",
-      slug: "/br/calculadora-regra-de-simpson",
+      slug: "/br/matematica/calculadora-regra-de-simpson",
       keywords: "Simpson, integral definida, integração numérica, aproximação"
     },
     de: {
@@ -1721,7 +1721,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Teorema do Valor Médio",
       description: "Aplique o Teorema do Valor Médio para encontrar pontos relevantes na curva de uma função usando derivadas.",
-      slug: "/br/calculadora-teorema-do-valor-medio",
+      slug: "/br/matematica/calculadora-teorema-do-valor-medio",
       keywords: "teorema valor médio, derivada, ponto médio, cálculo"
     },
     de: {
@@ -1747,7 +1747,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Gerador de Números Aleatórios",
       description: "Gere números aleatórios dentro de um intervalo especificado para testes, sorteios ou simulações.",
-      slug: "/br/gerador-de-numero-aleatorio",
+      slug: "/br/matematica/gerador-de-numero-aleatorio",
       keywords: "números aleatórios, gerador aleatório, simulação, sorteio"
     },
     de: {
@@ -1773,7 +1773,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora Científica",
       description: "Execute cálculos matemáticos avançados e gere gráficos. Suporta funções científicas e trigonometria.",
-      slug: "/br/calculadora-cientifica",
+      slug: "/br/matematica/calculadora-cientifica",
       keywords: "calculadora científica, funções trigonométricas, gráficos, cálculo avançado"
     },
     de: {
@@ -1825,7 +1825,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Coeficiente Balístico",
       description: "Calcule o coeficiente balístico de um projétil para avaliar sua resistência ao ar e desempenho.",
-      slug: "/br/calculadora-de-coeficiente-balistico",
+      slug: "/br/fisica/calculadora-de-coeficiente-balistico",
       keywords: "coeficiente balístico, resistência ao ar, projétil, balística"
     },
     de: {
@@ -1877,7 +1877,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Velocidade de Flecha",
       description: "Calcule velocidade de flechas, momento e energia cinética usando avaliações IBO e parâmetros do arco.",
-      slug: "/br/calculadora-de-velocidade-de-flecha",
+      slug: "/br/fisica/calculadora-de-velocidade-de-flecha",
       keywords: "velocidade flecha, energia cinética, momento, IBO"
     },
     de: {
@@ -1903,7 +1903,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Distância de Salto de Carro",
       description: "Calcule a distância que um carro pode saltar com base na velocidade e ângulo de decolagem (parâmetros físicos ideais).",
-      slug: "/br/calculadora-de-distancia-de-salto-de-carro",
+      slug: "/br/fisica/calculadora-de-distancia-de-salto-de-carro",
       keywords: "distância salto carro, física salto, velocidade, ângulo"
     },
     de: {
@@ -1929,7 +1929,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Conservação do Momento",
       description: "Calcule a conservação do momento linear em colisões, analise velocidades antes e depois do impacto.",
-      slug: "/br/calculadora-de-conservacao-de-momento",
+      slug: "/br/fisica/calculadora-de-conservacao-de-momento",
       keywords: "conservação momento, colisões, momento linear, física"
     },
     de: {
@@ -1955,7 +1955,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Board Foot (Madeiramento)",
       description: "Calcule board feet de madeira e materiais de construção para estimar quantidade necessária e custo.",
-      slug: "/br/calculadora-de-pe-de-tabua",
+      slug: "/br/construcao/calculadora-de-pe-de-tabua",
       keywords: "board foot, madeira, cálculo madeira, materiais construção"
     },
     de: {
@@ -2007,7 +2007,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Galões por Pé Quadrado",
       description: "Calcule quantos galões de tinta ou material são necessários por pé quadrado para pintura ou revestimento.",
-      slug: "/br/calculadora-de-galoes-por-pe-quadrado",
+      slug: "/br/construcao/calculadora-de-galoes-por-pe-quadrado",
       keywords: "galões por pé quadrado, cálculo tinta, revestimento, pintura"
     },
     de: {
@@ -2033,7 +2033,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Peso a partir de Tamanho (Paralelepípedo)",
       description: "Calcule o peso de um paralelepípedo retangular com base em dimensões e densidade do material.",
-      slug: "/br/calculadora-de-tamanho-para-peso-cuboide-retangular",
+      slug: "/br/construcao/calculadora-de-tamanho-para-peso-cuboide-retangular",
       keywords: "peso, dimensões, densidade, paralelepípedo, cálculo peso"
     },
     de: {
@@ -2059,7 +2059,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Conversor de Pés Quadrados para Jardas Cúbicas",
       description: "Converta pés quadrados em jardas cúbicas para estimar volume de concreto e outros materiais.",
-      slug: "/br/calculadora-de-pes-quadrados-para-jardas-cubicas",
+      slug: "/br/construcao/calculadora-de-pes-quadrados-para-jardas-cubicas",
       keywords: "pés quadrados para jardas cúbicas, conversão volume, concreto"
     },
     de: {
@@ -2085,7 +2085,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Manteiga",
       description: "Converta medidas de manteiga entre tabletes, xícaras, colheres e gramas para receitas precisas.",
-      slug: "/br/calculadora-de-manteiga",
+      slug: "/br/alimento/calculadora-de-manteiga",
       keywords: "manteiga, converter medidas, xícaras, colheres, gramas, receita"
     },
     de: {
@@ -2111,7 +2111,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Tamanho de Forma de Bolo",
       description: "Calcule tamanhos equivalentes entre formas redondas, quadradas e retangulares para adaptar receitas.",
-      slug: "/br/calculadora-de-forma-de-bolo",
+      slug: "/br/alimento/calculadora-de-forma-de-bolo",
       keywords: "forma de bolo, tamanho equivalente, receita, conversão formas"
     },
     de: {
@@ -2131,7 +2131,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Conversor de Medidas para Cozinha",
       description: "Converta entre diferentes medidas de cozinha como xícaras, colheres, onças e gramas. Ideal para adaptar receitas com precisão.",
-      slug: "/br/calculadora-de-medidas-culinarias",
+      slug: "/br/alimento/calculadora-de-medidas-culinarias",
       keywords: "medidas cozinha, conversor culinário, xícaras, colheres, onças, gramas, adaptação receitas"
     },
     de: {
@@ -2151,7 +2151,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Conversor de Xícaras para Libras",
       description: "Converta xícaras em libras para diversos ingredientes como farinhas, açúcares e grãos. Essencial para cozinheiros e confeiteiros.",
-      slug: "/br/calculadora-de-xicaras-para-libras",
+      slug: "/br/alimento/calculadora-de-xicaras-para-libras",
       keywords: "xícaras para libras, conversor culinário, farinhas, açúcar, grãos, cozinheiros, confeiteiros"
     },
     de: {
@@ -2203,7 +2203,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Média de Rebatidas",
       description: "Calcule a média de rebatidas e estatísticas relacionadas no beisebol. Avalie o desempenho dos jogadores na casa de rebatidas.",
-      slug: "/br/calculadora-de-media-de-rebatidas",
+      slug: "/br/esportes/calculadora-de-media-de-rebatidas",
       keywords: "média rebatidas, calculadora beisebol, estatísticas rebatedores, desempenho jogadores, casa rebatidas"
     },
     de: {
@@ -2229,7 +2229,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Média de Pontos Ganho (ERA)",
       description: "Calcule a média de pontos ganho (ERA) para arremessadores de beisebol. Métrica essencial para avaliar a eficácia dos pitchers.",
-      slug: "/br/calculadora-de-media-de-corridas-ganhas",
+      slug: "/br/esportes/calculadora-de-media-de-corridas-ganhas",
       keywords: "ERA, média pontos ganho, calculadora pitchers, eficácia arremessadores, beisebol"
     },
     de: {
@@ -2255,7 +2255,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Percentual de Defesa",
       description: "Calcule o percentual de defesa para jogadores de beisebol. Avalie a habilidade defensiva com base em chances convertidas em outs.",
-      slug: "/br/calculadora-de-porcentagem-de-defesa",
+      slug: "/br/esportes/calculadora-de-porcentagem-de-defesa",
       keywords: "percentual defesa, calculadora defensiva, habilidade defensiva, chances outs, beisebol"
     },
     de: {
@@ -2281,7 +2281,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de FIP (Fielding Independent Pitching)",
       description: "Calcule o FIP (Fielding Independent Pitching) para jogadores de beisebol. Métrica avançada que avalia o desempenho do pitcher independentemente da defesa.",
-      slug: "/br/calculadora-de-arremesso-independente-de-defesa",
+      slug: "/br/esportes/calculadora-de-arremesso-independente-de-defesa",
       keywords: "FIP, fielding independent pitching, calculadora pitcher, métrica avançada, desempenho pitcher, beisebol"
     },
     de: {
@@ -2307,7 +2307,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora do Número Mágico",
       description: "Calcule o número mágico para classificação nos playoffs esportivos. Saiba quantas vitórias ou derrotas dos concorrentes garantem sua vaga nos playoffs.",
-      slug: "/br/calculadora-do-numero-magico",
+      slug: "/br/esportes/calculadora-do-numero-magico",
       keywords: "número mágico, calculadora playoffs, classificação esportiva, vitórias necessárias, temporada esportiva"
     },
     de: {
@@ -2333,7 +2333,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Idade",
       description: "Calcule a idade em anos, meses e dias com base na data de nascimento. Ferramenta útil para registros oficiais e planejamento.",
-      slug: "/br/calculadora-de-idade",
+      slug: "/br/outro/calculadora-de-idade",
       keywords: "idade, calculadora idade, anos meses dias, data nascimento, registros oficiais"
     },
     de: {
@@ -2353,7 +2353,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Piecewise Function Calculator & Grapher",
       description: "Define, evaluate, and graph piecewise functions.",
-      slug: "/br/calculadora-de-funcao-por-partes-e-graficador",
+      slug: "/br/outro/calculadora-de-funcao-por-partes-e-graficador",
       keywords: "piecewise, function, calculator, grapher, define, evaluate, graph, functions"
     },
     de: {
@@ -2379,7 +2379,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de ROI de SEO Empresarial",
       description: "Calcule o retorno sobre investimento (ROI) para SEO empresarial. Otimize seu orçamento de marketing digital.",
-      slug: "/br/calculadora-de-roi-de-seo-empresarial",
+      slug: "/br/outro/calculadora-de-roi-de-seo-empresarial",
       keywords: "SEO empresarial, ROI SEO, calculadora marketing digital, otimização orçamento, retorno investimento"
     },
     de: {
@@ -2405,7 +2405,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de RPE (Escala de Percepção de Esforço)",
       description: "Calcule a taxa de percepção de esforço (RPE) para várias atividades físicas. Monitore a intensidade do treino com precisão.",
-      slug: "/br/calculadora-de-epe",
+      slug: "/br/saude/calculadora-de-epe",
       keywords: "RPE, escala percepção esforço, calculadora treino, intensidade exercício, monitoramento treino"
     },
     de: {
@@ -2431,7 +2431,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Pensão Alimentícia de Indiana",
       description: "Estime os pagamentos de pensão alimentícia com base nas diretrizes do estado de Indiana. Planeje suas obrigações financeiras familiares.",
-      slug: "/br/calculadora-de-pensao-alimenticia-de-indiana",
+      slug: "/br/outro/calculadora-de-pensao-alimenticia-de-indiana",
       keywords: "pensão alimentícia Indiana, calculadora pensão, diretrizes estaduais, obrigações financeiras familiares, custódia"
     },
     de: {
@@ -2457,7 +2457,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Tempo",
       description: "Realize cálculos relacionados ao tempo, como duração e conversões de fuso horário. Gerencie cronogramas e prazos com eficiência.",
-      slug: "/br/calculadora-de-tempo",
+      slug: "/br/outro/calculadora-de-tempo",
       keywords: "calculadora tempo, duração, conversão fuso horário, gerenciamento cronograma, prazos"
     },
     de: {
@@ -2483,7 +2483,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de GPA (Média Ponderada)",
       description: "Calcule o GPA com base nas notas e créditos dos cursos. Planeje seu desempenho acadêmico e metas de graduação.",
-      slug: "/br/calculadora-gpa",
+      slug: "/br/outro/calculadora-gpa",
       keywords: "GPA, média ponderada, calculadora notas, desempenho acadêmico, metas graduação"
     },
     de: {
@@ -2509,7 +2509,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Altura",
       description: "Converta altura entre diferentes unidades como centímetros, metros, pés e polegadas. Útil para registros médicos e antropométricos.",
-      slug: "/br/calculadora-de-altura",
+      slug: "/br/saude/calculadora-de-altura",
       keywords: "calculadora altura, conversão altura, centímetros, metros, pés, polegadas, registros médicos"
     },
     de: {
@@ -2535,7 +2535,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Sub-rede IP",
       description: "Calcule sub-redes e intervalos de IP para otimizar o gerenciamento de rede. Planeje a segmentação e alocação de endereços.",
-      slug: "/br/calculadora-desub-rede-IP",
+      slug: "/br/outro/calculadora-desub-rede-IP",
       keywords: "sub-rede IP, calculadora rede, intervalos IP, gerenciamento rede, segmentação rede"
     },
     de: {
