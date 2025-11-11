@@ -7,13 +7,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function ContactPage() {
   return (
-    <>
-      <SEO
-        title="Contact Us - Smart Calculator"
-        description="Get in touch with the Smart Calculator team. Contact us for support, feedback, or partnership opportunities."
-        slug="/contact-us"
-        keywords="contact smart calculator, support, feedback, calculator help"
-      />
       <div className="min-h-screen bg-white">
         
         
@@ -194,6 +187,5 @@ export default function ContactPage() {
           </div>
         </section>
       </div>
-    </>
   )
 }
