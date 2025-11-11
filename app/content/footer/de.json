@@ -1,0 +1,63 @@
+{
+  "company": {
+    "name": "Smart Calculator",
+    "description": "Ihr Ziel für kostenlose, genaue und einfach zu bedienende Online-Rechner. Vertraut von Millionen von Nutzern weltweit.",
+    "copyright": "2025 Smart Calculator. Alle Rechte vorbehalten."
+  },
+  "categories": {
+    "title": "Meistgenutzte Kategorien",
+    "items": [
+      {
+        "name": "Finanzrechner",
+        "href": "/de/finanziell"
+      },
+      {
+        "name": "Gesundheit & Fitness",
+        "href": "/de/gesundheit"
+      },
+      {
+        "name": "matherechner",
+        "href": "/de/mathe"
+      },
+      {
+        "name": "Physikrechner",
+        "href": "/de/physik"
+      },
+      {
+        "name": "Andere Rechner",
+        "href": "/de/andere"
+      }
+    ]
+  },
+  "companyLinks": {
+    "title": "Unternehmen",
+    "items": [
+      {
+        "name": "Startseite",
+        "href": "/de"
+      },
+      {
+        "name": "Über Uns",
+        "href": "/de/uber-uns"
+      },
+      {
+        "name": "Kontakt",
+        "href": "/de/kontakt"
+      },
+      {
+        "name": "Datenschutz",
+        "href": "/de/datenschutz"
+      },
+      {
+        "name": "Allgemeine Geschäftsbedingungen",
+        "href": "/de/allgemeine-geschaftsbedingungen"
+      }
+    ]
+  },
+  "social": {
+    "pinterest": "https://www.pinterest.com/thesmartcalculators/",
+    "twitter": "https://x.com/SmartCalculat0r",
+    "instagram": "https://www.instagram.com/thesmartcalculators/",
+    "youtube": "https://www.youtube.com/@TheSmartCalculators"
+  }
+}

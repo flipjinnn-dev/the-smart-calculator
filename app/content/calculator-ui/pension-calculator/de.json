@@ -1,0 +1,169 @@
+{
+  "pageTitle": "Rentenrechner",
+  "pageDescription": "Schätzen Sie Ihre Rentenleistungen anhand von Gehalt und Dienstjahren für eine umfassende Altersvorsorgeplanung",
+  "form": {
+    "labels": {
+      "currentAge": "Aktuelles Alter",
+      "retirementAge": "Geplantes Rentenalter",
+      "yearsOfService": "Dienstjahre",
+      "currentSalary": "Aktuelles Jahresgehalt",
+      "averageSalary": "Durchschnittsgehalt (höchstes 3-5 Jahre)",
+      "benefitFormula": "Vorteilsformel",
+      "multiplier": "Multiplikatorprozentsatz",
+      "additionalBenefits": "Zusätzliche Vorteile",
+      "costOfLivingAdjustment": "Anpassung der Lebenshaltungskosten (COLA)"
+    },
+    "placeholders": {
+      "currentAge": "Geben Sie das aktuelle Alter ein",
+      "retirementAge": "Geben Sie das geplante Renteneintrittsalter ein",
+      "yearsOfService": "Tragen Sie die Dienstjahre ein",
+      "currentSalary": "Geben Sie das aktuelle Jahresgehalt ein",
+      "averageSalary": "Geben Sie das Durchschnittsgehalt ein",
+      "multiplier": "Geben Sie den Multiplikatorprozentsatz ein",
+      "additionalBenefits": "Geben Sie Zusatzleistungen ein",
+      "costOfLivingAdjustment": "Geben Sie den COLA-Prozentsatz ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Rentenleistungen",
+      "reset": "Zurücksetzen"
+    },
+    "benefitFormulas": {
+      "finalSalary": "Endgültiger Gehaltsdurchschnitt",
+      "careerAverage": "Durchschnittliches Karrieregehalt",
+      "highestAverage": "Höchstes Durchschnittsgehalt"
+    }
+  },
+  "results": {
+    "monthlyBenefit": "Geschätzte monatliche Rente",
+    "annualBenefit": "Geschätzte jährliche Rente",
+    "totalBenefit": "Gesamtrente über 20 Jahre",
+    "pensionResultsTitle": "Ergebnisse der Rentenberechnung"
+  },
+  "educational": {
+    "pensionInfo": "Renteninformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "pensionFacts": {
+      "definition": {
+        "title": "Rentendefinition",
+        "description": "Leistungsorientierter Altersvorsorgeplan, der regelmäßige Zahlungen basierend auf Gehalt und Dienstjahren vorsieht"
+      },
+      "vesting": {
+        "title": "Vesting-Anforderungen",
+        "description": "Bei den meisten Renten ist eine Dienstzeit von 5 bis 10 Jahren erforderlich, um vollständig unverfallbar zu werden"
+      },
+      "formula": {
+        "title": "Leistungsberechnung",
+        "description": "Typischerweise berechnet als: Dienstjahre × Multiplikator × Durchschnittsgehalt"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert lediglich Schätzungen der Rentenleistungen",
+      "actual": "Die tatsächlichen Leistungen können je nach Planregeln und Arbeitgeberrichtlinien variieren"
+    },
+    "importantNotesList": [
+      "Rentenleistungen werden in der Regel von der Pension Benefit Guaranty Corporation (PBGC) garantiert.",
+      "Erwägen Sie Hinterbliebenenleistungen und Optionen für die Auszahlung von Leistungen",
+      "Renten bieten lebenslanges Einkommen, können aber möglicherweise nicht mit der Inflation Schritt halten",
+      "Einige Rentenversicherungen bieten die Möglichkeit eines Kapitalrückkaufs an"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Renteninformationen ein, um die Leistungen abzuschätzen",
+    "resultMessage": "Nachfolgend finden Sie die Ergebnisse Ihrer Rentenberechnung",
+    "assessmentResult": "Ergebnis der Rentenberechnung:",
+    "pensionAnalysis": "Rentenanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen der Rentenleistungen auf der Grundlage allgemeiner Formeln. Die tatsächlichen Leistungen können je nach Planregeln, Arbeitgeberrichtlinien und anderen Faktoren, die nicht in diesen Schätzungen enthalten sind, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine personalisierte Rentenleistungsanalyse und Ruhestandsplanung wenden Sie sich an Rentenplanverwalter oder Finanzberater mit Fachkenntnissen in der Renteneinkommensplanung und individuellen Umständen."
+  },
+  "errors": {
+    "currentAge": "Bitte geben Sie ein gültiges aktuelles Alter ein",
+    "retirementAge": "Bitte geben Sie ein gültiges geplantes Renteneintrittsalter ein",
+    "yearsOfService": "Bitte geben Sie gültige Dienstjahre ein",
+    "currentSalary": "Bitte geben Sie ein gültiges aktuelles Jahresgehalt ein",
+    "averageSalary": "Bitte geben Sie ein gültiges Durchschnittsgehalt ein",
+    "multiplier": "Bitte geben Sie einen gültigen Multiplikatorprozentsatz ein",
+    "additionalBenefits": "Bitte geben Sie gültige Zusatzleistungen ein",
+    "costOfLivingAdjustment": "Bitte geben Sie einen gültigen COLA-Prozentsatz ein"
+  },
+  "tooltips": {
+    "currentAge": "Ihr aktuelles Alter in Jahren",
+    "retirementAge": "Alter, in dem Sie in Rente gehen und Rentenleistungen beziehen möchten",
+    "yearsOfService": "Gesamtzahl der Beschäftigungsjahre beim rentenberechtigten Arbeitgeber",
+    "currentSalary": "Ihr aktuelles Jahresgehalt",
+    "averageSalary": "Durchschnitt der höchsten Verdienstjahre, die bei der Rentenberechnung verwendet werden",
+    "multiplier": "Prozentsatz, der in der Leistungsformel verwendet wird (typischerweise 1–2 %).",
+    "additionalBenefits": "Etwaige zusätzliche Rentenleistungen oder Zuschläge",
+    "costOfLivingAdjustment": "Jährliche Anpassung zum Inflationsschutz"
+  },
+  "pension_options_0": "Rentenoptionen",
+  "lump_sum_vs_monthly_1": "Pauschalbetrag vs. monatlich",
+  "single_vs_joint_2": "Single vs. Joint",
+  "work_longer_3": "Länger arbeiten",
+  "lump_sum_vs_monthly_pension_4": "Pauschalbetrag vs. monatliche Rente",
+  "retirement_age_5": "Rentenalter",
+  "life_expectancy_6": "Lebenserwartung",
+  "expected_age_at_death_for_calculation_purposes_7": "Zu Berechnungszwecken erwartetes Sterbealter",
+  "lump_sum_payment_8": "Pauschalzahlung ($)",
+  "monthly_pension_9": "Monatliche Rente ($)",
+  "annual_investment_return_10": "Jährliche Anlagerendite (%)",
+  "expected_annual_return_on_lump_sum_investment_11": "Erwartete jährliche Rendite einer Pauschalinvestition",
+  "annual_cola_12": "Jährliche COLA (%)",
+  "cost_of_living_adjustment_annual_pension_increase_13": "Anpassung der Lebenshaltungskosten – jährliche Rentenerhöhung",
+  "single_life_vs_joint_survivor_14": "Single-Leben vs. Joint & Survivor",
+  "retirement_age_15": "Rentenalter",
+  "your_life_expectancy_16": "Ihre Lebenserwartung",
+  "spouses_age_at_retirement_17": "Alter des Ehepartners bei Rente",
+  "spouses_life_expectancy_18": "Lebenserwartung des Ehepartners",
+  "monthly_pension_single_life_19": "Monatliche Rente (Alleinleben) ($)",
+  "monthly_pension_joint_survivor_20": "Monatliche Rente (gemeinsamer Hinterbliebener) ($)",
+  "survivor_benefit_ratio_21": "Hinterbliebenenleistungsquote (%)",
+  "percentage_of_pension_spouse_receives_after_your_d_22": "Prozentsatz der Rente, die Ihr Ehegatte nach Ihrem Tod erhält",
+  "annual_investment_return_23": "Jährliche Anlagerendite (%)",
+  "annual_cola_24": "Jährliche COLA (%)",
+  "work_longer_option_comparison_25": "Vergleich der Optionen „Länger arbeiten“.",
+  "current_age_26": "Aktuelles Alter",
+  "life_expectancy_27": "Lebenserwartung",
+  "option_a_retire_earlier_28": "Option A: Früher in Rente gehen",
+  "retirement_age_a_29": "Rentenalter A",
+  "monthly_pension_a_30": "Monatliche Rente A ($)",
+  "option_b_work_longer_31": "Option B: Länger arbeiten",
+  "retirement_age_b_32": "Rentenalter B",
+  "monthly_pension_b_33": "Monatliche Rente B ($)",
+  "annual_investment_return_34": "Jährliche Anlagerendite (%)",
+  "annual_cola_35": "Jährliche COLA (%)",
+  "calculate_options_36": "Berechnen Sie Optionen",
+  "pension_results_37": "Rentenergebnisse",
+  "compare_your_pension_options_38": "Vergleichen Sie Ihre Vorsorgemöglichkeiten",
+  "lump_sum_vs_monthly_pension_39": "Pauschalbetrag vs. monatliche Rente",
+  "monthly_pension_pv_40": "Monatliche Rente (PV)",
+  "lump_sum_41": "Pauschalbetrag",
+  "better_choice_42": "Bessere Wahl:",
+  "single_life_vs_joint_survivor_43": "Single-Leben vs. Joint & Survivor",
+  "single_life_pv_44": "Single-Leben (PV)",
+  "joint_survivor_pv_45": "Joint & Survivor (PV)",
+  "better_choice_46": "Bessere Wahl:",
+  "work_longer_comparison_47": "Vergleich der längeren Arbeitszeiten",
+  "retire_at_48": "Ruhestand um",
+  "pv_49": "(PV)",
+  "retire_at_50": "Ruhestand um",
+  "pv_51": "(PV)",
+  "better_choice_52": "Bessere Wahl:",
+  "enter_your_pension_information_to_see_your_results_53": "Geben Sie Ihre Renteninformationen ein, um Ihre Ergebnisse anzuzeigen",
+  "calculation_methodology_54": "Berechnungsmethodik",
+  "present_value_calculation_55": "Barwertberechnung",
+  "all_pension_streams_are_converted_to_present_value_56": "Alle Rentenströme werden nach folgender Formel in den Barwert umgerechnet:",
+  "pv_pmt_1_colat1_1_rt1_57": "PV = Σ [PMT × (1 + COLA)^(t-1)] / (1 + r)^(t-1)",
+  "joint_survivor_calculation_58": "Gemeinsame Hinterbliebenenberechnung",
+  "accounts_for_two_phases_payments_while_both_spouse_59": "Die Abrechnung erfolgt in zwei Phasen: Zahlungen zu Lebzeiten beider Ehegatten, dann Hinterbliebenenleistungen bis zum\n                        Tod des überlebenden Ehegatten.",
+  "work_longer_analysis_60": "Längere Arbeitsanalyse",
+  "compares_present_values_accounting_for_delayed_ret_61": "Vergleicht Barwerte unter Berücksichtigung von verspätetem Renteneintritt und unterschiedlichen Rentenbeträgen,\n                        auf heute reduziert."
+}

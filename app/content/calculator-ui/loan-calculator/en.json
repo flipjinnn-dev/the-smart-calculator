@@ -1,0 +1,116 @@
+{
+  "pageTitle": "Loan Calculator",
+  "pageDescription": "Calculate loan payments, interest rates, and payoff schedules for various types of loans including mortgages, auto loans, and personal loans",
+  "form": {
+    "labels": {
+      "loanAmount": "Loan Amount",
+      "interestRate": "Annual Interest Rate",
+      "loanTerm": "Loan Term",
+      "loanTermUnit": "Loan Term Unit",
+      "startDate": "Loan Start Date",
+      "extraPayment": "Extra Monthly Payment",
+      "paymentFrequency": "Payment Frequency"
+    },
+    "placeholders": {
+      "loanAmount": "Enter loan amount",
+      "interestRate": "Enter annual interest rate (%)",
+      "loanTerm": "Enter loan term",
+      "extraPayment": "Enter extra monthly payment (optional)"
+    },
+    "buttons": {
+      "calculate": "Calculate Loan",
+      "reset": "Reset"
+    },
+    "loanTermUnits": {
+      "years": "Years",
+      "months": "Months"
+    },
+    "paymentFrequencies": {
+      "monthly": "Monthly",
+      "biweekly": "Bi-weekly",
+      "weekly": "Weekly"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Monthly Payment",
+    "totalInterest": "Total Interest Paid",
+    "totalPayment": "Total Payment",
+    "payoffDate": "Loan Payoff Date",
+    "interestSavings": "Interest Savings with Extra Payments",
+    "loanResultsTitle": "Loan Calculation Results"
+  },
+  "educational": {
+    "loanInfo": "Loan Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "loanFacts": {
+      "amortization": {
+        "title": "Amortization",
+        "description": "Process of paying off a loan with regular payments over time"
+      },
+      "interest": {
+        "title": "Interest Calculation",
+        "description": "Interest is calculated on the remaining loan balance, decreasing over time"
+      },
+      "extraPayments": {
+        "title": "Extra Payments",
+        "description": "Extra payments reduce principal faster, saving on total interest"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides loan payment estimates only",
+      "actual": "Actual loan terms may vary based on lender policies and fees"
+    },
+    "importantNotesList": [
+      "This calculator does not include taxes, insurance, or other fees",
+      "Extra payments directly reduce the principal balance",
+      "Bi-weekly payments can help pay off loans faster",
+      "Consider the annual percentage rate (APR) for true loan cost"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your loan information to calculate payments and interest",
+    "resultMessage": "Your loan calculation results are shown below",
+    "assessmentResult": "Loan Calculation Result:",
+    "loanAnalysis": "Loan Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides loan payment estimates based on standard financial formulas. Actual loan terms, payments, and interest may vary based on lender policies, fees, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized loan advice and financial planning, consult financial advisors or loan officers with expertise in lending products and individual financial circumstances."
+  },
+  "errors": {
+    "loanAmount": "Please enter a valid loan amount",
+    "interestRate": "Please enter a valid annual interest rate",
+    "loanTerm": "Please enter a valid loan term",
+    "startDate": "Please enter a valid loan start date",
+    "extraPayment": "Please enter a valid extra payment amount",
+    "loanTermUnit": "Please select a loan term unit",
+    "paymentFrequency": "Please select a payment frequency"
+  },
+  "tooltips": {
+    "loanAmount": "Total amount borrowed",
+    "interestRate": "Annual interest rate as a percentage",
+    "loanTerm": "Length of time to repay the loan",
+    "startDate": "Date when the loan payments begin",
+    "extraPayment": "Additional amount paid each month toward principal",
+    "paymentFrequency": "How often payments are made"
+  },
+  "loan_details_0": "Loan Details",
+  "enter_your_loan_information_to_calculate_payments_1": "Enter your loan information to calculate payments",
+  "loan_amount_2": "Loan Amount",
+  "annual_interest_rate_3": "Annual Interest Rate (%)",
+  "loan_term_years_4": "Loan Term (years)",
+  "calculate_5": "Calculate",
+  "calculation_results_6": "Calculation Results",
+  "your_loan_payment_breakdown_7": "Your loan payment breakdown",
+  "monthly_payment_8": "Monthly Payment",
+  "total_interest_9": "Total Interest",
+  "total_payment_10": "Total Payment",
+  "enter_loan_details_to_see_your_calculation_11": "Enter loan details to see your calculation"
+}

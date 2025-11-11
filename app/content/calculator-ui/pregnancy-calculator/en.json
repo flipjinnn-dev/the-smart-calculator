@@ -1,0 +1,127 @@
+{
+  "pageTitle": "Pregnancy Calculator",
+  "pageDescription": "Estimate pregnancy schedule based on due date, last period, ultrasound, conception, or IVF transfer date",
+  "form": {
+    "labels": {
+      "calculationMethod": "Calculation Method",
+      "lastPeriod": "First Day of Last Menstrual Period",
+      "dueDate": "Expected Due Date",
+      "conceptionDate": "Conception Date",
+      "ivfTransferDate": "IVF Embryo Transfer Date",
+      "cycleLength": "Average Menstrual Cycle Length",
+      "ultrasoundDate": "Ultrasound Date",
+      "crlMeasurement": "Crown-Rump Length (CRL) Measurement"
+    },
+    "placeholders": {
+      "cycleLength": "Enter cycle length in days (default: 28)"
+    },
+    "buttons": {
+      "calculate": "Calculate Pregnancy Dates",
+      "reset": "Reset"
+    },
+    "calculationMethods": {
+      "lastPeriod": "Last Menstrual Period",
+      "dueDate": "Due Date",
+      "conception": "Conception Date",
+      "ivf": "IVF Embryo Transfer",
+      "ultrasound": "Ultrasound Dating"
+    }
+  },
+  "results": {
+    "dueDate": "Expected Due Date",
+    "conceptionDate": "Estimated Conception Date",
+    "pregnancyWeek": "Current Pregnancy Week",
+    "babyDevelopment": "Baby Development",
+    "pregnancyResultsTitle": "Pregnancy Results",
+    "trimesters": {
+      "first": "First Trimester",
+      "second": "Second Trimester",
+      "third": "Third Trimester"
+    }
+  },
+  "educational": {
+    "pregnancyInfo": "Pregnancy Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Healthcare Provider",
+    "pregnancyStages": {
+      "firstTrimester": {
+        "title": "First Trimester (Weeks 1-12)",
+        "description": "Major organ development occurs during this period"
+      },
+      "secondTrimester": {
+        "title": "Second Trimester (Weeks 13-26)",
+        "description": "Baby's movements can typically be felt during this period"
+      },
+      "thirdTrimester": {
+        "title": "Third Trimester (Weeks 27-40)",
+        "description": "Rapid growth and development in preparation for birth"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a diagnostic tool",
+      "individualVariation": "Pregnancy timelines vary based on individual factors"
+    },
+    "importantNotesList": [
+      "The due date is an estimate - only 5% of babies are born on their exact due date",
+      "Ultrasound dating may be more accurate in early pregnancy",
+      "Consult your healthcare provider for personalized pregnancy information",
+      "Regular prenatal care is essential for a healthy pregnancy"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your pregnancy information to calculate important dates",
+    "pregnancyWeek": "You are currently in week {week} of pregnancy",
+    "trimesterInfo": "This is the {trimester} trimester",
+    "assessmentResult": "Assessment Result:",
+    "pregnancyAnalysis": "Pregnancy Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates based on general pregnancy information and should not be used as a substitute for professional medical advice. Individual pregnancy timelines may vary based on factors not accounted for in these calculations."
+  },
+  "seekHelp": {
+    "title": "Consult Your Healthcare Provider",
+    "content": "For accurate pregnancy dating and personalized prenatal care, please consult with your healthcare provider who can provide guidance based on your complete medical history and individual circumstances."
+  },
+  "errors": {
+    "method": "Please select a calculation method",
+    "lastPeriod": "Please enter the first day of your last menstrual period",
+    "dueDate": "Please enter your expected due date",
+    "conceptionDate": "Please enter the conception date",
+    "ivfTransferDate": "Please enter the IVF embryo transfer date",
+    "ultrasoundDate": "Please enter the ultrasound date",
+    "crlMeasurement": "Please enter the crown-rump length measurement"
+  },
+  "tooltips": {
+    "calculationMethod": "Select the method that best applies to your situation",
+    "lastPeriod": "The first day of your last menstrual period",
+    "cycleLength": "Your average menstrual cycle length in days",
+    "crlMeasurement": "Measurement from the top of the baby's head to bottom"
+  },
+  "pregnancy_calculator_0": "Pregnancy Calculator",
+  "modify_the_values_and_click_the_calculate_button_t_1": "Modify the values and click the calculate button to use",
+  "calculate_on_2": "Calculate On",
+  "your_date_3": "Your Date",
+  "calculate_4": "Calculate",
+  "pregnancy_info_5": "Pregnancy Info",
+  "your_pregnancy_schedule_breakdown_6": "Your pregnancy schedule breakdown",
+  "due_date_7": "Due Date:",
+  "conception_date_8": "Conception Date:",
+  "last_period_date_9": "Last Period Date:",
+  "weeks_pregnant_10": "Weeks Pregnant:",
+  "days_pregnant_11": "Days Pregnant:",
+  "trimester_12": "Trimester:",
+  "enter_your_date_and_click_calculate_see_your_pregn_13": "Enter your date and click Calculate see your pregnancy schedule",
+  "how_pregnancy_is_calculated_14": "How Pregnancy is Calculated?",
+  "the_pregnancy_calculator_estimates_your_pregnancy__15": "The Pregnancy Calculator estimates your pregnancy schedule based on the provided date and method. It uses standard medical formulas for due date, conception, and trimester calculation. Always consult your doctor for personalized advice.",
+  "due_date_16": "Due Date",
+  "the_estimated_date_when_your_baby_is_due_calculate_17": "The estimated date when your baby is due. Calculated based on your selected method and input date.",
+  "trimester_18": "Trimester",
+  "pregnancy_is_divided_into_three_trimesters_the_cal_19": "Pregnancy is divided into three trimesters. The calculator shows which trimester you are currently in.",
+  "weeks_pregnant_20": "Weeks Pregnant",
+  "the_number_of_weeks_you_have_been_pregnant_calcula_21": "The number of weeks you have been pregnant, calculated from the start date to today.",
+  "important_22": "Important:",
+  "the_results_above_are_a_guideline_for_typical_situ_23": "The results above are a guideline for typical situations. Please consult with a doctor for your pregnancy schedule if you have special medical conditions or questions."
+}

@@ -1,0 +1,140 @@
+{
+  "pageTitle": "Prozentrechner",
+  "pageDescription": "Berechnen Sie ganz einfach Prozentsätze, Verhältnisse und prozentuale Änderungen mit unserem umfassenden Prozentrechner",
+  "form": {
+    "labels": {
+      "calculationType": "Berechnungstyp",
+      "part": "Teil",
+      "whole": "Ganz",
+      "percentage": "Prozentsatz",
+      "value1": "Erster Wert",
+      "value2": "Zweiter Wert"
+    },
+    "placeholders": {
+      "part": "Geben Sie das Teil ein",
+      "whole": "Geben Sie das Ganze ein",
+      "percentage": "Geben Sie den Prozentsatz ein",
+      "value1": "Geben Sie den ersten Wert ein",
+      "value2": "Geben Sie den zweiten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Prozentsatz berechnen",
+      "reset": "Zurücksetzen"
+    },
+    "calculationTypes": {
+      "partToWhole": "Wie viel Prozent beträgt {part} von {whole}?",
+      "percentageOfNumber": "Was ist {percentage} % von {number}?",
+      "percentageChange": "Wie groß ist die prozentuale Änderung von {Wert1} zu {Wert2}?",
+      "percentageDifference": "Wie groß ist der prozentuale Unterschied zwischen {Wert1} und {Wert2}?"
+    }
+  },
+  "results": {
+    "result": "Ergebnis",
+    "percentageValue": "Prozentwert",
+    "calculatedValue": "Berechneter Wert",
+    "percentageChange": "Prozentuale Änderung",
+    "percentageDifference": "Prozentualer Unterschied",
+    "percentageResultsTitle": "Prozentuale Ergebnisse"
+  },
+  "educational": {
+    "percentageInfo": "Prozentangaben",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Zusätzliche Ressourcen",
+    "percentageFormulas": {
+      "partToWhole": {
+        "title": "Teil-zu-Ganze-Prozentsatz",
+        "formula": "Prozentsatz = (Teil ÷ Ganzes) × 100"
+      },
+      "percentageOfNumber": {
+        "title": "Prozentsatz einer Zahl",
+        "formula": "Ergebnis = (Prozentsatz ÷ 100) × Zahl"
+      },
+      "percentageChange": {
+        "title": "Prozentuale Änderung",
+        "formula": "Änderung = ((Neuer Wert – Originalwert) ÷ Originalwert) × 100"
+      },
+      "percentageDifference": {
+        "title": "Prozentualer Unterschied",
+        "formula": "Differenz = (|Wert1 - Wert2| ÷ ((Wert1 + Wert2) ÷ 2)) × 100"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur mathematische Berechnungen",
+      "accuracy": "Stellen Sie sicher, dass Sie den richtigen Berechnungstyp für Ihre Anforderungen verwenden"
+    },
+    "importantNotesList": [
+      "Prozentsätze werden in vielen realen Anwendungen verwendet, darunter im Finanzwesen, in der Statistik und in der Wissenschaft",
+      "Überprüfen Sie Ihre Eingaben immer noch einmal, um genaue Ergebnisse sicherzustellen",
+      "Berücksichtigen Sie den Kontext Ihrer Berechnung, um die geeignete Prozentformel auszuwählen",
+      "Negative prozentuale Veränderungen deuten auf einen Rückgang hin, während positive Veränderungen auf einen Anstieg hinweisen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Werte ein, um den Prozentsatz zu berechnen",
+    "resultMessage": "Das Ergebnis Ihrer Berechnung wird unten angezeigt",
+    "assessmentResult": "Berechnungsergebnis:",
+    "percentageAnalysis": "Prozentuale Analyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet mathematische Berechnungen basierend auf Standard-Prozentformeln. Die Genauigkeit der Ergebnisse hängt von der Richtigkeit der Eingabewerte und der Auswahl des geeigneten Berechnungstyps ab."
+  },
+  "seekHelp": {
+    "title": "Zusätzliche Ressourcen",
+    "content": "Für komplexe Prozentberechnungen oder spezielle Anwendungen sollten Sie in Betracht ziehen, einen Mathematikprofi zu konsultieren oder spezielle Softwaretools zu verwenden, die für Ihren spezifischen Arbeitsbereich entwickelt wurden."
+  },
+  "errors": {
+    "part": "Bitte geben Sie einen gültigen Teilwert ein",
+    "whole": "Bitte geben Sie einen gültigen ganzen Wert ein",
+    "percentage": "Bitte geben Sie einen gültigen Prozentwert ein",
+    "value1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "value2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "calculationType": "Bitte wählen Sie eine Berechnungsart aus"
+  },
+  "tooltips": {
+    "calculationType": "Wählen Sie die Art der Prozentberechnung aus, die Sie benötigen",
+    "part": "Der Teil oder Teil des Ganzen, den Sie berechnen",
+    "whole": "Der Gesamt- oder Gesamtbetrag",
+    "percentage": "Der Prozentwert, mit dem Sie arbeiten",
+    "value1": "Der erste Wert in Ihrer Berechnung",
+    "value2": "Der zweite Wert in Ihrer Berechnung"
+  },
+  "loading_0": "Laden...",
+  "percentage_calculations_1": "Prozentberechnungen",
+  "choose_the_type_of_percentage_calculation_you_need_2": "Wählen Sie die Art der Prozentberechnung, die Sie benötigen",
+  "of_3": "% von",
+  "what_is_4": "Was % ist",
+  "increase_5": "% Zunahme",
+  "decrease_6": "% Verringern",
+  "percentage_7": "Prozentsatz (%)",
+  "of_number_8": "Der Zahl",
+  "calculate_9": "Berechnen",
+  "number_10": "Nummer",
+  "of_total_11": "Von insgesamt",
+  "calculate_12": "Berechnen",
+  "original_number_13": "Originalnummer",
+  "increase_14": "Zunahme (%)",
+  "calculate_15": "Berechnen",
+  "original_number_16": "Originalnummer",
+  "decrease_17": "Verringern (%)",
+  "calculate_18": "Berechnen",
+  "result_19": "Ergebnis",
+  "calculated_value_20": "Berechneter Wert",
+  "you_can_copy_or_use_this_value_as_needed_21": "Sie können diesen Wert nach Bedarf kopieren oder verwenden.",
+  "enter_values_and_click_22": "Geben Sie Werte ein und klicken Sie",
+  "calculate_23": "Berechnen",
+  "to_see_result_24": "um das Ergebnis zu sehen.",
+  "how_to_use_this_calculator_25": "Wie benutzt man diesen Rechner?",
+  "k_1_26": "1",
+  "select_the_type_of_percentage_calculation_you_need_27": "Wählen Sie die Art der Prozentberechnung aus, die Sie benötigen.",
+  "k_2_28": "2",
+  "enter_your_values_in_the_input_fields_29": "Geben Sie Ihre Werte in die Eingabefelder ein.",
+  "k_3_30": "3",
+  "click_31": "Klicken",
+  "calculate_32": "Berechnen",
+  "to_see_the_result_instantly_33": "um das Ergebnis sofort zu sehen.",
+  "k_4_34": "4",
+  "switch_between_tabs_for_different_percentage_opera_35": "Wechseln Sie zwischen den Registerkarten für verschiedene Prozentoperationen."
+}

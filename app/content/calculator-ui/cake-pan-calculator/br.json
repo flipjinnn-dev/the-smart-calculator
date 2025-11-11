@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Calculadora de forma de bolo",
+  "pageDescription": "Calcule os tamanhos equivalentes de formas redondas, quadradas e retangulares para dimensionamento de receitas e ajustes de cozimento",
+  "form": {
+    "labels": {
+      "inputPan": "Tipo de panorâmica de entrada",
+      "inputDimensions": "Dimensões do Pan de Entrada",
+      "outputPan": "Tipo de panorâmica de saída",
+      "outputDimensions": "Dimensões da bandeja de saída",
+      "adjustRecipe": "Ajustar as quantidades da receita?"
+    },
+    "placeholders": {
+      "inputDimensions": "Insira as dimensões (por exemplo, 9 para redondo de 9 polegadas)",
+      "outputDimensions": "Insira as dimensões (por exemplo, 8x8 para um quadrado de 8 polegadas)"
+    },
+    "buttons": {
+      "calculate": "Calcular equivalente de panela",
+      "reset": "Reiniciar"
+    },
+    "panTypes": {
+      "round": "Panela Redonda",
+      "square": "Panela Quadrada",
+      "rectangular": "Panela Retangular"
+    },
+    "yesNo": {
+      "yes": "Sim",
+      "no": "Não"
+    }
+  },
+  "results": {
+    "areaComparison": "Comparação de áreas",
+    "volumeComparison": "Comparação de volumes",
+    "recipeAdjustment": "Fator de ajuste de receita",
+    "panResultsTitle": "Resultados da forma de bolo"
+  },
+  "educational": {
+    "panInfo": "Informações sobre a forma de bolo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos de panificação",
+    "panFacts": {
+      "area": {
+        "title": "Cálculos de área panorâmica",
+        "description": "Redondo: πr², Quadrado: lado², Retangular: comprimento × largura"
+      },
+      "volume": {
+        "title": "Considerações sobre volume",
+        "description": "Volume = Área × Profundidade (assume a mesma profundidade de panorâmica)"
+      },
+      "adjustments": {
+        "title": "Ajustes de receita",
+        "description": "Multiplique os ingredientes pela proporção da área ao alterar o tamanho das panelas"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas conversões de tamanho panorâmico",
+      "baking": "Considere o tempo de cozimento e os ajustes de temperatura ao alterar o tamanho das panelas"
+    },
+    "importantNotesList": [
+      "Panelas maiores podem exigir tempo de cozimento reduzido e/ou temperatura mais baixa",
+      "Panelas menores podem exigir maior tempo de cozimento e/ou temperatura mais alta",
+      "Certifique-se de que as panelas tenham profundidade semelhante para cálculos de volume precisos",
+      "Considere o material e a cor da panela, pois eles afetam os resultados do cozimento"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações da sua forma de bolo para calcular equivalentes",
+    "resultMessage": "O cálculo equivalente da forma de bolo é mostrado abaixo",
+    "assessmentResult": "Resultado do cálculo panorâmico:",
+    "panAnalysis": "Análise da forma de bolo"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece conversões de tamanho de forma de bolo com base em fórmulas geométricas. Os resultados reais do cozimento podem variar com base na profundidade da panela, material, calibração do forno e outros fatores."
+  },
+  "seekHelp": {
+    "title": "Recursos de panificação",
+    "content": "Para obter conselhos profissionais sobre panificação e desenvolvimento de receitas, consulte profissionais de panificação ou recursos culinários para técnicas especializadas e considerações sobre ingredientes."
+  },
+  "errors": {
+    "inputPan": "Selecione um tipo de panorâmica de entrada",
+    "inputDimensions": "Insira dimensões válidas do prato de entrada",
+    "outputPan": "Selecione um tipo de panorâmica de saída",
+    "outputDimensions": "Insira dimensões válidas da bandeja de saída"
+  },
+  "tooltips": {
+    "inputPan": "O tipo de panela da qual você está convertendo",
+    "inputDimensions": "Dimensões da bandeja de entrada",
+    "outputPan": "O tipo de panela para a qual você está convertendo",
+    "outputDimensions": "Dimensões do tabuleiro de saída",
+    "adjustRecipe": "Se deve calcular ajustes de quantidade de receita"
+  },
+  "diameter_cm_0": "Diâmetro (cm)",
+  "height_cm_1": "Altura (cm)",
+  "length_cm_2": "Comprimento (cm)",
+  "width_cm_3": "Largura (cm)",
+  "height_cm_4": "Altura (cm)",
+  "pan_shape_dimensions_5": "Formato e dimensões da panela",
+  "select_pan_shape_and_enter_dimensions_to_calculate_6": "Selecione o formato da panela e insira as dimensões para calcular o volume",
+  "select_pan_shape_7": "Selecione a forma da panela",
+  "recipe_pan_volume_l_optional_8": "Volume da panela de receita (L) - Opcional",
+  "conversion_9": "Conversão:",
+  "k_1_l_1000_cm_10": "1L = 1000 cm³",
+  "enter_recipe_pan_volume_to_get_scaling_ratio_for_a_11": "Insira o volume da panela de receita para obter a proporção de escala para ajustar as quantidades dos ingredientes.",
+  "calculate_volume_12": "Calcular Volume",
+  "pan_volume_results_13": "Resultados de volume panorâmico",
+  "liters_l_14": "litros (L)",
+  "cm_15": "cm³",
+  "x_16": "x",
+  "recipe_ratio_17": "Proporção de receita",
+  "select_shape_enter_dimensions_and_click_18": "Selecione a forma, insira as dimensões e clique",
+  "calculate_19": "Calcular",
+  "to_see_volume_20": "para ver o volume.",
+  "detailed_volume_breakdown_21": "Detalhamento detalhado do volume",
+  "volume_liters_22": "Volume (Litros)",
+  "l_23": "L",
+  "volume_cm_24": "Volume (cm³)",
+  "cm_25": "cm³",
+  "recipe_scaling_26": "Dimensionamento de receita",
+  "x_27": "x",
+  "multiply_ingredients_28": "Multiplique os ingredientes",
+  "recipe_adjustment_guide_29": "Guia de ajuste de receita:",
+  "your_pan_is_30": "Sua panela é",
+  "times_larger_than_the_recipe_pan_multiply_all_ingr_31": "vezes maior que a forma de receita. Multiplique tudo\n                            ingredientes por",
+  "to_fill_your_pan_properly_32": "para encher sua panela corretamente.",
+  "your_pan_is_33": "Sua panela é",
+  "times_smaller_than_the_recipe_pan_multiply_all_ing_34": "vezes menor que a forma de receita. Multiplique tudo\n                            ingredientes por",
+  "to_avoid_overflow_35": "para evitar transbordamento.",
+  "your_pan_is_the_same_size_as_the_recipe_pan_use_th_36": "Sua panela é do mesmo tamanho da panela de receita. Use as quantidades originais da receita.",
+  "understanding_pan_volume_in_baking_37": "Compreendendo o volume da panela na panificação",
+  "why_pan_volume_matters_38": "Por que o volume panorâmico é importante",
+  "pan_volume_determines_how_much_batter_your_pan_can_39": "O volume da panela determina a quantidade de massa que sua panela pode conter e afeta o tempo de cozimento, a textura e\n                        subir. Usar o tamanho errado da panela pode resultar em transbordamento, cozimento irregular ou bolos chatos.",
+  "scaling_guidelines_40": "Diretrizes de dimensionamento",
+  "your_pan_is_larger_than_the_recipe_pan_increase_in_41": "Sua panela é maior que a panela de receita - aumente os ingredientes",
+  "your_pan_is_smaller_than_the_recipe_pan_reduce_ing_42": "Sua panela é menor que a panela de receita - reduza os ingredientes",
+  "your_pan_is_the_same_size_as_the_recipe_pan_use_or_43": "Sua panela é do mesmo tamanho da panela de receita - use a receita original",
+  "adjust_baking_time_larger_pans_need_more_time_44": "Ajuste o tempo de cozimento: panelas maiores precisam de mais tempo",
+  "sample_calculations_45": "Cálculos de amostra",
+  "round_pan_20cm_5cm_46": "Panela Redonda: 20cm × 5cm",
+  "v_105_1571_cm_47": "V = π(10²)(5) = 1.571 cm³",
+  "k_1571_l_48": "≈ 1,571 L",
+  "rectangle_pan_20cm_20cm_5cm_49": "Forma retangular: 20cm × 20cm × 5cm",
+  "v_20_20_5_2000_cm_50": "V = 20 × 20 × 5 = 2.000 cm³",
+  "k_20_l_51": "= 2,0 litros",
+  "ratio_20_1571_127x_52": "Proporção: 2,0 ÷ 1,571 = 1,27x"
+}

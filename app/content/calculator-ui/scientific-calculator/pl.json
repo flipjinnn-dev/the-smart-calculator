@@ -1,0 +1,125 @@
+{
+  "pageTitle": "Kalkulator naukowy",
+  "pageDescription": "Wykonuj zaawansowane obliczenia matematyczne i funkcje naukowe, w tym trygonometrię, logarytmy, wykładniki i operacje statystyczne",
+  "form": {
+    "labels": {
+      "operation": "Działanie",
+      "inputValue": "Wartość wejściowa",
+      "angleMode": "Tryb kątowy",
+      "numberBase": "Baza liczbowa",
+      "memory": "Funkcje pamięci"
+    },
+    "placeholders": {
+      "inputValue": "Wprowadź wartość lub wyrażenie"
+    },
+    "buttons": {
+      "calculate": "Obliczać",
+      "clear": "Jasne",
+      "reset": "Nastawić"
+    },
+    "operations": {
+      "basic": "Podstawowe operacje",
+      "trig": "Funkcje trygonometryczne",
+      "log": "Funkcje logarytmiczne",
+      "exp": "Funkcje wykładnicze",
+      "stat": "Funkcje statystyczne",
+      "misc": "Różne funkcje"
+    },
+    "angleModes": {
+      "degrees": "Stopnie",
+      "radians": "Radiany",
+      "gradians": "Gradianie"
+    },
+    "numberBases": {
+      "decimal": "Dziesiętny (podstawa 10)",
+      "binary": "Binarny (podstawa 2)",
+      "octal": "Oktal (podstawa 8)",
+      "hexadecimal": "Szesnastkowy (podstawa 16)"
+    }
+  },
+  "results": {
+    "result": "Wynik",
+    "expression": "Wyrażenie",
+    "calculationHistory": "Historia obliczeń",
+    "scientificResultsTitle": "Wyniki kalkulatora naukowego"
+  },
+  "educational": {
+    "scientificInfo": "Informacje o kalkulatorze naukowym",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby matematyczne",
+    "scientificFunctions": {
+      "trig": {
+        "title": "Funkcje trygonometryczne",
+        "description": "sin, cos, tan i ich odwrotności (asin, acos, atan)"
+      },
+      "log": {
+        "title": "Funkcje logarytmiczne",
+        "description": "log (o podstawie 10), ln (logarytm naturalny) i log o podstawie n"
+      },
+      "stat": {
+        "title": "Funkcje statystyczne",
+        "description": "Średnia, mediana, odchylenie standardowe i inne operacje statystyczne"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten umożliwia wyłącznie obliczenia matematyczne",
+      "precision": "Wyniki są ograniczone precyzją obliczeń i zaokrągleniem"
+    },
+    "importantNotesList": [
+      "Zapewnij prawidłowy tryb kąta dla obliczeń trygonometrycznych",
+      "Należy pamiętać o ograniczeniach domeny dla niektórych funkcji",
+      "Sprawdź historię obliczeń pod kątem złożonych, wieloetapowych problemów",
+      "Użyj odpowiedniej liczby cyfr znaczących w swoich wynikach"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wyrażenie matematyczne lub wybierz funkcję",
+    "resultMessage": "Wynik obliczeń pokazano poniżej",
+    "assessmentResult": "Wynik obliczeń:",
+    "scientificAnalysis": "Analiza obliczeń naukowych"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia obliczenia matematyczne oparte na standardowych wzorach naukowych. Wyniki podlegają ograniczeniom precyzji obliczeniowej i powinny zostać zweryfikowane pod kątem zastosowań krytycznych."
+  },
+  "seekHelp": {
+    "title": "Zasoby matematyczne",
+    "content": "W przypadku złożonych problemów matematycznych lub specjalistycznych zastosowań rozważ konsultację ze specjalistami matematycznymi lub skorzystanie ze specjalistycznych narzędzi programowych przeznaczonych dla zaawansowanej matematyki."
+  },
+  "errors": {
+    "inputValue": "Wprowadź prawidłowe wyrażenie matematyczne",
+    "operation": "Wybierz prawidłową operację",
+    "domain": "Wartość wejściowa wykracza poza dziedzinę tej funkcji",
+    "overflow": "Wynik obliczenia jest zbyt duży, aby go wyświetlić"
+  },
+  "tooltips": {
+    "operation": "Wybierz operację matematyczną do wykonania",
+    "inputValue": "Wprowadź wartość lub wyrażenie do obliczenia",
+    "angleMode": "Wybierz tryb pomiaru kąta dla funkcji trygonometrycznych",
+    "numberBase": "Wybierz podstawę liczbową do obliczeń"
+  },
+  "scientific_calculations_0": "Obliczenia naukowe",
+  "enter_your_expression_or_use_the_buttons_below_1": "Wpisz swoje wyrażenie lub użyj poniższych przycisków",
+  "expression_2": "Wyrażenie",
+  "m_3": "M:",
+  "calculate_4": "Obliczać",
+  "result_5": "Wynik",
+  "calculated_value_6": "Obliczona wartość",
+  "you_can_copy_or_use_this_value_as_needed_7": "W razie potrzeby możesz skopiować lub użyć tej wartości.",
+  "enter_an_expression_and_click_8": "Wprowadź wyrażenie i kliknij",
+  "calculate_9": "Obliczać",
+  "to_see_result_10": "aby zobaczyć wynik.",
+  "how_to_use_this_calculator_11": "Jak korzystać z tego kalkulatora?",
+  "k_1_12": "1",
+  "type_your_math_expression_or_use_the_buttons_13": "Wpisz wyrażenie matematyczne lub użyj przycisków.",
+  "k_2_14": "2",
+  "use_functions_like_sinx_cosx_tanx_logx_x_for_power_15": "Użyj funkcji takich jak sin(x), cos(x), tan(x), log(x), √(x), ^ dla potęg, n! dla silni, π, e, pamięci i innych.",
+  "k_3_16": "3",
+  "click_17": "Trzask",
+  "calculate_18": "Obliczać",
+  "to_see_the_result_instantly_19": "aby natychmiast zobaczyć wynik.",
+  "k_4_20": "4",
+  "use_degrad_toggle_ans_for_last_answer_memory_butto_21": "Użyj przełącznika Deg/Rad, Ans dla ostatniej odpowiedzi, przycisków pamięci i nawiasów do grupowania."
+}

@@ -1,0 +1,162 @@
+{
+  "pageTitle": "GFR  Calculator",
+  "pageDescription": "Calculate gfr  with our free online calculator",
+  "form": {
+    "labels": {
+      "input1": "Input 1",
+      "input2": "Input 2",
+      "input3": "Input 3"
+    },
+    "placeholders": {
+      "input1": "Enter first value",
+      "input2": "Enter second value",
+      "input3": "Enter third value"
+    },
+    "buttons": {
+      "calculate": "Calculate GFR ",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "result1": "Result 1",
+    "result2": "Result 2",
+    "calculationDetails": "GFR  Calculation Results"
+  },
+  "educational": {
+    "info": "GFR  Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "GFR  Definition",
+        "description": "Information about gfr "
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How gfr  is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of gfr "
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides gfr  estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate gfr ",
+    "resultMessage": "Your gfr  calculation results are shown below",
+    "assessmentResult": "GFR  Calculation Result:",
+    "analysis": "GFR  Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides gfr  estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  },
+  "kidney_function_assessment_0": "Kidney Function Assessment",
+  "enter_patient_information_to_calculate_estimated_g_1": "Enter patient information to calculate estimated GFR and CKD stage",
+  "patient_type_2": "Patient Type *",
+  "adult_3": "Adult",
+  "ages_18_mdrd_ckdepi_formulas_4": "- Ages 18+ (MDRD, CKD-EPI formulas)",
+  "child_5": "Child",
+  "ages_017_schwartz_formula_6": "- Ages 0-17 (Schwartz formula)",
+  "age_7": "Age (",
+  "sex_8": "Sex *",
+  "male_9": "Male",
+  "female_10": "Female",
+  "height_11": "Height *",
+  "cm_12": "cm",
+  "in_13": "in",
+  "required_for_schwartz_formula_calculation_14": "Required for Schwartz formula calculation",
+  "serum_creatinine_mgdl_15": "Serum Creatinine (mg/dL) *",
+  "formula_choice_16": "Formula Choice",
+  "ckdepi_2021_racefree_17": "CKD-EPI 2021 (race-free)",
+  "default_most_current_18": "- Default, most current",
+  "mdrd_idmstraceable_19": "MDRD (IDMS-traceable)",
+  "traditional_formula_20": "- Traditional formula",
+  "calculate_21": "Calculate",
+  "reset_22": "Reset",
+  "egfr_result_23": "eGFR Result",
+  "mlmin173_m_24": "mL/min/1.73 m²",
+  "enter_patient_information_to_calculate_egfr_25": "Enter patient information to calculate eGFR.",
+  "gfr_results_26": "GFR Results",
+  "estimated_gfr_27": "Estimated GFR",
+  "mlmin173_m_28": "mL/min/1.73 m²",
+  "stage_29": "Stage",
+  "calculation_details_30": "Calculation Details",
+  "formula_used_31": "Formula Used:",
+  "patient_type_32": "Patient Type:",
+  "age_33": "Age:",
+  "years_34": "years",
+  "sex_35": "Sex:",
+  "height_36": "Height:",
+  "serum_creatinine_37": "Serum Creatinine:",
+  "mgdl_38": "mg/dL",
+  "important_medical_notice_39": "Important Medical Notice",
+  "results_are_estimates_for_screening_purposes_only__40": "Results are estimates for screening purposes only. Consult a healthcare provider for medical\n                            advice, diagnosis, or treatment decisions. eGFR may be less accurate in certain populations.",
+  "understanding_gfr_ckd_stages_41": "Understanding GFR & CKD Stages",
+  "ckd_stages_42": "CKD Stages",
+  "g1_43": "G1:",
+  "k_90_44": "≥90",
+  "normal_45": "Normal",
+  "g2_46": "G2:",
+  "k_6089_47": "60-89",
+  "mildly_decreased_48": "Mildly decreased",
+  "g3a_49": "G3a:",
+  "k_4559_50": "45-59",
+  "mildmoderate_51": "Mild-moderate",
+  "g3b_52": "G3b:",
+  "k_3044_53": "30-44",
+  "moderatesevere_54": "Moderate-severe",
+  "g4_55": "G4:",
+  "k_1529_56": "15-29",
+  "severe_57": "Severe",
+  "g5_58": "G5:",
+  "k_15_59": "<15",
+  "kidney_failure_60": "Kidney failure",
+  "formula_comparison_61": "Formula Comparison",
+  "ckdepi_2021_62": "CKD-EPI 2021:",
+  "most_current_racefree_formula_recommended_by_guide_63": "Most current, race-free formula recommended by guidelines",
+  "mdrd_64": "MDRD:",
+  "traditional_formula_may_underestimate_at_higher_gf_65": "Traditional formula, may underestimate at higher GFR levels",
+  "schwartz_formula_66": "Schwartz Formula:",
+  "pediatric_formula_for_children_aged_017_years_67": "Pediatric formula for children aged 0-17 years",
+  "clinical_significance_68": "Clinical Significance",
+  "normal_gfr_69": "Normal GFR:",
+  "k_90120_mlmin173_m_in_healthy_adults_70": "90-120 mL/min/1.73 m² in healthy adults",
+  "ckd_diagnosis_71": "CKD diagnosis:",
+  "gfr_60_for_3_months_72": "GFR <60 for ≥3 months",
+  "referral_to_nephrology_73": "Referral to nephrology:",
+  "usually_at_gfr_30_74": "Usually at GFR <30",
+  "dialysis_consideration_75": "Dialysis consideration:",
+  "gfr_15_or_symptomatic_76": "GFR <15 or symptomatic",
+  "limitations_77": "Limitations",
+  "less_accurate_in_extremes_of_age_body_size_or_musc_78": "Less accurate in extremes of age, body size, or muscle mass",
+  "may_be_inaccurate_in_acute_kidney_injury_79": "May be inaccurate in acute kidney injury",
+  "requires_stable_creatinine_levels_80": "Requires stable creatinine levels",
+  "consider_cystatin_cbased_equations_for_better_accu_81": "Consider cystatin C-based equations for better accuracy"
+}

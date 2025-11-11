@@ -1,0 +1,165 @@
+{
+  "pageTitle": "Kalkulator kredytu samochodowego",
+  "pageDescription": "Oblicz spłaty kredytu samochodowego i całkowity koszt, w tym odsetki, podatek od sprzedaży i opłaty za finansowanie nowych i używanych pojazdów",
+  "form": {
+    "labels": {
+      "vehiclePrice": "Cena pojazdu",
+      "downPayment": "Zadatek",
+      "downPaymentType": "Rodzaj zaliczki",
+      "loanAmount": "Kwota pożyczki",
+      "interestRate": "Roczna stopa procentowa",
+      "loanTerm": "Okres pożyczki",
+      "startDate": "Data rozpoczęcia pożyczki",
+      "salesTax": "Stawka podatku od sprzedaży",
+      "fees": "Dodatkowe opłaty",
+      "tradeIn": "Wartość handlowa"
+    },
+    "placeholders": {
+      "vehiclePrice": "Podaj cenę pojazdu",
+      "downPayment": "Wprowadź zaliczkę",
+      "loanAmount": "Wprowadź kwotę pożyczki",
+      "interestRate": "Wprowadź roczną stopę procentową (%)",
+      "loanTerm": "Wprowadź okres kredytowania w miesiącach",
+      "salesTax": "Wprowadź stawkę podatku od sprzedaży (%)",
+      "fees": "Wprowadź opłaty dodatkowe",
+      "tradeIn": "Wprowadź wartość wymiany"
+    },
+    "buttons": {
+      "calculate": "Oblicz kredyt samochodowy",
+      "reset": "Nastawić"
+    },
+    "downPaymentTypes": {
+      "amount": "Kwota",
+      "percentage": "Procent"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Płatność miesięczna",
+    "totalInterest": "Całkowite zapłacone odsetki",
+    "totalPayment": "Całkowita płatność",
+    "totalCost": "Koszt całkowity (pojazd + odsetki + podatek + opłaty)",
+    "payoffDate": "Data spłaty pożyczki",
+    "autoLoanResultsTitle": "Wyniki obliczeń kredytu automatycznego"
+  },
+  "educational": {
+    "autoLoanInfo": "Informacje o kredycie samochodowym",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "autoLoanFacts": {
+      "components": {
+        "title": "Składniki kredytu samochodowego",
+        "description": "Kwota główna, odsetki, podatek od sprzedaży i opłaty dodatkowe"
+      },
+      "amortization": {
+        "title": "Amortyzacja",
+        "description": "Wcześniejsze płatności obejmują głównie odsetki; późniejsze płatności to głównie kwota główna"
+      },
+      "depreciation": {
+        "title": "Amortyzacja pojazdu",
+        "description": "Samochody z biegiem czasu tracą na wartości, wpływając na stosunek wartości kredytu do wartości"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki płatności kredytu samochodowego",
+      "actual": "Rzeczywiste warunki pożyczki mogą się różnić w zależności od polityki pożyczkodawcy, wyniku kredytowego i czynników pojazdu"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie obejmuje wszystkich możliwych opłat i prowizji",
+      "Nowe samochody szybko tracą na wartości, co może spowodować wywrócenie kredytu do góry nogami",
+      "Krótsze warunki pożyczki zazwyczaj wiążą się z niższymi stopami procentowymi, ale wyższymi miesięcznymi płatnościami",
+      "Weź pod uwagę całkowity koszt posiadania, w tym ubezpieczenie, konserwację i paliwo"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje o kredycie samochodowym, aby obliczyć miesięczne płatności",
+    "resultMessage": "Wyniki obliczeń kredytu samochodowego pokazano poniżej",
+    "assessmentResult": "Wynik automatycznego obliczenia kredytu:",
+    "autoLoanAnalysis": "Analiza kredytu samochodowego"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunkową kwotę spłaty kredytu samochodowego w oparciu o standardowe formuły finansowe. Rzeczywiste warunki pożyczki, płatności i odsetki mogą się różnić w zależności od polityki pożyczkodawcy, wyniku kredytowego, stanu pojazdu i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowane porady dotyczące kredytów samochodowych i opcje finansowania, skonsultuj się ze specjalistami ds. kredytów samochodowych lub doradcami finansowymi posiadającymi wiedzę specjalistyczną w zakresie finansowania pojazdów i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "vehiclePrice": "Proszę podać prawidłową cenę pojazdu",
+    "downPayment": "Proszę wprowadzić prawidłową zaliczkę",
+    "loanAmount": "Proszę wprowadzić prawidłową kwotę pożyczki",
+    "interestRate": "Proszę wprowadzić prawidłową roczną stopę procentową",
+    "loanTerm": "Proszę wprowadzić prawidłowy okres pożyczki",
+    "startDate": "Proszę podać prawidłową datę rozpoczęcia pożyczki",
+    "salesTax": "Wprowadź prawidłową stawkę podatku od sprzedaży",
+    "fees": "Proszę podać prawidłowe opłaty dodatkowe",
+    "tradeIn": "Wprowadź prawidłową wartość wymiany"
+  },
+  "tooltips": {
+    "vehiclePrice": "Cena zakupu pojazdu",
+    "downPayment": "Kwota płatna z góry na poczet zakupu pojazdu",
+    "downPaymentType": "Określa, czy zaliczka jest określona kwotowo czy procentowo",
+    "loanAmount": "Kwota pożyczona od pożyczkodawcy",
+    "interestRate": "Roczne oprocentowanie kredytu samochodowego",
+    "loanTerm": "Długość czasu spłaty pożyczki (zwykle 36-84 miesiące)",
+    "startDate": "Data rozpoczęcia spłaty kredytu",
+    "salesTax": "Stanowy i lokalny podatek od sprzedaży od zakupu pojazdu",
+    "fees": "Dodatkowe opłaty, takie jak opłaty za dokumentację, tytuł i opłaty rejestracyjne",
+    "tradeIn": "Wartość Twojego obecnego pojazdu wykorzystana jako zaliczka"
+  },
+  "auto_loan_calculator_0": "Kalkulator kredytu samochodowego",
+  "total_price_1": "Całkowita cena",
+  "monthly_payment_2": "Płatność miesięczna",
+  "auto_price_3": "Cena samochodu",
+  "loan_term_4": "Okres pożyczki",
+  "months_5": "miesiące",
+  "interest_rate_6": "Stopa procentowa",
+  "cash_incentives_7": "Zachęty pieniężne",
+  "down_payment_8": "Zadatek",
+  "tradein_value_9": "Wartość handlowa",
+  "amount_owed_on_tradein_10": "Kwota należna przy wymianie",
+  "your_state_11": "Twoje państwo",
+  "sales_tax_12": "Podatek od sprzedaży",
+  "title_registration_and_other_fees_13": "Tytuł, rejestracja i inne opłaty",
+  "include_taxes_and_fees_in_loan_14": "Uwzględnij podatki i opłaty w pożyczce",
+  "calculate_15": "Obliczać",
+  "monthly_payment_16": "Płatność miesięczna",
+  "loan_term_17": "Okres pożyczki",
+  "months_18": "miesiące",
+  "interest_rate_19": "Stopa procentowa",
+  "cash_incentives_20": "Zachęty pieniężne",
+  "down_payment_21": "Zadatek",
+  "tradein_value_22": "Wartość handlowa",
+  "amount_owed_on_tradein_23": "Kwota należna przy wymianie",
+  "your_state_24": "Twoje państwo",
+  "sales_tax_25": "Podatek od sprzedaży",
+  "title_registration_and_other_fees_26": "Tytuł, rejestracja i inne opłaty",
+  "include_taxes_and_fees_in_loan_27": "Uwzględnij podatki i opłaty w pożyczce",
+  "calculate_28": "Obliczać",
+  "monthly_payment_29": "Płatność miesięczna",
+  "your_complete_loan_breakdown_30": "Pełny podział kredytu",
+  "monthly_pay_31": "Miesięczne wynagrodzenie:",
+  "total_loan_amount_32": "Całkowita kwota pożyczki",
+  "sale_tax_33": "Podatek od sprzedaży",
+  "upfront_payment_34": "Płatność z góry",
+  "total_of_35": "Łącznie",
+  "loan_payments_36": "Spłata pożyczki",
+  "total_loan_interest_37": "Całkowite odsetki od kredytu",
+  "total_cost_price_interest_tax_fees_38": "Koszt całkowity (cena, odsetki, podatek, opłaty)",
+  "loan_breakdown_39": "Podział pożyczki",
+  "principal_40": "% Główny",
+  "interest_41": "% Odsetki",
+  "find_average_tax_rate_and_fees_in_your_state_42": "Znajdź średnią stawkę podatku i opłaty w swoim stanie",
+  "enter_auto_loan_details_to_see_your_payment_breakd_43": "Wprowadź szczegóły kredytu samochodowego, aby zobaczyć zestawienie płatności",
+  "amortization_schedule_44": "Harmonogram amortyzacji",
+  "annual_payment_breakdown_45": "Roczne zestawienie płatności",
+  "annual_schedule_46": "Harmonogram roczny",
+  "monthly_schedule_47": "Harmonogram miesięczny",
+  "year_48": "Rok",
+  "interest_49": "Odsetki",
+  "principal_50": "Główny",
+  "ending_balance_51": "Bilans końcowy",
+  "monthly_schedule_view_coming_soon_52": "Widok harmonogramu miesięcznego - Już wkrótce!"
+}

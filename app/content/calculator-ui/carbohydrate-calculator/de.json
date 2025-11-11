@@ -1,0 +1,221 @@
+{
+  "pageTitle": "Kohlenhydratrechner",
+  "pageDescription": "Berechnen Sie Ihren täglichen Kohlenhydratbedarf basierend auf Aktivitätsniveau, Zielen und Ernährungsbedürfnissen für optimale Gesundheit und Leistung",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "weight": "Gewicht",
+      "height": "Höhe",
+      "unitSystem": "Einheitensystem",
+      "activityLevel": "Aktivitätsniveau",
+      "goal": "Ernährungsziel",
+      "dietType": "Diättyp"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie Kohlenhydrate",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Bewegungsmangel (wenig oder keine Bewegung)",
+      "light": "Leicht aktiv (leichte Bewegung 1–3 Tage/Woche)",
+      "moderate": "Mäßig aktiv (mäßige Bewegung an 3–5 Tagen/Woche)",
+      "active": "Sehr aktiv (hartes Training an 6–7 Tagen/Woche)",
+      "veryActive": "Extrem aktiv (sehr harte Bewegung und körperliche Arbeit)"
+    },
+    "goals": {
+      "maintenance": "Gewichtserhaltung",
+      "lose": "Gewichtsverlust",
+      "gain": "Gewichtszunahme",
+      "athletic": "Sportliche Leistung"
+    },
+    "dietTypes": {
+      "balanced": "Ausgewogene Ernährung (45–65 % Kohlenhydrate)",
+      "lowCarb": "Low Carb (20–40 % Kohlenhydrate)",
+      "keto": "Ketogen (5-10 % Kohlenhydrate)",
+      "highCarb": "High Carb (60–80 % Kohlenhydrate)"
+    }
+  },
+  "results": {
+    "carbNeeds": "Täglicher Kohlenhydratbedarf",
+    "caloriesFromCarbs": "Kalorien aus Kohlenhydraten",
+    "carbRange": "Empfohlener Kohlenhydratbereich",
+    "carbResultsTitle": "Kohlenhydrat-Ergebnisse"
+  },
+  "educational": {
+    "carbInfo": "Informationen zu Kohlenhydraten",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ernährungsressourcen",
+    "carbFacts": {
+      "function": {
+        "title": "Kohlenhydratfunktion",
+        "description": "Primäre Energiequelle für Gehirn und Muskeln, insbesondere während des Trainings"
+      },
+      "types": {
+        "title": "Kohlenhydratarten",
+        "description": "Einfache Kohlenhydrate (Zucker) und komplexe Kohlenhydrate (Stärke und Ballaststoffe)"
+      },
+      "recommendations": {
+        "title": "Ernährungsempfehlungen",
+        "description": "45–65 % der gesamten täglichen Kalorien sollten aus Kohlenhydraten stammen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Nährwertschätzungen",
+      "individual": "Der Kohlenhydratbedarf variiert je nach individuellen Faktoren und Gesundheitszustand"
+    },
+    "importantNotesList": [
+      "Komplexe Kohlenhydrate werden im Allgemeinen gegenüber einfachen Zuckern bevorzugt",
+      "Sportler benötigen möglicherweise eine höhere Kohlenhydrataufnahme, um Leistung zu erbringen",
+      "Die individuelle Toleranz gegenüber Kohlenhydraten variiert",
+      "Berücksichtigen Sie bei der Berechnung der Nettokohlenhydrate den Ballaststoffgehalt"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Daten ein, um den Kohlenhydratbedarf zu berechnen",
+    "resultMessage": "Ihr täglicher Kohlenhydratbedarf ist unten aufgeführt",
+    "assessmentResult": "Ergebnis der Kohlenhydratberechnung:",
+    "carbAnalysis": "Kohlenhydratanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Kohlenhydrataufnahme basierend auf allgemeinen Ernährungsrichtlinien. Die individuellen Bedürfnisse können je nach Gesundheitszustand, Medikamenten und spezifischen Ernährungsbedürfnissen variieren."
+  },
+  "seekHelp": {
+    "title": "Ernährungsressourcen",
+    "content": "Für eine individuelle Ernährungsberatung und Ernährungsplanung wenden Sie sich an registrierte Ernährungsberater oder medizinisches Fachpersonal mit Fachkenntnissen in Ernährungswissenschaft und individuellen Gesundheitsbedürfnissen."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "activityLevel": "Bitte wählen Sie das Aktivitätsniveau aus",
+    "goal": "Bitte wählen Sie ein Ernährungsziel aus",
+    "dietType": "Bitte wählen Sie eine Diätart aus"
+  },
+  "tooltips": {
+    "age": "Das Alter beeinflusst die Stoffwechselrate und den Nährstoffbedarf",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "activityLevel": "Ihr regelmäßiges Aktivitätsniveau beeinflusst den Energiebedarf",
+    "goal": "Ihr Ernährungsziel bestimmt die Makronährstoffverteilung",
+    "dietType": "Der ausgewählte Ernährungstyp beeinflusst die Kohlenhydratempfehlungen"
+  },
+  "carbohydrate_calculation_0": "Kohlenhydratberechnung",
+  "enter_your_details_to_calculate_daily_carbohydrate_1": "Geben Sie Ihre Daten ein, um den täglichen Kohlenhydratbedarf zu berechnen",
+  "unit_system_2": "Einheitensystem",
+  "us_ftin_lbs_3": "US (ft/in, lbs)",
+  "metric_cm_kg_4": "Metrisch (cm, kg)",
+  "age_years_5": "Alter (Jahre)",
+  "gender_6": "Geschlecht",
+  "male_7": "Männlich",
+  "female_8": "Weiblich",
+  "height_9": "Höhe",
+  "ft_10": "ft",
+  "in_11": "In",
+  "height_cm_12": "Höhe (cm)",
+  "weight_13": "Gewicht (",
+  "activity_level_14": "Aktivitätsniveau",
+  "bmr_formula_15": "BMR-Formel",
+  "mifflinst_jeor_recommended_16": "Mifflin-St Jeor (empfohlen)",
+  "most_accurate_for_general_population_17": "Am genauesten für die allgemeine Bevölkerung",
+  "katchmcardle_18": "Katch-McArdle",
+  "more_accurate_if_body_fat_is_known_19": "Genauer, wenn der Körperfettanteil bekannt ist",
+  "body_fat_percentage_20": "Körperfettanteil (%)",
+  "calculate_21": "Berechnen",
+  "reset_22": "Zurücksetzen",
+  "daily_carbs_23": "Tägliche Kohlenhydrate",
+  "g_24": "g",
+  "g_per_kg_body_weight_25": "g pro kg Körpergewicht",
+  "enter_your_details_to_calculate_daily_carbohydrate_26": "Geben Sie Ihre Daten ein, um den täglichen Kohlenhydratbedarf zu berechnen.",
+  "your_carbohydrate_requirements_27": "Ihr Kohlenhydratbedarf",
+  "daily_carbohydrate_needs_28": "Täglicher Kohlenhydratbedarf",
+  "g_29": "g",
+  "target_carbs_30": "Ziel: Kohlenhydrate",
+  "gkg_31": "g/kg",
+  "per_body_weight_32": "Pro Körpergewicht",
+  "carb_calories_33": "Kohlenhydratkalorien",
+  "of_total_calories_34": "Der Gesamtkalorien",
+  "range_35": "Reichweite:",
+  "g_36": "G -",
+  "g_37": "g",
+  "per_day_38": "pro Tag",
+  "calculation_details_39": "Berechnungsdetails",
+  "metabolic_calculations_40": "Stoffwechselberechnungen",
+  "bmr_41": "BMR:",
+  "caloriesday_42": "Kalorien/Tag",
+  "tdee_43": "TDEE:",
+  "caloriesday_44": "Kalorien/Tag",
+  "activity_level_45": "Aktivitätsniveau:",
+  "formula_used_46": "Verwendete Formel:",
+  "carbohydrate_breakdown_47": "Kohlenhydratabbau",
+  "carb_calories_48": "Kohlenhydratkalorien:",
+  "of_tdee_49": "% von TDEE)",
+  "carb_grams_50": "Kohlenhydrate in Gramm:",
+  "g_4_calg_51": "g (÷4 cal/g)",
+  "per_kg_body_weight_52": "Pro kg Körpergewicht:",
+  "gkg_53": "g/kg",
+  "recommended_range_54": "Empfohlener Bereich:",
+  "g_55": "G -",
+  "g_56": "g",
+  "carbohydrate_guidelines_57": "Kohlenhydrat-Richtlinien",
+  "carbohydrate_recommendations_58": "Kohlenhydratempfehlungen",
+  "activity_level_59": "Aktivitätsniveau",
+  "of_calories_60": "% der Kalorien",
+  "gkg_body_weight_61": "g/kg Körpergewicht",
+  "sedentary_62": "Sitzend",
+  "k_4550_63": "45-50 %",
+  "k_35gkg_64": "3-5g/kg",
+  "light_activity_65": "Leichte Aktivität",
+  "k_5055_66": "50-55 %",
+  "k_57gkg_67": "5-7g/kg",
+  "moderate_activity_68": "Mäßige Aktivität",
+  "k_5560_69": "55-60 %",
+  "k_68gkg_70": "6-8g/kg",
+  "high_activity_71": "Hohe Aktivität",
+  "k_6070_72": "60-70 %",
+  "k_812gkg_73": "8-12g/kg",
+  "bmr_formulas_74": "BMR-Formeln",
+  "mifflinst_jeor_recommended_75": "Mifflin-St Jeor (empfohlen)",
+  "most_accurate_for_general_population_accounts_for__76": "Am genauesten für die Allgemeinbevölkerung, berücksichtigt geschlechtsspezifische Unterschiede",
+  "katchmcardle_77": "Katch-McArdle",
+  "more_accurate_when_body_fat_percentage_is_known_ba_78": "Genauer, wenn der Körperfettanteil bekannt ist, basierend auf der fettfreien Körpermasse",
+  "carbohydrate_types_79": "Kohlenhydratarten",
+  "complex_carbs_80": "Komplexe Kohlenhydrate:",
+  "whole_grains_vegetables_legumes_81": "Vollkornprodukte, Gemüse, Hülsenfrüchte",
+  "simple_carbs_82": "Einfache Kohlenhydrate:",
+  "fruits_dairy_refined_sugars_83": "Obst, Milchprodukte, raffinierter Zucker",
+  "fiber_84": "Faser:",
+  "k_2535g_daily_for_digestive_health_85": "25–35 g täglich für eine gesunde Verdauung",
+  "timing_86": "Timing:",
+  "prepost_workout_for_performance_87": "Vor/nach dem Training für mehr Leistung",
+  "activity_multipliers_88": "Aktivitätsmultiplikatoren",
+  "sedentary_89": "Sitzend:",
+  "k_12x_bmr_desk_job_no_exercise_90": "1,2x BMR (Schreibtischjob, keine Übung)",
+  "light_91": "Licht:",
+  "k_1375x_bmr_light_exercise_13week_92": "1,375x BMR (leichtes Training 1-3×/Woche)",
+  "moderate_93": "Mäßig:",
+  "k_155x_bmr_moderate_exercise_45week_94": "1,55x BMR (moderate körperliche Betätigung 4-5×/Woche)",
+  "active_95": "Aktiv:",
+  "k_1725x_bmr_heavy_exercise_daily_96": "1,725x BMR (schweres Training täglich)",
+  "very_active_97": "Sehr aktiv:",
+  "k_19x_bmr_very_heavy_exercise_98": "1,9x BMR (sehr schwere Übung)",
+  "extra_active_99": "Extra aktiv:",
+  "k_20x_bmr_physical_job_exercise_100": "2,0x BMR (körperliche Arbeit + Bewegung)"
+}

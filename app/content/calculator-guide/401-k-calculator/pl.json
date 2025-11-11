@@ -1,0 +1,75 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Zrozum swoje wyniki 401(k).",
+      "content": "Planowanie emerytury zaczyna się od przejrzystości. Nasz darmowy kalkulator 401(k) online pomoże Ci szybko oszacować, ile możesz mieć na emeryturze, biorąc pod uwagę składki, dopasowanie pracodawcy, odsetki składane i potencjalne wypłaty. Niezależnie od tego, czy dopiero zaczynasz, czy optymalizujesz swój istniejący plan, jest to jedno z najlepszych narzędzi kalkulatora 401(k) do prognozowania Twojej przyszłości finansowej."
+    },
+    {
+      "heading": "Co robi ten kalkulator 401(k).",
+      "content": "To narzędzie ma na celu udzielenie odpowiedzi na pytania związane z planowaniem emerytury w prawdziwym życiu. Wykracza poza proste oszacowanie oszczędności poprzez obliczenie:",
+      "subSections": [
+        {
+          "heading": "Cechy",
+          "content": "- Wzrost 401(k) przy dopasowaniu do pracodawcy (zarówno dopasowanie procentowe, jak i dolarowe).\n- Projekcje odsetek składanych rok po roku, aby zobaczyć, jak Twoje pieniądze rosną w czasie.\n- 401(k) kary za wcześniejsze wycofanie środków, jeśli środki zostaną pobrane przed ukończeniem 59½ roku życia.\n- Skutki podatkowe tradycyjne i Roth 401 (k), pomagające porównać opcje.\n- Oszczędności emerytalne skorygowane o inflację, dające realistyczny obraz przyszłej wartości."
+        }
+      ]
+    },
+    {
+      "heading": "Jak działa kalkulator 401(k).",
+      "content": "Oto krótki opis sposobu, w jaki narzędzie szacuje saldo 401(k):",
+      "subSections": [
+        {
+          "heading": "Kroki",
+          "content": "1. Podaj swoje dane – wynagrodzenie, stawkę składki, dopasowanie pracodawcy, aktualne saldo.\n2. Dodaj założenia – oczekiwaną stopę zwrotu, wiek emerytalny, stopę inflacji.\n3. Zastosuj wzrost składany – kalkulator prognozuje roczny wzrost składek plus zwroty.\n4. Rachunek podatkowy – porównuje składki tradycyjne 401(k) i Roth 401(k).\n5. Wyświetl wyniki – zobaczysz szacunkowe saldo emerytalne, składki pracodawcy i rozkład wzrostu."
+        }
+      ]
+    },
+    {
+      "heading": "Typowe przypadki użycia",
+      "content": "Ludzie używają tego kalkulatora z wielu powodów:",
+      "subSections": [
+        {
+          "heading": "Przykłady",
+          "content": "- Wzrost oszczędności: szybko oblicz oszczędności 401(k) online i zobacz, jak składki budują bogactwo.\n- Dopasowanie pracodawcy: użyj kalkulatora dopasowania pracodawcy 401(k, aby zmaksymalizować ilość darmowych pieniędzy od Twojej firmy.\n- Wczesne wypłaty: oszacuj kary i podatki za pomocą kalkulatora kar za wcześniejsze wycofanie 401 (k).\n- Roth kontra tradycyjny: porównaj wpływ na siebie za pomocą kalkulatora 401 (k vs Roth IRA).\n- Planowanie emerytury: Stwórz strategię, korzystając z naszego bezpłatnego kalkulatora projekcji 401(k z korektami inflacji."
+        }
+      ]
+    },
+    {
+      "heading": "Wskazówki i dalsze kroki",
+      "content": "Praktyczne strategie powiększania oszczędności emerytalnych i 401(k):",
+      "subSections": [
+        {
+          "heading": "Porady",
+          "content": "- Zmaksymalizuj dopasowanie pracodawcy - to w zasadzie darmowe pieniądze.\n- Stopniowo zwiększaj składki – nawet 1–2% więcej rocznie może się sumować.\n- Dywersyfikuj inwestycje – Zrównoważ ryzyko z potencjałem wzrostu.\n- Regularnie przeglądaj - Przelicz co najmniej raz w roku lub po poważnych zmianach życiowych.\n- Porównaj z innymi narzędziami - Wypróbuj kalkulator emerytalny z opcją 401(k) lub kalkulator finansów osobistych, aby uzyskać całościowy obraz."
+        }
+      ]
+    },
+    {
+      "heading": "Zastrzeżenie",
+      "content": "Ten darmowy kalkulator 401(k) przeznaczony jest wyłącznie do celów edukacyjnych. Wyniki mają charakter szacunkowy i nie należy ich traktować jako spersonalizowanej porady finansowej. Aby zaplanować emeryturę dostosowaną do Twojej sytuacji, skonsultuj się z licencjonowanym doradcą finansowym."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak działa kalkulator 401(k)?",
+      "a": "Kalkulator 401 (k) szacuje Twoje przyszłe saldo, łącząc Twoje składki, dopasowanie pracodawcy, łączny wzrost i podatki. Prognozuje oszczędności rok po roku aż do osiągnięcia wieku emerytalnego."
+    },
+    {
+      "q": "Ile powinienem wnieść do mojego 401(k)?",
+      "a": "Eksperci często zalecają wniesienie wkładu przynajmniej na tyle, aby uzyskać pełne dopasowanie pracodawcy. Wiele osób stara się przeznaczać 10–15% swoich dochodów, ale właściwa liczba zależy od wieku, wynagrodzenia i celów emerytalnych. Użyj tego kalkulatora, aby przetestować różne poziomy składek."
+    },
+    {
+      "q": "Czy mogę obliczyć wzrost 401(k) przy inflacji?",
+      "a": "Tak. Nasz kalkulator umożliwia uwzględnienie prognozy skorygowanej o inflację, dzięki czemu możesz zobaczyć rzeczywistą siłę nabywczą swoich oszczędności na emeryturze."
+    },
+    {
+      "q": "Jaka jest różnica między tradycyjnym a Roth 401(k)?",
+      "a": "Tradycyjny 401 (k): Składki są przed opodatkowaniem, ale wypłaty są opodatkowane. Roth 401(k): Składki są po opodatkowaniu, ale wypłaty na emeryturze są wolne od podatku. Nasze narzędzie obejmuje jedno i drugie, pełniąc dla porównania funkcję kalkulatora oszczędności podatkowych 401(k)."
+    },
+    {
+      "q": "Jak dokładne są kalkulatory 401(k)?",
+      "a": "Podają szacunki, a nie gwarancje. Rzeczywiste wyniki zależą od zwrotu z inwestycji, inflacji, polityki pracodawcy i zmian w prawie podatkowym (takich jak Secure Act 2.0). Użyj go jako przewodnika po planowaniu, a nie prognozy."
+    }
+  ]
+}

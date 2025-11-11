@@ -1,0 +1,216 @@
+{
+  "pageTitle": "Konwerter pomiarów gotowania",
+  "pageDescription": "Konwertuj różne pomiary gotowania, w tym objętość, wagę i temperaturę, na potrzeby przepisów i zastosowań kulinarnych",
+  "form": {
+    "labels": {
+      "inputUnit": "Jednostka wejściowa",
+      "outputUnit": "Jednostka wyjściowa",
+      "amount": "Kwota",
+      "measurementType": "Typ pomiaru",
+      "ingredient": "Składnik (do przeliczenia masy)"
+    },
+    "placeholders": {
+      "amount": "Wprowadź kwotę do przeliczenia"
+    },
+    "buttons": {
+      "convert": "Konwertuj pomiar",
+      "reset": "Nastawić",
+      "calculate": "Oblicz konwerter pomiarów gotowania"
+    },
+    "measurementTypes": {
+      "volume": "Tom",
+      "weight": "Waga",
+      "temperature": "Temperatura"
+    },
+    "volumeUnits": {
+      "teaspoons": "Łyżeczki (łyżeczka)",
+      "tablespoons": "Łyżki (łyżkowe)",
+      "fluidOunces": "Uncje płynu (fl oz)",
+      "cups": "Stan nietrzeźwy",
+      "pints": "Kufle",
+      "quarts": "kwarty",
+      "gallons": "Galony",
+      "milliliters": "Mililitry (ml)",
+      "liters": "Litry (L)"
+    },
+    "weightUnits": {
+      "ounces": "Uncje (oz)",
+      "pounds": "Funty (funty)",
+      "grams": "gramy (g)",
+      "kilograms": "Kilogramy (kg)"
+    },
+    "temperatureUnits": {
+      "fahrenheit": "Fahrenheita (°F)",
+      "celsius": "Celsjusza (°C)",
+      "kelvin": "Kelwin (K)"
+    },
+    "ingredients": {
+      "water": "Woda",
+      "flour": "Mąka uniwersalna",
+      "sugar": "Granulowany cukier",
+      "butter": "Masło",
+      "oil": "Olej roślinny",
+      "milk": "Mleko",
+      "custom": "Gęstość niestandardowa"
+    }
+  },
+  "results": {
+    "convertedAmount": "Przeliczona kwota",
+    "conversionResult": "Wynik konwersji",
+    "cookingResultsTitle": "Wyniki konwersji pomiarów",
+    "equivalentMeasurements": "Pomiary równoważne"
+  },
+  "educational": {
+    "cookingInfo": "Informacje o pomiarach gotowania",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby kulinarne",
+    "measurementFacts": {
+      "volume": {
+        "title": "Konwersje głośności",
+        "description": "1 filiżanka = 16 łyżek = 48 łyżeczek = 8 uncji = 240 ml"
+      },
+      "weight": {
+        "title": "Konwersje wagi",
+        "description": "1 funt = 16 uncji = 453,6 g, 1 uncja = 28,35 g"
+      },
+      "temperature": {
+        "title": "Konwersje temperatur",
+        "description": "°F = (°C × 9/5) + 32, °C = (°F - 32) × 5/9"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten umożliwia wyłącznie przeliczanie miar",
+      "accuracy": "Pomiary masy są dokładniejsze niż objętość suchych składników"
+    },
+    "importantNotesList": [
+      "Pomiary masy są na ogół dokładniejsze niż objętość w przypadku suchych składników",
+      "Gęstość składnika wpływa na konwersję objętości na wagę",
+      "Podczas pieczenia należy wziąć pod uwagę wysokość nad poziomem morza i wilgotność",
+      "Aby uzyskać najlepsze wyniki, użyj odpowiednich narzędzi pomiarowych"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź pomiar gotowania, aby przeliczyć",
+    "resultMessage": "Poniżej pokazano przeliczony pomiar gotowania",
+    "assessmentResult": "Wynik konwersji:",
+    "cookingAnalysis": "Analiza pomiarów gotowania"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia przeliczenie pomiarów gotowania w oparciu o standardowe odpowiedniki. Rzeczywiste masy mogą się różnić w zależności od gęstości składników, opakowania i techniki pomiaru."
+  },
+  "seekHelp": {
+    "title": "Zasoby kulinarne",
+    "content": "Aby uzyskać profesjonalne porady kulinarne i opracować przepisy, skonsultuj się z profesjonalistami kulinarnymi lub skorzystaj ze specjalistycznych zasobów i książek kucharskich, aby poznać precyzyjne techniki."
+  },
+  "errors": {
+    "amount": "Proszę wprowadzić prawidłową kwotę",
+    "inputUnit": "Wybierz jednostkę wejściową",
+    "outputUnit": "Proszę wybrać jednostkę wyjściową",
+    "measurementType": "Proszę wybrać rodzaj pomiaru",
+    "ingredient": "Proszę wybrać składnik"
+  },
+  "tooltips": {
+    "inputUnit": "Jednostka miary, z której dokonujesz konwersji",
+    "outputUnit": "Jednostka miary, na którą dokonujesz konwersji",
+    "amount": "Kwota, którą chcesz przeliczyć",
+    "measurementType": "Rodzaj pomiaru (objętość, waga lub temperatura)",
+    "ingredient": "Rodzaj składnika wpływa na konwersję wagi"
+  },
+  "ingredient_measurements_0": "Pomiary składników",
+  "select_an_ingredient_and_enter_either_weight_or_vo_1": "Wybierz składnik i wprowadź wagę LUB objętość, aby przeliczyć miary",
+  "select_ingredient_2": "Wybierz Składnik",
+  "density_3": "Gęstość",
+  "kgm_4": "kg/m3",
+  "gcm_5": "g/cm3",
+  "gml_6": "g/ml",
+  "lbft_7": "funt/ft3",
+  "weight_optional_8": "Waga (opcjonalnie)",
+  "g_9": "g",
+  "dag_10": "dag",
+  "kg_11": "kg",
+  "oz_12": "uncja",
+  "lb_13": "funty",
+  "volume_optional_14": "Głośność (opcjonalnie)",
+  "ml_15": "ml",
+  "l_16": "L",
+  "cups_17": "stan nietrzeźwy",
+  "tbsp_18": "łyżka",
+  "tsp_19": "łyżeczka",
+  "fl_oz_20": "uncja",
+  "convert_21": "Konwertować",
+  "reset_22": "Nastawić",
+  "results_23": "Wyniki",
+  "ingredient_24": "Składnik",
+  "density_25": "Gęstość:",
+  "kgm_26": "kg/m3",
+  "input_weight_27": "Waga wejściowa",
+  "kg_28": "kg",
+  "equivalent_volume_29": "Równoważna objętość",
+  "all_volume_conversions_30": "Wszystkie konwersje głośności",
+  "ml_31": "ml",
+  "l_32": "L",
+  "cups_33": "stan nietrzeźwy",
+  "tbsp_34": "łyżka",
+  "tsp_35": "łyżeczka",
+  "fl_oz_36": "uncja",
+  "input_volume_37": "Głośność wejściowa",
+  "m_38": "m³",
+  "equivalent_weight_39": "Równoważna waga",
+  "all_weight_conversions_40": "Wszystkie konwersje wagi",
+  "g_41": "g",
+  "dag_42": "dag",
+  "kg_43": "kg",
+  "oz_44": "uncja",
+  "lb_45": "funty",
+  "formula_used_46": "Zastosowana formuła",
+  "volume_weight_density_47": "Objętość = waga ÷ gęstość",
+  "v_48": "V =",
+  "kg_49": "kg ÷",
+  "kgm_50": "kg/m3 =",
+  "m_51": "m³",
+  "weight_volume_density_52": "Waga = objętość × gęstość",
+  "w_53": "W =",
+  "m_54": "m³ ×",
+  "kgm_55": "kg/m3 =",
+  "kg_56": "kg",
+  "select_an_ingredient_and_enter_either_57": "Wybierz składnik i wprowadź któryś z nich",
+  "weight_or_volume_58": "waga LUB objętość",
+  "to_see_conversion_results_59": "aby zobaczyć nawrócenie\n                          wyniki.",
+  "understanding_cooking_measurement_conversion_60": "Zrozumienie konwersji miar gotowania",
+  "core_formulas_61": "Podstawowe formuły",
+  "weight_to_volume_62": "Waga do objętości:",
+  "volume_weight_density_63": "Objętość = waga ÷ gęstość",
+  "volume_to_weight_64": "Objętość do wagi:",
+  "weight_volume_density_65": "Waga = objętość × gęstość",
+  "density_66": "Gęstość:",
+  "mass_per_unit_volume_kgm_67": "Masa na jednostkę objętości (kg/m3)",
+  "common_ingredient_densities_68": "Typowe gęstości składników",
+  "water_69": "Woda:",
+  "k_1000_kgm_70": "1000 kg/m3",
+  "flour_71": "Mąka:",
+  "k_593_kgm_72": "593 kg/m3",
+  "sugar_73": "Cukier:",
+  "k_845_kgm_74": "845 kg/m3",
+  "salt_75": "Sól:",
+  "k_1217_kgm_76": "1217 kg/m3",
+  "milk_77": "Mleko:",
+  "k_1030_kgm_78": "1030 kg/m3",
+  "oil_79": "Olej:",
+  "k_920_kgm_80": "920 kg/m3",
+  "honey_81": "Miód:",
+  "k_1420_kgm_82": "1420 kg/m3",
+  "butter_83": "Masło:",
+  "k_911_kgm_84": "911 kg/m3",
+  "practical_applications_85": "Praktyczne zastosowania",
+  "recipe_scaling_86": "Skalowanie receptury:",
+  "convert_between_weight_and_volume_measurements_whe_87": "Konwertuj pomiary masy i objętości podczas skalowania\n                        przepisy",
+  "international_recipes_88": "Przepisy międzynarodowe:",
+  "convert_between_metric_and_us_customary_units_89": "Konwersja między jednostkami metrycznymi i zwyczajowymi w USA",
+  "precision_baking_90": "Precyzyjne pieczenie:",
+  "use_weight_measurements_for_more_accurate_results_91": "Aby uzyskać dokładniejsze wyniki, użyj pomiarów masy ciała",
+  "ingredient_substitution_92": "Substytucja składnika:",
+  "calculate_amounts_when_substituting_ingredients_93": "Oblicz kwoty podczas podstawienia\n                        składniki"
+}

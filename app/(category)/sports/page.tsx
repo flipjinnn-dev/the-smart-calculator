@@ -1,80 +1,81 @@
-import type { Metadata } from "next"
+"use client"
 import Script from "next/script"
 import Link from "next/link"
-import { ArrowLeft, GraduationCap, Calculator, Bike, } from "lucide-react"
+import { useState, useEffect } from "react"
+import { ArrowLeft, Calculator, Bike } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import Logo from "@/components/logo"
 import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
+import { useCategoryContent } from "@/hooks/useCategoryContent"
 
-export const metadata: Metadata = {
-  title: "Sports Calculators - Smart Calculator",
-  description:
-    "Free sports calculators including BMI, calorie burn, and training pace tools. Make informed fitness decisions.",
-  keywords: "sports calculator, BMI calculator, calorie burn calculator, training pace calculator",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/sports",
-  },
+// Define fallback content
+const fallbackContent = {
+  name: "Sports",
+  description: "Free sports calculators for fitness, exercise, performance tracking, and sports statistics. Train and compete better.",
+  slug: "sports"
 }
 
-// Get calculators dynamically
-const sportsCalculators = getCalculatorsByCategory("sports")
-const popularSportsCalculators = getPopularCalculatorsByCategory("sports")
+export default function SportsCategoryPage() {
+  // Detect language from URL path or headers
+  const [language, setLanguage] = useState("en");
+  
+  useEffect(() => {
+    // First try to get language from headers (set by middleware)
+    const headerLanguage = document.head.querySelector('meta[name="x-language"]')?.getAttribute('content');
+    if (headerLanguage) {
+      setLanguage(headerLanguage);
+      return;
+    }
+    
+    // Fallback to URL path detection
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/(br|pl|de)/);
+    const detectedLanguage = langMatch ? langMatch[1] : "en";
+    setLanguage(detectedLanguage);
+  }, []);
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "Sports Calculators",
-  description: "Free sports calculators for BMI, calorie burn, and training pace",
-  url: "https://www.thesmartcalculator.com/sports",
-  mainEntity: {
-    "@type": "ItemList",
-    itemListElement: sportsCalculators.map((calc, index) => ({
-      "@type": "SoftwareApplication",
-      position: index + 1,
-      name: calc.name,
-      description: calc.description,
-      url: `https://www.thesmartcalculator.com${calc.href}`,
-      applicationCategory: "FinanceApplication",
-    })),
-  },
-}
+  const { content, loading, error } = useCategoryContent("sports", language);
+  
+  // Use content or fallback to defaults
+  const contentData = content || fallbackContent;
 
-export default function EducationCategoryPage() {
+  // Show loading state
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+  }
+
+  // Show error if content failed to load
+  if (error) {
+    return <div className="min-h-screen flex items-center justify-center">Error loading content: {error}</div>;
+  }
+
+  const sportsCalculators = getCalculatorsByCategory("sports", language)
+  const popularSportsCalculators = getPopularCalculatorsByCategory("sports", language)
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: contentData.name,
+    description: contentData.description,
+    url: `https://www.thesmartcalculator.com/${contentData.slug}`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: sportsCalculators.map((calc, index) => ({
+        "@type": "SoftwareApplication",
+        position: index + 1,
+        name: calc.name,
+        description: calc.description,
+        url: `https://www.thesmartcalculator.com${calc.href}`,
+        applicationCategory: "SoftwareApplication",
+      })),
+    },
+  }
+
   return (
     <>
       <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-blue-800 transition-colors">
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-600">Sports Calculators</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        {/* Breadcrumb */}
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-3 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-gray-700">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Sports Calculators</span>
-            </div>
-          </div>
-        </nav>
 
         {/* Hero section with orange-amber theme and education-specific content */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
@@ -84,10 +85,9 @@ export default function EducationCategoryPage() {
                 <Bike className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Sports Calculators</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{contentData.name}</h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Make informed sports decisions with our comprehensive collection of calculators. From BMI
-              calculations and calorie burn estimations to training pace analysis.
+              {contentData.description}
             </p>
             <Link href="/">
               <Button variant="outline" className="mb-8 bg-transparent cursor-pointer">
@@ -125,7 +125,7 @@ export default function EducationCategoryPage() {
         {/* All calculators section with orange theme */}
         <section className="py-8 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-white">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">All Sports Calculators</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">All {contentData.name} Calculators</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in">
               {sportsCalculators.map((calc, index) => (
                 <Link key={calc.id} href={calc.href}>

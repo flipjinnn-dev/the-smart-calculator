@@ -1,0 +1,154 @@
+{
+  "pageTitle": "Kreditkartenrechner",
+  "pageDescription": "Berechnen Sie Ihre Kreditkartenzahlungen, Zinsgebühren und den Tilgungszeitraum, um Schulden zu verwalten und Rückzahlungsstrategien zu planen",
+  "form": {
+    "labels": {
+      "balance": "Aktueller Kontostand",
+      "interestRate": "Jährlicher Zinssatz (APR)",
+      "monthlyPayment": "Monatliche Zahlung",
+      "minimumPayment": "Mindestzahlungsprozentsatz",
+      "extraPayment": "Zusätzliche monatliche Zahlung",
+      "paymentStrategy": "Zahlungsstrategie"
+    },
+    "placeholders": {
+      "balance": "Geben Sie den aktuellen Kreditkartensaldo ein",
+      "interestRate": "Geben Sie den jährlichen Zinssatz (%) ein.",
+      "monthlyPayment": "Geben Sie den monatlichen Zahlungsbetrag ein",
+      "minimumPayment": "Geben Sie den Mindestzahlungsprozentsatz (%) ein.",
+      "extraPayment": "Geben Sie eine zusätzliche monatliche Zahlung ein (optional)"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie Kreditkartenzahlungen",
+      "reset": "Zurücksetzen"
+    },
+    "paymentStrategies": {
+      "fixed": "Feste monatliche Zahlung",
+      "minimum": "Nur Mindestzahlung",
+      "minimumPlus": "Mindestzuschlag plus Zuzahlung"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Monatliche Zahlung",
+    "totalInterest": "Gezahlte Gesamtzinsen",
+    "totalPayment": "Gesamtzahlung",
+    "payoffTime": "Zeit zur Auszahlung",
+    "interestSavings": "Zinsersparnis durch zusätzliche Zahlungen",
+    "creditCardResultsTitle": "Ergebnisse der Kreditkartenberechnung"
+  },
+  "educational": {
+    "creditCardInfo": "Kreditkarteninformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "creditCardFacts": {
+      "interest": {
+        "title": "Kreditkartenzinsen",
+        "description": "Für unbezahlte Beträge und Zinseszinsen werden täglich Zinsen berechnet"
+      },
+      "minimumPayments": {
+        "title": "Mindestzahlungen",
+        "description": "Die Zahlung nur des Mindestbetrags verlängert die Auszahlungszeit und erhöht den Gesamtzins"
+      },
+      "debtReduction": {
+        "title": "Strategien zur Schuldenreduzierung",
+        "description": "Wenn Sie mehr als den Mindestbetrag zahlen, reduzieren sich die Auszahlungszeit und die Zinsen erheblich"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen für Kreditkartenzahlungen",
+      "actual": "Die tatsächlichen Kontobedingungen können je nach Richtlinien und Gebühren des Kartenausstellers variieren"
+    },
+    "importantNotesList": [
+      "Die Kreditkartenzinsen erhöhen sich täglich, wodurch die Schulden schnell wachsen",
+      "Es kann Jahre dauern, bis sich die Zahlung nur des Mindestbetrags amortisiert, und es kann Hunderte von Zinsen kosten",
+      "Zusätzliche Zahlungen reduzieren direkt den Kapitalbetrag und sparen Zinsen",
+      "Erwägen Sie Angebote zur Saldoübertragung für eine hochverzinsliche Schuldenkonsolidierung"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Kreditkarteninformationen ein, um den Auszahlungszeitraum zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Kreditkartenberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Kreditkartenberechnung:",
+    "creditCardAnalysis": "Kreditkartenanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen für Kreditkartenzahlungen auf der Grundlage standardmäßiger Finanzformeln. Die tatsächlichen Kontobedingungen, Zahlungen und Zinsen können je nach Richtlinien des Kartenausstellers, Gebühren und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für individuelle Ratschläge zum Schuldenmanagement und Rückzahlungsstrategien wenden Sie sich an Kreditberater oder Finanzberater mit Erfahrung in der Schuldenreduzierung und individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "balance": "Bitte geben Sie ein gültiges Kreditkartenguthaben ein",
+    "interestRate": "Bitte geben Sie einen gültigen Jahreszinssatz ein",
+    "monthlyPayment": "Bitte geben Sie einen gültigen monatlichen Zahlungsbetrag ein",
+    "minimumPayment": "Bitte geben Sie einen gültigen Mindestzahlungsprozentsatz ein",
+    "extraPayment": "Bitte geben Sie einen gültigen Zuzahlungsbetrag ein",
+    "paymentStrategy": "Bitte wählen Sie eine Zahlungsstrategie aus"
+  },
+  "tooltips": {
+    "balance": "Aktueller ausstehender Saldo auf Ihrer Kreditkarte",
+    "interestRate": "Für unbezahlte Beträge wird ein effektiver Jahreszins (APR) erhoben",
+    "monthlyPayment": "Betrag, den Sie jeden Monat zahlen möchten",
+    "minimumPayment": "Prozentsatz des Saldos, der die Mindestzahlung darstellt",
+    "extraPayment": "Zusätzlicher Betrag, der jeden Monat an den Auftraggeber gezahlt wird",
+    "paymentStrategy": "Methode zur Bestimmung des monatlichen Zahlungsbetrags"
+  },
+  "credit_card_calculator_0": "Kreditkartenrechner",
+  "credit_card_information_1": "Kreditkarteninformationen",
+  "current_balance_2": "Aktueller Kontostand",
+  "annual_interest_rate_apr_3": "Jährlicher Zinssatz (APR)",
+  "payment_strategy_4": "Zahlungsstrategie",
+  "fixed_monthly_payment_calculate_time_5": "Feste monatliche Zahlung (Zeit berechnen)",
+  "payoff_in_fixed_timeframe_calculate_payment_6": "Auszahlung in festem Zeitrahmen (Zahlung berechnen)",
+  "minimum_payment_interest_of_balance_7": "Mindestzahlung (Zinsen + % des Restbetrags)",
+  "monthly_payment_amount_8": "Monatlicher Zahlungsbetrag",
+  "years_9": "Jahre",
+  "months_10": "Monate",
+  "principal_payment_of_balance_11": "Hauptzahlung (% des Restbetrags)",
+  "k_1_12": "1 %",
+  "k_2_13": "2 %",
+  "k_3_14": "3 %",
+  "k_4_15": "4 %",
+  "k_5_16": "5 %",
+  "calculate_17": "Berechnen",
+  "payoff_results_18": "Auszahlungsergebnisse",
+  "your_debt_payoff_breakdown_19": "Aufschlüsselung Ihrer Schuldentilgung",
+  "your_balance_will_be_paid_off_in_20": "Ihr Restbetrag wird ausgezahlt in:",
+  "years_21": "Jahre",
+  "months_22": "Monate",
+  "required_monthly_payment_23": "Erforderliche monatliche Zahlung:",
+  "total_interest_paid_24": "Gezahlte Gesamtzinsen",
+  "total_amount_paid_25": "Gezahlter Gesamtbetrag",
+  "payment_schedule_26": "Zahlungsplan",
+  "download_csv_27": "CSV herunterladen",
+  "month_28": "Monat",
+  "balance_29": "Gleichgewicht",
+  "interest_30": "Interesse",
+  "payment_31": "Zahlung",
+  "principal_32": "Rektor",
+  "showing_first_24_months_download_csv_for_complete__33": "Zeigt die ersten 24 Monate. Laden Sie CSV für den vollständigen Zeitplan herunter.",
+  "enter_your_credit_card_information_to_see_payoff_r_34": "Geben Sie Ihre Kreditkarteninformationen ein, um die Auszahlungsergebnisse anzuzeigen",
+  "formulas_behind_the_calculation_35": "Formeln hinter der Berechnung",
+  "monthly_interest_rate_36": "Monatlicher Zinssatz",
+  "monthly_rate_annual_rate_12_37": "Monatsrate = Jahresrate ÷ 12",
+  "balance_recurrence_38": "Balance-Wiederholung",
+  "new_balance_previous_balance_1_monthly_rate_paymen_39": "Neues Guthaben = Vorheriges Guthaben × (1 + Monatsrate) – Zahlung",
+  "fixed_payment_payoff_time_40": "Feste Zahlung: Auszahlungszeit",
+  "n_lnp_p_b_r_ln1_r_41": "n = ln(P / (P - B₀ × r)) ÷ ln(1 + r)",
+  "fixed_timeframe_required_payment_42": "Fester Zeitrahmen: Erforderliche Zahlung",
+  "p_b_r_1r_1r_1_43": "P = B₀ × r × (1+r)ⁿ ÷ ((1+r)ⁿ - 1)",
+  "example_scenarios_44": "Beispielszenarien",
+  "scenario_1_aggressive_payoff_45": "Szenario 1: Aggressive Auszahlung",
+  "balance_5000_46": "• Restbetrag: 5.000 $",
+  "apr_1899_47": "• effektiver Jahreszins: 18,99 %",
+  "payment_300month_48": "• Zahlung: 300 $/Monat",
+  "result_19_months_850_interest_49": "• Ergebnis: ~19 Monate, 850 $ Zinsen",
+  "scenario_2_minimum_payment_50": "Szenario 2: Mindestzahlung",
+  "balance_5000_51": "• Restbetrag: 5.000 $",
+  "apr_1899_52": "• effektiver Jahreszins: 18,99 %",
+  "payment_2_of_balance_53": "• Zahlung: 2 % des Restbetrags",
+  "result_30_years_15000_interest_54": "• Ergebnis: ~30+ Jahre, 15.000$+ Zinsen"
+}

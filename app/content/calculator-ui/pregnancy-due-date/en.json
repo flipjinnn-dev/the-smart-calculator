@@ -1,0 +1,80 @@
+{
+  "pageTitle": "Pregnancy Due Date Calculator",
+  "pageDescription": "Calculate pregnancy due date with our free online calculator",
+  "form": {
+    "labels": {
+      "input1": "Input 1",
+      "input2": "Input 2",
+      "input3": "Input 3"
+    },
+    "placeholders": {
+      "input1": "Enter first value",
+      "input2": "Enter second value",
+      "input3": "Enter third value"
+    },
+    "buttons": {
+      "calculate": "Calculate Pregnancy Due Date",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "result1": "Result 1",
+    "result2": "Result 2",
+    "calculationDetails": "Pregnancy Due Date Calculation Results"
+  },
+  "educational": {
+    "info": "Pregnancy Due Date Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "Pregnancy Due Date Definition",
+        "description": "Information about pregnancy due date"
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How pregnancy due date is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of pregnancy due date"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides pregnancy due date estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate pregnancy due date",
+    "resultMessage": "Your pregnancy due date calculation results are shown below",
+    "assessmentResult": "Pregnancy Due Date Calculation Result:",
+    "analysis": "Pregnancy Due Date Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides pregnancy due date estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  }
+}

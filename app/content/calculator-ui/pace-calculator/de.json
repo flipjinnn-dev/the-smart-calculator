@@ -1,0 +1,148 @@
+{
+  "pageTitle": "Temporechner",
+  "pageDescription": "Berechnen Sie das Tempo mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Tempo berechnen",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Tempoberechnung"
+  },
+  "educational": {
+    "info": "Tempoinformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Tempodefinition",
+        "description": "Informationen zum Tempo"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "Wie das Tempo berechnet wird"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendung von Tempo"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Geschwindigkeitsschätzungen",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um das Tempo zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Tempoberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Tempoberechnung:",
+    "analysis": "Tempoanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Geschwindigkeitsschätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "pace_calculation_0": "Tempoberechnung",
+  "enter_time_and_distance_to_calculate_your_running__1": "Geben Sie Zeit und Distanz ein, um Ihr Lauftempo zu berechnen",
+  "time_hhmmss_or_flexible_format_2": "Zeit (hh:mm:ss oder flexibles Format)",
+  "examples_530_2545_13000_3": "Beispiele: 5:30, 25:45, 1:30:00",
+  "distance_4": "Distanz",
+  "miles_5": "Meilen",
+  "km_6": "km",
+  "meters_7": "Meter",
+  "yards_8": "Yards",
+  "race_presets_optional_9": "Rennvoreinstellungen (optional)",
+  "output_format_10": "Ausgabeformat",
+  "pace_minmile_11": "Tempo (Minuten/Meile)",
+  "pace_minkm_12": "Tempo (min/km)",
+  "speed_mph_13": "Geschwindigkeit (mph)",
+  "speed_kmh_14": "Geschwindigkeit (km/h)",
+  "calculate_15": "Berechnen",
+  "reset_16": "Zurücksetzen",
+  "your_pace_17": "Dein Tempo",
+  "enter_your_time_and_distance_to_calculate_your_run_18": "Geben Sie Ihre Zeit und Distanz ein, um Ihr Lauftempo zu berechnen.",
+  "your_running_results_19": "Ihre Laufergebnisse",
+  "primary_result_20": "Primäres Ergebnis",
+  "all_formats_21": "Alle Formate",
+  "calculation_details_22": "Berechnungsdetails",
+  "input_summary_23": "Eingabezusammenfassung",
+  "time_24": "Zeit:",
+  "distance_25": "Distanz:",
+  "conversions_26": "Konvertierungen",
+  "distance_27": "Distanz:",
+  "miles_28": "Meilen",
+  "distance_29": "Distanz:",
+  "km_30": "km",
+  "understanding_running_pace_31": "Lauftempo verstehen",
+  "pace_vs_speed_32": "Tempo vs. Geschwindigkeit",
+  "pace_33": "Tempo:",
+  "time_per_unit_distance_minmile_minkm_34": "Zeit pro Distanzeinheit (Minuten/Meile, Minuten/km)",
+  "speed_35": "Geschwindigkeit:",
+  "distance_per_unit_time_mph_kmh_36": "Distanz pro Zeiteinheit (mph, km/h)",
+  "faster_pace_lower_time_per_mile_37": "Schnelleres Tempo = geringere Zeit pro Meile",
+  "higher_speed_more_distance_per_hour_38": "Höhere Geschwindigkeit = mehr Distanz pro Stunde",
+  "example_calculation_39": "Beispielrechnung",
+  "k_5k_in_2500_40": "5 km um 25:00 Uhr",
+  "distance_5_km_311_miles_41": "Entfernung: 5 km = 3,11 Meilen",
+  "pace_2500_5_42": "Tempo: 25:00 ÷ 5 =",
+  "k_500_minkm_43": "5:00 Min./km",
+  "pace_2500_311_44": "Tempo: 25:00 ÷ 3,11 =",
+  "k_802_minmile_45": "8:02 Min./Meile",
+  "speed_46": "Geschwindigkeit:",
+  "k_75_mph_47": "7,5 Meilen pro Stunde",
+  "or_48": "oder",
+  "k_12_kmh_49": "12 km/h",
+  "training_zones_50": "Trainingszonen",
+  "easy_run_51": "Einfacher Lauf:",
+  "k_12_minmile_slower_than_5k_pace_52": "1-2 Minuten/Meile langsamer als 5-km-Tempo",
+  "tempo_53": "Tempo:",
+  "k_1530_secmile_slower_than_5k_pace_54": "15-30 Sek./Meile langsamer als 5-km-Tempo",
+  "interval_55": "Intervall:",
+  "k_5k_pace_or_faster_56": "5-km-Tempo oder schneller",
+  "long_run_57": "Langfristig:",
+  "k_3090_secmile_slower_than_5k_pace_58": "30-90 Sek./Meile langsamer als 5-km-Tempo",
+  "common_race_paces_59": "Gemeinsame Rassengeschwindigkeiten",
+  "k_5k_60": "5K:",
+  "k_6001000_minmile_recreational_61": "6:00–10:00 Min./Meile (Freizeit)",
+  "k_10k_62": "10 km:",
+  "k_6301030_minmile_63": "6:30-10:30 Min./Meile",
+  "half_marathon_64": "Halbmarathon:",
+  "k_7001100_minmile_65": "7:00-11:00 Min./Meile",
+  "marathon_66": "Marathon:",
+  "k_7301200_minmile_67": "7:30-12:00 Min./Meile"
+}

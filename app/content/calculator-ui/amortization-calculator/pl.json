@@ -1,0 +1,151 @@
+{
+  "pageTitle": "Kalkulator amortyzacji",
+  "pageDescription": "Generuj szczegółowe harmonogramy amortyzacji pożyczek z podziałem kwoty głównej i odsetek na każdy okres płatności, aby zrozumieć postęp spłaty pożyczki",
+  "form": {
+    "labels": {
+      "loanAmount": "Kwota pożyczki",
+      "interestRate": "Roczna stopa procentowa",
+      "loanTerm": "Okres pożyczki",
+      "loanTermUnit": "Jednostka Okresu Kredytu",
+      "startDate": "Data rozpoczęcia pożyczki",
+      "extraPayment": "Dodatkowa płatność miesięczna",
+      "paymentFrequency": "Częstotliwość płatności"
+    },
+    "placeholders": {
+      "loanAmount": "Wprowadź kwotę pożyczki",
+      "interestRate": "Wprowadź roczną stopę procentową (%)",
+      "loanTerm": "Wprowadź okres pożyczki",
+      "extraPayment": "Wprowadź dodatkową miesięczną opłatę (opcjonalnie)"
+    },
+    "buttons": {
+      "calculate": "Wygeneruj harmonogram amortyzacji",
+      "reset": "Nastawić"
+    },
+    "loanTermUnits": {
+      "years": "Lata",
+      "months": "Miesiące"
+    },
+    "paymentFrequencies": {
+      "monthly": "Miesięczny",
+      "biweekly": "Dwutygodniowy",
+      "weekly": "Tygodnik"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Płatność miesięczna",
+    "totalInterest": "Całkowite zapłacone odsetki",
+    "totalPayment": "Całkowita płatność",
+    "payoffDate": "Data spłaty pożyczki",
+    "interestSavings": "Oszczędności odsetkowe dzięki dodatkowym płatnościom",
+    "amortizationResultsTitle": "Wyniki obliczeń amortyzacji"
+  },
+  "educational": {
+    "amortizationInfo": "Informacje o amortyzacji",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "amortizationFacts": {
+      "definition": {
+        "title": "Definicja amortyzacji",
+        "description": "Proces spłaty pożyczki z regularnymi spłatami w czasie, z odsetkami naliczanymi od pozostałego salda"
+      },
+      "schedule": {
+        "title": "Harmonogram amortyzacji",
+        "description": "Szczegółowa tabela przedstawiająca część główną i odsetkową każdej płatności w okresie kredytowania"
+      },
+      "earlyPayments": {
+        "title": "Wpływ wcześniejszej płatności",
+        "description": "Wcześniejsze płatności obejmują głównie odsetki; późniejsze płatności to głównie kwota główna"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki harmonogramu amortyzacji",
+      "actual": "Rzeczywiste warunki pożyczki mogą się różnić w zależności od zasad i opłat pożyczkodawcy"
+    },
+    "importantNotesList": [
+      "Dodatkowe płatności bezpośrednio zmniejszają kapitał i oszczędzają na całkowitych odsetkach",
+      "Płatności dwutygodniowe mogą pomóc w szybszej spłacie pożyczek",
+      "Na początku okresu pożyczki większość płatności idzie na odsetki, a nie na kwotę główną",
+      "Harmonogramy amortyzacji pomagają zaplanować budżet i zrozumieć postęp pożyczki"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje o pożyczce, aby wygenerować harmonogram amortyzacji",
+    "resultMessage": "Wyniki obliczeń amortyzacji pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia amortyzacji:",
+    "amortizationAnalysis": "Analiza amortyzacji"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki harmonogramu amortyzacji w oparciu o standardowe formuły finansowe. Rzeczywiste warunki pożyczki, płatności i odsetki mogą się różnić w zależności od polityki pożyczkodawcy, opłat i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowane porady dotyczące pożyczek i analizę amortyzacji, skonsultuj się z doradcami finansowymi lub specjalistami ds. pożyczek posiadającymi wiedzę na temat produktów kredytowych i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "loanAmount": "Proszę wprowadzić prawidłową kwotę pożyczki",
+    "interestRate": "Proszę wprowadzić prawidłową roczną stopę procentową",
+    "loanTerm": "Proszę wprowadzić prawidłowy okres pożyczki",
+    "startDate": "Proszę podać prawidłową datę rozpoczęcia pożyczki",
+    "extraPayment": "Proszę wprowadzić prawidłową kwotę dodatkowej płatności",
+    "loanTermUnit": "Proszę wybrać jednostkę okresu kredytu",
+    "paymentFrequency": "Proszę wybrać częstotliwość płatności"
+  },
+  "tooltips": {
+    "loanAmount": "Całkowita pożyczona kwota",
+    "interestRate": "Roczna stopa procentowa w procentach",
+    "loanTerm": "Długość czasu spłaty pożyczki",
+    "startDate": "Data rozpoczęcia spłaty kredytu",
+    "extraPayment": "Dodatkowa kwota płatna co miesiąc na poczet kapitału",
+    "loanTermUnit": "Jednostka czasu trwania kredytu (lata lub miesiące)",
+    "paymentFrequency": "Jak często dokonywane są płatności"
+  },
+  "smart_calculator_0": "Inteligentny kalkulator",
+  "amortization_calculator_1": "Kalkulator amortyzacji",
+  "home_2": "Dom",
+  "financial_3": "Budżetowy",
+  "amortization_calculator_4": "Kalkulator amortyzacji",
+  "amortization_calculator_5": "Kalkulator amortyzacji",
+  "generate_a_detailed_amortization_schedule_showing__6": "Wygeneruj szczegółowy harmonogram amortyzacji pokazujący, w jaki sposób każda płatność jest podzielona pomiędzy kapitał i spłatę\n                zainteresowanie.",
+  "loan_details_7": "Szczegóły pożyczki",
+  "enter_loan_information_to_generate_schedule_8": "Wprowadź informacje o pożyczce, aby wygenerować harmonogram",
+  "loan_amount_9": "Kwota pożyczki",
+  "interest_rate_10": "Stopa procentowa (%)",
+  "loan_term_11": "Okres pożyczki",
+  "k_15_years_12": "15 lat",
+  "k_20_years_13": "20 lat",
+  "k_25_years_14": "25 lat",
+  "k_30_years_15": "30 lat",
+  "start_date_16": "Data rozpoczęcia",
+  "generate_schedule_17": "Wygeneruj harmonogram",
+  "loan_summary_18": "Podsumowanie pożyczki",
+  "payment_overview_19": "Przegląd płatności",
+  "monthly_payment_20": "Płatność miesięczna",
+  "total_interest_21": "Całkowite odsetki",
+  "total_payment_22": "Całkowita płatność",
+  "enter_loan_details_to_see_summary_23": "Wprowadź szczegóły pożyczki, aby zobaczyć podsumowanie",
+  "payment_schedule_24": "Harmonogram płatności",
+  "first_12_payments_preview_25": "Podgląd pierwszych 12 płatności",
+  "payment_26": "Nr płatności",
+  "principal_27": "Główny:",
+  "interest_28": "Odsetki:",
+  "balance_29": "Saldo: $",
+  "showing_first_12_of_30": "Wyświetlam pierwsze 12 z",
+  "payments_31": "płatności",
+  "generate_schedule_to_see_payment_details_32": "Wygeneruj harmonogram, aby zobaczyć szczegóły płatności",
+  "how_to_use_the_amortization_calculator_33": "Jak korzystać z kalkulatora amortyzacji",
+  "the_amortization_calculator_is_a_powerful_tool_des_34": "Kalkulator amortyzacji to potężne narzędzie zaprojektowane, aby pomóc Ci zrozumieć rozkład spłat kredytu. Oto jak z niego korzystać:",
+  "enter_loan_amount_35": "Wpisz kwotę pożyczki:",
+  "input_the_total_amount_of_the_loan_you_wish_to_cal_36": "Wprowadź całkowitą kwotę pożyczki, którą chcesz obliczyć.",
+  "enter_interest_rate_37": "Wprowadź stopę procentową:",
+  "provide_the_annual_interest_rate_of_the_loan_38": "Podaj roczną stopę oprocentowania pożyczki.",
+  "select_loan_term_39": "Wybierz okres pożyczki:",
+  "choose_the_duration_of_the_loan_in_years_40": "Wybierz czas trwania pożyczki w latach.",
+  "enter_start_date_41": "Podaj datę rozpoczęcia:",
+  "specify_the_date_when_the_loan_payments_will_begin_42": "Określ datę rozpoczęcia spłaty kredytu.",
+  "generate_schedule_43": "Wygeneruj harmonogram:",
+  "click_the_button_to_generate_the_amortization_sche_44": "Kliknij przycisk, aby wygenerować harmonogram amortyzacji.",
+  "the_calculator_will_display_a_detailed_schedule_sh_45": "Kalkulator wyświetli szczegółowy harmonogram pokazujący każdą płatność, kwotę przydzieloną na kapitał i odsetki oraz pozostałe saldo."
+}

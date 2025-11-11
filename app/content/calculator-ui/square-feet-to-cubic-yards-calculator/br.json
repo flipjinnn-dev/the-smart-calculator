@@ -1,0 +1,163 @@
+{
+  "pageTitle": "Calculadora de pés quadrados para jardas cúbicas",
+  "pageDescription": "Converta pés quadrados em jardas cúbicas para concreto, solo e outros materiais em projetos de construção e paisagismo",
+  "form": {
+    "labels": {
+      "area": "Área (pés quadrados)",
+      "depth": "Profundidade/Altura",
+      "depthUnit": "Unidade de profundidade",
+      "materialType": "Tipo de material",
+      "wasteFactor": "Fator de Resíduos (%)"
+    },
+    "placeholders": {
+      "area": "Insira a área em pés quadrados",
+      "depth": "Insira profundidade ou altura",
+      "wasteFactor": "Insira o fator de desperdício (0-50%)"
+    },
+    "buttons": {
+      "calculate": "Calcular jardas cúbicas",
+      "reset": "Reiniciar"
+    },
+    "depthUnits": {
+      "inches": "Polegadas",
+      "feet": "Pés",
+      "centimeters": "Centímetros",
+      "meters": "Metros"
+    },
+    "materialTypes": {
+      "concrete": "Concreto",
+      "soil": "Solo/sujeira",
+      "mulch": "Cobertura morta",
+      "gravel": "Cascalho",
+      "sand": "Areia",
+      "asphalt": "Asfalto",
+      "custom": "Material personalizado"
+    }
+  },
+  "results": {
+    "cubicYards": "Jardas Cúbicas",
+    "cubicFeet": "Pés Cúbicos",
+    "cubicMeters": "Metros Cúbicos",
+    "conversionResultsTitle": "Resultados de conversão",
+    "materialVolume": "Volume de Materiais",
+    "withWaste": "Com fator de desperdício"
+  },
+  "educational": {
+    "conversionInfo": "Informações de conversão",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos de construção",
+    "conversionFacts": {
+      "formula": {
+        "title": "Fórmula de conversão",
+        "description": "Jardas Cúbicas = (Área × Profundidade) ÷ 27, onde 27 pés cúbicos = 1 jarda cúbica"
+      },
+      "applications": {
+        "title": "Aplicativos comuns",
+        "description": "Pedido de concreto, entrega de solo, cobertura de cobertura morta e estimativa de material"
+      },
+      "accuracy": {
+        "title": "Fatores de precisão",
+        "description": "Os requisitos reais podem variar devido à compactação, assentamento e precisão da medição"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas",
+      "ordering": "Solicite material adicional para compensar variações e derramamentos"
+    },
+    "importantNotesList": [
+      "Sempre adicione 5 a 10% a mais para desperdícios e variações em projetos reais",
+      "Considere a compactação e o assentamento do material nos cálculos finais",
+      "Verifique as quantidades mínimas de pedido do fornecedor local",
+      "Meça duas vezes e peça uma vez para evitar escassez"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira sua área e profundidade para calcular o volume do material",
+    "resultMessage": "Seu cálculo de volume é mostrado abaixo",
+    "assessmentResult": "Resultado do cálculo de volume:",
+    "conversionAnalysis": "Análise de pés quadrados em jardas cúbicas"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de volume para materiais de construção. Os requisitos reais podem variar devido à compactação, assentamento, precisão de medição e fatores específicos do projeto. Sempre consulte os fornecedores para saber as quantidades finais do pedido."
+  },
+  "seekHelp": {
+    "title": "Recursos de construção",
+    "content": "Para estimativas profissionais de construção e planejamento de materiais, consulte empreiteiros certificados ou use software de estimativa especializado para requisitos específicos do projeto e condições locais."
+  },
+  "errors": {
+    "area": "Insira uma área válida em pés quadrados",
+    "depth": "Insira uma profundidade ou altura válida",
+    "depthUnit": "Selecione uma unidade de profundidade",
+    "materialType": "Selecione um tipo de material",
+    "wasteFactor": "Insira um fator de desperdício válido (0-50%)"
+  },
+  "tooltips": {
+    "area": "Superfície total a ser coberta",
+    "depth": "Espessura ou profundidade do material necessária",
+    "depthUnit": "Unidade de medida para profundidade",
+    "materialType": "O tipo de material afeta a densidade e o manuseio",
+    "wasteFactor": "Porcentagem adicional para contabilizar desperdícios e variações"
+  },
+  "area_depth_inputs_0": "Entradas de área e profundidade",
+  "enter_area_and_depth_measurements_to_calculate_vol_1": "Insira medidas de área e profundidade para calcular o volume em jardas cúbicas",
+  "area_2": "Área",
+  "ft_3": "pés²",
+  "in_4": "em²",
+  "yd_5": "jarda²",
+  "m_6": "m²",
+  "cm_7": "cm²",
+  "depth_8": "Profundidade",
+  "in_9": "em",
+  "ft_10": "pés",
+  "yd_11": "jarda",
+  "cm_12": "cm",
+  "m_13": "m",
+  "calculate_14": "Calcular",
+  "reset_15": "Reiniciar",
+  "results_16": "Resultados",
+  "input_values_converted_17": "Valores de entrada (convertidos)",
+  "area_18": "Área:",
+  "ft_19": "pés²",
+  "depth_20": "Profundidade:",
+  "inches_21": "polegadas",
+  "volume_22": "Volume",
+  "cubic_yards_yd_23": "jardas cúbicas (yd³)",
+  "stepbystep_calculation_24": "Cálculo passo a passo",
+  "step_1_25": "Etapa 1:",
+  "step_2_26": "Etapa 2:",
+  "step_3_27": "Etapa 3:",
+  "direct_formula_28": "Fórmula Direta:",
+  "enter_area_and_depth_to_see_29": "Insira a área e a profundidade para ver",
+  "volume_calculation_30": "cálculo de volume",
+  "in_cubic_yards_31": "em jardas cúbicas.",
+  "understanding_square_feet_to_cubic_yards_conversio_32": "Compreendendo a conversão de pés quadrados em jardas cúbicas",
+  "formulas_used_33": "Fórmulas usadas",
+  "step_1_34": "Etapa 1:",
+  "convert_depth_to_feet_depthft_depthin_12_35": "Converter profundidade em pés: profundidade_ft = profundidade_in ÷ 12",
+  "step_2_36": "Etapa 2:",
+  "calculate_feet_cubicft_areaft_depthft_37": "Calcular pés: pés_cúbicos = pés_área² × pés_profundos",
+  "step_3_38": "Etapa 3:",
+  "convert_to_cubic_yards_cubicyd_cubicft_27_39": "Converter para jardas cúbicas: yd_cúbica = pés_cúbicos ÷ 27",
+  "direct_formula_40": "Fórmula Direta:",
+  "cubicyd_areaft_depthin_324_41": "jarda_cúbica = (pés_área² × profundidade_in) ÷ 324",
+  "example_calculation_42": "Exemplo de cálculo",
+  "given_43": "Dado:",
+  "area_100_ft_depth_6_inches_44": "Área = 100 pés², Profundidade = 6 polegadas",
+  "solution_45": "Solução:",
+  "step_1_6_inches_12_05_feet_46": "Etapa 1: 6 polegadas ÷ 12 = 0,5 pés",
+  "step_2_100_ft_05_ft_50_ft_47": "Etapa 2: 100 pés² × 0,5 pés = 50 pés³",
+  "step_3_50_ft_27_185_yd_48": "Etapa 3: 50 pés³ ÷ 27 = 1,85 jardas³",
+  "direct_100_6_324_185_yd_49": "Direto: (100 × 6) ÷ 324 = 1,85 jardas³",
+  "common_applications_50": "Aplicativos comuns",
+  "concrete_51": "Concreto:",
+  "calculate_needed_for_slabs_driveways_and_foundatio_52": "Calcule necessário para lajes, calçadas e fundações",
+  "landscaping_53": "Paisagismo:",
+  "estimate_mulch_soil_or_gravel_for_garden_beds_54": "Estime cobertura morta, solo ou cascalho para canteiros de jardim",
+  "construction_55": "Construção:",
+  "determine_material_quantities_for_excavation_proje_56": "Determinar quantidades de materiais para projetos de escavação",
+  "paving_57": "Pavimentação:",
+  "calculate_or_paving_material_requirements_58": "Calcular ou pavimentar requisitos de material"
+}

@@ -1,0 +1,127 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Verstehen Sie Ihre Steuern mit unserem Einkommensteuerrechner",
+      "content": "Die Steuererklärung muss nicht verwirrend sein. Mit unserem Einkommensteuerrechner können Sie die Einkommensteuer schnell und genau online berechnen und erhalten klare Einblicke in Ihr zu versteuerndes Einkommen, Ihre Abzüge und Ihr Nettoeinkommen. Egal, ob Sie Ihre Steuerschuld für 2025 schätzen, prüfen möchten, ob Sie eine Rückerstattung erhalten, oder Ihre Finanzen im Voraus planen möchten, dieser kostenlose Einkommensteuerrechner ist Ihr Hilfsmittel der Wahl."
+    },
+    {
+      "heading": "Mit sofortigen Ergebnissen können Sie:",
+      "subSections": [
+        {
+          "heading": "Vermeiden Sie manuelle Fehler",
+          "content": "Mit der Einkommensteuer-Berechnungsformel."
+        },
+        {
+          "heading": "Vergleichen Sie die Bundes- und die Landeseinkommensteuer",
+          "content": "Sehen Sie Ergebnisse in Sekundenschnelle."
+        },
+        {
+          "heading": "Planen Sie besser",
+          "content": "Nutzen Sie Erkenntnisse, um Einsparungen, Abzüge und Einreichungsstrategien zu optimieren."
+        }
+      ]
+    },
+    {
+      "heading": "Wie funktioniert der Einkommensteuerrechner?",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Geben Sie Ihr Einkommen ein – Gehalt, Gewerbeeinkommen oder Einkünfte aus selbständiger Tätigkeit."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Abzüge anwenden – wählen Sie zwischen dem Standardabzug und dem Einzelabzug."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Sehen Sie sich Ihr steuerpflichtiges Einkommen an – verstehen Sie, was steuerpflichtiges Einkommen bedeutet und wie es sich vom Brutto- und Nettoeinkommen unterscheidet."
+        },
+        {
+          "heading": "Schritt 4",
+          "content": "Sehen Sie sich die erklärten Steuerklassen 2025 an – prüfen Sie, welcher Teil Ihres Einkommens in jede Steuerklasse fällt."
+        },
+        {
+          "heading": "Schritt 5",
+          "content": "Sehen Sie sich Ihre Ergebnisse sofort an – sehen Sie Ihre Steuerschuld, Ihr Einkommen nach Steuern oder eine mögliche Rückerstattung."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle und Variationen",
+      "subSections": [
+        {
+          "heading": "Bundeseinkommensteuerrechner",
+          "content": "Für US-Bundesbehörden."
+        },
+        {
+          "heading": "Staatlicher Einkommensteuerrechner",
+          "content": "Sehen Sie, wie sich Ihr Bundesstaat auf Ihre Haftung auswirkt."
+        },
+        {
+          "heading": "Rechner zur Einkommensteuerrückerstattung",
+          "content": "Schätzen Sie Ihre Rückerstattung in wenigen Minuten."
+        },
+        {
+          "heading": "Rechner für das Einkommen nach Steuern / Rechner für das Take-Home-Gehalt",
+          "content": "Finden Sie heraus, was nach Abzügen übrig bleibt."
+        },
+        {
+          "heading": "Rechner zur Einkommensteuer für Selbstständige und Unternehmen",
+          "content": "Entwickelt für Freiberufler, Unternehmer und LLCs."
+        },
+        {
+          "heading": "Dividenden- und Kapitalertragssteuerrechner",
+          "content": "Verfolgen Sie Investitionen und Renditen."
+        },
+        {
+          "heading": "Eheschließung gemeinsam oder mit Angehörigen",
+          "content": "Berechnen Sie Vorteile und vergleichen Sie die Optionen für den Anmeldestatus."
+        }
+      ]
+    },
+    {
+      "heading": "Warum sollten Sie sich für diesen Einkommensteuerrechner entscheiden?",
+      "subSections": [
+        {
+          "heading": "Schnell und kostenlos",
+          "content": "Keine Anmeldung, keine Gebühren."
+        },
+        {
+          "heading": "Präzise und zuverlässig",
+          "content": "Aktualisiert mit Erklärung der Steuerklassen 2025."
+        },
+        {
+          "heading": "Benutzerfreundlich",
+          "content": "Einfache Benutzeroberfläche für Einzelpersonen, Familien und Unternehmen."
+        },
+        {
+          "heading": "Umfassend",
+          "content": "Funktioniert als Einkommenssteuerschätzer 2025, Rückerstattungsrechner und Lohnschätzer zum Mitnehmen in einem."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie berechnet man die Lohnsteuer online?",
+      "a": "Geben Sie Ihr Bruttogehalt ein, nehmen Sie Abzüge vor und lassen Sie den Rechner Ihre Steuerschuld und Ihren Nettolohn schätzen."
+    },
+    {
+      "q": "Was ist das Vorsteuer- bzw. Nachsteuereinkommen?",
+      "a": "Das Vorsteuereinkommen ist Ihr Gesamteinkommen vor Steuern, während das Nachsteuereinkommen zeigt, was Sie nach Abzügen behalten."
+    },
+    {
+      "q": "Was ist der Preis inklusive Steuern gegenüber dem Preis exklusive Steuern?",
+      "a": "„Tax-inclusive“ bedeutet, dass die Steuer bereits im Gesamtbetrag enthalten ist, während „Tax-exclusive“ bedeutet, dass die Steuer separat hinzugerechnet wird."
+    },
+    {
+      "q": "Wie geht der Rechner mit der gemeinsamen Anmeldung von Angehörigen oder Verheirateten um?",
+      "a": "Wählen Sie einfach Ihren Anmeldestatus und die Anzahl der Angehörigen aus, um personalisierte Ergebnisse zu erhalten."
+    },
+    {
+      "q": "Wie lässt sich eine Rückerstattung mit einem Einkommensteuerrechner abschätzen?",
+      "a": "Geben Sie Ihre Einbehaltungsdaten ein und der Rechner schätzt, ob Sie etwas schulden oder eine Rückerstattung erhalten."
+    }
+  ]
+}

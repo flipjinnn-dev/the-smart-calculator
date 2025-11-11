@@ -1,0 +1,204 @@
+{
+  "pageTitle": "Kalkulator beztłuszczowej masy ciała",
+  "pageDescription": "Oblicz beztłuszczową masę ciała różnymi metodami, korzystając z naszego wszechstronnego kalkulatora beztłuszczowej masy ciała",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "height": "Wysokość",
+      "weight": "Waga",
+      "bodyFat": "Procent tkanki tłuszczowej",
+      "unitSystem": "Układ jednostek",
+      "calculationMethod": "Metoda obliczeniowa"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}",
+      "bodyFat": "Wprowadź procent tkanki tłuszczowej"
+    },
+    "buttons": {
+      "calculate": "Oblicz beztłuszczową masę ciała",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    },
+    "calculationMethods": {
+      "boer": "Formuła Burska",
+      "james": "Formuła Jamesa",
+      "hume": "Formuła Hume’a",
+      "peters": "Formuła Petersa"
+    }
+  },
+  "results": {
+    "leanBodyMass": "Beztłuszczowa masa ciała",
+    "bodyFatMass": "Masa Tłuszczowa",
+    "leanBodyMassResultsTitle": "Wyniki beztłuszczowej masy ciała",
+    "lbmFormula": {
+      "label": "Formuła LBM",
+      "boer": "Bur: LBM = (0,407 × waga (kg)) + (0,267 × wzrost (cm)) - 19,2 (mężczyźni) lub (0,252 × waga (kg)) + (0,473 × wzrost (cm)) - 48,3 (kobiety)",
+      "james": "James: LBM = (1,10 × waga (kg)) - (128 × (waga² (kg) / wysokość² (cm)))",
+      "hume": "Hume: LBM = (0,32810 × waga (kg)) + (0,33929 × wysokość (cm)) - 29,5336 (mężczyźni) lub (0,29569 × waga (kg)) + (0,41813 × wzrost (cm)) - 43,2933 (kobiety)",
+      "peters": "Peters: LBM = (3,8 × (0,01 × wysokość (cm))³ × waga (kg)) / (3,8 × (0,01 × wysokość (cm))³ + 1,8 × (0,01 × waga (kg))³)"
+    },
+    "unit": "{jednostka}"
+  },
+  "educational": {
+    "leanBodyMassInfo": "Informacje o beztłuszczowej masie ciała",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się ze specjalistą",
+    "leanBodyMassMethods": {
+      "boer": {
+        "title": "Metoda Bura",
+        "description": "Powszechnie stosowane w dawkowaniu medycznym i warunkach klinicznych"
+      },
+      "james": {
+        "title": "Metoda Jamesa",
+        "description": "Przeznaczony dla ogółu dorosłych"
+      },
+      "hume": {
+        "title": "Metoda Hume’a",
+        "description": "Szeroko stosowany w praktyce klinicznej"
+      },
+      "peters": {
+        "title": "Metoda Petersa",
+        "description": "Zaprojektowany specjalnie dla dzieci i młodzieży"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten służy jedynie do szacunków i nie jest narzędziem diagnostycznym",
+      "individualVariation": "Beztłuszczowa masa ciała różni się w zależności od czynników indywidualnych i dokładności pomiaru"
+    },
+    "importantNotesList": [
+      "Beztłuszczowa masa ciała obejmuje mięśnie, kości, narządy i wodę",
+      "Różne metody mogą dawać nieco inne wyniki",
+      "Aby uzyskać dokładną analizę składu ciała, skonsultuj się z pracownikami służby zdrowia",
+      "Regularne ćwiczenia i zbilansowane odżywianie wspierają zdrową beztłuszczową masę ciała"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje pomiary, aby obliczyć beztłuszczową masę ciała",
+    "lbmResult": "Twoja beztłuszczowa masa ciała wynosi {lbm} {unit}",
+    "bfmResult": "Twoja masa tkanki tłuszczowej wynosi {bfm} {unit}",
+    "methodUsed": "Zastosowana metoda obliczeń: {method}",
+    "assessmentResult": "Wynik oceny:",
+    "lbmAnalysis": "Analiza beztłuszczowej masy ciała"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki oparte na wzorach matematycznych i nie powinien być używany jako substytut profesjonalnej analizy składu ciała. Poszczególne wyniki mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się z pracownikiem służby zdrowia",
+    "content": "Aby uzyskać dokładną analizę składu ciała i spersonalizowane porady zdrowotne, skonsultuj się z pracownikiem służby zdrowia lub certyfikowanym trenerem fitness, który może udzielić wskazówek w oparciu o pełną historię Twojego zdrowia i indywidualną sytuację."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "bodyFat": "Proszę wprowadzić prawidłowy procent tkanki tłuszczowej",
+    "method": "Wybierz metodę obliczeń"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na obliczenia beztłuszczowej masy ciała",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "bodyFat": "Procent tkanki tłuszczowej (jeśli jest znany)",
+    "method": "Różne formuły mogą być bardziej odpowiednie dla różnych populacji"
+  },
+  "lbm_calculation_0": "Obliczenia LBM",
+  "enter_your_details_to_calculate_lean_body_mass_1": "Wprowadź swoje dane, aby obliczyć beztłuszczową masę ciała",
+  "unit_system_2": "Układ jednostek",
+  "us_ftin_lbs_3": "USA (ft/cal, funty)",
+  "metric_cm_kg_4": "Metryczne (cm, kg)",
+  "age_years_5": "Wiek (lata)",
+  "gender_6": "Płeć",
+  "male_7": "Mężczyzna",
+  "female_8": "Kobieta",
+  "height_9": "Wysokość",
+  "ft_10": "stopy",
+  "in_11": "W",
+  "height_cm_12": "Wysokość (cm)",
+  "weight_13": "Waga (",
+  "body_fat_percentage_optional_14": "Procent tkanki tłuszczowej (%) – opcjonalnie",
+  "if_known_provides_the_most_accurate_lbm_calculatio_15": "Jeśli jest znany, zapewnia najdokładniejsze obliczenia LBM",
+  "calculate_16": "Obliczać",
+  "reset_17": "Nastawić",
+  "lean_body_mass_18": "Beztłuszczowa masa ciała",
+  "kg_19": "kg",
+  "enter_your_details_to_calculate_lean_body_mass_20": "Wprowadź swoje dane, aby obliczyć beztłuszczową masę ciała.",
+  "your_lean_body_mass_results_21": "Wyniki beztłuszczowej masy ciała",
+  "lbm_calculation_methods_22": "Metody obliczeń LBM",
+  "method_23": "Metoda",
+  "result_kg_24": "Wynik (kg)",
+  "result_lbs_25": "Wynik (funty)",
+  "accuracy_26": "Dokładność",
+  "summary_27": "Streszczenie",
+  "recommended_lbm_28": "Zalecane LBM",
+  "value_29": "Wartość:",
+  "kg_30": "kg (",
+  "lbs_31": "funty)",
+  "method_32": "Metoda:",
+  "estimated_body_fat_33": "Szacowana zawartość tkanki tłuszczowej:",
+  "input_summary_34": "Podsumowanie danych wejściowych",
+  "age_35": "Wiek:",
+  "years_36": "lata",
+  "gender_37": "Płeć:",
+  "height_38": "Wysokość:",
+  "cm_39": "cm",
+  "weight_40": "Waga:",
+  "kg_41": "kg",
+  "body_fat_42": "Tłuszcz w organizmie:",
+  "about_lean_body_mass_43": "O beztłuszczowej masie ciała",
+  "what_is_lbm_44": "Co to jest LBM?",
+  "lean_body_mass_45": "Beztłuszczowa masa ciała:",
+  "total_body_weight_minus_fat_mass_46": "Całkowita masa ciała minus masa tłuszczu",
+  "includes_47": "Obejmuje:",
+  "muscles_organs_bones_and_water_48": "Mięśnie, narządy, kości i woda",
+  "uses_49": "Używa:",
+  "medication_dosing_sports_nutrition_health_tracking_50": "Dawkowanie leków, żywienie sportowe, śledzenie stanu zdrowia",
+  "difference_51": "Różnica:",
+  "slightly_higher_than_fatfree_mass_52": "Nieco wyższa od masy beztłuszczowej",
+  "formula_accuracy_53": "Dokładność formuły",
+  "body_fat_method_54": "Metoda % tkanki tłuszczowej:",
+  "most_accurate_when_bf_is_known_55": "Najdokładniejszy, gdy znany jest BF%.",
+  "peters_formula_56": "Formuła Petersa:",
+  "recommended_for_children_14_years_57": "Zalecane dla dzieci ≤14 lat",
+  "boer_formula_58": "Formuła burska:",
+  "good_for_general_adult_population_59": "Dobre dla ogółu dorosłej populacji",
+  "hume_formula_60": "Formuła Hume’a:",
+  "preferred_for_clinical_applications_61": "Preferowany do zastosowań klinicznych",
+  "james_formula_62": "Formuła Jamesa:",
+  "moderate_accuracy_for_adults_63": "Umiarkowana dokładność dla dorosłych",
+  "clinical_applications_64": "Zastosowania kliniczne",
+  "medication_dosing_65": "Dawkowanie leku:",
+  "more_accurate_than_total_body_weight_66": "Bardziej dokładne niż całkowita masa ciała",
+  "nutritional_assessment_67": "Ocena żywieniowa:",
+  "protein_and_calorie_requirements_68": "Zapotrzebowanie na białko i kalorie",
+  "athletic_performance_69": "Wyniki sportowe:",
+  "training_and_recovery_optimization_70": "Optymalizacja treningu i regeneracji",
+  "health_monitoring_71": "Monitorowanie stanu zdrowia:",
+  "tracking_muscle_mass_changes_72": "Śledzenie zmian masy mięśniowej",
+  "typical_lbm_ranges_73": "Typowe zakresy LBM",
+  "category_74": "Kategoria",
+  "male_75": "Mężczyzna (%)",
+  "female_76": "Kobieta (%)",
+  "athletes_77": "Sportowcy",
+  "k_8595_78": "85-95%",
+  "k_7585_79": "75-85%",
+  "fit_adults_80": "Fit dorośli",
+  "k_8090_81": "80-90%",
+  "k_7080_82": "70-80%",
+  "average_adults_83": "Przeciętni dorośli",
+  "k_7585_84": "75-85%",
+  "k_6575_85": "65-75%"
+}

@@ -1,5 +1,5 @@
 import { calculators, type Calculator } from "@/lib/calculator-data"
-import type { SimilarCalculator, CategoryColorMap, CalculatorColor } from "@/types/similar-calculators"
+import type { SimilarCalculator, SimilarCalculatorId, CategoryColorMap, CalculatorColor } from "@/types/similar-calculators"
 
 // Category to color mapping
 const categoryColors: CategoryColorMap = {
@@ -18,20 +18,19 @@ const categoryColors: CategoryColorMap = {
  * @param currentCalculatorId - ID of the current calculator to exclude
  * @param category - Category to filter by
  * @param limit - Maximum number of calculators to return (default: 3)
- * @returns Array of similar calculator objects
+ * @returns Array of similar calculator ID objects (will be localized by component)
  */
 export function getSimilarCalculatorsByCategory(
   currentCalculatorId: string,
   category: string,
   limit: number = 3
-): SimilarCalculator[] {
+): SimilarCalculatorId[] {
   return calculators
     .filter(calc => calc.category === category && calc.id !== currentCalculatorId)
     .slice(0, limit)
     .map(calc => ({
-      calculatorName: calc.name,
-      calculatorHref: calc.href,
-      calculatorDescription: calc.description
+      id: calc.id,
+      category: calc.category
     }))
 }
 
@@ -40,13 +39,13 @@ export function getSimilarCalculatorsByCategory(
  * @param currentCalculatorId - ID of the current calculator to exclude
  * @param category - Category to filter by  
  * @param limit - Maximum number of calculators to return (default: 3)
- * @returns Array of popular similar calculator objects
+ * @returns Array of popular similar calculator ID objects (will be localized by component)
  */
 export function getPopularSimilarCalculators(
   currentCalculatorId: string,
   category: string,
   limit: number = 3
-): SimilarCalculator[] {
+): SimilarCalculatorId[] {
   return calculators
     .filter(calc => 
       calc.category === category && 
@@ -55,25 +54,22 @@ export function getPopularSimilarCalculators(
     )
     .slice(0, limit)
     .map(calc => ({
-      calculatorName: calc.name,
-      calculatorHref: calc.href,
-      calculatorDescription: calc.description
+      id: calc.id,
+      category: calc.category
     }))
 }
 
 /**
  * Get calculators by specific IDs
  * @param calculatorIds - Array of calculator IDs to include
- * @returns Array of calculator objects
+ * @returns Array of calculator ID objects (will be localized by component)
  */
-export function getSimilarCalculatorsByIds(calculatorIds: string[]): SimilarCalculator[] {
-  return calculators
-    .filter(calc => calculatorIds.includes(calc.id))
-    .map(calc => ({
-      calculatorName: calc.name,
-      calculatorHref: calc.href,
-      calculatorDescription: calc.description
-    }))
+export function getSimilarCalculatorsByIds(calculatorIds: string[]): SimilarCalculatorId[] {
+  const foundCalculators = calculators.filter(calc => calculatorIds.includes(calc.id))
+  return foundCalculators.map(calc => ({
+    id: calc.id,
+    category: calc.category
+  }))
 }
 
 /**
@@ -81,13 +77,13 @@ export function getSimilarCalculatorsByIds(calculatorIds: string[]): SimilarCalc
  * @param currentCalculatorId - ID of the current calculator to exclude
  * @param categories - Array of categories to include
  * @param limit - Maximum number of calculators to return (default: 3)
- * @returns Array of similar calculator objects
+ * @returns Array of similar calculator ID objects (will be localized by component)
  */
 export function getCrossCategorySimilarCalculators(
   currentCalculatorId: string,
   categories: string[],
   limit: number = 3
-): SimilarCalculator[] {
+): SimilarCalculatorId[] {
   return calculators
     .filter(calc => 
       categories.includes(calc.category) && 
@@ -95,9 +91,8 @@ export function getCrossCategorySimilarCalculators(
     )
     .slice(0, limit)
     .map(calc => ({
-      calculatorName: calc.name,
-      calculatorHref: calc.href,
-      calculatorDescription: calc.description
+      id: calc.id,
+      category: calc.category
     }))
 }
 
@@ -112,41 +107,42 @@ export function getCategoryColor(category: string): CalculatorColor {
 
 /**
  * Generate curated similar calculators for specific calculator types
+ * Returns calculator IDs that will be automatically localized by the component
  */
 export const curatedSimilarCalculators = {
   // Financial calculator relationships
-  mortgage: (): SimilarCalculator[] => getSimilarCalculatorsByIds([
+  mortgage: (): SimilarCalculatorId[] => getSimilarCalculatorsByIds([
     'loan', 'house-affordability-calculator', 'mortgage-payoff-calculator'
   ]),
   
-  loan: (): SimilarCalculator[] => getSimilarCalculatorsByIds([
+  loan: (): SimilarCalculatorId[] => getSimilarCalculatorsByIds([
     'mortgage', 'auto-loan', 'payment'
   ]),
   
-  investment: (): SimilarCalculator[] => getSimilarCalculatorsByIds([
+  investment: (): SimilarCalculatorId[] => getSimilarCalculatorsByIds([
     'compound-interest', 'retirement', 'savings-calculator'
   ]),
   
   // Health calculator relationships  
-  bmi: (): SimilarCalculator[] => getSimilarCalculatorsByIds([
+  bmi: (): SimilarCalculatorId[] => getSimilarCalculatorsByIds([
     'ideal-weight', 'body-fat', 'calorie'
   ]),
   
-  calorie: (): SimilarCalculator[] => getSimilarCalculatorsByIds([
+  calorie: (): SimilarCalculatorId[] => getSimilarCalculatorsByIds([
     'bmr', 'macro', 'tdee-calculator'
   ]),
   
-  pregnancy: (): SimilarCalculator[] => getSimilarCalculatorsByIds([
+  pregnancy: (): SimilarCalculatorId[] => getSimilarCalculatorsByIds([
     'due-date-calculator', 'ovulation-calculator', 'conception-calculator'
   ]),
   
   // Math calculator relationships
-  percentage: (): SimilarCalculator[] => getSimilarCalculatorsByIds([
+  percentage: (): SimilarCalculatorId[] => getSimilarCalculatorsByIds([
     'random-number-generator', 'scientific-calculator', 'volume-calculator'
   ]),
   
   // Construction calculator relationships
-  'board-foot': (): SimilarCalculator[] => getSimilarCalculatorsByIds([
+  'board-foot': (): SimilarCalculatorId[] => getSimilarCalculatorsByIds([
     'cubic-yard', 'square-feet-to-cubic-yards', 'size-to-weight-rectangular-cuboid'
   ]),
 }
@@ -156,13 +152,13 @@ export const curatedSimilarCalculators = {
  * @param calculatorId - Current calculator ID
  * @param fallbackCategory - Category to use if no curated list exists
  * @param limit - Maximum number to return
- * @returns Array of intelligently selected similar calculators
+ * @returns Array of intelligently selected similar calculator IDs (will be localized by component)
  */
 export function getSmartSimilarCalculators(
   calculatorId: string,
   fallbackCategory?: string,
   limit: number = 3
-): SimilarCalculator[] {
+): SimilarCalculatorId[] {
   // Check if we have curated suggestions for this calculator
   const curatedFunction = curatedSimilarCalculators[calculatorId as keyof typeof curatedSimilarCalculators]
   

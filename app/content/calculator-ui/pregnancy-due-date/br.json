@@ -1,0 +1,80 @@
+{
+  "pageTitle": "Calculadora da data de vencimento da gravidez",
+  "pageDescription": "Calcule a data de vencimento da gravidez com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular a data de vencimento da gravidez",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo da data de vencimento da gravidez"
+  },
+  "educational": {
+    "info": "Informações sobre a data de vencimento da gravidez",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição da data de vencimento da gravidez",
+        "description": "Informações sobre a data de vencimento da gravidez"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como a data de vencimento da gravidez é calculada"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos da data de vencimento da gravidez"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas da data de vencimento da gravidez",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular a data de vencimento da gravidez",
+    "resultMessage": "Os resultados do cálculo da data de vencimento da gravidez são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da data de vencimento da gravidez:",
+    "analysis": "Análise da data de vencimento da gravidez"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas da data de vencimento da gravidez com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  }
+}

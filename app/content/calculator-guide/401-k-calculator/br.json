@@ -1,0 +1,75 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Entenda seus resultados 401 (k)",
+      "content": "O planejamento para a aposentadoria começa com clareza. Nossa calculadora 401 (k) on-line gratuita ajuda você a estimar rapidamente quanto você poderia ter na aposentadoria, levando em consideração suas contribuições, correspondência do empregador, juros compostos e possíveis retiradas. Esteja você apenas começando ou otimizando seu plano existente, esta é uma das melhores ferramentas de calculadora 401(k) para projetar seu futuro financeiro."
+    },
+    {
+      "heading": "O que esta calculadora 401 (k) faz",
+      "content": "Esta ferramenta foi criada para responder a perguntas reais sobre planejamento de aposentadoria. Vai além de uma simples estimativa de poupança, calculando:",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "- Crescimento do 401(k) com correspondência do empregador (correspondência percentual e baseada em dólar).\n- Projeções de juros compostos ano a ano para ver como o seu dinheiro cresce ao longo do tempo.\n- Penalidades de retirada antecipada 401(k) se os fundos forem retirados antes dos 59 anos e meio.\n- Impactos fiscais tradicionais versus Roth 401 (k), ajudando você a comparar opções.\n- Poupança para a aposentadoria ajustada pela inflação para lhe dar uma imagem realista do valor futuro."
+        }
+      ]
+    },
+    {
+      "heading": "Como funciona a calculadora 401 (k)",
+      "content": "Aqui está um resumo rápido de como a ferramenta estima seu saldo 401 (k):",
+      "subSections": [
+        {
+          "heading": "Passos",
+          "content": "1. Insira seus dados – salário, taxa de contribuição, correspondência patronal, saldo atual.\n2. Adicione pressupostos – taxa de retorno esperada, idade de reforma, taxa de inflação.\n3. Aplicar crescimento composto – a calculadora projeta o crescimento anual das contribuições mais os retornos.\n4. Conta de impostos – compara as contribuições tradicionais 401(k) com as contribuições Roth 401(k).\n5. Exiba os resultados – você verá o saldo estimado de aposentadoria, as contribuições do empregador e o detalhamento do crescimento."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso comuns",
+      "content": "As pessoas usam esta calculadora por vários motivos:",
+      "subSections": [
+        {
+          "heading": "Exemplos",
+          "content": "- Crescimento da poupança: calcule rapidamente a poupança 401 (k) on-line e veja como as contribuições geram riqueza.\n- Correspondência de empregador: use a calculadora de correspondência de empregador 401(k para maximizar o dinheiro grátis de sua empresa.\n- Retiradas antecipadas: estime multas e impostos com uma calculadora de penalidade de retirada antecipada 401(k.\n- Roth vs Tradicional: compare o impacto para levar para casa com uma calculadora 401(k vs Roth IRA.\n- Planejamento de aposentadoria: construa uma estratégia usando nossa calculadora de projeção 401(k gratuita com ajustes de inflação."
+        }
+      ]
+    },
+    {
+      "heading": "Dicas e próximas etapas",
+      "content": "Estratégias práticas para aumentar suas poupanças 401 (k) e para a aposentadoria:",
+      "subSections": [
+        {
+          "heading": "Pontas",
+          "content": "- Maximize a correspondência do seu empregador – É essencialmente dinheiro grátis.\n- Aumentar as contribuições gradualmente – Até 1–2% a mais por ano pode somar.\n- Diversificar os investimentos – Equilibrar o risco com o potencial de crescimento.\n- Revise regularmente – Recalcule pelo menos uma vez por ano ou após grandes mudanças em sua vida.\n- Compare com outras ferramentas – Experimente uma calculadora de aposentadoria com opção 401(k) ou uma calculadora de finanças pessoais para uma visão holística."
+        }
+      ]
+    },
+    {
+      "heading": "Isenção de responsabilidade",
+      "content": "Esta calculadora 401 (k) online gratuita é apenas para fins educacionais. Os resultados são estimativas e não devem ser considerados como aconselhamento financeiro personalizado. Para um planejamento de aposentadoria específico para sua situação, consulte um consultor financeiro licenciado."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como funciona uma calculadora 401(k)?",
+      "a": "Uma calculadora 401 (k) estima seu saldo futuro combinando suas contribuições, correspondência do empregador, crescimento composto e impostos. Ele projeta economias anuais até a idade de aposentadoria."
+    },
+    {
+      "q": "Com quanto devo contribuir para meu 401 (k)?",
+      "a": "Os especialistas geralmente recomendam contribuir pelo menos o suficiente para obter a correspondência completa do empregador. Muitas pessoas almejam 10–15% de sua renda, mas o número certo depende de sua idade, salário e metas de aposentadoria. Use esta calculadora para testar diferentes níveis de contribuição."
+    },
+    {
+      "q": "Posso calcular o crescimento 401 (k) com a inflação?",
+      "a": "Sim. Nossa calculadora permite incluir uma projeção ajustada pela inflação, para que você possa ver o real poder de compra de suas economias na aposentadoria."
+    },
+    {
+      "q": "Qual é a diferença entre Tradicional e Roth 401(k)?",
+      "a": "401(k) tradicional: As contribuições são antes dos impostos, mas as retiradas são tributadas. Roth 401(k): As contribuições são isentas de impostos, mas as retiradas na aposentadoria são isentas de impostos. Nossa ferramenta inclui ambos, atuando como uma calculadora de economia fiscal 401(k para comparação."
+    },
+    {
+      "q": "Quão precisas são as calculadoras 401(k)?",
+      "a": "Eles fornecem estimativas, não garantias. Os resultados reais dependem dos retornos do investimento, da inflação, das políticas do empregador e das mudanças na legislação tributária (como o Secure Act 2.0). Use-o como um guia de planejamento, não como uma previsão."
+    }
+  ]
+}

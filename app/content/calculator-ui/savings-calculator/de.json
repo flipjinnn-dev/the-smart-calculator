@@ -1,0 +1,148 @@
+{
+  "pageTitle": "Sparrechner",
+  "pageDescription": "Berechnen Sie Ihr Ersparniswachstum im Laufe der Zeit mit regelmäßigen Beiträgen und Zinseszinsen für finanzielle Ziele und Notfallfondsplanung",
+  "form": {
+    "labels": {
+      "initialAmount": "Anfänglicher Sparbetrag",
+      "monthlyContribution": "Monatlicher Beitrag",
+      "annualInterestRate": "Jährlicher Zinssatz",
+      "savingsPeriod": "Sparzeitraum",
+      "compoundFrequency": "Zusammengesetzte Frequenz",
+      "inflationRate": "Erwartete Inflationsrate"
+    },
+    "placeholders": {
+      "initialAmount": "Geben Sie den anfänglichen Sparbetrag ein",
+      "monthlyContribution": "Geben Sie den monatlichen Beitrag ein",
+      "annualInterestRate": "Geben Sie den jährlichen Zinssatz (%) ein.",
+      "savingsPeriod": "Geben Sie den Sparzeitraum in Jahren ein",
+      "inflationRate": "Geben Sie die erwartete Inflationsrate (%) ein."
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie das Sparwachstum",
+      "reset": "Zurücksetzen"
+    },
+    "compoundFrequencies": {
+      "monthly": "Monatlich",
+      "quarterly": "Vierteljährlich",
+      "annually": "Jährlich",
+      "daily": "Täglich"
+    }
+  },
+  "results": {
+    "futureValue": "Zukünftiger Wert",
+    "totalContributions": "Gesamtbeiträge",
+    "totalInterest": "Insgesamt verdiente Zinsen",
+    "inflationAdjusted": "Inflationsbereinigter Wert",
+    "savingsResultsTitle": "Ergebnisse der Einsparungsberechnung"
+  },
+  "educational": {
+    "savingsInfo": "Sparinformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "savingsFacts": {
+      "emergencyFund": {
+        "title": "Notfallfonds",
+        "description": "Finanzexperten empfehlen, für Notfälle 3–6 Monate Ausgaben einzusparen"
+      },
+      "compoundInterest": {
+        "title": "Macht des Zinseszinses",
+        "description": "Regelmäßige Beiträge in Kombination mit Zinseszinsen beschleunigen das Sparwachstum"
+      },
+      "goalsBased": {
+        "title": "Zielbasiertes Sparen",
+        "description": "Konkrete Sparziele helfen dabei, die Motivation aufrechtzuerhalten und Fortschritte zu verfolgen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zum Sparwachstum",
+      "actual": "Das tatsächliche Sparwachstum kann je nach Kontogebühren und sich ändernden Zinssätzen variieren"
+    },
+    "importantNotesList": [
+      "Höhere Zinssätze wirken sich erheblich auf das langfristige Sparwachstum aus",
+      "Regelmäßige Beiträge sind der Schlüssel zum Aufbau erheblicher Ersparnisse",
+      "Erwägen Sie hochverzinsliche Sparkonten für bessere Zinssätze",
+      "Automatisieren Sie Einsparungen, um konsistente Beiträge sicherzustellen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Sparinformationen ein, um das Wachstum im Laufe der Zeit zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Sparberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Einsparungsberechnung:",
+    "savingsAnalysis": "Einsparungsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zum Sparwachstum auf der Grundlage mathematischer Prognosen. Das tatsächliche Sparwachstum kann aufgrund von Kontogebühren, sich ändernden Zinssätzen und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für individuelle Sparstrategien und Finanzplanung wenden Sie sich an Finanzberater oder Bankfachleute mit Fachkenntnissen zu Sparprodukten und individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "initialAmount": "Bitte geben Sie einen gültigen Anfangssparbetrag ein",
+    "monthlyContribution": "Bitte geben Sie einen gültigen Monatsbeitrag ein",
+    "annualInterestRate": "Bitte geben Sie einen gültigen Jahreszinssatz ein",
+    "savingsPeriod": "Bitte geben Sie einen gültigen Sparzeitraum ein",
+    "inflationRate": "Bitte geben Sie eine gültige erwartete Inflationsrate ein",
+    "compoundFrequency": "Bitte wählen Sie eine zusammengesetzte Frequenz aus"
+  },
+  "tooltips": {
+    "initialAmount": "Betrag bereits gespart",
+    "monthlyContribution": "Regelmäßiger Betrag, den Sie jeden Monat sparen möchten",
+    "annualInterestRate": "Erwarteter durchschnittlicher jährlicher Zinssatz für Ersparnisse",
+    "savingsPeriod": "Zeitspanne, die Sie sparen möchten",
+    "compoundFrequency": "Wie oft werden die Zinsen aufgezinst?",
+    "inflationRate": "Erwartete durchschnittliche jährliche Inflationsrate"
+  },
+  "savings_calculator_0": "Sparrechner",
+  "initial_investment_1": "Erstinvestition",
+  "initial_deposit_starting_balance_2": "Ersteinzahlung / Startguthaben",
+  "regular_contributions_3": "Regelmäßige Beiträge",
+  "annual_contribution_4": "Jährlicher Beitrag",
+  "annual_increase_rate_5": "Jährliche Steigerungsrate (%)",
+  "monthly_contribution_6": "Monatlicher Beitrag",
+  "monthly_increase_rate_7": "Monatliche Steigerungsrate (%)",
+  "investment_parameters_8": "Investitionsparameter",
+  "annual_interest_rate_9": "Jährlicher Zinssatz (%)",
+  "number_of_years_10": "Anzahl der Jahre",
+  "compounding_frequency_11": "Aufzinsungshäufigkeit",
+  "annually_12": "Jährlich",
+  "semiannually_13": "Halbjährlich",
+  "quarterly_14": "Vierteljährlich",
+  "monthly_15": "Monatlich",
+  "biweekly_16": "Zweiwöchentlich",
+  "weekly_17": "Wöchentlich",
+  "daily_18": "Täglich",
+  "tax_rate_on_interest_19": "Steuersatz auf Zinsen (%)",
+  "inflation_rate_20": "Inflationsrate (%)",
+  "calculate_growth_21": "Berechnen Sie das Wachstum",
+  "savings_results_22": "Sparergebnisse",
+  "your_savings_growth_projection_23": "Ihre Ersparniswachstumsprognose",
+  "final_balance_24": "Schlussbilanz:",
+  "compounding_25": "Compoundierung",
+  "for_26": "für",
+  "years_27": "Jahre",
+  "total_contributions_28": "Gesamtbeiträge",
+  "interest_earned_29": "Verdiente Zinsen",
+  "aftertax_balance_30": "Saldo nach Steuern",
+  "real_value_inflationadjusted_31": "Realer Wert (inflationsbereinigt)",
+  "yearly_breakdown_32": "Jährliche Aufschlüsselung",
+  "year_33": "Jahr",
+  "contributions_34": "Beiträge",
+  "interest_35": "Interesse",
+  "balance_36": "Gleichgewicht",
+  "enter_your_savings_information_to_see_your_growth__37": "Geben Sie Ihre Sparinformationen ein, um Ihre Wachstumsprognose anzuzeigen",
+  "formulas_calculation_details_38": "Formeln und Berechnungsdetails",
+  "k_1_periodic_interest_rate_39": "1. Periodischer Zinssatz",
+  "rperiod_annualrate_1_taxrate_compoundingfrequency_40": "r_period = (annual_rate × (1 - tax_rate)) / zusammengesetzte_frequenz",
+  "k_2_annual_contributions_with_growth_41": "2. Jahresbeiträge (mit Wachstum)",
+  "annualk_annualbase_1_annualincreaseratek1_42": "Annual_k = Annual_base × (1 + annual_increase_rate)^(k-1)",
+  "k_3_monthly_contributions_with_growth_43": "3. Monatliche Beiträge (mit Wachstum)",
+  "monthlyk_monthlybase_1_monthlyincreaseratek1_44": "Monthly_k = Monthly_base × (1 + monatliche_Steigerungsrate)^(k-1)",
+  "k_4_final_balance_45": "4. Endgültiger Saldo",
+  "balance_initial_1_rperiodperiods_accumulatedcontri_46": "Saldo = Initial × (1 + r_period)^(Perioden) + Accumulated_Contributions",
+  "k_5_real_value_inflationadjusted_47": "5. Realer Wert (inflationsbereinigt)",
+  "realvalue_finalbalance_1_inflationrateyears_48": "Real_Value = Final_Balance / (1 + inflation_rate)^Jahre"
+}

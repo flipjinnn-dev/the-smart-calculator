@@ -1,0 +1,169 @@
+{
+  "pageTitle": "Calculadora de Pensão",
+  "pageDescription": "Estime seus benefícios de pensão com base no salário e nos anos de serviço para um planejamento abrangente da renda de aposentadoria",
+  "form": {
+    "labels": {
+      "currentAge": "Idade Atual",
+      "retirementAge": "Idade planejada de aposentadoria",
+      "yearsOfService": "Anos de serviço",
+      "currentSalary": "Salário Anual Atual",
+      "averageSalary": "Salário médio (mais alto de 3 a 5 anos)",
+      "benefitFormula": "Fórmula de benefício",
+      "multiplier": "Porcentagem do Multiplicador",
+      "additionalBenefits": "Benefícios Adicionais",
+      "costOfLivingAdjustment": "Ajuste do Custo de Vida (COLA)"
+    },
+    "placeholders": {
+      "currentAge": "Insira a idade atual",
+      "retirementAge": "Insira a idade de aposentadoria planejada",
+      "yearsOfService": "Insira anos de serviço",
+      "currentSalary": "Insira o salário anual atual",
+      "averageSalary": "Insira o salário médio",
+      "multiplier": "Insira a porcentagem do multiplicador",
+      "additionalBenefits": "Insira benefícios adicionais",
+      "costOfLivingAdjustment": "Insira a porcentagem de COLA"
+    },
+    "buttons": {
+      "calculate": "Calcular benefícios de pensão",
+      "reset": "Reiniciar"
+    },
+    "benefitFormulas": {
+      "finalSalary": "Média Salarial Final",
+      "careerAverage": "Salário médio de carreira",
+      "highestAverage": "Maior salário médio"
+    }
+  },
+  "results": {
+    "monthlyBenefit": "Pensão Mensal Estimada",
+    "annualBenefit": "Pensão Anual Estimada",
+    "totalBenefit": "Pensão total acima de 20 anos",
+    "pensionResultsTitle": "Resultados do cálculo da pensão"
+  },
+  "educational": {
+    "pensionInfo": "Informações sobre pensões",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "pensionFacts": {
+      "definition": {
+        "title": "Definição de pensão",
+        "description": "Plano de aposentadoria de benefício definido que oferece pagamentos regulares com base no salário e anos de serviço"
+      },
+      "vesting": {
+        "title": "Requisitos de aquisição",
+        "description": "A maioria das pensões exige 5 a 10 anos de serviço para se tornarem totalmente adquiridas"
+      },
+      "formula": {
+        "title": "Cálculo de benefícios",
+        "description": "Normalmente calculado como: Anos de serviço × Multiplicador × Salário médio"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de benefícios de pensão",
+      "actual": "Os benefícios reais podem variar com base nas regras do plano e nas políticas do empregador"
+    },
+    "importantNotesList": [
+      "Os benefícios de pensão são normalmente garantidos pela Pension Benefit Guaranty Corporation (PBGC)",
+      "Considere benefícios de sobrevivência e opções de pagamento de benefícios",
+      "As pensões proporcionam rendimento vitalício, mas podem não acompanhar a inflação",
+      "Algumas pensões oferecem opções de compra de montante fixo"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações de pensão para estimar os benefícios",
+    "resultMessage": "Os resultados do cálculo do seu benefício de pensão são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da pensão:",
+    "pensionAnalysis": "Análise de Pensões"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de benefícios de pensão com base em fórmulas gerais. Os benefícios reais podem variar com base nas regras do plano, nas políticas do empregador e em outros fatores não incluídos nessas estimativas."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para análise personalizada de benefícios de pensão e planejamento de aposentadoria, consulte administradores de planos de pensão ou consultores financeiros com experiência em planejamento de renda de aposentadoria e circunstâncias individuais."
+  },
+  "errors": {
+    "currentAge": "Insira uma idade atual válida",
+    "retirementAge": "Insira uma idade de aposentadoria planejada válida",
+    "yearsOfService": "Insira anos válidos de serviço",
+    "currentSalary": "Insira um salário anual atual válido",
+    "averageSalary": "Insira um salário médio válido",
+    "multiplier": "Insira uma porcentagem multiplicadora válida",
+    "additionalBenefits": "Insira benefícios adicionais válidos",
+    "costOfLivingAdjustment": "Insira uma porcentagem de COLA válida"
+  },
+  "tooltips": {
+    "currentAge": "Sua idade atual em anos",
+    "retirementAge": "Idade em que você planeja se aposentar e começar a receber benefícios de pensão",
+    "yearsOfService": "Total de anos de emprego com empregador elegível para pensão",
+    "currentSalary": "Seu salário anual atual",
+    "averageSalary": "Média dos anos de maior ganho utilizados no cálculo da pensão",
+    "multiplier": "Porcentagem usada na fórmula de benefícios (normalmente 1-2%)",
+    "additionalBenefits": "Quaisquer benefícios ou suplementos adicionais de pensão",
+    "costOfLivingAdjustment": "Ajuste anual para proteção contra a inflação"
+  },
+  "pension_options_0": "Opções de pensão",
+  "lump_sum_vs_monthly_1": "Montante fixo vs mensal",
+  "single_vs_joint_2": "Único vs Conjunto",
+  "work_longer_3": "Trabalhe mais",
+  "lump_sum_vs_monthly_pension_4": "Montante fixo vs pensão mensal",
+  "retirement_age_5": "Idade de aposentadoria",
+  "life_expectancy_6": "Expectativa de vida",
+  "expected_age_at_death_for_calculation_purposes_7": "Idade esperada ao morrer para efeito de cálculo",
+  "lump_sum_payment_8": "Pagamento fixo ($)",
+  "monthly_pension_9": "Pensão Mensal ($)",
+  "annual_investment_return_10": "Retorno Anual do Investimento (%)",
+  "expected_annual_return_on_lump_sum_investment_11": "Retorno anual esperado sobre o investimento de montante fixo",
+  "annual_cola_12": "COLA Anual (%)",
+  "cost_of_living_adjustment_annual_pension_increase_13": "Ajuste do custo de vida - aumento anual da pensão",
+  "single_life_vs_joint_survivor_14": "Vida de Solteiro vs Conjunta e Sobrevivente",
+  "retirement_age_15": "Idade de aposentadoria",
+  "your_life_expectancy_16": "Sua expectativa de vida",
+  "spouses_age_at_retirement_17": "Idade do cônjuge na aposentadoria",
+  "spouses_life_expectancy_18": "Expectativa de vida do cônjuge",
+  "monthly_pension_single_life_19": "Pensão Mensal (Vida Solteira) ($)",
+  "monthly_pension_joint_survivor_20": "Pensão Mensal (Sobrevivente Conjunto) ($)",
+  "survivor_benefit_ratio_21": "Taxa de benefício de sobrevivente (%)",
+  "percentage_of_pension_spouse_receives_after_your_d_22": "Porcentagem da pensão que o cônjuge recebe após sua morte",
+  "annual_investment_return_23": "Retorno Anual do Investimento (%)",
+  "annual_cola_24": "COLA Anual (%)",
+  "work_longer_option_comparison_25": "Comparação de opções de trabalho mais longo",
+  "current_age_26": "Idade Atual",
+  "life_expectancy_27": "Expectativa de vida",
+  "option_a_retire_earlier_28": "Opção A: Aposentar-se mais cedo",
+  "retirement_age_a_29": "Idade de aposentadoria A",
+  "monthly_pension_a_30": "Pensão Mensal A ($)",
+  "option_b_work_longer_31": "Opção B: trabalhar mais",
+  "retirement_age_b_32": "Idade de aposentadoria B",
+  "monthly_pension_b_33": "Pensão Mensal B ($)",
+  "annual_investment_return_34": "Retorno Anual do Investimento (%)",
+  "annual_cola_35": "COLA Anual (%)",
+  "calculate_options_36": "Calcular opções",
+  "pension_results_37": "Resultados de pensões",
+  "compare_your_pension_options_38": "Compare suas opções de pensão",
+  "lump_sum_vs_monthly_pension_39": "Montante fixo vs pensão mensal",
+  "monthly_pension_pv_40": "Pensão Mensal (PV)",
+  "lump_sum_41": "Montante fixo",
+  "better_choice_42": "Melhor escolha:",
+  "single_life_vs_joint_survivor_43": "Vida de Solteiro vs Conjunta e Sobrevivente",
+  "single_life_pv_44": "Vida de solteiro (PV)",
+  "joint_survivor_pv_45": "Conjunto e Sobrevivente (PV)",
+  "better_choice_46": "Melhor escolha:",
+  "work_longer_comparison_47": "Comparação de trabalho mais longo",
+  "retire_at_48": "Aposentar-se em",
+  "pv_49": "(PV)",
+  "retire_at_50": "Aposentar-se em",
+  "pv_51": "(PV)",
+  "better_choice_52": "Melhor escolha:",
+  "enter_your_pension_information_to_see_your_results_53": "Insira suas informações de pensão para ver seus resultados",
+  "calculation_methodology_54": "Metodologia de Cálculo",
+  "present_value_calculation_55": "Cálculo do valor presente",
+  "all_pension_streams_are_converted_to_present_value_56": "Todos os fluxos de pensões são convertidos a valor presente usando a fórmula:",
+  "pv_pmt_1_colat1_1_rt1_57": "PV = Σ [PMT × (1 + COLA)^(t-1)] / (1 + r)^(t-1)",
+  "joint_survivor_calculation_58": "Cálculo de sobrevivente conjunto",
+  "accounts_for_two_phases_payments_while_both_spouse_59": "É responsável por duas fases: pagamentos enquanto ambos os cônjuges estão vivos, depois benefícios de sobrevivência até o\n                        morte do cônjuge sobrevivente.",
+  "work_longer_analysis_60": "Análise mais longa do trabalho",
+  "compares_present_values_accounting_for_delayed_ret_61": "Compara os valores presentes contabilizando a aposentadoria atrasada e diferentes valores de pensão,\n                        descontado de volta para hoje."
+}

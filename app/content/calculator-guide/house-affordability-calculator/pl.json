@@ -1,0 +1,60 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator przystępności cenowej domu – dowiedz się, na ile domu możesz sobie pozwolić",
+      "content": "Kalkulator dostępności domu pomoże Ci odpowiedzieć na najważniejsze pytanie: „Na ile domu mnie stać?” Analizując Twoje dochody, wydatki, oprocentowanie kredytów hipotecznych, podatki od nieruchomości i stosunek długu do dochodu (DTI), narzędzie to pozwala na spersonalizowaną ocenę tego, jaki przedział cenowy jest realistyczny dla Twojego budżetu. Niezależnie od tego, czy kupujesz dom po raz pierwszy, czy dokonujesz modernizacji, powyższy kalkulator zapewnia natychmiastowy wynik oparty na sztucznej inteligencji – szybszy i dokładniejszy niż obliczenia ręczne.\n\nAby rozpocząć, skorzystaj z bezpłatnego kalkulatora przystępności cenowej domu dostępnego online powyżej."
+    },
+    {
+      "heading": "Jak obliczyć przystępność domu",
+      "subSections": [
+        {
+          "heading": "Metoda ręczna (krok po kroku)",
+          "content": "Dodaj swój miesięczny dochód brutto.\n\nZastosuj zasadę 28/36 (wydawaj nie więcej niż 28% dochodów na mieszkanie i 36% na całkowite zadłużenie).\n\nOszacuj miesięczne spłaty kredytu hipotecznego, korzystając z aktualnych stóp procentowych.\n\nDodaj podatki od nieruchomości, ubezpieczenie domu, PMI i opłaty HOA.\n\nPorównaj ze swoim miesięcznym budżetem."
+        },
+        {
+          "heading": "Metoda kalkulatora (zalecana)",
+          "content": "Po prostu wprowadź swoje dochody, wydatki, zaliczkę, okres kredytowania i stopę procentową w naszym najlepszym narzędziu do kalkulatora przystępności cenowej domu, a sztuczna inteligencja natychmiast pokaże wyniki, oszczędzając czas i unikając błędów."
+        }
+      ]
+    },
+    {
+      "heading": "Czynniki wpływające na to, na jaki dom możesz sobie pozwolić",
+      "content": "Kilka kluczowych elementów określa przystępność cenową Twojego domu:\n\nDochody i zatrudnienie: Wyższy stabilny dochód zwiększa szanse na zatwierdzenie pożyczki.\n\nWskaźnik zadłużenia do dochodu (DTI): Kredytodawcy zazwyczaj chcą DTI poniżej 36%.\n\nZaliczka: Większe zaliczki zmniejszają koszty miesięczne i mogą usunąć PMI.\n\nOprocentowanie kredytu hipotecznego: Nawet 1% różnicy znacząco zmienia przystępność cenową.\n\nPodatki od nieruchomości i ubezpieczenie: różnią się one w zależności od lokalizacji i muszą być uwzględnione.\n\nOpłaty HOA: W niektórych domach doliczane są miesięczne składki stowarzyszenia właścicieli domów.\n\nPożyczki studenckie lub zadłużenie kredytowe: Bieżące zobowiązania zmniejszają kwotę, którą możesz pożyczyć.\n\nNasz kalkulator przystępności cenowej domu z opłatami HOA, PMI i podatkami gwarantuje, że zostaną one uwzględnione automatycznie."
+    },
+    {
+      "heading": "Praktyczne zasady dotyczące przystępności cenowej domu",
+      "content": "Zasada 28/36: Wydaj ≤ 28% dochodów na mieszkanie, ≤ 36% na całe zadłużenie.\n\nZasada 3x dochodu: Wielu ekspertów sugeruje, że cena domu powinna wynosić ~3x roczny dochód.\n\nOszczędności awaryjne: Zawsze przechowuj wydatki przez 3–6 miesięcy po wpłaceniu zaliczki.\n\nPrzykład: Jaki dochód jest potrzebny, aby kupić dom za 300 tys. dolarów?\n\nPrzy 20% zaliczce i 6,5% oprocentowaniu będziesz potrzebować około 70 000 dolarów rocznego dochodu, aby zachować zgodność z zasadą 28/36."
+    },
+    {
+      "heading": "Kalkulator przystępności domu a inne narzędzia",
+      "content": "Kalkulator przystępności domu a kalkulator kredytu hipotecznego → Przystępność cenowa uwzględnia dochody, zadłużenie i budżet. Kalkulatory kredytów hipotecznych pokazują tylko spłaty kredytu.\n\nInteligentny kalkulator vs kalkulator Zillow → Nasz oparty na sztucznej inteligencji inteligentny kalkulator, narzędzie sprawdzające przystępność cenową domu, zapewnia bardziej spersonalizowane wyniki w czasie rzeczywistym.\n\nKalkulator stosunku zadłużenia do dochodu a kalkulator przystępności → Kalkulatory DTI pokazują tylko obciążenie długiem, podczas gdy przystępność cenowa obejmuje zadłużenie, dochód i podatki w celu uzyskania pełnego obrazu."
+    },
+    {
+      "heading": "Dlaczego warto wybrać inteligentny kalkulator?",
+      "content": "Analizy finansowe oparte na sztucznej inteligencji zapewniają dokładniejsze wyniki.\n\nWbudowane opcje zaliczki, PMI, HOA i ubezpieczenia.\n\nDziała jako darmowy kalkulator przystępności cenowej nieruchomości, dostępny w każdej chwili.\n\nZoptymalizowany pod kątem szybkich odpowiedzi, wyszukiwania głosowego i użytkowników mobilnych.\n\nWypróbuj internetowy kalkulator przystępności cenowej domu z powyższymi oprocentowaniami kredytów hipotecznych i natychmiast zobacz swoje wyniki."
+    }
+  ],
+  "faq": [
+    {
+      "q": "W jaki sposób kredytodawcy określają przystępność cenową domu?",
+      "a": "Kredytodawcy analizują Twoje dochody, wskaźnik DTI, zdolność kredytową i zaliczkę, aby zdecydować, ile możesz pożyczyć."
+    },
+    {
+      "q": "Jaka jest różnica między przystępnością cenową domu a wstępnym zatwierdzeniem?",
+      "a": "Kalkulatory przystępności szacują, na co Cię stać, a wstępne zatwierdzenie pokazuje, co pożyczkodawca jest skłonny zaoferować."
+    },
+    {
+      "q": "Czy stać mnie na dom z zadłużeniem z tytułu kredytu studenckiego?",
+      "a": "Tak, ale pożyczki studenckie zwiększają DTI, zmniejszając kwotę domu, do której się kwalifikujesz. Nasz kalkulator uwzględnia to."
+    },
+    {
+      "q": "Jak dokładne są kalkulatory przystępności cenowej domów?",
+      "a": "Są bardzo dokładne w szacunkach. Jednak ostateczne liczby zależą od wytycznych pożyczkodawcy, kredytu i podatków lokalnych."
+    },
+    {
+      "q": "Alexa, na jaki dom mnie stać?",
+      "a": "Możesz skorzystać z narzędzia Smart Calculator dotyczącego przystępności cenowej domu, aby uzyskać natychmiastowe wyniki w zakresie przystępności cenowej opartej na sztucznej inteligencji."
+    }
+  ]
+}

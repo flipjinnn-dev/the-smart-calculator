@@ -1,0 +1,162 @@
+{
+  "pageTitle": "Calculadora de aposentadoria",
+  "pageDescription": "Planeje suas economias para a aposentadoria e calcule as contribuições necessárias para atingir suas metas de aposentadoria com projeções de inflação e retorno do investimento",
+  "form": {
+    "labels": {
+      "currentAge": "Idade Atual",
+      "retirementAge": "Idade planejada de aposentadoria",
+      "lifeExpectancy": "Expectativa de vida",
+      "currentSavings": "Poupança atual para aposentadoria",
+      "annualSalary": "Salário Anual Atual",
+      "salaryIncrease": "Aumento salarial anual esperado",
+      "currentContribution": "Contribuição Anual Atual",
+      "contributionIncrease": "Aumento esperado da contribuição anual",
+      "employerMatch": "Porcentagem de correspondência do empregador",
+      "investmentReturn": "Retorno de investimento esperado",
+      "inflationRate": "Taxa de inflação esperada",
+      "retirementIncome": "Renda Anual de Aposentadoria Desejada"
+    },
+    "placeholders": {
+      "currentAge": "Digite sua idade atual",
+      "retirementAge": "Insira sua idade de aposentadoria planejada",
+      "lifeExpectancy": "Insira sua expectativa de vida",
+      "currentSavings": "Insira as economias atuais para a aposentadoria",
+      "annualSalary": "Insira seu salário anual atual",
+      "salaryIncrease": "Insira o aumento salarial anual esperado (%)",
+      "currentContribution": "Insira a contribuição anual atual",
+      "contributionIncrease": "Insira o aumento de contribuição anual esperado (%)",
+      "employerMatch": "Insira a porcentagem de correspondência do empregador (%)",
+      "investmentReturn": "Insira o retorno de investimento esperado (%)",
+      "inflationRate": "Insira a taxa de inflação esperada (%)",
+      "retirementIncome": "Insira a renda anual de aposentadoria desejada"
+    },
+    "buttons": {
+      "calculate": "Calcular as necessidades de aposentadoria",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "yearsToRetirement": "Anos até a aposentadoria",
+    "retirementSavings": "Poupança projetada para aposentadoria",
+    "retirementIncome": "Renda Anual de Aposentadoria Projetada",
+    "incomeReplacement": "Taxa de reposição de renda",
+    "shortfall": "Déficit de poupança para aposentadoria",
+    "requiredContribution": "Contribuição Anual Exigida",
+    "retirementResultsTitle": "Resultados do cálculo de aposentadoria"
+  },
+  "educational": {
+    "retirementInfo": "Informações sobre planejamento de aposentadoria",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "retirementFacts": {
+      "replacementRate": {
+        "title": "Taxa de reposição de renda",
+        "description": "A maioria dos planejadores financeiros recomenda a substituição de 70-90% da renda pré-aposentadoria"
+      },
+      "socialSecurity": {
+        "title": "Benefícios da Segurança Social",
+        "description": "A Segurança Social normalmente substitui cerca de 40% do rendimento pré-reforma dos trabalhadores médios"
+      },
+      "savingsRate": {
+        "title": "Diretrizes para taxas de poupança",
+        "description": "Especialistas financeiros recomendam economizar de 10 a 15% da renda para a aposentadoria"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de planejamento de aposentadoria",
+      "actual": "As necessidades reais de aposentadoria podem variar com base no estilo de vida, saúde e condições de mercado"
+    },
+    "importantNotesList": [
+      "Comece a economizar cedo para aproveitar os juros compostos",
+      "Considere os custos de saúde, que normalmente aumentam com a idade",
+      "Planeje uma expectativa de vida mais longa, potencialmente 20-30 anos de aposentadoria",
+      "Revise e ajuste regularmente seu plano de aposentadoria conforme as circunstâncias mudam"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações de planejamento de aposentadoria para calcular as necessidades de poupança",
+    "resultMessage": "Os resultados do seu cálculo de aposentadoria são mostrados abaixo",
+    "assessmentResult": "Resultado do Cálculo da Aposentadoria:",
+    "retirementAnalysis": "Análise de Aposentadoria"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de planejamento de aposentadoria com base em projeções matemáticas. As necessidades reais de reforma podem variar significativamente com base nas escolhas de estilo de vida, custos de saúde, condições de mercado e outros factores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para aconselhamento personalizado sobre planejamento de aposentadoria e investimentos, consulte consultores financeiros ou especialistas em planejamento de aposentadoria com experiência em planejamento financeiro de longo prazo e circunstâncias individuais."
+  },
+  "errors": {
+    "currentAge": "Insira uma idade atual válida",
+    "retirementAge": "Insira uma idade de aposentadoria válida",
+    "lifeExpectancy": "Insira uma expectativa de vida válida",
+    "currentSavings": "Insira economias de aposentadoria atuais válidas",
+    "annualSalary": "Insira um salário anual válido",
+    "salaryIncrease": "Insira um aumento salarial esperado válido",
+    "currentContribution": "Insira uma contribuição atual válida",
+    "contributionIncrease": "Insira um aumento de contribuição esperado válido",
+    "employerMatch": "Insira uma porcentagem válida de correspondência do empregador",
+    "investmentReturn": "Insira um retorno de investimento esperado válido",
+    "inflationRate": "Insira uma taxa de inflação esperada válida",
+    "retirementIncome": "Insira uma renda de aposentadoria desejada válida"
+  },
+  "tooltips": {
+    "currentAge": "Sua idade atual em anos",
+    "retirementAge": "Idade em que você planeja se aposentar",
+    "lifeExpectancy": "Idade esperada de vida",
+    "currentSavings": "Saldo atual em contas de aposentadoria",
+    "annualSalary": "Sua renda anual atual",
+    "salaryIncrease": "Crescimento salarial médio anual esperado",
+    "currentContribution": "Valor que você está contribuindo anualmente atualmente",
+    "contributionIncrease": "Aumento anual esperado nas contribuições",
+    "employerMatch": "Porcentagem do salário que seu empregador corresponde",
+    "investmentReturn": "Retorno médio anual esperado dos investimentos",
+    "inflationRate": "Taxa média anual de inflação esperada",
+    "retirementIncome": "Renda anual necessária durante a aposentadoria"
+  },
+  "your_current_age_0": "Sua idade atual",
+  "your_planned_retirement_age_1": "Sua idade de aposentadoria planejada",
+  "your_life_expectancy_2": "Sua expectativa de vida",
+  "current_annual_income_3": "Renda anual atual",
+  "expected_annual_income_increase_4": "Aumento esperado da renda anual (%)",
+  "income_needed_after_retirement_5": "Renda necessária após a aposentadoria (%)",
+  "average_investment_return_6": "Retorno médio do investimento (%)",
+  "inflation_rate_7": "Taxa de inflação (%)",
+  "other_income_after_retirement_8": "Outras receitas após a aposentadoria",
+  "your_current_income_9": "Sua renda atual",
+  "your_current_retirement_savings_10": "Suas economias atuais para a aposentadoria",
+  "your_age_now_11": "Sua idade agora",
+  "planned_retirement_age_12": "Idade de aposentadoria planejada",
+  "amount_needed_at_retirement_age_13": "Valor necessário na idade de aposentadoria",
+  "retirement_savings_now_14": "Poupança para aposentadoria agora",
+  "average_investment_return_year_15": "Retorno médio do investimento (%/ano)",
+  "your_age_now_16": "Sua idade agora",
+  "planned_retirement_age_17": "Idade de aposentadoria planejada",
+  "life_expectancy_18": "Expectativa de vida",
+  "retirement_savings_today_19": "Poupança para aposentadoria hoje",
+  "annual_contribution_20": "Contribuição anual",
+  "monthly_contribution_21": "Contribuição mensal",
+  "average_investment_return_year_22": "Retorno médio do investimento (%/ano)",
+  "inflation_rate_year_23": "Taxa de inflação (%/ano)",
+  "amount_you_have_24": "Quantidade que você tem",
+  "planned_monthly_withdrawal_25": "Retirada mensal planejada",
+  "average_investment_return_year_26": "Retorno médio do investimento (%/ano)",
+  "home_27": "Lar",
+  "financial_28": "Financeiro",
+  "retirement_calculator_29": "Calculadora de aposentadoria",
+  "retirement_details_30": "Detalhes de aposentadoria",
+  "enter_your_retirement_information_below_31": "Insira suas informações de aposentadoria abaixo",
+  "calculation_type_32": "Tipo de cálculo",
+  "how_much_do_you_need_to_retire_33": "Quanto você precisa para se aposentar?",
+  "how_can_you_save_for_retirement_34": "Como você pode economizar para a aposentadoria?",
+  "how_much_can_you_withdraw_after_retirement_35": "Quanto você pode sacar após a aposentadoria?",
+  "how_long_can_your_money_last_36": "Quanto tempo pode durar o seu dinheiro?",
+  "calculate_plan_37": "Calcular Plano",
+  "your_retirement_results_38": "Seus resultados de aposentadoria",
+  "see_your_retirement_calculation_results_here_39": "Veja aqui os resultados do cálculo da sua aposentadoria",
+  "retirement_calculation_40": "Cálculo de Aposentadoria",
+  "fill_in_your_details_and_click_calculate_see_your__41": "Preencha seus dados e clique em Calcular para ver o resultado da sua aposentadoria"
+}

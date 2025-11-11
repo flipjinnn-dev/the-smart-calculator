@@ -1,0 +1,173 @@
+{
+  "pageTitle": "Fielding Independent Pitching Calculator",
+  "pageDescription": "Calculate fielding independent pitching (FIP) for baseball players",
+  "form": {
+    "labels": {
+      "homeRuns": "Home Runs Allowed",
+      "walks": "Walks Issued",
+      "hitByPitches": "Batters Hit by Pitch",
+      "strikeouts": "Strikeouts Recorded",
+      "inningsPitched": "Innings Pitched",
+      "leagueERA": "League Average ERA (Optional)"
+    },
+    "placeholders": {
+      "homeRuns": "Enter home runs allowed",
+      "walks": "Enter walks issued",
+      "hitByPitches": "Enter batters hit by pitch",
+      "strikeouts": "Enter strikeouts recorded",
+      "inningsPitched": "Enter innings pitched (e.g., 6.1 for 6 innings and 1 out)",
+      "leagueERA": "Enter league average ERA (optional for context)"
+    },
+    "buttons": {
+      "calculate": "Calculate FIP",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "fieldingIndependentPitching": "Fielding Independent Pitching (FIP)",
+    "components": "FIP Components",
+    "hrComponent": "Home Run Component",
+    "bbComponent": "Walk Component",
+    "soComponent": "Strikeout Component",
+    "hbpComponent": "Hit By Pitch Component",
+    "eraComparison": "ERA Comparison",
+    "performanceContext": "Performance Context"
+  },
+  "educational": {
+    "fipInfo": "FIP Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Baseball Resources",
+    "fipFacts": {
+      "definition": {
+        "title": "Fielding Independent Pitching",
+        "description": "A statistic that measures a pitcher's performance based only on events entirely under their control"
+      },
+      "formula": {
+        "title": "Calculation Formula",
+        "description": "FIP = ((13×HR) + (3×(BB+HBP)) - (2×K)) / IP + Constant"
+      },
+      "components": {
+        "title": "FIP Components",
+        "description": "Measures home runs, walks, hit batters, and strikeouts - events not affected by fielding"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides FIP calculations only",
+      "actual": "Complete pitching evaluation should consider additional metrics and context"
+    },
+    "importantNotesList": [
+      "FIP focuses on events under pitcher's control: HR, BB, HBP, and K",
+      "Does not account for balls in play, which are influenced by fielding",
+      "A lower FIP indicates better pitching performance",
+      "FIP should be compared to ERA for insights about fielding impact"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter pitching statistics to calculate FIP",
+    "resultMessage": "Your FIP calculation results are shown below",
+    "assessmentResult": "FIP Calculation Result:",
+    "fipAnalysis": "FIP Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides FIP calculations based on standard baseball statistics formulas. Complete pitching evaluation should consider additional metrics, context, and sample size factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Baseball Resources",
+    "content": "For comprehensive baseball pitching analysis and player evaluation, consult baseball reference sites, sports analytics resources, or professional scouts and analysts."
+  },
+  "errors": {
+    "homeRuns": "Please enter a valid number of home runs",
+    "walks": "Please enter a valid number of walks",
+    "hitByPitches": "Please enter a valid number of hit by pitches",
+    "strikeouts": "Please enter a valid number of strikeouts",
+    "inningsPitched": "Please enter a valid number of innings pitched",
+    "leagueERA": "Please enter a valid league average ERA"
+  },
+  "tooltips": {
+    "homeRuns": "Number of home runs allowed by the pitcher",
+    "walks": "Number of walks (bases on balls) issued by the pitcher",
+    "hitByPitches": "Number of batters hit by pitch by the pitcher",
+    "strikeouts": "Number of strikeouts recorded by the pitcher",
+    "inningsPitched": "Total innings pitched, including partial innings (e.g., 6.1 for 6 innings and 1 out)",
+    "leagueERA": "League average ERA for context (optional)"
+  },
+  "pitching_statistics_0": "Pitching Statistics",
+  "enter_pitching_statistics_to_calculate_fielding_in_1": "Enter pitching statistics to calculate Fielding Independent Pitching (FIP)",
+  "home_runs_allowed_hr_2": "Home Runs Allowed (HR)",
+  "home_runs_allowed_by_the_pitcher_3": "Home runs allowed by the pitcher",
+  "walks_bb_4": "Walks (BB)",
+  "base_on_balls_issued_by_the_pitcher_5": "Base on balls issued by the pitcher",
+  "hit_by_pitch_hbp_6": "Hit By Pitch (HBP)",
+  "batters_hit_by_pitch_7": "Batters hit by pitch",
+  "strikeouts_k_8": "Strikeouts (K)",
+  "strikeouts_recorded_by_the_pitcher_9": "Strikeouts recorded by the pitcher",
+  "innings_pitched_ip_10": "Innings Pitched (IP)",
+  "total_innings_pitched_eg_1452_11": "Total innings pitched (e.g., 145.2)",
+  "fip_constant_cfip_12": "FIP Constant (cFIP)",
+  "scaling_constant_3132_13": "Scaling constant (~3.1-3.2)",
+  "decimal_precision_14": "Decimal Precision",
+  "k_1_decimal_place_15": "1 decimal place",
+  "k_2_decimal_places_16": "2 decimal places",
+  "k_3_decimal_places_17": "3 decimal places",
+  "advanced_mode_18": "Advanced Mode",
+  "calculate_cfip_from_league_stats_19": "Calculate cFIP from league stats",
+  "league_statistics_20": "League Statistics",
+  "league_era_21": "League ERA",
+  "league_hr_22": "League HR",
+  "league_bb_23": "League BB",
+  "league_hbp_24": "League HBP",
+  "league_k_25": "League K",
+  "league_ip_26": "League IP",
+  "formula_27": "Formula:",
+  "fip_13hr_3bbhbp_2k_ip_cfip_28": "FIP = (13×HR + 3×(BB+HBP) - 2×K) ÷ IP + cFIP",
+  "lower_fip_indicates_better_pitcher_performance_29": "Lower FIP indicates better pitcher performance",
+  "calculate_30": "Calculate",
+  "reset_31": "Reset",
+  "fip_results_32": "FIP Results",
+  "fip_33": "FIP",
+  "performance_34": "Performance",
+  "custom_cfip_35": "Custom cFIP",
+  "enter_pitching_statistics_and_click_36": "Enter pitching statistics and click",
+  "calculate_37": "Calculate",
+  "to_see_fip_38": "to see FIP.",
+  "detailed_fip_breakdown_39": "Detailed FIP Breakdown",
+  "fip_40": "FIP",
+  "hr_component_41": "HR Component",
+  "k_13_42": "13 ×",
+  "bbhbp_component_43": "BB+HBP Component",
+  "k_3_44": "3 × (",
+  "k_component_45": "K Component",
+  "k_2_46": "-2 ×",
+  "calculation_steps_47": "Calculation Steps:",
+  "step_1_48": "Step 1:",
+  "numerator_13_49": "Numerator = 13×",
+  "k_3_50": "+ 3×(",
+  "k_2_51": ") - 2×",
+  "step_2_52": "Step 2:",
+  "divide_by_ip_53": "Divide by IP =",
+  "step_3_54": "Step 3:",
+  "add_cfip_55": "Add cFIP =",
+  "note_56": "Note:",
+  "custom_cfip_calculated_from_league_statistics_57": "Custom cFIP calculated from league statistics",
+  "understanding_fip_58": "Understanding FIP",
+  "what_is_fip_59": "What is FIP?",
+  "fielding_independent_pitching_fip_evaluates_a_pitc_60": "Fielding Independent Pitching (FIP) evaluates a pitcher's performance based only on outcomes\n                        they can directly control: home runs, walks, hit batters, and strikeouts. It removes the\n                        influence of fielding and luck.",
+  "fip_vs_era_comparison_61": "FIP vs ERA Comparison",
+  "fip_era_neutral_defenseluck_62": "FIP ≈ ERA: Neutral defense/luck",
+  "fip_era_defense_may_have_hurt_pitcher_63": "FIP < ERA: Defense may have hurt pitcher",
+  "fip_era_defense_may_have_helped_pitcher_64": "FIP > ERA: Defense may have helped pitcher",
+  "sample_calculation_65": "Sample Calculation",
+  "example_66": "Example:",
+  "pitcher_statistics_67": "Pitcher Statistics",
+  "hr_21_bb_55_hbp_13_68": "HR: 21, BB: 55, HBP: 13",
+  "k_235_ip_145_cfip_3214_69": "K: 235, IP: 145, cFIP: 3.214",
+  "calculation_70": "Calculation:",
+  "numerator_1321_35513_2235_7_71": "Numerator = 13×21 + 3×(55+13) - 2×235 = 7",
+  "fip_7_145_3214_72": "FIP = 7 ÷ 145 + 3.214",
+  "fip_326_73": "FIP = 3.26",
+  "note_74": "Note:",
+  "average_fip_is_typically_around_420_varying_by_sea_75": "Average FIP is typically around 4.20, varying by season and league."
+}

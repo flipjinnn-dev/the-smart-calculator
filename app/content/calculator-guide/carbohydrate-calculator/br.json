@@ -1,0 +1,122 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de carboidratos – Encontre suas necessidades diárias de carboidratos",
+      "content": "Nossa calculadora de carboidratos ajuda você a determinar rapidamente a ingestão diária recomendada de carboidratos com base em sua idade, peso, altura, sexo, nível de atividade e metas de condicionamento físico. Esteja você buscando perda de peso, ganho muscular, desempenho atlético ou saúde equilibrada, esta calculadora diária de carboidratos on-line usa métodos cientificamente validados (como a fórmula Mifflin-St Jeor BMR) para estimar suas necessidades de energia e calcular quantos carboidratos você deve comer por dia."
+    },
+    {
+      "heading": "Como funciona a calculadora de carboidratos",
+      "subSections": [
+        {
+          "heading": "Taxa Metabólica Basal (TMB)",
+          "content": "Calculado usando a equação de Mifflin-St Jeor."
+        },
+        {
+          "heading": "Nível de atividade",
+          "content": "Sedentário, pouco ativo, moderadamente ativo, muito ativo ou atleta."
+        },
+        {
+          "heading": "Metas de condicionamento físico",
+          "content": "Perda de peso, manutenção ou ganho muscular."
+        },
+        {
+          "heading": "Distribuição de carboidratos",
+          "content": "Normalmente, 45–65% das calorias diárias devem vir de carboidratos."
+        },
+        {
+          "heading": "Gramas por peso corporal",
+          "content": "3–12 g/kg de peso corporal dependendo da atividade física e das demandas de treinamento."
+        }
+      ]
+    },
+    {
+      "heading": "Por que usar uma calculadora de carboidratos?",
+      "subSections": [
+        {
+          "heading": "Perda de peso",
+          "content": "Ajuda a reduzir o excesso de carboidratos e a controlar o açúcar no sangue."
+        },
+        {
+          "heading": "Ganho muscular",
+          "content": "Garante reservas suficientes de glicogênio para força e hipertrofia."
+        },
+        {
+          "heading": "Desempenho Atlético",
+          "content": "Atletas de resistência precisam de maior ingestão de carboidratos (6–10 g/kg)."
+        },
+        {
+          "heading": "Diabetes e gestão de saúde",
+          "content": "Fornece faixas seguras para manter a glicose estável."
+        },
+        {
+          "heading": "Nutrição Equilibrada",
+          "content": "Garante proporções adequadas de macronutrientes junto com proteínas e gorduras."
+        }
+      ]
+    },
+    {
+      "heading": "Diretrizes recomendadas para ingestão de carboidratos",
+      "content": "Adultos sedentários: ~3–4 g/kg de peso corporal (45–50% das calorias)\nIndivíduos moderadamente ativos: ~5–7 g/kg de peso corporal (50–55% das calorias)\nAtletas de resistência/alto volume de treinamento: ~6–10 g/kg de peso corporal (55–65% das calorias)\nAtletas de elite/treinamento extremo: ~8–12 g/kg de peso corporal\nPlanos de perda de peso: 2–4 g/kg de peso corporal (baixo teor de carboidratos, alto teor de proteína)\nGanho muscular: 4–7 g/kg de peso corporal para maximizar o glicogênio e a recuperação"
+    },
+    {
+      "heading": "Ferramentas relacionadas para nutrição balanceada",
+      "subSections": [
+        {
+          "heading": "Calculadora de ingestão de proteínas",
+          "content": "Estime as necessidades diárias de proteína para recuperação e crescimento muscular."
+        },
+        {
+          "heading": "Calculadora de ingestão de gordura",
+          "content": "Determine as necessidades diárias ideais de gordura para a saúde energética e hormonal."
+        },
+        {
+          "heading": "Calculadora de peso saudável",
+          "content": "Verifique sua faixa de peso saudável ideal usando as diretrizes do IMC."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de carboidratos?",
+      "a": "Uma calculadora de carboidratos é uma ferramenta que estima suas necessidades diárias de carboidratos com base no peso, nível de atividade e metas."
+    },
+    {
+      "q": "Quantos carboidratos devo comer por dia?",
+      "a": "A maioria dos adultos precisa de 45–65% das calorias provenientes de carboidratos, ou 3–7 g/kg de peso corporal, dependendo da atividade."
+    },
+    {
+      "q": "Esta calculadora é boa para perda de peso?",
+      "a": "Sim. Pode recomendar uma faixa com baixo teor de carboidratos para ajudar a reduzir calorias e, ao mesmo tempo, manter a energia."
+    },
+    {
+      "q": "Quantos carboidratos os atletas precisam diariamente?",
+      "a": "Atletas de resistência podem precisar de 6 a 10 g/kg de peso corporal, enquanto atletas de elite podem precisar de até 12 g/kg."
+    },
+    {
+      "q": "Os diabéticos podem usar esta calculadora de carboidratos?",
+      "a": "Sim, mas os resultados devem ser discutidos com um médico ou nutricionista para um controle seguro do açúcar no sangue."
+    },
+    {
+      "q": "A calculadora usa a fórmula Mifflin-St Jeor?",
+      "a": "Sim. Ele calcula primeiro a TMB usando Mifflin-St Jeor e depois aplica a atividade e as proporções de carboidratos."
+    },
+    {
+      "q": "Qual é a ingestão de carboidratos por kg de peso corporal?",
+      "a": "As necessidades de carboidratos são normalmente de 3 a 12 g/kg por dia, ajustadas à intensidade e aos objetivos do treinamento."
+    },
+    {
+      "q": "Esta ferramenta pode calcular carboidratos para dietas cetônicas ou com baixo teor de carboidratos?",
+      "a": "Sim. Você pode selecionar uma porcentagem menor de carboidratos (5–20% das calorias) para planos cetogênicos ou com baixo teor de carboidratos."
+    },
+    {
+      "q": "Qual a diferença entre esta calculadora e uma calculadora geral de calorias?",
+      "a": "É específico para macronutrientes, concentrando-se apenas nas necessidades de carboidratos, ao contrário das calculadoras gerais de calorias."
+    },
+    {
+      "q": "Que outras calculadoras devo usar com isso?",
+      "a": "Para um plano nutricional completo, use nossa Calculadora de Proteínas, Calculadora de Gordura e Calculadora de Peso Saudável."
+    }
+  ]
+}

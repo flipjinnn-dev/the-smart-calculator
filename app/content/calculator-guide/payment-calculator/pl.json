@@ -1,0 +1,86 @@
+{
+  "color": "fioletowy",
+  "sections": [
+    {
+      "heading": "Kalkulator płatności: Uprość planowanie pożyczki",
+      "content": "Nasz kalkulator płatności został zaprojektowany, aby pomóc Ci szybko oszacować spłatę kredytu, czy to na samochód, dom, pożyczkę osobistą, czy na dowolny plan ratalny. Za pomocą zaledwie kilku danych wejściowych możesz zobaczyć swoje miesięczne płatności, odsetki i całkowitą spłatę, co umożliwi Ci podejmowanie świadomych decyzji finansowych."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora płatności",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wybierz rodzaj pożyczki – samochód, kredyt hipoteczny, pożyczka osobista lub stała płatność."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Wpisz kwotę pożyczki, jaką planujesz pożyczyć."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Wprowadź stopę procentową i okres kredytowania (miesiące lub lata)."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Kliknij Oblicz, aby wyświetlić miesięczną płatność, łączne odsetki i harmonogram płatności."
+        }
+      ]
+    },
+    {
+      "heading": "Korzyści z korzystania z kalkulatora płatności",
+      "subSections": [
+        {
+          "heading": "Szybkie szacunki",
+          "content": "Natychmiast określ miesięczne raty i sumę płatności."
+        },
+        {
+          "heading": "Planowanie finansowe",
+          "content": "Przed zaciągnięciem pożyczki porównaj różne opcje pożyczki."
+        },
+        {
+          "heading": "Wgląd w amortyzację",
+          "content": "Zrozum, w jaki sposób płatności rozkładają się na kwotę główną i odsetki."
+        },
+        {
+          "heading": "Podejmowanie decyzji",
+          "content": "Wybierz najlepszą pożyczkę w oparciu o realistyczne oczekiwania dotyczące spłaty."
+        }
+      ]
+    },
+    {
+      "heading": "Typowe scenariusze",
+      "subSections": [
+        {
+          "heading": "Kredyt samochodowy",
+          "content": "Skorzystaj z naszego kalkulatora płatności za samochód, aby oszacować miesięczne płatności i porównać opcje finansowania."
+        },
+        {
+          "heading": "Hipoteka",
+          "content": "Planuj z wyprzedzeniem, korzystając z naszego kalkulatora spłaty kredytu hipotecznego dla kredytów mieszkaniowych."
+        },
+        {
+          "heading": "Pożyczka osobista",
+          "content": "Oblicz elastyczne plany spłaty, korzystając z naszego kalkulatora spłaty pożyczki osobistej."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak obliczyć miesięczne płatności?",
+      "a": "Miesięczne płatności są obliczane na podstawie kwoty pożyczki, stopy procentowej i okresu spłaty. Nasz kalkulator automatycznie stosuje standardową formułę spłaty kredytu i oblicza amortyzację."
+    },
+    {
+      "q": "Czy mogę porównać różne kalkulatory?",
+      "a": "Tak! Możesz zobaczyć różnicę między kalkulatorem płatności online, kalkulatorem amortyzacji i kalkulatorem stałych płatności, aby znaleźć najlepiej dopasowany do swoich potrzeb."
+    },
+    {
+      "q": "Czy korzystanie z tego kalkulatora jest bezpłatne?",
+      "a": "Absolutnie! Nasz darmowy kalkulator płatności zapewnia natychmiastowe wyniki bez ukrytych opłat i wymagań rejestracyjnych."
+    },
+    {
+      "q": "Jaka jest różnica pomiędzy płatnościami miesięcznymi i rocznymi?",
+      "a": "Płatności miesięczne rozkładają koszt kredytu w czasie, natomiast płatności roczne konsolidują go w mniejszej liczbie większych rat. Skorzystaj z naszej opcji płatności miesięcznych i rocznych, aby uzyskać jasne porównania."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "color": "różowy",
+  "sections": [
+    {
+      "heading": "Kalkulator okresu: dokładnie śledź swój cykl menstruacyjny",
+      "content": "Zrozumienie cyklu miesiączkowego jest niezbędne do zarządzania swoim zdrowiem, planowania ciąży i śledzenia płodności. Nasz darmowy kalkulator okresu online pomaga łatwo i dokładnie przewidzieć następną miesiączkę, datę owulacji i dni płodne. Niezależnie od tego, czy masz regularne cykle, czy nieregularne miesiączki, to narzędzie zapewnia spersonalizowane informacje na podstawie danych menstruacyjnych."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora okresu",
+      "content": "Korzystanie z naszego kalkulatora cyklu miesiączkowego jest proste:",
+      "subSections": [
+        {
+          "heading": "Krok 1: Wprowadź datę ostatniej miesiączki (LMP)",
+          "content": "Wpisz pierwszy dzień ostatniego cyklu miesiączkowego."
+        },
+        {
+          "heading": "Krok 2: Wprowadź średnią długość cyklu",
+          "content": "Zwykle 28 dni, ale może wynosić od 21 do 35 dni."
+        },
+        {
+          "heading": "Krok 3: Naciśnij „Oblicz”",
+          "content": "Natychmiast uzyskaj datę następnej miesiączki, dni płodne i datę owulacji."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora okresu?",
+      "content": "Śledzenie cyklu oferuje wiele korzyści:",
+      "subSections": [
+        {
+          "heading": "Zaplanuj ciążę",
+          "content": "Poznaj dni owulacji dzięki naszemu kalkulatorowi owulacji i płodności."
+        },
+        {
+          "heading": "Monitoruj nieregularne cykle",
+          "content": "Dowiedz się, jak długość cyklu wpływa na dni płodności."
+        },
+        {
+          "heading": "Objawy śledzenia",
+          "content": "Przewiduj PMS lub zmiany związane z okresem."
+        },
+        {
+          "heading": "Wgląd w zdrowie",
+          "content": "Wykryj zmiany w cyklu menstruacyjnym, które mogą wymagać pomocy lekarskiej."
+        },
+        {
+          "heading": "Przewidywanie oparte na sztucznej inteligencji",
+          "content": "Użyj śledzenia cykli opartego na sztucznej inteligencji, aby uzyskać większą dokładność."
+        }
+      ]
+    },
+    {
+      "heading": "Zrozumienie cykli menstruacyjnych, owulacji i płodności",
+      "content": "Uzyskaj głębsze zrozumienie swojego zdrowia reprodukcyjnego:",
+      "subSections": [
+        {
+          "heading": "Co to jest cykl menstruacyjny?",
+          "content": "Comiesięczny proces obejmujący owulację, krwawienie i zmiany hormonalne. Typowy cykl trwa 21–35 dni, a miesiączka trwa zwykle 3–7 dni."
+        },
+        {
+          "heading": "Wyjaśniono żyzne okno",
+          "content": "Okno płodne to okres, w którym jest największe prawdopodobieństwo poczęcia, zwykle 5 dni przed owulacją i w dniu owulacji."
+        },
+        {
+          "heading": "Owulacja i poczęcie",
+          "content": "Owulacja ma miejsce, gdy komórka jajowa zostaje uwolniona z jajnika, zwykle w połowie cyklu. Śledzenie owulacji zwiększa szanse na zajście w ciążę."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak dokładny jest kalkulator okresu?",
+      "a": "Kalkulator okresu przewiduje Twój cykl na podstawie wprowadzonych danych. Dokładność jest najwyższa w przypadku regularnych cykli i poprawia się w przypadku narzędzi opartych na sztucznej inteligencji."
+    },
+    {
+      "q": "Czy mogę używać kalkulatora miesiączkowego w przypadku nieregularnych okresów?",
+      "a": "Tak, nasz inteligentny monitor menstruacyjny dostosowuje się do nieregularnych cykli, aby zapewnić spersonalizowane prognozy."
+    },
+    {
+      "q": "Jaka jest normalna długość cyklu miesiączkowego?",
+      "a": "Normalny cykl trwa od 21 do 35 dni, średnio 28 dni."
+    },
+    {
+      "q": "Jak śledzić dni płodne?",
+      "a": "Wprowadź informacje o swoim cyklu w narzędziu do śledzenia okresu i owulacji, aby zobaczyć dni płodne i daty owulacji."
+    },
+    {
+      "q": "Czy istnieją kalkulatory okresu z przypomnieniami?",
+      "a": "Tak, niektóre aplikacje do obliczania okresu zawierają przypomnienia, które powiadamiają Cię przed następną miesiączką lub dni płodnych."
+    }
+  ],
+  "cta": {
+    "heading": "Zacznij śledzić swój cykl już dziś",
+    "content": "Przejmij kontrolę nad swoim zdrowiem reprodukcyjnym dzięki naszemu dokładnemu kalkulatorowi przewidywania okresu. Wprowadź swoje dane, aby natychmiast obliczyć następny okres, datę owulacji i dni płodne. Zacznij śledzić swoje cykle, aby lepiej planować i uzyskać lepszy wgląd w stan zdrowia!"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "pageTitle": "Compound Interest Calculator",
+  "pageDescription": "Calculate compound interest growth over time with regular contributions for investments, savings, and loan scenarios",
+  "form": {
+    "labels": {
+      "principal": "Initial Principal",
+      "interestRate": "Annual Interest Rate",
+      "timePeriod": "Time Period",
+      "compoundFrequency": "Compound Frequency",
+      "contributions": "Regular Contributions",
+      "contributionAmount": "Contribution Amount",
+      "contributionFrequency": "Contribution Frequency",
+      "contributionTiming": "Contribution Timing"
+    },
+    "placeholders": {
+      "principal": "Enter initial principal amount",
+      "interestRate": "Enter annual interest rate (%)",
+      "timePeriod": "Enter time period",
+      "contributionAmount": "Enter contribution amount"
+    },
+    "buttons": {
+      "calculate": "Calculate Compound Interest",
+      "reset": "Reset"
+    },
+    "compoundFrequencies": {
+      "annually": "Annually",
+      "semiAnnually": "Semi-Annually",
+      "quarterly": "Quarterly",
+      "monthly": "Monthly",
+      "daily": "Daily",
+      "continuously": "Continuously"
+    },
+    "contributionFrequencies": {
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "annually": "Annually",
+      "none": "No Contributions"
+    },
+    "contributionTimings": {
+      "beginning": "Beginning of Period",
+      "end": "End of Period"
+    }
+  },
+  "results": {
+    "futureValue": "Future Value",
+    "totalContributions": "Total Contributions",
+    "totalInterest": "Total Interest Earned",
+    "interestPercentage": "Interest Percentage of Total",
+    "compoundInterestResultsTitle": "Compound Interest Results"
+  },
+  "educational": {
+    "compoundInterestInfo": "Compound Interest Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "compoundInterestFacts": {
+      "definition": {
+        "title": "Compound Interest Definition",
+        "description": "Interest calculated on initial principal and accumulated interest from previous periods"
+      },
+      "formula": {
+        "title": "Calculation Formula",
+        "description": "A = P(1 + r/n)^(nt) + PMT × [((1 + r/n)^(nt) - 1) / (r/n)]"
+      },
+      "power": {
+        "title": "Power of Compounding",
+        "description": "Time and interest rate significantly impact final investment value"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides compound interest estimates only",
+      "actual": "Actual investment returns may vary based on market conditions and fees"
+    },
+    "importantNotesList": [
+      "The longer the time period, the more dramatic the compounding effect",
+      "Higher interest rates lead to exponential growth over time",
+      "Regular contributions significantly boost final investment value",
+      "Consider inflation and taxes when evaluating real returns"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your investment information to calculate compound interest growth",
+    "resultMessage": "Your compound interest calculation results are shown below",
+    "assessmentResult": "Compound Interest Calculation Result:",
+    "compoundInterestAnalysis": "Compound Interest Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides compound interest estimates based on mathematical formulas. Actual investment returns may vary based on market conditions, fees, taxes, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized investment advice and financial planning, consult financial advisors or investment professionals with expertise in portfolio management and individual financial circumstances."
+  },
+  "errors": {
+    "principal": "Please enter a valid initial principal amount",
+    "interestRate": "Please enter a valid annual interest rate",
+    "timePeriod": "Please enter a valid time period",
+    "contributionAmount": "Please enter a valid contribution amount",
+    "compoundFrequency": "Please select a compound frequency",
+    "contributionFrequency": "Please select a contribution frequency",
+    "contributionTiming": "Please select contribution timing"
+  },
+  "tooltips": {
+    "principal": "Initial amount invested or saved",
+    "interestRate": "Annual interest rate or expected return",
+    "timePeriod": "Length of time for investment growth",
+    "compoundFrequency": "How often interest is compounded per year",
+    "contributionAmount": "Regular amount added to investment",
+    "contributionFrequency": "How often contributions are made",
+    "contributionTiming": "Whether contributions are made at beginning or end of period"
+  },
+  "investment_details_0": "Investment Details",
+  "enter_your_investment_information_1": "Enter your investment information",
+  "initial_investment_2": "Initial Investment",
+  "monthly_contribution_3": "Monthly Contribution",
+  "annual_interest_rate_4": "Annual Interest Rate (%)",
+  "investment_period_years_5": "Investment Period (years)",
+  "compound_frequency_6": "Compound Frequency",
+  "annually_7": "Annually",
+  "quarterly_8": "Quarterly",
+  "monthly_9": "Monthly",
+  "daily_10": "Daily",
+  "calculate_11": "Calculate",
+  "investment_growth_12": "Investment Growth",
+  "your_investment_projection_13": "Your investment projection",
+  "final_amount_14": "Final Amount",
+  "total_interest_earned_15": "Total Interest Earned",
+  "total_contributions_16": "Total Contributions",
+  "enter_investment_details_to_see_growth_projection_17": "Enter investment details to see growth projection"
+}

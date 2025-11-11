@@ -1,0 +1,157 @@
+{
+  "pageTitle": "Magic Number Calculator",
+  "pageDescription": "Calculate the magic number for playoff contention in sports",
+  "form": {
+    "labels": {
+      "teamWins": "Team Wins",
+      "teamLosses": "Team Losses",
+      "teamGamesPlayed": "Team Games Played",
+      "leaderWins": "Leader Wins",
+      "leaderLosses": "Leader Losses",
+      "leaderGamesPlayed": "Leader Games Played",
+      "totalGames": "Total Games in Season"
+    },
+    "placeholders": {
+      "teamWins": "Enter team's wins",
+      "teamLosses": "Enter team's losses",
+      "teamGamesPlayed": "Enter team's games played",
+      "leaderWins": "Enter leader's wins",
+      "leaderLosses": "Enter leader's losses",
+      "leaderGamesPlayed": "Enter leader's games played",
+      "totalGames": "Enter total games in season (default: 162 for MLB)"
+    },
+    "buttons": {
+      "calculate": "Calculate Magic Number",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "magicNumber": "Magic Number",
+    "eliminationNumber": "Elimination Number",
+    "gamesBehind": "Games Behind Leader",
+    "playoffScenario": "Playoff Scenario",
+    "mathematicalCertainty": "Mathematical Certainty"
+  },
+  "educational": {
+    "magicInfo": "Magic Number Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Sports Resources",
+    "magicFacts": {
+      "definition": {
+        "title": "Magic Number Definition",
+        "description": "The number of additional wins by the leading team or losses by the chasing team needed to clinch a playoff spot"
+      },
+      "formula": {
+        "title": "Calculation Formula",
+        "description": "Magic Number = (Total Games + 1) - (Leader's Wins + Chaser's Losses)"
+      },
+      "interpretation": {
+        "title": "Scenario Interpretation",
+        "description": "When magic number reaches zero, the team has mathematically clinched the playoff spot"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides magic number calculations only",
+      "actual": "Actual playoff scenarios may be affected by tiebreaker rules and head-to-head results"
+    },
+    "importantNotesList": [
+      "Magic number decreases with each win by the leader or loss by the chaser",
+      "A magic number of 1 means the team can clinch with one more win or favorable result",
+      "Tiebreaker scenarios may require additional considerations",
+      "Magic number is commonly used in baseball, basketball, and hockey"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter team records and season information to calculate magic number",
+    "resultMessage": "Your magic number calculation results are shown below",
+    "assessmentResult": "Magic Number Calculation Result:",
+    "magicAnalysis": "Magic Number Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides magic number calculations based on standard sports mathematics formulas. Actual playoff scenarios may be affected by tiebreaker rules, head-to-head results, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Sports Resources",
+    "content": "For comprehensive sports standings analysis and playoff scenarios, consult official league websites, sports news sources, or professional sports analysts."
+  },
+  "errors": {
+    "teamWins": "Please enter a valid number of team wins",
+    "teamLosses": "Please enter a valid number of team losses",
+    "teamGamesPlayed": "Please enter a valid number of team games played",
+    "leaderWins": "Please enter a valid number of leader wins",
+    "leaderLosses": "Please enter a valid number of leader losses",
+    "leaderGamesPlayed": "Please enter a valid number of leader games played",
+    "totalGames": "Please enter a valid total number of games in season"
+  },
+  "tooltips": {
+    "teamWins": "Number of wins for the team chasing the playoff spot",
+    "teamLosses": "Number of losses for the team chasing the playoff spot",
+    "teamGamesPlayed": "Total number of games played by the chasing team",
+    "leaderWins": "Number of wins for the team leading the division or wild card",
+    "leaderLosses": "Number of losses for the team leading the division or wild card",
+    "leaderGamesPlayed": "Total number of games played by the leading team",
+    "totalGames": "Total number of games in the season (e.g., 162 for MLB, 82 for NHL)"
+  },
+  "team_season_statistics_0": "Team & Season Statistics",
+  "enter_your_teams_wins_rivals_losses_and_total_game_1": "Enter your team's wins, rival's losses, and total games in the season",
+  "mlb_season_162_games_2": "MLB Season (162 games)",
+  "automatically_sets_total_games_to_162_3": "Automatically sets total games to 162",
+  "total_games_in_season_tg_4": "Total Games in Season (TG)",
+  "total_games_in_the_season_162_for_mlb_5": "Total games in the season (162 for MLB)",
+  "wins_of_your_team_w_6": "Wins of Your Team (Wₜ)",
+  "current_wins_by_your_team_7": "Current wins by your team",
+  "losses_of_closest_rival_l_8": "Losses of Closest Rival (Lₒ)",
+  "current_losses_by_your_closest_rival_9": "Current losses by your closest rival",
+  "formula_10": "Formula:",
+  "magic_number_tg_w_l_1_11": "Magic Number = TG - Wₜ - Lₒ + 1",
+  "lower_magic_number_means_closer_to_clinching_12": "Lower magic number means closer to clinching",
+  "calculate_number_13": "Calculate Number",
+  "reset_14": "Reset",
+  "magic_number_15": "Magic Number",
+  "magic_number_16": "Magic Number",
+  "enter_team_statistics_and_click_17": "Enter team statistics and click",
+  "calculate_18": "Calculate",
+  "to_see_the_magic_number_19": "to see the magic number.",
+  "detailed_magic_number_breakdown_20": "Detailed Magic Number Breakdown",
+  "magic_number_21": "Magic Number",
+  "total_games_22": "Total Games",
+  "season_length_23": "Season Length",
+  "team_wins_24": "Team Wins",
+  "current_wins_25": "Current Wins",
+  "rival_losses_26": "Rival Losses",
+  "current_losses_27": "Current Losses",
+  "calculation_steps_28": "Calculation Steps:",
+  "formula_29": "Formula:",
+  "magic_number_tg_w_l_1_30": "Magic Number = TG - Wₜ - Lₒ + 1",
+  "calculation_31": "Calculation:",
+  "k_1_32": "+\n                          1 =",
+  "result_33": "Result:",
+  "dynamic_scenarios_34": "Dynamic Scenarios:",
+  "if_your_team_wins_35": "• If your team wins",
+  "more_games_you_will_clinch_36": "more games, you will clinch",
+  "if_your_rival_loses_37": "• If your rival loses",
+  "more_games_you_will_clinch_38": "more games, you will clinch",
+  "any_combination_of_39": "• Any combination of",
+  "team_wins_rival_losses_clinch_40": "team wins + rival losses = clinch",
+  "understanding_magic_numbers_41": "Understanding Magic Numbers",
+  "what_is_a_magic_number_42": "What is a Magic Number?",
+  "the_magic_number_shows_how_many_combined_wins_by_y_43": "The Magic Number shows how many combined wins by your team or losses by the closest rival are\n                        needed to clinch a division title or playoff spot. It's a simple but powerful statistic that\n                        helps fans and teams track how close they are to securing qualification.",
+  "how_it_works_44": "How it Works",
+  "every_win_by_your_team_reduces_the_magic_number_by_45": "Every win by your team reduces the Magic Number by 1",
+  "every_loss_by_your_rival_reduces_the_magic_number__46": "Every loss by your rival reduces the Magic Number by 1",
+  "magic_number_0_means_youve_clinched_47": "Magic Number = 0 means you've clinched",
+  "magic_number_1_means_one_final_push_needed_48": "Magic Number = 1 means one final push needed",
+  "sample_calculation_49": "Sample Calculation",
+  "example_50": "Example:",
+  "mlb_season_51": "MLB Season",
+  "total_games_162_52": "Total Games: 162",
+  "team_wins_96_53": "Team Wins: 96",
+  "rival_losses_62_54": "Rival Losses: 62",
+  "calculation_55": "Calculation:",
+  "magic_number_162_96_62_1_56": "Magic Number = 162 - 96 - 62 + 1",
+  "magic_number_5_57": "Magic Number = 5",
+  "any_combination_of_5_more_wins_by_your_team_or_5_m_58": "Any combination of 5 more wins by your team OR 5 more losses by your rival will clinch the\n                          division."
+}

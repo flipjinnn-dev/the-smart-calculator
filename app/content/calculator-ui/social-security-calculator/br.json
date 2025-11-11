@@ -1,0 +1,153 @@
+{
+  "pageTitle": "Calculadora de Segurança Social",
+  "pageDescription": "Estime seus benefícios de Seguro Social com base em seu histórico de rendimentos e na idade planejada de aposentadoria para um planejamento de aposentadoria abrangente",
+  "form": {
+    "labels": {
+      "dateOfBirth": "Data de nascimento",
+      "retirementAge": "Idade planejada de aposentadoria",
+      "currentAge": "Idade Atual",
+      "yearsOfCoverage": "Anos de cobertura",
+      "averageIndexedMonthlyEarnings": "Ganhos médios mensais indexados",
+      "primaryInsuranceAmount": "Valor do Seguro Primário (PIA)",
+      "spouseBenefit": "Porcentagem de benefício do cônjuge"
+    },
+    "placeholders": {
+      "dateOfBirth": "Insira a data de nascimento",
+      "retirementAge": "Insira a idade de aposentadoria planejada",
+      "currentAge": "Insira a idade atual",
+      "yearsOfCoverage": "Insira anos de cobertura",
+      "averageIndexedMonthlyEarnings": "Insira o lucro médio mensal indexado",
+      "primaryInsuranceAmount": "Insira o valor do seguro primário",
+      "spouseBenefit": "Insira a porcentagem de benefício do cônjuge"
+    },
+    "buttons": {
+      "calculate": "Calcular benefícios de segurança social",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "monthlyBenefit": "Benefício Mensal Estimado",
+    "annualBenefit": "Benefício Anual Estimado",
+    "benefitAtFullRetirement": "Benefício na idade de aposentadoria completa",
+    "spouseBenefit": "Valor do benefício do cônjuge",
+    "socialSecurityResultsTitle": "Resultados do cálculo da Previdência Social"
+  },
+  "educational": {
+    "socialSecurityInfo": "Informações de Segurança Social",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "socialSecurityFacts": {
+      "fullRetirementAge": {
+        "title": "Idade de aposentadoria completa",
+        "description": "Idade em que você recebe benefícios completos da Previdência Social (66-67 para a maioria das pessoas)"
+      },
+      "earlyRetirement": {
+        "title": "Impacto na aposentadoria precoce",
+        "description": "Benefícios reduzidos em 6,67% ao ano para reforma antecipada antes da idade de reforma completa"
+      },
+      "delayedRetirement": {
+        "title": "Créditos de aposentadoria atrasada",
+        "description": "Benefícios aumentam 8% ao ano para aposentadoria atrasada até os 70 anos"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de benefícios da Previdência Social",
+      "actual": "Os benefícios reais podem variar com base no histórico de rendimentos e nos cálculos da Administração da Segurança Social"
+    },
+    "importantNotesList": [
+      "Use seu extrato da Previdência Social para estimativas de benefícios mais precisas",
+      "Considere benefícios para cônjuge e benefícios de sobrevivência no planejamento da aposentadoria",
+      "A Segurança Social substitui cerca de 40% do rendimento pré-reforma dos trabalhadores médios",
+      "Os benefícios podem estar sujeitos a impostos de renda federais e estaduais"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações de Seguro Social para estimar os benefícios",
+    "resultMessage": "Os resultados do cálculo do seu benefício da Previdência Social são mostrados abaixo",
+    "assessmentResult": "Resultado do Cálculo da Previdência Social:",
+    "socialSecurityAnalysis": "Análise da Previdência Social"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de benefícios da Previdência Social com base em fórmulas gerais. Os benefícios reais podem variar com base no histórico de rendimentos, cálculos da Administração da Segurança Social e outros fatores não incluídos nestas estimativas."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para análise personalizada de benefícios da Previdência Social e planejamento de aposentadoria, consulte representantes da Previdência Social ou consultores financeiros com experiência em planejamento de renda de aposentadoria e circunstâncias individuais."
+  },
+  "errors": {
+    "dateOfBirth": "Por favor insira uma data de nascimento válida",
+    "retirementAge": "Insira uma idade de aposentadoria planejada válida",
+    "currentAge": "Insira uma idade atual válida",
+    "yearsOfCoverage": "Insira anos válidos de cobertura",
+    "averageIndexedMonthlyEarnings": "Insira ganhos mensais indexados médios válidos",
+    "primaryInsuranceAmount": "Insira o valor do seguro primário válido",
+    "spouseBenefit": "Insira a porcentagem válida de benefício do cônjuge"
+  },
+  "tooltips": {
+    "dateOfBirth": "Sua data de nascimento afeta o cálculo da idade de aposentadoria completa",
+    "retirementAge": "Idade em que você planeja começar a receber benefícios do Seguro Social",
+    "currentAge": "Sua idade atual em anos",
+    "yearsOfCoverage": "Número de anos que você trabalhou e pagou impostos da Previdência Social",
+    "averageIndexedMonthlyEarnings": "Média dos seus maiores ganhos indexados em 35 anos",
+    "primaryInsuranceAmount": "Valor do benefício na idade de aposentadoria completa",
+    "spouseBenefit": "Porcentagem do seu benefício que o cônjuge pode receber"
+  },
+  "social_security_inputs_0": "Contribuições da Segurança Social",
+  "basic_information_1": "Informações Básicas",
+  "birth_year_2": "Ano de nascimento",
+  "full_retirement_age_3": "Idade de aposentadoria completa",
+  "autocalculated_4": "(Calculado automaticamente:",
+  "years_5": "anos",
+  "life_expectancy_years_6": "Expectativa de vida (anos)",
+  "monthly_benefit_at_fra_7": "Benefício Mensal na FRA",
+  "claiming_ages_to_compare_8": "Reivindicando idades para comparar",
+  "age_9": "Idade",
+  "fra_10": "(FRA)",
+  "economic_assumptions_11": "Pressupostos Económicos",
+  "annual_cola_12": "COLA Anual (%)",
+  "investment_return_13": "Retorno do Investimento (%)",
+  "show_in_future_inflated_dollars_vs_todays_dollars_14": "Mostrar em dólares inflacionados futuros (em comparação com os dólares de hoje)",
+  "calculate_15": "Calcular",
+  "benefit_comparison_16": "Comparação de benefícios",
+  "compare_claiming_strategies_17": "Compare estratégias de reivindicação",
+  "optimal_strategy_18": "Estratégia ideal:",
+  "claim_at_age_19": "Reivindicar na idade",
+  "highest_present_value_20": "Maior valor presente: $",
+  "detailed_comparison_21": "Comparação detalhada",
+  "claim_age_22": "Idade da reivindicação",
+  "monthly_benefit_23": "Benefício Mensal",
+  "lifetime_benefits_24": "Benefícios vitalícios",
+  "present_value_25": "Valor Presente",
+  "age_26": "Idade",
+  "best_27": "MELHOR",
+  "vs_fra_28": "% versus FRA",
+  "key_insights_29": "Principais insights:",
+  "present_values_assume_30": "• Valores presentes assumem",
+  "annual_investment_return_31": "% retorno anual do investimento",
+  "benefits_increase_by_32": "• Os benefícios aumentam em",
+  "annually_after_claiming_33": "% anualmente após reivindicar",
+  "early_claiming_reduces_benefits_permanently_34": "• A solicitação antecipada reduz os benefícios permanentemente",
+  "delayed_retirement_credits_add_8_per_year_after_fr_35": "• Créditos de aposentadoria atrasada acrescentam 8% ao ano após FRA",
+  "select_claiming_ages_and_calculate_to_see_your_res_36": "Selecione as idades de reivindicação e calcule para ver seus resultados",
+  "how_social_security_benefits_work_37": "Como funcionam os benefícios da previdência social",
+  "k_1_primary_insurance_amount_pia_38": "1. Valor do Seguro Primário (PIA)",
+  "your_pia_is_calculated_from_your_average_indexed_m_39": "Seu PIA é calculado a partir de seus ganhos médios mensais indexados (AIME) usando pontos de curvatura:",
+  "k_2_claiming_age_adjustments_40": "2. Solicitação de ajustes de idade",
+  "benefits_are_reduced_for_early_claiming_before_fra_41": "Os benefícios são reduzidos para pedidos antecipados (antes da FRA) e aumentados para pedidos tardios (após a FRA até aos 70 anos).",
+  "k_3_present_value_analysis_42": "3. Análise do valor presente",
+  "where_r_investment_return_rate_accounting_for_the__43": "Onde r = taxa de retorno do investimento, contabilizando o custo de oportunidade de reivindicar posteriormente.",
+  "frequently_asked_questions_44": "Perguntas frequentes",
+  "what_is_full_retirement_age_fra_45": "O que é a idade de aposentadoria completa (FRA)?",
+  "full_retirement_age_is_when_you_can_claim_100_of_y_46": "A idade de aposentadoria completa é quando você pode reivindicar 100% do seu benefício da Previdência Social. Varia de 65 a 67 dependendo do ano de nascimento. Para aqueles nascidos em 1960 ou mais tarde, o FRA é 67.",
+  "how_much_do_i_lose_by_claiming_early_at_62_47": "Quanto posso perder reivindicando antecipadamente aos 62 anos?",
+  "claiming_at_62_reduces_your_benefit_by_about_2530__48": "Reivindicar aos 62 anos reduz seu benefício em cerca de 25-30% permanentemente, dependendo do seu FRA. A redução é de 5/9 de 1% para cada mês antes do FRA (até 36 meses), depois de 5/12 de 1% para cada mês adicional.",
+  "what_are_delayed_retirement_credits_49": "O que são créditos de aposentadoria atrasada?",
+  "for_each_year_you_delay_claiming_past_fra_up_to_ag_50": "Para cada ano que você atrasa a reivindicação do FRA (até 70 anos), você ganha créditos de aposentadoria adiada no valor de 8% ao ano. Isto significa que esperar até aos 70 anos pode aumentar o seu benefício em 24-32% em comparação com o pedido na FRA.",
+  "what_is_the_breakeven_age_51": "Qual é a idade de equilíbrio?",
+  "the_breakeven_age_is_when_the_total_benefits_recei_52": "A idade de equilíbrio ocorre quando o total dos benefícios recebidos por reivindicar mais tarde é igual ao de reivindicar mais cedo. Geralmente, se você já passou dos 80 anos, atrasar os benefícios compensa no total de dólares recebidos.",
+  "how_does_cola_affect_my_benefits_53": "Como o COLA afeta meus benefícios?",
+  "costofliving_adjustments_cola_are_applied_annually_54": "Os Ajustes de Custo de Vida (COLA) são aplicados anualmente para proteção contra a inflação. O ajuste se aplica ao valor do seu benefício no momento do aumento, independentemente de quando você solicitou. O COLA histórico tem uma média anual de cerca de 2-3%."
+}

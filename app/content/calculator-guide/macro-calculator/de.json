@@ -1,0 +1,140 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Was ist der Makrorechner?",
+      "content": "Mit dem Makrorechner Online können Sie die täglichen Makronährstoffe – Proteine, Kohlenhydrate und Fette – basierend auf Ihrem Alter, Gewicht, Ihrer Größe, Ihrem Aktivitätsniveau und Ihren persönlichen Zielen verfolgen. Unabhängig davon, ob Ihr Ziel Gewichtsverlust, Muskelaufbau oder Erhaltung ist, bietet dieses kostenlose Tool präzise tägliche Makroziele als Leitfaden für Ihren Ernährungsplan."
+    },
+    {
+      "heading": "Was sind Makronährstoffe und warum sind sie wichtig?",
+      "subSections": [
+        {
+          "heading": "Protein",
+          "content": "Unterstützt die Muskelreparatur, das Muskelwachstum und die allgemeine Körperfunktion."
+        },
+        {
+          "heading": "Kohlenhydrate",
+          "content": "Stellen Sie Energie für Training, Gehirnfunktion und tägliche Aktivitäten bereit."
+        },
+        {
+          "heading": "Fette",
+          "content": "Unentbehrlich für die Hormonproduktion, die Gesundheit des Gehirns und die Nährstoffaufnahme."
+        }
+      ]
+    },
+    {
+      "heading": "Wie funktioniert ein Makrorechner?",
+      "subSections": [
+        {
+          "heading": "Berechnen Sie den gesamten täglichen Energieaufwand (TDEE)",
+          "content": "Ihr Grundumsatz (BMR) multipliziert mit einem Aktivitätsfaktor bestimmt den gesamten täglichen Energiebedarf."
+        },
+        {
+          "heading": "Setzen Sie Ihr Ziel",
+          "content": "Gewichtsverlust: Kaloriendefizit | Muskelaufbau: Kalorienüberschuss | Wartung: Ausgewogene Einnahme."
+        },
+        {
+          "heading": "Bestimmen Sie Makroverhältnisse",
+          "content": "Gewichtsverlust: 40 % Protein, 30 % Kohlenhydrate, 30 % Fett | Muskelaufbau: 30 % Protein, 50 % Kohlenhydrate, 20 % Fett."
+        },
+        {
+          "heading": "Passen Sie Ihre Ernährungspräferenzen an",
+          "content": "Keto: Wenig Kohlenhydrate, viel Fett | Vegan: Pflanzliches Protein | Intermittierendes Fasten: Passen Sie den Zeitpunkt der Mahlzeiten an und halten Sie dabei die Gesamtmenge konstant."
+        }
+      ]
+    },
+    {
+      "heading": "Makrorechner für spezifische Ziele",
+      "subSections": [
+        {
+          "heading": "Gewichtsverlust",
+          "content": "Höherer Proteingehalt, mäßige Kohlenhydrate, weniger Fette – trägt zum Erhalt schlanker Muskelmasse bei."
+        },
+        {
+          "heading": "Muskelaufbau",
+          "content": "Höherer Protein- und Kohlenhydratgehalt – unterstützt das Muskelwachstum und die Muskelregeneration."
+        },
+        {
+          "heading": "Wartung",
+          "content": "Ausgewogene Makros – hält das aktuelle Gewichts- und Energieniveau aufrecht."
+        }
+      ]
+    },
+    {
+      "heading": "Ernährungsspezifische Überlegungen",
+      "subSections": [
+        {
+          "heading": "Keto",
+          "content": "Halten Sie die Kohlenhydrate sehr niedrig (5–10 %) und erhöhen Sie die Menge an gesunden Fetten."
+        },
+        {
+          "heading": "Vegan",
+          "content": "Verwenden Sie pflanzliche Proteine ​​wie Linsen, Bohnen und Tofu."
+        },
+        {
+          "heading": "Intermittierendes Fasten",
+          "content": "Verfolgen Sie die gesamten täglichen Makros innerhalb der Essfenster."
+        }
+      ]
+    },
+    {
+      "heading": "Einschränkungen von Makrorechnern",
+      "subSections": [
+        {
+          "heading": "Nur Schätzungen",
+          "content": "Die Ergebnisse variieren je nach Stoffwechsel, Gesundheitszustand und Lebensstil."
+        },
+        {
+          "heading": "Kein medizinischer Ersatz",
+          "content": "Konsultieren Sie vor größeren Ernährungsumstellungen immer einen Arzt oder Ernährungsberater."
+        },
+        {
+          "heading": "Variationen nach Diät",
+          "content": "Verschiedene Ernährungsformen (Keto, Vegan, Bodybuilding) können die Makroverhältnisse verschieben."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie berechne ich meine täglichen Makros?",
+      "a": "Ihre Makros werden aus TDEE, Fitnessziel und Makroverhältnis berechnet. Dieser Makrorechner erledigt die Berechnungen automatisch für Sie."
+    },
+    {
+      "q": "Wie viele Kohlenhydrate, Proteine ​​und Fette sollte ich zum Abnehmen essen?",
+      "a": "Ein übliches Verhältnis ist 40 % Protein, 30 % Kohlenhydrate, 30 % Fett, aber das Aktivitätsniveau und die Art der Ernährung spielen eine Rolle."
+    },
+    {
+      "q": "Können Makros beim Muskelaufbau helfen?",
+      "a": "Ja, ein Überschuss mit mehr Eiweiß und Kohlenhydraten unterstützt Wachstum und Erholung."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Kalorien und Makronährstoffen?",
+      "a": "Kalorien messen Energie. Makros (Eiweiß, Kohlenhydrate, Fette) sind die Nährstoffe, die diese Kalorien liefern."
+    },
+    {
+      "q": "Kann ich einen Makrorechner für eine vegane oder ketogene Ernährung verwenden?",
+      "a": "Ja, der Rechner kann für vegane, ketogene oder intermittierende Fastenpläne angepasst werden."
+    },
+    {
+      "q": "Wie genau sind Makrorechner?",
+      "a": "Sie liegen im Allgemeinen bei 5–10 % genau, aber der persönliche Stoffwechsel und der Lebensstil wirken sich auf die tatsächlichen Bedürfnisse aus."
+    },
+    {
+      "q": "Können sich Makros je nach Aktivitätsniveau ändern?",
+      "a": "Ja, aktive Menschen benötigen mehr Eiweiß und Kohlenhydrate, während bewegungsarme Menschen weniger Kalorien benötigen."
+    },
+    {
+      "q": "Ist dieses Tool für Senioren oder Sportler geeignet?",
+      "a": "Ja, die Empfehlungen werden basierend auf Alter, Aktivität und Leistungszielen angepasst."
+    },
+    {
+      "q": "Kann ich einen druckbaren Makroplan erhalten?",
+      "a": "Ja, einige Rechner bieten herunterladbare oder ausdruckbare tägliche Makropläne."
+    },
+    {
+      "q": "Wie kann ich Makros für verschiedene Diäten anpassen?",
+      "a": "Sie können die Verhältnisse für Keto, Vegan, Bodybuilding oder Fasten ändern und gleichzeitig die Kalorienzufuhr an Ihren Zielen ausrichten."
+    }
+  ]
+}

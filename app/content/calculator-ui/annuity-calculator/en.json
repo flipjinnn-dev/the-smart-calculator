@@ -1,0 +1,149 @@
+{
+  "pageTitle": "Annuity Calculator",
+  "pageDescription": "Calculate the future value of an annuity based on regular contributions and interest rates for retirement planning and investment analysis",
+  "form": {
+    "labels": {
+      "presentValue": "Present Value (Initial Investment)",
+      "paymentAmount": "Payment Amount",
+      "interestRate": "Annual Interest Rate",
+      "numberOfPeriods": "Number of Periods",
+      "paymentFrequency": "Payment Frequency",
+      "compoundingFrequency": "Compounding Frequency",
+      "paymentTiming": "Payment Timing"
+    },
+    "placeholders": {
+      "presentValue": "Enter present value or initial investment",
+      "paymentAmount": "Enter payment amount",
+      "interestRate": "Enter annual interest rate (%)",
+      "numberOfPeriods": "Enter number of periods"
+    },
+    "buttons": {
+      "calculate": "Calculate Annuity Value",
+      "reset": "Reset"
+    },
+    "paymentFrequencies": {
+      "annually": "Annually",
+      "semiAnnually": "Semi-Annually",
+      "quarterly": "Quarterly",
+      "monthly": "Monthly"
+    },
+    "paymentTimings": {
+      "beginning": "Beginning of Period",
+      "end": "End of Period"
+    }
+  },
+  "results": {
+    "futureValue": "Future Value",
+    "totalPayments": "Total Payments",
+    "totalInterest": "Total Interest Earned",
+    "annuityResultsTitle": "Annuity Calculation Results"
+  },
+  "educational": {
+    "annuityInfo": "Annuity Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "annuityFacts": {
+      "definition": {
+        "title": "Annuity Definition",
+        "description": "Financial product that provides regular payments over a specified period in exchange for an initial lump sum or series of payments"
+      },
+      "types": {
+        "title": "Annuity Types",
+        "description": "Fixed annuities offer guaranteed returns; variable annuities offer market-based returns"
+      },
+      "presentValue": {
+        "title": "Present Value Calculation",
+        "description": "Determines the current value of a series of future payments"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides annuity value estimates only",
+      "actual": "Actual annuity values may vary based on contract terms and market conditions"
+    },
+    "importantNotesList": [
+      "Annuities can provide guaranteed income in retirement",
+      "Consider fees and surrender charges before purchasing annuities",
+      "Fixed annuities offer predictable returns but may not keep pace with inflation",
+      "Variable annuities offer growth potential but come with investment risk"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your annuity information to calculate future value",
+    "resultMessage": "Your annuity calculation results are shown below",
+    "assessmentResult": "Annuity Calculation Result:",
+    "annuityAnalysis": "Annuity Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides annuity value estimates based on mathematical formulas. Actual annuity values may vary based on contract terms, fees, market conditions, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized annuity advice and retirement planning, consult financial advisors or insurance professionals with expertise in annuity products and individual financial circumstances."
+  },
+  "errors": {
+    "presentValue": "Please enter a valid present value",
+    "paymentAmount": "Please enter a valid payment amount",
+    "interestRate": "Please enter a valid annual interest rate",
+    "numberOfPeriods": "Please enter a valid number of periods",
+    "paymentFrequency": "Please select a payment frequency",
+    "compoundingFrequency": "Please select a compounding frequency",
+    "paymentTiming": "Please select payment timing"
+  },
+  "tooltips": {
+    "presentValue": "Initial lump sum investment in the annuity",
+    "paymentAmount": "Regular payment amount contributed to the annuity",
+    "interestRate": "Expected annual interest rate or rate of return",
+    "numberOfPeriods": "Total number of payment periods",
+    "paymentFrequency": "How often payments are made",
+    "compoundingFrequency": "How often interest is compounded",
+    "paymentTiming": "Whether payments are made at beginning or end of period"
+  },
+  "calculator_inputs_0": "Calculator Inputs",
+  "starting_principal_1": "Starting Principal",
+  "initial_investment_amount_2": "Initial Investment Amount",
+  "regular_additions_3": "Regular Additions",
+  "annual_addition_4": "Annual Addition",
+  "monthly_addition_5": "Monthly Addition",
+  "add_at_each_periods_beginning_annuity_due_6": "Add at each period's beginning (Annuity Due)",
+  "when_enabled_deposits_are_made_at_the_beginning_of_7": "When enabled, deposits are made at the beginning of each period and earn interest immediately.",
+  "growth_parameters_8": "Growth Parameters",
+  "annual_growth_rate_9": "Annual Growth Rate (%)",
+  "after_years_10": "After Years",
+  "note_11": "Note:",
+  "monthly_deposits_use_monthly_compounding_annual_de_12": "Monthly deposits use monthly compounding; annual deposits use annual\n                        compounding.",
+  "calculate_13": "Calculate",
+  "results_14": "Results",
+  "end_balance_total_additions_interest_earned_15": "End Balance, Total Additions, Interest Earned",
+  "final_balance_after_16": "Final Balance After",
+  "years_17": "Years:",
+  "based_on_18": "Based on",
+  "annual_growth_rate_with_19": "% annual growth rate with",
+  "ofperiod_deposits_20": "-of-period deposits",
+  "starting_principal_21": "Starting Principal",
+  "total_additions_22": "Total Additions",
+  "interest_earned_23": "Interest Earned",
+  "interest_percentage_24": "Interest Percentage",
+  "monthly_schedule_25": "Monthly Schedule",
+  "accumulation_schedule_26": "Accumulation Schedule",
+  "csv_27": "CSV",
+  "month_28": "Month",
+  "starting_29": "Starting",
+  "interest_30": "Interest",
+  "monthly_add_31": "Monthly Add",
+  "annual_add_32": "Annual Add",
+  "ending_33": "Ending",
+  "enter_your_annuity_information_to_see_your_results_34": "Enter your annuity information to see your results",
+  "formulas_notes_35": "Formulas & Notes",
+  "future_value_of_starting_principal_36": "Future Value of Starting Principal",
+  "fvprincipal_p_1_r_37": "FV_principal = P₀ × (1 + r)ⁿ",
+  "annual_additions_ordinary_38": "Annual Additions (Ordinary)",
+  "fvannual_aannual_1_r_1_r_39": "FV_annual = A_annual × [(1 + r)ⁿ - 1] / r",
+  "annual_additions_annuity_due_40": "Annual Additions (Annuity Due)",
+  "fvannualdue_fvannual_1_r_41": "FV_annual_due = FV_annual × (1 + r)",
+  "monthly_additions_42": "Monthly Additions",
+  "rm_1_r112_1_43": "r_m = (1 + r)^(1/12) - 1",
+  "fvmonthly_amonthly_1_rmn_1_rm_44": "FV_monthly = A_monthly × [(1 + r_m)^N - 1] / r_m"
+}

@@ -1,0 +1,140 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator makro?",
+      "content": "Kalkulator makro online pomaga śledzić dzienną zawartość makroskładników – białek, węglowodanów i tłuszczów – w oparciu o wiek, wagę, wzrost, poziom aktywności i osobiste cele. Niezależnie od tego, czy Twoim celem jest utrata masy ciała, przyrost masy mięśniowej czy utrzymanie masy mięśniowej, to bezpłatne narzędzie zapewnia precyzyjne dzienne cele makro, które pomogą Ci zaplanować plan żywieniowy."
+    },
+    {
+      "heading": "Czym są makroelementy i dlaczego są ważne?",
+      "subSections": [
+        {
+          "heading": "Białko",
+          "content": "Wspomaga naprawę mięśni, wzrost i ogólne funkcjonowanie organizmu."
+        },
+        {
+          "heading": "Węglowodany",
+          "content": "Dostarcza energii na treningi, funkcjonowanie mózgu i codzienne czynności."
+        },
+        {
+          "heading": "Tłuszcze",
+          "content": "Niezbędny do produkcji hormonów, zdrowia mózgu i wchłaniania składników odżywczych."
+        }
+      ]
+    },
+    {
+      "heading": "Jak działa kalkulator makro?",
+      "subSections": [
+        {
+          "heading": "Oblicz całkowite dzienne wydatki na energię (TDEE)",
+          "content": "Twój podstawowy współczynnik przemiany materii (BMR) pomnożony przez współczynnik aktywności określa całkowite dzienne zapotrzebowanie na energię."
+        },
+        {
+          "heading": "Ustaw swój cel",
+          "content": "Utrata masy ciała: Deficyt kalorii | Przyrost mięśni: Nadwyżka kalorii | Konserwacja: Zbilansowane spożycie."
+        },
+        {
+          "heading": "Określ współczynniki makro",
+          "content": "Utrata masy ciała: 40% białka, 30% węglowodanów, 30% tłuszczów | Przyrost mięśni: 30% białka, 50% węglowodanów, 20% tłuszczów."
+        },
+        {
+          "heading": "Dostosuj do preferencji dietetycznych",
+          "content": "Keto: Niska zawartość węglowodanów, wysoka zawartość tłuszczów | Wegańskie: białko roślinne | Przerywany post: Dostosuj czas posiłków, zachowując spójne sumy."
+        }
+      ]
+    },
+    {
+      "heading": "Kalkulator makro dla konkretnych celów",
+      "subSections": [
+        {
+          "heading": "Utrata wagi",
+          "content": "Wyższa zawartość białka, umiarkowane węglowodany, niższa zawartość tłuszczów — pomaga zachować beztłuszczową masę mięśniową."
+        },
+        {
+          "heading": "Przyrost mięśni",
+          "content": "Wyższa zawartość białka i węglowodanów — wspomaga wzrost i regenerację mięśni."
+        },
+        {
+          "heading": "Konserwacja",
+          "content": "Zbilansowane makro — utrzymuje aktualną wagę i poziom energii."
+        }
+      ]
+    },
+    {
+      "heading": "Uwagi dotyczące diety",
+      "subSections": [
+        {
+          "heading": "Keto",
+          "content": "Utrzymuj węglowodany na bardzo niskim poziomie (5–10%) i zwiększaj ilość zdrowych tłuszczów."
+        },
+        {
+          "heading": "Wegańskie",
+          "content": "Używaj białek roślinnych, takich jak soczewica, fasola i tofu."
+        },
+        {
+          "heading": "Przerywany post",
+          "content": "Śledź całkowitą liczbę dziennych makr w oknach jedzenia."
+        }
+      ]
+    },
+    {
+      "heading": "Ograniczenia makrokalkulatorów",
+      "subSections": [
+        {
+          "heading": "Tylko szacunki",
+          "content": "Wyniki różnią się w zależności od metabolizmu, stanu zdrowia i stylu życia."
+        },
+        {
+          "heading": "Nie jest substytutem medycznym",
+          "content": "Przed poważnymi zmianami w diecie należy zawsze skonsultować się z lekarzem lub dietetykiem."
+        },
+        {
+          "heading": "Różnice w zależności od diety",
+          "content": "Różne rodzaje diety (keto, wegańska, kulturystyka) mogą zmieniać proporcje makro."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak obliczyć dzienne makro?",
+      "a": "Twoje makra są obliczane na podstawie TDEE, celu fitness i współczynnika makro. Ten kalkulator makr automatycznie wykonuje obliczenia za Ciebie."
+    },
+    {
+      "q": "Ile węglowodanów, białek i tłuszczów powinienem jeść, aby schudnąć?",
+      "a": "Typowy stosunek to 40% białka, 30% węglowodanów, 30% tłuszczów, ale poziom aktywności i rodzaj diety mają znaczenie."
+    },
+    {
+      "q": "Czy makra mogą pomóc w budowaniu masy mięśniowej?",
+      "a": "Tak, nadwyżka z wyższą zawartością białka i węglowodanów wspiera wzrost i regenerację."
+    },
+    {
+      "q": "Jaka jest różnica między kaloriami a makroelementami?",
+      "a": "Kalorie mierzą energię. Makra (białko, węglowodany, tłuszcze) to składniki odżywcze, które dostarczają tych kalorii."
+    },
+    {
+      "q": "Czy mogę używać kalkulatora makro do diety wegańskiej lub ketonowej?",
+      "a": "Tak, kalkulator można dostosować do planów wegańskich, ketonowych lub postów przerywanych."
+    },
+    {
+      "q": "Jak dokładne są kalkulatory makr?",
+      "a": "Zazwyczaj są one dokładne w granicach 5–10%, ale osobisty metabolizm i styl życia wpływają na rzeczywiste potrzeby."
+    },
+    {
+      "q": "Czy makra mogą się zmieniać w zależności od poziomu aktywności?",
+      "a": "Tak, osoby aktywne potrzebują więcej białka i węglowodanów, podczas gdy osoby prowadzące siedzący tryb życia potrzebują mniej kalorii."
+    },
+    {
+      "q": "Czy to narzędzie jest odpowiednie dla seniorów i sportowców?",
+      "a": "Tak, dostosowuje rekomendacje na podstawie wieku, aktywności i celów związanych z wynikami."
+    },
+    {
+      "q": "Czy mogę otrzymać plan makro do wydrukowania?",
+      "a": "Tak, niektóre kalkulatory udostępniają dzienne plany makr do pobrania lub wydrukowania."
+    },
+    {
+      "q": "Jak dostosować makro do różnych diet?",
+      "a": "Możesz modyfikować proporcje dla diety ketonowej, wegańskiej, kulturystycznej lub na czczo, utrzymując kalorie dostosowane do celów."
+    }
+  ]
+}

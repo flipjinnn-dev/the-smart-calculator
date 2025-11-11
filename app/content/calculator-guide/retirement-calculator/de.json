@@ -1,0 +1,85 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist ein Rentenrechner und warum wird er verwendet?",
+      "content": "Mit unserem kostenlosen Online-Rentenrechner können Sie abschätzen, wie viel Geld Sie für einen komfortablen Ruhestand benötigen. Ganz gleich, ob Sie nach einem kostenlosen Rentensparrechner, einem Notgroschenrechner für den Ruhestand oder einem Renteneinkommensrechner mit Sozialversicherung suchen, dieses Tool bietet Ihnen klare Einblicke, die auf Ihre finanziellen Ziele zugeschnitten sind. Anstatt zu raten, können Sie schnell berechnen, wie viel Geld Sie für den Ruhestand benötigen, indem Sie Ersparnisse, Investitionen, Inflation und Abhebungsraten anpassen."
+    },
+    {
+      "heading": "So funktioniert der Rentenrechner (Schritt für Schritt)",
+      "subSections": [
+        {
+          "heading": "Geben Sie Ihre aktuellen Ersparnisse ein",
+          "content": "Berücksichtigen Sie 401(k), IRA, Rente oder persönliche Ersparnisse."
+        },
+        {
+          "heading": "Fügen Sie Ihre erwarteten Beiträge hinzu",
+          "content": "Monatliche oder jährliche Einzahlungen."
+        },
+        {
+          "heading": "Passen Sie die Wachstumsannahmen an",
+          "content": "Schätzen Sie Anlagerenditen und Inflation."
+        },
+        {
+          "heading": "Legen Sie Ihr Rentenalter und Ihre Lebenserwartung fest",
+          "content": "Planen Sie realistische Zeitpläne."
+        },
+        {
+          "heading": "Überprüfen Sie Ihre Ergebnisse",
+          "content": "Sehen Sie sich die prognostizierten Einnahmen, Abhebungen und das Notgroschenwachstum an."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptvorteile unseres Ruhestandsplanungsrechners",
+      "subSections": [
+        {
+          "heading": "Inflationsbereinigte Ergebnisse",
+          "content": "Planen Sie realistisch mit einem Ruhestandsplanungsrechner mit Inflation."
+        },
+        {
+          "heading": "Auszahlungsszenarien",
+          "content": "Entdecken Sie sichere Abhebungsraten online mit einem Abhebungsrechner für den Ruhestand."
+        },
+        {
+          "heading": "Sozialversicherung und Renten",
+          "content": "Berücksichtigen Sie die Leistungen mithilfe eines Renten- und Ruhestandsrechners."
+        },
+        {
+          "heading": "Mehrere Szenarien",
+          "content": "Vergleichen Sie verschiedene Renteneintrittsalter, Sparquoten und Renditen."
+        },
+        {
+          "heading": "Diagramme und Grafiken",
+          "content": "Visualisieren Sie Ihren Ruhestandsweg für eine klarere Planung."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert nahtlos auf Telefonen, Tablets und Desktops."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viel brauche ich, um bequem in den Ruhestand zu gehen?",
+      "a": "Die meisten Experten empfehlen, 70–80 % Ihres Vorruhestandseinkommens anzustreben. Unser Rentenrechner mit Beispielen hilft Ihnen, diese Schätzung zu personalisieren."
+    },
+    {
+      "q": "Wie genau ist ein Rentenrechner?",
+      "a": "Obwohl kein Rechner die Zukunft perfekt vorhersagen kann, passt sich unser Tool an Inflation, Anlagerenditen und Lebenserwartung an, um realistische Prognosen zu liefern."
+    },
+    {
+      "q": "Kann ich den Ruhestand ohne Sozialversicherung berechnen?",
+      "a": "Ja. Mit unserem Rentenrechner ohne Sozialversicherung können Sie Szenarien mit oder ohne Leistungen durchspielen."
+    },
+    {
+      "q": "Wie hoch ist die sichere Auszahlungsrate im Ruhestand?",
+      "a": "Ein allgemeiner Richtwert liegt bei 4 %, die Ergebnisse variieren jedoch. Nutzen Sie unseren Ruhestandsrechner für sichere Auszahlungsraten, um verschiedene Strategien zu testen."
+    },
+    {
+      "q": "Ist dies das beste Tool zur Rentenberechnung?",
+      "a": "Unser Tool ist für Anfänger und Fortgeschrittene bei der Altersvorsorgeplanung optimiert und bietet mehrere Szenarien, Inflationsanpassungen und Steueraspekte, was es zu einem der besten KI-gestützten Ruhestandsrechner für 2025 macht."
+    }
+  ]
+}

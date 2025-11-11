@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Calculadora de imposto sobre vendas",
+  "pageDescription": "Calcule o imposto sobre vendas para compras com base nas taxas de imposto locais",
+  "form": {
+    "labels": {
+      "purchaseAmount": "Valor da compra",
+      "taxRate": "Taxa de imposto sobre vendas (%)",
+      "state": "Estado (opcional)",
+      "city": "Cidade (opcional)"
+    },
+    "placeholders": {
+      "purchaseAmount": "Insira o valor da compra",
+      "taxRate": "Insira a taxa de imposto sobre vendas (por exemplo, 8,25)",
+      "state": "Insira o estado para pesquisa de impostos",
+      "city": "Insira a cidade para pesquisa de impostos"
+    },
+    "buttons": {
+      "calculate": "Calcular imposto sobre vendas",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "salesTaxAmount": "Valor do imposto sobre vendas",
+    "totalAmount": "Valor total (incluindo impostos)",
+    "taxRateUsed": "Taxa de imposto usada",
+    "location": "Informações de localização"
+  },
+  "educational": {
+    "taxInfo": "Informações fiscais sobre vendas",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "taxFacts": {
+      "definition": {
+        "title": "Definição de imposto sobre vendas",
+        "description": "Um imposto sobre o consumo cobrado pelos governos sobre a venda de bens e serviços"
+      },
+      "rates": {
+        "title": "Variações nas taxas de imposto",
+        "description": "As taxas de imposto sobre vendas variam de acordo com o estado, município e cidade, com taxas combinadas atingindo mais de 10%"
+      },
+      "applications": {
+        "title": "Aplicativos do mundo real",
+        "description": "Usado pelos consumidores para calcular os custos totais de compra e pelas empresas para cumprimento fiscal"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de impostos sobre vendas",
+      "actual": "As taxas de imposto reais podem variar com base em locais específicos e tipos de compra"
+    },
+    "importantNotesList": [
+      "As taxas de imposto sobre vendas variam significativamente de acordo com o local",
+      "Alguns itens podem estar isentos de imposto sobre vendas",
+      "Taxas estaduais e locais combinadas devem ser usadas para precisão",
+      "As tarifas estão sujeitas a alterações - verifique as tarifas atuais quando necessário"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira o valor da compra e a taxa de imposto para calcular o imposto sobre vendas",
+    "resultMessage": "Os resultados do cálculo do imposto sobre vendas são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do imposto sobre vendas:",
+    "taxAnalysis": "Análise de imposto sobre vendas"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de impostos sobre vendas com base em métodos padrão de cálculo de impostos. As taxas de imposto reais podem variar com base em locais específicos, tipos de compra, isenções e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para obter cálculos precisos de impostos sobre vendas e informações de conformidade, consulte profissionais fiscais, autoridades fiscais governamentais ou bancos de dados oficiais de taxas de impostos para sua localização específica."
+  },
+  "errors": {
+    "purchaseAmount": "Insira um valor de compra válido",
+    "taxRate": "Insira uma taxa de imposto sobre vendas válida",
+    "state": "Insira um estado válido",
+    "city": "Por favor insira uma cidade válida"
+  },
+  "tooltips": {
+    "purchaseAmount": "O valor antes de impostos da sua compra",
+    "taxRate": "A taxa de imposto sobre vendas como uma porcentagem (por exemplo, 8,25 para 8,25%)",
+    "state": "Informar onde a compra é feita (para consulta de alíquota)",
+    "city": "Cidade onde é feita a compra (para consulta de alíquota)"
+  }
+}

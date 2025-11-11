@@ -1,0 +1,136 @@
+{
+  "pageTitle": "Income Tax  Calculator",
+  "pageDescription": "Calculate income tax  with our free online calculator",
+  "form": {
+    "labels": {
+      "input1": "Input 1",
+      "input2": "Input 2",
+      "input3": "Input 3"
+    },
+    "placeholders": {
+      "input1": "Enter first value",
+      "input2": "Enter second value",
+      "input3": "Enter third value"
+    },
+    "buttons": {
+      "calculate": "Calculate Income Tax ",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "result1": "Result 1",
+    "result2": "Result 2",
+    "calculationDetails": "Income Tax  Calculation Results"
+  },
+  "educational": {
+    "info": "Income Tax  Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "Income Tax  Definition",
+        "description": "Information about income tax "
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How income tax  is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of income tax "
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides income tax  estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate income tax ",
+    "resultMessage": "Your income tax  calculation results are shown below",
+    "assessmentResult": "Income Tax  Calculation Result:",
+    "analysis": "Income Tax  Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides income tax  estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  },
+  "tax_calculator_0": "Tax Calculator",
+  "basic_information_1": "Basic Information",
+  "filing_status_2": "Filing Status",
+  "single_3": "Single",
+  "married_filing_jointly_4": "Married Filing Jointly",
+  "married_filing_separately_5": "Married Filing Separately",
+  "head_of_household_6": "Head of Household",
+  "qualified_widower_7": "Qualified Widow(er)",
+  "tax_year_8": "Tax Year",
+  "k_2024_9": "2024",
+  "k_2025_10": "2025",
+  "young_dependents_016_11": "Young Dependents (0-16)",
+  "other_dependents_17_12": "Other Dependents (17+)",
+  "person_1_income_13": "Person 1 Income",
+  "wages_tips_w2_box_1_14": "Wages & Tips (W-2 Box 1)",
+  "federal_tax_withheld_w2_box_2_15": "Federal Tax Withheld (W-2 Box 2)",
+  "state_tax_withheld_w2_box_17_16": "State Tax Withheld (W-2 Box 17)",
+  "businessselfemployment_income_17": "Business/Self-Employment Income",
+  "person_2_income_18": "Person 2 Income",
+  "wages_tips_w2_box_1_19": "Wages & Tips (W-2 Box 1)",
+  "federal_tax_withheld_w2_box_2_20": "Federal Tax Withheld (W-2 Box 2)",
+  "other_income_21": "Other Income",
+  "interest_income_1099int_22": "Interest Income (1099-INT)",
+  "ordinary_dividends_1099div_23": "Ordinary Dividends (1099-DIV)",
+  "qualified_dividends_1099div_24": "Qualified Dividends (1099-DIV)",
+  "longterm_capital_gains_25": "Long-term Capital Gains",
+  "other_income_26": "Other Income",
+  "deductions_credits_27": "Deductions & Credits",
+  "ira_contributions_28": "IRA Contributions",
+  "real_estate_tax_29": "Real Estate Tax",
+  "mortgage_interest_30": "Mortgage Interest",
+  "charitable_donations_31": "Charitable Donations",
+  "calculate_32": "Calculate",
+  "tax_results_33": "Tax Results",
+  "your_complete_tax_breakdown_34": "Your complete tax breakdown",
+  "adjusted_gross_income_35": "Adjusted Gross Income",
+  "taxable_income_36": "Taxable Income",
+  "federal_tax_owed_37": "Federal Tax Owed",
+  "selfemployment_tax_38": "Self-Employment Tax",
+  "total_tax_liability_39": "Total Tax Liability",
+  "tax_rates_40": "Tax Rates",
+  "effective_tax_rate_41": "Effective Tax Rate",
+  "marginal_tax_rate_42": "Marginal Tax Rate",
+  "deduction_used_43": "Deduction Used:",
+  "standard_44": "Standard: $",
+  "itemized_45": "| Itemized: $",
+  "enter_your_tax_information_to_see_your_results_46": "Enter your tax information to see your results",
+  "formulas_calculation_steps_47": "Formulas & Calculation Steps",
+  "k_1_gross_income_48": "1. Gross Income",
+  "gross_wages_business_income_interest_dividends_cap_49": "Gross = Wages + Business Income + Interest + Dividends + Capital Gains + Other Income",
+  "k_2_adjusted_gross_income_agi_50": "2. Adjusted Gross Income (AGI)",
+  "agi_gross_income_abovetheline_deductions_ira_stude_51": "AGI = Gross Income - Above-the-line Deductions (IRA, Student Loan Interest, etc.)",
+  "k_3_taxable_income_52": "3. Taxable Income",
+  "taxable_income_agi_maxstandard_deduction_itemized__53": "Taxable Income = AGI - max(Standard Deduction, Itemized Deductions)",
+  "k_4_federal_tax_54": "4. Federal Tax",
+  "applied_using_progressive_tax_brackets_based_on_fi_55": "Applied using progressive tax brackets based on filing status"
+}

@@ -1,0 +1,112 @@
+{
+  "pageTitle": "Calculadora de Pagamento",
+  "pageDescription": "Calcule o pagamento com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular Pagamento",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo de pagamento"
+  },
+  "educational": {
+    "info": "Informações de pagamento",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de pagamento",
+        "description": "Informações sobre pagamento"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como o pagamento é calculado"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos de pagamento"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de pagamento",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular o pagamento",
+    "resultMessage": "Os resultados do cálculo do seu pagamento são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do pagamento:",
+    "analysis": "Análise de Pagamento"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de pagamento com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "loading_0": "Carregando...",
+  "payment_calculator_1": "Calculadora de Pagamento",
+  "choose_your_calculation_method_below_2": "Escolha abaixo o seu método de cálculo",
+  "fixed_term_3": "Prazo Fixo",
+  "fixed_payments_4": "Pagamentos Fixos",
+  "loan_amount_5": "Valor do empréstimo",
+  "loan_term_years_6": "Prazo do empréstimo (anos)",
+  "interest_rate_7": "Taxa de juro (%)",
+  "calculate_8": "Calcular",
+  "clear_9": "Claro",
+  "loan_amount_10": "Valor do empréstimo",
+  "monthly_payment_11": "Pagamento Mensal",
+  "interest_rate_12": "Taxa de juro (%)",
+  "calculate_13": "Calcular",
+  "clear_14": "Claro",
+  "monthly_payment_15": "Pagamento Mensal",
+  "your_payment_calculation_details_16": "Detalhes do seu cálculo de pagamento",
+  "you_will_need_to_pay_17": "Você precisará pagar $",
+  "every_month_for_18": "todos os meses para",
+  "years_to_payoff_the_debt_19": "anos para pagar a dívida.",
+  "total_of_20": "Total de",
+  "payments_21": "Pagamentos",
+  "total_interest_22": "Juros totais",
+  "principal_23": "% Principal",
+  "interest_24": "% Interesse",
+  "enter_payment_details_to_see_your_calculation_25": "Insira os detalhes de pagamento para ver seu cálculo",
+  "amortization_schedule_26": "Cronograma de Amortização",
+  "annual_payment_breakdown_27": "Detalhamento do pagamento anual",
+  "year_28": "Ano",
+  "interest_29": "Interesse",
+  "principal_30": "Principal",
+  "ending_balance_31": "Fim do saldo"
+}

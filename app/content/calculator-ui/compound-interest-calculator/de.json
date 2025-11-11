@@ -1,0 +1,132 @@
+{
+  "pageTitle": "Zinseszinsrechner",
+  "pageDescription": "Berechnen Sie das Zinseszinswachstum im Laufe der Zeit mit regelmäßigen Beiträgen für Anlage-, Spar- und Kreditszenarien",
+  "form": {
+    "labels": {
+      "principal": "Erster Schulleiter",
+      "interestRate": "Jährlicher Zinssatz",
+      "timePeriod": "Zeitraum",
+      "compoundFrequency": "Zusammengesetzte Frequenz",
+      "contributions": "Regelmäßige Beiträge",
+      "contributionAmount": "Beitragsbetrag",
+      "contributionFrequency": "Beitragshäufigkeit",
+      "contributionTiming": "Zeitpunkt des Beitrags"
+    },
+    "placeholders": {
+      "principal": "Geben Sie den anfänglichen Kapitalbetrag ein",
+      "interestRate": "Geben Sie den jährlichen Zinssatz (%) ein.",
+      "timePeriod": "Geben Sie den Zeitraum ein",
+      "contributionAmount": "Beitragsbetrag eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den Zinseszins",
+      "reset": "Zurücksetzen"
+    },
+    "compoundFrequencies": {
+      "annually": "Jährlich",
+      "semiAnnually": "Halbjährlich",
+      "quarterly": "Vierteljährlich",
+      "monthly": "Monatlich",
+      "daily": "Täglich",
+      "continuously": "Ständig"
+    },
+    "contributionFrequencies": {
+      "monthly": "Monatlich",
+      "quarterly": "Vierteljährlich",
+      "annually": "Jährlich",
+      "none": "Keine Beiträge"
+    },
+    "contributionTimings": {
+      "beginning": "Beginn der Periode",
+      "end": "Ende der Periode"
+    }
+  },
+  "results": {
+    "futureValue": "Zukünftiger Wert",
+    "totalContributions": "Gesamtbeiträge",
+    "totalInterest": "Insgesamt verdiente Zinsen",
+    "interestPercentage": "Zinsprozentsatz vom Gesamtbetrag",
+    "compoundInterestResultsTitle": "Zinseszinsergebnisse"
+  },
+  "educational": {
+    "compoundInterestInfo": "Informationen zu Zinseszinsen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "compoundInterestFacts": {
+      "definition": {
+        "title": "Zinseszins-Definition",
+        "description": "Zinsen, berechnet auf Basis des ursprünglichen Kapitals und aufgelaufener Zinsen aus früheren Perioden"
+      },
+      "formula": {
+        "title": "Berechnungsformel",
+        "description": "A = P(1 + r/n)^(nt) + PMT × [((1 + r/n)^(nt) - 1) / (r/n)]"
+      },
+      "power": {
+        "title": "Macht der Compoundierung",
+        "description": "Zeit und Zinssatz wirken sich erheblich auf den endgültigen Investitionswert aus"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Zinseszinsschätzungen",
+      "actual": "Die tatsächlichen Anlagerenditen können je nach Marktbedingungen und Gebühren variieren"
+    },
+    "importantNotesList": [
+      "Je länger der Zeitraum, desto dramatischer ist der Aufzinsungseffekt",
+      "Höhere Zinssätze führen im Laufe der Zeit zu einem exponentiellen Wachstum",
+      "Regelmäßige Beiträge erhöhen den endgültigen Investitionswert erheblich",
+      "Berücksichtigen Sie Inflation und Steuern, wenn Sie die realen Renditen bewerten"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Anlageinformationen ein, um das Zinseszinswachstum zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Zinseszinsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Zinseszinsberechnung:",
+    "compoundInterestAnalysis": "Zinseszinsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Zinseszinsschätzungen basierend auf mathematischen Formeln. Die tatsächlichen Anlagerenditen können je nach Marktbedingungen, Gebühren, Steuern und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine individuelle Anlageberatung und Finanzplanung wenden Sie sich an Finanzberater oder Anlageexperten mit Fachkenntnissen im Portfoliomanagement und in individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "principal": "Bitte geben Sie einen gültigen Anfangskapitalbetrag ein",
+    "interestRate": "Bitte geben Sie einen gültigen Jahreszinssatz ein",
+    "timePeriod": "Bitte geben Sie einen gültigen Zeitraum ein",
+    "contributionAmount": "Bitte geben Sie einen gültigen Beitragsbetrag ein",
+    "compoundFrequency": "Bitte wählen Sie eine zusammengesetzte Frequenz aus",
+    "contributionFrequency": "Bitte wählen Sie eine Beitragshäufigkeit aus",
+    "contributionTiming": "Bitte wählen Sie den Beitragszeitpunkt aus"
+  },
+  "tooltips": {
+    "principal": "Ursprünglich investierter oder gesparter Betrag",
+    "interestRate": "Jährlicher Zinssatz oder erwartete Rendite",
+    "timePeriod": "Zeitspanne für das Investitionswachstum",
+    "compoundFrequency": "Wie oft werden die Zinsen pro Jahr aufgezinst?",
+    "contributionAmount": "Regulärer Betrag, der zur Investition hinzugefügt wird",
+    "contributionFrequency": "Wie oft werden Beiträge geleistet?",
+    "contributionTiming": "Ob Beiträge zu Beginn oder am Ende der Periode geleistet werden"
+  },
+  "investment_details_0": "Investitionsdetails",
+  "enter_your_investment_information_1": "Geben Sie Ihre Anlageinformationen ein",
+  "initial_investment_2": "Erstinvestition",
+  "monthly_contribution_3": "Monatlicher Beitrag",
+  "annual_interest_rate_4": "Jährlicher Zinssatz (%)",
+  "investment_period_years_5": "Anlagezeitraum (Jahre)",
+  "compound_frequency_6": "Zusammengesetzte Frequenz",
+  "annually_7": "Jährlich",
+  "quarterly_8": "Vierteljährlich",
+  "monthly_9": "Monatlich",
+  "daily_10": "Täglich",
+  "calculate_11": "Berechnen",
+  "investment_growth_12": "Investitionswachstum",
+  "your_investment_projection_13": "Ihre Investitionsprognose",
+  "final_amount_14": "Endbetrag",
+  "total_interest_earned_15": "Insgesamt verdiente Zinsen",
+  "total_contributions_16": "Gesamtbeiträge",
+  "enter_investment_details_to_see_growth_projection_17": "Geben Sie Investitionsdetails ein, um die Wachstumsprognose anzuzeigen"
+}

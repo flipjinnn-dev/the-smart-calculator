@@ -1,0 +1,199 @@
+{
+  "pageTitle": "Mortgage Calculator",
+  "pageDescription": "Calculate monthly mortgage payments, total interest, and amortization schedule for home loans with property tax and insurance considerations",
+  "form": {
+    "labels": {
+      "homePrice": "Home Price",
+      "downPayment": "Down Payment",
+      "downPaymentType": "Down Payment Type",
+      "loanAmount": "Loan Amount",
+      "interestRate": "Annual Interest Rate",
+      "loanTerm": "Loan Term",
+      "startDate": "Loan Start Date",
+      "propertyTax": "Annual Property Tax",
+      "homeInsurance": "Annual Home Insurance",
+      "pmi": "Private Mortgage Insurance (PMI)",
+      "hoa": "Monthly HOA Fees"
+    },
+    "placeholders": {
+      "homePrice": "Enter home price",
+      "downPayment": "Enter down payment",
+      "loanAmount": "Enter loan amount",
+      "interestRate": "Enter annual interest rate (%)",
+      "loanTerm": "Enter loan term in years",
+      "propertyTax": "Enter annual property tax",
+      "homeInsurance": "Enter annual home insurance",
+      "pmi": "Enter PMI if applicable",
+      "hoa": "Enter monthly HOA fees"
+    },
+    "buttons": {
+      "calculate": "Calculate Mortgage",
+      "reset": "Reset"
+    },
+    "downPaymentTypes": {
+      "amount": "Amount",
+      "percentage": "Percentage"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Monthly Payment",
+    "principalAndInterest": "Principal & Interest",
+    "propertyTax": "Property Tax",
+    "homeInsurance": "Home Insurance",
+    "pmi": "PMI",
+    "hoa": "HOA Fees",
+    "totalInterest": "Total Interest Paid",
+    "totalPayment": "Total Payment",
+    "payoffDate": "Loan Payoff Date",
+    "mortgageResultsTitle": "Mortgage Calculation Results"
+  },
+  "educational": {
+    "mortgageInfo": "Mortgage Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "mortgageFacts": {
+      "components": {
+        "title": "Mortgage Payment Components",
+        "description": "Principal, Interest, Taxes, and Insurance (PITI)"
+      },
+      "amortization": {
+        "title": "Amortization",
+        "description": "Early payments are mostly interest; later payments are mostly principal"
+      },
+      "downPayment": {
+        "title": "Down Payment Impact",
+        "description": "Larger down payments reduce loan amount and may eliminate PMI requirement"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides mortgage payment estimates only",
+      "actual": "Actual mortgage terms may vary based on lender policies, fees, and creditworthiness"
+    },
+    "importantNotesList": [
+      "This is an estimate and does not include all possible fees and charges",
+      "PMI is typically required for down payments less than 20%",
+      "Property taxes and insurance can vary significantly by location",
+      "Consider getting pre-approved for a mortgage before house hunting"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your mortgage information to calculate monthly payments",
+    "resultMessage": "Your mortgage calculation results are shown below",
+    "assessmentResult": "Mortgage Calculation Result:",
+    "mortgageAnalysis": "Mortgage Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides mortgage payment estimates based on standard financial formulas. Actual mortgage terms, payments, and interest may vary based on lender policies, fees, credit score, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized mortgage advice and loan options, consult mortgage brokers or loan officers with expertise in home lending products and individual financial circumstances."
+  },
+  "errors": {
+    "homePrice": "Please enter a valid home price",
+    "downPayment": "Please enter a valid down payment",
+    "loanAmount": "Please enter a valid loan amount",
+    "interestRate": "Please enter a valid annual interest rate",
+    "loanTerm": "Please enter a valid loan term",
+    "startDate": "Please enter a valid loan start date",
+    "propertyTax": "Please enter a valid annual property tax amount",
+    "homeInsurance": "Please enter a valid annual home insurance amount",
+    "pmi": "Please enter a valid PMI amount",
+    "hoa": "Please enter a valid HOA fee amount"
+  },
+  "tooltips": {
+    "homePrice": "Purchase price of the home",
+    "downPayment": "Amount paid upfront toward the home purchase",
+    "downPaymentType": "Whether down payment is specified as amount or percentage",
+    "loanAmount": "Amount borrowed from the lender",
+    "interestRate": "Annual interest rate on the mortgage loan",
+    "loanTerm": "Length of time to repay the mortgage (typically 15 or 30 years)",
+    "startDate": "Date when mortgage payments begin",
+    "propertyTax": "Annual property tax assessed by local government",
+    "homeInsurance": "Annual cost of homeowners insurance",
+    "pmi": "Private Mortgage Insurance required for down payments less than 20%",
+    "hoa": "Monthly fees for Homeowners Association services"
+  },
+  "advanced_mortgage_calculator_0": "Advanced Mortgage Calculator",
+  "calculate_your_complete_mortgage_costs_with_advanc_1": "Calculate your complete mortgage costs with advanced features including extra payments, annual\n                increases, and detailed breakdowns.",
+  "mortgage_calculator_2": "Mortgage Calculator",
+  "home_price_3": "Home Price",
+  "down_payment_4": "Down Payment",
+  "loan_term_5": "Loan Term",
+  "k_10_years_6": "10 years",
+  "k_15_years_7": "15 years",
+  "k_20_years_8": "20 years",
+  "k_25_years_9": "25 years",
+  "k_30_years_10": "30 years",
+  "interest_rate_11": "Interest Rate",
+  "start_date_12": "Start Date",
+  "jan_13": "Jan",
+  "feb_14": "Feb",
+  "mar_15": "Mar",
+  "apr_16": "Apr",
+  "may_17": "May",
+  "jun_18": "Jun",
+  "jul_19": "Jul",
+  "aug_20": "Aug",
+  "sep_21": "Sep",
+  "oct_22": "Oct",
+  "nov_23": "Nov",
+  "dec_24": "Dec",
+  "annual_tax_costs_25": "Annual Tax & Costs",
+  "annual_tax_cost_increases_26": "Annual Tax & Cost Increases",
+  "extra_payments_27": "Extra Payments",
+  "extra_monthly_pay_28": "+ Extra Monthly Pay",
+  "extra_yearly_pay_29": "+ Extra Yearly Pay",
+  "extra_onetime_pay_30": "+ Extra One-time Pay",
+  "from_31": "from",
+  "jan_32": "Jan",
+  "feb_33": "Feb",
+  "mar_34": "Mar",
+  "apr_35": "Apr",
+  "may_36": "May",
+  "jun_37": "Jun",
+  "jul_38": "Jul",
+  "aug_39": "Aug",
+  "sep_40": "Sep",
+  "oct_41": "Oct",
+  "nov_42": "Nov",
+  "dec_43": "Dec",
+  "remove_44": "Remove",
+  "calculate_mortgage_45": "Calculate Mortgage",
+  "monthly_payment_46": "Monthly Payment",
+  "your_complete_payment_breakdown_47": "Your complete payment breakdown",
+  "monthly_pay_48": "Monthly Pay",
+  "total_monthly_payment_49": "Total Monthly Payment",
+  "payment_breakdown_50": "Payment Breakdown",
+  "mortgage_payment_51": "Mortgage Payment",
+  "property_tax_52": "Property Tax",
+  "home_insurance_53": "Home Insurance",
+  "other_costs_54": "Other Costs",
+  "payment_distribution_55": "Payment Distribution",
+  "principal_interest_56": "% Principal & Interest",
+  "property_taxes_57": "% Property Taxes",
+  "home_insurance_58": "% Home Insurance",
+  "other_costs_59": "% Other Costs",
+  "loan_summary_60": "Loan Summary",
+  "house_price_61": "House Price:",
+  "loan_amount_62": "Loan Amount:",
+  "down_payment_63": "Down Payment:",
+  "interest_rate_64": "Interest Rate:",
+  "loan_term_65": "Loan Term:",
+  "years_66": "years",
+  "total_interest_67": "Total Interest:",
+  "payoff_date_68": "Payoff Date:",
+  "latest_mortgage_rates_69": "Latest Mortgage Rates:",
+  "k_30_years_70": "30 Years:",
+  "k_6512_71": "6.512%",
+  "k_15_years_72": "15 Years:",
+  "k_5608_73": "5.608%",
+  "k_10_years_74": "10 Years:",
+  "k_5494_75": "5.494%",
+  "see_your_local_rates_76": "See Your Local Rates",
+  "get_preapproval_77": "Get Pre-approval",
+  "enter_mortgage_details_to_see_your_payment_breakdo_78": "Enter mortgage details to see your payment breakdown"
+}

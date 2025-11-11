@@ -1,0 +1,98 @@
+{
+  "pageTitle": "Rechner für die Körperoberfläche (BSA).",
+  "pageDescription": "Berechnen Sie Ihre Körperoberfläche mit medizinischen Formeln wie Du Bois, Mosteller, Haycock und Gehan & George",
+  "form": {
+    "labels": {
+      "weight": "Gewicht",
+      "height": "Höhe",
+      "weightUnit": "Gewichtseinheit",
+      "heightUnit": "Höheneinheit",
+      "formula": "Berechnungsformel"
+    },
+    "placeholders": {
+      "weight": "Geben Sie Ihr Gewicht ein",
+      "height": "Geben Sie Ihre Körpergröße ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den BSA",
+      "reset": "Zurücksetzen"
+    },
+    "units": {
+      "kilograms": "Kilogramm (kg)",
+      "pounds": "Pfund (lbs)",
+      "centimeters": "Zentimeter (cm)",
+      "inches": "Zoll (in)",
+      "feetInches": "Fuß und Zoll (ft/in)"
+    },
+    "formulas": {
+      "duBois": "Du Bois-Formel",
+      "mosteller": "Mosteller-Formel",
+      "haycock": "Haycock-Formel",
+      "gehanGeorge": "Gehan & George-Formel"
+    }
+  },
+  "results": {
+    "bsaResult": "Körperoberfläche (BSA)",
+    "formulaUsed": "Verwendete Formel",
+    "weightInKg": "Gewicht (kg)",
+    "heightInCm": "Höhe (cm)",
+    "normalRange": "Normaler Bereich",
+    "interpretation": "BSA-Interpretation"
+  },
+  "educational": {
+    "bsaInfo": "Informationen zur Körperoberfläche",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Gesundheitsressourcen",
+    "bsaFacts": {
+      "definition": {
+        "title": "Definition der Körperoberfläche",
+        "description": "BSA ist die Gesamtoberfläche des menschlichen Körpers, üblicherweise ausgedrückt in Quadratmetern (m²)."
+      },
+      "formulas": {
+        "title": "Berechnungsformeln",
+        "description": "Für Erwachsene und Kinder werden unterschiedliche Formeln verwendet, wobei Du Bois der klinische Standard ist"
+      },
+      "applications": {
+        "title": "Medizinische Anwendungen",
+        "description": "Wird zur Medikamentendosierung, zum Flüssigkeitsersatz und zur Beurteilung der Nierenfunktion verwendet"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur BSA-Schätzungen",
+      "actual": "Wenden Sie sich für individuelle medizinische Beurteilungen an medizinisches Fachpersonal"
+    },
+    "importantNotesList": [
+      "Der BSA ist für bestimmte medizinische Berechnungen genauer als der BMI",
+      "Für bestimmte Bevölkerungsgruppen sind möglicherweise andere Formeln geeigneter",
+      "Die Ergebnisse sollten keine professionelle medizinische Beratung ersetzen",
+      "Körperzusammensetzung und Flüssigkeitszufuhr können die Genauigkeit beeinträchtigen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihr Gewicht und Ihre Größe ein, um die Körperoberfläche zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Körperoberflächenberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der BSA-Berechnung:",
+    "bsaAnalysis": "Analyse der Körperoberfläche"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen der Körperoberfläche basierend auf medizinischen Standardformeln. Die Ergebnisse sollten keine professionelle medizinische Beratung, Diagnose oder Behandlung ersetzen. Individuelle Beurteilungen sollten von qualifiziertem medizinischem Fachpersonal durchgeführt werden."
+  },
+  "seekHelp": {
+    "title": "Gesundheitsressourcen",
+    "content": "Für personalisierte medizinische Beurteilungen und Behandlungspläne wenden Sie sich bitte an medizinisches Fachpersonal, das Sie auf der Grundlage individueller Bedürfnisse und Krankengeschichte beraten kann."
+  },
+  "errors": {
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "height": "Bitte geben Sie eine gültige Höhe ein"
+  },
+  "tooltips": {
+    "weight": "Ihr aktuelles Körpergewicht",
+    "height": "Ihre aktuelle Körpergröße",
+    "weightUnit": "Maßeinheit für das Gewicht",
+    "heightUnit": "Maßeinheit für die Höhe",
+    "formula": "Wählen Sie die Formel aus, die für die BSA-Berechnung verwendet werden soll"
+  }
+}

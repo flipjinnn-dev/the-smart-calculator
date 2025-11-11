@@ -1,0 +1,180 @@
+{
+  "pageTitle": "Kalkulator wynagrodzeń",
+  "pageDescription": "Oblicz swoje wynagrodzenie na rękę po opodatkowaniu i potrąceniach, korzystając z kompleksowej analizy wynagrodzeń, obejmującej nadgodziny, premie i wycenę świadczeń",
+  "form": {
+    "labels": {
+      "grossSalary": "Roczne wynagrodzenie brutto",
+      "payFrequency": "Częstotliwość płatności",
+      "filingStatus": "Status zeznania podatkowego",
+      "dependents": "Liczba osób na utrzymaniu",
+      "additionalIncome": "Dodatkowy dochód",
+      "overtimeHours": "Miesięczne godziny nadliczbowe",
+      "overtimeRate": "Stawka za nadgodziny",
+      "bonuses": "Premie roczne",
+      "preTaxDeductions": "Odliczenia przed opodatkowaniem",
+      "postTaxDeductions": "Odliczenia po opodatkowaniu"
+    },
+    "placeholders": {
+      "grossSalary": "Wprowadź roczne wynagrodzenie brutto",
+      "additionalIncome": "Wpisz dodatkowy dochód",
+      "overtimeHours": "Wprowadź miesięczne nadgodziny",
+      "overtimeRate": "Wprowadź stawkę za nadgodziny",
+      "bonuses": "Wprowadź premie roczne",
+      "preTaxDeductions": "Wprowadź odliczenia przed opodatkowaniem",
+      "postTaxDeductions": "Wprowadź odliczenia po opodatkowaniu"
+    },
+    "buttons": {
+      "calculate": "Oblicz wynagrodzenie na wynos",
+      "reset": "Nastawić"
+    },
+    "payFrequencies": {
+      "annually": "Rocznie",
+      "monthly": "Miesięczny",
+      "biweekly": "Dwutygodniowy",
+      "weekly": "Tygodnik"
+    },
+    "filingStatuses": {
+      "single": "Pojedynczy",
+      "married": "Małżeństwo rozliczające się wspólnie",
+      "head": "Głowa gospodarstwa domowego",
+      "separate": "Żonaty, rozliczający się osobno"
+    }
+  },
+  "results": {
+    "grossAnnual": "Roczny dochód brutto",
+    "grossMonthly": "Miesięczny dochód brutto",
+    "totalDeductions": "Całkowite odliczenia",
+    "netAnnual": "Roczny dochód netto",
+    "netMonthly": "Miesięczny dochód netto",
+    "taxBreakdown": "Podział podatku",
+    "salaryResultsTitle": "Wyniki obliczeń wynagrodzeń"
+  },
+  "educational": {
+    "salaryInfo": "Informacje o wynagrodzeniach",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "salaryFacts": {
+      "grossVsNet": {
+        "title": "Płaca brutto vs netto",
+        "description": "Wynagrodzenie brutto uwzględniane jest przed potrąceniami; wynagrodzenie netto to to, co faktycznie otrzymujesz"
+      },
+      "deductions": {
+        "title": "Wspólne odliczenia",
+        "description": "Podatek federalny, podatek stanowy, ubezpieczenie społeczne, opieka medyczna, składki ubezpieczeniowe"
+      },
+      "benefits": {
+        "title": "Wycena korzyści",
+        "description": "Świadczenia pracodawcy, takie jak ubezpieczenie zdrowotne, mogą być warte 30-40% wynagrodzenia"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunkowe obliczenia wynagrodzeń",
+      "actual": "Rzeczywiste wynagrodzenie na rękę może się różnić w zależności od konkretnych sytuacji podatkowych i odliczeń"
+    },
+    "importantNotesList": [
+      "Stawki podatku różnią się w zależności od stanu i miejscowości",
+      "Odliczenia przed opodatkowaniem zmniejszają dochód podlegający opodatkowaniu",
+      "Weź pod uwagę całkowity pakiet wynagrodzeń, a nie tylko wynagrodzenie",
+      "Regularne okresy wynagrodzeń pomagają w budżetowaniu i planowaniu finansowym"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje o swoim wynagrodzeniu, aby obliczyć wynagrodzenie na rękę",
+    "resultMessage": "Wyniki obliczenia wynagrodzenia przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia wynagrodzenia:",
+    "salaryAnalysis": "Analiza wynagrodzeń"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia szacunkową kalkulację wynagrodzenia w oparciu o ogólne informacje podatkowe. Rzeczywiste wynagrodzenie na rękę może się różnić w zależności od konkretnych sytuacji podatkowych, podatków lokalnych i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowaną analizę wynagrodzeń i planowanie podatkowe, skonsultuj się ze specjalistami podatkowymi lub doradcami finansowymi posiadającymi wiedzę specjalistyczną w zakresie odszkodowań i indywidualnych okoliczności podatkowych."
+  },
+  "errors": {
+    "grossSalary": "Proszę podać prawidłowe wynagrodzenie brutto",
+    "payFrequency": "Wybierz częstotliwość płatności",
+    "filingStatus": "Proszę wybrać status zgłoszenia",
+    "dependents": "Proszę wprowadzić prawidłową liczbę osób na utrzymaniu",
+    "additionalIncome": "Proszę podać prawidłowy dodatkowy dochód",
+    "overtimeHours": "Proszę podać prawidłowe godziny nadliczbowe",
+    "overtimeRate": "Proszę wprowadzić prawidłową stawkę za nadgodziny",
+    "bonuses": "Proszę wprowadzić prawidłową kwotę bonusu",
+    "preTaxDeductions": "Proszę wprowadzić prawidłowe odliczenia przed opodatkowaniem",
+    "postTaxDeductions": "Proszę wprowadzić prawidłowe odliczenia po opodatkowaniu"
+  },
+  "tooltips": {
+    "grossSalary": "Twoje całkowite roczne wynagrodzenie przed potrąceniami",
+    "payFrequency": "Jak często otrzymujesz wypłatę",
+    "filingStatus": "Twój status złożenia zeznania podatkowego wpływa na stawki i odliczenia podatkowe",
+    "dependents": "Liczba osób na utrzymaniu wykazana w zeznaniu podatkowym",
+    "additionalIncome": "Dochody ze źródeł innych niż podstawowa praca",
+    "overtimeHours": "Średnia miesięczna liczba przepracowanych nadgodzin",
+    "overtimeRate": "Stawka wynagrodzenia za nadgodziny (zwykle 1,5x stawka podstawowa)",
+    "bonuses": "Otrzymane kwoty premii rocznej",
+    "preTaxDeductions": "Odliczenia przed opodatkowaniem (401 tys., HSA itp.)",
+    "postTaxDeductions": "Odliczenia po opodatkowaniu (Roth IRA, składki związkowe itp.)"
+  },
+  "salary_calculator_0": "Kalkulator wynagrodzeń",
+  "salary_information_1": "Informacje o wynagrodzeniach",
+  "salary_amount_2": "Wysokość wynagrodzenia",
+  "pay_frequency_3": "Częstotliwość płatności",
+  "hourly_4": "Cogodzinny",
+  "daily_5": "Codziennie",
+  "weekly_6": "Tygodnik",
+  "biweekly_7": "Dwutygodniowy",
+  "semimonthly_8": "Półmiesięczne",
+  "monthly_9": "Miesięczny",
+  "quarterly_10": "Kwartalny",
+  "yearly_11": "Rocznie",
+  "work_schedule_12": "Harmonogram pracy",
+  "hours_per_week_13": "Godziny tygodniowo",
+  "days_per_week_14": "Dni w tygodniu",
+  "holidays_per_year_15": "Święta rocznie",
+  "vacation_days_per_year_16": "Dni urlopu w roku",
+  "calculate_17": "Obliczać",
+  "salary_results_18": "Wyniki wynagrodzeń",
+  "your_salary_breakdown_and_conversions_19": "Podział wynagrodzeń i konwersje",
+  "unadjusted_annual_20": "Nieskorygowany roczny",
+  "k_260_working_days_21": "260 dni roboczych",
+  "adjusted_annual_22": "Skorygowane roczne",
+  "working_days_23": "dni robocze",
+  "pay_period_conversions_24": "Konwersje okresu rozliczeniowego",
+  "period_25": "Okres",
+  "unadjusted_26": "Niewyregulowane",
+  "adjusted_27": "Dostosowany",
+  "assumptions_used_28": "Zastosowane założenia:",
+  "k_52_working_weeks_per_year_29": "• 52 tygodnie pracy w roku",
+  "k_5_working_days_per_week_260_total_days_30": "• 5 dni roboczych w tygodniu = łącznie 260 dni",
+  "holidays_vacation_days_31": "• Święta + dni urlopu:",
+  "days_32": "dni",
+  "adjusted_calculation_removes_nonworking_days_33": "• Skorygowane obliczenia usuwają dni wolne od pracy",
+  "enter_your_salary_information_to_see_conversions_34": "Wprowadź informacje o swoim wynagrodzeniu, aby zobaczyć konwersje",
+  "formulas_logic_35": "Formuły i logika",
+  "annual_salary_conversion_36": "Roczna konwersja wynagrodzeń",
+  "hourly_37": "Cogodzinny:",
+  "rate_hoursweek_52_weeks_38": "Stawka × godziny/tydzień × 52 tygodnie",
+  "daily_39": "Codziennie:",
+  "rate_260_days_40": "Stawka × 260 dni",
+  "weekly_41": "Tygodnik:",
+  "rate_52_weeks_42": "Stawka × 52 tygodnie",
+  "biweekly_43": "Dwutygodniowy:",
+  "rate_26_periods_44": "Stawka × 26 okresów",
+  "semimonthly_45": "Półmiesięczne:",
+  "rate_24_periods_46": "Stawka × 24 okresy",
+  "monthly_47": "Miesięczny:",
+  "rate_12_months_48": "Stawka × 12 miesięcy",
+  "quarterly_49": "Kwartalny:",
+  "rate_4_quarters_50": "Stawka × 4 ćwiartki",
+  "adjusted_salary_51": "Skorygowane wynagrodzenie",
+  "adjusted_annual_unadjusted_annual_working_days_aft_52": "Skorygowany roczny = Nieskorygowany roczny × (Dni robocze po urlopie ÷ 260)",
+  "working_days_260_holidays_vacation_days_53": "Dni robocze = 260 - (Święta + Dni urlopu)",
+  "example_calculation_54": "Przykładowe obliczenia",
+  "if_rate_25hour_40_hoursweek_25_days_off_55": "Jeśli stawka = 25 USD/godzinę, 40 godzin tygodniowo, 25 dni wolnych:",
+  "unadjusted_annual_25_40_52_52000_56": "• Nieskorygowane roczne = 25 USD × 40 × 52 = 52 000 USD",
+  "working_days_260_25_235_days_57": "• Dni robocze = 260 - 25 = 235 dni",
+  "adjusted_annual_52000_235_260_47000_58": "• Skorygowany roczny = 52 000 USD × (235 ÷ 260) = 47 000 USD"
+}

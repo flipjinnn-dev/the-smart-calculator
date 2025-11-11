@@ -1,0 +1,122 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator GFR?",
+      "content": "Kalkulator GFR (współczynnik filtracji kłębuszkowej) szacuje, jak dobrze nerki filtrują krew. Na podstawie wieku, płci i poziomu kreatyniny w surowicy szacuje się GFR (eGFR) i określa się stopień zaawansowania przewlekłej choroby nerek (CKD). Narzędzie to jest niezbędne do monitorowania stanu nerek zarówno u dorosłych, jak i u dzieci."
+    },
+    {
+      "heading": "Jak działa kalkulator GFR",
+      "subSections": [
+        {
+          "heading": "Wymagane dane wejściowe",
+          "content": "Wiek, płeć, kreatynina w surowicy (mg/dl lub μmol/l), wybór dla dzieci lub dorosłych."
+        },
+        {
+          "heading": "Używane formuły",
+          "content": "CKD-EPI (najdokładniejszy dla dorosłych), MDRD (powszechnie stosowany w monitorowaniu PChN) i wzór Schwartza (do obliczania GFR u dzieci)."
+        },
+        {
+          "heading": "Co stanie się dalej",
+          "content": "Po wprowadzeniu szczegółów kalkulator oszacuje Twój eGFR i, jeśli ma to zastosowanie, określi stopień zaawansowania PChN."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora GFR?",
+      "subSections": [
+        {
+          "heading": "Jasne informacje o stanie zdrowia nerek",
+          "content": "Szybko zrozumiesz, jak skutecznie Twoje nerki filtrują krew."
+        },
+        {
+          "heading": "Monitorowanie PChN",
+          "content": "Śledź postęp lub wykrywaj chorobę nerek we wczesnym stadium."
+        },
+        {
+          "heading": "Spersonalizowane śledzenie",
+          "content": "Oddzielne kalkulatory dla dorosłych i dzieci zapewniają dokładność."
+        },
+        {
+          "heading": "Porównanie formuł",
+          "content": "Aby uzyskać optymalną dokładność, sprawdź wyniki za pomocą CKD-EPI i MDRD."
+        },
+        {
+          "heading": "Wygoda",
+          "content": "Szybko, bezpłatnie i online, bez ręcznych obliczeń."
+        }
+      ]
+    },
+    {
+      "heading": "Wskazówki, jak naturalnie poprawić czynność nerek",
+      "subSections": [
+        {
+          "heading": "Pozostań nawodniony",
+          "content": "Pij codziennie wystarczającą ilość wody, aby wspomóc filtrację nerek."
+        },
+        {
+          "heading": "Kontroluj ciśnienie krwi i poziom cukru we krwi",
+          "content": "Pomaga zapobiegać postępowi PChN."
+        },
+        {
+          "heading": "Stosuj dietę przyjazną dla nerek",
+          "content": "Ogranicz sól, przetworzoną żywność i nadmierne spożycie białka."
+        },
+        {
+          "heading": "Unikaj leków nefrotoksycznych",
+          "content": "Przyjmuj tylko leki wpływające na nerki, jeśli zostały przepisane."
+        },
+        {
+          "heading": "Ćwicz regularnie",
+          "content": "Wspomaga zdrowie układu krążenia, pośrednio poprawiając nerki."
+        },
+        {
+          "heading": "Regularne monitorowanie",
+          "content": "Skorzystaj z kalkulatora GFR online, aby śledzić trendy w czasie."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest GFR i dlaczego jest ważny?",
+      "a": "GFR mierzy skuteczność filtrowania krwi przez nerki, wskazując ogólny stan zdrowia nerek."
+    },
+    {
+      "q": "Jak obliczyć GFR online?",
+      "a": "Wpisz swój wiek, płeć i poziom kreatyniny w surowicy do kalkulatora, aby uzyskać wartość eGFR."
+    },
+    {
+      "q": "Jaki jest prawidłowy zakres GFR u dorosłych?",
+      "a": "Zwykle 90–120 ml/min/1,73 m², chociaż zmienia się w zależności od wieku i płci."
+    },
+    {
+      "q": "Jak GFR wypada w porównaniu z poziomem kreatyniny?",
+      "a": "GFR dostosowuje się do wieku, płci i wielkości ciała, dając pełniejszy obraz niż sama kreatynina."
+    },
+    {
+      "q": "Czy pediatryczny kalkulator GFR może pomóc dzieciom?",
+      "a": "Tak, do oceny czynności nerek u dzieci stosuje się wzór Schwartza."
+    },
+    {
+      "q": "Co jest lepsze: formuła CKD-EPI czy MDRD?",
+      "a": "CKD-EPI jest dokładniejszy w przypadku dorosłych z prawidłową lub nieznacznie upośledzoną czynnością nerek, podczas gdy MDRD jest powszechnie stosowana w monitorowaniu PChN."
+    },
+    {
+      "q": "Czy mogę monitorować czynność nerek w czasie?",
+      "a": "Tak, regularne śledzenie za pomocą kalkulatora GFR pomaga monitorować zmiany i wcześnie wykrywać problemy."
+    },
+    {
+      "q": "Czy ten kalkulator GFR jest odpowiedni do pomiaru nieregularnej czynności nerek?",
+      "a": "Tak, dostosowuje się do wieku, płci i statusu osoby dorosłej/dzieci, aby zachować niezawodność."
+    },
+    {
+      "q": "Czy bezpłatne kalkulatory GFR są tak samo dokładne jak płatne?",
+      "a": "Tak, nasz darmowy kalkulator wykorzystuje te same sprawdzone formuły, co profesjonalne narzędzia."
+    },
+    {
+      "q": "Jak mogę naturalnie poprawić GFR?",
+      "a": "Nawodnienie, zdrowa dieta, kontrola ciśnienia krwi, ćwiczenia i regularne monitorowanie mogą pomóc w utrzymaniu lub poprawie funkcji nerek."
+    }
+  ]
+}

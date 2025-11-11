@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Sales Tax Calculator",
+  "pageDescription": "Calculate sales tax for purchases based on local tax rates",
+  "form": {
+    "labels": {
+      "purchaseAmount": "Purchase Amount",
+      "taxRate": "Sales Tax Rate (%)",
+      "state": "State (Optional)",
+      "city": "City (Optional)"
+    },
+    "placeholders": {
+      "purchaseAmount": "Enter purchase amount",
+      "taxRate": "Enter sales tax rate (e.g., 8.25)",
+      "state": "Enter state for tax lookup",
+      "city": "Enter city for tax lookup"
+    },
+    "buttons": {
+      "calculate": "Calculate Sales Tax",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "salesTaxAmount": "Sales Tax Amount",
+    "totalAmount": "Total Amount (Including Tax)",
+    "taxRateUsed": "Tax Rate Used",
+    "location": "Location Information"
+  },
+  "educational": {
+    "taxInfo": "Sales Tax Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "taxFacts": {
+      "definition": {
+        "title": "Sales Tax Definition",
+        "description": "A consumption tax imposed by governments on the sale of goods and services"
+      },
+      "rates": {
+        "title": "Tax Rate Variations",
+        "description": "Sales tax rates vary by state, county, and city with combined rates reaching over 10%"
+      },
+      "applications": {
+        "title": "Real-world Applications",
+        "description": "Used by consumers to calculate total purchase costs and by businesses for tax compliance"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides sales tax estimates only",
+      "actual": "Actual tax rates may vary based on specific locations and purchase types"
+    },
+    "importantNotesList": [
+      "Sales tax rates vary significantly by location",
+      "Some items may be exempt from sales tax",
+      "Combined state and local rates should be used for accuracy",
+      "Rates are subject to change - verify current rates when needed"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter purchase amount and tax rate to calculate sales tax",
+    "resultMessage": "Your sales tax calculation results are shown below",
+    "assessmentResult": "Sales Tax Calculation Result:",
+    "taxAnalysis": "Sales Tax Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides sales tax estimates based on standard tax calculation methods. Actual tax rates may vary based on specific locations, purchase types, exemptions, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For accurate sales tax calculations and compliance information, consult tax professionals, government tax authorities, or official tax rate databases for your specific location."
+  },
+  "errors": {
+    "purchaseAmount": "Please enter a valid purchase amount",
+    "taxRate": "Please enter a valid sales tax rate",
+    "state": "Please enter a valid state",
+    "city": "Please enter a valid city"
+  },
+  "tooltips": {
+    "purchaseAmount": "The pre-tax amount of your purchase",
+    "taxRate": "The sales tax rate as a percentage (e.g., 8.25 for 8.25%)",
+    "state": "State where the purchase is made (for tax rate lookup)",
+    "city": "City where the purchase is made (for tax rate lookup)"
+  }
+}

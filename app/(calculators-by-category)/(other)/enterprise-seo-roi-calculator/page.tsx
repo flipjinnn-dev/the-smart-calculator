@@ -1,17 +1,16 @@
 "use client"
 
+import { useCalculatorContent } from "@/hooks/useCalculatorContent"
+import { usePathname } from "next/navigation"
 import type React from "react"
 import { useRef, useState } from "react"
-import Link from "next/link"
 import { Calculator, TrendingUp, DollarSign, Users, HelpCircle } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Separator } from "@/components/ui/separator"
-import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
-import SEO from "@/lib/seo"
 
 interface SEOROIResults {
   monthlyRevenue: number
@@ -22,7 +21,26 @@ interface SEOROIResults {
   steps: string[]
 }
 
-export default function EnterpriseSEOROICalculator() {
+export default function EnterpriseSeoRoiCalculatorCalculator() {
+  const pathname = usePathname()
+  const language = pathname.split('/')[1] || 'en'
+  const { content, loading, error: contentError } = useCalculatorContent('enterprise-seo-roi-calculator', language)
+  
+  // Use content or fallback to defaults
+  const contentData = content || {
+    pageTitle: "Enterprise Seo Roi Calculator Calculator",
+    pageDescription: "Calculate seo roi calculator with our free online calculator",
+    form: {
+      labels: {},
+      placeholders: {},
+      buttons: {
+        calculate: "Calculate",
+        reset: "Reset"
+      }
+    },
+    results: {}
+  }
+
   const resultsRef = useRef<HTMLDivElement>(null)
   const scrollToRef = useMobileScroll()
 
@@ -33,45 +51,39 @@ export default function EnterpriseSEOROICalculator() {
 
   const [results, setResults] = useState<SEOROIResults | null>(null)
 
+  const formatCurrency = (value: number): string => {
+    return new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+    }).format(value)
+  }
+
   const calculateROI = () => {
     scrollToRef(resultsRef as React.RefObject<HTMLElement>)
 
-    const traffic = Number.parseFloat(monthlyTraffic)
-    const conversion = Number.parseFloat(conversionRate) / 100
-    const orderValue = Number.parseFloat(averageOrderValue)
-    const investment = Number.parseFloat(monthlyInvestment)
+    const traffic = parseFloat(monthlyTraffic)
+    const conversion = parseFloat(conversionRate) / 100
+    const orderValue = parseFloat(averageOrderValue)
+    const investment = parseFloat(monthlyInvestment)
 
-    const steps: string[] = []
+    if (!traffic || !conversion || !orderValue || !investment) return
 
-    // Step 1: Calculate Monthly Revenue
     const monthlyRevenue = traffic * conversion * orderValue
-    steps.push(
-      `Step 1: Monthly Revenue = ${traffic.toLocaleString()} × ${(conversion * 100).toFixed(2)}% × $${orderValue} = $${monthlyRevenue.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`,
-    )
-
-    // Step 2: Calculate Annual Revenue
     const annualRevenue = monthlyRevenue * 12
-    steps.push(
-      `Step 2: Annual Revenue = $${monthlyRevenue.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} × 12 = $${annualRevenue.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`,
-    )
-
-    // Step 3: Calculate Annual Investment
     const annualInvestment = investment * 12
-    steps.push(
-      `Step 3: Annual Investment = $${investment.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} × 12 = $${annualInvestment.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`,
-    )
-
-    // Step 4: Calculate Net Profit
     const netProfit = annualRevenue - annualInvestment
-    steps.push(
-      `Step 4: Net Profit = $${annualRevenue.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} - $${annualInvestment.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} = $${netProfit.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`,
-    )
+    const roi = ((netProfit / annualInvestment) * 100)
 
-    // Step 5: Calculate ROI
-    const roi = ((annualRevenue - annualInvestment) / annualInvestment) * 100
-    steps.push(
-      `Step 5: ROI = (($${annualRevenue.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} - $${annualInvestment.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}) / $${annualInvestment.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}) × 100% = ${roi.toFixed(2)}%`,
-    )
+    const steps = [
+      `Monthly conversions: ${traffic} × ${(conversion * 100).toFixed(1)}% = ${(traffic * conversion).toFixed(0)} conversions`,
+      `Monthly revenue: ${(traffic * conversion).toFixed(0)} × $${orderValue} = ${formatCurrency(monthlyRevenue)}`,
+      `Annual revenue: ${formatCurrency(monthlyRevenue)} × 12 = ${formatCurrency(annualRevenue)}`,
+      `Annual investment: $${investment} × 12 = ${formatCurrency(annualInvestment)}`,
+      `Net profit: ${formatCurrency(annualRevenue)} - ${formatCurrency(annualInvestment)} = ${formatCurrency(netProfit)}`,
+      `ROI: (${formatCurrency(netProfit)} ÷ ${formatCurrency(annualInvestment)}) × 100 = ${roi.toFixed(1)}%`
+    ]
 
     setResults({
       monthlyRevenue,
@@ -79,65 +91,13 @@ export default function EnterpriseSEOROICalculator() {
       annualInvestment,
       netProfit,
       roi,
-      steps,
-    })
-  }
-
-  const formatCurrency = (amount: number) => {
-    return amount.toLocaleString("en-US", {
-      style: "currency",
-      currency: "USD",
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2,
+      steps
     })
   }
 
   return (
     <>
-      <SEO
-        title="Enterprise SEO ROI Calculator – Calculate SEO Return on Investment"
-        description="Calculate your Enterprise SEO return on investment with our free ROI calculator. Input your traffic, conversion rate, and investment to see projected returns and measure SEO effectiveness."
-        keywords="SEO ROI calculator, enterprise SEO, SEO investment return, organic traffic ROI, SEO revenue calculator, marketing ROI"
-        slug="/enterprise-seo-roi-calculator"
-      />
-
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link
-                    href="/"
-                    className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent"
-                  >
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">Enterprise SEO ROI Calculator</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        {/* Breadcrumb */}
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-blue-600">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <Link href="/other-calculators" className="text-gray-500 hover:text-blue-600">
-                Other Calculators
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Enterprise SEO ROI Calculator</span>
-            </div>
-          </div>
-        </nav>
 
         {/* Main Content */}
         <main className="py-8 px-4 sm:px-6 lg:px-8">
@@ -148,14 +108,8 @@ export default function EnterpriseSEOROICalculator() {
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-balance">
-                Enterprise SEO ROI Calculator
-              </h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed text-pretty">
-                This calculator helps businesses evaluate the return on investment (ROI) from SEO efforts by analyzing
-                costs, customer acquisition, revenue, churn, and margins. Use it to estimate Customer Lifetime Value
-                (LTV), Net Present Value (NPV), CAC, and ROI percentage.
-              </p>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -166,7 +120,7 @@ export default function EnterpriseSEOROICalculator() {
                     <Calculator className="w-6 h-6 text-blue-600" />
                     <span>SEO ROI Calculator</span>
                   </CardTitle>
-                  <CardDescription className="text-base">Calculate your SEO return on investment</CardDescription>
+                  <CardDescription className="text-base">Calculate SEO return on investment</CardDescription>
                 </CardHeader>
                 <CardContent className="p-8 space-y-8">
                   <div className="space-y-6">
@@ -237,7 +191,7 @@ export default function EnterpriseSEOROICalculator() {
                     onClick={calculateROI}
                     className="w-full h-14 text-xl bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-xl font-bold mt-12"
                   >
-                    Calculate SEO ROI
+                    Calculate ROI
                   </Button>
                 </CardContent>
               </Card>
@@ -426,7 +380,7 @@ export default function EnterpriseSEOROICalculator() {
                       </li>
                       <li>
                         <strong>Set Conversion Rate:</strong> Enter the percentage of visitors who complete a desired
-                        action (purchase, signup, etc.). Calculate this by dividing conversions by total visitors.
+                        action (purchase, signup, etc.). Calculate by dividing conversions by total visitors.
                       </li>
                       <li>
                         <strong>Input Average Order Value:</strong> Enter the average revenue generated per transaction
@@ -464,35 +418,35 @@ export default function EnterpriseSEOROICalculator() {
 
                     <div className="space-y-4">
                       <div className="border-l-4 border-blue-500 pl-4">
-                        <p className="font-semibold text-gray-900">Step 1: Calculate Monthly Revenue</p>
+                        <p className="font-semibold text-gray-900">Step 1: Calculate Revenue</p>
                         <p className="text-gray-700">
                           Monthly Revenue = 10,000 × 2% × $100 = <strong>$20,000</strong>
                         </p>
                       </div>
 
                       <div className="border-l-4 border-purple-500 pl-4">
-                        <p className="font-semibold text-gray-900">Step 2: Calculate Annual Revenue</p>
+                        <p className="font-semibold text-gray-900">Step 2: Calculate Revenue</p>
                         <p className="text-gray-700">
                           Annual Revenue = $20,000 × 12 = <strong>$240,000</strong>
                         </p>
                       </div>
 
                       <div className="border-l-4 border-indigo-500 pl-4">
-                        <p className="font-semibold text-gray-900">Step 3: Calculate Annual Investment</p>
+                        <p className="font-semibold text-gray-900">Step 3: Calculate Investment</p>
                         <p className="text-gray-700">
                           Annual Investment = $5,000 × 12 = <strong>$60,000</strong>
                         </p>
                       </div>
 
                       <div className="border-l-4 border-orange-500 pl-4">
-                        <p className="font-semibold text-gray-900">Step 4: Calculate Net Profit</p>
+                        <p className="font-semibold text-gray-900">Step 4: Calculate Profit</p>
                         <p className="text-gray-700">
                           Net Profit = $240,000 − $60,000 = <strong>$180,000</strong>
                         </p>
                       </div>
 
                       <div className="border-l-4 border-green-500 pl-4">
-                        <p className="font-semibold text-gray-900">Step 5: Calculate ROI</p>
+                        <p className="font-semibold text-gray-900">Step 5: Calculate</p>
                         <p className="text-gray-700">
                           ROI = ($240,000 − $60,000) / $60,000 × 100% = <strong>300%</strong>
                         </p>

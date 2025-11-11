@@ -1,0 +1,115 @@
+{
+  "color": "czerwony",
+  "sections": [
+    {
+      "heading": "Dlaczego warto skorzystać z naszego kalkulatora spłat karty kredytowej?",
+      "subSections": [
+        {
+          "heading": "Informacje o oszczędnościach odsetkowych",
+          "content": "Zobacz dokładnie, ile odsetek zapłacisz i ile możesz zaoszczędzić dzięki dopłatom."
+        },
+        {
+          "heading": "Konfigurowalne opcje",
+          "content": "Wybierz płatności ryczałtowe, płatności dwutygodniowe lub stałe dodatkowe płatności miesięczne."
+        },
+        {
+          "heading": "Obsługa wielu kart",
+          "content": "Wprowadź salda dla kilku kart i porównaj strategie obok siebie."
+        },
+        {
+          "heading": "Porównanie lawiny i kuli śnieżnej",
+          "content": "Zdecyduj, czy kierowanie najpierw na karty o wysokim RRSO (lawina), czy najpierw na karty o niskim saldzie (kula śnieżna) będzie lepsze dla Twojego budżetu."
+        },
+        {
+          "heading": "Harmonogram do wydrukowania i udostępnienia",
+          "content": "Uzyskaj przejrzysty harmonogram spłat w stylu amortyzacji, który możesz wydrukować lub wyeksportować."
+        },
+        {
+          "heading": "Wizualne wykresy wypłat",
+          "content": "Śledź swoją drogę bez długów za pomocą interaktywnych wykresów."
+        }
+      ]
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora wypłat karty kredytowej",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wprowadź saldo, stopę procentową (RRSO) i bieżącą miesięczną opłatę za każdą kartę."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Wybierz pomiędzy lawiną długów, kulą śnieżną lub niestandardowymi planami spłaty."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Sprawdź, jak dokonywanie dodatkowych miesięcznych lub ryczałtowych płatności zmienia harmonogram spłat."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Sprawdź szacowaną datę spłaty, łączną kwotę zapłaconych odsetek i potencjalne oszczędności."
+        },
+        {
+          "heading": "Krok 5",
+          "content": "Pobierz lub wydrukuj spersonalizowany harmonogram spłat, aby zachować motywację."
+        }
+      ]
+    },
+    {
+      "heading": "Jak działa kalkulator (wzory i metodologia)",
+      "subSections": [
+        {
+          "heading": "Odsetki miesięcznie",
+          "content": "Odsetki = (RRSO ÷ 12) × Saldo bieżące."
+        },
+        {
+          "heading": "Nowa równowaga",
+          "content": "Nowe saldo = poprzednie saldo + odsetki – płatność."
+        },
+        {
+          "heading": "Wiele strategii kart",
+          "content": "Metoda lawinowa → Najpierw spłacaj najwyższą RRSO, a pozostałe minimalne. Metoda kuli śnieżnej → Najpierw spłacaj najmniejsze saldo, a następnie przesuwaj płatności do przodu."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe scenariusze wypłat",
+      "subSections": [
+        {
+          "heading": "Przykład pojedynczej karty",
+          "content": "Saldo w wysokości 5000 USD przy 20% APR z miesięczną ratą w wysokości 200 USD zajmie około 32 miesięcy, a odsetki wyniosą ponad 1400 USD. Dodanie dodatkowych 100 dolarów miesięcznie skraca czas spłaty do 21 miesięcy i pozwala zaoszczędzić prawie 700 dolarów."
+        },
+        {
+          "heading": "Przykład wielu kart",
+          "content": "Jeśli jesteś winien 3000 USD przy 18% RRSO i 2000 USD przy 25% RRSO, metoda lawinowa oszczędza więcej na odsetkach, podczas gdy metoda kuli śnieżnej zapewnia szybsze psychologiczne wygrane."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak obliczyć datę spłaty karty kredytowej?",
+      "a": "Wprowadź saldo, RRSO i płatności w kalkulatorze. Oszacuje datę spłaty i całkowite odsetki."
+    },
+    {
+      "q": "Jaka jest najlepsza metoda spłaty zadłużenia na karcie kredytowej?",
+      "a": "Metoda lawinowa zwykle pozwala zaoszczędzić najwięcej pieniędzy, zajmując się najpierw kartami o wysokim oprocentowaniu, podczas gdy metoda kuli śnieżnej pomaga w motywacji, szybko regulując niewielkie salda."
+    },
+    {
+      "q": "Jak ten kalkulator wypada w porównaniu z konsolidacją zadłużenia?",
+      "a": "W przeciwieństwie do kredytu konsolidacyjnego lub karty przeniesienia salda, ten kalkulator pokazuje ścieżkę spłaty na istniejących kontach."
+    },
+    {
+      "q": "Czy mogę używać tego jako kalkulatora wypłat z wielu kart kredytowych?",
+      "a": "Tak. Wprowadź szczegóły kilku kart i wybierz strategię, aby zobaczyć, jak różne podejścia wpływają na Twoją oś czasu."
+    },
+    {
+      "q": "Co się stanie, jeśli dokonam tylko płatności minimalnych?",
+      "a": "Kalkulator pokazuje, jak płacenie tylko kwoty minimalnej zwiększa Twoje zadłużenie i zwiększa całkowite odsetki."
+    },
+    {
+      "q": "Czy zamiast tego narzędzia powinienem skorzystać z przelewu salda?",
+      "a": "Przeniesienie salda może obniżyć odsetki, jeśli kwalifikujesz się do początkowej RRSO w wysokości 0%, ale kalkulator pomaga porównać, czy trzymanie się planu spłat czy przeniesienie salda jest bardziej korzystne."
+    }
+  ]
+}

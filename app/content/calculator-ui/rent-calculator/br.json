@@ -1,0 +1,155 @@
+{
+  "pageTitle": "Calculadora de aluguel",
+  "pageDescription": "Calcule seus pagamentos mensais de aluguel e acessibilidade com análises abrangentes, incluindo serviços públicos, depósitos e comparações do mercado de aluguel",
+  "form": {
+    "labels": {
+      "monthlyIncome": "Renda Bruta Mensal",
+      "otherMonthlyDebts": "Outros pagamentos mensais de dívidas",
+      "rentAmount": "Valor do aluguel mensal",
+      "utilities": "Custos mensais de serviços públicos",
+      "rentersInsurance": "Seguro mensal do locatário",
+      "securityDeposit": "Depósito de segurança",
+      "leaseTerm": "Prazo de locação",
+      "petFees": "Taxas para animais de estimação/aluguel mensal para animais de estimação"
+    },
+    "placeholders": {
+      "monthlyIncome": "Insira a renda bruta mensal",
+      "otherMonthlyDebts": "Insira outros pagamentos mensais de dívida",
+      "rentAmount": "Insira o valor do aluguel mensal",
+      "utilities": "Insira os custos mensais de serviços públicos",
+      "rentersInsurance": "Insira o seguro mensal do locatário",
+      "securityDeposit": "Insira o valor do depósito de segurança",
+      "leaseTerm": "Insira o prazo do aluguel em meses",
+      "petFees": "Insira taxas para animais de estimação ou aluguel mensal para animais de estimação"
+    },
+    "buttons": {
+      "calculate": "Calcular a acessibilidade do aluguel",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "totalMonthlyCost": "Custo total mensal de habitação",
+    "housingRatio": "Relação custo/renda de habitação",
+    "depositCost": "Custo de depósito inicial",
+    "annualHousingCost": "Custo Anual de Habitação",
+    "rentCalculatorResultsTitle": "Resultados da calculadora de aluguel"
+  },
+  "educational": {
+    "rentInfo": "Informações sobre aluguel",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "rentFacts": {
+      "affordability": {
+        "title": "Acessibilidade de aluguel",
+        "description": "Especialistas financeiros recomendam gastar não mais que 30% da renda bruta em habitação"
+      },
+      "costs": {
+        "title": "Custos Adicionais de Aluguel",
+        "description": "Serviços públicos, seguro do locatário e depósitos podem aumentar significativamente os custos totais de habitação"
+      },
+      "comparison": {
+        "title": "Comparação de mercado",
+        "description": "Pesquise aluguéis comparáveis ​​na área para garantir preços justos"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de acessibilidade de aluguel",
+      "actual": "Os custos reais de aluguel podem variar de acordo com a localização, condições da propriedade e condições de mercado"
+    },
+    "importantNotesList": [
+      "Considere os serviços públicos que podem variar significativamente de acordo com o local e a estação",
+      "Os depósitos de segurança são normalmente equivalentes a um mês de aluguel",
+      "O seguro do locatário é frequentemente exigido e custa US$ 15-30 por mês",
+      "Considere a proximidade do trabalho e os custos de transporte ao avaliar a acessibilidade"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações de aluguel para calcular a acessibilidade",
+    "resultMessage": "Os resultados do cálculo do seu aluguel são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do aluguel:",
+    "rentAnalysis": "Análise de aluguel"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de acessibilidade de aluguel com base em diretrizes financeiras gerais. Os custos reais de aluguel podem variar com base na localização, condição da propriedade, termos do aluguel e outros fatores não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para obter análises personalizadas de acessibilidade de aluguel e aconselhamento habitacional, consulte conselheiros habitacionais ou consultores financeiros com experiência em mercados de aluguel e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "monthlyIncome": "Insira uma renda bruta mensal válida",
+    "otherMonthlyDebts": "Insira outros pagamentos mensais de dívida válidos",
+    "rentAmount": "Insira um valor de aluguel mensal válido",
+    "utilities": "Insira custos mensais válidos de serviços públicos",
+    "rentersInsurance": "Insira um seguro mensal válido do locatário",
+    "securityDeposit": "Insira um valor de depósito de segurança válido",
+    "leaseTerm": "Insira um prazo de locação válido",
+    "petFees": "Insira taxas válidas para animais de estimação ou aluguel mensal para animais de estimação"
+  },
+  "tooltips": {
+    "monthlyIncome": "Sua renda bruta mensal total antes de impostos",
+    "otherMonthlyDebts": "Total de pagamentos mensais para todas as outras dívidas (empréstimos para automóveis, empréstimos estudantis, cartões de crédito, etc.)",
+    "rentAmount": "Aluguel mensal cobrado pelo locador",
+    "utilities": "Custos mensais estimados de eletricidade, gás, água, internet, etc.",
+    "rentersInsurance": "Custo mensal da apólice de seguro do locatário",
+    "securityDeposit": "Depósito antecipado normalmente equivalente a um mês de aluguel",
+    "leaseTerm": "Duração do contrato de locação em meses",
+    "petFees": "Taxas adicionais ou mensalidades para animais de estimação"
+  },
+  "rent_calculator_0": "Calculadora de aluguel",
+  "income_information_1": "Informações sobre renda",
+  "income_type_2": "Tipo de renda",
+  "annual_income_3": "Renda Anual",
+  "monthly_income_4": "Renda Mensal",
+  "debt_information_5": "Informações sobre dívidas",
+  "other_monthly_debt_payments_6": "Outros pagamentos mensais de dívidas",
+  "include_credit_cards_car_loans_student_loans_and_o_7": "Inclui cartões de crédito, empréstimos para automóveis, empréstimos estudantis e outros pagamentos mensais de dívidas",
+  "financial_ratios_8": "Índices Financeiros",
+  "frontend_ratio_9": "Proporção de front-end (%)",
+  "percentage_of_income_for_housing_typically_2830_10": "Percentagem de rendimento para habitação (normalmente 28-30%)",
+  "backend_ratio_11": "Proporção de back-end (%)",
+  "percentage_of_income_for_all_debts_typically_3640_12": "Porcentagem de renda para todas as dívidas (normalmente 36-40%)",
+  "calculate_rent_13": "Calcular aluguel",
+  "rent_affordability_results_14": "Resultados de acessibilidade de aluguel",
+  "your_maximum_affordable_rent_breakdown_15": "Seu detalhamento de aluguel máximo acessível",
+  "maximum_affordable_rent_16": "Aluguel máximo acessível:",
+  "per_month_17": "por mês",
+  "calculation_breakdown_18": "Detalhamento do cálculo",
+  "monthly_income_19": "Renda Mensal",
+  "frontend_limit_20": "Limite de front-end (",
+  "backend_limit_21": "Limite de back-end (",
+  "limiting_factor_22": "Fator Limitante",
+  "financial_guidelines_23": "Diretrizes Financeiras:",
+  "housing_costs_should_not_exceed_24": "• Os custos de habitação não devem exceder",
+  "of_gross_income_25": "% da renda bruta",
+  "total_debt_payments_should_not_exceed_26": "• O total de pagamentos da dívida não deve exceder",
+  "of_gross_income_27": "% da renda bruta",
+  "consider_additional_costs_like_utilities_insurance_28": "• Considere custos adicionais, como serviços públicos, seguros e manutenção",
+  "enter_your_income_and_debt_information_to_see_your_29": "Insira suas informações de renda e dívida para ver seus resultados",
+  "example_calculation_30": "Exemplo de cálculo",
+  "sample_scenario_31": "Cenário de amostra:",
+  "inputs_32": "Entradas:",
+  "annual_income_60000_33": "• Renda anual: US$ 60.000",
+  "monthly_debts_500_34": "• Dívidas mensais: US$ 500",
+  "frontend_ratio_30_35": "• Proporção de front-end: 30%",
+  "backend_ratio_40_36": "• Proporção de back-end: 40%",
+  "calculation_37": "Cálculo:",
+  "monthly_income_60000_12_5000_38": "• Renda mensal: US$ 60.000 ÷ 12 = US$ 5.000",
+  "frontend_limit_5000_30_1500_39": "• Limite inicial: US$ 5.000 × 30% = US$ 1.500",
+  "backend_limit_5000_40_500_1500_40": "• Limite de back-end: US$ 5.000 × 40% - US$ 500 = US$ 1.500",
+  "maximum_rent_1500_41": "Aluguel máximo: $ 1.500",
+  "formulas_calculation_details_42": "Fórmulas e detalhes de cálculo",
+  "k_1_monthly_income_conversion_43": "1. Conversão de Renda Mensal",
+  "if_annual_income_monthly_income_annual_income_12_44": "Se renda anual: Renda Mensal = Renda Anual ÷ 12",
+  "if_monthly_income_monthly_income_monthly_income_as_45": "Se renda mensal: Renda Mensal = Renda Mensal (conforme inserido)",
+  "k_2_frontend_ratio_limit_46": "2. Limite de proporção de front-end",
+  "rent_frontend_frontend_ratio_monthly_income_47": "Aluguel (front-end) = Índice de front-end × Renda mensal",
+  "k_3_backend_ratio_limit_48": "3. Limite de proporção de back-end",
+  "rent_backend_backend_ratio_monthly_income_monthly__49": "Aluguel (Back-end) = (Relação de Back-end × Renda Mensal) - Dívidas Mensais",
+  "k_4_maximum_affordable_rent_50": "4. Aluguel Máximo Acessível",
+  "maximum_rent_minfrontend_limit_backend_limit_51": "Aluguel máximo = min (limite de front-end, limite de back-end)",
+  "if_the_result_is_negative_the_affordable_rent_is_s_52": "Se o resultado for negativo, o aluguel acessível será definido como $0"
+}

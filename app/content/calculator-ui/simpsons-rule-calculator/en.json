@@ -1,0 +1,179 @@
+{
+  "pageTitle": "Simpson's Rule Calculator",
+  "pageDescription": "Calculate definite integrals using Simpson's Rule",
+  "form": {
+    "labels": {
+      "function": "Function f(x)",
+      "lowerLimit": "Lower Limit (a)",
+      "upperLimit": "Upper Limit (b)",
+      "intervals": "Number of Intervals (n)",
+      "variable": "Variable"
+    },
+    "placeholders": {
+      "function": "Enter function (e.g., x^2 + 2x + 1)",
+      "lowerLimit": "Enter lower limit",
+      "upperLimit": "Enter upper limit",
+      "intervals": "Enter number of intervals (even number)",
+      "variable": "Enter variable (e.g., x)"
+    },
+    "buttons": {
+      "calculate": "Calculate Integral",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "simpsonsRule": "Simpson's Rule Results",
+    "integralApproximation": "Integral Approximation",
+    "exactValue": "Exact Value (if available)",
+    "error": "Error",
+    "stepSize": "Step Size (h)",
+    "intervalsUsed": "Intervals Used",
+    "functionEvaluations": "Function Evaluations"
+  },
+  "educational": {
+    "simpsonsInfo": "Simpson's Rule Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Mathematics Resources",
+    "simpsonsFacts": {
+      "method": {
+        "title": "Simpson's Rule Method",
+        "description": "Numerical integration method that approximates definite integrals using quadratic polynomials"
+      },
+      "formula": {
+        "title": "Simpson's Rule Formula",
+        "description": "∫(a to b) f(x)dx ≈ (h/3)[f(x₀) + 4f(x₁) + 2f(x₂) + 4f(x₃) + ... + f(xₙ)]"
+      },
+      "accuracy": {
+        "title": "Accuracy Considerations",
+        "description": "More accurate than trapezoidal rule, especially for smooth functions. Accuracy improves with more intervals."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides Simpson's Rule approximations only",
+      "actual": "Results are numerical approximations and may differ from exact values"
+    },
+    "importantNotesList": [
+      "Number of intervals must be even for Simpson's Rule",
+      "More intervals generally provide better accuracy",
+      "Method works best for smooth, continuous functions",
+      "Results are approximations, not exact values"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the function and integration limits to apply Simpson's Rule",
+    "resultMessage": "Your Simpson's Rule calculation results are shown below",
+    "assessmentResult": "Simpson's Rule Calculation Result:",
+    "simpsonsAnalysis": "Simpson's Rule Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides Simpson's Rule approximations for definite integrals. Results are numerical approximations and may differ from exact values, especially for functions with discontinuities or sharp changes."
+  },
+  "seekHelp": {
+    "title": "Mathematics Resources",
+    "content": "For advanced numerical analysis and integration methods, consult mathematics textbooks or academic resources on numerical methods and computational mathematics."
+  },
+  "errors": {
+    "function": "Please enter a valid function",
+    "lowerLimit": "Please enter a valid lower limit",
+    "upperLimit": "Please enter a valid upper limit",
+    "intervals": "Please enter a valid even number of intervals",
+    "variable": "Please enter a valid variable"
+  },
+  "tooltips": {
+    "function": "The mathematical function to integrate",
+    "lowerLimit": "The lower limit of integration (a)",
+    "upperLimit": "The upper limit of integration (b)",
+    "intervals": "Number of intervals for Simpson's Rule (must be even)",
+    "variable": "The variable of integration"
+  },
+  "simpsons_rule_integration_0": "Simpson's Rule Integration",
+  "enter_your_function_and_integration_limits_to_calc_1": "Enter your function and integration limits to calculate the approximate integral",
+  "function_fx_2": "Function f(x)",
+  "use_x_as_variable_for_powers_3": "(use x as variable, ** for powers)",
+  "supported_sin_cos_tan_sqrt_log_ln_pi_e_4": "Supported: +, -, *, /, **, sin, cos, tan, sqrt, log, ln, pi, e",
+  "lower_limit_a_5": "Lower Limit (a)",
+  "upper_limit_b_6": "Upper Limit (b)",
+  "number_of_subintervals_n_7": "Number of Subintervals (n)",
+  "must_be_even_8": "*must be even",
+  "simpsons_13_rule_formula_9": "Simpson's 1/3 Rule Formula:",
+  "a_10": "a",
+  "b_11": "b",
+  "fxdx_ba3n_fx_4fx_2fx_4fx_fx_12": "f(x)dx ≈ (b-a)/(3n) [f(x₀) + 4f(x₁) + 2f(x₂) + ... + 4f(xₙ₋₁) + f(xₙ)]",
+  "where_fx_x_7_13": "Where f(x) = (x⁵ + 7)",
+  "k_13_14": "-1/3",
+  "for_the_example_n_is_even_and_x_15": "for the example, n is even, and x",
+  "i_16": "i",
+  "a_iban_17": "= a + i(b-a)/n",
+  "calculate_18": "Calculate",
+  "try_example_19": "Try Example",
+  "result_20": "Result",
+  "approximate_integral_21": "Approximate Integral",
+  "x_22": "Δx =",
+  "subintervals_23": "Subintervals:",
+  "enter_function_and_limits_then_click_24": "Enter function and limits, then click",
+  "calculate_25": "Calculate",
+  "to_see_result_26": "to see result.",
+  "stepbystep_solution_27": "Step-by-Step Solution",
+  "k_1_given_information_28": "1. Given Information",
+  "function_fx_29": "Function: f(x) =",
+  "lower_limit_a_30": "Lower limit (a) =",
+  "upper_limit_b_31": "Upper limit (b) =",
+  "number_of_subintervals_n_32": "Number of subintervals (n) =",
+  "k_2_calculate_width_33": "2. Calculate Width",
+  "x_b_a_n_34": "Δx = (b - a) / n = (",
+  "k_3_partition_points_and_function_values_35": "3. Partition Points and Function Values",
+  "i_36": "i",
+  "x_37": "xᵢ",
+  "fx_38": "f(xᵢ)",
+  "coefficient_39": "Coefficient",
+  "k_4_apply_simpsons_rule_40": "4. Apply Simpson's Rule",
+  "sum_41": "Sum =",
+  "sum_42": "Sum =",
+  "integral_ba3n_sum_43": "Integral ≈ (b-a)/(3n) × Sum = (",
+  "to_44": "to",
+  "k_3_45": ")/3×",
+  "what_is_simpsons_rule_46": "What is Simpson's Rule?",
+  "simpsons_rule_is_a_numerical_integration_technique_47": "Simpson's Rule is a numerical integration technique that approximates definite integrals by fitting\n                    parabolic curves through sets of three points. It's more accurate than the Trapezoidal Rule because\n                    it uses quadratic approximations instead of linear ones.",
+  "the_method_divides_the_integration_interval_into_a_48": "The method divides the integration interval into an even number of subintervals and applies the\n                    formula with alternating coefficients (1, 4, 2, 4, 2, ..., 4, 1) to achieve higher precision.",
+  "how_to_use_the_calculator_49": "How to Use the Calculator",
+  "enter_your_function_fx_using_standard_mathematical_50": "Enter your function f(x) using standard mathematical notation",
+  "set_the_lower_limit_a_and_upper_limit_b_of_integra_51": "Set the lower limit (a) and upper limit (b) of integration",
+  "choose_an_even_number_of_subintervals_n_more_subin_52": "Choose an even number of subintervals (n) - more subintervals give higher accuracy",
+  "click_calculate_to_get_the_approximate_result_53": "Click \"Calculate\" to get the approximate result",
+  "use_show_steps_to_see_the_detailed_calculation_pro_54": "Use \"Show Steps\" to see the detailed calculation process",
+  "formula_55": "Formula",
+  "a_56": "a",
+  "b_57": "b",
+  "fxdx_x3fx_4fx_2fx_4fx_4fx_58": "f(x)dx ≈ (Δx/3)[f(x₀) + 4f(x₁) + 2f(x₂) + 4f(x₃) + ... + 4f(x",
+  "n1_59": "n-1",
+  "fx_60": ") + f(x",
+  "n_61": "n",
+  "where_62": "Where:",
+  "x_b_a_n_subinterval_width_63": "• Δx = (b - a) / n (subinterval width)",
+  "n_even_number_of_subintervals_64": "• n = even number of subintervals",
+  "coefficients_1_for_endpoints_4_for_odd_indices_2_f_65": "• Coefficients: 1 for endpoints, 4 for odd indices, 2 for even indices",
+  "example_66": "Example",
+  "problem_67": "Problem:",
+  "approximate_1x_7_dx_using_n_4_68": "Approximate ∫₀¹ 1/(x⁵ + 7) dx using n = 4",
+  "solution_69": "Solution:",
+  "k_1_x_1_0_4_025_70": "1. Δx = (1 - 0) / 4 = 0.25",
+  "k_2_points_x_0_x_025_x_05_x_075_x_1_71": "2. Points: x₀ = 0, x₁ = 0.25, x₂ = 0.5, x₃ = 0.75, x₄ = 1",
+  "k_3_function_values_f0_0142857_f025_0142653_f05_0141_72": "3. Function values: f(0) ≈ 0.142857, f(0.25) ≈ 0.142653, f(0.5) ≈ 0.141844, f(0.75) ≈ 0.139665,\n                        f(1) = 0.125",
+  "k_4_apply_coefficients_1_4_2_4_1_sum_1133_73": "4. Apply coefficients [1, 4, 2, 4, 1]: Sum ≈ 1.133",
+  "k_5_result_0253_1133_74": "5. Result: (0.25/3) × 1.133 ≈",
+  "k_0094417_75": "0.094417",
+  "faq_76": "FAQ",
+  "what_is_simpsons_rule_77": "What is Simpson's Rule?",
+  "simpsons_rule_is_a_numerical_method_for_approximat_78": "Simpson's Rule is a numerical method for approximating definite integrals using parabolic\n                        approximations, providing higher accuracy than linear methods like the Trapezoidal Rule.",
+  "why_must_n_be_even_79": "Why must n be even?",
+  "simpsons_13_rule_requires_pairing_adjacent_interva_80": "Simpson's 1/3 rule requires pairing adjacent intervals to form parabolic segments. Each parabola\n                        needs three points, so we need an even number of intervals to create complete pairs.",
+  "how_accurate_is_simpsons_rule_81": "How accurate is Simpson's Rule?",
+  "simpsons_rule_has_an_error_of_oh_making_it_much_mo_82": "Simpson's Rule has an error of O(h⁵), making it much more accurate than the Trapezoidal Rule's\n                        O(h³) error. It's exact for polynomials up to degree 3.",
+  "difference_between_trapezoidal_rule_and_simpsons_r_83": "Difference between Trapezoidal Rule and Simpson's Rule?",
+  "the_trapezoidal_rule_uses_linear_approximations_st_84": "The Trapezoidal Rule uses linear approximations (straight lines) while Simpson's Rule uses\n                        quadratic approximations (parabolas), resulting in significantly higher accuracy for smooth\n                        functions.",
+  "smart_calculator_85": "Smart Calculator",
+  "k_2025_smart_calculator_all_rights_reserved_86": "© 2025 Smart Calculator. All rights reserved."
+}

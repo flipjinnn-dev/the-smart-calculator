@@ -1,0 +1,134 @@
+{
+  "pageTitle": "Rechner für den Earned Run Average",
+  "pageDescription": "Berechnen Sie den Earned Run Average (ERA) für Pitcher",
+  "form": {
+    "labels": {
+      "earnedRuns": "Verdiente Läufe sind erlaubt",
+      "inningsPitched": "Innings gepitcht",
+      "gamesPlayed": "Gespielte Spiele (optional)"
+    },
+    "placeholders": {
+      "earnedRuns": "Die Teilnahme an verdienten Läufen ist zulässig",
+      "inningsPitched": "Geben Sie gepitchte Innings ein (z. B. 6,1 für 6 Innings und 1 Out)",
+      "gamesPlayed": "Geben Sie die Anzahl der gespielten Spiele ein (optional)"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den ERA",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "earnedRunAverage": "Earned Run Average (ERA)",
+    "runsPerGame": "Läuft pro Spiel",
+    "performanceRating": "Leistungsbewertung",
+    "leagueAverage": "Liga-Durchschnittsvergleich",
+    "historicalContext": "Historischer Kontext"
+  },
+  "educational": {
+    "eraInfo": "ERA-Informationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Baseball-Ressourcen",
+    "eraFacts": {
+      "definition": {
+        "title": "Durchschnittlicher verdienter Lauf",
+        "description": "Die durchschnittliche Anzahl verdienter Runs, die ein Pitcher pro neun gepitchten Innings zulässt"
+      },
+      "formula": {
+        "title": "Berechnungsformel",
+        "description": "ERA = (Erlaubte verdiente Runs × 9) / Pitched Innings"
+      },
+      "interpretation": {
+        "title": "Aufführungsinterpretation",
+        "description": "ERA unter 3,00 ist ausgezeichnet, 3,00–4,00 ist überdurchschnittlich, 4,00–5,00 ist durchschnittlich und über 5,00 ist unterdurchschnittlich"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur ERA-Berechnungen",
+      "actual": "Bei der tatsächlichen Leistungsbewertung sollten zusätzliche Statistiken und Kontext berücksichtigt werden"
+    },
+    "importantNotesList": [
+      "ERA zählt nur verdiente Runs, nicht Runs, die aus Defensivfehlern resultieren",
+      "Ein niedrigerer ERA weist auf eine bessere Pitching-Leistung hin",
+      "Parkfaktoren und Gegnerstärke sollten ebenfalls berücksichtigt werden",
+      "Die Stichprobengröße ist wichtig – ERA ist über viele Innings hinweg aussagekräftiger"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie verdiente Runs und gepitchte Innings ein, um den ERA zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer ERA-Berechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der ERA-Berechnung:",
+    "eraAnalysis": "ERA-Analyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet ERA-Berechnungen basierend auf Standardformeln für Baseballstatistiken. Bei der vollständigen Leistungsbewertung sollten zusätzliche Metriken, Kontexte und Stichprobengrößenfaktoren berücksichtigt werden, die in diesen Berechnungen nicht berücksichtigt werden."
+  },
+  "seekHelp": {
+    "title": "Baseball-Ressourcen",
+    "content": "Für eine umfassende Baseball-Statistikanalyse und Spielerbewertung konsultieren Sie Baseball-Referenzseiten, Sportanalyseressourcen oder professionelle Scouts und Analysten."
+  },
+  "errors": {
+    "earnedRuns": "Bitte geben Sie eine gültige Anzahl verdienter Läufe ein",
+    "inningsPitched": "Bitte geben Sie eine gültige Anzahl an gespielten Innings ein",
+    "gamesPlayed": "Bitte geben Sie eine gültige Anzahl gespielter Spiele ein"
+  },
+  "tooltips": {
+    "earnedRuns": "Anzahl der vom Pitcher zugelassenen verdienten Runs (Runs, die nicht auf Defensivfehler zurückzuführen sind)",
+    "inningsPitched": "Gesamtzahl der gepitchten Innings, einschließlich Teil-Innings (z. B. 6,1 für 6 Innings und 1 Out)",
+    "gamesPlayed": "Anzahl der Spiele, an denen der Pitcher teilgenommen hat (optional für zusätzlichen Kontext)"
+  },
+  "pitching_statistics_0": "Pitching-Statistiken",
+  "enter_pitching_statistics_to_calculate_earned_run__1": "Geben Sie Pitching-Statistiken ein, um den Earned Run Average zu berechnen",
+  "earned_runs_er_2": "Verdiente Runs (ER)",
+  "whole_innings_pitched_3": "Ganze Innings gepitcht",
+  "additional_outs_4": "Zusätzliche Outs",
+  "game_length_5": "Spiellänge",
+  "formula_6": "Formel:",
+  "era_earned_runs_total_innings_game_innings_7": "ERA = (Verdiente Runs ÷ Gesamtinnings) × Spielinnings",
+  "total_innings_whole_innings_outs_3_each_out_repres_8": "Gesamtinnings = Ganze Innings + (Outs ÷ 3). Jedes Out repräsentiert 1/3 eines Innings.",
+  "calculate_9": "Berechnen",
+  "era_results_10": "ERA-Ergebnisse",
+  "era_11": "EPOCHE",
+  "total_innings_12": "Gesamtinnings",
+  "enter_pitching_statistics_and_click_13": "Geben Sie die Pitching-Statistiken ein und klicken Sie",
+  "calculate_14": "Berechnen",
+  "to_see_era_15": "um ERA zu sehen.",
+  "detailed_era_breakdown_16": "Detaillierte ERA-Aufschlüsselung",
+  "era_17": "EPOCHE",
+  "earned_run_average_18": "Durchschnittlicher verdienter Lauf",
+  "earned_runs_19": "Verdiente Runs",
+  "er_20": "ER",
+  "total_innings_21": "Gesamtinnings",
+  "ip_22": "IP (",
+  "game_length_23": "Spiellänge",
+  "innings_24": "Innings",
+  "calculation_steps_25": "Berechnungsschritte:",
+  "step_1_26": "Schritt 1:",
+  "total_innings_27": "Gesamtinnings =",
+  "k_3_28": "/3) =",
+  "innings_29": "Innings",
+  "step_2_30": "Schritt 2:",
+  "era_31": "ERA = (",
+  "understanding_era_in_baseball_32": "ERA im Baseball verstehen",
+  "what_is_era_33": "Was ist ERA?",
+  "earned_run_average_era_measures_how_many_earned_ru_34": "Der Earned Run Average (ERA) misst, wie viele verdiente Runs ein Pitcher pro neun Innings zulässt\n                        aufgeschlagen. Es handelt sich um eine der wichtigsten Statistiken zur Bewertung der Leistung eines Pitchers.",
+  "era_interpretation_35": "ERA-Interpretation",
+  "under_200_excellent_36": "Unter 2,00: Ausgezeichnet",
+  "k_200300_very_good_37": "2.00-3.00: Sehr gut",
+  "k_300400_good_38": "3.00-4.00: Gut",
+  "k_400500_average_39": "4.00-5.00: Durchschnittlich",
+  "above_500_below_average_40": "Über 5,00: Unterdurchschnittlich",
+  "sample_calculation_41": "Beispielrechnung",
+  "example_42": "Beispiel:",
+  "pitcher_statistics_43": "Pitcher-Statistiken",
+  "earned_runs_15_44": "Verdiente Runs: 15",
+  "innings_65_45": "Innings: 65",
+  "outs_2_46": "Outs: 2",
+  "game_innings_9_47": "Spielinnings: 9",
+  "calculation_48": "Berechnung:",
+  "total_ip_65_23_6567_49": "Gesamt-IP = 65 + (2/3) = 65,67",
+  "era_15_6567_9_50": "ERA = (15 ÷ 65,67) × 9",
+  "era_206_51": "ERA = 2,06"
+}

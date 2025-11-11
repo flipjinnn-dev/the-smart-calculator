@@ -1,0 +1,214 @@
+{
+  "pageTitle": "Kubikyard-Rechner",
+  "pageDescription": "Berechnen Sie Kubikmeter für Beton, Erde und andere Materialien mit präzisen Messungen für Bau- und Landschaftsbauprojekte",
+  "form": {
+    "labels": {
+      "shape": "Form",
+      "length": "Länge",
+      "width": "Breite",
+      "height": "Höhe/Tiefe",
+      "diameter": "Durchmesser",
+      "unitSystem": "Einheitensystem",
+      "material": "Materialtyp",
+      "density": "Materialdichte"
+    },
+    "placeholders": {
+      "length": "Geben Sie die Länge ein",
+      "width": "Geben Sie die Breite ein",
+      "height": "Geben Sie Höhe/Tiefe ein",
+      "diameter": "Durchmesser eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie Kubikyards",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "imperial": "Imperial (ft, in)",
+      "metric": "Metrisch (m, cm)"
+    },
+    "shapes": {
+      "rectangular": "Rechteckig",
+      "circular": "Kreisförmig",
+      "triangular": "Dreieckig"
+    },
+    "materials": {
+      "concrete": "Beton",
+      "soil": "Boden",
+      "mulch": "Laubdecke",
+      "gravel": "Kies",
+      "sand": "Sand",
+      "custom": "Benutzerdefinierte Dichte"
+    }
+  },
+  "results": {
+    "cubicYards": "Kubikmeter",
+    "cubicFeet": "Kubikfuß",
+    "cubicMeters": "Kubikmeter",
+    "materialWeight": "Materialgewicht",
+    "cubicYardResultsTitle": "Kubikyard-Ergebnisse"
+  },
+  "educational": {
+    "cubicYardInfo": "Informationen zu Kubikmetern",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Bauressourcen",
+    "cubicYardFacts": {
+      "conversion": {
+        "title": "Volumenumrechnungen",
+        "description": "1 Kubikyard = 27 Kubikfuß = 0,764555 Kubikmeter"
+      },
+      "materials": {
+        "title": "Gängige Materialdichten",
+        "description": "Beton: 4.050 lbs/yd³, Erde: 2.200 lbs/yd³, Mulch: 500 lbs/yd³"
+      },
+      "ordering": {
+        "title": "Bestellen von Materialien",
+        "description": "Fügen Sie 10–15 % mehr hinzu, um Abfall und Ablagerungen zu berücksichtigen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Volumenberechnungen",
+      "accuracy": "Messen Sie genau ab und fügen Sie zusätzliche Mengen für Abfall und Sedimentation hinzu"
+    },
+    "importantNotesList": [
+      "Messen Sie immer zweimal und bestellen Sie zusätzliches Material, um den Abfall zu berücksichtigen",
+      "Berücksichtigen Sie bei Ihren Berechnungen die Materialverdichtung und Setzung",
+      "Überprüfen Sie lokale Lieferanten auf Materialverfügbarkeit und Lieferoptionen",
+      "Berücksichtigen Sie bei der Planung Ihres Projekts Transport und Handhabung"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Abmessungen ein, um Kubikmeter zu berechnen",
+    "resultMessage": "Ihre Kubikyard-Berechnung wird unten angezeigt",
+    "assessmentResult": "Ergebnis der Volumenberechnung:",
+    "cubicYardAnalysis": "Kubikyard-Analyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet Volumenberechnungen basierend auf standardmäßigen geometrischen Formeln. Der tatsächliche Materialbedarf kann je nach Projektspezifikationen, Abfallfaktoren und Lieferantenempfehlungen variieren."
+  },
+  "seekHelp": {
+    "title": "Bauressourcen",
+    "content": "Für professionelle Bauberatung und Materialschätzung wenden Sie sich an Baufachleute oder Ihre örtlichen Materiallieferanten für projektspezifische Empfehlungen."
+  },
+  "errors": {
+    "length": "Bitte geben Sie eine gültige Länge ein",
+    "width": "Bitte geben Sie eine gültige Breite ein",
+    "height": "Bitte geben Sie eine gültige Höhe/Tiefe ein",
+    "diameter": "Bitte geben Sie einen gültigen Durchmesser ein",
+    "shape": "Bitte wählen Sie eine Form aus",
+    "material": "Bitte wählen Sie einen Materialtyp aus"
+  },
+  "tooltips": {
+    "shape": "Wählen Sie die Form des zu messenden Bereichs aus",
+    "length": "Längste Dimension des Bereichs",
+    "width": "Breite der Fläche (senkrecht zur Länge)",
+    "height": "Tiefe oder Höhe des benötigten Materials",
+    "diameter": "Abstand über die Kreisfläche",
+    "material": "Die Art des Materials beeinflusst die Gewichtsberechnung"
+  },
+  "length_0": "Länge (",
+  "width_1": "Breite (",
+  "height_2": "Höhe (",
+  "side_length_3": "Seitenlänge (",
+  "radius_4": "Radius (",
+  "height_5": "Höhe (",
+  "outer_dimensions_6": "Äußere Abmessungen",
+  "outer_length_7": "Außenlänge (",
+  "outer_width_8": "Äußere Breite (",
+  "outer_height_9": "Äußere Höhe (",
+  "inner_dimensions_10": "Innere Abmessungen",
+  "inner_length_11": "Innenlänge (",
+  "inner_width_12": "Innere Breite (",
+  "inner_height_13": "Innenhöhe (",
+  "outer_radius_14": "Außenradius (",
+  "inner_radius_15": "Innenradius (",
+  "height_16": "Höhe (",
+  "radius_17": "Radius (",
+  "base_radius_18": "Basisradius (",
+  "height_19": "Höhe (",
+  "base_area_20": "Grundfläche (",
+  "height_21": "Höhe (",
+  "shape_dimensions_22": "Form und Abmessungen",
+  "select_shape_and_enter_dimensions_to_calculate_vol_23": "Wählen Sie eine Form aus und geben Sie die Abmessungen ein, um das Volumen zu berechnen",
+  "select_shape_24": "Wählen Sie Form",
+  "yards_yd_25": "Yards (yd)",
+  "conversion_26": "Konvertierung:",
+  "k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_27": "1 Kubikyard = 27 Kubikfuß = 46.656 Kubikzoll",
+  "commonly_used_for_concrete_gravel_soil_mulch_and_o_28": "Wird häufig für Beton, Kies, Erde, Mulch und andere Baumaterialien verwendet.",
+  "calculate_29": "Berechnen",
+  "volume_results_30": "Volumenergebnisse",
+  "cubic_yards_31": "Kubikmeter",
+  "cubic_feet_32": "Kubikfuß",
+  "total_cost_33": "Gesamtkosten",
+  "select_shape_enter_dimensions_and_click_34": "Form auswählen, Maße eingeben und klicken",
+  "calculate_35": "Berechnen",
+  "to_see_volume_36": "Lautstärke zu sehen.",
+  "detailed_volume_breakdown_37": "Detaillierte Volumenaufschlüsselung",
+  "cubic_yards_38": "Kubikmeter",
+  "yd_39": "yd³",
+  "cubic_feet_40": "Kubikfuß",
+  "ft_41": "ft³",
+  "total_cost_42": "Gesamtkosten",
+  "usd_43": "USD",
+  "understanding_cubic_yards_in_construction_44": "Kubikmeter im Bauwesen verstehen",
+  "why_cubic_yards_45": "Warum Kubikmeter?",
+  "cubic_yards_are_the_standard_unit_for_measuring_bu_46": "Kubikmeter sind die Standardeinheit für die Messung von Massenbaustoffen wie Beton,\n                        Kies, Erde und Mulch. Dieses Gerät bietet einen praktischen Maßstab für Bauprojekte und\n                        Materialbestellung.",
+  "common_applications_47": "Allgemeine Anwendungen",
+  "concrete_for_foundations_driveways_patios_48": "Beton für Fundamente, Einfahrten, Terrassen",
+  "gravel_for_driveways_and_landscaping_49": "Kies für Einfahrten und Landschaftsbau",
+  "soil_and_topsoil_for_gardening_50": "Erde und Mutterboden für den Gartenbau",
+  "mulch_for_landscaping_projects_51": "Mulch für Landschaftsbauprojekte",
+  "sand_for_construction_and_landscaping_52": "Sand für den Bau- und Landschaftsbau",
+  "sample_calculation_53": "Beispielrechnung",
+  "example_rectangular_driveway_54": "Beispiel: Rechteckige Auffahrt",
+  "length_12_ft_55": "Länge: 12 Fuß",
+  "width_9_ft_56": "Breite: 9 Fuß",
+  "depth_2_ft_57": "Tiefe: 2 Fuß",
+  "volume_12_9_2_216_ft_58": "Volumen: 12 × 9 × 2 = 216 ft³",
+  "result_216_27_8_cubic_yards_59": "Ergebnis: 216 ÷ 27 = 8 Kubikmeter",
+  "conversion_60": "Konvertierung:",
+  "always_divide_cubic_feet_by_27_to_get_cubic_yards_61": "Teilen Sie Kubikfuß immer durch 27, um Kubikmeter zu erhalten.",
+  "unit_25": "Einheit",
+  "feet_ft_26": "Fuß (ft)",
+  "inches_in_27": "Zoll (in)",
+  "yards_yd_28": "Yards (yd)",
+  "cost_per_cubic_yard_optional_29": "Kosten pro Kubikyard (optional)",
+  "conversion_30": "Konvertierung:",
+  "k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_31": "1 Kubikyard = 27 Kubikfuß = 46.656 Kubikzoll",
+  "commonly_used_for_concrete_gravel_soil_mulch_and_o_32": "Wird häufig für Beton, Kies, Erde, Mulch und andere Baumaterialien verwendet.",
+  "calculate_33": "Berechnen",
+  "volume_results_34": "Volumenergebnisse",
+  "cubic_yards_35": "Kubikmeter",
+  "cubic_feet_36": "Kubikfuß",
+  "total_cost_37": "Gesamtkosten",
+  "select_shape_enter_dimensions_and_click_38": "Form auswählen, Maße eingeben und klicken",
+  "calculate_39": "Berechnen",
+  "to_see_volume_40": "Lautstärke zu sehen.",
+  "detailed_volume_breakdown_41": "Detaillierte Volumenaufschlüsselung",
+  "cubic_yards_42": "Kubikmeter",
+  "yd_43": "yd³",
+  "cubic_feet_44": "Kubikfuß",
+  "ft_45": "ft³",
+  "total_cost_46": "Gesamtkosten",
+  "usd_47": "USD",
+  "understanding_cubic_yards_in_construction_48": "Kubikmeter im Bauwesen verstehen",
+  "why_cubic_yards_49": "Warum Kubikmeter?",
+  "cubic_yards_are_the_standard_unit_for_measuring_bu_50": "Kubikmeter sind die Standardeinheit für die Messung von Massenbaustoffen wie Beton,\n                        Kies, Erde und Mulch. Dieses Gerät bietet einen praktischen Maßstab für Bauprojekte und\n                        Materialbestellung.",
+  "common_applications_51": "Allgemeine Anwendungen",
+  "concrete_for_foundations_driveways_patios_52": "Beton für Fundamente, Einfahrten, Terrassen",
+  "gravel_for_driveways_and_landscaping_53": "Kies für Einfahrten und Landschaftsbau",
+  "soil_and_topsoil_for_gardening_54": "Erde und Mutterboden für den Gartenbau",
+  "mulch_for_landscaping_projects_55": "Mulch für Landschaftsbauprojekte",
+  "sand_for_construction_and_landscaping_56": "Sand für den Bau- und Landschaftsbau",
+  "sample_calculation_57": "Beispielrechnung",
+  "example_rectangular_driveway_58": "Beispiel: Rechteckige Auffahrt",
+  "length_12_ft_59": "Länge: 12 Fuß",
+  "width_9_ft_60": "Breite: 9 Fuß",
+  "depth_2_ft_61": "Tiefe: 2 Fuß",
+  "volume_12_9_2_216_ft_62": "Volumen: 12 × 9 × 2 = 216 ft³",
+  "result_216_27_8_cubic_yards_63": "Ergebnis: 216 ÷ 27 = 8 Kubikmeter",
+  "conversion_64": "Konvertierung:",
+  "always_divide_cubic_feet_by_27_to_get_cubic_yards_65": "Teilen Sie Kubikfuß immer durch 27, um Kubikmeter zu erhalten."
+}

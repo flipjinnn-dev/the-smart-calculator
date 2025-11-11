@@ -1,151 +1,323 @@
 "use client";
+
+import { useCalculatorContent } from "@/hooks/useCalculatorContent";
+import { usePathname } from "next/navigation";
 import React, { useRef, useState } from "react";
-import Link from "next/link";
+
 import { Calculator } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import Logo from "@/components/logo";
+;
 import { useMobileScroll } from "@/hooks/useMobileScroll";
-import SEO from "@/lib/seo";
-
-const SHAPES = [
-  {
-    key: "sphere",
-    label: "Sphere",
-    fields: [
-      { name: "radius", label: "Radius (r)", type: "number" }
-    ],
-    formula: ({ radius }: { radius: number }) => (4 / 3) * Math.PI * Math.pow(radius, 3),
-    example: "volume = 4/3 × π × r³"
-  },
-  {
-    key: "cone",
-    label: "Cone",
-    fields: [
-      { name: "radius", label: "Base Radius (r)", type: "number" },
-      { name: "height", label: "Height (h)", type: "number" }
-    ],
-    formula: ({ radius, height }: { radius: number; height: number }) => (1 / 3) * Math.PI * Math.pow(radius, 2) * height,
-    example: "volume = 1/3 × π × r² × h"
-  },
-  {
-    key: "cube",
-    label: "Cube",
-    fields: [
-      { name: "edge", label: "Edge Length (a)", type: "number" }
-    ],
-    formula: ({ edge }: { edge: number }) => Math.pow(edge, 3),
-    example: "volume = a³"
-  },
-  {
-    key: "cylinder",
-    label: "Cylinder",
-    fields: [
-      { name: "radius", label: "Base Radius (r)", type: "number" },
-      { name: "height", label: "Height (h)", type: "number" }
-    ],
-    formula: ({ radius, height }: { radius: number; height: number }) => Math.PI * Math.pow(radius, 2) * height,
-    example: "volume = π × r² × h"
-  },
-  {
-    key: "rectangular_tank",
-    label: "Rectangular Tank",
-    fields: [
-      { name: "length", label: "Length (l)", type: "number" },
-      { name: "width", label: "Width (w)", type: "number" },
-      { name: "height", label: "Height (h)", type: "number" }
-    ],
-    formula: ({ length, width, height }: { length: number; width: number; height: number }) => length * width * height,
-    example: "volume = l × w × h"
-  },
-  {
-    key: "capsule",
-    label: "Capsule",
-    fields: [
-      { name: "radius", label: "Base Radius (r)", type: "number" },
-      { name: "height", label: "Height (h)", type: "number" }
-    ],
-    formula: ({ radius, height }: { radius: number; height: number }) => Math.PI * Math.pow(radius, 2) * height + (4 / 3) * Math.PI * Math.pow(radius, 3),
-    example: "volume = π × r² × h + 4/3 × π × r³"
-  },
-  {
-    key: "spherical_cap",
-    label: "Spherical Cap",
-    fields: [
-      { name: "baseRadius", label: "Base Radius (r)", type: "number" },
-      { name: "sphereRadius", label: "Ball Radius (R)", type: "number" },
-      { name: "height", label: "Height (h)", type: "number" }
-    ],
-    formula: ({ baseRadius, sphereRadius, height }: { baseRadius: number; sphereRadius: number; height: number }) => (1 / 3) * Math.PI * Math.pow(height, 2) * (3 * sphereRadius - height),
-    example: "volume = 1/3 × π × h² × (3R - h)"
-  },
-  {
-    key: "conical_frustum",
-    label: "Conical Frustum",
-    fields: [
-      { name: "topRadius", label: "Top Radius (r)", type: "number" },
-      { name: "bottomRadius", label: "Bottom Radius (R)", type: "number" },
-      { name: "height", label: "Height (h)", type: "number" }
-    ],
-    formula: ({ topRadius, bottomRadius, height }: { topRadius: number; bottomRadius: number; height: number }) => (1 / 3) * Math.PI * height * (Math.pow(topRadius, 2) + topRadius * bottomRadius + Math.pow(bottomRadius, 2)),
-    example: "volume = 1/3 × π × h × (r² + rR + R²)"
-  },
-  {
-    key: "ellipsoid",
-    label: "Ellipsoid",
-    fields: [
-      { name: "a", label: "Axis 1 (a)", type: "number" },
-      { name: "b", label: "Axis 2 (b)", type: "number" },
-      { name: "c", label: "Axis 3 (c)", type: "number" }
-    ],
-    formula: ({ a, b, c }: { a: number; b: number; c: number }) => (4 / 3) * Math.PI * a * b * c,
-    example: "volume = 4/3 × π × a × b × c"
-  },
-  {
-    key: "square_pyramid",
-    label: "Square Pyramid",
-    fields: [
-      { name: "edge", label: "Base Edge (a)", type: "number" },
-      { name: "height", label: "Height (h)", type: "number" }
-    ],
-    formula: ({ edge, height }: { edge: number; height: number }) => (1 / 3) * Math.pow(edge, 2) * height,
-    example: "volume = 1/3 × a² × h"
-  },
-  {
-    key: "tube",
-    label: "Tube",
-    fields: [
-      { name: "outerDiameter", label: "Outer Diameter (d₁)", type: "number" },
-      { name: "innerDiameter", label: "Inner Diameter (d₂)", type: "number" },
-      { name: "length", label: "Length (l)", type: "number" }
-    ],
-    formula: ({ outerDiameter, innerDiameter, length }: { outerDiameter: number; innerDiameter: number; length: number }) => Math.PI * (Math.pow(outerDiameter, 2) - Math.pow(innerDiameter, 2)) / 4 * length,
-    example: "volume = π × (d₁² - d₂²) / 4 × l"
-  }
-];
-
-
+;
+const SHAPES = [{
+  key: "sphere",
+  label: "Sphere",
+  fields: [{
+    name: "radius",
+    label: "Radius (r)",
+    type: "number"
+  }],
+  formula: ({
+    radius
+  }: {
+    radius: number;
+  }) => 4 / 3 * Math.PI * Math.pow(radius, 3),
+  example: "volume = 4/3 × π × r³"
+}, {
+  key: "cone",
+  label: "Cone",
+  fields: [{
+    name: "radius",
+    label: "Base Radius (r)",
+    type: "number"
+  }, {
+    name: "height",
+    label: "Height (h)",
+    type: "number"
+  }],
+  formula: ({
+    radius,
+    height
+  }: {
+    radius: number;
+    height: number;
+  }) => 1 / 3 * Math.PI * Math.pow(radius, 2) * height,
+  example: "volume = 1/3 × π × r² × h"
+}, {
+  key: "cube",
+  label: "Cube",
+  fields: [{
+    name: "edge",
+    label: "Edge Length (a)",
+    type: "number"
+  }],
+  formula: ({
+    edge
+  }: {
+    edge: number;
+  }) => Math.pow(edge, 3),
+  example: "volume = a³"
+}, {
+  key: "cylinder",
+  label: "Cylinder",
+  fields: [{
+    name: "radius",
+    label: "Base Radius (r)",
+    type: "number"
+  }, {
+    name: "height",
+    label: "Height (h)",
+    type: "number"
+  }],
+  formula: ({
+    radius,
+    height
+  }: {
+    radius: number;
+    height: number;
+  }) => Math.PI * Math.pow(radius, 2) * height,
+  example: "volume = π × r² × h"
+}, {
+  key: "rectangular_tank",
+  label: "Rectangular Tank",
+  fields: [{
+    name: "length",
+    label: "Length (l)",
+    type: "number"
+  }, {
+    name: "width",
+    label: "Width (w)",
+    type: "number"
+  }, {
+    name: "height",
+    label: "Height (h)",
+    type: "number"
+  }],
+  formula: ({
+    length,
+    width,
+    height
+  }: {
+    length: number;
+    width: number;
+    height: number;
+  }) => length * width * height,
+  example: "volume = l × w × h"
+}, {
+  key: "capsule",
+  label: "Capsule",
+  fields: [{
+    name: "radius",
+    label: "Base Radius (r)",
+    type: "number"
+  }, {
+    name: "height",
+    label: "Height (h)",
+    type: "number"
+  }],
+  formula: ({
+    radius,
+    height
+  }: {
+    radius: number;
+    height: number;
+  }) => Math.PI * Math.pow(radius, 2) * height + 4 / 3 * Math.PI * Math.pow(radius, 3),
+  example: "volume = π × r² × h + 4/3 × π × r³"
+}, {
+  key: "spherical_cap",
+  label: "Spherical Cap",
+  fields: [{
+    name: "baseRadius",
+    label: "Base Radius (r)",
+    type: "number"
+  }, {
+    name: "sphereRadius",
+    label: "Ball Radius (R)",
+    type: "number"
+  }, {
+    name: "height",
+    label: "Height (h)",
+    type: "number"
+  }],
+  formula: ({
+    baseRadius,
+    sphereRadius,
+    height
+  }: {
+    baseRadius: number;
+    sphereRadius: number;
+    height: number;
+  }) => 1 / 3 * Math.PI * Math.pow(height, 2) * (3 * sphereRadius - height),
+  example: "volume = 1/3 × π × h² × (3R - h)"
+}, {
+  key: "conical_frustum",
+  label: "Conical Frustum",
+  fields: [{
+    name: "topRadius",
+    label: "Top Radius (r)",
+    type: "number"
+  }, {
+    name: "bottomRadius",
+    label: "Bottom Radius (R)",
+    type: "number"
+  }, {
+    name: "height",
+    label: "Height (h)",
+    type: "number"
+  }],
+  formula: ({
+    topRadius,
+    bottomRadius,
+    height
+  }: {
+    topRadius: number;
+    bottomRadius: number;
+    height: number;
+  }) => 1 / 3 * Math.PI * height * (Math.pow(topRadius, 2) + topRadius * bottomRadius + Math.pow(bottomRadius, 2)),
+  example: "volume = 1/3 × π × h × (r² + rR + R²)"
+}, {
+  key: "ellipsoid",
+  label: "Ellipsoid",
+  fields: [{
+    name: "a",
+    label: "Axis 1 (a)",
+    type: "number"
+  }, {
+    name: "b",
+    label: "Axis 2 (b)",
+    type: "number"
+  }, {
+    name: "c",
+    label: "Axis 3 (c)",
+    type: "number"
+  }],
+  formula: ({
+    a,
+    b,
+    c
+  }: {
+    a: number;
+    b: number;
+    c: number;
+  }) => 4 / 3 * Math.PI * a * b * c,
+  example: "volume = 4/3 × π × a × b × c"
+}, {
+  key: "square_pyramid",
+  label: "Square Pyramid",
+  fields: [{
+    name: "edge",
+    label: "Base Edge (a)",
+    type: "number"
+  }, {
+    name: "height",
+    label: "Height (h)",
+    type: "number"
+  }],
+  formula: ({
+    edge,
+    height
+  }: {
+    edge: number;
+    height: number;
+  }) => 1 / 3 * Math.pow(edge, 2) * height,
+  example: "volume = 1/3 × a² × h"
+}, {
+  key: "tube",
+  label: "Tube",
+  fields: [{
+    name: "outerDiameter",
+    label: "Outer Diameter (d₁)",
+    type: "number"
+  }, {
+    name: "innerDiameter",
+    label: "Inner Diameter (d₂)",
+    type: "number"
+  }, {
+    name: "length",
+    label: "Length (l)",
+    type: "number"
+  }],
+  formula: ({
+    outerDiameter,
+    innerDiameter,
+    length
+  }: {
+    outerDiameter: number;
+    innerDiameter: number;
+    length: number;
+  }) => Math.PI * (Math.pow(outerDiameter, 2) - Math.pow(innerDiameter, 2)) / 4 * length,
+  example: "volume = π × (d₁² - d₂²) / 4 × l"
+}];
 export default function VolumeCalculator() {
-  const resultsRef = useRef<HTMLDivElement>(null)
-  const scrollToRef = useMobileScroll()
+  const pathname = usePathname();
+  const language = pathname.split('/')[1] || 'en';
+  const {
+    content,
+    loading,
+    error: contentError
+  } = useCalculatorContent('volume-calculator', language, "calculator-ui");
+
+  // Use content or fallback to defaults
+  const contentData = content || {
+    "pageTitle": "",
+    "pageDescription": "",
+    "form": "",
+    "results": "",
+    "educational": "",
+    "messages": "",
+    "disclaimer": "",
+    "seekHelp": "",
+    "errors": "",
+    "tooltips": "",
+    "volume_calculations_0": "",
+    "select_a_shape_and_enter_your_values_1": "",
+    "select_shape_2": "",
+    "m_3": "",
+    "cm_4": "",
+    "mm_5": "",
+    "inch_6": "",
+    "ft_7": "",
+    "yd_8": "",
+    "formula_9": "",
+    "calculate_10": "",
+    "result_11": "",
+    "enter_values_and_click_12": "",
+    "calculate_13": "",
+    "to_see_result_14": "",
+    "how_to_use_this_calculator_15": "",
+    "k_1_16": "",
+    "select_the_shape_you_want_to_calculate_the_volume__17": "",
+    "k_2_18": "",
+    "enter_your_values_in_the_input_fields_19": "",
+    "k_3_20": "",
+    "click_21": "",
+    "calculate_22": "",
+    "to_see_the_result_instantly_23": ""
+  };
+  const resultsRef = useRef<HTMLDivElement>(null);
+  const scrollToRef = useMobileScroll();
   const [shape, setShape] = useState<typeof SHAPES[number]>(SHAPES[0]);
   const [inputs, setInputs] = useState<Record<string, number>>({});
   const [inputUnits, setInputUnits] = useState<Record<string, string>>({});
   const [result, setResult] = useState<number | null>(null);
   const [resultUnit, setResultUnit] = useState<string>("m³");
-
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setInputs({ ...inputs, [e.target.name]: parseFloat(e.target.value) });
+    setInputs({
+      ...inputs,
+      [e.target.name]: parseFloat(e.target.value)
+    });
   };
-
   const handleUnitChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setInputUnits({ ...inputUnits, [e.target.name]: e.target.value });
+    setInputUnits({
+      ...inputUnits,
+      [e.target.name]: e.target.value
+    });
   };
-
   const handleShapeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const selected = SHAPES.find((s) => s.key === e.target.value) || SHAPES[0];
+    const selected = SHAPES.find(s => s.key === e.target.value) || SHAPES[0];
     setShape(selected);
     setInputs({});
     setResult(null);
@@ -158,29 +330,62 @@ export default function VolumeCalculator() {
     mm: 0.001,
     inch: 0.0254,
     ft: 0.3048,
-    yd: 0.9144,
+    yd: 0.9144
   };
 
   // Volume unit conversions from m³
-  const volumeUnits = [
-    { label: "Cubic meters (m³)", value: "m³", factor: 1 },
-    { label: "Liters (L)", value: "L", factor: 1000 },
-    { label: "Cubic centimeters (cm³)", value: "cm³", factor: 1e6 },
-    { label: "Cubic millimeters (mm³)", value: "mm³", factor: 1e9 },
-    { label: "Cubic inches (in³)", value: "in³", factor: 61023.7441 },
-    { label: "Cubic feet (ft³)", value: "ft³", factor: 35.3146667 },
-    { label: "Cubic yards (yd³)", value: "yd³", factor: 1.30795062 },
-    { label: "US gallons (gal)", value: "gal", factor: 264.172052 },
-    { label: "US quarts (qt)", value: "qt", factor: 1056.68821 },
-    { label: "US pints (pt)", value: "pt", factor: 2113.37642 },
-    { label: "US cups (cup)", value: "cup", factor: 4226.75284 },
-    { label: "US fluid ounces (fl oz)", value: "floz", factor: 33814.0227 },
-  ];
-
+  const volumeUnits = [{
+    label: "Cubic meters (m³)",
+    value: "m³",
+    factor: 1
+  }, {
+    label: "Liters (L)",
+    value: "L",
+    factor: 1000
+  }, {
+    label: "Cubic centimeters (cm³)",
+    value: "cm³",
+    factor: 1e6
+  }, {
+    label: "Cubic millimeters (mm³)",
+    value: "mm³",
+    factor: 1e9
+  }, {
+    label: "Cubic inches (in³)",
+    value: "in³",
+    factor: 61023.7441
+  }, {
+    label: "Cubic feet (ft³)",
+    value: "ft³",
+    factor: 35.3146667
+  }, {
+    label: "Cubic yards (yd³)",
+    value: "yd³",
+    factor: 1.30795062
+  }, {
+    label: "US gallons (gal)",
+    value: "gal",
+    factor: 264.172052
+  }, {
+    label: "US quarts (qt)",
+    value: "qt",
+    factor: 1056.68821
+  }, {
+    label: "US pints (pt)",
+    value: "pt",
+    factor: 2113.37642
+  }, {
+    label: "US cups (cup)",
+    value: "cup",
+    factor: 4226.75284
+  }, {
+    label: "US fluid ounces (fl oz)",
+    value: "floz",
+    factor: 33814.0227
+  }];
   const handleResultUnitChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setResultUnit(e.target.value);
   };
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const missing = shape.fields.some(f => typeof inputs[f.name] !== 'number' || isNaN(inputs[f.name]));
@@ -202,52 +407,13 @@ export default function VolumeCalculator() {
     } catch {
       setResult(null);
     }
-  // Scroll to results
-  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
-
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
   };
+  return <>
 
-  return (
-    <>
-<SEO
-  title="Volume Calculator – Calculate Space & Capacity"
-  description="Calculate volume of cubes, spheres, cylinders, and more. Use our free volume calculator for math, construction, or daily use."
-  keywords="volume calculator, cube volume calculator, sphere volume calculator, cylinder volume calculator"
-  slug="/maths/volume-calculator"
-/>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">Volume Calculator</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-        {/* Breadcrumb */}
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-blue-600">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <Link href="/maths" className="text-gray-500 hover:text-blue-600">
-                Math
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Volume Calculator</span>
-            </div>
-          </div>
-        </nav>
+
         {/* Main Content */}
         <main className="py-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
@@ -257,10 +423,8 @@ export default function VolumeCalculator() {
                   <Calculator className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Volume Calculator</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Calculate the volume of spheres, cones, cubes, cylinders, and more with our comprehensive volume calculator.
-              </p>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Left: Calculator Form and shape selection */}
@@ -271,56 +435,36 @@ export default function VolumeCalculator() {
                       <div className="w-8 h-8 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center">
                         <Calculator className="w-5 h-5 text-white" />
                       </div>
-                      <span className="text-gray-900">Volume Calculations</span>
+                      <span className="text-gray-900">{contentData.volume_calculations_0}</span>
                     </CardTitle>
-                    <CardDescription className="text-base text-gray-700">Select a shape and enter your values</CardDescription>
+                    <CardDescription className="text-base text-gray-700">{contentData.select_a_shape_and_enter_your_values_1}</CardDescription>
                   </CardHeader>
                   <CardContent className="p-8">
                     <div className="mb-6">
-                      <Label className="text-base font-semibold mb-2 block text-gray-900">Select Shape</Label>
-                      <select
-                        className="w-full border rounded p-2"
-                        value={shape.key}
-                        onChange={handleShapeChange}
-                      >
-                        {SHAPES.map((s) => (
-                          <option key={s.key} value={s.key}>{s.label}</option>
-                        ))}
+                      <Label className="text-base font-semibold mb-2 block text-gray-900">{contentData.select_shape_2}</Label>
+                      <select className="w-full border rounded p-2" value={shape.key} onChange={handleShapeChange}>
+                        {SHAPES.map(s => <option key={s.key} value={s.key}>{s.label}</option>)}
                       </select>
                     </div>
                     <form onSubmit={handleSubmit} className="space-y-4">
-                      {shape.fields.map((field) => (
-                        <div key={field.name} className="flex items-end gap-2">
+                      {shape.fields.map(field => <div key={field.name} className="flex items-end gap-2">
                           <div className="flex-1">
                             <Label className="block mb-1 text-gray-900">{field.label}</Label>
-                            <Input
-                              type="number"
-                              name={field.name}
-                              value={inputs[field.name] || ""}
-                              onChange={handleInputChange}
-                              step="any"
-                              required
-                            />
+                            <Input type="number" name={field.name} value={inputs[field.name] || ""} onChange={handleInputChange} step="any" required />
                           </div>
                           <div>
-                            <select
-                              name={field.name}
-                              value={inputUnits[field.name] || 'm'}
-                              onChange={handleUnitChange}
-                              className="border rounded p-2 bg-white"
-                            >
-                              <option value="m">m</option>
-                              <option value="cm">cm</option>
-                              <option value="mm">mm</option>
-                              <option value="inch">inch</option>
-                              <option value="ft">ft</option>
-                              <option value="yd">yd</option>
+                            <select name={field.name} value={inputUnits[field.name] || 'm'} onChange={handleUnitChange} className="border rounded p-2 bg-white">
+                              <option value="m">{contentData.m_3}</option>
+                              <option value="cm">{contentData.cm_4}</option>
+                              <option value="mm">{contentData.mm_5}</option>
+                              <option value="inch">{contentData.inch_6}</option>
+                              <option value="ft">{contentData.ft_7}</option>
+                              <option value="yd">{contentData.yd_8}</option>
                             </select>
                           </div>
-                        </div>
-                      ))}
-                      <div className="text-sm text-gray-700">Formula: {shape.example}</div>
-                      <Button type="submit" className="w-full mt-2 bg-gradient-to-r from-green-500 to-green-700 text-white hover:from-green-600 hover:to-green-800">Calculate</Button>
+                        </div>)}
+                      <div className="text-sm text-gray-700">{contentData.formula_9}{shape.example}</div>
+                      <Button type="submit" className="w-full mt-2 bg-gradient-to-r from-green-500 to-green-700 text-white hover:from-green-600 hover:to-green-800">{contentData.calculate_10}</Button>
                     </form>
                   </CardContent>
                 </Card>
@@ -333,28 +477,24 @@ export default function VolumeCalculator() {
                       <div className="w-14 h-14 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center mb-4 shadow-lg">
                         <Calculator className="w-8 h-8 text-white" />
                       </div>
-                      <div className="text-2xl font-bold text-green-700 tracking-tight mb-4 text-center">Result</div>
-                      {result !== null ? (
-                        <>
+                      <div className="text-2xl font-bold text-green-700 tracking-tight mb-4 text-center">{contentData.result_11}</div>
+                      {result !== null ? <>
                           <div className="flex flex-col items-center w-full">
                             <div className="text-3xl font-bold mb-2 text-center w-full bg-gradient-to-l from-green-700 to-green-300 bg-clip-text text-transparent">
                               {(() => {
-                                const unitObj = volumeUnits.find(u => u.value === resultUnit) || volumeUnits[0];
-                                return (result * unitObj.factor).toLocaleString(undefined, { maximumFractionDigits: 6 });
-                              })()} <span className="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-l from-green-700 to-green-300">{resultUnit}</span>
+                            const unitObj = volumeUnits.find(u => u.value === resultUnit) || volumeUnits[0];
+                            return (result * unitObj.factor).toLocaleString(undefined, {
+                              maximumFractionDigits: 6
+                            });
+                          })()} <span className="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-l from-green-700 to-green-300">{resultUnit}</span>
                             </div>
                             <div className="mt-2">
                               <select value={resultUnit} onChange={handleResultUnitChange} className="border rounded p-2 bg-white">
-                                {volumeUnits.map(u => (
-                                  <option key={u.value} value={u.value}>{u.label}</option>
-                                ))}
+                                {volumeUnits.map(u => <option key={u.value} value={u.value}>{u.label}</option>)}
                               </select>
                             </div>
                           </div>
-                        </>
-                      ) : (
-                        <div className="text-green-700 text-center text-base">Enter values and click <span className="font-semibold text-green-900">Calculate</span> to see result.</div>
-                      )}
+                        </> : <div className="text-green-700 text-center text-base">{contentData.enter_values_and_click_12}<span className="font-semibold text-green-900">{contentData.calculate_13}</span>{contentData.to_see_result_14}</div>}
                     </div>
                   </div>
                 </Card>
@@ -367,21 +507,21 @@ export default function VolumeCalculator() {
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center mr-3 shadow-lg">
                     <Calculator className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-2xl font-bold text-green-700 tracking-tight mb-2 text-left">How to use this calculator?</CardTitle>
+                  <CardTitle className="text-2xl font-bold text-green-700 tracking-tight mb-2 text-left">{contentData.how_to_use_this_calculator_15}</CardTitle>
                 </CardHeader>
                 <CardContent className="w-full flex flex-col items-start justify-center">
                   <ul className="list-none w-full max-w-md mx-0 text-green-900 space-y-4 text-base text-left">
                     <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">1</span>
-                      <span>Select the shape you want to calculate the volume for.</span>
+                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">{contentData.k_1_16}</span>
+                      <span>{contentData.select_the_shape_you_want_to_calculate_the_volume__17}</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">2</span>
-                      <span>Enter your values in the input fields.</span>
+                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">{contentData.k_2_18}</span>
+                      <span>{contentData.enter_your_values_in_the_input_fields_19}</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">3</span>
-                      <span>Click <span className="font-semibold text-green-900">Calculate</span> to see the result instantly.</span>
+                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">{contentData.k_3_20}</span>
+                      <span>{contentData.click_21}<span className="font-semibold text-green-900">{contentData.calculate_22}</span>{contentData.to_see_the_result_instantly_23}</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -391,6 +531,5 @@ export default function VolumeCalculator() {
         </main>
 
       </div>
-    </>
-  );
+    </>;
 }

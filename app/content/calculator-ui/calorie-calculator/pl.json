@@ -1,0 +1,145 @@
+{
+  "pageTitle": "Kalkulator kalorii",
+  "pageDescription": "Oblicz dzienne zapotrzebowanie kaloryczne na podstawie stylu życia, celów i poziomu aktywności w zakresie utraty wagi, utrzymania lub przyrostu mięśni",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "weight": "Waga",
+      "height": "Wysokość",
+      "unitSystem": "Układ jednostek",
+      "activityLevel": "Poziom aktywności",
+      "goal": "Cel wagowy",
+      "calculationMethod": "Metoda obliczeniowa"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz kalorie",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Siedzący tryb życia (mało ćwiczeń lub brak ćwiczeń)",
+      "light": "Lekko aktywny (lekkie ćwiczenia 1-3 dni w tygodniu)",
+      "moderate": "Umiarkowanie aktywny (umiarkowane ćwiczenia 3-5 dni w tygodniu)",
+      "active": "Bardzo aktywny (ciężkie ćwiczenia 6-7 dni w tygodniu)",
+      "veryActive": "Niezwykle aktywny (bardzo ciężkie ćwiczenia i praca fizyczna)"
+    },
+    "goals": {
+      "lose": "Utrata wagi",
+      "maintain": "Utrzymanie wagi",
+      "gain": "Przyrost masy ciała"
+    },
+    "calculationMethods": {
+      "mifflin": "Równanie Mifflina-St Jeora",
+      "harris": "Równanie Harrisa-Benedykta",
+      "revisedHarris": "Poprawione równanie Harrisa-Benedykta"
+    }
+  },
+  "results": {
+    "bmr": "Podstawowa przemiana materii (BMR)",
+    "tdee": "Całkowite dzienne wydatki na energię (TDEE)",
+    "calorieNeeds": "Dzienne zapotrzebowanie kaloryczne",
+    "calorieAdjustment": "Korekta kalorii dla celu",
+    "calorieResultsTitle": "Wyniki kalorii"
+  },
+  "educational": {
+    "calorieInfo": "Informacje o kaloriach",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby odżywcze",
+    "calorieFacts": {
+      "bmr": {
+        "title": "Podstawowa przemiana materii (BMR)",
+        "description": "Kalorie potrzebne do utrzymania podstawowych funkcji organizmu w spoczynku"
+      },
+      "tdee": {
+        "title": "Całkowite dzienne wydatki na energię (TDEE)",
+        "description": "Całkowita liczba kalorii spalonych w ciągu dnia, łącznie z aktywnością i ćwiczeniami"
+      },
+      "adjustments": {
+        "title": "Korekty oparte na celach",
+        "description": "Utrata masy ciała: 500-1000 kalorii poniżej TDEE, Przyrost masy ciała: 250-500 kalorii powyżej TDEE"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator podaje jedynie szacunkowe kalorie",
+      "individual": "Zapotrzebowanie kaloryczne różni się w zależności od czynników indywidualnych i metabolizmu"
+    },
+    "importantNotesList": [
+      "Obliczenia te mają charakter szacunkowy i mogą wymagać korekty w oparciu o wyniki",
+      "Szybka utrata wagi nie jest zalecana i może być niezdrowa",
+      "Przed wprowadzeniem znaczących zmian w diecie rozważ konsultację z pracownikiem służby zdrowia",
+      "Regularne ćwiczenia są ważne dla ogólnego stanu zdrowia, niezależnie od docelowej wagi"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź swoje dane, aby obliczyć dzienne zapotrzebowanie kaloryczne",
+    "resultMessage": "Poniżej przedstawiono Twoje dzienne zapotrzebowanie kaloryczne",
+    "assessmentResult": "Wynik obliczenia kalorii:",
+    "calorieAnalysis": "Analiza kalorii"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten podaje szacunkową liczbę kalorii na podstawie wzorów matematycznych. Indywidualne zapotrzebowanie kaloryczne może się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach, w tym genetyki, stanu zdrowia i metabolizmu."
+  },
+  "seekHelp": {
+    "title": "Zasoby odżywcze",
+    "content": "Aby uzyskać spersonalizowane porady żywieniowe i plany kontroli wagi, skonsultuj się z zarejestrowanymi dietetykami lub pracownikami służby zdrowia posiadającymi wiedzę z zakresu nauk o żywieniu i indywidualnych potrzeb zdrowotnych."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "activityLevel": "Proszę wybrać poziom aktywności",
+    "goal": "Wybierz docelową wagę",
+    "calculationMethod": "Wybierz metodę obliczeń"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na tempo metabolizmu",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "activityLevel": "Twój regularny poziom aktywności wpływa na zapotrzebowanie kaloryczne",
+    "goal": "Twój cel wagowy określa dostosowanie kalorii",
+    "calculationMethod": "Różne równania mogą dawać nieco inne wyniki"
+  },
+  "personal_information_0": "Dane osobowe",
+  "enter_your_details_to_calculate_calorie_needs_1": "Wprowadź swoje dane, aby obliczyć zapotrzebowanie kaloryczne",
+  "age_2": "Wiek",
+  "gender_3": "Płeć",
+  "male_4": "Mężczyzna",
+  "female_5": "Kobieta",
+  "height_cm_6": "Wysokość (cm)",
+  "weight_kg_7": "Waga (kg)",
+  "activity_level_8": "Poziom aktywności",
+  "sedentary_littleno_exercise_9": "Siedzący tryb życia (mało ćwiczeń/brak ćwiczeń)",
+  "light_light_exercise_13_daysweek_10": "Lekkie (lekkie ćwiczenia 1-3 dni w tygodniu)",
+  "moderate_moderate_exercise_35_daysweek_11": "Umiarkowane (umiarkowane ćwiczenia 3-5 dni w tygodniu)",
+  "active_hard_exercise_67_daysweek_12": "Aktywny (ciężkie ćwiczenia 6-7 dni w tygodniu)",
+  "very_active_very_hard_exercise_physical_job_13": "Bardzo aktywny (bardzo ciężkie ćwiczenia, praca fizyczna)",
+  "calculate_14": "Obliczać",
+  "your_calorie_needs_15": "Twoje zapotrzebowanie kaloryczne",
+  "daily_calorie_requirements_for_different_goals_16": "Dzienne zapotrzebowanie kaloryczne dla różnych celów",
+  "maintenance_calories_17": "Kalorie konserwacyjne",
+  "calories_to_maintain_current_weight_18": "Kalorie potrzebne do utrzymania obecnej wagi",
+  "weight_loss_1_lbweek_19": "Utrata masy ciała (1 funt/tydzień)",
+  "calories_20": "kalorie",
+  "weight_gain_1_lbweek_21": "Przyrost masy ciała (1 funt/tydzień)",
+  "calories_22": "kalorie",
+  "basal_metabolic_rate_bmr_23": "Podstawowa przemiana materii (BMR)",
+  "calories_24": "kalorie",
+  "enter_your_information_to_calculate_calorie_needs_25": "Wprowadź swoje dane, aby obliczyć zapotrzebowanie kaloryczne"
+}

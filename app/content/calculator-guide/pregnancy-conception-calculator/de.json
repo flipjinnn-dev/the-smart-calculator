@@ -1,0 +1,137 @@
+{
+  "color": "Rosa",
+  "sections": [
+    {
+      "heading": "Schwangerschafts-Empfängnis-Rechner – Finden Sie Ihr Empfängnisdatum",
+      "content": "Dieser Schwangerschafts-Empfängnis-Rechner hilft Ihnen, Ihr Empfängnisdatum, den Tag des Eisprungs und das voraussichtliche Fälligkeitsdatum basierend auf Ihrer letzten Menstruation (LMP), der Zykluslänge, den Ultraschallergebnissen oder den Details des IVF-Transfers abzuschätzen. Es fungiert als zuverlässiges Tool zur Schätzung des Empfängnisdatums sowohl für natürliche Schwangerschaften als auch für die assistierte Reproduktion."
+    },
+    {
+      "heading": "Haftungsausschluss",
+      "content": "Dieser Rechner liefert allgemeine Schätzungen und ersetzt keinen medizinischen Rat. Bestätigen Sie Ihre Termine immer mit Ihrem Arzt."
+    },
+    {
+      "heading": "Wie funktioniert ein Schwangerschafts-Empfängnis-Rechner?",
+      "content": "Ein Online-Rechner für das Schwangerschafts- und Empfängnisdatum schätzt, wann die Befruchtung wahrscheinlich stattgefunden hat, indem er von Ihrem Fälligkeitsdatum rückwärts oder von Ihrer letzten Menstruationsperiode vorwärts zählt.",
+      "subSections": [
+        {
+          "heading": "Von LMP",
+          "content": "Man geht davon aus, dass der Eisprung etwa 14 Tage nach Beginn Ihrer letzten Periode stattfindet."
+        },
+        {
+          "heading": "Bis zum Fälligkeitsdatum",
+          "content": "Zählt etwa 38 Wochen zurück ab Ihrem geschätzten Geburtsdatum (EDD)."
+        },
+        {
+          "heading": "Durch Ultraschall",
+          "content": "Verwendet fetale Messungen, die in der Frühschwangerschaft präziser sind."
+        },
+        {
+          "heading": "Durch IVF",
+          "content": "Berechnet anhand des genauen Embryotransferdatums für hochpräzise Ergebnisse."
+        }
+      ]
+    },
+    {
+      "heading": "Konzeptionszeitplan erklärt",
+      "content": "Typische Phasen der Empfängnis- und Schwangerschaftsberechnung:",
+      "subSections": [
+        {
+          "heading": "Erster Tag der letzten Periode",
+          "content": "Zyklustag 1 – Referenz für LMP-basierte Rechner."
+        },
+        {
+          "heading": "Eisprungfenster",
+          "content": "Normalerweise Zyklustag 12–16 (in einem 28-Tage-Zyklus)."
+        },
+        {
+          "heading": "Befruchtung (Empfängnis)",
+          "content": "Tritt innerhalb von 24 Stunden nach dem Eisprung auf."
+        },
+        {
+          "heading": "Implantation",
+          "content": "Tritt 6–12 Tage nach dem Eisprung auf."
+        },
+        {
+          "heading": "Positiver Schwangerschaftstest",
+          "content": "Typischerweise etwa 2 Wochen nach dem Eisprung."
+        }
+      ]
+    },
+    {
+      "heading": "Wann Sie den Rechner verwenden sollten",
+      "content": "Dieses Tool ist für mehrere Szenarien nützlich:",
+      "subSections": [
+        {
+          "heading": "Natürliche Schwangerschaftsverfolgung",
+          "content": "Schätzen Sie das Empfängnisdatum anhand des LMP oder der Zykluslänge."
+        },
+        {
+          "heading": "Unregelmäßige Perioden",
+          "content": "Der Konzeptionsrechner passt sich an Zyklusunregelmäßigkeiten an."
+        },
+        {
+          "heading": "Berechnung der IVF-Konzeption",
+          "content": "Basierend auf dem Datum des Embryotransfers (Transfer am 3. oder 5. Tag)."
+        },
+        {
+          "heading": "Ultraschallbasierte Datierung",
+          "content": "Verlässt sich für die Genauigkeit auf frühzeitigen Ultraschall."
+        },
+        {
+          "heading": "Zwillinge oder Mehrlinge",
+          "content": "Hilft bei der Überwachung von Mehrlingsschwangerschaften, auch wenn das Empfängnisdatum gleich bleibt."
+        }
+      ]
+    },
+    {
+      "heading": "Genauigkeit von Konzeptionsrechnern",
+      "content": "Ein kostenloser Schwangerschafts-Empfängnisrechner liefert eine Schätzung, kein genaues Datum. Ultraschall im ersten Trimester ist in der Regel genauer als LMP-basierte Schätzungen. Ärzte kombinieren Zyklushistorie, Ultraschall und medizinische Daten für eine höhere Genauigkeit. IVF-Konzeptionsrechner sind sehr präzise, ​​können jedoch dennoch geringfügige Abweichungen aufweisen."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie funktioniert ein Schwangerschafts-Empfängnisrechner?",
+      "a": "Es schätzt Ihr Empfängnisdatum anhand Ihrer letzten Periode, Ihres Geburtstermins, Ihrer Zykluslänge oder Ihrer Ultraschalldaten."
+    },
+    {
+      "q": "Kann ein Taschenrechner den genauen Tag meiner Empfängnis ermitteln?",
+      "a": "Nein, es wird ein geschätztes Fenster angezeigt. Eine genaue Vorstellung lässt sich nicht feststellen."
+    },
+    {
+      "q": "Wie genau ist der Ultraschall zur Bestimmung des Empfängnisdatums?",
+      "a": "Ultraschall im ersten Trimester ist die zuverlässigste Methode zur Datierung einer Schwangerschaft."
+    },
+    {
+      "q": "Können unregelmäßige Zyklen meinen geschätzten Empfängnistermin beeinflussen?",
+      "a": "Ja. Unregelmäßige Zyklen erschweren Vorhersagen, sodass Ultraschall genauer ist."
+    },
+    {
+      "q": "Wie wird das IVF-Empfängnisdatum berechnet?",
+      "a": "Sie basiert auf dem Datum des Embryotransfers und dem Embryostadium (Transfer am 3. oder 5. Tag)."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Empfängnisdatum und Eisprungdatum?",
+      "a": "Der Eisprung erfolgt, wenn die Eizelle freigesetzt wird. Die Empfängnis erfolgt, wenn Spermien die Eizelle kurz nach dem Eisprung befruchten."
+    },
+    {
+      "q": "Warum unterscheidet sich mein Geburtstermin von meinem Ultraschalltermin?",
+      "a": "Ultraschall korrigiert häufig LMP-basierte Schätzungen, insbesondere wenn die Zyklen unregelmäßig sind."
+    },
+    {
+      "q": "Kann ich einen Empfängnisrechner verwenden, wenn ich meinen LMP nicht kenne?",
+      "a": "Ja. Sie können stattdessen Ihr Ultraschalldatum oder Fälligkeitsdatum verwenden."
+    },
+    {
+      "q": "Ändern Zwillinge oder Mehrlinge die Berechnung des Empfängnisdatums?",
+      "a": "Nein. Das Empfängnisdatum bleibt gleich, der Schwangerschaftsverlauf und die Entbindungstermine können jedoch unterschiedlich sein."
+    },
+    {
+      "q": "Ist mein Fälligkeitsdatum garantiert korrekt?",
+      "a": "Nein. Der Geburtstermin ist nur eine Schätzung und die meisten Babys werden nicht genau an diesem Tag geboren."
+    }
+  ],
+  "cta": {
+    "heading": "Finden Sie noch heute Ihren Empfängnistermin",
+    "content": "Nutzen Sie unseren kostenlosen Schwangerschafts-Empfängnisrechner, um Ihr Empfängnisdatum, den Tag des Eisprungs und das Fälligkeitsdatum zu schätzen. Erhalten Sie genaue Erkenntnisse, sei es durch natürliche Schwangerschaft, Ultraschall oder IVF-Tracking."
+  }
+}

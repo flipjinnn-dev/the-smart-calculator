@@ -1,0 +1,123 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Dlaczego warto skorzystać z naszego kalkulatora walut?",
+      "subSections": [
+        {
+          "heading": "Aktualne kursy wymiany",
+          "content": "Otrzymuj wartości walut w czasie rzeczywistym aktualizowane co kilka sekund z globalnych rynków forex i banków centralnych."
+        },
+        {
+          "heading": "Obsługiwanych ponad 50 walut",
+          "content": "Konwertuj pomiędzy USD, EUR, GBP, JPY, CAD, AUD, INR, CNY i więcej z natychmiastowymi wynikami."
+        },
+        {
+          "heading": "Przyjazny w podróży",
+          "content": "Idealny dla osób podróżujących za granicę — unikaj ukrytych opłat bankowych i natychmiast obliczaj koszty za granicą."
+        },
+        {
+          "heading": "Tryb wielu walut",
+          "content": "Konwertuj wiele walut jednocześnie, co czyni go idealnym rozwiązaniem dla firm obsługujących transakcje międzynarodowe."
+        },
+        {
+          "heading": "Opcja danych historycznych",
+          "content": "Porównaj wcześniejsze stawki, aby podejmować lepsze decyzje finansowe i inwestycyjne."
+        },
+        {
+          "heading": "Wsparcie dla kryptowalut i Fiata",
+          "content": "Śledź zarówno tradycyjne waluty, jak i kryptowaluty w jednym kalkulatorze."
+        }
+      ]
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora walut",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wpisz kwotę, którą chcesz przeliczyć."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Wybierz walutę bazową (np. USD)."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Wybierz walutę docelową (np. EUR, INR, GBP)."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Kliknij Oblicz, aby uzyskać aktualny kurs wymiany i przeliczoną kwotę."
+        },
+        {
+          "heading": "Krok 5",
+          "content": "Opcjonalnie: włącz tryb historyczny lub tryb wielowalutowy, aby uzyskać głębszy wgląd."
+        }
+      ]
+    },
+    {
+      "heading": "Jak działa kalkulator (proces i metodologia)",
+      "subSections": [
+        {
+          "heading": "Dane Forex na żywo",
+          "content": "Kalkulator pobiera w czasie rzeczywistym stawki z banków centralnych i instytucji finansowych."
+        },
+        {
+          "heading": "Formuła konwersji",
+          "content": "Przeliczona wartość = kwota × bieżący kurs wymiany."
+        },
+        {
+          "heading": "Dokładność",
+          "content": "W przeciwieństwie do banków, które dodają opłaty i marże, to narzędzie pokazuje czyste średnie stawki rynkowe."
+        },
+        {
+          "heading": "Zaawansowane funkcje",
+          "content": "Obejmuje przeliczanie wielu walut, porównywanie opłat i sprawdzanie kursów historycznych."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe scenariusze konwersji",
+      "subSections": [
+        {
+          "heading": "Przykład podróży",
+          "content": "Zamiana 1000 USD na EUR po kursie 1,10 daje natychmiastową kwotę 1100 EUR, co ułatwia podróżnym planowanie wydatków za granicą."
+        },
+        {
+          "heading": "Przykład biznesowy",
+          "content": "Firma otrzymująca 100 000 INR z Indii może sprawdzić wartość USD w czasie rzeczywistym, zapewniając uczciwe transakcje międzynarodowe."
+        },
+        {
+          "heading": "Przykład ucznia",
+          "content": "Student studiujący finanse może porównać historyczne kursy GBP/USD, aby dowiedzieć się, jak rynki walutowe zmieniają się w czasie."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jaki jest najdokładniejszy kalkulator walutowy online?",
+      "a": "Najdokładniejsze kalkulatory wykorzystują aktualne dane rynkowe aktualizowane w czasie rzeczywistym – tak jak ten."
+    },
+    {
+      "q": "W jaki sposób kalkulatory walut aktualizują kursy?",
+      "a": "Łączą się z globalnymi kanałami forex i odświeżają się automatycznie co kilka sekund."
+    },
+    {
+      "q": "Czy mogę używać tego kalkulatora w podróży?",
+      "a": "Tak, jest przeznaczony dla podróżujących za granicę i umożliwia natychmiastowe obliczanie kosztów za granicą bez ukrytych opłat."
+    },
+    {
+      "q": "Jaka jest różnica między bankowymi kursami wymiany a kursami kalkulatora?",
+      "a": "Banki zazwyczaj doliczają marże i opłaty za przewalutowanie. Ten kalkulator pokazuje średnie stawki rynkowe, dzięki czemu można uczciwie porównać."
+    },
+    {
+      "q": "Czy mogę przeliczyć wiele walut jednocześnie?",
+      "a": "Tak, tryb wielowalutowy umożliwia konwersję kilku walut w ramach jednego obliczenia."
+    },
+    {
+      "q": "Czy obsługuje konwersję kryptowalut?",
+      "a": "Tak, obsługuje zarówno waluty fiducjarne, jak i główne kryptowaluty do konwersji w czasie rzeczywistym."
+    }
+  ]
+}

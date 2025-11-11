@@ -1,0 +1,151 @@
+{
+  "pageTitle": "Amortisationsrechner",
+  "pageDescription": "Erstellen Sie detaillierte Tilgungspläne für Kredite mit Aufschlüsselung von Kapital und Zinsen für jeden Zahlungszeitraum, um den Fortschritt der Kreditrückzahlung zu verstehen",
+  "form": {
+    "labels": {
+      "loanAmount": "Darlehensbetrag",
+      "interestRate": "Jährlicher Zinssatz",
+      "loanTerm": "Kreditlaufzeit",
+      "loanTermUnit": "Kreditlaufzeiteinheit",
+      "startDate": "Kreditbeginndatum",
+      "extraPayment": "Zusätzliche monatliche Zahlung",
+      "paymentFrequency": "Zahlungshäufigkeit"
+    },
+    "placeholders": {
+      "loanAmount": "Geben Sie den Kreditbetrag ein",
+      "interestRate": "Geben Sie den jährlichen Zinssatz (%) ein.",
+      "loanTerm": "Geben Sie die Kreditlaufzeit ein",
+      "extraPayment": "Geben Sie eine zusätzliche monatliche Zahlung ein (optional)"
+    },
+    "buttons": {
+      "calculate": "Generieren Sie einen Tilgungsplan",
+      "reset": "Zurücksetzen"
+    },
+    "loanTermUnits": {
+      "years": "Jahre",
+      "months": "Monate"
+    },
+    "paymentFrequencies": {
+      "monthly": "Monatlich",
+      "biweekly": "Zweiwöchentlich",
+      "weekly": "Wöchentlich"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Monatliche Zahlung",
+    "totalInterest": "Gezahlte Gesamtzinsen",
+    "totalPayment": "Gesamtzahlung",
+    "payoffDate": "Datum der Kreditrückzahlung",
+    "interestSavings": "Zinsersparnis durch zusätzliche Zahlungen",
+    "amortizationResultsTitle": "Ergebnisse der Amortisationsberechnung"
+  },
+  "educational": {
+    "amortizationInfo": "Informationen zur Amortisation",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "amortizationFacts": {
+      "definition": {
+        "title": "Amortisationsdefinition",
+        "description": "Prozess der Rückzahlung eines Kredits mit regelmäßigen Zahlungen im Laufe der Zeit, wobei die Zinsen auf den Restbetrag berechnet werden"
+      },
+      "schedule": {
+        "title": "Tilgungsplan",
+        "description": "Detaillierte Tabelle mit den Kapital- und Zinsanteilen jeder Zahlung über die Kreditlaufzeit"
+      },
+      "earlyPayments": {
+        "title": "Auswirkungen auf vorzeitige Zahlungen",
+        "description": "Bei vorzeitigen Zahlungen handelt es sich meist um Zinsen; Bei späteren Zahlungen handelt es sich meist um Kapitalzahlungen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen des Tilgungsplans",
+      "actual": "Die tatsächlichen Kreditbedingungen können je nach Richtlinien und Gebühren des Kreditgebers variieren"
+    },
+    "importantNotesList": [
+      "Zusätzliche Zahlungen reduzieren direkt den Kapitalbetrag und sparen Gesamtzinsen",
+      "Zweiwöchentliche Zahlungen können dazu beitragen, Kredite schneller abzubezahlen",
+      "Zu Beginn der Kreditlaufzeit entfallen die meisten Zahlungen auf Zinsen und nicht auf Kapital",
+      "Tilgungspläne helfen bei der Budgetplanung und beim Verständnis des Kreditfortschritts"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Kreditinformationen ein, um einen Tilgungsplan zu erstellen",
+    "resultMessage": "Die Ergebnisse Ihrer Amortisationsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Amortisationsberechnung:",
+    "amortizationAnalysis": "Amortisationsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen des Tilgungsplans auf der Grundlage standardmäßiger Finanzformeln. Die tatsächlichen Kreditbedingungen, Zahlungen und Zinsen können je nach Richtlinien des Kreditgebers, Gebühren und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine individuelle Kreditberatung und Tilgungsanalyse wenden Sie sich an Finanzberater oder Kreditsachbearbeiter mit Erfahrung in Kreditprodukten und individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "loanAmount": "Bitte geben Sie einen gültigen Kreditbetrag ein",
+    "interestRate": "Bitte geben Sie einen gültigen Jahreszinssatz ein",
+    "loanTerm": "Bitte geben Sie eine gültige Kreditlaufzeit ein",
+    "startDate": "Bitte geben Sie ein gültiges Kreditbeginndatum ein",
+    "extraPayment": "Bitte geben Sie einen gültigen Zuzahlungsbetrag ein",
+    "loanTermUnit": "Bitte wählen Sie eine Leihlaufzeiteinheit aus",
+    "paymentFrequency": "Bitte wählen Sie eine Zahlungshäufigkeit aus"
+  },
+  "tooltips": {
+    "loanAmount": "Gesamtbetrag der geliehenen Summe",
+    "interestRate": "Jährlicher Zinssatz in Prozent",
+    "loanTerm": "Dauer der Rückzahlung des Darlehens",
+    "startDate": "Datum, an dem die Kreditzahlungen beginnen",
+    "extraPayment": "Zusätzlicher Betrag, der jeden Monat an das Kapital gezahlt wird",
+    "loanTermUnit": "Zeiteinheit für Kreditlaufzeit (Jahre oder Monate)",
+    "paymentFrequency": "Wie oft werden Zahlungen geleistet?"
+  },
+  "smart_calculator_0": "Intelligenter Rechner",
+  "amortization_calculator_1": "Amortisationsrechner",
+  "home_2": "Heim",
+  "financial_3": "Finanziell",
+  "amortization_calculator_4": "Amortisationsrechner",
+  "amortization_calculator_5": "Amortisationsrechner",
+  "generate_a_detailed_amortization_schedule_showing__6": "Erstellen Sie einen detaillierten Tilgungsplan, der zeigt, wie jede Zahlung zwischen Kapital und Tilgung aufgeteilt wird\n                Interesse.",
+  "loan_details_7": "Kreditdetails",
+  "enter_loan_information_to_generate_schedule_8": "Geben Sie Kreditinformationen ein, um einen Zeitplan zu erstellen",
+  "loan_amount_9": "Darlehensbetrag",
+  "interest_rate_10": "Zinssatz (%)",
+  "loan_term_11": "Kreditlaufzeit",
+  "k_15_years_12": "15 Jahre",
+  "k_20_years_13": "20 Jahre",
+  "k_25_years_14": "25 Jahre",
+  "k_30_years_15": "30 Jahre",
+  "start_date_16": "Startdatum",
+  "generate_schedule_17": "Zeitplan erstellen",
+  "loan_summary_18": "Kreditübersicht",
+  "payment_overview_19": "Zahlungsübersicht",
+  "monthly_payment_20": "Monatliche Zahlung",
+  "total_interest_21": "Gesamtzins",
+  "total_payment_22": "Gesamtzahlung",
+  "enter_loan_details_to_see_summary_23": "Geben Sie die Kreditdetails ein, um die Zusammenfassung anzuzeigen",
+  "payment_schedule_24": "Zahlungsplan",
+  "first_12_payments_preview_25": "Vorschau der ersten 12 Zahlungen",
+  "payment_26": "Zahlung #",
+  "principal_27": "Rektor:",
+  "interest_28": "Interesse:",
+  "balance_29": "Guthaben: $",
+  "showing_first_12_of_30": "Zeigt die ersten 12 von",
+  "payments_31": "Zahlungen",
+  "generate_schedule_to_see_payment_details_32": "Erstellen Sie einen Zeitplan, um die Zahlungsdetails anzuzeigen",
+  "how_to_use_the_amortization_calculator_33": "So verwenden Sie den Amortisationsrechner",
+  "the_amortization_calculator_is_a_powerful_tool_des_34": "Der Tilgungsrechner ist ein leistungsstarkes Tool, das Ihnen hilft, die Aufteilung Ihrer Kreditzahlungen zu verstehen. So verwenden Sie es:",
+  "enter_loan_amount_35": "Geben Sie den Kreditbetrag ein:",
+  "input_the_total_amount_of_the_loan_you_wish_to_cal_36": "Geben Sie den Gesamtbetrag des Kredits ein, den Sie berechnen möchten.",
+  "enter_interest_rate_37": "Zinssatz eingeben:",
+  "provide_the_annual_interest_rate_of_the_loan_38": "Geben Sie den jährlichen Zinssatz des Darlehens an.",
+  "select_loan_term_39": "Kreditlaufzeit auswählen:",
+  "choose_the_duration_of_the_loan_in_years_40": "Wählen Sie die Laufzeit des Darlehens in Jahren.",
+  "enter_start_date_41": "Geben Sie das Startdatum ein:",
+  "specify_the_date_when_the_loan_payments_will_begin_42": "Geben Sie das Datum an, an dem die Kreditzahlungen beginnen sollen.",
+  "generate_schedule_43": "Zeitplan erstellen:",
+  "click_the_button_to_generate_the_amortization_sche_44": "Klicken Sie auf die Schaltfläche, um den Tilgungsplan zu erstellen.",
+  "the_calculator_will_display_a_detailed_schedule_sh_45": "Der Rechner zeigt einen detaillierten Zeitplan an, der jede Zahlung, den für Kapital und Zinsen zugewiesenen Betrag und den verbleibenden Restbetrag anzeigt."
+}

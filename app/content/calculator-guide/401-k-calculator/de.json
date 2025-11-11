@@ -1,0 +1,75 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Verstehen Sie Ihre 401(k)-Ergebnisse",
+      "content": "Die Planung für den Ruhestand beginnt mit Klarheit. Mit unserem kostenlosen Online-Rechner 401(k) können Sie schnell abschätzen, wie viel Sie im Ruhestand haben könnten, indem Sie Ihre Beiträge, die Arbeitgeberübereinstimmung, den Zinseszins und mögliche Abhebungen berücksichtigen. Egal, ob Sie gerade erst anfangen oder Ihren bestehenden Plan optimieren, dies ist eines der besten 401(k)-Rechner-Tools, um Ihre finanzielle Zukunft zu prognostizieren."
+    },
+    {
+      "heading": "Was dieser 401(k)-Rechner macht",
+      "content": "Dieses Tool wurde entwickelt, um reale Fragen zur Ruhestandsplanung zu beantworten. Es geht über eine einfache Einsparschätzung hinaus, indem es Folgendes berechnet:",
+      "subSections": [
+        {
+          "heading": "Merkmale",
+          "content": "- 401(k)-Wachstum mit Arbeitgeberanpassung (sowohl prozentuale als auch Dollar-basierte Anpassung).\n- Zinseszinsprognosen für jedes Jahr, um zu sehen, wie Ihr Geld im Laufe der Zeit wächst.\n- 401(k) Vorfälligkeitsentschädigung, wenn Gelder vor dem Alter von 59½ Jahren abgehoben werden.\n- Traditionelle und Roth 401(k)-Steuerauswirkungen, die Ihnen beim Vergleich von Optionen helfen.\n- Inflationsbereinigte Altersvorsorge, um Ihnen ein realistisches Bild des zukünftigen Werts zu vermitteln."
+        }
+      ]
+    },
+    {
+      "heading": "So funktioniert der 401(k)-Rechner",
+      "content": "Hier ist eine kurze Aufschlüsselung, wie das Tool Ihr 401(k)-Guthaben schätzt:",
+      "subSections": [
+        {
+          "heading": "Schritte",
+          "content": "1. Geben Sie Ihre Daten ein – Gehalt, Beitragssatz, Arbeitgeberübereinstimmung, aktueller Kontostand.\n2. Fügen Sie Annahmen hinzu – erwartete Rendite, Rentenalter, Inflationsrate.\n3. Wenden Sie das zusammengesetzte Wachstum an – der Rechner prognostiziert das jährliche Wachstum der Beiträge plus Rendite.\n4. Steuern berücksichtigen – vergleicht traditionelle 401(k)- und Roth 401(k)-Beiträge.\n5. Ergebnisse anzeigen – Sie sehen Ihren geschätzten Ruhestandssaldo, die Arbeitgeberbeiträge und die Wachstumsaufschlüsselung."
+        }
+      ]
+    },
+    {
+      "heading": "Häufige Anwendungsfälle",
+      "content": "Menschen verwenden diesen Rechner aus vielen Gründen:",
+      "subSections": [
+        {
+          "heading": "Beispiele",
+          "content": "- Ersparniswachstum: Berechnen Sie schnell online 401(k)-Ersparnisse und sehen Sie, wie Beiträge Vermögen aufbauen.\n- Arbeitgeber-Match: Verwenden Sie den 401(k-Arbeitgeber-Match-Rechner, um das Gratisgeld Ihres Unternehmens zu maximieren.\n- Vorzeitige Abhebungen: Schätzen Sie Strafen und Steuern mit einem 401(k-Rechner für Vorababhebungsgebühren.\n- Roth vs. traditionell: Vergleichen Sie die Auswirkungen zum Mitnehmen mit einem 401(k vs. Roth IRA-Rechner.\n- Ruhestandsplanung: Erstellen Sie eine Strategie mit unserem kostenlosen 401(k-Prognoserechner mit Inflationsanpassungen."
+        }
+      ]
+    },
+    {
+      "heading": "Tipps und nächste Schritte",
+      "content": "Praktische Strategien zur Steigerung Ihrer 401(k)- und Rentenersparnisse:",
+      "subSections": [
+        {
+          "heading": "Tipps",
+          "content": "- Maximieren Sie die Übereinstimmung mit Ihrem Arbeitgeber – es handelt sich im Grunde genommen um kostenloses Geld.\n- Erhöhen Sie die Beiträge schrittweise – sogar 1–2 % mehr pro Jahr können sich summieren.\n- Investitionen diversifizieren – Risiko mit Wachstumspotenzial in Einklang bringen.\n- Regelmäßige Überprüfung – Führen Sie mindestens einmal im Jahr oder nach größeren Veränderungen im Leben eine Neuberechnung durch.\n- Vergleichen Sie mit anderen Tools – Probieren Sie einen Rentenrechner mit 401(k)-Option oder einen persönlichen Finanzrechner für eine ganzheitliche Sicht aus."
+        }
+      ]
+    },
+    {
+      "heading": "Haftungsausschluss",
+      "content": "Dieser kostenlose Online-401(k)-Rechner dient nur zu Bildungszwecken. Die Ergebnisse sind Schätzungen und sollten nicht als individuelle Finanzberatung verstanden werden. Für eine auf Ihre Situation zugeschnittene Ruhestandsplanung wenden Sie sich an einen lizenzierten Finanzberater."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie funktioniert ein 401(k)-Rechner?",
+      "a": "Ein 401(k)-Rechner schätzt Ihr zukünftiges Guthaben, indem er Ihre Beiträge, die Arbeitgeberübereinstimmung, das Gesamtwachstum und die Steuern kombiniert. Es prognostiziert jährliche Ersparnisse bis zum Rentenalter."
+    },
+    {
+      "q": "Wie viel sollte ich zu meinem 401(k) beitragen?",
+      "a": "Experten empfehlen häufig, mindestens so viel beizutragen, dass der volle Arbeitgeberanteil erreicht wird. Viele Menschen streben 10–15 % ihres Einkommens an, aber die richtige Zahl hängt von Ihrem Alter, Ihrem Gehalt und Ihren Ruhestandszielen ab. Verwenden Sie diesen Rechner, um verschiedene Beitragsniveaus zu testen."
+    },
+    {
+      "q": "Kann ich das 401(k)-Wachstum mit der Inflation berechnen?",
+      "a": "Ja. Mit unserem Rechner können Sie eine inflationsbereinigte Prognose einbeziehen, sodass Sie die tatsächliche Kaufkraft Ihrer Ersparnisse im Ruhestand sehen können."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Traditional und Roth 401(k)?",
+      "a": "Traditionelles 401(k): Beiträge erfolgen vor Steuern, Abhebungen werden jedoch besteuert. Roth 401(k): Beiträge erfolgen nach Steuern, Abhebungen im Ruhestand sind jedoch steuerfrei. Unser Tool umfasst beides und dient als Vergleichsrechner für Steuerersparnisse in Höhe von 401.000 US-Dollar."
+    },
+    {
+      "q": "Wie genau sind 401(k)-Rechner?",
+      "a": "Sie liefern Schätzungen, keine Garantien. Die tatsächlichen Ergebnisse hängen von Anlagerenditen, Inflation, Arbeitgeberrichtlinien und Steuergesetzänderungen (wie Secure Act 2.0) ab. Verwenden Sie es als Planungsleitfaden, nicht als Vorhersage."
+    }
+  ]
+}

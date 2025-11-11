@@ -1,0 +1,119 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de ingestão de proteína – Encontre suas necessidades diárias de proteína",
+      "content": "Nossa calculadora de ingestão de proteínas ajuda a determinar exatamente quanta proteína você precisa por dia com base em seu peso, idade, sexo, nível de atividade e metas de condicionamento físico. Se você deseja construir músculos, perder gordura, melhorar a recuperação ou manter o peso, esta ferramenta gratuita fornece uma necessidade diária personalizada de proteína, apoiada pela ciência da nutrição."
+    },
+    {
+      "heading": "Quanta proteína eu preciso diariamente?",
+      "subSections": [
+        {
+          "heading": "Adultos sedentários",
+          "content": "0,8 g de proteína por quilograma de peso corporal."
+        },
+        {
+          "heading": "Adultos e atletas ativos",
+          "content": "1,2 – 2,0 g/kg."
+        },
+        {
+          "heading": "Ganho muscular e musculação",
+          "content": "1,6 – 2,2 g/kg."
+        },
+        {
+          "heading": "Perda de gordura preservando os músculos",
+          "content": "1,8 – 2,4 g/kg."
+        },
+        {
+          "heading": "Exemplo",
+          "content": "Uma pessoa de 70 kg que busca ganho muscular pode precisar de 112–154 g de proteína por dia."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora de ingestão recomendada de proteínas por meta",
+      "subSections": [
+        {
+          "heading": "Ganho muscular",
+          "content": "Maior proteína (1,6–2,2 g/kg) para apoiar a hipertrofia e a recuperação."
+        },
+        {
+          "heading": "Perda de gordura",
+          "content": "Proteína ligeiramente superior (1,8–2,4 g/kg) para preservar a massa muscular magra."
+        },
+        {
+          "heading": "Atletas e Corredores",
+          "content": "Proteína moderada a alta (1,2–2,0 g/kg) para resistência e recuperação."
+        },
+        {
+          "heading": "Saúde geral e manutenção de peso",
+          "content": "0,8–1,2 g/kg para atender às necessidades básicas."
+        }
+      ]
+    },
+    {
+      "heading": "Gráfico de ingestão de proteínas por peso corporal",
+      "content": "Peso corporal (kg) | Sedentário (0,8 g/kg) | Ativo (1,4 g/kg) | Ganho muscular (2,0 g/kg) | Perda de gordura (2,2 g/kg)\n--- | --- | --- | --- | ---\n60 | 48g | 84g | 120g | 132g\n70 | 56g | 98g | 140g | 154g\n80 | 64g | 112g | 160g | 176g\n90 | 72g | 126g | 180g | 198g\n100 | 80g | 140g | 200g | 220g"
+    },
+    {
+      "heading": "Como calcular a ingestão de proteínas",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Insira seu peso, idade, sexo e nível de atividade na Calculadora Online de Ingestão de Proteínas."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Escolha seu objetivo – ganho muscular, perda de gordura ou manutenção."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Obtenha sua ingestão diária de proteína em gramas, juntamente com uma faixa recomendada."
+        }
+      ]
+    },
+    {
+      "heading": "Por que usar uma calculadora de necessidades proteicas?",
+      "subSections": [
+        {
+          "heading": "Entusiastas de academia e fitness",
+          "content": "Acompanhe macros de construção muscular."
+        },
+        {
+          "heading": "Atletas e Corredores",
+          "content": "Otimize a recuperação e o desempenho."
+        },
+        {
+          "heading": "Pessoas em jornadas para perder peso",
+          "content": "Garanta a ingestão segura de proteínas."
+        },
+        {
+          "heading": "Qualquer pessoa curiosa sobre alimentação saudável",
+          "content": "Equilibre macros para o bem-estar."
+        },
+        {
+          "heading": "Precisão alimentada por IA",
+          "content": "Ao contrário dos gráficos genéricos, esta ferramenta ajusta o nível de atividade, o IMC e as metas de condicionamento físico para um resultado personalizado."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual é a minha ingestão recomendada de proteínas?",
+      "a": "Suas necessidades de proteína dependem do peso corporal e do nível de atividade. A maioria dos adultos precisa de 0,8–2,2 g/kg/dia, dependendo de seus objetivos de condicionamento físico."
+    },
+    {
+      "q": "Quanta proteína por kg de peso corporal?",
+      "a": "Sedentário: 0,8 g/kg | Ativo: 1,2–2,0 g/kg | Ganho muscular: 1,6–2,2 g/kg | Perda de gordura: 1,8–2,4 g/kg."
+    },
+    {
+      "q": "O alto teor de proteína é seguro para perda de gordura?",
+      "a": "Sim, quando combinado com um déficit calórico. O alto teor de proteína ajuda a preservar a massa muscular magra enquanto perde peso."
+    },
+    {
+      "q": "Os atletas precisam de mais proteína?",
+      "a": "Sim. Atletas de resistência precisam de 1,2 a 1,6 g/kg, enquanto atletas de força podem precisar de 1,6 a 2,2 g/kg para desempenho e recuperação."
+    }
+  ]
+}

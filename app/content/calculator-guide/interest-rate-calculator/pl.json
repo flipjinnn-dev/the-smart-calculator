@@ -1,0 +1,124 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Kalkulator stopy procentowej – natychmiast znajdź odpowiednią stopę kredytu",
+      "content": "Zarządzanie pożyczkami może wydawać się skomplikowane, ale zrozumienie stopy procentowej nie powinno takie być. Nasz kalkulator stóp procentowych pomaga szybko i dokładnie obliczyć oprocentowanie kredytów hipotecznych, samochodowych, osobistych, mieszkaniowych, a nawet kart kredytowych. Niezależnie od tego, czy chcesz obliczyć miesięczne odsetki kredytu, znaleźć efektywną roczną stopę procentową, czy porównać wiele ofert kredytów, to bezpłatne narzędzie zapewnia natychmiastową przejrzystość."
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora stóp procentowych?",
+      "subSections": [
+        {
+          "heading": "Oszczędzaj czas",
+          "content": "Nie jest wymagana ręczna matematyka."
+        },
+        {
+          "heading": "Planuj mądrzej",
+          "content": "Poznaj dokładny koszt pożyczki."
+        },
+        {
+          "heading": "Porównaj pożyczkodawców",
+          "content": "Zobacz, który kredyt oferuje najlepsze oprocentowanie."
+        },
+        {
+          "heading": "Zachowaj dokładność",
+          "content": "Zbudowane w oparciu o te same formuły, których używają banki i pożyczkodawcy."
+        }
+      ]
+    },
+    {
+      "heading": "Jak działa kalkulator?",
+      "content": "Nasz kalkulator wykorzystuje wzór stopy procentowej kredytu i metody amortyzacji kredytu, aby zapewnić dokładne wyniki.",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wprowadź kwotę pożyczki (główną)."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Dodaj miesięczną płatność i okres pożyczki."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Kalkulator stosuje formułę efektywnej stopy procentowej i pokazuje miesięczną lub roczną stopę procentową."
+        },
+        {
+          "heading": "Notatka",
+          "content": "Jest to ten sam proces, którego używają pożyczkodawcy do obliczania RRSO w porównaniu do stóp procentowych i harmonogramów spłat."
+        }
+      ]
+    },
+    {
+      "heading": "Rodzaje pożyczek, które możesz obliczyć",
+      "subSections": [
+        {
+          "heading": "Kalkulator oprocentowania kredytu hipotecznego",
+          "content": "Na kredyty mieszkaniowe."
+        },
+        {
+          "heading": "Kalkulator oprocentowania kredytu samochodowego",
+          "content": "Finansowanie i leasing samochodów."
+        },
+        {
+          "heading": "Kalkulator oprocentowania pożyczki osobistej",
+          "content": "Niezabezpieczona pożyczka."
+        },
+        {
+          "heading": "Kalkulator oprocentowania kredytu mieszkaniowego",
+          "content": "Finansowanie nieruchomości i mieszkań."
+        },
+        {
+          "heading": "Kalkulator oprocentowania karty kredytowej",
+          "content": "Salda kredytów odnawialnych."
+        },
+        {
+          "heading": "Zaawansowany kalkulator oprocentowania kredytu",
+          "content": "Z opłatami, RRSO i narzędziami porównawczymi."
+        }
+      ]
+    },
+    {
+      "heading": "Spostrzeżenia edukacyjne – lepiej poznaj swoją pożyczkę",
+      "subSections": [
+        {
+          "heading": "RRSO a stopa procentowa",
+          "content": "Stopa procentowa: Podstawowy koszt pożyczki. RRSO (roczna stopa procentowa): obejmuje odsetki i opłaty, co daje wyraźniejszy obraz prawdziwego kosztu pożyczki."
+        },
+        {
+          "heading": "Miesięczna a roczna stopa procentowa",
+          "content": "Co miesiąc: Przydatne przy budżetowaniu i planowaniu EMI. Roczne: najlepsze do porównywania pożyczkodawców i kosztów długoterminowych."
+        },
+        {
+          "heading": "Nominalna a efektywna stopa procentowa",
+          "content": "Stopa nominalna: Podane odsetki bez kapitalizacji. Efektywna stopa roczna (EAR): Obejmuje składanie, pokazujące rzeczywisty koszt."
+        }
+      ]
+    },
+    {
+      "heading": "Porównaj i znajdź najlepszą pożyczkę",
+      "content": "Szukasz najlepszego kalkulatora oprocentowania kredytu online? Nasze narzędzie pełni również funkcję narzędzia do porównywania stóp procentowych, umożliwiając sprawdzenie wielu scenariuszy kredytowych obok siebie.\n- Porównaj oprocentowanie kredytów hipotecznych i kredytów osobistych.\n- Zrozumienie RRSO kredytu samochodowego w porównaniu ze stopą procentową.\n- Użyj go jako internetowego kalkulatora EMI ze stopami procentowymi.\nJest bezpłatny, dokładny i stworzony z myślą o podejmowaniu mądrzejszych decyzji finansowych."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak ręcznie obliczyć oprocentowanie kredytu?",
+      "a": "Dzielisz całkowite odsetki zapłacone przez kapitał, a następnie dostosowujesz je do okresu pożyczki. Nasze narzędzie automatyzuje to natychmiastowo."
+    },
+    {
+      "q": "Czy mogę obliczyć oprocentowanie od miesięcznej raty?",
+      "a": "Tak – wpisz kwotę pożyczki, okres i miesięczną ratę, a kalkulator znajdzie stawkę."
+    },
+    {
+      "q": "Jaka jest różnica między RRSO a stopą procentową?",
+      "a": "RRSO obejmuje opłaty; stopa procentowa nie. RRSO jest zawsze równe lub wyższe od stopy nominalnej."
+    },
+    {
+      "q": "Jak banki obliczają oprocentowanie kredytów?",
+      "a": "Banki wykorzystują takie czynniki, jak ocena kredytowa, rodzaj kredytu i stawki rynkowe, a następnie stosują formuły amortyzacji."
+    },
+    {
+      "q": "Czy ten kalkulator jest dokładny dla wszystkich kredytów?",
+      "a": "Tak – działa w przypadku kredytów hipotecznych, kredytów samochodowych, pożyczek osobistych, kart kredytowych i nie tylko."
+    }
+  ]
+}

@@ -1,80 +1,81 @@
-import type { Metadata } from "next"
+"use client"
+import Script from "next/script"
 import Link from "next/link"
+import { useState, useEffect } from "react"
 import { ArrowLeft, Calculator, Beef } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import Logo from "@/components/logo"
 import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
-import Script from "next/script"
+import { useCategoryContent } from "@/hooks/useCategoryContent"
 
-export const metadata: Metadata = {
-  title: "Food Calculators - Smart Calculator",
-  description:
-    "Free food calculators including calorie, nutrition, and meal planning tools. Make informed dietary decisions.",
-  keywords: "food calculator, calorie calculator, nutrition calculator, meal planning calculator",
-  alternates: {
-      canonical: "https://www.thesmartcalculator.com/food",
+// Define fallback content
+const fallbackContent = {
+  name: "Food",
+  description: "Free food calculators for nutrition, calorie counting, meal planning, and cooking measurements. Cook and eat smarter.",
+  slug: "food"
+}
+
+export default function FoodCategoryPage() {
+  // Detect language from URL path or headers
+  const [language, setLanguage] = useState("en");
+  
+  useEffect(() => {
+    // First try to get language from headers (set by middleware)
+    const headerLanguage = document.head.querySelector('meta[name="x-language"]')?.getAttribute('content');
+    if (headerLanguage) {
+      setLanguage(headerLanguage);
+      return;
+    }
+    
+    // Fallback to URL path detection
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/(br|pl|de)/);
+    const detectedLanguage = langMatch ? langMatch[1] : "en";
+    setLanguage(detectedLanguage);
+  }, []);
+
+  const { content, loading, error } = useCategoryContent("food", language);
+  
+  // Use content or fallback to defaults
+  const contentData = content || fallbackContent;
+
+  // Show loading state
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+  }
+
+  // Show error if content failed to load
+  if (error) {
+    return <div className="min-h-screen flex items-center justify-center">Error loading content: {error}</div>;
+  }
+
+  const foodCalculators = getCalculatorsByCategory("food", language)
+  const popularFoodCalculators = getPopularCalculatorsByCategory("food", language)
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: contentData.name,
+    description: contentData.description,
+    url: `https://www.thesmartcalculator.com/${contentData.slug}`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: foodCalculators.map((calc, index) => ({
+        "@type": "SoftwareApplication",
+        position: index + 1,
+        name: calc.name,
+        description: calc.description,
+        url: `https://www.thesmartcalculator.com${calc.href}`,
+        applicationCategory: "SoftwareApplication",
+      })),
     },
-}
+  }
 
-// Get calculators dynamically
-const foodCalculators = getCalculatorsByCategory("food")
-const popularFoodCalculators = getPopularCalculatorsByCategory("food")
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "Food Calculators",
-  description: "Free food calculators for calorie tracking, nutrition analysis, and meal planning.",
-  url: "https://www.thesmartcalculator.com/food",
-  mainEntity: {
-    "@type": "ItemList",
-    itemListElement: foodCalculators.map((calc, index) => ({
-      "@type": "SoftwareApplication",
-      position: index + 1,
-      name: calc.name,
-      description: calc.description,
-      url: `https://www.thesmartcalculator.com${calc.href}`,
-      applicationCategory: "FinanceApplication",
-    })),
-  },
-}
-
-export default function AutomotiveCategoryPage() {
   return (
     <>
       <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-blue-800 transition-colors">
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-600">Food Calculators</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        {/* Breadcrumb */}
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-3 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-gray-700">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Food Calculators</span>
-            </div>
-          </div>
-        </nav>
 
         {/* Hero section with orange-amber theme and food-specific content */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
@@ -84,10 +85,9 @@ export default function AutomotiveCategoryPage() {
                 <Beef className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Food Calculators</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{contentData.name}</h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Make informed food decisions with our comprehensive collection of calculators. From calorie tracking
-              to nutrition analysis and meal planning.
+              {contentData.description}
             </p>
             <Link href="/">
               <Button variant="outline" className="mb-8 bg-transparent cursor-pointer">
@@ -125,7 +125,7 @@ export default function AutomotiveCategoryPage() {
         {/* All calculators section with orange theme */}
         <section className="py-8 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-white">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">All Food Calculators</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">All {contentData.name} Calculators</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in">
               {foodCalculators.map((calc, index) => (
                 <Link key={calc.id} href={calc.href}>

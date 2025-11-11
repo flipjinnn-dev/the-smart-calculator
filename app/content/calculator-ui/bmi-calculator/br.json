@@ -1,0 +1,165 @@
+{
+  "pageTitle": "Calculadora de IMC",
+  "pageDescription": "Calcule seu Índice de Massa Corporal e entenda seu peso com nossa calculadora de IMC abrangente",
+  "form": {
+    "labels": {
+      "age": "Idade (anos)",
+      "gender": "Gênero",
+      "height": "Altura",
+      "weight": "Peso",
+      "unitSystem": "Sistema de Unidades"
+    },
+    "placeholders": {
+      "age": "Insira a idade",
+      "heightFt": "Pés",
+      "heightIn": "Polegadas",
+      "heightCm": "Insira a altura em cm",
+      "weight": "Insira o peso em {unit}"
+    },
+    "buttons": {
+      "calculate": "Calcular o IMC",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades dos EUA (pés/pol., lb)",
+      "metric": "Unidades Métricas (cm, kg)"
+    }
+  },
+  "results": {
+    "bmiValue": "IMC kg/m²",
+    "classification": "Classificação",
+    "healthyRange": "Gama Saudável",
+    "bmiResultsTitle": "Resultados de IMC",
+    "bmiFormula": {
+      "label": "Fórmula IMC",
+      "us": "IMC = (peso em lb / (altura em polegadas)²) × 703",
+      "metric": "IMC = peso em kg / (altura em metros)²"
+    },
+    "healthyBmiRange": "Faixa de IMC saudável: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "bmiInfo": "Informações sobre IMC",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Consulte um profissional",
+    "bmiClassifications": {
+      "underweight": {
+        "title": "Abaixo do peso",
+        "description": "IMC < 18,5"
+      },
+      "normal": {
+        "title": "Peso Normal",
+        "description": "IMC 18,5 – 24,9"
+      },
+      "overweight": {
+        "title": "Sobrepeso",
+        "description": "IMC 25 – 29,9"
+      },
+      "obese": {
+        "title": "Obeso",
+        "description": "IMC 30 – 39,9"
+      },
+      "extremelyObese": {
+        "title": "Extremamente obeso",
+        "description": "IMC ≥ 40"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas e não é uma ferramenta de diagnóstico",
+      "individualVariation": "O IMC pode não refletir com precisão a composição corporal de atletas ou indivíduos com alta massa muscular"
+    },
+    "importantNotesList": [
+      "O IMC é uma ferramenta de triagem e não uma medida diagnóstica da gordura corporal",
+      "Para crianças e adolescentes (≤20 anos), utilize gráficos de crescimento do CDC",
+      "Consulte profissionais de saúde para aconselhamento personalizado",
+      "Considere outras métricas de saúde junto com o IMC para ter uma visão completa"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "é considerada a faixa de IMC saudável para adultos.",
+      "association": "Essa faixa está associada ao menor risco de problemas de saúde e mortalidade."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Insira suas medidas para calcular seu IMC",
+    "bmiResult": "Seu IMC é {IMC} kg/m²",
+    "classificationResult": "Classificação: {classificação}",
+    "ageWarning": "Para crianças e adolescentes (≤20 anos), utilizar gráficos de crescimento pediátrico",
+    "assessmentResult": "Resultado da Avaliação:",
+    "bmiAnalysis": "Análise de IMC"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas baseadas em fórmulas matemáticas e não deve ser usada como substituto do aconselhamento médico profissional. Os resultados individuais podem variar com base em fatores não considerados nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Consulte um profissional de saúde",
+    "content": "Se você tiver dúvidas sobre seu peso ou saúde, consulte um profissional de saúde que possa fornecer aconselhamento personalizado com base em seu histórico médico completo e nas circunstâncias individuais."
+  },
+  "errors": {
+    "age": "Insira uma idade válida (1-120)",
+    "gender": "Por favor selecione o sexo",
+    "heightFt": "Por favor insira pés válidos",
+    "heightIn": "Insira polegadas válidas (0-11)",
+    "heightCm": "Por favor insira uma altura válida em cm",
+    "weight": "Por favor insira um peso válido"
+  },
+  "tooltips": {
+    "age": "A idade pode afetar a interpretação do IMC para crianças/adolescentes",
+    "height": "Sua medida de altura atual",
+    "weight": "Seu peso corporal atual",
+    "gender": "O gênero pode afetar a interpretação do IMC"
+  },
+  "k_16_0": "16",
+  "k_17_1": "17",
+  "k_185_2": "18.5",
+  "k_25_3": "25",
+  "k_30_4": "30",
+  "k_35_5": "35",
+  "k_40_6": "40",
+  "underweight_7": "Abaixo do peso",
+  "normal_8": "Normal",
+  "overweight_9": "Sobrepeso",
+  "obesity_10": "Obesidade",
+  "bmi_calculator_11": "Calculadora de IMC",
+  "modify_the_values_and_click_the_calculate_button_t_12": "Modifique os valores e clique no botão calcular para usar",
+  "age_13": "Idade",
+  "ages_2_120_14": "idades: 2 - 120",
+  "gender_15": "Gênero",
+  "male_16": "Macho",
+  "female_17": "Fêmea",
+  "other_18": "Outro",
+  "height_19": "Altura",
+  "cm_20": "cm",
+  "m_21": "m",
+  "ft_22": "pés",
+  "in_23": "em",
+  "weight_24": "Peso",
+  "kg_25": "kg",
+  "g_26": "g",
+  "lbs_27": "libras",
+  "oz_28": "onças",
+  "st_29": "st",
+  "calculate_30": "Calcular",
+  "result_31": "Resultado",
+  "save_this_calculation_32": "Salve este cálculo",
+  "bmi_33": "IMC =",
+  "kgm_34": "kg/m²",
+  "bmi_35": "IMC =",
+  "bmi_scale_36": "Escala de IMC",
+  "detailed_results_37": "Resultados detalhados",
+  "bmi_38": "IMC:",
+  "kgm_39": "kg/m²",
+  "healthy_bmi_range_40": "Faixa de IMC saudável:",
+  "k_185_kgm_25_kgm_41": "18,5 kg/m² - 25 kg/m²",
+  "healthy_weight_for_height_42": "Peso saudável para altura:",
+  "kg_43": "kg",
+  "bmi_prime_44": "IMC principal:",
+  "ponderal_index_45": "Índice Ponderal:",
+  "kgm_46": "kg/m³",
+  "body_surface_area_47": "Área de Superfície Corporal:",
+  "m_48": "m²",
+  "save_this_calculation_49": "Salve este cálculo",
+  "enter_your_details_to_calculate_your_bmi_50": "Insira seus dados para calcular seu IMC"
+}

@@ -1,0 +1,160 @@
+{
+  "pageTitle": "Brettfußrechner",
+  "pageDescription": "Berechnen Sie Brettfüße für Schnittholz und Baumaterialien mit präzisen Maßen für Holzbearbeitungs- und Bauprojekte",
+  "form": {
+    "labels": {
+      "thickness": "Dicke",
+      "width": "Breite",
+      "length": "Länge",
+      "quantity": "Menge",
+      "unitSystem": "Einheitensystem",
+      "lumberType": "Holzart"
+    },
+    "placeholders": {
+      "thickness": "Geben Sie die Dicke ein",
+      "width": "Geben Sie die Breite ein",
+      "length": "Geben Sie die Länge ein",
+      "quantity": "Geben Sie die Menge ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Brettfüße",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "imperial": "Imperial (in, ft)",
+      "metric": "Metrisch (mm, m)"
+    },
+    "lumberTypes": {
+      "softwood": "Weichholz (Kiefer, Zeder, Tanne)",
+      "hardwood": "Hartholz (Eiche, Ahorn, Kirsche)",
+      "plywood": "Sperrholz",
+      "custom": "Benutzerdefinierte Abmessungen"
+    }
+  },
+  "results": {
+    "boardFeet": "Brettfüße",
+    "totalBoardFeet": "Gesamte Brettfüße",
+    "volume": "Volumen",
+    "weight": "Geschätztes Gewicht",
+    "boardFootResultsTitle": "Board-Foot-Ergebnisse"
+  },
+  "educational": {
+    "boardFootInfo": "Informationen zum Boardfuß",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Holzressourcen",
+    "boardFootFacts": {
+      "definition": {
+        "title": "Definition des Brettfußes",
+        "description": "Ein Brettfuß besteht aus 144 Kubikzoll Holz (12\" × 12\" × 1\")"
+      },
+      "formula": {
+        "title": "Berechnungsformel",
+        "description": "Brettfüße = (Dicke × Breite × Länge × Menge) ÷ 144"
+      },
+      "pricing": {
+        "title": "Holzpreise",
+        "description": "Schnittholz wird bei Harthölzern typischerweise per Brettfuß und bei Nadelhölzern stückweise verkauft"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Volumenberechnungen",
+      "accuracy": "Messen Sie Holz genau und berücksichtigen Sie den Abfall in Ihren Projekten"
+    },
+    "importantNotesList": [
+      "Die tatsächlichen Holzabmessungen sind oft kleiner als die Nennmaße",
+      "Fügen Sie 15–20 % zusätzlich für Abfall und Fehler bei Holzbearbeitungsprojekten hinzu",
+      "Informationen zu Qualität und Holzart finden Sie auf den Stempeln zur Holzklassifizierung",
+      "Berücksichtigen Sie bei der Berechnung der Gewichtsschätzungen den Feuchtigkeitsgehalt"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Holzabmessungen ein, um die Brettfüße zu berechnen",
+    "resultMessage": "Die Berechnung Ihres Brettfußes ist unten dargestellt",
+    "assessmentResult": "Ergebnis der Schnittholzberechnung:",
+    "boardFootAnalysis": "Brettfußanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Brettfußberechnungen basierend auf Standardformeln zur Holzmessung. Der tatsächliche Holzbedarf kann je nach Projektspezifikationen, Abfallfaktoren und Lieferantenempfehlungen variieren."
+  },
+  "seekHelp": {
+    "title": "Holzressourcen",
+    "content": "Für professionelle Holzberatung und Projektschätzung wenden Sie sich an Holzlieferanten oder Holzbearbeitungsfachleute für projektspezifische Empfehlungen und Materialauswahl."
+  },
+  "errors": {
+    "thickness": "Bitte geben Sie eine gültige Dicke ein",
+    "width": "Bitte geben Sie eine gültige Breite ein",
+    "length": "Bitte geben Sie eine gültige Länge ein",
+    "quantity": "Bitte geben Sie eine gültige Menge ein",
+    "unitSystem": "Bitte wählen Sie ein Einheitensystem aus"
+  },
+  "tooltips": {
+    "thickness": "Dicke des Holzstücks",
+    "width": "Breite des Holzstücks",
+    "length": "Länge des Holzstücks",
+    "quantity": "Stückzahl mit diesen Abmessungen",
+    "lumberType": "Die Holzart beeinflusst Gewicht und Preis"
+  },
+  "loading_0": "Laden...",
+  "in_1": "In",
+  "in_2": "In",
+  "ft_3": "ft",
+  "in_4": "In",
+  "bf_5": "BF",
+  "bf_6": "BF",
+  "bf_7": "BF",
+  "in_8": "in³",
+  "volume_cubic_feet_9": "Volumen (Kubikfuß):",
+  "ft_10": "ft³",
+  "total_cost_11": "Gesamtkosten:",
+  "pkr_12": "PKR",
+  "save_this_calculation_13": "Speichern Sie diese Berechnung",
+  "a_board_foot_is_a_unit_of_measurement_for_lumber_v_14": "Ein Brettfuß ist eine Maßeinheit für das Holzvolumen. Ein Brettfuß entspricht 144 Kubikzoll oder\n                    1/12 Kubikfuß. Sie wird durch Multiplikation von Dicke (Zoll) × Breite (Zoll) × Länge (Fuß) berechnet.\n                    ÷ 12.",
+  "calculation_formulas_15": "Berechnungsformeln",
+  "length_in_feet_16": "Länge in Fuß",
+  "bf_lengthft_widthin_thicknessin_12_17": "BF = (Länge_Fuß × Breite_Zoll × Dicke_Zoll) ÷ 12",
+  "length_in_inches_18": "Länge in Zoll",
+  "bf_thicknessin_widthin_lengthin_144_19": "BF = (Dicke_Zoll × Breite_Zoll × Länge_Zoll) ÷ 144",
+  "key_conversions_20": "Schlüsselkonvertierungen",
+  "k_1_board_foot_21": "1 Brettfuß =",
+  "k_144_cubic_inches_22": "144 Kubikzoll",
+  "k_1_board_foot_23": "1 Brettfuß =",
+  "k_112_cubic_foot_24": "1/12 Kubikfuß",
+  "total_bf_25": "Gesamt-BF =",
+  "number_of_pieces_bf_per_piece_26": "Stückzahl × BF pro Stück",
+  "total_cost_27": "Gesamtkosten =",
+  "total_bf_price_per_bf_28": "Gesamt-BF × Preis pro BF",
+  "example_29": "Beispiel:",
+  "a_2_6_8_board_8_6_2_12_8_board_feet_for_10_pieces__30": "Ein 2\" × 6\" × 8' großes Brett = (8 × 6 × 2) ÷ 12 = 8 Brettfüße. Für 10 Stück,\n                      Gesamt = 80 Brettfüße.",
+  "price_per_board_foot_optional_5": "Preis pro Brettfuß (optional)",
+  "pkrbf_6": "PKR/BF",
+  "cost_per_board_foot_for_total_price_calculation_7": "Kosten pro Brettfuß zur Gesamtpreisberechnung",
+  "bf_8": "BF",
+  "bf_9": "BF",
+  "bf_10": "BF",
+  "in_11": "in³",
+  "volume_cubic_feet_12": "Volumen (Kubikfuß):",
+  "ft_13": "ft³",
+  "total_cost_14": "Gesamtkosten:",
+  "pkr_15": "PKR",
+  "save_this_calculation_16": "Speichern Sie diese Berechnung",
+  "a_board_foot_is_a_unit_of_measurement_for_lumber_v_17": "Ein Brettfuß ist eine Maßeinheit für das Holzvolumen. Ein Brettfuß entspricht 144 Kubikzoll oder\n                    1/12 Kubikfuß. Sie wird durch Multiplikation von Dicke (Zoll) × Breite (Zoll) × Länge (Fuß) berechnet.\n                    ÷ 12.",
+  "calculation_formulas_18": "Berechnungsformeln",
+  "length_in_feet_19": "Länge in Fuß",
+  "bf_lengthft_widthin_thicknessin_12_20": "BF = (Länge_Fuß × Breite_Zoll × Dicke_Zoll) ÷ 12",
+  "length_in_inches_21": "Länge in Zoll",
+  "bf_thicknessin_widthin_lengthin_144_22": "BF = (Dicke_Zoll × Breite_Zoll × Länge_Zoll) ÷ 144",
+  "key_conversions_23": "Schlüsselkonvertierungen",
+  "k_1_board_foot_24": "1 Brettfuß =",
+  "k_144_cubic_inches_25": "144 Kubikzoll",
+  "k_1_board_foot_26": "1 Brettfuß =",
+  "k_112_cubic_foot_27": "1/12 Kubikfuß",
+  "total_bf_28": "Gesamt-BF =",
+  "number_of_pieces_bf_per_piece_29": "Stückzahl × BF pro Stück",
+  "total_cost_30": "Gesamtkosten =",
+  "total_bf_price_per_bf_31": "Gesamt-BF × Preis pro BF",
+  "example_32": "Beispiel:",
+  "a_2_6_8_board_8_6_2_12_8_board_feet_for_10_pieces__33": "Ein 2\" × 6\" × 8' großes Brett = (8 × 6 × 2) ÷ 12 = 8 Brettfüße. Für 10 Stück,\n                      Gesamt = 80 Brettfüße."
+}

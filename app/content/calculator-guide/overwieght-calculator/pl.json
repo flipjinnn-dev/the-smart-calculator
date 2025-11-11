@@ -1,0 +1,131 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Poznaj swoje BMI i stan nadwagi",
+      "content": "Utrzymanie prawidłowej wagi ma kluczowe znaczenie dla ogólnego dobrego samopoczucia, a Kalkulator nadwagi to proste narzędzie, które pomoże Ci zrozumieć masę ciała w stosunku do wzrostu. Kalkulator ten wykorzystuje wskaźnik masy ciała (BMI), standardową metodę zalecaną przez władze odpowiedzialne za opiekę zdrowotną w celu oceny kategorii wagowych i potencjalnych zagrożeń dla zdrowia."
+    },
+    {
+      "heading": "Co to jest BMI?",
+      "content": "BMI (wskaźnik masy ciała) to miara, która na podstawie wzrostu i masy ciała pozwala oszacować, czy masz niedowagę, prawidłową wagę, nadwagę czy otyłość. Chociaż nie mierzy bezpośrednio tkanki tłuszczowej, stanowi wiarygodny wskaźnik dla większości dorosłych.",
+      "subSections": [
+        {
+          "heading": "Kluczowe punkty",
+          "content": "• Łatwe do obliczenia ze swoją wagą i wzrostem\n• Pomaga klasyfikować kategorie wagowe\n• Przydatne dla dorosłych i dzieci"
+        }
+      ]
+    },
+    {
+      "heading": "Zakres BMI nadwagi",
+      "content": "Skala BMI klasyfikuje wagę w następujący sposób:",
+      "subSections": [
+        {
+          "heading": "Niedowaga",
+          "content": "BMI < 18,5"
+        },
+        {
+          "heading": "Normalna waga",
+          "content": "BMI 18,5 – 24,9"
+        },
+        {
+          "heading": "Nadwaga",
+          "content": "BMI 25 – 29,9"
+        },
+        {
+          "heading": "Otyły",
+          "content": "BMI ≥ 30"
+        }
+      ]
+    },
+    {
+      "heading": "Jak obliczyć BMI",
+      "content": "Możesz obliczyć BMI różnymi metodami:",
+      "subSections": [
+        {
+          "heading": "Wzór metryczny",
+          "content": "BMI = waga (kg) ÷ wzrost² (m²)"
+        },
+        {
+          "heading": "Imperialna formuła",
+          "content": "BMI = waga (funty) ÷ wzrost² (cal²) × 703"
+        },
+        {
+          "heading": "Internetowy kalkulator BMI",
+          "content": "Możesz też po prostu skorzystać z naszego bezpłatnego kalkulatora BMI dostępnego poniżej, aby uzyskać natychmiastowe wyniki."
+        }
+      ]
+    },
+    {
+      "heading": "BMI a procent tkanki tłuszczowej",
+      "content": "BMI daje ogólne pojęcie o stanie masy ciała, ale nie rozróżnia mięśni i tłuszczu. Aby uzyskać bardziej szczegółową ocenę stanu zdrowia, rozważ analizę składu ciała lub połączenie BMI z obwodem talii."
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora zdrowej wagi?",
+      "content": "Korzystanie z kalkulatora BMI do kontroli masy ciała, oceny stanu zdrowia lub śledzenia kondycji może pomóc:",
+      "subSections": [
+        {
+          "heading": "Korzyści",
+          "content": "• Monitoruj trendy masy ciała w czasie\n• Zrozumienie zagrożeń dla zdrowia związanych z nadwagą i otyłością\n• Porównaj BMI z innymi pomiarami, takimi jak wskaźnik Ponderal Index lub stosunek talii do wzrostu"
+        }
+      ]
+    },
+    {
+      "heading": "Funkcje oparte na narzędziach",
+      "content": "Nasz kalkulator został zaprojektowany z myślą o wygodzie i dokładności:",
+      "subSections": [
+        {
+          "heading": "Cechy",
+          "content": "• Kalkulator BMI online – dostępny wszędzie\n• Darmowy kalkulator BMI – nie wymaga rejestracji\n• Kalkulator BMI z wiekiem – dostosowany do różnych grup wiekowych\n• Kalkulator BMI metryczny i imperialny – wybierz preferowane jednostki\n• Kalkulator BMI do utraty wagi, kondycji i ogólnej oceny stanu zdrowia"
+        }
+      ]
+    },
+    {
+      "heading": "Informacje zdrowotne: BMI i zagrożenia dla zdrowia",
+      "content": "Zrozumienie swojego BMI może pomóc Ci podjąć aktywne kroki w kierunku lepszego zdrowia:",
+      "subSections": [
+        {
+          "heading": "BMI i choroby serca",
+          "content": "Wyższe BMI zwiększa ryzyko chorób sercowo-naczyniowych."
+        },
+        {
+          "heading": "BMI i cukrzyca",
+          "content": "Osoby z nadwagą są bardziej podatne na cukrzycę typu 2."
+        },
+        {
+          "heading": "BMI i bezdech senny",
+          "content": "Nadwaga może wpływać na oddychanie podczas snu."
+        },
+        {
+          "heading": "BMI i poziom cholesterolu",
+          "content": "Nadwaga BMI często koreluje z wyższym poziomem cholesterolu."
+        },
+        {
+          "heading": "BMI a aktywność fizyczna",
+          "content": "Utrzymywanie aktywnych nawyków poprawia BMI i ogólny stan zdrowia."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Czy BMI jest prawidłowe dla każdego?",
+      "a": "BMI jest dobrą ogólną wskazówką, ale może nie w pełni odzwierciedlać zawartość tkanki tłuszczowej w organizmie sportowców, kobiet w ciąży i osób starszych. Połącz go z innymi miarami, aby uzyskać precyzyjną ocenę."
+    },
+    {
+      "q": "Czy dzieci mogą korzystać z tego kalkulatora?",
+      "a": "Tak! Nasz kalkulator zawiera BMI dla dzieci oraz wykresy BMI dla wieku i płci."
+    },
+    {
+      "q": "Jak często powinienem sprawdzać swoje BMI?",
+      "a": "Sprawdzaj swoje BMI okresowo – co miesiąc lub co kwartał – aby monitorować trendy i w razie potrzeby wprowadzać zmiany w stylu życia."
+    },
+    {
+      "q": "Co powinienem zrobić, jeśli moje BMI wskazuje na nadwagę?",
+      "a": "Skonsultuj się z lekarzem, aby uzyskać spersonalizowane wskazówki. Skoncentruj się na zrównoważonym odżywianiu, regularnej aktywności fizycznej i strategiach kontroli wagi."
+    },
+    {
+      "q": "Czy BMI może przewidywać problemy zdrowotne?",
+      "a": "BMI jest użytecznym narzędziem przesiewowym do klasyfikacji otyłości i związanych z nią zagrożeń dla zdrowia, ale nie służy do diagnozowania schorzeń. Połącz to z innymi ocenami, aby uzyskać pełny obraz."
+    }
+  ]
+}

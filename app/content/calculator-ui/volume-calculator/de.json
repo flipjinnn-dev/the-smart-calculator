@@ -1,0 +1,139 @@
+{
+  "pageTitle": "Volumenrechner",
+  "pageDescription": "Berechnen Sie das Volumen verschiedener Formen",
+  "form": {
+    "labels": {
+      "shape": "Wählen Sie Form",
+      "length": "Länge",
+      "width": "Breite",
+      "height": "Höhe",
+      "radius": "Radius",
+      "baseArea": "Grundfläche",
+      "baseRadius": "Basisradius",
+      "topRadius": "Oberer Radius",
+      "slantHeight": "Schräge Höhe"
+    },
+    "placeholders": {
+      "length": "Geben Sie die Länge ein",
+      "width": "Geben Sie die Breite ein",
+      "height": "Höhe eingeben",
+      "radius": "Geben Sie den Radius ein",
+      "baseArea": "Grundfläche eingeben",
+      "baseRadius": "Geben Sie den Basisradius ein",
+      "topRadius": "Geben Sie den oberen Radius ein",
+      "slantHeight": "Geben Sie die Schräghöhe ein"
+    },
+    "buttons": {
+      "calculate": "Volumen berechnen",
+      "reset": "Zurücksetzen"
+    },
+    "shapes": {
+      "cube": "Würfel",
+      "rectangularPrism": "Rechteckiges Prisma",
+      "cylinder": "Zylinder",
+      "sphere": "Kugel",
+      "cone": "Kegel",
+      "pyramid": "Pyramide",
+      "ellipsoid": "Ellipsoid",
+      "torus": "Torus"
+    }
+  },
+  "results": {
+    "volumeCalculation": "Ergebnisse der Volumenberechnung",
+    "volume": "Volumen",
+    "formula": "Verwendete Formel",
+    "unit3": "Kubikeinheiten",
+    "surfaceArea": "Oberfläche",
+    "unit2": "quadratische Einheiten"
+  },
+  "educational": {
+    "volumeInfo": "Volumeninformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Mathematikressourcen",
+    "volumeFacts": {
+      "definition": {
+        "title": "Volumendefinition",
+        "description": "Volumen ist die Menge an dreidimensionalem Raum, die ein Objekt einnimmt"
+      },
+      "units": {
+        "title": "Maßeinheiten",
+        "description": "Zu den gängigen Einheiten gehören Kubikmeter (m³), Kubikzentimeter (cm³), Liter (L) und Gallonen (gal)."
+      },
+      "applications": {
+        "title": "Anwendungen aus der Praxis",
+        "description": "Volumenberechnungen werden im Bauwesen, in der Fertigung, in der Chemie und im Alltag verwendet"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Volumenberechnungen",
+      "actual": "Die tatsächlichen Volumina können je nach Messgenauigkeit und Objektunregelmäßigkeiten variieren"
+    },
+    "importantNotesList": [
+      "Verwenden Sie für alle Messungen einheitliche Einheiten",
+      "Die Ergebnisse basieren auf idealen geometrischen Formen",
+      "Reale Objekte können unregelmäßige Formen haben, die komplexere Berechnungen erfordern",
+      "Für einige Formen sind möglicherweise bestimmte Einheiten oder Umrechnungen erforderlich"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wählen Sie eine Form aus und geben Sie die erforderlichen Abmessungen ein, um das Volumen zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Volumenberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Volumenberechnung:",
+    "volumeAnalysis": "Volumenanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet Volumenberechnungen für ideale geometrische Formen. Die tatsächlichen Volumina realer Objekte können je nach Messgenauigkeit, Objektunregelmäßigkeiten und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Mathematikressourcen",
+    "content": "Für fortgeschrittene Geometrieprobleme und Volumenberechnungen konsultieren Sie Mathematiklehrbücher oder akademische Ressourcen zur Festkörpergeometrie und Messtheorie."
+  },
+  "errors": {
+    "length": "Bitte geben Sie eine gültige Länge ein",
+    "width": "Bitte geben Sie eine gültige Breite ein",
+    "height": "Bitte geben Sie eine gültige Höhe ein",
+    "radius": "Bitte geben Sie einen gültigen Radius ein",
+    "baseArea": "Bitte geben Sie eine gültige Grundfläche ein",
+    "baseRadius": "Bitte geben Sie einen gültigen Basisradius ein",
+    "topRadius": "Bitte geben Sie einen gültigen oberen Radius ein",
+    "slantHeight": "Bitte geben Sie eine gültige Schräghöhe ein"
+  },
+  "tooltips": {
+    "shape": "Wählen Sie die geometrische Form für die Volumenberechnung aus",
+    "length": "Länge des Objekts",
+    "width": "Breite des Objekts",
+    "height": "Höhe des Objekts",
+    "radius": "Radius des Objekts",
+    "baseArea": "Bereich der Basis des Objekts",
+    "baseRadius": "Radius der Basis des Objekts",
+    "topRadius": "Radius der Oberseite des Objekts",
+    "slantHeight": "Schräghöhe des Objekts"
+  },
+  "volume_calculations_0": "Volumenberechnungen",
+  "select_a_shape_and_enter_your_values_1": "Wählen Sie eine Form aus und geben Sie Ihre Werte ein",
+  "select_shape_2": "Wählen Sie Form",
+  "m_3": "m",
+  "cm_4": "cm",
+  "mm_5": "mm",
+  "inch_6": "Zoll",
+  "ft_7": "ft",
+  "yd_8": "yd",
+  "formula_9": "Formel:",
+  "calculate_10": "Berechnen",
+  "result_11": "Ergebnis",
+  "enter_values_and_click_12": "Geben Sie Werte ein und klicken Sie",
+  "calculate_13": "Berechnen",
+  "to_see_result_14": "um das Ergebnis zu sehen.",
+  "how_to_use_this_calculator_15": "Wie benutzt man diesen Rechner?",
+  "k_1_16": "1",
+  "select_the_shape_you_want_to_calculate_the_volume__17": "Wählen Sie die Form aus, für die Sie das Volumen berechnen möchten.",
+  "k_2_18": "2",
+  "enter_your_values_in_the_input_fields_19": "Geben Sie Ihre Werte in die Eingabefelder ein.",
+  "k_3_20": "3",
+  "click_21": "Klicken",
+  "calculate_22": "Berechnen",
+  "to_see_the_result_instantly_23": "um das Ergebnis sofort zu sehen."
+}

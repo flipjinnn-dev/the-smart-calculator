@@ -9,13 +9,99 @@ export interface Calculator {
   popular?: boolean
 }
 
+// Function to get language-specific calculator name and description from metadata
+import { calculatorsMeta } from '../meta/calculators';
+import { getLocalizedCalculatorData, getLocalizedCalculatorHref } from './language-utils';
+
+// Helper function to convert calculator ID to file name
+function getCalculatorFileName(id: string): string {
+  // Convert ID to file name format
+  if (id === 'bmi') return 'bmi-calculator';
+  if (id === 'loan') return 'loan-calculator';
+  if (id === 'inflation') return 'inflation-calculator';
+  if (id === 'interest-rate-calculator') return 'interest-rate-calculator';
+  if (id === 'income-tax-calculator') return 'income-tax-calculator';
+  if (id === 'salary-calculator') return 'salary-calculator';
+  if (id === 'compound-interest') return 'compound-interest-calculator';
+  if (id === 'interest') return 'interest-calculator';
+  if (id === 'payment') return 'payment-calculator';
+  if (id === 'auto-loan') return 'auto-loan-calculator';
+  if (id === 'amortization') return 'amortization-calculator';
+  if (id === 'currency') return 'currency-calculator';
+  if (id === 'investment') return 'investment-calculator';
+  if (id === 'retirement') return 'retirement-calculator';
+  if (id === '401k-calculator') return '401k-calculator';
+  if (id === 'calories-burned-calculator') return 'calories-burned-calculator';
+  if (id === 'one-rep-max-calculator') return 'one-rep-max-calculator';
+  if (id === 'protein-calculator') return 'protein-calculator';
+  if (id === 'sales-tax-calculator') return 'sales-tax-calculator';
+  if (id === 'overweight-calculator') return 'overweight-calculator';
+  if (id === 'gfr-calculator') return 'gfr-calculator';
+  if (id === 'bmr-calculator') return 'bmr-calculator';
+  if (id === 'body-fat-calculator') return 'body-fat-calculator';
+  if (id === 'body-type-calculator') return 'body-type-calculator';
+  if (id === 'bsa-calculator') return 'bsa-calculator';
+  if (id === 'calorie-calculator') return 'calorie-calculator';
+  if (id === 'carbohydrate-calculator') return 'carbohydrate-calculator';
+  if (id === 'compound-interest-calculator') return 'compound-interest-calculator';
+  if (id === 'conception-calculator') return 'conception-calculator';
+  if (id === 'credit-card-calculator') return 'credit-card-calculator';
+  if (id === 'credit-card-payoff-calculator') return 'credit-card-payoff-calculator';
+  if (id === 'currency-calculator') return 'currency-calculator';
+  if (id === 'debt-payoff-calculator') return 'debt-payoff-calculator';
+  if (id === 'due-date-calculator') return 'due-date-calculator';
+  if (id === 'estate-tax-calculator') return 'estate-tax-calculator';
+  if (id === 'fat-intake-calculator') return 'fat-intake-calculator';
+  if (id === 'finance-calculator') return 'finance-calculator';
+  if (id === 'healthy-weight-calculator') return 'healthy-weight-calculator';
+  if (id === 'house-affordability-calculator') return 'house-affordability-calculator';
+  if (id === 'ideal-weight-calculator') return 'ideal-weight-calculator';
+  if (id === 'investment-calculator') return 'investment-calculator';
+  if (id === 'lean-body-mass-calculator') return 'lean-body-mass-calculator';
+  if (id === 'loan-calculator') return 'loan-calculator';
+  if (id === 'macro-calculator') return 'macro-calculator';
+  if (id === 'marriage-calculator') return 'marriage-calculator';
+  if (id === 'mortgage-calculator') return 'mortgage-calculator';
+  if (id === 'mortgage-payoff-calculator') return 'mortgage-payoff-calculator';
+  if (id === 'one-rep-max-calculator') return 'one-rep-max-calculator';
+  if (id === 'overweight-calculator') return 'overweight-calculator';
+  if (id === 'ovulation-calculator') return 'ovulation-calculator';
+  if (id === 'pace-calculator') return 'pace-calculator';
+  if (id === 'payment-calculator') return 'payment-calculator';
+  if (id === 'pension-calculator') return 'pension-calculator';
+  if (id === 'period-calculator') return 'period-calculator';
+  if (id === 'pregnancy-calculator') return 'pregnancy-calculator';
+  if (id === 'pregnancy-conception-calculator') return 'pregnancy-conception-calculator';
+  if (id === 'pregnancy-due-date') return 'pregnancy-due-date';
+  if (id === 'pregnancy-weight-gain-calculator') return 'pregnancy-weight-gain-calculator';
+  if (id === 'protein-calculator') return 'protein-calculator';
+  if (id === 'rent-calculator') return 'rent-calculator';
+  if (id === 'retirement-calculator') return 'retirement-calculator';
+  if (id === 'sales-tax-calculator') return 'sales-tax-calculator';
+  if (id === 'savings-calculator') return 'savings-calculator';
+  if (id === 'social-security-calculator') return 'social-security-calculator';
+  if (id === 'target-heart-rate-calculator') return 'target-heart-rate-calculator';
+  if (id === 'tdee-calculator') return 'tdee-calculator';
+  if (id === 'weight-watcher-calculator') return 'weight-watcher-calculator';
+  if (id === 'random-number-generator') return 'random-number-generator';
+  if (id === 'scientific-calculator') return 'scientific-calculator';
+  if (id === 'volume-calculator') return 'volume-calculator';
+  if (id === 'piecewise-function-calculator-grapher') return 'piecewise-function-calculator-grapher';
+  if (id === 'cups-to-pounds-converter') return 'cups-to-pounds-converter';
+  if (id === 'cooking-measurement-converter') return 'cooking-measurement-converter';
+  if (id === 'dry-to-cooked-pasta-converter') return 'dry-to-cooked-pasta-converter';
+  
+  // For other IDs, just add -calculator suffix if not already present
+  return id.endsWith('-calculator') ? id : `${id}-calculator`;
+}
+
 export const calculators: Calculator[] = [
   // Financial Calculators
   {
     id: "mortgage",
-    name: "Mortgage Calculator",
+    name: "Mortgage Calculators",
     description: "Calculate monthly mortgage payments, total interest, and amortization schedule",
-    href: "/financial/mortgage-calculator",
+    href: "/financial/mortgage-calculators",
     category: "financial",
     popular: true,
   },
@@ -602,24 +688,24 @@ export const calculators: Calculator[] = [
     popular:true
   },
   {
-    id:"cooking-measurement",
+    id:"cooking-measurement-converter",
     name: "Cooking Measurement Converter",
     description: "Convert between different cooking measurements.",
     href: "/food/cooking-measurement-converter",
     category: "food",
   },
   {
-    id: "cups-to-pounds",
-    name: "Cups to Pounds Converter",
-    description: "Convert cups to pounds for various ingredients.",
-    href: "/food/cups-to-pounds-converter",
-    category: "food",
-  },
-  {
-    id: "dry-to-cooked-pasta",
+    id: "dry-to-cooked-pasta-converter",
     name: "Dry to Cooked Pasta Converter",
     description: "Convert dry pasta measurements to cooked pasta equivalents.",
     href: "/food/dry-to-cooked-pasta-converter",
+    category: "food"
+  },
+  {
+    id: "cups-to-pounds-converter",
+    name: "Cups to Pounds Converter",
+    description: "Convert cups to pounds for various ingredients.",
+    href: "/food/cups-to-pounds-converter",
     category: "food"
   },
   // Sports Calculators
@@ -730,13 +816,35 @@ export const calculators: Calculator[] = [
 
 ]
 
-// Helper functions to get calculators by category
-export function getCalculatorsByCategory(category: string): Calculator[] {
-  return calculators.filter((calc) => calc.category === category)
+// Helper functions to get calculators by category with multilingual support
+export function getCalculatorsByCategory(category: string, language: string = 'en'): Calculator[] {
+  return calculators.filter((calc) => calc.category === category).map(calc => {
+    // Get language-specific data
+    const fileName = getCalculatorFileName(calc.id);
+    const localizedData = getLocalizedCalculatorData(fileName, language);
+    
+    return {
+      ...calc,
+      name: localizedData.name,
+      description: localizedData.description,
+      href: getLocalizedCalculatorHref(fileName, language)
+    };
+  });
 }
 
-export function getPopularCalculatorsByCategory(category: string): Calculator[] {
-  return calculators.filter((calc) => calc.category === category && calc.popular)
+export function getPopularCalculatorsByCategory(category: string, language: string = 'en'): Calculator[] {
+  return calculators.filter((calc) => calc.category === category && calc.popular).map(calc => {
+    // Get language-specific data
+    const fileName = getCalculatorFileName(calc.id);
+    const localizedData = getLocalizedCalculatorData(fileName, language);
+    
+    return {
+      ...calc,
+      name: localizedData.name,
+      description: localizedData.description,
+      href: getLocalizedCalculatorHref(fileName, language)
+    };
+  });
 }
 
 export function getCalculatorCount(category: string): number {
@@ -754,4 +862,9 @@ export function getAllCalculatorsByCategory(): Record<string, Calculator[]> {
   })
 
   return categories
+}
+
+// New function to get calculator by name
+export function getCalculatorByName(name: string): Calculator | undefined {
+  return calculators.find((calc) => calc.name === name);
 }

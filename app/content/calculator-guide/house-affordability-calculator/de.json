@@ -1,0 +1,60 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Erschwinglichkeitsrechner für ein Haus – Finden Sie heraus, wie viel Haus Sie sich leisten können",
+      "content": "Ein Haus-Erschwinglichkeitsrechner hilft Ihnen bei der Beantwortung der großen Frage: „Wie viel Haus kann ich mir leisten?“ Durch die Analyse Ihrer Einnahmen, Ausgaben, Hypothekenzinsen, Grundsteuern und des Schulden-Einkommens-Verhältnisses (DTI) erhalten Sie mit diesem Tool eine personalisierte Schätzung, welche Preisspanne für Ihr Budget realistisch ist. Unabhängig davon, ob Sie zum ersten Mal ein Eigenheim kaufen oder ein Upgrade durchführen, liefert der obige Rechner ein sofortiges, KI-gestütztes Ergebnis – schneller und genauer als manuelle Berechnungen.\n\nNutzen Sie zum Einstieg den kostenlosen Online-Rechner für die Erschwinglichkeit eines Hauses oben."
+    },
+    {
+      "heading": "So berechnen Sie die Erschwinglichkeit eines Eigenheims",
+      "subSections": [
+        {
+          "heading": "Manuelle Methode (Schritt für Schritt)",
+          "content": "Addieren Sie Ihr monatliches Bruttoeinkommen.\n\nWenden Sie die 28/36-Regel an (geben Sie nicht mehr als 28 % des Einkommens für Wohnraum und 36 % für die Gesamtverschuldung aus).\n\nSchätzen Sie die monatlichen Hypothekenzahlungen anhand der aktuellen Zinssätze.\n\nFügen Sie Grundsteuern, Hausratversicherung, PMI und HOA-Gebühren hinzu.\n\nVergleichen Sie es mit Ihrem Monatsbudget."
+        },
+        {
+          "heading": "Rechnermethode (empfohlen)",
+          "content": "Geben Sie einfach Ihre Einnahmen, Ausgaben, Anzahlung, Kreditlaufzeit und Zinssatz in unseren besten Rechner zur Erschwinglichkeit von Eigenheimen ein, und die KI zeigt sofort Ihre Ergebnisse an – das spart Zeit und vermeidet Fehler."
+        }
+      ]
+    },
+    {
+      "heading": "Faktoren, die beeinflussen, wie viel Haus Sie sich leisten können",
+      "content": "Mehrere Schlüsselfaktoren bestimmen die Erschwinglichkeit Ihres Eigenheims:\n\nEinkommen und Beschäftigung: Ein höheres stabiles Einkommen erhöht die Chancen auf eine Kreditgenehmigung.\n\nSchulden-Einkommens-Verhältnis (DTI): Kreditgeber wollen in der Regel einen DTI von unter 36 %.\n\nAnzahlung: Größere Anzahlungen reduzieren die monatlichen Kosten und können dazu führen, dass PMI entfällt.\n\nHypothekenzinssatz: Schon ein Unterschied von 1 % verändert die Erschwinglichkeit erheblich.\n\nGrundsteuern und Versicherungen: Diese variieren je nach Standort und müssen berücksichtigt werden.\n\nHOA-Gebühren: Bei einigen Häusern fallen monatliche Gebühren an die Eigentümergemeinschaft an.\n\nStudiendarlehen oder Kreditschulden: Laufende Verpflichtungen reduzieren die Kreditaufnahme.\n\nUnser Hauserschwinglichkeitsrechner mit HOA-Gebühren, PMI und Steuern stellt sicher, dass diese automatisch berücksichtigt werden."
+    },
+    {
+      "heading": "Faustregeln für die Erschwinglichkeit von Eigenheimen",
+      "content": "28/36-Regel: Geben Sie ≤ 28 % des Einkommens für Wohnraum und ≤ 36 % für alle Schulden aus.\n\n3-fache Einkommensregel: Viele Experten schlagen vor, dass Ihr Hauspreis etwa dem Dreifachen Ihres Jahreseinkommens entsprechen sollte.\n\nSparen im Notfall: Behalten Sie nach Ihrer Anzahlung immer die Ausgaben für 3–6 Monate.\n\nBeispiel: Welches Einkommen ist erforderlich, um sich ein Haus im Wert von 300.000 US-Dollar leisten zu können?\n\nBei einer Anzahlung von 20 % und 6,5 % Zinsen benötigen Sie etwa 70.000 US-Dollar Jahreseinkommen, um innerhalb der 28/36-Regel zu bleiben."
+    },
+    {
+      "heading": "Rechner zur Erschwinglichkeit eines Hauses im Vergleich zu anderen Tools",
+      "content": "Rechner für die Erschwinglichkeit eines Hauses vs. Hypothekenrechner → Die Erschwinglichkeit berücksichtigt Einkommen, Schulden und Budget. Hypothekenrechner zeigen nur Kreditzahlungen an.\n\nSmart Calculator vs. Zillow Calculator → Unser KI-gestützter Smart Calculator, ein Erschwinglichkeitstool für Häuser, liefert personalisiertere Ergebnisse in Echtzeit.\n\nSchulden-Einkommens-Rechner vs. Erschwinglichkeitsrechner → DTI-Rechner zeigen nur die Schuldenlast an, während die Erschwinglichkeit Schulden, Einkommen und Steuern für ein Gesamtbild kombiniert."
+    },
+    {
+      "heading": "Warum sollten Sie sich für einen intelligenten Rechner entscheiden?",
+      "content": "KI-gestützte Finanzeinblicke für genauere Ergebnisse.\n\nIntegrierte Optionen für Anzahlung, PMI, HOA und Versicherung.\n\nFunktioniert als Immobilien-Erschwinglichkeitsrechner, kostenlos und jederzeit zugänglich.\n\nOptimiert für schnelle Antworten, Sprachsuche und mobile Benutzer.\n\nProbieren Sie den Online-Rechner für die Erschwinglichkeit von Häusern mit den oben genannten Hypothekenzinsen aus und sehen Sie Ihre Ergebnisse sofort."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie bestimmen Kreditgeber die Erschwinglichkeit eines Hauses?",
+      "a": "Kreditgeber analysieren Ihr Einkommen, Ihr DTI-Verhältnis, Ihre Kreditwürdigkeit und Ihre Anzahlung, um zu entscheiden, wie viel Sie leihen können."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen der Erschwinglichkeit eines Hauses und der Vorabgenehmigung?",
+      "a": "Erschwinglichkeitsrechner schätzen, was Sie sich leisten können, während die Vorabgenehmigung zeigt, was ein Kreditgeber zu bieten bereit ist."
+    },
+    {
+      "q": "Kann ich mir ein Haus mit Studienkreditschulden leisten?",
+      "a": "Ja, aber Studiendarlehen erhöhen Ihren DTI und verringern so die Anzahl der Häuser, für die Sie sich qualifizieren. Unser Rechner berücksichtigt dies."
+    },
+    {
+      "q": "Wie genau sind Rechner zur Erschwinglichkeit von Häusern?",
+      "a": "Sie sind bei Schätzungen sehr genau. Die endgültigen Zahlen hängen jedoch von den Richtlinien des Kreditgebers, der Kreditwürdigkeit und den lokalen Steuern ab."
+    },
+    {
+      "q": "Alexa, wie viel Haus kann ich mir leisten?",
+      "a": "Sie können das Smart Calculator-Tool zur Erschwinglichkeit von Häusern verwenden, um sofortige, KI-gestützte Ergebnisse zur Erschwinglichkeit zu erhalten."
+    }
+  ]
+}

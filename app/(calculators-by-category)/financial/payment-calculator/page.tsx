@@ -1,63 +1,118 @@
-"use client"
+"use client";
 
-import { useRef, useState } from "react"
-import Link from "next/link"
-import { Calculator, DollarSign, Percent, Calendar, CreditCard } from "lucide-react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import Logo from "@/components/logo"
-import { useMobileScroll } from "@/hooks/useMobileScroll"
-import SEO from "@/lib/seo"
-import CalculatorGuide from "@/components/calculator-guide"
-import paymentData from "@/app/content/payment-calculator.json"
-import SimilarCalculators from "@/components/similar-calculators"
+import { useCalculatorContent } from "@/hooks/useCalculatorContent";
+import { usePathname } from "next/navigation";
+import { useRef, useState } from "react";
 
+import { Calculator, DollarSign, Percent, Calendar, CreditCard } from "lucide-react";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useMobileScroll } from "@/hooks/useMobileScroll";
+import CalculatorGuide from "@/components/calculator-guide";
+;
+import SimilarCalculators from "@/components/similar-calculators";
 interface PaymentResults {
-  monthlyPayment: number
-  totalPayments: number
-  totalInterest: number
-  loanAmount: number
-  loanTerm: number
-  interestRate: number
-  numberOfPayments: number
+  monthlyPayment: number;
+  totalPayments: number;
+  totalInterest: number;
+  loanAmount: number;
+  loanTerm: number;
+  interestRate: number;
+  numberOfPayments: number;
 }
-
 interface AmortizationEntry {
-  year: number
-  interest: number
-  principal: number
-  endingBalance: number
+  year: number;
+  interest: number;
+  principal: number;
+  endingBalance: number;
 }
+export default function PaymentCalculatorCalculator() {
+  const pathname = usePathname();
+  const language = pathname.split('/')[1] || 'en';
+  const {
+    content,
+    loading,
+    error: contentError
+  } = useCalculatorContent('payment-calculator', language, "calculator-ui");
+  const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent('payment-calculator', language, "calculator-guide");
 
-export default function PaymentCalculator() {
-  const resultsRef = useRef<HTMLDivElement>(null)
-  const scrollToRef = useMobileScroll()
-  const [loanAmount, setLoanAmount] = useState("200000")
-  const [loanTerm, setLoanTerm] = useState("15")
-  const [interestRate, setInterestRate] = useState("6")
-  const [monthlyPayment, setMonthlyPayment] = useState("1687.71")
-  const [results, setResults] = useState<PaymentResults | null>(null)
-  const [amortization, setAmortization] = useState<AmortizationEntry[]>([])
+  // Use content or fallback to defaults
+  const contentData = content || {
+    "pageTitle": "",
+    "pageDescription": "",
+    "form": "",
+    "results": "",
+    "educational": "",
+    "messages": "",
+    "disclaimer": "",
+    "seekHelp": "",
+    "errors": "",
+    "tooltips": "",
+    "loading_0": "",
+    "payment_calculator_1": "",
+    "choose_your_calculation_method_below_2": "",
+    "fixed_term_3": "",
+    "fixed_payments_4": "",
+    "loan_amount_5": "",
+    "loan_term_years_6": "",
+    "interest_rate_7": "",
+    "calculate_8": "",
+    "clear_9": "",
+    "loan_amount_10": "",
+    "monthly_payment_11": "",
+    "interest_rate_12": "",
+    "calculate_13": "",
+    "clear_14": "",
+    "monthly_payment_15": "",
+    "your_payment_calculation_details_16": "",
+    "you_will_need_to_pay_17": "",
+    "every_month_for_18": "",
+    "years_to_payoff_the_debt_19": "",
+    "total_of_20": "",
+    "payments_21": "",
+    "total_interest_22": "",
+    "principal_23": "",
+    "interest_24": "",
+    "enter_payment_details_to_see_your_calculation_25": "",
+    "amortization_schedule_26": "",
+    "annual_payment_breakdown_27": "",
+    "year_28": "",
+    "interest_29": "",
+    "principal_30": "",
+    "ending_balance_31": ""
+  }
 
+  const guideData = guideContent || { color: 'green', sections: [], faq: [] };;
+  const resultsRef = useRef<HTMLDivElement>(null);
+  const scrollToRef = useMobileScroll();
+  const [loanAmount, setLoanAmount] = useState("200000");
+  const [loanTerm, setLoanTerm] = useState("15");
+  const [interestRate, setInterestRate] = useState("6");
+  const [monthlyPayment, setMonthlyPayment] = useState("1687.71");
+  const [results, setResults] = useState<PaymentResults | null>(null);
+  const [amortization, setAmortization] = useState<AmortizationEntry[]>([]);
+
+  // Show loading state
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center">{contentData.loading_0}</div>;
+  }
+
+  // Show error if content failed to load
+  if (contentError) {
+    console.error('Error loading content:', contentError);
+  }
   const calculateFixedTerm = () => {
-    const principal = Number.parseFloat(loanAmount)
-    const years = Number.parseFloat(loanTerm)
-    const rate = Number.parseFloat(interestRate) / 100 / 12
-    const payments = years * 12
-
-    if (principal <= 0 || years <= 0 || rate < 0) return
-
-    const monthlyPmt =
-      rate === 0
-        ? principal / payments
-        : (principal * rate * Math.pow(1 + rate, payments)) / (Math.pow(1 + rate, payments) - 1)
-
-    const totalPmt = monthlyPmt * payments
-    const totalInt = totalPmt - principal
-
+    const principal = Number.parseFloat(loanAmount);
+    const years = Number.parseFloat(loanTerm);
+    const rate = Number.parseFloat(interestRate) / 100 / 12;
+    const payments = years * 12;
+    if (principal <= 0 || years <= 0 || rate < 0) return;
+    const monthlyPmt = rate === 0 ? principal / payments : principal * rate * Math.pow(1 + rate, payments) / (Math.pow(1 + rate, payments) - 1);
+    const totalPmt = monthlyPmt * payments;
+    const totalInt = totalPmt - principal;
     const newResults: PaymentResults = {
       monthlyPayment: monthlyPmt,
       totalPayments: totalPmt,
@@ -65,31 +120,25 @@ export default function PaymentCalculator() {
       loanAmount: principal,
       loanTerm: years,
       interestRate: Number.parseFloat(interestRate),
-      numberOfPayments: payments,
-    }
-
-    setResults(newResults)
-    generateAmortization(newResults)
-  }
-
+      numberOfPayments: payments
+    };
+    setResults(newResults);
+    generateAmortization(newResults);
+  };
   const calculateFixedPayment = () => {
-    const payment = Number.parseFloat(monthlyPayment)
-    const principal = Number.parseFloat(loanAmount)
-    const rate = Number.parseFloat(interestRate) / 100 / 12
-
-    if (payment <= 0 || principal <= 0 || rate < 0) return
-
-    let payments: number
+    const payment = Number.parseFloat(monthlyPayment);
+    const principal = Number.parseFloat(loanAmount);
+    const rate = Number.parseFloat(interestRate) / 100 / 12;
+    if (payment <= 0 || principal <= 0 || rate < 0) return;
+    let payments: number;
     if (rate === 0) {
-      payments = principal / payment
+      payments = principal / payment;
     } else {
-      payments = -Math.log(1 - (principal * rate) / payment) / Math.log(1 + rate)
+      payments = -Math.log(1 - principal * rate / payment) / Math.log(1 + rate);
     }
-
-    const years = payments / 12
-    const totalPmt = payment * payments
-    const totalInt = totalPmt - principal
-
+    const years = payments / 12;
+    const totalPmt = payment * payments;
+    const totalInt = totalPmt - principal;
     const newResults: PaymentResults = {
       monthlyPayment: payment,
       totalPayments: totalPmt,
@@ -97,103 +146,53 @@ export default function PaymentCalculator() {
       loanAmount: principal,
       loanTerm: years,
       interestRate: Number.parseFloat(interestRate),
-      numberOfPayments: payments,
-    }
-
-    setResults(newResults)
-    generateAmortization(newResults)
-  }
-
+      numberOfPayments: payments
+    };
+    setResults(newResults);
+    generateAmortization(newResults);
+  };
   const generateAmortization = (data: PaymentResults) => {
-    const schedule: AmortizationEntry[] = []
-    let balance = data.loanAmount
-    const monthlyRate = data.interestRate / 100 / 12
-    const monthlyPmt = data.monthlyPayment
-
+    const schedule: AmortizationEntry[] = [];
+    let balance = data.loanAmount;
+    const monthlyRate = data.interestRate / 100 / 12;
+    const monthlyPmt = data.monthlyPayment;
     for (let year = 1; year <= Math.ceil(data.loanTerm); year++) {
-      let yearlyInterest = 0
-      let yearlyPrincipal = 0
-
-      const monthsInYear = year === Math.ceil(data.loanTerm) ? (data.loanTerm % 1) * 12 || 12 : 12
-
+      let yearlyInterest = 0;
+      let yearlyPrincipal = 0;
+      const monthsInYear = year === Math.ceil(data.loanTerm) ? data.loanTerm % 1 * 12 || 12 : 12;
       for (let month = 1; month <= monthsInYear && balance > 0; month++) {
-        const interestPayment = balance * monthlyRate
-        const principalPayment = Math.min(monthlyPmt - interestPayment, balance)
-
-        yearlyInterest += interestPayment
-        yearlyPrincipal += principalPayment
-        balance -= principalPayment
+        const interestPayment = balance * monthlyRate;
+        const principalPayment = Math.min(monthlyPmt - interestPayment, balance);
+        yearlyInterest += interestPayment;
+        yearlyPrincipal += principalPayment;
+        balance -= principalPayment;
       }
-
       if (yearlyPrincipal > 0) {
         schedule.push({
           year,
           interest: yearlyInterest,
           principal: yearlyPrincipal,
-          endingBalance: Math.max(0, balance),
-        })
+          endingBalance: Math.max(0, balance)
+        });
       }
     }
-
-    setAmortization(schedule)
-  }
+    setAmortization(schedule);
+  };
   // Scroll to results
   scrollToRef(resultsRef as React.RefObject<HTMLElement>);
   const clearForm = () => {
-    setLoanAmount("200000")
-    setLoanTerm("15")
-    setInterestRate("6")
-    setMonthlyPayment("1687.71")
-    setResults(null)
-    setAmortization([])
-  }
-
-  return (
-    <>
-<SEO
-  title="Payment Calculator – Plan Payments Smartly"
-  description="Estimate monthly payments for loans, mortgages, or credit with ease. Use our free payment calculator to budget smarter and stay on track."
-  keywords="payment calculator, loan payment calculator, mortgage payment calculator, credit payment calculator"
-  slug="/financial/payment-calculator"
-/>
+    setLoanAmount("200000");
+    setLoanTerm("15");
+    setInterestRate("6");
+    setMonthlyPayment("1687.71");
+    setResults(null);
+    setAmortization([]);
+  };
+  return <>
 
       <div className="min-h-screen bg-white">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link
-                    href="/"
-                    className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
-                  >
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">Payment Calculator</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
 
         {/* Breadcrumb */}
-        <nav className="bg-gray-50 border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-blue-600">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <Link href="/financial" className="text-gray-500 hover:text-blue-600">
-                Financial
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Payment Calculator</span>
-            </div>
-          </div>
-        </nav>
 
         {/* Main Content */}
         <main className="py-12 px-4 sm:px-6 lg:px-8">
@@ -204,12 +203,8 @@ export default function PaymentCalculator() {
                   <CreditCard className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Payment Calculator</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Calculate the monthly payment amount or loan term for a fixed interest loan. Use the "Fixed Term" tab to
-                calculate the monthly payment of a fixed-term loan. Use the "Fixed Payments" tab to calculate the time
-                to pay off a loan with a fixed monthly payment.
-              </p>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -219,81 +214,45 @@ export default function PaymentCalculator() {
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calculator className="w-6 h-6 text-blue-600" />
-                      <span>Payment Calculator</span>
+                      <span>{contentData.payment_calculator_1}</span>
                     </CardTitle>
-                    <CardDescription className="text-base">Choose your calculation method below</CardDescription>
+                    <CardDescription className="text-base">{contentData.choose_your_calculation_method_below_2}</CardDescription>
                   </CardHeader>
                   <CardContent className="p-8">
                     <Tabs defaultValue="fixed-term" className="mb-6">
                       <TabsList className="grid w-full grid-cols-2">
-                        <TabsTrigger value="fixed-term">Fixed Term</TabsTrigger>
-                        <TabsTrigger value="fixed-payments">Fixed Payments</TabsTrigger>
+                        <TabsTrigger value="fixed-term">{contentData.fixed_term_3}</TabsTrigger>
+                        <TabsTrigger value="fixed-payments">{contentData.fixed_payments_4}</TabsTrigger>
                       </TabsList>
 
                       <TabsContent value="fixed-term" className="space-y-6">
                         <div className="space-y-3">
                           <Label htmlFor="loanAmount1" className="flex items-center space-x-2 text-base font-semibold">
                             <DollarSign className="w-4 h-4" />
-                            <span>Loan Amount</span>
+                            <span>{contentData.loan_amount_5}</span>
                           </Label>
-                          <Input
-                            id="loanAmount1"
-                            type="number"
-                            placeholder="200000"
-                            value={loanAmount}
-                            onChange={(e) => setLoanAmount(e.target.value)}
-                            className="h-12 text-lg"
-                          />
+                          <Input id="loanAmount1" type="number" placeholder="200000" value={loanAmount} onChange={e => setLoanAmount(e.target.value)} className="h-12 text-lg" />
                         </div>
 
                         <div className="space-y-3">
                           <Label htmlFor="loanTerm1" className="flex items-center space-x-2 text-base font-semibold">
                             <Calendar className="w-4 h-4" />
-                            <span>Loan Term (years)</span>
+                            <span>{contentData.loan_term_years_6}</span>
                           </Label>
-                          <Input
-                            id="loanTerm1"
-                            type="number"
-                            placeholder="15"
-                            value={loanTerm}
-                            onChange={(e) => setLoanTerm(e.target.value)}
-                            className="h-12 text-lg"
-                          />
+                          <Input id="loanTerm1" type="number" placeholder="15" value={loanTerm} onChange={e => setLoanTerm(e.target.value)} className="h-12 text-lg" />
                         </div>
 
                         <div className="space-y-3">
-                          <Label
-                            htmlFor="interestRate1"
-                            className="flex items-center space-x-2 text-base font-semibold"
-                          >
+                          <Label htmlFor="interestRate1" className="flex items-center space-x-2 text-base font-semibold">
                             <Percent className="w-4 h-4" />
-                            <span>Interest Rate (%)</span>
+                            <span>{contentData.interest_rate_7}</span>
                           </Label>
-                          <Input
-                            id="interestRate1"
-                            type="number"
-                            step="0.01"
-                            placeholder="6"
-                            value={interestRate}
-                            onChange={(e) => setInterestRate(e.target.value)}
-                            className="h-12 text-lg"
-                          />
+                          <Input id="interestRate1" type="number" step="0.01" placeholder="6" value={interestRate} onChange={e => setInterestRate(e.target.value)} className="h-12 text-lg" />
                         </div>
 
                         <div className="flex space-x-4 mt-8">
-                          <Button
-                            onClick={calculateFixedTerm}
-                            className="flex-1 h-12 text-lg bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow-lg"
-                          >
-                            Calculate
-                          </Button>
-                          <Button
-                            onClick={clearForm}
-                            variant="outline"
-                            className="h-12 px-8 text-lg border-2 bg-transparent"
-                          >
-                            Clear
-                          </Button>
+                          <Button onClick={calculateFixedTerm} className="flex-1 h-12 text-lg bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow-lg">{contentData.calculate_8}</Button>
+                          <Button onClick={clearForm} variant="outline" className="h-12 px-8 text-lg border-2 bg-transparent">{contentData.clear_9}</Button>
                         </div>
                       </TabsContent>
 
@@ -301,72 +260,33 @@ export default function PaymentCalculator() {
                         <div className="space-y-3">
                           <Label htmlFor="loanAmount2" className="flex items-center space-x-2 text-base font-semibold">
                             <DollarSign className="w-4 h-4" />
-                            <span>Loan Amount</span>
+                            <span>{contentData.loan_amount_10}</span>
                           </Label>
-                          <Input
-                            id="loanAmount2"
-                            type="number"
-                            placeholder="200000"
-                            value={loanAmount}
-                            onChange={(e) => setLoanAmount(e.target.value)}
-                            className="h-12 text-lg"
-                          />
+                          <Input id="loanAmount2" type="number" placeholder="200000" value={loanAmount} onChange={e => setLoanAmount(e.target.value)} className="h-12 text-lg" />
                         </div>
 
                         <div className="space-y-3">
-                          <Label
-                            htmlFor="monthlyPayment2"
-                            className="flex items-center space-x-2 text-base font-semibold"
-                          >
+                          <Label htmlFor="monthlyPayment2" className="flex items-center space-x-2 text-base font-semibold">
                             <CreditCard className="w-4 h-4" />
-                            <span>Monthly Payment</span>
+                            <span>{contentData.monthly_payment_11}</span>
                           </Label>
-                          <Input
-                            id="monthlyPayment2"
-                            type="number"
-                            placeholder="1687.71"
-                            value={monthlyPayment}
-                            onChange={(e) => setMonthlyPayment(e.target.value)}
-                            className="h-12 text-lg"
-                          />
+                          <Input id="monthlyPayment2" type="number" placeholder="1687.71" value={monthlyPayment} onChange={e => setMonthlyPayment(e.target.value)} className="h-12 text-lg" />
                         </div>
 
                         <div className="space-y-3">
-                          <Label
-                            htmlFor="interestRate2"
-                            className="flex items-center space-x-2 text-base font-semibold"
-                          >
+                          <Label htmlFor="interestRate2" className="flex items-center space-x-2 text-base font-semibold">
                             <Percent className="w-4 h-4" />
-                            <span>Interest Rate (%)</span>
+                            <span>{contentData.interest_rate_12}</span>
                           </Label>
-                          <Input
-                            id="interestRate2"
-                            type="number"
-                            step="0.01"
-                            placeholder="6"
-                            value={interestRate}
-                            onChange={(e) => setInterestRate(e.target.value)}
-                            className="h-12 text-lg"
-                          />
+                          <Input id="interestRate2" type="number" step="0.01" placeholder="6" value={interestRate} onChange={e => setInterestRate(e.target.value)} className="h-12 text-lg" />
                         </div>
 
                         <div className="flex space-x-4 mt-8">
-                          <Button
-                            onClick={() => {
-                              calculateFixedPayment()
-                              scrollToRef(resultsRef as React.RefObject<HTMLElement>);
-                            }}
-                            className="flex-1 h-12 text-lg bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-lg"
-                          >
-                            Calculate
-                          </Button>
-                          <Button
-                            onClick={clearForm}
-                            variant="outline"
-                            className="h-12 px-8 text-lg border-2 bg-transparent"
-                          >
-                            Clear
-                          </Button>
+                          <Button onClick={() => {
+                          calculateFixedPayment();
+                          scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+                        }} className="flex-1 h-12 text-lg bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-lg">{contentData.calculate_13}</Button>
+                          <Button onClick={clearForm} variant="outline" className="h-12 px-8 text-lg border-2 bg-transparent">{contentData.clear_14}</Button>
                         </div>
                       </TabsContent>
                     </Tabs>
@@ -378,51 +298,44 @@ export default function PaymentCalculator() {
               <div className="lg:col-span-1">
                 <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24 pt-0">
                   <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                    <CardTitle className="text-2xl">Monthly Payment</CardTitle>
-                    <CardDescription className="text-base">Your payment calculation details</CardDescription>
+                    <CardTitle className="text-2xl">{contentData.monthly_payment_15}</CardTitle>
+                    <CardDescription className="text-base">{contentData.your_payment_calculation_details_16}</CardDescription>
                   </CardHeader>
                   <CardContent className="p-8">
-                    {results ? (
-                      <div className="space-y-8">
+                    {results ? <div className="space-y-8">
                         <div className="text-center p-8 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border border-green-200">
                           <p className="text-5xl font-bold text-green-600 mb-4">
                             $
                             {results.monthlyPayment.toLocaleString("en-US", {
-                              minimumFractionDigits: 2,
-                              maximumFractionDigits: 2,
-                            })}
+                          minimumFractionDigits: 2,
+                          maximumFractionDigits: 2
+                        })}
                           </p>
-                          <p className="text-sm text-gray-600 leading-relaxed">
-                            You will need to pay $
-                            {results.monthlyPayment.toLocaleString("en-US", {
-                              minimumFractionDigits: 2,
-                              maximumFractionDigits: 2,
-                            })}{" "}
-                            every month for {results.loanTerm.toFixed(1)} years to payoff the debt.
-                          </p>
+                          <p className="text-sm text-gray-600 leading-relaxed">{contentData.you_will_need_to_pay_17}{results.monthlyPayment.toLocaleString("en-US", {
+                          minimumFractionDigits: 2,
+                          maximumFractionDigits: 2
+                        })}{" "}{contentData.every_month_for_18}{results.loanTerm.toFixed(1)}{contentData.years_to_payoff_the_debt_19}</p>
                         </div>
 
                         <div className="space-y-4">
                           <div className="flex justify-between items-center p-4 bg-blue-50 rounded-xl">
-                            <span className="text-gray-600">
-                              Total of {Math.round(results.numberOfPayments)} Payments
-                            </span>
+                            <span className="text-gray-600">{contentData.total_of_20}{Math.round(results.numberOfPayments)}{contentData.payments_21}</span>
                             <span className="font-bold text-blue-600">
                               $
                               {results.totalPayments.toLocaleString("en-US", {
-                                minimumFractionDigits: 0,
-                                maximumFractionDigits: 0,
-                              })}
+                            minimumFractionDigits: 0,
+                            maximumFractionDigits: 0
+                          })}
                             </span>
                           </div>
                           <div className="flex justify-between items-center p-4 bg-red-50 rounded-xl">
-                            <span className="text-gray-600">Total Interest</span>
+                            <span className="text-gray-600">{contentData.total_interest_22}</span>
                             <span className="font-bold text-red-600">
                               $
                               {results.totalInterest.toLocaleString("en-US", {
-                                minimumFractionDigits: 0,
-                                maximumFractionDigits: 0,
-                              })}
+                            minimumFractionDigits: 0,
+                            maximumFractionDigits: 0
+                          })}
                             </span>
                           </div>
                         </div>
@@ -431,134 +344,97 @@ export default function PaymentCalculator() {
                           <div className="w-32 h-32 mx-auto mb-4 relative">
                             <svg className="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
                               <circle cx="50" cy="50" r="40" fill="none" stroke="#e5e7eb" strokeWidth="8" />
-                              <circle
-                                cx="50"
-                                cy="50"
-                                r="40"
-                                fill="none"
-                                stroke="#3b82f6"
-                                strokeWidth="8"
-                                strokeDasharray={`${(results.loanAmount / results.totalPayments) * 251.2} 251.2`}
-                                strokeLinecap="round"
-                              />
-                              <circle
-                                cx="50"
-                                cy="50"
-                                r="40"
-                                fill="none"
-                                stroke="#ef4444"
-                                strokeWidth="8"
-                                strokeDasharray={`${(results.totalInterest / results.totalPayments) * 251.2} 251.2`}
-                                strokeDashoffset={`-${(results.loanAmount / results.totalPayments) * 251.2}`}
-                                strokeLinecap="round"
-                              />
+                              <circle cx="50" cy="50" r="40" fill="none" stroke="#3b82f6" strokeWidth="8" strokeDasharray={`${results.loanAmount / results.totalPayments * 251.2} 251.2`} strokeLinecap="round" />
+                              <circle cx="50" cy="50" r="40" fill="none" stroke="#ef4444" strokeWidth="8" strokeDasharray={`${results.totalInterest / results.totalPayments * 251.2} 251.2`} strokeDashoffset={`-${results.loanAmount / results.totalPayments * 251.2}`} strokeLinecap="round" />
                             </svg>
                           </div>
                           <div className="flex justify-center space-x-6 text-sm">
                             <div className="flex items-center space-x-2">
                               <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                              <span>{Math.round((results.loanAmount / results.totalPayments) * 100)}% Principal</span>
+                              <span>{Math.round(results.loanAmount / results.totalPayments * 100)}{contentData.principal_23}</span>
                             </div>
                             <div className="flex items-center space-x-2">
                               <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-                              <span>{Math.round((results.totalInterest / results.totalPayments) * 100)}% Interest</span>
+                              <span>{Math.round(results.totalInterest / results.totalPayments * 100)}{contentData.interest_24}</span>
                             </div>
                           </div>
                         </div>
-                      </div>
-                    ) : (
-                      <div className="text-center py-16 text-gray-500">
+                      </div> : <div className="text-center py-16 text-gray-500">
                         <CreditCard className="w-16 h-16 mx-auto mb-6 opacity-50" />
-                        <p className="text-lg">Enter payment details to see your calculation</p>
-                      </div>
-                    )}
+                        <p className="text-lg">{contentData.enter_payment_details_to_see_your_calculation_25}</p>
+                      </div>}
                   </CardContent>
                 </Card>
               </div>
             </div>
 
             {/* Amortization Schedule */}
-            {results && amortization.length > 0 && (
-              <div className="mt-12">
+            {results && amortization.length > 0 && <div className="mt-12">
                 <Card className="shadow-2xl border-0">
                   <CardHeader className="bg-gradient-to-r from-gray-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                    <CardTitle className="text-2xl">Amortization Schedule</CardTitle>
-                    <CardDescription className="text-base">Annual payment breakdown</CardDescription>
+                    <CardTitle className="text-2xl">{contentData.amortization_schedule_26}</CardTitle>
+                    <CardDescription className="text-base">{contentData.annual_payment_breakdown_27}</CardDescription>
                   </CardHeader>
                   <CardContent className="p-0">
                     <div className="overflow-x-auto">
                       <table className="w-full">
                         <thead className="bg-gray-50 border-b">
                           <tr>
-                            <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Year</th>
-                            <th className="px-6 py-4 text-right text-sm font-semibold text-gray-900">Interest</th>
-                            <th className="px-6 py-4 text-right text-sm font-semibold text-gray-900">Principal</th>
-                            <th className="px-6 py-4 text-right text-sm font-semibold text-gray-900">Ending Balance</th>
+                            <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">{contentData.year_28}</th>
+                            <th className="px-6 py-4 text-right text-sm font-semibold text-gray-900">{contentData.interest_29}</th>
+                            <th className="px-6 py-4 text-right text-sm font-semibold text-gray-900">{contentData.principal_30}</th>
+                            <th className="px-6 py-4 text-right text-sm font-semibold text-gray-900">{contentData.ending_balance_31}</th>
                           </tr>
                         </thead>
                         <tbody className="divide-y divide-gray-200">
-                          {amortization.map((entry, index) => (
-                            <tr key={entry.year} className={index % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                          {amortization.map((entry, index) => <tr key={entry.year} className={index % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                               <td className="px-6 py-4 text-sm font-medium text-gray-900">{entry.year}</td>
                               <td className="px-6 py-4 text-sm text-right text-red-600">
                                 $
                                 {entry.interest.toLocaleString("en-US", {
-                                  minimumFractionDigits: 2,
-                                  maximumFractionDigits: 2,
-                                })}
+                            minimumFractionDigits: 2,
+                            maximumFractionDigits: 2
+                          })}
                               </td>
                               <td className="px-6 py-4 text-sm text-right text-blue-600">
                                 $
                                 {entry.principal.toLocaleString("en-US", {
-                                  minimumFractionDigits: 2,
-                                  maximumFractionDigits: 2,
-                                })}
+                            minimumFractionDigits: 2,
+                            maximumFractionDigits: 2
+                          })}
                               </td>
                               <td className="px-6 py-4 text-sm text-right text-gray-900">
                                 $
                                 {entry.endingBalance.toLocaleString("en-US", {
-                                  minimumFractionDigits: 2,
-                                  maximumFractionDigits: 2,
-                                })}
+                            minimumFractionDigits: 2,
+                            maximumFractionDigits: 2
+                          })}
                               </td>
-                            </tr>
-                          ))}
+                            </tr>)}
                         </tbody>
                       </table>
                     </div>
                   </CardContent>
                 </Card>
-              </div>
-            )}
+              </div>}
           </div>
-        <SimilarCalculators
-          calculators={[
-            {
-              calculatorName: "Currency Calculator",
-              calculatorHref: "/financial/currency-calculator",
-              calculatorDescription: "Convert between different currencies with real-time rates"
-            },
-            {
-              calculatorName: "Salary Calculator",
-              calculatorHref: "/financial/salary-calculator",
-              calculatorDescription: "Calculate net salary after taxes and deductions"
-            },
-            {
-              calculatorName: "Savings Calculator",
-              calculatorHref: "/financial/savings-calculator",
-              calculatorDescription: "Calculate future value of savings with compound interest"
-            }
-          ]}
-          color="blue"
-          title="Related Financial Calculators"
-        />
-          <CalculatorGuide data={paymentData} />
+        <SimilarCalculators calculators={[{
+          calculatorName: "Currency Calculator",
+          calculatorHref: "/financial/currency-calculator",
+          calculatorDescription: "Convert between different currencies with real-time rates"
+        }, {
+          calculatorName: "Salary Calculator",
+          calculatorHref: "/financial/salary-calculator",
+          calculatorDescription: "Calculate salary after taxes and deductions"
+        }, {
+          calculatorName: "Savings Calculator",
+          calculatorHref: "/financial/savings-calculator",
+          calculatorDescription: "Calculate value of savings with compound interest"
+        }]} color="blue" title="Related Financial Calculators" />
+          <CalculatorGuide data={guideData} />
 
         </main>
 
-
-
       </div>
-    </>
-  )
+    </>;
 }

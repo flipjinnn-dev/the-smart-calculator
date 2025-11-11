@@ -1,0 +1,165 @@
+{
+  "pageTitle": "Calculadora de empréstimo para automóveis",
+  "pageDescription": "Calcule pagamentos de empréstimos de automóveis e custo total, incluindo juros, impostos sobre vendas e taxas para financiamento de veículos novos e usados",
+  "form": {
+    "labels": {
+      "vehiclePrice": "Preço do Veículo",
+      "downPayment": "Pagamento inicial",
+      "downPaymentType": "Tipo de adiantamento",
+      "loanAmount": "Valor do empréstimo",
+      "interestRate": "Taxa de juros anual",
+      "loanTerm": "Prazo do empréstimo",
+      "startDate": "Data de início do empréstimo",
+      "salesTax": "Taxa de imposto sobre vendas",
+      "fees": "Taxas Adicionais",
+      "tradeIn": "Valor de troca"
+    },
+    "placeholders": {
+      "vehiclePrice": "Insira o preço do veículo",
+      "downPayment": "Insira o pagamento inicial",
+      "loanAmount": "Insira o valor do empréstimo",
+      "interestRate": "Insira a taxa de juros anual (%)",
+      "loanTerm": "Insira o prazo do empréstimo em meses",
+      "salesTax": "Insira a taxa de imposto sobre vendas (%)",
+      "fees": "Insira taxas adicionais",
+      "tradeIn": "Insira o valor de troca"
+    },
+    "buttons": {
+      "calculate": "Calcular empréstimo para automóveis",
+      "reset": "Reiniciar"
+    },
+    "downPaymentTypes": {
+      "amount": "Quantia",
+      "percentage": "Percentagem"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Pagamento Mensal",
+    "totalInterest": "Juros totais pagos",
+    "totalPayment": "Pagamento total",
+    "totalCost": "Custo Total (Veículo + Juros + Impostos + Taxas)",
+    "payoffDate": "Data de pagamento do empréstimo",
+    "autoLoanResultsTitle": "Resultados do cálculo do empréstimo para automóveis"
+  },
+  "educational": {
+    "autoLoanInfo": "Informações sobre empréstimos para automóveis",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "autoLoanFacts": {
+      "components": {
+        "title": "Componentes de empréstimo para automóveis",
+        "description": "Principal, juros, imposto sobre vendas e taxas adicionais"
+      },
+      "amortization": {
+        "title": "Amortização",
+        "description": "Os pagamentos antecipados são principalmente juros; pagamentos posteriores são principalmente principais"
+      },
+      "depreciation": {
+        "title": "Depreciação de veículos",
+        "description": "Os carros perdem valor com o tempo, afetando a relação entre empréstimo e valor"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de pagamento de empréstimos automáticos",
+      "actual": "Os termos reais do empréstimo podem variar com base nas políticas do credor, pontuação de crédito e fatores do veículo"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não inclui todas as taxas e encargos possíveis",
+      "Carros novos se depreciam rapidamente, potencialmente deixando você de cabeça para baixo no empréstimo",
+      "Prazos de empréstimo mais curtos normalmente têm taxas de juros mais baixas, mas pagamentos mensais mais altos",
+      "Considere o custo total de propriedade, incluindo seguro, manutenção e combustível"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações do seu empréstimo automático para calcular os pagamentos mensais",
+    "resultMessage": "Os resultados do cálculo do seu empréstimo para automóveis são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do empréstimo para automóveis:",
+    "autoLoanAnalysis": "Análise de empréstimo para automóveis"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de pagamento de empréstimos automáticos com base em fórmulas financeiras padrão. Os termos, pagamentos e juros reais do empréstimo podem variar com base nas políticas do credor, pontuação de crédito, condição do veículo e outros fatores não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para obter aconselhamento personalizado sobre empréstimos para automóveis e opções de financiamento, consulte especialistas em empréstimos para automóveis ou consultores financeiros com experiência em financiamento de veículos e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "vehiclePrice": "Insira um preço de veículo válido",
+    "downPayment": "Insira um adiantamento válido",
+    "loanAmount": "Insira um valor de empréstimo válido",
+    "interestRate": "Insira uma taxa de juros anual válida",
+    "loanTerm": "Insira um prazo de empréstimo válido",
+    "startDate": "Insira uma data de início do empréstimo válida",
+    "salesTax": "Insira uma taxa de imposto sobre vendas válida",
+    "fees": "Insira taxas adicionais válidas",
+    "tradeIn": "Insira um valor de troca válido"
+  },
+  "tooltips": {
+    "vehiclePrice": "Preço de compra do veículo",
+    "downPayment": "Valor pago antecipadamente na compra do veículo",
+    "downPaymentType": "Se o pagamento inicial é especificado como valor ou porcentagem",
+    "loanAmount": "Valor emprestado do credor",
+    "interestRate": "Taxa de juros anual do empréstimo para compra de automóveis",
+    "loanTerm": "Prazo para pagar o empréstimo (normalmente 36-84 meses)",
+    "startDate": "Data em que começam os pagamentos do empréstimo",
+    "salesTax": "Imposto estadual e local sobre vendas na compra de veículos",
+    "fees": "Taxas adicionais, como documentação, título e taxas de registro",
+    "tradeIn": "Valor do seu veículo atual usado como entrada"
+  },
+  "auto_loan_calculator_0": "Calculadora de empréstimo para automóveis",
+  "total_price_1": "Preço total",
+  "monthly_payment_2": "Pagamento Mensal",
+  "auto_price_3": "Preço automático",
+  "loan_term_4": "Prazo do empréstimo",
+  "months_5": "meses",
+  "interest_rate_6": "Taxa de juro",
+  "cash_incentives_7": "Incentivos em dinheiro",
+  "down_payment_8": "Pagamento inicial",
+  "tradein_value_9": "Valor de troca",
+  "amount_owed_on_tradein_10": "Valor devido na troca",
+  "your_state_11": "Seu estado",
+  "sales_tax_12": "Imposto sobre vendas",
+  "title_registration_and_other_fees_13": "Título, registro e outras taxas",
+  "include_taxes_and_fees_in_loan_14": "Incluir impostos e taxas no empréstimo",
+  "calculate_15": "Calcular",
+  "monthly_payment_16": "Pagamento Mensal",
+  "loan_term_17": "Prazo do empréstimo",
+  "months_18": "meses",
+  "interest_rate_19": "Taxa de juro",
+  "cash_incentives_20": "Incentivos em dinheiro",
+  "down_payment_21": "Pagamento inicial",
+  "tradein_value_22": "Valor de troca",
+  "amount_owed_on_tradein_23": "Valor devido na troca",
+  "your_state_24": "Seu estado",
+  "sales_tax_25": "Imposto sobre vendas",
+  "title_registration_and_other_fees_26": "Título, registro e outras taxas",
+  "include_taxes_and_fees_in_loan_27": "Incluir impostos e taxas no empréstimo",
+  "calculate_28": "Calcular",
+  "monthly_payment_29": "Pagamento Mensal",
+  "your_complete_loan_breakdown_30": "Seu detalhamento completo do empréstimo",
+  "monthly_pay_31": "Salário Mensal:",
+  "total_loan_amount_32": "Valor total do empréstimo",
+  "sale_tax_33": "Imposto sobre vendas",
+  "upfront_payment_34": "Pagamento antecipado",
+  "total_of_35": "Total de",
+  "loan_payments_36": "Pagamentos de empréstimos",
+  "total_loan_interest_37": "Juros totais do empréstimo",
+  "total_cost_price_interest_tax_fees_38": "Custo total (preço, juros, impostos, taxas)",
+  "loan_breakdown_39": "Repartição do empréstimo",
+  "principal_40": "% Principal",
+  "interest_41": "% Interesse",
+  "find_average_tax_rate_and_fees_in_your_state_42": "Encontre taxas e taxas médias de impostos em seu estado",
+  "enter_auto_loan_details_to_see_your_payment_breakd_43": "Insira os detalhes do empréstimo automático para ver o detalhamento do pagamento",
+  "amortization_schedule_44": "Cronograma de Amortização",
+  "annual_payment_breakdown_45": "Detalhamento do pagamento anual",
+  "annual_schedule_46": "Cronograma Anual",
+  "monthly_schedule_47": "Programação Mensal",
+  "year_48": "Ano",
+  "interest_49": "Interesse",
+  "principal_50": "Principal",
+  "ending_balance_51": "Fim do saldo",
+  "monthly_schedule_view_coming_soon_52": "Visualização da programação mensal - Em breve!"
+}

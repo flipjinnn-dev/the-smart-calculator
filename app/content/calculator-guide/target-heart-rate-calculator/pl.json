@@ -1,0 +1,106 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest docelowe tętno?",
+      "content": "Docelowe tętno (THR) to idealny zakres uderzeń na minutę (BPM), przy którym Twoje serce powinno pracować podczas ćwiczeń, aby zmaksymalizować efektywność i zachować bezpieczeństwo. Pomaga upewnić się, że trenujesz z odpowiednią intensywnością, niezależnie od tego, czy Twoim celem jest utrata masy ciała, budowanie wytrzymałości, zdrowie układu krążenia czy wyniki sportowe.\n\nUtrzymywanie docelowej strefy tętna pomaga efektywnie spalać tłuszcz, poprawiać wydolność tlenową i unikać przetrenowania."
+    },
+    {
+      "heading": "Jak obliczyć docelowe tętno",
+      "subSections": [
+        {
+          "heading": "1. Maksymalne tętno (220 – wzór na wiek)",
+          "content": "Wzór: 220 – Wiek = Maksymalne tętno (MHR)\n\nStrefa docelowa: 50–85% Twojego MHR\n\nPrzykład: W wieku 30 lat → 220 – 30 = 190 MHR → Strefa docelowa = 95–162 BPM"
+        },
+        {
+          "heading": "2. Formuła Karvonena (metoda rezerwy tętna)",
+          "content": "Bardziej spersonalizowany, uwzględnia tętno spoczynkowe (RHR).\n\nWzór: THR = ((MHR – RHR) × %intensywność) + RHR\n\nNajlepszy dla sportowców lub osób mających określone cele treningowe."
+        },
+        {
+          "heading": "3. Formuła Tanaki (alternatywa dla dokładności)",
+          "content": "Wzór: 208 – (0,7 × Wiek)\n\nCzęsto dokładniejsze w przypadku osób starszych."
+        }
+      ]
+    },
+    {
+      "heading": "Strefy treningu tętna",
+      "subSections": [
+        {
+          "heading": "Strefa rozgrzewki (50–60% MHR)",
+          "content": "Delikatna aktywność, dobra dla początkujących i do regeneracji."
+        },
+        {
+          "heading": "Strefa spalania tłuszczu (60–70% MHR)",
+          "content": "Spala nagromadzoną tkankę tłuszczową, wspomaga odchudzanie."
+        },
+        {
+          "heading": "Strefa cardio (70–80% MHR)",
+          "content": "Buduje wytrzymałość, wzmacnia serce i płuca."
+        },
+        {
+          "heading": "Strefa szczytu/HIIT (80–90% MHR)",
+          "content": "Poprawia prędkość, moc i VO₂ max."
+        },
+        {
+          "heading": "Maksymalny wysiłek (90–100% MHR)",
+          "content": "Krótkie serie, tylko do zaawansowanego treningu."
+        }
+      ]
+    },
+    {
+      "heading": "Docelowe tętno według wieku (przykładowy wykres)",
+      "content": "Wiek | Szacowany MHR (220 – wiek) | Strefa docelowa 50–85% (BPM)\n--- | --- | ---\n20 | 200 | 100–170\n30 | 190 | 95–162\n40 | 180 | 90–153\n50 | 170 | 85–145\n60 | 160 | 80–136\n70 | 150 | 75–128\n\n(Wartości są szacunkowe; obowiązują różnice indywidualne.)"
+    },
+    {
+      "heading": "Korzyści z treningu w docelowej strefie tętna",
+      "subSections": [
+        {
+          "heading": "Utrata wagi",
+          "content": "Trenuj w strefie spalania tłuszczu, aby zapewnić stałe spalanie kalorii."
+        },
+        {
+          "heading": "Fitness kardio",
+          "content": "Popraw wydolność serca i płuc w strefie cardio."
+        },
+        {
+          "heading": "Wytrzymałość i wyniki sportowe",
+          "content": "Strefa szczytowa pomaga sportowcom przekraczać granice."
+        },
+        {
+          "heading": "Treningi HIIT",
+          "content": "Naprzemienne strefy umiarkowane i szczytowe przyspieszają metabolizm."
+        },
+        {
+          "heading": "Bezpieczne ćwiczenia dla seniorów",
+          "content": "Dolne strefy pozwalają zachować zdrowie bez nadmiernego wysiłku."
+        }
+      ]
+    },
+    {
+      "heading": "⚠️ Ważne zastrzeżenie",
+      "content": "Ten kalkulator zawiera wyłącznie ogólne wskazówki dotyczące kondycji. Zawsze skonsultuj się z lekarzem lub certyfikowanym trenerem przed rozpoczęciem nowego programu ćwiczeń, zwłaszcza jeśli masz chorobę serca, bierzesz leki lub dopiero zaczynasz ćwiczyć."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jaki jest najlepszy wzór na obliczenie docelowego tętna?",
+      "a": "Najpopularniejszy jest wzór na 220 lat, ale wzór Karvonena jest dokładniejszy, ponieważ uwzględnia tętno spoczynkowe."
+    },
+    {
+      "q": "Jakie tętno powinienem osiągnąć podczas ćwiczeń cardio?",
+      "a": "Aby trening cardio był skuteczny, większość ludzi powinna utrzymywać się w zakresie 70–85% MHR."
+    },
+    {
+      "q": "Czy mogę używać smartwatcha lub trackera fitness?",
+      "a": "Tak. Urządzenia takie jak Apple Watch, Fitbit i Garmin wykorzystują dane tętna w czasie rzeczywistym, aby utrzymać Cię w strefie docelowej."
+    },
+    {
+      "q": "Czy przekroczenie docelowego tętna jest bezpieczne?",
+      "a": "Sporadyczne wartości szczytowe są normalne, ale konsekwentne przekraczanie THR może zwiększyć ryzyko obrażeń lub serca. Trzymaj się w bezpiecznych granicach, chyba że jesteś nadzorowany."
+    },
+    {
+      "q": "Jakie jest dobre docelowe tętno dla seniorów?",
+      "a": "Dorośli powyżej 60. roku życia powinni dążyć do osiągnięcia 50–70% swojego MHR, koncentrując się na bezpieczeństwie i stałej wytrzymałości."
+    }
+  ]
+}

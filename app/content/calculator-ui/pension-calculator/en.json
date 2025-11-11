@@ -1,0 +1,169 @@
+{
+  "pageTitle": "Pension Calculator",
+  "pageDescription": "Estimate your pension benefits based on salary and years of service for comprehensive retirement income planning",
+  "form": {
+    "labels": {
+      "currentAge": "Current Age",
+      "retirementAge": "Planned Retirement Age",
+      "yearsOfService": "Years of Service",
+      "currentSalary": "Current Annual Salary",
+      "averageSalary": "Average Salary (Highest 3-5 Years)",
+      "benefitFormula": "Benefit Formula",
+      "multiplier": "Multiplier Percentage",
+      "additionalBenefits": "Additional Benefits",
+      "costOfLivingAdjustment": "Cost of Living Adjustment (COLA)"
+    },
+    "placeholders": {
+      "currentAge": "Enter current age",
+      "retirementAge": "Enter planned retirement age",
+      "yearsOfService": "Enter years of service",
+      "currentSalary": "Enter current annual salary",
+      "averageSalary": "Enter average salary",
+      "multiplier": "Enter multiplier percentage",
+      "additionalBenefits": "Enter additional benefits",
+      "costOfLivingAdjustment": "Enter COLA percentage"
+    },
+    "buttons": {
+      "calculate": "Calculate Pension Benefits",
+      "reset": "Reset"
+    },
+    "benefitFormulas": {
+      "finalSalary": "Final Salary Average",
+      "careerAverage": "Career Average Salary",
+      "highestAverage": "Highest Average Salary"
+    }
+  },
+  "results": {
+    "monthlyBenefit": "Estimated Monthly Pension",
+    "annualBenefit": "Estimated Annual Pension",
+    "totalBenefit": "Total Pension Over 20 Years",
+    "pensionResultsTitle": "Pension Calculation Results"
+  },
+  "educational": {
+    "pensionInfo": "Pension Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "pensionFacts": {
+      "definition": {
+        "title": "Pension Definition",
+        "description": "Defined benefit retirement plan that provides regular payments based on salary and years of service"
+      },
+      "vesting": {
+        "title": "Vesting Requirements",
+        "description": "Most pensions require 5-10 years of service to become fully vested"
+      },
+      "formula": {
+        "title": "Benefit Calculation",
+        "description": "Typically calculated as: Years of Service × Multiplier × Average Salary"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides pension benefit estimates only",
+      "actual": "Actual benefits may vary based on plan rules and employer policies"
+    },
+    "importantNotesList": [
+      "Pension benefits are typically guaranteed by the Pension Benefit Guaranty Corporation (PBGC)",
+      "Consider survivor benefits and benefit payment options",
+      "Pensions provide lifetime income but may not keep pace with inflation",
+      "Some pensions offer lump sum buyout options"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your pension information to estimate benefits",
+    "resultMessage": "Your pension benefit calculation results are shown below",
+    "assessmentResult": "Pension Calculation Result:",
+    "pensionAnalysis": "Pension Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides pension benefit estimates based on general formulas. Actual benefits may vary based on plan rules, employer policies, and other factors not included in these estimates."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized pension benefit analysis and retirement planning, consult pension plan administrators or financial advisors with expertise in retirement income planning and individual circumstances."
+  },
+  "errors": {
+    "currentAge": "Please enter a valid current age",
+    "retirementAge": "Please enter a valid planned retirement age",
+    "yearsOfService": "Please enter valid years of service",
+    "currentSalary": "Please enter a valid current annual salary",
+    "averageSalary": "Please enter a valid average salary",
+    "multiplier": "Please enter a valid multiplier percentage",
+    "additionalBenefits": "Please enter valid additional benefits",
+    "costOfLivingAdjustment": "Please enter a valid COLA percentage"
+  },
+  "tooltips": {
+    "currentAge": "Your current age in years",
+    "retirementAge": "Age when you plan to retire and begin receiving pension benefits",
+    "yearsOfService": "Total years of employment with pension-eligible employer",
+    "currentSalary": "Your current annual salary",
+    "averageSalary": "Average of highest earning years used in pension calculation",
+    "multiplier": "Percentage used in benefit formula (typically 1-2%)",
+    "additionalBenefits": "Any additional pension benefits or supplements",
+    "costOfLivingAdjustment": "Annual adjustment for inflation protection"
+  },
+  "pension_options_0": "Pension Options",
+  "lump_sum_vs_monthly_1": "Lump Sum vs Monthly",
+  "single_vs_joint_2": "Single vs Joint",
+  "work_longer_3": "Work Longer",
+  "lump_sum_vs_monthly_pension_4": "Lump Sum vs Monthly Pension",
+  "retirement_age_5": "Retirement Age",
+  "life_expectancy_6": "Life Expectancy",
+  "expected_age_at_death_for_calculation_purposes_7": "Expected age at death for calculation purposes",
+  "lump_sum_payment_8": "Lump Sum Payment ($)",
+  "monthly_pension_9": "Monthly Pension ($)",
+  "annual_investment_return_10": "Annual Investment Return (%)",
+  "expected_annual_return_on_lump_sum_investment_11": "Expected annual return on lump sum investment",
+  "annual_cola_12": "Annual COLA (%)",
+  "cost_of_living_adjustment_annual_pension_increase_13": "Cost of Living Adjustment - annual pension increase",
+  "single_life_vs_joint_survivor_14": "Single Life vs Joint & Survivor",
+  "retirement_age_15": "Retirement Age",
+  "your_life_expectancy_16": "Your Life Expectancy",
+  "spouses_age_at_retirement_17": "Spouse's Age at Retirement",
+  "spouses_life_expectancy_18": "Spouse's Life Expectancy",
+  "monthly_pension_single_life_19": "Monthly Pension (Single Life) ($)",
+  "monthly_pension_joint_survivor_20": "Monthly Pension (Joint Survivor) ($)",
+  "survivor_benefit_ratio_21": "Survivor Benefit Ratio (%)",
+  "percentage_of_pension_spouse_receives_after_your_d_22": "Percentage of pension spouse receives after your death",
+  "annual_investment_return_23": "Annual Investment Return (%)",
+  "annual_cola_24": "Annual COLA (%)",
+  "work_longer_option_comparison_25": "Work Longer Option Comparison",
+  "current_age_26": "Current Age",
+  "life_expectancy_27": "Life Expectancy",
+  "option_a_retire_earlier_28": "Option A: Retire Earlier",
+  "retirement_age_a_29": "Retirement Age A",
+  "monthly_pension_a_30": "Monthly Pension A ($)",
+  "option_b_work_longer_31": "Option B: Work Longer",
+  "retirement_age_b_32": "Retirement Age B",
+  "monthly_pension_b_33": "Monthly Pension B ($)",
+  "annual_investment_return_34": "Annual Investment Return (%)",
+  "annual_cola_35": "Annual COLA (%)",
+  "calculate_options_36": "Calculate Options",
+  "pension_results_37": "Pension Results",
+  "compare_your_pension_options_38": "Compare your pension options",
+  "lump_sum_vs_monthly_pension_39": "Lump Sum vs Monthly Pension",
+  "monthly_pension_pv_40": "Monthly Pension (PV)",
+  "lump_sum_41": "Lump Sum",
+  "better_choice_42": "Better Choice:",
+  "single_life_vs_joint_survivor_43": "Single Life vs Joint & Survivor",
+  "single_life_pv_44": "Single Life (PV)",
+  "joint_survivor_pv_45": "Joint & Survivor (PV)",
+  "better_choice_46": "Better Choice:",
+  "work_longer_comparison_47": "Work Longer Comparison",
+  "retire_at_48": "Retire at",
+  "pv_49": "(PV)",
+  "retire_at_50": "Retire at",
+  "pv_51": "(PV)",
+  "better_choice_52": "Better Choice:",
+  "enter_your_pension_information_to_see_your_results_53": "Enter your pension information to see your results",
+  "calculation_methodology_54": "Calculation Methodology",
+  "present_value_calculation_55": "Present Value Calculation",
+  "all_pension_streams_are_converted_to_present_value_56": "All pension streams are converted to present value using the formula:",
+  "pv_pmt_1_colat1_1_rt1_57": "PV = Σ [PMT × (1 + COLA)^(t-1)] / (1 + r)^(t-1)",
+  "joint_survivor_calculation_58": "Joint Survivor Calculation",
+  "accounts_for_two_phases_payments_while_both_spouse_59": "Accounts for two phases: payments while both spouses are alive, then survivor benefits until the\n                        surviving spouse's death.",
+  "work_longer_analysis_60": "Work Longer Analysis",
+  "compares_present_values_accounting_for_delayed_ret_61": "Compares present values accounting for delayed retirement and different pension amounts,\n                        discounted back to today."
+}

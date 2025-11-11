@@ -1,0 +1,213 @@
+{
+  "pageTitle": "BMR-Rechner",
+  "pageDescription": "Berechnen Sie Ihren Grundumsatz (BMR), um die Anzahl der Kalorien zu bestimmen, die Ihr Körper im Ruhezustand für grundlegende physiologische Funktionen benötigt",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "weight": "Gewicht",
+      "height": "Höhe",
+      "unitSystem": "Einheitensystem",
+      "calculationMethod": "Berechnungsmethode"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den BMR",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    },
+    "calculationMethods": {
+      "mifflin": "Mifflin-St-Jeor-Gleichung",
+      "harris": "Harris-Benedict-Gleichung",
+      "revisedHarris": "Überarbeitete Harris-Benedict-Gleichung"
+    }
+  },
+  "results": {
+    "bmr": "Grundumsatz (BMR)",
+    "caloriesPerDay": "Kalorien pro Tag",
+    "bmrResultsTitle": "BMR-Ergebnisse",
+    "formulaUsed": "Verwendete Formel"
+  },
+  "educational": {
+    "bmrInfo": "BMR-Informationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ernährungsressourcen",
+    "bmrFacts": {
+      "definition": {
+        "title": "Definition des Grundumsatzes",
+        "description": "Der BMR ist die Anzahl an Kalorien, die Ihr Körper benötigt, um grundlegende physiologische Funktionen im Ruhezustand aufrechtzuerhalten"
+      },
+      "components": {
+        "title": "BMR-Komponenten",
+        "description": "BMR umfasst Atmung, Kreislauf, Zellproduktion und grundlegende Organfunktionen"
+      },
+      "factors": {
+        "title": "Faktoren, die den BMR beeinflussen",
+        "description": "Alter, Geschlecht, Gewicht, Größe, Muskelmasse und Genetik beeinflussen alle den BMR"
+      }
+    },
+    "bmrFormulas": {
+      "mifflin": {
+        "title": "Mifflin-St-Jeor-Gleichung",
+        "description": "Gilt als die genaueste für gesunde Personen"
+      },
+      "harris": {
+        "title": "Harris-Benedict-Gleichung",
+        "description": "Eine der ältesten und immer noch weit verbreiteten BMR-Gleichungen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur BMR-Schätzungen",
+      "individual": "Der BMR variiert je nach individuellen Faktoren und Gesundheitszustand"
+    },
+    "importantNotesList": [
+      "Der BMR stellt die Kalorien dar, die nur bei völliger Ruhe benötigt werden",
+      "Der tatsächliche Tagesbedarf ist höher, wenn Aktivität und Bewegung einbezogen werden",
+      "Muskelmasse erhöht den BMR, da Muskelgewebe mehr Kalorien als Fett verbrennt",
+      "Der BMR nimmt mit zunehmendem Alter aufgrund des Verlusts von Muskelmasse und Stoffwechselveränderungen ab"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Daten ein, um den Grundumsatz zu berechnen",
+    "resultMessage": "Ihr BMR wird unten angezeigt",
+    "assessmentResult": "Ergebnis der BMR-Berechnung:",
+    "bmrAnalysis": "BMR-Analyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert BMR-Schätzungen basierend auf mathematischen Formeln. Der individuelle BMR kann aufgrund von Faktoren variieren, die in diesen Berechnungen nicht berücksichtigt werden, einschließlich Muskelmasse, Gesundheitszustand und Genetik."
+  },
+  "seekHelp": {
+    "title": "Ernährungsressourcen",
+    "content": "Für personalisierte Stoffwechselbeurteilungen und Ernährungsberatung wenden Sie sich an medizinisches Fachpersonal oder registrierte Ernährungsberater mit Fachkenntnissen in Stoffwechseltests und individuellen Gesundheitsbedürfnissen."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "calculationMethod": "Bitte wählen Sie eine Berechnungsmethode aus"
+  },
+  "tooltips": {
+    "age": "Das Alter beeinflusst die Stoffwechselrate",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "calculationMethod": "Unterschiedliche Gleichungen können zu leicht unterschiedlichen Ergebnissen führen",
+    "gender": "Das Geschlecht beeinflusst den BMR aufgrund von Unterschieden in der Körperzusammensetzung"
+  },
+  "bmr_calculation_0": "BMR-Berechnung",
+  "enter_your_details_to_calculate_your_basal_metabol_1": "Geben Sie Ihre Daten ein, um Ihren Grundumsatz zu berechnen",
+  "bmr_formula_2": "BMR-Formel",
+  "mifflinst_jeor_recommended_3": "Mifflin-St Jeor (empfohlen)",
+  "revised_harrisbenedict_4": "Überarbeiteter Harris-Benedict",
+  "katchmcardle_requires_body_fat_5": "Katch-McArdle (benötigt Körperfettanteil)",
+  "unit_system_6": "Einheitensystem",
+  "metric_kg_cm_7": "Metrisch (kg, cm)",
+  "us_lbs_ftin_8": "US (lbs, ft/in)",
+  "age_years_9": "Alter (Jahre)",
+  "age_range_1580_years_10": "Altersspanne: 15–80 Jahre",
+  "gender_11": "Geschlecht",
+  "male_12": "Männlich",
+  "female_13": "Weiblich",
+  "height_cm_14": "Höhe (cm)",
+  "height_in_centimeters_15": "Höhe in Zentimetern",
+  "height_ftin_16": "Höhe (ft/in)",
+  "feet_and_inches_17": "Fuß und Zoll",
+  "weight_18": "Gewicht (",
+  "weight_in_19": "Gewicht in",
+  "body_fat_percentage_20": "Körperfettanteil:",
+  "required_for_katchmcardle_formula_use_dexa_scan_or_21": "Erforderlich für die Katch-McArdle-Formel. Verwenden Sie für die Genauigkeit den DEXA-Scan oder Körperfettmessgeräte.",
+  "result_unit_22": "Ergebniseinheit",
+  "kcalday_23": "kcal/Tag",
+  "kjday_24": "kJ/Tag",
+  "calculate_25": "Berechnen",
+  "reset_26": "Zurücksetzen",
+  "bmr_result_27": "BMR-Ergebnis",
+  "day_28": "/Tag",
+  "basal_metabolic_rate_29": "Grundumsatz",
+  "day_30": "/Tag",
+  "sedentary_no_exercise_31": "Sitzende Tätigkeit (keine körperliche Betätigung)",
+  "day_32": "/Tag",
+  "moderately_active_33": "Mäßig aktiv",
+  "enter_your_details_and_click_calculate_see_your_bm_34": "Geben Sie Ihre Daten ein und klicken Sie auf Berechnen, um Ihren BMR und Ihren täglichen Kalorienbedarf anzuzeigen.",
+  "bmr_daily_calorie_needs_35": "BMR und täglicher Kalorienbedarf",
+  "day_36": "/Tag",
+  "your_basal_metabolic_rate_37": "Ihr Grundumsatz",
+  "this_is_the_number_of_calories_your_body_burns_at__38": "Dies ist die Anzahl der Kalorien, die Ihr Körper im Ruhezustand verbrennt, um die Grundphysiologie aufrechtzuerhalten\n                          Funktionen.",
+  "sedentary_39": "Sitzend",
+  "day_40": "/Tag",
+  "little_or_no_exercise_41": "Wenig oder keine Bewegung",
+  "lightly_active_42": "Leicht aktiv",
+  "day_43": "/Tag",
+  "light_exercise_13_daysweek_44": "Leichte körperliche Betätigung 1–3 Tage/Woche",
+  "moderately_active_45": "Mäßig aktiv",
+  "day_46": "/Tag",
+  "moderate_exercise_35_daysweek_47": "Mäßige körperliche Betätigung an 3–5 Tagen pro Woche",
+  "very_active_48": "Sehr aktiv",
+  "day_49": "/Tag",
+  "hard_exercise_67_daysweek_50": "Hartes Training 6-7 Tage/Woche",
+  "extra_active_51": "Extra aktiv",
+  "day_52": "/Tag",
+  "very_hard_exercise_physical_job_53": "Sehr harte Übung, körperliche Arbeit",
+  "calculation_details_54": "Berechnungsdetails",
+  "formula_used_55": "Verwendete Formel",
+  "lean_body_mass_56": "Magere Körpermasse:",
+  "kg_57": "kg",
+  "base_bmr_58": "Basis-BMR:",
+  "kcalday_59": "kcal/Tag",
+  "input_summary_60": "Eingabezusammenfassung",
+  "age_61": "Alter:",
+  "years_62": "Jahre",
+  "gender_63": "Geschlecht:",
+  "height_64": "Höhe:",
+  "cm_65": "cm",
+  "weight_66": "Gewicht:",
+  "kg_67": "kg",
+  "body_fat_68": "Körperfett:",
+  "formula_used_69": "Verwendete Formel:",
+  "bmr_370_216_lbm_where_lbm_1_body_fat_100_weight_70": "BMR = 370 + (21,6 × LBM), wobei LBM = (1 – Körperfett % / 100) × Gewicht",
+  "understanding_bmr_71": "BMR verstehen",
+  "bmr_formulas_72": "BMR-Formeln",
+  "mifflinst_jeor_73": "Mifflin-St. Jeor:",
+  "most_accurate_for_general_population_74": "Am genauesten für die allgemeine Bevölkerung",
+  "harrisbenedict_75": "Harris-Benedict:",
+  "older_formula_still_widely_used_76": "Ältere Formel, immer noch weit verbreitet",
+  "katchmcardle_77": "Katch-McArdle:",
+  "best_for_lean_individuals_with_known_body_fat_78": "Am besten für schlanke Personen mit bekanntem Körperfettanteil",
+  "activity_levels_79": "Aktivitätsstufen",
+  "sedentary_80": "Sitzend:",
+  "desk_job_no_exercise_bmr_12_81": "Schreibtischjob, keine Übung (BMR × 1,2)",
+  "lightly_active_82": "Leicht aktiv:",
+  "light_exercise_13_daysweek_bmr_1375_83": "Leichte körperliche Betätigung 1–3 Tage/Woche (BMR × 1,375)",
+  "moderately_active_84": "Mäßig aktiv:",
+  "moderate_exercise_35_daysweek_bmr_155_85": "Mäßiges Training 3–5 Tage/Woche (BMR × 1,55)",
+  "very_active_86": "Sehr aktiv:",
+  "hard_exercise_67_daysweek_bmr_1725_87": "Hartes Training 6–7 Tage/Woche (BMR × 1,725)",
+  "extra_active_88": "Extra aktiv:",
+  "very_hard_exercise_physical_job_bmr_19_89": "Sehr harte körperliche Betätigung, körperliche Arbeit (BMR × 1,9)",
+  "example_calculation_90": "Beispielrechnung",
+  "k_28yearold_male_175_cm_70_kg_91": "28-jähriger Mann, 175 cm, 70 kg",
+  "bmr_10_70_625_175_5_28_5_92": "BMR = (10 × 70) + (6,25 × 175) – (5 × 28) + 5",
+  "bmr_700_109375_140_5_93": "BMR = 700 + 1.093,75 – 140 + 5",
+  "bmr_1659_kcalday_94": "BMR = 1.659 kcal/Tag",
+  "moderately_active_1659_155_95": "Mäßig aktiv = 1.659 × 1,55 =",
+  "k_2571_kcalday_96": "2.571 kcal/Tag",
+  "important_notes_97": "Wichtige Hinweise",
+  "bmr_decreases_with_age_and_increases_with_muscle_m_98": "Der BMR nimmt mit dem Alter ab und steigt mit der Muskelmasse",
+  "these_are_estimates_individual_metabolism_varies_99": "Dies sind Schätzungen – der individuelle Stoffwechsel variiert",
+  "for_weight_loss_create_a_moderate_calorie_deficit_100": "Schaffen Sie zum Abnehmen ein moderates Kaloriendefizit",
+  "consult_healthcare_providers_for_personalized_advi_101": "Wenden Sie sich für eine individuelle Beratung an Gesundheitsdienstleister"
+}

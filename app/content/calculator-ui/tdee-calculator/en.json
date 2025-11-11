@@ -1,0 +1,239 @@
+{
+  "pageTitle": "TDEE Calculator",
+  "pageDescription": "Calculate your Total Daily Energy Expenditure (TDEE) to determine the total number of calories you burn in a day including activity and exercise",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "weight": "Weight",
+      "height": "Height",
+      "unitSystem": "Unit System",
+      "activityLevel": "Activity Level",
+      "calculationMethod": "Calculation Method"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}"
+    },
+    "buttons": {
+      "calculate": "Calculate TDEE",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentary (little or no exercise, desk job)",
+      "light": "Lightly Active (light exercise 1-3 days/week)",
+      "moderate": "Moderately Active (moderate exercise 3-5 days/week)",
+      "active": "Very Active (hard exercise 6-7 days/week)",
+      "veryActive": "Extremely Active (very hard exercise, physical job, athlete)"
+    },
+    "calculationMethods": {
+      "mifflin": "Mifflin-St Jeor Equation",
+      "harris": "Harris-Benedict Equation",
+      "revisedHarris": "Revised Harris-Benedict Equation"
+    }
+  },
+  "results": {
+    "bmr": "Basal Metabolic Rate (BMR)",
+    "tdee": "Total Daily Energy Expenditure (TDEE)",
+    "activityMultiplier": "Activity Multiplier",
+    "tdeeResultsTitle": "TDEE Results"
+  },
+  "educational": {
+    "tdeeInfo": "TDEE Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Nutritional Resources",
+    "tdeeFacts": {
+      "definition": {
+        "title": "Total Daily Energy Expenditure Definition",
+        "description": "TDEE is the total number of calories you burn in a day including BMR, activity, and exercise"
+      },
+      "components": {
+        "title": "TDEE Components",
+        "description": "BMR (60-75%), Thermic Effect of Food (10%), Activity & Exercise (15-30%)"
+      },
+      "usage": {
+        "title": "TDEE Usage",
+        "description": "TDEE is used to determine maintenance calories and adjust for weight goals"
+      }
+    },
+    "activityMultipliers": {
+      "sedentary": {
+        "title": "Sedentary (1.2)",
+        "description": "Little or no exercise, desk job"
+      },
+      "light": {
+        "title": "Lightly Active (1.375)",
+        "description": "Light exercise 1-3 days per week"
+      },
+      "moderate": {
+        "title": "Moderately Active (1.55)",
+        "description": "Moderate exercise 3-5 days per week"
+      },
+      "active": {
+        "title": "Very Active (1.725)",
+        "description": "Hard exercise 6-7 days per week"
+      },
+      "veryActive": {
+        "title": "Extremely Active (1.9)",
+        "description": "Very hard exercise, physical job, or athlete"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides TDEE estimates only",
+      "individual": "TDEE varies based on individual factors and actual activity levels"
+    },
+    "importantNotesList": [
+      "TDEE is an estimate and may need adjustment based on actual weight changes",
+      "Activity levels are often overestimated, so be honest in your assessment",
+      "TDEE should be adjusted for weight loss or gain goals",
+      "Regular monitoring of weight and energy levels can help fine-tune TDEE estimates"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your information to calculate Total Daily Energy Expenditure",
+    "resultMessage": "Your TDEE is shown below",
+    "assessmentResult": "TDEE Calculation Result:",
+    "tdeeAnalysis": "TDEE Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides TDEE estimates based on mathematical formulas. Individual TDEE may vary based on factors not accounted for in these calculations, including actual activity levels, metabolism, and health conditions."
+  },
+  "seekHelp": {
+    "title": "Nutritional Resources",
+    "content": "For personalized energy expenditure assessments and nutrition advice, consult healthcare professionals or registered dietitians with expertise in metabolic testing and individual health needs."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight",
+    "activityLevel": "Please select activity level",
+    "calculationMethod": "Please select a calculation method"
+  },
+  "tooltips": {
+    "age": "Age affects metabolic rate",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "activityLevel": "Your regular activity level affects TDEE",
+    "calculationMethod": "Different equations may produce slightly different results"
+  },
+  "tdee_calculation_0": "TDEE Calculation",
+  "enter_your_details_to_calculate_your_total_daily_e_1": "Enter your details to calculate your Total Daily Energy Expenditure",
+  "age_years_2": "Age (years) *",
+  "gender_3": "Gender *",
+  "male_4": "Male",
+  "female_5": "Female",
+  "height_6": "Height *",
+  "metric_7": "Metric",
+  "us_8": "US",
+  "cm_9": "cm",
+  "ft_10": "ft",
+  "in_11": "in",
+  "weight_12": "Weight *",
+  "metric_13": "Metric",
+  "us_14": "US",
+  "kg_15": "kg",
+  "lbs_16": "lbs",
+  "activity_level_17": "Activity Level *",
+  "sedentary_littleno_exercise_12_18": "Sedentary (little/no exercise) - 1.2",
+  "light_exercise_13week_1375_19": "Light (exercise 1-3×/week) - 1.375",
+  "moderate_exercise_45week_155_20": "Moderate (exercise 4-5×/week) - 1.55",
+  "active_daily_or_intense_34week_1725_21": "Active (daily or intense 3-4×/week) - 1.725",
+  "very_active_intense_67week_19_22": "Very Active (intense 6-7×/week) - 1.9",
+  "extra_active_very_intense_daily_physical_job_20_23": "Extra Active (very intense daily + physical job) - 2.0",
+  "bmr_formula_24": "BMR Formula",
+  "mifflinst_jeor_default_25": "Mifflin-St Jeor (default)",
+  "katchmcardle_if_body_fat_available_26": "Katch-McArdle (if body fat % available)",
+  "body_fat_27": "Body Fat % *",
+  "result_unit_28": "Result Unit",
+  "calories_29": "Calories",
+  "kilojoules_30": "Kilojoules",
+  "calculate_31": "Calculate",
+  "reset_32": "Reset",
+  "daily_energy_33": "Daily Energy",
+  "tdee_34": "TDEE",
+  "enter_your_details_to_calculate_your_total_daily_e_35": "Enter your details to calculate your Total Daily Energy Expenditure.",
+  "comprehensive_nutrition_results_36": "Comprehensive Nutrition Results",
+  "daily_protein_requirement_37": "Daily Protein Requirement:",
+  "g_38": "g",
+  "percentage_of_total_calories_from_protein_39": "Percentage of total calories from protein: ~",
+  "the_estimated_tdee_maintenance_energy_40": "The estimated TDEE (maintenance energy):",
+  "caloriesday_41": "Calories/day",
+  "bmr_42": "BMR:",
+  "caloriesday_43": "Calories/day",
+  "bmi_score_44": "BMI Score:",
+  "kgm_45": "kg/m² (",
+  "healthy_bmi_range_185_25_kgm_46": "Healthy BMI Range: 18.5 – 25 kg/m²",
+  "energy_intake_to_lose_weight_47": "Energy intake to lose weight:",
+  "mild_weight_loss_025_kgweek_48": "Mild weight loss (0.25 kg/week):",
+  "k_90_caloriesday_49": "(90%) Calories/day",
+  "weight_loss_05_kgweek_50": "Weight loss (0.5 kg/week):",
+  "k_81_caloriesday_51": "(81%) Calories/day",
+  "extreme_weight_loss_1_kgweek_52": "Extreme weight loss (1 kg/week):",
+  "k_61_caloriesday_53": "(61%) Calories/day",
+  "energy_intake_to_gain_weight_54": "Energy intake to gain weight:",
+  "mild_weight_gain_025_kgweek_55": "Mild weight gain (0.25 kg/week):",
+  "k_110_caloriesday_56": "(110%) Calories/day",
+  "weight_gain_05_kgweek_57": "Weight gain (0.5 kg/week):",
+  "k_119_caloriesday_58": "(119%) Calories/day",
+  "fast_weight_gain_1_kgweek_59": "Fast weight gain (1 kg/week):",
+  "k_139_caloriesday_60": "(139%) Calories/day",
+  "understanding_your_comprehensive_results_61": "Understanding Your Comprehensive Results",
+  "protein_requirements_62": "Protein Requirements:",
+  "sedentary_08_gkg_body_weight_63": "Sedentary: ~0.8 g/kg body weight",
+  "lightmoderate_1016_gkg_64": "Light/Moderate: ~1.0–1.6 g/kg",
+  "heavy_training_1622_gkg_65": "Heavy training: ~1.6–2.2 g/kg",
+  "athletesmuscle_gain_up_to_25_gkg_66": "Athletes/Muscle gain: up to ~2.5 g/kg",
+  "weight_management_67": "Weight Management:",
+  "safe_weight_loss_02505_kg_per_week_68": "Safe weight loss: 0.25-0.5 kg per week",
+  "extreme_loss_1_kgweek_requires_medical_supervision_69": "Extreme loss (1 kg/week) requires medical supervision",
+  "gradual_weight_gain_prevents_excess_fat_accumulati_70": "Gradual weight gain prevents excess fat accumulation",
+  "monitor_progress_and_adjust_as_needed_71": "Monitor progress and adjust as needed",
+  "about_tdee_72": "About TDEE",
+  "bmr_formulas_73": "BMR Formulas",
+  "mifflinst_jeor_recommended_74": "Mifflin-St Jeor (Recommended):",
+  "men_bmr_10weight_625height_5age_5_75": "Men: BMR = 10×weight + 6.25×height - 5×age + 5",
+  "women_bmr_10weight_625height_5age_161_76": "Women: BMR = 10×weight + 6.25×height - 5×age - 161",
+  "katchmcardle_77": "Katch-McArdle:",
+  "bmr_370_216_lean_body_mass_78": "BMR = 370 + (21.6 × Lean Body Mass)",
+  "more_accurate_if_body_fat_is_known_79": "More accurate if body fat % is known",
+  "activity_multipliers_80": "Activity Multipliers",
+  "k_12_81": "1.2:",
+  "sedentary_desk_job_no_exercise_82": "Sedentary (desk job, no exercise)",
+  "k_1375_83": "1.375:",
+  "light_exercise_13week_84": "Light (exercise 1-3×/week)",
+  "k_155_85": "1.55:",
+  "moderate_exercise_45week_86": "Moderate (exercise 4-5×/week)",
+  "k_1725_87": "1.725:",
+  "active_daily_exercise_or_intense_34week_88": "Active (daily exercise or intense 3-4×/week)",
+  "k_19_89": "1.9:",
+  "very_active_intense_exercise_67week_90": "Very Active (intense exercise 6-7×/week)",
+  "k_20_91": "2.0:",
+  "extra_active_very_intense_daily_physical_job_92": "Extra Active (very intense daily + physical job)",
+  "using_your_tdee_93": "Using Your TDEE",
+  "weight_loss_94": "Weight Loss:",
+  "eat_300500_calories_below_tdee_95": "Eat 300-500 calories below TDEE",
+  "weight_maintenance_96": "Weight Maintenance:",
+  "eat_at_your_tdee_97": "Eat at your TDEE",
+  "weight_gain_98": "Weight Gain:",
+  "eat_300500_calories_above_tdee_99": "Eat 300-500 calories above TDEE",
+  "muscle_building_100": "Muscle Building:",
+  "eat_200300_calories_above_tdee_101": "Eat 200-300 calories above TDEE",
+  "important_notes_102": "Important Notes",
+  "tdee_is_an_estimate_monitor_and_adjust_based_on_re_103": "TDEE is an estimate - monitor and adjust based on results",
+  "muscle_mass_significantly_affects_metabolic_rate_104": "Muscle mass significantly affects metabolic rate",
+  "age_genetics_and_hormones_influence_actual_needs_105": "Age, genetics, and hormones influence actual needs",
+  "recalculate_as_weight_and_activity_levels_change_106": "Recalculate as weight and activity levels change"
+}

@@ -1,0 +1,178 @@
+{
+  "pageTitle": "Körpertyp-Rechner",
+  "pageDescription": "Entdecken Sie Ihren Körpertyp anhand von Messungen mit unserem umfassenden Körpertyp-Rechner",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "height": "Höhe",
+      "weight": "Gewicht",
+      "unitSystem": "Einheitensystem",
+      "bustChest": "Brustumfang/Brustumfang",
+      "waist": "Taillenumfang",
+      "hip": "Hüftumfang",
+      "shoulder": "Schulterbreite (nur Männer)"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben",
+      "bustChest": "Geben Sie den Brustumfang ein",
+      "waist": "Geben Sie den Taillenumfang ein",
+      "hip": "Geben Sie den Hüftumfang ein",
+      "shoulder": "Geben Sie die Schulterbreite ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den Körpertyp",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    }
+  },
+  "results": {
+    "bodyType": "Körpertyp",
+    "measurements": "Ihre Maße",
+    "bodyTypeResultsTitle": "Ergebnisse zum Körpertyp",
+    "whr": "Verhältnis von Taille zu Hüfte",
+    "bodyTypes": {
+      "hourglass": "Sanduhr",
+      "pear": "Birne",
+      "apple": "Apfel",
+      "rectangle": "Rechteck",
+      "invertedTriangle": "Umgekehrtes Dreieck"
+    }
+  },
+  "educational": {
+    "bodyTypeInfo": "Informationen zum Körpertyp",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Konsultieren Sie einen Fachmann",
+    "bodyTypeDescriptions": {
+      "hourglass": {
+        "title": "Sanduhr",
+        "description": "Ausgewogene Brust- und Hüftmaße mit einer gut definierten Taille"
+      },
+      "pear": {
+        "title": "Birne",
+        "description": "Breitere Hüften und Oberschenkel mit schmalerem Brust- und Schulterbereich"
+      },
+      "apple": {
+        "title": "Apfel",
+        "description": "Breitere Taille und breiterer Oberkörper mit schmaleren Hüften"
+      },
+      "rectangle": {
+        "title": "Rechteck",
+        "description": "Ähnliche Maße für Brust, Taille und Hüfte"
+      },
+      "invertedTriangle": {
+        "title": "Umgekehrtes Dreieck",
+        "description": "Breitere Schultern und breitere Brust mit schmaleren Hüften"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Diagnosetool",
+      "generalGuidelines": "Körpertypen sind allgemeine Richtlinien und gelten möglicherweise nicht für jeden"
+    },
+    "importantNotesList": [
+      "Der Körpertyp kann Fitness und Styling-Entscheidungen beeinflussen",
+      "Konzentrieren Sie sich auf die allgemeine Gesundheit und nicht auf das Erreichen eines bestimmten Körpertyps",
+      "Für eine individuelle Beratung wenden Sie sich an medizinisches Fachpersonal",
+      "Der Körpertyp kann sich mit dem Alter, dem Fitnessniveau und anderen Faktoren ändern"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Geben Sie Ihre Maße ein, um Ihren Körpertyp zu bestimmen",
+    "bodyTypeResult": "Ihr Körpertyp ist: {bodyType}",
+    "whrResult": "Ihr Verhältnis von Taille zu Hüfte beträgt: {whr}",
+    "measurementInstructions": "Nehmen Sie Messungen an der breitesten Stelle jedes Bereichs vor",
+    "assessmentResult": "Bewertungsergebnis:",
+    "bodyTypeAnalysis": "Körpertypanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen auf der Grundlage mathematischer Formeln und sollte nicht als Ersatz für professionelle Beratung verwendet werden. Einzelne Ergebnisse können aufgrund von Faktoren, die in diesen Berechnungen nicht berücksichtigt wurden, variieren."
+  },
+  "seekHelp": {
+    "title": "Konsultieren Sie einen Arzt",
+    "content": "Für eine individuelle Gesundheits- und Fitnessberatung wenden Sie sich bitte an einen Arzt oder zertifizierten Fitnesstrainer, der Sie auf der Grundlage Ihrer gesamten Gesundheitsgeschichte und Ihrer individuellen Umstände beraten kann."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "bustChest": "Bitte geben Sie einen gültigen Brustumfang ein",
+    "waist": "Bitte geben Sie einen gültigen Taillenumfang ein",
+    "hip": "Bitte geben Sie einen gültigen Hüftumfang ein",
+    "shoulder": "Bitte geben Sie eine gültige Schulterbreite ein"
+  },
+  "tooltips": {
+    "age": "Das Alter kann die Körperzusammensetzung beeinflussen",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "bustChest": "Messen Sie an der breitesten Stelle Ihrer Brust oder Brust",
+    "waist": "Messen Sie an der schmalsten Stelle Ihres Oberkörpers",
+    "hip": "Messen Sie an der breitesten Stelle Ihrer Hüfte",
+    "shoulder": "Über den Rücken von Schulter zu Schulter messen (nur Männer)"
+  },
+  "body_measurements_0": "Körpermaße",
+  "enter_your_measurements_to_determine_body_shape_an_1": "Geben Sie Ihre Maße ein, um die Körperform und das Taille-Hüft-Verhältnis zu bestimmen",
+  "unit_system_2": "Einheitensystem",
+  "inches_3": "Zoll",
+  "centimeters_4": "Zentimeter",
+  "bust_size_5": "Oberweite (",
+  "waist_size_6": "Taillenumfang (",
+  "high_hip_size_7": "Hoher Hüftumfang (",
+  "measured_about_7_inches_18_cm_below_waist_8": "Gemessen etwa 18 cm unterhalb der Taille",
+  "hip_size_9": "Hüftumfang (",
+  "measured_at_the_widest_part_of_hips_10": "Gemessen an der breitesten Stelle der Hüfte",
+  "calculate_type_11": "Typ berechnen",
+  "reset_12": "Zurücksetzen",
+  "body_analysis_13": "Körperanalyse",
+  "whr_14": "WHR:",
+  "enter_all_measurements_and_click_calculate_type_to_15": "Geben Sie alle Messungen ein und klicken Sie auf „Typ berechnen“, um Ihre Analyse anzuzeigen.",
+  "body_type_analysis_results_16": "Ergebnisse der Körpertypanalyse",
+  "body_shape_classification_17": "Klassifizierung der Körperform",
+  "classification_logic_18": "Klassifizierungslogik:",
+  "waisthip_ratio_whr_19": "Taille-Hüft-Verhältnis (WHR)",
+  "waist_hip_ratio_20": "Verhältnis Taille/Hüfte",
+  "women_21": "Frauen:",
+  "k_085_low_risk_085_higher_risk_22": "≤0,85 Geringes Risiko, >0,85 Höheres Risiko",
+  "men_23": "Männer:",
+  "k_090_low_risk_090_higher_risk_24": "≤0,90 Geringes Risiko, >0,90 Höheres Risiko",
+  "your_measurements_25": "Ihre Maße",
+  "bust_26": "Büste:",
+  "waist_27": "Taille:",
+  "high_hip_28": "Hohe Hüfte:",
+  "hip_29": "Hüfte:",
+  "important_notice_30": "Wichtiger Hinweis",
+  "this_tool_is_for_informational_purposes_only_and_n_31": "Dieses Tool dient nur zu Informationszwecken und ersetzt keinen medizinischen Rat. Körper\n                            Formklassifizierungen sind allgemeine Richtlinien und individuelle Abweichungen sind normal.",
+  "understanding_body_types_whr_32": "Körpertypen und WHR verstehen",
+  "body_shape_types_33": "Körperformtypen",
+  "hourglass_34": "Sanduhr:",
+  "balanced_bust_and_hips_with_defined_waist_35": "Ausgewogener Brust- und Hüftbereich mit definierter Taille",
+  "bottom_hourglass_36": "Untere Sanduhr:",
+  "slightly_larger_hips_with_defined_waist_37": "Etwas größere Hüften mit definierter Taille",
+  "top_hourglass_38": "Top-Sanduhr:",
+  "slightly_larger_bust_with_defined_waist_39": "Etwas größerer Busen mit definierter Taille",
+  "spoon_40": "Löffel:",
+  "fuller_hips_and_thighs_smaller_bust_41": "Vollere Hüften und Oberschenkel, kleinerer Busen",
+  "triangle_pear_42": "Dreieck (Birne):",
+  "larger_hips_than_bust_43": "Größere Hüften als Brust",
+  "inverted_triangle_44": "Umgekehrtes Dreieck:",
+  "larger_bust_than_hips_45": "Größere Brust als Hüfte",
+  "rectangle_46": "Rechteck:",
+  "similar_bust_waist_and_hip_measurements_47": "Ähnliche Brust-, Taillen- und Hüftmaße",
+  "health_significance_48": "Gesundheitliche Bedeutung",
+  "whr_health_risks_49": "WHR-Gesundheitsrisiken:",
+  "higher_whr_indicates_more_abdominal_fat_associated_50": "Eine höhere WHR weist auf mehr Bauchfett hin, was mit einem erhöhten Risiko für Herz-Kreislauf-Erkrankungen verbunden ist\n                              Krankheit und Diabetes.",
+  "body_shape_health_51": "Körperform und Gesundheit:",
+  "apple_shapes_higher_whr_may_have_higher_health_ris_52": "Apfelformen (höhere WHR) bergen möglicherweise höhere Gesundheitsrisiken als Birnenformen, sind aber individuell\n                              Faktoren variieren stark."
+}

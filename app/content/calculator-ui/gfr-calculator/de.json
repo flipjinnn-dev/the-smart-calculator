@@ -1,0 +1,162 @@
+{
+  "pageTitle": "GFR-Rechner",
+  "pageDescription": "Berechnen Sie gfr mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die GFR",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der GFR-Berechnung"
+  },
+  "educational": {
+    "info": "GFR-Informationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "GFR-Definition",
+        "description": "Informationen zu gfr"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "So wird gfr berechnet"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendung von gfr"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur GFR-Schätzungen",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen zur Berechnung von gfr ein",
+    "resultMessage": "Die Ergebnisse Ihrer GFR-Berechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der GFR-Berechnung:",
+    "analysis": "GFR-Analyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert GFR-Schätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "kidney_function_assessment_0": "Beurteilung der Nierenfunktion",
+  "enter_patient_information_to_calculate_estimated_g_1": "Geben Sie Patienteninformationen ein, um die geschätzte GFR und das CKD-Stadium zu berechnen",
+  "patient_type_2": "Patiententyp *",
+  "adult_3": "Erwachsene",
+  "ages_18_mdrd_ckdepi_formulas_4": "- Ab 18 Jahren (MDRD, CKD-EPI-Formeln)",
+  "child_5": "Kind",
+  "ages_017_schwartz_formula_6": "- Alter 0–17 (Schwartz-Formel)",
+  "age_7": "Alter (",
+  "sex_8": "Geschlecht *",
+  "male_9": "Männlich",
+  "female_10": "Weiblich",
+  "height_11": "Höhe *",
+  "cm_12": "cm",
+  "in_13": "In",
+  "required_for_schwartz_formula_calculation_14": "Erforderlich für die Berechnung der Schwartz-Formel",
+  "serum_creatinine_mgdl_15": "Serumkreatinin (mg/dl) *",
+  "formula_choice_16": "Formelauswahl",
+  "ckdepi_2021_racefree_17": "CKD-EPI 2021 (rennenfrei)",
+  "default_most_current_18": "- Standard, aktuellste",
+  "mdrd_idmstraceable_19": "MDRD (IDMS-rückverfolgbar)",
+  "traditional_formula_20": "- Traditionelle Formel",
+  "calculate_21": "Berechnen",
+  "reset_22": "Zurücksetzen",
+  "egfr_result_23": "eGFR-Ergebnis",
+  "mlmin173_m_24": "ml/min/1,73 m²",
+  "enter_patient_information_to_calculate_egfr_25": "Geben Sie Patienteninformationen ein, um die eGFR zu berechnen.",
+  "gfr_results_26": "GFR-Ergebnisse",
+  "estimated_gfr_27": "Geschätzte GFR",
+  "mlmin173_m_28": "ml/min/1,73 m²",
+  "stage_29": "Bühne",
+  "calculation_details_30": "Berechnungsdetails",
+  "formula_used_31": "Verwendete Formel:",
+  "patient_type_32": "Patiententyp:",
+  "age_33": "Alter:",
+  "years_34": "Jahre",
+  "sex_35": "Sex:",
+  "height_36": "Höhe:",
+  "serum_creatinine_37": "Serumkreatinin:",
+  "mgdl_38": "mg/dL",
+  "important_medical_notice_39": "Wichtiger medizinischer Hinweis",
+  "results_are_estimates_for_screening_purposes_only__40": "Bei den Ergebnissen handelt es sich ausschließlich um Schätzungen für Screening-Zwecke. Wenden Sie sich medizinisch an einen Gesundheitsdienstleister\n                            Beratung, Diagnose oder Behandlungsentscheidungen. In bestimmten Populationen ist die eGFR möglicherweise weniger genau.",
+  "understanding_gfr_ckd_stages_41": "GFR- und CKD-Stadien verstehen",
+  "ckd_stages_42": "CKD-Stadien",
+  "g1_43": "G1:",
+  "k_90_44": "≥90",
+  "normal_45": "Normal",
+  "g2_46": "G2:",
+  "k_6089_47": "60-89",
+  "mildly_decreased_48": "Leicht verringert",
+  "g3a_49": "G3a:",
+  "k_4559_50": "45-59",
+  "mildmoderate_51": "Leicht bis mäßig",
+  "g3b_52": "G3b:",
+  "k_3044_53": "30-44",
+  "moderatesevere_54": "Mäßig-schwer",
+  "g4_55": "G4:",
+  "k_1529_56": "15-29",
+  "severe_57": "Schwer",
+  "g5_58": "G5:",
+  "k_15_59": "<15",
+  "kidney_failure_60": "Nierenversagen",
+  "formula_comparison_61": "Formelvergleich",
+  "ckdepi_2021_62": "CKD-EPI 2021:",
+  "most_current_racefree_formula_recommended_by_guide_63": "Die aktuellste, von Richtlinien empfohlene, rassenfreie Formel",
+  "mdrd_64": "MDRD:",
+  "traditional_formula_may_underestimate_at_higher_gf_65": "Die herkömmliche Formel kann bei höheren GFR-Werten unterschätzt werden",
+  "schwartz_formula_66": "Schwartz-Formel:",
+  "pediatric_formula_for_children_aged_017_years_67": "Pädiatrische Formel für Kinder im Alter von 0–17 Jahren",
+  "clinical_significance_68": "Klinische Bedeutung",
+  "normal_gfr_69": "Normale GFR:",
+  "k_90120_mlmin173_m_in_healthy_adults_70": "90–120 ml/min/1,73 m² bei gesunden Erwachsenen",
+  "ckd_diagnosis_71": "CKD-Diagnose:",
+  "gfr_60_for_3_months_72": "GFR <60 für ≥3 Monate",
+  "referral_to_nephrology_73": "Überweisung zur Nephrologie:",
+  "usually_at_gfr_30_74": "Normalerweise bei GFR <30",
+  "dialysis_consideration_75": "Überlegungen zur Dialyse:",
+  "gfr_15_or_symptomatic_76": "GFR <15 oder symptomatisch",
+  "limitations_77": "Einschränkungen",
+  "less_accurate_in_extremes_of_age_body_size_or_musc_78": "Weniger genau bei extremem Alter, Körpergröße oder Muskelmasse",
+  "may_be_inaccurate_in_acute_kidney_injury_79": "Kann bei akuter Nierenschädigung ungenau sein",
+  "requires_stable_creatinine_levels_80": "Erfordert stabile Kreatininwerte",
+  "consider_cystatin_cbased_equations_for_better_accu_81": "Berücksichtigen Sie für eine bessere Genauigkeit Cystatin-C-basierte Gleichungen"
+}

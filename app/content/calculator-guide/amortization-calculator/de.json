@@ -1,0 +1,63 @@
+{
+  "color": "lila",
+  "sections": [
+    {
+      "heading": "Tilgungsrechner: Planen Sie Ihre Kreditzahlungen ganz einfach",
+      "content": "Unser Tilgungsrechner ist ein leistungsstarkes, kostenloses Online-Tool, das Ihnen hilft, Ihre Kreditrückzahlungen zu verstehen und zu verwalten. Unabhängig davon, ob Sie eine Hypothek oder ein Privatdarlehen planen oder Optionen für eine vorzeitige Rückzahlung prüfen, bietet dieser Rechner eine klare Aufschlüsselung Ihrer Kapital- und Zinszahlungen und hilft Ihnen, fundierte Finanzentscheidungen zu treffen.\n\nProbieren Sie jetzt online den besten Tilgungsrechner aus, um Ihren Kredittilgungsplan in wenigen Minuten anzuzeigen."
+    },
+    {
+      "heading": "Wie es funktioniert",
+      "content": "Die Nutzung unseres Kredittilgungsplanrechners ist ganz einfach:",
+      "subSections": [
+        {
+          "heading": "Schritte",
+          "content": "- Geben Sie Ihre Kreditdaten ein: Geben Sie Ihren Kreditbetrag, Zinssatz und Kreditlaufzeit ein. Sie können auch zweiwöchentliche oder monatliche Zahlungen auswählen.\n- Fügen Sie zusätzliche Zahlungen hinzu (optional): Verwenden Sie die Amortisationsrechnerfunktion für zusätzliche Zahlungen, um zu sehen, wie sich zusätzliche Zahlungen auf Ihre Kreditlaufzeit und Zinseinsparungen auswirken.\n- Erstellen Sie Ihren Zeitplan: Erstellen Sie sofort eine detaillierte Tilgungstabelle mit Zinsen im Verhältnis zum Kapital, Restsaldo und Zahlungsterminen.\n- Interpretieren Sie die Ergebnisse: Überprüfen Sie Ihr Tilgungsdiagramm für Hypotheken- oder andere Darlehen und ermitteln Sie Möglichkeiten für eine vorzeitige Rückzahlung. Sie können Ihren Tilgungsplan sogar zur späteren Bezugnahme ausdrucken."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle: Wann man einen Amortisationsrechner verwenden sollte",
+      "content": "Unser Amortisationsrechner mit Zinsen ist ideal für:",
+      "subSections": [
+        {
+          "heading": "Beispiele",
+          "content": "- Hypothekenplanung: Berechnen Sie online die Tilgung Ihres Wohnungsbaudarlehens und verstehen Sie die monatlichen Zahlungen, Zinsen und Kapitalbestandteile.\n- Kreditvergleiche: Vergleichen Sie verschiedene Szenarien mit einem Hypothekentilgungsrechner mit einer Online-Tabelle oder anderen Kreditrechnern.\n- Strategie zur vorzeitigen Rückzahlung: Verwenden Sie den Amortisationsrechner für die vorzeitige Rückzahlung, um zu ermitteln, wie zusätzliche Zahlungen die Laufzeit Ihres Darlehens verkürzen können.\n- Finanzplanung: Erstellen Sie eine kostenlose Tilgungstabelle für die Budgetierung oder Kreditplanung."
+        }
+      ]
+    },
+    {
+      "heading": "Vergleiche und Einblicke",
+      "content": "Wichtige Erkenntnisse zum besseren Verständnis der Amortisation:",
+      "subSections": [
+        {
+          "heading": "Einblicke",
+          "content": "- Tilgungsrechner vs. Kreditrechner: Während ein Standard-Kreditrechner die Gesamtzahlungen anzeigt, bietet unser Tool einen detaillierten Tilgungsplan, der Zinsen vs. Kapital für jede Zahlung anzeigt.\n- Schulden-Schneeball vs. Tilgungsmethode: Bewerten Sie mit dem Rechner, ob die Tilgung kleinerer Schulden zuerst oder die Befolgung des Tilgungsplans mehr Zinsen spart.\n- Hypothekentilgungsrechner vs. Online-Tabelle: Erhalten Sie sofortige, automatisierte Berechnungen ohne manuelle Tabellenkalkulationsfehler."
+        }
+      ]
+    },
+    {
+      "heading": "Tipps und wichtige Erkenntnisse",
+      "content": "Hilfreiche Tipps zur Maximierung Ihrer Tilgungsplanung:",
+      "subSections": [
+        {
+          "heading": "Tipps",
+          "content": "- Amortisation vs. Abschreibung: Die Amortisation gilt für Kredite, während die Abschreibung für Vermögenswerte gilt.\n- Zins- vs. Kapitaltilgung: Bei den vorzeitigen Zahlungen handelt es sich hauptsächlich um Zinsen, die sich allmählich in Richtung Kapital verschieben.\n- Auswirkungen zusätzlicher Zahlungen: Durch zusätzliche Zahlungen werden die Gesamtzinsen erheblich reduziert und die Kreditrückzahlung beschleunigt.\n- Wie sich die Tilgung auf Ihr Darlehen auswirkt: Wenn Sie Ihren Tilgungsplan kennen, können Sie Einsparungen, eine vorzeitige Rückzahlung oder Refinanzierungsentscheidungen planen.\n- Erläuterung der Tilgungsformel: Der Rechner verwendet eine Standardformel, um Kreditzahlungen in Kapital und Zinsen aufzuteilen und zeigt genau an, wie viel Zinsen Sie im Laufe der Zeit zahlen werden."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Tilgungsplan?",
+      "a": "Bei einem Tilgungsplan handelt es sich um eine Tabelle, in der jede Kreditzahlung detailliert aufgeführt ist und aus der hervorgeht, wie viel für Kapital und Zinsen sowie für den Restbetrag verwendet wird."
+    },
+    {
+      "q": "Kann ich diesen Rechner für mehrere Kredite verwenden?",
+      "a": "Ja! Mit unserem Tilgungsrechner für mehrere Kredite können Sie Kredite kombinieren und die gesamten Zahlungspläne und Ersparnisse anzeigen."
+    },
+    {
+      "q": "Ist dieses Tool druckbar?",
+      "a": "Absolut! Erstellen Sie einen druckbaren Zeitplan für den Tilgungsrechner als Offline-Referenz und Finanzplanung."
+    }
+  ]
+}

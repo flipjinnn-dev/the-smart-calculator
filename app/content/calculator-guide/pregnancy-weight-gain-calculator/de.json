@@ -1,0 +1,127 @@
+{
+  "color": "Rosa",
+  "sections": [
+    {
+      "heading": "Was ist ein Gewichtszunahmerechner während der Schwangerschaft?",
+      "content": "Unser Schwangerschafts-Gewichtszunahme-Rechner ist ein kostenloses Tool, das werdenden Müttern dabei helfen soll, ihre ideale Gewichtszunahme während der Schwangerschaft abzuschätzen. Es verwendet Richtlinien der Weltgesundheitsorganisation (WHO), des Institute of Medicine (IOM) und des NHS. <br><br>⚠️ Haftungsausschluss: Dieses Tool dient nur zu Bildungszwecken. Für eine individuelle Beratung wenden Sie sich immer an Ihren Arzt, Gynäkologen oder Ihre Hebamme."
+    },
+    {
+      "heading": "Warum Gewichtszunahme während der Schwangerschaft wichtig ist",
+      "subSections": [
+        {
+          "heading": "Unterstützt das fetale Wachstum",
+          "content": "Sorgt für eine gesunde Entwicklung des Babys."
+        },
+        {
+          "heading": "Reduziert Komplikationen",
+          "content": "Hilft, das Risiko von Schwangerschaftsdiabetes und Bluthochdruck zu senken."
+        },
+        {
+          "heading": "Erhält die Gesundheit der Mutter",
+          "content": "Unterstützt die Gesundheit und Genesung der Mutter nach der Entbindung."
+        }
+      ]
+    },
+    {
+      "heading": "Empfohlene Gewichtszunahme während der Schwangerschaft (IOM/WHO/NHS)",
+      "subSections": [
+        {
+          "heading": "Untergewicht (BMI < 18,5)",
+          "content": "28–40 lbs (12,5–18 kg)"
+        },
+        {
+          "heading": "Normalgewicht (BMI 18,5–24,9)",
+          "content": "11,5–16 kg (25–35 lbs)"
+        },
+        {
+          "heading": "Übergewicht (BMI 25–29,9)",
+          "content": "15–25 Pfund (7–11,5 kg)"
+        },
+        {
+          "heading": "Fettleibig (BMI ≥ 30)",
+          "content": "11–20 Pfund (5–9 kg)"
+        },
+        {
+          "heading": "Zwillings-/Mehrlingsschwangerschaft",
+          "content": "Höhere Bereiche werden empfohlen – konsultieren Sie Ihren Arzt."
+        }
+      ]
+    },
+    {
+      "heading": "So verwenden Sie den Gewichtszunahme-Rechner in der Schwangerschaft (Schritt für Schritt)",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Geben Sie Ihre Größe und Ihr Gewicht ein (kg/cm oder lbs/inches)."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Wählen Sie Ihre BMI-Kategorie vor der Schwangerschaft aus (oder lassen Sie den Rechner automatisch berechnen)."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Geben Sie Ihre aktuelle Schwangerschaftswoche (1–40 Wochen) ein."
+        },
+        {
+          "heading": "Schritt 4",
+          "content": "Klicken Sie auf Berechnen → Sehen Sie sich sofort Ihren empfohlenen Gewichtszunahmebereich und Ihr Diagramm an."
+        },
+        {
+          "heading": "Schritt 5",
+          "content": "Sehen Sie sich trimesterspezifische Anleitungen und wöchentliche Nachverfolgung an."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale unseres Tools",
+      "subSections": [
+        {
+          "heading": "Globaler + lokaler Support",
+          "content": "Funktioniert in kg/cm (Asien, EU) und lbs/Zoll (USA, Großbritannien)."
+        },
+        {
+          "heading": "Trimester-Tracking",
+          "content": "Bietet wöchentliche Einblicke in die Gewichtszunahme während der Schwangerschaft."
+        },
+        {
+          "heading": "Richtlinienbasiert",
+          "content": "Befolgt die Empfehlungen von WHO, IOM und NHS."
+        },
+        {
+          "heading": "Unterstützt alle BMIs",
+          "content": "Funktioniert bei untergewichtigen, normalgewichtigen, übergewichtigen und fettleibigen Müttern."
+        },
+        {
+          "heading": "Mehrlingsschwangerschaften",
+          "content": "Enthält Anleitungen für Zwillings-/Mehrlingsschwangerschaften."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viel Gewicht sollte ich während der Schwangerschaft zunehmen?",
+      "a": "Es hängt von Ihrem BMI vor der Schwangerschaft ab. Im Durchschnitt nehmen Frauen mit normalem BMI 11–16 kg zu."
+    },
+    {
+      "q": "Wie berechne ich die Gewichtszunahme während der Schwangerschaft?",
+      "a": "Verwenden Sie diesen Rechner, indem Sie Ihre Größe, Ihr Gewicht, Ihren BMI und die aktuelle Schwangerschaftswoche eingeben."
+    },
+    {
+      "q": "Warum ist eine Gewichtszunahme während der Schwangerschaft wichtig?",
+      "a": "Es sorgt für ein gesundes Wachstum Ihres Babys und verringert das Risiko von Komplikationen wie Frühgeburten oder Schwangerschaftsdiabetes."
+    },
+    {
+      "q": "Was ist eine sichere Gewichtszunahme während der Schwangerschaft pro Woche?",
+      "a": "Erstes Trimester: insgesamt 1–2 kg (2–5 lbs). <br>Zweites und drittes Trimester: etwa 0,5 kg pro Woche."
+    },
+    {
+      "q": "Kann ich diesen Rechner für Zwillinge oder Mehrlinge verwenden?",
+      "a": "Ja, aber Mehrlingsschwangerschaften erfordern besondere Pflege. Für eine individuelle Beratung wenden Sie sich bitte an Ihren Arzt."
+    },
+    {
+      "q": "Ist dieser Rechner weltweit gültig?",
+      "a": "Ja, es folgt den Richtlinien der WHO und des NHS und funktioniert weltweit (Südasien, Europa, USA usw.)."
+    }
+  ]
+}

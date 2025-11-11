@@ -1,0 +1,165 @@
+{
+  "pageTitle": "Autokreditrechner",
+  "pageDescription": "Berechnen Sie die Zahlungen für den Autokredit und die Gesamtkosten einschließlich Zinsen, Umsatzsteuer und Gebühren für die Finanzierung von Neu- und Gebrauchtfahrzeugen",
+  "form": {
+    "labels": {
+      "vehiclePrice": "Fahrzeugpreis",
+      "downPayment": "Anzahlung",
+      "downPaymentType": "Art der Anzahlung",
+      "loanAmount": "Darlehensbetrag",
+      "interestRate": "Jährlicher Zinssatz",
+      "loanTerm": "Kreditlaufzeit",
+      "startDate": "Kreditbeginndatum",
+      "salesTax": "Umsatzsteuersatz",
+      "fees": "Zusätzliche Gebühren",
+      "tradeIn": "Eintauschwert"
+    },
+    "placeholders": {
+      "vehiclePrice": "Geben Sie den Fahrzeugpreis ein",
+      "downPayment": "Anzahlung eingeben",
+      "loanAmount": "Geben Sie den Kreditbetrag ein",
+      "interestRate": "Geben Sie den jährlichen Zinssatz (%) ein.",
+      "loanTerm": "Geben Sie die Kreditlaufzeit in Monaten ein",
+      "salesTax": "Geben Sie den Umsatzsteuersatz (%) ein.",
+      "fees": "Geben Sie zusätzliche Gebühren ein",
+      "tradeIn": "Geben Sie den Inzahlungnahmewert ein"
+    },
+    "buttons": {
+      "calculate": "Autokredit berechnen",
+      "reset": "Zurücksetzen"
+    },
+    "downPaymentTypes": {
+      "amount": "Menge",
+      "percentage": "Prozentsatz"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Monatliche Zahlung",
+    "totalInterest": "Gezahlte Gesamtzinsen",
+    "totalPayment": "Gesamtzahlung",
+    "totalCost": "Gesamtkosten (Fahrzeug + Zinsen + Steuern + Gebühren)",
+    "payoffDate": "Datum der Kreditrückzahlung",
+    "autoLoanResultsTitle": "Ergebnisse der Autokreditberechnung"
+  },
+  "educational": {
+    "autoLoanInfo": "Informationen zum Autokredit",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "autoLoanFacts": {
+      "components": {
+        "title": "Autokreditkomponenten",
+        "description": "Kapital, Zinsen, Umsatzsteuer und zusätzliche Gebühren"
+      },
+      "amortization": {
+        "title": "Amortisation",
+        "description": "Bei vorzeitigen Zahlungen handelt es sich meist um Zinsen; Bei späteren Zahlungen handelt es sich meist um Kapitalzahlungen"
+      },
+      "depreciation": {
+        "title": "Wertminderung des Fahrzeugs",
+        "description": "Autos verlieren mit der Zeit an Wert, was sich auf die Beleihungsquote auswirkt"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Autokreditzahlung",
+      "actual": "Die tatsächlichen Kreditbedingungen können je nach Richtlinien des Kreditgebers, Kreditwürdigkeit und Fahrzeugfaktoren variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und beinhaltet nicht alle möglichen Gebühren und Entgelte",
+      "Neuwagen verlieren schnell an Wert, was dazu führen kann, dass Sie mit dem Kredit auf dem Kopf stehen",
+      "Kürzere Kreditlaufzeiten haben in der Regel niedrigere Zinssätze, aber höhere monatliche Zahlungen zur Folge",
+      "Berücksichtigen Sie die Gesamtbetriebskosten einschließlich Versicherung, Wartung und Kraftstoff"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Autokreditinformationen ein, um die monatlichen Zahlungen zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Autokreditberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Berechnung des Autokredits:",
+    "autoLoanAnalysis": "Autokreditanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Autokreditzahlung auf der Grundlage standardmäßiger Finanzformeln. Die tatsächlichen Kreditbedingungen, Zahlungen und Zinsen können je nach Richtlinien des Kreditgebers, Kreditwürdigkeit, Fahrzeugzustand und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für individuelle Beratung und Finanzierungsoptionen für Autokredite wenden Sie sich an Autokreditspezialisten oder Finanzberater mit Fachkenntnissen in der Fahrzeugfinanzierung und individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "vehiclePrice": "Bitte geben Sie einen gültigen Fahrzeugpreis ein",
+    "downPayment": "Bitte geben Sie eine gültige Anzahlung ein",
+    "loanAmount": "Bitte geben Sie einen gültigen Kreditbetrag ein",
+    "interestRate": "Bitte geben Sie einen gültigen Jahreszinssatz ein",
+    "loanTerm": "Bitte geben Sie eine gültige Kreditlaufzeit ein",
+    "startDate": "Bitte geben Sie ein gültiges Kreditbeginndatum ein",
+    "salesTax": "Bitte geben Sie einen gültigen Umsatzsteuersatz ein",
+    "fees": "Bitte geben Sie gültige Zusatzgebühren ein",
+    "tradeIn": "Bitte geben Sie einen gültigen Eintauschwert ein"
+  },
+  "tooltips": {
+    "vehiclePrice": "Kaufpreis des Fahrzeugs",
+    "downPayment": "Betrag, der im Voraus für den Fahrzeugkauf gezahlt wird",
+    "downPaymentType": "Ob die Anzahlung als Betrag oder Prozentsatz angegeben wird",
+    "loanAmount": "Vom Kreditgeber geliehener Betrag",
+    "interestRate": "Jährlicher Zinssatz für den Autokredit",
+    "loanTerm": "Dauer der Rückzahlung des Darlehens (normalerweise 36–84 Monate)",
+    "startDate": "Datum, an dem die Kreditzahlungen beginnen",
+    "salesTax": "Staatliche und lokale Umsatzsteuer beim Fahrzeugkauf",
+    "fees": "Zusätzliche Gebühren wie Dokumentations-, Titel- und Registrierungsgebühren",
+    "tradeIn": "Wert Ihres aktuellen Fahrzeugs als Anzahlung"
+  },
+  "auto_loan_calculator_0": "Autokreditrechner",
+  "total_price_1": "Gesamtpreis",
+  "monthly_payment_2": "Monatliche Zahlung",
+  "auto_price_3": "Autopreis",
+  "loan_term_4": "Kreditlaufzeit",
+  "months_5": "Monate",
+  "interest_rate_6": "Zinssatz",
+  "cash_incentives_7": "Bargeldanreize",
+  "down_payment_8": "Anzahlung",
+  "tradein_value_9": "Eintauschwert",
+  "amount_owed_on_tradein_10": "Bei Inzahlungnahme geschuldeter Betrag",
+  "your_state_11": "Ihr Staat",
+  "sales_tax_12": "Umsatzsteuer",
+  "title_registration_and_other_fees_13": "Titel, Registrierung und andere Gebühren",
+  "include_taxes_and_fees_in_loan_14": "Berücksichtigen Sie Steuern und Gebühren im Darlehen",
+  "calculate_15": "Berechnen",
+  "monthly_payment_16": "Monatliche Zahlung",
+  "loan_term_17": "Kreditlaufzeit",
+  "months_18": "Monate",
+  "interest_rate_19": "Zinssatz",
+  "cash_incentives_20": "Bargeldanreize",
+  "down_payment_21": "Anzahlung",
+  "tradein_value_22": "Eintauschwert",
+  "amount_owed_on_tradein_23": "Bei Inzahlungnahme geschuldeter Betrag",
+  "your_state_24": "Ihr Staat",
+  "sales_tax_25": "Umsatzsteuer",
+  "title_registration_and_other_fees_26": "Titel, Registrierung und andere Gebühren",
+  "include_taxes_and_fees_in_loan_27": "Berücksichtigen Sie Steuern und Gebühren im Darlehen",
+  "calculate_28": "Berechnen",
+  "monthly_payment_29": "Monatliche Zahlung",
+  "your_complete_loan_breakdown_30": "Ihre vollständige Kreditaufschlüsselung",
+  "monthly_pay_31": "Monatliches Gehalt:",
+  "total_loan_amount_32": "Gesamtkreditbetrag",
+  "sale_tax_33": "Verkaufssteuer",
+  "upfront_payment_34": "Vorauszahlung",
+  "total_of_35": "Insgesamt",
+  "loan_payments_36": "Kreditzahlungen",
+  "total_loan_interest_37": "Gesamtkreditzinsen",
+  "total_cost_price_interest_tax_fees_38": "Gesamtkosten (Preis, Zinsen, Steuern, Gebühren)",
+  "loan_breakdown_39": "Kreditaufschlüsselung",
+  "principal_40": "% Rektor",
+  "interest_41": "% Interesse",
+  "find_average_tax_rate_and_fees_in_your_state_42": "Finden Sie den durchschnittlichen Steuersatz und die Gebühren in Ihrem Bundesstaat",
+  "enter_auto_loan_details_to_see_your_payment_breakd_43": "Geben Sie die Details zum Autokredit ein, um die Zahlungsaufschlüsselung anzuzeigen",
+  "amortization_schedule_44": "Tilgungsplan",
+  "annual_payment_breakdown_45": "Jährliche Zahlungsaufschlüsselung",
+  "annual_schedule_46": "Jahresplan",
+  "monthly_schedule_47": "Monatlicher Zeitplan",
+  "year_48": "Jahr",
+  "interest_49": "Interesse",
+  "principal_50": "Rektor",
+  "ending_balance_51": "Endbilanz",
+  "monthly_schedule_view_coming_soon_52": "Monatsplanansicht – Demnächst verfügbar!"
+}

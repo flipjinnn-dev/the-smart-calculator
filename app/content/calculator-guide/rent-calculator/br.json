@@ -1,0 +1,111 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de aluguel – Descubra quanto você pode pagar de aluguel",
+      "content": "Nossa Calculadora de Aluguel (também chamada de calculadora de acessibilidade de aluguel ou calculadora de orçamento de aluguel) ajuda você a responder a uma das questões mais importantes sobre habitação: “Quanto posso pagar de aluguel?” Esteja você mudando para seu primeiro apartamento, mudando-se para uma nova cidade ou tentando equilibrar o aluguel com outras despesas, esta ferramenta fornece uma estimativa rápida e precisa do aluguel máximo que você deve pagar com base em sua renda e dívidas."
+    },
+    {
+      "heading": "Por que é útil",
+      "subSections": [
+        {
+          "heading": "Planejamento orçamentário",
+          "content": "Mantenha uma relação segura entre aluguel e renda."
+        },
+        {
+          "heading": "Consciência da dívida",
+          "content": "Considere empréstimos, cartões de crédito e despesas de subsistência."
+        },
+        {
+          "heading": "Escolhas inteligentes",
+          "content": "Compare aluguel x compra com nossa calculadora de hipoteca."
+        }
+      ]
+    },
+    {
+      "heading": "Como funciona a calculadora de aluguel?",
+      "subSections": [
+        {
+          "heading": "Proporção de front-end (proporção de habitação)",
+          "content": "Esta diretriz sugere que você não gaste mais do que 30% de sua renda bruta mensal com aluguel.\nFórmula: Aluguel Máximo = Renda Mensal Bruta × 0,30"
+        },
+        {
+          "heading": "Índice de back-end (rácio dívida / rendimento)",
+          "content": "Essa regra considera todas as dívidas (aluguel + financiamento de carro + cartão de crédito + financiamento estudantil). Os credores geralmente preferem que o pagamento total da dívida seja ≤ 40% de sua renda mensal bruta.\nFórmula: (Aluguel Máximo + Outras Dívidas) ≤ Renda Mensal Bruta × 0,40"
+        },
+        {
+          "heading": "Exemplo",
+          "content": "Salário: $ 60.000/ano → $ 5.000/mês.\nRegra dos 30%: $ 5.000 × 0,30 = $ 1.500 de aluguel máximo.\nSe dívidas mensais = $ 500 → $ 1.500 de aluguel + $ 500 de dívida = $ 2.000 (40% de $ 5.000). Acessível."
+        }
+      ]
+    },
+    {
+      "heading": "Quem deve usar uma calculadora de acessibilidade de aluguel?",
+      "subSections": [
+        {
+          "heading": "Alunos",
+          "content": "Estime o aluguel ao dividir os custos com colegas de quarto."
+        },
+        {
+          "heading": "Famílias com renda única",
+          "content": "Encontre limites seguros de aluguel com base em um salário."
+        },
+        {
+          "heading": "Famílias com dupla renda",
+          "content": "Combine as rendas para obter um orçamento de aluguel mais realista."
+        },
+        {
+          "heading": "Famílias de baixa renda",
+          "content": "Explore opções de aluguel acessíveis e evite gastos excessivos."
+        },
+        {
+          "heading": "Por geografia",
+          "content": "Funciona quer você a use como calculadora de aluguel em Nova York, calculadora de aluguel em Londres, calculadora de aluguel na Califórnia ou qualquer outra cidade."
+        }
+      ]
+    },
+    {
+      "heading": "Orientação prática sobre acessibilidade de aluguel",
+      "subSections": [
+        {
+          "heading": "Qual deve ser a porcentagem da renda do aluguel?",
+          "content": "Regra geral: 25%–30% do rendimento bruto. Os planejadores conservadores visam 20% a 25% se você tiver despesas altas. Se as dívidas forem baixas, algumas famílias chegam a 35%-40%, mas é arriscado."
+        },
+        {
+          "heading": "Devo incluir serviços públicos e outras despesas?",
+          "content": "Sim. Sempre leve em consideração: Serviços públicos (eletricidade, gás, água, internet), Seguro do locatário, Custos de transporte e deslocamento, Compras e vida diária."
+        },
+        {
+          "heading": "Aluguel x hipoteca – o que é melhor?",
+          "content": "O aluguel é flexível e exige menos custos iniciais, mas as hipotecas geram patrimônio. Compare as opções com nossa calculadora de aluguel versus hipoteca e calculadora de empréstimo residencial."
+        }
+      ]
+    },
+    {
+      "heading": "Acessibilidade do aluguel por salário (referência rápida)",
+      "content": "Salário de $ 40.000 → ~ $ 1.000/mês de aluguel\nSalário de $ 50.000 → ~ $ 1.250/mês de aluguel\nSalário de $ 60.000 → ~ $ 1.500/mês de aluguel\nSalário de $ 75.000 → ~ $ 1.875/mês de aluguel\nSalário de $ 100.000 → ~ $ 2.500/mês de aluguel\n(Assume a regra dos 30%, antes de dívidas e serviços públicos.)"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quanto posso pagar de aluguel com um salário de $ 50 mil?",
+      "a": "Usando a regra dos 30%, cerca de US$ 1.250 por mês."
+    },
+    {
+      "q": "Qual deve ser a porcentagem da minha renda do aluguel?",
+      "a": "A maioria dos especialistas recomenda 25–30% de sua renda mensal bruta."
+    },
+    {
+      "q": "Devo calcular o aluguel com base no lucro líquido (após impostos)?",
+      "a": "A maioria das calculadoras utiliza o rendimento bruto, mas orçamentar pelo rendimento líquido é mais seguro e realista."
+    },
+    {
+      "q": "Estudantes ou pessoas de baixa renda podem usar esta calculadora de aluguel?",
+      "a": "Sim. Ajusta-se a qualquer nível de rendimento. Para orçamentos apertados, procure 20-25% do rendimento para alugar e procure programas de assistência habitacional, se necessário."
+    },
+    {
+      "q": "É melhor alugar ou comprar?",
+      "a": "Depende da sua cidade, estabilidade na carreira e objetivos financeiros. O aluguel oferece flexibilidade, enquanto a compra cria patrimônio de longo prazo. Use nossa Calculadora de Hipoteca e Calculadora de Imposto de Renda para comparar."
+    }
+  ]
+}

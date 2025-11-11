@@ -1,0 +1,142 @@
+{
+  "pageTitle": "Konzeptionsrechner",
+  "pageDescription": "Schätzen Sie Ihr Empfängnisdatum anhand der Eisprung- und Geschlechtsverkehrsdaten",
+  "form": {
+    "labels": {
+      "lastMenstrualPeriod": "Letzte Menstruation",
+      "ovulationDate": "Eisprungdatum (optional)",
+      "intercourseDate": "Geschlechtsverkehrsdatum"
+    },
+    "placeholders": {
+      "lastMenstrualPeriod": "Geben Sie den ersten Tag der letzten Menstruation ein",
+      "ovulationDate": "Geben Sie das Datum des Eisprungs ein, falls bekannt",
+      "intercourseDate": "Geben Sie das Datum des Geschlechtsverkehrs ein"
+    },
+    "buttons": {
+      "calculate": "Empfängnisdatum berechnen",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "conceptionDate": "Geschätztes Empfängnisdatum",
+    "fertileWindow": "Fruchtbares Fenster",
+    "dueDate": "Voraussichtliches Fälligkeitsdatum",
+    "calculationDetails": "Ergebnisse der Konzeptionsberechnung"
+  },
+  "educational": {
+    "info": "Informationen zur Empfängnis",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Konzeptionsdefinition",
+        "description": "Informationen zur Empfängnis"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "Wie die Empfängnis berechnet wird"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendungsmöglichkeiten der Empfängnis"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Empfängnisschätzungen",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um die Empfängnis zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Empfängnisberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Konzeptionsberechnung:",
+    "analysis": "Konzeptionsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Empfängnisschätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "conception_calculation_0": "Konzeptionsberechnung",
+  "enter_your_menstrual_cycle_details_to_calculate_co_1": "Geben Sie die Daten Ihres Menstruationszyklus ein, um das Empfängnisdatum zu berechnen",
+  "first_day_of_your_last_menstrual_period_lmp_2": "Erster Tag Ihrer letzten Menstruation (LMP) *",
+  "average_length_of_menstrual_cycle_cl_3": "Durchschnittliche Länge des Menstruationszyklus (CL) *",
+  "days_4": "Tage",
+  "average_menstrual_cycle_length_ranges_from_22_to_4_5": "Die durchschnittliche Länge des Menstruationszyklus liegt zwischen 22 und 44 Tagen (typisch sind 28 Tage).",
+  "calculate_6": "Berechnen",
+  "reset_7": "Zurücksetzen",
+  "conception_window_8": "Konzeptionsfenster",
+  "most_probable_conception_9": "Wahrscheinlichste Empfängnis",
+  "peak_fertile_10": "Höchstfruchtbarkeit:",
+  "enter_your_cycle_details_to_calculate_your_concept_11": "Geben Sie Ihre Zyklusdetails ein, um Ihr Empfängnisfenster zu berechnen.",
+  "your_conception_results_12": "Ihre Empfängnisergebnisse",
+  "current_cycle_windows_13": "Aktuelle Zyklusfenster",
+  "ovulation_date_14": "Datum des Eisprungs:",
+  "fertile_window_15": "Fruchtbares Fenster:",
+  "peak_fertile_window_16": "Höchstfruchtbarkeitsfenster:",
+  "possible_conception_dates_17": "Mögliche Empfängnistermine",
+  "most_probable_18": "(Höchstwahrscheinlich)",
+  "peak_19": "(Gipfel)",
+  "due_20": "Fällig:",
+  "k_6cycle_forecast_21": "6-Zyklen-Prognose",
+  "cycle_22": "Zyklus #",
+  "ovulation_date_23": "Datum des Eisprungs",
+  "fertile_window_24": "Fruchtbares Fenster",
+  "peak_fertile_window_25": "Höchstfruchtbares Fenster",
+  "possible_conception_dates_26": "Mögliche Empfängnistermine",
+  "estimated_due_dates_27": "Geschätzte Fälligkeitstermine",
+  "dates_28": "Termine",
+  "understanding_conception_29": "Konzeption verstehen",
+  "conception_probability_30": "Empfängniswahrscheinlichkeit",
+  "sperm_can_survive_up_to_57_days_31": "Spermien können bis zu 5-7 Tage überleben",
+  "before_ovulation_32": "vor dem Eisprung",
+  "the_last_3_days_of_fertile_window_33": "Die letzten 3 Tage des fruchtbaren Fensters",
+  "have_30_chance_of_conception_34": "haben eine Chance von ca. 30 % auf eine Empfängnis",
+  "conception_is_most_probable_on_ovulation_day_35": "Am wahrscheinlichsten ist eine Empfängnis am Tag des Eisprungs",
+  "any_intercourse_during_fertile_window_36": "Jeglicher Geschlechtsverkehr während des fruchtbaren Fensters",
+  "may_result_in_pregnancy_37": "kann zu einer Schwangerschaft führen",
+  "calculation_method_38": "Berechnungsmethode",
+  "ovulation_39": "Ovulation:",
+  "lmp_cycle_length_14_days_40": "LMP + (Zykluslänge – 14 Tage)",
+  "fertile_window_41": "Fruchtbares Fenster:",
+  "ovulation_5_days_ovulation_42": "[Eisprung - 5 Tage, Eisprung]",
+  "peak_fertile_43": "Spitzenfruchtbarkeit:",
+  "ovulation_2_days_ovulation_44": "[Eisprung - 2 Tage, Eisprung]",
+  "due_date_45": "Fälligkeitsdatum:",
+  "conception_date_266_days_46": "Konzeptionsdatum + 266 Tage",
+  "timing_for_conception_47": "Zeitpunkt der Empfängnis",
+  "best_timing_48": "Bestes Timing:",
+  "k_12_days_before_ovulation_49": "1-2 Tage vor dem Eisprung",
+  "good_timing_50": "Guter Zeitpunkt:",
+  "day_of_ovulation_51": "Tag des Eisprungs",
+  "moderate_timing_52": "Moderates Timing:",
+  "k_35_days_before_ovulation_53": "3-5 Tage vor dem Eisprung",
+  "low_probability_54": "Geringe Wahrscheinlichkeit:",
+  "after_ovulation_day_55": "Nach dem Tag des Eisprungs",
+  "important_notes_56": "Wichtige Hinweise",
+  "this_calculator_provides_estimates_based_on_averag_57": "Dieser Rechner liefert Schätzungen basierend auf durchschnittlichen Zyklen",
+  "actual_conception_timing_can_vary_by_individual_58": "Der tatsächliche Zeitpunkt der Empfängnis kann von Person zu Person unterschiedlich sein",
+  "due_dates_are_estimates_using_naegeles_rule_59": "Fälligkeitstermine sind Schätzungen nach der Naegele-Regel",
+  "consult_healthcare_providers_for_personalized_advi_60": "Wenden Sie sich für eine individuelle Beratung an Gesundheitsdienstleister"
+}

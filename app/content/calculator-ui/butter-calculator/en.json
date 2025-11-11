@@ -1,0 +1,137 @@
+{
+  "pageTitle": "Butter Calculator",
+  "pageDescription": "Convert butter measurements between sticks, cups, tablespoons, teaspoons, and grams for cooking and baking",
+  "form": {
+    "labels": {
+      "inputUnit": "Input Unit",
+      "outputUnit": "Output Unit",
+      "amount": "Amount",
+      "butterType": "Butter Type"
+    },
+    "placeholders": {
+      "amount": "Enter amount to convert"
+    },
+    "buttons": {
+      "convert": "Convert Butter Measurement",
+      "reset": "Reset",
+      "calculate": "Calculate Butter"
+    },
+    "units": {
+      "sticks": "Sticks",
+      "cups": "Cups",
+      "tablespoons": "Tablespoons",
+      "teaspoons": "Teaspoons",
+      "grams": "Grams",
+      "ounces": "Ounces",
+      "pounds": "Pounds"
+    },
+    "butterTypes": {
+      "salted": "Salted Butter",
+      "unsalted": "Unsalted Butter",
+      "whipped": "Whipped Butter",
+      "european": "European Style Butter"
+    }
+  },
+  "results": {
+    "convertedAmount": "Converted Amount",
+    "conversionResult": "Conversion Result",
+    "butterResultsTitle": "Butter Conversion Results",
+    "equivalentMeasurements": "Equivalent Measurements"
+  },
+  "educational": {
+    "butterInfo": "Butter Measurement Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Cooking Resources",
+    "butterEquivalents": {
+      "standard": {
+        "title": "Standard Butter Equivalents",
+        "description": "1 stick = 1/2 cup = 8 tbsp = 113g = 4 oz"
+      },
+      "metric": {
+        "title": "Metric Equivalents",
+        "description": "1 cup = 227g, 1 tbsp = 14g, 1 tsp = 5g"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides measurement conversions only",
+      "substitution": "Consider recipe requirements when substituting butter types"
+    },
+    "importantNotesList": [
+      "Salted and unsalted butter can usually be substituted 1:1",
+      "Whipped butter has more volume but less fat per cup",
+      "European style butter has higher fat content than American butter",
+      "Always measure butter accurately for best baking results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your butter measurement to convert",
+    "resultMessage": "Your converted butter measurement is shown below",
+    "assessmentResult": "Conversion Result:",
+    "butterAnalysis": "Butter Measurement Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides butter measurement conversions based on standard equivalents. Actual weights may vary slightly based on brand and packaging."
+  },
+  "seekHelp": {
+    "title": "Cooking Resources",
+    "content": "For professional cooking advice and recipe development, consider consulting culinary professionals or using specialized cooking resources and cookbooks."
+  },
+  "errors": {
+    "amount": "Please enter a valid amount",
+    "inputUnit": "Please select an input unit",
+    "outputUnit": "Please select an output unit",
+    "butterType": "Please select a butter type"
+  },
+  "tooltips": {
+    "inputUnit": "The unit of measurement you're converting from",
+    "outputUnit": "The unit of measurement you're converting to",
+    "amount": "The amount of butter you want to convert",
+    "butterType": "Type of butter affects weight and volume"
+  },
+  "loading_0": "Loading...",
+  "butter_conversions_1": "Butter Conversions",
+  "choose_your_input_measurement_to_convert_to_all_ot_2": "Choose your input measurement to convert to all other units",
+  "what_unit_would_you_like_to_convert_from_3": "What unit would you like to convert from?",
+  "sticks_4": "Sticks",
+  "cups_5": "Cups",
+  "tablespoons_6": "Tablespoons",
+  "grams_7": "Grams",
+  "number_of_sticks_8": "Number of Sticks",
+  "formula_9": "Formula:",
+  "k_1_stick_cup_8_tbsp_24_tsp_113g_10": "1 stick = ½ cup = 8 tbsp = 24 tsp = 113g",
+  "number_of_cups_11": "Number of Cups",
+  "formula_12": "Formula:",
+  "k_1_cup_2_sticks_16_tbsp_48_tsp_226g_13": "1 cup = 2 sticks = 16 tbsp = 48 tsp = 226g",
+  "number_of_tablespoons_14": "Number of Tablespoons",
+  "formula_15": "Formula:",
+  "k_1_tbsp_0125_sticks_00625_cups_3_tsp_141g_16": "1 tbsp = 0.125 sticks = 0.0625 cups = 3 tsp = 14.1g",
+  "weight_in_grams_17": "Weight in Grams",
+  "formula_18": "Formula:",
+  "k_1g_000885_sticks_000442_cups_0071_tbsp_19": "1g = 0.00885 sticks = 0.00442 cups = 0.071 tbsp",
+  "convert_butter_20": "Convert Butter",
+  "conversions_21": "Conversions",
+  "equals_22": "equals:",
+  "sticks_23": "sticks",
+  "cups_24": "cups",
+  "tbsp_25": "tbsp",
+  "tsp_26": "tsp",
+  "grams_27": "grams",
+  "perfect_for_your_cooking_and_baking_needs_28": "Perfect for your cooking and baking needs!",
+  "enter_a_value_and_click_29": "Enter a value and click",
+  "convert_butter_30": "Convert Butter",
+  "to_see_all_conversions_31": "to see all conversions.",
+  "how_to_use_this_calculator_32": "How to use this calculator?",
+  "k_1_33": "1",
+  "select_the_unit_you_want_to_convert_from_sticks_cu_34": "Select the unit you want to convert from (sticks, cups, tablespoons, or grams).",
+  "k_2_35": "2",
+  "enter_the_amount_you_have_in_your_recipe_36": "Enter the amount you have in your recipe.",
+  "k_3_37": "3",
+  "click_38": "Click",
+  "convert_butter_39": "Convert Butter",
+  "to_see_all_equivalent_measurements_40": "to see all equivalent\n                        measurements.",
+  "k_4_41": "4",
+  "use_the_converted_measurements_in_your_cooking_and_42": "Use the converted measurements in your cooking and baking!"
+}

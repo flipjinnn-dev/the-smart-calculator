@@ -1,0 +1,119 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator spożycia białka – znajdź swoje dzienne zapotrzebowanie na białko",
+      "content": "Nasz kalkulator spożycia białka pomaga dokładnie określić, ile białka potrzebujesz dziennie, na podstawie masy ciała, wieku, płci, poziomu aktywności i celów fitness. Niezależnie od tego, czy chcesz budować mięśnie, stracić tłuszcz, poprawić regenerację czy utrzymać wagę, to bezpłatne narzędzie zapewnia spersonalizowane dzienne zapotrzebowanie na białko poparte naukami o żywieniu."
+    },
+    {
+      "heading": "Ile białka potrzebuję dziennie?",
+      "subSections": [
+        {
+          "heading": "Osoby dorosłe prowadzące siedzący tryb życia",
+          "content": "0,8 g białka na kilogram masy ciała."
+        },
+        {
+          "heading": "Aktywni dorośli i sportowcy",
+          "content": "1,2 – 2,0 g/kg."
+        },
+        {
+          "heading": "Przyrost mięśni i kulturystyka",
+          "content": "1,6 – 2,2 g/kg."
+        },
+        {
+          "heading": "Utrata tłuszczu przy jednoczesnym zachowaniu mięśni",
+          "content": "1,8 – 2,4 g/kg."
+        },
+        {
+          "heading": "Przykład",
+          "content": "Osoba ważąca 70 kg, chcąca zwiększyć masę mięśniową, może potrzebować 112–154 g białka dziennie."
+        }
+      ]
+    },
+    {
+      "heading": "Zalecany kalkulator spożycia białka według celu",
+      "subSections": [
+        {
+          "heading": "Przyrost mięśni",
+          "content": "Wyższa zawartość białka (1,6–2,2 g/kg) wspomagająca hipertrofię i regenerację."
+        },
+        {
+          "heading": "Utrata tłuszczu",
+          "content": "Nieco wyższa zawartość białka (1,8–2,4 g/kg) w celu zachowania beztłuszczowej masy mięśniowej."
+        },
+        {
+          "heading": "Sportowcy i biegacze",
+          "content": "Umiarkowana do wysokiej zawartość białka (1,2–2,0 g/kg) dla wytrzymałości i regeneracji."
+        },
+        {
+          "heading": "Ogólny stan zdrowia i utrzymanie wagi",
+          "content": "0,8–1,2 g/kg na pokrycie podstawowych potrzeb."
+        }
+      ]
+    },
+    {
+      "heading": "Wykres spożycia białka według masy ciała",
+      "content": "Masa ciała (kg) | Siedzący tryb życia (0,8 g/kg) | Aktywny (1,4 g/kg) | Przyrost mięśni (2,0 g/kg) | Utrata tłuszczu (2,2 g/kg)\n--- | --- | --- | --- | ---\n60 | 48 g | 84 g | 120 g | 132 gr\n70 | 56 g | 98 g | 140 g | 154 gr\n80 | 64 g | 112 g | 160 g | 176 gr\n90 | 72 g | 126 g | 180 g | 198 gr\n100 | 80 g | 140 g | 200 g | 220 gr"
+    },
+    {
+      "heading": "Jak obliczyć spożycie białka",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wprowadź swoją wagę, wiek, płeć i poziom aktywności w kalkulatorze spożycia białka online."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Wybierz swój cel – przyrost mięśni, utrata tkanki tłuszczowej lub utrzymanie."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Uzyskaj dzienne spożycie białka w gramach wraz z zalecanym zakresem."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora zapotrzebowania na białko?",
+      "subSections": [
+        {
+          "heading": "Miłośnicy siłowni i fitnessu",
+          "content": "Śledź makra budujące mięśnie."
+        },
+        {
+          "heading": "Sportowcy i biegacze",
+          "content": "Zoptymalizuj regenerację i wydajność."
+        },
+        {
+          "heading": "Osoby w trakcie podróży odchudzających",
+          "content": "Zapewnij bezpieczne spożycie białka."
+        },
+        {
+          "heading": "Wszystkich zainteresowanych zdrowym odżywianiem",
+          "content": "Zrównoważ makro dla dobrego samopoczucia."
+        },
+        {
+          "heading": "Precyzja oparta na sztucznej inteligencji",
+          "content": "W przeciwieństwie do ogólnych wykresów, to narzędzie dostosowuje się do poziomu aktywności, BMI i celów fitness, aby uzyskać spersonalizowany wynik."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jakie jest moje zalecane spożycie białka?",
+      "a": "Twoje zapotrzebowanie na białko zależy od masy ciała i poziomu aktywności. Większość dorosłych potrzebuje 0,8–2,2 g/kg/dzień, w zależności od swoich celów fitness."
+    },
+    {
+      "q": "Ile białka na kg masy ciała?",
+      "a": "Siedzący tryb życia: 0,8 g/kg | Aktywny: 1,2–2,0 g/kg | Przyrost mięśni: 1,6–2,2 g/kg | Utrata tkanki tłuszczowej: 1,8–2,4 g/kg."
+    },
+    {
+      "q": "Czy wysoka zawartość białka jest bezpieczna dla utraty tłuszczu?",
+      "a": "Tak, w połączeniu z deficytem kalorii. Wyższa zawartość białka pomaga zachować beztłuszczową masę mięśniową podczas utraty wagi."
+    },
+    {
+      "q": "Czy sportowcy potrzebują więcej białka?",
+      "a": "Tak. Sportowcy wytrzymałościowi potrzebują 1,2–1,6 g/kg, podczas gdy sportowcy siłowi mogą potrzebować 1,6–2,2 g/kg dla wydajności i regeneracji."
+    }
+  ]
+}

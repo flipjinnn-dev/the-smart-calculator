@@ -1,0 +1,123 @@
+{
+  "color": "vermelho",
+  "sections": [
+    {
+      "heading": "Como usar a calculadora de cartão de crédito",
+      "subSections": [
+        {
+          "heading": "Insira seu saldo",
+          "content": "Use nossa calculadora de saldo de cartão de crédito para inserir o valor atual que você deve."
+        },
+        {
+          "heading": "Adicione sua taxa de juros (APR)",
+          "content": "A calculadora APR do cartão de crédito determinará quanto de juros você pagará ao longo do tempo."
+        },
+        {
+          "heading": "Insira seu pagamento mensal",
+          "content": "Use a calculadora de pagamento mensal com cartão de crédito ou a calculadora de pagamento mínimo com cartão de crédito para ver diferentes opções de reembolso."
+        },
+        {
+          "heading": "Escolha um método de reembolso",
+          "content": "Compare opções como o método bola de neve ou método avalanche para uma redução mais rápida da dívida."
+        },
+        {
+          "heading": "Veja seus resultados",
+          "content": "Veja o prazo de pagamento, os juros totais e o cronograma de pagamento instantaneamente."
+        }
+      ]
+    },
+    {
+      "heading": "Diferentes métodos de cálculo",
+      "subSections": [
+        {
+          "heading": "Calculadora de tempo de pagamento",
+          "content": "Estime quanto tempo levará para liquidar seu saldo com pagamentos atuais ou planejados."
+        },
+        {
+          "heading": "Calculadora de juros",
+          "content": "Entenda quanto os juros acumulam ao longo do tempo para otimizar seus pagamentos."
+        },
+        {
+          "heading": "Calculadora de consolidação de dívidas",
+          "content": "Explore a combinação de vários cartões com juros altos em uma opção com juros mais baixos."
+        },
+        {
+          "heading": "Métodos Bola de Neve vs Avalanche",
+          "content": "Decida se deseja pagar primeiro os saldos menores (bola de neve) ou primeiro as taxas de juros mais altas (avalanche) para economizar mais rapidamente."
+        }
+      ]
+    },
+    {
+      "heading": "Cenários de exemplo",
+      "subSections": [
+        {
+          "heading": "Vários cartões de crédito",
+          "content": "Use a calculadora para vários cartões para priorizar pagamentos e reduzir juros de forma eficiente."
+        },
+        {
+          "heading": "Saldos Altos ou Juros Altos",
+          "content": "Concentre-se em dívidas caras com a calculadora de pagamento de cartão de crédito para altas taxas de juros."
+        },
+        {
+          "heading": "Pontuações de crédito baixas",
+          "content": "Personalize seu plano usando a calculadora para pontuações de crédito baixas para evitar multas por atraso e maximizar o reembolso."
+        },
+        {
+          "heading": "Pagamentos extras ou montantes fixos",
+          "content": "Adicione pagamentos extras ou de quantia única para acelerar o pagamento."
+        },
+        {
+          "heading": "Pagamentos quinzenais",
+          "content": "Reduza os juros mais rapidamente com agendamento de pagamentos quinzenais."
+        }
+      ]
+    },
+    {
+      "heading": "Benefícios de usar a calculadora de cartão de crédito",
+      "subSections": [
+        {
+          "heading": "Economize dinheiro com juros",
+          "content": "Planeje pagamentos para minimizar o acúmulo de juros."
+        },
+        {
+          "heading": "Reduza o estresse",
+          "content": "Obtenha clareza com um cronograma claro de reembolso e pagamento de dívidas."
+        },
+        {
+          "heading": "Comparar estratégias",
+          "content": "Decida entre os métodos bola de neve e avalanche para redução da dívida."
+        },
+        {
+          "heading": "Acompanhe o progresso",
+          "content": "Monitore o progresso dos pagamentos com aplicativos, Excel ou versões de planilhas."
+        },
+        {
+          "heading": "Planeje vários cenários",
+          "content": "Avalie estratégias de transferência e consolidação de saldo com comparações integradas."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Esta calculadora de cartão de crédito é gratuita?",
+      "a": "Sim, nossa calculadora de pagamento de cartão de crédito é totalmente gratuita para uso online."
+    },
+    {
+      "q": "Posso calcular pagamentos para vários cartões?",
+      "a": "Absolutamente! Insira saldos de vários cartões e gerencie todos em um só lugar."
+    },
+    {
+      "q": "Isso ajuda com cartões de crédito com juros altos?",
+      "a": "Sim. A calculadora de altas taxas de juros ajuda você a priorizar e economizar juros."
+    },
+    {
+      "q": "Posso usá-lo para pagamentos extras ou quinzenais?",
+      "a": "Sim, você pode testar pagamentos extras ou quinzenais para ver quanto mais rápido ficará livre de dívidas."
+    },
+    {
+      "q": "Esta calculadora é adequada para consolidação de dívidas?",
+      "a": "Definitivamente. Use os recursos de consolidação e transferência de saldo para comparar opções."
+    }
+  ]
+}

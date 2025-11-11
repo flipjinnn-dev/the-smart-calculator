@@ -1,0 +1,184 @@
+{
+  "color": "#1a73e8",
+  "sections": [
+    {
+      "heading": "Zmaksymalizuj swoje świadczenia z Ubezpieczeń Społecznych dzięki naszemu kalkulatorowi",
+      "content": "Planowanie emerytury może być skomplikowane, ale zrozumienie świadczeń z Ubezpieczeń Społecznych nie musi takie być. Nasz Kalkulator Ubezpieczenia Społecznego pomaga szybko i dokładnie oszacować świadczenia Ubezpieczenia Społecznego, dostarczając spersonalizowanych spostrzeżeń na podstawie Twojej historii zatrudnienia, wieku i sytuacji rodzinnej."
+    },
+    {
+      "heading": "Kluczowe cechy kalkulatora zabezpieczenia społecznego",
+      "subSections": [
+        {
+          "heading": "Kalkulator emerytury z Ubezpieczeń Społecznych",
+          "content": "Oblicz szacunkowe miesięczne świadczenia na podstawie historii zarobków."
+        },
+        {
+          "heading": "Kalkulator pełnego wieku emerytalnego",
+          "content": "Określ wiek, w którym możesz ubiegać się o pełne świadczenia z Ubezpieczeń Społecznych."
+        },
+        {
+          "heading": "Kalkulator świadczeń wcześniejszej emerytury",
+          "content": "Zapoznaj się z obniżką świadczeń, jeśli złożysz wniosek przed osiągnięciem pełnego wieku emerytalnego."
+        },
+        {
+          "heading": "Kalkulator kredytów na opóźnioną emeryturę",
+          "content": "Dowiedz się, w jaki sposób przekroczenie pełnego wieku emerytalnego zwiększa Twoje świadczenia."
+        },
+        {
+          "heading": "Kalkulator podstawowej kwoty ubezpieczenia (PIA).",
+          "content": "Oszacuj podstawową kwotę świadczenia stosowaną do obliczenia miesięcznych płatności."
+        },
+        {
+          "heading": "Kalkulator średnich indeksowanych miesięcznych zarobków (AIME).",
+          "content": "Zobacz, jak Twoje zarobki przez całe życie wpływają na Twoje świadczenia z Ubezpieczeń Społecznych."
+        },
+        {
+          "heading": "Wpływ dostosowania kosztów utrzymania (COLA).",
+          "content": "Śledź, jak korekty inflacji mogą z czasem zwiększyć Twoje świadczenia."
+        },
+        {
+          "heading": "Wiek progu rentowności dla zabezpieczenia społecznego",
+          "content": "Porównaj wcześniejsze i opóźnione składanie wniosków, aby określić wiek, w którym opóźnione świadczenia przeważają nad wcześniejszym wnioskiem."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z tego kalkulatora?",
+      "subSections": [
+        {
+          "heading": "Porównanie wieku osób ubiegających się o ubezpieczenie społeczne",
+          "content": "Zdecyduj, czy wcześniejsze lub opóźnione ubieganie się o emeryturę pasuje do Twojego planu emerytalnego."
+        },
+        {
+          "heading": "Obniżka świadczenia w przypadku wcześniejszego złożenia wniosku",
+          "content": "Zrozumienie, w jaki sposób ubieganie się o emeryturę przed osiągnięciem pełnego wieku emerytalnego wpływa na wysokość miesięcznych płatności."
+        },
+        {
+          "heading": "Opóźniona podwyżka emerytury",
+          "content": "Oblicz zwiększenie świadczenia za oczekiwanie do 70. roku życia."
+        },
+        {
+          "heading": "Opodatkowanie świadczeń",
+          "content": "Zobacz, jak Twoje dochody mogą wpłynąć na opodatkowanie świadczeń."
+        },
+        {
+          "heading": "Wpływ WEP i GPO",
+          "content": "Oceń, jak emerytury z pracy nieobjętej ubezpieczeniem społecznym wpływają na świadczenia."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać?",
+      "subSections": [
+        {
+          "heading": "Małżonkowie i niepracujący małżonkowie",
+          "content": "Oszacuj świadczenia dla małżonka i pozostałych członków rodziny."
+        },
+        {
+          "heading": "Osoby rozwiedzione",
+          "content": "Oblicz świadczenia na podstawie stażu pracy byłego współmałżonka."
+        },
+        {
+          "heading": "Wdowy/Wdowcy",
+          "content": "Skorzystaj z estymatora świadczeń pozostałych przy życiu."
+        },
+        {
+          "heading": "Weterani wojskowi",
+          "content": "Uwzględnij korekty kredytu za usługi."
+        },
+        {
+          "heading": "Pracownicy federalni i stanowi/lokalni",
+          "content": "Poznaj różnice w zakresie ubezpieczenia społecznego."
+        },
+        {
+          "heading": "Samozatrudniony",
+          "content": "Uzyskaj szacunki PIA i AIME na podstawie zarobków z tytułu samozatrudnienia."
+        },
+        {
+          "heading": "Opiekunowie i rodzice pozostający w domu",
+          "content": "Zobacz uprawnienia do świadczeń dla niepracującego małżonka."
+        },
+        {
+          "heading": "Osoby niebędące obywatelami i imigranci",
+          "content": "Sprawdź uprawnienia i szacunkowe świadczenia."
+        },
+        {
+          "heading": "Dzieci",
+          "content": "Oblicz świadczenia z Ubezpieczeń Społecznych dla dzieci pozostających na utrzymaniu."
+        },
+        {
+          "heading": "Osoby ubiegające się o niepełnosprawność",
+          "content": "Oszacuj świadczenia dla osób niepełnosprawnych."
+        }
+      ]
+    },
+    {
+      "heading": "Praktyczne scenariusze",
+      "subSections": [
+        {
+          "heading": "Wczesna emerytura",
+          "content": "Jane, lat 62, otrzyma 25% zniżki, ale biorąc pod uwagę średnią długość życia i wpływ COLA, może zdecydować, czy wcześniejsze złożenie wniosku jest opłacalne finansowo."
+        },
+        {
+          "heading": "Opóźniona emerytura",
+          "content": "John, lat 66, widzi 32% wzrost, czekając do 70. roku życia, co umożliwi mu zaplanowanie wyższych dochodów emerytalnych."
+        },
+        {
+          "heading": "Korzyści małżeńskie",
+          "content": "Mary, która nigdy nie pracowała, może oszacować świadczenia dla małżonka na podstawie danych o zarobkach współmałżonka i zoptymalizować strategię ubiegania się o odszkodowanie."
+        }
+      ]
+    },
+    {
+      "heading": "Jak to działa",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wprowadź swoją datę urodzenia, historię zarobków i inne dane osobowe."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Wybierz strategię ubiegania się o emeryturę: wcześniejszy, pełny wiek emerytalny lub opóźniony."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Sprawdź szacunkowe korzyści, w tym COLA, WEP, GPO i podatki."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Skorzystaj z analizy progu rentowności, aby porównać różne wieki osób ubiegających się o odszkodowanie i zmaksymalizować korzyści w ciągu całego życia."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator pełnego wieku emerytalnego?",
+      "a": "Określa wiek, w którym kwalifikujesz się do pełnych świadczeń z Ubezpieczeń Społecznych bez zniżek."
+    },
+    {
+      "q": "Jak wcześniejsza emerytura wpływa na moje świadczenia?",
+      "a": "Złożenie wniosku przed osiągnięciem pełnego wieku emerytalnego powoduje zmniejszenie miesięcznych świadczeń. Skorzystaj z kalkulatora świadczeń przedemerytalnych, aby sprawdzić dokładną kwotę obniżki."
+    },
+    {
+      "q": "Jaki jest kalkulator podstawowej kwoty ubezpieczenia (PIA)?",
+      "a": "PIA reprezentuje Twoje podstawowe świadczenie z Ubezpieczeń Społecznych przed korektami, takimi jak wcześniejsze lub opóźnione złożenie wniosku."
+    },
+    {
+      "q": "Jak mogę oszacować świadczenia z Ubezpieczeń Społecznych dla mojego współmałżonka lub dzieci?",
+      "a": "Nasz kalkulator uwzględnia opcje dla małżonków, niepracujących małżonków i dzieci, co pozwala na spersonalizowane prognozy świadczeń."
+    },
+    {
+      "q": "W jaki sposób świadczenie eliminujące nieoczekiwane straty (WEP) i rządowa rekompensata emerytalna (GPO) wpływają na świadczenia?",
+      "a": "WEP może zmniejszyć świadczenia dla osób pobierających emeryturę z tytułu zatrudnienia nieobjętego ubezpieczeniem społecznym, podczas gdy GPO może zmniejszyć świadczenia dla małżonków dla beneficjentów rządowych emerytur."
+    },
+    {
+      "q": "Czy ten kalkulator może pomóc weteranom wojskowym lub pracownikom federalnym?",
+      "a": "Tak, uwzględnia kredyty za usługi specjalne i interakcje z emeryturami dla weteranów i pracowników federalnych/stanowych."
+    },
+    {
+      "q": "Czy ten kalkulator uwzględnia korekty kosztów utrzymania (COLA)?",
+      "a": "Tak, COLA jest uwzględniana w celu odzwierciedlenia potencjalnego przyszłego wzrostu świadczeń w związku z inflacją."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Co to jest federalny podatek od nieruchomości?",
+      "content": "Podatek od nieruchomości jest podatkiem federalnym nakładanym na przeniesienie majątku w przypadku śmierci. W przeciwieństwie do podatku od spadków, który płacą beneficjenci w niektórych stanach, federalny podatek od nieruchomości opłacany jest przez sam majątek przed podziałem majątku."
+    },
+    {
+      "heading": "Zwolnienie z federalnego podatku od nieruchomości w 2025 r",
+      "content": "W 2025 r. zwolnienie z podatku od nieruchomości wyniesie 13,99 mln dolarów na osobę. Kwoty powyżej tego zwolnienia podlegają opodatkowaniu, którego maksymalna stawka wynosi 40%. Nieruchomości zgłasza się do urzędu skarbowego za pomocą formularza 706 (zeznanie podatkowe dotyczące spadków i transferów z pominięciem pokoleń w Stanach Zjednoczonych)."
+    },
+    {
+      "heading": "Jak obliczany jest podatek od nieruchomości",
+      "subSections": [
+        {
+          "heading": "Majątek brutto",
+          "content": "Całkowita wartość aktywów (nieruchomości, papiery wartościowe, wpływy z ubezpieczeń na życie, interesy, konta emerytalne)."
+        },
+        {
+          "heading": "Dopuszczalne potrącenia",
+          "content": "Koszty pogrzebu, długi, datki na cele charytatywne i odliczenia małżeńskie (przelewy na rzecz współmałżonka są zazwyczaj zwolnione)."
+        },
+        {
+          "heading": "Nieruchomość podlegająca opodatkowaniu",
+          "content": "Majątek brutto minus odliczenia."
+        },
+        {
+          "heading": "Zwolnienie z podatku od nieruchomości",
+          "content": "Odejmij zwolnienie (13,99 mln USD w 2025 r.), aby określić podstawę opodatkowania."
+        },
+        {
+          "heading": "Zastosuj progi podatku od nieruchomości IRS",
+          "content": "Do obliczenia ostatecznego należnego podatku od nieruchomości stosowana jest stawka do 40%."
+        }
+      ]
+    },
+    {
+      "heading": "Jak korzystać z tego kalkulatora podatku od nieruchomości",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Podaj całkowitą wartość swojej nieruchomości."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Dodaj odliczenia (długi, darowizny na cele charytatywne, koszty pogrzebu)."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Uwzględnij przeniesienia małżeńskie lub zwolnienie małżonka, jeśli ma to zastosowanie."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Wpisz prezenty dożywotnie, aby zobaczyć, jak zmniejszają zwolnienie."
+        },
+        {
+          "heading": "Krok 5",
+          "content": "Zobacz szacunkową kwotę należnego podatku od nieruchomości na podstawie progów IRS na rok 2025."
+        }
+      ]
+    },
+    {
+      "heading": "Podatek od nieruchomości a podatek od spadków a zyski kapitałowe",
+      "subSections": [
+        {
+          "heading": "Podatek od nieruchomości (federalny)",
+          "content": "Zapłacone przez majątek przed otrzymaniem majątku przez spadkobierców."
+        },
+        {
+          "heading": "Podatek od spadków (specyficzny dla stanu)",
+          "content": "Zapłacone przez spadkobierców; ma zastosowanie tylko w kilku stanach (np. PA, NJ, NE)."
+        },
+        {
+          "heading": "Podatek od zysków kapitałowych",
+          "content": "Płatne w przypadku późniejszej sprzedaży odziedziczonych aktywów; w oparciu o zwiększoną podstawę w chwili śmierci."
+        }
+      ]
+    },
+    {
+      "heading": "Zastrzeżenie i dalsze kroki",
+      "content": "Ten federalny kalkulator podatku od nieruchomości na rok 2025 służy wyłącznie celom edukacyjnym. Wyniki mają charakter szacunkowy i mogą się różnić w zależności od przepisów stanowych, korekt inflacji i aktualizacji IRS. Aby uzyskać spersonalizowane wskazówki, zawsze skonsultuj się z wykwalifikowanym doradcą podatkowym lub prawnikiem zajmującym się planowaniem majątku."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jakie jest zwolnienie z podatku od nieruchomości w 2025 roku?",
+      "a": "Zwolnienie wynosi 13,99 mln dolarów na osobę (27,98 mln dolarów dla małżeństw z możliwością przenoszenia)."
+    },
+    {
+      "q": "Jak prezenty życiowe wpływają na podatek od nieruchomości?",
+      "a": "Prezenty przekraczające kwotę rocznego wyłączenia (18 000 USD w 2025 r.) zmniejszają Twoje dożywotnie zwolnienie i zwiększają Twój majątek podlegający opodatkowaniu."
+    },
+    {
+      "q": "Czy wpływy z ubezpieczenia na życie wliczają się do spadku?",
+      "a": "Tak, jeśli zmarły był właścicielem polisy. Dochody mogą zwiększyć majątek brutto."
+    },
+    {
+      "q": "Ile podatku od nieruchomości byłbym winien od nieruchomości o wartości 15 milionów dolarów?",
+      "a": "Około 400 000 USD po zastosowaniu zwolnienia w wysokości 13,99 mln USD, przy założeniu braku odliczeń."
+    },
+    {
+      "q": "Czy datki na cele charytatywne zmniejszają podatek od nieruchomości?",
+      "a": "Tak. Odliczenia na cele charytatywne bezpośrednio zmniejszają majątek podlegający opodatkowaniu, obniżając całkowite zobowiązanie."
+    },
+    {
+      "q": "Czy muszę złożyć formularz IRS 706?",
+      "a": "Nieruchomości przekraczające kwotę zwolnienia muszą złożyć formularz 706 w ciągu dziewięciu miesięcy od śmierci (dostępne są rozszerzenia)."
+    }
+  ]
+}

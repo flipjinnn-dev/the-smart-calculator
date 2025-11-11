@@ -1,0 +1,173 @@
+{
+  "pageTitle": "Kalkulator Punktów Weight Watchers",
+  "pageDescription": "Oblicz punkty Weight Watchers na podstawie produktów spożywczych i informacji o wartości odżywczej",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "height": "Wzrost",
+      "weight": "Waga",
+      "unitSystem": "System jednostek",
+      "activityLevel": "Poziom aktywności"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Podaj wagę w {unit}"
+    },
+    "buttons": {
+      "calculate": "Oblicz punkty",
+      "reset": "Resetuj"
+    },
+    "unitSystems": {
+      "us": "Jednostki US (ft/in, lb)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Siedzący (mało ruchu lub brak ćwiczeń)",
+      "light": "Lekki (ćwiczenia 1-3 dni/tydzień)",
+      "moderate": "Umiarkowany (ćwiczenia 3-5 dni/tydzień)",
+      "active": "Aktywny (ćwiczenia 6-7 dni/tydzień)",
+      "veryActive": "Bardzo aktywny (intensywne ćwiczenia codziennie)"
+    }
+  },
+  "results": {
+    "pointsValue": "Punkty Weight Watchers",
+    "dailyPoints": "Dzienny limit punktów",
+    "pointsResultsTitle": "Wyniki punktowe",
+    "pointsFormula": {
+      "label": "Formuła punktów",
+      "old": "Punkty = (Białko + Węglowodany + Tłuszcz) / 100 + (Kalorie / 50)",
+      "new": "SmartPoints = (Białko × 11 + Cukier × 1 + Tłuszcz nasycony × 4 + Kalorie × 0,025) / 100"
+    }
+  },
+  "educational": {
+    "pointsInfo": "Informacje o punktach Weight Watchers",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się ze specjalistą",
+    "pointsSystems": {
+      "old": {
+        "title": "Stary system punktów",
+        "description": "Oparty na białku, węglowodanach, tłuszczu i kaloriach"
+      },
+      "new": {
+        "title": "System SmartPoints",
+        "description": "Podkreśla białko i minimalizuje cukier oraz tłuszcz nasycony"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator dostarcza tylko szacunki i nie jest narzędziem diagnostycznym",
+      "individualVariation": "Potrzeby punktowe różnią się w zależności od indywidualnych czynników"
+    },
+    "importantNotesList": [
+      "Nowy system SmartPoints jest bardziej zrównoważony żywieniowo",
+      "Osobisty limit punktów zależy od wieku, płci, wzrostu i poziomu aktywności",
+      "Skonsultuj się z Weight Watchers w sprawie spersonalizowanych planów",
+      "Punkty powinny być rozważane wraz z ogólnymi zdrowymi nawykami żywieniowymi"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje pomiary, aby obliczyć punkty Weight Watchers",
+    "pointsResult": "Twój dzienny limit punktów Weight Watchers to {points}",
+    "ageWarning": "Obliczenia punktów mogą się różnić dla różnych grup wiekowych",
+    "assessmentResult": "Wynik oceny:",
+    "pointsAnalysis": "Analiza punktów"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Ten kalkulator dostarcza szacunki oparte na formułach matematycznych i nie powinien być używany jako substytut profesjonalnego doradztwa Weight Watchers. Indywidualne wyniki mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się z Weight Watchers",
+    "content": "Aby uzyskać dokładne obliczenia punktów i spersonalizowane plany odchudzania, skonsultuj się z Weight Watchers lub zarejestrowanym dietetykiem, który może zapewnić wskazówki oparte na Twojej pełnej historii zdrowia i indywidualnych okolicznościach."
+  },
+  "errors": {
+    "age": "Podaj prawidłowy wiek (1-120)",
+    "gender": "Wybierz płeć",
+    "heightFt": "Podaj prawidłowe stopy",
+    "heightIn": "Podaj prawidłowe cale (0-11)",
+    "heightCm": "Podaj prawidłowy wzrost w cm",
+    "weight": "Podaj prawidłową wagę",
+    "activity": "Wybierz poziom aktywności"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na obliczenia punktów",
+    "height": "Twój obecny pomiar wzrostu",
+    "weight": "Twoja obecna masa ciała",
+    "activity": "Twój regularny poziom aktywności wpływa na limit punktów"
+  },
+  "smartpoints_calculation_0": "Obliczanie SmartPoints",
+  "enter_nutritional_information_to_calculate_weight__1": "Wprowadź informacje o wartości odżywczej, aby obliczyć SmartPoints Weight Watchers",
+  "calories_kcal_2": "Kalorie (kcal)",
+  "total_calories_in_the_food_item_3": "Całkowita liczba kalorii w produkcie spożywczym",
+  "saturated_fat_grams_4": "Tłuszcz nasycony (gramy)",
+  "saturated_fat_content_in_grams_5": "Zawartość tłuszczu nasyconego w gramach",
+  "sugar_grams_6": "Cukier (gramy)",
+  "total_sugar_content_in_grams_7": "Całkowita zawartość cukru w gramach",
+  "protein_grams_8": "Białko (gramy)",
+  "protein_content_in_grams_reduces_points_9": "Zawartość białka w gramach (zmniejsza punkty)",
+  "smartpoints_formula_20152021_10": "Formuła SmartPoints (2015-2021):",
+  "points_00305_calories_0275_saturated_fat_012_sugar_11": "Punkty = (0,0305 × Kalorie) + (0,275 × Tłuszcz nasycony) + (0,12 × Cukier) - (0,098 × Białko)",
+  "result_is_rounded_to_the_nearest_whole_number_12": "Wynik jest zaokrąglany do najbliższej liczby całkowitej",
+  "calculate_13": "Oblicz",
+  "reset_14": "Resetuj",
+  "smartpoints_15": "SmartPoints",
+  "points_16": "Punkty",
+  "weight_watchers_17": "Weight Watchers",
+  "smartpoints_value_18": "Wartość SmartPoints",
+  "enter_nutritional_information_then_click_19": "Wprowadź informacje o wartości odżywczej, a następnie kliknij",
+  "calculate_20": "Oblicz",
+  "to_see_smartpoints_21": "aby zobaczyć SmartPoints.",
+  "smartpoints_calculation_breakdown_22": "Podział obliczeń SmartPoints",
+  "smartpoints_value_23": "Wartość SmartPoints",
+  "points_24": "Punkty",
+  "raw_calculation_25": "Surowe obliczenie",
+  "before_rounding_26": "Przed zaokrągleniem",
+  "calculation_breakdown_27": "Podział obliczeń",
+  "calories_28": "Kalorie (",
+  "k_00305_29": "× 0,0305):",
+  "saturated_fat_30": "Tłuszcz nasycony (",
+  "g_0275_31": "g × 0,275):",
+  "sugar_32": "Cukier (",
+  "g_012_33": "g × 0,12):",
+  "protein_34": "Białko (",
+  "g_0098_35": "g × 0,098):",
+  "total_raw_points_36": "Całkowite surowe punkty:",
+  "final_smartpoints_rounded_37": "Końcowe SmartPoints (zaokrąglone):",
+  "understanding_weight_watchers_smartpoints_38": "Zrozumienie SmartPoints Weight Watchers",
+  "smartpoints_formula_20152021_39": "Formuła SmartPoints (2015-2021)",
+  "calories_40": "Kalorie:",
+  "k_00305_41": "× 0,0305",
+  "saturated_fat_42": "Tłuszcz nasycony:",
+  "k_0275_43": "× 0,275",
+  "sugar_44": "Cukier:",
+  "k_012_45": "× 0,12",
+  "protein_46": "Białko:",
+  "k_0098_47": "- 0,098",
+  "historical_context_48": "Kontekst historyczny",
+  "before_2010_49": "Przed 2010:",
+  "original_points_calories_fat_fiber_50": "Oryginalne punkty (kalorie, tłuszcz, błonnik)",
+  "k_20102015_51": "2010-2015:",
+  "pointsplus_protein_carbs_fat_fiber_52": "PointsPlus (białko, węglowodany, tłuszcz, błonnik)",
+  "k_20152021_53": "2015-2021:",
+  "smartpoints_this_calculator_54": "SmartPoints (ten kalkulator)",
+  "k_2022_55": "2022+:",
+  "updated_formulas_with_more_factors_56": "Zaktualizowane formuły z większą liczbą czynników",
+  "key_features_57": "Kluczowe cechy",
+  "protein_reduces_points_encourages_protein_intake_58": "Białko zmniejsza punkty (zachęca do spożywania białka)",
+  "sugar_and_saturated_fat_increase_points_59": "Cukier i tłuszcz nasycony zwiększają punkty",
+  "calories_form_the_base_calculation_60": "Kalorie stanowią podstawę obliczeń",
+  "result_is_rounded_to_nearest_whole_number_61": "Wynik jest zaokrąglany do najbliższej liczby całkowitej",
+  "minimum_value_is_0_points_62": "Minimalna wartość to 0 punktów",
+  "usage_tips_63": "Wskazówki dotyczące użytkowania",
+  "use_nutrition_labels_for_accurate_values_64": "Użyj etykiet żywieniowych dla dokładnych wartości",
+  "track_all_ingredients_in_recipes_65": "Śledź wszystkie składniki w przepisach",
+  "consider_portion_sizes_when_calculating_66": "Uwzględnij wielkość porcji podczas obliczania",
+  "zeropoint_foods_dont_need_calculation_67": "Produkty zero-punktowe nie wymagają obliczeń",
+  "note_about_weight_watchers_68": "Uwaga o Weight Watchers",
+  "this_calculator_uses_the_smartpoints_formula_from__69": "Ten kalkulator używa formuły SmartPoints z grudnia 2015 do listopada 2021. Weight Watchers od tego czasu zaktualizował swój system. Aby uzyskać informacje o aktualnych programach Weight Watchers, zapoznaj się z ich oficjalną aplikacją i materiałami."
+}

@@ -1,0 +1,124 @@
+{
+  "pageTitle": "Zinsrechner",
+  "pageDescription": "Berechnen Sie die Auswirkungen von Zinssätzen auf Kredite und Investitionen, um verschiedene Finanzprodukte zu vergleichen und fundierte Entscheidungen zu treffen",
+  "form": {
+    "labels": {
+      "principal": "Hauptbetrag",
+      "interestRate": "Jährlicher Zinssatz",
+      "timePeriod": "Zeitraum",
+      "compounding": "Aufzinsungshäufigkeit",
+      "calculationType": "Berechnungstyp"
+    },
+    "placeholders": {
+      "principal": "Geben Sie den Kapitalbetrag ein",
+      "interestRate": "Geben Sie den jährlichen Zinssatz (%) ein.",
+      "timePeriod": "Geben Sie den Zeitraum ein"
+    },
+    "buttons": {
+      "calculate": "Zinsen berechnen",
+      "reset": "Zurücksetzen"
+    },
+    "calculationTypes": {
+      "simple": "Einfaches Interesse",
+      "compound": "Zinseszins",
+      "apr": "Jährlicher Prozentsatz (APR)",
+      "apy": "Jährliche prozentuale Rendite (APY)"
+    },
+    "compoundingFrequencies": {
+      "annually": "Jährlich",
+      "semiAnnually": "Halbjährlich",
+      "quarterly": "Vierteljährlich",
+      "monthly": "Monatlich",
+      "daily": "Täglich"
+    }
+  },
+  "results": {
+    "interestEarned": "Verdiente Zinsen",
+    "futureValue": "Zukünftiger Wert",
+    "totalAmount": "Gesamtbetrag",
+    "effectiveRate": "Effektive Jahresrate",
+    "interestRateResultsTitle": "Ergebnisse der Zinsberechnung"
+  },
+  "educational": {
+    "interestRateInfo": "Informationen zum Zinssatz",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "interestRateFacts": {
+      "simpleVsCompound": {
+        "title": "Einfacher vs. Zinseszins",
+        "description": "Einfache Zinsen werden nur auf den Kapitalbetrag berechnet; Der Zinseszins umfasst die aufgelaufenen Zinsen"
+      },
+      "aprVsApy": {
+        "title": "APR vs. APY",
+        "description": "APR ist der Basiszinssatz; APY beinhaltet Aufzinsungseffekte"
+      },
+      "rateFactors": {
+        "title": "Faktoren, die die Preise beeinflussen",
+        "description": "Kreditwürdigkeit, Kreditlaufzeit und wirtschaftliche Bedingungen beeinflussen die Zinssätze"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Zinsberechnung",
+      "actual": "Die tatsächlichen Zinssätze können je nach Richtlinien des Kreditgebers und Marktbedingungen variieren"
+    },
+    "importantNotesList": [
+      "Der effektive Jahreszins ist immer höher als der effektive Jahreszins, wenn die Aufzinsung mehr als einmal pro Jahr erfolgt",
+      "Höhere Kredit-Scores führen in der Regel zu niedrigeren Zinssätzen",
+      "Kürzere Kreditlaufzeiten haben in der Regel niedrigere Zinssätze, aber höhere Zahlungen zur Folge",
+      "Suchen Sie nach den besten Zinssätzen und Konditionen für Kredite und Investitionen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Zinssatzinformationen ein, um Einnahmen oder Kosten zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Zinsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Zinsberechnung:",
+    "interestRateAnalysis": "Zinsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Zinsberechnungsschätzungen basierend auf mathematischen Formeln. Die tatsächlichen Zinssätze und Erträge können aufgrund der Richtlinien des Kreditgebers, der Gebühren und der Marktbedingungen variieren, die in diesen Berechnungen nicht berücksichtigt werden."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für individuelle Zinsanalysen und Vergleiche von Finanzprodukten wenden Sie sich an Finanzberater oder Kreditsachbearbeiter mit Erfahrung in Kreditprodukten und individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "principal": "Bitte geben Sie einen gültigen Kapitalbetrag ein",
+    "interestRate": "Bitte geben Sie einen gültigen Jahreszinssatz ein",
+    "timePeriod": "Bitte geben Sie einen gültigen Zeitraum ein",
+    "compounding": "Bitte wählen Sie eine Aufzinsungshäufigkeit aus",
+    "calculationType": "Bitte wählen Sie eine Berechnungsart aus"
+  },
+  "tooltips": {
+    "principal": "Anfangsbetrag des Darlehens oder der Investition",
+    "interestRate": "Jährlicher Zinssatz oder erwartete Rendite",
+    "timePeriod": "Zeitdauer für die Zinsberechnung",
+    "compounding": "Wie oft werden die Zinsen pro Jahr aufgezinst?",
+    "calculationType": "Art der durchzuführenden Zinsberechnung"
+  },
+  "interest_rate_calculator_0": "Zinsrechner",
+  "loan_information_1": "Kreditinformationen",
+  "loan_amount_2": "Kreditbetrag",
+  "loan_term_3": "Kreditlaufzeit",
+  "years_4": "Jahre",
+  "months_5": "Monate",
+  "monthly_payment_6": "Monatliche Zahlung",
+  "calculate_rate_7": "Rate berechnen",
+  "results_8": "Ergebnisse",
+  "your_loan_interest_rate_breakdown_9": "Aufschlüsselung Ihres Kreditzinssatzes",
+  "interest_rate_10": "Zinssatz",
+  "total_of_11": "Insgesamt",
+  "monthly_payments_12": "monatliche Zahlungen",
+  "total_interest_paid_13": "Insgesamt gezahlte Zinsen",
+  "enter_your_loan_information_to_calculate_the_inter_14": "Geben Sie Ihre Kreditinformationen ein, um den Zinssatz zu berechnen",
+  "formulas_calculation_method_15": "Formeln und Berechnungsmethode",
+  "loan_payment_formula_16": "Kreditzahlungsformel",
+  "pmt_p_r1rn_1rn_1_17": "PMT = P × [r(1+r)^n] / [(1+r)^n - 1]",
+  "where_pmt_monthly_payment_p_principal_loan_amount__18": "Wobei: PMT = Monatliche Zahlung, P = Kapital (Kreditbetrag), r = Monatlicher Zinssatz, n = Zahl\n                        von Zahlungen",
+  "interest_rate_calculation_19": "Zinsberechnung",
+  "since_the_interest_rate_cannot_be_solved_algebraic_20": "Da sich der Zinssatz nicht algebraisch aus der Zahlungsformel lösen lässt, ist dieser Rechner\n                        verwendet die numerische Methode von Newton-Raphson, um iterativ nach der Rate zu suchen, die das erzeugt\n                        angegebenen Zahlungsbetrag.",
+  "total_interest_calculation_21": "Gesamtzinsberechnung",
+  "total_interest_monthly_payment_number_of_payments__22": "Gesamtzins = (Monatliche Zahlung × Anzahl der Zahlungen) – Kreditbetrag"
+}

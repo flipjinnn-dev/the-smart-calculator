@@ -1,0 +1,179 @@
+{
+  "pageTitle": "Zielherzfrequenzrechner",
+  "pageDescription": "Berechnen Sie die Zielherzfrequenz mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Zielherzfrequenz",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Zielherzfrequenzberechnung"
+  },
+  "educational": {
+    "info": "Informationen zur Zielherzfrequenz",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Definition der Zielherzfrequenz",
+        "description": "Informationen zur Zielherzfrequenz"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "So wird die Zielherzfrequenz berechnet"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendung der Zielherzfrequenz"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen der Zielherzfrequenz",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um die Zielherzfrequenz zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Zielherzfrequenzberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Berechnung der Zielherzfrequenz:",
+    "analysis": "Zielherzfrequenzanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Zielherzfrequenzschätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "heart_rate_calculation_0": "Berechnung der Herzfrequenz",
+  "enter_your_details_and_select_your_preferred_metho_1": "Geben Sie Ihre Daten ein und wählen Sie Ihre bevorzugte Methode zur Berechnung der Zielherzfrequenzzonen",
+  "age_years_2": "Alter (Jahre) *",
+  "maximum_heart_rate_optional_3": "Maximale Herzfrequenz (optional)",
+  "bpm_4": "bpm",
+  "leave_blank_to_calculate_using_formula_5": "Lassen Sie das Feld leer, um mithilfe der Formel zu berechnen",
+  "max_hr_formula_6": "Max HR-Formel",
+  "haskell_fox_1971_7": "Haskell & Fox (1971)",
+  "mhr_220_age_8": "MHR = 220 - Alter",
+  "most_commonly_used_formula_9": "Am häufigsten verwendete Formel",
+  "tanaka_et_al_2001_10": "Tanaka et al. (2001)",
+  "mhr_208_07_age_11": "MHR = 208 – (0,7 × Alter)",
+  "more_accurate_for_older_adults_12": "Genauer für ältere Erwachsene",
+  "nes_et_al_2013_13": "Nes et al. (2013)",
+  "mhr_211_064_age_14": "MHR = 211 – (0,64 × Alter)",
+  "based_on_large_population_study_15": "Basierend auf einer großen Bevölkerungsstudie",
+  "calculation_method_16": "Berechnungsmethode",
+  "percentage_of_max_hr_basic_17": "Prozentsatz der maximalen HR (Basis)",
+  "thr_mhr_intensity_18": "THR = MHR × % Intensität",
+  "simple_and_widely_used_method_19": "Einfache und weit verbreitete Methode",
+  "karvonen_method_advanced_20": "Karvonen-Methode (Fortgeschritten)",
+  "thr_hrr_intensity_rhr_21": "THR = (HRR × % Intensität) + RHR",
+  "more_personalized_requires_resting_hr_22": "Persönlicher, erfordert eine Ruhepause bei der Personalabteilung",
+  "resting_heart_rate_required_for_karvonen_23": "Ruheherzfrequenz (erforderlich für Karvonen) *",
+  "bpm_24": "bpm",
+  "measure_when_completely_at_rest_25": "Messen Sie im völligen Ruhezustand",
+  "intensity_zone_26": "Intensitätszone",
+  "light_5060_fat_burning_recovery_27": "Leicht (50–60 %) – Fettverbrennung, Erholung",
+  "moderate_6070_aerobic_base_building_28": "Mäßig (60–70 %) – Aerobic-Basisaufbau",
+  "vigorous_7085_performance_training_29": "Kräftig (70–85 %) – Leistungstraining",
+  "custom_range_30": "Benutzerdefinierter Bereich",
+  "min_31": "Min. %",
+  "max_32": "Max. %",
+  "calculate_33": "Berechnen",
+  "reset_34": "Zurücksetzen",
+  "target_hr_zone_35": "Zielherzfrequenzzone",
+  "beats_per_minute_36": "Schläge pro Minute",
+  "enter_your_age_and_preferences_to_calculate_your_t_37": "Geben Sie Ihr Alter und Ihre Vorlieben ein, um Ihre Zielherzfrequenzzone zu berechnen.",
+  "heart_rate_zone_results_38": "Ergebnisse der Herzfrequenzzone",
+  "bpm_39": "bpm",
+  "target_heart_rate_zone_40": "Zielherzfrequenzzone",
+  "age_41": "Alter",
+  "years_42": "Jahre",
+  "max_hr_43": "Max. HR",
+  "bpm_44": "bpm",
+  "method_45": "Verfahren",
+  "zone_46": "Zone",
+  "all_training_zones_47": "Alle Trainingszonen",
+  "zone_48": "Zone",
+  "intensity_49": "Intensität",
+  "heart_rate_50": "Herzfrequenz",
+  "purpose_51": "Zweck",
+  "bpm_52": "bpm",
+  "calculation_details_53": "Berechnungsdetails",
+  "maximum_heart_rate_54": "Maximale Herzfrequenz",
+  "value_55": "Wert:",
+  "bpm_56": "bpm",
+  "source_57": "Quelle:",
+  "resting_hr_58": "Ruheherzfrequenz:",
+  "bpm_59": "bpm",
+  "important_notes_60": "Wichtige Hinweise",
+  "formulas_are_estimates_individual_max_hr_can_vary__61": "• Bei den Formeln handelt es sich um Schätzungen – die individuelle maximale Herzfrequenz kann erheblich variieren",
+  "karvonen_method_is_more_personalized_and_accurate_62": "• Die Karvonen-Methode ist individueller und genauer",
+  "consider_fitness_level_and_health_conditions_63": "• Berücksichtigen Sie Ihr Fitnessniveau und Ihren Gesundheitszustand",
+  "consult_a_professional_before_starting_new_trainin_64": "• Konsultieren Sie einen Fachmann, bevor Sie mit einer neuen Ausbildung beginnen",
+  "about_target_heart_rate_training_65": "Über Zielherzfrequenztraining",
+  "training_zones_explained_66": "Trainingszonen erklärt",
+  "light_5060_67": "Leicht (50–60 %):",
+  "fat_burning_recovery_workouts_68": "Fettverbrennung, Erholungstraining",
+  "moderate_6070_69": "Mäßig (60–70 %):",
+  "aerobic_base_building_endurance_70": "Aerobic-Basisaufbau, Ausdauer",
+  "vigorous_7085_71": "Kräftig (70-85 %):",
+  "performance_training_lactate_threshold_72": "Leistungstraining, Laktatschwelle",
+  "maximum_8595_73": "Maximal (85–95 %):",
+  "anaerobic_power_short_intervals_74": "Anaerobe Kraft, kurze Intervalle",
+  "formula_accuracy_75": "Formelgenauigkeit",
+  "haskell_fox_76": "Haskell & Fox:",
+  "k_1012_bpm_standard_deviation_77": "±10–12 Schläge pro Minute Standardabweichung",
+  "tanaka_78": "Tanaka:",
+  "more_accurate_for_older_adults_40_79": "Genauer für ältere Erwachsene (40+)",
+  "nes_80": "Nes:",
+  "based_on_3320_healthy_individuals_81": "Basierend auf 3.320 gesunden Personen",
+  "individual_variation_82": "Individuelle Variation:",
+  "can_be_20_bpm_from_formula_83": "Kann je nach Formel ±20 Schläge pro Minute betragen",
+  "method_comparison_84": "Methodenvergleich",
+  "method_85": "Verfahren",
+  "accuracy_86": "Genauigkeit",
+  "requirements_87": "Anforderungen",
+  "of_max_hr_88": "% der maximalen Herzfrequenz",
+  "good_89": "Gut",
+  "age_only_90": "Nur Alter",
+  "karvonen_91": "Karvonen",
+  "better_92": "Besser",
+  "age_resting_hr_93": "Alter + Ruheherzfrequenz",
+  "best_practices_94": "Best Practices",
+  "measure_resting_hr_first_thing_in_the_morning_95": "Messen Sie morgens als erstes die Ruhe-Herzfrequenz",
+  "use_heart_rate_monitor_for_accurate_readings_96": "Verwenden Sie für genaue Messwerte einen Herzfrequenzmesser",
+  "allow_510_minute_warmup_before_target_zone_97": "Vor der Zielzone eine Aufwärmphase von 5–10 Minuten einhalten",
+  "stay_hydrated_and_monitor_how_you_feel_98": "Bleiben Sie hydriert und beobachten Sie, wie Sie sich fühlen"
+}

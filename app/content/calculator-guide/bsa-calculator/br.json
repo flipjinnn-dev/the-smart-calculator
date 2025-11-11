@@ -1,0 +1,147 @@
+{
+  "color": "verde claro",
+  "sections": [
+    {
+      "heading": "Calculadora on-line da área de superfície corporal (BSA) – precisa, gratuita e fácil de usar",
+      "content": "Compreender a área de superfície corporal (ASC) é essencial na medicina, na pesquisa e nos cuidados clínicos. Esta calculadora gratuita de BSA ajuda você a estimar com rapidez e precisão sua BSA para adultos, crianças e cenários clínicos especiais. Quer você seja um profissional de saúde, estudante de medicina ou paciente, esta ferramenta oferece uma solução inteligente e fácil de usar para calcular a BSA online."
+    },
+    {
+      "heading": "O que é a área de superfície corporal (BSA) e por que ela é importante?",
+      "content": "BSA é a área total da superfície do corpo humano, geralmente expressa em metros quadrados (m²). Desempenha um papel crítico na medicina porque:",
+      "subSections": [
+        {
+          "heading": "Dosagens de medicamentos",
+          "content": "Ajuda a calcular dosagens de medicamentos, especialmente quimioterapia e medicamentos para cuidados intensivos."
+        },
+        {
+          "heading": "Substituição de fluidos",
+          "content": "Orienta terapia de reposição volêmica em pacientes de UTI."
+        },
+        {
+          "heading": "Avaliações renais",
+          "content": "Suporta avaliações da função renal e outros testes de diagnóstico."
+        },
+        {
+          "heading": "Cuidados Personalizados",
+          "content": "Fornece medições personalizadas para atendimento pediátrico e adulto."
+        }
+      ]
+    },
+    {
+      "heading": "Como calcular a área de superfície corporal (BSA) com precisão",
+      "content": "Esta calculadora BSA online usa fórmulas amplamente aceitas com base no peso, altura e, às vezes, sexo. As fórmulas populares incluem:",
+      "subSections": [
+        {
+          "heading": "Fórmula Du Bois BSA",
+          "content": "BSA (m²) = 0,007184 × Peso^0,425 × Altura^0,725 — Usado para adultos e crianças, padrão clínico."
+        },
+        {
+          "heading": "Fórmula de Mosteller",
+          "content": "BSA (m²) = √(Altura × Peso / 3600) — Simples, comumente utilizado em hospitais."
+        },
+        {
+          "heading": "Fórmula Haycock",
+          "content": "ASC (m²) = 0,024265 × Peso^0,5378 × Altura^0,3964 — Medicina pediátrica."
+        },
+        {
+          "heading": "Gehan e George",
+          "content": "BSA (m²) = 0,0235 × Peso ^ 0,51456 × Altura ^ 0,42246 - Pesquisa e estudos clínicos."
+        },
+        {
+          "heading": "Entradas",
+          "content": "Peso (kg), Altura (cm), Sexo (opcional: ajustes pediátricos)."
+        }
+      ]
+    },
+    {
+      "heading": "Aplicações clínicas da BSA",
+      "content": "A medição da BSA não é apenas um número – ela tem aplicações médicas no mundo real:",
+      "subSections": [
+        {
+          "heading": "Dosagem de quimioterapia",
+          "content": "Doses personalizadas de medicamentos reduzem a toxicidade, mantendo a eficácia."
+        },
+        {
+          "heading": "Pacientes de UTI",
+          "content": "Orienta fluidoterapia e monitoramento de cuidados intensivos."
+        },
+        {
+          "heading": "Medicina pediátrica",
+          "content": "Ajusta a medicação e a nutrição das crianças com precisão."
+        },
+        {
+          "heading": "Testes de função renal",
+          "content": "Ajuda a calcular a depuração renal e os parâmetros de diálise."
+        },
+        {
+          "heading": "Pesquisa médica",
+          "content": "Apoia estudos epidemiológicos, testes de medicamentos e auditorias clínicas."
+        }
+      ]
+    },
+    {
+      "heading": "Limitações e isenção de responsabilidade",
+      "content": "Embora esta calculadora BSA para adultos e crianças seja clinicamente precisa, lembre-se:",
+      "subSections": [
+        {
+          "heading": "Apenas estimativas",
+          "content": "Os resultados são estimativas e não devem substituir o aconselhamento médico."
+        },
+        {
+          "heading": "Orientação profissional",
+          "content": "Sempre consulte um profissional de saúde antes de ajustar o tratamento."
+        },
+        {
+          "heading": "Outros fatores",
+          "content": "A composição corporal, a hidratação e a idade podem afetar a precisão."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é BSA e por que é importante?",
+      "a": "BSA representa a área de superfície total do seu corpo. É crucial para dosagem de medicamentos, cuidados na UTI e exames médicos, pois fornece uma medida mais precisa do que o IMC para fins clínicos."
+    },
+    {
+      "q": "Como calculo o BSA com precisão?",
+      "a": "Insira seu peso, altura e, opcionalmente, sexo na calculadora. Fórmulas como Du Bois, Mosteller ou Haycock são comumente usadas para resultados precisos."
+    },
+    {
+      "q": "Qual fórmula BSA é a mais confiável?",
+      "a": "A fórmula de Du Bois é amplamente aceita para adultos e crianças, mas Mosteller é mais simples e comumente usada em hospitais."
+    },
+    {
+      "q": "Como a BSA afeta a dosagem da quimioterapia?",
+      "a": "Os medicamentos quimioterápicos são dosados ​​com base na BSA para garantir que o tratamento seja eficaz e, ao mesmo tempo, minimizar a toxicidade."
+    },
+    {
+      "q": "Crianças e adultos podem usar a mesma calculadora BSA?",
+      "a": "Sim, mas fórmulas pediátricas como Haycock fornecem resultados mais precisos para crianças devido às diferentes proporções corporais."
+    },
+    {
+      "q": "Como o peso e a altura influenciam a BSA?",
+      "a": "A ASC aumenta com o peso e a altura, refletindo a área total da superfície corporal com mais precisão do que o IMC."
+    },
+    {
+      "q": "A calculadora BSA é precisa para pacientes de UTI?",
+      "a": "Sim, é clinicamente validado, mas podem ser necessários ajustes para pacientes gravemente enfermos com desequilíbrios hídricos."
+    },
+    {
+      "q": "Posso usar esta ferramenta para pesquisas médicas?",
+      "a": "Absolutamente. A calculadora BSA online personalizada apoia pesquisas e estudos clínicos, fornecendo medições padronizadas."
+    },
+    {
+      "q": "Como a IA é usada nos cálculos da BSA?",
+      "a": "A IA pode aumentar a precisão, gerar relatórios e recomendar ajustes clínicos com base nas tendências dos dados dos pacientes."
+    },
+    {
+      "q": "Esta calculadora pode ser usada em hospitais para fins clínicos?",
+      "a": "Sim, a calculadora médica de BSA e as ferramentas de BSA com tecnologia de IA são adequadas para ambientes hospitalares, de UTI e pediátricos."
+    }
+  ],
+  "cta": {
+    "heading": "Calcule seu BSA agora",
+    "content": "Obtenha resultados precisos, rápidos e confiáveis ​​da área de superfície corporal em segundos. Use nossa calculadora BSA gratuita hoje para personalizar a dosagem de medicamentos, melhorar os cuidados na UTI e apoiar a pesquisa clínica. Assuma o controle de sua saúde com insights precisos da BSA."
+  }
+}

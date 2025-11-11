@@ -1,0 +1,213 @@
+{
+  "pageTitle": "Kalkulator zawartości alkoholu we krwi (BAC).",
+  "pageDescription": "Oszacuj zawartość alkoholu we krwi (BAC) na podstawie spożytych napojów, masy ciała, płci i czasu",
+  "form": {
+    "labels": {
+      "gender": "Płeć",
+      "weight": "Waga",
+      "unitSystem": "Układ jednostek",
+      "drinks": "Liczba napojów",
+      "drinkType": "Rodzaj napoju",
+      "hoursDrinking": "Godziny picia",
+      "hoursElapsed": "Godziny od pierwszego drinka"
+    },
+    "placeholders": {
+      "weight": "Wprowadź wagę w {jednostce}",
+      "drinks": "Liczba wypitych napojów",
+      "hoursDrinking": "Godziny spędzone na piciu",
+      "hoursElapsed": "Godziny od pierwszego drinka"
+    },
+    "buttons": {
+      "calculate": "Oblicz BAC",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (funty)",
+      "metric": "Jednostki metryczne (kg)"
+    },
+    "drinkTypes": {
+      "beer": "Piwo (12 uncji, 5% alkoholu)",
+      "wine": "Wino (5 uncji, 12% alkoholu)",
+      "liquor": "Alkohol (1,5 uncji, 40% alkoholu)",
+      "custom": "Niestandardowa zawartość alkoholu"
+    }
+  },
+  "results": {
+    "bacValue": "Zawartość alkoholu we krwi",
+    "bacPercentage": "Procent BAC",
+    "legalLimit": "Limit prawny",
+    "bacResultsTitle": "Wyniki BAC",
+    "bacFormula": {
+      "label": "Formuła BAC",
+      "standard": "BAC = (spożyty alkohol w gramach / (masa ciała w gramach × stała płci)) × 100 - (godziny, które upłynęły × tempo metabolizmu)"
+    },
+    "legalLimitInfo": "Dopuszczalny limit jazdy w większości stanów USA: 0,08%"
+  },
+  "educational": {
+    "bacInfo": "Informacje o zawartości alkoholu we krwi",
+    "criticalWarnings": "Krytyczne ostrzeżenia",
+    "importantNotes": "Ważne informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Szukaj natychmiastowej pomocy",
+    "bacEffects": {
+      "sober": {
+        "title": "0,00% - Trzeźwy",
+        "description": "Brak utraty wartości"
+      },
+      "buzzed": {
+        "title": "0,01% - 0,05% - Buczyło",
+        "description": "Łagodna euforia i osłabienie"
+      },
+      "tipsy": {
+        "title": "0,06% - 0,10% - Pijany",
+        "description": "Upośledzona ocena i koordynacja"
+      },
+      "drunk": {
+        "title": "0,11% - 0,20% - Pijany",
+        "description": "Znacząco upośledzona kontrola motoryczna"
+      },
+      "veryDrunk": {
+        "title": "0,21% - 0,29% - Bardzo pijany",
+        "description": "Dezorientacja, zawroty głowy, możliwe omdlenia"
+      },
+      "dangerous": {
+        "title": "0,30%+ - Niebezpieczny",
+        "description": "Ryzyko zatrucia alkoholem, utraty przytomności"
+      }
+    },
+    "criticalWarningsList": {
+      "notExact": "Kalkulator ten podaje wyłącznie wartości szacunkowe i może nie odzwierciedlać rzeczywistej zawartości alkoholu we krwi",
+      "impairment": "Nawet niewielkie ilości alkoholu mogą upośledzać zdolność prowadzenia pojazdów"
+    },
+    "importantNotesList": [
+      "Na poziom BAC wpływa spożycie żywności, przyjmowanie leków i indywidualny metabolizm",
+      "Kobiety zazwyczaj mają wyższe stężenie alkoholu we krwi niż mężczyźni przy tej samej ilości alkoholu",
+      "Nigdy nie prowadź pod wpływem alkoholu – skorzystaj z usług wyznaczonego kierowcy lub usługi przejazdu",
+      "Jeśli podejrzewasz zatrucie alkoholem, natychmiast zasięgnij porady lekarza"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje dane, aby oszacować zawartość alkoholu we krwi",
+    "bacResult": "Szacowana zawartość alkoholu we krwi: {bac}%",
+    "legalStatus": "Legalny status kierowcy: {status}",
+    "aboveLimit": "Powyżej dopuszczalnego limitu",
+    "belowLimit": "Poniżej dopuszczalnego limitu",
+    "assessmentResult": "Wynik oceny:",
+    "bacAnalysis": "Analiza BAC"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten podaje jedynie dane szacunkowe i nie należy go używać do określania, czy prowadzenie pojazdu jest bezpieczne. Na BAC wpływa wiele czynników, które nie są uwzględnione w tych obliczeniach. Zawsze należy zachować ostrożność i nigdy nie prowadzić pojazdu po spożyciu alkoholu."
+  },
+  "seekHelp": {
+    "title": "Pomoc w nagłych wypadkach",
+    "content": "Jeśli podejrzewasz zatrucie alkoholem (splątanie, wymioty, powolny lub nieregularny oddech, sine zabarwienie skóry, niska temperatura ciała lub utrata przytomności), natychmiast skontaktuj się ze służbami ratunkowymi. Zatrucie alkoholem może być śmiertelne."
+  },
+  "errors": {
+    "gender": "Proszę wybrać płeć",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "drinks": "Proszę wprowadzić prawidłową liczbę drinków",
+    "hoursDrinking": "Proszę podać prawidłowe godziny picia",
+    "hoursElapsed": "Proszę podać prawidłowe godziny od pierwszego drinka"
+  },
+  "tooltips": {
+    "weight": "Twoja aktualna masa ciała wpływa na BAC",
+    "drinks": "Liczba wypitych standardowych napojów",
+    "hoursDrinking": "Czas trwania spożycia napojów",
+    "hoursElapsed": "Czas od wypicia pierwszego drinka"
+  },
+  "personal_information_drinks_0": "Dane osobowe i napoje",
+  "enter_your_information_and_alcohol_consumption_det_1": "Wprowadź swoje dane i szczegóły dotyczące spożycia alkoholu",
+  "personal_information_2": "Dane osobowe",
+  "gender_3": "Płeć",
+  "male_4": "Mężczyzna",
+  "female_5": "Kobieta",
+  "age_6": "Wiek",
+  "required_for_watson_body_water_calculation_7": "Wymagane do obliczenia zawartości wody w organizmie Watsona",
+  "body_weight_8": "Masa ciała",
+  "your_current_body_weight_9": "Twoja aktualna masa ciała",
+  "lb_10": "funty",
+  "kg_11": "kg",
+  "g_12": "g",
+  "height_13": "Wysokość",
+  "required_for_watson_body_water_calculation_14": "Wymagane do obliczenia zawartości wody w organizmie Watsona",
+  "cm_15": "cm",
+  "ft_16": "stopy",
+  "in_17": "W",
+  "time_since_first_drink_18": "Czas od pierwszego drinka",
+  "time_elapsed_since_your_first_alcoholic_drink_19": "Czas, jaki upłynął od pierwszego wypicia alkoholu",
+  "alcohol_consumed_20": "Spożywany alkohol",
+  "add_drink_21": "Dodaj napój",
+  "drink_22": "Drink",
+  "type_23": "Typ",
+  "beer_24": "Piwo",
+  "wine_25": "Wino",
+  "liquor_26": "Trunek",
+  "other_27": "Inny",
+  "quantity_28": "Ilość",
+  "volume_29": "Tom",
+  "oz_30": "uncja",
+  "ml_31": "ml",
+  "abv_32": "% ABV",
+  "metric_widmark_formula_33": "Metryczny wzór Widmarka:",
+  "bac_ag_r_wkg_10_t_34": "BAC(%) = A_g ÷ (r × W_kg × 10) - (β × t)",
+  "ag_alcohol_grams_r_distribution_ratio_male_068_fem_35": "A_g = gramy alkoholu, r = współczynnik dystrybucji (mężczyźni: 0,68, kobiety: 0,55), β = 0,017/godzinę\n                        eliminacja",
+  "calculate_36": "Obliczać",
+  "reset_37": "Nastawić",
+  "bac_results_38": "Wyniki BAC",
+  "bac_39": "BAK",
+  "h_40": "h",
+  "until_sober_41": "Aż do Trzeźwości",
+  "standard_drinks_42": "Standardowe napoje",
+  "enter_your_information_and_drinks_then_click_43": "Wprowadź swoje dane i napoje, a następnie kliknij",
+  "calculate_44": "Obliczać",
+  "to_see_bac_45": "zobaczyć BAC-a.",
+  "detailed_bac_analysis_46": "Szczegółowa analiza BAC",
+  "bac_level_47": "Poziom BAC",
+  "time_until_sober_48": "Czas do trzeźwości",
+  "hours_49": "godziny",
+  "at_0017hour_elimination_50": "Przy eliminacji 0,017/godzinę",
+  "standard_drinks_51": "Standardowe napoje",
+  "total_consumed_52": "Całość zużyta",
+  "pure_alcohol_53": "Czysty alkohol",
+  "g_54": "g",
+  "total_grams_55": "Razem gramy",
+  "calculation_steps_widmark_formula_56": "Kroki obliczeń (wzór Widmarka):",
+  "step_1_57": "Krok 1:",
+  "total_alcohol_58": "Całkowity alkohol =",
+  "g_volume_abv_0789_quantity_59": "g (objętość × ABV\n                          × 0,789 × Ilość)",
+  "step_2_60": "Krok 2:",
+  "distribution_ratio_61": "Współczynnik dystrybucji =",
+  "metric_constant_62": "stała metryczna)",
+  "step_3_63": "Krok 3:",
+  "initial_bac_64": "Początkowy BAC =",
+  "g_65": "g ÷ (",
+  "kg_10_66": "kg × 10) =",
+  "step_4_67": "Krok 4:",
+  "current_bac_68": "Aktualny BAC =",
+  "h_69": "h) =",
+  "important_disclaimer_70": "Ważne zastrzeżenie",
+  "this_bac_calculator_provides_an_estimate_only_actu_71": "Ten kalkulator BAC podaje jedynie szacunki. Rzeczywisty poziom BAC może się różnić w zależności od osoby\n                            czynniki. Nie pij i nie prowadź. Zawsze korzystaj z wyznaczonych sterowników lub alternatywnych sterowników\n                            transport.",
+  "understanding_blood_alcohol_concentration_72": "Zrozumienie stężenia alkoholu we krwi",
+  "what_is_bac_73": "Co to jest BAC?",
+  "blood_alcohol_concentration_bac_measures_the_amoun_74": "Stężenie alkoholu we krwi (BAC) mierzy ilość alkoholu we krwi jako:\n                        procent. W kalkulatorze tym zastosowano wzór Watsona w celu dokładniejszego obliczenia całkowitej zawartości wody w organizmie\n                        obliczenia w porównaniu z tradycyjnym równaniem Widmarka.",
+  "watson_vs_widmark_formula_75": "Formuła Watsona kontra Widmarka",
+  "watson_uses_age_height_weight_and_gender_for_preci_76": "Watson: wykorzystuje wiek, wzrost, wagę i płeć do precyzyjnego TBW",
+  "widmark_uses_simple_gender_constants_less_accurate_77": "Widmark: Używa prostych stałych płci (mniej dokładne)",
+  "elimination_rate_0017hour_more_accurate_than_0015_78": "Szybkość eliminacji: 0,017/godzinę (dokładniejsza niż 0,015)",
+  "alcohol_conversion_volume_abv_0789_density_79": "Konwersja alkoholu: objętość × ABV × gęstość 0,789",
+  "metric_widmark_formula_80": "Metryczny wzór Widmarka",
+  "formula_bac_ag_r_wkg_10_t_81": "Wzór: BAC(%) = A_g ÷ (r × W_kg × 10) - β × t",
+  "distribution_ratios_male_068_female_055_metric_con_82": "Współczynniki dystrybucji: mężczyzna 0,68, kobieta 0,55 (stałe metryczne)",
+  "elimination_rate_0017_per_hour_updated_standard_83": "Szybkość eliminacji: 0,017% na godzinę (zaktualizowany standard)",
+  "alcohol_conversion_volumeml_abv_0789_density_84": "Konwersja alkoholu: Objętość (ml) × ABV% × gęstość 0,789",
+  "standard_drink_equivalents_85": "Standardowe odpowiedniki napojów",
+  "k_1_standard_drink_14g_pure_alcohol_86": "1 napój standardowy = 14 g czystego alkoholu:",
+  "k_12_oz_beer_5_abv_87": "• 12 uncji piwa (5% ABV)",
+  "k_5_oz_wine_12_abv_88": "• 5 uncji wina (12% ABV)",
+  "k_15_oz_liquor_40_abv_89": "• 1,5 uncji alkoholu (40% ABV)",
+  "elimination_rate_90": "Wskaźnik eliminacji:",
+  "the_liver_eliminates_alcohol_at_approximately_0017_91": "Wątroba eliminuje alkohol w ilości około 0,017% BAC na godzinę (aktualizacja ze starszego 0,015\n                          wskaźnika spożycia alkoholu), niezależnie od wielkości ciała i doświadczenia związanego z piciem.",
+  "safety_note_92": "Uwaga dotycząca bezpieczeństwa:",
+  "this_calculator_is_for_educational_purposes_only_n_93": "Ten kalkulator służy wyłącznie do celów edukacyjnych. Nigdy nie polegaj\n                          Szacunki BAC w celu ustalenia, czy możesz bezpiecznie prowadzić samochód."
+}

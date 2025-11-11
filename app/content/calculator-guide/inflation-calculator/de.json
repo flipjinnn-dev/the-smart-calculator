@@ -1,0 +1,100 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Was ist Inflation?",
+      "content": "Unter Inflation versteht man den Anstieg des allgemeinen Preisniveaus von Waren und Dienstleistungen im Laufe der Zeit. Wenn die Preise steigen, sinkt die Kaufkraft des Geldes. <br><br>Wenn Sie beispielsweise im Jahr 2000 für 100 US-Dollar 10 Artikel gekauft haben, können Sie mit denselben 100 US-Dollar im Jahr 2025 möglicherweise nur 6–7 Artikel kaufen. <br><br>Die gängigste Methode zur Messung der Inflation ist der Verbraucherpreisindex (CPI), der die Preisänderungen eines „Warenkorbs mit Waren und Dienstleistungen“ im Laufe der Zeit verfolgt."
+    },
+    {
+      "heading": "Wie wird die Inflation berechnet?",
+      "content": "Die Inflation wird normalerweise nach dieser Formel berechnet:<br><br><strong>Inflationsrate = (VPI (aktuelles Jahr) - VPI (vorheriges Jahr)) / VPI (voriges Jahr) × 100</strong>",
+      "subSections": [
+        {
+          "heading": "Beispielrechnung",
+          "content": "VPI im Jahr 2024 = 305 <br>VPI im Jahr 2023 = 295 <br><br><strong>Inflationsrate = (305 - 295) / 295 × 100 = 3,39 %</strong> <br><br>Dies bedeutet, dass das durchschnittliche Preisniveau in einem Jahr um 3,39 % gestiegen ist."
+        }
+      ]
+    },
+    {
+      "heading": "Warum kommt es zur Inflation?",
+      "subSections": [
+        {
+          "heading": "Nachfrage-Pull-Inflation",
+          "content": "Wenn die Nachfrage nach Waren und Dienstleistungen höher ist als das Angebot, steigen die Preise."
+        },
+        {
+          "heading": "Kostentreibende Inflation",
+          "content": "Wenn die Produktionskosten (wie Löhne, Treibstoff oder Rohstoffe) steigen, erhöhen Unternehmen die Preise, um ihre Gewinne aufrechtzuerhalten."
+        },
+        {
+          "heading": "Integrierte Inflation",
+          "content": "Wenn Arbeiter mit steigenden Preisen rechnen, fordern sie höhere Löhne, was die Produktionskosten erhöht und die Preise weiter in die Höhe treibt."
+        }
+      ]
+    },
+    {
+      "heading": "Beispiele für Inflation in der Geschichte",
+      "subSections": [
+        {
+          "heading": "Hyperinflation in Deutschland (1920er Jahre)",
+          "content": "Die Preise stiegen so schnell, dass die Menschen Schubkarren voller Bargeld brauchten, um Grundgüter zu kaufen."
+        },
+        {
+          "heading": "Brasilien (1980er–1990er)",
+          "content": "Die jährliche Inflationsrate erreichte über 2.000 %, was schwere Auswirkungen auf die Wirtschaft hatte."
+        },
+        {
+          "heading": "Aktuelle US-Inflation (2021–2022)",
+          "content": "Lieferkettenprobleme nach der Pandemie und eine hohe Nachfrage führten zu den höchsten Inflationsraten seit 40 Jahren."
+        }
+      ]
+    },
+    {
+      "heading": "Was ist mit der Deflation?",
+      "content": "Das Gegenteil von Inflation ist Deflation, wenn die Preise im Laufe der Zeit fallen. Auch wenn es gut klingt, kann eine Deflation der Wirtschaft schaden, weil Unternehmen weniger verdienen, was zu Lohnkürzungen und Arbeitsplatzverlusten führt."
+    },
+    {
+      "heading": "Warum einen Inflationsrechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Vergleichen Sie den Wert des Geldes",
+          "content": "Sehen Sie, wie sich der Wert des Geldes im Laufe der Zeit verändert (Vergangenheit vs. Gegenwart)."
+        },
+        {
+          "heading": "Finanzplanung",
+          "content": "Verstehen Sie, wie sich die Inflation auf langfristige Ersparnisse, Investitionen und Ruhestandsziele auswirkt."
+        },
+        {
+          "heading": "Wirtschaftsanalyse",
+          "content": "Analysieren Sie historische Wirtschaftstrends und passen Sie Strategien entsprechend an."
+        },
+        {
+          "heading": "Gehalts- und Ersparnisanpassung",
+          "content": "Passen Sie Gehälter, Ersparnisse und Investitionen an die Inflation an, um die Kaufkraft aufrechtzuerhalten."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist Inflation in einfachen Worten?",
+      "a": "Inflation bedeutet, dass die Preise für Waren und Dienstleistungen im Laufe der Zeit steigen und die Kaufkraft des Geldes sinkt."
+    },
+    {
+      "q": "Wie berechne ich die Inflation?",
+      "a": "Verwenden Sie die Formel: (VPI des laufenden Jahres – VPI des Vorjahres) / VPI des Vorjahres × 100. Unser Inflationsrechner erledigt dies automatisch für Sie."
+    },
+    {
+      "q": "Was verursacht Inflation?",
+      "a": "Zu den häufigsten Ursachen gehören eine nachfragebedingte Inflation, eine kostentreibende Inflation und eine durch Lohn-Preis-Zyklen bedingte integrierte Inflation."
+    },
+    {
+      "q": "Ist Inflation immer schlecht?",
+      "a": "Nicht unbedingt. Eine moderate Inflation ist normal und kann auf eine wachsende Wirtschaft hinweisen. Eine hohe Inflation oder Hyperinflation kann jedoch schädlich sein."
+    },
+    {
+      "q": "Was ist Deflation?",
+      "a": "Deflation ist das Gegenteil von Inflation, bei der die Preise mit der Zeit fallen. Obwohl dies positiv erscheint, kann es das Wirtschaftswachstum verlangsamen und zu Arbeitslosigkeit führen."
+    }
+  ]
+}

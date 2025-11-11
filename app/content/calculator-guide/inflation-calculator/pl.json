@@ -1,0 +1,100 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Co to jest inflacja?",
+      "content": "Inflacja odnosi się do wzrostu ogólnego poziomu cen towarów i usług w czasie. Gdy ceny rosną, siła nabywcza pieniądza maleje. <br><br>Na przykład, jeśli w roku 2000 za 100 dolarów kupisz 10 artykułów, w roku 2025 za te same 100 dolarów możesz kupić tylko 6–7 artykułów. <br><br>Najpowszechniejszą metodą pomiaru inflacji jest wskaźnik cen towarów i usług konsumenckich (CPI), który śledzi zmiany cen „koszyka towarów i usług” w czasie."
+    },
+    {
+      "heading": "Jak obliczana jest inflacja?",
+      "content": "Inflację zwykle oblicza się za pomocą następującego wzoru:<br><br><strong>Stopa inflacji = (CPI (bieżący rok) - CPI (poprzedni rok)) / CPI (poprzedni rok) × 100</strong>",
+      "subSections": [
+        {
+          "heading": "Przykładowe obliczenia",
+          "content": "CPI w 2024 r. = 305 <br>CPI w 2023 r. = 295 <br><br><strong>Stopa inflacji = (305 - 295) / 295 × 100 = 3,39%</strong> <br><br>Oznacza to, że średni poziom cen wzrósł w ciągu jednego roku o 3,39%."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego pojawia się inflacja?",
+      "subSections": [
+        {
+          "heading": "Inflacja popytowa",
+          "content": "Kiedy popyt na towary i usługi jest większy niż podaż, ceny rosną."
+        },
+        {
+          "heading": "Inflacja napędzająca koszty",
+          "content": "Kiedy koszty produkcji (takie jak płace, paliwo czy surowce) rosną, firmy podnoszą ceny, aby utrzymać zyski."
+        },
+        {
+          "heading": "Wbudowana inflacja",
+          "content": "Kiedy pracownicy spodziewają się wzrostu cen, żądają wyższych płac, co zwiększa koszty produkcji i jeszcze bardziej winduje ceny."
+        }
+      ]
+    },
+    {
+      "heading": "Przykłady inflacji w historii",
+      "subSections": [
+        {
+          "heading": "Hiperinflacja w Niemczech (lata dwudzieste XX wieku)",
+          "content": "Ceny rosły tak szybko, że ludzie potrzebowali taczek z gotówką, aby kupić podstawowe towary."
+        },
+        {
+          "heading": "Brazylia (lata 80. – 90.)",
+          "content": "Roczna inflacja osiągnęła ponad 2000%, co miało poważny wpływ na gospodarkę."
+        },
+        {
+          "heading": "Najnowsza inflacja w USA (2021–2022)",
+          "content": "Problemy z łańcuchem dostaw po pandemii i wysoki popyt spowodowały najwyższą stopę inflacji od 40 lat."
+        }
+      ]
+    },
+    {
+      "heading": "Co z deflacją?",
+      "content": "Przeciwieństwem inflacji jest deflacja, gdy ceny spadają w czasie. Choć może to brzmieć dobrze, deflacja może zaszkodzić gospodarce, ponieważ przedsiębiorstwa zarabiają mniej, co prowadzi do obniżek płac i utraty miejsc pracy."
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora inflacji?",
+      "subSections": [
+        {
+          "heading": "Porównaj wartość pieniądza",
+          "content": "Zobacz, jak wartość pieniądza zmienia się w czasie (przeszłość vs teraźniejszość)."
+        },
+        {
+          "heading": "Planowanie finansowe",
+          "content": "Zrozum, jak inflacja wpływa na długoterminowe oszczędności, inwestycje i cele emerytalne."
+        },
+        {
+          "heading": "Analiza ekonomiczna",
+          "content": "Analizuj historyczne trendy gospodarcze i odpowiednio dostosowuj strategie."
+        },
+        {
+          "heading": "Korekta wynagrodzeń i oszczędności",
+          "content": "Dostosuj pensje, oszczędności i inwestycje pod kątem inflacji, aby utrzymać siłę nabywczą."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Czym w prostych słowach jest inflacja?",
+      "a": "Inflacja oznacza, że ​​ceny towarów i usług rosną z biegiem czasu, zmniejszając siłę nabywczą pieniądza."
+    },
+    {
+      "q": "Jak obliczyć inflację?",
+      "a": "Skorzystaj ze wzoru: (CPI rok bieżący – CPI rok poprzedni) / CPI rok poprzedni × 100. Nasz kalkulator inflacji zrobi to za Ciebie automatycznie."
+    },
+    {
+      "q": "Co powoduje inflację?",
+      "a": "Do typowych przyczyn zalicza się inflację wynikającą z popytu, inflację wynikającą z popychania kosztów oraz inflację wbudowaną napędzaną cyklami płacowo-cenowymi."
+    },
+    {
+      "q": "Czy inflacja jest zawsze zła?",
+      "a": "Nie koniecznie. Umiarkowana inflacja jest zjawiskiem normalnym i może wskazywać na rosnącą gospodarkę. Jednakże wysoka inflacja lub hiperinflacja może być szkodliwa."
+    },
+    {
+      "q": "Co to jest deflacja?",
+      "a": "Deflacja jest przeciwieństwem inflacji, gdy ceny spadają w czasie. Choć wydaje się to pozytywne, może spowolnić wzrost gospodarczy i doprowadzić do bezrobocia."
+    }
+  ]
+}

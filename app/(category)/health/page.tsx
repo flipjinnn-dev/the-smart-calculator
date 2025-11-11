@@ -1,78 +1,88 @@
+"use client"
+
 import type { Metadata } from "next"
 import Script from "next/script"
 import Link from "next/link"
+import { useState, useEffect } from "react"
 import { ArrowLeft, Calculator, Heart } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import Logo from "@/components/logo"
+
 import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
+import { useCategoryContent } from "@/hooks/useCategoryContent"
+import { getCurrentLanguage } from "@/lib/url-utils"
 
-export const metadata: Metadata = {
-  title: "Health & Fitness Calculators - Smart Calculator",
-  description:
-    "Free health and fitness calculators including BMI, calorie, body fat, and medical calculators. Calculate your health metrics with ease.",
-  keywords: "health calculator, BMI calculator, calorie calculator, fitness calculator, body fat calculator",
-  alternates: {
-      canonical: "https://www.thesmartcalculator.com/health",
-    },
-}
-
-const healthCalculators = getCalculatorsByCategory("health")
-const popularHealthCalculators = getPopularCalculatorsByCategory("health")
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "Health & Fitness Calculators",
-  description: "Free health and fitness calculators for BMI, calories, body fat, and more",
-  url: "https://www.thesmartcalculator.com/health",
-  mainEntity: {
-    "@type": "ItemList",
-    itemListElement: healthCalculators.map((calc, index) => ({
-      "@type": "SoftwareApplication",
-      position: index + 1,
-      name: calc.name,
-      description: calc.description,
-      url: `https://www.thesmartcalculator.com${calc.href}`,
-      applicationCategory: "HealthApplication",
-    })),
-  },
+// Define fallback content
+const fallbackContent = {
+  name: "Health & Fitness",
+  description: "Free health and fitness calculators including BMI, calorie, body fat, and medical calculators. Calculate your health metrics with ease.",
+  slug: "health"
 }
 
 export default function HealthCategoryPage() {
+  // Detect language from URL path or headers
+  const [language, setLanguage] = useState("en");
+  
+  useEffect(() => {
+    // First try to get language from headers (set by middleware)
+    const headerLanguage = document.head.querySelector('meta[name="x-language"]')?.getAttribute('content');
+    if (headerLanguage) {
+      setLanguage(headerLanguage);
+      return;
+    }
+    
+    // Fallback to URL path detection
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/(br|pl|de)/);
+    const detectedLanguage = langMatch ? langMatch[1] : "en";
+    setLanguage(detectedLanguage);
+  }, []);
+
+  const { content, loading, error } = useCategoryContent("health", language);
+  
+  // Use content or fallback to defaults
+  const contentData = content || fallbackContent;
+
+  // Show loading state
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+  }
+
+  // Show error if content failed to load
+  if (error) {
+    return <div className="min-h-screen flex items-center justify-center">Error loading content: {error}</div>;
+  }
+
+  const healthCalculators = getCalculatorsByCategory("health", language)
+  const popularHealthCalculators = getPopularCalculatorsByCategory("health", language)
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: contentData.name,
+    description: contentData.description,
+    url: `https://www.thesmartcalculator.com/${contentData.slug}`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: healthCalculators.map((calc, index) => ({
+        "@type": "SoftwareApplication",
+        position: index + 1,
+        name: calc.name,
+        description: calc.description,
+        url: `https://www.thesmartcalculator.com${calc.href}`,
+        applicationCategory: "HealthApplication",
+      })),
+    },
+  }
+
   return (
     <>
-        <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-
+      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      {/* Removed invalid head element to prevent hydration error */}
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-        <header className="bg-white shadow-sm border-b">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-green-600 transition-colors">
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-600">Health & Fitness Calculators</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-3 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-gray-700">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Health & Fitness Calculators</span>
-            </div>
-          </div>
-        </nav>
+        {/* Removed duplicated header - now using shared header component */}
+        {/* Removed duplicated breadcrumb nav - now using shared header component */}
 
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 via-teal-50 to-white">
           <div className="max-w-4xl mx-auto text-center">
@@ -81,10 +91,9 @@ export default function HealthCategoryPage() {
                 <Heart className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Health & Fitness Calculators</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{contentData.name}</h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Monitor your health and fitness journey with our comprehensive collection of calculators. From BMI and
-              calorie tracking to body composition and medical assessments.
+              {contentData.description}
             </p>
             <Link href="/">
               <Button variant="outline" className="mb-8 bg-transparent">
@@ -120,7 +129,7 @@ export default function HealthCategoryPage() {
 
         <section className="py-8 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-white">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">All Health & Fitness Calculators</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">All {contentData.name} Calculators</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in">
               {healthCalculators.map((calc, index) => (
                 <Link key={calc.id} href={calc.href}>
@@ -142,8 +151,6 @@ export default function HealthCategoryPage() {
             </div>
           </div>
         </section>
-
-
       </div>
     </>
   )

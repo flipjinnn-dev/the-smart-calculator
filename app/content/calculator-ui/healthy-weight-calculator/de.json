@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Rechner für gesundes Gewicht",
+  "pageDescription": "Berechnen Sie Ihren gesunden Gewichtsbereich basierend auf Größe, Alter und Geschlecht mit unserem umfassenden Rechner für gesundes Gewicht",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "height": "Höhe",
+      "weight": "Aktuelles Gewicht",
+      "unitSystem": "Einheitensystem"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie ein gesundes Gewicht",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    }
+  },
+  "results": {
+    "healthyWeightRange": "Gesunder Gewichtsbereich",
+    "currentWeight": "Aktuelles Gewicht",
+    "healthyWeightTitle": "Gesunde Gewichtsergebnisse",
+    "bmiFormula": {
+      "label": "BMI-Formel",
+      "us": "BMI = (Gewicht in Pfund / (Größe in Zoll)²) × 703",
+      "metric": "BMI = Gewicht in kg / (Körpergröße in Metern)²"
+    },
+    "healthyBmiRange": "Gesunder BMI-Bereich: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "healthyWeightInfo": "Informationen zu gesundem Gewicht",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Konsultieren Sie einen Fachmann",
+    "healthyWeightMethods": {
+      "bmi": {
+        "title": "BMI-Methode",
+        "description": "Verwendet BMI-Bereiche (18,5–24,9), um das gesunde Gewicht zu bestimmen"
+      },
+      "who": {
+        "title": "WHO-Richtlinien",
+        "description": "Basierend auf Empfehlungen der Weltgesundheitsorganisation für gesunde Gewichtsbereiche"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Diagnosetool",
+      "individualVariation": "Ein gesundes Gewicht variiert je nach Muskelmasse, Knochendichte und Körperzusammensetzung"
+    },
+    "importantNotesList": [
+      "Diese Berechnungen stellen lediglich allgemeine Richtlinien dar",
+      "Sportler können aufgrund der Muskelmasse ein höheres Gewicht haben",
+      "Für eine individuelle Beratung wenden Sie sich an medizinisches Fachpersonal",
+      "Das Gewicht sollte neben anderen Gesundheitskennzahlen berücksichtigt werden"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "gilt als gesunder BMI-Bereich für Erwachsene.",
+      "association": "Dieser Bereich ist mit dem geringsten Risiko für Gesundheitsprobleme und Mortalität verbunden."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Geben Sie Ihre Maße ein, um Ihren gesunden Gewichtsbereich zu berechnen",
+    "healthyWeightRange": "Ihr gesunder Gewichtsbereich liegt zwischen {min} und {max} {unit}",
+    "currentWeightStatus": "Ihr aktuelles Gewicht liegt im gesunden Bereich {status}",
+    "belowRange": "unten",
+    "withinRange": "innerhalb",
+    "aboveRange": "über",
+    "ageWarning": "Verwenden Sie für Kinder und Jugendliche (≤20 Jahre) pädiatrische Wachstumstabellen",
+    "assessmentResult": "Bewertungsergebnis:",
+    "weightAnalysis": "Gewichtsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen auf der Grundlage mathematischer Formeln und sollte nicht als Ersatz für eine professionelle medizinische Beratung verwendet werden. Einzelne Ergebnisse können aufgrund von Faktoren, die in diesen Berechnungen nicht berücksichtigt wurden, variieren."
+  },
+  "seekHelp": {
+    "title": "Konsultieren Sie einen Arzt",
+    "content": "Wenn Sie Bedenken hinsichtlich Ihres Gewichts oder Ihrer Gesundheit haben, wenden Sie sich bitte an einen Arzt, der Sie auf der Grundlage Ihrer gesamten Krankengeschichte und Ihrer individuellen Umstände individuell beraten kann."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein"
+  },
+  "tooltips": {
+    "age": "Das Alter kann sich auf die Berechnung des gesunden Gewichts von Kindern/Jugendlichen auswirken",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "gender": "Für Männer und Frauen können unterschiedliche Formeln verwendet werden"
+  },
+  "weight_range_calculation_0": "Berechnung des Gewichtsbereichs",
+  "enter_your_height_to_calculate_your_healthy_weight_1": "Geben Sie Ihre Körpergröße ein, um Ihren gesunden Gewichtsbereich zu berechnen",
+  "unit_system_2": "Einheitensystem",
+  "us_ftin_3": "US (ft/in)",
+  "metric_cm_4": "Metrisch (cm)",
+  "height_5": "Höhe",
+  "ft_6": "ft",
+  "in_7": "In",
+  "height_cm_8": "Höhe (cm)",
+  "age_requirement_9": "Altersvoraussetzung",
+  "this_calculator_is_intended_for_adults_18_years_an_10": "Dieser Rechner ist für Erwachsene ab 18 Jahren gedacht. BMI-Berechnungen sind möglicherweise nicht möglich\n                              Geeignet für Kinder, schwangere Frauen oder Sportler.",
+  "calculate_11": "Berechnen",
+  "reset_12": "Zurücksetzen",
+  "healthy_weight_13": "Gesundes Gewicht",
+  "kg_14": "kg",
+  "lbs_15": "Pfund",
+  "for_height_16": "Für die Höhe",
+  "enter_your_height_to_see_your_healthy_weight_range_17": "Geben Sie Ihre Körpergröße ein, um Ihren gesunden Gewichtsbereich anzuzeigen.",
+  "your_healthy_weight_range_18": "Ihr gesunder Gewichtsbereich",
+  "for_height_19": "Für die Höhe",
+  "cm_20": "cm):",
+  "lbs_21": "Pfund",
+  "kg_22": "kg)",
+  "this_calculator_uses_the_standard_bmi_range_23": "Dieser Rechner verwendet den Standard-BMI-Bereich (",
+  "for_adults_24": ") für Erwachsene.",
+  "calculation_steps_25": "Berechnungsschritte",
+  "step_1_height_conversion_26": "Schritt 1: Höhenumrechnung",
+  "height_27": "Höhe:",
+  "height_in_meters_28": "Höhe in Metern:",
+  "m_29": "m",
+  "step_2_bmi_calculation_30": "Schritt 2: BMI-Berechnung",
+  "lower_limit_bmi_185_31": "Untergrenze (BMI 18,5):",
+  "kg_32": "kg",
+  "upper_limit_bmi_250_33": "Obergrenze (BMI 25,0):",
+  "kg_34": "kg",
+  "formula_bmi_height_35": "Formel: BMI × Körpergröße²",
+  "about_healthy_weight_36": "Über gesundes Gewicht",
+  "bmibased_calculation_37": "BMI-basierte Berechnung",
+  "based_on_bmi_range_38": "Basierend auf dem BMI-Bereich:",
+  "k_185_250_kgm_39": "18,5 – 25,0 kg/m²",
+  "formula_40": "Formel:",
+  "weight_bmi_height_41": "Gewicht = BMI × Körpergröße²",
+  "standard_42": "Standard:",
+  "world_health_organization_guidelines_43": "Richtlinien der Weltgesundheitsorganisation",
+  "age_group_44": "Altersgruppe:",
+  "adults_18_years_and_older_45": "Erwachsene ab 18 Jahren",
+  "important_notes_46": "Wichtige Hinweise",
+  "general_guideline_47": "Allgemeine Richtlinie:",
+  "not_personalized_medical_advice_48": "Keine personalisierte medizinische Beratung",
+  "limitations_49": "Einschränkungen:",
+  "doesnt_account_for_muscle_mass_50": "Berücksichtigt nicht die Muskelmasse",
+  "special_populations_51": "Besondere Populationen:",
+  "may_not_apply_to_athletes_52": "Gilt möglicherweise nicht für Sportler",
+  "consultation_53": "Beratung:",
+  "speak_with_healthcare_provider_54": "Sprechen Sie mit dem Gesundheitsdienstleister",
+  "bmi_categories_55": "BMI-Kategorien",
+  "bmi_range_56": "BMI-Bereich",
+  "category_57": "Kategorie",
+  "below_185_58": "Unter 18,5",
+  "underweight_59": "Untergewicht",
+  "k_185_249_60": "18.5 - 24.9",
+  "normal_weight_61": "Normalgewicht",
+  "k_250_299_62": "25.0 - 29.9",
+  "overweight_63": "Übergewicht",
+  "k_300_and_above_64": "30,0 und höher",
+  "obese_65": "Fettleibig",
+  "factors_not_considered_66": "Nicht berücksichtigte Faktoren",
+  "body_composition_67": "Körperzusammensetzung:",
+  "muscle_vs_fat_ratio_68": "Muskel-Fett-Verhältnis",
+  "bone_density_69": "Knochendichte:",
+  "individual_skeletal_differences_70": "Individuelle Skelettunterschiede",
+  "age_71": "Alter:",
+  "metabolism_and_body_changes_72": "Stoffwechsel und Körperveränderungen",
+  "ethnicity_73": "Ethnizität:",
+  "different_body_type_variations_74": "Verschiedene Variationen des Körpertyps",
+  "health_conditions_75": "Gesundheitszustand:",
+  "medical_considerations_76": "Medizinische Überlegungen"
+}

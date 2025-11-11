@@ -1,0 +1,114 @@
+{
+  "color": "Rosa",
+  "sections": [
+    {
+      "heading": "Was ist ein Eisprungrechner?",
+      "content": "Unser kostenloser Online-Ovulationsrechner hilft Ihnen dabei, Ihren Eisprungtag, Ihr fruchtbares Fenster und die besten Empfängnistermine basierend auf der Länge Ihres Menstruationszyklus abzuschätzen. Mit diesem Tool können Sie schnell und genau vorhersagen, wann Sie am wahrscheinlichsten schwanger werden."
+    },
+    {
+      "heading": "Wie funktioniert der Eisprungrechner?",
+      "content": "Ein Ovulationsterminrechner sagt voraus, wann Ihr Eierstock eine Eizelle freisetzt. Bei den meisten Frauen findet der Eisprung etwa 14 Tage vor der nächsten Periode statt. Durch Eingabe des ersten Tages Ihrer letzten Periode und Ihrer durchschnittlichen Zykluslänge schätzt der Rechner Ihren Eisprungtag, Ihr fruchtbares Fenster und mögliche Empfängnistermine."
+    },
+    {
+      "heading": "Verstehen Sie Ihr fruchtbares Fenster",
+      "subSections": [
+        {
+          "heading": "Lebensdauer der Spermien",
+          "content": "Spermien können bis zu 5 Tage im Fortpflanzungstrakt überleben."
+        },
+        {
+          "heading": "Lebensdauer des Eies",
+          "content": "Die Eizelle überlebt 12–24 Stunden nach dem Eisprung."
+        },
+        {
+          "heading": "Empfängnischancen",
+          "content": "Geschlechtsverkehr an diesen Tagen erhöht die Empfängnischancen."
+        }
+      ]
+    },
+    {
+      "heading": "Genauigkeit von Ovulationsrechnern",
+      "content": "Am genauesten, wenn die Zyklen regelmäßig sind (28–32 Tage). Weniger genau bei unregelmäßigen Perioden, PCOS, Schilddrüsenproblemen oder Stress. Am besten zusammen mit Ovulationszeichen wie Zervixschleim, Basaltemperatur oder Ovulations-Kits verwenden. Dies ist eine Anleitung, kein Diagnosetool."
+    },
+    {
+      "heading": "Besondere Situationen",
+      "subSections": [
+        {
+          "heading": "Unregelmäßige Zyklen",
+          "content": "Verwenden Sie Durchschnittswerte, verfolgen Sie aber auch die Anzeichen des Eisprungs."
+        },
+        {
+          "heading": "PCOS oder Stress",
+          "content": "Zyklen können unvorhersehbar sein – denken Sie über Ovulationstests nach."
+        },
+        {
+          "heading": "IVF-Zyklen",
+          "content": "Verwenden Sie online einen IVF-Ovulationsrechner unter Anleitung Ihres Fruchtbarkeitsarztes."
+        },
+        {
+          "heading": "Berechnung des Fälligkeitsdatums",
+          "content": "Ein Geburtstermin- und Eisprungrechner kann die Empfängnis und die voraussichtliche Entbindung abschätzen."
+        }
+      ]
+    },
+    {
+      "heading": "Eisprungrechner vs. Eisprungkalender",
+      "subSections": [
+        {
+          "heading": "Kalkulator",
+          "content": "Schätzt den Eisprung und die fruchtbaren Tage basierend auf den eingegebenen Daten."
+        },
+        {
+          "heading": "Kalender",
+          "content": "Verfolgt Zyklen im Zeitverlauf, ist jedoch bei unregelmäßigen Zyklen weniger präzise."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Probieren Sie der Einfachheit halber einen Eisprungrechner mit Kalenderexport oder App-Integration aus."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wann habe ich den Eisprung?",
+      "a": "Bei den meisten Frauen findet der Eisprung etwa 14 Tage vor der nächsten Periode statt."
+    },
+    {
+      "q": "Wie berechnet man den Eisprung?",
+      "a": "Zählen Sie ab Ihrer nächsten Periode 14 Tage zurück oder nutzen Sie einen Online-Ovulationsrechner."
+    },
+    {
+      "q": "Was ist das fruchtbare Fenster?",
+      "a": "Die 5 Tage vor dem Eisprung plus der Tag des Eisprungs sind Ihr fruchtbares Fenster."
+    },
+    {
+      "q": "Wie viele Tage nach der Periode haben Sie Ihren Eisprung?",
+      "a": "Typischerweise 10–16 Tage nach dem ersten Tag Ihrer Periode, abhängig von der Zykluslänge."
+    },
+    {
+      "q": "Wie genau sind Eisprungrechner?",
+      "a": "Genau bei regelmäßigen Zyklen, jedoch weniger bei unregelmäßigen oder medizinisch beeinträchtigten Zyklen."
+    },
+    {
+      "q": "Kann Stress den Eisprung verzögern?",
+      "a": "Ja. Stress kann den Eisprung verzögern oder unterdrücken und so Ihr fruchtbares Fenster verändern."
+    },
+    {
+      "q": "Was sind Anzeichen für einen Eisprung bei Frauen?",
+      "a": "Zervixschleimveränderungen, leichte Beckenschmerzen, Brustspannen und ein Anstieg der Basaltemperatur."
+    },
+    {
+      "q": "Wie kann man den Eisprung auf natürliche Weise verfolgen?",
+      "a": "Verfolgen Sie Zyklen, Zervixschleim und Basaltemperatur oder verwenden Sie Eisprung-Kits."
+    },
+    {
+      "q": "Wie funktioniert der Eisprung bei unregelmäßigen Perioden?",
+      "a": "Der Eisprung ist unvorhersehbar. Verwenden Sie einen Taschenrechner mit Option für unregelmäßige Zyklen und Symptomverfolgung."
+    },
+    {
+      "q": "Wie lange dauert der Eisprung?",
+      "a": "Der Eisprung selbst dauert 12–24 Stunden, Ihr fruchtbares Fenster erstreckt sich jedoch über 6 Tage."
+    }
+  ]
+}

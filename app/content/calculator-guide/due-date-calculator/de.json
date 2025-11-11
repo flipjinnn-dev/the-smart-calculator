@@ -1,0 +1,110 @@
+{
+  "color": "lila",
+  "sections": [
+    {
+      "heading": "Was ist ein Schwangerschaftsterminrechner?",
+      "content": "Unser Schwangerschaftsterminrechner ist ein einfaches, medizinisch genaues und kostenloses Online-Tool, mit dem Sie abschätzen können, wann Ihr Baby zur Welt kommen könnte. Anhand Ihrer letzten Menstruation (LMP), Ihres Eisprungdatums oder Ihres IVF-Transferdatums bietet dieser Online-Fälligkeitsterminrechner einen voraussichtlichen Entbindungstermin (EDD), einen wöchentlichen Schwangerschaftskalender und einen Trimester-Zeitplan. Bedenken Sie: Geburtstermine sind Schätzungen – nur etwa 4 % der Babys werden genau zum Geburtstermin geboren. Die meisten kommen innerhalb eines zweiwöchigen Zeitfensters vorher oder nachher an."
+    },
+    {
+      "heading": "So berechnen Sie das Fälligkeitsdatum der Schwangerschaft",
+      "subSections": [
+        {
+          "heading": "LMP-Fälligkeitsterminrechner",
+          "content": "Basierend auf dem ersten Tag Ihrer letzten Menstruation (häufigste Methode)."
+        },
+        {
+          "heading": "Rechner für das Fälligkeitsdatum der Empfängnis",
+          "content": "Wenn Sie Ihr Eisprung- oder Empfängnisdatum kennen, können Sie daraus den Geburtstermin berechnen."
+        },
+        {
+          "heading": "IVF-Fälligkeitsterminrechner",
+          "content": "Bei Schwangerschaften, die durch IVF oder assistierte Reproduktionstechnologie erreicht werden, wird das Datum des Embryotransfers verwendet."
+        },
+        {
+          "heading": "Ultraschall-Fälligkeitsterminrechner",
+          "content": "Basierend auf Frühschwangerschaftsscans, besonders genau im ersten Trimester."
+        },
+        {
+          "heading": "Gestationsalter- und Geburtsterminrechner",
+          "content": "Kombiniert Wochen und Tage der Schwangerschaft mit dem voraussichtlichen Entbindungstermin."
+        }
+      ]
+    },
+    {
+      "heading": "Schwangerschaftszeitplan: Trimester und Woche für Woche",
+      "subSections": [
+        {
+          "heading": "Erstes Trimester (Woche 1–12)",
+          "content": "Empfängnis, frühe Entwicklung und häufige Symptome wie morgendliche Übelkeit."
+        },
+        {
+          "heading": "Zweites Trimester (Woche 13–27)",
+          "content": "Das Wachstum des Babys beschleunigt sich, es wird ein Anatomie-Scan durchgeführt und die Mutter spürt eine Bewegung."
+        },
+        {
+          "heading": "Drittes Trimester (Woche 28–40+)",
+          "content": "Schnelles Babywachstum, Vorbereitung auf die Entbindung und Vollschwangerschaft."
+        },
+        {
+          "heading": "Vollzeitschwangerschaft",
+          "content": "Geht von 40 Wochen (280 Tagen) ab Ihrem LMP aus. Babys können jederzeit zwischen der 37. und 42. Woche sicher zur Welt kommen."
+        }
+      ]
+    },
+    {
+      "heading": "Globale Verwendung – Schwangerschaftsterminrechner nach Land",
+      "content": "Egal, ob Sie sich in den USA, im Vereinigten Königreich, Kanada, Indien, Pakistan oder Australien befinden, dieses kostenlose Schwangerschaftstermin-Tool funktioniert universell. Die Gesundheitssysteme können variieren, die Berechnungsmethode bleibt jedoch medizinisch an den Richtlinien der WHO, des NHS und des ACOG ausgerichtet."
+    },
+    {
+      "heading": "Warum sollten Sie unseren Rechner zum voraussichtlichen Liefertermin verwenden?",
+      "subSections": [
+        {
+          "heading": "Kostenlos und einfach",
+          "content": "Keine Anmeldung erforderlich."
+        },
+        {
+          "heading": "Genaue Methoden",
+          "content": "Optionen für LMP, Empfängnis, IVF und Ultraschall verfügbar."
+        },
+        {
+          "heading": "Medizinische Ausrichtung",
+          "content": "Basierend auf dem Standardmodell der 40-wöchigen Schwangerschaft."
+        },
+        {
+          "heading": "Personalisierter Schwangerschaftskalender",
+          "content": "Verfolgen Sie Meilensteine ​​Woche für Woche mit einem klaren Schwangerschaftszeitplan."
+        },
+        {
+          "heading": "Gemeinsam nutzbares Tool",
+          "content": "Hilfreich für werdende Eltern, Familien und Gesundheitsdienstleister."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kann ein Fälligkeitsrechner falsch sein?",
+      "a": "Ja. Ein Fälligkeitsdatum ist nur eine Schätzung. Nur eines von 25 Babys wird genau zum vorhergesagten Datum geboren. Die meisten kommen innerhalb von 2 Wochen vorher oder nachher an."
+    },
+    {
+      "q": "Wie genau ist ein Schwangerschaftsterminrechner?",
+      "a": "LMP-basierte Rechner gehen von einem 28-Tage-Zyklus aus. Ultraschallbasierte Daten (insbesondere im ersten Trimester) sind genauer. Die Genauigkeit kann variieren, wenn Sie unregelmäßige Zyklen haben."
+    },
+    {
+      "q": "Was passiert, wenn ich das Datum meiner letzten Periode nicht kenne?",
+      "a": "Sie können einen Rechner für das Fälligkeitsdatum einer Empfängnis verwenden oder Ihren Arzt um eine Ultraschall-Schätzung des Fälligkeitsdatums bitten."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen dem Geburtsterminrechner und dem Ultraschall?",
+      "a": "Der Online-Rechner zum Fälligkeitstermin verwendet Menstruations-/Empfängnisdaten, während Ultraschallrechner das Wachstum des Babys messen und in der Frühschwangerschaft oft zuverlässiger sind."
+    },
+    {
+      "q": "Kann ich meinen Geburtstermin berechnen, wenn ich eine IVF hatte?",
+      "a": "Ja. Für eine höhere Genauigkeit verwenden Sie den IVF-Fälligkeitsterminrechner mit Ihrem Embryotransferdatum."
+    },
+    {
+      "q": "Wie groß ist der wöchentliche Bereich für den Geburtstermin des Babys?",
+      "a": "Die Schwangerschaft dauert in der Regel 37–42 Wochen. Babys, die zwischen diesen Wochen geboren werden, liegen im normalen Bereich."
+    }
+  ]
+}

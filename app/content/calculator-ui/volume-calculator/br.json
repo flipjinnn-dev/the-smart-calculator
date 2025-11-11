@@ -1,0 +1,139 @@
+{
+  "pageTitle": "Calculadora de Volume",
+  "pageDescription": "Calcule o volume de várias formas",
+  "form": {
+    "labels": {
+      "shape": "Selecione a forma",
+      "length": "Comprimento",
+      "width": "Largura",
+      "height": "Altura",
+      "radius": "Raio",
+      "baseArea": "Área Base",
+      "baseRadius": "Raio Base",
+      "topRadius": "Raio superior",
+      "slantHeight": "Altura inclinada"
+    },
+    "placeholders": {
+      "length": "Insira o comprimento",
+      "width": "Insira a largura",
+      "height": "Insira a altura",
+      "radius": "Insira o raio",
+      "baseArea": "Entre na área base",
+      "baseRadius": "Insira o raio base",
+      "topRadius": "Insira o raio superior",
+      "slantHeight": "Insira a altura inclinada"
+    },
+    "buttons": {
+      "calculate": "Calcular Volume",
+      "reset": "Reiniciar"
+    },
+    "shapes": {
+      "cube": "Cubo",
+      "rectangularPrism": "Prisma Retangular",
+      "cylinder": "Cilindro",
+      "sphere": "Esfera",
+      "cone": "Cone",
+      "pyramid": "Pirâmide",
+      "ellipsoid": "Elipsóide",
+      "torus": "Toro"
+    }
+  },
+  "results": {
+    "volumeCalculation": "Resultados do cálculo de volume",
+    "volume": "Volume",
+    "formula": "Fórmula usada",
+    "unit3": "unidades cúbicas",
+    "surfaceArea": "Área de Superfície",
+    "unit2": "unidades quadradas"
+  },
+  "educational": {
+    "volumeInfo": "Informações de volume",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos Matemáticos",
+    "volumeFacts": {
+      "definition": {
+        "title": "Definição de volume",
+        "description": "Volume é a quantidade de espaço tridimensional ocupado por um objeto"
+      },
+      "units": {
+        "title": "Unidades de medição",
+        "description": "As unidades comuns incluem metros cúbicos (m³), centímetros cúbicos (cm³), litros (L) e galões (gal)"
+      },
+      "applications": {
+        "title": "Aplicações do mundo real",
+        "description": "Cálculos de volume são usados ​​na construção, fabricação, química e na vida cotidiana"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas cálculos de volume",
+      "actual": "Os volumes reais podem variar com base na precisão da medição e nas irregularidades do objeto"
+    },
+    "importantNotesList": [
+      "Use unidades consistentes para todas as medições",
+      "Os resultados são baseados em formas geométricas ideais",
+      "Objetos reais podem ter formas irregulares que exigem cálculos mais complexos",
+      "Algumas formas podem exigir unidades ou conversões específicas"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Selecione uma forma e insira as dimensões necessárias para calcular o volume",
+    "resultMessage": "Os resultados do seu cálculo de volume são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo de volume:",
+    "volumeAnalysis": "Análise de Volume"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece cálculos de volume para formas geométricas ideais. Os volumes reais de objetos reais podem variar com base na precisão da medição, irregularidades do objeto e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos Matemáticos",
+    "content": "Para problemas avançados de geometria e cálculos de volume, consulte livros didáticos de matemática ou recursos acadêmicos sobre geometria sólida e teoria de medição."
+  },
+  "errors": {
+    "length": "Insira um comprimento válido",
+    "width": "Insira uma largura válida",
+    "height": "Insira uma altura válida",
+    "radius": "Insira um raio válido",
+    "baseArea": "Por favor insira uma área base válida",
+    "baseRadius": "Insira um raio de base válido",
+    "topRadius": "Insira um raio superior válido",
+    "slantHeight": "Insira uma altura de inclinação válida"
+  },
+  "tooltips": {
+    "shape": "Selecione a forma geométrica para cálculo de volume",
+    "length": "Comprimento do objeto",
+    "width": "Largura do objeto",
+    "height": "Altura do objeto",
+    "radius": "Raio do objeto",
+    "baseArea": "Área da base do objeto",
+    "baseRadius": "Raio da base do objeto",
+    "topRadius": "Raio do topo do objeto",
+    "slantHeight": "Altura inclinada do objeto"
+  },
+  "volume_calculations_0": "Cálculos de volume",
+  "select_a_shape_and_enter_your_values_1": "Selecione uma forma e insira seus valores",
+  "select_shape_2": "Selecione a forma",
+  "m_3": "m",
+  "cm_4": "cm",
+  "mm_5": "milímetros",
+  "inch_6": "polegada",
+  "ft_7": "pés",
+  "yd_8": "jarda",
+  "formula_9": "Fórmula:",
+  "calculate_10": "Calcular",
+  "result_11": "Resultado",
+  "enter_values_and_click_12": "Insira os valores e clique",
+  "calculate_13": "Calcular",
+  "to_see_result_14": "para ver o resultado.",
+  "how_to_use_this_calculator_15": "Como usar esta calculadora?",
+  "k_1_16": "1",
+  "select_the_shape_you_want_to_calculate_the_volume__17": "Selecione a forma para a qual deseja calcular o volume.",
+  "k_2_18": "2",
+  "enter_your_values_in_the_input_fields_19": "Insira seus valores nos campos de entrada.",
+  "k_3_20": "3",
+  "click_21": "Clique",
+  "calculate_22": "Calcular",
+  "to_see_the_result_instantly_23": "para ver o resultado instantaneamente."
+}

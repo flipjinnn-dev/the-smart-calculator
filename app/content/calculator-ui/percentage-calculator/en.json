@@ -1,0 +1,140 @@
+{
+  "pageTitle": "Percentage Calculator",
+  "pageDescription": "Calculate percentages, ratios, and percentage changes easily with our comprehensive percentage calculator",
+  "form": {
+    "labels": {
+      "calculationType": "Calculation Type",
+      "part": "Part",
+      "whole": "Whole",
+      "percentage": "Percentage",
+      "value1": "First Value",
+      "value2": "Second Value"
+    },
+    "placeholders": {
+      "part": "Enter the part",
+      "whole": "Enter the whole",
+      "percentage": "Enter the percentage",
+      "value1": "Enter first value",
+      "value2": "Enter second value"
+    },
+    "buttons": {
+      "calculate": "Calculate Percentage",
+      "reset": "Reset"
+    },
+    "calculationTypes": {
+      "partToWhole": "What is {part} of {whole} as a percentage?",
+      "percentageOfNumber": "What is {percentage}% of {number}?",
+      "percentageChange": "What is the percentage change from {value1} to {value2}?",
+      "percentageDifference": "What is the percentage difference between {value1} and {value2}?"
+    }
+  },
+  "results": {
+    "result": "Result",
+    "percentageValue": "Percentage Value",
+    "calculatedValue": "Calculated Value",
+    "percentageChange": "Percentage Change",
+    "percentageDifference": "Percentage Difference",
+    "percentageResultsTitle": "Percentage Results"
+  },
+  "educational": {
+    "percentageInfo": "Percentage Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Additional Resources",
+    "percentageFormulas": {
+      "partToWhole": {
+        "title": "Part to Whole Percentage",
+        "formula": "Percentage = (Part ÷ Whole) × 100"
+      },
+      "percentageOfNumber": {
+        "title": "Percentage of a Number",
+        "formula": "Result = (Percentage ÷ 100) × Number"
+      },
+      "percentageChange": {
+        "title": "Percentage Change",
+        "formula": "Change = ((New Value - Original Value) ÷ Original Value) × 100"
+      },
+      "percentageDifference": {
+        "title": "Percentage Difference",
+        "formula": "Difference = (|Value1 - Value2| ÷ ((Value1 + Value2) ÷ 2)) × 100"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides mathematical calculations only",
+      "accuracy": "Ensure you're using the correct calculation type for your needs"
+    },
+    "importantNotesList": [
+      "Percentages are used in many real-world applications including finance, statistics, and science",
+      "Always double-check your inputs to ensure accurate results",
+      "Consider the context of your calculation to choose the appropriate percentage formula",
+      "Negative percentage changes indicate a decrease, while positive changes indicate an increase"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your values to calculate the percentage",
+    "resultMessage": "The result of your calculation is shown below",
+    "assessmentResult": "Calculation Result:",
+    "percentageAnalysis": "Percentage Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides mathematical calculations based on standard percentage formulas. The accuracy of results depends on the correctness of the input values and selection of the appropriate calculation type."
+  },
+  "seekHelp": {
+    "title": "Additional Resources",
+    "content": "For complex percentage calculations or specialized applications, consider consulting a mathematics professional or using specialized software tools designed for your specific field of work."
+  },
+  "errors": {
+    "part": "Please enter a valid part value",
+    "whole": "Please enter a valid whole value",
+    "percentage": "Please enter a valid percentage value",
+    "value1": "Please enter a valid first value",
+    "value2": "Please enter a valid second value",
+    "calculationType": "Please select a calculation type"
+  },
+  "tooltips": {
+    "calculationType": "Select the type of percentage calculation you need",
+    "part": "The portion or part of the whole you're calculating",
+    "whole": "The total or complete amount",
+    "percentage": "The percentage value you're working with",
+    "value1": "The first value in your calculation",
+    "value2": "The second value in your calculation"
+  },
+  "loading_0": "Loading...",
+  "percentage_calculations_1": "Percentage Calculations",
+  "choose_the_type_of_percentage_calculation_you_need_2": "Choose the type of percentage calculation you need",
+  "of_3": "% of",
+  "what_is_4": "What % is",
+  "increase_5": "% Increase",
+  "decrease_6": "% Decrease",
+  "percentage_7": "Percentage (%)",
+  "of_number_8": "Of Number",
+  "calculate_9": "Calculate",
+  "number_10": "Number",
+  "of_total_11": "Of Total",
+  "calculate_12": "Calculate",
+  "original_number_13": "Original Number",
+  "increase_14": "Increase (%)",
+  "calculate_15": "Calculate",
+  "original_number_16": "Original Number",
+  "decrease_17": "Decrease (%)",
+  "calculate_18": "Calculate",
+  "result_19": "Result",
+  "calculated_value_20": "Calculated Value",
+  "you_can_copy_or_use_this_value_as_needed_21": "You can copy or use this value as needed.",
+  "enter_values_and_click_22": "Enter values and click",
+  "calculate_23": "Calculate",
+  "to_see_result_24": "to see result.",
+  "how_to_use_this_calculator_25": "How to use this calculator?",
+  "k_1_26": "1",
+  "select_the_type_of_percentage_calculation_you_need_27": "Select the type of percentage calculation you need.",
+  "k_2_28": "2",
+  "enter_your_values_in_the_input_fields_29": "Enter your values in the input fields.",
+  "k_3_30": "3",
+  "click_31": "Click",
+  "calculate_32": "Calculate",
+  "to_see_the_result_instantly_33": "to see the result instantly.",
+  "k_4_34": "4",
+  "switch_between_tabs_for_different_percentage_opera_35": "Switch between tabs for different percentage operations."
+}

@@ -1,0 +1,121 @@
+{
+  "color": "vermelho",
+  "sections": [
+    {
+      "heading": "Calculadora de calorias: conheça suas necessidades diárias de energia",
+      "content": "Compreender suas necessidades diárias de calorias é essencial para manter um peso saudável, atingir metas de condicionamento físico e otimizar o bem-estar geral. Calorias são a energia que seu corpo usa para realizar funções básicas, exercícios e atividades cotidianas. Usando uma calculadora de calorias online, você pode determinar facilmente quantas calorias deve consumir por dia com base em seus dados pessoais."
+    },
+    {
+      "heading": "Como funciona a calculadora de calorias?",
+      "content": "A Calculadora Diária de Necessidades Calóricas estima suas necessidades de energia considerando fatores-chave:",
+      "subSections": [
+        {
+          "heading": "Taxa Metabólica Basal (TMB)",
+          "content": "O número de calorias que seu corpo queima em repouso para manter funções vitais como respiração e circulação."
+        },
+        {
+          "heading": "Gasto Total Diário com Energia (TDEE)",
+          "content": "Calorias queimadas ao longo do dia, incluindo atividades, exercícios e movimentos diários."
+        },
+        {
+          "heading": "Nível de atividade",
+          "content": "Sedentário, pouco ativo, moderadamente ativo, muito ativo ou extra ativo."
+        },
+        {
+          "heading": "Atributos Pessoais",
+          "content": "Idade, sexo, peso e altura são levados em consideração no cálculo."
+        }
+      ]
+    },
+    {
+      "heading": "Calorias para diferentes objetivos",
+      "content": "Suas necessidades calóricas mudam dependendo se você deseja perder peso, manter o peso ou ganhar músculos:",
+      "subSections": [
+        {
+          "heading": "Perda de peso",
+          "content": "500–750 calorias abaixo da manutenção — ajuda a alcançar uma perda de gordura sustentável."
+        },
+        {
+          "heading": "Manutenção",
+          "content": "Igual ao TDEE — ajuda a manter o peso atual."
+        },
+        {
+          "heading": "Ganho muscular",
+          "content": "250–500 calorias acima da manutenção – apoia o crescimento muscular magro."
+        }
+      ]
+    },
+    {
+      "heading": "Dicas para monitorar calorias de maneira eficaz",
+      "content": "Siga estas práticas para obter melhores resultados:",
+      "subSections": [
+        {
+          "heading": "Use um aplicativo de calculadora de calorias",
+          "content": "Registre refeições e monitore a ingestão diária facilmente."
+        },
+        {
+          "heading": "Ajuste as calorias com base na atividade",
+          "content": "Atividades leves requerem menos calorias do que exercícios pesados."
+        },
+        {
+          "heading": "Monitore o progresso",
+          "content": "Verifique semanalmente e faça alterações graduais."
+        },
+        {
+          "heading": "Nutrição Equilibrada",
+          "content": "Combine o monitoramento de calorias com uma nutrição adequada para uma saúde a longo prazo."
+        }
+      ]
+    },
+    {
+      "heading": "Limitações e isenção de responsabilidade",
+      "content": "Embora nossa ferramenta Calculadora Inteligente de Calorias forneça uma estimativa confiável, ela não substitui o aconselhamento médico ou nutricionista profissional. As necessidades individuais podem variar de acordo com as condições de saúde, metabolismo e estilo de vida. Consulte sempre um profissional de saúde para orientação personalizada."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quantas calorias devo comer por dia?",
+      "a": "Depende da sua idade, sexo, peso, altura e nível de atividade. Use nossa calculadora diária de necessidades calóricas para uma estimativa personalizada."
+    },
+    {
+      "q": "Como calculo minhas necessidades diárias de calorias?",
+      "a": "As calorias diárias são calculadas usando TMB e TDEE, ajustadas de acordo com o nível de atividade e metas de condicionamento físico."
+    },
+    {
+      "q": "Quantas calorias para perder peso?",
+      "a": "Consuma 500–750 calorias abaixo do seu nível de manutenção para uma perda de peso sustentável."
+    },
+    {
+      "q": "Quantas calorias para ganhar músculos?",
+      "a": "Procure consumir 250–500 calorias acima da manutenção, combinadas com treinamento de força, para um crescimento muscular ideal."
+    },
+    {
+      "q": "Qual é a diferença entre TMB e TDEE?",
+      "a": "TMB: Calorias queimadas em repouso. TDEE: Total de calorias queimadas, incluindo atividade diária e exercício."
+    },
+    {
+      "q": "Quão precisas são as calculadoras de calorias?",
+      "a": "Eles fornecem estimativas baseadas em fórmulas padrão. A precisão pode variar de acordo com o metabolismo individual, condições de saúde e nível de atividade."
+    },
+    {
+      "q": "Como ajustar as calorias com base no nível de atividade?",
+      "a": "Aumente as calorias para mais atividade e diminua para menos atividade. Indivíduos sedentários precisam de menos calorias do que usuários altamente ativos."
+    },
+    {
+      "q": "Os idosos podem usar esta calculadora?",
+      "a": "Sim, nossa Calculadora de Calorias para Idosos se ajusta às alterações metabólicas relacionadas à idade para fornecer recomendações precisas."
+    },
+    {
+      "q": "Os atletas podem usar esta ferramenta?",
+      "a": "Absolutamente. A Calculadora de Calorias para Atletas leva em conta as maiores demandas de energia decorrentes de treinamento intenso."
+    },
+    {
+      "q": "A IA pode ajudar a monitorar minha ingestão de calorias?",
+      "a": "Sim! Calculadoras e aplicativos de calorias com tecnologia de IA podem ajudar a registrar refeições, monitorar a ingestão de nutrientes e fornecer recomendações personalizadas."
+    }
+  ],
+  "cta": {
+    "heading": "Acompanhe suas calorias diárias hoje",
+    "content": "Pare de adivinhar suas necessidades energéticas. Use nossa Calculadora de Calorias Online Gratuita para saber exatamente quantas calorias você precisa para perda de peso, manutenção ou ganho muscular. Obtenha resultados precisos e personalizados e assuma o controle de sua saúde e condicionamento físico agora."
+  }
+}

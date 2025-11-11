@@ -1,0 +1,124 @@
+{
+  "pageTitle": "Calculadora de taxa de juros",
+  "pageDescription": "Calcule o impacto das taxas de juros sobre empréstimos e investimentos para comparar diferentes produtos financeiros e tomar decisões informadas",
+  "form": {
+    "labels": {
+      "principal": "Valor principal",
+      "interestRate": "Taxa de juros anual",
+      "timePeriod": "Período de tempo",
+      "compounding": "Frequência Composta",
+      "calculationType": "Tipo de cálculo"
+    },
+    "placeholders": {
+      "principal": "Insira o valor principal",
+      "interestRate": "Insira a taxa de juros anual (%)",
+      "timePeriod": "Insira o período de tempo"
+    },
+    "buttons": {
+      "calculate": "Calcular juros",
+      "reset": "Reiniciar"
+    },
+    "calculationTypes": {
+      "simple": "Juros simples",
+      "compound": "Juros compostos",
+      "apr": "Taxa percentual anual (APR)",
+      "apy": "Rendimento percentual anual (APY)"
+    },
+    "compoundingFrequencies": {
+      "annually": "Anualmente",
+      "semiAnnually": "Semestralmente",
+      "quarterly": "Trimestral",
+      "monthly": "Mensal",
+      "daily": "Diário"
+    }
+  },
+  "results": {
+    "interestEarned": "Juros ganhos",
+    "futureValue": "Valor Futuro",
+    "totalAmount": "Montante total",
+    "effectiveRate": "Taxa Anual Efetiva",
+    "interestRateResultsTitle": "Resultados do cálculo da taxa de juros"
+  },
+  "educational": {
+    "interestRateInfo": "Informações sobre taxas de juros",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "interestRateFacts": {
+      "simpleVsCompound": {
+        "title": "Juros Simples vs Compostos",
+        "description": "Os juros simples são calculados apenas sobre o principal; juros compostos incluem juros acumulados"
+      },
+      "aprVsApy": {
+        "title": "APR x APY",
+        "description": "APR é a taxa básica de juros; APY inclui efeitos compostos"
+      },
+      "rateFactors": {
+        "title": "Fatores que afetam as taxas",
+        "description": "A pontuação de crédito, o prazo do empréstimo e as condições econômicas influenciam as taxas de juros"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de cálculo de taxas de juros",
+      "actual": "As taxas de juros reais podem variar com base nas políticas do credor e nas condições de mercado"
+    },
+    "importantNotesList": [
+      "APY é sempre maior que APR quando a capitalização ocorre mais de uma vez por ano",
+      "Pontuações de crédito mais altas normalmente se qualificam para taxas de juros mais baixas",
+      "Prazos de empréstimo mais curtos geralmente têm taxas de juros mais baixas, mas pagamentos mais altos",
+      "Procure as melhores taxas e condições para empréstimos e investimentos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações de taxa de juros para calcular ganhos ou custos",
+    "resultMessage": "Os resultados do cálculo da sua taxa de juros são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da taxa de juros:",
+    "interestRateAnalysis": "Análise da taxa de juros"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de cálculo de taxas de juros com base em fórmulas matemáticas. As taxas de juros e ganhos reais podem variar com base nas políticas do credor, taxas e condições de mercado não incluídas nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para análises personalizadas de taxas de juros e comparações de produtos financeiros, consulte consultores financeiros ou agentes de crédito com experiência em produtos de empréstimo e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "principal": "Insira um valor principal válido",
+    "interestRate": "Insira uma taxa de juros anual válida",
+    "timePeriod": "Insira um período válido",
+    "compounding": "Selecione uma frequência de composição",
+    "calculationType": "Selecione um tipo de cálculo"
+  },
+  "tooltips": {
+    "principal": "Valor inicial do empréstimo ou investimento",
+    "interestRate": "Taxa de juros anual ou retorno esperado",
+    "timePeriod": "Prazo para cálculo de juros",
+    "compounding": "Com que frequência os juros são compostos por ano",
+    "calculationType": "Tipo de cálculo de juros a ser realizado"
+  },
+  "interest_rate_calculator_0": "Calculadora de taxa de juros",
+  "loan_information_1": "Informações sobre empréstimo",
+  "loan_amount_2": "Valor do empréstimo",
+  "loan_term_3": "Prazo do empréstimo",
+  "years_4": "anos",
+  "months_5": "meses",
+  "monthly_payment_6": "Pagamento mensal",
+  "calculate_rate_7": "Calcular Taxa",
+  "results_8": "Resultados",
+  "your_loan_interest_rate_breakdown_9": "Detalhamento da taxa de juros do seu empréstimo",
+  "interest_rate_10": "Taxa de juro",
+  "total_of_11": "Total de",
+  "monthly_payments_12": "pagamentos mensais",
+  "total_interest_paid_13": "Total de juros pagos",
+  "enter_your_loan_information_to_calculate_the_inter_14": "Insira as informações do seu empréstimo para calcular a taxa de juros",
+  "formulas_calculation_method_15": "Fórmulas e método de cálculo",
+  "loan_payment_formula_16": "Fórmula de pagamento de empréstimo",
+  "pmt_p_r1rn_1rn_1_17": "PMT = P × [r(1+r)^n] / [(1+r)^n - 1]",
+  "where_pmt_monthly_payment_p_principal_loan_amount__18": "Onde: PMT = Pagamento Mensal, P = Principal (valor do empréstimo), r = Taxa de juros mensal, n = Número\n                        de pagamentos",
+  "interest_rate_calculation_19": "Cálculo da taxa de juros",
+  "since_the_interest_rate_cannot_be_solved_algebraic_20": "Como a taxa de juros não pode ser resolvida algebricamente a partir da fórmula de pagamento, esta calculadora\n                        usa o método numérico de Newton-Raphson para resolver iterativamente a taxa que produz o\n                        determinado valor de pagamento.",
+  "total_interest_calculation_21": "Cálculo total de juros",
+  "total_interest_monthly_payment_number_of_payments__22": "Juros totais = (pagamento mensal × número de pagamentos) - valor do empréstimo"
+}

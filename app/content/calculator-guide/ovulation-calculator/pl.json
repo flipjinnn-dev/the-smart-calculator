@@ -1,0 +1,114 @@
+{
+  "color": "różowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator owulacji?",
+      "content": "Nasz darmowy kalkulator owulacji online pomaga oszacować dzień owulacji, dni płodne i najlepsze daty poczęcia na podstawie długości cyklu miesiączkowego. To narzędzie pozwala szybko i dokładnie przewidzieć, kiedy masz największe prawdopodobieństwo zajścia w ciążę."
+    },
+    {
+      "heading": "Jak działa kalkulator owulacji?",
+      "content": "Kalkulator daty owulacji przewiduje, kiedy jajnik wypuści komórkę jajową. Większość kobiet ma owulację na około 14 dni przed następną miesiączką. Po wpisaniu pierwszego dnia ostatniej miesiączki i średniej długości cyklu kalkulator oszacuje dzień owulacji, dni płodne i możliwe daty poczęcia."
+    },
+    {
+      "heading": "Zrozumienie swojego żyznego okna",
+      "subSections": [
+        {
+          "heading": "Żywotność plemników",
+          "content": "Plemnik może przeżyć w drogach rodnych do 5 dni."
+        },
+        {
+          "heading": "Żywotność jaj",
+          "content": "Jajo przeżywa 12–24 godzin po owulacji."
+        },
+        {
+          "heading": "Szanse na poczęcie",
+          "content": "Współżycie w tych dniach maksymalizuje szanse na poczęcie."
+        }
+      ]
+    },
+    {
+      "heading": "Dokładność kalkulatorów owulacji",
+      "content": "Najdokładniejszy, gdy cykle są regularne (28–32 dni). Mniej dokładne w przypadku nieregularnych okresów, PCOS, problemów z tarczycą lub stresu. Najlepiej stosować razem z objawami owulacji, takimi jak śluz szyjkowy, podstawowa temperatura ciała lub objawy owulacji. To jest przewodnik, a nie narzędzie diagnostyczne."
+    },
+    {
+      "heading": "Sytuacje specjalne",
+      "subSections": [
+        {
+          "heading": "Nieregularne cykle",
+          "content": "Używaj średnich, ale także śledź oznaki owulacji."
+        },
+        {
+          "heading": "PCOS lub stres",
+          "content": "Cykle mogą być nieprzewidywalne – rozważ testy owulacyjne."
+        },
+        {
+          "heading": "Cykle IVF",
+          "content": "Skorzystaj z internetowego kalkulatora owulacji IVF, prowadzonego przez lekarza zajmującego się płodnością."
+        },
+        {
+          "heading": "Obliczanie terminu płatności",
+          "content": "Kalkulator terminu porodu i owulacji może oszacować poczęcie i oczekiwany poród."
+        }
+      ]
+    },
+    {
+      "heading": "Kalkulator owulacji a kalendarz owulacji",
+      "subSections": [
+        {
+          "heading": "Kalkulator",
+          "content": "Szacuje owulację i dni płodne na podstawie wprowadzonych danych."
+        },
+        {
+          "heading": "Kalendarz",
+          "content": "Śledzi cykle w czasie, ale jest mniej precyzyjny w przypadku cykli nieregularnych."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Dla wygody wypróbuj Kalkulator owulacji z eksportem kalendarza lub integracją aplikacji."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kiedy mam owulację?",
+      "a": "Większość kobiet ma owulację na około 14 dni przed następną miesiączką."
+    },
+    {
+      "q": "Jak obliczyć owulację?",
+      "a": "Odlicz 14 dni od następnej miesiączki lub skorzystaj z internetowego kalkulatora owulacji."
+    },
+    {
+      "q": "Co to jest żyzne okno?",
+      "a": "5 dni przed owulacją i dzień owulacji to twoje dni płodne."
+    },
+    {
+      "q": "Ile dni po okresie masz owulację?",
+      "a": "Zwykle 10–16 dni po pierwszym dniu miesiączki, w zależności od długości cyklu."
+    },
+    {
+      "q": "Jak dokładne są kalkulatory owulacji?",
+      "a": "Dokładne w przypadku cykli regularnych, ale mniej w przypadku cykli nieregularnych lub cykli dotkniętych problemami medycznymi."
+    },
+    {
+      "q": "Czy stres może opóźnić owulację?",
+      "a": "Tak. Stres może opóźnić lub zahamować owulację, zmieniając okno płodne."
+    },
+    {
+      "q": "Jakie są oznaki owulacji u kobiet?",
+      "a": "Zmiany śluzu szyjkowego, łagodny ból w miednicy, tkliwość piersi i wzrost podstawowej temperatury ciała."
+    },
+    {
+      "q": "Jak naturalnie śledzić owulację?",
+      "a": "Śledź cykle, śluz szyjkowy i podstawową temperaturę ciała lub korzystaj z zestawów owulacyjnych."
+    },
+    {
+      "q": "Jak działa owulacja w przypadku nieregularnych okresów?",
+      "a": "Owulacja jest nieprzewidywalna. Użyj kalkulatora z opcją nieregularnego cyklu i śledzenia objawów."
+    },
+    {
+      "q": "Jak długo trwa owulacja?",
+      "a": "Sama owulacja trwa 12–24 godziny, ale okno płodne obejmuje 6 dni."
+    }
+  ]
+}

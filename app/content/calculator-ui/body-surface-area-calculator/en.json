@@ -1,0 +1,194 @@
+{
+  "pageTitle": "Body Surface Area Calculator",
+  "pageDescription": "Calculate your body surface area (BSA) using various methods including DuBois, Mosteller, Haycock, and Gehan-George formulas",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Weight",
+      "unitSystem": "Unit System",
+      "calculationMethod": "Calculation Method"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}"
+    },
+    "buttons": {
+      "calculate": "Calculate BSA",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    },
+    "calculationMethods": {
+      "dubois": "DuBois Formula",
+      "mosteller": "Mosteller Formula",
+      "haycock": "Haycock Formula",
+      "gehan_george": "Gehan-George Formula"
+    }
+  },
+  "results": {
+    "bsaValue": "Body Surface Area",
+    "calculationMethod": "Calculation Method",
+    "bsaResultsTitle": "BSA Results",
+    "bsaFormula": {
+      "label": "BSA Formula",
+      "dubois": "BSA = 0.007184 × Weight^0.425 × Height^0.725",
+      "mosteller": "BSA = √(Weight × Height / 3600)",
+      "haycock": "BSA = 0.024265 × Weight^0.5378 × Height^0.3964",
+      "gehan_george": "BSA = 0.0235 × Weight^0.51456 × Height^0.42246"
+    },
+    "unit": "m²"
+  },
+  "educational": {
+    "bsaInfo": "Body Surface Area Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Professional",
+    "bsaMethods": {
+      "dubois": {
+        "title": "DuBois Method (1916)",
+        "description": "BSA = 0.007184 × Weight^0.425 × Height^0.725 (most commonly used)"
+      },
+      "mosteller": {
+        "title": "Mosteller Method (1987)",
+        "description": "BSA = √(Weight × Height / 3600) (simple and accurate)"
+      },
+      "haycock": {
+        "title": "Haycock Method (1978)",
+        "description": "BSA = 0.024265 × Weight^0.5378 × Height^0.3964 (used for children)"
+      },
+      "gehan_george": {
+        "title": "Gehan-George Method (1970)",
+        "description": "BSA = 0.0235 × Weight^0.51456 × Height^0.42246 (based on extensive data)"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a diagnostic tool",
+      "individualVariation": "BSA varies based on body composition and shape"
+    },
+    "importantNotesList": [
+      "BSA is used to determine dosages for certain medications",
+      "Different methods may produce slightly different results",
+      "Consult healthcare professionals for medical applications",
+      "BSA should be considered alongside other health metrics"
+    ],
+    "healthyRangeDetails": {
+      "title": "Average BSA Values",
+      "description": "Adult men: 1.9 m², Adult women: 1.6 m²",
+      "association": "BSA is used in medical contexts for drug dosing and physiological measurements."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Enter your measurements to calculate your body surface area",
+    "bsaResult": "Your body surface area is {bsa} m² using the {method} method",
+    "ageWarning": "For children, specific formulas may be more appropriate",
+    "assessmentResult": "Assessment Result:",
+    "bsaAnalysis": "Body Surface Area Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates based on mathematical formulas and should not be used as a substitute for professional medical advice. Individual results may vary based on factors not accounted for in these calculations."
+  },
+  "seekHelp": {
+    "title": "Consult a Healthcare Professional",
+    "content": "If you need BSA for medical purposes, please consult with a healthcare professional who can provide accurate calculations based on your complete medical history and individual circumstances."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight",
+    "method": "Please select a calculation method"
+  },
+  "tooltips": {
+    "age": "Age can affect BSA calculations for children",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "method": "Different formulas may be more appropriate for different populations"
+  },
+  "patient_information_0": "Patient Information",
+  "enter_patient_details_to_calculate_body_surface_ar_1": "Enter patient details to calculate Body Surface Area using multiple formulas",
+  "gender_2": "Gender",
+  "male_3": "Male",
+  "female_4": "Female",
+  "weight_5": "Weight",
+  "patients_body_weight_6": "Patient's body weight",
+  "kg_7": "kg",
+  "lbs_8": "lbs",
+  "g_9": "g",
+  "height_10": "Height",
+  "patients_height_11": "Patient's height",
+  "cm_12": "cm",
+  "ftin_13": "ft/in",
+  "bsa_formulas_14": "BSA Formulas:",
+  "this_calculator_uses_7_major_formulas_including_du_15": "This calculator uses 7 major formulas including Du Bois,\n                        Mosteller, Haycock, Gehan & George, Boyd, Fujimoto, and Takahira methods for comprehensive\n                        comparison.",
+  "calculate_16": "Calculate",
+  "reset_17": "Reset",
+  "bsa_results_18": "BSA Results",
+  "m_19": "m²",
+  "average_bsa_20": "Average BSA",
+  "kg_21": "kg",
+  "weight_22": "Weight",
+  "cm_23": "cm",
+  "height_24": "Height",
+  "enter_patient_information_and_click_25": "Enter patient information and click",
+  "calculate_26": "Calculate",
+  "to_see_bsa_results_27": "to see BSA results.",
+  "bsa_formula_comparison_28": "BSA Formula Comparison",
+  "formula_29": "Formula",
+  "bsa_m_30": "BSA (m²)",
+  "method_31": "Method",
+  "du_bois_32": "Du Bois",
+  "most_widely_used_33": "Most widely used",
+  "mosteller_34": "Mosteller",
+  "simplified_formula_35": "Simplified formula",
+  "haycock_36": "Haycock",
+  "pediatric_preferred_37": "Pediatric preferred",
+  "gehan_george_38": "Gehan & George",
+  "clinical_studies_39": "Clinical studies",
+  "boyd_40": "Boyd",
+  "weightdependent_41": "Weight-dependent",
+  "fujimoto_42": "Fujimoto",
+  "asian_populations_43": "Asian populations",
+  "takahira_44": "Takahira",
+  "modified_du_bois_45": "Modified Du Bois",
+  "average_46": "Average",
+  "all_formulas_47": "All formulas",
+  "patient_information_48": "Patient Information:",
+  "gender_49": "Gender:",
+  "weight_50": "Weight:",
+  "kg_51": "kg",
+  "height_52": "Height:",
+  "cm_53": "cm",
+  "average_bsa_54": "Average BSA:",
+  "m_55": "m²",
+  "clinical_note_56": "Clinical Note:",
+  "bsa_values_are_normalized_to_m_these_formulas_are__57": "BSA values are normalized to m². These formulas are widely used\n                        in clinical and pharmaceutical calculations. This calculator is for informational purposes only.\n                        Consult a healthcare provider for medical use.",
+  "understanding_body_surface_area_58": "Understanding Body Surface Area",
+  "what_is_bsa_59": "What is BSA?",
+  "body_surface_area_bsa_is_a_measurement_of_the_tota_60": "Body Surface Area (BSA) is a measurement of the total surface area of the human body. It's\n                        crucial for determining appropriate medication dosages, especially in chemotherapy, and for\n                        various physiological calculations.",
+  "clinical_applications_61": "Clinical Applications",
+  "chemotherapy_dosing_62": "Chemotherapy dosing",
+  "cardiac_index_calculations_63": "Cardiac index calculations",
+  "burn_assessment_64": "Burn assessment",
+  "renal_clearance_studies_65": "Renal clearance studies",
+  "metabolic_rate_calculations_66": "Metabolic rate calculations",
+  "formula_comparison_67": "Formula Comparison",
+  "most_common_68": "Most Common:",
+  "du_bois_formula_69": "Du Bois Formula",
+  "bsa_0007184_w0425_h0725_70": "BSA = 0.007184 × W^0.425 × H^0.725",
+  "simplified_71": "Simplified:",
+  "mosteller_formula_72": "Mosteller Formula",
+  "bsa_w_h_3600_73": "BSA = √(W × H / 3600)",
+  "note_74": "Note:",
+  "normal_adult_bsa_ranges_from_15_to_20_m_average_ad_75": "Normal adult BSA ranges from 1.5 to 2.0 m². Average adult BSA is\n                          approximately 1.7 m²."
+}

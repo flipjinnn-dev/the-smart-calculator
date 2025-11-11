@@ -1,0 +1,97 @@
+{
+  "color": "różowy",
+  "sections": [
+    {
+      "heading": "Z łatwością odkryj swój typ ciała",
+      "content": "Zrozumienie kształtu ciała jest niezbędne do ustalenia realistycznych celów fitness, wyboru wygodnej odzieży i poprawy ogólnego stanu zdrowia. Nasz internetowy kalkulator typu sylwetki to szybkie, dokładne i przyjazne dla użytkownika narzędzie zaprojektowane, aby pomóc Ci obliczyć kształt ciała w ciągu kilku minut. Niezależnie od tego, czy chcesz określić kształt ciała klepsydry, gruszki, jabłka, czy prostokąta, to narzędzie zapewnia precyzyjne pomiary, które pomogą Ci w wyborze kondycji i stylu życia."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora typu budowy ciała",
+      "content": "Korzystanie z naszego narzędzia do obliczania kształtu ciała jest proste i intuicyjne. Wykonaj następujące kroki:",
+      "subSections": [
+        {
+          "heading": "Krok 1: Wprowadź swoje pomiary",
+          "content": "Podaj wymiary biustu/klatki piersiowej, talii i bioder. W przypadku mężczyzn uwzględnij pomiary ramion i klatki piersiowej, aby uzyskać dokładną klasyfikację."
+        },
+        {
+          "heading": "Krok 2: Oblicz stosunek talii do bioder (WHR)",
+          "content": "Stosunek ten jest kluczowym wskaźnikiem typu budowy ciała i ryzyka dla zdrowia. Sprawdź nasz kalkulator proporcji talii do bioder, aby uzyskać szczegółową analizę."
+        },
+        {
+          "heading": "Krok 3: Kliknij „Oblicz”",
+          "content": "Natychmiast zobacz wynik dotyczący typu sylwetki dzięki przejrzystemu podziałowi i rekomendacjom."
+        },
+        {
+          "heading": "Krok 4: Przejrzyj spersonalizowane spostrzeżenia",
+          "content": "Uzyskaj wskazówki dotyczące ćwiczeń, diety i stylizacji dostosowane do kształtu ciała."
+        }
+      ]
+    },
+    {
+      "heading": "Zrozumienie typów ciała",
+      "content": "Różne typy ciała mają różne cechy, które mogą wpływać na sprawność, postawę i wyniki zdrowotne.",
+      "subSections": [
+        {
+          "heading": "Klepsydra",
+          "content": "Zrównoważony biust i biodra, wąska talia. Skoncentruj się na treningu siłowym i ćwiczeniach podstawowych."
+        },
+        {
+          "heading": "Gruszka",
+          "content": "Szersze biodra, mniejsza górna część ciała. Koncentruj się na ćwiczeniach dolnych partii ciała i utrzymuj ćwiczenia cardio."
+        },
+        {
+          "heading": "Jabłko",
+          "content": "Szeroka górna część ciała, szersza talia. Priorytetowo traktuj ćwiczenia cardio, wzmacnianie mięśni tułowia i zbilansowaną dietę."
+        },
+        {
+          "heading": "Prostokąt",
+          "content": "Podobne wymiary biustu, talii i bioder. Buduj krzywe dzięki treningowi siłowemu i ćwiczeniom elastyczności."
+        },
+        {
+          "heading": "Odwrócony trójkąt",
+          "content": "Szersze ramiona, węższe biodra. Skoncentruj się na rozwoju dolnych partii ciała i rdzenia."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego WHR ma znaczenie",
+      "content": "Wyższy stosunek obwodu talii do bioder może wskazywać na zwiększone ryzyko chorób metabolicznych i sercowo-naczyniowych. Znajomość WHR pomaga śledzić zagrożenia dla zdrowia i opracowywać skuteczny plan ćwiczeń."
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora typu budowy ciała?",
+      "content": "Nasz kalkulator typu budowy ciała zapewnia wiele korzyści:",
+      "subSections": [
+        {
+          "heading": "Zalety",
+          "content": "• Szybkie i dokładne: Uzyskaj wyniki w ciągu kilku sekund, korzystając z precyzyjnych pomiarów.\n• Spersonalizowane wskazówki fitness: Dostosuj treningi do kształtu ciała, aby uzyskać lepsze rezultaty.\n• Wskazówki dotyczące odzieży i stylizacji: Znajdź najbardziej pochlebne style w zależności od typu sylwetki.\n• Świadomość zdrowotna: Monitoruj WHR i zrozum potencjalne zagrożenia dla zdrowia.\n• Bezpłatnie i łatwo: w pełni online i dostępne w każdej chwili."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest typ ciała?",
+      "a": "Typ ciała odnosi się do naturalnego kształtu ciała, określonego przez strukturę kości, rozmieszczenie tłuszczu i masę mięśniową. Typowe typy to klepsydra, gruszka, jabłko, prostokąt i odwrócony trójkąt."
+    },
+    {
+      "q": "Czy mogę obliczyć swoją sylwetkę w domu?",
+      "a": "Tak! Użyj miarki, aby zmierzyć obwód biustu/klatki piersiowej, talii i bioder, a następnie wprowadź te wartości w naszym kalkulatorze typu sylwetki."
+    },
+    {
+      "q": "Jak typ ciała wpływa na zdrowie?",
+      "a": "Niektóre kształty ciała, szczególnie te z wyższym stosunkiem talii do bioder, mogą zwiększać ryzyko cukrzycy, chorób serca lub zaburzeń metabolicznych."
+    },
+    {
+      "q": "Czy ten kalkulator jest odpowiedni zarówno dla mężczyzn, jak i kobiet?",
+      "a": "Absolutnie. Nasze narzędzie zaprojektowano tak, aby dokładnie klasyfikować typy budowy ciała mężczyzn i kobiet oraz dostarczać przydatnych informacji."
+    },
+    {
+      "q": "Czym różni się typ budowy ciała od BMI?",
+      "a": "BMI mierzy całkowitą masę ciała w stosunku do wzrostu, podczas gdy typ ciała koncentruje się na kształcie i rozmieszczeniu tkanki tłuszczowej, oferując bardziej spersonalizowane wskazówki dotyczące kondycji."
+    }
+  ],
+  "cta": {
+    "heading": "Przejmij kontrolę nad swoją kondycją i stylem",
+    "content": "Przestań zgadywać i zacznij rozumieć swoje ciało. Skorzystaj już teraz z naszego bezpłatnego kalkulatora typu budowy ciała, aby określić kształt swojej sylwetki, obliczyć WHR i uzyskać dostosowane zalecenia dotyczące zdrowia i kondycji. Znajomość typu budowy ciała to pierwszy krok w kierunku mądrzejszych treningów, zdrowszych nawyków i większej pewności siebie."
+  }
+}

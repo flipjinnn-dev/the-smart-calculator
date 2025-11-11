@@ -1,0 +1,216 @@
+{
+  "pageTitle": "Proteinrechner",
+  "pageDescription": "Berechnen Sie Ihren täglichen Proteinbedarf basierend auf Aktivitätsniveau, Zielen und Körpergewicht für Muskelaufbau, -erhaltung und allgemeine Gesundheit",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "weight": "Gewicht",
+      "height": "Höhe",
+      "unitSystem": "Einheitensystem",
+      "activityLevel": "Aktivitätsniveau",
+      "goal": "Fitnessziel",
+      "proteinPreference": "Bevorzugte Proteinaufnahme"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie Protein",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Bewegungsmangel (wenig oder keine Bewegung)",
+      "light": "Leicht aktiv (leichte Bewegung 1–3 Tage/Woche)",
+      "moderate": "Mäßig aktiv (mäßige Bewegung an 3–5 Tagen/Woche)",
+      "active": "Sehr aktiv (hartes Training an 6–7 Tagen/Woche)",
+      "veryActive": "Extrem aktiv (sehr harte Bewegung und körperliche Arbeit)"
+    },
+    "goals": {
+      "maintenance": "Gewichtserhaltung",
+      "lose": "Gewichtsverlust",
+      "gain": "Muskelaufbau",
+      "athletic": "Sportliche Leistung"
+    },
+    "proteinPreferences": {
+      "minimum": "Mindestanforderung",
+      "standard": "Standardaufnahme",
+      "high": "Hohe Proteinaufnahme",
+      "veryHigh": "Sehr hohe Proteinaufnahme"
+    }
+  },
+  "results": {
+    "proteinNeeds": "Täglicher Proteinbedarf",
+    "proteinRange": "Empfohlener Proteinbereich",
+    "caloriesFromProtein": "Kalorien aus Protein",
+    "proteinResultsTitle": "Proteinergebnisse"
+  },
+  "educational": {
+    "proteinInfo": "Proteininformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ernährungsressourcen",
+    "proteinFacts": {
+      "function": {
+        "title": "Proteinfunktion",
+        "description": "Unentbehrlich für den Muskelaufbau und die Muskelreparatur, die Enzymproduktion und die Hormonsynthese"
+      },
+      "sources": {
+        "title": "Proteinquellen",
+        "description": "Vollständige Proteine ​​(tierische Produkte) und unvollständige Proteine ​​(pflanzliche Quellen)"
+      },
+      "recommendations": {
+        "title": "Ernährungsempfehlungen",
+        "description": "0,8 g pro kg für bewegungsarme Erwachsene, bis zu 2,2 g pro kg für Sportler"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Nährwertschätzungen",
+      "individual": "Der Proteinbedarf variiert je nach individuellen Faktoren und Gesundheitszustand"
+    },
+    "importantNotesList": [
+      "Sportler und aktive Personen benötigen möglicherweise eine höhere Proteinzufuhr",
+      "Verteilen Sie die Proteinzufuhr über den Tag, um eine optimale Muskelproteinsynthese zu erreichen",
+      "Berücksichtigen Sie bei der Auswahl der Quellen die Proteinqualität und das Aminosäureprofil",
+      "Eine übermäßige Proteinaufnahme kann bei anfälligen Personen die Nieren belasten"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Daten ein, um den Proteinbedarf zu berechnen",
+    "resultMessage": "Ihr täglicher Proteinbedarf ist unten aufgeführt",
+    "assessmentResult": "Ergebnis der Proteinberechnung:",
+    "proteinAnalysis": "Proteinanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Proteinaufnahme basierend auf allgemeinen Ernährungsrichtlinien. Die individuellen Bedürfnisse können je nach Gesundheitszustand, Medikamenten und spezifischen Ernährungsbedürfnissen variieren."
+  },
+  "seekHelp": {
+    "title": "Ernährungsressourcen",
+    "content": "Für eine individuelle Ernährungsberatung und Ernährungsplanung wenden Sie sich an registrierte Ernährungsberater oder medizinisches Fachpersonal mit Fachkenntnissen in Ernährungswissenschaft und individuellen Gesundheitsbedürfnissen."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "activityLevel": "Bitte wählen Sie das Aktivitätsniveau aus",
+    "goal": "Bitte wählen Sie ein Fitnessziel aus",
+    "proteinPreference": "Bitte wählen Sie eine Proteinaufnahmepräferenz aus"
+  },
+  "tooltips": {
+    "age": "Das Alter beeinflusst die Stoffwechselrate und den Proteinbedarf",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "activityLevel": "Ihr regelmäßiges Aktivitätsniveau beeinflusst den Proteinbedarf",
+    "goal": "Ihr Fitnessziel bestimmt die Proteinempfehlungen",
+    "proteinPreference": "Die ausgewählte Präferenz beeinflusst die Proteinaufnahmemenge"
+  },
+  "protein_calculation_0": "Proteinberechnung",
+  "enter_your_details_to_calculate_your_optimal_daily_1": "Geben Sie Ihre Daten ein, um Ihre optimale tägliche Proteinzufuhr zu berechnen",
+  "age_years_2": "Alter (Jahre) *",
+  "gender_3": "Geschlecht *",
+  "male_4": "Männlich",
+  "female_5": "Weiblich",
+  "height_6": "Höhe *",
+  "metric_7": "Metrisch",
+  "us_8": "UNS",
+  "cm_9": "cm",
+  "ft_10": "ft",
+  "in_11": "In",
+  "weight_12": "Gewicht *",
+  "metric_13": "Metrisch",
+  "us_14": "UNS",
+  "kg_15": "kg",
+  "lbs_16": "Pfund",
+  "activity_level_17": "Aktivitätsniveau *",
+  "sedentary_little_or_no_exercise_18": "Bewegungsmangel (wenig oder keine Bewegung)",
+  "light_exercise_13_daysweek_19": "Leichte körperliche Betätigung (1–3 Tage/Woche)",
+  "moderate_exercise_35_daysweek_20": "Mäßiges Training (3-5 Tage/Woche)",
+  "heavy_exercise_67_daysweek_21": "Schwere körperliche Betätigung (6–7 Tage/Woche)",
+  "very_heavy_exercise_twiceday_or_physical_job_22": "Sehr schwere körperliche Betätigung (zweimal am Tag oder körperliche Arbeit)",
+  "goal_23": "Ziel *",
+  "maintenance_maintain_current_weightmuscle_24": "Erhaltung (aktuelles Gewicht/Muskel halten)",
+  "fat_loss_lose_weight_while_preserving_muscle_25": "Fettabbau (Gewicht verlieren und gleichzeitig Muskeln erhalten)",
+  "muscle_gain_build_muscle_mass_26": "Muscle Gain (Muskelmasse aufbauen)",
+  "calculate_27": "Berechnen",
+  "reset_28": "Zurücksetzen",
+  "daily_protein_29": "Tägliches Protein",
+  "g_30": "g",
+  "per_day_31": "pro Tag",
+  "enter_your_details_to_calculate_your_optimal_daily_32": "Geben Sie Ihre Daten ein, um Ihre optimale tägliche Proteinzufuhr zu berechnen.",
+  "protein_intake_results_33": "Ergebnisse der Proteinaufnahme",
+  "g_per_day_34": "g pro Tag",
+  "recommended_daily_protein_intake_35": "Empfohlene tägliche Proteinzufuhr",
+  "weight_36": "Gewicht",
+  "activity_37": "Aktivität",
+  "goal_38": "Ziel",
+  "multiplier_39": "Multiplikator",
+  "gkg_40": "g/kg",
+  "calculation_breakdown_41": "Berechnungsaufschlüsselung",
+  "body_weight_42": "Körpergewicht:",
+  "kg_43": "kg",
+  "protein_multiplier_44": "Proteinmultiplikator:",
+  "gkg_45": "g/kg",
+  "daily_protein_46": "Tägliches Protein:",
+  "g_47": "g",
+  "activity_range_48": "Aktivitätsbereich:",
+  "g_49": "g",
+  "nutritional_info_50": "Nährwertangaben",
+  "calories_from_protein_51": "Kalorien aus Protein:",
+  "kcal_52": "kcal",
+  "estimated_of_total_calories_53": "Geschätzter Prozentsatz der Gesamtkalorien:",
+  "protein_per_meal_3_meals_54": "Protein pro Mahlzeit (3 Mahlzeiten):",
+  "g_55": "g",
+  "protein_per_meal_4_meals_56": "Protein pro Mahlzeit (4 Mahlzeiten):",
+  "g_57": "g",
+  "personalized_advice_58": "Persönliche Beratung",
+  "about_protein_requirements_59": "Über den Proteinbedarf",
+  "protein_multipliers_by_activity_60": "Proteinmultiplikatoren nach Aktivität",
+  "sedentary_61": "Sitzend:",
+  "k_08_gkg_basic_maintenance_62": "0,8 g/kg – Grundpflege",
+  "light_exercise_63": "Leichte Übung:",
+  "k_1012_gkg_recreational_activity_64": "1,0–1,2 g/kg – Freizeitaktivität",
+  "moderate_exercise_65": "Moderate Übung:",
+  "k_1216_gkg_regular_training_66": "1,2–1,6 g/kg – Regelmäßiges Training",
+  "heavy_exercise_67": "Schwere Übung:",
+  "k_1622_gkg_intense_training_68": "1,6–2,2 g/kg – Intensives Training",
+  "very_heavyathletes_69": "Sehr schwer/Sportler:",
+  "k_2025_gkg_elite_performance_70": "2,0–2,5 g/kg – Elite-Leistung",
+  "goal_adjustments_71": "Zielanpassungen",
+  "maintenance_72": "Wartung:",
+  "midpoint_of_activity_range_73": "Mittelpunkt des Aktivitätsbereichs",
+  "fat_loss_74": "Fettabbau:",
+  "upper_end_to_preserve_muscle_75": "Oberes Ende zur Erhaltung der Muskulatur",
+  "muscle_gain_76": "Muskelaufbau:",
+  "maximum_intake_for_growth_77": "Maximale Aufnahme für Wachstum",
+  "highquality_protein_sources_78": "Hochwertige Proteinquellen",
+  "food_79": "Essen",
+  "protein100g_80": "Protein/100g",
+  "chicken_breast_81": "Hühnerbrust",
+  "k_31g_82": "31g",
+  "greek_yogurt_83": "Griechischer Joghurt",
+  "k_10g_84": "10g",
+  "eggs_85": "Eier",
+  "k_13g_86": "13g",
+  "salmon_87": "Lachs",
+  "k_25g_88": "25g",
+  "lentils_89": "Linsen",
+  "k_9g_90": "9g",
+  "important_notes_91": "Wichtige Hinweise",
+  "spread_protein_intake_throughout_the_day_92": "Verteilen Sie die Proteinzufuhr über den Tag",
+  "combine_with_resistance_training_for_muscle_gain_93": "Kombinieren Sie es mit Krafttraining für den Muskelaufbau",
+  "individual_needs_may_vary_based_on_genetics_94": "Die individuellen Bedürfnisse können je nach Genetik variieren",
+  "consult_a_nutritionist_for_personalized_advice_95": "Für eine individuelle Beratung wenden Sie sich an einen Ernährungsberater"
+}

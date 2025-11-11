@@ -1,0 +1,165 @@
+{
+  "pageTitle": "Auto Loan Calculator",
+  "pageDescription": "Calculate car loan payments and total cost including interest, sales tax, and fees for new and used vehicle financing",
+  "form": {
+    "labels": {
+      "vehiclePrice": "Vehicle Price",
+      "downPayment": "Down Payment",
+      "downPaymentType": "Down Payment Type",
+      "loanAmount": "Loan Amount",
+      "interestRate": "Annual Interest Rate",
+      "loanTerm": "Loan Term",
+      "startDate": "Loan Start Date",
+      "salesTax": "Sales Tax Rate",
+      "fees": "Additional Fees",
+      "tradeIn": "Trade-In Value"
+    },
+    "placeholders": {
+      "vehiclePrice": "Enter vehicle price",
+      "downPayment": "Enter down payment",
+      "loanAmount": "Enter loan amount",
+      "interestRate": "Enter annual interest rate (%)",
+      "loanTerm": "Enter loan term in months",
+      "salesTax": "Enter sales tax rate (%)",
+      "fees": "Enter additional fees",
+      "tradeIn": "Enter trade-in value"
+    },
+    "buttons": {
+      "calculate": "Calculate Auto Loan",
+      "reset": "Reset"
+    },
+    "downPaymentTypes": {
+      "amount": "Amount",
+      "percentage": "Percentage"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Monthly Payment",
+    "totalInterest": "Total Interest Paid",
+    "totalPayment": "Total Payment",
+    "totalCost": "Total Cost (Vehicle + Interest + Tax + Fees)",
+    "payoffDate": "Loan Payoff Date",
+    "autoLoanResultsTitle": "Auto Loan Calculation Results"
+  },
+  "educational": {
+    "autoLoanInfo": "Auto Loan Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "autoLoanFacts": {
+      "components": {
+        "title": "Auto Loan Components",
+        "description": "Principal, Interest, Sales Tax, and Additional Fees"
+      },
+      "amortization": {
+        "title": "Amortization",
+        "description": "Early payments are mostly interest; later payments are mostly principal"
+      },
+      "depreciation": {
+        "title": "Vehicle Depreciation",
+        "description": "Cars lose value over time, affecting loan-to-value ratio"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides auto loan payment estimates only",
+      "actual": "Actual loan terms may vary based on lender policies, credit score, and vehicle factors"
+    },
+    "importantNotesList": [
+      "This is an estimate and does not include all possible fees and charges",
+      "New cars depreciate quickly, potentially leaving you upside-down on the loan",
+      "Shorter loan terms typically have lower interest rates but higher monthly payments",
+      "Consider total cost of ownership including insurance, maintenance, and fuel"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your auto loan information to calculate monthly payments",
+    "resultMessage": "Your auto loan calculation results are shown below",
+    "assessmentResult": "Auto Loan Calculation Result:",
+    "autoLoanAnalysis": "Auto Loan Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides auto loan payment estimates based on standard financial formulas. Actual loan terms, payments, and interest may vary based on lender policies, credit score, vehicle condition, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized auto loan advice and financing options, consult auto loan specialists or financial advisors with expertise in vehicle financing and individual financial circumstances."
+  },
+  "errors": {
+    "vehiclePrice": "Please enter a valid vehicle price",
+    "downPayment": "Please enter a valid down payment",
+    "loanAmount": "Please enter a valid loan amount",
+    "interestRate": "Please enter a valid annual interest rate",
+    "loanTerm": "Please enter a valid loan term",
+    "startDate": "Please enter a valid loan start date",
+    "salesTax": "Please enter a valid sales tax rate",
+    "fees": "Please enter valid additional fees",
+    "tradeIn": "Please enter a valid trade-in value"
+  },
+  "tooltips": {
+    "vehiclePrice": "Purchase price of the vehicle",
+    "downPayment": "Amount paid upfront toward the vehicle purchase",
+    "downPaymentType": "Whether down payment is specified as amount or percentage",
+    "loanAmount": "Amount borrowed from the lender",
+    "interestRate": "Annual interest rate on the auto loan",
+    "loanTerm": "Length of time to repay the loan (typically 36-84 months)",
+    "startDate": "Date when loan payments begin",
+    "salesTax": "State and local sales tax on vehicle purchase",
+    "fees": "Additional fees such as documentation, title, and registration fees",
+    "tradeIn": "Value of your current vehicle used as down payment"
+  },
+  "auto_loan_calculator_0": "Auto Loan Calculator",
+  "total_price_1": "Total Price",
+  "monthly_payment_2": "Monthly Payment",
+  "auto_price_3": "Auto Price",
+  "loan_term_4": "Loan Term",
+  "months_5": "months",
+  "interest_rate_6": "Interest Rate",
+  "cash_incentives_7": "Cash Incentives",
+  "down_payment_8": "Down Payment",
+  "tradein_value_9": "Trade-in Value",
+  "amount_owed_on_tradein_10": "Amount Owed on Trade-in",
+  "your_state_11": "Your State",
+  "sales_tax_12": "Sales Tax",
+  "title_registration_and_other_fees_13": "Title, Registration and Other Fees",
+  "include_taxes_and_fees_in_loan_14": "Include taxes and fees in loan",
+  "calculate_15": "Calculate",
+  "monthly_payment_16": "Monthly Payment",
+  "loan_term_17": "Loan Term",
+  "months_18": "months",
+  "interest_rate_19": "Interest Rate",
+  "cash_incentives_20": "Cash Incentives",
+  "down_payment_21": "Down Payment",
+  "tradein_value_22": "Trade-in Value",
+  "amount_owed_on_tradein_23": "Amount Owed on Trade-in",
+  "your_state_24": "Your State",
+  "sales_tax_25": "Sales Tax",
+  "title_registration_and_other_fees_26": "Title, Registration and Other Fees",
+  "include_taxes_and_fees_in_loan_27": "Include taxes and fees in loan",
+  "calculate_28": "Calculate",
+  "monthly_payment_29": "Monthly Payment",
+  "your_complete_loan_breakdown_30": "Your complete loan breakdown",
+  "monthly_pay_31": "Monthly Pay:",
+  "total_loan_amount_32": "Total Loan Amount",
+  "sale_tax_33": "Sale Tax",
+  "upfront_payment_34": "Upfront Payment",
+  "total_of_35": "Total of",
+  "loan_payments_36": "Loan Payments",
+  "total_loan_interest_37": "Total Loan Interest",
+  "total_cost_price_interest_tax_fees_38": "Total Cost (price, interest, tax, fees)",
+  "loan_breakdown_39": "Loan Breakdown",
+  "principal_40": "% Principal",
+  "interest_41": "% Interest",
+  "find_average_tax_rate_and_fees_in_your_state_42": "Find Average Tax Rate and Fees in Your State",
+  "enter_auto_loan_details_to_see_your_payment_breakd_43": "Enter auto loan details to see your payment breakdown",
+  "amortization_schedule_44": "Amortization Schedule",
+  "annual_payment_breakdown_45": "Annual payment breakdown",
+  "annual_schedule_46": "Annual Schedule",
+  "monthly_schedule_47": "Monthly Schedule",
+  "year_48": "Year",
+  "interest_49": "Interest",
+  "principal_50": "Principal",
+  "ending_balance_51": "Ending Balance",
+  "monthly_schedule_view_coming_soon_52": "Monthly schedule view - Coming soon!"
+}

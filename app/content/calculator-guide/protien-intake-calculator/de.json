@@ -1,0 +1,119 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Proteinzufuhr-Rechner – Finden Sie Ihren täglichen Proteinbedarf",
+      "content": "Mit unserem Proteinzufuhrrechner können Sie anhand Ihres Gewichts, Ihres Alters, Ihres Geschlechts, Ihres Aktivitätsniveaus und Ihrer Fitnessziele genau bestimmen, wie viel Protein Sie pro Tag benötigen. Ganz gleich, ob Sie Muskeln aufbauen, Fett verlieren, die Regeneration verbessern oder Ihr Gewicht halten möchten, dieses kostenlose Tool bietet einen personalisierten, ernährungswissenschaftlich fundierten täglichen Proteinbedarf."
+    },
+    {
+      "heading": "Wie viel Protein benötige ich täglich?",
+      "subSections": [
+        {
+          "heading": "Sitzende Erwachsene",
+          "content": "0,8 g Protein pro Kilogramm Körpergewicht."
+        },
+        {
+          "heading": "Aktive Erwachsene und Sportler",
+          "content": "1,2 – 2,0 g/kg."
+        },
+        {
+          "heading": "Muskelaufbau und Bodybuilding",
+          "content": "1,6 – 2,2 g/kg."
+        },
+        {
+          "heading": "Fettabbau bei gleichzeitiger Erhaltung der Muskulatur",
+          "content": "1,8 – 2,4 g/kg."
+        },
+        {
+          "heading": "Beispiel",
+          "content": "Eine 70 kg schwere Person, die Muskeln aufbauen möchte, benötigt möglicherweise 112–154 g Protein pro Tag."
+        }
+      ]
+    },
+    {
+      "heading": "Empfohlener Proteinzufuhr-Rechner nach Ziel",
+      "subSections": [
+        {
+          "heading": "Muskelaufbau",
+          "content": "Höherer Proteingehalt (1,6–2,2 g/kg) zur Unterstützung von Hypertrophie und Erholung."
+        },
+        {
+          "heading": "Fettabbau",
+          "content": "Etwas höherer Proteingehalt (1,8–2,4 g/kg) zur Erhaltung der Muskelmasse."
+        },
+        {
+          "heading": "Sportler und Läufer",
+          "content": "Mäßiger bis hoher Proteingehalt (1,2–2,0 g/kg) für Ausdauer und Erholung."
+        },
+        {
+          "heading": "Allgemeine Gesundheit und Gewichtserhaltung",
+          "content": "0,8–1,2 g/kg zur Deckung des Grundbedarfs."
+        }
+      ]
+    },
+    {
+      "heading": "Proteinaufnahmetabelle nach Körpergewicht",
+      "content": "Körpergewicht (kg) | Sitzend (0,8 g/kg) | Aktiv (1,4 g/kg) | Muskelaufbau (2,0 g/kg) | Fettabbau (2,2 g/kg)\n--- | --- | --- | --- | ---\n60 | 48 g | 84 g | 120 g | 132 g\n70 | 56 g | 98 g | 140 g | 154 g\n80 | 64 g | 112 g | 160 g | 176 g\n90 | 72 g | 126 g | 180 g | 198 g\n100 | 80 g | 140 g | 200 g | 220 g"
+    },
+    {
+      "heading": "So berechnen Sie die Proteinaufnahme",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Geben Sie Ihr Gewicht, Ihr Alter, Ihr Geschlecht und Ihr Aktivitätsniveau in den Proteinzufuhr-Rechner online ein."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Wählen Sie Ihr Ziel – Muskelaufbau, Fettabbau oder Erhaltung."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Ermitteln Sie Ihre tägliche Proteinaufnahme in Gramm sowie einen empfohlenen Bereich."
+        }
+      ]
+    },
+    {
+      "heading": "Warum einen Proteinbedarfsrechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Fitnessstudio- und Fitnessbegeisterte",
+          "content": "Verfolgen Sie muskelaufbauende Makros."
+        },
+        {
+          "heading": "Sportler und Läufer",
+          "content": "Optimieren Sie Wiederherstellung und Leistung."
+        },
+        {
+          "heading": "Menschen auf Abnehmreisen",
+          "content": "Sorgen Sie für eine sichere Proteinaufnahme."
+        },
+        {
+          "heading": "Jeder, der sich für gesunde Ernährung interessiert",
+          "content": "Balance-Makros für Wohlbefinden."
+        },
+        {
+          "heading": "KI-gestützte Präzision",
+          "content": "Im Gegensatz zu generischen Diagrammen passt sich dieses Tool an Aktivitätsniveau, BMI und Fitnessziele an, um ein personalisiertes Ergebnis zu erzielen."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie hoch ist meine empfohlene Proteinzufuhr?",
+      "a": "Ihr Proteinbedarf hängt vom Körpergewicht und dem Aktivitätsniveau ab. Die meisten Erwachsenen benötigen je nach Fitnessziel 0,8–2,2 g/kg/Tag."
+    },
+    {
+      "q": "Wie viel Protein pro kg Körpergewicht?",
+      "a": "Sitzend: 0,8 g/kg | Aktiv: 1,2–2,0 g/kg | Muskelaufbau: 1,6–2,2 g/kg | Fettverlust: 1,8–2,4 g/kg."
+    },
+    {
+      "q": "Ist ein hoher Proteingehalt sicher für den Fettabbau?",
+      "a": "Ja, wenn es mit einem Kaloriendefizit einhergeht. Ein höherer Proteingehalt hilft, Muskelmasse zu erhalten und gleichzeitig Gewicht zu verlieren."
+    },
+    {
+      "q": "Brauchen Sportler mehr Protein?",
+      "a": "Ja. Ausdauersportler benötigen 1,2–1,6 g/kg, während Kraftsportler möglicherweise 1,6–2,2 g/kg für Leistung und Erholung benötigen."
+    }
+  ]
+}

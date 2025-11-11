@@ -1,0 +1,63 @@
+{
+  "color": "roxo",
+  "sections": [
+    {
+      "heading": "Calculadora de amortização: planeje o pagamento do seu empréstimo com facilidade",
+      "content": "Nossa Calculadora de Amortização é uma ferramenta on-line poderosa e gratuita projetada para ajudá-lo a entender e gerenciar os pagamentos de seus empréstimos. Esteja você planejando uma hipoteca, um empréstimo pessoal ou explorando opções de pagamento antecipado, esta calculadora fornece um detalhamento claro de seus pagamentos de principal e juros, ajudando você a tomar decisões financeiras informadas.\n\nExperimente a melhor ferramenta de calculadora de amortização online agora para ver o cronograma de amortização do seu empréstimo em minutos."
+    },
+    {
+      "heading": "Como funciona",
+      "content": "Usar nossa calculadora de cronograma de amortização de empréstimos é simples:",
+      "subSections": [
+        {
+          "heading": "Passos",
+          "content": "- Insira os detalhes do seu empréstimo: insira o valor do empréstimo, a taxa de juros e o prazo do empréstimo. Você também pode selecionar pagamentos quinzenais ou mensais.\n- Adicionar pagamentos extras (opcional): Use o recurso de calculadora de amortização de pagamentos extras para ver como os pagamentos adicionais afetam o prazo do empréstimo e a economia de juros.\n- Gere sua programação: crie instantaneamente uma tabela de amortização detalhada mostrando juros versus principal, saldo restante e datas de pagamento.\n- Interprete os resultados: revise seu gráfico de amortização de hipotecas ou outros empréstimos e identifique oportunidades de pagamento antecipado. Você pode até imprimir seu cronograma de amortização para referência futura."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso: quando usar uma calculadora de amortização",
+      "content": "Nossa calculadora de amortização com juros é ideal para:",
+      "subSections": [
+        {
+          "heading": "Exemplos",
+          "content": "- Planejamento hipotecário: calcule on-line a amortização do empréstimo residencial e entenda os pagamentos mensais, os juros e os componentes principais.\n- Comparações de empréstimos: compare diferentes cenários com uma calculadora de amortização de hipotecas e uma planilha on-line ou outras calculadoras de empréstimos.\n- Estratégia de pagamento antecipado: Use a calculadora de amortização de pagamento antecipado para determinar como pagamentos extras podem reduzir o prazo do empréstimo.\n- Planejamento financeiro: Gere uma tabela de amortização gratuita para orçamento ou planejamento de empréstimos."
+        }
+      ]
+    },
+    {
+      "heading": "Comparações e insights",
+      "content": "Principais insights para entender melhor a amortização:",
+      "subSections": [
+        {
+          "heading": "Percepções",
+          "content": "- Calculadora de amortização versus calculadora de empréstimo: enquanto uma calculadora de empréstimo padrão mostra o total de pagamentos, nossa ferramenta fornece um cronograma de amortização detalhado, mostrando juros versus principal para cada pagamento.\n- Método bola de neve da dívida versus método de amortização: Use a calculadora para avaliar se pagar dívidas menores primeiro ou seguir o cronograma de amortização economiza mais juros.\n- Calculadora de amortização de hipotecas versus planilha on-line: obtenha cálculos instantâneos e automatizados sem erros manuais de planilha."
+        }
+      ]
+    },
+    {
+      "heading": "Dicas e principais insights",
+      "content": "Dicas úteis para maximizar seu planejamento de amortização:",
+      "subSections": [
+        {
+          "heading": "Pontas",
+          "content": "- Amortização vs depreciação: A amortização aplica-se aos empréstimos, enquanto a depreciação aplica-se aos activos.\n- Juros versus amortização de principal: Os pagamentos antecipados são principalmente juros, mudando gradualmente para o principal.\n- Impacto dos pagamentos extras: Fazer pagamentos adicionais reduz significativamente os juros totais e acelera o pagamento do empréstimo.\n- Como a amortização afeta seu empréstimo: compreender seu cronograma de amortização ajuda a planejar poupanças, pagamentos antecipados ou decisões de refinanciamento.\n- Explicação da fórmula de amortização: a calculadora usa uma fórmula padrão para dividir os pagamentos do empréstimo em principal e juros, mostrando exatamente quanto de juros você pagará ao longo do tempo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é um cronograma de amortização?",
+      "a": "Um cronograma de amortização é uma tabela que detalha cada pagamento do empréstimo, mostrando quanto vai para principal e juros, mais o saldo remanescente."
+    },
+    {
+      "q": "Posso usar esta calculadora para vários empréstimos?",
+      "a": "Sim! Nossa calculadora de amortização para vários empréstimos permite combinar empréstimos e ver cronogramas totais de pagamentos e economias."
+    },
+    {
+      "q": "Esta ferramenta pode ser impressa?",
+      "a": "Absolutamente! Gere um cronograma imprimível de calculadora de amortização para referência off-line e planejamento financeiro."
+    }
+  ]
+}

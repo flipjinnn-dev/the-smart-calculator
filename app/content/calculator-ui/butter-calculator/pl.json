@@ -1,0 +1,137 @@
+{
+  "pageTitle": "Kalkulator masła",
+  "pageDescription": "Konwertuj pomiary masła pomiędzy patykami, filiżankami, łyżkami, łyżeczkami i gramami do gotowania i pieczenia",
+  "form": {
+    "labels": {
+      "inputUnit": "Jednostka wejściowa",
+      "outputUnit": "Jednostka wyjściowa",
+      "amount": "Kwota",
+      "butterType": "Rodzaj masła"
+    },
+    "placeholders": {
+      "amount": "Wprowadź kwotę do przeliczenia"
+    },
+    "buttons": {
+      "convert": "Konwersja pomiaru masła",
+      "reset": "Nastawić",
+      "calculate": "Oblicz masło"
+    },
+    "units": {
+      "sticks": "Patyki",
+      "cups": "Stan nietrzeźwy",
+      "tablespoons": "Łyżki",
+      "teaspoons": "Łyżeczki",
+      "grams": "Gramów",
+      "ounces": "Uncje",
+      "pounds": "Funty"
+    },
+    "butterTypes": {
+      "salted": "Solone Masło",
+      "unsalted": "Niesolone masło",
+      "whipped": "Bita Masło",
+      "european": "Masło w stylu europejskim"
+    }
+  },
+  "results": {
+    "convertedAmount": "Przeliczona kwota",
+    "conversionResult": "Wynik konwersji",
+    "butterResultsTitle": "Wyniki konwersji masła",
+    "equivalentMeasurements": "Pomiary równoważne"
+  },
+  "educational": {
+    "butterInfo": "Informacje dotyczące pomiaru masła",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby kulinarne",
+    "butterEquivalents": {
+      "standard": {
+        "title": "Standardowe odpowiedniki masła",
+        "description": "1 sztyft = 1/2 szklanki = 8 łyżek = 113 g = 4 uncje"
+      },
+      "metric": {
+        "title": "Odpowiedniki metryczne",
+        "description": "1 szklanka = 227 g, 1 łyżka stołowa = 14 g, 1 łyżeczka = 5 g"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten umożliwia wyłącznie przeliczanie miar",
+      "substitution": "Zastępując rodzaje masła, należy wziąć pod uwagę wymagania dotyczące przepisu"
+    },
+    "importantNotesList": [
+      "Solone i niesolone masło można zwykle zastąpić 1:1",
+      "Ubite masło ma większą objętość, ale mniej tłuszczu na filiżankę",
+      "Masło w stylu europejskim ma wyższą zawartość tłuszczu niż masło amerykańskie",
+      "Aby uzyskać najlepsze rezultaty pieczenia, należy zawsze dokładnie odmierzać masło"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź pomiar masła do konwersji",
+    "resultMessage": "Poniżej pokazana jest przeliczona miara masła",
+    "assessmentResult": "Wynik konwersji:",
+    "butterAnalysis": "Analiza pomiaru masła"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia konwersję miar masła w oparciu o standardowe odpowiedniki. Rzeczywiste wagi mogą się nieznacznie różnić w zależności od marki i opakowania."
+  },
+  "seekHelp": {
+    "title": "Zasoby kulinarne",
+    "content": "Aby uzyskać profesjonalne porady kulinarne i opracować przepisy, rozważ konsultację ze specjalistami kulinarnymi lub skorzystanie ze specjalistycznych zasobów i książek kucharskich."
+  },
+  "errors": {
+    "amount": "Proszę wprowadzić prawidłową kwotę",
+    "inputUnit": "Wybierz jednostkę wejściową",
+    "outputUnit": "Proszę wybrać jednostkę wyjściową",
+    "butterType": "Proszę wybrać rodzaj masła"
+  },
+  "tooltips": {
+    "inputUnit": "Jednostka miary, z której dokonujesz konwersji",
+    "outputUnit": "Jednostka miary, na którą dokonujesz konwersji",
+    "amount": "Ilość masła, którą chcesz przekonwertować",
+    "butterType": "Rodzaj masła wpływa na wagę i objętość"
+  },
+  "loading_0": "Załadunek...",
+  "butter_conversions_1": "Konwersje masła",
+  "choose_your_input_measurement_to_convert_to_all_ot_2": "Wybierz miarę wejściową, którą chcesz przeliczyć na wszystkie inne jednostki",
+  "what_unit_would_you_like_to_convert_from_3": "Z jakiej jednostki chcesz dokonać konwersji?",
+  "sticks_4": "Patyki",
+  "cups_5": "Stan nietrzeźwy",
+  "tablespoons_6": "Łyżki",
+  "grams_7": "Gramów",
+  "number_of_sticks_8": "Liczba patyków",
+  "formula_9": "Formuła:",
+  "k_1_stick_cup_8_tbsp_24_tsp_113g_10": "1 laska = ½ szklanki = 8 łyżek = 24 łyżeczki = 113 g",
+  "number_of_cups_11": "Liczba filiżanek",
+  "formula_12": "Formuła:",
+  "k_1_cup_2_sticks_16_tbsp_48_tsp_226g_13": "1 szklanka = 2 patyczki = 16 łyżek = 48 łyżeczek = 226 g",
+  "number_of_tablespoons_14": "Liczba łyżek",
+  "formula_15": "Formuła:",
+  "k_1_tbsp_0125_sticks_00625_cups_3_tsp_141g_16": "1 łyżka = 0,125 słupków = 0,0625 filiżanek = 3 łyżeczki = 14,1 g",
+  "weight_in_grams_17": "Waga w gramach",
+  "formula_18": "Formuła:",
+  "k_1g_000885_sticks_000442_cups_0071_tbsp_19": "1 g = 0,00885 pałeczek = 0,00442 filiżanek = 0,071 łyżki",
+  "convert_butter_20": "Konwertuj masło",
+  "conversions_21": "Konwersje",
+  "equals_22": "równa się:",
+  "sticks_23": "patyki",
+  "cups_24": "stan nietrzeźwy",
+  "tbsp_25": "łyżka",
+  "tsp_26": "łyżeczka",
+  "grams_27": "gramy",
+  "perfect_for_your_cooking_and_baking_needs_28": "Idealny do Twoich potrzeb w zakresie gotowania i pieczenia!",
+  "enter_a_value_and_click_29": "Wprowadź wartość i kliknij",
+  "convert_butter_30": "Konwertuj masło",
+  "to_see_all_conversions_31": "aby zobaczyć wszystkie konwersje.",
+  "how_to_use_this_calculator_32": "Jak korzystać z tego kalkulatora?",
+  "k_1_33": "1",
+  "select_the_unit_you_want_to_convert_from_sticks_cu_34": "Wybierz jednostkę, z której chcesz przeliczyć (pałeczki, kubki, łyżki stołowe lub gramy).",
+  "k_2_35": "2",
+  "enter_the_amount_you_have_in_your_recipe_36": "Wpisz ilość, którą masz w swoim przepisie.",
+  "k_3_37": "3",
+  "click_38": "Trzask",
+  "convert_butter_39": "Konwertuj masło",
+  "to_see_all_equivalent_measurements_40": "aby zobaczyć wszystkie równoważne\n                        pomiary.",
+  "k_4_41": "4",
+  "use_the_converted_measurements_in_your_cooking_and_42": "Wykorzystaj przeliczone miary podczas gotowania i pieczenia!"
+}

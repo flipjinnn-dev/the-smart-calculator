@@ -1,0 +1,86 @@
+{
+  "color": "lila",
+  "sections": [
+    {
+      "heading": "Zahlungsrechner: Vereinfachen Sie Ihre Kreditplanung",
+      "content": "Unser Zahlungsrechner soll Ihnen dabei helfen, Ihre Kreditzahlungen schnell abzuschätzen, sei es für ein Auto, ein Haus, einen Privatkredit oder eine feste Ratenzahlung. Mit nur wenigen Eingaben können Sie Ihre monatlichen Zahlungen, Zinsen und die Gesamtrückzahlung einsehen und so fundierte Finanzentscheidungen treffen."
+    },
+    {
+      "heading": "So verwenden Sie den Zahlungsrechner",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Wählen Sie Ihren Kredittyp aus – Auto, Hypothek, Privatkredit oder Festzahlung."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Geben Sie den Kreditbetrag ein, den Sie leihen möchten."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Geben Sie den Zinssatz und die Kreditlaufzeit (Monate oder Jahre) ein."
+        },
+        {
+          "heading": "Schritt 4",
+          "content": "Klicken Sie auf Berechnen, um Ihre monatliche Zahlung, die Gesamtzinsen und den Zahlungsplan anzuzeigen."
+        }
+      ]
+    },
+    {
+      "heading": "Vorteile der Verwendung eines Zahlungsrechners",
+      "subSections": [
+        {
+          "heading": "Schnelle Schätzungen",
+          "content": "Ermitteln Sie sofort monatliche Raten und Gesamtzahlungen."
+        },
+        {
+          "heading": "Finanzplanung",
+          "content": "Vergleichen Sie verschiedene Kreditoptionen, bevor Sie sich verpflichten."
+        },
+        {
+          "heading": "Einblick in die Amortisation",
+          "content": "Verstehen Sie, wie sich Zahlungen zwischen Kapital und Zinsen aufteilen."
+        },
+        {
+          "heading": "Entscheidungsfindung",
+          "content": "Wählen Sie den besten Kredit basierend auf realistischen Rückzahlungserwartungen."
+        }
+      ]
+    },
+    {
+      "heading": "Häufige Szenarien",
+      "subSections": [
+        {
+          "heading": "Autokredit",
+          "content": "Nutzen Sie unseren Autozahlungsrechner, um die monatlichen Raten abzuschätzen und Finanzierungsmöglichkeiten zu vergleichen."
+        },
+        {
+          "heading": "Hypothek",
+          "content": "Planen Sie vorausschauend mit unserem Hypothekenzahlungsrechner für Wohnungsbaudarlehen."
+        },
+        {
+          "heading": "Persönlicher Kredit",
+          "content": "Berechnen Sie flexible Rückzahlungspläne mit unserem Ratenzahlungsrechner für Privatkredite."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie berechne ich die monatlichen Zahlungen?",
+      "a": "Die monatlichen Zahlungen werden anhand Ihres Kreditbetrags, Zinssatzes und Ihrer Laufzeit berechnet. Unser Rechner wendet automatisch die Standard-Kreditzahlungsformel an und schlüsselt Ihre Tilgung auf."
+    },
+    {
+      "q": "Kann ich verschiedene Rechner vergleichen?",
+      "a": "Ja! Sie können den Unterschied zwischen einem Online-Zahlungsrechner, einem Tilgungsrechner und einem Festzahlungsrechner erkennen, um die beste Lösung für Ihre Bedürfnisse zu finden."
+    },
+    {
+      "q": "Ist die Nutzung dieses Rechners kostenlos?",
+      "a": "Absolut! Unser kostenloser Zahlungsrechner liefert sofortige Ergebnisse ohne versteckte Gebühren oder Anmeldeanforderungen."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen monatlichen und jährlichen Zahlungen?",
+      "a": "Durch monatliche Zahlungen verteilen Sie Ihre Kreditkosten über einen längeren Zeitraum, während jährliche Zahlungen sie in weniger, aber größere Raten zusammenfassen. Nutzen Sie unsere monatliche vs. jährliche Zahlungsoption für klare Vergleiche."
+    }
+  ]
+}

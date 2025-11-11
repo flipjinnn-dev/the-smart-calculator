@@ -1,0 +1,179 @@
+{
+  "pageTitle": "Calculadora de frequência cardíaca alvo",
+  "pageDescription": "Calcule a frequência cardíaca alvo com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular a frequência cardíaca alvo",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo da frequência cardíaca alvo"
+  },
+  "educational": {
+    "info": "Informações sobre frequência cardíaca alvo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de frequência cardíaca alvo",
+        "description": "Informações sobre a frequência cardíaca alvo"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como a frequência cardíaca alvo é calculada"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos da frequência cardíaca alvo"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de frequência cardíaca alvo",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular a frequência cardíaca alvo",
+    "resultMessage": "Os resultados do cálculo da frequência cardíaca alvo são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da frequência cardíaca alvo:",
+    "analysis": "Análise da frequência cardíaca alvo"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de frequência cardíaca alvo com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "heart_rate_calculation_0": "Cálculo da frequência cardíaca",
+  "enter_your_details_and_select_your_preferred_metho_1": "Insira seus dados e selecione seu método preferido para calcular as zonas-alvo de frequência cardíaca",
+  "age_years_2": "Idade (anos) *",
+  "maximum_heart_rate_optional_3": "Frequência cardíaca máxima (opcional)",
+  "bpm_4": "bpm",
+  "leave_blank_to_calculate_using_formula_5": "Deixe em branco para calcular usando a fórmula",
+  "max_hr_formula_6": "Fórmula de RH máximo",
+  "haskell_fox_1971_7": "Haskell e Fox (1971)",
+  "mhr_220_age_8": "FCM = 220 - idade",
+  "most_commonly_used_formula_9": "Fórmula mais comumente usada",
+  "tanaka_et_al_2001_10": "Tanaka et al. (2001)",
+  "mhr_208_07_age_11": "FCM = 208 - (0,7 × idade)",
+  "more_accurate_for_older_adults_12": "Mais preciso para adultos mais velhos",
+  "nes_et_al_2013_13": "Nes et al. (2013)",
+  "mhr_211_064_age_14": "FCM = 211 - (0,64 × idade)",
+  "based_on_large_population_study_15": "Com base em um grande estudo populacional",
+  "calculation_method_16": "Método de cálculo",
+  "percentage_of_max_hr_basic_17": "Porcentagem de RH Máximo (Básico)",
+  "thr_mhr_intensity_18": "THR = FCM ×% Intensidade",
+  "simple_and_widely_used_method_19": "Método simples e amplamente utilizado",
+  "karvonen_method_advanced_20": "Método Karvonen (Avançado)",
+  "thr_hrr_intensity_rhr_21": "THR = (HRR ×% Intensidade) + FCR",
+  "more_personalized_requires_resting_hr_22": "Mais personalizado, exige RH em repouso",
+  "resting_heart_rate_required_for_karvonen_23": "Frequência cardíaca em repouso (obrigatória para Karvonen) *",
+  "bpm_24": "bpm",
+  "measure_when_completely_at_rest_25": "Meça quando estiver completamente em repouso",
+  "intensity_zone_26": "Zona de Intensidade",
+  "light_5060_fat_burning_recovery_27": "Leve (50-60%) - Queima de gordura, recuperação",
+  "moderate_6070_aerobic_base_building_28": "Moderado (60-70%) - Construção de base aeróbica",
+  "vigorous_7085_performance_training_29": "Vigoroso (70-85%) - Treinamento de desempenho",
+  "custom_range_30": "Intervalo personalizado",
+  "min_31": "% mínimo",
+  "max_32": "% máx.",
+  "calculate_33": "Calcular",
+  "reset_34": "Reiniciar",
+  "target_hr_zone_35": "Zona de RH alvo",
+  "beats_per_minute_36": "batidas por minuto",
+  "enter_your_age_and_preferences_to_calculate_your_t_37": "Insira sua idade e preferências para calcular sua zona alvo de frequência cardíaca.",
+  "heart_rate_zone_results_38": "Resultados da zona de frequência cardíaca",
+  "bpm_39": "bpm",
+  "target_heart_rate_zone_40": "Zona alvo de frequência cardíaca",
+  "age_41": "Idade",
+  "years_42": "anos",
+  "max_hr_43": "RH máximo",
+  "bpm_44": "bpm",
+  "method_45": "Método",
+  "zone_46": "Zona",
+  "all_training_zones_47": "Todas as zonas de treinamento",
+  "zone_48": "Zona",
+  "intensity_49": "Intensidade",
+  "heart_rate_50": "Frequência cardíaca",
+  "purpose_51": "Propósito",
+  "bpm_52": "bpm",
+  "calculation_details_53": "Detalhes do cálculo",
+  "maximum_heart_rate_54": "Frequência cardíaca máxima",
+  "value_55": "Valor:",
+  "bpm_56": "bpm",
+  "source_57": "Fonte:",
+  "resting_hr_58": "RH em repouso:",
+  "bpm_59": "bpm",
+  "important_notes_60": "Notas importantes",
+  "formulas_are_estimates_individual_max_hr_can_vary__61": "• As fórmulas são estimativas – a FC máxima individual pode variar significativamente",
+  "karvonen_method_is_more_personalized_and_accurate_62": "• O método Karvonen é mais personalizado e preciso",
+  "consider_fitness_level_and_health_conditions_63": "• Considere o nível de condicionamento físico e as condições de saúde",
+  "consult_a_professional_before_starting_new_trainin_64": "• Consulte um profissional antes de iniciar um novo treinamento",
+  "about_target_heart_rate_training_65": "Sobre o treinamento de frequência cardíaca alvo",
+  "training_zones_explained_66": "Zonas de treinamento explicadas",
+  "light_5060_67": "Leve (50-60%):",
+  "fat_burning_recovery_workouts_68": "Queima de gordura, exercícios de recuperação",
+  "moderate_6070_69": "Moderado (60-70%):",
+  "aerobic_base_building_endurance_70": "Construção de base aeróbica, resistência",
+  "vigorous_7085_71": "Vigoroso (70-85%):",
+  "performance_training_lactate_threshold_72": "Treinamento de desempenho, limiar de lactato",
+  "maximum_8595_73": "Máximo (85-95%):",
+  "anaerobic_power_short_intervals_74": "Potência anaeróbica, intervalos curtos",
+  "formula_accuracy_75": "Precisão da Fórmula",
+  "haskell_fox_76": "Haskell e Fox:",
+  "k_1012_bpm_standard_deviation_77": "±10-12 bpm desvio padrão",
+  "tanaka_78": "Tanaka:",
+  "more_accurate_for_older_adults_40_79": "Mais preciso para adultos mais velhos (40+)",
+  "nes_80": "Não:",
+  "based_on_3320_healthy_individuals_81": "Baseado em 3.320 indivíduos saudáveis",
+  "individual_variation_82": "Variação individual:",
+  "can_be_20_bpm_from_formula_83": "Pode ser ±20 bpm da fórmula",
+  "method_comparison_84": "Comparação de métodos",
+  "method_85": "Método",
+  "accuracy_86": "Precisão",
+  "requirements_87": "Requisitos",
+  "of_max_hr_88": "% do RH máximo",
+  "good_89": "Bom",
+  "age_only_90": "Somente idade",
+  "karvonen_91": "Karvonen",
+  "better_92": "Melhorar",
+  "age_resting_hr_93": "Idade + RH em repouso",
+  "best_practices_94": "Melhores Práticas",
+  "measure_resting_hr_first_thing_in_the_morning_95": "Meça a FC em repouso logo pela manhã",
+  "use_heart_rate_monitor_for_accurate_readings_96": "Use o monitor de frequência cardíaca para leituras precisas",
+  "allow_510_minute_warmup_before_target_zone_97": "Permita um aquecimento de 5 a 10 minutos antes da zona alvo",
+  "stay_hydrated_and_monitor_how_you_feel_98": "Mantenha-se hidratado e monitore como você se sente"
+}

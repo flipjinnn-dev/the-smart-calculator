@@ -1,0 +1,142 @@
+{
+  "pageTitle": "Conception Calculator",
+  "pageDescription": "Estimate your conception date based on ovulation and intercourse dates",
+  "form": {
+    "labels": {
+      "lastMenstrualPeriod": "Last Menstrual Period",
+      "ovulationDate": "Ovulation Date (Optional)",
+      "intercourseDate": "Intercourse Date"
+    },
+    "placeholders": {
+      "lastMenstrualPeriod": "Enter first day of last menstrual period",
+      "ovulationDate": "Enter ovulation date if known",
+      "intercourseDate": "Enter intercourse date"
+    },
+    "buttons": {
+      "calculate": "Calculate Conception Date",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "conceptionDate": "Estimated Conception Date",
+    "fertileWindow": "Fertile Window",
+    "dueDate": "Estimated Due Date",
+    "calculationDetails": "Conception Calculation Results"
+  },
+  "educational": {
+    "info": "Conception  Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "Conception  Definition",
+        "description": "Information about conception "
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How conception  is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of conception "
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides conception  estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate conception ",
+    "resultMessage": "Your conception  calculation results are shown below",
+    "assessmentResult": "Conception  Calculation Result:",
+    "analysis": "Conception  Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides conception  estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  },
+  "conception_calculation_0": "Conception Calculation",
+  "enter_your_menstrual_cycle_details_to_calculate_co_1": "Enter your menstrual cycle details to calculate conception dates",
+  "first_day_of_your_last_menstrual_period_lmp_2": "First Day of Your Last Menstrual Period (LMP) *",
+  "average_length_of_menstrual_cycle_cl_3": "Average Length of Menstrual Cycle (CL) *",
+  "days_4": "days",
+  "average_menstrual_cycle_length_ranges_from_22_to_4_5": "Average menstrual cycle length ranges from 22 to 44 days (28 days is typical)",
+  "calculate_6": "Calculate",
+  "reset_7": "Reset",
+  "conception_window_8": "Conception Window",
+  "most_probable_conception_9": "Most Probable Conception",
+  "peak_fertile_10": "Peak fertile:",
+  "enter_your_cycle_details_to_calculate_your_concept_11": "Enter your cycle details to calculate your conception window.",
+  "your_conception_results_12": "Your Conception Results",
+  "current_cycle_windows_13": "Current Cycle Windows",
+  "ovulation_date_14": "Ovulation Date:",
+  "fertile_window_15": "Fertile Window:",
+  "peak_fertile_window_16": "Peak Fertile Window:",
+  "possible_conception_dates_17": "Possible Conception Dates",
+  "most_probable_18": "(Most Probable)",
+  "peak_19": "(Peak)",
+  "due_20": "Due:",
+  "k_6cycle_forecast_21": "6-Cycle Forecast",
+  "cycle_22": "Cycle #",
+  "ovulation_date_23": "Ovulation Date",
+  "fertile_window_24": "Fertile Window",
+  "peak_fertile_window_25": "Peak Fertile Window",
+  "possible_conception_dates_26": "Possible Conception Dates",
+  "estimated_due_dates_27": "Estimated Due Dates",
+  "dates_28": "dates",
+  "understanding_conception_29": "Understanding Conception",
+  "conception_probability_30": "Conception Probability",
+  "sperm_can_survive_up_to_57_days_31": "Sperm can survive up to 5-7 days",
+  "before_ovulation_32": "before ovulation",
+  "the_last_3_days_of_fertile_window_33": "The last 3 days of fertile window",
+  "have_30_chance_of_conception_34": "have ~30% chance of conception",
+  "conception_is_most_probable_on_ovulation_day_35": "Conception is most probable on ovulation day",
+  "any_intercourse_during_fertile_window_36": "Any intercourse during fertile window",
+  "may_result_in_pregnancy_37": "may result in pregnancy",
+  "calculation_method_38": "Calculation Method",
+  "ovulation_39": "Ovulation:",
+  "lmp_cycle_length_14_days_40": "LMP + (Cycle Length - 14 days)",
+  "fertile_window_41": "Fertile Window:",
+  "ovulation_5_days_ovulation_42": "[Ovulation - 5 days, Ovulation]",
+  "peak_fertile_43": "Peak Fertile:",
+  "ovulation_2_days_ovulation_44": "[Ovulation - 2 days, Ovulation]",
+  "due_date_45": "Due Date:",
+  "conception_date_266_days_46": "Conception Date + 266 days",
+  "timing_for_conception_47": "Timing for Conception",
+  "best_timing_48": "Best timing:",
+  "k_12_days_before_ovulation_49": "1-2 days before ovulation",
+  "good_timing_50": "Good timing:",
+  "day_of_ovulation_51": "Day of ovulation",
+  "moderate_timing_52": "Moderate timing:",
+  "k_35_days_before_ovulation_53": "3-5 days before ovulation",
+  "low_probability_54": "Low probability:",
+  "after_ovulation_day_55": "After ovulation day",
+  "important_notes_56": "Important Notes",
+  "this_calculator_provides_estimates_based_on_averag_57": "This calculator provides estimates based on average cycles",
+  "actual_conception_timing_can_vary_by_individual_58": "Actual conception timing can vary by individual",
+  "due_dates_are_estimates_using_naegeles_rule_59": "Due dates are estimates using Naegele's Rule",
+  "consult_healthcare_providers_for_personalized_advi_60": "Consult healthcare providers for personalized advice"
+}

@@ -1,0 +1,131 @@
+{
+  "pageTitle": "BMI-Rechner für Magersüchtige",
+  "pageDescription": "Berechnen Sie den BMI und beurteilen Sie den Schweregrad der Anorexia nervosa anhand medizinischer Klassifizierungsschwellenwerte. Lehrmittel zum Verständnis der BMI-Bereiche und gesundheitlichen Auswirkungen.",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "height": "Höhe",
+      "weight": "Gewicht",
+      "unitSystem": "Einheitensystem"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den BMI",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    }
+  },
+  "results": {
+    "bmiValue": "BMI kg/m²",
+    "classification": "Einstufung",
+    "healthyRange": "Gesundes Sortiment",
+    "bmiResultsTitle": "BMI-Ergebnisse",
+    "bmiFormula": {
+      "label": "BMI-Formel",
+      "us": "BMI = (Gewicht in Pfund / (Größe in Zoll)²) × 703",
+      "metric": "BMI = Gewicht in kg / (Körpergröße in Metern)²"
+    },
+    "healthyBmiRange": "Gesunder BMI-Bereich: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "classifications": "BMI-Klassifizierungen",
+    "criticalWarnings": "Kritische Warnungen",
+    "importantNotes": "Wichtige Hinweise",
+    "healthyRange": "Gesunder BMI-Bereich",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Suchen Sie professionelle Hilfe",
+    "bmiClassifications": {
+      "normal": {
+        "title": "Normal",
+        "description": "BMI ≥ 18,5 – deutet nicht auf Magersucht hin"
+      },
+      "mildAnorexia": {
+        "title": "Leichte Magersucht",
+        "description": "BMI 17,0 - 17,49"
+      },
+      "moderateAnorexia": {
+        "title": "Mäßige Magersucht",
+        "description": "BMI 16,0 - 16,99"
+      },
+      "severeAnorexia": {
+        "title": "Schwere Magersucht",
+        "description": "BMI 15,0 - 15,99"
+      },
+      "extremeAnorexia": {
+        "title": "Extreme Magersucht",
+        "description": "BMI < 15,0"
+      }
+    },
+    "criticalWarningsList": {
+      "organFailure": "BMI < 13,5: Risiko eines Organversagens",
+      "lifeThreatening": "BMI < 12: Lebensbedrohlicher Zustand"
+    },
+    "importantNotesList": [
+      "Der BMI allein reicht nicht aus, um eine Anorexia nervosa zu diagnostizieren",
+      "Die klinische Beurteilung erfordert eine psychologische Beurteilung",
+      "Alter, Muskelmasse und Knochendichte beeinflussen die BMI-Interpretation",
+      "Für Kinder ≤ 20 Jahre verwenden Sie CDC-Wachstumstabellen"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "gilt als gesunder BMI-Bereich für Erwachsene.",
+      "association": "Dieser Bereich ist mit dem geringsten Risiko für Gesundheitsprobleme und Mortalität verbunden."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Geben Sie Ihre Maße ein, um den BMI zu berechnen und den Schweregrad der Magersucht zu beurteilen",
+    "doesNotSuggestAnorexia": "Deutet nicht auf Anorexia nervosa hin.",
+    "suggestsAnorexia": "Ihr BMI deutet auf eine mögliche Magersucht hin (Schweregrad: {Schweregrad}). Hinweis: Der BMI allein ist keine Diagnose.",
+    "lifeThreateningCondition": "Lebensbedrohlicher Zustand – suchen Sie sofort einen Arzt auf.",
+    "riskOfOrganFailure": "Gefahr: Gefahr eines Organversagens.",
+    "ageWarning": "Für Kinder und Jugendliche (≤20 Jahre) verwenden Sie CDC-Wachstumsdiagramme zur korrekten BMI-Interpretation.",
+    "assessmentResult": "Bewertungsergebnis:",
+    "bmiAnalysis": "BMI-Analyse und Magersucht-Bewertung"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner dient nur zu Informationszwecken. Der BMI ist ein Indikator und keine Diagnose. Konsultieren Sie für die richtige Beurteilung und Behandlung von Essstörungen einen Arzt."
+  },
+  "seekHelp": {
+    "title": "Suchen Sie professionelle Hilfe",
+    "content": "Wenn Sie oder jemand, den Sie kennen, mit Essstörungen zu kämpfen hat, wenden Sie sich bitte an einen Arzt. Frühzeitiges Eingreifen und die richtige Behandlung sind für die Genesung von entscheidender Bedeutung."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein"
+  },
+  "tooltips": {
+    "age": "Das Alter beeinflusst die BMI-Interpretation für Kinder/Jugendliche",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht"
+  },
+  "loading_0": "Laden...",
+  "error_loading_content_1": "Fehler beim Laden des Inhalts:",
+  "male_2": "Männlich",
+  "female_3": "Weiblich",
+  "calculate_4": "Berechnen",
+  "k_185_25_5": "18,5 - 25",
+  "enter_your_measurements_then_click_6": "Geben Sie Ihre Maße ein und klicken Sie dann",
+  "calculate_7": "Berechnen",
+  "to_see_bmi_8": "um den BMI zu sehen.",
+  "bmi_value_9": "BMI-Wert",
+  "kgm_10": "kg/m²",
+  "classification_11": "Einstufung",
+  "healthy_bmi_range_12": "Gesunder BMI-Bereich",
+  "k_185_25_13": "18,5 - 25",
+  "kgm_14": "kg/m²"
+}

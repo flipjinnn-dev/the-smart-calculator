@@ -1,0 +1,216 @@
+{
+  "pageTitle": "Konverter für Kochmessungen",
+  "pageDescription": "Konvertieren Sie zwischen verschiedenen Kochmaßen, einschließlich Volumen, Gewicht und Temperatur für Rezepte und kulinarische Anwendungen",
+  "form": {
+    "labels": {
+      "inputUnit": "Eingabeeinheit",
+      "outputUnit": "Ausgabeeinheit",
+      "amount": "Menge",
+      "measurementType": "Messtyp",
+      "ingredient": "Zutat (zur Gewichtsumrechnung)"
+    },
+    "placeholders": {
+      "amount": "Geben Sie den umzurechnenden Betrag ein"
+    },
+    "buttons": {
+      "convert": "Maß umrechnen",
+      "reset": "Zurücksetzen",
+      "calculate": "Berechnen Sie den Konverter für Kochmessungen"
+    },
+    "measurementTypes": {
+      "volume": "Volumen",
+      "weight": "Gewicht",
+      "temperature": "Temperatur"
+    },
+    "volumeUnits": {
+      "teaspoons": "Teelöffel (TL)",
+      "tablespoons": "Esslöffel (Esslöffel)",
+      "fluidOunces": "Flüssigunzen (fl oz)",
+      "cups": "Tassen",
+      "pints": "Pints",
+      "quarts": "Quarts",
+      "gallons": "Gallonen",
+      "milliliters": "Milliliter (ml)",
+      "liters": "Liter (L)"
+    },
+    "weightUnits": {
+      "ounces": "Unzen (oz)",
+      "pounds": "Pfund (lb)",
+      "grams": "Gramm (g)",
+      "kilograms": "Kilogramm (kg)"
+    },
+    "temperatureUnits": {
+      "fahrenheit": "Fahrenheit (°F)",
+      "celsius": "Celsius (°C)",
+      "kelvin": "Kelvin (K)"
+    },
+    "ingredients": {
+      "water": "Wasser",
+      "flour": "Allzweckmehl",
+      "sugar": "Kristallzucker",
+      "butter": "Butter",
+      "oil": "Pflanzenöl",
+      "milk": "Milch",
+      "custom": "Benutzerdefinierte Dichte"
+    }
+  },
+  "results": {
+    "convertedAmount": "Umgerechneter Betrag",
+    "conversionResult": "Konvertierungsergebnis",
+    "cookingResultsTitle": "Ergebnisse der Messkonvertierung",
+    "equivalentMeasurements": "Äquivalente Messungen"
+  },
+  "educational": {
+    "cookingInfo": "Informationen zur Kochmessung",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Kulinarische Ressourcen",
+    "measurementFacts": {
+      "volume": {
+        "title": "Volumenumrechnungen",
+        "description": "1 Tasse = 16 EL = 48 TL = 8 fl oz = 240 ml"
+      },
+      "weight": {
+        "title": "Gewichtsumrechnungen",
+        "description": "1 Pfund = 16 Unzen = 453,6 g, 1 Unze = 28,35 g"
+      },
+      "temperature": {
+        "title": "Temperaturumrechnungen",
+        "description": "°F = (°C × 9/5) + 32, °C = (°F - 32) × 5/9"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner bietet nur Maßumrechnungen",
+      "accuracy": "Bei trockenen Zutaten sind Gewichtsmessungen genauer als Volumenmessungen"
+    },
+    "importantNotesList": [
+      "Bei trockenen Zutaten sind Gewichtsmessungen im Allgemeinen genauer als Volumenmessungen",
+      "Die Dichte der Inhaltsstoffe beeinflusst die Umrechnung von Volumen in Gewicht",
+      "Berücksichtigen Sie beim Backen die Höhenlage und die Luftfeuchtigkeit",
+      "Um optimale Ergebnisse zu erzielen, verwenden Sie geeignete Messwerkzeuge"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihr Kochmaß zur Umrechnung ein",
+    "resultMessage": "Ihr umgerechnetes Kochmaß wird unten angezeigt",
+    "assessmentResult": "Konvertierungsergebnis:",
+    "cookingAnalysis": "Kochmessanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet Umrechnungen von Kochmaßen basierend auf Standardäquivalenten. Die tatsächlichen Gewichte können je nach Dichte der Zutaten, Verpackung und Messtechnik variieren."
+  },
+  "seekHelp": {
+    "title": "Kulinarische Ressourcen",
+    "content": "Für professionelle Kochberatung und Rezeptentwicklung wenden Sie sich an Kochprofis oder nutzen Sie spezielle Kochressourcen und Kochbücher für präzise Techniken."
+  },
+  "errors": {
+    "amount": "Bitte geben Sie einen gültigen Betrag ein",
+    "inputUnit": "Bitte wählen Sie eine Eingabeeinheit aus",
+    "outputUnit": "Bitte wählen Sie eine Ausgabeeinheit aus",
+    "measurementType": "Bitte wählen Sie einen Messtyp aus",
+    "ingredient": "Bitte wählen Sie eine Zutat aus"
+  },
+  "tooltips": {
+    "inputUnit": "Die Maßeinheit, aus der Sie umrechnen",
+    "outputUnit": "Die Maßeinheit, in die Sie umrechnen",
+    "amount": "Der Betrag, den Sie umrechnen möchten",
+    "measurementType": "Art der Messung (Volumen, Gewicht oder Temperatur)",
+    "ingredient": "Die Art der Zutaten beeinflusst die Gewichtsumrechnung"
+  },
+  "ingredient_measurements_0": "Zutatenmessungen",
+  "select_an_ingredient_and_enter_either_weight_or_vo_1": "Wählen Sie eine Zutat aus und geben Sie zur Umrechnung zwischen den Maßen entweder Gewicht ODER Volumen ein",
+  "select_ingredient_2": "Wählen Sie Zutat",
+  "density_3": "Dichte",
+  "kgm_4": "kg/m³",
+  "gcm_5": "g/cm³",
+  "gml_6": "g/ml",
+  "lbft_7": "lb/ft³",
+  "weight_optional_8": "Gewicht (optional)",
+  "g_9": "g",
+  "dag_10": "Tag",
+  "kg_11": "kg",
+  "oz_12": "oz",
+  "lb_13": "Pfund",
+  "volume_optional_14": "Lautstärke (optional)",
+  "ml_15": "ml",
+  "l_16": "L",
+  "cups_17": "Tassen",
+  "tbsp_18": "EL",
+  "tsp_19": "TL",
+  "fl_oz_20": "fl oz",
+  "convert_21": "Konvertieren",
+  "reset_22": "Zurücksetzen",
+  "results_23": "Ergebnisse",
+  "ingredient_24": "Bestandteil",
+  "density_25": "Dichte:",
+  "kgm_26": "kg/m³",
+  "input_weight_27": "Geben Sie das Gewicht ein",
+  "kg_28": "kg",
+  "equivalent_volume_29": "Äquivalentes Volumen",
+  "all_volume_conversions_30": "Alle Volumenumrechnungen",
+  "ml_31": "ml",
+  "l_32": "L",
+  "cups_33": "Tassen",
+  "tbsp_34": "EL",
+  "tsp_35": "TL",
+  "fl_oz_36": "fl oz",
+  "input_volume_37": "Eingangslautstärke",
+  "m_38": "m³",
+  "equivalent_weight_39": "Äquivalentgewicht",
+  "all_weight_conversions_40": "Alle Gewichtsumrechnungen",
+  "g_41": "g",
+  "dag_42": "Tag",
+  "kg_43": "kg",
+  "oz_44": "oz",
+  "lb_45": "Pfund",
+  "formula_used_46": "Verwendete Formel",
+  "volume_weight_density_47": "Volumen = Gewicht ÷ Dichte",
+  "v_48": "V =",
+  "kg_49": "kg ÷",
+  "kgm_50": "kg/m³ =",
+  "m_51": "m³",
+  "weight_volume_density_52": "Gewicht = Volumen × Dichte",
+  "w_53": "W =",
+  "m_54": "m³ ×",
+  "kgm_55": "kg/m³ =",
+  "kg_56": "kg",
+  "select_an_ingredient_and_enter_either_57": "Wählen Sie eine Zutat aus und geben Sie eine davon ein",
+  "weight_or_volume_58": "Gewicht ODER Volumen",
+  "to_see_conversion_results_59": "Konvertierung zu sehen\n                          Ergebnisse.",
+  "understanding_cooking_measurement_conversion_60": "Grundlegendes zur Umrechnung von Kochmaßen",
+  "core_formulas_61": "Kernformeln",
+  "weight_to_volume_62": "Gewicht zu Volumen:",
+  "volume_weight_density_63": "Volumen = Gewicht ÷ Dichte",
+  "volume_to_weight_64": "Volumen zu Gewicht:",
+  "weight_volume_density_65": "Gewicht = Volumen × Dichte",
+  "density_66": "Dichte:",
+  "mass_per_unit_volume_kgm_67": "Masse pro Volumeneinheit (kg/m³)",
+  "common_ingredient_densities_68": "Gemeinsame Zutatendichten",
+  "water_69": "Wasser:",
+  "k_1000_kgm_70": "1000 kg/m³",
+  "flour_71": "Mehl:",
+  "k_593_kgm_72": "593 kg/m³",
+  "sugar_73": "Zucker:",
+  "k_845_kgm_74": "845 kg/m³",
+  "salt_75": "Salz:",
+  "k_1217_kgm_76": "1217 kg/m³",
+  "milk_77": "Milch:",
+  "k_1030_kgm_78": "1030 kg/m³",
+  "oil_79": "Öl:",
+  "k_920_kgm_80": "920 kg/m³",
+  "honey_81": "Honig:",
+  "k_1420_kgm_82": "1420 kg/m³",
+  "butter_83": "Butter:",
+  "k_911_kgm_84": "911 kg/m³",
+  "practical_applications_85": "Praktische Anwendungen",
+  "recipe_scaling_86": "Rezeptskalierung:",
+  "convert_between_weight_and_volume_measurements_whe_87": "Konvertieren Sie beim Skalieren zwischen Gewichts- und Volumenmaßen\n                        Rezepte",
+  "international_recipes_88": "Internationale Rezepte:",
+  "convert_between_metric_and_us_customary_units_89": "Konvertieren Sie zwischen metrischen und US-üblichen Einheiten",
+  "precision_baking_90": "Präzisionsbacken:",
+  "use_weight_measurements_for_more_accurate_results_91": "Verwenden Sie Gewichtsmessungen für genauere Ergebnisse",
+  "ingredient_substitution_92": "Zutatenersatz:",
+  "calculate_amounts_when_substituting_ingredients_93": "Berechnen Sie die Beträge beim Ersetzen\n                        Zutaten"
+}

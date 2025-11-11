@@ -1,0 +1,111 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Mietrechner – Finden Sie heraus, wie viel Miete Sie sich leisten können",
+      "content": "Unser Mietrechner (auch Miettragbarkeitsrechner oder Mietbudgetrechner genannt) hilft Ihnen bei der Beantwortung einer der wichtigsten Wohnfragen: „Wie viel Miete kann ich mir leisten?“ Ganz gleich, ob Sie in Ihre erste Wohnung ziehen, in eine neue Stadt ziehen oder versuchen, die Miete mit anderen Ausgaben in Einklang zu bringen: Mit diesem Tool erhalten Sie eine schnelle und genaue Schätzung der Höchstmiete, die Sie auf der Grundlage Ihres Einkommens und Ihrer Schulden zahlen sollten."
+    },
+    {
+      "heading": "Warum es nützlich ist",
+      "subSections": [
+        {
+          "heading": "Budgetplanung",
+          "content": "Halten Sie ein sicheres Miet-Einkommens-Verhältnis ein."
+        },
+        {
+          "heading": "Schuldenbewusstsein",
+          "content": "Berücksichtigen Sie Kredite, Kreditkarten und Lebenshaltungskosten."
+        },
+        {
+          "heading": "Intelligente Entscheidungen",
+          "content": "Vergleichen Sie Miete und Kauf mit unserem Hypothekenrechner."
+        }
+      ]
+    },
+    {
+      "heading": "Wie funktioniert der Mietrechner?",
+      "subSections": [
+        {
+          "heading": "Front-End-Verhältnis (Wohnungsverhältnis)",
+          "content": "Diese Richtlinie legt nahe, dass Sie nicht mehr als 30 % Ihres monatlichen Bruttoeinkommens für Miete ausgeben sollten.\nFormel: Maximale Miete = Bruttomonatseinkommen × 0,30"
+        },
+        {
+          "heading": "Back-End-Verhältnis (Verhältnis von Schulden zu Einkommen)",
+          "content": "Diese Regel berücksichtigt alle Schulden (Miete + Autokredit + Kreditkarten + Studienkredit). Kreditgeber bevorzugen in der Regel, dass Ihre Gesamtschuldenzahlungen ≤ 40 % Ihres Bruttomonatseinkommens betragen.\nFormel: (Maximale Miete + sonstige Schulden) ≤ Bruttomonatseinkommen × 0,40"
+        },
+        {
+          "heading": "Beispiel",
+          "content": "Gehalt: 60.000 $/Jahr → 5.000 $/Monat.\n30 %-Regel: 5.000 $ × 0,30 = 1.500 $ Maximalmiete.\nWenn monatliche Schulden = 500 $ → 1.500 $ Miete + 500 $ Schulden = 2.000 $ (40 % von 5.000 $). Erschwinglich."
+        }
+      ]
+    },
+    {
+      "heading": "Wer sollte einen Mietbezahlbarkeitsrechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Studenten",
+          "content": "Schätzen Sie die Miete, wenn Sie die Kosten mit den Mitbewohnern teilen."
+        },
+        {
+          "heading": "Haushalte mit einem Einkommen",
+          "content": "Finden Sie sichere Mietgrenzen basierend auf einem Gehalt."
+        },
+        {
+          "heading": "Haushalte mit doppeltem Einkommen",
+          "content": "Kombinieren Sie Einkommen für ein realistischeres Mietbudget."
+        },
+        {
+          "heading": "Familien mit niedrigem Einkommen",
+          "content": "Entdecken Sie erschwingliche Mietoptionen und vermeiden Sie Mehrausgaben."
+        },
+        {
+          "heading": "Nach Geographie",
+          "content": "Funktioniert unabhängig davon, ob Sie es als Mietrechner für NYC, London, Kalifornien oder eine andere Stadt verwenden."
+        }
+      ]
+    },
+    {
+      "heading": "Praktischer Leitfaden zur Erschwinglichkeit von Mieten",
+      "subSections": [
+        {
+          "heading": "Wie viel Prozent des Einkommens sollte die Miete betragen?",
+          "content": "Allgemeine Regel: 25–30 % des Bruttoeinkommens. Konservative Planer streben bei hohen Ausgaben 20–25 % an. Wenn die Schulden niedrig sind, reichen einige Haushalte bis zu 35–40 %, aber das ist riskant."
+        },
+        {
+          "heading": "Sollte ich Nebenkosten und andere Ausgaben einbeziehen?",
+          "content": "Ja. Berücksichtigen Sie immer: Versorgungsleistungen (Strom, Gas, Wasser, Internet), Mieterversicherung, Transport- und Pendlerkosten, Lebensmittel und das tägliche Leben."
+        },
+        {
+          "heading": "Miete vs. Hypothek – Was ist besser?",
+          "content": "Mieten ist flexibel und erfordert weniger Vorabkosten, aber Hypotheken schaffen Eigenkapital. Vergleichen Sie Optionen mit unserem Miet-Hypotheken-Rechner und dem Hauskredit-Rechner."
+        }
+      ]
+    },
+    {
+      "heading": "Erschwinglichkeit der Miete nach Gehalt (Kurzreferenz)",
+      "content": "40.000 $ Gehalt → ~1.000 $/Monatsmiete\n50.000 $ Gehalt → ~1.250 $/Monatsmiete\n60.000 $ Gehalt → ~1.500 $/Monatsmiete\n75.000 $ Gehalt → ~1.875 $/Monat Miete\n100.000 $ Gehalt → ~2.500 $/Monat Miete\n(Geht von einer 30 %-Regel aus, vor Schulden und Nebenkosten.)"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viel Miete kann ich mir bei einem Gehalt von 50.000 $ leisten?",
+      "a": "Bei Anwendung der 30 %-Regel etwa 1.250 $ pro Monat."
+    },
+    {
+      "q": "Wie viel Prozent meines Einkommens sollte die Miete betragen?",
+      "a": "Die meisten Experten empfehlen 25–30 % Ihres Bruttomonatseinkommens."
+    },
+    {
+      "q": "Soll ich die Miete auf Basis des Nettoeinkommens (nach Steuern) berechnen?",
+      "a": "Die meisten Rechner verwenden das Bruttoeinkommen, eine Budgetierung anhand des Nettoeinkommens ist jedoch sicherer und realistischer."
+    },
+    {
+      "q": "Können Studenten oder Geringverdiener diesen Mietrechner nutzen?",
+      "a": "Ja. Es passt sich jedem Einkommensniveau an. Bei knappen Budgets sollten Sie 20–25 % des Einkommens für die Miete anstreben und bei Bedarf Wohnhilfeprogramme in Anspruch nehmen."
+    },
+    {
+      "q": "Ist es besser zu mieten oder zu kaufen?",
+      "a": "Es hängt von Ihrer Stadt, Ihrer beruflichen Stabilität und Ihren finanziellen Zielen ab. Mieten bietet Flexibilität, Kauf baut langfristig Eigenkapital auf. Nutzen Sie zum Vergleich unseren Hypothekenrechner und Einkommensteuerrechner."
+    }
+  ]
+}

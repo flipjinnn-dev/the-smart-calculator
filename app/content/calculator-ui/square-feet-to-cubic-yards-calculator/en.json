@@ -1,0 +1,163 @@
+{
+  "pageTitle": "Square Feet to Cubic Yards Calculator",
+  "pageDescription": "Convert square feet to cubic yards for concrete, soil, and other materials in construction and landscaping projects",
+  "form": {
+    "labels": {
+      "area": "Area (Square Feet)",
+      "depth": "Depth/Height",
+      "depthUnit": "Depth Unit",
+      "materialType": "Material Type",
+      "wasteFactor": "Waste Factor (%)"
+    },
+    "placeholders": {
+      "area": "Enter area in square feet",
+      "depth": "Enter depth or height",
+      "wasteFactor": "Enter waste factor (0-50%)"
+    },
+    "buttons": {
+      "calculate": "Calculate Cubic Yards",
+      "reset": "Reset"
+    },
+    "depthUnits": {
+      "inches": "Inches",
+      "feet": "Feet",
+      "centimeters": "Centimeters",
+      "meters": "Meters"
+    },
+    "materialTypes": {
+      "concrete": "Concrete",
+      "soil": "Soil/Dirt",
+      "mulch": "Mulch",
+      "gravel": "Gravel",
+      "sand": "Sand",
+      "asphalt": "Asphalt",
+      "custom": "Custom Material"
+    }
+  },
+  "results": {
+    "cubicYards": "Cubic Yards",
+    "cubicFeet": "Cubic Feet",
+    "cubicMeters": "Cubic Meters",
+    "conversionResultsTitle": "Conversion Results",
+    "materialVolume": "Material Volume",
+    "withWaste": "With Waste Factor"
+  },
+  "educational": {
+    "conversionInfo": "Conversion Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Construction Resources",
+    "conversionFacts": {
+      "formula": {
+        "title": "Conversion Formula",
+        "description": "Cubic Yards = (Area × Depth) ÷ 27, where 27 cubic feet = 1 cubic yard"
+      },
+      "applications": {
+        "title": "Common Applications",
+        "description": "Concrete ordering, soil delivery, mulch coverage, and material estimation"
+      },
+      "accuracy": {
+        "title": "Accuracy Factors",
+        "description": "Actual requirements may vary due to compaction, settling, and measurement accuracy"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only",
+      "ordering": "Order additional material to account for variations and spills"
+    },
+    "importantNotesList": [
+      "Always add 5-10% extra for waste and variations in actual projects",
+      "Consider material compaction and settling in final calculations",
+      "Verify local supplier minimum order quantities",
+      "Measure twice and order once to avoid shortages"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your area and depth to calculate material volume",
+    "resultMessage": "Your volume calculation is shown below",
+    "assessmentResult": "Volume Calculation Result:",
+    "conversionAnalysis": "Square Feet to Cubic Yards Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides volume estimates for construction materials. Actual requirements may vary due to compaction, settling, measurement accuracy, and project-specific factors. Always consult with suppliers for final ordering quantities."
+  },
+  "seekHelp": {
+    "title": "Construction Resources",
+    "content": "For professional construction estimation and material planning, consult certified contractors or use specialized estimating software for project-specific requirements and local conditions."
+  },
+  "errors": {
+    "area": "Please enter a valid area in square feet",
+    "depth": "Please enter a valid depth or height",
+    "depthUnit": "Please select a depth unit",
+    "materialType": "Please select a material type",
+    "wasteFactor": "Please enter a valid waste factor (0-50%)"
+  },
+  "tooltips": {
+    "area": "Total surface area to be covered",
+    "depth": "Thickness or depth of material required",
+    "depthUnit": "Unit of measurement for depth",
+    "materialType": "Type of material affects density and handling",
+    "wasteFactor": "Additional percentage to account for waste and variations"
+  },
+  "area_depth_inputs_0": "Area & Depth Inputs",
+  "enter_area_and_depth_measurements_to_calculate_vol_1": "Enter area and depth measurements to calculate volume in cubic yards",
+  "area_2": "Area",
+  "ft_3": "ft²",
+  "in_4": "in²",
+  "yd_5": "yd²",
+  "m_6": "m²",
+  "cm_7": "cm²",
+  "depth_8": "Depth",
+  "in_9": "in",
+  "ft_10": "ft",
+  "yd_11": "yd",
+  "cm_12": "cm",
+  "m_13": "m",
+  "calculate_14": "Calculate",
+  "reset_15": "Reset",
+  "results_16": "Results",
+  "input_values_converted_17": "Input Values (converted)",
+  "area_18": "Area:",
+  "ft_19": "ft²",
+  "depth_20": "Depth:",
+  "inches_21": "inches",
+  "volume_22": "Volume",
+  "cubic_yards_yd_23": "cubic yards (yd³)",
+  "stepbystep_calculation_24": "Step-by-step Calculation",
+  "step_1_25": "Step 1:",
+  "step_2_26": "Step 2:",
+  "step_3_27": "Step 3:",
+  "direct_formula_28": "Direct Formula:",
+  "enter_area_and_depth_to_see_29": "Enter area and depth to see",
+  "volume_calculation_30": "volume calculation",
+  "in_cubic_yards_31": "in cubic yards.",
+  "understanding_square_feet_to_cubic_yards_conversio_32": "Understanding Square Feet to Cubic Yards Conversion",
+  "formulas_used_33": "Formulas Used",
+  "step_1_34": "Step 1:",
+  "convert_depth_to_feet_depthft_depthin_12_35": "Convert depth to feet: depth_ft = depth_in ÷ 12",
+  "step_2_36": "Step 2:",
+  "calculate_feet_cubicft_areaft_depthft_37": "Calculate feet: cubic_ft = area_ft² × depth_ft",
+  "step_3_38": "Step 3:",
+  "convert_to_cubic_yards_cubicyd_cubicft_27_39": "Convert to cubic yards: cubic_yd = cubic_ft ÷ 27",
+  "direct_formula_40": "Direct Formula:",
+  "cubicyd_areaft_depthin_324_41": "cubic_yd = (area_ft² × depth_in) ÷ 324",
+  "example_calculation_42": "Example Calculation",
+  "given_43": "Given:",
+  "area_100_ft_depth_6_inches_44": "Area = 100 ft², Depth = 6 inches",
+  "solution_45": "Solution:",
+  "step_1_6_inches_12_05_feet_46": "Step 1: 6 inches ÷ 12 = 0.5 feet",
+  "step_2_100_ft_05_ft_50_ft_47": "Step 2: 100 ft² × 0.5 ft = 50 ft³",
+  "step_3_50_ft_27_185_yd_48": "Step 3: 50 ft³ ÷ 27 = 1.85 yd³",
+  "direct_100_6_324_185_yd_49": "Direct: (100 × 6) ÷ 324 = 1.85 yd³",
+  "common_applications_50": "Common Applications",
+  "concrete_51": "Concrete:",
+  "calculate_needed_for_slabs_driveways_and_foundatio_52": "Calculate needed for slabs, driveways, and foundations",
+  "landscaping_53": "Landscaping:",
+  "estimate_mulch_soil_or_gravel_for_garden_beds_54": "Estimate mulch, soil, or gravel for garden beds",
+  "construction_55": "Construction:",
+  "determine_material_quantities_for_excavation_proje_56": "Determine material quantities for excavation projects",
+  "paving_57": "Paving:",
+  "calculate_or_paving_material_requirements_58": "Calculate or paving material requirements"
+}

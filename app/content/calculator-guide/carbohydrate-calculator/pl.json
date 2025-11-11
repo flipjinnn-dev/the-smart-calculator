@@ -1,0 +1,122 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Kalkulator węglowodanów – znajdź swoje dzienne zapotrzebowanie na węglowodany",
+      "content": "Nasz kalkulator węglowodanów pomaga szybko określić zalecane dzienne spożycie węglowodanów na podstawie wieku, masy ciała, wzrostu, płci, poziomu aktywności i celów fitness. Niezależnie od tego, czy Twoim celem jest utrata masy ciała, przyrost masy mięśniowej, wyniki sportowe czy zrównoważony stan zdrowia, ten codzienny kalkulator węglowodanów dostępny online wykorzystuje naukowo potwierdzone metody (takie jak wzór Mifflin-St Jeor BMR), aby oszacować Twoje zapotrzebowanie na energię i obliczyć, ile węglowodanów powinieneś spożywać dziennie."
+    },
+    {
+      "heading": "Jak działa kalkulator węglowodanów",
+      "subSections": [
+        {
+          "heading": "Podstawowa przemiana materii (BMR)",
+          "content": "Obliczono przy użyciu równania Mifflina-St Jeora."
+        },
+        {
+          "heading": "Poziom aktywności",
+          "content": "Prowadzący siedzący tryb życia, lekko aktywny, średnio aktywny, bardzo aktywny lub uprawiający sport."
+        },
+        {
+          "heading": "Cele fitness",
+          "content": "Utrata masy ciała, utrzymanie lub przyrost masy mięśniowej."
+        },
+        {
+          "heading": "Dystrybucja węglowodanów",
+          "content": "Zazwyczaj 45–65% dziennej dawki kalorii powinno pochodzić z węglowodanów."
+        },
+        {
+          "heading": "Gramów na masę ciała",
+          "content": "3–12 g/kg masy ciała w zależności od aktywności fizycznej i wymagań treningowych."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora węglowodanów?",
+      "subSections": [
+        {
+          "heading": "Utrata wagi",
+          "content": "Pomaga zredukować nadmiar węglowodanów i kontrolować poziom cukru we krwi."
+        },
+        {
+          "heading": "Przyrost mięśni",
+          "content": "Zapewnia wystarczające zapasy glikogenu dla siły i hipertrofii."
+        },
+        {
+          "heading": "Wydajność sportowa",
+          "content": "Sportowcy wytrzymałościowi potrzebują większego spożycia węglowodanów (6–10 g/kg)."
+        },
+        {
+          "heading": "Cukrzyca i zarządzanie zdrowiem",
+          "content": "Zapewnia bezpieczne zakresy umożliwiające utrzymanie stabilnego poziomu glukozy."
+        },
+        {
+          "heading": "Zbilansowane odżywianie",
+          "content": "Zapewnia odpowiednie proporcje makroskładników odżywczych oraz białka i tłuszczu."
+        }
+      ]
+    },
+    {
+      "heading": "Wytyczne dotyczące zalecanego spożycia węglowodanów",
+      "content": "Dorośli prowadzący siedzący tryb życia: ~3–4 g/kg masy ciała (45–50% kalorii)\nOsoby średnio aktywne: ~5–7 g/kg masy ciała (50–55% kalorii)\nSportowcy wytrzymałościowi / duża objętość treningu: ~6–10 g/kg masy ciała (55–65% kalorii)\nElitarni sportowcy / trening ekstremalny: ~8–12 g/kg masy ciała\nPlany odchudzania: 2–4 g/kg masy ciała (niższa zawartość węglowodanów, wyższa zawartość białka)\nPrzyrost mięśni: 4–7 g/kg masy ciała, aby zmaksymalizować zapasy glikogenu i regenerację"
+    },
+    {
+      "heading": "Powiązane narzędzia dotyczące zrównoważonego odżywiania",
+      "subSections": [
+        {
+          "heading": "Kalkulator spożycia białka",
+          "content": "Oszacuj dzienne zapotrzebowanie na białko potrzebne do regeneracji i wzrostu mięśni."
+        },
+        {
+          "heading": "Kalkulator spożycia tłuszczu",
+          "content": "Określ optymalne dzienne zapotrzebowanie na tłuszcze w celu zapewnienia zdrowia energetycznego i hormonalnego."
+        },
+        {
+          "heading": "Kalkulator zdrowej wagi",
+          "content": "Sprawdź swój idealny, zdrowy zakres wagi, korzystając ze wskazówek dotyczących BMI."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator węglowodanów?",
+      "a": "Kalkulator węglowodanów to narzędzie, które szacuje dzienne zapotrzebowanie na węglowodany na podstawie masy ciała, poziomu aktywności i celów."
+    },
+    {
+      "q": "Ile węglowodanów powinienem jeść dziennie?",
+      "a": "Większość dorosłych potrzebuje 45–65% kalorii z węglowodanów lub 3–7 g/kg masy ciała, w zależności od aktywności."
+    },
+    {
+      "q": "Czy ten kalkulator jest dobry do odchudzania?",
+      "a": "Tak. Może zalecić zakres niższych węglowodanów, aby pomóc zmniejszyć kalorie przy jednoczesnym zachowaniu energii."
+    },
+    {
+      "q": "Ile węglowodanów dziennie potrzebują sportowcy?",
+      "a": "Sportowcy wytrzymałościowi mogą potrzebować 6–10 g/kg masy ciała, podczas gdy sportowcy wyczynowi mogą potrzebować do 12 g/kg."
+    },
+    {
+      "q": "Czy diabetycy mogą korzystać z tego kalkulatora węglowodanów?",
+      "a": "Tak, ale wyniki należy omówić z lekarzem lub dietetykiem w celu bezpiecznego kontrolowania poziomu cukru we krwi."
+    },
+    {
+      "q": "Czy w kalkulatorze zastosowano wzór Mifflina-St Jeora?",
+      "a": "Tak. Najpierw oblicza BMR za pomocą Mifflin-St Jeor, a następnie stosuje współczynniki aktywności i węglowodanów."
+    },
+    {
+      "q": "Jakie jest spożycie węglowodanów na kilogram masy ciała?",
+      "a": "Zapotrzebowanie na węglowodany wynosi zazwyczaj 3–12 g/kg dziennie, dostosowane do intensywności treningu i celów."
+    },
+    {
+      "q": "Czy to narzędzie może obliczyć węglowodany dla diety ketonowej lub niskowęglowodanowej?",
+      "a": "Tak. Możesz wybrać niższą zawartość węglowodanów (5–20% kalorii) w przypadku planów ketogenicznych lub niskowęglowodanowych."
+    },
+    {
+      "q": "Czym ten kalkulator różni się od ogólnego kalkulatora kalorii?",
+      "a": "Jest specyficzny dla makroskładników i skupia się wyłącznie na zapotrzebowaniu na węglowodany, w przeciwieństwie do ogólnych kalkulatorów kalorii."
+    },
+    {
+      "q": "Jakich innych kalkulatorów powinienem użyć w tym przypadku?",
+      "a": "Aby uzyskać kompletny plan żywieniowy, skorzystaj z naszego kalkulatora białka, kalkulatora tłuszczu i kalkulatora zdrowej wagi."
+    }
+  ]
+}

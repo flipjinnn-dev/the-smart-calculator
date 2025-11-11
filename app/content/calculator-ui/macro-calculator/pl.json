@@ -1,0 +1,224 @@
+{
+  "pageTitle": "Kalkulator makro",
+  "pageDescription": "Oblicz zapotrzebowanie na makroelementy (białko, węglowodany, tłuszcze) dla swoich celów, w tym utraty wagi, utrzymania lub przyrostu mięśni",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "height": "Wysokość",
+      "weight": "Waga",
+      "unitSystem": "Układ jednostek",
+      "activityLevel": "Poziom aktywności",
+      "goal": "Bramka",
+      "macroPreference": "Preferencje makro"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz makra",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Siedzący tryb życia (mało ćwiczeń lub brak ćwiczeń)",
+      "light": "Lekko aktywny (lekkie ćwiczenia 1-3 dni w tygodniu)",
+      "moderate": "Umiarkowanie aktywny (umiarkowane ćwiczenia 3-5 dni w tygodniu)",
+      "active": "Bardzo aktywny (ciężkie ćwiczenia 6-7 dni w tygodniu)",
+      "veryActive": "Niezwykle aktywny (bardzo ciężkie ćwiczenia i praca fizyczna)"
+    },
+    "goals": {
+      "lose": "Utrata wagi",
+      "maintain": "Utrzymanie wagi",
+      "gain": "Przyrost mięśni"
+    },
+    "macroPreferences": {
+      "balanced": "Zrównoważone makro",
+      "highProtein": "Wysoka zawartość białka",
+      "lowCarb": "Niska zawartość węglowodanów",
+      "custom": "Niestandardowy współczynnik"
+    }
+  },
+  "results": {
+    "calories": "Dzienne kalorie",
+    "protein": "Białko",
+    "carbs": "Węglowodany",
+    "fat": "Tłuszcz",
+    "macroResultsTitle": "Wyniki makro",
+    "macroBreakdown": "Podział makro",
+    "calorieAdjustment": "Korekta kalorii"
+  },
+  "educational": {
+    "macroInfo": "Informacje o makroskładnikach",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się ze specjalistą",
+    "macroFunctions": {
+      "protein": {
+        "title": "Białko",
+        "description": "Niezbędny do budowy i naprawy mięśni, uczucia sytości i produkcji hormonów"
+      },
+      "carbs": {
+        "title": "Węglowodany",
+        "description": "Podstawowe źródło energii dla mózgu i mięśni, szczególnie podczas ćwiczeń"
+      },
+      "fat": {
+        "title": "Tłuszcz",
+        "description": "Niezbędny do produkcji hormonów, wchłaniania witamin i długotrwałej energii"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten służy jedynie do szacunków i nie jest narzędziem diagnostycznym",
+      "individualVariation": "Potrzeby makro różnią się w zależności od indywidualnych czynników i celów"
+    },
+    "importantNotesList": [
+      "Obliczenia te opierają się na ogólnych wzorach i mogą wymagać korekty",
+      "Słuchaj swojego ciała i dostosowuj się do tego, jak się czujesz i jak działasz",
+      "Skonsultuj się z zarejestrowanym dietetykiem, aby uzyskać spersonalizowaną poradę żywieniową",
+      "Spójność z dietą jest ważniejsza niż doskonałe liczenie makro"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje dane, aby obliczyć zapotrzebowanie na makroelementy",
+    "macroResult": "Poniżej przedstawiono dzienne cele dotyczące makroskładników odżywczych",
+    "goalAdjustment": "Na podstawie Twojego celu {goal}",
+    "assessmentResult": "Wynik oceny:",
+    "macroAnalysis": "Analiza makro"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki oparte na wzorach matematycznych i nie powinien być używany jako substytut profesjonalnych porad żywieniowych. Poszczególne wyniki mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się z dyplomowanym dietetykiem",
+    "content": "W celu uzyskania spersonalizowanych porad żywieniowych i planowania posiłków należy skonsultować się z zarejestrowanym dietetykiem, który może udzielić wskazówek w oparciu o pełną historię zdrowia pacjenta, preferencje żywieniowe i indywidualną sytuację."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "activity": "Proszę wybrać poziom aktywności",
+    "goal": "Wybierz cel",
+    "macroPreference": "Wybierz preferencje makra"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na tempo metabolizmu",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "activity": "Twój regularny poziom aktywności wpływa na zapotrzebowanie kaloryczne",
+    "goal": "Twój cel określa dostosowanie kalorii",
+    "macroPreference": "Twoja preferowana dystrybucja makr"
+  },
+  "loading_0": "Załadunek...",
+  "macro_calculator_1": "Kalkulator makro",
+  "modify_the_values_and_click_the_calculate_button_t_2": "Zmodyfikuj wartości i kliknij przycisk Oblicz, aby ich użyć",
+  "unit_system_3": "Układ jednostek",
+  "us_units_4": "Jednostki amerykańskie",
+  "metric_units_5": "Jednostki metryczne",
+  "other_units_6": "Inne jednostki",
+  "age_7": "Wiek",
+  "ages_18_80_8": "wiek 18 - 80 lat",
+  "gender_9": "Płeć",
+  "male_10": "Mężczyzna",
+  "female_11": "Kobieta",
+  "height_12": "Wysokość",
+  "feet_13": "stopy",
+  "inches_14": "cale",
+  "cm_15": "cm",
+  "weight_16": "Waga",
+  "activity_17": "Działalność",
+  "your_goal_18": "Twój cel",
+  "bmr_estimation_formula_19": "Wzór szacunkowy BMR",
+  "mifflin_st_jeor_20": "Mifflin St Jeor",
+  "katchmcardle_21": "Katch-McArdle",
+  "body_fat_percentage_22": "Procent tkanki tłuszczowej",
+  "calculate_23": "Obliczać",
+  "macro_results_24": "Wyniki makro",
+  "your_daily_macronutrient_breakdown_25": "Twój dzienny rozkład makroskładników odżywczych",
+  "balanced_26": "Zrównoważony",
+  "low_fat_27": "Niska zawartość tłuszczu",
+  "low_carb_28": "Niska zawartość węglowodanów",
+  "high_protein_29": "Wysoka zawartość białka",
+  "create_your_own_30": "Stwórz własne",
+  "daily_calories_31": "Dzienne kalorie",
+  "or_32": "Lub",
+  "kjday_33": "kJ/dzień",
+  "macronutrients_34": "Makroskładniki",
+  "protein_35": "Białko",
+  "g_36": "g",
+  "carbohydrates_37": "Węglowodany",
+  "g_38": "g",
+  "fat_39": "Tłuszcz",
+  "g_40": "g",
+  "macro_ranges_41": "Zakresy makro",
+  "protein_range_42": "Zakres białka",
+  "g_43": "g",
+  "carb_range_44": "Zakres węglowodanów",
+  "g_45": "g",
+  "fat_range_46": "Zakres tłuszczu",
+  "g_47": "g",
+  "daily_limits_48": "Limity dzienne",
+  "sugar_49": "Cukier",
+  "g_50": "g",
+  "saturated_fat_51": "Tłuszcz nasycony",
+  "g_52": "g",
+  "metabolic_info_53": "Informacje metaboliczne",
+  "bmr_54": "BMR",
+  "calories_55": "kalorie",
+  "tdee_56": "TDEE",
+  "calories_57": "kalorie",
+  "save_this_calculation_58": "Zapisz to obliczenie",
+  "protein_59": "Białko (%)",
+  "carbs_60": "Węglowodany (%)",
+  "fat_61": "Tłuszcz (%)",
+  "daily_calories_62": "Dzienne kalorie",
+  "or_63": "Lub",
+  "kjday_64": "kJ/dzień",
+  "macronutrients_65": "Makroskładniki",
+  "protein_66": "Białko",
+  "g_67": "g",
+  "carbohydrates_68": "Węglowodany",
+  "g_69": "g",
+  "fat_70": "Tłuszcz",
+  "g_71": "g",
+  "macro_ranges_72": "Zakresy makro",
+  "protein_range_73": "Zakres białka",
+  "g_74": "g",
+  "carb_range_75": "Zakres węglowodanów",
+  "g_76": "g",
+  "fat_range_77": "Zakres tłuszczu",
+  "g_78": "g",
+  "daily_limits_79": "Limity dzienne",
+  "sugar_80": "Cukier",
+  "g_81": "g",
+  "saturated_fat_82": "Tłuszcz nasycony",
+  "g_83": "g",
+  "metabolic_info_84": "Informacje metaboliczne",
+  "bmr_85": "BMR",
+  "calories_86": "kalorie",
+  "tdee_87": "TDEE",
+  "calories_88": "kalorie",
+  "save_this_calculation_89": "Zapisz to obliczenie",
+  "enter_your_details_and_click_calculate_to_see_your_90": "Wprowadź swoje dane i kliknij Oblicz, aby zobaczyć swoje makra",
+  "what_are_macronutrients_macros_91": "Co to są makroelementy (makro)?",
+  "in_the_context_of_health_and_fitness_macronutrient_92": "W kontekście zdrowia i kondycji makroskładniki odżywcze są najczęściej definiowane jako substancje chemiczne\n                    związki spożywane przez człowieka w dużych ilościach, które dostarczają energii masowej. Konkretnie odnoszą się\n                    na węglowodany, białka i tłuszcze. Niektóre definicje obejmują także wodę, powietrze, wapń, sód,\n                    jony chlorkowe i niektóre inne substancje wraz z bardziej typowymi makroelementami, ponieważ takie są\n                    potrzebne w dużych ilościach organizmowi ludzkiemu. W tym kalkulatorze obliczamy tylko codziennie\n                    zapotrzebowanie na węglowodany, białka i tłuszcze.",
+  "protein_93": "Białko",
+  "proteins_are_organic_compounds_comprised_of_amino__94": "Białka są związkami organicznymi składającymi się z aminokwasów i stanowią jeden z rodzajów makroelementów. \n                        Aminokwasy są niezbędne dla dobrego samopoczucia człowieka, a istnieją pewne aminokwasy, które tylko to potrafią \n                        uzyskać poprzez dietę. Aminokwasy te są zazwyczaj określane jako „aminokwasy niezbędne”, \n                        i są uzyskiwane przez ludzi i inne zwierzęta poprzez spożycie białka.",
+  "carbohydrates_carbs_95": "Węglowodany (Węglowodany)",
+  "carbohydrates_often_referred_to_as_simply_carbs_ar_96": "Węglowodany, często określane jako po prostu „węglowodany”, to związki, które są zazwyczaj klasyfikowane \n                        jak cukier, skrobia lub błonnik. Cukier jest najprostszą formą węglowodanów, natomiast skrobia i błonnik \n                        są węglowodanami złożonymi. Glukoza jest monosacharydem i jest jednym z kluczowych źródeł energii \n                        dla ludzi, ale i innych zwierząt.",
+  "fat_97": "Tłuszcz",
+  "fats_are_molecules_that_are_comprised_primarily_of_98": "Tłuszcze to cząsteczki składające się głównie z atomów węgla i wodoru. Typowe przykłady \n                        obejmują cholesterol, fosfolipidy i trójglicerydy. Choć tłuszcze w kontekście żywienia \n                        są zazwyczaj postrzegane jako niezdrowe, pełnią zarówno funkcje strukturalne, jak i metaboliczne, \n                        i są niezbędnym elementem diety człowieka.",
+  "important_99": "Ważny:",
+  "the_results_above_are_a_guideline_for_more_typical_100": "Powyższe wyniki stanowią wytyczne dla bardziej typowych sytuacji. Proszę skonsultować się z lekarzem\n                      Twoje zapotrzebowanie na makroskładniki jeśli jesteś sportowcem, trenujesz w konkretnym celu lub na specjalnych\n                      dieta z powodu choroby, ciąży lub innych schorzeń."
+}

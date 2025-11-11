@@ -1,0 +1,172 @@
+{
+  "pageTitle": "Kalkulator terminu płatności",
+  "pageDescription": "Oszacuj termin porodu na podstawie ostatniej miesiączki lub daty poczęcia",
+  "form": {
+    "labels": {
+      "lastMenstrualPeriod": "Ostatnia miesiączka",
+      "cycleLength": "Długość cyklu (dni)",
+      "conceptionDate": "Data poczęcia (opcjonalnie)"
+    },
+    "placeholders": {
+      "lastMenstrualPeriod": "Wprowadź pierwszy dzień ostatniej miesiączki",
+      "cycleLength": "Podaj długość cyklu (domyślnie: 28)",
+      "conceptionDate": "Wprowadź datę poczęcia, jeśli jest znana"
+    },
+    "buttons": {
+      "calculate": "Oblicz termin płatności",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "dueDate": "Szacowany termin płatności",
+    "conceptionDate": "Szacowana data poczęcia",
+    "weeksPregnant": "Bieżące tygodnie ciąży",
+    "calculationDetails": "Wyniki obliczeń terminu płatności"
+  },
+  "educational": {
+    "info": "Informacje o terminie",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja terminu płatności",
+        "description": "Informacja o terminie"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Sposób obliczania terminu płatności"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Zastosowanie terminu"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunkowe terminy płatności",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć termin płatności",
+    "resultMessage": "Wyniki obliczenia terminu płatności pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia terminu płatności:",
+    "analysis": "Analiza terminu płatności"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten podaje szacunkowe terminy płatności w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "due_date_calculation_0": "Obliczanie terminu płatności",
+  "select_your_preferred_method_and_enter_the_require_1": "Wybierz preferowaną metodę i wprowadź wymagane informacje",
+  "calculation_method_2": "Metoda obliczeniowa",
+  "last_menstrual_period_lmp_3": "Ostatnia miesiączka (LMP)",
+  "ultrasound_dating_4": "Randki USG",
+  "conception_date_5": "Data poczęcia",
+  "ivf_transfer_date_6": "Data transferu IVF",
+  "first_day_of_last_menstrual_period_7": "Pierwszy dzień ostatniej miesiączki",
+  "average_cycle_length_days_8": "Średnia długość cyklu (dni)",
+  "typical_range_2135_days_9": "Typowy zakres: 21-35 dni",
+  "date_of_ultrasound_scan_10": "Data badania USG",
+  "gestational_age_weeks_11": "Wiek ciążowy (tygodnie)",
+  "additional_days_12": "Dodatkowe dni",
+  "approximate_conception_date_13": "Przybliżona data poczęcia",
+  "embryo_transfer_date_14": "Data transferu zarodka",
+  "embryo_age_at_transfer_15": "Wiek zarodka w momencie transferu",
+  "k_3day_embryo_16": "Zarodek 3-dniowy",
+  "k_5day_embryo_blastocyst_17": "Zarodek 5-dniowy (blastocysta)",
+  "k_6day_embryo_18": "Zarodek 6-dniowy",
+  "calculate_date_19": "Oblicz datę",
+  "reset_20": "Nastawić",
+  "due_date_21": "Termin",
+  "expected_due_date_22": "Oczekiwany termin płatności",
+  "w_23": "w",
+  "d_24": "d",
+  "current_age_25": "Obecny wiek",
+  "select_a_method_and_enter_your_information_to_calc_26": "Wybierz metodę i wprowadź swoje dane, aby obliczyć termin porodu.",
+  "your_pregnancy_timeline_27": "Kalendarium Twojej ciąży",
+  "estimated_due_date_28": "Szacowany termin płatności",
+  "expected_due_date_29": "Oczekiwany termin płatności",
+  "w_30": "w",
+  "d_31": "d",
+  "current_gestational_age_32": "Aktualny wiek ciążowy",
+  "pregnancy_progress_33": "Postęp ciąży",
+  "calculation_details_34": "Szczegóły obliczeń",
+  "method_used_35": "Zastosowana metoda",
+  "accuracy_36": "Dokładność:",
+  "important_note_37": "Ważna uwaga",
+  "only_4_of_babies_arrive_on_the_exact_due_date_38": "Tylko ~4% dzieci przychodzi na świat dokładnie w wyznaczonym terminie",
+  "most_births_occur_within_10_days_of_edd_39": "Większość porodów ma miejsce w ciągu ± 10 dni od EDD",
+  "pregnancy_progress_40": "Postęp ciąży",
+  "conception_41": "Koncepcja",
+  "complete_42": "% Kompletny",
+  "due_date_43": "Termin",
+  "due_date_calculation_methods_44": "Metody obliczania terminu płatności",
+  "method_45": "Metoda",
+  "formula_46": "Formuła",
+  "accuracy_47": "Dokładność",
+  "lmp_naegeles_rule_48": "LMP (reguła Naegelego)",
+  "lmp_280_days_49": "LMP + 280 dni",
+  "k_14_days_50": "±14 dni",
+  "conception_date_51": "Data poczęcia",
+  "conception_266_days_52": "Poczęcie + 266 dni",
+  "k_10_days_53": "±10 dni",
+  "ultrasound_dating_54": "Randki USG",
+  "scan_date_280_ga_at_scan_55": "Data skanowania + (280 - GA podczas skanowania)",
+  "k_7_days_early_scan_56": "±7 dni (wczesne skanowanie)",
+  "ivf_transfer_57": "Transfer IVF",
+  "transfer_261264_days_58": "Przelew + 261-264 dni",
+  "k_5_days_59": "±5 dni",
+  "understanding_due_date_calculations_60": "Zrozumienie obliczeń terminu płatności",
+  "method_accuracy_61": "Dokładność metody",
+  "ivf_transfer_62": "Transfer zapłodnienia in vitro:",
+  "most_accurate_5_days_63": "Najdokładniejsze (± 5 dni)",
+  "early_ultrasound_64": "Wczesne USG:",
+  "very_accurate_7_days_65": "Bardzo dokładne (±7 dni)",
+  "conception_date_66": "Data poczęcia:",
+  "good_accuracy_10_days_67": "Dobra dokładność (±10 dni)",
+  "lmp_method_68": "Metoda LMP:",
+  "standard_method_14_days_69": "Metoda standardowa (±14 dni)",
+  "example_calculation_70": "Przykładowe obliczenia",
+  "lmp_january_1_2025_28day_cycle_71": "LMP: 1 stycznia 2025 r. (cykl 28-dniowy)",
+  "formula_lmp_280_days_72": "Formuła: LMP + 280 dni",
+  "due_date_73": "Termin:",
+  "october_8_2025_74": "8 października 2025 r",
+  "current_feb_1_75": "Aktualny (1 lutego):",
+  "k_4w_3d_pregnant_76": "4w 3d w ciąży",
+  "important_facts_77": "Ważne fakty",
+  "only_4_of_babies_arrive_on_exact_due_date_78": "Tylko 4% dzieci przychodzi na świat dokładnie w terminie",
+  "k_3742_weeks_is_considered_fullterm_79": "Za pełny okres uważa się 37-42 tygodnie",
+  "first_babies_often_arrive_12_days_late_80": "Pierwsze dzieci często przychodzą na świat z 1-2 dniowym opóźnieniem",
+  "cycle_length_affects_lmp_calculations_81": "Długość cyklu wpływa na obliczenia LMP",
+  "when_to_use_each_method_82": "Kiedy stosować każdą metodę",
+  "lmp_83": "LMP:",
+  "regular_cycles_known_lmp_date_84": "Regularne cykle, znana data LMP",
+  "ultrasound_85": "Ultradźwięk:",
+  "irregular_cycles_uncertain_lmp_86": "Nieregularne cykle, niepewne LMP",
+  "conception_87": "Koncepcja:",
+  "known_ovulationconception_date_88": "Znana data owulacji/poczęcia",
+  "ivf_89": "Zapłodnienie in vitro:",
+  "assisted_reproductive_technology_90": "Technologia wspomaganego rozrodu"
+}

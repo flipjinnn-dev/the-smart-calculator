@@ -1,0 +1,149 @@
+{
+  "pageTitle": "Kalkulator renty",
+  "pageDescription": "Oblicz przyszłą wartość renty na podstawie regularnych składek i stóp procentowych na potrzeby planowania emerytalnego i analizy inwestycji",
+  "form": {
+    "labels": {
+      "presentValue": "Wartość bieżąca (inwestycja początkowa)",
+      "paymentAmount": "Kwota płatności",
+      "interestRate": "Roczna stopa procentowa",
+      "numberOfPeriods": "Liczba okresów",
+      "paymentFrequency": "Częstotliwość płatności",
+      "compoundingFrequency": "Częstotliwość złożona",
+      "paymentTiming": "Termin płatności"
+    },
+    "placeholders": {
+      "presentValue": "Wprowadź wartość obecną lub inwestycję początkową",
+      "paymentAmount": "Wprowadź kwotę płatności",
+      "interestRate": "Wprowadź roczną stopę procentową (%)",
+      "numberOfPeriods": "Wprowadź liczbę okresów"
+    },
+    "buttons": {
+      "calculate": "Oblicz wartość renty",
+      "reset": "Nastawić"
+    },
+    "paymentFrequencies": {
+      "annually": "Rocznie",
+      "semiAnnually": "Półrocznie",
+      "quarterly": "Kwartalny",
+      "monthly": "Miesięczny"
+    },
+    "paymentTimings": {
+      "beginning": "Początek okresu",
+      "end": "Koniec okresu"
+    }
+  },
+  "results": {
+    "futureValue": "Przyszła wartość",
+    "totalPayments": "Suma płatności",
+    "totalInterest": "Łączne uzyskane odsetki",
+    "annuityResultsTitle": "Wyniki obliczeń renty"
+  },
+  "educational": {
+    "annuityInfo": "Informacje o rentie",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "annuityFacts": {
+      "definition": {
+        "title": "Definicja renty",
+        "description": "Produkt finansowy zapewniający regularne płatności przez określony czas w zamian za początkowy ryczałt lub serię płatności"
+      },
+      "types": {
+        "title": "Rodzaje rent",
+        "description": "Stałe renty oferują gwarantowane zwroty; renty zmienne oferują zwroty rynkowe"
+      },
+      "presentValue": {
+        "title": "Obliczanie wartości bieżącej",
+        "description": "Określa bieżącą wartość serii przyszłych płatności"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunkową wartość renty",
+      "actual": "Rzeczywiste wartości rent dożywotnich mogą się różnić w zależności od warunków umowy i warunków rynkowych"
+    },
+    "importantNotesList": [
+      "Renty mogą zapewnić gwarantowany dochód na emeryturze",
+      "Przed zakupem rent dożywotnich rozważ opłaty i opłaty za wykup",
+      "Stałe renty oferują przewidywalne zyski, ale mogą nie nadążać za inflacją",
+      "Renty zmienne oferują potencjał wzrostu, ale wiążą się z ryzykiem inwestycyjnym"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje dotyczące renty, aby obliczyć przyszłą wartość",
+    "resultMessage": "Wyniki obliczenia renty przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia renty:",
+    "annuityAnalysis": "Analiza renty"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia oszacowanie wartości renty na podstawie wzorów matematycznych. Rzeczywiste wartości rent dożywotnich mogą się różnić w zależności od warunków umowy, opłat, warunków rynkowych i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowane porady dotyczące renty i planowania emerytalnego, skonsultuj się z doradcami finansowymi lub specjalistami ubezpieczeniowymi posiadającymi wiedzę na temat produktów rentowych i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "presentValue": "Proszę wprowadzić prawidłową wartość bieżącą",
+    "paymentAmount": "Proszę wprowadzić prawidłową kwotę płatności",
+    "interestRate": "Proszę wprowadzić prawidłową roczną stopę procentową",
+    "numberOfPeriods": "Proszę wprowadzić prawidłową liczbę kropek",
+    "paymentFrequency": "Proszę wybrać częstotliwość płatności",
+    "compoundingFrequency": "Proszę wybrać częstotliwość łączenia",
+    "paymentTiming": "Proszę wybrać termin płatności"
+  },
+  "tooltips": {
+    "presentValue": "Początkowa inwestycja ryczałtowa w formie renty",
+    "paymentAmount": "Kwota regularnej płatności wpłacana na rentę",
+    "interestRate": "Oczekiwana roczna stopa procentowa lub stopa zwrotu",
+    "numberOfPeriods": "Łączna liczba okresów płatności",
+    "paymentFrequency": "Jak często dokonywane są płatności",
+    "compoundingFrequency": "Jak często odsetki są kumulowane",
+    "paymentTiming": "Czy płatności są dokonywane na początku czy na końcu okresu"
+  },
+  "calculator_inputs_0": "Dane wejściowe kalkulatora",
+  "starting_principal_1": "Począwszy dyrektor",
+  "initial_investment_amount_2": "Początkowa kwota inwestycji",
+  "regular_additions_3": "Regularne dodatki",
+  "annual_addition_4": "Dodatek roczny",
+  "monthly_addition_5": "Dodatek miesięczny",
+  "add_at_each_periods_beginning_annuity_due_6": "Dodaj na początku każdego okresu (należna renta)",
+  "when_enabled_deposits_are_made_at_the_beginning_of_7": "Jeśli ta opcja jest włączona, depozyty są dokonywane na początku każdego okresu i natychmiast otrzymują odsetki.",
+  "growth_parameters_8": "Parametry wzrostu",
+  "annual_growth_rate_9": "Roczna stopa wzrostu (%)",
+  "after_years_10": "Po latach",
+  "note_11": "Notatka:",
+  "monthly_deposits_use_monthly_compounding_annual_de_12": "Depozyty miesięczne korzystają z miesięcznego kapitalizacji; depozyty roczne korzystają z rocznych\n                        mieszanie.",
+  "calculate_13": "Obliczać",
+  "results_14": "Wyniki",
+  "end_balance_total_additions_interest_earned_15": "Saldo końcowe, suma dodatków, zarobione odsetki",
+  "final_balance_after_16": "Saldo końcowe po",
+  "years_17": "Lata:",
+  "based_on_18": "Na podstawie",
+  "annual_growth_rate_with_19": "% roczna stopa wzrostu z",
+  "ofperiod_deposits_20": "-depozyty okresowe",
+  "starting_principal_21": "Począwszy dyrektor",
+  "total_additions_22": "Suma dodatków",
+  "interest_earned_23": "Zarobione odsetki",
+  "interest_percentage_24": "Procent odsetek",
+  "monthly_schedule_25": "Harmonogram miesięczny",
+  "accumulation_schedule_26": "Harmonogram akumulacji",
+  "csv_27": "CSV",
+  "month_28": "Miesiąc",
+  "starting_29": "Startowy",
+  "interest_30": "Odsetki",
+  "monthly_add_31": "Dodatek miesięczny",
+  "annual_add_32": "Dodatek roczny",
+  "ending_33": "Zakończenie",
+  "enter_your_annuity_information_to_see_your_results_34": "Wprowadź informacje o swojej rentie, aby zobaczyć wyniki",
+  "formulas_notes_35": "Formuły i notatki",
+  "future_value_of_starting_principal_36": "Przyszła wartość początkowego kapitału",
+  "fvprincipal_p_1_r_37": "FV_principal = P₀ × (1 + r)ⁿ",
+  "annual_additions_ordinary_38": "Dodatki roczne (zwykłe)",
+  "fvannual_aannual_1_r_1_r_39": "FV_roczny = A_roczny × [(1 + r)ⁿ - 1] / r",
+  "annual_additions_annuity_due_40": "Dodatki roczne (należna renta)",
+  "fvannualdue_fvannual_1_r_41": "FV_annual_due = FV_roczny × (1 + r)",
+  "monthly_additions_42": "Comiesięczne dodatki",
+  "rm_1_r112_1_43": "r_m = (1 + r)^(1/12) - 1",
+  "fvmonthly_amonthly_1_rmn_1_rm_44": "FV_miesięcznie = A_miesięcznie × [(1 + r_m)^N - 1] / r_m"
+}

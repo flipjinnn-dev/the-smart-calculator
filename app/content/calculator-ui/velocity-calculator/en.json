@@ -1,0 +1,118 @@
+{
+  "pageTitle": "Velocity Calculator",
+  "pageDescription": "Calculate velocity, speed, and acceleration for various physics applications including displacement, time, and motion analysis",
+  "form": {
+    "labels": {
+      "calculationType": "Calculation Type",
+      "initialVelocity": "Initial Velocity",
+      "finalVelocity": "Final Velocity",
+      "time": "Time",
+      "displacement": "Displacement",
+      "acceleration": "Acceleration",
+      "unitSystem": "Unit System"
+    },
+    "placeholders": {
+      "initialVelocity": "Enter initial velocity",
+      "finalVelocity": "Enter final velocity",
+      "time": "Enter time",
+      "displacement": "Enter displacement",
+      "acceleration": "Enter acceleration"
+    },
+    "buttons": {
+      "calculate": "Calculate Velocity",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "metric": "Metric (m/s, m/s²)",
+      "imperial": "Imperial (ft/s, ft/s²)"
+    },
+    "calculationTypes": {
+      "averageVelocity": "Average Velocity",
+      "finalVelocity": "Final Velocity",
+      "initialVelocity": "Initial Velocity",
+      "acceleration": "Acceleration"
+    }
+  },
+  "results": {
+    "velocity": "Velocity",
+    "speed": "Speed",
+    "acceleration": "Acceleration",
+    "velocityResultsTitle": "Velocity Results",
+    "formulaUsed": "Formula Used"
+  },
+  "educational": {
+    "velocityInfo": "Velocity Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Physics Professional",
+    "velocityConcepts": {
+      "velocity": {
+        "title": "Velocity",
+        "description": "A vector quantity that includes both speed and direction"
+      },
+      "speed": {
+        "title": "Speed",
+        "description": "A scalar quantity representing the rate of motion"
+      },
+      "acceleration": {
+        "title": "Acceleration",
+        "description": "The rate of change of velocity over time"
+      }
+    },
+    "velocityFormulas": {
+      "averageVelocity": {
+        "title": "Average Velocity",
+        "formula": "v_avg = Δx/Δt = (x₂ - x₁)/(t₂ - t₁)"
+      },
+      "finalVelocity": {
+        "title": "Final Velocity",
+        "formula": "v = u + at"
+      },
+      "acceleration": {
+        "title": "Acceleration",
+        "formula": "a = (v - u)/t"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides physics calculations only",
+      "units": "Ensure consistent units throughout your calculations"
+    },
+    "importantNotesList": [
+      "Velocity is a vector quantity with both magnitude and direction",
+      "Speed is a scalar quantity (magnitude only)",
+      "Always consider significant figures in your results",
+      "Double-check unit conversions for accurate calculations"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your values to calculate velocity",
+    "resultMessage": "The result of your velocity calculation is shown below",
+    "assessmentResult": "Calculation Result:",
+    "velocityAnalysis": "Velocity Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides physics calculations based on standard kinematic formulas. The accuracy of results depends on the correctness of the input values and appropriate application of the formulas."
+  },
+  "seekHelp": {
+    "title": "Consult a Physics Professional",
+    "content": "For complex physics problems or specialized applications, consider consulting a physics professional or using specialized software tools designed for advanced physics calculations."
+  },
+  "errors": {
+    "initialVelocity": "Please enter a valid initial velocity",
+    "finalVelocity": "Please enter a valid final velocity",
+    "time": "Please enter a valid time value",
+    "displacement": "Please enter a valid displacement value",
+    "acceleration": "Please enter a valid acceleration value",
+    "calculationType": "Please select a calculation type"
+  },
+  "tooltips": {
+    "calculationType": "Select the type of velocity calculation you need",
+    "initialVelocity": "Velocity at the start of the time interval",
+    "finalVelocity": "Velocity at the end of the time interval",
+    "time": "Time interval for the motion",
+    "displacement": "Change in position during the time interval",
+    "acceleration": "Rate of change of velocity"
+  }
+}

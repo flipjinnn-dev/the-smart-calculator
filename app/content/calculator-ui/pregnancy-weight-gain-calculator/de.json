@@ -1,0 +1,170 @@
+{
+  "pageTitle": "Rechner zur Gewichtszunahme in der Schwangerschaft",
+  "pageDescription": "Berechnen Sie die Gewichtszunahme während der Schwangerschaft mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Gewichtszunahme während der Schwangerschaft",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Berechnung der Gewichtszunahme während der Schwangerschaft"
+  },
+  "educational": {
+    "info": "Informationen zur Gewichtszunahme während der Schwangerschaft",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Definition der Gewichtszunahme in der Schwangerschaft",
+        "description": "Informationen zur Gewichtszunahme in der Schwangerschaft"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "So wird die Gewichtszunahme während der Schwangerschaft berechnet"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Vorteile der Gewichtszunahme während der Schwangerschaft"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Gewichtszunahme während der Schwangerschaft",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um die Gewichtszunahme während der Schwangerschaft zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Berechnung der Gewichtszunahme während der Schwangerschaft werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Berechnung der Gewichtszunahme während der Schwangerschaft:",
+    "analysis": "Analyse der Gewichtszunahme während der Schwangerschaft"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Gewichtszunahme während der Schwangerschaft basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt sind, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "weight_gain_calculation_0": "Berechnung der Gewichtszunahme",
+  "enter_your_prepregnancy_details_and_optional_curre_1": "Geben Sie Ihre Daten vor der Schwangerschaft und optional aktuelle Informationen zur Fortschrittsverfolgung ein",
+  "unit_system_2": "Einheitensystem",
+  "metric_kg_cm_3": "Metrisch (kg, cm)",
+  "us_lbs_ftin_4": "US (lbs, ft/in)",
+  "prepregnancy_weight_5": "Gewicht vor der Schwangerschaft (",
+  "height_cm_6": "Höhe (cm)",
+  "height_ftin_7": "Höhe (ft/in)",
+  "current_weight_8": "Aktuelles Gewicht (",
+  "optional_9": "(Optional)",
+  "for_progress_tracking_10": "Zur Fortschrittsverfolgung",
+  "gestational_week_11": "Schwangerschaftswoche",
+  "optional_12": "(Optional)",
+  "week_142_for_progress_tracking_13": "Woche 1–42 zur Fortschrittsverfolgung",
+  "calculate_gain_14": "Berechnen Sie den Gewinn",
+  "reset_15": "Zurücksetzen",
+  "weight_gain_16": "Gewichtszunahme",
+  "kg_17": "kg",
+  "total_recommended_18": "Insgesamt empfehlenswert",
+  "bmi_19": "BMI:",
+  "enter_your_prepregnancy_details_to_see_recommended_20": "Geben Sie Ihre Daten vor der Schwangerschaft ein, um die empfohlenen Gewichtszunahmebereiche anzuzeigen.",
+  "weight_gain_recommendations_21": "Empfehlungen zur Gewichtszunahme",
+  "prepregnancy_assessment_22": "Beurteilung vor der Schwangerschaft",
+  "bmi_23": "BMI:",
+  "category_24": "Kategorie:",
+  "kg_25": "kg",
+  "lbs_26": "Pfund)",
+  "trimester_schedule_27": "Trimesterplan",
+  "first_trimester_weeks_113_28": "Erstes Trimester (Woche 1-13)",
+  "total_gain_29": "Gesamtgewinn:",
+  "kg_30": "kg (",
+  "lbs_31": "Pfund)",
+  "gradual_weight_gain_focus_on_nutrition_quality_32": "Allmähliche Gewichtszunahme, Fokus auf Ernährungsqualität",
+  "second_third_trimesters_weeks_1440_33": "Zweites und drittes Trimester (Woche 14–40)",
+  "weekly_gain_34": "Wöchentlicher Gewinn:",
+  "kg_35": "kg (~",
+  "lbs_36": "Pfund)",
+  "steady_weekly_weight_gain_37": "Stetige wöchentliche Gewichtszunahme",
+  "progress_tracking_week_38": "Fortschrittsverfolgung (Woche",
+  "kg_39": "kg",
+  "actual_gain_40": "Tatsächlicher Gewinn",
+  "kg_41": "kg",
+  "expected_gain_42": "Erwarteter Gewinn",
+  "status_43": "Status",
+  "iom_weight_gain_guidelines_44": "IOM-Richtlinien zur Gewichtszunahme",
+  "bmi_category_45": "BMI-Kategorie",
+  "bmi_range_46": "BMI-Bereich",
+  "total_gain_kg_47": "Gesamtzunahme (kg)",
+  "total_gain_lbs_48": "Gesamtgewinn (lbs)",
+  "underweight_49": "Untergewicht",
+  "k_185_50": "< 18,5",
+  "k_12518_51": "12.5-18",
+  "k_2840_52": "28-40",
+  "normal_53": "Normal",
+  "k_185249_54": "18.5-24.9",
+  "k_11516_55": "11.5-16",
+  "k_2535_56": "25-35",
+  "overweight_57": "Übergewicht",
+  "k_250299_58": "25.0-29.9",
+  "k_7115_59": "7-11.5",
+  "k_1525_60": "15-25",
+  "obese_61": "Fettleibig",
+  "k_300_62": "≥ 30,0",
+  "k_59_63": "5-9",
+  "k_1120_64": "11-20",
+  "understanding_pregnancy_weight_gain_65": "Gewichtszunahme während der Schwangerschaft verstehen",
+  "iom_guidelines_66": "IOM-Richtlinien",
+  "based_on_prepregnancy_bmi_category_67": "Basierend auf der BMI-Kategorie vor der Schwangerschaft",
+  "accounts_for_maternal_and_fetal_health_68": "Konten für die Gesundheit von Mutter und Fötus",
+  "reduces_risk_of_complications_69": "Reduziert das Risiko von Komplikationen",
+  "updated_in_2009_by_institute_of_medicine_70": "Aktualisiert im Jahr 2009 vom Institute of Medicine",
+  "example_calculation_71": "Beispielrechnung",
+  "prepregnancy_130_lbs_55_bmi_216_72": "Vorschwangerschaft: 130 Pfund, 5'5\" (BMI 21,6)",
+  "category_normal_weight_73": "Kategorie: Normalgewicht",
+  "total_gain_74": "Gesamtgewinn:",
+  "k_2535_lbs_11516_kg_75": "25–35 Pfund (11,5–16 kg)",
+  "k_1st_trimester_76": "1. Trimester:",
+  "k_14_lbs_77": "1–4 Pfund",
+  "k_2nd3rd_78": "2./3.:",
+  "k_1_lbweek_79": "~1 Pfund/Woche",
+  "important_factors_80": "Wichtige Faktoren",
+  "individual_variation_is_normal_81": "Individuelle Abweichungen sind normal",
+  "quality_of_nutrition_matters_most_82": "Am wichtigsten ist die Qualität der Ernährung",
+  "regular_prenatal_care_is_essential_83": "Eine regelmäßige Schwangerschaftsvorsorge ist unerlässlich",
+  "multiple_pregnancies_need_different_guidelines_84": "Mehrlingsschwangerschaften erfordern unterschiedliche Richtlinien",
+  "health_benefits_85": "Vorteile für die Gesundheit",
+  "reduces_risk_of_gestational_diabetes_86": "Reduziert das Risiko für Schwangerschaftsdiabetes",
+  "lowers_chance_of_preterm_birth_87": "Reduziert das Risiko einer Frühgeburt",
+  "supports_healthy_fetal_development_88": "Unterstützt eine gesunde fetale Entwicklung",
+  "easier_postpartum_weight_loss_89": "Leichterer Gewichtsverlust nach der Geburt"
+}

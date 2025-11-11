@@ -1,0 +1,111 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator odsetek składanych: zmaksymalizuj swoje oszczędności i inwestycje",
+      "content": "Zrozumienie, w jaki sposób Twoje pieniądze mogą rosnąć w czasie, jest niezbędne dla inteligentnego planowania finansowego. Nasz kalkulator odsetek składanych online pomaga łatwo obliczyć potencjalne zyski z oszczędności, inwestycji i pożyczek, zapewniając jasny wgląd w swoją przyszłość finansową."
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora odsetek składanych?",
+      "subSections": [
+        {
+          "heading": "Przyspieszony wzrost",
+          "content": "Odsetki składane pozwalają Twoim pieniądzom na zarabianie odsetek zarówno od kwoty głównej, jak i od odsetek skumulowanych w czasie, dzięki czemu oszczędności i inwestycje rosną szybciej w porównaniu z odsetkami prostymi."
+        },
+        {
+          "heading": "Przejrzyste spostrzeżenia finansowe",
+          "content": "Natychmiast przeglądaj swój potencjalny rozwój bez konieczności rozumienia skomplikowanych formuł."
+        },
+        {
+          "heading": "Planowanie emerytury i oszczędzania",
+          "content": "Planuj z wyprzedzeniem, korzystając z dokładnych prognoz dotyczących emerytury lub innych długoterminowych celów oszczędnościowych."
+        },
+        {
+          "heading": "Elastyczne porównania",
+          "content": "Porównaj różne stopy procentowe, okresy kapitalizacji i strategie składek."
+        }
+      ]
+    },
+    {
+      "heading": "Jak korzystać z tego kalkulatora",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wprowadź kwotę główną – saldo początkowe Twojej inwestycji lub pożyczki."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Ustaw stopę procentową – roczną lub miesięczną, w zależności od planu."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Wybierz częstotliwość łączenia – codziennie, co miesiąc, co kwartał lub co rok."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Dodaj składki – jeśli dotyczy, wprowadź wpłaty miesięczne lub roczne."
+        },
+        {
+          "heading": "Krok 5",
+          "content": "Zobacz wyniki – kalkulator wyświetli całkowite zarobione odsetki, saldo końcowe i wykres wzrostu."
+        }
+      ]
+    },
+    {
+      "heading": "Przykłady i scenariusze",
+      "subSections": [
+        {
+          "heading": "Stały depozyt",
+          "content": "Wpłać 10 000 USD z oprocentowaniem 5% rocznie, kapitalizowanym co miesiąc. Twoja inwestycja znacznie rośnie w miarę upływu czasu."
+        },
+        {
+          "heading": "Planowanie emerytury",
+          "content": "Niewielkie miesięczne składki gromadzą się przez dziesięciolecia w pokaźnym funduszu emerytalnym."
+        },
+        {
+          "heading": "Oszczędności studenckie",
+          "content": "Nawet małe, regularne depozyty mogą rosnąć, co czyni go idealnym narzędziem dla studentów."
+        }
+      ]
+    },
+    {
+      "heading": "Wyjaśnienie odsetek składanych",
+      "subSections": [
+        {
+          "heading": "Odsetki złożone a proste",
+          "content": "Odsetki proste naliczane są wyłącznie od kwoty głównej, natomiast odsetki składane rosną zarówno od kwoty głównej, jak i od odsetek naliczonych."
+        },
+        {
+          "heading": "Częstotliwość złożona",
+          "content": "Składanie dzienne, miesięczne lub roczne wpływa na wzrost. Częstsze składanie skutkuje wyższymi stopami zwrotu."
+        },
+        {
+          "heading": "Krok po kroku",
+          "content": "Zidentyfikuj kwotę główną, stopę procentową i okres → wybierz częstotliwość kapitalizacji → dodaj składki → wyświetl saldo i odsetki."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak obliczyć odsetki składane przy miesięcznych depozytach?",
+      "a": "Wpisz swoje miesięczne składki w kalkulatorze, wybierz miesięczne składanie, a wyświetli się całkowity wzrost w czasie."
+    },
+    {
+      "q": "Jaka jest różnica między odsetkami prostymi i składanymi?",
+      "a": "Odsetki proste naliczane są wyłącznie od kwoty głównej, natomiast odsetki składane naliczane są od kwoty głównej i odsetek naliczonych, co umożliwia szybszy wzrost."
+    },
+    {
+      "q": "O ile wzrośnie moja inwestycja przy oprocentowaniu składanym?",
+      "a": "Skorzystaj z naszego kalkulatora online, aby wprowadzić swoje dane i zobaczyć prognozowany wzrost na przestrzeni miesięcy lub lat."
+    },
+    {
+      "q": "Czy mogę porównać składane stopy procentowe dla banków?",
+      "a": "Tak! Możesz symulować różne stawki i okresy kapitalizacji, aby wybrać najbardziej opłacalną opcję."
+    },
+    {
+      "q": "Czy stopa procentowa wpływa na wzrost odsetek składanych?",
+      "a": "Absolutnie. Nawet niewielka zmiana stóp procentowych może znacząco wpłynąć na długoterminowy wzrost."
+    }
+  ]
+}

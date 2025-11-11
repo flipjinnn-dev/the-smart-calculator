@@ -1,0 +1,130 @@
+{
+  "color": "fioletowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator poczęcia?",
+      "content": "Kalkulator poczęcia pomaga oszacować najbardziej płodne dni, prawdopodobną datę poczęcia i przewidywany termin porodu na podstawie cyklu miesiączkowego. Analizując ostatnią miesiączkę (LMP), długość cyklu i moment owulacji, narzędzie to pomaga w bezpiecznym planowaniu ciąży."
+    },
+    {
+      "heading": "Jak działa kalkulator poczęcia",
+      "subSections": [
+        {
+          "heading": "Ostatnia miesiączka (LMP)",
+          "content": "Wprowadź pierwszy dzień ostatniej miesiączki."
+        },
+        {
+          "heading": "Długość cyklu",
+          "content": "Podaj średnią liczbę dni pomiędzy miesiączkami."
+        },
+        {
+          "heading": "Dzień owulacji",
+          "content": "Szacowane automatycznie na podstawie długości cyklu."
+        },
+        {
+          "heading": "Żyzne okno",
+          "content": "Określa dni, w których prawdopodobieństwo poczęcia jest największe."
+        },
+        {
+          "heading": "Szczytowe dni płodności",
+          "content": "Podkreśla najlepsze dni na poczęcie."
+        },
+        {
+          "heading": "Szacowany termin poczęcia i porodu",
+          "content": "Podaje prawdopodobną datę poczęcia i oczekiwaną datę porodu."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora poczęć?",
+      "subSections": [
+        {
+          "heading": "Zmaksymalizuj szanse na poczęcie",
+          "content": "Aby uzyskać wyższy wskaźnik sukcesu, celuj w najlepsze dni na poczęcie."
+        },
+        {
+          "heading": "Zrozumienie okna płodności",
+          "content": "Dowiedz się, kiedy jesteś najbardziej płodna, jeśli chodzi o naturalne poczęcie."
+        },
+        {
+          "heading": "Dokładne planowanie ciąży",
+          "content": "Oszacuj zarówno datę poczęcia, jak i termin porodu."
+        },
+        {
+          "heading": "Spersonalizowane wskazówki",
+          "content": "Koryguje nieregularne cykle i czynniki płodności związane z wiekiem."
+        },
+        {
+          "heading": "Wygoda",
+          "content": "Szybki, bezpłatny i łatwy dostęp w każdej chwili."
+        }
+      ]
+    },
+    {
+      "heading": "Wskazówki dotyczące pomyślnego poczęcia",
+      "subSections": [
+        {
+          "heading": "Śledź objawy owulacji",
+          "content": "Obserwuj zmiany śluzu szyjkowego i podstawową temperaturę ciała."
+        },
+        {
+          "heading": "Prowadź zdrowy styl życia",
+          "content": "Zbilansowane odżywianie, ćwiczenia i odpowiedni sen poprawiają płodność."
+        },
+        {
+          "heading": "Zaplanuj stosunek w okolicach dni płodnych",
+          "content": "Aby uzyskać największe szanse, skup się na szczytowych dniach płodnych."
+        },
+        {
+          "heading": "Zarządzaj stresem",
+          "content": "Obniż poziom stresu, aby wspierać równowagę hormonalną i płodność."
+        },
+        {
+          "heading": "Użyj narzędzi płodności",
+          "content": "Połącz z trackerami lub aplikacjami w celu ciągłego monitorowania."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator poczęcia?",
+      "a": "Szacuje dni płodne i prawdopodobną datę poczęcia na podstawie cyklu miesiączkowego i czasu owulacji."
+    },
+    {
+      "q": "Jak dokładny jest kalkulator daty poczęcia?",
+      "a": "Jest wysoce niezawodny w przypadku cykli regularnych, ale dokładność spada w przypadku cykli nieregularnych."
+    },
+    {
+      "q": "Czy mogę skorzystać z bezpłatnego kalkulatora poczęcia online?",
+      "a": "Tak, nasze narzędzie jest całkowicie bezpłatne i łatwe w obsłudze."
+    },
+    {
+      "q": "Jak obliczyć datę poczęcia?",
+      "a": "Podaj swój LMP i długość cyklu; kalkulator szacuje owulację, dni płodne i datę poczęcia."
+    },
+    {
+      "q": "Jaka jest różnica między kalkulatorem poczęcia a kalkulatorem owulacji?",
+      "a": "Kalkulatory owulacji przewidują jedynie owulację. Kalkulatory poczęcia szacują również dni płodne i termin porodu."
+    },
+    {
+      "q": "Czy to narzędzie może pomóc w przypadku nieregularnych cykli?",
+      "a": "Tak, dostosowuje obliczenia dla nieregularnych cykli, aby zapewnić możliwie najdokładniejsze wyniki."
+    },
+    {
+      "q": "Jakie są najlepsze dni na poczęcie?",
+      "a": "5 dni przed owulacją i sam dzień owulacji to dni o największej płodności."
+    },
+    {
+      "q": "Jak oblicza się Żyzne Okno?",
+      "a": "Opiera się na czasie owulacji, przeżywalności plemników (do 5 dni) i dostępności komórek jajowych."
+    },
+    {
+      "q": "Czy mogę śledzić prawdopodobieństwo poczęcia według wieku?",
+      "a": "Tak, niektóre zaawansowane kalkulatory uwzględniają wiek, aby uzyskać bardziej precyzyjne informacje na temat płodności."
+    },
+    {
+      "q": "Czy powinienem używać kalkulatora poczęcia w porównaniu z innymi narzędziami dotyczącymi płodności?",
+      "a": "Kalkulator poczęcia najlepiej nadaje się do planowania ciąży, ponieważ łączy w sobie owulację, dni płodne i szacunkowy termin porodu."
+    }
+  ]
+}

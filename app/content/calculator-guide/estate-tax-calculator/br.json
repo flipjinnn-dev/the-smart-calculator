@@ -1,0 +1,110 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "O que é o imposto predial federal?",
+      "content": "O imposto sobre heranças é um imposto federal sobre a transferência de bens por ocasião da morte. Ao contrário do imposto sobre herança, que é pago pelos beneficiários em certos estados, o imposto federal sobre heranças é pago pelo próprio patrimônio antes da distribuição."
+    },
+    {
+      "heading": "Isenção de imposto predial federal de 2025",
+      "content": "Em 2025, a isenção do imposto predial é de US$ 13,99 milhões por pessoa. Os valores acima desta isenção estão sujeitos a imposto, com alíquota máxima de 40%. As propriedades são informadas ao IRS usando o Formulário 706 (Declaração de imposto de transferência de propriedades e geração sem geração dos Estados Unidos)."
+    },
+    {
+      "heading": "Como o imposto predial é calculado",
+      "subSections": [
+        {
+          "heading": "Patrimônio Bruto",
+          "content": "Valor total dos ativos (imóveis, títulos, receitas de seguros de vida, interesses comerciais, contas de aposentadoria)."
+        },
+        {
+          "heading": "Deduções permitidas",
+          "content": "Despesas de funeral, dívidas, contribuições de caridade e dedução conjugal (as transferências para o cônjuge geralmente são isentas)."
+        },
+        {
+          "heading": "Patrimônio Tributável",
+          "content": "Patrimônio bruto menos deduções."
+        },
+        {
+          "heading": "Isenção de imposto imobiliário",
+          "content": "Subtraia a isenção (US$ 13,99 milhões em 2025) para determinar o valor tributável."
+        },
+        {
+          "heading": "Aplicar suportes de imposto imobiliário do IRS",
+          "content": "A taxa de até 40% é aplicada para calcular o imposto predial final devido."
+        }
+      ]
+    },
+    {
+      "heading": "Como usar esta calculadora de imposto imobiliário",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Insira o valor total do seu patrimônio."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Adicione deduções (dívidas, presentes de caridade, despesas funerárias)."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Incluir transferências conjugais ou isenção conjugal, se aplicável."
+        },
+        {
+          "heading": "Etapa 4",
+          "content": "Insira presentes vitalícios para ver como eles reduzem a isenção."
+        },
+        {
+          "heading": "Etapa 5",
+          "content": "Veja o imposto predial estimado devido, com base nos limites do IRS de 2025."
+        }
+      ]
+    },
+    {
+      "heading": "Imposto sobre heranças vs. imposto sobre heranças vs. ganhos de capital",
+      "subSections": [
+        {
+          "heading": "Imposto sobre imóveis (federal)",
+          "content": "Pago pelo espólio antes que os herdeiros recebam os bens."
+        },
+        {
+          "heading": "Imposto sobre herança (específico do estado)",
+          "content": "Pago pelos herdeiros; aplica-se apenas em alguns estados (por exemplo, PA, NJ, NE)."
+        },
+        {
+          "heading": "Imposto sobre ganhos de capital",
+          "content": "Pago quando os ativos herdados são vendidos posteriormente; com base em uma base intensificada no momento da morte."
+        }
+      ]
+    },
+    {
+      "heading": "Isenção de responsabilidade e próximas etapas",
+      "content": "Esta calculadora de imposto predial federal 2025 é apenas para fins educacionais. Os resultados são estimativas e podem variar de acordo com regras estaduais, ajustes de inflação e atualizações do IRS. Sempre consulte um profissional tributário qualificado ou um advogado de planejamento patrimonial para obter orientação personalizada."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual é a isenção do imposto predial em 2025?",
+      "a": "A isenção é de US$ 13,99 milhões por pessoa (US$ 27,98 milhões para casais com portabilidade)."
+    },
+    {
+      "q": "Como as doações vitalícias afetam o imposto sobre heranças?",
+      "a": "Presentes acima da exclusão anual (US$ 18.000 em 2025) reduzem sua isenção vitalícia e aumentam seu patrimônio tributável."
+    },
+    {
+      "q": "Os rendimentos do seguro de vida contam para o patrimônio?",
+      "a": "Sim, se o falecido for o proprietário da apólice. Os rendimentos podem aumentar o patrimônio bruto."
+    },
+    {
+      "q": "Quanto eu deveria de imposto sobre herança em uma propriedade de US$ 15 milhões?",
+      "a": "Aproximadamente US$ 400.000 após a aplicação da isenção de US$ 13,99 milhões, sem deduções."
+    },
+    {
+      "q": "As contribuições de caridade reduzem o imposto sobre propriedades?",
+      "a": "Sim. As deduções de caridade reduzem diretamente o patrimônio tributável, diminuindo o passivo geral."
+    },
+    {
+      "q": "Preciso preencher o Formulário 706 do IRS?",
+      "a": "As propriedades acima do valor da isenção devem apresentar o Formulário 706 no prazo de nove meses após o falecimento (extensões disponíveis)."
+    }
+  ]
+}

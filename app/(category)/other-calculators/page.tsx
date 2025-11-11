@@ -1,80 +1,81 @@
-import type { Metadata } from "next"
+"use client"
 import Script from "next/script"
 import Link from "next/link"
-import { ArrowLeft, Calculator,MoreHorizontal  } from "lucide-react"
+import { useState, useEffect } from "react"
+import { ArrowLeft, Calculator, MoreHorizontal } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import Logo from "@/components/logo"
 import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
+import { useCategoryContent } from "@/hooks/useCategoryContent"
 
-export const metadata: Metadata = {
-  title: "Other Calculators - Smart Calculator",
-  description:
-    "Free Other calculators including loan payments, investment analysis, and expense tracking tools. Make informed business decisions.",
-  keywords: "other calculator, loan payment calculator, investment analysis calculator, expense tracking calculator",
-    alternates: {
-      canonical: "https://www.thesmartcalculator.com/other-calculators",
-  },
+// Define fallback content
+const fallbackContent = {
+  name: "Other",
+  description: "Free calculators for various other purposes that don't fit into specific categories. Find tools for everyday calculations.",
+  slug: "other-calculators"
 }
 
-// Get calculators dynamically
-const otherCalculators = getCalculatorsByCategory("other")
-const popularOtherCalculators = getPopularCalculatorsByCategory("other")
+export default function OtherCalculatorsCategoryPage() {
+  // Detect language from URL path or headers
+  const [language, setLanguage] = useState("en");
+  
+  useEffect(() => {
+    // First try to get language from headers (set by middleware)
+    const headerLanguage = document.head.querySelector('meta[name="x-language"]')?.getAttribute('content');
+    if (headerLanguage) {
+      setLanguage(headerLanguage);
+      return;
+    }
+    
+    // Fallback to URL path detection
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/(br|pl|de)/);
+    const detectedLanguage = langMatch ? langMatch[1] : "en";
+    setLanguage(detectedLanguage);
+  }, []);
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "Other Calculators",
-  description: "Free other calculators for loan payments, investment analysis, and expense tracking",
-  url: "https://www.thesmartcalculator.com/other",
-  mainEntity: {
-    "@type": "ItemList",
-    itemListElement: otherCalculators.map((calc, index) => ({
-      "@type": "SoftwareApplication",
-      position: index + 1,
-      name: calc.name,
-      description: calc.description,
-      url: `https://www.thesmartcalculator.com${calc.href}`,
-      applicationCategory: "FinanceApplication",
-    })),
-  },
-}
+  const { content, loading, error } = useCategoryContent("other", language);
+  
+  // Use content or fallback to defaults
+  const contentData = content || fallbackContent;
 
-export default function OtherCategoryPage() {
+  // Show loading state
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+  }
+
+  // Show error if content failed to load
+  if (error) {
+    return <div className="min-h-screen flex items-center justify-center">Error loading content: {error}</div>;
+  }
+
+  const otherCalculators = getCalculatorsByCategory("other", language)
+  const popularOtherCalculators = getPopularCalculatorsByCategory("other", language)
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: contentData.name,
+    description: contentData.description,
+    url: `https://www.thesmartcalculator.com/${contentData.slug}`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: otherCalculators.map((calc, index) => ({
+        "@type": "SoftwareApplication",
+        position: index + 1,
+        name: calc.name,
+        description: calc.description,
+        url: `https://www.thesmartcalculator.com${calc.href}`,
+        applicationCategory: "SoftwareApplication",
+      })),
+    },
+  }
+
   return (
     <>
       <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-blue-800 transition-colors">
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-600">Other Calculators</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        {/* Breadcrumb */}
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-3 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-gray-700">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Other Calculators</span>
-            </div>
-          </div>
-        </nav>
 
         {/* Hero section with orange-amber theme and business-specific content */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
@@ -84,10 +85,9 @@ export default function OtherCategoryPage() {
                 <MoreHorizontal className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Other Calculators</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{contentData.name}</h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Make informed decisions with our comprehensive collection of calculators. From loan payments
-              and investment analysis to expense tracking.
+              {contentData.description}
             </p>
             <Link href="/">
               <Button variant="outline" className="mb-8 bg-transparent">
@@ -125,7 +125,7 @@ export default function OtherCategoryPage() {
         {/* All calculators section with orange theme */}
         <section className="py-8 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-white">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">All Other Calculators</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">All {contentData.name} Calculators</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in">
               {otherCalculators.map((calc, index) => (
                 <Link key={calc.id} href={calc.href}>

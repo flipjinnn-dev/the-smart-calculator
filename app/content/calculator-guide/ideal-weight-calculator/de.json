@@ -1,0 +1,92 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Entdecken Sie Ihr Idealgewicht mit unserem kostenlosen Rechner",
+      "content": "Die Aufrechterhaltung eines gesunden Gewichts ist entscheidend für das allgemeine Wohlbefinden, die Fitness und die Vorbeugung von Krankheiten. Unser Idealgewichtsrechner hilft Ihnen, Ihr optimales Gewicht basierend auf Ihrer Größe, Ihrem Alter, Ihrem Geschlecht und Ihrer Körperzusammensetzung zu ermitteln. Egal, ob Sie das Idealgewicht für Männer, Frauen oder für Fitnessziele berechnen möchten, dieses Tool liefert in Sekundenschnelle genaue, wissenschaftlich fundierte Ergebnisse."
+    },
+    {
+      "heading": "So funktioniert der Idealgewichtsrechner",
+      "subSections": [
+        {
+          "heading": "Hamwi-Formel",
+          "content": "Männer: 106 Pfund für die ersten 5 Fuß + 6 Pfund pro Zoll über 5 Fuß\nFrauen: 100 Pfund für die ersten 5 Fuß + 5 Pfund pro Zoll über 5 Fuß"
+        },
+        {
+          "heading": "Göttliche Formel",
+          "content": "Ähnlich wie Hamwi, jedoch leicht angepasst an die klinische Genauigkeit."
+        },
+        {
+          "heading": "Robinson-Formel",
+          "content": "Männer: 52 kg + 1,9 kg pro Zoll über 5 Fuß\nFrauen: 49 kg + 1,7 kg pro Zoll über 5 Fuß"
+        },
+        {
+          "heading": "Miller-Formel",
+          "content": "Männer: 56,2 kg + 1,41 kg pro Zoll über 5 Fuß\nFrauen: 53,1 kg + 1,36 kg pro Zoll über 5 Fuß"
+        }
+      ]
+    },
+    {
+      "heading": "Warum das Idealgewicht wichtig ist",
+      "content": "✔ Unterstützt die Herzgesundheit und reduziert kardiovaskuläre Risiken\n✔ Trägt zur Aufrechterhaltung eines gesunden Blutzucker- und Cholesterinspiegels bei\n✔ Verbessert die körperliche Leistungsfähigkeit und Ausdauer\n✔ Führt zu einem sicheren und effektiven Gewichtsmanagement"
+    },
+    {
+      "heading": "Idealgewicht vs. BMI vs. tatsächliches Gewicht",
+      "content": "• BMI (Body-Mass-Index): Misst das Körperfett anhand von Gewicht und Größe, berücksichtigt jedoch nicht die Muskelmasse.\n• Idealgewicht: Bietet einen Zielgewichtsbereich, der für Größe, Geschlecht und Körpertyp optimiert ist.\n• Tatsächliches Gewicht: Ihr aktuelles Gewicht – der Vergleich mit Ihrem Idealgewicht hilft dabei, Bereiche mit Verbesserungspotenzial zu identifizieren.\n\n💡 Tipp: Nutzen Sie unseren BMI- und Idealgewichtsrechner, um ein vollständiges Bild Ihrer Körperzusammensetzung zu erhalten."
+    },
+    {
+      "heading": "Richtlinien zur Aufrechterhaltung des Idealgewichts",
+      "content": "✔ Achten Sie auf eine ausgewogene Ernährung mit viel Obst, Gemüse, magerem Eiweiß und Vollkornprodukten\n✔ Integrieren Sie regelmäßige körperliche Aktivität: Cardio, Krafttraining und Beweglichkeitsübungen\n✔ Achten Sie auf die Portionsgrößen und vermeiden Sie übermäßiges Naschen\n✔ Bleiben Sie ausreichend hydriert und schlafen Sie ausreichend\n✔ Verfolgen Sie Ihre Fortschritte mit unserem Körpergewichtsrechner und unserem Körperfettrechner"
+    },
+    {
+      "heading": "Verwandte Tools",
+      "content": "• BMI-Rechner – Überprüfen Sie Ihren Body-Mass-Index und sehen Sie, wie er im Vergleich zu Ihrem Idealgewicht abschneidet\n• Körperfettrechner – Messen Sie den Körperfettanteil für genauere Gesundheitsinformationen\n• Rechner für gesundes Gewicht – Erhalten Sie einen umfassenden Überblick über gesunde Gewichtsbereiche für Ihr Alter und Ihre Größe"
+    },
+    {
+      "heading": "Beispielrechnung",
+      "content": "Szenario: Eine 1,70 m große Frau möchte ihr Idealgewicht wissen.\nHamwi-Formel: 100 Pfund + (5 Pfund × 7 Zoll) = 135 Pfund\nRobinson-Formel: 49 kg + (1,7 kg × 7 Zoll) ≈ 61,9 kg (~136 lbs)\n\n✅ Diese Ergebnisse ergeben einen klaren Idealgewichtsbereich von 135–137 Pfund."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist das ideale Gewicht für meine Größe und mein Alter?",
+      "a": "Es hängt von Ihrer Größe, Ihrem Geschlecht und Ihrer Körperzusammensetzung ab. Der Rechner verwendet mehrere Formeln, um Ihnen einen zuverlässigen Bereich zu liefern."
+    },
+    {
+      "q": "Wie genau ist der Idealgewichtsrechner?",
+      "a": "Es liefert Schätzungen anhand vertrauenswürdiger Formeln, aber Faktoren wie Muskelmasse und Körperfettverteilung können die Genauigkeit beeinträchtigen."
+    },
+    {
+      "q": "Welche Formel eignet sich am besten zur Berechnung des Idealgewichts?",
+      "a": "Unterschiedliche Formeln dienen unterschiedlichen Zwecken – Hamwi und Devine sind traditionell, während Robinson und Miller klinisch angepasste Werte bieten."
+    },
+    {
+      "q": "Wie unterscheidet sich das Idealgewicht vom BMI?",
+      "a": "Der BMI misst den Körperfettanteil anhand von Gewicht und Größe, während das Idealgewicht einen spezifischeren Zielbereich für Ihre Größe und Ihr Geschlecht bietet."
+    },
+    {
+      "q": "Kann ich diesen Rechner für Männer und Frauen verwenden?",
+      "a": "Ja, das Tool unterstützt sowohl Männer als auch Frauen mit geschlechtsspezifischen Formeln."
+    },
+    {
+      "q": "Wie oft sollte ich mein Idealgewicht überprüfen?",
+      "a": "Sie können dies regelmäßig überprüfen, insbesondere wenn Sie mit einem neuen Fitness- oder Diätplan beginnen."
+    },
+    {
+      "q": "Ist Idealgewicht dasselbe wie gesundes Gewicht?",
+      "a": "Nicht ganz – gesundes Gewicht kann je nach Lebensstil, Alter und Körperzusammensetzung einen größeren Bereich abdecken."
+    },
+    {
+      "q": "Wie kann ich mein Idealgewicht halten?",
+      "a": "Achten Sie auf eine ausgewogene Ernährung, treiben Sie regelmäßig Sport, überwachen Sie die Portionsgrößen und verfolgen Sie den Fortschritt mit Taschenrechnern."
+    },
+    {
+      "q": "Beeinflusst Muskelmasse die Berechnung des Idealgewichts?",
+      "a": "Ja, Personen mit hoher Muskelmasse wiegen möglicherweise mehr als ihr „Idealgewicht“, sind aber dennoch sehr gesund."
+    },
+    {
+      "q": "Gibt es Tools, um Veränderungen vom Ist- zum Idealgewicht zu verfolgen?",
+      "a": "Ja, Sie können unseren Körpergewichtsrechner, BMI-Rechner und Körperfettrechner verwenden, um Ihren Fortschritt zu überwachen."
+    }
+  ]
+}

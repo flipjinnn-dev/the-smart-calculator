@@ -1,0 +1,118 @@
+{
+  "pageTitle": "Geschwindigkeitsrechner",
+  "pageDescription": "Berechnen Sie Geschwindigkeit, Geschwindigkeit und Beschleunigung für verschiedene physikalische Anwendungen, einschließlich Verschiebungs-, Zeit- und Bewegungsanalyse",
+  "form": {
+    "labels": {
+      "calculationType": "Berechnungstyp",
+      "initialVelocity": "Anfangsgeschwindigkeit",
+      "finalVelocity": "Endgeschwindigkeit",
+      "time": "Zeit",
+      "displacement": "Verschiebung",
+      "acceleration": "Beschleunigung",
+      "unitSystem": "Einheitensystem"
+    },
+    "placeholders": {
+      "initialVelocity": "Geben Sie die Anfangsgeschwindigkeit ein",
+      "finalVelocity": "Geben Sie die Endgeschwindigkeit ein",
+      "time": "Geben Sie die Zeit ein",
+      "displacement": "Geben Sie die Verschiebung ein",
+      "acceleration": "Geben Sie die Beschleunigung ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Geschwindigkeit",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "metric": "Metrisch (m/s, m/s²)",
+      "imperial": "Imperial (ft/s, ft/s²)"
+    },
+    "calculationTypes": {
+      "averageVelocity": "Durchschnittliche Geschwindigkeit",
+      "finalVelocity": "Endgeschwindigkeit",
+      "initialVelocity": "Anfangsgeschwindigkeit",
+      "acceleration": "Beschleunigung"
+    }
+  },
+  "results": {
+    "velocity": "Geschwindigkeit",
+    "speed": "Geschwindigkeit",
+    "acceleration": "Beschleunigung",
+    "velocityResultsTitle": "Geschwindigkeitsergebnisse",
+    "formulaUsed": "Verwendete Formel"
+  },
+  "educational": {
+    "velocityInfo": "Geschwindigkeitsinformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Konsultieren Sie einen Physikprofi",
+    "velocityConcepts": {
+      "velocity": {
+        "title": "Geschwindigkeit",
+        "description": "Eine Vektorgröße, die sowohl Geschwindigkeit als auch Richtung umfasst"
+      },
+      "speed": {
+        "title": "Geschwindigkeit",
+        "description": "Eine skalare Größe, die die Bewegungsgeschwindigkeit darstellt"
+      },
+      "acceleration": {
+        "title": "Beschleunigung",
+        "description": "Die Geschwindigkeitsänderungsrate im Zeitverlauf"
+      }
+    },
+    "velocityFormulas": {
+      "averageVelocity": {
+        "title": "Durchschnittliche Geschwindigkeit",
+        "formula": "v_avg = Δx/Δt = (x₂ - x₁)/(t₂ - t₁)"
+      },
+      "finalVelocity": {
+        "title": "Endgeschwindigkeit",
+        "formula": "v = u + at"
+      },
+      "acceleration": {
+        "title": "Beschleunigung",
+        "formula": "a = (v - u)/t"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur physikalische Berechnungen",
+      "units": "Stellen Sie bei Ihren Berechnungen konsistente Einheiten sicher"
+    },
+    "importantNotesList": [
+      "Geschwindigkeit ist eine Vektorgröße mit Betrag und Richtung",
+      "Geschwindigkeit ist eine skalare Größe (nur Größe)",
+      "Berücksichtigen Sie in Ihren Ergebnissen immer aussagekräftige Zahlen",
+      "Überprüfen Sie die Einheitenumrechnungen noch einmal, um genaue Berechnungen zu erhalten"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Werte ein, um die Geschwindigkeit zu berechnen",
+    "resultMessage": "Das Ergebnis Ihrer Geschwindigkeitsberechnung wird unten angezeigt",
+    "assessmentResult": "Berechnungsergebnis:",
+    "velocityAnalysis": "Geschwindigkeitsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet physikalische Berechnungen basierend auf standardmäßigen kinematischen Formeln. Die Genauigkeit der Ergebnisse hängt von der Richtigkeit der Eingabewerte und der richtigen Anwendung der Formeln ab."
+  },
+  "seekHelp": {
+    "title": "Konsultieren Sie einen Physikprofi",
+    "content": "Bei komplexen physikalischen Problemen oder speziellen Anwendungen sollten Sie erwägen, einen Physikexperten zu konsultieren oder spezielle Softwaretools zu verwenden, die für fortgeschrittene physikalische Berechnungen entwickelt wurden."
+  },
+  "errors": {
+    "initialVelocity": "Bitte geben Sie eine gültige Anfangsgeschwindigkeit ein",
+    "finalVelocity": "Bitte geben Sie eine gültige Endgeschwindigkeit ein",
+    "time": "Bitte geben Sie einen gültigen Zeitwert ein",
+    "displacement": "Bitte geben Sie einen gültigen Verschiebungswert ein",
+    "acceleration": "Bitte geben Sie einen gültigen Beschleunigungswert ein",
+    "calculationType": "Bitte wählen Sie eine Berechnungsart aus"
+  },
+  "tooltips": {
+    "calculationType": "Wählen Sie die Art der Geschwindigkeitsberechnung aus, die Sie benötigen",
+    "initialVelocity": "Geschwindigkeit zu Beginn des Zeitintervalls",
+    "finalVelocity": "Geschwindigkeit am Ende des Zeitintervalls",
+    "time": "Zeitintervall für die Bewegung",
+    "displacement": "Positionsänderung während des Zeitintervalls",
+    "acceleration": "Geschwindigkeitsänderungsrate"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "pageTitle": "Weight Watchers Points Calculator",
+  "pageDescription": "Calculate Weight Watchers points based on food items and nutritional information",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Weight",
+      "unitSystem": "Unit System",
+      "activityLevel": "Activity Level"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}"
+    },
+    "buttons": {
+      "calculate": "Calculate Points",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentary (little or no exercise)",
+      "light": "Light (exercise 1-3 days/week)",
+      "moderate": "Moderate (exercise 3-5 days/week)",
+      "active": "Active (exercise 6-7 days/week)",
+      "veryActive": "Very Active (hard exercise daily)"
+    }
+  },
+  "results": {
+    "pointsValue": "Weight Watchers Points",
+    "dailyPoints": "Daily Points Allowance",
+    "pointsResultsTitle": "Points Results",
+    "pointsFormula": {
+      "label": "Points Formula",
+      "old": "Points = (Protein + Carbs + Fat) / 100 + (Calories / 50)",
+      "new": "SmartPoints = (Protein × 11 + Sugar × 1 + Saturated Fat × 4 + Calories × 0.025) / 100"
+    }
+  },
+  "educational": {
+    "pointsInfo": "Weight Watchers Points Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Professional",
+    "pointsSystems": {
+      "old": {
+        "title": "Old Points System",
+        "description": "Based on protein, carbs, fat, and calories"
+      },
+      "new": {
+        "title": "SmartPoints System",
+        "description": "Emphasizes protein and minimizes sugar and saturated fat"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a diagnostic tool",
+      "individualVariation": "Points needs vary based on individual factors"
+    },
+    "importantNotesList": [
+      "The new SmartPoints system is more nutritionally balanced",
+      "Personal points allowance depends on age, gender, height, and activity level",
+      "Consult Weight Watchers for personalized plans",
+      "Points should be considered alongside overall healthy eating habits"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Enter your measurements to calculate your Weight Watchers points",
+    "pointsResult": "Your daily Weight Watchers points allowance is {points}",
+    "ageWarning": "Points calculations may vary for different age groups",
+    "assessmentResult": "Assessment Result:",
+    "pointsAnalysis": "Points Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates based on mathematical formulas and should not be used as a substitute for professional Weight Watchers guidance. Individual results may vary based on factors not accounted for in these calculations."
+  },
+  "seekHelp": {
+    "title": "Consult Weight Watchers",
+    "content": "For accurate points calculations and personalized weight loss plans, please consult with Weight Watchers or a registered dietitian who can provide guidance based on your complete health history and individual circumstances."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight",
+    "activity": "Please select activity level"
+  },
+  "tooltips": {
+    "age": "Age affects points calculations",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "activity": "Your regular activity level affects your points allowance"
+  },
+  "smartpoints_calculation_0": "SmartPoints Calculation",
+  "enter_nutritional_information_to_calculate_weight__1": "Enter nutritional information to calculate Weight Watchers SmartPoints",
+  "calories_kcal_2": "Calories (kcal)",
+  "total_calories_in_the_food_item_3": "Total calories in the food item",
+  "saturated_fat_grams_4": "Saturated Fat (grams)",
+  "saturated_fat_content_in_grams_5": "Saturated fat content in grams",
+  "sugar_grams_6": "Sugar (grams)",
+  "total_sugar_content_in_grams_7": "Total sugar content in grams",
+  "protein_grams_8": "Protein (grams)",
+  "protein_content_in_grams_reduces_points_9": "Protein content in grams (reduces points)",
+  "smartpoints_formula_20152021_10": "SmartPoints Formula (2015-2021):",
+  "points_00305_calories_0275_saturated_fat_012_sugar_11": "Points = (0.0305 × Calories) + (0.275 ×\n                        Saturated Fat) + (0.12 × Sugar) - (0.098 × Protein)",
+  "result_is_rounded_to_the_nearest_whole_number_12": "Result is rounded to the nearest whole number",
+  "calculate_13": "Calculate",
+  "reset_14": "Reset",
+  "smartpoints_15": "SmartPoints",
+  "points_16": "Points",
+  "weight_watchers_17": "Weight Watchers",
+  "smartpoints_value_18": "SmartPoints Value",
+  "enter_nutritional_information_then_click_19": "Enter nutritional information, then click",
+  "calculate_20": "Calculate",
+  "to_see_smartpoints_21": "to see SmartPoints.",
+  "smartpoints_calculation_breakdown_22": "SmartPoints Calculation Breakdown",
+  "smartpoints_value_23": "SmartPoints Value",
+  "points_24": "Points",
+  "raw_calculation_25": "Raw Calculation",
+  "before_rounding_26": "Before rounding",
+  "calculation_breakdown_27": "Calculation Breakdown",
+  "calories_28": "Calories (",
+  "k_00305_29": "× 0.0305):",
+  "saturated_fat_30": "Saturated Fat (",
+  "g_0275_31": "g × 0.275):",
+  "sugar_32": "Sugar (",
+  "g_012_33": "g × 0.12):",
+  "protein_34": "Protein (",
+  "g_0098_35": "g × 0.098):",
+  "total_raw_points_36": "Total Raw Points:",
+  "final_smartpoints_rounded_37": "Final SmartPoints (rounded):",
+  "understanding_weight_watchers_smartpoints_38": "Understanding Weight Watchers SmartPoints",
+  "smartpoints_formula_20152021_39": "SmartPoints Formula (2015-2021)",
+  "calories_40": "Calories:",
+  "k_00305_41": "× 0.0305",
+  "saturated_fat_42": "Saturated Fat:",
+  "k_0275_43": "× 0.275",
+  "sugar_44": "Sugar:",
+  "k_012_45": "× 0.12",
+  "protein_46": "Protein:",
+  "k_0098_47": "- 0.098",
+  "historical_context_48": "Historical Context",
+  "before_2010_49": "Before 2010:",
+  "original_points_calories_fat_fiber_50": "Original Points (calories, fat, fiber)",
+  "k_20102015_51": "2010-2015:",
+  "pointsplus_protein_carbs_fat_fiber_52": "PointsPlus (protein, carbs, fat, fiber)",
+  "k_20152021_53": "2015-2021:",
+  "smartpoints_this_calculator_54": "SmartPoints (this calculator)",
+  "k_2022_55": "2022+:",
+  "updated_formulas_with_more_factors_56": "Updated formulas with more factors",
+  "key_features_57": "Key Features",
+  "protein_reduces_points_encourages_protein_intake_58": "Protein reduces points (encourages protein intake)",
+  "sugar_and_saturated_fat_increase_points_59": "Sugar and saturated fat increase points",
+  "calories_form_the_base_calculation_60": "Calories form the base calculation",
+  "result_is_rounded_to_nearest_whole_number_61": "Result is rounded to nearest whole number",
+  "minimum_value_is_0_points_62": "Minimum value is 0 points",
+  "usage_tips_63": "Usage Tips",
+  "use_nutrition_labels_for_accurate_values_64": "Use nutrition labels for accurate values",
+  "track_all_ingredients_in_recipes_65": "Track all ingredients in recipes",
+  "consider_portion_sizes_when_calculating_66": "Consider portion sizes when calculating",
+  "zeropoint_foods_dont_need_calculation_67": "Zero-point foods don't need calculation",
+  "note_about_weight_watchers_68": "Note About Weight Watchers",
+  "this_calculator_uses_the_smartpoints_formula_from__69": "This calculator uses the SmartPoints formula from December 2015 to November 2021. Weight\n                          Watchers has since updated their system. For current Weight Watchers programs, please refer to\n                          their official app and materials."
+}

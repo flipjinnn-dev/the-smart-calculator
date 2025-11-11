@@ -1,0 +1,136 @@
+{
+  "pageTitle": "Kalkulator małżeństwa",
+  "pageDescription": "Oblicz małżeństwo za pomocą naszego bezpłatnego kalkulatora online",
+  "form": {
+    "labels": {
+      "input1": "Wejście 1",
+      "input2": "Wejście 2",
+      "input3": "Wejście 3"
+    },
+    "placeholders": {
+      "input1": "Wprowadź pierwszą wartość",
+      "input2": "Wprowadź drugą wartość",
+      "input3": "Wprowadź trzecią wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz małżeństwo",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "result1": "Wynik 1",
+    "result2": "Wynik 2",
+    "calculationDetails": "Wyniki obliczeń małżeństwa"
+  },
+  "educational": {
+    "info": "Informacje o małżeństwie",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja małżeństwa",
+        "description": "Informacje o małżeństwie"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Jak liczy się małżeństwo"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Zastosowania małżeństwa"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator podaje jedynie szacunki dotyczące małżeństwa",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć małżeństwo",
+    "resultMessage": "Wyniki obliczeń Twojego małżeństwa pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia małżeństwa:",
+    "analysis": "Analiza małżeństwa"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki dotyczące małżeństw w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "marriage_tax_calculator_0": "Kalkulator podatku małżeńskiego",
+  "state_city_tax_rate_1": "Stan + stawka podatku miejskiego (%)",
+  "spouse_1_income_2": "Dochód współmałżonka 1",
+  "salary_business_income_3": "Wynagrodzenie / dochód z działalności gospodarczej",
+  "interest_dividend_income_4": "Dochód z odsetek + dywidendy",
+  "passive_income_5": "Dochód pasywny",
+  "shortterm_capital_gains_6": "Krótkoterminowe zyski kapitałowe",
+  "longterm_capital_gains_7": "Długoterminowe zyski kapitałowe",
+  "qualified_dividends_8": "Kwalifikowane dywidendy",
+  "k_401k_ira_savings_9": "401K, IRA... Oszczędności",
+  "updated_tax_calculation_functions_10": "// Zaktualizowano funkcje obliczania podatku",
+  "use_standard_deduction_14600_11": "Skorzystaj ze standardowego odliczenia (14 600 USD)",
+  "itemized_deductions_12": "Wyszczególnione odliczenia",
+  "selfemployed_13": "Samozatrudniony?",
+  "spouse_2_income_14": "Dochód współmałżonka 2",
+  "salary_business_income_15": "Wynagrodzenie / dochód z działalności gospodarczej",
+  "interest_dividend_income_16": "Dochód z odsetek + dywidendy",
+  "passive_income_17": "Dochód pasywny",
+  "shortterm_capital_gains_18": "Krótkoterminowe zyski kapitałowe",
+  "longterm_capital_gains_19": "Długoterminowe zyski kapitałowe",
+  "qualified_dividends_20": "Kwalifikowane dywidendy",
+  "k_401k_ira_savings_21": "401K, IRA... Oszczędności",
+  "use_standard_deduction_14600_22": "Skorzystaj ze standardowego odliczenia (14 600 USD)",
+  "itemized_deductions_23": "Wyszczególnione odliczenia",
+  "selfemployed_24": "Samozatrudniony?",
+  "calculate_tax_impact_25": "Oblicz wpływ podatkowy",
+  "marriage_tax_results_26": "Wyniki podatku małżeńskiego",
+  "tax_penalty_or_benefit_analysis_27": "Analiza kar podatkowych lub korzyści",
+  "of_total_income_28": "% całkowitego dochodu",
+  "detailed_tax_breakdown_29": "Szczegółowy podział podatku",
+  "category_30": "Kategoria",
+  "spouse_1_31": "Małżonek 1",
+  "spouse_2_32": "Małżonek 2",
+  "combined_not_married_33": "Razem (nieżonaty)",
+  "joint_married_34": "Wspólny (mężatki)",
+  "income_35": "Dochód",
+  "federal_tax_36": "Podatek federalny",
+  "marginal_rate_37": "Stopa krańcowa",
+  "social_security_tax_38": "Podatek na ubezpieczenie społeczne",
+  "medicare_tax_39": "Podatek medyczny",
+  "statecity_tax_40": "Podatek stanowy + miejski",
+  "k_401k_ira_41": "401 tys., IRA...",
+  "final_take_home_42": "Ostateczny odbiór do domu",
+  "enter_both_spouses_information_to_see_your_marriag_43": "Wprowadź dane obojga małżonków, aby zobaczyć wpływ podatku małżeńskiego",
+  "formulas_calculation_details_44": "Wzory i szczegóły obliczeń",
+  "k_1_individual_income_calculation_45": "1. Kalkulacja dochodu indywidualnego",
+  "total_income_wages_interest_passive_stcg_ltcg_qual_46": "Całkowity dochód = płace + odsetki + pasywne + STCG + LTCG + kwalifikowane dywidendy",
+  "taxable_income_total_income_deductions_selfemploym_47": "Dochód podlegający opodatkowaniu = Dochód całkowity – Odliczenia – Odliczenie podatku z tytułu samozatrudnienia",
+  "k_2_joint_income_calculation_48": "2. Kalkulacja wspólnego dochodu",
+  "joint_income_spouse_1_total_income_spouse_2_total__49": "Wspólny dochód = całkowity dochód współmałżonka 1 + całkowity dochód współmałżonka 2",
+  "joint_taxable_joint_income_joint_deductions_combin_50": "Wspólny podatek = wspólny dochód – wspólne odliczenia – łączne odliczenie podatku SE",
+  "k_3_marriage_penaltybenefit_51": "3. Kara/świadczenie małżeńskie",
+  "penaltybenefit_individual_tax_1_individual_tax_2_j_52": "Kara/korzyść = (podatek indywidualny 1 + podatek indywidualny 2) - podatek łączny",
+  "positive_result_marriage_benefit_negative_result_m_53": "Wynik pozytywny = Świadczenie małżeńskie | Wynik negatywny = kara małżeńska",
+  "k_4_percentage_impact_54": "4. Wpływ procentowy",
+  "marriage_impact_penalty_or_benefit_joint_income_10_55": "Wpływ na małżeństwo % = (kara lub świadczenie ÷ wspólny dochód) × 100"
+}

@@ -1,0 +1,165 @@
+{
+  "pageTitle": "BMI Calculator",
+  "pageDescription": "Calculate your Body Mass Index and understand your weight status with our comprehensive BMI calculator",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Weight",
+      "unitSystem": "Unit System"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}"
+    },
+    "buttons": {
+      "calculate": "Calculate BMI",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    }
+  },
+  "results": {
+    "bmiValue": "BMI kg/m²",
+    "classification": "Classification",
+    "healthyRange": "Healthy Range",
+    "bmiResultsTitle": "BMI Results",
+    "bmiFormula": {
+      "label": "BMI Formula",
+      "us": "BMI = (weight in lb / (height in inches)²) × 703",
+      "metric": "BMI = weight in kg / (height in meters)²"
+    },
+    "healthyBmiRange": "Healthy BMI Range: 18.5 – 25 kg/m²"
+  },
+  "educational": {
+    "bmiInfo": "BMI Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Professional",
+    "bmiClassifications": {
+      "underweight": {
+        "title": "Underweight",
+        "description": "BMI < 18.5"
+      },
+      "normal": {
+        "title": "Normal Weight",
+        "description": "BMI 18.5 – 24.9"
+      },
+      "overweight": {
+        "title": "Overweight",
+        "description": "BMI 25 – 29.9"
+      },
+      "obese": {
+        "title": "Obese",
+        "description": "BMI 30 – 39.9"
+      },
+      "extremelyObese": {
+        "title": "Extremely Obese",
+        "description": "BMI ≥ 40"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a diagnostic tool",
+      "individualVariation": "BMI may not accurately reflect body composition for athletes or individuals with high muscle mass"
+    },
+    "importantNotesList": [
+      "BMI is a screening tool and not a diagnostic measure of body fatness",
+      "For children and adolescents (≤20 years), use CDC growth charts",
+      "Consult healthcare professionals for personalized advice",
+      "Consider other health metrics alongside BMI for a complete picture"
+    ],
+    "healthyRangeDetails": {
+      "title": "18.5 – 25 kg/m²",
+      "description": "is considered the healthy BMI range for adults.",
+      "association": "This range is associated with the lowest risk of health problems and mortality."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Enter your measurements to calculate your BMI",
+    "bmiResult": "Your BMI is {bmi} kg/m²",
+    "classificationResult": "Classification: {classification}",
+    "ageWarning": "For children and adolescents (≤20 years), use pediatric growth charts",
+    "assessmentResult": "Assessment Result:",
+    "bmiAnalysis": "BMI Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates based on mathematical formulas and should not be used as a substitute for professional medical advice. Individual results may vary based on factors not accounted for in these calculations."
+  },
+  "seekHelp": {
+    "title": "Consult a Healthcare Professional",
+    "content": "If you have concerns about your weight or health, please consult with a healthcare professional who can provide personalized advice based on your complete medical history and individual circumstances."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight"
+  },
+  "tooltips": {
+    "age": "Age can affect BMI interpretation for children/adolescents",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "gender": "Gender may affect BMI interpretation"
+  },
+  "k_16_0": "16",
+  "k_17_1": "17",
+  "k_185_2": "18.5",
+  "k_25_3": "25",
+  "k_30_4": "30",
+  "k_35_5": "35",
+  "k_40_6": "40",
+  "underweight_7": "Underweight",
+  "normal_8": "Normal",
+  "overweight_9": "Overweight",
+  "obesity_10": "Obesity",
+  "bmi_calculator_11": "BMI Calculator",
+  "modify_the_values_and_click_the_calculate_button_t_12": "Modify the values and click the calculate button to use",
+  "age_13": "Age",
+  "ages_2_120_14": "ages: 2 - 120",
+  "gender_15": "Gender",
+  "male_16": "Male",
+  "female_17": "Female",
+  "other_18": "Other",
+  "height_19": "Height",
+  "cm_20": "cm",
+  "m_21": "m",
+  "ft_22": "ft",
+  "in_23": "in",
+  "weight_24": "Weight",
+  "kg_25": "kg",
+  "g_26": "g",
+  "lbs_27": "lbs",
+  "oz_28": "oz",
+  "st_29": "st",
+  "calculate_30": "Calculate",
+  "result_31": "Result",
+  "save_this_calculation_32": "Save this calculation",
+  "bmi_33": "BMI =",
+  "kgm_34": "kg/m²",
+  "bmi_35": "BMI =",
+  "bmi_scale_36": "BMI Scale",
+  "detailed_results_37": "Detailed Results",
+  "bmi_38": "BMI:",
+  "kgm_39": "kg/m²",
+  "healthy_bmi_range_40": "Healthy BMI range:",
+  "k_185_kgm_25_kgm_41": "18.5 kg/m² - 25 kg/m²",
+  "healthy_weight_for_height_42": "Healthy weight for height:",
+  "kg_43": "kg",
+  "bmi_prime_44": "BMI Prime:",
+  "ponderal_index_45": "Ponderal Index:",
+  "kgm_46": "kg/m³",
+  "body_surface_area_47": "Body Surface Area:",
+  "m_48": "m²",
+  "save_this_calculation_49": "Save This Calculation",
+  "enter_your_details_to_calculate_your_bmi_50": "Enter your details to calculate your BMI"
+}

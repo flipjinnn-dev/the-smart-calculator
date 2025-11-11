@@ -1,0 +1,157 @@
+{
+  "pageTitle": "Kalkulator magicznych liczb",
+  "pageDescription": "Oblicz magiczną liczbę dla rywalizacji play-off w sporcie",
+  "form": {
+    "labels": {
+      "teamWins": "Zespół wygrywa",
+      "teamLosses": "Straty zespołu",
+      "teamGamesPlayed": "Rozegrane gry zespołowe",
+      "leaderWins": "Lider wygrywa",
+      "leaderLosses": "Straty lidera",
+      "leaderGamesPlayed": "Rozegrane mecze liderów",
+      "totalGames": "Łączna liczba gier w sezonie"
+    },
+    "placeholders": {
+      "teamWins": "Wpisz zwycięstwa drużyny",
+      "teamLosses": "Podaj straty drużyny",
+      "teamGamesPlayed": "Podaj rozegrane mecze drużyny",
+      "leaderWins": "Wpisz zwycięstwa lidera",
+      "leaderLosses": "Podaj straty lidera",
+      "leaderGamesPlayed": "Podaj rozegrane partie lidera",
+      "totalGames": "Wprowadź całkowitą liczbę meczów w sezonie (domyślnie: 162 dla MLB)"
+    },
+    "buttons": {
+      "calculate": "Oblicz magiczną liczbę",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "magicNumber": "Magiczna liczba",
+    "eliminationNumber": "Numer eliminacji",
+    "gamesBehind": "Gry za liderem",
+    "playoffScenario": "Scenariusz play-offów",
+    "mathematicalCertainty": "Pewność matematyczna"
+  },
+  "educational": {
+    "magicInfo": "Informacje o magicznych liczbach",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby sportowe",
+    "magicFacts": {
+      "definition": {
+        "title": "Definicja magicznej liczby",
+        "description": "Liczba dodatkowych zwycięstw drużyny prowadzącej lub porażek drużyny goniącej potrzebna do zapewnienia sobie miejsca w fazie play-off"
+      },
+      "formula": {
+        "title": "Wzór obliczeniowy",
+        "description": "Magiczna liczba = (Całkowita liczba gier + 1) - (Zwycięstwa lidera + Straty ścigającego)"
+      },
+      "interpretation": {
+        "title": "Interpretacja scenariusza",
+        "description": "Kiedy magiczna liczba osiągnie zero, zespół matematycznie zapewnił sobie miejsce w fazie play-off"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator umożliwia wyłącznie obliczenia liczb magicznych",
+      "actual": "Na rzeczywiste scenariusze play-offów mogą mieć wpływ zasady rozstrzygania remisów i wyniki bezpośrednich spotkań"
+    },
+    "importantNotesList": [
+      "Liczba magiczna maleje wraz z każdą wygraną lidera lub przegraną ścigającego",
+      "Magiczna liczba 1 oznacza, że ​​zespół może zakończyć mecz jeszcze jednym zwycięstwem lub korzystnym wynikiem",
+      "Scenariusze rozstrzygające remis mogą wymagać dodatkowych rozważań",
+      "Liczba magiczna jest powszechnie używana w baseballu, koszykówce i hokeju"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź rekordy drużyny i informacje o sezonie, aby obliczyć magiczną liczbę",
+    "resultMessage": "Wyniki obliczenia magicznej liczby pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia magicznej liczby:",
+    "magicAnalysis": "Analiza liczb magicznych"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia obliczenia liczb magicznych w oparciu o standardowe formuły matematyki sportowej. Na rzeczywiste scenariusze play-offów mogą mieć wpływ zasady rozstrzygania remisów, wyniki bezpośrednich spotkań i inne czynniki nieuwzględnione w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby sportowe",
+    "content": "Aby uzyskać kompleksową analizę rankingów sportowych i scenariusze play-offów, odwiedź oficjalne strony ligowe, źródła wiadomości sportowych lub profesjonalnych analityków sportowych."
+  },
+  "errors": {
+    "teamWins": "Proszę podać prawidłową liczbę zwycięstw drużynowych",
+    "teamLosses": "Proszę podać prawidłową liczbę porażek drużyny",
+    "teamGamesPlayed": "Proszę podać prawidłową liczbę rozegranych gier zespołowych",
+    "leaderWins": "Wprowadź prawidłową liczbę zwycięstw lidera",
+    "leaderLosses": "Proszę wprowadzić poprawną liczbę strat lidera",
+    "leaderGamesPlayed": "Wprowadź prawidłową liczbę rozegranych gier liderów",
+    "totalGames": "Proszę podać poprawną łączną liczbę meczów w sezonie"
+  },
+  "tooltips": {
+    "teamWins": "Liczba zwycięstw drużyny walczącej o miejsce w fazie play-off",
+    "teamLosses": "Liczba porażek drużyny walczącej o miejsce w fazie play-off",
+    "teamGamesPlayed": "Całkowita liczba gier rozegranych przez drużynę goniącą",
+    "leaderWins": "Liczba zwycięstw drużyny prowadzącej dywizję lub dzika karta",
+    "leaderLosses": "Liczba porażek drużyny prowadzącej dywizję lub dzika karta",
+    "leaderGamesPlayed": "Łączna liczba meczów rozegranych przez drużynę prowadzącą",
+    "totalGames": "Całkowita liczba meczów w sezonie (np. 162 w MLB, 82 w NHL)"
+  },
+  "team_season_statistics_0": "Statystyki drużyn i sezonów",
+  "enter_your_teams_wins_rivals_losses_and_total_game_1": "Wpisz zwycięstwa swojej drużyny, porażki rywali i łączną liczbę meczów w sezonie",
+  "mlb_season_162_games_2": "Sezon MLB (162 mecze)",
+  "automatically_sets_total_games_to_162_3": "Automatycznie ustawia całkowitą liczbę gier na 162",
+  "total_games_in_season_tg_4": "Całkowita liczba gier w sezonie (TG)",
+  "total_games_in_the_season_162_for_mlb_5": "Całkowita liczba meczów w sezonie (162 dla MLB)",
+  "wins_of_your_team_w_6": "Zwycięstwa Twojej drużyny (Wₜ)",
+  "current_wins_by_your_team_7": "Aktualne zwycięstwa Twojej drużyny",
+  "losses_of_closest_rival_l_8": "Straty najbliższego rywala (Lₒ)",
+  "current_losses_by_your_closest_rival_9": "Aktualne straty najbliższego rywala",
+  "formula_10": "Formuła:",
+  "magic_number_tg_w_l_1_11": "Magiczna liczba = TG - Wₜ - Lₒ + 1",
+  "lower_magic_number_means_closer_to_clinching_12": "Niższa liczba magiczna oznacza bliżej klinczowania",
+  "calculate_number_13": "Oblicz liczbę",
+  "reset_14": "Nastawić",
+  "magic_number_15": "Magiczna liczba",
+  "magic_number_16": "Magiczna liczba",
+  "enter_team_statistics_and_click_17": "Wprowadź statystyki zespołu i kliknij",
+  "calculate_18": "Obliczać",
+  "to_see_the_magic_number_19": "aby zobaczyć magiczną liczbę.",
+  "detailed_magic_number_breakdown_20": "Szczegółowy podział magicznych liczb",
+  "magic_number_21": "Magiczna liczba",
+  "total_games_22": "Totalne gry",
+  "season_length_23": "Długość sezonu",
+  "team_wins_24": "Zespół wygrywa",
+  "current_wins_25": "Aktualne wygrane",
+  "rival_losses_26": "Straty rywali",
+  "current_losses_27": "Bieżące straty",
+  "calculation_steps_28": "Kroki obliczeń:",
+  "formula_29": "Formuła:",
+  "magic_number_tg_w_l_1_30": "Magiczna liczba = TG - Wₜ - Lₒ + 1",
+  "calculation_31": "Obliczenie:",
+  "k_1_32": "+\n                          1 =",
+  "result_33": "Wynik:",
+  "dynamic_scenarios_34": "Scenariusze dynamiczne:",
+  "if_your_team_wins_35": "• Jeśli Twoja drużyna wygra",
+  "more_games_you_will_clinch_36": "więcej gier, zwyciężysz",
+  "if_your_rival_loses_37": "• Jeśli Twój rywal przegra",
+  "more_games_you_will_clinch_38": "więcej gier, zwyciężysz",
+  "any_combination_of_39": "• Dowolna kombinacja",
+  "team_wins_rival_losses_clinch_40": "zwycięstwa drużyny + porażki rywali = klincz",
+  "understanding_magic_numbers_41": "Zrozumienie magicznych liczb",
+  "what_is_a_magic_number_42": "Co to jest magiczna liczba?",
+  "the_magic_number_shows_how_many_combined_wins_by_y_43": "Magiczna liczba pokazuje, ile jest łącznie zwycięstw Twojej drużyny lub porażek najbliższego rywala\n                        potrzebne do zdobycia tytułu mistrza ligi lub miejsca w play-offach. To prosta, ale potężna statystyka\n                        pomaga fanom i zespołom śledzić, jak blisko są zapewnienia sobie kwalifikacji.",
+  "how_it_works_44": "Jak to działa",
+  "every_win_by_your_team_reduces_the_magic_number_by_45": "Każde zwycięstwo Twojej drużyny zmniejsza Magic Number o 1",
+  "every_loss_by_your_rival_reduces_the_magic_number__46": "Każda porażka rywala zmniejsza magiczną liczbę o 1",
+  "magic_number_0_means_youve_clinched_47": "Magiczna liczba = 0 oznacza, że ​​zakwalifikowałeś się",
+  "magic_number_1_means_one_final_push_needed_48": "Magiczna liczba = 1 oznacza, że ​​potrzebne jest jedno ostatnie pchnięcie",
+  "sample_calculation_49": "Przykładowe obliczenia",
+  "example_50": "Przykład:",
+  "mlb_season_51": "Sezon MLB",
+  "total_games_162_52": "Razem gry: 162",
+  "team_wins_96_53": "Zwycięstwa drużyny: 96",
+  "rival_losses_62_54": "Straty rywali: 62",
+  "calculation_55": "Obliczenie:",
+  "magic_number_162_96_62_1_56": "Magiczna liczba = 162 - 96 - 62 + 1",
+  "magic_number_5_57": "Magiczna liczba = 5",
+  "any_combination_of_5_more_wins_by_your_team_or_5_m_58": "Dowolna kombinacja 5 kolejnych zwycięstw Twojej drużyny LUB 5 dodatkowych porażek Twojego rywala zapewni zwycięstwo\n                          podział."
+}

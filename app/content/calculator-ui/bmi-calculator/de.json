@@ -1,0 +1,165 @@
+{
+  "pageTitle": "BMI-Rechner",
+  "pageDescription": "Berechnen Sie Ihren Body-Mass-Index und verstehen Sie Ihren Gewichtsstatus mit unserem umfassenden BMI-Rechner",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "height": "Höhe",
+      "weight": "Gewicht",
+      "unitSystem": "Einheitensystem"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den BMI",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    }
+  },
+  "results": {
+    "bmiValue": "BMI kg/m²",
+    "classification": "Einstufung",
+    "healthyRange": "Gesundes Sortiment",
+    "bmiResultsTitle": "BMI-Ergebnisse",
+    "bmiFormula": {
+      "label": "BMI-Formel",
+      "us": "BMI = (Gewicht in Pfund / (Größe in Zoll)²) × 703",
+      "metric": "BMI = Gewicht in kg / (Körpergröße in Metern)²"
+    },
+    "healthyBmiRange": "Gesunder BMI-Bereich: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "bmiInfo": "BMI-Informationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Konsultieren Sie einen Fachmann",
+    "bmiClassifications": {
+      "underweight": {
+        "title": "Untergewicht",
+        "description": "BMI < 18,5"
+      },
+      "normal": {
+        "title": "Normalgewicht",
+        "description": "BMI 18,5 – 24,9"
+      },
+      "overweight": {
+        "title": "Übergewicht",
+        "description": "BMI 25 – 29,9"
+      },
+      "obese": {
+        "title": "Fettleibig",
+        "description": "BMI 30 – 39,9"
+      },
+      "extremelyObese": {
+        "title": "Extrem fettleibig",
+        "description": "BMI ≥ 40"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Diagnosetool",
+      "individualVariation": "Der BMI spiegelt die Körperzusammensetzung von Sportlern oder Personen mit hoher Muskelmasse möglicherweise nicht genau wider"
+    },
+    "importantNotesList": [
+      "Der BMI ist ein Screening-Instrument und kein diagnostisches Maß für den Körperfettanteil",
+      "Für Kinder und Jugendliche (≤20 Jahre) verwenden Sie CDC-Wachstumsdiagramme",
+      "Für eine individuelle Beratung wenden Sie sich an medizinisches Fachpersonal",
+      "Berücksichtigen Sie neben dem BMI auch andere Gesundheitskennzahlen, um ein vollständiges Bild zu erhalten"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "gilt als gesunder BMI-Bereich für Erwachsene.",
+      "association": "Dieser Bereich ist mit dem geringsten Risiko für Gesundheitsprobleme und Mortalität verbunden."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Geben Sie Ihre Maße ein, um Ihren BMI zu berechnen",
+    "bmiResult": "Ihr BMI beträgt {bmi} kg/m²",
+    "classificationResult": "Klassifizierung: {classification}",
+    "ageWarning": "Verwenden Sie für Kinder und Jugendliche (≤20 Jahre) pädiatrische Wachstumstabellen",
+    "assessmentResult": "Bewertungsergebnis:",
+    "bmiAnalysis": "BMI-Analyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen auf der Grundlage mathematischer Formeln und sollte nicht als Ersatz für eine professionelle medizinische Beratung verwendet werden. Einzelne Ergebnisse können aufgrund von Faktoren, die in diesen Berechnungen nicht berücksichtigt wurden, variieren."
+  },
+  "seekHelp": {
+    "title": "Konsultieren Sie einen Arzt",
+    "content": "Wenn Sie Bedenken hinsichtlich Ihres Gewichts oder Ihrer Gesundheit haben, wenden Sie sich bitte an einen Arzt, der Sie auf der Grundlage Ihrer vollständigen Krankengeschichte und Ihrer individuellen Umstände individuell beraten kann."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein"
+  },
+  "tooltips": {
+    "age": "Das Alter kann die BMI-Interpretation für Kinder/Jugendliche beeinflussen",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "gender": "Das Geschlecht kann die Interpretation des BMI beeinflussen"
+  },
+  "k_16_0": "16",
+  "k_17_1": "17",
+  "k_185_2": "18.5",
+  "k_25_3": "25",
+  "k_30_4": "30",
+  "k_35_5": "35",
+  "k_40_6": "40",
+  "underweight_7": "Untergewicht",
+  "normal_8": "Normal",
+  "overweight_9": "Übergewicht",
+  "obesity_10": "Fettleibigkeit",
+  "bmi_calculator_11": "BMI-Rechner",
+  "modify_the_values_and_click_the_calculate_button_t_12": "Ändern Sie die Werte und klicken Sie zur Verwendung auf die Schaltfläche „Berechnen“.",
+  "age_13": "Alter",
+  "ages_2_120_14": "Alter: 2 - 120",
+  "gender_15": "Geschlecht",
+  "male_16": "Männlich",
+  "female_17": "Weiblich",
+  "other_18": "Andere",
+  "height_19": "Höhe",
+  "cm_20": "cm",
+  "m_21": "m",
+  "ft_22": "ft",
+  "in_23": "In",
+  "weight_24": "Gewicht",
+  "kg_25": "kg",
+  "g_26": "g",
+  "lbs_27": "Pfund",
+  "oz_28": "oz",
+  "st_29": "st",
+  "calculate_30": "Berechnen",
+  "result_31": "Ergebnis",
+  "save_this_calculation_32": "Speichern Sie diese Berechnung",
+  "bmi_33": "BMI =",
+  "kgm_34": "kg/m²",
+  "bmi_35": "BMI =",
+  "bmi_scale_36": "BMI-Skala",
+  "detailed_results_37": "Detaillierte Ergebnisse",
+  "bmi_38": "BMI:",
+  "kgm_39": "kg/m²",
+  "healthy_bmi_range_40": "Gesunder BMI-Bereich:",
+  "k_185_kgm_25_kgm_41": "18,5 kg/m² - 25 kg/m²",
+  "healthy_weight_for_height_42": "Gesundes Gewicht für Körpergröße:",
+  "kg_43": "kg",
+  "bmi_prime_44": "BMI Prime:",
+  "ponderal_index_45": "Ponderal-Index:",
+  "kgm_46": "kg/m³",
+  "body_surface_area_47": "Körperoberfläche:",
+  "m_48": "m²",
+  "save_this_calculation_49": "Speichern Sie diese Berechnung",
+  "enter_your_details_to_calculate_your_bmi_50": "Geben Sie Ihre Daten ein, um Ihren BMI zu berechnen"
+}

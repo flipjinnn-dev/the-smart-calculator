@@ -1,0 +1,189 @@
+{
+  "pageTitle": "Calculadora Financeira",
+  "pageDescription": "Calcule finanças com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular Finanças",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo financeiro"
+  },
+  "educational": {
+    "info": "Informações financeiras",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de Finanças",
+        "description": "Informações sobre finanças"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como o financiamento é calculado"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos de finanças"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas financeiras",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular o financiamento",
+    "resultMessage": "Os resultados do seu cálculo financeiro são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo financeiro:",
+    "analysis": "Análise Financeira"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas financeiras baseadas em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "tvm_variables_0": "Variáveis ​​TVM",
+  "enter_4_values_to_solve_for_1": "Insira 4 valores para resolver",
+  "what_do_you_want_to_calculate_2": "O que você deseja calcular?",
+  "present_value_pv_3": "Valor Presente (VP)",
+  "future_value_fv_4": "Valor Futuro (FV)",
+  "payment_pmt_5": "Pagamento (PMT)",
+  "interest_rate_iy_6": "Taxa de juros (I/Y)",
+  "number_of_periods_n_7": "Número de períodos (N)",
+  "select_the_variable_you_want_to_solve_for_then_ent_8": "Selecione a variável que deseja resolver e insira os outros 4 valores",
+  "present_value_pv_9": "Valor Presente (VP)",
+  "lump_sum_at_start_negative_for_outflow_10": "Montante fixo no início (negativo para saída)",
+  "future_value_fv_11": "Valor Futuro (FV)",
+  "lump_sum_at_end_12": "Montante fixo no final",
+  "payment_pmt_13": "Pagamento (PMT)",
+  "recurring_payment_negative_for_withdrawal_14": "Pagamento recorrente (negativo para saque)",
+  "interest_rate_iy_15": "Taxa de juros (I/Y)",
+  "annual_interest_rate_16": "Taxa de juros anual (%)",
+  "number_of_periods_n_17": "Número de períodos (N)",
+  "total_compounding_periods_18": "Períodos compostos totais",
+  "settings_19": "Configurações",
+  "payments_per_year_py_20": "Pagamentos por ano (P/Y)",
+  "k_1_annual_21": "1 (anual)",
+  "k_2_semiannual_22": "2 (Semestral)",
+  "k_4_quarterly_23": "4 (trimestralmente)",
+  "k_12_monthly_24": "12 (mensal)",
+  "k_52_weekly_25": "52 (semanal)",
+  "k_365_daily_26": "365 (diário)",
+  "compounds_per_year_cy_27": "Compostos por Ano (C/Y)",
+  "k_1_annual_28": "1 (anual)",
+  "k_2_semiannual_29": "2 (Semestral)",
+  "k_4_quarterly_30": "4 (trimestralmente)",
+  "k_12_monthly_31": "12 (mensal)",
+  "k_52_weekly_32": "52 (semanal)",
+  "k_365_daily_33": "365 (diariamente)",
+  "payment_timing_34": "Prazo de pagamento",
+  "of_period_35": "do Período",
+  "calculate_36": "Calcular",
+  "reset_37": "Reiniciar",
+  "tvm_result_38": "Resultado TVM",
+  "total_payments_39": "Total de pagamentos",
+  "total_interest_40": "Juros totais",
+  "select_what_to_calculate_enter_4_values_then_click_41": "Selecione o que calcular, insira 4 valores e clique em Calcular e resolver o 5º.",
+  "tvm_calculation_results_42": "Resultados do cálculo TVM",
+  "calculated_variable_43": "Variável calculada",
+  "payment_summary_44": "Resumo de pagamento",
+  "total_payments_45": "Pagamentos totais:",
+  "payment_frequency_46": "Frequência de pagamento:",
+  "x_per_year_47": "x por ano",
+  "payment_timing_48": "Prazo de pagamento:",
+  "of_period_49": "do período",
+  "interest_summary_50": "Resumo de interesse",
+  "total_interest_51": "Juros totais:",
+  "compound_frequency_52": "Frequência Composta:",
+  "x_per_year_53": "x por ano",
+  "complete_tvm_summary_54": "Resumo completo do TVM",
+  "final_values_55": "Valores Finais",
+  "pv_present_value_56": "VP (Valor Presente):",
+  "fv_future_value_57": "VF (valor futuro):",
+  "pmt_payment_58": "PMT (pagamento):",
+  "iy_interest_rate_59": "I/Y (taxa de juros):",
+  "n_periods_60": "N (Períodos):",
+  "settings_used_61": "Configurações usadas",
+  "payments_per_year_62": "Pagamentos por ano:",
+  "compounds_per_year_63": "Compostos por ano:",
+  "payment_timing_64": "Prazo de pagamento:",
+  "of_period_65": "do período",
+  "effective_rate_per_period_66": "Taxa efetiva por período:",
+  "tvm_formula_used_67": "Fórmula TVM usada:",
+  "pv_1_iycyn_pmt_1_iycyn_1_iycy_1_iycy_fv_68": "PV × (1 + I/Y/C/Y)^N + PMT × [((1 + I/Y/C/Y)^N - 1) / (I/Y/C/Y)] × (1 + I/Y/C/Y × δ) = FV",
+  "where_69": "Onde δ =",
+  "of_period_payments_70": "de pagamentos do período)",
+  "understanding_time_value_of_money_71": "Compreendendo o valor do dinheiro no tempo",
+  "tvm_variables_72": "Variáveis ​​TVM",
+  "pv_present_value_73": "VP (Valor Presente):",
+  "current_worth_of_future_cash_flows_74": "Valor atual dos fluxos de caixa futuros",
+  "fv_future_value_75": "VF (valor futuro):",
+  "value_of_investment_at_end_of_period_76": "Valor do investimento no final do período",
+  "pmt_payment_77": "PMT (pagamento):",
+  "regular_payment_amount_annuity_78": "Valor do pagamento regular (anuidade)",
+  "iy_interest_rate_79": "I/Y (taxa de juros):",
+  "annual_interest_rate_as_percentage_80": "Taxa de juros anual como porcentagem",
+  "n_periods_81": "N (Períodos):",
+  "total_number_of_compounding_periods_82": "Número total de períodos compostos",
+  "key_concepts_83": "Conceitos-chave",
+  "compounding_84": "Composição:",
+  "interest_earned_on_interest_85": "Juros ganhos sobre juros",
+  "regular_contributions_86": "Contribuições Regulares:",
+  "consistent_periodic_payments_87": "Pagamentos periódicos consistentes",
+  "time_horizon_88": "Horizonte de tempo:",
+  "length_of_investment_period_89": "Duração do período de investimento",
+  "risk_vs_return_90": "Risco versus Retorno:",
+  "higher_returns_often_mean_higher_risk_91": "Retornos mais altos geralmente significam maior risco",
+  "example_calculation_92": "Exemplo de cálculo",
+  "scenario_retirement_savings_93": "Cenário: Poupança para Aposentadoria",
+  "pv_20000_initial_investment_94": "VP = $ 20.000 (investimento inicial)",
+  "pmt_2000_annual_contribution_95": "PMT = -$2.000 (contribuição anual)",
+  "iy_6_annual_return_96": "I/Y = 6% (retorno anual)",
+  "n_10_years_97": "N = 10 anos",
+  "py_cy_1_annual_98": "P/Y = C/Y = 1 (anual)",
+  "result_fv_62317_99": "Resultado: VF ≈ US$ 62.317",
+  "sign_conventions_100": "Convenções de assinatura",
+  "positive_101": "Positivo:",
+  "money_received_inflows_102": "Dinheiro recebido (entradas)",
+  "negative_103": "Negativo:",
+  "money_paid_out_outflows_104": "Dinheiro pago (saídas)",
+  "pv_105": "VP:",
+  "negative_if_you_invest_money_106": "Negativo se você investir dinheiro",
+  "pmt_107": "PMT:",
+  "negative_if_you_make_payments_108": "Negativo se você fizer pagamentos"
+}

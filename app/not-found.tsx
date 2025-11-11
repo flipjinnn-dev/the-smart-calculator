@@ -2,27 +2,10 @@ import Link from "next/link"
 import { Home, Calculator, Search } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import Logo from "@/components/logo"
 
 export default function NotFound() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-3">
-              <Logo />
-              <div>
-                <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
-                  Smart Calculator
-                </Link>
-                <p className="text-sm text-gray-600">Page Not Found</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
 
       {/* 404 Content */}
       <main className="py-16 px-4 sm:px-6 lg:px-8">

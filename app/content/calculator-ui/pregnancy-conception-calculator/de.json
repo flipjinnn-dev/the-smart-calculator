@@ -1,0 +1,93 @@
+{
+  "pageTitle": "Schwangerschafts-Empfängnis-Rechner",
+  "pageDescription": "Berechnen Sie die Schwangerschaftskonzeption mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Schwangerschaftskonzeption",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Berechnung der Schwangerschaftskonzeption"
+  },
+  "educational": {
+    "info": "Informationen zur Schwangerschaftskonzeption",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Definition der Schwangerschaftskonzeption",
+        "description": "Informationen zur Schwangerschaftskonzeption"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "So wird die Schwangerschaftskonzeption berechnet"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendungsmöglichkeiten der Schwangerschaftskonzeption"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Schwangerschaftskonzeption",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um die Schwangerschaftskonzeption zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Schwangerschafts-Empfängnis-Berechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Berechnung der Schwangerschaftskonzeption:",
+    "analysis": "Analyse der Schwangerschaftskonzeption"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Schwangerschaftskonzeption basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt sind, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "pregnancy_conception_calculator_0": "Schwangerschafts-Empfängnis-Rechner",
+  "modify_the_values_and_click_the_calculate_button_t_1": "Ändern Sie die Werte und klicken Sie zur Verwendung auf die Schaltfläche „Berechnen“.",
+  "calculate_on_2": "Berechnen Sie weiter",
+  "your_date_3": "Ihr Datum",
+  "calculate_4": "Berechnen",
+  "conception_info_5": "Informationen zur Empfängnis",
+  "your_conception_and_pregnancy_milestones_6": "Ihre Meilensteine ​​der Empfängnis und Schwangerschaft",
+  "conception_date_7": "Konzeptionsdatum:",
+  "due_date_8": "Fälligkeitsdatum:",
+  "last_period_date_9": "Datum der letzten Periode:",
+  "weeks_since_conception_10": "Wochen seit der Empfängnis:",
+  "days_since_conception_11": "Tage seit der Empfängnis:",
+  "enter_your_date_and_click_calculate_see_your_conce_12": "Geben Sie Ihr Datum ein und klicken Sie auf „Berechnen“, um die Meilensteine ​​Ihrer Empfängnis zu sehen"
+}

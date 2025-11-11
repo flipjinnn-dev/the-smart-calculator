@@ -1,0 +1,107 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator tempa biegu?",
+      "content": "Nasz kalkulator tempa biegu ułatwia obliczenie tempa biegu online dla dowolnego dystansu i czasu. Niezależnie od tego, czy trenujesz do biegu na 5 km, 10 km, półmaratonu, maratonu, czy po prostu biegasz dla celów fitness, to bezpłatne narzędzie pomoże Ci z łatwością śledzić tempo na milę lub tempo na km."
+    },
+    {
+      "heading": "Jak obliczyć tempo biegu",
+      "content": "Tempo biegu to czas potrzebny na pokonanie jednej mili lub jednego kilometra. Wzór jest prosty: Tempo = Całkowity czas ÷ Dystans. Na przykład: jeśli przebiegniesz 5 km w 25 minut, Twoje tempo wyniesie 5:00 min/km (lub 8:03 min/milę). Jeśli przebiegniesz maraton (42,2 km) w 4 godziny, Twoje tempo wyniesie 5:41 min/km. To narzędzie automatycznie oblicza tę wartość zarówno w jednostkach metrycznych (km/min), jak i imperialnych (mile/min)."
+    },
+    {
+      "heading": "Dlaczego tempo biegu ma znaczenie",
+      "subSections": [
+        {
+          "heading": "Planowanie wyścigu",
+          "content": "Pomaga w ustalaniu tempa biegów na 5 km, 10 km, półmaratonu i maratonu."
+        },
+        {
+          "heading": "Strefy Treningowe",
+          "content": "Służy do ustawiania łatwych biegów, biegów tempowych i treningów interwałowych."
+        },
+        {
+          "heading": "Śledzenie postępu",
+          "content": "Porównaj tempo joggingu z tempem wyścigu w czasie."
+        },
+        {
+          "heading": "Tempo chodzenia",
+          "content": "Oszacuj czas chodzenia w celach fitness lub pieszych wędrówek."
+        }
+      ]
+    },
+    {
+      "heading": "Tempo biegu a prędkość – jaka jest różnica?",
+      "content": "Tempo = minuty na km lub minuty na milę (im wolniej, tym większa liczba). Prędkość = dystans na godzinę (km/h lub mph). Nasz kalkulator działa zarówno jako kalkulator tempa, jak i przelicznik prędkości biegowej na tempo."
+    },
+    {
+      "heading": "Średnie tempo biegu i przykłady treningów",
+      "content": "Oto jak tempo wygląda w przypadku typowych wydarzeń:",
+      "subSections": [
+        {
+          "heading": "5 tys",
+          "content": "Czas zakończenia: 25:00 | Tempo: 5:00 min/km | 8:03 min/milę"
+        },
+        {
+          "heading": "10 tys",
+          "content": "Czas zakończenia: 50:00 | Tempo: 5:00 min/km | 8:03 min/milę"
+        },
+        {
+          "heading": "Półmaraton",
+          "content": "Czas zakończenia: 2:00:00 | Tempo: 5:41 min/km | 9:09 min/milę"
+        },
+        {
+          "heading": "Maraton",
+          "content": "Czas zakończenia: 4:00:00 | Tempo: 5:41 min/km | 9:09 min/milę"
+        }
+      ]
+    },
+    {
+      "heading": "Strefy treningowe z kalkulatorem tempa",
+      "subSections": [
+        {
+          "heading": "Łatwe tempo biegu",
+          "content": "60–75% wysiłku, tempo konwersacji."
+        },
+        {
+          "heading": "Tempo tempa",
+          "content": "Wygodnie twardy, trwały przez 20–40 minut."
+        },
+        {
+          "heading": "Tempo maratonu",
+          "content": "Tempo docelowe dla wyścigu na dystansie 26,2 mili."
+        },
+        {
+          "heading": "Tempo interwałowe",
+          "content": "Szybsze wysiłki w treningu szybkości."
+        },
+        {
+          "heading": "Kalkulator tempa biegu AI",
+          "content": "Pomaga ustawić realistyczne strefy treningowe na podstawie czasu ostatniego wyścigu."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jakie jest dobre tempo biegu dla początkujących?",
+      "a": "Dobre tempo początkowe to 7:00–9:00 min/km (11–14 min/milę), w zależności od poziomu sprawności."
+    },
+    {
+      "q": "Jakie jest tempo w milach przy 5 min/km?",
+      "a": "Jest to około 8:03 min/mila lub 12 km/h (7,5 mph)."
+    },
+    {
+      "q": "Jak obliczyć tempo, jeśli przebiegnę 10 km w 55 minut?",
+      "a": "Podziel 55 przez 10 → 5:30 min/km (8:51 min/mila)."
+    },
+    {
+      "q": "Czy mogę używać tego do tempa chodzenia lub joggingu?",
+      "a": "Tak, działa to w przypadku tempa chodzenia, tempa joggingu i tempa biegu zarówno w km, jak i milach."
+    },
+    {
+      "q": "Jaka jest różnica między kalkulatorem tempa wyścigowego a kalkulatorem tempa joggingu?",
+      "a": "Kalkulator tempa wyścigu pomaga przewidzieć podziały wyścigów w zawodach, a kalkulator tempa joggingu jest przydatny do codziennego śledzenia kondycji."
+    }
+  ]
+}

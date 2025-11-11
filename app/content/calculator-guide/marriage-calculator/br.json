@@ -1,0 +1,117 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Entenda seu impacto fiscal com nossa calculadora de casamento",
+      "content": "Casar é emocionante, mas também envolve decisões financeiras importantes. Nossa Calculadora de Casamento ajuda você a entender o impacto fiscal do casamento, mostrando como seu status de registro, renda combinada e deduções podem afetar seus impostos. Se você está curioso sobre uma penalidade de imposto de casamento, um potencial bônus de imposto de casamento ou como a renda tributável após o casamento pode mudar, esta ferramenta simplifica o processo e permite que você planeje com antecedência."
+    },
+    {
+      "heading": "Como funciona a calculadora de casamento",
+      "content": "Usar nossa calculadora é rápido e fácil:",
+      "subSections": [
+        {
+          "heading": "Insira sua renda",
+          "content": "Inclua sua renda anual e a renda de seu cônjuge."
+        },
+        {
+          "heading": "Selecione seu status de arquivamento",
+          "content": "Escolha entre declaração de casamento em conjunto ou declaração de casamento separadamente."
+        },
+        {
+          "heading": "Incluir deduções",
+          "content": "Considere as deduções, como a dedução padrão para casais."
+        },
+        {
+          "heading": "Ver resultados",
+          "content": "Obtenha uma estimativa clara de seus impostos, economias potenciais e consequências fiscais do casamento."
+        }
+      ]
+    },
+    {
+      "heading": "Principais conceitos fiscais para casais casados",
+      "content": "Compreender os principais conceitos fiscais é crucial para maximizar os benefícios:",
+      "subSections": [
+        {
+          "heading": "Arquivando em conjunto ou separadamente",
+          "content": "A apresentação conjunta resulta frequentemente em taxas de imposto mais baixas e mais créditos, enquanto a apresentação separada pode levar a taxas de imposto mais elevadas e menos deduções."
+        },
+        {
+          "heading": "Dedução padrão para casais casados",
+          "content": "Em 2025, as regras do IRS fornecem uma dedução padrão mais elevada ao registrar em conjunto."
+        },
+        {
+          "heading": "Suportes fiscais para casais casados",
+          "content": "Sua renda combinada determina quais faixas de impostos se aplicam, afetando sua responsabilidade fiscal geral."
+        },
+        {
+          "heading": "Penalidade fiscal de casamento versus bônus",
+          "content": "Uma penalidade ocorre quando a renda combinada o empurra para uma faixa mais alta, enquanto um bônus ocorre se a declaração conjunta o qualificar para taxas de imposto mais baixas."
+        },
+        {
+          "heading": "Impacto na declaração fiscal",
+          "content": "As alterações de status de arquivamento, deduções e créditos influenciam o rendimento tributável após o casamento."
+        }
+      ]
+    },
+    {
+      "heading": "Dicas práticas sobre impostos para recém-casados",
+      "content": "Estratégias úteis para casais recém-casados:",
+      "subSections": [
+        {
+          "heading": "Planeje com antecedência",
+          "content": "Use nossa calculadora de imposto de renda e casamento para estimar seus impostos antes de declarar."
+        },
+        {
+          "heading": "Considere o planejamento tributário",
+          "content": "Ajuste as retenções e as contribuições para a aposentadoria para otimizar as poupanças."
+        },
+        {
+          "heading": "Acompanhar deduções",
+          "content": "Inclui deduções para casais, como juros de hipotecas, créditos educacionais ou despesas com cuidados infantis."
+        },
+        {
+          "heading": "Use software fiscal",
+          "content": "O software de declaração de impostos para casais pode simplificar os cálculos e garantir a precisão."
+        },
+        {
+          "heading": "Fique por dentro dos prazos",
+          "content": "Conheça os prazos de declaração de impostos para casais casados ​​para evitar penalidades."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de imposto sobre casamento?",
+      "a": "Uma calculadora de impostos sobre casamento estima sua responsabilidade fiscal após o casamento, levando em consideração sua renda combinada, status de registro e deduções."
+    },
+    {
+      "q": "Como a declaração conjunta ou separada afeta os impostos?",
+      "a": "A apresentação conjunta muitas vezes proporciona benefícios fiscais, tais como taxas mais baixas e deduções maiores, enquanto a apresentação separada pode limitar os créditos e aumentar a responsabilidade fiscal."
+    },
+    {
+      "q": "O que é uma penalidade fiscal para o casamento?",
+      "a": "Ocorre quando a combinação de rendimentos empurra um casal para uma faixa de impostos mais elevada, resultando em impostos mais elevados do que se eles declarassem individualmente."
+    },
+    {
+      "q": "O que é um bônus fiscal de casamento?",
+      "a": "Um bônus acontece quando o arquivamento conjunto reduz sua taxa geral de imposto, economizando dinheiro em comparação com o arquivamento separado."
+    },
+    {
+      "q": "Como os recém-casados ​​podem otimizar seus impostos?",
+      "a": "Ajustando retenções, rastreando deduções, planejando contribuições e usando software fiscal para precisão."
+    },
+    {
+      "q": "Quais são as deduções padrão para casais em 2025?",
+      "a": "A dedução padrão para casais que fazem o pedido em conjunto em 2025 é maior do que para quem faz o pedido único, reduzindo o rendimento tributável e os impostos."
+    },
+    {
+      "q": "Quais são as opções de declaração de impostos para casais?",
+      "a": "As opções de depósito incluem depósito de casamento em conjunto ou pedido de casamento separadamente, cada um com diferentes prós e contras."
+    },
+    {
+      "q": "Como um estimador conjunto de declarações fiscais pode ajudar?",
+      "a": "Ele fornece uma visão clara de sua renda tributável após o casamento, ajudando você a identificar economias potenciais e a planejar as implicações fiscais do casamento em 2025."
+    }
+  ]
+}

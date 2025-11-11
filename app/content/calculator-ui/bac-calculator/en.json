@@ -1,0 +1,213 @@
+{
+  "pageTitle": "Blood Alcohol Content (BAC) Calculator",
+  "pageDescription": "Estimate your blood alcohol content (BAC) based on drinks consumed, weight, gender, and time",
+  "form": {
+    "labels": {
+      "gender": "Gender",
+      "weight": "Weight",
+      "unitSystem": "Unit System",
+      "drinks": "Number of Drinks",
+      "drinkType": "Drink Type",
+      "hoursDrinking": "Hours of Drinking",
+      "hoursElapsed": "Hours Since First Drink"
+    },
+    "placeholders": {
+      "weight": "Enter weight in {unit}",
+      "drinks": "Number of drinks consumed",
+      "hoursDrinking": "Hours spent drinking",
+      "hoursElapsed": "Hours since first drink"
+    },
+    "buttons": {
+      "calculate": "Calculate BAC",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (lb)",
+      "metric": "Metric Units (kg)"
+    },
+    "drinkTypes": {
+      "beer": "Beer (12 oz, 5% alcohol)",
+      "wine": "Wine (5 oz, 12% alcohol)",
+      "liquor": "Liquor (1.5 oz, 40% alcohol)",
+      "custom": "Custom Alcohol Content"
+    }
+  },
+  "results": {
+    "bacValue": "Blood Alcohol Content",
+    "bacPercentage": "BAC Percentage",
+    "legalLimit": "Legal Limit",
+    "bacResultsTitle": "BAC Results",
+    "bacFormula": {
+      "label": "BAC Formula",
+      "standard": "BAC = (Alcohol Consumed in grams / (Body Weight in grams × Gender Constant)) × 100 - (Hours Elapsed × Metabolism Rate)"
+    },
+    "legalLimitInfo": "Legal driving limit in most US states: 0.08%"
+  },
+  "educational": {
+    "bacInfo": "Blood Alcohol Content Information",
+    "criticalWarnings": "Critical Warnings",
+    "importantNotes": "Important Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Seek Immediate Help",
+    "bacEffects": {
+      "sober": {
+        "title": "0.00% - Sober",
+        "description": "No impairment"
+      },
+      "buzzed": {
+        "title": "0.01% - 0.05% - Buzzed",
+        "description": "Mild euphoria and impairment"
+      },
+      "tipsy": {
+        "title": "0.06% - 0.10% - Tipsy",
+        "description": "Impaired judgment and coordination"
+      },
+      "drunk": {
+        "title": "0.11% - 0.20% - Drunk",
+        "description": "Significantly impaired motor control"
+      },
+      "veryDrunk": {
+        "title": "0.21% - 0.29% - Very Drunk",
+        "description": "Confusion, dizziness, possible blackouts"
+      },
+      "dangerous": {
+        "title": "0.30%+ - Dangerous",
+        "description": "Risk of alcohol poisoning, unconsciousness"
+      }
+    },
+    "criticalWarningsList": {
+      "notExact": "This calculator provides estimates only and may not reflect actual BAC",
+      "impairment": "Even small amounts of alcohol can impair driving ability"
+    },
+    "importantNotesList": [
+      "BAC is affected by food consumption, medication, and individual metabolism",
+      "Women typically have higher BAC than men for the same amount of alcohol",
+      "Never drink and drive - use a designated driver or ride service",
+      "If you suspect alcohol poisoning, seek immediate medical attention"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Enter your information to estimate your blood alcohol content",
+    "bacResult": "Estimated BAC: {bac}%",
+    "legalStatus": "Legal driving status: {status}",
+    "aboveLimit": "Above legal limit",
+    "belowLimit": "Below legal limit",
+    "assessmentResult": "Assessment Result:",
+    "bacAnalysis": "BAC Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates only and should not be used to determine if it is safe to drive. Many factors affect BAC that are not accounted for in this calculation. Always err on the side of caution and never drive after drinking alcohol."
+  },
+  "seekHelp": {
+    "title": "Emergency Help",
+    "content": "If you suspect alcohol poisoning (confusion, vomiting, slow or irregular breathing, blue-tinged skin, low body temperature, or unconsciousness), call emergency services immediately. Alcohol poisoning can be fatal."
+  },
+  "errors": {
+    "gender": "Please select gender",
+    "weight": "Please enter a valid weight",
+    "drinks": "Please enter a valid number of drinks",
+    "hoursDrinking": "Please enter valid hours of drinking",
+    "hoursElapsed": "Please enter valid hours since first drink"
+  },
+  "tooltips": {
+    "weight": "Your current body weight affects BAC",
+    "drinks": "Number of standard drinks consumed",
+    "hoursDrinking": "Duration over which drinks were consumed",
+    "hoursElapsed": "Time since first drink was consumed"
+  },
+  "personal_information_drinks_0": "Personal Information & Drinks",
+  "enter_your_information_and_alcohol_consumption_det_1": "Enter your information and alcohol consumption details",
+  "personal_information_2": "Personal Information",
+  "gender_3": "Gender",
+  "male_4": "Male",
+  "female_5": "Female",
+  "age_6": "Age",
+  "required_for_watson_body_water_calculation_7": "Required for Watson body water calculation",
+  "body_weight_8": "Body Weight",
+  "your_current_body_weight_9": "Your current body weight",
+  "lb_10": "lb",
+  "kg_11": "kg",
+  "g_12": "g",
+  "height_13": "Height",
+  "required_for_watson_body_water_calculation_14": "Required for Watson body water calculation",
+  "cm_15": "cm",
+  "ft_16": "ft",
+  "in_17": "in",
+  "time_since_first_drink_18": "Time Since First Drink",
+  "time_elapsed_since_your_first_alcoholic_drink_19": "Time elapsed since your first alcoholic drink",
+  "alcohol_consumed_20": "Alcohol Consumed",
+  "add_drink_21": "Add Drink",
+  "drink_22": "Drink",
+  "type_23": "Type",
+  "beer_24": "Beer",
+  "wine_25": "Wine",
+  "liquor_26": "Liquor",
+  "other_27": "Other",
+  "quantity_28": "Quantity",
+  "volume_29": "Volume",
+  "oz_30": "oz",
+  "ml_31": "ml",
+  "abv_32": "ABV %",
+  "metric_widmark_formula_33": "Metric Widmark Formula:",
+  "bac_ag_r_wkg_10_t_34": "BAC(%) = A_g ÷ (r × W_kg × 10) - (β × t)",
+  "ag_alcohol_grams_r_distribution_ratio_male_068_fem_35": "A_g = alcohol grams, r = distribution ratio (male: 0.68, female: 0.55), β = 0.017/hour\n                        elimination",
+  "calculate_36": "Calculate",
+  "reset_37": "Reset",
+  "bac_results_38": "BAC Results",
+  "bac_39": "BAC",
+  "h_40": "h",
+  "until_sober_41": "Until Sober",
+  "standard_drinks_42": "Standard Drinks",
+  "enter_your_information_and_drinks_then_click_43": "Enter your information and drinks, then click",
+  "calculate_44": "Calculate",
+  "to_see_bac_45": "to see BAC.",
+  "detailed_bac_analysis_46": "Detailed BAC Analysis",
+  "bac_level_47": "BAC Level",
+  "time_until_sober_48": "Time Until Sober",
+  "hours_49": "hours",
+  "at_0017hour_elimination_50": "At 0.017/hour elimination",
+  "standard_drinks_51": "Standard Drinks",
+  "total_consumed_52": "Total consumed",
+  "pure_alcohol_53": "Pure Alcohol",
+  "g_54": "g",
+  "total_grams_55": "Total grams",
+  "calculation_steps_widmark_formula_56": "Calculation Steps (Widmark Formula):",
+  "step_1_57": "Step 1:",
+  "total_alcohol_58": "Total alcohol =",
+  "g_volume_abv_0789_quantity_59": "g (Volume × ABV\n                          × 0.789 × Quantity)",
+  "step_2_60": "Step 2:",
+  "distribution_ratio_61": "Distribution ratio =",
+  "metric_constant_62": "metric constant)",
+  "step_3_63": "Step 3:",
+  "initial_bac_64": "Initial BAC =",
+  "g_65": "g ÷ (",
+  "kg_10_66": "kg × 10) =",
+  "step_4_67": "Step 4:",
+  "current_bac_68": "Current BAC =",
+  "h_69": "h) =",
+  "important_disclaimer_70": "Important Disclaimer",
+  "this_bac_calculator_provides_an_estimate_only_actu_71": "This BAC calculator provides an estimate only. Actual BAC may vary based on individual\n                            factors. Do not drink and drive. Always use designated drivers or alternative\n                            transportation.",
+  "understanding_blood_alcohol_concentration_72": "Understanding Blood Alcohol Concentration",
+  "what_is_bac_73": "What is BAC?",
+  "blood_alcohol_concentration_bac_measures_the_amoun_74": "Blood Alcohol Concentration (BAC) measures the amount of alcohol in your bloodstream as a\n                        percentage. This calculator uses the Watson formula for more accurate Total Body Water\n                        calculation compared to traditional Widmark equation.",
+  "watson_vs_widmark_formula_75": "Watson vs Widmark Formula",
+  "watson_uses_age_height_weight_and_gender_for_preci_76": "Watson: Uses age, height, weight, and gender for precise TBW",
+  "widmark_uses_simple_gender_constants_less_accurate_77": "Widmark: Uses simple gender constants (less accurate)",
+  "elimination_rate_0017hour_more_accurate_than_0015_78": "Elimination rate: 0.017/hour (more accurate than 0.015)",
+  "alcohol_conversion_volume_abv_0789_density_79": "Alcohol conversion: Volume × ABV × 0.789 density",
+  "metric_widmark_formula_80": "Metric Widmark Formula",
+  "formula_bac_ag_r_wkg_10_t_81": "Formula: BAC(%) = A_g ÷ (r × W_kg × 10) - β × t",
+  "distribution_ratios_male_068_female_055_metric_con_82": "Distribution ratios: Male 0.68, Female 0.55 (metric constants)",
+  "elimination_rate_0017_per_hour_updated_standard_83": "Elimination rate: 0.017% per hour (updated standard)",
+  "alcohol_conversion_volumeml_abv_0789_density_84": "Alcohol conversion: Volume(ml) × ABV% × 0.789 density",
+  "standard_drink_equivalents_85": "Standard Drink Equivalents",
+  "k_1_standard_drink_14g_pure_alcohol_86": "1 Standard Drink = 14g pure alcohol:",
+  "k_12_oz_beer_5_abv_87": "• 12 oz beer (5% ABV)",
+  "k_5_oz_wine_12_abv_88": "• 5 oz wine (12% ABV)",
+  "k_15_oz_liquor_40_abv_89": "• 1.5 oz liquor (40% ABV)",
+  "elimination_rate_90": "Elimination Rate:",
+  "the_liver_eliminates_alcohol_at_approximately_0017_91": "The liver eliminates alcohol at approximately 0.017% BAC per hour (updated from older 0.015\n                          rate), regardless of body size or drinking experience.",
+  "safety_note_92": "Safety Note:",
+  "this_calculator_is_for_educational_purposes_only_n_93": "This calculator is for educational purposes only. Never rely on\n                          BAC estimates to determine if you're safe to drive."
+}

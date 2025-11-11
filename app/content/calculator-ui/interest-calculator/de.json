@@ -1,0 +1,111 @@
+{
+  "pageTitle": "Zinsrechner",
+  "pageDescription": "Berechnen Sie Zinsen mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Zinsen berechnen",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Zinsberechnung"
+  },
+  "educational": {
+    "info": "Interesseninformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Interessendefinition",
+        "description": "Informationen zum Thema Interesse"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "Wie Zinsen berechnet werden"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Interessante Verwendungsmöglichkeiten"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Zinsschätzungen",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um die Zinsen zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Zinsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Zinsberechnung:",
+    "analysis": "Interessenanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Zinsschätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt sind, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "investment_details_0": "Investitionsdetails",
+  "enter_your_investment_info_1": "Geben Sie Ihre Anlageinformationen ein",
+  "initial_investment_2": "Erstinvestition",
+  "annual_contribution_3": "Jährlicher Beitrag",
+  "monthly_contribution_4": "Monatlicher Beitrag",
+  "contribute_at_the_5": "Tragen Sie bei",
+  "beginning_6": "Anfang",
+  "end_7": "Ende",
+  "of_each_compounding_period_8": "jeder Zinseszinsperiode",
+  "interest_rate_9": "Zinssatz (%)",
+  "compound_10": "Verbindung",
+  "annually_11": "Jährlich",
+  "quarterly_12": "Vierteljährlich",
+  "monthly_13": "Monatlich",
+  "daily_14": "Täglich",
+  "years_15": "Jahre",
+  "months_16": "Monate",
+  "tax_rate_17": "Steuersatz (%)",
+  "inflation_rate_18": "Inflationsrate (%)",
+  "calculate_19": "Berechnen",
+  "results_20": "Ergebnisse",
+  "investment_summary_21": "Zusammenfassung der Investitionen",
+  "ending_balance_22": "Endbilanz",
+  "total_principal_23": "Gesamtkapital",
+  "total_contributions_24": "Gesamtbeiträge",
+  "total_interest_25": "Gesamtzins",
+  "interest_of_initial_investment_26": "Interesse der Erstinvestition",
+  "interest_of_the_contributions_27": "Interesse der Beiträge",
+  "buying_power_after_inflation_28": "Kaufkraft nach Inflation",
+  "enter_investment_details_to_see_results_29": "Geben Sie die Investitionsdetails ein, um die Ergebnisse anzuzeigen",
+  "this_calculator_is_for_educational_purposes_only_a_30": "Dieser Rechner dient nur zu Bildungszwecken und sollte nicht als Finanzberatung verwendet werden."
+}

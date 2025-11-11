@@ -1,0 +1,148 @@
+{
+  "pageTitle": "Kalkulator oszczędności",
+  "pageDescription": "Oblicz wzrost swoich oszczędności w czasie dzięki regularnym wpłatom i odsetkom składanym na cele finansowe i planowanie funduszy awaryjnych",
+  "form": {
+    "labels": {
+      "initialAmount": "Początkowa kwota oszczędności",
+      "monthlyContribution": "Miesięczny wkład",
+      "annualInterestRate": "Roczna stopa procentowa",
+      "savingsPeriod": "Okres oszczędzania",
+      "compoundFrequency": "Częstotliwość złożona",
+      "inflationRate": "Oczekiwana stopa inflacji"
+    },
+    "placeholders": {
+      "initialAmount": "Wprowadź początkową kwotę oszczędności",
+      "monthlyContribution": "Wprowadź miesięczną składkę",
+      "annualInterestRate": "Wprowadź roczną stopę procentową (%)",
+      "savingsPeriod": "Wprowadź okres oszczędzania w latach",
+      "inflationRate": "Podaj oczekiwaną stopę inflacji (%)"
+    },
+    "buttons": {
+      "calculate": "Oblicz wzrost oszczędności",
+      "reset": "Nastawić"
+    },
+    "compoundFrequencies": {
+      "monthly": "Miesięczny",
+      "quarterly": "Kwartalny",
+      "annually": "Rocznie",
+      "daily": "Codziennie"
+    }
+  },
+  "results": {
+    "futureValue": "Przyszła wartość",
+    "totalContributions": "Łączne składki",
+    "totalInterest": "Łączne uzyskane odsetki",
+    "inflationAdjusted": "Wartość skorygowana o inflację",
+    "savingsResultsTitle": "Wyniki obliczeń oszczędności"
+  },
+  "educational": {
+    "savingsInfo": "Informacje o oszczędnościach",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "savingsFacts": {
+      "emergencyFund": {
+        "title": "Fundusz awaryjny",
+        "description": "Eksperci finansowi zalecają oszczędzanie 3-6 miesięcy wydatków na sytuacje awaryjne"
+      },
+      "compoundInterest": {
+        "title": "Siła procentu składanego",
+        "description": "Regularne wpłaty w połączeniu z odsetkami składanymi przyspieszają wzrost oszczędności"
+      },
+      "goalsBased": {
+        "title": "Oszczędności oparte na celach",
+        "description": "Konkretne cele oszczędnościowe pomagają utrzymać motywację i śledzić postępy"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki wzrostu oszczędności",
+      "actual": "Rzeczywisty wzrost oszczędności może się różnić w zależności od opłat za prowadzenie konta i zmieniających się stóp procentowych"
+    },
+    "importantNotesList": [
+      "Wyższe stopy procentowe znacząco wpływają na długoterminowy wzrost oszczędności",
+      "Regularne wpłaty są kluczem do budowania znacznych oszczędności",
+      "Rozważ wysokodochodowe konta oszczędnościowe, które zapewniają lepsze oprocentowanie",
+      "Zautomatyzuj oszczędzanie, aby zapewnić spójne wkłady"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje o swoich oszczędnościach, aby obliczyć wzrost w czasie",
+    "resultMessage": "Wyniki kalkulacji oszczędności przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia oszczędności:",
+    "savingsAnalysis": "Analiza oszczędności"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten podaje szacunki wzrostu oszczędności w oparciu o prognozy matematyczne. Rzeczywisty wzrost oszczędności może się różnić w zależności od opłat za prowadzenie konta, zmieniających się stóp procentowych i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowane strategie oszczędzania i planowanie finansowe, skonsultuj się z doradcami finansowymi lub specjalistami z zakresu bankowości posiadającymi wiedzę na temat produktów oszczędnościowych i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "initialAmount": "Wprowadź prawidłową początkową kwotę oszczędności",
+    "monthlyContribution": "Proszę podać prawidłową miesięczną składkę",
+    "annualInterestRate": "Proszę wprowadzić prawidłową roczną stopę procentową",
+    "savingsPeriod": "Proszę podać prawidłowy okres oszczędzania",
+    "inflationRate": "Proszę wprowadzić prawidłową oczekiwaną stopę inflacji",
+    "compoundFrequency": "Wybierz częstotliwość złożoną"
+  },
+  "tooltips": {
+    "initialAmount": "Kwota już zapisana",
+    "monthlyContribution": "Regularna kwota, którą planujesz oszczędzać w każdym miesiącu",
+    "annualInterestRate": "Oczekiwane średnioroczne oprocentowanie oszczędności",
+    "savingsPeriod": "Długość czasu, jaki planujesz zaoszczędzić",
+    "compoundFrequency": "Jak często odsetki są kumulowane",
+    "inflationRate": "Oczekiwana średnioroczna stopa inflacji"
+  },
+  "savings_calculator_0": "Kalkulator oszczędności",
+  "initial_investment_1": "Inwestycja początkowa",
+  "initial_deposit_starting_balance_2": "Depozyt początkowy / saldo początkowe",
+  "regular_contributions_3": "Regularne składki",
+  "annual_contribution_4": "Roczny wkład",
+  "annual_increase_rate_5": "Roczna stopa wzrostu (%)",
+  "monthly_contribution_6": "Miesięczny wkład",
+  "monthly_increase_rate_7": "Miesięczna stopa wzrostu (%)",
+  "investment_parameters_8": "Parametry inwestycji",
+  "annual_interest_rate_9": "Roczna stopa procentowa (%)",
+  "number_of_years_10": "Liczba lat",
+  "compounding_frequency_11": "Częstotliwość złożona",
+  "annually_12": "Rocznie",
+  "semiannually_13": "Półrocznie",
+  "quarterly_14": "Kwartalny",
+  "monthly_15": "Miesięczny",
+  "biweekly_16": "Dwutygodniowy",
+  "weekly_17": "Tygodnik",
+  "daily_18": "Codziennie",
+  "tax_rate_on_interest_19": "Stawka podatku od odsetek (%)",
+  "inflation_rate_20": "Stopa inflacji (%)",
+  "calculate_growth_21": "Oblicz wzrost",
+  "savings_results_22": "Wyniki oszczędności",
+  "your_savings_growth_projection_23": "Twoja prognoza wzrostu oszczędności",
+  "final_balance_24": "Bilans końcowy:",
+  "compounding_25": "Mieszanie",
+  "for_26": "Do",
+  "years_27": "lata",
+  "total_contributions_28": "Łączne składki",
+  "interest_earned_29": "Zarobione odsetki",
+  "aftertax_balance_30": "Saldo po opodatkowaniu",
+  "real_value_inflationadjusted_31": "Wartość rzeczywista (skorygowana o inflację)",
+  "yearly_breakdown_32": "Podział roczny",
+  "year_33": "Rok",
+  "contributions_34": "Składki",
+  "interest_35": "Odsetki",
+  "balance_36": "Balansować",
+  "enter_your_savings_information_to_see_your_growth__37": "Wprowadź informacje o swoich oszczędnościach, aby zobaczyć prognozę wzrostu",
+  "formulas_calculation_details_38": "Wzory i szczegóły obliczeń",
+  "k_1_periodic_interest_rate_39": "1. Okresowa stopa procentowa",
+  "rperiod_annualrate_1_taxrate_compoundingfrequency_40": "r_period = (stawka_roczna × (1 - stawka_podatkowa)) / częstotliwość_złożona",
+  "k_2_annual_contributions_with_growth_41": "2. Roczne składki (wraz ze wzrostem)",
+  "annualk_annualbase_1_annualincreaseratek1_42": "Roczna_k = podstawa_roczna × (1 + stawka_rocznego_przyrostu)^(k-1)",
+  "k_3_monthly_contributions_with_growth_43": "3. Miesięczne składki (wraz ze wzrostem)",
+  "monthlyk_monthlybase_1_monthlyincreaseratek1_44": "Miesięczny_k = podstawa_miesięczna × (1 + stawka_miesięcznego_wzrostu)^(k-1)",
+  "k_4_final_balance_45": "4. Bilans końcowy",
+  "balance_initial_1_rperiodperiods_accumulatedcontri_46": "Saldo = Początkowe × (1 + r_okres)^(okresy) + Skumulowane_składki",
+  "k_5_real_value_inflationadjusted_47": "5. Wartość rzeczywista (skorygowana o inflację)",
+  "realvalue_finalbalance_1_inflationrateyears_48": "Wartość_rzeczywista = Saldo_końcowe / (1 + stopa_inflacji)^lat"
+}

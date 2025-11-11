@@ -1,0 +1,127 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de ganho de peso na gravidez?",
+      "content": "Nossa Calculadora de Ganho de Peso na Gravidez é uma ferramenta gratuita projetada para ajudar as gestantes a estimar o ganho de peso ideal durante a gravidez. Ele usa diretrizes da Organização Mundial da Saúde (OMS), do Instituto de Medicina (IOM) e do NHS. <br><br>⚠️ Isenção de responsabilidade: esta ferramenta é apenas para fins educacionais. Consulte sempre seu médico, ginecologista ou parteira para orientação personalizada."
+    },
+    {
+      "heading": "Por que o ganho de peso na gravidez é importante",
+      "subSections": [
+        {
+          "heading": "Apoia o crescimento fetal",
+          "content": "Garante o desenvolvimento saudável do bebê."
+        },
+        {
+          "heading": "Reduz complicações",
+          "content": "Ajuda a diminuir os riscos de diabetes gestacional e hipertensão."
+        },
+        {
+          "heading": "Mantém a saúde materna",
+          "content": "Apoia a saúde e a recuperação da mãe após o parto."
+        }
+      ]
+    },
+    {
+      "heading": "Ganho de peso recomendado durante a gravidez (IOM/OMS/NHS)",
+      "subSections": [
+        {
+          "heading": "Abaixo do peso (IMC < 18,5)",
+          "content": "28–40 libras (12,5–18 kg)"
+        },
+        {
+          "heading": "Peso normal (IMC 18,5–24,9)",
+          "content": "25–35 libras (11,5–16 kg)"
+        },
+        {
+          "heading": "Excesso de peso (IMC 25–29,9)",
+          "content": "15–25 libras (7–11,5 kg)"
+        },
+        {
+          "heading": "Obeso (IMC ≥ 30)",
+          "content": "11–20 libras (5–9 kg)"
+        },
+        {
+          "heading": "Gravidez gemelar/múltipla",
+          "content": "Faixas mais altas recomendadas – consulte seu médico."
+        }
+      ]
+    },
+    {
+      "heading": "Como usar a calculadora de ganho de peso na gravidez (passo a passo)",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Insira sua altura e peso (kg/cm ou lbs/polegadas)."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Selecione sua categoria de IMC pré-gravidez (ou deixe a calculadora calcular automaticamente)."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Insira sua semana atual de gravidez (1–40 semanas)."
+        },
+        {
+          "heading": "Etapa 4",
+          "content": "Clique em Calcular → Veja instantaneamente sua faixa e gráfico de ganho de peso recomendado."
+        },
+        {
+          "heading": "Etapa 5",
+          "content": "Veja orientações específicas do trimestre e acompanhamento semanal."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos de nossa ferramenta",
+      "subSections": [
+        {
+          "heading": "Suporte Global + Local",
+          "content": "Funciona em kg/cm (Ásia, UE) e lbs/polegadas (EUA, Reino Unido)."
+        },
+        {
+          "heading": "Acompanhamento trimestral",
+          "content": "Fornece informações semanais sobre ganho de peso durante a gravidez."
+        },
+        {
+          "heading": "Baseado em diretrizes",
+          "content": "Segue as recomendações da OMS, IOM e NHS."
+        },
+        {
+          "heading": "Suporta todos os IMCs",
+          "content": "Funciona para mães com baixo peso, normais, com sobrepeso e obesas."
+        },
+        {
+          "heading": "Gravidez Múltipla",
+          "content": "Inclui orientação para gestações gemelares/múltiplas."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quanto peso devo ganhar durante a gravidez?",
+      "a": "Depende do seu IMC pré-gravidez. Em média, as mulheres com IMC normal ganham 11–16 kg (25–35 lbs)."
+    },
+    {
+      "q": "Como calculo o ganho de peso na gravidez?",
+      "a": "Use esta calculadora inserindo sua altura, peso, IMC e semana atual de gravidez."
+    },
+    {
+      "q": "Por que o ganho de peso na gravidez é importante?",
+      "a": "Garante o crescimento saudável do seu bebê e reduz os riscos de complicações como parto prematuro ou diabetes gestacional."
+    },
+    {
+      "q": "O que é ganho de peso seguro durante a gravidez por semana?",
+      "a": "Primeiro trimestre: 1–2 kg (2–5 lbs) no total. <br>Segundo e terceiro trimestres: cerca de 0,5 kg (1 lb) por semana."
+    },
+    {
+      "q": "Posso usar esta calculadora para gêmeos ou múltiplos?",
+      "a": "Sim, mas gestações múltiplas requerem cuidados especiais. Consulte o seu médico para aconselhamento personalizado."
+    },
+    {
+      "q": "Esta calculadora é válida em todo o mundo?",
+      "a": "Sim, segue as diretrizes da OMS e do NHS e funciona globalmente (Sul da Ásia, Europa, EUA, etc.)."
+    }
+  ]
+}

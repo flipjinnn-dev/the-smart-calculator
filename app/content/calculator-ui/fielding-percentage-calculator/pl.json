@@ -1,0 +1,143 @@
+{
+  "pageTitle": "Kalkulator procentu Fieldingu",
+  "pageDescription": "Oblicz procent pola dla graczy w baseball",
+  "form": {
+    "labels": {
+      "putouts": "Wyrzuty",
+      "assists": "Asysty",
+      "errors": "Błędy"
+    },
+    "placeholders": {
+      "putouts": "Wprowadź liczbę putoutów",
+      "assists": "Wpisz liczbę asyst",
+      "errors": "Wprowadź liczbę błędów"
+    },
+    "buttons": {
+      "calculate": "Oblicz procent pola",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "fieldingPercentage": "Procent Fieldingu",
+    "totalChances": "Całkowite szanse",
+    "successfulChances": "Pomyślne szanse",
+    "errorRate": "Poziom błędów",
+    "leagueRanking": "Szacunkowy ranking ligowy"
+  },
+  "educational": {
+    "fieldingInfo": "Informacje o procentach pól",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby baseballu",
+    "fieldingFacts": {
+      "definition": {
+        "title": "Procent Fieldingu",
+        "description": "Statystyka mierząca zdolność gracza do radzenia sobie z szansami bez popełniania błędów"
+      },
+      "formula": {
+        "title": "Wzór obliczeniowy",
+        "description": "Procent wystawienia = (wybicia + asysty) / (wybicia + asysty + błędy)"
+      },
+      "interpretation": {
+        "title": "Interpretacja wykonawcza",
+        "description": "Procent pola waha się od 0,000 do 1,000, przy czym 1,000 oznacza doskonałe ustawienie"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten umożliwia jedynie obliczenia procentu wystawienia",
+      "actual": "Pełna ocena obrony powinna uwzględniać dodatkowe wskaźniki, takie jak zasięg i podwójne zagrania"
+    },
+    "importantNotesList": [
+      "Procent zagrań to tylko jeden z mierników skuteczności gry w defensywie",
+      "Nie uwzględnia zasięgu, podwójnych zagrań ani trudnych zagrań",
+      "Wysoki procent wytypowań wskazuje na mniejszą liczbę błędów w stosunku do szans",
+      "Wielkość próby ma znaczenie – większe szanse zapewniają lepszą ocenę"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wybicia, asysty i błędy, aby obliczyć procent zagrań",
+    "resultMessage": "Wyniki obliczenia procentu wystawienia pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia procentu pola:",
+    "fieldingAnalysis": "Analiza terenowa"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia obliczenia procentu boiska w oparciu o standardowe formuły statystyki baseballu. Pełna ocena obronna powinna uwzględniać dodatkowe wskaźniki, kontekst i czynniki dotyczące wielkości próby, które nie są uwzględnione w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby baseballu",
+    "content": "Aby uzyskać kompleksową analizę defensywy baseballu i ocenę zawodników, odwiedź witryny referencyjne dotyczące baseballu, zasoby analityki sportowej lub profesjonalnych skautów i analityków."
+  },
+  "errors": {
+    "putouts": "Proszę wprowadzić prawidłową liczbę putoutów",
+    "assists": "Proszę podać prawidłową liczbę asyst",
+    "errors": "Proszę wprowadzić prawidłową liczbę błędów"
+  },
+  "tooltips": {
+    "putouts": "Liczba outów zarejestrowanych bezpośrednio przez gracza (np. łapanie lecących piłek, oznaczanie biegaczy)",
+    "assists": "Liczba przypadków, w których zawodnik pomógł zanotować aut (np. rzut do pierwszej bazy)",
+    "errors": "Liczba błędów w obronie, które pozwalają biegaczom awansować lub dotrzeć do bazy"
+  },
+  "fielding_statistics_0": "Statystyki terenowe",
+  "enter_fielding_statistics_to_calculate_fielding_pe_1": "Wprowadź statystyki Fieldingu, aby obliczyć procent Fieldingu (FPCT)",
+  "putouts_p_2": "Wyrzuty (P)",
+  "outs_recorded_by_the_fielder_3": "Outy zarejestrowane przez obrońcę",
+  "assists_a_4": "Asysty (A)",
+  "plays_that_helped_record_an_out_5": "Odtworzenia, które pomogły nagrać out",
+  "errors_e_6": "Błędy (E)",
+  "misplays_that_should_have_been_made_7": "Błędy, które powinny zostać popełnione",
+  "output_format_8": "Format wyjściowy",
+  "display_result_as_9": "Wyświetl wynik jako",
+  "decimal_10": "Dziesiętny",
+  "percentage_11": "Procent",
+  "formula_12": "Formuła:",
+  "fpct_putouts_assists_putouts_assists_errors_13": "FPCT = (Wybicia + Asysty) ÷ (Wybicia + Asysty + Błędy)",
+  "total_chances_putouts_assists_errors_14": "Suma szans = wybicia + asysty + błędy",
+  "calculate_15": "Obliczać",
+  "reset_16": "Nastawić",
+  "fpct_results_17": "Wyniki FPCT",
+  "fpct_18": "FPCT",
+  "total_chances_19": "Całkowite szanse",
+  "performance_20": "Wydajność",
+  "enter_fielding_statistics_and_click_21": "Wprowadź statystyki terenowe i kliknij",
+  "calculate_22": "Obliczać",
+  "to_see_fpct_23": "aby zobaczyć FPCT.",
+  "detailed_fpct_breakdown_24": "Szczegółowy podział FPCT",
+  "fpct_25": "FPCT",
+  "putouts_26": "Wyrzuty",
+  "p_27": "P",
+  "assists_28": "Asysty",
+  "a_29": "A",
+  "errors_30": "Błędy",
+  "e_31": "E",
+  "calculation_steps_32": "Kroki obliczeń:",
+  "step_1_33": "Krok 1:",
+  "total_chances_34": "Całkowite szanse =",
+  "step_2_35": "Krok 2:",
+  "fpct_36": "FPCT = (",
+  "step_3_37": "Krok 3:",
+  "as_percentage_38": "Jako procent =",
+  "k_100_39": "× 100 =",
+  "understanding_fielding_percentage_40": "Zrozumienie procentu Fieldingu",
+  "what_is_fpct_41": "Co to jest FPCT?",
+  "fielding_percentage_fpct_measures_how_often_a_fiel_42": "Procent Fieldingu (FPCT) mierzy, jak często obrońca skutecznie radzi sobie z szansą bez niej\n                        popełniając błąd. Oblicza się go, dzieląc udane zagrania (wybicia + asysty) przez sumę\n                        szanse.",
+  "fpct_interpretation_43": "Interpretacja FPCT",
+  "k_1000_perfect_no_errors_44": "1.000: Idealny (bez błędów)",
+  "k_0980_elite_level_45": "0,980+: Poziom elitarny",
+  "k_09500979_good_46": "0,950-0,979: Dobrze",
+  "k_09000949_average_47": "0,900-0,949: Średnia",
+  "below_0900_below_average_48": "Poniżej 0,900: Poniżej średniej",
+  "sample_calculation_49": "Przykładowe obliczenia",
+  "example_50": "Przykład:",
+  "player_statistics_51": "Statystyki graczy",
+  "putouts_1489_52": "Wyrzuty: 1489",
+  "assists_496_53": "Asysty: 496",
+  "errors_33_54": "Błędy: 33",
+  "calculation_55": "Obliczenie:",
+  "total_chances_1489_496_33_2018_56": "Całkowite szanse = 1489 + 496 + 33 = 2018",
+  "fpct_1489_496_2018_57": "FPCT = (1489 + 496) ÷ 2018",
+  "fpct_0984_984_58": "FPCT = 0,984 (98,4%)",
+  "note_59": "Notatka:",
+  "high_fpct_doesnt_reflect_a_fielders_range_or_the_d_60": "Wysokie FPCT nie odzwierciedla zasięgu obrońcy ani trudności zagrań\n                          próbował."
+}

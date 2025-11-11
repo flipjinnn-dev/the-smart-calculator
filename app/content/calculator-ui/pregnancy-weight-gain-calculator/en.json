@@ -1,0 +1,170 @@
+{
+  "pageTitle": "Pregnancy Weight Gain  Calculator",
+  "pageDescription": "Calculate pregnancy weight gain  with our free online calculator",
+  "form": {
+    "labels": {
+      "input1": "Input 1",
+      "input2": "Input 2",
+      "input3": "Input 3"
+    },
+    "placeholders": {
+      "input1": "Enter first value",
+      "input2": "Enter second value",
+      "input3": "Enter third value"
+    },
+    "buttons": {
+      "calculate": "Calculate Pregnancy Weight Gain ",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "result1": "Result 1",
+    "result2": "Result 2",
+    "calculationDetails": "Pregnancy Weight Gain  Calculation Results"
+  },
+  "educational": {
+    "info": "Pregnancy Weight Gain  Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "Pregnancy Weight Gain  Definition",
+        "description": "Information about pregnancy weight gain "
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How pregnancy weight gain  is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of pregnancy weight gain "
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides pregnancy weight gain  estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate pregnancy weight gain ",
+    "resultMessage": "Your pregnancy weight gain  calculation results are shown below",
+    "assessmentResult": "Pregnancy Weight Gain  Calculation Result:",
+    "analysis": "Pregnancy Weight Gain  Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides pregnancy weight gain  estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  },
+  "weight_gain_calculation_0": "Weight Gain Calculation",
+  "enter_your_prepregnancy_details_and_optional_curre_1": "Enter your pre-pregnancy details and optional current information for progress tracking",
+  "unit_system_2": "Unit System",
+  "metric_kg_cm_3": "Metric (kg, cm)",
+  "us_lbs_ftin_4": "US (lbs, ft/in)",
+  "prepregnancy_weight_5": "Pre-pregnancy Weight (",
+  "height_cm_6": "Height (cm)",
+  "height_ftin_7": "Height (ft/in)",
+  "current_weight_8": "Current Weight (",
+  "optional_9": "(Optional)",
+  "for_progress_tracking_10": "For progress tracking",
+  "gestational_week_11": "Gestational Week",
+  "optional_12": "(Optional)",
+  "week_142_for_progress_tracking_13": "Week 1-42 for progress tracking",
+  "calculate_gain_14": "Calculate Gain",
+  "reset_15": "Reset",
+  "weight_gain_16": "Weight Gain",
+  "kg_17": "kg",
+  "total_recommended_18": "Total Recommended",
+  "bmi_19": "BMI:",
+  "enter_your_prepregnancy_details_to_see_recommended_20": "Enter your pre-pregnancy details to see recommended weight gain ranges.",
+  "weight_gain_recommendations_21": "Weight Gain Recommendations",
+  "prepregnancy_assessment_22": "Pre-pregnancy Assessment",
+  "bmi_23": "BMI:",
+  "category_24": "Category:",
+  "kg_25": "kg",
+  "lbs_26": "lbs)",
+  "trimester_schedule_27": "Trimester Schedule",
+  "first_trimester_weeks_113_28": "First Trimester (Weeks 1-13)",
+  "total_gain_29": "Total gain:",
+  "kg_30": "kg (",
+  "lbs_31": "lbs)",
+  "gradual_weight_gain_focus_on_nutrition_quality_32": "Gradual weight gain, focus on nutrition quality",
+  "second_third_trimesters_weeks_1440_33": "Second & Third Trimesters (Weeks 14-40)",
+  "weekly_gain_34": "Weekly gain:",
+  "kg_35": "kg (~",
+  "lbs_36": "lbs)",
+  "steady_weekly_weight_gain_37": "Steady weekly weight gain",
+  "progress_tracking_week_38": "Progress Tracking (Week",
+  "kg_39": "kg",
+  "actual_gain_40": "Actual Gain",
+  "kg_41": "kg",
+  "expected_gain_42": "Expected Gain",
+  "status_43": "Status",
+  "iom_weight_gain_guidelines_44": "IOM Weight Gain Guidelines",
+  "bmi_category_45": "BMI Category",
+  "bmi_range_46": "BMI Range",
+  "total_gain_kg_47": "Total Gain (kg)",
+  "total_gain_lbs_48": "Total Gain (lbs)",
+  "underweight_49": "Underweight",
+  "k_185_50": "< 18.5",
+  "k_12518_51": "12.5-18",
+  "k_2840_52": "28-40",
+  "normal_53": "Normal",
+  "k_185249_54": "18.5-24.9",
+  "k_11516_55": "11.5-16",
+  "k_2535_56": "25-35",
+  "overweight_57": "Overweight",
+  "k_250299_58": "25.0-29.9",
+  "k_7115_59": "7-11.5",
+  "k_1525_60": "15-25",
+  "obese_61": "Obese",
+  "k_300_62": "≥ 30.0",
+  "k_59_63": "5-9",
+  "k_1120_64": "11-20",
+  "understanding_pregnancy_weight_gain_65": "Understanding Pregnancy Weight Gain",
+  "iom_guidelines_66": "IOM Guidelines",
+  "based_on_prepregnancy_bmi_category_67": "Based on pre-pregnancy BMI category",
+  "accounts_for_maternal_and_fetal_health_68": "Accounts for maternal and fetal health",
+  "reduces_risk_of_complications_69": "Reduces risk of complications",
+  "updated_in_2009_by_institute_of_medicine_70": "Updated in 2009 by Institute of Medicine",
+  "example_calculation_71": "Example Calculation",
+  "prepregnancy_130_lbs_55_bmi_216_72": "Pre-pregnancy: 130 lbs, 5'5\" (BMI 21.6)",
+  "category_normal_weight_73": "Category: Normal weight",
+  "total_gain_74": "Total gain:",
+  "k_2535_lbs_11516_kg_75": "25-35 lbs (11.5-16 kg)",
+  "k_1st_trimester_76": "1st trimester:",
+  "k_14_lbs_77": "1-4 lbs",
+  "k_2nd3rd_78": "2nd/3rd:",
+  "k_1_lbweek_79": "~1 lb/week",
+  "important_factors_80": "Important Factors",
+  "individual_variation_is_normal_81": "Individual variation is normal",
+  "quality_of_nutrition_matters_most_82": "Quality of nutrition matters most",
+  "regular_prenatal_care_is_essential_83": "Regular prenatal care is essential",
+  "multiple_pregnancies_need_different_guidelines_84": "Multiple pregnancies need different guidelines",
+  "health_benefits_85": "Health Benefits",
+  "reduces_risk_of_gestational_diabetes_86": "Reduces risk of gestational diabetes",
+  "lowers_chance_of_preterm_birth_87": "Lowers chance of preterm birth",
+  "supports_healthy_fetal_development_88": "Supports healthy fetal development",
+  "easier_postpartum_weight_loss_89": "Easier postpartum weight loss"
+}

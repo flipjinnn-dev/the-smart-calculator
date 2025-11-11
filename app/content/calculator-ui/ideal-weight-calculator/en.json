@@ -1,0 +1,199 @@
+{
+  "pageTitle": "Ideal Weight Calculator",
+  "pageDescription": "Calculate your ideal body weight range based on height and gender",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Current Weight",
+      "unitSystem": "Unit System"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}"
+    },
+    "buttons": {
+      "calculate": "Calculate Ideal Weight",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    }
+  },
+  "results": {
+    "idealWeightRange": "Ideal Weight Range",
+    "currentWeight": "Current Weight",
+    "idealWeightTitle": "Ideal Weight Results",
+    "bmiFormula": {
+      "label": "BMI Formula",
+      "us": "BMI = (weight in lb / (height in inches)²) × 703",
+      "metric": "BMI = weight in kg / (height in meters)²"
+    },
+    "healthyBmiRange": "Healthy BMI Range: 18.5 – 25 kg/m²"
+  },
+  "educational": {
+    "idealWeightInfo": "Ideal Weight Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Professional",
+    "idealWeightMethods": {
+      "devine": {
+        "title": "Devine Method (1974)",
+        "description": "Men: 50 kg + 2.3 kg per inch over 5 feet; Women: 45.5 kg + 2.3 kg per inch over 5 feet"
+      },
+      "robinson": {
+        "title": "Robinson Method (1983)",
+        "description": "Men: 52 kg + 1.9 kg per inch over 5 feet; Women: 49 kg + 1.7 kg per inch over 5 feet"
+      },
+      "miller": {
+        "title": "Miller Method (1983)",
+        "description": "Men: 56.2 kg + 1.41 kg per inch over 5 feet; Women: 53.1 kg + 1.36 kg per inch over 5 feet"
+      },
+      "hamwi": {
+        "title": "Hamwi Method (1964)",
+        "description": "Men: 48 kg + 2.7 kg per inch over 5 feet; Women: 45.5 kg + 2.2 kg per inch over 5 feet"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a diagnostic tool",
+      "individualVariation": "Ideal weight varies based on muscle mass, bone density, and body composition"
+    },
+    "importantNotesList": [
+      "These calculations provide general guidelines only",
+      "Athletes may have higher weight due to muscle mass",
+      "Consult healthcare professionals for personalized advice",
+      "Weight should be considered alongside other health metrics"
+    ],
+    "healthyRangeDetails": {
+      "title": "18.5 – 25 kg/m²",
+      "description": "is considered the healthy BMI range for adults.",
+      "association": "This range is associated with the lowest risk of health problems and mortality."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Enter your measurements to calculate your ideal weight range",
+    "idealWeightRange": "Your ideal weight range is {min} - {max} {unit}",
+    "currentWeightStatus": "Your current weight is {status} the ideal range",
+    "belowRange": "below",
+    "withinRange": "within",
+    "aboveRange": "above",
+    "ageWarning": "For children and adolescents (≤20 years), use pediatric growth charts",
+    "assessmentResult": "Assessment Result:",
+    "weightAnalysis": "Weight Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates based on mathematical formulas and should not be used as a substitute for professional medical advice. Individual results may vary based on factors not accounted for in these calculations."
+  },
+  "seekHelp": {
+    "title": "Consult a Healthcare Professional",
+    "content": "If you have concerns about your weight or health, please consult with a healthcare professional who can provide personalized advice based on your complete medical history and individual circumstances."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight"
+  },
+  "tooltips": {
+    "age": "Age can affect ideal weight calculations for children/adolescents",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "gender": "Different formulas are used for men and women"
+  },
+  "ideal_weight_calculation_0": "Ideal Weight Calculation",
+  "enter_your_details_to_calculate_your_ideal_weight__1": "Enter your details to calculate your ideal weight using multiple formulas",
+  "unit_system_2": "Unit System",
+  "metric_kg_cm_3": "Metric (kg, cm)",
+  "us_lbs_ftin_4": "US (lbs, ft/in)",
+  "age_years_5": "Age (years)",
+  "age_range_280_years_6": "Age range: 2-80 years",
+  "gender_7": "Gender",
+  "male_8": "Male",
+  "female_9": "Female",
+  "height_cm_10": "Height (cm)",
+  "height_in_centimeters_11": "Height in centimeters",
+  "height_ftin_12": "Height (ft/in)",
+  "feet_and_inches_13": "Feet and inches",
+  "calculate_weight_14": "Calculate Weight",
+  "reset_15": "Reset",
+  "ideal_weight_16": "Ideal Weight",
+  "kg_17": "kg (",
+  "lbs_18": "lbs)",
+  "devine_formula_19": "Devine Formula",
+  "kg_20": "kg",
+  "healthy_bmi_range_21": "Healthy BMI Range",
+  "enter_your_details_and_click_calculate_see_your_id_22": "Enter your details and click Calculate see your ideal weight ranges.",
+  "ideal_weight_results_23": "Ideal Weight Results",
+  "formulabased_ideal_weights_24": "Formula-Based Ideal Weights",
+  "formula_25": "Formula",
+  "weight_kg_26": "Weight (kg)",
+  "weight_lbs_27": "Weight (lbs)",
+  "notes_28": "Notes",
+  "hamwi_1964_29": "Hamwi (1964)",
+  "oldest_drug_dosage_origins_30": "Oldest, drug dosage origins",
+  "devine_1974_31": "Devine (1974)",
+  "still_used_in_medical_settings_32": "Still used in medical settings",
+  "robinson_1983_33": "Robinson (1983)",
+  "slightly_lighter_estimate_34": "Slightly lighter estimate",
+  "miller_1983_35": "Miller (1983)",
+  "balanced_estimate_36": "Balanced estimate",
+  "bmibased_healthy_weight_range_37": "BMI-Based Healthy Weight Range",
+  "kg_38": "kg",
+  "lbs_39": "lbs)",
+  "based_on_who_bmi_range_of_18525_kgm_this_range_pro_40": "Based on WHO BMI range of 18.5-25 kg/m². This range provides more flexibility than\n                          formula-based estimates.",
+  "calculation_details_41": "Calculation Details",
+  "input_summary_42": "Input Summary",
+  "age_43": "Age:",
+  "years_44": "years",
+  "gender_45": "Gender:",
+  "height_46": "Height:",
+  "cm_47": "cm (",
+  "inches_48": "inches)",
+  "inches_over_5_ft_49": "Inches over 5 ft:",
+  "inches_50": "inches",
+  "formula_examples_51": "Formula Examples",
+  "devine_52": "Devine (",
+  "bmi_range_53": "BMI Range:",
+  "k_18525_54": "18.5-25 × (",
+  "understanding_ideal_weight_55": "Understanding Ideal Weight",
+  "formula_comparison_56": "Formula Comparison",
+  "hamwi_57": "Hamwi:",
+  "oldest_formula_originally_for_drug_dosing_58": "Oldest formula, originally for drug dosing",
+  "devine_59": "Devine:",
+  "most_commonly_used_in_medical_practice_60": "Most commonly used in medical practice",
+  "robinson_61": "Robinson:",
+  "tends_to_give_slightly_lower_weights_62": "Tends to give slightly lower weights",
+  "miller_63": "Miller:",
+  "more_recent_balanced_approach_64": "More recent, balanced approach",
+  "example_calculation_65": "Example Calculation",
+  "female_56_16764_cm_66": "Female, 5'6\" (167.64 cm)",
+  "hamwi_455_22_6_67": "Hamwi: 45.5 + (2.2 × 6) =",
+  "k_587_kg_1295_lb_68": "58.7 kg (129.5 lb)",
+  "devine_455_23_6_69": "Devine: 45.5 + (2.3 × 6) =",
+  "k_593_kg_1307_lb_70": "59.3 kg (130.7 lb)",
+  "bmi_range_71": "BMI Range:",
+  "k_519701_kg_11451545_lb_72": "51.9-70.1 kg (114.5-154.5 lb)",
+  "important_considerations_73": "Important Considerations",
+  "formulas_dont_account_for_body_composition_74": "Formulas don't account for body composition",
+  "athletes_may_weigh_more_due_to_muscle_mass_75": "Athletes may weigh more due to muscle mass",
+  "bmi_range_provides_more_flexibility_76": "BMI range provides more flexibility",
+  "individual_health_factors_are_important_77": "Individual health factors are important",
+  "when_to_use_each_method_78": "When to Use Each Method",
+  "formulas_79": "Formulas:",
+  "quick_estimates_medical_dosing_80": "Quick estimates, medical dosing",
+  "bmi_range_81": "BMI Range:",
+  "general_health_guidelines_82": "General health guidelines",
+  "professional_assessment_83": "Professional Assessment:",
+  "body_composition_analysis_84": "Body composition analysis",
+  "personal_goals_85": "Personal Goals:",
+  "consider_fitness_and_health_status_86": "Consider fitness and health status"
+}

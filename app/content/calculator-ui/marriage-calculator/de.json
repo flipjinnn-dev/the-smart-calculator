@@ -1,0 +1,136 @@
+{
+  "pageTitle": "Heiratsrechner",
+  "pageDescription": "Berechnen Sie die Heirat mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Ehe",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Heiratsberechnung"
+  },
+  "educational": {
+    "info": "Informationen zur Ehe",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Ehedefinition",
+        "description": "Informationen zur Ehe"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "Wie die Ehe berechnet wird"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendungsmöglichkeiten der Ehe"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Eheschließung",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen zur Berechnung der Heirat ein",
+    "resultMessage": "Die Ergebnisse Ihrer Heiratsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Heiratsberechnung:",
+    "analysis": "Eheanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Heirat auf der Grundlage von Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt sind, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "marriage_tax_calculator_0": "Heiratssteuerrechner",
+  "state_city_tax_rate_1": "Steuersatz für Bundesstaat und Stadt (%)",
+  "spouse_1_income_2": "Ehepartner 1 Einkommen",
+  "salary_business_income_3": "Gehalt / Geschäftseinkommen",
+  "interest_dividend_income_4": "Zinsen + Dividendenerträge",
+  "passive_income_5": "Passives Einkommen",
+  "shortterm_capital_gains_6": "Kurzfristige Kapitalgewinne",
+  "longterm_capital_gains_7": "Langfristige Kapitalgewinne",
+  "qualified_dividends_8": "Qualifizierte Dividenden",
+  "k_401k_ira_savings_9": "401K, IRA... Ersparnisse",
+  "updated_tax_calculation_functions_10": "// Aktualisierte Steuerberechnungsfunktionen",
+  "use_standard_deduction_14600_11": "Standardabzug verwenden (14.600 $)",
+  "itemized_deductions_12": "Einzelabzüge",
+  "selfemployed_13": "Selbstständig?",
+  "spouse_2_income_14": "Einkommen des Ehepartners 2",
+  "salary_business_income_15": "Gehalt / Geschäftseinkommen",
+  "interest_dividend_income_16": "Zinsen + Dividendenerträge",
+  "passive_income_17": "Passives Einkommen",
+  "shortterm_capital_gains_18": "Kurzfristige Kapitalgewinne",
+  "longterm_capital_gains_19": "Langfristige Kapitalgewinne",
+  "qualified_dividends_20": "Qualifizierte Dividenden",
+  "k_401k_ira_savings_21": "401K, IRA... Ersparnisse",
+  "use_standard_deduction_14600_22": "Standardabzug verwenden (14.600 $)",
+  "itemized_deductions_23": "Einzelabzüge",
+  "selfemployed_24": "Selbstständig?",
+  "calculate_tax_impact_25": "Berechnen Sie die steuerlichen Auswirkungen",
+  "marriage_tax_results_26": "Ergebnisse der Heiratssteuer",
+  "tax_penalty_or_benefit_analysis_27": "Analyse von Steuerstrafen oder Vorteilen",
+  "of_total_income_28": "% des Gesamteinkommens",
+  "detailed_tax_breakdown_29": "Detaillierte Steueraufschlüsselung",
+  "category_30": "Kategorie",
+  "spouse_1_31": "Ehepartner 1",
+  "spouse_2_32": "Ehepartner 2",
+  "combined_not_married_33": "Kombiniert (nicht verheiratet)",
+  "joint_married_34": "Gemeinsam (verheiratet)",
+  "income_35": "Einkommen",
+  "federal_tax_36": "Bundessteuer",
+  "marginal_rate_37": "Grenzrate",
+  "social_security_tax_38": "Sozialversicherungssteuer",
+  "medicare_tax_39": "Medicare-Steuer",
+  "statecity_tax_40": "Staats- und Stadtsteuer",
+  "k_401k_ira_41": "401k, IRA...",
+  "final_take_home_42": "Letztes Mitnehmen",
+  "enter_both_spouses_information_to_see_your_marriag_43": "Geben Sie die Informationen beider Ehepartner ein, um die Auswirkungen auf Ihre Ehesteuer zu sehen",
+  "formulas_calculation_details_44": "Formeln und Berechnungsdetails",
+  "k_1_individual_income_calculation_45": "1. Berechnung des individuellen Einkommens",
+  "total_income_wages_interest_passive_stcg_ltcg_qual_46": "Gesamteinkommen = Löhne + Zinsen + Passiv + STCG + LTCG + qualifizierte Dividenden",
+  "taxable_income_total_income_deductions_selfemploym_47": "Steuerpflichtiges Einkommen = Gesamteinkommen – Abzüge – Steuerabzug für selbständige Erwerbstätigkeit",
+  "k_2_joint_income_calculation_48": "2. Gemeinsame Einkommensberechnung",
+  "joint_income_spouse_1_total_income_spouse_2_total__49": "Gemeinsames Einkommen = Gesamteinkommen von Ehegatte 1 + Gesamteinkommen von Ehegatte 2",
+  "joint_taxable_joint_income_joint_deductions_combin_50": "Gemeinsames Steuerpflichtiges = Gemeinsames Einkommen – Gemeinsame Abzüge – Kombinierter SE-Steuerabzug",
+  "k_3_marriage_penaltybenefit_51": "3. Heiratsstrafe/-vorteil",
+  "penaltybenefit_individual_tax_1_individual_tax_2_j_52": "Strafe/Vorteil = (Einzelsteuer 1 + Einzelsteuer 2) – Gemeinsame Steuer",
+  "positive_result_marriage_benefit_negative_result_m_53": "Positives Ergebnis = Ehegeld | Negatives Ergebnis = Heiratsstrafe",
+  "k_4_percentage_impact_54": "4. Prozentualer Einfluss",
+  "marriage_impact_penalty_or_benefit_joint_income_10_55": "Auswirkungen auf die Ehe % = (Strafe oder Vorteil ÷ gemeinsames Einkommen) × 100"
+}

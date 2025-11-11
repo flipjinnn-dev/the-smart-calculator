@@ -1,0 +1,216 @@
+{
+  "pageTitle": "Cooking Measurement Converter",
+  "pageDescription": "Convert between different cooking measurements including volume, weight, and temperature for recipes and culinary applications",
+  "form": {
+    "labels": {
+      "inputUnit": "Input Unit",
+      "outputUnit": "Output Unit",
+      "amount": "Amount",
+      "measurementType": "Measurement Type",
+      "ingredient": "Ingredient (for weight conversions)"
+    },
+    "placeholders": {
+      "amount": "Enter amount to convert"
+    },
+    "buttons": {
+      "convert": "Convert Measurement",
+      "reset": "Reset",
+      "calculate": "Calculate Cooking Measurement Converter"
+    },
+    "measurementTypes": {
+      "volume": "Volume",
+      "weight": "Weight",
+      "temperature": "Temperature"
+    },
+    "volumeUnits": {
+      "teaspoons": "Teaspoons (tsp)",
+      "tablespoons": "Tablespoons (tbsp)",
+      "fluidOunces": "Fluid Ounces (fl oz)",
+      "cups": "Cups",
+      "pints": "Pints",
+      "quarts": "Quarts",
+      "gallons": "Gallons",
+      "milliliters": "Milliliters (mL)",
+      "liters": "Liters (L)"
+    },
+    "weightUnits": {
+      "ounces": "Ounces (oz)",
+      "pounds": "Pounds (lb)",
+      "grams": "Grams (g)",
+      "kilograms": "Kilograms (kg)"
+    },
+    "temperatureUnits": {
+      "fahrenheit": "Fahrenheit (°F)",
+      "celsius": "Celsius (°C)",
+      "kelvin": "Kelvin (K)"
+    },
+    "ingredients": {
+      "water": "Water",
+      "flour": "All-Purpose Flour",
+      "sugar": "Granulated Sugar",
+      "butter": "Butter",
+      "oil": "Vegetable Oil",
+      "milk": "Milk",
+      "custom": "Custom Density"
+    }
+  },
+  "results": {
+    "convertedAmount": "Converted Amount",
+    "conversionResult": "Conversion Result",
+    "cookingResultsTitle": "Measurement Conversion Results",
+    "equivalentMeasurements": "Equivalent Measurements"
+  },
+  "educational": {
+    "cookingInfo": "Cooking Measurement Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Culinary Resources",
+    "measurementFacts": {
+      "volume": {
+        "title": "Volume Conversions",
+        "description": "1 cup = 16 tbsp = 48 tsp = 8 fl oz = 240 mL"
+      },
+      "weight": {
+        "title": "Weight Conversions",
+        "description": "1 lb = 16 oz = 453.6 g, 1 oz = 28.35 g"
+      },
+      "temperature": {
+        "title": "Temperature Conversions",
+        "description": "°F = (°C × 9/5) + 32, °C = (°F - 32) × 5/9"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides measurement conversions only",
+      "accuracy": "Weight measurements are more accurate than volume for dry ingredients"
+    },
+    "importantNotesList": [
+      "Weight measurements are generally more accurate than volume for dry ingredients",
+      "Ingredient density affects volume-to-weight conversions",
+      "Consider altitude and humidity when baking",
+      "Use appropriate measuring tools for best results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your cooking measurement to convert",
+    "resultMessage": "Your converted cooking measurement is shown below",
+    "assessmentResult": "Conversion Result:",
+    "cookingAnalysis": "Cooking Measurement Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides cooking measurement conversions based on standard equivalents. Actual weights may vary based on ingredient density, packing, and measuring technique."
+  },
+  "seekHelp": {
+    "title": "Culinary Resources",
+    "content": "For professional cooking advice and recipe development, consult culinary professionals or use specialized cooking resources and cookbooks for precise techniques."
+  },
+  "errors": {
+    "amount": "Please enter a valid amount",
+    "inputUnit": "Please select an input unit",
+    "outputUnit": "Please select an output unit",
+    "measurementType": "Please select a measurement type",
+    "ingredient": "Please select an ingredient"
+  },
+  "tooltips": {
+    "inputUnit": "The unit of measurement you're converting from",
+    "outputUnit": "The unit of measurement you're converting to",
+    "amount": "The amount you want to convert",
+    "measurementType": "Type of measurement (volume, weight, or temperature)",
+    "ingredient": "Ingredient type affects weight conversions"
+  },
+  "ingredient_measurements_0": "Ingredient Measurements",
+  "select_an_ingredient_and_enter_either_weight_or_vo_1": "Select an ingredient and enter either weight OR volume to convert between measurements",
+  "select_ingredient_2": "Select Ingredient",
+  "density_3": "Density",
+  "kgm_4": "kg/m³",
+  "gcm_5": "g/cm³",
+  "gml_6": "g/ml",
+  "lbft_7": "lb/ft³",
+  "weight_optional_8": "Weight (Optional)",
+  "g_9": "g",
+  "dag_10": "dag",
+  "kg_11": "kg",
+  "oz_12": "oz",
+  "lb_13": "lb",
+  "volume_optional_14": "Volume (Optional)",
+  "ml_15": "ml",
+  "l_16": "L",
+  "cups_17": "cups",
+  "tbsp_18": "tbsp",
+  "tsp_19": "tsp",
+  "fl_oz_20": "fl oz",
+  "convert_21": "Convert",
+  "reset_22": "Reset",
+  "results_23": "Results",
+  "ingredient_24": "Ingredient",
+  "density_25": "Density:",
+  "kgm_26": "kg/m³",
+  "input_weight_27": "Input Weight",
+  "kg_28": "kg",
+  "equivalent_volume_29": "Equivalent Volume",
+  "all_volume_conversions_30": "All Volume Conversions",
+  "ml_31": "ml",
+  "l_32": "L",
+  "cups_33": "cups",
+  "tbsp_34": "tbsp",
+  "tsp_35": "tsp",
+  "fl_oz_36": "fl oz",
+  "input_volume_37": "Input Volume",
+  "m_38": "m³",
+  "equivalent_weight_39": "Equivalent Weight",
+  "all_weight_conversions_40": "All Weight Conversions",
+  "g_41": "g",
+  "dag_42": "dag",
+  "kg_43": "kg",
+  "oz_44": "oz",
+  "lb_45": "lb",
+  "formula_used_46": "Formula Used",
+  "volume_weight_density_47": "Volume = Weight ÷ Density",
+  "v_48": "V =",
+  "kg_49": "kg ÷",
+  "kgm_50": "kg/m³ =",
+  "m_51": "m³",
+  "weight_volume_density_52": "Weight = Volume × Density",
+  "w_53": "W =",
+  "m_54": "m³ ×",
+  "kgm_55": "kg/m³ =",
+  "kg_56": "kg",
+  "select_an_ingredient_and_enter_either_57": "Select an ingredient and enter either",
+  "weight_or_volume_58": "weight OR volume",
+  "to_see_conversion_results_59": "to see conversion\n                          results.",
+  "understanding_cooking_measurement_conversion_60": "Understanding Cooking Measurement Conversion",
+  "core_formulas_61": "Core Formulas",
+  "weight_to_volume_62": "Weight to Volume:",
+  "volume_weight_density_63": "Volume = Weight ÷ Density",
+  "volume_to_weight_64": "Volume to Weight:",
+  "weight_volume_density_65": "Weight = Volume × Density",
+  "density_66": "Density:",
+  "mass_per_unit_volume_kgm_67": "Mass per unit volume (kg/m³)",
+  "common_ingredient_densities_68": "Common Ingredient Densities",
+  "water_69": "Water:",
+  "k_1000_kgm_70": "1000 kg/m³",
+  "flour_71": "Flour:",
+  "k_593_kgm_72": "593 kg/m³",
+  "sugar_73": "Sugar:",
+  "k_845_kgm_74": "845 kg/m³",
+  "salt_75": "Salt:",
+  "k_1217_kgm_76": "1217 kg/m³",
+  "milk_77": "Milk:",
+  "k_1030_kgm_78": "1030 kg/m³",
+  "oil_79": "Oil:",
+  "k_920_kgm_80": "920 kg/m³",
+  "honey_81": "Honey:",
+  "k_1420_kgm_82": "1420 kg/m³",
+  "butter_83": "Butter:",
+  "k_911_kgm_84": "911 kg/m³",
+  "practical_applications_85": "Practical Applications",
+  "recipe_scaling_86": "Recipe Scaling:",
+  "convert_between_weight_and_volume_measurements_whe_87": "Convert between weight and volume measurements when scaling\n                        recipes",
+  "international_recipes_88": "International Recipes:",
+  "convert_between_metric_and_us_customary_units_89": "Convert between metric and US customary units",
+  "precision_baking_90": "Precision Baking:",
+  "use_weight_measurements_for_more_accurate_results_91": "Use weight measurements for more accurate results",
+  "ingredient_substitution_92": "Ingredient Substitution:",
+  "calculate_amounts_when_substituting_ingredients_93": "Calculate amounts when substituting\n                        ingredients"
+}

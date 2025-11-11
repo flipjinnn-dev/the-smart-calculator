@@ -1,0 +1,134 @@
+{
+  "pageTitle": "Kalkulator średniej uzyskanej rundy",
+  "pageDescription": "Oblicz uzyskaną średnią run (ERA) dla miotaczy",
+  "form": {
+    "labels": {
+      "earnedRuns": "Zdobyte runy dozwolone",
+      "inningsPitched": "Rozbite inningi",
+      "gamesPlayed": "Rozgrywane gry (opcjonalnie)"
+    },
+    "placeholders": {
+      "earnedRuns": "Wprowadź dozwolone zdobyte przebiegi",
+      "inningsPitched": "Wprowadź liczbę rund narzuconych (np. 6,1 dla 6 inningów i 1 autu)",
+      "gamesPlayed": "Wprowadź liczbę rozegranych gier (opcjonalnie)"
+    },
+    "buttons": {
+      "calculate": "Oblicz ERA",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "earnedRunAverage": "Uzyskana średnia rundy (ERA)",
+    "runsPerGame": "Działa na mecz",
+    "performanceRating": "Ocena wydajności",
+    "leagueAverage": "Porównanie średniej ligi",
+    "historicalContext": "Kontekst historyczny"
+  },
+  "educational": {
+    "eraInfo": "Informacje o Erze",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby baseballu",
+    "eraFacts": {
+      "definition": {
+        "title": "Uzyskana średnia rund",
+        "description": "Średnia liczba zdobytych runów, które miotacz wykonuje w ciągu dziewięciu rozegranych rund"
+      },
+      "formula": {
+        "title": "Wzór obliczeniowy",
+        "description": "ERA = (dozwolone zdobyte runy × 9) / rundy rozrzucone"
+      },
+      "interpretation": {
+        "title": "Interpretacja wykonawcza",
+        "description": "ERA poniżej 3,00 jest doskonała, 3,00-4,00 jest powyżej średniej, 4,00-5,00 jest średnia, a powyżej 5,00 jest poniżej średniej"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator zawiera wyłącznie obliczenia ERA",
+      "actual": "Rzeczywista ocena wyników powinna uwzględniać dodatkowe statystyki i kontekst"
+    },
+    "importantNotesList": [
+      "ERA liczy tylko runy zdobyte, a nie runy wynikające z błędów w obronie",
+      "Niższy ERA oznacza lepszą wydajność rzucania",
+      "Należy również wziąć pod uwagę czynniki parkowania i siłę przeciwnika",
+      "Wielkość próby ma znaczenie – ERA ma większe znaczenie w wielu rundach"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź zdobyte runy i inningi, aby obliczyć ERA",
+    "resultMessage": "Wyniki obliczeń ERA pokazano poniżej",
+    "assessmentResult": "Wynik obliczeń ERA:",
+    "eraAnalysis": "Analiza ERA"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia obliczenia ERA w oparciu o standardowe formuły statystyki baseballu. Pełna ocena wyników powinna uwzględniać dodatkowe wskaźniki, kontekst i czynniki wielkości próby nieuwzględnione w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby baseballu",
+    "content": "Aby uzyskać kompleksową analizę statystyk baseballu i ocenę zawodników, odwiedź witryny referencyjne dotyczące baseballu, zasoby analityki sportowej lub profesjonalnych skautów i analityków."
+  },
+  "errors": {
+    "earnedRuns": "Wprowadź prawidłową liczbę zdobytych przebiegów",
+    "inningsPitched": "Wprowadź prawidłową liczbę rozegranych inningów",
+    "gamesPlayed": "Wprowadź prawidłową liczbę rozegranych gier"
+  },
+  "tooltips": {
+    "earnedRuns": "Liczba zdobytych runów dopuszczonych przez miotacz (runy nie wynikające z błędów w obronie)",
+    "inningsPitched": "Całkowita liczba rund narzuconych, w tym częściowe inningi (np. 6,1 na 6 inningów i 1 aut)",
+    "gamesPlayed": "Liczba gier, w których brał udział miotacz (opcjonalnie w dodatkowym kontekście)"
+  },
+  "pitching_statistics_0": "Statystyki pitchingu",
+  "enter_pitching_statistics_to_calculate_earned_run__1": "Wprowadź statystyki pitchingu, aby obliczyć średnią uzyskanych rund",
+  "earned_runs_er_2": "Zdobyte runy (ER)",
+  "whole_innings_pitched_3": "Rozbijane całe inningi",
+  "additional_outs_4": "Dodatkowe outy",
+  "game_length_5": "Długość gry",
+  "formula_6": "Formuła:",
+  "era_earned_runs_total_innings_game_innings_7": "ERA = (Zdobyte runy ÷ Całkowita liczba inningów) × Inningi w grze",
+  "total_innings_whole_innings_outs_3_each_out_repres_8": "Całkowita liczba inningów = całe inningi + (Outy ÷ 3). Każdy aut reprezentuje 1/3 rundy.",
+  "calculate_9": "Obliczać",
+  "era_results_10": "Wyniki ERA",
+  "era_11": "ERA",
+  "total_innings_12": "Całkowita liczba inningów",
+  "enter_pitching_statistics_and_click_13": "Wprowadź statystyki pitchingu i kliknij",
+  "calculate_14": "Obliczać",
+  "to_see_era_15": "aby zobaczyć ERA.",
+  "detailed_era_breakdown_16": "Szczegółowy podział ERA",
+  "era_17": "ERA",
+  "earned_run_average_18": "Uzyskana średnia rund",
+  "earned_runs_19": "Zdobyte runy",
+  "er_20": "Ostry dyżur",
+  "total_innings_21": "Całkowita liczba inningów",
+  "ip_22": "adres IP (",
+  "game_length_23": "Długość gry",
+  "innings_24": "okres pełnienia obowiązków",
+  "calculation_steps_25": "Kroki obliczeń:",
+  "step_1_26": "Krok 1:",
+  "total_innings_27": "Całkowita liczba inningów =",
+  "k_3_28": "/3) =",
+  "innings_29": "okres pełnienia obowiązków",
+  "step_2_30": "Krok 2:",
+  "era_31": "ERA = (",
+  "understanding_era_in_baseball_32": "Zrozumienie ERA w baseballu",
+  "what_is_era_33": "Co to jest ERA?",
+  "earned_run_average_era_measures_how_many_earned_ru_34": "Średnia zdobytych runów (ERA) mierzy, ile zarobionych runów wykonuje miotacz w ciągu dziewięciu rund\n                        rozbił. Jest to jedna z najważniejszych statystyk pozwalających ocenić skuteczność miotacza.",
+  "era_interpretation_35": "Interpretacja ERA",
+  "under_200_excellent_36": "Poniżej 2,00: Znakomicie",
+  "k_200300_very_good_37": "2.00-3.00: Bardzo dobrze",
+  "k_300400_good_38": "3.00-4.00: Dobrze",
+  "k_400500_average_39": "4.00-5.00: Średnia",
+  "above_500_below_average_40": "Powyżej 5,00: Poniżej średniej",
+  "sample_calculation_41": "Przykładowe obliczenia",
+  "example_42": "Przykład:",
+  "pitcher_statistics_43": "Statystyki miotacza",
+  "earned_runs_15_44": "Zdobyte runy: 15",
+  "innings_65_45": "Inningi: 65",
+  "outs_2_46": "Outy: 2",
+  "game_innings_9_47": "Inningi w grze: 9",
+  "calculation_48": "Obliczenie:",
+  "total_ip_65_23_6567_49": "Całkowite IP = 65 + (2/3) = 65,67",
+  "era_15_6567_9_50": "ERA = (15 ÷ 65,67) × 9",
+  "era_206_51": "ERA = 2,06"
+}

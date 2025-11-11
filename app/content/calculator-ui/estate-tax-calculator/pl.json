@@ -1,0 +1,139 @@
+{
+  "pageTitle": "Kalkulator podatku od nieruchomości",
+  "pageDescription": "Oblicz podatek od nieruchomości za pomocą naszego bezpłatnego kalkulatora online",
+  "form": {
+    "labels": {
+      "input1": "Wejście 1",
+      "input2": "Wejście 2",
+      "input3": "Wejście 3"
+    },
+    "placeholders": {
+      "input1": "Wprowadź pierwszą wartość",
+      "input2": "Wprowadź drugą wartość",
+      "input3": "Wprowadź trzecią wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz podatek od nieruchomości",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "result1": "Wynik 1",
+    "result2": "Wynik 2",
+    "calculationDetails": "Wyniki obliczeń podatku od nieruchomości"
+  },
+  "educational": {
+    "info": "Informacje o podatku od nieruchomości",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja podatku od nieruchomości",
+        "description": "Informacja o podatku od nieruchomości"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Jak naliczany jest podatek od nieruchomości"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Zastosowanie podatku od nieruchomości"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki podatku od nieruchomości",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć podatek od nieruchomości",
+    "resultMessage": "Wyniki obliczenia podatku od nieruchomości przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia podatku od nieruchomości:",
+    "analysis": "Analiza podatku od nieruchomości"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia oszacowanie podatku od nieruchomości w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "estate_tax_calculator_0": "Kalkulator podatku od nieruchomości",
+  "assets_1": "Aktywa",
+  "residence_other_real_estate_2": "Rezydencja i inne nieruchomości",
+  "stocks_bonds_other_investments_3": "Akcje, obligacje, inne inwestycje",
+  "savings_cds_checking_accounts_4": "Oszczędności, płyty CD, konta czekowe",
+  "vehicles_boats_other_properties_5": "Pojazdy, łodzie, inne nieruchomości",
+  "retirement_plans_6": "Plany emerytalne",
+  "life_insurance_benefit_7": "Świadczenie z ubezpieczenia na życie",
+  "other_assets_8": "Inne aktywa",
+  "liability_costs_and_deductibles_9": "Odpowiedzialność, koszty i odliczenia",
+  "debts_mortgages_loan_credit_cards_etc_10": "Zadłużenie (kredyty hipoteczne, pożyczki, karty kredytowe itp.)",
+  "funeral_administration_and_claims_expenses_11": "Koszty pogrzebu, administracji i roszczeń",
+  "charitable_contributions_12": "Darowizny na cele charytatywne",
+  "state_inheritance_or_estate_taxes_13": "Stanowe podatki od spadków i nieruchomości",
+  "deductions_14": "Odliczenia",
+  "charitable_contributions_15": "Darowizny na cele charytatywne",
+  "lifetime_gifted_amount_16": "Kwota podarowana na całe życie",
+  "total_amount_youve_gifted_tax_free_in_your_lifetim_17": "Całkowita kwota, którą podarowałeś bez podatku w ciągu swojego życia",
+  "calculate_tax_18": "Oblicz podatek",
+  "estate_tax_results_19": "Wyniki podatku od nieruchomości",
+  "your_complete_estate_tax_breakdown_20": "Twoje pełne zestawienie podatku od nieruchomości",
+  "net_taxable_estate_is_21": "Majątek netto podlegający opodatkowaniu wynosi",
+  "estate_tax_owed_22": "Należny podatek od nieruchomości:",
+  "no_estate_tax_is_owed_since_the_estate_is_below_th_23": "Nie jest należny podatek od nieruchomości, ponieważ majątek znajduje się poniżej progu zwolnienia.",
+  "assets_24": "Aktywa",
+  "residence_other_real_estate_25": "Rezydencja i inne nieruchomości",
+  "stocks_bonds_and_other_investments_26": "Akcje, obligacje i inne inwestycje",
+  "savings_cds_and_checking_account_balance_27": "Oszczędności, płyty CD i saldo konta czekowego",
+  "vehicles_boats_and_other_properties_28": "Pojazdy, łodzie i inne nieruchomości",
+  "retirement_plans_29": "Plany emerytalne",
+  "life_insurance_benefit_30": "Świadczenie z ubezpieczenia na życie",
+  "other_assets_31": "Inne aktywa",
+  "total_assets_32": "Aktywa ogółem",
+  "liability_costs_and_deductibles_33": "Odpowiedzialność, koszty i odliczenia",
+  "debts_mortgages_loan_credit_cards_etc_34": "Zadłużenie (kredyty hipoteczne, pożyczki, karty kredytowe itp.)",
+  "funeral_administration_and_claims_expenses_35": "Koszty pogrzebu, administracji i roszczeń",
+  "charitable_contributions_36": "Darowizny na cele charytatywne",
+  "state_inheritance_or_estate_taxes_37": "Stanowe podatki od spadków lub nieruchomości",
+  "total_liabilities_deductions_38": "Suma zobowiązań i odliczeń",
+  "lifetime_gifted_amount_39": "Kwota podarowana na całe życie",
+  "total_amount_youve_gifted_tax_free_in_your_lifetim_40": "Całkowita kwota, którą podarowałeś bez podatku w ciągu swojego życia",
+  "net_taxable_estate_41": "Majątek netto podlegający opodatkowaniu",
+  "federal_exemption_2025_42": "Zwolnienie federalne (2025)",
+  "taxable_estate_43": "Nieruchomość podlegająca opodatkowaniu",
+  "tax_rate_44": "Stawka podatku:",
+  "k_40_on_taxable_estate_above_exemption_45": "40% od majątku podlegającego opodatkowaniu powyżej zwolnienia",
+  "the_federal_estate_tax_rate_is_a_flat_40_on_the_am_46": "Federalna stawka podatku od nieruchomości wynosi 40% od kwoty przekraczającej zwolnienie w wysokości 13,99 mln USD\n                          2025.",
+  "enter_your_estate_information_to_see_your_results_47": "Wprowadź informacje o swojej posiadłości, aby zobaczyć wyniki",
+  "estate_tax_calculation_formula_48": "Wzór obliczania podatku od nieruchomości",
+  "k_1_total_assets_49": "1. Aktywa ogółem",
+  "assets_real_estate_investments_savings_vehicles_re_50": "Aktywa = Nieruchomości + Inwestycje + Oszczędności + Pojazdy + Plany emerytalne + Ubezpieczenie na życie +\n                        Inne aktywa",
+  "k_2_total_liabilities_51": "2. Całkowite zobowiązania",
+  "liabilities_mortgages_loans_credit_cards_funeral_e_52": "Pasywa = Kredyty hipoteczne + Pożyczki + Karty kredytowe + Koszty pogrzebu + Wydatki administracyjne +\n                        Roszczenia",
+  "k_3_gross_estate_53": "3. Majątek brutto",
+  "gross_estate_assets_liabilities_lifetime_gifts_cha_54": "Majątek brutto = aktywa – pasywa + darowizny dożywotnie – datki na cele charytatywne",
+  "k_4_taxable_estate_55": "4. Majątek podlegający opodatkowaniu",
+  "taxable_estate_max0_gross_estate_federal_exemption_56": "Majątek podlegający opodatkowaniu = max(0, majątek brutto – zwolnienie federalne)",
+  "k_5_estate_tax_owed_57": "5. Należny podatek od nieruchomości",
+  "estate_tax_taxable_estate_40_58": "Podatek od nieruchomości = majątek podlegający opodatkowaniu × 40%"
+}

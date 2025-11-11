@@ -1,0 +1,89 @@
+{
+  "pageTitle": "Overweight Calculator",
+  "pageDescription": "Calculate BMI for individuals with overweight",
+  "form": {
+    "labels": {
+      "weight": "Weight",
+      "height": "Height",
+      "weightUnit": "Weight Unit",
+      "heightUnit": "Height Unit"
+    },
+    "placeholders": {
+      "weight": "Enter your weight",
+      "height": "Enter your height"
+    },
+    "buttons": {
+      "calculate": "Calculate Overweight",
+      "reset": "Reset"
+    },
+    "units": {
+      "pounds": "Pounds (lbs)",
+      "kilograms": "Kilograms (kg)",
+      "inches": "Inches (in)",
+      "centimeters": "Centimeters (cm)",
+      "feetInches": "Feet and Inches (ft/in)"
+    }
+  },
+  "results": {
+    "bmi": "Body Mass Index (BMI)",
+    "bmiCategory": "BMI Category",
+    "healthyWeightRange": "Healthy Weight Range",
+    "weightToLose": "Weight to Lose for Healthy BMI",
+    "overweightLevel": "Overweight Level"
+  },
+  "educational": {
+    "overweightInfo": "Overweight Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Health Resources",
+    "overweightFacts": {
+      "definition": {
+        "title": "Overweight Definition",
+        "description": "Having a BMI between 25.0 and 29.9, which is above the healthy weight range"
+      },
+      "healthRisks": {
+        "title": "Health Risks",
+        "description": "Increased risk of heart disease, diabetes, high blood pressure, and other conditions"
+      },
+      "management": {
+        "title": "Weight Management",
+        "description": "Gradual weight loss through diet, exercise, and lifestyle changes is recommended"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides BMI calculations only",
+      "actual": "Consult healthcare professionals for personalized health assessments"
+    },
+    "importantNotesList": [
+      "BMI is a screening tool and not a diagnostic of body fatness or health",
+      "Muscle mass may affect BMI readings for athletes",
+      "Children and teens require age and sex-specific BMI calculations",
+      "Small weight changes can have significant health benefits"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your weight and height to calculate BMI",
+    "resultMessage": "Your BMI calculation results are shown below",
+    "assessmentResult": "BMI Calculation Result:",
+    "overweightAnalysis": "Overweight Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides BMI calculations based on standard health formulas. It is not a substitute for professional medical advice, diagnosis, or treatment. Individual health assessments should be conducted by qualified healthcare professionals."
+  },
+  "seekHelp": {
+    "title": "Health Resources",
+    "content": "For personalized weight management and health assessments, consult with healthcare professionals, registered dietitians, or certified fitness trainers who can provide guidance based on individual needs and medical history."
+  },
+  "errors": {
+    "weight": "Please enter a valid weight",
+    "height": "Please enter a valid height"
+  },
+  "tooltips": {
+    "weight": "Your current body weight",
+    "height": "Your current height",
+    "weightUnit": "Unit of measurement for weight",
+    "heightUnit": "Unit of measurement for height"
+  }
+}

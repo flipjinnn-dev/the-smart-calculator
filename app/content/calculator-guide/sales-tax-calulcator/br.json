@@ -1,0 +1,94 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de imposto sobre vendas - Encontre impostos sobre vendas pré-impostos, pós-impostos e reversos instantaneamente",
+      "content": "Nossa calculadora de imposto sobre vendas on-line ajuda você a calcular rapidamente o imposto sobre vendas, o preço antes dos impostos, o total após os impostos e o imposto reverso em apenas alguns segundos. Esteja você fazendo compras, preparando uma fatura ou administrando uma loja de comércio eletrônico, esta ferramenta economiza tempo, fornecendo valores precisos com e sem impostos."
+    },
+    {
+      "heading": "Como funciona a calculadora de imposto sobre vendas",
+      "subSections": [
+        {
+          "heading": "1. Adicionar imposto sobre vendas (imposto exclusivo → imposto incluído)",
+          "content": "Preço total = preço antes dos impostos + (preço antes dos impostos × taxa de imposto sobre vendas)"
+        },
+        {
+          "heading": "2. Encontre o imposto sobre vendas a partir do preço total (imposto reverso)",
+          "content": "Imposto sobre vendas = Preço total - (Preço total ÷ (1 + Taxa de imposto))"
+        },
+        {
+          "heading": "3. Preço antes dos impostos do total (imposto incluído → exclusivo)",
+          "content": "Preço antes dos impostos = Preço total ÷ (1 + Taxa de imposto)"
+        }
+      ]
+    },
+    {
+      "heading": "Exemplos de cálculo de imposto sobre vendas",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 (Adicionar Imposto)",
+          "content": "Preço do item = $ 100, Taxa de imposto sobre vendas = 8% → Total = $ 100 + ($ 100 × 0,08) = $ 108"
+        },
+        {
+          "heading": "Exemplo 2 (imposto reverso)",
+          "content": "Preço total (imposto incluído) = $ 108, Taxa de imposto = 8% → Preço antes dos impostos = $ 108 ÷ 1,08 = $ 100, Imposto sobre vendas = $ 108 – $ 100 = $ 8"
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso comuns",
+      "content": "Compras e varejo, faturas e faturamento, comércio eletrônico, cálculos específicos do estado (impostos estaduais dos EUA) e uso internacional (GST/HST do Canadá, IVA do Reino Unido)."
+    },
+    {
+      "heading": "Imposto sobre vendas x IVA (comparação rápida)",
+      "subSections": [
+        {
+          "heading": "Imposto sobre vendas (EUA)",
+          "content": "Cobrado no ponto final de venda ao consumidor."
+        },
+        {
+          "heading": "IVA (Reino Unido e UE)",
+          "content": "Adicionado em cada etapa da cadeia de abastecimento, com as empresas recuperando o imposto sobre insumos."
+        }
+      ]
+    },
+    {
+      "heading": "Por que usar esta calculadora?",
+      "content": "✔ Resultados instantâneos rápidos e precisos\n✔ Funciona para impostos antes de impostos, depois de impostos e impostos reversos\n✔ Abrange EUA, Canadá (GST/HST), IVA do Reino Unido e muito mais\n✔ Perfeito para compradores, freelancers, contadores e empresas"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como você calcula o imposto sobre vendas manualmente?",
+      "a": "Multiplique o preço antes dos impostos pela taxa de imposto sobre vendas e adicione-o ao preço original."
+    },
+    {
+      "q": "O que é imposto reverso sobre vendas e quando ele é útil?",
+      "a": "O imposto reverso sobre vendas ajuda você a encontrar o preço antes dos impostos quando você sabe apenas o valor total (incluindo impostos). Útil para recibos, faturas e contabilidade."
+    },
+    {
+      "q": "Como encontro o imposto sobre vendas no preço total?",
+      "a": "Use esta fórmula: Imposto sobre vendas = Preço total – (Preço total ÷ (1 + Taxa de imposto))"
+    },
+    {
+      "q": "Qual é a diferença entre IVA e imposto sobre vendas?",
+      "a": "O Imposto sobre Vendas é cobrado apenas na venda final, enquanto o IVA é cobrado em cada fase de produção e distribuição."
+    },
+    {
+      "q": "Como funciona o preço com impostos inclusivos e exclusivo?",
+      "a": "Imposto Exclusivo significa que o imposto é adicionado separadamente ao preço base, enquanto Imposto Incluído significa que o preço final já inclui imposto."
+    },
+    {
+      "q": "Qual é a taxa de imposto sobre vendas nos EUA?",
+      "a": "As taxas variam de acordo com o estado, por exemplo, Califórnia (7,25%), Nova York (4% estadual + taxas locais), Texas (6,25%). Sempre verifique sua tarifa local."
+    },
+    {
+      "q": "Posso usar esta calculadora para GST/HST do Canadá ou IVA do Reino Unido?",
+      "a": "Sim. A calculadora funciona com qualquer taxa de imposto, incluindo GST/HST do Canadá e IVA do Reino Unido."
+    },
+    {
+      "q": "O imposto sobre vendas é o mesmo para compras online e compras na loja?",
+      "a": "Depende. Muitos estados dos EUA agora exigem a cobrança de impostos sobre vendas de comércio eletrônico, semelhante às compras na loja."
+    }
+  ]
+}

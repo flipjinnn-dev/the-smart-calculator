@@ -1,0 +1,122 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de salário - calcule facilmente o pagamento bruto, líquido e líquido",
+      "content": "Nossa calculadora de salários ajuda você a determinar seu salário bruto e líquido, taxas por hora e pagamento líquido instantaneamente. Quer você seja um funcionário em tempo integral, freelancer, empreiteiro ou trabalhador horista, esta ferramenta lida com todos os tipos e estruturas salariais."
+    },
+    {
+      "heading": "Como calcular o salário",
+      "subSections": [
+        {
+          "heading": "1. Salário Bruto",
+          "content": "Lucro total antes de deduções como impostos, seguros e contribuições para aposentadoria."
+        },
+        {
+          "heading": "2. Salário líquido (pagamento líquido)",
+          "content": "Renda após todas as deduções terem sido aplicadas."
+        },
+        {
+          "heading": "3. Salário por período de pagamento",
+          "content": "Converta entre salários por hora, diários, mensais e anuais."
+        },
+        {
+          "heading": "4. Incluir ajustes",
+          "content": "Adicione bônus, horas extras e deduções para um detalhamento preciso."
+        },
+        {
+          "heading": "Exemplo",
+          "content": "Salário mensal = $ 4.000, deduções = $ 800 → Salário líquido = $ 3.200."
+        }
+      ]
+    },
+    {
+      "heading": "Tipos de salário que você pode calcular",
+      "subSections": [
+        {
+          "heading": "Calculadora de salário mensal",
+          "content": "Planeje seu orçamento mensal calculando o salário líquido."
+        },
+        {
+          "heading": "Calculadora de salário anual",
+          "content": "Veja sua renda anual, incluindo bônus e horas extras."
+        },
+        {
+          "heading": "Calculadora de taxa horária",
+          "content": "Converta o salário anual ou mensal em salário por hora."
+        },
+        {
+          "heading": "Calculadora de salário diário",
+          "content": "Estime o pagamento de empregos ou contratos de meio período."
+        },
+        {
+          "heading": "Divisão salarial por período de pagamento",
+          "content": "Entenda os ganhos semanais, quinzenais ou semestrais."
+        }
+      ]
+    },
+    {
+      "heading": "Benefícios de usar nossa calculadora salarial",
+      "content": "✔ Gratuito e Rápido – Não é necessária inscrição\n✔ Melhor Calculadora de Salário Online – Precisa e confiável\n✔ Calculadora de pagamento para levar para casa - Veja os ganhos pós-impostos\n✔ Calculadora de folha de pagamento – perfeita para funcionários e empresas\n✔ Funciona em todos os dispositivos – compatível com dispositivos móveis e desktop"
+    },
+    {
+      "heading": "Calculadora de salário para diferentes cenários",
+      "subSections": [
+        {
+          "heading": "Funcionários",
+          "content": "Calcule o salário líquido mensal ou anual com deduções."
+        },
+        {
+          "heading": "Freelancers e empreiteiros",
+          "content": "Ajuste para horários irregulares, impostos e pagamentos de projetos."
+        },
+        {
+          "heading": "Trabalhadores Horistas",
+          "content": "Converta salários por hora em renda diária, semanal ou mensal."
+        },
+        {
+          "heading": "Empregos de meio período",
+          "content": "Acompanhe horas reduzidas ou pagamento baseado em turnos."
+        },
+        {
+          "heading": "Ajustes salariais",
+          "content": "Use para aumentos, promoções ou alterações salariais."
+        }
+      ]
+    },
+    {
+      "heading": "Por que nossa calculadora se destaca",
+      "content": "✔ Suporta taxas de impostos internacionais\n✔ Compara vários períodos de pagamento\n✔ Inclui dias de férias e benefícios\n✔ Trabalha para funcionários, trabalhadores de meio período, autônomos e contratados"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como calculo meu salário após impostos?",
+      "a": "Use nossa calculadora de salário líquido para inserir o pagamento bruto, taxas de impostos e deduções. Ele mostra instantaneamente o seu salário líquido."
+    },
+    {
+      "q": "Qual é a diferença entre salário bruto e líquido?",
+      "a": "O salário bruto é a sua renda antes das deduções. O salário líquido é o que você retém após impostos e deduções."
+    },
+    {
+      "q": "Posso calcular minha taxa horária a partir do salário anual?",
+      "a": "Sim, a calculadora converte o pagamento anual ou mensal em salário por hora com base nas horas de trabalho."
+    },
+    {
+      "q": "Esta calculadora é boa para freelancers ou empreiteiros?",
+      "a": "Com certeza, é responsável por receitas irregulares, projetos e horários flexíveis."
+    },
+    {
+      "q": "Posso incluir bônus e horas extras?",
+      "a": "Sim, basta adicioná-los para obter uma discriminação precisa da renda total."
+    },
+    {
+      "q": "Funciona para empregos de meio período?",
+      "a": "Sim, você pode ajustar o horário para calcular o pagamento preciso de meio período."
+    },
+    {
+      "q": "Esta calculadora é gratuita?",
+      "a": "Sim, é 100% gratuito e sem custos ocultos."
+    }
+  ]
+}

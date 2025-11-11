@@ -1,0 +1,154 @@
+{
+  "pageTitle": "Calculadora de cartão de crédito",
+  "pageDescription": "Calcule seus pagamentos com cartão de crédito, cobranças de juros e cronograma de pagamento para gerenciar dívidas e planejar estratégias de pagamento",
+  "form": {
+    "labels": {
+      "balance": "Saldo Atual",
+      "interestRate": "Taxa de juros anual (APR)",
+      "monthlyPayment": "Pagamento Mensal",
+      "minimumPayment": "Porcentagem Mínima de Pagamento",
+      "extraPayment": "Pagamento Extra Mensal",
+      "paymentStrategy": "Estratégia de Pagamento"
+    },
+    "placeholders": {
+      "balance": "Insira o saldo atual do cartão de crédito",
+      "interestRate": "Insira a taxa de juros anual (%)",
+      "monthlyPayment": "Insira o valor do pagamento mensal",
+      "minimumPayment": "Insira a porcentagem mínima de pagamento (%)",
+      "extraPayment": "Insira o pagamento mensal extra (opcional)"
+    },
+    "buttons": {
+      "calculate": "Calcular pagamentos com cartão de crédito",
+      "reset": "Reiniciar"
+    },
+    "paymentStrategies": {
+      "fixed": "Pagamento Mensal Fixo",
+      "minimum": "Apenas pagamento mínimo",
+      "minimumPlus": "Pagamento Mínimo Mais Extra"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Pagamento Mensal",
+    "totalInterest": "Juros totais pagos",
+    "totalPayment": "Pagamento total",
+    "payoffTime": "Hora de pagar",
+    "interestSavings": "Economia de juros com pagamentos extras",
+    "creditCardResultsTitle": "Resultados do cálculo do cartão de crédito"
+  },
+  "educational": {
+    "creditCardInfo": "Informações do cartão de crédito",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "creditCardFacts": {
+      "interest": {
+        "title": "Juros de cartão de crédito",
+        "description": "Os juros são cobrados sobre saldos não pagos e compostos diariamente"
+      },
+      "minimumPayments": {
+        "title": "Pagamentos Mínimos",
+        "description": "Pagar apenas os mínimos estende o tempo de pagamento e aumenta os juros totais"
+      },
+      "debtReduction": {
+        "title": "Estratégias de redução da dívida",
+        "description": "Pagar mais do que o mínimo reduz significativamente o tempo de pagamento e os juros"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de pagamento com cartão de crédito",
+      "actual": "Os termos reais da conta podem variar com base nas políticas e taxas do emissor do cartão"
+    },
+    "importantNotesList": [
+      "Os juros do cartão de crédito aumentam diariamente, fazendo com que a dívida cresça rapidamente",
+      "Pagar apenas o mínimo pode levar anos para compensar e custar centenas de juros",
+      "Pagamentos extras reduzem diretamente o principal e economizam juros",
+      "Considere ofertas de transferência de saldo para consolidação de dívidas com juros altos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações do seu cartão de crédito para calcular o cronograma de pagamento",
+    "resultMessage": "Os resultados do cálculo do seu cartão de crédito são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do cartão de crédito:",
+    "creditCardAnalysis": "Análise de cartão de crédito"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de pagamento com cartão de crédito com base em fórmulas financeiras padrão. Os termos reais da conta, pagamentos e juros podem variar com base nas políticas do emissor do cartão, taxas e outros fatores não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para aconselhamento personalizado sobre gestão de dívidas e estratégias de reembolso, consulte conselheiros de crédito ou consultores financeiros com experiência em redução de dívidas e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "balance": "Insira um saldo de cartão de crédito válido",
+    "interestRate": "Insira uma taxa de juros anual válida",
+    "monthlyPayment": "Insira um valor de pagamento mensal válido",
+    "minimumPayment": "Insira uma porcentagem de pagamento mínimo válida",
+    "extraPayment": "Insira um valor de pagamento extra válido",
+    "paymentStrategy": "Selecione uma estratégia de pagamento"
+  },
+  "tooltips": {
+    "balance": "Saldo pendente atual em seu cartão de crédito",
+    "interestRate": "Taxa percentual anual (APR) cobrada sobre saldos não pagos",
+    "monthlyPayment": "Valor que você planeja pagar por mês",
+    "minimumPayment": "Porcentagem do saldo que representa o pagamento mínimo",
+    "extraPayment": "Valor adicional pago a cada mês em relação ao principal",
+    "paymentStrategy": "Método usado para determinar o valor do pagamento mensal"
+  },
+  "credit_card_calculator_0": "Calculadora de cartão de crédito",
+  "credit_card_information_1": "Informações do cartão de crédito",
+  "current_balance_2": "Saldo Atual",
+  "annual_interest_rate_apr_3": "Taxa de juros anual (APR)",
+  "payment_strategy_4": "Estratégia de Pagamento",
+  "fixed_monthly_payment_calculate_time_5": "Pagamento Mensal Fixo (Calcular tempo)",
+  "payoff_in_fixed_timeframe_calculate_payment_6": "Pagamento em prazo fixo (calcular pagamento)",
+  "minimum_payment_interest_of_balance_7": "Pagamento Mínimo (Juros +% do Saldo)",
+  "monthly_payment_amount_8": "Valor do pagamento mensal",
+  "years_9": "Anos",
+  "months_10": "Meses",
+  "principal_payment_of_balance_11": "Pagamento do principal (% do saldo)",
+  "k_1_12": "1%",
+  "k_2_13": "2%",
+  "k_3_14": "3%",
+  "k_4_15": "4%",
+  "k_5_16": "5%",
+  "calculate_17": "Calcular",
+  "payoff_results_18": "Resultados de recompensa",
+  "your_debt_payoff_breakdown_19": "O detalhamento do pagamento da sua dívida",
+  "your_balance_will_be_paid_off_in_20": "Seu saldo será pago em:",
+  "years_21": "anos",
+  "months_22": "meses",
+  "required_monthly_payment_23": "Pagamento mensal obrigatório:",
+  "total_interest_paid_24": "Juros totais pagos",
+  "total_amount_paid_25": "Valor Total Pago",
+  "payment_schedule_26": "Cronograma de Pagamento",
+  "download_csv_27": "Baixar CSV",
+  "month_28": "Mês",
+  "balance_29": "Equilíbrio",
+  "interest_30": "Interesse",
+  "payment_31": "Pagamento",
+  "principal_32": "Principal",
+  "showing_first_24_months_download_csv_for_complete__33": "Mostrando os primeiros 24 meses. Baixe CSV para programação completa.",
+  "enter_your_credit_card_information_to_see_payoff_r_34": "Insira as informações do seu cartão de crédito para ver os resultados do pagamento",
+  "formulas_behind_the_calculation_35": "Fórmulas por trás do cálculo",
+  "monthly_interest_rate_36": "Taxa de juros mensal",
+  "monthly_rate_annual_rate_12_37": "Taxa Mensal = Taxa Anual ÷ 12",
+  "balance_recurrence_38": "Recorrência de saldo",
+  "new_balance_previous_balance_1_monthly_rate_paymen_39": "Novo Saldo = Saldo Anterior × (1 + Taxa Mensal) - Pagamento",
+  "fixed_payment_payoff_time_40": "Pagamento Fixo: Tempo de Pagamento",
+  "n_lnp_p_b_r_ln1_r_41": "n = ln(P / (P - B₀ × r)) ÷ ln(1 + r)",
+  "fixed_timeframe_required_payment_42": "Prazo fixo: pagamento obrigatório",
+  "p_b_r_1r_1r_1_43": "P = B₀ × r × (1+r)ⁿ ÷ ((1+r)ⁿ - 1)",
+  "example_scenarios_44": "Cenários de exemplo",
+  "scenario_1_aggressive_payoff_45": "Cenário 1: Pagamento Agressivo",
+  "balance_5000_46": "• Saldo: US$ 5.000",
+  "apr_1899_47": "• TAEG: 18,99%",
+  "payment_300month_48": "• Pagamento: US$ 300/mês",
+  "result_19_months_850_interest_49": "• Resultado: aproximadamente 19 meses, juros de US$ 850",
+  "scenario_2_minimum_payment_50": "Cenário 2: Pagamento Mínimo",
+  "balance_5000_51": "• Saldo: US$ 5.000",
+  "apr_1899_52": "• TAEG: 18,99%",
+  "payment_2_of_balance_53": "• Pagamento: 2% do saldo",
+  "result_30_years_15000_interest_54": "• Resultado: aproximadamente 30 anos ou mais, US$ 15.000 ou mais de juros"
+}

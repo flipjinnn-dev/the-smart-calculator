@@ -1,0 +1,145 @@
+{
+  "pageTitle": "Kalorienrechner",
+  "pageDescription": "Berechnen Sie den täglichen Kalorienbedarf basierend auf Ihrem Lebensstil, Ihren Zielen und Ihrem Aktivitätsniveau für Gewichtsverlust, Erhaltung oder Muskelaufbau",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "weight": "Gewicht",
+      "height": "Höhe",
+      "unitSystem": "Einheitensystem",
+      "activityLevel": "Aktivitätsniveau",
+      "goal": "Gewichtsziel",
+      "calculationMethod": "Berechnungsmethode"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Kalorien berechnen",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Bewegungsmangel (wenig oder keine Bewegung)",
+      "light": "Leicht aktiv (leichte Bewegung 1–3 Tage/Woche)",
+      "moderate": "Mäßig aktiv (mäßige Bewegung an 3–5 Tagen/Woche)",
+      "active": "Sehr aktiv (hartes Training an 6–7 Tagen/Woche)",
+      "veryActive": "Extrem aktiv (sehr harte Bewegung und körperliche Arbeit)"
+    },
+    "goals": {
+      "lose": "Gewichtsverlust",
+      "maintain": "Gewichtserhaltung",
+      "gain": "Gewichtszunahme"
+    },
+    "calculationMethods": {
+      "mifflin": "Mifflin-St-Jeor-Gleichung",
+      "harris": "Harris-Benedict-Gleichung",
+      "revisedHarris": "Überarbeitete Harris-Benedict-Gleichung"
+    }
+  },
+  "results": {
+    "bmr": "Grundumsatz (BMR)",
+    "tdee": "Gesamter täglicher Energieaufwand (TDEE)",
+    "calorieNeeds": "Täglicher Kalorienbedarf",
+    "calorieAdjustment": "Kalorienanpassung für das Ziel",
+    "calorieResultsTitle": "Kalorienergebnisse"
+  },
+  "educational": {
+    "calorieInfo": "Kalorieninformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ernährungsressourcen",
+    "calorieFacts": {
+      "bmr": {
+        "title": "Grundumsatz (BMR)",
+        "description": "Kalorien, die zur Aufrechterhaltung grundlegender Körperfunktionen im Ruhezustand benötigt werden"
+      },
+      "tdee": {
+        "title": "Gesamter täglicher Energieaufwand (TDEE)",
+        "description": "Gesamter Kalorienverbrauch an einem Tag, einschließlich Aktivität und Training"
+      },
+      "adjustments": {
+        "title": "Zielbasierte Anpassungen",
+        "description": "Gewichtsverlust: 500–1000 Kalorien unter TDEE, Gewichtszunahme: 250–500 Kalorien über TDEE"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Kalorienschätzungen",
+      "individual": "Der Kalorienbedarf variiert je nach individuellen Faktoren und Stoffwechsel"
+    },
+    "importantNotesList": [
+      "Bei diesen Berechnungen handelt es sich um Schätzungen, die je nach Ergebnis möglicherweise angepasst werden müssen",
+      "Ein schneller Gewichtsverlust wird nicht empfohlen und kann ungesund sein",
+      "Ziehen Sie in Betracht, einen Arzt zu konsultieren, bevor Sie wesentliche Ernährungsumstellungen vornehmen",
+      "Regelmäßige Bewegung ist unabhängig von den Gewichtszielen wichtig für die allgemeine Gesundheit"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Daten ein, um den täglichen Kalorienbedarf zu berechnen",
+    "resultMessage": "Ihr täglicher Kalorienbedarf wird unten angezeigt",
+    "assessmentResult": "Ergebnis der Kalorienberechnung:",
+    "calorieAnalysis": "Kalorienanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Kalorienschätzungen basierend auf mathematischen Formeln. Der individuelle Kalorienbedarf kann aufgrund von Faktoren variieren, die in diesen Berechnungen nicht berücksichtigt werden, einschließlich Genetik, Gesundheitszustand und Stoffwechsel."
+  },
+  "seekHelp": {
+    "title": "Ernährungsressourcen",
+    "content": "Für individuelle Ernährungsberatung und Pläne zur Gewichtskontrolle wenden Sie sich an registrierte Ernährungsberater oder medizinische Fachkräfte mit Fachkenntnissen in Ernährungswissenschaft und individuellen Gesundheitsbedürfnissen."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "activityLevel": "Bitte wählen Sie das Aktivitätsniveau aus",
+    "goal": "Bitte wählen Sie ein Gewichtsziel aus",
+    "calculationMethod": "Bitte wählen Sie eine Berechnungsmethode aus"
+  },
+  "tooltips": {
+    "age": "Das Alter beeinflusst die Stoffwechselrate",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "activityLevel": "Ihr regelmäßiges Aktivitätsniveau beeinflusst den Kalorienbedarf",
+    "goal": "Ihr Gewichtsziel bestimmt die Kalorienanpassung",
+    "calculationMethod": "Unterschiedliche Gleichungen können zu leicht unterschiedlichen Ergebnissen führen"
+  },
+  "personal_information_0": "Persönliche Informationen",
+  "enter_your_details_to_calculate_calorie_needs_1": "Geben Sie Ihre Daten ein, um den Kalorienbedarf zu berechnen",
+  "age_2": "Alter",
+  "gender_3": "Geschlecht",
+  "male_4": "Männlich",
+  "female_5": "Weiblich",
+  "height_cm_6": "Höhe (cm)",
+  "weight_kg_7": "Gewicht (kg)",
+  "activity_level_8": "Aktivitätsniveau",
+  "sedentary_littleno_exercise_9": "Bewegungsmangel (wenig/keine Bewegung)",
+  "light_light_exercise_13_daysweek_10": "Leicht (leichtes Training 1-3 Tage/Woche)",
+  "moderate_moderate_exercise_35_daysweek_11": "Mäßig (mäßiges Training 3–5 Tage/Woche)",
+  "active_hard_exercise_67_daysweek_12": "Aktiv (hartes Training 6-7 Tage/Woche)",
+  "very_active_very_hard_exercise_physical_job_13": "Sehr aktiv (sehr harte körperliche Betätigung, körperliche Arbeit)",
+  "calculate_14": "Berechnen",
+  "your_calorie_needs_15": "Ihr Kalorienbedarf",
+  "daily_calorie_requirements_for_different_goals_16": "Täglicher Kalorienbedarf für verschiedene Ziele",
+  "maintenance_calories_17": "Wartungskalorien",
+  "calories_to_maintain_current_weight_18": "Kalorien zur Aufrechterhaltung des aktuellen Gewichts",
+  "weight_loss_1_lbweek_19": "Gewichtsverlust (1 Pfund/Woche)",
+  "calories_20": "Kalorien",
+  "weight_gain_1_lbweek_21": "Gewichtszunahme (1 Pfund/Woche)",
+  "calories_22": "Kalorien",
+  "basal_metabolic_rate_bmr_23": "Grundumsatz (BMR)",
+  "calories_24": "Kalorien",
+  "enter_your_information_to_calculate_calorie_needs_25": "Geben Sie Ihre Daten ein, um den Kalorienbedarf zu berechnen"
+}

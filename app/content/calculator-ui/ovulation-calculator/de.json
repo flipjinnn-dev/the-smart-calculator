@@ -1,0 +1,134 @@
+{
+  "pageTitle": "Eisprungrechner",
+  "pageDescription": "Berechnen Sie den Eisprung mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den Eisprung",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Ovulationsberechnung"
+  },
+  "educational": {
+    "info": "Informationen zum Eisprung",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Definition des Eisprungs",
+        "description": "Informationen zum Eisprung"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "Wie der Eisprung berechnet wird"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendungsmöglichkeiten des Eisprungs"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zum Eisprung",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um den Eisprung zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Eisprungberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Ovulationsberechnung:",
+    "analysis": "Ovulationsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Eisprungschätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt sind, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "ovulation_calculation_0": "Berechnung des Eisprungs",
+  "enter_your_menstrual_cycle_details_to_calculate_ov_1": "Geben Sie die Daten Ihres Menstruationszyklus ein, um die Daten des Eisprungs zu berechnen",
+  "first_day_of_your_last_period_2": "Erster Tag Ihrer letzten Periode *",
+  "average_length_of_cycle_3": "Durchschnittliche Zykluslänge *",
+  "days_4": "Tage",
+  "average_menstrual_cycle_length_ranges_from_22_to_4_5": "Die durchschnittliche Länge des Menstruationszyklus liegt zwischen 22 und 44 Tagen (typisch sind 28 Tage).",
+  "calculate_6": "Berechnen",
+  "reset_7": "Zurücksetzen",
+  "fertility_window_8": "Fruchtbarkeitsfenster",
+  "most_probable_ovulation_9": "Höchstwahrscheinlicher Eisprung",
+  "fertile_window_10": "Fruchtbares Fenster:",
+  "enter_your_cycle_details_to_calculate_your_fertile_11": "Geben Sie Ihre Zyklusdaten ein, um Ihr fruchtbares Fenster zu berechnen.",
+  "your_ovulation_results_12": "Ihre Ovulationsergebnisse",
+  "current_cycle_13": "Aktueller Zyklus",
+  "most_probable_ovulation_date_14": "Wahrscheinlichster Eisprungtermin:",
+  "ovulation_window_15": "Eisprungfenster:",
+  "best_intercourse_window_16": "Bestes Zeitfenster für den Geschlechtsverkehr:",
+  "important_dates_17": "Wichtige Termine",
+  "pregnancy_test_date_18": "Datum des Schwangerschaftstests:",
+  "next_period_start_19": "Beginn der nächsten Periode:",
+  "due_date_if_pregnant_20": "Geburtstermin (falls schwanger):",
+  "next_6_cycles_forecast_21": "Prognose für die nächsten 6 Zyklen",
+  "cycle_22": "Zyklus",
+  "cycle_start_23": "Zyklusstart",
+  "ovulation_date_24": "Datum des Eisprungs",
+  "fertile_window_25": "Fruchtbares Fenster",
+  "next_period_26": "Nächste Periode",
+  "due_date_27": "Fälligkeitsdatum",
+  "understanding_ovulation_28": "Eisprung verstehen",
+  "how_it_works_29": "Wie es funktioniert",
+  "ovulation_typically_occurs_14_days_before_your_nex_30": "Der Eisprung findet normalerweise 14 Tage vor Ihrer nächsten Periode statt",
+  "the_egg_survives_for_about_1224_hours_after_ovulat_31": "Die Eizelle überlebt nach dem Eisprung etwa 12 bis 24 Stunden",
+  "sperm_can_survive_in_the_reproductive_tract_for_up_32": "Spermien können im Fortpflanzungstrakt bis zu 5 Tage überleben",
+  "the_fertile_window_is_approximately_6_days_long_33": "Das fruchtbare Fenster dauert etwa 6 Tage",
+  "best_times_for_conception_34": "Beste Zeiten für die Empfängnis",
+  "highest_probability_35": "Höchste Wahrscheinlichkeit:",
+  "k_12_days_before_ovulation_36": "1-2 Tage vor dem Eisprung",
+  "good_probability_37": "Gute Wahrscheinlichkeit:",
+  "day_of_ovulation_38": "Tag des Eisprungs",
+  "lower_probability_39": "Geringere Wahrscheinlichkeit:",
+  "k_35_days_before_ovulation_40": "3-5 Tage vor dem Eisprung",
+  "very_low_41": "Sehr niedrig:",
+  "after_ovulation_day_42": "Nach dem Tag des Eisprungs",
+  "signs_of_ovulation_43": "Anzeichen des Eisprungs",
+  "changes_in_cervical_mucus_clear_stretchy_44": "Veränderungen im Zervixschleim (klar, dehnbar)",
+  "slight_increase_in_basal_body_temperature_45": "Leichter Anstieg der Basaltemperatur",
+  "mild_pelvic_or_abdominal_pain_46": "Leichte Becken- oder Bauchschmerzen",
+  "breast_tenderness_47": "Brustspannen",
+  "increased_libido_48": "Erhöhte Libido",
+  "important_notes_49": "Wichtige Hinweise",
+  "this_calculator_provides_estimates_based_on_averag_50": "Dieser Rechner liefert Schätzungen basierend auf durchschnittlichen Zyklen",
+  "actual_ovulation_can_vary_by_12_days_51": "Der tatsächliche Eisprung kann um 1-2 Tage variieren",
+  "stress_illness_and_lifestyle_can_affect_timing_52": "Stress, Krankheit und Lebensstil können das Timing beeinflussen",
+  "consult_healthcare_providers_for_fertility_concern_53": "Wenden Sie sich bei Fruchtbarkeitsproblemen an Ihren Arzt"
+}

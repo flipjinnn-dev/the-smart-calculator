@@ -1,0 +1,98 @@
+{
+  "pageTitle": "Kalkulator powierzchni ciała (BSA).",
+  "pageDescription": "Oblicz powierzchnię swojego ciała za pomocą wzorów medycznych, takich jak Du Bois, Mosteller, Haycock oraz Gehan & George",
+  "form": {
+    "labels": {
+      "weight": "Waga",
+      "height": "Wysokość",
+      "weightUnit": "Jednostka wagi",
+      "heightUnit": "Jednostka wysokości",
+      "formula": "Wzór obliczeniowy"
+    },
+    "placeholders": {
+      "weight": "Wpisz swoją wagę",
+      "height": "Podaj swój wzrost"
+    },
+    "buttons": {
+      "calculate": "Oblicz BSA",
+      "reset": "Nastawić"
+    },
+    "units": {
+      "kilograms": "Kilogramy (kg)",
+      "pounds": "Funty (funty)",
+      "centimeters": "Centymetry (cm)",
+      "inches": "Cale (cale)",
+      "feetInches": "Stopy i cale (ft/in)"
+    },
+    "formulas": {
+      "duBois": "Formuła Du Boisa",
+      "mosteller": "Formuła Mostellera",
+      "haycock": "Formuła Haycocka",
+      "gehanGeorge": "Formuła Gehana i George’a"
+    }
+  },
+  "results": {
+    "bsaResult": "Powierzchnia ciała (BSA)",
+    "formulaUsed": "Zastosowana formuła",
+    "weightInKg": "Waga (kg)",
+    "heightInCm": "Wysokość (cm)",
+    "normalRange": "Normalny zakres",
+    "interpretation": "Interpretacja BSA"
+  },
+  "educational": {
+    "bsaInfo": "Informacje o powierzchni ciała",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby zdrowotne",
+    "bsaFacts": {
+      "definition": {
+        "title": "Definicja powierzchni ciała",
+        "description": "BSA to całkowita powierzchnia ciała ludzkiego, zwykle wyrażana w metrach kwadratowych (m²)"
+      },
+      "formulas": {
+        "title": "Wzory obliczeniowe",
+        "description": "Dla dorosłych i dzieci stosuje się różne formuły, przy czym Du Bois jest standardem klinicznym"
+      },
+      "applications": {
+        "title": "Zastosowania medyczne",
+        "description": "Służy do dawkowania leków, uzupełniania płynów i oceny czynności nerek"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki BSA",
+      "actual": "Skonsultuj się z pracownikami służby zdrowia w celu uzyskania spersonalizowanej oceny medycznej"
+    },
+    "importantNotesList": [
+      "BSA jest dokładniejszy niż BMI w przypadku niektórych obliczeń medycznych",
+      "Dla określonych populacji bardziej odpowiednie mogą być inne formuły",
+      "Wyniki nie powinny zastępować profesjonalnej porady lekarskiej",
+      "Skład ciała i nawodnienie mogą mieć wpływ na dokładność"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wpisz swoją wagę i wzrost, aby obliczyć powierzchnię ciała",
+    "resultMessage": "Wyniki obliczeń powierzchni ciała przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia BSA:",
+    "bsaAnalysis": "Analiza powierzchni ciała"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten pozwala oszacować powierzchnię ciała na podstawie standardowych wzorów medycznych. Wyniki nie powinny zastępować profesjonalnej porady lekarskiej, diagnozy ani leczenia. Indywidualne oceny powinny być przeprowadzane przez wykwalifikowanych pracowników służby zdrowia."
+  },
+  "seekHelp": {
+    "title": "Zasoby zdrowotne",
+    "content": "Aby uzyskać spersonalizowaną ocenę medyczną i plany leczenia, należy skonsultować się z pracownikami służby zdrowia, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i historię medyczną."
+  },
+  "errors": {
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "height": "Proszę podać prawidłowy wzrost"
+  },
+  "tooltips": {
+    "weight": "Twoja aktualna masa ciała",
+    "height": "Twój obecny wzrost",
+    "weightUnit": "Jednostka miary wagi",
+    "heightUnit": "Jednostka miary wzrostu",
+    "formula": "Wybierz formułę, która będzie używana do obliczania BSA"
+  }
+}

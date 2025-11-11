@@ -1,0 +1,98 @@
+{
+  "pageTitle": "Calculadora da área de superfície corporal (BSA)",
+  "pageDescription": "Calcule a área de superfície corporal usando fórmulas médicas como Du Bois, Mosteller, Haycock e Gehan & George",
+  "form": {
+    "labels": {
+      "weight": "Peso",
+      "height": "Altura",
+      "weightUnit": "Unidade de Peso",
+      "heightUnit": "Unidade de Altura",
+      "formula": "Fórmula de cálculo"
+    },
+    "placeholders": {
+      "weight": "Digite seu peso",
+      "height": "Digite sua altura"
+    },
+    "buttons": {
+      "calculate": "Calcular BSA",
+      "reset": "Reiniciar"
+    },
+    "units": {
+      "kilograms": "Quilogramas (kg)",
+      "pounds": "Libras (lbs)",
+      "centimeters": "Centímetros (cm)",
+      "inches": "Polegadas (pol.)",
+      "feetInches": "Pés e polegadas (pés/pol.)"
+    },
+    "formulas": {
+      "duBois": "Fórmula Du Bois",
+      "mosteller": "Fórmula de Mosteller",
+      "haycock": "Fórmula Haycock",
+      "gehanGeorge": "Fórmula Gehan e George"
+    }
+  },
+  "results": {
+    "bsaResult": "Área de Superfície Corporal (ASC)",
+    "formulaUsed": "Fórmula usada",
+    "weightInKg": "Peso (kg)",
+    "heightInCm": "Altura (cm)",
+    "normalRange": "Faixa normal",
+    "interpretation": "Interpretação BSA"
+  },
+  "educational": {
+    "bsaInfo": "Informações sobre a superfície corporal",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos de saúde",
+    "bsaFacts": {
+      "definition": {
+        "title": "Definição da área de superfície corporal",
+        "description": "BSA é a área total da superfície do corpo humano, geralmente expressa em metros quadrados (m²)"
+      },
+      "formulas": {
+        "title": "Fórmulas de cálculo",
+        "description": "Diferentes fórmulas são utilizadas para adultos e crianças, sendo Du Bois o padrão clínico"
+      },
+      "applications": {
+        "title": "Aplicações Médicas",
+        "description": "Usado para dosagem de medicamentos, reposição de líquidos e avaliações da função renal"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de BSA",
+      "actual": "Consulte profissionais de saúde para avaliações médicas personalizadas"
+    },
+    "importantNotesList": [
+      "A BSA é mais precisa que o IMC para certos cálculos médicos",
+      "Diferentes fórmulas podem ser mais apropriadas para populações específicas",
+      "Os resultados não devem substituir o aconselhamento médico profissional",
+      "A composição corporal e a hidratação podem afetar a precisão"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira seu peso e altura para calcular a área de superfície corporal",
+    "resultMessage": "Os resultados do cálculo da área de superfície corporal são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo BSA:",
+    "bsaAnalysis": "Análise da área de superfície corporal"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas da área de superfície corporal com base em fórmulas médicas padrão. Os resultados não devem substituir o aconselhamento, diagnóstico ou tratamento médico profissional. As avaliações individuais devem ser realizadas por profissionais de saúde qualificados."
+  },
+  "seekHelp": {
+    "title": "Recursos de saúde",
+    "content": "Para avaliações médicas e planos de tratamento personalizados, consulte profissionais de saúde que podem fornecer orientações com base nas necessidades individuais e no histórico médico."
+  },
+  "errors": {
+    "weight": "Por favor insira um peso válido",
+    "height": "Insira uma altura válida"
+  },
+  "tooltips": {
+    "weight": "Seu peso corporal atual",
+    "height": "Sua altura atual",
+    "weightUnit": "Unidade de medida para peso",
+    "heightUnit": "Unidade de medida para altura",
+    "formula": "Selecione a fórmula a ser usada para cálculo de BSA"
+  }
+}

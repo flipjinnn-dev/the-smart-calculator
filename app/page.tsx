@@ -1,6 +1,9 @@
+"use client"
+
 import type { Metadata } from "next"
 import Head from "next/head"
 import Link from "next/link"
+import { useState, useEffect } from "react"
 import {
   Calculator,
   TrendingUp,
@@ -15,211 +18,324 @@ import {
   Beef,
 } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
-import Logo from "@/components/logo"
 import SearchBar from "@/components/search-bar"
-import { getCalculatorCount } from "@/lib/calculator-data"
+import { getCalculatorCount, getCalculatorByName, calculators } from "@/lib/calculator-data"
+import { getLocalizedCategoryUrl, getLocalizedCalculatorUrl } from "@/lib/url-utils"
+import { useHomepageContent } from "@/hooks/useHomepageContent"
 
-export const metadata: Metadata = {
-  title: "Smart Calculator - Free Online Calculators for Every Need",
-  description:
-    "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
-  keywords: "calculator, online calculator, financial calculator, health calculator, math calculator, free tools",
-  openGraph: {
-    title: "Smart Calculator - Free Online Calculators",
-    description: "Access hundreds of free online calculators for every need",
-    type: "website",
-    url: "https://www.thesmartcalculator.com/",
-  },
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/",
-  },
+// Define category icons mapping
+const categoryIcons: Record<string, React.ComponentType<any>> = {
+  financial: TrendingUp,
+  health: Heart,
+  maths: Calculator,
+  physics: Atom,
+  construction: Home,
+  food: Beef,
+  sports: Bike,
+  other: MoreHorizontal,
 }
 
-const categories = [
-  {
-    id: "financial",
-    name: "Financial",
-    description: "Loan, mortgage, investment, and tax calculators",
-    icon: TrendingUp,
-    color: "from-green-400 to-green-600",
-    bgColor: "bg-green-50",
-    textColor: "text-green-600",
-    calculators: getCalculatorCount("financial"),
-    href: "/financial",
-  },
-  {
-    id: "health",
-    name: "Health & Fitness",
-    description: "BMI, calorie, nutrition, and medical calculators",
-    icon: Heart,
-    color: "from-red-400 to-red-600",
-    bgColor: "bg-red-50",
-    textColor: "text-red-600",
-    calculators: getCalculatorCount("health"),
-    href: "/health",
-  },
-  {
-    id: "maths",
-    name: "Maths",
-    description: "Algebra, geometry, statistics, and advanced maths",
-    icon: Calculator,
-    color: "from-blue-400 to-blue-600",
-    bgColor: "bg-blue-50",
-    textColor: "text-blue-600",
-    calculators: getCalculatorCount("maths"),
-    href: "/maths",
-  },
-  {
-    id: "physics",
-    name: "Physics",
-    description: "Force, energy, motion, and physics calculations",
-    icon: Atom,
-    color: "from-yellow-400 to-yellow-600",
-    bgColor: "bg-yellow-50",
-    textColor: "text-yellow-600",
-    calculators: getCalculatorCount("physics"),
-    href: "/physics",
-  },
-  {
-    id: "construction",
-    name: "Construction",
-    description: "Property, rent, and construction calculations",
-    icon: Home,
-    color: "from-purple-400 to-purple-600",
-    bgColor: "bg-purple-50",
-    textColor: "text-purple-600",
-    calculators: getCalculatorCount("construction"),
-    href: "/construction",
-  },
-  {
-    id: "food",
-    name: "Food",
-    description: "Nutrition, calorie, and meal planning calculators",
-    icon: Beef,
-    color: "from-orange-400 to-red-500",
-    bgColor: "bg-orange-50",
-    textColor: "text-orange-600",
-    calculators: getCalculatorCount("food"),
-    href: "/food",
-  },
-  {
-    id: "sports",
-    name: "Sports",
-    description: "Fitness, exercise, and sports-related calculators",
-    icon: Bike,
-    color: "from-blue-400 to-cyan-500",
-    bgColor: "bg-blue-50",
-    textColor: "text-blue-600",
-    calculators: getCalculatorCount("sports"),
-    href: "/sports",
-  },
-  {
-    id: "other",
-    name: "Other",
-    description: "Miscellaneous calculators that don't fit into other categories",
-    icon: MoreHorizontal,
-    color: "from-gray-400 to-gray-600",
-    bgColor: "bg-gray-50",
-    textColor: "text-pink-600",
-    calculators: getCalculatorCount("other"),
-    href: "/other-calculators",
-  },
-]
-
-const popularCalculators = [
-  {
-    name: "Mortgage Calculator",
-    category: "Financial",
-    href: "/financial/mortgage-calculator",
-    description: "Calculate monthly payments and total interest for your home loan",
-    color: "bg-gradient-to-r from-green-400 to-green-600",
-  },
-  {
-    name: "BMI Calculator",
-    category: "Health",
-    href: "/health/bmi-calculator",
-    description: "Calculate your Body Mass Index and understand your weight status",
-    color: "bg-gradient-to-r from-red-400 to-red-600",
-  },
-  {
-    name: "Loan Calculator",
-    category: "Financial",
-    href: "/financial/loan-calculator",
-    description: "Calculate loan payments and schedules for any type of loan",
-    color: "bg-gradient-to-r from-green-400 to-green-600",
-  },
-  {
-    name: "Percentage Calculator",
-    category: "Maths",
-    href: "/maths/percentage-calculator",
-    description: "Calculate percentages, ratios, and percentage changes easily",
-    color: "bg-gradient-to-r from-blue-400 to-blue-600",
-  },
-  {
-    name: "Compound Interest",
-    category: "Financial",
-    href: "/financial/compound-interest-calculator",
-    description: "Calculate investment growth over time with compound interest",
-    color: "bg-gradient-to-r from-green-400 to-green-600",
-  },
-  {
-    name: "Calorie Calculator",
-    category: "Health",
-    href: "/health/calorie-calculator",
-    description: "Calculate daily calorie needs based on your lifestyle and goals",
-    color: "bg-gradient-to-r from-red-400 to-red-600",
-  },
-]
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: "Smart Calculator",
-  description: "Free online calculators for finance, health, math, physics, and more",
-  url: "https://www.thesmartcalculator.com/",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate: "https://www.thesmartcalculator.com/search?q={search_term_string}",
-    },
-    "query-input": "required name=search_term_string",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Smart Calculator",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.thesmartcalculator.com/logo.png",
-    },
-  },
+// Define feature icons mapping
+const featureIcons: Record<string, React.ComponentType<any>> = {
+  0: Rocket,
+  1: Shield,
+  2: Sparkles,
 }
 
 export default function HomePage() {
+  // Detect language from URL path or headers
+  const [language, setLanguage] = useState("en");
+  
+  useEffect(() => {
+    // First try to get language from headers (set by middleware)
+    const headerLanguage = document.head.querySelector('meta[name="x-language"]')?.getAttribute('content');
+    console.log('Header language:', headerLanguage);
+    
+    if (headerLanguage) {
+      setLanguage(headerLanguage);
+      return;
+    }
+    
+    // Fallback to URL path detection
+    const path = window.location.pathname;
+    console.log('Current path:', path);
+    const langMatch = path.match(/^\/(br|pl|de)/);
+    const detectedLanguage = langMatch ? langMatch[1] : "en";
+    console.log('Detected language:', detectedLanguage);
+    setLanguage(detectedLanguage);
+  }, []);
+
+  const { content, loading, error } = useHomepageContent(language);
+
+  // Show loading state
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+  }
+
+  // Show error if content failed to load
+  if (error) {
+    return <div className="min-h-screen flex items-center justify-center">Error loading content: {error}</div>;
+  }
+
+  // Use content or fallback to defaults
+  const contentData = content || {
+    meta: {
+      title: "",
+      description: "",
+      keywords: ""
+    },
+    header: {
+      title: "",
+      subtitle: ""
+    },
+    hero: {
+      title: "",
+      description: ""
+    },
+    search: {
+      title: "",
+      placeholder: ""
+    },
+    categories: {
+      title: "",
+      description: "",
+      financial: {
+        name: "",
+        description: ""
+      },
+      health: {
+        name: "",
+        description: ""
+      },
+      maths: {
+        name: "",
+        description: ""
+      },
+      physics: {
+        name: "",
+        description: ""
+      },
+      construction: {
+        name: "",
+        description: ""
+      },
+      food: {
+        name: "",
+        description: ""
+      },
+      sports: {
+        name: "",
+        description: ""
+      },
+      other: {
+        name: "",
+        description: ""
+      }
+    },
+    popular: {
+      title: "",
+      description: "",
+      calculators: []
+    },
+    features: {
+      title: "",
+      description: "",
+      items: []
+    }
+  };
+
+  // Define the fallback calculators with href
+  const fallbackCalculators = [
+    {
+      name: "Mortgage Calculator",
+      category: "Financial",
+      description: "Calculate monthly payments and total interest for your home loan",
+      href: "/financial/mortgage-calculator"
+    },
+    {
+      name: "BMI Calculator",
+      category: "Health",
+      description: "Calculate your Body Mass Index and understand your weight status",
+      href: "/health/bmi-calculator"
+    },
+    {
+      name: "Loan Calculator",
+      category: "Financial",
+      description: "Calculate loan payments and schedules for any type of loan",
+      href: "/financial/loan-calculator"
+    },
+    {
+      name: "Percentage Calculator",
+      category: "Maths",
+      description: "Calculate percentages, ratios, and percentage changes easily",
+      href: "/maths/percentage-calculator"
+    },
+    {
+      name: "Compound Interest Calculator",
+      category: "Financial",
+      description: "Calculate investment growth over time with compound interest",
+      href: "/financial/compound-interest-calculator"
+    },
+    {
+      name: "Calorie Calculator",
+      category: "Health",
+      description: "Calculate daily calorie needs based on your lifestyle and goals",
+      href: "/health/calorie-calculator"
+    }
+  ];
+  
+  // Use content data if available, otherwise use fallback
+  // For translated content, we match by index position since the order is consistent
+  const calculatorsToUse = contentData.popular.calculators.length > 0 
+    ? contentData.popular.calculators.map((calc: any, index: number) => {
+        // Get the href from the fallback calculators by index position
+        const fallbackCalc = fallbackCalculators[index];
+        return {
+          ...calc,
+          href: fallbackCalc ? fallbackCalc.href : "#"
+        };
+      })
+    : fallbackCalculators;
+
+  // Update metadata based on content
+  const metadata: Metadata = {
+    title: contentData.meta.title || "Smart Calculator - Free Online Calculators for Every Need",
+    description: contentData.meta.description || "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
+    keywords: contentData.meta.keywords || "calculator, online calculator, financial calculator, health calculator, math calculator, free tools",
+    openGraph: {
+      title: contentData.meta.title || "Smart Calculator - Free Online Calculators for Every Need",
+      description: contentData.meta.description || "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
+      type: "website",
+      url: "https://www.thesmartcalculator.com/",
+    },
+    alternates: {
+      canonical: "https://www.thesmartcalculator.com/",
+    },
+  };
+
+  const categories = [
+    {
+      id: "financial",
+      name: contentData.categories.financial.name || "Financial",
+      description: contentData.categories.financial.description || "Loan, mortgage, investment, and tax calculators",
+      icon: categoryIcons.financial,
+      color: "from-green-400 to-green-600",
+      bgColor: "bg-green-50",
+      textColor: "text-green-600",
+      calculators: getCalculatorCount("financial"),
+      href: getLocalizedCategoryUrl("financial", language),
+    },
+    {
+      id: "health",
+      name: contentData.categories.health.name || "Health & Fitness",
+      description: contentData.categories.health.description || "BMI, calorie, nutrition, and medical calculators",
+      icon: categoryIcons.health,
+      color: "from-red-400 to-red-600",
+      bgColor: "bg-red-50",
+      textColor: "text-red-600",
+      calculators: getCalculatorCount("health"),
+      href: getLocalizedCategoryUrl("health", language),
+    },
+    {
+      id: "maths",
+      name: contentData.categories.maths.name || "Maths",
+      description: contentData.categories.maths.description || "Algebra, geometry, statistics, and advanced maths",
+      icon: categoryIcons.maths,
+      color: "from-blue-400 to-blue-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-600",
+      calculators: getCalculatorCount("maths"),
+      href: getLocalizedCategoryUrl("maths", language),
+    },
+    {
+      id: "physics",
+      name: contentData.categories.physics.name || "Physics",
+      description: contentData.categories.physics.description || "Force, energy, motion, and physics calculations",
+      icon: categoryIcons.physics,
+      color: "from-yellow-400 to-yellow-600",
+      bgColor: "bg-yellow-50",
+      textColor: "text-yellow-600",
+      calculators: getCalculatorCount("physics"),
+      href: getLocalizedCategoryUrl("physics", language),
+    },
+    {
+      id: "construction",
+      name: contentData.categories.construction.name || "Construction",
+      description: contentData.categories.construction.description || "Property, rent, and construction calculations",
+      icon: categoryIcons.construction,
+      color: "from-purple-400 to-purple-600",
+      bgColor: "bg-purple-50",
+      textColor: "text-purple-600",
+      calculators: getCalculatorCount("construction"),
+      href: getLocalizedCategoryUrl("construction", language),
+    },
+    {
+      id: "food",
+      name: contentData.categories.food.name || "Food",
+      description: contentData.categories.food.description || "Nutrition, calorie, and meal planning calculators",
+      icon: categoryIcons.food,
+      color: "from-orange-400 to-red-500",
+      bgColor: "bg-orange-50",
+      textColor: "text-orange-600",
+      calculators: getCalculatorCount("food"),
+      href: getLocalizedCategoryUrl("food", language),
+    },
+    {
+      id: "sports",
+      name: contentData.categories.sports.name || "Sports",
+      description: contentData.categories.sports.description || "Fitness, exercise, and sports-related calculators",
+      icon: categoryIcons.sports,
+      color: "from-blue-400 to-cyan-500",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-600",
+      calculators: getCalculatorCount("sports"),
+      href: getLocalizedCategoryUrl("sports", language),
+    },
+    {
+      id: "other",
+      name: contentData.categories.other.name || "Other",
+      description: contentData.categories.other.description || "Miscellaneous calculators that don't fit into other categories",
+      icon: categoryIcons.other,
+      color: "from-gray-400 to-gray-600",
+      bgColor: "bg-gray-50",
+      textColor: "text-pink-600",
+      calculators: getCalculatorCount("other"),
+      href: getLocalizedCategoryUrl("other", language),
+    },
+  ];
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: contentData.meta.title || "Smart Calculator",
+    description: contentData.meta.description || "Free online calculators for finance, health, math, physics, and more",
+    url: "https://www.thesmartcalculator.com/",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: "https://www.thesmartcalculator.com/search?q={search_term_string}",
+      },
+      "query-input": "required name=search_term_string",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Smart Calculator",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.thesmartcalculator.com/logo.png",
+      },
+    },
+  };
+
   return (
     <>
       <Head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <meta name="x-language" content={language} />
       </Head>
 
       <div className="min-h-screen bg-white">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-center items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <p className="text-2xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-red-500 bg-clip-text text-transparent">
-                    Smart Calculators
-                  </p>
-                  <p className="text-sm text-gray-500">Free Online Calculators</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
         <section className="relative py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50/80 via-blue-50/80 to-red-50/80 overflow-hidden">
           <div className="absolute hidden md:block inset-0 overflow-hidden h-[300px] md:h-[60vh] opacity-[0.5]">
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-gradient-to-br from-green-400/30 to-green-600/30 rounded-full blur-xl"></div>
@@ -236,18 +352,14 @@ export default function HomePage() {
             <div className="text-center md:grid md:grid-cols-2 md:gap-20 md:items-center md:min-h-[500px] md:text-left space-y-10 md:space-y-0">
               {/* Left side - Hero text */}
               <div className="space-y-6 md:space-y-8">
-                <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
-                  Your life in{" "}
-                  <span className="bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent">
-                    90+ free
-                  </span>
-                  <br />
-                  calculators
+                <h1 
+                  className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 leading-tight"
+                  dangerouslySetInnerHTML={{ __html: contentData.hero.title || "Your life in <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">90+ free</span> calculators" }}
+                >
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 max-w-md md:max-w-lg mx-auto md:mx-0">
                   <span className="hidden md:inline">
-                    From financial planning to health tracking, discover powerful calculation tools that make complex
-                    math simple and accessible.
+                    {contentData.hero.description || "From financial planning to health tracking, discover powerful calculation tools that make complex math simple and accessible."}
                   </span>
                 </p>
               </div>
@@ -257,8 +369,8 @@ export default function HomePage() {
                 <div className="w-full max-w-md md:max-w-lg px-4 md:px-0">
                   <div className="bg-white/90 md:bg-white/95 backdrop-blur-sm md:backdrop-blur-md rounded-2xl md:rounded-3xl p-4 md:p-8 shadow-lg md:shadow-2xl border border-white/20 md:border-white/30 hover:shadow-3xl transition-all duration-300">
                     <div className="hidden md:block mb-4">
-                      <h2 className="text-lg font-semibold text-gray-800 mb-2">Find your calculator</h2>
-                      <p className="text-sm text-gray-600">Search from hundreds of free tools</p>
+                      <h2 className="text-lg font-semibold text-gray-800 mb-2">{contentData.search.title || "Find your calculator"}</h2>
+                      <p className="text-sm text-gray-600">{contentData.search.placeholder || "Search from hundreds of free tools"}</p>
                     </div>
                     <SearchBar />
                   </div>
@@ -271,9 +383,9 @@ export default function HomePage() {
             <section className="py-12 md:py-20 px-4 sm:px-6 lg:px-8">
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-12">
-                  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Calculator Categories</h2>
+                  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{contentData.categories.title || "Calculator Categories"}</h2>
                   <p className="text-lg hidden md:block text-gray-600">
-                    Explore our comprehensive collection of specialized calculators
+                    {contentData.categories.description || "Explore our comprehensive collection of specialized calculators"}
                   </p>
                 </div>
 
@@ -335,14 +447,31 @@ export default function HomePage() {
         <section className="py-12 md:py-20 px-2 sm:px-6 lg:px-8 bg-gray-50">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-10 md:mb-16">
-              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">Most Popular Calculators</h2>
-              <p className="text-base md:text-xl text-gray-600">Our most frequently used calculation tools</p>
+              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">{contentData.popular.title || "Most Popular Calculators"}</h2>
+              <p className="text-base md:text-xl text-gray-600">{contentData.popular.description || "Our most frequently used calculation tools"}</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 animate-stagger">
-              {popularCalculators.map((calc, index) => (
-                <Link key={index} href={calc.href}>
+              {console.log('Content data calculators:', contentData.popular.calculators)}
+              {console.log('Content data length:', contentData.popular.calculators.length)}
+              {console.log('Using fallback?', contentData.popular.calculators.length === 0)}
+              {console.log('Calculators to use:', calculatorsToUse)}
+              {calculatorsToUse.map((calc: any, index: number) => {
+                // Get the English href directly from the data or use fallback
+                const englishHref = calc.href || "#";
+                const localizedHref = getLocalizedCalculatorUrl(englishHref, language);
+                
+                // Debug logging
+                console.log(`Calculator: ${calc.name}`, {
+                  englishHref,
+                  language,
+                  localizedHref,
+                  calcData: calc
+                });
+                
+                return (
+                <Link key={index} href={localizedHref !== "#" ? localizedHref : "#"}>
                   <Card className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 cursor-pointer border-0 shadow-lg overflow-hidden h-full flex flex-col">
-                    <div className={`h-2 ${calc.color}`}></div>
+                    <div className={`h-2 ${index % 3 === 0 ? 'bg-gradient-to-r from-green-400 to-green-600' : index % 3 === 1 ? 'bg-gradient-to-r from-red-400 to-red-600' : 'bg-gradient-to-r from-blue-400 to-blue-600'}`}></div>
                     <CardContent className="p-5 md:p-8 flex-1 flex flex-col">
                       <div className="flex-1">
                         <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-2 md:mb-3 group-hover:text-blue-600 transition-colors">
@@ -364,7 +493,7 @@ export default function HomePage() {
                     </CardContent>
                   </Card>
                 </Link>
-              ))}
+              )})}
             </div>
           </div>
         </section>
@@ -374,42 +503,39 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-10 md:mb-16">
               <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">
-                Why Choose Smart Calculator?
+                {contentData.features.title || "Why Choose Smart Calculator?"}
               </h2>
-              <p className="text-base md:text-xl text-gray-600">Fast, accurate, and completely free to use</p>
+              <p className="text-base md:text-xl text-gray-600">{contentData.features.description || "Fast, accurate, and completely free to use"}</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
-              {[
+              {(contentData.features.items.length > 0 ? contentData.features.items : [
                 {
                   title: "Lightning Fast",
-                  description: "Get instant results with our optimized calculation engines",
-                  icon: Rocket,
-                  color: "from-blue-400 to-blue-600",
-                  bgColor: "bg-blue-50",
+                  description: "Get instant results with our optimized calculation engines"
                 },
                 {
                   title: "100% Accurate",
-                  description: "All calculators are verified by experts and mathematically precise",
-                  icon: Shield,
-                  color: "from-green-400 to-green-600",
-                  bgColor: "bg-green-50",
+                  description: "All calculators are verified by experts and mathematically precise"
                 },
                 {
                   title: "Always Free",
-                  description: "Complete access to all calculators with no hidden charges ever",
-                  icon: Sparkles,
-                  color: "from-purple-400 to-purple-600",
-                  bgColor: "bg-purple-50",
-                },
-              ].map((feature, index) => {
-                const IconComponent = feature.icon
+                  description: "Complete access to all calculators with no hidden charges ever"
+                }
+              ]).map((feature: any, index: number) => {
+                const IconComponent = featureIcons[index] || Rocket;
+                const colorClasses = index === 0 
+                  ? "from-blue-400 to-blue-600 bg-blue-50" 
+                  : index === 1 
+                    ? "from-green-400 to-green-600 bg-green-50" 
+                    : "from-purple-400 to-purple-600 bg-purple-50";
+                
                 return (
                   <Card
                     key={index}
                     className="text-center p-6 md:p-8 border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                   >
                     <div
-                      className={`w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-6 rounded-2xl bg-gradient-to-r ${feature.color} flex items-center justify-center shadow-lg`}
+                      className={`w-14 h-14 md:w-16 md:h-16 mx-auto mb-4 md:mb-6 rounded-2xl bg-gradient-to-r ${colorClasses.split(' ')[0]} ${colorClasses.split(' ')[1]} flex items-center justify-center shadow-lg`}
                     >
                       <IconComponent className="w-7 h-7 md:w-8 md:h-8 text-white" />
                     </div>

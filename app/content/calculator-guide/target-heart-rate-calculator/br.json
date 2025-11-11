@@ -1,0 +1,106 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "O que é frequência cardíaca alvo?",
+      "content": "Sua frequência cardíaca alvo (THR) é a faixa ideal de batimentos por minuto (BPM) em que seu coração deve trabalhar durante o exercício para maximizar a eficácia e ao mesmo tempo permanecer seguro. Ajuda a garantir que você está treinando na intensidade certa, seja seu objetivo perder peso, aumentar a resistência, saúde cardiovascular ou desempenho atlético.\n\nPermanecer na zona alvo de frequência cardíaca ajuda a queimar gordura com eficiência, melhorar a capacidade aeróbica e evitar o overtraining."
+    },
+    {
+      "heading": "Como calcular sua frequência cardíaca alvo",
+      "subSections": [
+        {
+          "heading": "1. Frequência cardíaca máxima (220 – Fórmula etária)",
+          "content": "Fórmula: 220 – Idade = Frequência Cardíaca Máxima (FCM)\n\nZona alvo: 50–85% da sua FCM\n\nExemplo: Aos 30 anos → 220 – 30 = 190 FCM → Zona alvo = 95–162 BPM"
+        },
+        {
+          "heading": "2. Fórmula de Karvonen (Método de Reserva de Frequência Cardíaca)",
+          "content": "Mais personalizado, considera a frequência cardíaca de repouso (FCR).\n\nFórmula: THR = ((FCM – FCR) ×% Intensidade) + FCR\n\nMelhor para atletas ou aqueles com objetivos de treinamento específicos."
+        },
+        {
+          "heading": "3. Fórmula Tanaka (alternativa para precisão)",
+          "content": "Fórmula: 208 – (0,7 × Idade)\n\nMuitas vezes mais preciso para adultos mais velhos."
+        }
+      ]
+    },
+    {
+      "heading": "Zonas de treinamento de frequência cardíaca",
+      "subSections": [
+        {
+          "heading": "Zona de aquecimento (50–60% FCM)",
+          "content": "Atividade suave, boa para iniciantes e recuperação."
+        },
+        {
+          "heading": "Zona de queima de gordura (60–70% MHR)",
+          "content": "Queima a gordura armazenada e auxilia na perda de peso."
+        },
+        {
+          "heading": "Zona Cardio (70–80% FCM)",
+          "content": "Aumenta a resistência, fortalece o coração e os pulmões."
+        },
+        {
+          "heading": "Zona de Pico/HIIT (80–90% FCM)",
+          "content": "Melhora a velocidade, potência e VO₂ máximo."
+        },
+        {
+          "heading": "Esforço Máximo (90–100% FCM)",
+          "content": "Rajadas curtas, apenas para treinamento avançado."
+        }
+      ]
+    },
+    {
+      "heading": "Frequência cardíaca alvo por idade (exemplo de gráfico)",
+      "content": "Idade | FCM estimada (220 – Idade) | 50–85% da zona alvo (BPM)\n--- | --- | ---\n20 | 200 | 100–170\n30 | 190 | 95–162\n40 | 180 | 90–153\n50 | 170 | 85–145\n60 | 160 | 80–136\n70 | 150 | 75–128\n\n(Os valores são estimativas; aplica-se variação individual.)"
+    },
+    {
+      "heading": "Benefícios do treinamento na sua zona alvo de frequência cardíaca",
+      "subSections": [
+        {
+          "heading": "Perda de peso",
+          "content": "Treine na zona de queima de gordura para uma queima constante de calorias."
+        },
+        {
+          "heading": "Cardio-Fitness",
+          "content": "Melhore a eficiência cardíaca e pulmonar na zona cardio."
+        },
+        {
+          "heading": "Resistência e desempenho esportivo",
+          "content": "A zona de pico ajuda os atletas a ultrapassar limites."
+        },
+        {
+          "heading": "Exercícios HIIT",
+          "content": "Alternar entre zonas moderadas e de pico aumenta o metabolismo."
+        },
+        {
+          "heading": "Exercício seguro para idosos",
+          "content": "As zonas inferiores mantêm a saúde sem esforço excessivo."
+        }
+      ]
+    },
+    {
+      "heading": "⚠️ Isenção de responsabilidade importante",
+      "content": "Esta calculadora fornece apenas orientações gerais sobre condicionamento físico. Sempre consulte um médico ou treinador certificado antes de iniciar um novo programa de exercícios, especialmente se você tiver um problema cardíaco, tomar medicamentos ou for novo nos exercícios."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual é a melhor fórmula para calcular a frequência cardíaca alvo?",
+      "a": "A fórmula de 220 anos é a mais comum, mas a fórmula de Karvonen é mais precisa, pois inclui a frequência cardíaca em repouso."
+    },
+    {
+      "q": "Qual frequência cardíaca devo atingir durante o cardio?",
+      "a": "A maioria das pessoas deve permanecer na faixa de 70–85% da FCM para um treinamento cardiovascular eficaz."
+    },
+    {
+      "q": "Posso usar um smartwatch ou monitor de fitness?",
+      "a": "Sim. Dispositivos como Apple Watch, Fitbit e Garmin usam dados de RH em tempo real para mantê-lo na sua zona-alvo."
+    },
+    {
+      "q": "É seguro exceder minha frequência cardíaca alvo?",
+      "a": "Picos ocasionais são normais, mas exceder consistentemente a THR pode aumentar lesões ou risco cardíaco. Permaneça dentro dos limites seguros, a menos que seja supervisionado."
+    },
+    {
+      "q": "Qual é uma boa meta de frequência cardíaca para idosos?",
+      "a": "Adultos com mais de 60 anos devem atingir 50-70% da sua FCM, concentrando-se na segurança e na resistência constante."
+    }
+  ]
+}

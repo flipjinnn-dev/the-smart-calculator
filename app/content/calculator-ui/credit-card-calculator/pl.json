@@ -1,0 +1,154 @@
+{
+  "pageTitle": "Kalkulator karty kredytowej",
+  "pageDescription": "Oblicz płatności kartą kredytową, odsetki i harmonogram spłat, aby zarządzać długiem i planować strategie spłaty",
+  "form": {
+    "labels": {
+      "balance": "Aktualne saldo",
+      "interestRate": "Roczna stopa procentowa (RRSO)",
+      "monthlyPayment": "Płatność miesięczna",
+      "minimumPayment": "Minimalny procent płatności",
+      "extraPayment": "Dodatkowa płatność miesięczna",
+      "paymentStrategy": "Strategia płatności"
+    },
+    "placeholders": {
+      "balance": "Wprowadź aktualne saldo karty kredytowej",
+      "interestRate": "Wprowadź roczną stopę procentową (%)",
+      "monthlyPayment": "Wprowadź miesięczną kwotę płatności",
+      "minimumPayment": "Wprowadź minimalny procent płatności (%)",
+      "extraPayment": "Wprowadź dodatkową miesięczną opłatę (opcjonalnie)"
+    },
+    "buttons": {
+      "calculate": "Oblicz płatności kartą kredytową",
+      "reset": "Nastawić"
+    },
+    "paymentStrategies": {
+      "fixed": "Stała płatność miesięczna",
+      "minimum": "Tylko płatność minimalna",
+      "minimumPlus": "Minimalna Plus Dopłata"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Płatność miesięczna",
+    "totalInterest": "Całkowite zapłacone odsetki",
+    "totalPayment": "Całkowita płatność",
+    "payoffTime": "Czas na wypłatę",
+    "interestSavings": "Oszczędności odsetkowe dzięki dodatkowym opłatom",
+    "creditCardResultsTitle": "Wyniki obliczeń karty kredytowej"
+  },
+  "educational": {
+    "creditCardInfo": "Informacje o karcie kredytowej",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "creditCardFacts": {
+      "interest": {
+        "title": "Oprocentowanie karty kredytowej",
+        "description": "Odsetki naliczane są codziennie od niezapłaconych sald i związków"
+      },
+      "minimumPayments": {
+        "title": "Minimalne płatności",
+        "description": "Płacenie tylko minimalnych kwot wydłuża czas spłaty i zwiększa całkowite odsetki"
+      },
+      "debtReduction": {
+        "title": "Strategie redukcji zadłużenia",
+        "description": "Płacenie kwoty wyższej niż minimalna znacznie skraca czas spłaty i odsetki"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunkowe dane dotyczące płatności kartą kredytową",
+      "actual": "Rzeczywiste warunki konta mogą się różnić w zależności od zasad i opłat wydawcy karty"
+    },
+    "importantNotesList": [
+      "Oprocentowanie kart kredytowych zwiększa się codziennie, powodując szybki wzrost zadłużenia",
+      "Spłacanie jedynie minimalnych kwot może zająć lata i kosztować setki odsetek",
+      "Dodatkowe płatności bezpośrednio zmniejszają kapitał i oszczędzają na odsetkach",
+      "Rozważ oferty przeniesienia salda w przypadku konsolidacji zadłużenia o wysokim oprocentowaniu"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź dane swojej karty kredytowej, aby obliczyć harmonogram spłaty",
+    "resultMessage": "Wyniki obliczeń Twojej karty kredytowej pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia karty kredytowej:",
+    "creditCardAnalysis": "Analiza kart kredytowych"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki płatności kartą kredytową w oparciu o standardowe formuły finansowe. Rzeczywiste warunki konta, płatności i odsetki mogą się różnić w zależności od zasad wydawcy karty, opłat i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowane porady dotyczące zarządzania długiem i strategii spłaty, skonsultuj się z doradcami kredytowymi lub doradcami finansowymi posiadającymi wiedzę specjalistyczną w zakresie redukcji zadłużenia i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "balance": "Proszę wprowadzić prawidłowe saldo karty kredytowej",
+    "interestRate": "Proszę wprowadzić prawidłową roczną stopę procentową",
+    "monthlyPayment": "Wprowadź prawidłową kwotę miesięcznej płatności",
+    "minimumPayment": "Proszę wprowadzić prawidłowy minimalny procent płatności",
+    "extraPayment": "Proszę wprowadzić prawidłową kwotę dodatkowej płatności",
+    "paymentStrategy": "Wybierz strategię płatności"
+  },
+  "tooltips": {
+    "balance": "Aktualne saldo należności na karcie kredytowej",
+    "interestRate": "Roczna stopa procentowa (APR) naliczana od niezapłaconych sald",
+    "monthlyPayment": "Kwota, którą planujesz płacić co miesiąc",
+    "minimumPayment": "Procent salda reprezentujący płatność minimalną",
+    "extraPayment": "Dodatkowa kwota płatna co miesiąc na poczet kapitału",
+    "paymentStrategy": "Metoda stosowana do ustalenia miesięcznej kwoty płatności"
+  },
+  "credit_card_calculator_0": "Kalkulator karty kredytowej",
+  "credit_card_information_1": "Informacje o karcie kredytowej",
+  "current_balance_2": "Aktualne saldo",
+  "annual_interest_rate_apr_3": "Roczna stopa procentowa (RRSO)",
+  "payment_strategy_4": "Strategia płatności",
+  "fixed_monthly_payment_calculate_time_5": "Stała płatność miesięczna (oblicz czas)",
+  "payoff_in_fixed_timeframe_calculate_payment_6": "Wypłata w ustalonych ramach czasowych (oblicz płatność)",
+  "minimum_payment_interest_of_balance_7": "Minimalna płatność (odsetki +% salda)",
+  "monthly_payment_amount_8": "Miesięczna kwota płatności",
+  "years_9": "Lata",
+  "months_10": "Miesiące",
+  "principal_payment_of_balance_11": "Płatność główna (% salda)",
+  "k_1_12": "1%",
+  "k_2_13": "2%",
+  "k_3_14": "3%",
+  "k_4_15": "4%",
+  "k_5_16": "5%",
+  "calculate_17": "Obliczać",
+  "payoff_results_18": "Wyniki wypłat",
+  "your_debt_payoff_breakdown_19": "Podział spłaty zadłużenia",
+  "your_balance_will_be_paid_off_in_20": "Twoje saldo zostanie spłacone w:",
+  "years_21": "lata",
+  "months_22": "miesiące",
+  "required_monthly_payment_23": "Wymagana opłata miesięczna:",
+  "total_interest_paid_24": "Całkowite zapłacone odsetki",
+  "total_amount_paid_25": "Całkowita zapłacona kwota",
+  "payment_schedule_26": "Harmonogram płatności",
+  "download_csv_27": "Pobierz plik CSV",
+  "month_28": "Miesiąc",
+  "balance_29": "Balansować",
+  "interest_30": "Odsetki",
+  "payment_31": "Zapłata",
+  "principal_32": "Główny",
+  "showing_first_24_months_download_csv_for_complete__33": "Pokazuje pierwsze 24 miesiące. Pobierz plik CSV, aby zapoznać się z pełnym harmonogramem.",
+  "enter_your_credit_card_information_to_see_payoff_r_34": "Wprowadź dane swojej karty kredytowej, aby zobaczyć wyniki wypłat",
+  "formulas_behind_the_calculation_35": "Formuły obliczeń",
+  "monthly_interest_rate_36": "Miesięczna stopa procentowa",
+  "monthly_rate_annual_rate_12_37": "Stawka miesięczna = stawka roczna ÷ 12",
+  "balance_recurrence_38": "Powtórzenie równowagi",
+  "new_balance_previous_balance_1_monthly_rate_paymen_39": "Nowe saldo = poprzednie saldo × (1 + stawka miesięczna) - Płatność",
+  "fixed_payment_payoff_time_40": "Stała płatność: Czas wypłaty",
+  "n_lnp_p_b_r_ln1_r_41": "n = ln(P / (P - B₀ × r)) ÷ ln(1 + r)",
+  "fixed_timeframe_required_payment_42": "Stałe ramy czasowe: wymagana płatność",
+  "p_b_r_1r_1r_1_43": "P = B₀ × r × (1+r)ⁿ ÷ ((1+r)ⁿ - 1)",
+  "example_scenarios_44": "Przykładowe scenariusze",
+  "scenario_1_aggressive_payoff_45": "Scenariusz 1: Agresywna wypłata",
+  "balance_5000_46": "• Saldo: 5000 dolarów",
+  "apr_1899_47": "• RRSO: 18,99%",
+  "payment_300month_48": "• Płatność: 300 USD/miesiąc",
+  "result_19_months_850_interest_49": "• Wynik: ~19 miesięcy, odsetki w wysokości 850 USD",
+  "scenario_2_minimum_payment_50": "Scenariusz 2: Płatność minimalna",
+  "balance_5000_51": "• Saldo: 5000 dolarów",
+  "apr_1899_52": "• RRSO: 18,99%",
+  "payment_2_of_balance_53": "• Płatność: 2% salda",
+  "result_30_years_15000_interest_54": "• Wynik: ponad 30 lat, odsetki w wysokości 15 000 USD"
+}

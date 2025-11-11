@@ -1,0 +1,124 @@
+{
+  "pageTitle": "Kalkulator stóp procentowych",
+  "pageDescription": "Oblicz wpływ stóp procentowych na pożyczki i inwestycje, aby porównać różne produkty finansowe i podejmować świadome decyzje",
+  "form": {
+    "labels": {
+      "principal": "Kwota główna",
+      "interestRate": "Roczna stopa procentowa",
+      "timePeriod": "Okres czasu",
+      "compounding": "Częstotliwość złożona",
+      "calculationType": "Typ obliczenia"
+    },
+    "placeholders": {
+      "principal": "Wprowadź kwotę główną",
+      "interestRate": "Wprowadź roczną stopę procentową (%)",
+      "timePeriod": "Wprowadź okres"
+    },
+    "buttons": {
+      "calculate": "Oblicz odsetki",
+      "reset": "Nastawić"
+    },
+    "calculationTypes": {
+      "simple": "Proste zainteresowanie",
+      "compound": "Procent składany",
+      "apr": "Roczna stopa procentowa (RRSO)",
+      "apy": "Roczna stopa procentowa (APY)"
+    },
+    "compoundingFrequencies": {
+      "annually": "Rocznie",
+      "semiAnnually": "Półrocznie",
+      "quarterly": "Kwartalny",
+      "monthly": "Miesięczny",
+      "daily": "Codziennie"
+    }
+  },
+  "results": {
+    "interestEarned": "Zarobione odsetki",
+    "futureValue": "Przyszła wartość",
+    "totalAmount": "Całkowita kwota",
+    "effectiveRate": "Efektywna stopa roczna",
+    "interestRateResultsTitle": "Wyniki obliczeń stóp procentowych"
+  },
+  "educational": {
+    "interestRateInfo": "Informacje o stopach procentowych",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "interestRateFacts": {
+      "simpleVsCompound": {
+        "title": "Odsetki proste vs składane",
+        "description": "Odsetki proste naliczane są wyłącznie od kwoty głównej; odsetki składane obejmują odsetki skumulowane"
+      },
+      "aprVsApy": {
+        "title": "RRSO vs RRSO",
+        "description": "RRSO to podstawowa stopa procentowa; APY obejmuje efekty złożone"
+      },
+      "rateFactors": {
+        "title": "Czynniki wpływające na stawki",
+        "description": "Ocena zdolności kredytowej, okres kredytowania i warunki ekonomiczne wpływają na stopy procentowe"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunkowe obliczenia stóp procentowych",
+      "actual": "Rzeczywiste stopy procentowe mogą się różnić w zależności od polityki pożyczkodawcy i warunków rynkowych"
+    },
+    "importantNotesList": [
+      "RRSO jest zawsze wyższe niż RRSO, gdy składanie następuje częściej niż raz w roku",
+      "Wyższe oceny kredytowe zazwyczaj kwalifikują się do niższych stóp procentowych",
+      "Krótsze warunki pożyczki zwykle wiążą się z niższymi stopami procentowymi, ale wyższymi płatnościami",
+      "Rozglądaj się za najlepszymi stawkami i warunkami pożyczek i inwestycji"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje o stopach procentowych, aby obliczyć zarobki lub koszty",
+    "resultMessage": "Wyniki obliczenia stopy procentowej pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia stopy procentowej:",
+    "interestRateAnalysis": "Analiza stóp procentowych"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunkowe obliczenia stóp procentowych w oparciu o wzory matematyczne. Rzeczywiste stopy procentowe i zarobki mogą się różnić w zależności od polityki pożyczkodawcy, opłat i warunków rynkowych nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowaną analizę stóp procentowych i porównania produktów finansowych, skonsultuj się z doradcami finansowymi lub specjalistami ds. pożyczek posiadającymi wiedzę na temat produktów kredytowych i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "principal": "Wprowadź prawidłową kwotę główną",
+    "interestRate": "Proszę wprowadzić prawidłową roczną stopę procentową",
+    "timePeriod": "Proszę wprowadzić prawidłowy okres",
+    "compounding": "Proszę wybrać częstotliwość łączenia",
+    "calculationType": "Proszę wybrać rodzaj obliczeń"
+  },
+  "tooltips": {
+    "principal": "Początkowa kwota pożyczki lub inwestycji",
+    "interestRate": "Roczna stopa procentowa lub oczekiwany zwrot",
+    "timePeriod": "Długość czasu naliczania odsetek",
+    "compounding": "Jak często odsetki są kapitalizowane w ciągu roku",
+    "calculationType": "Rodzaj obliczenia odsetek do wykonania"
+  },
+  "interest_rate_calculator_0": "Kalkulator stóp procentowych",
+  "loan_information_1": "Informacje o pożyczce",
+  "loan_amount_2": "Kwota pożyczki",
+  "loan_term_3": "Okres pożyczki",
+  "years_4": "lata",
+  "months_5": "miesiące",
+  "monthly_payment_6": "Płatność miesięczna",
+  "calculate_rate_7": "Oblicz stawkę",
+  "results_8": "Wyniki",
+  "your_loan_interest_rate_breakdown_9": "Zestawienie oprocentowania kredytu",
+  "interest_rate_10": "Stopa procentowa",
+  "total_of_11": "Łącznie",
+  "monthly_payments_12": "płatności miesięczne",
+  "total_interest_paid_13": "Razem zapłacone odsetki",
+  "enter_your_loan_information_to_calculate_the_inter_14": "Wprowadź informacje o pożyczce, aby obliczyć stopę procentową",
+  "formulas_calculation_method_15": "Wzory i metody obliczeń",
+  "loan_payment_formula_16": "Formuła spłaty pożyczki",
+  "pmt_p_r1rn_1rn_1_17": "PMT = P × [r(1+r)^n] / [(1+r)^n - 1]",
+  "where_pmt_monthly_payment_p_principal_loan_amount__18": "Gdzie: PMT = rata miesięczna, P = kapitał (kwota pożyczki), r = miesięczna stopa procentowa, n = liczba\n                        płatności",
+  "interest_rate_calculation_19": "Obliczanie stopy procentowej",
+  "since_the_interest_rate_cannot_be_solved_algebraic_20": "Ponieważ stopy procentowej nie można rozwiązać algebraicznie na podstawie wzoru płatności, ten kalkulator\n                        wykorzystuje metodę numeryczną Newtona-Raphsona do iteracyjnego obliczania szybkości, która wytwarza\n                        podaną kwotę płatności.",
+  "total_interest_calculation_21": "Obliczanie odsetek całkowitych",
+  "total_interest_monthly_payment_number_of_payments__22": "Całkowite odsetki = (miesięczna płatność × liczba płatności) - Kwota pożyczki"
+}

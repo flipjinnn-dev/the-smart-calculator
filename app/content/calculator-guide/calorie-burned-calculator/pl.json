@@ -1,0 +1,119 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator spalonych kalorii?",
+      "content": "Kalkulator spalonych kalorii (zwany także kalkulatorem spalonych kalorii podczas aktywności lub kalkulatorem spalonych kalorii podczas treningu) szacuje, ile kalorii zużywa organizm podczas aktywności fizycznej. Pomaga w:<br><br>- śledzeniu utraty wagi<br>- planowaniu ćwiczeń<br>- szacowaniu dziennej aktywności<br>- porównywaniu ćwiczeń (bieganie, spacery, jazda na rowerze, pływanie, joga, HIIT)"
+    },
+    {
+      "heading": "Jak obliczyć spalone kalorie?",
+      "content": "Kalkulator korzysta ze wzoru:<br><br><strong>Spalone kalorie = MET × Waga (kg) × Czas trwania (w godzinach)</strong><br><br>- MET = Intensywność aktywności<br>- Waga = Masa ciała w kg lub funtach<br>- Czas trwania = Czas spędzony na ćwiczeniach",
+      "subSections": [
+        {
+          "heading": "Przykładowe obliczenia",
+          "content": "Bieg z prędkością 8 km/h (MET 8,3) przez 30 minut przy wadze 70 kg:<br><br><strong>8,3 × 70 × 0,5 = ~290 spalonych kalorii</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "Kalorie spalone podczas aktywności (przykłady)",
+      "subSections": [
+        {
+          "heading": "Bieganie (8 km/h)",
+          "content": "~580 kalorii/godz"
+        },
+        {
+          "heading": "Chodzenie (5 km/h)",
+          "content": "~280 kalorii/godz"
+        },
+        {
+          "heading": "Jazda na rowerze (umiarkowana)",
+          "content": "~500 kalorii/godz"
+        },
+        {
+          "heading": "Pływanie (styl dowolny)",
+          "content": "~700 kalorii/godz"
+        },
+        {
+          "heading": "Joga",
+          "content": "~200 kalorii/godz"
+        },
+        {
+          "heading": "Trening HIIT",
+          "content": "~750 kalorii/godz"
+        },
+        {
+          "heading": "Trening siłowy",
+          "content": "~400 kalorii/godz"
+        },
+        {
+          "heading": "Taniec Zumby",
+          "content": "~450 kalorii/godz"
+        },
+        {
+          "heading": "Jogging na bieżni",
+          "content": "~600 kalorii/godz"
+        },
+        {
+          "heading": "Trenażer eliptyczny",
+          "content": "~550 kalorii/godz"
+        }
+      ]
+    },
+    {
+      "heading": "Spersonalizowane obliczanie spalonych kalorii",
+      "subSections": [
+        {
+          "heading": "Według wagi",
+          "content": "Kalkulator spalonych kalorii według wagi (kg, funty)."
+        },
+        {
+          "heading": "Według wieku i płci",
+          "content": "Dostosowuje wyniki w oparciu o wiek i płeć."
+        },
+        {
+          "heading": "Według wzrostu i wagi",
+          "content": "Bardziej precyzyjne śledzenie dzięki pomiarom ciała."
+        },
+        {
+          "heading": "Według tętna",
+          "content": "Oblicza na podstawie intensywności i tętna."
+        },
+        {
+          "heading": "Dla osób z nadwagą",
+          "content": "Zapewnia dokładniejsze szacunki kalorii."
+        }
+      ]
+    },
+    {
+      "heading": "Globalne zastosowanie i znaczenie lokalne",
+      "content": "Ten kalkulator działa na całym świecie (USA, Wielka Brytania, Kanada, Australia, Indie, Pakistan, Europa). Trenerzy i aplikacje fitness wykorzystują go do programów odchudzania, treningów na siłowni i spersonalizowanych planów zdrowotnych."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak obliczyć kalorie spalone podczas ćwiczeń?",
+      "a": "Skorzystaj ze wzoru: MET × Waga (kg) × Czas trwania (godziny) lub po prostu wprowadź swoje dane do naszego kalkulatora."
+    },
+    {
+      "q": "Jaki jest najdokładniejszy kalkulator spalania kalorii?",
+      "a": "Dokładne kalkulatory dostosowują wagę, wiek, płeć, BMI i tętno – tak jak nasze."
+    },
+    {
+      "q": "Ile kalorii spala się biegając, spacerując, jeżdżąc na rowerze lub pływając?",
+      "a": "Bieganie: 500–800/godz., Chodzenie: 200–350/godz., Jazda na rowerze: 400–700/godz., Pływanie: 500–900/godz."
+    },
+    {
+      "q": "Ile kalorii spala się w ciągu 30 minut ćwiczeń?",
+      "a": "Joga: ~100, Chodzenie: ~150, Bieganie: ~300, HIIT: ~350–400."
+    },
+    {
+      "q": "Czy mogę obliczyć dzienne spalone kalorie?",
+      "a": "Tak. Nasz dzienny kalkulator spalonych kalorii szacuje wydatek energetyczny podczas wszystkich czynności."
+    },
+    {
+      "q": "Czy waga wpływa na spalane kalorie?",
+      "a": "Tak, cięższe osoby spalają więcej kalorii podczas jednej aktywności w porównaniu z lżejszymi osobami."
+    }
+  ]
+}

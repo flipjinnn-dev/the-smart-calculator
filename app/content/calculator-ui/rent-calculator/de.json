@@ -1,0 +1,155 @@
+{
+  "pageTitle": "Mietrechner",
+  "pageDescription": "Berechnen Sie Ihre monatlichen Mietzahlungen und Erschwinglichkeit mit umfassenden Analysen, einschließlich Nebenkosten, Kautionen und Mietmarktvergleichen",
+  "form": {
+    "labels": {
+      "monthlyIncome": "Monatliches Bruttoeinkommen",
+      "otherMonthlyDebts": "Andere monatliche Schuldenzahlungen",
+      "rentAmount": "Monatlicher Mietbetrag",
+      "utilities": "Monatliche Nebenkosten",
+      "rentersInsurance": "Monatliche Mieterversicherung",
+      "securityDeposit": "Kaution",
+      "leaseTerm": "Mietdauer",
+      "petFees": "Haustiergebühren/monatliche Haustiermiete"
+    },
+    "placeholders": {
+      "monthlyIncome": "Geben Sie das monatliche Bruttoeinkommen ein",
+      "otherMonthlyDebts": "Geben Sie andere monatliche Schuldenzahlungen ein",
+      "rentAmount": "Geben Sie den monatlichen Mietbetrag ein",
+      "utilities": "Geben Sie die monatlichen Nebenkosten ein",
+      "rentersInsurance": "Geben Sie die monatliche Mieterversicherung ein",
+      "securityDeposit": "Geben Sie den Betrag der Kaution ein",
+      "leaseTerm": "Geben Sie die Mietdauer in Monaten ein",
+      "petFees": "Geben Sie die Haustiergebühren oder die monatliche Haustiermiete ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Erschwinglichkeit der Miete",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "totalMonthlyCost": "Gesamte monatliche Wohnkosten",
+    "housingRatio": "Verhältnis von Wohnkosten zu Einkommen",
+    "depositCost": "Kosten für die Vorauszahlung",
+    "annualHousingCost": "Jährliche Wohnkosten",
+    "rentCalculatorResultsTitle": "Ergebnisse des Mietrechners"
+  },
+  "educational": {
+    "rentInfo": "Mietinformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "rentFacts": {
+      "affordability": {
+        "title": "Erschwinglichkeit der Miete",
+        "description": "Finanzexperten empfehlen, nicht mehr als 30 % des Bruttoeinkommens für Wohnen auszugeben"
+      },
+      "costs": {
+        "title": "Zusätzliche Mietkosten",
+        "description": "Nebenkosten, Mieterversicherung und Kautionen können die gesamten Wohnkosten erheblich erhöhen"
+      },
+      "comparison": {
+        "title": "Marktvergleich",
+        "description": "Informieren Sie sich über vergleichbare Mietobjekte in der Region, um faire Preise sicherzustellen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Erschwinglichkeit der Miete",
+      "actual": "Die tatsächlichen Mietkosten können je nach Standort, Immobilienzustand und Marktbedingungen variieren"
+    },
+    "importantNotesList": [
+      "Berücksichtigen Sie die Versorgungsleistungen, die je nach Standort und Jahreszeit erheblich variieren können",
+      "Die Kaution beträgt in der Regel eine Monatsmiete",
+      "Eine Mieterversicherung ist häufig erforderlich und kostet 15 bis 30 US-Dollar pro Monat",
+      "Berücksichtigen Sie bei der Bewertung der Erschwinglichkeit die Nähe zum Arbeitsplatz und die Transportkosten"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Mietinformationen ein, um die Erschwinglichkeit zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Mietberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Mietpreisberechnung:",
+    "rentAnalysis": "Mietanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Erschwinglichkeit der Miete auf der Grundlage allgemeiner Finanzrichtlinien. Die tatsächlichen Mietkosten können je nach Standort, Zustand der Immobilie, Mietbedingungen und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine individuelle Analyse der Mieterschwinglichkeit und Wohnraumberatung wenden Sie sich an Wohnberater oder Finanzberater mit Fachkenntnissen auf den Mietmärkten und individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "monthlyIncome": "Bitte geben Sie ein gültiges monatliches Bruttoeinkommen ein",
+    "otherMonthlyDebts": "Bitte geben Sie gültige sonstige monatliche Schuldenzahlungen ein",
+    "rentAmount": "Bitte geben Sie einen gültigen monatlichen Mietbetrag ein",
+    "utilities": "Bitte geben Sie gültige monatliche Nebenkosten ein",
+    "rentersInsurance": "Bitte geben Sie eine gültige monatliche Mieterversicherung ein",
+    "securityDeposit": "Bitte geben Sie einen gültigen Kautionsbetrag ein",
+    "leaseTerm": "Bitte geben Sie eine gültige Mietdauer ein",
+    "petFees": "Bitte geben Sie gültige Haustiergebühren oder monatliche Haustiermiete ein"
+  },
+  "tooltips": {
+    "monthlyIncome": "Ihr gesamtes monatliches Bruttoeinkommen vor Steuern",
+    "otherMonthlyDebts": "Gesamte monatliche Zahlungen für alle anderen Schulden (Autokredite, Studienkredite, Kreditkarten usw.)",
+    "rentAmount": "Monatliche Miete wird vom Vermieter erhoben",
+    "utilities": "Geschätzte monatliche Kosten für Strom, Gas, Wasser, Internet usw.",
+    "rentersInsurance": "Monatliche Kosten für die Mieterversicherung",
+    "securityDeposit": "Eine Vorauszahlung entspricht in der Regel einer Monatsmiete",
+    "leaseTerm": "Dauer des Mietvertrages in Monaten",
+    "petFees": "Zusätzliche Gebühren oder monatliche Gebühren für Haustiere"
+  },
+  "rent_calculator_0": "Mietrechner",
+  "income_information_1": "Einkommensinformationen",
+  "income_type_2": "Einkommensart",
+  "annual_income_3": "Jahreseinkommen",
+  "monthly_income_4": "Monatliches Einkommen",
+  "debt_information_5": "Schuldeninformationen",
+  "other_monthly_debt_payments_6": "Andere monatliche Schuldenzahlungen",
+  "include_credit_cards_car_loans_student_loans_and_o_7": "Dazu gehören Kreditkarten, Autokredite, Studienkredite und andere monatliche Schuldenzahlungen",
+  "financial_ratios_8": "Finanzkennzahlen",
+  "frontend_ratio_9": "Front-End-Verhältnis (%)",
+  "percentage_of_income_for_housing_typically_2830_10": "Prozentsatz des Wohneinkommens (normalerweise 28–30 %)",
+  "backend_ratio_11": "Back-End-Verhältnis (%)",
+  "percentage_of_income_for_all_debts_typically_3640_12": "Prozentsatz des Einkommens für alle Schulden (normalerweise 36–40 %)",
+  "calculate_rent_13": "Miete berechnen",
+  "rent_affordability_results_14": "Ergebnisse zur Erschwinglichkeit von Mieten",
+  "your_maximum_affordable_rent_breakdown_15": "Ihre maximal bezahlbare Mietaufschlüsselung",
+  "maximum_affordable_rent_16": "Maximal bezahlbare Miete:",
+  "per_month_17": "pro Monat",
+  "calculation_breakdown_18": "Berechnungsaufschlüsselung",
+  "monthly_income_19": "Monatliches Einkommen",
+  "frontend_limit_20": "Front-End-Limit (",
+  "backend_limit_21": "Back-End-Limit (",
+  "limiting_factor_22": "Begrenzender Faktor",
+  "financial_guidelines_23": "Finanzielle Richtlinien:",
+  "housing_costs_should_not_exceed_24": "• Die Wohnkosten sollten nicht übersteigen",
+  "of_gross_income_25": "% des Bruttoeinkommens",
+  "total_debt_payments_should_not_exceed_26": "• Die Gesamtschuldenzahlungen sollten den Betrag nicht übersteigen",
+  "of_gross_income_27": "% des Bruttoeinkommens",
+  "consider_additional_costs_like_utilities_insurance_28": "• Berücksichtigen Sie zusätzliche Kosten wie Betriebskosten, Versicherung und Wartung",
+  "enter_your_income_and_debt_information_to_see_your_29": "Geben Sie Ihre Einkommens- und Schuldeninformationen ein, um Ihre Ergebnisse anzuzeigen",
+  "example_calculation_30": "Beispielrechnung",
+  "sample_scenario_31": "Beispielszenario:",
+  "inputs_32": "Eingaben:",
+  "annual_income_60000_33": "• Jahreseinkommen: 60.000 $",
+  "monthly_debts_500_34": "• Monatliche Schulden: 500 $",
+  "frontend_ratio_30_35": "• Front-End-Verhältnis: 30 %",
+  "backend_ratio_40_36": "• Back-End-Verhältnis: 40 %",
+  "calculation_37": "Berechnung:",
+  "monthly_income_60000_12_5000_38": "• Monatliches Einkommen: 60.000 $ ÷ 12 = 5.000 $",
+  "frontend_limit_5000_30_1500_39": "• Front-End-Limit: 5.000 $ × 30 % = 1.500 $",
+  "backend_limit_5000_40_500_1500_40": "• Back-End-Limit: 5.000 $ × 40 % – 500 $ = 1.500 $",
+  "maximum_rent_1500_41": "Maximale Miete: 1.500 $",
+  "formulas_calculation_details_42": "Formeln und Berechnungsdetails",
+  "k_1_monthly_income_conversion_43": "1. Umrechnung des monatlichen Einkommens",
+  "if_annual_income_monthly_income_annual_income_12_44": "Wenn Jahreseinkommen: Monatseinkommen = Jahreseinkommen ÷ 12",
+  "if_monthly_income_monthly_income_monthly_income_as_45": "Wenn monatliches Einkommen: Monatseinkommen = Monatseinkommen (wie eingegeben)",
+  "k_2_frontend_ratio_limit_46": "2. Begrenzung des Front-End-Verhältnisses",
+  "rent_frontend_frontend_ratio_monthly_income_47": "Miete (Front-End) = Front-End-Verhältnis × Monatseinkommen",
+  "k_3_backend_ratio_limit_48": "3. Begrenzung des Backend-Verhältnisses",
+  "rent_backend_backend_ratio_monthly_income_monthly__49": "Miete (Back-End) = (Back-End-Verhältnis × monatliches Einkommen) – monatliche Schulden",
+  "k_4_maximum_affordable_rent_50": "4. Maximal bezahlbare Miete",
+  "maximum_rent_minfrontend_limit_backend_limit_51": "Maximale Miete = min(Front-End-Limit, Back-End-Limit)",
+  "if_the_result_is_negative_the_affordable_rent_is_s_52": "Ist das Ergebnis negativ, wird die bezahlbare Miete auf 0 $ gesetzt"
+}

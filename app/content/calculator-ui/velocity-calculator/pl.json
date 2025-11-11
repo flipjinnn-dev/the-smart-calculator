@@ -1,0 +1,118 @@
+{
+  "pageTitle": "Kalkulator prędkości",
+  "pageDescription": "Oblicz prędkość, prędkość i przyspieszenie dla różnych zastosowań fizyki, w tym analizy przemieszczenia, czasu i ruchu",
+  "form": {
+    "labels": {
+      "calculationType": "Typ obliczenia",
+      "initialVelocity": "Prędkość początkowa",
+      "finalVelocity": "Prędkość końcowa",
+      "time": "Czas",
+      "displacement": "Przemieszczenie",
+      "acceleration": "Przyśpieszenie",
+      "unitSystem": "Układ jednostek"
+    },
+    "placeholders": {
+      "initialVelocity": "Wprowadź prędkość początkową",
+      "finalVelocity": "Wprowadź prędkość końcową",
+      "time": "Wprowadź czas",
+      "displacement": "Wprowadź przemieszczenie",
+      "acceleration": "Wprowadź przyspieszenie"
+    },
+    "buttons": {
+      "calculate": "Oblicz prędkość",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "metric": "Metryczne (m/s, m/s²)",
+      "imperial": "Imperialne (ft/s, ft/s²)"
+    },
+    "calculationTypes": {
+      "averageVelocity": "Średnia prędkość",
+      "finalVelocity": "Prędkość końcowa",
+      "initialVelocity": "Prędkość początkowa",
+      "acceleration": "Przyśpieszenie"
+    }
+  },
+  "results": {
+    "velocity": "Prędkość",
+    "speed": "Prędkość",
+    "acceleration": "Przyśpieszenie",
+    "velocityResultsTitle": "Wyniki prędkości",
+    "formulaUsed": "Zastosowana formuła"
+  },
+  "educational": {
+    "velocityInfo": "Informacje o prędkości",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się ze specjalistą od fizyki",
+    "velocityConcepts": {
+      "velocity": {
+        "title": "Prędkość",
+        "description": "Wielkość wektorowa obejmująca zarówno prędkość, jak i kierunek"
+      },
+      "speed": {
+        "title": "Prędkość",
+        "description": "Wielkość skalarna reprezentująca szybkość ruchu"
+      },
+      "acceleration": {
+        "title": "Przyśpieszenie",
+        "description": "Tempo zmiany prędkości w czasie"
+      }
+    },
+    "velocityFormulas": {
+      "averageVelocity": {
+        "title": "Średnia prędkość",
+        "formula": "v_avg = Δx/Δt = (x₂ - x₁)/(t₂ - t₁)"
+      },
+      "finalVelocity": {
+        "title": "Prędkość końcowa",
+        "formula": "v = u + o"
+      },
+      "acceleration": {
+        "title": "Przyśpieszenie",
+        "formula": "a = (v - u)/t"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten zapewnia wyłącznie obliczenia fizyczne",
+      "units": "Zapewnij spójne jednostki w swoich obliczeniach"
+    },
+    "importantNotesList": [
+      "Prędkość jest wielkością wektorową zawierającą zarówno wielkość, jak i kierunek",
+      "Prędkość jest wielkością skalarną (tylko wielkość)",
+      "Zawsze uwzględniaj w swoich wynikach cyfry znaczące",
+      "Dokładnie sprawdź konwersje jednostek, aby uzyskać dokładne obliczenia"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wartości, aby obliczyć prędkość",
+    "resultMessage": "Wynik obliczenia prędkości pokazano poniżej",
+    "assessmentResult": "Wynik obliczeń:",
+    "velocityAnalysis": "Analiza prędkości"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia obliczenia fizyczne w oparciu o standardowe wzory kinematyczne. Dokładność wyników zależy od poprawności wprowadzonych wartości i odpowiedniego zastosowania wzorów."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się ze specjalistą od fizyki",
+    "content": "W przypadku złożonych problemów fizycznych lub specjalistycznych zastosowań rozważ konsultację ze specjalistą w dziedzinie fizyki lub skorzystanie ze specjalistycznych narzędzi programowych przeznaczonych do zaawansowanych obliczeń fizycznych."
+  },
+  "errors": {
+    "initialVelocity": "Proszę wprowadzić poprawną prędkość początkową",
+    "finalVelocity": "Proszę wprowadzić poprawną prędkość końcową",
+    "time": "Proszę wprowadzić prawidłową wartość czasu",
+    "displacement": "Proszę wprowadzić prawidłową wartość przemieszczenia",
+    "acceleration": "Proszę wprowadzić prawidłową wartość przyspieszenia",
+    "calculationType": "Proszę wybrać rodzaj obliczeń"
+  },
+  "tooltips": {
+    "calculationType": "Wybierz rodzaj obliczenia prędkości, którego potrzebujesz",
+    "initialVelocity": "Prędkość na początku przedziału czasu",
+    "finalVelocity": "Prędkość na końcu przedziału czasu",
+    "time": "Przedział czasu dla ruchu",
+    "displacement": "Zmiana pozycji w przedziale czasu",
+    "acceleration": "Szybkość zmiany prędkości"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "color": "lila",
+  "sections": [
+    {
+      "heading": "Was ist der Rechner für den Blutalkoholgehalt (BAC)?",
+      "content": "Der Blutalkoholgehalt-Rechner (BAC) ist ein zuverlässiges Tool, das Ihren Alkoholspiegel anhand der konsumierten Getränke, des Körpergewichts, des Geschlechts und der Zeit schätzt. Im Gegensatz zu Schätzungen wendet dieser Rechner wissenschaftliche Formeln wie Widmark und Watson an, um den BAC-Prozentsatz zu schätzen. Sie können diesen BAC-Rechner online kostenlos verwenden, um Ihren Alkoholkonsum zu verfolgen, Grenzen zu verstehen und das Risiko von DUI oder alkoholbedingten Schäden zu verringern."
+    },
+    {
+      "heading": "Wie BAC genau berechnet wird",
+      "subSections": [
+        {
+          "heading": "Körpergewicht und Geschlecht",
+          "content": "Schwerere Personen haben im Allgemeinen einen niedrigeren BAC bei gleichem Alkoholkonsum. Auch das Geschlecht beeinflusst den Alkoholstoffwechsel."
+        },
+        {
+          "heading": "Anzahl der konsumierten Getränke",
+          "content": "Mehr Getränke erhöhen den BAC, abhängig von der Menge und dem Alkoholanteil."
+        },
+        {
+          "heading": "Zeit seit dem ersten Getränk",
+          "content": "Der BAC nimmt allmählich ab, wenn Ihr Körper Alkohol verstoffwechselt (ca. 0,015 % pro Stunde)."
+        },
+        {
+          "heading": "Alkoholkonzentration",
+          "content": "Verschiedene Getränke (Bier, Wein, Spirituosen) enthalten unterschiedliche Alkoholanteile."
+        },
+        {
+          "heading": "Stoffwechsel & Toleranz",
+          "content": "Individuelle Unterschiede wie Lebergesundheit, Stoffwechsel und Toleranz wirken sich auf den BAC aus."
+        }
+      ]
+    },
+    {
+      "heading": "Gängige Formeln, die in BAC-Rechnern verwendet werden",
+      "subSections": [
+        {
+          "heading": "Widmark-Formel",
+          "content": "Schätzt den BAC anhand von Körpergewicht, Geschlecht, konsumierten Getränken und Stunden seit dem Trinken."
+        },
+        {
+          "heading": "Watson-Formel",
+          "content": "Eine fortgeschrittenere Methode, die den Wassergehalt des Körpers zur präzisen Berechnung berücksichtigt."
+        },
+        {
+          "heading": "Intelligente BAC-Tools",
+          "content": "Moderne BAC-Rechner kombinieren Formeln, um schnelle und zuverlässige Ergebnisse zu liefern."
+        }
+      ]
+    },
+    {
+      "heading": "Auswirkungen des BAC-Spiegels auf Körper und Gehirn",
+      "subSections": [
+        {
+          "heading": "0,02–0,05 %",
+          "content": "Leichte Entspannung, leichte Euphorie."
+        },
+        {
+          "heading": "0,06–0,10 %",
+          "content": "Beeinträchtigtes Urteilsvermögen, verminderte Koordination, langsamere Reaktionszeit."
+        },
+        {
+          "heading": "0,11–0,20 %",
+          "content": "Erhebliche Beeinträchtigung, schlechtes Gleichgewicht, undeutliche Sprache."
+        },
+        {
+          "heading": "0,21–0,30 %",
+          "content": "Verwirrtheit, Schwindel, Ohnmachtsgefahr."
+        },
+        {
+          "heading": "0,31–0,40 %",
+          "content": "Schwere Vergiftung, möglicherweise Bewusstlosigkeit."
+        },
+        {
+          "heading": "0,41 %+",
+          "content": "Lebensgefährliche Alkoholvergiftung."
+        }
+      ]
+    },
+    {
+      "heading": "Gesetzliche BAC-Grenzwerte und DUI-Bewusstsein",
+      "subSections": [
+        {
+          "heading": "US-Fahrer (21+)",
+          "content": "0,08 % BAC ist in den meisten Staaten der gesetzliche Grenzwert."
+        },
+        {
+          "heading": "Europa",
+          "content": "Viele Länder legen den Grenzwert auf 0,05 % BAC fest."
+        },
+        {
+          "heading": "Professionelle und minderjährige Fahrer",
+          "content": "Die Grenzwerte liegen je nach Gesetz zwischen 0,00 und 0,03 % BAC."
+        },
+        {
+          "heading": "DUI-Risiko",
+          "content": "Schon geringe Mengen Alkohol können die Fahrtüchtigkeit beeinträchtigen."
+        }
+      ]
+    },
+    {
+      "heading": "Einschränkungen von BAC-Rechnern",
+      "subSections": [
+        {
+          "heading": "Nur Schätzungen",
+          "content": "Aufgrund von Stoffwechsel, Medikamenten oder Nahrungsaufnahme spiegeln die Ergebnisse möglicherweise nicht den genauen BAC wider."
+        },
+        {
+          "heading": "Kein legales Werkzeug",
+          "content": "Ersetzt nicht den Alkoholtest oder Tests durch die Polizei."
+        },
+        {
+          "heading": "Gesundheitsfaktoren",
+          "content": "Erkrankungen wie Lebererkrankungen oder Alter beeinträchtigen die Genauigkeit."
+        },
+        {
+          "heading": "Sicheres Üben",
+          "content": "Verlassen Sie sich niemals ausschließlich auf einen Taschenrechner, um zu entscheiden, ob Sie fahren können."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein sicherer Blutalkoholwert beim Autofahren?",
+      "a": "In der Regel ist es für Autofahrer in den USA gesetzlich sicher, unter 0,08 % BAC zu bleiben, je nach Alter oder Beruf können jedoch niedrigere Grenzwerte gelten."
+    },
+    {
+      "q": "Wie berechne ich meinen BAC?",
+      "a": "Geben Sie Ihr Gewicht, Geschlecht, die konsumierten Getränke und die Zeit seit dem Trinken in diesen BAK-Rechner ein. Es wendet Widmark- und Watson-Formeln an."
+    },
+    {
+      "q": "Wie lange dauert es, nüchtern zu werden?",
+      "a": "Im Durchschnitt verstoffwechselt der Körper Alkohol mit 0,015 % BAC pro Stunde, dies variiert jedoch je nach Alter, Stoffwechsel und Lebergesundheit."
+    },
+    {
+      "q": "Wie viele Getränke erreichen 0,08 % BAC?",
+      "a": "Es hängt von Gewicht, Geschlecht, Trinkstärke und Tempo ab. Verwenden Sie den BAC-Rechner nach Getränken und Gewicht für eine personalisierte Schätzung."
+    },
+    {
+      "q": "Sind BAC-Rechner genau?",
+      "a": "Sie liefern Schätzungen, können jedoch keine individuellen Unterschiede wie Nahrungsaufnahme, Verträglichkeit oder Medikamente berücksichtigen."
+    },
+    {
+      "q": "Beeinflusst das Körpergewicht den BAC?",
+      "a": "Ja. Ein höheres Körpergewicht verringert normalerweise die Alkoholkonzentration, was bei gleicher Anzahl an Getränken zu einem niedrigeren BAC führt."
+    },
+    {
+      "q": "Können Sportler oder Senioren einen BAC-Rechner verwenden?",
+      "a": "Ja. Sportler können aufgrund der hohen Muskelmasse einen niedrigeren Blutzuckerspiegel aufweisen, während Senioren Alkohol möglicherweise langsamer verstoffwechseln."
+    },
+    {
+      "q": "Wie schnell verlässt Alkohol den Blutkreislauf?",
+      "a": "Im Durchschnitt werden 0,015 % BAC pro Stunde verstoffwechselt, aber Flüssigkeitszufuhr, Ernährung und Lebergesundheit beeinflussen dies."
+    },
+    {
+      "q": "Können BAC-Rechner DUI verhindern?",
+      "a": "Sie schärfen das Bewusstsein, können aber verantwortungsvolle Entscheidungen nicht ersetzen. Vermeiden Sie immer, nach dem Trinken Auto zu fahren."
+    },
+    {
+      "q": "Kann KI dabei helfen, die BAC-Werte zu verfolgen?",
+      "a": "Ja. KI-gestützte BAC-Rechner und Apps können den Verbrauch überwachen, den BAC in Echtzeit schätzen und Sicherheitstipps geben."
+    }
+  ]
+}

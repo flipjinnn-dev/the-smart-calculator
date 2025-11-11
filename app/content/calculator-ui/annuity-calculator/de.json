@@ -1,0 +1,149 @@
+{
+  "pageTitle": "Rentenrechner",
+  "pageDescription": "Berechnen Sie den zukünftigen Wert einer Rente auf der Grundlage regelmäßiger Beiträge und Zinssätze für die Altersvorsorge und Investitionsanalyse",
+  "form": {
+    "labels": {
+      "presentValue": "Barwert (Erstinvestition)",
+      "paymentAmount": "Zahlungsbetrag",
+      "interestRate": "Jährlicher Zinssatz",
+      "numberOfPeriods": "Anzahl der Perioden",
+      "paymentFrequency": "Zahlungshäufigkeit",
+      "compoundingFrequency": "Aufzinsungshäufigkeit",
+      "paymentTiming": "Zahlungszeitpunkt"
+    },
+    "placeholders": {
+      "presentValue": "Geben Sie den Barwert oder die Anfangsinvestition ein",
+      "paymentAmount": "Geben Sie den Zahlungsbetrag ein",
+      "interestRate": "Geben Sie den jährlichen Zinssatz (%) ein.",
+      "numberOfPeriods": "Geben Sie die Anzahl der Perioden ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den Rentenwert",
+      "reset": "Zurücksetzen"
+    },
+    "paymentFrequencies": {
+      "annually": "Jährlich",
+      "semiAnnually": "Halbjährlich",
+      "quarterly": "Vierteljährlich",
+      "monthly": "Monatlich"
+    },
+    "paymentTimings": {
+      "beginning": "Beginn der Periode",
+      "end": "Ende der Periode"
+    }
+  },
+  "results": {
+    "futureValue": "Zukünftiger Wert",
+    "totalPayments": "Gesamtzahlungen",
+    "totalInterest": "Insgesamt verdiente Zinsen",
+    "annuityResultsTitle": "Ergebnisse der Rentenberechnung"
+  },
+  "educational": {
+    "annuityInfo": "Renteninformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "annuityFacts": {
+      "definition": {
+        "title": "Rentendefinition",
+        "description": "Finanzprodukt, das regelmäßige Zahlungen über einen bestimmten Zeitraum im Austausch gegen einen anfänglichen Pauschalbetrag oder eine Reihe von Zahlungen bereitstellt"
+      },
+      "types": {
+        "title": "Rentenarten",
+        "description": "Feste Renten bieten garantierte Renditen; Variable Annuitäten bieten marktbasierte Renditen"
+      },
+      "presentValue": {
+        "title": "Barwertberechnung",
+        "description": "Bestimmt den aktuellen Wert einer Reihe zukünftiger Zahlungen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen des Rentenwerts",
+      "actual": "Die tatsächlichen Rentenwerte können je nach Vertragsbedingungen und Marktbedingungen variieren"
+    },
+    "importantNotesList": [
+      "Renten können ein garantiertes Einkommen im Ruhestand bieten",
+      "Berücksichtigen Sie Gebühren und Rücknahmegebühren, bevor Sie Rentenversicherungen abschließen",
+      "Feste Renten bieten vorhersehbare Renditen, können aber möglicherweise nicht mit der Inflation Schritt halten",
+      "Variable Renten bieten Wachstumspotenzial, sind jedoch mit Investitionsrisiken verbunden"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Renteninformationen ein, um den zukünftigen Wert zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Rentenberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Rentenberechnung:",
+    "annuityAnalysis": "Rentenanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Rentenschätzungen basierend auf mathematischen Formeln. Die tatsächlichen Rentenwerte können je nach Vertragsbedingungen, Gebühren, Marktbedingungen und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine individuelle Rentenberatung und Altersvorsorgeplanung wenden Sie sich an Finanzberater oder Versicherungsfachleute mit Erfahrung in Rentenprodukten und individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "presentValue": "Bitte geben Sie einen gültigen Barwert ein",
+    "paymentAmount": "Bitte geben Sie einen gültigen Zahlungsbetrag ein",
+    "interestRate": "Bitte geben Sie einen gültigen Jahreszinssatz ein",
+    "numberOfPeriods": "Bitte geben Sie eine gültige Anzahl an Perioden ein",
+    "paymentFrequency": "Bitte wählen Sie eine Zahlungshäufigkeit aus",
+    "compoundingFrequency": "Bitte wählen Sie eine Aufzinsungshäufigkeit aus",
+    "paymentTiming": "Bitte wählen Sie den Zahlungszeitpunkt aus"
+  },
+  "tooltips": {
+    "presentValue": "Erste Einmalinvestition in die Rente",
+    "paymentAmount": "Regelmäßiger Zahlungsbetrag, der zur Rente beiträgt",
+    "interestRate": "Erwarteter jährlicher Zinssatz oder erwartete Rendite",
+    "numberOfPeriods": "Gesamtzahl der Zahlungsperioden",
+    "paymentFrequency": "Wie oft werden Zahlungen geleistet?",
+    "compoundingFrequency": "Wie oft werden die Zinsen aufgezinst?",
+    "paymentTiming": "Ob Zahlungen zu Beginn oder am Ende der Periode erfolgen"
+  },
+  "calculator_inputs_0": "Rechnereingaben",
+  "starting_principal_1": "Startdirektor",
+  "initial_investment_amount_2": "Erstinvestitionsbetrag",
+  "regular_additions_3": "Regelmäßige Ergänzungen",
+  "annual_addition_4": "Jährliche Ergänzung",
+  "monthly_addition_5": "Monatliche Ergänzung",
+  "add_at_each_periods_beginning_annuity_due_6": "Zu Beginn jeder Periode hinzufügen (fällige Rente)",
+  "when_enabled_deposits_are_made_at_the_beginning_of_7": "Wenn diese Option aktiviert ist, werden Einzahlungen zu Beginn jeder Periode getätigt und sofort verzinst.",
+  "growth_parameters_8": "Wachstumsparameter",
+  "annual_growth_rate_9": "Jährliche Wachstumsrate (%)",
+  "after_years_10": "Nach Jahren",
+  "note_11": "Notiz:",
+  "monthly_deposits_use_monthly_compounding_annual_de_12": "Bei monatlichen Einzahlungen erfolgt die monatliche Aufzinsung; Jährliche Einlagen nutzen jährlich\n                        Compoundierung.",
+  "calculate_13": "Berechnen",
+  "results_14": "Ergebnisse",
+  "end_balance_total_additions_interest_earned_15": "Endsaldo, Gesamtzugänge, verdiente Zinsen",
+  "final_balance_after_16": "Endgültige Bilanz danach",
+  "years_17": "Jahre:",
+  "based_on_18": "Bezogen auf",
+  "annual_growth_rate_with_19": "% jährliche Wachstumsrate mit",
+  "ofperiod_deposits_20": "-periodische Einlagen",
+  "starting_principal_21": "Startdirektor",
+  "total_additions_22": "Gesamtzugänge",
+  "interest_earned_23": "Verdiente Zinsen",
+  "interest_percentage_24": "Zinssatz",
+  "monthly_schedule_25": "Monatlicher Zeitplan",
+  "accumulation_schedule_26": "Akkumulationsplan",
+  "csv_27": "CSV",
+  "month_28": "Monat",
+  "starting_29": "Beginnt",
+  "interest_30": "Interesse",
+  "monthly_add_31": "Monatliche Hinzufügung",
+  "annual_add_32": "Jährliche Zusatz",
+  "ending_33": "Ende",
+  "enter_your_annuity_information_to_see_your_results_34": "Geben Sie Ihre Renteninformationen ein, um Ihre Ergebnisse anzuzeigen",
+  "formulas_notes_35": "Formeln und Notizen",
+  "future_value_of_starting_principal_36": "Zukünftiger Wert des Startkapitals",
+  "fvprincipal_p_1_r_37": "FV_principal = P₀ × (1 + r)ⁿ",
+  "annual_additions_ordinary_38": "Jährliche Zugänge (ordentlich)",
+  "fvannual_aannual_1_r_1_r_39": "FV_annual = A_annual × [(1 + r)ⁿ - 1] / r",
+  "annual_additions_annuity_due_40": "Jährliche Zugänge (fällige Rente)",
+  "fvannualdue_fvannual_1_r_41": "FV_annual_due = FV_annual × (1 + r)",
+  "monthly_additions_42": "Monatliche Ergänzungen",
+  "rm_1_r112_1_43": "r_m = (1 + r)^(1/12) - 1",
+  "fvmonthly_amonthly_1_rmn_1_rm_44": "FV_monthly = A_monthly × [(1 + r_m)^N - 1] / r_m"
+}

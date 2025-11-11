@@ -1,0 +1,151 @@
+{
+  "pageTitle": "Amortization Calculator",
+  "pageDescription": "Generate detailed amortization schedules for loans with principal and interest breakdowns for each payment period to understand loan payoff progress",
+  "form": {
+    "labels": {
+      "loanAmount": "Loan Amount",
+      "interestRate": "Annual Interest Rate",
+      "loanTerm": "Loan Term",
+      "loanTermUnit": "Loan Term Unit",
+      "startDate": "Loan Start Date",
+      "extraPayment": "Extra Monthly Payment",
+      "paymentFrequency": "Payment Frequency"
+    },
+    "placeholders": {
+      "loanAmount": "Enter loan amount",
+      "interestRate": "Enter annual interest rate (%)",
+      "loanTerm": "Enter loan term",
+      "extraPayment": "Enter extra monthly payment (optional)"
+    },
+    "buttons": {
+      "calculate": "Generate Amortization Schedule",
+      "reset": "Reset"
+    },
+    "loanTermUnits": {
+      "years": "Years",
+      "months": "Months"
+    },
+    "paymentFrequencies": {
+      "monthly": "Monthly",
+      "biweekly": "Bi-weekly",
+      "weekly": "Weekly"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Monthly Payment",
+    "totalInterest": "Total Interest Paid",
+    "totalPayment": "Total Payment",
+    "payoffDate": "Loan Payoff Date",
+    "interestSavings": "Interest Savings with Extra Payments",
+    "amortizationResultsTitle": "Amortization Calculation Results"
+  },
+  "educational": {
+    "amortizationInfo": "Amortization Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "amortizationFacts": {
+      "definition": {
+        "title": "Amortization Definition",
+        "description": "Process of paying off a loan with regular payments over time, with interest calculated on remaining balance"
+      },
+      "schedule": {
+        "title": "Amortization Schedule",
+        "description": "Detailed table showing principal and interest portions of each payment over loan term"
+      },
+      "earlyPayments": {
+        "title": "Early Payment Impact",
+        "description": "Early payments are mostly interest; later payments are mostly principal"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides amortization schedule estimates only",
+      "actual": "Actual loan terms may vary based on lender policies and fees"
+    },
+    "importantNotesList": [
+      "Extra payments directly reduce principal and save on total interest",
+      "Bi-weekly payments can help pay off loans faster",
+      "Early in loan term, most payment goes to interest rather than principal",
+      "Amortization schedules help plan budget and understand loan progress"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your loan information to generate amortization schedule",
+    "resultMessage": "Your amortization calculation results are shown below",
+    "assessmentResult": "Amortization Calculation Result:",
+    "amortizationAnalysis": "Amortization Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides amortization schedule estimates based on standard financial formulas. Actual loan terms, payments, and interest may vary based on lender policies, fees, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized loan advice and amortization analysis, consult financial advisors or loan officers with expertise in lending products and individual financial circumstances."
+  },
+  "errors": {
+    "loanAmount": "Please enter a valid loan amount",
+    "interestRate": "Please enter a valid annual interest rate",
+    "loanTerm": "Please enter a valid loan term",
+    "startDate": "Please enter a valid loan start date",
+    "extraPayment": "Please enter a valid extra payment amount",
+    "loanTermUnit": "Please select a loan term unit",
+    "paymentFrequency": "Please select a payment frequency"
+  },
+  "tooltips": {
+    "loanAmount": "Total amount borrowed",
+    "interestRate": "Annual interest rate as a percentage",
+    "loanTerm": "Length of time to repay the loan",
+    "startDate": "Date when the loan payments begin",
+    "extraPayment": "Additional amount paid each month toward principal",
+    "loanTermUnit": "Unit of time for loan term (years or months)",
+    "paymentFrequency": "How often payments are made"
+  },
+  "smart_calculator_0": "Smart Calculator",
+  "amortization_calculator_1": "Amortization Calculator",
+  "home_2": "Home",
+  "financial_3": "Financial",
+  "amortization_calculator_4": "Amortization Calculator",
+  "amortization_calculator_5": "Amortization Calculator",
+  "generate_a_detailed_amortization_schedule_showing__6": "Generate a detailed amortization schedule showing how each payment is split between principal and\n                interest.",
+  "loan_details_7": "Loan Details",
+  "enter_loan_information_to_generate_schedule_8": "Enter loan information to generate schedule",
+  "loan_amount_9": "Loan Amount",
+  "interest_rate_10": "Interest Rate (%)",
+  "loan_term_11": "Loan Term",
+  "k_15_years_12": "15 years",
+  "k_20_years_13": "20 years",
+  "k_25_years_14": "25 years",
+  "k_30_years_15": "30 years",
+  "start_date_16": "Start Date",
+  "generate_schedule_17": "Generate Schedule",
+  "loan_summary_18": "Loan Summary",
+  "payment_overview_19": "Payment overview",
+  "monthly_payment_20": "Monthly Payment",
+  "total_interest_21": "Total Interest",
+  "total_payment_22": "Total Payment",
+  "enter_loan_details_to_see_summary_23": "Enter loan details to see summary",
+  "payment_schedule_24": "Payment Schedule",
+  "first_12_payments_preview_25": "First 12 payments preview",
+  "payment_26": "Payment #",
+  "principal_27": "Principal:",
+  "interest_28": "Interest:",
+  "balance_29": "Balance: $",
+  "showing_first_12_of_30": "Showing first 12 of",
+  "payments_31": "payments",
+  "generate_schedule_to_see_payment_details_32": "Generate schedule to see payment details",
+  "how_to_use_the_amortization_calculator_33": "How to Use the Amortization Calculator",
+  "the_amortization_calculator_is_a_powerful_tool_des_34": "The amortization calculator is a powerful tool designed to help you understand the breakdown of your loan payments. Here’s how to use it:",
+  "enter_loan_amount_35": "Enter Loan Amount:",
+  "input_the_total_amount_of_the_loan_you_wish_to_cal_36": "Input the total amount of the loan you wish to calculate.",
+  "enter_interest_rate_37": "Enter Interest Rate:",
+  "provide_the_annual_interest_rate_of_the_loan_38": "Provide the annual interest rate of the loan.",
+  "select_loan_term_39": "Select Loan Term:",
+  "choose_the_duration_of_the_loan_in_years_40": "Choose the duration of the loan in years.",
+  "enter_start_date_41": "Enter Start Date:",
+  "specify_the_date_when_the_loan_payments_will_begin_42": "Specify the date when the loan payments will begin.",
+  "generate_schedule_43": "Generate Schedule:",
+  "click_the_button_to_generate_the_amortization_sche_44": "Click the button to generate the amortization schedule.",
+  "the_calculator_will_display_a_detailed_schedule_sh_45": "The calculator will display a detailed schedule showing each payment, the amount allocated to principal and interest, and the remaining balance."
+}

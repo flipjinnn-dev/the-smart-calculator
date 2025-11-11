@@ -1,0 +1,145 @@
+{
+  "pageTitle": "Calculadora de calorias",
+  "pageDescription": "Calcule as necessidades diárias de calorias com base no seu estilo de vida, objetivos e nível de atividade para perda de peso, manutenção ou ganho muscular",
+  "form": {
+    "labels": {
+      "age": "Idade (anos)",
+      "gender": "Gênero",
+      "weight": "Peso",
+      "height": "Altura",
+      "unitSystem": "Sistema de Unidades",
+      "activityLevel": "Nível de atividade",
+      "goal": "Meta de peso",
+      "calculationMethod": "Método de cálculo"
+    },
+    "placeholders": {
+      "age": "Insira a idade",
+      "heightFt": "Pés",
+      "heightIn": "Polegadas",
+      "heightCm": "Insira a altura em cm",
+      "weight": "Insira o peso em {unit}"
+    },
+    "buttons": {
+      "calculate": "Calcular calorias",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades dos EUA (pés/pol., lb)",
+      "metric": "Unidades Métricas (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentário (pouco ou nenhum exercício)",
+      "light": "Levemente ativo (exercícios leves 1-3 dias/semana)",
+      "moderate": "Moderadamente ativo (exercício moderado 3-5 dias/semana)",
+      "active": "Muito ativo (exercício intenso 6-7 dias/semana)",
+      "veryActive": "Extremamente ativo (exercício muito intenso e trabalho físico)"
+    },
+    "goals": {
+      "lose": "Perda de peso",
+      "maintain": "Manutenção de peso",
+      "gain": "Ganho de peso"
+    },
+    "calculationMethods": {
+      "mifflin": "Equação de Mifflin-St Jeor",
+      "harris": "Equação de Harris-Benedict",
+      "revisedHarris": "Equação de Harris-Benedict revisada"
+    }
+  },
+  "results": {
+    "bmr": "Taxa Metabólica Basal (TMB)",
+    "tdee": "Gasto Total Diário com Energia (TDEE)",
+    "calorieNeeds": "Necessidades Diárias de Calorias",
+    "calorieAdjustment": "Ajuste de calorias para meta",
+    "calorieResultsTitle": "Resultados de calorias"
+  },
+  "educational": {
+    "calorieInfo": "Informações sobre calorias",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos Nutricionais",
+    "calorieFacts": {
+      "bmr": {
+        "title": "Taxa Metabólica Basal (TMB)",
+        "description": "Calorias necessárias para manter as funções corporais básicas em repouso"
+      },
+      "tdee": {
+        "title": "Gasto Total Diário com Energia (TDEE)",
+        "description": "Total de calorias queimadas em um dia, incluindo atividade e exercício"
+      },
+      "adjustments": {
+        "title": "Ajustes baseados em metas",
+        "description": "Perda de peso: 500-1000 calorias abaixo do TDEE, Ganho de peso: 250-500 calorias acima do TDEE"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de calorias",
+      "individual": "As necessidades calóricas variam com base em fatores individuais e no metabolismo"
+    },
+    "importantNotesList": [
+      "Esses cálculos são estimativas e podem precisar de ajustes com base nos resultados",
+      "A perda rápida de peso não é recomendada e pode ser prejudicial à saúde",
+      "Considere consultar um profissional de saúde antes de fazer mudanças significativas na dieta",
+      "O exercício regular é importante para a saúde geral, independentemente das metas de peso"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações para calcular as necessidades diárias de calorias",
+    "resultMessage": "Suas necessidades diárias de calorias são mostradas abaixo",
+    "assessmentResult": "Resultado do cálculo de calorias:",
+    "calorieAnalysis": "Análise de calorias"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de calorias com base em fórmulas matemáticas. As necessidades calóricas individuais podem variar com base em fatores não considerados nesses cálculos, incluindo genética, condições de saúde e metabolismo."
+  },
+  "seekHelp": {
+    "title": "Recursos Nutricionais",
+    "content": "Para aconselhamento nutricional personalizado e planos de controle de peso, consulte nutricionistas registrados ou profissionais de saúde com experiência em ciência nutricional e necessidades individuais de saúde."
+  },
+  "errors": {
+    "age": "Insira uma idade válida (1-120)",
+    "gender": "Por favor selecione o sexo",
+    "heightFt": "Por favor insira pés válidos",
+    "heightIn": "Insira polegadas válidas (0-11)",
+    "heightCm": "Por favor insira uma altura válida em cm",
+    "weight": "Por favor insira um peso válido",
+    "activityLevel": "Selecione o nível de atividade",
+    "goal": "Selecione uma meta de peso",
+    "calculationMethod": "Selecione um método de cálculo"
+  },
+  "tooltips": {
+    "age": "A idade afeta a taxa metabólica",
+    "height": "Sua medida de altura atual",
+    "weight": "Seu peso corporal atual",
+    "activityLevel": "Seu nível de atividade regular afeta as necessidades calóricas",
+    "goal": "Sua meta de peso determina ajustes de calorias",
+    "calculationMethod": "Equações diferentes podem produzir resultados ligeiramente diferentes"
+  },
+  "personal_information_0": "Informações pessoais",
+  "enter_your_details_to_calculate_calorie_needs_1": "Insira seus dados para calcular as necessidades calóricas",
+  "age_2": "Idade",
+  "gender_3": "Gênero",
+  "male_4": "Macho",
+  "female_5": "Fêmea",
+  "height_cm_6": "Altura (cm)",
+  "weight_kg_7": "Peso (kg)",
+  "activity_level_8": "Nível de atividade",
+  "sedentary_littleno_exercise_9": "Sedentário (pouco/nenhum exercício)",
+  "light_light_exercise_13_daysweek_10": "Leve (exercício leve 1-3 dias/semana)",
+  "moderate_moderate_exercise_35_daysweek_11": "Moderado (exercício moderado 3-5 dias/semana)",
+  "active_hard_exercise_67_daysweek_12": "Ativo (exercício intenso 6-7 dias/semana)",
+  "very_active_very_hard_exercise_physical_job_13": "Muito ativo (exercício muito intenso, trabalho físico)",
+  "calculate_14": "Calcular",
+  "your_calorie_needs_15": "Suas necessidades calóricas",
+  "daily_calorie_requirements_for_different_goals_16": "Necessidades diárias de calorias para diferentes objetivos",
+  "maintenance_calories_17": "Calorias de manutenção",
+  "calories_to_maintain_current_weight_18": "Calorias para manter o peso atual",
+  "weight_loss_1_lbweek_19": "Perda de peso (1 lb/semana)",
+  "calories_20": "calorias",
+  "weight_gain_1_lbweek_21": "Ganho de peso (1 lb/semana)",
+  "calories_22": "calorias",
+  "basal_metabolic_rate_bmr_23": "Taxa Metabólica Basal (TMB)",
+  "calories_24": "calorias",
+  "enter_your_information_to_calculate_calorie_needs_25": "Insira suas informações para calcular as necessidades calóricas"
+}

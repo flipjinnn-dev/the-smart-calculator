@@ -1,0 +1,214 @@
+{
+  "pageTitle": "Calculadora de jarda cúbica",
+  "pageDescription": "Calcule jardas cúbicas de concreto, solo e outros materiais com medidas precisas para projetos de construção e paisagismo",
+  "form": {
+    "labels": {
+      "shape": "Forma",
+      "length": "Comprimento",
+      "width": "Largura",
+      "height": "Altura/Profundidade",
+      "diameter": "Diâmetro",
+      "unitSystem": "Sistema de Unidades",
+      "material": "Tipo de material",
+      "density": "Densidade do material"
+    },
+    "placeholders": {
+      "length": "Insira o comprimento",
+      "width": "Insira a largura",
+      "height": "Insira altura/profundidade",
+      "diameter": "Insira o diâmetro"
+    },
+    "buttons": {
+      "calculate": "Calcular jardas cúbicas",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "imperial": "Imperial (ft, in)",
+      "metric": "Métrico (m, cm)"
+    },
+    "shapes": {
+      "rectangular": "Retangular",
+      "circular": "Circular",
+      "triangular": "Triangular"
+    },
+    "materials": {
+      "concrete": "Concreto",
+      "soil": "Solo",
+      "mulch": "Cobertura morta",
+      "gravel": "Cascalho",
+      "sand": "Areia",
+      "custom": "Densidade Personalizada"
+    }
+  },
+  "results": {
+    "cubicYards": "Jardas Cúbicas",
+    "cubicFeet": "Pés Cúbicos",
+    "cubicMeters": "Metros Cúbicos",
+    "materialWeight": "Peso do material",
+    "cubicYardResultsTitle": "Resultados de jardas cúbicas"
+  },
+  "educational": {
+    "cubicYardInfo": "Informações sobre jardas cúbicas",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos de construção",
+    "cubicYardFacts": {
+      "conversion": {
+        "title": "Conversões de volume",
+        "description": "1 jarda cúbica = 27 pés cúbicos = 0,764555 metros cúbicos"
+      },
+      "materials": {
+        "title": "Densidades de materiais comuns",
+        "description": "Concreto: 4.050 libras/jarda³, Solo: 2.200 libras/jarda³, Cobertura morta: 500 libras/jarda³"
+      },
+      "ordering": {
+        "title": "Encomendar materiais",
+        "description": "Adicione 10-15% extra para compensar desperdício e sedimentação"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas cálculos de volume",
+      "accuracy": "Meça com precisão e adicione mais para resíduos e sedimentação"
+    },
+    "importantNotesList": [
+      "Sempre meça duas vezes e solicite material extra para compensar o desperdício",
+      "Considere a compactação e o assentamento do material em seus cálculos",
+      "Verifique os fornecedores locais para disponibilidade de material e opções de entrega",
+      "Considere o transporte e o manuseio ao planejar seu projeto"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas dimensões para calcular jardas cúbicas",
+    "resultMessage": "O cálculo da sua jarda cúbica é mostrado abaixo",
+    "assessmentResult": "Resultado do cálculo de volume:",
+    "cubicYardAnalysis": "Análise de jarda cúbica"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece cálculos de volume baseados em fórmulas geométricas padrão. Os requisitos reais de materiais podem variar com base nas especificações do projeto, fatores de desperdício e recomendações do fornecedor."
+  },
+  "seekHelp": {
+    "title": "Recursos de construção",
+    "content": "Para aconselhamento profissional de construção e estimativa de materiais, consulte profissionais de construção ou fornecedores locais de materiais para recomendações específicas do projeto."
+  },
+  "errors": {
+    "length": "Insira um comprimento válido",
+    "width": "Insira uma largura válida",
+    "height": "Por favor insira uma altura/profundidade válida",
+    "diameter": "Insira um diâmetro válido",
+    "shape": "Selecione uma forma",
+    "material": "Selecione um tipo de material"
+  },
+  "tooltips": {
+    "shape": "Selecione a forma da área que você está medindo",
+    "length": "Dimensão mais longa da área",
+    "width": "Largura da área (perpendicular ao comprimento)",
+    "height": "Profundidade ou altura do material necessário",
+    "diameter": "Distância através da área circular",
+    "material": "O tipo de material afeta os cálculos de peso"
+  },
+  "length_0": "Comprimento (",
+  "width_1": "Largura (",
+  "height_2": "Altura (",
+  "side_length_3": "Comprimento lateral (",
+  "radius_4": "Raio (",
+  "height_5": "Altura (",
+  "outer_dimensions_6": "Dimensões Externas",
+  "outer_length_7": "Comprimento Externo (",
+  "outer_width_8": "Largura externa (",
+  "outer_height_9": "Altura externa (",
+  "inner_dimensions_10": "Dimensões Internas",
+  "inner_length_11": "Comprimento interno (",
+  "inner_width_12": "Largura interna (",
+  "inner_height_13": "Altura interna (",
+  "outer_radius_14": "Raio Externo (",
+  "inner_radius_15": "Raio Interno (",
+  "height_16": "Altura (",
+  "radius_17": "Raio (",
+  "base_radius_18": "Raio Base (",
+  "height_19": "Altura (",
+  "base_area_20": "Área base (",
+  "height_21": "Altura (",
+  "shape_dimensions_22": "Forma e Dimensões",
+  "select_shape_and_enter_dimensions_to_calculate_vol_23": "Selecione a forma e insira as dimensões para calcular o volume",
+  "select_shape_24": "Selecione a forma",
+  "yards_yd_25": "Jardas (jardas)",
+  "conversion_26": "Conversão:",
+  "k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_27": "1 jarda cúbica = 27 pés cúbicos = 46.656 polegadas cúbicas",
+  "commonly_used_for_concrete_gravel_soil_mulch_and_o_28": "Comumente usado para concreto, cascalho, solo, cobertura morta e outros materiais de construção.",
+  "calculate_29": "Calcular",
+  "volume_results_30": "Resultados de volume",
+  "cubic_yards_31": "jardas cúbicas",
+  "cubic_feet_32": "pés cúbicos",
+  "total_cost_33": "Custo total",
+  "select_shape_enter_dimensions_and_click_34": "Selecione a forma, insira as dimensões e clique",
+  "calculate_35": "Calcular",
+  "to_see_volume_36": "para ver o volume.",
+  "detailed_volume_breakdown_37": "Detalhamento detalhado do volume",
+  "cubic_yards_38": "Jardas Cúbicas",
+  "yd_39": "jarda³",
+  "cubic_feet_40": "Pés Cúbicos",
+  "ft_41": "pés³",
+  "total_cost_42": "Custo total",
+  "usd_43": "USD",
+  "understanding_cubic_yards_in_construction_44": "Compreendendo as jardas cúbicas na construção",
+  "why_cubic_yards_45": "Por que jardas cúbicas?",
+  "cubic_yards_are_the_standard_unit_for_measuring_bu_46": "As jardas cúbicas são a unidade padrão para medir materiais de construção a granel, como concreto,\n                        cascalho, solo e cobertura morta. Esta unidade fornece uma escala prática para projetos de construção e\n                        ordenação de materiais.",
+  "common_applications_47": "Aplicativos comuns",
+  "concrete_for_foundations_driveways_patios_48": "Concreto para fundações, calçadas, pátios",
+  "gravel_for_driveways_and_landscaping_49": "Cascalho para calçadas e paisagismo",
+  "soil_and_topsoil_for_gardening_50": "Solo e solo superficial para jardinagem",
+  "mulch_for_landscaping_projects_51": "Cobertura morta para projetos de paisagismo",
+  "sand_for_construction_and_landscaping_52": "Areia para construção e paisagismo",
+  "sample_calculation_53": "Cálculo de amostra",
+  "example_rectangular_driveway_54": "Exemplo: entrada de automóveis retangular",
+  "length_12_ft_55": "Comprimento: 12 pés",
+  "width_9_ft_56": "Largura: 9 pés",
+  "depth_2_ft_57": "Profundidade: 2 pés",
+  "volume_12_9_2_216_ft_58": "Volume: 12 × 9 × 2 = 216 pés³",
+  "result_216_27_8_cubic_yards_59": "Resultado: 216 ÷ 27 = 8 jardas cúbicas",
+  "conversion_60": "Conversão:",
+  "always_divide_cubic_feet_by_27_to_get_cubic_yards_61": "Sempre divida os pés cúbicos por 27 para obter jardas cúbicas.",
+  "unit_25": "Unidade",
+  "feet_ft_26": "Pés (pés)",
+  "inches_in_27": "Polegadas (pol.)",
+  "yards_yd_28": "Jardas (jardas)",
+  "cost_per_cubic_yard_optional_29": "Custo por jarda cúbica (opcional)",
+  "conversion_30": "Conversão:",
+  "k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_31": "1 jarda cúbica = 27 pés cúbicos = 46.656 polegadas cúbicas",
+  "commonly_used_for_concrete_gravel_soil_mulch_and_o_32": "Comumente usado para concreto, cascalho, solo, cobertura morta e outros materiais de construção.",
+  "calculate_33": "Calcular",
+  "volume_results_34": "Resultados de volume",
+  "cubic_yards_35": "jardas cúbicas",
+  "cubic_feet_36": "pés cúbicos",
+  "total_cost_37": "Custo total",
+  "select_shape_enter_dimensions_and_click_38": "Selecione a forma, insira as dimensões e clique",
+  "calculate_39": "Calcular",
+  "to_see_volume_40": "para ver o volume.",
+  "detailed_volume_breakdown_41": "Detalhamento detalhado do volume",
+  "cubic_yards_42": "Jardas Cúbicas",
+  "yd_43": "jarda³",
+  "cubic_feet_44": "Pés Cúbicos",
+  "ft_45": "pés³",
+  "total_cost_46": "Custo total",
+  "usd_47": "USD",
+  "understanding_cubic_yards_in_construction_48": "Compreendendo as jardas cúbicas na construção",
+  "why_cubic_yards_49": "Por que jardas cúbicas?",
+  "cubic_yards_are_the_standard_unit_for_measuring_bu_50": "As jardas cúbicas são a unidade padrão para medir materiais de construção a granel, como concreto,\n                        cascalho, solo e cobertura morta. Esta unidade fornece uma escala prática para projetos de construção e\n                        ordenação de materiais.",
+  "common_applications_51": "Aplicativos comuns",
+  "concrete_for_foundations_driveways_patios_52": "Concreto para fundações, calçadas, pátios",
+  "gravel_for_driveways_and_landscaping_53": "Cascalho para calçadas e paisagismo",
+  "soil_and_topsoil_for_gardening_54": "Solo e solo superficial para jardinagem",
+  "mulch_for_landscaping_projects_55": "Cobertura morta para projetos de paisagismo",
+  "sand_for_construction_and_landscaping_56": "Areia para construção e paisagismo",
+  "sample_calculation_57": "Cálculo de amostra",
+  "example_rectangular_driveway_58": "Exemplo: entrada de automóveis retangular",
+  "length_12_ft_59": "Comprimento: 12 pés",
+  "width_9_ft_60": "Largura: 9 pés",
+  "depth_2_ft_61": "Profundidade: 2 pés",
+  "volume_12_9_2_216_ft_62": "Volume: 12 × 9 × 2 = 216 pés³",
+  "result_216_27_8_cubic_yards_63": "Resultado: 216 ÷ 27 = 8 jardas cúbicas",
+  "conversion_64": "Conversão:",
+  "always_divide_cubic_feet_by_27_to_get_cubic_yards_65": "Sempre divida os pés cúbicos por 27 para obter jardas cúbicas."
+}

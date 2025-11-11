@@ -1,0 +1,116 @@
+{
+  "pageTitle": "Calculadora de Empréstimo",
+  "pageDescription": "Calcule pagamentos de empréstimos, taxas de juros e cronogramas de pagamento para vários tipos de empréstimos, incluindo hipotecas, empréstimos para automóveis e empréstimos pessoais",
+  "form": {
+    "labels": {
+      "loanAmount": "Valor do empréstimo",
+      "interestRate": "Taxa de juros anual",
+      "loanTerm": "Prazo do empréstimo",
+      "loanTermUnit": "Unidade de Prazo do Empréstimo",
+      "startDate": "Data de início do empréstimo",
+      "extraPayment": "Pagamento Extra Mensal",
+      "paymentFrequency": "Frequência de pagamento"
+    },
+    "placeholders": {
+      "loanAmount": "Insira o valor do empréstimo",
+      "interestRate": "Insira a taxa de juros anual (%)",
+      "loanTerm": "Insira o prazo do empréstimo",
+      "extraPayment": "Insira o pagamento mensal extra (opcional)"
+    },
+    "buttons": {
+      "calculate": "Calcular empréstimo",
+      "reset": "Reiniciar"
+    },
+    "loanTermUnits": {
+      "years": "Anos",
+      "months": "Meses"
+    },
+    "paymentFrequencies": {
+      "monthly": "Mensal",
+      "biweekly": "Quinzenal",
+      "weekly": "Semanalmente"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Pagamento Mensal",
+    "totalInterest": "Juros totais pagos",
+    "totalPayment": "Pagamento total",
+    "payoffDate": "Data de pagamento do empréstimo",
+    "interestSavings": "Economia de juros com pagamentos extras",
+    "loanResultsTitle": "Resultados do cálculo do empréstimo"
+  },
+  "educational": {
+    "loanInfo": "Informações sobre empréstimo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "loanFacts": {
+      "amortization": {
+        "title": "Amortização",
+        "description": "Processo de pagamento de um empréstimo com pagamentos regulares ao longo do tempo"
+      },
+      "interest": {
+        "title": "Cálculo de juros",
+        "description": "Os juros são calculados sobre o saldo remanescente do empréstimo, diminuindo ao longo do tempo"
+      },
+      "extraPayments": {
+        "title": "Pagamentos extras",
+        "description": "Pagamentos extras reduzem o principal mais rapidamente, economizando nos juros totais"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de pagamento de empréstimos",
+      "actual": "Os termos reais do empréstimo podem variar com base nas políticas e taxas do credor"
+    },
+    "importantNotesList": [
+      "Esta calculadora não inclui impostos, seguros ou outras taxas",
+      "Pagamentos extras reduzem diretamente o saldo principal",
+      "Pagamentos quinzenais podem ajudar a pagar empréstimos mais rapidamente",
+      "Considere a taxa percentual anual (APR) para o custo real do empréstimo"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações do seu empréstimo para calcular pagamentos e juros",
+    "resultMessage": "Os resultados do cálculo do seu empréstimo são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do empréstimo:",
+    "loanAnalysis": "Análise de Empréstimo"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de pagamento de empréstimos com base em fórmulas financeiras padrão. Os termos, pagamentos e juros reais do empréstimo podem variar com base nas políticas, taxas e outros fatores do credor não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para aconselhamento personalizado sobre empréstimos e planejamento financeiro, consulte consultores financeiros ou agentes de crédito com experiência em produtos de empréstimo e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "loanAmount": "Insira um valor de empréstimo válido",
+    "interestRate": "Insira uma taxa de juros anual válida",
+    "loanTerm": "Insira um prazo de empréstimo válido",
+    "startDate": "Insira uma data de início do empréstimo válida",
+    "extraPayment": "Insira um valor de pagamento extra válido",
+    "loanTermUnit": "Selecione uma unidade de prazo do empréstimo",
+    "paymentFrequency": "Selecione uma frequência de pagamento"
+  },
+  "tooltips": {
+    "loanAmount": "Valor total emprestado",
+    "interestRate": "Taxa de juros anual como porcentagem",
+    "loanTerm": "Prazo para pagar o empréstimo",
+    "startDate": "Data em que começam os pagamentos do empréstimo",
+    "extraPayment": "Valor adicional pago a cada mês em relação ao principal",
+    "paymentFrequency": "Com que frequência os pagamentos são feitos"
+  },
+  "loan_details_0": "Detalhes do empréstimo",
+  "enter_your_loan_information_to_calculate_payments_1": "Insira as informações do seu empréstimo para calcular os pagamentos",
+  "loan_amount_2": "Valor do empréstimo",
+  "annual_interest_rate_3": "Taxa de juros anual (%)",
+  "loan_term_years_4": "Prazo do empréstimo (anos)",
+  "calculate_5": "Calcular",
+  "calculation_results_6": "Resultados do cálculo",
+  "your_loan_payment_breakdown_7": "O detalhamento do pagamento do seu empréstimo",
+  "monthly_payment_8": "Pagamento Mensal",
+  "total_interest_9": "Juros totais",
+  "total_payment_10": "Pagamento total",
+  "enter_loan_details_to_see_your_calculation_11": "Insira os detalhes do empréstimo para ver seu cálculo"
+}

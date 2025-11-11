@@ -1,0 +1,94 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Umsatzsteuerrechner – Finden Sie sofort die Vorsteuer, die Nachsteuer und die umgekehrte Umsatzsteuer",
+      "content": "Mit unserem Online-Umsatzsteuerrechner können Sie schnell und in Sekundenschnelle die Umsatzsteuer, den Preis vor Steuern, den Gesamtbetrag nach Steuern und die umgekehrte Steuer berechnen. Egal, ob Sie einkaufen, eine Rechnung erstellen oder einen E-Commerce-Shop betreiben, dieses Tool spart Zeit, indem es Ihnen genaue Beträge inklusive und exklusive Steuern liefert."
+    },
+    {
+      "heading": "So funktioniert der Umsatzsteuerrechner",
+      "subSections": [
+        {
+          "heading": "1. Umsatzsteuer hinzufügen (ohne Steuern → inklusive Steuern)",
+          "content": "Gesamtpreis = Preis vor Steuern + (Preis vor Steuern × Umsatzsteuersatz)"
+        },
+        {
+          "heading": "2. Ermitteln Sie die Umsatzsteuer anhand des Gesamtpreises (Umkehrsteuer).",
+          "content": "Umsatzsteuer = Gesamtpreis – (Gesamtpreis ÷ (1 + Steuersatz))"
+        },
+        {
+          "heading": "3. Preis vor Steuern vom Gesamtpreis (inkl. Steuern → exklusive)",
+          "content": "Preis vor Steuern = Gesamtpreis ÷ (1 + Steuersatz)"
+        }
+      ]
+    },
+    {
+      "heading": "Beispiele zur Umsatzsteuerberechnung",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 (Steuer hinzufügen)",
+          "content": "Artikelpreis = 100 $, Umsatzsteuersatz = 8 % → Gesamt = 100 $ + (100 $ × 0,08) = 108 $"
+        },
+        {
+          "heading": "Beispiel 2 (Umkehrsteuer)",
+          "content": "Gesamtpreis (einschließlich Steuern) = 108 $, Steuersatz = 8 % → Preis vor Steuern = 108 $ ÷ 1,08 = 100 $, Umsatzsteuer = 108 $ – 100 $ = 8 $"
+        }
+      ]
+    },
+    {
+      "heading": "Häufige Anwendungsfälle",
+      "content": "Einkaufen und Einzelhandel, Rechnungen und Abrechnungen, E-Commerce, landesspezifische Berechnungen (US-Staatssteuern) und internationale Nutzung (Kanada GST/HST, britische Mehrwertsteuer)."
+    },
+    {
+      "heading": "Umsatzsteuer vs. Mehrwertsteuer (Schnellvergleich)",
+      "subSections": [
+        {
+          "heading": "Umsatzsteuer (USA)",
+          "content": "Wird dem Verbraucher an der Endverkaufsstelle in Rechnung gestellt."
+        },
+        {
+          "heading": "Mehrwertsteuer (Großbritannien und EU)",
+          "content": "Wird auf jeder Stufe der Lieferkette hinzugefügt, wobei Unternehmen die Vorsteuer zurückfordern können."
+        }
+      ]
+    },
+    {
+      "heading": "Warum diesen Rechner verwenden?",
+      "content": "✔ Schnelle und genaue Sofortergebnisse\n✔ Funktioniert für Vorsteuer, Nachsteuer und Umkehrsteuer\n✔ Deckt USA, Kanada (GST/HST), britische Mehrwertsteuer und mehr ab\n✔ Perfekt für Käufer, Freiberufler, Buchhalter und Unternehmen"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie berechnet man die Umsatzsteuer manuell?",
+      "a": "Multiplizieren Sie den Vorsteuerpreis mit dem Umsatzsteuersatz und addieren Sie ihn dann zum Originalpreis."
+    },
+    {
+      "q": "Was ist die umgekehrte Umsatzsteuer und wann ist sie sinnvoll?",
+      "a": "Mithilfe der Umkehrung der Umsatzsteuer können Sie den Preis vor Steuern ermitteln, wenn Sie nur den Gesamtbetrag (einschließlich Steuern) kennen. Nützlich für Quittungen, Rechnungen und Buchhaltung."
+    },
+    {
+      "q": "Wie errechne ich die Umsatzsteuer aus dem Gesamtpreis?",
+      "a": "Verwenden Sie diese Formel: Umsatzsteuer = Gesamtpreis – (Gesamtpreis ÷ (1 + Steuersatz))"
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Mehrwertsteuer und Umsatzsteuer?",
+      "a": "Die Umsatzsteuer wird nur beim Endverkauf erhoben, während die Mehrwertsteuer auf jeder Produktions- und Vertriebsstufe erhoben wird."
+    },
+    {
+      "q": "Wie funktioniert die Preisgestaltung inklusive Steuern gegenüber der Preisgestaltung exklusiv?",
+      "a": "„Tax Exclusive“ bedeutet, dass die Steuer separat zum Grundpreis hinzugerechnet wird, während „Tax Inclusive“ bedeutet, dass der Endpreis bereits die Steuer enthält."
+    },
+    {
+      "q": "Wie hoch ist der Umsatzsteuersatz in den USA?",
+      "a": "Die Tarife variieren je nach Bundesstaat, z. B. Kalifornien (7,25 %), New York (4 % Bundesstaat + lokale Tarife), Texas (6,25 %). Überprüfen Sie immer Ihren lokalen Tarif."
+    },
+    {
+      "q": "Kann ich diesen Rechner für die kanadische GST/HST oder die britische Mehrwertsteuer verwenden?",
+      "a": "Ja. Der Rechner funktioniert mit jedem Steuersatz, einschließlich der kanadischen GST/HST und der britischen Mehrwertsteuer."
+    },
+    {
+      "q": "Ist die Umsatzsteuer für Online-Einkäufe und Einkäufe im Geschäft gleich?",
+      "a": "Es kommt darauf an. Viele US-Bundesstaaten verlangen inzwischen die Erhebung der Umsatzsteuer im E-Commerce, ähnlich wie beim Kauf im Geschäft."
+    }
+  ]
+}

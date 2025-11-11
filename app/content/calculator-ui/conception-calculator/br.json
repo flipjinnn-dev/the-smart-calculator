@@ -1,0 +1,142 @@
+{
+  "pageTitle": "Calculadora de Concepção",
+  "pageDescription": "Estime a data da sua concepção com base nas datas da ovulação e da relação sexual",
+  "form": {
+    "labels": {
+      "lastMenstrualPeriod": "Última menstruação",
+      "ovulationDate": "Data da ovulação (opcional)",
+      "intercourseDate": "Data da relação sexual"
+    },
+    "placeholders": {
+      "lastMenstrualPeriod": "Insira o primeiro dia da última menstruação",
+      "ovulationDate": "Insira a data da ovulação, se conhecida",
+      "intercourseDate": "Insira a data da relação sexual"
+    },
+    "buttons": {
+      "calculate": "Calcular a data da concepção",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "conceptionDate": "Data estimada de concepção",
+    "fertileWindow": "Janela Fértil",
+    "dueDate": "Data de vencimento estimada",
+    "calculationDetails": "Resultados do cálculo da concepção"
+  },
+  "educational": {
+    "info": "Informações sobre concepção",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de concepção",
+        "description": "Informações sobre concepção"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como a concepção é calculada"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos da concepção"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de concepção",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular a concepção",
+    "resultMessage": "Os resultados do seu cálculo de concepção são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da concepção:",
+    "analysis": "Análise de Concepção"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de concepção baseadas em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "conception_calculation_0": "Cálculo da Concepção",
+  "enter_your_menstrual_cycle_details_to_calculate_co_1": "Insira os detalhes do seu ciclo menstrual para calcular as datas de concepção",
+  "first_day_of_your_last_menstrual_period_lmp_2": "Primeiro dia da sua última menstruação (DUM) *",
+  "average_length_of_menstrual_cycle_cl_3": "Duração Média do Ciclo Menstrual (CL) *",
+  "days_4": "dias",
+  "average_menstrual_cycle_length_ranges_from_22_to_4_5": "A duração média do ciclo menstrual varia de 22 a 44 dias (28 dias é o típico)",
+  "calculate_6": "Calcular",
+  "reset_7": "Reiniciar",
+  "conception_window_8": "Janela de Concepção",
+  "most_probable_conception_9": "Concepção mais provável",
+  "peak_fertile_10": "Pico fértil:",
+  "enter_your_cycle_details_to_calculate_your_concept_11": "Insira os detalhes do seu ciclo para calcular sua janela de concepção.",
+  "your_conception_results_12": "Seus resultados de concepção",
+  "current_cycle_windows_13": "Janelas do Ciclo Atual",
+  "ovulation_date_14": "Data da ovulação:",
+  "fertile_window_15": "Janela Fértil:",
+  "peak_fertile_window_16": "Janela de pico fértil:",
+  "possible_conception_dates_17": "Possíveis datas de concepção",
+  "most_probable_18": "(Mais Provável)",
+  "peak_19": "(Pico)",
+  "due_20": "Devido:",
+  "k_6cycle_forecast_21": "Previsão de 6 ciclos",
+  "cycle_22": "Ciclo #",
+  "ovulation_date_23": "Data da ovulação",
+  "fertile_window_24": "Janela Fértil",
+  "peak_fertile_window_25": "Janela de Pico Fértil",
+  "possible_conception_dates_26": "Possíveis datas de concepção",
+  "estimated_due_dates_27": "Datas de vencimento estimadas",
+  "dates_28": "datas",
+  "understanding_conception_29": "Compreendendo a concepção",
+  "conception_probability_30": "Probabilidade de concepção",
+  "sperm_can_survive_up_to_57_days_31": "O esperma pode sobreviver até 5-7 dias",
+  "before_ovulation_32": "antes da ovulação",
+  "the_last_3_days_of_fertile_window_33": "Os últimos 3 dias de janela fértil",
+  "have_30_chance_of_conception_34": "tem cerca de 30% de chance de concepção",
+  "conception_is_most_probable_on_ovulation_day_35": "A concepção é mais provável no dia da ovulação",
+  "any_intercourse_during_fertile_window_36": "Qualquer relação sexual durante a janela fértil",
+  "may_result_in_pregnancy_37": "pode resultar em gravidez",
+  "calculation_method_38": "Método de cálculo",
+  "ovulation_39": "Ovulação:",
+  "lmp_cycle_length_14_days_40": "DUM + (duração do ciclo - 14 dias)",
+  "fertile_window_41": "Janela Fértil:",
+  "ovulation_5_days_ovulation_42": "[Ovulação - 5 dias, Ovulação]",
+  "peak_fertile_43": "Pico Fértil:",
+  "ovulation_2_days_ovulation_44": "[Ovulação - 2 dias, Ovulação]",
+  "due_date_45": "Data de vencimento:",
+  "conception_date_266_days_46": "Data da concepção + 266 dias",
+  "timing_for_conception_47": "Momento para a concepção",
+  "best_timing_48": "Melhor momento:",
+  "k_12_days_before_ovulation_49": "1-2 dias antes da ovulação",
+  "good_timing_50": "Bom momento:",
+  "day_of_ovulation_51": "Dia da ovulação",
+  "moderate_timing_52": "Tempo moderado:",
+  "k_35_days_before_ovulation_53": "3-5 dias antes da ovulação",
+  "low_probability_54": "Baixa probabilidade:",
+  "after_ovulation_day_55": "Após o dia da ovulação",
+  "important_notes_56": "Notas importantes",
+  "this_calculator_provides_estimates_based_on_averag_57": "Esta calculadora fornece estimativas baseadas em ciclos médios",
+  "actual_conception_timing_can_vary_by_individual_58": "O tempo real de concepção pode variar de acordo com o indivíduo",
+  "due_dates_are_estimates_using_naegeles_rule_59": "As datas de vencimento são estimativas usando a Regra de Naegele",
+  "consult_healthcare_providers_for_personalized_advi_60": "Consulte prestadores de cuidados de saúde para aconselhamento personalizado"
+}

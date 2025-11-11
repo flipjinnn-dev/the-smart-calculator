@@ -1,0 +1,162 @@
+{
+  "pageTitle": "Calculadora TFG",
+  "pageDescription": "Calcule gfr com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular TFG",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo da TFG"
+  },
+  "educational": {
+    "info": "Informações sobre TFG",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de TFG",
+        "description": "Informações sobre o GFR"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como a TFG é calculada"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos de gfr"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de gfr",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular a gfr",
+    "resultMessage": "Os resultados do cálculo da GFR são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da TFG:",
+    "analysis": "Análise TFG"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de TFG com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "kidney_function_assessment_0": "Avaliação da função renal",
+  "enter_patient_information_to_calculate_estimated_g_1": "Insira as informações do paciente para calcular a TFG estimada e o estágio da DRC",
+  "patient_type_2": "Tipo de paciente *",
+  "adult_3": "Adulto",
+  "ages_18_mdrd_ckdepi_formulas_4": "- Maiores de 18 anos (fórmulas MDRD, CKD-EPI)",
+  "child_5": "Criança",
+  "ages_017_schwartz_formula_6": "- Idades de 0 a 17 anos (fórmula de Schwartz)",
+  "age_7": "Idade (",
+  "sex_8": "Sexo *",
+  "male_9": "Macho",
+  "female_10": "Fêmea",
+  "height_11": "Altura *",
+  "cm_12": "cm",
+  "in_13": "em",
+  "required_for_schwartz_formula_calculation_14": "Necessário para cálculo da fórmula de Schwartz",
+  "serum_creatinine_mgdl_15": "Creatinina Sérica (mg/dL) *",
+  "formula_choice_16": "Escolha da fórmula",
+  "ckdepi_2021_racefree_17": "CKD-EPI 2021 (sem corrida)",
+  "default_most_current_18": "- Padrão, mais atual",
+  "mdrd_idmstraceable_19": "MDRD (rastreável por IDMS)",
+  "traditional_formula_20": "- Fórmula tradicional",
+  "calculate_21": "Calcular",
+  "reset_22": "Reiniciar",
+  "egfr_result_23": "Resultado TFGe",
+  "mlmin173_m_24": "mL/min/1,73 m²",
+  "enter_patient_information_to_calculate_egfr_25": "Insira as informações do paciente para calcular a TFGe.",
+  "gfr_results_26": "Resultados TFG",
+  "estimated_gfr_27": "TFG estimada",
+  "mlmin173_m_28": "mL/min/1,73 m²",
+  "stage_29": "Estágio",
+  "calculation_details_30": "Detalhes do cálculo",
+  "formula_used_31": "Fórmula usada:",
+  "patient_type_32": "Tipo de paciente:",
+  "age_33": "Idade:",
+  "years_34": "anos",
+  "sex_35": "Sexo:",
+  "height_36": "Altura:",
+  "serum_creatinine_37": "Creatinina Sérica:",
+  "mgdl_38": "mg/dL",
+  "important_medical_notice_39": "Aviso médico importante",
+  "results_are_estimates_for_screening_purposes_only__40": "Os resultados são estimativas apenas para fins de triagem. Consulte um profissional de saúde para obter informações médicas\n                            aconselhamento, diagnóstico ou decisões de tratamento. A TFGe pode ser menos precisa em certas populações.",
+  "understanding_gfr_ckd_stages_41": "Compreendendo os estágios da TFG e da DRC",
+  "ckd_stages_42": "Estágios da DRC",
+  "g1_43": "G1:",
+  "k_90_44": "≥90",
+  "normal_45": "Normal",
+  "g2_46": "G2:",
+  "k_6089_47": "60-89",
+  "mildly_decreased_48": "Ligeiramente diminuído",
+  "g3a_49": "G3a:",
+  "k_4559_50": "45-59",
+  "mildmoderate_51": "Leve-moderado",
+  "g3b_52": "G3b:",
+  "k_3044_53": "30-44",
+  "moderatesevere_54": "Moderado-grave",
+  "g4_55": "G4:",
+  "k_1529_56": "15-29",
+  "severe_57": "Forte",
+  "g5_58": "G5:",
+  "k_15_59": "<15",
+  "kidney_failure_60": "Insuficiência renal",
+  "formula_comparison_61": "Comparação de fórmulas",
+  "ckdepi_2021_62": "DRC-EPI 2021:",
+  "most_current_racefree_formula_recommended_by_guide_63": "Fórmula mais atual e sem raça recomendada pelas diretrizes",
+  "mdrd_64": "MDRD:",
+  "traditional_formula_may_underestimate_at_higher_gf_65": "Fórmula tradicional, pode subestimar em níveis mais elevados de TFG",
+  "schwartz_formula_66": "Fórmula de Schwartz:",
+  "pediatric_formula_for_children_aged_017_years_67": "Fórmula pediátrica para crianças de 0 a 17 anos",
+  "clinical_significance_68": "Significado clínico",
+  "normal_gfr_69": "TFG normal:",
+  "k_90120_mlmin173_m_in_healthy_adults_70": "90-120 mL/min/1,73 m² em adultos saudáveis",
+  "ckd_diagnosis_71": "Diagnóstico de DRC:",
+  "gfr_60_for_3_months_72": "TFG <60 por ≥3 meses",
+  "referral_to_nephrology_73": "Encaminhamento para nefrologia:",
+  "usually_at_gfr_30_74": "Geralmente com TFG <30",
+  "dialysis_consideration_75": "Consideração sobre diálise:",
+  "gfr_15_or_symptomatic_76": "TFG <15 ou sintomático",
+  "limitations_77": "Limitações",
+  "less_accurate_in_extremes_of_age_body_size_or_musc_78": "Menos preciso em extremos de idade, tamanho corporal ou massa muscular",
+  "may_be_inaccurate_in_acute_kidney_injury_79": "Pode ser impreciso na lesão renal aguda",
+  "requires_stable_creatinine_levels_80": "Requer níveis estáveis ​​de creatinina",
+  "consider_cystatin_cbased_equations_for_better_accu_81": "Considere equações baseadas em cistatina C para melhor precisão"
+}

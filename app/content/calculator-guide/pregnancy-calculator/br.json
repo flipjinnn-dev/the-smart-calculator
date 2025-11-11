@@ -1,0 +1,125 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Calculadora de gravidez on-line: seu guia para monitorar semanas de gravidez e data de vencimento",
+      "content": "Planejar ou acompanhar sua gravidez pode ser emocionante e opressor. Uma calculadora de gravidez on-line é uma ferramenta simples e confiável para estimar as semanas de gravidez, a data do parto e os marcos do trimestre. Se você deseja saber a data da sua concepção, acompanhar o progresso após a fertilização in vitro ou apenas entender o cronograma da sua gravidez, esta ferramenta inteligente torna tudo fácil e preciso."
+    },
+    {
+      "heading": "Como funciona uma calculadora de gravidez?",
+      "content": "Uma calculadora de data de vencimento da gravidez usa diferentes métodos para estimar o cronograma da sua gravidez:",
+      "subSections": [
+        {
+          "heading": "Método DUM (última menstruação)",
+          "content": "Método mais comumente usado para calcular semanas de gravidez. Conta a partir do primeiro dia da sua última menstruação e fornece uma data de vencimento estimada com detalhamento do trimestre."
+        },
+        {
+          "heading": "Método da data de concepção",
+          "content": "Se você souber a data exata da concepção, este método fornecerá uma contagem precisa das semanas. Útil para mulheres com períodos irregulares ou que monitoram a fertilidade."
+        },
+        {
+          "heading": "Método de ultrassom",
+          "content": "Estima a idade gestacional com base nas medidas fetais. Mais preciso no início da gravidez (primeiro trimestre). Pode ajustar a data do parto se as datas da DUM e do ultrassom diferirem significativamente."
+        },
+        {
+          "heading": "Método de fertilização in vitro (fertilização in vitro)",
+          "content": "Calcula as semanas de gravidez a partir da data de transferência do embrião e fornece um cronograma claro para monitorar o progresso da gravidez de fertilização in vitro."
+        }
+      ]
+    },
+    {
+      "heading": "Compreendendo as semanas e trimestres da gravidez",
+      "content": "A gravidez é normalmente dividida em três trimestres:",
+      "subSections": [
+        {
+          "heading": "Primeiro Trimestre (Semanas 1–12)",
+          "content": "Desenvolvimento inicial, sintomas iniciais e testes pré-natais."
+        },
+        {
+          "heading": "Segundo trimestre (semanas 13–26)",
+          "content": "Crescimento e movimento, exames de anatomia e exames de rotina."
+        },
+        {
+          "heading": "Terceiro Trimestre (Semanas 27–40)",
+          "content": "Crescimento final, preparação de mão de obra e planejamento de entrega."
+        }
+      ]
+    },
+    {
+      "heading": "Precisão das calculadoras de gravidez",
+      "content": "As calculadoras de gravidez fornecem datas de parto estimadas, não exatas. A precisão pode variar dependendo do método utilizado (DUM vs. ultrassom vs. fertilização in vitro). A maioria das calculadoras tem precisão dentro de ±1–2 semanas. Ciclos irregulares, múltiplos ou ovulação tardia podem afetar as previsões."
+    },
+    {
+      "heading": "Dicas para usar uma calculadora de gravidez",
+      "content": "Aproveite ao máximo o acompanhamento da gravidez com estas dicas:",
+      "subSections": [
+        {
+          "heading": "Use uma calculadora de semanas de gravidez",
+          "content": "Acompanhe facilmente a sua semana atual de gravidez."
+        },
+        {
+          "heading": "Acompanhamento de visualização de calendário",
+          "content": "Use uma calculadora com visualização de calendário para acompanhar visualmente o progresso."
+        },
+        {
+          "heading": "Para gestações múltiplas",
+          "content": "Use uma calculadora de gravidez para gêmeos ou múltiplos para obter resultados personalizados."
+        },
+        {
+          "heading": "Rastreamento Personalizado",
+          "content": "Mantenha registros de consultas e resultados de testes usando uma calculadora de gravidez personalizada."
+        }
+      ]
+    },
+    {
+      "heading": "Isenção de responsabilidade médica",
+      "content": "Esta calculadora é apenas para fins informativos. Não substitui o aconselhamento médico profissional. Consulte sempre seu obstetra ou profissional de saúde para orientação personalizada e atendimento pré-natal."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como calcular as semanas de gravidez?",
+      "a": "As semanas de gravidez são calculadas a partir do primeiro dia da sua última menstruação (DUM) ou data de concepção."
+    },
+    {
+      "q": "Qual é a data prevista para a minha gravidez?",
+      "a": "A data de vencimento é uma estimativa com base na data da DUM, ultrassom ou transferência de fertilização in vitro, normalmente 40 semanas a partir da concepção."
+    },
+    {
+      "q": "O ultrassom pode determinar as semanas de gravidez?",
+      "a": "Sim, a ultrassonografia precoce é altamente precisa para estimar a idade gestacional, especialmente no primeiro trimestre."
+    },
+    {
+      "q": "Quão precisa é uma calculadora de gravidez?",
+      "a": "As calculadoras de gravidez geralmente têm precisão de 1 a 2 semanas, mas fatores como ciclos irregulares ou múltiplos podem afetar as estimativas."
+    },
+    {
+      "q": "Cálculo da gravidez por DUM vs ultrassom – qual é melhor?",
+      "a": "O LMP é simples, mas pode ser menos preciso para ciclos irregulares. O ultrassom fornece uma estimativa mais precisa no início da gravidez."
+    },
+    {
+      "q": "Como calcular a gravidez com menstruação irregular?",
+      "a": "Use a data da concepção, se conhecida, ou um ultrassom precoce para resultados mais precisos."
+    },
+    {
+      "q": "Calculadora de gravidez de acordo com a transferência de fertilização in vitro – como funciona?",
+      "a": "Ele calcula a idade gestacional a partir da data de transferência do embrião, em vez da DUM."
+    },
+    {
+      "q": "Por que a data de vencimento é apenas uma estimativa?",
+      "a": "A duração da gravidez varia naturalmente, por isso as calculadoras fornecem uma janela estimada em vez de uma data exata do parto."
+    },
+    {
+      "q": "Como saber a data da concepção na gravidez?",
+      "a": "Acompanhe a ovulação ou use uma calculadora baseada na concepção para estimar a data provável."
+    },
+    {
+      "q": "Posso acompanhar minha gravidez online?",
+      "a": "Sim, ferramentas como ferramentas e aplicativos da Calculadora de Gravidez Inteligente ajudam a monitorar o progresso, marcos e trimestres."
+    }
+  ],
+  "cta": {
+    "heading": "Acompanhe sua jornada de gravidez hoje",
+    "content": "Use nossa Calculadora de Gravidez Gratuita para estimar a data do parto, semanas de gravidez e trimestres com precisão. Mantenha-se informado, planeje suas consultas e acompanhe o crescimento do seu bebê com confiança!"
+  }
+}

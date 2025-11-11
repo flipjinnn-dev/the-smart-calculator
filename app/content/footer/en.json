@@ -1,0 +1,63 @@
+{
+  "company": {
+    "name": "Smart Calculator",
+    "description": "Your go-to destination for free, accurate, and easy-to-use online calculators. Trusted by millions of users worldwide.",
+    "copyright": "2025 Smart Calculator. All rights reserved."
+  },
+  "categories": {
+    "title": "Most Used Categories",
+    "items": [
+      {
+        "name": "Financial Calculators",
+        "href": "/financial"
+      },
+      {
+        "name": "Health & Fitness",
+        "href": "/health"
+      },
+      {
+        "name": "Math Calculators",
+        "href": "/maths"
+      },
+      {
+        "name": "Physics Calculators",
+        "href": "/physics"
+      },
+      {
+        "name": "Other Calculators",
+        "href": "/other-calculators"
+      }
+    ]
+  },
+  "companyLinks": {
+    "title": "Company",
+    "items": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "About Us",
+        "href": "/about-us"
+      },
+      {
+        "name": "Contact Us",
+        "href": "/contact-us"
+      },
+      {
+        "name": "Privacy Policy",
+        "href": "/privacy-policy"
+      },
+      {
+        "name": "Terms and Conditions",
+        "href": "/terms-and-conditions"
+      }
+    ]
+  },
+  "social": {
+    "pinterest": "https://www.pinterest.com/thesmartcalculators/",
+    "twitter": "https://x.com/SmartCalculat0r",
+    "instagram": "https://www.instagram.com/thesmartcalculators/",
+    "youtube": "https://www.youtube.com/@TheSmartCalculators"
+  }
+}

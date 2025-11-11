@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Pfeilgeschwindigkeitsrechner",
+  "pageDescription": "Berechnen Sie Pfeilgeschwindigkeit, Impuls und kinetische Energie mithilfe von IBO-Bewertungen für die Leistungsanalyse beim Bogenschießen",
+  "form": {
+    "labels": {
+      "iboSpeed": "IBO-Geschwindigkeit (fps)",
+      "drawLength": "Auszugslänge (Zoll)",
+      "drawWeight": "Zuggewicht (lbs)",
+      "arrowWeight": "Pfeilgewicht (Körner)",
+      "additionalWeight": "Zusatzgewicht (Körner)",
+      "calculationType": "Berechnungstyp"
+    },
+    "placeholders": {
+      "iboSpeed": "Geben Sie die IBO-Geschwindigkeit ein",
+      "drawLength": "Geben Sie die Auszugslänge ein",
+      "drawWeight": "Zuggewicht eingeben",
+      "arrowWeight": "Pfeilgewicht eingeben",
+      "additionalWeight": "Zusätzliches Gewicht eingeben (Sehkraft, Ruhe usw.)"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Pfeilgeschwindigkeit",
+      "reset": "Zurücksetzen"
+    },
+    "calculationTypes": {
+      "speed": "Pfeilgeschwindigkeit",
+      "momentum": "Schwung",
+      "kineticEnergy": "Kinetische Energie",
+      "all": "Alle Berechnungen"
+    }
+  },
+  "results": {
+    "arrowSpeed": "Pfeilgeschwindigkeit (fps)",
+    "momentum": "Impuls (Slug·ft/s)",
+    "kineticEnergy": "Kinetische Energie (ft·lbf)",
+    "arrowSpeedResultsTitle": "Ergebnisse der Pfeilgeschwindigkeit",
+    "adjustedDrawLength": "Angepasste Zuglänge",
+    "adjustedDrawWeight": "Angepasstes Zuggewicht"
+  },
+  "educational": {
+    "arrowSpeedInfo": "Informationen zur Pfeilgeschwindigkeit",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen zum Bogenschießen",
+    "arrowSpeedFacts": {
+      "definition": {
+        "title": "Pfeilgeschwindigkeitsfaktoren",
+        "description": "Die Pfeilgeschwindigkeit wird durch die IBO-Bewertung des Bogens, die Zuglänge, das Zuggewicht und das Pfeilgewicht beeinflusst"
+      },
+      "formula": {
+        "title": "Geschwindigkeitsberechnung",
+        "description": "Angepasste Geschwindigkeit = IBO-Geschwindigkeit – (3 × (Zuggewicht – 70)) + (10 × (Zuglänge – 30)) – (Pfeilgewicht – 400) ÷ 10"
+      },
+      "performance": {
+        "title": "Leistungskennzahlen",
+        "description": "Der Impuls beeinflusst die Durchschlagskraft, die kinetische Energie beeinflusst das Schadenspotenzial"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Ersatz für die tatsächliche Messung",
+      "equipment": "Die tatsächliche Leistung variiert je nach Zustand des Bogens, Form des Bogenschützen und Umweltfaktoren"
+    },
+    "importantNotesList": [
+      "Schwerere Pfeile sorgen für mehr Schwung, aber geringere Geschwindigkeit",
+      "IBO-Bewertungen werden mit einem Zuggewicht von 70 Pfund, einer Zuglänge von 30 Zoll und einem Pfeil von 350 Gramm gemessen",
+      "Kinetische Energie ist für die Jagd wichtiger als pure Geschwindigkeit",
+      "Die richtige Form und Wartung der Ausrüstung wirkt sich auf die tatsächliche Leistung aus"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Pfeil- und Bogenspezifikationen ein, um die Leistung zu berechnen",
+    "resultMessage": "Die Berechnungen Ihrer Pfeilleistung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Pfeilleistung:",
+    "arrowSpeedAnalysis": "Pfeilgeschwindigkeitsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen der Pfeilleistung auf der Grundlage von IBO-Standards und mathematischen Formeln. Die tatsächliche Leistung kann je nach Zustand des Bogens, Form des Bogenschützen und Umgebungsfaktoren variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen zum Bogenschießen",
+    "content": "Für eine professionelle Analyse des Bogenschießens und die Auswahl der Ausrüstung wenden Sie sich an zertifizierte Bogenschießlehrer oder verwenden Sie spezielle Chronographen zur tatsächlichen Leistungsmessung."
+  },
+  "errors": {
+    "iboSpeed": "Bitte geben Sie eine gültige IBO-Geschwindigkeit ein",
+    "drawLength": "Bitte geben Sie eine gültige Auszugslänge ein (20–35 Zoll).",
+    "drawWeight": "Bitte geben Sie ein gültiges Zuggewicht ein (10-100 lbs)",
+    "arrowWeight": "Bitte geben Sie ein gültiges Pfeilgewicht ein (100–800 Grains).",
+    "additionalWeight": "Bitte geben Sie ein gültiges Zusatzgewicht ein",
+    "calculationType": "Bitte wählen Sie eine Berechnungsart aus"
+  },
+  "tooltips": {
+    "iboSpeed": "IBO-Geschwindigkeitsbewertung des Herstellers für Ihren Bogen",
+    "drawLength": "Abstand vom Nockpunkt zum Drehpunkt plus 1,75 Zoll",
+    "drawWeight": "Kraft, die zum Spannen des Bogens bei 28 Zoll erforderlich ist",
+    "arrowWeight": "Gesamtgewicht des Pfeils einschließlich Spitze, Schaft und Befiederung",
+    "additionalWeight": "Gewicht von Zubehör wie Visierungen, Stützen und Stabilisatoren"
+  },
+  "bow_arrow_specifications_0": "Spezifikationen für Pfeil und Bogen",
+  "enter_your_bow_and_arrow_specifications_to_calcula_1": "Geben Sie Ihre Pfeil- und Bogenspezifikationen ein, um Leistungsmetriken zu berechnen",
+  "bow_ibo_rating_2": "Bow IBO-Bewertung",
+  "fps_3": "fps",
+  "ms_4": "MS",
+  "draw_length_5": "Ziehlänge",
+  "in_6": "In",
+  "cm_7": "cm",
+  "peak_draw_weight_8": "Spitzenzuggewicht",
+  "lb_9": "Pfund",
+  "kg_10": "kg",
+  "arrow_weight_grains_11": "Pfeilgewicht (Körner)",
+  "extra_string_weight_grains_optional_12": "Zusätzliches Saitengewicht (Körner) – optional",
+  "ibo_standard_13": "IBO-Standard:",
+  "based_on_30_draw_length_70_lb_draw_weight_and_350__14": "Basierend auf einer Zuglänge von 30 Zoll, einem Zuggewicht von 70 Pfund und einem Pfeil mit 350 Grains.\n                        Anpassungen: ±10 fps pro Zoll Zuglänge, ±2 fps pro Pfund Zuggewicht.",
+  "results_are_estimates_based_on_industrystandard_ib_15": "Bei den Ergebnissen handelt es sich um Schätzungen, die auf branchenüblichen IBO-Berechnungen basieren.",
+  "calculate_performance_16": "Berechnen Sie die Leistung",
+  "arrow_performance_17": "Pfeilleistung",
+  "fps_18": "fps",
+  "ms_19": "MS",
+  "joules_20": "Joule",
+  "enter_your_bow_specs_and_click_21": "Geben Sie Ihre Bogenspezifikationen ein und klicken Sie",
+  "calculate_22": "Berechnen",
+  "to_see_arrow_performance_23": "um die Pfeilleistung zu sehen.",
+  "detailed_performance_metrics_24": "Detaillierte Leistungskennzahlen",
+  "arrow_speed_25": "Pfeilgeschwindigkeit",
+  "fps_26": "fps",
+  "ms_27": "MS",
+  "momentum_28": "Schwung",
+  "ns_29": "N·s",
+  "kinetic_energy_30": "Kinetische Energie",
+  "joules_31": "Joule",
+  "understanding_arrow_speed_ibo_ratings_32": "Pfeilgeschwindigkeit und IBO-Bewertungen verstehen",
+  "ibo_rating_explained_33": "IBO-Rating erklärt",
+  "ibo_international_bowhunting_organization_rating_i_34": "Die IBO-Bewertung (International Bowhunting Organization) ist eine standardisierte Messung, die auf a basiert\n                        30-Zoll-Zuglänge, 70-Pfund-Zuggewicht und 350-Grain-Pfeil. Dies bietet eine Grundlage für\n                        Vergleich der Bogenleistung verschiedener Hersteller.",
+  "performance_factors_35": "Leistungsfaktoren",
+  "draw_length_10_fps_per_inch_change_36": "Zeichenlänge: ±10 fps pro Zoll-Änderung",
+  "draw_weight_2_fps_per_pound_change_37": "Zuggewicht: ±2 fps pro Pfundänderung",
+  "arrow_weight_1_fps_per_3_grains_38": "Pfeilgewicht: ∓1 fps pro 3 Grains",
+  "string_accessories_1_fps_per_3_grains_39": "Saitenzubehör: ∓1 fps pro 3 Grains",
+  "sample_calculation_40": "Beispielrechnung",
+  "example_41": "Beispiel:",
+  "ibo_rating_320_fps_42": "IBO-Bewertung: 320 fps",
+  "draw_length_29_1_from_baseline_43": "Auszugslänge: 29\" (-1\" von der Grundlinie)",
+  "draw_weight_60_lb_10_lb_from_baseline_44": "Zuggewicht: 60 Pfund (-10 Pfund von der Grundlinie)",
+  "arrow_weight_400_gr_50_gr_from_baseline_45": "Pfeilgewicht: 400 g (+50 g von der Grundlinie)",
+  "result_320_10_20_167_273_fps_46": "Ergebnis: 320 – 10 – 20 – 16,7 ≈ 273 fps",
+  "momentum_and_kinetic_energy_are_calculated_using_p_47": "Impuls und kinetische Energie werden mithilfe physikalischer Formeln berechnet: p = mv und KE = ½mv²."
+}

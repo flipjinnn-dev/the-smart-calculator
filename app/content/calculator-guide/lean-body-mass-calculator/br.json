@@ -1,0 +1,148 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de massa corporal magra?",
+      "content": "Uma calculadora de massa corporal magra ajuda a estimar quanto do seu peso corporal total é composto por músculos, ossos, órgãos, pele e fluidos – excluindo gordura corporal. Ao contrário de uma calculadora de IMC, que considera apenas peso e altura, uma calculadora LBM fornece uma imagem mais precisa de sua saúde, condicionamento físico e metabolismo. Ele usa fórmulas como equações de Boer, James, Hume e Peters para resultados precisos."
+    },
+    {
+      "heading": "O que é massa corporal magra (MCM)?",
+      "subSections": [
+        {
+          "heading": "Definição",
+          "content": "Massa Corporal Magra (MCM) é o seu peso corporal menos toda a gordura armazenada. Inclui músculos, ossos, tecidos conjuntivos, órgãos e água."
+        },
+        {
+          "heading": "Fórmula",
+          "content": "Massa Corporal Magra = Peso Corporal Total – Massa Gorda."
+        },
+        {
+          "heading": "Exemplo",
+          "content": "Se você pesa 80 kg com 20% de gordura corporal, seu LBM é de 64 kg."
+        }
+      ]
+    },
+    {
+      "heading": "Como calcular a massa corporal magra",
+      "subSections": [
+        {
+          "heading": "Fórmula Bôer",
+          "content": "Comumente usado em dosagem médica."
+        },
+        {
+          "heading": "Fórmula de James",
+          "content": "Projetado para a população adulta em geral."
+        },
+        {
+          "heading": "Fórmula de Hume",
+          "content": "Amplamente utilizado na prática clínica."
+        },
+        {
+          "heading": "Fórmula de Peters",
+          "content": "Especialmente concebido para crianças."
+        }
+      ]
+    },
+    {
+      "heading": "Por que a massa corporal magra é importante?",
+      "subSections": [
+        {
+          "heading": "Fitness e musculação",
+          "content": "Acompanha o crescimento muscular e a perda de gordura."
+        },
+        {
+          "heading": "Metas de perda de peso",
+          "content": "Ajuda a otimizar a queima de gordura sem perder músculos."
+        },
+        {
+          "heading": "Uso Médico",
+          "content": "Determina a dosagem do medicamento, a função renal e a taxa metabólica."
+        },
+        {
+          "heading": "Desempenho Atlético",
+          "content": "Um LBM mais alto suporta força, resistência e recuperação."
+        }
+      ]
+    },
+    {
+      "heading": "Massa corporal magra média por gênero",
+      "subSections": [
+        {
+          "heading": "Homens",
+          "content": "Normalmente 70–85% do peso corporal."
+        },
+        {
+          "heading": "Mulheres",
+          "content": "Normalmente 60–75% do peso corporal."
+        },
+        {
+          "heading": "Atletas",
+          "content": "Atletas e fisiculturistas geralmente apresentam porcentagens mais altas de massa magra."
+        }
+      ]
+    },
+    {
+      "heading": "Massa corporal magra vs gordura corporal vs IMC",
+      "subSections": [
+        {
+          "heading": "LBM versus gordura corporal",
+          "content": "LBM é tudo menos gordura, enquanto a gordura corporal é apenas gordura armazenada."
+        },
+        {
+          "heading": "LBM vs IMC",
+          "content": "O IMC é uma relação peso/altura e não separa a gordura do músculo, enquanto o LBM fornece um indicador de saúde mais preciso."
+        },
+        {
+          "heading": "Melhor uso",
+          "content": "Combine LBM + % de gordura corporal + IMC para uma avaliação completa da saúde."
+        }
+      ]
+    },
+    {
+      "heading": "Use nossa calculadora de massa corporal magra agora",
+      "content": "Calcule rapidamente seu peso corporal magro online com nossa ferramenta gratuita. Insira seus dados, selecione uma fórmula e obtenha resultados instantâneos para monitoramento de saúde, dosagem de medicamentos e planejamento de condicionamento físico."
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de massa corporal magra?",
+      "a": "Ele estima a quantidade de peso do seu corpo que não é gordura, incluindo músculos, ossos, água e órgãos."
+    },
+    {
+      "q": "Quão precisa é a calculadora de massa corporal magra?",
+      "a": "Utiliza fórmulas clinicamente validadas (Boer, James, Hume, Peters) para estimativas precisas, mas testes diretos de composição corporal (DEXA, BIA) são mais precisos."
+    },
+    {
+      "q": "Qual fórmula é melhor para calcular o LBM?",
+      "a": "A Fórmula Boer é melhor para dosagem médica, a Fórmula James para uso geral, a Fórmula Hume para ambientes clínicos e a Fórmula Peters para crianças."
+    },
+    {
+      "q": "O que é uma porcentagem saudável de massa corporal magra?",
+      "a": "Homens: 70–85% do peso corporal. Mulheres: 60–75%. Os atletas geralmente excedem essas faixas."
+    },
+    {
+      "q": "Como o LBM difere do IMC?",
+      "a": "O IMC mede apenas peso versus altura, enquanto o LBM separa a massa gorda dos tecidos magros, oferecendo um quadro de saúde mais claro."
+    },
+    {
+      "q": "Posso usar Lean Body Mass para dosagem de medicamentos?",
+      "a": "Sim, muitos médicos usam LBM para calcular dosagens de medicamentos, doses de quimioterapia e estimativas da função renal."
+    },
+    {
+      "q": "Ter mais massa corporal magra significa que sou mais saudável?",
+      "a": "Geralmente, sim. Mais LBM suporta um metabolismo mais rápido, músculos mais fortes e melhor saúde geral."
+    },
+    {
+      "q": "Como posso aumentar a massa corporal magra naturalmente?",
+      "a": "O treinamento de força, a ingestão adequada de proteínas, o sono adequado e os exercícios de resistência ajudam a construir músculos e aumentar a massa magra."
+    },
+    {
+      "q": "A massa corporal magra é melhor do que a porcentagem de gordura corporal para monitorar o condicionamento físico?",
+      "a": "Ambos são importantes. LBM mostra quanto músculo você tem, enquanto% de gordura corporal mostra quanta gordura você carrega."
+    },
+    {
+      "q": "O uso da Calculadora de Massa Corporal Magra é gratuito?",
+      "a": "Sim, nossa Calculadora Online Gratuita de Massa Corporal Magra está disponível a qualquer momento e sem custo."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de empréstimos?",
+      "content": "Gerenciar um empréstimo torna-se simples quando você tem as ferramentas certas. Nossa calculadora de empréstimos ajuda você a estimar suas parcelas mensais, custo total de juros e cronograma de reembolso. Esteja você planejando um empréstimo pessoal, um empréstimo para um carro, um empréstimo para habitação ou um empréstimo comercial, esta ferramenta fornece informações claras sobre sua capacidade de empréstimo e plano de reembolso."
+    },
+    {
+      "heading": "Por que usar uma calculadora de empréstimos?",
+      "subSections": [
+        {
+          "heading": "Estimativa de pagamento mensal",
+          "content": "Calcule o pagamento mensal do empréstimo usando o valor do empréstimo, o prazo do empréstimo e a taxa de juros."
+        },
+        {
+          "heading": "Compare tipos de empréstimo",
+          "content": "Verifique diferentes calculadoras, como empréstimo pessoal, empréstimo para compra de automóveis, empréstimo estudantil e calculadoras de empréstimo hipotecário."
+        },
+        {
+          "heading": "Entenda os custos dos juros",
+          "content": "Use a calculadora de juros do empréstimo ou a calculadora EMI para ver quanto de juros você pagará ao longo do tempo."
+        },
+        {
+          "heading": "Verifique o cronograma de amortização",
+          "content": "Veja como cada pagamento é dividido em principal e juros ao longo do prazo do empréstimo."
+        }
+      ]
+    },
+    {
+      "heading": "Como usar a calculadora de empréstimos (passo a passo)",
+      "subSections": [
+        {
+          "heading": "Etapa 1: insira o valor do empréstimo",
+          "content": "Digite o valor total que você planeja emprestar."
+        },
+        {
+          "heading": "Etapa 2: selecione o prazo do empréstimo",
+          "content": "Escolha quanto tempo deseja pagar o empréstimo (em meses ou anos)."
+        },
+        {
+          "heading": "Etapa 3: inserir a taxa de juros",
+          "content": "Insira a taxa de juros anual oferecida pelo seu banco ou credor."
+        },
+        {
+          "heading": "Passo 4: Clique em Calcular",
+          "content": "Veja instantaneamente seu EMI mensal, total de juros a pagar e cronograma de reembolso."
+        }
+      ]
+    },
+    {
+      "heading": "Tipos de calculadoras de empréstimos que você pode usar",
+      "subSections": [
+        {
+          "heading": "Calculadora de empréstimo pessoal",
+          "content": "Planeje suas necessidades de empréstimos de curto prazo."
+        },
+        {
+          "heading": "Calculadora de empréstimo para automóveis",
+          "content": "Encontre o melhor plano de reembolso para o seu empréstimo de carro."
+        },
+        {
+          "heading": "Calculadora de empréstimos estudantis",
+          "content": "Estime os pagamentos do seu empréstimo educacional."
+        },
+        {
+          "heading": "Calculadora de empréstimo hipotecário",
+          "content": "Calcule a acessibilidade do empréstimo à habitação e o EMI mensal."
+        },
+        {
+          "heading": "Calculadora de empréstimos comerciais",
+          "content": "Verifique as opções de financiamento para as necessidades do seu negócio."
+        },
+        {
+          "heading": "Calculadora de empréstimo residencial",
+          "content": "Entenda o custo total de possuir uma casa."
+        },
+        {
+          "heading": "Calculadora de consolidação de dívidas",
+          "content": "Combine vários empréstimos em um pagamento fácil."
+        },
+        {
+          "heading": "Calculadora de elegibilidade para empréstimos",
+          "content": "Estime quanto você pode pedir emprestado com base nas receitas e despesas."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos avançados de empréstimos",
+      "subSections": [
+        {
+          "heading": "Calculadora de empréstimo com juros simples",
+          "content": "Para empréstimos básicos com juros fixos."
+        },
+        {
+          "heading": "Calculadora de juros compostos",
+          "content": "Veja o efeito da capitalização em seu empréstimo."
+        },
+        {
+          "heading": "Calculadora de prazo de empréstimo",
+          "content": "Ajuste a duração do reembolso para caber no seu orçamento."
+        },
+        {
+          "heading": "Calculadora de acessibilidade de empréstimo",
+          "content": "Saiba quanto empréstimo você pode administrar confortavelmente."
+        },
+        {
+          "heading": "Calculadora de taxa de juros",
+          "content": "Compare as ofertas de empréstimos ajustando a taxa de juros."
+        },
+        {
+          "heading": "Calculadora de cronograma de empréstimo",
+          "content": "Veja um detalhamento completo dos pagamentos mês a mês."
+        },
+        {
+          "heading": "Calculadora Financeira",
+          "content": "Uma ferramenta geral para vários cálculos financeiros."
+        }
+      ]
+    },
+    {
+      "heading": "Benefícios de usar uma calculadora de empréstimos",
+      "subSections": [
+        {
+          "heading": "Economize tempo",
+          "content": "Obtenha resultados instantâneos sem cálculos manuais."
+        },
+        {
+          "heading": "Melhor orçamento",
+          "content": "Planeje suas finanças de forma mais eficaz com estimativas de reembolso claras."
+        },
+        {
+          "heading": "Comparar opções",
+          "content": "Avalie diferentes cenários de empréstimo lado a lado."
+        },
+        {
+          "heading": "Informações sobre reembolso antecipado",
+          "content": "Entenda como os pagamentos antecipados podem reduzir os juros."
+        },
+        {
+          "heading": "Tomada de decisão inteligente",
+          "content": "Tome decisões informadas antes de solicitar um empréstimo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de empréstimo?",
+      "a": "Uma calculadora de empréstimo ajuda a estimar o EMI mensal, o custo dos juros e o cronograma de reembolso com base no valor do empréstimo, na taxa de juros e no prazo."
+    },
+    {
+      "q": "Posso comparar diferentes tipos de empréstimo?",
+      "a": "Sim, nossa ferramenta funciona como calculadora de empréstimo pessoal, empréstimo automático, empréstimo estudantil, empréstimo hipotecário e empréstimo comercial."
+    },
+    {
+      "q": "O que é EMI?",
+      "a": "EMI (Parcela Mensal Equacionada) é o pagamento fixo que você faz todos os meses para o seu empréstimo, que inclui o principal e os juros."
+    },
+    {
+      "q": "Como um cronograma de amortização ajuda?",
+      "a": "Ele mostra a divisão de cada EMI em principal e juros, ajudando você a entender o progresso do seu reembolso."
+    },
+    {
+      "q": "Posso calcular benefícios de reembolso antecipado?",
+      "a": "Sim, ajustando os prazos e pagamentos do empréstimo, você pode ver quanto de juros economiza com o reembolso antecipado."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "color": "roxo",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de data de vencimento para gravidez?",
+      "content": "Nossa Calculadora da Data de Vencimento da Gravidez é uma ferramenta on-line simples, precisa do ponto de vista médico e gratuita para ajudá-la a estimar quando seu bebê poderá chegar. Ao usar seu último período menstrual (DUM), data de ovulação ou data de transferência de fertilização in vitro, esta calculadora on-line de data de vencimento fornece uma data estimada de parto (EDD), calendário de gravidez semana a semana e cronograma trimestral. Lembre-se: as datas de nascimento são estimativas – apenas cerca de 4% dos bebês nascem exatamente na data prevista. A maioria chega dentro de uma janela de duas semanas antes ou depois."
+    },
+    {
+      "heading": "Como calcular a data de vencimento da gravidez",
+      "subSections": [
+        {
+          "heading": "Calculadora de data de vencimento LMP",
+          "content": "Com base no primeiro dia da sua última menstruação (método mais comum)."
+        },
+        {
+          "heading": "Calculadora de data de vencimento da concepção",
+          "content": "Se você sabe a data da sua ovulação ou concepção, pode usá-la para calcular a data do parto."
+        },
+        {
+          "heading": "Calculadora de data de vencimento de fertilização in vitro",
+          "content": "Para gestações obtidas por fertilização in vitro ou tecnologia de reprodução assistida, é utilizada a data de transferência do embrião."
+        },
+        {
+          "heading": "Calculadora de data de vencimento do ultrassom",
+          "content": "Com base em exames de gravidez precoce, especialmente precisos no primeiro trimestre."
+        },
+        {
+          "heading": "Calculadora de idade gestacional e data de vencimento",
+          "content": "Combina semanas e dias de gravidez com a data prevista para o parto."
+        }
+      ]
+    },
+    {
+      "heading": "Cronograma de gravidez: trimestre e semana a semana",
+      "subSections": [
+        {
+          "heading": "Primeiro Trimestre (Semanas 1–12)",
+          "content": "Concepção, desenvolvimento inicial e sintomas comuns como enjoos matinais."
+        },
+        {
+          "heading": "Segundo trimestre (semanas 13–27)",
+          "content": "O crescimento do bebê acelera, a anatomia é realizada e a mãe sente movimento."
+        },
+        {
+          "heading": "Terceiro Trimestre (Semanas 28–40+)",
+          "content": "Crescimento rápido do bebê, preparação para o parto e gravidez a termo."
+        },
+        {
+          "heading": "Gravidez a termo",
+          "content": "Presume 40 semanas (280 dias) a partir da sua DUM. Os bebês podem chegar com segurança a qualquer momento entre 37 e 42 semanas."
+        }
+      ]
+    },
+    {
+      "heading": "Uso global – Calculadora da data de vencimento da gravidez por país",
+      "content": "Esteja você nos EUA, Reino Unido, Canadá, Índia, Paquistão ou Austrália, esta ferramenta gratuita para data de vencimento da gravidez funciona universalmente. Os sistemas de saúde podem variar, mas o método de cálculo permanece clinicamente alinhado com as directrizes da OMS, do NHS e do ACOG."
+    },
+    {
+      "heading": "Por que usar nossa calculadora de data de entrega prevista?",
+      "subSections": [
+        {
+          "heading": "Grátis e fácil",
+          "content": "Não é necessário registro."
+        },
+        {
+          "heading": "Métodos precisos",
+          "content": "Opções de DUM, concepção, fertilização in vitro e ultrassom disponíveis."
+        },
+        {
+          "heading": "Alinhamento Médico",
+          "content": "Baseado no modelo padrão de gestação de 40 semanas."
+        },
+        {
+          "heading": "Calendário de gravidez personalizado",
+          "content": "Acompanhe os marcos semana a semana com um cronograma de gravidez claro."
+        },
+        {
+          "heading": "Ferramenta compartilhável",
+          "content": "Útil para futuros pais, famílias e profissionais de saúde."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Uma calculadora de data de vencimento pode estar errada?",
+      "a": "Sim. A data de vencimento é apenas uma estimativa. Apenas 1 em cada 25 bebês nasce na data exata prevista. A maioria chega 2 semanas antes ou depois."
+    },
+    {
+      "q": "Quão precisa é uma calculadora da data de vencimento da gravidez?",
+      "a": "As calculadoras baseadas em LMP assumem um ciclo de 28 dias. As datas baseadas em ultrassom (especialmente no primeiro trimestre) são mais precisas. A precisão pode variar se você tiver ciclos irregulares."
+    },
+    {
+      "q": "E se eu não souber a data da minha última menstruação?",
+      "a": "Você pode usar uma calculadora da data de vencimento da concepção ou consultar seu médico para obter uma estimativa da data de vencimento do ultrassom."
+    },
+    {
+      "q": "Qual é a diferença entre calculadora de data de vencimento e ultrassom?",
+      "a": "A Calculadora de Data de Vencimento Online usa dados menstruais/de concepção, enquanto as calculadoras de ultrassom medem o crescimento do bebê e geralmente são mais confiáveis ​​no início da gravidez."
+    },
+    {
+      "q": "Posso calcular minha data de nascimento se eu fizer fertilização in vitro?",
+      "a": "Sim. Use a calculadora de data de vencimento da fertilização in vitro com a data de transferência do embrião para maior precisão."
+    },
+    {
+      "q": "Qual é o intervalo de semanas da data de nascimento do bebê?",
+      "a": "A gravidez normalmente dura de 37 a 42 semanas. Os bebês nascidos entre essas semanas são considerados dentro da normalidade."
+    }
+  ]
+}

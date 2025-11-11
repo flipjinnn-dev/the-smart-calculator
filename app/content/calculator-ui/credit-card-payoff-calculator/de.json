@@ -1,0 +1,154 @@
+{
+  "pageTitle": "Kreditkarten-Auszahlungsrechner",
+  "pageDescription": "Berechnen Sie mit verschiedenen Zahlungsstrategien, wie lange es dauern wird, Ihre Kreditkartenschulden und Zinsen zu begleichen, um die Kosten zu minimieren und schneller schuldenfrei zu werden",
+  "form": {
+    "labels": {
+      "currentBalance": "Aktueller Kontostand",
+      "interestRate": "Jährlicher Zinssatz (APR)",
+      "minimumPayment": "Mindestzahlung",
+      "minimumPaymentType": "Mindestzahlungsart",
+      "fixedPayment": "Feste monatliche Zahlung",
+      "extraPayment": "Zusätzliche monatliche Zahlung",
+      "paymentStrategy": "Zahlungsstrategie"
+    },
+    "placeholders": {
+      "currentBalance": "Geben Sie den aktuellen Kreditkartensaldo ein",
+      "interestRate": "Geben Sie den jährlichen Zinssatz (%) ein.",
+      "minimumPayment": "Geben Sie die Mindestzahlung ein",
+      "fixedPayment": "Geben Sie eine feste monatliche Zahlung ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Auszahlungszeit",
+      "reset": "Zurücksetzen"
+    },
+    "minimumPaymentTypes": {
+      "amount": "Fester Betrag",
+      "percentage": "Prozentsatz des Gleichgewichts"
+    },
+    "paymentStrategies": {
+      "minimum": "Nur Mindestzahlungen",
+      "fixed": "Feste monatliche Zahlung",
+      "minimumPlus": "Mindestzuschlag plus Zuzahlung"
+    }
+  },
+  "results": {
+    "payoffTime": "Zeit zur Auszahlung",
+    "totalInterest": "Gezahlte Gesamtzinsen",
+    "totalPayment": "Gesamtzahlung",
+    "interestSavings": "Zinsersparnis durch zusätzliche Zahlungen",
+    "creditCardPayoffResultsTitle": "Ergebnisse der Kreditkartenauszahlung"
+  },
+  "educational": {
+    "creditCardPayoffInfo": "Informationen zur Kreditkartenauszahlung",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "creditCardPayoffFacts": {
+      "interest": {
+        "title": "Kreditkartenzinsen",
+        "description": "Die Kreditkartenzinsen erhöhen sich täglich, sodass die Schulden schnell wachsen, wenn sie nicht abbezahlt werden"
+      },
+      "minimumPayments": {
+        "title": "Mindestauswirkungen auf die Zahlung",
+        "description": "Die Zahlung nur des Mindestbetrags kann die Amortisationszeit um Jahre verlängern und Hunderte an Zinsen kosten"
+      },
+      "strategies": {
+        "title": "Auszahlungsstrategien",
+        "description": "Feste Zahlungen oder Sonderzahlungen reduzieren die Amortisationszeit und die Zinskosten erheblich"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Auszahlung von Kreditkarten",
+      "actual": "Die tatsächlichen Auszahlungsbedingungen können je nach Richtlinien und Gebühren des Kartenausstellers variieren"
+    },
+    "importantNotesList": [
+      "Die Kreditkartenzinsen erhöhen sich täglich, was die Kosten für das Führen eines Guthabens erhöht",
+      "Wenn Sie mehr als den Mindestbetrag zahlen, verringert sich direkt der Kapitalbetrag und Sie sparen Zinsen",
+      "Erwägen Sie Angebote zur Saldoübertragung, um hochverzinsliche Kreditkartenschulden zu konsolidieren",
+      "Hören Sie auf, Kreditkarten zu verwenden, während Sie bestehende Guthaben abbezahlen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Kreditkarteninformationen ein, um die Auszahlungszeit zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Kreditkartenauszahlungsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Kreditkartenauszahlungsberechnung:",
+    "creditCardPayoffAnalysis": "Analyse der Kreditkartenauszahlung"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Auszahlung von Kreditkarten auf der Grundlage mathematischer Berechnungen. Die tatsächlichen Auszahlungsbedingungen, Zinsaufwendungen und Gebühren können je nach den Richtlinien des Kartenausstellers und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine personalisierte Beratung zur Verwaltung und Konsolidierung von Kreditkartenschulden wenden Sie sich an Kreditberater oder Finanzberater mit Erfahrung in der Schuldenreduzierung und individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "currentBalance": "Bitte geben Sie einen gültigen aktuellen Kontostand ein",
+    "interestRate": "Bitte geben Sie einen gültigen Jahreszinssatz ein",
+    "minimumPayment": "Bitte geben Sie eine gültige Mindestzahlung ein",
+    "fixedPayment": "Bitte geben Sie einen gültigen festen Zahlungsbetrag ein",
+    "extraPayment": "Bitte geben Sie einen gültigen Zuzahlungsbetrag ein",
+    "minimumPaymentType": "Bitte wählen Sie eine Mindestzahlungsart aus",
+    "paymentStrategy": "Bitte wählen Sie eine Zahlungsstrategie aus"
+  },
+  "tooltips": {
+    "currentBalance": "Aktueller ausstehender Saldo auf Ihrer Kreditkarte",
+    "interestRate": "Für unbezahlte Beträge wird ein effektiver Jahreszins (APR) erhoben",
+    "minimumPayment": "Erforderliche monatliche Mindestzahlung vom Kartenaussteller",
+    "minimumPaymentType": "Ob die Mindestzahlung ein fester Betrag oder ein Prozentsatz des Restbetrags ist",
+    "fixedPayment": "Fester Betrag, den Sie jeden Monat zahlen möchten",
+    "extraPayment": "Zusätzlicher Betrag, der jeden Monat an das Kapital gezahlt wird",
+    "paymentStrategy": "Methode zur Bestimmung des monatlichen Zahlungsbetrags"
+  },
+  "debt_avalanche_calculator_0": "Schuldenlawinenrechner",
+  "monthly_payment_budget_1": "Monatliches Zahlungsbudget",
+  "total_monthly_budget_for_all_credit_card_payments_2": "Gesamtmonatsbudget für alle Kreditkartenzahlungen",
+  "credit_cards_3": "Kreditkarten",
+  "add_card_4": "Karte hinzufügen",
+  "card_5": "Karte",
+  "card_name_6": "Kartenname",
+  "current_balance_7": "Aktueller Kontostand",
+  "minimum_payment_8": "Mindestzahlung",
+  "apr_9": "effektiver Jahreszins (%)",
+  "calculate_strategy_10": "Berechnen Sie die Strategie",
+  "payoff_results_11": "Auszahlungsergebnisse",
+  "your_debt_avalanche_strategy_12": "Ihre Strategie zur Schuldenlawine",
+  "payoff_time_13": "Auszahlungszeit:",
+  "y_14": "y",
+  "m_15": "m",
+  "total_interest_16": "Gesamtzins:",
+  "total_amount_paid_17": "Gezahlter Gesamtbetrag:",
+  "payment_schedule_18": "Zahlungsplan",
+  "download_csv_19": "CSV herunterladen",
+  "month_20": "Monat",
+  "card_21": "Karte",
+  "balance_22": "Gleichgewicht",
+  "interest_23": "Interesse",
+  "payment_24": "Zahlung",
+  "remaining_25": "Übrig",
+  "showing_first_24_months_download_csv_for_complete__26": "Zeigt die ersten 24 Monate. Laden Sie CSV für den vollständigen Zeitplan herunter.",
+  "enter_your_credit_card_information_to_see_your_pay_27": "Geben Sie Ihre Kreditkarteninformationen ein, um Ihre Auszahlungsstrategie anzuzeigen",
+  "formulas_behind_the_avalanche_method_28": "Formeln hinter der Avalanche-Methode",
+  "k_1_monthly_interest_calculation_29": "1. Monatliche Zinsberechnung",
+  "interest_balance_apr_12_30": "Zinsen = Saldo × (APR ÷ 12)",
+  "k_2_minimum_payment_application_31": "2. Antrag auf Mindestzahlung",
+  "new_balance_balance_interest_min_payment_32": "Neuer Saldo = (Saldo + Zinsen) – Mindestzahlung",
+  "k_3_extra_payment_allocation_33": "3. Zuweisung zusätzlicher Zahlungen",
+  "extra_budget_min_payments_34": "Extra = Budget – Σ(Mindestzahlungen)",
+  "extra_payment_goes_to_the_card_with_the_highest_ap_35": "Die zusätzliche Zahlung erfolgt an die Karte mit dem höchsten effektiven Jahreszins",
+  "k_4_payoff_priority_36": "4. Auszahlungspriorität",
+  "cards_are_prioritized_by_apr_highest_first_with_ba_37": "Karten werden nach dem effektiven Jahreszins (höchster Jahreszins) priorisiert, wobei der Saldo als entscheidender Faktor gilt (niedrigster zuerst).",
+  "example_scenarios_38": "Beispielszenarien",
+  "scenario_1_two_cards_39": "Szenario 1: Zwei Karten",
+  "card_a_5000_at_1899_apr_100_minimum_40": "• Karte A: 5.000 $ bei 18,99 % effektivem Jahreszins, mindestens 100 $",
+  "card_b_3000_at_2499_apr_75_minimum_41": "• Karte B: 3.000 $ bei 24,99 % effektivem Jahreszins, mindestens 75 $",
+  "monthly_budget_400_42": "• Monatsbudget: 400 $",
+  "strategy_pay_minimums_175_put_extra_225_toward_car_43": "• Strategie: Mindestbetrag zahlen (175 $), zusätzliche 225 $ für Karte B einzahlen (höherer effektiver Jahreszins)",
+  "scenario_2_multiple_cards_44": "Szenario 2: Mehrere Karten",
+  "card_a_8000_at_1599_apr_160_minimum_45": "• Karte A: 8.000 $ bei 15,99 % effektivem Jahreszins, mindestens 160 $",
+  "card_b_4000_at_2299_apr_80_minimum_46": "• Karte B: 4.000 $ bei 22,99 % effektivem Jahreszins, mindestens 80 $",
+  "card_c_2000_at_1999_apr_50_minimum_47": "• Karte C: 2.000 $ bei 19,99 % effektivem Jahreszins, mindestens 50 $",
+  "monthly_budget_500_48": "• Monatsbudget: 500 $",
+  "strategy_pay_minimums_290_put_extra_210_toward_car_49": "• Strategie: Mindestbetrag zahlen (290 $), zusätzliche 210 $ für Karte B einzahlen (höchster effektiver Jahreszins)"
+}

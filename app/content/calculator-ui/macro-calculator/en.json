@@ -1,0 +1,224 @@
+{
+  "pageTitle": "Macro Calculator",
+  "pageDescription": "Calculate macronutrient requirements (protein, carbs, fat) for your goals including weight loss, maintenance, or muscle gain",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Weight",
+      "unitSystem": "Unit System",
+      "activityLevel": "Activity Level",
+      "goal": "Goal",
+      "macroPreference": "Macro Preference"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}"
+    },
+    "buttons": {
+      "calculate": "Calculate Macros",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentary (little or no exercise)",
+      "light": "Lightly Active (light exercise 1-3 days/week)",
+      "moderate": "Moderately Active (moderate exercise 3-5 days/week)",
+      "active": "Very Active (hard exercise 6-7 days/week)",
+      "veryActive": "Extremely Active (very hard exercise & physical job)"
+    },
+    "goals": {
+      "lose": "Weight Loss",
+      "maintain": "Weight Maintenance",
+      "gain": "Muscle Gain"
+    },
+    "macroPreferences": {
+      "balanced": "Balanced Macros",
+      "highProtein": "High Protein",
+      "lowCarb": "Low Carb",
+      "custom": "Custom Ratio"
+    }
+  },
+  "results": {
+    "calories": "Daily Calories",
+    "protein": "Protein",
+    "carbs": "Carbohydrates",
+    "fat": "Fat",
+    "macroResultsTitle": "Macro Results",
+    "macroBreakdown": "Macro Breakdown",
+    "calorieAdjustment": "Calorie Adjustment"
+  },
+  "educational": {
+    "macroInfo": "Macronutrient Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Professional",
+    "macroFunctions": {
+      "protein": {
+        "title": "Protein",
+        "description": "Essential for muscle building and repair, satiety, and hormone production"
+      },
+      "carbs": {
+        "title": "Carbohydrates",
+        "description": "Primary energy source for the brain and muscles, especially during exercise"
+      },
+      "fat": {
+        "title": "Fat",
+        "description": "Essential for hormone production, vitamin absorption, and long-term energy"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a diagnostic tool",
+      "individualVariation": "Macro needs vary based on individual factors and goals"
+    },
+    "importantNotesList": [
+      "These calculations are based on general formulas and may need adjustment",
+      "Listen to your body and adjust based on how you feel and perform",
+      "Consult a registered dietitian for personalized nutrition advice",
+      "Consistency with your diet is more important than perfect macro counting"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Enter your information to calculate your macronutrient needs",
+    "macroResult": "Your daily macronutrient targets are shown below",
+    "goalAdjustment": "Based on your {goal} goal",
+    "assessmentResult": "Assessment Result:",
+    "macroAnalysis": "Macro Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates based on mathematical formulas and should not be used as a substitute for professional nutritional advice. Individual results may vary based on factors not accounted for in these calculations."
+  },
+  "seekHelp": {
+    "title": "Consult a Registered Dietitian",
+    "content": "For personalized nutrition advice and meal planning, please consult with a registered dietitian who can provide guidance based on your complete health history, dietary preferences, and individual circumstances."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight",
+    "activity": "Please select activity level",
+    "goal": "Please select a goal",
+    "macroPreference": "Please select macro preference"
+  },
+  "tooltips": {
+    "age": "Age affects metabolic rate",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "activity": "Your regular activity level affects calorie needs",
+    "goal": "Your goal determines calorie adjustment",
+    "macroPreference": "Your preferred macro distribution"
+  },
+  "loading_0": "Loading...",
+  "macro_calculator_1": "Macro Calculator",
+  "modify_the_values_and_click_the_calculate_button_t_2": "Modify the values and click the calculate button to use",
+  "unit_system_3": "Unit System",
+  "us_units_4": "US Units",
+  "metric_units_5": "Metric Units",
+  "other_units_6": "Other Units",
+  "age_7": "Age",
+  "ages_18_80_8": "ages 18 - 80",
+  "gender_9": "Gender",
+  "male_10": "Male",
+  "female_11": "Female",
+  "height_12": "Height",
+  "feet_13": "feet",
+  "inches_14": "inches",
+  "cm_15": "cm",
+  "weight_16": "Weight",
+  "activity_17": "Activity",
+  "your_goal_18": "Your Goal",
+  "bmr_estimation_formula_19": "BMR Estimation Formula",
+  "mifflin_st_jeor_20": "Mifflin St Jeor",
+  "katchmcardle_21": "Katch-McArdle",
+  "body_fat_percentage_22": "Body Fat Percentage",
+  "calculate_23": "Calculate",
+  "macro_results_24": "Macro Results",
+  "your_daily_macronutrient_breakdown_25": "Your daily macronutrient breakdown",
+  "balanced_26": "Balanced",
+  "low_fat_27": "Low Fat",
+  "low_carb_28": "Low Carb",
+  "high_protein_29": "High Protein",
+  "create_your_own_30": "Create Your Own",
+  "daily_calories_31": "Daily Calories",
+  "or_32": "or",
+  "kjday_33": "kJ/day",
+  "macronutrients_34": "Macronutrients",
+  "protein_35": "Protein",
+  "g_36": "g",
+  "carbohydrates_37": "Carbohydrates",
+  "g_38": "g",
+  "fat_39": "Fat",
+  "g_40": "g",
+  "macro_ranges_41": "Macro Ranges",
+  "protein_range_42": "Protein Range",
+  "g_43": "g",
+  "carb_range_44": "Carb Range",
+  "g_45": "g",
+  "fat_range_46": "Fat Range",
+  "g_47": "g",
+  "daily_limits_48": "Daily Limits",
+  "sugar_49": "Sugar",
+  "g_50": "g",
+  "saturated_fat_51": "Saturated Fat",
+  "g_52": "g",
+  "metabolic_info_53": "Metabolic Info",
+  "bmr_54": "BMR",
+  "calories_55": "calories",
+  "tdee_56": "TDEE",
+  "calories_57": "calories",
+  "save_this_calculation_58": "Save This Calculation",
+  "protein_59": "Protein (%)",
+  "carbs_60": "Carbs (%)",
+  "fat_61": "Fat (%)",
+  "daily_calories_62": "Daily Calories",
+  "or_63": "or",
+  "kjday_64": "kJ/day",
+  "macronutrients_65": "Macronutrients",
+  "protein_66": "Protein",
+  "g_67": "g",
+  "carbohydrates_68": "Carbohydrates",
+  "g_69": "g",
+  "fat_70": "Fat",
+  "g_71": "g",
+  "macro_ranges_72": "Macro Ranges",
+  "protein_range_73": "Protein Range",
+  "g_74": "g",
+  "carb_range_75": "Carb Range",
+  "g_76": "g",
+  "fat_range_77": "Fat Range",
+  "g_78": "g",
+  "daily_limits_79": "Daily Limits",
+  "sugar_80": "Sugar",
+  "g_81": "g",
+  "saturated_fat_82": "Saturated Fat",
+  "g_83": "g",
+  "metabolic_info_84": "Metabolic Info",
+  "bmr_85": "BMR",
+  "calories_86": "calories",
+  "tdee_87": "TDEE",
+  "calories_88": "calories",
+  "save_this_calculation_89": "Save This Calculation",
+  "enter_your_details_and_click_calculate_to_see_your_90": "Enter your details and click Calculate to see your macros",
+  "what_are_macronutrients_macros_91": "What are Macronutrients (Macros)?",
+  "in_the_context_of_health_and_fitness_macronutrient_92": "In the context of health and fitness, macronutrients are most often defined to be the chemical\n                    compounds that humans consume in large quantities that provide bulk energy. Specifically, they refer\n                    to carbohydrates, proteins, and fats. Some definitions also include water, air, calcium, sodium,\n                    chloride ions, and some other substances, along with more typical macronutrients, since they are\n                    needed in large quantities by the human body. In this calculator, we only calculate daily\n                    carbohydrate, protein, and fat needs.",
+  "protein_93": "Protein",
+  "proteins_are_organic_compounds_comprised_of_amino__94": "Proteins are organic compounds comprised of amino acids, and are one of the types of macronutrients. \n                        Amino acids are essential to a person's well-being, and there are certain amino acids that can only \n                        be obtained through diet. These amino acids are typically referred to as \"essential amino acids,\" \n                        and are obtained by humans and other animals through the consumption of protein.",
+  "carbohydrates_carbs_95": "Carbohydrates (Carbs)",
+  "carbohydrates_often_referred_to_as_simply_carbs_ar_96": "Carbohydrates, often referred to as simply \"carbs,\" are compounds that are typically classified \n                        as sugar, starch, or fiber. Sugar is the simplest form of carbohydrate, while starch and fiber \n                        are complex carbohydrates. Glucose is a monosaccharide and is one of the key sources of energy \n                        for humans, as well as other animals.",
+  "fat_97": "Fat",
+  "fats_are_molecules_that_are_comprised_primarily_of_98": "Fats are molecules that are comprised primarily of carbon and hydrogen atoms. Common examples \n                        include cholesterol, phospholipids, and triglycerides. Although fats, in the context of nutrition, \n                        are typically viewed as unhealthy, they have both structural as well as metabolic functions, \n                        and are a necessary part of the human diet.",
+  "important_99": "Important:",
+  "the_results_above_are_a_guideline_for_more_typical_100": "The results above are a guideline for more typical situations. Please consult with a doctor for\n                      your macronutrient needs if you are an athlete, training for a specific purpose, or on special\n                      diet due to a disease, pregnancy, or other conditions."
+}

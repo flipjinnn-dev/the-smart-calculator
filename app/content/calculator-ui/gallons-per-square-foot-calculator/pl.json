@@ -1,0 +1,163 @@
+{
+  "pageTitle": "Kalkulator galonów na stopę kwadratową",
+  "pageDescription": "Oblicz liczbę galonów potrzebnych na metr kwadratowy do malowania lub podłóg",
+  "form": {
+    "labels": {
+      "totalGallons": "Całkowita liczba dostępnych galonów",
+      "totalArea": "Powierzchnia całkowita (stopy kwadratowe)",
+      "coverageRate": "Wskaźnik pokrycia (fta kwadratowa na galon)"
+    },
+    "placeholders": {
+      "totalGallons": "Wprowadź całkowitą liczbę dostępnych galonów",
+      "totalArea": "Wprowadź całkowitą powierzchnię w stopach kwadratowych",
+      "coverageRate": "Wprowadź współczynnik pokrycia (domyślnie: 400 stóp kwadratowych/galon)"
+    },
+    "buttons": {
+      "calculate": "Oblicz zasięg",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "gallonsPerSquareFoot": "Galony na stopę kwadratową",
+    "coveragePerGallon": "Pokrycie na galon",
+    "totalCoverage": "Całkowity obszar pokrycia",
+    "gallonsNeeded": "Galony potrzebne na powierzchnię",
+    "efficiency": "Wydajność aplikacji"
+  },
+  "educational": {
+    "coverageInfo": "Informacje o zasięgu",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby konstrukcyjne",
+    "coverageFacts": {
+      "definition": {
+        "title": "Wskaźnik pokrycia",
+        "description": "Obszar, który można pokryć jednym galonem farby lub materiału powłokowego"
+      },
+      "factors": {
+        "title": "Czynniki wpływające",
+        "description": "Tekstura powierzchni, porowatość, metoda aplikacji i jakość materiału wpływają na stopień krycia"
+      },
+      "applications": {
+        "title": "Aplikacje w świecie rzeczywistym",
+        "description": "Stosowany w projektach budowlanych, malarskich i podłogowych do szacowania wymagań materiałowych"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki zasięgu",
+      "actual": "Rzeczywista wydajność może się różnić w zależności od warunków powierzchni i techniki aplikacji"
+    },
+    "importantNotesList": [
+      "Standardowe pokrycie farbą wynosi około 400 stóp kwadratowych na galon",
+      "Szorstkie lub porowate powierzchnie mogą wymagać większej ilości materiału",
+      "Aby uzyskać optymalne krycie, może być konieczne nałożenie kilku warstw",
+      "Zawsze kupuj dodatkowy materiał, aby uwzględnić odpady i poprawki"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź dostępne galony i obszar, aby obliczyć wymagania dotyczące pokrycia",
+    "resultMessage": "Wyniki obliczeń zasięgu przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia pokrycia:",
+    "coverageAnalysis": "Analiza zasięgu"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki zasięgu w oparciu o standardowe wartości branżowe. Rzeczywista wydajność może się różnić w zależności od warunków powierzchni, techniki aplikacji, jakości materiału i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby konstrukcyjne",
+    "content": "Aby uzyskać profesjonalną wycenę malowania i podłóg, skonsultuj się z wykonawcami lub dostawcami materiałów, którzy mogą ocenić konkretne wymagania i warunki projektu."
+  },
+  "errors": {
+    "totalGallons": "Proszę wprowadzić prawidłową liczbę galonów",
+    "totalArea": "Wprowadź prawidłowy obszar w stopach kwadratowych",
+    "coverageRate": "Proszę wprowadzić prawidłową stawkę ubezpieczenia"
+  },
+  "tooltips": {
+    "totalGallons": "Łączna ilość dostępnych galonów farby lub materiału powłokowego",
+    "totalArea": "Całkowita powierzchnia do pokrycia w stopach kwadratowych",
+    "coverageRate": "Stopień krycia w stopach kwadratowych na galon (zwykle 400 dla standardowej farby)"
+  },
+  "dimensions_0": "Wymiary",
+  "enter_length_width_and_height_in_feet_to_calculate_1": "Wprowadź długość, szerokość i wysokość w stopach, aby obliczyć galony na stopę kwadratową",
+  "length_l_2": "Długość (L)",
+  "feet_ft_3": "Stopy (ft)",
+  "inches_in_4": "Cale (cale)",
+  "meters_m_5": "Metry (m)",
+  "centimeters_cm_6": "Centymetry (cm)",
+  "yards_yd_7": "Jardy (jd)",
+  "width_w_8": "Szerokość (szer.)",
+  "feet_ft_9": "Stopy (ft)",
+  "inches_in_10": "Cale (cale)",
+  "meters_m_11": "Metry (m)",
+  "centimeters_cm_12": "Centymetry (cm)",
+  "yards_yd_13": "Jardy (jd)",
+  "height_h_14": "Wysokość (wys.)",
+  "feet_ft_15": "Stopy (ft)",
+  "inches_in_16": "Cale (cale)",
+  "meters_m_17": "Metry (m)",
+  "centimeters_cm_18": "Centymetry (cm)",
+  "yards_yd_19": "Jardy (jd)",
+  "calculate_20": "Obliczać",
+  "reset_21": "Nastawić",
+  "results_22": "Wyniki",
+  "input_values_converted_to_feet_23": "Wartości wejściowe (przeliczone na stopy)",
+  "length_24": "Długość:",
+  "ft_25": "stopy",
+  "width_26": "Szerokość:",
+  "ft_27": "stopy",
+  "height_28": "Wysokość:",
+  "ft_29": "stopy",
+  "area_30": "Obszar",
+  "ft_31": "ft²",
+  "volume_32": "Tom",
+  "ft_33": "ft³",
+  "gallons_34": "galony",
+  "gallons_per_square_foot_35": "Galony na stopę kwadratową",
+  "galft_36": "gal/ft²",
+  "stepbystep_calculation_37": "Obliczenia krok po kroku",
+  "step_1_38": "Krok 1:",
+  "step_2_39": "Krok 2:",
+  "step_3_40": "Krok 3:",
+  "step_4_41": "Krok 4:",
+  "enter_dimensions_to_see_42": "Wprowadź wymiary, aby zobaczyć",
+  "live_results_43": "wyniki na żywo",
+  "and_stepbystep_calculations_44": "i obliczenia krok po kroku.",
+  "understanding_gallons_per_square_foot_45": "Zrozumienie galonów na stopę kwadratową",
+  "formulas_used_46": "Używane formuły",
+  "a_l_w_area_in_square_feet_47": "A = L × W (Powierzchnia w stopach kwadratowych)",
+  "v_48": "V",
+  "ft_49": "ft³",
+  "a_h_l_w_h_volume_in_cubic_feet_50": "= A × H = (L × W) × H (Objętość w stopach sześciennych)",
+  "v_51": "V",
+  "gal_52": "gal",
+  "v_53": "= V",
+  "ft_54": "ft³",
+  "k_748052_volume_in_us_gallons_55": "× 7,48052 (objętość w galonach amerykańskich)",
+  "g_v_56": "G = V",
+  "gal_57": "gal",
+  "a_gallons_per_square_foot_58": "÷ A (galony na stopę kwadratową)",
+  "common_applications_59": "Typowe zastosowania",
+  "pool_spa_60": "Basen i spa:",
+  "calculate_volume_and_chemical_dosing_rates_61": "Oblicz objętość i szybkość dozowania środków chemicznych",
+  "tank_design_62": "Projekt zbiornika:",
+  "determine_liquid_storage_capacity_per_floor_area_63": "Określ pojemność magazynowania cieczy na powierzchnię podłogi",
+  "irrigation_64": "Nawadnianie:",
+  "calculate_application_rates_for_landscaping_65": "Oblicz dawki aplikacji dla kształtowania krajobrazu",
+  "construction_66": "Budowa:",
+  "estimate_concrete_paint_or_coating_coverage_67": "Oszacuj pokrycie betonu, farby lub powłoki",
+  "aquaculture_68": "Akwakultura:",
+  "design_fish_tanks_and_water_systems_69": "Projektujemy akwaria i instalacje wodne",
+  "conversion_factor_70": "Współczynnik konwersji",
+  "k_1_cubic_foot_748052_us_gallons_71": "1 stopa sześcienna = 7,48052 galonów amerykańskich",
+  "this_conversion_factor_is_exact_and_widely_used_in_72": "Ten współczynnik konwersji jest dokładny i szeroko stosowany w budownictwie, hydraulice i inżynierii\n                        aplikacje.",
+  "example_calculation_73": "Przykładowe obliczenia",
+  "given_74": "Dany:",
+  "length_10_ft_width_8_ft_height_3_ft_75": "Długość = 10 stóp, szerokość = 8 stóp, wysokość = 3 stopy",
+  "solution_76": "Rozwiązanie:",
+  "area_10_8_80_ft_77": "Powierzchnia = 10 × 8 = 80 stóp²",
+  "volume_80_3_240_ft_78": "Objętość = 80 × 3 = 240 stóp³",
+  "volume_in_gallons_240_748052_179532_gallons_79": "Objętość w galonach = 240 × 7,48052 = 1795,32 galonów",
+  "gallons_per_sq_ft_179532_80_2244_galft_80": "Galony na stopę kwadratową = 1795,32 ÷ 80 = 22,44 gal/ft²"
+}

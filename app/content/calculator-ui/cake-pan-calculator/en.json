@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Cake Pan Calculator",
+  "pageDescription": "Calculate the equivalent sizes of round, square, and rectangular cake pans for recipe scaling and baking adjustments",
+  "form": {
+    "labels": {
+      "inputPan": "Input Pan Type",
+      "inputDimensions": "Input Pan Dimensions",
+      "outputPan": "Output Pan Type",
+      "outputDimensions": "Output Pan Dimensions",
+      "adjustRecipe": "Adjust Recipe Quantities?"
+    },
+    "placeholders": {
+      "inputDimensions": "Enter dimensions (e.g., 9 for 9-inch round)",
+      "outputDimensions": "Enter dimensions (e.g., 8x8 for 8-inch square)"
+    },
+    "buttons": {
+      "calculate": "Calculate Pan Equivalent",
+      "reset": "Reset"
+    },
+    "panTypes": {
+      "round": "Round Pan",
+      "square": "Square Pan",
+      "rectangular": "Rectangular Pan"
+    },
+    "yesNo": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "results": {
+    "areaComparison": "Area Comparison",
+    "volumeComparison": "Volume Comparison",
+    "recipeAdjustment": "Recipe Adjustment Factor",
+    "panResultsTitle": "Cake Pan Results"
+  },
+  "educational": {
+    "panInfo": "Cake Pan Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Baking Resources",
+    "panFacts": {
+      "area": {
+        "title": "Pan Area Calculations",
+        "description": "Round: πr², Square: side², Rectangular: length × width"
+      },
+      "volume": {
+        "title": "Volume Considerations",
+        "description": "Volume = Area × Depth (assumes same pan depth)"
+      },
+      "adjustments": {
+        "title": "Recipe Adjustments",
+        "description": "Multiply ingredients by the area ratio when changing pan sizes"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides pan size conversions only",
+      "baking": "Consider baking time and temperature adjustments when changing pan sizes"
+    },
+    "importantNotesList": [
+      "Larger pans may require reduced baking time and/or lower temperature",
+      "Smaller pans may require increased baking time and/or higher temperature",
+      "Ensure pans have similar depth for accurate volume calculations",
+      "Consider pan material and color as they affect baking results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your cake pan information to calculate equivalents",
+    "resultMessage": "Your cake pan equivalent calculation is shown below",
+    "assessmentResult": "Pan Calculation Result:",
+    "panAnalysis": "Cake Pan Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides cake pan size conversions based on geometric formulas. Actual baking results may vary based on pan depth, material, oven calibration, and other factors."
+  },
+  "seekHelp": {
+    "title": "Baking Resources",
+    "content": "For professional baking advice and recipe development, consult baking professionals or culinary resources for specialized techniques and ingredient considerations."
+  },
+  "errors": {
+    "inputPan": "Please select an input pan type",
+    "inputDimensions": "Please enter valid input pan dimensions",
+    "outputPan": "Please select an output pan type",
+    "outputDimensions": "Please enter valid output pan dimensions"
+  },
+  "tooltips": {
+    "inputPan": "The type of pan you're converting from",
+    "inputDimensions": "Dimensions of the input pan",
+    "outputPan": "The type of pan you're converting to",
+    "outputDimensions": "Dimensions of the output pan",
+    "adjustRecipe": "Whether to calculate recipe quantity adjustments"
+  },
+  "diameter_cm_0": "Diameter (cm)",
+  "height_cm_1": "Height (cm)",
+  "length_cm_2": "Length (cm)",
+  "width_cm_3": "Width (cm)",
+  "height_cm_4": "Height (cm)",
+  "pan_shape_dimensions_5": "Pan Shape & Dimensions",
+  "select_pan_shape_and_enter_dimensions_to_calculate_6": "Select pan shape and enter dimensions to calculate volume",
+  "select_pan_shape_7": "Select Pan Shape",
+  "recipe_pan_volume_l_optional_8": "Recipe Pan Volume (L) - Optional",
+  "conversion_9": "Conversion:",
+  "k_1_l_1000_cm_10": "1 L = 1000 cm³",
+  "enter_recipe_pan_volume_to_get_scaling_ratio_for_a_11": "Enter recipe pan volume to get scaling ratio for adjusting ingredient quantities.",
+  "calculate_volume_12": "Calculate Volume",
+  "pan_volume_results_13": "Pan Volume Results",
+  "liters_l_14": "liters (L)",
+  "cm_15": "cm³",
+  "x_16": "x",
+  "recipe_ratio_17": "Recipe Ratio",
+  "select_shape_enter_dimensions_and_click_18": "Select shape, enter dimensions and click",
+  "calculate_19": "Calculate",
+  "to_see_volume_20": "to see volume.",
+  "detailed_volume_breakdown_21": "Detailed Volume Breakdown",
+  "volume_liters_22": "Volume (Liters)",
+  "l_23": "L",
+  "volume_cm_24": "Volume (cm³)",
+  "cm_25": "cm³",
+  "recipe_scaling_26": "Recipe Scaling",
+  "x_27": "x",
+  "multiply_ingredients_28": "Multiply ingredients",
+  "recipe_adjustment_guide_29": "Recipe Adjustment Guide:",
+  "your_pan_is_30": "Your pan is",
+  "times_larger_than_the_recipe_pan_multiply_all_ingr_31": "times larger than the recipe pan. Multiply all\n                            ingredients by",
+  "to_fill_your_pan_properly_32": "to fill your pan properly.",
+  "your_pan_is_33": "Your pan is",
+  "times_smaller_than_the_recipe_pan_multiply_all_ing_34": "times smaller than the recipe pan. Multiply all\n                            ingredients by",
+  "to_avoid_overflow_35": "to avoid overflow.",
+  "your_pan_is_the_same_size_as_the_recipe_pan_use_th_36": "Your pan is the same size as the recipe pan. Use the original recipe quantities.",
+  "understanding_pan_volume_in_baking_37": "Understanding Pan Volume in Baking",
+  "why_pan_volume_matters_38": "Why Pan Volume Matters",
+  "pan_volume_determines_how_much_batter_your_pan_can_39": "Pan volume determines how much batter your pan can hold and affects baking time, texture, and\n                        rise. Using the wrong pan size can result in overflow, uneven baking, or flat cakes.",
+  "scaling_guidelines_40": "Scaling Guidelines",
+  "your_pan_is_larger_than_the_recipe_pan_increase_in_41": "Your pan is larger than the recipe pan - increase ingredients",
+  "your_pan_is_smaller_than_the_recipe_pan_reduce_ing_42": "Your pan is smaller than the recipe pan - reduce ingredients",
+  "your_pan_is_the_same_size_as_the_recipe_pan_use_or_43": "Your pan is the same size as the recipe pan - use original recipe",
+  "adjust_baking_time_larger_pans_need_more_time_44": "Adjust baking time: larger pans need more time",
+  "sample_calculations_45": "Sample Calculations",
+  "round_pan_20cm_5cm_46": "Round Pan: 20cm × 5cm",
+  "v_105_1571_cm_47": "V = π(10²)(5) = 1,571 cm³",
+  "k_1571_l_48": "≈ 1.571 L",
+  "rectangle_pan_20cm_20cm_5cm_49": "Rectangle Pan: 20cm × 20cm × 5cm",
+  "v_20_20_5_2000_cm_50": "V = 20 × 20 × 5 = 2,000 cm³",
+  "k_20_l_51": "= 2.0 L",
+  "ratio_20_1571_127x_52": "Ratio: 2.0 ÷ 1.571 = 1.27x"
+}

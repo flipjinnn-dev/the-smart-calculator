@@ -1,0 +1,199 @@
+{
+  "pageTitle": "Kalkulator kredytu hipotecznego",
+  "pageDescription": "Oblicz miesięczne spłaty kredytu hipotecznego, całkowite odsetki i harmonogram amortyzacji kredytów mieszkaniowych, biorąc pod uwagę podatek od nieruchomości i ubezpieczenie",
+  "form": {
+    "labels": {
+      "homePrice": "Cena domu",
+      "downPayment": "Zadatek",
+      "downPaymentType": "Rodzaj zaliczki",
+      "loanAmount": "Kwota pożyczki",
+      "interestRate": "Roczna stopa procentowa",
+      "loanTerm": "Okres pożyczki",
+      "startDate": "Data rozpoczęcia pożyczki",
+      "propertyTax": "Roczny podatek od nieruchomości",
+      "homeInsurance": "Roczne ubezpieczenie domu",
+      "pmi": "Prywatne ubezpieczenie kredytu hipotecznego (PMI)",
+      "hoa": "Miesięczne opłaty HOA"
+    },
+    "placeholders": {
+      "homePrice": "Podaj cenę domu",
+      "downPayment": "Wprowadź zaliczkę",
+      "loanAmount": "Wprowadź kwotę pożyczki",
+      "interestRate": "Wprowadź roczną stopę procentową (%)",
+      "loanTerm": "Wprowadź okres kredytu w latach",
+      "propertyTax": "Wprowadź roczny podatek od nieruchomości",
+      "homeInsurance": "Wprowadź roczne ubezpieczenie domu",
+      "pmi": "Wprowadź PMI, jeśli ma to zastosowanie",
+      "hoa": "Wprowadź miesięczne opłaty HOA"
+    },
+    "buttons": {
+      "calculate": "Oblicz kredyt hipoteczny",
+      "reset": "Nastawić"
+    },
+    "downPaymentTypes": {
+      "amount": "Kwota",
+      "percentage": "Procent"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Płatność miesięczna",
+    "principalAndInterest": "Główny i odsetki",
+    "propertyTax": "Podatek od nieruchomości",
+    "homeInsurance": "Ubezpieczenie domu",
+    "pmi": "Wskaźnik PMI",
+    "hoa": "Opłaty HOA",
+    "totalInterest": "Całkowite zapłacone odsetki",
+    "totalPayment": "Całkowita płatność",
+    "payoffDate": "Data spłaty pożyczki",
+    "mortgageResultsTitle": "Wyniki obliczeń kredytu hipotecznego"
+  },
+  "educational": {
+    "mortgageInfo": "Informacje o kredycie hipotecznym",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "mortgageFacts": {
+      "components": {
+        "title": "Składniki spłaty kredytu hipotecznego",
+        "description": "Kwota główna, odsetki, podatki i ubezpieczenie (PITI)"
+      },
+      "amortization": {
+        "title": "Amortyzacja",
+        "description": "Wcześniejsze płatności obejmują głównie odsetki; późniejsze płatności to głównie kwota główna"
+      },
+      "downPayment": {
+        "title": "Wpływ zaliczki",
+        "description": "Większe zaliczki zmniejszają kwotę kredytu i mogą wyeliminować wymóg PMI"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki spłaty kredytu hipotecznego",
+      "actual": "Rzeczywiste warunki kredytu hipotecznego mogą się różnić w zależności od polityki pożyczkodawcy, opłat i zdolności kredytowej"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie obejmuje wszystkich możliwych opłat i prowizji",
+      "Wskaźnik PMI jest zwykle wymagany w przypadku zaliczek mniejszych niż 20%",
+      "Podatki od nieruchomości i ubezpieczenie mogą się znacznie różnić w zależności od lokalizacji",
+      "Rozważ uzyskanie wstępnej zgody na kredyt hipoteczny przed poszukiwaniem domu"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje o swoim kredycie hipotecznym, aby obliczyć miesięczne płatności",
+    "resultMessage": "Wyniki obliczeń kredytu hipotecznego pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia kredytu hipotecznego:",
+    "mortgageAnalysis": "Analiza kredytu hipotecznego"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten pozwala oszacować spłaty kredytu hipotecznego w oparciu o standardowe formuły finansowe. Rzeczywiste warunki kredytu hipotecznego, płatności i odsetki mogą się różnić w zależności od polityki pożyczkodawcy, opłat, wyniku kredytowego i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowane porady dotyczące kredytów hipotecznych i opcje pożyczek, skonsultuj się z brokerami kredytów hipotecznych lub doradcami kredytowymi posiadającymi wiedzę na temat produktów kredytowych dla domów i indywidualnych sytuacji finansowych."
+  },
+  "errors": {
+    "homePrice": "Proszę podać prawidłową cenę domu",
+    "downPayment": "Proszę wprowadzić prawidłową zaliczkę",
+    "loanAmount": "Proszę wprowadzić prawidłową kwotę pożyczki",
+    "interestRate": "Proszę wprowadzić prawidłową roczną stopę procentową",
+    "loanTerm": "Proszę wprowadzić prawidłowy okres pożyczki",
+    "startDate": "Proszę podać prawidłową datę rozpoczęcia pożyczki",
+    "propertyTax": "Wprowadź prawidłową roczną kwotę podatku od nieruchomości",
+    "homeInsurance": "Proszę podać prawidłową roczną kwotę ubezpieczenia domu",
+    "pmi": "Proszę wprowadzić prawidłową kwotę PMI",
+    "hoa": "Wprowadź prawidłową kwotę opłaty HOA"
+  },
+  "tooltips": {
+    "homePrice": "Cena zakupu domu",
+    "downPayment": "Kwota płatna z góry na zakup domu",
+    "downPaymentType": "Określa, czy zaliczka jest określona kwotowo czy procentowo",
+    "loanAmount": "Kwota pożyczona od pożyczkodawcy",
+    "interestRate": "Roczne oprocentowanie kredytu hipotecznego",
+    "loanTerm": "Długość spłaty kredytu hipotecznego (zwykle 15 lub 30 lat)",
+    "startDate": "Data rozpoczęcia spłaty kredytu hipotecznego",
+    "propertyTax": "Roczny podatek od nieruchomości ustalany przez samorząd lokalny",
+    "homeInsurance": "Roczny koszt ubezpieczenia domu",
+    "pmi": "Prywatne ubezpieczenie kredytu hipotecznego wymagane w przypadku zaliczek mniejszych niż 20%",
+    "hoa": "Opłaty miesięczne za usługi Stowarzyszenia Właścicieli Domów"
+  },
+  "advanced_mortgage_calculator_0": "Zaawansowany kalkulator kredytu hipotecznego",
+  "calculate_your_complete_mortgage_costs_with_advanc_1": "Oblicz całkowite koszty kredytu hipotecznego za pomocą zaawansowanych funkcji, w tym dodatkowych płatności rocznych\n                wzrostów i szczegółowe zestawienia.",
+  "mortgage_calculator_2": "Kalkulator kredytu hipotecznego",
+  "home_price_3": "Cena domu",
+  "down_payment_4": "Zadatek",
+  "loan_term_5": "Okres pożyczki",
+  "k_10_years_6": "10 lat",
+  "k_15_years_7": "15 lat",
+  "k_20_years_8": "20 lat",
+  "k_25_years_9": "25 lat",
+  "k_30_years_10": "30 lat",
+  "interest_rate_11": "Stopa procentowa",
+  "start_date_12": "Data rozpoczęcia",
+  "jan_13": "styczeń",
+  "feb_14": "luty",
+  "mar_15": "Zniszczyć",
+  "apr_16": "kwiecień",
+  "may_17": "Móc",
+  "jun_18": "czerwca",
+  "jul_19": "lipiec",
+  "aug_20": "sierpień",
+  "sep_21": "wrzesień",
+  "oct_22": "paź",
+  "nov_23": "listopad",
+  "dec_24": "grudzień",
+  "annual_tax_costs_25": "Roczny podatek i koszty",
+  "annual_tax_cost_increases_26": "Roczne podwyżki podatków i kosztów",
+  "extra_payments_27": "Dodatkowe płatności",
+  "extra_monthly_pay_28": "+ Dodatkowe wynagrodzenie miesięczne",
+  "extra_yearly_pay_29": "+ Dodatkowe wynagrodzenie roczne",
+  "extra_onetime_pay_30": "+ Dodatkowa jednorazowa płatność",
+  "from_31": "z",
+  "jan_32": "styczeń",
+  "feb_33": "luty",
+  "mar_34": "Zniszczyć",
+  "apr_35": "kwiecień",
+  "may_36": "Móc",
+  "jun_37": "czerwca",
+  "jul_38": "lipiec",
+  "aug_39": "sierpień",
+  "sep_40": "wrzesień",
+  "oct_41": "paź",
+  "nov_42": "listopad",
+  "dec_43": "grudzień",
+  "remove_44": "Usunąć",
+  "calculate_mortgage_45": "Oblicz kredyt hipoteczny",
+  "monthly_payment_46": "Płatność miesięczna",
+  "your_complete_payment_breakdown_47": "Pełny podział płatności",
+  "monthly_pay_48": "Płaca miesięczna",
+  "total_monthly_payment_49": "Całkowita miesięczna płatność",
+  "payment_breakdown_50": "Podział płatności",
+  "mortgage_payment_51": "Spłata kredytu hipotecznego",
+  "property_tax_52": "Podatek od nieruchomości",
+  "home_insurance_53": "Ubezpieczenie domu",
+  "other_costs_54": "Inne koszty",
+  "payment_distribution_55": "Dystrybucja płatności",
+  "principal_interest_56": "% kwoty głównej i odsetek",
+  "property_taxes_57": "% Podatki od nieruchomości",
+  "home_insurance_58": "% Ubezpieczenie domu",
+  "other_costs_59": "% Inne koszty",
+  "loan_summary_60": "Podsumowanie pożyczki",
+  "house_price_61": "Cena domu:",
+  "loan_amount_62": "Kwota pożyczki:",
+  "down_payment_63": "Zadatek:",
+  "interest_rate_64": "Stopa procentowa:",
+  "loan_term_65": "Okres pożyczki:",
+  "years_66": "lata",
+  "total_interest_67": "Całkowite odsetki:",
+  "payoff_date_68": "Data wypłaty:",
+  "latest_mortgage_rates_69": "Najnowsze oprocentowanie kredytów hipotecznych:",
+  "k_30_years_70": "30 lat:",
+  "k_6512_71": "6,512%",
+  "k_15_years_72": "15 lat:",
+  "k_5608_73": "5,608%",
+  "k_10_years_74": "10 lat:",
+  "k_5494_75": "5,494%",
+  "see_your_local_rates_76": "Zobacz swoje lokalne stawki",
+  "get_preapproval_77": "Uzyskaj wstępną akceptację",
+  "enter_mortgage_details_to_see_your_payment_breakdo_78": "Wprowadź szczegóły kredytu hipotecznego, aby zobaczyć zestawienie płatności"
+}

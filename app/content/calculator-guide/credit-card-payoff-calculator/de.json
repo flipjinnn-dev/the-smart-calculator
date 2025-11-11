@@ -1,0 +1,115 @@
+{
+  "color": "Rot",
+  "sections": [
+    {
+      "heading": "Warum sollten Sie unseren Kreditkarten-Auszahlungsrechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Einblicke in Zinseinsparungen",
+          "content": "Sehen Sie genau, wie viel Zinsen Sie zahlen und wie viel Sie durch Zuzahlungen sparen können."
+        },
+        {
+          "heading": "Anpassbare Optionen",
+          "content": "Wählen Sie Pauschalzahlungen, zweiwöchentliche Zahlungen oder feste zusätzliche monatliche Zahlungen."
+        },
+        {
+          "heading": "Unterstützung mehrerer Karten",
+          "content": "Geben Sie Guthaben für mehrere Karten ein und vergleichen Sie Strategien nebeneinander."
+        },
+        {
+          "heading": "Avalanche vs. Snowball Vergleich",
+          "content": "Entscheiden Sie, ob es für Ihr Budget besser ist, zuerst Karten mit hohem effektiven Jahreszins (Avalanche) oder zuerst Karten mit niedrigem Kontostand (Schneeball) ins Visier zu nehmen."
+        },
+        {
+          "heading": "Druckbarer und gemeinsam nutzbarer Zeitplan",
+          "content": "Erhalten Sie einen übersichtlichen Tilgungsplan im Tilgungsstil, den Sie ausdrucken oder exportieren können."
+        },
+        {
+          "heading": "Visuelle Auszahlungsdiagramme",
+          "content": "Verfolgen Sie Ihren schuldenfreien Weg mit interaktiven Grafiken."
+        }
+      ]
+    },
+    {
+      "heading": "So verwenden Sie den Kreditkarten-Auszahlungsrechner",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Geben Sie Ihren Kontostand, den Zinssatz (APR) und die aktuelle monatliche Zahlung für jede Karte ein."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Wählen Sie zwischen Schuldenlawinen-, Schneeball- oder individuellen Tilgungsplänen."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Testen Sie, wie sich Ihre Auszahlungszeit durch zusätzliche monatliche Zahlungen oder Pauschalzahlungen verändert."
+        },
+        {
+          "heading": "Schritt 4",
+          "content": "Sehen Sie sich Ihr voraussichtliches Rückzahlungsdatum, die insgesamt gezahlten Zinsen und potenzielle Einsparungen an."
+        },
+        {
+          "heading": "Schritt 5",
+          "content": "Laden Sie Ihren persönlichen Auszahlungsplan herunter oder drucken Sie ihn aus, um motiviert zu bleiben."
+        }
+      ]
+    },
+    {
+      "heading": "So funktioniert der Rechner (Formeln und Methodik)",
+      "subSections": [
+        {
+          "heading": "Zinsen pro Monat",
+          "content": "Zinsen = (APR ÷ 12) × Aktueller Saldo."
+        },
+        {
+          "heading": "Neue Balance",
+          "content": "Neuer Saldo = Vorheriger Saldo + Zinsen – Zahlung."
+        },
+        {
+          "heading": "Mehrere Kartenstrategien",
+          "content": "Lawinenmethode → Zahlen Sie zuerst den höchsten effektiven Jahreszins aus, dann den Mindestzinssatz für die anderen. Schneeballmethode → Zahlen Sie zuerst den kleinsten Restbetrag ab und übertragen Sie dann die Zahlungen vorwärts."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielhafte Auszahlungsszenarien",
+      "subSections": [
+        {
+          "heading": "Beispiel für eine einzelne Karte",
+          "content": "Ein Guthaben von 5.000 US-Dollar bei einem effektiven Jahreszins von 20 % und einer monatlichen Zahlung von 200 US-Dollar wird etwa 32 Monate dauern, bis es abbezahlt ist, wobei die Zinsen bei über 1.400 US-Dollar liegen. Wenn Sie zusätzlich 100 US-Dollar pro Monat hinzufügen, verkürzt sich die Amortisationszeit auf 21 Monate und Sie sparen fast 700 US-Dollar."
+        },
+        {
+          "heading": "Beispiel für mehrere Karten",
+          "content": "Wenn Sie 3.000 $ bei 18 % effektivem Jahreszins und 2.000 $ bei 25 % effektivem Jahreszins schulden, spart die Lawinenmethode mehr Zinsen, während die Schneeballmethode schnellere psychologische Gewinne liefert."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie berechne ich das Auszahlungsdatum meiner Kreditkarte?",
+      "a": "Geben Sie Ihren Kontostand, effektiven Jahreszins und Ihre Zahlungen in den Rechner ein. Es werden Ihr Rückzahlungsdatum und die Gesamtzinsen geschätzt."
+    },
+    {
+      "q": "Was ist die beste Methode, um Kreditkartenschulden abzubezahlen?",
+      "a": "Die Lawinenmethode spart in der Regel am meisten Geld, wenn man sich zunächst mit hochverzinslichen Karten beschäftigt, während die Schneeballmethode die Motivation fördert, indem sie kleine Guthaben schnell ausgleicht."
+    },
+    {
+      "q": "Wie schneidet dieser Rechner im Vergleich zur Schuldenkonsolidierung ab?",
+      "a": "Im Gegensatz zu einem Schuldenkonsolidierungsdarlehen oder einer Saldotransferkarte zeigt dieser Rechner Ihren Tilgungspfad mit Ihren bestehenden Konten an."
+    },
+    {
+      "q": "Kann ich dies als Auszahlungsrechner für mehrere Kreditkarten verwenden?",
+      "a": "Ja. Geben Sie Details für mehrere Karten ein und wählen Sie eine Strategie, um zu sehen, wie sich unterschiedliche Ansätze auf Ihren Zeitplan auswirken."
+    },
+    {
+      "q": "Was ist, wenn ich nur Mindestzahlungen zahle?",
+      "a": "Der Rechner zeigt, wie die Zahlung nur des Mindestbetrags Ihre Schulden verlängert und die Gesamtzinsen erhöht."
+    },
+    {
+      "q": "Sollte ich anstelle dieses Tools eine Guthabenübertragung verwenden?",
+      "a": "Eine Saldoübertragung kann die Zinsen senken, wenn Sie sich für einen Einführungs-APR von 0 % qualifizieren, aber der Rechner hilft Ihnen zu vergleichen, ob das Festhalten an einem Tilgungsplan oder die Übertragung von Guthaben vorteilhafter ist."
+    }
+  ]
+}

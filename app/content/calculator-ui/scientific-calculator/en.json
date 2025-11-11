@@ -1,0 +1,125 @@
+{
+  "pageTitle": "Scientific Calculator",
+  "pageDescription": "Perform advanced mathematical calculations and scientific functions including trigonometry, logarithms, exponents, and statistical operations",
+  "form": {
+    "labels": {
+      "operation": "Operation",
+      "inputValue": "Input Value",
+      "angleMode": "Angle Mode",
+      "numberBase": "Number Base",
+      "memory": "Memory Functions"
+    },
+    "placeholders": {
+      "inputValue": "Enter value or expression"
+    },
+    "buttons": {
+      "calculate": "Calculate",
+      "clear": "Clear",
+      "reset": "Reset"
+    },
+    "operations": {
+      "basic": "Basic Operations",
+      "trig": "Trigonometric Functions",
+      "log": "Logarithmic Functions",
+      "exp": "Exponential Functions",
+      "stat": "Statistical Functions",
+      "misc": "Miscellaneous Functions"
+    },
+    "angleModes": {
+      "degrees": "Degrees",
+      "radians": "Radians",
+      "gradians": "Gradians"
+    },
+    "numberBases": {
+      "decimal": "Decimal (Base 10)",
+      "binary": "Binary (Base 2)",
+      "octal": "Octal (Base 8)",
+      "hexadecimal": "Hexadecimal (Base 16)"
+    }
+  },
+  "results": {
+    "result": "Result",
+    "expression": "Expression",
+    "calculationHistory": "Calculation History",
+    "scientificResultsTitle": "Scientific Calculator Results"
+  },
+  "educational": {
+    "scientificInfo": "Scientific Calculator Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Mathematical Resources",
+    "scientificFunctions": {
+      "trig": {
+        "title": "Trigonometric Functions",
+        "description": "sin, cos, tan and their inverses (asin, acos, atan)"
+      },
+      "log": {
+        "title": "Logarithmic Functions",
+        "description": "log (base 10), ln (natural log), and log base n"
+      },
+      "stat": {
+        "title": "Statistical Functions",
+        "description": "Mean, median, standard deviation, and other statistical operations"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides mathematical calculations only",
+      "precision": "Results are limited by computational precision and rounding"
+    },
+    "importantNotesList": [
+      "Ensure correct angle mode for trigonometric calculations",
+      "Be aware of domain restrictions for certain functions",
+      "Check calculation history for complex multi-step problems",
+      "Use appropriate number of significant figures in your results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your mathematical expression or select a function",
+    "resultMessage": "The result of your calculation is shown below",
+    "assessmentResult": "Calculation Result:",
+    "scientificAnalysis": "Scientific Calculation Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides mathematical computations based on standard scientific formulas. Results are subject to computational precision limitations and should be verified for critical applications."
+  },
+  "seekHelp": {
+    "title": "Mathematical Resources",
+    "content": "For complex mathematical problems or specialized applications, consider consulting mathematical professionals or using specialized software tools designed for advanced mathematics."
+  },
+  "errors": {
+    "inputValue": "Please enter a valid mathematical expression",
+    "operation": "Please select a valid operation",
+    "domain": "Input value is outside the domain of this function",
+    "overflow": "Calculation result is too large to display"
+  },
+  "tooltips": {
+    "operation": "Select the mathematical operation to perform",
+    "inputValue": "Enter the value or expression to calculate",
+    "angleMode": "Select the angle measurement mode for trigonometric functions",
+    "numberBase": "Select the number base for calculations"
+  },
+  "scientific_calculations_0": "Scientific Calculations",
+  "enter_your_expression_or_use_the_buttons_below_1": "Enter your expression or use the buttons below",
+  "expression_2": "Expression",
+  "m_3": "M:",
+  "calculate_4": "Calculate",
+  "result_5": "Result",
+  "calculated_value_6": "Calculated Value",
+  "you_can_copy_or_use_this_value_as_needed_7": "You can copy or use this value as needed.",
+  "enter_an_expression_and_click_8": "Enter an expression and click",
+  "calculate_9": "Calculate",
+  "to_see_result_10": "to see result.",
+  "how_to_use_this_calculator_11": "How to use this calculator?",
+  "k_1_12": "1",
+  "type_your_math_expression_or_use_the_buttons_13": "Type your math expression or use the buttons.",
+  "k_2_14": "2",
+  "use_functions_like_sinx_cosx_tanx_logx_x_for_power_15": "Use functions like sin(x), cos(x), tan(x), log(x), √(x), ^ for powers, n! for factorial, π, e, memory, and more.",
+  "k_3_16": "3",
+  "click_17": "Click",
+  "calculate_18": "Calculate",
+  "to_see_the_result_instantly_19": "to see the result instantly.",
+  "k_4_20": "4",
+  "use_degrad_toggle_ans_for_last_answer_memory_butto_21": "Use Deg/Rad toggle, Ans for last answer, memory buttons, and brackets for grouping."
+}

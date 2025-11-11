@@ -1,0 +1,125 @@
+{
+  "pageTitle": "Wissenschaftlicher Rechner",
+  "pageDescription": "Führen Sie fortgeschrittene mathematische Berechnungen und wissenschaftliche Funktionen durch, einschließlich Trigonometrie, Logarithmen, Exponenten und statistische Operationen",
+  "form": {
+    "labels": {
+      "operation": "Betrieb",
+      "inputValue": "Eingabewert",
+      "angleMode": "Winkelmodus",
+      "numberBase": "Zahlenbasis",
+      "memory": "Speicherfunktionen"
+    },
+    "placeholders": {
+      "inputValue": "Geben Sie einen Wert oder Ausdruck ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen",
+      "clear": "Klar",
+      "reset": "Zurücksetzen"
+    },
+    "operations": {
+      "basic": "Grundlegende Operationen",
+      "trig": "Trigonometrische Funktionen",
+      "log": "Logarithmische Funktionen",
+      "exp": "Exponentialfunktionen",
+      "stat": "Statistische Funktionen",
+      "misc": "Verschiedene Funktionen"
+    },
+    "angleModes": {
+      "degrees": "Abschlüsse",
+      "radians": "Bogenmaß",
+      "gradians": "Gradianer"
+    },
+    "numberBases": {
+      "decimal": "Dezimal (Basis 10)",
+      "binary": "Binär (Basis 2)",
+      "octal": "Oktal (Basis 8)",
+      "hexadecimal": "Hexadezimal (Basis 16)"
+    }
+  },
+  "results": {
+    "result": "Ergebnis",
+    "expression": "Ausdruck",
+    "calculationHistory": "Berechnungsverlauf",
+    "scientificResultsTitle": "Ergebnisse des wissenschaftlichen Rechners"
+  },
+  "educational": {
+    "scientificInfo": "Informationen zum wissenschaftlichen Rechner",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Mathematische Ressourcen",
+    "scientificFunctions": {
+      "trig": {
+        "title": "Trigonometrische Funktionen",
+        "description": "sin, cos, tan und ihre Umkehrungen (asin, acos, atan)"
+      },
+      "log": {
+        "title": "Logarithmische Funktionen",
+        "description": "log (Basis 10), ln (natürlicher Logarithmus) und Logarithmus zur Basis n"
+      },
+      "stat": {
+        "title": "Statistische Funktionen",
+        "description": "Mittelwert, Median, Standardabweichung und andere statistische Operationen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur mathematische Berechnungen",
+      "precision": "Die Ergebnisse werden durch Rechengenauigkeit und Rundung begrenzt"
+    },
+    "importantNotesList": [
+      "Stellen Sie sicher, dass der Winkelmodus für trigonometrische Berechnungen korrekt ist",
+      "Beachten Sie die Domänenbeschränkungen für bestimmte Funktionen",
+      "Überprüfen Sie den Berechnungsverlauf auf komplexe mehrstufige Probleme",
+      "Verwenden Sie in Ihren Ergebnissen eine angemessene Anzahl signifikanter Zahlen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihren mathematischen Ausdruck ein oder wählen Sie eine Funktion aus",
+    "resultMessage": "Das Ergebnis Ihrer Berechnung wird unten angezeigt",
+    "assessmentResult": "Berechnungsergebnis:",
+    "scientificAnalysis": "Wissenschaftliche Berechnungsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet mathematische Berechnungen basierend auf wissenschaftlichen Standardformeln. Die Ergebnisse unterliegen Einschränkungen der Rechengenauigkeit und sollten für kritische Anwendungen überprüft werden."
+  },
+  "seekHelp": {
+    "title": "Mathematische Ressourcen",
+    "content": "Bei komplexen mathematischen Problemen oder speziellen Anwendungen sollten Sie erwägen, Mathematikprofis zu konsultieren oder spezielle Softwaretools zu verwenden, die für fortgeschrittene Mathematik entwickelt wurden."
+  },
+  "errors": {
+    "inputValue": "Bitte geben Sie einen gültigen mathematischen Ausdruck ein",
+    "operation": "Bitte wählen Sie einen gültigen Vorgang aus",
+    "domain": "Der Eingabewert liegt außerhalb des Bereichs dieser Funktion",
+    "overflow": "Das Berechnungsergebnis ist zu groß, um angezeigt zu werden"
+  },
+  "tooltips": {
+    "operation": "Wählen Sie die auszuführende mathematische Operation aus",
+    "inputValue": "Geben Sie den zu berechnenden Wert oder Ausdruck ein",
+    "angleMode": "Wählen Sie den Winkelmessmodus für trigonometrische Funktionen",
+    "numberBase": "Wählen Sie die Zahlenbasis für Berechnungen aus"
+  },
+  "scientific_calculations_0": "Wissenschaftliche Berechnungen",
+  "enter_your_expression_or_use_the_buttons_below_1": "Geben Sie Ihren Ausdruck ein oder verwenden Sie die Schaltflächen unten",
+  "expression_2": "Ausdruck",
+  "m_3": "M:",
+  "calculate_4": "Berechnen",
+  "result_5": "Ergebnis",
+  "calculated_value_6": "Berechneter Wert",
+  "you_can_copy_or_use_this_value_as_needed_7": "Sie können diesen Wert nach Bedarf kopieren oder verwenden.",
+  "enter_an_expression_and_click_8": "Geben Sie einen Ausdruck ein und klicken Sie",
+  "calculate_9": "Berechnen",
+  "to_see_result_10": "um das Ergebnis zu sehen.",
+  "how_to_use_this_calculator_11": "Wie benutzt man diesen Rechner?",
+  "k_1_12": "1",
+  "type_your_math_expression_or_use_the_buttons_13": "Geben Sie Ihren mathematischen Ausdruck ein oder verwenden Sie die Schaltflächen.",
+  "k_2_14": "2",
+  "use_functions_like_sinx_cosx_tanx_logx_x_for_power_15": "Verwenden Sie Funktionen wie sin(x), cos(x), tan(x), log(x), √(x), ^ für Potenzen, n! für Fakultät, π, e, Gedächtnis und mehr.",
+  "k_3_16": "3",
+  "click_17": "Klicken",
+  "calculate_18": "Berechnen",
+  "to_see_the_result_instantly_19": "um das Ergebnis sofort zu sehen.",
+  "k_4_20": "4",
+  "use_degrad_toggle_ans_for_last_answer_memory_butto_21": "Verwenden Sie den Grad/Rad-Schalter, Ans für die letzte Antwort, Speichertasten und Klammern zum Gruppieren."
+}

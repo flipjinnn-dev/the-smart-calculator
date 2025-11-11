@@ -1,0 +1,122 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Kohlenhydratrechner – Finden Sie Ihren täglichen Kohlenhydratbedarf",
+      "content": "Unser Kohlenhydratrechner hilft Ihnen, schnell Ihre empfohlene tägliche Kohlenhydrataufnahme basierend auf Ihrem Alter, Gewicht, Größe, Geschlecht, Aktivitätsniveau und Fitnesszielen zu ermitteln. Ganz gleich, ob Sie Gewichtsverlust, Muskelaufbau, sportliche Leistung oder eine ausgeglichene Gesundheit anstreben, dieser tägliche Online-Kohlenhydratrechner verwendet wissenschaftlich validierte Methoden (wie die Mifflin-St-Jeor-BMR-Formel), um Ihren Energiebedarf abzuschätzen und zu berechnen, wie viele Kohlenhydrate Sie pro Tag zu sich nehmen sollten."
+    },
+    {
+      "heading": "So funktioniert der Kohlenhydratrechner",
+      "subSections": [
+        {
+          "heading": "Grundumsatz (BMR)",
+          "content": "Berechnet mit der Mifflin-St-Jeor-Gleichung."
+        },
+        {
+          "heading": "Aktivitätsniveau",
+          "content": "Sitzend, leicht aktiv, mäßig aktiv, sehr aktiv oder Sportler."
+        },
+        {
+          "heading": "Fitnessziele",
+          "content": "Gewichtsverlust, Erhaltung oder Muskelaufbau."
+        },
+        {
+          "heading": "Kohlenhydratverteilung",
+          "content": "Normalerweise sollten 45–65 % der täglichen Kalorien aus Kohlenhydraten stammen."
+        },
+        {
+          "heading": "Gramm pro Körpergewicht",
+          "content": "3–12 g/kg Körpergewicht je nach körperlicher Aktivität und Trainingsanforderung."
+        }
+      ]
+    },
+    {
+      "heading": "Warum einen Kohlenhydratrechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Gewichtsverlust",
+          "content": "Hilft, überschüssige Kohlenhydrate zu reduzieren und den Blutzuckerspiegel zu kontrollieren."
+        },
+        {
+          "heading": "Muskelaufbau",
+          "content": "Sorgt für ausreichende Glykogenspeicher für Kraft und Hypertrophie."
+        },
+        {
+          "heading": "Sportliche Leistung",
+          "content": "Ausdauersportler benötigen eine höhere Kohlenhydratzufuhr (6–10 g/kg)."
+        },
+        {
+          "heading": "Diabetes & Gesundheitsmanagement",
+          "content": "Bietet sichere Bereiche zur Aufrechterhaltung eines stabilen Glukosespiegels."
+        },
+        {
+          "heading": "Ausgewogene Ernährung",
+          "content": "Sorgt für das richtige Makronährstoffverhältnis neben Protein und Fett."
+        }
+      ]
+    },
+    {
+      "heading": "Empfohlene Richtlinien zur Kohlenhydratzufuhr",
+      "content": "Sitzende Erwachsene: ~3–4 g/kg Körpergewicht (45–50 % der Kalorien)\nMäßig aktive Personen: ~5–7 g/kg Körpergewicht (50–55 % der Kalorien)\nAusdauersportler / Hohes Trainingsvolumen: ~6–10 g/kg Körpergewicht (55–65 % der Kalorien)\nSpitzensportler / Extremtraining: ~8–12 g/kg Körpergewicht\nAbnehmpläne: 2–4 g/kg Körpergewicht (weniger Kohlenhydrate, mehr Protein)\nMuskelaufbau: 4–7 g/kg Körpergewicht zur Maximierung von Glykogen und Erholung"
+    },
+    {
+      "heading": "Verwandte Tools für eine ausgewogene Ernährung",
+      "subSections": [
+        {
+          "heading": "Rechner zur Proteinaufnahme",
+          "content": "Schätzen Sie den täglichen Proteinbedarf für Erholung und Muskelwachstum."
+        },
+        {
+          "heading": "Rechner zur Fettaufnahme",
+          "content": "Bestimmen Sie den optimalen täglichen Fettbedarf für Energie und Hormongesundheit."
+        },
+        {
+          "heading": "Rechner für gesundes Gewicht",
+          "content": "Überprüfen Sie Ihren idealen gesunden Gewichtsbereich anhand der BMI-Richtlinien."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Kohlenhydratrechner?",
+      "a": "Ein Kohlenhydratrechner ist ein Tool, das Ihren täglichen Kohlenhydratbedarf basierend auf Gewicht, Aktivitätsniveau und Zielen schätzt."
+    },
+    {
+      "q": "Wie viele Kohlenhydrate sollte ich pro Tag essen?",
+      "a": "Die meisten Erwachsenen benötigen je nach Aktivität 45–65 % der Kalorien aus Kohlenhydraten oder 3–7 g/kg Körpergewicht."
+    },
+    {
+      "q": "Ist dieser Rechner gut zum Abnehmen?",
+      "a": "Ja. Es kann ein niedrigerer Kohlenhydratbereich empfohlen werden, um Kalorien zu reduzieren und gleichzeitig die Energie aufrechtzuerhalten."
+    },
+    {
+      "q": "Wie viele Kohlenhydrate brauchen Sportler täglich?",
+      "a": "Ausdauersportler benötigen möglicherweise 6–10 g/kg Körpergewicht, während Spitzensportler bis zu 12 g/kg benötigen."
+    },
+    {
+      "q": "Können Diabetiker diesen Kohlenhydratrechner verwenden?",
+      "a": "Ja, aber die Ergebnisse sollten mit einem Arzt oder Ernährungsberater besprochen werden, um eine sichere Blutzuckerkontrolle zu gewährleisten."
+    },
+    {
+      "q": "Verwendet der Rechner die Mifflin-St-Jeor-Formel?",
+      "a": "Ja. Es berechnet zunächst den BMR mithilfe von Mifflin-St Jeor und wendet dann Aktivitäts- und Kohlenhydratverhältnisse an."
+    },
+    {
+      "q": "Wie hoch ist die Kohlenhydrataufnahme pro kg Körpergewicht?",
+      "a": "Der Kohlenhydratbedarf liegt typischerweise bei 3–12 g/kg pro Tag, angepasst an Trainingsintensität und Ziele."
+    },
+    {
+      "q": "Kann dieses Tool Kohlenhydrate für Keto- oder Low-Carb-Diäten berechnen?",
+      "a": "Ja. Für ketogene oder kohlenhydratarme Pläne können Sie einen niedrigeren Kohlenhydratanteil (5–20 % der Kalorien) wählen."
+    },
+    {
+      "q": "Wie unterscheidet sich dieser Rechner von einem allgemeinen Kalorienrechner?",
+      "a": "Es ist makronährstoffspezifisch und konzentriert sich im Gegensatz zu allgemeinen Kalorienrechnern nur auf den Kohlenhydratbedarf."
+    },
+    {
+      "q": "Welche anderen Taschenrechner sollte ich dazu verwenden?",
+      "a": "Für einen vollständigen Ernährungsplan verwenden Sie unseren Proteinrechner, unseren Fettrechner und unseren Rechner für gesundes Gewicht."
+    }
+  ]
+}

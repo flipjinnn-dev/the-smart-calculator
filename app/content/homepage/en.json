@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Smart Calculator - Free Online Calculators for Every Need",
+    "description": "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
+    "keywords": "calculator, online calculator, financial calculator, health calculator, math calculator, free tools"
+  },
+  "header": {
+    "title": "Smart Calculators",
+    "subtitle": "Free Online Calculators"
+  },
+  "hero": {
+    "title": "Your life in <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">90+ free</span> calculators",
+    "description": "From financial planning to health tracking, discover powerful calculation tools that make complex math simple and accessible."
+  },
+  "search": {
+    "title": "Find your calculator",
+    "placeholder": "Search from hundreds of free tools"
+  },
+  "categories": {
+    "title": "Calculator Categories",
+    "description": "Explore our comprehensive collection of specialized calculators",
+    "financial": {
+      "name": "Financial",
+      "description": "Loan, mortgage, investment, and tax calculators"
+    },
+    "health": {
+      "name": "Health & Fitness",
+      "description": "BMI, calorie, nutrition, and medical calculators"
+    },
+    "maths": {
+      "name": "Maths",
+      "description": "Algebra, geometry, statistics, and advanced maths"
+    },
+    "physics": {
+      "name": "Physics",
+      "description": "Force, energy, motion, and physics calculations"
+    },
+    "construction": {
+      "name": "Construction",
+      "description": "Property, rent, and construction calculations"
+    },
+    "food": {
+      "name": "Food",
+      "description": "Nutrition, calorie, and meal planning calculators"
+    },
+    "sports": {
+      "name": "Sports",
+      "description": "Fitness, exercise, and sports-related calculators"
+    },
+    "other": {
+      "name": "Other",
+      "description": "Miscellaneous calculators that don't fit into other categories"
+    }
+  },
+  "popular": {
+    "title": "Most Popular Calculators",
+    "description": "Our most frequently used calculation tools",
+    "calculators": [
+      {
+        "name": "Mortgage Calculator",
+        "category": "Financial",
+        "description": "Calculate monthly payments and total interest for your home loan"
+      },
+      {
+        "name": "BMI Calculator",
+        "category": "Health",
+        "description": "Calculate your Body Mass Index and understand your weight status"
+      },
+      {
+        "name": "Loan Calculator",
+        "category": "Financial",
+        "description": "Calculate loan payments and schedules for any type of loan"
+      },
+      {
+        "name": "Percentage Calculator",
+        "category": "Maths",
+        "description": "Calculate percentages, ratios, and percentage changes easily"
+      },
+      {
+        "name": "Compound Interest",
+        "category": "Financial",
+        "description": "Calculate investment growth over time with compound interest"
+      },
+      {
+        "name": "Calorie Calculator",
+        "category": "Health",
+        "description": "Calculate daily calorie needs based on your lifestyle and goals"
+      }
+    ]
+  },
+  "features": {
+    "title": "Why Choose Smart Calculator?",
+    "description": "Fast, accurate, and completely free to use",
+    "items": [
+      {
+        "title": "Lightning Fast",
+        "description": "Get instant results with our optimized calculation engines"
+      },
+      {
+        "title": "100% Accurate",
+        "description": "All calculators are verified by experts and mathematically precise"
+      },
+      {
+        "title": "Always Free",
+        "description": "Complete access to all calculators with no hidden charges ever"
+      }
+    ]
+  }
+}

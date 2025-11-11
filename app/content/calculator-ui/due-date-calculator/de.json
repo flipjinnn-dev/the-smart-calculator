@@ -1,0 +1,172 @@
+{
+  "pageTitle": "Fälligkeitsrechner",
+  "pageDescription": "Schätzen Sie Ihren Geburtstermin anhand Ihrer letzten Menstruation oder Ihres Empfängnisdatums",
+  "form": {
+    "labels": {
+      "lastMenstrualPeriod": "Letzte Menstruation",
+      "cycleLength": "Zykluslänge (Tage)",
+      "conceptionDate": "Konzeptionsdatum (optional)"
+    },
+    "placeholders": {
+      "lastMenstrualPeriod": "Geben Sie den ersten Tag der letzten Menstruation ein",
+      "cycleLength": "Zykluslänge eingeben (Standard: 28)",
+      "conceptionDate": "Geben Sie das Konzeptionsdatum ein, falls bekannt"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie das Fälligkeitsdatum",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "dueDate": "Voraussichtliches Fälligkeitsdatum",
+    "conceptionDate": "Geschätztes Empfängnisdatum",
+    "weeksPregnant": "Aktuelle Schwangerschaftswochen",
+    "calculationDetails": "Ergebnisse der Fälligkeitsberechnung"
+  },
+  "educational": {
+    "info": "Informationen zum Fälligkeitsdatum",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Definition des Fälligkeitsdatums",
+        "description": "Informationen zum Fälligkeitsdatum"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "So wird das Fälligkeitsdatum berechnet"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendung des Fälligkeitsdatums"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zum Fälligkeitsdatum",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um das Fälligkeitsdatum zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Fälligkeitsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Fälligkeitsdatumsberechnung:",
+    "analysis": "Fälligkeitsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Fälligkeitsschätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "due_date_calculation_0": "Berechnung des Fälligkeitsdatums",
+  "select_your_preferred_method_and_enter_the_require_1": "Wählen Sie Ihre bevorzugte Methode und geben Sie die erforderlichen Informationen ein",
+  "calculation_method_2": "Berechnungsmethode",
+  "last_menstrual_period_lmp_3": "Letzte Menstruationsperiode (LMP)",
+  "ultrasound_dating_4": "Ultraschall-Dating",
+  "conception_date_5": "Konzeptionsdatum",
+  "ivf_transfer_date_6": "Datum der IVF-Übertragung",
+  "first_day_of_last_menstrual_period_7": "Erster Tag der letzten Menstruation",
+  "average_cycle_length_days_8": "Durchschnittliche Zykluslänge (Tage)",
+  "typical_range_2135_days_9": "Typischer Zeitraum: 21–35 Tage",
+  "date_of_ultrasound_scan_10": "Datum der Ultraschalluntersuchung",
+  "gestational_age_weeks_11": "Gestationsalter (Wochen)",
+  "additional_days_12": "Zusätzliche Tage",
+  "approximate_conception_date_13": "Ungefähres Empfängnisdatum",
+  "embryo_transfer_date_14": "Datum des Embryonentransfers",
+  "embryo_age_at_transfer_15": "Alter des Embryos bei der Übertragung",
+  "k_3day_embryo_16": "3-Tage-Embryo",
+  "k_5day_embryo_blastocyst_17": "5-Tage-Embryo (Blastozyste)",
+  "k_6day_embryo_18": "6-Tage-Embryo",
+  "calculate_date_19": "Datum berechnen",
+  "reset_20": "Zurücksetzen",
+  "due_date_21": "Fälligkeitsdatum",
+  "expected_due_date_22": "Voraussichtliches Fälligkeitsdatum",
+  "w_23": "w",
+  "d_24": "d",
+  "current_age_25": "Aktuelles Alter",
+  "select_a_method_and_enter_your_information_to_calc_26": "Wählen Sie eine Methode aus und geben Sie Ihre Informationen ein, um Ihr Fälligkeitsdatum zu berechnen.",
+  "your_pregnancy_timeline_27": "Ihr Schwangerschaftszeitplan",
+  "estimated_due_date_28": "Voraussichtliches Fälligkeitsdatum",
+  "expected_due_date_29": "Voraussichtliches Fälligkeitsdatum",
+  "w_30": "w",
+  "d_31": "d",
+  "current_gestational_age_32": "Aktuelles Gestationsalter",
+  "pregnancy_progress_33": "Schwangerschaftsfortschritt",
+  "calculation_details_34": "Berechnungsdetails",
+  "method_used_35": "Verwendete Methode",
+  "accuracy_36": "Genauigkeit:",
+  "important_note_37": "Wichtiger Hinweis",
+  "only_4_of_babies_arrive_on_the_exact_due_date_38": "Nur etwa 4 % der Babys kommen pünktlich zum Geburtstermin zur Welt",
+  "most_births_occur_within_10_days_of_edd_39": "Die meisten Geburten erfolgen innerhalb von ±10 Tagen nach EDD",
+  "pregnancy_progress_40": "Schwangerschaftsfortschritt",
+  "conception_41": "Konzeption",
+  "complete_42": "% Vollständig",
+  "due_date_43": "Fälligkeitsdatum",
+  "due_date_calculation_methods_44": "Methoden zur Fälligkeitsberechnung",
+  "method_45": "Verfahren",
+  "formula_46": "Formel",
+  "accuracy_47": "Genauigkeit",
+  "lmp_naegeles_rule_48": "LMP (Naegeles Regel)",
+  "lmp_280_days_49": "LMP + 280 Tage",
+  "k_14_days_50": "±14 Tage",
+  "conception_date_51": "Konzeptionsdatum",
+  "conception_266_days_52": "Empfängnis + 266 Tage",
+  "k_10_days_53": "±10 Tage",
+  "ultrasound_dating_54": "Ultraschall-Dating",
+  "scan_date_280_ga_at_scan_55": "Scandatum + (280 – GA beim Scan)",
+  "k_7_days_early_scan_56": "±7 Tage (früher Scan)",
+  "ivf_transfer_57": "IVF-Transfer",
+  "transfer_261264_days_58": "Transfer + 261-264 Tage",
+  "k_5_days_59": "±5 Tage",
+  "understanding_due_date_calculations_60": "Fälligkeitsberechnungen verstehen",
+  "method_accuracy_61": "Methodengenauigkeit",
+  "ivf_transfer_62": "IVF-Transfer:",
+  "most_accurate_5_days_63": "Am genauesten (±5 Tage)",
+  "early_ultrasound_64": "Früher Ultraschall:",
+  "very_accurate_7_days_65": "Sehr genau (±7 Tage)",
+  "conception_date_66": "Konzeptionsdatum:",
+  "good_accuracy_10_days_67": "Gute Genauigkeit (±10 Tage)",
+  "lmp_method_68": "LMP-Methode:",
+  "standard_method_14_days_69": "Standardmethode (±14 Tage)",
+  "example_calculation_70": "Beispielrechnung",
+  "lmp_january_1_2025_28day_cycle_71": "LMP: 1. Januar 2025 (28-Tage-Zyklus)",
+  "formula_lmp_280_days_72": "Formel: LMP + 280 Tage",
+  "due_date_73": "Fälligkeitsdatum:",
+  "october_8_2025_74": "8. Oktober 2025",
+  "current_feb_1_75": "Aktuell (1. Februar):",
+  "k_4w_3d_pregnant_76": "4w 3d schwanger",
+  "important_facts_77": "Wichtige Fakten",
+  "only_4_of_babies_arrive_on_exact_due_date_78": "Nur 4 % der Babys kommen pünktlich zum Geburtstermin zur Welt",
+  "k_3742_weeks_is_considered_fullterm_79": "37-42 Wochen gelten als Vollzeit",
+  "first_babies_often_arrive_12_days_late_80": "Die ersten Babys kommen oft 1-2 Tage zu spät zur Welt",
+  "cycle_length_affects_lmp_calculations_81": "Die Zykluslänge beeinflusst die LMP-Berechnungen",
+  "when_to_use_each_method_82": "Wann Sie die einzelnen Methoden anwenden sollten",
+  "lmp_83": "LMP:",
+  "regular_cycles_known_lmp_date_84": "Regelmäßige Zyklen, bekanntes LMP-Datum",
+  "ultrasound_85": "Ultraschall:",
+  "irregular_cycles_uncertain_lmp_86": "Unregelmäßige Zyklen, unsicherer LMP",
+  "conception_87": "Konzeption:",
+  "known_ovulationconception_date_88": "Bekanntes Datum des Eisprungs/Empfängnis",
+  "ivf_89": "IVF:",
+  "assisted_reproductive_technology_90": "Assistierte Reproduktionstechnologie"
+}

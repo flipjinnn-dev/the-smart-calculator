@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Kalkulator podatku od sprzedaży",
+  "pageDescription": "Oblicz podatek od sprzedaży dla zakupów w oparciu o lokalne stawki podatkowe",
+  "form": {
+    "labels": {
+      "purchaseAmount": "Kwota zakupu",
+      "taxRate": "Stawka podatku od sprzedaży (%)",
+      "state": "Stan (opcjonalnie)",
+      "city": "Miasto (opcjonalnie)"
+    },
+    "placeholders": {
+      "purchaseAmount": "Wprowadź kwotę zakupu",
+      "taxRate": "Wprowadź stawkę podatku od sprzedaży (np. 8,25)",
+      "state": "Wprowadź stan, aby wyszukać podatek",
+      "city": "Wprowadź miasto, aby wyszukać podatek"
+    },
+    "buttons": {
+      "calculate": "Oblicz podatek od sprzedaży",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "salesTaxAmount": "Kwota podatku od sprzedaży",
+    "totalAmount": "Całkowita kwota (z podatkiem)",
+    "taxRateUsed": "Stosowana stawka podatku",
+    "location": "Informacje o lokalizacji"
+  },
+  "educational": {
+    "taxInfo": "Informacje o podatku od sprzedaży",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "taxFacts": {
+      "definition": {
+        "title": "Definicja podatku od sprzedaży",
+        "description": "Podatek konsumpcyjny nakładany przez rządy na sprzedaż towarów i usług"
+      },
+      "rates": {
+        "title": "Zmiany stawek podatku",
+        "description": "Stawki podatku od sprzedaży różnią się w zależności od stanu, hrabstwa i miasta, a łączne stawki sięgają ponad 10%"
+      },
+      "applications": {
+        "title": "Aplikacje w świecie rzeczywistym",
+        "description": "Używany przez konsumentów do obliczania całkowitych kosztów zakupu, a przez firmy do celów przestrzegania przepisów podatkowych"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki podatku od sprzedaży",
+      "actual": "Rzeczywiste stawki podatku mogą się różnić w zależności od konkretnych lokalizacji i rodzajów zakupów"
+    },
+    "importantNotesList": [
+      "Stawki podatku od sprzedaży różnią się znacznie w zależności od lokalizacji",
+      "Niektóre pozycje mogą być zwolnione z podatku od sprzedaży",
+      "Dla dokładności należy stosować łączone stawki stanowe i lokalne",
+      "Ceny mogą ulec zmianie – w razie potrzeby sprawdź aktualne stawki"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź kwotę zakupu i stawkę podatku, aby obliczyć podatek od sprzedaży",
+    "resultMessage": "Wyniki obliczenia podatku obrotowego przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia podatku od sprzedaży:",
+    "taxAnalysis": "Analiza podatku od sprzedaży"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki podatku od sprzedaży w oparciu o standardowe metody obliczania podatku. Rzeczywiste stawki podatkowe mogą się różnić w zależności od konkretnych lokalizacji, rodzajów zakupów, zwolnień i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać dokładne obliczenia podatku od sprzedaży i informacje dotyczące zgodności, skontaktuj się ze specjalistami podatkowymi, rządowymi organami podatkowymi lub z oficjalnych baz danych stawek podatkowych obowiązujących w Twojej lokalizacji."
+  },
+  "errors": {
+    "purchaseAmount": "Wprowadź prawidłową kwotę zakupu",
+    "taxRate": "Wprowadź prawidłową stawkę podatku od sprzedaży",
+    "state": "Proszę wprowadzić prawidłowy stan",
+    "city": "Proszę wprowadzić prawidłowe miasto"
+  },
+  "tooltips": {
+    "purchaseAmount": "Kwota zakupu przed opodatkowaniem",
+    "taxRate": "Stawka podatku od sprzedaży wyrażona procentowo (np. 8,25 w przypadku 8,25%)",
+    "state": "Podaj, gdzie dokonano zakupu (w celu sprawdzenia stawki podatku)",
+    "city": "Miasto, w którym dokonano zakupu (w celu sprawdzenia stawki podatku)"
+  }
+}

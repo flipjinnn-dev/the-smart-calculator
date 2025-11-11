@@ -1,0 +1,178 @@
+{
+  "pageTitle": "Kalkulator typu ciała",
+  "pageDescription": "Odkryj swój typ budowy ciała na podstawie pomiarów za pomocą naszego wszechstronnego kalkulatora budowy ciała",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "height": "Wysokość",
+      "weight": "Waga",
+      "unitSystem": "Układ jednostek",
+      "bustChest": "Obwód biustu/klatki piersiowej",
+      "waist": "Obwód talii",
+      "hip": "Obwód bioder",
+      "shoulder": "Szerokość ramion (tylko mężczyźni)"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}",
+      "bustChest": "Wprowadź pomiar biustu/klatki piersiowej",
+      "waist": "Wprowadź pomiar talii",
+      "hip": "Wprowadź pomiar bioder",
+      "shoulder": "Podaj szerokość ramion"
+    },
+    "buttons": {
+      "calculate": "Oblicz typ ciała",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    }
+  },
+  "results": {
+    "bodyType": "Typ ciała",
+    "measurements": "Twoje pomiary",
+    "bodyTypeResultsTitle": "Wyniki typu ciała",
+    "whr": "Stosunek talii do bioder",
+    "bodyTypes": {
+      "hourglass": "Klepsydra",
+      "pear": "Gruszka",
+      "apple": "Jabłko",
+      "rectangle": "Prostokąt",
+      "invertedTriangle": "Odwrócony trójkąt"
+    }
+  },
+  "educational": {
+    "bodyTypeInfo": "Informacje o typie nadwozia",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się ze specjalistą",
+    "bodyTypeDescriptions": {
+      "hourglass": {
+        "title": "Klepsydra",
+        "description": "Zrównoważony obwód biustu i bioder z wyraźnie zaznaczoną talią"
+      },
+      "pear": {
+        "title": "Gruszka",
+        "description": "Szersze biodra i uda, węższy biust i ramiona"
+      },
+      "apple": {
+        "title": "Jabłko",
+        "description": "Szersza talia i górna część tułowia z węższymi biodrami"
+      },
+      "rectangle": {
+        "title": "Prostokąt",
+        "description": "Podobne wymiary w przypadku biustu, talii i bioder"
+      },
+      "invertedTriangle": {
+        "title": "Odwrócony trójkąt",
+        "description": "Szersze ramiona i biust z węższymi biodrami"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten służy jedynie do szacunków i nie jest narzędziem diagnostycznym",
+      "generalGuidelines": "Typy budowy ciała to ogólne wytyczne i mogą nie dotyczyć wszystkich"
+    },
+    "importantNotesList": [
+      "Typ ciała może mieć wpływ na wybór ćwiczeń i stylizacji",
+      "Skoncentruj się na ogólnym stanie zdrowia, a nie na osiągnięciu określonego typu sylwetki",
+      "Skonsultuj się z pracownikami służby zdrowia, aby uzyskać spersonalizowaną poradę",
+      "Typ ciała może się zmieniać wraz z wiekiem, poziomem sprawności i innymi czynnikami"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje wymiary, aby określić typ budowy ciała",
+    "bodyTypeResult": "Twój typ budowy ciała to: {bodyType}",
+    "whrResult": "Twój stosunek talii do bioder wynosi: {whr}",
+    "measurementInstructions": "Wykonaj pomiary w najszerszym miejscu każdego obszaru",
+    "assessmentResult": "Wynik oceny:",
+    "bodyTypeAnalysis": "Analiza typu ciała"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki oparte na wzorach matematycznych i nie powinien być używany jako substytut profesjonalnej porady. Poszczególne wyniki mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się z pracownikiem służby zdrowia",
+    "content": "Aby uzyskać spersonalizowane porady dotyczące zdrowia i kondycji, skonsultuj się z pracownikiem służby zdrowia lub certyfikowanym trenerem fitness, który może udzielić wskazówek na podstawie Twojej pełnej historii zdrowia i indywidualnej sytuacji."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "bustChest": "Podaj prawidłowy pomiar biustu/klatki piersiowej",
+    "waist": "Podaj prawidłowy pomiar talii",
+    "hip": "Wprowadź prawidłowy pomiar bioder",
+    "shoulder": "Proszę podać prawidłową szerokość ramion"
+  },
+  "tooltips": {
+    "age": "Wiek może wpływać na skład ciała",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "bustChest": "Zmierz w najszerszym miejscu biustu lub klatki piersiowej",
+    "waist": "Zmierz w najwęższym miejscu tułowia",
+    "hip": "Zmierz w najszerszym miejscu bioder",
+    "shoulder": "Zmierz obwód pleców od ramienia do ramienia (tylko mężczyźni)"
+  },
+  "body_measurements_0": "Pomiary ciała",
+  "enter_your_measurements_to_determine_body_shape_an_1": "Wprowadź swoje pomiary, aby określić kształt ciała i stosunek talii do bioder",
+  "unit_system_2": "Układ jednostek",
+  "inches_3": "Cale",
+  "centimeters_4": "Centymetry",
+  "bust_size_5": "Rozmiar biustu (",
+  "waist_size_6": "Rozmiar talii (",
+  "high_hip_size_7": "Wysoki rozmiar bioder (",
+  "measured_about_7_inches_18_cm_below_waist_8": "Mierzone około 7 cali/18 cm poniżej talii",
+  "hip_size_9": "Rozmiar bioder (",
+  "measured_at_the_widest_part_of_hips_10": "Mierzona w najszerszej części bioder",
+  "calculate_type_11": "Oblicz typ",
+  "reset_12": "Nastawić",
+  "body_analysis_13": "Analiza ciała",
+  "whr_14": "WHR:",
+  "enter_all_measurements_and_click_calculate_type_to_15": "Wprowadź wszystkie pomiary i kliknij „Oblicz typ”, aby zobaczyć analizę.",
+  "body_type_analysis_results_16": "Wyniki analizy typu ciała",
+  "body_shape_classification_17": "Klasyfikacja kształtów ciała",
+  "classification_logic_18": "Logika klasyfikacji:",
+  "waisthip_ratio_whr_19": "Stosunek talii do bioder (WHR)",
+  "waist_hip_ratio_20": "Stosunek talii do bioder",
+  "women_21": "Kobiety:",
+  "k_085_low_risk_085_higher_risk_22": "≤0,85 Niskie ryzyko, >0,85 Wyższe ryzyko",
+  "men_23": "Mężczyźni:",
+  "k_090_low_risk_090_higher_risk_24": "≤0,90 Niskie ryzyko, >0,90 Wyższe ryzyko",
+  "your_measurements_25": "Twoje pomiary",
+  "bust_26": "Biust:",
+  "waist_27": "Talia:",
+  "high_hip_28": "Wysokie biodra:",
+  "hip_29": "Biodro:",
+  "important_notice_30": "Ważna uwaga",
+  "this_tool_is_for_informational_purposes_only_and_n_31": "To narzędzie służy wyłącznie celom informacyjnym i nie zastępuje porady lekarskiej. Ciało\n                            Klasyfikacje kształtów stanowią ogólne wytyczne, a indywidualne różnice są normalne.",
+  "understanding_body_types_whr_32": "Zrozumienie typów ciała i WHR",
+  "body_shape_types_33": "Typy kształtu ciała",
+  "hourglass_34": "Klepsydra:",
+  "balanced_bust_and_hips_with_defined_waist_35": "Zrównoważony biust i biodra z wyraźną talią",
+  "bottom_hourglass_36": "Dolna klepsydra:",
+  "slightly_larger_hips_with_defined_waist_37": "Nieco większe biodra z wyraźnie zaznaczoną talią",
+  "top_hourglass_38": "Górna klepsydra:",
+  "slightly_larger_bust_with_defined_waist_39": "Nieco większy biust z wyraźnie zaznaczoną talią",
+  "spoon_40": "Łyżka:",
+  "fuller_hips_and_thighs_smaller_bust_41": "Pełniejsze biodra i uda, mniejszy biust",
+  "triangle_pear_42": "Trójkąt (Gruszka):",
+  "larger_hips_than_bust_43": "Większe biodra niż biust",
+  "inverted_triangle_44": "Odwrócony trójkąt:",
+  "larger_bust_than_hips_45": "Większy biust niż biodra",
+  "rectangle_46": "Prostokąt:",
+  "similar_bust_waist_and_hip_measurements_47": "Podobne wymiary biustu, talii i bioder",
+  "health_significance_48": "Znaczenie zdrowotne",
+  "whr_health_risks_49": "Zagrożenia dla zdrowia WHR:",
+  "higher_whr_indicates_more_abdominal_fat_associated_50": "Wyższy WHR wskazuje na więcej tłuszczu w jamie brzusznej, co wiąże się ze zwiększonym ryzykiem chorób sercowo-naczyniowych\n                              choroba i cukrzyca.",
+  "body_shape_health_51": "Kształt ciała i zdrowie:",
+  "apple_shapes_higher_whr_may_have_higher_health_ris_52": "Kształty jabłek (wyższy WHR) mogą powodować większe ryzyko dla zdrowia niż kształty gruszek, ale są indywidualne\n                              czynniki są bardzo zróżnicowane."
+}

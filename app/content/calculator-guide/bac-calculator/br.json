@@ -1,0 +1,164 @@
+{
+  "color": "roxo",
+  "sections": [
+    {
+      "heading": "O que é a calculadora do teor de álcool no sangue (TAS)?",
+      "content": "A calculadora do teor de álcool no sangue (TAS) é uma ferramenta confiável que estima seus níveis de álcool com base nas bebidas consumidas, peso corporal, sexo e tempo. Ao contrário da adivinhação, esta calculadora aplica fórmulas científicas como Widmark e Watson para estimar a porcentagem de alcoolemia. Você pode usar esta calculadora de TAS on-line gratuitamente para monitorar sua ingestão de álcool, compreender os limites e reduzir o risco de DUI ou danos relacionados ao álcool."
+    },
+    {
+      "heading": "Como o BAC é calculado com precisão",
+      "subSections": [
+        {
+          "heading": "Peso corporal e sexo",
+          "content": "Indivíduos mais pesados ​​geralmente apresentam menor alcoolemia para a mesma ingestão de álcool. O gênero também afeta o metabolismo do álcool."
+        },
+        {
+          "heading": "Número de bebidas consumidas",
+          "content": "Mais bebidas aumentam a TAS, dependendo do volume e da percentagem de álcool."
+        },
+        {
+          "heading": "Tempo desde a primeira bebida",
+          "content": "A TAS diminui gradualmente à medida que o corpo metaboliza o álcool (aproximadamente 0,015% por hora)."
+        },
+        {
+          "heading": "Concentração de Álcool",
+          "content": "Diferentes bebidas (cerveja, vinho, licor) contêm diferentes percentagens de álcool."
+        },
+        {
+          "heading": "Metabolismo e Tolerância",
+          "content": "Diferenças individuais como saúde do fígado, metabolismo e tolerância afetam o TAS."
+        }
+      ]
+    },
+    {
+      "heading": "Fórmulas comuns usadas em calculadoras BAC",
+      "subSections": [
+        {
+          "heading": "Fórmula Widmark",
+          "content": "Estima a TAS usando peso corporal, sexo, bebidas consumidas e horas desde que bebeu."
+        },
+        {
+          "heading": "Fórmula Watson",
+          "content": "Um método mais avançado que considera o conteúdo de água corporal para cálculos precisos."
+        },
+        {
+          "heading": "Ferramentas BAC inteligentes",
+          "content": "As calculadoras BAC modernas combinam fórmulas para fornecer resultados rápidos e confiáveis."
+        }
+      ]
+    },
+    {
+      "heading": "Efeitos dos níveis de TAS no corpo e no cérebro",
+      "subSections": [
+        {
+          "heading": "0,02–0,05%",
+          "content": "Relaxamento leve, leve euforia."
+        },
+        {
+          "heading": "0,06–0,10%",
+          "content": "Julgamento prejudicado, coordenação reduzida, tempo de reação mais lento."
+        },
+        {
+          "heading": "0,11–0,20%",
+          "content": "Comprometimento significativo, falta de equilíbrio, fala arrastada."
+        },
+        {
+          "heading": "0,21–0,30%",
+          "content": "Confusão, tontura, risco de desmaio."
+        },
+        {
+          "heading": "0,31–0,40%",
+          "content": "Intoxicação grave, possível inconsciência."
+        },
+        {
+          "heading": "0,41% +",
+          "content": "Intoxicação por álcool com risco de vida."
+        }
+      ]
+    },
+    {
+      "heading": "Limites legais de BAC e conscientização sobre DUI",
+      "subSections": [
+        {
+          "heading": "Motoristas dos EUA (21+)",
+          "content": "0,08% de TAS é o limite legal na maioria dos estados."
+        },
+        {
+          "heading": "Europa",
+          "content": "Muitos países estabelecem o limite em 0,05% de alcoolemia."
+        },
+        {
+          "heading": "Motoristas profissionais e menores de idade",
+          "content": "Os limites variam de 0,00–0,03% de TAS, dependendo da lei."
+        },
+        {
+          "heading": "Risco de DUI",
+          "content": "Mesmo pequenas quantidades de álcool podem prejudicar a capacidade de condução."
+        }
+      ]
+    },
+    {
+      "heading": "Limitações das calculadoras BAC",
+      "subSections": [
+        {
+          "heading": "Apenas estimativas",
+          "content": "Os resultados podem não refletir a TAS exata devido ao metabolismo, medicamentos ou ingestão de alimentos."
+        },
+        {
+          "heading": "Não é uma ferramenta legal",
+          "content": "Não substitui o bafômetro ou o teste de aplicação da lei."
+        },
+        {
+          "heading": "Fatores de Saúde",
+          "content": "Condições como doença hepática ou idade afetam a precisão."
+        },
+        {
+          "heading": "Prática Segura",
+          "content": "Nunca confie apenas em uma calculadora para decidir se você pode dirigir."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual é um nível de TAS seguro para dirigir?",
+      "a": "Normalmente, permanecer abaixo de 0,08% de TAS é legalmente seguro para motoristas nos EUA, mas limites mais baixos podem ser aplicados dependendo da idade ou profissão."
+    },
+    {
+      "q": "Como calculo meu TAS?",
+      "a": "Insira seu peso, sexo, bebidas consumidas e tempo desde que bebeu nesta calculadora de TAS. Aplica fórmulas Widmark e Watson."
+    },
+    {
+      "q": "Quanto tempo leva para ficar sóbrio?",
+      "a": "Em média, o corpo metaboliza o álcool a 0,015% de alcoolemia por hora, mas isso varia de acordo com a idade, o metabolismo e a saúde do fígado."
+    },
+    {
+      "q": "Quantas bebidas atingem 0,08% de TAS?",
+      "a": "Depende do peso, sexo, intensidade da bebida e ritmo. Use a Calculadora de TAS por Bebidas e Peso para uma estimativa personalizada."
+    },
+    {
+      "q": "As calculadoras BAC são precisas?",
+      "a": "Eles fornecem estimativas, mas não podem levar em conta variações individuais, como ingestão de alimentos, tolerância ou medicamentos."
+    },
+    {
+      "q": "O peso corporal afeta o TAS?",
+      "a": "Sim. Maior peso corporal geralmente dilui a concentração de álcool, resultando em menor alcoolemia para o mesmo número de bebidas."
+    },
+    {
+      "q": "Atletas ou idosos podem usar calculadora de TAS?",
+      "a": "Sim. Os atletas podem apresentar TAS mais baixa devido à elevada massa muscular, enquanto os idosos podem metabolizar o álcool mais lentamente."
+    },
+    {
+      "q": "Com que rapidez o álcool sai da corrente sanguínea?",
+      "a": "Em média, 0,015% de alcoolemia é metabolizado por hora, mas a hidratação, a alimentação e a saúde do fígado afetam isso."
+    },
+    {
+      "q": "As calculadoras BAC podem prevenir o DUI?",
+      "a": "Eles aumentam a conscientização, mas não podem substituir escolhas responsáveis. Evite sempre dirigir depois de beber."
+    },
+    {
+      "q": "A IA pode ajudar a monitorar os níveis de TAS?",
+      "a": "Sim. Calculadoras e aplicativos de TAS com tecnologia de IA podem monitorar o consumo, estimar a TAS em tempo real e fornecer dicas de segurança."
+    }
+  ]
+}

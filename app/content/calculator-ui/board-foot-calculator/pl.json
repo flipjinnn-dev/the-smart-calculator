@@ -1,0 +1,160 @@
+{
+  "pageTitle": "Kalkulator stopy deski",
+  "pageDescription": "Oblicz stopy desek do tarcicy i materiałów budowlanych, korzystając z dokładnych pomiarów dla projektów związanych z obróbką drewna i budownictwem",
+  "form": {
+    "labels": {
+      "thickness": "Grubość",
+      "width": "Szerokość",
+      "length": "Długość",
+      "quantity": "Ilość",
+      "unitSystem": "Układ jednostek",
+      "lumberType": "Rodzaj drewna"
+    },
+    "placeholders": {
+      "thickness": "Wprowadź grubość",
+      "width": "Podaj szerokość",
+      "length": "Wprowadź długość",
+      "quantity": "Wprowadź ilość"
+    },
+    "buttons": {
+      "calculate": "Oblicz stopy deski",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "imperial": "Imperialne (cale, stopy)",
+      "metric": "Metryczne (mm, m)"
+    },
+    "lumberTypes": {
+      "softwood": "Drewno iglaste (sosna, cedr, jodła)",
+      "hardwood": "Drewno liściaste (dąb, klon, wiśnia)",
+      "plywood": "Sklejka",
+      "custom": "Wymiary niestandardowe"
+    }
+  },
+  "results": {
+    "boardFeet": "Stopy deski",
+    "totalBoardFeet": "Razem stopy deski",
+    "volume": "Tom",
+    "weight": "Szacowana waga",
+    "boardFootResultsTitle": "Wyniki stóp na desce"
+  },
+  "educational": {
+    "boardFootInfo": "Informacje o stopie deski",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby drewna",
+    "boardFootFacts": {
+      "definition": {
+        "title": "Definicja stopy deski",
+        "description": "Stopa deski to 144 cale sześcienne drewna (12 cali × 12 cali × 1 cale)"
+      },
+      "formula": {
+        "title": "Wzór obliczeniowy",
+        "description": "Stopy deski = (grubość × szerokość × długość × ilość) ÷ 144"
+      },
+      "pricing": {
+        "title": "Ceny drewna",
+        "description": "Tarcica jest zazwyczaj sprzedawana w formie stopek w przypadku drewna liściastego i kawałków w przypadku drewna iglastego"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten umożliwia wyłącznie obliczenia objętości",
+      "accuracy": "Dokładnie zmierz drewno i uwzględnij odpady w swoich projektach"
+    },
+    "importantNotesList": [
+      "Rzeczywiste wymiary drewna są często mniejsze niż wymiary nominalne",
+      "Dodaj 15-20% dodatkowo za odpady i błędy w projektach związanych z obróbką drewna",
+      "Sprawdź stemple klasyfikacji tarcicy pod kątem informacji o jakości i gatunku",
+      "Przy obliczaniu szacunkowej masy należy wziąć pod uwagę zawartość wilgoci"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymiary drewna, aby obliczyć stopy desek",
+    "resultMessage": "Poniżej pokazano obliczenia stopy deski",
+    "assessmentResult": "Wynik obliczeń drewna:",
+    "boardFootAnalysis": "Analiza stopy deski"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia obliczenia stóp desek w oparciu o standardowe wzory pomiaru drewna. Rzeczywiste wymagania dotyczące drewna mogą się różnić w zależności od specyfiki projektu, czynników odpadowych i zaleceń dostawców."
+  },
+  "seekHelp": {
+    "title": "Zasoby drewna",
+    "content": "Aby uzyskać profesjonalną poradę dotyczącą tarcicy i wycenę projektu, skonsultuj się z dostawcami drewna lub specjalistami zajmującymi się obróbką drewna, aby uzyskać zalecenia dotyczące konkretnego projektu i wybór materiałów."
+  },
+  "errors": {
+    "thickness": "Proszę wprowadzić prawidłową grubość",
+    "width": "Proszę wprowadzić prawidłową szerokość",
+    "length": "Proszę wprowadzić prawidłową długość",
+    "quantity": "Proszę wprowadzić prawidłową ilość",
+    "unitSystem": "Proszę wybrać układ jednostek"
+  },
+  "tooltips": {
+    "thickness": "Grubość kawałka drewna",
+    "width": "Szerokość kawałka drewna",
+    "length": "Długość kawałka drewna",
+    "quantity": "Liczba sztuk o tych wymiarach",
+    "lumberType": "Rodzaj drewna wpływa na wagę i cenę"
+  },
+  "loading_0": "Załadunek...",
+  "in_1": "W",
+  "in_2": "W",
+  "ft_3": "stopy",
+  "in_4": "W",
+  "bf_5": "BF",
+  "bf_6": "BF",
+  "bf_7": "BF",
+  "in_8": "in³",
+  "volume_cubic_feet_9": "Objętość (stopy sześcienne):",
+  "ft_10": "ft³",
+  "total_cost_11": "Całkowity koszt:",
+  "pkr_12": "PKR",
+  "save_this_calculation_13": "Zapisz to obliczenie",
+  "a_board_foot_is_a_unit_of_measurement_for_lumber_v_14": "Stopa deski to jednostka miary objętości drewna. Jedna stopa deski równa się 144 calom sześciennym lub\n                    1/12 stopy sześciennej. Oblicza się go, mnożąc grubość (cale) × szerokość (cale) × długość (stopy)\n                    ÷ 12.",
+  "calculation_formulas_15": "Wzory obliczeniowe",
+  "length_in_feet_16": "Długość w stopach",
+  "bf_lengthft_widthin_thicknessin_12_17": "BF = (Długość_stopy × Szerokość_cala × Grubość_cala) ÷ 12",
+  "length_in_inches_18": "Długość w calach",
+  "bf_thicknessin_widthin_lengthin_144_19": "BF = (Grubość_cala × Szerokość_cala × Długość_cala) ÷ 144",
+  "key_conversions_20": "Kluczowe konwersje",
+  "k_1_board_foot_21": "1 stopka deski =",
+  "k_144_cubic_inches_22": "144 cale sześcienne",
+  "k_1_board_foot_23": "1 stopka deski =",
+  "k_112_cubic_foot_24": "1/12 stopy sześciennej",
+  "total_bf_25": "Razem BF =",
+  "number_of_pieces_bf_per_piece_26": "Liczba sztuk × BF na sztukę",
+  "total_cost_27": "Całkowity koszt =",
+  "total_bf_price_per_bf_28": "Razem BF × Cena za BF",
+  "example_29": "Przykład:",
+  "a_2_6_8_board_8_6_2_12_8_board_feet_for_10_pieces__30": "Deska 2\" × 6\" × 8' = (8 × 6 × 2) ÷ 12 = 8 stóp desek. Na 10 sztuk,\n                      łącznie = 80 stóp desek.",
+  "price_per_board_foot_optional_5": "Cena za stopę deski (opcjonalnie)",
+  "pkrbf_6": "PKR/BF",
+  "cost_per_board_foot_for_total_price_calculation_7": "Koszt za stopę deski do obliczenia ceny całkowitej",
+  "bf_8": "BF",
+  "bf_9": "BF",
+  "bf_10": "BF",
+  "in_11": "in³",
+  "volume_cubic_feet_12": "Objętość (stopy sześcienne):",
+  "ft_13": "ft³",
+  "total_cost_14": "Całkowity koszt:",
+  "pkr_15": "PKR",
+  "save_this_calculation_16": "Zapisz to obliczenie",
+  "a_board_foot_is_a_unit_of_measurement_for_lumber_v_17": "Stopa deski to jednostka miary objętości drewna. Jedna stopa deski równa się 144 calom sześciennym lub\n                    1/12 stopy sześciennej. Oblicza się go, mnożąc grubość (cale) × szerokość (cale) × długość (stopy)\n                    ÷ 12.",
+  "calculation_formulas_18": "Wzory obliczeniowe",
+  "length_in_feet_19": "Długość w stopach",
+  "bf_lengthft_widthin_thicknessin_12_20": "BF = (Długość_stopy × Szerokość_cala × Grubość_cala) ÷ 12",
+  "length_in_inches_21": "Długość w calach",
+  "bf_thicknessin_widthin_lengthin_144_22": "BF = (Grubość_cala × Szerokość_cala × Długość_cala) ÷ 144",
+  "key_conversions_23": "Kluczowe konwersje",
+  "k_1_board_foot_24": "1 stopka deski =",
+  "k_144_cubic_inches_25": "144 cale sześcienne",
+  "k_1_board_foot_26": "1 stopka deski =",
+  "k_112_cubic_foot_27": "1/12 stopy sześciennej",
+  "total_bf_28": "Razem BF =",
+  "number_of_pieces_bf_per_piece_29": "Liczba sztuk × BF na sztukę",
+  "total_cost_30": "Całkowity koszt =",
+  "total_bf_price_per_bf_31": "Razem BF × Cena za BF",
+  "example_32": "Przykład:",
+  "a_2_6_8_board_8_6_2_12_8_board_feet_for_10_pieces__33": "Deska 2\" × 6\" × 8' = (8 × 6 × 2) ÷ 12 = 8 stóp desek. Na 10 sztuk,\n                      łącznie = 80 stóp desek."
+}

@@ -1,0 +1,198 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de juros?",
+      "content": "Nossa Calculadora de Juros Online ajuda você a descobrir quanto de juros você ganhará em poupanças e investimentos ou pagará em empréstimos. Se você precisa de uma calculadora de juros simples ou de uma calculadora de juros compostos, esta ferramenta fornece resultados precisos instantaneamente. Você pode usá-lo como calculadora de juros de empréstimos, calculadora de juros de poupança, calculadora de juros de investimento ou calculadora de juros bancários - tudo em um só lugar."
+    },
+    {
+      "heading": "O que são juros?",
+      "subSections": [
+        {
+          "heading": "Juros Simples (SI)",
+          "content": "Calculado apenas sobre o valor principal. Fórmula: SI = (Principal × Taxa × Tempo) ÷ 100"
+        },
+        {
+          "heading": "Juros Compostos (CI)",
+          "content": "Calculado sobre o principal mais juros acumulados. Fórmula: A = P × (1 + R/100)^T"
+        },
+        {
+          "heading": "Por que usar calculadoras de juros?",
+          "content": "As calculadoras de juros diários, mensais e anuais ajudam você a planejar melhor empréstimos, poupanças e investimentos."
+        }
+      ]
+    },
+    {
+      "heading": "Como usar a calculadora de juros (passo a passo)",
+      "subSections": [
+        {
+          "heading": "Etapa 1: insira o valor principal",
+          "content": "Digite o valor do empréstimo ou investimento."
+        },
+        {
+          "heading": "Etapa 2: insira a taxa de juros",
+          "content": "Forneça a taxa percentual anual (APR)."
+        },
+        {
+          "heading": "Etapa 3: selecione o período de tempo",
+          "content": "Escolha a duração em meses ou anos."
+        },
+        {
+          "heading": "Etapa 4: escolha o tipo de interesse",
+          "content": "Selecione Juros Simples ou Juros Compostos."
+        },
+        {
+          "heading": "Etapa 5: clique em Calcular",
+          "content": "Veja total de juros ganhos/pagos e saldo final."
+        }
+      ]
+    },
+    {
+      "heading": "Como calcular o crescimento do investimento",
+      "subSections": [
+        {
+          "heading": "Etapa 1: insira o investimento inicial",
+          "content": "Comece com o valor base que você planeja investir."
+        },
+        {
+          "heading": "Etapa 2: adicionar contribuições",
+          "content": "Preencha sua contribuição anual e/ou mensal."
+        },
+        {
+          "heading": "Etapa 3: Prazo de contribuição",
+          "content": "Selecione se você contribui no início ou no final de cada período."
+        },
+        {
+          "heading": "Etapa 4: definir juros e composição",
+          "content": "Insira a taxa de juros e escolha a frequência de capitalização."
+        },
+        {
+          "heading": "Etapa 5: insira a duração do investimento",
+          "content": "Especifique a duração em anos e meses."
+        },
+        {
+          "heading": "Etapa 6: adicionar fatores opcionais",
+          "content": "Inclua taxas de impostos e inflação para resultados mais precisos."
+        },
+        {
+          "heading": "Etapa 7: clique em Calcular",
+          "content": "Veja o resumo do seu investimento, crescimento, juros totais e poder de compra após a inflação."
+        }
+      ],
+      "content": "Esta ferramenta ajuda a estimar o crescimento do seu investimento, os juros totais e o poder de compra após a inflação. Ajuste os valores para planejar seu futuro financeiro de forma inteligente!"
+    },
+    {
+      "heading": "Exemplo de cálculo",
+      "subSections": [
+        {
+          "heading": "Exemplo de juros simples",
+          "content": "Investimento: $ 10.000 com juros anuais de 8% por 5 anos. SI = (10.000 × 8 × 5) ÷ 100 = $ 4.000. Valor final = $ 14.000."
+        },
+        {
+          "heading": "Exemplo de juros compostos",
+          "content": "Investimento: $ 10.000 com juros anuais de 8% por 5 anos (composição anual). A = 10.000 × (1 + 0,08) ^ 5 = $ 14.693. Os juros compostos rendem $ 693 a mais do que os juros simples."
+        }
+      ]
+    },
+    {
+      "heading": "Benefícios de usar nossa calculadora de juros",
+      "subSections": [
+        {
+          "heading": "Rápido e preciso",
+          "content": "Resultados instantâneos sem cálculos manuais."
+        },
+        {
+          "heading": "Compare SI com CI",
+          "content": "Veja facilmente a diferença entre juros simples e compostos."
+        },
+        {
+          "heading": "Funciona para todos os casos",
+          "content": "Empréstimos, poupanças, FDs, hipotecas e investimentos."
+        },
+        {
+          "heading": "Suporta modos flexíveis",
+          "content": "Cálculos de juros diários, mensais e anuais."
+        },
+        {
+          "heading": "Uso versátil",
+          "content": "Perfeito para empréstimos à habitação, empréstimos para automóveis, cartões de crédito, empréstimos comerciais e EMIs."
+        }
+      ]
+    },
+    {
+      "heading": "Tipos de cálculos de juros que você pode fazer",
+      "subSections": [
+        {
+          "heading": "Calculadora de juros simples",
+          "content": "Para empréstimos ou depósitos de curto prazo."
+        },
+        {
+          "heading": "Calculadora de juros compostos",
+          "content": "Veja como os juros crescem com a capitalização (diária, mensal, anual)."
+        },
+        {
+          "heading": "Calculadora de juros de empréstimos",
+          "content": "Estime os juros totais do empréstimo ao longo do tempo."
+        },
+        {
+          "heading": "Calculadora de juros de empréstimos de automóveis",
+          "content": "Calcule juros sobre empréstimos de veículos."
+        },
+        {
+          "heading": "Calculadora de juros de empréstimos pessoais",
+          "content": "Verifique quanto você vai pagar."
+        },
+        {
+          "heading": "Calculadora de juros de cartão de crédito",
+          "content": "Entenda as cobranças mensais do cartão."
+        },
+        {
+          "heading": "Calculadora de juros de poupança",
+          "content": "Veja como suas economias crescem."
+        },
+        {
+          "heading": "Calculadora de juros de depósito fixo",
+          "content": "Calcule o valor de vencimento do FD."
+        },
+        {
+          "heading": "Calculadora de juros de investimento",
+          "content": "Avalie o retorno dos investimentos."
+        },
+        {
+          "heading": "Calculadora de juros EMI",
+          "content": "Encontre a parcela dos juros nos EMIs."
+        },
+        {
+          "heading": "Calculadora de juros de empréstimos comerciais",
+          "content": "Planeje pagamentos para o seu negócio."
+        },
+        {
+          "heading": "Calculadora de juros de empréstimos imobiliários",
+          "content": "Estimar juros para empréstimos à habitação."
+        },
+        {
+          "heading": "Calculadora de taxa de juros",
+          "content": "Compare os resultados em taxas diferentes."
+        },
+        {
+          "heading": "Calculadora de acúmulo de juros",
+          "content": "Acompanhe os juros acumulados ao longo do tempo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual é a fórmula dos juros simples?",
+      "a": "SI = (Principal × Taxa × Tempo) ÷ 100"
+    },
+    {
+      "q": "Qual é a fórmula dos juros compostos?",
+      "a": "CI = Principal × (1 + Taxa/100)^Tempo – Principal"
+    },
+    {
+      "q": "Posso usar esta calculadora para empréstimos e poupanças?",
+      "a": "Sim, nossa ferramenta funciona como calculadora de juros de empréstimos, calculadora de juros de poupança, calculadora de investimentos e calculadora de juros hipotecários."
+    }
+  ]
+}

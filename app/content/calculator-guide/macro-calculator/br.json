@@ -1,0 +1,140 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "O que é a Calculadora Macro?",
+      "content": "A Macro Calculator Online ajuda a monitorar macronutrientes diários – proteínas, carboidratos e gorduras – com base em sua idade, peso, altura, nível de atividade e objetivos pessoais. Quer seu objetivo seja perda de peso, ganho muscular ou manutenção, esta ferramenta gratuita fornece metas macro diárias precisas para orientar seu plano nutricional."
+    },
+    {
+      "heading": "O que são macronutrientes e por que são importantes?",
+      "subSections": [
+        {
+          "heading": "Proteína",
+          "content": "Apoia a reparação muscular, o crescimento e a função geral do corpo."
+        },
+        {
+          "heading": "Carboidratos",
+          "content": "Fornece energia para treinos, função cerebral e atividades diárias."
+        },
+        {
+          "heading": "Gorduras",
+          "content": "Essencial para a produção de hormônios, saúde do cérebro e absorção de nutrientes."
+        }
+      ]
+    },
+    {
+      "heading": "Como funciona uma calculadora macro?",
+      "subSections": [
+        {
+          "heading": "Calcular o gasto total diário de energia (TDEE)",
+          "content": "Sua Taxa Metabólica Basal (TMB) multiplicada por um fator de atividade determina as necessidades diárias totais de energia."
+        },
+        {
+          "heading": "Defina sua meta",
+          "content": "Perda de peso: Déficit calórico | Ganho muscular: excedente calórico | Manutenção: Ingestão equilibrada."
+        },
+        {
+          "heading": "Determinar proporções macro",
+          "content": "Perda de peso: 40% de proteína, 30% de carboidratos, 30% de gorduras | Ganho muscular: 30% de proteína, 50% de carboidratos, 20% de gordura."
+        },
+        {
+          "heading": "Ajuste para preferências de dieta",
+          "content": "Keto: baixo teor de carboidratos e alto teor de gordura | Vegano: proteína vegetal | Jejum Intermitente: Ajuste o horário das refeições enquanto mantém os totais consistentes."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora Macro para Objetivos Específicos",
+      "subSections": [
+        {
+          "heading": "Perda de peso",
+          "content": "Mais proteínas, carboidratos moderados, menos gorduras – ajuda a preservar a massa muscular magra."
+        },
+        {
+          "heading": "Ganho muscular",
+          "content": "Maior teor de proteínas e carboidratos – apoia o crescimento e a recuperação muscular."
+        },
+        {
+          "heading": "Manutenção",
+          "content": "Macros equilibradas — mantém o peso e os níveis de energia atuais."
+        }
+      ]
+    },
+    {
+      "heading": "Considerações Específicas da Dieta",
+      "subSections": [
+        {
+          "heading": "Ceto",
+          "content": "Mantenha os carboidratos muito baixos (5–10%) e aumente as gorduras saudáveis."
+        },
+        {
+          "heading": "Vegano",
+          "content": "Use proteínas vegetais, como lentilhas, feijões e tofu."
+        },
+        {
+          "heading": "Jejum Intermitente",
+          "content": "Acompanhe o total de macros diárias nas janelas de alimentação."
+        }
+      ]
+    },
+    {
+      "heading": "Limitações das calculadoras macro",
+      "subSections": [
+        {
+          "heading": "Apenas estimativas",
+          "content": "Os resultados variam dependendo do metabolismo, condições de saúde e estilo de vida."
+        },
+        {
+          "heading": "Não é um substituto médico",
+          "content": "Sempre consulte um médico ou nutricionista antes de grandes mudanças na dieta."
+        },
+        {
+          "heading": "Variações por dieta",
+          "content": "Diferentes tipos de dieta (ceto, vegana, musculação) podem alterar as proporções macro."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como calculo minhas macros diárias?",
+      "a": "Suas macros são calculadas a partir do TDEE, da meta de condicionamento físico e da proporção macro. Esta calculadora macro faz as contas para você automaticamente."
+    },
+    {
+      "q": "Quantos carboidratos, proteínas e gorduras devo comer para perder peso?",
+      "a": "Uma proporção comum é 40% de proteína, 30% de carboidratos, 30% de gordura, mas o nível de atividade e o tipo de dieta são importantes."
+    },
+    {
+      "q": "As macros podem ajudar no ganho muscular?",
+      "a": "Sim, um excedente com mais proteínas e carboidratos apoia o crescimento e a recuperação."
+    },
+    {
+      "q": "Qual é a diferença entre calorias e macronutrientes?",
+      "a": "Calorias medem energia. Macros (proteínas, carboidratos, gorduras) são os nutrientes que fornecem essas calorias."
+    },
+    {
+      "q": "Posso usar uma calculadora macro para uma dieta vegana ou cetônica?",
+      "a": "Sim, a calculadora pode ser personalizada para planos veganos, cetônicos ou de jejum intermitente."
+    },
+    {
+      "q": "Quão precisas são as calculadoras macro?",
+      "a": "Geralmente têm uma precisão de 5 a 10%, mas o metabolismo pessoal e o estilo de vida afetam as necessidades reais."
+    },
+    {
+      "q": "As macros podem mudar com base no nível de atividade?",
+      "a": "Sim, pessoas ativas necessitam de mais proteínas e carboidratos, enquanto indivíduos sedentários necessitam de menos calorias."
+    },
+    {
+      "q": "Esta ferramenta é adequada para idosos ou atletas?",
+      "a": "Sim, ele ajusta as recomendações com base na idade, atividade e metas de desempenho."
+    },
+    {
+      "q": "Posso obter um plano macro para impressão?",
+      "a": "Sim, algumas calculadoras fornecem planos macro diários para download ou impressão."
+    },
+    {
+      "q": "Como posso ajustar macros para diferentes dietas?",
+      "a": "Você pode modificar as proporções para ceto, vegano, musculação ou jejum, mantendo as calorias alinhadas com as metas."
+    }
+  ]
+}

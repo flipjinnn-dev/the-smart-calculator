@@ -1,0 +1,155 @@
+{
+  "pageTitle": "Rent Calculator",
+  "pageDescription": "Calculate your monthly rent payments and affordability with comprehensive analysis including utilities, deposits, and rental market comparisons",
+  "form": {
+    "labels": {
+      "monthlyIncome": "Monthly Gross Income",
+      "otherMonthlyDebts": "Other Monthly Debt Payments",
+      "rentAmount": "Monthly Rent Amount",
+      "utilities": "Monthly Utility Costs",
+      "rentersInsurance": "Monthly Renter's Insurance",
+      "securityDeposit": "Security Deposit",
+      "leaseTerm": "Lease Term",
+      "petFees": "Pet Fees/Monthly Pet Rent"
+    },
+    "placeholders": {
+      "monthlyIncome": "Enter monthly gross income",
+      "otherMonthlyDebts": "Enter other monthly debt payments",
+      "rentAmount": "Enter monthly rent amount",
+      "utilities": "Enter monthly utility costs",
+      "rentersInsurance": "Enter monthly renter's insurance",
+      "securityDeposit": "Enter security deposit amount",
+      "leaseTerm": "Enter lease term in months",
+      "petFees": "Enter pet fees or monthly pet rent"
+    },
+    "buttons": {
+      "calculate": "Calculate Rent Affordability",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "totalMonthlyCost": "Total Monthly Housing Cost",
+    "housingRatio": "Housing Cost to Income Ratio",
+    "depositCost": "Upfront Deposit Cost",
+    "annualHousingCost": "Annual Housing Cost",
+    "rentCalculatorResultsTitle": "Rent Calculator Results"
+  },
+  "educational": {
+    "rentInfo": "Rent Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "rentFacts": {
+      "affordability": {
+        "title": "Rent Affordability",
+        "description": "Financial experts recommend spending no more than 30% of gross income on housing"
+      },
+      "costs": {
+        "title": "Additional Rental Costs",
+        "description": "Utilities, renter's insurance, and deposits can significantly increase total housing costs"
+      },
+      "comparison": {
+        "title": "Market Comparison",
+        "description": "Research comparable rentals in the area to ensure fair pricing"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides rent affordability estimates only",
+      "actual": "Actual rental costs may vary based on location, property condition, and market conditions"
+    },
+    "importantNotesList": [
+      "Factor in utilities which can vary significantly by location and season",
+      "Security deposits are typically equivalent to one month's rent",
+      "Renter's insurance is often required and costs $15-30 per month",
+      "Consider proximity to work and transportation costs when evaluating affordability"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your rental information to calculate affordability",
+    "resultMessage": "Your rent calculation results are shown below",
+    "assessmentResult": "Rent Calculation Result:",
+    "rentAnalysis": "Rent Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides rent affordability estimates based on general financial guidelines. Actual rental costs may vary based on location, property condition, lease terms, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized rental affordability analysis and housing advice, consult housing counselors or financial advisors with expertise in rental markets and individual financial circumstances."
+  },
+  "errors": {
+    "monthlyIncome": "Please enter a valid monthly gross income",
+    "otherMonthlyDebts": "Please enter valid other monthly debt payments",
+    "rentAmount": "Please enter a valid monthly rent amount",
+    "utilities": "Please enter valid monthly utility costs",
+    "rentersInsurance": "Please enter valid monthly renter's insurance",
+    "securityDeposit": "Please enter a valid security deposit amount",
+    "leaseTerm": "Please enter a valid lease term",
+    "petFees": "Please enter valid pet fees or monthly pet rent"
+  },
+  "tooltips": {
+    "monthlyIncome": "Your total monthly gross income before taxes",
+    "otherMonthlyDebts": "Total monthly payments for all other debts (car loans, student loans, credit cards, etc.)",
+    "rentAmount": "Monthly rent charged by landlord",
+    "utilities": "Estimated monthly costs for electricity, gas, water, internet, etc.",
+    "rentersInsurance": "Monthly cost of renter's insurance policy",
+    "securityDeposit": "Upfront deposit typically equivalent to one month's rent",
+    "leaseTerm": "Length of rental agreement in months",
+    "petFees": "Additional fees or monthly charges for pets"
+  },
+  "rent_calculator_0": "Rent Calculator",
+  "income_information_1": "Income Information",
+  "income_type_2": "Income Type",
+  "annual_income_3": "Annual Income",
+  "monthly_income_4": "Monthly Income",
+  "debt_information_5": "Debt Information",
+  "other_monthly_debt_payments_6": "Other Monthly Debt Payments",
+  "include_credit_cards_car_loans_student_loans_and_o_7": "Include credit cards, car loans, student loans, and other monthly debt payments",
+  "financial_ratios_8": "Financial Ratios",
+  "frontend_ratio_9": "Front-end Ratio (%)",
+  "percentage_of_income_for_housing_typically_2830_10": "Percentage of income for housing (typically 28-30%)",
+  "backend_ratio_11": "Back-end Ratio (%)",
+  "percentage_of_income_for_all_debts_typically_3640_12": "Percentage of income for all debts (typically 36-40%)",
+  "calculate_rent_13": "Calculate Rent",
+  "rent_affordability_results_14": "Rent Affordability Results",
+  "your_maximum_affordable_rent_breakdown_15": "Your maximum affordable rent breakdown",
+  "maximum_affordable_rent_16": "Maximum Affordable Rent:",
+  "per_month_17": "per month",
+  "calculation_breakdown_18": "Calculation Breakdown",
+  "monthly_income_19": "Monthly Income",
+  "frontend_limit_20": "Front-end Limit (",
+  "backend_limit_21": "Back-end Limit (",
+  "limiting_factor_22": "Limiting Factor",
+  "financial_guidelines_23": "Financial Guidelines:",
+  "housing_costs_should_not_exceed_24": "• Housing costs should not exceed",
+  "of_gross_income_25": "% of gross income",
+  "total_debt_payments_should_not_exceed_26": "• Total debt payments should not exceed",
+  "of_gross_income_27": "% of gross income",
+  "consider_additional_costs_like_utilities_insurance_28": "• Consider additional costs like utilities, insurance, and maintenance",
+  "enter_your_income_and_debt_information_to_see_your_29": "Enter your income and debt information to see your results",
+  "example_calculation_30": "Example Calculation",
+  "sample_scenario_31": "Sample Scenario:",
+  "inputs_32": "Inputs:",
+  "annual_income_60000_33": "• Annual income: $60,000",
+  "monthly_debts_500_34": "• Monthly debts: $500",
+  "frontend_ratio_30_35": "• Front-end ratio: 30%",
+  "backend_ratio_40_36": "• Back-end ratio: 40%",
+  "calculation_37": "Calculation:",
+  "monthly_income_60000_12_5000_38": "• Monthly income: $60,000 ÷ 12 = $5,000",
+  "frontend_limit_5000_30_1500_39": "• Front-end limit: $5,000 × 30% = $1,500",
+  "backend_limit_5000_40_500_1500_40": "• Back-end limit: $5,000 × 40% - $500 = $1,500",
+  "maximum_rent_1500_41": "Maximum rent: $1,500",
+  "formulas_calculation_details_42": "Formulas & Calculation Details",
+  "k_1_monthly_income_conversion_43": "1. Monthly Income Conversion",
+  "if_annual_income_monthly_income_annual_income_12_44": "If annual income: Monthly Income = Annual Income ÷ 12",
+  "if_monthly_income_monthly_income_monthly_income_as_45": "If monthly income: Monthly Income = Monthly Income (as entered)",
+  "k_2_frontend_ratio_limit_46": "2. Front-end Ratio Limit",
+  "rent_frontend_frontend_ratio_monthly_income_47": "Rent (Front-end) = Front-end Ratio × Monthly Income",
+  "k_3_backend_ratio_limit_48": "3. Back-end Ratio Limit",
+  "rent_backend_backend_ratio_monthly_income_monthly__49": "Rent (Back-end) = (Back-end Ratio × Monthly Income) - Monthly Debts",
+  "k_4_maximum_affordable_rent_50": "4. Maximum Affordable Rent",
+  "maximum_rent_minfrontend_limit_backend_limit_51": "Maximum Rent = min(Front-end Limit, Back-end Limit)",
+  "if_the_result_is_negative_the_affordable_rent_is_s_52": "If the result is negative, the affordable rent is set to $0"
+}

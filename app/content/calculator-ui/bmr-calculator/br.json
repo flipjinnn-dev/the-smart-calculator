@@ -1,0 +1,213 @@
+{
+  "pageTitle": "Calculadora de TMB",
+  "pageDescription": "Calcule sua Taxa Metabólica Basal (TMB) para determinar o número de calorias que seu corpo necessita em repouso para funções fisiológicas básicas",
+  "form": {
+    "labels": {
+      "age": "Idade (anos)",
+      "gender": "Gênero",
+      "weight": "Peso",
+      "height": "Altura",
+      "unitSystem": "Sistema de Unidades",
+      "calculationMethod": "Método de cálculo"
+    },
+    "placeholders": {
+      "age": "Insira a idade",
+      "heightFt": "Pés",
+      "heightIn": "Polegadas",
+      "heightCm": "Insira a altura em cm",
+      "weight": "Insira o peso em {unit}"
+    },
+    "buttons": {
+      "calculate": "Calcular TMB",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades dos EUA (pés/pol., lb)",
+      "metric": "Unidades Métricas (cm, kg)"
+    },
+    "calculationMethods": {
+      "mifflin": "Equação de Mifflin-St Jeor",
+      "harris": "Equação de Harris-Benedict",
+      "revisedHarris": "Equação de Harris-Benedict revisada"
+    }
+  },
+  "results": {
+    "bmr": "Taxa Metabólica Basal (TMB)",
+    "caloriesPerDay": "Calorias por dia",
+    "bmrResultsTitle": "Resultados da TMB",
+    "formulaUsed": "Fórmula usada"
+  },
+  "educational": {
+    "bmrInfo": "Informações sobre TMB",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos Nutricionais",
+    "bmrFacts": {
+      "definition": {
+        "title": "Definição de taxa metabólica basal",
+        "description": "TMB é o número de calorias que seu corpo precisa para manter as funções fisiológicas básicas em repouso"
+      },
+      "components": {
+        "title": "Componentes da TMB",
+        "description": "A TMB inclui respiração, circulação, produção celular e função básica dos órgãos"
+      },
+      "factors": {
+        "title": "Fatores que afetam a TMB",
+        "description": "Idade, sexo, peso, altura, massa muscular e genética influenciam a TMB"
+      }
+    },
+    "bmrFormulas": {
+      "mifflin": {
+        "title": "Equação de Mifflin-St Jeor",
+        "description": "Considerado o mais preciso para indivíduos saudáveis"
+      },
+      "harris": {
+        "title": "Equação de Harris-Benedict",
+        "description": "Uma das equações de BMR mais antigas e ainda amplamente utilizadas"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de BMR",
+      "individual": "A TMB varia com base em fatores individuais e condições de saúde"
+    },
+    "importantNotesList": [
+      "A TMB representa as calorias necessárias apenas em repouso completo",
+      "As necessidades diárias reais são maiores quando se inclui atividade e exercício",
+      "A massa muscular aumenta a TMB, pois o tecido muscular queima mais calorias do que gordura",
+      "A TMB diminui com a idade devido à perda de massa muscular e alterações metabólicas"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações para calcular a Taxa Metabólica Basal",
+    "resultMessage": "Sua TMB é mostrada abaixo",
+    "assessmentResult": "Resultado do cálculo da TMB:",
+    "bmrAnalysis": "Análise de TMB"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de TMB com base em fórmulas matemáticas. A TMB individual pode variar com base em fatores não considerados nesses cálculos, incluindo massa muscular, condições de saúde e genética."
+  },
+  "seekHelp": {
+    "title": "Recursos Nutricionais",
+    "content": "Para avaliações metabólicas personalizadas e aconselhamento nutricional, consulte profissionais de saúde ou nutricionistas registrados com experiência em testes metabólicos e necessidades individuais de saúde."
+  },
+  "errors": {
+    "age": "Insira uma idade válida (1-120)",
+    "gender": "Por favor selecione o sexo",
+    "heightFt": "Por favor insira pés válidos",
+    "heightIn": "Insira polegadas válidas (0-11)",
+    "heightCm": "Por favor insira uma altura válida em cm",
+    "weight": "Por favor insira um peso válido",
+    "calculationMethod": "Selecione um método de cálculo"
+  },
+  "tooltips": {
+    "age": "A idade afeta a taxa metabólica",
+    "height": "Sua medida de altura atual",
+    "weight": "Seu peso corporal atual",
+    "calculationMethod": "Equações diferentes podem produzir resultados ligeiramente diferentes",
+    "gender": "O gênero afeta a TMB devido a diferenças na composição corporal"
+  },
+  "bmr_calculation_0": "Cálculo da TMB",
+  "enter_your_details_to_calculate_your_basal_metabol_1": "Insira seus dados para calcular sua Taxa Metabólica Basal",
+  "bmr_formula_2": "Fórmula TMB",
+  "mifflinst_jeor_recommended_3": "Mifflin-St Jeor (recomendado)",
+  "revised_harrisbenedict_4": "Harris-Benedict revisado",
+  "katchmcardle_requires_body_fat_5": "Katch-McArdle (requer porcentagem de gordura corporal)",
+  "unit_system_6": "Sistema de Unidades",
+  "metric_kg_cm_7": "Métrico (kg, cm)",
+  "us_lbs_ftin_8": "EUA (lbs, pés/pol.)",
+  "age_years_9": "Idade (anos)",
+  "age_range_1580_years_10": "Faixa etária: 15-80 anos",
+  "gender_11": "Gênero",
+  "male_12": "Macho",
+  "female_13": "Fêmea",
+  "height_cm_14": "Altura (cm)",
+  "height_in_centimeters_15": "Altura em centímetros",
+  "height_ftin_16": "Altura (pés/pol.)",
+  "feet_and_inches_17": "Pés e polegadas",
+  "weight_18": "Peso (",
+  "weight_in_19": "Peso em",
+  "body_fat_percentage_20": "Porcentagem de gordura corporal:",
+  "required_for_katchmcardle_formula_use_dexa_scan_or_21": "Necessário para a fórmula Katch-McArdle. Use varredura DEXA ou calibradores de gordura corporal para precisão.",
+  "result_unit_22": "Unidade de Resultado",
+  "kcalday_23": "kcal/dia",
+  "kjday_24": "kJ/dia",
+  "calculate_25": "Calcular",
+  "reset_26": "Reiniciar",
+  "bmr_result_27": "Resultado da TMB",
+  "day_28": "/dia",
+  "basal_metabolic_rate_29": "Taxa metabólica basal",
+  "day_30": "/dia",
+  "sedentary_no_exercise_31": "Sedentário (sem exercício)",
+  "day_32": "/dia",
+  "moderately_active_33": "Moderadamente ativo",
+  "enter_your_details_and_click_calculate_see_your_bm_34": "Insira seus dados e clique em Calcular para ver sua TMB e necessidades diárias de calorias.",
+  "bmr_daily_calorie_needs_35": "TMB e necessidades diárias de calorias",
+  "day_36": "/dia",
+  "your_basal_metabolic_rate_37": "Sua taxa metabólica basal",
+  "this_is_the_number_of_calories_your_body_burns_at__38": "Este é o número de calorias que seu corpo queima em repouso para manter a fisiologia básica\n                          funções.",
+  "sedentary_39": "Sedentário",
+  "day_40": "/dia",
+  "little_or_no_exercise_41": "Pouco ou nenhum exercício",
+  "lightly_active_42": "Levemente ativo",
+  "day_43": "/dia",
+  "light_exercise_13_daysweek_44": "Exercício leve 1-3 dias/semana",
+  "moderately_active_45": "Moderadamente ativo",
+  "day_46": "/dia",
+  "moderate_exercise_35_daysweek_47": "Exercício moderado 3-5 dias/semana",
+  "very_active_48": "Muito ativo",
+  "day_49": "/dia",
+  "hard_exercise_67_daysweek_50": "Exercício intenso 6-7 dias/semana",
+  "extra_active_51": "Extra ativo",
+  "day_52": "/dia",
+  "very_hard_exercise_physical_job_53": "Exercício muito difícil, trabalho físico",
+  "calculation_details_54": "Detalhes do cálculo",
+  "formula_used_55": "Fórmula usada",
+  "lean_body_mass_56": "Massa corporal magra:",
+  "kg_57": "kg",
+  "base_bmr_58": "TMB básica:",
+  "kcalday_59": "kcal/dia",
+  "input_summary_60": "Resumo de entrada",
+  "age_61": "Idade:",
+  "years_62": "anos",
+  "gender_63": "Gênero:",
+  "height_64": "Altura:",
+  "cm_65": "cm",
+  "weight_66": "Peso:",
+  "kg_67": "kg",
+  "body_fat_68": "Gordura Corporal:",
+  "formula_used_69": "Fórmula usada:",
+  "bmr_370_216_lbm_where_lbm_1_body_fat_100_weight_70": "TMB = 370 + (21,6 × LBM), onde LBM = (1 - % de gordura corporal / 100) × Peso",
+  "understanding_bmr_71": "Compreendendo a TMB",
+  "bmr_formulas_72": "Fórmulas de TMB",
+  "mifflinst_jeor_73": "Mifflin-St Jeor:",
+  "most_accurate_for_general_population_74": "Mais preciso para a população em geral",
+  "harrisbenedict_75": "Harris-Benedict:",
+  "older_formula_still_widely_used_76": "Fórmula mais antiga, ainda amplamente utilizada",
+  "katchmcardle_77": "Katch-McArdle:",
+  "best_for_lean_individuals_with_known_body_fat_78": "Melhor para indivíduos magros com % de gordura corporal conhecida",
+  "activity_levels_79": "Níveis de atividade",
+  "sedentary_80": "Sedentário:",
+  "desk_job_no_exercise_bmr_12_81": "Trabalho administrativo, sem exercício (TMB × 1,2)",
+  "lightly_active_82": "Levemente ativo:",
+  "light_exercise_13_daysweek_bmr_1375_83": "Exercício leve 1-3 dias/semana (TMB × 1,375)",
+  "moderately_active_84": "Moderadamente ativo:",
+  "moderate_exercise_35_daysweek_bmr_155_85": "Exercício moderado 3-5 dias/semana (TMB × 1,55)",
+  "very_active_86": "Muito ativo:",
+  "hard_exercise_67_daysweek_bmr_1725_87": "Exercício intenso 6-7 dias/semana (TMB × 1,725)",
+  "extra_active_88": "Extra ativo:",
+  "very_hard_exercise_physical_job_bmr_19_89": "Exercício muito intenso, trabalho físico (TMB × 1,9)",
+  "example_calculation_90": "Exemplo de cálculo",
+  "k_28yearold_male_175_cm_70_kg_91": "Homem de 28 anos, 175 cm, 70 kg",
+  "bmr_10_70_625_175_5_28_5_92": "TMB = (10 × 70) + (6,25 × 175) - (5 × 28) + 5",
+  "bmr_700_109375_140_5_93": "TMB = 700 + 1.093,75 - 140 + 5",
+  "bmr_1659_kcalday_94": "TMB = 1.659 kcal/dia",
+  "moderately_active_1659_155_95": "Moderadamente ativo = 1.659 × 1,55 =",
+  "k_2571_kcalday_96": "2.571 kcal/dia",
+  "important_notes_97": "Notas importantes",
+  "bmr_decreases_with_age_and_increases_with_muscle_m_98": "A TMB diminui com a idade e aumenta com a massa muscular",
+  "these_are_estimates_individual_metabolism_varies_99": "Estas são estimativas – o metabolismo individual varia",
+  "for_weight_loss_create_a_moderate_calorie_deficit_100": "Para perder peso, crie um déficit calórico moderado",
+  "consult_healthcare_providers_for_personalized_advi_101": "Consulte prestadores de cuidados de saúde para aconselhamento personalizado"
+}

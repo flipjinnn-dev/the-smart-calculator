@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react';
+
 interface FAQ {
   q: string
   a: string
@@ -80,6 +82,11 @@ const getColorVariants = (color: string) => {
 }
 
 export default function CalculatorGuide({ data }: CalculatorGuideProps) {
+  // If no data or empty sections/faq, don't render anything
+  if (!data || (!data.sections || data.sections.length === 0) && (!data.faq || data.faq.length === 0)) {
+    return null;
+  }
+
   const colors = getColorVariants(data.color)
 
   return (
@@ -94,56 +101,58 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
         </div>
 
         {/* Sections */}
-        <div className="px-6 py-8 space-y-8">
-          {data.sections.map((section, sectionIndex) => (
-            <div key={sectionIndex} className="space-y-4">
-              <div className="flex items-start gap-4">
-                <div
-                  className="w-8 h-8 rounded-lg flex items-center justify-center text-white font-semibold text-sm flex-shrink-0"
-                  style={{ backgroundColor: colors.primary }}
-                >
-                  {sectionIndex + 1}
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">{section.heading}</h3>
+        {data.sections && data.sections.length > 0 && (
+          <div className="px-6 py-8 space-y-8">
+            {data.sections.map((section, sectionIndex) => (
+              <div key={sectionIndex} className="space-y-4">
+                <div className="flex items-start gap-4">
+                  <div
+                    className="w-8 h-8 rounded-lg flex items-center justify-center text-white font-semibold text-sm flex-shrink-0"
+                    style={{ backgroundColor: colors.primary }}
+                  >
+                    {sectionIndex + 1}
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">{section.heading}</h3>
 
-                  {/* ✅ Render content only if exists */}
-                  {section.content && (
-                    <div
-                      className="text-gray-700 leading-relaxed"
-                      dangerouslySetInnerHTML={{ __html: section.content.replace(/\n/g, "<br>") }}
-                    />
-                  )}
-                </div>
-              </div>
-
-              {/* Subsections */}
-              {section.subSections && section.subSections.length > 0 && (
-                <div className="ml-12 space-y-3">
-                  {section.subSections.map((subSection, subIndex) => (
-                    <div
-                      key={subIndex}
-                      className="p-4 rounded-lg border"
-                      style={{
-                        backgroundColor: colors.ultraLight,
-                        borderColor: colors.light,
-                      }}
-                    >
-                      <h4 className="font-semibold text-gray-900 mb-2">{subSection.heading}</h4>
+                    {/* ✅ Render content only if exists */ }
+                    {section.content && (
                       <div
-                        className="text-gray-700 text-sm"
-                        dangerouslySetInnerHTML={{ __html: subSection.content.replace(/\n/g, "<br>") }}
+                        className="text-gray-700 leading-relaxed"
+                        dangerouslySetInnerHTML={{ __html: section.content.replace(/\n/g, "<br>") }}
                       />
-                    </div>
-                  ))}
+                    )}
+                  </div>
                 </div>
-              )}
-            </div>
-          ))}
-        </div>
+
+                {/* Subsections */}
+                {section.subSections && section.subSections.length > 0 && (
+                  <div className="ml-12 space-y-3">
+                    {section.subSections.map((subSection, subIndex) => (
+                      <div
+                        key={subIndex}
+                        className="p-4 rounded-lg border"
+                        style={{
+                          backgroundColor: colors.ultraLight,
+                          borderColor: colors.light,
+                        }}
+                      >
+                        <h4 className="font-semibold text-gray-900 mb-2">{subSection.heading}</h4>
+                        <div
+                          className="text-gray-700 text-sm"
+                          dangerouslySetInnerHTML={{ __html: subSection.content.replace(/\n/g, "<br>") }}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* FAQs */}
-        {data.faq.length > 0 && (
+        {data.faq && data.faq.length > 0 && (
           <div className="border-t border-gray-200 px-6 py-8 bg-gray-50">
             <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Frequently Asked Questions</h3>
 

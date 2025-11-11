@@ -1,0 +1,110 @@
+{
+  "color": "fioletowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator terminu porodu?",
+      "content": "Nasz kalkulator terminu porodu to proste, dokładne z medycznego punktu widzenia i bezpłatne narzędzie online, które pomaga oszacować, kiedy dziecko może urodzić się na świecie. Korzystając z ostatniej miesiączki (LMP), daty owulacji lub daty transferu IVF, ten internetowy kalkulator terminu porodu zapewnia szacunkową datę porodu (EDD), kalendarz ciąży tydzień po tygodniu i harmonogram trymestru. Pamiętaj: terminy porodu są szacunkowe – tylko około 4% dzieci rodzi się dokładnie w wyznaczonym terminie. Większość dociera w ciągu dwóch tygodni przed lub po."
+    },
+    {
+      "heading": "Jak obliczyć termin porodu",
+      "subSections": [
+        {
+          "heading": "Kalkulator terminu płatności LMP",
+          "content": "Na podstawie pierwszego dnia ostatniej miesiączki (najpopularniejsza metoda)."
+        },
+        {
+          "heading": "Kalkulator terminu poczęcia",
+          "content": "Jeśli znasz datę owulacji lub poczęcia, możesz użyć jej do obliczenia terminu porodu."
+        },
+        {
+          "heading": "Kalkulator terminu zapłodnienia in vitro",
+          "content": "W przypadku ciąż uzyskanych w wyniku zapłodnienia in vitro lub technologii wspomaganego rozrodu przyjmuje się datę transferu zarodka."
+        },
+        {
+          "heading": "Kalkulator terminu wykonania USG",
+          "content": "Na podstawie skanów z wczesnej ciąży, szczególnie dokładnych w pierwszym trymestrze ciąży."
+        },
+        {
+          "heading": "Kalkulator wieku ciążowego i terminu porodu",
+          "content": "Łączy tygodnie i dni ciąży z przewidywaną datą porodu."
+        }
+      ]
+    },
+    {
+      "heading": "Oś czasu ciąży: trymestr i tydzień po tygodniu",
+      "subSections": [
+        {
+          "heading": "Pierwszy trymestr (tygodnie 1–12)",
+          "content": "Poczęcie, wczesny rozwój i typowe objawy, takie jak poranne mdłości."
+        },
+        {
+          "heading": "Drugi trymestr (tygodnie 13–27)",
+          "content": "Wzrost dziecka przyspiesza, przeprowadza się badanie anatomii, a matka czuje ruch."
+        },
+        {
+          "heading": "Trzeci trymestr (tygodnie 28–40+)",
+          "content": "Szybki rozwój dziecka, przygotowanie do porodu i ciąża donoszona."
+        },
+        {
+          "heading": "Ciąża donoszona",
+          "content": "Zakłada się, że od Twojego LMP minęło 40 tygodni (280 dni). Dzieci mogą bezpiecznie przyjść na świat w dowolnym momencie pomiędzy 37 a 42 tygodniem."
+        }
+      ]
+    },
+    {
+      "heading": "Zastosowanie globalne – kalkulator terminu porodu według kraju",
+      "content": "Niezależnie od tego, czy jesteś w USA, Wielkiej Brytanii, Kanadzie, Indiach, Pakistanie czy Australii, to bezpłatne narzędzie dotyczące terminu ciąży działa uniwersalnie. Systemy opieki zdrowotnej mogą się różnić, ale metoda obliczeń pozostaje medycznie zgodna z wytycznymi WHO, NHS i ACOG."
+    },
+    {
+      "heading": "Dlaczego warto skorzystać z naszego kalkulatora przewidywanej daty dostawy?",
+      "subSections": [
+        {
+          "heading": "Bezpłatne i łatwe",
+          "content": "Nie wymaga rejestracji."
+        },
+        {
+          "heading": "Dokładne metody",
+          "content": "Dostępne opcje LMP, poczęcia, IVF i USG."
+        },
+        {
+          "heading": "Dopasowanie medyczne",
+          "content": "Na podstawie standardowego 40-tygodniowego modelu ciąży."
+        },
+        {
+          "heading": "Spersonalizowany kalendarz ciąży",
+          "content": "Śledź kamienie milowe tydzień po tygodniu dzięki przejrzystemu harmonogramowi ciąży."
+        },
+        {
+          "heading": "Udostępniane narzędzie",
+          "content": "Pomocne dla przyszłych rodziców, rodzin i pracowników służby zdrowia."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Czy kalkulator terminu płatności może się mylić?",
+      "a": "Tak. Termin płatności jest jedynie szacunkowy. Tylko 1 na 25 dzieci rodzi się dokładnie w przewidywanym terminie. Większość dociera w ciągu 2 tygodni przed lub po."
+    },
+    {
+      "q": "Jak dokładny jest kalkulator terminu porodu?",
+      "a": "Kalkulatory oparte na LMP zakładają cykl 28-dniowy. Daty na podstawie badania USG (szczególnie w pierwszym trymestrze) są dokładniejsze. Dokładność może się różnić w przypadku nieregularnych cykli."
+    },
+    {
+      "q": "Co się stanie, jeśli nie znam daty ostatniej miesiączki?",
+      "a": "Możesz skorzystać z kalkulatora terminu porodu lub skonsultować się z lekarzem w celu uzyskania szacunkowego terminu porodu za pomocą USG."
+    },
+    {
+      "q": "Jaka jest różnica między kalkulatorem terminu porodu a USG?",
+      "a": "Kalkulator terminu porodu online wykorzystuje dane dotyczące miesiączki/poczęcia, natomiast kalkulatory ultradźwiękowe mierzą wzrost dziecka i często są bardziej wiarygodne we wczesnej ciąży."
+    },
+    {
+      "q": "Czy mogę obliczyć termin porodu, jeśli poddałam się zapłodnieniu in vitro?",
+      "a": "Tak. Aby uzyskać większą dokładność, użyj kalkulatora terminu zapłodnienia in vitro, podając datę transferu zarodka."
+    },
+    {
+      "q": "Jaki jest zakres tygodnia terminu porodu?",
+      "a": "Ciąża trwa zazwyczaj 37–42 tygodni. Dzieci urodzone pomiędzy tymi tygodniami uważa się za mieszczące się w prawidłowym zakresie."
+    }
+  ]
+}

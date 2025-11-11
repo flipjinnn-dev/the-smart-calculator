@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Arrow Speed Calculator",
+  "pageDescription": "Calculate arrow speed, momentum, and kinetic energy using IBO ratings for archery performance analysis",
+  "form": {
+    "labels": {
+      "iboSpeed": "IBO Speed (fps)",
+      "drawLength": "Draw Length (inches)",
+      "drawWeight": "Draw Weight (lbs)",
+      "arrowWeight": "Arrow Weight (grains)",
+      "additionalWeight": "Additional Weight (grains)",
+      "calculationType": "Calculation Type"
+    },
+    "placeholders": {
+      "iboSpeed": "Enter IBO speed",
+      "drawLength": "Enter draw length",
+      "drawWeight": "Enter draw weight",
+      "arrowWeight": "Enter arrow weight",
+      "additionalWeight": "Enter additional weight (sight, rest, etc.)"
+    },
+    "buttons": {
+      "calculate": "Calculate Arrow Speed",
+      "reset": "Reset"
+    },
+    "calculationTypes": {
+      "speed": "Arrow Speed",
+      "momentum": "Momentum",
+      "kineticEnergy": "Kinetic Energy",
+      "all": "All Calculations"
+    }
+  },
+  "results": {
+    "arrowSpeed": "Arrow Speed (fps)",
+    "momentum": "Momentum (slug·ft/s)",
+    "kineticEnergy": "Kinetic Energy (ft·lbf)",
+    "arrowSpeedResultsTitle": "Arrow Speed Results",
+    "adjustedDrawLength": "Adjusted Draw Length",
+    "adjustedDrawWeight": "Adjusted Draw Weight"
+  },
+  "educational": {
+    "arrowSpeedInfo": "Arrow Speed Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Archery Resources",
+    "arrowSpeedFacts": {
+      "definition": {
+        "title": "Arrow Speed Factors",
+        "description": "Arrow speed is affected by bow IBO rating, draw length, draw weight, and arrow weight"
+      },
+      "formula": {
+        "title": "Speed Calculation",
+        "description": "Adjusted Speed = IBO Speed - (3 × (Draw Weight - 70)) + (10 × (Draw Length - 30)) - (Arrow Weight - 400) ÷ 10"
+      },
+      "performance": {
+        "title": "Performance Metrics",
+        "description": "Momentum affects penetration, kinetic energy affects damage potential"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a substitute for actual measurement",
+      "equipment": "Actual performance varies with bow condition, archer form, and environmental factors"
+    },
+    "importantNotesList": [
+      "Heavier arrows provide more momentum but lower speed",
+      "IBO ratings are measured with 70lb draw weight, 30\" draw length, and 350gr arrow",
+      "Kinetic energy is more important for hunting than raw speed",
+      "Proper form and equipment maintenance affect actual performance"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your bow and arrow specifications to calculate performance",
+    "resultMessage": "Your arrow performance calculations are shown below",
+    "assessmentResult": "Arrow Performance Result:",
+    "arrowSpeedAnalysis": "Arrow Speed Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides arrow performance estimates based on IBO standards and mathematical formulas. Actual performance may vary based on bow condition, archer form, and environmental factors."
+  },
+  "seekHelp": {
+    "title": "Archery Resources",
+    "content": "For professional archery analysis and equipment selection, consult certified archery instructors or use specialized chronographs for actual performance measurement."
+  },
+  "errors": {
+    "iboSpeed": "Please enter a valid IBO speed",
+    "drawLength": "Please enter a valid draw length (20-35 inches)",
+    "drawWeight": "Please enter a valid draw weight (10-100 lbs)",
+    "arrowWeight": "Please enter a valid arrow weight (100-800 grains)",
+    "additionalWeight": "Please enter a valid additional weight",
+    "calculationType": "Please select a calculation type"
+  },
+  "tooltips": {
+    "iboSpeed": "Manufacturer's IBO speed rating for your bow",
+    "drawLength": "Distance from nock point to pivot point plus 1.75 inches",
+    "drawWeight": "Force required to draw the bow at 28 inches",
+    "arrowWeight": "Total weight of arrow including point, shaft, and fletching",
+    "additionalWeight": "Weight of accessories like sights, rests, and stabilizers"
+  },
+  "bow_arrow_specifications_0": "Bow & Arrow Specifications",
+  "enter_your_bow_and_arrow_specifications_to_calcula_1": "Enter your bow and arrow specifications to calculate performance metrics",
+  "bow_ibo_rating_2": "Bow IBO Rating",
+  "fps_3": "fps",
+  "ms_4": "m/s",
+  "draw_length_5": "Draw Length",
+  "in_6": "in",
+  "cm_7": "cm",
+  "peak_draw_weight_8": "Peak Draw Weight",
+  "lb_9": "lb",
+  "kg_10": "kg",
+  "arrow_weight_grains_11": "Arrow Weight (grains)",
+  "extra_string_weight_grains_optional_12": "Extra String Weight (grains) - Optional",
+  "ibo_standard_13": "IBO Standard:",
+  "based_on_30_draw_length_70_lb_draw_weight_and_350__14": "Based on 30\" draw length, 70 lb draw weight, and 350 grain arrow.\n                        Adjustments: ±10 fps per inch of draw length, ±2 fps per pound of draw weight.",
+  "results_are_estimates_based_on_industrystandard_ib_15": "Results are estimates based on industry-standard IBO calculations.",
+  "calculate_performance_16": "Calculate Performance",
+  "arrow_performance_17": "Arrow Performance",
+  "fps_18": "fps",
+  "ms_19": "m/s",
+  "joules_20": "Joules",
+  "enter_your_bow_specs_and_click_21": "Enter your bow specs and click",
+  "calculate_22": "Calculate",
+  "to_see_arrow_performance_23": "to see arrow performance.",
+  "detailed_performance_metrics_24": "Detailed Performance Metrics",
+  "arrow_speed_25": "Arrow Speed",
+  "fps_26": "fps",
+  "ms_27": "m/s",
+  "momentum_28": "Momentum",
+  "ns_29": "N·s",
+  "kinetic_energy_30": "Kinetic Energy",
+  "joules_31": "Joules",
+  "understanding_arrow_speed_ibo_ratings_32": "Understanding Arrow Speed & IBO Ratings",
+  "ibo_rating_explained_33": "IBO Rating Explained",
+  "ibo_international_bowhunting_organization_rating_i_34": "IBO (International Bowhunting Organization) rating is a standardized measurement based on a\n                        30-inch draw length, 70-pound draw weight, and 350-grain arrow. This provides a baseline for\n                        comparing bow performance across different manufacturers.",
+  "performance_factors_35": "Performance Factors",
+  "draw_length_10_fps_per_inch_change_36": "Draw length: ±10 fps per inch change",
+  "draw_weight_2_fps_per_pound_change_37": "Draw weight: ±2 fps per pound change",
+  "arrow_weight_1_fps_per_3_grains_38": "Arrow weight: ∓1 fps per 3 grains",
+  "string_accessories_1_fps_per_3_grains_39": "String accessories: ∓1 fps per 3 grains",
+  "sample_calculation_40": "Sample Calculation",
+  "example_41": "Example:",
+  "ibo_rating_320_fps_42": "IBO Rating: 320 fps",
+  "draw_length_29_1_from_baseline_43": "Draw Length: 29\" (-1\" from baseline)",
+  "draw_weight_60_lb_10_lb_from_baseline_44": "Draw Weight: 60 lb (-10 lb from baseline)",
+  "arrow_weight_400_gr_50_gr_from_baseline_45": "Arrow Weight: 400 gr (+50 gr from baseline)",
+  "result_320_10_20_167_273_fps_46": "Result: 320 - 10 - 20 - 16.7 ≈ 273 fps",
+  "momentum_and_kinetic_energy_are_calculated_using_p_47": "Momentum and kinetic energy are calculated using physics formulas: p = mv and KE = ½mv²."
+}

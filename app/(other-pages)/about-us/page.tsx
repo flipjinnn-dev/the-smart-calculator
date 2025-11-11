@@ -3,7 +3,7 @@ import Script from "next/script"
 import Link from "next/link"
 import { Calculator, Users, Target, Award, Heart, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import Logo from "@/components/logo"
+
 
 export const metadata: Metadata = {
   title: "About Smart Calculator - Free Online Calculator Platform",
@@ -37,33 +37,8 @@ export default function AboutPage() {
       <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="min-h-screen bg-white">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-16">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link
-                    href="/"
-                    className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
-                  >
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">About Us</p>
-                </div>
-              </div>
-              <nav className="hidden md:flex space-x-8">
-                <Link href="/" className="text-gray-600 hover:text-blue-600 transition-colors font-medium">
-                  Home
-                </Link>
-                <Link href="/contact" className="text-gray-600 hover:text-blue-600 transition-colors font-medium">
-                  Contact
-                </Link>
-              </nav>
-            </div>
-          </div>
-        </header>
+        
+        
 
         {/* Hero Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-purple-50">

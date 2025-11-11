@@ -1,0 +1,143 @@
+{
+  "pageTitle": "Fielding Percentage Calculator",
+  "pageDescription": "Calculate fielding percentage for baseball players",
+  "form": {
+    "labels": {
+      "putouts": "Putouts",
+      "assists": "Assists",
+      "errors": "Errors"
+    },
+    "placeholders": {
+      "putouts": "Enter number of putouts",
+      "assists": "Enter number of assists",
+      "errors": "Enter number of errors"
+    },
+    "buttons": {
+      "calculate": "Calculate Fielding Percentage",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "fieldingPercentage": "Fielding Percentage",
+    "totalChances": "Total Chances",
+    "successfulChances": "Successful Chances",
+    "errorRate": "Error Rate",
+    "leagueRanking": "League Ranking Estimate"
+  },
+  "educational": {
+    "fieldingInfo": "Fielding Percentage Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Baseball Resources",
+    "fieldingFacts": {
+      "definition": {
+        "title": "Fielding Percentage",
+        "description": "A statistic measuring a player's ability to handle chances without making errors"
+      },
+      "formula": {
+        "title": "Calculation Formula",
+        "description": "Fielding Percentage = (Putouts + Assists) / (Putouts + Assists + Errors)"
+      },
+      "interpretation": {
+        "title": "Performance Interpretation",
+        "description": "Fielding percentage ranges from 0.000 to 1.000, with 1.000 being perfect fielding"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides fielding percentage calculations only",
+      "actual": "Complete defensive evaluation should consider additional metrics like range and double plays"
+    },
+    "importantNotesList": [
+      "Fielding percentage is just one measure of defensive performance",
+      "Does not account for range, double plays, or difficult plays made",
+      "A high fielding percentage indicates fewer errors relative to chances",
+      "Sample size matters - more chances provide a better evaluation"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter putouts, assists, and errors to calculate fielding percentage",
+    "resultMessage": "Your fielding percentage calculation results are shown below",
+    "assessmentResult": "Fielding Percentage Calculation Result:",
+    "fieldingAnalysis": "Fielding Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides fielding percentage calculations based on standard baseball statistics formulas. Complete defensive evaluation should consider additional metrics, context, and sample size factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Baseball Resources",
+    "content": "For comprehensive baseball defensive analysis and player evaluation, consult baseball reference sites, sports analytics resources, or professional scouts and analysts."
+  },
+  "errors": {
+    "putouts": "Please enter a valid number of putouts",
+    "assists": "Please enter a valid number of assists",
+    "errors": "Please enter a valid number of errors"
+  },
+  "tooltips": {
+    "putouts": "Number of outs recorded by the player directly (e.g., catching fly balls, tagging runners)",
+    "assists": "Number of times the player helped record an out (e.g., throwing to first base)",
+    "errors": "Number of defensive mistakes that allow runners to advance or reach base"
+  },
+  "fielding_statistics_0": "Fielding Statistics",
+  "enter_fielding_statistics_to_calculate_fielding_pe_1": "Enter fielding statistics to calculate Fielding Percentage (FPCT)",
+  "putouts_p_2": "Putouts (P)",
+  "outs_recorded_by_the_fielder_3": "Outs recorded by the fielder",
+  "assists_a_4": "Assists (A)",
+  "plays_that_helped_record_an_out_5": "Plays that helped record an out",
+  "errors_e_6": "Errors (E)",
+  "misplays_that_should_have_been_made_7": "Misplays that should have been made",
+  "output_format_8": "Output Format",
+  "display_result_as_9": "Display result as",
+  "decimal_10": "Decimal",
+  "percentage_11": "Percentage",
+  "formula_12": "Formula:",
+  "fpct_putouts_assists_putouts_assists_errors_13": "FPCT = (Putouts + Assists) ÷ (Putouts + Assists + Errors)",
+  "total_chances_putouts_assists_errors_14": "Total Chances = Putouts + Assists + Errors",
+  "calculate_15": "Calculate",
+  "reset_16": "Reset",
+  "fpct_results_17": "FPCT Results",
+  "fpct_18": "FPCT",
+  "total_chances_19": "Total Chances",
+  "performance_20": "Performance",
+  "enter_fielding_statistics_and_click_21": "Enter fielding statistics and click",
+  "calculate_22": "Calculate",
+  "to_see_fpct_23": "to see FPCT.",
+  "detailed_fpct_breakdown_24": "Detailed FPCT Breakdown",
+  "fpct_25": "FPCT",
+  "putouts_26": "Putouts",
+  "p_27": "P",
+  "assists_28": "Assists",
+  "a_29": "A",
+  "errors_30": "Errors",
+  "e_31": "E",
+  "calculation_steps_32": "Calculation Steps:",
+  "step_1_33": "Step 1:",
+  "total_chances_34": "Total Chances =",
+  "step_2_35": "Step 2:",
+  "fpct_36": "FPCT = (",
+  "step_3_37": "Step 3:",
+  "as_percentage_38": "As percentage =",
+  "k_100_39": "× 100 =",
+  "understanding_fielding_percentage_40": "Understanding Fielding Percentage",
+  "what_is_fpct_41": "What is FPCT?",
+  "fielding_percentage_fpct_measures_how_often_a_fiel_42": "Fielding Percentage (FPCT) measures how often a fielder successfully handles a chance without\n                        making an error. It's calculated by dividing successful plays (putouts + assists) by total\n                        chances.",
+  "fpct_interpretation_43": "FPCT Interpretation",
+  "k_1000_perfect_no_errors_44": "1.000: Perfect (no errors)",
+  "k_0980_elite_level_45": "0.980+: Elite level",
+  "k_09500979_good_46": "0.950-0.979: Good",
+  "k_09000949_average_47": "0.900-0.949: Average",
+  "below_0900_below_average_48": "Below 0.900: Below average",
+  "sample_calculation_49": "Sample Calculation",
+  "example_50": "Example:",
+  "player_statistics_51": "Player Statistics",
+  "putouts_1489_52": "Putouts: 1489",
+  "assists_496_53": "Assists: 496",
+  "errors_33_54": "Errors: 33",
+  "calculation_55": "Calculation:",
+  "total_chances_1489_496_33_2018_56": "Total Chances = 1489 + 496 + 33 = 2018",
+  "fpct_1489_496_2018_57": "FPCT = (1489 + 496) ÷ 2018",
+  "fpct_0984_984_58": "FPCT = 0.984 (98.4%)",
+  "note_59": "Note:",
+  "high_fpct_doesnt_reflect_a_fielders_range_or_the_d_60": "High FPCT doesn't reflect a fielder's range or the difficulty of plays\n                          attempted."
+}

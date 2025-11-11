@@ -1,0 +1,127 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Entenda seus impostos com nossa calculadora de imposto de renda",
+      "content": "A declaração de impostos não precisa ser confusa. Nossa Calculadora de Imposto de Renda ajuda você a calcular o imposto de renda on-line com rapidez e precisão, fornecendo informações claras sobre sua renda tributável, deduções e pagamento líquido. Se você deseja estimar seu passivo fiscal para 2025, verificar se receberá um reembolso ou planejar suas finanças com antecedência, esta calculadora de imposto de renda gratuita é sua ferramenta ideal."
+    },
+    {
+      "heading": "Com resultados instantâneos, você pode:",
+      "subSections": [
+        {
+          "heading": "Evite erros manuais",
+          "content": "Com a fórmula de cálculo do imposto de renda."
+        },
+        {
+          "heading": "Compare o imposto de renda federal e estadual",
+          "content": "Veja os resultados em segundos."
+        },
+        {
+          "heading": "Planeje melhor",
+          "content": "Use insights para otimizar economias, deduções e estratégia de arquivamento."
+        }
+      ]
+    },
+    {
+      "heading": "Como funciona a calculadora do imposto de renda?",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Insira sua renda – salário, salário comercial ou autônomo."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Aplicar deduções – escolha entre a dedução padrão e a dedução detalhada."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Veja o seu rendimento tributável – entenda o que significa rendimento tributável e como ele difere do lucro bruto versus lucro líquido."
+        },
+        {
+          "heading": "Etapa 4",
+          "content": "Revise as faixas de impostos explicadas para 2025 – verifique qual parcela de sua renda se enquadra em cada faixa."
+        },
+        {
+          "heading": "Etapa 5",
+          "content": "Veja seus resultados instantaneamente – veja sua responsabilidade fiscal, receita após impostos ou reembolso potencial."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso e variações",
+      "subSections": [
+        {
+          "heading": "Calculadora de Imposto de Renda Federal",
+          "content": "Para colchetes federais dos EUA."
+        },
+        {
+          "heading": "Calculadora de imposto de renda estadual",
+          "content": "Veja como seu estado afeta sua responsabilidade."
+        },
+        {
+          "heading": "Calculadora de reembolso de imposto de renda",
+          "content": "Estime seu reembolso em minutos."
+        },
+        {
+          "heading": "Calculadora de renda após impostos / Calculadora de pagamento líquido",
+          "content": "Descubra o que resta após as deduções."
+        },
+        {
+          "heading": "Calculadora de imposto de renda para trabalhadores autônomos e empresariais",
+          "content": "Criado para freelancers, empreendedores e LLCs."
+        },
+        {
+          "heading": "Calculadora de imposto sobre dividendos e ganhos de capital",
+          "content": "Acompanhe investimentos e retornos."
+        },
+        {
+          "heading": "Casado declarando em conjunto ou com dependentes",
+          "content": "Calcule os benefícios e compare as opções de status de arquivamento."
+        }
+      ]
+    },
+    {
+      "heading": "Por que escolher esta calculadora de imposto de renda?",
+      "subSections": [
+        {
+          "heading": "Rápido e Gratuito",
+          "content": "Sem inscrições, sem taxas."
+        },
+        {
+          "heading": "Preciso e confiável",
+          "content": "Atualizado com as faixas fiscais de 2025 explicadas."
+        },
+        {
+          "heading": "Amigo do usuário",
+          "content": "Interface simples para indivíduos, famílias e empresas."
+        },
+        {
+          "heading": "Abrangente",
+          "content": "Funciona como estimador de imposto de renda 2025, calculadora de reembolso e estimador de pagamento líquido, tudo em um."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como calcular o imposto sobre o salário online?",
+      "a": "Insira seu salário bruto, aplique deduções e deixe a calculadora estimar sua obrigação fiscal e pagamento líquido."
+    },
+    {
+      "q": "O que é lucro antes dos impostos e depois dos impostos?",
+      "a": "A renda antes dos impostos é o seu lucro total antes dos impostos, enquanto a renda depois dos impostos mostra o que você retém após as deduções."
+    },
+    {
+      "q": "O que é preço com impostos incluídos e preço sem impostos?",
+      "a": "Com imposto incluído significa que o imposto já está incluído no total, enquanto sem imposto significa que o imposto é adicionado separadamente."
+    },
+    {
+      "q": "Como a calculadora lida com dependentes ou pedidos de casamento em conjunto?",
+      "a": "Basta selecionar o status do seu pedido e o número de dependentes para obter resultados personalizados."
+    },
+    {
+      "q": "Como estimar uma restituição com uma calculadora de imposto de renda?",
+      "a": "Insira seus detalhes de retenção e a calculadora estimará se você deverá ou receberá um reembolso."
+    }
+  ]
+}

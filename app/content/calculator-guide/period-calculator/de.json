@@ -1,0 +1,97 @@
+{
+  "color": "Rosa",
+  "sections": [
+    {
+      "heading": "Periodenrechner: Verfolgen Sie Ihren Menstruationszyklus genau",
+      "content": "Das Verständnis Ihres Menstruationszyklus ist für das Management Ihrer Gesundheit, die Planung von Schwangerschaften und die Überwachung der Fruchtbarkeit von entscheidender Bedeutung. Mit unserem kostenlosen Online-Periodenrechner können Sie Ihre nächste Periode, Ihre Eisprungtermine und Ihr fruchtbares Fenster einfach und genau vorhersagen. Unabhängig davon, ob Sie einen regelmäßigen oder unregelmäßigen Zyklus haben, bietet dieses Tool personalisierte Einblicke auf der Grundlage Ihrer Menstruationsdaten."
+    },
+    {
+      "heading": "So verwenden Sie den Periodenrechner",
+      "content": "Die Verwendung unseres Menstruationszyklusrechners ist einfach:",
+      "subSections": [
+        {
+          "heading": "Schritt 1: Geben Sie das Datum der letzten Periode (LMP) ein.",
+          "content": "Geben Sie den ersten Tag Ihres letzten Menstruationszyklus ein."
+        },
+        {
+          "heading": "Schritt 2: Geben Sie die durchschnittliche Zykluslänge ein",
+          "content": "Normalerweise 28 Tage, es kann aber auch zwischen 21 und 35 Tagen liegen."
+        },
+        {
+          "heading": "Schritt 3: Klicken Sie auf „Berechnen“",
+          "content": "Erhalten Sie sofort das Datum Ihrer nächsten Periode, Ihr fruchtbares Fenster und Ihr Eisprungdatum."
+        }
+      ]
+    },
+    {
+      "heading": "Warum einen Periodenrechner verwenden?",
+      "content": "Die Verfolgung Ihres Zyklus bietet mehrere Vorteile:",
+      "subSections": [
+        {
+          "heading": "Plan für die Schwangerschaft",
+          "content": "Informieren Sie sich über die Tage Ihres Eisprungs mit unserem Eisprung- und Fruchtbarkeitsrechner."
+        },
+        {
+          "heading": "Überwachen Sie unregelmäßige Zyklen",
+          "content": "Verstehen Sie, wie sich die Zykluslänge auf Ihre Fruchtbarkeitstage auswirkt."
+        },
+        {
+          "heading": "Verfolgen Sie die Symptome",
+          "content": "Prognostizieren Sie PMS oder periodenbedingte Veränderungen."
+        },
+        {
+          "heading": "Gesundheitseinblicke",
+          "content": "Erkennen Sie Veränderungen in Ihrem Menstruationszyklus, die möglicherweise ärztliche Hilfe erfordern."
+        },
+        {
+          "heading": "KI-basierte Vorhersage",
+          "content": "Verwenden Sie die KI-gestützte Zyklusverfolgung für eine höhere Genauigkeit."
+        }
+      ]
+    },
+    {
+      "heading": "Menstruationszyklen, Eisprung und Fruchtbarkeit verstehen",
+      "content": "Erhalten Sie ein tieferes Verständnis Ihrer reproduktiven Gesundheit:",
+      "subSections": [
+        {
+          "heading": "Was ist ein Menstruationszyklus?",
+          "content": "Ein monatlicher Prozess, der Eisprung, Blutungen und Hormonveränderungen umfasst. Ein typischer Zyklus dauert 21–35 Tage, wobei die Menstruation normalerweise 3–7 Tage dauert."
+        },
+        {
+          "heading": "Fruchtbares Fenster erklärt",
+          "content": "Das fruchtbare Fenster ist der Zeitraum, in dem eine Empfängnis am wahrscheinlichsten ist, normalerweise 5 Tage vor dem Eisprung und am Tag des Eisprungs."
+        },
+        {
+          "heading": "Eisprung und Empfängnis",
+          "content": "Der Eisprung findet statt, wenn eine Eizelle aus dem Eierstock freigesetzt wird, normalerweise in der Mitte des Zyklus. Die Verfolgung des Eisprungs erhöht die Chancen auf eine Schwangerschaft."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie genau ist ein Periodenrechner?",
+      "a": "Ein Periodenrechner prognostiziert Ihren Zyklus basierend auf Ihren Eingaben. Die Genauigkeit ist bei regelmäßigen Zyklen am höchsten und wird mit KI-basierten Tools verbessert."
+    },
+    {
+      "q": "Kann ich einen Periodenrechner für unregelmäßige Perioden verwenden?",
+      "a": "Ja, unser intelligenter Menstruations-Tracker passt sich unregelmäßigen Zyklen an und liefert personalisierte Vorhersagen."
+    },
+    {
+      "q": "Was ist die normale Länge eines Menstruationszyklus?",
+      "a": "Ein normaler Zyklus dauert 21–35 Tage, im Durchschnitt 28 Tage."
+    },
+    {
+      "q": "Wie verfolge ich meine fruchtbaren Tage?",
+      "a": "Geben Sie Ihre Zyklusinformationen in den Perioden- und Ovulations-Tracker ein, um Ihr fruchtbares Fenster und die Daten Ihres Eisprungs anzuzeigen."
+    },
+    {
+      "q": "Gibt es Periodenrechner mit Erinnerungen?",
+      "a": "Ja, einige Periodenrechner-Apps enthalten Erinnerungen, die Sie vor Ihrer nächsten Periode oder Ihrem nächsten Fruchtbarkeitsfenster benachrichtigen."
+    }
+  ],
+  "cta": {
+    "heading": "Beginnen Sie noch heute damit, Ihren Zyklus zu verfolgen",
+    "content": "Übernehmen Sie die Kontrolle über Ihre reproduktive Gesundheit mit unserem Rechner zur genauen Periodenvorhersage. Geben Sie Ihre Daten ein, um Ihre nächste Periode, das Datum des Eisprungs und die fruchtbaren Tage sofort zu berechnen. Beginnen Sie mit der Verfolgung Ihrer Zyklen für eine bessere Planung und bessere Gesundheitseinblicke!"
+  }
+}

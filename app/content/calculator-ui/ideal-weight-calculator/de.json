@@ -1,0 +1,199 @@
+{
+  "pageTitle": "Idealgewichtsrechner",
+  "pageDescription": "Berechnen Sie Ihren idealen Körpergewichtsbereich basierend auf Größe und Geschlecht",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "height": "Höhe",
+      "weight": "Aktuelles Gewicht",
+      "unitSystem": "Einheitensystem"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie das Idealgewicht",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    }
+  },
+  "results": {
+    "idealWeightRange": "Idealer Gewichtsbereich",
+    "currentWeight": "Aktuelles Gewicht",
+    "idealWeightTitle": "Idealgewichtsergebnisse",
+    "bmiFormula": {
+      "label": "BMI-Formel",
+      "us": "BMI = (Gewicht in Pfund / (Größe in Zoll)²) × 703",
+      "metric": "BMI = Gewicht in kg / (Körpergröße in Metern)²"
+    },
+    "healthyBmiRange": "Gesunder BMI-Bereich: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "idealWeightInfo": "Informationen zum Idealgewicht",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Konsultieren Sie einen Fachmann",
+    "idealWeightMethods": {
+      "devine": {
+        "title": "Devine-Methode (1974)",
+        "description": "Männer: 50 kg + 2,3 kg pro Zoll über 5 Fuß; Frauen: 45,5 kg + 2,3 kg pro Zoll über 5 Fuß"
+      },
+      "robinson": {
+        "title": "Robinson-Methode (1983)",
+        "description": "Männer: 52 kg + 1,9 kg pro Zoll über 5 Fuß; Frauen: 49 kg + 1,7 kg pro Zoll über 5 Fuß"
+      },
+      "miller": {
+        "title": "Miller-Methode (1983)",
+        "description": "Männer: 56,2 kg + 1,41 kg pro Zoll über 5 Fuß; Frauen: 53,1 kg + 1,36 kg pro Zoll über 5 Fuß"
+      },
+      "hamwi": {
+        "title": "Hamwi-Methode (1964)",
+        "description": "Männer: 48 kg + 2,7 kg pro Zoll über 5 Fuß; Frauen: 45,5 kg + 2,2 kg pro Zoll über 5 Fuß"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Diagnosetool",
+      "individualVariation": "Das Idealgewicht variiert je nach Muskelmasse, Knochendichte und Körperzusammensetzung"
+    },
+    "importantNotesList": [
+      "Diese Berechnungen stellen lediglich allgemeine Richtlinien dar",
+      "Sportler können aufgrund der Muskelmasse ein höheres Gewicht haben",
+      "Für eine individuelle Beratung wenden Sie sich an medizinisches Fachpersonal",
+      "Das Gewicht sollte neben anderen Gesundheitskennzahlen berücksichtigt werden"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "gilt als gesunder BMI-Bereich für Erwachsene.",
+      "association": "Dieser Bereich ist mit dem geringsten Risiko für Gesundheitsprobleme und Mortalität verbunden."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Geben Sie Ihre Maße ein, um Ihren idealen Gewichtsbereich zu berechnen",
+    "idealWeightRange": "Ihr idealer Gewichtsbereich liegt zwischen {min} und {max} {unit}.",
+    "currentWeightStatus": "Ihr aktuelles Gewicht liegt im Idealbereich ({status}).",
+    "belowRange": "unten",
+    "withinRange": "innerhalb",
+    "aboveRange": "über",
+    "ageWarning": "Verwenden Sie für Kinder und Jugendliche (≤20 Jahre) pädiatrische Wachstumstabellen",
+    "assessmentResult": "Bewertungsergebnis:",
+    "weightAnalysis": "Gewichtsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen auf der Grundlage mathematischer Formeln und sollte nicht als Ersatz für eine professionelle medizinische Beratung verwendet werden. Einzelne Ergebnisse können aufgrund von Faktoren, die in diesen Berechnungen nicht berücksichtigt wurden, variieren."
+  },
+  "seekHelp": {
+    "title": "Konsultieren Sie einen Arzt",
+    "content": "Wenn Sie Bedenken hinsichtlich Ihres Gewichts oder Ihrer Gesundheit haben, wenden Sie sich bitte an einen Arzt, der Sie auf der Grundlage Ihrer vollständigen Krankengeschichte und Ihrer individuellen Umstände individuell beraten kann."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein"
+  },
+  "tooltips": {
+    "age": "Das Alter kann Einfluss auf die Berechnung des Idealgewichts von Kindern/Jugendlichen haben",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "gender": "Für Männer und Frauen werden unterschiedliche Formeln verwendet"
+  },
+  "ideal_weight_calculation_0": "Idealgewichtsberechnung",
+  "enter_your_details_to_calculate_your_ideal_weight__1": "Geben Sie Ihre Daten ein, um Ihr Idealgewicht mithilfe mehrerer Formeln zu berechnen",
+  "unit_system_2": "Einheitensystem",
+  "metric_kg_cm_3": "Metrisch (kg, cm)",
+  "us_lbs_ftin_4": "US (lbs, ft/in)",
+  "age_years_5": "Alter (Jahre)",
+  "age_range_280_years_6": "Altersspanne: 2–80 Jahre",
+  "gender_7": "Geschlecht",
+  "male_8": "Männlich",
+  "female_9": "Weiblich",
+  "height_cm_10": "Höhe (cm)",
+  "height_in_centimeters_11": "Höhe in Zentimetern",
+  "height_ftin_12": "Höhe (ft/in)",
+  "feet_and_inches_13": "Fuß und Zoll",
+  "calculate_weight_14": "Gewicht berechnen",
+  "reset_15": "Zurücksetzen",
+  "ideal_weight_16": "Idealgewicht",
+  "kg_17": "kg (",
+  "lbs_18": "Pfund)",
+  "devine_formula_19": "Göttliche Formel",
+  "kg_20": "kg",
+  "healthy_bmi_range_21": "Gesunder BMI-Bereich",
+  "enter_your_details_and_click_calculate_see_your_id_22": "Geben Sie Ihre Daten ein und klicken Sie auf Berechnen, um Ihre idealen Gewichtsbereiche anzuzeigen.",
+  "ideal_weight_results_23": "Idealgewichtsergebnisse",
+  "formulabased_ideal_weights_24": "Formelbasierte Idealgewichte",
+  "formula_25": "Formel",
+  "weight_kg_26": "Gewicht (kg)",
+  "weight_lbs_27": "Gewicht (lbs)",
+  "notes_28": "Notizen",
+  "hamwi_1964_29": "Hamwi (1964)",
+  "oldest_drug_dosage_origins_30": "Älteste, Herkunft der Medikamentendosis",
+  "devine_1974_31": "Devine (1974)",
+  "still_used_in_medical_settings_32": "Wird immer noch im medizinischen Bereich verwendet",
+  "robinson_1983_33": "Robinson (1983)",
+  "slightly_lighter_estimate_34": "Etwas geringere Schätzung",
+  "miller_1983_35": "Miller (1983)",
+  "balanced_estimate_36": "Ausgewogene Schätzung",
+  "bmibased_healthy_weight_range_37": "BMI-basierter gesunder Gewichtsbereich",
+  "kg_38": "kg",
+  "lbs_39": "Pfund)",
+  "based_on_who_bmi_range_of_18525_kgm_this_range_pro_40": "Basierend auf dem BMI-Bereich der WHO von 18,5–25 kg/m². Dieser Bereich bietet mehr Flexibilität als\n                          formelbasierte Schätzungen.",
+  "calculation_details_41": "Berechnungsdetails",
+  "input_summary_42": "Eingabezusammenfassung",
+  "age_43": "Alter:",
+  "years_44": "Jahre",
+  "gender_45": "Geschlecht:",
+  "height_46": "Höhe:",
+  "cm_47": "cm (",
+  "inches_48": "Zoll)",
+  "inches_over_5_ft_49": "Zoll über 5 Fuß:",
+  "inches_50": "Zoll",
+  "formula_examples_51": "Formelbeispiele",
+  "devine_52": "Devine (",
+  "bmi_range_53": "BMI-Bereich:",
+  "k_18525_54": "18,5-25 × (",
+  "understanding_ideal_weight_55": "Idealgewicht verstehen",
+  "formula_comparison_56": "Formelvergleich",
+  "hamwi_57": "Hamwi:",
+  "oldest_formula_originally_for_drug_dosing_58": "Älteste Formel, ursprünglich zur Medikamentendosierung",
+  "devine_59": "Devine:",
+  "most_commonly_used_in_medical_practice_60": "Am häufigsten in der medizinischen Praxis verwendet",
+  "robinson_61": "Robinson:",
+  "tends_to_give_slightly_lower_weights_62": "Ergibt tendenziell etwas geringere Gewichte",
+  "miller_63": "Müller:",
+  "more_recent_balanced_approach_64": "Neuerer, ausgewogener Ansatz",
+  "example_calculation_65": "Beispielrechnung",
+  "female_56_16764_cm_66": "Weiblich, 5 Fuß 6 Zoll (167,64 cm)",
+  "hamwi_455_22_6_67": "Hamwi: 45,5 + (2,2 × 6) =",
+  "k_587_kg_1295_lb_68": "58,7 kg (129,5 Pfund)",
+  "devine_455_23_6_69": "Devine: 45,5 + (2,3 × 6) =",
+  "k_593_kg_1307_lb_70": "59,3 kg (130,7 Pfund)",
+  "bmi_range_71": "BMI-Bereich:",
+  "k_519701_kg_11451545_lb_72": "51,9–70,1 kg (114,5–154,5 Pfund)",
+  "important_considerations_73": "Wichtige Überlegungen",
+  "formulas_dont_account_for_body_composition_74": "Formeln berücksichtigen nicht die Körperzusammensetzung",
+  "athletes_may_weigh_more_due_to_muscle_mass_75": "Sportler können aufgrund der Muskelmasse mehr wiegen",
+  "bmi_range_provides_more_flexibility_76": "Der BMI-Bereich bietet mehr Flexibilität",
+  "individual_health_factors_are_important_77": "Individuelle Gesundheitsfaktoren sind wichtig",
+  "when_to_use_each_method_78": "Wann Sie die einzelnen Methoden anwenden sollten",
+  "formulas_79": "Formeln:",
+  "quick_estimates_medical_dosing_80": "Schnelle Schätzungen, medizinische Dosierung",
+  "bmi_range_81": "BMI-Bereich:",
+  "general_health_guidelines_82": "Allgemeine Gesundheitsrichtlinien",
+  "professional_assessment_83": "Fachliche Beurteilung:",
+  "body_composition_analysis_84": "Analyse der Körperzusammensetzung",
+  "personal_goals_85": "Persönliche Ziele:",
+  "consider_fitness_and_health_status_86": "Berücksichtigen Sie Fitness und Gesundheitszustand"
+}

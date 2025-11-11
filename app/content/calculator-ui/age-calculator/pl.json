@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Kalkulator wieku",
+  "pageDescription": "Oblicz wiek w latach, miesiącach i dniach na podstawie daty urodzenia, korzystając z dokładnych obliczeń, w tym lat przestępnych",
+  "form": {
+    "labels": {
+      "birthDate": "Data urodzenia",
+      "calculationDate": "Data obliczenia",
+      "includeTime": "Uwzględnić czas?",
+      "birthTime": "Czas urodzenia",
+      "calculationTime": "Czas obliczeń"
+    },
+    "placeholders": {
+      "birthTime": "Podaj godzinę urodzenia (opcjonalnie)",
+      "calculationTime": "Podaj czas obliczeń (opcjonalnie)"
+    },
+    "buttons": {
+      "calculate": "Oblicz wiek",
+      "reset": "Nastawić"
+    },
+    "yesNo": {
+      "yes": "Tak",
+      "no": "NIE"
+    }
+  },
+  "results": {
+    "age": "Wiek",
+    "years": "Lata",
+    "months": "Miesiące",
+    "days": "Dni",
+    "hours": "Godziny",
+    "minutes": "Protokół",
+    "ageResultsTitle": "Wyniki wieku",
+    "preciseAge": "Dokładny wiek"
+  },
+  "educational": {
+    "ageInfo": "Informacje dotyczące obliczania wieku",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Dodatkowe zasoby",
+    "ageFacts": {
+      "leapYears": {
+        "title": "Lata przestępne",
+        "description": "Nasz kalkulator uwzględnia lata przestępne (366 dni) w obliczeniach wieku"
+      },
+      "precision": {
+        "title": "Precyzja obliczeń",
+        "description": "Obliczenia uwzględniają miesiące o różnych dniach (28, 30, 31 dni)"
+      },
+      "timeZones": {
+        "title": "Strefy czasowe",
+        "description": "Przy obliczaniu wieku w różnych regionach należy wziąć pod uwagę strefy czasowe"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten służy wyłącznie do obliczania wieku",
+      "accuracy": "Zapewnij dokładne wprowadzanie daty i godziny, aby uzyskać dokładne wyniki"
+    },
+    "importantNotesList": [
+      "Obliczenia wieku uwzględniają różne długości miesięcy i lata przestępne",
+      "Obliczenia oparte na czasie wymagają dokładnych informacji o strefie czasowej",
+      "Ustawowe definicje wieku różnią się w zależności od jurysdykcji i celu",
+      "Weź pod uwagę różnice kulturowe w metodach obliczania wieku"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź datę urodzenia i datę obliczenia, aby określić wiek",
+    "resultMessage": "Twój obliczony wiek jest pokazany poniżej",
+    "assessmentResult": "Wynik obliczenia wieku:",
+    "ageAnalysis": "Analiza wieku"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia obliczenia wieku w oparciu o standardowe metody kalendarzowe. Wyniki służą ogólnym celom informacyjnym i mogą nie spełniać wymogów prawnych lub oficjalnych dotyczących dokumentacji."
+  },
+  "seekHelp": {
+    "title": "Dodatkowe zasoby",
+    "content": "W celu ustalenia wieku prawnego lub oficjalnej dokumentacji należy skonsultować się z odpowiednimi agencjami rządowymi lub prawnikami w swojej jurysdykcji."
+  },
+  "errors": {
+    "birthDate": "Proszę podać prawidłową datę urodzenia",
+    "calculationDate": "Proszę podać prawidłową datę obliczenia",
+    "birthTime": "Proszę podać prawidłową godzinę urodzenia",
+    "calculationTime": "Proszę podać prawidłowy czas obliczeń"
+  },
+  "tooltips": {
+    "birthDate": "Twoja data urodzenia",
+    "calculationDate": "Data, od której obliczany jest wiek (domyślnie: dzisiaj)",
+    "birthTime": "Opcjonalnie: godzina urodzenia w celu dokładniejszych obliczeń",
+    "calculationTime": "Opcjonalnie: Czas na obliczenia w celu uzyskania dokładniejszych wyników"
+  },
+  "loading_0": "Załadunek...",
+  "how_it_works_1": "Jak to działa:",
+  "the_calculator_uses_precise_calendar_arithmetic_to_2": "Kalkulator wykorzystuje precyzyjną arytmetykę kalendarzową do obsługi przeskoku\n                        lata, różne długości miesięcy i strefy czasowe.",
+  "results_include_both_exact_age_breakdown_and_total_3": "Wyniki obejmują zarówno dokładny podział na wiek, jak i całkowity czas w każdej jednostce.",
+  "from_4": "Z",
+  "to_5": "Do",
+  "enter_your_dates_and_click_6": "Wpisz daty i kliknij",
+  "calculate_7": "Obliczać",
+  "to_see_your_exact_age_8": "do\n                          zobacz swój dokładny wiek.",
+  "years_9": "Lata",
+  "months_10": "Miesiące",
+  "weeks_11": "Tygodnie",
+  "days_12": "Dni",
+  "sample_calculation_13": "Przykładowe obliczenia",
+  "age_calculation_1": "Obliczanie wieku",
+  "enter_your_birth_date_and_target_date_to_calculate_2": "Wprowadź swoją datę urodzenia i datę docelową, aby obliczyć dokładny wiek",
+  "date_of_birth_3": "Data urodzenia",
+  "target_date_4": "Data docelowa",
+  "how_it_works_5": "Jak to działa:",
+  "the_calculator_uses_precise_calendar_arithmetic_to_6": "Kalkulator wykorzystuje precyzyjną arytmetykę kalendarzową do obsługi przeskoku\n                        lata, różne długości miesięcy i strefy czasowe.",
+  "results_include_both_exact_age_breakdown_and_total_7": "Wyniki obejmują zarówno dokładny podział na wiek, jak i całkowity czas w każdej jednostce.",
+  "calculate_8": "Obliczać",
+  "your_age_9": "Twój wiek",
+  "years_10": "Lata",
+  "months_11": "Miesiące",
+  "weeks_12": "Tygodnie",
+  "days_13": "Dni",
+  "from_14": "Z",
+  "to_15": "Do",
+  "enter_your_dates_and_click_16": "Wpisz daty i kliknij",
+  "calculate_17": "Obliczać",
+  "to_see_your_exact_age_18": "do\n                          zobacz swój dokładny wiek.",
+  "detailed_age_breakdown_19": "Szczegółowy podział wieku",
+  "years_20": "Lata",
+  "months_21": "Miesiące",
+  "weeks_22": "Tygodnie",
+  "days_23": "Dni",
+  "hours_24": "Godziny",
+  "minutes_25": "Protokół",
+  "seconds_26": "Towary drugiej jakości",
+  "understanding_age_calculation_27": "Zrozumienie obliczania wieku",
+  "how_age_is_calculated_28": "Jak oblicza się wiek",
+  "age_calculation_involves_precise_calendar_arithmet_29": "Obliczanie wieku obejmuje precyzyjną arytmetykę kalendarzową uwzględniającą lata przestępne i różne miesiące\n                        długości ciała oraz zachodni system wieku, w którym wiek wzrasta dopiero po upływie urodzin.",
+  "key_features_30": "Kluczowe funkcje",
+  "handles_leap_years_automatically_31": "Automatycznie obsługuje lata przestępne",
+  "accounts_for_months_with_different_day_counts_32": "Konta dla miesięcy z różną liczbą dni",
+  "provides_both_exact_breakdown_and_total_units_33": "Zapewnia zarówno dokładny podział, jak i jednostki całkowite",
+  "uses_western_age_counting_system_34": "Korzysta z zachodniego systemu liczenia wieku",
+  "sample_calculation_35": "Przykładowe obliczenia",
+  "example_36": "Przykład:",
+  "birth_date_january_1_2000_37": "Data urodzenia: 1 stycznia 2000 r",
+  "target_date_august_22_2025_38": "Data docelowa: 22 sierpnia 2025 r",
+  "result_25_years_7_months_21_days_39": "Wynik: 25 lat, 7 miesięcy, 21 dni",
+  "the_calculator_also_provides_the_total_time_in_wee_40": "Kalkulator podaje również całkowity czas w tygodniach, dniach, godzinach, minutach i sekundach\n                        kompleksowa analiza wieku."
+}

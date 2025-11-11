@@ -1,0 +1,131 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Entenda seu IMC e status de excesso de peso",
+      "content": "Manter um peso saudável é crucial para o bem-estar geral, e a Calculadora de Excesso de Peso é uma ferramenta simples para ajudá-lo a entender o seu peso corporal em relação à sua altura. Esta calculadora utiliza o Índice de Massa Corporal (IMC), um método padrão recomendado pelas autoridades de saúde para avaliar categorias de peso e potenciais riscos para a saúde."
+    },
+    {
+      "heading": "O que é IMC?",
+      "content": "O IMC (Índice de Massa Corporal) é uma medida que usa sua altura e peso para estimar se você está abaixo do peso, peso normal, sobrepeso ou obesidade. Embora não meça diretamente a gordura corporal, fornece um indicador confiável para a maioria dos adultos.",
+      "subSections": [
+        {
+          "heading": "Pontos-chave",
+          "content": "• Fácil de calcular com seu peso e altura\n• Ajuda a classificar categorias de peso\n• Útil para adultos e crianças"
+        }
+      ]
+    },
+    {
+      "heading": "Faixa de IMC com excesso de peso",
+      "content": "A escala de IMC classifica o peso da seguinte forma:",
+      "subSections": [
+        {
+          "heading": "Abaixo do peso",
+          "content": "IMC < 18,5"
+        },
+        {
+          "heading": "Peso normal",
+          "content": "IMC 18,5 – 24,9"
+        },
+        {
+          "heading": "Sobrepeso",
+          "content": "IMC 25 – 29,9"
+        },
+        {
+          "heading": "Obeso",
+          "content": "IMC ≥ 30"
+        }
+      ]
+    },
+    {
+      "heading": "Como calcular o IMC",
+      "content": "Você pode calcular o IMC usando diferentes métodos:",
+      "subSections": [
+        {
+          "heading": "Fórmula Métrica",
+          "content": "IMC = peso (kg) ÷ altura² (m²)"
+        },
+        {
+          "heading": "Fórmula Imperial",
+          "content": "IMC = peso (lbs) ÷ altura² (pol²) × 703"
+        },
+        {
+          "heading": "Calculadora de IMC on-line",
+          "content": "Ou simplesmente use nossa calculadora de IMC online gratuita abaixo para obter resultados instantâneos."
+        }
+      ]
+    },
+    {
+      "heading": "IMC vs. porcentagem de gordura corporal",
+      "content": "O IMC dá uma ideia geral do peso, mas não distingue entre músculo e gordura. Para uma avaliação de saúde mais detalhada, considere a análise da composição corporal ou a combinação do IMC com a circunferência da cintura."
+    },
+    {
+      "heading": "Por que usar uma calculadora de peso saudável?",
+      "content": "Usar esta calculadora de IMC para controle de peso, avaliação de saúde ou monitoramento de condicionamento físico pode ajudá-lo:",
+      "subSections": [
+        {
+          "heading": "Benefícios",
+          "content": "• Monitore as tendências de peso ao longo do tempo\n• Compreender os riscos para a saúde associados ao excesso de peso e à obesidade\n• Compare o IMC com outras medidas, como Índice Ponderal ou relação cintura/altura"
+        }
+      ]
+    },
+    {
+      "heading": "Recursos baseados em ferramentas",
+      "content": "Nossa calculadora foi projetada para oferecer conveniência e precisão:",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "• Calculadora de IMC on-line – acessível em qualquer lugar\n• Calculadora de IMC gratuita – não é necessária inscrição\n• Calculadora de IMC com idade – adaptada para diferentes faixas etárias\n• Calculadora de IMC métrica e imperial - escolha suas unidades preferidas\n• Calculadora de IMC para perda de peso, condicionamento físico e avaliação geral da saúde"
+        }
+      ]
+    },
+    {
+      "heading": "Insights de saúde: IMC e riscos para a saúde",
+      "content": "Compreender o seu IMC pode ajudá-lo a tomar medidas proativas para melhorar a saúde:",
+      "subSections": [
+        {
+          "heading": "IMC e doenças cardíacas",
+          "content": "Um IMC mais elevado aumenta o risco cardiovascular."
+        },
+        {
+          "heading": "IMC e diabetes",
+          "content": "Indivíduos com sobrepeso são mais propensos ao diabetes tipo 2."
+        },
+        {
+          "heading": "IMC e apneia do sono",
+          "content": "O excesso de peso pode afetar a respiração durante o sono."
+        },
+        {
+          "heading": "Níveis de IMC e colesterol",
+          "content": "O IMC com excesso de peso geralmente se correlaciona com colesterol mais alto."
+        },
+        {
+          "heading": "IMC e atividade física",
+          "content": "Manter hábitos ativos melhora o IMC e a saúde geral."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O IMC é preciso para todos?",
+      "a": "O IMC é uma boa diretriz geral, mas pode não refletir totalmente a gordura corporal de atletas, mulheres grávidas ou idosos. Combine-o com outras medidas para uma avaliação precisa."
+    },
+    {
+      "q": "As crianças podem usar esta calculadora?",
+      "a": "Sim! Nossa calculadora inclui IMC para crianças e gráficos de IMC específicos para idade e sexo."
+    },
+    {
+      "q": "Com que frequência devo verificar meu IMC?",
+      "a": "Verifique seu IMC periodicamente – mensalmente ou trimestralmente – para monitorar tendências e fazer ajustes no estilo de vida conforme necessário."
+    },
+    {
+      "q": "O que devo fazer se meu IMC mostrar excesso de peso?",
+      "a": "Consulte um profissional de saúde para orientação personalizada. Concentre-se em nutrição balanceada, atividade física regular e estratégias de controle de peso."
+    },
+    {
+      "q": "O IMC pode prever problemas de saúde?",
+      "a": "O IMC é uma ferramenta de triagem útil para classificação da obesidade e riscos à saúde associados, mas não diagnostica condições. Combine-o com outras avaliações para obter uma imagem completa."
+    }
+  ]
+}

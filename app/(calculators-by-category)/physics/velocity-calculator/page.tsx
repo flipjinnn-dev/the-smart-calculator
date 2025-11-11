@@ -1,18 +1,22 @@
 "use client"
 
+import { useCalculatorContent } from "@/hooks/useCalculatorContent"
+import { usePathname } from "next/navigation"
 import { useRef, useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import Link from "next/link"
 import { Zap, Clock, Ruler } from "lucide-react"
-import Logo from "@/components/logo"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
-import SEO from "@/lib/seo"
 
-export default function VelocityCalculator() {
+
+export default function VelocityCalculatorCalculator() {
+  const pathname = usePathname()
+  const language = pathname.split('/')[1] || 'en'
+  const { content, loading, error: contentError } = useCalculatorContent('velocity-calculator', language)
+  
   const resultsRef = useRef<HTMLDivElement>(null)
   const scrollToRef = useMobileScroll()
   const [tab, setTab] = useState("simple")
@@ -32,6 +36,31 @@ export default function VelocityCalculator() {
     { velocity: 10, time: 2 },
     { velocity: 20, time: 3 },
   ])
+
+  // Use content or fallback to defaults (after all hooks)
+  const contentData = content || {
+    pageTitle: "Velocity Calculator Calculator",
+    pageDescription: "Calculate calculator with our free online calculator",
+    form: {
+      labels: {},
+      placeholders: {},
+      buttons: {
+        calculate: "Calculate",
+        reset: "Reset"
+      }
+    },
+    results: {}
+  }
+
+  // Show loading state
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+  }
+
+  // Show error if content failed to load
+  if (contentError) {
+    console.error('Error loading content:', contentError);
+  }
 
   const addSegment = () => {
     setSegments([...segments, { velocity: 0, time: 0 }])
@@ -167,48 +196,8 @@ export default function VelocityCalculator() {
 
   return (
     <>
-<SEO
-  title="Velocity Calculator – Speed & Motion Finder"
-  description="Find velocity quickly with our free calculator. Calculate speed, distance, and time for physics, motion, and real-life applications."
-  keywords="velocity calculator, speed calculator, motion calculator, physics velocity tool"
-  slug="/physics/velocity-calculator"
-/>
+
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link
-                    href="/"
-                    className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
-                  >
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">Velocity Calculator</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-blue-600">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <Link href="/physics" className="text-gray-500 hover:text-blue-600">
-                Physics
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Velocity Calculator</span>
-            </div>
-          </div>
-        </nav>
 
         {/* Main Content */}
         <main className="py-8 px-4 sm:px-6 lg:px-8">
@@ -219,11 +208,8 @@ export default function VelocityCalculator() {
                   <Zap className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Velocity Calculator</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Calculate velocity using various physics formulas including simple velocity, acceleration-based
-                calculations, and weighted averages.
-              </p>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

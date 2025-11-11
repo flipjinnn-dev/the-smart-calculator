@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Calculadora de Período",
+  "pageDescription": "Calcule o período com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular Período",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo do período"
+  },
+  "educational": {
+    "info": "Informações do Período",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de período",
+        "description": "Informações sobre o período"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como o período é calculado"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos do período"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de período",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular o período",
+    "resultMessage": "Os resultados do cálculo do período são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do período:",
+    "analysis": "Análise do Período"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de período com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "period_tracking_0": "Acompanhamento de período",
+  "enter_your_cycle_details_to_predict_your_next_peri_1": "Insira os detalhes do seu ciclo para prever sua próxima menstruação e dias férteis",
+  "first_day_of_your_last_period_lmp_2": "Primeiro dia da sua última menstruação (DUM) *",
+  "average_cycle_length_days_3": "Duração média do ciclo (dias) *",
+  "days_4": "dias",
+  "default_is_28_days_range_2244_days_5": "O padrão é 28 dias. Faixa: 22-44 dias",
+  "average_period_length_days_6": "Duração média do período (dias)",
+  "days_7": "dias",
+  "default_is_5_days_range_310_days_8": "O padrão é 5 dias. Intervalo: 3-10 dias",
+  "calculate_9": "Calcular",
+  "reset_10": "Reiniciar",
+  "next_period_11": "Próximo período",
+  "expected_period_start_12": "Início esperado do período",
+  "cycle_length_13": "Duração do ciclo:",
+  "days_14": "dias",
+  "enter_your_cycle_details_to_predict_your_next_peri_15": "Insira os detalhes do seu ciclo para prever sua próxima menstruação.",
+  "your_period_results_16": "Resultados do seu período",
+  "current_cycle_17": "Ciclo Atual",
+  "next_period_start_18": "Início do próximo período:",
+  "estimated_ovulation_19": "Ovulação estimada:",
+  "fertile_window_20": "Janela Fértil:",
+  "cycle_information_21": "Informações do ciclo",
+  "cycle_length_22": "Duração do ciclo:",
+  "days_23": "dias",
+  "period_length_24": "Duração do período:",
+  "days_25": "dias",
+  "last_period_26": "Último período:",
+  "k_6month_forecast_27": "Previsão de 6 meses",
+  "month_28": "Mês",
+  "period_start_29": "Início do período",
+  "period_end_30": "Fim do período",
+  "ovulation_31": "Ovulação",
+  "fertile_window_32": "Janela Fértil",
+  "understanding_your_cycle_33": "Compreendendo seu ciclo",
+  "menstrual_cycle_phases_34": "Fases do Ciclo Menstrual",
+  "menstrual_phase_35": "Fase Menstrual:",
+  "days_15_period_bleeding_36": "Dias 1-5 (sangramento menstrual)",
+  "follicular_phase_37": "Fase Folicular:",
+  "days_113_egg_development_38": "Dias 1-13 (desenvolvimento do ovo)",
+  "ovulation_39": "Ovulação:",
+  "around_day_14_egg_release_40": "Por volta do dia 14 (liberação do óvulo)",
+  "luteal_phase_41": "Fase Lútea:",
+  "days_1528_preparation_for_pregnancy_42": "Dias 15-28 (preparação para gravidez)",
+  "calculation_method_43": "Método de cálculo",
+  "next_period_44": "Próximo período:",
+  "lmp_cycle_length_45": "DUM + duração do ciclo",
+  "ovulation_46": "Ovulação:",
+  "lmp_cycle_length_14_47": "LMP + (Comprimento do Ciclo - 14)",
+  "fertile_window_48": "Janela Fértil:",
+  "ovulation_2_days_49": "Ovulação ± 2 dias",
+  "forecast_50": "Previsão:",
+  "repeat_for_next_6_cycles_51": "Repita nos próximos 6 ciclos",
+  "fertility_timing_52": "Fertilidade e tempo",
+  "most_fertile_53": "Mais fértil:",
+  "k_2_days_before_ovulation_54": "2 dias antes da ovulação",
+  "fertile_window_55": "Janela fértil:",
+  "k_5_days_total_around_ovulation_56": "5 dias no total em torno da ovulação",
+  "sperm_survival_57": "Sobrevivência do esperma:",
+  "up_to_5_days_in_reproductive_tract_58": "Até 5 dias no trato reprodutivo",
+  "egg_survival_59": "Sobrevivência do ovo:",
+  "k_1224_hours_after_ovulation_60": "12-24 horas após a ovulação",
+  "important_notes_61": "Notas importantes",
+  "this_calculator_provides_estimates_based_on_averag_62": "Esta calculadora fornece estimativas baseadas em ciclos médios",
+  "actual_cycles_can_vary_due_to_stress_illness_or_li_63": "Os ciclos reais podem variar devido ao estresse, doença ou estilo de vida",
+  "track_your_cycle_for_3_months_for_better_accuracy_64": "Acompanhe seu ciclo por mais de 3 meses para melhor precisão",
+  "consult_healthcare_providers_for_irregular_cycles_65": "Consulte profissionais de saúde para ciclos irregulares"
+}

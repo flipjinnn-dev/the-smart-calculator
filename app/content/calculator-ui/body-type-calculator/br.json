@@ -1,0 +1,178 @@
+{
+  "pageTitle": "Calculadora de tipo de corpo",
+  "pageDescription": "Descubra seu tipo de corpo com base em medidas com nossa calculadora abrangente de tipo de corpo",
+  "form": {
+    "labels": {
+      "age": "Idade (anos)",
+      "gender": "Gênero",
+      "height": "Altura",
+      "weight": "Peso",
+      "unitSystem": "Sistema de Unidades",
+      "bustChest": "Circunferência do busto/tórax",
+      "waist": "Circunferência da cintura",
+      "hip": "Circunferência do quadril",
+      "shoulder": "Largura dos ombros (somente homens)"
+    },
+    "placeholders": {
+      "age": "Insira a idade",
+      "heightFt": "Pés",
+      "heightIn": "Polegadas",
+      "heightCm": "Insira a altura em cm",
+      "weight": "Insira o peso em {unit}",
+      "bustChest": "Insira a medida do busto/tórax",
+      "waist": "Insira a medida da cintura",
+      "hip": "Insira a medida do quadril",
+      "shoulder": "Insira a largura dos ombros"
+    },
+    "buttons": {
+      "calculate": "Calcular tipo de corpo",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades dos EUA (pés/pol., lb)",
+      "metric": "Unidades Métricas (cm, kg)"
+    }
+  },
+  "results": {
+    "bodyType": "Tipo de corpo",
+    "measurements": "Suas medidas",
+    "bodyTypeResultsTitle": "Resultados de tipo corporal",
+    "whr": "Relação cintura-quadril",
+    "bodyTypes": {
+      "hourglass": "Ampulheta",
+      "pear": "Pera",
+      "apple": "Maçã",
+      "rectangle": "Retângulo",
+      "invertedTriangle": "Triângulo Invertido"
+    }
+  },
+  "educational": {
+    "bodyTypeInfo": "Informações sobre o tipo de corpo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Consulte um profissional",
+    "bodyTypeDescriptions": {
+      "hourglass": {
+        "title": "Ampulheta",
+        "description": "Medidas equilibradas de busto e quadril com cintura bem definida"
+      },
+      "pear": {
+        "title": "Pera",
+        "description": "Quadris e coxas mais largos com busto e ombros mais estreitos"
+      },
+      "apple": {
+        "title": "Maçã",
+        "description": "Cintura e parte superior do corpo mais largas com quadris mais estreitos"
+      },
+      "rectangle": {
+        "title": "Retângulo",
+        "description": "Medidas semelhantes para busto, cintura e quadris"
+      },
+      "invertedTriangle": {
+        "title": "Triângulo Invertido",
+        "description": "Ombros e busto mais largos com quadris mais estreitos"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas e não é uma ferramenta de diagnóstico",
+      "generalGuidelines": "Os tipos de corpo são diretrizes gerais e podem não se aplicar a todos"
+    },
+    "importantNotesList": [
+      "O tipo de corpo pode influenciar as escolhas de condicionamento físico e estilo",
+      "Concentre-se na saúde geral em vez de atingir um tipo de corpo específico",
+      "Consulte profissionais de saúde para aconselhamento personalizado",
+      "O tipo corporal pode mudar com a idade, nível de condicionamento físico e outros fatores"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Insira suas medidas para determinar seu tipo de corpo",
+    "bodyTypeResult": "Seu tipo de corpo é: {bodyType}",
+    "whrResult": "Sua proporção cintura-quadril é: {whr}",
+    "measurementInstructions": "Faça medições na parte mais cheia de cada área",
+    "assessmentResult": "Resultado da Avaliação:",
+    "bodyTypeAnalysis": "Análise do tipo corporal"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas baseadas em fórmulas matemáticas e não deve ser usada como um substituto para aconselhamento profissional. Os resultados individuais podem variar com base em fatores não considerados nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Consulte um profissional de saúde",
+    "content": "Para obter conselhos personalizados sobre saúde e condicionamento físico, consulte um profissional de saúde ou um preparador físico certificado que possa fornecer orientação com base em seu histórico completo de saúde e nas circunstâncias individuais."
+  },
+  "errors": {
+    "age": "Insira uma idade válida (1-120)",
+    "gender": "Por favor selecione o sexo",
+    "heightFt": "Por favor insira pés válidos",
+    "heightIn": "Insira polegadas válidas (0-11)",
+    "heightCm": "Por favor insira uma altura válida em cm",
+    "weight": "Por favor insira um peso válido",
+    "bustChest": "Por favor insira uma medida válida de busto/peito",
+    "waist": "Por favor insira uma medida de cintura válida",
+    "hip": "Insira uma medida válida do quadril",
+    "shoulder": "Insira uma largura de ombro válida"
+  },
+  "tooltips": {
+    "age": "A idade pode afetar a composição corporal",
+    "height": "Sua medida de altura atual",
+    "weight": "Seu peso corporal atual",
+    "bustChest": "Meça na parte mais larga do seu busto ou peito",
+    "waist": "Meça na parte mais estreita do seu tronco",
+    "hip": "Meça na parte mais larga dos seus quadris",
+    "shoulder": "Meça nas costas, de ombro a ombro (somente homens)"
+  },
+  "body_measurements_0": "Medidas Corporais",
+  "enter_your_measurements_to_determine_body_shape_an_1": "Insira suas medidas para determinar a forma do corpo e a relação cintura-quadril",
+  "unit_system_2": "Sistema de Unidades",
+  "inches_3": "Polegadas",
+  "centimeters_4": "Centímetros",
+  "bust_size_5": "Tamanho do busto (",
+  "waist_size_6": "Tamanho da cintura (",
+  "high_hip_size_7": "Tamanho alto do quadril (",
+  "measured_about_7_inches_18_cm_below_waist_8": "Mediu cerca de 7 polegadas/18 cm abaixo da cintura",
+  "hip_size_9": "Tamanho do quadril (",
+  "measured_at_the_widest_part_of_hips_10": "Medido na parte mais larga dos quadris",
+  "calculate_type_11": "Calcular Tipo",
+  "reset_12": "Reiniciar",
+  "body_analysis_13": "Análise Corporal",
+  "whr_14": "RCQ:",
+  "enter_all_measurements_and_click_calculate_type_to_15": "Insira todas as medidas e clique em “Calcular Tipo” para ver sua análise.",
+  "body_type_analysis_results_16": "Resultados da análise do tipo corporal",
+  "body_shape_classification_17": "Classificação da forma corporal",
+  "classification_logic_18": "Lógica de Classificação:",
+  "waisthip_ratio_whr_19": "Relação cintura-quadril (RCQ)",
+  "waist_hip_ratio_20": "Cintura ÷ Relação Quadril",
+  "women_21": "Mulheres:",
+  "k_085_low_risk_085_higher_risk_22": "≤0,85 Baixo risco, >0,85 Alto risco",
+  "men_23": "Homens:",
+  "k_090_low_risk_090_higher_risk_24": "≤0,90 Baixo risco, >0,90 Alto risco",
+  "your_measurements_25": "Suas medidas",
+  "bust_26": "Busto:",
+  "waist_27": "Cintura:",
+  "high_hip_28": "Quadril alto:",
+  "hip_29": "Quadril:",
+  "important_notice_30": "Aviso importante",
+  "this_tool_is_for_informational_purposes_only_and_n_31": "Esta ferramenta é apenas para fins informativos e não substitui o aconselhamento médico. Corpo\n                            as classificações de forma são diretrizes gerais e as variações individuais são normais.",
+  "understanding_body_types_whr_32": "Compreendendo os tipos de corpo e RCQ",
+  "body_shape_types_33": "Tipos de formato corporal",
+  "hourglass_34": "Ampulheta:",
+  "balanced_bust_and_hips_with_defined_waist_35": "Busto e quadris equilibrados com cintura definida",
+  "bottom_hourglass_36": "Ampulheta inferior:",
+  "slightly_larger_hips_with_defined_waist_37": "Quadris ligeiramente maiores com cintura definida",
+  "top_hourglass_38": "Ampulheta superior:",
+  "slightly_larger_bust_with_defined_waist_39": "Busto um pouco maior e cintura definida",
+  "spoon_40": "Colher:",
+  "fuller_hips_and_thighs_smaller_bust_41": "Quadris e coxas mais cheios, busto menor",
+  "triangle_pear_42": "Triângulo (Pêra):",
+  "larger_hips_than_bust_43": "Quadris maiores que o busto",
+  "inverted_triangle_44": "Triângulo Invertido:",
+  "larger_bust_than_hips_45": "Busto maior que quadris",
+  "rectangle_46": "Retângulo:",
+  "similar_bust_waist_and_hip_measurements_47": "Medidas semelhantes de busto, cintura e quadril",
+  "health_significance_48": "Significado para a saúde",
+  "whr_health_risks_49": "Riscos para a saúde do RCQ:",
+  "higher_whr_indicates_more_abdominal_fat_associated_50": "RCQ mais alta indica mais gordura abdominal, associada a risco aumentado de doenças cardiovasculares\n                              doenças e diabetes.",
+  "body_shape_health_51": "Forma corporal e saúde:",
+  "apple_shapes_higher_whr_may_have_higher_health_ris_52": "Os formatos de maçã (RCQ mais alta) podem apresentar maiores riscos à saúde do que os formatos de pêra, mas indivíduos\n                              os fatores variam muito."
+}

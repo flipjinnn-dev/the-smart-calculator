@@ -1,0 +1,116 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist ein Investitionsrechner?",
+      "subSections": [
+        {
+          "heading": "Definition",
+          "content": "Ein Anlagerechner ist ein kostenloses Online-Tool, das den zukünftigen Wert Ihres Geldes auf der Grundlage von Pauschalbeträgen, monatlichen Beiträgen, Zinssätzen und der Häufigkeit der Aufzinsung schätzt."
+        },
+        {
+          "heading": "Zweck",
+          "content": "Es bietet schnelle Einblicke in das Wachstum Ihrer Ersparnisse oder Investitionen im Laufe der Zeit und macht die Finanzplanung einfacher und intelligenter."
+        }
+      ]
+    },
+    {
+      "heading": "So funktioniert unser kostenloser Investitionsrechner",
+      "subSections": [
+        {
+          "heading": "Eingaben, die Sie anpassen können",
+          "content": "- Erstinvestitionsbetrag (Pauschalbetrag)\n- Monatliche Beiträge (SIP/wiederkehrende Einzahlungen)\n- Aufzinsungshäufigkeit (monatlich, vierteljährlich, jährlich)\n- Erwartete Rendite (Aktien, Anleihen, Ersparnisse)\n- Anlagedauer (Jahre)\n- Inflations- oder Steueranpassung (optional)"
+        },
+        {
+          "heading": "Berechnungsmethode",
+          "content": "Der Rechner wendet Zinseszinsformeln an, um den zukünftigen Wert zu prognostizieren. Es zeigt, wie sich Beiträge und Erträge im Laufe der Zeit ansammeln."
+        },
+        {
+          "heading": "Flexibilität",
+          "content": "Sie können das Pauschalwachstum berechnen, SIP mit einmaligen Einlagen vergleichen oder Börsenrenditen simulieren."
+        }
+      ]
+    },
+    {
+      "heading": "Vorteile und Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Ruhestandsplanung",
+          "content": "Schätzen Sie Ihren zukünftigen Notgroschen mit oder ohne Inflationsanpassungen."
+        },
+        {
+          "heading": "Szenariovergleich",
+          "content": "Visualisieren Sie Unterschiede zwischen monatlichen und jährlichen Beiträgen und der Aufzinsung."
+        },
+        {
+          "heading": "Visualisierung des Vermögenswachstums",
+          "content": "Verstehen Sie die langfristige Kraft zusammengesetzter Renditen."
+        },
+        {
+          "heading": "Zielsetzung",
+          "content": "Planen Sie Meilensteine ​​wie den Kauf eines Hauses, die Ausbildung Ihres Kindes oder den Vorruhestand ein."
+        },
+        {
+          "heading": "Inflationstest",
+          "content": "Prüfen Sie, wie sich die Inflation auf die tatsächliche Kaufkraft Ihrer Ersparnisse auswirkt."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielszenarien",
+      "subSections": [
+        {
+          "heading": "Monatliche Beiträge",
+          "content": "500 US-Dollar pro Monat, die über 20 Jahre bei einer jährlichen Rendite von 8 % investiert werden, wachsen mit Aufzinsung auf über 295.000 US-Dollar."
+        },
+        {
+          "heading": "Pauschalinvestition",
+          "content": "Eine einmalige Investition von 10.000 US-Dollar mit einer jährlichen Rendite von 7 % über 15 Jahre wächst auf etwa 27.590 US-Dollar."
+        },
+        {
+          "heading": "Schätzung des Ruhestands",
+          "content": "Durch die Kombination von Pauschalbetrag und monatlichen Beiträgen können Sie eine inflationsbereinigte Altersvorsorge planen."
+        }
+      ]
+    },
+    {
+      "heading": "Investitionsrechner im Vergleich zu anderen Tools",
+      "subSections": [
+        {
+          "heading": "Sparrechner",
+          "content": "Konzentriert sich auf das Wachstum fester Einlagen, nicht auf variable Anlagerenditen."
+        },
+        {
+          "heading": "Kreditrechner",
+          "content": "Berechnet Rückzahlungspläne, während Investitionsrechner zukünftige Wertsteigerungen anzeigen."
+        },
+        {
+          "heading": "Ruhestandsrechner",
+          "content": "Ruhestandstools konzentrieren sich auf Abhebungen und Einkommen, während sich Anlagerechner auf die Akkumulation konzentrieren."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viel wird meine Investition in 10 Jahren wert sein?",
+      "a": "Dies hängt von Ihrem Anfangsbetrag, den monatlichen Beiträgen, dem Zinssatz und der Häufigkeit der Aufzinsung ab. Für genaue Ergebnisse nutzen Sie den Rechner."
+    },
+    {
+      "q": "Wie hoch ist der zukünftige Wert einer monatlichen Investition von 500 $?",
+      "a": "Bei einer jährlichen Rendite von 8 % wachsen 500 US-Dollar/Monat über 20 Jahre mit Aufzinsung auf über 295.000 US-Dollar."
+    },
+    {
+      "q": "Berücksichtigt der Anlagerechner die Inflation?",
+      "a": "Ja, Sie können die Inflation anpassen, um den tatsächlichen Wert Ihrer Investitionen zu ermitteln."
+    },
+    {
+      "q": "Wie berechne ich die Gesamtrendite automatisch?",
+      "a": "Geben Sie einfach Ihre Eingaben (Betrag, Satz, Zeit, Beiträge) ein und der Rechner berechnet sofort die Ergebnisse."
+    },
+    {
+      "q": "Welcher ist der beste kostenlose Online-Investitionsrechner?",
+      "a": "Zu den besten Rechnern gehören Pauschalbeträge + SIP-Optionen, monatliche Beiträge und Inflationsanpassungen – wie dieser hier."
+    }
+  ]
+}

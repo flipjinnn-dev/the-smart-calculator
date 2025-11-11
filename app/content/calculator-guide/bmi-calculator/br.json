@@ -1,0 +1,183 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de IMC?",
+      "content": "Uma calculadora de IMC (calculadora de índice de massa corporal) é uma ferramenta de saúde que mede a gordura corporal com base na altura e no peso. Fornece uma pontuação de IMC que se enquadra em categorias como baixo peso, normal, sobrepeso ou obesidade. <br><br>Nossa calculadora de IMC on-line gratuita suporta kg e cm e libras e polegadas, tornando-a útil em todo o mundo (EUA, Reino Unido, Índia, Paquistão, Canadá, Austrália, etc.)."
+    },
+    {
+      "heading": "Definição e cálculo do IMC",
+      "content": "O IMC é calculado usando altura e peso. <br><br><strong>Fórmula (Métrica):</strong> IMC = Peso (kg) ÷ Altura (m)² <br><strong>Fórmula (Imperial):</strong> IMC = (Peso (lbs) × 703) ÷ Altura (pol.)²"
+    },
+    {
+      "heading": "Como calcular o IMC online (guia passo a passo)",
+      "content": "Passos para calcular o IMC usando nossa calculadora online gratuita:",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Escolha sua unidade de medida: kg/cm ou lbs/polegadas."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Insira seu peso em quilogramas ou libras."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Insira sua altura em centímetros ou polegadas."
+        },
+        {
+          "heading": "Etapa 4",
+          "content": "Selecione idade e sexo (opcional) para obter melhores insights."
+        },
+        {
+          "heading": "Etapa 5",
+          "content": "Clique em Calcular IMC → Veja instantaneamente sua pontuação e categoria de IMC."
+        }
+      ]
+    },
+    {
+      "heading": "Categorias de IMC (tabela de IMC padrão da OMS)",
+      "subSections": [
+        {
+          "heading": "Abaixo do peso",
+          "content": "Abaixo de 18,5"
+        },
+        {
+          "heading": "Peso normal",
+          "content": "18,5 – 24,9"
+        },
+        {
+          "heading": "Sobrepeso",
+          "content": "25 – 29,9"
+        },
+        {
+          "heading": "Obesidade (Classe 1)",
+          "content": "30 – 34,9"
+        },
+        {
+          "heading": "Obesidade (Classe 2)",
+          "content": "35 – 39,9"
+        },
+        {
+          "heading": "Obesidade (Classe 3/Grave)",
+          "content": "40+"
+        }
+      ]
+    },
+    {
+      "heading": "Por que usar uma calculadora de IMC?",
+      "subSections": [
+        {
+          "heading": "Acompanhe metas de condicionamento físico",
+          "content": "Monitore o progresso com uma calculadora de IMC de condicionamento físico."
+        },
+        {
+          "heading": "Compare IMC vs gordura corporal",
+          "content": "Útil para atletas e usuários de academia."
+        },
+        {
+          "heading": "Uso Médico",
+          "content": "Recomendado pelos médicos como um exame de saúde rápido."
+        },
+        {
+          "heading": "Avalie os riscos para a saúde",
+          "content": "O IMC ajuda a identificar o risco de condições relacionadas à obesidade."
+        },
+        {
+          "heading": "Acompanhamento Nutricional",
+          "content": "Suporta planejamento de dieta balanceada e metas de bem-estar."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora de IMC por idade e sexo",
+      "subSections": [
+        {
+          "heading": "Para homens e mulheres",
+          "content": "Rastreamento separado do IMC para insights específicos de gênero."
+        },
+        {
+          "heading": "Para crianças e adolescentes",
+          "content": "Usa gráficos de percentil de IMC para monitoramento de crescimento."
+        },
+        {
+          "heading": "Para adultos e idosos",
+          "content": "Ajustes baseados na idade para resultados precisos."
+        },
+        {
+          "heading": "Calculadora de IMC para gravidez",
+          "content": "Ajuda a monitorar a saúde materna durante a gravidez."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora de IMC global e local",
+      "content": "Nossa Calculadora Global de IMC funciona em todo o mundo com formatos específicos de região:",
+      "subSections": [
+        {
+          "heading": "EUA",
+          "content": "Usa o formato lbs/polegadas."
+        },
+        {
+          "heading": "Reino Unido",
+          "content": "Amplamente aplicado em saúde e fitness."
+        },
+        {
+          "heading": "Índia e Paquistão",
+          "content": "Usa kg/cm de acordo com os padrões da OMS."
+        },
+        {
+          "heading": "Canadá e Austrália",
+          "content": "Formato kg/cm + gráficos de IMC para monitoramento de saúde."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora de IMC ideal – Encontre seu peso saudável",
+      "subSections": [
+        {
+          "heading": "Calculadora de IMC com excesso de peso",
+          "content": "Suporta planejamento de perda de peso."
+        },
+        {
+          "heading": "Calculadora de IMC abaixo do peso",
+          "content": "Ajuda a identificar necessidades nutricionais."
+        },
+        {
+          "heading": "Calculadora de IMC de obesidade",
+          "content": "Mostra riscos associados à obesidade."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de IMC?",
+      "a": "Uma calculadora de IMC mede seu índice de massa corporal, mostrando se seu peso é saudável para sua altura."
+    },
+    {
+      "q": "Qual é a faixa normal de IMC?",
+      "a": "Segundo a OMS, um IMC normal é de 18,5 a 24,9."
+    },
+    {
+      "q": "O IMC é preciso para todos?",
+      "a": "O IMC é uma boa ferramenta de triagem, mas pode não ser preciso para atletas, mulheres grávidas ou idosos."
+    },
+    {
+      "q": "Como calculo o IMC manualmente?",
+      "a": "Use a fórmula: Peso (kg) ÷ Altura (m²) ou Peso (lbs) × 703 ÷ Altura (in²)."
+    },
+    {
+      "q": "Posso usar a calculadora de IMC para crianças?",
+      "a": "Sim, os gráficos de percentil do IMC são usados ​​para crianças e adolescentes."
+    },
+    {
+      "q": "Esta calculadora de IMC é gratuita?",
+      "a": "Sim, é uma ferramenta online gratuita disponível em todo o mundo."
+    },
+    {
+      "q": "Qual é a melhor calculadora de IMC online em 2025?",
+      "a": "Nossa Calculadora de IMC é precisa, compatível globalmente e fornece dicas de saúde, o que a torna uma das melhores opções em 2025."
+    }
+  ]
+}

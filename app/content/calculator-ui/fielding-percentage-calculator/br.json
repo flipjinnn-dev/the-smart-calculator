@@ -1,0 +1,143 @@
+{
+  "pageTitle": "Calculadora de porcentagem de campo",
+  "pageDescription": "Calcule a porcentagem de campo para jogadores de beisebol",
+  "form": {
+    "labels": {
+      "putouts": "Publicações",
+      "assists": "Assistências",
+      "errors": "Erros"
+    },
+    "placeholders": {
+      "putouts": "Insira o número de saídas",
+      "assists": "Insira o número de assistências",
+      "errors": "Insira o número de erros"
+    },
+    "buttons": {
+      "calculate": "Calcular a porcentagem de campo",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "fieldingPercentage": "Porcentagem de campo",
+    "totalChances": "Chances Totais",
+    "successfulChances": "Chances de sucesso",
+    "errorRate": "Taxa de erro",
+    "leagueRanking": "Estimativa de classificação da liga"
+  },
+  "educational": {
+    "fieldingInfo": "Informações de porcentagem de campo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos de beisebol",
+    "fieldingFacts": {
+      "definition": {
+        "title": "Porcentagem de campo",
+        "description": "Uma estatística que mede a capacidade de um jogador de lidar com chances sem cometer erros"
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "Porcentagem de Fielding = (Lançamentos + Assistências) / (Lançamentos + Assistências + Erros)"
+      },
+      "interpretation": {
+        "title": "Interpretação de Desempenho",
+        "description": "A porcentagem de fielding varia de 0,000 a 1,000, sendo 1,000 um fielding perfeito"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas cálculos de porcentagem de campo",
+      "actual": "A avaliação defensiva completa deve considerar métricas adicionais como alcance e jogadas duplas"
+    },
+    "importantNotesList": [
+      "A porcentagem de defesa é apenas uma medida do desempenho defensivo",
+      "Não leva em conta o alcance, jogadas duplas ou jogadas difíceis feitas",
+      "Uma alta porcentagem de fielding indica menos erros em relação às chances",
+      "O tamanho da amostra é importante – mais chances proporcionam uma melhor avaliação"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira saídas, assistências e erros para calcular a porcentagem de campo",
+    "resultMessage": "Os resultados do cálculo da porcentagem de campo são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da porcentagem de campo:",
+    "fieldingAnalysis": "Análise de campo"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece cálculos de porcentagem de campo com base em fórmulas estatísticas padrão de beisebol. A avaliação defensiva completa deve considerar métricas adicionais, contexto e fatores de tamanho da amostra não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos de beisebol",
+    "content": "Para análises defensivas abrangentes de beisebol e avaliação de jogadores, consulte sites de referência de beisebol, recursos de análise esportiva ou olheiros e analistas profissionais."
+  },
+  "errors": {
+    "putouts": "Insira um número válido de saídas",
+    "assists": "Por favor insira um número válido de assistências",
+    "errors": "Insira um número válido de erros"
+  },
+  "tooltips": {
+    "putouts": "Número de eliminações registradas diretamente pelo jogador (por exemplo, pegar bolas voadoras, marcar corredores)",
+    "assists": "Número de vezes que o jogador ajudou a registrar uma saída (por exemplo, arremessando para a primeira base)",
+    "errors": "Número de erros defensivos que permitem aos corredores avançar ou chegar à base"
+  },
+  "fielding_statistics_0": "Estatísticas de campo",
+  "enter_fielding_statistics_to_calculate_fielding_pe_1": "Insira estatísticas de campo para calcular a porcentagem de campo (FPCT)",
+  "putouts_p_2": "Saídas (P)",
+  "outs_recorded_by_the_fielder_3": "Eliminações registradas pelo defensor",
+  "assists_a_4": "Assistências (A)",
+  "plays_that_helped_record_an_out_5": "Peças que ajudaram a gravar uma saída",
+  "errors_e_6": "Erros (E)",
+  "misplays_that_should_have_been_made_7": "Erros que deveriam ter sido cometidos",
+  "output_format_8": "Formato de saída",
+  "display_result_as_9": "Exibir resultado como",
+  "decimal_10": "Decimal",
+  "percentage_11": "Percentagem",
+  "formula_12": "Fórmula:",
+  "fpct_putouts_assists_putouts_assists_errors_13": "FPCT = (Lançamentos + Assistências) ÷ (Lançamentos + Assistências + Erros)",
+  "total_chances_putouts_assists_errors_14": "Chances totais = eliminações + assistências + erros",
+  "calculate_15": "Calcular",
+  "reset_16": "Reiniciar",
+  "fpct_results_17": "Resultados da FPCT",
+  "fpct_18": "FPCT",
+  "total_chances_19": "Chances Totais",
+  "performance_20": "Desempenho",
+  "enter_fielding_statistics_and_click_21": "Insira as estatísticas de campo e clique em",
+  "calculate_22": "Calcular",
+  "to_see_fpct_23": "para ver o FPCT.",
+  "detailed_fpct_breakdown_24": "Análise detalhada do FPCT",
+  "fpct_25": "FPCT",
+  "putouts_26": "Publicações",
+  "p_27": "P",
+  "assists_28": "Assistências",
+  "a_29": "A",
+  "errors_30": "Erros",
+  "e_31": "E",
+  "calculation_steps_32": "Etapas de cálculo:",
+  "step_1_33": "Etapa 1:",
+  "total_chances_34": "Chances totais =",
+  "step_2_35": "Etapa 2:",
+  "fpct_36": "FPCT = (",
+  "step_3_37": "Etapa 3:",
+  "as_percentage_38": "Como porcentagem =",
+  "k_100_39": "× 100 =",
+  "understanding_fielding_percentage_40": "Compreendendo a porcentagem de campo",
+  "what_is_fpct_41": "O que é o FPCT?",
+  "fielding_percentage_fpct_measures_how_often_a_fiel_42": "Fielding Percentage (FPCT) mede a frequência com que um defensor lida com sucesso com uma chance sem\n                        cometendo um erro. É calculado dividindo as jogadas bem-sucedidas (saídas + assistências) pelo total\n                        chances.",
+  "fpct_interpretation_43": "Interpretação do FPCT",
+  "k_1000_perfect_no_errors_44": "1.000: Perfeito (sem erros)",
+  "k_0980_elite_level_45": "0,980+: Nível Elite",
+  "k_09500979_good_46": "0,950-0,979: Bom",
+  "k_09000949_average_47": "0,900-0,949: Média",
+  "below_0900_below_average_48": "Abaixo de 0,900: Abaixo da média",
+  "sample_calculation_49": "Cálculo de amostra",
+  "example_50": "Exemplo:",
+  "player_statistics_51": "Estatísticas do jogador",
+  "putouts_1489_52": "Saídas: 1489",
+  "assists_496_53": "Assistências: 496",
+  "errors_33_54": "Erros: 33",
+  "calculation_55": "Cálculo:",
+  "total_chances_1489_496_33_2018_56": "Chances totais = 1489 + 496 + 33 = 2018",
+  "fpct_1489_496_2018_57": "FPCT = (1489 + 496) ÷ 2018",
+  "fpct_0984_984_58": "FPCT = 0,984 (98,4%)",
+  "note_59": "Observação:",
+  "high_fpct_doesnt_reflect_a_fielders_range_or_the_d_60": "O FPCT alto não reflete o alcance do defensor ou a dificuldade das jogadas\n                          tentado."
+}

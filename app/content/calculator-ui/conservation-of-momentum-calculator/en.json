@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Conservation of Momentum Calculator",
+  "pageDescription": "Calculate the conservation of momentum in collisions",
+  "form": {
+    "labels": {
+      "mass1": "Mass of Object 1",
+      "velocity1": "Initial Velocity of Object 1",
+      "mass2": "Mass of Object 2",
+      "velocity2": "Initial Velocity of Object 2",
+      "finalVelocity1": "Final Velocity of Object 1",
+      "finalVelocity2": "Final Velocity of Object 2"
+    },
+    "placeholders": {
+      "mass1": "Enter mass of first object",
+      "velocity1": "Enter initial velocity of first object",
+      "mass2": "Enter mass of second object",
+      "velocity2": "Enter initial velocity of second object",
+      "finalVelocity1": "Enter final velocity of first object (if known)",
+      "finalVelocity2": "Enter final velocity of second object (if known)"
+    },
+    "buttons": {
+      "calculate": "Calculate Momentum",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "initialMomentum": "Initial Momentum",
+    "finalMomentum": "Final Momentum",
+    "momentumConserved": "Momentum Conserved",
+    "yes": "Yes",
+    "no": "No",
+    "totalInitialMomentum": "Total Initial Momentum",
+    "totalFinalMomentum": "Total Final Momentum",
+    "momentumCalculation": "Momentum Calculation Results"
+  },
+  "educational": {
+    "momentumInfo": "Momentum Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Physics Resources",
+    "momentumFacts": {
+      "components": {
+        "title": "Momentum Components",
+        "description": "Momentum is the product of mass and velocity (p = mv)"
+      },
+      "conservation": {
+        "title": "Conservation of Momentum",
+        "description": "In an isolated system, total momentum remains constant"
+      },
+      "elastic": {
+        "title": "Elastic vs Inelastic Collisions",
+        "description": "Kinetic energy is conserved in elastic collisions but not in inelastic collisions"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides momentum calculations only",
+      "actual": "Actual momentum values may vary based on external forces and measurement accuracy"
+    },
+    "importantNotesList": [
+      "This is an estimate based on ideal conditions",
+      "External forces like friction are not considered",
+      "Assumes an isolated system for conservation calculations",
+      "Use consistent units for all measurements"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the mass and velocity information for momentum calculations",
+    "resultMessage": "Your momentum calculation results are shown below",
+    "assessmentResult": "Momentum Calculation Result:",
+    "momentumAnalysis": "Momentum Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides momentum calculations based on standard physics formulas. Actual momentum values may vary based on external forces, measurement accuracy, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Physics Resources",
+    "content": "For advanced physics calculations and collision analysis, consult physics textbooks or academic resources on classical mechanics and momentum conservation principles."
+  },
+  "errors": {
+    "mass1": "Please enter a valid mass for object 1",
+    "velocity1": "Please enter a valid initial velocity for object 1",
+    "mass2": "Please enter a valid mass for object 2",
+    "velocity2": "Please enter a valid initial velocity for object 2",
+    "finalVelocity1": "Please enter a valid final velocity for object 1",
+    "finalVelocity2": "Please enter a valid final velocity for object 2"
+  },
+  "tooltips": {
+    "mass1": "Mass of the first object involved in the collision",
+    "velocity1": "Initial velocity of the first object before the collision",
+    "mass2": "Mass of the second object involved in the collision",
+    "velocity2": "Initial velocity of the second object before the collision",
+    "finalVelocity1": "Final velocity of the first object after the collision (if known)",
+    "finalVelocity2": "Final velocity of the second object after the collision (if known)"
+  },
+  "collision_parameters_0": "Collision Parameters",
+  "enter_object_properties_and_collision_type_to_calc_1": "Enter object properties and collision type to calculate outcomes",
+  "collision_type_2": "Collision Type",
+  "elastic_3": "Elastic",
+  "perfectly_inelastic_4": "Perfectly Inelastic",
+  "with_restitution_5": "With Restitution",
+  "general_6": "General",
+  "coefficient_of_restitution_e_7": "Coefficient of Restitution (e)",
+  "object_1_8": "Object 1",
+  "mass_m_9": "Mass (m₁)",
+  "kg_10": "kg",
+  "g_11": "g",
+  "t_12": "t",
+  "initial_velocity_u_13": "Initial Velocity (u₁)",
+  "ms_14": "m/s",
+  "kmh_15": "km/h",
+  "mph_16": "mph",
+  "final_velocity_v_optional_17": "Final Velocity (v₁) - Optional",
+  "ms_18": "m/s",
+  "kmh_19": "km/h",
+  "mph_20": "mph",
+  "object_2_21": "Object 2",
+  "mass_m_22": "Mass (m₂)",
+  "kg_23": "kg",
+  "g_24": "g",
+  "t_25": "t",
+  "initial_velocity_u_26": "Initial Velocity (u₂)",
+  "ms_27": "m/s",
+  "kmh_28": "km/h",
+  "mph_29": "mph",
+  "final_velocity_v_optional_30": "Final Velocity (v₂) - Optional",
+  "ms_31": "m/s",
+  "kmh_32": "km/h",
+  "mph_33": "mph",
+  "calculate_34": "Calculate",
+  "collision_results_35": "Collision Results",
+  "final_velocities_36": "Final Velocities",
+  "object_1_37": "Object 1",
+  "ms_38": "m/s",
+  "object_2_39": "Object 2",
+  "ms_40": "m/s",
+  "momentum_41": "Momentum",
+  "initial_42": "Initial:",
+  "kgms_43": "kg⋅m/s",
+  "final_44": "Final:",
+  "kgms_45": "kg⋅m/s",
+  "conserved_46": "Conserved:",
+  "kinetic_energy_47": "Kinetic Energy",
+  "initial_total_48": "Initial Total:",
+  "j_49": "J",
+  "final_total_50": "Final Total:",
+  "j_51": "J",
+  "energy_change_52": "Energy Change:",
+  "j_53": "J",
+  "type_54": "Type:",
+  "individual_energies_55": "Individual Energies",
+  "object_1_56": "Object 1:",
+  "j_57": "J",
+  "object_2_58": "Object 2:",
+  "j_59": "J",
+  "enter_parameters_and_click_60": "Enter parameters and click",
+  "calculate_61": "Calculate",
+  "to_see_results_62": "to\n                          see results.",
+  "understanding_collision_physics_63": "Understanding Collision Physics",
+  "conservation_laws_64": "Conservation Laws",
+  "all_collisions_conserve_momentum_m1u1_m2u2_m1v1_m2_65": "All collisions conserve momentum: $$m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$$",
+  "elastic_collisions_also_conserve_kinetic_energy_wh_66": "Elastic collisions also conserve kinetic energy, while inelastic collisions convert some kinetic\n                      energy to other forms.",
+  "collision_types_67": "Collision Types",
+  "elastic_68": "Elastic:",
+  "both_momentum_and_kinetic_energy_conserved_e_1_69": "Both momentum and kinetic energy conserved (e = 1)",
+  "perfectly_inelastic_70": "Perfectly Inelastic:",
+  "objects_stick_together_after_collision_e_0_71": "Objects stick together after collision (e = 0)",
+  "with_restitution_72": "With Restitution:",
+  "coefficient_e_determines_energy_loss_0_e_1_73": "Coefficient e determines energy loss (0 ≤ e ≤ 1)",
+  "general_74": "General:",
+  "solve_for_unknowns_using_momentum_conservation_75": "Solve for unknowns using momentum conservation",
+  "example_calculation_76": "Example Calculation",
+  "given_77": "Given:",
+  "m_2_kg_u_4_ms_m_3_kg_u_0_ms_elastic_collision_78": "m₁ = 2 kg, u₁ = 4 m/s, m₂ = 3 kg, u₂ = 0 m/s, Elastic collision",
+  "solution_79": "Solution:",
+  "v_234_23023_45_04_ms_80": "v₁ = ((2-3)×4 + 2×3×0)/(2+3) = -4/5 = -0.4 m/s",
+  "v_320_22423_165_32_ms_81": "v₂ = ((3-2)×0 + 2×2×4)/(2+3) = 16/5 = 3.2 m/s",
+  "initial_ke_24_16_j_82": "Initial KE = ½×2×4² = 16 J",
+  "final_ke_204_332_16_j_83": "Final KE = ½×2×(-0.4)² + ½×3×(3.2)² = 16 J ✓"
+}

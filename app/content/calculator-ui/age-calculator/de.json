@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Altersrechner",
+  "pageDescription": "Berechnen Sie das Alter in Jahren, Monaten und Tagen basierend auf dem Geburtsdatum mit präzisen Berechnungen, einschließlich Schaltjahren",
+  "form": {
+    "labels": {
+      "birthDate": "Geburtsdatum",
+      "calculationDate": "Berechnungsdatum",
+      "includeTime": "Zeit einbeziehen?",
+      "birthTime": "Geburtszeit",
+      "calculationTime": "Berechnungszeit"
+    },
+    "placeholders": {
+      "birthTime": "Geburtszeit eingeben (optional)",
+      "calculationTime": "Berechnungszeit eingeben (optional)"
+    },
+    "buttons": {
+      "calculate": "Alter berechnen",
+      "reset": "Zurücksetzen"
+    },
+    "yesNo": {
+      "yes": "Ja",
+      "no": "NEIN"
+    }
+  },
+  "results": {
+    "age": "Alter",
+    "years": "Jahre",
+    "months": "Monate",
+    "days": "Tage",
+    "hours": "Std",
+    "minutes": "Minuten",
+    "ageResultsTitle": "Altersergebnisse",
+    "preciseAge": "Genaues Alter"
+  },
+  "educational": {
+    "ageInfo": "Informationen zur Altersberechnung",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Zusätzliche Ressourcen",
+    "ageFacts": {
+      "leapYears": {
+        "title": "Schaltjahre",
+        "description": "Unser Rechner berücksichtigt bei der Altersberechnung Schaltjahre (366 Tage)."
+      },
+      "precision": {
+        "title": "Berechnungsgenauigkeit",
+        "description": "Berechnungen umfassen Monate mit unterschiedlichen Tagen (28, 30, 31 Tage)"
+      },
+      "timeZones": {
+        "title": "Zeitzonen",
+        "description": "Berücksichtigen Sie bei der Berechnung des Alters in verschiedenen Regionen Zeitzonen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Altersberechnungen",
+      "accuracy": "Stellen Sie sicher, dass Datum und Uhrzeit genau eingegeben werden, um präzise Ergebnisse zu erzielen"
+    },
+    "importantNotesList": [
+      "Bei der Altersberechnung werden unterschiedliche Monatslängen und Schaltjahre berücksichtigt",
+      "Zeitbasierte Berechnungen erfordern genaue Zeitzoneninformationen",
+      "Die Definitionen des gesetzlichen Mindestalters variieren je nach Gerichtsbarkeit und Zweck",
+      "Berücksichtigen Sie kulturelle Unterschiede bei den Methoden zur Altersberechnung"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie das Geburtsdatum und das Berechnungsdatum ein, um das Alter zu bestimmen",
+    "resultMessage": "Ihr berechnetes Alter wird unten angezeigt",
+    "assessmentResult": "Ergebnis der Altersberechnung:",
+    "ageAnalysis": "Altersanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet Altersberechnungen basierend auf Standardkalendermethoden. Die Ergebnisse dienen allgemeinen Informationszwecken und erfüllen möglicherweise nicht die gesetzlichen oder offiziellen Dokumentationsanforderungen."
+  },
+  "seekHelp": {
+    "title": "Zusätzliche Ressourcen",
+    "content": "Für die Bestimmung des gesetzlichen Alters oder offizielle Unterlagen wenden Sie sich an die zuständigen Regierungsbehörden oder Rechtsexperten in Ihrem Zuständigkeitsbereich."
+  },
+  "errors": {
+    "birthDate": "Bitte geben Sie ein gültiges Geburtsdatum ein",
+    "calculationDate": "Bitte geben Sie ein gültiges Berechnungsdatum ein",
+    "birthTime": "Bitte geben Sie eine gültige Geburtszeit ein",
+    "calculationTime": "Bitte geben Sie eine gültige Berechnungszeit ein"
+  },
+  "tooltips": {
+    "birthDate": "Ihr Geburtsdatum",
+    "calculationDate": "Datum, ab dem das Alter berechnet werden soll (Standard: heute)",
+    "birthTime": "Optional: Geburtszeit für genauere Berechnungen",
+    "calculationTime": "Optional: Berechnungszeit für genauere Ergebnisse"
+  },
+  "loading_0": "Laden...",
+  "how_it_works_1": "So funktioniert es:",
+  "the_calculator_uses_precise_calendar_arithmetic_to_2": "Der Rechner verwendet präzise Kalenderarithmetik, um Sprünge zu verarbeiten\n                        Jahre, unterschiedliche Monatslängen und Zeitzonen genau.",
+  "results_include_both_exact_age_breakdown_and_total_3": "Die Ergebnisse umfassen sowohl eine genaue Altersaufschlüsselung als auch die Gesamtzeit in jeder Einheit.",
+  "from_4": "Aus",
+  "to_5": "Zu",
+  "enter_your_dates_and_click_6": "Geben Sie Ihre Daten ein und klicken Sie",
+  "calculate_7": "Berechnen",
+  "to_see_your_exact_age_8": "zu\n                          Sehen Sie sich Ihr genaues Alter an.",
+  "years_9": "Jahre",
+  "months_10": "Monate",
+  "weeks_11": "Wochen",
+  "days_12": "Tage",
+  "sample_calculation_13": "Beispielrechnung",
+  "age_calculation_1": "Altersberechnung",
+  "enter_your_birth_date_and_target_date_to_calculate_2": "Geben Sie Ihr Geburtsdatum und Ihr Wunschdatum ein, um das genaue Alter zu berechnen",
+  "date_of_birth_3": "Geburtsdatum",
+  "target_date_4": "Zieldatum",
+  "how_it_works_5": "So funktioniert es:",
+  "the_calculator_uses_precise_calendar_arithmetic_to_6": "Der Rechner verwendet präzise Kalenderarithmetik, um Sprünge zu verarbeiten\n                        Jahre, unterschiedliche Monatslängen und Zeitzonen genau.",
+  "results_include_both_exact_age_breakdown_and_total_7": "Die Ergebnisse umfassen sowohl eine genaue Altersaufschlüsselung als auch die Gesamtzeit in jeder Einheit.",
+  "calculate_8": "Berechnen",
+  "your_age_9": "Dein Alter",
+  "years_10": "Jahre",
+  "months_11": "Monate",
+  "weeks_12": "Wochen",
+  "days_13": "Tage",
+  "from_14": "Aus",
+  "to_15": "Zu",
+  "enter_your_dates_and_click_16": "Geben Sie Ihre Daten ein und klicken Sie",
+  "calculate_17": "Berechnen",
+  "to_see_your_exact_age_18": "zu\n                          Sehen Sie sich Ihr genaues Alter an.",
+  "detailed_age_breakdown_19": "Detaillierte Altersaufschlüsselung",
+  "years_20": "Jahre",
+  "months_21": "Monate",
+  "weeks_22": "Wochen",
+  "days_23": "Tage",
+  "hours_24": "Std",
+  "minutes_25": "Minuten",
+  "seconds_26": "Sekunden",
+  "understanding_age_calculation_27": "Altersberechnung verstehen",
+  "how_age_is_calculated_28": "So wird das Alter berechnet",
+  "age_calculation_involves_precise_calendar_arithmet_29": "Die Altersberechnung erfordert eine präzise Kalenderarithmetik, die Schaltjahre und unterschiedliche Monate berücksichtigt\n                        Längen und das westliche Alterssystem, bei dem das Alter erst nach Ablauf des Geburtstags zunimmt.",
+  "key_features_30": "Hauptmerkmale",
+  "handles_leap_years_automatically_31": "Behandelt Schaltjahre automatisch",
+  "accounts_for_months_with_different_day_counts_32": "Konten für Monate mit unterschiedlichen Tageszählungen",
+  "provides_both_exact_breakdown_and_total_units_33": "Bietet sowohl eine genaue Aufschlüsselung als auch die Gesamteinheiten",
+  "uses_western_age_counting_system_34": "Verwendet das westliche Alterszählsystem",
+  "sample_calculation_35": "Beispielrechnung",
+  "example_36": "Beispiel:",
+  "birth_date_january_1_2000_37": "Geburtsdatum: 1. Januar 2000",
+  "target_date_august_22_2025_38": "Zieldatum: 22. August 2025",
+  "result_25_years_7_months_21_days_39": "Ergebnis: 25 Jahre, 7 Monate, 21 Tage",
+  "the_calculator_also_provides_the_total_time_in_wee_40": "Der Rechner liefert auch die Gesamtzeit in Wochen, Tagen, Stunden, Minuten und Sekunden für\n                        umfassende Altersanalyse."
+}

@@ -1,0 +1,124 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de taxa de juros – Encontre a taxa de empréstimo certa instantaneamente",
+      "content": "Gerenciar empréstimos pode parecer complicado, mas entender sua taxa de juros não deveria ser. Nossa calculadora de taxas de juros ajuda você a calcular com rapidez e precisão as taxas de juros de empréstimos para hipotecas, empréstimos para automóveis, empréstimos pessoais, empréstimos para habitação e até mesmo cartões de crédito. Se você deseja calcular os juros mensais do empréstimo, encontrar a taxa de juros anual efetiva ou comparar várias ofertas de empréstimo, esta ferramenta gratuita oferece clareza instantânea."
+    },
+    {
+      "heading": "Por que usar uma calculadora de taxas de juros?",
+      "subSections": [
+        {
+          "heading": "Economize tempo",
+          "content": "Não é necessária matemática manual."
+        },
+        {
+          "heading": "Planeje de maneira mais inteligente",
+          "content": "Conheça o custo exato do empréstimo."
+        },
+        {
+          "heading": "Compare credores",
+          "content": "Veja qual empréstimo oferece a melhor taxa."
+        },
+        {
+          "heading": "Mantenha-se preciso",
+          "content": "Construído com as mesmas fórmulas usadas pelos bancos e credores."
+        }
+      ]
+    },
+    {
+      "heading": "Como funciona a calculadora?",
+      "content": "Nossa calculadora usa a fórmula da taxa de juros do empréstimo e métodos de amortização do empréstimo para fornecer resultados precisos.",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Insira o valor do empréstimo (principal)."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Adicione seu pagamento mensal e prazo de empréstimo."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "A calculadora aplica a fórmula da taxa de juros efetiva e mostra sua taxa de juros mensal ou anual."
+        },
+        {
+          "heading": "Observação",
+          "content": "Este é o mesmo processo que os credores usam para calcular a TAEG versus taxa de juros e cronogramas de reembolso."
+        }
+      ]
+    },
+    {
+      "heading": "Tipos de empréstimos que você pode calcular",
+      "subSections": [
+        {
+          "heading": "Calculadora de taxas de juros hipotecárias",
+          "content": "Para empréstimos à habitação."
+        },
+        {
+          "heading": "Calculadora de taxas de juros para empréstimos de automóveis",
+          "content": "Financiamento e leasing de automóveis."
+        },
+        {
+          "heading": "Calculadora de taxa de juros para empréstimos pessoais",
+          "content": "Empréstimo sem garantia."
+        },
+        {
+          "heading": "Calculadora de taxa de juros para empréstimos imobiliários",
+          "content": "Financiamento imobiliário e habitacional."
+        },
+        {
+          "heading": "Calculadora de taxa de juros de cartão de crédito",
+          "content": "Saldos de crédito rotativos."
+        },
+        {
+          "heading": "Calculadora avançada de taxas de juros de empréstimos",
+          "content": "Com taxas, APR e ferramentas de comparação."
+        }
+      ]
+    },
+    {
+      "heading": "Insights educacionais – Entenda melhor o seu empréstimo",
+      "subSections": [
+        {
+          "heading": "TAEG vs taxa de juros",
+          "content": "Taxa de juros: O custo base do empréstimo. APR (Taxa Percentual Anual): Inclui juros + taxas, dando uma imagem mais clara do verdadeiro custo do seu empréstimo."
+        },
+        {
+          "heading": "Taxa de juros mensal versus anual",
+          "content": "Mensal: Útil para orçamento e planejamento EMI. Anual: Melhor para comparar credores e custos de longo prazo."
+        },
+        {
+          "heading": "Taxa de juros nominal vs efetiva",
+          "content": "Taxa Nominal: Juros declarados sem capitalização. Taxa Anual Efetiva (EAR): Inclui capitalização, demonstrando o custo real."
+        }
+      ]
+    },
+    {
+      "heading": "Compare e encontre o melhor empréstimo",
+      "content": "Procurando a melhor calculadora de taxas de juros de empréstimos online? Nossa ferramenta funciona como uma ferramenta de comparação de taxas de juros, permitindo que você verifique vários cenários de empréstimos lado a lado.\n- Compare taxas de hipotecas e empréstimos pessoais.\n- Entenda a TAEG do empréstimo para automóveis versus a taxa de juros.\n- Use-o como uma calculadora EMI online com taxas de juros.\nÉ gratuito, preciso e desenvolvido para decisões financeiras mais inteligentes."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como calcular manualmente a taxa de juros de um empréstimo?",
+      "a": "Você divide os juros totais pagos pelo principal e depois ajusta o prazo do empréstimo. Nossa ferramenta automatiza isso instantaneamente."
+    },
+    {
+      "q": "Posso calcular a taxa de juros do pagamento mensal?",
+      "a": "Sim – insira o valor do empréstimo, o prazo e o pagamento mensal, e a calculadora encontrará a taxa."
+    },
+    {
+      "q": "Qual é a diferença entre APR e taxa de juros?",
+      "a": "APR inclui taxas; a taxa de juros não. A TAEG é sempre igual ou superior à taxa nominal."
+    },
+    {
+      "q": "Como os bancos calculam as taxas de juros dos empréstimos?",
+      "a": "Os bancos usam fatores como pontuação de crédito, tipo de empréstimo e taxas de mercado e, em seguida, aplicam fórmulas de amortização."
+    },
+    {
+      "q": "Esta calculadora é precisa para todos os empréstimos?",
+      "a": "Sim – funciona para hipotecas, empréstimos para automóveis, empréstimos pessoais, cartões de crédito e muito mais."
+    }
+  ]
+}

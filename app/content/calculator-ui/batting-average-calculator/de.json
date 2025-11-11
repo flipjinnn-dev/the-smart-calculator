@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Schlagdurchschnittsrechner",
+  "pageDescription": "Berechnen Sie den Schlagdurchschnitt und zugehörige Statistiken für Baseball- und Softballspieler mit umfassenden Leistungskennzahlen",
+  "form": {
+    "labels": {
+      "playerName": "Spielername",
+      "atBats": "Bei Fledermäusen",
+      "hits": "Treffer",
+      "calculationType": "Berechnungstyp",
+      "additionalStats": "Zusätzliche Statistiken einschließen?"
+    },
+    "placeholders": {
+      "playerName": "Spielernamen eingeben (optional)",
+      "atBats": "Geben Sie die Anzahl der Fledermäuse ein",
+      "hits": "Geben Sie die Anzahl der Treffer ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den Schlagdurchschnitt",
+      "reset": "Zurücksetzen"
+    },
+    "calculationTypes": {
+      "basic": "Grundlegender Schlagdurchschnitt",
+      "season": "Saisonstatistiken",
+      "career": "Karrierestatistik"
+    },
+    "yesNo": {
+      "yes": "Ja",
+      "no": "NEIN"
+    }
+  },
+  "results": {
+    "battingAverage": "Schlagdurchschnitt",
+    "hits": "Treffer",
+    "atBats": "Bei Fledermäusen",
+    "additionalStats": "Zusätzliche Statistiken",
+    "battingAverageResultsTitle": "Schlagdurchschnittsergebnisse"
+  },
+  "educational": {
+    "battingAverageInfo": "Informationen zum Schlagdurchschnitt",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Baseball-Ressourcen",
+    "battingAverageFacts": {
+      "definition": {
+        "title": "Definition des Schlagdurchschnitts",
+        "description": "Schlagdurchschnitt = Treffer ÷ Bei Fledermäusen (ohne Walks, Opfer oder Treffer durch Pitch)"
+      },
+      "benchmarks": {
+        "title": "Leistungsbenchmarks",
+        "description": "Ausgezeichnet: .300+, Gut: .270-.299, Durchschnitt: .250-.269, Unter Durchschnitt: Unter .250"
+      },
+      "context": {
+        "title": "Der Kontext ist wichtig",
+        "description": "Berücksichtigen Sie bei der Bewertung des Schlagdurchschnitts das Stadion, die Gegner und die Spielsituationen"
+      }
+    },
+    "additionalStatistics": {
+      "obp": {
+        "title": "On-Base-Prozentsatz (OBP)",
+        "description": "Misst, wie oft ein Schlagmann die Basis erreicht"
+      },
+      "slg": {
+        "title": "Slugging-Prozentsatz (SLG)",
+        "description": "Misst die Kraft eines Schlagmanns"
+      },
+      "ops": {
+        "title": "On-Base Plus Slugging (OPS)",
+        "description": "Kombiniert OBP und SLG für eine allgemeine Offensivleistung"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert ausschließlich statistische Berechnungen",
+      "context": "Für eine vollständige Analyse sollte der Schlagdurchschnitt mit anderen Statistiken ausgewertet werden"
+    },
+    "importantNotesList": [
+      "Der Schlagdurchschnitt berücksichtigt keine Walks, Opfer oder Treffer durch Pitch",
+      "Berücksichtigen Sie bei der Bewertung der aktuellen Leistung die Stichprobengröße",
+      "Unterschiedliche Stadien und Ligen können sich auf die Leistungskennzahlen auswirken",
+      "Erweiterte Metriken wie OPS und WOBA ermöglichen eine umfassendere Spielerbewertung"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Spielerstatistiken ein, um den Schlagdurchschnitt zu berechnen",
+    "resultMessage": "Der Schlagdurchschnitt des Spielers wird unten angezeigt",
+    "assessmentResult": "Ergebnis der Schlagstatistik:",
+    "battingAverageAnalysis": "Schlagdurchschnittsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet Schlagdurchschnittsberechnungen basierend auf Standardformeln für Baseballstatistiken. Die Ergebnisse dienen Informationszwecken und spiegeln möglicherweise nicht die offiziellen Ligastatistiken oder fortgeschrittenen Analysemetriken wider."
+  },
+  "seekHelp": {
+    "title": "Baseball-Ressourcen",
+    "content": "Für professionelle Baseball-Analysen und erweiterte Statistiken wenden Sie sich an Sportanalysten, Trainer oder spezielle Baseball-Statistikressourcen und Sabermetric-Tools."
+  },
+  "errors": {
+    "atBats": "Bitte geben Sie eine gültige Anzahl an Fledermäusen ein (muss größer als 0 sein)",
+    "hits": "Bitte geben Sie eine gültige Anzahl an Treffern ein (darf bei Fledermäusen nicht überschritten werden)",
+    "playerName": "Bitte geben Sie einen gültigen Spielernamen ein",
+    "calculationType": "Bitte wählen Sie eine Berechnungsart aus"
+  },
+  "tooltips": {
+    "atBats": "Anzahl der Offiziellen bei Fledermäusen (ohne Walks, Opfer, Treffer durch Pitch)",
+    "hits": "Anzahl der Treffer (Einzel, Doppel, Dreier, Homeruns)",
+    "calculationType": "Wählen Sie die Art der statistischen Berechnung aus",
+    "additionalStats": "Integrieren Sie erweiterte Statistiken wie OBP, SLG und OPS"
+  },
+  "loading_0": "Laden...",
+  "batting_average_calculation_1": "Berechnung des Schlagdurchschnitts",
+  "choose_between_basic_or_advanced_calculation_metho_2": "Wählen Sie zwischen einfachen oder erweiterten Berechnungsmethoden",
+  "what_calculation_method_would_you_like_to_use_3": "Welche Berechnungsmethode möchten Sie verwenden?",
+  "basic_calculation_4": "Grundlegende Berechnung",
+  "advanced_calculation_5": "Erweiterte Berechnung",
+  "runs_scored_6": "Erzielte Läufe",
+  "times_out_7": "Zeitüberschreitung",
+  "formula_8": "Formel:",
+  "batting_average_runs_scored_times_out_9": "Schlagdurchschnitt = Erzielte Runs ÷ Timeout",
+  "example_315_runs_3_dismissals_10500_average_10": "Beispiel: 315 Läufe ÷ 3 Entlassungen = 105,00 Durchschnitt",
+  "runs_scored_11": "Erzielte Läufe",
+  "innings_played_12": "Gespielte Innings",
+  "not_outs_13": "Keine Outs",
+  "formula_14": "Formel:",
+  "times_out_innings_played_not_outs_15": "Timeout = gespielte Innings – keine Outs",
+  "batting_average_runs_scored_times_out_16": "Schlagdurchschnitt = Erzielte Runs ÷ Timeout",
+  "not_out_innings_dont_count_as_dismissals_which_can_17": "Nicht-Out-Innings zählen nicht als Entlassungen, was Ihren Durchschnitt erhöhen kann",
+  "calculate_average_18": "Berechnen Sie den Durchschnitt",
+  "batting_average_19": "Schlagdurchschnitt",
+  "batting_average_20": "Schlagdurchschnitt",
+  "enter_your_cricket_statistics_and_click_21": "Geben Sie Ihre Cricket-Statistiken ein und klicken Sie",
+  "calculate_22": "Berechnen",
+  "to_see_your_batting_average_23": "um deinen Schlagdurchschnitt zu sehen.",
+  "understanding_batting_average_24": "Schlagdurchschnitt verstehen",
+  "definition_25": "Definition",
+  "batting_average_in_cricket_is_a_statistic_that_mea_26": "Der Schlagdurchschnitt im Cricket ist eine Statistik, die die Leistung eines Schlagmanns misst. Es repräsentiert\n                        die durchschnittliche Anzahl der pro Entlassung erzielten Runs.",
+  "key_points_27": "Wichtige Punkte",
+  "higher_averages_indicate_better_batting_performanc_28": "Höhere Durchschnittswerte weisen auf eine bessere Schlagleistung hin",
+  "not_out_innings_are_not_counted_as_dismissals_29": "Nicht-Out-Innings gelten nicht als Entlassungen",
+  "a_good_batting_average_varies_by_level_of_cricket_30": "Ein guter Schlagdurchschnitt variiert je nach Cricketniveau",
+  "professional_averages_above_40_are_considered_exce_31": "Professionelle Durchschnittswerte über 40 gelten als ausgezeichnet",
+  "sample_calculation_32": "Beispielrechnung",
+  "example_33": "Beispiel:",
+  "runs_scored_315_34": "Erzielte Läufe: 315",
+  "times_out_3_35": "Zeitüberschreitung: 3",
+  "batting_average_315_3_10500_36": "Schlagdurchschnitt: 315 ÷ 3 = 105,00",
+  "this_would_be_an_exceptional_batting_average_indic_37": "Dies wäre ein außergewöhnlicher Schlagdurchschnitt, was bedeutet, dass der Spieler einen Durchschnittswert von 105 erzielt\n                        rennt, bevor er aussteigt."
+}

@@ -1,0 +1,94 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator podatku od sprzedaży – natychmiast znajdź podatek przed opodatkowaniem, po opodatkowaniu i odwrócony podatek od sprzedaży",
+      "content": "Nasz internetowy kalkulator podatku od sprzedaży pomaga szybko w ciągu kilku sekund obliczyć podatek od sprzedaży, cenę przed opodatkowaniem, kwotę całkowitą po opodatkowaniu i podatek odwrócony. Niezależnie od tego, czy robisz zakupy, przygotowujesz fakturę, czy prowadzisz sklep eCommerce, to narzędzie oszczędza czas, podając dokładne kwoty zawierające i nie zawierające podatku."
+    },
+    {
+      "heading": "Jak działa kalkulator podatku od sprzedaży",
+      "subSections": [
+        {
+          "heading": "1. Dodaj podatek od sprzedaży (bez podatku → zawiera podatek)",
+          "content": "Cena całkowita = cena przed opodatkowaniem + (cena przed opodatkowaniem × stawka podatku od sprzedaży)"
+        },
+        {
+          "heading": "2. Znajdź podatek od sprzedaży na podstawie ceny całkowitej (podatek odwrócony)",
+          "content": "Podatek od sprzedaży = Cena całkowita – (Cena całkowita ÷ (1 + stawka podatku))"
+        },
+        {
+          "heading": "3. Cena brutto od całości (z podatkiem → z wyłączeniem)",
+          "content": "Cena przed opodatkowaniem = cena całkowita ÷ (1 + stawka podatku)"
+        }
+      ]
+    },
+    {
+      "heading": "Przykłady obliczania podatku od sprzedaży",
+      "subSections": [
+        {
+          "heading": "Przykład 1 (Dodaj podatek)",
+          "content": "Cena przedmiotu = 100 USD, stawka podatku od sprzedaży = 8% → Razem = 100 USD + (100 USD × 0,08) = 108 USD"
+        },
+        {
+          "heading": "Przykład 2 (podatek odwrócony)",
+          "content": "Cena całkowita (z podatkiem) = 108 USD, stawka podatku = 8% → cena przed opodatkowaniem = 108 USD ÷ 1,08 = 100 USD, podatek od sprzedaży = 108–100 USD = 8 USD"
+        }
+      ]
+    },
+    {
+      "heading": "Typowe przypadki użycia",
+      "content": "Zakupy i sprzedaż detaliczna, faktury i rozliczenia, handel elektroniczny, obliczenia specyficzne dla stanu (podatki stanowe w USA) i wykorzystanie międzynarodowe (GST/HST w Kanadzie, VAT w Wielkiej Brytanii)."
+    },
+    {
+      "heading": "Podatek od sprzedaży a VAT (szybkie porównanie)",
+      "subSections": [
+        {
+          "heading": "Podatek od sprzedaży (USA)",
+          "content": "Opłata pobierana w końcowym punkcie sprzedaży konsumentowi."
+        },
+        {
+          "heading": "VAT (Wielka Brytania i UE)",
+          "content": "Dodano na każdym etapie łańcucha dostaw, gdy firmy ubiegają się o zwrot podatku naliczonego."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z tego kalkulatora?",
+      "content": "✔ Szybkie i dokładne natychmiastowe wyniki\n✔ Działa dla podatku przed opodatkowaniem, po opodatkowaniu i podatku odwrotnego\n✔ Obejmuje podatek VAT w USA, Kanadzie (GST/HST), brytyjskim podatku VAT i nie tylko\n✔ Idealny dla kupujących, freelancerów, księgowych i firm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak ręcznie obliczyć podatek od sprzedaży?",
+      "a": "Pomnóż cenę przed opodatkowaniem przez stawkę podatku od sprzedaży, a następnie dodaj ją do ceny pierwotnej."
+    },
+    {
+      "q": "Co to jest odwrócony podatek od sprzedaży i kiedy się przydaje?",
+      "a": "Odwrócony podatek od sprzedaży pomaga znaleźć cenę przed opodatkowaniem, gdy znasz tylko kwotę całkowitą (zawierającą podatek). Przydatne do paragonów, faktur i księgowości."
+    },
+    {
+      "q": "Jak znaleźć podatek od sprzedaży od ceny całkowitej?",
+      "a": "Skorzystaj z poniższego wzoru: Podatek od sprzedaży = Cena całkowita – (Cena całkowita ÷ (1 + stawka podatku))"
+    },
+    {
+      "q": "Jaka jest różnica między podatkiem VAT a podatkiem od sprzedaży?",
+      "a": "Podatek od sprzedaży pobierany jest wyłącznie przy ostatecznej sprzedaży, natomiast podatek VAT pobierany jest na każdym etapie produkcji i dystrybucji."
+    },
+    {
+      "q": "Jak działają ceny zawierające podatek i ceny wyłączne?",
+      "a": "Tax Exclusive oznacza, że ​​podatek jest dodawany oddzielnie do ceny bazowej, natomiast Tax Inclusive oznacza, że ​​ostateczna cena zawiera już podatek."
+    },
+    {
+      "q": "Jaka jest stawka podatku od sprzedaży w USA?",
+      "a": "Stawki różnią się w zależności od stanu, np. Kalifornia (7,25%), Nowy Jork (4% stanu + stawki lokalne), Teksas (6,25%). Zawsze sprawdzaj stawkę lokalną."
+    },
+    {
+      "q": "Czy mogę używać tego kalkulatora do rozliczenia kanadyjskiego podatku GST/HST lub brytyjskiego podatku VAT?",
+      "a": "Tak. Kalkulator działa z dowolną stawką podatku, w tym kanadyjskim GST/HST i brytyjskim VAT."
+    },
+    {
+      "q": "Czy podatek od sprzedaży jest taki sam w przypadku zakupów online i zakupów w sklepie?",
+      "a": "To zależy. Wiele stanów USA wymaga obecnie pobierania podatku od sprzedaży w handlu elektronicznym, podobnie jak w przypadku zakupów w sklepach."
+    }
+  ]
+}

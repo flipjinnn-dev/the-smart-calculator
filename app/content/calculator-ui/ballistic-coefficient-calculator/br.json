@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Calculadora de coeficiente balístico",
+  "pageDescription": "Calcule o coeficiente balístico de um projétil para tiro de precisão e análise de trajetória",
+  "form": {
+    "labels": {
+      "bulletWeight": "Peso da bala",
+      "bulletDiameter": "Diâmetro da bala",
+      "bulletLength": "Comprimento do marcador",
+      "weightUnit": "Unidade de peso",
+      "diameterUnit": "Unidade de Diâmetro",
+      "lengthUnit": "Unidade de comprimento",
+      "calculationMethod": "Método de cálculo",
+      "bulletType": "Tipo de marcador"
+    },
+    "placeholders": {
+      "bulletWeight": "Insira o peso da bala",
+      "bulletDiameter": "Insira o diâmetro da bala",
+      "bulletLength": "Insira o comprimento do marcador"
+    },
+    "buttons": {
+      "calculate": "Calcular coeficiente balístico",
+      "reset": "Reiniciar"
+    },
+    "weightUnits": {
+      "grains": "Grãos",
+      "grams": "Gramas"
+    },
+    "diameterUnits": {
+      "inches": "Polegadas",
+      "millimeters": "Milímetros"
+    },
+    "lengthUnits": {
+      "inches": "Polegadas",
+      "millimeters": "Milímetros"
+    },
+    "calculationMethods": {
+      "g1": "Padrão G1 (base plana)",
+      "g7": "Padrão G7 (cauda de barco)"
+    },
+    "bulletTypes": {
+      "fmj": "Jaqueta totalmente metálica",
+      "hp": "Ponta Oca",
+      "sp": "Ponto suave",
+      "bt": "Cauda de barco",
+      "vmax": "V-máx.",
+      "sierra": "Serra MatchKing"
+    }
+  },
+  "results": {
+    "ballisticCoefficient": "Coeficiente Balístico",
+    "formFactor": "Fator de forma",
+    "sectionalDensity": "Densidade Seccional",
+    "ballisticCoefficientResultsTitle": "Resultados do coeficiente balístico",
+    "bcValue": "Valor BC"
+  },
+  "educational": {
+    "ballisticCoefficientInfo": "Informações sobre coeficiente balístico",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos balísticos",
+    "ballisticCoefficientFacts": {
+      "definition": {
+        "title": "Definição de coeficiente balístico",
+        "description": "Uma medida da capacidade de uma bala de superar a resistência do ar em vôo em comparação com um projétil padrão"
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "BC = Densidade Seccional ÷ Fator de Forma, onde SD = Peso ÷ Diâmetro²"
+      },
+      "standards": {
+        "title": "Modelos Padrão",
+        "description": "G1 (base plana) e G7 (cauda de barco) são os modelos de referência mais comuns"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas e não substitui testes empíricos",
+      "environmental": "O desempenho real varia de acordo com as condições ambientais e as características do cano"
+    },
+    "importantNotesList": [
+      "Valores mais altos de BC indicam melhor eficiência aerodinâmica",
+      "O padrão G7 é mais preciso para balas modernas de cauda de barco",
+      "Fatores ambientais afetam a trajetória real",
+      "As tolerâncias de fabricação podem afetar os valores reais de BC"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas especificações de marcador para calcular o coeficiente balístico",
+    "resultMessage": "O cálculo do seu coeficiente balístico é mostrado abaixo",
+    "assessmentResult": "Resultado do coeficiente balístico:",
+    "ballisticCoefficientAnalysis": "Análise do Coeficiente Balístico"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de coeficiente balístico com base em fórmulas matemáticas. O desempenho real pode variar com base nas condições ambientais, características do cano e tolerâncias de fabricação."
+  },
+  "seekHelp": {
+    "title": "Recursos balísticos",
+    "content": "Para análises balísticas profissionais e aplicações de tiro de precisão, consulte especialistas em balística ou use software especializado como Applied Ballistics ou JBM Ballistics."
+  },
+  "errors": {
+    "bulletWeight": "Insira um peso de bala válido",
+    "bulletDiameter": "Insira um diâmetro de bala válido",
+    "bulletLength": "Insira um comprimento de marcador válido",
+    "weightUnit": "Selecione uma unidade de peso",
+    "diameterUnit": "Selecione uma unidade de diâmetro",
+    "lengthUnit": "Selecione uma unidade de comprimento",
+    "calculationMethod": "Selecione um método de cálculo",
+    "bulletType": "Selecione um tipo de marcador"
+  },
+  "tooltips": {
+    "bulletWeight": "Peso da bala",
+    "bulletDiameter": "Diâmetro da bala",
+    "bulletLength": "Comprimento da bala",
+    "calculationMethod": "Modelo padrão para comparação",
+    "bulletType": "O tipo de marcador afeta o formato"
+  },
+  "ballistic_coefficient_calculation_0": "Cálculo do coeficiente balístico",
+  "enter_projectile_parameters_to_calculate_ballistic_1": "Insira os parâmetros do projétil para calcular o coeficiente balístico",
+  "input_method_2": "Método de entrada",
+  "crosssectional_area_3": "Área transversal",
+  "diameter_4": "Diâmetro",
+  "mass_of_projectile_5": "Massa do Projétil",
+  "g_6": "g",
+  "kg_7": "kg",
+  "gr_8": "gr",
+  "oz_9": "onças",
+  "crosssectional_area_10": "Área transversal",
+  "mm_11": "mm²",
+  "cm_12": "cm²",
+  "in_13": "em²",
+  "diameter_14": "Diâmetro",
+  "mm_15": "milímetros",
+  "cm_16": "cm",
+  "in_17": "em",
+  "area_will_be_calculated_as_d2_18": "A área será calculada como π × (d/2)²",
+  "drag_coefficient_cd_19": "Coeficiente de arrasto (Cd)",
+  "dimensionless_coefficient_typical_range_0105_20": "Coeficiente adimensional (faixa típica: 0,1-0,5)",
+  "formula_21": "Fórmula:",
+  "b_m_cd_a_22": "B = m / (Cd × A)",
+  "where_23": "Onde:",
+  "b_ballistic_coefficient_kgm_m_mass_kg_cd_drag_coef_24": "B = Coeficiente Balístico (kg/m²), m = massa (kg), Cd = coeficiente de arrasto,\n                        A = área (m²)",
+  "calculate_coefficient_25": "Calcular Coeficiente",
+  "results_26": "Resultados",
+  "ballistic_coefficient_27": "Coeficiente Balístico",
+  "kgm_28": "kg/m²",
+  "sectional_density_29": "Densidade Seccional",
+  "kgm_30": "kg/m²",
+  "mass_31": "Massa:",
+  "kg_32": "kg)",
+  "area_33": "Área:",
+  "mm_34": "mm²)",
+  "diameter_35": "Diâmetro:",
+  "area_36": "(Área:",
+  "mm_37": "mm²)",
+  "cd_38": "Cd:",
+  "enter_values_and_click_39": "Insira os valores e clique",
+  "calculate_40": "Calcular",
+  "to_see_results_41": "ver\n                          resultados.",
+  "understanding_ballistic_coefficient_42": "Compreendendo o coeficiente balístico",
+  "what_is_ballistic_coefficient_43": "O que é coeficiente balístico?",
+  "ballistic_coefficient_bc_is_a_measure_of_a_project_44": "O coeficiente balístico (BC) é uma medida da capacidade de um projétil de superar a resistência do ar em\n                      voo. Valores mais altos de BC indicam melhor eficiência aerodinâmica e menor perda de velocidade ao longo\n                      distância.",
+  "example_calculation_45": "Exemplo de cálculo",
+  "given_46": "Dado:",
+  "mass_m_180_g_0180_kg_47": "Massa (m) = 180 g = 0,180 kg",
+  "area_a_400_mm_400_10_m_48": "Área (A) = 400 mm² = 4,00 × 10⁻⁴ m²",
+  "drag_coefficient_cd_030_49": "Coeficiente de arrasto (Cd) = 0,30",
+  "calculation_50": "Cálculo:",
+  "b_0180_030_400_10_51": "B = 0,180 / (0,30 × 4,00 × 10⁻⁴)",
+  "b_0180_120_10_52": "B = 0,180 / (1,20 × 10⁻⁴)",
+  "b_1500_kgm_53": "B ≈ 1500 kg/m²",
+  "key_relationships_54": "Relacionamentos-chave",
+  "sectional_density_sd_55": "Densidade Seccional (SD):",
+  "sd_m_a_mass_per_unit_area_56": "SD = m / A (massa por unidade de área)",
+  "alternative_form_57": "Forma alternativa:",
+  "b_sd_cd_58": "B=SD/Cd",
+  "higher_bc_59": "BC superior:",
+  "better_longrange_performance_less_wind_drift_60": "Melhor desempenho de longo alcance, menos deriva do vento",
+  "typical_values_61": "Valores típicos:",
+  "k_0208_kgm_bullets_0103_kgm_pellets_62": "0,2-0,8 kg/m² (balas), 0,1-0,3 kg/m² (pelotas)"
+}

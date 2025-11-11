@@ -1,0 +1,149 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Kalkulator spożycia tłuszczu – znajdź zalecane dzienne spożycie tłuszczu",
+      "content": "Nasz kalkulator spożycia tłuszczu pomoże Ci dokładnie określić, ile tłuszczu powinieneś spożywać dziennie, w oparciu o Twój wiek, płeć, wagę, poziom aktywności i cele fitness. Niezależnie od tego, czy chcesz schudnąć, zbudować mięśnie, czy po prostu utrzymać zbilansowaną dietę, to narzędzie przedstawi Ci spersonalizowane zalecenia dotyczące zdrowego spożycia tłuszczów. W przeciwieństwie do ogólnych porad, nasz kalkulator dziennego spożycia tłuszczu wykorzystuje Twoje zapotrzebowanie kaloryczne do oszacowania odpowiedniego procentu kalorii pochodzących z tłuszczu – zgodnie z wytycznymi żywieniowymi WHO i USDA."
+    },
+    {
+      "heading": "Co to jest spożycie tłuszczu i dlaczego jest to ważne?",
+      "subSections": [
+        {
+          "heading": "Definicja",
+          "content": "Tłuszcz pokarmowy jest jednym z trzech niezbędnych makroskładników odżywczych (obok białka i węglowodanów). Odgrywa istotną rolę w dostarczaniu energii i wspieraniu metabolizmu, wspomaganiu produkcji hormonów i wchłanianiu witamin (A, D, E, K), ochronie zdrowia mózgu i serca oraz wspieraniu wzrostu i naprawy komórek."
+        },
+        {
+          "heading": "Balansować",
+          "content": "Zbilansowane spożycie tłuszczu jest niezbędne – zbyt mała ilość może zaszkodzić hormonom i poziomowi energii, natomiast zbyt duża może prowadzić do przyrostu masy ciała i chorób serca."
+        }
+      ]
+    },
+    {
+      "heading": "Jak działa nasz kalkulator spożycia tłuszczu",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Kalkulator szacuje zalecane spożycie tłuszczu, analizując całkowite zapotrzebowanie kaloryczne (w oparciu o BMR + poziom aktywności)."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Stosuje wytyczne dietetyczne (20–35% dziennej dawki kalorii pochodzących z tłuszczów, według USDA/WHO)."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Dostosowuje spożycie tłuszczu do celów fitness, takich jak utrata masy ciała, utrzymanie lub przyrost masy mięśniowej."
+        },
+        {
+          "heading": "Przykład",
+          "content": "Jeśli potrzebujesz 2000 kalorii dziennie, 25% tłuszczu = 55 g tłuszczu dziennie."
+        }
+      ]
+    },
+    {
+      "heading": "Zalecane dzienne spożycie tłuszczu według wieku, płci i aktywności",
+      "content": "Kobiety prowadzące siedzący tryb życia (2000 kcal) → 44–78 g tłuszczu/dzień\nAktywne kobiety (2400 kcal) → 53–93 g tłuszczu/dzień\nSiedzący tryb życia Mężczyźni (2500 kcal) → 55–97 g tłuszczu/dzień\nAktywni mężczyźni (3000 kcal) → 67–117 g tłuszczu/dzień"
+    },
+    {
+      "heading": "Spożycie tłuszczu w celu utraty wagi a przyrost mięśni",
+      "subSections": [
+        {
+          "heading": "Utrata wagi",
+          "content": "Obniż spożycie tłuszczu (20–25% kalorii), stawiając na pierwszym miejscu białko."
+        },
+        {
+          "heading": "Przyrost mięśni",
+          "content": "Umiarkowana zawartość tłuszczu (25–30% kalorii) wspomaga gospodarkę hormonalną i regenerację."
+        },
+        {
+          "heading": "Konserwacja",
+          "content": "Zbilansowane spożycie (25–35% kalorii) w zależności od zapotrzebowania energetycznego."
+        }
+      ]
+    },
+    {
+      "heading": "Zdrowe i niezdrowe tłuszcze",
+      "subSections": [
+        {
+          "heading": "Zdrowe tłuszcze",
+          "content": "Tłuszcze jednonienasycone (oliwa z oliwek, awokado, orzechy); Tłuszcze wielonienasycone (omega-3 i omega-6 z ryb, siemię lniane, orzechy włoskie)."
+        },
+        {
+          "heading": "Ogranicz niezdrowe tłuszcze",
+          "content": "Tłuszcze nasycone (masło, tłuste mięso – spożywaj z umiarem); Tłuszcze trans (przetworzona żywność, produkty smażone – całkowicie ich unikaj)."
+        }
+      ]
+    },
+    {
+      "heading": "Wytyczne WHO i USDA dotyczące spożycia tłuszczu",
+      "subSections": [
+        {
+          "heading": "KTO",
+          "content": "20–35% dziennej dawki kalorii pochodzi z tłuszczów, <10% z tłuszczów nasyconych."
+        },
+        {
+          "heading": "USDA",
+          "content": "20–35% tłuszczu ogółem, <10% tłuszczów nasyconych, całkowicie unikaj tłuszczów trans."
+        }
+      ]
+    },
+    {
+      "heading": "Powiązane narzędzia zapewniające lepsze odżywianie",
+      "subSections": [
+        {
+          "heading": "Kalkulator BMI",
+          "content": "Sprawdź swój zdrowy zakres wagi."
+        },
+        {
+          "heading": "Kalkulator spożycia białka",
+          "content": "Oszacuj białko potrzebne do wzrostu i regeneracji mięśni."
+        },
+        {
+          "heading": "Kalkulator zdrowej wagi",
+          "content": "Śledź długoterminowe cele w zakresie kontroli wagi."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ile tłuszczu powinienem jeść dziennie?",
+      "a": "Większość dorosłych powinna otrzymywać 20–35% dziennego zapotrzebowania kalorycznego z tłuszczów, co stanowi około 44–77 g dziennie na diecie 2000 kalorii."
+    },
+    {
+      "q": "Jakie jest zalecane spożycie tłuszczu przy odchudzaniu?",
+      "a": "W przypadku utraty wagi staraj się, aby 20–25% kalorii pochodziło z tłuszczu, utrzymując jednocześnie wysoki poziom białka, aby zachować mięśnie."
+    },
+    {
+      "q": "Jak obliczyć spożycie tłuszczu na podstawie kalorii?",
+      "a": "Pomnóż dzienną liczbę kalorii przez 0,20–0,35, a następnie podziel przez 9 (kalorie na gram tłuszczu)."
+    },
+    {
+      "q": "Jaka jest różnica między zdrowymi i niezdrowymi tłuszczami?",
+      "a": "Zdrowe tłuszcze są nienasycone (oliwa z oliwek, ryby). Do niezdrowych tłuszczów zaliczają się tłuszcze trans i nadmiar tłuszczów nasyconych."
+    },
+    {
+      "q": "Ile tłuszczów nasyconych dziennie jest bezpieczne?",
+      "a": "Mniej niż 10% dziennej dawki kalorii (około 20 g na dietę 2000 kalorii)."
+    },
+    {
+      "q": "Czy spożycie tłuszczu różni się u mężczyzn i kobiet?",
+      "a": "Tak. Mężczyźni często potrzebują więcej tłuszczu ze względu na większe zapotrzebowanie kaloryczne, ale procent kalorii pochodzących z tłuszczu jest podobny."
+    },
+    {
+      "q": "Czy mogę używać tego kalkulatora do planowania diety ketonowej?",
+      "a": "Tak. Dieta Keto zazwyczaj wykorzystuje 70–75% kalorii z tłuszczu, więc to narzędzie pomaga oszacować gram tłuszczu."
+    },
+    {
+      "q": "Jak obliczyć spożycie tłuszczu na podstawie poziomu aktywności?",
+      "a": "Większa aktywność → większe zapotrzebowanie kaloryczne → proporcjonalnie większe spożycie tłuszczu (przy zachowaniu 20–35%)."
+    },
+    {
+      "q": "Co się stanie, jeśli zjem za mało tłuszczu?",
+      "a": "Zbyt mało tłuszczu może powodować brak równowagi hormonalnej, zmęczenie, niedobory składników odżywczych i zamglenie mózgu."
+    },
+    {
+      "q": "Jak zbilansować spożycie tłuszczu, białka i węglowodanów?",
+      "a": "Postępuj zgodnie z podziałem makroskładników: białko 25–30%, tłuszcz 20–35%, węglowodany 40–55% (dostosuj do celów)."
+    }
+  ]
+}

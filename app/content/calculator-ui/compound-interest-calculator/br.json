@@ -1,0 +1,132 @@
+{
+  "pageTitle": "Calculadora de juros compostos",
+  "pageDescription": "Calcule o crescimento dos juros compostos ao longo do tempo com contribuições regulares para cenários de investimentos, poupanças e empréstimos",
+  "form": {
+    "labels": {
+      "principal": "Diretor Inicial",
+      "interestRate": "Taxa de juros anual",
+      "timePeriod": "Período de tempo",
+      "compoundFrequency": "Frequência Composta",
+      "contributions": "Contribuições Regulares",
+      "contributionAmount": "Valor da contribuição",
+      "contributionFrequency": "Frequência de contribuição",
+      "contributionTiming": "Prazo de contribuição"
+    },
+    "placeholders": {
+      "principal": "Insira o valor principal inicial",
+      "interestRate": "Insira a taxa de juros anual (%)",
+      "timePeriod": "Insira o período de tempo",
+      "contributionAmount": "Insira o valor da contribuição"
+    },
+    "buttons": {
+      "calculate": "Calcular juros compostos",
+      "reset": "Reiniciar"
+    },
+    "compoundFrequencies": {
+      "annually": "Anualmente",
+      "semiAnnually": "Semestralmente",
+      "quarterly": "Trimestral",
+      "monthly": "Mensal",
+      "daily": "Diário",
+      "continuously": "Continuamente"
+    },
+    "contributionFrequencies": {
+      "monthly": "Mensal",
+      "quarterly": "Trimestral",
+      "annually": "Anualmente",
+      "none": "Sem contribuições"
+    },
+    "contributionTimings": {
+      "beginning": "Início do Período",
+      "end": "Fim do Período"
+    }
+  },
+  "results": {
+    "futureValue": "Valor Futuro",
+    "totalContributions": "Contribuições totais",
+    "totalInterest": "Juros totais ganhos",
+    "interestPercentage": "Porcentagem de juros do total",
+    "compoundInterestResultsTitle": "Resultados de juros compostos"
+  },
+  "educational": {
+    "compoundInterestInfo": "Informações sobre juros compostos",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "compoundInterestFacts": {
+      "definition": {
+        "title": "Definição de juros compostos",
+        "description": "Juros calculados sobre o principal inicial e juros acumulados de períodos anteriores"
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "UMA = P(1 + r/n)^(nt) + PMT × [((1 + r/n)^(nt) - 1) / (r/n)]"
+      },
+      "power": {
+        "title": "Poder de composição",
+        "description": "O tempo e a taxa de juros impactam significativamente o valor final do investimento"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de juros compostos",
+      "actual": "Os retornos reais do investimento podem variar com base nas condições e taxas do mercado"
+    },
+    "importantNotesList": [
+      "Quanto maior o período de tempo, mais dramático será o efeito agravante",
+      "Taxas de juros mais altas levam a um crescimento exponencial ao longo do tempo",
+      "Contribuições regulares aumentam significativamente o valor final do investimento",
+      "Considere a inflação e os impostos ao avaliar os retornos reais"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações de investimento para calcular o crescimento dos juros compostos",
+    "resultMessage": "Os resultados do cálculo de juros compostos são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo de juros compostos:",
+    "compoundInterestAnalysis": "Análise de Juros Compostos"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de juros compostos com base em fórmulas matemáticas. Os retornos reais do investimento podem variar com base nas condições de mercado, taxas, impostos e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para aconselhamento de investimento personalizado e planejamento financeiro, consulte consultores financeiros ou profissionais de investimento com experiência em gestão de portfólio e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "principal": "Insira um valor principal inicial válido",
+    "interestRate": "Insira uma taxa de juros anual válida",
+    "timePeriod": "Insira um período válido",
+    "contributionAmount": "Insira um valor de contribuição válido",
+    "compoundFrequency": "Selecione uma frequência composta",
+    "contributionFrequency": "Selecione uma frequência de contribuição",
+    "contributionTiming": "Selecione o momento da contribuição"
+  },
+  "tooltips": {
+    "principal": "Valor inicial investido ou economizado",
+    "interestRate": "Taxa de juros anual ou retorno esperado",
+    "timePeriod": "Período de tempo para o crescimento do investimento",
+    "compoundFrequency": "Com que frequência os juros são compostos por ano",
+    "contributionAmount": "Montante regular adicionado ao investimento",
+    "contributionFrequency": "Com que frequência as contribuições são feitas",
+    "contributionTiming": "Se as contribuições são feitas no início ou no final do período"
+  },
+  "investment_details_0": "Detalhes de investimento",
+  "enter_your_investment_information_1": "Insira suas informações de investimento",
+  "initial_investment_2": "Investimento Inicial",
+  "monthly_contribution_3": "Contribuição Mensal",
+  "annual_interest_rate_4": "Taxa de juros anual (%)",
+  "investment_period_years_5": "Período de investimento (anos)",
+  "compound_frequency_6": "Frequência Composta",
+  "annually_7": "Anualmente",
+  "quarterly_8": "Trimestral",
+  "monthly_9": "Mensal",
+  "daily_10": "Diário",
+  "calculate_11": "Calcular",
+  "investment_growth_12": "Crescimento do Investimento",
+  "your_investment_projection_13": "Sua projeção de investimento",
+  "final_amount_14": "Montante Final",
+  "total_interest_earned_15": "Juros totais ganhos",
+  "total_contributions_16": "Contribuições totais",
+  "enter_investment_details_to_see_growth_projection_17": "Insira os detalhes do investimento para ver a projeção de crescimento"
+}

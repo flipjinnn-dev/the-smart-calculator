@@ -1,0 +1,129 @@
+{
+  "pageTitle": "Generator liczb losowych",
+  "pageDescription": "Generuj liczby losowe w określonym zakresie z konfigurowalnymi opcjami dla różnych zastosowań",
+  "form": {
+    "labels": {
+      "minValue": "Wartość minimalna",
+      "maxValue": "Maksymalna wartość",
+      "count": "Ile liczb?",
+      "allowDuplicates": "Zezwolić na duplikaty?",
+      "numberType": "Typ numeru",
+      "decimalPlaces": "Miejsca dziesiętne"
+    },
+    "placeholders": {
+      "minValue": "Wprowadź wartość minimalną",
+      "maxValue": "Wprowadź wartość maksymalną",
+      "count": "Ile liczb wygenerować?",
+      "decimalPlaces": "Wprowadź liczbę miejsc po przecinku"
+    },
+    "buttons": {
+      "generate": "Generuj liczby losowe",
+      "reset": "Nastawić",
+      "calculate": "Oblicz generator liczb losowych"
+    },
+    "numberTypes": {
+      "integer": "Liczba całkowita",
+      "decimal": "Dziesiętny"
+    },
+    "yesNo": {
+      "yes": "Tak",
+      "no": "NIE"
+    }
+  },
+  "results": {
+    "generatedNumbers": "Wygenerowane liczby",
+    "range": "Zakres",
+    "count": "Liczyć",
+    "randomResultsTitle": "Wyniki liczb losowych",
+    "statistics": "Statystyka"
+  },
+  "educational": {
+    "randomInfo": "Informacje o liczbach losowych",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Dodatkowe zasoby",
+    "randomApplications": {
+      "lottery": {
+        "title": "Loteria i gry",
+        "description": "Generowanie liczb losowych dla losów loteryjnych i gier losowych"
+      },
+      "sampling": {
+        "title": "Próbkowanie statystyczne",
+        "description": "Dobór losowych próbek do badań i ankiet"
+      },
+      "passwords": {
+        "title": "Generowanie hasła",
+        "description": "Tworzenie liczb losowych dla bezpiecznych składników haseł"
+      },
+      "simulation": {
+        "title": "Symulacja komputerowa",
+        "description": "Generowanie losowych danych wejściowych do modeli komputerowych i symulacji"
+      }
+    },
+    "criticalWarningsList": {
+      "notTrulyRandom": "Są to liczby pseudolosowe generowane przez algorytmy komputerowe",
+      "security": "Nie używaj do zastosowań kryptograficznych lub wrażliwych na bezpieczeństwo"
+    },
+    "importantNotesList": [
+      "Liczby pseudolosowe nadają się do większości ogólnych zastosowań",
+      "Do celów kryptograficznych korzystaj ze specjalistycznych narzędzi bezpieczeństwa",
+      "Jakość losowości zależy od zastosowanego algorytmu",
+      "Wybierając zakresy liczb i liczebności, weź pod uwagę swoje specyficzne potrzeby"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź swoje parametry, aby wygenerować liczby losowe",
+    "generatedMessage": "Twoje losowe liczby zostały wygenerowane poniżej",
+    "assessmentResult": "Wynik generacji:",
+    "randomAnalysis": "Analiza liczb losowych"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Generator ten generuje liczby pseudolosowe przy użyciu algorytmów komputerowych. Liczby te nadają się do zastosowań ogólnych, ale nie powinny być używane do celów kryptograficznych lub związanych z bezpieczeństwem, gdzie wymagana jest prawdziwa losowość."
+  },
+  "seekHelp": {
+    "title": "Dodatkowe zasoby",
+    "content": "W przypadku zastosowań wymagających prawdziwych liczb losowych lub bezpieczeństwa kryptograficznego rozważ użycie specjalistycznych sprzętowych generatorów liczb losowych lub skonsultuj się ze specjalistami ds. bezpieczeństwa."
+  },
+  "errors": {
+    "minValue": "Proszę wprowadzić prawidłową wartość minimalną",
+    "maxValue": "Proszę wprowadzić prawidłową wartość maksymalną",
+    "count": "Proszę wprowadzić prawidłową liczbę (1-1000)",
+    "decimalPlaces": "Proszę wprowadzić prawidłową liczbę miejsc dziesiętnych (0-10)",
+    "range": "Wartość maksymalna musi być większa niż wartość minimalna"
+  },
+  "tooltips": {
+    "minValue": "Najniższa liczba, jaką można wygenerować",
+    "maxValue": "Najwyższa liczba, jaką można wygenerować",
+    "count": "Ile liczb losowych wygenerować",
+    "allowDuplicates": "Określa, czy ten sam numer może pojawić się wiele razy",
+    "decimalPlaces": "Liczba miejsc po przecinku dla liczb dziesiętnych"
+  },
+  "smart_calculator_0": "Inteligentny kalkulator",
+  "random_number_generator_1": "Generator liczb losowych",
+  "random_number_generator_2": "Generator liczb losowych",
+  "generate_random_numbers_in_a_custom_range_with_or__3": "Natychmiast generuj losowe liczby w niestandardowym zakresie, z powtórzeniami lub bez.",
+  "random_number_generator_4": "Generator liczb losowych",
+  "set_your_range_and_options_5": "Ustaw swój zakres i opcje",
+  "minimum_value_6": "Wartość minimalna",
+  "maximum_value_7": "Maksymalna wartość",
+  "how_many_numbers_8": "Ile liczb?",
+  "allow_repeats_9": "Zezwalaj na powtórzenia",
+  "generate_10": "Spowodować",
+  "result_11": "Wynik",
+  "set_your_range_and_click_12": "Ustaw swój zakres i kliknij",
+  "generate_13": "Spowodować",
+  "to_see_random_numbers_14": "aby zobaczyć losowe liczby.",
+  "how_to_use_this_generator_15": "Jak korzystać z tego generatora?",
+  "k_1_16": "1",
+  "enter_the_minimum_and_maximum_values_for_your_rang_17": "Wprowadź wartości minimalne i maksymalne dla swojego zakresu.",
+  "k_2_18": "2",
+  "enter_how_many_random_numbers_you_want_to_generate_19": "Wpisz ile liczb losowych chcesz wygenerować.",
+  "k_3_20": "3",
+  "choose_whether_to_allow_repeats_or_not_21": "Wybierz, czy chcesz zezwolić na powtórzenia, czy nie.",
+  "k_4_22": "4",
+  "click_23": "Trzask",
+  "generate_24": "Spowodować",
+  "to_see_your_random_numbers_instantly_25": "aby natychmiast zobaczyć swoje losowe liczby."
+}

@@ -1,0 +1,204 @@
+{
+  "pageTitle": "Calculadora de massa corporal magra",
+  "pageDescription": "Calcule sua massa corporal magra usando vários métodos com nossa calculadora abrangente de massa corporal magra",
+  "form": {
+    "labels": {
+      "age": "Idade (anos)",
+      "gender": "Gênero",
+      "height": "Altura",
+      "weight": "Peso",
+      "bodyFat": "Porcentagem de gordura corporal",
+      "unitSystem": "Sistema de Unidades",
+      "calculationMethod": "Método de cálculo"
+    },
+    "placeholders": {
+      "age": "Insira a idade",
+      "heightFt": "Pés",
+      "heightIn": "Polegadas",
+      "heightCm": "Insira a altura em cm",
+      "weight": "Insira o peso em {unit}",
+      "bodyFat": "Insira o percentual de gordura corporal"
+    },
+    "buttons": {
+      "calculate": "Calcular a massa corporal magra",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades dos EUA (pés/pol., lb)",
+      "metric": "Unidades Métricas (cm, kg)"
+    },
+    "calculationMethods": {
+      "boer": "Fórmula Bôer",
+      "james": "Fórmula de James",
+      "hume": "Fórmula de Hume",
+      "peters": "Fórmula de Peters"
+    }
+  },
+  "results": {
+    "leanBodyMass": "Massa corporal magra",
+    "bodyFatMass": "Massa gorda corporal",
+    "leanBodyMassResultsTitle": "Resultados de massa corporal magra",
+    "lbmFormula": {
+      "label": "Fórmula LBM",
+      "boer": "Boer: LBM = (0,407 × peso (kg)) + (0,267 × altura (cm)) - 19,2 (homens) ou (0,252 × peso (kg)) + (0,473 × altura (cm)) - 48,3 (mulheres)",
+      "james": "James: LBM = (1,10 × peso (kg)) - (128 × (peso²(kg) / altura²(cm)))",
+      "hume": "Hume: LBM = (0,32810 × peso (kg)) + (0,33929 × altura (cm)) - 29,5336 (homens) ou (0,29569 × peso (kg)) + (0,41813 × altura (cm)) - 43,2933 (mulheres)",
+      "peters": "Peters: LBM = (3,8 × (0,01 × altura (cm))³ × peso (kg)) / (3,8 × (0,01 × altura (cm))³ + 1,8 × (0,01 × peso (kg))³)"
+    },
+    "unit": "{unidade}"
+  },
+  "educational": {
+    "leanBodyMassInfo": "Informações sobre massa corporal magra",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Consulte um profissional",
+    "leanBodyMassMethods": {
+      "boer": {
+        "title": "Método Bôer",
+        "description": "Comumente usado em dosagem médica e ambientes clínicos"
+      },
+      "james": {
+        "title": "Método James",
+        "description": "Projetado para a população adulta em geral"
+      },
+      "hume": {
+        "title": "Método Hume",
+        "description": "Amplamente utilizado na prática clínica"
+      },
+      "peters": {
+        "title": "Método Peters",
+        "description": "Especialmente desenvolvido para crianças e adolescentes"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas e não é uma ferramenta de diagnóstico",
+      "individualVariation": "A massa corporal magra varia com base em fatores individuais e na precisão da medição"
+    },
+    "importantNotesList": [
+      "A massa corporal magra inclui músculos, ossos, órgãos e água",
+      "Métodos diferentes podem produzir resultados ligeiramente diferentes",
+      "Consulte profissionais de saúde para uma análise precisa da composição corporal",
+      "O exercício regular e a nutrição equilibrada apoiam a massa corporal magra saudável"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Insira suas medidas para calcular sua massa corporal magra",
+    "lbmResult": "Sua massa corporal magra é de {lbm} {unidade}",
+    "bfmResult": "Sua massa de gordura corporal é {bfm} {unidade}",
+    "methodUsed": "Método de cálculo usado: {method}",
+    "assessmentResult": "Resultado da Avaliação:",
+    "lbmAnalysis": "Análise de massa corporal magra"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas baseadas em fórmulas matemáticas e não deve ser usada como um substituto para a análise profissional da composição corporal. Os resultados individuais podem variar com base em fatores não considerados nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Consulte um profissional de saúde",
+    "content": "Para uma análise precisa da composição corporal e aconselhamento de saúde personalizado, consulte um profissional de saúde ou um preparador físico certificado que possa fornecer orientação com base em seu histórico de saúde completo e nas circunstâncias individuais."
+  },
+  "errors": {
+    "age": "Insira uma idade válida (1-120)",
+    "gender": "Por favor selecione o sexo",
+    "heightFt": "Por favor insira pés válidos",
+    "heightIn": "Insira polegadas válidas (0-11)",
+    "heightCm": "Por favor insira uma altura válida em cm",
+    "weight": "Por favor insira um peso válido",
+    "bodyFat": "Insira um percentual de gordura corporal válido",
+    "method": "Selecione um método de cálculo"
+  },
+  "tooltips": {
+    "age": "A idade afeta os cálculos de massa corporal magra",
+    "height": "Sua medida de altura atual",
+    "weight": "Seu peso corporal atual",
+    "bodyFat": "Seu percentual de gordura corporal (se conhecido)",
+    "method": "Diferentes fórmulas podem ser mais apropriadas para diferentes populações"
+  },
+  "lbm_calculation_0": "Cálculo LBM",
+  "enter_your_details_to_calculate_lean_body_mass_1": "Insira seus dados para calcular a massa corporal magra",
+  "unit_system_2": "Sistema de Unidades",
+  "us_ftin_lbs_3": "EUA (pés/pol., lbs)",
+  "metric_cm_kg_4": "Métrico (cm, kg)",
+  "age_years_5": "Idade (anos)",
+  "gender_6": "Gênero",
+  "male_7": "Macho",
+  "female_8": "Fêmea",
+  "height_9": "Altura",
+  "ft_10": "pés",
+  "in_11": "em",
+  "height_cm_12": "Altura (cm)",
+  "weight_13": "Peso (",
+  "body_fat_percentage_optional_14": "Porcentagem de gordura corporal (%) - Opcional",
+  "if_known_provides_the_most_accurate_lbm_calculatio_15": "Se conhecido, fornece o cálculo de LBM mais preciso",
+  "calculate_16": "Calcular",
+  "reset_17": "Reiniciar",
+  "lean_body_mass_18": "Massa corporal magra",
+  "kg_19": "kg",
+  "enter_your_details_to_calculate_lean_body_mass_20": "Insira seus dados para calcular a massa corporal magra.",
+  "your_lean_body_mass_results_21": "Seus resultados de massa corporal magra",
+  "lbm_calculation_methods_22": "Métodos de cálculo LBM",
+  "method_23": "Método",
+  "result_kg_24": "Resultado (kg)",
+  "result_lbs_25": "Resultado (libras)",
+  "accuracy_26": "Precisão",
+  "summary_27": "Resumo",
+  "recommended_lbm_28": "LBM recomendado",
+  "value_29": "Valor:",
+  "kg_30": "kg (",
+  "lbs_31": "libras)",
+  "method_32": "Método:",
+  "estimated_body_fat_33": "Gordura corporal estimada:",
+  "input_summary_34": "Resumo de entrada",
+  "age_35": "Idade:",
+  "years_36": "anos",
+  "gender_37": "Gênero:",
+  "height_38": "Altura:",
+  "cm_39": "cm",
+  "weight_40": "Peso:",
+  "kg_41": "kg",
+  "body_fat_42": "Gordura Corporal:",
+  "about_lean_body_mass_43": "Sobre massa corporal magra",
+  "what_is_lbm_44": "O que é LBM?",
+  "lean_body_mass_45": "Massa corporal magra:",
+  "total_body_weight_minus_fat_mass_46": "Peso corporal total menos massa gorda",
+  "includes_47": "Inclui:",
+  "muscles_organs_bones_and_water_48": "Músculos, órgãos, ossos e água",
+  "uses_49": "Usos:",
+  "medication_dosing_sports_nutrition_health_tracking_50": "Dosagem de medicamentos, nutrição esportiva, monitoramento de saúde",
+  "difference_51": "Diferença:",
+  "slightly_higher_than_fatfree_mass_52": "Um pouco maior que a massa livre de gordura",
+  "formula_accuracy_53": "Precisão da Fórmula",
+  "body_fat_method_54": "Método de% de gordura corporal:",
+  "most_accurate_when_bf_is_known_55": "Mais preciso quando o %GC é conhecido",
+  "peters_formula_56": "Fórmula de Peters:",
+  "recommended_for_children_14_years_57": "Recomendado para crianças ≤14 anos",
+  "boer_formula_58": "Fórmula Boer:",
+  "good_for_general_adult_population_59": "Bom para a população adulta em geral",
+  "hume_formula_60": "Fórmula de Hume:",
+  "preferred_for_clinical_applications_61": "Preferido para aplicações clínicas",
+  "james_formula_62": "Fórmula de Tiago:",
+  "moderate_accuracy_for_adults_63": "Precisão moderada para adultos",
+  "clinical_applications_64": "Aplicações Clínicas",
+  "medication_dosing_65": "Dosagem de Medicamentos:",
+  "more_accurate_than_total_body_weight_66": "Mais preciso que o peso corporal total",
+  "nutritional_assessment_67": "Avaliação Nutricional:",
+  "protein_and_calorie_requirements_68": "Necessidades de proteínas e calorias",
+  "athletic_performance_69": "Desempenho Atlético:",
+  "training_and_recovery_optimization_70": "Otimização de treinamento e recuperação",
+  "health_monitoring_71": "Monitoramento de Saúde:",
+  "tracking_muscle_mass_changes_72": "Rastreando mudanças na massa muscular",
+  "typical_lbm_ranges_73": "Faixas típicas de LBM",
+  "category_74": "Categoria",
+  "male_75": "Macho (%)",
+  "female_76": "Fêmea (%)",
+  "athletes_77": "Atletas",
+  "k_8595_78": "85-95%",
+  "k_7585_79": "75-85%",
+  "fit_adults_80": "Adultos em forma",
+  "k_8090_81": "80-90%",
+  "k_7080_82": "70-80%",
+  "average_adults_83": "Adultos médios",
+  "k_7585_84": "75-85%",
+  "k_6575_85": "65-75%"
+}

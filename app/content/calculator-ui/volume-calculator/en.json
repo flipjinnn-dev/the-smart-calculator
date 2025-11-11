@@ -1,0 +1,139 @@
+{
+  "pageTitle": "Volume Calculator",
+  "pageDescription": "Calculate the volume of various shapes",
+  "form": {
+    "labels": {
+      "shape": "Select Shape",
+      "length": "Length",
+      "width": "Width",
+      "height": "Height",
+      "radius": "Radius",
+      "baseArea": "Base Area",
+      "baseRadius": "Base Radius",
+      "topRadius": "Top Radius",
+      "slantHeight": "Slant Height"
+    },
+    "placeholders": {
+      "length": "Enter length",
+      "width": "Enter width",
+      "height": "Enter height",
+      "radius": "Enter radius",
+      "baseArea": "Enter base area",
+      "baseRadius": "Enter base radius",
+      "topRadius": "Enter top radius",
+      "slantHeight": "Enter slant height"
+    },
+    "buttons": {
+      "calculate": "Calculate Volume",
+      "reset": "Reset"
+    },
+    "shapes": {
+      "cube": "Cube",
+      "rectangularPrism": "Rectangular Prism",
+      "cylinder": "Cylinder",
+      "sphere": "Sphere",
+      "cone": "Cone",
+      "pyramid": "Pyramid",
+      "ellipsoid": "Ellipsoid",
+      "torus": "Torus"
+    }
+  },
+  "results": {
+    "volumeCalculation": "Volume Calculation Results",
+    "volume": "Volume",
+    "formula": "Formula Used",
+    "unit3": "cubic units",
+    "surfaceArea": "Surface Area",
+    "unit2": "square units"
+  },
+  "educational": {
+    "volumeInfo": "Volume Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Mathematics Resources",
+    "volumeFacts": {
+      "definition": {
+        "title": "Volume Definition",
+        "description": "Volume is the amount of three-dimensional space occupied by an object"
+      },
+      "units": {
+        "title": "Measurement Units",
+        "description": "Common units include cubic meters (m³), cubic centimeters (cm³), liters (L), and gallons (gal)"
+      },
+      "applications": {
+        "title": "Real-world Applications",
+        "description": "Volume calculations are used in construction, manufacturing, chemistry, and everyday life"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides volume calculations only",
+      "actual": "Actual volumes may vary based on measurement accuracy and object irregularities"
+    },
+    "importantNotesList": [
+      "Use consistent units for all measurements",
+      "Results are based on ideal geometric shapes",
+      "Real objects may have irregular shapes requiring more complex calculations",
+      "Some shapes may require specific units or conversions"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Select a shape and enter the required dimensions to calculate volume",
+    "resultMessage": "Your volume calculation results are shown below",
+    "assessmentResult": "Volume Calculation Result:",
+    "volumeAnalysis": "Volume Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides volume calculations for ideal geometric shapes. Actual volumes of real objects may vary based on measurement accuracy, object irregularities, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Mathematics Resources",
+    "content": "For advanced geometry problems and volume calculations, consult mathematics textbooks or academic resources on solid geometry and measurement theory."
+  },
+  "errors": {
+    "length": "Please enter a valid length",
+    "width": "Please enter a valid width",
+    "height": "Please enter a valid height",
+    "radius": "Please enter a valid radius",
+    "baseArea": "Please enter a valid base area",
+    "baseRadius": "Please enter a valid base radius",
+    "topRadius": "Please enter a valid top radius",
+    "slantHeight": "Please enter a valid slant height"
+  },
+  "tooltips": {
+    "shape": "Select the geometric shape for volume calculation",
+    "length": "Length of the object",
+    "width": "Width of the object",
+    "height": "Height of the object",
+    "radius": "Radius of the object",
+    "baseArea": "Area of the base of the object",
+    "baseRadius": "Radius of the base of the object",
+    "topRadius": "Radius of the top of the object",
+    "slantHeight": "Slant height of the object"
+  },
+  "volume_calculations_0": "Volume Calculations",
+  "select_a_shape_and_enter_your_values_1": "Select a shape and enter your values",
+  "select_shape_2": "Select Shape",
+  "m_3": "m",
+  "cm_4": "cm",
+  "mm_5": "mm",
+  "inch_6": "inch",
+  "ft_7": "ft",
+  "yd_8": "yd",
+  "formula_9": "Formula:",
+  "calculate_10": "Calculate",
+  "result_11": "Result",
+  "enter_values_and_click_12": "Enter values and click",
+  "calculate_13": "Calculate",
+  "to_see_result_14": "to see result.",
+  "how_to_use_this_calculator_15": "How to use this calculator?",
+  "k_1_16": "1",
+  "select_the_shape_you_want_to_calculate_the_volume__17": "Select the shape you want to calculate the volume for.",
+  "k_2_18": "2",
+  "enter_your_values_in_the_input_fields_19": "Enter your values in the input fields.",
+  "k_3_20": "3",
+  "click_21": "Click",
+  "calculate_22": "Calculate",
+  "to_see_the_result_instantly_23": "to see the result instantly."
+}

@@ -1,0 +1,204 @@
+{
+  "pageTitle": "Lean Body Mass Calculator",
+  "pageDescription": "Calculate your lean body mass using various methods with our comprehensive lean body mass calculator",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Weight",
+      "bodyFat": "Body Fat Percentage",
+      "unitSystem": "Unit System",
+      "calculationMethod": "Calculation Method"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}",
+      "bodyFat": "Enter body fat percentage"
+    },
+    "buttons": {
+      "calculate": "Calculate Lean Body Mass",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    },
+    "calculationMethods": {
+      "boer": "Boer Formula",
+      "james": "James Formula",
+      "hume": "Hume Formula",
+      "peters": "Peters Formula"
+    }
+  },
+  "results": {
+    "leanBodyMass": "Lean Body Mass",
+    "bodyFatMass": "Body Fat Mass",
+    "leanBodyMassResultsTitle": "Lean Body Mass Results",
+    "lbmFormula": {
+      "label": "LBM Formula",
+      "boer": "Boer: LBM = (0.407 × weight(kg)) + (0.267 × height(cm)) - 19.2 (Men) or (0.252 × weight(kg)) + (0.473 × height(cm)) - 48.3 (Women)",
+      "james": "James: LBM = (1.10 × weight(kg)) - (128 × (weight²(kg) / height²(cm)))",
+      "hume": "Hume: LBM = (0.32810 × weight(kg)) + (0.33929 × height(cm)) - 29.5336 (Men) or (0.29569 × weight(kg)) + (0.41813 × height(cm)) - 43.2933 (Women)",
+      "peters": "Peters: LBM = (3.8 × (0.01 × height(cm))³ × weight(kg)) / (3.8 × (0.01 × height(cm))³ + 1.8 × (0.01 × weight(kg))³)"
+    },
+    "unit": "{unit}"
+  },
+  "educational": {
+    "leanBodyMassInfo": "Lean Body Mass Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Professional",
+    "leanBodyMassMethods": {
+      "boer": {
+        "title": "Boer Method",
+        "description": "Commonly used in medical dosing and clinical settings"
+      },
+      "james": {
+        "title": "James Method",
+        "description": "Designed for the general adult population"
+      },
+      "hume": {
+        "title": "Hume Method",
+        "description": "Widely used in clinical practice"
+      },
+      "peters": {
+        "title": "Peters Method",
+        "description": "Specially designed for children and adolescents"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a diagnostic tool",
+      "individualVariation": "Lean body mass varies based on individual factors and measurement accuracy"
+    },
+    "importantNotesList": [
+      "Lean body mass includes muscle, bones, organs, and water",
+      "Different methods may produce slightly different results",
+      "Consult healthcare professionals for accurate body composition analysis",
+      "Regular exercise and balanced nutrition support healthy lean body mass"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Enter your measurements to calculate your lean body mass",
+    "lbmResult": "Your lean body mass is {lbm} {unit}",
+    "bfmResult": "Your body fat mass is {bfm} {unit}",
+    "methodUsed": "Calculation method used: {method}",
+    "assessmentResult": "Assessment Result:",
+    "lbmAnalysis": "Lean Body Mass Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates based on mathematical formulas and should not be used as a substitute for professional body composition analysis. Individual results may vary based on factors not accounted for in these calculations."
+  },
+  "seekHelp": {
+    "title": "Consult a Healthcare Professional",
+    "content": "For accurate body composition analysis and personalized health advice, please consult with a healthcare professional or certified fitness trainer who can provide guidance based on your complete health history and individual circumstances."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight",
+    "bodyFat": "Please enter a valid body fat percentage",
+    "method": "Please select a calculation method"
+  },
+  "tooltips": {
+    "age": "Age affects lean body mass calculations",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "bodyFat": "Your body fat percentage (if known)",
+    "method": "Different formulas may be more appropriate for different populations"
+  },
+  "lbm_calculation_0": "LBM Calculation",
+  "enter_your_details_to_calculate_lean_body_mass_1": "Enter your details to calculate lean body mass",
+  "unit_system_2": "Unit System",
+  "us_ftin_lbs_3": "US (ft/in, lbs)",
+  "metric_cm_kg_4": "Metric (cm, kg)",
+  "age_years_5": "Age (years)",
+  "gender_6": "Gender",
+  "male_7": "Male",
+  "female_8": "Female",
+  "height_9": "Height",
+  "ft_10": "ft",
+  "in_11": "in",
+  "height_cm_12": "Height (cm)",
+  "weight_13": "Weight (",
+  "body_fat_percentage_optional_14": "Body Fat Percentage (%) - Optional",
+  "if_known_provides_the_most_accurate_lbm_calculatio_15": "If known, provides the most accurate LBM calculation",
+  "calculate_16": "Calculate",
+  "reset_17": "Reset",
+  "lean_body_mass_18": "Lean Body Mass",
+  "kg_19": "kg",
+  "enter_your_details_to_calculate_lean_body_mass_20": "Enter your details to calculate lean body mass.",
+  "your_lean_body_mass_results_21": "Your Lean Body Mass Results",
+  "lbm_calculation_methods_22": "LBM Calculation Methods",
+  "method_23": "Method",
+  "result_kg_24": "Result (kg)",
+  "result_lbs_25": "Result (lbs)",
+  "accuracy_26": "Accuracy",
+  "summary_27": "Summary",
+  "recommended_lbm_28": "Recommended LBM",
+  "value_29": "Value:",
+  "kg_30": "kg (",
+  "lbs_31": "lbs)",
+  "method_32": "Method:",
+  "estimated_body_fat_33": "Estimated Body Fat:",
+  "input_summary_34": "Input Summary",
+  "age_35": "Age:",
+  "years_36": "years",
+  "gender_37": "Gender:",
+  "height_38": "Height:",
+  "cm_39": "cm",
+  "weight_40": "Weight:",
+  "kg_41": "kg",
+  "body_fat_42": "Body Fat:",
+  "about_lean_body_mass_43": "About Lean Body Mass",
+  "what_is_lbm_44": "What is LBM?",
+  "lean_body_mass_45": "Lean Body Mass:",
+  "total_body_weight_minus_fat_mass_46": "Total body weight minus fat mass",
+  "includes_47": "Includes:",
+  "muscles_organs_bones_and_water_48": "Muscles, organs, bones, and water",
+  "uses_49": "Uses:",
+  "medication_dosing_sports_nutrition_health_tracking_50": "Medication dosing, sports nutrition, health tracking",
+  "difference_51": "Difference:",
+  "slightly_higher_than_fatfree_mass_52": "Slightly higher than fat-free mass",
+  "formula_accuracy_53": "Formula Accuracy",
+  "body_fat_method_54": "Body Fat % Method:",
+  "most_accurate_when_bf_is_known_55": "Most accurate when BF% is known",
+  "peters_formula_56": "Peters Formula:",
+  "recommended_for_children_14_years_57": "Recommended for children ≤14 years",
+  "boer_formula_58": "Boer Formula:",
+  "good_for_general_adult_population_59": "Good for general adult population",
+  "hume_formula_60": "Hume Formula:",
+  "preferred_for_clinical_applications_61": "Preferred for clinical applications",
+  "james_formula_62": "James Formula:",
+  "moderate_accuracy_for_adults_63": "Moderate accuracy for adults",
+  "clinical_applications_64": "Clinical Applications",
+  "medication_dosing_65": "Medication Dosing:",
+  "more_accurate_than_total_body_weight_66": "More accurate than total body weight",
+  "nutritional_assessment_67": "Nutritional Assessment:",
+  "protein_and_calorie_requirements_68": "Protein and calorie requirements",
+  "athletic_performance_69": "Athletic Performance:",
+  "training_and_recovery_optimization_70": "Training and recovery optimization",
+  "health_monitoring_71": "Health Monitoring:",
+  "tracking_muscle_mass_changes_72": "Tracking muscle mass changes",
+  "typical_lbm_ranges_73": "Typical LBM Ranges",
+  "category_74": "Category",
+  "male_75": "Male (%)",
+  "female_76": "Female (%)",
+  "athletes_77": "Athletes",
+  "k_8595_78": "85-95%",
+  "k_7585_79": "75-85%",
+  "fit_adults_80": "Fit Adults",
+  "k_8090_81": "80-90%",
+  "k_7080_82": "70-80%",
+  "average_adults_83": "Average Adults",
+  "k_7585_84": "75-85%",
+  "k_6575_85": "65-75%"
+}

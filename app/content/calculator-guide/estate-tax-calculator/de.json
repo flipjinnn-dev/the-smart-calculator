@@ -1,0 +1,110 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Was ist die Bundeserbschaftssteuer?",
+      "content": "Die Erbschaftssteuer ist eine Bundessteuer auf die Vermögensübertragung im Todesfall. Im Gegensatz zu einer Erbschaftssteuer, die in bestimmten Bundesstaaten von den Begünstigten gezahlt wird, wird die Bundeserbschaftssteuer vor der Verteilung vom Nachlass selbst gezahlt."
+    },
+    {
+      "heading": "2025 Bundesnachlasssteuerbefreiung",
+      "content": "Im Jahr 2025 beträgt die Erbschaftssteuerbefreiung 13,99 Millionen US-Dollar pro Person. Beträge, die über diesen Freibetrag hinausgehen, unterliegen der Steuer, wobei der Spitzensatz 40 % beträgt. Nachlässe werden dem IRS mithilfe des Formulars 706 (United States Estate and Generation-Skipping Transfer Tax Return) gemeldet."
+    },
+    {
+      "heading": "So wird die Erbschaftssteuer berechnet",
+      "subSections": [
+        {
+          "heading": "Bruttonachlass",
+          "content": "Gesamtwert der Vermögenswerte (Immobilien, Wertpapiere, Lebensversicherungserlöse, Geschäftsanteile, Altersvorsorgekonten)."
+        },
+        {
+          "heading": "Zulässige Abzüge",
+          "content": "Bestattungskosten, Schulden, Spenden für wohltätige Zwecke und Eheabzug (Überweisungen an den Ehegatten sind grundsätzlich steuerfrei)."
+        },
+        {
+          "heading": "Steuerpflichtiger Nachlass",
+          "content": "Bruttovermögen abzüglich Abzüge."
+        },
+        {
+          "heading": "Befreiung von der Erbschaftssteuer",
+          "content": "Ziehen Sie den Freibetrag (13,99 Mio. USD im Jahr 2025) ab, um den steuerpflichtigen Betrag zu ermitteln."
+        },
+        {
+          "heading": "Wenden Sie IRS-Erbschaftssteuerklassen an",
+          "content": "Zur Berechnung der endgültig geschuldeten Erbschaftssteuer wird ein Steuersatz von bis zu 40 % herangezogen."
+        }
+      ]
+    },
+    {
+      "heading": "So verwenden Sie diesen Erbschaftssteuerrechner",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Geben Sie Ihren gesamten Nachlasswert ein."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Fügen Sie Abzüge hinzu (Schulden, Spenden, Bestattungskosten)."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Berücksichtigen Sie ggf. Eheübertragungen oder Ehegattenbefreiungen."
+        },
+        {
+          "heading": "Schritt 4",
+          "content": "Geben Sie lebenslange Geschenke ein, um zu sehen, wie sie die Befreiung reduzieren."
+        },
+        {
+          "heading": "Schritt 5",
+          "content": "Sehen Sie sich die geschätzte geschuldete Erbschaftssteuer an, basierend auf den IRS-Grenzwerten für 2025."
+        }
+      ]
+    },
+    {
+      "heading": "Erbschaftssteuer vs. Erbschaftssteuer vs. Kapitalerträge",
+      "subSections": [
+        {
+          "heading": "Erbschaftssteuer (Bundessteuer)",
+          "content": "Wird vom Nachlass gezahlt, bevor die Erben Vermögenswerte erhalten."
+        },
+        {
+          "heading": "Erbschaftssteuer (bundeslandspezifisch)",
+          "content": "Von den Erben bezahlt; gilt nur in wenigen Bundesstaaten (z. B. PA, NJ, NE)."
+        },
+        {
+          "heading": "Kapitalertragssteuer",
+          "content": "Wird gezahlt, wenn das geerbte Vermögen später verkauft wird; basierend auf einer erhöhten Basis zum Zeitpunkt des Todes."
+        }
+      ]
+    },
+    {
+      "heading": "Haftungsausschluss und nächste Schritte",
+      "content": "Dieser Bundeserbschaftssteuerrechner 2025 dient nur zu Bildungszwecken. Die Ergebnisse sind Schätzungen und können je nach staatlichen Vorschriften, Inflationsanpassungen und IRS-Updates variieren. Wenden Sie sich für eine individuelle Beratung immer an einen qualifizierten Steuerberater oder Anwalt für Nachlassplanung."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist die Befreiung von der Erbschaftssteuer im Jahr 2025?",
+      "a": "Die Befreiung beträgt 13,99 Millionen US-Dollar pro Person (27,98 Millionen US-Dollar für verheiratete Paare mit Portabilität)."
+    },
+    {
+      "q": "Wie wirken sich lebenslange Schenkungen auf die Erbschaftssteuer aus?",
+      "a": "Geschenke, die über den jährlichen Freibetrag hinausgehen (18.000 US-Dollar im Jahr 2025), reduzieren Ihren lebenslangen Freibetrag und erhöhen Ihr steuerpflichtiges Vermögen."
+    },
+    {
+      "q": "Werden Erlöse aus der Lebensversicherung auf den Nachlass angerechnet?",
+      "a": "Ja, wenn der Verstorbene Eigentümer der Police war. Der Erlös kann das Bruttovermögen erhöhen."
+    },
+    {
+      "q": "Wie viel Erbschaftssteuer würde ich für einen Nachlass im Wert von 15 Millionen US-Dollar schulden?",
+      "a": "Etwa 400.000 US-Dollar nach Anwendung der Steuerbefreiung in Höhe von 13,99 Mio. US-Dollar, ohne Abzüge."
+    },
+    {
+      "q": "Reduzieren Spenden für wohltätige Zwecke die Erbschaftssteuer?",
+      "a": "Ja. Abzüge für wohltätige Zwecke reduzieren direkt das steuerpflichtige Vermögen und senken die Gesamtschuld."
+    },
+    {
+      "q": "Muss ich das IRS-Formular 706 einreichen?",
+      "a": "Nachlässe über dem Freibetrag müssen innerhalb von neun Monaten nach dem Tod das Formular 706 einreichen (Verlängerungen möglich)."
+    }
+  ]
+}

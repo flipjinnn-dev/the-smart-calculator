@@ -1,0 +1,154 @@
+{
+  "pageTitle": "Credit Card Calculator",
+  "pageDescription": "Calculate your credit card payments, interest charges, and payoff timeline to manage debt and plan repayment strategies",
+  "form": {
+    "labels": {
+      "balance": "Current Balance",
+      "interestRate": "Annual Interest Rate (APR)",
+      "monthlyPayment": "Monthly Payment",
+      "minimumPayment": "Minimum Payment Percentage",
+      "extraPayment": "Extra Monthly Payment",
+      "paymentStrategy": "Payment Strategy"
+    },
+    "placeholders": {
+      "balance": "Enter current credit card balance",
+      "interestRate": "Enter annual interest rate (%)",
+      "monthlyPayment": "Enter monthly payment amount",
+      "minimumPayment": "Enter minimum payment percentage (%)",
+      "extraPayment": "Enter extra monthly payment (optional)"
+    },
+    "buttons": {
+      "calculate": "Calculate Credit Card Payments",
+      "reset": "Reset"
+    },
+    "paymentStrategies": {
+      "fixed": "Fixed Monthly Payment",
+      "minimum": "Minimum Payment Only",
+      "minimumPlus": "Minimum Plus Extra Payment"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Monthly Payment",
+    "totalInterest": "Total Interest Paid",
+    "totalPayment": "Total Payment",
+    "payoffTime": "Time to Payoff",
+    "interestSavings": "Interest Savings with Extra Payments",
+    "creditCardResultsTitle": "Credit Card Calculation Results"
+  },
+  "educational": {
+    "creditCardInfo": "Credit Card Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "creditCardFacts": {
+      "interest": {
+        "title": "Credit Card Interest",
+        "description": "Interest is charged on unpaid balances and compounds daily"
+      },
+      "minimumPayments": {
+        "title": "Minimum Payments",
+        "description": "Paying only minimums extends payoff time and increases total interest"
+      },
+      "debtReduction": {
+        "title": "Debt Reduction Strategies",
+        "description": "Paying more than minimums significantly reduces payoff time and interest"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides credit card payment estimates only",
+      "actual": "Actual account terms may vary based on card issuer policies and fees"
+    },
+    "importantNotesList": [
+      "Credit card interest compounds daily, making debt grow quickly",
+      "Paying only minimums can take years to payoff and cost hundreds in interest",
+      "Extra payments directly reduce principal and save on interest",
+      "Consider balance transfer offers for high-interest debt consolidation"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your credit card information to calculate payoff timeline",
+    "resultMessage": "Your credit card calculation results are shown below",
+    "assessmentResult": "Credit Card Calculation Result:",
+    "creditCardAnalysis": "Credit Card Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides credit card payment estimates based on standard financial formulas. Actual account terms, payments, and interest may vary based on card issuer policies, fees, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized debt management advice and repayment strategies, consult credit counselors or financial advisors with expertise in debt reduction and individual financial circumstances."
+  },
+  "errors": {
+    "balance": "Please enter a valid credit card balance",
+    "interestRate": "Please enter a valid annual interest rate",
+    "monthlyPayment": "Please enter a valid monthly payment amount",
+    "minimumPayment": "Please enter a valid minimum payment percentage",
+    "extraPayment": "Please enter a valid extra payment amount",
+    "paymentStrategy": "Please select a payment strategy"
+  },
+  "tooltips": {
+    "balance": "Current outstanding balance on your credit card",
+    "interestRate": "Annual Percentage Rate (APR) charged on unpaid balances",
+    "monthlyPayment": "Amount you plan to pay each month",
+    "minimumPayment": "Percentage of balance that represents minimum payment",
+    "extraPayment": "Additional amount paid each month toward principal",
+    "paymentStrategy": "Method used to determine monthly payment amount"
+  },
+  "credit_card_calculator_0": "Credit Card Calculator",
+  "credit_card_information_1": "Credit Card Information",
+  "current_balance_2": "Current Balance",
+  "annual_interest_rate_apr_3": "Annual Interest Rate (APR)",
+  "payment_strategy_4": "Payment Strategy",
+  "fixed_monthly_payment_calculate_time_5": "Fixed Monthly Payment (Calculate time)",
+  "payoff_in_fixed_timeframe_calculate_payment_6": "Payoff in Fixed Timeframe (Calculate payment)",
+  "minimum_payment_interest_of_balance_7": "Minimum Payment (Interest + % of Balance)",
+  "monthly_payment_amount_8": "Monthly Payment Amount",
+  "years_9": "Years",
+  "months_10": "Months",
+  "principal_payment_of_balance_11": "Principal Payment (% of Balance)",
+  "k_1_12": "1%",
+  "k_2_13": "2%",
+  "k_3_14": "3%",
+  "k_4_15": "4%",
+  "k_5_16": "5%",
+  "calculate_17": "Calculate",
+  "payoff_results_18": "Payoff Results",
+  "your_debt_payoff_breakdown_19": "Your debt payoff breakdown",
+  "your_balance_will_be_paid_off_in_20": "Your balance will be paid off in:",
+  "years_21": "years",
+  "months_22": "months",
+  "required_monthly_payment_23": "Required monthly payment:",
+  "total_interest_paid_24": "Total Interest Paid",
+  "total_amount_paid_25": "Total Amount Paid",
+  "payment_schedule_26": "Payment Schedule",
+  "download_csv_27": "Download CSV",
+  "month_28": "Month",
+  "balance_29": "Balance",
+  "interest_30": "Interest",
+  "payment_31": "Payment",
+  "principal_32": "Principal",
+  "showing_first_24_months_download_csv_for_complete__33": "Showing first 24 months. Download CSV for complete schedule.",
+  "enter_your_credit_card_information_to_see_payoff_r_34": "Enter your credit card information to see payoff results",
+  "formulas_behind_the_calculation_35": "Formulas Behind the Calculation",
+  "monthly_interest_rate_36": "Monthly Interest Rate",
+  "monthly_rate_annual_rate_12_37": "Monthly Rate = Annual Rate ÷ 12",
+  "balance_recurrence_38": "Balance Recurrence",
+  "new_balance_previous_balance_1_monthly_rate_paymen_39": "New Balance = Previous Balance × (1 + Monthly Rate) - Payment",
+  "fixed_payment_payoff_time_40": "Fixed Payment: Payoff Time",
+  "n_lnp_p_b_r_ln1_r_41": "n = ln(P / (P - B₀ × r)) ÷ ln(1 + r)",
+  "fixed_timeframe_required_payment_42": "Fixed Timeframe: Required Payment",
+  "p_b_r_1r_1r_1_43": "P = B₀ × r × (1+r)ⁿ ÷ ((1+r)ⁿ - 1)",
+  "example_scenarios_44": "Example Scenarios",
+  "scenario_1_aggressive_payoff_45": "Scenario 1: Aggressive Payoff",
+  "balance_5000_46": "• Balance: $5,000",
+  "apr_1899_47": "• APR: 18.99%",
+  "payment_300month_48": "• Payment: $300/month",
+  "result_19_months_850_interest_49": "• Result: ~19 months, $850 interest",
+  "scenario_2_minimum_payment_50": "Scenario 2: Minimum Payment",
+  "balance_5000_51": "• Balance: $5,000",
+  "apr_1899_52": "• APR: 18.99%",
+  "payment_2_of_balance_53": "• Payment: 2% of balance",
+  "result_30_years_15000_interest_54": "• Result: ~30+ years, $15,000+ interest"
+}

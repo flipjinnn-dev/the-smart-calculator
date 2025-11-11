@@ -1,0 +1,180 @@
+{
+  "pageTitle": "Körperfettrechner",
+  "pageDescription": "Berechnen Sie den Körperfettanteil mit verschiedenen Methoden, einschließlich der BMI-Methode, der U.S. Navy-Methode und anderen wissenschaftlichen Ansätzen",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "height": "Höhe",
+      "weight": "Gewicht",
+      "unitSystem": "Einheitensystem",
+      "waist": "Taillenumfang",
+      "neck": "Halsumfang",
+      "hip": "Hüftumfang (nur Frauen)"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben",
+      "waist": "Geben Sie den Taillenumfang ein",
+      "neck": "Geben Sie den Halsumfang ein",
+      "hip": "Geben Sie den Hüftumfang ein"
+    },
+    "buttons": {
+      "calculate": "Körperfett berechnen",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    }
+  },
+  "results": {
+    "bodyFatPercentage": "Körperfettanteil",
+    "fatMass": "Fettmasse",
+    "leanMass": "Magere Masse",
+    "bodyFatResultsTitle": "Ergebnisse zum Körperfett",
+    "bodyFatCategories": {
+      "essential": "Essentielles Fett",
+      "athletes": "Sportler",
+      "fitness": "Fitness",
+      "average": "Durchschnitt",
+      "obese": "Fettleibig"
+    }
+  },
+  "educational": {
+    "bodyFatInfo": "Informationen zum Körperfett",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Konsultieren Sie einen Fachmann",
+    "bodyFatMethods": {
+      "bmi": {
+        "title": "BMI-Methode",
+        "description": "Verwendet BMI und Alter, um den Körperfettanteil zu schätzen"
+      },
+      "usNavy": {
+        "title": "Methode der US-Marine",
+        "description": "Verwendet Umfangsmessungen für genauere Ergebnisse"
+      },
+      "modifiedUSNavy": {
+        "title": "Modifizierte Methode der US-Marine",
+        "description": "Angepasste Formel für verbesserte Genauigkeit"
+      }
+    },
+    "bodyFatCategoriesInfo": {
+      "men": {
+        "essential": "2-5 %",
+        "athletes": "6-13 %",
+        "fitness": "14-17 %",
+        "average": "18–24 %",
+        "obese": "25 %+"
+      },
+      "women": {
+        "essential": "10-13 %",
+        "athletes": "14-20 %",
+        "fitness": "21–24 %",
+        "average": "25–31 %",
+        "obese": "32 %+"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Diagnosetool",
+      "individualVariation": "Der Körperfettanteil variiert aufgrund vieler individueller Faktoren"
+    },
+    "importantNotesList": [
+      "Verschiedene Methoden können zu unterschiedlichen Ergebnissen führen",
+      "Der Körperfettanteil ist nur ein Maß für die Gesundheit",
+      "Wenden Sie sich für eine genaue Analyse der Körperzusammensetzung an medizinisches Fachpersonal",
+      "Regelmäßige Bewegung und ausgewogene Ernährung sind wichtig für eine gesunde Körperzusammensetzung"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Geben Sie Ihre Maße ein, um Ihren Körperfettanteil zu berechnen",
+    "bodyFatResult": "Ihr geschätzter Körperfettanteil beträgt {percentage} %",
+    "bodyFatCategory": "Dies fällt in die Kategorie {category}",
+    "ageWarning": "Die Berechnung des Körperfettanteils kann je nach Altersgruppe variieren",
+    "assessmentResult": "Bewertungsergebnis:",
+    "bodyFatAnalysis": "Körperfettanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen auf der Grundlage mathematischer Formeln und sollte nicht als Ersatz für eine professionelle Analyse der Körperzusammensetzung verwendet werden. Einzelne Ergebnisse können aufgrund von Faktoren, die in diesen Berechnungen nicht berücksichtigt wurden, variieren."
+  },
+  "seekHelp": {
+    "title": "Konsultieren Sie einen Arzt",
+    "content": "Für eine genaue Analyse der Körperzusammensetzung und eine individuelle Gesundheitsberatung wenden Sie sich bitte an einen Arzt oder zertifizierten Fitnesstrainer, der Sie auf der Grundlage Ihrer gesamten Gesundheitsgeschichte und Ihrer individuellen Umstände beraten kann."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "waist": "Bitte geben Sie einen gültigen Taillenumfang ein",
+    "neck": "Bitte geben Sie einen gültigen Halsumfang ein",
+    "hip": "Bitte geben Sie einen gültigen Hüftumfang ein"
+  },
+  "tooltips": {
+    "age": "Das Alter beeinflusst die Berechnung des Körperfettanteils",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "waist": "Messen Sie an der engsten Stelle",
+    "neck": "Messen Sie unterhalb des Kehlkopfes",
+    "hip": "An der breitesten Stelle messen (nur für Frauen)"
+  },
+  "loading_0": "Laden...",
+  "body_fat_calculator_1": "Körperfettrechner",
+  "enter_your_measurements_to_calculate_body_fat_perc_2": "Geben Sie Ihre Maße ein, um den Körperfettanteil zu berechnen",
+  "unit_system_3": "Einheitensystem",
+  "metric_units_4": "Metrische Einheiten",
+  "us_units_5": "US-Einheiten",
+  "other_units_6": "Andere Einheiten",
+  "gender_7": "Geschlecht",
+  "male_8": "Männlich",
+  "female_9": "Weiblich",
+  "age_10": "Alter",
+  "weight_11": "Gewicht",
+  "height_12": "Höhe",
+  "ft_13": "ft",
+  "in_14": "In",
+  "cm_15": "cm",
+  "neck_16": "Nacken",
+  "ft_17": "ft",
+  "in_18": "In",
+  "cm_19": "cm",
+  "waist_20": "Taille",
+  "ft_21": "ft",
+  "in_22": "In",
+  "cm_23": "cm",
+  "hip_24": "Hüfte",
+  "ft_25": "ft",
+  "in_26": "In",
+  "cm_27": "cm",
+  "calculate_fat_28": "Berechnen Sie Fett",
+  "clear_29": "Klar",
+  "body_fat_analysis_30": "Körperfettanalyse",
+  "your_complete_body_composition_breakdown_31": "Ihre vollständige Aufschlüsselung der Körperzusammensetzung",
+  "body_fat_percentage_32": "Körperfettanteil",
+  "body_fat_scale_33": "Körperfettwaage",
+  "k_0_34": "0%",
+  "k_25_35": "25 %",
+  "k_50_36": "50 %",
+  "detailed_results_37": "Detaillierte Ergebnisse",
+  "body_fat_us_navy_38": "Körperfett (US-Marine)",
+  "body_fat_category_39": "Kategorie Körperfett",
+  "body_fat_mass_40": "Körperfettmasse",
+  "lean_body_mass_41": "Magere Körpermasse",
+  "ideal_body_fat_42": "Ideales Körperfett",
+  "fat_to_lose_43": "Fett zu verlieren",
+  "body_fat_bmi_method_44": "Körperfett (BMI-Methode)",
+  "save_this_calculation_45": "Speichern Sie diese Berechnung",
+  "enter_your_measurements_to_calculate_body_fat_perc_46": "Geben Sie Ihre Maße ein, um den Körperfettanteil zu berechnen",
+  "body_fat_categories_reference_47": "Referenz zu Körperfettkategorien",
+  "description_48": "Beschreibung",
+  "women_49": "Frauen",
+  "men_50": "Männer"
+}

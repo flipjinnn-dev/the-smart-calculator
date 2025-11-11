@@ -1,0 +1,140 @@
+{
+  "pageTitle": "Kalkulator procentowy",
+  "pageDescription": "Z łatwością obliczaj wartości procentowe, współczynniki i zmiany procentowe za pomocą naszego wszechstronnego kalkulatora procentowego",
+  "form": {
+    "labels": {
+      "calculationType": "Typ obliczenia",
+      "part": "Część",
+      "whole": "Cały",
+      "percentage": "Procent",
+      "value1": "Pierwsza wartość",
+      "value2": "Druga wartość"
+    },
+    "placeholders": {
+      "part": "Wprowadź część",
+      "whole": "Wpisz całość",
+      "percentage": "Wprowadź wartość procentową",
+      "value1": "Wprowadź pierwszą wartość",
+      "value2": "Wprowadź drugą wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz procent",
+      "reset": "Nastawić"
+    },
+    "calculationTypes": {
+      "partToWhole": "Ile wynosi wartość procentowa {część} z {całości}?",
+      "percentageOfNumber": "Ile wynosi {percentage}% z {number}?",
+      "percentageChange": "Jaka jest procentowa zmiana z {value1} na {value2}?",
+      "percentageDifference": "Jaka jest różnica procentowa między {value1} a {value2}?"
+    }
+  },
+  "results": {
+    "result": "Wynik",
+    "percentageValue": "Wartość procentowa",
+    "calculatedValue": "Obliczona wartość",
+    "percentageChange": "Zmiana procentowa",
+    "percentageDifference": "Różnica procentowa",
+    "percentageResultsTitle": "Wyniki procentowe"
+  },
+  "educational": {
+    "percentageInfo": "Informacje procentowe",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Dodatkowe zasoby",
+    "percentageFormulas": {
+      "partToWhole": {
+        "title": "Część do całego procentu",
+        "formula": "Procent = (Część ÷ Całość) × 100"
+      },
+      "percentageOfNumber": {
+        "title": "Procent liczby",
+        "formula": "Wynik = (procent ÷ 100) × liczba"
+      },
+      "percentageChange": {
+        "title": "Zmiana procentowa",
+        "formula": "Zmień = ((Nowa wartość — wartość pierwotna) ÷ Wartość pierwotna) × 100"
+      },
+      "percentageDifference": {
+        "title": "Różnica procentowa",
+        "formula": "Różnica = (|Wartość1 - Wartość2| ÷ ((Wartość1 + Wartość2) ÷ 2)) × 100"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten umożliwia wyłącznie obliczenia matematyczne",
+      "accuracy": "Upewnij się, że używasz odpowiedniego typu obliczeń do swoich potrzeb"
+    },
+    "importantNotesList": [
+      "Procenty są wykorzystywane w wielu rzeczywistych zastosowaniach, w tym w finansach, statystyce i nauce",
+      "Zawsze dokładnie sprawdzaj wprowadzone dane, aby zapewnić dokładne wyniki",
+      "Aby wybrać odpowiednią formułę procentową, należy wziąć pod uwagę kontekst obliczeń",
+      "Ujemne zmiany procentowe wskazują na spadek, natomiast dodatnie zmiany wskazują na wzrost"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wartości, aby obliczyć wartość procentową",
+    "resultMessage": "Wynik obliczeń pokazano poniżej",
+    "assessmentResult": "Wynik obliczeń:",
+    "percentageAnalysis": "Analiza procentowa"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia obliczenia matematyczne oparte na standardowych wzorach procentowych. Dokładność wyników zależy od poprawności wprowadzonych wartości i wyboru odpowiedniego rodzaju obliczeń."
+  },
+  "seekHelp": {
+    "title": "Dodatkowe zasoby",
+    "content": "W przypadku skomplikowanych obliczeń procentowych lub specjalistycznych zastosowań rozważ konsultację ze specjalistą w dziedzinie matematyki lub skorzystanie ze specjalistycznych narzędzi programowych zaprojektowanych dla Twojej konkretnej dziedziny pracy."
+  },
+  "errors": {
+    "part": "Proszę wprowadzić prawidłową wartość części",
+    "whole": "Proszę wprowadzić poprawną wartość całkowitą",
+    "percentage": "Proszę wprowadzić prawidłową wartość procentową",
+    "value1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "value2": "Proszę wprowadzić prawidłową drugą wartość",
+    "calculationType": "Proszę wybrać rodzaj obliczeń"
+  },
+  "tooltips": {
+    "calculationType": "Wybierz rodzaj obliczenia procentowego, którego potrzebujesz",
+    "part": "Część lub część całości, którą obliczasz",
+    "whole": "Całkowita lub pełna kwota",
+    "percentage": "Wartość procentowa, z którą pracujesz",
+    "value1": "Pierwsza wartość w obliczeniach",
+    "value2": "Druga wartość w obliczeniach"
+  },
+  "loading_0": "Załadunek...",
+  "percentage_calculations_1": "Obliczenia procentowe",
+  "choose_the_type_of_percentage_calculation_you_need_2": "Wybierz rodzaj obliczenia procentowego, którego potrzebujesz",
+  "of_3": "% z",
+  "what_is_4": "Jaki jest %",
+  "increase_5": "% Zwiększyć",
+  "decrease_6": "% Zmniejszenie",
+  "percentage_7": "Procent (%)",
+  "of_number_8": "Numerowy",
+  "calculate_9": "Obliczać",
+  "number_10": "Numer",
+  "of_total_11": "Razem",
+  "calculate_12": "Obliczać",
+  "original_number_13": "Numer oryginalny",
+  "increase_14": "Zwiększyć (%)",
+  "calculate_15": "Obliczać",
+  "original_number_16": "Numer oryginalny",
+  "decrease_17": "Zmniejszenie (%)",
+  "calculate_18": "Obliczać",
+  "result_19": "Wynik",
+  "calculated_value_20": "Obliczona wartość",
+  "you_can_copy_or_use_this_value_as_needed_21": "W razie potrzeby możesz skopiować lub użyć tej wartości.",
+  "enter_values_and_click_22": "Wprowadź wartości i kliknij",
+  "calculate_23": "Obliczać",
+  "to_see_result_24": "aby zobaczyć wynik.",
+  "how_to_use_this_calculator_25": "Jak korzystać z tego kalkulatora?",
+  "k_1_26": "1",
+  "select_the_type_of_percentage_calculation_you_need_27": "Wybierz rodzaj obliczenia procentowego, którego potrzebujesz.",
+  "k_2_28": "2",
+  "enter_your_values_in_the_input_fields_29": "Wprowadź wartości w polach wejściowych.",
+  "k_3_30": "3",
+  "click_31": "Trzask",
+  "calculate_32": "Obliczać",
+  "to_see_the_result_instantly_33": "aby natychmiast zobaczyć wynik.",
+  "k_4_34": "4",
+  "switch_between_tabs_for_different_percentage_opera_35": "Przełączaj się między zakładkami, aby uzyskać różne operacje procentowe."
+}

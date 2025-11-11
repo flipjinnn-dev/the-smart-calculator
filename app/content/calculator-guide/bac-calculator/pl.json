@@ -1,0 +1,164 @@
+{
+  "color": "fioletowy",
+  "sections": [
+    {
+      "heading": "Jaki jest kalkulator zawartości alkoholu we krwi (BAC)?",
+      "content": "Kalkulator zawartości alkoholu we krwi (BAC) to niezawodne narzędzie, które szacuje poziom alkoholu w organizmie na podstawie spożytych napojów, masy ciała, płci i czasu. W przeciwieństwie do zgadywania, w tym kalkulatorze do oszacowania procentu BAC stosuje się wzory naukowe, takie jak Widmark i Watson. Możesz bezpłatnie korzystać z kalkulatora BAC online, aby śledzić spożycie alkoholu, poznać limity i zmniejszyć ryzyko spowodowania wypadku pod wpływem alkoholu lub szkód spowodowanych alkoholem."
+    },
+    {
+      "heading": "Jak dokładnie oblicza się BAC",
+      "subSections": [
+        {
+          "heading": "Masa ciała i płeć",
+          "content": "Osoby otyłe mają na ogół niższe stężenie alkoholu we krwi przy takim samym spożyciu alkoholu. Płeć wpływa również na metabolizm alkoholu."
+        },
+        {
+          "heading": "Liczba wypitych napojów",
+          "content": "Więcej napojów zwiększa zawartość alkoholu we krwi, w zależności od objętości i zawartości alkoholu."
+        },
+        {
+          "heading": "Czas od pierwszego drinka",
+          "content": "Poziom BAC zmniejsza się stopniowo w miarę metabolizowania alkoholu przez organizm (około 0,015% na godzinę)."
+        },
+        {
+          "heading": "Stężenie alkoholu",
+          "content": "Różne napoje (piwo, wino, alkohole) zawierają różną zawartość alkoholu."
+        },
+        {
+          "heading": "Metabolizm i tolerancja",
+          "content": "Indywidualne różnice, takie jak stan wątroby, metabolizm i tolerancja, wpływają na BAC."
+        }
+      ]
+    },
+    {
+      "heading": "Typowe wzory używane w kalkulatorach BAC",
+      "subSections": [
+        {
+          "heading": "Formuła Widmarka",
+          "content": "Szacuje BAC na podstawie masy ciała, płci, spożytych napojów i godzin od wypicia."
+        },
+        {
+          "heading": "Formuła Watsona",
+          "content": "Bardziej zaawansowana metoda, która uwzględnia zawartość wody w organizmie w celu dokładnego obliczenia."
+        },
+        {
+          "heading": "Inteligentne narzędzia BAC",
+          "content": "Nowoczesne kalkulatory BAC łączą formuły, aby zapewnić szybkie i wiarygodne wyniki."
+        }
+      ]
+    },
+    {
+      "heading": "Wpływ poziomów BAC na ciało i mózg",
+      "subSections": [
+        {
+          "heading": "0,02–0,05%",
+          "content": "Łagodny relaks, lekka euforia."
+        },
+        {
+          "heading": "0,06–0,10%",
+          "content": "Upośledzona ocena sytuacji, ograniczona koordynacja, wolniejszy czas reakcji."
+        },
+        {
+          "heading": "0,11–0,20%",
+          "content": "Znaczące upośledzenie, słaba równowaga, niewyraźna mowa."
+        },
+        {
+          "heading": "0,21–0,30%",
+          "content": "Dezorientacja, zawroty głowy, ryzyko utraty przytomności."
+        },
+        {
+          "heading": "0,31–0,40%",
+          "content": "Ciężkie zatrucie, możliwa utrata przytomności."
+        },
+        {
+          "heading": "0,41%+",
+          "content": "Zagrażające życiu zatrucie alkoholowe."
+        }
+      ]
+    },
+    {
+      "heading": "Prawne limity BAC i świadomość DUI",
+      "subSections": [
+        {
+          "heading": "Kierowcy z USA (21+)",
+          "content": "0,08% BAC to dopuszczalny limit w większości stanów."
+        },
+        {
+          "heading": "Europa",
+          "content": "Wiele krajów ustaliło limit na poziomie 0,05% BAC."
+        },
+        {
+          "heading": "Kierowcy zawodowi i nieletni",
+          "content": "Limity wahają się od 0,00–0,03% BAC w zależności od prawa."
+        },
+        {
+          "heading": "Ryzyko jazdy pod wpływem",
+          "content": "Nawet niewielkie ilości alkoholu mogą upośledzać zdolność prowadzenia pojazdów."
+        }
+      ]
+    },
+    {
+      "heading": "Ograniczenia kalkulatorów BAC",
+      "subSections": [
+        {
+          "heading": "Tylko szacunki",
+          "content": "Wyniki mogą nie odzwierciedlać dokładnego BAC ze względu na metabolizm, przyjmowane leki lub spożycie pokarmu."
+        },
+        {
+          "heading": "Nie jest narzędziem prawnym",
+          "content": "Nie zastępuje alkomatu ani testów przeprowadzanych przez organy ścigania."
+        },
+        {
+          "heading": "Czynniki zdrowotne",
+          "content": "Stany takie jak choroba wątroby lub wiek wpływają na dokładność."
+        },
+        {
+          "heading": "Bezpieczna praktyka",
+          "content": "Nigdy nie polegaj wyłącznie na kalkulatorze, aby zdecydować, czy możesz prowadzić samochód."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jaki jest bezpieczny poziom alkoholu we krwi podczas prowadzenia pojazdu?",
+      "a": "Zazwyczaj w USA stężenie alkoholu we krwi poniżej 0,08% jest prawnie bezpieczne dla kierowców, ale w zależności od wieku i zawodu mogą obowiązywać niższe limity."
+    },
+    {
+      "q": "Jak obliczyć BAC?",
+      "a": "Wprowadź swoją wagę, płeć, spożyte napoje i czas od wypicia do tego kalkulatora BAC. Stosuje formuły Widmarka i Watsona."
+    },
+    {
+      "q": "Ile czasu potrzeba, żeby wytrzeźwieć?",
+      "a": "Organizm metabolizuje alkohol średnio w ilości 0,015% BAC na godzinę, ale zależy to od wieku, metabolizmu i stanu wątroby."
+    },
+    {
+      "q": "Ile napojów osiąga 0,08% BAC?",
+      "a": "Zależy to od wagi, płci, mocy napoju i tempa. Skorzystaj z kalkulatora BAC według napojów i wagi, aby uzyskać spersonalizowaną wycenę."
+    },
+    {
+      "q": "Czy kalkulatory BAC są dokładne?",
+      "a": "Dostarczają szacunków, ale nie uwzględniają indywidualnych różnic, takich jak spożycie pokarmu, tolerancja czy przyjmowane leki."
+    },
+    {
+      "q": "Czy masa ciała wpływa na BAC?",
+      "a": "Tak. Większa masa ciała zwykle powoduje rozrzedzenie stężenia alkoholu, co skutkuje niższym stężeniem alkoholu we krwi przy tej samej liczbie drinków."
+    },
+    {
+      "q": "Czy sportowcy lub seniorzy mogą korzystać z kalkulatora BAC?",
+      "a": "Tak. Sportowcy mogą wykazywać niższy poziom BAC ze względu na dużą masę mięśniową, natomiast seniorzy mogą wolniej metabolizować alkohol."
+    },
+    {
+      "q": "Jak szybko alkohol opuszcza krew?",
+      "a": "Średnio 0,015% BAC jest metabolizowane na godzinę, ale ma to wpływ nawodnienie, jedzenie i zdrowie wątroby."
+    },
+    {
+      "q": "Czy kalkulatory BAC mogą zapobiegać DUI?",
+      "a": "Podnoszą świadomość, ale nie mogą zastąpić odpowiedzialnych wyborów. Zawsze unikaj prowadzenia pojazdu po spożyciu alkoholu."
+    },
+    {
+      "q": "Czy sztuczna inteligencja może pomóc w śledzeniu poziomów alkoholu we krwi?",
+      "a": "Tak. Kalkulatory i aplikacje BAC oparte na sztucznej inteligencji mogą monitorować zużycie, szacować zawartość alkoholu we krwi w czasie rzeczywistym i dostarczać wskazówek dotyczących bezpieczeństwa."
+    }
+  ]
+}

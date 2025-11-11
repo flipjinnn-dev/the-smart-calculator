@@ -1,0 +1,163 @@
+{
+  "pageTitle": "Quadratfuß-zu-Kubikyard-Rechner",
+  "pageDescription": "Konvertieren Sie Quadratfuß in Kubikmeter für Beton, Erde und andere Materialien in Bau- und Landschaftsbauprojekten",
+  "form": {
+    "labels": {
+      "area": "Fläche (Quadratfuß)",
+      "depth": "Tiefe/Höhe",
+      "depthUnit": "Tiefeneinheit",
+      "materialType": "Materialtyp",
+      "wasteFactor": "Abfallfaktor (%)"
+    },
+    "placeholders": {
+      "area": "Geben Sie die Fläche in Quadratfuß ein",
+      "depth": "Geben Sie Tiefe oder Höhe ein",
+      "wasteFactor": "Abfallfaktor eingeben (0-50%)"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie Kubikyards",
+      "reset": "Zurücksetzen"
+    },
+    "depthUnits": {
+      "inches": "Zoll",
+      "feet": "Füße",
+      "centimeters": "Zentimeter",
+      "meters": "Meter"
+    },
+    "materialTypes": {
+      "concrete": "Beton",
+      "soil": "Boden/Schmutz",
+      "mulch": "Laubdecke",
+      "gravel": "Kies",
+      "sand": "Sand",
+      "asphalt": "Asphalt",
+      "custom": "Benutzerdefiniertes Material"
+    }
+  },
+  "results": {
+    "cubicYards": "Kubikmeter",
+    "cubicFeet": "Kubikfuß",
+    "cubicMeters": "Kubikmeter",
+    "conversionResultsTitle": "Konvertierungsergebnisse",
+    "materialVolume": "Materialvolumen",
+    "withWaste": "Mit Abfallfaktor"
+  },
+  "educational": {
+    "conversionInfo": "Konvertierungsinformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Bauressourcen",
+    "conversionFacts": {
+      "formula": {
+        "title": "Umrechnungsformel",
+        "description": "Kubikmeter = (Fläche × Tiefe) ÷ 27, wobei 27 Kubikfuß = 1 Kubikyard"
+      },
+      "applications": {
+        "title": "Allgemeine Anwendungen",
+        "description": "Betonbestellung, Bodenlieferung, Mulchabdeckung und Materialschätzung"
+      },
+      "accuracy": {
+        "title": "Genauigkeitsfaktoren",
+        "description": "Die tatsächlichen Anforderungen können aufgrund von Verdichtung, Setzung und Messgenauigkeit variieren"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen",
+      "ordering": "Bestellen Sie zusätzliches Material, um Abweichungen und Verschüttungen zu berücksichtigen"
+    },
+    "importantNotesList": [
+      "Rechnen Sie immer 5–10 % zusätzlich für Abfall und Abweichungen bei tatsächlichen Projekten hinzu",
+      "Berücksichtigen Sie Materialverdichtung und Setzung bei den endgültigen Berechnungen",
+      "Überprüfen Sie die Mindestbestellmengen des lokalen Lieferanten",
+      "Zweimal messen und einmal bestellen, um Engpässe zu vermeiden"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Fläche und Tiefe ein, um das Materialvolumen zu berechnen",
+    "resultMessage": "Ihre Volumenberechnung wird unten angezeigt",
+    "assessmentResult": "Ergebnis der Volumenberechnung:",
+    "conversionAnalysis": "Analyse von Quadratfuß zu Kubikyard"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Volumenschätzungen für Baumaterialien. Die tatsächlichen Anforderungen können aufgrund von Verdichtung, Setzung, Messgenauigkeit und projektspezifischen Faktoren variieren. Wenden Sie sich bezüglich der endgültigen Bestellmengen immer an die Lieferanten."
+  },
+  "seekHelp": {
+    "title": "Bauressourcen",
+    "content": "Für eine professionelle Baukostenschätzung und Materialplanung wenden Sie sich an zertifizierte Auftragnehmer oder nutzen spezielle Kostenkalkulationssoftware für projektspezifische Anforderungen und örtliche Bedingungen."
+  },
+  "errors": {
+    "area": "Bitte geben Sie eine gültige Fläche in Quadratfuß ein",
+    "depth": "Bitte geben Sie eine gültige Tiefe oder Höhe ein",
+    "depthUnit": "Bitte wählen Sie eine Tiefeneinheit aus",
+    "materialType": "Bitte wählen Sie einen Materialtyp aus",
+    "wasteFactor": "Bitte geben Sie einen gültigen Abfallfaktor ein (0-50 %)."
+  },
+  "tooltips": {
+    "area": "Gesamtfläche, die abgedeckt werden soll",
+    "depth": "Erforderliche Materialstärke oder -tiefe",
+    "depthUnit": "Maßeinheit für die Tiefe",
+    "materialType": "Die Art des Materials beeinflusst die Dichte und Handhabung",
+    "wasteFactor": "Zusätzlicher Prozentsatz zur Berücksichtigung von Verschwendung und Abweichungen"
+  },
+  "area_depth_inputs_0": "Flächen- und Tiefeneingaben",
+  "enter_area_and_depth_measurements_to_calculate_vol_1": "Geben Sie Flächen- und Tiefenmaße ein, um das Volumen in Kubikmetern zu berechnen",
+  "area_2": "Bereich",
+  "ft_3": "ft²",
+  "in_4": "in²",
+  "yd_5": "yd²",
+  "m_6": "m²",
+  "cm_7": "cm²",
+  "depth_8": "Tiefe",
+  "in_9": "In",
+  "ft_10": "ft",
+  "yd_11": "yd",
+  "cm_12": "cm",
+  "m_13": "m",
+  "calculate_14": "Berechnen",
+  "reset_15": "Zurücksetzen",
+  "results_16": "Ergebnisse",
+  "input_values_converted_17": "Eingabewerte (konvertiert)",
+  "area_18": "Bereich:",
+  "ft_19": "ft²",
+  "depth_20": "Tiefe:",
+  "inches_21": "Zoll",
+  "volume_22": "Volumen",
+  "cubic_yards_yd_23": "Kubikmeter (yd³)",
+  "stepbystep_calculation_24": "Schritt-für-Schritt-Berechnung",
+  "step_1_25": "Schritt 1:",
+  "step_2_26": "Schritt 2:",
+  "step_3_27": "Schritt 3:",
+  "direct_formula_28": "Direkte Formel:",
+  "enter_area_and_depth_to_see_29": "Geben Sie Fläche und Tiefe ein, um sie anzuzeigen",
+  "volume_calculation_30": "Volumenberechnung",
+  "in_cubic_yards_31": "in Kubikmetern.",
+  "understanding_square_feet_to_cubic_yards_conversio_32": "Grundlegendes zur Umrechnung von Quadratfuß in Kubikyards",
+  "formulas_used_33": "Verwendete Formeln",
+  "step_1_34": "Schritt 1:",
+  "convert_depth_to_feet_depthft_depthin_12_35": "Konvertieren Sie die Tiefe in Fuß: Depth_ft = Depth_in ÷ 12",
+  "step_2_36": "Schritt 2:",
+  "calculate_feet_cubicft_areaft_depthft_37": "Berechnen Sie Fuß: Kubikfuß = Fläche_ft² × Tiefe_ft",
+  "step_3_38": "Schritt 3:",
+  "convert_to_cubic_yards_cubicyd_cubicft_27_39": "In Kubikyards umrechnen: Kubikmeter = Kubikfuß ÷ 27",
+  "direct_formula_40": "Direkte Formel:",
+  "cubicyd_areaft_depthin_324_41": "Kubikmeter = (Fläche_ft² × Tiefe_Zoll) ÷ 324",
+  "example_calculation_42": "Beispielrechnung",
+  "given_43": "Gegeben:",
+  "area_100_ft_depth_6_inches_44": "Fläche = 100 Fuß², Tiefe = 6 Zoll",
+  "solution_45": "Lösung:",
+  "step_1_6_inches_12_05_feet_46": "Schritt 1: 6 Zoll ÷ 12 = 0,5 Fuß",
+  "step_2_100_ft_05_ft_50_ft_47": "Schritt 2: 100 ft² × 0,5 ft = 50 ft³",
+  "step_3_50_ft_27_185_yd_48": "Schritt 3: 50 ft³ ÷ 27 = 1,85 yd³",
+  "direct_100_6_324_185_yd_49": "Direkt: (100 × 6) ÷ 324 = 1,85 yd³",
+  "common_applications_50": "Allgemeine Anwendungen",
+  "concrete_51": "Beton:",
+  "calculate_needed_for_slabs_driveways_and_foundatio_52": "Berechnen Sie den Bedarf für Platten, Einfahrten und Fundamente",
+  "landscaping_53": "Landschaftsbau:",
+  "estimate_mulch_soil_or_gravel_for_garden_beds_54": "Schätzen Sie Mulch, Erde oder Kies für Gartenbeete",
+  "construction_55": "Konstruktion:",
+  "determine_material_quantities_for_excavation_proje_56": "Materialmengen für Aushubprojekte ermitteln",
+  "paving_57": "Pflasterung:",
+  "calculate_or_paving_material_requirements_58": "Materialbedarf berechnen oder einbauen"
+}

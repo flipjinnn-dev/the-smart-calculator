@@ -1,0 +1,183 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Was ist ein BMI-Rechner?",
+      "content": "Ein BMI-Rechner (Body-Mass-Index-Rechner) ist ein Gesundheitstool, das Körperfett basierend auf Größe und Gewicht misst. Sie erhalten einen BMI-Wert, der in Kategorien wie Untergewicht, Normalgewicht, Übergewicht oder Fettleibigkeit fällt. <br><br>Unser kostenloser Online-BMI-Rechner unterstützt sowohl kg und cm als auch lbs und Zoll und ist daher weltweit nützlich (USA, Großbritannien, Indien, Pakistan, Kanada, Australien usw.)."
+    },
+    {
+      "heading": "BMI-Definition und -Berechnung",
+      "content": "Der BMI wird anhand von Größe und Gewicht berechnet. <br><br><strong>Formel (metrisch):</strong> BMI = Gewicht (kg) ÷ Größe (m)² <br><strong>Formel (britisch):</strong> BMI = (Gewicht (lbs) × 703) ÷ Größe (in)²"
+    },
+    {
+      "heading": "So berechnen Sie den BMI online (Schritt-für-Schritt-Anleitung)",
+      "content": "Schritte zur Berechnung des BMI mit unserem kostenlosen Online-Rechner:",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Wählen Sie Ihre Maßeinheit: kg/cm oder lbs/Zoll."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Geben Sie Ihr Gewicht in Kilogramm oder Pfund ein."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Geben Sie Ihre Körpergröße in Zentimetern oder Zoll ein."
+        },
+        {
+          "heading": "Schritt 4",
+          "content": "Wählen Sie Alter und Geschlecht (optional), um bessere Einblicke zu erhalten."
+        },
+        {
+          "heading": "Schritt 5",
+          "content": "Klicken Sie auf BMI berechnen → Sehen Sie sich sofort Ihren BMI-Wert und Ihre BMI-Kategorie an."
+        }
+      ]
+    },
+    {
+      "heading": "BMI-Kategorien (WHO-Standard-BMI-Diagramm)",
+      "subSections": [
+        {
+          "heading": "Untergewicht",
+          "content": "Unter 18,5"
+        },
+        {
+          "heading": "Normalgewicht",
+          "content": "18.5 – 24.9"
+        },
+        {
+          "heading": "Übergewicht",
+          "content": "25. – 29.9"
+        },
+        {
+          "heading": "Fettleibigkeit (Klasse 1)",
+          "content": "30. – 34.9"
+        },
+        {
+          "heading": "Fettleibigkeit (Klasse 2)",
+          "content": "35 – 39,9"
+        },
+        {
+          "heading": "Fettleibigkeit (Klasse 3 / Schwerwiegend)",
+          "content": "40+"
+        }
+      ]
+    },
+    {
+      "heading": "Warum einen BMI-Rechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Verfolgen Sie Fitnessziele",
+          "content": "Überwachen Sie Ihren Fortschritt mit einem Fitness-BMI-Rechner."
+        },
+        {
+          "heading": "Vergleichen Sie BMI mit Körperfett",
+          "content": "Nützlich für Sportler und Fitnessstudio-Nutzer."
+        },
+        {
+          "heading": "Medizinische Verwendung",
+          "content": "Von Ärzten als schneller Gesundheitscheck empfohlen."
+        },
+        {
+          "heading": "Bewerten Sie Gesundheitsrisiken",
+          "content": "Der BMI hilft bei der Ermittlung des Risikos für durch Fettleibigkeit bedingte Erkrankungen."
+        },
+        {
+          "heading": "Ernährungsverfolgung",
+          "content": "Unterstützt eine ausgewogene Ernährungsplanung und Wellnessziele."
+        }
+      ]
+    },
+    {
+      "heading": "BMI-Rechner nach Alter und Geschlecht",
+      "subSections": [
+        {
+          "heading": "Für Männer und Frauen",
+          "content": "Separates BMI-Tracking für geschlechtsspezifische Erkenntnisse."
+        },
+        {
+          "heading": "Für Kinder und Jugendliche",
+          "content": "Verwendet BMI-Perzentildiagramme zur Wachstumsüberwachung."
+        },
+        {
+          "heading": "Für Erwachsene und Senioren",
+          "content": "Altersbasierte Anpassungen für genaue Ergebnisse."
+        },
+        {
+          "heading": "Schwangerschafts-BMI-Rechner",
+          "content": "Hilft bei der Überwachung der Gesundheit der Mutter während der Schwangerschaft."
+        }
+      ]
+    },
+    {
+      "heading": "Globaler und lokaler BMI-Rechner",
+      "content": "Unser globaler BMI-Rechner arbeitet weltweit mit regionalspezifischen Formaten:",
+      "subSections": [
+        {
+          "heading": "USA",
+          "content": "Verwendet das Pfund/Zoll-Format."
+        },
+        {
+          "heading": "Vereinigtes Königreich",
+          "content": "Weit verbreitet im Gesundheitswesen und im Fitnessbereich."
+        },
+        {
+          "heading": "Indien und Pakistan",
+          "content": "Verwendet kg/cm gemäß WHO-Standards."
+        },
+        {
+          "heading": "Kanada und Australien",
+          "content": "kg/cm-Format + BMI-Diagramme zur Gesundheitsüberwachung."
+        }
+      ]
+    },
+    {
+      "heading": "Idealer BMI-Rechner – Finden Sie Ihr gesundes Gewicht",
+      "subSections": [
+        {
+          "heading": "BMI-Rechner für Übergewicht",
+          "content": "Unterstützt die Planung zur Gewichtsreduktion."
+        },
+        {
+          "heading": "BMI-Rechner für Untergewicht",
+          "content": "Hilft bei der Ermittlung des Ernährungsbedarfs."
+        },
+        {
+          "heading": "BMI-Rechner für Fettleibigkeit",
+          "content": "Zeigt Risiken im Zusammenhang mit Fettleibigkeit."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein BMI-Rechner?",
+      "a": "Ein BMI-Rechner misst Ihren Body-Mass-Index und zeigt an, ob Ihr Gewicht für Ihre Körpergröße gesund ist."
+    },
+    {
+      "q": "Was ist der normale BMI-Bereich?",
+      "a": "Laut WHO liegt ein normaler BMI bei 18,5 bis 24,9."
+    },
+    {
+      "q": "Ist der BMI für jeden korrekt?",
+      "a": "Der BMI ist ein gutes Screening-Instrument, ist jedoch für Sportler, schwangere Frauen oder Senioren möglicherweise nicht genau."
+    },
+    {
+      "q": "Wie berechne ich den BMI manuell?",
+      "a": "Verwenden Sie die Formel: Gewicht (kg) ÷ Größe (m²) oder Gewicht (lbs) × 703 ÷ Größe (in²)."
+    },
+    {
+      "q": "Kann ich den BMI-Rechner für Kinder verwenden?",
+      "a": "Ja, BMI-Perzentildiagramme werden für Kinder und Jugendliche verwendet."
+    },
+    {
+      "q": "Ist dieser BMI-Rechner kostenlos?",
+      "a": "Ja, es ist ein kostenloses Online-Tool, das weltweit verfügbar ist."
+    },
+    {
+      "q": "Was ist der beste Online-BMI-Rechner im Jahr 2025?",
+      "a": "Unser BMI-Rechner ist genau, weltweit kompatibel und bietet Gesundheitstipps, was ihn zu einer der besten Optionen im Jahr 2025 macht."
+    }
+  ]
+}

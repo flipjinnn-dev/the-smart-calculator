@@ -1,0 +1,60 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de acessibilidade de casa – Descubra quanto você pode pagar por uma casa",
+      "content": "Uma calculadora de acessibilidade de casa ajuda você a responder à grande questão: “Quanto de casa posso pagar?” Ao analisar suas receitas, despesas, taxas de hipotecas, impostos sobre a propriedade e relação dívida / rendimento (DTI), esta ferramenta fornece uma estimativa personalizada de qual faixa de preço é realista para o seu orçamento. Quer você esteja comprando uma casa pela primeira vez ou fazendo um upgrade, a calculadora acima fornece um resultado instantâneo com tecnologia de IA - mais rápido e preciso do que cálculos manuais.\n\nUse a calculadora gratuita de acessibilidade de casa online acima para começar."
+    },
+    {
+      "heading": "Como calcular a acessibilidade da casa",
+      "subSections": [
+        {
+          "heading": "Método manual (passo a passo)",
+          "content": "Some sua renda bruta mensal.\n\nAplicar a regra 28/36 (gastar não mais que 28% da renda com habitação e 36% com dívidas totais).\n\nEstime os pagamentos mensais da hipoteca usando as taxas de juros atuais.\n\nAdicione impostos sobre a propriedade, seguro residencial, PMI e taxas HOA.\n\nCompare com seu orçamento mensal."
+        },
+        {
+          "heading": "Método de calculadora (recomendado)",
+          "content": "Basta inserir suas receitas, despesas, entrada, prazo do empréstimo e taxa de juros em nossa melhor ferramenta de calculadora de acessibilidade residencial e a IA mostra instantaneamente seus resultados - economizando tempo e evitando erros."
+        }
+      ]
+    },
+    {
+      "heading": "Fatores que afetam a quantidade de casa que você pode pagar",
+      "content": "Vários elementos-chave determinam a acessibilidade da sua casa:\n\nRenda e Emprego: Uma renda estável mais alta aumenta as chances de aprovação de empréstimos.\n\nRácio dívida / rendimento (DTI): Os credores normalmente desejam um DTI inferior a 36%.\n\nAdiantamento: Adiantamentos maiores reduzem os custos mensais e podem remover o PMI.\n\nTaxa de juros hipotecários: Mesmo uma diferença de 1% altera significativamente a acessibilidade.\n\nImpostos sobre a propriedade e seguros: variam de acordo com o local e devem ser incluídos.\n\nTaxas HOA: Algumas casas acrescentam taxas mensais de associação de proprietários.\n\nEmpréstimos estudantis ou dívidas de crédito: obrigações contínuas reduzem o que você pode pedir emprestado.\n\nNossa calculadora de acessibilidade residencial com taxas HOA, PMI e impostos garante que eles sejam contabilizados automaticamente."
+    },
+    {
+      "heading": "Regras básicas para acessibilidade doméstica",
+      "content": "Regra 28/36: Gaste ≤ 28% da renda em moradia, ≤ 36% em todas as dívidas.\n\nRegra da renda 3x: Muitos especialistas sugerem que o preço da sua casa deve ser cerca de 3x a sua renda anual.\n\nPoupança de emergência: Guarde sempre 3 a 6 meses de despesas após o pagamento da entrada.\n\nExemplo: Que renda é necessária para comprar uma casa de US$ 300 mil?\n\nCom um pagamento inicial de 20% e juros de 6,5%, você precisará de cerca de US$ 70.000 de renda anual para permanecer dentro da regra 28/36."
+    },
+    {
+      "heading": "Calculadora de acessibilidade de casa versus outras ferramentas",
+      "content": "Calculadora de acessibilidade de casa versus calculadora de hipoteca → A acessibilidade analisa a renda, a dívida e o orçamento. As calculadoras de hipotecas mostram apenas pagamentos de empréstimos.\n\nCalculadora Inteligente vs Calculadora Zillow → Nossa ferramenta de acessibilidade doméstica Smart Calculator com tecnologia de IA oferece resultados mais personalizados e em tempo real.\n\nCalculadora da relação dívida / renda versus calculadora de acessibilidade → As calculadoras DTI mostram apenas a carga da dívida, enquanto a acessibilidade combina dívida, renda e impostos para obter o quadro completo."
+    },
+    {
+      "heading": "Por que escolher a calculadora inteligente?",
+      "content": "Insights financeiros baseados em IA para resultados mais precisos.\n\nOpções integradas para pagamento inicial, PMI, HOA e seguro.\n\nFunciona como uma calculadora de acessibilidade imobiliária gratuita, acessível a qualquer hora.\n\nOtimizado para respostas rápidas, pesquisa por voz e usuários móveis.\n\nExperimente a calculadora online de acessibilidade de casa com taxas de hipoteca acima e veja seus resultados instantaneamente."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como os credores determinam a acessibilidade da casa?",
+      "a": "Os credores analisam sua renda, índice de DTI, pontuação de crédito e entrada para decidir quanto você pode pedir emprestado."
+    },
+    {
+      "q": "Qual é a diferença entre acessibilidade da casa e pré-aprovação?",
+      "a": "As calculadoras de acessibilidade estimam o que você pode pagar, enquanto a pré-aprovação mostra o que um credor está disposto a oferecer."
+    },
+    {
+      "q": "Posso pagar uma casa com dívidas de empréstimos estudantis?",
+      "a": "Sim, mas os empréstimos estudantis aumentam o seu DTI, reduzindo a quantidade de casa para a qual você se qualifica. Nossa calculadora leva isso em consideração."
+    },
+    {
+      "q": "Quão precisas são as calculadoras de acessibilidade residencial?",
+      "a": "Eles são altamente precisos para estimativas. No entanto, os números finais dependem das diretrizes do credor, do crédito e dos impostos locais."
+    },
+    {
+      "q": "Alexa, quanto de casa posso pagar?",
+      "a": "Você pode usar a ferramenta de acessibilidade doméstica Smart Calculator para obter resultados de acessibilidade instantâneos com tecnologia de IA."
+    }
+  ]
+}

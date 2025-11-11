@@ -1,0 +1,108 @@
+{
+  "pageTitle": "Prozentualer Fehlerrechner",
+  "pageDescription": "Berechnen Sie den prozentualen Fehler zwischen einem geschätzten Wert und dem tatsächlichen Wert",
+  "form": {
+    "labels": {
+      "estimatedValue": "Schätzwert",
+      "actualValue": "Tatsächlicher Wert"
+    },
+    "placeholders": {
+      "estimatedValue": "Geben Sie Ihren geschätzten Wert ein",
+      "actualValue": "Geben Sie den tatsächlichen Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den prozentualen Fehler",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "percentageError": "Prozentualer Fehler",
+    "absoluteError": "Absoluter Fehler",
+    "relativeError": "Relativer Fehler",
+    "formula": "Verwendete Formel",
+    "calculation": "Berechnungsdetails"
+  },
+  "educational": {
+    "errorInfo": "Prozentuale Fehlerinformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Mathematikressourcen",
+    "errorFacts": {
+      "definition": {
+        "title": "Prozentuale Fehlerdefinition",
+        "description": "Der prozentuale Fehler misst die Abweichung zwischen einem geschätzten Wert und dem tatsächlichen Wert in Prozent"
+      },
+      "formula": {
+        "title": "Berechnungsformel",
+        "description": "Prozentualer Fehler = (|Geschätzter Wert – tatsächlicher Wert| / tatsächlicher Wert) × 100 %"
+      },
+      "applications": {
+        "title": "Anwendungen aus der Praxis",
+        "description": "Wird in wissenschaftlichen Experimenten, technischen Messungen und der Qualitätskontrolle zur Beurteilung der Genauigkeit verwendet"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur prozentuale Fehlerberechnungen",
+      "actual": "Der tatsächliche Fehler kann je nach Messgenauigkeit und -methodik variieren"
+    },
+    "importantNotesList": [
+      "Der prozentuale Fehler wird immer als positiver Wert ausgedrückt",
+      "Ein kleinerer prozentualer Fehler weist auf eine höhere Genauigkeit hin",
+      "Der tatsächliche Wert sollte nicht Null sein, um eine Division durch Null zu vermeiden",
+      "Die Ergebnisse helfen bei der Beurteilung der Zuverlässigkeit von Messungen oder Schätzungen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre geschätzten und tatsächlichen Werte ein, um den prozentualen Fehler zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer prozentualen Fehlerberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der prozentualen Fehlerberechnung:",
+    "errorAnalysis": "Fehleranalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet prozentuale Fehlerberechnungen basierend auf standardmäßigen mathematischen Formeln. Die tatsächlichen Fehlerwerte können je nach Messgenauigkeit, Methodik und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Mathematikressourcen",
+    "content": "Für fortgeschrittene Fehleranalysen und statistische Methoden konsultieren Sie Mathematiklehrbücher oder akademische Ressourcen zur numerischen Analyse und Messtheorie."
+  },
+  "errors": {
+    "estimatedValue": "Bitte geben Sie einen gültigen Schätzwert ein",
+    "actualValue": "Bitte geben Sie einen gültigen Istwert ein",
+    "zeroActual": "Der tatsächliche Wert darf nicht Null sein"
+  },
+  "tooltips": {
+    "estimatedValue": "Der Wert, den Sie geschätzt oder berechnet haben",
+    "actualValue": "Der wahre oder akzeptierte Vergleichswert"
+  },
+  "smart_calculator_0": "Intelligenter Rechner",
+  "percent_error_calculator_1": "Prozentfehlerrechner",
+  "percent_error_calculator_2": "Rechner für prozentuale Fehler",
+  "calculate_the_percent_error_between_a_measured_val_3": "Berechnen Sie sofort den prozentualen Fehler zwischen einem gemessenen Wert und einem tatsächlichen Wert.",
+  "percent_error_calculator_4": "Rechner für prozentuale Fehler",
+  "enter_measured_and_actual_values_5": "Geben Sie gemessene und tatsächliche Werte ein",
+  "measured_value_6": "Gemessener Wert",
+  "actual_value_7": "Tatsächlicher Wert",
+  "calculate_8": "Berechnen",
+  "result_9": "Ergebnis",
+  "percent_error_10": "Prozentualer Fehler =",
+  "formula_11": "Formel:",
+  "percent_error_vobserved_vtrue_vtrue_100_12": "Prozentualer Fehler = (Vobserved – Vtrue) / Vtrue × 100",
+  "observed_value_13": "Beobachteter Wert:",
+  "true_value_14": "Wahrer Wert:",
+  "percent_error_absolute_15": "Prozentualer Fehler (absolut):",
+  "error_16": "% Fehler",
+  "enter_values_and_click_17": "Geben Sie Werte ein und klicken Sie",
+  "calculate_18": "Berechnen",
+  "to_see_percent_error_19": "um den prozentualen Fehler anzuzeigen.",
+  "how_to_use_this_calculator_20": "Wie benutzt man diesen Rechner?",
+  "k_1_21": "1",
+  "enter_the_measured_value_22": "Geben Sie den Messwert ein.",
+  "k_2_23": "2",
+  "enter_the_actual_true_value_24": "Geben Sie den tatsächlichen (wahren) Wert ein.",
+  "k_3_25": "3",
+  "click_26": "Klicken",
+  "calculate_27": "Berechnen",
+  "to_see_the_percent_error_instantly_28": "um den prozentualen Fehler sofort zu sehen."
+}

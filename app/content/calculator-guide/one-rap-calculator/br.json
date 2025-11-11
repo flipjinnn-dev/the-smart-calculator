@@ -1,0 +1,140 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora One Rep Max (1RM)?",
+      "content": "Uma calculadora máxima de uma repetição (também chamada de calculadora on-line de 1RM ou calculadora máxima de uma repetição) é uma ferramenta de treinamento de força que estima o peso máximo que você pode levantar para uma única repetição de um exercício. Em vez de testar seu levantamento máximo absoluto na academia, o que pode ser arriscado, você pode calcular uma repetição máxima grátis inserindo o peso que levantou e o número de repetições realizadas."
+    },
+    {
+      "heading": "Por que calcular seu 1RM é importante?",
+      "subSections": [
+        {
+          "heading": "Definir cargas de treinamento",
+          "content": "Ajuste com precisão as cargas para força, hipertrofia ou resistência."
+        },
+        {
+          "heading": "Acompanhe o progresso",
+          "content": "Monitore melhorias na musculação, CrossFit, levantamento olímpico e levantamento de peso."
+        },
+        {
+          "heading": "Evite o excesso de treinamento",
+          "content": "Fique seguro levantando-se dentro das faixas de intensidade ideais."
+        },
+        {
+          "heading": "Personalizar programas",
+          "content": "Aplique em treinos 5x5, sobrecarga progressiva e ciclos de hipertrofia."
+        }
+      ]
+    },
+    {
+      "heading": "Fórmulas populares de One Rep Max explicadas",
+      "subSections": [
+        {
+          "heading": "Fórmula Epley",
+          "content": "1RM = Peso × (1 + 0,0333 × Repetições). Melhor para levantadores em geral. Simples e preciso até 10 repetições, mas menos preciso em repetições muito altas."
+        },
+        {
+          "heading": "Fórmula de Brzycki",
+          "content": "1RM = Peso × (36 ÷ (37 − Repetições)). Bom para força e hipertrofia. Confiável em menos de 10 repetições, mas pode ser subestimado para séries de resistência."
+        },
+        {
+          "heading": "Fórmula Lombardi",
+          "content": "1RM = Peso × Repetições ^ 0,10. Popular entre levantadores de peso. Funciona em amplas faixas de repetições, mas pode superestimar para iniciantes."
+        }
+      ]
+    },
+    {
+      "heading": "Maneiras seguras de calcular 1RM sem levantamento máximo",
+      "subSections": [
+        {
+          "heading": "Escolha pesos moderados",
+          "content": "Levante de 3 a 10 repetições com a forma adequada, em vez de maximizar."
+        },
+        {
+          "heading": "Dados de registro",
+          "content": "Registre o peso exato e as repetições realizadas."
+        },
+        {
+          "heading": "Use gráficos de porcentagem",
+          "content": "Estime as cargas de treinamento em 50%, 60%, 70%, 80%, 90% com segurança."
+        }
+      ]
+    },
+    {
+      "heading": "Como usar 1RM em programas de treinamento",
+      "subSections": [
+        {
+          "heading": "Treinamento de força",
+          "content": "Treine a 80–90% de 1RM por 1–5 repetições. Melhor para levantamento de peso, levantamento olímpico e CrossFit."
+        },
+        {
+          "heading": "Hipertrofia (crescimento muscular)",
+          "content": "Treine de 65 a 75% de 1RM por 6 a 12 repetições. Eficaz para musculação e ganhos de tamanho."
+        },
+        {
+          "heading": "Resistência e condicionamento",
+          "content": "Treine de 50 a 65% de 1RM para mais de 12 a 20 repetições. Ótimo para condicionamento físico geral e treinamento funcional."
+        },
+        {
+          "heading": "Exemplos",
+          "content": "Treino 5x5 (~75–85%), Sobrecarga Progressiva (aumentar gradualmente), Treinamento de Hipertrofia, condicionamento de força CrossFit."
+        }
+      ]
+    },
+    {
+      "heading": "Melhores práticas, segurança e isenções de responsabilidade",
+      "subSections": [
+        {
+          "heading": "Aquecimento",
+          "content": "Sempre aqueça antes de testar ou fazer estimativas."
+        },
+        {
+          "heading": "Nunca Max Sozinho",
+          "content": "Use um observador ou equipamento de segurança."
+        },
+        {
+          "heading": "Comece de forma conservadora",
+          "content": "Os iniciantes devem levantar com cautela."
+        },
+        {
+          "heading": "Ajustes Específicos de Elevação",
+          "content": "Inscreva-se separadamente para banco, agachamento, levantamento terra e levantamento olímpico."
+        },
+        {
+          "heading": "Ouça seu corpo",
+          "content": "Evite levantar com dor."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual é a fórmula One Rep Max mais precisa?",
+      "a": "A Calculadora de Fórmula Epley 1RM é mais precisa para levantamentos com menos de 10 repetições. Brzycki funciona bem para repetições moderadas, enquanto Lombardi é adequado para levantadores de peso."
+    },
+    {
+      "q": "Os iniciantes podem usar uma calculadora One Rep Max?",
+      "a": "Sim, os iniciantes devem evitar tentativas máximas verdadeiras e, em vez disso, usar levantamentos submáximos (3–10 repetições) para estimativas seguras."
+    },
+    {
+      "q": "Com que frequência devo recalcular meu 1RM?",
+      "a": "A maioria dos levantadores atualiza os resultados a cada 6–8 semanas. Atletas avançados podem recalcular com mais frequência durante os ciclos de força."
+    },
+    {
+      "q": "É seguro testar minha verdadeira repetição máxima na academia?",
+      "a": "Pode ser arriscado sem um observador ou equipamento adequado. Usar uma calculadora de 1RM é mais seguro e eficaz."
+    },
+    {
+      "q": "Como uso meu 1RM para programar treinos?",
+      "a": "Use uma calculadora de porcentagem máxima de uma repetição: 50–65% de resistência, 65–75% de hipertrofia, 75–85% de força, 85–95% de potência."
+    },
+    {
+      "q": "Esta calculadora funciona para todos os exercícios?",
+      "a": "Sim, funciona para supino, agachamento, levantamento terra, supino militar, levantamento olímpico e movimentos acessórios."
+    },
+    {
+      "q": "Posso usar esta ferramenta no celular ou na academia?",
+      "a": "Sim, esta calculadora 1RM gratuita é otimizada para uso em dispositivos móveis, desktops e academias em todo o mundo."
+    }
+  ]
+}

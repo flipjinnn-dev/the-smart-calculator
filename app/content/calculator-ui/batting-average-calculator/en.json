@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Batting Average Calculator",
+  "pageDescription": "Calculate batting average and related statistics for baseball and softball players with comprehensive performance metrics",
+  "form": {
+    "labels": {
+      "playerName": "Player Name",
+      "atBats": "At Bats",
+      "hits": "Hits",
+      "calculationType": "Calculation Type",
+      "additionalStats": "Include Additional Statistics?"
+    },
+    "placeholders": {
+      "playerName": "Enter player name (optional)",
+      "atBats": "Enter number of at bats",
+      "hits": "Enter number of hits"
+    },
+    "buttons": {
+      "calculate": "Calculate Batting Average",
+      "reset": "Reset"
+    },
+    "calculationTypes": {
+      "basic": "Basic Batting Average",
+      "season": "Season Statistics",
+      "career": "Career Statistics"
+    },
+    "yesNo": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "results": {
+    "battingAverage": "Batting Average",
+    "hits": "Hits",
+    "atBats": "At Bats",
+    "additionalStats": "Additional Statistics",
+    "battingAverageResultsTitle": "Batting Average Results"
+  },
+  "educational": {
+    "battingAverageInfo": "Batting Average Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Baseball Resources",
+    "battingAverageFacts": {
+      "definition": {
+        "title": "Batting Average Definition",
+        "description": "Batting Average = Hits ÷ At Bats (does not include walks, sacrifices, or hit by pitch)"
+      },
+      "benchmarks": {
+        "title": "Performance Benchmarks",
+        "description": "Excellent: .300+, Good: .270-.299, Average: .250-.269, Below Average: Below .250"
+      },
+      "context": {
+        "title": "Context Matters",
+        "description": "Consider ballpark, opponents, and game situations when evaluating batting average"
+      }
+    },
+    "additionalStatistics": {
+      "obp": {
+        "title": "On-Base Percentage (OBP)",
+        "description": "Measures how frequently a batter reaches base"
+      },
+      "slg": {
+        "title": "Slugging Percentage (SLG)",
+        "description": "Measures the power of a hitter"
+      },
+      "ops": {
+        "title": "On-Base Plus Slugging (OPS)",
+        "description": "Combines OBP and SLG for overall offensive performance"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides statistical calculations only",
+      "context": "Batting average should be evaluated with other statistics for complete analysis"
+    },
+    "importantNotesList": [
+      "Batting average doesn't account for walks, sacrifices, or hit by pitch",
+      "Consider sample size when evaluating recent performance",
+      "Different ballparks and leagues may affect performance metrics",
+      "Advanced metrics like OPS and wOBA provide more complete player evaluation"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter player statistics to calculate batting average",
+    "resultMessage": "The player's batting average is shown below",
+    "assessmentResult": "Batting Statistics Result:",
+    "battingAverageAnalysis": "Batting Average Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides batting average calculations based on standard baseball statistics formulas. Results are for informational purposes and may not reflect official league statistics or advanced analytical metrics."
+  },
+  "seekHelp": {
+    "title": "Baseball Resources",
+    "content": "For professional baseball analysis and advanced statistics, consult sports analysts, coaches, or specialized baseball statistical resources and sabermetric tools."
+  },
+  "errors": {
+    "atBats": "Please enter a valid number of at bats (must be greater than 0)",
+    "hits": "Please enter a valid number of hits (cannot exceed at bats)",
+    "playerName": "Please enter a valid player name",
+    "calculationType": "Please select a calculation type"
+  },
+  "tooltips": {
+    "atBats": "Number of official at bats (excludes walks, sacrifices, hit by pitch)",
+    "hits": "Number of hits (singles, doubles, triples, home runs)",
+    "calculationType": "Select the type of statistical calculation",
+    "additionalStats": "Include advanced statistics like OBP, SLG, and OPS"
+  },
+  "loading_0": "Loading...",
+  "batting_average_calculation_1": "Batting Average Calculation",
+  "choose_between_basic_or_advanced_calculation_metho_2": "Choose between basic or advanced calculation methods",
+  "what_calculation_method_would_you_like_to_use_3": "What calculation method would you like to use?",
+  "basic_calculation_4": "Basic Calculation",
+  "advanced_calculation_5": "Advanced Calculation",
+  "runs_scored_6": "Runs Scored",
+  "times_out_7": "Times Out",
+  "formula_8": "Formula:",
+  "batting_average_runs_scored_times_out_9": "Batting Average = Runs Scored ÷ Times Out",
+  "example_315_runs_3_dismissals_10500_average_10": "Example: 315 runs ÷ 3 dismissals = 105.00 average",
+  "runs_scored_11": "Runs Scored",
+  "innings_played_12": "Innings Played",
+  "not_outs_13": "Not Outs",
+  "formula_14": "Formula:",
+  "times_out_innings_played_not_outs_15": "Times Out = Innings Played - Not Outs",
+  "batting_average_runs_scored_times_out_16": "Batting Average = Runs Scored ÷ Times Out",
+  "not_out_innings_dont_count_as_dismissals_which_can_17": "Not out innings don't count as dismissals, which can increase your average",
+  "calculate_average_18": "Calculate Average",
+  "batting_average_19": "Batting Average",
+  "batting_average_20": "Batting Average",
+  "enter_your_cricket_statistics_and_click_21": "Enter your cricket statistics and click",
+  "calculate_22": "Calculate",
+  "to_see_your_batting_average_23": "to see your batting average.",
+  "understanding_batting_average_24": "Understanding Batting Average",
+  "definition_25": "Definition",
+  "batting_average_in_cricket_is_a_statistic_that_mea_26": "Batting average in cricket is a statistic that measures a batsman's performance. It represents\n                        the average number of runs scored per dismissal.",
+  "key_points_27": "Key Points",
+  "higher_averages_indicate_better_batting_performanc_28": "Higher averages indicate better batting performance",
+  "not_out_innings_are_not_counted_as_dismissals_29": "Not out innings are not counted as dismissals",
+  "a_good_batting_average_varies_by_level_of_cricket_30": "A good batting average varies by level of cricket",
+  "professional_averages_above_40_are_considered_exce_31": "Professional averages above 40 are considered excellent",
+  "sample_calculation_32": "Sample Calculation",
+  "example_33": "Example:",
+  "runs_scored_315_34": "Runs scored: 315",
+  "times_out_3_35": "Times out: 3",
+  "batting_average_315_3_10500_36": "Batting average: 315 ÷ 3 = 105.00",
+  "this_would_be_an_exceptional_batting_average_indic_37": "This would be an exceptional batting average, indicating the player scores an average of 105\n                        runs before getting out."
+}

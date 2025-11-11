@@ -1,0 +1,70 @@
+import { headers } from "next/headers";
+import type { Metadata } from "next";
+import { getCanonicalUrl } from "@/lib/url-utils";
+
+// Multilingual SEO metadata for finance-calculator
+const financecalculatorMeta = {
+  en: {
+    title: "Finance Calculator – Various Calculations Online | TheSmartCal",
+    description: "Use the Finance Calculator for various financial calculations. Accurate, free online tool for loans, investments, and budgeting.",
+    keywords: "finance calculator, comprehensive, tool, various, financial, calculations"
+  },
+  br: {
+    title: "Conversor de Moedas Online – Cotações em Tempo Real",
+    description: "Use o Conversor de Moedas para ver taxas de câmbio atualizadas. Converta valores com rapidez e precisão em várias moedas do mundo.",
+    keywords: "conversor moedas, cotações tempo real, taxas câmbio, converta valores, online moedas, precisão rapidez, mundo finanças"
+  },
+  pl: {
+    title: "Kalkulator Finansowy – Oblicz Wyniki Finansowe",
+    description: "Skorzystaj z kalkulatora finansowego online, aby łatwo analizować dane finansowe. Proste narzędzie do szybkich i dokładnych obliczeń finansowych.",
+    keywords: "kalkulator finansowy, kompleksowe, narzędzie, różne, finansowe, obliczenia"
+  },
+  de: {
+    title: "Finanzrechner – Online Tools für Ihre Finanzen",
+    description: "Mit dem Finanzrechner analysieren Sie Kredite, Anlagen und Haushaltsbudget. Der Finanzrechner bietet schnelle Online-Berechnungen für Ihre Finanzen.",
+    keywords: "finanzrechner, umfassend, tool, verschiedene, finanzielle, berechnungen"
+  }
+};
+
+export async function generateMetadata(): Promise<Metadata> {
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language =
+    langHeader && financecalculatorMeta[langHeader as keyof typeof financecalculatorMeta]
+      ? langHeader
+      : "en";
+
+  const meta = financecalculatorMeta[language as keyof typeof financecalculatorMeta];
+  
+  // Generate correct canonical URL using localized slug
+  const canonicalUrl = getCanonicalUrl('finance-calculator', language);
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        'en': getCanonicalUrl('finance-calculator', 'en'),
+        'pt-BR': getCanonicalUrl('finance-calculator', 'br'),
+        'pl': getCanonicalUrl('finance-calculator', 'pl'),
+        'de': getCanonicalUrl('finance-calculator', 'de'),
+      }
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "website",
+      url: canonicalUrl,
+    },
+  };
+}
+
+export default async function FinanceCalculatorLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <>{children}</>;
+}

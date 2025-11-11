@@ -1,0 +1,193 @@
+{
+  "pageTitle": "Erschwinglichkeitsrechner für Häuser",
+  "pageDescription": "Bestimmen Sie anhand Ihrer Einnahmen und Ausgaben anhand einer umfassenden Analyse, einschließlich Schulden-Einkommens-Verhältnissen und Anzahlungsanforderungen, wie viel Haus Sie sich leisten können",
+  "form": {
+    "labels": {
+      "annualIncome": "Jährliches Bruttoeinkommen",
+      "monthlyDebts": "Monatliche Schuldenzahlungen",
+      "downPayment": "Anzahlung",
+      "downPaymentType": "Art der Anzahlung",
+      "interestRate": "Erwarteter Hypothekenzinssatz",
+      "loanTerm": "Kreditlaufzeit",
+      "propertyTax": "Jährlicher Grundsteuersatz",
+      "homeInsurance": "Jährliche Hausratversicherung",
+      "hoaFees": "Monatliche HOA-Gebühren",
+      "otherHousingCosts": "Sonstige monatliche Wohnkosten"
+    },
+    "placeholders": {
+      "annualIncome": "Geben Sie das jährliche Bruttoeinkommen ein",
+      "monthlyDebts": "Geben Sie die gesamten monatlichen Schuldenzahlungen ein",
+      "downPayment": "Anzahlung eingeben",
+      "interestRate": "Geben Sie den erwarteten Hypothekenzinssatz (%) ein.",
+      "loanTerm": "Geben Sie die Kreditlaufzeit in Jahren ein",
+      "propertyTax": "Geben Sie den jährlichen Grundsteuersatz (%) ein.",
+      "homeInsurance": "Geben Sie die jährlichen Kosten für die Hausratversicherung ein",
+      "hoaFees": "Geben Sie die monatlichen HOA-Gebühren ein",
+      "otherHousingCosts": "Geben Sie weitere monatliche Wohnkosten ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Erschwinglichkeit eines Hauses",
+      "reset": "Zurücksetzen"
+    },
+    "downPaymentTypes": {
+      "amount": "Menge",
+      "percentage": "Prozentsatz"
+    }
+  },
+  "results": {
+    "affordablePrice": "Erschwinglicher Hauspreis",
+    "monthlyPayment": "Geschätzte monatliche Zahlung",
+    "principalAndInterest": "Kapital und Zinsen",
+    "taxesAndInsurance": "Steuern und Versicherungen",
+    "totalHousingCost": "Gesamte monatliche Wohnkosten",
+    "dtiRatio": "Verhältnis von Schulden zu Einkommen",
+    "houseAffordabilityResultsTitle": "Ergebnisse zur Erschwinglichkeit von Häusern"
+  },
+  "educational": {
+    "houseAffordabilityInfo": "Informationen zur Erschwinglichkeit von Häusern",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "houseAffordabilityFacts": {
+      "rules": {
+        "title": "Erschwinglichkeitsregeln",
+        "description": "28/36-Regel: Wohnkosten ≤ 28 % des Bruttoeinkommens, Gesamtverschuldung ≤ 36 % des Bruttoeinkommens"
+      },
+      "downPayment": {
+        "title": "Auswirkungen auf die Anzahlung",
+        "description": "Höhere Anzahlungen reduzieren den Kreditbetrag und können dazu führen, dass die PMI-Anforderung entfällt"
+      },
+      "dti": {
+        "title": "Verhältnis von Schulden zu Einkommen",
+        "description": "Kreditgeber bevorzugen in der Regel DTI-Quoten unter 43 % für qualifizierte Hypotheken"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Erschwinglichkeit von Häusern",
+      "actual": "Die tatsächliche Erschwinglichkeit kann je nach Kreditwürdigkeit, Richtlinien des Kreditgebers und Marktbedingungen variieren"
+    },
+    "importantNotesList": [
+      "Kreditgeber berücksichtigen neben dem Einkommen auch die Kreditwürdigkeit, den beruflichen Werdegang und das Vermögen",
+      "Die Abschlusskosten liegen in der Regel zwischen 2 und 5 % des Eigenheimpreises",
+      "Der Notfallfonds sollte die Wohnkosten für 3–6 Monate decken",
+      "Berücksichtigen Sie jährliche Wartungskosten von 1–3 % des Hauswerts"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Finanzdaten ein, um die Erschwinglichkeit des Hauses zu ermitteln",
+    "resultMessage": "Die Ergebnisse Ihrer Berechnung der Erschwinglichkeit Ihres Hauses werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Berechnung der Erschwinglichkeit eines Hauses:",
+    "houseAffordabilityAnalysis": "Analyse der Erschwinglichkeit eines Hauses"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Erschwinglichkeit von Häusern auf der Grundlage allgemeiner Finanzrichtlinien. Die tatsächliche Erschwinglichkeit kann je nach Kreditwürdigkeit, Richtlinien des Kreditgebers, Marktbedingungen und anderen Faktoren, die nicht in diese Berechnungen einbezogen werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine individuelle Analyse der Erschwinglichkeit von Häusern und eine Hypothekenberatung wenden Sie sich an Hypothekenmakler oder Finanzberater mit Fachkenntnissen in der Hauskreditvergabe und individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "annualIncome": "Bitte geben Sie ein gültiges Jahresbruttoeinkommen ein",
+    "monthlyDebts": "Bitte geben Sie gültige monatliche Schuldenzahlungen ein",
+    "downPayment": "Bitte geben Sie eine gültige Anzahlung ein",
+    "interestRate": "Bitte geben Sie einen gültigen erwarteten Hypothekenzinssatz ein",
+    "loanTerm": "Bitte geben Sie eine gültige Kreditlaufzeit ein",
+    "propertyTax": "Bitte geben Sie einen gültigen jährlichen Grundsteuersatz ein",
+    "homeInsurance": "Bitte geben Sie einen gültigen Jahresbeitrag für die Hausratversicherung ein",
+    "hoaFees": "Bitte geben Sie gültige monatliche HOA-Gebühren ein",
+    "otherHousingCosts": "Bitte geben Sie gültige sonstige monatliche Wohnkosten ein",
+    "downPaymentType": "Bitte wählen Sie eine Anzahlungsart aus"
+  },
+  "tooltips": {
+    "annualIncome": "Ihr gesamtes jährliches Bruttoeinkommen vor Steuern",
+    "monthlyDebts": "Gesamte monatliche Zahlungen für alle Schulden (Autokredite, Studienkredite, Kreditkarten usw.)",
+    "downPayment": "Betrag, den Sie im Voraus für den Hauskauf zahlen möchten",
+    "downPaymentType": "Ob die Anzahlung als Betrag oder Prozentsatz angegeben wird",
+    "interestRate": "Erwarteter jährlicher Zinssatz für Hypothekendarlehen",
+    "loanTerm": "Dauer der Rückzahlung der Hypothek (in der Regel 15 oder 30 Jahre)",
+    "propertyTax": "Jährlicher Grundsteuersatz, der von der lokalen Regierung festgelegt wird",
+    "homeInsurance": "Jährliche Kosten der Hausratversicherung",
+    "hoaFees": "Monatliche Gebühren für Dienstleistungen der Hausbesitzervereinigung",
+    "otherHousingCosts": "Sonstige monatliche wohnungsbezogene Ausgaben (Nebenkosten, Instandhaltung usw.)"
+  },
+  "affordability_calculator_0": "Erschwinglichkeitsrechner",
+  "calculation_method_1": "Berechnungsmethode",
+  "how_would_you_like_to_calculate_2": "Wie möchten Sie rechnen?",
+  "based_on_income_debttoincome_ratios_3": "Basierend auf Einkommen und Schulden-Einkommens-Verhältnissen",
+  "based_on_fixed_monthly_budget_4": "Basierend auf einem festen Monatsbudget",
+  "income_debt_information_5": "Informationen zu Einkommen und Schulden",
+  "annual_gross_income_6": "Jährliches Bruttoeinkommen",
+  "monthly_debt_payments_7": "Monatliche Schuldenzahlungen",
+  "frontend_ratio_8": "Front-End-Verhältnis (%)",
+  "housing_costs_as_of_gross_income_typically_28_9": "Wohnkosten in % des Bruttoeinkommens (normalerweise 28 %)",
+  "backend_ratio_10": "Back-End-Verhältnis (%)",
+  "total_debt_as_of_gross_income_typically_36_11": "Gesamtverschuldung in % des Bruttoeinkommens (normalerweise 36 %)",
+  "monthly_housing_budget_12": "Monatliches Wohnbudget",
+  "maximum_monthly_housing_payment_13": "Maximale monatliche Wohngeldzahlung",
+  "include_mortgage_taxes_insurance_and_hoa_fees_14": "Berücksichtigen Sie Hypotheken-, Steuer-, Versicherungs- und HOA-Gebühren",
+  "loan_property_details_15": "Kredit- und Immobiliendetails",
+  "down_payment_16": "Anzahlung (%)",
+  "mortgage_interest_rate_17": "Hypothekenzinssatz (%)",
+  "loan_term_years_18": "Kreditlaufzeit (Jahre)",
+  "k_15_years_19": "15 Jahre",
+  "k_20_years_20": "20 Jahre",
+  "k_25_years_21": "25 Jahre",
+  "k_30_years_22": "30 Jahre",
+  "property_tax_rate_23": "Grundsteuersatz (%)",
+  "home_insurance_rate_24": "Hausratversicherungssatz (%)",
+  "hoa_fee_rate_25": "HOA-Gebührensatz (%)",
+  "calculate_26": "Berechnen",
+  "affordability_results_27": "Ergebnisse zur Erschwinglichkeit",
+  "how_much_house_you_can_afford_28": "Wie viel Haus können Sie sich leisten?",
+  "maximum_house_price_29": "Maximaler Hauspreis:",
+  "monthly_payment_breakdown_30": "Aufschlüsselung der monatlichen Zahlungen",
+  "principal_interest_31": "Kapital und Zinsen",
+  "property_tax_32": "Vermögenssteuer",
+  "home_insurance_33": "Hausversicherung",
+  "hoa_fees_34": "HOA-Gebühren",
+  "total_monthly_payment_35": "Monatliche Gesamtzahlung",
+  "purchase_details_36": "Kaufdetails",
+  "down_payment_required_37": "Anzahlung erforderlich",
+  "loan_amount_38": "Darlehensbetrag",
+  "housing_budget_used_39": "Verwendetes Wohnbudget:",
+  "this_calculation_assumes_40": "Diese Berechnung geht davon aus",
+  "down_payment_and_41": "% Anzahlung und",
+  "interest_rate_42": "% Zinssatz",
+  "enter_your_information_to_see_how_much_house_you_c_43": "Geben Sie Ihre Daten ein, um zu sehen, wie viel Haus Sie sich leisten können",
+  "how_much_house_can_i_afford_44": "Wie viel Haus kann ich mir leisten?",
+  "determining_how_much_house_you_can_afford_depends__45": "Wie viel Haus Sie sich leisten können, hängt von mehreren Schlüsselfaktoren ab, darunter Ihrem Einkommen,\n                      bestehende Schulden, Anzahlung und die aktuellen Hypothekenzinsen. Kreditgeber verwenden in der Regel zwei Hauptkredite\n                      Kennzahlen zur Bewertung Ihrer Erschwinglichkeit:",
+  "frontend_ratio_28_rule_46": "Front-End-Verhältnis (28 %-Regel):",
+  "your_total_housing_costs_should_not_exceed_28_of_y_47": "Ihre gesamten Wohnkosten sollten 28 % nicht überschreiten\n                        Ihr Bruttomonatseinkommen",
+  "backend_ratio_36_rule_48": "Back-End-Verhältnis (36 %-Regel):",
+  "your_total_debt_payments_should_not_exceed_36_of_y_49": "Ihre Gesamtschuldenzahlungen sollten 36 % nicht überschreiten\n                        Ihr Bruttomonatseinkommen",
+  "house_affordability_formulas_logic_50": "Formeln und Logik zur Erschwinglichkeit von Häusern",
+  "k_1_monthly_income_calculation_51": "1. Monatliche Einkommensberechnung",
+  "monthly_income_annual_income_12_52": "Monatseinkommen = Jahreseinkommen ÷ 12",
+  "k_2_dti_ratio_limits_53": "2. DTI-Verhältnisgrenzen",
+  "frontend_max_monthly_income_frontend_ratio_54": "Front-End-Maximum = Monatseinkommen × Front-End-Verhältnis",
+  "backend_max_monthly_income_backend_ratio_monthly_d_55": "Back-End-Maximum = (Monatliches Einkommen × Back-End-Verhältnis) – Monatliche Schulden",
+  "k_3_housing_budget_56": "3. Wohnbudget",
+  "max_housing_budget_minfrontend_max_backend_max_57": "Maximales Wohnbudget = min(Front-End-Maximum, Back-End-Maximum)",
+  "k_4_monthly_mortgage_payment_58": "4. Monatliche Hypothekenzahlung",
+  "m_l_r1rn_1rn_1_59": "M = L × [r(1+r)^n] / [(1+r)^n - 1]",
+  "where_l_loan_amount_r_monthly_rate_n_number_of_pay_60": "Dabei gilt: L = Kreditbetrag, r = Monatsrate, n = Anzahl der Zahlungen",
+  "k_5_total_housing_cost_61": "5. Gesamtwohnkosten",
+  "total_mortgage_property_tax_insurance_hoa_62": "Gesamt = Hypothek + Grundsteuer + Versicherung + HOA",
+  "example_calculations_63": "Beispielrechnungen",
+  "example_1_incomebased_calculation_64": "Beispiel 1: Einkommensbasierte Berechnung",
+  "scenario_65": "Szenario:",
+  "k_100000_annual_income_500_monthly_debts_30year_mort_66": "100.000 $ Jahreseinkommen, 500 $ monatliche Schulden, 30-jährige Hypothek zu 6 %,\n                          20 % Anzahlung",
+  "calculation_67": "Berechnung:",
+  "monthly_income_8333_frontend_max_2333_backend_max__68": "Monatliches Einkommen = 8.333 $, Front-End-Maximum = 2.333 $, Back-End-Maximum =\n                          2.500 $",
+  "result_69": "Ergebnis:",
+  "max_housing_budget_2333_affordable_house_420000_70": "Maximales Wohnbudget = 2.333 $, bezahlbares Haus ≈ 420.000 $",
+  "example_2_budgetbased_calculation_71": "Beispiel 2: Budgetbasierte Berechnung",
+  "scenario_72": "Szenario:",
+  "fixed_budget_of_2500month_same_loan_parameters_as__73": "Festes Budget von 2.500 $/Monat, gleiche Kreditparameter wie oben",
+  "calculation_74": "Berechnung:",
+  "housing_budget_2500_userdefined_75": "Wohnbudget = 2.500 $ (benutzerdefiniert)",
+  "result_76": "Ergebnis:",
+  "affordable_house_390000_77": "Erschwingliches Haus ≈ 390.000 $"
+}

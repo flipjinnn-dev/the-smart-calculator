@@ -1,0 +1,141 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Was ist BMR und warum es wichtig ist?",
+      "content": "Der Grundumsatz (BMR) ist die Anzahl an Kalorien, die Ihr Körper benötigt, um im Ruhezustand grundlegende physiologische Funktionen wie Atmung, Kreislauf und Zellproduktion aufrechtzuerhalten.",
+      "subSections": [
+        {
+          "heading": "Gewichtsmanagement",
+          "content": "Wenn Sie Ihren BMR kennen, können Sie effizient Gewicht verlieren, zunehmen oder halten."
+        },
+        {
+          "heading": "Fitnessplanung",
+          "content": "Entwerfen Sie Diät- und Trainingsroutinen basierend auf dem täglichen Kalorienbedarf."
+        },
+        {
+          "heading": "Gesundheitsüberwachung",
+          "content": "Verstehen Sie den Stoffwechsel und den Energieverbrauch für eine langfristige Gesundheit."
+        },
+        {
+          "heading": "Gründung von TDEE",
+          "content": "BMR bildet die Grundlage für den Total Daily Energy Expenditure (TDEE)."
+        }
+      ]
+    },
+    {
+      "heading": "TDEE verstehen: Gesamter täglicher Energieaufwand",
+      "content": "Ihr TDEE ist die Gesamtzahl der Kalorien, die Sie an einem Tag verbrennen, unter Berücksichtigung der körperlichen Aktivität.",
+      "subSections": [
+        {
+          "heading": "Sitzend",
+          "content": "Wenig bis gar keine Bewegung. Multiplikator: 1,2"
+        },
+        {
+          "heading": "Leichte Aktivität",
+          "content": "Leichte körperliche Betätigung 1–3 Tage/Woche. Multiplikator: 1,375"
+        },
+        {
+          "heading": "Mäßige Aktivität",
+          "content": "Mäßige körperliche Betätigung an 3–5 Tagen pro Woche. Multiplikator: 1,55"
+        },
+        {
+          "heading": "Sehr aktiv",
+          "content": "Intensives Training 6–7 Tage/Woche. Multiplikator: 1,725"
+        },
+        {
+          "heading": "Extra aktiv",
+          "content": "Körperlich anstrengender Job oder Training zweimal täglich. Multiplikator: 1,9"
+        }
+      ]
+    },
+    {
+      "heading": "So verwenden Sie diesen BMR-Rechner",
+      "content": "Befolgen Sie diese Schritte, um Ihren BMR und TDEE zu berechnen:",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Geben Sie Ihre Daten ein – Alter, Geschlecht, Größe (cm), Gewicht (kg) und Aktivitätsniveau."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Klicken Sie auf „Berechnen“ – Ihr BMR und TDEE werden sofort angezeigt."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Interpretieren Sie die Ergebnisse – verwenden Sie BMR/TDEE, um Gewichtsverlust, Gewichtszunahme oder Gewichtserhaltung zu planen."
+        }
+      ]
+    },
+    {
+      "heading": "BMR-Formeln erklärt",
+      "content": "Zur genauen Berechnung des BMR gibt es verschiedene Formeln:",
+      "subSections": [
+        {
+          "heading": "Mifflin-St-Jeor-Formel",
+          "content": "Am genauesten für Erwachsene. Männer: (10 × Gewicht) + (6,25 × Größe) – (5 × Alter) + 5. Frauen: (10 × Gewicht) + (6,25 × Größe) – (5 × Alter) – 161."
+        },
+        {
+          "heading": "Harris-Benedict-Formel",
+          "content": "Eine ältere Formel, die den BMR möglicherweise leicht überschätzt."
+        },
+        {
+          "heading": "Katch-McArdle-Formel",
+          "content": "Ideal für Personen mit bekanntermaßen fettfreier Körpermasse."
+        }
+      ]
+    },
+    {
+      "heading": "Tipps zur natürlichen Steigerung Ihres BMR",
+      "content": "Steigern Sie Ihren Stoffwechsel mit diesen Strategien:",
+      "subSections": [
+        {
+          "heading": "Krafttraining",
+          "content": "Bauen Sie fettfreie Muskelmasse auf."
+        },
+        {
+          "heading": "Proteinreiche Diät",
+          "content": "Steigern Sie die Thermogenese mit Protein."
+        },
+        {
+          "heading": "Bleiben Sie aktiv",
+          "content": "Erhöhen Sie NEAT (Thermogenese bei Nicht-Trainingsaktivität)."
+        },
+        {
+          "heading": "Schlafen Sie ausreichend",
+          "content": "Sorgen Sie für eine optimale Stoffwechselfunktion."
+        },
+        {
+          "heading": "Bleiben Sie hydriert",
+          "content": "Die Wasseraufnahme unterstützt den Stoffwechsel."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie genau ist ein BMR-Rechner?",
+      "a": "Die Genauigkeit hängt von der verwendeten Formel und der Eingabegenauigkeit ab. Mifflin-St Jeor ist für Erwachsene am zuverlässigsten."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen BMR und TDEE?",
+      "a": "Der BMR misst die Kalorien in Ruhe, während der TDEE alle täglichen Aktivitäten umfasst. TDEE = BMR × Aktivitätsfaktor."
+    },
+    {
+      "q": "Kann ich BMR zum Abnehmen verwenden?",
+      "a": "Ja. Nehmen Sie weniger Kalorien als Ihr TDEE zu sich, um abzunehmen, oder mehr, um an Gewicht zuzunehmen."
+    },
+    {
+      "q": "Wie viele Kalorien verbrenne ich am Tag?",
+      "a": "Ihr TDEE liefert eine Schätzung basierend auf Ihrem Grundumsatz und Ihrem Aktivitätsniveau."
+    },
+    {
+      "q": "Welche BMR-Formel sollte ich verwenden?",
+      "a": "Mifflin-St Jeor eignet sich am besten für den allgemeinen Gebrauch, während Katch-McArdle für diejenigen geeignet ist, die ihren Körperfettanteil kennen."
+    }
+  ],
+  "cta": {
+    "heading": "Berechnen Sie noch heute Ihren BMR und TDEE",
+    "content": "Nutzen Sie unseren kostenlosen BMR-Rechner, um Ihren Stoffwechsel und Ihren täglichen Kalorienbedarf zu verstehen und die Kontrolle über Ihre Gesundheits- und Fitnessziele zu übernehmen."
+  }
+}

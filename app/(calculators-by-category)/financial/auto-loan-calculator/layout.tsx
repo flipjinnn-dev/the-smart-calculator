@@ -1,0 +1,70 @@
+import { headers } from "next/headers";
+import type { Metadata } from "next";
+import { getCanonicalUrl } from "@/lib/url-utils";
+
+// Multilingual SEO metadata for auto-loan-calculator
+const autoloancalculatorMeta = {
+  en: {
+    title: "Auto Loan Calculator – Payments Cost Online | TheSmartCalculator",
+    description: "Use the Auto Loan Calculator to compute car loan payments and total cost. Accurate, free online tool for vehicle financing and budget planning.",
+    keywords: "auto loan calculator, car payments, total cost, financing tool, online auto, budget calculator, free loan tool, vehicle estimate"
+  },
+  br: {
+    title: "Calculadora Empréstimo Auto – Parcelas Online | TheSmartCalculator",
+    description: "Use a Calculadora Empréstimo Auto para calcular pagamentos de carro e custo total. Ferramenta precisa e gratuita para financiamento de veículos e orçamento.",
+    keywords: "calculadora empréstimo auto, parcelas carro, custo total, ferramenta financiamento, online auto, orçamento calculadora, gratuita tool"
+  },
+  pl: {
+    title: "Kalkulator Kredytu Samochodowego – Rata Online | TheSmartCalculator",
+    description: "Użyj kalkulatora kredytu samochodowego online, aby obliczyć raty, odsetki i całkowity koszt auta. Proste, szybkie i darmowe narzędzie finansowe.",
+    keywords: "kalkulator kredytu samochodowego, obliczyć raty, odsetki koszt, narzędzie finansowe, online kredyt, proste szybkie, darmowy tool"
+  },
+  de: {
+    title: "Auto Loan Calculator – Payments Cost Online | TheSmartCalculat",
+    description: "Mit dem Autokreditrechner ermitteln Sie Ihre monatliche Rate, Gesamtkosten und Laufzeit für Autokredite. Der Autokreditrechner hilft bei Ihrer Fahrzeugfinanzierung online.",
+    keywords: "autokreditrechner, finanzierung berechnen, monatliche rate, gesamt kosten, laufzeit tool, fahrzeug online, hilft rechner"
+  }
+};
+
+export async function generateMetadata(): Promise<Metadata> {
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language =
+    langHeader && autoloancalculatorMeta[langHeader as keyof typeof autoloancalculatorMeta]
+      ? langHeader
+      : "en";
+
+  const meta = autoloancalculatorMeta[language as keyof typeof autoloancalculatorMeta];
+  
+  // Generate correct canonical URL using localized slug
+  const canonicalUrl = getCanonicalUrl('auto-loan-calculator', language);
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        'en': getCanonicalUrl('auto-loan-calculator', 'en'),
+        'pt-BR': getCanonicalUrl('auto-loan-calculator', 'br'),
+        'pl': getCanonicalUrl('auto-loan-calculator', 'pl'),
+        'de': getCanonicalUrl('auto-loan-calculator', 'de'),
+      }
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "website",
+      url: canonicalUrl,
+    },
+  };
+}
+
+export default async function AutoLoanCalculatorLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <>{children}</>;
+}

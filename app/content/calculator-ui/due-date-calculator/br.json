@@ -1,0 +1,172 @@
+{
+  "pageTitle": "Calculadora de data de vencimento",
+  "pageDescription": "Estime a data do parto com base no seu último período menstrual ou data de concepção",
+  "form": {
+    "labels": {
+      "lastMenstrualPeriod": "Última menstruação",
+      "cycleLength": "Duração do ciclo (dias)",
+      "conceptionDate": "Data de concepção (opcional)"
+    },
+    "placeholders": {
+      "lastMenstrualPeriod": "Insira o primeiro dia da última menstruação",
+      "cycleLength": "Insira a duração do ciclo (padrão: 28)",
+      "conceptionDate": "Insira a data de concepção, se conhecida"
+    },
+    "buttons": {
+      "calculate": "Calcular a data de vencimento",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "dueDate": "Data de vencimento estimada",
+    "conceptionDate": "Data estimada de concepção",
+    "weeksPregnant": "Semanas atuais de gravidez",
+    "calculationDetails": "Resultados do cálculo da data de vencimento"
+  },
+  "educational": {
+    "info": "Informações sobre data de vencimento",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de data de vencimento",
+        "description": "Informações sobre data de vencimento"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como a data de vencimento é calculada"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos da data de vencimento"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de datas de vencimento",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular a data de vencimento",
+    "resultMessage": "Os resultados do cálculo da data de vencimento são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da data de vencimento:",
+    "analysis": "Análise de data de vencimento"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de datas de vencimento com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "due_date_calculation_0": "Cálculo da data de vencimento",
+  "select_your_preferred_method_and_enter_the_require_1": "Selecione seu método preferido e insira as informações necessárias",
+  "calculation_method_2": "Método de cálculo",
+  "last_menstrual_period_lmp_3": "Última menstruação (DUM)",
+  "ultrasound_dating_4": "Datação por ultrassom",
+  "conception_date_5": "Data de concepção",
+  "ivf_transfer_date_6": "Data de transferência de fertilização in vitro",
+  "first_day_of_last_menstrual_period_7": "Primeiro dia da última menstruação",
+  "average_cycle_length_days_8": "Duração média do ciclo (dias)",
+  "typical_range_2135_days_9": "Intervalo típico: 21-35 dias",
+  "date_of_ultrasound_scan_10": "Data da ultrassonografia",
+  "gestational_age_weeks_11": "Idade Gestacional (semanas)",
+  "additional_days_12": "Dias Adicionais",
+  "approximate_conception_date_13": "Data Aproximada de Concepção",
+  "embryo_transfer_date_14": "Data de transferência do embrião",
+  "embryo_age_at_transfer_15": "Idade do Embrião na Transferência",
+  "k_3day_embryo_16": "Embrião de 3 dias",
+  "k_5day_embryo_blastocyst_17": "Embrião de 5 dias (blastocisto)",
+  "k_6day_embryo_18": "Embrião de 6 dias",
+  "calculate_date_19": "Calcular Data",
+  "reset_20": "Reiniciar",
+  "due_date_21": "Data de vencimento",
+  "expected_due_date_22": "Data de vencimento prevista",
+  "w_23": "w",
+  "d_24": "d",
+  "current_age_25": "Idade Atual",
+  "select_a_method_and_enter_your_information_to_calc_26": "Selecione um método e insira suas informações para calcular a data de vencimento.",
+  "your_pregnancy_timeline_27": "Seu cronograma de gravidez",
+  "estimated_due_date_28": "Data de vencimento estimada",
+  "expected_due_date_29": "Data de vencimento prevista",
+  "w_30": "w",
+  "d_31": "d",
+  "current_gestational_age_32": "Idade Gestacional Atual",
+  "pregnancy_progress_33": "Progresso da gravidez",
+  "calculation_details_34": "Detalhes do cálculo",
+  "method_used_35": "Método usado",
+  "accuracy_36": "Precisão:",
+  "important_note_37": "Nota importante",
+  "only_4_of_babies_arrive_on_the_exact_due_date_38": "Apenas cerca de 4% dos bebês chegam na data exata do parto",
+  "most_births_occur_within_10_days_of_edd_39": "A maioria dos nascimentos ocorre dentro de ±10 dias após o EDD",
+  "pregnancy_progress_40": "Progresso da gravidez",
+  "conception_41": "Concepção",
+  "complete_42": "% Completo",
+  "due_date_43": "Data de vencimento",
+  "due_date_calculation_methods_44": "Métodos de cálculo de data de vencimento",
+  "method_45": "Método",
+  "formula_46": "Fórmula",
+  "accuracy_47": "Precisão",
+  "lmp_naegeles_rule_48": "LMP (Regra de Naegele)",
+  "lmp_280_days_49": "DUM + 280 dias",
+  "k_14_days_50": "±14 dias",
+  "conception_date_51": "Data de concepção",
+  "conception_266_days_52": "Concepção + 266 dias",
+  "k_10_days_53": "±10 days",
+  "ultrasound_dating_54": "Ultrasound Dating",
+  "scan_date_280_ga_at_scan_55": "Scan date + (280 - GA at scan)",
+  "k_7_days_early_scan_56": "±7 days (early scan)",
+  "ivf_transfer_57": "IVF Transfer",
+  "transfer_261264_days_58": "Transfer + 261-264 days",
+  "k_5_days_59": "±5 dias",
+  "understanding_due_date_calculations_60": "Compreendendo os cálculos de datas de vencimento",
+  "method_accuracy_61": "Precisão do Método",
+  "ivf_transfer_62": "Transferência de fertilização in vitro:",
+  "most_accurate_5_days_63": "Mais preciso (±5 dias)",
+  "early_ultrasound_64": "Ultrassom precoce:",
+  "very_accurate_7_days_65": "Muito preciso (±7 dias)",
+  "conception_date_66": "Data de concepção:",
+  "good_accuracy_10_days_67": "Boa precisão (±10 dias)",
+  "lmp_method_68": "Método LMP:",
+  "standard_method_14_days_69": "Método padrão (±14 dias)",
+  "example_calculation_70": "Exemplo de cálculo",
+  "lmp_january_1_2025_28day_cycle_71": "DUM: 1º de janeiro de 2025 (ciclo de 28 dias)",
+  "formula_lmp_280_days_72": "Fórmula: DUM + 280 dias",
+  "due_date_73": "Data de vencimento:",
+  "october_8_2025_74": "8 de outubro de 2025",
+  "current_feb_1_75": "Atual (1º de fevereiro):",
+  "k_4w_3d_pregnant_76": "4w 3d grávida",
+  "important_facts_77": "Fatos importantes",
+  "only_4_of_babies_arrive_on_exact_due_date_78": "Apenas 4% dos bebês chegam na data exata do parto",
+  "k_3742_weeks_is_considered_fullterm_79": "37-42 semanas é considerado a termo",
+  "first_babies_often_arrive_12_days_late_80": "Os primeiros bebês geralmente chegam com 1 a 2 dias de atraso",
+  "cycle_length_affects_lmp_calculations_81": "A duração do ciclo afeta os cálculos LMP",
+  "when_to_use_each_method_82": "Quando usar cada método",
+  "lmp_83": "DUM:",
+  "regular_cycles_known_lmp_date_84": "Ciclos regulares, data DUM conhecida",
+  "ultrasound_85": "Ultrassom:",
+  "irregular_cycles_uncertain_lmp_86": "Ciclos irregulares, DUM incerta",
+  "conception_87": "Concepção:",
+  "known_ovulationconception_date_88": "Data conhecida de ovulação/concepção",
+  "ivf_89": "FIV:",
+  "assisted_reproductive_technology_90": "Tecnologia de reprodução assistida"
+}

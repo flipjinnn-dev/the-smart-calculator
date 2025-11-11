@@ -1,0 +1,155 @@
+{
+  "pageTitle": "Kalkulator wypłat renty",
+  "pageDescription": "Oblicz kwotę wypłaty renty na podstawie różnych czynników, w tym inwestycji początkowej, stóp procentowych i okresu wypłaty na potrzeby planowania dochodów emerytalnych",
+  "form": {
+    "labels": {
+      "annuityAmount": "Kwota inwestycji dożywotniej",
+      "interestRate": "Oczekiwana roczna stopa procentowa",
+      "payoutPeriod": "Okres wypłaty",
+      "payoutFrequency": "Częstotliwość wypłat",
+      "paymentTiming": "Termin płatności",
+      "inflationAdjustment": "Korekta inflacji"
+    },
+    "placeholders": {
+      "annuityAmount": "Wprowadź kwotę inwestycji dożywotniej",
+      "interestRate": "Wprowadź oczekiwaną roczną stopę procentową (%)",
+      "payoutPeriod": "Wprowadź okres spłaty w latach"
+    },
+    "buttons": {
+      "calculate": "Oblicz wypłatę renty",
+      "reset": "Nastawić"
+    },
+    "payoutFrequencies": {
+      "annually": "Rocznie",
+      "semiAnnually": "Półrocznie",
+      "quarterly": "Kwartalny",
+      "monthly": "Miesięczny"
+    },
+    "paymentTimings": {
+      "beginning": "Początek okresu",
+      "end": "Koniec okresu"
+    },
+    "inflationAdjustments": {
+      "none": "Brak regulacji",
+      "fixed": "Stała korekta procentowa",
+      "variable": "Zmienna oparta na wskaźniku inflacji"
+    }
+  },
+  "results": {
+    "periodicPayment": "Okresowa kwota płatności",
+    "totalPayout": "Całkowita wypłata w okresie",
+    "totalInterest": "Łączne uzyskane odsetki",
+    "annuityPayoutResultsTitle": "Wyniki wypłat renty"
+  },
+  "educational": {
+    "annuityPayoutInfo": "Informacje o wypłacie renty",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "annuityPayoutFacts": {
+      "definition": {
+        "title": "Definicja wypłaty renty",
+        "description": "Regularne płatności otrzymywane z umowy renty dożywotniej przez określony okres lub całe życie"
+      },
+      "immediateVsDeferred": {
+        "title": "Renty natychmiastowe a odroczone",
+        "description": "Płatności rent natychmiastowych rozpoczynają się wkrótce po zakupie; renty odroczone kumulują wartość przed wypłatą"
+      },
+      "inflationImpact": {
+        "title": "Wpływ inflacji",
+        "description": "Płatności stałe tracą z czasem siłę nabywczą ze względu na inflację"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunkowe kwoty wypłat renty",
+      "actual": "Rzeczywiste wypłaty renty mogą się różnić w zależności od warunków umowy i warunków rynkowych"
+    },
+    "importantNotesList": [
+      "Stałe renty zapewniają przewidywalny dochód, ale mogą stracić siłę nabywczą ze względu na inflację",
+      "Renty zmienne oferują potencjał wzrostu, ale wiążą się z ryzykiem inwestycyjnym",
+      "Kupując renty, rozważ opcje ochrony przed inflacją",
+      "Płatności dożywotnie są zazwyczaj opodatkowane jak zwykły dochód"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje dotyczące renty, aby obliczyć kwoty wypłaty",
+    "resultMessage": "Wyniki obliczenia wypłaty renty dożywotniej pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia wypłaty renty:",
+    "annuityPayoutAnalysis": "Analiza wypłat renty"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten podaje szacunkowe kwoty wypłat renty w oparciu o wzory matematyczne. Rzeczywiste wypłaty renty mogą się różnić w zależności od warunków umowy, opłat, warunków rynkowych i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowaną analizę wypłat renty i zaplanować dochody emerytalne, skonsultuj się z doradcami finansowymi lub specjalistami ubezpieczeniowymi posiadającymi wiedzę na temat produktów rentowych i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "annuityAmount": "Wprowadź prawidłową kwotę inwestycji w ramach renty",
+    "interestRate": "Proszę wprowadzić prawidłową oczekiwaną roczną stopę procentową",
+    "payoutPeriod": "Proszę podać prawidłowy okres wypłaty",
+    "payoutFrequency": "Wybierz częstotliwość wypłat",
+    "paymentTiming": "Proszę wybrać termin płatności",
+    "inflationAdjustment": "Proszę wybrać korektę inflacji"
+  },
+  "tooltips": {
+    "annuityAmount": "Całkowita kwota zainwestowana w rentę",
+    "interestRate": "Oczekiwana roczna stopa procentowa lub stopa zwrotu",
+    "payoutPeriod": "Długość czasu, przez który będą otrzymywane płatności",
+    "payoutFrequency": "Jak często będą otrzymywane płatności",
+    "paymentTiming": "Czy płatności są otrzymywane na początku czy na końcu okresu",
+    "inflationAdjustment": "Czy płatności zostaną skorygowane o inflację"
+  },
+  "payout_calculator_0": "Kalkulator wypłat",
+  "calculation_mode_1": "Tryb obliczeniowy",
+  "fixed_length_2": "Stała długość",
+  "fixed_payment_3": "Stała płatność",
+  "annuity_details_4": "Szczegóły renty",
+  "starting_principal_5": "Począwszy dyrektor",
+  "annual_interest_rate_6": "Roczna stopa procentowa (%)",
+  "payout_frequency_7": "Częstotliwość wypłat",
+  "annually_8": "Rocznie",
+  "semiannually_9": "Co pół roku",
+  "quarterly_10": "Kwartalny",
+  "monthly_11": "Miesięczny",
+  "semimonthly_12": "Półmiesięcznik",
+  "biweekly_13": "Dwutygodniowy",
+  "years_to_payout_14": "Lata do wypłaty",
+  "payment_amount_15": "Kwota płatności",
+  "calculate_16": "Obliczać",
+  "payout_results_17": "Wyniki wypłat",
+  "your_annuity_payout_breakdown_18": "Zestawienie wypłat renty",
+  "your_payment_per_period_19": "Twoja płatność za okres:",
+  "for_20": "Do",
+  "years_21": "lata",
+  "your_fund_will_last_22": "Twój fundusz wystarczy:",
+  "years_23": "Lata",
+  "months_24": "Miesiące",
+  "with_25": "Z $",
+  "payments_26": "płatności",
+  "starting_principal_27": "Począwszy dyrektor",
+  "total_payments_28": "Suma płatności",
+  "total_interest_earned_29": "Łączne uzyskane odsetki",
+  "download_payout_schedule_csv_30": "Pobierz harmonogram wypłat (CSV)",
+  "enter_your_annuity_details_to_see_payout_results_31": "Wprowadź dane swojej renty, aby zobaczyć wyniki wypłat",
+  "amortization_schedule_32": "Harmonogram amortyzacji",
+  "detailed_breakdown_of_each_payment_period_showing__33": "Szczegółowy podział każdego okresu płatności (pokazuje pierwsze 12 okresów)",
+  "period_34": "Okres",
+  "beginning_balance_35": "Bilans początkowy",
+  "interest_earned_36": "Zarobione odsetki",
+  "payment_37": "Zapłata",
+  "ending_balance_38": "Bilans końcowy",
+  "showing_first_12_periods_of_39": "Wyświetlanie pierwszych 12 okresów",
+  "total_periods_download_csv_for_complete_schedule_40": "całkowite okresy. Pobierz plik CSV, aby zakończyć\n                      harmonogram.",
+  "calculation_formula_41": "Wzór obliczeniowy",
+  "fixed_length_mode_42": "Tryb stałej długości",
+  "calculate_amount_given_principal_rate_and_duration_43": "Oblicz kwotę, biorąc pod uwagę kwotę główną, stawkę i czas trwania:",
+  "pmt_p_rp_1_1_rpn_44": "PMT = P × r_p / (1 - (1 + r_p)^(-N))",
+  "where_p_principal_rp_periodic_rate_n_total_payment_45": "Gdzie: P = kwota główna, r_p = stawka okresowa, N = płatności ogółem",
+  "fixed_payment_mode_46": "Naprawiono tryb płatności",
+  "calculate_given_principal_rate_and_payment_amount_47": "Oblicz daną kwotę główną, stawkę i kwotę płatności:",
+  "n_lnpmt_pmt_p_rp_ln1_rp_48": "N = ln(PMT / (PMT - P × r_p)) / ln(1 + r_p)",
+  "where_pmt_payment_amount_p_principal_rp_periodic_r_49": "Gdzie: PMT = kwota płatności, P = kwota główna, r_p = stawka okresowa"
+}

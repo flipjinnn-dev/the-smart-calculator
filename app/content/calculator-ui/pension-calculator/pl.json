@@ -1,0 +1,169 @@
+{
+  "pageTitle": "Kalkulator emerytury",
+  "pageDescription": "Oszacuj swoje świadczenia emerytalne na podstawie wynagrodzenia i stażu pracy, aby móc kompleksowo planować dochody emerytalne",
+  "form": {
+    "labels": {
+      "currentAge": "Obecny wiek",
+      "retirementAge": "Planowany wiek emerytalny",
+      "yearsOfService": "Lata służby",
+      "currentSalary": "Aktualne roczne wynagrodzenie",
+      "averageSalary": "Średnie wynagrodzenie (najwyższe 3-5 lat)",
+      "benefitFormula": "Formuła korzyści",
+      "multiplier": "Procent mnożnika",
+      "additionalBenefits": "Dodatkowe korzyści",
+      "costOfLivingAdjustment": "Korekta kosztów utrzymania (COLA)"
+    },
+    "placeholders": {
+      "currentAge": "Podaj aktualny wiek",
+      "retirementAge": "Wprowadź planowany wiek emerytalny",
+      "yearsOfService": "Wpisz lata pracy",
+      "currentSalary": "Wpisz aktualne roczne wynagrodzenie",
+      "averageSalary": "Podaj średnią pensję",
+      "multiplier": "Wprowadź procent mnożnika",
+      "additionalBenefits": "Wprowadź dodatkowe korzyści",
+      "costOfLivingAdjustment": "Wprowadź procent COLI"
+    },
+    "buttons": {
+      "calculate": "Oblicz świadczenia emerytalne",
+      "reset": "Nastawić"
+    },
+    "benefitFormulas": {
+      "finalSalary": "Końcowa średnia pensji",
+      "careerAverage": "Średnie wynagrodzenie w karierze",
+      "highestAverage": "Najwyższa średnia pensja"
+    }
+  },
+  "results": {
+    "monthlyBenefit": "Szacowana miesięczna emerytura",
+    "annualBenefit": "Szacowana roczna emerytura",
+    "totalBenefit": "Całkowita emerytura powyżej 20 lat",
+    "pensionResultsTitle": "Wyniki obliczeń emerytury"
+  },
+  "educational": {
+    "pensionInfo": "Informacje o emeryturach",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "pensionFacts": {
+      "definition": {
+        "title": "Definicja emerytury",
+        "description": "Program emerytalny o zdefiniowanych świadczeniach, zapewniający regularne wypłaty zależne od wynagrodzenia i stażu pracy"
+      },
+      "vesting": {
+        "title": "Wymagania dotyczące uprawnień",
+        "description": "Większość emerytur wymaga przepracowania 5–10 lat, aby nabyć pełne uprawnienia"
+      },
+      "formula": {
+        "title": "Obliczanie korzyści",
+        "description": "Zwykle oblicza się jako: staż pracy × mnożnik × średnie wynagrodzenie"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki świadczeń emerytalnych",
+      "actual": "Rzeczywiste świadczenia mogą się różnić w zależności od zasad planu i polityki pracodawcy"
+    },
+    "importantNotesList": [
+      "Świadczenia emerytalne są zazwyczaj gwarantowane przez Korporację Gwarancji Świadczeń Emerytalnych (PBGC).",
+      "Rozważ renty rodzinne i opcje wypłaty świadczeń",
+      "Emerytury zapewniają dochód przez całe życie, ale mogą nie nadążać za inflacją",
+      "Niektóre emerytury oferują opcję wykupu ryczałtowego"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź dane dotyczące swojej emerytury, aby oszacować świadczenia",
+    "resultMessage": "Wyniki obliczenia świadczenia emerytalnego przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia emerytury:",
+    "pensionAnalysis": "Analiza emerytur"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia oszacowanie świadczeń emerytalnych w oparciu o ogólne wzory. Rzeczywiste świadczenia mogą się różnić w zależności od zasad planu, polityki pracodawcy i innych czynników nieuwzględnionych w tych szacunkach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowaną analizę świadczeń emerytalnych i zaplanować emeryturę, skonsultuj się z administratorami planów emerytalnych lub doradcami finansowymi posiadającymi wiedzę specjalistyczną w zakresie planowania dochodów emerytalnych i indywidualnych okoliczności."
+  },
+  "errors": {
+    "currentAge": "Proszę podać prawidłowy aktualny wiek",
+    "retirementAge": "Proszę podać prawidłowy planowany wiek emerytalny",
+    "yearsOfService": "Proszę podać prawidłowe lata pracy",
+    "currentSalary": "Proszę podać prawidłowe aktualne wynagrodzenie roczne",
+    "averageSalary": "Proszę podać prawidłowe średnie wynagrodzenie",
+    "multiplier": "Proszę wprowadzić prawidłowy procent mnożnika",
+    "additionalBenefits": "Proszę wprowadzić ważne dodatkowe korzyści",
+    "costOfLivingAdjustment": "Proszę wprowadzić prawidłową wartość procentową COLA"
+  },
+  "tooltips": {
+    "currentAge": "Twój obecny wiek w latach",
+    "retirementAge": "Wiek, w którym planujesz przejść na emeryturę i rozpocząć pobieranie świadczeń emerytalnych",
+    "yearsOfService": "Całkowita liczba lat pracy u pracodawcy uprawnionego do emerytury",
+    "currentSalary": "Twoje aktualne roczne wynagrodzenie",
+    "averageSalary": "Średnia lat najwyższych zarobków stosowana przy obliczaniu emerytury",
+    "multiplier": "Procent stosowany we wzorze świadczenia (zwykle 1-2%)",
+    "additionalBenefits": "Wszelkie dodatkowe świadczenia emerytalne lub dodatki",
+    "costOfLivingAdjustment": "Korekta roczna ze względu na ochronę przed inflacją"
+  },
+  "pension_options_0": "Opcje emerytalne",
+  "lump_sum_vs_monthly_1": "Kwota ryczałtowa a miesięczna",
+  "single_vs_joint_2": "Singiel vs Joint",
+  "work_longer_3": "Pracuj dłużej",
+  "lump_sum_vs_monthly_pension_4": "Ryczałt a miesięczna emerytura",
+  "retirement_age_5": "Wiek emerytalny",
+  "life_expectancy_6": "Długość życia",
+  "expected_age_at_death_for_calculation_purposes_7": "Oczekiwany wiek w chwili śmierci do celów obliczeniowych",
+  "lump_sum_payment_8": "Płatność ryczałtowa ($)",
+  "monthly_pension_9": "Miesięczna emerytura ($)",
+  "annual_investment_return_10": "Roczny zwrot z inwestycji (%)",
+  "expected_annual_return_on_lump_sum_investment_11": "Oczekiwany roczny zwrot z inwestycji ryczałtowej",
+  "annual_cola_12": "Roczna COLA (%)",
+  "cost_of_living_adjustment_annual_pension_increase_13": "Dostosowanie kosztów utrzymania – coroczna podwyżka emerytury",
+  "single_life_vs_joint_survivor_14": "Życie samotne kontra wspólne i ocalałe",
+  "retirement_age_15": "Wiek emerytalny",
+  "your_life_expectancy_16": "Twoja długość życia",
+  "spouses_age_at_retirement_17": "Wiek współmałżonka w momencie przejścia na emeryturę",
+  "spouses_life_expectancy_18": "Oczekiwana długość życia współmałżonka",
+  "monthly_pension_single_life_19": "Miesięczna emerytura (życie samotne) ($)",
+  "monthly_pension_joint_survivor_20": "Miesięczna emerytura (wspólny członek rodziny) ($)",
+  "survivor_benefit_ratio_21": "Wskaźnik świadczenia dla osoby pozostałej przy życiu (%)",
+  "percentage_of_pension_spouse_receives_after_your_d_22": "Procent renty, którą małżonek otrzymuje po Twojej śmierci",
+  "annual_investment_return_23": "Roczny zwrot z inwestycji (%)",
+  "annual_cola_24": "Roczna COLA (%)",
+  "work_longer_option_comparison_25": "Porównanie opcji pracy dłuższej",
+  "current_age_26": "Obecny wiek",
+  "life_expectancy_27": "Długość życia",
+  "option_a_retire_earlier_28": "Opcja A: Przejdź na wcześniejszą emeryturę",
+  "retirement_age_a_29": "Wiek emerytalny A",
+  "monthly_pension_a_30": "Miesięczna emerytura A ($)",
+  "option_b_work_longer_31": "Opcja B: Pracuj dłużej",
+  "retirement_age_b_32": "Wiek emerytalnyB",
+  "monthly_pension_b_33": "Miesięczna emerytura B ($)",
+  "annual_investment_return_34": "Roczny zwrot z inwestycji (%)",
+  "annual_cola_35": "Roczna COLA (%)",
+  "calculate_options_36": "Oblicz opcje",
+  "pension_results_37": "Wyniki emerytur",
+  "compare_your_pension_options_38": "Porównaj swoje możliwości emerytalne",
+  "lump_sum_vs_monthly_pension_39": "Ryczałt a miesięczna emerytura",
+  "monthly_pension_pv_40": "Miesięczna emerytura (PV)",
+  "lump_sum_41": "Ryczałt",
+  "better_choice_42": "Lepszy wybór:",
+  "single_life_vs_joint_survivor_43": "Życie samotne kontra wspólne i ocalałe",
+  "single_life_pv_44": "Życie samotne (PV)",
+  "joint_survivor_pv_45": "Joint i Survivor (PV)",
+  "better_choice_46": "Lepszy wybór:",
+  "work_longer_comparison_47": "Porównanie dłuższej pracy",
+  "retire_at_48": "Przejdź na emeryturę o godz",
+  "pv_49": "(PV)",
+  "retire_at_50": "Przejdź na emeryturę o godz",
+  "pv_51": "(PV)",
+  "better_choice_52": "Lepszy wybór:",
+  "enter_your_pension_information_to_see_your_results_53": "Wprowadź informacje o swojej emeryturze, aby zobaczyć wyniki",
+  "calculation_methodology_54": "Metodologia obliczeń",
+  "present_value_calculation_55": "Obliczanie wartości bieżącej",
+  "all_pension_streams_are_converted_to_present_value_56": "Wszystkie strumienie emerytalne przelicza się na wartość bieżącą przy użyciu wzoru:",
+  "pv_pmt_1_colat1_1_rt1_57": "PV = Σ [PMT × (1 + COLA)^(t-1)] / (1 + r)^(t-1)",
+  "joint_survivor_calculation_58": "Obliczanie wspólnego ocalałego",
+  "accounts_for_two_phases_payments_while_both_spouse_59": "Konta składają się z dwóch faz: płatności za życie obojga małżonków, następnie renty rodzinnej do dnia\n                        przeżył śmierć współmałżonka.",
+  "work_longer_analysis_60": "Analiza dłuższej pracy",
+  "compares_present_values_accounting_for_delayed_ret_61": "Porównuje wartości bieżące uwzględniające odroczenie emerytury i różne kwoty emerytur,\n                        ze zniżką do dzisiaj."
+}

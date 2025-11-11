@@ -1,0 +1,117 @@
+{
+  "color": "Rosa",
+  "sections": [
+    {
+      "heading": "Verstehen Sie Ihre steuerlichen Auswirkungen mit unserem Heiratsrechner",
+      "content": "Heiraten ist aufregend – bringt aber auch wichtige finanzielle Entscheidungen mit sich. Unser Heiratsrechner hilft Ihnen, die steuerlichen Auswirkungen einer Ehe zu verstehen und zeigt, wie sich Ihr Anmeldestatus, Ihr Gesamteinkommen und Ihre Abzüge auf Ihre Steuern auswirken können. Ganz gleich, ob Sie sich für eine Strafe bei der Heiratssteuer, einen möglichen Heiratssteuerbonus oder die möglichen Veränderungen des steuerpflichtigen Einkommens nach der Heirat interessieren, dieses Tool vereinfacht den Prozess und ermöglicht Ihnen eine vorausschauende Planung."
+    },
+    {
+      "heading": "So funktioniert der Heiratsrechner",
+      "content": "Die Verwendung unseres Rechners ist schnell und einfach:",
+      "subSections": [
+        {
+          "heading": "Geben Sie Ihr Einkommen ein",
+          "content": "Berücksichtigen Sie Ihr Jahreseinkommen und das Einkommen Ihres Ehepartners."
+        },
+        {
+          "heading": "Wählen Sie Ihren Anmeldestatus",
+          "content": "Wählen Sie zwischen der gemeinsamen Anmeldung der Ehe oder der getrennten Anmeldung der Ehe."
+        },
+        {
+          "heading": "Abzüge einbeziehen",
+          "content": "Berücksichtigen Sie Abzüge wie den Pauschalabzug für verheiratete Paare."
+        },
+        {
+          "heading": "Ergebnisse anzeigen",
+          "content": "Erhalten Sie eine klare Einschätzung Ihrer Steuern, möglichen Ersparnisse und steuerlichen Konsequenzen einer Ehe."
+        }
+      ]
+    },
+    {
+      "heading": "Wichtige Steuerkonzepte für Ehepaare",
+      "content": "Das Verständnis wichtiger Steuerkonzepte ist für die Maximierung der Vorteile von entscheidender Bedeutung:",
+      "subSections": [
+        {
+          "heading": "Gemeinsame oder getrennte Einreichung",
+          "content": "Eine gemeinsame Einreichung führt oft zu niedrigeren Steuersätzen und mehr Gutschriften, während eine getrennte Einreichung zu höheren Steuersätzen und weniger Abzügen führen kann."
+        },
+        {
+          "heading": "Standardabzug für verheiratete Paare",
+          "content": "Im Jahr 2025 sehen die IRS-Regeln einen höheren Standardabzug bei gemeinsamer Einreichung vor."
+        },
+        {
+          "heading": "Steuerklassen für verheiratete Paare",
+          "content": "Ihr Gesamteinkommen bestimmt, welche Steuerklassen gelten, und wirkt sich auf Ihre gesamte Steuerschuld aus."
+        },
+        {
+          "heading": "Heiratssteuerstrafe vs. Bonus",
+          "content": "Eine Strafe entsteht, wenn Sie durch das kombinierte Einkommen in eine höhere Steuerklasse gelangen, während ein Bonus gewährt wird, wenn Sie durch die gemeinsame Steuererklärung für niedrigere Steuersätze in Frage kommen."
+        },
+        {
+          "heading": "Auswirkungen auf die Steuererklärung",
+          "content": "Änderungen des Anmeldestatus, Abzüge und Gutschriften wirken sich alle auf das steuerpflichtige Einkommen nach der Heirat aus."
+        }
+      ]
+    },
+    {
+      "heading": "Praktische Steuertipps für Frischvermählte",
+      "content": "Hilfreiche Strategien für frisch verheiratete Paare:",
+      "subSections": [
+        {
+          "heading": "Planen Sie im Voraus",
+          "content": "Nutzen Sie unseren Heirats- und Einkommenssteuerrechner, um Ihre Steuern vor der Einreichung zu schätzen."
+        },
+        {
+          "heading": "Denken Sie über Steuerplanung nach",
+          "content": "Passen Sie die Einbehaltungen und Rentenbeiträge an, um die Ersparnisse zu optimieren."
+        },
+        {
+          "heading": "Abzüge verfolgen",
+          "content": "Berücksichtigen Sie Abzüge für verheiratete Paare wie Hypothekenzinsen, Bildungsgutschriften oder Kinderbetreuungskosten."
+        },
+        {
+          "heading": "Nutzen Sie Steuersoftware",
+          "content": "Steuererklärungssoftware für verheiratete Paare kann Berechnungen vereinfachen und Genauigkeit gewährleisten."
+        },
+        {
+          "heading": "Halten Sie die Fristen ein",
+          "content": "Informieren Sie sich über die Steuererklärungsfristen für verheiratete Paare, um Strafen zu vermeiden."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Heiratssteuerrechner?",
+      "a": "Ein Heiratssteuerrechner schätzt Ihre Steuerschuld nach der Heirat unter Berücksichtigung Ihres Gesamteinkommens, Ihres Anmeldestatus und Ihrer Abzüge."
+    },
+    {
+      "q": "Wie wirkt sich die gemeinsame oder getrennte Einreichung auf die Steuern aus?",
+      "a": "Die gemeinsame Einreichung bietet häufig Steuervorteile wie niedrigere Steuersätze und größere Abzüge, während die getrennte Einreichung die Gutschriften einschränken und die Steuerschuld erhöhen kann."
+    },
+    {
+      "q": "Was ist eine Heiratssteuerstrafe?",
+      "a": "Dies geschieht, wenn die Kombination von Einkommen ein Paar in eine höhere Steuerklasse katapultiert, was zu höheren Steuern führt, als wenn sie einzeln Steuererklärungen abgeben würden."
+    },
+    {
+      "q": "Was ist ein Heiratssteuerbonus?",
+      "a": "Ein Bonus ergibt sich, wenn die gemeinsame Einreichung Ihren Gesamtsteuersatz senkt und Sie im Vergleich zur getrennten Einreichung Geld sparen."
+    },
+    {
+      "q": "Wie können Frischvermählte ihre Steuern optimieren?",
+      "a": "Durch die Anpassung von Quellensteuern, die Nachverfolgung von Abzügen, die Planung von Beiträgen und die Verwendung von Steuersoftware zur Gewährleistung der Genauigkeit."
+    },
+    {
+      "q": "Was sind die Standardabzüge für verheiratete Paare im Jahr 2025?",
+      "a": "Der Standardabzug für Ehepaare, die im Jahr 2025 gemeinsam einen Antrag stellen, ist höher als für Alleinanmelder, wodurch sich das zu versteuernde Einkommen verringert und die Steuern sinken."
+    },
+    {
+      "q": "Welche Möglichkeiten der Steuererklärung gibt es für verheiratete Paare?",
+      "a": "Zu den Möglichkeiten zur Eheschließung gehören die gemeinsame Eheschließung oder die getrennte Eheschließung, jeweils mit unterschiedlichen Vor- und Nachteilen."
+    },
+    {
+      "q": "Wie kann ein gemeinsamer Steuererklärungsschätzer helfen?",
+      "a": "Es bietet einen klaren Überblick über Ihr zu versteuerndes Einkommen nach der Heirat und hilft Ihnen, potenzielle Einsparungen zu erkennen und die steuerlichen Auswirkungen einer Heirat im Jahr 2025 zu planen."
+    }
+  ]
+}

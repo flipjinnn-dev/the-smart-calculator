@@ -1,10 +1,12 @@
 "use client"
 
-import React from "react"
+import React, { useMemo } from "react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Calculator } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import type { SimilarCalculatorsProps, ColorVariants, CalculatorColor } from "@/types/similar-calculators"
+import type { SimilarCalculatorsProps, ColorVariants, CalculatorColor, SimilarCalculator, SimilarCalculatorId } from "@/types/similar-calculators"
+import { getLocalizedCalculatorData, getLocalizedCalculatorHref, detectLanguage } from "@/lib/language-utils"
 
 // Color mapping for different calculator categories
 const getColorVariants = (color: CalculatorColor): ColorVariants => {
@@ -72,10 +74,78 @@ export default function SimilarCalculators({
   calculators, 
   color = "blue", 
   title = "Similar Calculators",
-  className = ""
+  className = "",
+  language
 }: SimilarCalculatorsProps) {
+  const pathname = usePathname()
+  
+  // Detect language from URL or use provided language
+  const currentLanguage = useMemo(() => {
+    if (language) return language
+    return detectLanguage(pathname)
+  }, [pathname, language])
+
+  // Helper function to extract calculator ID from href
+  const extractCalculatorIdFromHref = (href: string): string | null => {
+    // Remove leading slash and language prefix
+    const cleanHref = href.replace(/^\/(en|br|pl|de)\//, '/').replace(/^\//, '')
+    
+    // Extract calculator name from path (e.g., "financial/mortgage-calculator" -> "mortgage-calculator")
+    const parts = cleanHref.split('/')
+    const calculatorName = parts[parts.length - 1]
+    
+    return calculatorName || null
+  }
+
+  // Transform calculators to localized format
+  const localizedCalculators = useMemo(() => {
+    return calculators.map((calc) => {
+      // Check if it's a calculator ID object
+      if (typeof calc === 'object' && 'id' in calc) {
+        const calcId = (calc as SimilarCalculatorId).id
+        const localizedData = getLocalizedCalculatorData(calcId, currentLanguage)
+        const localizedHref = getLocalizedCalculatorHref(calcId, currentLanguage)
+        
+        return {
+          calculatorName: localizedData.name,
+          calculatorHref: localizedHref,
+          calculatorDescription: localizedData.description
+        } as SimilarCalculator
+      }
+      
+      // Check if it's old format with hardcoded English data
+      const oldFormatCalc = calc as SimilarCalculator
+      if (oldFormatCalc.calculatorHref) {
+        // Extract calculator ID from href
+        const extractedId = extractCalculatorIdFromHref(oldFormatCalc.calculatorHref)
+        
+        if (extractedId) {
+          // Always try to localize, even for 'en' to ensure consistent URLs
+          try {
+            const localizedData = getLocalizedCalculatorData(extractedId, currentLanguage)
+            const localizedHref = getLocalizedCalculatorHref(extractedId, currentLanguage)
+            
+            // If we got valid localized data, use it
+            if (localizedData.name && localizedHref && localizedHref !== '/') {
+              return {
+                calculatorName: localizedData.name,
+                calculatorHref: localizedHref,
+                calculatorDescription: localizedData.description
+              } as SimilarCalculator
+            }
+          } catch (error) {
+            console.error(`Error localizing calculator: ${extractedId}`, error)
+          }
+        }
+      }
+      
+      // Fallback: return as-is (old hardcoded format)
+      return oldFormatCalc
+    })
+  }, [calculators, currentLanguage, pathname])
+
   // Don't render if no calculators provided
-  if (!calculators || calculators.length === 0) {
+  if (!localizedCalculators || localizedCalculators.length === 0) {
     return null
   }
 
@@ -95,11 +165,11 @@ export default function SimilarCalculators({
         {/* Calculator Grid */}
         <div className="px-6 py-8">
           <div className={`grid gap-6 ${
-            calculators.length === 1 ? 'grid-cols-1 max-w-md mx-auto' :
-            calculators.length === 2 ? 'grid-cols-1 md:grid-cols-2' :
+            localizedCalculators.length === 1 ? 'grid-cols-1 max-w-md mx-auto' :
+            localizedCalculators.length === 2 ? 'grid-cols-1 md:grid-cols-2' :
             'grid-cols-1 md:grid-cols-2 lg:grid-cols-3'
           } animate-fade-in`}>
-            {calculators.map((calc, index) => (
+            {localizedCalculators.map((calc, index) => (
               <Link key={index} href={calc.calculatorHref}>
                 <Card className={`h-full hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer group ${colors.border} hover-lift`}>
                   <CardHeader className="pb-3">

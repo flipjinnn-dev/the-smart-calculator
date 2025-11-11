@@ -1,0 +1,217 @@
+{
+  "pageTitle": "Kalkulator spożycia tłuszczu",
+  "pageDescription": "Oblicz swoje dzienne zapotrzebowanie na tłuszcz na podstawie poziomu aktywności, celów i wymagań dietetycznych, aby zapewnić optymalne zdrowie i wydajność",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "weight": "Waga",
+      "height": "Wysokość",
+      "unitSystem": "Układ jednostek",
+      "activityLevel": "Poziom aktywności",
+      "goal": "Cel dietetyczny",
+      "dietType": "Rodzaj diety"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz spożycie tłuszczu",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Siedzący tryb życia (mało ćwiczeń lub brak ćwiczeń)",
+      "light": "Lekko aktywny (lekkie ćwiczenia 1-3 dni w tygodniu)",
+      "moderate": "Umiarkowanie aktywny (umiarkowane ćwiczenia 3-5 dni w tygodniu)",
+      "active": "Bardzo aktywny (ciężkie ćwiczenia 6-7 dni w tygodniu)",
+      "veryActive": "Niezwykle aktywny (bardzo ciężkie ćwiczenia i praca fizyczna)"
+    },
+    "goals": {
+      "maintenance": "Utrzymanie wagi",
+      "lose": "Utrata wagi",
+      "gain": "Przyrost masy ciała",
+      "athletic": "Wydajność sportowa"
+    },
+    "dietTypes": {
+      "balanced": "Zbilansowana dieta (20-35% tłuszczu)",
+      "lowFat": "Niska zawartość tłuszczu (10-20% tłuszczu)",
+      "highFat": "Wysoka zawartość tłuszczu (35-50% tłuszczu)",
+      "keto": "Ketogeniczny (70-80% tłuszczu)"
+    }
+  },
+  "results": {
+    "fatNeeds": "Dzienne zapotrzebowanie na tłuszcz",
+    "caloriesFromFat": "Kalorie z tłuszczu",
+    "fatRange": "Zalecany zakres tłuszczów",
+    "fatResultsTitle": "Wyniki spożycia tłuszczu"
+  },
+  "educational": {
+    "fatInfo": "Informacje o spożyciu tłuszczu",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby odżywcze",
+    "fatFacts": {
+      "function": {
+        "title": "Funkcja tłuszczu",
+        "description": "Niezbędny do produkcji hormonów, wchłaniania witamin i długotrwałego magazynowania energii"
+      },
+      "types": {
+        "title": "Typy tłuszczu",
+        "description": "Tłuszcze nasycone, nienasycone (mono i poli) oraz tłuszcze trans"
+      },
+      "recommendations": {
+        "title": "Zalecenia dietetyczne",
+        "description": "20-35% całkowitego dziennego spożycia kalorii powinno pochodzić z tłuszczów, ze szczególnym uwzględnieniem tłuszczów nienasyconych"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator podaje jedynie szacunkowe wartości odżywcze",
+      "individual": "Zapotrzebowanie na tłuszcz różni się w zależności od czynników indywidualnych i stanu zdrowia"
+    },
+    "importantNotesList": [
+      "Skoncentruj się na tłuszczach nienasyconych pochodzących ze źródeł takich jak orzechy, nasiona i ryby",
+      "Ogranicz tłuszcze nasycone i, jeśli to możliwe, unikaj tłuszczów trans",
+      "Niezbędne nienasycone kwasy tłuszczowe (omega-3 i omega-6) należy pozyskiwać z pożywienia",
+      "Spożycie tłuszczu wpływa na uczucie sytości i może pomóc w kontrolowaniu wagi"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź swoje dane, aby obliczyć zapotrzebowanie na tłuszcz",
+    "resultMessage": "Poniżej przedstawiono dzienne zapotrzebowanie na tłuszcz",
+    "assessmentResult": "Wynik obliczenia spożycia tłuszczu:",
+    "fatAnalysis": "Analiza spożycia tłuszczu"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten podaje szacunkowe dane dotyczące spożycia tłuszczu w oparciu o ogólne wytyczne żywieniowe. Indywidualne potrzeby mogą się różnić w zależności od stanu zdrowia, stosowanych leków i specyficznych wymagań dietetycznych."
+  },
+  "seekHelp": {
+    "title": "Zasoby odżywcze",
+    "content": "Aby uzyskać spersonalizowane porady żywieniowe i zaplanować dietę, skonsultuj się z zarejestrowanymi dietetykami lub pracownikami służby zdrowia posiadającymi wiedzę z zakresu nauk o żywieniu i indywidualnych potrzeb zdrowotnych."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "activityLevel": "Proszę wybrać poziom aktywności",
+    "goal": "Wybierz cel dietetyczny",
+    "dietType": "Proszę wybrać rodzaj diety"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na tempo metabolizmu i zapotrzebowanie na tłuszcze",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "activityLevel": "Twój regularny poziom aktywności wpływa na zapotrzebowanie energetyczne",
+    "goal": "Twój cel dietetyczny determinuje zalecenia dotyczące tłuszczu",
+    "dietType": "Wybrany rodzaj diety wpływa na poziom spożycia tłuszczu"
+  },
+  "fat_calculation_0": "Obliczanie tłuszczu",
+  "enter_your_details_to_calculate_your_optimal_daily_1": "Wprowadź swoje dane, aby obliczyć optymalne dzienne spożycie tłuszczu",
+  "age_years_2": "Wiek (lata) *",
+  "gender_3": "Płeć *",
+  "male_4": "Mężczyzna",
+  "female_5": "Kobieta",
+  "height_6": "Wysokość *",
+  "metric_7": "Metryczny",
+  "us_8": "NAS",
+  "cm_9": "cm",
+  "ft_10": "stopy",
+  "in_11": "W",
+  "weight_12": "Waga *",
+  "metric_13": "Metryczny",
+  "us_14": "NAS",
+  "kg_15": "kg",
+  "lbs_16": "funty",
+  "activity_level_17": "Poziom aktywności *",
+  "sedentary_littleno_exercise_18": "Siedzący tryb życia (mało ćwiczeń/brak ćwiczeń)",
+  "light_13week_19": "Lekkie (1–3×/tydz.)",
+  "moderate_45week_20": "Umiarkowane (4–5×/tydz.)",
+  "active_daily_or_intense_34week_21": "Aktywnie (codziennie lub intensywnie 3–4×/tydz.)",
+  "very_active_intense_67week_22": "Bardzo aktywny (intensywny 6–7×/tydz.)",
+  "extra_active_very_intense_or_physical_job_23": "Extra Active (praca bardzo intensywna lub fizyczna)",
+  "bmr_formula_24": "Formuła BMR",
+  "mifflinst_jeor_default_25": "Mifflin-St Jeor (domyślnie)",
+  "katchmcardle_if_body_fat_known_26": "Katch-McArdle (jeśli znany jest procent tkanki tłuszczowej)",
+  "body_fat_27": "% tkanki tłuszczowej*",
+  "calculate_intake_28": "Oblicz spożycie",
+  "reset_29": "Nastawić",
+  "daily_fat_range_30": "Dzienny zakres tłuszczu",
+  "g_31": "g",
+  "per_day_32": "za dzień",
+  "maintenance_33": "Konserwacja",
+  "enter_your_details_to_calculate_your_optimal_daily_34": "Wprowadź swoje dane, aby obliczyć optymalne dzienne spożycie tłuszczu.",
+  "fat_intake_results_35": "Wyniki spożycia tłuszczu",
+  "goal_36": "Bramka",
+  "daily_calories_37": "Dzienne kalorie",
+  "fat_range_2035_38": "Zakres tłuszczu (20-35%)",
+  "sat_fat_limit_10_39": "Limit tłuszczów nasyconych (<10%)",
+  "sat_fat_limit_7_40": "Limit tłuszczów nasyconych (<7%)",
+  "kcal_41": "kcal",
+  "g_42": "g",
+  "g_43": "g",
+  "g_44": "g",
+  "calculation_details_45": "Szczegóły obliczeń",
+  "bmr_formula_46": "Formuła BMR:",
+  "bmr_47": "BMR:",
+  "kcalday_48": "kcal/dzień",
+  "activity_level_49": "Poziom aktywności:",
+  "tdee_maintenance_50": "TDEE (konserwacja):",
+  "kcalday_51": "kcal/dzień",
+  "your_profile_52": "Twój profil",
+  "age_53": "Wiek:",
+  "years_54": "lata",
+  "gender_55": "Płeć:",
+  "height_56": "Wysokość:",
+  "weight_57": "Waga:",
+  "important_notes_58": "Ważne uwagi",
+  "fat_provides_9_kcal_per_gram_59": "Tłuszcz dostarcza 9 kcal na gram.",
+  "healthy_range_2035_of_daily_calories_60": "Zdrowy zakres: 20–35% dziennej dawki kalorii.",
+  "saturated_fat_should_be_kept_below_10_or_7_for_hea_61": "Tłuszcze nasycone powinny być utrzymywane na poziomie poniżej 10% (lub 7% w przypadku ryzyka chorób serca).",
+  "individual_needs_may_vary_depending_on_health_cond_62": "Indywidualne potrzeby mogą się różnić w zależności od stanu zdrowia i celów.",
+  "focus_on_healthy_fats_from_nuts_seeds_fish_and_oli_63": "Skoncentruj się na zdrowych tłuszczach z orzechów, nasion, ryb i oliwy z oliwek.",
+  "about_fat_requirements_64": "O wymaganiach dotyczących tłuszczu",
+  "types_of_dietary_fat_65": "Rodzaje tłuszczu w diecie",
+  "monounsaturated_66": "Jednonienasycone:",
+  "olive_oil_avocados_nuts_67": "Oliwa z oliwek, awokado, orzechy",
+  "polyunsaturated_68": "Wielonienasycone:",
+  "fish_walnuts_flaxseeds_69": "Ryby, orzechy włoskie, siemię lniane",
+  "saturated_70": "Nasycony:",
+  "meat_dairy_coconut_oil_limit_71": "Mięso, nabiał, olej kokosowy (limit)",
+  "trans_fats_72": "Tłuszcze trans:",
+  "processed_foods_avoid_73": "Żywność przetworzona (unikaj)",
+  "health_benefits_74": "Korzyści zdrowotne",
+  "essential_for_vitamin_absorption_a_d_e_k_75": "Niezbędny do wchłaniania witamin (A, D, E, K)",
+  "supports_brain_and_nervous_system_function_76": "Wspomaga pracę mózgu i układu nerwowego",
+  "provides_essential_fatty_acids_77": "Dostarcza niezbędnych kwasów tłuszczowych",
+  "helps_maintain_healthy_skin_and_hair_78": "Pomaga zachować zdrową skórę i włosy",
+  "healthy_fat_sources_79": "Zdrowe źródła tłuszczu",
+  "food_80": "Żywność",
+  "fat100g_81": "Tłuszcz/100g",
+  "olive_oil_82": "Oliwa z oliwek",
+  "k_100g_83": "100g",
+  "avocado_84": "Awokado",
+  "k_15g_85": "15g",
+  "almonds_86": "Migdały",
+  "k_49g_87": "49g",
+  "salmon_88": "Łosoś",
+  "k_13g_89": "13g",
+  "walnuts_90": "Orzechy włoskie",
+  "k_65g_91": "65g",
+  "guidelines_92": "Wytyczne",
+  "choose_unsaturated_fats_over_saturated_93": "Wybieraj tłuszcze nienasycone zamiast nasyconych",
+  "include_omega3_fatty_acids_regularly_94": "Regularnie włączaj kwasy tłuszczowe omega-3",
+  "limit_processed_and_fried_foods_95": "Ogranicz żywność przetworzoną i smażoną",
+  "read_nutrition_labels_carefully_96": "Czytaj uważnie etykiety żywieniowe"
+}

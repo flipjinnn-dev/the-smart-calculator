@@ -1,0 +1,165 @@
+{
+  "pageTitle": "Kalkulator BMI",
+  "pageDescription": "Oblicz swój wskaźnik masy ciała i poznaj swój stan masy ciała za pomocą naszego wszechstronnego kalkulatora BMI",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "height": "Wysokość",
+      "weight": "Waga",
+      "unitSystem": "Układ jednostek"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz BMI",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    }
+  },
+  "results": {
+    "bmiValue": "BMI kg/m²",
+    "classification": "Klasyfikacja",
+    "healthyRange": "Zdrowy asortyment",
+    "bmiResultsTitle": "Wyniki BMI",
+    "bmiFormula": {
+      "label": "Formuła BMI",
+      "us": "BMI = (waga w funtach / (wzrost w calach)²) × 703",
+      "metric": "BMI = waga w kg / (wzrost w metrach)²"
+    },
+    "healthyBmiRange": "Zdrowy zakres BMI: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "bmiInfo": "Informacje o BMI",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się ze specjalistą",
+    "bmiClassifications": {
+      "underweight": {
+        "title": "Niedowaga",
+        "description": "BMI < 18,5"
+      },
+      "normal": {
+        "title": "Normalna waga",
+        "description": "BMI 18,5 – 24,9"
+      },
+      "overweight": {
+        "title": "Nadwaga",
+        "description": "BMI 25 – 29,9"
+      },
+      "obese": {
+        "title": "Otyły",
+        "description": "BMI 30 – 39,9"
+      },
+      "extremelyObese": {
+        "title": "Ekstremalnie otyły",
+        "description": "BMI ≥ 40"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten służy jedynie do szacunków i nie jest narzędziem diagnostycznym",
+      "individualVariation": "BMI może nie odzwierciedlać dokładnie składu ciała u sportowców lub osób o dużej masie mięśniowej"
+    },
+    "importantNotesList": [
+      "BMI jest narzędziem przesiewowym, a nie diagnostycznym miernikiem otłuszczenia ciała",
+      "W przypadku dzieci i młodzieży (≤20 lat) należy skorzystać z wykresów wzrostu CDC",
+      "Skonsultuj się z pracownikami służby zdrowia, aby uzyskać spersonalizowaną poradę",
+      "Aby uzyskać pełny obraz, rozważ inne wskaźniki zdrowotne oprócz BMI"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "jest uważany za prawidłowy zakres BMI dla dorosłych.",
+      "association": "Przedział ten wiąże się z najniższym ryzykiem problemów zdrowotnych i śmiertelności."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje pomiary, aby obliczyć BMI",
+    "bmiResult": "Twoje BMI wynosi {bmi} kg/m²",
+    "classificationResult": "Klasyfikacja: {klasyfikacja}",
+    "ageWarning": "W przypadku dzieci i młodzieży (≤20 lat) należy stosować pediatryczne wykresy wzrostu",
+    "assessmentResult": "Wynik oceny:",
+    "bmiAnalysis": "Analiza BMI"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki oparte na wzorach matematycznych i nie powinien być używany jako substytut profesjonalnej porady lekarskiej. Poszczególne wyniki mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się z pracownikiem służby zdrowia",
+    "content": "Jeśli masz wątpliwości dotyczące swojej wagi lub stanu zdrowia, skonsultuj się z pracownikiem służby zdrowia, który może udzielić spersonalizowanej porady w oparciu o Twoją pełną historię medyczną i indywidualną sytuację."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę"
+  },
+  "tooltips": {
+    "age": "Wiek może mieć wpływ na interpretację BMI u dzieci/młodzieży",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "gender": "Płeć może mieć wpływ na interpretację BMI"
+  },
+  "k_16_0": "16",
+  "k_17_1": "17",
+  "k_185_2": "18.5",
+  "k_25_3": "25",
+  "k_30_4": "30",
+  "k_35_5": "35",
+  "k_40_6": "40",
+  "underweight_7": "Niedowaga",
+  "normal_8": "Normalna",
+  "overweight_9": "Nadwaga",
+  "obesity_10": "Otyłość",
+  "bmi_calculator_11": "Kalkulator BMI",
+  "modify_the_values_and_click_the_calculate_button_t_12": "Zmodyfikuj wartości i kliknij przycisk Oblicz, aby ich użyć",
+  "age_13": "Wiek",
+  "ages_2_120_14": "wiek: 2 - 120 lat",
+  "gender_15": "Płeć",
+  "male_16": "Mężczyzna",
+  "female_17": "Kobieta",
+  "other_18": "Inny",
+  "height_19": "Wysokość",
+  "cm_20": "cm",
+  "m_21": "m",
+  "ft_22": "stopy",
+  "in_23": "W",
+  "weight_24": "Waga",
+  "kg_25": "kg",
+  "g_26": "g",
+  "lbs_27": "funty",
+  "oz_28": "uncja",
+  "st_29": "ul",
+  "calculate_30": "Obliczać",
+  "result_31": "Wynik",
+  "save_this_calculation_32": "Zapisz to obliczenie",
+  "bmi_33": "BMI =",
+  "kgm_34": "kg/m²",
+  "bmi_35": "BMI =",
+  "bmi_scale_36": "Skala BMI",
+  "detailed_results_37": "Szczegółowe wyniki",
+  "bmi_38": "BMI:",
+  "kgm_39": "kg/m²",
+  "healthy_bmi_range_40": "Zdrowy zakres BMI:",
+  "k_185_kgm_25_kgm_41": "18,5 kg/m² - 25 kg/m²",
+  "healthy_weight_for_height_42": "Zdrowa waga dla wzrostu:",
+  "kg_43": "kg",
+  "bmi_prime_44": "BMI podstawowe:",
+  "ponderal_index_45": "Indeks ponderalny:",
+  "kgm_46": "kg/m3",
+  "body_surface_area_47": "Powierzchnia ciała:",
+  "m_48": "m²",
+  "save_this_calculation_49": "Zapisz to obliczenie",
+  "enter_your_details_to_calculate_your_bmi_50": "Wprowadź swoje dane, aby obliczyć swoje BMI"
+}

@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Impulserhaltungsrechner",
+  "pageDescription": "Berechnen Sie die Impulserhaltung bei Kollisionen",
+  "form": {
+    "labels": {
+      "mass1": "Masse von Objekt 1",
+      "velocity1": "Anfangsgeschwindigkeit von Objekt 1",
+      "mass2": "Masse von Objekt 2",
+      "velocity2": "Anfangsgeschwindigkeit von Objekt 2",
+      "finalVelocity1": "Endgeschwindigkeit von Objekt 1",
+      "finalVelocity2": "Endgeschwindigkeit von Objekt 2"
+    },
+    "placeholders": {
+      "mass1": "Geben Sie die Masse des ersten Objekts ein",
+      "velocity1": "Geben Sie die Anfangsgeschwindigkeit des ersten Objekts ein",
+      "mass2": "Geben Sie die Masse des zweiten Objekts ein",
+      "velocity2": "Geben Sie die Anfangsgeschwindigkeit des zweiten Objekts ein",
+      "finalVelocity1": "Endgeschwindigkeit des ersten Objekts eingeben (falls bekannt)",
+      "finalVelocity2": "Endgeschwindigkeit des zweiten Objekts eingeben (falls bekannt)"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den Impuls",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "initialMomentum": "Anfänglicher Schwung",
+    "finalMomentum": "Letzter Schwung",
+    "momentumConserved": "Impuls erhalten",
+    "yes": "Ja",
+    "no": "NEIN",
+    "totalInitialMomentum": "Gesamter anfänglicher Schwung",
+    "totalFinalMomentum": "Gesamter Endimpuls",
+    "momentumCalculation": "Ergebnisse der Impulsberechnung"
+  },
+  "educational": {
+    "momentumInfo": "Momentum-Informationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Physikressourcen",
+    "momentumFacts": {
+      "components": {
+        "title": "Impulskomponenten",
+        "description": "Impuls ist das Produkt aus Masse und Geschwindigkeit (p = mv)"
+      },
+      "conservation": {
+        "title": "Erhaltung des Impulses",
+        "description": "In einem isolierten System bleibt der Gesamtimpuls konstant"
+      },
+      "elastic": {
+        "title": "Elastische vs. unelastische Kollisionen",
+        "description": "Bei elastischen Stößen bleibt die kinetische Energie erhalten, bei inelastischen Stößen jedoch nicht"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Impulsberechnungen",
+      "actual": "Die tatsächlichen Impulswerte können je nach externen Kräften und Messgenauigkeit variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung, die auf idealen Bedingungen basiert",
+      "Äußere Kräfte wie Reibung werden nicht berücksichtigt",
+      "Geht von einem isolierten System für Erhaltungsberechnungen aus",
+      "Verwenden Sie für alle Messungen einheitliche Einheiten"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die Massen- und Geschwindigkeitsinformationen für Impulsberechnungen ein",
+    "resultMessage": "Die Ergebnisse Ihrer Impulsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Impulsberechnung:",
+    "momentumAnalysis": "Momentum-Analyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet Impulsberechnungen basierend auf Standardphysikformeln. Die tatsächlichen Impulswerte können je nach externen Kräften, Messgenauigkeit und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Physikressourcen",
+    "content": "Für fortgeschrittene physikalische Berechnungen und Kollisionsanalysen konsultieren Sie Physiklehrbücher oder akademische Ressourcen zur klassischen Mechanik und zu Impulserhaltungsprinzipien."
+  },
+  "errors": {
+    "mass1": "Bitte geben Sie eine gültige Masse für Objekt 1 ein",
+    "velocity1": "Bitte geben Sie eine gültige Anfangsgeschwindigkeit für Objekt 1 ein",
+    "mass2": "Bitte geben Sie eine gültige Masse für Objekt 2 ein",
+    "velocity2": "Bitte geben Sie eine gültige Anfangsgeschwindigkeit für Objekt 2 ein",
+    "finalVelocity1": "Bitte geben Sie eine gültige Endgeschwindigkeit für Objekt 1 ein",
+    "finalVelocity2": "Bitte geben Sie eine gültige Endgeschwindigkeit für Objekt 2 ein"
+  },
+  "tooltips": {
+    "mass1": "Masse des ersten an der Kollision beteiligten Objekts",
+    "velocity1": "Anfangsgeschwindigkeit des ersten Objekts vor der Kollision",
+    "mass2": "Masse des zweiten an der Kollision beteiligten Objekts",
+    "velocity2": "Anfangsgeschwindigkeit des zweiten Objekts vor der Kollision",
+    "finalVelocity1": "Endgeschwindigkeit des ersten Objekts nach der Kollision (falls bekannt)",
+    "finalVelocity2": "Endgeschwindigkeit des zweiten Objekts nach der Kollision (falls bekannt)"
+  },
+  "collision_parameters_0": "Kollisionsparameter",
+  "enter_object_properties_and_collision_type_to_calc_1": "Geben Sie Objekteigenschaften und Kollisionstyp ein, um die Ergebnisse zu berechnen",
+  "collision_type_2": "Kollisionstyp",
+  "elastic_3": "Elastisch",
+  "perfectly_inelastic_4": "Völlig unelastisch",
+  "with_restitution_5": "Mit Rückerstattung",
+  "general_6": "Allgemein",
+  "coefficient_of_restitution_e_7": "Restitutionskoeffizient (e)",
+  "object_1_8": "Objekt 1",
+  "mass_m_9": "Masse (m₁)",
+  "kg_10": "kg",
+  "g_11": "g",
+  "t_12": "t",
+  "initial_velocity_u_13": "Anfangsgeschwindigkeit (u₁)",
+  "ms_14": "MS",
+  "kmh_15": "km/h",
+  "mph_16": "Meilen pro Stunde",
+  "final_velocity_v_optional_17": "Endgeschwindigkeit (v₁) – optional",
+  "ms_18": "MS",
+  "kmh_19": "km/h",
+  "mph_20": "Meilen pro Stunde",
+  "object_2_21": "Objekt 2",
+  "mass_m_22": "Masse (m₂)",
+  "kg_23": "kg",
+  "g_24": "g",
+  "t_25": "t",
+  "initial_velocity_u_26": "Anfangsgeschwindigkeit (u₂)",
+  "ms_27": "MS",
+  "kmh_28": "km/h",
+  "mph_29": "Meilen pro Stunde",
+  "final_velocity_v_optional_30": "Endgeschwindigkeit (v₂) – optional",
+  "ms_31": "MS",
+  "kmh_32": "km/h",
+  "mph_33": "Meilen pro Stunde",
+  "calculate_34": "Berechnen",
+  "collision_results_35": "Kollisionsergebnisse",
+  "final_velocities_36": "Endgeschwindigkeiten",
+  "object_1_37": "Objekt 1",
+  "ms_38": "MS",
+  "object_2_39": "Objekt 2",
+  "ms_40": "MS",
+  "momentum_41": "Schwung",
+  "initial_42": "Anfänglich:",
+  "kgms_43": "kg⋅m/s",
+  "final_44": "Finale:",
+  "kgms_45": "kg⋅m/s",
+  "conserved_46": "Konserviert:",
+  "kinetic_energy_47": "Kinetische Energie",
+  "initial_total_48": "Anfangssumme:",
+  "j_49": "J",
+  "final_total_50": "Endsumme:",
+  "j_51": "J",
+  "energy_change_52": "Energiewende:",
+  "j_53": "J",
+  "type_54": "Typ:",
+  "individual_energies_55": "Individuelle Energien",
+  "object_1_56": "Objekt 1:",
+  "j_57": "J",
+  "object_2_58": "Objekt 2:",
+  "j_59": "J",
+  "enter_parameters_and_click_60": "Geben Sie Parameter ein und klicken Sie",
+  "calculate_61": "Berechnen",
+  "to_see_results_62": "zu\n                          siehe Ergebnisse.",
+  "understanding_collision_physics_63": "Kollisionsphysik verstehen",
+  "conservation_laws_64": "Naturschutzgesetze",
+  "all_collisions_conserve_momentum_m1u1_m2u2_m1v1_m2_65": "Alle Kollisionen erhalten den Impuls: $$m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$$",
+  "elastic_collisions_also_conserve_kinetic_energy_wh_66": "Bei elastischen Stößen bleibt auch kinetische Energie erhalten, während bei inelastischen Stößen ein Teil der kinetischen Energie umgewandelt wird\n                      Energie in andere Formen.",
+  "collision_types_67": "Kollisionsarten",
+  "elastic_68": "Elastisch:",
+  "both_momentum_and_kinetic_energy_conserved_e_1_69": "Sowohl Impuls als auch kinetische Energie bleiben erhalten (e = 1)",
+  "perfectly_inelastic_70": "Vollkommen unelastisch:",
+  "objects_stick_together_after_collision_e_0_71": "Objekte kleben nach Kollision zusammen (e = 0)",
+  "with_restitution_72": "Mit Rückerstattung:",
+  "coefficient_e_determines_energy_loss_0_e_1_73": "Koeffizient e bestimmt den Energieverlust (0 ≤ e ≤ 1)",
+  "general_74": "Allgemein:",
+  "solve_for_unknowns_using_momentum_conservation_75": "Lösen Sie mithilfe der Impulserhaltung nach Unbekannten",
+  "example_calculation_76": "Beispielrechnung",
+  "given_77": "Gegeben:",
+  "m_2_kg_u_4_ms_m_3_kg_u_0_ms_elastic_collision_78": "m₁ = 2 kg, u₁ = 4 m/s, m₂ = 3 kg, u₂ = 0 m/s, Elastischer Stoß",
+  "solution_79": "Lösung:",
+  "v_234_23023_45_04_ms_80": "v₁ = ((2-3)×4 + 2×3×0)/(2+3) = -4/5 = -0,4 m/s",
+  "v_320_22423_165_32_ms_81": "v₂ = ((3-2)×0 + 2×2×4)/(2+3) = 16/5 = 3,2 m/s",
+  "initial_ke_24_16_j_82": "Anfänglicher KE = ½×2×4² = 16 J",
+  "final_ke_204_332_16_j_83": "Endgültiger KE = ½×2×(-0,4)² + ½×3×(3,2)² = 16 J ✓"
+}

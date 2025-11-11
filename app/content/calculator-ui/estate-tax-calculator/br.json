@@ -1,0 +1,139 @@
+{
+  "pageTitle": "Calculadora de imposto imobiliário",
+  "pageDescription": "Calcule o imposto predial com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular imposto imobiliário",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo do imposto imobiliário"
+  },
+  "educational": {
+    "info": "Informações sobre impostos imobiliários",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de imposto imobiliário",
+        "description": "Informações sobre imposto predial"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como o imposto predial é calculado"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos do imposto imobiliário"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de impostos imobiliários",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular o imposto predial",
+    "resultMessage": "Os resultados do cálculo do imposto imobiliário são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do imposto predial:",
+    "analysis": "Análise de imposto imobiliário"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de impostos imobiliários com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "estate_tax_calculator_0": "Calculadora de imposto imobiliário",
+  "assets_1": "Ativos",
+  "residence_other_real_estate_2": "Residência e outros imóveis",
+  "stocks_bonds_other_investments_3": "Ações, títulos, outros investimentos",
+  "savings_cds_checking_accounts_4": "Poupança, CDs, contas correntes",
+  "vehicles_boats_other_properties_5": "Veículos, Barcos, Outras Propriedades",
+  "retirement_plans_6": "Planos de aposentadoria",
+  "life_insurance_benefit_7": "Benefício de seguro de vida",
+  "other_assets_8": "Outros ativos",
+  "liability_costs_and_deductibles_9": "Responsabilidade, custos e franquias",
+  "debts_mortgages_loan_credit_cards_etc_10": "Dívidas (hipotecas, empréstimos, cartões de crédito, etc.)",
+  "funeral_administration_and_claims_expenses_11": "Despesas de funeral, administração e sinistros",
+  "charitable_contributions_12": "Contribuições de caridade",
+  "state_inheritance_or_estate_taxes_13": "Herança estadual ou impostos imobiliários",
+  "deductions_14": "Deduções",
+  "charitable_contributions_15": "Contribuições de caridade",
+  "lifetime_gifted_amount_16": "Valor doado vitalício",
+  "total_amount_youve_gifted_tax_free_in_your_lifetim_17": "Valor total que você doou sem impostos durante sua vida",
+  "calculate_tax_18": "Calcular imposto",
+  "estate_tax_results_19": "Resultados de impostos imobiliários",
+  "your_complete_estate_tax_breakdown_20": "Seu detalhamento completo do imposto predial",
+  "net_taxable_estate_is_21": "O patrimônio tributável líquido é de $",
+  "estate_tax_owed_22": "Imposto imobiliário devido:",
+  "no_estate_tax_is_owed_since_the_estate_is_below_th_23": "Nenhum imposto predial é devido, pois o patrimônio está abaixo do limite de isenção.",
+  "assets_24": "Ativos",
+  "residence_other_real_estate_25": "Residência e outros imóveis",
+  "stocks_bonds_and_other_investments_26": "Ações, títulos e outros investimentos",
+  "savings_cds_and_checking_account_balance_27": "Poupança, CDs e saldo em conta corrente",
+  "vehicles_boats_and_other_properties_28": "Veículos, barcos e outras propriedades",
+  "retirement_plans_29": "Planos de aposentadoria",
+  "life_insurance_benefit_30": "Benefício de seguro de vida",
+  "other_assets_31": "Outros ativos",
+  "total_assets_32": "Ativos totais",
+  "liability_costs_and_deductibles_33": "Responsabilidade, custos e franquias",
+  "debts_mortgages_loan_credit_cards_etc_34": "Dívidas (hipotecas, empréstimos, cartões de crédito, etc.)",
+  "funeral_administration_and_claims_expenses_35": "Despesas de funeral, administração e sinistros",
+  "charitable_contributions_36": "Contribuições de caridade",
+  "state_inheritance_or_estate_taxes_37": "Herança estadual ou impostos imobiliários",
+  "total_liabilities_deductions_38": "Total de passivos e deduções",
+  "lifetime_gifted_amount_39": "Valor doado vitalício",
+  "total_amount_youve_gifted_tax_free_in_your_lifetim_40": "Valor total que você doou sem impostos durante sua vida",
+  "net_taxable_estate_41": "Patrimônio Líquido Tributável",
+  "federal_exemption_2025_42": "Isenção Federal (2025)",
+  "taxable_estate_43": "Patrimônio Tributável",
+  "tax_rate_44": "Taxa de imposto:",
+  "k_40_on_taxable_estate_above_exemption_45": "40% sobre bens tributáveis ​​acima da isenção",
+  "the_federal_estate_tax_rate_is_a_flat_40_on_the_am_46": "A alíquota do imposto predial federal é fixa de 40% sobre o valor que excede a isenção de US$ 13,99 milhões para\n                          2025.",
+  "enter_your_estate_information_to_see_your_results_47": "Insira as informações da sua propriedade para ver seus resultados",
+  "estate_tax_calculation_formula_48": "Fórmula de cálculo do imposto imobiliário",
+  "k_1_total_assets_49": "1. Ativos totais",
+  "assets_real_estate_investments_savings_vehicles_re_50": "Ativos = Imóveis + Investimentos + Poupança + Veículos + Planos de Aposentadoria + Seguro de Vida +\n                        Outros ativos",
+  "k_2_total_liabilities_51": "2. Passivo total",
+  "liabilities_mortgages_loans_credit_cards_funeral_e_52": "Passivo = Hipotecas + Empréstimos + Cartões de Crédito + Despesas Funerais + Despesas Administrativas +\n                        Reivindicações",
+  "k_3_gross_estate_53": "3. Patrimônio Bruto",
+  "gross_estate_assets_liabilities_lifetime_gifts_cha_54": "Patrimônio Bruto = Ativos - Passivos + Doações Vitalícias - Contribuições de Caridade",
+  "k_4_taxable_estate_55": "4. Patrimônio Tributável",
+  "taxable_estate_max0_gross_estate_federal_exemption_56": "Patrimônio Tributável = max(0, Patrimônio Bruto - Isenção Federal)",
+  "k_5_estate_tax_owed_57": "5. Imposto sobre propriedade devido",
+  "estate_tax_taxable_estate_40_58": "Imposto sobre imóveis = patrimônio tributável × 40%"
+}

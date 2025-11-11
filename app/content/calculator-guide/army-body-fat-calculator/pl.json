@@ -1,0 +1,160 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Czym jest kalkulator tkanki tłuszczowej dla armii?",
+      "content": "Kalkulator tkanki tłuszczowej armii to niezawodne narzędzie, które pomaga określić, czy żołnierze spełniają standardy składu ciała armii amerykańskiej określone w AR 600-9. W przeciwieństwie do BMI, które uwzględnia tylko wzrost i masę ciała, w tym kalkulatorze zastosowano wzór Army Tape Test – metodę opartą na obwodzie, która mierzy określone części ciała w celu oszacowania procentowej zawartości tkanki tłuszczowej. Możesz bezpłatnie skorzystać z internetowego kalkulatora tkanki tłuszczowej armii amerykańskiej, aby sprawdzić zgodność przed zaciągnięciem do wojska, w trakcie służby lub w celu rutynowej oceny sprawności."
+    },
+    {
+      "heading": "Jak działa test taśmy wojskowej (normy AR 600-9)",
+      "subSections": [
+        {
+          "heading": "Dla mężczyzn",
+          "content": "Pomiary obejmują szyję i brzuch."
+        },
+        {
+          "heading": "Dla kobiet",
+          "content": "Pomiary obejmują szyję, talię i biodra."
+        },
+        {
+          "heading": "Aplikacja formuły",
+          "content": "Wzór wykorzystujący te pomiary, wraz ze wzrostem i wiekiem, określa procent tkanki tłuszczowej."
+        },
+        {
+          "heading": "Zamiar",
+          "content": "Zapewnia żołnierzom utrzymanie gotowości i spełnienie standardów kalkulatora zapotrzebowania armii na zawartość tkanki tłuszczowej."
+        }
+      ]
+    },
+    {
+      "heading": "Jak korzystać z internetowego kalkulatora tkanki tłuszczowej armii",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wybierz mężczyznę lub kobietę."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Podaj wiek, wzrost i wagę."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Zmierz punkty obwodu (brzuch, szyja, talia, biodra, jeśli to konieczne)."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Narzędzie wykorzystuje formułę testu taśmy wojskowej do oszacowania tkanki tłuszczowej."
+        },
+        {
+          "heading": "Krok 5",
+          "content": "Aby sprawdzić zgodność, porównaj wyniki z narzędziem Army Body Fat Chart Tool."
+        }
+      ]
+    },
+    {
+      "heading": "Standardy zawartości tkanki tłuszczowej w organizmie armii według wieku i płci (wykres + wzór)",
+      "subSections": [
+        {
+          "heading": "Mężczyźni 17–20 lat",
+          "content": "20%"
+        },
+        {
+          "heading": "Mężczyźni 21–27 lat",
+          "content": "22%"
+        },
+        {
+          "heading": "Mężczyźni 28–39 lat",
+          "content": "24%"
+        },
+        {
+          "heading": "Mężczyźni 40+ lat",
+          "content": "26%"
+        },
+        {
+          "heading": "Kobiety 17–20 lat",
+          "content": "30%"
+        },
+        {
+          "heading": "Kobiety 21–27 lat",
+          "content": "32%"
+        },
+        {
+          "heading": "Kobiety 28–39 lat",
+          "content": "34%"
+        },
+        {
+          "heading": "Kobiety 40+ lat",
+          "content": "36%"
+        }
+      ]
+    },
+    {
+      "heading": "Kalkulator tkanki tłuszczowej armii vs kalkulator BMI",
+      "subSections": [
+        {
+          "heading": "Kalkulator BMI",
+          "content": "Oparte wyłącznie na wzroście i wadze."
+        },
+        {
+          "heading": "Kalkulator tkanki tłuszczowej armii",
+          "content": "Do dokładności wykorzystuje obwód, wiek i płeć."
+        },
+        {
+          "heading": "Preferencje armii",
+          "content": "Armia uznaje procent tkanki tłuszczowej za bardziej wiarygodną miarę sprawności bojowej."
+        }
+      ]
+    },
+    {
+      "heading": "Korzyści ze stosowania wojskowego kalkulatora tkanki tłuszczowej",
+      "subSections": [
+        {
+          "heading": "Dokładność",
+          "content": "Spełnia oficjalne standardy AR 600-9."
+        },
+        {
+          "heading": "Śledzenie gotowości",
+          "content": "Pomaga monitorować poziom sprawności przed testami PT."
+        },
+        {
+          "heading": "Przygotowanie do rekrutacji",
+          "content": "Pomaga rekrutom w spełnieniu standardów wejściowych."
+        },
+        {
+          "heading": "Bezpłatne i dostępne",
+          "content": "Dostępne online w każdej chwili."
+        },
+        {
+          "heading": "Przejrzystość",
+          "content": "Wyjaśnia, w jaki sposób test taśmy wojskowej określa wyniki."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak obliczyć procent tkanki tłuszczowej armii online?",
+      "a": "Wprowadź wzrost, wiek, wagę i pomiary taśmą do internetowego kalkulatora tkanki tłuszczowej armii amerykańskiej. Stosuje formułę metody obwodu armii."
+    },
+    {
+      "q": "Jaki jest standard tkanki tłuszczowej armii według AR 600-9?",
+      "a": "Różni się w zależności od wieku i płci – od 20% dla młodych mężczyzn do 36% dla starszych kobiet."
+    },
+    {
+      "q": "Czy wojskowy kalkulator tkanki tłuszczowej to to samo, co kalkulator BMI?",
+      "a": "Nie. Kalkulator testu taśmy wojskowej jest dokładniejszy, ponieważ uwzględnia punkty obwodu, a nie tylko wzrost i wagę."
+    },
+    {
+      "q": "Czy mogę użyć tego kalkulatora tkanki tłuszczowej do armii podczas zaciągnięcia się do wojska?",
+      "a": "Tak, pomaga to upewnić się, że przed dołączeniem spełniasz standardy kalkulatora zapotrzebowania armii na zawartość tkanki tłuszczowej."
+    },
+    {
+      "q": "Jaki jest najlepszy internetowy kalkulator tkanki tłuszczowej dla armii na rok 2025?",
+      "a": "Kalkulator masy ciała i tkanki tłuszczowej armii zgodny z AR 600-9 jest najbardziej niezawodny."
+    },
+    {
+      "q": "Jak dokładny jest test taśmy wojskowej?",
+      "a": "Jest to akceptowane medycznie, chociaż mogą wystąpić niewielkie różnice w technice pomiaru. Korzystanie z internetowego narzędzia Army Body Fat Tool poprawia konsystencję."
+    }
+  ]
+}

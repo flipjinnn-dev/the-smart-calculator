@@ -1,0 +1,148 @@
+{
+  "pageTitle": "Savings Calculator",
+  "pageDescription": "Calculate your savings growth over time with regular contributions and compound interest for financial goals and emergency fund planning",
+  "form": {
+    "labels": {
+      "initialAmount": "Initial Savings Amount",
+      "monthlyContribution": "Monthly Contribution",
+      "annualInterestRate": "Annual Interest Rate",
+      "savingsPeriod": "Savings Period",
+      "compoundFrequency": "Compound Frequency",
+      "inflationRate": "Expected Inflation Rate"
+    },
+    "placeholders": {
+      "initialAmount": "Enter initial savings amount",
+      "monthlyContribution": "Enter monthly contribution",
+      "annualInterestRate": "Enter annual interest rate (%)",
+      "savingsPeriod": "Enter savings period in years",
+      "inflationRate": "Enter expected inflation rate (%)"
+    },
+    "buttons": {
+      "calculate": "Calculate Savings Growth",
+      "reset": "Reset"
+    },
+    "compoundFrequencies": {
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "annually": "Annually",
+      "daily": "Daily"
+    }
+  },
+  "results": {
+    "futureValue": "Future Value",
+    "totalContributions": "Total Contributions",
+    "totalInterest": "Total Interest Earned",
+    "inflationAdjusted": "Inflation-Adjusted Value",
+    "savingsResultsTitle": "Savings Calculation Results"
+  },
+  "educational": {
+    "savingsInfo": "Savings Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "savingsFacts": {
+      "emergencyFund": {
+        "title": "Emergency Fund",
+        "description": "Financial experts recommend saving 3-6 months of expenses for emergencies"
+      },
+      "compoundInterest": {
+        "title": "Power of Compound Interest",
+        "description": "Regular contributions combined with compound interest accelerate savings growth"
+      },
+      "goalsBased": {
+        "title": "Goals-Based Savings",
+        "description": "Specific savings goals help maintain motivation and track progress"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides savings growth estimates only",
+      "actual": "Actual savings growth may vary based on account fees and changing interest rates"
+    },
+    "importantNotesList": [
+      "Higher interest rates significantly impact long-term savings growth",
+      "Regular contributions are key to building substantial savings",
+      "Consider high-yield savings accounts for better interest rates",
+      "Automate savings to ensure consistent contributions"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your savings information to calculate growth over time",
+    "resultMessage": "Your savings calculation results are shown below",
+    "assessmentResult": "Savings Calculation Result:",
+    "savingsAnalysis": "Savings Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides savings growth estimates based on mathematical projections. Actual savings growth may vary based on account fees, changing interest rates, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized savings strategies and financial planning, consult financial advisors or banking professionals with expertise in savings products and individual financial circumstances."
+  },
+  "errors": {
+    "initialAmount": "Please enter a valid initial savings amount",
+    "monthlyContribution": "Please enter a valid monthly contribution",
+    "annualInterestRate": "Please enter a valid annual interest rate",
+    "savingsPeriod": "Please enter a valid savings period",
+    "inflationRate": "Please enter a valid expected inflation rate",
+    "compoundFrequency": "Please select a compound frequency"
+  },
+  "tooltips": {
+    "initialAmount": "Amount already saved",
+    "monthlyContribution": "Regular amount you plan to save each month",
+    "annualInterestRate": "Expected average annual interest rate on savings",
+    "savingsPeriod": "Length of time you plan to save",
+    "compoundFrequency": "How often interest is compounded",
+    "inflationRate": "Expected average annual inflation rate"
+  },
+  "savings_calculator_0": "Savings Calculator",
+  "initial_investment_1": "Initial Investment",
+  "initial_deposit_starting_balance_2": "Initial Deposit / Starting Balance",
+  "regular_contributions_3": "Regular Contributions",
+  "annual_contribution_4": "Annual Contribution",
+  "annual_increase_rate_5": "Annual Increase Rate (%)",
+  "monthly_contribution_6": "Monthly Contribution",
+  "monthly_increase_rate_7": "Monthly Increase Rate (%)",
+  "investment_parameters_8": "Investment Parameters",
+  "annual_interest_rate_9": "Annual Interest Rate (%)",
+  "number_of_years_10": "Number of Years",
+  "compounding_frequency_11": "Compounding Frequency",
+  "annually_12": "Annually",
+  "semiannually_13": "Semi-annually",
+  "quarterly_14": "Quarterly",
+  "monthly_15": "Monthly",
+  "biweekly_16": "Biweekly",
+  "weekly_17": "Weekly",
+  "daily_18": "Daily",
+  "tax_rate_on_interest_19": "Tax Rate on Interest (%)",
+  "inflation_rate_20": "Inflation Rate (%)",
+  "calculate_growth_21": "Calculate Growth",
+  "savings_results_22": "Savings Results",
+  "your_savings_growth_projection_23": "Your savings growth projection",
+  "final_balance_24": "Final Balance:",
+  "compounding_25": "Compounding",
+  "for_26": "for",
+  "years_27": "years",
+  "total_contributions_28": "Total Contributions",
+  "interest_earned_29": "Interest Earned",
+  "aftertax_balance_30": "After-Tax Balance",
+  "real_value_inflationadjusted_31": "Real Value (Inflation-Adjusted)",
+  "yearly_breakdown_32": "Yearly Breakdown",
+  "year_33": "Year",
+  "contributions_34": "Contributions",
+  "interest_35": "Interest",
+  "balance_36": "Balance",
+  "enter_your_savings_information_to_see_your_growth__37": "Enter your savings information to see your growth projection",
+  "formulas_calculation_details_38": "Formulas & Calculation Details",
+  "k_1_periodic_interest_rate_39": "1. Periodic Interest Rate",
+  "rperiod_annualrate_1_taxrate_compoundingfrequency_40": "r_period = (annual_rate × (1 - tax_rate)) / compounding_frequency",
+  "k_2_annual_contributions_with_growth_41": "2. Annual Contributions (with growth)",
+  "annualk_annualbase_1_annualincreaseratek1_42": "Annual_k = Annual_base × (1 + annual_increase_rate)^(k-1)",
+  "k_3_monthly_contributions_with_growth_43": "3. Monthly Contributions (with growth)",
+  "monthlyk_monthlybase_1_monthlyincreaseratek1_44": "Monthly_k = Monthly_base × (1 + monthly_increase_rate)^(k-1)",
+  "k_4_final_balance_45": "4. Final Balance",
+  "balance_initial_1_rperiodperiods_accumulatedcontri_46": "Balance = Initial × (1 + r_period)^(periods) + Accumulated_Contributions",
+  "k_5_real_value_inflationadjusted_47": "5. Real Value (Inflation-Adjusted)",
+  "realvalue_finalbalance_1_inflationrateyears_48": "Real_Value = Final_Balance / (1 + inflation_rate)^years"
+}

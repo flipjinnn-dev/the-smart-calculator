@@ -1,0 +1,141 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Co to jest BMR i dlaczego jest to ważne",
+      "content": "Podstawowa przemiana materii (BMR) to liczba kalorii potrzebnych organizmowi do utrzymania podstawowych funkcji fizjologicznych w stanie spoczynku, takich jak oddychanie, krążenie i produkcja komórek.",
+      "subSections": [
+        {
+          "heading": "Zarządzanie wagą",
+          "content": "Znajomość BMR pomaga skutecznie schudnąć, przybrać lub utrzymać wagę."
+        },
+        {
+          "heading": "Planowanie ćwiczeń",
+          "content": "Projektuj dietę i programy ćwiczeń w oparciu o dzienne zapotrzebowanie kaloryczne."
+        },
+        {
+          "heading": "Monitorowanie zdrowia",
+          "content": "Zrozumienie metabolizmu i wydatków energetycznych dla długoterminowego zdrowia."
+        },
+        {
+          "heading": "Założenie TDEE",
+          "content": "BMR stanowi podstawę całkowitego dziennego wydatku energii (TDEE)."
+        }
+      ]
+    },
+    {
+      "heading": "Zrozumienie TDEE: Całkowite dzienne wydatki na energię",
+      "content": "Twój TDEE to całkowita liczba kalorii spalanych w ciągu dnia, biorąc pod uwagę aktywność fizyczną.",
+      "subSections": [
+        {
+          "heading": "Siedzący",
+          "content": "Niewiele ćwiczeń lub brak ćwiczeń. Mnożnik: 1,2"
+        },
+        {
+          "heading": "Lekka aktywność",
+          "content": "Lekkie ćwiczenia 1–3 dni w tygodniu. Mnożnik: 1,375"
+        },
+        {
+          "heading": "Umiarkowana aktywność",
+          "content": "Umiarkowane ćwiczenia 3–5 dni w tygodniu. Mnożnik: 1,55"
+        },
+        {
+          "heading": "Bardzo aktywny",
+          "content": "Intensywne ćwiczenia 6–7 dni w tygodniu. Mnożnik: 1,725"
+        },
+        {
+          "heading": "Ekstra aktywny",
+          "content": "Praca lub trening wymagający wysiłku fizycznego dwa razy dziennie. Mnożnik: 1,9"
+        }
+      ]
+    },
+    {
+      "heading": "Jak korzystać z tego kalkulatora BMR",
+      "content": "Wykonaj poniższe kroki, aby obliczyć BMR i TDEE:",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Podaj swoje dane – wiek, płeć, wzrost (cm), waga (kg) i poziom aktywności."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Kliknij „Oblicz” – Twoje BMR i TDEE zostaną natychmiast wyświetlone."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Interpretuj wyniki – użyj BMR/TDEE, aby zaplanować utratę, przyrost lub utrzymanie wagi."
+        }
+      ]
+    },
+    {
+      "heading": "Wyjaśnienie formuł BMR",
+      "content": "Istnieją różne wzory do dokładnego obliczania BMR:",
+      "subSections": [
+        {
+          "heading": "Formuła Mifflina-St Jeora",
+          "content": "Najdokładniejsze dla dorosłych. Mężczyźni: (10 × waga) + (6,25 × wzrost) - (5 × wiek) + 5. Kobiety: (10 × waga) + (6,25 × wzrost) - (5 × wiek) - 161."
+        },
+        {
+          "heading": "Formuła Harrisa-Benedykta",
+          "content": "Starsza formuła, która może nieznacznie zawyżać BMR."
+        },
+        {
+          "heading": "Formuła Katcha-McArdle'a",
+          "content": "Idealny dla osób o znanej beztłuszczowej masie ciała."
+        }
+      ]
+    },
+    {
+      "heading": "Wskazówki, jak naturalnie zwiększyć swoje BMR",
+      "content": "Zwiększ swój metabolizm dzięki następującym strategiom:",
+      "subSections": [
+        {
+          "heading": "Trening siłowy",
+          "content": "Buduj beztłuszczową masę mięśniową."
+        },
+        {
+          "heading": "Dieta wysokobiałkowa",
+          "content": "Zwiększ termogenezę za pomocą białka."
+        },
+        {
+          "heading": "Bądź aktywny",
+          "content": "Zwiększ NEAT (termogenezę aktywności niezwiązanej z ćwiczeniami)."
+        },
+        {
+          "heading": "Zadbaj o odpowiednią ilość snu",
+          "content": "Zapewnij optymalną funkcję metaboliczną."
+        },
+        {
+          "heading": "Pozostań nawodniony",
+          "content": "Spożycie wody wspomaga metabolizm."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak dokładny jest kalkulator BMR?",
+      "a": "Dokładność zależy od użytej formuły i precyzji wprowadzania. Mifflin-St Jeor jest najbardziej niezawodnym miejscem dla dorosłych."
+    },
+    {
+      "q": "Jaka jest różnica między BMR i TDEE?",
+      "a": "BMR mierzy kalorie w spoczynku, natomiast TDEE obejmuje całą dzienną aktywność. TDEE = BMR × współczynnik aktywności."
+    },
+    {
+      "q": "Czy mogę stosować BMR, aby schudnąć?",
+      "a": "Tak. Spożywaj mniej kalorii niż TDEE, aby schudnąć, lub więcej, aby przybrać na wadze."
+    },
+    {
+      "q": "Ile kalorii spalam dziennie?",
+      "a": "Twój TDEE zapewnia szacunkową wartość na podstawie Twojego BMR i poziomu aktywności."
+    },
+    {
+      "q": "Którego wzoru BMR powinienem użyć?",
+      "a": "Mifflin-St Jeor jest najlepszy do ogólnego użytku, natomiast Katch-McArdle jest odpowiedni dla tych, którzy znają swój procent tkanki tłuszczowej."
+    }
+  ],
+  "cta": {
+    "heading": "Oblicz swoje BMR i TDEE już dziś",
+    "content": "Skorzystaj z naszego bezpłatnego kalkulatora BMR, aby poznać swój metabolizm, dzienne zapotrzebowanie kaloryczne i przejąć kontrolę nad swoimi celami zdrowotnymi i sprawnościowymi."
+  }
+}

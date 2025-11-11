@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Kalkulator zdrowej wagi",
+  "pageDescription": "Oblicz zakres zdrowej wagi na podstawie wzrostu, wieku i płci za pomocą naszego wszechstronnego kalkulatora zdrowej wagi",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "height": "Wysokość",
+      "weight": "Aktualna waga",
+      "unitSystem": "Układ jednostek"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz zdrową wagę",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    }
+  },
+  "results": {
+    "healthyWeightRange": "Zdrowy zakres wagi",
+    "currentWeight": "Aktualna waga",
+    "healthyWeightTitle": "Wyniki zdrowej wagi",
+    "bmiFormula": {
+      "label": "Formuła BMI",
+      "us": "BMI = (waga w funtach / (wzrost w calach)²) × 703",
+      "metric": "BMI = waga w kg / (wzrost w metrach)²"
+    },
+    "healthyBmiRange": "Zdrowy zakres BMI: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "healthyWeightInfo": "Informacje o zdrowej wadze",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się ze specjalistą",
+    "healthyWeightMethods": {
+      "bmi": {
+        "title": "Metoda BMI",
+        "description": "Wykorzystuje zakresy BMI (18,5-24,9) do określenia prawidłowej masy ciała"
+      },
+      "who": {
+        "title": "Wytyczne WHO",
+        "description": "Na podstawie zaleceń Światowej Organizacji Zdrowia dotyczących prawidłowych zakresów masy ciała"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten służy jedynie do szacunków i nie jest narzędziem diagnostycznym",
+      "individualVariation": "Zdrowa waga różni się w zależności od masy mięśniowej, gęstości kości i składu ciała"
+    },
+    "importantNotesList": [
+      "Obliczenia te stanowią jedynie ogólne wytyczne",
+      "Sportowcy mogą mieć większą wagę ze względu na masę mięśniową",
+      "Skonsultuj się z pracownikami służby zdrowia, aby uzyskać spersonalizowaną poradę",
+      "Masę ciała należy brać pod uwagę obok innych wskaźników zdrowotnych"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "jest uważany za prawidłowy zakres BMI dla dorosłych.",
+      "association": "Przedział ten wiąże się z najniższym ryzykiem problemów zdrowotnych i śmiertelności."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje pomiary, aby obliczyć zakres zdrowej wagi",
+    "healthyWeightRange": "Twój zdrowy zakres wagi to {min} - {max} {unit}",
+    "currentWeightStatus": "Twoja aktualna waga to {status} prawidłowy zakres",
+    "belowRange": "poniżej",
+    "withinRange": "w",
+    "aboveRange": "powyżej",
+    "ageWarning": "W przypadku dzieci i młodzieży (≤20 lat) należy stosować pediatryczne wykresy wzrostu",
+    "assessmentResult": "Wynik oceny:",
+    "weightAnalysis": "Analiza wagi"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki oparte na wzorach matematycznych i nie powinien być używany jako substytut profesjonalnej porady lekarskiej. Poszczególne wyniki mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się z pracownikiem służby zdrowia",
+    "content": "Jeśli masz wątpliwości dotyczące swojej wagi lub stanu zdrowia, skonsultuj się z pracownikiem służby zdrowia, który może udzielić spersonalizowanej porady w oparciu o Twoją pełną historię medyczną i indywidualną sytuację."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę"
+  },
+  "tooltips": {
+    "age": "Wiek może mieć wpływ na obliczenia prawidłowej masy ciała u dzieci/młodzieży",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "gender": "Dla mężczyzn i kobiet można stosować różne formuły"
+  },
+  "weight_range_calculation_0": "Obliczanie zakresu wagi",
+  "enter_your_height_to_calculate_your_healthy_weight_1": "Wprowadź swój wzrost, aby obliczyć zakres zdrowej wagi",
+  "unit_system_2": "Układ jednostek",
+  "us_ftin_3": "USA (ft/cal)",
+  "metric_cm_4": "Metryczne (cm)",
+  "height_5": "Wysokość",
+  "ft_6": "stopy",
+  "in_7": "W",
+  "height_cm_8": "Wysokość (cm)",
+  "age_requirement_9": "Wymóg wieku",
+  "this_calculator_is_intended_for_adults_18_years_an_10": "Kalkulator ten jest przeznaczony dla osób dorosłych w wieku 18 lat i starszych. Obliczenia BMI mogą nie być\n                              odpowiednie dla dzieci, kobiet w ciąży i sportowców.",
+  "calculate_11": "Obliczać",
+  "reset_12": "Nastawić",
+  "healthy_weight_13": "Zdrowa waga",
+  "kg_14": "kg",
+  "lbs_15": "funty",
+  "for_height_16": "Dla wzrostu",
+  "enter_your_height_to_see_your_healthy_weight_range_17": "Wprowadź swój wzrost, aby zobaczyć zakres zdrowej wagi.",
+  "your_healthy_weight_range_18": "Twój zdrowy zakres wagi",
+  "for_height_19": "Dla wzrostu",
+  "cm_20": "cm):",
+  "lbs_21": "funty",
+  "kg_22": "kg)",
+  "this_calculator_uses_the_standard_bmi_range_23": "Ten kalkulator wykorzystuje standardowy zakres BMI (",
+  "for_adults_24": ") dla dorosłych.",
+  "calculation_steps_25": "Kroki obliczeń",
+  "step_1_height_conversion_26": "Krok 1: Konwersja wysokości",
+  "height_27": "Wysokość:",
+  "height_in_meters_28": "Wysokość w metrach:",
+  "m_29": "m",
+  "step_2_bmi_calculation_30": "Krok 2: Obliczenie BMI",
+  "lower_limit_bmi_185_31": "Dolna granica (BMI 18,5):",
+  "kg_32": "kg",
+  "upper_limit_bmi_250_33": "Górna granica (BMI 25,0):",
+  "kg_34": "kg",
+  "formula_bmi_height_35": "Wzór: BMI × wzrost²",
+  "about_healthy_weight_36": "O zdrowej wadze",
+  "bmibased_calculation_37": "Obliczenia oparte na BMI",
+  "based_on_bmi_range_38": "Na podstawie zakresu BMI:",
+  "k_185_250_kgm_39": "18,5 – 25,0 kg/m²",
+  "formula_40": "Formuła:",
+  "weight_bmi_height_41": "Waga = BMI × wzrost²",
+  "standard_42": "Standard:",
+  "world_health_organization_guidelines_43": "Wytyczne Światowej Organizacji Zdrowia",
+  "age_group_44": "Grupa wiekowa:",
+  "adults_18_years_and_older_45": "Dorośli w wieku 18 lat i starsi",
+  "important_notes_46": "Ważne uwagi",
+  "general_guideline_47": "Ogólne wytyczne:",
+  "not_personalized_medical_advice_48": "Niespersonalizowana porada lekarska",
+  "limitations_49": "Ograniczenia:",
+  "doesnt_account_for_muscle_mass_50": "Nie uwzględnia masy mięśniowej",
+  "special_populations_51": "Specjalne populacje:",
+  "may_not_apply_to_athletes_52": "Może nie dotyczyć sportowców",
+  "consultation_53": "Konsultacja:",
+  "speak_with_healthcare_provider_54": "Porozmawiaj z lekarzem",
+  "bmi_categories_55": "Kategorie BMI",
+  "bmi_range_56": "Zakres BMI",
+  "category_57": "Kategoria",
+  "below_185_58": "Poniżej 18,5",
+  "underweight_59": "Niedowaga",
+  "k_185_249_60": "18,5 - 24,9",
+  "normal_weight_61": "Normalna waga",
+  "k_250_299_62": "25,0 - 29,9",
+  "overweight_63": "Nadwaga",
+  "k_300_and_above_64": "30,0 i więcej",
+  "obese_65": "Otyły",
+  "factors_not_considered_66": "Czynniki nie brane pod uwagę",
+  "body_composition_67": "Skład ciała:",
+  "muscle_vs_fat_ratio_68": "Stosunek mięśni do tłuszczu",
+  "bone_density_69": "Gęstość kości:",
+  "individual_skeletal_differences_70": "Indywidualne różnice szkieletowe",
+  "age_71": "Wiek:",
+  "metabolism_and_body_changes_72": "Metabolizm i zmiany w organizmie",
+  "ethnicity_73": "Pochodzenie etniczne:",
+  "different_body_type_variations_74": "Różne odmiany budowy ciała",
+  "health_conditions_75": "Warunki zdrowotne:",
+  "medical_considerations_76": "Względy medyczne"
+}

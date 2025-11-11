@@ -1,0 +1,199 @@
+{
+  "pageTitle": "Calculadora de hipoteca",
+  "pageDescription": "Calcule pagamentos mensais de hipotecas, juros totais e cronograma de amortização para empréstimos imobiliários com impostos sobre a propriedade e considerações de seguro",
+  "form": {
+    "labels": {
+      "homePrice": "Preço da casa",
+      "downPayment": "Pagamento inicial",
+      "downPaymentType": "Tipo de adiantamento",
+      "loanAmount": "Valor do empréstimo",
+      "interestRate": "Taxa de juros anual",
+      "loanTerm": "Prazo do empréstimo",
+      "startDate": "Data de início do empréstimo",
+      "propertyTax": "Imposto anual sobre a propriedade",
+      "homeInsurance": "Seguro residencial anual",
+      "pmi": "Seguro hipotecário privado (PMI)",
+      "hoa": "Taxas mensais de HOA"
+    },
+    "placeholders": {
+      "homePrice": "Insira o preço da casa",
+      "downPayment": "Insira o pagamento inicial",
+      "loanAmount": "Insira o valor do empréstimo",
+      "interestRate": "Insira a taxa de juros anual (%)",
+      "loanTerm": "Insira o prazo do empréstimo em anos",
+      "propertyTax": "Insira o imposto anual sobre a propriedade",
+      "homeInsurance": "Insira um seguro residencial anual",
+      "pmi": "Insira o PMI, se aplicável",
+      "hoa": "Insira as taxas mensais de HOA"
+    },
+    "buttons": {
+      "calculate": "Calcular hipoteca",
+      "reset": "Reiniciar"
+    },
+    "downPaymentTypes": {
+      "amount": "Quantia",
+      "percentage": "Percentagem"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Pagamento Mensal",
+    "principalAndInterest": "Principal e Juros",
+    "propertyTax": "Imposto sobre a propriedade",
+    "homeInsurance": "Seguro Residencial",
+    "pmi": "PMI",
+    "hoa": "Taxas HOA",
+    "totalInterest": "Juros totais pagos",
+    "totalPayment": "Pagamento total",
+    "payoffDate": "Data de pagamento do empréstimo",
+    "mortgageResultsTitle": "Resultados do cálculo da hipoteca"
+  },
+  "educational": {
+    "mortgageInfo": "Informações sobre hipoteca",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "mortgageFacts": {
+      "components": {
+        "title": "Componentes de pagamento de hipoteca",
+        "description": "Principal, Juros, Impostos e Seguros (PITI)"
+      },
+      "amortization": {
+        "title": "Amortização",
+        "description": "Os pagamentos antecipados são principalmente juros; pagamentos posteriores são principalmente principais"
+      },
+      "downPayment": {
+        "title": "Impacto do adiantamento",
+        "description": "Pagamentos iniciais maiores reduzem o valor do empréstimo e podem eliminar a exigência do PMI"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de pagamento de hipotecas",
+      "actual": "Os termos reais da hipoteca podem variar com base nas políticas, taxas e capacidade de crédito do credor"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não inclui todas as taxas e encargos possíveis",
+      "O PMI normalmente é exigido para adiantamentos inferiores a 20%",
+      "Os impostos e seguros sobre a propriedade podem variar significativamente de acordo com o local",
+      "Considere obter uma pré-aprovação para uma hipoteca antes de procurar uma casa"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações da sua hipoteca para calcular os pagamentos mensais",
+    "resultMessage": "Os resultados do cálculo da sua hipoteca são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da hipoteca:",
+    "mortgageAnalysis": "Análise de hipoteca"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de pagamento de hipotecas com base em fórmulas financeiras padrão. Os termos, pagamentos e juros reais da hipoteca podem variar com base nas políticas do credor, taxas, pontuação de crédito e outros fatores não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para obter aconselhamento personalizado sobre hipotecas e opções de empréstimo, consulte corretores de hipotecas ou agentes de crédito com experiência em produtos de empréstimo residencial e em circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "homePrice": "Insira um preço de casa válido",
+    "downPayment": "Insira um adiantamento válido",
+    "loanAmount": "Insira um valor de empréstimo válido",
+    "interestRate": "Insira uma taxa de juros anual válida",
+    "loanTerm": "Insira um prazo de empréstimo válido",
+    "startDate": "Insira uma data de início do empréstimo válida",
+    "propertyTax": "Insira um valor anual válido de imposto sobre a propriedade",
+    "homeInsurance": "Insira um valor de seguro residencial anual válido",
+    "pmi": "Insira um valor de PMI válido",
+    "hoa": "Insira um valor de taxa HOA válido"
+  },
+  "tooltips": {
+    "homePrice": "Preço de compra da casa",
+    "downPayment": "Valor pago antecipadamente para a compra da casa",
+    "downPaymentType": "Se o pagamento inicial é especificado como valor ou porcentagem",
+    "loanAmount": "Valor emprestado do credor",
+    "interestRate": "Taxa de juro anual do empréstimo hipotecário",
+    "loanTerm": "Prazo para pagar a hipoteca (normalmente 15 ou 30 anos)",
+    "startDate": "Data em que começam os pagamentos da hipoteca",
+    "propertyTax": "Imposto anual sobre a propriedade avaliado pelo governo local",
+    "homeInsurance": "Custo anual do seguro residencial",
+    "pmi": "Seguro hipotecário privado exigido para pagamentos iniciais inferiores a 20%",
+    "hoa": "Taxas mensais para serviços da Associação de Proprietários de Residências"
+  },
+  "advanced_mortgage_calculator_0": "Calculadora de hipoteca avançada",
+  "calculate_your_complete_mortgage_costs_with_advanc_1": "Calcule seus custos completos de hipoteca com recursos avançados, incluindo pagamentos extras, anuais\n                aumentos e detalhamentos detalhados.",
+  "mortgage_calculator_2": "Calculadora de hipoteca",
+  "home_price_3": "Preço da casa",
+  "down_payment_4": "Pagamento inicial",
+  "loan_term_5": "Prazo do empréstimo",
+  "k_10_years_6": "10 anos",
+  "k_15_years_7": "15 anos",
+  "k_20_years_8": "20 anos",
+  "k_25_years_9": "25 anos",
+  "k_30_years_10": "30 anos",
+  "interest_rate_11": "Taxa de juro",
+  "start_date_12": "Data de início",
+  "jan_13": "janeiro",
+  "feb_14": "fevereiro",
+  "mar_15": "Março",
+  "apr_16": "abril",
+  "may_17": "Poderia",
+  "jun_18": "junho",
+  "jul_19": "julho",
+  "aug_20": "Agosto",
+  "sep_21": "Setembro",
+  "oct_22": "Outubro",
+  "nov_23": "novembro",
+  "dec_24": "dezembro",
+  "annual_tax_costs_25": "Impostos e custos anuais",
+  "annual_tax_cost_increases_26": "Aumentos anuais de impostos e custos",
+  "extra_payments_27": "Pagamentos extras",
+  "extra_monthly_pay_28": "+ Salário Extra Mensal",
+  "extra_yearly_pay_29": "+ Pagamento Anual Extra",
+  "extra_onetime_pay_30": "+ Pagamento único extra",
+  "from_31": "de",
+  "jan_32": "janeiro",
+  "feb_33": "Fevereiro",
+  "mar_34": "Março",
+  "apr_35": "abril",
+  "may_36": "Poderia",
+  "jun_37": "junho",
+  "jul_38": "julho",
+  "aug_39": "Agosto",
+  "sep_40": "Setembro",
+  "oct_41": "Outubro",
+  "nov_42": "novembro",
+  "dec_43": "dezembro",
+  "remove_44": "Remover",
+  "calculate_mortgage_45": "Calcular hipoteca",
+  "monthly_payment_46": "Pagamento Mensal",
+  "your_complete_payment_breakdown_47": "Seu detalhamento completo do pagamento",
+  "monthly_pay_48": "Salário Mensal",
+  "total_monthly_payment_49": "Pagamento Mensal Total",
+  "payment_breakdown_50": "Detalhamento do pagamento",
+  "mortgage_payment_51": "Pagamento de hipoteca",
+  "property_tax_52": "Imposto sobre a propriedade",
+  "home_insurance_53": "Seguro Residencial",
+  "other_costs_54": "Outros custos",
+  "payment_distribution_55": "Distribuição de Pagamento",
+  "principal_interest_56": "% Principal e Juros",
+  "property_taxes_57": "% Impostos sobre Propriedade",
+  "home_insurance_58": "% Seguro Residencial",
+  "other_costs_59": "% Outros custos",
+  "loan_summary_60": "Resumo do empréstimo",
+  "house_price_61": "Preço da casa:",
+  "loan_amount_62": "Valor do empréstimo:",
+  "down_payment_63": "Pagamento inicial:",
+  "interest_rate_64": "Taxa de juro:",
+  "loan_term_65": "Prazo do empréstimo:",
+  "years_66": "anos",
+  "total_interest_67": "Juros totais:",
+  "payoff_date_68": "Data de pagamento:",
+  "latest_mortgage_rates_69": "Últimas taxas de hipoteca:",
+  "k_30_years_70": "30 anos:",
+  "k_6512_71": "6,512%",
+  "k_15_years_72": "15 anos:",
+  "k_5608_73": "5,608%",
+  "k_10_years_74": "10 anos:",
+  "k_5494_75": "5,494%",
+  "see_your_local_rates_76": "Veja suas tarifas locais",
+  "get_preapproval_77": "Obtenha pré-aprovação",
+  "enter_mortgage_details_to_see_your_payment_breakdo_78": "Insira os detalhes da hipoteca para ver o detalhamento do pagamento"
+}

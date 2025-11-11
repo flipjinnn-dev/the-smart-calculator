@@ -1,0 +1,116 @@
+{
+  "pageTitle": "Kreditrechner",
+  "pageDescription": "Berechnen Sie Kreditzahlungen, Zinssätze und Tilgungspläne für verschiedene Arten von Krediten, einschließlich Hypotheken, Autokrediten und Privatkrediten",
+  "form": {
+    "labels": {
+      "loanAmount": "Darlehensbetrag",
+      "interestRate": "Jährlicher Zinssatz",
+      "loanTerm": "Kreditlaufzeit",
+      "loanTermUnit": "Kreditlaufzeiteinheit",
+      "startDate": "Kreditbeginndatum",
+      "extraPayment": "Zusätzliche monatliche Zahlung",
+      "paymentFrequency": "Zahlungshäufigkeit"
+    },
+    "placeholders": {
+      "loanAmount": "Geben Sie den Kreditbetrag ein",
+      "interestRate": "Geben Sie den jährlichen Zinssatz (%) ein.",
+      "loanTerm": "Geben Sie die Kreditlaufzeit ein",
+      "extraPayment": "Geben Sie eine zusätzliche monatliche Zahlung ein (optional)"
+    },
+    "buttons": {
+      "calculate": "Darlehen berechnen",
+      "reset": "Zurücksetzen"
+    },
+    "loanTermUnits": {
+      "years": "Jahre",
+      "months": "Monate"
+    },
+    "paymentFrequencies": {
+      "monthly": "Monatlich",
+      "biweekly": "Zweiwöchentlich",
+      "weekly": "Wöchentlich"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Monatliche Zahlung",
+    "totalInterest": "Gezahlte Gesamtzinsen",
+    "totalPayment": "Gesamtzahlung",
+    "payoffDate": "Datum der Kreditrückzahlung",
+    "interestSavings": "Zinsersparnis durch zusätzliche Zahlungen",
+    "loanResultsTitle": "Ergebnisse der Kreditberechnung"
+  },
+  "educational": {
+    "loanInfo": "Kreditinformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "loanFacts": {
+      "amortization": {
+        "title": "Amortisation",
+        "description": "Prozess der Rückzahlung eines Kredits mit regelmäßigen Zahlungen im Laufe der Zeit"
+      },
+      "interest": {
+        "title": "Zinsberechnung",
+        "description": "Auf den verbleibenden Kreditsaldo werden Zinsen berechnet, die mit der Zeit sinken"
+      },
+      "extraPayments": {
+        "title": "Zusätzliche Zahlungen",
+        "description": "Zusätzliche Zahlungen verringern den Kapitalbetrag schneller und führen zu Einsparungen bei den Gesamtzinsen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Kreditzahlung",
+      "actual": "Die tatsächlichen Kreditbedingungen können je nach Richtlinien und Gebühren des Kreditgebers variieren"
+    },
+    "importantNotesList": [
+      "In diesem Rechner sind keine Steuern, Versicherungen oder andere Gebühren enthalten",
+      "Zusätzliche Zahlungen verringern direkt den Kapitalbetrag",
+      "Zweiwöchentliche Zahlungen können dazu beitragen, Kredite schneller abzubezahlen",
+      "Berücksichtigen Sie den effektiven Jahreszins (APR) für die tatsächlichen Kreditkosten"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Kreditinformationen ein, um Zahlungen und Zinsen zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Kreditberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Kreditberechnung:",
+    "loanAnalysis": "Kreditanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen der Kreditzahlungen auf der Grundlage standardmäßiger Finanzformeln. Die tatsächlichen Kreditbedingungen, Zahlungen und Zinsen können je nach Richtlinien des Kreditgebers, Gebühren und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine individuelle Kreditberatung und Finanzplanung wenden Sie sich an Finanzberater oder Kreditsachbearbeiter mit Erfahrung in Kreditprodukten und individuellen finanziellen Verhältnissen."
+  },
+  "errors": {
+    "loanAmount": "Bitte geben Sie einen gültigen Kreditbetrag ein",
+    "interestRate": "Bitte geben Sie einen gültigen Jahreszinssatz ein",
+    "loanTerm": "Bitte geben Sie eine gültige Kreditlaufzeit ein",
+    "startDate": "Bitte geben Sie ein gültiges Kreditbeginndatum ein",
+    "extraPayment": "Bitte geben Sie einen gültigen Zuzahlungsbetrag ein",
+    "loanTermUnit": "Bitte wählen Sie eine Leihlaufzeiteinheit aus",
+    "paymentFrequency": "Bitte wählen Sie eine Zahlungshäufigkeit aus"
+  },
+  "tooltips": {
+    "loanAmount": "Gesamtbetrag der geliehenen Summe",
+    "interestRate": "Jährlicher Zinssatz in Prozent",
+    "loanTerm": "Dauer der Rückzahlung des Darlehens",
+    "startDate": "Datum, an dem die Kreditzahlungen beginnen",
+    "extraPayment": "Zusätzlicher Betrag, der jeden Monat an den Auftraggeber gezahlt wird",
+    "paymentFrequency": "Wie oft werden Zahlungen geleistet?"
+  },
+  "loan_details_0": "Kreditdetails",
+  "enter_your_loan_information_to_calculate_payments_1": "Geben Sie Ihre Kreditinformationen ein, um die Zahlungen zu berechnen",
+  "loan_amount_2": "Darlehensbetrag",
+  "annual_interest_rate_3": "Jährlicher Zinssatz (%)",
+  "loan_term_years_4": "Kreditlaufzeit (Jahre)",
+  "calculate_5": "Berechnen",
+  "calculation_results_6": "Berechnungsergebnisse",
+  "your_loan_payment_breakdown_7": "Aufschlüsselung Ihrer Kreditzahlung",
+  "monthly_payment_8": "Monatliche Zahlung",
+  "total_interest_9": "Gesamtzins",
+  "total_payment_10": "Gesamtzahlung",
+  "enter_loan_details_to_see_your_calculation_11": "Geben Sie die Kreditdetails ein, um Ihre Berechnung anzuzeigen"
+}

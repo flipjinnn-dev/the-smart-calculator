@@ -1,0 +1,122 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Gehaltsrechner – Berechnen Sie ganz einfach Brutto-, Netto- und Take-Home-Gehälter",
+      "content": "Mit unserem Gehaltsrechner können Sie Ihr Brutto- und Nettogehalt, Ihre Stundensätze und Ihr Nettogehalt sofort ermitteln. Egal, ob Sie Vollzeitangestellter, Freiberufler, Auftragnehmer oder Stundenarbeiter sind, dieses Tool verwaltet alle Gehaltsarten und Gehaltsstrukturen."
+    },
+    {
+      "heading": "So berechnen Sie das Gehalt",
+      "subSections": [
+        {
+          "heading": "1. Bruttogehalt",
+          "content": "Gesamtverdienst vor Abzügen wie Steuern, Versicherungen und Rentenbeiträgen."
+        },
+        {
+          "heading": "2. Nettogehalt (Take-Home-Pay)",
+          "content": "Einkommen nach Abzug aller Abzüge."
+        },
+        {
+          "heading": "3. Gehalt nach Zahlungszeitraum",
+          "content": "Konvertieren Sie zwischen Stunden-, Tages-, Monats- und Jahresgehältern."
+        },
+        {
+          "heading": "4. Fügen Sie Anpassungen hinzu",
+          "content": "Fügen Sie Prämien, Überstunden und Abzüge hinzu, um eine genaue Aufschlüsselung zu erhalten."
+        },
+        {
+          "heading": "Beispiel",
+          "content": "Monatsgehalt = 4.000 $, Abzüge = 800 $ → Nettogehalt = 3.200 $."
+        }
+      ]
+    },
+    {
+      "heading": "Arten von Gehältern, die Sie berechnen können",
+      "subSections": [
+        {
+          "heading": "Monatlicher Gehaltsrechner",
+          "content": "Planen Sie Ihr Monatsbudget, indem Sie die Nettovergütung berechnen."
+        },
+        {
+          "heading": "Jahresgehaltsrechner",
+          "content": "Sehen Sie sich Ihr Jahreseinkommen einschließlich Prämien und Überstunden an."
+        },
+        {
+          "heading": "Stundensatzrechner",
+          "content": "Wandeln Sie das Jahres- oder Monatsgehalt in einen Stundenlohn um."
+        },
+        {
+          "heading": "Tageslohnrechner",
+          "content": "Schätzen Sie das Gehalt für Teilzeitjobs oder Verträge."
+        },
+        {
+          "heading": "Gehaltsaufschlüsselung nach Zahlungszeitraum",
+          "content": "Verstehen Sie wöchentliche, zweiwöchentliche oder halbmonatliche Einnahmen."
+        }
+      ]
+    },
+    {
+      "heading": "Vorteile der Verwendung unseres Gehaltsrechners",
+      "content": "✔ Kostenlos und schnell – Keine Anmeldung erforderlich\n✔ Bester Online-Gehaltsrechner – Präzise und zuverlässig\n✔ Gehaltsrechner zum Mitnehmen – Sehen Sie sich das Ergebnis nach Steuern an\n✔ Gehaltsrechner – Perfekt für Mitarbeiter und Unternehmen\n✔ Funktioniert auf allen Geräten – Mobil- und Desktop-kompatibel"
+    },
+    {
+      "heading": "Gehaltsrechner für verschiedene Szenarien",
+      "subSections": [
+        {
+          "heading": "Mitarbeiter",
+          "content": "Berechnen Sie das monatliche oder jährliche Nettogehalt mit Abzügen."
+        },
+        {
+          "heading": "Freiberufler und Auftragnehmer",
+          "content": "Berücksichtigen Sie unregelmäßige Arbeitszeiten, Steuern und Projektzahlungen."
+        },
+        {
+          "heading": "Stundenarbeiter",
+          "content": "Wandeln Sie Stundenlöhne in Tages-, Wochen- oder Monatseinkommen um."
+        },
+        {
+          "heading": "Teilzeitjobs",
+          "content": "Verfolgen Sie Kurzarbeit oder schichtbasierte Bezahlung."
+        },
+        {
+          "heading": "Gehaltsanpassungen",
+          "content": "Für Gehaltserhöhungen, Beförderungen oder Gehaltsänderungen verwenden."
+        }
+      ]
+    },
+    {
+      "heading": "Warum unser Rechner herausragt",
+      "content": "✔ Unterstützt internationale Steuersätze\n✔ Vergleicht mehrere Zahlungsperioden\n✔ Inklusive Urlaubstage und Zusatzleistungen\n✔ Funktioniert für Angestellte, Teilzeit-, Freiberufler und Vertragsarbeiter"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie berechne ich mein Gehalt nach Steuern?",
+      "a": "Nutzen Sie unseren Nettogehaltsrechner, um Bruttolohn, Steuersätze und Abzüge einzugeben. Es zeigt sofort Ihr Take-Home-Gehalt an."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Brutto- und Nettogehalt?",
+      "a": "Das Bruttogehalt ist Ihr Einkommen vor Abzügen. Das Nettogehalt ist das, was Sie nach Steuern und Abzügen behalten."
+    },
+    {
+      "q": "Kann ich meinen Stundensatz aus dem Jahresgehalt berechnen?",
+      "a": "Ja, der Rechner rechnet den Jahres- oder Monatslohn in einen Stundenlohn basierend auf der Arbeitszeit um."
+    },
+    {
+      "q": "Ist dieser Rechner für Freiberufler oder Auftragnehmer geeignet?",
+      "a": "Absolut, es berücksichtigt unregelmäßiges Einkommen, Projekte und flexible Arbeitszeiten."
+    },
+    {
+      "q": "Kann ich Prämien und Überstunden einbeziehen?",
+      "a": "Ja, fügen Sie sie einfach hinzu, um eine genaue Aufschlüsselung des Gesamteinkommens zu erhalten."
+    },
+    {
+      "q": "Funktioniert es bei Teilzeitjobs?",
+      "a": "Ja, Sie können die Stunden anpassen, um eine genaue Teilzeitvergütung zu berechnen."
+    },
+    {
+      "q": "Ist dieser Rechner kostenlos?",
+      "a": "Ja, es ist 100 % kostenlos und ohne versteckte Kosten."
+    }
+  ]
+}

@@ -1,22 +1,156 @@
 "use client"
 
 import type React from "react"
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
+import { useRouter } from "next/navigation"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import Link from "next/link"
 import { Heart, Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Scale } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
-import Logo from "@/components/logo"
-import SEO from "@/lib/seo"
 import CalculatorGuide from "@/components/calculator-guide"
-import anorexicBmiData from "@/app/content/anorexic-bmi-calculator.json"
+import { useCalculatorContent } from "@/hooks/useCalculatorContent"
 
-export default function AnorexicBMICalculator() {
+// Define the content structure interface
+interface CalculatorUIContent {
+  pageTitle: string;
+  pageDescription: string;
+  form: {
+    labels: {
+      age: string;
+      gender: string;
+      height: string;
+      weight: string;
+      unitSystem: string;
+    };
+    placeholders: {
+      age: string;
+      heightFt: string;
+      heightIn: string;
+      heightCm: string;
+      weight: string;
+    };
+    buttons: {
+      calculate: string;
+      reset: string;
+    };
+    unitSystems: {
+      us: string;
+      metric: string;
+    };
+  };
+  results: {
+    bmiValue: string;
+    classification: string;
+    healthyRange: string;
+    bmiResultsTitle: string;
+    bmiFormula: {
+      label: string;
+      us: string;
+      metric: string;
+    };
+    healthyBmiRange: string;
+  };
+  educational: {
+    classifications: string;
+    criticalWarnings: string;
+    importantNotes: string;
+    healthyRange: string;
+    disclaimer: string;
+    seekHelp: string;
+    bmiClassifications: {
+      normal: {
+        title: string;
+        description: string;
+      };
+      mildAnorexia: {
+        title: string;
+        description: string;
+      };
+      moderateAnorexia: {
+        title: string;
+        description: string;
+      };
+      severeAnorexia: {
+        title: string;
+        description: string;
+      };
+      extremeAnorexia: {
+        title: string;
+        description: string;
+      };
+    };
+    criticalWarningsList: {
+      organFailure: string;
+      lifeThreatening: string;
+    };
+    importantNotesList: string[];
+    healthyRangeDetails: {
+      title: string;
+      description: string;
+      association: string;
+    };
+  };
+  messages: {
+    enterMeasurements: string;
+    doesNotSuggestAnorexia: string;
+    suggestsAnorexia: string;
+    lifeThreateningCondition: string;
+    riskOfOrganFailure: string;
+    ageWarning: string;
+    assessmentResult: string;
+    bmiAnalysis: string;
+  };
+  disclaimer: {
+    title: string;
+    content: string;
+  };
+  seekHelp: {
+    title: string;
+    content: string;
+  };
+  errors: {
+    age: string;
+    gender: string;
+    heightFt: string;
+    heightIn: string;
+    heightCm: string;
+    weight: string;
+  };
+  tooltips: {
+    age: string;
+    height: string;
+    weight: string;
+  };
+}
+
+interface CalculatorGuideData {
+  color: string;
+  sections: any[];
+  faq: any[];
+}
+
+export default function AnorexicBmiCalculatorCalculator() {
+  const router = useRouter();
+  const [language, setLanguage] = useState("en");
+  
+  // Detect language from URL path
+  useEffect(() => {
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/(br|pl|de)/);
+    const detectedLanguage = langMatch ? langMatch[1] : "en";
+    setLanguage(detectedLanguage);
+  }, []);
+
+  // Load UI content for the calculator from calculator-ui folder
+  const { content, loading, error: contentError } = useCalculatorContent("anorexic-bmi-calculator", language, "calculator-ui");
+  
+  // Load guide content from calculator-guide folder
+  const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent("anorexic-bmi-calculator", language, "calculator-guide");
+
   const [result, setResult] = useState<any>(null)
   const [showResult, setShowResult] = useState(false)
   const [errors, setErrors] = useState<{ [key: string]: string }>({})
@@ -33,31 +167,166 @@ export default function AnorexicBMICalculator() {
   const resultsRef = useRef<HTMLDivElement>(null)
   const scrollToRef = useMobileScroll()
 
+  // Show loading state
+  if (loading || guideLoading) {
+    return <div>Loading...</div>;
+  }
+
+  // Show error if content failed to load
+  if (contentError || guideError) {
+    return <div>Error loading content: {contentError || guideError}</div>;
+  }
+
+  // Use UI content or fallback to defaults
+  const contentData: CalculatorUIContent = content || {
+    pageTitle: "Anorexic BMI Calculator",
+    pageDescription: "Calculate BMI and assess anorexia nervosa severity using medical classification thresholds. Educational tool for understanding BMI ranges and health implications.",
+    form: {
+      labels: {
+        age: "Age (years)",
+        gender: "Gender",
+        height: "Height",
+        weight: "Weight",
+        unitSystem: "Unit System"
+      },
+      placeholders: {
+        age: "Enter age",
+        heightFt: "Feet",
+        heightIn: "Inches",
+        heightCm: "Enter height in cm",
+        weight: "Enter weight in {unit}"
+      },
+      buttons: {
+        calculate: "Calculate BMI",
+        reset: "Reset"
+      },
+      unitSystems: {
+        us: "US Units (ft/in, lb)",
+        metric: "Metric Units (cm, kg)"
+      }
+    },
+    results: {
+      bmiValue: "BMI kg/m²",
+      classification: "Classification",
+      healthyRange: "Healthy Range",
+      bmiResultsTitle: "BMI Results",
+      bmiFormula: {
+        label: "BMI Formula",
+        us: "BMI = (weight in lb / (height in inches)²) × 703",
+        metric: "BMI = weight in kg / (height in meters)²"
+      },
+      healthyBmiRange: ""
+    },
+    educational: {
+      classifications: "BMI Classifications",
+      criticalWarnings: "Critical Warnings",
+      importantNotes: "Important Notes",
+      healthyRange: "Healthy BMI Range",
+      disclaimer: "",
+      seekHelp: "",
+      bmiClassifications: {
+        normal: {
+          title: "Normal",
+          description: "BMI ≥ 18.5 - Does not suggest anorexia"
+        },
+        mildAnorexia: {
+          title: "Mild Anorexia",
+          description: "BMI 17.0 - 17.49"
+        },
+        moderateAnorexia: {
+          title: "Moderate Anorexia",
+          description: "BMI 16.0 - 16.99"
+        },
+        severeAnorexia: {
+          title: "Severe Anorexia",
+          description: "BMI 15.0 - 15.99"
+        },
+        extremeAnorexia: {
+          title: "Extreme Anorexia",
+          description: "BMI < 15.0"
+        }
+      },
+      criticalWarningsList: {
+        organFailure: "BMI < 13.5: Risk of organ failure",
+        lifeThreatening: "BMI < 12: Life-threatening condition"
+      },
+      importantNotesList: [
+        "BMI alone is not sufficient for diagnosing anorexia nervosa",
+        "Clinical assessment requires psychological evaluation",
+        "Age, muscle mass, and bone density affect BMI interpretation",
+        "For children ≤20 years, use CDC growth charts"
+      ],
+      healthyRangeDetails: {
+        title: "18.5 – 25 kg/m²",
+        description: "is considered the healthy BMI range for adults.",
+        association: ""
+      }
+    },
+    messages: {
+      enterMeasurements: "Enter your measurements to calculate BMI and assess anorexia severity",
+      doesNotSuggestAnorexia: "Does not suggest anorexia nervosa.",
+      suggestsAnorexia: "Your BMI suggests possible anorexia (Severity: {severity}). Note: BMI alone is not a diagnosis.",
+      lifeThreateningCondition: "Life-threatening condition — seek immediate medical care.",
+      riskOfOrganFailure: "Danger: Risk of organ failure.",
+      ageWarning: "For children and adolescents (≤20 years), use CDC growth charts for proper BMI interpretation.",
+      assessmentResult: "Assessment Result:",
+      bmiAnalysis: "BMI Analysis & Anorexia Assessment"
+    },
+    disclaimer: {
+      title: "",
+      content: ""
+    },
+    seekHelp: {
+      title: "",
+      content: ""
+    },
+    errors: {
+      age: "Please enter a valid age (1-120)",
+      gender: "Please select gender",
+      heightFt: "Please enter valid feet",
+      heightIn: "Please enter valid inches (0-11)",
+      heightCm: "Please enter valid height in cm",
+      weight: "Please enter a valid weight"
+    },
+    tooltips: {
+      age: "Age affects BMI interpretation for children/adolescents",
+      height: "Your current height measurement",
+      weight: "Your current body weight"
+    }
+  };
+
+  // Use guide content or fallback to defaults
+  const guideData: CalculatorGuideData = guideContent || {
+    color: "red",
+    sections: [],
+    faq: []
+  };
+
   const validateInputs = () => {
     const newErrors: { [key: string]: string } = {}
 
     if (!age || Number.parseFloat(age) <= 0 || Number.parseFloat(age) > 120) {
-      newErrors.age = "Please enter a valid age (1-120)"
+      newErrors.age = contentData.errors.age
     }
 
     if (!gender) {
-      newErrors.gender = "Please select gender"
+      newErrors.gender = contentData.errors.gender
     }
 
     if (!weight || Number.parseFloat(weight) <= 0) {
-      newErrors.weight = "Please enter a valid weight"
+      newErrors.weight = contentData.errors.weight
     }
 
     if (unitSystem === "us") {
       if (!heightFt || Number.parseFloat(heightFt) <= 0) {
-        newErrors.heightFt = "Please enter valid feet"
+        newErrors.heightFt = contentData.errors.heightFt
       }
       if (!heightIn || Number.parseFloat(heightIn) < 0 || Number.parseFloat(heightIn) >= 12) {
-        newErrors.heightIn = "Please enter valid inches (0-11)"
+        newErrors.heightIn = contentData.errors.heightIn
       }
     } else {
       if (!heightCm || Number.parseFloat(heightCm) <= 0) {
-        newErrors.heightCm = "Please enter valid height in cm"
+        newErrors.heightCm = contentData.errors.heightCm
       }
     }
 
@@ -96,49 +365,49 @@ export default function AnorexicBMICalculator() {
     let message = ""
 
     if (bmi >= 18.5) {
-      severity = "Normal"
+      severity = contentData.educational.bmiClassifications.normal.title;
       severityLevel = "normal"
       warningLevel = "safe"
-      message = "Does not suggest anorexia nervosa."
+      message = contentData.messages.doesNotSuggestAnorexia;
     } else if (bmi >= 17.5) {
-      severity = "Mild Anorexia"
+      severity = contentData.educational.bmiClassifications.mildAnorexia.title;
       severityLevel = "mild"
       warningLevel = "warning"
-      message = `Your BMI suggests possible anorexia (Severity: ${severity}). Note: BMI alone is not a diagnosis.`
+      message = contentData.messages.suggestsAnorexia.replace("{severity}", severity);
     } else if (bmi >= 17.0) {
-      severity = "Mild Anorexia"
+      severity = contentData.educational.bmiClassifications.mildAnorexia.title;
       severityLevel = "mild"
       warningLevel = "warning"
-      message = `Your BMI suggests possible anorexia (Severity: ${severity}). Note: BMI alone is not a diagnosis.`
+      message = contentData.messages.suggestsAnorexia.replace("{severity}", severity);
     } else if (bmi >= 16.0) {
-      severity = "Moderate Anorexia"
+      severity = contentData.educational.bmiClassifications.moderateAnorexia.title;
       severityLevel = "moderate"
       warningLevel = "danger"
-      message = `Your BMI suggests possible anorexia (Severity: ${severity}). Note: BMI alone is not a diagnosis.`
+      message = contentData.messages.suggestsAnorexia.replace("{severity}", severity);
     } else if (bmi >= 15.0) {
-      severity = "Severe Anorexia"
+      severity = contentData.educational.bmiClassifications.severeAnorexia.title;
       severityLevel = "severe"
       warningLevel = "danger"
-      message = `Your BMI suggests possible anorexia (Severity: ${severity}). Note: BMI alone is not a diagnosis.`
+      message = contentData.messages.suggestsAnorexia.replace("{severity}", severity);
     } else {
-      severity = "Extreme Anorexia"
+      severity = contentData.educational.bmiClassifications.extremeAnorexia.title;
       severityLevel = "extreme"
       warningLevel = "critical"
-      message = `Your BMI suggests possible anorexia (Severity: ${severity}). Note: BMI alone is not a diagnosis.`
+      message = contentData.messages.suggestsAnorexia.replace("{severity}", severity);
     }
 
     // Critical warnings
     let criticalWarning = ""
     if (bmi < 12) {
-      criticalWarning = "Life-threatening condition — seek immediate medical care."
+      criticalWarning = contentData.messages.lifeThreateningCondition;
     } else if (bmi < 13.5) {
-      criticalWarning = "Danger: Risk of organ failure."
+      criticalWarning = contentData.messages.riskOfOrganFailure;
     }
 
     // Age warning for children/adolescents
     const ageWarning =
       Number.parseFloat(age) <= 20
-        ? "For children and adolescents (≤20 years), use CDC growth charts for proper BMI interpretation."
+        ? contentData.messages.ageWarning
         : ""
 
     setResult({
@@ -169,49 +438,16 @@ export default function AnorexicBMICalculator() {
     setErrors({})
   }
 
+  // Function to get weight placeholder based on unit system
+  const getWeightPlaceholder = () => {
+    const unit = unitSystem === "us" ? "pounds" : "kilograms";
+    return contentData.form.placeholders.weight.replace("{unit}", unit);
+  }
+
   return (
     <>
-      <SEO
-        title={"Anorexic BMI Calculator"}
-        description={"Calculate BMI and assess anorexia nervosa severity using medical thresholds."}
-        slug={"/health/anorexic-bmi-calculator"}
-        keywords="BMI, anorexia nervosa, medical thresholds" />
 
       <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-50">
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link
-                    href="/"
-                    className="text-2xl font-bold bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent"
-                  >
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">Anorexic BMI Calculator</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-red-600">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <Link href="/health" className="text-gray-500 hover:text-red-600">
-                Health
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Anorexic BMI Calculator</span>
-            </div>
-          </div>
-        </nav>
 
         {/* Main Content */}
         <main className="py-8 px-4 sm:px-6 lg:px-8">
@@ -222,10 +458,9 @@ export default function AnorexicBMICalculator() {
                   <Scale className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Anorexic BMI Calculator</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Calculate BMI and assess anorexia nervosa severity using medical classification thresholds. Educational
-                tool for understanding BMI ranges and health implications.
+                {contentData.pageDescription}
               </p>
             </div>
 
@@ -236,24 +471,24 @@ export default function AnorexicBMICalculator() {
                   <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Activity className="w-6 h-6 text-red-600" />
-                      <h2 className="text-gray-900">Anorexic BMI Calculation</h2>
+                      <h2 className="text-gray-900">{contentData.form.labels.unitSystem}</h2>
                     </CardTitle>
                     <CardDescription className="text-base">
-                      Enter your measurements to calculate BMI and assess anorexia severity
+                      {contentData.messages.enterMeasurements}
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="p-8">
                     {/* Unit System Toggle */}
                     <div className="mb-6">
-                      <Label className="text-sm font-medium text-gray-700 mb-3 block">Unit System</Label>
+                      <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.form.labels.unitSystem}</Label>
                       <RadioGroup value={unitSystem} onValueChange={setUnitSystem} className="flex space-x-6">
                         <div className="flex items-center space-x-2">
                           <RadioGroupItem value="us" id="us" />
-                          <Label htmlFor="us">US Units (ft/in, lb)</Label>
+                          <Label htmlFor="us">{contentData.form.unitSystems.us}</Label>
                         </div>
                         <div className="flex items-center space-x-2">
                           <RadioGroupItem value="metric" id="metric" />
-                          <Label htmlFor="metric">Metric Units (cm, kg)</Label>
+                          <Label htmlFor="metric">{contentData.form.unitSystems.metric}</Label>
                         </div>
                       </RadioGroup>
                     </div>
@@ -262,11 +497,11 @@ export default function AnorexicBMICalculator() {
                       {/* Age */}
                       <div>
                         <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">
-                          Age (years)
+                          {contentData.form.labels.age}
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help group-hover:text-gray-600" />
                             <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none">
-                              Age affects BMI interpretation for children/adolescents
+                              {contentData.tooltips.age}
                             </div>
                           </div>
                         </Label>
@@ -277,7 +512,7 @@ export default function AnorexicBMICalculator() {
                           step="1"
                           min="1"
                           max="120"
-                          placeholder="Enter age"
+                          placeholder={contentData.form.placeholders.age}
                           value={age}
                           onChange={(e) => {
                             setAge(e.target.value)
@@ -294,7 +529,7 @@ export default function AnorexicBMICalculator() {
 
                       {/* Gender */}
                       <div>
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block">Gender</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.form.labels.gender}</Label>
                         <Select value={gender} onValueChange={setGender}>
                           <SelectTrigger
                             className={`h-12 rounded-xl border-gray-200 focus:border-red-400 ${errors.gender ? "border-red-300 focus:border-red-400" : ""
@@ -318,11 +553,11 @@ export default function AnorexicBMICalculator() {
                       {/* Height */}
                       <div>
                         <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">
-                          Height {unitSystem === "us" ? "(ft + in)" : "(cm)"}
+                          {contentData.form.labels.height} {unitSystem === "us" ? "(ft + in)" : "(cm)"}
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help group-hover:text-gray-600" />
                             <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none">
-                              Your current height measurement
+                              {contentData.tooltips.height}
                             </div>
                           </div>
                         </Label>
@@ -334,7 +569,7 @@ export default function AnorexicBMICalculator() {
                               type="number"
                               step="1"
                               min="0"
-                              placeholder="Feet"
+                              placeholder={contentData.form.placeholders.heightFt}
                               value={heightFt}
                               onChange={(e) => {
                                 setHeightFt(e.target.value)
@@ -348,7 +583,7 @@ export default function AnorexicBMICalculator() {
                               step="1"
                               min="0"
                               max="11"
-                              placeholder="Inches"
+                              placeholder={contentData.form.placeholders.heightIn}
                               value={heightIn}
                               onChange={(e) => {
                                 setHeightIn(e.target.value)
@@ -363,7 +598,7 @@ export default function AnorexicBMICalculator() {
                             type="number"
                             step="0.1"
                             min="0"
-                            placeholder="Enter height in cm"
+                            placeholder={contentData.form.placeholders.heightCm}
                             value={heightCm}
                             onChange={(e) => {
                               setHeightCm(e.target.value)
@@ -382,11 +617,11 @@ export default function AnorexicBMICalculator() {
                       {/* Weight */}
                       <div>
                         <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">
-                          Weight {unitSystem === "us" ? "(lb)" : "(kg)"}
+                          {contentData.form.labels.weight} {unitSystem === "us" ? "(lb)" : "(kg)"}
                           <div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help group-hover:text-gray-600" />
                             <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none">
-                              Your current body weight
+                              {contentData.tooltips.weight}
                             </div>
                           </div>
                         </Label>
@@ -396,7 +631,7 @@ export default function AnorexicBMICalculator() {
                           type="number"
                           step="0.1"
                           min="0"
-                          placeholder={`Enter weight in ${unitSystem === "us" ? "pounds" : "kilograms"}`}
+                          placeholder={getWeightPlaceholder()}
                           value={weight}
                           onChange={(e) => {
                             setWeight(e.target.value)
@@ -414,12 +649,12 @@ export default function AnorexicBMICalculator() {
 
                     <div className="mb-6 p-4 bg-red-50 rounded-lg border border-red-200">
                       <p className="text-sm text-gray-700">
-                        <strong>BMI Formula:</strong>{" "}
+                        <strong>{contentData.results.bmiFormula.label}:</strong>{" "}
                         {unitSystem === "us"
-                          ? "BMI = (weight in lb / (height in inches)²) × 703"
-                          : "BMI = weight in kg / (height in meters)²"}
+                          ? contentData.results.bmiFormula.us
+                          : contentData.results.bmiFormula.metric}
                       </p>
-                      <p className="text-xs text-gray-600 mt-1">Healthy BMI Range: 18.5 – 25 kg/m²</p>
+                      <p className="text-xs text-gray-600 mt-1">{contentData.results.healthyBmiRange}</p>
                     </div>
 
                     <div className="flex space-x-4">
@@ -427,7 +662,7 @@ export default function AnorexicBMICalculator() {
                         onClick={calculateBMI}
                         className="flex-1 h-12 text-lg bg-gradient-to-r from-red-600 to-orange-700 hover:from-red-700 hover:to-orange-800"
                       >
-                        Calculate BMI
+                        Calculate
                       </Button>
                       <Button
                         onClick={resetCalculator}
@@ -435,7 +670,7 @@ export default function AnorexicBMICalculator() {
                         className="h-12 px-6 border-red-300 text-red-700 hover:bg-red-50 bg-transparent"
                       >
                         <RotateCcw className="w-4 h-4 mr-2" />
-                        Reset
+                        {contentData.form.buttons.reset}
                       </Button>
                     </div>
                   </CardContent>
@@ -449,7 +684,7 @@ export default function AnorexicBMICalculator() {
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-red-600 to-orange-700 flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Scale className="w-6 h-6 text-white" />
                     </div>
-                    <CardTitle className="text-2xl font-bold text-red-700 tracking-tight">BMI Results</CardTitle>
+                    <CardTitle className="text-2xl font-bold text-red-700 tracking-tight">{contentData.results.bmiResultsTitle}</CardTitle>
                   </CardHeader>
                   <CardContent className="w-full text-center">
                     {showResult && result ? (
@@ -466,15 +701,15 @@ export default function AnorexicBMICalculator() {
                               }`}
                           >
                             <p className="text-3xl font-bold text-red-900">{result.bmi.toFixed(2)}</p>
-                            <p className="text-gray-600">BMI kg/m²</p>
+                            <p className="text-gray-600">{contentData.results.bmiValue}</p>
                           </div>
                           <div className="bg-white p-3 rounded-lg border border-red-200">
                             <p className="text-lg font-bold text-red-900">{result.severity}</p>
-                            <p className="text-gray-600">Classification</p>
+                            <p className="text-gray-600">{contentData.results.classification}</p>
                           </div>
                           <div className="bg-white p-3 rounded-lg border border-red-200">
                             <p className="text-sm font-bold text-green-700">18.5 - 25</p>
-                            <p className="text-gray-600">Healthy Range</p>
+                            <p className="text-gray-600">{contentData.results.healthyRange}</p>
                           </div>
                         </div>
                       </div>
@@ -499,7 +734,7 @@ export default function AnorexicBMICalculator() {
                   <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calculator className="w-6 h-6 text-red-600" />
-                      <span>BMI Analysis & Anorexia Assessment</span>
+                      <span>{contentData.messages.bmiAnalysis}</span>
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="p-8">
@@ -582,7 +817,7 @@ export default function AnorexicBMICalculator() {
                     </div>
 
                     <div className="mt-6 p-4 bg-gradient-to-r from-red-50 to-orange-50 rounded-lg border border-red-200">
-                      <h4 className="font-semibold text-red-700 mb-2">Assessment Result:</h4>
+                      <h4 className="font-semibold text-red-700 mb-2">{contentData.messages.assessmentResult}</h4>
                       <p className="text-gray-700 mb-2">{result.message}</p>
 
                       {result.criticalWarning && (
@@ -608,11 +843,9 @@ export default function AnorexicBMICalculator() {
                       <div className="flex items-start space-x-2">
                         <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
                         <div>
-                          <h4 className="font-semibold text-red-700 mb-1">Important Disclaimer</h4>
+                          <h4 className="font-semibold text-red-700 mb-1">{contentData.disclaimer.title}</h4>
                           <p className="text-sm text-red-600">
-                            This calculator is for informational purposes only. BMI is one indicator and not a
-                            diagnosis. Consult a healthcare professional for proper assessment and treatment of eating
-                            disorders.
+                            {contentData.disclaimer.content}
                           </p>
                         </div>
                       </div>
@@ -630,61 +863,60 @@ export default function AnorexicBMICalculator() {
                     <Scale className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle className="text-2xl font-bold text-red-700 tracking-tight">
-                    <h2>Understanding BMI & Anorexia Classification</h2>
+                    <h2>{contentData.educational.classifications}</h2>
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="w-full">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
-                      <h3 className="text-lg font-semibold text-red-700 mb-3">BMI Classifications</h3>
+                      <h3 className="text-lg font-semibold text-red-700 mb-3">{contentData.educational.classifications}</h3>
                       <div className="bg-white p-4 rounded-lg border border-red-200 mb-4">
                         <ul className="space-y-2 text-gray-700">
                           <li>
-                            <strong>Normal:</strong> BMI ≥ 18.5 - Does not suggest anorexia
+                            <strong>{contentData.educational.bmiClassifications.normal.title}:</strong> {contentData.educational.bmiClassifications.normal.description}
                           </li>
                           <li>
-                            <strong>Mild Anorexia:</strong> BMI 17.0 - 17.49
+                            <strong>{contentData.educational.bmiClassifications.mildAnorexia.title}:</strong> {contentData.educational.bmiClassifications.mildAnorexia.description}
                           </li>
                           <li>
-                            <strong>Moderate Anorexia:</strong> BMI 16.0 - 16.99
+                            <strong>{contentData.educational.bmiClassifications.moderateAnorexia.title}:</strong> {contentData.educational.bmiClassifications.moderateAnorexia.description}
                           </li>
                           <li>
-                            <strong>Severe Anorexia:</strong> BMI 15.0 - 15.99
+                            <strong>{contentData.educational.bmiClassifications.severeAnorexia.title}:</strong> {contentData.educational.bmiClassifications.severeAnorexia.description}
                           </li>
                           <li>
-                            <strong>Extreme Anorexia:</strong> BMI &lt; 15.0
+                            <strong>{contentData.educational.bmiClassifications.extremeAnorexia.title}:</strong> {contentData.educational.bmiClassifications.extremeAnorexia.description}
                           </li>
                         </ul>
                       </div>
-                      <h3 className="text-lg font-semibold text-red-700 mb-3">Critical Warnings</h3>
+                      <h3 className="text-lg font-semibold text-red-700 mb-3">{contentData.educational.criticalWarnings}</h3>
                       <div className="bg-white p-4 rounded-lg border border-red-200">
                         <ul className="space-y-2 text-gray-700">
                           <li>
-                            <strong>BMI &lt; 13.5:</strong> Risk of organ failure
+                            <strong>{contentData.educational.criticalWarningsList.organFailure.split(":")[0]}:</strong> {contentData.educational.criticalWarningsList.organFailure.split(":")[1]}
                           </li>
                           <li>
-                            <strong>BMI &lt; 12:</strong> Life-threatening condition
+                            <strong>{contentData.educational.criticalWarningsList.lifeThreatening.split(":")[0]}:</strong> {contentData.educational.criticalWarningsList.lifeThreatening.split(":")[1]}
                           </li>
                         </ul>
                       </div>
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-red-700 mb-3">Important Notes</h3>
+                      <h3 className="text-lg font-semibold text-red-700 mb-3">{contentData.educational.importantNotes}</h3>
                       <div className="bg-white p-4 rounded-lg border border-red-200 mb-4">
                         <ul className="list-disc list-inside text-gray-700 space-y-2">
-                          <li>BMI alone is not sufficient for diagnosing anorexia nervosa</li>
-                          <li>Clinical assessment requires psychological evaluation</li>
-                          <li>Age, muscle mass, and bone density affect BMI interpretation</li>
-                          <li>For children ≤20 years, use CDC growth charts</li>
+                          {contentData.educational.importantNotesList.map((note: string, index: number) => (
+                            <li key={index}>{note}</li>
+                          ))}
                         </ul>
                       </div>
-                      <h3 className="text-lg font-semibold text-red-700 mb-3">Healthy BMI Range</h3>
+                      <h3 className="text-lg font-semibold text-red-700 mb-3">{contentData.educational.healthyRange}</h3>
                       <div className="bg-white p-4 rounded-lg border border-red-200">
                         <p className="text-gray-700 mb-2">
-                          <strong>18.5 – 25 kg/m²</strong> is considered the healthy BMI range for adults.
+                          <strong>{contentData.educational.healthyRangeDetails.title}</strong> {contentData.educational.healthyRangeDetails.description}
                         </p>
                         <p className="text-gray-700">
-                          This range is associated with the lowest risk of health problems and mortality.
+                          {contentData.educational.healthyRangeDetails.association}
                         </p>
                       </div>
                     </div>
@@ -693,10 +925,9 @@ export default function AnorexicBMICalculator() {
                     <div className="flex items-start space-x-2">
                       <AlertTriangle className="w-5 h-5 text-red-700 mt-0.5 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-red-800 mb-1">Seek Professional Help</h4>
+                        <h4 className="font-semibold text-red-800 mb-1">{contentData.seekHelp.title}</h4>
                         <p className="text-sm text-red-700">
-                          If you or someone you know is struggling with eating disorders, please consult healthcare
-                          professionals. Early intervention and proper treatment are crucial for recovery.
+                          {contentData.seekHelp.content}
                         </p>
                       </div>
                     </div>
@@ -708,7 +939,7 @@ export default function AnorexicBMICalculator() {
 
           {/* How to Use Section */}
           <div className="mt-8">
-            <CalculatorGuide data={anorexicBmiData} />
+            <CalculatorGuide data={guideData} />
           </div>
         </main>
       </div>

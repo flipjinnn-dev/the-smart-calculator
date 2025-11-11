@@ -1,0 +1,180 @@
+{
+  "pageTitle": "Calculadora de gordura corporal",
+  "pageDescription": "Calcule o percentual de gordura corporal usando vários métodos, incluindo o método IMC, o método da Marinha dos EUA e outras abordagens científicas",
+  "form": {
+    "labels": {
+      "age": "Idade (anos)",
+      "gender": "Gênero",
+      "height": "Altura",
+      "weight": "Peso",
+      "unitSystem": "Sistema de Unidades",
+      "waist": "Circunferência da cintura",
+      "neck": "Circunferência do pescoço",
+      "hip": "Circunferência do quadril (somente mulheres)"
+    },
+    "placeholders": {
+      "age": "Insira a idade",
+      "heightFt": "Pés",
+      "heightIn": "Polegadas",
+      "heightCm": "Insira a altura em cm",
+      "weight": "Insira o peso em {unit}",
+      "waist": "Insira a medida da cintura",
+      "neck": "Insira a medida do pescoço",
+      "hip": "Insira a medida do quadril"
+    },
+    "buttons": {
+      "calculate": "Calcular gordura corporal",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades dos EUA (pés/pol., lb)",
+      "metric": "Unidades Métricas (cm, kg)"
+    }
+  },
+  "results": {
+    "bodyFatPercentage": "Porcentagem de gordura corporal",
+    "fatMass": "Massa Gorda",
+    "leanMass": "Massa magra",
+    "bodyFatResultsTitle": "Resultados de gordura corporal",
+    "bodyFatCategories": {
+      "essential": "Gordura Essencial",
+      "athletes": "Atletas",
+      "fitness": "Fitness",
+      "average": "Média",
+      "obese": "Obeso"
+    }
+  },
+  "educational": {
+    "bodyFatInfo": "Informações sobre gordura corporal",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Consulte um profissional",
+    "bodyFatMethods": {
+      "bmi": {
+        "title": "Método IMC",
+        "description": "Usa IMC e idade para estimar o percentual de gordura corporal"
+      },
+      "usNavy": {
+        "title": "Método da Marinha dos EUA",
+        "description": "Usa medidas de circunferência para resultados mais precisos"
+      },
+      "modifiedUSNavy": {
+        "title": "Método modificado da Marinha dos EUA",
+        "description": "Fórmula ajustada para maior precisão"
+      }
+    },
+    "bodyFatCategoriesInfo": {
+      "men": {
+        "essential": "2-5%",
+        "athletes": "6-13%",
+        "fitness": "14-17%",
+        "average": "18-24%",
+        "obese": "25% +"
+      },
+      "women": {
+        "essential": "10-13%",
+        "athletes": "14-20%",
+        "fitness": "21-24%",
+        "average": "25-31%",
+        "obese": "32% +"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas e não é uma ferramenta de diagnóstico",
+      "individualVariation": "A porcentagem de gordura corporal varia com base em muitos fatores individuais"
+    },
+    "importantNotesList": [
+      "Métodos diferentes podem produzir resultados diferentes",
+      "O percentual de gordura corporal é apenas uma medida de saúde",
+      "Consulte profissionais de saúde para uma análise precisa da composição corporal",
+      "O exercício regular e uma alimentação equilibrada são importantes para uma composição corporal saudável"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Insira suas medidas para calcular seu percentual de gordura corporal",
+    "bodyFatResult": "Seu percentual estimado de gordura corporal é {percentage}%",
+    "bodyFatCategory": "Isso se enquadra na categoria {category}",
+    "ageWarning": "Os cálculos de gordura corporal podem variar para diferentes faixas etárias",
+    "assessmentResult": "Resultado da Avaliação:",
+    "bodyFatAnalysis": "Análise de gordura corporal"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas baseadas em fórmulas matemáticas e não deve ser usada como um substituto para a análise profissional da composição corporal. Os resultados individuais podem variar com base em fatores não considerados nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Consulte um profissional de saúde",
+    "content": "Para uma análise precisa da composição corporal e aconselhamento de saúde personalizado, consulte um profissional de saúde ou um preparador físico certificado que possa fornecer orientação com base em seu histórico de saúde completo e nas circunstâncias individuais."
+  },
+  "errors": {
+    "age": "Insira uma idade válida (1-120)",
+    "gender": "Por favor selecione o sexo",
+    "heightFt": "Por favor insira pés válidos",
+    "heightIn": "Insira polegadas válidas (0-11)",
+    "heightCm": "Por favor insira uma altura válida em cm",
+    "weight": "Por favor insira um peso válido",
+    "waist": "Por favor insira uma medida de cintura válida",
+    "neck": "Insira uma medida válida do pescoço",
+    "hip": "Insira uma medida válida do quadril"
+  },
+  "tooltips": {
+    "age": "A idade afeta os cálculos de gordura corporal",
+    "height": "Sua medida de altura atual",
+    "weight": "Seu peso corporal atual",
+    "waist": "Meça no ponto mais estreito",
+    "neck": "Meça abaixo da laringe",
+    "hip": "Meça no ponto mais largo (somente mulheres)"
+  },
+  "loading_0": "Carregando...",
+  "body_fat_calculator_1": "Calculadora de gordura corporal",
+  "enter_your_measurements_to_calculate_body_fat_perc_2": "Insira suas medidas para calcular o percentual de gordura corporal",
+  "unit_system_3": "Sistema de Unidades",
+  "metric_units_4": "Unidades Métricas",
+  "us_units_5": "Unidades dos EUA",
+  "other_units_6": "Outras Unidades",
+  "gender_7": "Gênero",
+  "male_8": "Macho",
+  "female_9": "Fêmea",
+  "age_10": "Idade",
+  "weight_11": "Peso",
+  "height_12": "Altura",
+  "ft_13": "pés",
+  "in_14": "em",
+  "cm_15": "cm",
+  "neck_16": "Pescoço",
+  "ft_17": "pés",
+  "in_18": "em",
+  "cm_19": "cm",
+  "waist_20": "Cintura",
+  "ft_21": "pés",
+  "in_22": "em",
+  "cm_23": "cm",
+  "hip_24": "Quadril",
+  "ft_25": "pés",
+  "in_26": "em",
+  "cm_27": "cm",
+  "calculate_fat_28": "Calcular gordura",
+  "clear_29": "Claro",
+  "body_fat_analysis_30": "Análise de gordura corporal",
+  "your_complete_body_composition_breakdown_31": "Sua análise completa da composição corporal",
+  "body_fat_percentage_32": "Porcentagem de gordura corporal",
+  "body_fat_scale_33": "Escala de gordura corporal",
+  "k_0_34": "0%",
+  "k_25_35": "25%",
+  "k_50_36": "50%",
+  "detailed_results_37": "Resultados detalhados",
+  "body_fat_us_navy_38": "Gordura Corporal (Marinha dos EUA)",
+  "body_fat_category_39": "Categoria de gordura corporal",
+  "body_fat_mass_40": "Massa gorda corporal",
+  "lean_body_mass_41": "Massa corporal magra",
+  "ideal_body_fat_42": "Gordura Corporal Ideal",
+  "fat_to_lose_43": "Gordura para perder",
+  "body_fat_bmi_method_44": "Gordura Corporal (método IMC)",
+  "save_this_calculation_45": "Salve este cálculo",
+  "enter_your_measurements_to_calculate_body_fat_perc_46": "Insira suas medidas para calcular o percentual de gordura corporal",
+  "body_fat_categories_reference_47": "Referência de categorias de gordura corporal",
+  "description_48": "Descrição",
+  "women_49": "Mulheres",
+  "men_50": "Homens"
+}

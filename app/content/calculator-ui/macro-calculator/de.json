@@ -1,0 +1,224 @@
+{
+  "pageTitle": "Makrorechner",
+  "pageDescription": "Berechnen Sie den Makronährstoffbedarf (Protein, Kohlenhydrate, Fett) für Ihre Ziele, einschließlich Gewichtsverlust, Erhaltung oder Muskelaufbau",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "height": "Höhe",
+      "weight": "Gewicht",
+      "unitSystem": "Einheitensystem",
+      "activityLevel": "Aktivitätsniveau",
+      "goal": "Ziel",
+      "macroPreference": "Makropräferenz"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie Makros",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Bewegungsmangel (wenig oder keine Bewegung)",
+      "light": "Leicht aktiv (leichte Bewegung 1–3 Tage/Woche)",
+      "moderate": "Mäßig aktiv (mäßige Bewegung an 3–5 Tagen/Woche)",
+      "active": "Sehr aktiv (hartes Training an 6–7 Tagen/Woche)",
+      "veryActive": "Extrem aktiv (sehr harte Bewegung und körperliche Arbeit)"
+    },
+    "goals": {
+      "lose": "Gewichtsverlust",
+      "maintain": "Gewichtserhaltung",
+      "gain": "Muskelaufbau"
+    },
+    "macroPreferences": {
+      "balanced": "Ausgewogene Makros",
+      "highProtein": "Hoher Proteingehalt",
+      "lowCarb": "Low Carb",
+      "custom": "Benutzerdefiniertes Verhältnis"
+    }
+  },
+  "results": {
+    "calories": "Tägliche Kalorien",
+    "protein": "Protein",
+    "carbs": "Kohlenhydrate",
+    "fat": "Fett",
+    "macroResultsTitle": "Makroergebnisse",
+    "macroBreakdown": "Makroaufschlüsselung",
+    "calorieAdjustment": "Kalorienanpassung"
+  },
+  "educational": {
+    "macroInfo": "Informationen zu Makronährstoffen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Konsultieren Sie einen Fachmann",
+    "macroFunctions": {
+      "protein": {
+        "title": "Protein",
+        "description": "Unentbehrlich für den Muskelaufbau und die Muskelreparatur, das Sättigungsgefühl und die Hormonproduktion"
+      },
+      "carbs": {
+        "title": "Kohlenhydrate",
+        "description": "Primäre Energiequelle für Gehirn und Muskeln, insbesondere beim Training"
+      },
+      "fat": {
+        "title": "Fett",
+        "description": "Unverzichtbar für die Hormonproduktion, Vitaminaufnahme und langfristige Energiegewinnung"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Diagnosetool",
+      "individualVariation": "Makrobedürfnisse variieren je nach individuellen Faktoren und Zielen"
+    },
+    "importantNotesList": [
+      "Diese Berechnungen basieren auf allgemeinen Formeln und müssen möglicherweise angepasst werden",
+      "Hören Sie auf Ihren Körper und passen Sie ihn an Ihr Gefühl und Ihre Leistung an",
+      "Wenden Sie sich für eine individuelle Ernährungsberatung an einen registrierten Ernährungsberater",
+      "Die Konsistenz Ihrer Ernährung ist wichtiger als eine perfekte Makrozählung"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Geben Sie Ihre Daten ein, um Ihren Makronährstoffbedarf zu berechnen",
+    "macroResult": "Ihre täglichen Makronährstoffziele sind unten aufgeführt",
+    "goalAdjustment": "Basierend auf Ihrem {goal}-Ziel",
+    "assessmentResult": "Bewertungsergebnis:",
+    "macroAnalysis": "Makroanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen auf der Grundlage mathematischer Formeln und sollte nicht als Ersatz für eine professionelle Ernährungsberatung verwendet werden. Einzelne Ergebnisse können aufgrund von Faktoren, die in diesen Berechnungen nicht berücksichtigt wurden, variieren."
+  },
+  "seekHelp": {
+    "title": "Konsultieren Sie einen registrierten Ernährungsberater",
+    "content": "Für eine individuelle Ernährungsberatung und Essensplanung wenden Sie sich bitte an einen registrierten Ernährungsberater, der Sie auf der Grundlage Ihrer gesamten Krankengeschichte, Ernährungspräferenzen und individuellen Umstände beraten kann."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "activity": "Bitte wählen Sie das Aktivitätsniveau aus",
+    "goal": "Bitte wählen Sie ein Ziel aus",
+    "macroPreference": "Bitte wählen Sie die Makropräferenz aus"
+  },
+  "tooltips": {
+    "age": "Das Alter beeinflusst die Stoffwechselrate",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "activity": "Ihr regelmäßiges Aktivitätsniveau beeinflusst den Kalorienbedarf",
+    "goal": "Ihr Ziel bestimmt die Kalorienanpassung",
+    "macroPreference": "Ihre bevorzugte Makroverteilung"
+  },
+  "loading_0": "Laden...",
+  "macro_calculator_1": "Makrorechner",
+  "modify_the_values_and_click_the_calculate_button_t_2": "Ändern Sie die Werte und klicken Sie zur Verwendung auf die Schaltfläche „Berechnen“.",
+  "unit_system_3": "Einheitensystem",
+  "us_units_4": "US-Einheiten",
+  "metric_units_5": "Metrische Einheiten",
+  "other_units_6": "Andere Einheiten",
+  "age_7": "Alter",
+  "ages_18_80_8": "Alter 18 - 80",
+  "gender_9": "Geschlecht",
+  "male_10": "Männlich",
+  "female_11": "Weiblich",
+  "height_12": "Höhe",
+  "feet_13": "Füße",
+  "inches_14": "Zoll",
+  "cm_15": "cm",
+  "weight_16": "Gewicht",
+  "activity_17": "Aktivität",
+  "your_goal_18": "Ihr Ziel",
+  "bmr_estimation_formula_19": "BMR-Schätzformel",
+  "mifflin_st_jeor_20": "Mifflin St. Jeor",
+  "katchmcardle_21": "Katch-McArdle",
+  "body_fat_percentage_22": "Körperfettanteil",
+  "calculate_23": "Berechnen",
+  "macro_results_24": "Makroergebnisse",
+  "your_daily_macronutrient_breakdown_25": "Ihre tägliche Makronährstoffaufschlüsselung",
+  "balanced_26": "Ausgewogen",
+  "low_fat_27": "Wenig Fett",
+  "low_carb_28": "Low Carb",
+  "high_protein_29": "Hoher Proteingehalt",
+  "create_your_own_30": "Erstellen Sie Ihr eigenes",
+  "daily_calories_31": "Tägliche Kalorien",
+  "or_32": "oder",
+  "kjday_33": "kJ/Tag",
+  "macronutrients_34": "Makronährstoffe",
+  "protein_35": "Protein",
+  "g_36": "g",
+  "carbohydrates_37": "Kohlenhydrate",
+  "g_38": "g",
+  "fat_39": "Fett",
+  "g_40": "g",
+  "macro_ranges_41": "Makrobereiche",
+  "protein_range_42": "Proteinbereich",
+  "g_43": "g",
+  "carb_range_44": "Kohlenhydratbereich",
+  "g_45": "g",
+  "fat_range_46": "Fettbereich",
+  "g_47": "g",
+  "daily_limits_48": "Tageslimits",
+  "sugar_49": "Zucker",
+  "g_50": "g",
+  "saturated_fat_51": "Gesättigtes Fett",
+  "g_52": "g",
+  "metabolic_info_53": "Stoffwechselinformationen",
+  "bmr_54": "BMR",
+  "calories_55": "Kalorien",
+  "tdee_56": "TDEE",
+  "calories_57": "Kalorien",
+  "save_this_calculation_58": "Speichern Sie diese Berechnung",
+  "protein_59": "Protein (%)",
+  "carbs_60": "Kohlenhydrate (%)",
+  "fat_61": "Fett (%)",
+  "daily_calories_62": "Tägliche Kalorien",
+  "or_63": "oder",
+  "kjday_64": "kJ/Tag",
+  "macronutrients_65": "Makronährstoffe",
+  "protein_66": "Protein",
+  "g_67": "g",
+  "carbohydrates_68": "Kohlenhydrate",
+  "g_69": "g",
+  "fat_70": "Fett",
+  "g_71": "g",
+  "macro_ranges_72": "Makrobereiche",
+  "protein_range_73": "Proteinbereich",
+  "g_74": "g",
+  "carb_range_75": "Kohlenhydratbereich",
+  "g_76": "g",
+  "fat_range_77": "Fettbereich",
+  "g_78": "g",
+  "daily_limits_79": "Tageslimits",
+  "sugar_80": "Zucker",
+  "g_81": "g",
+  "saturated_fat_82": "Gesättigtes Fett",
+  "g_83": "g",
+  "metabolic_info_84": "Stoffwechselinformationen",
+  "bmr_85": "BMR",
+  "calories_86": "Kalorien",
+  "tdee_87": "TDEE",
+  "calories_88": "Kalorien",
+  "save_this_calculation_89": "Speichern Sie diese Berechnung",
+  "enter_your_details_and_click_calculate_to_see_your_90": "Geben Sie Ihre Daten ein und klicken Sie auf Berechnen, um Ihre Makros anzuzeigen",
+  "what_are_macronutrients_macros_91": "Was sind Makronährstoffe (Makros)?",
+  "in_the_context_of_health_and_fitness_macronutrient_92": "Im Zusammenhang mit Gesundheit und Fitness werden Makronährstoffe am häufigsten als chemische Stoffe definiert\n                    Verbindungen, die der Mensch in großen Mengen zu sich nimmt und die große Energiemengen liefern. Konkret verweisen sie\n                    zu Kohlenhydraten, Proteinen und Fetten. Einige Definitionen umfassen auch Wasser, Luft, Kalzium, Natrium,\n                    Chloridionen und einige andere Substanzen sowie typischere Makronährstoffe, da dies der Fall ist\n                    in großen Mengen vom menschlichen Körper benötigt. In diesem Rechner rechnen wir nur täglich\n                    Kohlenhydrat-, Protein- und Fettbedarf.",
+  "protein_93": "Protein",
+  "proteins_are_organic_compounds_comprised_of_amino__94": "Proteine ​​sind organische Verbindungen bestehend aus Aminosäuren und zählen zu den Makronährstoffen. \n                        Aminosäuren sind für das Wohlbefinden eines Menschen unerlässlich, und es gibt bestimmte Aminosäuren, die nur dazu in der Lage sind \n                        über die Nahrung aufgenommen werden. Diese Aminosäuren werden typischerweise als „essentielle Aminosäuren“ bezeichnet. \n                        und werden von Menschen und anderen Tieren durch den Verzehr von Proteinen aufgenommen.",
+  "carbohydrates_carbs_95": "Kohlenhydrate (Kohlenhydrate)",
+  "carbohydrates_often_referred_to_as_simply_carbs_ar_96": "Kohlenhydrate, oft einfach als „Kohlenhydrate“ bezeichnet, sind Verbindungen, die typischerweise klassifiziert werden \n                        B. Zucker, Stärke oder Ballaststoffe. Zucker ist neben Stärke und Ballaststoffen die einfachste Form von Kohlenhydraten \n                        sind komplexe Kohlenhydrate. Glukose ist ein Monosaccharid und einer der wichtigsten Energielieferanten \n                        für Menschen, aber auch für andere Tiere.",
+  "fat_97": "Fett",
+  "fats_are_molecules_that_are_comprised_primarily_of_98": "Fette sind Moleküle, die hauptsächlich aus Kohlenstoff- und Wasserstoffatomen bestehen. Häufige Beispiele \n                        Dazu gehören Cholesterin, Phospholipide und Triglyceride. Obwohl Fette im Zusammenhang mit der Ernährung \n                        werden typischerweise als ungesund angesehen, sie haben sowohl strukturelle als auch metabolische Funktionen, \n                        und sind ein notwendiger Bestandteil der menschlichen Ernährung.",
+  "important_99": "Wichtig:",
+  "the_results_above_are_a_guideline_for_more_typical_100": "Die obigen Ergebnisse dienen als Richtlinie für typischere Situationen. Bitte konsultieren Sie hierzu einen Arzt\n                      Ihr Bedarf an Makronährstoffen, wenn Sie Sportler sind, für einen bestimmten Zweck oder auf besondere Weise trainieren\n                      Diät aufgrund einer Krankheit, Schwangerschaft oder anderen Erkrankungen."
+}

@@ -1,0 +1,155 @@
+{
+  "pageTitle": "Annuity Payout Calculator",
+  "pageDescription": "Calculate the payout amount for an annuity based on various factors including initial investment, interest rates, and payout period for retirement income planning",
+  "form": {
+    "labels": {
+      "annuityAmount": "Annuity Investment Amount",
+      "interestRate": "Expected Annual Interest Rate",
+      "payoutPeriod": "Payout Period",
+      "payoutFrequency": "Payout Frequency",
+      "paymentTiming": "Payment Timing",
+      "inflationAdjustment": "Inflation Adjustment"
+    },
+    "placeholders": {
+      "annuityAmount": "Enter annuity investment amount",
+      "interestRate": "Enter expected annual interest rate (%)",
+      "payoutPeriod": "Enter payout period in years"
+    },
+    "buttons": {
+      "calculate": "Calculate Annuity Payout",
+      "reset": "Reset"
+    },
+    "payoutFrequencies": {
+      "annually": "Annually",
+      "semiAnnually": "Semi-Annually",
+      "quarterly": "Quarterly",
+      "monthly": "Monthly"
+    },
+    "paymentTimings": {
+      "beginning": "Beginning of Period",
+      "end": "End of Period"
+    },
+    "inflationAdjustments": {
+      "none": "No Adjustment",
+      "fixed": "Fixed Percentage Adjustment",
+      "variable": "Variable Based on Inflation Index"
+    }
+  },
+  "results": {
+    "periodicPayment": "Periodic Payment Amount",
+    "totalPayout": "Total Payout Over Period",
+    "totalInterest": "Total Interest Earned",
+    "annuityPayoutResultsTitle": "Annuity Payout Results"
+  },
+  "educational": {
+    "annuityPayoutInfo": "Annuity Payout Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "annuityPayoutFacts": {
+      "definition": {
+        "title": "Annuity Payout Definition",
+        "description": "Regular payments received from an annuity contract over a specified period or lifetime"
+      },
+      "immediateVsDeferred": {
+        "title": "Immediate vs Deferred Annuities",
+        "description": "Immediate annuities begin payments soon after purchase; deferred annuities accumulate value before payouts"
+      },
+      "inflationImpact": {
+        "title": "Inflation Impact",
+        "description": "Fixed payments lose purchasing power over time due to inflation"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides annuity payout estimates only",
+      "actual": "Actual annuity payouts may vary based on contract terms and market conditions"
+    },
+    "importantNotesList": [
+      "Fixed annuities provide predictable income but may lose purchasing power to inflation",
+      "Variable annuities offer growth potential but come with investment risk",
+      "Consider inflation protection options when purchasing annuities",
+      "Annuity payments are typically taxed as ordinary income"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your annuity information to calculate payout amounts",
+    "resultMessage": "Your annuity payout calculation results are shown below",
+    "assessmentResult": "Annuity Payout Calculation Result:",
+    "annuityPayoutAnalysis": "Annuity Payout Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides annuity payout estimates based on mathematical formulas. Actual annuity payouts may vary based on contract terms, fees, market conditions, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized annuity payout analysis and retirement income planning, consult financial advisors or insurance professionals with expertise in annuity products and individual financial circumstances."
+  },
+  "errors": {
+    "annuityAmount": "Please enter a valid annuity investment amount",
+    "interestRate": "Please enter a valid expected annual interest rate",
+    "payoutPeriod": "Please enter a valid payout period",
+    "payoutFrequency": "Please select a payout frequency",
+    "paymentTiming": "Please select payment timing",
+    "inflationAdjustment": "Please select inflation adjustment"
+  },
+  "tooltips": {
+    "annuityAmount": "Total amount invested in the annuity",
+    "interestRate": "Expected annual interest rate or rate of return",
+    "payoutPeriod": "Length of time over which payments will be received",
+    "payoutFrequency": "How often payments will be received",
+    "paymentTiming": "Whether payments are received at beginning or end of period",
+    "inflationAdjustment": "Whether payments will be adjusted for inflation"
+  },
+  "payout_calculator_0": "Payout Calculator",
+  "calculation_mode_1": "Calculation Mode",
+  "fixed_length_2": "Fixed Length",
+  "fixed_payment_3": "Fixed Payment",
+  "annuity_details_4": "Annuity Details",
+  "starting_principal_5": "Starting Principal",
+  "annual_interest_rate_6": "Annual Interest Rate (%)",
+  "payout_frequency_7": "Payout Frequency",
+  "annually_8": "Annually",
+  "semiannually_9": "Semiannually",
+  "quarterly_10": "Quarterly",
+  "monthly_11": "Monthly",
+  "semimonthly_12": "Semimonthly",
+  "biweekly_13": "Biweekly",
+  "years_to_payout_14": "Years to Payout",
+  "payment_amount_15": "Payment Amount",
+  "calculate_16": "Calculate",
+  "payout_results_17": "Payout Results",
+  "your_annuity_payout_breakdown_18": "Your annuity payout breakdown",
+  "your_payment_per_period_19": "Your Payment Per Period:",
+  "for_20": "for",
+  "years_21": "years",
+  "your_fund_will_last_22": "Your Fund Will Last:",
+  "years_23": "Years",
+  "months_24": "Months",
+  "with_25": "With $",
+  "payments_26": "payments",
+  "starting_principal_27": "Starting Principal",
+  "total_payments_28": "Total Payments",
+  "total_interest_earned_29": "Total Interest Earned",
+  "download_payout_schedule_csv_30": "Download Payout Schedule (CSV)",
+  "enter_your_annuity_details_to_see_payout_results_31": "Enter your annuity details to see payout results",
+  "amortization_schedule_32": "Amortization Schedule",
+  "detailed_breakdown_of_each_payment_period_showing__33": "Detailed breakdown of each payment period (showing first 12 periods)",
+  "period_34": "Period",
+  "beginning_balance_35": "Beginning Balance",
+  "interest_earned_36": "Interest Earned",
+  "payment_37": "Payment",
+  "ending_balance_38": "Ending Balance",
+  "showing_first_12_periods_of_39": "Showing first 12 periods of",
+  "total_periods_download_csv_for_complete_schedule_40": "total periods. Download CSV for complete\n                      schedule.",
+  "calculation_formula_41": "Calculation Formula",
+  "fixed_length_mode_42": "Fixed Length Mode",
+  "calculate_amount_given_principal_rate_and_duration_43": "Calculate amount given principal, rate, and duration:",
+  "pmt_p_rp_1_1_rpn_44": "PMT = P × r_p / (1 - (1 + r_p)^(-N))",
+  "where_p_principal_rp_periodic_rate_n_total_payment_45": "Where: P = Principal, r_p = Periodic Rate, N = Total Payments",
+  "fixed_payment_mode_46": "Fixed Payment Mode",
+  "calculate_given_principal_rate_and_payment_amount_47": "Calculate given principal, rate, and payment amount:",
+  "n_lnpmt_pmt_p_rp_ln1_rp_48": "N = ln(PMT / (PMT - P × r_p)) / ln(1 + r_p)",
+  "where_pmt_payment_amount_p_principal_rp_periodic_r_49": "Where: PMT = Payment Amount, P = Principal, r_p = Periodic Rate"
+}

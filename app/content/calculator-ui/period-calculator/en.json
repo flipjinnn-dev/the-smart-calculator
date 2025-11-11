@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Period  Calculator",
+  "pageDescription": "Calculate period  with our free online calculator",
+  "form": {
+    "labels": {
+      "input1": "Input 1",
+      "input2": "Input 2",
+      "input3": "Input 3"
+    },
+    "placeholders": {
+      "input1": "Enter first value",
+      "input2": "Enter second value",
+      "input3": "Enter third value"
+    },
+    "buttons": {
+      "calculate": "Calculate Period ",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "result1": "Result 1",
+    "result2": "Result 2",
+    "calculationDetails": "Period  Calculation Results"
+  },
+  "educational": {
+    "info": "Period  Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "Period  Definition",
+        "description": "Information about period "
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How period  is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of period "
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides period  estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate period ",
+    "resultMessage": "Your period  calculation results are shown below",
+    "assessmentResult": "Period  Calculation Result:",
+    "analysis": "Period  Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides period  estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  },
+  "period_tracking_0": "Period Tracking",
+  "enter_your_cycle_details_to_predict_your_next_peri_1": "Enter your cycle details to predict your next period and fertile days",
+  "first_day_of_your_last_period_lmp_2": "First day of your last period (LMP) *",
+  "average_cycle_length_days_3": "Average cycle length (days) *",
+  "days_4": "days",
+  "default_is_28_days_range_2244_days_5": "Default is 28 days. Range: 22-44 days",
+  "average_period_length_days_6": "Average period length (days)",
+  "days_7": "days",
+  "default_is_5_days_range_310_days_8": "Default is 5 days. Range: 3-10 days",
+  "calculate_9": "Calculate",
+  "reset_10": "Reset",
+  "next_period_11": "Next Period",
+  "expected_period_start_12": "Expected Period Start",
+  "cycle_length_13": "Cycle length:",
+  "days_14": "days",
+  "enter_your_cycle_details_to_predict_your_next_peri_15": "Enter your cycle details to predict your next period.",
+  "your_period_results_16": "Your Period Results",
+  "current_cycle_17": "Current Cycle",
+  "next_period_start_18": "Next Period Start:",
+  "estimated_ovulation_19": "Estimated Ovulation:",
+  "fertile_window_20": "Fertile Window:",
+  "cycle_information_21": "Cycle Information",
+  "cycle_length_22": "Cycle Length:",
+  "days_23": "days",
+  "period_length_24": "Period Length:",
+  "days_25": "days",
+  "last_period_26": "Last Period:",
+  "k_6month_forecast_27": "6-Month Forecast",
+  "month_28": "Month",
+  "period_start_29": "Period Start",
+  "period_end_30": "Period End",
+  "ovulation_31": "Ovulation",
+  "fertile_window_32": "Fertile Window",
+  "understanding_your_cycle_33": "Understanding Your Cycle",
+  "menstrual_cycle_phases_34": "Menstrual Cycle Phases",
+  "menstrual_phase_35": "Menstrual Phase:",
+  "days_15_period_bleeding_36": "Days 1-5 (period bleeding)",
+  "follicular_phase_37": "Follicular Phase:",
+  "days_113_egg_development_38": "Days 1-13 (egg development)",
+  "ovulation_39": "Ovulation:",
+  "around_day_14_egg_release_40": "Around day 14 (egg release)",
+  "luteal_phase_41": "Luteal Phase:",
+  "days_1528_preparation_for_pregnancy_42": "Days 15-28 (preparation for pregnancy)",
+  "calculation_method_43": "Calculation Method",
+  "next_period_44": "Next Period:",
+  "lmp_cycle_length_45": "LMP + Cycle Length",
+  "ovulation_46": "Ovulation:",
+  "lmp_cycle_length_14_47": "LMP + (Cycle Length - 14)",
+  "fertile_window_48": "Fertile Window:",
+  "ovulation_2_days_49": "Ovulation ± 2 days",
+  "forecast_50": "Forecast:",
+  "repeat_for_next_6_cycles_51": "Repeat for next 6 cycles",
+  "fertility_timing_52": "Fertility & Timing",
+  "most_fertile_53": "Most fertile:",
+  "k_2_days_before_ovulation_54": "2 days before ovulation",
+  "fertile_window_55": "Fertile window:",
+  "k_5_days_total_around_ovulation_56": "5 days total around ovulation",
+  "sperm_survival_57": "Sperm survival:",
+  "up_to_5_days_in_reproductive_tract_58": "Up to 5 days in reproductive tract",
+  "egg_survival_59": "Egg survival:",
+  "k_1224_hours_after_ovulation_60": "12-24 hours after ovulation",
+  "important_notes_61": "Important Notes",
+  "this_calculator_provides_estimates_based_on_averag_62": "This calculator provides estimates based on average cycles",
+  "actual_cycles_can_vary_due_to_stress_illness_or_li_63": "Actual cycles can vary due to stress, illness, or lifestyle",
+  "track_your_cycle_for_3_months_for_better_accuracy_64": "Track your cycle for 3+ months for better accuracy",
+  "consult_healthcare_providers_for_irregular_cycles_65": "Consult healthcare providers for irregular cycles"
+}

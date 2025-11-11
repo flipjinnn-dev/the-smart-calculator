@@ -1,0 +1,143 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "O que é a calculadora de gordura corporal?",
+      "content": "A Calculadora de Gordura Corporal é uma ferramenta gratuita e precisa que ajuda a estimar o percentual de gordura corporal e a composição geral. Ao usar dados como peso corporal, altura, sexo e medidas, ele fornece informações sobre massa magra, percentual de gordura e estado de saúde. Quer você seja um entusiasta do fitness, um atleta ou alguém que monitora métricas de saúde, esta calculadora ajuda você a tomar decisões informadas sobre dieta, exercícios e estilo de vida."
+    },
+    {
+      "heading": "Como a gordura corporal é medida",
+      "subSections": [
+        {
+          "heading": "Calculadora de IMC e gordura corporal",
+          "content": "O IMC mostra o peso corporal em relação à altura, mas não distingue entre músculo e gordura. Combinar o IMC com estimativas de gordura fornece uma imagem mais clara."
+        },
+        {
+          "heading": "Medições de fita",
+          "content": "Medir cintura, quadris e pescoço com uma fita pode estimar a gordura corporal. Este método é comum em calculadoras de gordura corporal do Exército e avaliações de atletas."
+        },
+        {
+          "heading": "Compassos de dobras cutâneas",
+          "content": "Os paquímetros medem a espessura das dobras cutâneas em pontos específicos do corpo. Confiável para rastreamento quando executado corretamente."
+        },
+        {
+          "heading": "Impedância Bioelétrica e Balanças Inteligentes",
+          "content": "Balanças e dispositivos inteligentes enviam uma corrente segura pelo corpo para estimar a gordura versus massa magra."
+        },
+        {
+          "heading": "Padrões militares e especializados",
+          "content": "A Calculadora de Gordura Corporal do Exército usa fórmulas padronizadas para avaliar a composição corporal quanto à aptidão e elegibilidade."
+        }
+      ]
+    },
+    {
+      "heading": "Faixas de gordura corporal por idade, sexo e metas de condicionamento físico",
+      "subSections": [
+        {
+          "heading": "Gordura Essencial",
+          "content": "Homens: 2–5%, Mulheres: 10–13% – Necessário para sobrevivência e funções hormonais."
+        },
+        {
+          "heading": "Atletas",
+          "content": "Homens: 6–13%, Mulheres: 14–20% — Ideal para desempenho competitivo."
+        },
+        {
+          "heading": "Fitness",
+          "content": "Homens: 14–17%, Mulheres: 21–24% — Faixa saudável para adultos ativos."
+        },
+        {
+          "heading": "Média",
+          "content": "Homens: 18–24%, Mulheres: 25–31% — Faixa típica para a população em geral."
+        },
+        {
+          "heading": "Obeso",
+          "content": "Homens: 25%+, Mulheres: 32%+ — Maior risco de problemas de saúde."
+        }
+      ]
+    },
+    {
+      "heading": "Dicas para reduzir a gordura corporal com segurança",
+      "subSections": [
+        {
+          "heading": "Exercício",
+          "content": "Combine o treinamento de força com exercícios aeróbicos regulares."
+        },
+        {
+          "heading": "Dieta Equilibrada",
+          "content": "Coma proteínas, fibras e gorduras saudáveis, evitando alimentos processados."
+        },
+        {
+          "heading": "Rastreamento de calorias",
+          "content": "Use calculadoras TDEE ou BMR para monitorar a ingestão de calorias."
+        },
+        {
+          "heading": "Hábitos de estilo de vida",
+          "content": "Durma bem, controle o estresse e evite dietas extremas."
+        }
+      ]
+    },
+    {
+      "heading": "Limitações das calculadoras de gordura corporal",
+      "subSections": [
+        {
+          "heading": "Apenas estimativas",
+          "content": "Os resultados podem não ser 100% precisos, pois fatores como hidratação e genética afetam os resultados."
+        },
+        {
+          "heading": "Não é um substituto médico",
+          "content": "Esta ferramenta não substitui o diagnóstico profissional ou aconselhamento de saúde."
+        },
+        {
+          "heading": "Variações de método",
+          "content": "Métodos diferentes (calibres, impedância, etc.) podem apresentar resultados ligeiramente diferentes."
+        },
+        {
+          "heading": "Melhores Práticas",
+          "content": "Use a calculadora regularmente e combine-a com outros métodos de monitoramento de condicionamento físico."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual é um percentual de gordura corporal saudável para homens e mulheres?",
+      "a": "Para adultos em geral: Homens 14–24%, Mulheres 21–31%. Os atletas podem ser inferiores."
+    },
+    {
+      "q": "Como calculo meu percentual de gordura corporal?",
+      "a": "Use métodos como fitas métricas, paquímetros, impedância bioelétrica ou nossa calculadora de gordura corporal online."
+    },
+    {
+      "q": "As calculadoras de gordura corporal são precisas?",
+      "a": "Eles fornecem estimativas. A precisão melhora quando vários métodos são combinados."
+    },
+    {
+      "q": "Como posso reduzir a gordura corporal com segurança?",
+      "a": "Siga uma dieta balanceada, exercícios consistentes, sono adequado e evite dietas extremas."
+    },
+    {
+      "q": "Qual é a diferença entre IMC e gordura corporal?",
+      "a": "O IMC mede peso versus altura, mas não separa a gordura do músculo. O percentual de gordura corporal mede a gordura versus massa magra."
+    },
+    {
+      "q": "Os atletas podem usar uma calculadora de gordura corporal?",
+      "a": "Sim, as calculadoras de gordura corporal para atletas fornecem informações personalizadas para os objetivos de treinamento."
+    },
+    {
+      "q": "A Calculadora de Gordura Corporal do Exército é diferente?",
+      "a": "Sim, utiliza fórmulas militares específicas para avaliar a elegibilidade."
+    },
+    {
+      "q": "Os idosos podem usar esta ferramenta?",
+      "a": "Sim, ajuda a monitorar as alterações na composição corporal relacionadas ao envelhecimento."
+    },
+    {
+      "q": "Com que frequência devo verificar meu percentual de gordura corporal?",
+      "a": "A cada 4–6 semanas para um rastreamento significativo."
+    },
+    {
+      "q": "A IA pode ajudar a monitorar meu progresso de gordura corporal?",
+      "a": "Sim, as calculadoras com tecnologia de IA podem analisar tendências e integrar-se a aplicativos de saúde."
+    }
+  ]
+}

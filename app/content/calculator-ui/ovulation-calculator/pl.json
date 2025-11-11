@@ -1,0 +1,134 @@
+{
+  "pageTitle": "Kalkulator owulacji",
+  "pageDescription": "Oblicz owulację za pomocą naszego bezpłatnego kalkulatora online",
+  "form": {
+    "labels": {
+      "input1": "Wejście 1",
+      "input2": "Wejście 2",
+      "input3": "Wejście 3"
+    },
+    "placeholders": {
+      "input1": "Wprowadź pierwszą wartość",
+      "input2": "Wprowadź drugą wartość",
+      "input3": "Wprowadź trzecią wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz owulację",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "result1": "Wynik 1",
+    "result2": "Wynik 2",
+    "calculationDetails": "Wyniki obliczeń owulacji"
+  },
+  "educational": {
+    "info": "Informacje o owulacji",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja owulacji",
+        "description": "Informacje o owulacji"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Jak obliczana jest owulacja"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Zastosowanie owulacji"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki dotyczące owulacji",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć owulację",
+    "resultMessage": "Wyniki obliczeń owulacji pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia owulacji:",
+    "analysis": "Analiza owulacji"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki owulacji w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "ovulation_calculation_0": "Obliczanie owulacji",
+  "enter_your_menstrual_cycle_details_to_calculate_ov_1": "Wprowadź szczegóły cyklu miesiączkowego, aby obliczyć daty owulacji",
+  "first_day_of_your_last_period_2": "Pierwszy dzień ostatniej miesiączki*",
+  "average_length_of_cycle_3": "Średnia długość cyklu *",
+  "days_4": "dni",
+  "average_menstrual_cycle_length_ranges_from_22_to_4_5": "Średnia długość cyklu miesiączkowego waha się od 22 do 44 dni (typowo 28 dni)",
+  "calculate_6": "Obliczać",
+  "reset_7": "Nastawić",
+  "fertility_window_8": "Okno płodności",
+  "most_probable_ovulation_9": "Najbardziej prawdopodobna owulacja",
+  "fertile_window_10": "Żyzne okno:",
+  "enter_your_cycle_details_to_calculate_your_fertile_11": "Wprowadź szczegóły swojego cyklu, aby obliczyć dni płodne.",
+  "your_ovulation_results_12": "Twoje wyniki owulacji",
+  "current_cycle_13": "Aktualny cykl",
+  "most_probable_ovulation_date_14": "Najbardziej prawdopodobna data owulacji:",
+  "ovulation_window_15": "Okno owulacyjne:",
+  "best_intercourse_window_16": "Najlepsze okno stosunku:",
+  "important_dates_17": "Ważne daty",
+  "pregnancy_test_date_18": "Data testu ciążowego:",
+  "next_period_start_19": "Początek następnego okresu:",
+  "due_date_if_pregnant_20": "Termin porodu (jeśli jesteś w ciąży):",
+  "next_6_cycles_forecast_21": "Prognoza następnych 6 cykli",
+  "cycle_22": "Cykl",
+  "cycle_start_23": "Rozpoczęcie cyklu",
+  "ovulation_date_24": "Data owulacji",
+  "fertile_window_25": "Żyzne okno",
+  "next_period_26": "Następny okres",
+  "due_date_27": "Termin",
+  "understanding_ovulation_28": "Zrozumienie owulacji",
+  "how_it_works_29": "Jak to działa",
+  "ovulation_typically_occurs_14_days_before_your_nex_30": "Owulacja ma miejsce zazwyczaj 14 dni przed następną miesiączką",
+  "the_egg_survives_for_about_1224_hours_after_ovulat_31": "Jajo przeżywa około 12-24 godzin po owulacji",
+  "sperm_can_survive_in_the_reproductive_tract_for_up_32": "Plemnik może przetrwać w drogach rodnych do 5 dni",
+  "the_fertile_window_is_approximately_6_days_long_33": "Okno płodne trwa około 6 dni",
+  "best_times_for_conception_34": "Najlepsze czasy na poczęcie",
+  "highest_probability_35": "Największe prawdopodobieństwo:",
+  "k_12_days_before_ovulation_36": "1-2 dni przed owulacją",
+  "good_probability_37": "Dobre prawdopodobieństwo:",
+  "day_of_ovulation_38": "Dzień owulacji",
+  "lower_probability_39": "Mniejsze prawdopodobieństwo:",
+  "k_35_days_before_ovulation_40": "3-5 dni przed owulacją",
+  "very_low_41": "Bardzo niski:",
+  "after_ovulation_day_42": "Po dniu owulacji",
+  "signs_of_ovulation_43": "Oznaki owulacji",
+  "changes_in_cervical_mucus_clear_stretchy_44": "Zmiany w śluzie szyjkowym (przejrzysty, rozciągliwy)",
+  "slight_increase_in_basal_body_temperature_45": "Nieznaczny wzrost podstawowej temperatury ciała",
+  "mild_pelvic_or_abdominal_pain_46": "Łagodny ból miednicy lub brzucha",
+  "breast_tenderness_47": "Tkliwość piersi",
+  "increased_libido_48": "Zwiększone libido",
+  "important_notes_49": "Ważne uwagi",
+  "this_calculator_provides_estimates_based_on_averag_50": "Kalkulator ten podaje szacunki na podstawie średnich cykli",
+  "actual_ovulation_can_vary_by_12_days_51": "Rzeczywista owulacja może różnić się o 1-2 dni",
+  "stress_illness_and_lifestyle_can_affect_timing_52": "Stres, choroba i styl życia mogą mieć wpływ na czas",
+  "consult_healthcare_providers_for_fertility_concern_53": "W przypadku problemów z płodnością skonsultuj się z podmiotami świadczącymi opiekę zdrowotną"
+}

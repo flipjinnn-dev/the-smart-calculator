@@ -1,0 +1,136 @@
+{
+  "pageTitle": "Einkommensteuerrechner",
+  "pageDescription": "Berechnen Sie die Einkommensteuer mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Einkommensteuer",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Einkommensteuerberechnung"
+  },
+  "educational": {
+    "info": "Informationen zur Einkommensteuer",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Einkommensteuerdefinition",
+        "description": "Informationen zur Einkommensteuer"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "So wird die Einkommensteuer berechnet"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendungsmöglichkeiten der Einkommensteuer"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Einkommensteuerschätzungen",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen zur Berechnung der Einkommensteuer ein",
+    "resultMessage": "Die Ergebnisse Ihrer Einkommensteuerberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Einkommensteuerberechnung:",
+    "analysis": "Einkommensteueranalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Einkommensteuerschätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "tax_calculator_0": "Steuerrechner",
+  "basic_information_1": "Grundlegende Informationen",
+  "filing_status_2": "Anmeldestatus",
+  "single_3": "Einzel",
+  "married_filing_jointly_4": "Eheschließung gemeinsam anmelden",
+  "married_filing_separately_5": "Eheschließung getrennt",
+  "head_of_household_6": "Haushaltsvorstand",
+  "qualified_widower_7": "Qualifizierte(r) Witwe(r)",
+  "tax_year_8": "Steuerjahr",
+  "k_2024_9": "2024",
+  "k_2025_10": "2025",
+  "young_dependents_016_11": "Junge Angehörige (0–16)",
+  "other_dependents_17_12": "Andere Angehörige (17+)",
+  "person_1_income_13": "Person 1 Einkommen",
+  "wages_tips_w2_box_1_14": "Löhne und Trinkgelder (W-2 Box 1)",
+  "federal_tax_withheld_w2_box_2_15": "Einbehaltene Bundessteuer (W-2 Box 2)",
+  "state_tax_withheld_w2_box_17_16": "Einbehaltene staatliche Steuer (W-2 Box 17)",
+  "businessselfemployment_income_17": "Einkünfte aus gewerblicher/selbständiger Erwerbstätigkeit",
+  "person_2_income_18": "Person 2 Einkommen",
+  "wages_tips_w2_box_1_19": "Löhne und Trinkgelder (W-2 Box 1)",
+  "federal_tax_withheld_w2_box_2_20": "Einbehaltene Bundessteuer (W-2 Box 2)",
+  "other_income_21": "Sonstige Einkünfte",
+  "interest_income_1099int_22": "Zinserträge (1099-INT)",
+  "ordinary_dividends_1099div_23": "Ordentliche Dividenden (1099-DIV)",
+  "qualified_dividends_1099div_24": "Qualifizierte Dividenden (1099-DIV)",
+  "longterm_capital_gains_25": "Langfristige Kapitalgewinne",
+  "other_income_26": "Sonstige Einkünfte",
+  "deductions_credits_27": "Abzüge und Gutschriften",
+  "ira_contributions_28": "IRA-Beiträge",
+  "real_estate_tax_29": "Immobiliensteuer",
+  "mortgage_interest_30": "Hypothekenzinsen",
+  "charitable_donations_31": "Wohltätige Spenden",
+  "calculate_32": "Berechnen",
+  "tax_results_33": "Steuerergebnisse",
+  "your_complete_tax_breakdown_34": "Ihre vollständige Steueraufschlüsselung",
+  "adjusted_gross_income_35": "Bereinigtes Bruttoeinkommen",
+  "taxable_income_36": "Steuerpflichtiges Einkommen",
+  "federal_tax_owed_37": "Bundessteuer geschuldet",
+  "selfemployment_tax_38": "Selbstständigkeitssteuer",
+  "total_tax_liability_39": "Gesamte Steuerschuld",
+  "tax_rates_40": "Steuersätze",
+  "effective_tax_rate_41": "Effektiver Steuersatz",
+  "marginal_tax_rate_42": "Grenzsteuersatz",
+  "deduction_used_43": "Verwendeter Abzug:",
+  "standard_44": "Standard: $",
+  "itemized_45": "| Aufgelistet: $",
+  "enter_your_tax_information_to_see_your_results_46": "Geben Sie Ihre Steuerinformationen ein, um Ihre Ergebnisse anzuzeigen",
+  "formulas_calculation_steps_47": "Formeln und Berechnungsschritte",
+  "k_1_gross_income_48": "1. Bruttoeinkommen",
+  "gross_wages_business_income_interest_dividends_cap_49": "Brutto = Löhne + Geschäftseinkommen + Zinsen + Dividenden + Kapitalgewinne + sonstige Einkünfte",
+  "k_2_adjusted_gross_income_agi_50": "2. Bereinigtes Bruttoeinkommen (AGI)",
+  "agi_gross_income_abovetheline_deductions_ira_stude_51": "AGI = Bruttoeinkommen – Abzüge über der Linie (IRA, Studentendarlehenszinsen usw.)",
+  "k_3_taxable_income_52": "3. Steuerpflichtiges Einkommen",
+  "taxable_income_agi_maxstandard_deduction_itemized__53": "Steuerpflichtiges Einkommen = AGI – max (Standardabzug, Einzelabzüge)",
+  "k_4_federal_tax_54": "4. Bundessteuer",
+  "applied_using_progressive_tax_brackets_based_on_fi_55": "Anwendung unter Verwendung progressiver Steuerklassen basierend auf dem Anmeldestatus"
+}

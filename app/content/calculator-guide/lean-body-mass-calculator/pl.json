@@ -1,0 +1,148 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator beztłuszczowej masy ciała?",
+      "content": "Kalkulator beztłuszczowej masy ciała pomaga oszacować, jaka część całkowitej masy ciała składa się z mięśni, kości, narządów, skóry i płynów – z wyłączeniem tkanki tłuszczowej. W przeciwieństwie do kalkulatora BMI, który uwzględnia tylko wagę i wzrost, kalkulator LBM zapewnia dokładniejszy obraz Twojego zdrowia, kondycji i metabolizmu. Aby uzyskać dokładne wyniki, wykorzystuje wzory takie jak równania Boera, Jamesa, Hume'a i Petersa."
+    },
+    {
+      "heading": "Co to jest beztłuszczowa masa ciała (LBM)?",
+      "subSections": [
+        {
+          "heading": "Definicja",
+          "content": "Beztłuszczowa masa ciała (LBM) to masa ciała pomniejszona o cały zgromadzony tłuszcz. Obejmuje mięśnie, kości, tkankę łączną, narządy i wodę."
+        },
+        {
+          "heading": "Formuła",
+          "content": "Beztłuszczowa masa ciała = Całkowita masa ciała – Masa tłuszczowa."
+        },
+        {
+          "heading": "Przykład",
+          "content": "Jeśli ważysz 80 kg i masz 20% tkanki tłuszczowej, Twój LBM wynosi 64 kg."
+        }
+      ]
+    },
+    {
+      "heading": "Jak obliczyć beztłuszczową masę ciała",
+      "subSections": [
+        {
+          "heading": "Formuła Burska",
+          "content": "Powszechnie stosowany w dawkowaniu medycznym."
+        },
+        {
+          "heading": "Formuła Jamesa",
+          "content": "Przeznaczony dla ogółu dorosłych."
+        },
+        {
+          "heading": "Formuła Hume’a",
+          "content": "Szeroko stosowany w praktyce klinicznej."
+        },
+        {
+          "heading": "Formuła Petersa",
+          "content": "Specjalnie zaprojektowany dla dzieci."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego beztłuszczowa masa ciała jest ważna?",
+      "subSections": [
+        {
+          "heading": "Fitness i kulturystyka",
+          "content": "Śledzi wzrost mięśni i utratę tłuszczu."
+        },
+        {
+          "heading": "Cele utraty wagi",
+          "content": "Pomaga zoptymalizować spalanie tłuszczu bez utraty mięśni."
+        },
+        {
+          "heading": "Zastosowanie medyczne",
+          "content": "Określa dawkę leku, czynność nerek i tempo metabolizmu."
+        },
+        {
+          "heading": "Wydajność sportowa",
+          "content": "Wyższe LBM wspiera siłę, wytrzymałość i regenerację."
+        }
+      ]
+    },
+    {
+      "heading": "Średnia beztłuszczowa masa ciała według płci",
+      "subSections": [
+        {
+          "heading": "Mężczyźni",
+          "content": "Zwykle 70–85% masy ciała."
+        },
+        {
+          "heading": "Kobiety",
+          "content": "Zwykle 60–75% masy ciała."
+        },
+        {
+          "heading": "Sportowcy",
+          "content": "Sportowcy i kulturyści często mają wyższy procent LBM."
+        }
+      ]
+    },
+    {
+      "heading": "Beztłuszczowa masa ciała vs. tkanka tłuszczowa vs. BMI",
+      "subSections": [
+        {
+          "heading": "LBM kontra tkanka tłuszczowa",
+          "content": "LBM to wszystko oprócz tłuszczu, podczas gdy tkanka tłuszczowa to tylko tłuszcz zmagazynowany."
+        },
+        {
+          "heading": "LBM kontra BMI",
+          "content": "BMI to stosunek masy do wzrostu i nie oddziela tłuszczu od mięśni, natomiast LBM daje bardziej precyzyjny wskaźnik stanu zdrowia."
+        },
+        {
+          "heading": "Najlepsze zastosowanie",
+          "content": "Połącz LBM + % tkanki tłuszczowej + BMI, aby uzyskać pełną ocenę stanu zdrowia."
+        }
+      ]
+    },
+    {
+      "heading": "Skorzystaj już teraz z naszego kalkulatora beztłuszczowej masy ciała",
+      "content": "Szybko oblicz beztłuszczową masę ciała online, korzystając z naszego bezpłatnego narzędzia. Wprowadź swoje dane, wybierz formułę i uzyskaj natychmiastowe wyniki dotyczące monitorowania stanu zdrowia, dawkowania leków i planowania kondycji."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator beztłuszczowej masy ciała?",
+      "a": "Szacuje ilość masy ciała, która nie jest tłuszczem, w tym mięśni, kości, wody i narządów."
+    },
+    {
+      "q": "Jak dokładny jest kalkulator beztłuszczowej masy ciała?",
+      "a": "Do dokładnych szacunków wykorzystuje sprawdzone klinicznie wzory (Boer, James, Hume, Peters), ale bezpośrednie testy składu ciała (DEXA, BIA) są bardziej precyzyjne."
+    },
+    {
+      "q": "Który wzór jest najlepszy do obliczenia LBM?",
+      "a": "Formuła Boera jest najlepsza do dawkowania medycznego, Formuła Jamesa do ogólnego użytku, Formuła Hume'a do zastosowań klinicznych, a Formuła Petersa dla dzieci."
+    },
+    {
+      "q": "Jaki jest procent zdrowej beztłuszczowej masy ciała?",
+      "a": "Mężczyźni: 70–85% masy ciała. Kobiety: 60–75%. Sportowcy często przekraczają te zakresy."
+    },
+    {
+      "q": "Czym LBM różni się od BMI?",
+      "a": "BMI mierzy jedynie wagę w stosunku do wzrostu, podczas gdy LBM oddziela masę tłuszczową od tkanki beztłuszczowej, zapewniając wyraźniejszy obraz stanu zdrowia."
+    },
+    {
+      "q": "Czy mogę używać Lean Body Mass do dawkowania leków?",
+      "a": "Tak, wielu lekarzy używa LBM do obliczania dawek leków, dawkowania chemioterapii i oceny czynności nerek."
+    },
+    {
+      "q": "Czy posiadanie większej beztłuszczowej masy ciała oznacza, że ​​jestem zdrowszy?",
+      "a": "Generalnie tak. Więcej LBM wspomaga szybszy metabolizm, silniejsze mięśnie i lepszy ogólny stan zdrowia."
+    },
+    {
+      "q": "Jak w naturalny sposób zwiększyć beztłuszczową masę ciała?",
+      "a": "Trening siłowy, odpowiednie spożycie białka, odpowiedni sen i treningi oporowe pomagają budować mięśnie i zwiększać LBM."
+    },
+    {
+      "q": "Czy beztłuszczowa masa ciała jest lepsza niż procent tkanki tłuszczowej w monitorowaniu kondycji?",
+      "a": "Obydwa są ważne. LBM pokazuje, ile masz mięśni, a procent tkanki tłuszczowej pokazuje, ile masz tłuszczu."
+    },
+    {
+      "q": "Czy korzystanie z kalkulatora beztłuszczowej masy ciała jest bezpłatne?",
+      "a": "Tak, nasz darmowy kalkulator beztłuszczowej masy ciała online jest dostępny w każdej chwili i bezpłatnie."
+    }
+  ]
+}

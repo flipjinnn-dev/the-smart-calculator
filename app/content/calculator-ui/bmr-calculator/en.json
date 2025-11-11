@@ -1,0 +1,213 @@
+{
+  "pageTitle": "BMR Calculator",
+  "pageDescription": "Calculate your Basal Metabolic Rate (BMR) to determine the number of calories your body needs at rest for basic physiological functions",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "weight": "Weight",
+      "height": "Height",
+      "unitSystem": "Unit System",
+      "calculationMethod": "Calculation Method"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}"
+    },
+    "buttons": {
+      "calculate": "Calculate BMR",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    },
+    "calculationMethods": {
+      "mifflin": "Mifflin-St Jeor Equation",
+      "harris": "Harris-Benedict Equation",
+      "revisedHarris": "Revised Harris-Benedict Equation"
+    }
+  },
+  "results": {
+    "bmr": "Basal Metabolic Rate (BMR)",
+    "caloriesPerDay": "Calories per Day",
+    "bmrResultsTitle": "BMR Results",
+    "formulaUsed": "Formula Used"
+  },
+  "educational": {
+    "bmrInfo": "BMR Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Nutritional Resources",
+    "bmrFacts": {
+      "definition": {
+        "title": "Basal Metabolic Rate Definition",
+        "description": "BMR is the number of calories your body needs to maintain basic physiological functions at rest"
+      },
+      "components": {
+        "title": "BMR Components",
+        "description": "BMR includes breathing, circulation, cell production, and basic organ function"
+      },
+      "factors": {
+        "title": "Factors Affecting BMR",
+        "description": "Age, gender, weight, height, muscle mass, and genetics all influence BMR"
+      }
+    },
+    "bmrFormulas": {
+      "mifflin": {
+        "title": "Mifflin-St Jeor Equation",
+        "description": "Considered the most accurate for healthy individuals"
+      },
+      "harris": {
+        "title": "Harris-Benedict Equation",
+        "description": "One of the oldest and still widely used BMR equations"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides BMR estimates only",
+      "individual": "BMR varies based on individual factors and health conditions"
+    },
+    "importantNotesList": [
+      "BMR represents calories needed at complete rest only",
+      "Actual daily needs are higher when including activity and exercise",
+      "Muscle mass increases BMR as muscle tissue burns more calories than fat",
+      "BMR decreases with age due to loss of muscle mass and metabolic changes"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your information to calculate Basal Metabolic Rate",
+    "resultMessage": "Your BMR is shown below",
+    "assessmentResult": "BMR Calculation Result:",
+    "bmrAnalysis": "BMR Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides BMR estimates based on mathematical formulas. Individual BMR may vary based on factors not accounted for in these calculations, including muscle mass, health conditions, and genetics."
+  },
+  "seekHelp": {
+    "title": "Nutritional Resources",
+    "content": "For personalized metabolic assessments and nutrition advice, consult healthcare professionals or registered dietitians with expertise in metabolic testing and individual health needs."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight",
+    "calculationMethod": "Please select a calculation method"
+  },
+  "tooltips": {
+    "age": "Age affects metabolic rate",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "calculationMethod": "Different equations may produce slightly different results",
+    "gender": "Gender affects BMR due to differences in body composition"
+  },
+  "bmr_calculation_0": "BMR Calculation",
+  "enter_your_details_to_calculate_your_basal_metabol_1": "Enter your details to calculate your Basal Metabolic Rate",
+  "bmr_formula_2": "BMR Formula",
+  "mifflinst_jeor_recommended_3": "Mifflin-St Jeor (Recommended)",
+  "revised_harrisbenedict_4": "Revised Harris-Benedict",
+  "katchmcardle_requires_body_fat_5": "Katch-McArdle (Requires Body Fat %)",
+  "unit_system_6": "Unit System",
+  "metric_kg_cm_7": "Metric (kg, cm)",
+  "us_lbs_ftin_8": "US (lbs, ft/in)",
+  "age_years_9": "Age (years)",
+  "age_range_1580_years_10": "Age range: 15-80 years",
+  "gender_11": "Gender",
+  "male_12": "Male",
+  "female_13": "Female",
+  "height_cm_14": "Height (cm)",
+  "height_in_centimeters_15": "Height in centimeters",
+  "height_ftin_16": "Height (ft/in)",
+  "feet_and_inches_17": "Feet and inches",
+  "weight_18": "Weight (",
+  "weight_in_19": "Weight in",
+  "body_fat_percentage_20": "Body Fat Percentage:",
+  "required_for_katchmcardle_formula_use_dexa_scan_or_21": "Required for Katch-McArdle formula. Use DEXA scan or body fat calipers for accuracy.",
+  "result_unit_22": "Result Unit",
+  "kcalday_23": "kcal/day",
+  "kjday_24": "kJ/day",
+  "calculate_25": "Calculate",
+  "reset_26": "Reset",
+  "bmr_result_27": "BMR Result",
+  "day_28": "/day",
+  "basal_metabolic_rate_29": "Basal Metabolic Rate",
+  "day_30": "/day",
+  "sedentary_no_exercise_31": "Sedentary (No exercise)",
+  "day_32": "/day",
+  "moderately_active_33": "Moderately Active",
+  "enter_your_details_and_click_calculate_see_your_bm_34": "Enter your details and click Calculate see your BMR and daily calorie needs.",
+  "bmr_daily_calorie_needs_35": "BMR & Daily Calorie Needs",
+  "day_36": "/day",
+  "your_basal_metabolic_rate_37": "Your Basal Metabolic Rate",
+  "this_is_the_number_of_calories_your_body_burns_at__38": "This is the number of calories your body burns at rest to maintain basic physiological\n                          functions.",
+  "sedentary_39": "Sedentary",
+  "day_40": "/day",
+  "little_or_no_exercise_41": "Little or no exercise",
+  "lightly_active_42": "Lightly Active",
+  "day_43": "/day",
+  "light_exercise_13_daysweek_44": "Light exercise 1-3 days/week",
+  "moderately_active_45": "Moderately Active",
+  "day_46": "/day",
+  "moderate_exercise_35_daysweek_47": "Moderate exercise 3-5 days/week",
+  "very_active_48": "Very Active",
+  "day_49": "/day",
+  "hard_exercise_67_daysweek_50": "Hard exercise 6-7 days/week",
+  "extra_active_51": "Extra Active",
+  "day_52": "/day",
+  "very_hard_exercise_physical_job_53": "Very hard exercise, physical job",
+  "calculation_details_54": "Calculation Details",
+  "formula_used_55": "Formula Used",
+  "lean_body_mass_56": "Lean Body Mass:",
+  "kg_57": "kg",
+  "base_bmr_58": "Base BMR:",
+  "kcalday_59": "kcal/day",
+  "input_summary_60": "Input Summary",
+  "age_61": "Age:",
+  "years_62": "years",
+  "gender_63": "Gender:",
+  "height_64": "Height:",
+  "cm_65": "cm",
+  "weight_66": "Weight:",
+  "kg_67": "kg",
+  "body_fat_68": "Body Fat:",
+  "formula_used_69": "Formula Used:",
+  "bmr_370_216_lbm_where_lbm_1_body_fat_100_weight_70": "BMR = 370 + (21.6 × LBM), where LBM = (1 - Body Fat % / 100) × Weight",
+  "understanding_bmr_71": "Understanding BMR",
+  "bmr_formulas_72": "BMR Formulas",
+  "mifflinst_jeor_73": "Mifflin-St Jeor:",
+  "most_accurate_for_general_population_74": "Most accurate for general population",
+  "harrisbenedict_75": "Harris-Benedict:",
+  "older_formula_still_widely_used_76": "Older formula, still widely used",
+  "katchmcardle_77": "Katch-McArdle:",
+  "best_for_lean_individuals_with_known_body_fat_78": "Best for lean individuals with known body fat %",
+  "activity_levels_79": "Activity Levels",
+  "sedentary_80": "Sedentary:",
+  "desk_job_no_exercise_bmr_12_81": "Desk job, no exercise (BMR × 1.2)",
+  "lightly_active_82": "Lightly Active:",
+  "light_exercise_13_daysweek_bmr_1375_83": "Light exercise 1-3 days/week (BMR × 1.375)",
+  "moderately_active_84": "Moderately Active:",
+  "moderate_exercise_35_daysweek_bmr_155_85": "Moderate exercise 3-5 days/week (BMR × 1.55)",
+  "very_active_86": "Very Active:",
+  "hard_exercise_67_daysweek_bmr_1725_87": "Hard exercise 6-7 days/week (BMR × 1.725)",
+  "extra_active_88": "Extra Active:",
+  "very_hard_exercise_physical_job_bmr_19_89": "Very hard exercise, physical job (BMR × 1.9)",
+  "example_calculation_90": "Example Calculation",
+  "k_28yearold_male_175_cm_70_kg_91": "28-year-old male, 175 cm, 70 kg",
+  "bmr_10_70_625_175_5_28_5_92": "BMR = (10 × 70) + (6.25 × 175) - (5 × 28) + 5",
+  "bmr_700_109375_140_5_93": "BMR = 700 + 1,093.75 - 140 + 5",
+  "bmr_1659_kcalday_94": "BMR = 1,659 kcal/day",
+  "moderately_active_1659_155_95": "Moderately Active = 1,659 × 1.55 =",
+  "k_2571_kcalday_96": "2,571 kcal/day",
+  "important_notes_97": "Important Notes",
+  "bmr_decreases_with_age_and_increases_with_muscle_m_98": "BMR decreases with age and increases with muscle mass",
+  "these_are_estimates_individual_metabolism_varies_99": "These are estimates - individual metabolism varies",
+  "for_weight_loss_create_a_moderate_calorie_deficit_100": "For weight loss, create a moderate calorie deficit",
+  "consult_healthcare_providers_for_personalized_advi_101": "Consult healthcare providers for personalized advice"
+}

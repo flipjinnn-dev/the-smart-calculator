@@ -1,0 +1,173 @@
+{
+  "pageTitle": "Weight Watchers Punkte Rechner",
+  "pageDescription": "Berechnen Sie Weight Watchers Punkte basierend auf Lebensmitteln und Nährwertangaben",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "height": "Größe",
+      "weight": "Gewicht",
+      "unitSystem": "Einheitensystem",
+      "activityLevel": "Aktivitätslevel"
+    },
+    "placeholders": {
+      "age": "Alter eingeben",
+      "heightFt": "Fuß",
+      "heightIn": "Zoll",
+      "heightCm": "Größe in cm eingeben",
+      "weight": "Gewicht in {unit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Punkte berechnen",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Sitzend (wenig oder keine Bewegung)",
+      "light": "Leicht (Bewegung 1-3 Tage/Woche)",
+      "moderate": "Moderat (Bewegung 3-5 Tage/Woche)",
+      "active": "Aktiv (Bewegung 6-7 Tage/Woche)",
+      "veryActive": "Sehr aktiv (harte Bewegung täglich)"
+    }
+  },
+  "results": {
+    "pointsValue": "Weight Watchers Punkte",
+    "dailyPoints": "Tägliche Punkte-Zulage",
+    "pointsResultsTitle": "Punkte-Ergebnisse",
+    "pointsFormula": {
+      "label": "Punkte-Formel",
+      "old": "Punkte = (Protein + Kohlenhydrate + Fett) / 100 + (Kalorien / 50)",
+      "new": "SmartPoints = (Protein × 11 + Zucker × 1 + Gesättigte Fette × 4 + Kalorien × 0,025) / 100"
+    }
+  },
+  "educational": {
+    "pointsInfo": "Weight Watchers Punkte-Informationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Zusätzliche Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Konsultieren Sie einen Fachmann",
+    "pointsSystems": {
+      "old": {
+        "title": "Altes Punktesystem",
+        "description": "Basierend auf Protein, Kohlenhydraten, Fett und Kalorien"
+      },
+      "new": {
+        "title": "SmartPoints System",
+        "description": "Betont Protein und minimiert Zucker und gesättigte Fette"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Diagnosewerkzeug",
+      "individualVariation": "Punkte-Bedarf variiert basierend auf individuellen Faktoren"
+    },
+    "importantNotesList": [
+      "Das neue SmartPoints-System ist ernährungsphysiologisch ausgewogener",
+      "Die persönliche Punkte-Zulage hängt von Alter, Geschlecht, Größe und Aktivitätslevel ab",
+      "Konsultieren Sie Weight Watchers für personalisierte Pläne",
+      "Punkte sollten zusammen mit insgesamt gesunden Essgewohnheiten betrachtet werden"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Geben Sie Ihre Maße ein, um Ihre Weight Watchers Punkte zu berechnen",
+    "pointsResult": "Ihre tägliche Weight Watchers Punkte-Zulage beträgt {points}",
+    "ageWarning": "Punkte-Berechnungen können für verschiedene Altersgruppen variieren",
+    "assessmentResult": "Bewertungsergebnis:",
+    "pointsAnalysis": "Punkte-Analyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen basierend auf mathematischen Formeln und sollte nicht als Ersatz für professionelle Weight Watchers Beratung verwendet werden. Individuelle Ergebnisse können basierend auf Faktoren variieren, die in diesen Berechnungen nicht berücksichtigt werden."
+  },
+  "seekHelp": {
+    "title": "Konsultieren Sie Weight Watchers",
+    "content": "Für genaue Punkte-Berechnungen und personalisierte Gewichtsverlustpläne konsultieren Sie bitte Weight Watchers oder einen registrierten Ernährungsberater, der Ihnen Anleitung basierend auf Ihrer vollständigen Krankengeschichte und individuellen Umständen geben kann."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1-120)",
+    "gender": "Bitte wählen Sie das Geschlecht",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll ein (0-11)",
+    "heightCm": "Bitte geben Sie gültige Größe in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "activity": "Bitte wählen Sie Aktivitätslevel"
+  },
+  "tooltips": {
+    "age": "Alter beeinflusst Punkte-Berechnungen",
+    "height": "Ihre aktuelle Größenmessung",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "activity": "Ihr regelmäßiger Aktivitätslevel beeinflusst Ihre Punkte-Zulage"
+  },
+  "smartpoints_calculation_0": "SmartPoints Berechnung",
+  "enter_nutritional_information_to_calculate_weight__1": "Geben Sie Nährwertangaben ein, um Weight Watchers SmartPoints zu berechnen",
+  "calories_kcal_2": "Kalorien (kcal)",
+  "total_calories_in_the_food_item_3": "Gesamtkalorien im Lebensmittel",
+  "saturated_fat_grams_4": "Gesättigte Fette (Gramm)",
+  "saturated_fat_content_in_grams_5": "Gesättigter Fettgehalt in Gramm",
+  "sugar_grams_6": "Zucker (Gramm)",
+  "total_sugar_content_in_grams_7": "Gesamtzuckergehalt in Gramm",
+  "protein_grams_8": "Protein (Gramm)",
+  "protein_content_in_grams_reduces_points_9": "Proteingehalt in Gramm (reduziert Punkte)",
+  "smartpoints_formula_20152021_10": "SmartPoints Formel (2015-2021):",
+  "points_00305_calories_0275_saturated_fat_012_sugar_11": "Punkte = (0,0305 × Kalorien) + (0,275 × Gesättigte Fette) + (0,12 × Zucker) - (0,098 × Protein)",
+  "result_is_rounded_to_the_nearest_whole_number_12": "Ergebnis wird auf die nächste ganze Zahl gerundet",
+  "calculate_13": "Berechnen",
+  "reset_14": "Zurücksetzen",
+  "smartpoints_15": "SmartPoints",
+  "points_16": "Punkte",
+  "weight_watchers_17": "Weight Watchers",
+  "smartpoints_value_18": "SmartPoints Wert",
+  "enter_nutritional_information_then_click_19": "Geben Sie Nährwertangaben ein und klicken Sie dann auf",
+  "calculate_20": "Berechnen",
+  "to_see_smartpoints_21": "um SmartPoints zu sehen.",
+  "smartpoints_calculation_breakdown_22": "SmartPoints Berechnungsaufschlüsselung",
+  "smartpoints_value_23": "SmartPoints Wert",
+  "points_24": "Punkte",
+  "raw_calculation_25": "Rohberechnung",
+  "before_rounding_26": "Vor Rundung",
+  "calculation_breakdown_27": "Berechnungsaufschlüsselung",
+  "calories_28": "Kalorien (",
+  "k_00305_29": "× 0,0305):",
+  "saturated_fat_30": "Gesättigte Fette (",
+  "g_0275_31": "g × 0,275):",
+  "sugar_32": "Zucker (",
+  "g_012_33": "g × 0,12):",
+  "protein_34": "Protein (",
+  "g_0098_35": "g × 0,098):",
+  "total_raw_points_36": "Gesamt-Rohpunkte:",
+  "final_smartpoints_rounded_37": "Finale SmartPoints (gerundet):",
+  "understanding_weight_watchers_smartpoints_38": "Weight Watchers SmartPoints verstehen",
+  "smartpoints_formula_20152021_39": "SmartPoints Formel (2015-2021)",
+  "calories_40": "Kalorien:",
+  "k_00305_41": "× 0,0305",
+  "saturated_fat_42": "Gesättigte Fette:",
+  "k_0275_43": "× 0,275",
+  "sugar_44": "Zucker:",
+  "k_012_45": "× 0,12",
+  "protein_46": "Protein:",
+  "k_0098_47": "- 0,098",
+  "historical_context_48": "Historischer Kontext",
+  "before_2010_49": "Vor 2010:",
+  "original_points_calories_fat_fiber_50": "Original-Punkte (Kalorien, Fett, Ballaststoffe)",
+  "k_20102015_51": "2010-2015:",
+  "pointsplus_protein_carbs_fat_fiber_52": "PointsPlus (Protein, Kohlenhydrate, Fett, Ballaststoffe)",
+  "k_20152021_53": "2015-2021:",
+  "smartpoints_this_calculator_54": "SmartPoints (dieser Rechner)",
+  "k_2022_55": "2022+:",
+  "updated_formulas_with_more_factors_56": "Aktualisierte Formeln mit mehr Faktoren",
+  "key_features_57": "Hauptmerkmale",
+  "protein_reduces_points_encourages_protein_intake_58": "Protein reduziert Punkte (fördert Proteinaufnahme)",
+  "sugar_and_saturated_fat_increase_points_59": "Zucker und gesättigte Fette erhöhen Punkte",
+  "calories_form_the_base_calculation_60": "Kalorien bilden die Basisberechnung",
+  "result_is_rounded_to_nearest_whole_number_61": "Ergebnis wird auf die nächste ganze Zahl gerundet",
+  "minimum_value_is_0_points_62": "Mindestwert ist 0 Punkte",
+  "usage_tips_63": "Verwendungstipps",
+  "use_nutrition_labels_for_accurate_values_64": "Verwenden Sie Nährwertkennzeichnungen für genaue Werte",
+  "track_all_ingredients_in_recipes_65": "Verfolgen Sie alle Zutaten in Rezepten",
+  "consider_portion_sizes_when_calculating_66": "Berücksichtigen Sie Portionsgrößen beim Berechnen",
+  "zeropoint_foods_dont_need_calculation_67": "Null-Punkte-Lebensmittel benötigen keine Berechnung",
+  "note_about_weight_watchers_68": "Hinweis zu Weight Watchers",
+  "this_calculator_uses_the_smartpoints_formula_from__69": "Dieser Rechner verwendet die SmartPoints-Formel von Dezember 2015 bis November 2021. Weight Watchers hat seitdem sein System aktualisiert. Für aktuelle Weight Watchers Programme beziehen Sie sich bitte auf ihre offizielle App und Materialien."
+}

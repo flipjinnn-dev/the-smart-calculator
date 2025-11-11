@@ -1,0 +1,115 @@
+{
+  "color": "vermelho",
+  "sections": [
+    {
+      "heading": "Por que usar nossa calculadora de pagamento de cartão de crédito?",
+      "subSections": [
+        {
+          "heading": "Informações sobre economia de juros",
+          "content": "Veja exatamente quanto de juros você pagará e quanto poderá economizar com pagamentos extras."
+        },
+        {
+          "heading": "Opções personalizáveis",
+          "content": "Escolha pagamentos fixos, pagamentos quinzenais ou pagamentos mensais extras fixos."
+        },
+        {
+          "heading": "Suporte a vários cartões",
+          "content": "Insira saldos para vários cartões e compare estratégias lado a lado."
+        },
+        {
+          "heading": "Comparação de Avalanche vs Snowball",
+          "content": "Decida se segmentar primeiro cartões com TAEG alta (avalanche) ou cartões com saldo baixo (bola de neve) é melhor para o seu orçamento."
+        },
+        {
+          "heading": "Cronograma imprimível e compartilhável",
+          "content": "Obtenha um cronograma de pagamento claro no estilo de amortização que você pode imprimir ou exportar."
+        },
+        {
+          "heading": "Gráficos de recompensa visual",
+          "content": "Acompanhe sua jornada sem dívidas com gráficos interativos."
+        }
+      ]
+    },
+    {
+      "heading": "Como usar a calculadora de pagamento de cartão de crédito",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Insira seu saldo, taxa de juros (APR) e pagamento mensal atual para cada cartão."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Selecione entre planos de avalanche de dívidas, bola de neve ou pagamento personalizado."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Teste como fazer pagamentos extras mensais ou únicos altera seu cronograma de pagamento."
+        },
+        {
+          "heading": "Etapa 4",
+          "content": "Veja a data estimada de pagamento, o total de juros pagos e as economias potenciais."
+        },
+        {
+          "heading": "Etapa 5",
+          "content": "Baixe ou imprima seu cronograma de pagamentos personalizado para se manter motivado."
+        }
+      ]
+    },
+    {
+      "heading": "Como funciona a calculadora (fórmulas e metodologia)",
+      "subSections": [
+        {
+          "heading": "Juros por mês",
+          "content": "Juros = (APR ÷ 12) × Saldo Atual."
+        },
+        {
+          "heading": "Novo equilíbrio",
+          "content": "Novo Saldo = Saldo Anterior + Juros – Pagamento."
+        },
+        {
+          "heading": "Estratégias de múltiplas cartas",
+          "content": "Método Avalanche → Pague primeiro a TAEG mais alta e os mínimos nos outros. Método bola de neve → Pague primeiro o menor saldo e depois avance os pagamentos."
+        }
+      ]
+    },
+    {
+      "heading": "Exemplos de cenários de recompensa",
+      "subSections": [
+        {
+          "heading": "Exemplo de cartão único",
+          "content": "Um saldo de $ 5.000 com APR de 20% com um pagamento mensal de $ 200 levará cerca de 32 meses para ser pago, com mais de $ 1.400 em juros. Adicionar US$ 100 extras por mês reduz o tempo de pagamento para 21 meses e economiza quase US$ 700."
+        },
+        {
+          "heading": "Exemplo de vários cartões",
+          "content": "Se você deve $ 3.000 com APR de 18% e $ 2.000 com APR de 25%, o método avalanche economiza mais juros, enquanto o método bola de neve proporciona ganhos psicológicos mais rápidos."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como calculo a data de pagamento do meu cartão de crédito?",
+      "a": "Insira seu saldo, APR e pagamentos na calculadora. Ele estimará a data de pagamento e os juros totais."
+    },
+    {
+      "q": "Qual é o melhor método para saldar dívidas de cartão de crédito?",
+      "a": "O método da avalanche geralmente economiza mais dinheiro ao lidar primeiro com as cartas com juros altos, enquanto o método da bola de neve ajuda na motivação ao liquidar pequenos saldos rapidamente."
+    },
+    {
+      "q": "Como esta calculadora se compara à consolidação de dívidas?",
+      "a": "Ao contrário de um empréstimo de consolidação de dívidas ou cartão de transferência de saldo, esta calculadora mostra o caminho de pagamento com suas contas existentes."
+    },
+    {
+      "q": "Posso usar isso como uma calculadora de pagamento de vários cartões de crédito?",
+      "a": "Sim. Insira detalhes de vários cartões e escolha uma estratégia para ver como diferentes abordagens afetam seu cronograma."
+    },
+    {
+      "q": "E se eu fizer apenas pagamentos mínimos?",
+      "a": "A calculadora mostra como pagar apenas o mínimo amplia sua dívida e aumenta os juros totais."
+    },
+    {
+      "q": "Devo usar uma transferência de saldo em vez desta ferramenta?",
+      "a": "Uma transferência de saldo pode reduzir os juros se você se qualificar para uma APR introdutória de 0%, mas a calculadora ajuda a comparar se é mais benéfico seguir um plano de pagamento ou transferir saldos."
+    }
+  ]
+}

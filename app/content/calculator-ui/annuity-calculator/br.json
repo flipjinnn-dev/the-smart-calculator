@@ -1,0 +1,149 @@
+{
+  "pageTitle": "Calculadora de Anuidade",
+  "pageDescription": "Calcule o valor futuro de uma anuidade com base em contribuições regulares e taxas de juros para planejamento de aposentadoria e análise de investimentos",
+  "form": {
+    "labels": {
+      "presentValue": "Valor Presente (Investimento Inicial)",
+      "paymentAmount": "Valor do pagamento",
+      "interestRate": "Taxa de juros anual",
+      "numberOfPeriods": "Número de Períodos",
+      "paymentFrequency": "Frequência de pagamento",
+      "compoundingFrequency": "Frequência Composta",
+      "paymentTiming": "Prazo de pagamento"
+    },
+    "placeholders": {
+      "presentValue": "Insira o valor presente ou investimento inicial",
+      "paymentAmount": "Insira o valor do pagamento",
+      "interestRate": "Insira a taxa de juros anual (%)",
+      "numberOfPeriods": "Insira o número de períodos"
+    },
+    "buttons": {
+      "calculate": "Calcular o valor da anuidade",
+      "reset": "Reiniciar"
+    },
+    "paymentFrequencies": {
+      "annually": "Anualmente",
+      "semiAnnually": "Semestralmente",
+      "quarterly": "Trimestral",
+      "monthly": "Mensal"
+    },
+    "paymentTimings": {
+      "beginning": "Início do período",
+      "end": "Fim do período"
+    }
+  },
+  "results": {
+    "futureValue": "Valor Futuro",
+    "totalPayments": "Total de pagamentos",
+    "totalInterest": "Juros totais ganhos",
+    "annuityResultsTitle": "Resultados do cálculo da anuidade"
+  },
+  "educational": {
+    "annuityInfo": "Informações sobre anuidade",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "annuityFacts": {
+      "definition": {
+        "title": "Definição de anuidade",
+        "description": "Produto financeiro que oferece pagamentos regulares durante um período especificado em troca de um montante fixo inicial ou de uma série de pagamentos"
+      },
+      "types": {
+        "title": "Tipos de anuidade",
+        "description": "As anuidades fixas oferecem retornos garantidos; anuidades variáveis ​​oferecem retornos baseados no mercado"
+      },
+      "presentValue": {
+        "title": "Cálculo do valor presente",
+        "description": "Determina o valor atual de uma série de pagamentos futuros"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de valor de anuidade",
+      "actual": "Os valores reais da anuidade podem variar com base nos termos do contrato e nas condições de mercado"
+    },
+    "importantNotesList": [
+      "Anuidades podem fornecer renda garantida na aposentadoria",
+      "Considere taxas e encargos de resgate antes de comprar anuidades",
+      "As anuidades fixas oferecem retornos previsíveis, mas podem não acompanhar a inflação",
+      "Anuidades variáveis ​​oferecem potencial de crescimento, mas apresentam risco de investimento"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações de anuidade para calcular o valor futuro",
+    "resultMessage": "Os resultados do cálculo da sua anuidade são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da anuidade:",
+    "annuityAnalysis": "Análise de Anuidade"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas do valor da anuidade com base em fórmulas matemáticas. Os valores reais da anuidade podem variar com base nos termos do contrato, taxas, condições de mercado e outros fatores não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para aconselhamento personalizado sobre anuidades e planejamento de aposentadoria, consulte consultores financeiros ou profissionais de seguros com experiência em produtos de anuidades e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "presentValue": "Insira um valor presente válido",
+    "paymentAmount": "Insira um valor de pagamento válido",
+    "interestRate": "Insira uma taxa de juros anual válida",
+    "numberOfPeriods": "Insira um número válido de períodos",
+    "paymentFrequency": "Selecione uma frequência de pagamento",
+    "compoundingFrequency": "Selecione uma frequência de composição",
+    "paymentTiming": "Selecione o prazo de pagamento"
+  },
+  "tooltips": {
+    "presentValue": "Investimento inicial fixo na anuidade",
+    "paymentAmount": "Valor do pagamento regular contribuído para a anuidade",
+    "interestRate": "Taxa de juros anual esperada ou taxa de retorno",
+    "numberOfPeriods": "Número total de períodos de pagamento",
+    "paymentFrequency": "Com que frequência os pagamentos são feitos",
+    "compoundingFrequency": "Com que frequência os juros são compostos",
+    "paymentTiming": "Se os pagamentos são feitos no início ou no final do período"
+  },
+  "calculator_inputs_0": "Entradas da calculadora",
+  "starting_principal_1": "Diretor inicial",
+  "initial_investment_amount_2": "Valor do Investimento Inicial",
+  "regular_additions_3": "Adições regulares",
+  "annual_addition_4": "Adição Anual",
+  "monthly_addition_5": "Adição Mensal",
+  "add_at_each_periods_beginning_annuity_due_6": "Adicionar no início de cada período (Anuidade Vencida)",
+  "when_enabled_deposits_are_made_at_the_beginning_of_7": "Quando habilitado, os depósitos são feitos no início de cada período e rendem juros imediatamente.",
+  "growth_parameters_8": "Parâmetros de crescimento",
+  "annual_growth_rate_9": "Taxa de crescimento anual (%)",
+  "after_years_10": "Depois de anos",
+  "note_11": "Observação:",
+  "monthly_deposits_use_monthly_compounding_annual_de_12": "Os depósitos mensais utilizam composição mensal; depósitos anuais usam anual\n                        composição.",
+  "calculate_13": "Calcular",
+  "results_14": "Resultados",
+  "end_balance_total_additions_interest_earned_15": "Saldo final, adições totais, juros ganhos",
+  "final_balance_after_16": "Saldo Final Depois",
+  "years_17": "Anos:",
+  "based_on_18": "Baseado em",
+  "annual_growth_rate_with_19": "% taxa de crescimento anual com",
+  "ofperiod_deposits_20": "-depósitos de período",
+  "starting_principal_21": "Diretor inicial",
+  "total_additions_22": "Adições totais",
+  "interest_earned_23": "Juros ganhos",
+  "interest_percentage_24": "Porcentagem de juros",
+  "monthly_schedule_25": "Agenda Mensal",
+  "accumulation_schedule_26": "Cronograma de acumulação",
+  "csv_27": "CSV",
+  "month_28": "Mês",
+  "starting_29": "Começando",
+  "interest_30": "Interesse",
+  "monthly_add_31": "Adição Mensal",
+  "annual_add_32": "Adição Anual",
+  "ending_33": "Final",
+  "enter_your_annuity_information_to_see_your_results_34": "Insira suas informações de anuidade para ver seus resultados",
+  "formulas_notes_35": "Fórmulas e Notas",
+  "future_value_of_starting_principal_36": "Valor futuro do principal inicial",
+  "fvprincipal_p_1_r_37": "FV_principal = P₀ × (1 + r)ⁿ",
+  "annual_additions_ordinary_38": "Adições Anuais (Ordinárias)",
+  "fvannual_aannual_1_r_1_r_39": "FV_anual = A_anual × [(1 + r)ⁿ - 1] / r",
+  "annual_additions_annuity_due_40": "Adições anuais (anuidade vencida)",
+  "fvannualdue_fvannual_1_r_41": "VF_anual_vencido = VF_anual × (1 + r)",
+  "monthly_additions_42": "Adições mensais",
+  "rm_1_r112_1_43": "r_m = (1 + r)^(1/12) - 1",
+  "fvmonthly_amonthly_1_rmn_1_rm_44": "FV_mensal = A_mensal × [(1 + r_m)^N - 1] / r_m"
+}

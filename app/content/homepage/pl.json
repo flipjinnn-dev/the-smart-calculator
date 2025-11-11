@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Smart Calculator - Darmowe kalkulatory online do każdego zastosowania",
+    "description": "Skorzystaj z setek darmowych kalkulatorów online do finansów, zdrowia, matematyki, fizyki i nie tylko. Szybkie, dokładne i łatwe w użyciu narzędzia do obliczeń.",
+    "keywords": "kalkulator, kalkulator online, kalkulator finansowy, kalkulator zdrowia, kalkulator matematyczny, darmowe narzędzia"
+  },
+  "header": {
+    "title": "Smart Kalkulatory",
+    "subtitle": "Darmowe kalkulatory online"
+  },
+  "hero": {
+    "title": "Twoje życie w <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">90+ darmowych</span> kalkulatorach",
+    "description": "Od planowania finansów po śledzenie zdrowia - odkryj potężne narzędzia obliczeniowe, które czynią złożoną matematykę prostą i dostępną."
+  },
+  "search": {
+    "title": "Znajdź swój kalkulator",
+    "placeholder": "Przeszukaj setki darmowych narzędzi"
+  },
+  "categories": {
+    "title": "Kategorie kalkulatorów",
+    "description": "Przeglądaj naszą kompleksową kolekcję wyspecjalizowanych kalkulatorów",
+    "financial": {
+      "name": "finansowy",
+      "description": "Kalkulatory kredytów, hipotek, inwestycji i podatków"
+    },
+    "health": {
+      "name": "Zdrowie i fitness",
+      "description": "Kalkulatory BMI, kalorii, odżywiania i medyczne"
+    },
+    "maths": {
+      "name": "Matematyka",
+      "description": "Algebra, geometria, statystyka i matematyka zaawansowana"
+    },
+    "physics": {
+      "name": "Fizyka",
+      "description": "Obliczenia siły, energii, ruchu i fizyki"
+    },
+    "construction": {
+      "name": "budowa",
+      "description": "Obliczenia nieruchomości, czynszu i budowy"
+    },
+    "food": {
+      "name": "Żywność",
+      "description": "Kalkulatory odżywiania, kalorii i planowania posiłków"
+    },
+    "sports": {
+      "name": "Sport",
+      "description": "Kalkulatory fitness, ćwiczeń i sportu"
+    },
+    "other": {
+      "name": "Inne",
+      "description": "Różne kalkulatory, które nie pasują do innych kategorii"
+    }
+  },
+  "popular": {
+    "title": "Najpopularniejsze kalkulatory",
+    "description": "Nasze najczęściej używane narzędzia obliczeniowe",
+    "calculators": [
+      {
+        "name": "Kalkulator hipoteczny",
+        "category": "finansowy",
+        "description": "Oblicz miesięczne raty i całkowite odsetki dla swojego kredytu hipotecznego"
+      },
+      {
+        "name": "Kalkulator BMI",
+        "category": "Zdrowie",
+        "description": "Oblicz swój wskaźnik masy ciała i zrozum swoje BMI"
+      },
+      {
+        "name": "Kalkulator kredytowy",
+        "category": "finansowy",
+        "description": "Oblicz raty i harmonogramy spłat dla dowolnego rodzaju kredytu"
+      },
+      {
+        "name": "Kalkulator procentowy",
+        "category": "Matematyka",
+        "description": "Łatwo oblicz procenty, proporcje i zmiany procentowe"
+      },
+      {
+        "name": "Procent składany",
+        "category": "finansowy",
+        "description": "Oblicz wzrost inwestycji w czasie z procentem składanym"
+      },
+      {
+        "name": "Kalkulator kalorii",
+        "category": "Zdrowie",
+        "description": "Oblicz dzienne zapotrzebowanie kaloryczne na podstawie stylu życia i celów"
+      }
+    ]
+  },
+  "features": {
+    "title": "Dlaczego warto wybrać Smart Calculator?",
+    "description": "Szybki, dokładny i całkowicie darmowy w użyciu",
+    "items": [
+      {
+        "title": "Błyskawiczny",
+        "description": "Uzyskaj natychmiastowe wyniki dzięki zoptymalizowanym silnikom obliczeniowym"
+      },
+      {
+        "title": "100% dokładny",
+        "description": "Wszystkie kalkulatory są weryfikowane przez ekspertów i matematycznie precyzyjne"
+      },
+      {
+        "title": "Zawsze darmowy",
+        "description": "Pełny dostęp do wszystkich kalkulatorów bez ukrytych opłat"
+      }
+    ]
+  }
+}

@@ -1,83 +1,174 @@
-"use client"
+"use client";
 
-import { useRef, useState } from "react"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Button } from "@/components/ui/button"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import Link from "next/link"
-import { useMobileScroll } from "@/hooks/useMobileScroll"
-import { Calculator, RotateCcw, Dumbbell, Target, TrendingUp } from "lucide-react"
-import Logo from "@/components/logo"
-import SEO from "@/lib/seo"
-import CalculatorGuide from "@/components/calculator-guide"
-import oneRepMaxData from "@/app/content/one-rap-calculator.json"
+import { useCalculatorContent } from "@/hooks/useCalculatorContent";
+import { usePathname } from "next/navigation";
+import { useRef, useState } from "react";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
-export default function OneRepMaxCalculator() {
-  const resultsRef = useRef<HTMLDivElement>(null)
-  const scrollToRef = useMobileScroll()
-  const [result, setResult] = useState<any>(null)
-  const [showResult, setShowResult] = useState(false)
-  const [errors, setErrors] = useState<{ [key: string]: string }>({})
+import { useMobileScroll } from "@/hooks/useMobileScroll";
+import { Calculator, RotateCcw, Dumbbell, Target, TrendingUp } from "lucide-react";
+import CalculatorGuide from "@/components/calculator-guide";
+import oneRepMaxData from "@/app/content/one-rap-calculator.json";
+export default function OneRepMaxCalculatorCalculator() {
+  const pathname = usePathname();
+  const language = pathname.split('/')[1] || 'en';
+  const {
+    content,
+    loading,
+    error: contentError
+  } = useCalculatorContent('one-rep-max-calculator', language, "calculator-ui");
+
+  // Use content or fallback to defaults
+  const contentData = content || {
+    "pageTitle": "",
+    "pageDescription": "",
+    "k_1rm_calculation_0": "",
+    "weight_lifted_2": "",
+    "kg_3": "",
+    "lbs_4": "",
+    "number_of_repetitions_5": "",
+    "reps_110_6": "",
+    "formula_selection_7": "",
+    "epley_formula_8": "",
+    "k_1rm_w_1_r_30_9": "",
+    "most_commonly_used_good_for_110_reps_10": "",
+    "brzycki_formula_11": "",
+    "k_1rm_w_36_37_r_12": "",
+    "conservative_estimate_best_for_210_reps_13": "",
+    "lombardi_formula_14": "",
+    "k_1rm_w_r010_15": "",
+    "based_on_power_function_good_for_all_rep_ranges_16": "",
+    "output_unit_17": "",
+    "kilograms_kg_18": "",
+    "pounds_lbs_19": "",
+    "calculate_20": "",
+    "reset_21": "",
+    "estimated_1rm_22": "",
+    "formula_23": "",
+    "reps_24": "",
+    "enter_weight_and_reps_to_calculate_your_onerep_max_25": "",
+    "k_1rm_results_26": "",
+    "estimated_onerep_maximum_27": "",
+    "input_weight_28": "",
+    "repetitions_29": "",
+    "reps_30": "",
+    "formula_used_31": "",
+    "both_units_32": "",
+    "kg_33": "",
+    "lbs_34": "",
+    "calculation_details_35": "",
+    "formula_36": "",
+    "formula_37": "",
+    "where_38": "",
+    "w_weight_r_repetitions_39": "",
+    "result_40": "",
+    "kg_41": "",
+    "lbs_42": "",
+    "safety_notes_43": "",
+    "these_are_estimates_only_10_accuracy_variation_44": "",
+    "best_used_with_weights_you_can_lift_for_310_reps_45": "",
+    "epley_and_brzycki_produce_identical_results_at_10__46": "",
+    "always_warm_up_properly_before_attempting_heavy_li_47": "",
+    "about_onerep_max_testing_48": "",
+    "formula_comparison_49": "",
+    "epley_50": "",
+    "most_popular_linear_progression_51": "",
+    "brzycki_52": "",
+    "more_conservative_asymptotic_curve_53": "",
+    "lombardi_54": "",
+    "power_function_works_across_all_rep_ranges_55": "",
+    "accuracy_56": "",
+    "all_formulas_are_within_10_of_actual_1rm_57": "",
+    "best_practices_58": "",
+    "use_weights_you_can_lift_for_38_reps_for_best_accu_59": "",
+    "ensure_proper_form_throughout_the_test_set_60": "",
+    "rest_adequately_between_attempts_61": "",
+    "test_when_fresh_not_after_other_training_62": "",
+    "safety_considerations_63": "",
+    "warmup_64": "",
+    "always_perform_proper_warmup_sets_65": "",
+    "spotter_66": "",
+    "use_a_spotter_for_bench_press_and_squats_67": "",
+    "progressive_68": "",
+    "work_up_gradually_to_test_weight_69": "",
+    "recovery_70": "",
+    "allow_adequate_recovery_between_max_efforts_71": "",
+    "using_your_1rm_72": "",
+    "of_1rm_73": "",
+    "purpose_74": "",
+    "k_5060_75": "",
+    "speedpower_76": "",
+    "k_6575_77": "",
+    "hypertrophy_78": "",
+    "k_8090_79": "",
+    "strength_80": "",
+    "k_90100_81": "",
+    "max_strength_82": "",
+    "enter_your_lift_weight_repetitions_and_select_a_fo_1": ""
+  };
+  const resultsRef = useRef<HTMLDivElement>(null);
+  const scrollToRef = useMobileScroll();
+  const [result, setResult] = useState<any>(null);
+  const [showResult, setShowResult] = useState(false);
+  const [errors, setErrors] = useState<{
+    [key: string]: string;
+  }>({});
 
   // Input states
-  const [weight, setWeight] = useState("")
-  const [repetitions, setRepetitions] = useState("")
-  const [inputUnit, setInputUnit] = useState("kg") // kg or lbs
-  const [formula, setFormula] = useState("epley") // epley, brzycki, lombardi
-  const [outputUnit, setOutputUnit] = useState("kg") // kg or lbs
+  const [weight, setWeight] = useState("");
+  const [repetitions, setRepetitions] = useState("");
+  const [inputUnit, setInputUnit] = useState("kg"); // kg or lbs
+  const [formula, setFormula] = useState("epley"); // epley, brzycki, lombardi
+  const [outputUnit, setOutputUnit] = useState("kg"); // kg or lbs
 
   const validateInputs = () => {
-    const newErrors: { [key: string]: string } = {}
-
-    const weightNum = Number.parseFloat(weight)
+    const newErrors: {
+      [key: string]: string;
+    } = {};
+    const weightNum = Number.parseFloat(weight);
     if (!weight || weightNum <= 0 || weightNum > 1000) {
-      newErrors.weight = "Please enter a valid weight"
+      newErrors.weight = "Please enter a valid weight";
     }
-
-    const repsNum = Number.parseInt(repetitions)
+    const repsNum = Number.parseInt(repetitions);
     if (!repetitions || repsNum < 1 || repsNum > 10) {
-      newErrors.repetitions = "Repetitions must be between 1-10"
+      newErrors.repetitions = "Repetitions must be between 1-10";
     }
-
     if (!formula) {
-      newErrors.formula = "Please select a formula"
+      newErrors.formula = "Please select a formula";
     }
-
-    setErrors(newErrors)
-    return Object.keys(newErrors).length === 0
-  }
-
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
   const calculateOneRepMax = () => {
     scrollToRef(resultsRef as React.RefObject<HTMLElement>);
-    if (!validateInputs()) return
-
+    if (!validateInputs()) return;
     try {
-      let weightKg = Number.parseFloat(weight)
+      let weightKg = Number.parseFloat(weight);
       if (inputUnit === "lbs") {
-        weightKg = weightKg * 0.45359237
+        weightKg = weightKg * 0.45359237;
       }
+      const reps = Number.parseInt(repetitions);
+      let oneRepMaxKg = 0;
 
-      const reps = Number.parseInt(repetitions)
-      let oneRepMaxKg = 0
-
-      // Calculate 1RM based on selected formula
+      // Calculate based on selected formula
       switch (formula) {
         case "epley":
-          oneRepMaxKg = weightKg * (1 + reps / 30)
-          break
+          oneRepMaxKg = weightKg * (1 + reps / 30);
+          break;
         case "brzycki":
-          oneRepMaxKg = (weightKg * 36) / (37 - reps)
-          break
+          oneRepMaxKg = weightKg * 36 / (37 - reps);
+          break;
         case "lombardi":
-          oneRepMaxKg = weightKg * Math.pow(reps, 0.1)
-          break
+          oneRepMaxKg = weightKg * Math.pow(reps, 0.1);
+          break;
       }
 
       // Convert to output unit
-      const oneRepMaxLbs = oneRepMaxKg / 0.45359237
-
+      const oneRepMaxLbs = oneRepMaxKg / 0.45359237;
       const results = {
         inputWeight: `${weight} ${inputUnit}`,
         repetitions: reps,
@@ -86,83 +177,41 @@ export default function OneRepMaxCalculator() {
         oneRepMaxKg: Math.round(oneRepMaxKg * 100) / 100,
         oneRepMaxLbs: Math.round(oneRepMaxLbs * 100) / 100,
         outputUnit: outputUnit,
-        displayValue: outputUnit === "kg" ? Math.round(oneRepMaxKg * 100) / 100 : Math.round(oneRepMaxLbs * 100) / 100,
-      }
-
-      setResult(results)
-      setShowResult(true)
+        displayValue: outputUnit === "kg" ? Math.round(oneRepMaxKg * 100) / 100 : Math.round(oneRepMaxLbs * 100) / 100
+      };
+      setResult(results);
+      setShowResult(true);
     } catch (error) {
-      setErrors({ general: "Error calculating 1RM. Please check your inputs and try again." })
+      setErrors({
+        general: "Error calculating 1RM. Please check your inputs and try again."
+      });
     }
-  }
-
+  };
   const resetCalculator = () => {
-    setWeight("")
-    setRepetitions("")
-    setInputUnit("kg")
-    setFormula("epley")
-    setOutputUnit("kg")
-    setResult(null)
-    setShowResult(false)
-    setErrors({})
-  }
-
+    setWeight("");
+    setRepetitions("");
+    setInputUnit("kg");
+    setFormula("epley");
+    setOutputUnit("kg");
+    setResult(null);
+    setShowResult(false);
+    setErrors({});
+  };
   const getFormulaDescription = (formulaType: string) => {
     switch (formulaType) {
       case "epley":
-        return "1RM = W × (1 + r ÷ 30)"
+        return "1RM = W × (1 + r ÷ 30)";
       case "brzycki":
-        return "1RM = W × 36 ÷ (37 − r)"
+        return "1RM = W × 36 ÷ (37 − r)";
       case "lombardi":
-        return "1RM = W × r^0.10"
+        return "1RM = W × r^0.10";
       default:
-        return ""
+        return "";
     }
-  }
+  };
+  return <>
 
-  return (
-    <>
-<SEO
-  title="One Rep Max Calculator – Max Weight Estimator"
-  description="Find your one rep max safely with our calculator. Estimate max lifting weight for strength training and track progress."
-  keywords="one rep max calculator, lifting calculator, strength training estimator"
-  slug="/health/one-rep-max-calculator"
-/>
       <div className="min-h-screen bg-gradient-to-br from-red-50 via-white to-rose-50">
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link
-                    href="/"
-                    className="text-2xl font-bold bg-gradient-to-r from-red-600 to-rose-600 bg-clip-text text-transparent"
-                  >
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">One-Rep Max Calculator</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-red-600">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <Link href="/health" className="text-gray-500 hover:text-red-600">
-                Fitness & Health
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">One-Rep Max Calculator</span>
-            </div>
-          </div>
-        </nav>
 
         {/* Main Content */}
         <main className="py-8 px-4 sm:px-6 lg:px-8">
@@ -173,11 +222,8 @@ export default function OneRepMaxCalculator() {
                   <Dumbbell className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">One-Rep Max Calculator</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Calculate your estimated one-rep maximum using proven formulas from strength training research. Perfect
-                for powerlifting, weightlifting, and strength programming.
-              </p>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -187,49 +233,34 @@ export default function OneRepMaxCalculator() {
                   <CardHeader className="bg-gradient-to-r from-red-50 to-rose-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calculator className="w-6 h-6 text-red-600" />
-                      <span>1RM Calculation</span>
+                      <span>{contentData.k_1rm_calculation_0}</span>
                     </CardTitle>
-                    <CardDescription className="text-base">
-                      Enter your lift weight, repetitions, and select a formula to calculate your one-rep max
-                    </CardDescription>
+                    <CardDescription className="text-base">{contentData.enter_your_lift_weight_repetitions_and_select_a_fo_1}</CardDescription>
                   </CardHeader>
                   <CardContent className="p-8">
-                    {errors.general && (
-                      <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg">
+                    {errors.general && <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg">
                         <p className="text-red-600 text-sm">{errors.general}</p>
-                      </div>
-                    )}
+                      </div>}
 
                     <div className="space-y-6 mb-8">
                       {/* Weight Lifted */}
                       <div>
-                        <Label className="text-sm font-medium text-gray-700 mb-2 block">Weight Lifted</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-2 block">{contentData.weight_lifted_2}</Label>
                         <div className="flex space-x-2">
                           <div className="relative flex-1">
                             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                               <Dumbbell className="h-5 w-5 text-red-500" />
                             </div>
-                            <Input
-                              className={`h-12 pl-10 ${errors.weight ? "border-red-300" : ""}`}
-                              type="number"
-                              placeholder="100"
-                              value={weight}
-                              onChange={(e) => setWeight(e.target.value)}
-                              step="0.1"
-                            />
+                            <Input className={`h-12 pl-10 ${errors.weight ? "border-red-300" : ""}`} type="number" placeholder="100" value={weight} onChange={e => setWeight(e.target.value)} step="0.1" />
                           </div>
                           <RadioGroup value={inputUnit} onValueChange={setInputUnit} className="flex space-x-4">
                             <div className="flex items-center space-x-2">
                               <RadioGroupItem value="kg" id="input-kg" />
-                              <Label htmlFor="input-kg" className="cursor-pointer">
-                                kg
-                              </Label>
+                              <Label htmlFor="input-kg" className="cursor-pointer">{contentData.kg_3}</Label>
                             </div>
                             <div className="flex items-center space-x-2">
                               <RadioGroupItem value="lbs" id="input-lbs" />
-                              <Label htmlFor="input-lbs" className="cursor-pointer">
-                                lbs
-                              </Label>
+                              <Label htmlFor="input-lbs" className="cursor-pointer">{contentData.lbs_4}</Label>
                             </div>
                           </RadioGroup>
                         </div>
@@ -238,61 +269,43 @@ export default function OneRepMaxCalculator() {
 
                       {/* Repetitions */}
                       <div>
-                        <Label className="text-sm font-medium text-gray-700 mb-2 block">Number of Repetitions</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-2 block">{contentData.number_of_repetitions_5}</Label>
                         <div className="relative">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                             <Target className="h-5 w-5 text-red-500" />
                           </div>
-                          <Input
-                            className={`h-12 pl-10 ${errors.repetitions ? "border-red-300" : ""}`}
-                            type="number"
-                            placeholder="5"
-                            value={repetitions}
-                            onChange={(e) => setRepetitions(e.target.value)}
-                            min="1"
-                            max="10"
-                          />
-                          <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 text-sm">
-                            reps (1-10)
-                          </span>
+                          <Input className={`h-12 pl-10 ${errors.repetitions ? "border-red-300" : ""}`} type="number" placeholder="5" value={repetitions} onChange={e => setRepetitions(e.target.value)} min="1" max="10" />
+                          <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 text-sm">{contentData.reps_110_6}</span>
                         </div>
                         {errors.repetitions && <p className="text-red-600 text-xs mt-1">{errors.repetitions}</p>}
                       </div>
 
                       {/* Formula Selection */}
                       <div>
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block">Formula Selection</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.formula_selection_7}</Label>
                         <RadioGroup value={formula} onValueChange={setFormula} className="space-y-3">
                           <div className="flex items-start space-x-3 p-3 border rounded-lg hover:bg-red-50">
                             <RadioGroupItem value="epley" id="epley" className="mt-1" />
                             <div className="flex-1">
-                              <Label htmlFor="epley" className="cursor-pointer font-medium">
-                                Epley Formula
-                              </Label>
-                              <p className="text-sm text-gray-600 mt-1">1RM = W × (1 + r ÷ 30)</p>
-                              <p className="text-xs text-gray-500 mt-1">Most commonly used, good for 1-10 reps</p>
+                              <Label htmlFor="epley" className="cursor-pointer font-medium">{contentData.epley_formula_8}</Label>
+                              <p className="text-sm text-gray-600 mt-1">{contentData.k_1rm_w_1_r_30_9}</p>
+                              <p className="text-xs text-gray-500 mt-1">{contentData.most_commonly_used_good_for_110_reps_10}</p>
                             </div>
                           </div>
                           <div className="flex items-start space-x-3 p-3 border rounded-lg hover:bg-red-50">
                             <RadioGroupItem value="brzycki" id="brzycki" className="mt-1" />
                             <div className="flex-1">
-                              <Label htmlFor="brzycki" className="cursor-pointer font-medium">
-                                Brzycki Formula
-                              </Label>
-                              <p className="text-sm text-gray-600 mt-1">1RM = W × 36 ÷ (37 − r)</p>
-                              <p className="text-xs text-gray-500 mt-1">Conservative estimate, best for 2-10 reps</p>
+                              <Label htmlFor="brzycki" className="cursor-pointer font-medium">{contentData.brzycki_formula_11}</Label>
+                              <p className="text-sm text-gray-600 mt-1">{contentData.k_1rm_w_36_37_r_12}</p>
+                              <p className="text-xs text-gray-500 mt-1">{contentData.conservative_estimate_best_for_210_reps_13}</p>
                             </div>
                           </div>
                           <div className="flex items-start space-x-3 p-3 border rounded-lg hover:bg-red-50">
                             <RadioGroupItem value="lombardi" id="lombardi" className="mt-1" />
                             <div className="flex-1">
-                              <Label htmlFor="lombardi" className="cursor-pointer font-medium">
-                                Lombardi Formula
-                              </Label>
-                              <p className="text-sm text-gray-600 mt-1">1RM = W × r^0.10</p>
-                              <p className="text-xs text-gray-500 mt-1">
-                                Based on power function, good for all rep ranges
-                              </p>
+                              <Label htmlFor="lombardi" className="cursor-pointer font-medium">{contentData.lombardi_formula_14}</Label>
+                              <p className="text-sm text-gray-600 mt-1">{contentData.k_1rm_w_r010_15}</p>
+                              <p className="text-xs text-gray-500 mt-1">{contentData.based_on_power_function_good_for_all_rep_ranges_16}</p>
                             </div>
                           </div>
                         </RadioGroup>
@@ -301,39 +314,24 @@ export default function OneRepMaxCalculator() {
 
                       {/* Output Unit */}
                       <div>
-                        <Label className="text-sm font-medium text-gray-700 mb-2 block">Output Unit</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-2 block">{contentData.output_unit_17}</Label>
                         <RadioGroup value={outputUnit} onValueChange={setOutputUnit} className="flex space-x-6">
                           <div className="flex items-center space-x-2">
                             <RadioGroupItem value="kg" id="output-kg" />
-                            <Label htmlFor="output-kg" className="cursor-pointer">
-                              Kilograms (kg)
-                            </Label>
+                            <Label htmlFor="output-kg" className="cursor-pointer">{contentData.kilograms_kg_18}</Label>
                           </div>
                           <div className="flex items-center space-x-2">
                             <RadioGroupItem value="lbs" id="output-lbs" />
-                            <Label htmlFor="output-lbs" className="cursor-pointer">
-                              Pounds (lbs)
-                            </Label>
+                            <Label htmlFor="output-lbs" className="cursor-pointer">{contentData.pounds_lbs_19}</Label>
                           </div>
                         </RadioGroup>
                       </div>
                     </div>
 
                     <div className="flex space-x-4">
-                      <Button
-                        onClick={calculateOneRepMax}
-                        className="flex-1 h-12 text-lg bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-700 hover:to-rose-700"
-                      >
-                        Calculate 1RM
-                      </Button>
-                      <Button
-                        onClick={resetCalculator}
-                        variant="outline"
-                        className="h-12 px-6 border-red-300 text-red-700 hover:bg-red-50 bg-transparent"
-                      >
-                        <RotateCcw className="w-4 h-4 mr-2" />
-                        Reset
-                      </Button>
+                      <Button onClick={calculateOneRepMax} className="flex-1 h-12 text-lg bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-700 hover:to-rose-700">{contentData.calculate_20}</Button>
+                      <Button onClick={resetCalculator} variant="outline" className="h-12 px-6 border-red-300 text-red-700 hover:bg-red-50 bg-transparent">
+                        <RotateCcw className="w-4 h-4 mr-2" />{contentData.reset_21}</Button>
                     </div>
                   </CardContent>
                 </Card>
@@ -346,41 +344,33 @@ export default function OneRepMaxCalculator() {
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-red-600 to-rose-600 flex items-center justify-center mb-3 shadow-lg">
                       <TrendingUp className="w-6 h-6 text-white" />
                     </div>
-                    <CardTitle className="text-2xl font-bold text-red-700 tracking-tight">Estimated 1RM</CardTitle>
+                    <CardTitle className="text-2xl font-bold text-red-700 tracking-tight">{contentData.estimated_1rm_22}</CardTitle>
                   </CardHeader>
                   <CardContent className="w-full flex flex-col items-center justify-center">
-                    {showResult && result ? (
-                      <div className="text-center space-y-3 w-full">
+                    {showResult && result ? <div className="text-center space-y-3 w-full">
                         <div className="bg-white p-6 rounded-lg border border-red-200">
                           <p className="text-3xl font-bold text-red-900 mb-2">
                             {result.displayValue} {result.outputUnit}
                           </p>
-                          <p className="text-sm font-medium text-gray-600">{result.formulaName} Formula</p>
+                          <p className="text-sm font-medium text-gray-600">{result.formulaName}{contentData.formula_23}</p>
                           <p className="text-sm text-gray-500">
-                            {result.inputWeight} × {result.repetitions} reps
-                          </p>
+                            {result.inputWeight} × {result.repetitions}{contentData.reps_24}</p>
                         </div>
-                      </div>
-                    ) : (
-                      <div className="flex flex-col items-center justify-center">
+                      </div> : <div className="flex flex-col items-center justify-center">
                         <Dumbbell className="w-8 h-8 text-red-300 mb-2" />
-                        <p className="text-gray-500 text-center text-base">
-                          Enter weight and reps to calculate your one-rep max.
-                        </p>
-                      </div>
-                    )}
+                        <p className="text-gray-500 text-center text-base">{contentData.enter_weight_and_reps_to_calculate_your_onerep_max_25}</p>
+                      </div>}
                   </CardContent>
                 </Card>
               </div>
             </div>
 
-            {showResult && result && (
-              <div className="mt-8">
+            {showResult && result && <div className="mt-8">
                 <Card ref={resultsRef} className="shadow-2xl border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-red-50 to-rose-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <TrendingUp className="w-6 h-6 text-red-600" />
-                      <span>1RM Results</span>
+                      <span>{contentData.k_1rm_results_26}</span>
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="p-8">
@@ -389,25 +379,24 @@ export default function OneRepMaxCalculator() {
                         <h3 className="text-3xl font-bold text-red-700 mb-2">
                           {result.displayValue} {result.outputUnit}
                         </h3>
-                        <p className="text-lg text-gray-600 mb-4">Estimated One-Rep Maximum</p>
+                        <p className="text-lg text-gray-600 mb-4">{contentData.estimated_onerep_maximum_27}</p>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                           <div>
-                            <p className="text-gray-500">Input Weight</p>
+                            <p className="text-gray-500">{contentData.input_weight_28}</p>
                             <p className="font-semibold text-gray-700">{result.inputWeight}</p>
                           </div>
                           <div>
-                            <p className="text-gray-500">Repetitions</p>
-                            <p className="font-semibold text-gray-700">{result.repetitions} reps</p>
+                            <p className="text-gray-500">{contentData.repetitions_29}</p>
+                            <p className="font-semibold text-gray-700">{result.repetitions}{contentData.reps_30}</p>
                           </div>
                           <div>
-                            <p className="text-gray-500">Formula Used</p>
+                            <p className="text-gray-500">{contentData.formula_used_31}</p>
                             <p className="font-semibold text-gray-700">{result.formulaName}</p>
                           </div>
                           <div>
-                            <p className="text-gray-500">Both Units</p>
+                            <p className="text-gray-500">{contentData.both_units_32}</p>
                             <p className="font-semibold text-gray-700">
-                              {result.oneRepMaxKg} kg / {result.oneRepMaxLbs} lbs
-                            </p>
+                              {result.oneRepMaxKg}{contentData.kg_33}{result.oneRepMaxLbs}{contentData.lbs_34}</p>
                           </div>
                         </div>
                       </div>
@@ -415,38 +404,35 @@ export default function OneRepMaxCalculator() {
 
                     {/* Calculation Steps */}
                     <div className="border-t border-gray-200 pt-8">
-                      <h3 className="text-xl font-semibold text-red-700 mb-6">Calculation Details</h3>
+                      <h3 className="text-xl font-semibold text-red-700 mb-6">{contentData.calculation_details_35}</h3>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="p-4 bg-red-50 rounded-lg border border-red-200">
-                          <h4 className="font-semibold text-red-700 mb-3">{result.formulaName} Formula</h4>
+                          <h4 className="font-semibold text-red-700 mb-3">{result.formulaName}{contentData.formula_36}</h4>
                           <div className="space-y-2 text-sm text-gray-700">
                             <p>
-                              <strong>Formula:</strong> {getFormulaDescription(result.formula)}
+                              <strong>{contentData.formula_37}</strong> {getFormulaDescription(result.formula)}
                             </p>
                             <p>
-                              <strong>Where:</strong> W = weight, r = repetitions
-                            </p>
+                              <strong>{contentData.where_38}</strong>{contentData.w_weight_r_repetitions_39}</p>
                             <p>
-                              <strong>Result:</strong> {result.oneRepMaxKg} kg ({result.oneRepMaxLbs} lbs)
-                            </p>
+                              <strong>{contentData.result_40}</strong> {result.oneRepMaxKg}{contentData.kg_41}{result.oneRepMaxLbs}{contentData.lbs_42}</p>
                           </div>
                         </div>
 
                         <div className="p-4 bg-rose-50 rounded-lg border border-rose-200">
-                          <h4 className="font-semibold text-rose-700 mb-3">Safety Notes</h4>
+                          <h4 className="font-semibold text-rose-700 mb-3">{contentData.safety_notes_43}</h4>
                           <div className="space-y-2 text-sm text-gray-700">
-                            <p>• These are estimates only (~10% accuracy variation)</p>
-                            <p>• Best used with weights you can lift for 3-10 reps</p>
-                            <p>• Epley and Brzycki produce identical results at 10 reps</p>
-                            <p>• Always warm up properly before attempting heavy lifts</p>
+                            <p>{contentData.these_are_estimates_only_10_accuracy_variation_44}</p>
+                            <p>{contentData.best_used_with_weights_you_can_lift_for_310_reps_45}</p>
+                            <p>{contentData.epley_and_brzycki_produce_identical_results_at_10__46}</p>
+                            <p>{contentData.always_warm_up_properly_before_attempting_heavy_li_47}</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </CardContent>
                 </Card>
-              </div>
-            )}
+              </div>}
 
             {/* Educational Content */}
             <div className="mt-12">
@@ -455,86 +441,76 @@ export default function OneRepMaxCalculator() {
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-red-600 to-rose-600 flex items-center justify-center mr-3 shadow-lg">
                     <Dumbbell className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-2xl font-bold text-red-700 tracking-tight">
-                    About One-Rep Max Testing
-                  </CardTitle>
+                  <CardTitle className="text-2xl font-bold text-red-700 tracking-tight">{contentData.about_onerep_max_testing_48}</CardTitle>
                 </CardHeader>
                 <CardContent className="w-full">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
-                      <h3 className="text-lg font-semibold text-red-700 mb-3">Formula Comparison</h3>
+                      <h3 className="text-lg font-semibold text-red-700 mb-3">{contentData.formula_comparison_49}</h3>
                       <div className="bg-white p-4 rounded-lg border border-red-200 mb-4">
                         <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
                           <li>
-                            <strong>Epley:</strong> Most popular, linear progression
-                          </li>
+                            <strong>{contentData.epley_50}</strong>{contentData.most_popular_linear_progression_51}</li>
                           <li>
-                            <strong>Brzycki:</strong> More conservative, asymptotic curve
-                          </li>
+                            <strong>{contentData.brzycki_52}</strong>{contentData.more_conservative_asymptotic_curve_53}</li>
                           <li>
-                            <strong>Lombardi:</strong> Power function, works across all rep ranges
-                          </li>
+                            <strong>{contentData.lombardi_54}</strong>{contentData.power_function_works_across_all_rep_ranges_55}</li>
                           <li>
-                            <strong>Accuracy:</strong> All formulas are within ~10% of actual 1RM
-                          </li>
+                            <strong>{contentData.accuracy_56}</strong>{contentData.all_formulas_are_within_10_of_actual_1rm_57}</li>
                         </ul>
                       </div>
 
-                      <h3 className="text-lg font-semibold text-red-700 mb-3">Best Practices</h3>
+                      <h3 className="text-lg font-semibold text-red-700 mb-3">{contentData.best_practices_58}</h3>
                       <div className="bg-white p-4 rounded-lg border border-red-200">
                         <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-                          <li>Use weights you can lift for 3-8 reps for best accuracy</li>
-                          <li>Ensure proper form throughout the test set</li>
-                          <li>Rest adequately between attempts</li>
-                          <li>Test when fresh, not after other training</li>
+                          <li>{contentData.use_weights_you_can_lift_for_38_reps_for_best_accu_59}</li>
+                          <li>{contentData.ensure_proper_form_throughout_the_test_set_60}</li>
+                          <li>{contentData.rest_adequately_between_attempts_61}</li>
+                          <li>{contentData.test_when_fresh_not_after_other_training_62}</li>
                         </ul>
                       </div>
                     </div>
 
                     <div>
-                      <h3 className="text-lg font-semibold text-rose-700 mb-3">Safety Considerations</h3>
+                      <h3 className="text-lg font-semibold text-rose-700 mb-3">{contentData.safety_considerations_63}</h3>
                       <div className="bg-white p-4 rounded-lg border border-rose-200 mb-4">
                         <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
                           <li>
-                            <strong>Warm-up:</strong> Always perform proper warm-up sets
-                          </li>
+                            <strong>{contentData.warmup_64}</strong>{contentData.always_perform_proper_warmup_sets_65}</li>
                           <li>
-                            <strong>Spotter:</strong> Use a spotter for bench press and squats
-                          </li>
+                            <strong>{contentData.spotter_66}</strong>{contentData.use_a_spotter_for_bench_press_and_squats_67}</li>
                           <li>
-                            <strong>Progressive:</strong> Work up gradually to test weight
-                          </li>
+                            <strong>{contentData.progressive_68}</strong>{contentData.work_up_gradually_to_test_weight_69}</li>
                           <li>
-                            <strong>Recovery:</strong> Allow adequate recovery between max efforts
-                          </li>
+                            <strong>{contentData.recovery_70}</strong>{contentData.allow_adequate_recovery_between_max_efforts_71}</li>
                         </ul>
                       </div>
 
-                      <h3 className="text-lg font-semibold text-rose-700 mb-3">Using Your 1RM</h3>
+                      <h3 className="text-lg font-semibold text-rose-700 mb-3">{contentData.using_your_1rm_72}</h3>
                       <div className="bg-white p-4 rounded-lg border border-rose-200">
                         <table className="w-full text-sm">
                           <thead>
                             <tr className="border-b">
-                              <th className="text-left py-2">% of 1RM</th>
-                              <th className="text-left py-2">Purpose</th>
+                              <th className="text-left py-2">{contentData.of_1rm_73}</th>
+                              <th className="text-left py-2">{contentData.purpose_74}</th>
                             </tr>
                           </thead>
                           <tbody className="text-gray-700">
                             <tr>
-                              <td className="py-1">50-60%</td>
-                              <td>Speed/Power</td>
+                              <td className="py-1">{contentData.k_5060_75}</td>
+                              <td>{contentData.speedpower_76}</td>
                             </tr>
                             <tr>
-                              <td className="py-1">65-75%</td>
-                              <td>Hypertrophy</td>
+                              <td className="py-1">{contentData.k_6575_77}</td>
+                              <td>{contentData.hypertrophy_78}</td>
                             </tr>
                             <tr>
-                              <td className="py-1">80-90%</td>
-                              <td>Strength</td>
+                              <td className="py-1">{contentData.k_8090_79}</td>
+                              <td>{contentData.strength_80}</td>
                             </tr>
                             <tr>
-                              <td className="py-1">90-100%</td>
-                              <td>Max Strength</td>
+                              <td className="py-1">{contentData.k_90100_81}</td>
+                              <td>{contentData.max_strength_82}</td>
                             </tr>
                           </tbody>
                         </table>
@@ -553,6 +529,5 @@ export default function OneRepMaxCalculator() {
 
         </main>
       </div>
-    </>
-  )
+    </>;
 }

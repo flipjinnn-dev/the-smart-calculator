@@ -1,0 +1,183 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator BMI?",
+      "content": "Kalkulator BMI (kalkulator wskaźnika masy ciała) to narzędzie zdrowotne, które mierzy zawartość tkanki tłuszczowej na podstawie wzrostu i masy ciała. Daje wynik BMI, który można podzielić na kategorie, takie jak niedowaga, normalna, nadwaga lub otyłość. <br><br>Nasz darmowy kalkulator BMI online obsługuje zarówno kg i cm, jak i funty i cale, dzięki czemu jest przydatny na całym świecie (USA, Wielka Brytania, Indie, Pakistan, Kanada, Australia itp.)."
+    },
+    {
+      "heading": "Definicja i obliczanie BMI",
+      "content": "BMI oblicza się na podstawie wzrostu i masy ciała. <br><br><strong>Wzór (metryczny):</strong> BMI = waga (kg) ÷ wzrost (m)² <br><strong>Wzór (imperialny):</strong> BMI = (waga (funty) × 703) ÷ wzrost (cale)²"
+    },
+    {
+      "heading": "Jak obliczyć BMI online (przewodnik krok po kroku)",
+      "content": "Kroki, aby obliczyć BMI za pomocą naszego bezpłatnego kalkulatora online:",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wybierz jednostkę miary: kg/cm lub funty/cale."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Wprowadź swoją wagę w kilogramach lub funtach."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Podaj swój wzrost w centymetrach lub calach."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Wybierz wiek i płeć (opcjonalnie), aby uzyskać lepszy wgląd."
+        },
+        {
+          "heading": "Krok 5",
+          "content": "Kliknij Oblicz BMI → Natychmiast zobacz swój wynik i kategorię BMI."
+        }
+      ]
+    },
+    {
+      "heading": "Kategorie BMI (standardowy wykres BMI WHO)",
+      "subSections": [
+        {
+          "heading": "Niedowaga",
+          "content": "Poniżej 18,5"
+        },
+        {
+          "heading": "Normalna waga",
+          "content": "18,5 – 24,9"
+        },
+        {
+          "heading": "Nadwaga",
+          "content": "25 – 29,9"
+        },
+        {
+          "heading": "Otyłość (klasa 1)",
+          "content": "30 – 34,9"
+        },
+        {
+          "heading": "Otyłość (klasa 2)",
+          "content": "35 – 39,9"
+        },
+        {
+          "heading": "Otyłość (klasa 3 / ciężka)",
+          "content": "40+"
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora BMI?",
+      "subSections": [
+        {
+          "heading": "Śledź cele fitness",
+          "content": "Monitoruj postępy za pomocą kalkulatora Fitness BMI."
+        },
+        {
+          "heading": "Porównaj BMI z tkanką tłuszczową",
+          "content": "Przydatny dla sportowców i użytkowników siłowni."
+        },
+        {
+          "heading": "Zastosowanie medyczne",
+          "content": "Polecany przez lekarzy jako szybka kontrola stanu zdrowia."
+        },
+        {
+          "heading": "Oceń ryzyko dla zdrowia",
+          "content": "BMI pomaga określić ryzyko chorób związanych z otyłością."
+        },
+        {
+          "heading": "Śledzenie odżywiania",
+          "content": "Wspiera zrównoważone planowanie diety i cele związane z dobrym samopoczuciem."
+        }
+      ]
+    },
+    {
+      "heading": "Kalkulator BMI według wieku i płci",
+      "subSections": [
+        {
+          "heading": "Dla mężczyzn i kobiet",
+          "content": "Oddzielne śledzenie BMI w celu uzyskania spostrzeżeń specyficznych dla płci."
+        },
+        {
+          "heading": "Dla dzieci i młodzieży",
+          "content": "Wykorzystuje wykresy percentylowe BMI do monitorowania wzrostu."
+        },
+        {
+          "heading": "Dla dorosłych i seniorów",
+          "content": "Korekty oparte na wieku w celu uzyskania dokładnych wyników."
+        },
+        {
+          "heading": "Kalkulator BMI w ciąży",
+          "content": "Pomaga monitorować stan zdrowia matki w czasie ciąży."
+        }
+      ]
+    },
+    {
+      "heading": "Globalny i lokalny kalkulator BMI",
+      "content": "Nasz globalny kalkulator BMI działa na całym świecie w formatach specyficznych dla regionu:",
+      "subSections": [
+        {
+          "heading": "USA",
+          "content": "Używa formatu funty/cale."
+        },
+        {
+          "heading": "Wielka Brytania",
+          "content": "Szeroko stosowane w opiece zdrowotnej i fitness."
+        },
+        {
+          "heading": "Indie i Pakistan",
+          "content": "Używa kg/cm zgodnie ze standardami WHO."
+        },
+        {
+          "heading": "Kanada i Australia",
+          "content": "Format kg/cm + wykresy BMI do monitorowania stanu zdrowia."
+        }
+      ]
+    },
+    {
+      "heading": "Idealny kalkulator BMI – znajdź swoją zdrową wagę",
+      "subSections": [
+        {
+          "heading": "Kalkulator BMI nadwagi",
+          "content": "Wspomaga planowanie odchudzania."
+        },
+        {
+          "heading": "Kalkulator BMI z niedowagą",
+          "content": "Pomaga określić potrzeby żywieniowe."
+        },
+        {
+          "heading": "Kalkulator BMI otyłości",
+          "content": "Pokazuje zagrożenia związane z otyłością."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator BMI?",
+      "a": "Kalkulator BMI mierzy wskaźnik masy ciała i pokazuje, czy Twoja waga jest prawidłowa w stosunku do wzrostu."
+    },
+    {
+      "q": "Jaki jest prawidłowy zakres BMI?",
+      "a": "Według WHO prawidłowe BMI wynosi od 18,5 do 24,9."
+    },
+    {
+      "q": "Czy BMI jest prawidłowe dla każdego?",
+      "a": "BMI jest dobrym narzędziem przesiewowym, ale może nie być dokładne w przypadku sportowców, kobiet w ciąży i seniorów."
+    },
+    {
+      "q": "Jak ręcznie obliczyć BMI?",
+      "a": "Użyj wzoru: Waga (kg) ÷ Wysokość (m²) lub Waga (funty) × 703 ÷ Wysokość (in²)."
+    },
+    {
+      "q": "Czy mogę używać kalkulatora BMI dla dzieci?",
+      "a": "Tak, wykresy centylowe BMI są używane w przypadku dzieci i nastolatków."
+    },
+    {
+      "q": "Czy ten kalkulator BMI jest darmowy?",
+      "a": "Tak, jest to bezpłatne narzędzie online dostępne na całym świecie."
+    },
+    {
+      "q": "Jaki jest najlepszy kalkulator BMI online w 2025 roku?",
+      "a": "Nasz kalkulator BMI jest dokładny, kompatybilny na całym świecie i zawiera wskazówki zdrowotne, co czyni go jedną z najlepszych opcji w 2025 roku."
+    }
+  ]
+}

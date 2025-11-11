@@ -1,0 +1,122 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Kalkulator wynagrodzeń – łatwo oblicz wynagrodzenie brutto, netto i na wynos",
+      "content": "Nasz kalkulator wynagrodzeń pomoże Ci błyskawicznie określić wynagrodzenie brutto i netto, stawkę godzinową oraz wynagrodzenie na rękę. Niezależnie od tego, czy jesteś pracownikiem zatrudnionym na pełny etat, freelancerem, wykonawcą czy pracownikiem godzinowym, to narzędzie obsługuje wszystkie rodzaje wynagrodzeń i struktury wynagrodzeń."
+    },
+    {
+      "heading": "Jak obliczyć wynagrodzenie",
+      "subSections": [
+        {
+          "heading": "1. Wynagrodzenie brutto",
+          "content": "Całkowite zarobki przed potrąceniami, takimi jak podatki, ubezpieczenia i składki emerytalne."
+        },
+        {
+          "heading": "2. Wynagrodzenie netto (na rękę)",
+          "content": "Dochód po zastosowaniu wszystkich odliczeń."
+        },
+        {
+          "heading": "3. Wynagrodzenie według okresu rozliczeniowego",
+          "content": "Konwersja między wynagrodzeniami godzinowymi, dziennymi, miesięcznymi i rocznymi."
+        },
+        {
+          "heading": "4. Uwzględnij korekty",
+          "content": "Dodaj premie, nadgodziny i potrącenia, aby uzyskać dokładne zestawienie."
+        },
+        {
+          "heading": "Przykład",
+          "content": "Miesięczne wynagrodzenie = 4000 USD, potrącenia = 800 USD → Wynagrodzenie netto = 3200 USD."
+        }
+      ]
+    },
+    {
+      "heading": "Rodzaje wynagrodzeń, które możesz obliczyć",
+      "subSections": [
+        {
+          "heading": "Kalkulator miesięcznych wynagrodzeń",
+          "content": "Zaplanuj swój miesięczny budżet, obliczając wynagrodzenie na rękę."
+        },
+        {
+          "heading": "Kalkulator rocznego wynagrodzenia",
+          "content": "Przeglądaj swoje roczne dochody, łącznie z premiami i nadgodzinami."
+        },
+        {
+          "heading": "Kalkulator stawki godzinowej",
+          "content": "Zamień roczne lub miesięczne wynagrodzenie na stawkę godzinową."
+        },
+        {
+          "heading": "Kalkulator płac dziennych",
+          "content": "Szacunkowe wynagrodzenie za pracę w niepełnym wymiarze godzin lub umowy."
+        },
+        {
+          "heading": "Podział wynagrodzeń według okresu rozliczeniowego",
+          "content": "Poznaj zarobki tygodniowe, dwutygodniowe lub półmiesięczne."
+        }
+      ]
+    },
+    {
+      "heading": "Korzyści ze korzystania z naszego kalkulatora wynagrodzeń",
+      "content": "✔ Bezpłatnie i szybko – nie wymaga rejestracji\n✔ Najlepszy kalkulator wynagrodzeń online – dokładny i niezawodny\n✔ Kalkulator wynagrodzeń na wynos – zobacz zarobki po opodatkowaniu\n✔ Kalkulator płac – idealny dla pracowników i firm\n✔ Działa na wszystkich urządzeniach – kompatybilny z urządzeniami mobilnymi i komputerami stacjonarnymi"
+    },
+    {
+      "heading": "Kalkulator wynagrodzeń dla różnych scenariuszy",
+      "subSections": [
+        {
+          "heading": "Pracownicy",
+          "content": "Oblicz miesięczne lub roczne wynagrodzenie netto z potrąceniami."
+        },
+        {
+          "heading": "Freelancerzy i wykonawcy",
+          "content": "Skoryguj pod kątem nieregularnych godzin pracy, podatków i płatności za projekt."
+        },
+        {
+          "heading": "Pracownicy godzinowi",
+          "content": "Zamień stawkę godzinową na dochód dzienny, tygodniowy lub miesięczny."
+        },
+        {
+          "heading": "Praca na pół etatu",
+          "content": "Śledź zmniejszone godziny pracy lub płacę zmianową."
+        },
+        {
+          "heading": "Korekty wynagrodzeń",
+          "content": "Stosuj w przypadku podwyżek, awansów lub zmian wynagrodzeń."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego nasz kalkulator się wyróżnia",
+      "content": "✔ Obsługuje międzynarodowe stawki podatkowe\n✔ Porównuje wiele okresów rozliczeniowych\n✔ Obejmuje dni urlopu i świadczenia\n✔ Pracuje dla pracowników niepełnoetatowych, niezależnych i kontraktowych"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak obliczyć wynagrodzenie po opodatkowaniu?",
+      "a": "Skorzystaj z naszego kalkulatora wynagrodzeń netto, aby wprowadzić wynagrodzenie brutto, stawki podatkowe i odliczenia. Natychmiast pokazuje Twoje wynagrodzenie na wynos."
+    },
+    {
+      "q": "Jaka jest różnica między wynagrodzeniem brutto a wynagrodzeniem netto?",
+      "a": "Wynagrodzenie brutto to Twój dochód przed potrąceniami. Wynagrodzenie netto to kwota, którą zatrzymujesz po odliczeniu podatków i potrąceń."
+    },
+    {
+      "q": "Czy mogę obliczyć stawkę godzinową na podstawie rocznego wynagrodzenia?",
+      "a": "Tak, kalkulator przelicza wynagrodzenie roczne lub miesięczne na stawkę godzinową na podstawie przepracowanych godzin."
+    },
+    {
+      "q": "Czy ten kalkulator jest dobry dla freelancerów lub wykonawców?",
+      "a": "Oczywiście uwzględnia nieregularne dochody, projekty i elastyczne godziny pracy."
+    },
+    {
+      "q": "Czy mogę uwzględnić premie i nadgodziny?",
+      "a": "Tak, po prostu dodaj je, aby uzyskać dokładny podział całkowitego dochodu."
+    },
+    {
+      "q": "Czy to działa w przypadku pracy na pół etatu?",
+      "a": "Tak, możesz dostosować godziny pracy, aby obliczyć dokładne wynagrodzenie za pracę w niepełnym wymiarze godzin."
+    },
+    {
+      "q": "Czy ten kalkulator jest darmowy?",
+      "a": "Tak, jest w 100% darmowy i nie ma ukrytych kosztów."
+    }
+  ]
+}

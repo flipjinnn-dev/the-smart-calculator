@@ -1,0 +1,204 @@
+{
+  "pageTitle": "Rechner für schlanke Körpermasse",
+  "pageDescription": "Berechnen Sie Ihre fettfreie Körpermasse mithilfe verschiedener Methoden mit unserem umfassenden Rechner für die fettfreie Körpermasse",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "height": "Höhe",
+      "weight": "Gewicht",
+      "bodyFat": "Körperfettanteil",
+      "unitSystem": "Einheitensystem",
+      "calculationMethod": "Berechnungsmethode"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben",
+      "bodyFat": "Geben Sie den Körperfettanteil ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die fettfreie Körpermasse",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    },
+    "calculationMethods": {
+      "boer": "Burenformel",
+      "james": "James-Formel",
+      "hume": "Hume-Formel",
+      "peters": "Peters-Formel"
+    }
+  },
+  "results": {
+    "leanBodyMass": "Magere Körpermasse",
+    "bodyFatMass": "Körperfettmasse",
+    "leanBodyMassResultsTitle": "Ergebnisse zur schlanken Körpermasse",
+    "lbmFormula": {
+      "label": "LBM-Formel",
+      "boer": "Buren: LBM = (0,407 × Gewicht (kg)) + (0,267 × Größe (cm)) – 19,2 (Männer) oder (0,252 × Gewicht (kg)) + (0,473 × Größe (cm)) – 48,3 (Frauen)",
+      "james": "James: LBM = (1,10 × Gewicht(kg)) – (128 × (Gewicht²(kg) / Größe²(cm)))",
+      "hume": "Hume: LBM = (0,32810 × Gewicht (kg)) + (0,33929 × Größe (cm)) – 29,5336 (Männer) oder (0,29569 × Gewicht (kg)) + (0,41813 × Größe (cm)) – 43,2933 (Frauen)",
+      "peters": "Peters: LBM = (3,8 × (0,01 × Höhe (cm))³ × Gewicht (kg)) / (3,8 × (0,01 × Höhe (cm))³ + 1,8 × (0,01 × Gewicht (kg))³)"
+    },
+    "unit": "{Einheit}"
+  },
+  "educational": {
+    "leanBodyMassInfo": "Informationen zur fettfreien Körpermasse",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Konsultieren Sie einen Fachmann",
+    "leanBodyMassMethods": {
+      "boer": {
+        "title": "Buren-Methode",
+        "description": "Wird häufig in der medizinischen Dosierung und im klinischen Umfeld verwendet"
+      },
+      "james": {
+        "title": "James-Methode",
+        "description": "Konzipiert für die allgemeine erwachsene Bevölkerung"
+      },
+      "hume": {
+        "title": "Hume-Methode",
+        "description": "In der klinischen Praxis weit verbreitet"
+      },
+      "peters": {
+        "title": "Peters-Methode",
+        "description": "Speziell für Kinder und Jugendliche konzipiert"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Diagnosetool",
+      "individualVariation": "Die Muskelmasse variiert je nach individuellen Faktoren und Messgenauigkeit"
+    },
+    "importantNotesList": [
+      "Zur Muskelmasse gehören Muskeln, Knochen, Organe und Wasser",
+      "Verschiedene Methoden können zu leicht unterschiedlichen Ergebnissen führen",
+      "Für eine genaue Analyse der Körperzusammensetzung wenden Sie sich an medizinisches Fachpersonal",
+      "Regelmäßige Bewegung und ausgewogene Ernährung unterstützen eine gesunde Muskelmasse"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Geben Sie Ihre Maße ein, um Ihre fettfreie Körpermasse zu berechnen",
+    "lbmResult": "Ihre fettfreie Körpermasse beträgt {lbm} {unit}",
+    "bfmResult": "Ihre Körperfettmasse beträgt {bfm} {unit}",
+    "methodUsed": "Verwendete Berechnungsmethode: {method}",
+    "assessmentResult": "Bewertungsergebnis:",
+    "lbmAnalysis": "Analyse der mageren Körpermasse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen auf der Grundlage mathematischer Formeln und sollte nicht als Ersatz für eine professionelle Analyse der Körperzusammensetzung verwendet werden. Einzelne Ergebnisse können aufgrund von Faktoren, die in diesen Berechnungen nicht berücksichtigt wurden, variieren."
+  },
+  "seekHelp": {
+    "title": "Konsultieren Sie einen Arzt",
+    "content": "Für eine genaue Analyse der Körperzusammensetzung und eine individuelle Gesundheitsberatung wenden Sie sich bitte an einen Arzt oder zertifizierten Fitnesstrainer, der Sie auf der Grundlage Ihrer gesamten Gesundheitsgeschichte und Ihrer individuellen Umstände beraten kann."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "bodyFat": "Bitte geben Sie einen gültigen Körperfettanteil ein",
+    "method": "Bitte wählen Sie eine Berechnungsmethode aus"
+  },
+  "tooltips": {
+    "age": "Das Alter beeinflusst die Berechnung der fettfreien Körpermasse",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "bodyFat": "Ihr Körperfettanteil (falls bekannt)",
+    "method": "Für unterschiedliche Bevölkerungsgruppen können unterschiedliche Formeln besser geeignet sein"
+  },
+  "lbm_calculation_0": "LBM-Berechnung",
+  "enter_your_details_to_calculate_lean_body_mass_1": "Geben Sie Ihre Daten ein, um die fettfreie Körpermasse zu berechnen",
+  "unit_system_2": "Einheitensystem",
+  "us_ftin_lbs_3": "US (ft/in, lbs)",
+  "metric_cm_kg_4": "Metrisch (cm, kg)",
+  "age_years_5": "Alter (Jahre)",
+  "gender_6": "Geschlecht",
+  "male_7": "Männlich",
+  "female_8": "Weiblich",
+  "height_9": "Höhe",
+  "ft_10": "ft",
+  "in_11": "In",
+  "height_cm_12": "Höhe (cm)",
+  "weight_13": "Gewicht (",
+  "body_fat_percentage_optional_14": "Körperfettanteil (%) – optional",
+  "if_known_provides_the_most_accurate_lbm_calculatio_15": "Sofern bekannt, liefert dies die genaueste LBM-Berechnung",
+  "calculate_16": "Berechnen",
+  "reset_17": "Zurücksetzen",
+  "lean_body_mass_18": "Magere Körpermasse",
+  "kg_19": "kg",
+  "enter_your_details_to_calculate_lean_body_mass_20": "Geben Sie Ihre Daten ein, um die fettfreie Körpermasse zu berechnen.",
+  "your_lean_body_mass_results_21": "Ihre Ergebnisse für schlanke Körpermasse",
+  "lbm_calculation_methods_22": "LBM-Berechnungsmethoden",
+  "method_23": "Verfahren",
+  "result_kg_24": "Ergebnis (kg)",
+  "result_lbs_25": "Ergebnis (lbs)",
+  "accuracy_26": "Genauigkeit",
+  "summary_27": "Zusammenfassung",
+  "recommended_lbm_28": "Empfohlenes LBM",
+  "value_29": "Wert:",
+  "kg_30": "kg (",
+  "lbs_31": "Pfund)",
+  "method_32": "Verfahren:",
+  "estimated_body_fat_33": "Geschätzter Körperfettanteil:",
+  "input_summary_34": "Eingabezusammenfassung",
+  "age_35": "Alter:",
+  "years_36": "Jahre",
+  "gender_37": "Geschlecht:",
+  "height_38": "Höhe:",
+  "cm_39": "cm",
+  "weight_40": "Gewicht:",
+  "kg_41": "kg",
+  "body_fat_42": "Körperfett:",
+  "about_lean_body_mass_43": "Über fettfreie Körpermasse",
+  "what_is_lbm_44": "Was ist LBM?",
+  "lean_body_mass_45": "Magere Körpermasse:",
+  "total_body_weight_minus_fat_mass_46": "Gesamtkörpergewicht minus Fettmasse",
+  "includes_47": "Beinhaltet:",
+  "muscles_organs_bones_and_water_48": "Muskeln, Organe, Knochen und Wasser",
+  "uses_49": "Verwendung:",
+  "medication_dosing_sports_nutrition_health_tracking_50": "Medikamentendosierung, Sporternährung, Gesundheitsüberwachung",
+  "difference_51": "Unterschied:",
+  "slightly_higher_than_fatfree_mass_52": "Etwas höher als fettfreie Masse",
+  "formula_accuracy_53": "Formelgenauigkeit",
+  "body_fat_method_54": "Körperfettanteil-Methode:",
+  "most_accurate_when_bf_is_known_55": "Am genauesten, wenn BF% bekannt ist",
+  "peters_formula_56": "Peters-Formel:",
+  "recommended_for_children_14_years_57": "Empfohlen für Kinder ≤14 Jahre",
+  "boer_formula_58": "Burenformel:",
+  "good_for_general_adult_population_59": "Gut für die allgemeine erwachsene Bevölkerung",
+  "hume_formula_60": "Hume-Formel:",
+  "preferred_for_clinical_applications_61": "Bevorzugt für klinische Anwendungen",
+  "james_formula_62": "James-Formel:",
+  "moderate_accuracy_for_adults_63": "Mäßige Genauigkeit für Erwachsene",
+  "clinical_applications_64": "Klinische Anwendungen",
+  "medication_dosing_65": "Medikamentendosierung:",
+  "more_accurate_than_total_body_weight_66": "Genauer als das Gesamtkörpergewicht",
+  "nutritional_assessment_67": "Ernährungsbewertung:",
+  "protein_and_calorie_requirements_68": "Protein- und Kalorienbedarf",
+  "athletic_performance_69": "Sportliche Leistung:",
+  "training_and_recovery_optimization_70": "Trainings- und Erholungsoptimierung",
+  "health_monitoring_71": "Gesundheitsüberwachung:",
+  "tracking_muscle_mass_changes_72": "Verfolgen von Veränderungen der Muskelmasse",
+  "typical_lbm_ranges_73": "Typische LBM-Bereiche",
+  "category_74": "Kategorie",
+  "male_75": "Männlich (%)",
+  "female_76": "Weiblich (%)",
+  "athletes_77": "Sportler",
+  "k_8595_78": "85-95 %",
+  "k_7585_79": "75-85 %",
+  "fit_adults_80": "Fitte Erwachsene",
+  "k_8090_81": "80-90 %",
+  "k_7080_82": "70-80 %",
+  "average_adults_83": "Durchschnittliche Erwachsene",
+  "k_7585_84": "75-85 %",
+  "k_6575_85": "65-75 %"
+}

@@ -1,0 +1,117 @@
+{
+  "color": "różowy",
+  "sections": [
+    {
+      "heading": "Poznaj swój wpływ podatkowy dzięki naszemu kalkulatorowi małżeństwa",
+      "content": "Ślub jest ekscytujący, ale wiąże się także z ważnymi decyzjami finansowymi. Nasz kalkulator małżeństwa pomaga zrozumieć wpływ podatkowy małżeństwa, pokazując, w jaki sposób status złożenia wniosku, łączny dochód i odliczenia mogą wpłynąć na Twoje podatki. Niezależnie od tego, czy interesuje Cię kara podatkowa za małżeństwo, potencjalna premia podatkowa za małżeństwo, czy też o to, jak może zmienić się dochód podlegający opodatkowaniu po ślubie, to narzędzie upraszcza proces i umożliwia planowanie z wyprzedzeniem."
+    },
+    {
+      "heading": "Jak działa kalkulator małżeństwa",
+      "content": "Korzystanie z naszego kalkulatora jest szybkie i łatwe:",
+      "subSections": [
+        {
+          "heading": "Wpisz swój dochód",
+          "content": "Uwzględnij swój roczny dochód i dochód współmałżonka."
+        },
+        {
+          "heading": "Wybierz swój status zgłoszenia",
+          "content": "Wybierz pomiędzy złożeniem wspólnego wniosku w związku małżeńskim lub złożeniem wniosku w związku małżeńskim osobno."
+        },
+        {
+          "heading": "Uwzględnij odliczenia",
+          "content": "Uwzględnij odliczenia, takie jak standardowe odliczenie dla małżeństw."
+        },
+        {
+          "heading": "Zobacz wyniki",
+          "content": "Uzyskaj jasne oszacowanie swoich podatków, potencjalnych oszczędności i konsekwencji podatkowych małżeństwa."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe koncepcje podatkowe dla małżeństw",
+      "content": "Zrozumienie kluczowych pojęć podatkowych ma kluczowe znaczenie dla maksymalizacji korzyści:",
+      "subSections": [
+        {
+          "heading": "Zgłaszanie wspólne vs. oddzielne",
+          "content": "Wspólne składanie wniosków często skutkuje niższymi stawkami podatkowymi i większą liczbą ulg, podczas gdy oddzielne zgłoszenia mogą prowadzić do wyższych stawek podatkowych i mniejszych odliczeń."
+        },
+        {
+          "heading": "Standardowe odliczenie dla małżeństw",
+          "content": "W 2025 r. zasady IRS przewidują wyższe standardowe odliczenie przy wspólnym składaniu zeznań."
+        },
+        {
+          "heading": "Progi podatkowe dla małżeństw",
+          "content": "Twój łączny dochód określa, które progi podatkowe mają zastosowanie i wpływają na Twoje całkowite zobowiązanie podatkowe."
+        },
+        {
+          "heading": "Kara podatkowa za małżeństwo a premia",
+          "content": "Kara zostanie nałożona, gdy łączny dochód przesunie Cię do wyższego przedziału, natomiast premia zostanie przyznana, jeśli wspólne rozliczenie kwalifikuje Cię do niższych stawek podatkowych."
+        },
+        {
+          "heading": "Wpływ na zeznanie podatkowe",
+          "content": "Zmiany statusu zgłoszenia, odliczenia i ulgi wpływają na dochód podlegający opodatkowaniu po ślubie."
+        }
+      ]
+    },
+    {
+      "heading": "Praktyczne porady podatkowe dla nowożeńców",
+      "content": "Pomocne strategie dla nowożeńców:",
+      "subSections": [
+        {
+          "heading": "Planuj z wyprzedzeniem",
+          "content": "Skorzystaj z naszego kalkulatora podatku małżeńskiego i podatku dochodowego, aby oszacować swoje podatki przed złożeniem wniosku."
+        },
+        {
+          "heading": "Rozważ planowanie podatkowe",
+          "content": "Dostosuj potrącenia i składki emerytalne, aby zoptymalizować oszczędności."
+        },
+        {
+          "heading": "Śledź odliczenia",
+          "content": "Uwzględnij odliczenia dla par małżeńskich, takie jak odsetki od kredytu hipotecznego, kredyty edukacyjne lub wydatki na opiekę nad dziećmi."
+        },
+        {
+          "heading": "Skorzystaj z oprogramowania podatkowego",
+          "content": "Oprogramowanie do rozliczania podatków dla małżeństw może uprościć obliczenia i zapewnić dokładność."
+        },
+        {
+          "heading": "Bądź na bieżąco z terminami",
+          "content": "Poznaj terminy składania zeznań podatkowych dla małżeństw, aby uniknąć kar."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator podatku małżeńskiego?",
+      "a": "Kalkulator podatku małżeńskiego szacuje Twoje zobowiązanie podatkowe po ślubie, biorąc pod uwagę łączny dochód, status zgłoszenia i odliczenia."
+    },
+    {
+      "q": "W jaki sposób złożenie deklaracji łącznie lub osobno wpływa na podatki?",
+      "a": "Wspólne złożenie wniosku często zapewnia korzyści podatkowe, takie jak niższe stawki i większe odliczenia, natomiast złożenie osobnego wniosku może ograniczyć ulgi i zwiększyć zobowiązanie podatkowe."
+    },
+    {
+      "q": "Jaka jest kara podatkowa za małżeństwo?",
+      "a": "Dzieje się tak, gdy łączenie dochodów wpycha parę do wyższego progu podatkowego, co skutkuje wyższymi podatkami, niż gdyby składano je indywidualnie."
+    },
+    {
+      "q": "Co to jest premia podatkowa za małżeństwo?",
+      "a": "Premia pojawia się, gdy wspólne składanie zeznań obniża ogólną stawkę podatku, oszczędzając pieniądze w porównaniu do składania oddzielnego wniosku."
+    },
+    {
+      "q": "Jak nowożeńcy mogą zoptymalizować swoje podatki?",
+      "a": "Dostosowując potrącenia, śledząc odliczenia, planując składki i korzystając z oprogramowania podatkowego w celu zapewnienia dokładności."
+    },
+    {
+      "q": "Jakie są standardowe odliczenia dla małżeństw w 2025 roku?",
+      "a": "Standardowe odliczenie dla małżeństw rozliczających się wspólnie w 2025 r. jest wyższe niż w przypadku osób samotnych, co zmniejsza dochód podlegający opodatkowaniu i obniża podatki."
+    },
+    {
+      "q": "Jakie są możliwości rozliczenia podatkowego dla małżeństw?",
+      "a": "Opcje składania wniosków obejmują wspólne złożenie wniosku w związku małżeńskim lub złożenie wniosku w związku małżeńskim oddzielnie, każda z różnymi zaletami i wadami."
+    },
+    {
+      "q": "W czym może pomóc wspólny kalkulator zeznań podatkowych?",
+      "a": "Zapewnia jasny obraz dochodu podlegającego opodatkowaniu po ślubie, pomagając zidentyfikować potencjalne oszczędności i zaplanować skutki podatkowe małżeństwa w 2025 roku."
+    }
+  ]
+}

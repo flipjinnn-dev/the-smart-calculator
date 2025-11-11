@@ -1,0 +1,143 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator tkanki tłuszczowej?",
+      "content": "Kalkulator tkanki tłuszczowej to bezpłatne i dokładne narzędzie, które pomaga oszacować procentową zawartość tkanki tłuszczowej i jej ogólny skład. Wykorzystując dane wejściowe, takie jak masa ciała, wzrost, płeć i pomiary, zapewnia wgląd w masę beztłuszczową, procent tłuszczu i stan zdrowia. Niezależnie od tego, czy jesteś entuzjastą fitnessu, sportowcem, czy osobą monitorującą wskaźniki zdrowotne, ten kalkulator pomoże Ci podejmować świadome decyzje dotyczące diety, ćwiczeń i stylu życia."
+    },
+    {
+      "heading": "Jak mierzy się tkankę tłuszczową",
+      "subSections": [
+        {
+          "heading": "Kalkulator BMI i tkanki tłuszczowej",
+          "content": "BMI pokazuje masę ciała w stosunku do wzrostu, ale nie rozróżnia mięśni i tłuszczu. Połączenie BMI z szacunkową zawartością tkanki tłuszczowej daje wyraźniejszy obraz."
+        },
+        {
+          "heading": "Pomiary taśmowe",
+          "content": "Pomiar talii, bioder i szyi za pomocą taśmy może oszacować zawartość tkanki tłuszczowej. Ta metoda jest powszechnie stosowana w wojskowych kalkulatorach tkanki tłuszczowej i ocenach sportowców."
+        },
+        {
+          "heading": "Suwmiarki fałdowe",
+          "content": "Suwmiarki mierzą grubość fałdów skórnych w określonych punktach ciała. Niezawodny do śledzenia, jeśli jest wykonywany prawidłowo."
+        },
+        {
+          "heading": "Impedancja bioelektryczna i inteligentne wagi",
+          "content": "Inteligentne wagi i urządzenia wysyłają bezpieczny prąd przez organizm, aby oszacować zawartość tłuszczu w porównaniu z masą beztłuszczową."
+        },
+        {
+          "heading": "Standardy wojskowe i specjalistyczne",
+          "content": "Kalkulator tkanki tłuszczowej armii wykorzystuje standardowe wzory do oceny składu ciała pod kątem sprawności i kwalifikowalności."
+        }
+      ]
+    },
+    {
+      "heading": "Zakresy zawartości tkanki tłuszczowej według wieku, płci i celów fitness",
+      "subSections": [
+        {
+          "heading": "Niezbędny tłuszcz",
+          "content": "Mężczyźni: 2–5%, Kobiety: 10–13% — wymagane do przeżycia i funkcji hormonalnych."
+        },
+        {
+          "heading": "Sportowcy",
+          "content": "Mężczyźni: 6–13%, kobiety: 14–20% — idealne do występów na zawodach."
+        },
+        {
+          "heading": "Zdatność",
+          "content": "Mężczyźni: 14–17%, Kobiety: 21–24% — Zdrowa oferta dla aktywnych dorosłych."
+        },
+        {
+          "heading": "Przeciętny",
+          "content": "Mężczyźni: 18–24%, kobiety: 25–31% — typowy zakres dla populacji ogólnej."
+        },
+        {
+          "heading": "Otyły",
+          "content": "Mężczyźni: 25%+, Kobiety: 32%+ — Wyższe ryzyko problemów zdrowotnych."
+        }
+      ]
+    },
+    {
+      "heading": "Wskazówki, jak bezpiecznie redukować tkankę tłuszczową",
+      "subSections": [
+        {
+          "heading": "Ćwiczenia",
+          "content": "Połącz trening siłowy z regularnym cardio."
+        },
+        {
+          "heading": "Zbilansowana dieta",
+          "content": "Jedz białko, błonnik i zdrowe tłuszcze, unikając przetworzonej żywności."
+        },
+        {
+          "heading": "Śledzenie kalorii",
+          "content": "Użyj kalkulatorów TDEE lub BMR, aby śledzić spożycie kalorii."
+        },
+        {
+          "heading": "Nawyki związane ze stylem życia",
+          "content": "Śpij dobrze, zarządzaj stresem i unikaj ekstremalnych diet."
+        }
+      ]
+    },
+    {
+      "heading": "Ograniczenia kalkulatorów tkanki tłuszczowej",
+      "subSections": [
+        {
+          "heading": "Tylko szacunki",
+          "content": "Wyniki mogą nie być w 100% dokładne, ponieważ na wyniki wpływają takie czynniki, jak nawodnienie i genetyka."
+        },
+        {
+          "heading": "Nie jest substytutem medycznym",
+          "content": "Narzędzie to nie zastępuje profesjonalnej diagnozy ani porady zdrowotnej."
+        },
+        {
+          "heading": "Odmiany metod",
+          "content": "Różne metody (suwmiarka, impedancja itp.) mogą dawać nieco inne wyniki."
+        },
+        {
+          "heading": "Najlepsza praktyka",
+          "content": "Korzystaj z kalkulatora regularnie i łącz go z innymi metodami monitorowania kondycji."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jaki jest zdrowy procent tkanki tłuszczowej u mężczyzn i kobiet?",
+      "a": "Dla ogółu dorosłych: mężczyźni 14–24%, kobiety 21–31%. Sportowcy mogą być niżsi."
+    },
+    {
+      "q": "Jak obliczyć procent tkanki tłuszczowej?",
+      "a": "Skorzystaj z takich metod, jak pomiary taśmą, suwmiarką, impedancja bioelektryczna lub nasz internetowy kalkulator tkanki tłuszczowej."
+    },
+    {
+      "q": "Czy kalkulatory tkanki tłuszczowej są dokładne?",
+      "a": "Podają szacunki. Dokładność poprawia się, gdy łączy się wiele metod."
+    },
+    {
+      "q": "Jak bezpiecznie zredukować tkankę tłuszczową?",
+      "a": "Stosuj zbilansowaną dietę, konsekwentne ćwiczenia, odpowiedni sen i unikaj ekstremalnych diet."
+    },
+    {
+      "q": "Jaka jest różnica między BMI a tkanką tłuszczową?",
+      "a": "BMI mierzy wagę w funkcji wzrostu, ale nie oddziela tłuszczu od mięśni. Procent tkanki tłuszczowej mierzy zawartość tłuszczu w porównaniu z masą beztłuszczową."
+    },
+    {
+      "q": "Czy sportowcy mogą korzystać z kalkulatora tkanki tłuszczowej?",
+      "a": "Tak, kalkulatory tkanki tłuszczowej dla sportowców dostarczają informacji dostosowanych do celów treningowych."
+    },
+    {
+      "q": "Czy kalkulator tkanki tłuszczowej armii jest inny?",
+      "a": "Tak, do oceny kwalifikowalności wykorzystuje formuły specyficzne dla wojska."
+    },
+    {
+      "q": "Czy seniorzy mogą korzystać z tego narzędzia?",
+      "a": "Tak, pomaga monitorować zmiany w składzie ciała związane ze starzeniem się."
+    },
+    {
+      "q": "Jak często powinienem sprawdzać zawartość tkanki tłuszczowej w organizmie?",
+      "a": "Co 4–6 tygodni w celu znaczącego śledzenia."
+    },
+    {
+      "q": "Czy sztuczna inteligencja może pomóc w śledzeniu postępu w spalaniu tkanki tłuszczowej?",
+      "a": "Tak, kalkulatory oparte na sztucznej inteligencji mogą analizować trendy i integrować się z aplikacjami zdrowotnymi."
+    }
+  ]
+}

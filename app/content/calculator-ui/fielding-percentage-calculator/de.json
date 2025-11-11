@@ -1,0 +1,143 @@
+{
+  "pageTitle": "Fielding-Prozentsatzrechner",
+  "pageDescription": "Berechnen Sie den Fielding-Prozentsatz für Baseballspieler",
+  "form": {
+    "labels": {
+      "putouts": "Ausfälle",
+      "assists": "Unterstützt",
+      "errors": "Fehler"
+    },
+    "placeholders": {
+      "putouts": "Geben Sie die Anzahl der Ausgaben ein",
+      "assists": "Geben Sie die Anzahl der Assists ein",
+      "errors": "Geben Sie die Anzahl der Fehler ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den Fielding-Prozentsatz",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "fieldingPercentage": "Fielding-Prozentsatz",
+    "totalChances": "Gesamtchancen",
+    "successfulChances": "Erfolgreiche Chancen",
+    "errorRate": "Fehlerrate",
+    "leagueRanking": "Schätzung der Liga-Rangliste"
+  },
+  "educational": {
+    "fieldingInfo": "Informationen zum Feldanteil",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Baseball-Ressourcen",
+    "fieldingFacts": {
+      "definition": {
+        "title": "Fielding-Prozentsatz",
+        "description": "Eine Statistik, die die Fähigkeit eines Spielers misst, Chancen zu nutzen, ohne Fehler zu machen"
+      },
+      "formula": {
+        "title": "Berechnungsformel",
+        "description": "Fielding-Prozentsatz = (Putouts + Assists) / (Putouts + Assists + Fehler)"
+      },
+      "interpretation": {
+        "title": "Aufführungsinterpretation",
+        "description": "Der Fielding-Prozentsatz liegt zwischen 0,000 und 1,000, wobei 1,000 für perfektes Fielding steht"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner bietet nur Feldprozentsatzberechnungen",
+      "actual": "Bei einer umfassenden Defensivbewertung sollten zusätzliche Kennzahlen wie Reichweite und Doppelspiele berücksichtigt werden"
+    },
+    "importantNotesList": [
+      "Der Fielding-Prozentsatz ist nur ein Maß für die Defensivleistung",
+      "Berücksichtigt nicht die Reichweite, Doppelspiele oder schwierige Spielzüge",
+      "Ein hoher Feldanteil weist auf weniger Fehler im Verhältnis zu den Chancen hin",
+      "Die Stichprobengröße ist wichtig – mehr Chancen sorgen für eine bessere Bewertung"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Putouts, Assists und Fehler ein, um den Fielding-Prozentsatz zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Feldprozentsatzberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Berechnung des Fielding-Prozentsatzes:",
+    "fieldingAnalysis": "Fielding-Analyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet Feldprozentsatzberechnungen basierend auf Standardformeln für Baseballstatistiken. Bei einer vollständigen defensiven Bewertung sollten zusätzliche Metriken, Kontexte und Faktoren der Stichprobengröße berücksichtigt werden, die in diesen Berechnungen nicht berücksichtigt werden."
+  },
+  "seekHelp": {
+    "title": "Baseball-Ressourcen",
+    "content": "Für umfassende Baseball-Defensivanalysen und Spielerbewertungen konsultieren Sie Baseball-Referenzseiten, Sportanalyseressourcen oder professionelle Scouts und Analysten."
+  },
+  "errors": {
+    "putouts": "Bitte geben Sie eine gültige Anzahl an Ausgaben ein",
+    "assists": "Bitte geben Sie eine gültige Anzahl an Assists ein",
+    "errors": "Bitte geben Sie eine gültige Fehleranzahl ein"
+  },
+  "tooltips": {
+    "putouts": "Anzahl der vom Spieler direkt aufgezeichneten Outs (z. B. Fangen von Flyballs, Markieren von Läufern)",
+    "assists": "Häufigkeit, mit der der Spieler beim Aufzeichnen eines Outs geholfen hat (z. B. beim Werfen zur ersten Base)",
+    "errors": "Anzahl der Defensivfehler, die es Läufern ermöglichen, vorzurücken oder die Basis zu erreichen"
+  },
+  "fielding_statistics_0": "Feldstatistik",
+  "enter_fielding_statistics_to_calculate_fielding_pe_1": "Geben Sie Fielding-Statistiken ein, um den Fielding Percentage (FPCT) zu berechnen.",
+  "putouts_p_2": "Ausgaben (P)",
+  "outs_recorded_by_the_fielder_3": "Vom Feldspieler aufgezeichnete Outs",
+  "assists_a_4": "Assists (A)",
+  "plays_that_helped_record_an_out_5": "Stücke, die bei der Aufnahme eines Outs geholfen haben",
+  "errors_e_6": "Fehler (E)",
+  "misplays_that_should_have_been_made_7": "Fehlspiele, die hätten gemacht werden müssen",
+  "output_format_8": "Ausgabeformat",
+  "display_result_as_9": "Ergebnis anzeigen als",
+  "decimal_10": "Dezimal",
+  "percentage_11": "Prozentsatz",
+  "formula_12": "Formel:",
+  "fpct_putouts_assists_putouts_assists_errors_13": "FPCT = (Putouts + Assists) ÷ (Putouts + Assists + Fehler)",
+  "total_chances_putouts_assists_errors_14": "Gesamtchancen = Putouts + Assists + Fehler",
+  "calculate_15": "Berechnen",
+  "reset_16": "Zurücksetzen",
+  "fpct_results_17": "FPCT-Ergebnisse",
+  "fpct_18": "FPCT",
+  "total_chances_19": "Gesamtchancen",
+  "performance_20": "Leistung",
+  "enter_fielding_statistics_and_click_21": "Geben Sie die Feldstatistik ein und klicken Sie auf",
+  "calculate_22": "Berechnen",
+  "to_see_fpct_23": "um FPCT zu sehen.",
+  "detailed_fpct_breakdown_24": "Detaillierte FPCT-Aufschlüsselung",
+  "fpct_25": "FPCT",
+  "putouts_26": "Ausfälle",
+  "p_27": "P",
+  "assists_28": "Unterstützt",
+  "a_29": "A",
+  "errors_30": "Fehler",
+  "e_31": "E",
+  "calculation_steps_32": "Berechnungsschritte:",
+  "step_1_33": "Schritt 1:",
+  "total_chances_34": "Gesamtchancen =",
+  "step_2_35": "Schritt 2:",
+  "fpct_36": "FPCT = (",
+  "step_3_37": "Schritt 3:",
+  "as_percentage_38": "Als Prozentsatz =",
+  "k_100_39": "× 100 =",
+  "understanding_fielding_percentage_40": "Den Fielding-Prozentsatz verstehen",
+  "what_is_fpct_41": "Was ist FPCT?",
+  "fielding_percentage_fpct_measures_how_often_a_fiel_42": "Der Fielding Percentage (FPCT) misst, wie oft ein Feldspieler eine Chance erfolgreich verwertet\n                        einen Fehler machen. Er wird berechnet, indem die erfolgreichen Spielzüge (Putouts + Assists) durch die Gesamtzahl dividiert werden\n                        Chancen.",
+  "fpct_interpretation_43": "FPCT-Interpretation",
+  "k_1000_perfect_no_errors_44": "1.000: Perfekt (keine Fehler)",
+  "k_0980_elite_level_45": "0,980+: Elite-Level",
+  "k_09500979_good_46": "0,950–0,979: Gut",
+  "k_09000949_average_47": "0,900–0,949: Durchschnitt",
+  "below_0900_below_average_48": "Unter 0,900: Unterdurchschnittlich",
+  "sample_calculation_49": "Beispielrechnung",
+  "example_50": "Beispiel:",
+  "player_statistics_51": "Spielerstatistiken",
+  "putouts_1489_52": "Ausgaben: 1489",
+  "assists_496_53": "Vorlagen: 496",
+  "errors_33_54": "Fehler: 33",
+  "calculation_55": "Berechnung:",
+  "total_chances_1489_496_33_2018_56": "Gesamtchancen = 1489 + 496 + 33 = 2018",
+  "fpct_1489_496_2018_57": "FPCT = (1489 + 496) ÷ 2018",
+  "fpct_0984_984_58": "FPCT = 0,984 (98,4 %)",
+  "note_59": "Notiz:",
+  "high_fpct_doesnt_reflect_a_fielders_range_or_the_d_60": "Ein hoher FPCT spiegelt nicht die Reichweite eines Feldspielers oder die Schwierigkeit der Spiele wider\n                          versucht."
+}

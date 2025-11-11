@@ -1,0 +1,153 @@
+{
+  "pageTitle": "Sozialversicherungsrechner",
+  "pageDescription": "Schätzen Sie Ihre Sozialversicherungsleistungen auf der Grundlage Ihrer Verdiensthistorie und des geplanten Rentenalters für eine umfassende Ruhestandsplanung",
+  "form": {
+    "labels": {
+      "dateOfBirth": "Geburtsdatum",
+      "retirementAge": "Geplantes Rentenalter",
+      "currentAge": "Aktuelles Alter",
+      "yearsOfCoverage": "Jahrelange Abdeckung",
+      "averageIndexedMonthlyEarnings": "Durchschnittlicher indexierter Monatsverdienst",
+      "primaryInsuranceAmount": "Erstversicherungsbetrag (PIA)",
+      "spouseBenefit": "Prozentsatz des Ehegattengeldes"
+    },
+    "placeholders": {
+      "dateOfBirth": "Geben Sie das Geburtsdatum ein",
+      "retirementAge": "Geben Sie das geplante Renteneintrittsalter ein",
+      "currentAge": "Geben Sie das aktuelle Alter ein",
+      "yearsOfCoverage": "Geben Sie die Versicherungsjahre ein",
+      "averageIndexedMonthlyEarnings": "Geben Sie den durchschnittlichen indexierten Monatsverdienst ein",
+      "primaryInsuranceAmount": "Geben Sie die Erstversicherungssumme ein",
+      "spouseBenefit": "Geben Sie den Prozentsatz der Ehegattenrente ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Sozialversicherungsleistungen",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "monthlyBenefit": "Geschätzter monatlicher Nutzen",
+    "annualBenefit": "Geschätzter jährlicher Nutzen",
+    "benefitAtFullRetirement": "Leistung im vollen Rentenalter",
+    "spouseBenefit": "Höhe der Ehegattenleistung",
+    "socialSecurityResultsTitle": "Ergebnisse der Sozialversicherungsberechnung"
+  },
+  "educational": {
+    "socialSecurityInfo": "Informationen zur Sozialversicherung",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "socialSecurityFacts": {
+      "fullRetirementAge": {
+        "title": "Volles Rentenalter",
+        "description": "Alter, in dem Sie die vollen Sozialversicherungsleistungen erhalten (66–67 Jahre für die meisten Menschen)"
+      },
+      "earlyRetirement": {
+        "title": "Auswirkungen auf den Vorruhestand",
+        "description": "Bei vorzeitiger Pensionierung vor dem vollen Rentenalter werden die Leistungen um 6,67 % pro Jahr gekürzt"
+      },
+      "delayedRetirement": {
+        "title": "Verspätete Rentengutschriften",
+        "description": "Bei einem späteren Renteneintritt bis zum Alter von 70 Jahren erhöhen sich die Leistungen um 8 % pro Jahr"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen der Sozialversicherungsleistungen",
+      "actual": "Die tatsächlichen Leistungen können je nach Verdienstverlauf und Berechnungen der Sozialversicherungsbehörde variieren"
+    },
+    "importantNotesList": [
+      "Verwenden Sie Ihren Sozialversicherungsnachweis für genauere Leistungsschätzungen",
+      "Berücksichtigen Sie bei der Ruhestandsplanung Ehegattenleistungen und Hinterbliebenenleistungen",
+      "Die Sozialversicherung ersetzt etwa 40 % des Vorruhestandseinkommens für Durchschnittsverdiener",
+      "Die Leistungen können der Einkommenssteuer auf Bundes- und Landesebene unterliegen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Sozialversicherungsdaten ein, um die Leistungen abzuschätzen",
+    "resultMessage": "Die Ergebnisse Ihrer Berechnung der Sozialversicherungsleistungen werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Sozialversicherungsberechnung:",
+    "socialSecurityAnalysis": "Analyse der sozialen Sicherheit"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen der Sozialversicherungsleistungen auf der Grundlage allgemeiner Formeln. Die tatsächlichen Leistungen können je nach Verdienstverlauf, Berechnungen der Sozialversicherungsbehörde und anderen Faktoren, die in diesen Schätzungen nicht berücksichtigt sind, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine personalisierte Sozialversicherungsleistungsanalyse und Ruhestandsplanung wenden Sie sich an Sozialversicherungsvertreter oder Finanzberater mit Fachkenntnissen in der Ruhestandseinkommensplanung und individuellen Umständen."
+  },
+  "errors": {
+    "dateOfBirth": "Bitte geben Sie ein gültiges Geburtsdatum ein",
+    "retirementAge": "Bitte geben Sie ein gültiges geplantes Renteneintrittsalter ein",
+    "currentAge": "Bitte geben Sie ein gültiges aktuelles Alter ein",
+    "yearsOfCoverage": "Bitte geben Sie gültige Versicherungsjahre ein",
+    "averageIndexedMonthlyEarnings": "Bitte geben Sie einen gültigen durchschnittlichen indexierten Monatsverdienst ein",
+    "primaryInsuranceAmount": "Bitte geben Sie eine gültige Erstversicherungssumme ein",
+    "spouseBenefit": "Bitte geben Sie einen gültigen Prozentsatz der Ehegattenrente ein"
+  },
+  "tooltips": {
+    "dateOfBirth": "Ihr Geburtsdatum beeinflusst die Berechnung des vollen Rentenalters",
+    "retirementAge": "Alter, in dem Sie planen, Sozialversicherungsleistungen zu beziehen",
+    "currentAge": "Ihr aktuelles Alter in Jahren",
+    "yearsOfCoverage": "Anzahl der Jahre, in denen Sie gearbeitet und Sozialversicherungssteuern gezahlt haben",
+    "averageIndexedMonthlyEarnings": "Durchschnitt Ihres höchsten indexierten Einkommens der letzten 35 Jahre",
+    "primaryInsuranceAmount": "Leistungshöhe bei vollem Rentenalter",
+    "spouseBenefit": "Prozentsatz Ihrer Leistung, die der Ehegatte erhalten kann"
+  },
+  "social_security_inputs_0": "Sozialversicherungsbeiträge",
+  "basic_information_1": "Grundlegende Informationen",
+  "birth_year_2": "Geburtsjahr",
+  "full_retirement_age_3": "Volles Rentenalter",
+  "autocalculated_4": "(Automatisch berechnet:",
+  "years_5": "Jahre",
+  "life_expectancy_years_6": "Lebenserwartung (Jahre)",
+  "monthly_benefit_at_fra_7": "Monatliche Leistung bei FRA",
+  "claiming_ages_to_compare_8": "Anspruch auf Alter zum Vergleichen",
+  "age_9": "Alter",
+  "fra_10": "(FRA)",
+  "economic_assumptions_11": "Ökonomische Annahmen",
+  "annual_cola_12": "Jährliche COLA (%)",
+  "investment_return_13": "Anlagerendite (%)",
+  "show_in_future_inflated_dollars_vs_todays_dollars_14": "In zukünftig überhöhten Dollars anzeigen (im Vergleich zu den heutigen Dollars)",
+  "calculate_15": "Berechnen",
+  "benefit_comparison_16": "Leistungsvergleich",
+  "compare_claiming_strategies_17": "Vergleichen Sie Anspruchsstrategien",
+  "optimal_strategy_18": "Optimale Strategie:",
+  "claim_at_age_19": "Anspruch im Alter",
+  "highest_present_value_20": "Höchster Barwert: $",
+  "detailed_comparison_21": "Detaillierter Vergleich",
+  "claim_age_22": "Anspruchsalter",
+  "monthly_benefit_23": "Monatlicher Vorteil",
+  "lifetime_benefits_24": "Lebenslange Vorteile",
+  "present_value_25": "Barwert",
+  "age_26": "Alter",
+  "best_27": "AM BESTEN",
+  "vs_fra_28": "% vs. FRA",
+  "key_insights_29": "Wichtige Erkenntnisse:",
+  "present_values_assume_30": "• Aktuelle Werte gehen davon aus",
+  "annual_investment_return_31": "% jährliche Anlagerendite",
+  "benefits_increase_by_32": "• Die Vorteile steigen um",
+  "annually_after_claiming_33": "% jährlich nach Inanspruchnahme",
+  "early_claiming_reduces_benefits_permanently_34": "• Eine vorzeitige Inanspruchnahme verringert die Leistungen dauerhaft",
+  "delayed_retirement_credits_add_8_per_year_after_fr_35": "• Gutschriften für den späteren Ruhestand erhöhen sich nach FRA um 8 % pro Jahr",
+  "select_claiming_ages_and_calculate_to_see_your_res_36": "Wählen Sie das Anspruchsalter aus und berechnen Sie, um Ihre Ergebnisse anzuzeigen",
+  "how_social_security_benefits_work_37": "So funktionieren Sozialversicherungsleistungen",
+  "k_1_primary_insurance_amount_pia_38": "1. Erstversicherungsbetrag (PIA)",
+  "your_pia_is_calculated_from_your_average_indexed_m_39": "Ihr PIA wird anhand Ihres durchschnittlichen indexierten Monatseinkommens (AIME) unter Verwendung von Biegepunkten berechnet:",
+  "k_2_claiming_age_adjustments_40": "2. Geltendmachung von Altersanpassungen",
+  "benefits_are_reduced_for_early_claiming_before_fra_41": "Die Leistungen werden bei vorzeitiger Inanspruchnahme (vor FRA) gekürzt und bei verspäteter Inanspruchnahme (nach FRA bis zum 70. Lebensjahr) erhöht.",
+  "k_3_present_value_analysis_42": "3. Barwertanalyse",
+  "where_r_investment_return_rate_accounting_for_the__43": "Wobei r = Investitionsrendite unter Berücksichtigung der Opportunitätskosten einer späteren Inanspruchnahme.",
+  "frequently_asked_questions_44": "Häufig gestellte Fragen",
+  "what_is_full_retirement_age_fra_45": "Was ist das volle Rentenalter (FRA)?",
+  "full_retirement_age_is_when_you_can_claim_100_of_y_46": "Wenn Sie das volle Rentenalter erreichen, können Sie 100 % Ihrer Sozialversicherungsleistungen beanspruchen. Es liegt je nach Geburtsjahr zwischen 65 und 67 Jahren. Für diejenigen, die 1960 oder später geboren wurden, beträgt der FRA 67.",
+  "how_much_do_i_lose_by_claiming_early_at_62_47": "Wie viel verliere ich, wenn ich meinen Anspruch frühzeitig mit 62 geltend mache?",
+  "claiming_at_62_reduces_your_benefit_by_about_2530__48": "Wenn Sie Ihren Anspruch im Alter von 62 Jahren geltend machen, verringert sich Ihre Leistung je nach Ihrem FRA dauerhaft um etwa 25–30 %. Die Ermäßigung beträgt 5/9 von 1 % für jeden Monat vor FRA (bis zu 36 Monate), dann 5/12 von 1 % für jeden weiteren Monat.",
+  "what_are_delayed_retirement_credits_49": "Was sind verspätete Rentengutschriften?",
+  "for_each_year_you_delay_claiming_past_fra_up_to_ag_50": "Für jedes Jahr, in dem Sie Ihren Anspruch über den FRA hinauszögern (bis zum Alter von 70 Jahren), erhalten Sie eine Gutschrift für den verspäteten Ruhestand im Wert von 8 % pro Jahr. Das heißt, wenn Sie bis zum 70. Lebensjahr warten, können Sie Ihre Leistung um 24–32 % im Vergleich zur Antragstellung bei der FRA erhöhen.",
+  "what_is_the_breakeven_age_51": "Was ist das Breakeven-Alter?",
+  "the_breakeven_age_is_when_the_total_benefits_recei_52": "Das Break-Even-Alter liegt dann vor, wenn die Gesamtleistung, die Sie aus einer späteren Inanspruchnahme erhalten, derjenigen aus einer früheren Inanspruchnahme entspricht. Wenn Sie älter als Anfang 80 sind, zahlt sich der Aufschub der Leistungen im Allgemeinen in Höhe der insgesamt erhaltenen Beträge aus.",
+  "how_does_cola_affect_my_benefits_53": "Wie wirkt sich COLA auf meine Leistungen aus?",
+  "costofliving_adjustments_cola_are_applied_annually_54": "Zum Schutz vor Inflation werden jährlich Anpassungen der Lebenshaltungskosten (COLA) vorgenommen. Die Anpassung gilt für Ihren Leistungsbetrag zum Zeitpunkt der Erhöhung, unabhängig davon, wann Sie den Anspruch geltend gemacht haben. Der historische COLA-Wert beträgt durchschnittlich etwa 2–3 % pro Jahr."
+}

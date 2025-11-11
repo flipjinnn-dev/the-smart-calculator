@@ -1,0 +1,133 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist der gesamte tägliche Energieaufwand (TDEE)?",
+      "content": "Ihr täglicher Gesamtenergieverbrauch (TDEE) ist die Gesamtzahl der Kalorien, die Ihr Körper jeden Tag verbrennt, einschließlich aller Aktivitäten – vom Ruhen und Schlafen bis hin zum Gehen, Arbeiten und Sport. Die Kenntnis Ihres TDEE ist für eine effektive Gewichtskontrolle, Muskelaufbau und allgemeine Fitnessplanung unerlässlich."
+    },
+    {
+      "heading": "So berechnen Sie TDEE",
+      "content": "Die Verwendung unseres TDEE-Rechners online ist einfach und genau:",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Geben Sie Ihr Alter, Geschlecht, Gewicht und Ihre Größe ein."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Wählen Sie Ihr Aktivitätsniveau (Sitzend, Leicht aktiv, Mäßig aktiv, Sehr aktiv, Extraaktiv)."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Geben Sie optional Ihren Körperfettanteil ein, um genauere Ergebnisse zu erhalten."
+        },
+        {
+          "heading": "Schritt 4",
+          "content": "Klicken Sie auf „TDEE berechnen“, um sofort Ihren täglichen Kalorienbedarf zu ermitteln."
+        }
+      ]
+    },
+    {
+      "heading": "TDEE-Formeln erklärt",
+      "subSections": [
+        {
+          "heading": "Mifflin-St-Jeor-Formel",
+          "content": "Am besten für die meisten Benutzer geeignet. Schätzung des TDEE anhand von Alter, Geschlecht, Größe und Gewicht."
+        },
+        {
+          "heading": "Katch-McArdle-Formel",
+          "content": "Ideal, wenn Sie Ihren Körperfettanteil kennen, da der TDEE auf Basis der fettfreien Körpermasse berechnet wird."
+        }
+      ]
+    },
+    {
+      "heading": "Aktivitätsmultiplikatoren",
+      "content": "Nach der Berechnung des Grundumsatzes (BMR) wendet der Rechner einen Aktivitätsmultiplikator an:",
+      "subSections": [
+        {
+          "heading": "Sitzend",
+          "content": "1,2 (wenig oder keine Bewegung)"
+        },
+        {
+          "heading": "Leicht aktiv",
+          "content": "1,375 (leichte Bewegung/Sport 1–3 Tage/Woche)"
+        },
+        {
+          "heading": "Mäßig aktiv",
+          "content": "1,55 (moderate Bewegung 3–5 Tage/Woche)"
+        },
+        {
+          "heading": "Sehr aktiv",
+          "content": "1,725 ​​(hartes Training 6–7 Tage/Woche)"
+        },
+        {
+          "heading": "Extra aktiv",
+          "content": "1,9 (sehr harte Übung oder körperliche Arbeit)"
+        }
+      ]
+    },
+    {
+      "heading": "So verwenden Sie TDEE-Ergebnisse",
+      "subSections": [
+        {
+          "heading": "Gewichtsverlust",
+          "content": "Essen Sie 10–20 % weniger Kalorien als Ihr TDEE."
+        },
+        {
+          "heading": "Wartung",
+          "content": "Verbrauchen Sie Kalorien in Höhe Ihres TDEE."
+        },
+        {
+          "heading": "Muskelaufbau",
+          "content": "Essen Sie beim Krafttraining 10–20 % über dem TDEE."
+        }
+      ]
+    },
+    {
+      "heading": "TDEE vs. BMR",
+      "content": "BMR (Basal Metabolic Rate) ist der Kalorienverbrauch im Ruhezustand, während TDEE alle Aktivitäten und Übungen umfasst. Wenn Sie beides kennen, können Sie Ihre Ernährung und Ihren Trainingsplan optimieren."
+    },
+    {
+      "heading": "Tipps zur Genauigkeit",
+      "content": "Verfolgen Sie den Fortschritt im Laufe der Zeit und aktualisieren Sie TDEE, wenn sich Ihr Gewicht, Ihre Aktivität oder Ihre Körperzusammensetzung ändern. Kombinieren Sie die TDEE-Verfolgung mit der Makronährstoffüberwachung, um optimale Ergebnisse zu erzielen."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist TDEE und warum ist es wichtig?",
+      "a": "TDEE ist die Gesamtkalorienmenge, die Ihr Körper täglich verbrennt. Das Wissen darüber hilft bei der Planung von Gewichtsabnahme, Gewichtserhaltung oder Muskelaufbau."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen TDEE und BMR?",
+      "a": "Der BMR bezeichnet den Kalorienverbrauch im Ruhezustand, während der TDEE den Kalorienverbrauch durch Aktivität und Training umfasst."
+    },
+    {
+      "q": "Welche Formel ist besser: Mifflin-St Jeor oder Katch-McArdle?",
+      "a": "Mifflin-St Jeor funktioniert bei den meisten Menschen am besten. Katch-McArdle ist genauer, wenn Sie Ihren Körperfettanteil kennen."
+    },
+    {
+      "q": "Wie viele Kalorien sollte ich essen, um abzunehmen?",
+      "a": "Streben Sie für einen sicheren und nachhaltigen Fettabbau einen Wert von 10–20 % unter Ihrem TDEE an."
+    },
+    {
+      "q": "Ändert sich TDEE im Laufe der Zeit?",
+      "a": "Ja, es ändert sich mit Gewicht, Körperzusammensetzung, Aktivitätsniveau und Stoffwechsel."
+    },
+    {
+      "q": "Ist die Nutzung dieses TDEE-Rechners kostenlos?",
+      "a": "Ja, unser kostenloser Online-TDEE-Rechner ist jederzeit kostenlos verfügbar."
+    },
+    {
+      "q": "Wie kann ich TDEE zum Muskelaufbau verwenden?",
+      "a": "Essen Sie 10–20 % über dem TDEE mit Krafttraining für den Muskelaufbau."
+    },
+    {
+      "q": "Welchen Aktivitätsmultiplikator soll ich wählen?",
+      "a": "Wählen Sie diejenige aus, die Ihrem täglichen Lebensstil und Ihrer Trainingsroutine am nächsten kommt, um die beste Genauigkeit zu erzielen."
+    },
+    {
+      "q": "Wie genau ist ein TDEE-Rechner?",
+      "a": "It provides estimates. Die Genauigkeit verbessert sich, wenn Sie den Körperfettanteil einbeziehen und den tatsächlichen Fortschritt verfolgen."
+    }
+  ]
+}

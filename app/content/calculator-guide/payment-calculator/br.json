@@ -1,0 +1,86 @@
+{
+  "color": "roxo",
+  "sections": [
+    {
+      "heading": "Calculadora de pagamentos: simplifique seu planejamento de empréstimos",
+      "content": "Nossa Calculadora de Pagamentos foi projetada para ajudá-lo a estimar rapidamente os pagamentos do seu empréstimo, seja um carro, uma casa, um empréstimo pessoal ou qualquer parcelamento fixo. Com apenas algumas informações, você pode ver seus pagamentos mensais, juros e reembolso total, permitindo que você tome decisões financeiras informadas."
+    },
+    {
+      "heading": "Como usar a calculadora de pagamento",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Selecione o tipo de empréstimo – Carro, Hipoteca, Empréstimo Pessoal ou Pagamento Fixo."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Insira o valor do empréstimo que você planeja emprestar."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Insira a taxa de juros e o prazo do empréstimo (meses ou anos)."
+        },
+        {
+          "heading": "Etapa 4",
+          "content": "Clique em Calcular para visualizar seu pagamento mensal, juros totais e cronograma de pagamento."
+        }
+      ]
+    },
+    {
+      "heading": "Benefícios de usar uma calculadora de pagamento",
+      "subSections": [
+        {
+          "heading": "Estimativas rápidas",
+          "content": "Determine instantaneamente as parcelas mensais e o total de pagamentos."
+        },
+        {
+          "heading": "Planejamento Financeiro",
+          "content": "Compare diferentes opções de empréstimo antes de se comprometer."
+        },
+        {
+          "heading": "Visão de amortização",
+          "content": "Entenda como os pagamentos se dividem entre principal e juros."
+        },
+        {
+          "heading": "Tomando uma decisão",
+          "content": "Escolha o melhor empréstimo com base em expectativas realistas de reembolso."
+        }
+      ]
+    },
+    {
+      "heading": "Cenários Comuns",
+      "subSections": [
+        {
+          "heading": "Empréstimo de carro",
+          "content": "Use nossa calculadora de pagamento de carro para estimar pagamentos mensais e comparar opções de financiamento."
+        },
+        {
+          "heading": "Hipoteca",
+          "content": "Planeje com antecedência com nossa calculadora de pagamento de hipotecas para empréstimos imobiliários."
+        },
+        {
+          "heading": "Empréstimo Pessoal",
+          "content": "Calcule planos de reembolso flexíveis usando nossa calculadora de pagamento de empréstimos pessoais."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como calculo os pagamentos mensais?",
+      "a": "Os pagamentos mensais são calculados usando o valor do empréstimo, a taxa de juros e o prazo. Nossa calculadora aplica automaticamente a fórmula padrão de pagamento do empréstimo e detalha sua amortização."
+    },
+    {
+      "q": "Posso comparar calculadoras diferentes?",
+      "a": "Sim! Você pode ver a diferença entre uma calculadora de pagamento online, uma calculadora de amortização e uma calculadora de pagamento fixo para encontrar a que melhor se adapta às suas necessidades."
+    },
+    {
+      "q": "Esta calculadora é gratuita?",
+      "a": "Absolutamente! Nossa calculadora de pagamento gratuita fornece resultados instantâneos sem taxas ocultas ou requisitos de inscrição."
+    },
+    {
+      "q": "Qual é a diferença entre pagamentos mensais e anuais?",
+      "a": "Os pagamentos mensais distribuem o custo do empréstimo ao longo do tempo, enquanto os pagamentos anuais o consolidam em menos parcelas maiores. Use nossa opção de pagamentos mensais versus anuais para comparações claras."
+    }
+  ]
+}

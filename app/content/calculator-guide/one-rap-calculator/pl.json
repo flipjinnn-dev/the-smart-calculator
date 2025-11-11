@@ -1,0 +1,140 @@
+{
+  "color": "różowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator jednego powtórzenia (1RM)?",
+      "content": "Kalkulator maksymalnej liczby powtórzeń (zwany także kalkulatorem 1RM online lub kalkulatorem maksymalnego jednego powtórzenia) to narzędzie do treningu siłowego, które szacuje maksymalny ciężar, jaki możesz podnieść podczas jednego powtórzenia ćwiczenia. Zamiast testować swój całkowity maksymalny wyciąg na siłowni, co może być ryzykowne, możesz obliczyć maksymalne jedno powtórzenie za darmo, wprowadzając podniesiony ciężar i liczbę wykonanych powtórzeń."
+    },
+    {
+      "heading": "Dlaczego obliczanie 1RM jest ważne?",
+      "subSections": [
+        {
+          "heading": "Ustaw obciążenia treningowe",
+          "content": "Dokładnie dostosuj obciążenia pod kątem siły, hipertrofii lub wytrzymałości."
+        },
+        {
+          "heading": "Śledź postęp",
+          "content": "Monitoruj postępy w kulturystyce, CrossFit, podnoszeniu ciężarów olimpijskich i trójboju siłowym."
+        },
+        {
+          "heading": "Zapobiegaj przetrenowaniu",
+          "content": "Zachowaj bezpieczeństwo, podnosząc się w optymalnych zakresach intensywności."
+        },
+        {
+          "heading": "Dostosuj programy",
+          "content": "Zastosuj do treningów 5x5, progresywnych cykli przeciążeniowych i hipertrofii."
+        }
+      ]
+    },
+    {
+      "heading": "Wyjaśnienie popularnych formuł One Rep Max",
+      "subSections": [
+        {
+          "heading": "Formuła Epleya",
+          "content": "1 RM = waga × (1 + 0,0333 × powtórzenia). Najlepsze dla osób, które regularnie podnoszą ciężary. Proste i dokładne do 10 powtórzeń, ale mniej dokładne przy bardzo dużej liczbie powtórzeń."
+        },
+        {
+          "heading": "Formuła Brzyckiego",
+          "content": "1RM = waga × (36 ÷ (37 - powtórzeń)). Dobry na siłę i hipertrofię. Niezawodne poniżej 10 powtórzeń, ale może być niedoszacowane w przypadku serii wytrzymałościowych."
+        },
+        {
+          "heading": "Formuła Lombardiego",
+          "content": "1RM = waga × powtórzenia^0,10. Popularny wśród trójboistów. Działa w szerokim zakresie powtórzeń, ale może być przeszacowany dla początkujących."
+        }
+      ]
+    },
+    {
+      "heading": "Bezpieczne sposoby obliczania 1RM bez maksymalnego podnoszenia",
+      "subSections": [
+        {
+          "heading": "Wybierz umiarkowane ciężary",
+          "content": "Podnieś 3–10 powtórzeń w odpowiedniej formie, zamiast zwiększać obciążenie."
+        },
+        {
+          "heading": "Dane dziennika",
+          "content": "Zapisz dokładną wagę i wykonane powtórzenia."
+        },
+        {
+          "heading": "Skorzystaj z wykresów procentowych",
+          "content": "Oszacuj obciążenie treningowe na 50%, 60%, 70%, 80%, 90% bezpiecznie."
+        }
+      ]
+    },
+    {
+      "heading": "Jak wykorzystać 1RM w programach szkoleniowych",
+      "subSections": [
+        {
+          "heading": "Trening siłowy",
+          "content": "Trenuj na 80–90% 1RM przez 1–5 powtórzeń. Najlepsze do trójboju siłowego, podnoszenia ciężarów olimpijskich i CrossFit."
+        },
+        {
+          "heading": "Przerost (wzrost mięśni)",
+          "content": "Trenuj na 65–75% 1RM przez 6–12 powtórzeń. Skuteczny w kulturystyce i przyrostach masy ciała."
+        },
+        {
+          "heading": "Wytrzymałość i kondycja",
+          "content": "Trenuj na 50–65% 1RM przez 12–20+ powtórzeń. Świetnie nadaje się do ogólnego treningu fitness i treningu funkcjonalnego."
+        },
+        {
+          "heading": "Przykłady",
+          "content": "Trening 5x5 (~75–85%), Progresywne obciążenie (stopniowo zwiększaj), Trening hipertrofii, Kondycja siłowa CrossFit."
+        }
+      ]
+    },
+    {
+      "heading": "Najlepsze praktyki, bezpieczeństwo i zastrzeżenia",
+      "subSections": [
+        {
+          "heading": "Rozgrzać się",
+          "content": "Zawsze rozgrzewaj się przed testowaniem lub oszacowaniem."
+        },
+        {
+          "heading": "Nigdy Max sam",
+          "content": "Użyj obserwatora lub sprzętu ochronnego."
+        },
+        {
+          "heading": "Zacznij konserwatywnie",
+          "content": "Początkujący powinni podnosić ostrożnie."
+        },
+        {
+          "heading": "Korekty specyficzne dla podnośnika",
+          "content": "Ubiegaj się osobno o ćwiczenia na ławce, przysiadach, martwym ciągu i podnoszeniu ciężarów olimpijskich."
+        },
+        {
+          "heading": "Słuchaj swojego ciała",
+          "content": "Unikaj podnoszenia przez ból."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jaka jest najdokładniejsza formuła One Rep Max?",
+      "a": "Kalkulator formuły Epley 1RM jest najdokładniejszy w przypadku ćwiczeń poniżej 10 powtórzeń. Brzycki sprawdza się dobrze w przypadku umiarkowanych powtórzeń, natomiast Lombardi pasuje do trójboistów."
+    },
+    {
+      "q": "Czy początkujący mogą korzystać z kalkulatora One Rep Max?",
+      "a": "Tak, początkujący powinni unikać prób z prawdziwym obciążeniem maksymalnym i zamiast tego używać podciągnięć submaksymalnych (3–10 powtórzeń) w celu uzyskania bezpiecznych szacunków."
+    },
+    {
+      "q": "Jak często należy przeliczać 1RM?",
+      "a": "Większość sportowców aktualizuje wyniki co 6–8 tygodni. Zaawansowani sportowcy mogą częściej przeprowadzać przeliczenia podczas cykli siłowych."
+    },
+    {
+      "q": "Czy bezpiecznie jest przetestować moje prawdziwe maksimum jednego powtórzenia na siłowni?",
+      "a": "Bez obserwatora i odpowiedniego sprzętu może to być ryzykowne. Korzystanie z kalkulatora 1RM jest bezpieczniejsze i skuteczniejsze."
+    },
+    {
+      "q": "Jak używać urządzenia 1RM do programowania treningów?",
+      "a": "Użyj kalkulatora procentowego maksymalnego jednego powtórzenia: 50–65% wytrzymałości, 65–75% hipertrofii, 75–85% siły, 85–95% mocy."
+    },
+    {
+      "q": "Czy ten kalkulator działa dla wszystkich ćwiczeń?",
+      "a": "Tak, działa w przypadku wyciskania na ławce, przysiadów, martwego ciągu, wyciskania wojskowego, podnoszenia ciężarów olimpijskich i ruchów dodatkowych."
+    },
+    {
+      "q": "Czy mogę używać tego narzędzia na telefonie komórkowym lub na siłowni?",
+      "a": "Tak, ten darmowy kalkulator 1RM jest zoptymalizowany do użytku mobilnego, stacjonarnego i na siłowni na całym świecie."
+    }
+  ]
+}

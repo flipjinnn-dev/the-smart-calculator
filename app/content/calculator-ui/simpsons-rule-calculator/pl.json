@@ -1,0 +1,179 @@
+{
+  "pageTitle": "Kalkulator reguł Simpsona",
+  "pageDescription": "Oblicz całki oznaczone, korzystając z reguły Simpsona",
+  "form": {
+    "labels": {
+      "function": "Funkcja f(x)",
+      "lowerLimit": "Dolna granica (a)",
+      "upperLimit": "Górna granica (b)",
+      "intervals": "Liczba odstępów (n)",
+      "variable": "Zmienny"
+    },
+    "placeholders": {
+      "function": "Podaj funkcję (np. x^2 + 2x + 1)",
+      "lowerLimit": "Wprowadź dolny limit",
+      "upperLimit": "Wprowadź górny limit",
+      "intervals": "Wprowadź liczbę interwałów (parzystą)",
+      "variable": "Wprowadź zmienną (np. x)"
+    },
+    "buttons": {
+      "calculate": "Oblicz całkę",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "simpsonsRule": "Wyniki reguły Simpsona",
+    "integralApproximation": "Aproksymacja całkowa",
+    "exactValue": "Dokładna wartość (jeśli jest dostępna)",
+    "error": "Błąd",
+    "stepSize": "Rozmiar kroku (h)",
+    "intervalsUsed": "Używane interwały",
+    "functionEvaluations": "Oceny funkcji"
+  },
+  "educational": {
+    "simpsonsInfo": "Informacje o regule Simpsona",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby matematyczne",
+    "simpsonsFacts": {
+      "method": {
+        "title": "Metoda reguł Simpsona",
+        "description": "Metoda całkowania numerycznego aproksymująca całki oznaczone za pomocą wielomianów kwadratowych"
+      },
+      "formula": {
+        "title": "Formuła Reguły Simpsona",
+        "description": "∫(a do b) f(x)dx ≈ (h/3)[f(x₀) + 4f(x₁) + 2f(x₂) + 4f(x₃) + ... + f(xₙ)]"
+      },
+      "accuracy": {
+        "title": "Uwagi dotyczące dokładności",
+        "description": "Bardziej dokładna niż reguła trapezowa, szczególnie w przypadku funkcji gładkich. Dokładność poprawia się wraz z większą liczbą odstępów czasu."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie przybliżenia Reguły Simpsona",
+      "actual": "Wyniki są przybliżeniami liczbowymi i mogą różnić się od dokładnych wartości"
+    },
+    "importantNotesList": [
+      "Dla reguły Simpsona liczba przedziałów musi być parzysta",
+      "Więcej odstępów zazwyczaj zapewnia lepszą dokładność",
+      "Metoda działa najlepiej w przypadku gładkich, ciągłych funkcji",
+      "Wyniki są przybliżeniami, a nie dokładnymi wartościami"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź granice funkcji i całkowania, aby zastosować regułę Simpsona",
+    "resultMessage": "Poniżej przedstawiono wyniki obliczeń Reguły Simpsona",
+    "assessmentResult": "Wynik obliczenia reguły Simpsona:",
+    "simpsonsAnalysis": "Analiza reguł Simpsona"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia przybliżenia reguły Simpsona dla całek oznaczonych. Wyniki są przybliżeniami numerycznymi i mogą różnić się od dokładnych wartości, szczególnie w przypadku funkcji z nieciągłościami lub ostrymi zmianami."
+  },
+  "seekHelp": {
+    "title": "Zasoby matematyczne",
+    "content": "Informacje na temat zaawansowanych metod analizy numerycznej i integracji można znaleźć w podręcznikach matematyki lub zasobach akademickich na temat metod numerycznych i matematyki obliczeniowej."
+  },
+  "errors": {
+    "function": "Proszę wprowadzić prawidłową funkcję",
+    "lowerLimit": "Proszę wprowadzić prawidłowy dolny limit",
+    "upperLimit": "Proszę wprowadzić prawidłowy górny limit",
+    "intervals": "Proszę wprowadzić poprawną parzystą liczbę interwałów",
+    "variable": "Proszę wprowadzić poprawną zmienną"
+  },
+  "tooltips": {
+    "function": "Funkcja matematyczna do całkowania",
+    "lowerLimit": "Dolna granica całkowania (a)",
+    "upperLimit": "Górna granica całkowania (b)",
+    "intervals": "Liczba przedziałów dla reguły Simpsona (musi być parzysta)",
+    "variable": "Zmienna całkowania"
+  },
+  "simpsons_rule_integration_0": "Integracja reguły Simpsona",
+  "enter_your_function_and_integration_limits_to_calc_1": "Wprowadź granice funkcji i całkowania, aby obliczyć całkę przybliżoną",
+  "function_fx_2": "Funkcja f(x)",
+  "use_x_as_variable_for_powers_3": "(użyj x jako zmiennej, ** dla potęg)",
+  "supported_sin_cos_tan_sqrt_log_ln_pi_e_4": "Obsługiwane: +, -, *, /, **, sin, cos, tan, sqrt, log, ln, pi, e",
+  "lower_limit_a_5": "Dolna granica (a)",
+  "upper_limit_b_6": "Górna granica (b)",
+  "number_of_subintervals_n_7": "Liczba podprzedziałów (n)",
+  "must_be_even_8": "*musi być równe",
+  "simpsons_13_rule_formula_9": "Wzór Reguły 1/3 Simpsona:",
+  "a_10": "a",
+  "b_11": "b",
+  "fxdx_ba3n_fx_4fx_2fx_4fx_fx_12": "f(x)dx ≈ (b-a)/(3n) [f(x₀) + 4f(x₁) + 2f(x₂) + ... + 4f(xₙ₋₁) + f(xₙ)]",
+  "where_fx_x_7_13": "Gdzie f(x) = (x⁵ + 7)",
+  "k_13_14": "-1/3",
+  "for_the_example_n_is_even_and_x_15": "na przykład n jest parzyste, a x",
+  "i_16": "i",
+  "a_iban_17": "= a + i(b-a)/n",
+  "calculate_18": "Obliczać",
+  "try_example_19": "Wypróbuj przykład",
+  "result_20": "Wynik",
+  "approximate_integral_21": "Całka przybliżona",
+  "x_22": "Δx =",
+  "subintervals_23": "Podprzedziały:",
+  "enter_function_and_limits_then_click_24": "Wprowadź funkcję i limity, a następnie kliknij",
+  "calculate_25": "Obliczać",
+  "to_see_result_26": "aby zobaczyć wynik.",
+  "stepbystep_solution_27": "Rozwiązanie krok po kroku",
+  "k_1_given_information_28": "1. Podane informacje",
+  "function_fx_29": "Funkcja: f(x) =",
+  "lower_limit_a_30": "Dolna granica (a) =",
+  "upper_limit_b_31": "Górna granica (b) =",
+  "number_of_subintervals_n_32": "Liczba podprzedziałów (n) =",
+  "k_2_calculate_width_33": "2. Oblicz szerokość",
+  "x_b_a_n_34": "Δx = (b - a) / n = (",
+  "k_3_partition_points_and_function_values_35": "3. Punkty podziału i wartości funkcji",
+  "i_36": "i",
+  "x_37": "xᵢ",
+  "fx_38": "f(xᵢ)",
+  "coefficient_39": "Współczynnik",
+  "k_4_apply_simpsons_rule_40": "4. Zastosuj regułę Simpsona",
+  "sum_41": "Suma =",
+  "sum_42": "Suma =",
+  "integral_ba3n_sum_43": "Całka ≈ (b-a)/(3n) × Suma = (",
+  "to_44": "Do",
+  "k_3_45": ")/3×",
+  "what_is_simpsons_rule_46": "Jaka jest reguła Simpsona?",
+  "simpsons_rule_is_a_numerical_integration_technique_47": "Reguła Simpsona to technika całkowania numerycznego, która aproksymuje całki oznaczone poprzez dopasowanie\n                    krzywe paraboliczne przechodzące przez zestawy trzech punktów. Jest dokładniejsza niż reguła trapezowa, ponieważ\n                    używa przybliżeń kwadratowych zamiast przybliżeń liniowych.",
+  "the_method_divides_the_integration_interval_into_a_48": "Metoda dzieli przedział całkowania na parzystą liczbę podprzedziałów i stosuje:\n                    wzór z naprzemiennymi współczynnikami (1, 4, 2, 4, 2, ..., 4, 1) w celu uzyskania większej precyzji.",
+  "how_to_use_the_calculator_49": "Jak korzystać z kalkulatora",
+  "enter_your_function_fx_using_standard_mathematical_50": "Wprowadź funkcję f(x) przy użyciu standardowej notacji matematycznej",
+  "set_the_lower_limit_a_and_upper_limit_b_of_integra_51": "Ustaw dolną granicę (a) i górną granicę (b) całkowania",
+  "choose_an_even_number_of_subintervals_n_more_subin_52": "Wybierz parzystą liczbę podprzedziałów (n) - więcej podprzedziałów daje większą dokładność",
+  "click_calculate_to_get_the_approximate_result_53": "Kliknij „Oblicz”, aby uzyskać przybliżony wynik",
+  "use_show_steps_to_see_the_detailed_calculation_pro_54": "Użyj „Pokaż kroki”, aby zobaczyć szczegółowy proces obliczeń",
+  "formula_55": "Formuła",
+  "a_56": "a",
+  "b_57": "b",
+  "fxdx_x3fx_4fx_2fx_4fx_4fx_58": "f(x)dx ≈ (Δx/3)[f(x₀) + 4f(x₁) + 2f(x₂) + 4f(x₃) + ... + 4f(x",
+  "n1_59": "n-1",
+  "fx_60": ") + f(x",
+  "n_61": "n",
+  "where_62": "Gdzie:",
+  "x_b_a_n_subinterval_width_63": "• Δx = (b - a) / n (szerokość podprzedziału)",
+  "n_even_number_of_subintervals_64": "• n = parzysta liczba podprzedziałów",
+  "coefficients_1_for_endpoints_4_for_odd_indices_2_f_65": "• Współczynniki: 1 dla punktów końcowych, 4 dla wskaźników nieparzystych, 2 dla wskaźników parzystych",
+  "example_66": "Przykład",
+  "problem_67": "Problem:",
+  "approximate_1x_7_dx_using_n_4_68": "Przybliżone ∫₀¹ 1/(x⁵ + 7) dx przy n = 4",
+  "solution_69": "Rozwiązanie:",
+  "k_1_x_1_0_4_025_70": "1. Δx = (1 - 0) / 4 = 0,25",
+  "k_2_points_x_0_x_025_x_05_x_075_x_1_71": "2. Punkty: x₀ = 0, x₁ = 0,25, x₂ = 0,5, x₃ = 0,75, x₄ = 1",
+  "k_3_function_values_f0_0142857_f025_0142653_f05_0141_72": "3. Wartości funkcji: f(0) ≈ 0,142857, f(0,25) ≈ 0,142653, f(0,5) ≈ 0,141844, f(0,75) ≈ 0,139665,\n                        f(1) = 0,125",
+  "k_4_apply_coefficients_1_4_2_4_1_sum_1133_73": "4. Zastosuj współczynniki [1, 4, 2, 4, 1]: Suma ≈ 1,133",
+  "k_5_result_0253_1133_74": "5. Wynik: (0,25/3) × 1,133 ≈",
+  "k_0094417_75": "0.094417",
+  "faq_76": "Często zadawane pytania",
+  "what_is_simpsons_rule_77": "Jaka jest reguła Simpsona?",
+  "simpsons_rule_is_a_numerical_method_for_approximat_78": "Reguła Simpsona to numeryczna metoda aproksymacji całek oznaczonych za pomocą paraboli\n                        przybliżenia, zapewniające wyższą dokładność niż metody liniowe, takie jak reguła trapezowa.",
+  "why_must_n_be_even_79": "Dlaczego n musi być parzyste?",
+  "simpsons_13_rule_requires_pairing_adjacent_interva_80": "Reguła Simpsona 1/3 wymaga łączenia sąsiadujących ze sobą odcinków w pary w celu utworzenia segmentów parabolicznych. Każda parabola\n                        potrzebuje trzech punktów, więc potrzebujemy parzystej liczby przedziałów, aby utworzyć pełne pary.",
+  "how_accurate_is_simpsons_rule_81": "Jak dokładna jest reguła Simpsona?",
+  "simpsons_rule_has_an_error_of_oh_making_it_much_mo_82": "Reguła Simpsona zawiera błąd O(h⁵), co czyni ją znacznie dokładniejszą niż reguła trapezu\n                        Błąd O(h³). Jest to dokładne dla wielomianów do stopnia 3.",
+  "difference_between_trapezoidal_rule_and_simpsons_r_83": "Różnica między regułą trapezu a regułą Simpsona?",
+  "the_trapezoidal_rule_uses_linear_approximations_st_84": "Reguła trapezowa wykorzystuje przybliżenia liniowe (linie proste), podczas gdy stosowana jest reguła Simpsona\n                        przybliżenia kwadratowe (parabole), co skutkuje znacznie większą dokładnością w przypadku gładkości\n                        funkcje.",
+  "smart_calculator_85": "Inteligentny kalkulator",
+  "k_2025_smart_calculator_all_rights_reserved_86": "© 2025 Inteligentny kalkulator. Wszelkie prawa zastrzeżone."
+}

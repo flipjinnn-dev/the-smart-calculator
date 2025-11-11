@@ -1,0 +1,173 @@
+{
+  "pageTitle": "Calculadora de ROI de SEO empresarial",
+  "pageDescription": "Calcule o retorno do investimento (ROI) para SEO empresarial",
+  "form": {
+    "labels": {
+      "monthlyOrganicTraffic": "Tráfego orgânico mensal atual",
+      "conversionRate": "Taxa de conversão (%)",
+      "averageOrderValue": "Valor médio do pedido ($)",
+      "seoInvestment": "Investimento mensal em SEO ($)",
+      "trafficIncrease": "Aumento esperado do tráfego (%)",
+      "timePeriod": "Período de tempo (meses)"
+    },
+    "placeholders": {
+      "monthlyOrganicTraffic": "Insira o tráfego orgânico mensal atual",
+      "conversionRate": "Insira a porcentagem da taxa de conversão",
+      "averageOrderValue": "Insira o valor médio do pedido em dólares",
+      "seoInvestment": "Insira o investimento mensal de SEO em dólares",
+      "trafficIncrease": "Insira a porcentagem esperada de aumento de tráfego",
+      "timePeriod": "Insira o período em meses (por exemplo, 12)"
+    },
+    "buttons": {
+      "calculate": "Calcule o ROI de SEO",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "seoROI": "Retorno do Investimento (ROI) de SEO",
+    "currentRevenue": "Receita Mensal Atual",
+    "projectedRevenue": "Receita Mensal Projetada",
+    "revenueIncrease": "Aumento de receita",
+    "totalInvestment": "Investimento total em SEO",
+    "netProfit": "Lucro líquido de SEO",
+    "paybackPeriod": "Período de retorno"
+  },
+  "educational": {
+    "seoInfo": "Informações de ROI de SEO empresarial",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos de marketing digital",
+    "seoFacts": {
+      "definition": {
+        "title": "Definição de ROI de SEO",
+        "description": "Mede o retorno financeiro gerado pelos investimentos em SEO em relação ao custo desses investimentos"
+      },
+      "formula": {
+        "title": "Fórmula de cálculo de ROI",
+        "description": "ROI = ((Aumento de receita - Investimento em SEO) / Investimento em SEO) × 100%"
+      },
+      "factors": {
+        "title": "Fatores que afetam",
+        "description": "A qualidade do tráfego, a otimização de conversão, a concorrência e as condições de mercado afetam o ROI de SEO"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de ROI de SEO",
+      "actual": "O ROI real pode variar com base nas condições de mercado e na eficácia da implementação"
+    },
+    "importantNotesList": [
+      "Os resultados de SEO normalmente levam de 3 a 6 meses para se tornarem visíveis",
+      "Os cálculos do ROI devem considerar os benefícios de longo prazo além das projeções iniciais",
+      "As estimativas de aumento de tráfego devem ser conservadoras e baseadas em benchmarks do setor",
+      "A qualidade do tráfego é tão importante quanto a quantidade para o sucesso da conversão"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas métricas atuais e investimento em SEO para calcular o ROI potencial",
+    "resultMessage": "Os resultados do cálculo do ROI de SEO são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do ROI de SEO:",
+    "seoAnalysis": "Análise de ROI de SEO"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de ROI de SEO com base em fórmulas padrão de marketing digital. O ROI real pode variar com base nas condições de mercado, eficácia da implementação, concorrência e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos de marketing digital",
+    "content": "Para desenvolvimento profissional de estratégia de SEO e análise de ROI, consulte agências de marketing digital ou especialistas em SEO que possam avaliar necessidades específicas de negócios e condições de mercado."
+  },
+  "errors": {
+    "monthlyOrganicTraffic": "Insira um valor de tráfego orgânico mensal válido",
+    "conversionRate": "Insira uma porcentagem de taxa de conversão válida",
+    "averageOrderValue": "Insira um valor médio válido do pedido",
+    "seoInvestment": "Insira um investimento mensal válido em SEO",
+    "trafficIncrease": "Insira uma porcentagem válida de aumento de tráfego",
+    "timePeriod": "Insira um período válido em meses"
+  },
+  "tooltips": {
+    "monthlyOrganicTraffic": "Número atual de visitantes de mecanismos de pesquisa por mês",
+    "conversionRate": "Porcentagem de visitantes que concluem uma ação desejada (compra, inscrição, etc.)",
+    "averageOrderValue": "Receita média gerada por conversão",
+    "seoInvestment": "Orçamento mensal alocado para atividades e serviços de SEO",
+    "trafficIncrease": "Aumento percentual esperado no tráfego orgânico dos esforços de SEO",
+    "timePeriod": "Período de tempo durante o qual calcular o ROI (normalmente 12 meses)"
+  },
+  "number_of_monthly_visitors_from_organic_search_0": "Número de visitantes mensais da pesquisa orgânica",
+  "percentage_of_visitors_who_make_a_purchase_1": "Porcentagem de visitantes que fazem uma compra",
+  "average_revenue_per_order_or_transaction_2": "Receita média por pedido ou transação",
+  "calculate_roi_3": "Calcular o ROI",
+  "seo_roi_results_4": "Resultados de ROI de SEO",
+  "your_seo_investment_analysis_5": "Sua análise de investimento em SEO",
+  "seo_return_on_investment_6": "Retorno do investimento em SEO:",
+  "monthly_revenue_7": "Receita Mensal",
+  "from_organic_traffic_8": "do tráfego orgânico",
+  "annual_revenue_9": "Receita Anual",
+  "projected_yearly_10": "projetado anualmente",
+  "annual_investment_11": "Investimento Anual",
+  "yearly_seo_spend_12": "gastos anuais com SEO",
+  "net_profit_13": "Lucro líquido",
+  "annual_profit_14": "lucro anual",
+  "stepbystep_calculation_15": "Cálculo passo a passo",
+  "roi_interpretation_16": "Interpretação do ROI",
+  "enter_your_seo_metrics_to_calculate_roi_17": "Insira suas métricas de SEO para calcular o ROI",
+  "what_is_enterprise_seo_roi_18": "O que é ROI de SEO empresarial?",
+  "enterprise_seo_roi_return_on_investment_19": "ROI de SEO empresarial (retorno do investimento)",
+  "measures_the_profitability_of_your_seo_campaigns_b_20": "mede a lucratividade do seu SEO\n                      campanhas comparando a receita gerada pelo tráfego de pesquisa orgânica com os custos\n                      investido em atividades de SEO.",
+  "for_enterprise_businesses_calculating_seo_roi_invo_21": "Para empresas, calcular o ROI de SEO envolve compreender seu lucro orgânico mensal\n                      tráfego, taxas de conversão, valores médios de pedidos e investimento em SEO. Esta abordagem direta\n                      ajuda a justificar orçamentos de SEO e otimizar estratégias de marketing.",
+  "a_positive_roi_indicates_that_your_seo_efforts_are_22": "Um ROI positivo indica que seus esforços de SEO estão gerando mais valor do que custam, enquanto um\n                      O ROI negativo sugere a necessidade de ajustes estratégicos ou melhoria da execução.",
+  "enterprise_seo_roi_formulas_23": "Fórmulas de ROI de SEO empresarial",
+  "k_1_monthly_revenue_24": "1. Receita Mensal",
+  "example_10000_visitors_2_100_20000month_25": "Exemplo: 10.000 visitantes × 2% × US$ 100 = US$ 20.000/mês",
+  "k_2_annual_revenue_26": "2. Receita Anual",
+  "example_20000_12_240000year_27": "Exemplo: US$ 20.000 × 12 = US$ 240.000/ano",
+  "k_3_annual_investment_28": "3. Investimento Anual",
+  "example_5000_12_60000year_29": "Exemplo: US$ 5.000 × 12 = US$ 60.000/ano",
+  "k_4_return_on_investment_roi_30": "4. Retorno do Investimento (ROI%)",
+  "example_240000_60000_60000_100_300_31": "Exemplo: (US$ 240.000 - US$ 60.000) / US$ 60.000 × 100% = 300%",
+  "how_to_use_this_calculator_32": "Como usar esta calculadora?",
+  "enter_monthly_organic_traffic_33": "Insira o tráfego orgânico mensal:",
+  "input_the_number_of_visitors_your_website_receives_34": "Insira o número de visitantes do seu site\n                        recebe da pesquisa orgânica todos os meses. Você pode encontrar isso no Google Analytics ou na Pesquisa Google\n                        Consola",
+  "set_conversion_rate_35": "Definir taxa de conversão:",
+  "enter_the_percentage_of_visitors_who_complete_a_de_36": "Insira a porcentagem de visitantes que concluíram um item desejado\n                        ação (compra, inscrição, etc.). Calcule dividindo as conversões pelo total de visitantes.",
+  "input_average_order_value_37": "Insira o valor médio do pedido:",
+  "enter_the_average_revenue_generated_per_transactio_38": "Insira a receita média gerada por transação\n                        ou cliente. Isso pode ser encontrado em sua plataforma de e-commerce ou CRM.",
+  "specify_monthly_seo_investment_39": "Especifique o investimento mensal em SEO:",
+  "include_all_monthly_seo_expenses_such_as_agency_fe_40": "Inclui todas as despesas mensais de SEO, como agência\n                        taxas, ferramentas, criação de conteúdo, link building e custos técnicos de SEO.",
+  "calculate_41": "Calcular:",
+  "click_the_button_to_see_your_seo_roi_percentage_an_42": "Clique no botão para ver sua porcentagem de ROI de SEO e receita anual\n                        projeções e detalhamento detalhado.",
+  "stepbystep_example_43": "Exemplo passo a passo",
+  "example_scenario_44": "Cenário de exemplo:",
+  "monthly_organic_traffic_10000_visitors_45": "• Tráfego orgânico mensal = 10.000 visitantes",
+  "conversion_rate_2_46": "• Taxa de conversão = 2%",
+  "average_order_value_100_47": "• Valor médio do pedido = US$ 100",
+  "monthly_seo_investment_5000_48": "• Investimento mensal em SEO = US$ 5.000",
+  "step_1_calculate_revenue_49": "Etapa 1: calcular a receita",
+  "monthly_revenue_10000_2_100_50": "Receita mensal = 10.000 × 2% × US$ 100 =",
+  "k_20000_51": "US$ 20.000",
+  "step_2_calculate_revenue_52": "Etapa 2: calcular a receita",
+  "annual_revenue_20000_12_53": "Receita anual = $ 20.000 × 12 =",
+  "k_240000_54": "US$ 240.000",
+  "step_3_calculate_investment_55": "Passo 3: Calcular o Investimento",
+  "annual_investment_5000_12_56": "Investimento anual = $ 5.000 × 12 =",
+  "k_60000_57": "US$ 60.000",
+  "step_4_calculate_profit_58": "Etapa 4: calcular o lucro",
+  "net_profit_240000_60000_59": "Lucro líquido = $ 240.000 - $ 60.000 =",
+  "k_180000_60": "US$ 180.000",
+  "step_5_calculate_61": "Etapa 5: calcular",
+  "roi_240000_60000_60000_100_62": "ROI = (US$ 240.000 - US$ 60.000) / US$ 60.000 × 100% =",
+  "k_300_63": "300%",
+  "conclusion_64": "Conclusão:",
+  "this_seo_campaign_generated_an_excellent_roi_of_30_65": "Esta campanha de SEO gerou um excelente ROI de 300%, o que significa para\n                        para cada dólar investido em SEO, a empresa ganhou US$ 3 em retorno. Isto demonstra uma alta\n                        estratégia de SEO lucrativa e eficaz.",
+  "frequently_asked_questions_faqs_66": "Perguntas frequentes (FAQ)",
+  "how_is_enterprise_seo_roi_calculated_67": "Como o ROI de SEO empresarial é calculado?",
+  "enterprise_seo_roi_is_calculated_by_comparing_the__68": "O ROI de SEO empresarial é calculado comparando a receita gerada pelo tráfego orgânico com\n                        seu investimento em SEO. A fórmula é: ROI = ((Receita Anual - Investimento Anual) / Anual\n                        Investimento) × 100. Primeiro, calcule a receita mensal multiplicando o tráfego orgânico pela conversão\n                        taxa e valor médio do pedido e, em seguida, multiplique por 12 para obter valores anuais.",
+  "whats_a_good_roi_for_enterprise_seo_69": "Qual é um bom ROI para SEO empresarial?",
+  "a_good_enterprise_seo_roi_typically_ranges_from_20_70": "Um bom ROI de SEO empresarial normalmente varia de 200% a 500%, mas pode variar significativamente com base\n                        sobre a indústria, a concorrência e as condições de mercado. Qualquer ROI positivo indica um sucesso\n                        campanha. ROIs acima de 300% são considerados excelentes, enquanto qualquer valor acima de 500% é excepcional.",
+  "how_long_does_it_take_to_see_roi_from_enterprise_s_71": "Quanto tempo leva para ver o ROI do SEO empresarial?",
+  "enterprise_seo_typically_shows_meaningful_roi_with_72": "O SEO empresarial normalmente mostra um ROI significativo dentro de 6 a 12 meses. No entanto, o cronograma exato\n                        depende de fatores como autoridade atual do site, nível de concorrência e valor do investimento. Alguns\n                        as empresas podem ver os resultados iniciais em 3-4 meses, enquanto as indústrias altamente competitivas podem levar\n                        12 a 18 meses para obter retornos significativos.",
+  "what_factors_influence_enterprise_seo_roi_73": "Que fatores influenciam o ROI de SEO empresarial?",
+  "key_factors_include_monthly_organic_traffic_conver_74": "Os principais fatores incluem tráfego orgânico mensal, taxa de conversão, valor médio do pedido e\n                        Investimento em SEO. Concorrência na indústria, autoridade do site, qualidade do conteúdo, saúde técnica de SEO,\n                        e a experiência do usuário também desempenham papéis cruciais. Além disso, fatores como reconhecimento da marca,\n                        a demanda do mercado e as tendências sazonais podem impactar significativamente o ROI de SEO.",
+  "how_can_i_improve_my_seo_roi_75": "Como posso melhorar meu ROI de SEO?",
+  "to_improve_seo_roi_focus_on_increasing_organic_tra_76": "Para melhorar o ROI de SEO, concentre-se em aumentar o tráfego orgânico por meio de uma melhor segmentação por palavras-chave e\n                        otimização de conteúdo, melhorando as taxas de conversão com melhores UX e páginas de destino, aumentando\n                        valor médio do pedido por meio de upsell e vendas cruzadas e otimização do investimento em SEO por\n                        focando em atividades de alto impacto. O monitoramento regular e os ajustes baseados em dados são essenciais\n                        para melhoria contínua."
+}

@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Calculadora de velocidade de seta",
+  "pageDescription": "Calcule a velocidade, o impulso e a energia cinética da flecha usando classificações IBO para análise de desempenho de tiro com arco",
+  "form": {
+    "labels": {
+      "iboSpeed": "Velocidade IBO (fps)",
+      "drawLength": "Comprimento do desenho (polegadas)",
+      "drawWeight": "Peso do sorteio (lbs)",
+      "arrowWeight": "Peso da Flecha (grãos)",
+      "additionalWeight": "Peso Adicional (grãos)",
+      "calculationType": "Tipo de cálculo"
+    },
+    "placeholders": {
+      "iboSpeed": "Insira a velocidade do IBO",
+      "drawLength": "Insira o comprimento do desenho",
+      "drawWeight": "Insira o peso do sorteio",
+      "arrowWeight": "Insira o peso da seta",
+      "additionalWeight": "Insira o peso adicional (visão, descanso, etc.)"
+    },
+    "buttons": {
+      "calculate": "Calcular a velocidade da seta",
+      "reset": "Reiniciar"
+    },
+    "calculationTypes": {
+      "speed": "Velocidade da flecha",
+      "momentum": "Momento",
+      "kineticEnergy": "Energia cinética",
+      "all": "Todos os cálculos"
+    }
+  },
+  "results": {
+    "arrowSpeed": "Velocidade da seta (fps)",
+    "momentum": "Momento (slug·ft/s)",
+    "kineticEnergy": "Energia Cinética (pés·lbf)",
+    "arrowSpeedResultsTitle": "Resultados da velocidade da seta",
+    "adjustedDrawLength": "Comprimento de desenho ajustado",
+    "adjustedDrawWeight": "Peso de tração ajustado"
+  },
+  "educational": {
+    "arrowSpeedInfo": "Informações sobre velocidade da seta",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos de tiro com arco",
+    "arrowSpeedFacts": {
+      "definition": {
+        "title": "Fatores de velocidade de seta",
+        "description": "A velocidade da flecha é afetada pela classificação IBO do arco, comprimento de tração, peso de tração e peso da flecha"
+      },
+      "formula": {
+        "title": "Cálculo de velocidade",
+        "description": "Velocidade ajustada = Velocidade IBO - (3 × (Peso de tração - 70)) + (10 × (Comprimento de tração - 30)) - (Peso da seta - 400) ÷ 10"
+      },
+      "performance": {
+        "title": "Métricas de desempenho",
+        "description": "O momento afeta a penetração, a energia cinética afeta o potencial de dano"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas e não substitui a medição real",
+      "equipment": "O desempenho real varia de acordo com a condição do arco, forma do arqueiro e fatores ambientais"
+    },
+    "importantNotesList": [
+      "Flechas mais pesadas proporcionam mais impulso, mas menor velocidade",
+      "As classificações IBO são medidas com peso de tração de 70 lb, comprimento de tração de 30\" e flecha de 350gr",
+      "A energia cinética é mais importante para a caça do que a velocidade bruta",
+      "A forma adequada e a manutenção do equipamento afetam o desempenho real"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas especificações de arco e flecha para calcular o desempenho",
+    "resultMessage": "Seus cálculos de desempenho de seta são mostrados abaixo",
+    "assessmentResult": "Resultado de desempenho da seta:",
+    "arrowSpeedAnalysis": "Análise de velocidade de seta"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de desempenho de seta com base nos padrões IBO e fórmulas matemáticas. O desempenho real pode variar com base na condição do arco, na forma do arqueiro e em fatores ambientais."
+  },
+  "seekHelp": {
+    "title": "Recursos de tiro com arco",
+    "content": "Para análise profissional de tiro com arco e seleção de equipamentos, consulte instrutores de tiro com arco certificados ou use cronógrafos especializados para medição real do desempenho."
+  },
+  "errors": {
+    "iboSpeed": "Insira uma velocidade IBO válida",
+    "drawLength": "Insira um comprimento de desenho válido (20-35 polegadas)",
+    "drawWeight": "Insira um peso de tração válido (10-100 lbs)",
+    "arrowWeight": "Insira um peso de seta válido (100-800 grãos)",
+    "additionalWeight": "Insira um peso adicional válido",
+    "calculationType": "Selecione um tipo de cálculo"
+  },
+  "tooltips": {
+    "iboSpeed": "Classificação de velocidade IBO do fabricante para o seu arco",
+    "drawLength": "Distância do ponto nock ao ponto pivô mais 1,75 polegadas",
+    "drawWeight": "Força necessária para puxar o arco em 28 polegadas",
+    "arrowWeight": "Peso total da flecha incluindo ponta, haste e penas",
+    "additionalWeight": "Peso de acessórios como miras, apoios e estabilizadores"
+  },
+  "bow_arrow_specifications_0": "Especificações de arco e flecha",
+  "enter_your_bow_and_arrow_specifications_to_calcula_1": "Insira suas especificações de arco e flecha para calcular métricas de desempenho",
+  "bow_ibo_rating_2": "Classificação IBO do arco",
+  "fps_3": "FPS",
+  "ms_4": "EM",
+  "draw_length_5": "Comprimento do desenho",
+  "in_6": "em",
+  "cm_7": "cm",
+  "peak_draw_weight_8": "Peso máximo de tração",
+  "lb_9": "Libra",
+  "kg_10": "kg",
+  "arrow_weight_grains_11": "Peso da Flecha (grãos)",
+  "extra_string_weight_grains_optional_12": "Peso Extra de Corda (grãos) - Opcional",
+  "ibo_standard_13": "Padrão IBO:",
+  "based_on_30_draw_length_70_lb_draw_weight_and_350__14": "Baseado em comprimento de tração de 30\", peso de tração de 70 lb e flecha de 350 grãos.\n                        Ajustes: ±10 fps por polegada de comprimento de tração, ±2 fps por quilo de peso de tração.",
+  "results_are_estimates_based_on_industrystandard_ib_15": "Os resultados são estimativas baseadas em cálculos IBO padrão do setor.",
+  "calculate_performance_16": "Calcule o desempenho",
+  "arrow_performance_17": "Desempenho da seta",
+  "fps_18": "FPS",
+  "ms_19": "EM",
+  "joules_20": "Joules",
+  "enter_your_bow_specs_and_click_21": "Insira as especificações do seu arco e clique",
+  "calculate_22": "Calcular",
+  "to_see_arrow_performance_23": "para ver o desempenho da seta.",
+  "detailed_performance_metrics_24": "Métricas de desempenho detalhadas",
+  "arrow_speed_25": "Velocidade da flecha",
+  "fps_26": "FPS",
+  "ms_27": "EM",
+  "momentum_28": "Momento",
+  "ns_29": "N·s",
+  "kinetic_energy_30": "Energia cinética",
+  "joules_31": "Joules",
+  "understanding_arrow_speed_ibo_ratings_32": "Compreendendo a velocidade da seta e as classificações IBO",
+  "ibo_rating_explained_33": "Classificação IBO explicada",
+  "ibo_international_bowhunting_organization_rating_i_34": "A classificação IBO (International Bowhunting Organization) é uma medida padronizada baseada em um\n                        Comprimento de tração de 30 polegadas, peso de tração de 70 libras e flecha de 350 grãos. Isto fornece uma linha de base para\n                        comparando o desempenho do arco entre diferentes fabricantes.",
+  "performance_factors_35": "Fatores de desempenho",
+  "draw_length_10_fps_per_inch_change_36": "Comprimento de desenho: ±10 fps por mudança de polegada",
+  "draw_weight_2_fps_per_pound_change_37": "Peso de tração: ±2 fps por alteração de libra",
+  "arrow_weight_1_fps_per_3_grains_38": "Peso da seta: ∓1 fps por 3 grãos",
+  "string_accessories_1_fps_per_3_grains_39": "Acessórios de corda: ∓1 fps por 3 grãos",
+  "sample_calculation_40": "Cálculo de amostra",
+  "example_41": "Exemplo:",
+  "ibo_rating_320_fps_42": "Classificação IBO: 320 fps",
+  "draw_length_29_1_from_baseline_43": "Comprimento do desenho: 29\" (-1\" da linha de base)",
+  "draw_weight_60_lb_10_lb_from_baseline_44": "Peso de tração: 60 lb (-10 lb da linha de base)",
+  "arrow_weight_400_gr_50_gr_from_baseline_45": "Peso da flecha: 400 gr (+50 gr da linha de base)",
+  "result_320_10_20_167_273_fps_46": "Resultado: 320 - 10 - 20 - 16,7 ≈ 273 fps",
+  "momentum_and_kinetic_energy_are_calculated_using_p_47": "O momento e a energia cinética são calculados usando fórmulas físicas: p = mv e KE = ½mv²."
+}

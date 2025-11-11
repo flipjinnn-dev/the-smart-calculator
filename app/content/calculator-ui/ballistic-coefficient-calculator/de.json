@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Rechner für den ballistischen Koeffizienten",
+  "pageDescription": "Berechnen Sie den ballistischen Koeffizienten eines Projektils für Präzisionsschüsse und Flugbahnanalysen",
+  "form": {
+    "labels": {
+      "bulletWeight": "Geschossgewicht",
+      "bulletDiameter": "Geschossdurchmesser",
+      "bulletLength": "Geschosslänge",
+      "weightUnit": "Gewichtseinheit",
+      "diameterUnit": "Durchmessereinheit",
+      "lengthUnit": "Längeneinheit",
+      "calculationMethod": "Berechnungsmethode",
+      "bulletType": "Geschosstyp"
+    },
+    "placeholders": {
+      "bulletWeight": "Geben Sie das Geschossgewicht ein",
+      "bulletDiameter": "Geben Sie den Geschossdurchmesser ein",
+      "bulletLength": "Geben Sie die Geschosslänge ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den ballistischen Koeffizienten",
+      "reset": "Zurücksetzen"
+    },
+    "weightUnits": {
+      "grains": "Körner",
+      "grams": "Gramm"
+    },
+    "diameterUnits": {
+      "inches": "Zoll",
+      "millimeters": "Millimeter"
+    },
+    "lengthUnits": {
+      "inches": "Zoll",
+      "millimeters": "Millimeter"
+    },
+    "calculationMethods": {
+      "g1": "G1 Standard (flachbasiert)",
+      "g7": "G7-Standard (Bootsschwanz)"
+    },
+    "bulletTypes": {
+      "fmj": "Vollmetalljacke",
+      "hp": "Hohlspitze",
+      "sp": "Weicher Punkt",
+      "bt": "Bootsheck",
+      "vmax": "V-Max",
+      "sierra": "Sierra MatchKing"
+    }
+  },
+  "results": {
+    "ballisticCoefficient": "Ballistischer Koeffizient",
+    "formFactor": "Formfaktor",
+    "sectionalDensity": "Schnittdichte",
+    "ballisticCoefficientResultsTitle": "Ergebnisse des ballistischen Koeffizienten",
+    "bcValue": "BC-Wert"
+  },
+  "educational": {
+    "ballisticCoefficientInfo": "Informationen zum ballistischen Koeffizienten",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen zur Ballistik",
+    "ballisticCoefficientFacts": {
+      "definition": {
+        "title": "Definition des ballistischen Koeffizienten",
+        "description": "Ein Maß für die Fähigkeit eines Geschosses, im Flug den Luftwiderstand im Vergleich zu einem Standardprojektil zu überwinden"
+      },
+      "formula": {
+        "title": "Berechnungsformel",
+        "description": "BC = Schnittdichte ÷ Formfaktor, wobei SD = Gewicht ÷ Durchmesser²"
+      },
+      "standards": {
+        "title": "Standardmodelle",
+        "description": "G1 (Flat-Based) und G7 (Boat-Tail) sind die gängigsten Referenzmodelle"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Ersatz für empirische Tests",
+      "environmental": "Die tatsächliche Leistung variiert je nach Umgebungsbedingungen und Laufeigenschaften"
+    },
+    "importantNotesList": [
+      "Höhere BC-Werte weisen auf eine bessere aerodynamische Effizienz hin",
+      "Der G7-Standard ist für moderne Bootsheckgeschosse genauer",
+      "Umweltfaktoren beeinflussen die tatsächliche Flugbahn",
+      "Fertigungstoleranzen können sich auf die tatsächlichen BC-Werte auswirken"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Geschossspezifikationen ein, um den ballistischen Koeffizienten zu berechnen",
+    "resultMessage": "Ihre Berechnung des ballistischen Koeffizienten ist unten dargestellt",
+    "assessmentResult": "Ergebnis des ballistischen Koeffizienten:",
+    "ballisticCoefficientAnalysis": "Analyse des ballistischen Koeffizienten"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen des ballistischen Koeffizienten basierend auf mathematischen Formeln. Die tatsächliche Leistung kann je nach Umgebungsbedingungen, Laufeigenschaften und Herstellungstoleranzen variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen zur Ballistik",
+    "content": "Für professionelle Ballistikanalysen und Präzisionsschießanwendungen wenden Sie sich an Ballistikexperten oder verwenden Sie spezielle Software wie Applied Ballistics oder JBM Ballistics."
+  },
+  "errors": {
+    "bulletWeight": "Bitte geben Sie ein gültiges Geschossgewicht ein",
+    "bulletDiameter": "Bitte geben Sie einen gültigen Geschossdurchmesser ein",
+    "bulletLength": "Bitte geben Sie eine gültige Aufzählungslänge ein",
+    "weightUnit": "Bitte wählen Sie eine Gewichtseinheit aus",
+    "diameterUnit": "Bitte wählen Sie eine Durchmessereinheit aus",
+    "lengthUnit": "Bitte wählen Sie eine Längeneinheit aus",
+    "calculationMethod": "Bitte wählen Sie eine Berechnungsmethode aus",
+    "bulletType": "Bitte wählen Sie einen Aufzählungstyp aus"
+  },
+  "tooltips": {
+    "bulletWeight": "Gewicht des Geschosses",
+    "bulletDiameter": "Durchmesser des Geschosses",
+    "bulletLength": "Länge des Geschosses",
+    "calculationMethod": "Standardmodell zum Vergleich",
+    "bulletType": "Die Art des Geschosses beeinflusst den Formfaktor"
+  },
+  "ballistic_coefficient_calculation_0": "Berechnung des ballistischen Koeffizienten",
+  "enter_projectile_parameters_to_calculate_ballistic_1": "Geben Sie Projektilparameter ein, um den ballistischen Koeffizienten zu berechnen",
+  "input_method_2": "Eingabemethode",
+  "crosssectional_area_3": "Querschnittsfläche",
+  "diameter_4": "Durchmesser",
+  "mass_of_projectile_5": "Masse des Projektils",
+  "g_6": "g",
+  "kg_7": "kg",
+  "gr_8": "gr",
+  "oz_9": "oz",
+  "crosssectional_area_10": "Querschnittsfläche",
+  "mm_11": "mm²",
+  "cm_12": "cm²",
+  "in_13": "in²",
+  "diameter_14": "Durchmesser",
+  "mm_15": "mm",
+  "cm_16": "cm",
+  "in_17": "In",
+  "area_will_be_calculated_as_d2_18": "Die Fläche wird als π × (d/2)² berechnet",
+  "drag_coefficient_cd_19": "Widerstandskoeffizient (Cd)",
+  "dimensionless_coefficient_typical_range_0105_20": "Dimensionsloser Koeffizient (typischer Bereich: 0,1–0,5)",
+  "formula_21": "Formel:",
+  "b_m_cd_a_22": "B = m / (Cd × A)",
+  "where_23": "Wo:",
+  "b_ballistic_coefficient_kgm_m_mass_kg_cd_drag_coef_24": "B = Ballistischer Koeffizient (kg/m²), m = Masse (kg), Cd = Luftwiderstandsbeiwert,\n                        A = Fläche (m²)",
+  "calculate_coefficient_25": "Berechnen Sie den Koeffizienten",
+  "results_26": "Ergebnisse",
+  "ballistic_coefficient_27": "Ballistischer Koeffizient",
+  "kgm_28": "kg/m²",
+  "sectional_density_29": "Schnittdichte",
+  "kgm_30": "kg/m²",
+  "mass_31": "Masse:",
+  "kg_32": "kg)",
+  "area_33": "Bereich:",
+  "mm_34": "mm²)",
+  "diameter_35": "Durchmesser:",
+  "area_36": "(Bereich:",
+  "mm_37": "mm²)",
+  "cd_38": "CD:",
+  "enter_values_and_click_39": "Geben Sie Werte ein und klicken Sie",
+  "calculate_40": "Berechnen",
+  "to_see_results_41": "zu sehen\n                          Ergebnisse.",
+  "understanding_ballistic_coefficient_42": "Den ballistischen Koeffizienten verstehen",
+  "what_is_ballistic_coefficient_43": "Was ist der ballistische Koeffizient?",
+  "ballistic_coefficient_bc_is_a_measure_of_a_project_44": "Der ballistische Koeffizient (BC) ist ein Maß für die Fähigkeit eines Projektils, den Luftwiderstand zu überwinden\n                      Flug. Höhere BC-Werte weisen auf eine bessere aerodynamische Effizienz und einen geringeren Geschwindigkeitsverlust hin\n                      Entfernung.",
+  "example_calculation_45": "Beispielrechnung",
+  "given_46": "Gegeben:",
+  "mass_m_180_g_0180_kg_47": "Masse (m) = 180 g = 0,180 kg",
+  "area_a_400_mm_400_10_m_48": "Fläche (A) = 400 mm² = 4,00 × 10⁻⁴ m²",
+  "drag_coefficient_cd_030_49": "Luftwiderstandsbeiwert (Cd) = 0,30",
+  "calculation_50": "Berechnung:",
+  "b_0180_030_400_10_51": "B = 0,180 / (0,30 × 4,00 × 10⁻⁴)",
+  "b_0180_120_10_52": "B = 0,180 / (1,20 × 10⁻⁴)",
+  "b_1500_kgm_53": "B ≈ 1500 kg/m²",
+  "key_relationships_54": "Schlüsselbeziehungen",
+  "sectional_density_sd_55": "Schnittdichte (SD):",
+  "sd_m_a_mass_per_unit_area_56": "SD = m / A (Masse pro Flächeneinheit)",
+  "alternative_form_57": "Alternativform:",
+  "b_sd_cd_58": "B = SD / Cd",
+  "higher_bc_59": "Höheres BC:",
+  "better_longrange_performance_less_wind_drift_60": "Bessere Langstreckenleistung, weniger Winddrift",
+  "typical_values_61": "Typische Werte:",
+  "k_0208_kgm_bullets_0103_kgm_pellets_62": "0,2–0,8 kg/m² (Kugeln), 0,1–0,3 kg/m² (Pellets)"
+}

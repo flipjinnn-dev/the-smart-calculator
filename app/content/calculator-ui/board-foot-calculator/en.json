@@ -1,0 +1,160 @@
+{
+  "pageTitle": "Board Foot Calculator",
+  "pageDescription": "Calculate board feet for lumber and building materials with precise measurements for woodworking and construction projects",
+  "form": {
+    "labels": {
+      "thickness": "Thickness",
+      "width": "Width",
+      "length": "Length",
+      "quantity": "Quantity",
+      "unitSystem": "Unit System",
+      "lumberType": "Lumber Type"
+    },
+    "placeholders": {
+      "thickness": "Enter thickness",
+      "width": "Enter width",
+      "length": "Enter length",
+      "quantity": "Enter quantity"
+    },
+    "buttons": {
+      "calculate": "Calculate Board Feet",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "imperial": "Imperial (in, ft)",
+      "metric": "Metric (mm, m)"
+    },
+    "lumberTypes": {
+      "softwood": "Softwood (Pine, Cedar, Fir)",
+      "hardwood": "Hardwood (Oak, Maple, Cherry)",
+      "plywood": "Plywood",
+      "custom": "Custom Dimensions"
+    }
+  },
+  "results": {
+    "boardFeet": "Board Feet",
+    "totalBoardFeet": "Total Board Feet",
+    "volume": "Volume",
+    "weight": "Estimated Weight",
+    "boardFootResultsTitle": "Board Foot Results"
+  },
+  "educational": {
+    "boardFootInfo": "Board Foot Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Lumber Resources",
+    "boardFootFacts": {
+      "definition": {
+        "title": "Board Foot Definition",
+        "description": "A board foot is 144 cubic inches of lumber (12\" × 12\" × 1\")"
+      },
+      "formula": {
+        "title": "Calculation Formula",
+        "description": "Board Feet = (Thickness × Width × Length × Quantity) ÷ 144"
+      },
+      "pricing": {
+        "title": "Lumber Pricing",
+        "description": "Lumber is typically sold by board foot for hardwoods and by piece for softwoods"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides volume calculations only",
+      "accuracy": "Measure lumber accurately and account for waste in your projects"
+    },
+    "importantNotesList": [
+      "Actual lumber dimensions are often smaller than nominal sizes",
+      "Add 15-20% extra for waste and mistakes in woodworking projects",
+      "Check lumber grading stamps for quality and species information",
+      "Consider moisture content when calculating weight estimates"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your lumber dimensions to calculate board feet",
+    "resultMessage": "Your board foot calculation is shown below",
+    "assessmentResult": "Lumber Calculation Result:",
+    "boardFootAnalysis": "Board Foot Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides board foot calculations based on standard lumber measurement formulas. Actual lumber requirements may vary based on project specifics, waste factors, and supplier recommendations."
+  },
+  "seekHelp": {
+    "title": "Lumber Resources",
+    "content": "For professional lumber advice and project estimation, consult lumber suppliers or woodworking professionals for project-specific recommendations and material selection."
+  },
+  "errors": {
+    "thickness": "Please enter a valid thickness",
+    "width": "Please enter a valid width",
+    "length": "Please enter a valid length",
+    "quantity": "Please enter a valid quantity",
+    "unitSystem": "Please select a unit system"
+  },
+  "tooltips": {
+    "thickness": "Thickness of the lumber piece",
+    "width": "Width of the lumber piece",
+    "length": "Length of the lumber piece",
+    "quantity": "Number of pieces with these dimensions",
+    "lumberType": "Type of lumber affects weight and pricing"
+  },
+  "loading_0": "Loading...",
+  "in_1": "in",
+  "in_2": "in",
+  "ft_3": "ft",
+  "in_4": "in",
+  "bf_5": "BF",
+  "bf_6": "BF",
+  "bf_7": "BF",
+  "in_8": "in³",
+  "volume_cubic_feet_9": "Volume (cubic feet):",
+  "ft_10": "ft³",
+  "total_cost_11": "Total cost:",
+  "pkr_12": "PKR",
+  "save_this_calculation_13": "Save This Calculation",
+  "a_board_foot_is_a_unit_of_measurement_for_lumber_v_14": "A board foot is a unit of measurement for lumber volume. One board foot equals 144 cubic inches or\n                    1/12 cubic foot. It's calculated by multiplying thickness (inches) × width (inches) × length (feet)\n                    ÷ 12.",
+  "calculation_formulas_15": "Calculation Formulas",
+  "length_in_feet_16": "Length in Feet",
+  "bf_lengthft_widthin_thicknessin_12_17": "BF = (Length_ft × Width_in × Thickness_in) ÷ 12",
+  "length_in_inches_18": "Length in Inches",
+  "bf_thicknessin_widthin_lengthin_144_19": "BF = (Thickness_in × Width_in × Length_in) ÷ 144",
+  "key_conversions_20": "Key Conversions",
+  "k_1_board_foot_21": "1 Board Foot =",
+  "k_144_cubic_inches_22": "144 cubic inches",
+  "k_1_board_foot_23": "1 Board Foot =",
+  "k_112_cubic_foot_24": "1/12 cubic foot",
+  "total_bf_25": "Total BF =",
+  "number_of_pieces_bf_per_piece_26": "Number of pieces × BF per piece",
+  "total_cost_27": "Total Cost =",
+  "total_bf_price_per_bf_28": "Total BF × Price per BF",
+  "example_29": "Example:",
+  "a_2_6_8_board_8_6_2_12_8_board_feet_for_10_pieces__30": "A 2\" × 6\" × 8' board = (8 × 6 × 2) ÷ 12 = 8 board feet. For 10 pieces,\n                      total = 80 board feet.",
+  "price_per_board_foot_optional_5": "Price per Board Foot (Optional)",
+  "pkrbf_6": "PKR/BF",
+  "cost_per_board_foot_for_total_price_calculation_7": "Cost per board foot for total price calculation",
+  "bf_8": "BF",
+  "bf_9": "BF",
+  "bf_10": "BF",
+  "in_11": "in³",
+  "volume_cubic_feet_12": "Volume (cubic feet):",
+  "ft_13": "ft³",
+  "total_cost_14": "Total cost:",
+  "pkr_15": "PKR",
+  "save_this_calculation_16": "Save This Calculation",
+  "a_board_foot_is_a_unit_of_measurement_for_lumber_v_17": "A board foot is a unit of measurement for lumber volume. One board foot equals 144 cubic inches or\n                    1/12 cubic foot. It's calculated by multiplying thickness (inches) × width (inches) × length (feet)\n                    ÷ 12.",
+  "calculation_formulas_18": "Calculation Formulas",
+  "length_in_feet_19": "Length in Feet",
+  "bf_lengthft_widthin_thicknessin_12_20": "BF = (Length_ft × Width_in × Thickness_in) ÷ 12",
+  "length_in_inches_21": "Length in Inches",
+  "bf_thicknessin_widthin_lengthin_144_22": "BF = (Thickness_in × Width_in × Length_in) ÷ 144",
+  "key_conversions_23": "Key Conversions",
+  "k_1_board_foot_24": "1 Board Foot =",
+  "k_144_cubic_inches_25": "144 cubic inches",
+  "k_1_board_foot_26": "1 Board Foot =",
+  "k_112_cubic_foot_27": "1/12 cubic foot",
+  "total_bf_28": "Total BF =",
+  "number_of_pieces_bf_per_piece_29": "Number of pieces × BF per piece",
+  "total_cost_30": "Total Cost =",
+  "total_bf_price_per_bf_31": "Total BF × Price per BF",
+  "example_32": "Example:",
+  "a_2_6_8_board_8_6_2_12_8_board_feet_for_10_pieces__33": "A 2\" × 6\" × 8' board = (8 × 6 × 2) ÷ 12 = 8 board feet. For 10 pieces,\n                      total = 80 board feet."
+}

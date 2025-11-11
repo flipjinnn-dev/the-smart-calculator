@@ -1,0 +1,173 @@
+{
+  "pageTitle": "Kalkulator ROI SEO dla przedsiębiorstw",
+  "pageDescription": "Oblicz zwrot z inwestycji (ROI) w SEO dla przedsiębiorstw",
+  "form": {
+    "labels": {
+      "monthlyOrganicTraffic": "Bieżący miesięczny ruch organiczny",
+      "conversionRate": "Współczynnik konwersji (%)",
+      "averageOrderValue": "Średnia wartość zamówienia ($)",
+      "seoInvestment": "Miesięczna inwestycja SEO ($)",
+      "trafficIncrease": "Oczekiwany wzrost ruchu (%)",
+      "timePeriod": "Okres (miesiące)"
+    },
+    "placeholders": {
+      "monthlyOrganicTraffic": "Wprowadź aktualny miesięczny ruch organiczny",
+      "conversionRate": "Wprowadź procent współczynnika konwersji",
+      "averageOrderValue": "Wprowadź średnią wartość zamówienia w dolarach",
+      "seoInvestment": "Wprowadź miesięczną inwestycję SEO w dolarach",
+      "trafficIncrease": "Wprowadź oczekiwany procent wzrostu ruchu",
+      "timePeriod": "Wprowadź okres w miesiącach (np. 12)"
+    },
+    "buttons": {
+      "calculate": "Oblicz ROI SEO",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "seoROI": "Zwrot z inwestycji w SEO (ROI)",
+    "currentRevenue": "Bieżące miesięczne przychody",
+    "projectedRevenue": "Prognozowane miesięczne przychody",
+    "revenueIncrease": "Wzrost przychodów",
+    "totalInvestment": "Całkowita inwestycja w SEO",
+    "netProfit": "Zysk netto z SEO",
+    "paybackPeriod": "Okres zwrotu"
+  },
+  "educational": {
+    "seoInfo": "Informacje o ROI SEO dla przedsiębiorstw",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby marketingu cyfrowego",
+    "seoFacts": {
+      "definition": {
+        "title": "Definicja ROI SEO",
+        "description": "Mierzy zwrot finansowy generowany przez inwestycje SEO w stosunku do kosztu tych inwestycji"
+      },
+      "formula": {
+        "title": "Wzór na obliczenie ROI",
+        "description": "ROI = ((Wzrost przychodów – inwestycja w SEO) / inwestycja w SEO) × 100%"
+      },
+      "factors": {
+        "title": "Czynniki wpływające",
+        "description": "Jakość ruchu, optymalizacja konwersji, konkurencja i warunki rynkowe wpływają na ROI SEO"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator podaje jedynie szacunki SEO ROI",
+      "actual": "Rzeczywisty zwrot z inwestycji może się różnić w zależności od warunków rynkowych i skuteczności wdrożenia"
+    },
+    "importantNotesList": [
+      "Wyniki SEO zwykle stają się widoczne po 3-6 miesiącach",
+      "Obliczenia ROI powinny uwzględniać długoterminowe korzyści wykraczające poza początkowe prognozy",
+      "Szacunki dotyczące wzrostu ruchu powinny być ostrożne i oparte na wzorcach branżowych",
+      "Dla powodzenia konwersji jakość ruchu jest równie ważna jak ilość"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź swoje aktualne wskaźniki i inwestycje w SEO, aby obliczyć potencjalny zwrot z inwestycji",
+    "resultMessage": "Wyniki obliczeń SEO ROI pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia ROI SEO:",
+    "seoAnalysis": "Analiza SEO ROI"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Ten kalkulator zapewnia szacunkowe ROI SEO w oparciu o standardowe formuły marketingu cyfrowego. Rzeczywisty zwrot z inwestycji może się różnić w zależności od warunków rynkowych, efektywności wdrożenia, konkurencji i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby marketingu cyfrowego",
+    "content": "W celu opracowania profesjonalnej strategii SEO i analizy ROI skonsultuj się z agencjami marketingu cyfrowego lub specjalistami SEO, którzy mogą ocenić konkretne potrzeby biznesowe i warunki rynkowe."
+  },
+  "errors": {
+    "monthlyOrganicTraffic": "Wprowadź prawidłową miesięczną wartość ruchu organicznego",
+    "conversionRate": "Wprowadź prawidłowy procentowy współczynnik konwersji",
+    "averageOrderValue": "Proszę podać prawidłową średnią wartość zamówienia",
+    "seoInvestment": "Wprowadź prawidłową miesięczną inwestycję SEO",
+    "trafficIncrease": "Wprowadź prawidłowy procent wzrostu ruchu",
+    "timePeriod": "Proszę wprowadzić prawidłowy okres w miesiącach"
+  },
+  "tooltips": {
+    "monthlyOrganicTraffic": "Aktualna liczba odwiedzin z wyszukiwarek miesięcznie",
+    "conversionRate": "Procent odwiedzających, którzy wykonali pożądaną akcję (zakup, rejestracja itp.)",
+    "averageOrderValue": "Średni przychód generowany na konwersję",
+    "seoInvestment": "Miesięczny budżet przeznaczony na działania i usługi SEO",
+    "trafficIncrease": "Oczekiwany procentowy wzrost ruchu organicznego w wyniku działań SEO",
+    "timePeriod": "Okres, w którym należy obliczyć zwrot z inwestycji (zwykle 12 miesięcy)"
+  },
+  "number_of_monthly_visitors_from_organic_search_0": "Liczba miesięcznych odwiedzin z bezpłatnych wyników wyszukiwania",
+  "percentage_of_visitors_who_make_a_purchase_1": "Procent odwiedzających, którzy dokonują zakupu",
+  "average_revenue_per_order_or_transaction_2": "Średni przychód na zamówienie lub transakcję",
+  "calculate_roi_3": "Oblicz zwrot z inwestycji",
+  "seo_roi_results_4": "Wyniki ROI SEO",
+  "your_seo_investment_analysis_5": "Twoja analiza inwestycji SEO",
+  "seo_return_on_investment_6": "Zwrot z inwestycji w SEO:",
+  "monthly_revenue_7": "Miesięczny dochód",
+  "from_organic_traffic_8": "z ruchu organicznego",
+  "annual_revenue_9": "Roczne przychody",
+  "projected_yearly_10": "przewidywane rocznie",
+  "annual_investment_11": "Roczna inwestycja",
+  "yearly_seo_spend_12": "roczne wydatki na SEO",
+  "net_profit_13": "Zysk netto",
+  "annual_profit_14": "roczny zysk",
+  "stepbystep_calculation_15": "Obliczenia krok po kroku",
+  "roi_interpretation_16": "Interpretacja ROI",
+  "enter_your_seo_metrics_to_calculate_roi_17": "Wprowadź dane SEO, aby obliczyć ROI",
+  "what_is_enterprise_seo_roi_18": "Jaki jest zwrot z inwestycji w SEO dla przedsiębiorstw?",
+  "enterprise_seo_roi_return_on_investment_19": "ROI SEO dla przedsiębiorstw (zwrot z inwestycji)",
+  "measures_the_profitability_of_your_seo_campaigns_b_20": "mierzy rentowność Twojego SEO\n                      kampanii, porównując przychody wygenerowane z organicznego ruchu w wynikach wyszukiwania z kosztami\n                      inwestowane w działania SEO.",
+  "for_enterprise_businesses_calculating_seo_roi_invo_21": "W przypadku przedsiębiorstw obliczanie ROI z SEO wymaga zrozumienia miesięcznych wyników organicznych\n                      ruch, współczynniki konwersji, średnia wartość zamówień i inwestycje w SEO. To proste podejście\n                      pomaga uzasadnić budżety SEO i zoptymalizować strategie marketingowe.",
+  "a_positive_roi_indicates_that_your_seo_efforts_are_22": "Dodatni ROI wskazuje, że Twoje wysiłki SEO generują więcej wartości niż kosztują, podczas gdy a\n                      ujemny zwrot z inwestycji sugeruje potrzebę dostosowania strategii lub poprawy jej realizacji.",
+  "enterprise_seo_roi_formulas_23": "Formuły ROI SEO dla przedsiębiorstw",
+  "k_1_monthly_revenue_24": "1. Miesięczny dochód",
+  "example_10000_visitors_2_100_20000month_25": "Przykład: 10 000 odwiedzających × 2% × 100 USD = 20 000 USD miesięcznie",
+  "k_2_annual_revenue_26": "2. Roczne przychody",
+  "example_20000_12_240000year_27": "Przykład: 20 000 USD × 12 = 240 000 USD rocznie",
+  "k_3_annual_investment_28": "3. Roczna inwestycja",
+  "example_5000_12_60000year_29": "Przykład: 5000 USD × 12 = 60 000 USD rocznie",
+  "k_4_return_on_investment_roi_30": "4. Zwrot z inwestycji (ROI%)",
+  "example_240000_60000_60000_100_300_31": "Przykład: (240 000 USD - 60 000 USD) / 60 000 USD × 100% = 300%",
+  "how_to_use_this_calculator_32": "Jak korzystać z tego kalkulatora?",
+  "enter_monthly_organic_traffic_33": "Podaj miesięczny ruch organiczny:",
+  "input_the_number_of_visitors_your_website_receives_34": "Wprowadź liczbę odwiedzających Twoją witrynę\n                        otrzymuje co miesiąc z bezpłatnych wyników wyszukiwania. Znajdziesz to w Google Analytics lub wyszukiwarce Google\n                        Konsola",
+  "set_conversion_rate_35": "Ustaw współczynnik konwersji:",
+  "enter_the_percentage_of_visitors_who_complete_a_de_36": "Wprowadź odsetek odwiedzających, którzy ukończyli żądaną czynność\n                        działanie (zakup, rejestracja itp.). Oblicz, dzieląc konwersje przez całkowitą liczbę odwiedzających.",
+  "input_average_order_value_37": "Wprowadź średnią wartość zamówienia:",
+  "enter_the_average_revenue_generated_per_transactio_38": "Wprowadź średni przychód generowany na transakcję\n                        lub klienta. Można to znaleźć na platformie e-commerce lub CRM.",
+  "specify_monthly_seo_investment_39": "Określ miesięczną inwestycję SEO:",
+  "include_all_monthly_seo_expenses_such_as_agency_fe_40": "Uwzględnij wszystkie miesięczne wydatki na SEO, takie jak agencja\n                        opłaty, narzędzia, tworzenie treści, budowanie linków i techniczne koszty SEO.",
+  "calculate_41": "Obliczać:",
+  "click_the_button_to_see_your_seo_roi_percentage_an_42": "Kliknij przycisk, aby zobaczyć procent ROI SEO i roczne przychody\n                        prognozy i szczegółowy podział.",
+  "stepbystep_example_43": "Przykład krok po kroku",
+  "example_scenario_44": "Przykładowy scenariusz:",
+  "monthly_organic_traffic_10000_visitors_45": "• Miesięczny ruch organiczny = 10 000 odwiedzających",
+  "conversion_rate_2_46": "• Współczynnik konwersji = 2%",
+  "average_order_value_100_47": "• Średnia wartość zamówienia = 100 USD",
+  "monthly_seo_investment_5000_48": "• Miesięczna inwestycja w SEO = 5000 dolarów",
+  "step_1_calculate_revenue_49": "Krok 1: Oblicz przychody",
+  "monthly_revenue_10000_2_100_50": "Miesięczny dochód = 10 000 × 2% × 100 USD =",
+  "k_20000_51": "20 000 dolarów",
+  "step_2_calculate_revenue_52": "Krok 2: Oblicz przychody",
+  "annual_revenue_20000_12_53": "Roczny dochód = 20 000 USD × 12 =",
+  "k_240000_54": "240 000 dolarów",
+  "step_3_calculate_investment_55": "Krok 3: Oblicz inwestycję",
+  "annual_investment_5000_12_56": "Roczna inwestycja = 5000 USD × 12 =",
+  "k_60000_57": "60 000 dolarów",
+  "step_4_calculate_profit_58": "Krok 4: Oblicz zysk",
+  "net_profit_240000_60000_59": "Zysk netto = 240 000 USD - 60 000 USD =",
+  "k_180000_60": "180 000 dolarów",
+  "step_5_calculate_61": "Krok 5: Oblicz",
+  "roi_240000_60000_60000_100_62": "ROI = (240 000 USD - 60 000 USD) / 60 000 USD × 100% =",
+  "k_300_63": "300%",
+  "conclusion_64": "Wniosek:",
+  "this_seo_campaign_generated_an_excellent_roi_of_30_65": "Ta kampania SEO wygenerowała doskonały ROI na poziomie 300%, co oznacza dla\n                        za każdego dolara zainwestowanego w SEO firma zarabiała 3 dolary. Świadczy to o dużej\n                        opłacalna i skuteczna strategia SEO.",
+  "frequently_asked_questions_faqs_66": "Często zadawane pytania (FAQ)",
+  "how_is_enterprise_seo_roi_calculated_67": "Jak obliczany jest ROI SEO dla przedsiębiorstw?",
+  "enterprise_seo_roi_is_calculated_by_comparing_the__68": "ROI z SEO dla przedsiębiorstw oblicza się poprzez porównanie przychodów generowanych z ruchu organicznego z przychodami\n                        Twoja inwestycja w SEO. Wzór jest następujący: ROI = ((roczny przychód – roczna inwestycja) / roczna\n                        Inwestycja) × 100. Najpierw oblicz miesięczne przychody, mnożąc ruch organiczny przez konwersję\n                        stawkę i średnią wartość zamówienia, a następnie pomnóż przez 12, aby uzyskać wartości roczne.",
+  "whats_a_good_roi_for_enterprise_seo_69": "Jaki jest dobry zwrot z inwestycji w SEO dla przedsiębiorstw?",
+  "a_good_enterprise_seo_roi_typically_ranges_from_20_70": "Dobry zwrot z inwestycji w SEO dla przedsiębiorstw zazwyczaj waha się od 200% do 500%, ale może się znacznie różnić w zależności od\n                        od branży, konkurencji i warunków rynkowych. Każdy dodatni zwrot z inwestycji oznacza sukces\n                        kampania. Wskaźniki ROI powyżej 300% są uważane za doskonałe, natomiast wartości powyżej 500% są wyjątkowe.",
+  "how_long_does_it_take_to_see_roi_from_enterprise_s_71": "Jak długo trzeba czekać, aby zobaczyć zwrot z inwestycji w SEO dla przedsiębiorstw?",
+  "enterprise_seo_typically_shows_meaningful_roi_with_72": "SEO dla przedsiębiorstw zazwyczaj wykazuje znaczący zwrot z inwestycji w ciągu 6-12 miesięcy. Jednak dokładny harmonogram\n                        zależy od czynników takich jak aktualne władze lokalizacji, poziom konkurencji i kwota inwestycji. Niektóre\n                        przedsiębiorstwa mogą zobaczyć wstępne wyniki w ciągu 3–4 miesięcy, podczas gdy w wysoce konkurencyjnych branżach może to potrwać\n                        12-18 miesięcy, aby osiągnąć znaczące zyski.",
+  "what_factors_influence_enterprise_seo_roi_73": "Jakie czynniki wpływają na zwrot z inwestycji w SEO przedsiębiorstwa?",
+  "key_factors_include_monthly_organic_traffic_conver_74": "Kluczowe czynniki obejmują miesięczny ruch organiczny, współczynnik konwersji, średnią wartość zamówienia i miesięczny\n                        Inwestycja SEO. Konkurencja w branży, autorytet witryny, jakość treści, stan techniczny SEO,\n                        i doświadczenie użytkownika również odgrywają kluczową rolę. Dodatkowo czynniki takie jak rozpoznawalność marki,\n                        popyt rynkowy i trendy sezonowe mogą znacząco wpłynąć na zwrot z inwestycji w SEO.",
+  "how_can_i_improve_my_seo_roi_75": "Jak mogę poprawić ROI SEO?",
+  "to_improve_seo_roi_focus_on_increasing_organic_tra_76": "Aby poprawić ROI z SEO, skup się na zwiększeniu ruchu organicznego poprzez lepsze kierowanie na słowa kluczowe i\n                        optymalizacja treści, poprawa współczynników konwersji dzięki lepszemu UX i stronom docelowym, wzrost\n                        średniej wartości zamówienia poprzez upselling i cross-selling oraz optymalizację inwestycji SEO wg\n                        koncentrując się na działaniach o dużym wpływie. Niezbędne jest regularne monitorowanie i dostosowywanie oparte na danych\n                        do ciągłego doskonalenia."
+}

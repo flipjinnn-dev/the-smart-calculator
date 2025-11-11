@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Kalkulator współczynnika balistycznego",
+  "pageDescription": "Oblicz współczynnik balistyczny pocisku do celów precyzyjnego strzelania i analizy trajektorii",
+  "form": {
+    "labels": {
+      "bulletWeight": "Masa pocisku",
+      "bulletDiameter": "Średnica pocisku",
+      "bulletLength": "Długość pocisku",
+      "weightUnit": "Jednostka wagi",
+      "diameterUnit": "Jednostka średnicy",
+      "lengthUnit": "Jednostka długości",
+      "calculationMethod": "Metoda obliczeniowa",
+      "bulletType": "Typ pocisku"
+    },
+    "placeholders": {
+      "bulletWeight": "Wprowadź masę pocisku",
+      "bulletDiameter": "Wprowadź średnicę pocisku",
+      "bulletLength": "Wprowadź długość pocisku"
+    },
+    "buttons": {
+      "calculate": "Oblicz współczynnik balistyczny",
+      "reset": "Nastawić"
+    },
+    "weightUnits": {
+      "grains": "Słodziny",
+      "grams": "Gramów"
+    },
+    "diameterUnits": {
+      "inches": "Cale",
+      "millimeters": "Milimetry"
+    },
+    "lengthUnits": {
+      "inches": "Cale",
+      "millimeters": "Milimetry"
+    },
+    "calculationMethods": {
+      "g1": "Standard G1 (płaski)",
+      "g7": "Standard G7 (ogon łodzi)"
+    },
+    "bulletTypes": {
+      "fmj": "W pełni metalowa kurtka",
+      "hp": "Pusty punkt",
+      "sp": "Miękki punkt",
+      "bt": "Ogon łodzi",
+      "vmax": "V-maks",
+      "sierra": "Sierra MatchKing"
+    }
+  },
+  "results": {
+    "ballisticCoefficient": "Współczynnik balistyczny",
+    "formFactor": "Współczynnik kształtu",
+    "sectionalDensity": "Gęstość przekroju",
+    "ballisticCoefficientResultsTitle": "Wyniki współczynnika balistycznego",
+    "bcValue": "Wartość BC"
+  },
+  "educational": {
+    "ballisticCoefficientInfo": "Informacje o współczynniku balistycznym",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby balistyczne",
+    "ballisticCoefficientFacts": {
+      "definition": {
+        "title": "Definicja współczynnika balistycznego",
+        "description": "Miara zdolności pocisku do pokonywania oporu powietrza w locie w porównaniu do pocisku standardowego"
+      },
+      "formula": {
+        "title": "Wzór obliczeniowy",
+        "description": "BC = gęstość przekroju ÷ współczynnik kształtu, gdzie SD = waga ÷ średnica²"
+      },
+      "standards": {
+        "title": "Modele standardowe",
+        "description": "G1 (płaski) i G7 (łódkowy ogon) to najpopularniejsze modele referencyjne"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten dostarcza jedynie szacunków i nie zastępuje testów empirycznych",
+      "environmental": "Rzeczywista wydajność różni się w zależności od warunków środowiskowych i charakterystyki beczki"
+    },
+    "importantNotesList": [
+      "Wyższe wartości BC wskazują na lepszą wydajność aerodynamiczną",
+      "Standard G7 jest dokładniejszy w przypadku nowoczesnych pocisków z ogonem łódkowym",
+      "Czynniki środowiskowe wpływają na rzeczywistą trajektorię",
+      "Tolerancje produkcyjne mogą mieć wpływ na rzeczywiste wartości BC"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź specyfikację pocisku, aby obliczyć współczynnik balistyczny",
+    "resultMessage": "Obliczenie współczynnika balistycznego pokazano poniżej",
+    "assessmentResult": "Wynik współczynnika balistycznego:",
+    "ballisticCoefficientAnalysis": "Analiza współczynników balistycznych"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia oszacowanie współczynników balistycznych w oparciu o wzory matematyczne. Rzeczywista wydajność może się różnić w zależności od warunków środowiskowych, charakterystyki lufy i tolerancji produkcyjnych."
+  },
+  "seekHelp": {
+    "title": "Zasoby balistyczne",
+    "content": "Aby uzyskać profesjonalną analizę balistyczną i zastosowania w strzelaniu precyzyjnym, skonsultuj się z ekspertami w dziedzinie balistyki lub skorzystaj ze specjalistycznego oprogramowania, takiego jak Applied Ballistics lub JBM Ballistics."
+  },
+  "errors": {
+    "bulletWeight": "Proszę wprowadzić prawidłową masę pocisku",
+    "bulletDiameter": "Proszę wprowadzić prawidłową średnicę pocisku",
+    "bulletLength": "Wprowadź prawidłową długość pocisku",
+    "weightUnit": "Proszę wybrać jednostkę wagi",
+    "diameterUnit": "Proszę wybrać jednostkę średnicy",
+    "lengthUnit": "Proszę wybrać jednostkę długości",
+    "calculationMethod": "Wybierz metodę obliczeń",
+    "bulletType": "Wybierz typ punktora"
+  },
+  "tooltips": {
+    "bulletWeight": "Masa pocisku",
+    "bulletDiameter": "Średnica pocisku",
+    "bulletLength": "Długość pocisku",
+    "calculationMethod": "Standardowy model dla porównania",
+    "bulletType": "Rodzaj pocisku wpływa na współczynnik kształtu"
+  },
+  "ballistic_coefficient_calculation_0": "Obliczanie współczynnika balistycznego",
+  "enter_projectile_parameters_to_calculate_ballistic_1": "Wprowadź parametry pocisku, aby obliczyć współczynnik balistyczny",
+  "input_method_2": "Metoda wprowadzania",
+  "crosssectional_area_3": "Powierzchnia przekroju",
+  "diameter_4": "Średnica",
+  "mass_of_projectile_5": "Masa pocisku",
+  "g_6": "g",
+  "kg_7": "kg",
+  "gr_8": "gr",
+  "oz_9": "uncja",
+  "crosssectional_area_10": "Powierzchnia przekroju",
+  "mm_11": "mm²",
+  "cm_12": "cm²",
+  "in_13": "w²",
+  "diameter_14": "Średnica",
+  "mm_15": "mm",
+  "cm_16": "cm",
+  "in_17": "W",
+  "area_will_be_calculated_as_d2_18": "Powierzchnia zostanie obliczona jako π × (d/2)²",
+  "drag_coefficient_cd_19": "Współczynnik oporu (Cd)",
+  "dimensionless_coefficient_typical_range_0105_20": "Współczynnik bezwymiarowy (typowy zakres: 0,1-0,5)",
+  "formula_21": "Formuła:",
+  "b_m_cd_a_22": "B = m / (Cd × A)",
+  "where_23": "Gdzie:",
+  "b_ballistic_coefficient_kgm_m_mass_kg_cd_drag_coef_24": "B = współczynnik balistyczny (kg/m²), m = masa (kg), Cd = współczynnik oporu,\n                        A = powierzchnia (m²)",
+  "calculate_coefficient_25": "Oblicz współczynnik",
+  "results_26": "Wyniki",
+  "ballistic_coefficient_27": "Współczynnik balistyczny",
+  "kgm_28": "kg/m²",
+  "sectional_density_29": "Gęstość przekroju",
+  "kgm_30": "kg/m²",
+  "mass_31": "Masa:",
+  "kg_32": "kg)",
+  "area_33": "Obszar:",
+  "mm_34": "mm²)",
+  "diameter_35": "Średnica:",
+  "area_36": "(Obszar:",
+  "mm_37": "mm²)",
+  "cd_38": "Płyta CD:",
+  "enter_values_and_click_39": "Wprowadź wartości i kliknij",
+  "calculate_40": "Obliczać",
+  "to_see_results_41": "zobaczyć\n                          wyniki.",
+  "understanding_ballistic_coefficient_42": "Zrozumienie współczynnika balistycznego",
+  "what_is_ballistic_coefficient_43": "Co to jest współczynnik balistyczny?",
+  "ballistic_coefficient_bc_is_a_measure_of_a_project_44": "Współczynnik balistyczny (BC) jest miarą zdolności pocisku do pokonywania oporu powietrza\n                      lot. Wyższe wartości BC wskazują na lepszą wydajność aerodynamiczną i mniejszą utratę prędkości\n                      odległość.",
+  "example_calculation_45": "Przykładowe obliczenia",
+  "given_46": "Dany:",
+  "mass_m_180_g_0180_kg_47": "Masa (m) = 180 g = 0,180 kg",
+  "area_a_400_mm_400_10_m_48": "Powierzchnia (A) = 400 mm² = 4,00 × 10⁻⁴ m²",
+  "drag_coefficient_cd_030_49": "Współczynnik oporu (Cd) = 0,30",
+  "calculation_50": "Obliczenie:",
+  "b_0180_030_400_10_51": "B = 0,180 / (0,30 × 4,00 × 10⁻⁴)",
+  "b_0180_120_10_52": "B = 0,180 / (1,20 × 10⁻⁴)",
+  "b_1500_kgm_53": "B ≈ 1500 kg/m²",
+  "key_relationships_54": "Kluczowe relacje",
+  "sectional_density_sd_55": "Gęstość przekroju (SD):",
+  "sd_m_a_mass_per_unit_area_56": "SD = m / A (masa na jednostkę powierzchni)",
+  "alternative_form_57": "Alternatywna forma:",
+  "b_sd_cd_58": "B = SD / CD",
+  "higher_bc_59": "Wyższe BC:",
+  "better_longrange_performance_less_wind_drift_60": "Lepsza wydajność na dużym dystansie, mniejsze znoszenie wiatru",
+  "typical_values_61": "Typowe wartości:",
+  "k_0208_kgm_bullets_0103_kgm_pellets_62": "0,2-0,8 kg/m² (pociski), 0,1-0,3 kg/m² (pelety)"
+}

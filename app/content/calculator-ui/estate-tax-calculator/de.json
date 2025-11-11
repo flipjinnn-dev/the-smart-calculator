@@ -1,0 +1,139 @@
+{
+  "pageTitle": "Erbschaftssteuerrechner",
+  "pageDescription": "Berechnen Sie die Erbschaftssteuer mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Erbschaftssteuer",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Erbschaftssteuerberechnung"
+  },
+  "educational": {
+    "info": "Informationen zur Erbschaftssteuer",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Definition der Erbschaftssteuer",
+        "description": "Informationen zur Erbschaftssteuer"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "So wird die Erbschaftssteuer berechnet"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendungszwecke der Erbschaftssteuer"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Erbschaftssteuer",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen zur Berechnung der Erbschaftssteuer ein",
+    "resultMessage": "Die Ergebnisse Ihrer Erbschaftssteuerberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Erbschaftssteuerberechnung:",
+    "analysis": "Erbschaftssteueranalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Erbschaftssteuerschätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt sind, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "estate_tax_calculator_0": "Erbschaftssteuerrechner",
+  "assets_1": "Vermögenswerte",
+  "residence_other_real_estate_2": "Wohnsitz und andere Immobilien",
+  "stocks_bonds_other_investments_3": "Aktien, Anleihen, andere Anlagen",
+  "savings_cds_checking_accounts_4": "Ersparnisse, CDs, Girokonten",
+  "vehicles_boats_other_properties_5": "Fahrzeuge, Boote, andere Immobilien",
+  "retirement_plans_6": "Altersvorsorge",
+  "life_insurance_benefit_7": "Lebensversicherungsleistung",
+  "other_assets_8": "Sonstige Vermögensgegenstände",
+  "liability_costs_and_deductibles_9": "Haftung, Kosten und Selbstbehalte",
+  "debts_mortgages_loan_credit_cards_etc_10": "Schulden (Hypotheken, Darlehen, Kreditkarten usw.)",
+  "funeral_administration_and_claims_expenses_11": "Funeral, Administration, and Claims Expenses",
+  "charitable_contributions_12": "Charitable Contributions",
+  "state_inheritance_or_estate_taxes_13": "State Inheritance or Estate Taxes",
+  "deductions_14": "Deductions",
+  "charitable_contributions_15": "Charitable Contributions",
+  "lifetime_gifted_amount_16": "Lifetime Gifted Amount",
+  "total_amount_youve_gifted_tax_free_in_your_lifetim_17": "Total amount you've gifted tax free in your lifetime",
+  "calculate_tax_18": "Calculate Tax",
+  "estate_tax_results_19": "Estate Tax Results",
+  "your_complete_estate_tax_breakdown_20": "Your complete estate tax breakdown",
+  "net_taxable_estate_is_21": "Net taxable estate is $",
+  "estate_tax_owed_22": "Estate Tax Owed:",
+  "no_estate_tax_is_owed_since_the_estate_is_below_th_23": "No estate tax is owed since the estate is below the exemption threshold.",
+  "assets_24": "Assets",
+  "residence_other_real_estate_25": "Residence & Other Real Estate",
+  "stocks_bonds_and_other_investments_26": "Stocks, Bonds, and Other Investments",
+  "savings_cds_and_checking_account_balance_27": "Savings, CDs, and Checking Account Balance",
+  "vehicles_boats_and_other_properties_28": "Vehicles, Boats, and Other Properties",
+  "retirement_plans_29": "Altersvorsorge",
+  "life_insurance_benefit_30": "Lebensversicherungsleistung",
+  "other_assets_31": "Sonstige Vermögensgegenstände",
+  "total_assets_32": "Gesamtvermögen",
+  "liability_costs_and_deductibles_33": "Haftung, Kosten und Selbstbehalte",
+  "debts_mortgages_loan_credit_cards_etc_34": "Schulden (Hypotheken, Darlehen, Kreditkarten usw.)",
+  "funeral_administration_and_claims_expenses_35": "Bestattungs-, Verwaltungs- und Schadenskosten",
+  "charitable_contributions_36": "Wohltätige Spenden",
+  "state_inheritance_or_estate_taxes_37": "Staatliche Erbschafts- oder Nachlasssteuern",
+  "total_liabilities_deductions_38": "Gesamtverbindlichkeiten und Abzüge",
+  "lifetime_gifted_amount_39": "Lebenslang gespendeter Betrag",
+  "total_amount_youve_gifted_tax_free_in_your_lifetim_40": "Der Gesamtbetrag, den Sie im Laufe Ihres Lebens steuerfrei gespendet haben",
+  "net_taxable_estate_41": "Nettosteuerpflichtiger Nachlass",
+  "federal_exemption_2025_42": "Bundesbefreiung (2025)",
+  "taxable_estate_43": "Steuerpflichtiger Nachlass",
+  "tax_rate_44": "Steuersatz:",
+  "k_40_on_taxable_estate_above_exemption_45": "40 % auf steuerpflichtiges Vermögen oberhalb der Befreiung",
+  "the_federal_estate_tax_rate_is_a_flat_40_on_the_am_46": "Der Erbschaftssteuersatz des Bundes beträgt pauschal 40 % auf den Betrag, der den Freibetrag von 13,99 Mio. USD übersteigt\n                          2025.",
+  "enter_your_estate_information_to_see_your_results_47": "Geben Sie Ihre Nachlassinformationen ein, um Ihre Ergebnisse anzuzeigen",
+  "estate_tax_calculation_formula_48": "Formel zur Berechnung der Erbschaftssteuer",
+  "k_1_total_assets_49": "1. Gesamtvermögen",
+  "assets_real_estate_investments_savings_vehicles_re_50": "Vermögenswerte = Immobilien + Investitionen + Ersparnisse + Fahrzeuge + Altersvorsorge + Lebensversicherung +\n                        Andere Vermögenswerte",
+  "k_2_total_liabilities_51": "2. Gesamtverbindlichkeiten",
+  "liabilities_mortgages_loans_credit_cards_funeral_e_52": "Verbindlichkeiten = Hypotheken + Kredite + Kreditkarten + Bestattungskosten + Verwaltungskosten +\n                        Ansprüche",
+  "k_3_gross_estate_53": "3. Bruttonachlass",
+  "gross_estate_assets_liabilities_lifetime_gifts_cha_54": "Bruttovermögen = Vermögen – Verbindlichkeiten + lebenslange Schenkungen – Spenden für wohltätige Zwecke",
+  "k_4_taxable_estate_55": "4. Steuerpflichtiger Nachlass",
+  "taxable_estate_max0_gross_estate_federal_exemption_56": "Steuerpflichtiger Nachlass = max(0, Bruttonachlass – Bundesbefreiung)",
+  "k_5_estate_tax_owed_57": "5. Geschuldete Erbschaftssteuer",
+  "estate_tax_taxable_estate_40_58": "Erbschaftssteuer = Steuerpflichtiger Nachlass × 40 %"
+}

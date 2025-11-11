@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Smart Calculator - Calculadoras Online Grátis para Todas as Necessidades",
+    "description": "Acesse centenas de calculadoras online gratuitas para finanças, saúde, matemática, física e muito mais. Ferramentas de cálculo rápidas, precisas e fáceis de usar.",
+    "keywords": "calculadora, calculadora online, calculadora financeira, calculadora de saúde, calculadora de matemática, ferramentas grátis"
+  },
+  "header": {
+    "title": "Smart Calculadoras",
+    "subtitle": "Calculadoras Online Grátis"
+  },
+  "hero": {
+    "title": "Sua vida em <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">90+ calculadoras</span> grátis",
+    "description": "Do planejamento financeiro ao acompanhamento da saúde, descubra ferramentas de cálculo poderosas que tornam a matemática complexa simples e acessível."
+  },
+  "search": {
+    "title": "Encontre sua calculadora",
+    "placeholder": "Pesquise entre centenas de ferramentas grátis"
+  },
+  "categories": {
+    "title": "Categorias de Calculadoras",
+    "description": "Explore nossa coleção abrangente de calculadoras especializadas",
+    "financial": {
+      "name": "Financeiro",
+      "description": "Calculadoras de empréstimo, hipoteca, investimento e impostos"
+    },
+    "health": {
+      "name": "Saúde e Fitness",
+      "description": "Calculadoras de IMC, calorias, nutrição e médicas"
+    },
+    "maths": {
+      "name": "Matemática",
+      "description": "Álgebra, geometria, estatística e matemática avançada"
+    },
+    "physics": {
+      "name": "Física",
+      "description": "Cálculos de força, energia, movimento e física"
+    },
+    "construction": {
+      "name": "Construção",
+      "description": "Cálculos de propriedade, aluguel e construção"
+    },
+    "food": {
+      "name": "alimento",
+      "description": "Calculadoras de nutrição, calorias e planejamento de refeições"
+    },
+    "sports": {
+      "name": "Esportes",
+      "description": "Calculadoras de fitness, exercícios e esportes"
+    },
+    "other": {
+      "name": "outro",
+      "description": "Calculadoras diversas que não se encaixam em outras categorias"
+    }
+  },
+  "popular": {
+    "title": "Calculadoras Mais Populares",
+    "description": "Nossas ferramentas de cálculo mais utilizadas",
+    "calculators": [
+      {
+        "name": "Calculadora de Hipoteca",
+        "category": "Financeiro",
+        "description": "Calcule pagamentos mensais e juros totais do seu empréstimo habitacional"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "category": "Saúde",
+        "description": "Calcule seu Índice de Massa Corporal e entenda seu status de peso"
+      },
+      {
+        "name": "Calculadora de Empréstimo",
+        "category": "Financeiro",
+        "description": "Calcule pagamentos e cronogramas de empréstimos de qualquer tipo"
+      },
+      {
+        "name": "Calculadora de Porcentagem",
+        "category": "Matemática",
+        "description": "Calcule porcentagens, proporções e mudanças percentuais facilmente"
+      },
+      {
+        "name": "Juros Compostos",
+        "category": "Financeiro",
+        "description": "Calcule o crescimento do investimento ao longo do tempo com juros compostos"
+      },
+      {
+        "name": "Calculadora de Calorias",
+        "category": "Saúde",
+        "description": "Calcule necessidades diárias de calorias com base em seu estilo de vida e objetivos"
+      }
+    ]
+  },
+  "features": {
+    "title": "Por Que Escolher a Smart Calculator?",
+    "description": "Rápido, preciso e completamente grátis para usar",
+    "items": [
+      {
+        "title": "Rápido como Relâmpago",
+        "description": "Obtenha resultados instantâneos com nossos motores de cálculo otimizados"
+      },
+      {
+        "title": "100% Preciso",
+        "description": "Todas as calculadoras são verificadas por especialistas e matematicamente precisas"
+      },
+      {
+        "title": "Sempre Grátis",
+        "description": "Acesso completo a todas as calculadoras sem cobranças ocultas"
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "color": "#1a73e8",
+  "sections": [
+    {
+      "heading": "Maximize seus benefícios de previdência social com nossa calculadora",
+      "content": "Planejar a aposentadoria pode ser complexo, mas compreender os benefícios do Seguro Social não precisa ser. Nossa Calculadora de Previdência Social ajuda você a estimar os benefícios da Previdência Social com rapidez e precisão, fornecendo insights personalizados com base em seu histórico de trabalho, idade e situação familiar."
+    },
+    {
+      "heading": "Principais recursos da calculadora da previdência social",
+      "subSections": [
+        {
+          "heading": "Estimador de aposentadoria da Previdência Social",
+          "content": "Calcule seus benefícios mensais estimados com base em seu histórico de ganhos."
+        },
+        {
+          "heading": "Calculadora de idade de aposentadoria completa",
+          "content": "Determine a idade em que você pode reivindicar todos os benefícios do Seguro Social."
+        },
+        {
+          "heading": "Calculadora de benefícios de aposentadoria antecipada",
+          "content": "Explore a redução nos benefícios se você solicitar antes da idade de aposentadoria completa."
+        },
+        {
+          "heading": "Calculadora de créditos de aposentadoria atrasada",
+          "content": "Entenda como esperar além da idade de aposentadoria completa aumenta seu benefício."
+        },
+        {
+          "heading": "Calculadora do valor do seguro primário (PIA)",
+          "content": "Estime o valor base do benefício usado para calcular seus pagamentos mensais."
+        },
+        {
+          "heading": "Calculadora de ganhos médios mensais indexados (AIME)",
+          "content": "Veja como seus rendimentos vitalícios afetam seus benefícios do Seguro Social."
+        },
+        {
+          "heading": "Impacto do ajuste do custo de vida (COLA)",
+          "content": "Acompanhe como os ajustes de inflação podem aumentar seus benefícios ao longo do tempo."
+        },
+        {
+          "heading": "Idade de equilíbrio para a Segurança Social",
+          "content": "Compare o pedido antecipado com o atrasado para descobrir a idade em que os benefícios atrasados ​​superam o pedido antecipado."
+        }
+      ]
+    },
+    {
+      "heading": "Por que usar esta calculadora?",
+      "subSections": [
+        {
+          "heading": "Comparação de idade para reivindicação da Previdência Social",
+          "content": "Decida se a reivindicação antecipada ou atrasada se adapta ao seu plano de aposentadoria."
+        },
+        {
+          "heading": "Redução de benefício por reclamação antecipada",
+          "content": "Entenda como a reivindicação antes da idade de aposentadoria completa afeta os pagamentos mensais."
+        },
+        {
+          "heading": "Aumento do benefício de aposentadoria atrasada",
+          "content": "Calcule o aumento do benefício por esperar até os 70 anos."
+        },
+        {
+          "heading": "Tributação de Benefícios",
+          "content": "Veja como sua renda pode afetar a tributação dos benefícios."
+        },
+        {
+          "heading": "Impacto WEP e GPO",
+          "content": "Avaliar como as pensões provenientes de trabalhos não cobertos pela Segurança Social influenciam os benefícios."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar?",
+      "subSections": [
+        {
+          "heading": "Cônjuges e cônjuges que não trabalham",
+          "content": "Estime os benefícios para cônjuges e sobreviventes."
+        },
+        {
+          "heading": "Indivíduos Divorciados",
+          "content": "Calcule os benefícios com base no histórico de trabalho do ex-cônjuge."
+        },
+        {
+          "heading": "Viúvas/Viúvos",
+          "content": "Use o estimador de benefícios de sobrevivência."
+        },
+        {
+          "heading": "Veteranos Militares",
+          "content": "Considere os ajustes de crédito de serviço."
+        },
+        {
+          "heading": "Funcionários federais e estaduais/locais",
+          "content": "Entenda as diferenças de cobertura da Previdência Social."
+        },
+        {
+          "heading": "Trabalhadores por conta própria",
+          "content": "Obtenha estimativas PIA e AIME com base nos rendimentos do trabalho autônomo."
+        },
+        {
+          "heading": "Cuidadores e pais que ficam em casa",
+          "content": "Consulte a elegibilidade para benefícios para cônjuges que não trabalham."
+        },
+        {
+          "heading": "Não Cidadãos e Imigrantes",
+          "content": "Verifique a elegibilidade e os benefícios estimados."
+        },
+        {
+          "heading": "Crianças",
+          "content": "Calcular os benefícios da Segurança Social dos filhos dependentes."
+        },
+        {
+          "heading": "Requerentes de deficiência",
+          "content": "Estimar benefícios por invalidez."
+        }
+      ]
+    },
+    {
+      "heading": "Cenários Práticos",
+      "subSections": [
+        {
+          "heading": "Aposentadoria antecipada",
+          "content": "Jane, de 62 anos, receberá uma redução de 25%, mas tendo em conta a esperança de vida e o impacto do COLA, ela poderá decidir se o pedido antecipado é financeiramente viável."
+        },
+        {
+          "heading": "Aposentadoria Atrasada",
+          "content": "John, de 66 anos, vê um aumento de 32% ao esperar até os 70, o que lhe permite planejar uma renda de aposentadoria maior."
+        },
+        {
+          "heading": "Benefícios para cônjuge",
+          "content": "Mary, que nunca trabalhou, pode estimar os benefícios do cônjuge usando o registro de rendimentos do cônjuge e otimizar sua estratégia de reivindicação."
+        }
+      ]
+    },
+    {
+      "heading": "Como funciona",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Insira sua data de nascimento, histórico de ganhos e outras informações pessoais."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Escolha sua estratégia de reivindicação: idade de aposentadoria antecipada, completa ou atrasada."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Revise seus benefícios estimados, incluindo COLA, WEP, GPO e impostos."
+        },
+        {
+          "heading": "Etapa 4",
+          "content": "Use a análise do ponto de equilíbrio para comparar diferentes idades de reivindicação e maximizar os benefícios vitalícios."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é a calculadora da idade de aposentadoria completa?",
+      "a": "Determina a idade em que você se qualifica para benefícios integrais da Previdência Social, sem reduções."
+    },
+    {
+      "q": "Como a aposentadoria antecipada afeta meus benefícios?",
+      "a": "Reivindicar antes da idade de aposentadoria completa reduz os benefícios mensais. Use a Calculadora de Benefícios de Aposentadoria Antecipada para ver sua redução exata."
+    },
+    {
+      "q": "O que é a calculadora do Valor do Seguro Primário (PIA)?",
+      "a": "PIA representa o seu benefício básico da Previdência Social antes de ajustes, como reivindicação antecipada ou atrasada."
+    },
+    {
+      "q": "Como posso estimar os benefícios da Segurança Social para o meu cônjuge ou filhos?",
+      "a": "Nossa calculadora inclui opções para cônjuges, cônjuges que não trabalham e filhos, permitindo projeções de benefícios personalizadas."
+    },
+    {
+      "q": "Como a Provisão para Eliminação de Benefícios Inesperados (WEP) e a Compensação de Pensão do Governo (GPO) afetam os benefícios?",
+      "a": "O WEP pode reduzir os benefícios para aqueles com pensões provenientes de empregos não cobertos pela Segurança Social, enquanto o GPO pode reduzir os benefícios conjugais para os beneficiários de pensões do governo."
+    },
+    {
+      "q": "Esta calculadora pode ajudar veteranos militares ou funcionários federais?",
+      "a": "Sim, é responsável por créditos de serviços especiais e interações previdenciárias para veteranos e funcionários federais/estaduais."
+    },
+    {
+      "q": "Esta calculadora inclui ajustes de custo de vida (COLA)?",
+      "a": "Sim, o COLA é tido em conta para reflectir potenciais aumentos futuros nos benefícios devido à inflação."
+    }
+  ]
+}

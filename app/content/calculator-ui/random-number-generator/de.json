@@ -1,0 +1,129 @@
+{
+  "pageTitle": "Zufallszahlengenerator",
+  "pageDescription": "Generieren Sie Zufallszahlen innerhalb eines bestimmten Bereichs mit anpassbaren Optionen für verschiedene Anwendungen",
+  "form": {
+    "labels": {
+      "minValue": "Mindestwert",
+      "maxValue": "Maximaler Wert",
+      "count": "Wie viele Zahlen?",
+      "allowDuplicates": "Duplikate zulassen?",
+      "numberType": "Nummerntyp",
+      "decimalPlaces": "Dezimalstellen"
+    },
+    "placeholders": {
+      "minValue": "Geben Sie den Mindestwert ein",
+      "maxValue": "Maximalwert eingeben",
+      "count": "Wie viele Zahlen sollen generiert werden?",
+      "decimalPlaces": "Geben Sie die Anzahl der Dezimalstellen ein"
+    },
+    "buttons": {
+      "generate": "Generieren Sie Zufallszahlen",
+      "reset": "Zurücksetzen",
+      "calculate": "Berechnen Sie den Zufallszahlengenerator"
+    },
+    "numberTypes": {
+      "integer": "Ganze Zahl",
+      "decimal": "Dezimal"
+    },
+    "yesNo": {
+      "yes": "Ja",
+      "no": "NEIN"
+    }
+  },
+  "results": {
+    "generatedNumbers": "Generierte Zahlen",
+    "range": "Reichweite",
+    "count": "Zählen",
+    "randomResultsTitle": "Ergebnisse zu Zufallszahlen",
+    "statistics": "Statistiken"
+  },
+  "educational": {
+    "randomInfo": "Informationen zu Zufallszahlen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Zusätzliche Ressourcen",
+    "randomApplications": {
+      "lottery": {
+        "title": "Lotterie und Spiele",
+        "description": "Generieren von Zufallszahlen für Lottoscheine und Glücksspiele"
+      },
+      "sampling": {
+        "title": "Statistische Stichprobenziehung",
+        "description": "Auswahl von Zufallsstichproben für Forschung und Umfragen"
+      },
+      "passwords": {
+        "title": "Passwortgenerierung",
+        "description": "Erstellen von Zufallszahlen für sichere Passwortkomponenten"
+      },
+      "simulation": {
+        "title": "Computersimulation",
+        "description": "Generieren von Zufallseingaben für Computermodelle und Simulationen"
+      }
+    },
+    "criticalWarningsList": {
+      "notTrulyRandom": "Dabei handelt es sich um Pseudozufallszahlen, die von Computeralgorithmen generiert werden",
+      "security": "Nicht für kryptografische oder sicherheitsrelevante Anwendungen verwenden"
+    },
+    "importantNotesList": [
+      "Pseudozufallszahlen eignen sich für die meisten allgemeinen Anwendungen",
+      "Verwenden Sie für kryptografische Zwecke spezielle Sicherheitstools",
+      "Die Qualität der Zufälligkeit hängt vom verwendeten Algorithmus ab",
+      "Berücksichtigen Sie bei der Auswahl von Nummernkreisen und Zählungen Ihre spezifischen Anforderungen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Parameter ein, um Zufallszahlen zu generieren",
+    "generatedMessage": "Ihre Zufallszahlen wurden unten generiert",
+    "assessmentResult": "Generierungsergebnis:",
+    "randomAnalysis": "Zufallszahlenanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Generator erzeugt mithilfe von Computeralgorithmen Pseudozufallszahlen. Diese Zahlen eignen sich für allgemeine Anwendungen, sollten jedoch nicht für kryptografische oder sicherheitsrelevante Zwecke verwendet werden, bei denen echte Zufälligkeit erforderlich ist."
+  },
+  "seekHelp": {
+    "title": "Zusätzliche Ressourcen",
+    "content": "Für Anwendungen, die echte Zufallszahlen oder kryptografische Sicherheit erfordern, sollten Sie die Verwendung spezieller Hardware-Zufallszahlengeneratoren in Betracht ziehen oder sich an Sicherheitsexperten wenden."
+  },
+  "errors": {
+    "minValue": "Bitte geben Sie einen gültigen Mindestwert ein",
+    "maxValue": "Bitte geben Sie einen gültigen Maximalwert ein",
+    "count": "Bitte geben Sie eine gültige Anzahl ein (1-1000)",
+    "decimalPlaces": "Bitte geben Sie eine gültige Anzahl an Dezimalstellen ein (0–10).",
+    "range": "Der Maximalwert muss größer als der Minimalwert sein"
+  },
+  "tooltips": {
+    "minValue": "Die niedrigste Zahl, die generiert werden kann",
+    "maxValue": "Die höchste Zahl, die generiert werden kann",
+    "count": "Wie viele Zufallszahlen generiert werden sollen",
+    "allowDuplicates": "Ob dieselbe Nummer mehrmals vorkommen kann",
+    "decimalPlaces": "Anzahl der Dezimalstellen für Dezimalzahlen"
+  },
+  "smart_calculator_0": "Intelligenter Rechner",
+  "random_number_generator_1": "Zufallszahlengenerator",
+  "random_number_generator_2": "Zufallszahlengenerator",
+  "generate_random_numbers_in_a_custom_range_with_or__3": "Generieren Sie sofort Zufallszahlen in einem benutzerdefinierten Bereich, mit oder ohne Wiederholungen.",
+  "random_number_generator_4": "Zufallszahlengenerator",
+  "set_your_range_and_options_5": "Legen Sie Ihr Sortiment und Ihre Optionen fest",
+  "minimum_value_6": "Mindestwert",
+  "maximum_value_7": "Maximaler Wert",
+  "how_many_numbers_8": "Wie viele Zahlen?",
+  "allow_repeats_9": "Wiederholungen zulassen",
+  "generate_10": "Erzeugen",
+  "result_11": "Ergebnis",
+  "set_your_range_and_click_12": "Stellen Sie Ihren Bereich ein und klicken Sie",
+  "generate_13": "Erzeugen",
+  "to_see_random_numbers_14": "um Zufallszahlen zu sehen.",
+  "how_to_use_this_generator_15": "Wie verwende ich diesen Generator?",
+  "k_1_16": "1",
+  "enter_the_minimum_and_maximum_values_for_your_rang_17": "Geben Sie die Mindest- und Höchstwerte für Ihren Bereich ein.",
+  "k_2_18": "2",
+  "enter_how_many_random_numbers_you_want_to_generate_19": "Geben Sie ein, wie viele Zufallszahlen Sie generieren möchten.",
+  "k_3_20": "3",
+  "choose_whether_to_allow_repeats_or_not_21": "Wählen Sie, ob Wiederholungen zugelassen werden sollen oder nicht.",
+  "k_4_22": "4",
+  "click_23": "Klicken",
+  "generate_24": "Erzeugen",
+  "to_see_your_random_numbers_instantly_25": "um Ihre Zufallszahlen sofort zu sehen."
+}

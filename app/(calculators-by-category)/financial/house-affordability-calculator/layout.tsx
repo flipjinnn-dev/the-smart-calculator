@@ -1,0 +1,70 @@
+import { headers } from "next/headers";
+import type { Metadata } from "next";
+import { getCanonicalUrl } from "@/lib/url-utils";
+
+// Multilingual SEO metadata for house-affordability-calculator
+const houseaffordabilitycalculatorMeta = {
+  en: {
+    title: "House Affordability Calculator – Income Online | TheSmartCalculator",
+    description: "Use the House Affordability Calculator to determine affordable house based on income and expenses. Accurate, free online tool for home buying planning.",
+    keywords: "house affordability calculator, affordable house, income expenses, online affordability, home buying, planning tool, free house calculator, determine affordability"
+  },
+  br: {
+    title: "Finanzrechner – Online Tools für Ihre Finanzplanung",
+    description: "Mit dem Finanzrechner analysieren Sie Kredite, Anlagen und Haushaltsbudget. Der Finanzrechner bietet schnelle Online-Berechnungen für Ihre Finanzen.",
+    keywords: "finanzrechner, affordable haus, einkommen ausgaben, online affordabilität, hauskauf, planung tool, kostenloser haus rechner, affordabilität bestimmen"
+  },
+  pl: {
+    title: "Calculadora Acessibilidade Habitação – Simule Financiamento",
+    description: "Use a Calculadora de Acessibilidade à Habitação para avaliar crédito e simular parcelas. Descubra se você pode financiar sua casa própria com precisão.",
+    keywords: "calculadora acessibilidade habitação, casa afford, renda despesas, online acessibilidade, compra casa, ferramenta planejamento, gratuita calculadora, determinar acessibilidade"
+  },
+  de: {
+    title: "Kalkulator Dostępności Domu – Dochód Online | TheSmartCalculator",
+    description: "Użyj kalkulatora dostępności domu, aby określić affordalny dom na podstawie dochodu i wydatków. Dokładne, darmowe narzędzie do planowania kupna domu.",
+    keywords: "house affordability rechner, affordable house, income expenses, online affordability, home buying, planning tool, kostenlos house rechner, determine affordability"
+  }
+};
+
+export async function generateMetadata(): Promise<Metadata> {
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language =
+    langHeader && houseaffordabilitycalculatorMeta[langHeader as keyof typeof houseaffordabilitycalculatorMeta]
+      ? langHeader
+      : "en";
+
+  const meta = houseaffordabilitycalculatorMeta[language as keyof typeof houseaffordabilitycalculatorMeta];
+  
+  // Generate correct canonical URL using localized slug
+  const canonicalUrl = getCanonicalUrl('house-affordability-calculator', language);
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        'en': getCanonicalUrl('house-affordability-calculator', 'en'),
+        'pt-BR': getCanonicalUrl('house-affordability-calculator', 'br'),
+        'pl': getCanonicalUrl('house-affordability-calculator', 'pl'),
+        'de': getCanonicalUrl('house-affordability-calculator', 'de'),
+      }
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "website",
+      url: canonicalUrl,
+    },
+  };
+}
+
+export default async function HouseAffordabilityCalculatorLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <>{children}</>;
+}

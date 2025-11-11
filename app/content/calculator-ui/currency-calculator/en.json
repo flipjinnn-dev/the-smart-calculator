@@ -1,0 +1,103 @@
+{
+  "pageTitle": "Currency Calculator",
+  "pageDescription": "Convert between different currencies with real-time rates",
+  "form": {
+    "labels": {
+      "amount": "Amount",
+      "fromCurrency": "From Currency",
+      "toCurrency": "To Currency"
+    },
+    "placeholders": {
+      "amount": "Enter amount to convert"
+    },
+    "buttons": {
+      "calculate": "Convert Currency",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "convertedAmount": "Converted Amount",
+    "exchangeRate": "Exchange Rate",
+    "lastUpdated": "Last Updated",
+    "calculationDetails": "Currency Conversion Results"
+  },
+  "educational": {
+    "info": "Currency  Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "Currency  Definition",
+        "description": "Information about currency "
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How currency  is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of currency "
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides currency  estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate currency ",
+    "resultMessage": "Your currency  calculation results are shown below",
+    "assessmentResult": "Currency  Calculation Result:",
+    "analysis": "Currency  Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides currency  estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  },
+  "last_updated_0": "Last updated:",
+  "currency_converter_1": "Currency Converter",
+  "enter_amount_and_select_currencies_to_convert_2": "Enter amount and select currencies to convert",
+  "amount_3": "Amount",
+  "from_currency_4": "From Currency",
+  "to_currency_5": "To Currency",
+  "conversion_result_6": "Conversion Result",
+  "realtime_currency_conversion_details_7": "Real-time currency conversion details",
+  "converted_amount_8": "Converted Amount",
+  "exchange_rate_details_9": "Exchange Rate Details",
+  "exchange_rate_10": "Exchange Rate:",
+  "k_1_11": "1",
+  "inverse_rate_12": "Inverse Rate:",
+  "k_1_13": "1",
+  "note_14": "Note:",
+  "exchange_rates_are_updated_regularly_but_may_not_r_15": "Exchange rates are updated regularly but may not reflect real-time\n                          market rates. For actual transactions, please check with your bank or financial institution\n                          for current rates.",
+  "popular_currency_pairs_16": "Popular Currency Pairs",
+  "realtime_exchange_rates_for_popular_currency_pairs_17": "Real-time exchange rates for popular currency pairs",
+  "k_1_18": "1",
+  "supported_currencies_19": "Supported Currencies",
+  "we_support_20": "We support",
+  "major_world_currencies_21": "major world currencies",
+  "and_22": "And",
+  "more_currencies_23": "more currencies..."
+}

@@ -1,0 +1,108 @@
+{
+  "pageTitle": "Calculadora de erro percentual",
+  "pageDescription": "Calcule o erro percentual entre um valor estimado e o valor real",
+  "form": {
+    "labels": {
+      "estimatedValue": "Valor estimado",
+      "actualValue": "Valor real"
+    },
+    "placeholders": {
+      "estimatedValue": "Insira seu valor estimado",
+      "actualValue": "Insira o valor real"
+    },
+    "buttons": {
+      "calculate": "Calcular erro percentual",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "percentageError": "Erro percentual",
+    "absoluteError": "Erro Absoluto",
+    "relativeError": "Erro relativo",
+    "formula": "Fórmula usada",
+    "calculation": "Detalhes do cálculo"
+  },
+  "educational": {
+    "errorInfo": "Informações de erro percentual",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos Matemáticos",
+    "errorFacts": {
+      "definition": {
+        "title": "Definição de erro percentual",
+        "description": "O erro percentual mede a discrepância entre um valor estimado e o valor real como uma porcentagem"
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "Erro percentual = (|Valor estimado - Valor real| / Valor real) × 100%"
+      },
+      "applications": {
+        "title": "Aplicativos do mundo real",
+        "description": "Usado em experimentos científicos, medições de engenharia e controle de qualidade para avaliar a precisão"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas cálculos de erro percentual",
+      "actual": "O erro real pode variar com base na precisão e metodologia da medição"
+    },
+    "importantNotesList": [
+      "O erro percentual é sempre expresso como um valor positivo",
+      "Um erro percentual menor indica maior precisão",
+      "O valor real não deve ser zero para evitar a divisão por zero",
+      "Os resultados ajudam a avaliar a confiabilidade das medições ou estimativas"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira seus valores estimados e reais para calcular o erro percentual",
+    "resultMessage": "Os resultados do cálculo do erro percentual são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do erro percentual:",
+    "errorAnalysis": "Análise de Erros"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece cálculos de erro percentual com base em fórmulas matemáticas padrão. Os valores reais de erro podem variar com base na precisão da medição, metodologia e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos Matemáticos",
+    "content": "Para análise avançada de erros e métodos estatísticos, consulte livros didáticos de matemática ou recursos acadêmicos sobre análise numérica e teoria de medição."
+  },
+  "errors": {
+    "estimatedValue": "Insira um valor estimado válido",
+    "actualValue": "Insira um valor real válido",
+    "zeroActual": "O valor real não pode ser zero"
+  },
+  "tooltips": {
+    "estimatedValue": "O valor que você estimou ou calculou",
+    "actualValue": "O valor verdadeiro ou aceito para comparação"
+  },
+  "smart_calculator_0": "Calculadora Inteligente",
+  "percent_error_calculator_1": "Calculadora de erro percentual",
+  "percent_error_calculator_2": "Calculadora de erro percentual",
+  "calculate_the_percent_error_between_a_measured_val_3": "Calcule o erro percentual entre um valor medido e um valor real instantaneamente.",
+  "percent_error_calculator_4": "Calculadora de erro percentual",
+  "enter_measured_and_actual_values_5": "Insira valores medidos e reais",
+  "measured_value_6": "Valor medido",
+  "actual_value_7": "Valor real",
+  "calculate_8": "Calcular",
+  "result_9": "Resultado",
+  "percent_error_10": "Erro percentual =",
+  "formula_11": "Fórmula:",
+  "percent_error_vobserved_vtrue_vtrue_100_12": "Erro percentual = (Vobservado - Vtrue) / Vtrue × 100",
+  "observed_value_13": "Valor observado:",
+  "true_value_14": "Valor verdadeiro:",
+  "percent_error_absolute_15": "Erro percentual (absoluto):",
+  "error_16": "% de erro",
+  "enter_values_and_click_17": "Insira os valores e clique",
+  "calculate_18": "Calcular",
+  "to_see_percent_error_19": "para ver o erro percentual.",
+  "how_to_use_this_calculator_20": "Como usar esta calculadora?",
+  "k_1_21": "1",
+  "enter_the_measured_value_22": "Insira o valor medido.",
+  "k_2_23": "2",
+  "enter_the_actual_true_value_24": "Insira o valor real (verdadeiro).",
+  "k_3_25": "3",
+  "click_26": "Clique",
+  "calculate_27": "Calcular",
+  "to_see_the_percent_error_instantly_28": "para ver o erro percentual instantaneamente."
+}

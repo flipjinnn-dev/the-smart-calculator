@@ -1,0 +1,127 @@
+{
+  "pageTitle": "Kalkulator ciąży",
+  "pageDescription": "Oszacuj harmonogram ciąży na podstawie terminu porodu, ostatniej miesiączki, badania USG, poczęcia lub daty transferu IVF",
+  "form": {
+    "labels": {
+      "calculationMethod": "Metoda obliczeniowa",
+      "lastPeriod": "Pierwszy dzień ostatniej miesiączki",
+      "dueDate": "Oczekiwany termin płatności",
+      "conceptionDate": "Data poczęcia",
+      "ivfTransferDate": "Data transferu zarodków IVF",
+      "cycleLength": "Średnia długość cyklu miesiączkowego",
+      "ultrasoundDate": "Data USG",
+      "crlMeasurement": "Pomiar długości korony i zadu (CRL)."
+    },
+    "placeholders": {
+      "cycleLength": "Wprowadź długość cyklu w dniach (domyślnie: 28)"
+    },
+    "buttons": {
+      "calculate": "Oblicz daty ciąży",
+      "reset": "Nastawić"
+    },
+    "calculationMethods": {
+      "lastPeriod": "Ostatnia miesiączka",
+      "dueDate": "Termin",
+      "conception": "Data poczęcia",
+      "ivf": "Transfer zarodków IVF",
+      "ultrasound": "Randki USG"
+    }
+  },
+  "results": {
+    "dueDate": "Oczekiwany termin płatności",
+    "conceptionDate": "Szacowana data poczęcia",
+    "pregnancyWeek": "Bieżący tydzień ciąży",
+    "babyDevelopment": "Rozwój Dziecka",
+    "pregnancyResultsTitle": "Wyniki ciąży",
+    "trimesters": {
+      "first": "Pierwszy trymestr",
+      "second": "Drugi trymestr",
+      "third": "Trzeci trymestr"
+    }
+  },
+  "educational": {
+    "pregnancyInfo": "Informacje o ciąży",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się z dostawcą usług medycznych",
+    "pregnancyStages": {
+      "firstTrimester": {
+        "title": "Pierwszy trymestr (tygodnie 1-12)",
+        "description": "W tym okresie następuje rozwój najważniejszych narządów"
+      },
+      "secondTrimester": {
+        "title": "Drugi trymestr (tygodnie 13-26)",
+        "description": "W tym okresie zazwyczaj można wyczuć ruchy dziecka"
+      },
+      "thirdTrimester": {
+        "title": "Trzeci trymestr (tygodnie 27-40)",
+        "description": "Szybki wzrost i rozwój w przygotowaniu do porodu"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten służy jedynie do szacunków i nie jest narzędziem diagnostycznym",
+      "individualVariation": "Terminy ciąży różnią się w zależności od czynników indywidualnych"
+    },
+    "importantNotesList": [
+      "Termin porodu jest szacunkowy – tylko 5% dzieci rodzi się dokładnie w wyznaczonym terminie",
+      "Datowanie ultradźwiękowe może być dokładniejsze we wczesnej ciąży",
+      "Skonsultuj się ze swoim lekarzem, aby uzyskać spersonalizowane informacje na temat ciąży",
+      "Regularna opieka prenatalna jest niezbędna dla zdrowej ciąży"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje o ciąży, aby obliczyć ważne daty",
+    "pregnancyWeek": "Obecnie jesteś w {tygodniu} ciąży",
+    "trimesterInfo": "To jest trymestr {trymestru}",
+    "assessmentResult": "Wynik oceny:",
+    "pregnancyAnalysis": "Analiza ciąży"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki oparte na ogólnych informacjach o ciąży i nie powinien zastępować profesjonalnej porady lekarskiej. Poszczególne terminy ciąży mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się ze swoim dostawcą usług medycznych",
+    "content": "W celu uzyskania dokładnego datowania ciąży i spersonalizowanej opieki prenatalnej należy skonsultować się ze swoim lekarzem, który może udzielić wskazówek w oparciu o pełną historię choroby i indywidualną sytuację."
+  },
+  "errors": {
+    "method": "Wybierz metodę obliczeń",
+    "lastPeriod": "Proszę wpisać pierwszy dzień ostatniej miesiączki",
+    "dueDate": "Proszę wpisać przewidywany termin",
+    "conceptionDate": "Proszę podać datę poczęcia",
+    "ivfTransferDate": "Proszę podać datę transferu zarodków metodą IVF",
+    "ultrasoundDate": "Proszę wpisać datę USG",
+    "crlMeasurement": "Proszę podać długość korony i zadu"
+  },
+  "tooltips": {
+    "calculationMethod": "Wybierz metodę, która najlepiej pasuje do Twojej sytuacji",
+    "lastPeriod": "Pierwszy dzień ostatniej miesiączki",
+    "cycleLength": "Twoja średnia długość cyklu miesiączkowego w dniach",
+    "crlMeasurement": "Pomiar od czubka głowy dziecka do dołu"
+  },
+  "pregnancy_calculator_0": "Kalkulator ciąży",
+  "modify_the_values_and_click_the_calculate_button_t_1": "Zmodyfikuj wartości i kliknij przycisk Oblicz, aby ich użyć",
+  "calculate_on_2": "Oblicz dalej",
+  "your_date_3": "Twoja randka",
+  "calculate_4": "Obliczać",
+  "pregnancy_info_5": "Informacje o ciąży",
+  "your_pregnancy_schedule_breakdown_6": "Twój rozkład harmonogramu ciąży",
+  "due_date_7": "Termin:",
+  "conception_date_8": "Data poczęcia:",
+  "last_period_date_9": "Data ostatniego okresu:",
+  "weeks_pregnant_10": "Tygodnie ciąży:",
+  "days_pregnant_11": "Dni w ciąży:",
+  "trimester_12": "Trymestr:",
+  "enter_your_date_and_click_calculate_see_your_pregn_13": "Wpisz datę i kliknij Oblicz, aby zobaczyć harmonogram ciąży",
+  "how_pregnancy_is_calculated_14": "Jak obliczana jest ciąża?",
+  "the_pregnancy_calculator_estimates_your_pregnancy__15": "Kalkulator ciąży szacuje harmonogram ciąży na podstawie podanej daty i metody. Wykorzystuje standardowe formuły medyczne do obliczania daty porodu, poczęcia i trymestru. Zawsze skonsultuj się z lekarzem w celu uzyskania spersonalizowanej porady.",
+  "due_date_16": "Termin",
+  "the_estimated_date_when_your_baby_is_due_calculate_17": "Przewidywana data porodu. Obliczane na podstawie wybranej metody i daty wprowadzenia.",
+  "trimester_18": "Trymestr",
+  "pregnancy_is_divided_into_three_trimesters_the_cal_19": "Ciąża dzieli się na trzy trymestry. Kalkulator pokazuje, w którym trymestrze aktualnie się znajdujesz.",
+  "weeks_pregnant_20": "Tygodnie ciąży",
+  "the_number_of_weeks_you_have_been_pregnant_calcula_21": "Liczba tygodni ciąży, liczona od daty rozpoczęcia do dnia dzisiejszego.",
+  "important_22": "Ważny:",
+  "the_results_above_are_a_guideline_for_typical_situ_23": "Powyższe wyniki stanowią wytyczne dla typowych sytuacji. Jeśli masz specjalne schorzenia lub masz pytania, skonsultuj się z lekarzem w sprawie harmonogramu ciąży."
+}

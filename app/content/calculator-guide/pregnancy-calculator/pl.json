@@ -1,0 +1,125 @@
+{
+  "color": "różowy",
+  "sections": [
+    {
+      "heading": "Kalkulator ciąży online: Twój przewodnik po śledzeniu tygodni ciąży i terminu porodu",
+      "content": "Planowanie lub śledzenie ciąży może być zarówno ekscytujące, jak i przytłaczające. Kalkulator ciąży online to proste i niezawodne narzędzie do oszacowania tygodni ciąży, terminu porodu i kamieni milowych trymestru. Niezależnie od tego, czy chcesz poznać datę poczęcia, śledzić postęp po zapłodnieniu in vitro, czy po prostu poznać harmonogram ciąży, dzięki temu inteligentnemu narzędziu będzie to łatwe i dokładne."
+    },
+    {
+      "heading": "Jak działa kalkulator ciąży?",
+      "content": "Kalkulator terminu porodu wykorzystuje różne metody oszacowania harmonogramu ciąży:",
+      "subSections": [
+        {
+          "heading": "Metoda LMP (ostatnia miesiączka).",
+          "content": "Najczęściej stosowana metoda obliczania tygodni ciąży. Liczy się od pierwszego dnia ostatniej miesiączki i podaje szacunkową datę porodu z podziałem na trymestry."
+        },
+        {
+          "heading": "Metoda daty poczęcia",
+          "content": "Jeśli znasz dokładną datę poczęcia, ta metoda pozwala dokładnie obliczyć liczbę tygodni. Przydatny dla kobiet z nieregularnymi okresami lub dbających o płodność."
+        },
+        {
+          "heading": "Metoda ultradźwiękowa",
+          "content": "Oszacowuje wiek ciążowy na podstawie pomiarów płodu. Najdokładniejsze we wczesnej ciąży (pierwszy trymestr). Może zmienić termin porodu, jeśli daty LMP i USG znacznie się różnią."
+        },
+        {
+          "heading": "Metoda IVF (zapłodnienie in vitro).",
+          "content": "Oblicza tygodnie ciąży od daty transferu zarodka i zapewnia przejrzysty harmonogram monitorowania postępu ciąży IVF."
+        }
+      ]
+    },
+    {
+      "heading": "Zrozumienie tygodni i trymestrów ciąży",
+      "content": "Ciążę zazwyczaj dzieli się na trzy trymestry:",
+      "subSections": [
+        {
+          "heading": "Pierwszy trymestr (tygodnie 1–12)",
+          "content": "Wczesny rozwój, objawy początkowe i badania prenatalne."
+        },
+        {
+          "heading": "Drugi trymestr (tygodnie 13–26)",
+          "content": "Wzrost i ruch, skany anatomii i rutynowe kontrole."
+        },
+        {
+          "heading": "Trzeci trymestr (tygodnie 27–40)",
+          "content": "Ostateczny wzrost, przygotowanie porodu i planowanie dostaw."
+        }
+      ]
+    },
+    {
+      "heading": "Dokładność kalkulatorów ciąży",
+      "content": "Kalkulatory ciąży podają szacunkowe terminy porodu, a nie dokładne. Dokładność może się różnić w zależności od zastosowanej metody (LMP, USG lub IVF). Większość kalkulatorów jest dokładna w ciągu ± 1–2 tygodni. Nieregularne cykle, wielokrotności lub późna owulacja mogą wpływać na prognozy."
+    },
+    {
+      "heading": "Wskazówki dotyczące korzystania z kalkulatora ciąży",
+      "content": "Wykorzystaj w pełni śledzenie ciąży, korzystając z poniższych wskazówek:",
+      "subSections": [
+        {
+          "heading": "Skorzystaj z kalkulatora tygodni ciąży",
+          "content": "Z łatwością śledź bieżący tydzień ciąży."
+        },
+        {
+          "heading": "Śledzenie widoku kalendarza",
+          "content": "Użyj kalkulatora z widokiem kalendarza do wizualnego śledzenia postępów."
+        },
+        {
+          "heading": "Dla ciąż mnogich",
+          "content": "Użyj kalkulatora ciąży dla bliźniąt lub wielokrotności, aby uzyskać dostosowane wyniki."
+        },
+        {
+          "heading": "Spersonalizowane śledzenie",
+          "content": "Prowadź rejestr wizyt i wyników badań, korzystając z dostosowanego kalkulatora ciąży."
+        }
+      ]
+    },
+    {
+      "heading": "Zastrzeżenie medyczne",
+      "content": "Kalkulator ten służy wyłącznie celom informacyjnym. Nie zastępuje profesjonalnej porady lekarskiej. Zawsze skonsultuj się ze swoim położnikiem lub pracownikiem służby zdrowia, aby uzyskać spersonalizowane wskazówki i opiekę prenatalną."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak obliczyć tygodnie ciąży?",
+      "a": "Tygodnie ciąży liczy się od pierwszego dnia ostatniej miesiączki (LMP) lub daty poczęcia."
+    },
+    {
+      "q": "Jaki jest termin porodu?",
+      "a": "Twój termin porodu jest szacunkowy na podstawie daty LMP, USG lub transferu IVF i zwykle wynosi 40 tygodni od poczęcia."
+    },
+    {
+      "q": "Czy USG może określić tygodnie ciąży?",
+      "a": "Tak, wczesne badanie USG jest bardzo dokładne w ocenie wieku ciążowego, zwłaszcza w pierwszym trymestrze ciąży."
+    },
+    {
+      "q": "Jak dokładny jest kalkulator ciąży?",
+      "a": "Kalkulatory ciąży są zazwyczaj dokładne w ciągu 1–2 tygodni, ale czynniki takie jak nieregularne cykle lub wielokrotności mogą mieć wpływ na szacunki."
+    },
+    {
+      "q": "Obliczanie ciąży za pomocą LMP vs USG — co jest lepsze?",
+      "a": "Metoda LMP jest prosta, ale może być mniej dokładna w przypadku nieregularnych cykli. USG pozwala na dokładniejszą ocenę na początku ciąży."
+    },
+    {
+      "q": "Jak obliczyć ciążę przy nieregularnych okresach?",
+      "a": "Użyj daty poczęcia, jeśli jest znana, lub wczesnego USG, aby uzyskać dokładniejsze wyniki."
+    },
+    {
+      "q": "Kalkulator ciąży według transferu IVF – jak to działa?",
+      "a": "Oblicza wiek ciążowy na podstawie daty transferu zarodka zamiast LMP."
+    },
+    {
+      "q": "Dlaczego termin płatności jest jedynie szacunkowy?",
+      "a": "Długość ciąży jest zmienna, dlatego kalkulatory podają szacunkowe okno, a nie dokładną datę porodu."
+    },
+    {
+      "q": "Jak poznać datę poczęcia w ciąży?",
+      "a": "Śledź owulację lub użyj kalkulatora opartego na poczęciu, aby oszacować prawdopodobną datę."
+    },
+    {
+      "q": "Czy mogę śledzić moją ciążę online?",
+      "a": "Tak, narzędzia takie jak Inteligentny kalkulator ciąży Narzędzia i aplikacje pomagają monitorować postępy, kamienie milowe i trymestry."
+    }
+  ],
+  "cta": {
+    "heading": "Śledź swoją podróż w czasie ciąży już dziś",
+    "content": "Skorzystaj z naszego bezpłatnego kalkulatora ciąży, aby dokładnie oszacować termin porodu, tygodnie ciąży i trymestry. Bądź na bieżąco, planuj wizyty i pewnie śledź rozwój swojego dziecka!"
+  }
+}

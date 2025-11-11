@@ -1,0 +1,149 @@
+{
+  "color": "laranja",
+  "sections": [
+    {
+      "heading": "Calculadora de ingestão de gordura – Encontre sua ingestão diária recomendada de gordura",
+      "content": "Nossa calculadora de ingestão de gordura ajuda a determinar exatamente quanta gordura você deve comer por dia com base em sua idade, sexo, peso, nível de atividade e metas de condicionamento físico. Quer pretenda perder peso, construir músculos ou simplesmente manter uma dieta equilibrada, esta ferramenta dá-lhe uma recomendação personalizada para a ingestão saudável de gordura. Ao contrário dos conselhos genéricos, nossa Calculadora Diária de Ingestão de Gordura usa suas necessidades calóricas para estimar a porcentagem correta de calorias provenientes de gordura - alinhada com as diretrizes dietéticas da OMS e do USDA."
+    },
+    {
+      "heading": "O que é ingestão de gordura e por que é importante?",
+      "subSections": [
+        {
+          "heading": "Definição",
+          "content": "A gordura dietética é um dos três macronutrientes essenciais (juntamente com proteínas e carboidratos). Desempenha um papel vital no fornecimento de energia e no apoio ao metabolismo, auxiliando na produção de hormônios e na absorção de vitaminas (A, D, E, K), protegendo a saúde do cérebro e do coração e apoiando o crescimento e reparo celular."
+        },
+        {
+          "heading": "Equilíbrio",
+          "content": "A ingestão equilibrada de gordura é essencial – muito pouco pode prejudicar os hormônios e os níveis de energia, enquanto muito pode levar ao ganho de peso e doenças cardíacas."
+        }
+      ]
+    },
+    {
+      "heading": "Como funciona nossa calculadora de ingestão de gordura",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "A calculadora estima a ingestão recomendada de gordura analisando as necessidades calóricas totais (com base na TMB + nível de atividade)."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Aplica diretrizes dietéticas (20–35% das calorias diárias provenientes de gordura, de acordo com o USDA/OMS)."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Ele ajusta a ingestão de gordura para metas de condicionamento físico, como perda de peso, manutenção ou ganho muscular."
+        },
+        {
+          "heading": "Exemplo",
+          "content": "Se você precisa de 2.000 calorias/dia, 25% de gordura = 55 g de gordura por dia."
+        }
+      ]
+    },
+    {
+      "heading": "Ingestão diária recomendada de gordura por idade, sexo e atividade",
+      "content": "Mulheres sedentárias (2.000 kcal) → 44–78 g de gordura/dia\nMulheres ativas (2.400 kcal) → 53–93 g de gordura/dia\nHomens sedentários (2.500 kcal) → 55–97 g de gordura/dia\nHomens ativos (3.000 kcal) → 67–117 g de gordura/dia"
+    },
+    {
+      "heading": "Ingestão de gordura para perda de peso versus ganho muscular",
+      "subSections": [
+        {
+          "heading": "Perda de peso",
+          "content": "Reduza a ingestão de gordura (20–25% das calorias), priorizando proteínas."
+        },
+        {
+          "heading": "Ganho muscular",
+          "content": "Gordura moderada (25–30% das calorias) para apoiar os hormônios e a recuperação."
+        },
+        {
+          "heading": "Manutenção",
+          "content": "Ingestão equilibrada (25–35% das calorias) dependendo das necessidades energéticas."
+        }
+      ]
+    },
+    {
+      "heading": "Gorduras saudáveis ​​versus gorduras não saudáveis",
+      "subSections": [
+        {
+          "heading": "Gorduras Saudáveis",
+          "content": "Gorduras monoinsaturadas (azeite, abacate, nozes); Gorduras poliinsaturadas (ômega-3 e ômega-6 de peixe, linhaça, nozes)."
+        },
+        {
+          "heading": "Limitar gorduras prejudiciais à saúde",
+          "content": "Gorduras saturadas (manteiga, carnes gordurosas – consumir com moderação); Gorduras trans (alimentos processados, frituras – evite completamente)."
+        }
+      ]
+    },
+    {
+      "heading": "Diretrizes para ingestão de gordura da OMS e USDA",
+      "subSections": [
+        {
+          "heading": "QUEM",
+          "content": "20–35% das calorias diárias provenientes de gordura, <10% de gordura saturada."
+        },
+        {
+          "heading": "USDA",
+          "content": "20–35% de gordura total, <10% de gordura saturada, evite totalmente as gorduras trans."
+        }
+      ]
+    },
+    {
+      "heading": "Ferramentas relacionadas para uma melhor nutrição",
+      "subSections": [
+        {
+          "heading": "Calculadora de IMC",
+          "content": "Verifique sua faixa de peso saudável."
+        },
+        {
+          "heading": "Calculadora de ingestão de proteínas",
+          "content": "Estimar proteína para crescimento e recuperação muscular."
+        },
+        {
+          "heading": "Calculadora de peso saudável",
+          "content": "Acompanhe as metas de controle de peso a longo prazo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quanta gordura devo comer por dia?",
+      "a": "A maioria dos adultos deve obter 20–35% das calorias diárias provenientes de gordura, o que equivale a cerca de 44–77 g por dia em uma dieta de 2.000 calorias."
+    },
+    {
+      "q": "Qual é a ingestão recomendada de gordura para perda de peso?",
+      "a": "Para perda de peso, procure consumir 20-25% de calorias provenientes de gordura, mantendo um alto teor de proteínas para preservar os músculos."
+    },
+    {
+      "q": "Como calcular a ingestão de gordura a partir de calorias?",
+      "a": "Multiplique suas calorias diárias por 0,20–0,35 e depois divida por 9 (calorias por grama de gordura)."
+    },
+    {
+      "q": "Qual é a diferença entre gorduras saudáveis ​​e não saudáveis?",
+      "a": "As gorduras saudáveis ​​são insaturadas (azeite, peixe). As gorduras prejudiciais à saúde incluem gorduras trans e excesso de gordura saturada."
+    },
+    {
+      "q": "Quanta gordura saturada por dia é segura?",
+      "a": "Menos de 10% das calorias diárias (cerca de 20 g para uma dieta de 2.000 calorias)."
+    },
+    {
+      "q": "A ingestão de gordura é diferente para homens e mulheres?",
+      "a": "Sim. Os homens muitas vezes precisam de mais gordura devido às maiores necessidades calóricas, mas a porcentagem de calorias provenientes da gordura é semelhante."
+    },
+    {
+      "q": "Posso usar esta calculadora para planejar uma dieta cetônica?",
+      "a": "Sim. A Dieta Keto normalmente usa 70-75% de calorias provenientes de gordura, então esta ferramenta ajuda a estimar seus gramas de gordura."
+    },
+    {
+      "q": "Como calcular a ingestão de gordura com base no nível de atividade?",
+      "a": "Mais atividade → maiores necessidades calóricas → ingestão proporcionalmente maior de gordura (mantendo 20–35%)."
+    },
+    {
+      "q": "O que acontece se eu comer pouca gordura?",
+      "a": "Pouca gordura pode causar desequilíbrio hormonal, fadiga, deficiências nutricionais e confusão mental."
+    },
+    {
+      "q": "Como equilibrar a ingestão de gordura com proteínas e carboidratos?",
+      "a": "Siga as divisões de macronutrientes: Proteína 25–30%, Gordura 20–35%, Carboidratos 40–55% (ajuste de acordo com as metas)."
+    }
+  ]
+}

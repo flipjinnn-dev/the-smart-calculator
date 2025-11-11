@@ -1,0 +1,221 @@
+{
+  "pageTitle": "Kalkulator węglowodanów",
+  "pageDescription": "Oblicz swoje dzienne zapotrzebowanie na węglowodany w oparciu o poziom aktywności, cele i wymagania dietetyczne, aby zapewnić optymalne zdrowie i wydajność",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "weight": "Waga",
+      "height": "Wysokość",
+      "unitSystem": "Układ jednostek",
+      "activityLevel": "Poziom aktywności",
+      "goal": "Cel dietetyczny",
+      "dietType": "Rodzaj diety"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz węglowodany",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Siedzący tryb życia (mało ćwiczeń lub brak ćwiczeń)",
+      "light": "Lekko aktywny (lekkie ćwiczenia 1-3 dni w tygodniu)",
+      "moderate": "Umiarkowanie aktywny (umiarkowane ćwiczenia 3-5 dni w tygodniu)",
+      "active": "Bardzo aktywny (ciężkie ćwiczenia 6-7 dni w tygodniu)",
+      "veryActive": "Niezwykle aktywny (bardzo ciężkie ćwiczenia i praca fizyczna)"
+    },
+    "goals": {
+      "maintenance": "Utrzymanie wagi",
+      "lose": "Utrata wagi",
+      "gain": "Przyrost masy ciała",
+      "athletic": "Wydajność sportowa"
+    },
+    "dietTypes": {
+      "balanced": "Zrównoważona dieta (45-65% węglowodanów)",
+      "lowCarb": "Niska zawartość węglowodanów (20-40% węglowodanów)",
+      "keto": "Ketogenny (5-10% węglowodanów)",
+      "highCarb": "Wysoka zawartość węglowodanów (60-80% węglowodanów)"
+    }
+  },
+  "results": {
+    "carbNeeds": "Dzienne zapotrzebowanie na węglowodany",
+    "caloriesFromCarbs": "Kalorie z węglowodanów",
+    "carbRange": "Zalecany zakres węglowodanów",
+    "carbResultsTitle": "Wyniki węglowodanów"
+  },
+  "educational": {
+    "carbInfo": "Informacje o węglowodanach",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby odżywcze",
+    "carbFacts": {
+      "function": {
+        "title": "Funkcja węglowodanów",
+        "description": "Podstawowe źródło energii dla mózgu i mięśni, szczególnie podczas ćwiczeń"
+      },
+      "types": {
+        "title": "Rodzaje węglowodanów",
+        "description": "Węglowodany proste (cukry) i węglowodany złożone (skrobia i błonnik)"
+      },
+      "recommendations": {
+        "title": "Zalecenia dietetyczne",
+        "description": "45-65% całkowitego dziennego spożycia kalorii powinno pochodzić z węglowodanów"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator podaje jedynie szacunkowe wartości odżywcze",
+      "individual": "Zapotrzebowanie na węglowodany różni się w zależności od czynników indywidualnych i stanu zdrowia"
+    },
+    "importantNotesList": [
+      "Węglowodany złożone są na ogół preferowane w stosunku do cukrów prostych",
+      "Sportowcy mogą wymagać większego spożycia węglowodanów, aby osiągnąć wyniki",
+      "Indywidualna tolerancja węglowodanów jest różna",
+      "Przy obliczaniu węglowodanów netto należy wziąć pod uwagę zawartość błonnika"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź swoje dane, aby obliczyć zapotrzebowanie na węglowodany",
+    "resultMessage": "Poniżej przedstawiono dzienne zapotrzebowanie na węglowodany",
+    "assessmentResult": "Wynik obliczenia węglowodanów:",
+    "carbAnalysis": "Analiza węglowodanów"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten podaje szacunkowe spożycie węglowodanów w oparciu o ogólne wytyczne żywieniowe. Indywidualne potrzeby mogą się różnić w zależności od stanu zdrowia, stosowanych leków i specyficznych wymagań dietetycznych."
+  },
+  "seekHelp": {
+    "title": "Zasoby odżywcze",
+    "content": "Aby uzyskać spersonalizowane porady żywieniowe i zaplanować dietę, skonsultuj się z zarejestrowanymi dietetykami lub pracownikami służby zdrowia posiadającymi wiedzę z zakresu nauk o żywieniu i indywidualnych potrzeb zdrowotnych."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "activityLevel": "Proszę wybrać poziom aktywności",
+    "goal": "Wybierz cel dietetyczny",
+    "dietType": "Proszę wybrać rodzaj diety"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na tempo metabolizmu i potrzeby żywieniowe",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "activityLevel": "Twój regularny poziom aktywności wpływa na zapotrzebowanie energetyczne",
+    "goal": "Twój cel dietetyczny determinuje dystrybucję makroskładników odżywczych",
+    "dietType": "Wybrany rodzaj diety wpływa na zalecenia dotyczące węglowodanów"
+  },
+  "carbohydrate_calculation_0": "Obliczanie węglowodanów",
+  "enter_your_details_to_calculate_daily_carbohydrate_1": "Wprowadź swoje dane, aby obliczyć dzienne zapotrzebowanie na węglowodany",
+  "unit_system_2": "Układ jednostek",
+  "us_ftin_lbs_3": "USA (ft/cal, funty)",
+  "metric_cm_kg_4": "Metryczne (cm, kg)",
+  "age_years_5": "Wiek (lata)",
+  "gender_6": "Płeć",
+  "male_7": "Mężczyzna",
+  "female_8": "Kobieta",
+  "height_9": "Wysokość",
+  "ft_10": "stopy",
+  "in_11": "W",
+  "height_cm_12": "Wysokość (cm)",
+  "weight_13": "Waga (",
+  "activity_level_14": "Poziom aktywności",
+  "bmr_formula_15": "Formuła BMR",
+  "mifflinst_jeor_recommended_16": "Mifflin-St Jeor (zalecane)",
+  "most_accurate_for_general_population_17": "Najdokładniejsze dla ogółu populacji",
+  "katchmcardle_18": "Katch-McArdle",
+  "more_accurate_if_body_fat_is_known_19": "Bardziej dokładne, jeśli znany jest procent tkanki tłuszczowej",
+  "body_fat_percentage_20": "Procent tkanki tłuszczowej (%)",
+  "calculate_21": "Obliczać",
+  "reset_22": "Nastawić",
+  "daily_carbs_23": "Codzienne węglowodany",
+  "g_24": "g",
+  "g_per_kg_body_weight_25": "g na kg masy ciała",
+  "enter_your_details_to_calculate_daily_carbohydrate_26": "Wprowadź swoje dane, aby obliczyć dzienne zapotrzebowanie na węglowodany.",
+  "your_carbohydrate_requirements_27": "Twoje zapotrzebowanie na węglowodany",
+  "daily_carbohydrate_needs_28": "Dzienne zapotrzebowanie na węglowodany",
+  "g_29": "g",
+  "target_carbs_30": "Docelowe węglowodany",
+  "gkg_31": "g/kg",
+  "per_body_weight_32": "Na masę ciała",
+  "carb_calories_33": "Kalorie węglowodanów",
+  "of_total_calories_34": "Całkowitej Kalorii",
+  "range_35": "Zakres:",
+  "g_36": "G -",
+  "g_37": "g",
+  "per_day_38": "za dzień",
+  "calculation_details_39": "Szczegóły obliczeń",
+  "metabolic_calculations_40": "Obliczenia metaboliczne",
+  "bmr_41": "BMR:",
+  "caloriesday_42": "kalorii/dzień",
+  "tdee_43": "TDEE:",
+  "caloriesday_44": "kalorii/dzień",
+  "activity_level_45": "Poziom aktywności:",
+  "formula_used_46": "Zastosowana formuła:",
+  "carbohydrate_breakdown_47": "Rozkład węglowodanów",
+  "carb_calories_48": "Kalorie węglowodanów:",
+  "of_tdee_49": "% TDEE)",
+  "carb_grams_50": "Gram węglowodanów:",
+  "g_4_calg_51": "g (÷4 kal/g)",
+  "per_kg_body_weight_52": "Na kg masy ciała:",
+  "gkg_53": "g/kg",
+  "recommended_range_54": "Zalecany zakres:",
+  "g_55": "G -",
+  "g_56": "g",
+  "carbohydrate_guidelines_57": "Wytyczne dotyczące węglowodanów",
+  "carbohydrate_recommendations_58": "Zalecenia dotyczące węglowodanów",
+  "activity_level_59": "Poziom aktywności",
+  "of_calories_60": "% kalorii",
+  "gkg_body_weight_61": "g/kg Masa ciała",
+  "sedentary_62": "Siedzący",
+  "k_4550_63": "45-50%",
+  "k_35gkg_64": "3-5g/kg",
+  "light_activity_65": "Lekka aktywność",
+  "k_5055_66": "50-55%",
+  "k_57gkg_67": "5-7g/kg",
+  "moderate_activity_68": "Umiarkowana aktywność",
+  "k_5560_69": "55-60%",
+  "k_68gkg_70": "6-8g/kg",
+  "high_activity_71": "Wysoka aktywność",
+  "k_6070_72": "60-70%",
+  "k_812gkg_73": "8-12g/kg",
+  "bmr_formulas_74": "Formuły BMR",
+  "mifflinst_jeor_recommended_75": "Mifflin-St Jeor (zalecane)",
+  "most_accurate_for_general_population_accounts_for__76": "Najdokładniejsze dla populacji ogólnej, uwzględnia różnice między płciami",
+  "katchmcardle_77": "Katch-McArdle",
+  "more_accurate_when_body_fat_percentage_is_known_ba_78": "Bardziej dokładne, gdy znany jest procent tkanki tłuszczowej w oparciu o beztłuszczową masę ciała",
+  "carbohydrate_types_79": "Rodzaje węglowodanów",
+  "complex_carbs_80": "Węglowodany złożone:",
+  "whole_grains_vegetables_legumes_81": "Całe ziarna, warzywa, rośliny strączkowe",
+  "simple_carbs_82": "Proste węglowodany:",
+  "fruits_dairy_refined_sugars_83": "Owoce, nabiał, rafinowane cukry",
+  "fiber_84": "Błonnik:",
+  "k_2535g_daily_for_digestive_health_85": "25-35 g dziennie dla zdrowia układu trawiennego",
+  "timing_86": "Chronometraż:",
+  "prepost_workout_for_performance_87": "Przed/po treningu dla wydajności",
+  "activity_multipliers_88": "Mnożniki aktywności",
+  "sedentary_89": "Siedzący:",
+  "k_12x_bmr_desk_job_no_exercise_90": "1,2x BMR (praca przy biurku, bez ćwiczeń)",
+  "light_91": "Światło:",
+  "k_1375x_bmr_light_exercise_13week_92": "1,375x BMR (lekkie ćwiczenia 1-3×/tydz.)",
+  "moderate_93": "Umiarkowany:",
+  "k_155x_bmr_moderate_exercise_45week_94": "1,55x BMR (umiarkowane ćwiczenia 4-5×/tydz.)",
+  "active_95": "Aktywny:",
+  "k_1725x_bmr_heavy_exercise_daily_96": "1,725x BMR (codzienne ciężkie ćwiczenia)",
+  "very_active_97": "Bardzo aktywny:",
+  "k_19x_bmr_very_heavy_exercise_98": "1,9x BMR (bardzo ciężki wysiłek)",
+  "extra_active_99": "Ekstra aktywny:",
+  "k_20x_bmr_physical_job_exercise_100": "2,0x BMR (praca fizyczna + ćwiczenia)"
+}

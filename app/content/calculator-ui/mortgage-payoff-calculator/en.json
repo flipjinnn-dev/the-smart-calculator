@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Mortgage Payoff  Calculator",
+  "pageDescription": "Calculate mortgage payoff  with our free online calculator",
+  "form": {
+    "labels": {
+      "input1": "Input 1",
+      "input2": "Input 2",
+      "input3": "Input 3"
+    },
+    "placeholders": {
+      "input1": "Enter first value",
+      "input2": "Enter second value",
+      "input3": "Enter third value"
+    },
+    "buttons": {
+      "calculate": "Calculate Mortgage Payoff ",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "result1": "Result 1",
+    "result2": "Result 2",
+    "calculationDetails": "Mortgage Payoff  Calculation Results"
+  },
+  "educational": {
+    "info": "Mortgage Payoff  Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "Mortgage Payoff  Definition",
+        "description": "Information about mortgage payoff "
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How mortgage payoff  is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of mortgage payoff "
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides mortgage payoff  estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate mortgage payoff ",
+    "resultMessage": "Your mortgage payoff  calculation results are shown below",
+    "assessmentResult": "Mortgage Payoff  Calculation Result:",
+    "analysis": "Mortgage Payoff  Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides mortgage payoff  estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  },
+  "mortgage_payoff_calculator_0": "Mortgage Payoff Calculator",
+  "basic_loan_information_1": "Basic Loan Information",
+  "original_loan_amount_2": "Original Loan Amount ($)",
+  "the_original_amount_you_borrowed_3": "The original amount you borrowed",
+  "original_term_years_4": "Original Term (Years)",
+  "original_loan_term_in_years_5": "Original loan term in years",
+  "annual_interest_rate_6": "Annual Interest Rate (%)",
+  "your_mortgage_interest_rate_7": "Your mortgage interest rate",
+  "calculation_method_8": "Calculation Method",
+  "i_know_the_remaining_term_9": "I know the remaining term",
+  "i_know_the_unpaid_balance_and_monthly_payment_10": "I know the unpaid balance and monthly payment",
+  "remaining_years_11": "Remaining Years",
+  "remaining_months_optional_12": "Remaining Months (Optional)",
+  "unpaid_principal_13": "Unpaid Principal ($)",
+  "monthly_payment_14": "Monthly Payment ($)",
+  "extra_payment_options_15": "Extra Payment Options",
+  "onetime_extra_payment_16": "One-time Extra Payment ($)",
+  "monthly_extra_payment_17": "Monthly Extra Payment ($)",
+  "annual_extra_payment_18": "Annual Extra Payment ($)",
+  "switch_to_biweekly_payments_19": "Switch to biweekly payments",
+  "pay_half_your_monthly_payment_every_2_weeks_26_pay_20": "Pay half your monthly payment every 2 weeks (26 payments/year)",
+  "calculate_21": "Calculate",
+  "payoff_analysis_22": "Payoff Analysis",
+  "your_mortgage_payoff_breakdown_23": "Your mortgage payoff breakdown",
+  "interest_savings_24": "Interest Savings:",
+  "time_saved_25": "Time Saved",
+  "new_payoff_time_26": "New Payoff Time",
+  "monthly_payment_27": "Monthly Payment",
+  "enter_mortgage_details_to_see_your_payoff_analysis_28": "Enter mortgage details to see your payoff analysis",
+  "detailed_analysis_29": "Detailed Analysis",
+  "complete_mortgage_payoff_comparison_30": "Complete mortgage payoff comparison",
+  "interest_savings_31": "Interest Savings",
+  "total_interest_saved_with_extra_payments_32": "Total interest saved with extra payments",
+  "time_saved_33": "Time Saved",
+  "earlier_payoff_with_extra_payments_34": "Earlier payoff with extra payments",
+  "monthly_payment_35": "Monthly Payment",
+  "standard_principal_interest_36": "Standard principal & interest",
+  "scenario_37": "Scenario",
+  "payoff_time_38": "Payoff Time",
+  "total_interest_39": "Total Interest",
+  "total_payments_40": "Total Payments",
+  "standard_payments_41": "Standard Payments",
+  "with_extra_payments_42": "With Extra Payments",
+  "difference_savings_43": "Difference (Savings)",
+  "key_insights_44": "Key Insights:",
+  "extra_payments_reduce_your_loan_term_by_45": "• Extra payments reduce your loan term by",
+  "youll_save_46": "• You'll save",
+  "in_total_interest_47": "in total interest",
+  "your_effective_interest_savings_rate_is_48": "• Your effective interest savings rate is",
+  "understanding_mortgage_payoff_strategies_49": "Understanding Mortgage Payoff Strategies",
+  "extra_payment_benefits_50": "Extra Payment Benefits",
+  "interest_savings_51": "Interest Savings:",
+  "extra_payments_go_directly_to_principal_reducing_t_52": "Extra payments go directly to principal, reducing total\n                            interest paid",
+  "time_savings_53": "Time Savings:",
+  "pay_off_your_mortgage_years_earlier_than_scheduled_54": "Pay off your mortgage years earlier than scheduled",
+  "equity_building_55": "Equity Building:",
+  "build_home_equity_faster_with_accelerated_principa_56": "Build home equity faster with accelerated principal\n                            payments",
+  "payment_strategies_57": "Payment Strategies",
+  "monthly_extra_58": "Monthly Extra:",
+  "add_a_fixed_amount_to_each_monthly_payment_59": "Add a fixed amount to each monthly payment",
+  "annual_lump_sum_60": "Annual Lump Sum:",
+  "use_tax_refunds_or_bonuses_for_extra_payments_61": "Use tax refunds or bonuses for extra payments",
+  "biweekly_payments_62": "Biweekly Payments:",
+  "pay_half_monthly_amount_every_2_weeks_26_paymentsy_63": "Pay half monthly amount every 2 weeks (26 payments/year)",
+  "important_64": "Important:",
+  "before_making_extra_mortgage_payments_ensure_you_h_65": "Before making extra mortgage payments, ensure you have an emergency\n                      fund, are maximizing employer 401(k) matching, and have paid off higher-interest debt. Consider\n                      your mortgage interest rate versus potential investment returns when deciding on extra payments."
+}

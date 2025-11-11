@@ -1,0 +1,70 @@
+import { headers } from "next/headers";
+import type { Metadata } from "next";
+import { getCanonicalUrl } from "@/lib/url-utils";
+
+// Multilingual SEO metadata for estate-tax-calculator
+const estatetaxcalculatorMeta = {
+  en: {
+    title: "Estate Tax Calculator – Taxes Planning Online | TheSmartCalculator",
+    description: "Use the Estate Tax Calculator to estimate taxes and plan estate. Accurate, free online tool for inheritance, deductions, and financial legacy management.",
+    keywords: "estate tax calculator, taxes planning, inheritance tool, deductions calculation, online estate, financial legacy, free tax tool, estimate taxes"
+  },
+  br: {
+    title: "Podatek od Nieruchomości Kalkulator – Oblicz Online",
+    description: "Użyj podatek od nieruchomości kalkulator online, aby szybko obliczyć wysokość podatku. Proste, dokładne i darmowe narzędzie finansowe dla każdego.",
+    keywords: "podatek od nieruchomości kalkulator, obliczyć wysokość, narzędzie finansowe, online podatek, proste dokładne, darmowy tool, każdy planowanie"
+  },
+  pl: {
+    title: "Erbschaftsteuer­rechner – Ihre Online-Berechnung für Erbe",
+    description: "Mit dem Erbschaftsteuer­rechner ermitteln Sie Steuern, Freibeträge und Abgaben im Erbfall schnell und einfach online — präzise und kostenfrei.",
+    keywords: "erbschaftsteuerrechner, steuern berechnen, freibeträge abgaben, erbfall tool, online erbschaft, präzise kostenfrei, planung rechner"
+  },
+  de: {
+    title: "Estate Tax Calculator – Taxes Planning Online | TheSmartCalcul",
+    description: "Mit dem Erbschaftsteuer­rechner ermitteln Sie Steuern, Freibeträge und Abgaben im Erbfall schnell und einfach online — präzise und kostenfrei.",
+    keywords: "estate tax rechner, taxes planning, inheritance tool, deductions calculation, online estate, financial legacy, kostenlos tax tool, estimate taxes"
+  }
+};
+
+export async function generateMetadata(): Promise<Metadata> {
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language =
+    langHeader && estatetaxcalculatorMeta[langHeader as keyof typeof estatetaxcalculatorMeta]
+      ? langHeader
+      : "en";
+
+  const meta = estatetaxcalculatorMeta[language as keyof typeof estatetaxcalculatorMeta];
+  
+  // Generate correct canonical URL using localized slug
+  const canonicalUrl = getCanonicalUrl('estate-tax-calculator', language);
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        'en': getCanonicalUrl('estate-tax-calculator', 'en'),
+        'pt-BR': getCanonicalUrl('estate-tax-calculator', 'br'),
+        'pl': getCanonicalUrl('estate-tax-calculator', 'pl'),
+        'de': getCanonicalUrl('estate-tax-calculator', 'de'),
+      }
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "website",
+      url: canonicalUrl,
+    },
+  };
+}
+
+export default async function EstateTaxCalculatorLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <>{children}</>;
+}

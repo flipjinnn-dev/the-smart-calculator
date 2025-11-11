@@ -1,0 +1,160 @@
+{
+  "pageTitle": "Calculadora de pés de placa",
+  "pageDescription": "Calcule pés de tábua para madeira e materiais de construção com medidas precisas para projetos de marcenaria e construção",
+  "form": {
+    "labels": {
+      "thickness": "Grossura",
+      "width": "Largura",
+      "length": "Comprimento",
+      "quantity": "Quantidade",
+      "unitSystem": "Sistema de Unidades",
+      "lumberType": "Tipo de madeira"
+    },
+    "placeholders": {
+      "thickness": "Insira a espessura",
+      "width": "Insira a largura",
+      "length": "Insira o comprimento",
+      "quantity": "Insira a quantidade"
+    },
+    "buttons": {
+      "calculate": "Calcular os pés da prancha",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "imperial": "Imperial (pol., pés)",
+      "metric": "Métrico (mm, m)"
+    },
+    "lumberTypes": {
+      "softwood": "Madeira macia (pinho, cedro, abeto)",
+      "hardwood": "Madeira nobre (carvalho, bordo, cereja)",
+      "plywood": "Madeira compensada",
+      "custom": "Dimensões personalizadas"
+    }
+  },
+  "results": {
+    "boardFeet": "Pés de tábua",
+    "totalBoardFeet": "Pés totais da prancha",
+    "volume": "Volume",
+    "weight": "Peso estimado",
+    "boardFootResultsTitle": "Resultados do pé da prancha"
+  },
+  "educational": {
+    "boardFootInfo": "Informações sobre os pés da prancha",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos madeireiros",
+    "boardFootFacts": {
+      "definition": {
+        "title": "Definição do pé da prancha",
+        "description": "Um pé de tábua equivale a 144 polegadas cúbicas de madeira (12\" × 12\" × 1\")"
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "Pés da placa = (espessura × largura × comprimento × quantidade) ÷ 144"
+      },
+      "pricing": {
+        "title": "Preço da madeira serrada",
+        "description": "A madeira serrada é normalmente vendida em pés de tábua para madeiras nobres e por peça para madeiras macias"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas cálculos de volume",
+      "accuracy": "Meça a madeira com precisão e leve em conta o desperdício em seus projetos"
+    },
+    "importantNotesList": [
+      "As dimensões reais da madeira são geralmente menores que os tamanhos nominais",
+      "Adicione 15-20% extra para desperdícios e erros em projetos de marcenaria",
+      "Verifique os selos de classificação da madeira para obter informações sobre qualidade e espécies",
+      "Considere o teor de umidade ao calcular estimativas de peso"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as dimensões da madeira para calcular os pés da tábua",
+    "resultMessage": "O cálculo do pé da prancha é mostrado abaixo",
+    "assessmentResult": "Resultado do cálculo da madeira serrada:",
+    "boardFootAnalysis": "Análise do pé da placa"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece cálculos de pés de tábua com base em fórmulas padrão de medição de madeira serrada. Os requisitos reais de madeira podem variar com base nas especificações do projeto, fatores de desperdício e recomendações do fornecedor."
+  },
+  "seekHelp": {
+    "title": "Recursos madeireiros",
+    "content": "Para aconselhamento profissional em madeira e estimativa de projetos, consulte fornecedores de madeira ou profissionais de marcenaria para recomendações específicas do projeto e seleção de materiais."
+  },
+  "errors": {
+    "thickness": "Insira uma espessura válida",
+    "width": "Insira uma largura válida",
+    "length": "Insira um comprimento válido",
+    "quantity": "Insira uma quantidade válida",
+    "unitSystem": "Selecione um sistema de unidades"
+  },
+  "tooltips": {
+    "thickness": "Espessura da peça de madeira",
+    "width": "Largura da peça de madeira",
+    "length": "Comprimento da peça de madeira",
+    "quantity": "Quantidade de peças com essas dimensões",
+    "lumberType": "O tipo de madeira afeta o peso e o preço"
+  },
+  "loading_0": "Carregando...",
+  "in_1": "em",
+  "in_2": "em",
+  "ft_3": "pés",
+  "in_4": "em",
+  "bf_5": "namorado",
+  "bf_6": "namorado",
+  "bf_7": "namorado",
+  "in_8": "em³",
+  "volume_cubic_feet_9": "Volume (pés cúbicos):",
+  "ft_10": "pés³",
+  "total_cost_11": "Custo total:",
+  "pkr_12": "PKR",
+  "save_this_calculation_13": "Salve este cálculo",
+  "a_board_foot_is_a_unit_of_measurement_for_lumber_v_14": "Um pé de tábua é uma unidade de medida do volume da madeira serrada. Um pé de tábua equivale a 144 polegadas cúbicas ou\n                    1/12 pé cúbico. É calculado multiplicando a espessura (polegadas) × largura (polegadas) × comprimento (pés)\n                    ÷12.",
+  "calculation_formulas_15": "Fórmulas de cálculo",
+  "length_in_feet_16": "Comprimento em pés",
+  "bf_lengthft_widthin_thicknessin_12_17": "BF = (Comprimento_pés × Largura_pol. × Espessura_pol.) ÷ 12",
+  "length_in_inches_18": "Comprimento em polegadas",
+  "bf_thicknessin_widthin_lengthin_144_19": "BF = (Espessura_pol. × Largura_pol. × Comprimento_pol.) ÷ 144",
+  "key_conversions_20": "Principais conversões",
+  "k_1_board_foot_21": "1 pé de tábua =",
+  "k_144_cubic_inches_22": "144 polegadas cúbicas",
+  "k_1_board_foot_23": "1 pé de tábua =",
+  "k_112_cubic_foot_24": "1/12 pé cúbico",
+  "total_bf_25": "AM total =",
+  "number_of_pieces_bf_per_piece_26": "Número de peças × BF por peça",
+  "total_cost_27": "Custo total =",
+  "total_bf_price_per_bf_28": "AM total × Preço por AM",
+  "example_29": "Exemplo:",
+  "a_2_6_8_board_8_6_2_12_8_board_feet_for_10_pieces__30": "Uma placa de 2\" × 6\" × 8' = (8 × 6 × 2) ÷ 12 = 8 pés de placa. Para 10 peças,\n                      total = 80 pés de tábua.",
+  "price_per_board_foot_optional_5": "Preço por pé de tábua (opcional)",
+  "pkrbf_6": "PKR/BF",
+  "cost_per_board_foot_for_total_price_calculation_7": "Custo por metro quadrado para cálculo do preço total",
+  "bf_8": "namorado",
+  "bf_9": "namorado",
+  "bf_10": "namorado",
+  "in_11": "em³",
+  "volume_cubic_feet_12": "Volume (pés cúbicos):",
+  "ft_13": "pés³",
+  "total_cost_14": "Custo total:",
+  "pkr_15": "PKR",
+  "save_this_calculation_16": "Salve este cálculo",
+  "a_board_foot_is_a_unit_of_measurement_for_lumber_v_17": "Um pé de tábua é uma unidade de medida do volume da madeira serrada. Um pé de tábua equivale a 144 polegadas cúbicas ou\n                    1/12 pé cúbico. É calculado multiplicando a espessura (polegadas) × largura (polegadas) × comprimento (pés)\n                    ÷12.",
+  "calculation_formulas_18": "Fórmulas de cálculo",
+  "length_in_feet_19": "Comprimento em pés",
+  "bf_lengthft_widthin_thicknessin_12_20": "BF = (Comprimento_pés × Largura_pol. × Espessura_pol.) ÷ 12",
+  "length_in_inches_21": "Comprimento em polegadas",
+  "bf_thicknessin_widthin_lengthin_144_22": "BF = (Espessura_pol. × Largura_pol. × Comprimento_pol.) ÷ 144",
+  "key_conversions_23": "Principais conversões",
+  "k_1_board_foot_24": "1 pé de tábua =",
+  "k_144_cubic_inches_25": "144 polegadas cúbicas",
+  "k_1_board_foot_26": "1 pé de tábua =",
+  "k_112_cubic_foot_27": "1/12 pé cúbico",
+  "total_bf_28": "AM total =",
+  "number_of_pieces_bf_per_piece_29": "Número de peças × BF por peça",
+  "total_cost_30": "Custo total =",
+  "total_bf_price_per_bf_31": "AM total × Preço por AM",
+  "example_32": "Exemplo:",
+  "a_2_6_8_board_8_6_2_12_8_board_feet_for_10_pieces__33": "Uma placa de 2\" × 6\" × 8' = (8 × 6 × 2) ÷ 12 = 8 pés de placa. Para 10 peças,\n                      total = 80 pés de tábua."
+}

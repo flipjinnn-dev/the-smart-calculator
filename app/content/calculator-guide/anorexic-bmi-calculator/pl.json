@@ -1,0 +1,101 @@
+{
+  "color": "czerwony",
+  "sections": [
+    {
+      "heading": "Kalkulator BMI dla anorektyczki: bezpiecznie oceń swój wskaźnik masy ciała",
+      "content": "Kalkulator BMI dla anoreksji to specjalistyczne narzędzie zaprojektowane, aby pomóc osobom i opiekunom w ocenie poziomu wskaźnika masy ciała (BMI) związanego z jadłowstrętem psychicznym. To internetowe narzędzie BMI dla anorektyków zapewnia szybki wgląd w to, czy dana osoba może być narażona na ryzyko problemów zdrowotnych związanych z niedowagą, od łagodnej do skrajnej anoreksji. Za pomocą tego kalkulatora możesz bezpiecznie obliczyć BMI u osoby z anoreksją i zrozumieć, jak Twoje BMI wypada w porównaniu do wartości zdrowych, co pomoże w wczesnej interwencji i konsultacji klinicznej."
+    },
+    {
+      "heading": "Jak korzystać z bezpłatnego kalkulatora BMI dla anorektyczki online",
+      "subSections": [
+        {
+          "heading": "Przewodnik krok po kroku (jednostki metryczne)",
+          "content": "1. Wprowadź swoją wagę w kilogramach (kg).\n2. Podaj swój wzrost w centymetrach (cm).\n3. Kliknij „Oblicz”, aby uzyskać swoje BMI."
+        },
+        {
+          "heading": "Przewodnik krok po kroku (jednostki amerykańskie)",
+          "content": "1. Wprowadź swoją wagę w funtach (funtach).\n2. Wprowadź swój wzrost w calach (calach).\n3. Kliknij „Oblicz”, aby określić swoje BMI."
+        },
+        {
+          "heading": "Wyniki",
+          "content": "Po obliczeniu wyświetli się Twoje BMI wraz z kategorią ryzyka — łagodna, umiarkowana, ciężka lub skrajna anoreksja."
+        }
+      ]
+    },
+    {
+      "heading": "Zrozumienie zakresów BMI dla anoreksji",
+      "subSections": [
+        {
+          "heading": "Łagodna anoreksja",
+          "content": "BMI: 17–18,5 → Nieco poniżej prawidłowego BMI, zwiększone ryzyko powikłań zdrowotnych."
+        },
+        {
+          "heading": "Umiarkowana anoreksja",
+          "content": "BMI: 16–16,9 → Umiarkowana niedowaga, większe ryzyko stresu narządowego i niedoborów składników odżywczych."
+        },
+        {
+          "heading": "Ciężka anoreksja",
+          "content": "BMI: 15–15,9 → Znaczna niedowaga, wymaga nadzoru lekarskiego."
+        },
+        {
+          "heading": "Ekstremalna anoreksja",
+          "content": "BMI: <15 → Zagrażające życiu, konieczna pilna interwencja kliniczna."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora wskaźnika masy ciała u osób z anoreksją?",
+      "content": "✔ Szybko porównaj swoje BMI z progami charakterystycznymi dla anoreksji.\n✔ Identyfikuj wczesne sygnały ostrzegawcze jadłowstrętu psychicznego.\n✔ Zrozumienie zagrożeń dla zdrowia związanych z niskim BMI, w tym niewydolnością narządów, utratą gęstości kości i osłabioną odpornością.\n✔ Wspieraj odpowiednią do wieku interpretację BMI w przypadku anoreksji, zwłaszcza u nastolatków i młodych dorosłych.\n✔ Porównaj swoje BMI z zakresami BMI zdrowego i BMI osób cierpiących na anoreksję."
+    },
+    {
+      "heading": "BMI anorektyczki a inne kategorie BMI",
+      "content": "• BMI anoreksji a BMI zdrowe: podkreśla stopień niedowagi.\n• BMI anoreksji a BMI z niedowagą: Pokazuje różnicę pomiędzy łagodną niedowagą a klinicznie istotną anoreksją.\n• Wykres BMI anoreksji i bulimii: przydatny do rozróżnienia różnych zaburzeń odżywiania.\n• Kalkulator BMI dla ekstremalnej szczupłości: pomaga śledzić niebezpiecznie niskie trendy BMI."
+    },
+    {
+      "heading": "Ograniczenia i zastrzeżenie",
+      "content": "⚠ Samo BMI nie jest w stanie zdiagnozować jadłowstrętu psychicznego. Ocena kliniczna jest niezbędna.\n⚠ Nie uwzględnia masy mięśniowej, składu ciała ani podstawowych schorzeń.\n⚠ Używaj tego narzędzia wyłącznie jako przewodnika dotyczącego badań przesiewowych, a nie zastępującego porady lekarza."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest BMI u anorektyczki?",
+      "a": "Anorektyczny BMI odnosi się do zakresu wskaźnika masy ciała związanego z jadłowstrętem psychicznym, wskazującego na niedowagę i potencjalne ryzyko dla zdrowia."
+    },
+    {
+      "q": "Jak obliczyć BMI w przypadku anoreksji?",
+      "a": "Wprowadź swoją wagę i wzrost do naszego bezpłatnego kalkulatora BMI dla osób cierpiących na anoreksję online, aby uzyskać natychmiastowy odczyt BMI."
+    },
+    {
+      "q": "Jakie są zakresy BMI dla anoreksji?",
+      "a": "Łagodny: 17–18,5, umiarkowany: 16–16,9, ciężki: 15–15,9, ekstremalny: <15."
+    },
+    {
+      "q": "Czy BMI w przypadku anoreksji to to samo, co BMI z niedowagą?",
+      "a": "Nie dokładnie. Niedowaga BMI to szersza kategoria; anorektyczny BMI wskazuje na klinicznie istotną niską wagę."
+    },
+    {
+      "q": "Czy nastolatki mogą korzystać z tego kalkulatora BMI dla osób cierpiących na anoreksję?",
+      "a": "Tak, ale interpretacja BMI dla nastolatków może się różnić. Zawsze skonsultuj się z pediatrą lub dietetykiem."
+    },
+    {
+      "q": "Jakie są oznaki anoreksji według BMI?",
+      "a": "Objawy obejmują szybką utratę wagi, wyjątkowo niskie BMI, zmęczenie, zawroty głowy i nieregularne miesiączki u kobiet."
+    },
+    {
+      "q": "Czy mogę używać tego narzędzia do śledzenia swoich postępów?",
+      "a": "Tak, kalkulator masy ciała dla anoreksji pomaga monitorować zmiany BMI, ale zaleca się skorzystanie z profesjonalnej porady."
+    },
+    {
+      "q": "Jakie są zagrożenia dla zdrowia wynikające z niskiego BMI?",
+      "a": "Zagrożenia obejmują powikłania sercowe, utratę gęstości kości, niewydolność narządów, osłabioną odporność i brak równowagi hormonalnej."
+    },
+    {
+      "q": "Jak dokładny jest ten kalkulator BMI dla anorektyków?",
+      "a": "Zapewnia dokładną ocenę BMI, ale ocena kliniczna jest niezbędna do postawienia diagnozy i planowania leczenia."
+    },
+    {
+      "q": "Co powinienem zrobić, jeśli moje BMI jest w skrajnym zakresie anoreksji?",
+      "a": "Należy natychmiast zwrócić się o pomoc lekarską. Skrajna anoreksja zagraża życiu i wymaga profesjonalnej interwencji."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "pageTitle": "Kalkulator finansów",
+  "pageDescription": "Oblicz finanse za pomocą naszego bezpłatnego kalkulatora online",
+  "form": {
+    "labels": {
+      "input1": "Wejście 1",
+      "input2": "Wejście 2",
+      "input3": "Wejście 3"
+    },
+    "placeholders": {
+      "input1": "Wprowadź pierwszą wartość",
+      "input2": "Wprowadź drugą wartość",
+      "input3": "Wprowadź trzecią wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz finanse",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "result1": "Wynik 1",
+    "result2": "Wynik 2",
+    "calculationDetails": "Wyniki obliczeń finansowych"
+  },
+  "educational": {
+    "info": "Informacje finansowe",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja finansów",
+        "description": "Informacje o finansach"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Jak obliczane są finanse"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Zastosowania finansów"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki finansowe",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć finanse",
+    "resultMessage": "Wyniki obliczeń finansowych pokazano poniżej",
+    "assessmentResult": "Wynik obliczeń finansowych:",
+    "analysis": "Analiza finansów"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki finansowe w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "tvm_variables_0": "Zmienne TVM",
+  "enter_4_values_to_solve_for_1": "Wprowadź 4 wartości do rozwiązania",
+  "what_do_you_want_to_calculate_2": "Co chcesz obliczyć?",
+  "present_value_pv_3": "Wartość bieżąca (PV)",
+  "future_value_fv_4": "Przyszła wartość (FV)",
+  "payment_pmt_5": "Płatność (PMT)",
+  "interest_rate_iy_6": "Stopa procentowa (I/Y)",
+  "number_of_periods_n_7": "Liczba okresów (N)",
+  "select_the_variable_you_want_to_solve_for_then_ent_8": "Wybierz zmienną, którą chcesz rozwiązać, a następnie wprowadź pozostałe 4 wartości",
+  "present_value_pv_9": "Wartość bieżąca (PV)",
+  "lump_sum_at_start_negative_for_outflow_10": "Ryczałt na początek (ujemny dla wypływu)",
+  "future_value_fv_11": "Przyszła wartość (FV)",
+  "lump_sum_at_end_12": "Na koniec ryczałt",
+  "payment_pmt_13": "Płatność (PMT)",
+  "recurring_payment_negative_for_withdrawal_14": "Płatność cykliczna (ujemna w przypadku wypłaty)",
+  "interest_rate_iy_15": "Stopa procentowa (I/R)",
+  "annual_interest_rate_16": "Roczna stopa procentowa (%)",
+  "number_of_periods_n_17": "Liczba okresów (N)",
+  "total_compounding_periods_18": "Łączne okresy kapitalizacji",
+  "settings_19": "Ustawienia",
+  "payments_per_year_py_20": "Płatności rocznie (P/R)",
+  "k_1_annual_21": "1 (roczny)",
+  "k_2_semiannual_22": "2 (półroczne)",
+  "k_4_quarterly_23": "4 (kwartalnie)",
+  "k_12_monthly_24": "12 (miesięcznie)",
+  "k_52_weekly_25": "52 (tygodniowo)",
+  "k_365_daily_26": "365 (codziennie)",
+  "compounds_per_year_cy_27": "Związki rocznie (C/Y)",
+  "k_1_annual_28": "1 (roczny)",
+  "k_2_semiannual_29": "2 (półroczne)",
+  "k_4_quarterly_30": "4 (kwartalnie)",
+  "k_12_monthly_31": "12 (miesięcznie)",
+  "k_52_weekly_32": "52 (tygodniowo)",
+  "k_365_daily_33": "365 (codziennie)",
+  "payment_timing_34": "Termin płatności",
+  "of_period_35": "z okresu",
+  "calculate_36": "Obliczać",
+  "reset_37": "Nastawić",
+  "tvm_result_38": "Wynik TVN",
+  "total_payments_39": "Suma płatności",
+  "total_interest_40": "Całkowite odsetki",
+  "select_what_to_calculate_enter_4_values_then_click_41": "Wybierz, co chcesz obliczyć, wprowadź 4 wartości, a następnie kliknij Oblicz, rozwiąż piątą.",
+  "tvm_calculation_results_42": "Wyniki obliczeń TVM",
+  "calculated_variable_43": "Obliczona zmienna",
+  "payment_summary_44": "Podsumowanie płatności",
+  "total_payments_45": "Suma płatności:",
+  "payment_frequency_46": "Częstotliwość płatności:",
+  "x_per_year_47": "x rocznie",
+  "payment_timing_48": "Termin płatności:",
+  "of_period_49": "okresu",
+  "interest_summary_50": "Podsumowanie zainteresowań",
+  "total_interest_51": "Całkowite odsetki:",
+  "compound_frequency_52": "Częstotliwość złożona:",
+  "x_per_year_53": "x rocznie",
+  "complete_tvm_summary_54": "Pełne podsumowanie TVM",
+  "final_values_55": "Wartości końcowe",
+  "pv_present_value_56": "PV (wartość bieżąca):",
+  "fv_future_value_57": "FV (przyszła wartość):",
+  "pmt_payment_58": "PMT (płatność):",
+  "iy_interest_rate_59": "I/Y (stopa procentowa):",
+  "n_periods_60": "N (okresy):",
+  "settings_used_61": "Używane ustawienia",
+  "payments_per_year_62": "Płatności rocznie:",
+  "compounds_per_year_63": "Związki rocznie:",
+  "payment_timing_64": "Termin płatności:",
+  "of_period_65": "okresu",
+  "effective_rate_per_period_66": "Efektywna stawka za okres:",
+  "tvm_formula_used_67": "Zastosowana formuła TVM:",
+  "pv_1_iycyn_pmt_1_iycyn_1_iycy_1_iycy_fv_68": "PV × (1 + I/Y/C/Y)^N + PMT × [((1 + I/Y/C/Y)^N - 1) / (I/Y/C/Y)] × (1 + I/Y/C/Y × δ) = FV",
+  "where_69": "Gdzie δ =",
+  "of_period_payments_70": "płatności okresowych)",
+  "understanding_time_value_of_money_71": "Zrozumienie wartości pieniądza w czasie",
+  "tvm_variables_72": "Zmienne TVM",
+  "pv_present_value_73": "PV (wartość bieżąca):",
+  "current_worth_of_future_cash_flows_74": "Aktualna wartość przyszłych przepływów pieniężnych",
+  "fv_future_value_75": "FV (przyszła wartość):",
+  "value_of_investment_at_end_of_period_76": "Wartość inwestycji na koniec okresu",
+  "pmt_payment_77": "PMT (płatność):",
+  "regular_payment_amount_annuity_78": "Regularna kwota płatności (renta)",
+  "iy_interest_rate_79": "I/Y (stopa procentowa):",
+  "annual_interest_rate_as_percentage_80": "Roczna stopa procentowa w procentach",
+  "n_periods_81": "N (okresy):",
+  "total_number_of_compounding_periods_82": "Łączna liczba okresów kapitalizacji",
+  "key_concepts_83": "Kluczowe pojęcia",
+  "compounding_84": "Mieszanie:",
+  "interest_earned_on_interest_85": "Odsetki naliczone od odsetek",
+  "regular_contributions_86": "Regularne składki:",
+  "consistent_periodic_payments_87": "Stałe płatności okresowe",
+  "time_horizon_88": "Horyzont czasowy:",
+  "length_of_investment_period_89": "Długość okresu inwestycyjnego",
+  "risk_vs_return_90": "Ryzyko vs zwrot:",
+  "higher_returns_often_mean_higher_risk_91": "Wyższe zyski często oznaczają większe ryzyko",
+  "example_calculation_92": "Przykładowe obliczenia",
+  "scenario_retirement_savings_93": "Scenariusz: Oszczędności emerytalne",
+  "pv_20000_initial_investment_94": "PV = 20 000 USD (inwestycja początkowa)",
+  "pmt_2000_annual_contribution_95": "PMT = -2000 USD (składka roczna)",
+  "iy_6_annual_return_96": "I/Y = 6% (roczny zwrot)",
+  "n_10_years_97": "N = 10 lat",
+  "py_cy_1_annual_98": "P/Y = C/Y = 1 (rocznie)",
+  "result_fv_62317_99": "Wynik: FV ≈ 62 317 USD",
+  "sign_conventions_100": "Podpisz konwencje",
+  "positive_101": "Pozytywny:",
+  "money_received_inflows_102": "Otrzymane pieniądze (wpływy)",
+  "negative_103": "Negatywny:",
+  "money_paid_out_outflows_104": "Wypłacone środki (wypływy)",
+  "pv_105": "PV:",
+  "negative_if_you_invest_money_106": "Negatywne, jeśli inwestujesz pieniądze",
+  "pmt_107": "PMT:",
+  "negative_if_you_make_payments_108": "Negatywne, jeśli dokonujesz płatności"
+}

@@ -1,0 +1,133 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest całkowity dzienny wydatek energii (TDEE)?",
+      "content": "Całkowity dzienny wydatek energetyczny (TDEE) to całkowita liczba kalorii spalanych każdego dnia przez organizm, włączając wszystkie czynności — od odpoczynku i spania po chodzenie, pracę i ćwiczenia. Znajomość TDEE jest niezbędna do skutecznego zarządzania wagą, przyrostu masy mięśniowej i ogólnego planowania kondycji."
+    },
+    {
+      "heading": "Jak obliczyć TDEE",
+      "content": "Korzystanie z naszego kalkulatora TDEE online jest proste i dokładne:",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Podaj swój wiek, płeć, wagę i wzrost."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Wybierz poziom swojej aktywności (siedzący tryb życia, lekko aktywny, średnio aktywny, bardzo aktywny, bardzo aktywny)."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Opcjonalnie wprowadź procent tkanki tłuszczowej, aby uzyskać dokładniejsze wyniki."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Kliknij „Oblicz TDEE”, aby natychmiast sprawdzić dzienne zapotrzebowanie kaloryczne."
+        }
+      ]
+    },
+    {
+      "heading": "Wyjaśnienie formuł TDEE",
+      "subSections": [
+        {
+          "heading": "Formuła Mifflina-St Jeora",
+          "content": "Najlepszy dla większości użytkowników, szacuje TDEE na podstawie wieku, płci, wzrostu i wagi."
+        },
+        {
+          "heading": "Formuła Katcha-McArdle'a",
+          "content": "Idealny, jeśli znasz procent tkanki tłuszczowej, ponieważ oblicza TDEE na podstawie beztłuszczowej masy ciała."
+        }
+      ]
+    },
+    {
+      "heading": "Mnożniki aktywności",
+      "content": "Po obliczeniu podstawowej przemiany materii (BMR) kalkulator stosuje mnożnik aktywności:",
+      "subSections": [
+        {
+          "heading": "Siedzący",
+          "content": "1,2 (mało ćwiczeń lub brak ćwiczeń)"
+        },
+        {
+          "heading": "Lekko aktywny",
+          "content": "1,375 (lekkie ćwiczenia/sport 1–3 dni w tygodniu)"
+        },
+        {
+          "heading": "Umiarkowanie aktywny",
+          "content": "1,55 (umiarkowane ćwiczenia 3–5 dni w tygodniu)"
+        },
+        {
+          "heading": "Bardzo aktywny",
+          "content": "1,725 ​​(ciężkie ćwiczenia 6–7 dni w tygodniu)"
+        },
+        {
+          "heading": "Ekstra aktywny",
+          "content": "1,9 (bardzo ciężkie ćwiczenia lub praca fizyczna)"
+        }
+      ]
+    },
+    {
+      "heading": "Jak korzystać z wyników TDEE",
+      "subSections": [
+        {
+          "heading": "Utrata wagi",
+          "content": "Jedz 10–20% mniej kalorii niż TDEE."
+        },
+        {
+          "heading": "Konserwacja",
+          "content": "Spożywaj kalorie równe TDEE."
+        },
+        {
+          "heading": "Przyrost mięśni",
+          "content": "Jedz 10–20% powyżej TDEE podczas treningu siłowego."
+        }
+      ]
+    },
+    {
+      "heading": "TDEE kontra BMR",
+      "content": "BMR (podstawowa przemiana materii) to kalorie spalane w spoczynku, natomiast TDEE obejmuje całą aktywność i ćwiczenia. Znajomość obu pomoże Ci ułożyć dietę i plan treningowy."
+    },
+    {
+      "heading": "Wskazówki dotyczące dokładności",
+      "content": "Śledź postępy w czasie i aktualizuj TDEE, gdy zmienia się Twoja waga, aktywność lub skład ciała. Aby uzyskać najlepsze wyniki, połącz śledzenie TDEE z monitorowaniem makroskładników odżywczych."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest TDEE i dlaczego jest ważny?",
+      "a": "TDEE to całkowita liczba kalorii spalanych codziennie przez organizm. Znajomość tego pomaga zaplanować utratę wagi, utrzymanie lub przyrost masy mięśniowej."
+    },
+    {
+      "q": "Jaka jest różnica między TDEE i BMR?",
+      "a": "BMR to kalorie spalane w spoczynku, natomiast TDEE obejmuje kalorie spalone podczas aktywności i ćwiczeń."
+    },
+    {
+      "q": "Która formuła jest lepsza: Mifflin-St Jeor czy Katch-McArdle?",
+      "a": "Mifflin-St Jeor działa najlepiej dla większości ludzi. Wynik Katcha-McArdle'a jest dokładniejszy, jeśli znasz procent tkanki tłuszczowej w organizmie."
+    },
+    {
+      "q": "Ile kalorii powinienem jeść, aby schudnąć?",
+      "a": "Celuj w 10–20% poniżej TDEE, aby zapewnić bezpieczną i trwałą utratę tłuszczu."
+    },
+    {
+      "q": "Czy TDEE zmienia się w czasie?",
+      "a": "Tak, zmienia się wraz z wagą, składem ciała, poziomem aktywności i metabolizmem."
+    },
+    {
+      "q": "Czy korzystanie z kalkulatora TDEE jest bezpłatne?",
+      "a": "Tak, nasz darmowy kalkulator TDEE online jest dostępny w każdej chwili i bezpłatnie."
+    },
+    {
+      "q": "Jak mogę wykorzystać TDEE do przyrostu masy mięśniowej?",
+      "a": "Jedz 10–20% powyżej TDEE w połączeniu z treningiem siłowym w celu uzyskania wzrostu beztłuszczowej masy mięśniowej."
+    },
+    {
+      "q": "Jaki mnożnik aktywności wybrać?",
+      "a": "Aby uzyskać najlepszą dokładność, wybierz ten najbliższy Twojemu codziennemu stylowi życia i planowi ćwiczeń."
+    },
+    {
+      "q": "Jak dokładny jest kalkulator TDEE?",
+      "a": "Podaje szacunki. Dokładność poprawia się, jeśli uwzględnisz procent tkanki tłuszczowej i będziesz śledzić rzeczywisty postęp."
+    }
+  ]
+}

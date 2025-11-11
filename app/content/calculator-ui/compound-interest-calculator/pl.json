@@ -1,0 +1,132 @@
+{
+  "pageTitle": "Kalkulator odsetek składanych",
+  "pageDescription": "Oblicz wzrost odsetek składanych w czasie przy regularnych wpłatach na inwestycje, oszczędności i scenariusze pożyczkowe",
+  "form": {
+    "labels": {
+      "principal": "Początkowy dyrektor",
+      "interestRate": "Roczna stopa procentowa",
+      "timePeriod": "Okres czasu",
+      "compoundFrequency": "Częstotliwość złożona",
+      "contributions": "Regularne składki",
+      "contributionAmount": "Kwota wkładu",
+      "contributionFrequency": "Częstotliwość wkładu",
+      "contributionTiming": "Termin wkładu"
+    },
+    "placeholders": {
+      "principal": "Wprowadź początkową kwotę główną",
+      "interestRate": "Wprowadź roczną stopę procentową (%)",
+      "timePeriod": "Wprowadź okres",
+      "contributionAmount": "Wprowadź kwotę składki"
+    },
+    "buttons": {
+      "calculate": "Oblicz odsetki składane",
+      "reset": "Nastawić"
+    },
+    "compoundFrequencies": {
+      "annually": "Rocznie",
+      "semiAnnually": "Półrocznie",
+      "quarterly": "Kwartalny",
+      "monthly": "Miesięczny",
+      "daily": "Codziennie",
+      "continuously": "Ciągle"
+    },
+    "contributionFrequencies": {
+      "monthly": "Miesięczny",
+      "quarterly": "Kwartalny",
+      "annually": "Rocznie",
+      "none": "Brak wkładu"
+    },
+    "contributionTimings": {
+      "beginning": "Początek okresu",
+      "end": "Koniec okresu"
+    }
+  },
+  "results": {
+    "futureValue": "Przyszła wartość",
+    "totalContributions": "Łączne składki",
+    "totalInterest": "Łączne uzyskane odsetki",
+    "interestPercentage": "Procent odsetek od całości",
+    "compoundInterestResultsTitle": "Wyniki odsetek składanych"
+  },
+  "educational": {
+    "compoundInterestInfo": "Informacje o odsetkach składanych",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "compoundInterestFacts": {
+      "definition": {
+        "title": "Definicja odsetek składanych",
+        "description": "Odsetki naliczane od kapitału początkowego i odsetek skumulowanych z poprzednich okresów"
+      },
+      "formula": {
+        "title": "Wzór obliczeniowy",
+        "description": "A = P(1 + r/n)^(nt) + PMT × [((1 + r/n)^(nt) - 1) / (r/n)]"
+      },
+      "power": {
+        "title": "Moc łączenia",
+        "description": "Czas i stopa procentowa znacząco wpływają na ostateczną wartość inwestycji"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki odsetek składanych",
+      "actual": "Rzeczywiste zwroty z inwestycji mogą się różnić w zależności od warunków rynkowych i opłat"
+    },
+    "importantNotesList": [
+      "Im dłuższy okres czasu, tym bardziej dramatyczny efekt łączenia",
+      "Wyższe stopy procentowe prowadzą do wykładniczego wzrostu w czasie",
+      "Regularne wpłaty znacząco podnoszą ostateczną wartość inwestycji",
+      "Oceniając realne zyski, weź pod uwagę inflację i podatki"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje o inwestycji, aby obliczyć wzrost odsetek składanych",
+    "resultMessage": "Wyniki obliczenia odsetek składanych pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia odsetek składanych:",
+    "compoundInterestAnalysis": "Analiza procentu składanego"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia oszacowanie odsetek składanych w oparciu o wzory matematyczne. Rzeczywiste zwroty z inwestycji mogą się różnić w zależności od warunków rynkowych, opłat, podatków i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowane porady inwestycyjne i planowanie finansowe, skonsultuj się z doradcami finansowymi lub specjalistami inwestycyjnymi posiadającymi wiedzę specjalistyczną w zakresie zarządzania portfelem i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "principal": "Wprowadź prawidłową początkową kwotę główną",
+    "interestRate": "Proszę wprowadzić prawidłową roczną stopę procentową",
+    "timePeriod": "Proszę wprowadzić prawidłowy okres",
+    "contributionAmount": "Proszę wprowadzić prawidłową kwotę składki",
+    "compoundFrequency": "Wybierz częstotliwość złożoną",
+    "contributionFrequency": "Proszę wybrać częstotliwość składek",
+    "contributionTiming": "Wybierz termin wpłaty"
+  },
+  "tooltips": {
+    "principal": "Początkowa kwota zainwestowana lub zaoszczędzona",
+    "interestRate": "Roczna stopa procentowa lub oczekiwany zwrot",
+    "timePeriod": "Długość czasu wzrostu inwestycji",
+    "compoundFrequency": "Jak często odsetki są kapitalizowane w ciągu roku",
+    "contributionAmount": "Regularna kwota dodana do inwestycji",
+    "contributionFrequency": "Jak często wpłacane są składki",
+    "contributionTiming": "Czy składki są dokonywane na początku, czy na końcu okresu"
+  },
+  "investment_details_0": "Szczegóły inwestycji",
+  "enter_your_investment_information_1": "Wprowadź informacje o inwestycji",
+  "initial_investment_2": "Inwestycja początkowa",
+  "monthly_contribution_3": "Miesięczny wkład",
+  "annual_interest_rate_4": "Roczna stopa procentowa (%)",
+  "investment_period_years_5": "Okres inwestycji (lata)",
+  "compound_frequency_6": "Częstotliwość złożona",
+  "annually_7": "Rocznie",
+  "quarterly_8": "Kwartalny",
+  "monthly_9": "Miesięczny",
+  "daily_10": "Codziennie",
+  "calculate_11": "Obliczać",
+  "investment_growth_12": "Wzrost inwestycji",
+  "your_investment_projection_13": "Twoja prognoza inwestycyjna",
+  "final_amount_14": "Ostateczna kwota",
+  "total_interest_earned_15": "Łączne uzyskane odsetki",
+  "total_contributions_16": "Łączne składki",
+  "enter_investment_details_to_see_growth_projection_17": "Wprowadź szczegóły inwestycji, aby zobaczyć prognozę wzrostu"
+}

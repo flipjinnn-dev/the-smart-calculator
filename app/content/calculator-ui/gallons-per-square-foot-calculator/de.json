@@ -1,0 +1,163 @@
+{
+  "pageTitle": "Gallonen pro Quadratfuß-Rechner",
+  "pageDescription": "Berechnen Sie die Anzahl der Gallonen, die pro Quadratfuß für Malerarbeiten oder Bodenbeläge benötigt werden",
+  "form": {
+    "labels": {
+      "totalGallons": "Insgesamt verfügbare Gallonen",
+      "totalArea": "Gesamtfläche (Quadratfuß)",
+      "coverageRate": "Deckungsrate (Quadratfuß pro Gallone)"
+    },
+    "placeholders": {
+      "totalGallons": "Geben Sie die insgesamt verfügbaren Gallonen ein",
+      "totalArea": "Geben Sie die Gesamtfläche in Quadratfuß ein",
+      "coverageRate": "Geben Sie die Abdeckungsrate ein (Standard: 400 Quadratfuß/Gallone)."
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Abdeckung",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "gallonsPerSquareFoot": "Gallonen pro Quadratfuß",
+    "coveragePerGallon": "Abdeckung pro Gallone",
+    "totalCoverage": "Gesamtabdeckungsbereich",
+    "gallonsNeeded": "Für die Fläche benötigte Gallonen",
+    "efficiency": "Anwendungseffizienz"
+  },
+  "educational": {
+    "coverageInfo": "Informationen zur Abdeckung",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Bauressourcen",
+    "coverageFacts": {
+      "definition": {
+        "title": "Abdeckungsrate",
+        "description": "Der Bereich, der mit einer Gallone Farbe oder Beschichtungsmaterial bedeckt werden kann"
+      },
+      "factors": {
+        "title": "Beeinflussende Faktoren",
+        "description": "Oberflächenbeschaffenheit, Porosität, Auftragungsmethode und Materialqualität beeinflussen die Ergiebigkeit"
+      },
+      "applications": {
+        "title": "Anwendungen aus der Praxis",
+        "description": "Wird bei Bau-, Maler- und Bodenbelagsprojekten zur Schätzung des Materialbedarfs verwendet"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Abdeckung",
+      "actual": "Die tatsächliche Deckkraft kann je nach Oberflächenbeschaffenheit und Anwendungstechnik variieren"
+    },
+    "importantNotesList": [
+      "Die Standard-Farbdeckung beträgt etwa 400 Quadratfuß pro Gallone",
+      "Bei rauen oder porösen Oberflächen kann mehr Material erforderlich sein",
+      "Für eine optimale Abdeckung sind möglicherweise mehrere Schichten erforderlich",
+      "Kaufen Sie immer zusätzliches Material, um Abfall und Ausbesserungen zu berücksichtigen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die verfügbaren Gallonen und die Fläche ein, um den Deckungsbedarf zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Deckungsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Deckungsberechnung:",
+    "coverageAnalysis": "Abdeckungsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Abdeckungsschätzungen basierend auf branchenüblichen Werten. Die tatsächliche Abdeckung kann je nach Oberflächenbeschaffenheit, Anwendungstechnik, Materialqualität und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Bauressourcen",
+    "content": "Für professionelle Kostenvoranschläge für Malerarbeiten und Bodenbeläge wenden Sie sich an Auftragnehmer oder Materiallieferanten, die spezifische Projektanforderungen und -bedingungen beurteilen können."
+  },
+  "errors": {
+    "totalGallons": "Bitte geben Sie eine gültige Anzahl Gallonen ein",
+    "totalArea": "Bitte geben Sie eine gültige Fläche in Quadratfuß ein",
+    "coverageRate": "Bitte geben Sie einen gültigen Deckungssatz ein"
+  },
+  "tooltips": {
+    "totalGallons": "Insgesamt stehen Gallonen Farbe oder Beschichtungsmaterial zur Verfügung",
+    "totalArea": "Gesamtfläche, die abgedeckt werden soll, in Quadratfuß",
+    "coverageRate": "Ergiebigkeit in Quadratfuß pro Gallone (normalerweise 400 für Standardfarbe)"
+  },
+  "dimensions_0": "Abmessungen",
+  "enter_length_width_and_height_in_feet_to_calculate_1": "Geben Sie Länge, Breite und Höhe in Fuß ein, um Gallonen pro Quadratfuß zu berechnen",
+  "length_l_2": "Länge (L)",
+  "feet_ft_3": "Fuß (ft)",
+  "inches_in_4": "Zoll (in)",
+  "meters_m_5": "Meter (m)",
+  "centimeters_cm_6": "Zentimeter (cm)",
+  "yards_yd_7": "Yards (yd)",
+  "width_w_8": "Breite (B)",
+  "feet_ft_9": "Fuß (ft)",
+  "inches_in_10": "Zoll (in)",
+  "meters_m_11": "Meter (m)",
+  "centimeters_cm_12": "Zentimeter (cm)",
+  "yards_yd_13": "Yards (yd)",
+  "height_h_14": "Höhe (H)",
+  "feet_ft_15": "Fuß (ft)",
+  "inches_in_16": "Zoll (in)",
+  "meters_m_17": "Meter (m)",
+  "centimeters_cm_18": "Zentimeter (cm)",
+  "yards_yd_19": "Yards (yd)",
+  "calculate_20": "Berechnen",
+  "reset_21": "Zurücksetzen",
+  "results_22": "Ergebnisse",
+  "input_values_converted_to_feet_23": "Eingabewerte (in Fuß umgerechnet)",
+  "length_24": "Länge:",
+  "ft_25": "ft",
+  "width_26": "Breite:",
+  "ft_27": "ft",
+  "height_28": "Höhe:",
+  "ft_29": "ft",
+  "area_30": "Bereich",
+  "ft_31": "ft²",
+  "volume_32": "Volumen",
+  "ft_33": "ft³",
+  "gallons_34": "Gallonen",
+  "gallons_per_square_foot_35": "Gallonen pro Quadratfuß",
+  "galft_36": "Gallone/ft²",
+  "stepbystep_calculation_37": "Schritt-für-Schritt-Berechnung",
+  "step_1_38": "Schritt 1:",
+  "step_2_39": "Schritt 2:",
+  "step_3_40": "Schritt 3:",
+  "step_4_41": "Schritt 4:",
+  "enter_dimensions_to_see_42": "Geben Sie die Abmessungen ein, um sie anzuzeigen",
+  "live_results_43": "Live-Ergebnisse",
+  "and_stepbystep_calculations_44": "und Schritt-für-Schritt-Berechnungen.",
+  "understanding_gallons_per_square_foot_45": "Gallonen pro Quadratfuß verstehen",
+  "formulas_used_46": "Verwendete Formeln",
+  "a_l_w_area_in_square_feet_47": "A = L × B (Fläche in Quadratfuß)",
+  "v_48": "V",
+  "ft_49": "ft³",
+  "a_h_l_w_h_volume_in_cubic_feet_50": "= A × H = (L × B) × H (Volumen in Kubikfuß)",
+  "v_51": "V",
+  "gal_52": "Mädel",
+  "v_53": "= V",
+  "ft_54": "ft³",
+  "k_748052_volume_in_us_gallons_55": "× 7,48052 (Volumen in US-Gallonen)",
+  "g_v_56": "G = V",
+  "gal_57": "Mädel",
+  "a_gallons_per_square_foot_58": "÷ A (Gallonen pro Quadratfuß)",
+  "common_applications_59": "Allgemeine Anwendungen",
+  "pool_spa_60": "Pool & Spa:",
+  "calculate_volume_and_chemical_dosing_rates_61": "Berechnen Sie Volumen und chemische Dosierungsraten",
+  "tank_design_62": "Tankdesign:",
+  "determine_liquid_storage_capacity_per_floor_area_63": "Bestimmen Sie die Flüssigkeitsspeicherkapazität pro Bodenfläche",
+  "irrigation_64": "Bewässerung:",
+  "calculate_application_rates_for_landscaping_65": "Berechnen Sie Aufwandmengen für den Landschaftsbau",
+  "construction_66": "Konstruktion:",
+  "estimate_concrete_paint_or_coating_coverage_67": "Schätzen Sie die Beton-, Farb- oder Beschichtungsabdeckung",
+  "aquaculture_68": "Aquakultur:",
+  "design_fish_tanks_and_water_systems_69": "Entwerfen Sie Aquarien und Wassersysteme",
+  "conversion_factor_70": "Umrechnungsfaktor",
+  "k_1_cubic_foot_748052_us_gallons_71": "1 Kubikfuß = 7,48052 US-Gallonen",
+  "this_conversion_factor_is_exact_and_widely_used_in_72": "Dieser Umrechnungsfaktor ist genau und wird häufig im Bau-, Sanitär- und Ingenieurwesen verwendet\n                        Anwendungen.",
+  "example_calculation_73": "Beispielrechnung",
+  "given_74": "Gegeben:",
+  "length_10_ft_width_8_ft_height_3_ft_75": "Länge = 10 Fuß, Breite = 8 Fuß, Höhe = 3 Fuß",
+  "solution_76": "Lösung:",
+  "area_10_8_80_ft_77": "Fläche = 10 × 8 = 80 ft²",
+  "volume_80_3_240_ft_78": "Volumen = 80 × 3 = 240 ft³",
+  "volume_in_gallons_240_748052_179532_gallons_79": "Volumen in Gallonen = 240 × 7,48052 = 1.795,32 Gallonen",
+  "gallons_per_sq_ft_179532_80_2244_galft_80": "Gallonen pro Quadratfuß = 1.795,32 ÷ 80 = 22,44 Gallonen/Quadratfuß"
+}

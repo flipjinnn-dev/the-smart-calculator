@@ -1,78 +1,152 @@
-"use client"
+"use client";
 
-import { useRef, useState } from "react"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Button } from "@/components/ui/button"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import Link from "next/link"
-import { Trophy, Calculator, Target, AlertCircle, Activity } from "lucide-react"
-import { useMobileScroll } from "@/hooks/useMobileScroll"
-import SEO from "@/lib/seo"
+import { useCalculatorContent } from "@/hooks/useCalculatorContent";
+import { usePathname } from "next/navigation";
+import { useRef, useState } from "react";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
-export default function ERACalculator() {
-  const resultsRef = useRef<HTMLDivElement>(null)
-  const scrollToRef = useMobileScroll()
-  const [result, setResult] = useState<any>(null)
-  const [showResult, setShowResult] = useState(false)
-  const [errors, setErrors] = useState<{ [key: string]: string }>({})
+import { Trophy, Calculator, Target, AlertCircle, Activity } from "lucide-react";
+import { useMobileScroll } from "@/hooks/useMobileScroll";
+export default function EarnedRunAverageCalculatorCalculator() {
+  const pathname = usePathname();
+  const language = pathname.split('/')[1] || 'en';
+  const {
+    content,
+    loading,
+    error: contentError
+  } = useCalculatorContent('earned-run-average-calculator', language, "calculator-ui");
+
+  // Use content or fallback to defaults
+  const contentData = content || {
+    "pageTitle": "",
+    "pageDescription": "",
+    "form": "",
+    "results": "",
+    "educational": "",
+    "messages": "",
+    "disclaimer": "",
+    "seekHelp": "",
+    "errors": "",
+    "tooltips": "",
+    "pitching_statistics_0": "",
+    "enter_pitching_statistics_to_calculate_earned_run__1": "",
+    "earned_runs_er_2": "",
+    "whole_innings_pitched_3": "",
+    "additional_outs_4": "",
+    "game_length_5": "",
+    "formula_6": "",
+    "era_earned_runs_total_innings_game_innings_7": "",
+    "total_innings_whole_innings_outs_3_each_out_repres_8": "",
+    "calculate_9": "",
+    "era_results_10": "",
+    "era_11": "",
+    "total_innings_12": "",
+    "enter_pitching_statistics_and_click_13": "",
+    "calculate_14": "",
+    "to_see_era_15": "",
+    "detailed_era_breakdown_16": "",
+    "era_17": "",
+    "earned_run_average_18": "",
+    "earned_runs_19": "",
+    "er_20": "",
+    "total_innings_21": "",
+    "ip_22": "",
+    "game_length_23": "",
+    "innings_24": "",
+    "calculation_steps_25": "",
+    "step_1_26": "",
+    "total_innings_27": "",
+    "k_3_28": "",
+    "innings_29": "",
+    "step_2_30": "",
+    "era_31": "",
+    "understanding_era_in_baseball_32": "",
+    "what_is_era_33": "",
+    "earned_run_average_era_measures_how_many_earned_ru_34": "",
+    "era_interpretation_35": "",
+    "under_200_excellent_36": "",
+    "k_200300_very_good_37": "",
+    "k_300400_good_38": "",
+    "k_400500_average_39": "",
+    "above_500_below_average_40": "",
+    "sample_calculation_41": "",
+    "example_42": "",
+    "pitcher_statistics_43": "",
+    "earned_runs_15_44": "",
+    "innings_65_45": "",
+    "outs_2_46": "",
+    "game_innings_9_47": "",
+    "calculation_48": "",
+    "total_ip_65_23_6567_49": "",
+    "era_15_6567_9_50": "",
+    "era_206_51": ""
+  };
+  const resultsRef = useRef<HTMLDivElement>(null);
+  const scrollToRef = useMobileScroll();
+  const [result, setResult] = useState<any>(null);
+  const [showResult, setShowResult] = useState(false);
+  const [errors, setErrors] = useState<{
+    [key: string]: string;
+  }>({});
 
   // Input states
-  const [earnedRuns, setEarnedRuns] = useState("")
-  const [wholeInnings, setWholeInnings] = useState("")
-  const [outs, setOuts] = useState("0")
-  const [gameInnings, setGameInnings] = useState("9")
-
-  const outsOptions = [
-    { value: "0", label: "0 outs" },
-    { value: "1", label: "1 out" },
-    { value: "2", label: "2 outs" },
-  ]
-
-  const gameInningsOptions = [
-    { value: "9", label: "9 innings (MLB/Professional)" },
-    { value: "7", label: "7 innings (Softball/High School)" },
-  ]
-
+  const [earnedRuns, setEarnedRuns] = useState("");
+  const [wholeInnings, setWholeInnings] = useState("");
+  const [outs, setOuts] = useState("0");
+  const [gameInnings, setGameInnings] = useState("9");
+  const outsOptions = [{
+    value: "0",
+    label: "0 outs"
+  }, {
+    value: "1",
+    label: "1 out"
+  }, {
+    value: "2",
+    label: "2 outs"
+  }];
+  const gameInningsOptions = [{
+    value: "9",
+    label: "9 innings (MLB/Professional)"
+  }, {
+    value: "7",
+    label: "7 innings (Softball/High School)"
+  }];
   const validateInputs = () => {
-    const newErrors: { [key: string]: string } = {}
-
+    const newErrors: {
+      [key: string]: string;
+    } = {};
     if (!earnedRuns || Number.parseFloat(earnedRuns) < 0) {
-      newErrors.earnedRuns = "Please enter a valid number of earned runs (≥ 0)"
+      newErrors.earnedRuns = "Please enter a valid number of earned runs (≥ 0)";
     }
-
     if (!wholeInnings || Number.parseFloat(wholeInnings) < 0) {
-      newErrors.wholeInnings = "Please enter a valid number of whole innings (≥ 0)"
+      newErrors.wholeInnings = "Please enter a valid number of whole innings (≥ 0)";
     }
-
-    const totalInnings = Number.parseFloat(wholeInnings || "0") + Number.parseFloat(outs) / 3
+    const totalInnings = Number.parseFloat(wholeInnings || "0") + Number.parseFloat(outs) / 3;
     if (totalInnings <= 0) {
-      newErrors.wholeInnings = "Total innings pitched must be greater than 0"
+      newErrors.wholeInnings = "Total innings pitched must be greater than 0";
     }
-
     if (!gameInnings || Number.parseFloat(gameInnings) <= 0) {
-      newErrors.gameInnings = "Please enter a valid number of game innings"
+      newErrors.gameInnings = "Please enter a valid number of game innings";
     }
-
-    setErrors(newErrors)
-    return Object.keys(newErrors).length === 0
-  }
-
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
   const calculateERA = () => {
-    if (!validateInputs()) return
-
-    const er = Number.parseFloat(earnedRuns)
-    const ipWhole = Number.parseFloat(wholeInnings)
-    const outsValue = Number.parseFloat(outs)
-    const gi = Number.parseFloat(gameInnings)
+    if (!validateInputs()) return;
+    const er = Number.parseFloat(earnedRuns);
+    const ipWhole = Number.parseFloat(wholeInnings);
+    const outsValue = Number.parseFloat(outs);
+    const gi = Number.parseFloat(gameInnings);
 
     // Step 1: Convert Innings + Outs into Total Innings
-    const ipTotal = ipWhole + outsValue / 3
+    const ipTotal = ipWhole + outsValue / 3;
 
-    // Step 2: Calculate ERA
-    const era = (er / ipTotal) * gi
-
+    // Step 2: Calculate
+    const era = er / ipTotal * gi;
     setResult({
       earnedRuns: er,
       wholeInnings: ipWhole,
@@ -80,61 +154,15 @@ export default function ERACalculator() {
       totalInnings: ipTotal,
       gameInnings: gi,
       era: era,
-      outsAsFraction: outsValue === 1 ? "1/3" : outsValue === 2 ? "2/3" : "0",
-    })
-    setShowResult(true)
-  // Scroll to results
-  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+      outsAsFraction: outsValue === 1 ? "1/3" : outsValue === 2 ? "2/3" : "0"
+    });
+    setShowResult(true);
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+  };
+  return <>
 
-  }
-
-  return (
-    <>
-<SEO
-  title="ERA Calculator – Earned Run Average Tool"
-  description="Calculate ERA quickly for baseball pitchers. Use our free earned run average calculator to analyze pitching performance."
-  keywords="ERA calculator, earned run average calculator, baseball pitching stats, baseball performance tool"
-  slug="/sports/earned-run-average-calculator"
-/>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image_720-8sE77EX08xKuB6AvLTisdyhRT3j1X2.png"
-                  alt="Smart Calculator Logo"
-                  className="w-12 h-12"
-                />
-                <div>
-                  <Link
-                    href="/"
-                    className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-slate-600 bg-clip-text text-transparent"
-                  >
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">ERA Calculator</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-blue-600">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <Link href="/sports" className="text-gray-500 hover:text-blue-600">
-                Sports
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">ERA Calculator</span>
-            </div>
-          </div>
-        </nav>
 
         {/* Main Content */}
         <main className="py-8 px-4 sm:px-6 lg:px-8 bg-white">
@@ -145,11 +173,8 @@ export default function ERACalculator() {
                   <Trophy className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">ERA Calculator</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Calculate Earned Run Average (ERA) for baseball and softball pitchers. Convert innings and outs to
-                precise ERA calculations with proper fractional innings handling.
-              </p>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -159,106 +184,82 @@ export default function ERACalculator() {
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Activity className="w-6 h-6 text-blue-600" />
-                      <span>Pitching Statistics</span>
+                      <span>{contentData.pitching_statistics_0}</span>
                     </CardTitle>
-                    <CardDescription className="text-base">
-                      Enter pitching statistics to calculate Earned Run Average
-                    </CardDescription>
+                    <CardDescription className="text-base">{contentData.enter_pitching_statistics_to_calculate_earned_run__1}</CardDescription>
                   </CardHeader>
                   <CardContent className="p-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                       {/* Earned Runs */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block">Earned Runs (ER)</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.earned_runs_er_2}</Label>
                         <div className="relative">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                             <Target className="h-5 w-5 text-blue-500" />
                           </div>
-                          <Input
-                            className={`w-full pl-10 h-12 rounded-xl border-gray-200 focus:border-blue-400 focus:ring-blue-200 shadow-sm ${
-                              errors.earnedRuns ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                            }`}
-                            type="number"
-                            step="1"
-                            min="0"
-                            placeholder="Enter earned runs"
-                            value={earnedRuns}
-                            onChange={(e) => {
-                              setEarnedRuns(e.target.value)
-                              if (errors.earnedRuns) setErrors((prev) => ({ ...prev, earnedRuns: "" }))
-                            }}
-                          />
+                          <Input className={`w-full pl-10 h-12 rounded-xl border-gray-200 focus:border-blue-400 focus:ring-blue-200 shadow-sm ${errors.earnedRuns ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="1" min="0" placeholder="Enter earned runs" value={earnedRuns} onChange={e => {
+                          setEarnedRuns(e.target.value);
+                          if (errors.earnedRuns) setErrors(prev => ({
+                            ...prev,
+                            earnedRuns: ""
+                          }));
+                        }} />
                         </div>
-                        {errors.earnedRuns && (
-                          <div className="flex items-center mt-2 text-red-600">
+                        {errors.earnedRuns && <div className="flex items-center mt-2 text-red-600">
                             <AlertCircle className="w-4 h-4 mr-1" />
                             <span className="text-sm">{errors.earnedRuns}</span>
-                          </div>
-                        )}
+                          </div>}
                       </div>
 
                       {/* Whole Innings */}
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block">Whole Innings Pitched</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.whole_innings_pitched_3}</Label>
                         <div className="relative">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                             <Calculator className="h-5 w-5 text-blue-500" />
                           </div>
-                          <Input
-                            className={`w-full pl-10 h-12 rounded-xl border-gray-200 focus:border-blue-400 focus:ring-blue-200 shadow-sm ${
-                              errors.wholeInnings ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                            }`}
-                            type="number"
-                            step="1"
-                            min="0"
-                            placeholder="Enter whole innings"
-                            value={wholeInnings}
-                            onChange={(e) => {
-                              setWholeInnings(e.target.value)
-                              if (errors.wholeInnings) setErrors((prev) => ({ ...prev, wholeInnings: "" }))
-                            }}
-                          />
+                          <Input className={`w-full pl-10 h-12 rounded-xl border-gray-200 focus:border-blue-400 focus:ring-blue-200 shadow-sm ${errors.wholeInnings ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="1" min="0" placeholder="Enter whole innings" value={wholeInnings} onChange={e => {
+                          setWholeInnings(e.target.value);
+                          if (errors.wholeInnings) setErrors(prev => ({
+                            ...prev,
+                            wholeInnings: ""
+                          }));
+                        }} />
                         </div>
-                        {errors.wholeInnings && (
-                          <div className="flex items-center mt-2 text-red-600">
+                        {errors.wholeInnings && <div className="flex items-center mt-2 text-red-600">
                             <AlertCircle className="w-4 h-4 mr-1" />
                             <span className="text-sm">{errors.wholeInnings}</span>
-                          </div>
-                        )}
+                          </div>}
                       </div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                       {/* Outs */}
                       <div className="mb-6">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block">Additional Outs</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.additional_outs_4}</Label>
                         <Select value={outs} onValueChange={setOuts}>
                           <SelectTrigger className="w-full h-12 rounded-xl border-gray-200 focus:border-blue-400 focus:ring-blue-200">
                             <SelectValue placeholder="Select additional outs" />
                           </SelectTrigger>
                           <SelectContent>
-                            {outsOptions.map((option) => (
-                              <SelectItem key={option.value} value={option.value}>
+                            {outsOptions.map(option => <SelectItem key={option.value} value={option.value}>
                                 {option.label}
-                              </SelectItem>
-                            ))}
+                              </SelectItem>)}
                           </SelectContent>
                         </Select>
                       </div>
 
                       {/* Game Innings */}
                       <div className="mb-6">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block">Game Length</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.game_length_5}</Label>
                         <Select value={gameInnings} onValueChange={setGameInnings}>
                           <SelectTrigger className="w-full h-12 rounded-xl border-gray-200 focus:border-blue-400 focus:ring-blue-200">
                             <SelectValue placeholder="Select game length" />
                           </SelectTrigger>
                           <SelectContent>
-                            {gameInningsOptions.map((option) => (
-                              <SelectItem key={option.value} value={option.value}>
+                            {gameInningsOptions.map(option => <SelectItem key={option.value} value={option.value}>
                                 {option.label}
-                              </SelectItem>
-                            ))}
+                              </SelectItem>)}
                           </SelectContent>
                         </Select>
                       </div>
@@ -266,19 +267,11 @@ export default function ERACalculator() {
 
                     <div className="mb-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
                       <p className="text-sm text-gray-700">
-                        <strong>Formula:</strong> ERA = (Earned Runs ÷ Total Innings) × Game Innings
-                      </p>
-                      <p className="text-xs text-gray-600 mt-1">
-                        Total Innings = Whole Innings + (Outs ÷ 3). Each out represents 1/3 of an inning.
-                      </p>
+                        <strong>{contentData.formula_6}</strong>{contentData.era_earned_runs_total_innings_game_innings_7}</p>
+                      <p className="text-xs text-gray-600 mt-1">{contentData.total_innings_whole_innings_outs_3_each_out_repres_8}</p>
                     </div>
 
-                    <Button
-                      onClick={calculateERA}
-                      className="w-full h-12 text-lg bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800"
-                    >
-                      Calculate ERA
-                    </Button>
+                    <Button onClick={calculateERA} className="w-full h-12 text-lg bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800">{contentData.calculate_9}</Button>
                   </CardContent>
                 </Card>
               </div>
@@ -290,44 +283,37 @@ export default function ERACalculator() {
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-600 to-indigo-700 flex items-center justify-center mb-3 shadow-lg">
                       <Trophy className="w-6 h-6 text-white" />
                     </div>
-                    <CardTitle className="text-2xl font-bold text-blue-700 tracking-tight">ERA Results</CardTitle>
+                    <CardTitle className="text-2xl font-bold text-blue-700 tracking-tight">{contentData.era_results_10}</CardTitle>
                   </CardHeader>
                   <CardContent className="w-full flex flex-col items-center justify-center">
-                    {showResult && result ? (
-                      <div className="text-center space-y-4">
+                    {showResult && result ? <div className="text-center space-y-4">
                         <div className="grid grid-cols-1 gap-3 text-sm">
                           <div className="bg-white p-4 rounded-lg border border-blue-200">
                             <p className="text-3xl font-bold text-blue-900">{result.era?.toFixed(2)}</p>
-                            <p className="text-gray-600">ERA</p>
+                            <p className="text-gray-600">{contentData.era_11}</p>
                           </div>
                           <div className="bg-white p-3 rounded-lg border border-blue-200">
                             <p className="text-lg font-bold text-blue-900">{result.totalInnings?.toFixed(2)}</p>
-                            <p className="text-gray-600">Total Innings</p>
+                            <p className="text-gray-600">{contentData.total_innings_12}</p>
                           </div>
                         </div>
-                      </div>
-                    ) : (
-                      <div className="flex flex-col items-center justify-center">
+                      </div> : <div className="flex flex-col items-center justify-center">
                         <Trophy className="w-8 h-8 text-blue-300 mb-2" />
-                        <p className="text-gray-500 text-center text-base">
-                          Enter pitching statistics and click{" "}
-                          <span className="font-semibold text-blue-600">Calculate</span> to see ERA.
-                        </p>
-                      </div>
-                    )}
+                        <p className="text-gray-500 text-center text-base">{contentData.enter_pitching_statistics_and_click_13}{" "}
+                          <span className="font-semibold text-blue-600">{contentData.calculate_14}</span>{contentData.to_see_era_15}</p>
+                      </div>}
                   </CardContent>
                 </Card>
               </div>
             </div>
 
             {/* Detailed Results Section */}
-            {showResult && result && (
-              <div className="mt-8">
+            {showResult && result && <div className="mt-8">
                 <Card className="shadow-2xl border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calculator className="w-6 h-6 text-blue-600" />
-                      <span>Detailed ERA Breakdown</span>
+                      <span>{contentData.detailed_era_breakdown_16}</span>
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="p-8">
@@ -336,55 +322,52 @@ export default function ERACalculator() {
                         <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-indigo-700 rounded-full flex items-center justify-center mx-auto mb-3">
                           <Trophy className="w-6 h-6 text-white" />
                         </div>
-                        <h3 className="text-lg font-semibold text-blue-700 mb-2">ERA</h3>
+                        <h3 className="text-lg font-semibold text-blue-700 mb-2">{contentData.era_17}</h3>
                         <p className="text-3xl font-bold text-blue-900 mb-1">{result.era?.toFixed(2)}</p>
-                        <p className="text-sm text-blue-600">Earned Run Average</p>
+                        <p className="text-sm text-blue-600">{contentData.earned_run_average_18}</p>
                       </div>
                       <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl border border-blue-200">
                         <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-indigo-700 rounded-full flex items-center justify-center mx-auto mb-3">
                           <Target className="w-6 h-6 text-white" />
                         </div>
-                        <h3 className="text-lg font-semibold text-blue-700 mb-2">Earned Runs</h3>
+                        <h3 className="text-lg font-semibold text-blue-700 mb-2">{contentData.earned_runs_19}</h3>
                         <p className="text-2xl font-bold text-blue-900 mb-1">{result.earnedRuns}</p>
-                        <p className="text-sm text-blue-600">ER</p>
+                        <p className="text-sm text-blue-600">{contentData.er_20}</p>
                       </div>
                       <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl border border-blue-200">
                         <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-indigo-700 rounded-full flex items-center justify-center mx-auto mb-3">
                           <Calculator className="w-6 h-6 text-white" />
                         </div>
-                        <h3 className="text-lg font-semibold text-blue-700 mb-2">Total Innings</h3>
+                        <h3 className="text-lg font-semibold text-blue-700 mb-2">{contentData.total_innings_21}</h3>
                         <p className="text-2xl font-bold text-blue-900 mb-1">{result.totalInnings?.toFixed(2)}</p>
-                        <p className="text-sm text-blue-600">
-                          IP ({result.wholeInnings} + {result.outsAsFraction})
+                        <p className="text-sm text-blue-600">{contentData.ip_22}{result.wholeInnings} + {result.outsAsFraction})
                         </p>
                       </div>
                       <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl border border-blue-200">
                         <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-indigo-700 rounded-full flex items-center justify-center mx-auto mb-3">
                           <Activity className="w-6 h-6 text-white" />
                         </div>
-                        <h3 className="text-lg font-semibold text-blue-700 mb-2">Game Length</h3>
+                        <h3 className="text-lg font-semibold text-blue-700 mb-2">{contentData.game_length_23}</h3>
                         <p className="text-2xl font-bold text-blue-900 mb-1">{result.gameInnings}</p>
-                        <p className="text-sm text-blue-600">innings</p>
+                        <p className="text-sm text-blue-600">{contentData.innings_24}</p>
                       </div>
                     </div>
 
                     <div className="mt-6 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg border border-blue-200">
-                      <h4 className="font-semibold text-blue-700 mb-2">Calculation Steps:</h4>
+                      <h4 className="font-semibold text-blue-700 mb-2">{contentData.calculation_steps_25}</h4>
                       <div className="text-gray-700 space-y-1">
                         <p>
-                          <strong>Step 1:</strong> Total Innings = {result.wholeInnings} + ({result.outs}/3) ={" "}
-                          {result.totalInnings?.toFixed(2)} innings
-                        </p>
+                          <strong>{contentData.step_1_26}</strong>{contentData.total_innings_27}{result.wholeInnings} + ({result.outs}{contentData.k_3_28}{" "}
+                          {result.totalInnings?.toFixed(2)}{contentData.innings_29}</p>
                         <p>
-                          <strong>Step 2:</strong> ERA = ({result.earnedRuns} ÷ {result.totalInnings?.toFixed(2)}) ×{" "}
+                          <strong>{contentData.step_2_30}</strong>{contentData.era_31}{result.earnedRuns} ÷ {result.totalInnings?.toFixed(2)}) ×{" "}
                           {result.gameInnings} = {result.era?.toFixed(2)}
                         </p>
                       </div>
                     </div>
                   </CardContent>
                 </Card>
-              </div>
-            )}
+              </div>}
 
             {/* Educational Content */}
             <div className="mt-12">
@@ -393,45 +376,39 @@ export default function ERACalculator() {
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-600 to-indigo-700 flex items-center justify-center mr-3 shadow-lg">
                     <Trophy className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-2xl font-bold text-blue-700 tracking-tight">
-                    Understanding ERA in Baseball
-                  </CardTitle>
+                  <CardTitle className="text-2xl font-bold text-blue-700 tracking-tight">{contentData.understanding_era_in_baseball_32}</CardTitle>
                 </CardHeader>
                 <CardContent className="w-full">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
-                      <h3 className="text-lg font-semibold text-blue-700 mb-3">What is ERA?</h3>
-                      <p className="text-gray-700 mb-4">
-                        Earned Run Average (ERA) measures how many earned runs a pitcher allows per nine innings
-                        pitched. It's one of the most important statistics for evaluating pitcher performance.
-                      </p>
-                      <h3 className="text-lg font-semibold text-blue-700 mb-3">ERA Interpretation</h3>
+                      <h3 className="text-lg font-semibold text-blue-700 mb-3">{contentData.what_is_era_33}</h3>
+                      <p className="text-gray-700 mb-4">{contentData.earned_run_average_era_measures_how_many_earned_ru_34}</p>
+                      <h3 className="text-lg font-semibold text-blue-700 mb-3">{contentData.era_interpretation_35}</h3>
                       <ul className="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Under 2.00: Excellent</li>
-                        <li>2.00-3.00: Very Good</li>
-                        <li>3.00-4.00: Good</li>
-                        <li>4.00-5.00: Average</li>
-                        <li>Above 5.00: Below Average</li>
+                        <li>{contentData.under_200_excellent_36}</li>
+                        <li>{contentData.k_200300_very_good_37}</li>
+                        <li>{contentData.k_300400_good_38}</li>
+                        <li>{contentData.k_400500_average_39}</li>
+                        <li>{contentData.above_500_below_average_40}</li>
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-blue-700 mb-3">Sample Calculation</h3>
+                      <h3 className="text-lg font-semibold text-blue-700 mb-3">{contentData.sample_calculation_41}</h3>
                       <div className="bg-white p-4 rounded-lg border border-blue-200 mb-4">
                         <p className="text-gray-700 mb-2">
-                          <strong>Example:</strong> Pitcher Statistics
-                        </p>
-                        <p className="text-gray-700">Earned Runs: 15</p>
-                        <p className="text-gray-700">Innings: 65</p>
-                        <p className="text-gray-700">Outs: 2</p>
-                        <p className="text-gray-700">Game Innings: 9</p>
+                          <strong>{contentData.example_42}</strong>{contentData.pitcher_statistics_43}</p>
+                        <p className="text-gray-700">{contentData.earned_runs_15_44}</p>
+                        <p className="text-gray-700">{contentData.innings_65_45}</p>
+                        <p className="text-gray-700">{contentData.outs_2_46}</p>
+                        <p className="text-gray-700">{contentData.game_innings_9_47}</p>
                       </div>
                       <div className="bg-white p-4 rounded-lg border border-blue-200">
                         <p className="text-gray-700 mb-2">
-                          <strong>Calculation:</strong>
+                          <strong>{contentData.calculation_48}</strong>
                         </p>
-                        <p className="text-gray-700">Total IP = 65 + (2/3) = 65.67</p>
-                        <p className="text-gray-700">ERA = (15 ÷ 65.67) × 9</p>
-                        <p className="text-gray-700 font-semibold">ERA = 2.06</p>
+                        <p className="text-gray-700">{contentData.total_ip_65_23_6567_49}</p>
+                        <p className="text-gray-700">{contentData.era_15_6567_9_50}</p>
+                        <p className="text-gray-700 font-semibold">{contentData.era_206_51}</p>
                       </div>
                     </div>
                   </div>
@@ -441,8 +418,6 @@ export default function ERACalculator() {
           </div>
         </main>
 
-
       </div>
-    </>
-  )
+    </>;
 }

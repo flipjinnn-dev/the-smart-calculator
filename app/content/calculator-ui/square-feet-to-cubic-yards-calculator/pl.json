@@ -1,0 +1,163 @@
+{
+  "pageTitle": "Przelicznik Stopy kwadratowe na Jardy sześcienne",
+  "pageDescription": "Konwertuj stopy kwadratowe na metry sześcienne betonu, gleby i innych materiałów w projektach budowlanych i kształtowania krajobrazu",
+  "form": {
+    "labels": {
+      "area": "Powierzchnia (stopy kwadratowe)",
+      "depth": "Głębokość/wysokość",
+      "depthUnit": "Jednostka głębokości",
+      "materialType": "Rodzaj materiału",
+      "wasteFactor": "Współczynnik odpadów (%)"
+    },
+    "placeholders": {
+      "area": "Wprowadź powierzchnię w stopach kwadratowych",
+      "depth": "Wprowadź głębokość lub wysokość",
+      "wasteFactor": "Wprowadź współczynnik marnotrawstwa (0-50%)"
+    },
+    "buttons": {
+      "calculate": "Oblicz jardy sześcienne",
+      "reset": "Nastawić"
+    },
+    "depthUnits": {
+      "inches": "Cale",
+      "feet": "Stopy",
+      "centimeters": "Centymetry",
+      "meters": "Metry"
+    },
+    "materialTypes": {
+      "concrete": "Beton",
+      "soil": "Gleba/brud",
+      "mulch": "Chochoł",
+      "gravel": "Żwir",
+      "sand": "Piasek",
+      "asphalt": "Asfalt",
+      "custom": "Materiał niestandardowy"
+    }
+  },
+  "results": {
+    "cubicYards": "Jardy sześcienne",
+    "cubicFeet": "Stopy sześcienne",
+    "cubicMeters": "Metry sześcienne",
+    "conversionResultsTitle": "Wyniki konwersji",
+    "materialVolume": "Objętość materiału",
+    "withWaste": "Z współczynnikiem odpadów"
+  },
+  "educational": {
+    "conversionInfo": "Informacje o konwersji",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby konstrukcyjne",
+    "conversionFacts": {
+      "formula": {
+        "title": "Formuła konwersji",
+        "description": "Jardy sześcienne = (Powierzchnia × Głębokość) ÷ 27, gdzie 27 stóp sześciennych = 1 jard sześcienny"
+      },
+      "applications": {
+        "title": "Typowe zastosowania",
+        "description": "Zamawianie betonu, dostawa gleby, pokrycie ściółką i wycena materiału"
+      },
+      "accuracy": {
+        "title": "Współczynniki dokładności",
+        "description": "Rzeczywiste wymagania mogą się różnić ze względu na zagęszczenie, osiadanie i dokładność pomiaru"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator podaje jedynie szacunki",
+      "ordering": "Zamów dodatkowy materiał, aby uwzględnić różnice i wycieki"
+    },
+    "importantNotesList": [
+      "Zawsze dodawaj 5-10% na odpady i różnice w rzeczywistych projektach",
+      "W końcowych obliczeniach uwzględnij zagęszczenie i osiadanie materiału",
+      "Sprawdź minimalne ilości zamówienia lokalnego dostawcy",
+      "Zmierz dwa razy i zamów raz, aby uniknąć niedoborów"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź obszar i głębokość, aby obliczyć objętość materiału",
+    "resultMessage": "Obliczenie objętości pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia objętości:",
+    "conversionAnalysis": "Analiza stóp kwadratowych na jardy sześcienne"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten pozwala oszacować objętość materiałów budowlanych. Rzeczywiste wymagania mogą się różnić ze względu na zagęszczenie, osiadanie, dokładność pomiaru i czynniki specyficzne dla projektu. Zawsze konsultuj się z dostawcami w sprawie ostatecznych ilości zamówienia."
+  },
+  "seekHelp": {
+    "title": "Zasoby konstrukcyjne",
+    "content": "Aby uzyskać profesjonalną wycenę budowy i planowanie materiałów, skonsultuj się z certyfikowanymi wykonawcami lub skorzystaj ze specjalistycznego oprogramowania do wyceny pod kątem wymagań specyficznych dla projektu i warunków lokalnych."
+  },
+  "errors": {
+    "area": "Wprowadź prawidłowy obszar w stopach kwadratowych",
+    "depth": "Wprowadź prawidłową głębokość lub wysokość",
+    "depthUnit": "Wybierz jednostkę głębokości",
+    "materialType": "Proszę wybrać rodzaj materiału",
+    "wasteFactor": "Proszę wprowadzić prawidłowy współczynnik odpadów (0-50%)"
+  },
+  "tooltips": {
+    "area": "Całkowita powierzchnia do pokrycia",
+    "depth": "Wymagana grubość lub głębokość materiału",
+    "depthUnit": "Jednostka miary głębokości",
+    "materialType": "Rodzaj materiału wpływa na gęstość i obsługę",
+    "wasteFactor": "Dodatkowy procent uwzględniający odpady i różnice"
+  },
+  "area_depth_inputs_0": "Dane wejściowe dotyczące powierzchni i głębokości",
+  "enter_area_and_depth_measurements_to_calculate_vol_1": "Wprowadź pomiary powierzchni i głębokości, aby obliczyć objętość w jardach sześciennych",
+  "area_2": "Obszar",
+  "ft_3": "ft²",
+  "in_4": "w²",
+  "yd_5": "jard²",
+  "m_6": "m²",
+  "cm_7": "cm²",
+  "depth_8": "Głębokość",
+  "in_9": "W",
+  "ft_10": "stopy",
+  "yd_11": "jard",
+  "cm_12": "cm",
+  "m_13": "m",
+  "calculate_14": "Obliczać",
+  "reset_15": "Nastawić",
+  "results_16": "Wyniki",
+  "input_values_converted_17": "Wartości wejściowe (przeliczone)",
+  "area_18": "Obszar:",
+  "ft_19": "ft²",
+  "depth_20": "Głębokość:",
+  "inches_21": "cale",
+  "volume_22": "Tom",
+  "cubic_yards_yd_23": "jardy sześcienne (yd³)",
+  "stepbystep_calculation_24": "Obliczenia krok po kroku",
+  "step_1_25": "Krok 1:",
+  "step_2_26": "Krok 2:",
+  "step_3_27": "Krok 3:",
+  "direct_formula_28": "Formuła bezpośrednia:",
+  "enter_area_and_depth_to_see_29": "Wprowadź obszar i głębokość, aby zobaczyć",
+  "volume_calculation_30": "obliczanie objętości",
+  "in_cubic_yards_31": "w jardach sześciennych.",
+  "understanding_square_feet_to_cubic_yards_conversio_32": "Zrozumienie konwersji stóp kwadratowych na jardy sześcienne",
+  "formulas_used_33": "Używane formuły",
+  "step_1_34": "Krok 1:",
+  "convert_depth_to_feet_depthft_depthin_12_35": "Zamień głębokość na stopy: głębokość_ft = głębokość_in ÷ 12",
+  "step_2_36": "Krok 2:",
+  "calculate_feet_cubicft_areaft_depthft_37": "Oblicz stopy: stopa sześcienna = stopa powierzchniowa² × stopa głębokości",
+  "step_3_38": "Krok 3:",
+  "convert_to_cubic_yards_cubicyd_cubicft_27_39": "Zamień na jardy sześcienne: sześcienny_yd = sześcienny_ft ÷ 27",
+  "direct_formula_40": "Formuła bezpośrednia:",
+  "cubicyd_areaft_depthin_324_41": "sześcienny_yd = (powierzchnia_ft² × głębokość_cal) ÷ ​​324",
+  "example_calculation_42": "Przykładowe obliczenia",
+  "given_43": "Dany:",
+  "area_100_ft_depth_6_inches_44": "Powierzchnia = 100 stóp², głębokość = 6 cali",
+  "solution_45": "Rozwiązanie:",
+  "step_1_6_inches_12_05_feet_46": "Krok 1: 6 cali ÷ 12 = 0,5 stopy",
+  "step_2_100_ft_05_ft_50_ft_47": "Krok 2: 100 stóp² × 0,5 stopy = 50 stóp³",
+  "step_3_50_ft_27_185_yd_48": "Krok 3: 50 stóp3 ÷ 27 = 1,85 jarda3",
+  "direct_100_6_324_185_yd_49": "Bezpośrednie: (100 × 6) ÷ 324 = 1,85 jarda³",
+  "common_applications_50": "Typowe zastosowania",
+  "concrete_51": "Beton:",
+  "calculate_needed_for_slabs_driveways_and_foundatio_52": "Oblicz potrzebne płyty, podjazdy i fundamenty",
+  "landscaping_53": "Architektura krajobrazu:",
+  "estimate_mulch_soil_or_gravel_for_garden_beds_54": "Oszacuj ściółkę, ziemię lub żwir do łóżek ogrodowych",
+  "construction_55": "Budowa:",
+  "determine_material_quantities_for_excavation_proje_56": "Określenie ilości materiałów dla projektów wykopów",
+  "paving_57": "Bruk:",
+  "calculate_or_paving_material_requirements_58": "Oblicz lub wymagania dotyczące materiału nawierzchniowego"
+}

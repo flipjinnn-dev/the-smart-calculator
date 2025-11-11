@@ -1,0 +1,162 @@
+{
+  "pageTitle": "Kalkulator emerytury",
+  "pageDescription": "Zaplanuj swoje oszczędności emerytalne i oblicz wymagane składki, aby osiągnąć swoje cele emerytalne, korzystając z prognoz inflacji i zwrotu z inwestycji",
+  "form": {
+    "labels": {
+      "currentAge": "Obecny wiek",
+      "retirementAge": "Planowany wiek emerytalny",
+      "lifeExpectancy": "Długość życia",
+      "currentSavings": "Aktualne oszczędności emerytalne",
+      "annualSalary": "Aktualne roczne wynagrodzenie",
+      "salaryIncrease": "Oczekiwany roczny wzrost wynagrodzenia",
+      "currentContribution": "Bieżący wkład roczny",
+      "contributionIncrease": "Oczekiwany roczny wzrost składki",
+      "employerMatch": "Procent dopasowania pracodawcy",
+      "investmentReturn": "Oczekiwany zwrot z inwestycji",
+      "inflationRate": "Oczekiwana stopa inflacji",
+      "retirementIncome": "Pożądany roczny dochód emerytalny"
+    },
+    "placeholders": {
+      "currentAge": "Podaj swój aktualny wiek",
+      "retirementAge": "Podaj planowany wiek emerytalny",
+      "lifeExpectancy": "Podaj oczekiwaną długość życia",
+      "currentSavings": "Wprowadź aktualne oszczędności emerytalne",
+      "annualSalary": "Podaj swoje aktualne roczne wynagrodzenie",
+      "salaryIncrease": "Podaj oczekiwaną roczną podwyżkę wynagrodzenia (%)",
+      "currentContribution": "Wprowadź aktualną składkę roczną",
+      "contributionIncrease": "Wprowadź oczekiwany roczny wzrost składki (%)",
+      "employerMatch": "Wprowadź procent dopasowania pracodawcy (%)",
+      "investmentReturn": "Podaj oczekiwany zwrot z inwestycji (%)",
+      "inflationRate": "Podaj oczekiwaną stopę inflacji (%)",
+      "retirementIncome": "Wprowadź żądany roczny dochód emerytalny"
+    },
+    "buttons": {
+      "calculate": "Oblicz potrzeby emerytalne",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "yearsToRetirement": "Lata do emerytury",
+    "retirementSavings": "Prognozowane oszczędności emerytalne",
+    "retirementIncome": "Prognozowany roczny dochód emerytalny",
+    "incomeReplacement": "Stopa zastąpienia dochodu",
+    "shortfall": "Niedobór oszczędności emerytalnych",
+    "requiredContribution": "Wymagany wkład roczny",
+    "retirementResultsTitle": "Wyniki obliczeń emerytury"
+  },
+  "educational": {
+    "retirementInfo": "Informacje dotyczące planowania emerytalnego",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "retirementFacts": {
+      "replacementRate": {
+        "title": "Stopa zastąpienia dochodu",
+        "description": "Większość doradców finansowych zaleca zastąpienie 70–90% dochodów przedemerytalnych"
+      },
+      "socialSecurity": {
+        "title": "Świadczenia z Ubezpieczeń Społecznych",
+        "description": "Ubezpieczenie społeczne zazwyczaj zastępuje około 40% dochodu przedemerytalnego przeciętnie zarabiających"
+      },
+      "savingsRate": {
+        "title": "Wytyczne dotyczące stóp oszczędności",
+        "description": "Eksperci finansowi zalecają oszczędzanie 10-15% dochodów na emeryturę"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunkowe dane dotyczące planowania emerytalnego",
+      "actual": "Rzeczywiste potrzeby emerytalne mogą się różnić w zależności od stylu życia, stanu zdrowia i warunków rynkowych"
+    },
+    "importantNotesList": [
+      "Zacznij oszczędzać wcześniej, aby skorzystać z odsetek składanych",
+      "Weź pod uwagę koszty opieki zdrowotnej, które zazwyczaj rosną wraz z wiekiem",
+      "Zaplanuj dłuższą długość życia, potencjalnie 20–30 lat na emeryturze",
+      "Regularnie przeglądaj i dostosowuj swój plan emerytalny w miarę zmiany okoliczności"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje dotyczące planowania emerytalnego, aby obliczyć potrzeby w zakresie oszczędności",
+    "resultMessage": "Poniżej pokazane są wyniki obliczeń Twojej emerytury",
+    "assessmentResult": "Wynik obliczenia emerytury:",
+    "retirementAnalysis": "Analiza emerytury"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunkowe plany emerytalne w oparciu o prognozy matematyczne. Rzeczywiste potrzeby emerytalne mogą się znacznie różnić w zależności od stylu życia, kosztów opieki zdrowotnej, warunków rynkowych i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowane planowanie emerytalne i porady inwestycyjne, skonsultuj się z doradcami finansowymi lub specjalistami ds. planowania emerytalnego, posiadającymi wiedzę specjalistyczną w zakresie długoterminowego planowania finansowego i indywidualnych okoliczności."
+  },
+  "errors": {
+    "currentAge": "Proszę podać prawidłowy aktualny wiek",
+    "retirementAge": "Proszę podać prawidłowy wiek emerytalny",
+    "lifeExpectancy": "Proszę podać prawidłową oczekiwaną długość życia",
+    "currentSavings": "Proszę podać aktualne oszczędności emerytalne",
+    "annualSalary": "Proszę podać prawidłowe roczne wynagrodzenie",
+    "salaryIncrease": "Proszę podać prawidłową oczekiwaną podwyżkę wynagrodzenia",
+    "currentContribution": "Proszę podać aktualny aktualny wkład",
+    "contributionIncrease": "Proszę wprowadzić prawidłową oczekiwaną podwyżkę składki",
+    "employerMatch": "Wprowadź prawidłowy procent dopasowania pracodawcy",
+    "investmentReturn": "Proszę podać prawidłowy oczekiwany zwrot z inwestycji",
+    "inflationRate": "Proszę wprowadzić prawidłową oczekiwaną stopę inflacji",
+    "retirementIncome": "Proszę podać prawidłowy, pożądany dochód emerytalny"
+  },
+  "tooltips": {
+    "currentAge": "Twój obecny wiek w latach",
+    "retirementAge": "Wiek, w którym planujesz przejść na emeryturę",
+    "lifeExpectancy": "Oczekiwany wiek życia",
+    "currentSavings": "Saldo bieżące na kontach emerytalnych",
+    "annualSalary": "Twój aktualny roczny dochód",
+    "salaryIncrease": "Oczekiwany średnioroczny wzrost wynagrodzeń",
+    "currentContribution": "Kwota, którą obecnie wpłacasz rocznie",
+    "contributionIncrease": "Oczekiwany roczny wzrost składek",
+    "employerMatch": "Procent wynagrodzenia równy Twojemu pracodawcy",
+    "investmentReturn": "Oczekiwany średni roczny zwrot z inwestycji",
+    "inflationRate": "Oczekiwana średnioroczna stopa inflacji",
+    "retirementIncome": "Roczny dochód niezbędny na emeryturze"
+  },
+  "your_current_age_0": "Twój obecny wiek",
+  "your_planned_retirement_age_1": "Twój planowany wiek emerytalny",
+  "your_life_expectancy_2": "Twoja oczekiwana długość życia",
+  "current_annual_income_3": "Bieżący dochód roczny",
+  "expected_annual_income_increase_4": "Oczekiwany roczny wzrost dochodów (%)",
+  "income_needed_after_retirement_5": "Dochód potrzebny po przejściu na emeryturę (%)",
+  "average_investment_return_6": "Średni zwrot z inwestycji (%)",
+  "inflation_rate_7": "Stopa inflacji (%)",
+  "other_income_after_retirement_8": "Inne dochody po przejściu na emeryturę",
+  "your_current_income_9": "Twój aktualny dochód",
+  "your_current_retirement_savings_10": "Twoje obecne oszczędności emerytalne",
+  "your_age_now_11": "Twój wiek teraz",
+  "planned_retirement_age_12": "Planowany wiek emerytalny",
+  "amount_needed_at_retirement_age_13": "Kwota potrzebna w wieku emerytalnym",
+  "retirement_savings_now_14": "Oszczędności emerytalne już teraz",
+  "average_investment_return_year_15": "Średni zwrot z inwestycji (%/rok)",
+  "your_age_now_16": "Twój wiek teraz",
+  "planned_retirement_age_17": "Planowany wiek emerytalny",
+  "life_expectancy_18": "Długość życia",
+  "retirement_savings_today_19": "Dziś oszczędności emerytalne",
+  "annual_contribution_20": "Roczny wkład",
+  "monthly_contribution_21": "Składka miesięczna",
+  "average_investment_return_year_22": "Średni zwrot z inwestycji (%/rok)",
+  "inflation_rate_year_23": "Stopa inflacji (%/rok)",
+  "amount_you_have_24": "Kwota, którą posiadasz",
+  "planned_monthly_withdrawal_25": "Planowana miesięczna wypłata",
+  "average_investment_return_year_26": "Średni zwrot z inwestycji (%/rok)",
+  "home_27": "Dom",
+  "financial_28": "Budżetowy",
+  "retirement_calculator_29": "Kalkulator emerytury",
+  "retirement_details_30": "Szczegóły przejścia na emeryturę",
+  "enter_your_retirement_information_below_31": "Wprowadź poniżej dane dotyczące swojej emerytury",
+  "calculation_type_32": "Typ obliczenia",
+  "how_much_do_you_need_to_retire_33": "Ile potrzebujesz, aby przejść na emeryturę?",
+  "how_can_you_save_for_retirement_34": "Jak można oszczędzać na emeryturę?",
+  "how_much_can_you_withdraw_after_retirement_35": "Ile możesz wypłacić po przejściu na emeryturę?",
+  "how_long_can_your_money_last_36": "Jak długo mogą wystarczyć Twoje pieniądze?",
+  "calculate_plan_37": "Oblicz plan",
+  "your_retirement_results_38": "Twoje wyniki na emeryturze",
+  "see_your_retirement_calculation_results_here_39": "Tutaj możesz zobaczyć wyniki obliczeń swojej emerytury",
+  "retirement_calculation_40": "Obliczanie emerytury",
+  "fill_in_your_details_and_click_calculate_see_your__41": "Podaj swoje dane i kliknij Oblicz, aby zobaczyć swoje wyniki emerytalne"
+}

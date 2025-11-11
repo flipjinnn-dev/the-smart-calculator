@@ -1,0 +1,178 @@
+{
+  "pageTitle": "Body Type Calculator",
+  "pageDescription": "Discover your body type based on measurements with our comprehensive body type calculator",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Weight",
+      "unitSystem": "Unit System",
+      "bustChest": "Bust/Chest Circumference",
+      "waist": "Waist Circumference",
+      "hip": "Hip Circumference",
+      "shoulder": "Shoulder Width (Men only)"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}",
+      "bustChest": "Enter bust/chest measurement",
+      "waist": "Enter waist measurement",
+      "hip": "Enter hip measurement",
+      "shoulder": "Enter shoulder width"
+    },
+    "buttons": {
+      "calculate": "Calculate Body Type",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    }
+  },
+  "results": {
+    "bodyType": "Body Type",
+    "measurements": "Your Measurements",
+    "bodyTypeResultsTitle": "Body Type Results",
+    "whr": "Waist-to-Hip Ratio",
+    "bodyTypes": {
+      "hourglass": "Hourglass",
+      "pear": "Pear",
+      "apple": "Apple",
+      "rectangle": "Rectangle",
+      "invertedTriangle": "Inverted Triangle"
+    }
+  },
+  "educational": {
+    "bodyTypeInfo": "Body Type Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Professional",
+    "bodyTypeDescriptions": {
+      "hourglass": {
+        "title": "Hourglass",
+        "description": "Balanced bust and hip measurements with a well-defined waist"
+      },
+      "pear": {
+        "title": "Pear",
+        "description": "Wider hips and thighs with a narrower bust and shoulders"
+      },
+      "apple": {
+        "title": "Apple",
+        "description": "Wider waist and upper body with narrower hips"
+      },
+      "rectangle": {
+        "title": "Rectangle",
+        "description": "Similar measurements for bust, waist, and hips"
+      },
+      "invertedTriangle": {
+        "title": "Inverted Triangle",
+        "description": "Broader shoulders and bust with narrower hips"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a diagnostic tool",
+      "generalGuidelines": "Body types are general guidelines and may not apply to everyone"
+    },
+    "importantNotesList": [
+      "Body type can influence fitness and styling choices",
+      "Focus on overall health rather than achieving a specific body type",
+      "Consult healthcare professionals for personalized advice",
+      "Body type may change with age, fitness level, and other factors"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Enter your measurements to determine your body type",
+    "bodyTypeResult": "Your body type is: {bodyType}",
+    "whrResult": "Your waist-to-hip ratio is: {whr}",
+    "measurementInstructions": "Take measurements at the fullest part of each area",
+    "assessmentResult": "Assessment Result:",
+    "bodyTypeAnalysis": "Body Type Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates based on mathematical formulas and should not be used as a substitute for professional advice. Individual results may vary based on factors not accounted for in these calculations."
+  },
+  "seekHelp": {
+    "title": "Consult a Healthcare Professional",
+    "content": "For personalized health and fitness advice, please consult with a healthcare professional or certified fitness trainer who can provide guidance based on your complete health history and individual circumstances."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight",
+    "bustChest": "Please enter a valid bust/chest measurement",
+    "waist": "Please enter a valid waist measurement",
+    "hip": "Please enter a valid hip measurement",
+    "shoulder": "Please enter a valid shoulder width"
+  },
+  "tooltips": {
+    "age": "Age can affect body composition",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "bustChest": "Measure at the fullest part of your bust or chest",
+    "waist": "Measure at the narrowest part of your torso",
+    "hip": "Measure at the fullest part of your hips",
+    "shoulder": "Measure across the back from shoulder to shoulder (men only)"
+  },
+  "body_measurements_0": "Body Measurements",
+  "enter_your_measurements_to_determine_body_shape_an_1": "Enter your measurements to determine body shape and waist-hip ratio",
+  "unit_system_2": "Unit System",
+  "inches_3": "Inches",
+  "centimeters_4": "Centimeters",
+  "bust_size_5": "Bust Size (",
+  "waist_size_6": "Waist Size (",
+  "high_hip_size_7": "High Hip Size (",
+  "measured_about_7_inches_18_cm_below_waist_8": "Measured about 7 inches / 18 cm below waist",
+  "hip_size_9": "Hip Size (",
+  "measured_at_the_widest_part_of_hips_10": "Measured at the widest part of hips",
+  "calculate_type_11": "Calculate Type",
+  "reset_12": "Reset",
+  "body_analysis_13": "Body Analysis",
+  "whr_14": "WHR:",
+  "enter_all_measurements_and_click_calculate_type_to_15": "Enter all measurements and click \"Calculate Type\" to see your analysis.",
+  "body_type_analysis_results_16": "Body Type Analysis Results",
+  "body_shape_classification_17": "Body Shape Classification",
+  "classification_logic_18": "Classification Logic:",
+  "waisthip_ratio_whr_19": "Waist-Hip Ratio (WHR)",
+  "waist_hip_ratio_20": "Waist ÷ Hip Ratio",
+  "women_21": "Women:",
+  "k_085_low_risk_085_higher_risk_22": "≤0.85 Low risk, >0.85 Higher risk",
+  "men_23": "Men:",
+  "k_090_low_risk_090_higher_risk_24": "≤0.90 Low risk, >0.90 Higher risk",
+  "your_measurements_25": "Your Measurements",
+  "bust_26": "Bust:",
+  "waist_27": "Waist:",
+  "high_hip_28": "High Hip:",
+  "hip_29": "Hip:",
+  "important_notice_30": "Important Notice",
+  "this_tool_is_for_informational_purposes_only_and_n_31": "This tool is for informational purposes only and not a substitute for medical advice. Body\n                            shape classifications are general guidelines and individual variations are normal.",
+  "understanding_body_types_whr_32": "Understanding Body Types & WHR",
+  "body_shape_types_33": "Body Shape Types",
+  "hourglass_34": "Hourglass:",
+  "balanced_bust_and_hips_with_defined_waist_35": "Balanced bust and hips with defined waist",
+  "bottom_hourglass_36": "Bottom Hourglass:",
+  "slightly_larger_hips_with_defined_waist_37": "Slightly larger hips with defined waist",
+  "top_hourglass_38": "Top Hourglass:",
+  "slightly_larger_bust_with_defined_waist_39": "Slightly larger bust with defined waist",
+  "spoon_40": "Spoon:",
+  "fuller_hips_and_thighs_smaller_bust_41": "Fuller hips and thighs, smaller bust",
+  "triangle_pear_42": "Triangle (Pear):",
+  "larger_hips_than_bust_43": "Larger hips than bust",
+  "inverted_triangle_44": "Inverted Triangle:",
+  "larger_bust_than_hips_45": "Larger bust than hips",
+  "rectangle_46": "Rectangle:",
+  "similar_bust_waist_and_hip_measurements_47": "Similar bust, waist, and hip measurements",
+  "health_significance_48": "Health Significance",
+  "whr_health_risks_49": "WHR Health Risks:",
+  "higher_whr_indicates_more_abdominal_fat_associated_50": "Higher WHR indicates more abdominal fat, associated with increased risk of cardiovascular\n                              disease and diabetes.",
+  "body_shape_health_51": "Body Shape & Health:",
+  "apple_shapes_higher_whr_may_have_higher_health_ris_52": "Apple shapes (higher WHR) may have higher health risks than pear shapes, but individual\n                              factors vary greatly."
+}

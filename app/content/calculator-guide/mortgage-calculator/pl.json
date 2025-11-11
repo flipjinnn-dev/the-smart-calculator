@@ -1,0 +1,83 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Co to jest kredyt hipoteczny?",
+      "content": "Kredyt hipoteczny to kredyt mieszkaniowy zabezpieczony nieruchomością, najczęściej nieruchomością. Pożyczkodawca zapewnia pieniądze na zakup domu, a pożyczkobiorca zgadza się spłacić tę kwotę przez dłuższy okres, zwykle od 15 do 30 lat. Miesięczne płatności dzielą się na dwie główne części: kwotę główną, czyli pierwotną kwotę pożyczki, oraz odsetki, które stanowią koszt pożyczki. Kalkulator kredytu hipotecznego pomaga szczegółowo obliczyć te składniki, wraz z innymi odpowiednimi kosztami, takimi jak podatki od nieruchomości i ubezpieczenie, aby zapewnić dokładną miesięczną ratę."
+    },
+    {
+      "heading": "Kluczowe cechy naszego kalkulatora kredytu hipotecznego",
+      "subSections": [
+        {
+          "heading": "Kwota pożyczki",
+          "content": "Całkowita kwota pożyczona na zakup domu, obliczona poprzez odjęcie wszelkich zaliczek od ceny zakupu domu."
+        },
+        {
+          "heading": "Zadatek",
+          "content": "Jest to płatność z góry, zwykle wyrażana jako procent ceny całkowitej. Większa zaliczka często skutkuje lepszymi warunkami kredytu. Większość pożyczkodawców oczekuje 20% lub więcej, ale kupujący po raz pierwszy mogą czasami zapłacić zaledwie 3%."
+        },
+        {
+          "heading": "Okres pożyczki",
+          "content": "Czas potrzebny na spłatę pożyczki, często 15, 20 lub 30 lat. Krótsze warunki zazwyczaj skutkują niższą stopą procentową i szybszą spłatą."
+        },
+        {
+          "heading": "Stopa procentowa",
+          "content": "Koszt pożyczania pieniędzy, który może być stały lub regulowany. Kredyty hipoteczne o stałym oprocentowaniu (FRM) oferują stałe oprocentowanie przez cały okres trwania pożyczki, natomiast kredyty hipoteczne o zmiennym oprocentowaniu (ARM) mogą ulec zmianie po początkowym okresie. Skorzystaj z naszego kalkulatora kredytu hipotecznego o zmiennym oprocentowaniu, aby oszacować wpływ potencjalnych zmian oprocentowania."
+        },
+        {
+          "heading": "PMI (prywatne ubezpieczenie kredytu hipotecznego)",
+          "content": "Jeśli Twoja zaliczka jest mniejsza niż 20%, prawdopodobnie będziesz zobowiązany do zapłaty PMI. Kalkulator kredytu hipotecznego z opcją PMI pomaga uwzględnić te dodatkowe koszty w szacunkach."
+        }
+      ]
+    },
+    {
+      "heading": "Wyjaśnienie komponentów kalkulatora kredytu hipotecznego",
+      "subSections": [
+        {
+          "heading": "Koszty powtarzające się",
+          "content": "Podatki od nieruchomości: Podatki nakładane przez samorządy lokalne, zazwyczaj około 1,1% wartości nieruchomości w USA. Koszty te zwykle rosną co roku ze względu na inflację. Możesz uwzględnić je w podatku od nieruchomości i kalkulatorze kredytu hipotecznego, aby uzyskać pełny szacunek miesięcznych kosztów. Ubezpieczenie domu: Chroni dom przed nieoczekiwanymi uszkodzeniami. Koszt zależy od lokalizacji i wartości nieruchomości. Nasz kalkulator odsetek od kredytu hipotecznego może uwzględnić te koszty, aby uzyskać dokładną prognozę finansową. Opłaty HOA: Niektóre nieruchomości objęte są opłatami stowarzyszeniowymi właścicieli domów, często mniejszymi niż 1% wartości nieruchomości. Kondominia i domy szeregowe często wymagają tych opłat. Prywatne ubezpieczenie kredytu hipotecznego (PMI): wymagane, gdy zaliczka jest mniejsza niż 20%. Pomaga to chronić pożyczkodawcę w przypadku niewykonania zobowiązania przez pożyczkobiorcę."
+        },
+        {
+          "heading": "Koszty jednorazowe",
+          "content": "Koszty zamknięcia: Opłaty uiszczane przy zamykaniu domu, takie jak honoraria adwokackie, opłaty za wycenę i opłaty za tytuł własności. Koszty te zwykle wahają się od 2% do 5% ceny zakupu domu. Renowacje: Opcjonalne ulepszenia, takie jak aktualizacje kuchni lub nowa podłoga, mogą zwiększyć całkowite koszty, ale nie są uwzględniane w miesięcznych spłatach kredytu hipotecznego. Koszty różne: obejmują wydatki na przeprowadzkę, meble i naprawy domu po zakupie."
+        }
+      ]
+    },
+    {
+      "heading": "Opcje wcześniejszej spłaty w naszym kalkulatorze kredytu hipotecznego",
+      "content": "Wielu nabywców domów może chcieć spłacić kredyt hipoteczny wcześniej, niż jest to konieczne, aby zaoszczędzić na odsetkach lub z powodu refinansowania lub sprzedaży swojej nieruchomości. Nasz kalkulator spłaty kredytu hipotecznego z możliwością wcześniejszej spłaty może pomóc Ci to zaplanować.",
+      "subSections": [
+        {
+          "heading": "Strategie wcześniejszej spłaty kredytu hipotecznego",
+          "content": "Dodatkowe płatności: Dokonując dodatkowych płatności poza miesięcznym kredytem hipotecznym, możesz szybciej obniżyć kwotę kapitału, co z czasem skutkuje niższymi kosztami odsetek. Płatności dwutygodniowe: Zamiast płacić co miesiąc, dokonuj połowy płatności co dwa tygodnie. Skutkuje to dodatkowym miesiącem płatności każdego roku, co pomaga szybciej spłacić pożyczkę. Nasz dwutygodniowy kalkulator spłaty kredytu hipotecznego pokazuje, jak działa to podejście. Refinansowanie: Refinansowanie pożyczki na niższą stopę procentową lub na krótszy okres może pomóc Ci zaoszczędzić pieniądze i szybciej spłacić kredyt hipoteczny. Kalkulator refinansowania kredytu hipotecznego pozwala oszacować potencjalne oszczędności."
+        },
+        {
+          "heading": "Zalety i wady wcześniejszej spłaty",
+          "content": "Zalety: Niższe koszty odsetek: Wcześniejsza spłata kredytu hipotecznego zmniejsza odsetki płacone przez cały okres pożyczki. Szybsza spłata: Pożyczka zostanie spłacona szybciej, co zapewni Ci wcześniejszą wolność finansową. Satysfakcja osobista: Wielu pożyczkobiorców czerpie korzyści emocjonalne z bycia wolnym od długów. Wady: Możliwe kary za przedpłatę: Niektórzy pożyczkodawcy nakładają opłaty za wcześniejszą spłatę, co może zmniejszyć korzyści. Koszt alternatywny: Jeśli oprocentowanie kredytów hipotecznych jest niskie, wykorzystanie dodatkowych środków na spłatę kredytu hipotecznego może nie być najlepszą decyzją finansową, zwłaszcza jeśli możesz uzyskać wyższy zwrot gdzie indziej. Blokada kapitału: Pieniądze wydane na wcześniejszą spłatę kredytu hipotecznego mogą być potrzebne na inne wydatki. Utrata ulg podatkowych: Odsetki od kredytu hipotecznego można odliczyć od podatku, ale wcześniejsza spłata kredytu hipotecznego zmniejsza kwotę, którą można odliczyć."
+        }
+      ]
+    },
+    {
+      "heading": "Krótka historia kredytów hipotecznych w USA",
+      "content": "Posiadanie domu nie zawsze było dostępne dla wielu mieszkańców Stanów Zjednoczonych. Na początku XX wieku nabywcy domów potrzebowali dużych zaliczek i krótkich warunków kredytu. Po Wielkim Kryzysie utworzenie Fannie Mae i Federal Housing Administration (FHA) zwiększyło dostępność kredytów mieszkaniowych poprzez wprowadzenie długoterminowych opcji spłaty z niskim wkładem własnym. Agencje te pomogły ustabilizować rynek mieszkaniowy, a ich wpływ trwa do dziś."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak korzystać z kalkulatora kredytu hipotecznego?",
+      "a": "Wystarczy wpisać kwotę pożyczki, stopę procentową, zaliczkę i okres pożyczki. Kalkulator automatycznie oszacuje miesięczną spłatę kredytu hipotecznego i przedstawi zestawienie odsetek, podatków i ubezpieczenia."
+    },
+    {
+      "q": "Czym jest PMI i jaki ma wpływ na spłatę kredytu hipotecznego?",
+      "a": "Jeśli Twoja zaliczka jest mniejsza niż 20%, wymagane jest prywatne ubezpieczenie kredytu hipotecznego (PMI). Dodaje dodatkowy koszt do miesięcznej płatności, dopóki stosunek kredytu do wartości nie osiągnie 80%."
+    },
+    {
+      "q": "Czy mogę refinansować za pomocą kalkulatora kredytu hipotecznego?",
+      "a": "Tak, kalkulator refinansowania kredytu hipotecznego pozwala oszacować oszczędności wynikające z refinansowania kredytu hipotecznego, w tym zmiany stopy procentowej i okresu kredytowania."
+    },
+    {
+      "q": "Jakie czynniki wpływają na spłatę kredytu hipotecznego?",
+      "a": "Czynniki takie jak kwota pożyczki, stopa procentowa, zaliczka i koszty związane z nieruchomością (takie jak podatki i ubezpieczenie) wpływają na miesięczną płatność."
+    }
+  ]
+}

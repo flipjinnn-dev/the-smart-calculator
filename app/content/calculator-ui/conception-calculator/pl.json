@@ -1,0 +1,142 @@
+{
+  "pageTitle": "Kalkulator poczęcia",
+  "pageDescription": "Oszacuj datę poczęcia na podstawie dat owulacji i stosunku płciowego",
+  "form": {
+    "labels": {
+      "lastMenstrualPeriod": "Ostatnia miesiączka",
+      "ovulationDate": "Data owulacji (opcjonalnie)",
+      "intercourseDate": "Data stosunku"
+    },
+    "placeholders": {
+      "lastMenstrualPeriod": "Wprowadź pierwszy dzień ostatniej miesiączki",
+      "ovulationDate": "Wprowadź datę owulacji, jeśli jest znana",
+      "intercourseDate": "Wprowadź datę stosunku"
+    },
+    "buttons": {
+      "calculate": "Oblicz datę poczęcia",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "conceptionDate": "Szacowana data poczęcia",
+    "fertileWindow": "Żyzne okno",
+    "dueDate": "Szacowany termin płatności",
+    "calculationDetails": "Wyniki obliczeń poczęcia"
+  },
+  "educational": {
+    "info": "Informacje o poczęciu",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja poczęcia",
+        "description": "Informacje o poczęciu"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Jak oblicza się poczęcie"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Zastosowania poczęcia"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki dotyczące poczęcia",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć poczęcie",
+    "resultMessage": "Wyniki obliczeń poczęcia przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia poczęcia:",
+    "analysis": "Analiza poczęcia"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia oszacowanie poczęć w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "conception_calculation_0": "Obliczanie poczęcia",
+  "enter_your_menstrual_cycle_details_to_calculate_co_1": "Wprowadź szczegóły cyklu miesiączkowego, aby obliczyć daty poczęcia",
+  "first_day_of_your_last_menstrual_period_lmp_2": "Pierwszy dzień ostatniej miesiączki (LMP) *",
+  "average_length_of_menstrual_cycle_cl_3": "Średnia długość cyklu miesiączkowego (CL) *",
+  "days_4": "dni",
+  "average_menstrual_cycle_length_ranges_from_22_to_4_5": "Średnia długość cyklu miesiączkowego waha się od 22 do 44 dni (typowo 28 dni)",
+  "calculate_6": "Obliczać",
+  "reset_7": "Nastawić",
+  "conception_window_8": "Okno Poczęcia",
+  "most_probable_conception_9": "Najbardziej prawdopodobne poczęcie",
+  "peak_fertile_10": "Szczyt płodności:",
+  "enter_your_cycle_details_to_calculate_your_concept_11": "Wprowadź szczegóły cyklu, aby obliczyć okno poczęcia.",
+  "your_conception_results_12": "Wyniki Twojego poczęcia",
+  "current_cycle_windows_13": "Bieżące okna cykli",
+  "ovulation_date_14": "Data owulacji:",
+  "fertile_window_15": "Żyzne okno:",
+  "peak_fertile_window_16": "Szczytowe okno żyzne:",
+  "possible_conception_dates_17": "Możliwe daty poczęcia",
+  "most_probable_18": "(Najbardziej prawdopodobne)",
+  "peak_19": "(Szczyt)",
+  "due_20": "Należny:",
+  "k_6cycle_forecast_21": "Prognoza 6-cyklowa",
+  "cycle_22": "Cykl #",
+  "ovulation_date_23": "Data owulacji",
+  "fertile_window_24": "Żyzne okno",
+  "peak_fertile_window_25": "Szczytowe żyzne okno",
+  "possible_conception_dates_26": "Możliwe daty poczęcia",
+  "estimated_due_dates_27": "Szacowane terminy płatności",
+  "dates_28": "daty",
+  "understanding_conception_29": "Zrozumienie poczęcia",
+  "conception_probability_30": "Prawdopodobieństwo poczęcia",
+  "sperm_can_survive_up_to_57_days_31": "Plemnik może przetrwać do 5-7 dni",
+  "before_ovulation_32": "przed owulacją",
+  "the_last_3_days_of_fertile_window_33": "Ostatnie 3 dni płodnego okna",
+  "have_30_chance_of_conception_34": "mają ~30% szans na poczęcie",
+  "conception_is_most_probable_on_ovulation_day_35": "Poczęcie jest najbardziej prawdopodobne w dniu owulacji",
+  "any_intercourse_during_fertile_window_36": "Jakikolwiek stosunek płciowy w okresie płodnym",
+  "may_result_in_pregnancy_37": "może skutkować ciążą",
+  "calculation_method_38": "Metoda obliczeniowa",
+  "ovulation_39": "Jajeczkowanie:",
+  "lmp_cycle_length_14_days_40": "LMP+ (długość cyklu – 14 dni)",
+  "fertile_window_41": "Żyzne okno:",
+  "ovulation_5_days_ovulation_42": "[Owulacja - 5 dni, Owulacja]",
+  "peak_fertile_43": "Szczyt płodności:",
+  "ovulation_2_days_ovulation_44": "[Owulacja - 2 dni, Owulacja]",
+  "due_date_45": "Termin:",
+  "conception_date_266_days_46": "Data poczęcia + 266 dni",
+  "timing_for_conception_47": "Czas na poczęcie",
+  "best_timing_48": "Najlepszy czas:",
+  "k_12_days_before_ovulation_49": "1-2 dni przed owulacją",
+  "good_timing_50": "Dobry moment:",
+  "day_of_ovulation_51": "Dzień owulacji",
+  "moderate_timing_52": "Umiarkowany czas:",
+  "k_35_days_before_ovulation_53": "3-5 dni przed owulacją",
+  "low_probability_54": "Niskie prawdopodobieństwo:",
+  "after_ovulation_day_55": "Po dniu owulacji",
+  "important_notes_56": "Ważne uwagi",
+  "this_calculator_provides_estimates_based_on_averag_57": "Kalkulator ten podaje szacunki na podstawie średnich cykli",
+  "actual_conception_timing_can_vary_by_individual_58": "Rzeczywisty czas poczęcia może się różnić w zależności od osoby",
+  "due_dates_are_estimates_using_naegeles_rule_59": "Terminy płatności są szacunkowe na podstawie reguły Naegelego",
+  "consult_healthcare_providers_for_personalized_advi_60": "Skonsultuj się z pracownikami służby zdrowia, aby uzyskać spersonalizowaną poradę"
+}

@@ -1,0 +1,127 @@
+{
+  "pageTitle": "Calculadora de gravidez",
+  "pageDescription": "Estime o cronograma da gravidez com base na data de vencimento, última menstruação, ultrassom, concepção ou data de transferência de fertilização in vitro",
+  "form": {
+    "labels": {
+      "calculationMethod": "Método de cálculo",
+      "lastPeriod": "Primeiro dia da última menstruação",
+      "dueDate": "Data de vencimento prevista",
+      "conceptionDate": "Data de concepção",
+      "ivfTransferDate": "Data de transferência de embriões de fertilização in vitro",
+      "cycleLength": "Duração média do ciclo menstrual",
+      "ultrasoundDate": "Data do ultrassom",
+      "crlMeasurement": "Medição do comprimento coroa-nádega (CRL)"
+    },
+    "placeholders": {
+      "cycleLength": "Insira a duração do ciclo em dias (padrão: 28)"
+    },
+    "buttons": {
+      "calculate": "Calcular datas de gravidez",
+      "reset": "Reiniciar"
+    },
+    "calculationMethods": {
+      "lastPeriod": "Última menstruação",
+      "dueDate": "Data de vencimento",
+      "conception": "Data de concepção",
+      "ivf": "Transferência de embriões de fertilização in vitro",
+      "ultrasound": "Datação por ultrassom"
+    }
+  },
+  "results": {
+    "dueDate": "Data de vencimento prevista",
+    "conceptionDate": "Data estimada de concepção",
+    "pregnancyWeek": "Semana atual de gravidez",
+    "babyDevelopment": "Desenvolvimento do bebê",
+    "pregnancyResultsTitle": "Resultados da gravidez",
+    "trimesters": {
+      "first": "Primeiro Trimestre",
+      "second": "Segundo Trimestre",
+      "third": "Terceiro Trimestre"
+    }
+  },
+  "educational": {
+    "pregnancyInfo": "Informações sobre gravidez",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Consulte um profissional de saúde",
+    "pregnancyStages": {
+      "firstTrimester": {
+        "title": "Primeiro Trimestre (Semanas 1-12)",
+        "description": "O desenvolvimento dos principais órgãos ocorre durante este período"
+      },
+      "secondTrimester": {
+        "title": "Segundo trimestre (semanas 13 a 26)",
+        "description": "Os movimentos do bebê normalmente podem ser sentidos durante este período"
+      },
+      "thirdTrimester": {
+        "title": "Terceiro Trimestre (Semanas 27-40)",
+        "description": "Rápido crescimento e desenvolvimento em preparação para o nascimento"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas e não é uma ferramenta de diagnóstico",
+      "individualVariation": "Os prazos de gravidez variam com base em fatores individuais"
+    },
+    "importantNotesList": [
+      "A data prevista para o nascimento é uma estimativa – apenas 5% dos bebês nascem na data exata do parto",
+      "A datação por ultrassom pode ser mais precisa no início da gravidez",
+      "Consulte seu médico para obter informações personalizadas sobre gravidez",
+      "O pré-natal regular é essencial para uma gravidez saudável"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações de gravidez para calcular datas importantes",
+    "pregnancyWeek": "Você está atualmente na semana {week} de gravidez",
+    "trimesterInfo": "Este é o trimestre {trimester}",
+    "assessmentResult": "Resultado da Avaliação:",
+    "pregnancyAnalysis": "Análise de gravidez"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas baseadas em informações gerais sobre gravidez e não deve ser usada como um substituto para aconselhamento médico profissional. Os prazos individuais de gravidez podem variar com base em fatores não considerados nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Consulte o seu médico",
+    "content": "Para uma data precisa da gravidez e cuidados pré-natais personalizados, consulte o seu médico, que pode fornecer orientações com base no seu histórico médico completo e nas circunstâncias individuais."
+  },
+  "errors": {
+    "method": "Selecione um método de cálculo",
+    "lastPeriod": "Por favor insira o primeiro dia da sua última menstruação",
+    "dueDate": "Por favor insira a data de vencimento prevista",
+    "conceptionDate": "Por favor insira a data da concepção",
+    "ivfTransferDate": "Por favor, insira a data de transferência do embrião de fertilização in vitro",
+    "ultrasoundDate": "Por favor insira a data do ultrassom",
+    "crlMeasurement": "Por favor insira a medida do comprimento cabeça-nádega"
+  },
+  "tooltips": {
+    "calculationMethod": "Selecione o método que melhor se aplica à sua situação",
+    "lastPeriod": "O primeiro dia da sua última menstruação",
+    "cycleLength": "A duração média do seu ciclo menstrual em dias",
+    "crlMeasurement": "Medição do topo da cabeça do bebê até a parte inferior"
+  },
+  "pregnancy_calculator_0": "Calculadora de gravidez",
+  "modify_the_values_and_click_the_calculate_button_t_1": "Modifique os valores e clique no botão calcular para usar",
+  "calculate_on_2": "Calcular em",
+  "your_date_3": "Sua data",
+  "calculate_4": "Calcular",
+  "pregnancy_info_5": "Informações sobre gravidez",
+  "your_pregnancy_schedule_breakdown_6": "Análise do seu cronograma de gravidez",
+  "due_date_7": "Data de vencimento:",
+  "conception_date_8": "Data de concepção:",
+  "last_period_date_9": "Data do último período:",
+  "weeks_pregnant_10": "Semanas de gravidez:",
+  "days_pregnant_11": "Dias de gravidez:",
+  "trimester_12": "Trimestre:",
+  "enter_your_date_and_click_calculate_see_your_pregn_13": "Digite sua data e clique em Calcular para ver seu cronograma de gravidez",
+  "how_pregnancy_is_calculated_14": "Como a gravidez é calculada?",
+  "the_pregnancy_calculator_estimates_your_pregnancy__15": "A Calculadora de Gravidez estima seu cronograma de gravidez com base na data e método fornecidos. Ele usa fórmulas médicas padrão para data de vencimento, concepção e cálculo do trimestre. Consulte sempre o seu médico para aconselhamento personalizado.",
+  "due_date_16": "Data de vencimento",
+  "the_estimated_date_when_your_baby_is_due_calculate_17": "A data estimada em que seu bebê nascerá. Calculado com base no método selecionado e na data de entrada.",
+  "trimester_18": "Trimestre",
+  "pregnancy_is_divided_into_three_trimesters_the_cal_19": "A gravidez é dividida em três trimestres. A calculadora mostra em qual trimestre você está atualmente.",
+  "weeks_pregnant_20": "Semanas de gravidez",
+  "the_number_of_weeks_you_have_been_pregnant_calcula_21": "O número de semanas de gravidez, calculado desde a data de início até hoje.",
+  "important_22": "Importante:",
+  "the_results_above_are_a_guideline_for_typical_situ_23": "Os resultados acima são uma diretriz para situações típicas. Consulte um médico sobre seu cronograma de gravidez se tiver dúvidas ou condições médicas especiais."
+}

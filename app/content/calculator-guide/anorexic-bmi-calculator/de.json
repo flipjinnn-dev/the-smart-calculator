@@ -1,0 +1,101 @@
+{
+  "color": "Rot",
+  "sections": [
+    {
+      "heading": "BMI-Rechner für Magersüchtige: Bewerten Sie Ihren Body-Mass-Index sicher",
+      "content": "Der Anorexic BMI-Rechner ist ein spezielles Tool, das Einzelpersonen und Betreuern dabei hilft, den mit Anorexia nervosa verbundenen Body-Mass-Index (BMI) zu ermitteln. Dieses Online-BMI-Tool für magersüchtige Menschen bietet schnelle Einblicke in die Frage, ob bei jemandem ein Risiko für untergewichtsbedingte Gesundheitsprobleme besteht, die von leichter bis extremer Magersucht reichen können. Mit diesem Rechner können Sie den BMI für Magersüchtige sicher berechnen und verstehen, wie Ihr BMI im Vergleich zu gesunden Bereichen abschneidet, und so eine frühzeitige Intervention und klinische Beratung unterstützen."
+    },
+    {
+      "heading": "So verwenden Sie den kostenlosen Online-BMI-Rechner für Magersüchtige",
+      "subSections": [
+        {
+          "heading": "Schritt-für-Schritt-Anleitung (metrische Einheiten)",
+          "content": "1. Geben Sie Ihr Gewicht in Kilogramm (kg) ein.\n2. Geben Sie Ihre Körpergröße in Zentimetern (cm) ein.\n3. Klicken Sie auf „Berechnen“, um Ihren BMI zu ermitteln."
+        },
+        {
+          "heading": "Schritt-für-Schritt-Anleitung (US-Einheiten)",
+          "content": "1. Geben Sie Ihr Gewicht in Pfund (lbs) ein.\n2. Geben Sie Ihre Körpergröße in Zoll (Zoll) ein.\n3. Klicken Sie auf „Berechnen“, um Ihren BMI zu ermitteln."
+        },
+        {
+          "heading": "Ergebnisse",
+          "content": "Nach der Berechnung wird Ihr BMI zusammen mit der Risikokategorie angezeigt – leichte, mittelschwere, schwere oder extreme Magersucht."
+        }
+      ]
+    },
+    {
+      "heading": "BMI-Bereiche für Magersucht verstehen",
+      "subSections": [
+        {
+          "heading": "Leichte Magersucht",
+          "content": "BMI: 17–18,5 → Leicht unter dem gesunden BMI, erhöhtes Risiko für gesundheitliche Komplikationen."
+        },
+        {
+          "heading": "Mäßige Magersucht",
+          "content": "BMI: 16–16,9 → Mäßiges Untergewicht, erhöhtes Risiko für Organstress und Nährstoffmangel."
+        },
+        {
+          "heading": "Schwere Magersucht",
+          "content": "BMI: 15–15,9 → Deutliches Untergewicht, ärztliche Überwachung erforderlich."
+        },
+        {
+          "heading": "Extreme Magersucht",
+          "content": "BMI: <15 → Lebensbedrohlicher, dringender klinischer Eingriff erforderlich."
+        }
+      ]
+    },
+    {
+      "heading": "Warum einen Body-Mass-Index-Rechner für Magersüchtige verwenden?",
+      "content": "✔ Vergleichen Sie Ihren BMI schnell mit magersuchtspezifischen Schwellenwerten.\n✔ Frühwarnzeichen einer Anorexia nervosa erkennen.\n✔ Verstehen Sie Gesundheitsrisiken bei niedrigem BMI, einschließlich Organversagen, Knochendichteverlust und geschwächter Immunität.\n✔ Unterstützen Sie eine altersgerechte BMI-Interpretation bei Magersucht, insbesondere bei Teenagern und jungen Erwachsenen.\n✔ Vergleichen Sie Ihren BMI mit gesunden BMI- und magersüchtigen BMI-Bereichen."
+    },
+    {
+      "heading": "Magersüchtiger BMI im Vergleich zu anderen BMI-Kategorien",
+      "content": "• Magersüchtiger BMI vs. gesunder BMI: Hebt den Schweregrad von Untergewicht hervor.\n• Magersüchtiger BMI vs. Untergewichtiger BMI: Zeigt den Unterschied zwischen leichtem Untergewicht und klinisch signifikanter Magersucht.\n• BMI-Diagramm zwischen Magersucht und Bulimie: Nützlich zur Unterscheidung verschiedener Essstörungen.\n• BMI-Rechner für extreme Schlankheit: Hilft bei der Verfolgung gefährlich niedriger BMI-Trends."
+    },
+    {
+      "heading": "Einschränkungen und Haftungsausschluss",
+      "content": "⚠ Der BMI allein kann Anorexia nervosa nicht diagnostizieren. Eine klinische Bewertung ist unerlässlich.\n⚠ Berücksichtigt nicht Muskelmasse, Körperzusammensetzung oder zugrunde liegende Erkrankungen.\n⚠ Verwenden Sie dieses Tool nur als Screening-Leitfaden und nicht als Ersatz für eine professionelle Gesundheitsberatung."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist der BMI bei Magersüchtigen?",
+      "a": "Der magersüchtige BMI bezieht sich auf den Body-Mass-Index-Bereich, der mit Anorexia nervosa verbunden ist und auf Untergewicht und potenzielle Gesundheitsrisiken hinweist."
+    },
+    {
+      "q": "Wie berechne ich den BMI für Magersüchtige?",
+      "a": "Geben Sie Ihr Gewicht und Ihre Größe online in unseren kostenlosen BMI-Rechner für Magersüchtige ein, um sofort einen BMI-Wert zu erhalten."
+    },
+    {
+      "q": "Was sind die BMI-Bereiche für Magersucht?",
+      "a": "Leicht: 17–18,5, Mittel: 16–16,9, Schwer: 15–15,9, Extrem: <15."
+    },
+    {
+      "q": "Ist der BMI von Magersucht dasselbe wie der BMI von Untergewicht?",
+      "a": "Nicht ganz. Untergewichtiger BMI ist eine breitere Kategorie; Ein magersüchtiger BMI weist auf ein klinisch signifikant niedriges Gewicht hin."
+    },
+    {
+      "q": "Können Teenager diesen Magersucht-BMI-Rechner verwenden?",
+      "a": "Ja, aber die Interpretation des BMI für Jugendliche kann unterschiedlich sein. Konsultieren Sie immer einen Kinderarzt oder Ernährungsberater."
+    },
+    {
+      "q": "Was sind die Anzeichen einer Magersucht anhand des BMI?",
+      "a": "Zu den Anzeichen gehören schneller Gewichtsverlust, extrem niedriger BMI, Müdigkeit, Schwindel und unregelmäßige Menstruation bei Frauen."
+    },
+    {
+      "q": "Kann ich dieses Tool verwenden, um meinen Fortschritt zu verfolgen?",
+      "a": "Ja, der Magersucht-Gewichtsrechner hilft bei der Überwachung von BMI-Änderungen, es wird jedoch eine professionelle Beratung empfohlen."
+    },
+    {
+      "q": "Welche gesundheitlichen Risiken birgt ein niedriger BMI?",
+      "a": "Zu den Risiken zählen Herzkomplikationen, Verlust der Knochendichte, Organversagen, geschwächte Immunität und hormonelle Ungleichgewichte."
+    },
+    {
+      "q": "Wie genau ist dieser BMI-Rechner für Magersüchtige?",
+      "a": "Es liefert eine genaue BMI-Schätzung, eine klinische Bewertung ist jedoch für die Diagnose und Behandlungsplanung unerlässlich."
+    },
+    {
+      "q": "Was soll ich tun, wenn mein BMI im extremen Magersucht-Bereich liegt?",
+      "a": "Suchen Sie sofort ärztliche Hilfe auf. Extreme Magersucht ist lebensbedrohlich und erfordert professionelle Intervention."
+    }
+  ]
+}

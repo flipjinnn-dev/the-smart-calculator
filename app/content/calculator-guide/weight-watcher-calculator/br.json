@@ -1,0 +1,129 @@
+{
+  "color": "roxo",
+  "sections": [
+    {
+      "heading": "Calcule seus pontos do Vigilantes do Peso instantaneamente",
+      "content": "Use nossa Calculadora de Pontos do Vigilantes do Peso para determinar com rapidez e precisão os SmartPoints para suas refeições, lanches e receitas. Esteja você seguindo o programa WW para perda de peso ou monitorando sua ingestão diária de alimentos, esta Calculadora de Pontos WW Online oferece uma maneira rápida, confiável e fácil de gerenciar seus pontos sem suposições."
+    },
+    {
+      "heading": "O que são pontos do Vigilantes do Peso?",
+      "content": "Os Vigilantes do Peso (WW) atribuem um valor de pontos, chamado SmartPoints, a cada alimento e bebida com base em seu conteúdo nutricional. O sistema ajuda você a fazer escolhas mais saudáveis ​​ao:",
+      "subSections": [
+        {
+          "heading": "Incentiva escolhas saudáveis",
+          "content": "Alimentos ricos em proteínas e com baixo teor de açúcar são priorizados."
+        },
+        {
+          "heading": "Limita itens prejudiciais à saúde",
+          "content": "Desencoraja alimentos ricos em gordura saturada e calorias."
+        },
+        {
+          "heading": "Orçamentos Flexíveis",
+          "content": "Orçamentos pontuais diários e semanais permitem equilíbrio e flexibilidade."
+        },
+        {
+          "heading": "Fatores de cálculo de SmartPoints",
+          "content": "Calorias por porção, teor de gordura saturada, teor de açúcar, teor de proteínas."
+        }
+      ]
+    },
+    {
+      "heading": "Como usar a calculadora de pontos WW",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Insira seus alimentos (nome, quantidade ou informações nutricionais)."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Adicione ingredientes às receitas para calcular o total de SmartPoints."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Clique em 'Calcular' para obter o valor dos pontos WW."
+        },
+        {
+          "heading": "Etapa 4",
+          "content": "Acompanhe seus pontos usando a ferramenta WW Points Tracker."
+        },
+        {
+          "heading": "Pontas",
+          "content": "Use porções exatas, verifique Zero Point Foods, compare SmartPoints vs PointsPlus."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora de pontos WW para refeições e receitas",
+      "content": "Nossa calculadora de pontos de receita do Vigilantes do Peso ajuda a determinar pontos para:",
+      "subSections": [
+        {
+          "heading": "Refeições e Lanches",
+          "content": "Café da manhã, almoço, jantar, lanches."
+        },
+        {
+          "heading": "Tipos de alimentos",
+          "content": "Refeições caseiras, embaladas e de dieta especial (baixo teor de carboidratos e alto teor de proteínas)."
+        },
+        {
+          "heading": "Exemplos",
+          "content": "1 ovo cozido = 0 pontos, 1 fatia de pão integral = 2 pontos, 1 porção de peito de frango grelhado = 0 pontos."
+        }
+      ]
+    },
+    {
+      "heading": "Benefícios de usar uma calculadora de pontos WW",
+      "subSections": [
+        {
+          "heading": "Rastreamento Preciso",
+          "content": "Conheça os pontos exatos de cada alimento ou receita."
+        },
+        {
+          "heading": "Suporte para perda de peso",
+          "content": "Fique dentro dos SmartPoints diários para um controle de peso eficaz."
+        },
+        {
+          "heading": "Planejamento de refeições",
+          "content": "Calcule rapidamente pontos para preparação de refeições."
+        },
+        {
+          "heading": "Conveniência",
+          "content": "Nenhum aplicativo é necessário - use nossa calculadora WW SmartPoints online gratuita a qualquer momento."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como calculo os pontos WW para uma refeição?",
+      "a": "Insira cada ingrediente ou alimento na calculadora. A ferramenta soma os pontos do valor total da refeição."
+    },
+    {
+      "q": "Quantos SmartPoints tem um ovo?",
+      "a": "Um ovo cozido padrão custa 0 pontos WW."
+    },
+    {
+      "q": "Posso calcular pontos WW sem o aplicativo?",
+      "a": "Sim, use nossa Calculadora de Pontos WW Online diretamente no seu navegador."
+    },
+    {
+      "q": "Quantos pontos WW devo comer por dia?",
+      "a": "Os pontos diários variam de acordo com idade, sexo, peso e atividade. Siga a meta do seu plano WW."
+    },
+    {
+      "q": "Quais alimentos têm zero pontos WW?",
+      "a": "Ovos, frango magro, peixe e vegetais sem amido normalmente têm 0 pontos."
+    },
+    {
+      "q": "Como converter calorias em pontos WW?",
+      "a": "Insira valores de calorias, proteínas, açúcar e gordura; a calculadora os converte em SmartPoints."
+    },
+    {
+      "q": "Como calcular pontos WW para receitas?",
+      "a": "Insira cada ingrediente, some os pontos e divida por porções para obter o valor por porção."
+    },
+    {
+      "q": "Como os pontos WW ajudam na perda de peso?",
+      "a": "Eles orientam você a escolher alimentos com menos calorias e mais proteínas, limitando o açúcar/gordura para uma perda de peso sustentável."
+    }
+  ]
+}

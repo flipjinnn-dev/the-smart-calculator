@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Age Calculator",
+  "pageDescription": "Calculate age in years, months, and days based on birth date with precise calculations including leap years",
+  "form": {
+    "labels": {
+      "birthDate": "Birth Date",
+      "calculationDate": "Calculation Date",
+      "includeTime": "Include Time?",
+      "birthTime": "Birth Time",
+      "calculationTime": "Calculation Time"
+    },
+    "placeholders": {
+      "birthTime": "Enter birth time (optional)",
+      "calculationTime": "Enter calculation time (optional)"
+    },
+    "buttons": {
+      "calculate": "Calculate Age",
+      "reset": "Reset"
+    },
+    "yesNo": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "results": {
+    "age": "Age",
+    "years": "Years",
+    "months": "Months",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "ageResultsTitle": "Age Results",
+    "preciseAge": "Precise Age"
+  },
+  "educational": {
+    "ageInfo": "Age Calculation Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Additional Resources",
+    "ageFacts": {
+      "leapYears": {
+        "title": "Leap Years",
+        "description": "Our calculator accounts for leap years (366 days) in age calculations"
+      },
+      "precision": {
+        "title": "Calculation Precision",
+        "description": "Calculations include months with varying days (28, 30, 31 days)"
+      },
+      "timeZones": {
+        "title": "Time Zones",
+        "description": "Consider time zones when calculating ages across different regions"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides age calculations only",
+      "accuracy": "Ensure accurate date and time entry for precise results"
+    },
+    "importantNotesList": [
+      "Age calculations account for varying month lengths and leap years",
+      "Time-based calculations require accurate time zone information",
+      "Legal age definitions vary by jurisdiction and purpose",
+      "Consider cultural differences in age calculation methods"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter birth date and calculation date to determine age",
+    "resultMessage": "Your calculated age is shown below",
+    "assessmentResult": "Age Calculation Result:",
+    "ageAnalysis": "Age Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides age calculations based on standard calendar methods. Results are for general informational purposes and may not meet legal or official documentation requirements."
+  },
+  "seekHelp": {
+    "title": "Additional Resources",
+    "content": "For legal age determinations or official documentation, consult appropriate government agencies or legal professionals in your jurisdiction."
+  },
+  "errors": {
+    "birthDate": "Please enter a valid birth date",
+    "calculationDate": "Please enter a valid calculation date",
+    "birthTime": "Please enter a valid birth time",
+    "calculationTime": "Please enter a valid calculation time"
+  },
+  "tooltips": {
+    "birthDate": "Your date of birth",
+    "calculationDate": "Date to calculate age from (default: today)",
+    "birthTime": "Optional: Time of birth for more precise calculations",
+    "calculationTime": "Optional: Time for calculation for more precise results"
+  },
+  "loading_0": "Loading...",
+  "how_it_works_1": "How it works:",
+  "the_calculator_uses_precise_calendar_arithmetic_to_2": "The calculator uses precise calendar arithmetic to handle leap\n                        years, varying month lengths, and time zones accurately.",
+  "results_include_both_exact_age_breakdown_and_total_3": "Results include both exact age breakdown and total time in each unit.",
+  "from_4": "From",
+  "to_5": "to",
+  "enter_your_dates_and_click_6": "Enter your dates and click",
+  "calculate_7": "Calculate",
+  "to_see_your_exact_age_8": "to\n                          see your exact age.",
+  "years_9": "Years",
+  "months_10": "Months",
+  "weeks_11": "Weeks",
+  "days_12": "Days",
+  "sample_calculation_13": "Sample Calculation",
+  "age_calculation_1": "Age Calculation",
+  "enter_your_birth_date_and_target_date_to_calculate_2": "Enter your birth date and target date to calculate precise age",
+  "date_of_birth_3": "Date of Birth",
+  "target_date_4": "Target Date",
+  "how_it_works_5": "How it works:",
+  "the_calculator_uses_precise_calendar_arithmetic_to_6": "The calculator uses precise calendar arithmetic to handle leap\n                        years, varying month lengths, and time zones accurately.",
+  "results_include_both_exact_age_breakdown_and_total_7": "Results include both exact age breakdown and total time in each unit.",
+  "calculate_8": "Calculate",
+  "your_age_9": "Your Age",
+  "years_10": "Years",
+  "months_11": "Months",
+  "weeks_12": "Weeks",
+  "days_13": "Days",
+  "from_14": "From",
+  "to_15": "to",
+  "enter_your_dates_and_click_16": "Enter your dates and click",
+  "calculate_17": "Calculate",
+  "to_see_your_exact_age_18": "to\n                          see your exact age.",
+  "detailed_age_breakdown_19": "Detailed Age Breakdown",
+  "years_20": "Years",
+  "months_21": "Months",
+  "weeks_22": "Weeks",
+  "days_23": "Days",
+  "hours_24": "Hours",
+  "minutes_25": "Minutes",
+  "seconds_26": "Seconds",
+  "understanding_age_calculation_27": "Understanding Age Calculation",
+  "how_age_is_calculated_28": "How Age is Calculated",
+  "age_calculation_involves_precise_calendar_arithmet_29": "Age calculation involves precise calendar arithmetic that accounts for leap years, varying month\n                        lengths, and the Western age system where age increases only after the birthday passes.",
+  "key_features_30": "Key Features",
+  "handles_leap_years_automatically_31": "Handles leap years automatically",
+  "accounts_for_months_with_different_day_counts_32": "Accounts for months with different day counts",
+  "provides_both_exact_breakdown_and_total_units_33": "Provides both exact breakdown and total units",
+  "uses_western_age_counting_system_34": "Uses Western age counting system",
+  "sample_calculation_35": "Sample Calculation",
+  "example_36": "Example:",
+  "birth_date_january_1_2000_37": "Birth Date: January 1, 2000",
+  "target_date_august_22_2025_38": "Target Date: August 22, 2025",
+  "result_25_years_7_months_21_days_39": "Result: 25 years, 7 months, 21 days",
+  "the_calculator_also_provides_the_total_time_in_wee_40": "The calculator also provides the total time in weeks, days, hours, minutes, and seconds for\n                        comprehensive age analysis."
+}

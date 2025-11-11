@@ -1,0 +1,213 @@
+{
+  "pageTitle": "Kalkulator BMR",
+  "pageDescription": "Oblicz swoją podstawową przemianę materii (BMR), aby określić liczbę kalorii potrzebnych Twojemu organizmowi w spoczynku do podstawowych funkcji fizjologicznych",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "weight": "Waga",
+      "height": "Wysokość",
+      "unitSystem": "Układ jednostek",
+      "calculationMethod": "Metoda obliczeniowa"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz BMR",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    },
+    "calculationMethods": {
+      "mifflin": "Równanie Mifflina-St Jeora",
+      "harris": "Równanie Harrisa-Benedykta",
+      "revisedHarris": "Poprawione równanie Harrisa-Benedykta"
+    }
+  },
+  "results": {
+    "bmr": "Podstawowa przemiana materii (BMR)",
+    "caloriesPerDay": "Kalorie dziennie",
+    "bmrResultsTitle": "Wyniki BMR",
+    "formulaUsed": "Zastosowana formuła"
+  },
+  "educational": {
+    "bmrInfo": "Informacje BMR",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby odżywcze",
+    "bmrFacts": {
+      "definition": {
+        "title": "Definicja podstawowego tempa metabolizmu",
+        "description": "BMR to liczba kalorii potrzebnych organizmowi do utrzymania podstawowych funkcji fizjologicznych w spoczynku"
+      },
+      "components": {
+        "title": "Komponenty BMR",
+        "description": "BMR obejmuje oddychanie, krążenie, produkcję komórek i podstawowe funkcje narządów"
+      },
+      "factors": {
+        "title": "Czynniki wpływające na BMR",
+        "description": "Wiek, płeć, waga, wzrost, masa mięśniowa i genetyka wpływają na BMR"
+      }
+    },
+    "bmrFormulas": {
+      "mifflin": {
+        "title": "Równanie Mifflina-St Jeora",
+        "description": "Uważany za najdokładniejszy dla osób zdrowych"
+      },
+      "harris": {
+        "title": "Równanie Harrisa-Benedykta",
+        "description": "Jedno z najstarszych i wciąż szeroko stosowanych równań BMR"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator podaje jedynie szacunki BMR",
+      "individual": "BMR różni się w zależności od czynników indywidualnych i stanu zdrowia"
+    },
+    "importantNotesList": [
+      "BMR reprezentuje kalorie potrzebne tylko w całkowitym spoczynku",
+      "Rzeczywiste dzienne zapotrzebowanie jest wyższe, jeśli uwzględni się aktywność fizyczną i ćwiczenia fizyczne",
+      "Masa mięśniowa zwiększa BMR, ponieważ tkanka mięśniowa spala więcej kalorii niż tłuszczu",
+      "BMR zmniejsza się wraz z wiekiem z powodu utraty masy mięśniowej i zmian metabolicznych"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź swoje dane, aby obliczyć podstawową przemianę materii",
+    "resultMessage": "Twój BMR jest pokazany poniżej",
+    "assessmentResult": "Wynik obliczenia BMR:",
+    "bmrAnalysis": "Analiza BMR"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki BMR w oparciu o wzory matematyczne. Indywidualny BMR może się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach, w tym masy mięśniowej, stanu zdrowia i genetyki."
+  },
+  "seekHelp": {
+    "title": "Zasoby odżywcze",
+    "content": "Aby uzyskać spersonalizowaną ocenę metabolizmu i porady żywieniowe, skonsultuj się z pracownikami służby zdrowia lub zarejestrowanymi dietetykami posiadającymi wiedzę specjalistyczną w zakresie badań metabolicznych i indywidualnych potrzeb zdrowotnych."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "calculationMethod": "Wybierz metodę obliczeń"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na tempo przemiany materii",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "calculationMethod": "Różne równania mogą dawać nieco inne wyniki",
+    "gender": "Płeć wpływa na BMR ze względu na różnice w składzie ciała"
+  },
+  "bmr_calculation_0": "Obliczanie BMR",
+  "enter_your_details_to_calculate_your_basal_metabol_1": "Wprowadź swoje dane, aby obliczyć podstawową przemianę materii",
+  "bmr_formula_2": "Formuła BMR",
+  "mifflinst_jeor_recommended_3": "Mifflin-St Jeor (zalecane)",
+  "revised_harrisbenedict_4": "Poprawione Harris-Benedict",
+  "katchmcardle_requires_body_fat_5": "Katch-McArdle (wymaga procent tkanki tłuszczowej)",
+  "unit_system_6": "Układ jednostek",
+  "metric_kg_cm_7": "Metryczne (kg, cm)",
+  "us_lbs_ftin_8": "USA (funty, stopy/cal)",
+  "age_years_9": "Wiek (lata)",
+  "age_range_1580_years_10": "Przedział wiekowy: 15-80 lat",
+  "gender_11": "Płeć",
+  "male_12": "Mężczyzna",
+  "female_13": "Kobieta",
+  "height_cm_14": "Wysokość (cm)",
+  "height_in_centimeters_15": "Wysokość w centymetrach",
+  "height_ftin_16": "Wysokość (stopy/cale)",
+  "feet_and_inches_17": "Stopy i cale",
+  "weight_18": "Waga (",
+  "weight_in_19": "Waga w",
+  "body_fat_percentage_20": "Procent tkanki tłuszczowej:",
+  "required_for_katchmcardle_formula_use_dexa_scan_or_21": "Wymagane w przypadku wzoru Katcha-McArdle'a. Aby uzyskać dokładność, użyj skanu DEXA lub suwmiarki do pomiaru tkanki tłuszczowej.",
+  "result_unit_22": "Jednostka wyniku",
+  "kcalday_23": "kcal/dzień",
+  "kjday_24": "kJ/dzień",
+  "calculate_25": "Obliczać",
+  "reset_26": "Nastawić",
+  "bmr_result_27": "Wynik BMR",
+  "day_28": "/dzień",
+  "basal_metabolic_rate_29": "Podstawowa przemiana materii",
+  "day_30": "/dzień",
+  "sedentary_no_exercise_31": "Siedzący tryb życia (bez ćwiczeń)",
+  "day_32": "/dzień",
+  "moderately_active_33": "Umiarkowanie aktywny",
+  "enter_your_details_and_click_calculate_see_your_bm_34": "Wprowadź swoje dane i kliknij Oblicz, aby zobaczyć swoje BMR i dzienne zapotrzebowanie kaloryczne.",
+  "bmr_daily_calorie_needs_35": "BMR i dzienne zapotrzebowanie kaloryczne",
+  "day_36": "/dzień",
+  "your_basal_metabolic_rate_37": "Twoje podstawowe tempo przemiany materii",
+  "this_is_the_number_of_calories_your_body_burns_at__38": "Jest to liczba kalorii spalanych przez organizm w spoczynku w celu utrzymania podstawowych procesów fizjologicznych\n                          funkcje.",
+  "sedentary_39": "Siedzący",
+  "day_40": "/dzień",
+  "little_or_no_exercise_41": "Mało ćwiczeń lub ich brak",
+  "lightly_active_42": "Lekko aktywny",
+  "day_43": "/dzień",
+  "light_exercise_13_daysweek_44": "Lekkie ćwiczenia 1-3 dni w tygodniu",
+  "moderately_active_45": "Umiarkowanie aktywny",
+  "day_46": "/dzień",
+  "moderate_exercise_35_daysweek_47": "Umiarkowane ćwiczenia 3-5 dni w tygodniu",
+  "very_active_48": "Bardzo aktywny",
+  "day_49": "/dzień",
+  "hard_exercise_67_daysweek_50": "Ciężkie ćwiczenia 6-7 dni w tygodniu",
+  "extra_active_51": "Ekstra aktywny",
+  "day_52": "/dzień",
+  "very_hard_exercise_physical_job_53": "Bardzo ciężkie ćwiczenia, praca fizyczna",
+  "calculation_details_54": "Szczegóły obliczeń",
+  "formula_used_55": "Zastosowana formuła",
+  "lean_body_mass_56": "Beztłuszczowa masa ciała:",
+  "kg_57": "kg",
+  "base_bmr_58": "Podstawowy BMR:",
+  "kcalday_59": "kcal/dzień",
+  "input_summary_60": "Podsumowanie danych wejściowych",
+  "age_61": "Wiek:",
+  "years_62": "lata",
+  "gender_63": "Płeć:",
+  "height_64": "Wysokość:",
+  "cm_65": "cm",
+  "weight_66": "Waga:",
+  "kg_67": "kg",
+  "body_fat_68": "Tłuszcz w organizmie:",
+  "formula_used_69": "Zastosowana formuła:",
+  "bmr_370_216_lbm_where_lbm_1_body_fat_100_weight_70": "BMR = 370 + (21,6 × LBM), gdzie LBM = (1 – % tkanki tłuszczowej / 100) × masa",
+  "understanding_bmr_71": "Zrozumienie BMR",
+  "bmr_formulas_72": "Formuły BMR",
+  "mifflinst_jeor_73": "Mifflin-St Jeor:",
+  "most_accurate_for_general_population_74": "Najdokładniejsze dla ogółu populacji",
+  "harrisbenedict_75": "Harris-Benedykt:",
+  "older_formula_still_widely_used_76": "Starsza formuła, wciąż powszechnie stosowana",
+  "katchmcardle_77": "Katch-McArdle:",
+  "best_for_lean_individuals_with_known_body_fat_78": "Najlepsze dla szczupłych osób ze znanym procentem tkanki tłuszczowej",
+  "activity_levels_79": "Poziomy aktywności",
+  "sedentary_80": "Siedzący:",
+  "desk_job_no_exercise_bmr_12_81": "Praca przy biurku, bez ćwiczeń (BMR × 1,2)",
+  "lightly_active_82": "Lekko aktywny:",
+  "light_exercise_13_daysweek_bmr_1375_83": "Lekkie ćwiczenia 1-3 dni w tygodniu (BMR × 1,375)",
+  "moderately_active_84": "Umiarkowanie aktywny:",
+  "moderate_exercise_35_daysweek_bmr_155_85": "Umiarkowane ćwiczenia 3-5 dni w tygodniu (BMR × 1,55)",
+  "very_active_86": "Bardzo aktywny:",
+  "hard_exercise_67_daysweek_bmr_1725_87": "Ciężkie ćwiczenia 6-7 dni w tygodniu (BMR × 1,725)",
+  "extra_active_88": "Ekstra aktywny:",
+  "very_hard_exercise_physical_job_bmr_19_89": "Bardzo ciężki wysiłek fizyczny, praca fizyczna (BMR × 1,9)",
+  "example_calculation_90": "Przykładowe obliczenia",
+  "k_28yearold_male_175_cm_70_kg_91": "28-letni mężczyzna, 175 cm, 70 kg",
+  "bmr_10_70_625_175_5_28_5_92": "BMR = (10 × 70) + (6,25 × 175) - (5 × 28) + 5",
+  "bmr_700_109375_140_5_93": "BMR = 700 + 1093,75 - 140 + 5",
+  "bmr_1659_kcalday_94": "BMR = 1659 kcal/dzień",
+  "moderately_active_1659_155_95": "Umiarkowanie aktywny = 1659 × 1,55 =",
+  "k_2571_kcalday_96": "2571 kcal/dzień",
+  "important_notes_97": "Ważne uwagi",
+  "bmr_decreases_with_age_and_increases_with_muscle_m_98": "BMR maleje wraz z wiekiem i wzrasta wraz z masą mięśniową",
+  "these_are_estimates_individual_metabolism_varies_99": "Są to dane szacunkowe – metabolizm jest indywidualny",
+  "for_weight_loss_create_a_moderate_calorie_deficit_100": "Aby schudnąć, stwórz umiarkowany deficyt kalorii",
+  "consult_healthcare_providers_for_personalized_advi_101": "Skonsultuj się z pracownikami służby zdrowia, aby uzyskać spersonalizowaną poradę"
+}

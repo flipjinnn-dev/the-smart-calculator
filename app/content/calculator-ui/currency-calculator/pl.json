@@ -1,0 +1,103 @@
+{
+  "pageTitle": "Kalkulator walutowy",
+  "pageDescription": "Konwertuj pomiędzy różnymi walutami dzięki kursom w czasie rzeczywistym",
+  "form": {
+    "labels": {
+      "amount": "Kwota",
+      "fromCurrency": "Z waluty",
+      "toCurrency": "Do waluty"
+    },
+    "placeholders": {
+      "amount": "Wprowadź kwotę do przeliczenia"
+    },
+    "buttons": {
+      "calculate": "Konwertuj walutę",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "convertedAmount": "Przeliczona kwota",
+    "exchangeRate": "Kurs wymiany",
+    "lastUpdated": "Ostatnia aktualizacja",
+    "calculationDetails": "Wyniki przeliczania walut"
+  },
+  "educational": {
+    "info": "Informacje walutowe",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja waluty",
+        "description": "Informacje o walucie"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Jak obliczana jest waluta"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Zastosowania waluty"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki walutowe",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć walutę",
+    "resultMessage": "Wyniki obliczeń waluty pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia waluty:",
+    "analysis": "Analiza walutowa"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki walut w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "last_updated_0": "Ostatnia aktualizacja:",
+  "currency_converter_1": "Przelicznik walut",
+  "enter_amount_and_select_currencies_to_convert_2": "Wprowadź kwotę i wybierz waluty do przeliczenia",
+  "amount_3": "Kwota",
+  "from_currency_4": "Z waluty",
+  "to_currency_5": "Do waluty",
+  "conversion_result_6": "Wynik konwersji",
+  "realtime_currency_conversion_details_7": "Szczegóły przeliczania walut w czasie rzeczywistym",
+  "converted_amount_8": "Przeliczona kwota",
+  "exchange_rate_details_9": "Szczegóły kursu wymiany",
+  "exchange_rate_10": "Kurs wymiany:",
+  "k_1_11": "1",
+  "inverse_rate_12": "Odwrotna stopa:",
+  "k_1_13": "1",
+  "note_14": "Notatka:",
+  "exchange_rates_are_updated_regularly_but_may_not_r_15": "Kursy wymiany są regularnie aktualizowane, ale mogą nie odzwierciedlać danych w czasie rzeczywistym\n                          stawki rynkowe. W przypadku rzeczywistych transakcji należy skontaktować się z bankiem lub instytucją finansową\n                          dla aktualnych stawek.",
+  "popular_currency_pairs_16": "Popularne pary walutowe",
+  "realtime_exchange_rates_for_popular_currency_pairs_17": "Kursy wymiany popularnych par walutowych w czasie rzeczywistym",
+  "k_1_18": "1",
+  "supported_currencies_19": "Obsługiwane waluty",
+  "we_support_20": "Wspieramy",
+  "major_world_currencies_21": "głównych walut świata",
+  "and_22": "I",
+  "more_currencies_23": "więcej walut..."
+}

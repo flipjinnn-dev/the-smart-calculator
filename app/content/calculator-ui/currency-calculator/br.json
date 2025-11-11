@@ -1,0 +1,103 @@
+{
+  "pageTitle": "Calculadora de moeda",
+  "pageDescription": "Converta entre diferentes moedas com taxas em tempo real",
+  "form": {
+    "labels": {
+      "amount": "Quantia",
+      "fromCurrency": "Da moeda",
+      "toCurrency": "Para moeda"
+    },
+    "placeholders": {
+      "amount": "Insira o valor a ser convertido"
+    },
+    "buttons": {
+      "calculate": "Converter moeda",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "convertedAmount": "Valor convertido",
+    "exchangeRate": "Taxa de câmbio",
+    "lastUpdated": "Última atualização",
+    "calculationDetails": "Resultados de conversão de moeda"
+  },
+  "educational": {
+    "info": "Informações sobre moeda",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de moeda",
+        "description": "Informações sobre moeda"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como a moeda é calculada"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos da moeda"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de moeda",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular a moeda",
+    "resultMessage": "Os resultados do cálculo da sua moeda são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da moeda:",
+    "analysis": "Análise de moeda"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de moeda com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "last_updated_0": "Última atualização:",
+  "currency_converter_1": "Conversor de moeda",
+  "enter_amount_and_select_currencies_to_convert_2": "Insira o valor e selecione as moedas para converter",
+  "amount_3": "Quantia",
+  "from_currency_4": "Da moeda",
+  "to_currency_5": "Para moeda",
+  "conversion_result_6": "Resultado da conversão",
+  "realtime_currency_conversion_details_7": "Detalhes de conversão de moeda em tempo real",
+  "converted_amount_8": "Valor convertido",
+  "exchange_rate_details_9": "Detalhes da taxa de câmbio",
+  "exchange_rate_10": "Taxa de câmbio:",
+  "k_1_11": "1",
+  "inverse_rate_12": "Taxa inversa:",
+  "k_1_13": "1",
+  "note_14": "Observação:",
+  "exchange_rates_are_updated_regularly_but_may_not_r_15": "As taxas de câmbio são atualizadas regularmente, mas podem não refletir as taxas em tempo real.\n                          taxas de mercado. Para transações reais, verifique com seu banco ou instituição financeira\n                          para as taxas atuais.",
+  "popular_currency_pairs_16": "Pares de moedas populares",
+  "realtime_exchange_rates_for_popular_currency_pairs_17": "Taxas de câmbio em tempo real para pares de moedas populares",
+  "k_1_18": "1",
+  "supported_currencies_19": "Moedas Suportadas",
+  "we_support_20": "Nós apoiamos",
+  "major_world_currencies_21": "principais moedas mundiais",
+  "and_22": "E",
+  "more_currencies_23": "mais moedas..."
+}

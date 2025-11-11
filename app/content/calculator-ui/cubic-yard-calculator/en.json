@@ -1,0 +1,214 @@
+{
+  "pageTitle": "Cubic Yard Calculator",
+  "pageDescription": "Calculate cubic yards for concrete, soil, and other materials with precise measurements for construction and landscaping projects",
+  "form": {
+    "labels": {
+      "shape": "Shape",
+      "length": "Length",
+      "width": "Width",
+      "height": "Height/Depth",
+      "diameter": "Diameter",
+      "unitSystem": "Unit System",
+      "material": "Material Type",
+      "density": "Material Density"
+    },
+    "placeholders": {
+      "length": "Enter length",
+      "width": "Enter width",
+      "height": "Enter height/depth",
+      "diameter": "Enter diameter"
+    },
+    "buttons": {
+      "calculate": "Calculate Cubic Yards",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "imperial": "Imperial (ft, in)",
+      "metric": "Metric (m, cm)"
+    },
+    "shapes": {
+      "rectangular": "Rectangular",
+      "circular": "Circular",
+      "triangular": "Triangular"
+    },
+    "materials": {
+      "concrete": "Concrete",
+      "soil": "Soil",
+      "mulch": "Mulch",
+      "gravel": "Gravel",
+      "sand": "Sand",
+      "custom": "Custom Density"
+    }
+  },
+  "results": {
+    "cubicYards": "Cubic Yards",
+    "cubicFeet": "Cubic Feet",
+    "cubicMeters": "Cubic Meters",
+    "materialWeight": "Material Weight",
+    "cubicYardResultsTitle": "Cubic Yard Results"
+  },
+  "educational": {
+    "cubicYardInfo": "Cubic Yard Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Construction Resources",
+    "cubicYardFacts": {
+      "conversion": {
+        "title": "Volume Conversions",
+        "description": "1 cubic yard = 27 cubic feet = 0.764555 cubic meters"
+      },
+      "materials": {
+        "title": "Common Material Densities",
+        "description": "Concrete: 4,050 lbs/yd³, Soil: 2,200 lbs/yd³, Mulch: 500 lbs/yd³"
+      },
+      "ordering": {
+        "title": "Ordering Materials",
+        "description": "Add 10-15% extra to account for waste and settling"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides volume calculations only",
+      "accuracy": "Measure accurately and add extra for waste and settling"
+    },
+    "importantNotesList": [
+      "Always measure twice and order extra material to account for waste",
+      "Consider material compaction and settling in your calculations",
+      "Check local suppliers for material availability and delivery options",
+      "Factor in transportation and handling when planning your project"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your dimensions to calculate cubic yards",
+    "resultMessage": "Your cubic yard calculation is shown below",
+    "assessmentResult": "Volume Calculation Result:",
+    "cubicYardAnalysis": "Cubic Yard Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides volume calculations based on standard geometric formulas. Actual material requirements may vary based on project specifics, waste factors, and supplier recommendations."
+  },
+  "seekHelp": {
+    "title": "Construction Resources",
+    "content": "For professional construction advice and material estimation, consult construction professionals or your local material suppliers for project-specific recommendations."
+  },
+  "errors": {
+    "length": "Please enter a valid length",
+    "width": "Please enter a valid width",
+    "height": "Please enter a valid height/depth",
+    "diameter": "Please enter a valid diameter",
+    "shape": "Please select a shape",
+    "material": "Please select a material type"
+  },
+  "tooltips": {
+    "shape": "Select the shape of the area you're measuring",
+    "length": "Longest dimension of the area",
+    "width": "Width of the area (perpendicular to length)",
+    "height": "Depth or height of the material needed",
+    "diameter": "Distance across the circular area",
+    "material": "Type of material affects weight calculations"
+  },
+  "length_0": "Length (",
+  "width_1": "Width (",
+  "height_2": "Height (",
+  "side_length_3": "Side Length (",
+  "radius_4": "Radius (",
+  "height_5": "Height (",
+  "outer_dimensions_6": "Outer Dimensions",
+  "outer_length_7": "Outer Length (",
+  "outer_width_8": "Outer Width (",
+  "outer_height_9": "Outer Height (",
+  "inner_dimensions_10": "Inner Dimensions",
+  "inner_length_11": "Inner Length (",
+  "inner_width_12": "Inner Width (",
+  "inner_height_13": "Inner Height (",
+  "outer_radius_14": "Outer Radius (",
+  "inner_radius_15": "Inner Radius (",
+  "height_16": "Height (",
+  "radius_17": "Radius (",
+  "base_radius_18": "Base Radius (",
+  "height_19": "Height (",
+  "base_area_20": "Base Area (",
+  "height_21": "Height (",
+  "shape_dimensions_22": "Shape & Dimensions",
+  "select_shape_and_enter_dimensions_to_calculate_vol_23": "Select shape and enter dimensions to calculate volume",
+  "select_shape_24": "Select Shape",
+  "yards_yd_25": "Yards (yd)",
+  "conversion_26": "Conversion:",
+  "k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_27": "1 cubic yard = 27 cubic feet = 46,656 cubic inches",
+  "commonly_used_for_concrete_gravel_soil_mulch_and_o_28": "Commonly used for concrete, gravel, soil, mulch, and other construction materials.",
+  "calculate_29": "Calculate",
+  "volume_results_30": "Volume Results",
+  "cubic_yards_31": "cubic yards",
+  "cubic_feet_32": "cubic feet",
+  "total_cost_33": "Total Cost",
+  "select_shape_enter_dimensions_and_click_34": "Select shape, enter dimensions and click",
+  "calculate_35": "Calculate",
+  "to_see_volume_36": "to see volume.",
+  "detailed_volume_breakdown_37": "Detailed Volume Breakdown",
+  "cubic_yards_38": "Cubic Yards",
+  "yd_39": "yd³",
+  "cubic_feet_40": "Cubic Feet",
+  "ft_41": "ft³",
+  "total_cost_42": "Total Cost",
+  "usd_43": "USD",
+  "understanding_cubic_yards_in_construction_44": "Understanding Cubic Yards in Construction",
+  "why_cubic_yards_45": "Why Cubic Yards?",
+  "cubic_yards_are_the_standard_unit_for_measuring_bu_46": "Cubic yards are the standard unit for measuring bulk construction materials like concrete,\n                        gravel, soil, and mulch. This unit provides a practical scale for construction projects and\n                        material ordering.",
+  "common_applications_47": "Common Applications",
+  "concrete_for_foundations_driveways_patios_48": "Concrete for foundations, driveways, patios",
+  "gravel_for_driveways_and_landscaping_49": "Gravel for driveways and landscaping",
+  "soil_and_topsoil_for_gardening_50": "Soil and topsoil for gardening",
+  "mulch_for_landscaping_projects_51": "Mulch for landscaping projects",
+  "sand_for_construction_and_landscaping_52": "Sand for construction and landscaping",
+  "sample_calculation_53": "Sample Calculation",
+  "example_rectangular_driveway_54": "Example: Rectangular Driveway",
+  "length_12_ft_55": "Length: 12 ft",
+  "width_9_ft_56": "Width: 9 ft",
+  "depth_2_ft_57": "Depth: 2 ft",
+  "volume_12_9_2_216_ft_58": "Volume: 12 × 9 × 2 = 216 ft³",
+  "result_216_27_8_cubic_yards_59": "Result: 216 ÷ 27 = 8 cubic yards",
+  "conversion_60": "Conversion:",
+  "always_divide_cubic_feet_by_27_to_get_cubic_yards_61": "Always divide cubic feet by 27 to get cubic yards.",
+  "unit_25": "Unit",
+  "feet_ft_26": "Feet (ft)",
+  "inches_in_27": "Inches (in)",
+  "yards_yd_28": "Yards (yd)",
+  "cost_per_cubic_yard_optional_29": "Cost per Cubic Yard (Optional)",
+  "conversion_30": "Conversion:",
+  "k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_31": "1 cubic yard = 27 cubic feet = 46,656 cubic inches",
+  "commonly_used_for_concrete_gravel_soil_mulch_and_o_32": "Commonly used for concrete, gravel, soil, mulch, and other construction materials.",
+  "calculate_33": "Calculate",
+  "volume_results_34": "Volume Results",
+  "cubic_yards_35": "cubic yards",
+  "cubic_feet_36": "cubic feet",
+  "total_cost_37": "Total Cost",
+  "select_shape_enter_dimensions_and_click_38": "Select shape, enter dimensions and click",
+  "calculate_39": "Calculate",
+  "to_see_volume_40": "to see volume.",
+  "detailed_volume_breakdown_41": "Detailed Volume Breakdown",
+  "cubic_yards_42": "Cubic Yards",
+  "yd_43": "yd³",
+  "cubic_feet_44": "Cubic Feet",
+  "ft_45": "ft³",
+  "total_cost_46": "Total Cost",
+  "usd_47": "USD",
+  "understanding_cubic_yards_in_construction_48": "Understanding Cubic Yards in Construction",
+  "why_cubic_yards_49": "Why Cubic Yards?",
+  "cubic_yards_are_the_standard_unit_for_measuring_bu_50": "Cubic yards are the standard unit for measuring bulk construction materials like concrete,\n                        gravel, soil, and mulch. This unit provides a practical scale for construction projects and\n                        material ordering.",
+  "common_applications_51": "Common Applications",
+  "concrete_for_foundations_driveways_patios_52": "Concrete for foundations, driveways, patios",
+  "gravel_for_driveways_and_landscaping_53": "Gravel for driveways and landscaping",
+  "soil_and_topsoil_for_gardening_54": "Soil and topsoil for gardening",
+  "mulch_for_landscaping_projects_55": "Mulch for landscaping projects",
+  "sand_for_construction_and_landscaping_56": "Sand for construction and landscaping",
+  "sample_calculation_57": "Sample Calculation",
+  "example_rectangular_driveway_58": "Example: Rectangular Driveway",
+  "length_12_ft_59": "Length: 12 ft",
+  "width_9_ft_60": "Width: 9 ft",
+  "depth_2_ft_61": "Depth: 2 ft",
+  "volume_12_9_2_216_ft_62": "Volume: 12 × 9 × 2 = 216 ft³",
+  "result_216_27_8_cubic_yards_63": "Result: 216 ÷ 27 = 8 cubic yards",
+  "conversion_64": "Conversion:",
+  "always_divide_cubic_feet_by_27_to_get_cubic_yards_65": "Always divide cubic feet by 27 to get cubic yards."
+}

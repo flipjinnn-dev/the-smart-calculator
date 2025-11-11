@@ -1,0 +1,85 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator emerytalny i dlaczego go używać?",
+      "content": "Nasz darmowy kalkulator emerytalny online pomoże Ci oszacować, ile pieniędzy będziesz potrzebować, aby wygodnie przejść na emeryturę. Niezależnie od tego, czy szukasz bezpłatnego kalkulatora oszczędności emerytalnych, kalkulatora oszczędności emerytalnych, czy kalkulatora dochodu emerytalnego z Ubezpieczeniem Społecznym, to narzędzie zapewnia jasne informacje dostosowane do Twoich celów finansowych. Zamiast zgadywać, możesz szybko obliczyć, ile pieniędzy potrzebujesz na emeryturę, dostosowując oszczędności, inwestycje, inflację i stawki wypłat."
+    },
+    {
+      "heading": "Jak działa kalkulator emerytalny (krok po kroku)",
+      "subSections": [
+        {
+          "heading": "Wpisz swoje aktualne oszczędności",
+          "content": "Uwzględnij 401 (k), IRA, emeryturę lub oszczędności osobiste."
+        },
+        {
+          "heading": "Dodaj oczekiwany wkład",
+          "content": "Depozyty miesięczne lub roczne."
+        },
+        {
+          "heading": "Dostosuj założenia dotyczące wzrostu",
+          "content": "Oszacuj zwroty z inwestycji i inflację."
+        },
+        {
+          "heading": "Ustaw swój wiek emerytalny i oczekiwaną długość życia",
+          "content": "Zaplanuj realistyczne ramy czasowe."
+        },
+        {
+          "heading": "Przejrzyj swoje wyniki",
+          "content": "Zobacz przewidywane dochody, wypłaty i wzrost liczby jaj."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe zalety naszego kalkulatora planowania emerytalnego",
+      "subSections": [
+        {
+          "heading": "Wyniki skorygowane o inflację",
+          "content": "Planuj realistycznie, korzystając z kalkulatora planowania emerytalnego uwzględniającego inflację."
+        },
+        {
+          "heading": "Scenariusze wycofania",
+          "content": "Poznaj bezpieczne stawki wypłat za pomocą kalkulatora wypłat emerytalnych dostępnego online."
+        },
+        {
+          "heading": "Ubezpieczenia społeczne i emerytury",
+          "content": "Uwzględnij świadczenia, korzystając z kalkulatora emerytur i emerytur."
+        },
+        {
+          "heading": "Wiele scenariuszy",
+          "content": "Porównaj różne wieki emerytalne, stopy oszczędności i zyski."
+        },
+        {
+          "heading": "Wykresy i wykresy",
+          "content": "Wizualizuj swoją podróż na emeryturę, aby lepiej ją zaplanować."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa bezproblemowo na telefonach, tabletach i komputerach stacjonarnych."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ile potrzebuję, aby wygodnie przejść na emeryturę?",
+      "a": "Większość ekspertów zaleca osiągnięcie poziomu 70–80% dochodów przedemerytalnych. Nasz kalkulator emerytalny z przykładami pomoże Ci spersonalizować to oszacowanie."
+    },
+    {
+      "q": "Jak dokładny jest kalkulator emerytalny?",
+      "a": "Chociaż żaden kalkulator nie przewiduje doskonale przyszłości, nasze narzędzie dostosowuje się do inflacji, zwrotu z inwestycji i oczekiwanej długości życia, aby zapewnić realistyczne prognozy."
+    },
+    {
+      "q": "Czy mogę obliczyć emeryturę bez ZUS?",
+      "a": "Tak. Możesz uruchomić scenariusze ze świadczeniami lub bez, korzystając z naszego kalkulatora emerytalnego bez ubezpieczenia społecznego."
+    },
+    {
+      "q": "Jaka jest bezpieczna stopa wypłaty na emeryturze?",
+      "a": "Powszechną wytyczną jest 4%, ale wyniki są różne. Skorzystaj z naszego kalkulatora bezpiecznej emerytury, aby przetestować różne strategie."
+    },
+    {
+      "q": "Czy to najlepsze narzędzie do obliczania emerytury?",
+      "a": "Nasze narzędzie jest zoptymalizowane pod kątem początkujących i zaawansowanych użytkowników zajmujących się planowaniem emerytalnym, oferując wiele scenariuszy, korekty inflacji i względy podatkowe, co czyni go jednym z najlepszych kalkulatorów emerytalnych na rok 2025 opartych na sztucznej inteligencji."
+    }
+  ]
+}

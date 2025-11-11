@@ -1,0 +1,83 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Was ist eine Hypothek?",
+      "content": "Eine Hypothek ist ein Wohnungsbaudarlehen, das durch Eigentum, meist Immobilien, besichert ist. Der Kreditgeber stellt das Geld für den Hauskauf zur Verfügung und der Kreditnehmer verpflichtet sich, diesen Betrag über einen längeren Zeitraum, in der Regel 15 bis 30 Jahre, zurückzuzahlen. Die monatlichen Zahlungen werden in zwei Hauptteile unterteilt: den Kapitalbetrag, der den ursprünglichen Kreditbetrag darstellt, und die Zinsen, die die Kreditkosten darstellen. Mit dem Hypothekendarlehensrechner können Sie diese Komponenten sowie andere relevante Kosten wie Grundsteuern und Versicherungen detailliert berechnen, um eine genaue monatliche Zahlung zu erhalten."
+    },
+    {
+      "heading": "Hauptmerkmale unseres Hypothekenrechners",
+      "subSections": [
+        {
+          "heading": "Darlehensbetrag",
+          "content": "Der Gesamtbetrag, der für den Kauf des Hauses geliehen wurde. Er wird berechnet, indem etwaige Anzahlungen vom Kaufpreis des Hauses abgezogen werden."
+        },
+        {
+          "heading": "Anzahlung",
+          "content": "Dabei handelt es sich um die Vorauszahlung, die üblicherweise als Prozentsatz des Gesamtpreises ausgedrückt wird. Eine größere Anzahlung führt oft zu besseren Kreditkonditionen. Die meisten Kreditgeber erwarten 20 % oder mehr, aber Erstkäufer können manchmal nur 3 % zahlen."
+        },
+        {
+          "heading": "Kreditlaufzeit",
+          "content": "Die Zeit, die zur Rückzahlung des Darlehens benötigt wird, beträgt häufig 15, 20 oder 30 Jahre. Kürzere Laufzeiten führen in der Regel zu einem niedrigeren Zinssatz und einer schnelleren Auszahlung."
+        },
+        {
+          "heading": "Zinssatz",
+          "content": "Die Kosten für die Kreditaufnahme, die entweder fest oder anpassbar sein können. Festzinshypotheken (FRM) bieten einen konstanten Zinssatz während der gesamten Kreditlaufzeit, während sich Hypotheken mit variablem Zinssatz (ARM) nach einer anfänglichen Laufzeit ändern können. Nutzen Sie unseren Hypothekenrechner mit variablem Zinssatz, um die Auswirkungen möglicher Zinsänderungen abzuschätzen."
+        },
+        {
+          "heading": "PMI (Private Hypothekenversicherung)",
+          "content": "Wenn Ihre Anzahlung weniger als 20 % beträgt, müssen Sie wahrscheinlich PMI zahlen. Der Hypothekenrechner mit PMI-Option hilft Ihnen, diese zusätzlichen Kosten in Ihre Schätzungen einzubeziehen."
+        }
+      ]
+    },
+    {
+      "heading": "Komponenten des Hypothekenrechners erklärt",
+      "subSections": [
+        {
+          "heading": "Wiederkehrende Kosten",
+          "content": "Grundsteuern: Von den Kommunalverwaltungen erhobene Steuern, in den USA typischerweise etwa 1,1 % des Immobilienwerts. Diese Kosten steigen aufgrund der Inflation tendenziell jährlich an. Sie können sie in den Grundsteuer- und Hypothekenrechner einbeziehen, um eine vollständige Schätzung Ihrer monatlichen Kosten zu erhalten. Hausversicherung: Schützt das Haus vor unerwarteten Schäden. Die Kosten variieren je nach Standort und Wert der Immobilie. Unser Hypothekenzinsrechner kann diese Kosten für eine genaue Finanzprognose berücksichtigen. HOA-Gebühren: Für einige Immobilien fallen Gebühren der Eigentümergemeinschaft an, die oft weniger als 1 % des Immobilienwerts betragen. Für Eigentumswohnungen und Reihenhäuser fallen diese Gebühren häufig an. Private Hypothekenversicherung (PMI): Erforderlich, wenn die Anzahlung weniger als 20 % beträgt. Dies trägt dazu bei, den Kreditgeber im Falle eines Zahlungsausfalls des Kreditnehmers zu schützen."
+        },
+        {
+          "heading": "Einmalige Kosten",
+          "content": "Abschlusskosten: Gebühren, die bei der Schließung eines Hauses gezahlt werden, z. B. Anwaltskosten, Bewertungsgebühren und Eigentumsgebühren. Diese Kosten liegen in der Regel zwischen 2 % und 5 % des Kaufpreises des Hauses. Renovierungen: Optionale Modernisierungen wie Küchenmodernisierungen oder neue Fußböden können Ihre Gesamtkosten erhöhen, sind jedoch nicht in den monatlichen Hypothekenzahlungen enthalten. Sonstige Kosten: Dazu gehören Umzugskosten, Möbel und Hausreparaturen nach dem Kauf."
+        }
+      ]
+    },
+    {
+      "heading": "Optionen zur vorzeitigen Rückzahlung in unserem Hypothekendarlehensrechner",
+      "content": "Viele Hauskäufer möchten ihre Hypothek möglicherweise früher als erforderlich zurückzahlen, um Zinsen zu sparen oder weil sie ihre Immobilie umfinanzieren oder verkaufen. Unser Hypothekenzahlungsrechner mit Möglichkeiten zur vorzeitigen Rückzahlung kann Ihnen bei der Planung dabei helfen.",
+      "subSections": [
+        {
+          "heading": "Strategien zur vorzeitigen Rückzahlung Ihrer Hypothek",
+          "content": "Zusätzliche Zahlungen: Durch zusätzliche Zahlungen zusätzlich zu Ihrer monatlichen Hypothek können Sie den Kapitalbetrag schneller reduzieren, was im Laufe der Zeit zu niedrigeren Zinskosten führt. Zweiwöchentliche Zahlungen: Anstatt monatlich zu zahlen, leisten Sie alle zwei Wochen halbe Zahlungen. Dies führt dazu, dass jedes Jahr ein zusätzlicher Zahlungsmonat anfällt, sodass Sie den Kredit schneller abbezahlen können. Unser zweiwöchentlicher Hypothekenzahlungsrechner zeigt, wie dieser Ansatz funktioniert. Refinanzierung: Die Refinanzierung Ihres Darlehens zu einem niedrigeren Zinssatz oder einer kürzeren Laufzeit kann Ihnen helfen, Geld zu sparen und Ihre Hypothek schneller abzubezahlen. Mit dem Refinanzierungs-Hypothek-Rechner können Sie potenzielle Einsparungen abschätzen."
+        },
+        {
+          "heading": "Vor- und Nachteile einer vorzeitigen Rückzahlung",
+          "content": "Vorteile: Geringere Zinskosten: Durch die vorzeitige Tilgung Ihrer Hypothek reduzieren sich die Zinsen, die Sie über die Laufzeit des Darlehens zahlen. Schnellere Rückzahlung: Der Kredit wird schneller abbezahlt und Sie erhalten schneller finanzielle Freiheit. Persönliche Zufriedenheit: Viele Kreditnehmer genießen den emotionalen Vorteil, schuldenfrei zu sein. Nachteile: Mögliche Vorfälligkeitsentschädigungen: Einige Kreditgeber erheben Gebühren für die vorzeitige Rückzahlung, was die Vorteile schmälern kann. Opportunitätskosten: Wenn die Hypothekenzinsen niedrig sind, ist die Verwendung zusätzlicher Mittel zur Tilgung der Hypothek möglicherweise nicht die beste finanzielle Entscheidung, insbesondere wenn Sie anderswo eine höhere Rendite erzielen könnten. Kapitalbindung: Geld, das für die vorzeitige Rückzahlung der Hypothek ausgegeben wird, kann für andere Ausgaben benötigt werden. Verlust von Steuerabzügen: Hypothekenzinsen sind steuerlich absetzbar, aber die vorzeitige Tilgung der Hypothek verringert den Betrag, den Sie abziehen können."
+        }
+      ]
+    },
+    {
+      "heading": "Kurze Geschichte der Hypotheken in den USA",
+      "content": "Wohneigentum war für viele Menschen in den USA nicht immer zugänglich. Zu Beginn des 20. Jahrhunderts waren Hauskäufer auf hohe Anzahlungen und kurze Kreditlaufzeiten angewiesen. Nach der Weltwirtschaftskrise machten die Gründung von Fannie Mae und der Federal Housing Administration (FHA) Wohnungsbaudarlehen durch die Einführung langfristiger Optionen mit geringer Anzahlung zugänglicher. Diese Agenturen trugen zur Stabilisierung des Immobilienmarktes bei und ihr Einfluss hält bis heute an."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie verwende ich einen Hypothekenrechner?",
+      "a": "Geben Sie einfach Ihren Kreditbetrag, Zinssatz, Anzahlung und Kreditlaufzeit ein. Der Rechner schätzt automatisch Ihre monatliche Hypothekenzahlung und zeigt eine Aufschlüsselung nach Zinsen, Steuern und Versicherungen an."
+    },
+    {
+      "q": "Was ist PMI und wie wirkt es sich auf meine Hypothekenzahlung aus?",
+      "a": "Eine private Hypothekenversicherung (PMI) ist erforderlich, wenn Ihre Anzahlung weniger als 20 % beträgt. Es fallen zusätzliche Kosten zu Ihrer monatlichen Zahlung an, bis das Beleihungsverhältnis 80 % erreicht."
+    },
+    {
+      "q": "Kann ich mit dem Hypothekenrechner umfinanzieren?",
+      "a": "Ja, mit dem Refinanzierungs-Hypothekenrechner können Sie die Einsparungen durch die Refinanzierung Ihrer Hypothek schätzen, einschließlich Änderungen Ihres Zinssatzes und der Kreditlaufzeit."
+    },
+    {
+      "q": "Welche Faktoren beeinflussen die Hypothekenzahlungen?",
+      "a": "Faktoren wie der Kreditbetrag, der Zinssatz, die Anzahlung und immobilienbezogene Kosten (wie Steuern und Versicherungen) beeinflussen alle Ihre monatliche Zahlung."
+    }
+  ]
+}

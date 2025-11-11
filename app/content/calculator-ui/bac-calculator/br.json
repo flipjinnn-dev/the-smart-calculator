@@ -1,0 +1,213 @@
+{
+  "pageTitle": "Calculadora de teor de álcool no sangue (TAS)",
+  "pageDescription": "Estime seu teor de álcool no sangue (TAS) com base nas bebidas consumidas, peso, sexo e tempo",
+  "form": {
+    "labels": {
+      "gender": "Gênero",
+      "weight": "Peso",
+      "unitSystem": "Sistema de Unidades",
+      "drinks": "Número de bebidas",
+      "drinkType": "Tipo de bebida",
+      "hoursDrinking": "Horas de bebida",
+      "hoursElapsed": "Horas desde a primeira bebida"
+    },
+    "placeholders": {
+      "weight": "Insira o peso em {unit}",
+      "drinks": "Número de bebidas consumidas",
+      "hoursDrinking": "Horas gastas bebendo",
+      "hoursElapsed": "Horas desde a primeira bebida"
+    },
+    "buttons": {
+      "calculate": "Calcular TAS",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades dos EUA (lb)",
+      "metric": "Unidades Métricas (kg)"
+    },
+    "drinkTypes": {
+      "beer": "Cerveja (12 onças, 5% de álcool)",
+      "wine": "Vinho (5 onças, 12% de álcool)",
+      "liquor": "Licor (1,5 onças, 40% de álcool)",
+      "custom": "Conteúdo alcoólico personalizado"
+    }
+  },
+  "results": {
+    "bacValue": "Teor de álcool no sangue",
+    "bacPercentage": "Porcentagem de TAS",
+    "legalLimit": "Limite Legal",
+    "bacResultsTitle": "Resultados BAC",
+    "bacFormula": {
+      "label": "Fórmula TAS",
+      "standard": "TAS = (Álcool consumido em gramas / (Peso corporal em gramas × Constante de gênero)) × 100 - (Horas decorridas × Taxa de metabolismo)"
+    },
+    "legalLimitInfo": "Limite legal de direção na maioria dos estados dos EUA: 0,08%"
+  },
+  "educational": {
+    "bacInfo": "Informações sobre o teor de álcool no sangue",
+    "criticalWarnings": "Avisos Críticos",
+    "importantNotes": "Informações importantes",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Procure ajuda imediata",
+    "bacEffects": {
+      "sober": {
+        "title": "0,00% - Sóbrio",
+        "description": "Sem prejuízo"
+      },
+      "buzzed": {
+        "title": "0,01% - 0,05% - zumbido",
+        "description": "Leve euforia e comprometimento"
+      },
+      "tipsy": {
+        "title": "0,06% - 0,10% - embriagado",
+        "description": "Julgamento e coordenação prejudicados"
+      },
+      "drunk": {
+        "title": "0,11% - 0,20% - Bêbado",
+        "description": "Controle motor significativamente prejudicado"
+      },
+      "veryDrunk": {
+        "title": "0,21% - 0,29% - Muito bêbado",
+        "description": "Confusão, tontura, possíveis desmaios"
+      },
+      "dangerous": {
+        "title": "0,30%+ - Perigoso",
+        "description": "Risco de intoxicação por álcool, inconsciência"
+      }
+    },
+    "criticalWarningsList": {
+      "notExact": "Esta calculadora fornece apenas estimativas e pode não refletir o TAS real",
+      "impairment": "Mesmo pequenas quantidades de álcool podem prejudicar a capacidade de dirigir"
+    },
+    "importantNotesList": [
+      "A TAS é afetada pelo consumo de alimentos, medicamentos e metabolismo individual",
+      "As mulheres normalmente têm TAS mais elevada do que os homens para a mesma quantidade de álcool",
+      "Nunca beba e dirija - use um motorista designado ou serviço de carona",
+      "Se você suspeitar de intoxicação por álcool, procure atendimento médico imediato"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Insira suas informações para estimar seu teor de álcool no sangue",
+    "bacResult": "TAS estimado: {bac}%",
+    "legalStatus": "Status legal para dirigir: {status}",
+    "aboveLimit": "Acima do limite legal",
+    "belowLimit": "Abaixo do limite legal",
+    "assessmentResult": "Resultado da Avaliação:",
+    "bacAnalysis": "Análise de alcoolemia"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece apenas estimativas e não deve ser usada para determinar se é seguro dirigir. Muitos fatores afetam a TAS que não são contabilizados neste cálculo. Sempre opte pela cautela e nunca dirija depois de beber álcool."
+  },
+  "seekHelp": {
+    "title": "Ajuda de emergência",
+    "content": "Se você suspeitar de intoxicação por álcool (confusão, vômito, respiração lenta ou irregular, pele azulada, temperatura corporal baixa ou inconsciência), ligue imediatamente para os serviços de emergência. A intoxicação por álcool pode ser fatal."
+  },
+  "errors": {
+    "gender": "Por favor selecione o sexo",
+    "weight": "Por favor insira um peso válido",
+    "drinks": "Por favor insira um número válido de bebidas",
+    "hoursDrinking": "Por favor insira horas válidas de consumo",
+    "hoursElapsed": "Insira horas válidas desde a primeira bebida"
+  },
+  "tooltips": {
+    "weight": "Seu peso corporal atual afeta o TAS",
+    "drinks": "Número de bebidas padrão consumidas",
+    "hoursDrinking": "Duração em que as bebidas foram consumidas",
+    "hoursElapsed": "Tempo desde que a primeira bebida foi consumida"
+  },
+  "personal_information_drinks_0": "Informações pessoais e bebidas",
+  "enter_your_information_and_alcohol_consumption_det_1": "Insira suas informações e detalhes de consumo de álcool",
+  "personal_information_2": "Informações pessoais",
+  "gender_3": "Gênero",
+  "male_4": "Macho",
+  "female_5": "Fêmea",
+  "age_6": "Idade",
+  "required_for_watson_body_water_calculation_7": "Necessário para cálculo de água corporal do Watson",
+  "body_weight_8": "Peso corporal",
+  "your_current_body_weight_9": "Seu peso corporal atual",
+  "lb_10": "Libra",
+  "kg_11": "kg",
+  "g_12": "g",
+  "height_13": "Altura",
+  "required_for_watson_body_water_calculation_14": "Necessário para cálculo de água corporal do Watson",
+  "cm_15": "cm",
+  "ft_16": "pés",
+  "in_17": "em",
+  "time_since_first_drink_18": "Tempo desde a primeira bebida",
+  "time_elapsed_since_your_first_alcoholic_drink_19": "Tempo decorrido desde a sua primeira bebida alcoólica",
+  "alcohol_consumed_20": "Álcool Consumido",
+  "add_drink_21": "Adicionar bebida",
+  "drink_22": "Bebida",
+  "type_23": "Tipo",
+  "beer_24": "Cerveja",
+  "wine_25": "Vinho",
+  "liquor_26": "Licor",
+  "other_27": "Outro",
+  "quantity_28": "Quantidade",
+  "volume_29": "Volume",
+  "oz_30": "onças",
+  "ml_31": "ml",
+  "abv_32": "ABV%",
+  "metric_widmark_formula_33": "Fórmula Métrica Widmark:",
+  "bac_ag_r_wkg_10_t_34": "TAS(%) = A_g ÷ (r × W_kg × 10) - (β × t)",
+  "ag_alcohol_grams_r_distribution_ratio_male_068_fem_35": "A_g = gramas de álcool, r = razão de distribuição (masculino: 0,68, feminino: 0,55), β = 0,017/hora\n                        eliminação",
+  "calculate_36": "Calcular",
+  "reset_37": "Reiniciar",
+  "bac_results_38": "Resultados BAC",
+  "bac_39": "TAS",
+  "h_40": "h",
+  "until_sober_41": "Até sóbrio",
+  "standard_drinks_42": "Bebidas Padrão",
+  "enter_your_information_and_drinks_then_click_43": "Insira suas informações e bebidas e clique em",
+  "calculate_44": "Calcular",
+  "to_see_bac_45": "para ver o BAC.",
+  "detailed_bac_analysis_46": "Análise detalhada de BAC",
+  "bac_level_47": "Nível de alcoolemia",
+  "time_until_sober_48": "Tempo até ficar sóbrio",
+  "hours_49": "horas",
+  "at_0017hour_elimination_50": "A 0,017/hora de eliminação",
+  "standard_drinks_51": "Bebidas Padrão",
+  "total_consumed_52": "Total consumido",
+  "pure_alcohol_53": "Álcool Puro",
+  "g_54": "g",
+  "total_grams_55": "Total de gramas",
+  "calculation_steps_widmark_formula_56": "Etapas de cálculo (fórmula Widmark):",
+  "step_1_57": "Etapa 1:",
+  "total_alcohol_58": "Álcool total =",
+  "g_volume_abv_0789_quantity_59": "g (Volume × ABV\n                          × 0,789 × Quantidade)",
+  "step_2_60": "Etapa 2:",
+  "distribution_ratio_61": "Razão de distribuição =",
+  "metric_constant_62": "constante métrica)",
+  "step_3_63": "Etapa 3:",
+  "initial_bac_64": "TAS inicial =",
+  "g_65": "g÷ (",
+  "kg_10_66": "quilograma × 10) =",
+  "step_4_67": "Etapa 4:",
+  "current_bac_68": "TAS atual =",
+  "h_69": "h) =",
+  "important_disclaimer_70": "Isenção de responsabilidade importante",
+  "this_bac_calculator_provides_an_estimate_only_actu_71": "Esta calculadora BAC fornece apenas uma estimativa. O BAC real pode variar de acordo com o indivíduo\n                            fatores. Não beba e dirija. Sempre use drivers designados ou alternativos\n                            transporte.",
+  "understanding_blood_alcohol_concentration_72": "Compreendendo a concentração de álcool no sangue",
+  "what_is_bac_73": "O que é BAC?",
+  "blood_alcohol_concentration_bac_measures_the_amoun_74": "A concentração de álcool no sangue (TAS) mede a quantidade de álcool na corrente sanguínea como um\n                        porcentagem. Esta calculadora usa a fórmula de Watson para obter água corporal total mais precisa\n                        cálculo em comparação com a equação tradicional de Widmark.",
+  "watson_vs_widmark_formula_75": "Fórmula Watson vs Widmark",
+  "watson_uses_age_height_weight_and_gender_for_preci_76": "Watson: usa idade, altura, peso e sexo para TBW preciso",
+  "widmark_uses_simple_gender_constants_less_accurate_77": "Widmark: usa constantes de gênero simples (menos precisas)",
+  "elimination_rate_0017hour_more_accurate_than_0015_78": "Taxa de eliminação: 0,017/hora (mais preciso que 0,015)",
+  "alcohol_conversion_volume_abv_0789_density_79": "Conversão de álcool: Volume × ABV × 0,789 densidade",
+  "metric_widmark_formula_80": "Fórmula Métrica Widmark",
+  "formula_bac_ag_r_wkg_10_t_81": "Fórmula: BAC(%) = A_g ÷ (r × W_kg × 10) - β × t",
+  "distribution_ratios_male_068_female_055_metric_con_82": "Razões de distribuição: Masculino 0,68, Feminino 0,55 (constantes métricas)",
+  "elimination_rate_0017_per_hour_updated_standard_83": "Taxa de eliminação: 0,017% por hora (padrão atualizado)",
+  "alcohol_conversion_volumeml_abv_0789_density_84": "Conversão de álcool: Volume (ml) × ABV% × 0,789 densidade",
+  "standard_drink_equivalents_85": "Equivalentes de bebidas padrão",
+  "k_1_standard_drink_14g_pure_alcohol_86": "1 bebida padrão = 14g de álcool puro:",
+  "k_12_oz_beer_5_abv_87": "• 12 onças de cerveja (5% ABV)",
+  "k_5_oz_wine_12_abv_88": "• 5 onças de vinho (12% ABV)",
+  "k_15_oz_liquor_40_abv_89": "• 1,5 onças de licor (40% ABV)",
+  "elimination_rate_90": "Taxa de eliminação:",
+  "the_liver_eliminates_alcohol_at_approximately_0017_91": "O fígado elimina o álcool a aproximadamente 0,017% de alcoolemia por hora (atualizado a partir de 0,015% mais antigo).\n                          taxa), independentemente do tamanho do corpo ou da experiência de beber.",
+  "safety_note_92": "Nota de segurança:",
+  "this_calculator_is_for_educational_purposes_only_n_93": "Esta calculadora é apenas para fins educacionais. Nunca confie em\n                          Estimativas de BAC para determinar se você está seguro para dirigir."
+}

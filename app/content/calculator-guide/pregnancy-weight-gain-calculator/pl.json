@@ -1,0 +1,127 @@
+{
+  "color": "różowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator przyrostu masy ciała w ciąży?",
+      "content": "Nasz kalkulator przyrostu masy ciała w ciąży to bezpłatne narzędzie zaprojektowane, aby pomóc przyszłym matkom oszacować idealny przyrost masy ciała w czasie ciąży. Opiera się na wytycznych Światowej Organizacji Zdrowia (WHO), Instytutu Medycyny (IOM) i NHS. <br><br>⚠️ Zastrzeżenie: To narzędzie służy wyłącznie do celów edukacyjnych. Aby uzyskać spersonalizowane wskazówki, zawsze skonsultuj się ze swoim lekarzem, ginekologiem lub położną."
+    },
+    {
+      "heading": "Dlaczego przyrost masy ciała w ciąży ma znaczenie",
+      "subSections": [
+        {
+          "heading": "Wspomaga wzrost płodu",
+          "content": "Zapewnia zdrowy rozwój dziecka."
+        },
+        {
+          "heading": "Redukuje komplikacje",
+          "content": "Pomaga obniżyć ryzyko cukrzycy ciążowej i wysokiego ciśnienia krwi."
+        },
+        {
+          "heading": "Utrzymuje zdrowie matki",
+          "content": "Wspomaga zdrowie matki i powrót do zdrowia po porodzie."
+        }
+      ]
+    },
+    {
+      "heading": "Zalecany przyrost masy ciała podczas ciąży (IOM/WHO/NHS)",
+      "subSections": [
+        {
+          "heading": "Niedowaga (BMI < 18,5)",
+          "content": "28–40 funtów (12,5–18 kg)"
+        },
+        {
+          "heading": "Normalna waga (BMI 18,5–24,9)",
+          "content": "25–35 funtów (11,5–16 kg)"
+        },
+        {
+          "heading": "Nadwaga (BMI 25–29,9)",
+          "content": "15–25 funtów (7–11,5 kg)"
+        },
+        {
+          "heading": "Otyłość (BMI ≥ 30)",
+          "content": "11–20 funtów (5–9 kg)"
+        },
+        {
+          "heading": "Ciąża bliźniacza/mnoga",
+          "content": "Zalecane wyższe zakresy – skonsultuj się z lekarzem."
+        }
+      ]
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora przyrostu masy ciała w ciąży (krok po kroku)",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wprowadź swój wzrost i wagę (kg/cm lub funty/cale)."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Wybierz kategorię BMI sprzed ciąży (lub pozwól, aby kalkulator obliczył ją automatycznie)."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Wpisz bieżący tydzień ciąży (1–40 tygodni)."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Kliknij Oblicz → Natychmiast zobacz zalecany zakres przyrostu masy ciała i wykres."
+        },
+        {
+          "heading": "Krok 5",
+          "content": "Wyświetl wskazówki dotyczące konkretnego trymestru i cotygodniowe śledzenie."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe cechy naszego narzędzia",
+      "subSections": [
+        {
+          "heading": "Wsparcie globalne + lokalne",
+          "content": "Działa w kg/cm (Azja, UE) i funtach/calach (USA, Wielka Brytania)."
+        },
+        {
+          "heading": "Śledzenie trymestru",
+          "content": "Zapewnia wgląd w przyrost masy ciała w ciąży tydzień po tygodniu."
+        },
+        {
+          "heading": "Oparte na wytycznych",
+          "content": "Przestrzega zaleceń WHO, IOM i NHS."
+        },
+        {
+          "heading": "Obsługuje wszystkie BMI",
+          "content": "Działa dla matek z niedowagą, normalnymi, z nadwagą i otyłością."
+        },
+        {
+          "heading": "Ciąża mnoga",
+          "content": "Zawiera wytyczne dotyczące ciąż bliźniaczych/mnogich."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ile powinnam przytyć w czasie ciąży?",
+      "a": "To zależy od Twojego BMI przed ciążą. Kobiety z prawidłowym BMI przybierają średnio 11–16 kg (25–35 funtów)."
+    },
+    {
+      "q": "Jak obliczyć przyrost masy ciała w ciąży?",
+      "a": "Skorzystaj z tego kalkulatora, wpisując swój wzrost, wagę, BMI i bieżący tydzień ciąży."
+    },
+    {
+      "q": "Dlaczego przyrost masy ciała w ciąży jest ważny?",
+      "a": "Zapewnia zdrowy rozwój Twojego dziecka i zmniejsza ryzyko powikłań, takich jak przedwczesny poród lub cukrzyca ciążowa."
+    },
+    {
+      "q": "Jaki jest bezpieczny przyrost masy ciała w ciągu tygodnia?",
+      "a": "Pierwszy trymestr: łącznie 1–2 kg (2–5 funtów). <br>Drugi i trzeci trymestr: około 0,5 kg (1 funt) na tydzień."
+    },
+    {
+      "q": "Czy mogę używać tego kalkulatora do obliczania bliźniąt lub wielokrotności?",
+      "a": "Tak, ale ciąża mnoga wymaga szczególnej opieki. Skonsultuj się ze swoim lekarzem, aby uzyskać spersonalizowaną poradę."
+    },
+    {
+      "q": "Czy ten kalkulator jest ważny na całym świecie?",
+      "a": "Tak, jest zgodny z wytycznymi WHO i NHS i działa globalnie (Azja Południowa, Europa, USA itp.)."
+    }
+  ]
+}

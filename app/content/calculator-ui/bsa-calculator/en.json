@@ -1,0 +1,98 @@
+{
+  "pageTitle": "Body Surface Area (BSA) Calculator",
+  "pageDescription": "Calculate your body surface area using medical formulas like Du Bois, Mosteller, Haycock, and Gehan & George",
+  "form": {
+    "labels": {
+      "weight": "Weight",
+      "height": "Height",
+      "weightUnit": "Weight Unit",
+      "heightUnit": "Height Unit",
+      "formula": "Calculation Formula"
+    },
+    "placeholders": {
+      "weight": "Enter your weight",
+      "height": "Enter your height"
+    },
+    "buttons": {
+      "calculate": "Calculate BSA",
+      "reset": "Reset"
+    },
+    "units": {
+      "kilograms": "Kilograms (kg)",
+      "pounds": "Pounds (lbs)",
+      "centimeters": "Centimeters (cm)",
+      "inches": "Inches (in)",
+      "feetInches": "Feet and Inches (ft/in)"
+    },
+    "formulas": {
+      "duBois": "Du Bois Formula",
+      "mosteller": "Mosteller Formula",
+      "haycock": "Haycock Formula",
+      "gehanGeorge": "Gehan & George Formula"
+    }
+  },
+  "results": {
+    "bsaResult": "Body Surface Area (BSA)",
+    "formulaUsed": "Formula Used",
+    "weightInKg": "Weight (kg)",
+    "heightInCm": "Height (cm)",
+    "normalRange": "Normal Range",
+    "interpretation": "BSA Interpretation"
+  },
+  "educational": {
+    "bsaInfo": "Body Surface Area Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Health Resources",
+    "bsaFacts": {
+      "definition": {
+        "title": "Body Surface Area Definition",
+        "description": "BSA is the total surface area of the human body, usually expressed in square meters (m²)"
+      },
+      "formulas": {
+        "title": "Calculation Formulas",
+        "description": "Different formulas are used for adults and children, with Du Bois being the clinical standard"
+      },
+      "applications": {
+        "title": "Medical Applications",
+        "description": "Used for drug dosing, fluid replacement, and kidney function assessments"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides BSA estimates only",
+      "actual": "Consult healthcare professionals for personalized medical assessments"
+    },
+    "importantNotesList": [
+      "BSA is more accurate than BMI for certain medical calculations",
+      "Different formulas may be more appropriate for specific populations",
+      "Results should not replace professional medical advice",
+      "Body composition and hydration can affect accuracy"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your weight and height to calculate body surface area",
+    "resultMessage": "Your body surface area calculation results are shown below",
+    "assessmentResult": "BSA Calculation Result:",
+    "bsaAnalysis": "Body Surface Area Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides body surface area estimates based on standard medical formulas. Results should not replace professional medical advice, diagnosis, or treatment. Individual assessments should be conducted by qualified healthcare professionals."
+  },
+  "seekHelp": {
+    "title": "Health Resources",
+    "content": "For personalized medical assessments and treatment plans, consult with healthcare professionals who can provide guidance based on individual needs and medical history."
+  },
+  "errors": {
+    "weight": "Please enter a valid weight",
+    "height": "Please enter a valid height"
+  },
+  "tooltips": {
+    "weight": "Your current body weight",
+    "height": "Your current height",
+    "weightUnit": "Unit of measurement for weight",
+    "heightUnit": "Unit of measurement for height",
+    "formula": "Select the formula to use for BSA calculation"
+  }
+}

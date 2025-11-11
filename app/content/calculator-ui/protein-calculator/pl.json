@@ -1,0 +1,216 @@
+{
+  "pageTitle": "Kalkulator białka",
+  "pageDescription": "Oblicz swoje dzienne zapotrzebowanie na białko w oparciu o poziom aktywności, cele i masę ciała potrzebne do budowy i utrzymania mięśni oraz ogólnego stanu zdrowia",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "weight": "Waga",
+      "height": "Wysokość",
+      "unitSystem": "Układ jednostek",
+      "activityLevel": "Poziom aktywności",
+      "goal": "Cel fitness",
+      "proteinPreference": "Preferencje dotyczące spożycia białka"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz białko",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Siedzący tryb życia (mało ćwiczeń lub brak ćwiczeń)",
+      "light": "Lekko aktywny (lekkie ćwiczenia 1-3 dni w tygodniu)",
+      "moderate": "Umiarkowanie aktywny (umiarkowane ćwiczenia 3-5 dni w tygodniu)",
+      "active": "Bardzo aktywny (ciężkie ćwiczenia 6-7 dni w tygodniu)",
+      "veryActive": "Niezwykle aktywny (bardzo ciężkie ćwiczenia i praca fizyczna)"
+    },
+    "goals": {
+      "maintenance": "Utrzymanie wagi",
+      "lose": "Utrata wagi",
+      "gain": "Przyrost mięśni",
+      "athletic": "Wydajność sportowa"
+    },
+    "proteinPreferences": {
+      "minimum": "Minimalne wymagania",
+      "standard": "Standardowe spożycie",
+      "high": "Wysokie spożycie białka",
+      "veryHigh": "Bardzo wysokie spożycie białka"
+    }
+  },
+  "results": {
+    "proteinNeeds": "Dzienne zapotrzebowanie na białko",
+    "proteinRange": "Zalecany zakres białka",
+    "caloriesFromProtein": "Kalorie z białka",
+    "proteinResultsTitle": "Wyniki białka"
+  },
+  "educational": {
+    "proteinInfo": "Informacje o białkach",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby odżywcze",
+    "proteinFacts": {
+      "function": {
+        "title": "Funkcja białka",
+        "description": "Niezbędny do budowy i naprawy mięśni, produkcji enzymów i syntezy hormonów"
+      },
+      "sources": {
+        "title": "Źródła białka",
+        "description": "Białka kompletne (produkty zwierzęce) i białka niekompletne (źródła roślinne)"
+      },
+      "recommendations": {
+        "title": "Zalecenia dietetyczne",
+        "description": "0,8 g na kg dla osób dorosłych prowadzących siedzący tryb życia, do 2,2 g na kg dla sportowców"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator podaje jedynie szacunkowe wartości odżywcze",
+      "individual": "Zapotrzebowanie na białko różni się w zależności od czynników indywidualnych i stanu zdrowia"
+    },
+    "importantNotesList": [
+      "Sportowcy i osoby aktywne mogą wymagać większego spożycia białka",
+      "Rozłóż spożycie białka w ciągu dnia, aby uzyskać optymalną syntezę białek mięśniowych",
+      "Przy wyborze źródeł należy wziąć pod uwagę jakość białka i profil aminokwasów",
+      "Nadmierne spożycie białka może obciążać nerki u podatnych osób"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź swoje dane, aby obliczyć zapotrzebowanie na białko",
+    "resultMessage": "Poniżej przedstawiono dzienne zapotrzebowanie na białko",
+    "assessmentResult": "Wynik obliczenia białka:",
+    "proteinAnalysis": "Analiza białek"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten podaje szacunkowe spożycie białka w oparciu o ogólne wytyczne żywieniowe. Indywidualne potrzeby mogą się różnić w zależności od stanu zdrowia, stosowanych leków i specyficznych wymagań dietetycznych."
+  },
+  "seekHelp": {
+    "title": "Zasoby odżywcze",
+    "content": "Aby uzyskać spersonalizowane porady żywieniowe i zaplanować dietę, skonsultuj się z zarejestrowanymi dietetykami lub pracownikami służby zdrowia posiadającymi wiedzę z zakresu nauk o żywieniu i indywidualnych potrzeb zdrowotnych."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "activityLevel": "Proszę wybrać poziom aktywności",
+    "goal": "Wybierz cel fitness",
+    "proteinPreference": "Wybierz preferencje dotyczące spożycia białka"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na tempo metabolizmu i zapotrzebowanie na białko",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "activityLevel": "Twój regularny poziom aktywności wpływa na zapotrzebowanie na białko",
+    "goal": "Twój cel fitness określa zalecenia dotyczące białka",
+    "proteinPreference": "Wybrane preferencje wpływają na poziom spożycia białka"
+  },
+  "protein_calculation_0": "Obliczanie białka",
+  "enter_your_details_to_calculate_your_optimal_daily_1": "Wprowadź swoje dane, aby obliczyć optymalne dzienne spożycie białka",
+  "age_years_2": "Wiek (lata) *",
+  "gender_3": "Płeć *",
+  "male_4": "Mężczyzna",
+  "female_5": "Kobieta",
+  "height_6": "Wysokość *",
+  "metric_7": "Metryczny",
+  "us_8": "NAS",
+  "cm_9": "cm",
+  "ft_10": "stopy",
+  "in_11": "W",
+  "weight_12": "Waga *",
+  "metric_13": "Metryczny",
+  "us_14": "NAS",
+  "kg_15": "kg",
+  "lbs_16": "funty",
+  "activity_level_17": "Poziom aktywności *",
+  "sedentary_little_or_no_exercise_18": "Siedzący tryb życia (mało ćwiczeń lub brak ćwiczeń)",
+  "light_exercise_13_daysweek_19": "Lekkie ćwiczenia (1-3 dni w tygodniu)",
+  "moderate_exercise_35_daysweek_20": "Umiarkowane ćwiczenia (3-5 dni w tygodniu)",
+  "heavy_exercise_67_daysweek_21": "Ciężkie ćwiczenia (6-7 dni w tygodniu)",
+  "very_heavy_exercise_twiceday_or_physical_job_22": "Bardzo ciężkie ćwiczenia (dwa razy dziennie lub praca fizyczna)",
+  "goal_23": "Bramka *",
+  "maintenance_maintain_current_weightmuscle_24": "Utrzymanie (utrzymanie aktualnej wagi/mięśni)",
+  "fat_loss_lose_weight_while_preserving_muscle_25": "Utrata tkanki tłuszczowej (schudnij, zachowując mięśnie)",
+  "muscle_gain_build_muscle_mass_26": "Przyrost mięśni (budowa masy mięśniowej)",
+  "calculate_27": "Obliczać",
+  "reset_28": "Nastawić",
+  "daily_protein_29": "Codzienne białko",
+  "g_30": "g",
+  "per_day_31": "za dzień",
+  "enter_your_details_to_calculate_your_optimal_daily_32": "Wprowadź swoje dane, aby obliczyć optymalne dzienne spożycie białka.",
+  "protein_intake_results_33": "Wyniki spożycia białka",
+  "g_per_day_34": "g dziennie",
+  "recommended_daily_protein_intake_35": "Zalecane dzienne spożycie białka",
+  "weight_36": "Waga",
+  "activity_37": "Działalność",
+  "goal_38": "Bramka",
+  "multiplier_39": "Mnożnik",
+  "gkg_40": "g/kg",
+  "calculation_breakdown_41": "Podział obliczeń",
+  "body_weight_42": "Masa ciała:",
+  "kg_43": "kg",
+  "protein_multiplier_44": "Mnożnik białka:",
+  "gkg_45": "g/kg",
+  "daily_protein_46": "Dzienne białko:",
+  "g_47": "g",
+  "activity_range_48": "Zakres działania:",
+  "g_49": "g",
+  "nutritional_info_50": "Informacje o wartościach odżywczych",
+  "calories_from_protein_51": "Kalorie z białka:",
+  "kcal_52": "kcal",
+  "estimated_of_total_calories_53": "Szacunkowy% całkowitej liczby kalorii:",
+  "protein_per_meal_3_meals_54": "Białko na posiłek (3 posiłki):",
+  "g_55": "g",
+  "protein_per_meal_4_meals_56": "Białko na posiłek (4 posiłki):",
+  "g_57": "g",
+  "personalized_advice_58": "Spersonalizowane porady",
+  "about_protein_requirements_59": "O wymaganiach dotyczących białka",
+  "protein_multipliers_by_activity_60": "Mnożniki białek według aktywności",
+  "sedentary_61": "Siedzący:",
+  "k_08_gkg_basic_maintenance_62": "0,8 g/kg - Podstawowa konserwacja",
+  "light_exercise_63": "Lekkie ćwiczenia:",
+  "k_1012_gkg_recreational_activity_64": "1,0-1,2 g/kg - Aktywność rekreacyjna",
+  "moderate_exercise_65": "Umiarkowane ćwiczenia:",
+  "k_1216_gkg_regular_training_66": "1,2-1,6 g/kg - Regularny trening",
+  "heavy_exercise_67": "Ciężkie ćwiczenia:",
+  "k_1622_gkg_intense_training_68": "1,6-2,2 g/kg - Intensywny trening",
+  "very_heavyathletes_69": "Bardzo ciężki/sportowcy:",
+  "k_2025_gkg_elite_performance_70": "2,0-2,5 g/kg - Elitarna wydajność",
+  "goal_adjustments_71": "Korekty celów",
+  "maintenance_72": "Konserwacja:",
+  "midpoint_of_activity_range_73": "Środek zakresu aktywności",
+  "fat_loss_74": "Utrata tłuszczu:",
+  "upper_end_to_preserve_muscle_75": "Górny koniec chroniący mięśnie",
+  "muscle_gain_76": "Przyrost mięśni:",
+  "maximum_intake_for_growth_77": "Maksymalne spożycie dla wzrostu",
+  "highquality_protein_sources_78": "Wysokiej jakości źródła białka",
+  "food_79": "Żywność",
+  "protein100g_80": "Białko/100g",
+  "chicken_breast_81": "Pierś z kurczaka",
+  "k_31g_82": "31g",
+  "greek_yogurt_83": "Jogurt grecki",
+  "k_10g_84": "10g",
+  "eggs_85": "Jajka",
+  "k_13g_86": "13g",
+  "salmon_87": "Łosoś",
+  "k_25g_88": "25g",
+  "lentils_89": "Soczewica",
+  "k_9g_90": "9g",
+  "important_notes_91": "Ważne uwagi",
+  "spread_protein_intake_throughout_the_day_92": "Rozłóż spożycie białka w ciągu dnia",
+  "combine_with_resistance_training_for_muscle_gain_93": "Połącz z treningiem oporowym, aby zwiększyć masę mięśniową",
+  "individual_needs_may_vary_based_on_genetics_94": "Indywidualne potrzeby mogą się różnić w zależności od genetyki",
+  "consult_a_nutritionist_for_personalized_advice_95": "Skonsultuj się z dietetykiem, aby uzyskać spersonalizowaną poradę"
+}

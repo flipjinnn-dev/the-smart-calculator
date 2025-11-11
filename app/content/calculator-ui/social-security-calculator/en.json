@@ -1,0 +1,153 @@
+{
+  "pageTitle": "Social Security Calculator",
+  "pageDescription": "Estimate your Social Security benefits based on your earnings history and planned retirement age for comprehensive retirement planning",
+  "form": {
+    "labels": {
+      "dateOfBirth": "Date of Birth",
+      "retirementAge": "Planned Retirement Age",
+      "currentAge": "Current Age",
+      "yearsOfCoverage": "Years of Coverage",
+      "averageIndexedMonthlyEarnings": "Average Indexed Monthly Earnings",
+      "primaryInsuranceAmount": "Primary Insurance Amount (PIA)",
+      "spouseBenefit": "Spouse Benefit Percentage"
+    },
+    "placeholders": {
+      "dateOfBirth": "Enter date of birth",
+      "retirementAge": "Enter planned retirement age",
+      "currentAge": "Enter current age",
+      "yearsOfCoverage": "Enter years of coverage",
+      "averageIndexedMonthlyEarnings": "Enter average indexed monthly earnings",
+      "primaryInsuranceAmount": "Enter primary insurance amount",
+      "spouseBenefit": "Enter spouse benefit percentage"
+    },
+    "buttons": {
+      "calculate": "Calculate Social Security Benefits",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "monthlyBenefit": "Estimated Monthly Benefit",
+    "annualBenefit": "Estimated Annual Benefit",
+    "benefitAtFullRetirement": "Benefit at Full Retirement Age",
+    "spouseBenefit": "Spouse Benefit Amount",
+    "socialSecurityResultsTitle": "Social Security Calculation Results"
+  },
+  "educational": {
+    "socialSecurityInfo": "Social Security Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "socialSecurityFacts": {
+      "fullRetirementAge": {
+        "title": "Full Retirement Age",
+        "description": "Age at which you receive full Social Security benefits (66-67 for most people)"
+      },
+      "earlyRetirement": {
+        "title": "Early Retirement Impact",
+        "description": "Benefits reduced by 6.67% per year for early retirement before full retirement age"
+      },
+      "delayedRetirement": {
+        "title": "Delayed Retirement Credits",
+        "description": "Benefits increase by 8% per year for delayed retirement up to age 70"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides Social Security benefit estimates only",
+      "actual": "Actual benefits may vary based on earnings history and Social Security Administration calculations"
+    },
+    "importantNotesList": [
+      "Use your Social Security statement for more accurate benefit estimates",
+      "Consider spousal benefits and survivor benefits in retirement planning",
+      "Social Security replaces about 40% of pre-retirement income for average earners",
+      "Benefits may be subject to federal and state income taxes"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your Social Security information to estimate benefits",
+    "resultMessage": "Your Social Security benefit calculation results are shown below",
+    "assessmentResult": "Social Security Calculation Result:",
+    "socialSecurityAnalysis": "Social Security Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides Social Security benefit estimates based on general formulas. Actual benefits may vary based on earnings history, Social Security Administration calculations, and other factors not included in these estimates."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized Social Security benefit analysis and retirement planning, consult Social Security representatives or financial advisors with expertise in retirement income planning and individual circumstances."
+  },
+  "errors": {
+    "dateOfBirth": "Please enter a valid date of birth",
+    "retirementAge": "Please enter a valid planned retirement age",
+    "currentAge": "Please enter a valid current age",
+    "yearsOfCoverage": "Please enter valid years of coverage",
+    "averageIndexedMonthlyEarnings": "Please enter valid average indexed monthly earnings",
+    "primaryInsuranceAmount": "Please enter valid primary insurance amount",
+    "spouseBenefit": "Please enter valid spouse benefit percentage"
+  },
+  "tooltips": {
+    "dateOfBirth": "Your date of birth affects full retirement age calculation",
+    "retirementAge": "Age when you plan to begin receiving Social Security benefits",
+    "currentAge": "Your current age in years",
+    "yearsOfCoverage": "Number of years you've worked and paid Social Security taxes",
+    "averageIndexedMonthlyEarnings": "Average of your highest 35 years of indexed earnings",
+    "primaryInsuranceAmount": "Benefit amount at full retirement age",
+    "spouseBenefit": "Percentage of your benefit that spouse may receive"
+  },
+  "social_security_inputs_0": "Social Security Inputs",
+  "basic_information_1": "Basic Information",
+  "birth_year_2": "Birth Year",
+  "full_retirement_age_3": "Full Retirement Age",
+  "autocalculated_4": "(Auto-calculated:",
+  "years_5": "years",
+  "life_expectancy_years_6": "Life Expectancy (Years)",
+  "monthly_benefit_at_fra_7": "Monthly Benefit at FRA",
+  "claiming_ages_to_compare_8": "Claiming Ages to Compare",
+  "age_9": "Age",
+  "fra_10": "(FRA)",
+  "economic_assumptions_11": "Economic Assumptions",
+  "annual_cola_12": "Annual COLA (%)",
+  "investment_return_13": "Investment Return (%)",
+  "show_in_future_inflated_dollars_vs_todays_dollars_14": "Show in Future Inflated Dollars (vs Today's Dollars)",
+  "calculate_15": "Calculate",
+  "benefit_comparison_16": "Benefit Comparison",
+  "compare_claiming_strategies_17": "Compare claiming strategies",
+  "optimal_strategy_18": "Optimal Strategy:",
+  "claim_at_age_19": "Claim at Age",
+  "highest_present_value_20": "Highest present value: $",
+  "detailed_comparison_21": "Detailed Comparison",
+  "claim_age_22": "Claim Age",
+  "monthly_benefit_23": "Monthly Benefit",
+  "lifetime_benefits_24": "Lifetime Benefits",
+  "present_value_25": "Present Value",
+  "age_26": "Age",
+  "best_27": "BEST",
+  "vs_fra_28": "% vs FRA",
+  "key_insights_29": "Key Insights:",
+  "present_values_assume_30": "• Present values assume",
+  "annual_investment_return_31": "% annual investment return",
+  "benefits_increase_by_32": "• Benefits increase by",
+  "annually_after_claiming_33": "% annually after claiming",
+  "early_claiming_reduces_benefits_permanently_34": "• Early claiming reduces benefits permanently",
+  "delayed_retirement_credits_add_8_per_year_after_fr_35": "• Delayed retirement credits add 8% per year after FRA",
+  "select_claiming_ages_and_calculate_to_see_your_res_36": "Select claiming ages and calculate to see your results",
+  "how_social_security_benefits_work_37": "How Social Security Benefits Work",
+  "k_1_primary_insurance_amount_pia_38": "1. Primary Insurance Amount (PIA)",
+  "your_pia_is_calculated_from_your_average_indexed_m_39": "Your PIA is calculated from your Average Indexed Monthly Earnings (AIME) using bend points:",
+  "k_2_claiming_age_adjustments_40": "2. Claiming Age Adjustments",
+  "benefits_are_reduced_for_early_claiming_before_fra_41": "Benefits are reduced for early claiming (before FRA) and increased for delayed claiming (after FRA up to age 70).",
+  "k_3_present_value_analysis_42": "3. Present Value Analysis",
+  "where_r_investment_return_rate_accounting_for_the__43": "Where r = investment return rate, accounting for the opportunity cost of claiming later.",
+  "frequently_asked_questions_44": "Frequently Asked Questions",
+  "what_is_full_retirement_age_fra_45": "What is Full Retirement Age (FRA)?",
+  "full_retirement_age_is_when_you_can_claim_100_of_y_46": "Full Retirement Age is when you can claim 100% of your Social Security benefit. It ranges from 65 to 67 depending on your birth year. For those born in 1960 or later, FRA is 67.",
+  "how_much_do_i_lose_by_claiming_early_at_62_47": "How much do I lose by claiming early at 62?",
+  "claiming_at_62_reduces_your_benefit_by_about_2530__48": "Claiming at 62 reduces your benefit by about 25-30% permanently, depending on your FRA. The reduction is 5/9 of 1% for each month before FRA (up to 36 months), then 5/12 of 1% for each additional month.",
+  "what_are_delayed_retirement_credits_49": "What are delayed retirement credits?",
+  "for_each_year_you_delay_claiming_past_fra_up_to_ag_50": "For each year you delay claiming past FRA (up to age 70), you earn delayed retirement credits worth 8% per year. This means waiting until 70 can increase your benefit by 24-32% compared to claiming at FRA.",
+  "what_is_the_breakeven_age_51": "What is the breakeven age?",
+  "the_breakeven_age_is_when_the_total_benefits_recei_52": "The breakeven age is when the total benefits received from claiming later equals those from claiming earlier. Generally, if you live past your early 80s, delaying benefits pays off in total dollars received.",
+  "how_does_cola_affect_my_benefits_53": "How does COLA affect my benefits?",
+  "costofliving_adjustments_cola_are_applied_annually_54": "Cost-of-Living Adjustments (COLA) are applied annually to protect against inflation. The adjustment applies to your benefit amount at the time of the increase, regardless of when you claimed. Historical COLA averages about 2-3% annually."
+}

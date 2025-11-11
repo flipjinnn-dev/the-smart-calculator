@@ -1,0 +1,131 @@
+{
+  "pageTitle": "Kalkulator BMI dla anorektyczki",
+  "pageDescription": "Oblicz BMI i oceń nasilenie jadłowstrętu psychicznego, korzystając z progów klasyfikacji medycznej. Narzędzie edukacyjne umożliwiające zrozumienie zakresów BMI i konsekwencji zdrowotnych.",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "height": "Wysokość",
+      "weight": "Waga",
+      "unitSystem": "Układ jednostek"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz BMI",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    }
+  },
+  "results": {
+    "bmiValue": "BMI kg/m²",
+    "classification": "Klasyfikacja",
+    "healthyRange": "Zdrowy asortyment",
+    "bmiResultsTitle": "Wyniki BMI",
+    "bmiFormula": {
+      "label": "Formuła BMI",
+      "us": "BMI = (waga w funtach / (wzrost w calach)²) × 703",
+      "metric": "BMI = waga w kg / (wzrost w metrach)²"
+    },
+    "healthyBmiRange": "Zdrowy zakres BMI: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "classifications": "Klasyfikacje BMI",
+    "criticalWarnings": "Krytyczne ostrzeżenia",
+    "importantNotes": "Ważne uwagi",
+    "healthyRange": "Zdrowy zakres BMI",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Szukaj profesjonalnej pomocy",
+    "bmiClassifications": {
+      "normal": {
+        "title": "Normalna",
+        "description": "BMI ≥ 18,5 – nie sugeruje anoreksji"
+      },
+      "mildAnorexia": {
+        "title": "Łagodna anoreksja",
+        "description": "BMI 17,0 - 17,49"
+      },
+      "moderateAnorexia": {
+        "title": "Umiarkowana anoreksja",
+        "description": "BMI 16,0 - 16,99"
+      },
+      "severeAnorexia": {
+        "title": "Ciężka anoreksja",
+        "description": "BMI 15,0 - 15,99"
+      },
+      "extremeAnorexia": {
+        "title": "Ekstremalna anoreksja",
+        "description": "BMI < 15,0"
+      }
+    },
+    "criticalWarningsList": {
+      "organFailure": "BMI < 13,5: Ryzyko niewydolności narządowej",
+      "lifeThreatening": "BMI < 12: Stan zagrożenia życia"
+    },
+    "importantNotesList": [
+      "Samo BMI nie wystarczy do rozpoznania jadłowstrętu psychicznego",
+      "Ocena kliniczna wymaga oceny psychologicznej",
+      "Wiek, masa mięśniowa i gęstość kości wpływają na interpretację BMI",
+      "W przypadku dzieci w wieku ≤20 lat należy skorzystać z wykresów wzrostu CDC"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "jest uważany za prawidłowy zakres BMI dla dorosłych.",
+      "association": "Przedział ten wiąże się z najniższym ryzykiem problemów zdrowotnych i śmiertelności."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje pomiary, aby obliczyć BMI i ocenić nasilenie anoreksji",
+    "doesNotSuggestAnorexia": "Nie sugeruje anoreksji.",
+    "suggestsAnorexia": "Twoje BMI sugeruje możliwą anoreksję (nasilenie: {nasilenie}). Uwaga: samo BMI nie stanowi diagnozy.",
+    "lifeThreateningCondition": "Stan zagrażający życiu — natychmiast zwrócić się o pomoc lekarską.",
+    "riskOfOrganFailure": "Niebezpieczeństwo: Ryzyko niewydolności narządowej.",
+    "ageWarning": "W przypadku dzieci i młodzieży (≤20 lat) w celu prawidłowej interpretacji BMI należy skorzystać z wykresów wzrostu CDC.",
+    "assessmentResult": "Wynik oceny:",
+    "bmiAnalysis": "Analiza BMI i ocena anoreksji"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten służy wyłącznie celom informacyjnym. BMI jest jednym ze wskaźników, a nie diagnozą. Skonsultuj się z pracownikiem służby zdrowia w celu właściwej oceny i leczenia zaburzeń odżywiania."
+  },
+  "seekHelp": {
+    "title": "Szukaj profesjonalnej pomocy",
+    "content": "Jeśli Ty lub ktoś, kogo znasz, zmaga się z zaburzeniami odżywiania, skonsultuj się z lekarzem. Wczesna interwencja i właściwe leczenie mają kluczowe znaczenie dla powrotu do zdrowia."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na interpretację BMI u dzieci/młodzieży",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała"
+  },
+  "loading_0": "Załadunek...",
+  "error_loading_content_1": "Błąd podczas ładowania treści:",
+  "male_2": "Mężczyzna",
+  "female_3": "Kobieta",
+  "calculate_4": "Obliczać",
+  "k_185_25_5": "18,5 - 25",
+  "enter_your_measurements_then_click_6": "Wprowadź swoje wymiary i kliknij",
+  "calculate_7": "Obliczać",
+  "to_see_bmi_8": "żeby zobaczyć BMI.",
+  "bmi_value_9": "Wartość BMI",
+  "kgm_10": "kg/m²",
+  "classification_11": "Klasyfikacja",
+  "healthy_bmi_range_12": "Zdrowy zakres BMI",
+  "k_185_25_13": "18,5 - 25",
+  "kgm_14": "kg/m²"
+}

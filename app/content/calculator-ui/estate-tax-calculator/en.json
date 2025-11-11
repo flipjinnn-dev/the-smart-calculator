@@ -1,0 +1,139 @@
+{
+  "pageTitle": "Estate Tax  Calculator",
+  "pageDescription": "Calculate estate tax  with our free online calculator",
+  "form": {
+    "labels": {
+      "input1": "Input 1",
+      "input2": "Input 2",
+      "input3": "Input 3"
+    },
+    "placeholders": {
+      "input1": "Enter first value",
+      "input2": "Enter second value",
+      "input3": "Enter third value"
+    },
+    "buttons": {
+      "calculate": "Calculate Estate Tax ",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "result1": "Result 1",
+    "result2": "Result 2",
+    "calculationDetails": "Estate Tax  Calculation Results"
+  },
+  "educational": {
+    "info": "Estate Tax  Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "Estate Tax  Definition",
+        "description": "Information about estate tax "
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How estate tax  is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of estate tax "
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estate tax  estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate estate tax ",
+    "resultMessage": "Your estate tax  calculation results are shown below",
+    "assessmentResult": "Estate Tax  Calculation Result:",
+    "analysis": "Estate Tax  Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estate tax  estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  },
+  "estate_tax_calculator_0": "Estate Tax Calculator",
+  "assets_1": "Assets",
+  "residence_other_real_estate_2": "Residence & Other Real Estate",
+  "stocks_bonds_other_investments_3": "Stocks, Bonds, Other Investments",
+  "savings_cds_checking_accounts_4": "Savings, CDs, Checking Accounts",
+  "vehicles_boats_other_properties_5": "Vehicles, Boats, Other Properties",
+  "retirement_plans_6": "Retirement Plans",
+  "life_insurance_benefit_7": "Life Insurance Benefit",
+  "other_assets_8": "Other Assets",
+  "liability_costs_and_deductibles_9": "Liability, Costs, and Deductibles",
+  "debts_mortgages_loan_credit_cards_etc_10": "Debts (mortgages, loan, credit cards, etc)",
+  "funeral_administration_and_claims_expenses_11": "Funeral, Administration, and Claims Expenses",
+  "charitable_contributions_12": "Charitable Contributions",
+  "state_inheritance_or_estate_taxes_13": "State Inheritance or Estate Taxes",
+  "deductions_14": "Deductions",
+  "charitable_contributions_15": "Charitable Contributions",
+  "lifetime_gifted_amount_16": "Lifetime Gifted Amount",
+  "total_amount_youve_gifted_tax_free_in_your_lifetim_17": "Total amount you've gifted tax free in your lifetime",
+  "calculate_tax_18": "Calculate Tax",
+  "estate_tax_results_19": "Estate Tax Results",
+  "your_complete_estate_tax_breakdown_20": "Your complete estate tax breakdown",
+  "net_taxable_estate_is_21": "Net taxable estate is $",
+  "estate_tax_owed_22": "Estate Tax Owed:",
+  "no_estate_tax_is_owed_since_the_estate_is_below_th_23": "No estate tax is owed since the estate is below the exemption threshold.",
+  "assets_24": "Assets",
+  "residence_other_real_estate_25": "Residence & Other Real Estate",
+  "stocks_bonds_and_other_investments_26": "Stocks, Bonds, and Other Investments",
+  "savings_cds_and_checking_account_balance_27": "Savings, CDs, and Checking Account Balance",
+  "vehicles_boats_and_other_properties_28": "Vehicles, Boats, and Other Properties",
+  "retirement_plans_29": "Retirement Plans",
+  "life_insurance_benefit_30": "Life Insurance Benefit",
+  "other_assets_31": "Other Assets",
+  "total_assets_32": "Total Assets",
+  "liability_costs_and_deductibles_33": "Liability, Costs, and Deductibles",
+  "debts_mortgages_loan_credit_cards_etc_34": "Debts (mortgages, loan, credit cards, etc)",
+  "funeral_administration_and_claims_expenses_35": "Funeral, Administration, and Claims Expenses",
+  "charitable_contributions_36": "Charitable Contributions",
+  "state_inheritance_or_estate_taxes_37": "State Inheritance or Estate Taxes",
+  "total_liabilities_deductions_38": "Total Liabilities & Deductions",
+  "lifetime_gifted_amount_39": "Lifetime Gifted Amount",
+  "total_amount_youve_gifted_tax_free_in_your_lifetim_40": "Total amount you've gifted tax free in your lifetime",
+  "net_taxable_estate_41": "Net Taxable Estate",
+  "federal_exemption_2025_42": "Federal Exemption (2025)",
+  "taxable_estate_43": "Taxable Estate",
+  "tax_rate_44": "Tax Rate:",
+  "k_40_on_taxable_estate_above_exemption_45": "40% on taxable estate above exemption",
+  "the_federal_estate_tax_rate_is_a_flat_40_on_the_am_46": "The federal estate tax rate is a flat 40% on the amount exceeding the $13.99M exemption for\n                          2025.",
+  "enter_your_estate_information_to_see_your_results_47": "Enter your estate information to see your results",
+  "estate_tax_calculation_formula_48": "Estate Tax Calculation Formula",
+  "k_1_total_assets_49": "1. Total Assets",
+  "assets_real_estate_investments_savings_vehicles_re_50": "Assets = Real Estate + Investments + Savings + Vehicles + Retirement Plans + Life Insurance +\n                        Other Assets",
+  "k_2_total_liabilities_51": "2. Total Liabilities",
+  "liabilities_mortgages_loans_credit_cards_funeral_e_52": "Liabilities = Mortgages + Loans + Credit Cards + Funeral Expenses + Administration Expenses +\n                        Claims",
+  "k_3_gross_estate_53": "3. Gross Estate",
+  "gross_estate_assets_liabilities_lifetime_gifts_cha_54": "Gross Estate = Assets - Liabilities + Lifetime Gifts - Charitable Contributions",
+  "k_4_taxable_estate_55": "4. Taxable Estate",
+  "taxable_estate_max0_gross_estate_federal_exemption_56": "Taxable Estate = max(0, Gross Estate - Federal Exemption)",
+  "k_5_estate_tax_owed_57": "5. Estate Tax Owed",
+  "estate_tax_taxable_estate_40_58": "Estate Tax = Taxable Estate × 40%"
+}

@@ -1,0 +1,122 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist ein GFR-Rechner?",
+      "content": "Ein GFR-Rechner (Glomeruläre Filtrationsrate) schätzt, wie gut Ihre Nieren Blut filtern. Es verwendet Ihr Alter, Geschlecht und den Serumkreatininspiegel, um eine geschätzte GFR (eGFR) zu ermitteln und Ihr CKD-Stadium (chronische Nierenerkrankung) zu identifizieren. Dieses Tool ist für die Überwachung der Nierengesundheit sowohl bei Erwachsenen als auch bei Kindern unerlässlich."
+    },
+    {
+      "heading": "So funktioniert der GFR-Rechner",
+      "subSections": [
+        {
+          "heading": "Eingaben erforderlich",
+          "content": "Alter, Geschlecht, Serumkreatinin (mg/dL oder μmol/L), Auswahl für Kinder oder Erwachsene."
+        },
+        {
+          "heading": "Verwendete Formeln",
+          "content": "CKD-EPI (am genauesten für Erwachsene), MDRD (häufig bei der CKD-Überwachung verwendet) und Schwartz-Formel (zur pädiatrischen GFR-Berechnung)."
+        },
+        {
+          "heading": "Was als nächstes passiert",
+          "content": "Nach Eingabe der Details schätzt der Rechner Ihre eGFR und identifiziert gegebenenfalls das CKD-Stadium."
+        }
+      ]
+    },
+    {
+      "heading": "Warum einen GFR-Rechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Klare Einblicke in die Nierengesundheit",
+          "content": "Verstehen Sie schnell, wie effizient Ihre Nieren Blut filtern."
+        },
+        {
+          "heading": "CKD-Überwachung",
+          "content": "Verfolgen Sie den Verlauf oder erkennen Sie Nierenerkrankungen im Frühstadium."
+        },
+        {
+          "heading": "Personalisiertes Tracking",
+          "content": "Separate Rechner für Erwachsene und Kinder sorgen für Genauigkeit."
+        },
+        {
+          "heading": "Formelvergleich",
+          "content": "Überprüfen Sie die Ergebnisse mit CKD-EPI vs. MDRD für optimale Genauigkeit."
+        },
+        {
+          "heading": "Bequemlichkeit",
+          "content": "Schnell, kostenlos und online ohne manuelle Berechnungen."
+        }
+      ]
+    },
+    {
+      "heading": "Tipps zur natürlichen Verbesserung der Nierenfunktion",
+      "subSections": [
+        {
+          "heading": "Bleiben Sie hydriert",
+          "content": "Trinken Sie täglich ausreichend Wasser, um die Nierenfiltration zu unterstützen."
+        },
+        {
+          "heading": "Kontrollieren Sie Blutdruck und Blutzucker",
+          "content": "Hilft, das Fortschreiten einer chronischen Nierenerkrankung zu verhindern."
+        },
+        {
+          "heading": "Ernähren Sie sich nierenfreundlich",
+          "content": "Begrenzen Sie die Aufnahme von Salz, verarbeiteten Lebensmitteln und übermäßiger Proteinaufnahme."
+        },
+        {
+          "heading": "Vermeiden Sie nephrotoxische Medikamente",
+          "content": "Nehmen Sie Medikamente, die Auswirkungen auf die Nieren haben, nur auf ärztliche Verschreibung ein."
+        },
+        {
+          "heading": "Treiben Sie regelmäßig Sport",
+          "content": "Unterstützt die Herz-Kreislauf-Gesundheit und verbessert indirekt die Nierenfunktion."
+        },
+        {
+          "heading": "Regelmäßige Überwachung",
+          "content": "Verwenden Sie online einen GFR-Rechner, um Trends im Zeitverlauf zu verfolgen."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist GFR und warum ist es wichtig?",
+      "a": "Die GFR misst, wie effizient Ihre Nieren Blut filtern und gibt Aufschluss über die allgemeine Nierengesundheit."
+    },
+    {
+      "q": "Wie berechne ich die GFR online?",
+      "a": "Geben Sie Ihr Alter, Geschlecht und Serumkreatinin in den Rechner ein, um einen eGFR-Wert zu erhalten."
+    },
+    {
+      "q": "Was ist der normale GFR-Bereich für Erwachsene?",
+      "a": "Typischerweise 90–120 ml/min/1,73 m², variiert jedoch je nach Alter und Geschlecht."
+    },
+    {
+      "q": "Wie verhält sich die GFR zum Kreatininspiegel?",
+      "a": "Die GFR passt sich an Alter, Geschlecht und Körpergröße an und ergibt ein vollständigeres Bild als Kreatinin allein."
+    },
+    {
+      "q": "Kann ein pädiatrischer GFR-Rechner Kindern helfen?",
+      "a": "Ja, die Schwartz-Formel wird zur Schätzung der Nierenfunktion bei Kindern verwendet."
+    },
+    {
+      "q": "Was ist besser: CKD-EPI- oder MDRD-Formel?",
+      "a": "CKD-EPI ist für Erwachsene mit normaler oder leicht eingeschränkter Nierenfunktion genauer, während MDRD häufig zur CKD-Überwachung eingesetzt wird."
+    },
+    {
+      "q": "Kann ich meine Nierenfunktion im Laufe der Zeit verfolgen?",
+      "a": "Ja, die regelmäßige Nachverfolgung mit dem GFR-Rechner hilft dabei, Änderungen zu überwachen und frühzeitige Probleme zu erkennen."
+    },
+    {
+      "q": "Ist dieser GFR-Rechner für eine unregelmäßige Nierenfunktion geeignet?",
+      "a": "Ja, es passt sich an Alter, Geschlecht und Erwachsenen-/Kinderstatus an, um zuverlässig zu bleiben."
+    },
+    {
+      "q": "Sind kostenlose GFR-Rechner genauso genau wie kostenpflichtige?",
+      "a": "Ja, unser kostenloser Rechner verwendet dieselben validierten Formeln wie professionelle Tools."
+    },
+    {
+      "q": "Wie kann ich die GFR auf natürliche Weise verbessern?",
+      "a": "Flüssigkeitszufuhr, gesunde Ernährung, Blutdruckkontrolle, Bewegung und regelmäßige Überwachung können zur Aufrechterhaltung oder Verbesserung der Nierenfunktion beitragen."
+    }
+  ]
+}

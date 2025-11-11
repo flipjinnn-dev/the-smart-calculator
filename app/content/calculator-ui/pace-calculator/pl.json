@@ -1,0 +1,148 @@
+{
+  "pageTitle": "Kalkulator tempa",
+  "pageDescription": "Oblicz tempo za pomocą naszego bezpłatnego kalkulatora online",
+  "form": {
+    "labels": {
+      "input1": "Wejście 1",
+      "input2": "Wejście 2",
+      "input3": "Wejście 3"
+    },
+    "placeholders": {
+      "input1": "Wprowadź pierwszą wartość",
+      "input2": "Wprowadź drugą wartość",
+      "input3": "Wprowadź trzecią wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz tempo",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "result1": "Wynik 1",
+    "result2": "Wynik 2",
+    "calculationDetails": "Wyniki obliczeń tempa"
+  },
+  "educational": {
+    "info": "Informacje o tempie",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja tempa",
+        "description": "Informacje o tempie"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Jak obliczane jest tempo"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Wykorzystanie tempa"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Ten kalkulator podaje jedynie szacunkowe dane dotyczące tempa",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć tempo",
+    "resultMessage": "Wyniki obliczeń tempa pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia tempa:",
+    "analysis": "Analiza tempa"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunkowe tempo w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "pace_calculation_0": "Obliczanie tempa",
+  "enter_time_and_distance_to_calculate_your_running__1": "Wprowadź czas i dystans, aby obliczyć tempo biegu",
+  "time_hhmmss_or_flexible_format_2": "Godzina (gg:mm:ss lub format elastyczny)",
+  "examples_530_2545_13000_3": "Przykłady: 5:30, 25:45, 1:30:00",
+  "distance_4": "Dystans",
+  "miles_5": "mile",
+  "km_6": "km",
+  "meters_7": "metrów",
+  "yards_8": "jardy",
+  "race_presets_optional_9": "Ustawienia wstępne wyścigu (opcjonalnie)",
+  "output_format_10": "Format wyjściowy",
+  "pace_minmile_11": "Tempo (min/mila)",
+  "pace_minkm_12": "Tempo (min/km)",
+  "speed_mph_13": "Prędkość (mph)",
+  "speed_kmh_14": "Prędkość (km/h)",
+  "calculate_15": "Obliczać",
+  "reset_16": "Nastawić",
+  "your_pace_17": "Twoje tempo",
+  "enter_your_time_and_distance_to_calculate_your_run_18": "Wprowadź czas i dystans, aby obliczyć tempo biegu.",
+  "your_running_results_19": "Twoje wyniki biegowe",
+  "primary_result_20": "Wynik główny",
+  "all_formats_21": "Wszystkie formaty",
+  "calculation_details_22": "Szczegóły obliczeń",
+  "input_summary_23": "Podsumowanie danych wejściowych",
+  "time_24": "Czas:",
+  "distance_25": "Dystans:",
+  "conversions_26": "Konwersje",
+  "distance_27": "Dystans:",
+  "miles_28": "mile",
+  "distance_29": "Dystans:",
+  "km_30": "km",
+  "understanding_running_pace_31": "Zrozumienie tempa biegu",
+  "pace_vs_speed_32": "Tempo kontra prędkość",
+  "pace_33": "Tempo:",
+  "time_per_unit_distance_minmile_minkm_34": "Czas na jednostkę odległości (min/mila, min/km)",
+  "speed_35": "Prędkość:",
+  "distance_per_unit_time_mph_kmh_36": "Dystans w jednostce czasu (mph, km/h)",
+  "faster_pace_lower_time_per_mile_37": "Szybsze tempo = krótszy czas na milę",
+  "higher_speed_more_distance_per_hour_38": "Większa prędkość = większy dystans na godzinę",
+  "example_calculation_39": "Przykładowe obliczenia",
+  "k_5k_in_2500_40": "5 tys. o 25:00",
+  "distance_5_km_311_miles_41": "Dystans: 5 km = 3,11 mil",
+  "pace_2500_5_42": "Tempo: 25:00 ÷ 5 =",
+  "k_500_minkm_43": "5:00 min/km",
+  "pace_2500_311_44": "Tempo: 25:00 ÷ 3,11 =",
+  "k_802_minmile_45": "8:02 min/milę",
+  "speed_46": "Prędkość:",
+  "k_75_mph_47": "7,5 mil na godzinę",
+  "or_48": "Lub",
+  "k_12_kmh_49": "12 km/godz",
+  "training_zones_50": "Strefy Treningowe",
+  "easy_run_51": "Łatwy bieg:",
+  "k_12_minmile_slower_than_5k_pace_52": "1-2 min/milę wolniej niż tempo na 5 km",
+  "tempo_53": "Tempo:",
+  "k_1530_secmile_slower_than_5k_pace_54": "15-30 s/milę wolniej niż tempo na 5 km",
+  "interval_55": "Interwał:",
+  "k_5k_pace_or_faster_56": "Tempo 5 km lub szybsze",
+  "long_run_57": "Długi bieg:",
+  "k_3090_secmile_slower_than_5k_pace_58": "30-90 s/milę wolniej niż tempo biegu na 5 km",
+  "common_race_paces_59": "Wspólne tempo wyścigowe",
+  "k_5k_60": "5 tys.:",
+  "k_6001000_minmile_recreational_61": "6:00-10:00 min/milę (rekreacyjnie)",
+  "k_10k_62": "10 tys.:",
+  "k_6301030_minmile_63": "6:30-10:30 min/milę",
+  "half_marathon_64": "Półmaraton:",
+  "k_7001100_minmile_65": "7:00-11:00 min/milę",
+  "marathon_66": "Maraton:",
+  "k_7301200_minmile_67": "7:30-12:00 min/milę"
+}

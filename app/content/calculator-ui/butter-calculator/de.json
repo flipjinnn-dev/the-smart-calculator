@@ -1,0 +1,137 @@
+{
+  "pageTitle": "Butterrechner",
+  "pageDescription": "Konvertieren Sie die Buttermaße zum Kochen und Backen in Stangen, Tassen, Esslöffel, Teelöffel und Gramm",
+  "form": {
+    "labels": {
+      "inputUnit": "Eingabeeinheit",
+      "outputUnit": "Ausgabeeinheit",
+      "amount": "Menge",
+      "butterType": "Buttertyp"
+    },
+    "placeholders": {
+      "amount": "Geben Sie den umzurechnenden Betrag ein"
+    },
+    "buttons": {
+      "convert": "Buttermaß umrechnen",
+      "reset": "Zurücksetzen",
+      "calculate": "Butter berechnen"
+    },
+    "units": {
+      "sticks": "Stöcke",
+      "cups": "Tassen",
+      "tablespoons": "Esslöffel",
+      "teaspoons": "Teelöffel",
+      "grams": "Gramm",
+      "ounces": "Unzen",
+      "pounds": "Pfund"
+    },
+    "butterTypes": {
+      "salted": "Gesalzene Butter",
+      "unsalted": "Ungesalzene Butter",
+      "whipped": "Schlagsahne",
+      "european": "Butter nach europäischer Art"
+    }
+  },
+  "results": {
+    "convertedAmount": "Umgerechneter Betrag",
+    "conversionResult": "Konvertierungsergebnis",
+    "butterResultsTitle": "Ergebnisse der Butterumrechnung",
+    "equivalentMeasurements": "Äquivalente Messungen"
+  },
+  "educational": {
+    "butterInfo": "Informationen zur Buttermessung",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Kochressourcen",
+    "butterEquivalents": {
+      "standard": {
+        "title": "Standard-Butteräquivalente",
+        "description": "1 Stick = 1/2 Tasse = 8 EL = 113 g = 4 Unzen"
+      },
+      "metric": {
+        "title": "Metrische Äquivalente",
+        "description": "1 Tasse = 227 g, 1 EL = 14 g, 1 TL = 5 g"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner bietet nur Maßumrechnungen",
+      "substitution": "Berücksichtigen Sie beim Ersatz von Buttersorten die Rezeptanforderungen"
+    },
+    "importantNotesList": [
+      "Gesalzene und ungesalzene Butter können in der Regel 1:1 ersetzt werden",
+      "Schlagbutter hat mehr Volumen, aber weniger Fett pro Tasse",
+      "Butter europäischer Art hat einen höheren Fettgehalt als amerikanische Butter",
+      "Messen Sie die Butter immer genau ab, um optimale Backergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihr Buttermaß zur Umrechnung ein",
+    "resultMessage": "Ihre umgerechnete Buttermenge wird unten angezeigt",
+    "assessmentResult": "Konvertierungsergebnis:",
+    "butterAnalysis": "Analyse der Buttermessung"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner bietet Buttermaßumrechnungen basierend auf Standardäquivalenten. Die tatsächlichen Gewichte können je nach Marke und Verpackung leicht variieren."
+  },
+  "seekHelp": {
+    "title": "Kochressourcen",
+    "content": "Für professionelle Kochberatung und Rezeptentwicklung sollten Sie in Erwägung ziehen, Kochprofis zu konsultieren oder spezielle Kochressourcen und Kochbücher zu nutzen."
+  },
+  "errors": {
+    "amount": "Bitte geben Sie einen gültigen Betrag ein",
+    "inputUnit": "Bitte wählen Sie eine Eingabeeinheit aus",
+    "outputUnit": "Bitte wählen Sie eine Ausgabeeinheit aus",
+    "butterType": "Bitte wählen Sie eine Buttersorte aus"
+  },
+  "tooltips": {
+    "inputUnit": "Die Maßeinheit, aus der Sie umrechnen",
+    "outputUnit": "Die Maßeinheit, in die Sie umrechnen",
+    "amount": "Die Buttermenge, die Sie umwandeln möchten",
+    "butterType": "Die Buttersorte beeinflusst Gewicht und Volumen"
+  },
+  "loading_0": "Laden...",
+  "butter_conversions_1": "Butterkonvertierungen",
+  "choose_your_input_measurement_to_convert_to_all_ot_2": "Wählen Sie Ihr Eingabemaß zur Umrechnung in alle anderen Einheiten",
+  "what_unit_would_you_like_to_convert_from_3": "Von welcher Einheit möchten Sie umrechnen?",
+  "sticks_4": "Stöcke",
+  "cups_5": "Tassen",
+  "tablespoons_6": "Esslöffel",
+  "grams_7": "Gramm",
+  "number_of_sticks_8": "Anzahl der Stöcke",
+  "formula_9": "Formel:",
+  "k_1_stick_cup_8_tbsp_24_tsp_113g_10": "1 Stick = ½ Tasse = 8 EL = 24 TL = 113 g",
+  "number_of_cups_11": "Anzahl der Tassen",
+  "formula_12": "Formel:",
+  "k_1_cup_2_sticks_16_tbsp_48_tsp_226g_13": "1 Tasse = 2 Sticks = 16 EL = 48 TL = 226 g",
+  "number_of_tablespoons_14": "Anzahl der Esslöffel",
+  "formula_15": "Formel:",
+  "k_1_tbsp_0125_sticks_00625_cups_3_tsp_141g_16": "1 EL = 0,125 Sticks = 0,0625 Tassen = 3 TL = 14,1 g",
+  "weight_in_grams_17": "Gewicht in Gramm",
+  "formula_18": "Formel:",
+  "k_1g_000885_sticks_000442_cups_0071_tbsp_19": "1 g = 0,00885 Sticks = 0,00442 Tassen = 0,071 EL",
+  "convert_butter_20": "Butter umwandeln",
+  "conversions_21": "Konvertierungen",
+  "equals_22": "entspricht:",
+  "sticks_23": "Stöcke",
+  "cups_24": "Tassen",
+  "tbsp_25": "EL",
+  "tsp_26": "TL",
+  "grams_27": "Gramm",
+  "perfect_for_your_cooking_and_baking_needs_28": "Perfekt für Ihre Koch- und Backbedürfnisse!",
+  "enter_a_value_and_click_29": "Geben Sie einen Wert ein und klicken Sie",
+  "convert_butter_30": "Butter umwandeln",
+  "to_see_all_conversions_31": "um alle Konvertierungen zu sehen.",
+  "how_to_use_this_calculator_32": "Wie benutzt man diesen Rechner?",
+  "k_1_33": "1",
+  "select_the_unit_you_want_to_convert_from_sticks_cu_34": "Wählen Sie die Einheit aus, die Sie umrechnen möchten (Stäbchen, Tassen, Esslöffel oder Gramm).",
+  "k_2_35": "2",
+  "enter_the_amount_you_have_in_your_recipe_36": "Geben Sie die Menge ein, die Sie in Ihrem Rezept haben.",
+  "k_3_37": "3",
+  "click_38": "Klicken",
+  "convert_butter_39": "Butter umwandeln",
+  "to_see_all_equivalent_measurements_40": "um alle Äquivalente zu sehen\n                        Messungen.",
+  "k_4_41": "4",
+  "use_the_converted_measurements_in_your_cooking_and_42": "Nutzen Sie die umgerechneten Maße beim Kochen und Backen!"
+}

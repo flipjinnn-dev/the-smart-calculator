@@ -1,0 +1,127 @@
+{
+  "pageTitle": "Schwangerschaftsrechner",
+  "pageDescription": "Schätzen Sie den Schwangerschaftsplan anhand des Geburtstermins, der letzten Periode, des Ultraschalls, der Empfängnis oder des IVF-Transferdatums",
+  "form": {
+    "labels": {
+      "calculationMethod": "Berechnungsmethode",
+      "lastPeriod": "Erster Tag der letzten Menstruation",
+      "dueDate": "Voraussichtliches Fälligkeitsdatum",
+      "conceptionDate": "Konzeptionsdatum",
+      "ivfTransferDate": "Datum des IVF-Embryonentransfers",
+      "cycleLength": "Durchschnittliche Länge des Menstruationszyklus",
+      "ultrasoundDate": "Ultraschalldatum",
+      "crlMeasurement": "Messung der Scheitel-Steiß-Länge (CRL)."
+    },
+    "placeholders": {
+      "cycleLength": "Geben Sie die Zykluslänge in Tagen ein (Standard: 28)"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Schwangerschaftsdaten",
+      "reset": "Zurücksetzen"
+    },
+    "calculationMethods": {
+      "lastPeriod": "Letzte Menstruation",
+      "dueDate": "Fälligkeitsdatum",
+      "conception": "Konzeptionsdatum",
+      "ivf": "IVF-Embryotransfer",
+      "ultrasound": "Ultraschall-Dating"
+    }
+  },
+  "results": {
+    "dueDate": "Voraussichtliches Fälligkeitsdatum",
+    "conceptionDate": "Geschätztes Empfängnisdatum",
+    "pregnancyWeek": "Aktuelle Schwangerschaftswoche",
+    "babyDevelopment": "Babyentwicklung",
+    "pregnancyResultsTitle": "Schwangerschaftsergebnisse",
+    "trimesters": {
+      "first": "Erstes Trimester",
+      "second": "Zweites Trimester",
+      "third": "Drittes Trimester"
+    }
+  },
+  "educational": {
+    "pregnancyInfo": "Informationen zur Schwangerschaft",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Konsultieren Sie einen Gesundheitsdienstleister",
+    "pregnancyStages": {
+      "firstTrimester": {
+        "title": "Erstes Trimester (Woche 1-12)",
+        "description": "In dieser Zeit findet eine wichtige Organentwicklung statt"
+      },
+      "secondTrimester": {
+        "title": "Zweites Trimester (Woche 13–26)",
+        "description": "In dieser Zeit sind die Bewegungen des Babys typischerweise spürbar"
+      },
+      "thirdTrimester": {
+        "title": "Drittes Trimester (Woche 27–40)",
+        "description": "Schnelles Wachstum und Entwicklung zur Vorbereitung auf die Geburt"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen und ist kein Diagnosetool",
+      "individualVariation": "Der Zeitpunkt der Schwangerschaft variiert je nach individuellen Faktoren"
+    },
+    "importantNotesList": [
+      "Beim Geburtstermin handelt es sich um eine Schätzung – nur 5 % der Babys werden genau zum Geburtstermin geboren",
+      "Die Ultraschalldatierung kann in der Frühschwangerschaft genauer sein",
+      "Wenden Sie sich an Ihren Arzt, um individuelle Schwangerschaftsinformationen zu erhalten",
+      "Für eine gesunde Schwangerschaft ist eine regelmäßige Schwangerschaftsvorsorge unerlässlich"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Schwangerschaftsinformationen ein, um wichtige Daten zu berechnen",
+    "pregnancyWeek": "Sie befinden sich derzeit in der Schwangerschaftswoche {week}",
+    "trimesterInfo": "Dies ist das {Trimester}-Trimester",
+    "assessmentResult": "Bewertungsergebnis:",
+    "pregnancyAnalysis": "Schwangerschaftsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen auf der Grundlage allgemeiner Schwangerschaftsinformationen und sollte nicht als Ersatz für professionellen medizinischen Rat verwendet werden. Die einzelnen Schwangerschaftszeiten können aufgrund von Faktoren, die in diesen Berechnungen nicht berücksichtigt wurden, variieren."
+  },
+  "seekHelp": {
+    "title": "Wenden Sie sich an Ihren Arzt",
+    "content": "Für eine genaue Schwangerschaftsdatierung und eine personalisierte Schwangerschaftsvorsorge wenden Sie sich bitte an Ihren Arzt, der Sie auf der Grundlage Ihrer gesamten Krankengeschichte und Ihrer individuellen Umstände beraten kann."
+  },
+  "errors": {
+    "method": "Bitte wählen Sie eine Berechnungsmethode aus",
+    "lastPeriod": "Bitte geben Sie den ersten Tag Ihrer letzten Menstruation ein",
+    "dueDate": "Bitte geben Sie Ihr voraussichtliches Fälligkeitsdatum ein",
+    "conceptionDate": "Bitte geben Sie das Konzeptionsdatum ein",
+    "ivfTransferDate": "Bitte geben Sie das Datum des IVF-Embryotransfers ein",
+    "ultrasoundDate": "Bitte geben Sie das Ultraschalldatum ein",
+    "crlMeasurement": "Bitte geben Sie das Scheitel-Steiß-Längenmaß ein"
+  },
+  "tooltips": {
+    "calculationMethod": "Wählen Sie die Methode aus, die für Ihre Situation am besten geeignet ist",
+    "lastPeriod": "Der erste Tag Ihrer letzten Menstruation",
+    "cycleLength": "Ihre durchschnittliche Menstruationszykluslänge in Tagen",
+    "crlMeasurement": "Messung von der Oberseite des Kopfes des Babys bis zur Unterseite"
+  },
+  "pregnancy_calculator_0": "Schwangerschaftsrechner",
+  "modify_the_values_and_click_the_calculate_button_t_1": "Ändern Sie die Werte und klicken Sie zur Verwendung auf die Schaltfläche „Berechnen“.",
+  "calculate_on_2": "Berechnen Sie weiter",
+  "your_date_3": "Ihr Datum",
+  "calculate_4": "Berechnen",
+  "pregnancy_info_5": "Schwangerschaftsinformationen",
+  "your_pregnancy_schedule_breakdown_6": "Aufschlüsselung Ihres Schwangerschaftsplans",
+  "due_date_7": "Fälligkeitsdatum:",
+  "conception_date_8": "Konzeptionsdatum:",
+  "last_period_date_9": "Datum der letzten Periode:",
+  "weeks_pregnant_10": "Schwangerschaftswochen:",
+  "days_pregnant_11": "Tage schwanger:",
+  "trimester_12": "Trimester:",
+  "enter_your_date_and_click_calculate_see_your_pregn_13": "Geben Sie Ihr Datum ein und klicken Sie auf Berechnen, um Ihren Schwangerschaftsplan anzuzeigen",
+  "how_pregnancy_is_calculated_14": "Wie wird die Schwangerschaft berechnet?",
+  "the_pregnancy_calculator_estimates_your_pregnancy__15": "Der Schwangerschaftsrechner schätzt Ihren Schwangerschaftsplan basierend auf dem angegebenen Datum und der angegebenen Methode. Es verwendet medizinische Standardformeln für die Berechnung des Geburtstermins, der Empfängnis und des Trimesters. Für eine individuelle Beratung wenden Sie sich immer an Ihren Arzt.",
+  "due_date_16": "Fälligkeitsdatum",
+  "the_estimated_date_when_your_baby_is_due_calculate_17": "Der voraussichtliche Geburtstermin für Ihr Baby. Berechnet basierend auf der von Ihnen ausgewählten Methode und dem Eingabedatum.",
+  "trimester_18": "Trimester",
+  "pregnancy_is_divided_into_three_trimesters_the_cal_19": "Die Schwangerschaft ist in drei Trimester unterteilt. Der Rechner zeigt an, in welchem ​​Trimester Sie sich gerade befinden.",
+  "weeks_pregnant_20": "Wochen schwanger",
+  "the_number_of_weeks_you_have_been_pregnant_calcula_21": "Die Anzahl der Wochen, in denen Sie schwanger waren, berechnet vom Startdatum bis heute.",
+  "important_22": "Wichtig:",
+  "the_results_above_are_a_guideline_for_typical_situ_23": "Die obigen Ergebnisse sind Richtwerte für typische Situationen. Bitte konsultieren Sie einen Arzt bezüglich Ihres Schwangerschaftsplans, wenn Sie besondere medizinische Bedingungen oder Fragen haben."
+}

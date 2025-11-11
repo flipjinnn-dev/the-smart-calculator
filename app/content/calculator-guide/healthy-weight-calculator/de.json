@@ -1,0 +1,132 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Rechner für gesundes Gewicht – Finden Sie Ihren idealen Gewichtsbereich",
+      "content": "Unser Rechner für gesundes Gewicht hilft Ihnen, Ihren gesunden Gewichtsbereich basierend auf Größe, Alter, Geschlecht und BMI-Richtlinien schnell abzuschätzen. Dieses Tool soll Ihnen einen medizinisch korrekten Anhaltspunkt für die Festlegung gesunder Körpergewichtsziele bieten, sei es für allgemeines Wohlbefinden, Fitness oder Gewichtsmanagement."
+    },
+    {
+      "heading": "Was ist ein gesundes Gewicht?",
+      "subSections": [
+        {
+          "heading": "Definition",
+          "content": "Ein gesundes Gewicht ist der Bereich, in dem Ihr Körper optimal funktioniert und das Risiko chronischer Krankheiten wie Diabetes, Herzerkrankungen und Bluthochdruck verringert."
+        },
+        {
+          "heading": "Richtlinien",
+          "content": "Gesundheitsexperten verwenden häufig die von der Weltgesundheitsorganisation (WHO) und dem CDC empfohlene BMI-Formel (Body Mass Index), um ein gesundes Gewicht zu definieren."
+        },
+        {
+          "heading": "Reichweite",
+          "content": "Gesunder Gewichtsbereich (BMI 18,5–24,9), angepasst an Alter, Größe, Geschlecht und Lebensstilfaktoren."
+        }
+      ]
+    },
+    {
+      "heading": "Wie berechnet man ein gesundes Gewicht für die Körpergröße?",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Geben Sie Ihre Größe, Ihr Alter, Ihr Geschlecht und Ihr Gewicht ein."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Das Tool wendet die BMI-Rechnerformel für ein gesundes Gewicht an."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Sie sehen Ihren gesunden Gewichtsbereich in kg und lbs nach Körpergröße."
+        }
+      ]
+    },
+    {
+      "heading": "Beispieltabelle für gesundes Gewicht nach Körpergröße",
+      "content": "Höhe (cm) | Gesunder Gewichtsbereich (kg) | Gesunder Gewichtsbereich (lbs)\n--- | --- | ---\n150 cm (4’11“) | 43 – 56 kg | 95 – 123 Pfund\n160 cm (5’3”) | 47 – 64 kg | 104 – 141 Pfund\n170 cm (5’7”) | 54 – 72 kg | 119 – 159 Pfund\n180 cm (5’11”) | 60 – 81 kg | 132 – 178 Pfund\n190 cm (6’3”) | 66 – 90 kg | 145 – 198 lbs"
+    },
+    {
+      "heading": "Gesundes Gewicht für verschiedene Gruppen",
+      "subSections": [
+        {
+          "heading": "Erwachsene (Männer und Frauen)",
+          "content": "Verwenden Sie den Idealgewichtsrechner für Erwachsene für ausgewogene Bereiche."
+        },
+        {
+          "heading": "Sportler und Bodybuilder",
+          "content": "Kann über eine höhere Muskelmasse verfügen, daher sollte der Unterschied zwischen Idealgewicht und gesundem Gewicht berücksichtigt werden."
+        },
+        {
+          "heading": "Senioren (50+)",
+          "content": "Ein etwas höherer BMI kann schützend sein."
+        },
+        {
+          "heading": "Teenager",
+          "content": "Mit Vorsicht anwenden, da Wachstumsstadien die Ergebnisse beeinflussen."
+        },
+        {
+          "heading": "Schwangerschaft",
+          "content": "Beachten Sie die Richtlinien für ein gesundes Gewicht während der Schwangerschaft."
+        }
+      ]
+    },
+    {
+      "heading": "Gesundes Gewicht für Fitness- und Lifestyle-Ziele",
+      "subSections": [
+        {
+          "heading": "Gewichtsmanagement",
+          "content": "Setzen Sie sich gesunde Gewichtsziele für den Fettabbau oder die Fetterhaltung."
+        },
+        {
+          "heading": "Bodybuilding",
+          "content": "Balance zwischen Muskelzuwachs und BMI-Unterschiede."
+        },
+        {
+          "heading": "Verfolgung",
+          "content": "Verfolgen Sie Veränderungen mit einem intelligenten Tool zur Gewichtsüberwachung."
+        }
+      ]
+    },
+    {
+      "heading": "Warum wird der BMI zur Berechnung eines gesunden Gewichts verwendet?",
+      "subSections": [
+        {
+          "heading": "Standardisierte Schätzung",
+          "content": "Bietet eine schnelle, standardisierte Messung des gesunden Gewichts."
+        },
+        {
+          "heading": "Gesundheitskorrelation",
+          "content": "Der BMI korreliert mit dem Risiko für Krankheiten wie Diabetes und Herzprobleme."
+        },
+        {
+          "heading": "Von der WHO/CDC genehmigt",
+          "content": "Entspricht weltweit anerkannten Richtlinien."
+        },
+        {
+          "heading": "Einschränkung",
+          "content": "Der BMI berücksichtigt nicht die Muskelmasse, die Knochendichte oder die Fettverteilung. Verwenden Sie es als allgemeine Referenz, nicht als endgültige medizinische Beurteilung."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist mein gesunder Gewichtsbereich?",
+      "a": "Ihr gesunder Gewichtsbereich hängt von Ihrer Körpergröße und Ihrem BMI (18,5–24,9) ab. Verwenden Sie den Rechner oben, um Ihre genaue Zahl zu ermitteln."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Idealgewicht und gesundem Gewicht?",
+      "a": "Das Idealgewicht basiert auf Formeln wie Devine oder Hamwi (häufig auf das Aussehen ausgerichtet), während ein gesundes Gewicht auf BMI-Bereichen basiert, die mit geringeren Gesundheitsrisiken verbunden sind."
+    },
+    {
+      "q": "Wie berechne ich das gesunde Gewicht anhand der Körpergröße?",
+      "a": "Teilen Sie das Gewicht (kg) durch die Körpergröße (m²), um den BMI zu erhalten. Vergleichen Sie mit der WHO-Gesundheitsgewichtstabelle nach Körpergröße."
+    },
+    {
+      "q": "Was ist das gesunde Gewicht für Frauen im Vergleich zu Männern?",
+      "a": "Die BMI-Bereiche sind ähnlich, aber die Körperzusammensetzung unterscheidet sich – Frauen haben oft einen höheren Fettanteil, Männer mehr Muskelmasse."
+    },
+    {
+      "q": "Kann ich dieses Tool als personalisierten Online-Rechner für gesundes Gewicht verwenden?",
+      "a": "Ja. Unser Tool ist ein Standardrechner für gesundes Gewicht, funktioniert aber auch als personalisierter Rechner für gesundes Körpergewicht, indem es Alter, Geschlecht und Ziele berücksichtigt."
+    }
+  ]
+}

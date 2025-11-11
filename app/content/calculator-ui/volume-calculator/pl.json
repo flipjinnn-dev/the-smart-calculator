@@ -1,0 +1,139 @@
+{
+  "pageTitle": "Kalkulator objętości",
+  "pageDescription": "Oblicz objętość różnych kształtów",
+  "form": {
+    "labels": {
+      "shape": "Wybierz Kształt",
+      "length": "Długość",
+      "width": "Szerokość",
+      "height": "Wysokość",
+      "radius": "Promień",
+      "baseArea": "Obszar bazowy",
+      "baseRadius": "Promień podstawy",
+      "topRadius": "Górny promień",
+      "slantHeight": "Wysokość skosu"
+    },
+    "placeholders": {
+      "length": "Wprowadź długość",
+      "width": "Podaj szerokość",
+      "height": "Podaj wysokość",
+      "radius": "Wprowadź promień",
+      "baseArea": "Podaj obszar bazowy",
+      "baseRadius": "Wprowadź promień bazowy",
+      "topRadius": "Wprowadź górny promień",
+      "slantHeight": "Wprowadź wysokość nachylenia"
+    },
+    "buttons": {
+      "calculate": "Oblicz objętość",
+      "reset": "Nastawić"
+    },
+    "shapes": {
+      "cube": "Sześcian",
+      "rectangularPrism": "Prostokątny pryzmat",
+      "cylinder": "Cylinder",
+      "sphere": "Kula",
+      "cone": "Stożek",
+      "pyramid": "Piramida",
+      "ellipsoid": "Elipsoida",
+      "torus": "Torus"
+    }
+  },
+  "results": {
+    "volumeCalculation": "Wyniki obliczeń objętości",
+    "volume": "Tom",
+    "formula": "Zastosowana formuła",
+    "unit3": "jednostki sześcienne",
+    "surfaceArea": "Powierzchnia",
+    "unit2": "jednostki kwadratowe"
+  },
+  "educational": {
+    "volumeInfo": "Informacje o wolumenie",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby matematyczne",
+    "volumeFacts": {
+      "definition": {
+        "title": "Definicja objętości",
+        "description": "Objętość to ilość trójwymiarowej przestrzeni zajmowanej przez obiekt"
+      },
+      "units": {
+        "title": "Jednostki miary",
+        "description": "Typowe jednostki to metry sześcienne (m³), centymetry sześcienne (cm³), litry (L) i galony (gal)"
+      },
+      "applications": {
+        "title": "Aplikacje w świecie rzeczywistym",
+        "description": "Obliczenia objętości są stosowane w budownictwie, produkcji, chemii i życiu codziennym"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten umożliwia wyłącznie obliczenia objętości",
+      "actual": "Rzeczywiste objętości mogą się różnić w zależności od dokładności pomiaru i nieprawidłowości obiektu"
+    },
+    "importantNotesList": [
+      "Do wszystkich pomiarów używaj spójnych jednostek",
+      "Wyniki opierają się na idealnych kształtach geometrycznych",
+      "Rzeczywiste obiekty mogą mieć nieregularne kształty wymagające bardziej skomplikowanych obliczeń",
+      "Niektóre kształty mogą wymagać określonych jednostek lub konwersji"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wybierz kształt i wprowadź wymagane wymiary, aby obliczyć objętość",
+    "resultMessage": "Wyniki obliczeń objętości pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia objętości:",
+    "volumeAnalysis": "Analiza objętości"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia obliczenia objętości idealnych kształtów geometrycznych. Rzeczywiste objętości rzeczywistych obiektów mogą się różnić w zależności od dokładności pomiaru, nieregularności obiektu i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby matematyczne",
+    "content": "W przypadku zaawansowanych problemów z geometrią i obliczeniami objętości zapoznaj się z podręcznikami matematyki lub zasobami akademickimi na temat geometrii bryłowej i teorii pomiaru."
+  },
+  "errors": {
+    "length": "Proszę wprowadzić prawidłową długość",
+    "width": "Proszę wprowadzić prawidłową szerokość",
+    "height": "Proszę podać prawidłowy wzrost",
+    "radius": "Proszę wprowadzić prawidłowy promień",
+    "baseArea": "Proszę podać prawidłowy obszar bazowy",
+    "baseRadius": "Proszę wprowadzić prawidłowy promień bazowy",
+    "topRadius": "Wprowadź prawidłowy górny promień",
+    "slantHeight": "Wprowadź prawidłową wysokość nachylenia"
+  },
+  "tooltips": {
+    "shape": "Wybierz kształt geometryczny do obliczenia objętości",
+    "length": "Długość obiektu",
+    "width": "Szerokość obiektu",
+    "height": "Wysokość obiektu",
+    "radius": "Promień obiektu",
+    "baseArea": "Powierzchnia podstawy obiektu",
+    "baseRadius": "Promień podstawy obiektu",
+    "topRadius": "Promień górnej części obiektu",
+    "slantHeight": "Wysokość nachylenia obiektu"
+  },
+  "volume_calculations_0": "Obliczenia objętości",
+  "select_a_shape_and_enter_your_values_1": "Wybierz kształt i wprowadź wartości",
+  "select_shape_2": "Wybierz Kształt",
+  "m_3": "m",
+  "cm_4": "cm",
+  "mm_5": "mm",
+  "inch_6": "cal",
+  "ft_7": "stopy",
+  "yd_8": "jard",
+  "formula_9": "Formuła:",
+  "calculate_10": "Obliczać",
+  "result_11": "Wynik",
+  "enter_values_and_click_12": "Wprowadź wartości i kliknij",
+  "calculate_13": "Obliczać",
+  "to_see_result_14": "aby zobaczyć wynik.",
+  "how_to_use_this_calculator_15": "Jak korzystać z tego kalkulatora?",
+  "k_1_16": "1",
+  "select_the_shape_you_want_to_calculate_the_volume__17": "Wybierz kształt, dla którego chcesz obliczyć objętość.",
+  "k_2_18": "2",
+  "enter_your_values_in_the_input_fields_19": "Wprowadź wartości w polach wejściowych.",
+  "k_3_20": "3",
+  "click_21": "Trzask",
+  "calculate_22": "Obliczać",
+  "to_see_the_result_instantly_23": "aby natychmiast zobaczyć wynik."
+}

@@ -1,0 +1,214 @@
+{
+  "pageTitle": "Kalkulator jardów sześciennych",
+  "pageDescription": "Oblicz metry sześcienne betonu, gleby i innych materiałów, korzystając z precyzyjnych pomiarów dla projektów budowlanych i kształtowania krajobrazu",
+  "form": {
+    "labels": {
+      "shape": "Kształt",
+      "length": "Długość",
+      "width": "Szerokość",
+      "height": "Wysokość/Głębokość",
+      "diameter": "Średnica",
+      "unitSystem": "Układ jednostek",
+      "material": "Rodzaj materiału",
+      "density": "Gęstość materiału"
+    },
+    "placeholders": {
+      "length": "Wprowadź długość",
+      "width": "Podaj szerokość",
+      "height": "Wprowadź wysokość/głębokość",
+      "diameter": "Podaj średnicę"
+    },
+    "buttons": {
+      "calculate": "Oblicz jardy sześcienne",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "imperial": "Imperialne (ft, in)",
+      "metric": "Metryczne (m, cm)"
+    },
+    "shapes": {
+      "rectangular": "Prostokątny",
+      "circular": "Okólnik",
+      "triangular": "Trójkątny"
+    },
+    "materials": {
+      "concrete": "Beton",
+      "soil": "Gleba",
+      "mulch": "Chochoł",
+      "gravel": "Żwir",
+      "sand": "Piasek",
+      "custom": "Gęstość niestandardowa"
+    }
+  },
+  "results": {
+    "cubicYards": "Jardy sześcienne",
+    "cubicFeet": "Stopy sześcienne",
+    "cubicMeters": "Metry sześcienne",
+    "materialWeight": "Waga materiału",
+    "cubicYardResultsTitle": "Wyniki jardów sześciennych"
+  },
+  "educational": {
+    "cubicYardInfo": "Informacje o stoczni sześciennej",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby konstrukcyjne",
+    "cubicYardFacts": {
+      "conversion": {
+        "title": "Konwersje głośności",
+        "description": "1 jard sześcienny = 27 stóp sześciennych = 0,764555 metra sześciennego"
+      },
+      "materials": {
+        "title": "Typowe gęstości materiałów",
+        "description": "Beton: 4050 funtów/yd³, Gleba: 2200 funtów/yd³, Mulcz: 500 funtów/yd³"
+      },
+      "ordering": {
+        "title": "Zamawianie materiałów",
+        "description": "Dodaj 10-15% dodatkowo, aby uwzględnić odpady i osiadanie"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten umożliwia wyłącznie obliczenia objętości",
+      "accuracy": "Odmierz dokładnie i dodaj dodatkową ilość na odpady i osiadanie"
+    },
+    "importantNotesList": [
+      "Zawsze mierz dwa razy i zamawiaj dodatkowy materiał, aby uwzględnić odpady",
+      "W swoich obliczeniach uwzględnij zagęszczenie i osiadanie materiału",
+      "Sprawdź lokalnych dostawców pod kątem dostępności materiałów i opcji dostawy",
+      "Planując projekt, uwzględnij transport i obsługę"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź swoje wymiary, aby obliczyć jardy sześcienne",
+    "resultMessage": "Obliczenie jarda sześciennego pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia objętości:",
+    "cubicYardAnalysis": "Analiza metrów sześciennych"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia obliczenia objętości w oparciu o standardowe wzory geometryczne. Rzeczywiste wymagania materiałowe mogą się różnić w zależności od specyfiki projektu, czynników odpadowych i zaleceń dostawcy."
+  },
+  "seekHelp": {
+    "title": "Zasoby konstrukcyjne",
+    "content": "Aby uzyskać profesjonalną poradę budowlaną i wycenę materiałów, skonsultuj się ze specjalistami budowlanymi lub lokalnymi dostawcami materiałów w celu uzyskania zaleceń dotyczących konkretnego projektu."
+  },
+  "errors": {
+    "length": "Proszę wprowadzić prawidłową długość",
+    "width": "Proszę wprowadzić prawidłową szerokość",
+    "height": "Proszę wprowadzić prawidłową wysokość/głębokość",
+    "diameter": "Proszę wprowadzić prawidłową średnicę",
+    "shape": "Proszę wybrać kształt",
+    "material": "Proszę wybrać rodzaj materiału"
+  },
+  "tooltips": {
+    "shape": "Wybierz kształt mierzonego obszaru",
+    "length": "Najdłuższy wymiar obszaru",
+    "width": "Szerokość obszaru (prostopadle do długości)",
+    "height": "Głębokość lub wysokość potrzebnego materiału",
+    "diameter": "Odległość w obszarze kołowym",
+    "material": "Rodzaj materiału wpływa na obliczenia wagi"
+  },
+  "length_0": "Długość (",
+  "width_1": "Szerokość (",
+  "height_2": "Wysokość (",
+  "side_length_3": "Długość boku (",
+  "radius_4": "Promień (",
+  "height_5": "Wysokość (",
+  "outer_dimensions_6": "Wymiary zewnętrzne",
+  "outer_length_7": "Długość zewnętrzna (",
+  "outer_width_8": "Szerokość zewnętrzna (",
+  "outer_height_9": "Wysokość zewnętrzna (",
+  "inner_dimensions_10": "Wymiary wewnętrzne",
+  "inner_length_11": "Długość wewnętrzna (",
+  "inner_width_12": "Szerokość wewnętrzna (",
+  "inner_height_13": "Wysokość wewnętrzna (",
+  "outer_radius_14": "Promień zewnętrzny (",
+  "inner_radius_15": "Promień wewnętrzny (",
+  "height_16": "Wysokość (",
+  "radius_17": "Promień (",
+  "base_radius_18": "Promień bazowy (",
+  "height_19": "Wysokość (",
+  "base_area_20": "Powierzchnia bazowa (",
+  "height_21": "Wysokość (",
+  "shape_dimensions_22": "Kształt i wymiary",
+  "select_shape_and_enter_dimensions_to_calculate_vol_23": "Wybierz kształt i wprowadź wymiary, aby obliczyć objętość",
+  "select_shape_24": "Wybierz Kształt",
+  "yards_yd_25": "Jardy (jd)",
+  "conversion_26": "Konwersja:",
+  "k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_27": "1 jard sześcienny = 27 stóp sześciennych = 46 656 cali sześciennych",
+  "commonly_used_for_concrete_gravel_soil_mulch_and_o_28": "Powszechnie stosowany do betonu, żwiru, gleby, ściółki i innych materiałów budowlanych.",
+  "calculate_29": "Obliczać",
+  "volume_results_30": "Wyniki objętości",
+  "cubic_yards_31": "jardy sześcienne",
+  "cubic_feet_32": "stóp sześciennych",
+  "total_cost_33": "Całkowity koszt",
+  "select_shape_enter_dimensions_and_click_34": "Wybierz kształt, podaj wymiary i kliknij",
+  "calculate_35": "Obliczać",
+  "to_see_volume_36": "aby zobaczyć głośność.",
+  "detailed_volume_breakdown_37": "Szczegółowy podział wolumenu",
+  "cubic_yards_38": "Jardy sześcienne",
+  "yd_39": "yd³",
+  "cubic_feet_40": "Stopy sześcienne",
+  "ft_41": "ft³",
+  "total_cost_42": "Całkowity koszt",
+  "usd_43": "USD",
+  "understanding_cubic_yards_in_construction_44": "Zrozumienie jardów sześciennych w budownictwie",
+  "why_cubic_yards_45": "Dlaczego metry sześcienne?",
+  "cubic_yards_are_the_standard_unit_for_measuring_bu_46": "Jardy sześcienne to standardowa jednostka miary materiałów sypkich, takich jak beton,\n                        żwir, ziemia i ściółka. Jednostka ta zapewnia praktyczną skalę dla projektów budowlanych i\n                        zamawianie materiałów.",
+  "common_applications_47": "Typowe zastosowania",
+  "concrete_for_foundations_driveways_patios_48": "Beton na fundamenty, podjazdy, tarasy",
+  "gravel_for_driveways_and_landscaping_49": "Żwir na podjazdy i do małej architektury",
+  "soil_and_topsoil_for_gardening_50": "Gleba i wierzchnia warstwa gleby do ogrodnictwa",
+  "mulch_for_landscaping_projects_51": "Ściółka do projektów małej architektury",
+  "sand_for_construction_and_landscaping_52": "Piasek budowlany i ogrodniczy",
+  "sample_calculation_53": "Przykładowe obliczenia",
+  "example_rectangular_driveway_54": "Przykład: prostokątny podjazd",
+  "length_12_ft_55": "Długość: 12 stóp",
+  "width_9_ft_56": "Szerokość: 9 stóp",
+  "depth_2_ft_57": "Głębokość: 2 stopy",
+  "volume_12_9_2_216_ft_58": "Objętość: 12 × 9 × 2 = 216 stóp³",
+  "result_216_27_8_cubic_yards_59": "Wynik: 216 ÷ 27 = 8 jardów sześciennych",
+  "conversion_60": "Konwersja:",
+  "always_divide_cubic_feet_by_27_to_get_cubic_yards_61": "Zawsze dziel stopy sześcienne przez 27, aby otrzymać jardy sześcienne.",
+  "unit_25": "Jednostka",
+  "feet_ft_26": "Stopy (ft)",
+  "inches_in_27": "Cale (cale)",
+  "yards_yd_28": "Jardy (jd)",
+  "cost_per_cubic_yard_optional_29": "Koszt za metr sześcienny (opcjonalnie)",
+  "conversion_30": "Konwersja:",
+  "k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_31": "1 jard sześcienny = 27 stóp sześciennych = 46 656 cali sześciennych",
+  "commonly_used_for_concrete_gravel_soil_mulch_and_o_32": "Powszechnie stosowany do betonu, żwiru, gleby, ściółki i innych materiałów budowlanych.",
+  "calculate_33": "Obliczać",
+  "volume_results_34": "Wyniki objętości",
+  "cubic_yards_35": "jardy sześcienne",
+  "cubic_feet_36": "stóp sześciennych",
+  "total_cost_37": "Całkowity koszt",
+  "select_shape_enter_dimensions_and_click_38": "Wybierz kształt, podaj wymiary i kliknij",
+  "calculate_39": "Obliczać",
+  "to_see_volume_40": "aby zobaczyć głośność.",
+  "detailed_volume_breakdown_41": "Szczegółowy podział wolumenu",
+  "cubic_yards_42": "Jardy sześcienne",
+  "yd_43": "yd³",
+  "cubic_feet_44": "Stopy sześcienne",
+  "ft_45": "ft³",
+  "total_cost_46": "Całkowity koszt",
+  "usd_47": "USD",
+  "understanding_cubic_yards_in_construction_48": "Zrozumienie jardów sześciennych w budownictwie",
+  "why_cubic_yards_49": "Dlaczego metry sześcienne?",
+  "cubic_yards_are_the_standard_unit_for_measuring_bu_50": "Jardy sześcienne to standardowa jednostka miary materiałów sypkich, takich jak beton,\n                        żwir, ziemia i ściółka. Jednostka ta zapewnia praktyczną skalę dla projektów budowlanych i\n                        zamawianie materiałów.",
+  "common_applications_51": "Typowe zastosowania",
+  "concrete_for_foundations_driveways_patios_52": "Beton na fundamenty, podjazdy, tarasy",
+  "gravel_for_driveways_and_landscaping_53": "Żwir na podjazdy i do małej architektury",
+  "soil_and_topsoil_for_gardening_54": "Gleba i wierzchnia warstwa gleby do ogrodnictwa",
+  "mulch_for_landscaping_projects_55": "Ściółka do projektów małej architektury",
+  "sand_for_construction_and_landscaping_56": "Piasek budowlany i ogrodniczy",
+  "sample_calculation_57": "Przykładowe obliczenia",
+  "example_rectangular_driveway_58": "Przykład: prostokątny podjazd",
+  "length_12_ft_59": "Długość: 12 stóp",
+  "width_9_ft_60": "Szerokość: 9 stóp",
+  "depth_2_ft_61": "Głębokość: 2 stopy",
+  "volume_12_9_2_216_ft_62": "Objętość: 12 × 9 × 2 = 216 stóp³",
+  "result_216_27_8_cubic_yards_63": "Wynik: 216 ÷ 27 = 8 jardów sześciennych",
+  "conversion_64": "Konwersja:",
+  "always_divide_cubic_feet_by_27_to_get_cubic_yards_65": "Zawsze dziel stopy sześcienne przez 27, aby otrzymać jardy sześcienne."
+}

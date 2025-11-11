@@ -1,0 +1,180 @@
+{
+  "pageTitle": "Salary Calculator",
+  "pageDescription": "Calculate your take-home pay after taxes and deductions with comprehensive salary analysis including overtime, bonuses, and benefits valuation",
+  "form": {
+    "labels": {
+      "grossSalary": "Annual Gross Salary",
+      "payFrequency": "Pay Frequency",
+      "filingStatus": "Tax Filing Status",
+      "dependents": "Number of Dependents",
+      "additionalIncome": "Additional Income",
+      "overtimeHours": "Monthly Overtime Hours",
+      "overtimeRate": "Overtime Rate",
+      "bonuses": "Annual Bonuses",
+      "preTaxDeductions": "Pre-Tax Deductions",
+      "postTaxDeductions": "Post-Tax Deductions"
+    },
+    "placeholders": {
+      "grossSalary": "Enter annual gross salary",
+      "additionalIncome": "Enter additional income",
+      "overtimeHours": "Enter monthly overtime hours",
+      "overtimeRate": "Enter overtime rate",
+      "bonuses": "Enter annual bonuses",
+      "preTaxDeductions": "Enter pre-tax deductions",
+      "postTaxDeductions": "Enter post-tax deductions"
+    },
+    "buttons": {
+      "calculate": "Calculate Take-Home Pay",
+      "reset": "Reset"
+    },
+    "payFrequencies": {
+      "annually": "Annually",
+      "monthly": "Monthly",
+      "biweekly": "Bi-Weekly",
+      "weekly": "Weekly"
+    },
+    "filingStatuses": {
+      "single": "Single",
+      "married": "Married Filing Jointly",
+      "head": "Head of Household",
+      "separate": "Married Filing Separately"
+    }
+  },
+  "results": {
+    "grossAnnual": "Gross Annual Income",
+    "grossMonthly": "Gross Monthly Income",
+    "totalDeductions": "Total Deductions",
+    "netAnnual": "Net Annual Income",
+    "netMonthly": "Net Monthly Income",
+    "taxBreakdown": "Tax Breakdown",
+    "salaryResultsTitle": "Salary Calculation Results"
+  },
+  "educational": {
+    "salaryInfo": "Salary Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "salaryFacts": {
+      "grossVsNet": {
+        "title": "Gross vs Net Pay",
+        "description": "Gross pay is before deductions; net pay is what you actually receive"
+      },
+      "deductions": {
+        "title": "Common Deductions",
+        "description": "Federal tax, state tax, Social Security, Medicare, insurance premiums"
+      },
+      "benefits": {
+        "title": "Benefits Valuation",
+        "description": "Employer benefits like health insurance can be worth 30-40% of salary"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides salary calculation estimates only",
+      "actual": "Actual take-home pay may vary based on specific tax situations and deductions"
+    },
+    "importantNotesList": [
+      "Tax rates vary by state and locality",
+      "Pre-tax deductions reduce taxable income",
+      "Consider total compensation package, not just salary",
+      "Regular pay periods help with budgeting and financial planning"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your salary information to calculate take-home pay",
+    "resultMessage": "Your salary calculation results are shown below",
+    "assessmentResult": "Salary Calculation Result:",
+    "salaryAnalysis": "Salary Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides salary calculation estimates based on general tax information. Actual take-home pay may vary based on specific tax situations, local taxes, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized salary analysis and tax planning, consult tax professionals or financial advisors with expertise in compensation and individual tax circumstances."
+  },
+  "errors": {
+    "grossSalary": "Please enter a valid gross salary",
+    "payFrequency": "Please select a pay frequency",
+    "filingStatus": "Please select a filing status",
+    "dependents": "Please enter a valid number of dependents",
+    "additionalIncome": "Please enter valid additional income",
+    "overtimeHours": "Please enter valid overtime hours",
+    "overtimeRate": "Please enter a valid overtime rate",
+    "bonuses": "Please enter valid bonus amount",
+    "preTaxDeductions": "Please enter valid pre-tax deductions",
+    "postTaxDeductions": "Please enter valid post-tax deductions"
+  },
+  "tooltips": {
+    "grossSalary": "Your total annual salary before any deductions",
+    "payFrequency": "How often you receive your paycheck",
+    "filingStatus": "Your tax filing status affects tax rates and deductions",
+    "dependents": "Number of dependents claimed on your tax return",
+    "additionalIncome": "Income from sources other than your primary job",
+    "overtimeHours": "Average monthly overtime hours worked",
+    "overtimeRate": "Rate of pay for overtime hours (typically 1.5x regular rate)",
+    "bonuses": "Annual bonus amounts received",
+    "preTaxDeductions": "Deductions taken before taxes (401k, HSA, etc.)",
+    "postTaxDeductions": "Deductions taken after taxes (Roth IRA, union dues, etc.)"
+  },
+  "salary_calculator_0": "Salary Calculator",
+  "salary_information_1": "Salary Information",
+  "salary_amount_2": "Salary Amount",
+  "pay_frequency_3": "Pay Frequency",
+  "hourly_4": "Hourly",
+  "daily_5": "Daily",
+  "weekly_6": "Weekly",
+  "biweekly_7": "Bi-weekly",
+  "semimonthly_8": "Semi-monthly",
+  "monthly_9": "Monthly",
+  "quarterly_10": "Quarterly",
+  "yearly_11": "Yearly",
+  "work_schedule_12": "Work Schedule",
+  "hours_per_week_13": "Hours per Week",
+  "days_per_week_14": "Days per Week",
+  "holidays_per_year_15": "Holidays per Year",
+  "vacation_days_per_year_16": "Vacation Days per Year",
+  "calculate_17": "Calculate",
+  "salary_results_18": "Salary Results",
+  "your_salary_breakdown_and_conversions_19": "Your salary breakdown and conversions",
+  "unadjusted_annual_20": "Unadjusted Annual",
+  "k_260_working_days_21": "260 working days",
+  "adjusted_annual_22": "Adjusted Annual",
+  "working_days_23": "working days",
+  "pay_period_conversions_24": "Pay Period Conversions",
+  "period_25": "Period",
+  "unadjusted_26": "Unadjusted",
+  "adjusted_27": "Adjusted",
+  "assumptions_used_28": "Assumptions Used:",
+  "k_52_working_weeks_per_year_29": "• 52 working weeks per year",
+  "k_5_working_days_per_week_260_total_days_30": "• 5 working days per week = 260 total days",
+  "holidays_vacation_days_31": "• Holidays + vacation days:",
+  "days_32": "days",
+  "adjusted_calculation_removes_nonworking_days_33": "• Adjusted calculation removes non-working days",
+  "enter_your_salary_information_to_see_conversions_34": "Enter your salary information to see conversions",
+  "formulas_logic_35": "Formulas & Logic",
+  "annual_salary_conversion_36": "Annual Salary Conversion",
+  "hourly_37": "Hourly:",
+  "rate_hoursweek_52_weeks_38": "Rate × Hours/Week × 52 weeks",
+  "daily_39": "Daily:",
+  "rate_260_days_40": "Rate × 260 days",
+  "weekly_41": "Weekly:",
+  "rate_52_weeks_42": "Rate × 52 weeks",
+  "biweekly_43": "Bi-weekly:",
+  "rate_26_periods_44": "Rate × 26 periods",
+  "semimonthly_45": "Semi-monthly:",
+  "rate_24_periods_46": "Rate × 24 periods",
+  "monthly_47": "Monthly:",
+  "rate_12_months_48": "Rate × 12 months",
+  "quarterly_49": "Quarterly:",
+  "rate_4_quarters_50": "Rate × 4 quarters",
+  "adjusted_salary_51": "Adjusted Salary",
+  "adjusted_annual_unadjusted_annual_working_days_aft_52": "Adjusted Annual = Unadjusted Annual × (Working Days After Time Off ÷ 260)",
+  "working_days_260_holidays_vacation_days_53": "Working Days = 260 - (Holidays + Vacation Days)",
+  "example_calculation_54": "Example Calculation",
+  "if_rate_25hour_40_hoursweek_25_days_off_55": "If rate = $25/hour, 40 hours/week, 25 days off:",
+  "unadjusted_annual_25_40_52_52000_56": "• Unadjusted Annual = $25 × 40 × 52 = $52,000",
+  "working_days_260_25_235_days_57": "• Working Days = 260 - 25 = 235 days",
+  "adjusted_annual_52000_235_260_47000_58": "• Adjusted Annual = $52,000 × (235 ÷ 260) = $47,000"
+}

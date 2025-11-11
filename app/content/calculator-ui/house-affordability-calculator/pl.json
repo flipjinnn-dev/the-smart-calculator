@@ -1,0 +1,193 @@
+{
+  "pageTitle": "Kalkulator dostępności domu",
+  "pageDescription": "Określ, na jaki dom możesz sobie pozwolić, na podstawie swoich dochodów i wydatków, korzystając z kompleksowej analizy obejmującej stosunek zadłużenia do dochodu i wymagania dotyczące zaliczki",
+  "form": {
+    "labels": {
+      "annualIncome": "Roczny dochód brutto",
+      "monthlyDebts": "Miesięczne spłaty zadłużenia",
+      "downPayment": "Zadatek",
+      "downPaymentType": "Rodzaj zaliczki",
+      "interestRate": "Oczekiwana stopa procentowa kredytu hipotecznego",
+      "loanTerm": "Okres pożyczki",
+      "propertyTax": "Roczna stawka podatku od nieruchomości",
+      "homeInsurance": "Roczne ubezpieczenie domu",
+      "hoaFees": "Miesięczne opłaty HOA",
+      "otherHousingCosts": "Inne miesięczne koszty mieszkaniowe"
+    },
+    "placeholders": {
+      "annualIncome": "Wprowadź roczny dochód brutto",
+      "monthlyDebts": "Wprowadź całkowitą miesięczną spłatę zadłużenia",
+      "downPayment": "Wprowadź zaliczkę",
+      "interestRate": "Wprowadź oczekiwane oprocentowanie kredytu hipotecznego (%)",
+      "loanTerm": "Wprowadź okres kredytu w latach",
+      "propertyTax": "Wprowadź roczną stawkę podatku od nieruchomości (%)",
+      "homeInsurance": "Wprowadź roczny koszt ubezpieczenia domu",
+      "hoaFees": "Wprowadź miesięczne opłaty HOA",
+      "otherHousingCosts": "Wprowadź inne miesięczne koszty mieszkaniowe"
+    },
+    "buttons": {
+      "calculate": "Oblicz przystępność domu",
+      "reset": "Nastawić"
+    },
+    "downPaymentTypes": {
+      "amount": "Kwota",
+      "percentage": "Procent"
+    }
+  },
+  "results": {
+    "affordablePrice": "Przystępna cena domu",
+    "monthlyPayment": "Szacowana miesięczna płatność",
+    "principalAndInterest": "Główny i odsetki",
+    "taxesAndInsurance": "Podatki i ubezpieczenie",
+    "totalHousingCost": "Całkowity miesięczny koszt mieszkania",
+    "dtiRatio": "Stosunek długu do dochodu",
+    "houseAffordabilityResultsTitle": "Wyniki dotyczące przystępności cenowej domów"
+  },
+  "educational": {
+    "houseAffordabilityInfo": "Informacje o przystępnej cenie domu",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "houseAffordabilityFacts": {
+      "rules": {
+        "title": "Zasady przystępności cenowej",
+        "description": "Zasada 28/36: Koszty mieszkania ≤ 28% dochodu brutto, Całkowite zadłużenie ≤ 36% dochodu brutto"
+      },
+      "downPayment": {
+        "title": "Wpływ zaliczki",
+        "description": "Większe zaliczki zmniejszają kwotę kredytu i mogą wyeliminować wymóg PMI"
+      },
+      "dti": {
+        "title": "Stosunek długu do dochodu",
+        "description": "Kredytodawcy zazwyczaj preferują wskaźniki DTI poniżej 43% w przypadku kwalifikowanych kredytów hipotecznych"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki przystępności cenowej domu",
+      "actual": "Rzeczywista przystępność cenowa może się różnić w zależności od wyniku kredytowego, polityki pożyczkodawcy i warunków rynkowych"
+    },
+    "importantNotesList": [
+      "Oprócz dochodów pożyczkodawcy biorą pod uwagę zdolność kredytową, historię zatrudnienia i aktywa",
+      "Koszty zamknięcia zazwyczaj wahają się od 2-5% ceny domu",
+      "Fundusz awaryjny powinien pokrywać wydatki mieszkaniowe na okres 3-6 miesięcy",
+      "Weź pod uwagę koszty utrzymania w wysokości 1-3% wartości domu rocznie"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź swoje dane finansowe, aby określić przystępność cenową domu",
+    "resultMessage": "Wyniki obliczeń przystępności cenowej Twojego domu pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia przystępności cenowej domu:",
+    "houseAffordabilityAnalysis": "Analiza przystępności cenowej domu"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten pozwala oszacować przystępność cenową domu w oparciu o ogólne wytyczne finansowe. Rzeczywista przystępność cenowa może się różnić w zależności od wyniku kredytowego, polityki pożyczkodawcy, warunków rynkowych i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowaną analizę przystępności cenowej domu i porady dotyczące kredytu hipotecznego, skonsultuj się z brokerami kredytów hipotecznych lub doradcami finansowymi posiadającymi wiedzę na temat kredytów mieszkaniowych i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "annualIncome": "Proszę podać prawidłowy roczny dochód brutto",
+    "monthlyDebts": "Proszę wprowadzić prawidłowe miesięczne spłaty zadłużenia",
+    "downPayment": "Proszę wprowadzić prawidłową zaliczkę",
+    "interestRate": "Proszę wprowadzić prawidłową oczekiwaną stopę procentową kredytu hipotecznego",
+    "loanTerm": "Proszę wprowadzić prawidłowy okres pożyczki",
+    "propertyTax": "Proszę podać prawidłową roczną stawkę podatku od nieruchomości",
+    "homeInsurance": "Proszę podać prawidłowy roczny koszt ubezpieczenia domu",
+    "hoaFees": "Proszę wprowadzić ważne miesięczne opłaty HOA",
+    "otherHousingCosts": "Proszę podać prawidłowe inne miesięczne koszty mieszkaniowe",
+    "downPaymentType": "Proszę wybrać rodzaj zaliczki"
+  },
+  "tooltips": {
+    "annualIncome": "Twój całkowity roczny dochód brutto przed opodatkowaniem",
+    "monthlyDebts": "Całkowite miesięczne płatności wszystkich długów (kredyty samochodowe, kredyty studenckie, karty kredytowe itp.)",
+    "downPayment": "Kwota, którą planujesz zapłacić z góry na zakup domu",
+    "downPaymentType": "Określa, czy zaliczka jest określona kwotowo czy procentowo",
+    "interestRate": "Oczekiwane roczne oprocentowanie kredytu hipotecznego",
+    "loanTerm": "Długość spłaty kredytu hipotecznego (zwykle 15 lub 30 lat)",
+    "propertyTax": "Roczna stawka podatku od nieruchomości ustalana przez samorząd lokalny",
+    "homeInsurance": "Roczny koszt ubezpieczenia domu",
+    "hoaFees": "Opłaty miesięczne za usługi Stowarzyszenia Właścicieli Domów",
+    "otherHousingCosts": "Inne miesięczne wydatki związane z mieszkaniem (media, utrzymanie itp.)"
+  },
+  "affordability_calculator_0": "Kalkulator przystępności cenowej",
+  "calculation_method_1": "Metoda obliczeniowa",
+  "how_would_you_like_to_calculate_2": "Jak chcesz obliczyć?",
+  "based_on_income_debttoincome_ratios_3": "Na podstawie dochodów i wskaźników zadłużenia do dochodów",
+  "based_on_fixed_monthly_budget_4": "Na podstawie stałego budżetu miesięcznego",
+  "income_debt_information_5": "Informacje o dochodach i długach",
+  "annual_gross_income_6": "Roczny dochód brutto",
+  "monthly_debt_payments_7": "Miesięczne spłaty zadłużenia",
+  "frontend_ratio_8": "Wskaźnik front-endu (%)",
+  "housing_costs_as_of_gross_income_typically_28_9": "Koszty mieszkaniowe jako procent dochodu brutto (zwykle 28%)",
+  "backend_ratio_10": "Wskaźnik zaplecza (%)",
+  "total_debt_as_of_gross_income_typically_36_11": "Całkowite zadłużenie jako% dochodu brutto (zwykle 36%)",
+  "monthly_housing_budget_12": "Miesięczny budżet mieszkaniowy",
+  "maximum_monthly_housing_payment_13": "Maksymalna miesięczna opłata za mieszkanie",
+  "include_mortgage_taxes_insurance_and_hoa_fees_14": "Uwzględnij kredyt hipoteczny, podatki, ubezpieczenie i opłaty HOA",
+  "loan_property_details_15": "Szczegóły pożyczki i nieruchomości",
+  "down_payment_16": "Zaliczka (%)",
+  "mortgage_interest_rate_17": "Oprocentowanie kredytu hipotecznego (%)",
+  "loan_term_years_18": "Okres kredytowania (lata)",
+  "k_15_years_19": "15 lat",
+  "k_20_years_20": "20 lat",
+  "k_25_years_21": "25 lat",
+  "k_30_years_22": "30 lat",
+  "property_tax_rate_23": "Stawka podatku od nieruchomości (%)",
+  "home_insurance_rate_24": "Stawka ubezpieczenia domu (%)",
+  "hoa_fee_rate_25": "Stawka opłaty HOA (%)",
+  "calculate_26": "Obliczać",
+  "affordability_results_27": "Wyniki w zakresie przystępności cenowej",
+  "how_much_house_you_can_afford_28": "Na jaki dom Cię stać",
+  "maximum_house_price_29": "Maksymalna cena domu:",
+  "monthly_payment_breakdown_30": "Miesięczny podział płatności",
+  "principal_interest_31": "Główny i odsetki",
+  "property_tax_32": "Podatek od nieruchomości",
+  "home_insurance_33": "Ubezpieczenie domu",
+  "hoa_fees_34": "Opłaty HOA",
+  "total_monthly_payment_35": "Całkowita miesięczna płatność",
+  "purchase_details_36": "Szczegóły zakupu",
+  "down_payment_required_37": "Wymagana zaliczka",
+  "loan_amount_38": "Kwota pożyczki",
+  "housing_budget_used_39": "Wykorzystany budżet mieszkaniowy:",
+  "this_calculation_assumes_40": "To obliczenie zakłada",
+  "down_payment_and_41": "% zaliczki i",
+  "interest_rate_42": "% stopy procentowej",
+  "enter_your_information_to_see_how_much_house_you_c_43": "Wprowadź swoje dane, aby zobaczyć, na jaki dom Cię stać",
+  "how_much_house_can_i_afford_44": "Na jaki dom mogę sobie pozwolić?",
+  "determining_how_much_house_you_can_afford_depends__45": "Określenie, na jaki dom Cię stać, zależy od kilku kluczowych czynników, w tym Twoich dochodów,\n                      istniejące zadłużenie, zadatek i aktualne oprocentowanie kredytów hipotecznych. Kredytodawcy zazwyczaj korzystają z dwóch głównych\n                      wskaźniki umożliwiające ocenę przystępności cenowej:",
+  "frontend_ratio_28_rule_46": "Wskaźnik front-endu (reguła 28%):",
+  "your_total_housing_costs_should_not_exceed_28_of_y_47": "Twoje całkowite koszty mieszkaniowe nie powinny przekraczać 28%.\n                        Twój miesięczny dochód brutto",
+  "backend_ratio_36_rule_48": "Wskaźnik zaplecza (reguła 36%):",
+  "your_total_debt_payments_should_not_exceed_36_of_y_49": "Całkowita spłata zadłużenia nie powinna przekraczać 36%.\n                        Twój miesięczny dochód brutto",
+  "house_affordability_formulas_logic_50": "Formuły i logika przystępności domu",
+  "k_1_monthly_income_calculation_51": "1. Obliczanie miesięcznego dochodu",
+  "monthly_income_annual_income_12_52": "Dochód miesięczny = dochód roczny ÷ 12",
+  "k_2_dti_ratio_limits_53": "2. Limity współczynnika DTI",
+  "frontend_max_monthly_income_frontend_ratio_54": "Maks. Front-End = miesięczny dochód × współczynnik Front-End",
+  "backend_max_monthly_income_backend_ratio_monthly_d_55": "Maks. zaplecza = (miesięczny dochód × współczynnik zaplecza) - miesięczne długi",
+  "k_3_housing_budget_56": "3. Budżet mieszkaniowy",
+  "max_housing_budget_minfrontend_max_backend_max_57": "Maksymalny budżet mieszkaniowy = min (maks. front-end, maks. zaplecze)",
+  "k_4_monthly_mortgage_payment_58": "4. Miesięczna spłata kredytu hipotecznego",
+  "m_l_r1rn_1rn_1_59": "M = L × [r(1+r)^n] / [(1+r)^n - 1]",
+  "where_l_loan_amount_r_monthly_rate_n_number_of_pay_60": "Gdzie: L = kwota pożyczki, r = rata miesięczna, n = liczba płatności",
+  "k_5_total_housing_cost_61": "5. Całkowity koszt mieszkania",
+  "total_mortgage_property_tax_insurance_hoa_62": "Razem = kredyt hipoteczny + podatek od nieruchomości + ubezpieczenie + HOA",
+  "example_calculations_63": "Przykładowe obliczenia",
+  "example_1_incomebased_calculation_64": "Przykład 1: Kalkulacja oparta na dochodach",
+  "scenario_65": "Scenariusz:",
+  "k_100000_annual_income_500_monthly_debts_30year_mort_66": "100 000 dolarów rocznego dochodu, 500 dolarów miesięcznych długów, 30-letni kredyt hipoteczny na 6%,\n                          Zaliczka 20%.",
+  "calculation_67": "Obliczenie:",
+  "monthly_income_8333_frontend_max_2333_backend_max__68": "Miesięczny dochód = 8333 USD, maks. front-end = 2333 USD, maks. back-end =\n                          2500 dolarów",
+  "result_69": "Wynik:",
+  "max_housing_budget_2333_affordable_house_420000_70": "Maksymalny budżet mieszkaniowy = 2333 USD, Niedrogi dom ≈ 420 000 USD",
+  "example_2_budgetbased_calculation_71": "Przykład 2: Obliczenia oparte na budżecie",
+  "scenario_72": "Scenariusz:",
+  "fixed_budget_of_2500month_same_loan_parameters_as__73": "Stały budżet w wysokości 2500 USD miesięcznie, takie same parametry pożyczki jak powyżej",
+  "calculation_74": "Obliczenie:",
+  "housing_budget_2500_userdefined_75": "Budżet mieszkaniowy = 2500 USD (zdefiniowany przez użytkownika)",
+  "result_76": "Wynik:",
+  "affordable_house_390000_77": "Niedrogi dom ≈ 390 000 dolarów"
+}

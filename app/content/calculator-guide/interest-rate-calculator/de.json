@@ -1,0 +1,124 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Zinsrechner – Finden Sie sofort den richtigen Kreditzins",
+      "content": "Die Verwaltung von Krediten kann sich kompliziert anfühlen, das Verstehen Ihres Zinssatzes sollte jedoch nicht kompliziert sein. Unser Zinsrechner hilft Ihnen, die Kreditzinsen für Hypotheken, Autokredite, Privatkredite, Wohnungsbaudarlehen und sogar Kreditkarten schnell und genau zu berechnen. Ganz gleich, ob Sie die monatlichen Kreditzinsen berechnen, den effektiven Jahreszins ermitteln oder mehrere Kreditangebote vergleichen möchten, dieses kostenlose Tool verschafft Ihnen sofort Klarheit."
+    },
+    {
+      "heading": "Warum einen Zinsrechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Sparen Sie Zeit",
+          "content": "Keine manuelle Mathematik erforderlich."
+        },
+        {
+          "heading": "Planen Sie intelligenter",
+          "content": "Kennen Sie Ihre genauen Kreditkosten."
+        },
+        {
+          "heading": "Kreditgeber vergleichen",
+          "content": "Sehen Sie, welcher Kredit den besten Zinssatz bietet."
+        },
+        {
+          "heading": "Bleiben Sie genau",
+          "content": "Gebaut nach den gleichen Formeln, die Banken und Kreditgeber verwenden."
+        }
+      ]
+    },
+    {
+      "heading": "Wie funktioniert der Rechner?",
+      "content": "Unser Rechner verwendet die Kreditzinsformel und die Kredittilgungsmethoden, um Ihnen genaue Ergebnisse zu liefern.",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Geben Sie Ihren Kreditbetrag (Kapital) ein."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Fügen Sie Ihre monatliche Zahlung und Kreditlaufzeit hinzu."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Der Rechner wendet die Effektivzinsformel an und zeigt Ihren monatlichen oder jährlichen Zinssatz an."
+        },
+        {
+          "heading": "Notiz",
+          "content": "Dies ist derselbe Prozess, den Kreditgeber verwenden, um den effektiven Jahreszins im Vergleich zu Zinssätzen und Rückzahlungsplänen zu berechnen."
+        }
+      ]
+    },
+    {
+      "heading": "Arten von Krediten, die Sie berechnen können",
+      "subSections": [
+        {
+          "heading": "Hypothekenzinsrechner",
+          "content": "Für Wohnungsbaudarlehen."
+        },
+        {
+          "heading": "Zinsrechner für Autokredite",
+          "content": "Autofinanzierung und -leasing."
+        },
+        {
+          "heading": "Zinsrechner für Privatkredite",
+          "content": "Ungesicherte Kreditaufnahme."
+        },
+        {
+          "heading": "Zinsrechner für Eigenheimdarlehen",
+          "content": "Immobilien- und Wohnungsfinanzierung."
+        },
+        {
+          "heading": "Rechner für Kreditkartenzinsen",
+          "content": "Revolvierende Guthaben."
+        },
+        {
+          "heading": "Erweiterter Kreditzinsrechner",
+          "content": "Mit Gebühren, effektivem Jahreszins und Vergleichstools."
+        }
+      ]
+    },
+    {
+      "heading": "Bildungseinblicke – Verstehen Sie Ihren Kredit besser",
+      "subSections": [
+        {
+          "heading": "effektiver Jahreszins vs. Zinssatz",
+          "content": "Zinssatz: Die Grundkosten der Kreditaufnahme. APR (Annual Percentage Rate): Beinhaltet Zinsen + Gebühren und vermittelt so ein klareres Bild der tatsächlichen Kosten Ihres Darlehens."
+        },
+        {
+          "heading": "Monatlicher vs. jährlicher Zinssatz",
+          "content": "Monatlich: Nützlich für die Budgetierung und EMI-Planung. Jährlich: Am besten zum Vergleich von Kreditgebern und langfristigen Kosten geeignet."
+        },
+        {
+          "heading": "Nominal- und Effektivzinssatz",
+          "content": "Nominalzins: Angegebener Zins ohne Aufzinsung. Effektiver Jahreszins (EAR): Beinhaltet die Aufzinsung und zeigt die tatsächlichen Kosten an."
+        }
+      ]
+    },
+    {
+      "heading": "Vergleichen und finden Sie den besten Kredit",
+      "content": "Suchen Sie online nach dem besten Kreditzinsrechner? Unser Tool dient gleichzeitig als Zinsvergleichstool, sodass Sie mehrere Kreditszenarien nebeneinander prüfen können.\n- Vergleichen Sie Hypotheken- und Privatkreditzinsen.\n- Verstehen Sie den effektiven Jahreszins für Autokredite im Vergleich zum Zinssatz.\n- Verwenden Sie es als Online-EMI-Rechner mit Zinssätzen.\nEs ist kostenlos, genau und für intelligentere Finanzentscheidungen konzipiert."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie berechnet man den Zinssatz für einen Kredit manuell?",
+      "a": "Sie dividieren die gesamten gezahlten Zinsen durch den Kapitalbetrag und passen ihn dann an die Kreditlaufzeit an. Unser Tool automatisiert dies sofort."
+    },
+    {
+      "q": "Kann ich den Zinssatz aus der monatlichen Zahlung berechnen?",
+      "a": "Ja – geben Sie den Kreditbetrag, die Laufzeit und die monatliche Rate ein, und der Rechner ermittelt den Zinssatz."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen effektivem Jahreszins und Zinssatz?",
+      "a": "Der effektive Jahreszins beinhaltet Gebühren; Zinssatz nicht. Der effektive Jahreszins ist immer gleich oder höher als der Nominalzins."
+    },
+    {
+      "q": "Wie berechnen Banken Kreditzinsen?",
+      "a": "Banken nutzen Faktoren wie Kreditwürdigkeit, Kreditart und Marktzinssätze und wenden dann Tilgungsformeln an."
+    },
+    {
+      "q": "Ist dieser Rechner für alle Kredite korrekt?",
+      "a": "Ja – es funktioniert für Hypotheken, Autokredite, Privatkredite, Kreditkarten und mehr."
+    }
+  ]
+}

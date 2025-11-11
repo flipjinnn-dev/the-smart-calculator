@@ -1,0 +1,179 @@
+{
+  "pageTitle": "Simpsons Regelrechner",
+  "pageDescription": "Berechnen Sie bestimmte Integrale mithilfe der Simpson-Regel",
+  "form": {
+    "labels": {
+      "function": "Funktion f(x)",
+      "lowerLimit": "Untergrenze (a)",
+      "upperLimit": "Obergrenze (b)",
+      "intervals": "Anzahl der Intervalle (n)",
+      "variable": "Variable"
+    },
+    "placeholders": {
+      "function": "Geben Sie eine Funktion ein (z. B. x^2 + 2x + 1)",
+      "lowerLimit": "Untergrenze eingeben",
+      "upperLimit": "Obergrenze eingeben",
+      "intervals": "Anzahl der Intervalle eingeben (gerade Zahl)",
+      "variable": "Variable eingeben (z. B. x)"
+    },
+    "buttons": {
+      "calculate": "Integral berechnen",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "simpsonsRule": "Ergebnisse der Simpson-Regel",
+    "integralApproximation": "Integrale Näherung",
+    "exactValue": "Genauer Wert (falls verfügbar)",
+    "error": "Fehler",
+    "stepSize": "Schrittgröße (h)",
+    "intervalsUsed": "Verwendete Intervalle",
+    "functionEvaluations": "Funktionsauswertungen"
+  },
+  "educational": {
+    "simpsonsInfo": "Informationen zu Simpsons Regeln",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Mathematikressourcen",
+    "simpsonsFacts": {
+      "method": {
+        "title": "Simpsons Regelmethode",
+        "description": "Numerische Integrationsmethode, die bestimmte Integrale mithilfe quadratischer Polynome annähert"
+      },
+      "formula": {
+        "title": "Simpsons Regelformel",
+        "description": "∫(a bis b) f(x)dx ≈ (h/3)[f(x₀) + 4f(x₁) + 2f(x₂) + 4f(x₃) + ... + f(xₙ)]"
+      },
+      "accuracy": {
+        "title": "Überlegungen zur Genauigkeit",
+        "description": "Genauer als die Trapezregel, insbesondere für glatte Funktionen. Die Genauigkeit verbessert sich mit mehr Intervallen."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Näherungswerte gemäß der Simpson-Regel",
+      "actual": "Die Ergebnisse sind numerische Näherungswerte und können von den exakten Werten abweichen"
+    },
+    "importantNotesList": [
+      "Für die Simpson-Regel muss die Anzahl der Intervalle gerade sein",
+      "Mehr Intervalle sorgen im Allgemeinen für eine bessere Genauigkeit",
+      "Die Methode eignet sich am besten für reibungslose, kontinuierliche Funktionen",
+      "Bei den Ergebnissen handelt es sich um Näherungswerte, nicht um exakte Werte"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die Funktions- und Integrationsgrenzen ein, um die Simpson-Regel anzuwenden",
+    "resultMessage": "Die Ergebnisse Ihrer Simpson-Regel-Berechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Simpson-Regelberechnung:",
+    "simpsonsAnalysis": "Simpsons Regelanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Näherungen nach der Simpson-Regel für bestimmte Integrale. Die Ergebnisse sind numerische Näherungen und können von den exakten Werten abweichen, insbesondere bei Funktionen mit Diskontinuitäten oder starken Änderungen."
+  },
+  "seekHelp": {
+    "title": "Mathematikressourcen",
+    "content": "Für fortgeschrittene numerische Analyse- und Integrationsmethoden konsultieren Sie Mathematiklehrbücher oder akademische Ressourcen zu numerischen Methoden und Computermathematik."
+  },
+  "errors": {
+    "function": "Bitte geben Sie eine gültige Funktion ein",
+    "lowerLimit": "Bitte geben Sie eine gültige Untergrenze ein",
+    "upperLimit": "Bitte geben Sie eine gültige Obergrenze ein",
+    "intervals": "Bitte geben Sie eine gültige gerade Anzahl von Intervallen ein",
+    "variable": "Bitte geben Sie eine gültige Variable ein"
+  },
+  "tooltips": {
+    "function": "Die zu integrierende mathematische Funktion",
+    "lowerLimit": "Die untere Integrationsgrenze (a)",
+    "upperLimit": "Die obere Integrationsgrenze (b)",
+    "intervals": "Anzahl der Intervalle für die Simpson-Regel (muss gerade sein)",
+    "variable": "Die Variable der Integration"
+  },
+  "simpsons_rule_integration_0": "Simpsons Regelintegration",
+  "enter_your_function_and_integration_limits_to_calc_1": "Geben Sie Ihre Funktions- und Integrationsgrenzen ein, um das Näherungsintegral zu berechnen",
+  "function_fx_2": "Funktion f(x)",
+  "use_x_as_variable_for_powers_3": "(verwenden Sie x als Variable, ** für Potenzen)",
+  "supported_sin_cos_tan_sqrt_log_ln_pi_e_4": "Unterstützt: +, -, *, /, **, sin, cos, tan, sqrt, log, ln, pi, e",
+  "lower_limit_a_5": "Untergrenze (a)",
+  "upper_limit_b_6": "Obergrenze (b)",
+  "number_of_subintervals_n_7": "Anzahl der Teilintervalle (n)",
+  "must_be_even_8": "*muss gerade sein",
+  "simpsons_13_rule_formula_9": "Simpsons 1/3-Regelformel:",
+  "a_10": "a",
+  "b_11": "b",
+  "fxdx_ba3n_fx_4fx_2fx_4fx_fx_12": "f(x)dx ≈ (b-a)/(3n) [f(x₀) + 4f(x₁) + 2f(x₂) + ... + 4f(xₙ₋₁) + f(xₙ)]",
+  "where_fx_x_7_13": "Wobei f(x) = (x⁵ + 7)",
+  "k_13_14": "-1/3",
+  "for_the_example_n_is_even_and_x_15": "Für das Beispiel ist n gerade und x",
+  "i_16": "i",
+  "a_iban_17": "= a + i(b-a)/n",
+  "calculate_18": "Berechnen",
+  "try_example_19": "Versuchen Sie es mit Beispiel",
+  "result_20": "Ergebnis",
+  "approximate_integral_21": "Ungefähres Integral",
+  "x_22": "Δx =",
+  "subintervals_23": "Teilintervalle:",
+  "enter_function_and_limits_then_click_24": "Geben Sie Funktion und Grenzen ein und klicken Sie dann",
+  "calculate_25": "Berechnen",
+  "to_see_result_26": "um das Ergebnis zu sehen.",
+  "stepbystep_solution_27": "Schritt-für-Schritt-Lösung",
+  "k_1_given_information_28": "1. Gegebene Informationen",
+  "function_fx_29": "Funktion: f(x) =",
+  "lower_limit_a_30": "Untergrenze (a) =",
+  "upper_limit_b_31": "Obergrenze (b) =",
+  "number_of_subintervals_n_32": "Anzahl der Teilintervalle (n) =",
+  "k_2_calculate_width_33": "2. Berechnen Sie die Breite",
+  "x_b_a_n_34": "Δx = (b - a) / n = (",
+  "k_3_partition_points_and_function_values_35": "3. Partitionspunkte und Funktionswerte",
+  "i_36": "i",
+  "x_37": "xᵢ",
+  "fx_38": "f(xᵢ)",
+  "coefficient_39": "Koeffizient",
+  "k_4_apply_simpsons_rule_40": "4. Wenden Sie die Simpson-Regel an",
+  "sum_41": "Summe =",
+  "sum_42": "Summe =",
+  "integral_ba3n_sum_43": "Integral ≈ (b-a)/(3n) × Summe = (",
+  "to_44": "Zu",
+  "k_3_45": ")/3×",
+  "what_is_simpsons_rule_46": "Was ist Simpsons Regel?",
+  "simpsons_rule_is_a_numerical_integration_technique_47": "Die Simpson-Regel ist eine numerische Integrationstechnik, die bestimmte Integrale durch Anpassung annähert\n                    Parabelkurven durch Gruppen von drei Punkten. Sie ist genauer als die Trapezregel, weil\n                    es verwendet quadratische Näherungen anstelle linearer Näherungen.",
+  "the_method_divides_the_integration_interval_into_a_48": "Die Methode unterteilt das Integrationsintervall in eine gerade Anzahl von Teilintervallen und wendet die an\n                    Formel mit alternierenden Koeffizienten (1, 4, 2, 4, 2, ..., 4, 1), um eine höhere Präzision zu erreichen.",
+  "how_to_use_the_calculator_49": "So verwenden Sie den Rechner",
+  "enter_your_function_fx_using_standard_mathematical_50": "Geben Sie Ihre Funktion f(x) in der mathematischen Standardschreibweise ein",
+  "set_the_lower_limit_a_and_upper_limit_b_of_integra_51": "Legen Sie die Untergrenze (a) und die Obergrenze (b) der Integration fest",
+  "choose_an_even_number_of_subintervals_n_more_subin_52": "Wählen Sie eine gerade Anzahl von Teilintervallen (n) – mehr Teilintervalle führen zu einer höheren Genauigkeit",
+  "click_calculate_to_get_the_approximate_result_53": "Klicken Sie auf „Berechnen“, um das ungefähre Ergebnis zu erhalten",
+  "use_show_steps_to_see_the_detailed_calculation_pro_54": "Verwenden Sie „Schritte anzeigen“, um den detaillierten Berechnungsprozess anzuzeigen",
+  "formula_55": "Formel",
+  "a_56": "a",
+  "b_57": "b",
+  "fxdx_x3fx_4fx_2fx_4fx_4fx_58": "f(x)dx ≈ (Δx/3)[f(x₀) + 4f(x₁) + 2f(x₂) + 4f(x₃) + ... + 4f(x",
+  "n1_59": "n-1",
+  "fx_60": ") + f(x",
+  "n_61": "n",
+  "where_62": "Wo:",
+  "x_b_a_n_subinterval_width_63": "• Δx = (b - a) / n (Teilintervallbreite)",
+  "n_even_number_of_subintervals_64": "• n = gerade Anzahl von Teilintervallen",
+  "coefficients_1_for_endpoints_4_for_odd_indices_2_f_65": "• Koeffizienten: 1 für Endpunkte, 4 für ungerade Indizes, 2 für gerade Indizes",
+  "example_66": "Beispiel",
+  "problem_67": "Problem:",
+  "approximate_1x_7_dx_using_n_4_68": "Ungefähr ∫₀¹ 1/(x⁵ + 7) dx unter Verwendung von n = 4",
+  "solution_69": "Lösung:",
+  "k_1_x_1_0_4_025_70": "1. Δx = (1 - 0) / 4 = 0,25",
+  "k_2_points_x_0_x_025_x_05_x_075_x_1_71": "2. Punkte: x₀ = 0, x₁ = 0,25, x₂ = 0,5, x₃ = 0,75, x₄ = 1",
+  "k_3_function_values_f0_0142857_f025_0142653_f05_0141_72": "3. Funktionswerte: f(0) ≈ 0,142857, f(0,25) ≈ 0,142653, f(0,5) ≈ 0,141844, f(0,75) ≈ 0,139665,\n                        f(1) = 0,125",
+  "k_4_apply_coefficients_1_4_2_4_1_sum_1133_73": "4. Wenden Sie die Koeffizienten [1, 4, 2, 4, 1] an: Summe ≈ 1,133",
+  "k_5_result_0253_1133_74": "5. Ergebnis: (0,25/3) × 1,133 ≈",
+  "k_0094417_75": "0.094417",
+  "faq_76": "FAQ",
+  "what_is_simpsons_rule_77": "Was ist Simpsons Regel?",
+  "simpsons_rule_is_a_numerical_method_for_approximat_78": "Die Simpson-Regel ist eine numerische Methode zur Approximation bestimmter Integrale mittels Parabel\n                        Näherungen, die eine höhere Genauigkeit bieten als lineare Methoden wie die Trapezregel.",
+  "why_must_n_be_even_79": "Warum muss n gerade sein?",
+  "simpsons_13_rule_requires_pairing_adjacent_interva_80": "Die 1/3-Regel von Simpson erfordert die Paarung benachbarter Intervalle, um parabelförmige Segmente zu bilden. Jede Parabel\n                        benötigt drei Punkte, daher benötigen wir eine gerade Anzahl von Intervallen, um vollständige Paare zu erstellen.",
+  "how_accurate_is_simpsons_rule_81": "Wie genau ist die Simpson-Regel?",
+  "simpsons_rule_has_an_error_of_oh_making_it_much_mo_82": "Die Simpson-Regel hat einen Fehler von O(h⁵), was sie viel genauer macht als die Trapezregel\n                        O(h³)-Fehler. Es ist genau für Polynome bis zum Grad 3.",
+  "difference_between_trapezoidal_rule_and_simpsons_r_83": "Unterschied zwischen der Trapezregel und der Simpson-Regel?",
+  "the_trapezoidal_rule_uses_linear_approximations_st_84": "Die Trapezregel verwendet lineare Näherungen (gerade Linien), während die Simpson-Regel verwendet wird\n                        quadratische Näherungen (Parabeln), was zu einer deutlich höheren Genauigkeit für die Glättung führt\n                        Funktionen.",
+  "smart_calculator_85": "Intelligenter Rechner",
+  "k_2025_smart_calculator_all_rights_reserved_86": "© 2025 Smart Calculator. Alle Rechte vorbehalten."
+}

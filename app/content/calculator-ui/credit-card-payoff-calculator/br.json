@@ -1,0 +1,154 @@
+{
+  "pageTitle": "Calculadora de pagamento de cartão de crédito",
+  "pageDescription": "Calcule quanto tempo levará para pagar a dívida e os juros do cartão de crédito com diferentes estratégias de pagamento para minimizar custos e se livrar das dívidas mais rapidamente",
+  "form": {
+    "labels": {
+      "currentBalance": "Saldo Atual",
+      "interestRate": "Taxa de juros anual (APR)",
+      "minimumPayment": "Pagamento Mínimo",
+      "minimumPaymentType": "Tipo de pagamento mínimo",
+      "fixedPayment": "Pagamento Mensal Fixo",
+      "extraPayment": "Pagamento Extra Mensal",
+      "paymentStrategy": "Estratégia de Pagamento"
+    },
+    "placeholders": {
+      "currentBalance": "Insira o saldo atual do cartão de crédito",
+      "interestRate": "Insira a taxa de juros anual (%)",
+      "minimumPayment": "Insira o pagamento mínimo",
+      "fixedPayment": "Insira o pagamento mensal fixo"
+    },
+    "buttons": {
+      "calculate": "Calcular o tempo de pagamento",
+      "reset": "Reiniciar"
+    },
+    "minimumPaymentTypes": {
+      "amount": "Valor Fixo",
+      "percentage": "Porcentagem de saldo"
+    },
+    "paymentStrategies": {
+      "minimum": "Apenas pagamentos mínimos",
+      "fixed": "Pagamento Mensal Fixo",
+      "minimumPlus": "Pagamento Mínimo Mais Extra"
+    }
+  },
+  "results": {
+    "payoffTime": "Hora de pagar",
+    "totalInterest": "Juros totais pagos",
+    "totalPayment": "Pagamento total",
+    "interestSavings": "Economia de juros com pagamentos extras",
+    "creditCardPayoffResultsTitle": "Resultados de pagamento de cartão de crédito"
+  },
+  "educational": {
+    "creditCardPayoffInfo": "Informações sobre pagamento de cartão de crédito",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "creditCardPayoffFacts": {
+      "interest": {
+        "title": "Juros de cartão de crédito",
+        "description": "Os juros do cartão de crédito aumentam diariamente, fazendo com que a dívida cresça rapidamente se não for paga"
+      },
+      "minimumPayments": {
+        "title": "Impacto mínimo no pagamento",
+        "description": "Pagar apenas o mínimo pode estender o tempo de pagamento por anos e custar centenas de juros"
+      },
+      "strategies": {
+        "title": "Estratégias de recompensa",
+        "description": "Pagamentos fixos ou pagamentos extras reduzem significativamente o tempo de pagamento e os custos de juros"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de pagamento de cartão de crédito",
+      "actual": "Os termos reais de pagamento podem variar com base nas políticas e taxas do emissor do cartão"
+    },
+    "importantNotesList": [
+      "Os juros do cartão de crédito aumentam diariamente, aumentando o custo de manter um saldo",
+      "Pagar mais do que o mínimo reduz diretamente o principal e economiza juros",
+      "Considere ofertas de transferência de saldo para consolidar dívidas de cartão de crédito com juros altos",
+      "Pare de usar cartões de crédito ao pagar saldos existentes"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações do seu cartão de crédito para calcular o tempo de pagamento",
+    "resultMessage": "Os resultados do cálculo do pagamento do seu cartão de crédito são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do pagamento do cartão de crédito:",
+    "creditCardPayoffAnalysis": "Análise de pagamento de cartão de crédito"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de pagamento de cartão de crédito com base em cálculos matemáticos. Os termos reais de pagamento, cobranças de juros e taxas podem variar com base nas políticas do emissor do cartão e outros fatores não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para obter aconselhamento personalizado sobre gestão e consolidação de dívidas de cartão de crédito, consulte conselheiros de crédito ou consultores financeiros com experiência em redução de dívidas e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "currentBalance": "Por favor insira um saldo atual válido",
+    "interestRate": "Insira uma taxa de juros anual válida",
+    "minimumPayment": "Insira um pagamento mínimo válido",
+    "fixedPayment": "Insira um valor de pagamento fixo válido",
+    "extraPayment": "Insira um valor de pagamento extra válido",
+    "minimumPaymentType": "Selecione um tipo de pagamento mínimo",
+    "paymentStrategy": "Selecione uma estratégia de pagamento"
+  },
+  "tooltips": {
+    "currentBalance": "Saldo pendente atual em seu cartão de crédito",
+    "interestRate": "Taxa percentual anual (APR) cobrada sobre saldos não pagos",
+    "minimumPayment": "Pagamento mínimo mensal exigido do emissor do cartão",
+    "minimumPaymentType": "Se o pagamento mínimo é um valor fixo ou uma porcentagem do saldo",
+    "fixedPayment": "Valor fixo que você planeja pagar a cada mês",
+    "extraPayment": "Valor adicional pago a cada mês em relação ao principal",
+    "paymentStrategy": "Método usado para determinar o valor do pagamento mensal"
+  },
+  "debt_avalanche_calculator_0": "Calculadora de avalanche de dívidas",
+  "monthly_payment_budget_1": "Orçamento de pagamento mensal",
+  "total_monthly_budget_for_all_credit_card_payments_2": "Orçamento mensal total para todos os pagamentos com cartão de crédito",
+  "credit_cards_3": "Cartões de crédito",
+  "add_card_4": "Adicionar cartão",
+  "card_5": "Cartão",
+  "card_name_6": "Nome do cartão",
+  "current_balance_7": "Saldo Atual",
+  "minimum_payment_8": "Pagamento Mínimo",
+  "apr_9": "TAEG (%)",
+  "calculate_strategy_10": "Calcular Estratégia",
+  "payoff_results_11": "Resultados de recompensa",
+  "your_debt_avalanche_strategy_12": "Sua estratégia de avalanche de dívidas",
+  "payoff_time_13": "Tempo de pagamento:",
+  "y_14": "y",
+  "m_15": "m",
+  "total_interest_16": "Juros totais:",
+  "total_amount_paid_17": "Valor Total Pago:",
+  "payment_schedule_18": "Cronograma de Pagamento",
+  "download_csv_19": "Baixar CSV",
+  "month_20": "Mês",
+  "card_21": "Cartão",
+  "balance_22": "Equilíbrio",
+  "interest_23": "Interesse",
+  "payment_24": "Pagamento",
+  "remaining_25": "Restante",
+  "showing_first_24_months_download_csv_for_complete__26": "Mostrando os primeiros 24 meses. Baixe CSV para programação completa.",
+  "enter_your_credit_card_information_to_see_your_pay_27": "Insira as informações do seu cartão de crédito para ver sua estratégia de pagamento",
+  "formulas_behind_the_avalanche_method_28": "Fórmulas por trás do método Avalanche",
+  "k_1_monthly_interest_calculation_29": "1. Cálculo de juros mensais",
+  "interest_balance_apr_12_30": "Juros = Saldo × (APR ÷ 12)",
+  "k_2_minimum_payment_application_31": "2. Solicitação de Pagamento Mínimo",
+  "new_balance_balance_interest_min_payment_32": "Novo Saldo = (Saldo + Juros) - Pagamento Mínimo",
+  "k_3_extra_payment_allocation_33": "3. Alocação de pagamento extra",
+  "extra_budget_min_payments_34": "Extra = Orçamento - Σ(pagamentos mínimos)",
+  "extra_payment_goes_to_the_card_with_the_highest_ap_35": "O pagamento extra vai para o cartão com a TAEG mais alta",
+  "k_4_payoff_priority_36": "4. Prioridade de recompensa",
+  "cards_are_prioritized_by_apr_highest_first_with_ba_37": "Os cartões são priorizados por APR (o mais alto primeiro), com o saldo como critério de desempate (o mais baixo primeiro)",
+  "example_scenarios_38": "Cenários de exemplo",
+  "scenario_1_two_cards_39": "Cenário 1: Duas Cartas",
+  "card_a_5000_at_1899_apr_100_minimum_40": "• Cartão A: US$ 5.000 com TAEG de 18,99%, mínimo de US$ 100",
+  "card_b_3000_at_2499_apr_75_minimum_41": "• Cartão B: US$ 3.000 com TAEG de 24,99%, mínimo de US$ 75",
+  "monthly_budget_400_42": "• Orçamento Mensal: US$ 400",
+  "strategy_pay_minimums_175_put_extra_225_toward_car_43": "• Estratégia: Pagar mínimos (US$ 175), colocar US$ 225 extras no Cartão B (TAEG mais alta)",
+  "scenario_2_multiple_cards_44": "Cenário 2: Vários Cartões",
+  "card_a_8000_at_1599_apr_160_minimum_45": "• Cartão A: US$ 8.000 com TAEG de 15,99%, mínimo de US$ 160",
+  "card_b_4000_at_2299_apr_80_minimum_46": "• Cartão B: US$ 4.000 com TAEG de 22,99%, mínimo de US$ 80",
+  "card_c_2000_at_1999_apr_50_minimum_47": "• Cartão C: US$ 2.000 com TAEG de 19,99%, mínimo de US$ 50",
+  "monthly_budget_500_48": "• Orçamento Mensal: US$ 500",
+  "strategy_pay_minimums_290_put_extra_210_toward_car_49": "• Estratégia: Pagar mínimos (US$ 290), colocar US$ 210 extras no Cartão B (TAEG mais alta)"
+}

@@ -1,0 +1,217 @@
+{
+  "pageTitle": "Calculadora de ingestão de gordura",
+  "pageDescription": "Calcule suas necessidades diárias de gordura com base no nível de atividade, metas e requisitos dietéticos para obter saúde e desempenho ideais",
+  "form": {
+    "labels": {
+      "age": "Idade (anos)",
+      "gender": "Gênero",
+      "weight": "Peso",
+      "height": "Altura",
+      "unitSystem": "Sistema de Unidades",
+      "activityLevel": "Nível de atividade",
+      "goal": "Objetivo dietético",
+      "dietType": "Tipo de dieta"
+    },
+    "placeholders": {
+      "age": "Insira a idade",
+      "heightFt": "Pés",
+      "heightIn": "Polegadas",
+      "heightCm": "Insira a altura em cm",
+      "weight": "Insira o peso em {unit}"
+    },
+    "buttons": {
+      "calculate": "Calcular a ingestão de gordura",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades dos EUA (pés/pol., lb)",
+      "metric": "Unidades Métricas (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentário (pouco ou nenhum exercício)",
+      "light": "Levemente ativo (exercícios leves 1-3 dias/semana)",
+      "moderate": "Moderadamente ativo (exercício moderado 3-5 dias/semana)",
+      "active": "Muito ativo (exercício intenso 6-7 dias/semana)",
+      "veryActive": "Extremamente ativo (exercício muito intenso e trabalho físico)"
+    },
+    "goals": {
+      "maintenance": "Manutenção de peso",
+      "lose": "Perda de peso",
+      "gain": "Ganho de peso",
+      "athletic": "Desempenho Atlético"
+    },
+    "dietTypes": {
+      "balanced": "Dieta Equilibrada (20-35% de gordura)",
+      "lowFat": "Baixo teor de gordura (10-20% de gordura)",
+      "highFat": "Alto teor de gordura (35-50% de gordura)",
+      "keto": "Cetogênico (70-80% de gordura)"
+    }
+  },
+  "results": {
+    "fatNeeds": "Necessidades diárias de gordura",
+    "caloriesFromFat": "Calorias provenientes de gordura",
+    "fatRange": "Faixa de gordura recomendada",
+    "fatResultsTitle": "Resultados de ingestão de gordura"
+  },
+  "educational": {
+    "fatInfo": "Informações sobre ingestão de gordura",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos Nutricionais",
+    "fatFacts": {
+      "function": {
+        "title": "Função Gordura",
+        "description": "Essencial para a produção hormonal, absorção de vitaminas e armazenamento de energia a longo prazo"
+      },
+      "types": {
+        "title": "Tipos de gordura",
+        "description": "Gorduras saturadas, insaturadas (mono e poli) e trans"
+      },
+      "recommendations": {
+        "title": "Recomendações dietéticas",
+        "description": "20-35% do total de calorias diárias devem provir de gorduras, com ênfase em gorduras insaturadas"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas nutricionais",
+      "individual": "As necessidades de gordura variam com base em fatores individuais e condições de saúde"
+    },
+    "importantNotesList": [
+      "Concentre-se em gorduras insaturadas de fontes como nozes, sementes e peixes",
+      "Limite as gorduras saturadas e evite gorduras trans quando possível",
+      "Os ácidos graxos essenciais (ômega-3 e ômega-6) devem ser obtidos dos alimentos",
+      "A ingestão de gordura afeta a saciedade e pode ajudar no controle de peso"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações para calcular as necessidades de gordura",
+    "resultMessage": "Suas necessidades diárias de gordura são mostradas abaixo",
+    "assessmentResult": "Resultado do cálculo da ingestão de gordura:",
+    "fatAnalysis": "Análise de ingestão de gordura"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de ingestão de gordura com base em diretrizes nutricionais gerais. As necessidades individuais podem variar de acordo com as condições de saúde, medicamentos e necessidades dietéticas específicas."
+  },
+  "seekHelp": {
+    "title": "Recursos Nutricionais",
+    "content": "Para aconselhamento nutricional personalizado e planejamento dietético, consulte nutricionistas registrados ou profissionais de saúde com experiência em ciência nutricional e necessidades individuais de saúde."
+  },
+  "errors": {
+    "age": "Insira uma idade válida (1-120)",
+    "gender": "Por favor selecione o sexo",
+    "heightFt": "Por favor insira pés válidos",
+    "heightIn": "Insira polegadas válidas (0-11)",
+    "heightCm": "Por favor insira uma altura válida em cm",
+    "weight": "Por favor insira um peso válido",
+    "activityLevel": "Selecione o nível de atividade",
+    "goal": "Selecione uma meta alimentar",
+    "dietType": "Selecione um tipo de dieta"
+  },
+  "tooltips": {
+    "age": "A idade afeta a taxa metabólica e as necessidades de gordura",
+    "height": "Sua medida de altura atual",
+    "weight": "Seu peso corporal atual",
+    "activityLevel": "Seu nível de atividade regular afeta as necessidades de energia",
+    "goal": "Seu objetivo dietético determina recomendações de gordura",
+    "dietType": "O tipo de dieta selecionado afeta o nível de ingestão de gordura"
+  },
+  "fat_calculation_0": "Cálculo de gordura",
+  "enter_your_details_to_calculate_your_optimal_daily_1": "Insira seus dados para calcular sua ingestão diária ideal de gordura",
+  "age_years_2": "Idade (anos) *",
+  "gender_3": "Gênero *",
+  "male_4": "Macho",
+  "female_5": "Fêmea",
+  "height_6": "Altura *",
+  "metric_7": "Métrica",
+  "us_8": "NÓS",
+  "cm_9": "cm",
+  "ft_10": "pés",
+  "in_11": "em",
+  "weight_12": "Peso *",
+  "metric_13": "Métrica",
+  "us_14": "NÓS",
+  "kg_15": "kg",
+  "lbs_16": "libras",
+  "activity_level_17": "Nível de atividade *",
+  "sedentary_littleno_exercise_18": "Sedentário (pouco/nenhum exercício)",
+  "light_13week_19": "Leve (1–3×/semana)",
+  "moderate_45week_20": "Moderado (4–5×/semana)",
+  "active_daily_or_intense_34week_21": "Ativo (diário ou intenso 3–4×/semana)",
+  "very_active_intense_67week_22": "Muito ativo (intenso 6–7×/semana)",
+  "extra_active_very_intense_or_physical_job_23": "Extra Ativo (trabalho muito intenso ou físico)",
+  "bmr_formula_24": "Fórmula TMB",
+  "mifflinst_jeor_default_25": "Mifflin-St Jeor (padrão)",
+  "katchmcardle_if_body_fat_known_26": "Katch-McArdle (se % de gordura corporal for conhecida)",
+  "body_fat_27": "% de gordura corporal *",
+  "calculate_intake_28": "Calcular a ingestão",
+  "reset_29": "Reiniciar",
+  "daily_fat_range_30": "Faixa diária de gordura",
+  "g_31": "g",
+  "per_day_32": "por dia",
+  "maintenance_33": "Manutenção",
+  "enter_your_details_to_calculate_your_optimal_daily_34": "Insira seus dados para calcular sua ingestão diária ideal de gordura.",
+  "fat_intake_results_35": "Resultados de ingestão de gordura",
+  "goal_36": "Meta",
+  "daily_calories_37": "Calorias Diárias",
+  "fat_range_2035_38": "Faixa de gordura (20-35%)",
+  "sat_fat_limit_10_39": "Limite de gordura sat (<10%)",
+  "sat_fat_limit_7_40": "Limite de gordura sat (<7%)",
+  "kcal_41": "calorias",
+  "g_42": "g",
+  "g_43": "g",
+  "g_44": "g",
+  "calculation_details_45": "Detalhes do cálculo",
+  "bmr_formula_46": "Fórmula TMB:",
+  "bmr_47": "TMB:",
+  "kcalday_48": "kcal/dia",
+  "activity_level_49": "Nível de atividade:",
+  "tdee_maintenance_50": "TDEE (Manutenção):",
+  "kcalday_51": "kcal/dia",
+  "your_profile_52": "Seu perfil",
+  "age_53": "Idade:",
+  "years_54": "anos",
+  "gender_55": "Gênero:",
+  "height_56": "Altura:",
+  "weight_57": "Peso:",
+  "important_notes_58": "Notas importantes",
+  "fat_provides_9_kcal_per_gram_59": "A gordura fornece 9 kcal por grama.",
+  "healthy_range_2035_of_daily_calories_60": "Faixa saudável: 20–35% das calorias diárias.",
+  "saturated_fat_should_be_kept_below_10_or_7_for_hea_61": "A gordura saturada deve ser mantida abaixo de 10% (ou 7% para risco de doença cardíaca).",
+  "individual_needs_may_vary_depending_on_health_cond_62": "As necessidades individuais podem variar dependendo das condições e objetivos de saúde.",
+  "focus_on_healthy_fats_from_nuts_seeds_fish_and_oli_63": "Concentre-se em gorduras saudáveis ​​de nozes, sementes, peixe e azeite.",
+  "about_fat_requirements_64": "Sobre os requisitos de gordura",
+  "types_of_dietary_fat_65": "Tipos de gordura dietética",
+  "monounsaturated_66": "Monoinsaturado:",
+  "olive_oil_avocados_nuts_67": "Azeite, abacate, nozes",
+  "polyunsaturated_68": "Poliinsaturado:",
+  "fish_walnuts_flaxseeds_69": "Peixe, nozes, linhaça",
+  "saturated_70": "Saturado:",
+  "meat_dairy_coconut_oil_limit_71": "Carne, laticínios, óleo de coco (limite)",
+  "trans_fats_72": "Gorduras trans:",
+  "processed_foods_avoid_73": "Alimentos processados ​​(evitar)",
+  "health_benefits_74": "Benefícios para a saúde",
+  "essential_for_vitamin_absorption_a_d_e_k_75": "Essencial para absorção de vitaminas (A, D, E, K)",
+  "supports_brain_and_nervous_system_function_76": "Apoia a função cerebral e do sistema nervoso",
+  "provides_essential_fatty_acids_77": "Fornece ácidos graxos essenciais",
+  "helps_maintain_healthy_skin_and_hair_78": "Ajuda a manter a pele e o cabelo saudáveis",
+  "healthy_fat_sources_79": "Fontes de gordura saudáveis",
+  "food_80": "Comida",
+  "fat100g_81": "Gordura/100g",
+  "olive_oil_82": "Azeite",
+  "k_100g_83": "100g",
+  "avocado_84": "Abacate",
+  "k_15g_85": "15g",
+  "almonds_86": "Amêndoas",
+  "k_49g_87": "49g",
+  "salmon_88": "Salmão",
+  "k_13g_89": "13g",
+  "walnuts_90": "Nozes",
+  "k_65g_91": "65g",
+  "guidelines_92": "Diretrizes",
+  "choose_unsaturated_fats_over_saturated_93": "Escolha gorduras insaturadas em vez de saturadas",
+  "include_omega3_fatty_acids_regularly_94": "Inclua ácidos graxos ômega-3 regularmente",
+  "limit_processed_and_fried_foods_95": "Limite alimentos processados ​​e fritos",
+  "read_nutrition_labels_carefully_96": "Leia atentamente os rótulos nutricionais"
+}

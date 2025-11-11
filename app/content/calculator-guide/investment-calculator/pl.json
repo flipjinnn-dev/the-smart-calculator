@@ -1,0 +1,116 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator inwestycyjny?",
+      "subSections": [
+        {
+          "heading": "Definicja",
+          "content": "Kalkulator inwestycyjny to bezpłatne narzędzie internetowe, które szacuje przyszłą wartość Twoich pieniędzy na podstawie kwot ryczałtowych, miesięcznych składek, stóp procentowych i częstotliwości kapitalizacji."
+        },
+        {
+          "heading": "Zamiar",
+          "content": "Zapewnia szybki wgląd w to, jak Twoje oszczędności lub inwestycje rosną w czasie, dzięki czemu planowanie finansowe jest łatwiejsze i mądrzejsze."
+        }
+      ]
+    },
+    {
+      "heading": "Jak działa nasz darmowy kalkulator inwestycyjny",
+      "subSections": [
+        {
+          "heading": "Wejścia, które można dostosować",
+          "content": "- Początkowa kwota inwestycji (ryczałt)\n- Składki miesięczne (SIP/depozyty cykliczne)\n- Częstotliwość łączenia (miesięczna, kwartalna, roczna)\n- Oczekiwana stopa zwrotu (akcje, obligacje, oszczędności)\n- Czas trwania inwestycji (lata)\n- Inflacja lub korekta podatku (opcjonalnie)"
+        },
+        {
+          "heading": "Metoda obliczeniowa",
+          "content": "Kalkulator stosuje formuły odsetek składanych do prognozowania przyszłej wartości. Pokazuje, jak składki i zyski kumulują się w czasie."
+        },
+        {
+          "heading": "Elastyczność",
+          "content": "Możesz obliczyć wzrost kwoty ryczałtowej, porównać SIP z depozytami jednorazowymi lub symulować zwroty z giełdy."
+        }
+      ]
+    },
+    {
+      "heading": "Korzyści i przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Planowanie emerytury",
+          "content": "Oszacuj swoje przyszłe oszczędności z korektą inflacji lub bez niej."
+        },
+        {
+          "heading": "Porównanie scenariuszy",
+          "content": "Wizualizuj różnice między składkami miesięcznymi i rocznymi oraz składaniem."
+        },
+        {
+          "heading": "Wizualizacja wzrostu bogactwa",
+          "content": "Zrozum długoterminową siłę złożonych zwrotów."
+        },
+        {
+          "heading": "Ustalanie celów",
+          "content": "Zaplanuj kamienie milowe, takie jak zakup domu, edukacja dziecka lub wcześniejsza emerytura."
+        },
+        {
+          "heading": "Testowanie inflacji",
+          "content": "Sprawdź, jak inflacja wpływa na realną siłę nabywczą Twoich oszczędności."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe scenariusze",
+      "subSections": [
+        {
+          "heading": "Miesięczne składki",
+          "content": "500 dolarów miesięcznie inwestowane przez 20 lat przy 8% rocznej stopie zwrotu wzrasta do ponad 295 000 dolarów po złożeniu."
+        },
+        {
+          "heading": "Inwestycja ryczałtowa",
+          "content": "Jednorazowa inwestycja o wartości 10 000 dolarów przy 7% rocznej stopie zwrotu na 15 lat wzrasta do około 27 590 dolarów."
+        },
+        {
+          "heading": "Szacowanie emerytury",
+          "content": "Połączenie kwoty ryczałtowej i składek miesięcznych pomaga w realizacji projektu oszczędności emerytalnych skorygowanych o inflację."
+        }
+      ]
+    },
+    {
+      "heading": "Kalkulator inwestycyjny a inne narzędzia",
+      "subSections": [
+        {
+          "heading": "Kalkulator oszczędności",
+          "content": "Koncentruje się na wzroście depozytów stałych, a nie na zmiennych zwrotach z inwestycji."
+        },
+        {
+          "heading": "Kalkulator pożyczki",
+          "content": "Oblicza harmonogramy spłat, a kalkulatory inwestycyjne pokazują przyszły wzrost wartości."
+        },
+        {
+          "heading": "Kalkulator emerytury",
+          "content": "Narzędzia emerytalne skupiają się na wypłatach i dochodach, natomiast kalkulatory inwestycyjne koncentrują się na akumulacji."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ile będzie warta moja inwestycja za 10 lat?",
+      "a": "Zależy to od kwoty początkowej, miesięcznych składek, stopy procentowej i częstotliwości kapitalizacji. Aby uzyskać dokładne wyniki, skorzystaj z kalkulatora."
+    },
+    {
+      "q": "Jaka jest przyszła wartość miesięcznej inwestycji wynoszącej 500 USD?",
+      "a": "Przy rocznej stopie zwrotu wynoszącej 8% kwota 500 USD miesięcznie przez 20 lat rośnie do ponad 295 000 USD po złożeniu."
+    },
+    {
+      "q": "Czy kalkulator inwestycyjny uwzględnia inflację?",
+      "a": "Tak, możesz uwzględnić inflację, aby zobaczyć rzeczywistą wartość swoich inwestycji."
+    },
+    {
+      "q": "Jak automatycznie obliczyć zwrot złożony?",
+      "a": "Po prostu wprowadź swoje dane wejściowe (kwota, stawka, czas, składki), a kalkulator natychmiast wyświetli wyniki."
+    },
+    {
+      "q": "Jaki jest najlepszy darmowy kalkulator inwestycyjny online?",
+      "a": "Najlepsze kalkulatory obejmują kwotę ryczałtową + opcje SIP, miesięczne składki i korektę inflacji – jak ten."
+    }
+  ]
+}

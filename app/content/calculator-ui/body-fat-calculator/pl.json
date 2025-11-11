@@ -1,0 +1,180 @@
+{
+  "pageTitle": "Kalkulator tkanki tłuszczowej",
+  "pageDescription": "Oblicz procent tkanki tłuszczowej za pomocą różnych metod, w tym metody BMI, metody Marynarki Wojennej Stanów Zjednoczonych i innych podejść naukowych",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "height": "Wysokość",
+      "weight": "Waga",
+      "unitSystem": "Układ jednostek",
+      "waist": "Obwód talii",
+      "neck": "Obwód szyi",
+      "hip": "Obwód bioder (tylko kobiety)"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}",
+      "waist": "Wprowadź pomiar talii",
+      "neck": "Wprowadź pomiar szyi",
+      "hip": "Wprowadź pomiar bioder"
+    },
+    "buttons": {
+      "calculate": "Oblicz zawartość tkanki tłuszczowej",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    }
+  },
+  "results": {
+    "bodyFatPercentage": "Procent tkanki tłuszczowej",
+    "fatMass": "Masa Tłusta",
+    "leanMass": "Chuda masa",
+    "bodyFatResultsTitle": "Wyniki dotyczące tkanki tłuszczowej",
+    "bodyFatCategories": {
+      "essential": "Niezbędny tłuszcz",
+      "athletes": "Sportowcy",
+      "fitness": "Zdatność",
+      "average": "Przeciętny",
+      "obese": "Otyły"
+    }
+  },
+  "educational": {
+    "bodyFatInfo": "Informacje o zawartości tkanki tłuszczowej",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się ze specjalistą",
+    "bodyFatMethods": {
+      "bmi": {
+        "title": "Metoda BMI",
+        "description": "Wykorzystuje BMI i wiek do oszacowania procentowej zawartości tkanki tłuszczowej"
+      },
+      "usNavy": {
+        "title": "Metoda Marynarki Wojennej Stanów Zjednoczonych",
+        "description": "Wykorzystuje pomiary obwodu w celu uzyskania dokładniejszych wyników"
+      },
+      "modifiedUSNavy": {
+        "title": "Zmodyfikowana metoda marynarki wojennej Stanów Zjednoczonych",
+        "description": "Dostosowana formuła dla lepszej dokładności"
+      }
+    },
+    "bodyFatCategoriesInfo": {
+      "men": {
+        "essential": "2-5%",
+        "athletes": "6-13%",
+        "fitness": "14-17%",
+        "average": "18-24%",
+        "obese": "25%+"
+      },
+      "women": {
+        "essential": "10-13%",
+        "athletes": "14-20%",
+        "fitness": "21-24%",
+        "average": "25-31%",
+        "obese": "32%+"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten służy jedynie do szacunków i nie jest narzędziem diagnostycznym",
+      "individualVariation": "Procent tkanki tłuszczowej różni się w zależności od wielu indywidualnych czynników"
+    },
+    "importantNotesList": [
+      "Różne metody mogą dawać różne wyniki",
+      "Procent tkanki tłuszczowej w organizmie to tylko jeden z mierników zdrowia",
+      "Aby uzyskać dokładną analizę składu ciała, skonsultuj się z pracownikami służby zdrowia",
+      "Regularne ćwiczenia i zbilansowane odżywianie są ważne dla zdrowego składu ciała"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje pomiary, aby obliczyć procent tkanki tłuszczowej",
+    "bodyFatResult": "Twój szacunkowy procent tkanki tłuszczowej wynosi {percentage}%",
+    "bodyFatCategory": "To należy do kategorii {kategoria}",
+    "ageWarning": "Obliczenia dotyczące tkanki tłuszczowej mogą się różnić dla różnych grup wiekowych",
+    "assessmentResult": "Wynik oceny:",
+    "bodyFatAnalysis": "Analiza tkanki tłuszczowej"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki oparte na wzorach matematycznych i nie powinien być używany jako substytut profesjonalnej analizy składu ciała. Poszczególne wyniki mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się z pracownikiem służby zdrowia",
+    "content": "Aby uzyskać dokładną analizę składu ciała i spersonalizowane porady zdrowotne, skonsultuj się z pracownikiem służby zdrowia lub certyfikowanym trenerem fitness, który może udzielić wskazówek w oparciu o pełną historię Twojego zdrowia i indywidualną sytuację."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "waist": "Podaj prawidłowy pomiar talii",
+    "neck": "Podaj prawidłowy pomiar szyi",
+    "hip": "Wprowadź prawidłowy pomiar bioder"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na obliczenia tkanki tłuszczowej",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "waist": "Zmierz w najwęższym miejscu",
+    "neck": "Zmierz poniżej krtani",
+    "hip": "Zmierz w najszerszym miejscu (tylko kobiety)"
+  },
+  "loading_0": "Załadunek...",
+  "body_fat_calculator_1": "Kalkulator tkanki tłuszczowej",
+  "enter_your_measurements_to_calculate_body_fat_perc_2": "Wprowadź swoje pomiary, aby obliczyć procent tkanki tłuszczowej",
+  "unit_system_3": "Układ jednostek",
+  "metric_units_4": "Jednostki metryczne",
+  "us_units_5": "Jednostki amerykańskie",
+  "other_units_6": "Inne jednostki",
+  "gender_7": "Płeć",
+  "male_8": "Mężczyzna",
+  "female_9": "Kobieta",
+  "age_10": "Wiek",
+  "weight_11": "Waga",
+  "height_12": "Wysokość",
+  "ft_13": "stopy",
+  "in_14": "W",
+  "cm_15": "cm",
+  "neck_16": "Szyja",
+  "ft_17": "stopy",
+  "in_18": "W",
+  "cm_19": "cm",
+  "waist_20": "Talia",
+  "ft_21": "stopy",
+  "in_22": "W",
+  "cm_23": "cm",
+  "hip_24": "Biodro",
+  "ft_25": "stopy",
+  "in_26": "W",
+  "cm_27": "cm",
+  "calculate_fat_28": "Oblicz tłuszcz",
+  "clear_29": "Jasne",
+  "body_fat_analysis_30": "Analiza tkanki tłuszczowej",
+  "your_complete_body_composition_breakdown_31": "Twój pełny rozkład składu ciała",
+  "body_fat_percentage_32": "Procent tkanki tłuszczowej",
+  "body_fat_scale_33": "Skala tkanki tłuszczowej",
+  "k_0_34": "0%",
+  "k_25_35": "25%",
+  "k_50_36": "50%",
+  "detailed_results_37": "Szczegółowe wyniki",
+  "body_fat_us_navy_38": "Tkanka tłuszczowa (marynarka wojenna Stanów Zjednoczonych)",
+  "body_fat_category_39": "Kategoria tkanki tłuszczowej",
+  "body_fat_mass_40": "Masa Tłuszczowa",
+  "lean_body_mass_41": "Beztłuszczowa masa ciała",
+  "ideal_body_fat_42": "Idealny tłuszcz w organizmie",
+  "fat_to_lose_43": "Tłuszcz do stracenia",
+  "body_fat_bmi_method_44": "Tkanka tłuszczowa (metoda BMI)",
+  "save_this_calculation_45": "Zapisz to obliczenie",
+  "enter_your_measurements_to_calculate_body_fat_perc_46": "Wprowadź swoje pomiary, aby obliczyć procent tkanki tłuszczowej",
+  "body_fat_categories_reference_47": "Odniesienie do kategorii tkanki tłuszczowej",
+  "description_48": "Opis",
+  "women_49": "Kobiety",
+  "men_50": "Mężczyźni"
+}

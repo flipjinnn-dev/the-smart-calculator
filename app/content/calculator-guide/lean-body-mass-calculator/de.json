@@ -1,0 +1,148 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist ein Lean-Body-Mass-Rechner?",
+      "content": "Mit einem Lean-Body-Mass-Rechner können Sie abschätzen, wie viel Ihres gesamten Körpergewichts aus Muskeln, Knochen, Organen, Haut und Flüssigkeiten besteht – Körperfett ausgenommen. Im Gegensatz zu einem BMI-Rechner, der nur Gewicht und Größe berücksichtigt, liefert ein LBM-Rechner ein genaueres Bild Ihrer Gesundheit, Fitness und Ihres Stoffwechsels. Für genaue Ergebnisse werden Formeln wie Boer-, James-, Hume- und Peters-Gleichungen verwendet."
+    },
+    {
+      "heading": "Was ist Lean Body Mass (LBM)?",
+      "subSections": [
+        {
+          "heading": "Definition",
+          "content": "Lean Body Mass (LBM) ist Ihr Körpergewicht abzüglich aller gespeicherten Fette. Es umfasst Muskeln, Knochen, Bindegewebe, Organe und Wasser."
+        },
+        {
+          "heading": "Formel",
+          "content": "Magere Körpermasse = Gesamtkörpergewicht – Fettmasse."
+        },
+        {
+          "heading": "Beispiel",
+          "content": "Wenn Sie 80 kg wiegen und 20 % Körperfett haben, beträgt Ihr LBM 64 kg."
+        }
+      ]
+    },
+    {
+      "heading": "So berechnen Sie die fettfreie Körpermasse",
+      "subSections": [
+        {
+          "heading": "Burenformel",
+          "content": "Wird häufig in der medizinischen Dosierung verwendet."
+        },
+        {
+          "heading": "James-Formel",
+          "content": "Konzipiert für die allgemeine erwachsene Bevölkerung."
+        },
+        {
+          "heading": "Hume-Formel",
+          "content": "In der klinischen Praxis weit verbreitet."
+        },
+        {
+          "heading": "Peters-Formel",
+          "content": "Speziell für Kinder entwickelt."
+        }
+      ]
+    },
+    {
+      "heading": "Warum ist fettfreie Körpermasse wichtig?",
+      "subSections": [
+        {
+          "heading": "Fitness und Bodybuilding",
+          "content": "Verfolgt Muskelwachstum und Fettabbau."
+        },
+        {
+          "heading": "Gewichtsverlustziele",
+          "content": "Hilft, die Fettverbrennung zu optimieren, ohne Muskeln zu verlieren."
+        },
+        {
+          "heading": "Medizinische Verwendung",
+          "content": "Bestimmt die Medikamentendosis, die Nierenfunktion und die Stoffwechselrate."
+        },
+        {
+          "heading": "Sportliche Leistung",
+          "content": "Ein höherer LBM unterstützt Kraft, Ausdauer und Erholung."
+        }
+      ]
+    },
+    {
+      "heading": "Durchschnittliche fettfreie Körpermasse nach Geschlecht",
+      "subSections": [
+        {
+          "heading": "Männer",
+          "content": "Typischerweise 70–85 % des Körpergewichts."
+        },
+        {
+          "heading": "Frauen",
+          "content": "Typischerweise 60–75 % des Körpergewichts."
+        },
+        {
+          "heading": "Sportler",
+          "content": "Sportler und Bodybuilder haben oft höhere LBM-Prozentsätze."
+        }
+      ]
+    },
+    {
+      "heading": "Magere Körpermasse vs. Körperfett vs. BMI",
+      "subSections": [
+        {
+          "heading": "LBM vs. Körperfett",
+          "content": "LBM ist alles außer Fett, während Körperfett nur gespeichertes Fett ist."
+        },
+        {
+          "heading": "LBM vs. BMI",
+          "content": "Der BMI ist ein Verhältnis von Gewicht zu Körpergröße und trennt Fett nicht von Muskeln, während LBM einen genaueren Gesundheitsindikator liefert."
+        },
+        {
+          "heading": "Beste Verwendung",
+          "content": "Kombinieren Sie LBM + Körperfettanteil + BMI für eine vollständige Gesundheitsbewertung."
+        }
+      ]
+    },
+    {
+      "heading": "Nutzen Sie jetzt unseren Lean-Body-Mass-Rechner",
+      "content": "Berechnen Sie Ihr mageres Körpergewicht schnell online mit unserem kostenlosen Tool. Geben Sie Ihre Daten ein, wählen Sie eine Formel aus und erhalten Sie sofortige Ergebnisse für die Gesundheitsüberwachung, Medikamentendosierung und Fitnessplanung."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Lean-Body-Mass-Rechner?",
+      "a": "Es schätzt die Menge an Gewicht in Ihrem Körper, die nicht aus Fett besteht, einschließlich Muskeln, Knochen, Wasser und Organe."
+    },
+    {
+      "q": "Wie genau ist der Lean-Body-Mass-Rechner?",
+      "a": "Für genaue Schätzungen werden klinisch validierte Formeln (Boer, James, Hume, Peters) verwendet, direkte Körperzusammensetzungstests (DEXA, BIA) sind jedoch präziser."
+    },
+    {
+      "q": "Welche Formel eignet sich am besten zur Berechnung des LBM?",
+      "a": "Die Boer-Formel eignet sich am besten für die medizinische Dosierung, die James-Formel für den allgemeinen Gebrauch, die Hume-Formel für klinische Anwendungen und die Peters-Formel für Kinder."
+    },
+    {
+      "q": "Was ist ein gesunder Prozentsatz an fettfreier Körpermasse?",
+      "a": "Männer: 70–85 % des Körpergewichts. Frauen: 60–75 %. Sportler überschreiten diese Bereiche häufig."
+    },
+    {
+      "q": "Wie unterscheidet sich LBM vom BMI?",
+      "a": "Der BMI misst nur das Gewicht im Verhältnis zur Körpergröße, während der LBM die Fettmasse vom mageren Gewebe trennt und so ein klareres Gesundheitsbild bietet."
+    },
+    {
+      "q": "Kann ich Lean Body Mass zur Medikamentendosierung verwenden?",
+      "a": "Ja, viele Ärzte verwenden LBM, um Arzneimitteldosierungen, Chemotherapie-Dosierungen und Schätzungen der Nierenfunktion zu berechnen."
+    },
+    {
+      "q": "Bedeutet eine höhere Muskelmasse, dass ich gesünder bin?",
+      "a": "Im Allgemeinen ja. Mehr LBM unterstützt einen schnelleren Stoffwechsel, stärkere Muskeln und eine bessere allgemeine Gesundheit."
+    },
+    {
+      "q": "Wie kann ich die fettfreie Körpermasse auf natürliche Weise steigern?",
+      "a": "Krafttraining, ausreichende Proteinzufuhr, richtiger Schlaf und Krafttraining tragen zum Muskelaufbau und zur Erhöhung der LBM bei."
+    },
+    {
+      "q": "Ist die fettfreie Körpermasse besser als der Körperfettanteil, um die Fitness zu verfolgen?",
+      "a": "Beides ist wichtig. LBM zeigt an, wie viel Muskeln Sie haben, während Körperfett % zeigt, wie viel Fett Sie tragen."
+    },
+    {
+      "q": "Ist die Nutzung des Lean-Body-Mass-Rechners kostenlos?",
+      "a": "Ja, unser kostenloser Online-Rechner für die schlanke Körpermasse ist jederzeit kostenlos verfügbar."
+    }
+  ]
+}

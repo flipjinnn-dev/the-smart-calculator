@@ -1,0 +1,97 @@
+{
+  "color": "Rosa",
+  "sections": [
+    {
+      "heading": "Entdecken Sie ganz einfach Ihren Körpertyp",
+      "content": "Das Verständnis Ihrer Körperform ist wichtig, um realistische Fitnessziele festzulegen, schmeichelhafte Kleidung auszuwählen und die allgemeine Gesundheit zu verbessern. Unser Online-Körpertyprechner ist ein schnelles, genaues und benutzerfreundliches Tool, mit dem Sie Ihre Körperform in wenigen Minuten berechnen können. Ganz gleich, ob Sie eine Sanduhr-, Birnen-, Apfel- oder rechteckige Körperform identifizieren möchten, dieses Tool liefert präzise Messungen, die Ihnen bei der Wahl Ihrer Fitness und Ihres Lebensstils helfen."
+    },
+    {
+      "heading": "So verwenden Sie den Körpertyp-Rechner",
+      "content": "Die Verwendung unseres Körperform-Rechner-Tools ist einfach und intuitiv. Befolgen Sie diese Schritte:",
+      "subSections": [
+        {
+          "heading": "Schritt 1: Geben Sie Ihre Maße ein",
+          "content": "Geben Sie Ihre Brust-, Taillen- und Hüftmaße ein. Berücksichtigen Sie bei Männern die Schulter- und Brustmessungen für eine genaue Klassifizierung."
+        },
+        {
+          "heading": "Schritt 2: Berechnen Sie Ihr Verhältnis von Taille zu Hüfte (WHR)",
+          "content": "Dieses Verhältnis ist ein wichtiger Indikator für den Körpertyp und das Gesundheitsrisiko. Eine detaillierte Analyse finden Sie in unserem Taille-zu-Hüft-Verhältnis-Rechner."
+        },
+        {
+          "heading": "Schritt 3: Klicken Sie auf „Berechnen“",
+          "content": "Sehen Sie sofort das Ergebnis Ihres Körpertyps mit einer klaren Aufschlüsselung und Empfehlungen."
+        },
+        {
+          "heading": "Schritt 4: Überprüfen Sie personalisierte Erkenntnisse",
+          "content": "Erhalten Sie Ratschläge zu Fitness, Ernährung und Styling-Tipps basierend auf Ihrer Körperform."
+        }
+      ]
+    },
+    {
+      "heading": "Körpertypen verstehen",
+      "content": "Verschiedene Körpertypen weisen unterschiedliche Merkmale auf, die sich auf Fitness, Körperhaltung und Gesundheitsergebnisse auswirken können.",
+      "subSections": [
+        {
+          "heading": "Sanduhr",
+          "content": "Ausgewogener Brust- und Hüftbereich, schmale Taille. Konzentrieren Sie sich auf Krafttraining und Rumpfübungen."
+        },
+        {
+          "heading": "Birne",
+          "content": "Breitere Hüften, kleinerer Oberkörper. Betonen Sie das Training der Unterkörper und halten Sie Ihr Cardiotraining aufrecht."
+        },
+        {
+          "heading": "Apfel",
+          "content": "Breiter Oberkörper, größere Taille. Priorisieren Sie Cardio, Rumpfstärkung und ausgewogene Ernährung."
+        },
+        {
+          "heading": "Rechteck",
+          "content": "Ähnliche Brust-, Taillen- und Hüftmaße. Bauen Sie Kurven mit Krafttraining und Beweglichkeitsübungen auf."
+        },
+        {
+          "heading": "Umgekehrtes Dreieck",
+          "content": "Breitere Schultern, schmalere Hüften. Konzentrieren Sie sich auf die Entwicklung des Unterkörpers und der Rumpfmuskulatur."
+        }
+      ]
+    },
+    {
+      "heading": "Warum WHR wichtig ist",
+      "content": "Ein höheres Verhältnis von Taille zu Hüfte kann auf ein erhöhtes Risiko für Stoffwechsel- und Herz-Kreislauf-Erkrankungen hinweisen. Wenn Sie Ihren WHR kennen, können Sie Gesundheitsrisiken erkennen und einen effektiven Fitnessplan erstellen."
+    },
+    {
+      "heading": "Warum einen Körpertyp-Rechner verwenden?",
+      "content": "Unser Körpertyp-Rechner bietet mehrere Vorteile:",
+      "subSections": [
+        {
+          "heading": "Vorteile",
+          "content": "• Schnell und genau: Erhalten Sie Ergebnisse in Sekundenschnelle durch präzise Messungen.\n• Personalisierte Fitness-Anleitung: Passen Sie die Trainingseinheiten an Ihre Körperform an, um bessere Ergebnisse zu erzielen.\n• Kleidungs- und Styling-Tipps: Finden Sie die schmeichelhaftesten Styles basierend auf Ihrem Körpertyp.\n• Gesundheitsbewusstsein: Überwachen Sie die WHR und verstehen Sie potenzielle Gesundheitsrisiken.\n• Kostenlos und einfach: Vollständig online und jederzeit verfügbar."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Körpertyp?",
+      "a": "Unter Körpertyp versteht man die natürliche Form Ihres Körpers, die durch Knochenstruktur, Fettverteilung und Muskelmasse bestimmt wird. Zu den gängigen Typen gehören Sanduhr, Birne, Apfel, Rechteck und umgekehrtes Dreieck."
+    },
+    {
+      "q": "Kann ich meine Körperform zu Hause berechnen?",
+      "a": "Ja! Erfassen Sie Ihren Brustumfang, Ihre Taille und Ihre Hüften mit einem Maßband und geben Sie diese Werte dann in unseren Körpertyp-Rechner ein."
+    },
+    {
+      "q": "Wie wirkt sich der Körpertyp auf die Gesundheit aus?",
+      "a": "Bestimmte Körperformen, insbesondere solche mit einem größeren Verhältnis von Taille zu Hüfte, können ein erhöhtes Risiko für Diabetes, Herzerkrankungen oder Stoffwechselstörungen haben."
+    },
+    {
+      "q": "Ist dieser Rechner sowohl für Männer als auch für Frauen geeignet?",
+      "a": "Absolut. Unser Tool wurde entwickelt, um männliche und weibliche Körpertypen genau zu klassifizieren und umsetzbare Erkenntnisse zu liefern."
+    },
+    {
+      "q": "Wie unterscheidet sich der Körpertyp vom BMI?",
+      "a": "Der BMI misst das Gesamtkörpergewicht im Verhältnis zur Körpergröße, während sich der Körpertyp auf Form und Fettverteilung konzentriert und so eine individuellere Fitnessberatung bietet."
+    }
+  ],
+  "cta": {
+    "heading": "Übernehmen Sie die Kontrolle über Ihre Fitness und Ihren Stil",
+    "content": "Hören Sie auf zu raten und beginnen Sie, Ihren Körper zu verstehen. Nutzen Sie jetzt unseren kostenlosen Körpertyp-Rechner, um Ihre Körperform zu ermitteln, die WHR zu berechnen und maßgeschneiderte Gesundheits- und Fitnessempfehlungen zu erhalten. Die Kenntnis Ihres Körpertyps ist der erste Schritt zu intelligenterem Training, gesünderen Gewohnheiten und mehr Selbstvertrauen."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "pageTitle": "Calculadora de galões por pé quadrado",
+  "pageDescription": "Calcule o número de galões necessários por pé quadrado para pintura ou piso",
+  "form": {
+    "labels": {
+      "totalGallons": "Total de galões disponíveis",
+      "totalArea": "Área total (pés quadrados)",
+      "coverageRate": "Taxa de cobertura (pés quadrados por galão)"
+    },
+    "placeholders": {
+      "totalGallons": "Insira o total de galões disponíveis",
+      "totalArea": "Insira a área total em pés quadrados",
+      "coverageRate": "Insira a taxa de cobertura (padrão: 400 pés quadrados/galão)"
+    },
+    "buttons": {
+      "calculate": "Calcular Cobertura",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "gallonsPerSquareFoot": "Galões por pé quadrado",
+    "coveragePerGallon": "Cobertura por galão",
+    "totalCoverage": "Área de Cobertura Total",
+    "gallonsNeeded": "Galões necessários para área",
+    "efficiency": "Eficiência de aplicação"
+  },
+  "educational": {
+    "coverageInfo": "Informações de cobertura",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos de construção",
+    "coverageFacts": {
+      "definition": {
+        "title": "Taxa de Cobertura",
+        "description": "A área que pode ser coberta por um galão de tinta ou material de revestimento"
+      },
+      "factors": {
+        "title": "Fatores que afetam",
+        "description": "A textura da superfície, a porosidade, o método de aplicação e a qualidade do material afetam as taxas de cobertura"
+      },
+      "applications": {
+        "title": "Aplicativos do mundo real",
+        "description": "Usado em projetos de construção, pintura e pisos para estimar necessidades de materiais"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de cobertura",
+      "actual": "A cobertura real pode variar com base nas condições da superfície e na técnica de aplicação"
+    },
+    "importantNotesList": [
+      "A cobertura de tinta padrão é de aproximadamente 400 pés quadrados por galão",
+      "Superfícies ásperas ou porosas podem exigir mais material",
+      "Várias camadas podem ser necessárias para uma cobertura ideal",
+      "Sempre compre material extra para compensar desperdícios e retoques"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira os galões disponíveis e a área para calcular os requisitos de cobertura",
+    "resultMessage": "Os resultados do seu cálculo de cobertura são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo de cobertura:",
+    "coverageAnalysis": "Análise de Cobertura"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de cobertura com base em valores padrão do setor. A cobertura real pode variar com base nas condições da superfície, técnica de aplicação, qualidade do material e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos de construção",
+    "content": "Para estimativas profissionais de pintura e piso, consulte empreiteiros ou fornecedores de materiais que possam avaliar os requisitos e condições específicas do projeto."
+  },
+  "errors": {
+    "totalGallons": "Insira um número válido de galões",
+    "totalArea": "Insira uma área válida em pés quadrados",
+    "coverageRate": "Insira uma taxa de cobertura válida"
+  },
+  "tooltips": {
+    "totalGallons": "Total de galões de tinta ou material de revestimento disponíveis",
+    "totalArea": "Área total a ser coberta em metros quadrados",
+    "coverageRate": "Taxa de cobertura em pés quadrados por galão (normalmente 400 para tinta padrão)"
+  },
+  "dimensions_0": "Dimensões",
+  "enter_length_width_and_height_in_feet_to_calculate_1": "Insira comprimento, largura e altura em pés para calcular galões por pé quadrado",
+  "length_l_2": "Comprimento (L)",
+  "feet_ft_3": "Pés (pés)",
+  "inches_in_4": "Polegadas (pol.)",
+  "meters_m_5": "Metros (m)",
+  "centimeters_cm_6": "Centímetros (cm)",
+  "yards_yd_7": "Jardas (jardas)",
+  "width_w_8": "Largura (L)",
+  "feet_ft_9": "Pés (pés)",
+  "inches_in_10": "Polegadas (pol.)",
+  "meters_m_11": "Metros (m)",
+  "centimeters_cm_12": "Centímetros (cm)",
+  "yards_yd_13": "Jardas (jardas)",
+  "height_h_14": "Altura (H)",
+  "feet_ft_15": "Pés (pés)",
+  "inches_in_16": "Polegadas (pol.)",
+  "meters_m_17": "Metros (m)",
+  "centimeters_cm_18": "Centímetros (cm)",
+  "yards_yd_19": "Jardas (jardas)",
+  "calculate_20": "Calcular",
+  "reset_21": "Reiniciar",
+  "results_22": "Resultados",
+  "input_values_converted_to_feet_23": "Valores de entrada (convertidos em pés)",
+  "length_24": "Comprimento:",
+  "ft_25": "pés",
+  "width_26": "Largura:",
+  "ft_27": "pés",
+  "height_28": "Altura:",
+  "ft_29": "pés",
+  "area_30": "Área",
+  "ft_31": "pés²",
+  "volume_32": "Volume",
+  "ft_33": "pés³",
+  "gallons_34": "galões",
+  "gallons_per_square_foot_35": "Galões por pé quadrado",
+  "galft_36": "galão/pé²",
+  "stepbystep_calculation_37": "Cálculo passo a passo",
+  "step_1_38": "Etapa 1:",
+  "step_2_39": "Etapa 2:",
+  "step_3_40": "Etapa 3:",
+  "step_4_41": "Etapa 4:",
+  "enter_dimensions_to_see_42": "Insira as dimensões para ver",
+  "live_results_43": "resultados ao vivo",
+  "and_stepbystep_calculations_44": "e cálculos passo a passo.",
+  "understanding_gallons_per_square_foot_45": "Compreendendo galões por pé quadrado",
+  "formulas_used_46": "Fórmulas usadas",
+  "a_l_w_area_in_square_feet_47": "A = L × W (Área em pés quadrados)",
+  "v_48": "V",
+  "ft_49": "pés³",
+  "a_h_l_w_h_volume_in_cubic_feet_50": "= A × H = (L × W) × H (volume em pés cúbicos)",
+  "v_51": "V",
+  "gal_52": "garota",
+  "v_53": "=V",
+  "ft_54": "pés³",
+  "k_748052_volume_in_us_gallons_55": "× 7,48052 (Volume em galões americanos)",
+  "g_v_56": "G = V",
+  "gal_57": "garota",
+  "a_gallons_per_square_foot_58": "÷ A (galões por pé quadrado)",
+  "common_applications_59": "Aplicativos comuns",
+  "pool_spa_60": "Piscina e Spa:",
+  "calculate_volume_and_chemical_dosing_rates_61": "Calcular volume e taxas de dosagem química",
+  "tank_design_62": "Projeto do tanque:",
+  "determine_liquid_storage_capacity_per_floor_area_63": "Determine a capacidade de armazenamento de líquidos por área útil",
+  "irrigation_64": "Irrigação:",
+  "calculate_application_rates_for_landscaping_65": "Calcular taxas de aplicação para paisagismo",
+  "construction_66": "Construção:",
+  "estimate_concrete_paint_or_coating_coverage_67": "Estimar a cobertura de concreto, tinta ou revestimento",
+  "aquaculture_68": "Aquicultura:",
+  "design_fish_tanks_and_water_systems_69": "Projetar tanques de peixes e sistemas de água",
+  "conversion_factor_70": "Fator de conversão",
+  "k_1_cubic_foot_748052_us_gallons_71": "1 pé cúbico = 7,48052 galões americanos",
+  "this_conversion_factor_is_exact_and_widely_used_in_72": "Este fator de conversão é exato e amplamente utilizado em construção, encanamento e engenharia\n                        aplicações.",
+  "example_calculation_73": "Exemplo de cálculo",
+  "given_74": "Dado:",
+  "length_10_ft_width_8_ft_height_3_ft_75": "Comprimento = 10 pés, Largura = 8 pés, Altura = 3 pés",
+  "solution_76": "Solução:",
+  "area_10_8_80_ft_77": "Área = 10 × 8 = 80 pés²",
+  "volume_80_3_240_ft_78": "Volume = 80 × 3 = 240 pés³",
+  "volume_in_gallons_240_748052_179532_gallons_79": "Volume em galões = 240 × 7,48052 = 1.795,32 galões",
+  "gallons_per_sq_ft_179532_80_2244_galft_80": "Galões por pé quadrado = 1.795,32 ÷ 80 = 22,44 gal/pé²"
+}

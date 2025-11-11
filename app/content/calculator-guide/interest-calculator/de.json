@@ -1,0 +1,198 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Was ist ein Zinsrechner?",
+      "content": "Mit unserem Online-Zinsrechner können Sie herausfinden, wie viel Zinsen Sie für Ersparnisse und Investitionen bzw. für Kredite zahlen. Egal, ob Sie einen einfachen Zinsrechner oder einen Zinseszinsrechner benötigen, dieses Tool liefert Ihnen sofort genaue Ergebnisse. Sie können es als Kreditzinsrechner, Sparzinsrechner, Anlagezinsrechner oder Bankzinsrechner verwenden – alles an einem Ort."
+    },
+    {
+      "heading": "Was ist Interesse?",
+      "subSections": [
+        {
+          "heading": "Einfaches Interesse (SI)",
+          "content": "Berechnet nur auf den Kapitalbetrag. Formel: SI = (Hauptbetrag × Rate × Zeit) ÷ 100"
+        },
+        {
+          "heading": "Zinseszins (CI)",
+          "content": "Berechnet auf der Grundlage des Kapitalbetrags zuzüglich der aufgelaufenen Zinsen. Formel: A = P × (1 + R/100)^T"
+        },
+        {
+          "heading": "Warum Zinsrechner verwenden?",
+          "content": "Tägliche, monatliche und jährliche Zinsrechner helfen Ihnen, Kredite, Ersparnisse und Investitionen besser zu planen."
+        }
+      ]
+    },
+    {
+      "heading": "So verwenden Sie den Zinsrechner (Schritt für Schritt)",
+      "subSections": [
+        {
+          "heading": "Schritt 1: Geben Sie den Kapitalbetrag ein",
+          "content": "Geben Sie den Kredit- oder Investitionsbetrag ein."
+        },
+        {
+          "heading": "Schritt 2: Geben Sie den Zinssatz ein",
+          "content": "Geben Sie den effektiven Jahreszins (APR) an."
+        },
+        {
+          "heading": "Schritt 3: Wählen Sie den Zeitraum aus",
+          "content": "Wählen Sie die Dauer in Monaten oder Jahren."
+        },
+        {
+          "heading": "Schritt 4: Wählen Sie den Zinstyp",
+          "content": "Wählen Sie entweder Einfachzins oder Zinseszins."
+        },
+        {
+          "heading": "Schritt 5: Klicken Sie auf Berechnen",
+          "content": "Sehen Sie sich die gesamten verdienten/gezahlten Zinsen und den Endsaldo an."
+        }
+      ]
+    },
+    {
+      "heading": "So berechnen Sie das Investitionswachstum",
+      "subSections": [
+        {
+          "heading": "Schritt 1: Geben Sie die Anfangsinvestition ein",
+          "content": "Beginnen Sie mit dem Grundbetrag, den Sie investieren möchten."
+        },
+        {
+          "heading": "Schritt 2: Beiträge hinzufügen",
+          "content": "Geben Sie Ihren jährlichen und/oder monatlichen Beitrag ein."
+        },
+        {
+          "heading": "Schritt 3: Zeitpunkt des Beitrags",
+          "content": "Wählen Sie aus, ob Sie zu Beginn oder am Ende jeder Periode einen Beitrag leisten."
+        },
+        {
+          "heading": "Schritt 4: Zinsen und Aufzinsung festlegen",
+          "content": "Geben Sie den Zinssatz ein und wählen Sie die Aufzinsungshäufigkeit."
+        },
+        {
+          "heading": "Schritt 5: Geben Sie die Investitionsdauer ein",
+          "content": "Geben Sie die Länge in Jahren und Monaten an."
+        },
+        {
+          "heading": "Schritt 6: Optionale Faktoren hinzufügen",
+          "content": "Berücksichtigen Sie Steuer- und Inflationsraten, um genauere Ergebnisse zu erhalten."
+        },
+        {
+          "heading": "Schritt 7: Klicken Sie auf Berechnen",
+          "content": "Sehen Sie sich Ihre Anlageübersicht, Ihr Wachstum, Ihren Gesamtzins und Ihre Kaufkraft nach Inflation an."
+        }
+      ],
+      "content": "Mit diesem Tool können Sie Ihr Investitionswachstum, Ihren Gesamtzins und Ihre Kaufkraft nach Inflation abschätzen. Passen Sie die Werte an, um Ihre finanzielle Zukunft intelligent zu planen!"
+    },
+    {
+      "heading": "Beispielrechnung",
+      "subSections": [
+        {
+          "heading": "Einfaches Zinsbeispiel",
+          "content": "Investition: 10.000 $ bei 8 % Jahreszins für 5 Jahre. SI = (10.000 × 8 × 5) ÷ 100 = 4.000 $. Endbetrag = 14.000 $."
+        },
+        {
+          "heading": "Beispiel für Zinseszinsen",
+          "content": "Investition: 10.000 $ bei 8 % Jahreszins für 5 Jahre (jährliche Aufzinsung). A = 10.000 × (1 + 0,08)^5 = 14.693 $. Der Zinseszins ergibt 693 $ mehr als der einfache Zins."
+        }
+      ]
+    },
+    {
+      "heading": "Vorteile der Verwendung unseres Zinsrechners",
+      "subSections": [
+        {
+          "heading": "Schnell und genau",
+          "content": "Sofortige Ergebnisse ohne manuelle Berechnungen."
+        },
+        {
+          "heading": "Vergleichen Sie SI mit CI",
+          "content": "Erkennen Sie ganz einfach den Unterschied zwischen einfachem Zins und Zinseszins."
+        },
+        {
+          "heading": "Funktioniert in allen Fällen",
+          "content": "Kredite, Ersparnisse, FDs, Hypotheken und Investitionen."
+        },
+        {
+          "heading": "Unterstützt flexible Modi",
+          "content": "Tägliche, monatliche und jährliche Zinsberechnungen."
+        },
+        {
+          "heading": "Vielseitig einsetzbar",
+          "content": "Perfekt für Wohnungsbaudarlehen, Autokredite, Kreditkarten, Geschäftskredite und EMIs."
+        }
+      ]
+    },
+    {
+      "heading": "Arten von Zinsberechnungen, die Sie durchführen können",
+      "subSections": [
+        {
+          "heading": "Einfacher Zinsrechner",
+          "content": "Für kurzfristige Kredite oder Einlagen."
+        },
+        {
+          "heading": "Zinseszinsrechner",
+          "content": "Sehen Sie, wie das Interesse mit der Aufzinsung (täglich, monatlich, jährlich) wächst."
+        },
+        {
+          "heading": "Kreditzinsrechner",
+          "content": "Schätzen Sie die gesamten Kreditzinsen im Laufe der Zeit."
+        },
+        {
+          "heading": "Autokredit-Zinsrechner",
+          "content": "Berechnen Sie die Zinsen für Autokredite."
+        },
+        {
+          "heading": "Rechner für Privatkreditzinsen",
+          "content": "Prüfen Sie, wie viel Sie zurückzahlen werden."
+        },
+        {
+          "heading": "Kreditkartenzinsrechner",
+          "content": "Verstehen Sie die monatlichen Kartengebühren."
+        },
+        {
+          "heading": "Sparzinsrechner",
+          "content": "Sehen Sie, wie Ihre Ersparnisse wachsen."
+        },
+        {
+          "heading": "Rechner für Festgeldzinsen",
+          "content": "Berechnen Sie den FD-Reifewert."
+        },
+        {
+          "heading": "Rechner für Investitionszinsen",
+          "content": "Bewerten Sie die Kapitalrendite."
+        },
+        {
+          "heading": "EMI-Zinsrechner",
+          "content": "Finden Sie den Zinsanteil in EMIs."
+        },
+        {
+          "heading": "Zinsrechner für Geschäftskredite",
+          "content": "Planen Sie Rückzahlungen für Ihr Unternehmen."
+        },
+        {
+          "heading": "Zinsrechner für Eigenheimdarlehen",
+          "content": "Schätzen Sie die Zinsen für Wohnungsbaudarlehen."
+        },
+        {
+          "heading": "Zinsrechner",
+          "content": "Vergleichen Sie Ergebnisse zu unterschiedlichen Tarifen."
+        },
+        {
+          "heading": "Zinsabgrenzungsrechner",
+          "content": "Verfolgen Sie die aufgelaufenen Zinsen im Laufe der Zeit."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie lautet die Formel für einfachen Zins?",
+      "a": "SI = (Hauptbetrag × Rate × Zeit) ÷ 100"
+    },
+    {
+      "q": "Wie lautet die Formel für den Zinseszins?",
+      "a": "CI = Kapital × (1 + Rate/100)^Zeit – Kapital"
+    },
+    {
+      "q": "Kann ich diesen Rechner sowohl für Kredite als auch für Ersparnisse verwenden?",
+      "a": "Ja, unser Tool funktioniert als Kreditzinsrechner, Sparzinsrechner, Investitionsrechner und Hypothekenzinsrechner."
+    }
+  ]
+}

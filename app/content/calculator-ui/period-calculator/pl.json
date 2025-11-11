@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Kalkulator okresu",
+  "pageDescription": "Oblicz okres za pomocą naszego bezpłatnego kalkulatora online",
+  "form": {
+    "labels": {
+      "input1": "Wejście 1",
+      "input2": "Wejście 2",
+      "input3": "Wejście 3"
+    },
+    "placeholders": {
+      "input1": "Wprowadź pierwszą wartość",
+      "input2": "Wprowadź drugą wartość",
+      "input3": "Wprowadź trzecią wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz okres",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "result1": "Wynik 1",
+    "result2": "Wynik 2",
+    "calculationDetails": "Wyniki obliczeń okresu"
+  },
+  "educational": {
+    "info": "Informacje o okresie",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja okresu",
+        "description": "Informacje o okresie"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Jak obliczany jest okres"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Zastosowanie kropki"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki okresowe",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć okres",
+    "resultMessage": "Wyniki obliczenia okresu pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia okresu:",
+    "analysis": "Analiza okresu"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki okresowe w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "period_tracking_0": "Śledzenie okresu",
+  "enter_your_cycle_details_to_predict_your_next_peri_1": "Wprowadź szczegóły cyklu, aby przewidzieć następny okres i dni płodne",
+  "first_day_of_your_last_period_lmp_2": "Pierwszy dzień ostatniej miesiączki (LMP) *",
+  "average_cycle_length_days_3": "Średnia długość cyklu (dni) *",
+  "days_4": "dni",
+  "default_is_28_days_range_2244_days_5": "Wartość domyślna to 28 dni. Zakres: 22-44 dni",
+  "average_period_length_days_6": "Średnia długość okresu (dni)",
+  "days_7": "dni",
+  "default_is_5_days_range_310_days_8": "Wartość domyślna to 5 dni. Zakres: 3-10 dni",
+  "calculate_9": "Obliczać",
+  "reset_10": "Nastawić",
+  "next_period_11": "Następny okres",
+  "expected_period_start_12": "Oczekiwany początek okresu",
+  "cycle_length_13": "Długość cyklu:",
+  "days_14": "dni",
+  "enter_your_cycle_details_to_predict_your_next_peri_15": "Wprowadź szczegóły cyklu, aby przewidzieć następny okres.",
+  "your_period_results_16": "Wyniki Twojego okresu",
+  "current_cycle_17": "Aktualny cykl",
+  "next_period_start_18": "Początek następnego okresu:",
+  "estimated_ovulation_19": "Szacowana owulacja:",
+  "fertile_window_20": "Żyzne okno:",
+  "cycle_information_21": "Informacje o cyklu",
+  "cycle_length_22": "Długość cyklu:",
+  "days_23": "dni",
+  "period_length_24": "Długość okresu:",
+  "days_25": "dni",
+  "last_period_26": "Ostatni okres:",
+  "k_6month_forecast_27": "Prognoza 6-miesięczna",
+  "month_28": "Miesiąc",
+  "period_start_29": "Początek okresu",
+  "period_end_30": "Koniec okresu",
+  "ovulation_31": "Jajeczkowanie",
+  "fertile_window_32": "Żyzne okno",
+  "understanding_your_cycle_33": "Zrozumienie swojego cyklu",
+  "menstrual_cycle_phases_34": "Fazy ​​cyklu menstruacyjnego",
+  "menstrual_phase_35": "Faza menstruacyjna:",
+  "days_15_period_bleeding_36": "Dni 1-5 (krwawienie miesiączkowe)",
+  "follicular_phase_37": "Faza pęcherzykowa:",
+  "days_113_egg_development_38": "Dni 1-13 (rozwój jaja)",
+  "ovulation_39": "Jajeczkowanie:",
+  "around_day_14_egg_release_40": "Około 14 dnia (uwolnienie jaja)",
+  "luteal_phase_41": "Faza lutealna:",
+  "days_1528_preparation_for_pregnancy_42": "Dni 15-28 (przygotowanie do ciąży)",
+  "calculation_method_43": "Metoda obliczeniowa",
+  "next_period_44": "Następny okres:",
+  "lmp_cycle_length_45": "LMP + długość cyklu",
+  "ovulation_46": "Jajeczkowanie:",
+  "lmp_cycle_length_14_47": "LMP + (długość cyklu - 14)",
+  "fertile_window_48": "Żyzne okno:",
+  "ovulation_2_days_49": "Owulacja ± 2 dni",
+  "forecast_50": "Prognoza:",
+  "repeat_for_next_6_cycles_51": "Powtarzaj przez następne 6 cykli",
+  "fertility_timing_52": "Płodność i czas",
+  "most_fertile_53": "Najbardziej płodne:",
+  "k_2_days_before_ovulation_54": "2 dni przed owulacją",
+  "fertile_window_55": "Żyzne okno:",
+  "k_5_days_total_around_ovulation_56": "Łącznie 5 dni wokół owulacji",
+  "sperm_survival_57": "Przeżycie plemników:",
+  "up_to_5_days_in_reproductive_tract_58": "Do 5 dni w drogach rodnych",
+  "egg_survival_59": "Przeżycie jaj:",
+  "k_1224_hours_after_ovulation_60": "12-24 godziny po owulacji",
+  "important_notes_61": "Ważne uwagi",
+  "this_calculator_provides_estimates_based_on_averag_62": "Kalkulator ten podaje szacunki na podstawie średnich cykli",
+  "actual_cycles_can_vary_due_to_stress_illness_or_li_63": "Rzeczywiste cykle mogą się różnić ze względu na stres, chorobę lub styl życia",
+  "track_your_cycle_for_3_months_for_better_accuracy_64": "Śledź swój cykl przez ponad 3 miesiące, aby uzyskać większą dokładność",
+  "consult_healthcare_providers_for_irregular_cycles_65": "Skonsultuj się z pracownikami służby zdrowia w przypadku nieregularnych cykli"
+}

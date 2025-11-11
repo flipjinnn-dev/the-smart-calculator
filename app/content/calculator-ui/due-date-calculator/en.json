@@ -1,0 +1,172 @@
+{
+  "pageTitle": "Due Date Calculator",
+  "pageDescription": "Estimate your due date based on your last menstrual period or conception date",
+  "form": {
+    "labels": {
+      "lastMenstrualPeriod": "Last Menstrual Period",
+      "cycleLength": "Cycle Length (days)",
+      "conceptionDate": "Conception Date (Optional)"
+    },
+    "placeholders": {
+      "lastMenstrualPeriod": "Enter first day of last menstrual period",
+      "cycleLength": "Enter cycle length (default: 28)",
+      "conceptionDate": "Enter conception date if known"
+    },
+    "buttons": {
+      "calculate": "Calculate Due Date",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "dueDate": "Estimated Due Date",
+    "conceptionDate": "Estimated Conception Date",
+    "weeksPregnant": "Current Weeks Pregnant",
+    "calculationDetails": "Due Date Calculation Results"
+  },
+  "educational": {
+    "info": "Due Date  Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "Due Date  Definition",
+        "description": "Information about due date "
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How due date  is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of due date "
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides due date  estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate due date ",
+    "resultMessage": "Your due date  calculation results are shown below",
+    "assessmentResult": "Due Date  Calculation Result:",
+    "analysis": "Due Date  Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides due date  estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  },
+  "due_date_calculation_0": "Due Date Calculation",
+  "select_your_preferred_method_and_enter_the_require_1": "Select your preferred method and enter the required information",
+  "calculation_method_2": "Calculation Method",
+  "last_menstrual_period_lmp_3": "Last Menstrual Period (LMP)",
+  "ultrasound_dating_4": "Ultrasound Dating",
+  "conception_date_5": "Conception Date",
+  "ivf_transfer_date_6": "IVF Transfer Date",
+  "first_day_of_last_menstrual_period_7": "First Day of Last Menstrual Period",
+  "average_cycle_length_days_8": "Average Cycle Length (days)",
+  "typical_range_2135_days_9": "Typical range: 21-35 days",
+  "date_of_ultrasound_scan_10": "Date of Ultrasound Scan",
+  "gestational_age_weeks_11": "Gestational Age (weeks)",
+  "additional_days_12": "Additional Days",
+  "approximate_conception_date_13": "Approximate Conception Date",
+  "embryo_transfer_date_14": "Embryo Transfer Date",
+  "embryo_age_at_transfer_15": "Embryo Age at Transfer",
+  "k_3day_embryo_16": "3-day embryo",
+  "k_5day_embryo_blastocyst_17": "5-day embryo (blastocyst)",
+  "k_6day_embryo_18": "6-day embryo",
+  "calculate_date_19": "Calculate Date",
+  "reset_20": "Reset",
+  "due_date_21": "Due Date",
+  "expected_due_date_22": "Expected Due Date",
+  "w_23": "w",
+  "d_24": "d",
+  "current_age_25": "Current Age",
+  "select_a_method_and_enter_your_information_to_calc_26": "Select a method and enter your information to calculate your due date.",
+  "your_pregnancy_timeline_27": "Your Pregnancy Timeline",
+  "estimated_due_date_28": "Estimated Due Date",
+  "expected_due_date_29": "Expected Due Date",
+  "w_30": "w",
+  "d_31": "d",
+  "current_gestational_age_32": "Current Gestational Age",
+  "pregnancy_progress_33": "Pregnancy Progress",
+  "calculation_details_34": "Calculation Details",
+  "method_used_35": "Method Used",
+  "accuracy_36": "Accuracy:",
+  "important_note_37": "Important Note",
+  "only_4_of_babies_arrive_on_the_exact_due_date_38": "Only ~4% of babies arrive on the exact due date",
+  "most_births_occur_within_10_days_of_edd_39": "Most births occur within ±10 days of EDD",
+  "pregnancy_progress_40": "Pregnancy Progress",
+  "conception_41": "Conception",
+  "complete_42": "% Complete",
+  "due_date_43": "Due Date",
+  "due_date_calculation_methods_44": "Due Date Calculation Methods",
+  "method_45": "Method",
+  "formula_46": "Formula",
+  "accuracy_47": "Accuracy",
+  "lmp_naegeles_rule_48": "LMP (Naegele's Rule)",
+  "lmp_280_days_49": "LMP + 280 days",
+  "k_14_days_50": "±14 days",
+  "conception_date_51": "Conception Date",
+  "conception_266_days_52": "Conception + 266 days",
+  "k_10_days_53": "±10 days",
+  "ultrasound_dating_54": "Ultrasound Dating",
+  "scan_date_280_ga_at_scan_55": "Scan date + (280 - GA at scan)",
+  "k_7_days_early_scan_56": "±7 days (early scan)",
+  "ivf_transfer_57": "IVF Transfer",
+  "transfer_261264_days_58": "Transfer + 261-264 days",
+  "k_5_days_59": "±5 days",
+  "understanding_due_date_calculations_60": "Understanding Due Date Calculations",
+  "method_accuracy_61": "Method Accuracy",
+  "ivf_transfer_62": "IVF Transfer:",
+  "most_accurate_5_days_63": "Most accurate (±5 days)",
+  "early_ultrasound_64": "Early Ultrasound:",
+  "very_accurate_7_days_65": "Very accurate (±7 days)",
+  "conception_date_66": "Conception Date:",
+  "good_accuracy_10_days_67": "Good accuracy (±10 days)",
+  "lmp_method_68": "LMP Method:",
+  "standard_method_14_days_69": "Standard method (±14 days)",
+  "example_calculation_70": "Example Calculation",
+  "lmp_january_1_2025_28day_cycle_71": "LMP: January 1, 2025 (28-day cycle)",
+  "formula_lmp_280_days_72": "Formula: LMP + 280 days",
+  "due_date_73": "Due Date:",
+  "october_8_2025_74": "October 8, 2025",
+  "current_feb_1_75": "Current (Feb 1):",
+  "k_4w_3d_pregnant_76": "4w 3d pregnant",
+  "important_facts_77": "Important Facts",
+  "only_4_of_babies_arrive_on_exact_due_date_78": "Only 4% of babies arrive on exact due date",
+  "k_3742_weeks_is_considered_fullterm_79": "37-42 weeks is considered full-term",
+  "first_babies_often_arrive_12_days_late_80": "First babies often arrive 1-2 days late",
+  "cycle_length_affects_lmp_calculations_81": "Cycle length affects LMP calculations",
+  "when_to_use_each_method_82": "When to Use Each Method",
+  "lmp_83": "LMP:",
+  "regular_cycles_known_lmp_date_84": "Regular cycles, known LMP date",
+  "ultrasound_85": "Ultrasound:",
+  "irregular_cycles_uncertain_lmp_86": "Irregular cycles, uncertain LMP",
+  "conception_87": "Conception:",
+  "known_ovulationconception_date_88": "Known ovulation/conception date",
+  "ivf_89": "IVF:",
+  "assisted_reproductive_technology_90": "Assisted reproductive technology"
+}

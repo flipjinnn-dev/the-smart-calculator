@@ -1,0 +1,136 @@
+{
+  "pageTitle": "Calculadora de casamento",
+  "pageDescription": "Calcule o casamento com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular Casamento",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo do casamento"
+  },
+  "educational": {
+    "info": "Informações sobre casamento",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de casamento",
+        "description": "Informações sobre casamento"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como o casamento é calculado"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos do casamento"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de casamento",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular o casamento",
+    "resultMessage": "Os resultados do cálculo do seu casamento são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do casamento:",
+    "analysis": "Análise de Casamento"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de casamento com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "marriage_tax_calculator_0": "Calculadora de imposto de casamento",
+  "state_city_tax_rate_1": "Taxa de imposto estadual + municipal (%)",
+  "spouse_1_income_2": "Cônjuge 1 Renda",
+  "salary_business_income_3": "Salário / Renda Empresarial",
+  "interest_dividend_income_4": "Juros + receita de dividendos",
+  "passive_income_5": "Renda Passiva",
+  "shortterm_capital_gains_6": "Ganhos de capital de curto prazo",
+  "longterm_capital_gains_7": "Ganhos de capital de longo prazo",
+  "qualified_dividends_8": "Dividendos Qualificados",
+  "k_401k_ira_savings_9": "401K, IRA... Economia",
+  "updated_tax_calculation_functions_10": "// Funções de cálculo de impostos atualizadas",
+  "use_standard_deduction_14600_11": "Use a dedução padrão (US$ 14.600)",
+  "itemized_deductions_12": "Deduções discriminadas",
+  "selfemployed_13": "Trabalhadores por conta própria?",
+  "spouse_2_income_14": "Renda do cônjuge 2",
+  "salary_business_income_15": "Salário / Renda Empresarial",
+  "interest_dividend_income_16": "Juros + receita de dividendos",
+  "passive_income_17": "Renda Passiva",
+  "shortterm_capital_gains_18": "Ganhos de capital de curto prazo",
+  "longterm_capital_gains_19": "Ganhos de capital de longo prazo",
+  "qualified_dividends_20": "Dividendos Qualificados",
+  "k_401k_ira_savings_21": "401K, IRA... Economia",
+  "use_standard_deduction_14600_22": "Use a dedução padrão (US$ 14.600)",
+  "itemized_deductions_23": "Deduções discriminadas",
+  "selfemployed_24": "Trabalhadores por conta própria?",
+  "calculate_tax_impact_25": "Calcular o impacto fiscal",
+  "marriage_tax_results_26": "Resultados do imposto de casamento",
+  "tax_penalty_or_benefit_analysis_27": "Penalidade fiscal ou análise de benefícios",
+  "of_total_income_28": "% da renda total",
+  "detailed_tax_breakdown_29": "Detalhamento fiscal detalhado",
+  "category_30": "Categoria",
+  "spouse_1_31": "Cônjuge 1",
+  "spouse_2_32": "Cônjuge 2",
+  "combined_not_married_33": "Combinado (não casado)",
+  "joint_married_34": "Conjunto (casado)",
+  "income_35": "Renda",
+  "federal_tax_36": "Imposto Federal",
+  "marginal_rate_37": "Taxa Marginal",
+  "social_security_tax_38": "Imposto de Segurança Social",
+  "medicare_tax_39": "Imposto Medicare",
+  "statecity_tax_40": "Imposto estadual + municipal",
+  "k_401k_ira_41": "401k, IRA...",
+  "final_take_home_42": "Conclusão final para casa",
+  "enter_both_spouses_information_to_see_your_marriag_43": "Insira as informações de ambos os cônjuges para ver o impacto do imposto sobre o casamento",
+  "formulas_calculation_details_44": "Fórmulas e detalhes de cálculo",
+  "k_1_individual_income_calculation_45": "1. Cálculo da Renda Individual",
+  "total_income_wages_interest_passive_stcg_ltcg_qual_46": "Renda Total = Salários + Juros + Passivo + STCG + LTCG + Dividendos Qualificados",
+  "taxable_income_total_income_deductions_selfemploym_47": "Lucro tributável = rendimento total - deduções - dedução fiscal de trabalho autônomo",
+  "k_2_joint_income_calculation_48": "2. Cálculo do rendimento conjunto",
+  "joint_income_spouse_1_total_income_spouse_2_total__49": "Renda Conjunta = Renda Total do Cônjuge 1 + Renda Total do Cônjuge 2",
+  "joint_taxable_joint_income_joint_deductions_combin_50": "Tributável Conjunta = Renda Conjunta - Deduções Conjuntas - Dedução Fiscal Combinada SE",
+  "k_3_marriage_penaltybenefit_51": "3. Pena/benefício de casamento",
+  "penaltybenefit_individual_tax_1_individual_tax_2_j_52": "Multa/Benefício = (Imposto Individual 1 + Imposto Individual 2) - Imposto Conjunto",
+  "positive_result_marriage_benefit_negative_result_m_53": "Resultado positivo = Benefício de Casamento | Resultado negativo = pena de casamento",
+  "k_4_percentage_impact_54": "4. Impacto percentual",
+  "marriage_impact_penalty_or_benefit_joint_income_10_55": "% de Impacto no Casamento = (Penalidade ou Benefício ÷ Renda Conjunta) × 100"
+}

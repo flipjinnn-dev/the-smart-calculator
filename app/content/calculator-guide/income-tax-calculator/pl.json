@@ -1,0 +1,127 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Poznaj swoje podatki dzięki naszemu kalkulatorowi podatku dochodowego",
+      "content": "Rozliczanie podatków nie musi być mylące. Nasz kalkulator podatku dochodowego pomaga szybko i dokładnie obliczyć podatek dochodowy online, zapewniając jasny wgląd w dochód podlegający opodatkowaniu, odliczenia i wynagrodzenie na rękę. Niezależnie od tego, czy chcesz oszacować swoje zobowiązanie podatkowe za 2025 r., sprawdzić, czy otrzymasz zwrot pieniędzy, czy też zaplanować swoje finanse z wyprzedzeniem, ten bezpłatny kalkulator podatku dochodowego to idealne narzędzie."
+    },
+    {
+      "heading": "Dzięki natychmiastowym wynikom możesz:",
+      "subSections": [
+        {
+          "heading": "Unikaj błędów ręcznych",
+          "content": "Ze wzorem obliczania podatku dochodowego."
+        },
+        {
+          "heading": "Porównaj federalny i stanowy podatek dochodowy",
+          "content": "Zobacz wyniki w ciągu kilku sekund."
+        },
+        {
+          "heading": "Planuj lepiej",
+          "content": "Skorzystaj ze spostrzeżeń, aby zoptymalizować oszczędności, odliczenia i strategię składania wniosków."
+        }
+      ]
+    },
+    {
+      "heading": "Jak działa kalkulator podatku dochodowego?",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Wpisz swoje dochody – pensję, zarobki z działalności gospodarczej lub zarobki z tytułu samozatrudnienia."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Zastosuj odliczenia – wybierz pomiędzy odliczeniem standardowym a odliczeniem szczegółowym."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Sprawdź swój dochód podlegający opodatkowaniu – dowiedz się, co oznacza dochód podlegający opodatkowaniu i czym różni się od dochodu brutto i netto."
+        },
+        {
+          "heading": "Krok 4",
+          "content": "Przegląd progów podatkowych 2025 wyjaśniony – sprawdź, która część Twojego dochodu mieści się w każdym przedziale."
+        },
+        {
+          "heading": "Krok 5",
+          "content": "Natychmiast przeglądaj swoje wyniki – zobacz swoje zobowiązanie podatkowe, dochód po opodatkowaniu lub potencjalny zwrot."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia i odmiany",
+      "subSections": [
+        {
+          "heading": "Kalkulator federalnego podatku dochodowego",
+          "content": "W przypadku nawiasów federalnych Stanów Zjednoczonych."
+        },
+        {
+          "heading": "Kalkulator stanowego podatku dochodowego",
+          "content": "Zobacz, jak Twój stan wpływa na Twoją odpowiedzialność."
+        },
+        {
+          "heading": "Kalkulator zwrotu podatku dochodowego",
+          "content": "Oszacuj zwrot pieniędzy w ciągu kilku minut."
+        },
+        {
+          "heading": "Kalkulator dochodu po opodatkowaniu / kalkulator wynagrodzeń na wynos",
+          "content": "Dowiedz się, co pozostało po odliczeniach."
+        },
+        {
+          "heading": "Kalkulator podatku dochodowego dla osób prowadzących działalność na własny rachunek i działalność gospodarczą",
+          "content": "Stworzony dla freelancerów, przedsiębiorców i spółek LLC."
+        },
+        {
+          "heading": "Kalkulator podatku od dywidend i zysków kapitałowych",
+          "content": "Śledź inwestycje i zwroty."
+        },
+        {
+          "heading": "Małżeństwo składające wniosek wspólnie lub z osobami na utrzymaniu",
+          "content": "Oblicz korzyści i porównaj opcje statusu zgłoszenia."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto wybrać ten kalkulator podatku dochodowego?",
+      "subSections": [
+        {
+          "heading": "Szybko i bezpłatnie",
+          "content": "Żadnych zapisów, żadnych opłat."
+        },
+        {
+          "heading": "Dokładne i niezawodne",
+          "content": "Zaktualizowano o wyjaśnienie progów podatkowych na rok 2025."
+        },
+        {
+          "heading": "Przyjazny dla użytkownika",
+          "content": "Prosty interfejs dla osób indywidualnych, rodzin i firm."
+        },
+        {
+          "heading": "Wyczerpujący",
+          "content": "Działa jako kalkulator podatku dochodowego na rok 2025, kalkulator zwrotu kosztów i kalkulator wynagrodzeń na wynos – wszystko w jednym."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak naliczyć podatek od wynagrodzenia online?",
+      "a": "Wpisz swoje wynagrodzenie brutto, zastosuj odliczenia, a kalkulator oszacuje Twoje zobowiązanie podatkowe i wynagrodzenie do domu."
+    },
+    {
+      "q": "Co to jest dochód przed opodatkowaniem i dochód po opodatkowaniu?",
+      "a": "Dochód przed opodatkowaniem to całkowity dochód przed opodatkowaniem, natomiast dochód po opodatkowaniu pokazuje, co zatrzymasz po odliczeniu."
+    },
+    {
+      "q": "Jaka jest cena zawierająca podatek a jaka cena bez podatku?",
+      "a": "Zawierające podatek oznacza, że ​​podatek jest już uwzględniony w sumie, natomiast wolne od podatku oznacza, że ​​podatek jest dodawany osobno."
+    },
+    {
+      "q": "W jaki sposób kalkulator radzi sobie z osobami pozostającymi na utrzymaniu lub wspólnymi zgłoszeniami w związku małżeńskim?",
+      "a": "Aby uzyskać spersonalizowane wyniki, wystarczy wybrać status zgłoszenia i liczbę osób na utrzymaniu."
+    },
+    {
+      "q": "Jak oszacować zwrot za pomocą kalkulatora podatku dochodowego?",
+      "a": "Wprowadź dane dotyczące podatku u źródła, a kalkulator oszacuje, czy będziesz winien zwrot pieniędzy, czy też go otrzymasz."
+    }
+  ]
+}

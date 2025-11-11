@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Kalkulator spłaty kredytu hipotecznego",
+  "pageDescription": "Oblicz spłatę kredytu hipotecznego za pomocą naszego bezpłatnego kalkulatora online",
+  "form": {
+    "labels": {
+      "input1": "Wejście 1",
+      "input2": "Wejście 2",
+      "input3": "Wejście 3"
+    },
+    "placeholders": {
+      "input1": "Wprowadź pierwszą wartość",
+      "input2": "Wprowadź drugą wartość",
+      "input3": "Wprowadź trzecią wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz spłatę kredytu hipotecznego",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "result1": "Wynik 1",
+    "result2": "Wynik 2",
+    "calculationDetails": "Wyniki obliczeń spłaty kredytu hipotecznego"
+  },
+  "educational": {
+    "info": "Informacje o spłacie kredytu hipotecznego",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja spłaty kredytu hipotecznego",
+        "description": "Informacja o spłacie kredytu hipotecznego"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Jak obliczana jest spłata kredytu hipotecznego"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Korzystanie ze spłaty kredytu hipotecznego"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki spłaty kredytu hipotecznego",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć spłatę kredytu hipotecznego",
+    "resultMessage": "Wyniki obliczenia spłaty kredytu hipotecznego pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia spłaty kredytu hipotecznego:",
+    "analysis": "Analiza spłaty kredytu hipotecznego"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunkową spłatę kredytu hipotecznego w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "mortgage_payoff_calculator_0": "Kalkulator spłaty kredytu hipotecznego",
+  "basic_loan_information_1": "Podstawowe informacje o pożyczce",
+  "original_loan_amount_2": "Pierwotna kwota pożyczki ($)",
+  "the_original_amount_you_borrowed_3": "Oryginalna kwota, którą pożyczyłeś",
+  "original_term_years_4": "Pierwotny termin (lata)",
+  "original_loan_term_in_years_5": "Pierwotny okres kredytowania w latach",
+  "annual_interest_rate_6": "Roczna stopa procentowa (%)",
+  "your_mortgage_interest_rate_7": "Twoje oprocentowanie kredytu hipotecznego",
+  "calculation_method_8": "Metoda obliczeniowa",
+  "i_know_the_remaining_term_9": "Znam pozostały termin",
+  "i_know_the_unpaid_balance_and_monthly_payment_10": "Znam niespłacone saldo i miesięczną płatność",
+  "remaining_years_11": "Pozostałe lata",
+  "remaining_months_optional_12": "Pozostałe miesiące (opcjonalnie)",
+  "unpaid_principal_13": "Nieopłacony kapitał ($)",
+  "monthly_payment_14": "Płatność miesięczna ($)",
+  "extra_payment_options_15": "Dodatkowe opcje płatności",
+  "onetime_extra_payment_16": "Jednorazowa dodatkowa płatność ($)",
+  "monthly_extra_payment_17": "Dodatkowa opłata miesięczna ($)",
+  "annual_extra_payment_18": "Dodatkowa opłata roczna ($)",
+  "switch_to_biweekly_payments_19": "Przejdź na płatności dwutygodniowe",
+  "pay_half_your_monthly_payment_every_2_weeks_26_pay_20": "Płać połowę miesięcznej raty co 2 tygodnie (26 płatności/rok)",
+  "calculate_21": "Obliczać",
+  "payoff_analysis_22": "Analiza wypłat",
+  "your_mortgage_payoff_breakdown_23": "Podział spłaty kredytu hipotecznego",
+  "interest_savings_24": "Oszczędności odsetkowe:",
+  "time_saved_25": "Zaoszczędzony czas",
+  "new_payoff_time_26": "Nowy termin wypłaty",
+  "monthly_payment_27": "Płatność miesięczna",
+  "enter_mortgage_details_to_see_your_payoff_analysis_28": "Wprowadź szczegóły kredytu hipotecznego, aby zobaczyć analizę spłaty",
+  "detailed_analysis_29": "Szczegółowa analiza",
+  "complete_mortgage_payoff_comparison_30": "Pełne porównanie spłat kredytu hipotecznego",
+  "interest_savings_31": "Oszczędności odsetek",
+  "total_interest_saved_with_extra_payments_32": "Całkowite odsetki zaoszczędzone dzięki dodatkowym płatnościom",
+  "time_saved_33": "Zaoszczędzony czas",
+  "earlier_payoff_with_extra_payments_34": "Wcześniejsza spłata z dopłatami",
+  "monthly_payment_35": "Płatność miesięczna",
+  "standard_principal_interest_36": "Standardowa kwota główna i odsetki",
+  "scenario_37": "Scenariusz",
+  "payoff_time_38": "Czas wypłaty",
+  "total_interest_39": "Całkowite odsetki",
+  "total_payments_40": "Suma płatności",
+  "standard_payments_41": "Płatności standardowe",
+  "with_extra_payments_42": "Z dodatkowymi płatnościami",
+  "difference_savings_43": "Różnica (oszczędności)",
+  "key_insights_44": "Kluczowe spostrzeżenia:",
+  "extra_payments_reduce_your_loan_term_by_45": "• Dodatkowe płatności skracają okres kredytowania o",
+  "youll_save_46": "• Zaoszczędzisz",
+  "in_total_interest_47": "w sumie interes",
+  "your_effective_interest_savings_rate_is_48": "• Twoja efektywna stopa oszczędności wynosi",
+  "understanding_mortgage_payoff_strategies_49": "Zrozumienie strategii spłaty kredytu hipotecznego",
+  "extra_payment_benefits_50": "Dodatkowe korzyści płatnicze",
+  "interest_savings_51": "Oszczędności odsetkowe:",
+  "extra_payments_go_directly_to_principal_reducing_t_52": "Dodatkowe płatności trafiają bezpośrednio do zleceniodawcy, zmniejszając sumę\n                            odsetki zapłacone",
+  "time_savings_53": "Oszczędność czasu:",
+  "pay_off_your_mortgage_years_earlier_than_scheduled_54": "Spłać kredyt hipoteczny kilka lat wcześniej niż planowano",
+  "equity_building_55": "Budynek kapitałowy:",
+  "build_home_equity_faster_with_accelerated_principa_56": "Szybciej buduj kapitał własny dzięki przyspieszonemu spłacie kapitału\n                            płatności",
+  "payment_strategies_57": "Strategie płatności",
+  "monthly_extra_58": "Dodatek miesięczny:",
+  "add_a_fixed_amount_to_each_monthly_payment_59": "Dodaj stałą kwotę do każdej miesięcznej płatności",
+  "annual_lump_sum_60": "Roczna kwota ryczałtowa:",
+  "use_tax_refunds_or_bonuses_for_extra_payments_61": "Korzystaj ze zwrotów podatku lub premii za dodatkowe płatności",
+  "biweekly_payments_62": "Płatności dwutygodniowe:",
+  "pay_half_monthly_amount_every_2_weeks_26_paymentsy_63": "Płacić połowę kwoty miesięcznej co 2 tygodnie (26 płatności/rok)",
+  "important_64": "Ważny:",
+  "before_making_extra_mortgage_payments_ensure_you_h_65": "Zanim dokonasz dodatkowej spłaty kredytu hipotecznego, upewnij się, że masz sytuację awaryjną\n                      funduszu, maksymalizują dopasowanie pracodawcy 401 (k) i spłacili zadłużenie o wyższym oprocentowaniu. Rozważ\n                      oprocentowanie kredytu hipotecznego w porównaniu z potencjalnymi zwrotami z inwestycji przy podejmowaniu decyzji o dodatkowych spłatach."
+}

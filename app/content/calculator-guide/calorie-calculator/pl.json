@@ -1,0 +1,121 @@
+{
+  "color": "czerwony",
+  "sections": [
+    {
+      "heading": "Kalkulator kalorii: poznaj swoje dzienne zapotrzebowanie na energię",
+      "content": "Zrozumienie dziennego zapotrzebowania na kalorie jest niezbędne do utrzymania prawidłowej wagi, osiągnięcia celów fitness i optymalizacji ogólnego samopoczucia. Kalorie to energia, którą organizm wykorzystuje do wykonywania podstawowych funkcji, ćwiczeń i codziennych czynności. Korzystając z internetowego kalkulatora kalorii, możesz łatwo określić, ile kalorii powinieneś spożywać każdego dnia, na podstawie swoich danych osobowych."
+    },
+    {
+      "heading": "Jak działa kalkulator kalorii?",
+      "content": "Kalkulator dziennego zapotrzebowania kalorycznego szacuje Twoje zapotrzebowanie na energię, biorąc pod uwagę kluczowe czynniki:",
+      "subSections": [
+        {
+          "heading": "Podstawowa przemiana materii (BMR)",
+          "content": "Liczba kalorii spalanych przez organizm w spoczynku, aby utrzymać funkcje życiowe, takie jak oddychanie i krążenie."
+        },
+        {
+          "heading": "Całkowite dzienne wydatki na energię (TDEE)",
+          "content": "Kalorie spalane w ciągu dnia, włączając aktywność, ćwiczenia i codzienny ruch."
+        },
+        {
+          "heading": "Poziom aktywności",
+          "content": "Siedzący tryb życia, lekko aktywny, umiarkowanie aktywny, bardzo aktywny lub bardzo aktywny."
+        },
+        {
+          "heading": "Atrybuty osobiste",
+          "content": "Do obliczeń brany jest pod uwagę wiek, płeć, waga i wzrost."
+        }
+      ]
+    },
+    {
+      "heading": "Kalorie dla różnych celów",
+      "content": "Twoje zapotrzebowanie kaloryczne zmienia się w zależności od tego, czy chcesz schudnąć, utrzymać wagę, czy zyskać mięśnie:",
+      "subSections": [
+        {
+          "heading": "Utrata wagi",
+          "content": "500–750 kalorii poniżej wartości odżywczej – pomaga osiągnąć trwałą utratę tłuszczu."
+        },
+        {
+          "heading": "Konserwacja",
+          "content": "Równy TDEE – pomaga utrzymać aktualną wagę."
+        },
+        {
+          "heading": "Przyrost mięśni",
+          "content": "250–500 kalorii powyżej wartości odżywczej — wspiera wzrost beztłuszczowej masy mięśniowej."
+        }
+      ]
+    },
+    {
+      "heading": "Wskazówki dotyczące skutecznego śledzenia kalorii",
+      "content": "Aby uzyskać lepsze wyniki, postępuj zgodnie z poniższymi praktykami:",
+      "subSections": [
+        {
+          "heading": "Użyj aplikacji Kalkulator kalorii",
+          "content": "Rejestruj posiłki i łatwo śledź dzienne spożycie."
+        },
+        {
+          "heading": "Dostosuj kalorie na podstawie aktywności",
+          "content": "Lekka aktywność wymaga mniej kalorii niż ciężka aktywność fizyczna."
+        },
+        {
+          "heading": "Monitoruj postęp",
+          "content": "Sprawdzaj co tydzień i wprowadzaj stopniowe zmiany."
+        },
+        {
+          "heading": "Zbilansowane odżywianie",
+          "content": "Połącz śledzenie kalorii z właściwym odżywianiem, aby zapewnić długotrwałe zdrowie."
+        }
+      ]
+    },
+    {
+      "heading": "Ograniczenia i zastrzeżenie",
+      "content": "Chociaż nasz inteligentny kalkulator kalorii zapewnia wiarygodne szacunki, nie zastępuje profesjonalnej porady lekarskiej ani dietetycznej. Indywidualne potrzeby mogą się różnić w zależności od stanu zdrowia, metabolizmu i stylu życia. Aby uzyskać spersonalizowane wskazówki, należy zawsze skonsultować się z pracownikiem służby zdrowia."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ile kalorii powinienem spożywać dziennie?",
+      "a": "Zależy to od Twojego wieku, płci, wagi, wzrostu i poziomu aktywności. Skorzystaj z naszego kalkulatora dziennego zapotrzebowania kalorycznego, aby uzyskać spersonalizowane oszacowanie."
+    },
+    {
+      "q": "Jak obliczyć dzienne zapotrzebowanie kaloryczne?",
+      "a": "Dzienne kalorie obliczane są na podstawie BMR i TDEE, dostosowane do poziomu aktywności i celów fitness."
+    },
+    {
+      "q": "Ile kalorii schudnąć?",
+      "a": "Aby uzyskać trwałą utratę wagi, spożywaj 500–750 kalorii poniżej wymaganego poziomu."
+    },
+    {
+      "q": "Ile kalorii na przyrost mięśni?",
+      "a": "Staraj się spożywać 250–500 kalorii powyżej wartości konserwacyjnych, w połączeniu z treningiem siłowym, aby uzyskać optymalny wzrost mięśni."
+    },
+    {
+      "q": "Jaka jest różnica między BMR i TDEE?",
+      "a": "BMR: Kalorie spalone w spoczynku. TDEE: Całkowita liczba spalonych kalorii, łącznie z codzienną aktywnością i ćwiczeniami."
+    },
+    {
+      "q": "Jak dokładne są kalkulatory kalorii?",
+      "a": "Dokonują szacunków w oparciu o standardowe formuły. Dokładność może się różnić w zależności od indywidualnego metabolizmu, stanu zdrowia i poziomu aktywności."
+    },
+    {
+      "q": "Jak dostosować kalorie w zależności od poziomu aktywności?",
+      "a": "Zwiększ kalorie, aby uzyskać większą aktywność, i zmniejsz, aby uzyskać mniejszą aktywność. Osoby prowadzące siedzący tryb życia potrzebują mniej kalorii niż osoby bardzo aktywne."
+    },
+    {
+      "q": "Czy seniorzy mogą korzystać z tego kalkulatora?",
+      "a": "Tak, nasz kalkulator kalorii dla seniorów dostosowuje się do zmian metabolicznych związanych z wiekiem, aby zapewnić dokładne zalecenia."
+    },
+    {
+      "q": "Czy sportowcy mogą korzystać z tego narzędzia?",
+      "a": "Absolutnie. Kalkulator kalorii dla sportowców uwzględnia wyższe zapotrzebowanie na energię podczas intensywnego treningu."
+    },
+    {
+      "q": "Czy sztuczna inteligencja może pomóc w śledzeniu mojego spożycia kalorii?",
+      "a": "Tak! Kalkulatory kalorii i aplikacje oparte na sztucznej inteligencji mogą pomóc w rejestrowaniu posiłków, monitorowaniu spożycia składników odżywczych i dostarczaniu spersonalizowanych rekomendacji."
+    }
+  ],
+  "cta": {
+    "heading": "Śledź swoje dzienne kalorie już dziś",
+    "content": "Przestań zgadywać swoje potrzeby energetyczne. Skorzystaj z naszego bezpłatnego kalkulatora kalorii online, aby dokładnie wiedzieć, ile kalorii potrzebujesz, aby schudnąć, utrzymać wagę lub zyskać masę mięśniową. Uzyskaj dokładne, spersonalizowane wyniki i przejmij kontrolę nad swoim zdrowiem i kondycją już teraz."
+  }
+}

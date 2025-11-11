@@ -1,36 +1,69 @@
+"use client"
+
 import type { Metadata } from "next"
 import Script from "next/script"
 import Link from "next/link"
-import { Calculator, GraduationCap } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { useState, useEffect } from "react"
+import { ArrowLeft, Calculator, GraduationCap } from "lucide-react"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import Logo from "@/components/logo"
-import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
 
-export const metadata: Metadata = {
-  title: "Math Calculators - Smart Calculator",
-  description:
-    "Free math calculators including percentage, fraction, algebra, geometry, statistics, and probability calculators. Calculate your math problems with ease.",
-  keywords: "math calculator, percentage calculator, fraction calculator, algebra calculator, geometry calculator, statistics calculator, probability calculator",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/maths",
-  },
+import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
+import { useCategoryContent } from "@/hooks/useCategoryContent"
+
+// Define fallback content
+const fallbackContent = {
+  name: "Maths",
+  description: "Free math calculators for algebra, geometry, statistics, and advanced mathematics. Solve complex problems with ease.",
+  slug: "maths"
 }
 
-const mathCalculators = getCalculatorsByCategory("maths")
-const popularMathCalculators = getPopularCalculatorsByCategory("maths")
+export default function MathsCategoryPage() {
+  // Detect language from URL path or headers
+  const [language, setLanguage] = useState("en");
+  
+  useEffect(() => {
+    // First try to get language from headers (set by middleware)
+    const headerLanguage = document.head.querySelector('meta[name="x-language"]')?.getAttribute('content');
+    if (headerLanguage) {
+      setLanguage(headerLanguage);
+      return;
+    }
+    
+    // Fallback to URL path detection
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/(br|pl|de)/);
+    const detectedLanguage = langMatch ? langMatch[1] : "en";
+    setLanguage(detectedLanguage);
+  }, []);
 
+  const { content, loading, error } = useCategoryContent("maths", language);
+  
+  // Use content or fallback to defaults
+  const contentData = content || fallbackContent;
 
-export default function MathCategoryPage() {
+  // Show loading state
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+  }
+
+  // Show error if content failed to load
+  if (error) {
+    return <div className="min-h-screen flex items-center justify-center">Error loading content: {error}</div>;
+  }
+
+  const mathsCalculators = getCalculatorsByCategory("maths", language)
+  const popularMathsCalculators = getPopularCalculatorsByCategory("maths", language)
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Math Calculators",
-    description: "Free math calculators for percentage, fraction, algebra, geometry, statistics, and probability",
-    url: "https://www.thesmartcalculator.com/maths",
+    name: contentData.name,
+    description: contentData.description,
+    url: `https://www.thesmartcalculator.com/${contentData.slug}`,
     mainEntity: {
       "@type": "ItemList",
-      itemListElement: mathCalculators.map((calc, index) => ({
+      itemListElement: mathsCalculators.map((calc, index) => ({
         "@type": "SoftwareApplication",
         position: index + 1,
         name: calc.name,
@@ -40,41 +73,13 @@ export default function MathCategoryPage() {
       })),
     },
   }
-  const allCalculators = mathCalculators
 
   return (
     <>
       <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">Math Calculators</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-        {/* Breadcrumb */}
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-blue-600">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Math</span>
-            </div>
-          </div>
-        </nav>
+        {/* Removed duplicated breadcrumb nav - now using shared header component */}
         {/* Main Content */}
         <main className="py-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
@@ -84,17 +89,17 @@ export default function MathCategoryPage() {
                   <GraduationCap className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Math Calculators</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.name}</h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Free math calculators for percentage, fraction, algebra, geometry, statistics, and probability. Solve your math problems quickly and easily.
+                {contentData.description}
               </p>
             </div>
 
             {/* Most Popular */}
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Most Popular</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-              {popularMathCalculators.map(calc => (
-                <Link key={calc.name} href={calc.href}>
+              {popularMathsCalculators.map((calc, index) => (
+                <Link key={calc.id} href={calc.href}>
                   <Card className="h-full hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer group border-l-4 border-l-blue-500 hover-lift">
                     <CardHeader>
                       <div className="flex items-center space-x-3">
@@ -111,10 +116,10 @@ export default function MathCategoryPage() {
             </div>
 
             {/* All Math Calculators */}
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">All Math Calculators</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">All {contentData.name} Calculators</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {allCalculators.map(calc => (
-                <Link key={calc.name} href={calc.href}>
+              {mathsCalculators.map((calc, index) => (
+                <Link key={calc.id} href={calc.href}>
                   <Card className="h-full hover:shadow-md transition-shadow cursor-pointer group hover-lift border-l-4 border-l-blue-500">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">

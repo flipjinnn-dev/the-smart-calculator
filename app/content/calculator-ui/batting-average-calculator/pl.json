@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Kalkulator średniej mrugnięcia",
+  "pageDescription": "Oblicz średnią odbijania i powiązane statystyki graczy w baseball i softball za pomocą kompleksowych wskaźników wydajności",
+  "form": {
+    "labels": {
+      "playerName": "Nazwa gracza",
+      "atBats": "U nietoperzy",
+      "hits": "Hity",
+      "calculationType": "Typ obliczenia",
+      "additionalStats": "Uwzględnić dodatkowe statystyki?"
+    },
+    "placeholders": {
+      "playerName": "Wpisz nazwę gracza (opcjonalnie)",
+      "atBats": "Wprowadź liczbę nietoperzy",
+      "hits": "Wprowadź liczbę trafień"
+    },
+    "buttons": {
+      "calculate": "Oblicz średnią mrugnięcia",
+      "reset": "Nastawić"
+    },
+    "calculationTypes": {
+      "basic": "Podstawowa średnia odbijania",
+      "season": "Statystyki sezonu",
+      "career": "Statystyki kariery"
+    },
+    "yesNo": {
+      "yes": "Tak",
+      "no": "NIE"
+    }
+  },
+  "results": {
+    "battingAverage": "Średnia odbijania",
+    "hits": "Hity",
+    "atBats": "U nietoperzy",
+    "additionalStats": "Dodatkowe statystyki",
+    "battingAverageResultsTitle": "Średnie wyniki mrugnięcia"
+  },
+  "educational": {
+    "battingAverageInfo": "Informacje o średniej mrugnięciu",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby baseballu",
+    "battingAverageFacts": {
+      "definition": {
+        "title": "Definicja średniej mrugnięcia",
+        "description": "Średnia odbijania = trafienia ÷ uderzenia nietoperzy (nie obejmuje spacerów, poświęceń ani uderzeń narzutem)"
+      },
+      "benchmarks": {
+        "title": "Testy wydajności",
+        "description": "Doskonały: 0,300+, dobry: 0,270-0,299, średni: 0,250-0,269, poniżej średniej: poniżej 0,250"
+      },
+      "context": {
+        "title": "Kontekst ma znaczenie",
+        "description": "Oceniając średnią odbijania, weź pod uwagę boisko, przeciwników i sytuacje w grze"
+      }
+    },
+    "additionalStatistics": {
+      "obp": {
+        "title": "Procent bazowy (OBP)",
+        "description": "Mierzy, jak często pałkarz dociera do bazy"
+      },
+      "slg": {
+        "title": "Procent uderzeń (SLG)",
+        "description": "Mierzy siłę uderzającego"
+      },
+      "ops": {
+        "title": "Ubijanie na podstawie Plus (OPS)",
+        "description": "Łączy OBP i SLG w celu uzyskania ogólnej wydajności ofensywnej"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten zapewnia wyłącznie obliczenia statystyczne",
+      "context": "Aby uzyskać pełną analizę, średnią odbijania należy ocenić na podstawie innych statystyk"
+    },
+    "importantNotesList": [
+      "Średnia odbijania nie uwzględnia spacerów, poświęceń ani uderzeń na boisku",
+      "Oceniając ostatnie wyniki, weź pod uwagę wielkość próby",
+      "Różne boiska i ligi mogą mieć wpływ na wskaźniki wydajności",
+      "Zaawansowane wskaźniki, takie jak OPS i wOBA, zapewniają pełniejszą ocenę gracza"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź statystyki gracza, aby obliczyć średnią odbijania",
+    "resultMessage": "Poniżej pokazano średnią odbijania gracza",
+    "assessmentResult": "Wynik statystyki odbijania:",
+    "battingAverageAnalysis": "Analiza średniej odbijania"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia obliczenia średniej liczby uderzeń w oparciu o standardowe formuły statystyki baseballu. Wyniki służą celom informacyjnym i mogą nie odzwierciedlać oficjalnych statystyk ligowych ani zaawansowanych wskaźników analitycznych."
+  },
+  "seekHelp": {
+    "title": "Zasoby baseballu",
+    "content": "Aby uzyskać profesjonalną analizę baseballu i zaawansowane statystyki, skonsultuj się z analitykami sportowymi, trenerami lub wyspecjalizowanymi zasobami statystycznymi dotyczącymi baseballu i narzędziami sabermetrycznymi."
+  },
+  "errors": {
+    "atBats": "Proszę wprowadzić poprawną liczbę at nietoperzy (musi być większa niż 0)",
+    "hits": "Proszę podać prawidłową liczbę trafień (nie może przekroczyć liczby nietoperzy)",
+    "playerName": "Proszę wprowadzić poprawną nazwę gracza",
+    "calculationType": "Proszę wybrać rodzaj obliczeń"
+  },
+  "tooltips": {
+    "atBats": "Liczba sędziów przy kijach (nie obejmuje spacerów, ofiar, uderzeń boiskiem)",
+    "hits": "Liczba trafień (pojedyncze, podwójne, potrójne, home runy)",
+    "calculationType": "Wybierz typ obliczeń statystycznych",
+    "additionalStats": "Uwzględnij zaawansowane statystyki, takie jak OBP, SLG i OPS"
+  },
+  "loading_0": "Załadunek...",
+  "batting_average_calculation_1": "Obliczanie średniej mrugnięcia",
+  "choose_between_basic_or_advanced_calculation_metho_2": "Wybierz pomiędzy podstawowymi lub zaawansowanymi metodami obliczeń",
+  "what_calculation_method_would_you_like_to_use_3": "Jakiej metody obliczeń chcesz użyć?",
+  "basic_calculation_4": "Podstawowe obliczenia",
+  "advanced_calculation_5": "Zaawansowane obliczenia",
+  "runs_scored_6": "Biegi punktowane",
+  "times_out_7": "Limit czasu",
+  "formula_8": "Formuła:",
+  "batting_average_runs_scored_times_out_9": "Średnia odbijania = zdobyte runy ÷ limit czasu gry",
+  "example_315_runs_3_dismissals_10500_average_10": "Przykład: 315 serii ÷ 3 zwolnienia = średnia 105,00",
+  "runs_scored_11": "Biegi punktowane",
+  "innings_played_12": "Rozegrano inningi",
+  "not_outs_13": "Nie outy",
+  "formula_14": "Formuła:",
+  "times_out_innings_played_not_outs_15": "Limit czasu = rozegrane inningi – nie outy",
+  "batting_average_runs_scored_times_out_16": "Średnia odbijania = zdobyte runy ÷ limit czasu gry",
+  "not_out_innings_dont_count_as_dismissals_which_can_17": "Brak rund nie liczy się jako zwolnienia, co może zwiększyć Twoją średnią",
+  "calculate_average_18": "Oblicz średnią",
+  "batting_average_19": "Średnia odbijania",
+  "batting_average_20": "Średnia odbijania",
+  "enter_your_cricket_statistics_and_click_21": "Wprowadź swoje statystyki krykieta i kliknij",
+  "calculate_22": "Obliczać",
+  "to_see_your_batting_average_23": "aby zobaczyć swoją średnią uderzeń.",
+  "understanding_batting_average_24": "Zrozumienie średniej odbijania",
+  "definition_25": "Definicja",
+  "batting_average_in_cricket_is_a_statistic_that_mea_26": "Średnia odbijania w krykiecie to statystyka mierząca wyniki odbijającego. Reprezentuje\n                        średnia liczba runów zdobytych na zwolnienie.",
+  "key_points_27": "Kluczowe punkty",
+  "higher_averages_indicate_better_batting_performanc_28": "Wyższe średnie wskazują na lepszą skuteczność mrugnięcia",
+  "not_out_innings_are_not_counted_as_dismissals_29": "Brak inningów nie jest liczony jako zwolnienia",
+  "a_good_batting_average_varies_by_level_of_cricket_30": "Dobra średnia odbijania zależy od poziomu krykieta",
+  "professional_averages_above_40_are_considered_exce_31": "Średnie zawodowe powyżej 40 są uważane za doskonałe",
+  "sample_calculation_32": "Przykładowe obliczenia",
+  "example_33": "Przykład:",
+  "runs_scored_315_34": "Liczba zdobytych runów: 315",
+  "times_out_3_35": "Limity czasu: 3",
+  "batting_average_315_3_10500_36": "Średnia mrugnięcia: 315 ÷ 3 = 105,00",
+  "this_would_be_an_exceptional_batting_average_indic_37": "Byłaby to wyjątkowa średnia mrugnięć, wskazująca, że gracz zdobywa średnio 105 punktów\n                        biegnie przed wyjściem."
+}

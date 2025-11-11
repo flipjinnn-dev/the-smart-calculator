@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Ballistic Coefficient Calculator",
+  "pageDescription": "Calculate the ballistic coefficient of a projectile for precision shooting and trajectory analysis",
+  "form": {
+    "labels": {
+      "bulletWeight": "Bullet Weight",
+      "bulletDiameter": "Bullet Diameter",
+      "bulletLength": "Bullet Length",
+      "weightUnit": "Weight Unit",
+      "diameterUnit": "Diameter Unit",
+      "lengthUnit": "Length Unit",
+      "calculationMethod": "Calculation Method",
+      "bulletType": "Bullet Type"
+    },
+    "placeholders": {
+      "bulletWeight": "Enter bullet weight",
+      "bulletDiameter": "Enter bullet diameter",
+      "bulletLength": "Enter bullet length"
+    },
+    "buttons": {
+      "calculate": "Calculate Ballistic Coefficient",
+      "reset": "Reset"
+    },
+    "weightUnits": {
+      "grains": "Grains",
+      "grams": "Grams"
+    },
+    "diameterUnits": {
+      "inches": "Inches",
+      "millimeters": "Millimeters"
+    },
+    "lengthUnits": {
+      "inches": "Inches",
+      "millimeters": "Millimeters"
+    },
+    "calculationMethods": {
+      "g1": "G1 Standard (Flat-Based)",
+      "g7": "G7 Standard (Boat-Tail)"
+    },
+    "bulletTypes": {
+      "fmj": "Full Metal Jacket",
+      "hp": "Hollow Point",
+      "sp": "Soft Point",
+      "bt": "Boat Tail",
+      "vmax": "V-Max",
+      "sierra": "Sierra MatchKing"
+    }
+  },
+  "results": {
+    "ballisticCoefficient": "Ballistic Coefficient",
+    "formFactor": "Form Factor",
+    "sectionalDensity": "Sectional Density",
+    "ballisticCoefficientResultsTitle": "Ballistic Coefficient Results",
+    "bcValue": "BC Value"
+  },
+  "educational": {
+    "ballisticCoefficientInfo": "Ballistic Coefficient Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Ballistics Resources",
+    "ballisticCoefficientFacts": {
+      "definition": {
+        "title": "Ballistic Coefficient Definition",
+        "description": "A measure of a bullet's ability to overcome air resistance in flight compared to a standard projectile"
+      },
+      "formula": {
+        "title": "Calculation Formula",
+        "description": "BC = Sectional Density ÷ Form Factor, where SD = Weight ÷ Diameter²"
+      },
+      "standards": {
+        "title": "Standard Models",
+        "description": "G1 (flat-based) and G7 (boat-tail) are the most common reference models"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a substitute for empirical testing",
+      "environmental": "Actual performance varies with environmental conditions and barrel characteristics"
+    },
+    "importantNotesList": [
+      "Higher BC values indicate better aerodynamic efficiency",
+      "G7 standard is more accurate for modern boat-tail bullets",
+      "Environmental factors affect actual trajectory",
+      "Manufacturing tolerances can affect actual BC values"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your bullet specifications to calculate ballistic coefficient",
+    "resultMessage": "Your ballistic coefficient calculation is shown below",
+    "assessmentResult": "Ballistic Coefficient Result:",
+    "ballisticCoefficientAnalysis": "Ballistic Coefficient Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides ballistic coefficient estimates based on mathematical formulas. Actual performance may vary based on environmental conditions, barrel characteristics, and manufacturing tolerances."
+  },
+  "seekHelp": {
+    "title": "Ballistics Resources",
+    "content": "For professional ballistics analysis and precision shooting applications, consult ballistics experts or use specialized software like Applied Ballistics or JBM Ballistics."
+  },
+  "errors": {
+    "bulletWeight": "Please enter a valid bullet weight",
+    "bulletDiameter": "Please enter a valid bullet diameter",
+    "bulletLength": "Please enter a valid bullet length",
+    "weightUnit": "Please select a weight unit",
+    "diameterUnit": "Please select a diameter unit",
+    "lengthUnit": "Please select a length unit",
+    "calculationMethod": "Please select a calculation method",
+    "bulletType": "Please select a bullet type"
+  },
+  "tooltips": {
+    "bulletWeight": "Weight of the bullet",
+    "bulletDiameter": "Diameter of the bullet",
+    "bulletLength": "Length of the bullet",
+    "calculationMethod": "Standard model for comparison",
+    "bulletType": "Type of bullet affects form factor"
+  },
+  "ballistic_coefficient_calculation_0": "Ballistic Coefficient Calculation",
+  "enter_projectile_parameters_to_calculate_ballistic_1": "Enter projectile parameters to calculate ballistic coefficient",
+  "input_method_2": "Input Method",
+  "crosssectional_area_3": "Cross-sectional Area",
+  "diameter_4": "Diameter",
+  "mass_of_projectile_5": "Mass of Projectile",
+  "g_6": "g",
+  "kg_7": "kg",
+  "gr_8": "gr",
+  "oz_9": "oz",
+  "crosssectional_area_10": "Cross-sectional Area",
+  "mm_11": "mm²",
+  "cm_12": "cm²",
+  "in_13": "in²",
+  "diameter_14": "Diameter",
+  "mm_15": "mm",
+  "cm_16": "cm",
+  "in_17": "in",
+  "area_will_be_calculated_as_d2_18": "Area will be calculated as π × (d/2)²",
+  "drag_coefficient_cd_19": "Drag Coefficient (Cd)",
+  "dimensionless_coefficient_typical_range_0105_20": "Dimensionless coefficient (typical range: 0.1-0.5)",
+  "formula_21": "Formula:",
+  "b_m_cd_a_22": "B = m / (Cd × A)",
+  "where_23": "Where:",
+  "b_ballistic_coefficient_kgm_m_mass_kg_cd_drag_coef_24": "B = Ballistic Coefficient (kg/m²), m = mass (kg), Cd = drag coefficient,\n                        A = area (m²)",
+  "calculate_coefficient_25": "Calculate Coefficient",
+  "results_26": "Results",
+  "ballistic_coefficient_27": "Ballistic Coefficient",
+  "kgm_28": "kg/m²",
+  "sectional_density_29": "Sectional Density",
+  "kgm_30": "kg/m²",
+  "mass_31": "Mass:",
+  "kg_32": "kg)",
+  "area_33": "Area:",
+  "mm_34": "mm²)",
+  "diameter_35": "Diameter:",
+  "area_36": "(Area:",
+  "mm_37": "mm²)",
+  "cd_38": "Cd:",
+  "enter_values_and_click_39": "Enter values and click",
+  "calculate_40": "Calculate",
+  "to_see_results_41": "to see\n                          results.",
+  "understanding_ballistic_coefficient_42": "Understanding Ballistic Coefficient",
+  "what_is_ballistic_coefficient_43": "What is Ballistic Coefficient?",
+  "ballistic_coefficient_bc_is_a_measure_of_a_project_44": "Ballistic coefficient (BC) is a measure of a projectile's ability to overcome air resistance in\n                      flight. Higher BC values indicate better aerodynamic efficiency and less velocity loss over\n                      distance.",
+  "example_calculation_45": "Example Calculation",
+  "given_46": "Given:",
+  "mass_m_180_g_0180_kg_47": "Mass (m) = 180 g = 0.180 kg",
+  "area_a_400_mm_400_10_m_48": "Area (A) = 400 mm² = 4.00 × 10⁻⁴ m²",
+  "drag_coefficient_cd_030_49": "Drag coefficient (Cd) = 0.30",
+  "calculation_50": "Calculation:",
+  "b_0180_030_400_10_51": "B = 0.180 / (0.30 × 4.00 × 10⁻⁴)",
+  "b_0180_120_10_52": "B = 0.180 / (1.20 × 10⁻⁴)",
+  "b_1500_kgm_53": "B ≈ 1500 kg/m²",
+  "key_relationships_54": "Key Relationships",
+  "sectional_density_sd_55": "Sectional Density (SD):",
+  "sd_m_a_mass_per_unit_area_56": "SD = m / A (mass per unit area)",
+  "alternative_form_57": "Alternative form:",
+  "b_sd_cd_58": "B = SD / Cd",
+  "higher_bc_59": "Higher BC:",
+  "better_longrange_performance_less_wind_drift_60": "Better long-range performance, less wind drift",
+  "typical_values_61": "Typical values:",
+  "k_0208_kgm_bullets_0103_kgm_pellets_62": "0.2-0.8 kg/m² (bullets), 0.1-0.3 kg/m² (pellets)"
+}

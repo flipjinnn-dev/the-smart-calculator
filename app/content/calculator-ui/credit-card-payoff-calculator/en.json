@@ -1,0 +1,154 @@
+{
+  "pageTitle": "Credit Card Payoff Calculator",
+  "pageDescription": "Calculate how long it will take to pay off your credit card debt and interest with different payment strategies to minimize costs and become debt-free faster",
+  "form": {
+    "labels": {
+      "currentBalance": "Current Balance",
+      "interestRate": "Annual Interest Rate (APR)",
+      "minimumPayment": "Minimum Payment",
+      "minimumPaymentType": "Minimum Payment Type",
+      "fixedPayment": "Fixed Monthly Payment",
+      "extraPayment": "Extra Monthly Payment",
+      "paymentStrategy": "Payment Strategy"
+    },
+    "placeholders": {
+      "currentBalance": "Enter current credit card balance",
+      "interestRate": "Enter annual interest rate (%)",
+      "minimumPayment": "Enter minimum payment",
+      "fixedPayment": "Enter fixed monthly payment"
+    },
+    "buttons": {
+      "calculate": "Calculate Payoff Time",
+      "reset": "Reset"
+    },
+    "minimumPaymentTypes": {
+      "amount": "Fixed Amount",
+      "percentage": "Percentage of Balance"
+    },
+    "paymentStrategies": {
+      "minimum": "Minimum Payments Only",
+      "fixed": "Fixed Monthly Payment",
+      "minimumPlus": "Minimum Plus Extra Payment"
+    }
+  },
+  "results": {
+    "payoffTime": "Time to Payoff",
+    "totalInterest": "Total Interest Paid",
+    "totalPayment": "Total Payment",
+    "interestSavings": "Interest Savings with Extra Payments",
+    "creditCardPayoffResultsTitle": "Credit Card Payoff Results"
+  },
+  "educational": {
+    "creditCardPayoffInfo": "Credit Card Payoff Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "creditCardPayoffFacts": {
+      "interest": {
+        "title": "Credit Card Interest",
+        "description": "Credit card interest compounds daily, making debt grow quickly if not paid off"
+      },
+      "minimumPayments": {
+        "title": "Minimum Payment Impact",
+        "description": "Paying only minimums can extend payoff time for years and cost hundreds in interest"
+      },
+      "strategies": {
+        "title": "Payoff Strategies",
+        "description": "Fixed payments or extra payments significantly reduce payoff time and interest costs"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides credit card payoff estimates only",
+      "actual": "Actual payoff terms may vary based on card issuer policies and fees"
+    },
+    "importantNotesList": [
+      "Credit card interest compounds daily, increasing the cost of carrying a balance",
+      "Paying more than minimums directly reduces principal and saves on interest",
+      "Consider balance transfer offers to consolidate high-interest credit card debt",
+      "Stop using credit cards while paying off existing balances"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your credit card information to calculate payoff time",
+    "resultMessage": "Your credit card payoff calculation results are shown below",
+    "assessmentResult": "Credit Card Payoff Calculation Result:",
+    "creditCardPayoffAnalysis": "Credit Card Payoff Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides credit card payoff estimates based on mathematical calculations. Actual payoff terms, interest charges, and fees may vary based on card issuer policies and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized credit card debt management and consolidation advice, consult credit counselors or financial advisors with expertise in debt reduction and individual financial circumstances."
+  },
+  "errors": {
+    "currentBalance": "Please enter a valid current balance",
+    "interestRate": "Please enter a valid annual interest rate",
+    "minimumPayment": "Please enter a valid minimum payment",
+    "fixedPayment": "Please enter a valid fixed payment amount",
+    "extraPayment": "Please enter a valid extra payment amount",
+    "minimumPaymentType": "Please select a minimum payment type",
+    "paymentStrategy": "Please select a payment strategy"
+  },
+  "tooltips": {
+    "currentBalance": "Current outstanding balance on your credit card",
+    "interestRate": "Annual Percentage Rate (APR) charged on unpaid balances",
+    "minimumPayment": "Required minimum monthly payment from card issuer",
+    "minimumPaymentType": "Whether minimum payment is fixed amount or percentage of balance",
+    "fixedPayment": "Fixed amount you plan to pay each month",
+    "extraPayment": "Additional amount paid each month toward principal",
+    "paymentStrategy": "Method used to determine monthly payment amount"
+  },
+  "debt_avalanche_calculator_0": "Debt Avalanche Calculator",
+  "monthly_payment_budget_1": "Monthly Payment Budget",
+  "total_monthly_budget_for_all_credit_card_payments_2": "Total Monthly Budget for All Credit Card Payments",
+  "credit_cards_3": "Credit Cards",
+  "add_card_4": "Add Card",
+  "card_5": "Card",
+  "card_name_6": "Card Name",
+  "current_balance_7": "Current Balance",
+  "minimum_payment_8": "Minimum Payment",
+  "apr_9": "APR (%)",
+  "calculate_strategy_10": "Calculate Strategy",
+  "payoff_results_11": "Payoff Results",
+  "your_debt_avalanche_strategy_12": "Your debt avalanche strategy",
+  "payoff_time_13": "Payoff Time:",
+  "y_14": "y",
+  "m_15": "m",
+  "total_interest_16": "Total Interest:",
+  "total_amount_paid_17": "Total Amount Paid:",
+  "payment_schedule_18": "Payment Schedule",
+  "download_csv_19": "Download CSV",
+  "month_20": "Month",
+  "card_21": "Card",
+  "balance_22": "Balance",
+  "interest_23": "Interest",
+  "payment_24": "Payment",
+  "remaining_25": "Remaining",
+  "showing_first_24_months_download_csv_for_complete__26": "Showing first 24 months. Download CSV for complete schedule.",
+  "enter_your_credit_card_information_to_see_your_pay_27": "Enter your credit card information to see your payoff strategy",
+  "formulas_behind_the_avalanche_method_28": "Formulas Behind the Avalanche Method",
+  "k_1_monthly_interest_calculation_29": "1. Monthly Interest Calculation",
+  "interest_balance_apr_12_30": "Interest = Balance × (APR ÷ 12)",
+  "k_2_minimum_payment_application_31": "2. Minimum Payment Application",
+  "new_balance_balance_interest_min_payment_32": "New Balance = (Balance + Interest) - Min Payment",
+  "k_3_extra_payment_allocation_33": "3. Extra Payment Allocation",
+  "extra_budget_min_payments_34": "Extra = Budget - Σ(Min Payments)",
+  "extra_payment_goes_to_the_card_with_the_highest_ap_35": "Extra payment goes to the card with the highest APR",
+  "k_4_payoff_priority_36": "4. Payoff Priority",
+  "cards_are_prioritized_by_apr_highest_first_with_ba_37": "Cards are prioritized by APR (highest first), with balance as a tiebreaker (lowest first)",
+  "example_scenarios_38": "Example Scenarios",
+  "scenario_1_two_cards_39": "Scenario 1: Two Cards",
+  "card_a_5000_at_1899_apr_100_minimum_40": "• Card A: $5,000 at 18.99% APR, $100 minimum",
+  "card_b_3000_at_2499_apr_75_minimum_41": "• Card B: $3,000 at 24.99% APR, $75 minimum",
+  "monthly_budget_400_42": "• Monthly Budget: $400",
+  "strategy_pay_minimums_175_put_extra_225_toward_car_43": "• Strategy: Pay minimums ($175), put extra $225 toward Card B (higher APR)",
+  "scenario_2_multiple_cards_44": "Scenario 2: Multiple Cards",
+  "card_a_8000_at_1599_apr_160_minimum_45": "• Card A: $8,000 at 15.99% APR, $160 minimum",
+  "card_b_4000_at_2299_apr_80_minimum_46": "• Card B: $4,000 at 22.99% APR, $80 minimum",
+  "card_c_2000_at_1999_apr_50_minimum_47": "• Card C: $2,000 at 19.99% APR, $50 minimum",
+  "monthly_budget_500_48": "• Monthly Budget: $500",
+  "strategy_pay_minimums_290_put_extra_210_toward_car_49": "• Strategy: Pay minimums ($290), put extra $210 toward Card B (highest APR)"
+}

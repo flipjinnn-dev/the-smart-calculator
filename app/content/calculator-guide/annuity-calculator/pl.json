@@ -1,0 +1,143 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator renty: Zaplanuj swoją emeryturę z pewnością",
+      "content": "Chcesz zaplanować dochód emerytalny lub poznać wysokość wypłat renty? Nasz kalkulator renty online to proste i niezawodne narzędzie zaprojektowane, aby pomóc Ci obliczyć i wizualizować przyszłe płatności renty. Niezależnie od tego, czy planujesz rentę stałą, rentę natychmiastową czy rentę odroczoną, ten kalkulator daje dokładne wyniki za pomocą zaledwie kilku kliknięć."
+    },
+    {
+      "heading": "Jak to działa: przewodnik krok po kroku",
+      "subSections": [
+        {
+          "heading": "Wybierz rodzaj renty",
+          "content": "Wybierz rentę stałą, rentę zmienną lub rentę natychmiastową."
+        },
+        {
+          "heading": "Wprowadź swoje dane",
+          "content": "Podaj kwotę inwestycji, stopę procentową, częstotliwość płatności i okres emerytalny."
+        },
+        {
+          "heading": "Dołącz funkcje opcjonalne",
+          "content": "Dodaj miesięczne depozyty, odsetki składane lub harmonogram wypłat, jeśli ma to zastosowanie."
+        },
+        {
+          "heading": "Obliczać",
+          "content": "Kliknij przycisk Oblicz, aby zobaczyć miesięczną płatność renty, całkowitą wypłatę lub przyszłą wartość renty."
+        },
+        {
+          "heading": "Przejrzyj i zaplanuj",
+          "content": "Skorzystaj z wyników, aby zaplanować dochód emerytalny, skonfigurować harmonogram wypłat lub porównać opcje renty."
+        }
+      ]
+    },
+    {
+      "heading": "Korzyści ze stosowania kalkulatora renty",
+      "subSections": [
+        {
+          "heading": "Dokładne planowanie emerytury",
+          "content": "Oszacuj swoje miesięczne dochody i łączne wypłaty."
+        },
+        {
+          "heading": "Porównaj opcje",
+          "content": "Oceń rentę zwykłą i rentę należną lub rentę stałą i zmienną."
+        },
+        {
+          "heading": "Elastyczne scenariusze",
+          "content": "Symuluj inwestycje ryczałtowe lub miesięczne składki."
+        },
+        {
+          "heading": "Wizualizuj wzrost",
+          "content": "Zrozumienie obliczania odsetek renty i przyszłej wartości renty."
+        },
+        {
+          "heading": "Pewność finansowa",
+          "content": "Podejmuj świadome decyzje dzięki szczegółowym wskazówkom dotyczącym obliczania renty."
+        }
+      ]
+    },
+    {
+      "heading": "Przykłady i przypadki użycia z życia wzięte",
+      "subSections": [
+        {
+          "heading": "Planowanie emerytury",
+          "content": "Określ, ile dochodu będziesz otrzymywać co miesiąc, korzystając z kalkulatora dochodów emerytalnych."
+        },
+        {
+          "heading": "Natychmiastowa renta",
+          "content": "Oblicz swoje miesięczne płatności dożywotnie, rozpoczynając natychmiast po inwestycji."
+        },
+        {
+          "heading": "Odroczona renta",
+          "content": "Oszacuj wypłaty rozpoczynające się w przyszłości, korzystając z kalkulatora odroczonej renty."
+        },
+        {
+          "heading": "Ryczałt a renta",
+          "content": "Porównaj, czy przyjęcie kwoty ryczałtowej czy regularnej renty dożywotniej lepiej odpowiada Twoim celom finansowym."
+        }
+      ]
+    },
+    {
+      "heading": "Spostrzeżenia porównawcze",
+      "subSections": [
+        {
+          "heading": "Renta zwykła a renta należna",
+          "content": "Płatności rozpoczynają się na końcu i na początku każdego okresu."
+        },
+        {
+          "heading": "Renta stała a zmienna",
+          "content": "Naprawiono zapewnia przewidywalne wypłaty; zmienna jest dostosowywana w oparciu o wyniki rynkowe."
+        },
+        {
+          "heading": "Renta a kwota ryczałtowa",
+          "content": "Zdecyduj, czy chcesz otrzymać jednorazową płatność, czy stały dochód rozłożony w czasie."
+        },
+        {
+          "heading": "Opcje kalkulatora",
+          "content": "Skorzystaj z internetowego kalkulatora planowania emerytalnego, aby porównać rentę z kalkulatorami inwestycyjnymi, aby uzyskać mądrzejsze planowanie."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator renty?",
+      "a": "Kalkulator renty to narzędzie, które szacuje przyszłe płatności renty na podstawie inwestycji, stopy procentowej i częstotliwości wypłat."
+    },
+    {
+      "q": "Jak korzystać z kalkulatora renty?",
+      "a": "Wprowadź kwotę inwestycji, stopę procentową, okres wypłaty i wybierz rodzaj renty, aby natychmiast obliczyć płatności."
+    },
+    {
+      "q": "Jak obliczana jest wypłata renty?",
+      "a": "Wypłata zależy od kwoty głównej, stopy procentowej, częstotliwości płatności i rodzaju renty (stała, zmienna lub natychmiastowa)."
+    },
+    {
+      "q": "Jaka jest różnica między rentą zwykłą a rentą należną?",
+      "a": "Płatności renty zwykłej następują na koniec okresu, natomiast płatności renty należnej na początku."
+    },
+    {
+      "q": "Czy mogę obliczyć płatności renty przy miesięcznych depozytach?",
+      "a": "Tak, nasz kalkulator obsługuje miesięczne składki, odsetki składane i szczegółowe harmonogramy wypłat."
+    },
+    {
+      "q": "Jak działa kalkulator odroczonej renty?",
+      "a": "Oblicza płatności rozpoczynające się w przyszłości, pomagając zaplanować długoterminowe dochody emerytalne."
+    },
+    {
+      "q": "Dlaczego warto korzystać z kalkulatora dochodów emerytalnych?",
+      "a": "Zapewnia wgląd w to, jakich dochodów możesz się spodziewać na emeryturze, pomagając w budżetowaniu i planowaniu finansowym."
+    },
+    {
+      "q": "Czy mogę porównać płatność dożywotnią z płatnością ryczałtową?",
+      "a": "Tak, narzędzie pozwala porównać różne strategie wypłat, aby dokonać najbardziej świadomego wyboru."
+    },
+    {
+      "q": "Jakie są zalety kalkulatora wypłat stałej renty?",
+      "a": "Zapewnia przewidywalny miesięczny dochód, łatwe planowanie i pomaga wizualizować wzrost w czasie."
+    },
+    {
+      "q": "Czy to najlepsze narzędzie do obliczania renty online?",
+      "a": "Absolutnie! Zaprojektowany z myślą o dokładności, łatwości obsługi i wielu scenariuszach, idealnie nadaje się do skutecznego planowania dochodów emerytalnych."
+    }
+  ]
+}

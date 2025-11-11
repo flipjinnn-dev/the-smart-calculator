@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Calculadora de peso saudável",
+  "pageDescription": "Calcule sua faixa de peso saudável com base na altura, idade e sexo com nossa abrangente calculadora de peso saudável",
+  "form": {
+    "labels": {
+      "age": "Idade (anos)",
+      "gender": "Gênero",
+      "height": "Altura",
+      "weight": "Peso atual",
+      "unitSystem": "Sistema de Unidades"
+    },
+    "placeholders": {
+      "age": "Insira a idade",
+      "heightFt": "Pés",
+      "heightIn": "Polegadas",
+      "heightCm": "Insira a altura em cm",
+      "weight": "Insira o peso em {unit}"
+    },
+    "buttons": {
+      "calculate": "Calcule o peso saudável",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades dos EUA (pés/pol., lb)",
+      "metric": "Unidades Métricas (cm, kg)"
+    }
+  },
+  "results": {
+    "healthyWeightRange": "Faixa de peso saudável",
+    "currentWeight": "Peso atual",
+    "healthyWeightTitle": "Resultados de peso saudável",
+    "bmiFormula": {
+      "label": "Fórmula IMC",
+      "us": "IMC = (peso em lb / (altura em polegadas)²) × 703",
+      "metric": "IMC = peso em kg / (altura em metros)²"
+    },
+    "healthyBmiRange": "Faixa de IMC saudável: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "healthyWeightInfo": "Informações sobre peso saudável",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Consulte um profissional",
+    "healthyWeightMethods": {
+      "bmi": {
+        "title": "Método IMC",
+        "description": "Usa faixas de IMC (18,5-24,9) para determinar o peso saudável"
+      },
+      "who": {
+        "title": "Diretrizes da OMS",
+        "description": "Com base nas recomendações da Organização Mundial da Saúde para faixas de peso saudáveis"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas e não é uma ferramenta de diagnóstico",
+      "individualVariation": "O peso saudável varia de acordo com a massa muscular, densidade óssea e composição corporal"
+    },
+    "importantNotesList": [
+      "Esses cálculos fornecem apenas diretrizes gerais",
+      "Atletas podem ter peso maior devido à massa muscular",
+      "Consulte profissionais de saúde para aconselhamento personalizado",
+      "O peso deve ser considerado juntamente com outras métricas de saúde"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "é considerada a faixa de IMC saudável para adultos.",
+      "association": "Essa faixa está associada ao menor risco de problemas de saúde e mortalidade."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Insira suas medidas para calcular sua faixa de peso saudável",
+    "healthyWeightRange": "Sua faixa de peso saudável é de {min} - {max} {unit}",
+    "currentWeightStatus": "Seu peso atual é {status} a faixa saudável",
+    "belowRange": "abaixo",
+    "withinRange": "dentro de",
+    "aboveRange": "acima",
+    "ageWarning": "Para crianças e adolescentes (≤20 anos), utilizar gráficos de crescimento pediátrico",
+    "assessmentResult": "Resultado da Avaliação:",
+    "weightAnalysis": "Análise de Peso"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas baseadas em fórmulas matemáticas e não deve ser usada como substituto do aconselhamento médico profissional. Os resultados individuais podem variar com base em fatores não considerados nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Consulte um profissional de saúde",
+    "content": "Se você tiver dúvidas sobre seu peso ou saúde, consulte um profissional de saúde que possa fornecer aconselhamento personalizado com base em seu histórico médico completo e nas circunstâncias individuais."
+  },
+  "errors": {
+    "age": "Insira uma idade válida (1-120)",
+    "gender": "Por favor selecione o sexo",
+    "heightFt": "Por favor insira pés válidos",
+    "heightIn": "Insira polegadas válidas (0-11)",
+    "heightCm": "Por favor insira uma altura válida em cm",
+    "weight": "Por favor insira um peso válido"
+  },
+  "tooltips": {
+    "age": "A idade pode afetar cálculos de peso saudável para crianças/adolescentes",
+    "height": "Sua medida de altura atual",
+    "weight": "Seu peso corporal atual",
+    "gender": "Diferentes fórmulas podem ser usadas para homens e mulheres"
+  },
+  "weight_range_calculation_0": "Cálculo da faixa de peso",
+  "enter_your_height_to_calculate_your_healthy_weight_1": "Insira sua altura para calcular sua faixa de peso saudável",
+  "unit_system_2": "Sistema de Unidades",
+  "us_ftin_3": "EUA (pés/pol.)",
+  "metric_cm_4": "Métrico (cm)",
+  "height_5": "Altura",
+  "ft_6": "pés",
+  "in_7": "em",
+  "height_cm_8": "Altura (cm)",
+  "age_requirement_9": "Requisito de idade",
+  "this_calculator_is_intended_for_adults_18_years_an_10": "Esta calculadora destina-se a adultos com 18 anos ou mais. Os cálculos do IMC podem não ser\n                              apropriado para crianças, mulheres grávidas ou atletas.",
+  "calculate_11": "Calcular",
+  "reset_12": "Reiniciar",
+  "healthy_weight_13": "Peso Saudável",
+  "kg_14": "kg",
+  "lbs_15": "libras",
+  "for_height_16": "Para altura",
+  "enter_your_height_to_see_your_healthy_weight_range_17": "Insira sua altura para ver sua faixa de peso saudável.",
+  "your_healthy_weight_range_18": "Sua faixa de peso saudável",
+  "for_height_19": "Para altura",
+  "cm_20": "cm):",
+  "lbs_21": "libras",
+  "kg_22": "kg)",
+  "this_calculator_uses_the_standard_bmi_range_23": "Esta calculadora usa a faixa padrão de IMC (",
+  "for_adults_24": ") para adultos.",
+  "calculation_steps_25": "Etapas de cálculo",
+  "step_1_height_conversion_26": "Passo 1: Conversão de Altura",
+  "height_27": "Altura:",
+  "height_in_meters_28": "Altura em metros:",
+  "m_29": "m",
+  "step_2_bmi_calculation_30": "Passo 2: Cálculo do IMC",
+  "lower_limit_bmi_185_31": "Limite inferior (IMC 18,5):",
+  "kg_32": "kg",
+  "upper_limit_bmi_250_33": "Limite superior (IMC 25,0):",
+  "kg_34": "kg",
+  "formula_bmi_height_35": "Fórmula: IMC × altura²",
+  "about_healthy_weight_36": "Sobre peso saudável",
+  "bmibased_calculation_37": "Cálculo baseado no IMC",
+  "based_on_bmi_range_38": "Com base na faixa de IMC:",
+  "k_185_250_kgm_39": "18,5 – 25,0kg/m²",
+  "formula_40": "Fórmula:",
+  "weight_bmi_height_41": "Peso = IMC × altura²",
+  "standard_42": "Padrão:",
+  "world_health_organization_guidelines_43": "Diretrizes da Organização Mundial da Saúde",
+  "age_group_44": "Faixa etária:",
+  "adults_18_years_and_older_45": "Adultos com 18 anos ou mais",
+  "important_notes_46": "Notas importantes",
+  "general_guideline_47": "Diretriz geral:",
+  "not_personalized_medical_advice_48": "Aconselhamento médico não personalizado",
+  "limitations_49": "Limitações:",
+  "doesnt_account_for_muscle_mass_50": "Não leva em conta a massa muscular",
+  "special_populations_51": "Populações especiais:",
+  "may_not_apply_to_athletes_52": "Pode não se aplicar a atletas",
+  "consultation_53": "Consulta:",
+  "speak_with_healthcare_provider_54": "Fale com o profissional de saúde",
+  "bmi_categories_55": "Categorias de IMC",
+  "bmi_range_56": "Faixa de IMC",
+  "category_57": "Categoria",
+  "below_185_58": "Abaixo de 18,5",
+  "underweight_59": "Abaixo do peso",
+  "k_185_249_60": "18,5 - 24,9",
+  "normal_weight_61": "Peso normal",
+  "k_250_299_62": "25,0 - 29,9",
+  "overweight_63": "Sobrepeso",
+  "k_300_and_above_64": "30,0 e acima",
+  "obese_65": "Obeso",
+  "factors_not_considered_66": "Fatores não considerados",
+  "body_composition_67": "Composição corporal:",
+  "muscle_vs_fat_ratio_68": "Proporção músculo vs. gordura",
+  "bone_density_69": "Densidade óssea:",
+  "individual_skeletal_differences_70": "Diferenças esqueléticas individuais",
+  "age_71": "Idade:",
+  "metabolism_and_body_changes_72": "Metabolismo e mudanças corporais",
+  "ethnicity_73": "Etnia:",
+  "different_body_type_variations_74": "Diferentes variações de tipo de corpo",
+  "health_conditions_75": "Condições de saúde:",
+  "medical_considerations_76": "Considerações médicas"
+}

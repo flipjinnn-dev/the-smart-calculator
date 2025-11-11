@@ -1,0 +1,136 @@
+{
+  "pageTitle": "Kalkulator podatku dochodowego",
+  "pageDescription": "Oblicz podatek dochodowy za pomocą naszego bezpłatnego kalkulatora online",
+  "form": {
+    "labels": {
+      "input1": "Wejście 1",
+      "input2": "Wejście 2",
+      "input3": "Wejście 3"
+    },
+    "placeholders": {
+      "input1": "Wprowadź pierwszą wartość",
+      "input2": "Wprowadź drugą wartość",
+      "input3": "Wprowadź trzecią wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz podatek dochodowy",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "result1": "Wynik 1",
+    "result2": "Wynik 2",
+    "calculationDetails": "Wyniki obliczeń podatku dochodowego"
+  },
+  "educational": {
+    "info": "Informacje o podatku dochodowym",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja podatku dochodowego",
+        "description": "Informacja o podatku dochodowym"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Sposób naliczania podatku dochodowego"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Zastosowanie podatku dochodowego"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki podatku dochodowego",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć podatek dochodowy",
+    "resultMessage": "Wyniki obliczenia podatku dochodowego przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia podatku dochodowego:",
+    "analysis": "Analiza podatku dochodowego"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten pozwala oszacować podatek dochodowy w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "tax_calculator_0": "Kalkulator podatkowy",
+  "basic_information_1": "Podstawowe informacje",
+  "filing_status_2": "Stan zgłoszenia",
+  "single_3": "Pojedynczy",
+  "married_filing_jointly_4": "Małżeństwo rozliczające się wspólnie",
+  "married_filing_separately_5": "Żonaty, rozliczający się osobno",
+  "head_of_household_6": "Głowa gospodarstwa domowego",
+  "qualified_widower_7": "Wykwalifikowana wdowa (er)",
+  "tax_year_8": "Rok podatkowy",
+  "k_2024_9": "2024",
+  "k_2025_10": "2025",
+  "young_dependents_016_11": "Młodzi podopieczni (0-16 lat)",
+  "other_dependents_17_12": "Inne osoby na utrzymaniu (17+)",
+  "person_1_income_13": "Dochód osoby 1",
+  "wages_tips_w2_box_1_14": "Płace i napiwki (W-2, ramka 1)",
+  "federal_tax_withheld_w2_box_2_15": "Potrącenie podatku federalnego (W-2, pole 2)",
+  "state_tax_withheld_w2_box_17_16": "Podatek stanowy potrącony (W-2, pole 17)",
+  "businessselfemployment_income_17": "Dochód z działalności gospodarczej/samozatrudnienia",
+  "person_2_income_18": "Dochód osoby 2",
+  "wages_tips_w2_box_1_19": "Płace i napiwki (W-2, ramka 1)",
+  "federal_tax_withheld_w2_box_2_20": "Potrącenie podatku federalnego (W-2, pole 2)",
+  "other_income_21": "Inne dochody",
+  "interest_income_1099int_22": "Dochód z odsetek (1099-INT)",
+  "ordinary_dividends_1099div_23": "Dywidendy zwykłe (1099-DIV)",
+  "qualified_dividends_1099div_24": "Kwalifikowane dywidendy (1099-DIV)",
+  "longterm_capital_gains_25": "Długoterminowe zyski kapitałowe",
+  "other_income_26": "Inne dochody",
+  "deductions_credits_27": "Odliczenia i kredyty",
+  "ira_contributions_28": "Składki IRA",
+  "real_estate_tax_29": "Podatek od nieruchomości",
+  "mortgage_interest_30": "Odsetki od kredytu hipotecznego",
+  "charitable_donations_31": "Darowizny na cele charytatywne",
+  "calculate_32": "Obliczać",
+  "tax_results_33": "Wyniki podatkowe",
+  "your_complete_tax_breakdown_34": "Twoje pełne zestawienie podatków",
+  "adjusted_gross_income_35": "Skorygowany dochód brutto",
+  "taxable_income_36": "Dochód podlegający opodatkowaniu",
+  "federal_tax_owed_37": "Należny podatek federalny",
+  "selfemployment_tax_38": "Podatek od samozatrudnienia",
+  "total_tax_liability_39": "Całkowite zobowiązanie podatkowe",
+  "tax_rates_40": "Stawki podatkowe",
+  "effective_tax_rate_41": "Efektywna stawka podatku",
+  "marginal_tax_rate_42": "Krańcowa stawka podatku",
+  "deduction_used_43": "Zastosowane odliczenie:",
+  "standard_44": "Standardowe: $",
+  "itemized_45": "| Wyszczególnione: $",
+  "enter_your_tax_information_to_see_your_results_46": "Wprowadź swoje dane podatkowe, aby zobaczyć wyniki",
+  "formulas_calculation_steps_47": "Wzory i kroki obliczeniowe",
+  "k_1_gross_income_48": "1. Dochód brutto",
+  "gross_wages_business_income_interest_dividends_cap_49": "Brutto = płace + dochód z działalności gospodarczej + odsetki + dywidendy + zyski kapitałowe + inne dochody",
+  "k_2_adjusted_gross_income_agi_50": "2. Skorygowany dochód brutto (AGI)",
+  "agi_gross_income_abovetheline_deductions_ira_stude_51": "AGI = dochód brutto – odliczenia powyżej linii (IRA, odsetki od pożyczek studenckich itp.)",
+  "k_3_taxable_income_52": "3. Dochód podlegający opodatkowaniu",
+  "taxable_income_agi_maxstandard_deduction_itemized__53": "Dochód podlegający opodatkowaniu = AGI – max (odliczenie standardowe, wyszczególnione odliczenia)",
+  "k_4_federal_tax_54": "4. Podatek federalny",
+  "applied_using_progressive_tax_brackets_based_on_fi_55": "Stosowane przy użyciu progresywnych progów podatkowych w zależności od statusu zgłoszenia"
+}

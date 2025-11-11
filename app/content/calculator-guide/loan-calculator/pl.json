@@ -1,0 +1,168 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator kredytowy?",
+      "content": "Zarządzanie pożyczką staje się proste, gdy masz odpowiednie narzędzia. Nasz kalkulator pożyczki pomoże Ci oszacować miesięczne raty, całkowity koszt odsetek i harmonogram spłat. Niezależnie od tego, czy planujesz pożyczkę osobistą, kredyt samochodowy, kredyt mieszkaniowy czy pożyczkę biznesową, to narzędzie zapewnia jasny wgląd w Twoją zdolność kredytową i plan spłaty."
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora kredytowego?",
+      "subSections": [
+        {
+          "heading": "Oszacuj miesięczną opłatę",
+          "content": "Oblicz miesięczną spłatę kredytu, korzystając z kwoty pożyczki, okresu pożyczki i stopy procentowej."
+        },
+        {
+          "heading": "Porównaj rodzaje pożyczek",
+          "content": "Sprawdź różne kalkulatory, takie jak pożyczka osobista, pożyczka samochodowa, pożyczka studencka i kalkulatory kredytu hipotecznego."
+        },
+        {
+          "heading": "Zrozumienie kosztów odsetek",
+          "content": "Skorzystaj z kalkulatora odsetek pożyczki lub kalkulatora EMI, aby zobaczyć, ile odsetek zapłacisz w czasie."
+        },
+        {
+          "heading": "Sprawdź harmonogram amortyzacji",
+          "content": "Zobacz, jak każda płatność jest podzielona na kwotę główną i odsetki przez cały okres kredytowania."
+        }
+      ]
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora pożyczki (krok po kroku)",
+      "subSections": [
+        {
+          "heading": "Krok 1: Wprowadź kwotę pożyczki",
+          "content": "Wpisz całkowitą kwotę, jaką planujesz pożyczyć."
+        },
+        {
+          "heading": "Krok 2: Wybierz Okres pożyczki",
+          "content": "Wybierz, jak długo chcesz spłacać pożyczkę (w miesiącach lub latach)."
+        },
+        {
+          "heading": "Krok 3: Wprowadź stopę procentową",
+          "content": "Wprowadź roczną stopę procentową oferowaną przez Twój bank lub pożyczkodawcę."
+        },
+        {
+          "heading": "Krok 4: Kliknij Oblicz",
+          "content": "Natychmiast zobacz swój miesięczny EMI, całkowite odsetki do zapłaty i harmonogram spłat."
+        }
+      ]
+    },
+    {
+      "heading": "Rodzaje kalkulatorów kredytowych, z których możesz skorzystać",
+      "subSections": [
+        {
+          "heading": "Kalkulator pożyczki osobistej",
+          "content": "Zaplanuj swoje krótkoterminowe potrzeby pożyczkowe."
+        },
+        {
+          "heading": "Kalkulator kredytu samochodowego",
+          "content": "Znajdź najlepszy plan spłaty kredytu samochodowego."
+        },
+        {
+          "heading": "Kalkulator kredytu studenckiego",
+          "content": "Oszacuj spłatę kredytu edukacyjnego."
+        },
+        {
+          "heading": "Kalkulator kredytu hipotecznego",
+          "content": "Oblicz przystępność kredytu mieszkaniowego i miesięczny EMI."
+        },
+        {
+          "heading": "Kalkulator kredytu biznesowego",
+          "content": "Sprawdź opcje finansowania dostosowane do potrzeb Twojej firmy."
+        },
+        {
+          "heading": "Kalkulator kredytu mieszkaniowego",
+          "content": "Poznaj całkowity koszt posiadania domu."
+        },
+        {
+          "heading": "Kalkulator konsolidacji zadłużenia",
+          "content": "Połącz wiele pożyczek w jedną łatwą płatność."
+        },
+        {
+          "heading": "Kalkulator zdolności kredytowej",
+          "content": "Oszacuj, ile możesz pożyczyć, na podstawie dochodów i wydatków."
+        }
+      ]
+    },
+    {
+      "heading": "Zaawansowane obliczenia kredytu",
+      "subSections": [
+        {
+          "heading": "Prosty kalkulator kredytu oprocentowania",
+          "content": "W przypadku podstawowych pożyczek o stałym oprocentowaniu."
+        },
+        {
+          "heading": "Kalkulator odsetek składanych",
+          "content": "Zobacz wpływ kapitalizacji pożyczki."
+        },
+        {
+          "heading": "Kalkulator okresu kredytu",
+          "content": "Dostosuj czas spłaty do swojego budżetu."
+        },
+        {
+          "heading": "Kalkulator opłacalności kredytu",
+          "content": "Dowiedz się, jaką kwotą kredytu możesz wygodnie zarządzać."
+        },
+        {
+          "heading": "Kalkulator stóp procentowych",
+          "content": "Porównaj oferty kredytów, dostosowując oprocentowanie."
+        },
+        {
+          "heading": "Kalkulator harmonogramu pożyczki",
+          "content": "Zobacz pełne zestawienie płatności miesiąc po miesiącu."
+        },
+        {
+          "heading": "Kalkulator finansów",
+          "content": "Ogólne narzędzie do wielu obliczeń finansowych."
+        }
+      ]
+    },
+    {
+      "heading": "Korzyści z korzystania z kalkulatora kredytowego",
+      "subSections": [
+        {
+          "heading": "Oszczędzaj czas",
+          "content": "Uzyskaj natychmiastowe wyniki bez ręcznych obliczeń."
+        },
+        {
+          "heading": "Lepsze budżetowanie",
+          "content": "Efektywniej planuj swoje finanse dzięki przejrzystym szacunkom spłaty."
+        },
+        {
+          "heading": "Porównaj opcje",
+          "content": "Oceń obok siebie różne scenariusze pożyczek."
+        },
+        {
+          "heading": "Wgląd w wcześniejszą spłatę",
+          "content": "Dowiedz się, jak wcześniejsze płatności mogą obniżyć odsetki."
+        },
+        {
+          "heading": "Inteligentne podejmowanie decyzji",
+          "content": "Podejmuj świadome decyzje przed złożeniem wniosku o pożyczkę."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator kredytowy?",
+      "a": "Kalkulator pożyczki pomaga oszacować miesięczny EMI, koszt odsetek i harmonogram spłat w oparciu o kwotę pożyczki, stopę procentową i okres spłaty."
+    },
+    {
+      "q": "Czy mogę porównać różne rodzaje pożyczek?",
+      "a": "Tak, nasze narzędzie działa jako pożyczka osobista, pożyczka samochodowa, pożyczka studencka, pożyczka hipoteczna i kalkulator pożyczki biznesowej."
+    },
+    {
+      "q": "Co to jest EMI?",
+      "a": "EMI (Equated Monthly Ratment) to stała płatność, którą dokonujesz co miesiąc na rzecz pożyczki, która obejmuje zarówno kwotę główną, jak i odsetki."
+    },
+    {
+      "q": "W jaki sposób harmonogram amortyzacji może pomóc?",
+      "a": "Pokazuje podział każdego EMI na kwotę główną i odsetki, pomagając zrozumieć postęp spłaty."
+    },
+    {
+      "q": "Czy mogę obliczyć świadczenia z tytułu wcześniejszej spłaty?",
+      "a": "Tak, dostosowując warunki kredytu i płatności, możesz zobaczyć, ile odsetek zaoszczędzisz dzięki wcześniejszej spłacie."
+    }
+  ]
+}

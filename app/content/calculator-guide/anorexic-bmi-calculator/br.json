@@ -1,0 +1,101 @@
+{
+  "color": "vermelho",
+  "sections": [
+    {
+      "heading": "Calculadora de IMC anoréxica: avalie seu índice de massa corporal com segurança",
+      "content": "A Calculadora de IMC anoréxica é uma ferramenta especializada projetada para ajudar indivíduos e cuidadores a avaliar os níveis de índice de massa corporal (IMC) associados à anorexia nervosa. Esta ferramenta on-line de IMC anoréxico fornece informações rápidas sobre se alguém pode estar em risco de problemas de saúde relacionados ao baixo peso, variando de anorexia leve a extrema. Usando esta calculadora, você pode calcular o IMC anoréxico com segurança e entender como seu IMC se compara a faixas saudáveis, orientando a intervenção precoce e a consulta clínica."
+    },
+    {
+      "heading": "Como usar a calculadora de IMC anoréxica gratuita online",
+      "subSections": [
+        {
+          "heading": "Guia passo a passo (unidades métricas)",
+          "content": "1. Insira seu peso em quilogramas (kg).\n2. Insira sua altura em centímetros (cm).\n3. Clique em “Calcular” para obter seu IMC."
+        },
+        {
+          "heading": "Guia passo a passo (unidades dos EUA)",
+          "content": "1. Insira seu peso em libras (lbs).\n2. Insira sua altura em polegadas (pol.).\n3. Clique em “Calcular” para determinar seu IMC."
+        },
+        {
+          "heading": "Resultados",
+          "content": "Uma vez calculado, seu IMC será exibido junto com a categoria de risco – anorexia leve, moderada, grave ou extrema."
+        }
+      ]
+    },
+    {
+      "heading": "Compreendendo as faixas de IMC para anorexia",
+      "subSections": [
+        {
+          "heading": "Anorexia leve",
+          "content": "IMC: 17–18,5 → Um pouco abaixo do IMC saudável, aumento do risco de complicações de saúde."
+        },
+        {
+          "heading": "Anorexia moderada",
+          "content": "IMC: 16–16,9 → Baixo peso moderado, maior risco de estresse de órgãos e deficiência de nutrientes."
+        },
+        {
+          "heading": "Anorexia grave",
+          "content": "IMC: 15–15,9 → Baixo peso significativo, requer supervisão médica."
+        },
+        {
+          "heading": "Anorexia Extrema",
+          "content": "IMC: <15 → Intervenção clínica urgente e com risco de vida necessária."
+        }
+      ]
+    },
+    {
+      "heading": "Por que usar uma calculadora de índice de massa corporal anoréxica?",
+      "content": "✔ Compare rapidamente seu IMC com os limites específicos da anorexia.\n✔ Identifique os primeiros sinais de alerta de anorexia nervosa.\n✔ Entenda os riscos à saúde com baixo IMC, incluindo falência de órgãos, perda de densidade óssea e imunidade enfraquecida.\n✔ Apoie a interpretação do IMC adequada à idade para anorexia, especialmente em adolescentes e adultos jovens.\n✔ Compare seu IMC com faixas de IMC saudável e IMC anoréxica."
+    },
+    {
+      "heading": "IMC anoréxico vs outras categorias de IMC",
+      "content": "• IMC anoréxico versus IMC saudável: destaca a gravidade do baixo peso.\n• IMC anoréxico versus IMC abaixo do peso: Mostra a diferença entre baixo peso leve e anorexia clinicamente significativa.\n• Gráfico de IMC de Anorexia vs Bulimia: Útil para distinguir entre diferentes transtornos alimentares.\n• Calculadora de IMC para Magreza Extrema: Ajuda a monitorar tendências de IMC perigosamente baixas."
+    },
+    {
+      "heading": "Limitações e isenção de responsabilidade",
+      "content": "⚠ O IMC por si só não pode diagnosticar anorexia nervosa. A avaliação clínica é essencial.\n⚠ Não leva em consideração massa muscular, composição corporal ou condições médicas subjacentes.\n⚠ Use esta ferramenta apenas como um guia de triagem e não como um substituto para conselhos profissionais de saúde."
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é IMC anoréxico?",
+      "a": "O IMC anoréxico refere-se à faixa do índice de massa corporal associada à anorexia nervosa, indicando baixo peso e riscos potenciais à saúde."
+    },
+    {
+      "q": "Como calculo o IMC anoréxico?",
+      "a": "Insira seu peso e altura em nossa calculadora de IMC anoréxica gratuita online para obter uma leitura imediata do IMC."
+    },
+    {
+      "q": "Quais são as faixas de IMC para anorexia?",
+      "a": "Leve: 17–18,5, Moderado: 16–16,9, Grave: 15–15,9, Extremo: <15."
+    },
+    {
+      "q": "O IMC anoréxico é igual ao IMC abaixo do peso?",
+      "a": "Não exatamente. O IMC abaixo do peso é uma categoria mais ampla; o IMC anoréxico indica baixo peso clinicamente significativo."
+    },
+    {
+      "q": "Os adolescentes podem usar esta calculadora de IMC para anorexia?",
+      "a": "Sim, mas a interpretação do IMC para adolescentes pode ser diferente. Consulte sempre um pediatra ou nutricionista."
+    },
+    {
+      "q": "Quais são os sinais de anorexia pelo IMC?",
+      "a": "Os sinais incluem rápida perda de peso, IMC extremamente baixo, fadiga, tontura e menstruação irregular em mulheres."
+    },
+    {
+      "q": "Posso usar esta ferramenta para monitorar meu progresso?",
+      "a": "Sim, a calculadora de peso para anorexia ajuda a monitorar as alterações do IMC, mas recomenda-se orientação profissional."
+    },
+    {
+      "q": "Quais são os riscos para a saúde de um IMC baixo?",
+      "a": "Os riscos incluem complicações cardíacas, perda de densidade óssea, falência de órgãos, imunidade enfraquecida e desequilíbrios hormonais."
+    },
+    {
+      "q": "Quão precisa é esta calculadora de IMC anoréxica?",
+      "a": "Fornece uma estimativa precisa do IMC, mas a avaliação clínica é essencial para o diagnóstico e planejamento do tratamento."
+    },
+    {
+      "q": "O que devo fazer se meu IMC estiver na faixa extrema de anorexia?",
+      "a": "Procure assistência médica imediata. A anorexia extrema é fatal e requer intervenção profissional."
+    }
+  ]
+}

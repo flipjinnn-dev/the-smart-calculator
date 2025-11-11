@@ -1,0 +1,155 @@
+{
+  "pageTitle": "Kalkulator czynszu",
+  "pageDescription": "Oblicz swoje miesięczne płatności czynszu i przystępność cenową za pomocą kompleksowej analizy obejmującej media, kaucje i porównania rynku wynajmu",
+  "form": {
+    "labels": {
+      "monthlyIncome": "Miesięczny dochód brutto",
+      "otherMonthlyDebts": "Inne miesięczne spłaty zadłużenia",
+      "rentAmount": "Miesięczna kwota czynszu",
+      "utilities": "Miesięczne koszty mediów",
+      "rentersInsurance": "Miesięczne ubezpieczenie najemcy",
+      "securityDeposit": "Depozyt zabezpieczający",
+      "leaseTerm": "Okres najmu",
+      "petFees": "Opłaty za zwierzęta domowe/miesięczny czynsz za zwierzęta"
+    },
+    "placeholders": {
+      "monthlyIncome": "Wprowadź miesięczny dochód brutto",
+      "otherMonthlyDebts": "Wprowadź inne miesięczne spłaty zadłużenia",
+      "rentAmount": "Wprowadź miesięczną kwotę czynszu",
+      "utilities": "Wprowadź miesięczne koszty mediów",
+      "rentersInsurance": "Wprowadź miesięczne ubezpieczenie najemcy",
+      "securityDeposit": "Wprowadź kwotę kaucji",
+      "leaseTerm": "Wprowadź okres najmu w miesiącach",
+      "petFees": "Wprowadź opłaty za zwierzęta lub miesięczny czynsz za zwierzę"
+    },
+    "buttons": {
+      "calculate": "Oblicz przystępność czynszu",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "totalMonthlyCost": "Całkowity miesięczny koszt mieszkania",
+    "housingRatio": "Stosunek kosztów mieszkania do dochodów",
+    "depositCost": "Koszt depozytu z góry",
+    "annualHousingCost": "Roczny koszt mieszkania",
+    "rentCalculatorResultsTitle": "Wyniki kalkulatora czynszu"
+  },
+  "educational": {
+    "rentInfo": "Informacje o wynajmie",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "rentFacts": {
+      "affordability": {
+        "title": "Przystępność wynajmu",
+        "description": "Eksperci finansowi zalecają wydawanie na mieszkanie nie więcej niż 30% dochodu brutto"
+      },
+      "costs": {
+        "title": "Dodatkowe koszty wynajmu",
+        "description": "Media, ubezpieczenie najemcy i kaucje mogą znacznie zwiększyć całkowite koszty mieszkania"
+      },
+      "comparison": {
+        "title": "Porównanie rynku",
+        "description": "Sprawdź porównywalne czynsze w okolicy, aby zapewnić uczciwe ceny"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki dotyczące przystępności czynszu",
+      "actual": "Rzeczywiste koszty wynajmu mogą się różnić w zależności od lokalizacji, stanu nieruchomości i warunków rynkowych"
+    },
+    "importantNotesList": [
+      "Uwzględnij media, które mogą się znacznie różnić w zależności od lokalizacji i pory roku",
+      "Kaucja wynosi zazwyczaj równowartość miesięcznego czynszu",
+      "Często wymagane jest ubezpieczenie najemcy, które kosztuje 15–30 USD miesięcznie",
+      "Oceniając przystępność cenową, weź pod uwagę bliskość pracy i koszty transportu"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź dane dotyczące wynajmu, aby obliczyć przystępność cenową",
+    "resultMessage": "Wyniki obliczenia czynszu pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia czynszu:",
+    "rentAnalysis": "Analiza czynszów"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten podaje szacunkową przystępność czynszu w oparciu o ogólne wytyczne finansowe. Rzeczywiste koszty wynajmu mogą się różnić w zależności od lokalizacji, stanu nieruchomości, warunków najmu i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowaną analizę przystępności czynszu i porady mieszkaniowe, skonsultuj się z doradcami mieszkaniowymi lub doradcami finansowymi posiadającymi wiedzę na temat rynków wynajmu i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "monthlyIncome": "Proszę podać prawidłowy miesięczny dochód brutto",
+    "otherMonthlyDebts": "Proszę podać prawidłowe inne miesięczne spłaty zadłużenia",
+    "rentAmount": "Proszę podać prawidłową miesięczną kwotę czynszu",
+    "utilities": "Proszę wprowadzić prawidłowe miesięczne koszty mediów",
+    "rentersInsurance": "Proszę podać ważne miesięczne ubezpieczenie najemcy",
+    "securityDeposit": "Proszę wprowadzić prawidłową kwotę depozytu",
+    "leaseTerm": "Proszę wprowadzić prawidłowy okres najmu",
+    "petFees": "Proszę podać prawidłowe opłaty za zwierzę lub miesięczny czynsz za zwierzę"
+  },
+  "tooltips": {
+    "monthlyIncome": "Twój całkowity miesięczny dochód brutto przed opodatkowaniem",
+    "otherMonthlyDebts": "Całkowite miesięczne płatności za wszystkie pozostałe długi (kredyty samochodowe, kredyty studenckie, karty kredytowe itp.)",
+    "rentAmount": "Miesięczny czynsz pobierany przez wynajmującego",
+    "utilities": "Szacunkowe miesięczne koszty energii elektrycznej, gazu, wody, internetu itp.",
+    "rentersInsurance": "Miesięczny koszt polisy ubezpieczeniowej najemcy",
+    "securityDeposit": "Kaucja z góry zazwyczaj równa się miesięcznemu czynszowi",
+    "leaseTerm": "Długość umowy najmu w miesiącach",
+    "petFees": "Opłaty dodatkowe lub opłaty miesięczne za zwierzęta domowe"
+  },
+  "rent_calculator_0": "Kalkulator czynszu",
+  "income_information_1": "Informacje o dochodach",
+  "income_type_2": "Rodzaj dochodu",
+  "annual_income_3": "Roczny dochód",
+  "monthly_income_4": "Miesięczny dochód",
+  "debt_information_5": "Informacje o długach",
+  "other_monthly_debt_payments_6": "Inne miesięczne spłaty zadłużenia",
+  "include_credit_cards_car_loans_student_loans_and_o_7": "Uwzględnij karty kredytowe, kredyty samochodowe, pożyczki studenckie i inne miesięczne spłaty zadłużenia",
+  "financial_ratios_8": "Wskaźniki finansowe",
+  "frontend_ratio_9": "Wskaźnik front-end (%)",
+  "percentage_of_income_for_housing_typically_2830_10": "Procent dochodu na mieszkanie (zwykle 28-30%)",
+  "backend_ratio_11": "Wskaźnik zaplecza (%)",
+  "percentage_of_income_for_all_debts_typically_3640_12": "Procent dochodu dla wszystkich długów (zwykle 36-40%)",
+  "calculate_rent_13": "Oblicz czynsz",
+  "rent_affordability_results_14": "Wyniki dotyczące przystępności czynszu",
+  "your_maximum_affordable_rent_breakdown_15": "Twój maksymalny dostępny podział czynszu",
+  "maximum_affordable_rent_16": "Maksymalny przystępny czynsz:",
+  "per_month_17": "na miesiąc",
+  "calculation_breakdown_18": "Podział obliczeń",
+  "monthly_income_19": "Miesięczny dochód",
+  "frontend_limit_20": "Limit frontonu (",
+  "backend_limit_21": "Limit zaplecza (",
+  "limiting_factor_22": "Czynnik ograniczający",
+  "financial_guidelines_23": "Wytyczne finansowe:",
+  "housing_costs_should_not_exceed_24": "• Koszty mieszkania nie powinny przekraczać",
+  "of_gross_income_25": "% dochodu brutto",
+  "total_debt_payments_should_not_exceed_26": "• Całkowite spłaty zadłużenia nie powinny przekraczać",
+  "of_gross_income_27": "% dochodu brutto",
+  "consider_additional_costs_like_utilities_insurance_28": "• Weź pod uwagę dodatkowe koszty, takie jak media, ubezpieczenie i konserwacja",
+  "enter_your_income_and_debt_information_to_see_your_29": "Wprowadź informacje o dochodach i zadłużeniu, aby zobaczyć wyniki",
+  "example_calculation_30": "Przykładowe obliczenia",
+  "sample_scenario_31": "Przykładowy scenariusz:",
+  "inputs_32": "Wejścia:",
+  "annual_income_60000_33": "• Roczny dochód: 60 000 dolarów",
+  "monthly_debts_500_34": "• Miesięczne długi: 500 dolarów",
+  "frontend_ratio_30_35": "• Współczynnik front-endu: 30%",
+  "backend_ratio_40_36": "• Wskaźnik zaplecza: 40%",
+  "calculation_37": "Obliczenie:",
+  "monthly_income_60000_12_5000_38": "• Miesięczny dochód: 60 000 $ ÷ 12 = 5 000 $",
+  "frontend_limit_5000_30_1500_39": "• Limit początkowy: 5000 USD × 30% = 1500 USD",
+  "backend_limit_5000_40_500_1500_40": "• Limit zaplecza: 5000 USD × 40% - 500 USD = 1500 USD",
+  "maximum_rent_1500_41": "Maksymalny czynsz: 1500 dolarów",
+  "formulas_calculation_details_42": "Wzory i szczegóły obliczeń",
+  "k_1_monthly_income_conversion_43": "1. Miesięczne przeliczenie dochodu",
+  "if_annual_income_monthly_income_annual_income_12_44": "Jeżeli dochód roczny: Dochód miesięczny = Dochód roczny ÷ 12",
+  "if_monthly_income_monthly_income_monthly_income_as_45": "Jeśli dochód miesięczny: Dochód miesięczny = Dochód miesięczny (jak wprowadzono)",
+  "k_2_frontend_ratio_limit_46": "2. Limit współczynnika front-end",
+  "rent_frontend_frontend_ratio_monthly_income_47": "Czynsz (front-end) = współczynnik front-end × miesięczny dochód",
+  "k_3_backend_ratio_limit_48": "3. Limit proporcji zaplecza",
+  "rent_backend_backend_ratio_monthly_income_monthly__49": "Czynsz (zapas) = ​​(wskaźnik zaplecza × miesięczny dochód) – miesięczne długi",
+  "k_4_maximum_affordable_rent_50": "4. Maksymalny przystępny czynsz",
+  "maximum_rent_minfrontend_limit_backend_limit_51": "Maksymalny czynsz = min (limit front-end, limit back-end)",
+  "if_the_result_is_negative_the_affordable_rent_is_s_52": "Jeśli wynik jest ujemny, przystępny czynsz wynosi 0 USD"
+}

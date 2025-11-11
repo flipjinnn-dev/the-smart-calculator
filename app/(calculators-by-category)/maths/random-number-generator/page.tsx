@@ -1,16 +1,37 @@
 "use client";
+
+import { useCalculatorContent } from "@/hooks/useCalculatorContent";
+import { usePathname } from "next/navigation";
 import React, { useRef, useState } from "react";
-import Link from "next/link";
+
 import { Calculator } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import Logo from "@/components/logo";
+;
 import { useMobileScroll } from "@/hooks/useMobileScroll";
-import SEO from "@/lib/seo";
-
+;
 export default function RandomNumberGenerator() {
+  const pathname = usePathname();
+  const language = pathname.split('/')[1] || 'en';
+  const { content, loading, error: contentError } = useCalculatorContent('random-number-generator', language, "calculator-ui");
+  
+  // Use content or fallback to defaults
+  const contentData = content || {
+    pageTitle: "Random Number Generator",
+    pageDescription: "Calculate with our free online calculator",
+    form: {
+      labels: {},
+      placeholders: {},
+      buttons: {
+        calculate: "Calculate",
+        reset: "Reset"
+      }
+    },
+    results: {}
+  };
+
   const resultsRef = useRef<HTMLDivElement>(null);
   const scrollToRef = useMobileScroll();
   const [min, setMin] = useState<number>(1);
@@ -19,7 +40,6 @@ export default function RandomNumberGenerator() {
   const [allowRepeat, setAllowRepeat] = useState<boolean>(true);
   const [result, setResult] = useState<number[] | null>(null);
   const [error, setError] = useState<string>("");
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
@@ -49,7 +69,9 @@ export default function RandomNumberGenerator() {
         numbers.push(Math.floor(Math.random() * (max - min + 1)) + min);
       }
     } else {
-      const pool = Array.from({ length: max - min + 1 }, (_, i) => min + i);
+      const pool = Array.from({
+        length: max - min + 1
+      }, (_, i) => min + i);
       for (let i = 0; i < quantity; i++) {
         const idx = Math.floor(Math.random() * pool.length);
         numbers.push(pool[idx]);
@@ -59,50 +81,10 @@ export default function RandomNumberGenerator() {
     setResult(numbers);
     // Scroll to results
     scrollToRef(resultsRef as React.RefObject<HTMLElement>);
-
   };
+  return <>
 
-  return (
-    <>
-<SEO
-  title="Random Number Generator – Instant Random Picks"
-  description="Generate random numbers instantly. Use our free random number generator for games, statistics, and decision-making anytime."
-  keywords="random number generator, RNG calculator, number picker, randomizer tool"
-  slug="/maths/random-number-generator"
-/>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">Random Number Generator</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-        {/* Breadcrumb */}
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-blue-600">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <Link href="/maths" className="text-gray-500 hover:text-blue-600">
-                Math
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Random Number Generator</span>
-            </div>
-          </div>
-        </nav>
         {/* Main Content */}
         <main className="py-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
@@ -112,10 +94,8 @@ export default function RandomNumberGenerator() {
                   <Calculator className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Random Number Generator</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Generate random numbers in a custom range, with or without repeats, instantly.
-              </p>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.random_number_generator_2}</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.generate_random_numbers_in_a_custom_range_with_or__3}</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Left: Generator Form */}
@@ -126,30 +106,30 @@ export default function RandomNumberGenerator() {
                       <div className="w-8 h-8 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center">
                         <Calculator className="w-5 h-5 text-white" />
                       </div>
-                      <span className="text-gray-900">Random Number Generator</span>
+                      <span className="text-gray-900">{contentData.random_number_generator_4}</span>
                     </CardTitle>
-                    <CardDescription className="text-base text-gray-700">Set your range and options</CardDescription>
+                    <CardDescription className="text-base text-gray-700">{contentData.set_your_range_and_options_5}</CardDescription>
                   </CardHeader>
                   <CardContent className="p-8">
                     <form onSubmit={handleSubmit} className="space-y-4">
                       <div>
-                        <Label className="block mb-1 text-gray-900">Minimum Value</Label>
+                        <Label className="block mb-1 text-gray-900">{contentData.minimum_value_6}</Label>
                         <Input type="number" value={min} onChange={e => setMin(Number(e.target.value))} required />
                       </div>
                       <div>
-                        <Label className="block mb-1 text-gray-900">Maximum Value</Label>
+                        <Label className="block mb-1 text-gray-900">{contentData.maximum_value_7}</Label>
                         <Input type="number" value={max} onChange={e => setMax(Number(e.target.value))} required />
                       </div>
                       <div>
-                        <Label className="block mb-1 text-gray-900">How many numbers?</Label>
+                        <Label className="block mb-1 text-gray-900">{contentData.how_many_numbers_8}</Label>
                         <Input type="number" value={quantity} min={1} onChange={e => setQuantity(Number(e.target.value))} required />
                       </div>
                       <div className="flex items-center gap-2">
                         <input type="checkbox" id="repeat" checked={allowRepeat} onChange={e => setAllowRepeat(e.target.checked)} />
-                        <Label htmlFor="repeat" className="text-gray-900">Allow repeats</Label>
+                        <Label htmlFor="repeat" className="text-gray-900">{contentData.allow_repeats_9}</Label>
                       </div>
                       {error && <div className="text-red-600 text-sm">{error}</div>}
-                      <Button type="submit" className="w-full mt-2 bg-gradient-to-r from-green-500 to-green-700 text-white hover:from-green-600 hover:to-green-800">Generate</Button>
+                      <Button type="submit" className="w-full mt-2 bg-gradient-to-r from-green-500 to-green-700 text-white hover:from-green-600 hover:to-green-800">{contentData.generate_10}</Button>
                     </form>
                   </CardContent>
                 </Card>
@@ -162,14 +142,10 @@ export default function RandomNumberGenerator() {
                       <div className="w-14 h-14 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center mb-4 shadow-lg">
                         <Calculator className="w-8 h-8 text-white" />
                       </div>
-                      <div className="text-2xl font-bold text-green-700 tracking-tight mb-4 text-center">Result</div>
-                      {result !== null ? (
-                        <div className="text-3xl font-bold mb-2 text-center w-full bg-gradient-to-l from-green-700 to-green-300 bg-clip-text text-transparent">
+                      <div className="text-2xl font-bold text-green-700 tracking-tight mb-4 text-center">{contentData.result_11}</div>
+                      {result !== null ? <div className="text-3xl font-bold mb-2 text-center w-full bg-gradient-to-l from-green-700 to-green-300 bg-clip-text text-transparent">
                           {result.join(", ")}
-                        </div>
-                      ) : (
-                        <div className="text-green-700 text-center text-base">Set your range and click <span className="font-semibold text-green-900">Generate</span> to see random numbers.</div>
-                      )}
+                        </div> : <div className="text-green-700 text-center text-base">{contentData.set_your_range_and_click_12}<span className="font-semibold text-green-900">{contentData.generate_13}</span>{contentData.to_see_random_numbers_14}</div>}
                     </div>
                   </div>
                 </Card>
@@ -182,25 +158,25 @@ export default function RandomNumberGenerator() {
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center mr-3 shadow-lg">
                     <Calculator className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-2xl font-bold text-green-700 tracking-tight mb-2 text-left">How to use this generator?</CardTitle>
+                  <CardTitle className="text-2xl font-bold text-green-700 tracking-tight mb-2 text-left">{contentData.how_to_use_this_generator_15}</CardTitle>
                 </CardHeader>
                 <CardContent className="w-full flex flex-col items-start justify-center">
                   <ul className="list-none w-full max-w-md mx-0 text-green-900 space-y-4 text-base text-left">
                     <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">1</span>
-                      <span>Enter the minimum and maximum values for your range.</span>
+                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">{contentData.k_1_16}</span>
+                      <span>{contentData.enter_the_minimum_and_maximum_values_for_your_rang_17}</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">2</span>
-                      <span>Enter how many random numbers you want to generate.</span>
+                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">{contentData.k_2_18}</span>
+                      <span>{contentData.enter_how_many_random_numbers_you_want_to_generate_19}</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">3</span>
-                      <span>Choose whether to allow repeats or not.</span>
+                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">{contentData.k_3_20}</span>
+                      <span>{contentData.choose_whether_to_allow_repeats_or_not_21}</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">4</span>
-                      <span>Click <span className="font-semibold text-green-900">Generate</span> to see your random numbers instantly.</span>
+                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">{contentData.k_4_22}</span>
+                      <span>{contentData.click_23}<span className="font-semibold text-green-900">{contentData.generate_24}</span>{contentData.to_see_your_random_numbers_instantly_25}</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -209,6 +185,5 @@ export default function RandomNumberGenerator() {
           </div>
         </main>
       </div>
-    </>
-  );
+    </>;
 }

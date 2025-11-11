@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Hypothekenrückzahlungsrechner",
+  "pageDescription": "Berechnen Sie die Hypothekenrückzahlung mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Hypothekenrückzahlung",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Hypothekenrückzahlungsberechnung"
+  },
+  "educational": {
+    "info": "Informationen zur Hypothekenrückzahlung",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Definition der Hypothekenrückzahlung",
+        "description": "Informationen zur Hypothekenrückzahlung"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "So wird die Hypothekenrückzahlung berechnet"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendungsmöglichkeiten der Hypothekenrückzahlung"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Hypothekenrückzahlung",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um die Hypothekenrückzahlung zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Hypothekenrückzahlungsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Hypothekenrückzahlungsberechnung:",
+    "analysis": "Analyse der Hypothekenrückzahlung"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Hypothekenrückzahlung auf der Grundlage von Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt sind, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "mortgage_payoff_calculator_0": "Hypothekenrückzahlungsrechner",
+  "basic_loan_information_1": "Grundlegende Kreditinformationen",
+  "original_loan_amount_2": "Ursprünglicher Kreditbetrag ($)",
+  "the_original_amount_you_borrowed_3": "Der ursprünglich geliehene Betrag",
+  "original_term_years_4": "Ursprüngliche Laufzeit (Jahre)",
+  "original_loan_term_in_years_5": "Ursprüngliche Kreditlaufzeit in Jahren",
+  "annual_interest_rate_6": "Jährlicher Zinssatz (%)",
+  "your_mortgage_interest_rate_7": "Ihr Hypothekenzinssatz",
+  "calculation_method_8": "Berechnungsmethode",
+  "i_know_the_remaining_term_9": "Ich kenne die Restlaufzeit",
+  "i_know_the_unpaid_balance_and_monthly_payment_10": "Ich kenne den unbezahlten Restbetrag und die monatliche Zahlung",
+  "remaining_years_11": "Verbleibende Jahre",
+  "remaining_months_optional_12": "Verbleibende Monate (optional)",
+  "unpaid_principal_13": "Unbezahltes Kapital ($)",
+  "monthly_payment_14": "Monatliche Zahlung ($)",
+  "extra_payment_options_15": "Zusätzliche Zahlungsoptionen",
+  "onetime_extra_payment_16": "Einmalige Zusatzzahlung ($)",
+  "monthly_extra_payment_17": "Monatliche Zusatzzahlung ($)",
+  "annual_extra_payment_18": "Jährliche Zusatzzahlung ($)",
+  "switch_to_biweekly_payments_19": "Wechseln Sie zu zweiwöchentlichen Zahlungen",
+  "pay_half_your_monthly_payment_every_2_weeks_26_pay_20": "Zahlen Sie alle zwei Wochen die Hälfte Ihrer monatlichen Zahlung (26 Zahlungen/Jahr).",
+  "calculate_21": "Berechnen",
+  "payoff_analysis_22": "Auszahlungsanalyse",
+  "your_mortgage_payoff_breakdown_23": "Aufschlüsselung Ihrer Hypothekenrückzahlung",
+  "interest_savings_24": "Zinsersparnis:",
+  "time_saved_25": "Zeit gespart",
+  "new_payoff_time_26": "Neue Auszahlungszeit",
+  "monthly_payment_27": "Monatliche Zahlung",
+  "enter_mortgage_details_to_see_your_payoff_analysis_28": "Geben Sie die Hypothekendaten ein, um Ihre Auszahlungsanalyse anzuzeigen",
+  "detailed_analysis_29": "Detaillierte Analyse",
+  "complete_mortgage_payoff_comparison_30": "Vollständiger Vergleich der Hypothekenrückzahlungen",
+  "interest_savings_31": "Zinsersparnis",
+  "total_interest_saved_with_extra_payments_32": "Gesamter Zinsersparnis durch zusätzliche Zahlungen",
+  "time_saved_33": "Zeit gespart",
+  "earlier_payoff_with_extra_payments_34": "Frühere Auszahlung mit Zuzahlungen",
+  "monthly_payment_35": "Monatliche Zahlung",
+  "standard_principal_interest_36": "Standardkapital und Zinsen",
+  "scenario_37": "Szenario",
+  "payoff_time_38": "Auszahlungszeit",
+  "total_interest_39": "Gesamtzins",
+  "total_payments_40": "Gesamtzahlungen",
+  "standard_payments_41": "Standardzahlungen",
+  "with_extra_payments_42": "Mit zusätzlichen Zahlungen",
+  "difference_savings_43": "Differenz (Einsparungen)",
+  "key_insights_44": "Wichtige Erkenntnisse:",
+  "extra_payments_reduce_your_loan_term_by_45": "• Zusätzliche Zahlungen verkürzen die Laufzeit Ihres Darlehens",
+  "youll_save_46": "• Sie sparen",
+  "in_total_interest_47": "im Gesamtinteresse",
+  "your_effective_interest_savings_rate_is_48": "• Ihr effektiver Sparzins beträgt",
+  "understanding_mortgage_payoff_strategies_49": "Hypothekenrückzahlungsstrategien verstehen",
+  "extra_payment_benefits_50": "Zusätzliche Zahlungsvorteile",
+  "interest_savings_51": "Zinsersparnis:",
+  "extra_payments_go_directly_to_principal_reducing_t_52": "Zusätzliche Zahlungen gehen direkt an den Auftraggeber, wodurch sich der Gesamtbetrag verringert\n                            Zinsen gezahlt",
+  "time_savings_53": "Zeitersparnis:",
+  "pay_off_your_mortgage_years_earlier_than_scheduled_54": "Zahlen Sie Ihre Hypothek Jahre früher als geplant ab",
+  "equity_building_55": "Eigenkapitalaufbau:",
+  "build_home_equity_faster_with_accelerated_principa_56": "Bauen Sie Eigenheimkapital schneller mit beschleunigter Kapitalerhöhung auf\n                            Zahlungen",
+  "payment_strategies_57": "Zahlungsstrategien",
+  "monthly_extra_58": "Monatliches Extra:",
+  "add_a_fixed_amount_to_each_monthly_payment_59": "Fügen Sie jeder monatlichen Zahlung einen festen Betrag hinzu",
+  "annual_lump_sum_60": "Jahrespauschale:",
+  "use_tax_refunds_or_bonuses_for_extra_payments_61": "Nutzen Sie Steuerrückerstattungen oder Boni für Nachzahlungen",
+  "biweekly_payments_62": "Zweiwöchentliche Zahlungen:",
+  "pay_half_monthly_amount_every_2_weeks_26_paymentsy_63": "Zahlen Sie alle 2 Wochen den halben Monatsbetrag (26 Zahlungen/Jahr)",
+  "important_64": "Wichtig:",
+  "before_making_extra_mortgage_payments_ensure_you_h_65": "Bevor Sie zusätzliche Hypothekenzahlungen leisten, stellen Sie sicher, dass ein Notfall vorliegt\n                      Fonds, maximieren den Arbeitgeber-401(k)-Matching und haben höher verzinste Schulden abbezahlt. Überlegen Sie\n                      Ihren Hypothekenzinssatz im Vergleich zu potenziellen Anlagerenditen, wenn Sie sich für zusätzliche Zahlungen entscheiden."
+}

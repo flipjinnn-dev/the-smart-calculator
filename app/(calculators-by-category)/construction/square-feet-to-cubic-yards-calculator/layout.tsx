@@ -1,0 +1,70 @@
+import { headers } from "next/headers";
+import type { Metadata } from "next";
+import { getCanonicalUrl } from "@/lib/url-utils";
+
+// Multilingual SEO metadata for square-feet-to-cubic-yards-calculator
+const squarefeettocubicyardscalculatorMeta = {
+  en: {
+    title: "Square Feet to Cubic Yards Calculator – Materials Online | The",
+    description: "Use the Square Feet to Cubic Yards Calculator to convert square feet to cubic yards for materials. Accurate, free online tool for construction and landscaping.",
+    keywords: "square feet to cubic yards calculator, area to volume, materials converter, online square, construction tool, landscaping calculator, free yards tool, material estimate"
+  },
+  br: {
+    title: "Square Feet to Cubic Yards Calculator – Materials Online | The",
+    description: "Use o Conversor Metros Quadrados para Metros Cúbicos para converter metros quadrados em metros cúbicos para materiais. Ferramenta precisa e gratuita para construção e paisagismo.",
+    keywords: "conversor metros quadrados cúbicos, área volume, conversor materiais, online quadrado, ferramenta construção, calculadora paisagismo, gratuita ferramenta metros, estimativa material"
+  },
+  pl: {
+    title: "Square Feet to Cubic Yards Calculator – Materials Online | The",
+    description: "Użyj square feet to cubic yards  – materials online | thesmartcalculator do szybkich i dokładnych wyników. Proste dane wejściowe, czytelne wyniki i pomocny kont.",
+    keywords: "quadratfuß zu kubikyard rechner, fläche volumen, materials converter, online quadrat, bau tool, landschaft rechner, kostenloser yards tool, material schätzung"
+  },
+  de: {
+    title: "Square Feet to Cubic Yards Calculator – Materials Online | The",
+    description: "Berechne mit dem Quadratfuß zu Kubikyard Rechner Umwandlung für Materialien. Präzises, kostenloses Tool für Bau und Landschaft., quadratfuß zu kubikyard rechner",
+    keywords: "square feet to cubic yards rechner, area to volume, materials converter, online square, construction tool, landscaping rechner, kostenlos yards tool, material estimate"
+  }
+};
+
+export async function generateMetadata(): Promise<Metadata> {
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language =
+    langHeader && squarefeettocubicyardscalculatorMeta[langHeader as keyof typeof squarefeettocubicyardscalculatorMeta]
+      ? langHeader
+      : "en";
+
+  const meta = squarefeettocubicyardscalculatorMeta[language as keyof typeof squarefeettocubicyardscalculatorMeta];
+  
+  // Generate correct canonical URL using localized slug
+  const canonicalUrl = getCanonicalUrl('square-feet-to-cubic-yards-calculator', language);
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        'en': getCanonicalUrl('square-feet-to-cubic-yards-calculator', 'en'),
+        'pt-BR': getCanonicalUrl('square-feet-to-cubic-yards-calculator', 'br'),
+        'pl': getCanonicalUrl('square-feet-to-cubic-yards-calculator', 'pl'),
+        'de': getCanonicalUrl('square-feet-to-cubic-yards-calculator', 'de'),
+      }
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "website",
+      url: canonicalUrl,
+    },
+  };
+}
+
+export default async function SquareFeetToCubicYardsCalculatorLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <>{children}</>;
+}

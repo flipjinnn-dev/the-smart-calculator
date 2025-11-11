@@ -1,0 +1,134 @@
+{
+  "pageTitle": "Earned Run Average Calculator",
+  "pageDescription": "Calculate earned run average (ERA) for pitchers",
+  "form": {
+    "labels": {
+      "earnedRuns": "Earned Runs Allowed",
+      "inningsPitched": "Innings Pitched",
+      "gamesPlayed": "Games Played (Optional)"
+    },
+    "placeholders": {
+      "earnedRuns": "Enter earned runs allowed",
+      "inningsPitched": "Enter innings pitched (e.g., 6.1 for 6 innings and 1 out)",
+      "gamesPlayed": "Enter number of games played (optional)"
+    },
+    "buttons": {
+      "calculate": "Calculate ERA",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "earnedRunAverage": "Earned Run Average (ERA)",
+    "runsPerGame": "Runs per Game",
+    "performanceRating": "Performance Rating",
+    "leagueAverage": "League Average Comparison",
+    "historicalContext": "Historical Context"
+  },
+  "educational": {
+    "eraInfo": "ERA Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Baseball Resources",
+    "eraFacts": {
+      "definition": {
+        "title": "Earned Run Average",
+        "description": "The average number of earned runs a pitcher allows per nine innings pitched"
+      },
+      "formula": {
+        "title": "Calculation Formula",
+        "description": "ERA = (Earned Runs Allowed × 9) / Innings Pitched"
+      },
+      "interpretation": {
+        "title": "Performance Interpretation",
+        "description": "ERA under 3.00 is excellent, 3.00-4.00 is above average, 4.00-5.00 is average, and above 5.00 is below average"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides ERA calculations only",
+      "actual": "Actual performance evaluation should consider additional statistics and context"
+    },
+    "importantNotesList": [
+      "ERA only counts earned runs, not runs resulting from defensive errors",
+      "A lower ERA indicates better pitching performance",
+      "Park factors and opponent strength should also be considered",
+      "Sample size matters - ERA is more meaningful over many innings"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter earned runs and innings pitched to calculate ERA",
+    "resultMessage": "Your ERA calculation results are shown below",
+    "assessmentResult": "ERA Calculation Result:",
+    "eraAnalysis": "ERA Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides ERA calculations based on standard baseball statistics formulas. Complete performance evaluation should consider additional metrics, context, and sample size factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Baseball Resources",
+    "content": "For comprehensive baseball statistics analysis and player evaluation, consult baseball reference sites, sports analytics resources, or professional scouts and analysts."
+  },
+  "errors": {
+    "earnedRuns": "Please enter a valid number of earned runs",
+    "inningsPitched": "Please enter a valid number of innings pitched",
+    "gamesPlayed": "Please enter a valid number of games played"
+  },
+  "tooltips": {
+    "earnedRuns": "Number of earned runs allowed by the pitcher (runs not resulting from defensive errors)",
+    "inningsPitched": "Total innings pitched, including partial innings (e.g., 6.1 for 6 innings and 1 out)",
+    "gamesPlayed": "Number of games in which the pitcher participated (optional for additional context)"
+  },
+  "pitching_statistics_0": "Pitching Statistics",
+  "enter_pitching_statistics_to_calculate_earned_run__1": "Enter pitching statistics to calculate Earned Run Average",
+  "earned_runs_er_2": "Earned Runs (ER)",
+  "whole_innings_pitched_3": "Whole Innings Pitched",
+  "additional_outs_4": "Additional Outs",
+  "game_length_5": "Game Length",
+  "formula_6": "Formula:",
+  "era_earned_runs_total_innings_game_innings_7": "ERA = (Earned Runs ÷ Total Innings) × Game Innings",
+  "total_innings_whole_innings_outs_3_each_out_repres_8": "Total Innings = Whole Innings + (Outs ÷ 3). Each out represents 1/3 of an inning.",
+  "calculate_9": "Calculate",
+  "era_results_10": "ERA Results",
+  "era_11": "ERA",
+  "total_innings_12": "Total Innings",
+  "enter_pitching_statistics_and_click_13": "Enter pitching statistics and click",
+  "calculate_14": "Calculate",
+  "to_see_era_15": "to see ERA.",
+  "detailed_era_breakdown_16": "Detailed ERA Breakdown",
+  "era_17": "ERA",
+  "earned_run_average_18": "Earned Run Average",
+  "earned_runs_19": "Earned Runs",
+  "er_20": "ER",
+  "total_innings_21": "Total Innings",
+  "ip_22": "IP (",
+  "game_length_23": "Game Length",
+  "innings_24": "innings",
+  "calculation_steps_25": "Calculation Steps:",
+  "step_1_26": "Step 1:",
+  "total_innings_27": "Total Innings =",
+  "k_3_28": "/3) =",
+  "innings_29": "innings",
+  "step_2_30": "Step 2:",
+  "era_31": "ERA = (",
+  "understanding_era_in_baseball_32": "Understanding ERA in Baseball",
+  "what_is_era_33": "What is ERA?",
+  "earned_run_average_era_measures_how_many_earned_ru_34": "Earned Run Average (ERA) measures how many earned runs a pitcher allows per nine innings\n                        pitched. It's one of the most important statistics for evaluating pitcher performance.",
+  "era_interpretation_35": "ERA Interpretation",
+  "under_200_excellent_36": "Under 2.00: Excellent",
+  "k_200300_very_good_37": "2.00-3.00: Very Good",
+  "k_300400_good_38": "3.00-4.00: Good",
+  "k_400500_average_39": "4.00-5.00: Average",
+  "above_500_below_average_40": "Above 5.00: Below Average",
+  "sample_calculation_41": "Sample Calculation",
+  "example_42": "Example:",
+  "pitcher_statistics_43": "Pitcher Statistics",
+  "earned_runs_15_44": "Earned Runs: 15",
+  "innings_65_45": "Innings: 65",
+  "outs_2_46": "Outs: 2",
+  "game_innings_9_47": "Game Innings: 9",
+  "calculation_48": "Calculation:",
+  "total_ip_65_23_6567_49": "Total IP = 65 + (2/3) = 65.67",
+  "era_15_6567_9_50": "ERA = (15 ÷ 65.67) × 9",
+  "era_206_51": "ERA = 2.06"
+}

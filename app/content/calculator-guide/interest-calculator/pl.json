@@ -1,0 +1,198 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator odsetek?",
+      "content": "Nasz internetowy kalkulator odsetek pomoże Ci dowiedzieć się, ile odsetek zarobisz na oszczędnościach i inwestycjach lub spłacisz pożyczki. Niezależnie od tego, czy potrzebujesz prostego kalkulatora odsetek, czy kalkulatora odsetek składanych, to narzędzie natychmiast zapewnia dokładne wyniki. Możesz go używać jako kalkulatora oprocentowania kredytu, kalkulatora oprocentowania oszczędności, kalkulatora odsetek inwestycyjnych lub kalkulatora odsetek bankowych – wszystko w jednym miejscu."
+    },
+    {
+      "heading": "Co to jest zainteresowanie?",
+      "subSections": [
+        {
+          "heading": "Proste odsetki (SI)",
+          "content": "Obliczane wyłącznie od kwoty głównej. Wzór: SI = (główny × stawka × czas) ÷ 100"
+        },
+        {
+          "heading": "Procent składany (CI)",
+          "content": "Naliczane od kwoty głównej plus skumulowane odsetki. Wzór: A = P × (1 + R/100)^T"
+        },
+        {
+          "heading": "Dlaczego warto korzystać z kalkulatorów odsetek?",
+          "content": "Dzienne, miesięczne i roczne kalkulatory odsetek pomagają lepiej planować pożyczki, oszczędności i inwestycje."
+        }
+      ]
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora odsetek (krok po kroku)",
+      "subSections": [
+        {
+          "heading": "Krok 1: Wprowadź kwotę główną",
+          "content": "Wpisz kwotę pożyczki lub inwestycji."
+        },
+        {
+          "heading": "Krok 2: Wprowadź stopę procentową",
+          "content": "Podaj roczną stopę procentową (APR)."
+        },
+        {
+          "heading": "Krok 3: Wybierz okres",
+          "content": "Wybierz czas trwania w miesiącach lub latach."
+        },
+        {
+          "heading": "Krok 4: Wybierz rodzaj zainteresowania",
+          "content": "Wybierz opcję Odsetki proste lub Odsetki składane."
+        },
+        {
+          "heading": "Krok 5: Kliknij Oblicz",
+          "content": "Zobacz łączne odsetki zarobione/zapłacone i saldo końcowe."
+        }
+      ]
+    },
+    {
+      "heading": "Jak obliczyć wzrost inwestycji",
+      "subSections": [
+        {
+          "heading": "Krok 1: Wprowadź inwestycję początkową",
+          "content": "Zacznij od kwoty bazowej, którą planujesz zainwestować."
+        },
+        {
+          "heading": "Krok 2: Dodaj wkład",
+          "content": "Wpisz swój roczny i/lub miesięczny wkład."
+        },
+        {
+          "heading": "Krok 3: Czas wkładu",
+          "content": "Wybierz, czy wpłacasz składki na początku, czy na końcu każdego okresu."
+        },
+        {
+          "heading": "Krok 4: Ustaw odsetki i składanie",
+          "content": "Wprowadź stopę procentową i wybierz częstotliwość kapitalizacji."
+        },
+        {
+          "heading": "Krok 5: Wprowadź czas trwania inwestycji",
+          "content": "Określ długość w latach i miesiącach."
+        },
+        {
+          "heading": "Krok 6: Dodaj opcjonalne czynniki",
+          "content": "Uwzględnij stawki podatku i inflacji, aby uzyskać dokładniejsze wyniki."
+        },
+        {
+          "heading": "Krok 7: Kliknij Oblicz",
+          "content": "Zobacz podsumowanie inwestycji, wzrost, łączne odsetki i siłę nabywczą po inflacji."
+        }
+      ],
+      "content": "To narzędzie pomaga oszacować wzrost inwestycji, całkowite zainteresowanie i siłę nabywczą po inflacji. Dostosuj wartości, aby mądrze zaplanować swoją przyszłość finansową!"
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Prosty przykład odsetek",
+          "content": "Inwestycja: 10 000 USD przy oprocentowaniu 8% rocznie przez 5 lat. SI = (10 000 × 8 × 5) ÷ 100 = 4000 dolarów. Ostateczna kwota = 14 000 dolarów."
+        },
+        {
+          "heading": "Przykład odsetek składanych",
+          "content": "Inwestycja: 10 000 USD przy oprocentowaniu 8% rocznie przez 5 lat (składowanie roczne). A = 10 000 × (1 + 0,08)^5 = 14 693 dolarów. Odsetki składane dają o 693 USD więcej niż odsetki proste."
+        }
+      ]
+    },
+    {
+      "heading": "Korzyści z korzystania z naszego kalkulatora odsetek",
+      "subSections": [
+        {
+          "heading": "Szybki i dokładny",
+          "content": "Natychmiastowe wyniki bez ręcznych obliczeń."
+        },
+        {
+          "heading": "Porównaj SI i CI",
+          "content": "Z łatwością dostrzeżesz różnicę pomiędzy odsetkami prostymi i składanymi."
+        },
+        {
+          "heading": "Działa we wszystkich przypadkach",
+          "content": "Kredyty, oszczędności, FD, kredyty hipoteczne i inwestycje."
+        },
+        {
+          "heading": "Obsługuje elastyczne tryby",
+          "content": "Obliczenia odsetek dziennych, miesięcznych i rocznych."
+        },
+        {
+          "heading": "Wszechstronne zastosowanie",
+          "content": "Idealny do kredytów mieszkaniowych, kredytów samochodowych, kart kredytowych, kredytów biznesowych i EMI."
+        }
+      ]
+    },
+    {
+      "heading": "Rodzaje obliczeń odsetek, które możesz wykonać",
+      "subSections": [
+        {
+          "heading": "Prosty kalkulator odsetek",
+          "content": "W przypadku krótkoterminowych pożyczek lub depozytów."
+        },
+        {
+          "heading": "Kalkulator odsetek składanych",
+          "content": "Zobacz, jak odsetki rosną wraz z kapitalizacją (dzienną, miesięczną, roczną)."
+        },
+        {
+          "heading": "Kalkulator odsetek kredytu",
+          "content": "Oszacuj całkowite odsetki kredytu w czasie."
+        },
+        {
+          "heading": "Kalkulator odsetek kredytu samochodowego",
+          "content": "Oblicz odsetki od kredytów samochodowych."
+        },
+        {
+          "heading": "Kalkulator odsetek pożyczki osobistej",
+          "content": "Sprawdź, ile spłacisz."
+        },
+        {
+          "heading": "Kalkulator odsetek karty kredytowej",
+          "content": "Poznaj miesięczne opłaty za kartę."
+        },
+        {
+          "heading": "Kalkulator odsetek oszczędności",
+          "content": "Zobacz jak rosną Twoje oszczędności."
+        },
+        {
+          "heading": "Kalkulator oprocentowania depozytu stałego",
+          "content": "Oblicz wartość zapadalności FD."
+        },
+        {
+          "heading": "Kalkulator odsetek inwestycyjnych",
+          "content": "Oceń zwrot z inwestycji."
+        },
+        {
+          "heading": "Kalkulator odsetek EMI",
+          "content": "Znajdź część odsetkową w EMI."
+        },
+        {
+          "heading": "Kalkulator odsetek kredytu biznesowego",
+          "content": "Zaplanuj spłaty dla swojej firmy."
+        },
+        {
+          "heading": "Kalkulator odsetek kredytu mieszkaniowego",
+          "content": "Oszacuj oprocentowanie kredytów mieszkaniowych."
+        },
+        {
+          "heading": "Kalkulator stóp procentowych",
+          "content": "Porównaj wyniki w różnych szybkościach."
+        },
+        {
+          "heading": "Kalkulator naliczania odsetek",
+          "content": "Śledź skumulowane odsetki w czasie."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jaki jest wzór na odsetki proste?",
+      "a": "SI = (główny × stawka × czas) ÷ 100"
+    },
+    {
+      "q": "Jaki jest wzór na odsetki składane?",
+      "a": "CI = Zleceniodawca × (1 + stawka/100)^Czas – Zleceniodawca"
+    },
+    {
+      "q": "Czy mogę używać tego kalkulatora zarówno do kredytów, jak i oszczędności?",
+      "a": "Tak, nasze narzędzie działa jako Kalkulator Oprocentowania Kredytu, Kalkulator Oprocentowania Oszczędności, Kalkulator Inwestycyjny i Kalkulator Oprocentowania Hipoteki."
+    }
+  ]
+}

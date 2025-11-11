@@ -1,0 +1,147 @@
+{
+  "color": "hellgrün",
+  "sections": [
+    {
+      "heading": "Online-Rechner für die Körperoberfläche (BSA) – genau, kostenlos und einfach zu bedienen",
+      "content": "Das Verständnis Ihrer Körperoberfläche (BSA) ist in der Medizin, Forschung und klinischen Versorgung von entscheidender Bedeutung. Mit diesem kostenlosen BSA-Rechner können Sie Ihren BSA für Erwachsene, Kinder und spezielle klinische Szenarien schnell und genau schätzen. Ganz gleich, ob Sie medizinisches Fachpersonal, Medizinstudent oder Patient sind, dieses Tool bietet eine intelligente, benutzerfreundliche Lösung für die Online-Berechnung des BSA."
+    },
+    {
+      "heading": "Was ist die Körperoberfläche (BSA) und warum ist sie wichtig?",
+      "content": "BSA ist die Gesamtoberfläche des menschlichen Körpers, üblicherweise ausgedrückt in Quadratmetern (m²). Es spielt eine entscheidende Rolle in der Medizin, weil es:",
+      "subSections": [
+        {
+          "heading": "Medikamentendosierungen",
+          "content": "Hilft bei der Berechnung der Medikamentendosis, insbesondere bei Chemotherapie und Medikamenten für die Intensivpflege."
+        },
+        {
+          "heading": "Flüssigkeitsersatz",
+          "content": "Leitet die Flüssigkeitsersatztherapie bei Intensivpatienten."
+        },
+        {
+          "heading": "Nierenuntersuchungen",
+          "content": "Unterstützt die Beurteilung der Nierenfunktion und andere diagnostische Tests."
+        },
+        {
+          "heading": "Persönliche Betreuung",
+          "content": "Bietet personalisierte Messungen für die Kinder- und Erwachsenenpflege."
+        }
+      ]
+    },
+    {
+      "heading": "So berechnen Sie die Körperoberfläche (BSA) genau",
+      "content": "Dieser Online-BSA-Rechner verwendet weithin akzeptierte Formeln, die auf Gewicht, Größe und manchmal auch dem Geschlecht basieren. Beliebte Formeln sind:",
+      "subSections": [
+        {
+          "heading": "Du Bois BSA-Formel",
+          "content": "BSA (m²) = 0,007184 × Gewicht^0,425 × Größe^0,725 – Wird für Erwachsene und Kinder verwendet, klinischer Standard."
+        },
+        {
+          "heading": "Mosteller-Formel",
+          "content": "BSA (m²) = √(Höhe × Gewicht / 3600) – Einfach, wird häufig in Krankenhäusern verwendet."
+        },
+        {
+          "heading": "Haycock-Formel",
+          "content": "BSA (m²) = 0,024265 × Gewicht^0,5378 × Größe^0,3964 – Kindermedizin."
+        },
+        {
+          "heading": "Gehan & George",
+          "content": "BSA (m²) = 0,0235 × Gewicht^0,51456 × Körpergröße^0,42246 – Forschung und klinische Studien."
+        },
+        {
+          "heading": "Eingaben",
+          "content": "Gewicht (kg), Größe (cm), Geschlecht (optional: pädiatrische Anpassungen)."
+        }
+      ]
+    },
+    {
+      "heading": "Klinische Anwendungen von BSA",
+      "content": "Die BSA-Messung ist nicht nur eine Zahl – sie hat praktische medizinische Anwendungen:",
+      "subSections": [
+        {
+          "heading": "Dosierung der Chemotherapie",
+          "content": "Personalisierte Arzneimitteldosen reduzieren die Toxizität bei gleichzeitiger Beibehaltung der Wirksamkeit."
+        },
+        {
+          "heading": "Intensivpatienten",
+          "content": "Leitet die Flüssigkeitstherapie und die Überwachung der Intensivpflege."
+        },
+        {
+          "heading": "Kindermedizin",
+          "content": "Passt Medikamente und Ernährung für Kinder genau an."
+        },
+        {
+          "heading": "Nierenfunktionstests",
+          "content": "Hilft bei der Berechnung der Nierenclearance und der Dialyseparameter."
+        },
+        {
+          "heading": "Medizinische Forschung",
+          "content": "Unterstützt epidemiologische Studien, Arzneimittelstudien und klinische Audits."
+        }
+      ]
+    },
+    {
+      "heading": "Einschränkungen und Haftungsausschluss",
+      "content": "Obwohl dieser BSA-Rechner für Erwachsene und Kinder medizinisch korrekt ist, denken Sie daran:",
+      "subSections": [
+        {
+          "heading": "Nur Schätzungen",
+          "content": "Die Ergebnisse sind Schätzungen und sollten keinen medizinischen Rat ersetzen."
+        },
+        {
+          "heading": "Professionelle Anleitung",
+          "content": "Konsultieren Sie immer einen Arzt, bevor Sie die Behandlung anpassen."
+        },
+        {
+          "heading": "Andere Faktoren",
+          "content": "Körperzusammensetzung, Flüssigkeitszufuhr und Alter können die Genauigkeit beeinträchtigen."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist BSA und warum ist es wichtig?",
+      "a": "BSA stellt die Gesamtoberfläche Ihres Körpers dar. Er ist für die Medikamentendosierung, die Intensivpflege und medizinische Tests von entscheidender Bedeutung, da er für klinische Zwecke ein präziseres Maß als der BMI liefert."
+    },
+    {
+      "q": "Wie berechne ich den BSA genau?",
+      "a": "Geben Sie Ihr Gewicht, Ihre Größe und optional Ihr Geschlecht in den Rechner ein. Für genaue Ergebnisse werden häufig Formeln wie Du Bois, Mosteller oder Haycock verwendet."
+    },
+    {
+      "q": "Welche BSA-Formel ist die zuverlässigste?",
+      "a": "Die Du-Bois-Formel ist bei Erwachsenen und Kindern weithin akzeptiert, die Mosteller-Formel ist jedoch einfacher und wird häufig in Krankenhäusern verwendet."
+    },
+    {
+      "q": "Wie wirkt sich BSA auf die Dosierung der Chemotherapie aus?",
+      "a": "Chemotherapeutika werden auf Basis der BSA dosiert, um sicherzustellen, dass die Behandlung wirksam ist und gleichzeitig die Toxizität minimiert wird."
+    },
+    {
+      "q": "Können Kinder und Erwachsene denselben BSA-Rechner verwenden?",
+      "a": "Ja, aber pädiatrische Formeln wie Haycock liefern aufgrund unterschiedlicher Körperproportionen genauere Ergebnisse für Kinder."
+    },
+    {
+      "q": "Wie beeinflussen Gewicht und Größe den BSA?",
+      "a": "Der BSA steigt sowohl mit dem Gewicht als auch mit der Körpergröße und spiegelt die gesamte Körperoberfläche genauer wider als der BMI."
+    },
+    {
+      "q": "Ist der BSA-Rechner für Intensivpatienten korrekt?",
+      "a": "Ja, es ist klinisch validiert, bei kritisch kranken Patienten mit Flüssigkeitsstörungen können jedoch Anpassungen erforderlich sein."
+    },
+    {
+      "q": "Kann ich dieses Tool für medizinische Forschung verwenden?",
+      "a": "Absolut. Der personalisierte Online-BSA-Rechner unterstützt Forschung und klinische Studien durch die Bereitstellung standardisierter Messungen."
+    },
+    {
+      "q": "Wie wird KI bei BSA-Berechnungen verwendet?",
+      "a": "KI kann die Genauigkeit verbessern, Berichte erstellen und klinische Anpassungen basierend auf Patientendatentrends empfehlen."
+    },
+    {
+      "q": "Kann dieser Rechner in Krankenhäusern für klinische Zwecke verwendet werden?",
+      "a": "Ja, der medizinische BSA-Rechner und die KI-gestützten BSA-Tools eignen sich für Krankenhäuser, Intensivstationen und pädiatrische Einrichtungen."
+    }
+  ],
+  "cta": {
+    "heading": "Berechnen Sie jetzt Ihren BSA",
+    "content": "Erhalten Sie in Sekundenschnelle genaue, schnelle und zuverlässige Ergebnisse zur Körperoberfläche. Nutzen Sie noch heute unseren kostenlosen BSA-Rechner, um die Medikamentendosierung zu personalisieren, die Intensivpflege zu verbessern und die klinische Forschung zu unterstützen. Übernehmen Sie die Kontrolle über Ihre Gesundheit mit präzisen BSA-Erkenntnissen."
+  }
+}

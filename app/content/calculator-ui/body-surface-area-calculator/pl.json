@@ -1,0 +1,194 @@
+{
+  "pageTitle": "Kalkulator powierzchni ciała",
+  "pageDescription": "Oblicz powierzchnię ciała (BSA) za pomocą różnych metod, w tym wzorów DuBois, Mostellera, Haycocka i Gehana-George'a",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "height": "Wysokość",
+      "weight": "Waga",
+      "unitSystem": "Układ jednostek",
+      "calculationMethod": "Metoda obliczeniowa"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz BSA",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    },
+    "calculationMethods": {
+      "dubois": "Formuła DuBoisa",
+      "mosteller": "Formuła Mostellera",
+      "haycock": "Formuła Haycocka",
+      "gehan_george": "Formuła Gehana-George’a"
+    }
+  },
+  "results": {
+    "bsaValue": "Powierzchnia ciała",
+    "calculationMethod": "Metoda obliczeniowa",
+    "bsaResultsTitle": "Wyniki BSA",
+    "bsaFormula": {
+      "label": "Formuła BSA",
+      "dubois": "BSA = 0,007184 × waga^0,425 × wysokość^0,725",
+      "mosteller": "BSA = √ (waga × wysokość / 3600)",
+      "haycock": "BSA = 0,024265 × waga^0,5378 × wysokość^0,3964",
+      "gehan_george": "BSA = 0,0235 × waga^0,51456 × wysokość^0,42246"
+    },
+    "unit": "m²"
+  },
+  "educational": {
+    "bsaInfo": "Informacje o powierzchni ciała",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się ze specjalistą",
+    "bsaMethods": {
+      "dubois": {
+        "title": "Metoda DuBois (1916)",
+        "description": "BSA = 0,007184 × waga^0,425 × wysokość^0,725 (najczęściej używane)"
+      },
+      "mosteller": {
+        "title": "Metoda Mostellera (1987)",
+        "description": "BSA = √ (waga × wysokość / 3600) (proste i dokładne)"
+      },
+      "haycock": {
+        "title": "Metoda Haycocka (1978)",
+        "description": "BSA = 0,024265 × waga^0,5378 × wysokość^0,3964 (stosowane w przypadku dzieci)"
+      },
+      "gehan_george": {
+        "title": "Metoda Gehana-George'a (1970)",
+        "description": "BSA = 0,0235 × waga^0,51456 × wysokość^0,42246 (na podstawie obszernych danych)"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten służy jedynie do szacunków i nie jest narzędziem diagnostycznym",
+      "individualVariation": "BSA różni się w zależności od składu i kształtu ciała"
+    },
+    "importantNotesList": [
+      "BSA służy do określania dawek niektórych leków",
+      "Różne metody mogą dawać nieco inne wyniki",
+      "W sprawie zastosowań medycznych należy skonsultować się z pracownikami służby zdrowia",
+      "BSA należy rozpatrywać równolegle z innymi wskaźnikami zdrowotnymi"
+    ],
+    "healthyRangeDetails": {
+      "title": "Średnie wartości BSA",
+      "description": "Dorośli mężczyźni: 1,9 m², Dorosłe kobiety: 1,6 m²",
+      "association": "BSA jest stosowany w kontekście medycznym do dozowania leków i pomiarów fizjologicznych."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje pomiary, aby obliczyć powierzchnię ciała",
+    "bsaResult": "Powierzchnia Twojego ciała wynosi {bsa} m² według metody {method}",
+    "ageWarning": "W przypadku dzieci bardziej odpowiednie mogą być specjalne formuły",
+    "assessmentResult": "Wynik oceny:",
+    "bsaAnalysis": "Analiza powierzchni ciała"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki oparte na wzorach matematycznych i nie powinien być używany jako substytut profesjonalnej porady lekarskiej. Poszczególne wyniki mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się z pracownikiem służby zdrowia",
+    "content": "Jeżeli potrzebujesz BSA do celów medycznych, skonsultuj się z pracownikiem służby zdrowia, który może dokonać dokładnych obliczeń w oparciu o Twoją pełną historię medyczną i indywidualną sytuację."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "method": "Wybierz metodę obliczeń"
+  },
+  "tooltips": {
+    "age": "Wiek może mieć wpływ na obliczenia BSA dla dzieci",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "method": "Różne formuły mogą być bardziej odpowiednie dla różnych populacji"
+  },
+  "patient_information_0": "Informacje o pacjencie",
+  "enter_patient_details_to_calculate_body_surface_ar_1": "Wprowadź dane pacjenta, aby obliczyć powierzchnię ciała za pomocą wielu wzorów",
+  "gender_2": "Płeć",
+  "male_3": "Mężczyzna",
+  "female_4": "Kobieta",
+  "weight_5": "Waga",
+  "patients_body_weight_6": "Masa ciała pacjenta",
+  "kg_7": "kg",
+  "lbs_8": "funty",
+  "g_9": "g",
+  "height_10": "Wysokość",
+  "patients_height_11": "Wzrost pacjenta",
+  "cm_12": "cm",
+  "ftin_13": "stopy/cale",
+  "bsa_formulas_14": "Formuły BSA:",
+  "this_calculator_uses_7_major_formulas_including_du_15": "Kalkulator ten wykorzystuje 7 głównych formuł, w tym Du Bois,\n                        Metody Mostellera, Haycocka, Gehana i George’a, Boyda, Fujimoto i Takahiry w zakresie kompleksowości\n                        porównanie.",
+  "calculate_16": "Obliczać",
+  "reset_17": "Nastawić",
+  "bsa_results_18": "Wyniki BSA",
+  "m_19": "m²",
+  "average_bsa_20": "Przeciętny BSA",
+  "kg_21": "kg",
+  "weight_22": "Waga",
+  "cm_23": "cm",
+  "height_24": "Wysokość",
+  "enter_patient_information_and_click_25": "Wprowadź dane pacjenta i kliknij",
+  "calculate_26": "Obliczać",
+  "to_see_bsa_results_27": "aby zobaczyć wyniki BSA.",
+  "bsa_formula_comparison_28": "Porównanie formuły BSA",
+  "formula_29": "Formuła",
+  "bsa_m_30": "BSA (m²)",
+  "method_31": "Metoda",
+  "du_bois_32": "Du Boisa",
+  "most_widely_used_33": "Najczęściej używane",
+  "mosteller_34": "Mosteller",
+  "simplified_formula_35": "Uproszczona formuła",
+  "haycock_36": "Haycock",
+  "pediatric_preferred_37": "Preferowane pediatryczne",
+  "gehan_george_38": "Gehana i George’a",
+  "clinical_studies_39": "Badania kliniczne",
+  "boyd_40": "Boyda",
+  "weightdependent_41": "Zależne od wagi",
+  "fujimoto_42": "Fujimoto",
+  "asian_populations_43": "Populacje azjatyckie",
+  "takahira_44": "Takahira",
+  "modified_du_bois_45": "Zmodyfikowany Du Bois",
+  "average_46": "Przeciętny",
+  "all_formulas_47": "Wszystkie formuły",
+  "patient_information_48": "Informacje dla pacjenta:",
+  "gender_49": "Płeć:",
+  "weight_50": "Waga:",
+  "kg_51": "kg",
+  "height_52": "Wysokość:",
+  "cm_53": "cm",
+  "average_bsa_54": "Średni BSA:",
+  "m_55": "m²",
+  "clinical_note_56": "Uwaga kliniczna:",
+  "bsa_values_are_normalized_to_m_these_formulas_are__57": "Wartości BSA są znormalizowane do m². Formuły te są powszechnie stosowane\n                        w obliczeniach klinicznych i farmaceutycznych. Kalkulator ten służy wyłącznie celom informacyjnym.\n                        W sprawie zastosowań medycznych skonsultuj się z lekarzem.",
+  "understanding_body_surface_area_58": "Zrozumienie powierzchni ciała",
+  "what_is_bsa_59": "Co to jest BSA?",
+  "body_surface_area_bsa_is_a_measurement_of_the_tota_60": "Powierzchnia ciała (BSA) to miara całkowitej powierzchni ciała ludzkiego. To jest\n                        kluczowe dla ustalenia odpowiednich dawek leków, szczególnie w przypadku chemioterapii, oraz dla\n                        różne obliczenia fizjologiczne.",
+  "clinical_applications_61": "Zastosowania kliniczne",
+  "chemotherapy_dosing_62": "Dawkowanie chemioterapii",
+  "cardiac_index_calculations_63": "Obliczenia indeksu sercowego",
+  "burn_assessment_64": "Ocena oparzenia",
+  "renal_clearance_studies_65": "Badania klirensu nerkowego",
+  "metabolic_rate_calculations_66": "Obliczenia tempa metabolizmu",
+  "formula_comparison_67": "Porównanie formuł",
+  "most_common_68": "Najczęściej:",
+  "du_bois_formula_69": "Formuła Du Boisa",
+  "bsa_0007184_w0425_h0725_70": "BSA = 0,007184 × szer.^0,425 × wys.^0,725",
+  "simplified_71": "Uproszczony:",
+  "mosteller_formula_72": "Formuła Mostellera",
+  "bsa_w_h_3600_73": "BSA = √(szer. × wys. / 3600)",
+  "note_74": "Notatka:",
+  "normal_adult_bsa_ranges_from_15_to_20_m_average_ad_75": "Normalny dorosły BSA waha się od 1,5 do 2,0 m². Przeciętny dorosły BSA to\n                          około 1,7 m²."
+}

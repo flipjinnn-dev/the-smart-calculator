@@ -1,0 +1,154 @@
+{
+  "pageTitle": "Kalkulator spłaty karty kredytowej",
+  "pageDescription": "Oblicz, ile czasu zajmie spłata zadłużenia i odsetek na karcie kredytowej, korzystając z różnych strategii płatności, aby zminimalizować koszty i szybciej uwolnić się od długów",
+  "form": {
+    "labels": {
+      "currentBalance": "Aktualne saldo",
+      "interestRate": "Roczna stopa procentowa (RRSO)",
+      "minimumPayment": "Minimalna płatność",
+      "minimumPaymentType": "Minimalny rodzaj płatności",
+      "fixedPayment": "Stała płatność miesięczna",
+      "extraPayment": "Dodatkowa płatność miesięczna",
+      "paymentStrategy": "Strategia płatności"
+    },
+    "placeholders": {
+      "currentBalance": "Wprowadź aktualne saldo karty kredytowej",
+      "interestRate": "Wprowadź roczną stopę procentową (%)",
+      "minimumPayment": "Wprowadź minimalną opłatę",
+      "fixedPayment": "Wprowadź stałą miesięczną opłatę"
+    },
+    "buttons": {
+      "calculate": "Oblicz czas wypłaty",
+      "reset": "Nastawić"
+    },
+    "minimumPaymentTypes": {
+      "amount": "Stała kwota",
+      "percentage": "Procent salda"
+    },
+    "paymentStrategies": {
+      "minimum": "Tylko płatności minimalne",
+      "fixed": "Stała płatność miesięczna",
+      "minimumPlus": "Minimalna Plus Dopłata"
+    }
+  },
+  "results": {
+    "payoffTime": "Czas na wypłatę",
+    "totalInterest": "Całkowite zapłacone odsetki",
+    "totalPayment": "Całkowita płatność",
+    "interestSavings": "Oszczędności odsetkowe dzięki dodatkowym opłatom",
+    "creditCardPayoffResultsTitle": "Wyniki spłaty karty kredytowej"
+  },
+  "educational": {
+    "creditCardPayoffInfo": "Informacje o spłacie karty kredytowej",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "creditCardPayoffFacts": {
+      "interest": {
+        "title": "Oprocentowanie karty kredytowej",
+        "description": "Oprocentowanie kart kredytowych jest codziennie naliczane, co powoduje szybki wzrost zadłużenia, jeśli nie zostanie spłacone"
+      },
+      "minimumPayments": {
+        "title": "Minimalny wpływ na płatność",
+        "description": "Płacenie tylko minimalnych kwot może wydłużyć czas spłaty o lata i kosztować setki odsetek"
+      },
+      "strategies": {
+        "title": "Strategie wypłat",
+        "description": "Płatności stałe lub dopłaty znacznie skracają czas spłaty i koszty odsetek"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunkowe kwoty spłat karty kredytowej",
+      "actual": "Rzeczywiste warunki wypłaty mogą się różnić w zależności od zasad i opłat wydawcy karty"
+    },
+    "importantNotesList": [
+      "Oprocentowanie kart kredytowych zwiększa się codziennie, zwiększając koszt utrzymania salda",
+      "Płacenie kwoty wyższej niż minimalna bezpośrednio zmniejsza kwotę główną i oszczędza odsetki",
+      "Rozważ oferty przeniesienia salda, aby skonsolidować wysokooprocentowane zadłużenie na karcie kredytowej",
+      "Przestań używać kart kredytowych podczas spłacania istniejących sald"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź dane swojej karty kredytowej, aby obliczyć czas wypłaty",
+    "resultMessage": "Wyniki obliczenia wypłaty Twojej karty kredytowej pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia wypłaty karty kredytowej:",
+    "creditCardPayoffAnalysis": "Analiza spłat karty kredytowej"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunkową wypłatę karty kredytowej w oparciu o obliczenia matematyczne. Rzeczywiste warunki spłaty, odsetki i opłaty mogą się różnić w zależności od polityki wydawcy karty i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowane porady dotyczące zarządzania zadłużeniem na karcie kredytowej i konsolidacji, skonsultuj się z doradcami kredytowymi lub doradcami finansowymi posiadającymi wiedzę specjalistyczną w zakresie redukcji zadłużenia i indywidualnej sytuacji finansowej."
+  },
+  "errors": {
+    "currentBalance": "Proszę wprowadzić prawidłowe saldo bieżące",
+    "interestRate": "Proszę wprowadzić prawidłową roczną stopę procentową",
+    "minimumPayment": "Proszę wprowadzić prawidłową kwotę minimalną",
+    "fixedPayment": "Wprowadź prawidłową stałą kwotę płatności",
+    "extraPayment": "Proszę wprowadzić prawidłową kwotę dodatkowej płatności",
+    "minimumPaymentType": "Proszę wybrać minimalny rodzaj płatności",
+    "paymentStrategy": "Wybierz strategię płatności"
+  },
+  "tooltips": {
+    "currentBalance": "Aktualne saldo należności na karcie kredytowej",
+    "interestRate": "Roczna stopa procentowa (APR) naliczana od niezapłaconych sald",
+    "minimumPayment": "Wymagana minimalna miesięczna opłata od wydawcy karty",
+    "minimumPaymentType": "Czy minimalna płatność jest kwotą stałą, czy procentem salda",
+    "fixedPayment": "Stała kwota, którą planujesz płacić co miesiąc",
+    "extraPayment": "Dodatkowa kwota płatna co miesiąc na poczet kapitału",
+    "paymentStrategy": "Metoda stosowana do ustalenia miesięcznej kwoty płatności"
+  },
+  "debt_avalanche_calculator_0": "Kalkulator lawiny zadłużenia",
+  "monthly_payment_budget_1": "Miesięczny budżet płatności",
+  "total_monthly_budget_for_all_credit_card_payments_2": "Całkowity miesięczny budżet dla wszystkich płatności kartą kredytową",
+  "credit_cards_3": "Karty kredytowe",
+  "add_card_4": "Dodaj kartę",
+  "card_5": "Karta",
+  "card_name_6": "Nazwa karty",
+  "current_balance_7": "Aktualne saldo",
+  "minimum_payment_8": "Minimalna płatność",
+  "apr_9": "RRSO (%)",
+  "calculate_strategy_10": "Oblicz strategię",
+  "payoff_results_11": "Wyniki wypłat",
+  "your_debt_avalanche_strategy_12": "Twoja strategia lawiny długów",
+  "payoff_time_13": "Czas wypłaty:",
+  "y_14": "y",
+  "m_15": "m",
+  "total_interest_16": "Całkowite odsetki:",
+  "total_amount_paid_17": "Całkowita zapłacona kwota:",
+  "payment_schedule_18": "Harmonogram płatności",
+  "download_csv_19": "Pobierz plik CSV",
+  "month_20": "Miesiąc",
+  "card_21": "Karta",
+  "balance_22": "Balansować",
+  "interest_23": "Odsetki",
+  "payment_24": "Zapłata",
+  "remaining_25": "Pozostały",
+  "showing_first_24_months_download_csv_for_complete__26": "Pokazuje pierwsze 24 miesiące. Pobierz plik CSV, aby zapoznać się z pełnym harmonogramem.",
+  "enter_your_credit_card_information_to_see_your_pay_27": "Wprowadź dane swojej karty kredytowej, aby zobaczyć strategię wypłat",
+  "formulas_behind_the_avalanche_method_28": "Formuły metody lawinowej",
+  "k_1_monthly_interest_calculation_29": "1. Obliczanie miesięcznych odsetek",
+  "interest_balance_apr_12_30": "Odsetki = Saldo × (RRSO ÷ 12)",
+  "k_2_minimum_payment_application_31": "2. Wniosek o płatność minimalną",
+  "new_balance_balance_interest_min_payment_32": "Nowe saldo = (saldo + odsetki) - Płatność minimalna",
+  "k_3_extra_payment_allocation_33": "3. Przydział dodatkowej płatności",
+  "extra_budget_min_payments_34": "Dodatkowe = Budżet - Σ (Min. Płatności)",
+  "extra_payment_goes_to_the_card_with_the_highest_ap_35": "Dopłata trafia na kartę z najwyższym RRSO",
+  "k_4_payoff_priority_36": "4. Priorytet wypłaty",
+  "cards_are_prioritized_by_apr_highest_first_with_ba_37": "Karty są traktowane priorytetowo według RRSO (najpierw najwyższa), a równowaga rozstrzyga remis (najpierw najniższa)",
+  "example_scenarios_38": "Przykładowe scenariusze",
+  "scenario_1_two_cards_39": "Scenariusz 1: Dwie karty",
+  "card_a_5000_at_1899_apr_100_minimum_40": "• Karta A: 5000 USD przy RRSO 18,99%, minimum 100 USD",
+  "card_b_3000_at_2499_apr_75_minimum_41": "• Karta B: 3000 USD przy RRSO 24,99%, minimum 75 USD",
+  "monthly_budget_400_42": "• Budżet miesięczny: 400 dolarów",
+  "strategy_pay_minimums_175_put_extra_225_toward_car_43": "• Strategia: zapłać minimalną kwotę (175 USD), odłóż dodatkowe 225 USD na kartę B (wyższa RRSO)",
+  "scenario_2_multiple_cards_44": "Scenariusz 2: Wiele kart",
+  "card_a_8000_at_1599_apr_160_minimum_45": "• Karta A: 8000 USD przy RRSO 15,99%, minimum 160 USD",
+  "card_b_4000_at_2299_apr_80_minimum_46": "• Karta B: 4000 USD przy RRSO 22,99%, minimum 80 USD",
+  "card_c_2000_at_1999_apr_50_minimum_47": "• Karta C: 2000 USD przy RRSO 19,99%, minimum 50 USD",
+  "monthly_budget_500_48": "• Budżet miesięczny: 500 dolarów",
+  "strategy_pay_minimums_290_put_extra_210_toward_car_49": "• Strategia: zapłać minimalną kwotę (290 USD), odłóż dodatkowe 210 USD na kartę B (najwyższa RRSO)"
+}

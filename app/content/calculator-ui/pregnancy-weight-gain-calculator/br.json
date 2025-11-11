@@ -1,0 +1,170 @@
+{
+  "pageTitle": "Calculadora de ganho de peso na gravidez",
+  "pageDescription": "Calcule o ganho de peso na gravidez com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular o ganho de peso na gravidez",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo do ganho de peso na gravidez"
+  },
+  "educational": {
+    "info": "Informações sobre ganho de peso na gravidez",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de ganho de peso na gravidez",
+        "description": "Informações sobre ganho de peso na gravidez"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como o ganho de peso na gravidez é calculado"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos do ganho de peso na gravidez"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de ganho de peso na gravidez",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular o ganho de peso na gravidez",
+    "resultMessage": "Os resultados do cálculo do ganho de peso na gravidez são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo do ganho de peso na gravidez:",
+    "analysis": "Análise de ganho de peso na gravidez"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de ganho de peso na gravidez com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "weight_gain_calculation_0": "Cálculo de ganho de peso",
+  "enter_your_prepregnancy_details_and_optional_curre_1": "Insira seus detalhes pré-gravidez e informações atuais opcionais para acompanhar o progresso",
+  "unit_system_2": "Sistema de Unidades",
+  "metric_kg_cm_3": "Métrico (kg, cm)",
+  "us_lbs_ftin_4": "EUA (lbs, pés/pol.)",
+  "prepregnancy_weight_5": "Peso pré-gravidez (",
+  "height_cm_6": "Altura (cm)",
+  "height_ftin_7": "Altura (pés/pol.)",
+  "current_weight_8": "Peso Atual (",
+  "optional_9": "(Opcional)",
+  "for_progress_tracking_10": "Para acompanhamento do progresso",
+  "gestational_week_11": "Semana Gestacional",
+  "optional_12": "(Opcional)",
+  "week_142_for_progress_tracking_13": "Semana 1-42 para acompanhamento do progresso",
+  "calculate_gain_14": "Calcular ganho",
+  "reset_15": "Reiniciar",
+  "weight_gain_16": "Ganho de peso",
+  "kg_17": "kg",
+  "total_recommended_18": "Total recomendado",
+  "bmi_19": "IMC:",
+  "enter_your_prepregnancy_details_to_see_recommended_20": "Insira seus detalhes pré-gravidez para ver as faixas recomendadas de ganho de peso.",
+  "weight_gain_recommendations_21": "Recomendações para ganho de peso",
+  "prepregnancy_assessment_22": "Avaliação pré-gravidez",
+  "bmi_23": "IMC:",
+  "category_24": "Categoria:",
+  "kg_25": "kg",
+  "lbs_26": "libras)",
+  "trimester_schedule_27": "Cronograma do Trimestre",
+  "first_trimester_weeks_113_28": "Primeiro Trimestre (Semanas 1-13)",
+  "total_gain_29": "Ganho total:",
+  "kg_30": "kg (",
+  "lbs_31": "libras)",
+  "gradual_weight_gain_focus_on_nutrition_quality_32": "Ganho de peso gradual, foco na qualidade nutricional",
+  "second_third_trimesters_weeks_1440_33": "Segundo e terceiro trimestres (semanas 14 a 40)",
+  "weekly_gain_34": "Ganho semanal:",
+  "kg_35": "kg (~",
+  "lbs_36": "libras)",
+  "steady_weekly_weight_gain_37": "Ganho de peso semanal constante",
+  "progress_tracking_week_38": "Acompanhamento do progresso (semana",
+  "kg_39": "kg",
+  "actual_gain_40": "Ganho real",
+  "kg_41": "kg",
+  "expected_gain_42": "Ganho Esperado",
+  "status_43": "Status",
+  "iom_weight_gain_guidelines_44": "Diretrizes para ganho de peso da IOM",
+  "bmi_category_45": "Categoria IMC",
+  "bmi_range_46": "Faixa de IMC",
+  "total_gain_kg_47": "Ganho total (kg)",
+  "total_gain_lbs_48": "Ganho total (libras)",
+  "underweight_49": "Abaixo do peso",
+  "k_185_50": "< 18,5",
+  "k_12518_51": "12,5-18",
+  "k_2840_52": "28-40",
+  "normal_53": "Normal",
+  "k_185249_54": "18,5-24,9",
+  "k_11516_55": "11,5-16",
+  "k_2535_56": "25-35",
+  "overweight_57": "Sobrepeso",
+  "k_250299_58": "25,0-29,9",
+  "k_7115_59": "7-11,5",
+  "k_1525_60": "15-25",
+  "obese_61": "Obeso",
+  "k_300_62": "≥ 30,0",
+  "k_59_63": "5-9",
+  "k_1120_64": "11-20",
+  "understanding_pregnancy_weight_gain_65": "Compreendendo o ganho de peso na gravidez",
+  "iom_guidelines_66": "Diretrizes da OIM",
+  "based_on_prepregnancy_bmi_category_67": "Com base na categoria de IMC pré-gravidez",
+  "accounts_for_maternal_and_fetal_health_68": "Contas para a saúde materna e fetal",
+  "reduces_risk_of_complications_69": "Reduz o risco de complicações",
+  "updated_in_2009_by_institute_of_medicine_70": "Atualizado em 2009 pelo Instituto de Medicina",
+  "example_calculation_71": "Exemplo de cálculo",
+  "prepregnancy_130_lbs_55_bmi_216_72": "Pré-gravidez: 130 libras, 5'5 \"(IMC 21,6)",
+  "category_normal_weight_73": "Categoria: Peso normal",
+  "total_gain_74": "Ganho total:",
+  "k_2535_lbs_11516_kg_75": "25-35 libras (11,5-16 kg)",
+  "k_1st_trimester_76": "1º trimestre:",
+  "k_14_lbs_77": "1-4 libras",
+  "k_2nd3rd_78": "2º/3º:",
+  "k_1_lbweek_79": "~1 libra/semana",
+  "important_factors_80": "Fatores importantes",
+  "individual_variation_is_normal_81": "A variação individual é normal",
+  "quality_of_nutrition_matters_most_82": "A qualidade da nutrição é o que mais importa",
+  "regular_prenatal_care_is_essential_83": "Cuidados pré-natais regulares são essenciais",
+  "multiple_pregnancies_need_different_guidelines_84": "Gestações múltiplas precisam de orientações diferentes",
+  "health_benefits_85": "Benefícios para a saúde",
+  "reduces_risk_of_gestational_diabetes_86": "Reduz o risco de diabetes gestacional",
+  "lowers_chance_of_preterm_birth_87": "Reduz a chance de parto prematuro",
+  "supports_healthy_fetal_development_88": "Apoia o desenvolvimento fetal saudável",
+  "easier_postpartum_weight_loss_89": "Perda de peso pós-parto mais fácil"
+}

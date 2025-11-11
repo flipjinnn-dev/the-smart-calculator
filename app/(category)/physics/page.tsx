@@ -1,80 +1,84 @@
+"use client"
+
 import type { Metadata } from "next"
 import Script from "next/script"
 import Link from "next/link"
+import { useState, useEffect } from "react"
 import { ArrowLeft, Calculator, Atom } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import Logo from "@/components/logo"
 import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
+import { useCategoryContent } from "@/hooks/useCategoryContent"
 
-export const metadata: Metadata = {
-  title: "Physics Calculators - Smart Calculator",
-  description:
-    "Free physics calculators including motion, energy, force, electricity, and thermodynamics tools. Calculate physics problems with ease.",
-  keywords: "physics calculator, motion calculator, energy calculator, force calculator, electricity calculator",
-  alternates: {
-      canonical: "https://www.thesmartcalculator.com/physics",
-  },
-}
-
-// Get calculators dynamically
-const physicsCalculators = getCalculatorsByCategory("physics")
-const popularPhysicsCalculators = getPopularCalculatorsByCategory("physics")
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "Physics Calculators",
-  description: "Free physics calculators for motion, energy, force, and more",
-  url: "https://www.thesmartcalculator.com/physics",
-  mainEntity: {
-    "@type": "ItemList",
-    itemListElement: physicsCalculators.map((calc, index) => ({
-      "@type": "SoftwareApplication",
-      position: index + 1,
-      name: calc.name,
-      description: calc.description,
-      url: `https://www.thesmartcalculator.com${calc.href}`,
-      applicationCategory: "EducationApplication",
-    })),
-  },
+// Define fallback content
+const fallbackContent = {
+  name: "Physics",
+  description: "Free physics calculators for force, energy, motion, and other physical phenomena. Understand the laws of physics.",
+  slug: "physics"
 }
 
 export default function PhysicsCategoryPage() {
+  // Detect language from URL path or headers
+  const [language, setLanguage] = useState("en");
+  
+  useEffect(() => {
+    // First try to get language from headers (set by middleware)
+    const headerLanguage = document.head.querySelector('meta[name="x-language"]')?.getAttribute('content');
+    if (headerLanguage) {
+      setLanguage(headerLanguage);
+      return;
+    }
+    
+    // Fallback to URL path detection
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/(br|pl|de)/);
+    const detectedLanguage = langMatch ? langMatch[1] : "en";
+    setLanguage(detectedLanguage);
+  }, []);
+
+  const { content, loading, error } = useCategoryContent("physics", language);
+  
+  // Use content or fallback to defaults
+  const contentData = content || fallbackContent;
+
+  // Show loading state
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+  }
+
+  // Show error if content failed to load
+  if (error) {
+    return <div className="min-h-screen flex items-center justify-center">Error loading content: {error}</div>;
+  }
+
+  const physicsCalculators = getCalculatorsByCategory("physics", language)
+  const popularPhysicsCalculators = getPopularCalculatorsByCategory("physics", language)
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: contentData.name,
+    description: contentData.description,
+    url: `https://www.thesmartcalculator.com/${contentData.slug}`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: physicsCalculators.map((calc, index) => ({
+        "@type": "SoftwareApplication",
+        position: index + 1,
+        name: calc.name,
+        description: calc.description,
+        url: `https://www.thesmartcalculator.com${calc.href}`,
+        applicationCategory: "SoftwareApplication",
+      })),
+    },
+  }
+
   return (
     <>
       <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-purple-600 transition-colors">
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-600">Physics Calculators</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        {/* Breadcrumb */}
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-3 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-gray-700">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Physics Calculators</span>
-            </div>
-          </div>
-        </nav>
+        
 
         {/* Hero section with purple-indigo theme and physics-specific content */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 via-indigo-50 to-white">
@@ -84,10 +88,9 @@ export default function PhysicsCategoryPage() {
                 <Atom className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Physics Calculators</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{contentData.name}</h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Solve physics problems with precision using our comprehensive collection of calculators. From mechanics
-              and thermodynamics to electricity and quantum physics.
+              {contentData.description}
             </p>
             <Link href="/">
               <Button variant="outline" className="mb-8 bg-transparent">
@@ -125,7 +128,7 @@ export default function PhysicsCategoryPage() {
         {/* All calculators section with purple theme */}
         <section className="py-8 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-white">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">All Physics Calculators</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">All {contentData.name} Calculators</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in">
               {physicsCalculators.map((calc, index) => (
                 <Link key={calc.id} href={calc.href}>

@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Kalkulator zachowania pędu",
+  "pageDescription": "Oblicz zasadę zachowania pędu w zderzeniach",
+  "form": {
+    "labels": {
+      "mass1": "Masa obiektu 1",
+      "velocity1": "Prędkość początkowa obiektu 1",
+      "mass2": "Masa obiektu 2",
+      "velocity2": "Prędkość początkowa obiektu 2",
+      "finalVelocity1": "Prędkość końcowa obiektu 1",
+      "finalVelocity2": "Prędkość końcowa obiektu 2"
+    },
+    "placeholders": {
+      "mass1": "Wprowadź masę pierwszego obiektu",
+      "velocity1": "Wprowadź prędkość początkową pierwszego obiektu",
+      "mass2": "Wprowadź masę drugiego obiektu",
+      "velocity2": "Wprowadź prędkość początkową drugiego obiektu",
+      "finalVelocity1": "Podaj prędkość końcową pierwszego obiektu (jeśli jest znana)",
+      "finalVelocity2": "Podaj prędkość końcową drugiego obiektu (jeśli jest znana)"
+    },
+    "buttons": {
+      "calculate": "Oblicz pęd",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "initialMomentum": "Początkowy pęd",
+    "finalMomentum": "Ostateczny moment",
+    "momentumConserved": "Pęd zachowany",
+    "yes": "Tak",
+    "no": "NIE",
+    "totalInitialMomentum": "Całkowity pęd początkowy",
+    "totalFinalMomentum": "Całkowity pęd końcowy",
+    "momentumCalculation": "Wyniki obliczeń pędu"
+  },
+  "educational": {
+    "momentumInfo": "Informacje o pędzie",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby fizyczne",
+    "momentumFacts": {
+      "components": {
+        "title": "Składniki pędu",
+        "description": "Pęd jest iloczynem masy i prędkości (p = mv)"
+      },
+      "conservation": {
+        "title": "Zasada zachowania pędu",
+        "description": "W układzie izolowanym całkowity pęd pozostaje stały"
+      },
+      "elastic": {
+        "title": "Zderzenia sprężyste i niesprężyste",
+        "description": "Energia kinetyczna jest zachowywana w zderzeniach sprężystych, ale nie w zderzeniach niesprężystych"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten umożliwia wyłącznie obliczenia pędu",
+      "actual": "Rzeczywiste wartości pędu mogą się różnić w zależności od sił zewnętrznych i dokładności pomiaru"
+    },
+    "importantNotesList": [
+      "Jest to szacunek oparty na idealnych warunkach",
+      "Siły zewnętrzne, takie jak tarcie, nie są brane pod uwagę",
+      "Zakłada izolowany system do obliczeń konserwatorskich",
+      "Do wszystkich pomiarów używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź informacje o masie i prędkości do obliczeń pędu",
+    "resultMessage": "Wyniki obliczeń pędu pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia pędu:",
+    "momentumAnalysis": "Analiza pędu"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia obliczenia pędu w oparciu o standardowe wzory fizyczne. Rzeczywiste wartości pędu mogą się różnić w zależności od sił zewnętrznych, dokładności pomiaru i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby fizyczne",
+    "content": "Aby zapoznać się z zaawansowanymi obliczeniami fizycznymi i analizą kolizji, zajrzyj do podręczników fizyki lub zasobów akademickich na temat mechaniki klasycznej i zasad zachowania pędu."
+  },
+  "errors": {
+    "mass1": "Proszę wprowadzić prawidłową masę dla obiektu 1",
+    "velocity1": "Proszę wprowadzić poprawną prędkość początkową dla obiektu 1",
+    "mass2": "Proszę wprowadzić prawidłową masę dla obiektu 2",
+    "velocity2": "Proszę wprowadzić poprawną prędkość początkową dla obiektu 2",
+    "finalVelocity1": "Proszę wprowadzić poprawną prędkość końcową dla obiektu 1",
+    "finalVelocity2": "Proszę wprowadzić poprawną prędkość końcową dla obiektu 2"
+  },
+  "tooltips": {
+    "mass1": "Masa pierwszego obiektu biorącego udział w zderzeniu",
+    "velocity1": "Prędkość początkowa pierwszego obiektu przed zderzeniem",
+    "mass2": "Masa drugiego obiektu biorącego udział w zderzeniu",
+    "velocity2": "Prędkość początkowa drugiego obiektu przed zderzeniem",
+    "finalVelocity1": "Prędkość końcowa pierwszego obiektu po zderzeniu (jeśli jest znana)",
+    "finalVelocity2": "Prędkość końcowa drugiego obiektu po zderzeniu (jeśli jest znana)"
+  },
+  "collision_parameters_0": "Parametry kolizji",
+  "enter_object_properties_and_collision_type_to_calc_1": "Wprowadź właściwości obiektu i typ kolizji, aby obliczyć wyniki",
+  "collision_type_2": "Typ kolizji",
+  "elastic_3": "Elastyczny",
+  "perfectly_inelastic_4": "Idealnie nieelastyczny",
+  "with_restitution_5": "Z Restytucją",
+  "general_6": "Ogólny",
+  "coefficient_of_restitution_e_7": "Współczynnik restytucji (e)",
+  "object_1_8": "Obiekt 1",
+  "mass_m_9": "Masa (m₁)",
+  "kg_10": "kg",
+  "g_11": "g",
+  "t_12": "t",
+  "initial_velocity_u_13": "Prędkość początkowa (u₁)",
+  "ms_14": "SM",
+  "kmh_15": "kilometrów na godzinę",
+  "mph_16": "mile na godzinę",
+  "final_velocity_v_optional_17": "Prędkość końcowa (v₁) – opcjonalna",
+  "ms_18": "SM",
+  "kmh_19": "kilometrów na godzinę",
+  "mph_20": "mile na godzinę",
+  "object_2_21": "Obiekt 2",
+  "mass_m_22": "Masa (m₂)",
+  "kg_23": "kg",
+  "g_24": "g",
+  "t_25": "t",
+  "initial_velocity_u_26": "Prędkość początkowa (u₂)",
+  "ms_27": "SM",
+  "kmh_28": "kilometrów na godzinę",
+  "mph_29": "mile na godzinę",
+  "final_velocity_v_optional_30": "Prędkość końcowa (v₂) – opcjonalna",
+  "ms_31": "SM",
+  "kmh_32": "kilometrów na godzinę",
+  "mph_33": "mile na godzinę",
+  "calculate_34": "Obliczać",
+  "collision_results_35": "Wyniki kolizji",
+  "final_velocities_36": "Prędkości końcowe",
+  "object_1_37": "Obiekt 1",
+  "ms_38": "SM",
+  "object_2_39": "Obiekt 2",
+  "ms_40": "SM",
+  "momentum_41": "Pęd",
+  "initial_42": "Wstępny:",
+  "kgms_43": "kg⋅m/s",
+  "final_44": "Finał:",
+  "kgms_45": "kg⋅m/s",
+  "conserved_46": "Zachowane:",
+  "kinetic_energy_47": "Energia kinetyczna",
+  "initial_total_48": "Początkowa suma:",
+  "j_49": "J",
+  "final_total_50": "Ostateczna suma:",
+  "j_51": "J",
+  "energy_change_52": "Zmiana energii:",
+  "j_53": "J",
+  "type_54": "Typ:",
+  "individual_energies_55": "Energie indywidualne",
+  "object_1_56": "Obiekt 1:",
+  "j_57": "J",
+  "object_2_58": "Obiekt 2:",
+  "j_59": "J",
+  "enter_parameters_and_click_60": "Podaj parametry i kliknij",
+  "calculate_61": "Obliczać",
+  "to_see_results_62": "do\n                          zobacz wyniki.",
+  "understanding_collision_physics_63": "Zrozumienie fizyki zderzeń",
+  "conservation_laws_64": "Prawa konserwatorskie",
+  "all_collisions_conserve_momentum_m1u1_m2u2_m1v1_m2_65": "Wszystkie zderzenia zachowują pęd: $$m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$$",
+  "elastic_collisions_also_conserve_kinetic_energy_wh_66": "Zderzenia elastyczne również oszczędzają energię kinetyczną, podczas gdy zderzenia niesprężyste przekształcają część kinetyki\n                      energię w inne formy.",
+  "collision_types_67": "Typy kolizji",
+  "elastic_68": "Elastyczny:",
+  "both_momentum_and_kinetic_energy_conserved_e_1_69": "Zachowany zarówno pęd, jak i energia kinetyczna (e = 1)",
+  "perfectly_inelastic_70": "Idealnie nieelastyczny:",
+  "objects_stick_together_after_collision_e_0_71": "Obiekty sklejają się po zderzeniu (e = 0)",
+  "with_restitution_72": "Z restytucją:",
+  "coefficient_e_determines_energy_loss_0_e_1_73": "Współczynnik e określa stratę energii (0 ≤ e ≤ 1)",
+  "general_74": "Ogólny:",
+  "solve_for_unknowns_using_momentum_conservation_75": "Rozwiązuj niewiadome, korzystając z zasady zachowania pędu",
+  "example_calculation_76": "Przykładowe obliczenia",
+  "given_77": "Dany:",
+  "m_2_kg_u_4_ms_m_3_kg_u_0_ms_elastic_collision_78": "m₁ = 2 kg, u₁ = 4 m/s, m₂ = 3 kg, u₂ = 0 m/s, Zderzenie sprężyste",
+  "solution_79": "Rozwiązanie:",
+  "v_234_23023_45_04_ms_80": "v₁ = ((2-3)×4 + 2×3×0)/(2+3) = -4/5 = -0,4 m/s",
+  "v_320_22423_165_32_ms_81": "v₂ = ((3-2)×0 + 2×2×4)/(2+3) = 16/5 = 3,2 m/s",
+  "initial_ke_24_16_j_82": "Początkowe KE = ½×2×4² = 16 J",
+  "final_ke_204_332_16_j_83": "Końcowy KE = ½×2×(-0,4)² + ½×3×(3,2)² = 16 J ✓"
+}

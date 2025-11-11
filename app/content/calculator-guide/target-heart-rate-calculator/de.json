@@ -1,0 +1,106 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist die Zielherzfrequenz?",
+      "content": "Ihre Zielherzfrequenz (THR) ist der ideale Bereich von Schlägen pro Minute (BPM), in dem Ihr Herz während des Trainings arbeiten sollte, um die Wirksamkeit zu maximieren und gleichzeitig sicher zu bleiben. Es trägt dazu bei, sicherzustellen, dass Sie mit der richtigen Intensität trainieren, unabhängig davon, ob Ihr Ziel Gewichtsverlust, Ausdaueraufbau, Herz-Kreislauf-Gesundheit oder sportliche Leistung ist.\n\nWenn Sie in Ihrer Zielherzfrequenzzone bleiben, können Sie effizient Fett verbrennen, die aerobe Kapazität verbessern und Übertraining vermeiden."
+    },
+    {
+      "heading": "So berechnen Sie Ihre Zielherzfrequenz",
+      "subSections": [
+        {
+          "heading": "1. Maximale Herzfrequenz (220 – Altersformel)",
+          "content": "Formel: 220 – Alter = Maximale Herzfrequenz (MHR)\n\nZielzone: 50–85 % Ihrer MHR\n\nBeispiel: Im Alter von 30 Jahren → 220 – 30 = 190 MHR → Zielzone = 95–162 BPM"
+        },
+        {
+          "heading": "2. Karvonen-Formel (Herzfrequenz-Reserve-Methode)",
+          "content": "Persönlicher, berücksichtigt die Ruheherzfrequenz (RHR).\n\nFormel: THR = ((MHR – RHR) × % Intensität) + RHR\n\nAm besten für Sportler oder solche mit bestimmten Trainingszielen."
+        },
+        {
+          "heading": "3. Tanaka-Formel (Alternative für Genauigkeit)",
+          "content": "Formel: 208 – (0,7 × Alter)\n\nFür ältere Erwachsene oft genauer."
+        }
+      ]
+    },
+    {
+      "heading": "Herzfrequenz-Trainingszonen",
+      "subSections": [
+        {
+          "heading": "Aufwärmzone (50–60 % MHR)",
+          "content": "Sanfte Aktivität, gut für Anfänger und Erholungssuchende."
+        },
+        {
+          "heading": "Fettverbrennungszone (60–70 % MHR)",
+          "content": "Verbrennt gespeichertes Fett und unterstützt die Gewichtsabnahme."
+        },
+        {
+          "heading": "Cardio-Zone (70–80 % MHR)",
+          "content": "Baut Ausdauer auf, stärkt Herz und Lunge."
+        },
+        {
+          "heading": "Spitzen-/HIIT-Zone (80–90 % MHR)",
+          "content": "Verbessert Geschwindigkeit, Leistung und VO₂ max."
+        },
+        {
+          "heading": "Maximaler Aufwand (90–100 % MHR)",
+          "content": "Kurze Stöße, nur für fortgeschrittenes Training."
+        }
+      ]
+    },
+    {
+      "heading": "Zielherzfrequenz nach Alter (Diagrammbeispiel)",
+      "content": "Alter | Geschätzte MHR (220 – Alter) | 50–85 % Zielzone (BPM)\n--- | --- | ---\n20 | 200 | 100–170\n30 | 190 | 95–162\n40 | 180 | 90–153\n50 | 170 | 85–145\n60 | 160 | 80–136\n70 | 150 | 75–128\n\n(Werte sind Schätzungen; es gelten individuelle Abweichungen.)"
+    },
+    {
+      "heading": "Vorteile des Trainings in Ihrer Zielherzfrequenzzone",
+      "subSections": [
+        {
+          "heading": "Gewichtsverlust",
+          "content": "Trainieren Sie in der Fettverbrennungszone für eine gleichmäßige Kalorienverbrennung."
+        },
+        {
+          "heading": "Cardio-Fitness",
+          "content": "Verbessern Sie die Herz- und Lungenleistung im Cardio-Bereich."
+        },
+        {
+          "heading": "Ausdauer und sportliche Leistung",
+          "content": "Die Peak Zone hilft Sportlern, ihre Grenzen zu überschreiten."
+        },
+        {
+          "heading": "HIIT-Workouts",
+          "content": "Der Wechsel zwischen moderaten und Spitzenzonen regt den Stoffwechsel an."
+        },
+        {
+          "heading": "Sicheres Training für Senioren",
+          "content": "Die unteren Zonen erhalten die Gesundheit ohne Überanstrengung."
+        }
+      ]
+    },
+    {
+      "heading": "⚠️ Wichtiger Haftungsausschluss",
+      "content": "Dieser Rechner bietet nur allgemeine Fitnesshinweise. Konsultieren Sie immer einen Arzt oder zertifizierten Trainer, bevor Sie mit einem neuen Trainingsprogramm beginnen, insbesondere wenn Sie an einer Herzerkrankung leiden, Medikamente einnehmen oder neu im Training sind."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist die beste Formel zur Berechnung der Zielherzfrequenz?",
+      "a": "Die 220-Alter-Formel ist am gebräuchlichsten, aber die Karvonen-Formel ist genauer, da sie die Ruheherzfrequenz berücksichtigt."
+    },
+    {
+      "q": "Welche Herzfrequenz sollte ich beim Cardiotraining anstreben?",
+      "a": "Die meisten Menschen sollten für ein effektives Cardio-Training im Bereich von 70–85 % MHR bleiben."
+    },
+    {
+      "q": "Kann ich eine Smartwatch oder einen Fitness-Tracker verwenden?",
+      "a": "Ja. Geräte wie Apple Watch, Fitbit und Garmin nutzen Echtzeit-Herzfrequenzdaten, um Sie in Ihrer Zielzone zu halten."
+    },
+    {
+      "q": "Ist es sicher, meine Zielherzfrequenz zu überschreiten?",
+      "a": "Gelegentliche Spitzenwerte sind normal, aber eine ständige Überschreitung Ihrer THR kann das Verletzungs- oder Herzrisiko erhöhen. Bleiben Sie innerhalb sicherer Grenzen, sofern Sie nicht beaufsichtigt werden."
+    },
+    {
+      "q": "Was ist eine gute Zielherzfrequenz für Senioren?",
+      "a": "Erwachsene über 60 sollten eine Höchstfrequenz von 50–70 % anstreben und sich dabei auf Sicherheit und konstante Ausdauer konzentrieren."
+    }
+  ]
+}

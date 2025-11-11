@@ -2,58 +2,103 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import Script from "next/script"
-import "./globals.css"
-import { Footer } from "@/components/footer"
+import { LanguageFooter } from "@/components/language-footer"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/next"
+import Header from "@/components/header"
+import { headers } from "next/headers"
+import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://www.thesmartcalculator.com/"),
-  keywords:
-    "calculator, online calculator, financial calculator, health calculator, math calculator, free tools",
-  authors: [{ name: "Smart Calculator Team" }],
-  creator: "Smart Calculator",
-  publisher: "Smart Calculator",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
+// Define metadata for all languages
+const homepageMeta = {
+  en: {
+    title: "Smart Calculator - Free Online Calculators for Every Need",
+    description: "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
+    keywords: "calculator, online calculator, financial calculator, health calculator, math calculator, free tools"
   },
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://www.thesmartcalculator.com/",
-    siteName: "Smart Calculator",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Smart Calculator - Free Online Calculators",
-      },
-    ],
+  br: {
+    title: "Smart Calculator - Calculadoras Online Gratuitas para Todas as Necessidades",
+    description: "Acesse centenas de calculadoras online gratuitas para finanças, saúde, matemática, física e muito mais. Ferramentas de cálculo rápidas, precisas e fáceis de usar.",
+    keywords: "calculadora, calculadora online, calculadora financeira, calculadora de saúde, calculadora matemática, ferramentas gratuitas"
   },
-  twitter: {
-    card: "summary_large_image",
-    images: ["/og-image.png"],
+  pl: {
+    title: "Smart Calculator - Darmowe Kalkulatory Online do Wszystkich Potrzeb",
+    description: "Skorzystaj z setek darmowych kalkulatorów online do finansów, zdrowia, matematyki, fizyki i nie tylko. Szybkie, dokładne i łatwe w użyciu narzędzia do obliczeń.",
+    keywords: "kalkulator, kalkulator online, kalkulator finansowy, kalkulator zdrowia, kalkulator matematyczny, darmowe narzędzia"
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+  de: {
+    title: "Smart Calculator - Kostenlose Online-Rechner für jeden Bedarf",
+    description: "Greifen Sie auf Hunderte von kostenlosen Online-Rechnern für finanziell, Gesundheit, mathe, Physik und mehr zu. Schnelle, genaue und benutzerfreundliche Berechnungstools.",
+    keywords: "Rechner, Online-Rechner, Finanzrechner, Gesundheitsrechner, matherechner, kostenlose Tools"
+  }
+};
+
+export async function generateMetadata(): Promise<Metadata> {
+  // Get language from headers
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language = langHeader && homepageMeta[langHeader as keyof typeof homepageMeta] 
+    ? langHeader 
+    : "en";
+
+  // Get metadata for the current language
+  const meta = homepageMeta[language as keyof typeof homepageMeta] || homepageMeta.en;
+
+  const baseUrl = "https://www.thesmartcalculator.com";
+  const canonicalUrl = language !== "en" ? `${baseUrl}/${language}` : baseUrl;
+
+  return {
+    metadataBase: new URL(baseUrl),
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    authors: [{ name: "Smart Calculator Team" }],
+    creator: "Smart Calculator",
+    publisher: "Smart Calculator",
+    formatDetection: {
+      email: false,
+      address: false,
+      telephone: false,
+    },
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      type: "website",
+      locale: language === "br" ? "pt_BR" : language === "de" ? "de_DE" : language === "pl" ? "pl_PL" : "en_US",
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: ["/og-image.png"],
+    },
+    robots: {
       index: true,
       follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
-  },
-  verification: {
-    google: "RehqhdOImhqlzUM1_EWsYdmed39YNrO6MQyARIW9rK4",
-  },
-  generator: "Smart Calculator",
+    verification: {
+      google: "RehqhdOImhqlzUM1_EWsYdmed39YNrO6MQyARIW9rK4",
+    },
+    generator: "Smart Calculator",
+  };
 }
 
 export default function RootLayout({
@@ -101,12 +146,13 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={inter.className}>
+        <Header />
         {children}
         {/* ✅ Vercel tools */}
         <SpeedInsights />
         <Analytics />
 
-        <Footer />
+        <LanguageFooter />
       </body>
     </html>
   )

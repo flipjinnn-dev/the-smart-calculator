@@ -1,0 +1,217 @@
+{
+  "pageTitle": "Rechner zur Fettaufnahme",
+  "pageDescription": "Berechnen Sie Ihren täglichen Fettbedarf basierend auf Aktivitätsniveau, Zielen und Ernährungsbedürfnissen für optimale Gesundheit und Leistung",
+  "form": {
+    "labels": {
+      "age": "Alter (Jahre)",
+      "gender": "Geschlecht",
+      "weight": "Gewicht",
+      "height": "Höhe",
+      "unitSystem": "Einheitensystem",
+      "activityLevel": "Aktivitätsniveau",
+      "goal": "Ernährungsziel",
+      "dietType": "Diättyp"
+    },
+    "placeholders": {
+      "age": "Geben Sie das Alter ein",
+      "heightFt": "Füße",
+      "heightIn": "Zoll",
+      "heightCm": "Geben Sie die Höhe in cm ein",
+      "weight": "Gewicht in {Einheit} eingeben"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Fettaufnahme",
+      "reset": "Zurücksetzen"
+    },
+    "unitSystems": {
+      "us": "US-Einheiten (ft/in, lb)",
+      "metric": "Metrische Einheiten (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Bewegungsmangel (wenig oder keine Bewegung)",
+      "light": "Leicht aktiv (leichte Bewegung 1–3 Tage/Woche)",
+      "moderate": "Mäßig aktiv (mäßige Bewegung an 3–5 Tagen/Woche)",
+      "active": "Sehr aktiv (hartes Training an 6–7 Tagen/Woche)",
+      "veryActive": "Extrem aktiv (sehr harte Bewegung und körperliche Arbeit)"
+    },
+    "goals": {
+      "maintenance": "Gewichtserhaltung",
+      "lose": "Gewichtsverlust",
+      "gain": "Gewichtszunahme",
+      "athletic": "Sportliche Leistung"
+    },
+    "dietTypes": {
+      "balanced": "Ausgewogene Ernährung (20-35 % Fett)",
+      "lowFat": "Fettarm (10–20 % Fett)",
+      "highFat": "Hoher Fettgehalt (35–50 % Fett)",
+      "keto": "Ketogen (70–80 % Fett)"
+    }
+  },
+  "results": {
+    "fatNeeds": "Täglicher Fettbedarf",
+    "caloriesFromFat": "Kalorien aus Fett",
+    "fatRange": "Empfohlener Fettbereich",
+    "fatResultsTitle": "Ergebnisse der Fettaufnahme"
+  },
+  "educational": {
+    "fatInfo": "Informationen zur Fettaufnahme",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ernährungsressourcen",
+    "fatFacts": {
+      "function": {
+        "title": "Fettfunktion",
+        "description": "Unentbehrlich für die Hormonproduktion, die Vitaminaufnahme und die langfristige Energiespeicherung"
+      },
+      "types": {
+        "title": "Fetttypen",
+        "description": "Gesättigte, ungesättigte (einfach und mehrfach) und Transfette"
+      },
+      "recommendations": {
+        "title": "Ernährungsempfehlungen",
+        "description": "20–35 % der gesamten täglichen Kalorien sollten aus Fetten stammen, wobei der Schwerpunkt auf ungesättigten Fetten liegt"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Nährwertschätzungen",
+      "individual": "Der Fettbedarf variiert je nach individuellen Faktoren und Gesundheitszustand"
+    },
+    "importantNotesList": [
+      "Konzentrieren Sie sich auf ungesättigte Fette aus Quellen wie Nüssen, Samen und Fisch",
+      "Begrenzen Sie gesättigte Fette und vermeiden Sie nach Möglichkeit Transfette",
+      "Essentielle Fettsäuren (Omega-3 und Omega-6) müssen über die Nahrung aufgenommen werden",
+      "Die Fettaufnahme beeinflusst das Sättigungsgefühl und kann beim Gewichtsmanagement helfen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Daten ein, um den Fettbedarf zu berechnen",
+    "resultMessage": "Ihr täglicher Fettbedarf ist unten aufgeführt",
+    "assessmentResult": "Ergebnis der Berechnung der Fettaufnahme:",
+    "fatAnalysis": "Analyse der Fettaufnahme"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Fettaufnahme basierend auf allgemeinen Ernährungsrichtlinien. Die individuellen Bedürfnisse können je nach Gesundheitszustand, Medikamenten und spezifischen Ernährungsbedürfnissen variieren."
+  },
+  "seekHelp": {
+    "title": "Ernährungsressourcen",
+    "content": "Für eine individuelle Ernährungsberatung und Ernährungsplanung wenden Sie sich an registrierte Ernährungsberater oder medizinisches Fachpersonal mit Fachkenntnissen in Ernährungswissenschaft und individuellen Gesundheitsbedürfnissen."
+  },
+  "errors": {
+    "age": "Bitte geben Sie ein gültiges Alter ein (1–120).",
+    "gender": "Bitte wählen Sie das Geschlecht aus",
+    "heightFt": "Bitte geben Sie gültige Fuß ein",
+    "heightIn": "Bitte geben Sie gültige Zoll (0-11) ein.",
+    "heightCm": "Bitte geben Sie eine gültige Körpergröße in cm ein",
+    "weight": "Bitte geben Sie ein gültiges Gewicht ein",
+    "activityLevel": "Bitte wählen Sie das Aktivitätsniveau aus",
+    "goal": "Bitte wählen Sie ein Ernährungsziel aus",
+    "dietType": "Bitte wählen Sie eine Diätart aus"
+  },
+  "tooltips": {
+    "age": "Das Alter beeinflusst die Stoffwechselrate und den Fettbedarf",
+    "height": "Ihr aktuelles Höhenmaß",
+    "weight": "Ihr aktuelles Körpergewicht",
+    "activityLevel": "Ihr regelmäßiges Aktivitätsniveau beeinflusst den Energiebedarf",
+    "goal": "Ihr Ernährungsziel bestimmt die Fettempfehlungen",
+    "dietType": "Der ausgewählte Ernährungstyp beeinflusst die Höhe der Fettaufnahme"
+  },
+  "fat_calculation_0": "Fettberechnung",
+  "enter_your_details_to_calculate_your_optimal_daily_1": "Geben Sie Ihre Daten ein, um Ihre optimale tägliche Fettaufnahme zu berechnen",
+  "age_years_2": "Alter (Jahre) *",
+  "gender_3": "Geschlecht *",
+  "male_4": "Männlich",
+  "female_5": "Weiblich",
+  "height_6": "Höhe *",
+  "metric_7": "Metrisch",
+  "us_8": "UNS",
+  "cm_9": "cm",
+  "ft_10": "ft",
+  "in_11": "In",
+  "weight_12": "Gewicht *",
+  "metric_13": "Metrisch",
+  "us_14": "UNS",
+  "kg_15": "kg",
+  "lbs_16": "Pfund",
+  "activity_level_17": "Aktivitätsniveau *",
+  "sedentary_littleno_exercise_18": "Bewegungsmangel (wenig/keine Bewegung)",
+  "light_13week_19": "Leicht (1–3×/Woche)",
+  "moderate_45week_20": "Mäßig (4–5×/Woche)",
+  "active_daily_or_intense_34week_21": "Aktiv (täglich oder intensiv 3–4×/Woche)",
+  "very_active_intense_67week_22": "Sehr aktiv (intensiv 6–7×/Woche)",
+  "extra_active_very_intense_or_physical_job_23": "Extraaktiv (sehr intensive oder körperliche Arbeit)",
+  "bmr_formula_24": "BMR-Formel",
+  "mifflinst_jeor_default_25": "Mifflin-St Jeor (Standard)",
+  "katchmcardle_if_body_fat_known_26": "Katch-McArdle (sofern Körperfettanteil bekannt)",
+  "body_fat_27": "Körperfett % *",
+  "calculate_intake_28": "Berechnen Sie die Aufnahme",
+  "reset_29": "Zurücksetzen",
+  "daily_fat_range_30": "Täglicher Fettbereich",
+  "g_31": "g",
+  "per_day_32": "pro Tag",
+  "maintenance_33": "Wartung",
+  "enter_your_details_to_calculate_your_optimal_daily_34": "Geben Sie Ihre Daten ein, um Ihre optimale tägliche Fettaufnahme zu berechnen.",
+  "fat_intake_results_35": "Ergebnisse der Fettaufnahme",
+  "goal_36": "Ziel",
+  "daily_calories_37": "Tägliche Kalorien",
+  "fat_range_2035_38": "Fettbereich (20–35 %)",
+  "sat_fat_limit_10_39": "Sat-Fettgrenze (<10 %)",
+  "sat_fat_limit_7_40": "Sat-Fettgrenze (<7 %)",
+  "kcal_41": "kcal",
+  "g_42": "g",
+  "g_43": "g",
+  "g_44": "g",
+  "calculation_details_45": "Berechnungsdetails",
+  "bmr_formula_46": "BMR-Formel:",
+  "bmr_47": "BMR:",
+  "kcalday_48": "kcal/Tag",
+  "activity_level_49": "Aktivitätsniveau:",
+  "tdee_maintenance_50": "TDEE (Wartung):",
+  "kcalday_51": "kcal/Tag",
+  "your_profile_52": "Ihr Profil",
+  "age_53": "Alter:",
+  "years_54": "Jahre",
+  "gender_55": "Geschlecht:",
+  "height_56": "Höhe:",
+  "weight_57": "Gewicht:",
+  "important_notes_58": "Wichtige Hinweise",
+  "fat_provides_9_kcal_per_gram_59": "Fett liefert 9 kcal pro Gramm.",
+  "healthy_range_2035_of_daily_calories_60": "Gesunder Bereich: 20–35 % der täglichen Kalorien.",
+  "saturated_fat_should_be_kept_below_10_or_7_for_hea_61": "Gesättigte Fettsäuren sollten unter 10 % (bzw. 7 % wegen des Risikos einer Herzerkrankung) gehalten werden.",
+  "individual_needs_may_vary_depending_on_health_cond_62": "Die individuellen Bedürfnisse können je nach Gesundheitszustand und Zielen variieren.",
+  "focus_on_healthy_fats_from_nuts_seeds_fish_and_oli_63": "Konzentrieren Sie sich auf gesunde Fette aus Nüssen, Samen, Fisch und Olivenöl.",
+  "about_fat_requirements_64": "Über den Fettbedarf",
+  "types_of_dietary_fat_65": "Arten von Nahrungsfetten",
+  "monounsaturated_66": "Einfach ungesättigt:",
+  "olive_oil_avocados_nuts_67": "Olivenöl, Avocados, Nüsse",
+  "polyunsaturated_68": "Mehrfach ungesättigt:",
+  "fish_walnuts_flaxseeds_69": "Fisch, Walnüsse, Leinsamen",
+  "saturated_70": "Gesättigt:",
+  "meat_dairy_coconut_oil_limit_71": "Fleisch, Milchprodukte, Kokosöl (Limit)",
+  "trans_fats_72": "Transfette:",
+  "processed_foods_avoid_73": "Verarbeitete Lebensmittel (vermeiden)",
+  "health_benefits_74": "Vorteile für die Gesundheit",
+  "essential_for_vitamin_absorption_a_d_e_k_75": "Unverzichtbar für die Vitaminaufnahme (A, D, E, K)",
+  "supports_brain_and_nervous_system_function_76": "Unterstützt die Funktion des Gehirns und des Nervensystems",
+  "provides_essential_fatty_acids_77": "Bietet essentielle Fettsäuren",
+  "helps_maintain_healthy_skin_and_hair_78": "Trägt zur Erhaltung gesunder Haut und Haare bei",
+  "healthy_fat_sources_79": "Gesunde Fettquellen",
+  "food_80": "Essen",
+  "fat100g_81": "Fett/100g",
+  "olive_oil_82": "Olivenöl",
+  "k_100g_83": "100g",
+  "avocado_84": "Avocado",
+  "k_15g_85": "15g",
+  "almonds_86": "Mandeln",
+  "k_49g_87": "49g",
+  "salmon_88": "Lachs",
+  "k_13g_89": "13g",
+  "walnuts_90": "Walnüsse",
+  "k_65g_91": "65g",
+  "guidelines_92": "Richtlinien",
+  "choose_unsaturated_fats_over_saturated_93": "Wählen Sie ungesättigte Fette gegenüber gesättigten",
+  "include_omega3_fatty_acids_regularly_94": "Nehmen Sie regelmäßig Omega-3-Fettsäuren zu sich",
+  "limit_processed_and_fried_foods_95": "Begrenzen Sie verarbeitete und frittierte Lebensmittel",
+  "read_nutrition_labels_carefully_96": "Lesen Sie die Nährwertkennzeichnungen sorgfältig durch"
+}

@@ -1,0 +1,123 @@
+{
+  "color": "czerwony",
+  "sections": [
+    {
+      "heading": "Jak korzystać z kalkulatora karty kredytowej",
+      "subSections": [
+        {
+          "heading": "Wprowadź swoje saldo",
+          "content": "Skorzystaj z naszego kalkulatora salda karty kredytowej, aby wprowadzić aktualną kwotę, którą jesteś winien."
+        },
+        {
+          "heading": "Dodaj swoją stopę procentową (RRSO)",
+          "content": "Kalkulator RRSO karty kredytowej określi, ile odsetek zapłacisz w czasie."
+        },
+        {
+          "heading": "Wprowadź swoją miesięczną płatność",
+          "content": "Skorzystaj z kalkulatora miesięcznych płatności karty kredytowej lub kalkulatora minimalnej płatności karty kredytowej, aby zobaczyć różne opcje spłaty."
+        },
+        {
+          "heading": "Wybierz metodę spłaty",
+          "content": "Porównaj opcje takie jak metoda kuli śnieżnej lub metoda lawinowa, aby przyspieszyć redukcję zadłużenia."
+        },
+        {
+          "heading": "Zobacz swoje wyniki",
+          "content": "Natychmiast sprawdź czas spłaty, łączne odsetki i harmonogram płatności."
+        }
+      ]
+    },
+    {
+      "heading": "Różne metody obliczeniowe",
+      "subSections": [
+        {
+          "heading": "Kalkulator czasu wypłaty",
+          "content": "Oszacuj, ile czasu zajmie wyczyszczenie salda z bieżących lub planowanych płatności."
+        },
+        {
+          "heading": "Kalkulator odsetek",
+          "content": "Dowiedz się, ile odsetek nalicza się w czasie, aby zoptymalizować płatności."
+        },
+        {
+          "heading": "Kalkulator konsolidacji zadłużenia",
+          "content": "Sprawdź połączenie wielu kart o wysokim oprocentowaniu w jedną opcję o niższym oprocentowaniu."
+        },
+        {
+          "heading": "Metoda kuli śnieżnej a metoda lawinowa",
+          "content": "Zdecyduj, czy najpierw spłacić mniejsze saldo (kula śnieżna), czy najpierw wyższe stopy procentowe (lawina), aby uzyskać szybsze oszczędności."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe scenariusze",
+      "subSections": [
+        {
+          "heading": "Wiele kart kredytowych",
+          "content": "Skorzystaj z kalkulatora dla wielu kart, aby ustalić priorytety płatności i skutecznie obniżyć odsetki."
+        },
+        {
+          "heading": "Wysokie saldo lub wysokie odsetki",
+          "content": "Skoncentruj się na kosztownym zadłużeniu, korzystając z kalkulatora spłaty karty kredytowej, który pozwala uzyskać wysokie stopy procentowe."
+        },
+        {
+          "heading": "Niskie wyniki kredytowe",
+          "content": "Dostosuj swój plan za pomocą kalkulatora niskich wyników kredytowych, aby uniknąć opłat za zwłokę i zmaksymalizować spłatę."
+        },
+        {
+          "heading": "Dodatkowe płatności lub kwoty ryczałtowe",
+          "content": "Dodaj płatności dodatkowe lub ryczałtowe, aby przyspieszyć spłatę."
+        },
+        {
+          "heading": "Płatności dwutygodniowe",
+          "content": "Szybciej obniżaj odsetki dzięki dwutygodniowemu harmonogramowi płatności."
+        }
+      ]
+    },
+    {
+      "heading": "Korzyści z korzystania z kalkulatora karty kredytowej",
+      "subSections": [
+        {
+          "heading": "Oszczędzaj pieniądze na odsetkach",
+          "content": "Planuj płatności tak, aby zminimalizować akumulację odsetek."
+        },
+        {
+          "heading": "Zmniejsz stres",
+          "content": "Uzyskaj przejrzystość dzięki jasnemu harmonogramowi spłaty zadłużenia i płatności."
+        },
+        {
+          "heading": "Porównaj strategie",
+          "content": "Zdecyduj pomiędzy metodą kuli śnieżnej a metodą lawinową redukcji zadłużenia."
+        },
+        {
+          "heading": "Śledź postęp",
+          "content": "Monitoruj postęp wypłat za pomocą aplikacji, wersji programu Excel lub arkusza kalkulacyjnego."
+        },
+        {
+          "heading": "Zaplanuj wiele scenariuszy",
+          "content": "Oceń strategie przeniesienia salda i konsolidacji za pomocą wbudowanych porównań."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Czy ten kalkulator karty kredytowej jest darmowy?",
+      "a": "Tak, korzystanie z naszego kalkulatora spłaty karty kredytowej jest całkowicie bezpłatne online."
+    },
+    {
+      "q": "Czy mogę obliczyć płatności dla wielu kart?",
+      "a": "Absolutnie! Wprowadź salda dla kilku kart i zarządzaj nimi wszystkimi w jednym miejscu."
+    },
+    {
+      "q": "Czy pomaga w przypadku wysokooprocentowanych kart kredytowych?",
+      "a": "Tak. Kalkulator wysokich stóp procentowych pomaga ustalić priorytety i zaoszczędzić na odsetkach."
+    },
+    {
+      "q": "Czy mogę go używać do płatności dodatkowych lub dwutygodniowych?",
+      "a": "Tak, możesz przetestować dodatkowe lub dwutygodniowe płatności, aby zobaczyć, o ile szybciej pozbędziesz się długów."
+    },
+    {
+      "q": "Czy ten kalkulator nadaje się do konsolidacji zadłużenia?",
+      "a": "Zdecydowanie. Skorzystaj z funkcji konsolidacji i przeniesienia salda, aby porównać opcje."
+    }
+  ]
+}

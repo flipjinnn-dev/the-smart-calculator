@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Periodenrechner",
+  "pageDescription": "Berechnen Sie den Zeitraum mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Zeitraum berechnen",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Periodenberechnung"
+  },
+  "educational": {
+    "info": "Periodeninformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Periodendefinition",
+        "description": "Informationen zur Periode"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "Wie der Zeitraum berechnet wird"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Verwendungen der Periode"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Periodenschätzungen",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um den Zeitraum zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Periodenberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Periodenberechnung:",
+    "analysis": "Periodenanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Periodenschätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "period_tracking_0": "Periodenverfolgung",
+  "enter_your_cycle_details_to_predict_your_next_peri_1": "Geben Sie Ihre Zyklusdaten ein, um Ihre nächste Periode und fruchtbaren Tage vorherzusagen",
+  "first_day_of_your_last_period_lmp_2": "Erster Tag Ihrer letzten Periode (LMP) *",
+  "average_cycle_length_days_3": "Durchschnittliche Zykluslänge (Tage) *",
+  "days_4": "Tage",
+  "default_is_28_days_range_2244_days_5": "Der Standardwert beträgt 28 Tage. Dauer: 22–44 Tage",
+  "average_period_length_days_6": "Durchschnittliche Periodenlänge (Tage)",
+  "days_7": "Tage",
+  "default_is_5_days_range_310_days_8": "Der Standardwert beträgt 5 Tage. Dauer: 3–10 Tage",
+  "calculate_9": "Berechnen",
+  "reset_10": "Zurücksetzen",
+  "next_period_11": "Nächste Periode",
+  "expected_period_start_12": "Erwarteter Periodenbeginn",
+  "cycle_length_13": "Zykluslänge:",
+  "days_14": "Tage",
+  "enter_your_cycle_details_to_predict_your_next_peri_15": "Geben Sie Ihre Zyklusdetails ein, um Ihre nächste Periode vorherzusagen.",
+  "your_period_results_16": "Ihre Periodenergebnisse",
+  "current_cycle_17": "Aktueller Zyklus",
+  "next_period_start_18": "Beginn der nächsten Periode:",
+  "estimated_ovulation_19": "Geschätzter Eisprung:",
+  "fertile_window_20": "Fruchtbares Fenster:",
+  "cycle_information_21": "Zyklusinformationen",
+  "cycle_length_22": "Zykluslänge:",
+  "days_23": "Tage",
+  "period_length_24": "Periodenlänge:",
+  "days_25": "Tage",
+  "last_period_26": "Letzte Periode:",
+  "k_6month_forecast_27": "6-Monats-Prognose",
+  "month_28": "Monat",
+  "period_start_29": "Periodenbeginn",
+  "period_end_30": "Periodenende",
+  "ovulation_31": "Ovulation",
+  "fertile_window_32": "Fruchtbares Fenster",
+  "understanding_your_cycle_33": "Verstehen Sie Ihren Zyklus",
+  "menstrual_cycle_phases_34": "Phasen des Menstruationszyklus",
+  "menstrual_phase_35": "Menstruationsphase:",
+  "days_15_period_bleeding_36": "Tage 1–5 (Periodenblutung)",
+  "follicular_phase_37": "Follikelphase:",
+  "days_113_egg_development_38": "Tage 1-13 (Eientwicklung)",
+  "ovulation_39": "Ovulation:",
+  "around_day_14_egg_release_40": "Ungefähr am 14. Tag (Eifreisetzung)",
+  "luteal_phase_41": "Lutealphase:",
+  "days_1528_preparation_for_pregnancy_42": "Tage 15–28 (Vorbereitung auf die Schwangerschaft)",
+  "calculation_method_43": "Berechnungsmethode",
+  "next_period_44": "Nächste Periode:",
+  "lmp_cycle_length_45": "LMP + Zykluslänge",
+  "ovulation_46": "Ovulation:",
+  "lmp_cycle_length_14_47": "LMP + (Zykluslänge - 14)",
+  "fertile_window_48": "Fruchtbares Fenster:",
+  "ovulation_2_days_49": "Eisprung ± 2 Tage",
+  "forecast_50": "Vorhersage:",
+  "repeat_for_next_6_cycles_51": "Wiederholen Sie dies für die nächsten 6 Zyklen",
+  "fertility_timing_52": "Fruchtbarkeit und Timing",
+  "most_fertile_53": "Am fruchtbarsten:",
+  "k_2_days_before_ovulation_54": "2 Tage vor dem Eisprung",
+  "fertile_window_55": "Fruchtbares Fenster:",
+  "k_5_days_total_around_ovulation_56": "Insgesamt 5 Tage um den Eisprung herum",
+  "sperm_survival_57": "Überleben der Spermien:",
+  "up_to_5_days_in_reproductive_tract_58": "Bis zu 5 Tage im Fortpflanzungstrakt",
+  "egg_survival_59": "Überleben der Eier:",
+  "k_1224_hours_after_ovulation_60": "12-24 Stunden nach dem Eisprung",
+  "important_notes_61": "Wichtige Hinweise",
+  "this_calculator_provides_estimates_based_on_averag_62": "Dieser Rechner liefert Schätzungen basierend auf durchschnittlichen Zyklen",
+  "actual_cycles_can_vary_due_to_stress_illness_or_li_63": "Die tatsächlichen Zyklen können aufgrund von Stress, Krankheit oder Lebensstil variieren",
+  "track_your_cycle_for_3_months_for_better_accuracy_64": "Verfolgen Sie Ihren Zyklus mehr als drei Monate lang, um eine bessere Genauigkeit zu erzielen",
+  "consult_healthcare_providers_for_irregular_cycles_65": "Bei unregelmäßigen Zyklen wenden Sie sich an Ihren Arzt"
+}

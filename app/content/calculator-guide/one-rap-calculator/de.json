@@ -1,0 +1,140 @@
+{
+  "color": "Rosa",
+  "sections": [
+    {
+      "heading": "Was ist ein One Rep Max (1RM)-Rechner?",
+      "content": "Ein One Rep Max Calculator (auch 1RM Calculator Online oder One Repetition Maximum Calculator genannt) ist ein Krafttrainingstool, das das maximale Gewicht schätzt, das Sie für eine einzelne Wiederholung einer Übung heben können. Anstatt Ihren absoluten Maximalhub im Fitnessstudio zu testen, was riskant sein kann, können Sie eine maximale Anzahl freier Wiederholungen berechnen, indem Sie das Gewicht, das Sie gehoben haben, und die Anzahl der durchgeführten Wiederholungen eingeben."
+    },
+    {
+      "heading": "Warum ist die Berechnung Ihres 1RM wichtig?",
+      "subSections": [
+        {
+          "heading": "Trainingslasten festlegen",
+          "content": "Passen Sie die Belastung genau an Kraft, Hypertrophie oder Ausdauer an."
+        },
+        {
+          "heading": "Verfolgen Sie den Fortschritt",
+          "content": "Überwachen Sie Verbesserungen bei Bodybuilding, CrossFit, olympischem Gewichtheben und Powerlifting."
+        },
+        {
+          "heading": "Verhindern Sie Übertraining",
+          "content": "Bleiben Sie sicher, indem Sie im optimalen Intensitätsbereich trainieren."
+        },
+        {
+          "heading": "Passen Sie Programme an",
+          "content": "Auf 5x5-Training, progressive Überlastungs- und Hypertrophiezyklen anwenden."
+        }
+      ]
+    },
+    {
+      "heading": "Beliebte One Rep Max-Formeln erklärt",
+      "subSections": [
+        {
+          "heading": "Epley-Formel",
+          "content": "1RM = Gewicht × (1 + 0,0333 × Wiederholungen). Am besten für allgemeine Kraftsportler geeignet. Einfach und genau bis zu 10 Wiederholungen, aber weniger genau bei sehr hohen Wiederholungen."
+        },
+        {
+          "heading": "Brzycki-Formel",
+          "content": "1RM = Gewicht × (36 ÷ (37 − Wiederholungen)). Gut für Kraft und Hypertrophie. Zuverlässig unter 10 Wiederholungen, kann aber bei Ausdauersätzen unterschätzt werden."
+        },
+        {
+          "heading": "Lombardi-Formel",
+          "content": "1RM = Gewicht × Wiederholungen^0,10. Beliebt bei Powerliftern. Funktioniert über weite Wiederholungsbereiche, ist für Anfänger jedoch möglicherweise übertrieben."
+        }
+      ]
+    },
+    {
+      "heading": "Sichere Methoden zur Berechnung von 1 RM ohne maximales Gewichtheben",
+      "subSections": [
+        {
+          "heading": "Wählen Sie mittlere Gewichte",
+          "content": "Machen Sie 3–10 Wiederholungen mit der richtigen Form, anstatt das Maximum auszuschöpfen."
+        },
+        {
+          "heading": "Protokolldaten",
+          "content": "Notieren Sie das genaue Gewicht und die durchgeführten Wiederholungen."
+        },
+        {
+          "heading": "Verwenden Sie Prozentdiagramme",
+          "content": "Schätzen Sie die Trainingsbelastung sicher auf 50 %, 60 %, 70 %, 80 %, 90 % ein."
+        }
+      ]
+    },
+    {
+      "heading": "Wie man 1RM in Trainingsprogrammen verwendet",
+      "subSections": [
+        {
+          "heading": "Krafttraining",
+          "content": "Trainieren Sie 1–5 Wiederholungen lang mit 80–90 % des 1RM. Am besten für Powerlifting, olympisches Gewichtheben und CrossFit geeignet."
+        },
+        {
+          "heading": "Hypertrophie (Muskelwachstum)",
+          "content": "Trainieren Sie mit 65–75 % des 1RM für 6–12 Wiederholungen. Wirksam für Bodybuilding und Größenzuwächse."
+        },
+        {
+          "heading": "Ausdauer und Kondition",
+          "content": "Trainieren Sie mit 50–65 % des 1RM für 12–20+ Wiederholungen. Ideal für allgemeines Fitness- und Funktionstraining."
+        },
+        {
+          "heading": "Beispiele",
+          "content": "5x5-Training (~75–85 %), progressive Überlastung (stufenweise steigern), Hypertrophie-Training, CrossFit-Kraftkonditionierung."
+        }
+      ]
+    },
+    {
+      "heading": "Best Practices, Sicherheit und Haftungsausschluss",
+      "subSections": [
+        {
+          "heading": "Sich warm laufen",
+          "content": "Wärmen Sie sich immer auf, bevor Sie testen oder schätzen."
+        },
+        {
+          "heading": "Max nie allein",
+          "content": "Benutzen Sie einen Spotter oder Sicherheitsausrüstung."
+        },
+        {
+          "heading": "Beginnen Sie konservativ",
+          "content": "Anfänger sollten beim Heben vorsichtig sein."
+        },
+        {
+          "heading": "Liftspezifische Anpassungen",
+          "content": "Bewerben Sie sich separat für Bankdrücken, Kniebeugen, Kreuzheben und olympische Gewichtheberübungen."
+        },
+        {
+          "heading": "Hören Sie auf Ihren Körper",
+          "content": "Vermeiden Sie das Heben aufgrund von Schmerzen."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist die genaueste One Rep Max-Formel?",
+      "a": "Der Epley 1RM-Formelrechner ist für Übungen mit weniger als 10 Wiederholungen am genauesten. Brzycki eignet sich gut für moderate Wiederholungen, während Lombardi für Powerlifter geeignet ist."
+    },
+    {
+      "q": "Können Anfänger einen One Rep Max-Rechner verwenden?",
+      "a": "Ja, Anfänger sollten echte Maximalversuche vermeiden und stattdessen für sichere Schätzungen submaximale Übungen (3–10 Wiederholungen) verwenden."
+    },
+    {
+      "q": "Wie oft sollte ich mein 1RM neu berechnen?",
+      "a": "Die meisten Kraftsportler aktualisieren ihre Ergebnisse alle 6–8 Wochen. Fortgeschrittene Sportler können während Kraftzyklen häufiger eine Neuberechnung durchführen."
+    },
+    {
+      "q": "Ist es sicher, mein wahres Ein-Wiederholungs-Maximum im Fitnessstudio zu testen?",
+      "a": "Ohne Spotter oder geeignete Ausrüstung kann es riskant sein. Die Verwendung eines 1RM-Rechners ist sicherer und effektiver."
+    },
+    {
+      "q": "Wie verwende ich mein 1RM zum Programmieren von Trainingseinheiten?",
+      "a": "Verwenden Sie einen Maximalprozentsatzrechner für eine Wiederholung: 50–65 % Ausdauer, 65–75 % Hypertrophie, 75–85 % Kraft, 85–95 % Kraft."
+    },
+    {
+      "q": "Funktioniert dieser Rechner für alle Übungen?",
+      "a": "Ja, es funktioniert beim Bankdrücken, Kniebeugen, Kreuzheben, Militärdrücken, olympischen Gewichtheben und zusätzlichen Bewegungen."
+    },
+    {
+      "q": "Kann ich dieses Tool mobil oder im Fitnessstudio verwenden?",
+      "a": "Ja, dieser kostenlose 1RM-Rechner ist weltweit für den Einsatz auf Mobilgeräten, Desktops und im Fitnessstudio optimiert."
+    }
+  ]
+}

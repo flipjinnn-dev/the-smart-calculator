@@ -1,0 +1,137 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Calculadora de concepção de gravidez – Encontre sua data de concepção",
+      "content": "Esta calculadora de concepção de gravidez ajuda a estimar a data de concepção, o dia da ovulação e a data prevista de vencimento com base no seu último período menstrual (DUM), duração do ciclo, resultados de ultrassom ou detalhes de transferência de fertilização in vitro. Ele funciona como uma ferramenta confiável de estimativa da data de concepção tanto para gestações naturais quanto para reprodução assistida."
+    },
+    {
+      "heading": "Isenção de responsabilidade",
+      "content": "Esta calculadora fornece estimativas gerais e não substitui o aconselhamento médico. Sempre confirme suas datas com seu médico."
+    },
+    {
+      "heading": "Como funciona uma calculadora de concepção de gravidez?",
+      "content": "Uma calculadora on-line da data da concepção da gravidez estima quando a fertilização provavelmente ocorreu, contando regressivamente a partir da data do parto ou avançando a partir do último período menstrual.",
+      "subSections": [
+        {
+          "heading": "Por LMP",
+          "content": "Presume que a ovulação ocorre cerca de 14 dias após o início da última menstruação."
+        },
+        {
+          "heading": "Por data de vencimento",
+          "content": "Conta cerca de 38 semanas a partir da data estimada de vencimento (EDD)."
+        },
+        {
+          "heading": "Por ultrassom",
+          "content": "Utiliza medidas fetais, que são mais precisas no início da gravidez."
+        },
+        {
+          "heading": "Por fertilização in vitro",
+          "content": "Calcula usando a data exata da transferência do embrião para resultados altamente precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Cronograma de concepção explicado",
+      "content": "Estágios típicos da concepção e cálculo da gravidez:",
+      "subSections": [
+        {
+          "heading": "Primeiro dia da última menstruação",
+          "content": "Ciclo Dia 1 – Referência para calculadoras baseadas em LMP."
+        },
+        {
+          "heading": "Janela de ovulação",
+          "content": "Geralmente do dia 12 ao 16 do ciclo (em um ciclo de 28 dias)."
+        },
+        {
+          "heading": "Fertilização (Concepção)",
+          "content": "Ocorre dentro de 24 horas após a ovulação."
+        },
+        {
+          "heading": "Implantação",
+          "content": "Acontece 6–12 dias após a ovulação."
+        },
+        {
+          "heading": "Teste de gravidez positivo",
+          "content": "Normalmente cerca de 2 semanas após a ovulação."
+        }
+      ]
+    },
+    {
+      "heading": "Quando usar a calculadora",
+      "content": "Esta ferramenta é útil para vários cenários:",
+      "subSections": [
+        {
+          "heading": "Acompanhamento natural da gravidez",
+          "content": "Estime a data de concepção com base na DUM ou na duração do ciclo."
+        },
+        {
+          "heading": "Períodos Irregulares",
+          "content": "A calculadora de concepção se adapta às irregularidades do ciclo."
+        },
+        {
+          "heading": "Cálculo de concepção de fertilização in vitro",
+          "content": "Com base na data da transferência do embrião (dia 3 ou dia 5 da transferência)."
+        },
+        {
+          "heading": "Namoro baseado em ultrassom",
+          "content": "Depende do ultrassom precoce para precisão."
+        },
+        {
+          "heading": "Gêmeos ou Múltiplos",
+          "content": "Ajuda a monitorar gestações múltiplas, embora a data da concepção permaneça a mesma."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadoras de Precisão da Concepção",
+      "content": "Uma calculadora gratuita de concepção de gravidez fornece uma estimativa, não uma data exata. A ultrassonografia no primeiro trimestre geralmente é mais precisa do que as estimativas baseadas na DUM. Os médicos combinam histórico do ciclo, ultrassom e dados médicos para maior precisão. As calculadoras de concepção de fertilização in vitro são altamente precisas, mas ainda podem variar ligeiramente."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como funciona uma calculadora de concepção de gravidez?",
+      "a": "Ele estima a data de sua concepção usando sua última menstruação, data de vencimento, duração do ciclo ou dados de ultrassom."
+    },
+    {
+      "q": "Uma calculadora pode dizer o dia exato em que concebi?",
+      "a": "Não, fornece uma janela estimada. A concepção exata não pode ser identificada."
+    },
+    {
+      "q": "Quão preciso é o ultrassom para a data da concepção?",
+      "a": "A ultrassonografia no primeiro trimestre é o método mais confiável para datar a gravidez."
+    },
+    {
+      "q": "Os ciclos irregulares podem afetar minha estimativa da data de concepção?",
+      "a": "Sim. Os ciclos irregulares dificultam as previsões, por isso o ultrassom é mais preciso."
+    },
+    {
+      "q": "Como é calculada a data de concepção da fertilização in vitro?",
+      "a": "Baseia-se na data da transferência do embrião e no estágio do embrião (dia 3 ou dia 5 da transferência)."
+    },
+    {
+      "q": "Qual é a diferença entre a data da concepção e a data da ovulação?",
+      "a": "A ovulação é quando o óvulo é liberado. A concepção acontece quando o espermatozoide fertiliza o óvulo logo após a ovulação."
+    },
+    {
+      "q": "Por que a data do parto é diferente da data do ultrassom?",
+      "a": "O ultrassom geralmente corrige as estimativas baseadas na DUM, especialmente se os ciclos forem irregulares."
+    },
+    {
+      "q": "Posso usar uma calculadora de concepção se não souber minha DUM?",
+      "a": "Sim. Você pode usar a data do ultrassom ou a data de vencimento."
+    },
+    {
+      "q": "Gêmeos ou múltiplos alteram o cálculo da data de concepção?",
+      "a": "Não. A data de concepção permanece a mesma, mas o progresso da gravidez e as datas do parto podem ser diferentes."
+    },
+    {
+      "q": "Minha data de vencimento está garantida como correta?",
+      "a": "Não. A data prevista para o nascimento é apenas uma estimativa e a maioria dos bebês não nasce exatamente nesse dia."
+    }
+  ],
+  "cta": {
+    "heading": "Encontre a data da sua concepção hoje",
+    "content": "Use nossa Calculadora Gratuita de Concepção de Gravidez para estimar sua data de concepção, dia de ovulação e data de vencimento. Obtenha informações precisas, seja por meio de gravidez natural, ultrassom ou monitoramento de fertilização in vitro."
+  }
+}

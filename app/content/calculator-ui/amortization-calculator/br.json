@@ -1,0 +1,151 @@
+{
+  "pageTitle": "Calculadora de Amortização",
+  "pageDescription": "Gere cronogramas de amortização detalhados para empréstimos com detalhamento do principal e dos juros para cada período de pagamento para entender o progresso do pagamento do empréstimo",
+  "form": {
+    "labels": {
+      "loanAmount": "Valor do empréstimo",
+      "interestRate": "Taxa de juros anual",
+      "loanTerm": "Prazo do empréstimo",
+      "loanTermUnit": "Unidade de Prazo do Empréstimo",
+      "startDate": "Data de início do empréstimo",
+      "extraPayment": "Pagamento Extra Mensal",
+      "paymentFrequency": "Frequência de pagamento"
+    },
+    "placeholders": {
+      "loanAmount": "Insira o valor do empréstimo",
+      "interestRate": "Insira a taxa de juros anual (%)",
+      "loanTerm": "Insira o prazo do empréstimo",
+      "extraPayment": "Insira o pagamento mensal extra (opcional)"
+    },
+    "buttons": {
+      "calculate": "Gerar cronograma de amortização",
+      "reset": "Reiniciar"
+    },
+    "loanTermUnits": {
+      "years": "Anos",
+      "months": "Meses"
+    },
+    "paymentFrequencies": {
+      "monthly": "Mensal",
+      "biweekly": "Quinzenal",
+      "weekly": "Semanalmente"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Pagamento Mensal",
+    "totalInterest": "Juros totais pagos",
+    "totalPayment": "Pagamento total",
+    "payoffDate": "Data de pagamento do empréstimo",
+    "interestSavings": "Economia de juros com pagamentos extras",
+    "amortizationResultsTitle": "Resultados do cálculo de amortização"
+  },
+  "educational": {
+    "amortizationInfo": "Informações sobre amortização",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "amortizationFacts": {
+      "definition": {
+        "title": "Definição de Amortização",
+        "description": "Processo de quitação de um empréstimo com pagamentos regulares ao longo do tempo, com juros calculados sobre o saldo remanescente"
+      },
+      "schedule": {
+        "title": "Cronograma de Amortização",
+        "description": "Tabela detalhada mostrando as parcelas do principal e dos juros de cada pagamento durante o prazo do empréstimo"
+      },
+      "earlyPayments": {
+        "title": "Impacto do pagamento antecipado",
+        "description": "Os pagamentos antecipados são principalmente juros; pagamentos posteriores são principalmente principais"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de cronograma de amortização",
+      "actual": "Os termos reais do empréstimo podem variar com base nas políticas e taxas do credor"
+    },
+    "importantNotesList": [
+      "Pagamentos extras reduzem diretamente o principal e economizam nos juros totais",
+      "Pagamentos quinzenais podem ajudar a pagar empréstimos mais rapidamente",
+      "No início do prazo do empréstimo, a maior parte do pagamento vai para os juros e não para o principal",
+      "Os cronogramas de amortização ajudam a planejar o orçamento e compreender o progresso do empréstimo"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações do seu empréstimo para gerar o cronograma de amortização",
+    "resultMessage": "Os resultados do seu cálculo de amortização são mostrados abaixo",
+    "assessmentResult": "Resultado do Cálculo da Amortização:",
+    "amortizationAnalysis": "Análise de Amortização"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas do cronograma de amortização com base em fórmulas financeiras padrão. Os termos, pagamentos e juros reais do empréstimo podem variar com base nas políticas, taxas e outros fatores do credor não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para aconselhamento personalizado sobre empréstimos e análise de amortização, consulte consultores financeiros ou agentes de crédito com experiência em produtos de empréstimo e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "loanAmount": "Insira um valor de empréstimo válido",
+    "interestRate": "Insira uma taxa de juros anual válida",
+    "loanTerm": "Insira um prazo de empréstimo válido",
+    "startDate": "Insira uma data de início do empréstimo válida",
+    "extraPayment": "Insira um valor de pagamento extra válido",
+    "loanTermUnit": "Selecione uma unidade de prazo do empréstimo",
+    "paymentFrequency": "Selecione uma frequência de pagamento"
+  },
+  "tooltips": {
+    "loanAmount": "Valor total emprestado",
+    "interestRate": "Taxa de juros anual como porcentagem",
+    "loanTerm": "Prazo para pagar o empréstimo",
+    "startDate": "Data em que começam os pagamentos do empréstimo",
+    "extraPayment": "Valor adicional pago a cada mês em relação ao principal",
+    "loanTermUnit": "Unidade de tempo para prazo do empréstimo (anos ou meses)",
+    "paymentFrequency": "Com que frequência os pagamentos são feitos"
+  },
+  "smart_calculator_0": "Calculadora Inteligente",
+  "amortization_calculator_1": "Calculadora de Amortização",
+  "home_2": "Lar",
+  "financial_3": "Financeiro",
+  "amortization_calculator_4": "Calculadora de Amortização",
+  "amortization_calculator_5": "Calculadora de Amortização",
+  "generate_a_detailed_amortization_schedule_showing__6": "Gere um cronograma de amortização detalhado mostrando como cada pagamento é dividido entre principal e\n                interesse.",
+  "loan_details_7": "Detalhes do empréstimo",
+  "enter_loan_information_to_generate_schedule_8": "Insira as informações do empréstimo para gerar o cronograma",
+  "loan_amount_9": "Valor do empréstimo",
+  "interest_rate_10": "Taxa de juro (%)",
+  "loan_term_11": "Prazo do empréstimo",
+  "k_15_years_12": "15 anos",
+  "k_20_years_13": "20 anos",
+  "k_25_years_14": "25 anos",
+  "k_30_years_15": "30 anos",
+  "start_date_16": "Data de início",
+  "generate_schedule_17": "Gerar cronograma",
+  "loan_summary_18": "Resumo do empréstimo",
+  "payment_overview_19": "Visão geral do pagamento",
+  "monthly_payment_20": "Pagamento Mensal",
+  "total_interest_21": "Juros totais",
+  "total_payment_22": "Pagamento total",
+  "enter_loan_details_to_see_summary_23": "Insira os detalhes do empréstimo para ver o resumo",
+  "payment_schedule_24": "Cronograma de Pagamento",
+  "first_12_payments_preview_25": "Visualização dos primeiros 12 pagamentos",
+  "payment_26": "Pagamento #",
+  "principal_27": "Principal:",
+  "interest_28": "Interesse:",
+  "balance_29": "Saldo: $",
+  "showing_first_12_of_30": "Mostrando os primeiros 12 de",
+  "payments_31": "pagamentos",
+  "generate_schedule_to_see_payment_details_32": "Gerar agendamento para ver detalhes de pagamento",
+  "how_to_use_the_amortization_calculator_33": "Como usar a calculadora de amortização",
+  "the_amortization_calculator_is_a_powerful_tool_des_34": "A calculadora de amortização é uma ferramenta poderosa projetada para ajudá-lo a entender o detalhamento dos pagamentos do seu empréstimo. Veja como usá-lo:",
+  "enter_loan_amount_35": "Insira o valor do empréstimo:",
+  "input_the_total_amount_of_the_loan_you_wish_to_cal_36": "Insira o valor total do empréstimo que deseja calcular.",
+  "enter_interest_rate_37": "Insira a taxa de juros:",
+  "provide_the_annual_interest_rate_of_the_loan_38": "Forneça a taxa de juros anual do empréstimo.",
+  "select_loan_term_39": "Selecione o prazo do empréstimo:",
+  "choose_the_duration_of_the_loan_in_years_40": "Escolha a duração do empréstimo em anos.",
+  "enter_start_date_41": "Insira a data de início:",
+  "specify_the_date_when_the_loan_payments_will_begin_42": "Especifique a data em que os pagamentos do empréstimo começarão.",
+  "generate_schedule_43": "Gerar cronograma:",
+  "click_the_button_to_generate_the_amortization_sche_44": "Clique no botão para gerar o cronograma de amortização.",
+  "the_calculator_will_display_a_detailed_schedule_sh_45": "A calculadora exibirá um cronograma detalhado mostrando cada pagamento, o valor alocado para principal e juros e o saldo restante."
+}

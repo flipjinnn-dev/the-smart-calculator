@@ -1,0 +1,85 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de aposentadoria e por que usá-la?",
+      "content": "Nossa calculadora de aposentadoria gratuita on-line ajuda você a estimar quanto dinheiro você precisará para se aposentar com conforto. Esteja você procurando uma calculadora de poupança para aposentadoria gratuita, uma calculadora de pecúlio para aposentadoria ou uma calculadora de renda de aposentadoria com Previdência Social, esta ferramenta oferece insights claros e adaptados aos seus objetivos financeiros. Em vez de adivinhar, você pode calcular rapidamente quanto dinheiro precisa para se aposentar ajustando poupanças, investimentos, inflação e taxas de retirada."
+    },
+    {
+      "heading": "Como funciona a calculadora de aposentadoria (passo a passo)",
+      "subSections": [
+        {
+          "heading": "Insira suas economias atuais",
+          "content": "Inclui 401 (k), IRA, pensão ou poupança pessoal."
+        },
+        {
+          "heading": "Adicione suas contribuições esperadas",
+          "content": "Depósitos mensais ou anuais."
+        },
+        {
+          "heading": "Ajustar as premissas de crescimento",
+          "content": "Estime o retorno do investimento e a inflação."
+        },
+        {
+          "heading": "Defina sua idade de aposentadoria e expectativa de vida",
+          "content": "Planeje prazos realistas."
+        },
+        {
+          "heading": "Revise seus resultados",
+          "content": "Veja a renda projetada, as retiradas e o crescimento dos pecúlios."
+        }
+      ]
+    },
+    {
+      "heading": "Principais benefícios de nossa calculadora de planejamento de aposentadoria",
+      "subSections": [
+        {
+          "heading": "Resultados ajustados pela inflação",
+          "content": "Planeje de forma realista com uma calculadora de planejamento de aposentadoria com inflação."
+        },
+        {
+          "heading": "Cenários de retirada",
+          "content": "Explore taxas de retirada seguras com uma calculadora de retirada de aposentadoria online."
+        },
+        {
+          "heading": "Segurança Social e pensões",
+          "content": "Fatore os benefícios usando uma calculadora de pensões e aposentadorias."
+        },
+        {
+          "heading": "Vários cenários",
+          "content": "Compare diferentes idades de aposentadoria, taxas de poupança e retornos."
+        },
+        {
+          "heading": "Tabelas e gráficos",
+          "content": "Visualize sua jornada de aposentadoria para um planejamento mais claro."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona perfeitamente em telefones, tablets e desktops."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quanto preciso para me aposentar confortavelmente?",
+      "a": "A maioria dos especialistas recomenda atingir 70–80% de sua renda pré-aposentadoria. Nossa calculadora de aposentadoria com exemplos ajuda você a personalizar essa estimativa."
+    },
+    {
+      "q": "Quão precisa é uma calculadora de aposentadoria?",
+      "a": "Embora nenhuma calculadora preveja o futuro perfeitamente, nossa ferramenta se ajusta à inflação, ao retorno do investimento e à expectativa de vida para fornecer projeções realistas."
+    },
+    {
+      "q": "Posso calcular a reforma sem Segurança Social?",
+      "a": "Sim. Você pode executar cenários com ou sem benefícios usando nossa calculadora de aposentadoria sem Previdência Social."
+    },
+    {
+      "q": "Qual é a taxa de retirada segura na aposentadoria?",
+      "a": "Uma diretriz comum é 4%, mas os resultados variam. Use nossa calculadora de aposentadoria com taxa de retirada segura para testar diferentes estratégias."
+    },
+    {
+      "q": "Esta é a melhor ferramenta de calculadora de aposentadoria?",
+      "a": "Nossa ferramenta é otimizada para iniciantes e usuários avançados no planejamento de aposentadoria, oferecendo vários cenários, ajustes de inflação e considerações fiscais, tornando-a uma das melhores calculadoras de aposentadoria com tecnologia de IA para 2025."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "company": {
+    "name": "Smart Calculator",
+    "description": "Seu destino para calculadoras online gratuitas, precisas e fáceis de usar. Confiado por milhões de usuários em todo o mundo.",
+    "copyright": "2025 Smart Calculator. Todos os direitos reservados."
+  },
+  "categories": {
+    "title": "Categorias Mais Usadas",
+    "items": [
+      {
+        "name": "Calculadoras Financeiras",
+        "href": "/br/financeiro"
+      },
+      {
+        "name": "Saúde e Fitness",
+        "href": "/br/saude"
+      },
+      {
+        "name": "Calculadoras Matemáticas",
+        "href": "/br/matematica"
+      },
+      {
+        "name": "Calculadoras de Física",
+        "href": "/br/fisica"
+      },
+      {
+        "name": "Outras Calculadoras",
+        "href": "/br/outro"
+      }
+    ]
+  },
+  "companyLinks": {
+    "title": "Empresa",
+    "items": [
+      {
+        "name": "Início",
+        "href": "/br"
+      },
+      {
+        "name": "Sobre Nós",
+        "href": "/br/sobre-nos"
+      },
+      {
+        "name": "Contate-Nos",
+        "href": "/br/contate-nos"
+      },
+      {
+        "name": "Política de Privacidade",
+        "href": "/br/politica-de-privacidade"
+      },
+      {
+        "name": "Termos e Condições",
+        "href": "/br/termos-e-condicoes"
+      }
+    ]
+  },
+  "social": {
+    "pinterest": "https://www.pinterest.com/thesmartcalculators/",
+    "twitter": "https://x.com/SmartCalculat0r",
+    "instagram": "https://www.instagram.com/thesmartcalculators/",
+    "youtube": "https://www.youtube.com/@TheSmartCalculators"
+  }
+}

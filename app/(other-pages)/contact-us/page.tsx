@@ -2,8 +2,8 @@
 import Link from "next/link"
 import { Mail, MessageCircle, Clock, Users, Bug, Lightbulb, Handshake, Instagram, Twitter, Youtube } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import Logo from "@/components/logo"
-import SEO from "@/lib/seo"
+
+
 
 export default function ContactPage() {
   return (
@@ -15,25 +15,8 @@ export default function ContactPage() {
         keywords="contact smart calculator, support, feedback, calculator help"
       />
       <div className="min-h-screen bg-white">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <Logo />
-                <div>
-                  <Link
-                    href="/"
-                    className="text-2xl font-bold bg-gradient-to-r from-blue-500 via-red-500 to-green-500 bg-clip-text text-transparent"
-                  >
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">Contact Us</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
+        
+        
 
         {/* Hero Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-purple-50 to-indigo-100">

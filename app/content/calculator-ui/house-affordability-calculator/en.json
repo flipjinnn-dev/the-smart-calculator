@@ -1,0 +1,193 @@
+{
+  "pageTitle": "House Affordability Calculator",
+  "pageDescription": "Determine how much house you can afford based on your income and expenses with comprehensive analysis including debt-to-income ratios and down payment requirements",
+  "form": {
+    "labels": {
+      "annualIncome": "Annual Gross Income",
+      "monthlyDebts": "Monthly Debt Payments",
+      "downPayment": "Down Payment",
+      "downPaymentType": "Down Payment Type",
+      "interestRate": "Expected Mortgage Interest Rate",
+      "loanTerm": "Loan Term",
+      "propertyTax": "Annual Property Tax Rate",
+      "homeInsurance": "Annual Home Insurance",
+      "hoaFees": "Monthly HOA Fees",
+      "otherHousingCosts": "Other Monthly Housing Costs"
+    },
+    "placeholders": {
+      "annualIncome": "Enter annual gross income",
+      "monthlyDebts": "Enter total monthly debt payments",
+      "downPayment": "Enter down payment",
+      "interestRate": "Enter expected mortgage interest rate (%)",
+      "loanTerm": "Enter loan term in years",
+      "propertyTax": "Enter annual property tax rate (%)",
+      "homeInsurance": "Enter annual home insurance cost",
+      "hoaFees": "Enter monthly HOA fees",
+      "otherHousingCosts": "Enter other monthly housing costs"
+    },
+    "buttons": {
+      "calculate": "Calculate House Affordability",
+      "reset": "Reset"
+    },
+    "downPaymentTypes": {
+      "amount": "Amount",
+      "percentage": "Percentage"
+    }
+  },
+  "results": {
+    "affordablePrice": "Affordable Home Price",
+    "monthlyPayment": "Estimated Monthly Payment",
+    "principalAndInterest": "Principal & Interest",
+    "taxesAndInsurance": "Taxes & Insurance",
+    "totalHousingCost": "Total Monthly Housing Cost",
+    "dtiRatio": "Debt-to-Income Ratio",
+    "houseAffordabilityResultsTitle": "House Affordability Results"
+  },
+  "educational": {
+    "houseAffordabilityInfo": "House Affordability Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "houseAffordabilityFacts": {
+      "rules": {
+        "title": "Affordability Rules",
+        "description": "28/36 rule: Housing costs ≤ 28% of gross income, Total debt ≤ 36% of gross income"
+      },
+      "downPayment": {
+        "title": "Down Payment Impact",
+        "description": "Larger down payments reduce loan amount and may eliminate PMI requirement"
+      },
+      "dti": {
+        "title": "Debt-to-Income Ratio",
+        "description": "Lenders typically prefer DTI ratios below 43% for qualified mortgages"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides house affordability estimates only",
+      "actual": "Actual affordability may vary based on credit score, lender policies, and market conditions"
+    },
+    "importantNotesList": [
+      "Lenders consider credit score, employment history, and assets in addition to income",
+      "Closing costs typically range from 2-5% of home price",
+      "Emergency fund should cover 3-6 months of housing expenses",
+      "Consider maintenance costs of 1-3% of home value annually"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your financial information to determine house affordability",
+    "resultMessage": "Your house affordability calculation results are shown below",
+    "assessmentResult": "House Affordability Calculation Result:",
+    "houseAffordabilityAnalysis": "House Affordability Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides house affordability estimates based on general financial guidelines. Actual affordability may vary based on credit score, lender policies, market conditions, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized house affordability analysis and mortgage advice, consult mortgage brokers or financial advisors with expertise in home lending and individual financial circumstances."
+  },
+  "errors": {
+    "annualIncome": "Please enter a valid annual gross income",
+    "monthlyDebts": "Please enter valid monthly debt payments",
+    "downPayment": "Please enter a valid down payment",
+    "interestRate": "Please enter a valid expected mortgage interest rate",
+    "loanTerm": "Please enter a valid loan term",
+    "propertyTax": "Please enter a valid annual property tax rate",
+    "homeInsurance": "Please enter a valid annual home insurance cost",
+    "hoaFees": "Please enter valid monthly HOA fees",
+    "otherHousingCosts": "Please enter valid other monthly housing costs",
+    "downPaymentType": "Please select a down payment type"
+  },
+  "tooltips": {
+    "annualIncome": "Your total annual gross income before taxes",
+    "monthlyDebts": "Total monthly payments for all debts (car loans, student loans, credit cards, etc.)",
+    "downPayment": "Amount you plan to pay upfront toward home purchase",
+    "downPaymentType": "Whether down payment is specified as amount or percentage",
+    "interestRate": "Expected annual interest rate on mortgage loan",
+    "loanTerm": "Length of time to repay the mortgage (typically 15 or 30 years)",
+    "propertyTax": "Annual property tax rate assessed by local government",
+    "homeInsurance": "Annual cost of homeowners insurance",
+    "hoaFees": "Monthly fees for Homeowners Association services",
+    "otherHousingCosts": "Other monthly housing-related expenses (utilities, maintenance, etc.)"
+  },
+  "affordability_calculator_0": "Affordability Calculator",
+  "calculation_method_1": "Calculation Method",
+  "how_would_you_like_to_calculate_2": "How would you like to calculate?",
+  "based_on_income_debttoincome_ratios_3": "Based on Income & Debt-to-Income Ratios",
+  "based_on_fixed_monthly_budget_4": "Based on Fixed Monthly Budget",
+  "income_debt_information_5": "Income & Debt Information",
+  "annual_gross_income_6": "Annual Gross Income",
+  "monthly_debt_payments_7": "Monthly Debt Payments",
+  "frontend_ratio_8": "Front-End Ratio (%)",
+  "housing_costs_as_of_gross_income_typically_28_9": "Housing costs as % of gross income (typically 28%)",
+  "backend_ratio_10": "Back-End Ratio (%)",
+  "total_debt_as_of_gross_income_typically_36_11": "Total debt as % of gross income (typically 36%)",
+  "monthly_housing_budget_12": "Monthly Housing Budget",
+  "maximum_monthly_housing_payment_13": "Maximum Monthly Housing Payment",
+  "include_mortgage_taxes_insurance_and_hoa_fees_14": "Include mortgage, taxes, insurance, and HOA fees",
+  "loan_property_details_15": "Loan & Property Details",
+  "down_payment_16": "Down Payment (%)",
+  "mortgage_interest_rate_17": "Mortgage Interest Rate (%)",
+  "loan_term_years_18": "Loan Term (years)",
+  "k_15_years_19": "15 years",
+  "k_20_years_20": "20 years",
+  "k_25_years_21": "25 years",
+  "k_30_years_22": "30 years",
+  "property_tax_rate_23": "Property Tax Rate (%)",
+  "home_insurance_rate_24": "Home Insurance Rate (%)",
+  "hoa_fee_rate_25": "HOA Fee Rate (%)",
+  "calculate_26": "Calculate",
+  "affordability_results_27": "Affordability Results",
+  "how_much_house_you_can_afford_28": "How much house you can afford",
+  "maximum_house_price_29": "Maximum House Price:",
+  "monthly_payment_breakdown_30": "Monthly Payment Breakdown",
+  "principal_interest_31": "Principal & Interest",
+  "property_tax_32": "Property Tax",
+  "home_insurance_33": "Home Insurance",
+  "hoa_fees_34": "HOA Fees",
+  "total_monthly_payment_35": "Total Monthly Payment",
+  "purchase_details_36": "Purchase Details",
+  "down_payment_required_37": "Down Payment Required",
+  "loan_amount_38": "Loan Amount",
+  "housing_budget_used_39": "Housing Budget Used:",
+  "this_calculation_assumes_40": "This calculation assumes",
+  "down_payment_and_41": "% down payment and",
+  "interest_rate_42": "% interest rate",
+  "enter_your_information_to_see_how_much_house_you_c_43": "Enter your information to see how much house you can afford",
+  "how_much_house_can_i_afford_44": "How Much House Can I Afford?",
+  "determining_how_much_house_you_can_afford_depends__45": "Determining how much house you can afford depends on several key factors including your income,\n                      existing debts, down payment, and the current mortgage rates. Lenders typically use two main\n                      ratios to evaluate your affordability:",
+  "frontend_ratio_28_rule_46": "Front-End Ratio (28% Rule):",
+  "your_total_housing_costs_should_not_exceed_28_of_y_47": "Your total housing costs should not exceed 28% of\n                        your gross monthly income",
+  "backend_ratio_36_rule_48": "Back-End Ratio (36% Rule):",
+  "your_total_debt_payments_should_not_exceed_36_of_y_49": "Your total debt payments should not exceed 36% of\n                        your gross monthly income",
+  "house_affordability_formulas_logic_50": "House Affordability Formulas & Logic",
+  "k_1_monthly_income_calculation_51": "1. Monthly Income Calculation",
+  "monthly_income_annual_income_12_52": "Monthly Income = Annual Income ÷ 12",
+  "k_2_dti_ratio_limits_53": "2. DTI Ratio Limits",
+  "frontend_max_monthly_income_frontend_ratio_54": "Front-End Max = Monthly Income × Front-End Ratio",
+  "backend_max_monthly_income_backend_ratio_monthly_d_55": "Back-End Max = (Monthly Income × Back-End Ratio) - Monthly Debts",
+  "k_3_housing_budget_56": "3. Housing Budget",
+  "max_housing_budget_minfrontend_max_backend_max_57": "Max Housing Budget = min(Front-End Max, Back-End Max)",
+  "k_4_monthly_mortgage_payment_58": "4. Monthly Mortgage Payment",
+  "m_l_r1rn_1rn_1_59": "M = L × [r(1+r)^n] / [(1+r)^n - 1]",
+  "where_l_loan_amount_r_monthly_rate_n_number_of_pay_60": "Where: L = Loan Amount, r = Monthly Rate, n = Number of Payments",
+  "k_5_total_housing_cost_61": "5. Total Housing Cost",
+  "total_mortgage_property_tax_insurance_hoa_62": "Total = Mortgage + Property Tax + Insurance + HOA",
+  "example_calculations_63": "Example Calculations",
+  "example_1_incomebased_calculation_64": "Example 1: Income-Based Calculation",
+  "scenario_65": "Scenario:",
+  "k_100000_annual_income_500_monthly_debts_30year_mort_66": "$100,000 annual income, $500 monthly debts, 30-year mortgage at 6%,\n                          20% down payment",
+  "calculation_67": "Calculation:",
+  "monthly_income_8333_frontend_max_2333_backend_max__68": "Monthly income = $8,333, Front-end max = $2,333, Back-end max =\n                          $2,500",
+  "result_69": "Result:",
+  "max_housing_budget_2333_affordable_house_420000_70": "Max housing budget = $2,333, Affordable house ≈ $420,000",
+  "example_2_budgetbased_calculation_71": "Example 2: Budget-Based Calculation",
+  "scenario_72": "Scenario:",
+  "fixed_budget_of_2500month_same_loan_parameters_as__73": "Fixed budget of $2,500/month, same loan parameters as above",
+  "calculation_74": "Calculation:",
+  "housing_budget_2500_userdefined_75": "Housing budget = $2,500 (user-defined)",
+  "result_76": "Result:",
+  "affordable_house_390000_77": "Affordable house ≈ $390,000"
+}

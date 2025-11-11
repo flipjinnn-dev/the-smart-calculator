@@ -1,0 +1,83 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "O que é uma hipoteca?",
+      "content": "Uma hipoteca é um empréstimo à habitação garantido por uma propriedade, na maioria das vezes imóveis. O credor fornece o dinheiro para a compra da casa e o mutuário concorda em pagar esse valor durante um período prolongado, normalmente de 15 a 30 anos. Os pagamentos mensais são divididos em duas partes principais: o principal, que é o valor original do empréstimo, e os juros, que são o custo do empréstimo. A Calculadora de Empréstimo Hipotecário ajuda a calcular esses componentes detalhadamente, juntamente com outros custos relevantes, como impostos sobre a propriedade e seguros, para fornecer um pagamento mensal preciso."
+    },
+    {
+      "heading": "Principais recursos de nossa calculadora de hipoteca",
+      "subSections": [
+        {
+          "heading": "Valor do empréstimo",
+          "content": "O valor total emprestado para comprar a casa, calculado subtraindo qualquer entrada do preço de compra da casa."
+        },
+        {
+          "heading": "Pagamento inicial",
+          "content": "Este é o pagamento antecipado, geralmente expresso como uma percentagem do preço total. Um pagamento inicial maior geralmente resulta em melhores condições de empréstimo. A maioria dos credores espera 20% ou mais, mas os compradores de primeira viagem às vezes podem pagar apenas 3%."
+        },
+        {
+          "heading": "Prazo do empréstimo",
+          "content": "O tempo que levará para pagar o empréstimo, geralmente 15, 20 ou 30 anos. Prazos mais curtos normalmente resultam em uma taxa de juros mais baixa e um retorno mais rápido."
+        },
+        {
+          "heading": "Taxa de juro",
+          "content": "O custo do empréstimo de dinheiro, que pode ser fixo ou ajustável. As hipotecas de taxa fixa (FRM) oferecem uma taxa de juros constante durante todo o empréstimo, enquanto as hipotecas de taxa ajustável (ARM) podem mudar após um período inicial. Use nossa calculadora de hipotecas com taxa ajustável para estimar o efeito de possíveis alterações nas taxas."
+        },
+        {
+          "heading": "PMI (seguro hipotecário privado)",
+          "content": "Se o seu pagamento inicial for inferior a 20%, você provavelmente será obrigado a pagar o PMI. A opção Calculadora de hipoteca com PMI ajuda a incluir esses custos adicionais em suas estimativas."
+        }
+      ]
+    },
+    {
+      "heading": "Componentes da calculadora de hipoteca explicados",
+      "subSections": [
+        {
+          "heading": "Custos recorrentes",
+          "content": "Impostos sobre a propriedade: Impostos cobrados pelos governos locais, normalmente cerca de 1,1% do valor da propriedade nos EUA. Esses custos tendem a aumentar anualmente devido à inflação. Você pode incluí-los na calculadora de impostos sobre a propriedade e hipotecas para obter uma estimativa completa de seus custos mensais. Seguro Residencial: Protege a casa contra danos inesperados. O custo varia de acordo com a localização e o valor da propriedade. Nossa calculadora de juros hipotecários pode levar em consideração esses custos para uma previsão financeira precisa. Taxas HOA: Algumas propriedades cobram taxas de associação de proprietários, geralmente inferiores a 1% do valor da propriedade. Condomínios e sobrados geralmente exigem essas taxas. Seguro Hipotecário Privado (PMI): Obrigatório quando o pagamento inicial for inferior a 20%. Isso ajuda a proteger o credor em caso de inadimplência do mutuário."
+        },
+        {
+          "heading": "Custos Não Recorrentes",
+          "content": "Custos de fechamento: taxas pagas no fechamento de uma casa, como honorários advocatícios, taxas de avaliação e encargos de título. Esses custos geralmente variam de 2% a 5% do preço de compra da casa. Renovações: atualizações opcionais, como atualizações de cozinha ou novos pisos, podem aumentar seus custos totais, mas não são levadas em consideração nos pagamentos mensais da hipoteca. Custos diversos: Inclui despesas de mudança, móveis e reparos domésticos após a compra."
+        }
+      ]
+    },
+    {
+      "heading": "Opções de reembolso antecipado em nossa calculadora de empréstimos hipotecários",
+      "content": "Muitos compradores de casas podem desejar pagar a hipoteca mais cedo do que o necessário para economizar juros ou porque estão refinanciando ou vendendo sua propriedade. Nossa calculadora de pagamento de hipoteca com opções de reembolso antecipado pode ajudá-lo a planejar isso.",
+      "subSections": [
+        {
+          "heading": "Estratégias para pagar antecipadamente sua hipoteca",
+          "content": "Pagamentos extras: Ao fazer pagamentos extras além de sua hipoteca mensal, você pode reduzir o principal mais rapidamente, resultando em custos de juros mais baixos ao longo do tempo. Pagamentos quinzenais: Em vez de pagar mensalmente, faça pagamentos pela metade a cada duas semanas. Isso resulta em um mês extra de pagamentos a cada ano, ajudando você a pagar o empréstimo mais rapidamente. Nossa calculadora de pagamento de hipoteca quinzenal mostra como essa abordagem funciona. Refinanciamento: refinanciar seu empréstimo por uma taxa de juros mais baixa ou por um prazo mais curto pode ajudá-lo a economizar dinheiro e pagar sua hipoteca mais rapidamente. A calculadora de refinanciamento de hipotecas permite estimar economias potenciais."
+        },
+        {
+          "heading": "Vantagens e desvantagens do reembolso antecipado",
+          "content": "Vantagens: Custos de juros mais baixos: o pagamento antecipado da hipoteca reduz os juros que você paga ao longo da vida do empréstimo. Reembolso mais rápido: O empréstimo será pago mais rapidamente, proporcionando liberdade financeira mais cedo. Satisfação Pessoal: Muitos mutuários desfrutam do benefício emocional de estarem livres de dívidas. Desvantagens: Possíveis penalidades de pré-pagamento: alguns credores impõem taxas para reembolso antecipado, o que pode reduzir os benefícios. Custo de oportunidade: Se as taxas de hipoteca forem baixas, usar fundos extras para pagar a hipoteca pode não ser a melhor decisão financeira, especialmente se você puder obter um retorno maior em outro lugar. Capital Lock-In: O dinheiro gasto no reembolso antecipado da hipoteca pode ser necessário para outras despesas. Perda de deduções fiscais: Os juros da hipoteca são dedutíveis do imposto, mas o pagamento antecipado da hipoteca reduz o valor que você pode deduzir."
+        }
+      ]
+    },
+    {
+      "heading": "Breve história das hipotecas nos EUA",
+      "content": "A propriedade de uma casa nem sempre era acessível para muitos nos EUA. No início do século 20, os compradores de casas precisavam de grandes adiantamentos e prazos de empréstimo curtos. Após a Grande Depressão, a criação da Fannie Mae e da Federal Housing Administration (FHA) tornou os empréstimos à habitação mais acessíveis, introduzindo opções de longo prazo e baixos pagamentos iniciais. Estas agências ajudaram a estabilizar o mercado imobiliário e a sua influência continua até hoje."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como faço para usar uma calculadora de hipoteca?",
+      "a": "Basta inserir o valor do empréstimo, a taxa de juros, o pagamento inicial e o prazo do empréstimo. A calculadora estimará automaticamente o pagamento mensal da hipoteca e fornecerá um detalhamento de juros, impostos e seguros."
+    },
+    {
+      "q": "O que é o PMI e como isso afeta o pagamento da minha hipoteca?",
+      "a": "O Seguro Hipotecário Privado (PMI) é necessário se o seu pagamento inicial for inferior a 20%. Ele adiciona um custo adicional ao seu pagamento mensal até que a relação entre o valor do empréstimo atinja 80%."
+    },
+    {
+      "q": "Posso refinanciar com a calculadora de hipotecas?",
+      "a": "Sim, a Calculadora de Refinanciamento de Hipoteca permite estimar a economia com o refinanciamento de sua hipoteca, incluindo alterações na taxa de juros e no prazo do empréstimo."
+    },
+    {
+      "q": "Que fatores afetam os pagamentos de hipotecas?",
+      "a": "Fatores como valor do empréstimo, taxa de juros, entrada e custos relacionados à propriedade (como impostos e seguros) influenciam seu pagamento mensal."
+    }
+  ]
+}

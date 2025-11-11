@@ -1,0 +1,134 @@
+{
+  "pageTitle": "Calculadora de média de corrida ganha",
+  "pageDescription": "Calcule a média de corridas ganhas (ERA) para arremessadores",
+  "form": {
+    "labels": {
+      "earnedRuns": "Corridas ganhas permitidas",
+      "inningsPitched": "Entradas lançadas",
+      "gamesPlayed": "Jogos disputados (opcional)"
+    },
+    "placeholders": {
+      "earnedRuns": "Insira corridas ganhas permitidas",
+      "inningsPitched": "Insira as entradas lançadas (por exemplo, 6,1 para 6 entradas e 1 saída)",
+      "gamesPlayed": "Insira o número de jogos disputados (opcional)"
+    },
+    "buttons": {
+      "calculate": "Calcular ERA",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "earnedRunAverage": "Média de corridas ganhas (ERA)",
+    "runsPerGame": "Corridas por jogo",
+    "performanceRating": "Classificação de desempenho",
+    "leagueAverage": "Comparação Média da Liga",
+    "historicalContext": "Contexto histórico"
+  },
+  "educational": {
+    "eraInfo": "Informação ERA",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos de beisebol",
+    "eraFacts": {
+      "definition": {
+        "title": "Média de corridas ganhas",
+        "description": "O número médio de corridas ganhas que um arremessador permite por nove entradas lançadas"
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "ERA = (Corridas ganhas permitidas × 9) / Entradas lançadas"
+      },
+      "interpretation": {
+        "title": "Interpretação de Desempenho",
+        "description": "ERA abaixo de 3,00 é excelente, 3,00-4,00 está acima da média, 4,00-5,00 está na média e acima de 5,00 está abaixo da média"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas cálculos ERA",
+      "actual": "A avaliação de desempenho real deve considerar estatísticas e contexto adicionais"
+    },
+    "importantNotesList": [
+      "A ERA conta apenas corridas ganhas, não corridas resultantes de erros defensivos",
+      "Um ERA mais baixo indica melhor desempenho de arremesso",
+      "Fatores de parque e força do oponente também devem ser considerados",
+      "O tamanho da amostra é importante – o ERA é mais significativo em muitas entradas"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira corridas ganhas e entradas lançadas para calcular o ERA",
+    "resultMessage": "Os resultados do seu cálculo ERA são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo ERA:",
+    "eraAnalysis": "Análise ERA"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece cálculos ERA baseados em fórmulas estatísticas padrão de beisebol. A avaliação completa do desempenho deve considerar métricas adicionais, contexto e fatores de tamanho da amostra não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos de beisebol",
+    "content": "Para análises abrangentes de estatísticas de beisebol e avaliação de jogadores, consulte sites de referência de beisebol, recursos de análise esportiva ou olheiros e analistas profissionais."
+  },
+  "errors": {
+    "earnedRuns": "Insira um número válido de corridas ganhas",
+    "inningsPitched": "Insira um número válido de entradas lançadas",
+    "gamesPlayed": "Por favor insira um número válido de jogos disputados"
+  },
+  "tooltips": {
+    "earnedRuns": "Número de corridas ganhas permitidas pelo arremessador (corridas não resultantes de erros defensivos)",
+    "inningsPitched": "Total de entradas lançadas, incluindo entradas parciais (por exemplo, 6,1 para 6 entradas e 1 saída)",
+    "gamesPlayed": "Número de jogos em que o arremessador participou (opcional para contexto adicional)"
+  },
+  "pitching_statistics_0": "Estatísticas de lançamento",
+  "enter_pitching_statistics_to_calculate_earned_run__1": "Insira estatísticas de arremesso para calcular a média de corrida ganha",
+  "earned_runs_er_2": "Corridas ganhas (ER)",
+  "whole_innings_pitched_3": "Entradas inteiras lançadas",
+  "additional_outs_4": "Saídas Adicionais",
+  "game_length_5": "Duração do jogo",
+  "formula_6": "Fórmula:",
+  "era_earned_runs_total_innings_game_innings_7": "ERA = (Corridas ganhas ÷ Total de entradas) × Entradas do jogo",
+  "total_innings_whole_innings_outs_3_each_out_repres_8": "Total de entradas = entradas inteiras + (outs ÷ 3). Cada saída representa 1/3 de uma entrada.",
+  "calculate_9": "Calcular",
+  "era_results_10": "Resultados da ERA",
+  "era_11": "ERA",
+  "total_innings_12": "Total de entradas",
+  "enter_pitching_statistics_and_click_13": "Insira as estatísticas de pitch e clique em",
+  "calculate_14": "Calcular",
+  "to_see_era_15": "para ver a ERA.",
+  "detailed_era_breakdown_16": "Análise detalhada do ERA",
+  "era_17": "ERA",
+  "earned_run_average_18": "Média de corridas ganhas",
+  "earned_runs_19": "Corridas ganhas",
+  "er_20": "pronto-socorro",
+  "total_innings_21": "Total de entradas",
+  "ip_22": "IP (",
+  "game_length_23": "Duração do jogo",
+  "innings_24": "entradas",
+  "calculation_steps_25": "Etapas de cálculo:",
+  "step_1_26": "Etapa 1:",
+  "total_innings_27": "Total de entradas =",
+  "k_3_28": "/3) =",
+  "innings_29": "entradas",
+  "step_2_30": "Etapa 2:",
+  "era_31": "ERA = (",
+  "understanding_era_in_baseball_32": "Compreendendo o ERA no beisebol",
+  "what_is_era_33": "O que é ERA?",
+  "earned_run_average_era_measures_how_many_earned_ru_34": "Earned Run Average (ERA) mede quantas corridas ganhas um arremessador permite a cada nove entradas\n                        lançado. É uma das estatísticas mais importantes para avaliar o desempenho do arremessador.",
+  "era_interpretation_35": "Interpretação ERA",
+  "under_200_excellent_36": "Abaixo de 2,00: Excelente",
+  "k_200300_very_good_37": "2h00-3h00: Muito bom",
+  "k_300400_good_38": "3h00-4h00: Bom",
+  "k_400500_average_39": "4h00-5h00: Média",
+  "above_500_below_average_40": "Acima de 5,00: Abaixo da Média",
+  "sample_calculation_41": "Cálculo de amostra",
+  "example_42": "Exemplo:",
+  "pitcher_statistics_43": "Estatísticas do arremessador",
+  "earned_runs_15_44": "Corridas ganhas: 15",
+  "innings_65_45": "Entradas: 65",
+  "outs_2_46": "Saídas: 2",
+  "game_innings_9_47": "Entradas do jogo: 9",
+  "calculation_48": "Cálculo:",
+  "total_ip_65_23_6567_49": "IP total = 65 + (2/3) = 65,67",
+  "era_15_6567_9_50": "ERA = (15 ÷ 65,67) × 9",
+  "era_206_51": "ERA = 2,06"
+}

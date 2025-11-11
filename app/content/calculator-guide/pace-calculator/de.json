@@ -1,0 +1,107 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Was ist ein Laufgeschwindigkeitsrechner?",
+      "content": "Mit unserem Lauftempo-Rechner können Sie ganz einfach online das Lauftempo für jede Distanz und Zeit berechnen. Ganz gleich, ob Sie für einen 5-km-Lauf, einen 10-km-Lauf, einen Halbmarathon oder einen Marathon trainieren oder einfach nur aus Fitnessgründen joggen, mit diesem kostenlosen Tool können Sie ganz einfach Ihr Tempo pro Meile oder pro Kilometer verfolgen."
+    },
+    {
+      "heading": "So berechnen Sie das Lauftempo",
+      "content": "Das Lauftempo ist die Zeit, die benötigt wird, um eine Meile oder einen Kilometer zurückzulegen. Die Formel ist einfach: Tempo = Gesamtzeit ÷ Distanz. Beispiel: Wenn Sie 5 km in 25 Minuten laufen, beträgt Ihr Tempo 5:00 Min./km (oder 8:03 Min./Meile). Wenn Sie einen Marathon (42,2 km) in 4 Stunden laufen, beträgt Ihr Tempo 5:41 min/km. Dieses Tool berechnet es automatisch für Sie in metrischen (km/min) und imperialen (Meile/min) Einheiten."
+    },
+    {
+      "heading": "Warum Lauftempo wichtig ist",
+      "subSections": [
+        {
+          "heading": "Rennplanung",
+          "content": "Hilft beim Tempomachen für 5-km-, 10-km-, Halbmarathon- oder Marathon-Wettbewerbe."
+        },
+        {
+          "heading": "Trainingszonen",
+          "content": "Wird zum Einstellen einfacher Läufe, Tempoläufe und Intervalltrainings verwendet."
+        },
+        {
+          "heading": "Fortschrittsverfolgung",
+          "content": "Vergleichen Sie Ihr Lauftempo mit dem Renntempo im Laufe der Zeit."
+        },
+        {
+          "heading": "Schritttempo",
+          "content": "Schätzen Sie Gehzeiten für Fitness oder Wandern ein."
+        }
+      ]
+    },
+    {
+      "heading": "Lauftempo vs. Geschwindigkeit – Was ist der Unterschied?",
+      "content": "Tempo = Minuten pro km oder Minuten pro Meile (langsamer ist eine höhere Zahl). Geschwindigkeit = Distanz pro Stunde (km/h oder mph). Unser Rechner dient sowohl als Temporechner als auch als Konverter von Laufgeschwindigkeit in Tempo."
+    },
+    {
+      "heading": "Durchschnittliche Laufgeschwindigkeiten und Trainingsbeispiele",
+      "content": "So sieht das Tempo bei häufigen Ereignissen aus:",
+      "subSections": [
+        {
+          "heading": "5K",
+          "content": "Zielzeit: 25:00 | Tempo: 5:00 min/km | 8:03 Min./Meile"
+        },
+        {
+          "heading": "10K",
+          "content": "Zielzeit: 50:00 | Tempo: 5:00 min/km | 8:03 Min./Meile"
+        },
+        {
+          "heading": "Halbmarathon",
+          "content": "Zielzeit: 2:00:00 | Tempo: 5:41 min/km | 9:09 Min./Meile"
+        },
+        {
+          "heading": "Marathon",
+          "content": "Zielzeit: 4:00:00 | Tempo: 5:41 min/km | 9:09 Min./Meile"
+        }
+      ]
+    },
+    {
+      "heading": "Trainingszonen mit einem Temporechner",
+      "subSections": [
+        {
+          "heading": "Leichtes Lauftempo",
+          "content": "60–75 % Aufwand, Gesprächstempo."
+        },
+        {
+          "heading": "Tempo Tempo",
+          "content": "Angenehm hart, haltbar für 20–40 Minuten."
+        },
+        {
+          "heading": "Marathon-Tempo",
+          "content": "Zieltempo für Ihr 26,2-Meilen-Rennen."
+        },
+        {
+          "heading": "Intervalltempo",
+          "content": "Schnellere Anstrengungen für das Geschwindigkeitstraining."
+        },
+        {
+          "heading": "KI-Lauftempo-Rechner",
+          "content": "Hilft dabei, realistische Trainingszonen anhand Ihrer letzten Rennzeit festzulegen."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein gutes Lauftempo für Anfänger?",
+      "a": "Ein gutes Anfangstempo liegt je nach Fitnessniveau bei 7:00–9:00 Min./km (11–14 Min./Meile)."
+    },
+    {
+      "q": "Was ist ein Tempo von 5 Minuten/km in Meilen?",
+      "a": "Dies entspricht etwa 8:03 min/Meile oder 12 km/h (7,5 mph)."
+    },
+    {
+      "q": "Wie berechne ich das Tempo, wenn ich 10 km in 55 Minuten laufe?",
+      "a": "Teilen Sie 55 durch 10 → 5:30 Min./km (8:51 Min./Meile)."
+    },
+    {
+      "q": "Kann ich dies zum Gehen oder Joggen verwenden?",
+      "a": "Ja, es funktioniert für Schritttempo, Joggingtempo oder Lauftempo sowohl in km als auch in Meilen."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen einem Renn-Pace-Rechner und einem Jogging-Pace-Rechner?",
+      "a": "Der Race Pace Calculator hilft bei der Vorhersage von Wettkampfaufteilungen, während der Jogging Pace Calculator für die gelegentliche Fitnessverfolgung nützlich ist."
+    }
+  ]
+}

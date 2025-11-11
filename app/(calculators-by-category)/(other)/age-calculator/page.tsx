@@ -1,109 +1,188 @@
-"use client"
+"use client";
 
-import { useRef, useState } from "react"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Button } from "@/components/ui/button"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
-import Link from "next/link"
-import { Calendar, Clock, User, AlertCircle } from "lucide-react"
-import { useMobileScroll } from "@/hooks/useMobileScroll"
-import SEO from "@/lib/seo"
+import { useCalculatorContent } from "@/hooks/useCalculatorContent";
+import { usePathname } from "next/navigation";
+import { useRef, useState } from "react";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Calendar, Clock, User, AlertCircle } from "lucide-react";
+import { useMobileScroll } from "@/hooks/useMobileScroll";
+export default function AgeCalculatorCalculator() {
+  const pathname = usePathname();
+  const language = pathname.split('/')[1] || 'en';
+  const {
+    content,
+    loading,
+    error: contentError
+  } = useCalculatorContent('age-calculator', language, "calculator-ui");
 
-export default function AgeCalculator() {
-  const resultsRef = useRef<HTMLDivElement>(null)
-  const scrollToRef = useMobileScroll()
-  const [result, setResult] = useState<any>(null)
-  const [showResult, setShowResult] = useState(false)
-  const [errors, setErrors] = useState<{ dateOfBirth?: string; targetDate?: string }>({})
+  // Use content or fallback to defaults
+  const contentData = content || {
+    "pageTitle": "",
+    "pageDescription": "",
+    "form": "",
+    "results": "",
+    "educational": "",
+    "messages": "",
+    "disclaimer": "",
+    "seekHelp": "",
+    "errors": "",
+    "tooltips": "",
+    "loading_0": "",
+    "how_it_works_1": "",
+    "the_calculator_uses_precise_calendar_arithmetic_to_2": "",
+    "results_include_both_exact_age_breakdown_and_total_3": "",
+    "from_4": "",
+    "to_5": "",
+    "enter_your_dates_and_click_6": "",
+    "calculate_7": "",
+    "to_see_your_exact_age_8": "",
+    "years_9": "",
+    "months_10": "",
+    "weeks_11": "",
+    "days_12": "",
+    "sample_calculation_13": "",
+    "age_calculation_1": "",
+    "enter_your_birth_date_and_target_date_to_calculate_2": "",
+    "date_of_birth_3": "",
+    "target_date_4": "",
+    "how_it_works_5": "",
+    "the_calculator_uses_precise_calendar_arithmetic_to_6": "",
+    "results_include_both_exact_age_breakdown_and_total_7": "",
+    "calculate_8": "",
+    "your_age_9": "",
+    "years_10": "",
+    "months_11": "",
+    "weeks_12": "",
+    "days_13": "",
+    "from_14": "",
+    "to_15": "",
+    "enter_your_dates_and_click_16": "",
+    "calculate_17": "",
+    "to_see_your_exact_age_18": "",
+    "detailed_age_breakdown_19": "",
+    "years_20": "",
+    "months_21": "",
+    "weeks_22": "",
+    "days_23": "",
+    "hours_24": "",
+    "minutes_25": "",
+    "seconds_26": "",
+    "understanding_age_calculation_27": "",
+    "how_age_is_calculated_28": "",
+    "age_calculation_involves_precise_calendar_arithmet_29": "",
+    "key_features_30": "",
+    "handles_leap_years_automatically_31": "",
+    "accounts_for_months_with_different_day_counts_32": "",
+    "provides_both_exact_breakdown_and_total_units_33": "",
+    "uses_western_age_counting_system_34": "",
+    "sample_calculation_35": "",
+    "example_36": "",
+    "birth_date_january_1_2000_37": "",
+    "target_date_august_22_2025_38": "",
+    "result_25_years_7_months_21_days_39": "",
+    "the_calculator_also_provides_the_total_time_in_wee_40": ""
+  };
+  const resultsRef = useRef<HTMLDivElement>(null);
+  const scrollToRef = useMobileScroll();
+  const [result, setResult] = useState<any>(null);
+  const [showResult, setShowResult] = useState(false);
+  const [errors, setErrors] = useState<{
+    dateOfBirth?: string;
+    targetDate?: string;
+  }>({});
 
   // Input states
-  const [dateOfBirth, setDateOfBirth] = useState("")
-  const [targetDate, setTargetDate] = useState(new Date().toISOString().split("T")[0])
+  const [dateOfBirth, setDateOfBirth] = useState("");
+  const [targetDate, setTargetDate] = useState(new Date().toISOString().split("T")[0]);
 
+  // Show loading state
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center">{contentData.loading_0}</div>;
+  }
+
+  // Show error if content failed to load
+  if (contentError) {
+    console.error('Error loading content:', contentError);
+  }
   const validateInputs = () => {
-    const newErrors: { dateOfBirth?: string; targetDate?: string } = {}
-
+    const newErrors: {
+      dateOfBirth?: string;
+      targetDate?: string;
+    } = {};
     if (!dateOfBirth) {
-      newErrors.dateOfBirth = "Please enter your date of birth"
+      newErrors.dateOfBirth = "Please enter your date of birth";
     }
-
     if (!targetDate) {
-      newErrors.targetDate = "Please enter the target date"
+      newErrors.targetDate = "Please enter the target date";
     }
-
     if (dateOfBirth && targetDate) {
-      const birthDate = new Date(dateOfBirth)
-      const target = new Date(targetDate)
-
+      const birthDate = new Date(dateOfBirth);
+      const target = new Date(targetDate);
       if (birthDate > target) {
-        newErrors.targetDate = "Target date must be after date of birth"
+        newErrors.targetDate = "Target date must be after date of birth";
       }
 
       // Check if birth date is not in the future
-      const today = new Date()
+      const today = new Date();
       if (birthDate > today) {
-        newErrors.dateOfBirth = "Date of birth cannot be in the future"
+        newErrors.dateOfBirth = "Date of birth cannot be in the future";
       }
 
       // Check if dates are valid
       if (isNaN(birthDate.getTime())) {
-        newErrors.dateOfBirth = "Please enter a valid date"
+        newErrors.dateOfBirth = "Please enter a valid date";
       }
-
       if (isNaN(target.getTime())) {
-        newErrors.targetDate = "Please enter a valid date"
+        newErrors.targetDate = "Please enter a valid date";
       }
     }
-
-    setErrors(newErrors)
-    return Object.keys(newErrors).length === 0
-  }
-
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
   const calculateAge = () => {
     if (!validateInputs()) {
-      return
+      return;
     }
+    const birthDate = new Date(dateOfBirth);
+    const target = new Date(targetDate);
 
-    const birthDate = new Date(dateOfBirth)
-    const target = new Date(targetDate)
+    // Calculate difference in milliseconds
+    const totalMs = target.getTime() - birthDate.getTime();
+    const totalSeconds = Math.floor(totalMs / 1000);
 
-    // Calculate total difference in milliseconds
-    const totalMs = target.getTime() - birthDate.getTime()
-    const totalSeconds = Math.floor(totalMs / 1000)
-
-    // Calculate years, months, days using precise calendar arithmetic
-    let years = target.getFullYear() - birthDate.getFullYear()
-    let months = target.getMonth() - birthDate.getMonth()
-    let days = target.getDate() - birthDate.getDate()
+    // Calculate, months, days using precise calendar arithmetic
+    let years = target.getFullYear() - birthDate.getFullYear();
+    let months = target.getMonth() - birthDate.getMonth();
+    let days = target.getDate() - birthDate.getDate();
 
     // Adjust for negative days
     if (days < 0) {
-      months--
-      const lastMonth = new Date(target.getFullYear(), target.getMonth(), 0)
-      days += lastMonth.getDate()
+      months--;
+      const lastMonth = new Date(target.getFullYear(), target.getMonth(), 0);
+      days += lastMonth.getDate();
     }
 
     // Adjust for negative months
     if (months < 0) {
-      years--
-      months += 12
+      years--;
+      months += 12;
     }
 
-    // Calculate remaining time components
-    const remainingMs =
-      totalMs - years * 365.25 * 24 * 60 * 60 * 1000 - months * 30.44 * 24 * 60 * 60 * 1000 - days * 24 * 60 * 60 * 1000
-    const remainingSeconds = Math.floor(remainingMs / 1000)
-    const hours = Math.floor(remainingSeconds / 3600)
-    const minutes = Math.floor((remainingSeconds % 3600) / 60)
-    const seconds = remainingSeconds % 60
+    // Calculate time components
+    const remainingMs = totalMs - years * 365.25 * 24 * 60 * 60 * 1000 - months * 30.44 * 24 * 60 * 60 * 1000 - days * 24 * 60 * 60 * 1000;
+    const remainingSeconds = Math.floor(remainingMs / 1000);
+    const hours = Math.floor(remainingSeconds / 3600);
+    const minutes = Math.floor(remainingSeconds % 3600 / 60);
+    const seconds = remainingSeconds % 60;
 
-    // Calculate total units for display
-    const totalDays = Math.floor(totalMs / (1000 * 60 * 60 * 24))
-    const totalWeeks = Math.floor(totalDays / 7)
-    const totalHours = Math.floor(totalMs / (1000 * 60 * 60))
-    const totalMinutes = Math.floor(totalMs / (1000 * 60))
-
+    // Calculate units for display
+    const totalDays = Math.floor(totalMs / (1000 * 60 * 60 * 24));
+    const totalWeeks = Math.floor(totalDays / 7);
+    const totalHours = Math.floor(totalMs / (1000 * 60 * 60));
+    const totalMinutes = Math.floor(totalMs / (1000 * 60));
     setResult({
       years,
       months,
@@ -118,61 +197,15 @@ export default function AgeCalculator() {
       totalMinutes,
       totalSeconds,
       birthDate: birthDate.toLocaleDateString(),
-      targetDate: target.toLocaleDateString(),
-    })
-    setShowResult(true)
-  // Scroll to results
-  scrollToRef(resultsRef as React.RefObject<HTMLElement>);
-
-  }
-
-  return (
-    <>
-      <SEO
-        title="Age Calculator – Calculate Age by Date of Birth"
-        description="Find your exact age in years, months, and days. Use our free age calculator to calculate age instantly by date of birth."
-        slug="/age-calculator"
-        keywords="age calculator, calculate age, date of birth calculator, age in years months days"
-      />
+      targetDate: target.toLocaleDateString()
+    });
+    setShowResult(true);
+    // Scroll to results
+    scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+  };
+  return <>
+      
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-50">
-        <header className="bg-white shadow-sm border-b sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
-              <div className="flex items-center space-x-3">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image_720-8sE77EX08xKuB6AvLTisdyhRT3j1X2.png"
-                  alt="Smart Calculator Logo"
-                  className="w-12 h-12"
-                />
-                <div>
-                  <Link
-                    href="/"
-                    className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
-                  >
-                    Smart Calculator
-                  </Link>
-                  <p className="text-sm text-gray-500">Age Calculator</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        <nav className="bg-white border-b px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center space-x-2 py-4 text-sm">
-              <Link href="/" className="text-gray-500 hover:text-blue-600">
-                Home
-              </Link>
-              <span className="text-gray-400">/</span>
-              <Link href="/other-calculators" className="text-gray-500 hover:text-blue-600">
-                Other
-              </Link>
-              <span className="text-gray-400">/</span>
-              <span className="text-gray-900 font-medium">Age Calculator</span>
-            </div>
-          </div>
-        </nav>
 
         {/* Main Content */}
         <main className="py-8 px-4 sm:px-6 lg:px-8 bg-white">
@@ -183,11 +216,8 @@ export default function AgeCalculator() {
                   <Calendar className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Age Calculator</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Calculate your exact age in years, months, weeks, days, hours, minutes, and seconds. Perfect for
-                birthdays, anniversaries, and milestone tracking.
-              </p>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -197,86 +227,63 @@ export default function AgeCalculator() {
                   <CardHeader className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Calendar className="w-6 h-6 text-purple-600" />
-                      <span>Age Calculation</span>
+                      <span>{contentData.age_calculation_1}</span>
                     </CardTitle>
-                    <CardDescription className="text-base">
-                      Enter your birth date and target date to calculate precise age
-                    </CardDescription>
+                    <CardDescription className="text-base">{contentData.enter_your_birth_date_and_target_date_to_calculate_2}</CardDescription>
                   </CardHeader>
                   <CardContent className="p-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block">Date of Birth</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.date_of_birth_3}</Label>
                         <div className="relative">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                             <User className="h-5 w-5 text-purple-500" />
                           </div>
-                          <Input
-                            className={`w-full pl-10 h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${
-                              errors.dateOfBirth ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                            }`}
-                            type="date"
-                            value={dateOfBirth}
-                            onChange={(e) => {
-                              setDateOfBirth(e.target.value)
-                              if (errors.dateOfBirth) {
-                                setErrors((prev) => ({ ...prev, dateOfBirth: undefined }))
-                              }
-                            }}
-                          />
+                          <Input className={`w-full pl-10 h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${errors.dateOfBirth ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="date" value={dateOfBirth} onChange={e => {
+                          setDateOfBirth(e.target.value);
+                          if (errors.dateOfBirth) {
+                            setErrors(prev => ({
+                              ...prev,
+                              dateOfBirth: undefined
+                            }));
+                          }
+                        }} />
                         </div>
-                        {errors.dateOfBirth && (
-                          <div className="flex items-center mt-2 text-red-600">
+                        {errors.dateOfBirth && <div className="flex items-center mt-2 text-red-600">
                             <AlertCircle className="w-4 h-4 mr-1" />
                             <span className="text-sm">{errors.dateOfBirth}</span>
-                          </div>
-                        )}
+                          </div>}
                       </div>
                       <div className="relative">
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block">Target Date</Label>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.target_date_4}</Label>
                         <div className="relative">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                             <Clock className="h-5 w-5 text-purple-500" />
                           </div>
-                          <Input
-                            className={`w-full pl-10 h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${
-                              errors.targetDate ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""
-                            }`}
-                            type="date"
-                            value={targetDate}
-                            onChange={(e) => {
-                              setTargetDate(e.target.value)
-                              if (errors.targetDate) {
-                                setErrors((prev) => ({ ...prev, targetDate: undefined }))
-                              }
-                            }}
-                          />
+                          <Input className={`w-full pl-10 h-12 rounded-xl border-gray-200 focus:border-purple-400 focus:ring-purple-200 shadow-sm ${errors.targetDate ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="date" value={targetDate} onChange={e => {
+                          setTargetDate(e.target.value);
+                          if (errors.targetDate) {
+                            setErrors(prev => ({
+                              ...prev,
+                              targetDate: undefined
+                            }));
+                          }
+                        }} />
                         </div>
-                        {errors.targetDate && (
-                          <div className="flex items-center mt-2 text-red-600">
+                        {errors.targetDate && <div className="flex items-center mt-2 text-red-600">
                             <AlertCircle className="w-4 h-4 mr-1" />
                             <span className="text-sm">{errors.targetDate}</span>
-                          </div>
-                        )}
+                          </div>}
                       </div>
                     </div>
 
                     <div className="mb-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
                       <p className="text-sm text-gray-700">
-                        <strong>How it works:</strong> The calculator uses precise calendar arithmetic to handle leap
-                        years, varying month lengths, and time zones accurately.
-                      </p>
-                      <p className="text-xs text-gray-600 mt-1">
-                        Results include both exact age breakdown and total time in each unit.
-                      </p>
+                        <strong>{contentData.how_it_works_5}</strong>{contentData.the_calculator_uses_precise_calendar_arithmetic_to_6}</p>
+                      <p className="text-xs text-gray-600 mt-1">{contentData.results_include_both_exact_age_breakdown_and_total_7}</p>
                     </div>
 
-                    <Button
-                      onClick={calculateAge}
-                      className="w-full h-12 text-lg bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700"
-                    >
-                      Calculate Age
-                    </Button>
+                    <Button onClick={calculateAge} className="w-full h-12 text-lg bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700">{contentData.calculate_8}</Button>
                   </CardContent>
                 </Card>
               </div>
@@ -288,100 +295,90 @@ export default function AgeCalculator() {
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500 to-violet-600 flex items-center justify-center mb-3 shadow-lg">
                       <Calendar className="w-6 h-6 text-white" />
                     </div>
-                    <CardTitle className="text-2xl font-bold text-purple-700 tracking-tight">Your Age</CardTitle>
+                    <CardTitle className="text-2xl font-bold text-purple-700 tracking-tight">{contentData.your_age_9}</CardTitle>
                   </CardHeader>
                   <CardContent className="w-full flex flex-col items-center justify-center">
-                    {showResult && result ? (
-                      <div className="text-center space-y-4">
+                    {showResult && result ? <div className="text-center space-y-4">
                         <div className="grid grid-cols-2 gap-3 text-sm">
                           <div className="bg-white p-3 rounded-lg border border-purple-200">
                             <p className="text-2xl font-bold text-purple-900">{result.years}</p>
-                            <p className="text-gray-600">Years</p>
+                            <p className="text-gray-600">{contentData.years_10}</p>
                           </div>
                           <div className="bg-white p-3 rounded-lg border border-purple-200">
                             <p className="text-2xl font-bold text-purple-900">{result.months}</p>
-                            <p className="text-gray-600">Months</p>
+                            <p className="text-gray-600">{contentData.months_11}</p>
                           </div>
                           <div className="bg-white p-3 rounded-lg border border-purple-200">
                             <p className="text-2xl font-bold text-purple-900">{result.totalWeeks}</p>
-                            <p className="text-gray-600">Weeks</p>
+                            <p className="text-gray-600">{contentData.weeks_12}</p>
                           </div>
                           <div className="bg-white p-3 rounded-lg border border-purple-200">
                             <p className="text-2xl font-bold text-purple-900">{result.totalDays}</p>
-                            <p className="text-gray-600">Days</p>
+                            <p className="text-gray-600">{contentData.days_13}</p>
                           </div>
                         </div>
                         <div className="mt-4 p-3 bg-white rounded-lg border border-purple-200">
-                          <p className="text-xs text-gray-600">
-                            From {result.birthDate} to {result.targetDate}
+                          <p className="text-xs text-gray-600">{contentData.from_14}{result.birthDate}{contentData.to_15}{result.targetDate}
                           </p>
                         </div>
-                      </div>
-                    ) : (
-                      <div className="flex flex-col items-center justify-center">
+                      </div> : <div className="flex flex-col items-center justify-center">
                         <Calendar className="w-8 h-8 text-purple-300 mb-2" />
-                        <p className="text-gray-500 text-center text-base">
-                          Enter your dates and click <span className="font-semibold text-purple-600">Calculate</span> to
-                          see your exact age.
-                        </p>
-                      </div>
-                    )}
+                        <p className="text-gray-500 text-center text-base">{contentData.enter_your_dates_and_click_16}<span className="font-semibold text-purple-600">{contentData.calculate_17}</span>{contentData.to_see_your_exact_age_18}</p>
+                      </div>}
                   </CardContent>
                 </Card>
               </div>
             </div>
 
             {/* Detailed Results Section */}
-            {showResult && result && (
-              <div className="mt-8">
+            {showResult && result && <div className="mt-8">
                 <Card className="shadow-2xl border-0 bg-white">
                   <CardHeader className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Clock className="w-6 h-6 text-purple-600" />
-                      <span>Detailed Age Breakdown</span>
+                      <span>{contentData.detailed_age_breakdown_19}</span>
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="p-8">
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-4">
                       <div className="text-center p-4 bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl border border-purple-200">
                         <p className="text-2xl md:text-3xl font-bold text-purple-900">{result.years}</p>
-                        <p className="text-sm text-gray-600 mt-1">Years</p>
+                        <p className="text-sm text-gray-600 mt-1">{contentData.years_20}</p>
                       </div>
                       <div className="text-center p-4 bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl border border-purple-200">
                         <p className="text-2xl md:text-3xl font-bold text-purple-900">{result.months}</p>
-                        <p className="text-sm text-gray-600 mt-1">Months</p>
+                        <p className="text-sm text-gray-600 mt-1">{contentData.months_21}</p>
                       </div>
                       <div className="text-center p-4 bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl border border-purple-200">
                         <p className="text-2xl md:text-3xl font-bold text-purple-900">{result.totalWeeks}</p>
-                        <p className="text-sm text-gray-600 mt-1">Weeks</p>
+                        <p className="text-sm text-gray-600 mt-1">{contentData.weeks_22}</p>
                       </div>
                       <div className="text-center p-4 bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl border border-purple-200">
                         <p className="text-2xl md:text-3xl font-bold text-purple-900">{result.totalDays}</p>
-                        <p className="text-sm text-gray-600 mt-1">Days</p>
+                        <p className="text-sm text-gray-600 mt-1">{contentData.days_23}</p>
                       </div>
                       <div className="text-center p-4 bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl border border-purple-200">
                         <p className="text-xl md:text-2xl lg:text-3xl font-bold text-purple-900 break-all">
                           {result.totalHours.toLocaleString()}
                         </p>
-                        <p className="text-sm text-gray-600 mt-1">Hours</p>
+                        <p className="text-sm text-gray-600 mt-1">{contentData.hours_24}</p>
                       </div>
                       <div className="text-center p-4 bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl border border-purple-200">
                         <p className="text-xl md:text-2xl lg:text-3xl font-bold text-purple-900 break-all">
                           {result.totalMinutes.toLocaleString()}
                         </p>
-                        <p className="text-sm text-gray-600 mt-1">Minutes</p>
+                        <p className="text-sm text-gray-600 mt-1">{contentData.minutes_25}</p>
                       </div>
                       <div className="text-center p-4 bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl border border-purple-200">
                         <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold text-purple-900 break-all leading-tight">
                           {result.totalSeconds.toLocaleString()}
                         </p>
-                        <p className="text-sm text-gray-600 mt-1">Seconds</p>
+                        <p className="text-sm text-gray-600 mt-1">{contentData.seconds_26}</p>
                       </div>
                     </div>
                   </CardContent>
                 </Card>
-              </div>
-            )}
+              </div>}
 
             {/* Educational Content */}
             <div className="mt-12">
@@ -390,40 +387,32 @@ export default function AgeCalculator() {
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-violet-600 flex items-center justify-center mr-3 shadow-lg">
                     <Calendar className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-2xl font-bold text-purple-700 tracking-tight">
-                    Understanding Age Calculation
-                  </CardTitle>
+                  <CardTitle className="text-2xl font-bold text-purple-700 tracking-tight">{contentData.understanding_age_calculation_27}</CardTitle>
                 </CardHeader>
                 <CardContent className="w-full">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
-                      <h3 className="text-lg font-semibold text-purple-700 mb-3">How Age is Calculated</h3>
-                      <p className="text-gray-700 mb-4">
-                        Age calculation involves precise calendar arithmetic that accounts for leap years, varying month
-                        lengths, and the Western age system where age increases only after the birthday passes.
-                      </p>
-                      <h3 className="text-lg font-semibold text-purple-700 mb-3">Key Features</h3>
+                      <h3 className="text-lg font-semibold text-purple-700 mb-3">{contentData.how_age_is_calculated_28}</h3>
+                      <p className="text-gray-700 mb-4">{contentData.age_calculation_involves_precise_calendar_arithmet_29}</p>
+                      <h3 className="text-lg font-semibold text-purple-700 mb-3">{contentData.key_features_30}</h3>
                       <ul className="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Handles leap years automatically</li>
-                        <li>Accounts for months with different day counts</li>
-                        <li>Provides both exact breakdown and total units</li>
-                        <li>Uses Western age counting system</li>
+                        <li>{contentData.handles_leap_years_automatically_31}</li>
+                        <li>{contentData.accounts_for_months_with_different_day_counts_32}</li>
+                        <li>{contentData.provides_both_exact_breakdown_and_total_units_33}</li>
+                        <li>{contentData.uses_western_age_counting_system_34}</li>
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-purple-700 mb-3">Sample Calculation</h3>
+                      <h3 className="text-lg font-semibold text-purple-700 mb-3">{contentData.sample_calculation_35}</h3>
                       <div className="bg-white p-4 rounded-lg border border-purple-200">
                         <p className="text-gray-700 mb-2">
-                          <strong>Example:</strong>
+                          <strong>{contentData.example_36}</strong>
                         </p>
-                        <p className="text-gray-700">Birth Date: January 1, 2000</p>
-                        <p className="text-gray-700">Target Date: August 22, 2025</p>
-                        <p className="text-gray-700 font-semibold">Result: 25 years, 7 months, 21 days</p>
+                        <p className="text-gray-700">{contentData.birth_date_january_1_2000_37}</p>
+                        <p className="text-gray-700">{contentData.target_date_august_22_2025_38}</p>
+                        <p className="text-gray-700 font-semibold">{contentData.result_25_years_7_months_21_days_39}</p>
                       </div>
-                      <p className="text-sm text-gray-600 mt-3">
-                        The calculator also provides the total time in weeks, days, hours, minutes, and seconds for
-                        comprehensive age analysis.
-                      </p>
+                      <p className="text-sm text-gray-600 mt-3">{contentData.the_calculator_also_provides_the_total_time_in_wee_40}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -432,6 +421,5 @@ export default function AgeCalculator() {
           </div>
         </main>
       </div>
-    </>
-  )
+    </>;
 }

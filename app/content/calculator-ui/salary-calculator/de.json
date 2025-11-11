@@ -1,0 +1,180 @@
+{
+  "pageTitle": "Gehaltsrechner",
+  "pageDescription": "Berechnen Sie Ihr Nettogehalt nach Steuern und Abzügen mit einer umfassenden Gehaltsanalyse, einschließlich Überstunden, Prämien und Leistungsbewertung",
+  "form": {
+    "labels": {
+      "grossSalary": "Jährliches Bruttogehalt",
+      "payFrequency": "Zahlungshäufigkeit",
+      "filingStatus": "Status der Steuererklärung",
+      "dependents": "Anzahl der Angehörigen",
+      "additionalIncome": "Zusätzliches Einkommen",
+      "overtimeHours": "Monatliche Überstunden",
+      "overtimeRate": "Überstundensatz",
+      "bonuses": "Jährliche Boni",
+      "preTaxDeductions": "Abzüge vor Steuern",
+      "postTaxDeductions": "Abzüge nach Steuern"
+    },
+    "placeholders": {
+      "grossSalary": "Geben Sie das Jahresbruttogehalt ein",
+      "additionalIncome": "Tragen Sie Zusatzeinkommen ein",
+      "overtimeHours": "Geben Sie monatliche Überstunden ein",
+      "overtimeRate": "Geben Sie den Überstundensatz ein",
+      "bonuses": "Geben Sie jährliche Boni ein",
+      "preTaxDeductions": "Geben Sie Abzüge vor Steuern ein",
+      "postTaxDeductions": "Geben Sie Abzüge nach Steuern ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Bezahlung zum Mitnehmen",
+      "reset": "Zurücksetzen"
+    },
+    "payFrequencies": {
+      "annually": "Jährlich",
+      "monthly": "Monatlich",
+      "biweekly": "Zweiwöchentlich",
+      "weekly": "Wöchentlich"
+    },
+    "filingStatuses": {
+      "single": "Einzel",
+      "married": "Eheschließung gemeinsam anmelden",
+      "head": "Haushaltsvorstand",
+      "separate": "Eheschließung getrennt"
+    }
+  },
+  "results": {
+    "grossAnnual": "Bruttojahreseinkommen",
+    "grossMonthly": "Bruttomonatseinkommen",
+    "totalDeductions": "Gesamtabzüge",
+    "netAnnual": "Nettojahreseinkommen",
+    "netMonthly": "Monatliches Nettoeinkommen",
+    "taxBreakdown": "Steueraufschlüsselung",
+    "salaryResultsTitle": "Ergebnisse der Gehaltsberechnung"
+  },
+  "educational": {
+    "salaryInfo": "Gehaltsinformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "salaryFacts": {
+      "grossVsNet": {
+        "title": "Brutto- vs. Nettolohn",
+        "description": "Der Bruttolohn versteht sich vor Abzügen; Nettolohn ist das, was Sie tatsächlich erhalten"
+      },
+      "deductions": {
+        "title": "Gemeinsame Abzüge",
+        "description": "Bundessteuer, Landessteuer, Sozialversicherung, Medicare, Versicherungsprämien"
+      },
+      "benefits": {
+        "title": "Leistungsbewertung",
+        "description": "Arbeitgeberleistungen wie eine Krankenversicherung können 30–40 % des Gehalts ausmachen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Gehaltsberechnung",
+      "actual": "Das tatsächliche Nettoentgelt kann je nach Steuersituation und Abzügen variieren"
+    },
+    "importantNotesList": [
+      "Die Steuersätze variieren je nach Bundesstaat und Ort",
+      "Abzüge vor Steuern verringern das zu versteuernde Einkommen",
+      "Berücksichtigen Sie das Gesamtvergütungspaket, nicht nur das Gehalt",
+      "Regelmäßige Gehaltsabrechnungen helfen bei der Budgetierung und Finanzplanung"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Gehaltsinformationen ein, um das Take-Home-Gehalt zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Gehaltsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Gehaltsberechnung:",
+    "salaryAnalysis": "Gehaltsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Gehaltsberechnung auf der Grundlage allgemeiner Steuerinformationen. Das tatsächliche Nettoentgelt kann aufgrund spezifischer Steuersituationen, lokaler Steuern und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine individuelle Gehaltsanalyse und Steuerplanung wenden Sie sich an Steuerfachleute oder Finanzberater mit Fachkenntnissen in den Bereichen Vergütung und individuelle Steuersituationen."
+  },
+  "errors": {
+    "grossSalary": "Bitte geben Sie ein gültiges Bruttogehalt ein",
+    "payFrequency": "Bitte wählen Sie eine Zahlungshäufigkeit aus",
+    "filingStatus": "Bitte wählen Sie einen Anmeldestatus aus",
+    "dependents": "Bitte geben Sie eine gültige Anzahl von Angehörigen ein",
+    "additionalIncome": "Bitte geben Sie gültige Nebeneinkünfte ein",
+    "overtimeHours": "Bitte geben Sie gültige Überstunden ein",
+    "overtimeRate": "Bitte geben Sie einen gültigen Überstundensatz ein",
+    "bonuses": "Bitte geben Sie einen gültigen Bonusbetrag ein",
+    "preTaxDeductions": "Bitte geben Sie gültige Abzüge vor Steuern ein",
+    "postTaxDeductions": "Bitte geben Sie gültige Abzüge nach Steuern ein"
+  },
+  "tooltips": {
+    "grossSalary": "Ihr gesamtes Jahresgehalt vor etwaigen Abzügen",
+    "payFrequency": "Wie oft erhalten Sie Ihren Gehaltsscheck?",
+    "filingStatus": "Ihr Steuererklärungsstatus wirkt sich auf Steuersätze und Abzüge aus",
+    "dependents": "Die in Ihrer Steuererklärung angegebene Zahl der unterhaltsberechtigten Personen",
+    "additionalIncome": "Einkünfte aus anderen Quellen als Ihrem Hauptberuf",
+    "overtimeHours": "Durchschnittlich geleistete monatliche Überstunden",
+    "overtimeRate": "Vergütung für Überstunden (normalerweise das 1,5-fache des regulären Tarifs)",
+    "bonuses": "Erhaltene jährliche Bonusbeträge",
+    "preTaxDeductions": "Abzüge vor Steuern (401.000, HSA usw.)",
+    "postTaxDeductions": "Abzüge nach Steuern (Roth IRA, Gewerkschaftsbeiträge usw.)"
+  },
+  "salary_calculator_0": "Gehaltsrechner",
+  "salary_information_1": "Gehaltsinformationen",
+  "salary_amount_2": "Gehaltsbetrag",
+  "pay_frequency_3": "Zahlungshäufigkeit",
+  "hourly_4": "Stündlich",
+  "daily_5": "Täglich",
+  "weekly_6": "Wöchentlich",
+  "biweekly_7": "Zweiwöchentlich",
+  "semimonthly_8": "Halbmonatlich",
+  "monthly_9": "Monatlich",
+  "quarterly_10": "Vierteljährlich",
+  "yearly_11": "Jährlich",
+  "work_schedule_12": "Arbeitsplan",
+  "hours_per_week_13": "Stunden pro Woche",
+  "days_per_week_14": "Tage pro Woche",
+  "holidays_per_year_15": "Feiertage pro Jahr",
+  "vacation_days_per_year_16": "Urlaubstage pro Jahr",
+  "calculate_17": "Berechnen",
+  "salary_results_18": "Gehaltsergebnisse",
+  "your_salary_breakdown_and_conversions_19": "Ihre Gehaltsaufschlüsselung und Umrechnungen",
+  "unadjusted_annual_20": "Unbereinigtes Jahr",
+  "k_260_working_days_21": "260 Arbeitstage",
+  "adjusted_annual_22": "Jährlich angepasst",
+  "working_days_23": "Arbeitstage",
+  "pay_period_conversions_24": "Umrechnungen von Zahlungsperioden",
+  "period_25": "Zeitraum",
+  "unadjusted_26": "Unangepasst",
+  "adjusted_27": "Angepasst",
+  "assumptions_used_28": "Verwendete Annahmen:",
+  "k_52_working_weeks_per_year_29": "• 52 Arbeitswochen pro Jahr",
+  "k_5_working_days_per_week_260_total_days_30": "• 5 Arbeitstage pro Woche = 260 Gesamttage",
+  "holidays_vacation_days_31": "• Feiertage + Urlaubstage:",
+  "days_32": "Tage",
+  "adjusted_calculation_removes_nonworking_days_33": "• Angepasste Berechnung entfernt arbeitsfreie Tage",
+  "enter_your_salary_information_to_see_conversions_34": "Geben Sie Ihre Gehaltsinformationen ein, um die Umrechnungen anzuzeigen",
+  "formulas_logic_35": "Formeln und Logik",
+  "annual_salary_conversion_36": "Jährliche Gehaltsumrechnung",
+  "hourly_37": "Stündlich:",
+  "rate_hoursweek_52_weeks_38": "Tarif × Stunden/Woche × 52 Wochen",
+  "daily_39": "Täglich:",
+  "rate_260_days_40": "Rate × 260 Tage",
+  "weekly_41": "Wöchentlich:",
+  "rate_52_weeks_42": "Rate × 52 Wochen",
+  "biweekly_43": "Zweiwöchentlich:",
+  "rate_26_periods_44": "Rate × 26 Perioden",
+  "semimonthly_45": "Halbmonatlich:",
+  "rate_24_periods_46": "Rate × 24 Perioden",
+  "monthly_47": "Monatlich:",
+  "rate_12_months_48": "Rate × 12 Monate",
+  "quarterly_49": "Vierteljährlich:",
+  "rate_4_quarters_50": "Rate × 4 Viertel",
+  "adjusted_salary_51": "Angepasstes Gehalt",
+  "adjusted_annual_unadjusted_annual_working_days_aft_52": "Bereinigtes Jahr = Unbereinigtes Jahr × (Arbeitstage nach Freizeit ÷ 260)",
+  "working_days_260_holidays_vacation_days_53": "Arbeitstage = 260 – (Feiertage + Urlaubstage)",
+  "example_calculation_54": "Beispielrechnung",
+  "if_rate_25hour_40_hoursweek_25_days_off_55": "Wenn der Tarif = 25 $/Stunde, 40 Stunden/Woche, 25 freie Tage:",
+  "unadjusted_annual_25_40_52_52000_56": "• Unbereinigtes Jahr = 25 $ × 40 × 52 = 52.000 $",
+  "working_days_260_25_235_days_57": "• Arbeitstage = 260 - 25 = 235 Tage",
+  "adjusted_annual_52000_235_260_47000_58": "• Bereinigtes Jahr = 52.000 $ × (235 ÷ 260) = 47.000 $"
+}

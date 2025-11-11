@@ -1,0 +1,111 @@
+{
+  "pageTitle": "Kalkulator odsetek",
+  "pageDescription": "Oblicz odsetki za pomocą naszego bezpłatnego kalkulatora online",
+  "form": {
+    "labels": {
+      "input1": "Wejście 1",
+      "input2": "Wejście 2",
+      "input3": "Wejście 3"
+    },
+    "placeholders": {
+      "input1": "Wprowadź pierwszą wartość",
+      "input2": "Wprowadź drugą wartość",
+      "input3": "Wprowadź trzecią wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz odsetki",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "result1": "Wynik 1",
+    "result2": "Wynik 2",
+    "calculationDetails": "Wyniki naliczania odsetek"
+  },
+  "educational": {
+    "info": "Informacje o zainteresowaniach",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby",
+    "facts": {
+      "definition": {
+        "title": "Definicja zainteresowania",
+        "description": "Informacja o zainteresowaniu"
+      },
+      "formula": {
+        "title": "Metoda obliczeniowa",
+        "description": "Sposób naliczania odsetek"
+      },
+      "applications": {
+        "title": "Aplikacje",
+        "description": "Zainteresowania"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki odsetek",
+      "actual": "Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności"
+    },
+    "importantNotesList": [
+      "Jest to wartość szacunkowa i nie powinna zastępować profesjonalnej porady",
+      "Wyniki mogą się różnić w zależności od indywidualnych czynników",
+      "Skonsultuj się ze specjalistami, aby uzyskać spersonalizowane wskazówki",
+      "Aby uzyskać dokładne wyniki, używaj spójnych jednostek"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź wymagane informacje, aby obliczyć odsetki",
+    "resultMessage": "Wyniki obliczenia odsetek pokazano poniżej",
+    "assessmentResult": "Wynik naliczenia odsetek:",
+    "analysis": "Analiza zainteresowań"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten pozwala oszacować odsetki w oparciu o standardowe metody. Rzeczywiste wartości mogą się różnić w zależności od indywidualnych okoliczności i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby",
+    "content": "Aby uzyskać spersonalizowaną poradę i szczegółowe informacje, skonsultuj się ze specjalistami, którzy mogą udzielić wskazówek w oparciu o indywidualne potrzeby i okoliczności."
+  },
+  "errors": {
+    "input1": "Proszę wprowadzić prawidłową pierwszą wartość",
+    "input2": "Proszę wprowadzić prawidłową drugą wartość",
+    "input3": "Proszę wprowadzić poprawną trzecią wartość"
+  },
+  "tooltips": {
+    "input1": "Pierwszy parametr wejściowy",
+    "input2": "Drugi parametr wejściowy",
+    "input3": "Trzeci parametr wejściowy"
+  },
+  "investment_details_0": "Szczegóły inwestycji",
+  "enter_your_investment_info_1": "Wprowadź informacje o inwestycji",
+  "initial_investment_2": "Inwestycja początkowa",
+  "annual_contribution_3": "Roczny wkład",
+  "monthly_contribution_4": "Składka miesięczna",
+  "contribute_at_the_5": "Przyczyniaj się do",
+  "beginning_6": "Początek",
+  "end_7": "Koniec",
+  "of_each_compounding_period_8": "każdego okresu składania",
+  "interest_rate_9": "Oprocentowanie (%)",
+  "compound_10": "Mieszanina",
+  "annually_11": "Rocznie",
+  "quarterly_12": "Kwartalny",
+  "monthly_13": "Miesięczny",
+  "daily_14": "Codziennie",
+  "years_15": "Lata",
+  "months_16": "Miesiące",
+  "tax_rate_17": "Stawka podatku (%)",
+  "inflation_rate_18": "Stopa inflacji (%)",
+  "calculate_19": "Obliczać",
+  "results_20": "Wyniki",
+  "investment_summary_21": "Podsumowanie inwestycji",
+  "ending_balance_22": "Końcowy bilans",
+  "total_principal_23": "Całkowita kwota główna",
+  "total_contributions_24": "Łączne składki",
+  "total_interest_25": "Całkowite zainteresowanie",
+  "interest_of_initial_investment_26": "Zainteresowanie inwestycją początkową",
+  "interest_of_the_contributions_27": "Odsetki składek",
+  "buying_power_after_inflation_28": "Siła nabywcza po inflacji",
+  "enter_investment_details_to_see_results_29": "Wprowadź szczegóły inwestycji, aby zobaczyć wyniki",
+  "this_calculator_is_for_educational_purposes_only_a_30": "Kalkulator ten służy wyłącznie celom edukacyjnym i nie powinien być używany jako porada finansowa."
+}

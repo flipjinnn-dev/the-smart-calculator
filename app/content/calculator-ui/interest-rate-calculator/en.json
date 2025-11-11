@@ -1,0 +1,124 @@
+{
+  "pageTitle": "Interest Rate Calculator",
+  "pageDescription": "Calculate the impact of interest rates on loans and investments to compare different financial products and make informed decisions",
+  "form": {
+    "labels": {
+      "principal": "Principal Amount",
+      "interestRate": "Annual Interest Rate",
+      "timePeriod": "Time Period",
+      "compounding": "Compounding Frequency",
+      "calculationType": "Calculation Type"
+    },
+    "placeholders": {
+      "principal": "Enter principal amount",
+      "interestRate": "Enter annual interest rate (%)",
+      "timePeriod": "Enter time period"
+    },
+    "buttons": {
+      "calculate": "Calculate Interest",
+      "reset": "Reset"
+    },
+    "calculationTypes": {
+      "simple": "Simple Interest",
+      "compound": "Compound Interest",
+      "apr": "Annual Percentage Rate (APR)",
+      "apy": "Annual Percentage Yield (APY)"
+    },
+    "compoundingFrequencies": {
+      "annually": "Annually",
+      "semiAnnually": "Semi-Annually",
+      "quarterly": "Quarterly",
+      "monthly": "Monthly",
+      "daily": "Daily"
+    }
+  },
+  "results": {
+    "interestEarned": "Interest Earned",
+    "futureValue": "Future Value",
+    "totalAmount": "Total Amount",
+    "effectiveRate": "Effective Annual Rate",
+    "interestRateResultsTitle": "Interest Rate Calculation Results"
+  },
+  "educational": {
+    "interestRateInfo": "Interest Rate Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "interestRateFacts": {
+      "simpleVsCompound": {
+        "title": "Simple vs Compound Interest",
+        "description": "Simple interest is calculated on principal only; compound interest includes accumulated interest"
+      },
+      "aprVsApy": {
+        "title": "APR vs APY",
+        "description": "APR is the basic interest rate; APY includes compounding effects"
+      },
+      "rateFactors": {
+        "title": "Factors Affecting Rates",
+        "description": "Credit score, loan term, and economic conditions influence interest rates"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides interest rate calculation estimates only",
+      "actual": "Actual interest rates may vary based on lender policies and market conditions"
+    },
+    "importantNotesList": [
+      "APY is always higher than APR when compounding occurs more than once per year",
+      "Higher credit scores typically qualify for lower interest rates",
+      "Shorter loan terms usually have lower interest rates but higher payments",
+      "Shop around for the best rates and terms on loans and investments"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your interest rate information to calculate earnings or costs",
+    "resultMessage": "Your interest rate calculation results are shown below",
+    "assessmentResult": "Interest Rate Calculation Result:",
+    "interestRateAnalysis": "Interest Rate Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides interest rate calculation estimates based on mathematical formulas. Actual interest rates and earnings may vary based on lender policies, fees, and market conditions not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized interest rate analysis and financial product comparisons, consult financial advisors or loan officers with expertise in lending products and individual financial circumstances."
+  },
+  "errors": {
+    "principal": "Please enter a valid principal amount",
+    "interestRate": "Please enter a valid annual interest rate",
+    "timePeriod": "Please enter a valid time period",
+    "compounding": "Please select a compounding frequency",
+    "calculationType": "Please select a calculation type"
+  },
+  "tooltips": {
+    "principal": "Initial amount of loan or investment",
+    "interestRate": "Annual interest rate or expected return",
+    "timePeriod": "Length of time for interest calculation",
+    "compounding": "How often interest is compounded per year",
+    "calculationType": "Type of interest calculation to perform"
+  },
+  "interest_rate_calculator_0": "Interest Rate Calculator",
+  "loan_information_1": "Loan Information",
+  "loan_amount_2": "Loan amount",
+  "loan_term_3": "Loan term",
+  "years_4": "years",
+  "months_5": "months",
+  "monthly_payment_6": "Monthly payment",
+  "calculate_rate_7": "Calculate Rate",
+  "results_8": "Results",
+  "your_loan_interest_rate_breakdown_9": "Your loan interest rate breakdown",
+  "interest_rate_10": "Interest rate",
+  "total_of_11": "Total of",
+  "monthly_payments_12": "monthly payments",
+  "total_interest_paid_13": "Total interest paid",
+  "enter_your_loan_information_to_calculate_the_inter_14": "Enter your loan information to calculate the interest rate",
+  "formulas_calculation_method_15": "Formulas & Calculation Method",
+  "loan_payment_formula_16": "Loan Payment Formula",
+  "pmt_p_r1rn_1rn_1_17": "PMT = P × [r(1+r)^n] / [(1+r)^n - 1]",
+  "where_pmt_monthly_payment_p_principal_loan_amount__18": "Where: PMT = Monthly Payment, P = Principal (loan amount), r = Monthly interest rate, n = Number\n                        of payments",
+  "interest_rate_calculation_19": "Interest Rate Calculation",
+  "since_the_interest_rate_cannot_be_solved_algebraic_20": "Since the interest rate cannot be solved algebraically from the payment formula, this calculator\n                        uses the Newton-Raphson numerical method to iteratively solve for the rate that produces the\n                        given payment amount.",
+  "total_interest_calculation_21": "Total Interest Calculation",
+  "total_interest_monthly_payment_number_of_payments__22": "Total Interest = (Monthly Payment × Number of Payments) - Loan Amount"
+}

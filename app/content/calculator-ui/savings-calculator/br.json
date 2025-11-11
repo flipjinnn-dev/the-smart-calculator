@@ -1,0 +1,148 @@
+{
+  "pageTitle": "Calculadora de poupança",
+  "pageDescription": "Calcule o crescimento da sua poupança ao longo do tempo com contribuições regulares e juros compostos para metas financeiras e planejamento de fundos de emergência",
+  "form": {
+    "labels": {
+      "initialAmount": "Valor inicial da economia",
+      "monthlyContribution": "Contribuição Mensal",
+      "annualInterestRate": "Taxa de juros anual",
+      "savingsPeriod": "Período de poupança",
+      "compoundFrequency": "Frequência Composta",
+      "inflationRate": "Taxa de inflação esperada"
+    },
+    "placeholders": {
+      "initialAmount": "Insira o valor inicial da economia",
+      "monthlyContribution": "Insira a contribuição mensal",
+      "annualInterestRate": "Insira a taxa de juros anual (%)",
+      "savingsPeriod": "Insira o período de poupança em anos",
+      "inflationRate": "Insira a taxa de inflação esperada (%)"
+    },
+    "buttons": {
+      "calculate": "Calcular o crescimento da poupança",
+      "reset": "Reiniciar"
+    },
+    "compoundFrequencies": {
+      "monthly": "Mensal",
+      "quarterly": "Trimestral",
+      "annually": "Anualmente",
+      "daily": "Diário"
+    }
+  },
+  "results": {
+    "futureValue": "Valor Futuro",
+    "totalContributions": "Contribuições totais",
+    "totalInterest": "Juros totais ganhos",
+    "inflationAdjusted": "Valor Ajustado pela Inflação",
+    "savingsResultsTitle": "Resultados do cálculo de poupança"
+  },
+  "educational": {
+    "savingsInfo": "Informações sobre economia",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "savingsFacts": {
+      "emergencyFund": {
+        "title": "Fundo de Emergência",
+        "description": "Especialistas financeiros recomendam economizar de 3 a 6 meses em despesas para emergências"
+      },
+      "compoundInterest": {
+        "title": "Poder dos juros compostos",
+        "description": "Contribuições regulares combinadas com juros compostos aceleram o crescimento da poupança"
+      },
+      "goalsBased": {
+        "title": "Economias Baseadas em Metas",
+        "description": "Metas específicas de economia ajudam a manter a motivação e acompanhar o progresso"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de crescimento da poupança",
+      "actual": "O crescimento real da poupança pode variar com base nas taxas da conta e nas alterações nas taxas de juros"
+    },
+    "importantNotesList": [
+      "Taxas de juro mais elevadas têm um impacto significativo no crescimento da poupança a longo prazo",
+      "Contribuições regulares são fundamentais para gerar poupanças substanciais",
+      "Considere contas de poupança de alto rendimento para melhores taxas de juros",
+      "Automatize as economias para garantir contribuições consistentes"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações de poupança para calcular o crescimento ao longo do tempo",
+    "resultMessage": "Os resultados do seu cálculo de economia são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo de poupança:",
+    "savingsAnalysis": "Análise de Poupança"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de crescimento da poupança com base em projeções matemáticas. O crescimento real da poupança pode variar com base nas taxas da conta, alterações nas taxas de juros e outros fatores não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para estratégias de poupança e planejamento financeiro personalizados, consulte consultores financeiros ou profissionais bancários com experiência em produtos de poupança e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "initialAmount": "Insira um valor de poupança inicial válido",
+    "monthlyContribution": "Insira uma contribuição mensal válida",
+    "annualInterestRate": "Insira uma taxa de juros anual válida",
+    "savingsPeriod": "Insira um período de poupança válido",
+    "inflationRate": "Insira uma taxa de inflação esperada válida",
+    "compoundFrequency": "Selecione uma frequência composta"
+  },
+  "tooltips": {
+    "initialAmount": "Valor já economizado",
+    "monthlyContribution": "Valor regular que você planeja economizar a cada mês",
+    "annualInterestRate": "Taxa de juros média anual esperada sobre poupança",
+    "savingsPeriod": "Período de tempo que você planeja economizar",
+    "compoundFrequency": "Com que frequência os juros são compostos",
+    "inflationRate": "Taxa média anual de inflação esperada"
+  },
+  "savings_calculator_0": "Calculadora de poupança",
+  "initial_investment_1": "Investimento Inicial",
+  "initial_deposit_starting_balance_2": "Depósito Inicial/Saldo Inicial",
+  "regular_contributions_3": "Contribuições Regulares",
+  "annual_contribution_4": "Contribuição Anual",
+  "annual_increase_rate_5": "Taxa de aumento anual (%)",
+  "monthly_contribution_6": "Contribuição Mensal",
+  "monthly_increase_rate_7": "Taxa de aumento mensal (%)",
+  "investment_parameters_8": "Parâmetros de Investimento",
+  "annual_interest_rate_9": "Taxa de juros anual (%)",
+  "number_of_years_10": "Número de anos",
+  "compounding_frequency_11": "Frequência Composta",
+  "annually_12": "Anualmente",
+  "semiannually_13": "Semestralmente",
+  "quarterly_14": "Trimestral",
+  "monthly_15": "Mensal",
+  "biweekly_16": "Quinzenal",
+  "weekly_17": "Semanalmente",
+  "daily_18": "Diário",
+  "tax_rate_on_interest_19": "Taxa de imposto sobre juros (%)",
+  "inflation_rate_20": "Taxa de inflação (%)",
+  "calculate_growth_21": "Calcular o crescimento",
+  "savings_results_22": "Resultados de poupança",
+  "your_savings_growth_projection_23": "Sua projeção de crescimento da poupança",
+  "final_balance_24": "Saldo Final:",
+  "compounding_25": "Composição",
+  "for_26": "para",
+  "years_27": "anos",
+  "total_contributions_28": "Contribuições totais",
+  "interest_earned_29": "Juros ganhos",
+  "aftertax_balance_30": "Saldo após impostos",
+  "real_value_inflationadjusted_31": "Valor real (ajustado pela inflação)",
+  "yearly_breakdown_32": "Repartição Anual",
+  "year_33": "Ano",
+  "contributions_34": "Contribuições",
+  "interest_35": "Interesse",
+  "balance_36": "Equilíbrio",
+  "enter_your_savings_information_to_see_your_growth__37": "Insira suas informações de poupança para ver sua projeção de crescimento",
+  "formulas_calculation_details_38": "Fórmulas e detalhes de cálculo",
+  "k_1_periodic_interest_rate_39": "1. Taxa de juros periódica",
+  "rperiod_annualrate_1_taxrate_compoundingfrequency_40": "r_período = (taxa_anual × (1 - taxa_de imposto)) / frequência_composta",
+  "k_2_annual_contributions_with_growth_41": "2. Contribuições Anuais (com crescimento)",
+  "annualk_annualbase_1_annualincreaseratek1_42": "Anual_k = Base_anual × (1 + taxa_de_aumento_anual)^(k-1)",
+  "k_3_monthly_contributions_with_growth_43": "3. Contribuições Mensais (com crescimento)",
+  "monthlyk_monthlybase_1_monthlyincreaseratek1_44": "Mensal_k = Base_mensal × (1 + taxa_de_aumento_mensal)^(k-1)",
+  "k_4_final_balance_45": "4. Saldo Final",
+  "balance_initial_1_rperiodperiods_accumulatedcontri_46": "Saldo = Inicial × (1 + r_período)^(períodos) + Contribuições_Acumuladas",
+  "k_5_real_value_inflationadjusted_47": "5. Valor real (ajustado pela inflação)",
+  "realvalue_finalbalance_1_inflationrateyears_48": "Valor_Real = Saldo_Final / (1 + taxa_inflação)^anos"
+}

@@ -1,0 +1,199 @@
+{
+  "pageTitle": "Idealny kalkulator wagi",
+  "pageDescription": "Oblicz idealny zakres masy ciała na podstawie wzrostu i płci",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "height": "Wysokość",
+      "weight": "Aktualna waga",
+      "unitSystem": "Układ jednostek"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz idealną wagę",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    }
+  },
+  "results": {
+    "idealWeightRange": "Idealny zakres wagowy",
+    "currentWeight": "Aktualna waga",
+    "idealWeightTitle": "Idealne wyniki wagowe",
+    "bmiFormula": {
+      "label": "Formuła BMI",
+      "us": "BMI = (waga w funtach / (wzrost w calach)²) × 703",
+      "metric": "BMI = waga w kg / (wzrost w metrach)²"
+    },
+    "healthyBmiRange": "Zdrowy zakres BMI: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "idealWeightInfo": "Informacje o idealnej wadze",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Skonsultuj się ze specjalistą",
+    "idealWeightMethods": {
+      "devine": {
+        "title": "Metoda Devine'a (1974)",
+        "description": "Mężczyźni: 50 kg + 2,3 kg na cal powyżej 5 stóp; Kobiety: 45,5 kg + 2,3 kg na cal powyżej 5 stóp"
+      },
+      "robinson": {
+        "title": "Metoda Robinsona (1983)",
+        "description": "Mężczyźni: 52 kg + 1,9 kg na cal powyżej 5 stóp; Kobiety: 49 kg + 1,7 kg na cal powyżej 5 stóp"
+      },
+      "miller": {
+        "title": "Metoda Millera (1983)",
+        "description": "Mężczyźni: 56,2 kg + 1,41 kg na cal powyżej 5 stóp; Kobiety: 53,1 kg + 1,36 kg na cal powyżej 5 stóp"
+      },
+      "hamwi": {
+        "title": "Metoda Hamwiego (1964)",
+        "description": "Mężczyźni: 48 kg + 2,7 kg na cal powyżej 5 stóp; Kobiety: 45,5 kg + 2,2 kg na cal powyżej 5 stóp"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten służy jedynie do szacunków i nie jest narzędziem diagnostycznym",
+      "individualVariation": "Idealna waga różni się w zależności od masy mięśniowej, gęstości kości i składu ciała"
+    },
+    "importantNotesList": [
+      "Obliczenia te stanowią jedynie ogólne wytyczne",
+      "Sportowcy mogą mieć większą wagę ze względu na masę mięśniową",
+      "Skonsultuj się z pracownikami służby zdrowia, aby uzyskać spersonalizowaną poradę",
+      "Masę ciała należy brać pod uwagę obok innych wskaźników zdrowotnych"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "jest uważany za prawidłowy zakres BMI dla dorosłych.",
+      "association": "Przedział ten wiąże się z najniższym ryzykiem problemów zdrowotnych i śmiertelności."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Wprowadź swoje pomiary, aby obliczyć idealny zakres wagi",
+    "idealWeightRange": "Twój idealny zakres wagi to {min} - {max} {jednostka}",
+    "currentWeightStatus": "Twoja aktualna waga to {status} – idealny zakres",
+    "belowRange": "poniżej",
+    "withinRange": "w",
+    "aboveRange": "powyżej",
+    "ageWarning": "W przypadku dzieci i młodzieży (≤20 lat) należy stosować pediatryczne wykresy wzrostu",
+    "assessmentResult": "Wynik oceny:",
+    "weightAnalysis": "Analiza wagi"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki oparte na wzorach matematycznych i nie powinien być używany jako substytut profesjonalnej porady lekarskiej. Poszczególne wyniki mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Skonsultuj się z pracownikiem służby zdrowia",
+    "content": "Jeśli masz wątpliwości dotyczące swojej wagi lub stanu zdrowia, skonsultuj się z pracownikiem służby zdrowia, który może udzielić spersonalizowanej porady w oparciu o Twoją pełną historię medyczną i indywidualną sytuację."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę"
+  },
+  "tooltips": {
+    "age": "Wiek może mieć wpływ na obliczenia idealnej masy ciała u dzieci/młodzieży",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "gender": "Dla mężczyzn i kobiet stosuje się różne formuły"
+  },
+  "ideal_weight_calculation_0": "Obliczanie idealnej wagi",
+  "enter_your_details_to_calculate_your_ideal_weight__1": "Wprowadź swoje dane, aby obliczyć idealną wagę za pomocą wielu wzorów",
+  "unit_system_2": "Układ jednostek",
+  "metric_kg_cm_3": "Metryczne (kg, cm)",
+  "us_lbs_ftin_4": "USA (funty, stopy/cal)",
+  "age_years_5": "Wiek (lata)",
+  "age_range_280_years_6": "Przedział wiekowy: 2-80 lat",
+  "gender_7": "Płeć",
+  "male_8": "Mężczyzna",
+  "female_9": "Kobieta",
+  "height_cm_10": "Wysokość (cm)",
+  "height_in_centimeters_11": "Wysokość w centymetrach",
+  "height_ftin_12": "Wysokość (stopy/cale)",
+  "feet_and_inches_13": "Stopy i cale",
+  "calculate_weight_14": "Oblicz wagę",
+  "reset_15": "Nastawić",
+  "ideal_weight_16": "Idealna waga",
+  "kg_17": "kg (",
+  "lbs_18": "funty)",
+  "devine_formula_19": "Boska formuła",
+  "kg_20": "kg",
+  "healthy_bmi_range_21": "Zdrowy zakres BMI",
+  "enter_your_details_and_click_calculate_see_your_id_22": "Wprowadź swoje dane i kliknij Oblicz, aby zobaczyć swoje idealne zakresy wagowe.",
+  "ideal_weight_results_23": "Idealne wyniki wagowe",
+  "formulabased_ideal_weights_24": "Idealne wagi oparte na formułach",
+  "formula_25": "Formuła",
+  "weight_kg_26": "Waga (kg)",
+  "weight_lbs_27": "Waga (funty)",
+  "notes_28": "Notatki",
+  "hamwi_1964_29": "Hamwi (1964)",
+  "oldest_drug_dosage_origins_30": "Najstarsze, pochodzenie dawkowania narkotyków",
+  "devine_1974_31": "Boskie (1974)",
+  "still_used_in_medical_settings_32": "Nadal używany w placówkach medycznych",
+  "robinson_1983_33": "Robinsona (1983)",
+  "slightly_lighter_estimate_34": "Nieco lżejsza ocena",
+  "miller_1983_35": "Miller (1983)",
+  "balanced_estimate_36": "Zrównoważone oszacowanie",
+  "bmibased_healthy_weight_range_37": "Zdrowy zakres masy ciała na podstawie BMI",
+  "kg_38": "kg",
+  "lbs_39": "funty)",
+  "based_on_who_bmi_range_of_18525_kgm_this_range_pro_40": "Na podstawie zakresu BMI WHO wynoszącego 18,5–25 kg/m². Ten zakres zapewnia większą elastyczność niż\n                          szacunki oparte na formułach.",
+  "calculation_details_41": "Szczegóły obliczeń",
+  "input_summary_42": "Podsumowanie danych wejściowych",
+  "age_43": "Wiek:",
+  "years_44": "lata",
+  "gender_45": "Płeć:",
+  "height_46": "Wysokość:",
+  "cm_47": "cm (",
+  "inches_48": "cale)",
+  "inches_over_5_ft_49": "Cale powyżej 5 stóp:",
+  "inches_50": "cale",
+  "formula_examples_51": "Przykłady formuł",
+  "devine_52": "Devine (",
+  "bmi_range_53": "Zakres BMI:",
+  "k_18525_54": "18,5–25 × (",
+  "understanding_ideal_weight_55": "Zrozumienie idealnej wagi",
+  "formula_comparison_56": "Porównanie formuł",
+  "hamwi_57": "Hamwi:",
+  "oldest_formula_originally_for_drug_dosing_58": "Najstarsza formuła, pierwotnie służąca do dozowania leku",
+  "devine_59": "Devine:",
+  "most_commonly_used_in_medical_practice_60": "Najczęściej stosowany w praktyce lekarskiej",
+  "robinson_61": "Robinsona:",
+  "tends_to_give_slightly_lower_weights_62": "Ma tendencję do dawania nieco niższych ciężarów",
+  "miller_63": "Młynarz:",
+  "more_recent_balanced_approach_64": "Nowsze, zrównoważone podejście",
+  "example_calculation_65": "Przykładowe obliczenia",
+  "female_56_16764_cm_66": "Kobieta, 167,64 cm (5'6\")",
+  "hamwi_455_22_6_67": "Hamwi: 45,5 + (2,2 × 6) =",
+  "k_587_kg_1295_lb_68": "58,7 kg (129,5 funta)",
+  "devine_455_23_6_69": "Devine: 45,5 + (2,3 × 6) =",
+  "k_593_kg_1307_lb_70": "59,3 kg (130,7 funta)",
+  "bmi_range_71": "Zakres BMI:",
+  "k_519701_kg_11451545_lb_72": "51,9–70,1 kg (114,5–154,5 funta)",
+  "important_considerations_73": "Ważne uwagi",
+  "formulas_dont_account_for_body_composition_74": "Formuły nie uwzględniają składu ciała",
+  "athletes_may_weigh_more_due_to_muscle_mass_75": "Sportowcy mogą ważyć więcej ze względu na masę mięśniową",
+  "bmi_range_provides_more_flexibility_76": "Zakres BMI zapewnia większą elastyczność",
+  "individual_health_factors_are_important_77": "Ważne są indywidualne czynniki zdrowotne",
+  "when_to_use_each_method_78": "Kiedy stosować każdą metodę",
+  "formulas_79": "Formuły:",
+  "quick_estimates_medical_dosing_80": "Szybkie szacunki, dawkowanie medyczne",
+  "bmi_range_81": "Zakres BMI:",
+  "general_health_guidelines_82": "Ogólne wytyczne zdrowotne",
+  "professional_assessment_83": "Ocena profesjonalna:",
+  "body_composition_analysis_84": "Analiza składu ciała",
+  "personal_goals_85": "Cele osobiste:",
+  "consider_fitness_and_health_status_86": "Weź pod uwagę kondycję i stan zdrowia"
+}

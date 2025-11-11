@@ -1,0 +1,153 @@
+{
+  "pageTitle": "Kalkulator ubezpieczenia społecznego",
+  "pageDescription": "Oszacuj świadczenia z Ubezpieczeń Społecznych na podstawie historii zarobków i planowanego wieku emerytalnego, aby móc kompleksowo planować emeryturę",
+  "form": {
+    "labels": {
+      "dateOfBirth": "Data urodzenia",
+      "retirementAge": "Planowany wiek emerytalny",
+      "currentAge": "Obecny wiek",
+      "yearsOfCoverage": "Lata zasięgu",
+      "averageIndexedMonthlyEarnings": "Średnie indeksowane miesięczne zarobki",
+      "primaryInsuranceAmount": "Podstawowa kwota ubezpieczenia (PIA)",
+      "spouseBenefit": "Procent świadczeń dla współmałżonka"
+    },
+    "placeholders": {
+      "dateOfBirth": "Wprowadź datę urodzenia",
+      "retirementAge": "Wprowadź planowany wiek emerytalny",
+      "currentAge": "Podaj aktualny wiek",
+      "yearsOfCoverage": "Wprowadź lata ubezpieczenia",
+      "averageIndexedMonthlyEarnings": "Wprowadź średnie indeksowane miesięczne zarobki",
+      "primaryInsuranceAmount": "Wprowadź kwotę podstawowego ubezpieczenia",
+      "spouseBenefit": "Wprowadź procent świadczenia współmałżonka"
+    },
+    "buttons": {
+      "calculate": "Oblicz świadczenia z Ubezpieczeń Społecznych",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "monthlyBenefit": "Szacunkowa miesięczna korzyść",
+    "annualBenefit": "Szacunkowa roczna korzyść",
+    "benefitAtFullRetirement": "Świadczenie po osiągnięciu pełnego wieku emerytalnego",
+    "spouseBenefit": "Wysokość świadczenia dla współmałżonka",
+    "socialSecurityResultsTitle": "Wyniki obliczeń ubezpieczenia społecznego"
+  },
+  "educational": {
+    "socialSecurityInfo": "Informacje o zabezpieczeniu społecznym",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby finansowe",
+    "socialSecurityFacts": {
+      "fullRetirementAge": {
+        "title": "Pełny wiek emerytalny",
+        "description": "Wiek, w którym otrzymujesz pełne świadczenia z Ubezpieczeń Społecznych (66-67 dla większości osób)"
+      },
+      "earlyRetirement": {
+        "title": "Wpływ wcześniejszej emerytury",
+        "description": "Świadczenia obniżone o 6,67% rocznie w przypadku wcześniejszej emerytury przed osiągnięciem pełnego wieku emerytalnego"
+      },
+      "delayedRetirement": {
+        "title": "Kredyty na opóźnioną emeryturę",
+        "description": "Świadczenia wzrastają o 8% rocznie w przypadku opóźnionego przejścia na emeryturę do 70. roku życia"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunkowe świadczenia z Ubezpieczeń Społecznych",
+      "actual": "Rzeczywiste świadczenia mogą się różnić w zależności od historii zarobków i obliczeń Administracji Ubezpieczeń Społecznych"
+    },
+    "importantNotesList": [
+      "Aby uzyskać dokładniejsze szacunki świadczeń, skorzystaj z wyciągu z Ubezpieczenia Społecznego",
+      "Planując emeryturę, należy wziąć pod uwagę świadczenia dla małżonków i świadczenia dla osób pozostałych przy życiu",
+      "Ubezpieczenie społeczne zastępuje około 40% dochodów przedemerytalnych przeciętnie zarabiających",
+      "Świadczenia mogą podlegać federalnemu i stanowemu podatkowi dochodowemu"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź dane dotyczące ubezpieczenia społecznego, aby oszacować świadczenia",
+    "resultMessage": "Wyniki obliczenia świadczeń z Ubezpieczeń Społecznych przedstawiono poniżej",
+    "assessmentResult": "Wynik obliczenia ubezpieczenia społecznego:",
+    "socialSecurityAnalysis": "Analiza zabezpieczenia społecznego"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia oszacowanie świadczeń z Ubezpieczeń Społecznych w oparciu o ogólne wzory. Rzeczywiste świadczenia mogą się różnić w zależności od historii zarobków, obliczeń Administracji Ubezpieczeń Społecznych i innych czynników nieuwzględnionych w tych szacunkach."
+  },
+  "seekHelp": {
+    "title": "Zasoby finansowe",
+    "content": "Aby uzyskać spersonalizowaną analizę świadczeń Ubezpieczenia Społecznego i planowanie emerytury, należy skonsultować się z przedstawicielami Ubezpieczenia Społecznego lub doradcami finansowymi posiadającymi wiedzę specjalistyczną w zakresie planowania dochodów emerytalnych i indywidualnych okoliczności."
+  },
+  "errors": {
+    "dateOfBirth": "Proszę podać prawidłową datę urodzenia",
+    "retirementAge": "Proszę podać prawidłowy planowany wiek emerytalny",
+    "currentAge": "Proszę podać prawidłowy aktualny wiek",
+    "yearsOfCoverage": "Proszę podać ważne lata ubezpieczenia",
+    "averageIndexedMonthlyEarnings": "Proszę podać prawidłowe średnie indeksowane miesięczne zarobki",
+    "primaryInsuranceAmount": "Proszę podać prawidłową kwotę podstawowego ubezpieczenia",
+    "spouseBenefit": "Proszę podać prawidłowy procent świadczenia współmałżonka"
+  },
+  "tooltips": {
+    "dateOfBirth": "Data urodzenia ma wpływ na obliczenie pełnego wieku emerytalnego",
+    "retirementAge": "Wiek, w którym planujesz rozpocząć pobieranie świadczeń z Ubezpieczeń Społecznych",
+    "currentAge": "Twój obecny wiek w latach",
+    "yearsOfCoverage": "Liczba lat przepracowanych i opłaconych podatków na ubezpieczenie społeczne",
+    "averageIndexedMonthlyEarnings": "Średnia z Twoich najwyższych indeksowanych zarobków z 35 lat",
+    "primaryInsuranceAmount": "Wysokość świadczenia w pełnym wieku emerytalnym",
+    "spouseBenefit": "Procent Twojego świadczenia, który może otrzymać małżonek"
+  },
+  "social_security_inputs_0": "Wejścia do Ubezpieczeń Społecznych",
+  "basic_information_1": "Podstawowe informacje",
+  "birth_year_2": "Rok urodzenia",
+  "full_retirement_age_3": "Pełny wiek emerytalny",
+  "autocalculated_4": "(obliczone automatycznie:",
+  "years_5": "lata",
+  "life_expectancy_years_6": "Długość życia (lata)",
+  "monthly_benefit_at_fra_7": "Miesięczny zasiłek w FRA",
+  "claiming_ages_to_compare_8": "Twierdzenie, że wiek jest do porównania",
+  "age_9": "Wiek",
+  "fra_10": "(FRA)",
+  "economic_assumptions_11": "Założenia ekonomiczne",
+  "annual_cola_12": "Roczna COLA (%)",
+  "investment_return_13": "Zwrot z inwestycji (%)",
+  "show_in_future_inflated_dollars_vs_todays_dollars_14": "Pokaż w przyszłych zawyżonych dolarach (w porównaniu z dzisiejszymi dolarami)",
+  "calculate_15": "Obliczać",
+  "benefit_comparison_16": "Porównanie korzyści",
+  "compare_claiming_strategies_17": "Porównaj strategie zgłaszania roszczeń",
+  "optimal_strategy_18": "Optymalna strategia:",
+  "claim_at_age_19": "Roszczenie w wieku",
+  "highest_present_value_20": "Najwyższa wartość bieżąca: $",
+  "detailed_comparison_21": "Szczegółowe porównanie",
+  "claim_age_22": "Wiek roszczenia",
+  "monthly_benefit_23": "Miesięczna korzyść",
+  "lifetime_benefits_24": "Korzyści na całe życie",
+  "present_value_25": "Wartość bieżąca",
+  "age_26": "Wiek",
+  "best_27": "TO, CO NAJLEPSZE",
+  "vs_fra_28": "% vs FRA",
+  "key_insights_29": "Kluczowe spostrzeżenia:",
+  "present_values_assume_30": "• Przyjmuje się aktualne wartości",
+  "annual_investment_return_31": "% rocznego zwrotu z inwestycji",
+  "benefits_increase_by_32": "• Korzyści zwiększają się o",
+  "annually_after_claiming_33": "% rocznie po złożeniu wniosku",
+  "early_claiming_reduces_benefits_permanently_34": "• Wcześniejsze złożenie wniosku trwale zmniejsza wysokość świadczeń",
+  "delayed_retirement_credits_add_8_per_year_after_fr_35": "• Kredyty na opóźnioną emeryturę zwiększają się o 8% rocznie po FRA",
+  "select_claiming_ages_and_calculate_to_see_your_res_36": "Wybierz podawany wiek i oblicz, aby zobaczyć swoje wyniki",
+  "how_social_security_benefits_work_37": "Jak działają świadczenia z Ubezpieczeń Społecznych",
+  "k_1_primary_insurance_amount_pia_38": "1. Podstawowa kwota ubezpieczenia (PIA)",
+  "your_pia_is_calculated_from_your_average_indexed_m_39": "Twój PIA jest obliczany na podstawie Twoich średnich indeksowanych miesięcznych zarobków (AIME) przy użyciu punktów zagięcia:",
+  "k_2_claiming_age_adjustments_40": "2. Domaganie się korekty wieku",
+  "benefits_are_reduced_for_early_claiming_before_fra_41": "Świadczenia są zmniejszane w przypadku wcześniejszego złożenia wniosku (przed FRA) i zwiększone w przypadku opóźnionego składania wniosku (po FRA do 70. roku życia).",
+  "k_3_present_value_analysis_42": "3. Analiza wartości bieżącej",
+  "where_r_investment_return_rate_accounting_for_the__43": "Gdzie r = stopa zwrotu z inwestycji, uwzględniająca koszt alternatywny roszczenia później.",
+  "frequently_asked_questions_44": "Często zadawane pytania",
+  "what_is_full_retirement_age_fra_45": "Co to jest pełny wiek emerytalny (FRA)?",
+  "full_retirement_age_is_when_you_can_claim_100_of_y_46": "Pełny wiek emerytalny to moment, w którym możesz ubiegać się o 100% swojego świadczenia z Ubezpieczeń Społecznych. Waha się od 65 do 67 w zależności od roku urodzenia. Dla osób urodzonych w 1960 r. lub później FRA wynosi 67 lat.",
+  "how_much_do_i_lose_by_claiming_early_at_62_47": "Ile tracę, ubiegając się o odszkodowanie wcześniej w wieku 62 lat?",
+  "claiming_at_62_reduces_your_benefit_by_about_2530__48": "Złożenie wniosku w wieku 62 lat powoduje trwałe zmniejszenie świadczenia o około 25–30%, w zależności od kwoty FRA. Obniżka wynosi 5/9 z 1% za każdy miesiąc przed FRA (do 36 miesięcy), następnie 5/12 z 1% za każdy dodatkowy miesiąc.",
+  "what_are_delayed_retirement_credits_49": "Czym są odroczone świadczenia emerytalne?",
+  "for_each_year_you_delay_claiming_past_fra_up_to_ag_50": "Za każdy rok opóźnienia w ubieganiu się o przeszłą emeryturę FRA (do 70. roku życia) otrzymasz kredyty z tytułu opóźnionej emerytury o wartości 8% rocznie. Oznacza to, że czekanie do 70. roku życia może zwiększyć Twoje świadczenie o 24–32% w porównaniu do ubiegania się o odszkodowanie w FRA.",
+  "what_is_the_breakeven_age_51": "Jaki jest wiek rentowności?",
+  "the_breakeven_age_is_when_the_total_benefits_recei_52": "Próg rentowności ma miejsce wtedy, gdy łączne korzyści otrzymane w wyniku późniejszego złożenia wniosku są równe korzyściom uzyskanym w przypadku wcześniejszego złożenia wniosku. Ogólnie rzecz biorąc, jeśli dożyjesz 80. roku życia, opóźnianie wypłaty świadczeń procentuje w sumie otrzymanych dolarów.",
+  "how_does_cola_affect_my_benefits_53": "W jaki sposób COLA wpływa na moje świadczenia?",
+  "costofliving_adjustments_cola_are_applied_annually_54": "Korekty kosztów utrzymania (COLA) są stosowane corocznie w celu ochrony przed inflacją. Korekta dotyczy kwoty świadczenia w momencie podwyższenia, niezależnie od tego, kiedy się o nie ubiegałeś. Historyczna zawartość COLA wynosi średnio około 2-3% rocznie."
+}

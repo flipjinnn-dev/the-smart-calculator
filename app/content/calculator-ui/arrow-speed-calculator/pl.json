@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Kalkulator prędkości strzałki",
+  "pageDescription": "Oblicz prędkość, pęd i energię kinetyczną strzały, korzystając z ocen IBO do analizy wydajności łucznictwa",
+  "form": {
+    "labels": {
+      "iboSpeed": "Szybkość IBO (fps)",
+      "drawLength": "Długość naciągu (cale)",
+      "drawWeight": "Waga naciągu (funty)",
+      "arrowWeight": "Masa strzały (ziarna)",
+      "additionalWeight": "Dodatkowa waga (ziarna)",
+      "calculationType": "Typ obliczenia"
+    },
+    "placeholders": {
+      "iboSpeed": "Wprowadź prędkość IBO",
+      "drawLength": "Wprowadź długość naciągu",
+      "drawWeight": "Wprowadź wagę naciągu",
+      "arrowWeight": "Wprowadź wagę strzałki",
+      "additionalWeight": "Wprowadź dodatkową wagę (wzrok, odpoczynek itp.)"
+    },
+    "buttons": {
+      "calculate": "Oblicz prędkość strzały",
+      "reset": "Nastawić"
+    },
+    "calculationTypes": {
+      "speed": "Szybkość strzały",
+      "momentum": "Pęd",
+      "kineticEnergy": "Energia kinetyczna",
+      "all": "Wszystkie obliczenia"
+    }
+  },
+  "results": {
+    "arrowSpeed": "Szybkość strzały (fps)",
+    "momentum": "Pęd (ślimak·ft/s)",
+    "kineticEnergy": "Energia kinetyczna (ft·lbf)",
+    "arrowSpeedResultsTitle": "Wyniki prędkości strzałek",
+    "adjustedDrawLength": "Dostosowana długość naciągu",
+    "adjustedDrawWeight": "Skorygowana siła naciągu"
+  },
+  "educational": {
+    "arrowSpeedInfo": "Informacje o prędkości strzałki",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby łucznictwa",
+    "arrowSpeedFacts": {
+      "definition": {
+        "title": "Współczynniki prędkości strzałek",
+        "description": "Na prędkość strzały wpływa ocena IBO łuku, długość naciągu, siła naciągu i waga strzały"
+      },
+      "formula": {
+        "title": "Obliczanie prędkości",
+        "description": "Dostosowana prędkość = Szybkość IBO - (3 × (waga naciągu - 70)) + (10 × (długość naciągu - 30)) - (waga strzały - 400) ÷ 10"
+      },
+      "performance": {
+        "title": "Metryki wydajności",
+        "description": "Pęd wpływa na penetrację, energia kinetyczna wpływa na potencjał uszkodzeń"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten dostarcza jedynie szacunków i nie zastępuje rzeczywistego pomiaru",
+      "equipment": "Rzeczywista wydajność różni się w zależności od stanu łuku, formy łucznika i czynników środowiskowych"
+    },
+    "importantNotesList": [
+      "Cięższe strzały zapewniają większy pęd, ale mniejszą prędkość",
+      "Oceny IBO mierzone są przy sile naciągu 70 funtów, długości naciągu 30 cali i strzałce 350 gr",
+      "Energia kinetyczna jest ważniejsza w polowaniu niż sama prędkość",
+      "Właściwa forma i konserwacja sprzętu wpływają na rzeczywistą wydajność"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź specyfikacje łuku i strzał, aby obliczyć wydajność",
+    "resultMessage": "Obliczenia wydajności strzałek pokazano poniżej",
+    "assessmentResult": "Wynik wydajności strzały:",
+    "arrowSpeedAnalysis": "Analiza prędkości strzałek"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki wydajności strzałek w oparciu o standardy IBO i wzory matematyczne. Rzeczywista wydajność może się różnić w zależności od stanu łuku, formy łucznika i czynników środowiskowych."
+  },
+  "seekHelp": {
+    "title": "Zasoby łucznictwa",
+    "content": "Aby uzyskać profesjonalną analizę łucznictwa i dobór sprzętu, skonsultuj się z certyfikowanymi instruktorami łucznictwa lub użyj specjalistycznych chronografów do rzeczywistego pomiaru wydajności."
+  },
+  "errors": {
+    "iboSpeed": "Wprowadź prawidłową prędkość IBO",
+    "drawLength": "Proszę podać prawidłową długość naciągu (20-35 cali)",
+    "drawWeight": "Proszę wprowadzić prawidłową siłę naciągu (10-100 funtów)",
+    "arrowWeight": "Proszę podać prawidłową wagę strzały (100-800 ziaren)",
+    "additionalWeight": "Proszę wprowadzić prawidłową wagę dodatkową",
+    "calculationType": "Proszę wybrać rodzaj obliczeń"
+  },
+  "tooltips": {
+    "iboSpeed": "Indeks prędkości IBO producenta dla Twojego łuku",
+    "drawLength": "Odległość od punktu nasadki do punktu obrotu plus 1,75 cala",
+    "drawWeight": "Siła potrzebna do naciągnięcia łuku na 28 cali",
+    "arrowWeight": "Całkowita waga strzały łącznie z grotem, trzonkiem i lotkami",
+    "additionalWeight": "Waga akcesoriów takich jak przyrządy celownicze, podpory i stabilizatory"
+  },
+  "bow_arrow_specifications_0": "Specyfikacje łuków i strzał",
+  "enter_your_bow_and_arrow_specifications_to_calcula_1": "Wprowadź specyfikacje łuku i strzał, aby obliczyć wskaźniki wydajności",
+  "bow_ibo_rating_2": "Ocena IBO łuku",
+  "fps_3": "fps",
+  "ms_4": "SM",
+  "draw_length_5": "Długość rysowania",
+  "in_6": "W",
+  "cm_7": "cm",
+  "peak_draw_weight_8": "Szczytowa waga naciągu",
+  "lb_9": "funty",
+  "kg_10": "kg",
+  "arrow_weight_grains_11": "Masa strzały (ziarna)",
+  "extra_string_weight_grains_optional_12": "Dodatkowa waga sznurka (ziarna) - opcjonalnie",
+  "ibo_standard_13": "Standard IBO:",
+  "based_on_30_draw_length_70_lb_draw_weight_and_350__14": "W oparciu o długość naciągu 30 cali, siłę naciągu 70 funtów i strzałę o ziarnie 350.\n                        Korekty: ±10 fps na cal długości naciągu, ±2 fps na funt ciężaru naciągu.",
+  "results_are_estimates_based_on_industrystandard_ib_15": "Wyniki są szacunkami opartymi na standardowych obliczeniach IBO w branży.",
+  "calculate_performance_16": "Oblicz wydajność",
+  "arrow_performance_17": "Wydajność strzałki",
+  "fps_18": "fps",
+  "ms_19": "SM",
+  "joules_20": "Dżule",
+  "enter_your_bow_specs_and_click_21": "Podaj specyfikację łuku i kliknij",
+  "calculate_22": "Obliczać",
+  "to_see_arrow_performance_23": "aby zobaczyć działanie strzałki.",
+  "detailed_performance_metrics_24": "Szczegółowe wskaźniki wydajności",
+  "arrow_speed_25": "Szybkość strzały",
+  "fps_26": "fps",
+  "ms_27": "SM",
+  "momentum_28": "Pęd",
+  "ns_29": "N·s",
+  "kinetic_energy_30": "Energia kinetyczna",
+  "joules_31": "Dżule",
+  "understanding_arrow_speed_ibo_ratings_32": "Zrozumienie szybkości strzały i ocen IBO",
+  "ibo_rating_explained_33": "Objaśnienie oceny IBO",
+  "ibo_international_bowhunting_organization_rating_i_34": "Ocena IBO (International Bowhunting Organisation) to ustandaryzowany pomiar oparty na:\n                        Długość naciągu 30 cali, siła naciągu 70 funtów i strzała o masie 350 ziaren. Stanowi to punkt odniesienia dla\n                        porównanie wydajności łuków różnych producentów.",
+  "performance_factors_35": "Czynniki wydajności",
+  "draw_length_10_fps_per_inch_change_36": "Długość naciągu: ±10 fps na zmianę cala",
+  "draw_weight_2_fps_per_pound_change_37": "Siła naciągu: ±2 fps na zmianę funta",
+  "arrow_weight_1_fps_per_3_grains_38": "Masa strzały: ∓1 fps na 3 ziarna",
+  "string_accessories_1_fps_per_3_grains_39": "Akcesoria do sznurków: ∓1 fps na 3 ziarna",
+  "sample_calculation_40": "Przykładowe obliczenia",
+  "example_41": "Przykład:",
+  "ibo_rating_320_fps_42": "Ocena IBO: 320 kl./s",
+  "draw_length_29_1_from_baseline_43": "Długość naciągu: 29\" (-1\" od linii bazowej)",
+  "draw_weight_60_lb_10_lb_from_baseline_44": "Siła naciągu: 60 funtów (-10 funtów od linii bazowej)",
+  "arrow_weight_400_gr_50_gr_from_baseline_45": "Waga strzały: 400 gr (+50 gr od wartości bazowej)",
+  "result_320_10_20_167_273_fps_46": "Wynik: 320 - 10 - 20 - 16,7 ≈ 273 fps",
+  "momentum_and_kinetic_energy_are_calculated_using_p_47": "Pęd i energię kinetyczną oblicza się za pomocą wzorów fizycznych: p = mv i KE = ½mv²."
+}

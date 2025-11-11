@@ -1,0 +1,112 @@
+{
+  "pageTitle": "Zahlungsrechner",
+  "pageDescription": "Berechnen Sie die Zahlung mit unserem kostenlosen Online-Rechner",
+  "form": {
+    "labels": {
+      "input1": "Eingabe 1",
+      "input2": "Eingabe 2",
+      "input3": "Eingabe 3"
+    },
+    "placeholders": {
+      "input1": "Geben Sie den ersten Wert ein",
+      "input2": "Geben Sie den zweiten Wert ein",
+      "input3": "Geben Sie den dritten Wert ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie die Zahlung",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "result1": "Ergebnis 1",
+    "result2": "Ergebnis 2",
+    "calculationDetails": "Ergebnisse der Zahlungsberechnung"
+  },
+  "educational": {
+    "info": "Zahlungsinformationen",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Ressourcen",
+    "facts": {
+      "definition": {
+        "title": "Zahlungsdefinition",
+        "description": "Informationen zur Zahlung"
+      },
+      "formula": {
+        "title": "Berechnungsmethode",
+        "description": "So wird die Zahlung berechnet"
+      },
+      "applications": {
+        "title": "Anwendungen",
+        "description": "Zahlungsverwendungen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Zahlungsschätzungen",
+      "actual": "Die tatsächlichen Werte können je nach individuellen Umständen variieren"
+    },
+    "importantNotesList": [
+      "Dies ist eine Schätzung und sollte eine professionelle Beratung nicht ersetzen",
+      "Die Ergebnisse können je nach individuellen Faktoren variieren",
+      "Wenden Sie sich für eine individuelle Beratung an Fachleute",
+      "Verwenden Sie konsistente Einheiten, um genaue Ergebnisse zu erzielen"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie die erforderlichen Informationen ein, um die Zahlung zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Zahlungsberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Zahlungsberechnung:",
+    "analysis": "Zahlungsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Zahlungsschätzungen basierend auf Standardmethoden. Die tatsächlichen Werte können aufgrund individueller Umstände und anderer Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, variieren."
+  },
+  "seekHelp": {
+    "title": "Ressourcen",
+    "content": "Für eine persönliche Beratung und detaillierte Informationen wenden Sie sich an Fachleute, die Sie auf der Grundlage individueller Bedürfnisse und Umstände beraten können."
+  },
+  "errors": {
+    "input1": "Bitte geben Sie einen gültigen ersten Wert ein",
+    "input2": "Bitte geben Sie einen gültigen zweiten Wert ein",
+    "input3": "Bitte geben Sie einen gültigen dritten Wert ein"
+  },
+  "tooltips": {
+    "input1": "Erster Eingabeparameter",
+    "input2": "Zweiter Eingabeparameter",
+    "input3": "Dritter Eingabeparameter"
+  },
+  "loading_0": "Laden...",
+  "payment_calculator_1": "Zahlungsrechner",
+  "choose_your_calculation_method_below_2": "Wählen Sie unten Ihre Berechnungsmethode",
+  "fixed_term_3": "Feste Laufzeit",
+  "fixed_payments_4": "Feste Zahlungen",
+  "loan_amount_5": "Darlehensbetrag",
+  "loan_term_years_6": "Kreditlaufzeit (Jahre)",
+  "interest_rate_7": "Zinssatz (%)",
+  "calculate_8": "Berechnen",
+  "clear_9": "Klar",
+  "loan_amount_10": "Darlehensbetrag",
+  "monthly_payment_11": "Monatliche Zahlung",
+  "interest_rate_12": "Zinssatz (%)",
+  "calculate_13": "Berechnen",
+  "clear_14": "Klar",
+  "monthly_payment_15": "Monatliche Zahlung",
+  "your_payment_calculation_details_16": "Ihre Zahlungsberechnungsdetails",
+  "you_will_need_to_pay_17": "Sie müssen $ bezahlen",
+  "every_month_for_18": "jeden Monat für",
+  "years_to_payoff_the_debt_19": "Jahre, um die Schulden zu begleichen.",
+  "total_of_20": "Insgesamt",
+  "payments_21": "Zahlungen",
+  "total_interest_22": "Gesamtzins",
+  "principal_23": "% Rektor",
+  "interest_24": "% Interesse",
+  "enter_payment_details_to_see_your_calculation_25": "Geben Sie die Zahlungsdetails ein, um Ihre Berechnung anzuzeigen",
+  "amortization_schedule_26": "Tilgungsplan",
+  "annual_payment_breakdown_27": "Jährliche Zahlungsaufschlüsselung",
+  "year_28": "Jahr",
+  "interest_29": "Interesse",
+  "principal_30": "Rektor",
+  "ending_balance_31": "Endbilanz"
+}

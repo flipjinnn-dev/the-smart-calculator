@@ -1,0 +1,180 @@
+{
+  "pageTitle": "Body Fat Calculator",
+  "pageDescription": "Calculate body fat percentage using various methods including BMI method, U.S. Navy method, and other scientific approaches",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Weight",
+      "unitSystem": "Unit System",
+      "waist": "Waist Circumference",
+      "neck": "Neck Circumference",
+      "hip": "Hip Circumference (Women only)"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}",
+      "waist": "Enter waist measurement",
+      "neck": "Enter neck measurement",
+      "hip": "Enter hip measurement"
+    },
+    "buttons": {
+      "calculate": "Calculate Body Fat",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    }
+  },
+  "results": {
+    "bodyFatPercentage": "Body Fat Percentage",
+    "fatMass": "Fat Mass",
+    "leanMass": "Lean Mass",
+    "bodyFatResultsTitle": "Body Fat Results",
+    "bodyFatCategories": {
+      "essential": "Essential Fat",
+      "athletes": "Athletes",
+      "fitness": "Fitness",
+      "average": "Average",
+      "obese": "Obese"
+    }
+  },
+  "educational": {
+    "bodyFatInfo": "Body Fat Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Professional",
+    "bodyFatMethods": {
+      "bmi": {
+        "title": "BMI Method",
+        "description": "Uses BMI and age to estimate body fat percentage"
+      },
+      "usNavy": {
+        "title": "U.S. Navy Method",
+        "description": "Uses circumference measurements for more accurate results"
+      },
+      "modifiedUSNavy": {
+        "title": "Modified U.S. Navy Method",
+        "description": "Adjusted formula for improved accuracy"
+      }
+    },
+    "bodyFatCategoriesInfo": {
+      "men": {
+        "essential": "2-5%",
+        "athletes": "6-13%",
+        "fitness": "14-17%",
+        "average": "18-24%",
+        "obese": "25%+"
+      },
+      "women": {
+        "essential": "10-13%",
+        "athletes": "14-20%",
+        "fitness": "21-24%",
+        "average": "25-31%",
+        "obese": "32%+"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a diagnostic tool",
+      "individualVariation": "Body fat percentage varies based on many individual factors"
+    },
+    "importantNotesList": [
+      "Different methods may produce different results",
+      "Body fat percentage is just one measure of health",
+      "Consult healthcare professionals for accurate body composition analysis",
+      "Regular exercise and balanced nutrition are important for healthy body composition"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Enter your measurements to calculate your body fat percentage",
+    "bodyFatResult": "Your estimated body fat percentage is {percentage}%",
+    "bodyFatCategory": "This falls in the {category} category",
+    "ageWarning": "Body fat calculations may vary for different age groups",
+    "assessmentResult": "Assessment Result:",
+    "bodyFatAnalysis": "Body Fat Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates based on mathematical formulas and should not be used as a substitute for professional body composition analysis. Individual results may vary based on factors not accounted for in these calculations."
+  },
+  "seekHelp": {
+    "title": "Consult a Healthcare Professional",
+    "content": "For accurate body composition analysis and personalized health advice, please consult with a healthcare professional or certified fitness trainer who can provide guidance based on your complete health history and individual circumstances."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight",
+    "waist": "Please enter a valid waist measurement",
+    "neck": "Please enter a valid neck measurement",
+    "hip": "Please enter a valid hip measurement"
+  },
+  "tooltips": {
+    "age": "Age affects body fat calculations",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "waist": "Measure at the narrowest point",
+    "neck": "Measure below the larynx",
+    "hip": "Measure at the widest point (women only)"
+  },
+  "loading_0": "Loading...",
+  "body_fat_calculator_1": "Body Fat Calculator",
+  "enter_your_measurements_to_calculate_body_fat_perc_2": "Enter your measurements to calculate body fat percentage",
+  "unit_system_3": "Unit System",
+  "metric_units_4": "Metric Units",
+  "us_units_5": "US Units",
+  "other_units_6": "Other Units",
+  "gender_7": "Gender",
+  "male_8": "Male",
+  "female_9": "Female",
+  "age_10": "Age",
+  "weight_11": "Weight",
+  "height_12": "Height",
+  "ft_13": "ft",
+  "in_14": "in",
+  "cm_15": "cm",
+  "neck_16": "Neck",
+  "ft_17": "ft",
+  "in_18": "in",
+  "cm_19": "cm",
+  "waist_20": "Waist",
+  "ft_21": "ft",
+  "in_22": "in",
+  "cm_23": "cm",
+  "hip_24": "Hip",
+  "ft_25": "ft",
+  "in_26": "in",
+  "cm_27": "cm",
+  "calculate_fat_28": "Calculate Fat",
+  "clear_29": "Clear",
+  "body_fat_analysis_30": "Body Fat Analysis",
+  "your_complete_body_composition_breakdown_31": "Your complete body composition breakdown",
+  "body_fat_percentage_32": "Body Fat Percentage",
+  "body_fat_scale_33": "Body Fat Scale",
+  "k_0_34": "0%",
+  "k_25_35": "25%",
+  "k_50_36": "50%",
+  "detailed_results_37": "Detailed Results",
+  "body_fat_us_navy_38": "Body Fat (U.S. Navy)",
+  "body_fat_category_39": "Body Fat Category",
+  "body_fat_mass_40": "Body Fat Mass",
+  "lean_body_mass_41": "Lean Body Mass",
+  "ideal_body_fat_42": "Ideal Body Fat",
+  "fat_to_lose_43": "Fat to Lose",
+  "body_fat_bmi_method_44": "Body Fat (BMI method)",
+  "save_this_calculation_45": "Save This Calculation",
+  "enter_your_measurements_to_calculate_body_fat_perc_46": "Enter your measurements to calculate body fat percentage",
+  "body_fat_categories_reference_47": "Body Fat Categories Reference",
+  "description_48": "Description",
+  "women_49": "Women",
+  "men_50": "Men"
+}

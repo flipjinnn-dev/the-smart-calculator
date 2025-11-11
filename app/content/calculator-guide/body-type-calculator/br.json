@@ -1,0 +1,97 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Descubra facilmente o seu tipo de corpo",
+      "content": "Compreender a forma do seu corpo é essencial para definir metas realistas de condicionamento físico, escolher roupas que combinem com você e melhorar a saúde geral. Nossa Calculadora de Tipo Corporal Online é uma ferramenta rápida, precisa e fácil de usar, projetada para ajudá-lo a calcular o formato do seu corpo em minutos. Se você deseja identificar um formato corporal de ampulheta, pêra, maçã ou retangular, esta ferramenta fornece medidas precisas para orientar suas escolhas de condicionamento físico e estilo de vida."
+    },
+    {
+      "heading": "Como usar a calculadora de tipo corporal",
+      "content": "Usar nossa ferramenta Calculadora de formato corporal é simples e intuitivo. Siga estas etapas:",
+      "subSections": [
+        {
+          "heading": "Etapa 1: insira suas medidas",
+          "content": "Insira suas medidas de busto/peito, cintura e quadril. Para os homens, inclua medidas dos ombros e do tórax para uma classificação precisa."
+        },
+        {
+          "heading": "Etapa 2: calcule a relação cintura-quadril (RCQ)",
+          "content": "Essa proporção é um indicador chave do tipo de corpo e do risco à saúde. Verifique nossa Calculadora da relação cintura-quadril para uma análise detalhada."
+        },
+        {
+          "heading": "Passo 3: Clique em “Calcular”",
+          "content": "Veja instantaneamente o resultado do seu tipo de corpo com análises e recomendações claras."
+        },
+        {
+          "heading": "Etapa 4: revisar insights personalizados",
+          "content": "Obtenha orientação sobre dicas de condicionamento físico, dieta e estilo com base no formato do seu corpo."
+        }
+      ]
+    },
+    {
+      "heading": "Compreendendo os tipos de corpo",
+      "content": "Diferentes tipos de corpo têm características distintas que podem influenciar os resultados de condicionamento físico, postura e saúde.",
+      "subSections": [
+        {
+          "heading": "Ampulheta",
+          "content": "Busto e quadril equilibrados, cintura estreita. Concentre-se no treinamento de força e exercícios básicos."
+        },
+        {
+          "heading": "Pera",
+          "content": "Quadris mais largos, parte superior do corpo menor. Enfatize os exercícios para a parte inferior do corpo e mantenha o cardio."
+        },
+        {
+          "heading": "Maçã",
+          "content": "Parte superior do corpo larga, cintura maior. Priorize exercícios aeróbicos, fortalecimento do núcleo e dieta balanceada."
+        },
+        {
+          "heading": "Retângulo",
+          "content": "Medidas semelhantes de busto, cintura e quadril. Construa curvas com treinamento de força e exercícios de flexibilidade."
+        },
+        {
+          "heading": "Triângulo Invertido",
+          "content": "Ombros mais largos, quadris mais estreitos. Concentre-se no desenvolvimento da parte inferior do corpo e do núcleo."
+        }
+      ]
+    },
+    {
+      "heading": "Por que o RCQ é importante",
+      "content": "Uma relação cintura-quadril mais alta pode indicar risco aumentado de condições metabólicas e cardiovasculares. Conhecer sua RCQ ajuda a monitorar os riscos à saúde e a elaborar um plano de condicionamento físico eficaz."
+    },
+    {
+      "heading": "Por que usar uma calculadora de tipo corporal?",
+      "content": "Nossa calculadora de tipo corporal oferece vários benefícios:",
+      "subSections": [
+        {
+          "heading": "Vantagens",
+          "content": "• Rápido e Preciso: Obtenha resultados em segundos usando medições precisas.\n• Orientação de condicionamento físico personalizada: adapte os treinos ao formato do seu corpo para obter melhores resultados.\n• Dicas de roupas e estilo: Encontre os estilos mais atraentes com base no seu tipo de corpo.\n• Conscientização sobre a saúde: Monitore o RCQ e compreenda os riscos potenciais à saúde.\n• Gratuito e Fácil: Totalmente on-line e acessível a qualquer momento."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é um tipo de corpo?",
+      "a": "O tipo de corpo refere-se à forma natural do seu corpo, determinada pela estrutura óssea, distribuição de gordura e massa muscular. Os tipos comuns incluem ampulheta, pêra, maçã, retângulo e triângulo invertido."
+    },
+    {
+      "q": "Posso calcular o formato do meu corpo em casa?",
+      "a": "Sim! Use uma fita métrica para registrar seu busto/peito, cintura e quadris e, em seguida, insira esses valores em nossa Calculadora de Tipo Corporal."
+    },
+    {
+      "q": "Como o tipo de corpo afeta a saúde?",
+      "a": "Certas formas corporais, especialmente aquelas com proporções cintura-quadril mais altas, podem aumentar o risco de diabetes, doenças cardíacas ou problemas metabólicos."
+    },
+    {
+      "q": "Esta calculadora é adequada para homens e mulheres?",
+      "a": "Absolutamente. Nossa ferramenta foi projetada para classificar com precisão os tipos de corpo masculino e feminino e fornecer insights acionáveis."
+    },
+    {
+      "q": "Como o tipo de corpo difere do IMC?",
+      "a": "O IMC mede o peso corporal geral em relação à altura, enquanto o tipo de corpo se concentra na forma e na distribuição de gordura, oferecendo orientações de condicionamento físico mais personalizadas."
+    }
+  ],
+  "cta": {
+    "heading": "Assuma o controle de seu condicionamento físico e estilo",
+    "content": "Pare de adivinhar e comece a entender seu corpo. Use nossa calculadora gratuita de tipo corporal agora para identificar o formato do seu corpo, calcular a RCQ e obter recomendações personalizadas de saúde e condicionamento físico. Conhecer o seu tipo de corpo é o primeiro passo para treinos mais inteligentes, hábitos mais saudáveis ​​e uma pessoa mais confiante."
+  }
+}

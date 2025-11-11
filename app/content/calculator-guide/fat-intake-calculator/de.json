@@ -1,0 +1,149 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Fettaufnahmerechner – Finden Sie Ihre täglich empfohlene Fettaufnahme",
+      "content": "Mit unserem Fettaufnahmerechner können Sie anhand Ihres Alters, Geschlechts, Gewichts, Aktivitätsniveaus und Ihrer Fitnessziele genau bestimmen, wie viel Fett Sie pro Tag zu sich nehmen sollten. Ob Sie abnehmen, Muskeln aufbauen oder sich einfach ausgewogen ernähren möchten, dieses Tool gibt Ihnen eine individuelle Empfehlung für eine gesunde Fettaufnahme. Im Gegensatz zu allgemeinen Ratschlägen nutzt unser Rechner für die tägliche Fettaufnahme Ihren Kalorienbedarf, um den richtigen Kalorienanteil aus Fett abzuschätzen – im Einklang mit den Ernährungsrichtlinien der WHO und des USDA."
+    },
+    {
+      "heading": "Was ist Fettaufnahme und warum ist sie wichtig?",
+      "subSections": [
+        {
+          "heading": "Definition",
+          "content": "Nahrungsfett ist einer der drei essentiellen Makronährstoffe (neben Eiweiß und Kohlenhydraten). Es spielt eine wichtige Rolle bei der Bereitstellung von Energie und der Unterstützung des Stoffwechsels, unterstützt die Hormonproduktion und Vitaminaufnahme (A, D, E, K), schützt die Gesundheit von Gehirn und Herz und unterstützt das Zellwachstum und die Zellreparatur."
+        },
+        {
+          "heading": "Gleichgewicht",
+          "content": "Eine ausgewogene Fettaufnahme ist unerlässlich – zu wenig kann die Hormone und das Energieniveau schädigen, während zu viel zu Gewichtszunahme und Herzerkrankungen führen kann."
+        }
+      ]
+    },
+    {
+      "heading": "So funktioniert unser Fettaufnahmerechner",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Der Rechner schätzt Ihre empfohlene Fettaufnahme durch Analyse des Gesamtkalorienbedarfs (basierend auf BMR + Aktivitätsniveau)."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Dabei gelten Ernährungsrichtlinien (20–35 % der täglichen Kalorien aus Fett, laut USDA/WHO)."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Es passt die Fettaufnahme an Fitnessziele wie Gewichtsverlust, Erhaltung oder Muskelaufbau an."
+        },
+        {
+          "heading": "Beispiel",
+          "content": "Wenn Sie 2.000 Kalorien pro Tag benötigen, sind 25 % Fett = 55 g Fett pro Tag."
+        }
+      ]
+    },
+    {
+      "heading": "Empfohlene tägliche Fettaufnahme nach Alter, Geschlecht und Aktivität",
+      "content": "Sitzende Frauen (2.000 kcal) → 44–78 g Fett/Tag\nAktive Frauen (2.400 kcal) → 53–93 g Fett/Tag\nBewegungsarme Männer (2.500 kcal) → 55–97 g Fett/Tag\nAktive Männer (3.000 kcal) → 67–117 g Fett/Tag"
+    },
+    {
+      "heading": "Fettaufnahme zur Gewichtsabnahme vs. Muskelaufbau",
+      "subSections": [
+        {
+          "heading": "Gewichtsverlust",
+          "content": "Reduzieren Sie die Fettaufnahme (20–25 % der Kalorien) und priorisieren Sie gleichzeitig Protein."
+        },
+        {
+          "heading": "Muskelaufbau",
+          "content": "Mäßiger Fettgehalt (25–30 % der Kalorien) zur Unterstützung der Hormone und der Regeneration."
+        },
+        {
+          "heading": "Wartung",
+          "content": "Ausgewogene Zufuhr (25–35 % der Kalorien) je nach Energiebedarf."
+        }
+      ]
+    },
+    {
+      "heading": "Gesunde vs. ungesunde Fette",
+      "subSections": [
+        {
+          "heading": "Gesunde Fette",
+          "content": "Einfach ungesättigte Fette (Olivenöl, Avocados, Nüsse); Mehrfach ungesättigte Fette (Omega-3 und Omega-6 aus Fisch, Leinsamen, Walnüssen)."
+        },
+        {
+          "heading": "Begrenzen Sie ungesunde Fette",
+          "content": "Gesättigte Fette (Butter, fettes Fleisch – in Maßen verzehren); Transfette (verarbeitete Lebensmittel, frittierte Produkte – vollständig vermeiden)."
+        }
+      ]
+    },
+    {
+      "heading": "Richtlinien zur Fettaufnahme von WHO und USDA",
+      "subSections": [
+        {
+          "heading": "WER",
+          "content": "20–35 % der täglichen Kalorien aus Fett, <10 % aus gesättigten Fettsäuren."
+        },
+        {
+          "heading": "USDA",
+          "content": "20–35 % Gesamtfett, <10 % gesättigtes Fett, Transfette vollständig vermeiden."
+        }
+      ]
+    },
+    {
+      "heading": "Verwandte Tools für eine bessere Ernährung",
+      "subSections": [
+        {
+          "heading": "BMI-Rechner",
+          "content": "Überprüfen Sie Ihren gesunden Gewichtsbereich."
+        },
+        {
+          "heading": "Rechner zur Proteinaufnahme",
+          "content": "Schätzen Sie Protein für Muskelwachstum und -regeneration."
+        },
+        {
+          "heading": "Rechner für gesundes Gewicht",
+          "content": "Verfolgen Sie langfristige Gewichtsmanagementziele."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viel Fett sollte ich pro Tag essen?",
+      "a": "Die meisten Erwachsenen sollten 20–35 % der täglichen Kalorien aus Fett zu sich nehmen, was bei einer 2.000-Kalorien-Diät etwa 44–77 g pro Tag entspricht."
+    },
+    {
+      "q": "Was ist die empfohlene Fettzufuhr zur Gewichtsabnahme?",
+      "a": "Um Gewicht zu verlieren, streben Sie an, 20–25 % der Kalorien aus Fett zu beziehen und gleichzeitig einen hohen Proteingehalt beizubehalten, um die Muskeln zu erhalten."
+    },
+    {
+      "q": "Wie berechnet man die Fettaufnahme aus den Kalorien?",
+      "a": "Multiplizieren Sie Ihre täglichen Kalorien mit 0,20–0,35 und teilen Sie sie dann durch 9 (Kalorien pro Gramm Fett)."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen gesunden und ungesunden Fetten?",
+      "a": "Gesunde Fette sind ungesättigt (Olivenöl, Fisch). Zu den ungesunden Fetten zählen Transfette und überschüssiges gesättigtes Fett."
+    },
+    {
+      "q": "Wie viel gesättigtes Fett pro Tag ist sicher?",
+      "a": "Weniger als 10 % der täglichen Kalorien (ca. 20 g bei einer 2.000-Kalorien-Diät)."
+    },
+    {
+      "q": "Ist die Fettaufnahme bei Männern und Frauen unterschiedlich?",
+      "a": "Ja. Männer benötigen aufgrund des höheren Kalorienbedarfs oft mehr Fett, der Anteil der Kalorien aus Fett ist jedoch ähnlich."
+    },
+    {
+      "q": "Kann ich diesen Rechner für die Keto-Diätplanung verwenden?",
+      "a": "Ja. Bei der Keto-Diät werden in der Regel 70–75 % der Kalorien aus Fett verbraucht, daher hilft dieses Tool bei der Schätzung Ihres Fettgehalts."
+    },
+    {
+      "q": "Wie berechnet man die Fettaufnahme basierend auf dem Aktivitätsniveau?",
+      "a": "Mehr Aktivität → höherer Kalorienbedarf → proportional höhere Fettaufnahme (bei Beibehaltung von 20–35 %)."
+    },
+    {
+      "q": "Was passiert, wenn ich zu wenig Fett esse?",
+      "a": "Zu wenig Fett kann zu einem hormonellen Ungleichgewicht, Müdigkeit, Nährstoffmangel und Gehirnnebel führen."
+    },
+    {
+      "q": "Wie kann man die Fettaufnahme mit Eiweiß und Kohlenhydraten ausgleichen?",
+      "a": "Befolgen Sie die Aufteilung der Makronährstoffe: Protein 25–30 %, Fett 20–35 %, Kohlenhydrate 40–55 % (je nach Ziel anpassen)."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator wypłaty renty: planuj swoje dochody emerytalne z pewnością",
+      "content": "Planowanie emerytury czy zarządzanie finansami długoterminowymi wymaga precyzyjnych obliczeń. Kalkulator wypłat renty pomaga oszacować dochód, jaki możesz uzyskać w ramach różnych planów renty, ułatwiając podejmowanie świadomych decyzji finansowych. Niezależnie od tego, czy jesteś emerytem, ​​doradcą finansowym, agentem ubezpieczeniowym czy menadżerem planu emerytalnego, to narzędzie upraszcza złożone obliczenia i zapewnia przejrzystość na wyciągnięcie ręki."
+    },
+    {
+      "heading": "Kluczowe pojęcia, które powinieneś znać",
+      "subSections": [
+        {
+          "heading": "Stała wypłata renty",
+          "content": "Gwarantowana kwota dochodu otrzymywana regularnie przez okres wypłaty."
+        },
+        {
+          "heading": "Kalkulator renty natychmiastowej",
+          "content": "Określa dochód rozpoczynający się natychmiast po zainwestowaniu kwoty ryczałtowej."
+        },
+        {
+          "heading": "Miesięczna płatność renty",
+          "content": "Stała suma, którą otrzymujesz co miesiąc z renty."
+        },
+        {
+          "heading": "Czas trwania wypłaty renty",
+          "content": "Całkowity okres, przez który dokonywane są płatności, np. 10, 20 lub 30 lat."
+        },
+        {
+          "heading": "Renta jednoosobowa",
+          "content": "Zapewnia wypłaty przez całe życie jednej osoby."
+        },
+        {
+          "heading": "Renta wspólna",
+          "content": "Obejmuje dwa życia, zazwyczaj małżonka i rentę, aż do śmierci obojga."
+        },
+        {
+          "heading": "Renta na czas określony",
+          "content": "Płaci ustaloną kwotę przez określony okres, niezależnie od długości życia."
+        },
+        {
+          "heading": "Obecna wartość renty",
+          "content": "Bieżąca wartość przyszłych płatności rentowych."
+        },
+        {
+          "heading": "Przyszła wartość renty",
+          "content": "Całkowita wartość skumulowana w czasie wraz z odsetkami."
+        },
+        {
+          "heading": "Formuła wypłaty renty",
+          "content": "Kalkulacja matematyczna używana do określenia kwot wypłat."
+        }
+      ]
+    },
+    {
+      "heading": "Typowe przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Planowanie emerytury",
+          "content": "Oszacuj swój miesięczny lub roczny dochód emerytalny."
+        },
+        {
+          "heading": "Planowanie podatkowe",
+          "content": "Analizuj skutki podatkowe różnych wypłat rent dożywotnich."
+        },
+        {
+          "heading": "Planowanie majątku",
+          "content": "Zaplanuj zapisy i zapewnij bezpieczeństwo finansowe beneficjentom."
+        },
+        {
+          "heading": "Planowanie dochodów",
+          "content": "Określ najlepszy harmonogram wypłat, aby utrzymać stały przepływ środków pieniężnych."
+        }
+      ]
+    },
+    {
+      "heading": "Korzyści z korzystania z naszego kalkulatora wypłat renty",
+      "subSections": [
+        {
+          "heading": "Dokładne szacunki",
+          "content": "Uzyskaj dokładne obliczenia dla stałych wypłat rent, rent jednoosobowych i rent wspólnych."
+        },
+        {
+          "heading": "Elastyczność",
+          "content": "Obsługuje wiele opcji wypłat, w tym płatności ryczałtowe, miesięczne i roczne."
+        },
+        {
+          "heading": "Wygoda",
+          "content": "Dostępne online, bezpłatnie, jako arkusz Excel, plik PDF lub aplikacja mobilna."
+        },
+        {
+          "heading": "Łatwe planowanie",
+          "content": "Pomaga emerytom, doradcom finansowym i agentom ubezpieczeniowym wizualizować potencjalne dochody i odpowiednio je planować."
+        }
+      ]
+    },
+    {
+      "heading": "Opcje kalkulatora",
+      "subSections": [
+        {
+          "heading": "W Internecie",
+          "content": "Korzystaj bezpośrednio z przeglądarki."
+        },
+        {
+          "heading": "Darmowa wersja",
+          "content": "Proste i szybkie obliczenia."
+        },
+        {
+          "heading": "Przewyższać",
+          "content": "Do pobrania w celu szczegółowej analizy."
+        },
+        {
+          "heading": "PDF",
+          "content": "Wersja do druku do użytku offline."
+        },
+        {
+          "heading": "Aplikacja",
+          "content": "Dostęp z dowolnego miejsca na urządzeniu mobilnym."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator wypłaty renty?",
+      "a": "Jest to narzędzie, które szacuje dochód, jaki otrzymasz z renty, w oparciu o takie czynniki, jak czas trwania wypłaty, stopy procentowe i kwota inwestycji."
+    },
+    {
+      "q": "Jak działa stała wypłata renty?",
+      "a": "Stała renta zapewnia gwarantowany, stabilny dochód w okresie wypłaty, co jest idealne do przewidywalnego planowania emerytalnego."
+    },
+    {
+      "q": "Czy mogę obliczyć miesięczne płatności renty?",
+      "a": "Tak, kalkulator pozwala wyliczyć miesięczną wysokość raty dożywotniej dla dowolnej opcji wypłaty."
+    },
+    {
+      "q": "Jaka jest różnica między rentami na życie jednoosobowe i rentami na życie wspólne?",
+      "a": "Życie w pojedynkę pokrywa całe życie jednej osoby, natomiast życie wspólne obejmuje dwie osoby, zazwyczaj małżonków."
+    },
+    {
+      "q": "Czy mogę używać tego kalkulatora do planowania podatkowego?",
+      "a": "Absolutnie. Pomaga oszacować dochód i zrozumieć potencjalne konsekwencje podatkowe różnych strategii rent dożywotnich."
+    },
+    {
+      "q": "Czy to narzędzie jest odpowiednie dla rent 401(k) lub IRA?",
+      "a": "Tak, obsługuje planowanie rent dożywotnich dla 401(k), IRA i innych kont emerytalnych."
+    },
+    {
+      "q": "Czy mogę pobrać wyniki?",
+      "a": "Możesz zapisać obliczenia w formacie Excel lub PDF lub korzystać z aplikacji, aby mieć do nich stały dostęp."
+    },
+    {
+      "q": "Czy obsługuje płatności ryczałtowe?",
+      "a": "Tak, nasz kalkulator może oszacować wypłaty w przypadku inwestycji ryczałtowych lub składek bieżących."
+    },
+    {
+      "q": "Jaki jest harmonogram wypłat renty?",
+      "a": "Jest to plan określający, kiedy i ile będziesz wypłacał z renty w miarę upływu czasu."
+    },
+    {
+      "q": "Jak dokładny jest wzór wypłaty renty?",
+      "a": "Zapewnia bardzo dokładne szacunki, wykorzystując standardowe formuły finansowe dla wartości bieżących i przyszłych."
+    },
+    {
+      "q": "Czy doradcy finansowi mogą używać tego kalkulatora dla klientów?",
+      "a": "Tak, jest przeznaczony dla doradców finansowych, agentów ubezpieczeniowych i osób planujących emerytury, aby pomóc w planowaniu emerytury i dochodów."
+    },
+    {
+      "q": "Czy ten kalkulator jest darmowy?",
+      "a": "Tak, wersja online jest całkowicie darmowa i zawiera dodatkowe opcje w formacie Excel, PDF i obliczenia w aplikacji."
+    }
+  ]
+}

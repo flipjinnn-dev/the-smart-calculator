@@ -1,0 +1,131 @@
+{
+  "pageTitle": "Anorexic BMI Calculator",
+  "pageDescription": "Calculate BMI and assess anorexia nervosa severity using medical classification thresholds. Educational tool for understanding BMI ranges and health implications.",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Weight",
+      "unitSystem": "Unit System"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}"
+    },
+    "buttons": {
+      "calculate": "Calculate BMI",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    }
+  },
+  "results": {
+    "bmiValue": "BMI kg/m²",
+    "classification": "Classification",
+    "healthyRange": "Healthy Range",
+    "bmiResultsTitle": "BMI Results",
+    "bmiFormula": {
+      "label": "BMI Formula",
+      "us": "BMI = (weight in lb / (height in inches)²) × 703",
+      "metric": "BMI = weight in kg / (height in meters)²"
+    },
+    "healthyBmiRange": "Healthy BMI Range: 18.5 – 25 kg/m²"
+  },
+  "educational": {
+    "classifications": "BMI Classifications",
+    "criticalWarnings": "Critical Warnings",
+    "importantNotes": "Important Notes",
+    "healthyRange": "Healthy BMI Range",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Seek Professional Help",
+    "bmiClassifications": {
+      "normal": {
+        "title": "Normal",
+        "description": "BMI ≥ 18.5 - Does not suggest anorexia"
+      },
+      "mildAnorexia": {
+        "title": "Mild Anorexia",
+        "description": "BMI 17.0 - 17.49"
+      },
+      "moderateAnorexia": {
+        "title": "Moderate Anorexia",
+        "description": "BMI 16.0 - 16.99"
+      },
+      "severeAnorexia": {
+        "title": "Severe Anorexia",
+        "description": "BMI 15.0 - 15.99"
+      },
+      "extremeAnorexia": {
+        "title": "Extreme Anorexia",
+        "description": "BMI < 15.0"
+      }
+    },
+    "criticalWarningsList": {
+      "organFailure": "BMI < 13.5: Risk of organ failure",
+      "lifeThreatening": "BMI < 12: Life-threatening condition"
+    },
+    "importantNotesList": [
+      "BMI alone is not sufficient for diagnosing anorexia nervosa",
+      "Clinical assessment requires psychological evaluation",
+      "Age, muscle mass, and bone density affect BMI interpretation",
+      "For children ≤20 years, use CDC growth charts"
+    ],
+    "healthyRangeDetails": {
+      "title": "18.5 – 25 kg/m²",
+      "description": "is considered the healthy BMI range for adults.",
+      "association": "This range is associated with the lowest risk of health problems and mortality."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Enter your measurements to calculate BMI and assess anorexia severity",
+    "doesNotSuggestAnorexia": "Does not suggest anorexia nervosa.",
+    "suggestsAnorexia": "Your BMI suggests possible anorexia (Severity: {severity}). Note: BMI alone is not a diagnosis.",
+    "lifeThreateningCondition": "Life-threatening condition — seek immediate medical care.",
+    "riskOfOrganFailure": "Danger: Risk of organ failure.",
+    "ageWarning": "For children and adolescents (≤20 years), use CDC growth charts for proper BMI interpretation.",
+    "assessmentResult": "Assessment Result:",
+    "bmiAnalysis": "BMI Analysis & Anorexia Assessment"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator is for informational purposes only. BMI is one indicator and not a diagnosis. Consult a healthcare professional for proper assessment and treatment of eating disorders."
+  },
+  "seekHelp": {
+    "title": "Seek Professional Help",
+    "content": "If you or someone you know is struggling with eating disorders, please consult healthcare professionals. Early intervention and proper treatment are crucial for recovery."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight"
+  },
+  "tooltips": {
+    "age": "Age affects BMI interpretation for children/adolescents",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight"
+  },
+  "loading_0": "Loading...",
+  "error_loading_content_1": "Error loading content:",
+  "male_2": "Male",
+  "female_3": "Female",
+  "calculate_4": "Calculate",
+  "k_185_25_5": "18.5 - 25",
+  "enter_your_measurements_then_click_6": "Enter your measurements, then click",
+  "calculate_7": "Calculate",
+  "to_see_bmi_8": "to see BMI.",
+  "bmi_value_9": "BMI Value",
+  "kgm_10": "kg/m²",
+  "classification_11": "Classification",
+  "healthy_bmi_range_12": "Healthy BMI Range",
+  "k_185_25_13": "18.5 - 25",
+  "kgm_14": "kg/m²"
+}

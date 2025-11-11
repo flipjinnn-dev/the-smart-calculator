@@ -1,0 +1,136 @@
+{
+  "pageTitle": "Calculadora de Imposto de Renda",
+  "pageDescription": "Calcule o imposto de renda com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular Imposto de Renda",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo do imposto de renda"
+  },
+  "educational": {
+    "info": "Informações sobre imposto de renda",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de imposto de renda",
+        "description": "Informações sobre imposto de renda"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como o imposto de renda é calculado"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos do imposto de renda"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de imposto de renda",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular o imposto de renda",
+    "resultMessage": "Os resultados do cálculo do seu imposto de renda são mostrados abaixo",
+    "assessmentResult": "Resultado do Cálculo do Imposto de Renda:",
+    "analysis": "Análise de Imposto de Renda"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de imposto de renda com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "tax_calculator_0": "Calculadora de impostos",
+  "basic_information_1": "Informações Básicas",
+  "filing_status_2": "Status de arquivamento",
+  "single_3": "Solteiro",
+  "married_filing_jointly_4": "Casado arquivando em conjunto",
+  "married_filing_separately_5": "Casado arquivando separadamente",
+  "head_of_household_6": "Chefe de família",
+  "qualified_widower_7": "Viúva(a) Qualificada(s)",
+  "tax_year_8": "Ano fiscal",
+  "k_2024_9": "2024",
+  "k_2025_10": "2025",
+  "young_dependents_016_11": "Dependentes Jovens (0-16)",
+  "other_dependents_17_12": "Outros Dependentes (17+)",
+  "person_1_income_13": "Renda da Pessoa 1",
+  "wages_tips_w2_box_1_14": "Salários e gorjetas (W-2 Caixa 1)",
+  "federal_tax_withheld_w2_box_2_15": "Imposto Federal Retido (W-2 Caixa 2)",
+  "state_tax_withheld_w2_box_17_16": "Imposto Estadual Retido (W-2 Caixa 17)",
+  "businessselfemployment_income_17": "Renda Empresarial/Autônomo",
+  "person_2_income_18": "Renda da Pessoa 2",
+  "wages_tips_w2_box_1_19": "Salários e gorjetas (W-2 Caixa 1)",
+  "federal_tax_withheld_w2_box_2_20": "Imposto Federal Retido (W-2 Caixa 2)",
+  "other_income_21": "Outras receitas",
+  "interest_income_1099int_22": "Receita de juros (1099-INT)",
+  "ordinary_dividends_1099div_23": "Dividendos Ordinários (1099-DIV)",
+  "qualified_dividends_1099div_24": "Dividendos Qualificados (1099-DIV)",
+  "longterm_capital_gains_25": "Ganhos de capital de longo prazo",
+  "other_income_26": "Outras receitas",
+  "deductions_credits_27": "Deduções e Créditos",
+  "ira_contributions_28": "Contribuições IRA",
+  "real_estate_tax_29": "Imposto imobiliário",
+  "mortgage_interest_30": "Juros hipotecários",
+  "charitable_donations_31": "Doações de caridade",
+  "calculate_32": "Calcular",
+  "tax_results_33": "Resultados fiscais",
+  "your_complete_tax_breakdown_34": "Sua análise tributária completa",
+  "adjusted_gross_income_35": "Lucro Bruto Ajustado",
+  "taxable_income_36": "Lucro tributável",
+  "federal_tax_owed_37": "Imposto Federal devido",
+  "selfemployment_tax_38": "Imposto sobre Trabalho Autônomo",
+  "total_tax_liability_39": "Responsabilidade Fiscal Total",
+  "tax_rates_40": "Taxas de imposto",
+  "effective_tax_rate_41": "Taxa efetiva de imposto",
+  "marginal_tax_rate_42": "Taxa marginal de imposto",
+  "deduction_used_43": "Dedução usada:",
+  "standard_44": "Padrão: $",
+  "itemized_45": "| Itemizado: $",
+  "enter_your_tax_information_to_see_your_results_46": "Insira suas informações fiscais para ver seus resultados",
+  "formulas_calculation_steps_47": "Fórmulas e etapas de cálculo",
+  "k_1_gross_income_48": "1. Renda Bruta",
+  "gross_wages_business_income_interest_dividends_cap_49": "Bruto = Salários + Renda Empresarial + Juros + Dividendos + Ganhos de Capital + Outras Receitas",
+  "k_2_adjusted_gross_income_agi_50": "2. Lucro Bruto Ajustado (AGI)",
+  "agi_gross_income_abovetheline_deductions_ira_stude_51": "AGI = Renda Bruta - Deduções Acima da Linha (IRA, Juros de Empréstimos Estudantis, etc.)",
+  "k_3_taxable_income_52": "3. Lucro tributável",
+  "taxable_income_agi_maxstandard_deduction_itemized__53": "Lucro tributável = AGI - máx (dedução padrão, deduções discriminadas)",
+  "k_4_federal_tax_54": "4. Imposto Federal",
+  "applied_using_progressive_tax_brackets_based_on_fi_55": "Aplicado usando faixas de imposto progressivas com base no status do pedido"
+}

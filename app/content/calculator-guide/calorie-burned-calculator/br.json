@@ -1,0 +1,119 @@
+{
+  "color": "laranja",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de calorias queimadas?",
+      "content": "Uma calculadora de calorias queimadas (também chamada de calculadora de calorias queimadas de atividade ou calculadora de calorias queimadas de treino) estima quantas calorias seu corpo usa durante a atividade física. Ajuda com:<br><br>- Monitoramento de perda de peso<br>- Planejamento de condicionamento físico<br>- Estimativa de atividade diária<br>- Comparação de exercícios (corrida, caminhada, ciclismo, natação, ioga, HIIT)"
+    },
+    {
+      "heading": "Como calcular calorias queimadas?",
+      "content": "A calculadora usa a fórmula:<br><br><strong>Calorias queimadas = MET × Peso (kg) × Duração (horas)</strong><br><br>- MET = Intensidade da atividade<br>- Peso = Peso corporal em kg ou lbs<br>- Duração = Tempo gasto em exercícios",
+      "subSections": [
+        {
+          "heading": "Exemplo de cálculo",
+          "content": "Correr a 8 km/h (MET 8,3) por 30 minutos com peso de 70 kg:<br><br><strong>8,3 × 70 × 0,5 = aproximadamente 290 calorias queimadas</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "Calorias queimadas por atividade (exemplos)",
+      "subSections": [
+        {
+          "heading": "Correndo (8 km/h)",
+          "content": "~580 calorias/hora"
+        },
+        {
+          "heading": "Caminhada (5 km/h)",
+          "content": "~280 calorias/hora"
+        },
+        {
+          "heading": "Ciclismo (moderado)",
+          "content": "~500 calorias/hora"
+        },
+        {
+          "heading": "Natação (estilo livre)",
+          "content": "~700 calorias/hora"
+        },
+        {
+          "heading": "Ioga",
+          "content": "~200 calorias/hora"
+        },
+        {
+          "heading": "Treino HIIT",
+          "content": "~750 calorias/hora"
+        },
+        {
+          "heading": "Treinamento de força",
+          "content": "~400 calorias/hora"
+        },
+        {
+          "heading": "Dança Zumba",
+          "content": "~450 calorias/hora"
+        },
+        {
+          "heading": "Corrida em esteira",
+          "content": "~600 calorias/hora"
+        },
+        {
+          "heading": "Treinador elíptico",
+          "content": "~550 calorias/hora"
+        }
+      ]
+    },
+    {
+      "heading": "Cálculo personalizado de calorias queimadas",
+      "subSections": [
+        {
+          "heading": "Por Peso",
+          "content": "Calculadora de calorias queimadas por peso (kg, lbs)."
+        },
+        {
+          "heading": "Por idade e sexo",
+          "content": "Ajusta os resultados com base na idade e no sexo."
+        },
+        {
+          "heading": "Por altura e peso",
+          "content": "Rastreamento mais preciso com medidas corporais."
+        },
+        {
+          "heading": "Por frequência cardíaca",
+          "content": "Calcula com base na intensidade e frequência cardíaca."
+        },
+        {
+          "heading": "Para indivíduos com excesso de peso",
+          "content": "Fornece estimativas de calorias mais precisas."
+        }
+      ]
+    },
+    {
+      "heading": "Uso Global e Relevância Local",
+      "content": "Esta calculadora funciona em todo o mundo (EUA, Reino Unido, Canadá, Austrália, Índia, Paquistão, Europa). Treinadores e aplicativos de fitness o utilizam para programas de perda de peso, exercícios de ginástica e planos de saúde personalizados."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como calcular as calorias queimadas durante o exercício?",
+      "a": "Utilize a fórmula: MET × Peso (kg) × Duração (horas) ou simplesmente insira seus dados em nossa calculadora."
+    },
+    {
+      "q": "Qual é a calculadora de queima de calorias mais precisa?",
+      "a": "Calculadoras precisas ajustam peso, idade, sexo, IMC e frequência cardíaca – como a nossa."
+    },
+    {
+      "q": "Quantas calorias são queimadas ao correr, caminhar, andar de bicicleta ou nadar?",
+      "a": "Corrida: 500–800/hora, Caminhada: 200–350/hora, Ciclismo: 400–700/hora, Natação: 500–900/hora."
+    },
+    {
+      "q": "Quantas calorias são queimadas em 30 minutos de exercício?",
+      "a": "Ioga: ~100, Caminhada: ~150, Corrida: ~300, HIIT: ~350–400."
+    },
+    {
+      "q": "Posso calcular as calorias diárias queimadas?",
+      "a": "Sim. Nossa calculadora diária de calorias queimadas estima o gasto de energia em todas as atividades."
+    },
+    {
+      "q": "O peso afeta as calorias queimadas?",
+      "a": "Sim, indivíduos mais pesados ​​queimam mais calorias por atividade em comparação com indivíduos mais leves."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "O que é Gasto Energético Diário Total (TDEE)?",
+      "content": "Seu gasto total diário de energia (TDEE) é o número total de calorias que seu corpo queima todos os dias, incluindo todas as atividades – desde descansar e dormir até caminhar, trabalhar e fazer exercícios. Conhecer o seu TDEE é essencial para um controle eficaz do peso, ganho muscular e planejamento geral do condicionamento físico."
+    },
+    {
+      "heading": "Como calcular o TDEE",
+      "content": "Usar nossa Calculadora TDEE Online é simples e preciso:",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Insira sua idade, sexo, peso e altura."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Selecione seu nível de atividade (Sedentário, Levemente Ativo, Moderadamente Ativo, Muito Ativo, Extra Ativo)."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Opcionalmente, insira sua% de gordura corporal para obter resultados mais precisos."
+        },
+        {
+          "heading": "Etapa 4",
+          "content": "Clique em 'Calcular TDEE' para obter instantaneamente suas necessidades diárias de calorias."
+        }
+      ]
+    },
+    {
+      "heading": "Fórmulas TDEE explicadas",
+      "subSections": [
+        {
+          "heading": "Fórmula Mifflin-St Jeor",
+          "content": "Melhor para a maioria dos usuários, estima o TDEE usando idade, sexo, altura e peso."
+        },
+        {
+          "heading": "Fórmula Katch-McArdle",
+          "content": "Ideal se você conhece o percentual de gordura corporal, pois calcula o TDEE com base na massa corporal magra."
+        }
+      ]
+    },
+    {
+      "heading": "Multiplicadores de atividades",
+      "content": "Depois de calcular a Taxa Metabólica Basal (TMB), a calculadora aplica um multiplicador de atividade:",
+      "subSections": [
+        {
+          "heading": "Sedentário",
+          "content": "1.2 (pouco ou nenhum exercício)"
+        },
+        {
+          "heading": "Levemente ativo",
+          "content": "1,375 (exercícios leves/esportes 1–3 dias/semana)"
+        },
+        {
+          "heading": "Moderadamente ativo",
+          "content": "1,55 (exercício moderado 3–5 dias/semana)"
+        },
+        {
+          "heading": "Muito ativo",
+          "content": "1,725 ​​(exercício intenso 6–7 dias/semana)"
+        },
+        {
+          "heading": "Extra ativo",
+          "content": "1,9 (exercício muito intenso ou trabalho físico)"
+        }
+      ]
+    },
+    {
+      "heading": "Como usar os resultados do TDEE",
+      "subSections": [
+        {
+          "heading": "Perda de peso",
+          "content": "Coma 10–20% menos calorias do que o seu TDEE."
+        },
+        {
+          "heading": "Manutenção",
+          "content": "Consuma calorias iguais ao seu TDEE."
+        },
+        {
+          "heading": "Ganho muscular",
+          "content": "Coma 10–20% acima do TDEE com treinamento de força."
+        }
+      ]
+    },
+    {
+      "heading": "TDEE versus BMR",
+      "content": "TMB (Taxa Metabólica Basal) são as calorias queimadas em repouso, enquanto TDEE inclui todas as atividades e exercícios. Conhecer ambos ajuda a ajustar sua dieta e plano de treinamento."
+    },
+    {
+      "heading": "Dicas para precisão",
+      "content": "Acompanhe o progresso ao longo do tempo e atualize o TDEE conforme seu peso, atividade ou composição corporal mudam. Combine o rastreamento TDEE com o monitoramento de macronutrientes para obter melhores resultados."
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é TDEE e por que é importante?",
+      "a": "TDEE é o total de calorias que seu corpo queima diariamente. Saber disso ajuda a planejar a perda de peso, manutenção ou ganho muscular."
+    },
+    {
+      "q": "Qual é a diferença entre TDEE e BMR?",
+      "a": "A TMB são as calorias queimadas em repouso, enquanto o TDEE inclui as calorias queimadas em atividades e exercícios."
+    },
+    {
+      "q": "Qual fórmula é melhor: Mifflin-St Jeor ou Katch-McArdle?",
+      "a": "Mifflin-St Jeor funciona melhor para a maioria das pessoas. Katch-McArdle é mais preciso se você souber o percentual de gordura corporal."
+    },
+    {
+      "q": "Quantas calorias devo comer para perder peso?",
+      "a": "Procure ficar 10–20% abaixo do seu TDEE para uma perda de gordura segura e sustentável."
+    },
+    {
+      "q": "O TDEE muda com o tempo?",
+      "a": "Sim, muda com o peso, composição corporal, nível de atividade e metabolismo."
+    },
+    {
+      "q": "Esta calculadora TDEE é gratuita?",
+      "a": "Sim, nossa calculadora TDEE online gratuita está disponível a qualquer momento e sem custo."
+    },
+    {
+      "q": "Como posso usar o TDEE para ganho muscular?",
+      "a": "Coma 10–20% acima do TDEE com treinamento de força para o crescimento de massa muscular magra."
+    },
+    {
+      "q": "Qual multiplicador de atividade devo escolher?",
+      "a": "Escolha aquele que mais se aproxima do seu estilo de vida diário e rotina de exercícios para obter melhor precisão."
+    },
+    {
+      "q": "Quão precisa é uma calculadora TDEE?",
+      "a": "Ele fornece estimativas. A precisão melhora se você incluir o percentual de gordura corporal e acompanhar o progresso real."
+    }
+  ]
+}

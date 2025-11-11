@@ -1,0 +1,162 @@
+{
+  "pageTitle": "Ruhestandsrechner",
+  "pageDescription": "Planen Sie Ihre Altersvorsorge und berechnen Sie die erforderlichen Beiträge, um Ihre Ruhestandsziele mit Inflations- und Kapitalrenditeprognosen zu erreichen",
+  "form": {
+    "labels": {
+      "currentAge": "Aktuelles Alter",
+      "retirementAge": "Geplantes Rentenalter",
+      "lifeExpectancy": "Lebenserwartung",
+      "currentSavings": "Aktuelle Altersvorsorge",
+      "annualSalary": "Aktuelles Jahresgehalt",
+      "salaryIncrease": "Erwartete jährliche Gehaltserhöhung",
+      "currentContribution": "Aktueller Jahresbeitrag",
+      "contributionIncrease": "Erwartete jährliche Beitragserhöhung",
+      "employerMatch": "Prozentsatz der Arbeitgeberübereinstimmung",
+      "investmentReturn": "Erwartete Anlagerendite",
+      "inflationRate": "Erwartete Inflationsrate",
+      "retirementIncome": "Gewünschtes jährliches Ruhestandseinkommen"
+    },
+    "placeholders": {
+      "currentAge": "Geben Sie Ihr aktuelles Alter ein",
+      "retirementAge": "Geben Sie Ihr geplantes Rentenalter ein",
+      "lifeExpectancy": "Geben Sie Ihre Lebenserwartung ein",
+      "currentSavings": "Geben Sie das aktuelle Altersguthaben ein",
+      "annualSalary": "Geben Sie Ihr aktuelles Jahresgehalt ein",
+      "salaryIncrease": "Geben Sie die erwartete jährliche Gehaltserhöhung (%) ein",
+      "currentContribution": "Geben Sie den aktuellen Jahresbeitrag ein",
+      "contributionIncrease": "Geben Sie die erwartete jährliche Beitragserhöhung (%) ein.",
+      "employerMatch": "Geben Sie den Prozentsatz der Arbeitgeberübereinstimmung (%) ein.",
+      "investmentReturn": "Geben Sie die erwartete Anlagerendite (%) ein.",
+      "inflationRate": "Geben Sie die erwartete Inflationsrate (%) ein.",
+      "retirementIncome": "Geben Sie das gewünschte jährliche Ruhestandseinkommen ein"
+    },
+    "buttons": {
+      "calculate": "Berechnen Sie den Ruhestandsbedarf",
+      "reset": "Zurücksetzen"
+    }
+  },
+  "results": {
+    "yearsToRetirement": "Jahre bis zur Rente",
+    "retirementSavings": "Voraussichtliche Altersvorsorge",
+    "retirementIncome": "Voraussichtliches jährliches Ruhestandseinkommen",
+    "incomeReplacement": "Einkommensersatzrate",
+    "shortfall": "Fehlende Altersvorsorge",
+    "requiredContribution": "Erforderlicher Jahresbeitrag",
+    "retirementResultsTitle": "Ergebnisse der Rentenberechnung"
+  },
+  "educational": {
+    "retirementInfo": "Informationen zur Altersvorsorge",
+    "criticalWarnings": "Wichtige Hinweise",
+    "importantNotes": "Weitere Informationen",
+    "disclaimer": "Wichtiger Haftungsausschluss",
+    "seekHelp": "Finanzielle Ressourcen",
+    "retirementFacts": {
+      "replacementRate": {
+        "title": "Einkommensersatzrate",
+        "description": "Die meisten Finanzplaner empfehlen, 70–90 % des Vorruhestandseinkommens zu ersetzen"
+      },
+      "socialSecurity": {
+        "title": "Sozialversicherungsleistungen",
+        "description": "Die Sozialversicherung ersetzt in der Regel etwa 40 % des Vorruhestandseinkommens für Durchschnittsverdiener"
+      },
+      "savingsRate": {
+        "title": "Richtlinien zur Sparquote",
+        "description": "Finanzexperten empfehlen, 10–15 % des Einkommens für den Ruhestand anzusparen"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen zur Ruhestandsplanung",
+      "actual": "Der tatsächliche Ruhestandsbedarf kann je nach Lebensstil, Gesundheitszustand und Marktbedingungen variieren"
+    },
+    "importantNotesList": [
+      "Beginnen Sie frühzeitig mit dem Sparen, um vom Zinseszins zu profitieren",
+      "Berücksichtigen Sie die Gesundheitskosten, die normalerweise mit zunehmendem Alter steigen",
+      "Planen Sie eine längere Lebensspanne ein, möglicherweise 20 bis 30 Jahre im Ruhestand",
+      "Überprüfen Sie Ihren Ruhestandsplan regelmäßig und passen Sie ihn an, wenn sich die Umstände ändern"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Geben Sie Ihre Altersvorsorgeinformationen ein, um den Sparbedarf zu berechnen",
+    "resultMessage": "Die Ergebnisse Ihrer Rentenberechnung werden unten angezeigt",
+    "assessmentResult": "Ergebnis der Rentenberechnung:",
+    "retirementAnalysis": "Ruhestandsanalyse"
+  },
+  "disclaimer": {
+    "title": "Wichtiger Haftungsausschluss",
+    "content": "Dieser Rechner liefert Schätzungen zur Ruhestandsplanung basierend auf mathematischen Prognosen. Der tatsächliche Ruhestandsbedarf kann je nach Lebensstil, Gesundheitskosten, Marktbedingungen und anderen Faktoren, die in diesen Berechnungen nicht berücksichtigt werden, erheblich variieren."
+  },
+  "seekHelp": {
+    "title": "Finanzielle Ressourcen",
+    "content": "Für eine individuelle Altersvorsorgeplanung und Anlageberatung wenden Sie sich an Finanzberater oder Altersvorsorgespezialisten mit Fachkenntnissen in der langfristigen Finanzplanung und individuellen Umständen."
+  },
+  "errors": {
+    "currentAge": "Bitte geben Sie ein gültiges aktuelles Alter ein",
+    "retirementAge": "Bitte geben Sie ein gültiges Renteneintrittsalter ein",
+    "lifeExpectancy": "Bitte geben Sie eine gültige Lebenserwartung ein",
+    "currentSavings": "Bitte geben Sie gültige aktuelle Altersguthaben ein",
+    "annualSalary": "Bitte geben Sie ein gültiges Jahresgehalt ein",
+    "salaryIncrease": "Bitte geben Sie eine gültige erwartete Gehaltserhöhung ein",
+    "currentContribution": "Bitte geben Sie einen gültigen aktuellen Beitrag ein",
+    "contributionIncrease": "Bitte geben Sie eine gültige erwartete Beitragserhöhung ein",
+    "employerMatch": "Bitte geben Sie einen gültigen Arbeitgeber-Match-Prozentsatz ein",
+    "investmentReturn": "Bitte geben Sie eine gültige erwartete Anlagerendite ein",
+    "inflationRate": "Bitte geben Sie eine gültige erwartete Inflationsrate ein",
+    "retirementIncome": "Bitte geben Sie einen gültigen Altersvorsorgewunsch ein"
+  },
+  "tooltips": {
+    "currentAge": "Ihr aktuelles Alter in Jahren",
+    "retirementAge": "Alter, in dem Sie in Rente gehen möchten",
+    "lifeExpectancy": "Erwartetes Lebensalter",
+    "currentSavings": "Aktueller Saldo auf Rentenkonten",
+    "annualSalary": "Ihr aktuelles Jahreseinkommen",
+    "salaryIncrease": "Erwartetes durchschnittliches jährliches Gehaltswachstum",
+    "currentContribution": "Betrag, den Sie derzeit jährlich einzahlen",
+    "contributionIncrease": "Voraussichtliche jährliche Beitragserhöhung",
+    "employerMatch": "Prozentsatz des Gehalts, der Ihrem Arbeitgeber entspricht",
+    "investmentReturn": "Erwartete durchschnittliche jährliche Kapitalrendite",
+    "inflationRate": "Erwartete durchschnittliche jährliche Inflationsrate",
+    "retirementIncome": "Im Ruhestand benötigtes Jahreseinkommen"
+  },
+  "your_current_age_0": "Ihr aktuelles Alter",
+  "your_planned_retirement_age_1": "Ihr geplantes Rentenalter",
+  "your_life_expectancy_2": "Ihre Lebenserwartung",
+  "current_annual_income_3": "Aktuelles Jahreseinkommen",
+  "expected_annual_income_increase_4": "Erwartete jährliche Einkommenssteigerung (%)",
+  "income_needed_after_retirement_5": "Benötigtes Einkommen nach der Pensionierung (%)",
+  "average_investment_return_6": "Durchschnittliche Anlagerendite (%)",
+  "inflation_rate_7": "Inflationsrate (%)",
+  "other_income_after_retirement_8": "Sonstiges Einkommen nach der Pensionierung",
+  "your_current_income_9": "Ihr aktuelles Einkommen",
+  "your_current_retirement_savings_10": "Ihr aktuelles Altersguthaben",
+  "your_age_now_11": "Du bist jetzt in deinem Alter",
+  "planned_retirement_age_12": "Geplantes Rentenalter",
+  "amount_needed_at_retirement_age_13": "Betrag, der im Rentenalter benötigt wird",
+  "retirement_savings_now_14": "Jetzt zur Altersvorsorge sparen",
+  "average_investment_return_year_15": "Durchschnittliche Anlagerendite (%/Jahr)",
+  "your_age_now_16": "Du bist jetzt in deinem Alter",
+  "planned_retirement_age_17": "Geplantes Rentenalter",
+  "life_expectancy_18": "Lebenserwartung",
+  "retirement_savings_today_19": "Altersvorsorge heute",
+  "annual_contribution_20": "Jährlicher Beitrag",
+  "monthly_contribution_21": "Monatlicher Beitrag",
+  "average_investment_return_year_22": "Durchschnittliche Anlagerendite (%/Jahr)",
+  "inflation_rate_year_23": "Inflationsrate (%/Jahr)",
+  "amount_you_have_24": "Betrag, den Sie haben",
+  "planned_monthly_withdrawal_25": "Geplante monatliche Auszahlung",
+  "average_investment_return_year_26": "Durchschnittliche Anlagerendite (%/Jahr)",
+  "home_27": "Heim",
+  "financial_28": "Finanziell",
+  "retirement_calculator_29": "Ruhestandsrechner",
+  "retirement_details_30": "Details zum Ruhestand",
+  "enter_your_retirement_information_below_31": "Geben Sie unten Ihre Renteninformationen ein",
+  "calculation_type_32": "Berechnungstyp",
+  "how_much_do_you_need_to_retire_33": "Wie viel brauchen Sie, um in den Ruhestand zu gehen?",
+  "how_can_you_save_for_retirement_34": "Wie kann man für den Ruhestand sparen?",
+  "how_much_can_you_withdraw_after_retirement_35": "Wie viel können Sie nach der Pensionierung abheben?",
+  "how_long_can_your_money_last_36": "Wie lange reicht Ihr Geld?",
+  "calculate_plan_37": "Plan berechnen",
+  "your_retirement_results_38": "Ihre Rentenergebnisse",
+  "see_your_retirement_calculation_results_here_39": "Sehen Sie sich hier die Ergebnisse Ihrer Rentenberechnung an",
+  "retirement_calculation_40": "Rentenberechnung",
+  "fill_in_your_details_and_click_calculate_see_your__41": "Geben Sie Ihre Daten ein und klicken Sie auf „Berechnen“, um Ihre Rentenergebnisse anzuzeigen"
+}

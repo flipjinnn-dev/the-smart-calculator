@@ -1,0 +1,193 @@
+{
+  "pageTitle": "Calculadora de acessibilidade de casa",
+  "pageDescription": "Determine quanta casa você pode pagar com base em suas receitas e despesas com uma análise abrangente, incluindo índices de dívida / renda e requisitos de pagamento inicial",
+  "form": {
+    "labels": {
+      "annualIncome": "Renda Bruta Anual",
+      "monthlyDebts": "Pagamentos mensais de dívidas",
+      "downPayment": "Pagamento inicial",
+      "downPaymentType": "Tipo de adiantamento",
+      "interestRate": "Taxa de juros hipotecária esperada",
+      "loanTerm": "Prazo do empréstimo",
+      "propertyTax": "Taxa anual de imposto sobre a propriedade",
+      "homeInsurance": "Seguro residencial anual",
+      "hoaFees": "Taxas mensais de HOA",
+      "otherHousingCosts": "Outros custos mensais de habitação"
+    },
+    "placeholders": {
+      "annualIncome": "Insira a renda bruta anual",
+      "monthlyDebts": "Insira o total de pagamentos mensais da dívida",
+      "downPayment": "Insira o pagamento inicial",
+      "interestRate": "Insira a taxa de juros esperada da hipoteca (%)",
+      "loanTerm": "Insira o prazo do empréstimo em anos",
+      "propertyTax": "Insira a taxa anual de imposto sobre a propriedade (%)",
+      "homeInsurance": "Insira o custo anual do seguro residencial",
+      "hoaFees": "Insira as taxas mensais de HOA",
+      "otherHousingCosts": "Insira outros custos mensais de habitação"
+    },
+    "buttons": {
+      "calculate": "Calcular a acessibilidade da casa",
+      "reset": "Reiniciar"
+    },
+    "downPaymentTypes": {
+      "amount": "Quantia",
+      "percentage": "Percentagem"
+    }
+  },
+  "results": {
+    "affordablePrice": "Preço de casa acessível",
+    "monthlyPayment": "Pagamento Mensal Estimado",
+    "principalAndInterest": "Principal e Juros",
+    "taxesAndInsurance": "Impostos e Seguros",
+    "totalHousingCost": "Custo total mensal de habitação",
+    "dtiRatio": "Rácio dívida / rendimento",
+    "houseAffordabilityResultsTitle": "Resultados de acessibilidade da casa"
+  },
+  "educational": {
+    "houseAffordabilityInfo": "Informações sobre acessibilidade da casa",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos financeiros",
+    "houseAffordabilityFacts": {
+      "rules": {
+        "title": "Regras de acessibilidade",
+        "description": "Regra 28/36: Custos de habitação ≤ 28% do rendimento bruto, Dívida total ≤ 36% do rendimento bruto"
+      },
+      "downPayment": {
+        "title": "Impacto do adiantamento",
+        "description": "Pagamentos iniciais maiores reduzem o valor do empréstimo e podem eliminar a exigência do PMI"
+      },
+      "dti": {
+        "title": "Rácio dívida / rendimento",
+        "description": "Os credores normalmente preferem índices de DTI abaixo de 43% para hipotecas qualificadas"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de acessibilidade da casa",
+      "actual": "A acessibilidade real pode variar com base na pontuação de crédito, políticas do credor e condições de mercado"
+    },
+    "importantNotesList": [
+      "Os credores consideram a pontuação de crédito, o histórico de emprego e os ativos, além da renda",
+      "Os custos de fechamento normalmente variam de 2 a 5% do preço da casa",
+      "Fundo de emergência deve cobrir 3 a 6 meses de despesas de habitação",
+      "Considere custos de manutenção de 1-3% do valor da casa anualmente"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira suas informações financeiras para determinar a acessibilidade da casa",
+    "resultMessage": "Os resultados do cálculo de acessibilidade da sua casa são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo de acessibilidade da casa:",
+    "houseAffordabilityAnalysis": "Análise de acessibilidade da casa"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de acessibilidade da casa com base em diretrizes financeiras gerais. A acessibilidade real pode variar com base na pontuação de crédito, nas políticas do credor, nas condições de mercado e em outros fatores não incluídos nesses cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financeiros",
+    "content": "Para análise personalizada de acessibilidade de casa e aconselhamento sobre hipotecas, consulte corretores de hipotecas ou consultores financeiros com experiência em empréstimos imobiliários e circunstâncias financeiras individuais."
+  },
+  "errors": {
+    "annualIncome": "Insira uma renda bruta anual válida",
+    "monthlyDebts": "Insira pagamentos de dívida mensais válidos",
+    "downPayment": "Insira um adiantamento válido",
+    "interestRate": "Insira uma taxa de juros hipotecária esperada válida",
+    "loanTerm": "Insira um prazo de empréstimo válido",
+    "propertyTax": "Insira uma taxa anual válida de imposto sobre a propriedade",
+    "homeInsurance": "Insira um custo de seguro residencial anual válido",
+    "hoaFees": "Insira taxas HOA mensais válidas",
+    "otherHousingCosts": "Insira outros custos de moradia mensais válidos",
+    "downPaymentType": "Selecione um tipo de adiantamento"
+  },
+  "tooltips": {
+    "annualIncome": "Sua renda bruta anual total antes de impostos",
+    "monthlyDebts": "Total de pagamentos mensais para todas as dívidas (empréstimos para automóveis, empréstimos estudantis, cartões de crédito, etc.)",
+    "downPayment": "Valor que você planeja pagar adiantado na compra de uma casa",
+    "downPaymentType": "Se o pagamento inicial é especificado como valor ou porcentagem",
+    "interestRate": "Taxa de juros anual esperada para empréstimos hipotecários",
+    "loanTerm": "Prazo para pagar a hipoteca (normalmente 15 ou 30 anos)",
+    "propertyTax": "Taxa anual de imposto sobre a propriedade avaliada pelo governo local",
+    "homeInsurance": "Custo anual do seguro residencial",
+    "hoaFees": "Taxas mensais para serviços da Associação de Proprietários de Residências",
+    "otherHousingCosts": "Outras despesas mensais relacionadas à habitação (serviços públicos, manutenção, etc.)"
+  },
+  "affordability_calculator_0": "Calculadora de acessibilidade",
+  "calculation_method_1": "Método de cálculo",
+  "how_would_you_like_to_calculate_2": "Como você gostaria de calcular?",
+  "based_on_income_debttoincome_ratios_3": "Com base nos índices de renda e dívida sobre renda",
+  "based_on_fixed_monthly_budget_4": "Com base no orçamento mensal fixo",
+  "income_debt_information_5": "Informações sobre receitas e dívidas",
+  "annual_gross_income_6": "Renda Bruta Anual",
+  "monthly_debt_payments_7": "Pagamentos mensais de dívidas",
+  "frontend_ratio_8": "Proporção de front-end (%)",
+  "housing_costs_as_of_gross_income_typically_28_9": "Custos de habitação como % da renda bruta (normalmente 28%)",
+  "backend_ratio_10": "Proporção de back-end (%)",
+  "total_debt_as_of_gross_income_typically_36_11": "Dívida total como% da receita bruta (normalmente 36%)",
+  "monthly_housing_budget_12": "Orçamento mensal de habitação",
+  "maximum_monthly_housing_payment_13": "Pagamento Máximo Mensal de Habitação",
+  "include_mortgage_taxes_insurance_and_hoa_fees_14": "Inclui hipoteca, impostos, seguros e taxas HOA",
+  "loan_property_details_15": "Detalhes do empréstimo e da propriedade",
+  "down_payment_16": "Pagamento inicial (%)",
+  "mortgage_interest_rate_17": "Taxa de juros hipotecários (%)",
+  "loan_term_years_18": "Prazo do empréstimo (anos)",
+  "k_15_years_19": "15 anos",
+  "k_20_years_20": "20 anos",
+  "k_25_years_21": "25 anos",
+  "k_30_years_22": "30 anos",
+  "property_tax_rate_23": "Taxa de imposto sobre a propriedade (%)",
+  "home_insurance_rate_24": "Taxa de seguro residencial (%)",
+  "hoa_fee_rate_25": "Taxa de HOA (%)",
+  "calculate_26": "Calcular",
+  "affordability_results_27": "Resultados de acessibilidade",
+  "how_much_house_you_can_afford_28": "Quanta casa você pode pagar",
+  "maximum_house_price_29": "Preço máximo da casa:",
+  "monthly_payment_breakdown_30": "Detalhamento do pagamento mensal",
+  "principal_interest_31": "Principal e Juros",
+  "property_tax_32": "Imposto sobre a propriedade",
+  "home_insurance_33": "Seguro Residencial",
+  "hoa_fees_34": "Taxas HOA",
+  "total_monthly_payment_35": "Pagamento Mensal Total",
+  "purchase_details_36": "Detalhes da compra",
+  "down_payment_required_37": "Adiantamento obrigatório",
+  "loan_amount_38": "Valor do empréstimo",
+  "housing_budget_used_39": "Orçamento Habitacional Utilizado:",
+  "this_calculation_assumes_40": "Este cálculo assume",
+  "down_payment_and_41": "% de entrada e",
+  "interest_rate_42": "% taxa de juro",
+  "enter_your_information_to_see_how_much_house_you_c_43": "Insira suas informações para ver quanta casa você pode pagar",
+  "how_much_house_can_i_afford_44": "Quanto posso pagar pela casa?",
+  "determining_how_much_house_you_can_afford_depends__45": "Determinar quanto de casa você pode pagar depende de vários fatores-chave, incluindo sua renda,\n                      dívidas existentes, entrada e taxas de hipoteca atuais. Os credores normalmente usam dois principais\n                      proporções para avaliar sua acessibilidade:",
+  "frontend_ratio_28_rule_46": "Proporção de front-end (regra de 28%):",
+  "your_total_housing_costs_should_not_exceed_28_of_y_47": "Seus custos totais de moradia não devem exceder 28% de\n                        sua renda mensal bruta",
+  "backend_ratio_36_rule_48": "Proporção de back-end (regra de 36%):",
+  "your_total_debt_payments_should_not_exceed_36_of_y_49": "O pagamento total da sua dívida não deve exceder 36% do\n                        sua renda mensal bruta",
+  "house_affordability_formulas_logic_50": "Fórmulas e lógica de acessibilidade doméstica",
+  "k_1_monthly_income_calculation_51": "1. Cálculo da Renda Mensal",
+  "monthly_income_annual_income_12_52": "Renda Mensal = Renda Anual ÷ 12",
+  "k_2_dti_ratio_limits_53": "2. Limites da relação DTI",
+  "frontend_max_monthly_income_frontend_ratio_54": "Front-End Max = Renda Mensal × Proporção Front-End",
+  "backend_max_monthly_income_backend_ratio_monthly_d_55": "Back-End Max = (Renda Mensal × Índice de Back-End) - Dívidas Mensais",
+  "k_3_housing_budget_56": "3. Orçamento Habitacional",
+  "max_housing_budget_minfrontend_max_backend_max_57": "Orçamento habitacional máximo = min (Front-End Max, Back-End Max)",
+  "k_4_monthly_mortgage_payment_58": "4. Pagamento mensal de hipoteca",
+  "m_l_r1rn_1rn_1_59": "M = L × [r(1+r)^n] / [(1+r)^n - 1]",
+  "where_l_loan_amount_r_monthly_rate_n_number_of_pay_60": "Onde: L = Valor do Empréstimo, r = Taxa Mensal, n = Número de Pagamentos",
+  "k_5_total_housing_cost_61": "5. Custo total de habitação",
+  "total_mortgage_property_tax_insurance_hoa_62": "Total = Hipoteca + Imposto sobre a Propriedade + Seguro + HOA",
+  "example_calculations_63": "Cálculos de exemplo",
+  "example_1_incomebased_calculation_64": "Exemplo 1: Cálculo Baseado em Renda",
+  "scenario_65": "Cenário:",
+  "k_100000_annual_income_500_monthly_debts_30year_mort_66": "Renda anual de US$ 100.000, dívidas mensais de US$ 500, hipoteca de 30 anos a 6%,\n                          20% de entrada",
+  "calculation_67": "Cálculo:",
+  "monthly_income_8333_frontend_max_2333_backend_max__68": "Renda mensal = $ 8.333, máximo de front-end = $ 2.333, máximo de back-end =\n                          US$ 2.500",
+  "result_69": "Resultado:",
+  "max_housing_budget_2333_affordable_house_420000_70": "Orçamento habitacional máximo = $ 2.333, Casa acessível ≈ $ 420.000",
+  "example_2_budgetbased_calculation_71": "Exemplo 2: Cálculo Baseado em Orçamento",
+  "scenario_72": "Cenário:",
+  "fixed_budget_of_2500month_same_loan_parameters_as__73": "Orçamento fixo de US$ 2.500/mês, mesmos parâmetros de empréstimo acima",
+  "calculation_74": "Cálculo:",
+  "housing_budget_2500_userdefined_75": "Orçamento habitacional = US$ 2.500 (definido pelo usuário)",
+  "result_76": "Resultado:",
+  "affordable_house_390000_77": "Casa acessível ≈ $ 390.000"
+}

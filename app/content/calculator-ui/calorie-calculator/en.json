@@ -1,0 +1,145 @@
+{
+  "pageTitle": "Calorie Calculator",
+  "pageDescription": "Calculate daily calorie needs based on your lifestyle, goals, and activity level for weight loss, maintenance, or muscle gain",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "weight": "Weight",
+      "height": "Height",
+      "unitSystem": "Unit System",
+      "activityLevel": "Activity Level",
+      "goal": "Weight Goal",
+      "calculationMethod": "Calculation Method"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}"
+    },
+    "buttons": {
+      "calculate": "Calculate Calories",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentary (little or no exercise)",
+      "light": "Lightly Active (light exercise 1-3 days/week)",
+      "moderate": "Moderately Active (moderate exercise 3-5 days/week)",
+      "active": "Very Active (hard exercise 6-7 days/week)",
+      "veryActive": "Extremely Active (very hard exercise & physical job)"
+    },
+    "goals": {
+      "lose": "Weight Loss",
+      "maintain": "Weight Maintenance",
+      "gain": "Weight Gain"
+    },
+    "calculationMethods": {
+      "mifflin": "Mifflin-St Jeor Equation",
+      "harris": "Harris-Benedict Equation",
+      "revisedHarris": "Revised Harris-Benedict Equation"
+    }
+  },
+  "results": {
+    "bmr": "Basal Metabolic Rate (BMR)",
+    "tdee": "Total Daily Energy Expenditure (TDEE)",
+    "calorieNeeds": "Daily Calorie Needs",
+    "calorieAdjustment": "Calorie Adjustment for Goal",
+    "calorieResultsTitle": "Calorie Results"
+  },
+  "educational": {
+    "calorieInfo": "Calorie Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Nutritional Resources",
+    "calorieFacts": {
+      "bmr": {
+        "title": "Basal Metabolic Rate (BMR)",
+        "description": "Calories needed to maintain basic bodily functions at rest"
+      },
+      "tdee": {
+        "title": "Total Daily Energy Expenditure (TDEE)",
+        "description": "Total calories burned in a day including activity and exercise"
+      },
+      "adjustments": {
+        "title": "Goal-Based Adjustments",
+        "description": "Weight loss: 500-1000 calories below TDEE, Weight gain: 250-500 calories above TDEE"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides calorie estimates only",
+      "individual": "Calorie needs vary based on individual factors and metabolism"
+    },
+    "importantNotesList": [
+      "These calculations are estimates and may need adjustment based on results",
+      "Rapid weight loss is not recommended and can be unhealthy",
+      "Consider consulting a healthcare professional before making significant dietary changes",
+      "Regular exercise is important for overall health regardless of weight goals"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your information to calculate daily calorie needs",
+    "resultMessage": "Your daily calorie needs are shown below",
+    "assessmentResult": "Calorie Calculation Result:",
+    "calorieAnalysis": "Calorie Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides calorie estimates based on mathematical formulas. Individual calorie needs may vary based on factors not accounted for in these calculations, including genetics, health conditions, and metabolism."
+  },
+  "seekHelp": {
+    "title": "Nutritional Resources",
+    "content": "For personalized nutrition advice and weight management plans, consult registered dietitians or healthcare professionals with expertise in nutritional science and individual health needs."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight",
+    "activityLevel": "Please select activity level",
+    "goal": "Please select a weight goal",
+    "calculationMethod": "Please select a calculation method"
+  },
+  "tooltips": {
+    "age": "Age affects metabolic rate",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "activityLevel": "Your regular activity level affects calorie needs",
+    "goal": "Your weight goal determines calorie adjustments",
+    "calculationMethod": "Different equations may produce slightly different results"
+  },
+  "personal_information_0": "Personal Information",
+  "enter_your_details_to_calculate_calorie_needs_1": "Enter your details to calculate calorie needs",
+  "age_2": "Age",
+  "gender_3": "Gender",
+  "male_4": "Male",
+  "female_5": "Female",
+  "height_cm_6": "Height (cm)",
+  "weight_kg_7": "Weight (kg)",
+  "activity_level_8": "Activity Level",
+  "sedentary_littleno_exercise_9": "Sedentary (little/no exercise)",
+  "light_light_exercise_13_daysweek_10": "Light (light exercise 1-3 days/week)",
+  "moderate_moderate_exercise_35_daysweek_11": "Moderate (moderate exercise 3-5 days/week)",
+  "active_hard_exercise_67_daysweek_12": "Active (hard exercise 6-7 days/week)",
+  "very_active_very_hard_exercise_physical_job_13": "Very Active (very hard exercise, physical job)",
+  "calculate_14": "Calculate",
+  "your_calorie_needs_15": "Your Calorie Needs",
+  "daily_calorie_requirements_for_different_goals_16": "Daily calorie requirements for different goals",
+  "maintenance_calories_17": "Maintenance Calories",
+  "calories_to_maintain_current_weight_18": "Calories to maintain current weight",
+  "weight_loss_1_lbweek_19": "Weight Loss (1 lb/week)",
+  "calories_20": "calories",
+  "weight_gain_1_lbweek_21": "Weight Gain (1 lb/week)",
+  "calories_22": "calories",
+  "basal_metabolic_rate_bmr_23": "Basal Metabolic Rate (BMR)",
+  "calories_24": "calories",
+  "enter_your_information_to_calculate_calorie_needs_25": "Enter your information to calculate calorie needs"
+}

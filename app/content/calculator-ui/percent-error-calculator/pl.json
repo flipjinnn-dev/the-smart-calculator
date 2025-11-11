@@ -1,0 +1,108 @@
+{
+  "pageTitle": "Kalkulator błędu procentowego",
+  "pageDescription": "Oblicz błąd procentowy między wartością szacunkową a wartością rzeczywistą",
+  "form": {
+    "labels": {
+      "estimatedValue": "Szacowana wartość",
+      "actualValue": "Rzeczywista wartość"
+    },
+    "placeholders": {
+      "estimatedValue": "Wpisz szacunkową wartość",
+      "actualValue": "Wprowadź rzeczywistą wartość"
+    },
+    "buttons": {
+      "calculate": "Oblicz błąd procentowy",
+      "reset": "Nastawić"
+    }
+  },
+  "results": {
+    "percentageError": "Błąd procentowy",
+    "absoluteError": "Absolutny błąd",
+    "relativeError": "Błąd względny",
+    "formula": "Zastosowana formuła",
+    "calculation": "Szczegóły obliczeń"
+  },
+  "educational": {
+    "errorInfo": "Informacje o błędzie procentowym",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby matematyczne",
+    "errorFacts": {
+      "definition": {
+        "title": "Definicja błędu procentowego",
+        "description": "Błąd procentowy mierzy rozbieżność między wartością szacunkową a wartością rzeczywistą wyrażoną w procentach"
+      },
+      "formula": {
+        "title": "Wzór obliczeniowy",
+        "description": "Błąd procentowy = (|Wartość szacunkowa - Wartość rzeczywista | / Wartość rzeczywista) × 100%"
+      },
+      "applications": {
+        "title": "Aplikacje w świecie rzeczywistym",
+        "description": "Używany w eksperymentach naukowych, pomiarach inżynieryjnych i kontroli jakości w celu oceny dokładności"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten umożliwia jedynie obliczenia błędu procentowego",
+      "actual": "Rzeczywisty błąd może się różnić w zależności od dokładności i metodologii pomiaru"
+    },
+    "importantNotesList": [
+      "Błąd procentowy jest zawsze wyrażany jako wartość dodatnia",
+      "Mniejszy błąd procentowy oznacza większą dokładność",
+      "Rzeczywista wartość nie powinna wynosić zero, aby uniknąć dzielenia przez zero",
+      "Wyniki pomagają ocenić wiarygodność pomiarów lub szacunków"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź szacunkowe i rzeczywiste wartości, aby obliczyć błąd procentowy",
+    "resultMessage": "Wyniki obliczenia błędu procentowego pokazano poniżej",
+    "assessmentResult": "Wynik obliczenia błędu procentowego:",
+    "errorAnalysis": "Analiza błędów"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten umożliwia obliczenia błędu procentowego w oparciu o standardowe wzory matematyczne. Rzeczywiste wartości błędów mogą się różnić w zależności od dokładności pomiaru, metodologii i innych czynników nieuwzględnionych w tych obliczeniach."
+  },
+  "seekHelp": {
+    "title": "Zasoby matematyczne",
+    "content": "Informacje na temat zaawansowanej analizy błędów i metod statystycznych można znaleźć w podręcznikach matematyki lub zasobach akademickich na temat analizy numerycznej i teorii pomiaru."
+  },
+  "errors": {
+    "estimatedValue": "Proszę wprowadzić prawidłową szacunkową wartość",
+    "actualValue": "Proszę wprowadzić prawidłową wartość rzeczywistą",
+    "zeroActual": "Rzeczywista wartość nie może wynosić zero"
+  },
+  "tooltips": {
+    "estimatedValue": "Wartość, którą oszacowałeś lub obliczyłeś",
+    "actualValue": "Prawdziwa lub zaakceptowana wartość do porównania"
+  },
+  "smart_calculator_0": "Inteligentny kalkulator",
+  "percent_error_calculator_1": "Kalkulator błędu procentowego",
+  "percent_error_calculator_2": "Kalkulator błędu procentowego",
+  "calculate_the_percent_error_between_a_measured_val_3": "Natychmiast oblicz błąd procentowy między wartością zmierzoną a wartością rzeczywistą.",
+  "percent_error_calculator_4": "Kalkulator błędu procentowego",
+  "enter_measured_and_actual_values_5": "Wprowadź zmierzone i rzeczywiste wartości",
+  "measured_value_6": "Zmierzona wartość",
+  "actual_value_7": "Rzeczywista wartość",
+  "calculate_8": "Obliczać",
+  "result_9": "Wynik",
+  "percent_error_10": "Błąd procentowy =",
+  "formula_11": "Formuła:",
+  "percent_error_vobserved_vtrue_vtrue_100_12": "Błąd procentowy = (Vobserved - Vtrue) / Vtrue × 100",
+  "observed_value_13": "Obserwowana wartość:",
+  "true_value_14": "Prawdziwa wartość:",
+  "percent_error_absolute_15": "Błąd procentowy (bezwzględny):",
+  "error_16": "% błąd",
+  "enter_values_and_click_17": "Wprowadź wartości i kliknij",
+  "calculate_18": "Obliczać",
+  "to_see_percent_error_19": "aby zobaczyć błąd procentowy.",
+  "how_to_use_this_calculator_20": "Jak korzystać z tego kalkulatora?",
+  "k_1_21": "1",
+  "enter_the_measured_value_22": "Wprowadź zmierzoną wartość.",
+  "k_2_23": "2",
+  "enter_the_actual_true_value_24": "Wprowadź rzeczywistą (prawdziwą) wartość.",
+  "k_3_25": "3",
+  "click_26": "Trzask",
+  "calculate_27": "Obliczać",
+  "to_see_the_percent_error_instantly_28": "aby natychmiast zobaczyć błąd procentowy."
+}

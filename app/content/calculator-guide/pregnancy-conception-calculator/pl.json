@@ -1,0 +1,137 @@
+{
+  "color": "różowy",
+  "sections": [
+    {
+      "heading": "Kalkulator poczęcia ciąży – znajdź datę poczęcia",
+      "content": "Ten kalkulator poczęcia ciąży pomaga oszacować datę poczęcia, dzień owulacji i przewidywany termin porodu na podstawie ostatniej miesiączki (LMP), długości cyklu, wyników USG lub szczegółów transferu IVF. Działa jako niezawodne narzędzie do szacowania daty poczęcia, zarówno w przypadku ciąż naturalnych, jak i rozrodu wspomaganego."
+    },
+    {
+      "heading": "Zastrzeżenie",
+      "content": "Kalkulator ten podaje ogólne szacunki i nie zastępuje porady lekarskiej. Zawsze potwierdzaj swoje daty u swojego lekarza."
+    },
+    {
+      "heading": "Jak działa kalkulator poczęcia ciąży?",
+      "content": "Internetowy kalkulator daty poczęcia ciąży szacuje, kiedy prawdopodobne jest zapłodnienie, odliczając wstecz od terminu porodu lub w przód od ostatniej miesiączki.",
+      "subSections": [
+        {
+          "heading": "Przez LMP",
+          "content": "Zakłada się, że owulacja następuje około 14 dni po rozpoczęciu ostatniej miesiączki."
+        },
+        {
+          "heading": "Według terminu",
+          "content": "Liczy około 38 tygodni wstecz od szacowanego terminu porodu (EDD)."
+        },
+        {
+          "heading": "Przez USG",
+          "content": "Wykorzystuje pomiary płodu, które są dokładniejsze we wczesnej ciąży."
+        },
+        {
+          "heading": "Przez zapłodnienie in vitro",
+          "content": "Oblicza na podstawie dokładnej daty transferu zarodka, aby uzyskać bardzo dokładne wyniki."
+        }
+      ]
+    },
+    {
+      "heading": "Wyjaśnienie osi czasu poczęcia",
+      "content": "Typowe etapy poczęcia i obliczania ciąży:",
+      "subSections": [
+        {
+          "heading": "Pierwszy dzień ostatniego okresu",
+          "content": "Dzień cyklu 1 – Odniesienie do kalkulatorów opartych na LMP."
+        },
+        {
+          "heading": "Okno owulacyjne",
+          "content": "Zwykle dzień cyklu 12–16 (w cyklu 28-dniowym)."
+        },
+        {
+          "heading": "Zapłodnienie (poczęcie)",
+          "content": "Występuje w ciągu 24 godzin od owulacji."
+        },
+        {
+          "heading": "Implantacja",
+          "content": "Występuje 6–12 dni po owulacji."
+        },
+        {
+          "heading": "Pozytywny test ciążowy",
+          "content": "Zwykle około 2 tygodnie po owulacji."
+        }
+      ]
+    },
+    {
+      "heading": "Kiedy używać kalkulatora",
+      "content": "To narzędzie jest przydatne w wielu scenariuszach:",
+      "subSections": [
+        {
+          "heading": "Naturalne śledzenie ciąży",
+          "content": "Oszacuj datę poczęcia na podstawie LMP lub długości cyklu."
+        },
+        {
+          "heading": "Nieregularne okresy",
+          "content": "Kalkulator poczęcia dostosowuje się do nieprawidłowości cykli."
+        },
+        {
+          "heading": "Obliczanie poczęcia IVF",
+          "content": "Na podstawie daty transferu zarodka (transfer dzień 3 lub dzień 5)."
+        },
+        {
+          "heading": "Randki na podstawie USG",
+          "content": "Dokładność opiera się na wczesnym USG."
+        },
+        {
+          "heading": "Bliźniaki lub wielokrotności",
+          "content": "Pomaga monitorować ciąże mnogie, chociaż data poczęcia pozostaje taka sama."
+        }
+      ]
+    },
+    {
+      "heading": "Dokładność kalkulatorów poczęcia",
+      "content": "Bezpłatny kalkulator poczęcia ciąży podaje szacunkową datę, a nie dokładną datę. Badanie USG w pierwszym trymestrze jest zwykle dokładniejsze niż szacunki oparte na LMP. Lekarze łączą historię cykli, badania ultrasonograficzne i dane medyczne, aby uzyskać większą dokładność. Kalkulatory poczęcia IVF są bardzo precyzyjne, ale mogą się nieznacznie różnić."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak działa kalkulator poczęcia ciąży?",
+      "a": "Oszacowuje datę poczęcia na podstawie ostatniej miesiączki, terminu porodu, długości cyklu lub danych USG."
+    },
+    {
+      "q": "Czy kalkulator może podać dokładny dzień poczęcia?",
+      "a": "Nie, podaje szacunkowe okno. Dokładnej koncepcji nie można określić."
+    },
+    {
+      "q": "Jak dokładne jest USG dla daty poczęcia?",
+      "a": "USG w pierwszym trymestrze jest najbardziej niezawodną metodą datowania ciąży."
+    },
+    {
+      "q": "Czy nieregularne cykle mogą mieć wpływ na moją szacunkową datę poczęcia?",
+      "a": "Tak. Nieregularne cykle utrudniają prognozowanie, dlatego ultradźwięki są dokładniejsze."
+    },
+    {
+      "q": "Jak oblicza się datę poczęcia IVF?",
+      "a": "Opiera się na dacie transferu zarodka i stadium zarodka (transfer 3. lub 5. dnia)."
+    },
+    {
+      "q": "Jaka jest różnica między datą poczęcia a datą owulacji?",
+      "a": "Owulacja ma miejsce w momencie uwolnienia komórki jajowej. Do poczęcia dochodzi, gdy plemnik zapłodni komórkę jajową wkrótce po owulacji."
+    },
+    {
+      "q": "Dlaczego mój termin porodu różni się od terminu USG?",
+      "a": "Ultradźwięki często korygują szacunki oparte na LMP, szczególnie jeśli cykle są nieregularne."
+    },
+    {
+      "q": "Czy mogę skorzystać z kalkulatora poczęcia, jeśli nie znam mojego LMP?",
+      "a": "Tak. Zamiast tego możesz użyć daty USG lub terminu porodu."
+    },
+    {
+      "q": "Czy bliźnięta lub wielokrotności zmieniają sposób obliczania daty poczęcia?",
+      "a": "Nie. Data poczęcia pozostaje taka sama, ale przebieg ciąży i daty porodu mogą się różnić."
+    },
+    {
+      "q": "Czy mam pewność, że mój termin porodu jest prawidłowy?",
+      "a": "Nie. Termin porodu jest jedynie szacunkowy i większość dzieci nie rodzi się dokładnie w tym dniu."
+    }
+  ],
+  "cta": {
+    "heading": "Znajdź swoją datę poczęcia już dziś",
+    "content": "Skorzystaj z naszego bezpłatnego kalkulatora poczęcia ciąży, aby oszacować datę poczęcia, dzień owulacji i termin porodu. Uzyskaj dokładne informacje na podstawie naturalnej ciąży, badania USG lub śledzenia zapłodnienia in vitro."
+  }
+}

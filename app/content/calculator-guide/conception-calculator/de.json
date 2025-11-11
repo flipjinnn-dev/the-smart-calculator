@@ -1,0 +1,130 @@
+{
+  "color": "lila",
+  "sections": [
+    {
+      "heading": "Was ist ein Konzeptionsrechner?",
+      "content": "Ein Empfängnisrechner hilft Ihnen, Ihre fruchtbarsten Tage, den wahrscheinlichen Empfängnistermin und den erwarteten Geburtstermin basierend auf Ihrem Menstruationszyklus abzuschätzen. Durch die Analyse Ihrer letzten Menstruation (LMP), der Zykluslänge und des Zeitpunkts des Eisprungs unterstützt Sie dieses Tool bei der sicheren Planung Ihrer Schwangerschaft."
+    },
+    {
+      "heading": "So funktioniert der Konzeptionsrechner",
+      "subSections": [
+        {
+          "heading": "Letzte Menstruationsperiode (LMP)",
+          "content": "Geben Sie den ersten Tag Ihrer letzten Periode ein."
+        },
+        {
+          "heading": "Zykluslänge",
+          "content": "Geben Sie die durchschnittliche Anzahl der Tage zwischen Ihren Perioden an."
+        },
+        {
+          "heading": "Tag des Eisprungs",
+          "content": "Wird automatisch basierend auf Ihrer Zykluslänge geschätzt."
+        },
+        {
+          "heading": "Fruchtbares Fenster",
+          "content": "Identifiziert die Tage, an denen die Empfängniswahrscheinlichkeit am höchsten ist."
+        },
+        {
+          "heading": "Tage der höchsten Fruchtbarkeit",
+          "content": "Hebt die besten Tage zum Empfängnis hervor."
+        },
+        {
+          "heading": "Geschätzte Empfängnis- und Fälligkeitstermine",
+          "content": "Gibt Ihr wahrscheinliches Empfängnisdatum und das voraussichtliche Geburtsdatum an."
+        }
+      ]
+    },
+    {
+      "heading": "Warum einen Empfängnisrechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Maximieren Sie die Empfängnischancen",
+          "content": "Wählen Sie die besten Tage für die Empfängnis aus, um höhere Erfolgsraten zu erzielen."
+        },
+        {
+          "heading": "Fruchtbarkeitsfenster verstehen",
+          "content": "Erfahren Sie, wann Sie für eine natürliche Empfängnis am fruchtbarsten sind."
+        },
+        {
+          "heading": "Genaue Schwangerschaftsplanung",
+          "content": "Schätzen Sie sowohl das Empfängnisdatum als auch das Fälligkeitsdatum."
+        },
+        {
+          "heading": "Persönliche Beratung",
+          "content": "Passt sich unregelmäßigen Zyklen und altersbedingten Fruchtbarkeitsfaktoren an."
+        },
+        {
+          "heading": "Bequemlichkeit",
+          "content": "Schnell, kostenlos und jederzeit leicht zugänglich."
+        }
+      ]
+    },
+    {
+      "heading": "Tipps für eine erfolgreiche Empfängnis",
+      "subSections": [
+        {
+          "heading": "Verfolgen Sie die Anzeichen des Eisprungs",
+          "content": "Achten Sie auf Veränderungen des Zervixschleims und der Basaltemperatur."
+        },
+        {
+          "heading": "Behalten Sie einen gesunden Lebensstil bei",
+          "content": "Ausgewogene Ernährung, Bewegung und ausreichend Schlaf verbessern die Fruchtbarkeit."
+        },
+        {
+          "heading": "Planen Sie den Geschlechtsverkehr an fruchtbaren Tagen",
+          "content": "Konzentrieren Sie sich auf Ihre fruchtbarsten Tage, um die besten Chancen zu haben."
+        },
+        {
+          "heading": "Stress bewältigen",
+          "content": "Senken Sie den Stresspegel, um den Hormonhaushalt und die Fruchtbarkeit zu unterstützen."
+        },
+        {
+          "heading": "Verwenden Sie Fruchtbarkeitstools",
+          "content": "Kombinieren Sie es mit Trackern oder Apps für eine kontinuierliche Überwachung."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Konzeptionsrechner?",
+      "a": "Es schätzt Ihre fruchtbaren Tage und den wahrscheinlichen Empfängnistermin basierend auf Ihrem Menstruationszyklus und dem Zeitpunkt des Eisprungs."
+    },
+    {
+      "q": "Wie genau ist ein Empfängnisterminrechner?",
+      "a": "Es ist bei regelmäßigen Zyklen sehr zuverlässig, bei unregelmäßigen Zyklen nimmt die Genauigkeit jedoch ab."
+    },
+    {
+      "q": "Kann ich online einen kostenlosen Empfängnisrechner verwenden?",
+      "a": "Ja, unser Tool ist völlig kostenlos und einfach zu verwenden."
+    },
+    {
+      "q": "Wie berechne ich meinen Empfängnistermin?",
+      "a": "Geben Sie Ihren LMP und die Zykluslänge ein; Der Rechner schätzt den Eisprung, das fruchtbare Fenster und das Empfängnisdatum."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen einem Empfängnisrechner und einem Eisprungrechner?",
+      "a": "Eisprungrechner sagen nur den Eisprung voraus. Empfängnisrechner schätzen auch die fruchtbaren Tage und den Geburtstermin."
+    },
+    {
+      "q": "Kann dieses Tool bei unregelmäßigen Zyklen helfen?",
+      "a": "Ja, es passt die Berechnungen für unregelmäßige Zyklen an, um möglichst genaue Ergebnisse zu liefern."
+    },
+    {
+      "q": "Was sind die besten Tage, um schwanger zu werden?",
+      "a": "Die 5 Tage vor dem Eisprung und der Tag des Eisprungs selbst sind die Tage mit der höchsten Fruchtbarkeit."
+    },
+    {
+      "q": "Wie wird das fruchtbare Fenster berechnet?",
+      "a": "Es basiert auf dem Zeitpunkt des Eisprungs, dem Überleben der Spermien (bis zu 5 Tage) und der Verfügbarkeit von Eizellen."
+    },
+    {
+      "q": "Kann ich die Empfängniswahrscheinlichkeit nach Alter verfolgen?",
+      "a": "Ja, einige fortgeschrittene Rechner berücksichtigen das Alter, um genauere Einblicke in die Fruchtbarkeit zu erhalten."
+    },
+    {
+      "q": "Sollte ich einen Empfängnisrechner im Vergleich zu anderen Fruchtbarkeitstools verwenden?",
+      "a": "Ein Empfängnisrechner eignet sich am besten für die Schwangerschaftsplanung, da er den Eisprung, das fruchtbare Fenster und die Schätzung des Geburtstermins kombiniert."
+    }
+  ]
+}

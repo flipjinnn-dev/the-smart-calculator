@@ -1,0 +1,239 @@
+{
+  "pageTitle": "Kalkulator TDEE",
+  "pageDescription": "Oblicz swoje całkowite dzienne wydatki energetyczne (TDEE), aby określić całkowitą liczbę kalorii spalanych w ciągu dnia, łącznie z aktywnością i ćwiczeniami",
+  "form": {
+    "labels": {
+      "age": "Wiek (lata)",
+      "gender": "Płeć",
+      "weight": "Waga",
+      "height": "Wysokość",
+      "unitSystem": "Układ jednostek",
+      "activityLevel": "Poziom aktywności",
+      "calculationMethod": "Metoda obliczeniowa"
+    },
+    "placeholders": {
+      "age": "Wpisz wiek",
+      "heightFt": "Stopy",
+      "heightIn": "Cale",
+      "heightCm": "Podaj wzrost w cm",
+      "weight": "Wprowadź wagę w {jednostce}"
+    },
+    "buttons": {
+      "calculate": "Oblicz TDEE",
+      "reset": "Nastawić"
+    },
+    "unitSystems": {
+      "us": "Jednostki amerykańskie (ft/in, funt)",
+      "metric": "Jednostki metryczne (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Siedzący tryb życia (mało ćwiczeń lub ich brak, praca przy biurku)",
+      "light": "Lekko aktywny (lekkie ćwiczenia 1-3 dni w tygodniu)",
+      "moderate": "Umiarkowanie aktywny (umiarkowane ćwiczenia 3-5 dni w tygodniu)",
+      "active": "Bardzo aktywny (ciężkie ćwiczenia 6-7 dni w tygodniu)",
+      "veryActive": "Niezwykle aktywny (bardzo ciężkie ćwiczenia, praca fizyczna, sportowiec)"
+    },
+    "calculationMethods": {
+      "mifflin": "Równanie Mifflina-St Jeora",
+      "harris": "Równanie Harrisa-Benedykta",
+      "revisedHarris": "Poprawione równanie Harrisa-Benedykta"
+    }
+  },
+  "results": {
+    "bmr": "Podstawowa przemiana materii (BMR)",
+    "tdee": "Całkowite dzienne wydatki na energię (TDEE)",
+    "activityMultiplier": "Mnożnik aktywności",
+    "tdeeResultsTitle": "Wyniki TDEE"
+  },
+  "educational": {
+    "tdeeInfo": "Informacje TDEE",
+    "criticalWarnings": "Ważne uwagi",
+    "importantNotes": "Dodatkowe informacje",
+    "disclaimer": "Ważne zastrzeżenie",
+    "seekHelp": "Zasoby odżywcze",
+    "tdeeFacts": {
+      "definition": {
+        "title": "Definicja całkowitego dziennego wydatku energetycznego",
+        "description": "TDEE to całkowita liczba kalorii spalanych w ciągu dnia, obejmująca BMR, aktywność i ćwiczenia"
+      },
+      "components": {
+        "title": "Komponenty TDEE",
+        "description": "BMR (60-75%), Efekt termiczny żywności (10%), Aktywność i ćwiczenia (15-30%)"
+      },
+      "usage": {
+        "title": "Użycie TDEE",
+        "description": "TDEE służy do określania kalorii potrzebnych do utrzymania i dostosowania do celów wagowych"
+      }
+    },
+    "activityMultipliers": {
+      "sedentary": {
+        "title": "Siedzący tryb życia (1.2)",
+        "description": "Mało ćwiczeń lub ich brak, praca przy biurku"
+      },
+      "light": {
+        "title": "Lekko aktywny (1.375)",
+        "description": "Lekkie ćwiczenia 1-3 dni w tygodniu"
+      },
+      "moderate": {
+        "title": "Umiarkowanie aktywny (1,55)",
+        "description": "Umiarkowane ćwiczenia 3-5 dni w tygodniu"
+      },
+      "active": {
+        "title": "Bardzo aktywny (1,725)",
+        "description": "Ciężkie ćwiczenia 6-7 dni w tygodniu"
+      },
+      "veryActive": {
+        "title": "Niezwykle aktywny (1.9)",
+        "description": "Bardzo ciężkie ćwiczenia, praca fizyczna lub sportowiec"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Kalkulator ten podaje jedynie szacunki TDEE",
+      "individual": "TDEE różni się w zależności od indywidualnych czynników i rzeczywistego poziomu aktywności"
+    },
+    "importantNotesList": [
+      "TDEE jest wartością szacunkową i może wymagać korekty w oparciu o rzeczywiste zmiany masy",
+      "Poziomy aktywności są często zawyżone, więc bądź uczciwy w swojej ocenie",
+      "TDEE należy dostosować do celów utraty lub przyrostu masy ciała",
+      "Regularne monitorowanie masy ciała i poziomu energii może pomóc w dostosowaniu szacunków TDEE"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Wprowadź swoje dane, aby obliczyć całkowite dzienne wydatki na energię",
+    "resultMessage": "Twój TDEE jest pokazany poniżej",
+    "assessmentResult": "Wynik obliczenia TDEE:",
+    "tdeeAnalysis": "Analiza TDEE"
+  },
+  "disclaimer": {
+    "title": "Ważne zastrzeżenie",
+    "content": "Kalkulator ten zapewnia szacunki TDEE w oparciu o wzory matematyczne. Poszczególne TDEE mogą się różnić w zależności od czynników nieuwzględnionych w tych obliczeniach, w tym rzeczywistego poziomu aktywności, metabolizmu i stanu zdrowia."
+  },
+  "seekHelp": {
+    "title": "Zasoby odżywcze",
+    "content": "Aby uzyskać spersonalizowaną ocenę wydatków energetycznych i porady żywieniowe, skonsultuj się z pracownikami służby zdrowia lub zarejestrowanymi dietetykami posiadającymi wiedzę specjalistyczną w zakresie testów metabolicznych i indywidualnych potrzeb zdrowotnych."
+  },
+  "errors": {
+    "age": "Proszę podać prawidłowy wiek (1-120)",
+    "gender": "Proszę wybrać płeć",
+    "heightFt": "Proszę wprowadzić prawidłowe stopy",
+    "heightIn": "Proszę wprowadzić prawidłowe cale (0-11)",
+    "heightCm": "Proszę podać prawidłowy wzrost w cm",
+    "weight": "Proszę wprowadzić prawidłową wagę",
+    "activityLevel": "Proszę wybrać poziom aktywności",
+    "calculationMethod": "Wybierz metodę obliczeń"
+  },
+  "tooltips": {
+    "age": "Wiek wpływa na tempo metabolizmu",
+    "height": "Twój aktualny pomiar wzrostu",
+    "weight": "Twoja aktualna masa ciała",
+    "activityLevel": "Twój regularny poziom aktywności wpływa na TDEE",
+    "calculationMethod": "Różne równania mogą dawać nieco inne wyniki"
+  },
+  "tdee_calculation_0": "Obliczanie TDEE",
+  "enter_your_details_to_calculate_your_total_daily_e_1": "Wprowadź swoje dane, aby obliczyć całkowite dzienne wydatki na energię",
+  "age_years_2": "Wiek (lata) *",
+  "gender_3": "Płeć *",
+  "male_4": "Mężczyzna",
+  "female_5": "Kobieta",
+  "height_6": "Wysokość *",
+  "metric_7": "Metryczny",
+  "us_8": "NAS",
+  "cm_9": "cm",
+  "ft_10": "stopy",
+  "in_11": "W",
+  "weight_12": "Waga *",
+  "metric_13": "Metryczny",
+  "us_14": "NAS",
+  "kg_15": "kg",
+  "lbs_16": "funty",
+  "activity_level_17": "Poziom aktywności *",
+  "sedentary_littleno_exercise_12_18": "Siedzący tryb życia (mała aktywność fizyczna lub brak ruchu) – 1,2",
+  "light_exercise_13week_1375_19": "Lekkie (ćwiczenia 1-3×/tydz.) – 1,375",
+  "moderate_exercise_45week_155_20": "Umiarkowany (ćwiczenia 4-5×/tydz.) – 1,55",
+  "active_daily_or_intense_34week_1725_21": "Aktywnie (codziennie lub intensywnie 3-4×/tydz.) – 1,725",
+  "very_active_intense_67week_19_22": "Bardzo aktywny (intensywne 6-7×/tydz.) – 1,9",
+  "extra_active_very_intense_daily_physical_job_20_23": "Extra Active (bardzo intensywna praca dzienna + praca fizyczna) - 2,0",
+  "bmr_formula_24": "Formuła BMR",
+  "mifflinst_jeor_default_25": "Mifflin-St Jeor (domyślnie)",
+  "katchmcardle_if_body_fat_available_26": "Katch-McArdle (jeśli dostępny jest procent tkanki tłuszczowej)",
+  "body_fat_27": "% tkanki tłuszczowej*",
+  "result_unit_28": "Jednostka wynikowa",
+  "calories_29": "Kalorie",
+  "kilojoules_30": "Kilodżule",
+  "calculate_31": "Obliczać",
+  "reset_32": "Nastawić",
+  "daily_energy_33": "Codzienna energia",
+  "tdee_34": "TDEE",
+  "enter_your_details_to_calculate_your_total_daily_e_35": "Wprowadź swoje dane, aby obliczyć całkowite dzienne wydatki na energię.",
+  "comprehensive_nutrition_results_36": "Kompleksowe wyniki żywienia",
+  "daily_protein_requirement_37": "Dzienne zapotrzebowanie na białko:",
+  "g_38": "g",
+  "percentage_of_total_calories_from_protein_39": "Procent całkowitych kalorii pochodzących z białka: ~",
+  "the_estimated_tdee_maintenance_energy_40": "Szacowany TDEE (energia konserwacyjna):",
+  "caloriesday_41": "Kalorie/dzień",
+  "bmr_42": "BMR:",
+  "caloriesday_43": "Kalorie/dzień",
+  "bmi_score_44": "Wynik BMI:",
+  "kgm_45": "kg/m² (",
+  "healthy_bmi_range_185_25_kgm_46": "Zdrowy zakres BMI: 18,5 – 25 kg/m²",
+  "energy_intake_to_lose_weight_47": "Spożycie energii, aby schudnąć:",
+  "mild_weight_loss_025_kgweek_48": "Łagodna utrata masy ciała (0,25 kg/tydzień):",
+  "k_90_caloriesday_49": "(90%) kalorii/dzień",
+  "weight_loss_05_kgweek_50": "Utrata masy ciała (0,5 kg/tydzień):",
+  "k_81_caloriesday_51": "(81%) kalorii/dzień",
+  "extreme_weight_loss_1_kgweek_52": "Ekstremalna utrata wagi (1 kg/tydzień):",
+  "k_61_caloriesday_53": "(61%) kalorii/dzień",
+  "energy_intake_to_gain_weight_54": "Spożycie energii w celu przybrania na wadze:",
+  "mild_weight_gain_025_kgweek_55": "Łagodny przyrost masy ciała (0,25 kg/tydzień):",
+  "k_110_caloriesday_56": "(110%) kalorii/dzień",
+  "weight_gain_05_kgweek_57": "Przyrost masy ciała (0,5 kg/tydzień):",
+  "k_119_caloriesday_58": "(119%) kalorii/dzień",
+  "fast_weight_gain_1_kgweek_59": "Szybki przyrost masy ciała (1 kg/tydzień):",
+  "k_139_caloriesday_60": "(139%) kalorii/dzień",
+  "understanding_your_comprehensive_results_61": "Zrozumienie kompleksowych wyników",
+  "protein_requirements_62": "Zapotrzebowanie na białko:",
+  "sedentary_08_gkg_body_weight_63": "Siedzący tryb życia: ~0,8 g/kg masy ciała",
+  "lightmoderate_1016_gkg_64": "Lekkie/umiarkowane: ~1,0–1,6 g/kg",
+  "heavy_training_1622_gkg_65": "Trening ciężki: ~1,6–2,2 g/kg",
+  "athletesmuscle_gain_up_to_25_gkg_66": "Sportowcy/Przyrost mięśni: do ~2,5 g/kg",
+  "weight_management_67": "Zarządzanie wagą:",
+  "safe_weight_loss_02505_kg_per_week_68": "Bezpieczna utrata wagi: 0,25-0,5 kg tygodniowo",
+  "extreme_loss_1_kgweek_requires_medical_supervision_69": "Ekstremalna utrata (1 kg/tydzień) wymaga nadzoru lekarskiego",
+  "gradual_weight_gain_prevents_excess_fat_accumulati_70": "Stopniowy przyrost masy ciała zapobiega gromadzeniu się nadmiernej tkanki tłuszczowej",
+  "monitor_progress_and_adjust_as_needed_71": "Monitoruj postęp i dostosowuj w razie potrzeby",
+  "about_tdee_72": "O TDEE",
+  "bmr_formulas_73": "Formuły BMR",
+  "mifflinst_jeor_recommended_74": "Mifflin-St Jeor (zalecane):",
+  "men_bmr_10weight_625height_5age_5_75": "Mężczyźni: BMR = 10×waga + 6,25×wzrost – 5×wiek + 5",
+  "women_bmr_10weight_625height_5age_161_76": "Kobiety: BMR = 10×waga + 6,25×wzrost - 5×wiek - 161",
+  "katchmcardle_77": "Katch-McArdle:",
+  "bmr_370_216_lean_body_mass_78": "BMR = 370 + (21,6 × beztłuszczowa masa ciała)",
+  "more_accurate_if_body_fat_is_known_79": "Bardziej dokładne, jeśli znany jest procent tkanki tłuszczowej",
+  "activity_multipliers_80": "Mnożniki aktywności",
+  "k_12_81": "1.2:",
+  "sedentary_desk_job_no_exercise_82": "Siedzący tryb pracy (praca przy biurku, bez ćwiczeń)",
+  "k_1375_83": "1,375:",
+  "light_exercise_13week_84": "Lekkie (ćwiczenia 1-3×/tydz.)",
+  "k_155_85": "1,55:",
+  "moderate_exercise_45week_86": "Umiarkowane (ćwiczenia 4-5×/tydz.)",
+  "k_1725_87": "1,725:",
+  "active_daily_exercise_or_intense_34week_88": "Aktywnie (codzienne ćwiczenia lub intensywne 3-4×/tydz.)",
+  "k_19_89": "1.9:",
+  "very_active_intense_exercise_67week_90": "Bardzo aktywny (intensywne ćwiczenia 6-7×/tydz.)",
+  "k_20_91": "2.0:",
+  "extra_active_very_intense_daily_physical_job_92": "Extra Active (bardzo intensywna praca dzienna + praca fizyczna)",
+  "using_your_tdee_93": "Korzystanie z TDEE",
+  "weight_loss_94": "Utrata wagi:",
+  "eat_300500_calories_below_tdee_95": "Jedz 300-500 kalorii poniżej TDEE",
+  "weight_maintenance_96": "Utrzymanie wagi:",
+  "eat_at_your_tdee_97": "Jedz w swoim TDEE",
+  "weight_gain_98": "Przyrost masy ciała:",
+  "eat_300500_calories_above_tdee_99": "Jedz 300-500 kalorii powyżej TDEE",
+  "muscle_building_100": "Budowanie mięśni:",
+  "eat_200300_calories_above_tdee_101": "Jedz 200-300 kalorii powyżej TDEE",
+  "important_notes_102": "Ważne uwagi",
+  "tdee_is_an_estimate_monitor_and_adjust_based_on_re_103": "TDEE to wartość szacunkowa — monitoruj i koryguj na podstawie wyników",
+  "muscle_mass_significantly_affects_metabolic_rate_104": "Masa mięśniowa znacząco wpływa na tempo przemiany materii",
+  "age_genetics_and_hormones_influence_actual_needs_105": "Wiek, genetyka i hormony wpływają na rzeczywiste potrzeby",
+  "recalculate_as_weight_and_activity_levels_change_106": "Oblicz ponownie, gdy zmieni się waga i poziom aktywności"
+}

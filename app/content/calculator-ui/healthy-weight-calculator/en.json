@@ -1,0 +1,181 @@
+{
+  "pageTitle": "Healthy Weight Calculator",
+  "pageDescription": "Calculate your healthy weight range based on height, age, and gender with our comprehensive healthy weight calculator",
+  "form": {
+    "labels": {
+      "age": "Age (years)",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Current Weight",
+      "unitSystem": "Unit System"
+    },
+    "placeholders": {
+      "age": "Enter age",
+      "heightFt": "Feet",
+      "heightIn": "Inches",
+      "heightCm": "Enter height in cm",
+      "weight": "Enter weight in {unit}"
+    },
+    "buttons": {
+      "calculate": "Calculate Healthy Weight",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "us": "US Units (ft/in, lb)",
+      "metric": "Metric Units (cm, kg)"
+    }
+  },
+  "results": {
+    "healthyWeightRange": "Healthy Weight Range",
+    "currentWeight": "Current Weight",
+    "healthyWeightTitle": "Healthy Weight Results",
+    "bmiFormula": {
+      "label": "BMI Formula",
+      "us": "BMI = (weight in lb / (height in inches)²) × 703",
+      "metric": "BMI = weight in kg / (height in meters)²"
+    },
+    "healthyBmiRange": "Healthy BMI Range: 18.5 – 25 kg/m²"
+  },
+  "educational": {
+    "healthyWeightInfo": "Healthy Weight Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Consult a Professional",
+    "healthyWeightMethods": {
+      "bmi": {
+        "title": "BMI Method",
+        "description": "Uses BMI ranges (18.5-24.9) to determine healthy weight"
+      },
+      "who": {
+        "title": "WHO Guidelines",
+        "description": "Based on World Health Organization recommendations for healthy weight ranges"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides estimates only and is not a diagnostic tool",
+      "individualVariation": "Healthy weight varies based on muscle mass, bone density, and body composition"
+    },
+    "importantNotesList": [
+      "These calculations provide general guidelines only",
+      "Athletes may have higher weight due to muscle mass",
+      "Consult healthcare professionals for personalized advice",
+      "Weight should be considered alongside other health metrics"
+    ],
+    "healthyRangeDetails": {
+      "title": "18.5 – 25 kg/m²",
+      "description": "is considered the healthy BMI range for adults.",
+      "association": "This range is associated with the lowest risk of health problems and mortality."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Enter your measurements to calculate your healthy weight range",
+    "healthyWeightRange": "Your healthy weight range is {min} - {max} {unit}",
+    "currentWeightStatus": "Your current weight is {status} the healthy range",
+    "belowRange": "below",
+    "withinRange": "within",
+    "aboveRange": "above",
+    "ageWarning": "For children and adolescents (≤20 years), use pediatric growth charts",
+    "assessmentResult": "Assessment Result:",
+    "weightAnalysis": "Weight Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides estimates based on mathematical formulas and should not be used as a substitute for professional medical advice. Individual results may vary based on factors not accounted for in these calculations."
+  },
+  "seekHelp": {
+    "title": "Consult a Healthcare Professional",
+    "content": "If you have concerns about your weight or health, please consult with a healthcare professional who can provide personalized advice based on your complete medical history and individual circumstances."
+  },
+  "errors": {
+    "age": "Please enter a valid age (1-120)",
+    "gender": "Please select gender",
+    "heightFt": "Please enter valid feet",
+    "heightIn": "Please enter valid inches (0-11)",
+    "heightCm": "Please enter valid height in cm",
+    "weight": "Please enter a valid weight"
+  },
+  "tooltips": {
+    "age": "Age can affect healthy weight calculations for children/adolescents",
+    "height": "Your current height measurement",
+    "weight": "Your current body weight",
+    "gender": "Different formulas may be used for men and women"
+  },
+  "weight_range_calculation_0": "Weight Range Calculation",
+  "enter_your_height_to_calculate_your_healthy_weight_1": "Enter your height to calculate your healthy weight range",
+  "unit_system_2": "Unit System",
+  "us_ftin_3": "US (ft/in)",
+  "metric_cm_4": "Metric (cm)",
+  "height_5": "Height",
+  "ft_6": "ft",
+  "in_7": "in",
+  "height_cm_8": "Height (cm)",
+  "age_requirement_9": "Age Requirement",
+  "this_calculator_is_intended_for_adults_18_years_an_10": "This calculator is intended for adults 18 years and older. BMI calculations may not be\n                              appropriate for children, pregnant women, or athletes.",
+  "calculate_11": "Calculate",
+  "reset_12": "Reset",
+  "healthy_weight_13": "Healthy Weight",
+  "kg_14": "kg",
+  "lbs_15": "lbs",
+  "for_height_16": "For height",
+  "enter_your_height_to_see_your_healthy_weight_range_17": "Enter your height to see your healthy weight range.",
+  "your_healthy_weight_range_18": "Your Healthy Weight Range",
+  "for_height_19": "For height",
+  "cm_20": "cm):",
+  "lbs_21": "lbs",
+  "kg_22": "kg)",
+  "this_calculator_uses_the_standard_bmi_range_23": "This calculator uses the standard BMI range (",
+  "for_adults_24": ") for adults.",
+  "calculation_steps_25": "Calculation Steps",
+  "step_1_height_conversion_26": "Step 1: Height Conversion",
+  "height_27": "Height:",
+  "height_in_meters_28": "Height in meters:",
+  "m_29": "m",
+  "step_2_bmi_calculation_30": "Step 2: BMI Calculation",
+  "lower_limit_bmi_185_31": "Lower limit (BMI 18.5):",
+  "kg_32": "kg",
+  "upper_limit_bmi_250_33": "Upper limit (BMI 25.0):",
+  "kg_34": "kg",
+  "formula_bmi_height_35": "Formula: BMI × height²",
+  "about_healthy_weight_36": "About Healthy Weight",
+  "bmibased_calculation_37": "BMI-Based Calculation",
+  "based_on_bmi_range_38": "Based on BMI range:",
+  "k_185_250_kgm_39": "18.5 – 25.0 kg/m²",
+  "formula_40": "Formula:",
+  "weight_bmi_height_41": "Weight = BMI × height²",
+  "standard_42": "Standard:",
+  "world_health_organization_guidelines_43": "World Health Organization guidelines",
+  "age_group_44": "Age group:",
+  "adults_18_years_and_older_45": "Adults 18 years and older",
+  "important_notes_46": "Important Notes",
+  "general_guideline_47": "General guideline:",
+  "not_personalized_medical_advice_48": "Not personalized medical advice",
+  "limitations_49": "Limitations:",
+  "doesnt_account_for_muscle_mass_50": "Doesn't account for muscle mass",
+  "special_populations_51": "Special populations:",
+  "may_not_apply_to_athletes_52": "May not apply to athletes",
+  "consultation_53": "Consultation:",
+  "speak_with_healthcare_provider_54": "Speak with healthcare provider",
+  "bmi_categories_55": "BMI Categories",
+  "bmi_range_56": "BMI Range",
+  "category_57": "Category",
+  "below_185_58": "Below 18.5",
+  "underweight_59": "Underweight",
+  "k_185_249_60": "18.5 - 24.9",
+  "normal_weight_61": "Normal weight",
+  "k_250_299_62": "25.0 - 29.9",
+  "overweight_63": "Overweight",
+  "k_300_and_above_64": "30.0 and above",
+  "obese_65": "Obese",
+  "factors_not_considered_66": "Factors Not Considered",
+  "body_composition_67": "Body composition:",
+  "muscle_vs_fat_ratio_68": "Muscle vs. fat ratio",
+  "bone_density_69": "Bone density:",
+  "individual_skeletal_differences_70": "Individual skeletal differences",
+  "age_71": "Age:",
+  "metabolism_and_body_changes_72": "Metabolism and body changes",
+  "ethnicity_73": "Ethnicity:",
+  "different_body_type_variations_74": "Different body type variations",
+  "health_conditions_75": "Health conditions:",
+  "medical_considerations_76": "Medical considerations"
+}

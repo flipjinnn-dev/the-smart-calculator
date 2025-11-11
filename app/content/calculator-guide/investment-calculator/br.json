@@ -1,0 +1,116 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de investimentos?",
+      "subSections": [
+        {
+          "heading": "Definição",
+          "content": "Uma calculadora de investimento é uma ferramenta online gratuita que estima o valor futuro do seu dinheiro com base em montantes fixos, contribuições mensais, taxas de juros e frequência de capitalização."
+        },
+        {
+          "heading": "Propósito",
+          "content": "Ele fornece insights rápidos sobre como suas economias ou investimentos crescem ao longo do tempo, tornando o planejamento financeiro mais fácil e inteligente."
+        }
+      ]
+    },
+    {
+      "heading": "Como funciona nossa calculadora de investimento grátis",
+      "subSections": [
+        {
+          "heading": "Entradas que você pode personalizar",
+          "content": "- Valor do investimento inicial (montante único)\n- Contribuições mensais (SIP/depósitos recorrentes)\n- Frequência de composição (mensal, trimestral, anual)\n- Taxa de retorno esperada (ações, títulos, poupança)\n- Duração do investimento (anos)\n- Inflação ou ajuste fiscal (opcional)"
+        },
+        {
+          "heading": "Método de cálculo",
+          "content": "A calculadora aplica fórmulas de juros compostos para projetar o valor futuro. Mostra como as contribuições e os retornos se acumulam ao longo do tempo."
+        },
+        {
+          "heading": "Flexibilidade",
+          "content": "Você pode calcular o crescimento do montante fixo, comparar SIP com depósitos únicos ou simular retornos do mercado de ações."
+        }
+      ]
+    },
+    {
+      "heading": "Benefícios e casos de uso",
+      "subSections": [
+        {
+          "heading": "Planejamento de aposentadoria",
+          "content": "Estime seu pecúlio futuro com ou sem ajustes de inflação."
+        },
+        {
+          "heading": "Comparação de cenários",
+          "content": "Visualize as diferenças entre contribuições mensais e anuais e capitalização."
+        },
+        {
+          "heading": "Visualização do crescimento da riqueza",
+          "content": "Entenda o poder de longo prazo dos retornos compostos."
+        },
+        {
+          "heading": "Definição de metas",
+          "content": "Planeje marcos como a compra de uma casa, a educação dos filhos ou a aposentadoria precoce."
+        },
+        {
+          "heading": "Teste de inflação",
+          "content": "Confira como a inflação impacta o real poder de compra da sua poupança."
+        }
+      ]
+    },
+    {
+      "heading": "Cenários de exemplo",
+      "subSections": [
+        {
+          "heading": "Contribuições mensais",
+          "content": "US$ 500/mês investidos por 20 anos com retorno anual de 8% crescem para mais de US$ 295.000 com capitalização."
+        },
+        {
+          "heading": "Investimento de montante fixo",
+          "content": "Um investimento único de US$ 10.000 com retorno anual de 7% por 15 anos cresce para cerca de US$ 27.590."
+        },
+        {
+          "heading": "Estimativa de aposentadoria",
+          "content": "A combinação de montante fixo + contribuições mensais ajuda a projetar poupanças para a aposentadoria ajustadas pela inflação."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora de investimento versus outras ferramentas",
+      "subSections": [
+        {
+          "heading": "Calculadora de poupança",
+          "content": "Concentra-se no crescimento dos depósitos fixos e não nos retornos variáveis ​​dos investimentos."
+        },
+        {
+          "heading": "Calculadora de Empréstimo",
+          "content": "Calcula cronogramas de reembolso, enquanto calculadoras de investimento mostram o crescimento do valor futuro."
+        },
+        {
+          "heading": "Calculadora de aposentadoria",
+          "content": "As ferramentas de aposentadoria concentram-se em retiradas e rendimentos, enquanto as calculadoras de investimento concentram-se na acumulação."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quanto valerá meu investimento em 10 anos?",
+      "a": "Depende do seu valor inicial, contribuições mensais, taxa de juros e frequência de capitalização. Use a calculadora para obter resultados exatos."
+    },
+    {
+      "q": "Qual é o valor futuro de um investimento mensal de $ 500?",
+      "a": "Com um retorno anual de 8%, US$ 500/mês durante 20 anos cresce para mais de US$ 295.000 com capitalização."
+    },
+    {
+      "q": "A calculadora de investimento inclui inflação?",
+      "a": "Sim, você pode ajustar a inflação para ver o valor real de seus investimentos."
+    },
+    {
+      "q": "Como calculo retornos compostos automaticamente?",
+      "a": "Basta inserir suas informações (valor, taxa, tempo, contribuições) e a calculadora projeta os resultados instantaneamente."
+    },
+    {
+      "q": "Qual é a melhor calculadora de investimento gratuita online?",
+      "a": "As melhores calculadoras incluem opções de montante fixo + SIP, contribuições mensais e ajuste de inflação – como esta."
+    }
+  ]
+}

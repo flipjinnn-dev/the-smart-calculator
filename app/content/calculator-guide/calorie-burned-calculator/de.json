@@ -1,0 +1,119 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Was ist ein Kalorienverbrauchsrechner?",
+      "content": "Ein Kalorienverbrauchsrechner (auch Aktivitätskalorienverbrauchsrechner oder Trainingskalorienverbrauchsrechner genannt) schätzt, wie viele Kalorien Ihr Körper bei körperlicher Aktivität verbraucht. Es hilft bei:<br><br>- Gewichtsverlustverfolgung<br>- Fitnessplanung<br>- Schätzung der täglichen Aktivität<br>- Übungsvergleich (Laufen, Gehen, Radfahren, Schwimmen, Yoga, HIIT)"
+    },
+    {
+      "heading": "Wie berechnet man den Kalorienverbrauch?",
+      "content": "Der Rechner verwendet die Formel:<br><br><strong>Verbrannte Kalorien = MET × Gewicht (kg) × Dauer (Stunden)</strong><br><br>- MET = Intensität der Aktivität<br>- Gewicht = Körpergewicht in kg oder lbs<br>- Dauer = Trainingszeit",
+      "subSections": [
+        {
+          "heading": "Beispielrechnung",
+          "content": "Laufen mit 8 km/h (MET 8,3) für 30 Minuten bei 70 kg Gewicht:<br><br><strong>8,3 × 70 × 0,5 = ~290 verbrannte Kalorien</strong>"
+        }
+      ]
+    },
+    {
+      "heading": "Durch Aktivität verbrannte Kalorien (Beispiele)",
+      "subSections": [
+        {
+          "heading": "Laufen (8 km/h)",
+          "content": "~580 Kalorien/Stunde"
+        },
+        {
+          "heading": "Gehen (5 km/h)",
+          "content": "~280 Kalorien/Stunde"
+        },
+        {
+          "heading": "Radfahren (mäßig)",
+          "content": "~500 Kalorien/Stunde"
+        },
+        {
+          "heading": "Schwimmen (Freistil)",
+          "content": "~700 Kalorien/Stunde"
+        },
+        {
+          "heading": "Yoga",
+          "content": "~200 Kalorien/Stunde"
+        },
+        {
+          "heading": "HIIT-Training",
+          "content": "~750 Kalorien/Stunde"
+        },
+        {
+          "heading": "Krafttraining",
+          "content": "~400 Kalorien/Stunde"
+        },
+        {
+          "heading": "Zumba-Tanz",
+          "content": "~450 Kalorien/Stunde"
+        },
+        {
+          "heading": "Joggen auf dem Laufband",
+          "content": "~600 Kalorien/Stunde"
+        },
+        {
+          "heading": "Ellipsentrainer",
+          "content": "~550 Kalorien/Stunde"
+        }
+      ]
+    },
+    {
+      "heading": "Personalisierte Berechnung des Kalorienverbrauchs",
+      "subSections": [
+        {
+          "heading": "Nach Gewicht",
+          "content": "Kalorienverbrauchsrechner nach Gewicht (kg, lbs)."
+        },
+        {
+          "heading": "Nach Alter und Geschlecht",
+          "content": "Passt die Ergebnisse je nach Alter und Geschlecht an."
+        },
+        {
+          "heading": "Nach Größe und Gewicht",
+          "content": "Präziseres Tracking mit Körpermaßen."
+        },
+        {
+          "heading": "Nach Herzfrequenz",
+          "content": "Berechnet basierend auf Intensität und Herzfrequenz."
+        },
+        {
+          "heading": "Für übergewichtige Personen",
+          "content": "Bietet genauere Kalorienschätzungen."
+        }
+      ]
+    },
+    {
+      "heading": "Globale Nutzung und lokale Relevanz",
+      "content": "Dieser Rechner funktioniert weltweit (USA, Großbritannien, Kanada, Australien, Indien, Pakistan, Europa). Trainer und Fitness-Apps nutzen es für Abnehmprogramme, Fitnessstudio-Workouts und personalisierte Gesundheitspläne."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie berechnet man den Kalorienverbrauch während des Trainings?",
+      "a": "Verwenden Sie die Formel: MET × Gewicht (kg) × Dauer (Stunden) oder geben Sie einfach Ihre Daten in unseren Rechner ein."
+    },
+    {
+      "q": "Was ist der genaueste Kalorienverbrauchsrechner?",
+      "a": "Genaue Rechner passen Gewicht, Alter, Geschlecht, BMI und Herzfrequenz an – wie unserer."
+    },
+    {
+      "q": "Wie viele Kalorien werden beim Laufen, Walken, Radfahren oder Schwimmen verbrannt?",
+      "a": "Laufen: 500–800/Stunde, Gehen: 200–350/Stunde, Radfahren: 400–700/Stunde, Schwimmen: 500–900/Stunde."
+    },
+    {
+      "q": "Wie viele Kalorien werden in 30 Minuten Training verbrannt?",
+      "a": "Yoga: ~100, Gehen: ~150, Laufen: ~300, HIIT: ~350–400."
+    },
+    {
+      "q": "Kann ich den täglichen Kalorienverbrauch berechnen?",
+      "a": "Ja. Unser Rechner für den täglichen Kalorienverbrauch schätzt den Energieverbrauch für alle Aktivitäten."
+    },
+    {
+      "q": "Beeinflusst das Gewicht den Kalorienverbrauch?",
+      "a": "Ja, schwerere Personen verbrennen pro Aktivität mehr Kalorien als leichtere Personen."
+    }
+  ]
+}

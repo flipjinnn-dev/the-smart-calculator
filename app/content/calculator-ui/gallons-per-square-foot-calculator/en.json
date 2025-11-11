@@ -1,0 +1,163 @@
+{
+  "pageTitle": "Gallons per Square Foot Calculator",
+  "pageDescription": "Calculate the number of gallons needed per square foot for painting or flooring",
+  "form": {
+    "labels": {
+      "totalGallons": "Total Gallons Available",
+      "totalArea": "Total Area (Square Feet)",
+      "coverageRate": "Coverage Rate (Sq Ft per Gallon)"
+    },
+    "placeholders": {
+      "totalGallons": "Enter total gallons available",
+      "totalArea": "Enter total area in square feet",
+      "coverageRate": "Enter coverage rate (default: 400 sq ft/gallon)"
+    },
+    "buttons": {
+      "calculate": "Calculate Coverage",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "gallonsPerSquareFoot": "Gallons per Square Foot",
+    "coveragePerGallon": "Coverage per Gallon",
+    "totalCoverage": "Total Coverage Area",
+    "gallonsNeeded": "Gallons Needed for Area",
+    "efficiency": "Application Efficiency"
+  },
+  "educational": {
+    "coverageInfo": "Coverage Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Construction Resources",
+    "coverageFacts": {
+      "definition": {
+        "title": "Coverage Rate",
+        "description": "The area that can be covered by one gallon of paint or coating material"
+      },
+      "factors": {
+        "title": "Affecting Factors",
+        "description": "Surface texture, porosity, application method, and material quality affect coverage rates"
+      },
+      "applications": {
+        "title": "Real-world Applications",
+        "description": "Used in construction, painting, and flooring projects to estimate material requirements"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides coverage estimates only",
+      "actual": "Actual coverage may vary based on surface conditions and application technique"
+    },
+    "importantNotesList": [
+      "Standard paint coverage is approximately 400 square feet per gallon",
+      "Rough or porous surfaces may require more material",
+      "Multiple coats may be needed for optimal coverage",
+      "Always purchase extra material to account for waste and touch-ups"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the gallons available and area to calculate coverage requirements",
+    "resultMessage": "Your coverage calculation results are shown below",
+    "assessmentResult": "Coverage Calculation Result:",
+    "coverageAnalysis": "Coverage Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides coverage estimates based on standard industry values. Actual coverage may vary based on surface conditions, application technique, material quality, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Construction Resources",
+    "content": "For professional painting and flooring estimates, consult with contractors or material suppliers who can assess specific project requirements and conditions."
+  },
+  "errors": {
+    "totalGallons": "Please enter a valid number of gallons",
+    "totalArea": "Please enter a valid area in square feet",
+    "coverageRate": "Please enter a valid coverage rate"
+  },
+  "tooltips": {
+    "totalGallons": "Total gallons of paint or coating material available",
+    "totalArea": "Total area to be covered in square feet",
+    "coverageRate": "Coverage rate in square feet per gallon (typically 400 for standard paint)"
+  },
+  "dimensions_0": "Dimensions",
+  "enter_length_width_and_height_in_feet_to_calculate_1": "Enter length, width, and height in feet to calculate gallons per square foot",
+  "length_l_2": "Length (L)",
+  "feet_ft_3": "Feet (ft)",
+  "inches_in_4": "Inches (in)",
+  "meters_m_5": "Meters (m)",
+  "centimeters_cm_6": "Centimeters (cm)",
+  "yards_yd_7": "Yards (yd)",
+  "width_w_8": "Width (W)",
+  "feet_ft_9": "Feet (ft)",
+  "inches_in_10": "Inches (in)",
+  "meters_m_11": "Meters (m)",
+  "centimeters_cm_12": "Centimeters (cm)",
+  "yards_yd_13": "Yards (yd)",
+  "height_h_14": "Height (H)",
+  "feet_ft_15": "Feet (ft)",
+  "inches_in_16": "Inches (in)",
+  "meters_m_17": "Meters (m)",
+  "centimeters_cm_18": "Centimeters (cm)",
+  "yards_yd_19": "Yards (yd)",
+  "calculate_20": "Calculate",
+  "reset_21": "Reset",
+  "results_22": "Results",
+  "input_values_converted_to_feet_23": "Input Values (converted to feet)",
+  "length_24": "Length:",
+  "ft_25": "ft",
+  "width_26": "Width:",
+  "ft_27": "ft",
+  "height_28": "Height:",
+  "ft_29": "ft",
+  "area_30": "Area",
+  "ft_31": "ft²",
+  "volume_32": "Volume",
+  "ft_33": "ft³",
+  "gallons_34": "gallons",
+  "gallons_per_square_foot_35": "Gallons per Square Foot",
+  "galft_36": "gal/ft²",
+  "stepbystep_calculation_37": "Step-by-step Calculation",
+  "step_1_38": "Step 1:",
+  "step_2_39": "Step 2:",
+  "step_3_40": "Step 3:",
+  "step_4_41": "Step 4:",
+  "enter_dimensions_to_see_42": "Enter dimensions to see",
+  "live_results_43": "live results",
+  "and_stepbystep_calculations_44": "and step-by-step calculations.",
+  "understanding_gallons_per_square_foot_45": "Understanding Gallons per Square Foot",
+  "formulas_used_46": "Formulas Used",
+  "a_l_w_area_in_square_feet_47": "A = L × W (Area in square feet)",
+  "v_48": "V",
+  "ft_49": "ft³",
+  "a_h_l_w_h_volume_in_cubic_feet_50": "= A × H = (L × W) × H (Volume in cubic feet)",
+  "v_51": "V",
+  "gal_52": "gal",
+  "v_53": "= V",
+  "ft_54": "ft³",
+  "k_748052_volume_in_us_gallons_55": "× 7.48052 (Volume in US gallons)",
+  "g_v_56": "G = V",
+  "gal_57": "gal",
+  "a_gallons_per_square_foot_58": "÷ A (Gallons per square foot)",
+  "common_applications_59": "Common Applications",
+  "pool_spa_60": "Pool & Spa:",
+  "calculate_volume_and_chemical_dosing_rates_61": "Calculate volume and chemical dosing rates",
+  "tank_design_62": "Tank Design:",
+  "determine_liquid_storage_capacity_per_floor_area_63": "Determine liquid storage capacity per floor area",
+  "irrigation_64": "Irrigation:",
+  "calculate_application_rates_for_landscaping_65": "Calculate application rates for landscaping",
+  "construction_66": "Construction:",
+  "estimate_concrete_paint_or_coating_coverage_67": "Estimate concrete, paint, or coating coverage",
+  "aquaculture_68": "Aquaculture:",
+  "design_fish_tanks_and_water_systems_69": "Design fish tanks and water systems",
+  "conversion_factor_70": "Conversion Factor",
+  "k_1_cubic_foot_748052_us_gallons_71": "1 cubic foot = 7.48052 US gallons",
+  "this_conversion_factor_is_exact_and_widely_used_in_72": "This conversion factor is exact and widely used in construction, plumbing, and engineering\n                        applications.",
+  "example_calculation_73": "Example Calculation",
+  "given_74": "Given:",
+  "length_10_ft_width_8_ft_height_3_ft_75": "Length = 10 ft, Width = 8 ft, Height = 3 ft",
+  "solution_76": "Solution:",
+  "area_10_8_80_ft_77": "Area = 10 × 8 = 80 ft²",
+  "volume_80_3_240_ft_78": "Volume = 80 × 3 = 240 ft³",
+  "volume_in_gallons_240_748052_179532_gallons_79": "Volume in gallons = 240 × 7.48052 = 1,795.32 gallons",
+  "gallons_per_sq_ft_179532_80_2244_galft_80": "Gallons per sq ft = 1,795.32 ÷ 80 = 22.44 gal/ft²"
+}

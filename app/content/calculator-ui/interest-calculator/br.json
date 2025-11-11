@@ -1,0 +1,111 @@
+{
+  "pageTitle": "Calculadora de juros",
+  "pageDescription": "Calcule juros com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular juros",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo de juros"
+  },
+  "educational": {
+    "info": "Informações de interesse",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de interesse",
+        "description": "Informações sobre juros"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como os juros são calculados"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos de interesse"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de juros",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular os juros",
+    "resultMessage": "Os resultados do seu cálculo de juros são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo de juros:",
+    "analysis": "Análise de Interesse"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de juros com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "investment_details_0": "Detalhes de investimento",
+  "enter_your_investment_info_1": "Insira suas informações de investimento",
+  "initial_investment_2": "Investimento inicial",
+  "annual_contribution_3": "Contribuição anual",
+  "monthly_contribution_4": "Contribuição mensal",
+  "contribute_at_the_5": "Contribua no",
+  "beginning_6": "Começo",
+  "end_7": "Fim",
+  "of_each_compounding_period_8": "de cada período composto",
+  "interest_rate_9": "Taxa de juro (%)",
+  "compound_10": "Composto",
+  "annually_11": "Anualmente",
+  "quarterly_12": "Trimestral",
+  "monthly_13": "Mensal",
+  "daily_14": "Diário",
+  "years_15": "Anos",
+  "months_16": "Meses",
+  "tax_rate_17": "Taxa de imposto (%)",
+  "inflation_rate_18": "Taxa de inflação (%)",
+  "calculate_19": "Calcular",
+  "results_20": "Resultados",
+  "investment_summary_21": "Resumo do investimento",
+  "ending_balance_22": "Saldo final",
+  "total_principal_23": "Principal total",
+  "total_contributions_24": "Contribuições totais",
+  "total_interest_25": "Juros totais",
+  "interest_of_initial_investment_26": "Juros do investimento inicial",
+  "interest_of_the_contributions_27": "Juros das contribuições",
+  "buying_power_after_inflation_28": "Poder de compra após a inflação",
+  "enter_investment_details_to_see_results_29": "Insira os detalhes do investimento para ver os resultados",
+  "this_calculator_is_for_educational_purposes_only_a_30": "Esta calculadora é apenas para fins educacionais e não deve ser usada como aconselhamento financeiro."
+}

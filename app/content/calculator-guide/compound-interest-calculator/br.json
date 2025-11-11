@@ -1,0 +1,111 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de juros compostos: maximize suas economias e investimentos",
+      "content": "Compreender como seu dinheiro pode crescer ao longo do tempo é essencial para um planejamento financeiro inteligente. Nossa calculadora de juros compostos on-line ajuda você a calcular facilmente os retornos potenciais de poupanças, investimentos e empréstimos, fornecendo informações claras sobre seu futuro financeiro."
+    },
+    {
+      "heading": "Por que usar uma calculadora de juros compostos?",
+      "subSections": [
+        {
+          "heading": "Crescimento Acelerado",
+          "content": "Os juros compostos permitem que seu dinheiro ganhe juros sobre o principal e os juros acumulados ao longo do tempo, ajudando a poupança e os investimentos a crescerem mais rapidamente em comparação com os juros simples."
+        },
+        {
+          "heading": "Informações financeiras claras",
+          "content": "Visualize instantaneamente seu crescimento potencial sem precisar entender fórmulas complexas."
+        },
+        {
+          "heading": "Planejamento de aposentadoria e poupança",
+          "content": "Planeje com antecedência com previsões precisas para a aposentadoria ou outras metas de poupança de longo prazo."
+        },
+        {
+          "heading": "Comparações flexíveis",
+          "content": "Compare diferentes taxas de juros, períodos de capitalização e estratégias de contribuição."
+        }
+      ]
+    },
+    {
+      "heading": "Como usar esta calculadora",
+      "subSections": [
+        {
+          "heading": "Passo 1",
+          "content": "Insira o valor principal – o saldo inicial do seu investimento ou empréstimo."
+        },
+        {
+          "heading": "Etapa 2",
+          "content": "Defina a taxa de juros – anual ou mensal, dependendo do seu plano."
+        },
+        {
+          "heading": "Etapa 3",
+          "content": "Escolha a frequência de capitalização – diária, mensal, trimestral ou anual."
+        },
+        {
+          "heading": "Etapa 4",
+          "content": "Adicione contribuições – se aplicável, insira depósitos mensais ou anuais."
+        },
+        {
+          "heading": "Etapa 5",
+          "content": "Veja os resultados – a calculadora exibirá o total de juros ganhos, o saldo final e um gráfico de crescimento."
+        }
+      ]
+    },
+    {
+      "heading": "Exemplos e cenários",
+      "subSections": [
+        {
+          "heading": "Depósito Fixo",
+          "content": "Deposite $ 10.000 com juros anuais de 5%, compostos mensalmente. Seu investimento cresce significativamente ao longo do tempo."
+        },
+        {
+          "heading": "Planejamento de aposentadoria",
+          "content": "Pequenas contribuições mensais acumulam-se num fundo de reforma substancial ao longo de décadas."
+        },
+        {
+          "heading": "Poupança para estudantes",
+          "content": "Mesmo pequenos depósitos regulares podem crescer, tornando-o uma ferramenta ideal para estudantes."
+        }
+      ]
+    },
+    {
+      "heading": "Juros compostos explicados",
+      "subSections": [
+        {
+          "heading": "Juros compostos versus juros simples",
+          "content": "Os juros simples são calculados apenas sobre o principal, enquanto os juros compostos aumentam tanto sobre o principal quanto sobre os juros acumulados."
+        },
+        {
+          "heading": "Frequência Composta",
+          "content": "A composição diária, mensal ou anual afeta o crescimento. A capitalização mais frequente resulta em retornos mais elevados."
+        },
+        {
+          "heading": "Passo a passo",
+          "content": "Identifique o principal, a taxa de juros e o período de tempo → escolha a frequência de capitalização → adicione contribuições → visualize o saldo e os juros."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como calcular juros compostos com depósitos mensais?",
+      "a": "Insira suas contribuições mensais na calculadora, selecione capitalização mensal e ela mostrará seu crescimento total ao longo do tempo."
+    },
+    {
+      "q": "Qual é a diferença entre juros simples e compostos?",
+      "a": "Os juros simples são calculados apenas sobre o principal, enquanto os juros compostos são calculados sobre o principal e os juros acumulados, permitindo um crescimento mais rápido."
+    },
+    {
+      "q": "Quanto meu investimento crescerá com juros compostos?",
+      "a": "Use nossa calculadora online para inserir seus detalhes e ver o crescimento projetado ao longo de meses ou anos."
+    },
+    {
+      "q": "Posso comparar taxas de juros compostos para bancos?",
+      "a": "Sim! Você pode simular diferentes taxas e períodos de capitalização para escolher a opção mais lucrativa."
+    },
+    {
+      "q": "A taxa de juros afeta o crescimento dos juros compostos?",
+      "a": "Absolutamente. Mesmo uma pequena alteração na taxa de juro pode ter um impacto significativo no crescimento a longo prazo."
+    }
+  ]
+}

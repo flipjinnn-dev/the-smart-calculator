@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Smart Calculator - Kostenlose Online-Rechner für jeden Bedarf",
+    "description": "Greifen Sie auf Hunderte von kostenlosen Online-Rechnern für finanziell, Gesundheit, mathe, Physik und mehr zu. Schnelle, genaue und benutzerfreundliche Berechnungstools.",
+    "keywords": "Rechner, Online-Rechner, Finanzrechner, Gesundheitsrechner, matherechner, kostenlose Tools"
+  },
+  "header": {
+    "title": "Smart Rechner",
+    "subtitle": "Kostenlose Online-Rechner"
+  },
+  "hero": {
+    "title": "Ihr Leben in <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">90+ kostenlosen</span> Rechnern",
+    "description": "Vom Finanzplaning bis zur Gesundheitsverfolgung - entdecken Sie leistungsstarke Berechnungstools, die komplexe mathe einfach und zugänglich machen."
+  },
+  "search": {
+    "title": "Finden Sie Ihren Rechner",
+    "placeholder": "Durchsuchen Sie Hunderte von kostenlosen Tools"
+  },
+  "categories": {
+    "title": "Rechner-Kategorien",
+    "description": "Entdecken Sie unsere umfassende Sammlung spezialisierter Rechner",
+    "financial": {
+      "name": "finanziell",
+      "description": "Kredit-, Hypotheken-, Investitions- und Steuerrechner"
+    },
+    "health": {
+      "name": "Gesundheit & Fitness",
+      "description": "BMI-, Kalorien-, Ernährungs- und medizinische Rechner"
+    },
+    "maths": {
+      "name": "mathe",
+      "description": "Algebra, Geometrie, Statistik und höhere mathe"
+    },
+    "physics": {
+      "name": "Physik",
+      "description": "Kraft-, Energie-, Bewegungs- und Physikberechnungen"
+    },
+    "construction": {
+      "name": "konstruktion",
+      "description": "Immobilien-, Miet- und Bauberechnungen"
+    },
+    "food": {
+      "name": "essen",
+      "description": "Ernährungs-, Kalorien- und Mahlzeitenplanungsrechner"
+    },
+    "sports": {
+      "name": "Sport",
+      "description": "Fitness-, Übungs- und sportbezogene Rechner"
+    },
+    "other": {
+      "name": "Andere",
+      "description": "Verschiedene Rechner, die nicht in andere Kategorien passen"
+    }
+  },
+  "popular": {
+    "title": "Beliebteste Rechner",
+    "description": "Unsere am häufigsten verwendeten Berechnungstools",
+    "calculators": [
+      {
+        "name": "Hypothekenrechner",
+        "category": "finanziell",
+        "description": "Berechnen Sie monatliche Raten und Gesamtzinsen für Ihre Immobilienfinanzierung"
+      },
+      {
+        "name": "BMI-Rechner",
+        "category": "Gesundheit",
+        "description": "Berechnen Sie Ihren Body-Mass-Index und verstehen Sie Ihren Gewichtsstatus"
+      },
+      {
+        "name": "Kreditrechner",
+        "category": "finanziell",
+        "description": "Berechnen Sie Kreditraten und Tilgungspläne für jede Art von Kredit"
+      },
+      {
+        "name": "Prozentrechner",
+        "category": "mathe",
+        "description": "Berechnen Sie Prozentsätze, Verhältnisse und prozentuale Änderungen einfach"
+      },
+      {
+        "name": "Zinseszins",
+        "category": "finanziell",
+        "description": "Berechnen Sie das Investitionswachstum im Zeitverlauf mit Zinseszins"
+      },
+      {
+        "name": "Kalorienrechner",
+        "category": "Gesundheit",
+        "description": "Berechnen Sie den täglichen Kalorienbedarf basierend auf Ihrem Lebensstil und Ihren Zielen"
+      }
+    ]
+  },
+  "features": {
+    "title": "Warum Smart Calculator wählen?",
+    "description": "Schnell, genau und völlig kostenlos in der Nutzung",
+    "items": [
+      {
+        "title": "Blitzschnell",
+        "description": "Erhalten Sie sofortige Ergebnisse mit unseren optimierten Berechnungsmotoren"
+      },
+      {
+        "title": "100% genau",
+        "description": "Alle Rechner werden von Experten verifiziert und sind mathematisch präzise"
+      },
+      {
+        "title": "Immer kostenlos",
+        "description": "Vollständiger Zugriff auf alle Rechner ohne versteckte Gebühren"
+      }
+    ]
+  }
+}

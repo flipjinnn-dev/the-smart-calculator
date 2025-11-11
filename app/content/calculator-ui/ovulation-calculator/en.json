@@ -1,0 +1,134 @@
+{
+  "pageTitle": "Ovulation  Calculator",
+  "pageDescription": "Calculate ovulation  with our free online calculator",
+  "form": {
+    "labels": {
+      "input1": "Input 1",
+      "input2": "Input 2",
+      "input3": "Input 3"
+    },
+    "placeholders": {
+      "input1": "Enter first value",
+      "input2": "Enter second value",
+      "input3": "Enter third value"
+    },
+    "buttons": {
+      "calculate": "Calculate Ovulation ",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "result1": "Result 1",
+    "result2": "Result 2",
+    "calculationDetails": "Ovulation  Calculation Results"
+  },
+  "educational": {
+    "info": "Ovulation  Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Resources",
+    "facts": {
+      "definition": {
+        "title": "Ovulation  Definition",
+        "description": "Information about ovulation "
+      },
+      "formula": {
+        "title": "Calculation Method",
+        "description": "How ovulation  is calculated"
+      },
+      "applications": {
+        "title": "Applications",
+        "description": "Uses of ovulation "
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides ovulation  estimates only",
+      "actual": "Actual values may vary based on individual circumstances"
+    },
+    "importantNotesList": [
+      "This is an estimate and should not replace professional advice",
+      "Results may vary based on individual factors",
+      "Consult professionals for personalized guidance",
+      "Use consistent units for accurate results"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter the required information to calculate ovulation ",
+    "resultMessage": "Your ovulation  calculation results are shown below",
+    "assessmentResult": "Ovulation  Calculation Result:",
+    "analysis": "Ovulation  Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides ovulation  estimates based on standard methods. Actual values may vary based on individual circumstances and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Resources",
+    "content": "For personalized advice and detailed information, consult with professionals who can provide guidance based on individual needs and circumstances."
+  },
+  "errors": {
+    "input1": "Please enter a valid first value",
+    "input2": "Please enter a valid second value",
+    "input3": "Please enter a valid third value"
+  },
+  "tooltips": {
+    "input1": "First input parameter",
+    "input2": "Second input parameter",
+    "input3": "Third input parameter"
+  },
+  "ovulation_calculation_0": "Ovulation Calculation",
+  "enter_your_menstrual_cycle_details_to_calculate_ov_1": "Enter your menstrual cycle details to calculate ovulation dates",
+  "first_day_of_your_last_period_2": "First Day of Your Last Period *",
+  "average_length_of_cycle_3": "Average Length of Cycle *",
+  "days_4": "days",
+  "average_menstrual_cycle_length_ranges_from_22_to_4_5": "Average menstrual cycle length ranges from 22 to 44 days (28 days is typical)",
+  "calculate_6": "Calculate",
+  "reset_7": "Reset",
+  "fertility_window_8": "Fertility Window",
+  "most_probable_ovulation_9": "Most Probable Ovulation",
+  "fertile_window_10": "Fertile window:",
+  "enter_your_cycle_details_to_calculate_your_fertile_11": "Enter your cycle details to calculate your fertile window.",
+  "your_ovulation_results_12": "Your Ovulation Results",
+  "current_cycle_13": "Current Cycle",
+  "most_probable_ovulation_date_14": "Most Probable Ovulation Date:",
+  "ovulation_window_15": "Ovulation Window:",
+  "best_intercourse_window_16": "Best Intercourse Window:",
+  "important_dates_17": "Important Dates",
+  "pregnancy_test_date_18": "Pregnancy Test Date:",
+  "next_period_start_19": "Next Period Start:",
+  "due_date_if_pregnant_20": "Due Date (if pregnant):",
+  "next_6_cycles_forecast_21": "Next 6 Cycles Forecast",
+  "cycle_22": "Cycle",
+  "cycle_start_23": "Cycle Start",
+  "ovulation_date_24": "Ovulation Date",
+  "fertile_window_25": "Fertile Window",
+  "next_period_26": "Next Period",
+  "due_date_27": "Due Date",
+  "understanding_ovulation_28": "Understanding Ovulation",
+  "how_it_works_29": "How It Works",
+  "ovulation_typically_occurs_14_days_before_your_nex_30": "Ovulation typically occurs 14 days before your next period",
+  "the_egg_survives_for_about_1224_hours_after_ovulat_31": "The egg survives for about 12-24 hours after ovulation",
+  "sperm_can_survive_in_the_reproductive_tract_for_up_32": "Sperm can survive in the reproductive tract for up to 5 days",
+  "the_fertile_window_is_approximately_6_days_long_33": "The fertile window is approximately 6 days long",
+  "best_times_for_conception_34": "Best Times for Conception",
+  "highest_probability_35": "Highest probability:",
+  "k_12_days_before_ovulation_36": "1-2 days before ovulation",
+  "good_probability_37": "Good probability:",
+  "day_of_ovulation_38": "Day of ovulation",
+  "lower_probability_39": "Lower probability:",
+  "k_35_days_before_ovulation_40": "3-5 days before ovulation",
+  "very_low_41": "Very low:",
+  "after_ovulation_day_42": "After ovulation day",
+  "signs_of_ovulation_43": "Signs of Ovulation",
+  "changes_in_cervical_mucus_clear_stretchy_44": "Changes in cervical mucus (clear, stretchy)",
+  "slight_increase_in_basal_body_temperature_45": "Slight increase in basal body temperature",
+  "mild_pelvic_or_abdominal_pain_46": "Mild pelvic or abdominal pain",
+  "breast_tenderness_47": "Breast tenderness",
+  "increased_libido_48": "Increased libido",
+  "important_notes_49": "Important Notes",
+  "this_calculator_provides_estimates_based_on_averag_50": "This calculator provides estimates based on average cycles",
+  "actual_ovulation_can_vary_by_12_days_51": "Actual ovulation can vary by 1-2 days",
+  "stress_illness_and_lifestyle_can_affect_timing_52": "Stress, illness, and lifestyle can affect timing",
+  "consult_healthcare_providers_for_fertility_concern_53": "Consult healthcare providers for fertility concerns"
+}

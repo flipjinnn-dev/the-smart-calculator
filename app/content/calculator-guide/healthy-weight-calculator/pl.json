@@ -1,0 +1,132 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator zdrowej wagi – znajdź idealny zakres wagi",
+      "content": "Nasz kalkulator zdrowej wagi pomaga szybko oszacować zakres zdrowej wagi na podstawie wytycznych dotyczących wzrostu, wieku, płci i BMI. To narzędzie zostało zaprojektowane, aby zapewnić medycznie dokładny punkt odniesienia do wyznaczania celów w zakresie zdrowej masy ciała, zarówno w zakresie ogólnego dobrego samopoczucia, sprawności fizycznej, jak i kontroli wagi."
+    },
+    {
+      "heading": "Co to jest zdrowa waga?",
+      "subSections": [
+        {
+          "heading": "Definicja",
+          "content": "Prawidłowa waga to zakres, w którym organizm funkcjonuje optymalnie, zmniejszając ryzyko chorób przewlekłych, takich jak cukrzyca, choroby serca i wysokie ciśnienie krwi."
+        },
+        {
+          "heading": "Wytyczne",
+          "content": "Pracownicy służby zdrowia często korzystają ze wzoru BMI (wskaźnik masy ciała) zalecanego przez Światową Organizację Zdrowia (WHO) i CDC w celu określenia prawidłowej masy ciała."
+        },
+        {
+          "heading": "Zakres",
+          "content": "Prawidłowy zakres masy ciała (BMI 18,5–24,9) skorygowany o wiek, wzrost, płeć i styl życia."
+        }
+      ]
+    },
+    {
+      "heading": "Jak obliczyć zdrową wagę na podstawie wzrostu?",
+      "subSections": [
+        {
+          "heading": "Krok 1",
+          "content": "Podaj swój wzrost, wiek, płeć i wagę."
+        },
+        {
+          "heading": "Krok 2",
+          "content": "Narzędzie stosuje formułę kalkulatora zdrowej wagi BMI."
+        },
+        {
+          "heading": "Krok 3",
+          "content": "Zobaczysz swój zdrowy zakres wagi w kg i funtach w zależności od wzrostu."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowa zdrowa waga według wykresu wzrostu",
+      "content": "Wysokość (cm) | Zdrowy zakres wagi (kg) | Zdrowy zakres wagi (funty)\n--- | --- | ---\n150 cm (4 stopy 11 cali) | 43 – 56 kg | 95 – 123 funtów\n160 cm (5'3”) | 47 – 64 kg | 104 – 141 funtów\n170 cm (5 stóp 7 cali) | 54 – 72 kg | 119 – 159 funtów\n180 cm (5 stóp 11 cali) | 60 – 81 kg | 132 – 178 funtów\n190 cm (6 stóp 3”) | 66 – 90 kg | 145 – 198 funtów"
+    },
+    {
+      "heading": "Zdrowa waga dla różnych grup",
+      "subSections": [
+        {
+          "heading": "Dorośli (mężczyźni i kobiety)",
+          "content": "Aby uzyskać zrównoważone zakresy, użyj kalkulatora idealnej wagi dla dorosłych."
+        },
+        {
+          "heading": "Sportowcy i kulturyści",
+          "content": "Może mieć większą masę mięśniową, dlatego należy wziąć pod uwagę różnicę między idealną wagą a zdrową wagą."
+        },
+        {
+          "heading": "Seniorzy (50+)",
+          "content": "Nieco wyższe BMI może działać ochronnie."
+        },
+        {
+          "heading": "Nastolatki",
+          "content": "Stosuj ostrożnie, ponieważ etapy wzrostu wpływają na wyniki."
+        },
+        {
+          "heading": "Ciąża",
+          "content": "Zapoznaj się z wytycznymi dotyczącymi prawidłowej masy ciała podczas ciąży."
+        }
+      ]
+    },
+    {
+      "heading": "Zdrowa waga dla celów fitness i stylu życia",
+      "subSections": [
+        {
+          "heading": "Zarządzanie wagą",
+          "content": "Ustal cele związane ze zdrową wagą w celu utraty lub utrzymania tkanki tłuszczowej."
+        },
+        {
+          "heading": "Kulturystyka",
+          "content": "Zrównoważ przyrost masy mięśniowej z różnicami BMI."
+        },
+        {
+          "heading": "Śledzenie",
+          "content": "Śledź zmiany za pomocą inteligentnego narzędzia do śledzenia zdrowej wagi."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego BMI służy do obliczania zdrowej wagi?",
+      "subSections": [
+        {
+          "heading": "Standaryzowane oszacowanie",
+          "content": "Zapewnia szybki, ustandaryzowany pomiar prawidłowej wagi."
+        },
+        {
+          "heading": "Korelacja zdrowotna",
+          "content": "BMI koreluje z ryzykiem chorób takich jak cukrzyca i problemy z sercem."
+        },
+        {
+          "heading": "Zatwierdzone przez WHO/CDC",
+          "content": "Odpowiada uznanym na całym świecie wytycznym."
+        },
+        {
+          "heading": "Ograniczenie",
+          "content": "BMI nie uwzględnia masy mięśniowej, gęstości kości ani rozkładu tłuszczu. Używaj go jako ogólnego odniesienia, a nie ostatecznej oceny lekarskiej."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jaki jest mój zakres zdrowej wagi?",
+      "a": "Twój zdrowy zakres masy ciała zależy od wzrostu i BMI (18,5–24,9). Aby znaleźć dokładną liczbę, użyj powyższego kalkulatora."
+    },
+    {
+      "q": "Jaka jest różnica między idealną wagą a zdrową wagą?",
+      "a": "Idealna waga opiera się na wzorach takich jak Devine lub Hamwi (często skupiających się na wyglądzie), podczas gdy zdrowa waga opiera się na zakresach BMI powiązanych z niższym ryzykiem dla zdrowia."
+    },
+    {
+      "q": "Jak obliczyć prawidłową wagę w stosunku do wzrostu?",
+      "a": "Podziel wagę (kg) przez wzrost (m²), aby otrzymać BMI. Porównaj z tabelą zdrowej wagi WHO według wzrostu."
+    },
+    {
+      "q": "Jaka jest prawidłowa waga kobiet i mężczyzn?",
+      "a": "Zakresy są podobne w zależności od BMI, ale skład ciała jest inny – kobiety często mają wyższy procent tkanki tłuszczowej, mężczyźni większą masę beztłuszczową."
+    },
+    {
+      "q": "Czy mogę używać tego narzędzia jako spersonalizowanego kalkulatora zdrowej wagi online?",
+      "a": "Tak. Nasze narzędzie to standardowy kalkulator zdrowej masy ciała, ale działa również jako spersonalizowany kalkulator zdrowej masy ciała, dostosowując go do wieku, płci i celów."
+    }
+  ]
+}

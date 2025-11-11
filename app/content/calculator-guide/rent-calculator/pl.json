@@ -1,0 +1,111 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator czynszu – dowiedz się, na jaki czynsz Cię stać",
+      "content": "Nasz Kalkulator czynszu (zwany także kalkulatorem przystępności czynszu lub kalkulatorem budżetu czynszu) pomoże Ci odpowiedzieć na jedno z najważniejszych pytań mieszkaniowych: „Na jaki czynsz mnie stać?” Niezależnie od tego, czy przeprowadzasz się do swojego pierwszego mieszkania, przeprowadzasz się do nowego miasta, czy też próbujesz zrównoważyć czynsz z innymi wydatkami, to narzędzie pozwala szybko i dokładnie oszacować maksymalny czynsz, jaki powinieneś zapłacić na podstawie Twoich dochodów i długów."
+    },
+    {
+      "heading": "Dlaczego jest to przydatne",
+      "subSections": [
+        {
+          "heading": "Planowanie budżetu",
+          "content": "Zachowaj bezpieczny stosunek czynszu do dochodu."
+        },
+        {
+          "heading": "Świadomość zadłużenia",
+          "content": "Uwzględnij pożyczki, karty kredytowe i wydatki na życie."
+        },
+        {
+          "heading": "Inteligentne wybory",
+          "content": "Porównaj wynajem z kupnem za pomocą naszego kalkulatora kredytu hipotecznego."
+        }
+      ]
+    },
+    {
+      "heading": "Jak działa kalkulator czynszu?",
+      "subSections": [
+        {
+          "heading": "Stosunek frontu (stosunek obudowy)",
+          "content": "Wytyczne te sugerują, że nie powinieneś wydawać na czynsz więcej niż 30% swojego miesięcznego dochodu brutto.\nWzór: Maksymalny czynsz = miesięczny dochód brutto × 0,30"
+        },
+        {
+          "heading": "Wskaźnik zarobków (stosunek zadłużenia do dochodów)",
+          "content": "Zasada ta uwzględnia wszystkie długi (czynsz + kredyty samochodowe + karty kredytowe + kredyty studenckie). Kredytodawcy zazwyczaj wolą, aby całkowita spłata zadłużenia wynosiła ≤ 40% miesięcznego dochodu brutto.\nWzór: (maksymalny czynsz + inne długi) ≤ miesięczny dochód brutto × 0,40"
+        },
+        {
+          "heading": "Przykład",
+          "content": "Wynagrodzenie: 60 000 dolarów rocznie → 5000 dolarów miesięcznie.\nZasada 30%: 5000 USD × 0,30 = 1500 USD maksymalnego czynszu.\nJeśli miesięczne długi = 500 USD → 1500 USD czynszu + 500 USD długu = 2000 USD (40% z 5000 USD). Przystępny."
+        }
+      ]
+    },
+    {
+      "heading": "Kto powinien korzystać z kalkulatora przystępności czynszu?",
+      "subSections": [
+        {
+          "heading": "Studenci",
+          "content": "Oszacuj czynsz, dzieląc koszty ze współlokatorami."
+        },
+        {
+          "heading": "Gospodarstwa domowe posiadające jeden dochód",
+          "content": "Znajdź bezpieczne limity czynszu w oparciu o jedno wynagrodzenie."
+        },
+        {
+          "heading": "Gospodarstwa domowe o podwójnym dochodzie",
+          "content": "Połącz dochody, aby uzyskać bardziej realistyczny budżet na czynsz."
+        },
+        {
+          "heading": "Rodziny o niskich dochodach",
+          "content": "Poznaj niedrogie opcje wynajmu i unikaj nadmiernych wydatków."
+        },
+        {
+          "heading": "Według geografii",
+          "content": "Działa niezależnie od tego, czy używasz go jako kalkulatora czynszu w Nowym Jorku, kalkulatora czynszu w Londynie, kalkulatora czynszu w Kalifornii czy w jakimkolwiek innym mieście."
+        }
+      ]
+    },
+    {
+      "heading": "Praktyczne wskazówki dotyczące przystępności czynszu",
+      "subSections": [
+        {
+          "heading": "Jaki procent dochodu powinien stanowić czynsz?",
+          "content": "Zasada ogólna: 25–30% dochodu brutto. Konserwatywni planiści dążą do 20–25%, jeśli masz wysokie wydatki. Jeśli zadłużenie jest niskie, niektóre gospodarstwa domowe sięgają 35–40%, ale jest to ryzykowne."
+        },
+        {
+          "heading": "Czy powinienem uwzględnić media i inne wydatki?",
+          "content": "Tak. Zawsze uwzględniaj: opłaty za media (prąd, gaz, woda, internet), ubezpieczenie najemcy, koszty transportu i dojazdów, artykuły spożywcze i życie codzienne."
+        },
+        {
+          "heading": "Wynajem czy kredyt hipoteczny – co jest lepsze?",
+          "content": "Wynajem jest elastyczny i wymaga niższych kosztów początkowych, ale kredyty hipoteczne budują kapitał własny. Porównaj opcje za pomocą naszego kalkulatora czynszu i kredytu hipotecznego oraz kalkulatora kredytu mieszkaniowego."
+        }
+      ]
+    },
+    {
+      "heading": "Przystępność czynszu według wynagrodzenia (skrócona instrukcja)",
+      "content": "Wynagrodzenie 40 000 USD → czynsz ~ 1000 USD miesięcznie\nPensja 50 000 USD → czynsz ~ 1250 USD miesięcznie\nPensja 60 000 USD → czynsz ~ 1500 USD miesięcznie\nWynagrodzenie 75 000 USD → czynsz ~ 1875 USD miesięcznie\nPensja 100 000 USD → czynsz ~ 2500 USD miesięcznie\n(Przyjmuje zasadę 30%, przed długami i mediami.)"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Na jaki czynsz mogę sobie pozwolić przy pensji 50 tys. dolarów?",
+      "a": "Stosując zasadę 30%, około 1250 dolarów miesięcznie."
+    },
+    {
+      "q": "Jaki procent moich dochodów powinien stanowić czynsz?",
+      "a": "Większość ekspertów zaleca 25–30% miesięcznego dochodu brutto."
+    },
+    {
+      "q": "Czy powinienem obliczać czynsz na podstawie dochodu netto (po opodatkowaniu)?",
+      "a": "Większość kalkulatorów używa dochodu brutto, ale budżetowanie na podstawie dochodu netto jest bezpieczniejsze i bardziej realistyczne."
+    },
+    {
+      "q": "Czy studenci lub osoby o niskich dochodach mogą korzystać z tego kalkulatora czynszu?",
+      "a": "Tak. Dostosowuje się do każdego poziomu dochodów. W przypadku napiętych budżetów staraj się przeznaczać 20–25% dochodu na czynsz i w razie potrzeby korzystaj z programów pomocy mieszkaniowej."
+    },
+    {
+      "q": "Czy lepiej wynająć czy kupić?",
+      "a": "To zależy od Twojego miasta, stabilności kariery i celów finansowych. Wynajem zapewnia elastyczność, a zakup buduje długoterminowy kapitał. Aby porównać, skorzystaj z naszego kalkulatora kredytu hipotecznego i kalkulatora podatku dochodowego."
+    }
+  ]
+}

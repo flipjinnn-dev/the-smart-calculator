@@ -1,0 +1,134 @@
+{
+  "pageTitle": "Calculadora de ovulação",
+  "pageDescription": "Calcule a ovulação com nossa calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Insira o primeiro valor",
+      "input2": "Insira o segundo valor",
+      "input3": "Insira o terceiro valor"
+    },
+    "buttons": {
+      "calculate": "Calcular a ovulação",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados do cálculo da ovulação"
+  },
+  "educational": {
+    "info": "Informações sobre ovulação",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definição de ovulação",
+        "description": "Informações sobre ovulação"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Como a ovulação é calculada"
+      },
+      "applications": {
+        "title": "Aplicativos",
+        "description": "Usos da ovulação"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas estimativas de ovulação",
+      "actual": "Os valores reais podem variar com base em circunstâncias individuais"
+    },
+    "importantNotesList": [
+      "Esta é uma estimativa e não deve substituir o aconselhamento profissional",
+      "Os resultados podem variar com base em fatores individuais",
+      "Consulte profissionais para orientação personalizada",
+      "Use unidades consistentes para resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira as informações necessárias para calcular a ovulação",
+    "resultMessage": "Os resultados do seu cálculo de ovulação são mostrados abaixo",
+    "assessmentResult": "Resultado do cálculo da ovulação:",
+    "analysis": "Análise de ovulação"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece estimativas de ovulação com base em métodos padrão. Os valores reais podem variar com base em circunstâncias individuais e outros fatores não incluídos nestes cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para aconselhamento personalizado e informações detalhadas, consulte profissionais que possam fornecer orientação com base nas necessidades e circunstâncias individuais."
+  },
+  "errors": {
+    "input1": "Insira um primeiro valor válido",
+    "input2": "Insira um segundo valor válido",
+    "input3": "Insira um terceiro valor válido"
+  },
+  "tooltips": {
+    "input1": "Primeiro parâmetro de entrada",
+    "input2": "Segundo parâmetro de entrada",
+    "input3": "Terceiro parâmetro de entrada"
+  },
+  "ovulation_calculation_0": "Cálculo da ovulação",
+  "enter_your_menstrual_cycle_details_to_calculate_ov_1": "Insira os detalhes do seu ciclo menstrual para calcular as datas da ovulação",
+  "first_day_of_your_last_period_2": "Primeiro dia da sua última menstruação *",
+  "average_length_of_cycle_3": "Duração Média do Ciclo *",
+  "days_4": "dias",
+  "average_menstrual_cycle_length_ranges_from_22_to_4_5": "A duração média do ciclo menstrual varia de 22 a 44 dias (28 dias é o típico)",
+  "calculate_6": "Calcular",
+  "reset_7": "Reiniciar",
+  "fertility_window_8": "Janela de fertilidade",
+  "most_probable_ovulation_9": "Ovulação mais provável",
+  "fertile_window_10": "Janela fértil:",
+  "enter_your_cycle_details_to_calculate_your_fertile_11": "Insira os detalhes do seu ciclo para calcular sua janela fértil.",
+  "your_ovulation_results_12": "Seus resultados de ovulação",
+  "current_cycle_13": "Ciclo Atual",
+  "most_probable_ovulation_date_14": "Data de ovulação mais provável:",
+  "ovulation_window_15": "Janela de ovulação:",
+  "best_intercourse_window_16": "Melhor janela de relação sexual:",
+  "important_dates_17": "Datas importantes",
+  "pregnancy_test_date_18": "Data do teste de gravidez:",
+  "next_period_start_19": "Início do próximo período:",
+  "due_date_if_pregnant_20": "Data de vencimento (se estiver grávida):",
+  "next_6_cycles_forecast_21": "Previsão dos próximos 6 ciclos",
+  "cycle_22": "Ciclo",
+  "cycle_start_23": "Início do ciclo",
+  "ovulation_date_24": "Data da ovulação",
+  "fertile_window_25": "Janela Fértil",
+  "next_period_26": "Próximo período",
+  "due_date_27": "Data de vencimento",
+  "understanding_ovulation_28": "Compreendendo a ovulação",
+  "how_it_works_29": "Como funciona",
+  "ovulation_typically_occurs_14_days_before_your_nex_30": "A ovulação normalmente ocorre 14 dias antes da próxima menstruação",
+  "the_egg_survives_for_about_1224_hours_after_ovulat_31": "O óvulo sobrevive cerca de 12 a 24 horas após a ovulação",
+  "sperm_can_survive_in_the_reproductive_tract_for_up_32": "O esperma pode sobreviver no trato reprodutivo por até 5 dias",
+  "the_fertile_window_is_approximately_6_days_long_33": "A janela fértil dura aproximadamente 6 dias",
+  "best_times_for_conception_34": "Melhores momentos para a concepção",
+  "highest_probability_35": "Maior probabilidade:",
+  "k_12_days_before_ovulation_36": "1-2 dias antes da ovulação",
+  "good_probability_37": "Boa probabilidade:",
+  "day_of_ovulation_38": "Dia da ovulação",
+  "lower_probability_39": "Probabilidade menor:",
+  "k_35_days_before_ovulation_40": "3-5 dias antes da ovulação",
+  "very_low_41": "Muito baixo:",
+  "after_ovulation_day_42": "Após o dia da ovulação",
+  "signs_of_ovulation_43": "Sinais de ovulação",
+  "changes_in_cervical_mucus_clear_stretchy_44": "Alterações no muco cervical (claro, elástico)",
+  "slight_increase_in_basal_body_temperature_45": "Ligeiro aumento na temperatura corporal basal",
+  "mild_pelvic_or_abdominal_pain_46": "Dor pélvica ou abdominal leve",
+  "breast_tenderness_47": "Sensibilidade mamária",
+  "increased_libido_48": "Aumento da libido",
+  "important_notes_49": "Notas importantes",
+  "this_calculator_provides_estimates_based_on_averag_50": "Esta calculadora fornece estimativas baseadas em ciclos médios",
+  "actual_ovulation_can_vary_by_12_days_51": "A ovulação real pode variar em 1-2 dias",
+  "stress_illness_and_lifestyle_can_affect_timing_52": "Estresse, doença e estilo de vida podem afetar o tempo",
+  "consult_healthcare_providers_for_fertility_concern_53": "Consulte profissionais de saúde sobre questões de fertilidade"
+}

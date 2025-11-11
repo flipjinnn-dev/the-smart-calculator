@@ -1,0 +1,184 @@
+{
+  "color": "#1a73e8",
+  "sections": [
+    {
+      "heading": "Maximieren Sie Ihre Sozialversicherungsleistungen mit unserem Rechner",
+      "content": "Die Planung für den Ruhestand kann komplex sein, das Verständnis Ihrer Sozialversicherungsleistungen muss jedoch nicht sein. Unser Sozialversicherungsrechner hilft Ihnen, die Sozialversicherungsleistungen schnell und genau abzuschätzen und bietet personalisierte Einblicke auf der Grundlage Ihres beruflichen Werdegangs, Ihres Alters und Ihrer familiären Umstände."
+    },
+    {
+      "heading": "Hauptmerkmale des Sozialversicherungsrechners",
+      "subSections": [
+        {
+          "heading": "Schätzer für die Rente der Sozialversicherung",
+          "content": "Berechnen Sie Ihre geschätzten monatlichen Leistungen basierend auf Ihrem Verdienstverlauf."
+        },
+        {
+          "heading": "Rechner für das volle Rentenalter",
+          "content": "Bestimmen Sie das Alter, ab dem Sie Anspruch auf volle Sozialversicherungsleistungen haben."
+        },
+        {
+          "heading": "Rechner für Vorruhestandsleistungen",
+          "content": "Informieren Sie sich über die Kürzung der Leistungen, wenn Sie Ihren Anspruch vor Erreichen des vollen Rentenalters geltend machen."
+        },
+        {
+          "heading": "Rechner für verspätete Rentengutschriften",
+          "content": "Verstehen Sie, wie sich Ihre Rente erhöht, wenn Sie über das volle Rentenalter hinaus warten."
+        },
+        {
+          "heading": "Rechner für die Erstversicherungssumme (PIA).",
+          "content": "Schätzen Sie den Grundleistungsbetrag, der zur Berechnung Ihrer monatlichen Zahlungen verwendet wird."
+        },
+        {
+          "heading": "Rechner für das durchschnittliche indizierte Monatseinkommen (AIME).",
+          "content": "Erfahren Sie, wie sich Ihr Lebenseinkommen auf Ihre Sozialversicherungsleistungen auswirkt."
+        },
+        {
+          "heading": "Auswirkungen der Anpassung der Lebenshaltungskosten (COLA).",
+          "content": "Verfolgen Sie, wie Inflationsanpassungen Ihre Leistungen im Laufe der Zeit steigern können."
+        },
+        {
+          "heading": "Break-Even-Alter für die soziale Sicherheit",
+          "content": "Vergleichen Sie vorzeitige und verspätete Inanspruchnahme, um das Alter zu ermitteln, ab dem verspätete Leistungen die vorzeitige Inanspruchnahme überwiegen."
+        }
+      ]
+    },
+    {
+      "heading": "Warum diesen Rechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Altersvergleich für Sozialversicherungsansprüche",
+          "content": "Entscheiden Sie, ob eine vorzeitige oder verspätete Inanspruchnahme zu Ihrem Ruhestandsplan passt."
+        },
+        {
+          "heading": "Leistungskürzung bei vorzeitiger Inanspruchnahme",
+          "content": "Verstehen Sie, wie sich die Geltendmachung von Ansprüchen vor dem vollen Rentenalter auf die monatlichen Zahlungen auswirkt."
+        },
+        {
+          "heading": "Verzögerte Erhöhung der Altersrente",
+          "content": "Berechnen Sie die Leistungserhöhung für das Warten bis zum 70. Lebensjahr."
+        },
+        {
+          "heading": "Steuerpflicht für Leistungen",
+          "content": "Erfahren Sie, wie sich Ihr Einkommen auf die Besteuerung von Leistungen auswirken kann."
+        },
+        {
+          "heading": "Auswirkungen auf WEP und GPO",
+          "content": "Bewerten Sie, wie sich Renten aus nicht sozialversicherungspflichtiger Arbeit auf die Leistungen auswirken."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann profitieren?",
+      "subSections": [
+        {
+          "heading": "Ehepartner und nicht erwerbstätige Ehepartner",
+          "content": "Schätzen Sie die Ehegatten- und Hinterbliebenenleistungen."
+        },
+        {
+          "heading": "Geschiedene Personen",
+          "content": "Berechnen Sie die Leistungen auf der Grundlage der Arbeitserfahrung Ihres Ex-Ehepartners."
+        },
+        {
+          "heading": "Witwen/Witwer",
+          "content": "Verwenden Sie den Schätzer für Hinterbliebenenleistungen."
+        },
+        {
+          "heading": "Militärveteranen",
+          "content": "Berücksichtigen Sie Anpassungen der Servicegutschrift."
+        },
+        {
+          "heading": "Bundes- und Landes-/lokale Mitarbeiter",
+          "content": "Verstehen Sie die Unterschiede bei der Deckung durch die soziale Sicherheit."
+        },
+        {
+          "heading": "Selbstständig",
+          "content": "Erhalten Sie PIA- und AIME-Schätzungen basierend auf dem Einkommen aus selbständiger Tätigkeit."
+        },
+        {
+          "heading": "Betreuer und Eltern, die zu Hause bleiben",
+          "content": "Siehe Anspruch auf Leistungen für nicht erwerbstätige Ehegatten."
+        },
+        {
+          "heading": "Nicht-Staatsbürger und Einwanderer",
+          "content": "Überprüfen Sie die Berechtigung und die geschätzten Leistungen."
+        },
+        {
+          "heading": "Kinder",
+          "content": "Berechnen Sie die Sozialversicherungsleistungen für unterhaltsberechtigte Kinder."
+        },
+        {
+          "heading": "Anspruchsberechtigte wegen Behinderung",
+          "content": "Schätzen Sie die Invaliditätsleistungen."
+        }
+      ]
+    },
+    {
+      "heading": "Praktische Szenarien",
+      "subSections": [
+        {
+          "heading": "Vorruhestand",
+          "content": "Jane, 62 Jahre alt, erhält eine Ermäßigung von 25 %. Unter Berücksichtigung der Lebenserwartung und der COLA-Auswirkungen kann sie jedoch entscheiden, ob eine vorzeitige Inanspruchnahme finanziell sinnvoll ist."
+        },
+        {
+          "heading": "Verzögerter Ruhestand",
+          "content": "Der 66-jährige John sieht eine Steigerung um 32 %, wenn er bis zu seinem 70. Lebensjahr wartet, was es ihm ermöglicht, ein höheres Ruhestandseinkommen einzuplanen."
+        },
+        {
+          "heading": "Ehegattenleistungen",
+          "content": "Mary, die nie gearbeitet hat, kann die Ehegattenleistungen anhand der Verdienstunterlagen ihres Ehepartners abschätzen und ihre Anspruchsstrategie optimieren."
+        }
+      ]
+    },
+    {
+      "heading": "Wie es funktioniert",
+      "subSections": [
+        {
+          "heading": "Schritt 1",
+          "content": "Geben Sie Ihr Geburtsdatum, Ihren Verdienstverlauf und andere persönliche Informationen ein."
+        },
+        {
+          "heading": "Schritt 2",
+          "content": "Wählen Sie Ihre Anspruchsstrategie: vorzeitig, volles Rentenalter oder verzögert."
+        },
+        {
+          "heading": "Schritt 3",
+          "content": "Überprüfen Sie Ihre geschätzten Vorteile, einschließlich COLA, WEP, GPO und Steuern."
+        },
+        {
+          "heading": "Schritt 4",
+          "content": "Nutzen Sie die Break-Even-Analyse, um verschiedene Anspruchsalter zu vergleichen und die lebenslangen Vorteile zu maximieren."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist der Rechner für das volle Rentenalter?",
+      "a": "Es bestimmt das Alter, ab dem Sie Anspruch auf volle Sozialversicherungsleistungen ohne Kürzungen haben."
+    },
+    {
+      "q": "Wie wirkt sich eine vorzeitige Pensionierung auf meine Leistungen aus?",
+      "a": "Bei einer Inanspruchnahme vor dem vollen Rentenalter werden die monatlichen Leistungen gemindert. Nutzen Sie den Vorruhestandsgeldrechner, um Ihre genaue Kürzung zu ermitteln."
+    },
+    {
+      "q": "Was ist der Rechner für die Erstversicherungssumme (PIA)?",
+      "a": "PIA stellt Ihre Grundsozialversicherungsleistung vor Anpassungen wie vorzeitiger oder verspäteter Inanspruchnahme dar."
+    },
+    {
+      "q": "Wie kann ich die Sozialversicherungsleistungen für meinen Ehepartner oder meine Kinder abschätzen?",
+      "a": "Unser Rechner umfasst Optionen für Ehepartner, nicht erwerbstätige Ehepartner und Kinder und ermöglicht so individuelle Leistungsprognosen."
+    },
+    {
+      "q": "Wie wirken sich Windfall Elimination Provision (WEP) und Government Pension Offset (GPO) auf die Leistungen aus?",
+      "a": "WEP kann die Leistungen für diejenigen kürzen, die eine Rente aus einer nicht sozialversicherungspflichtigen Beschäftigung beziehen, während GPO die Ehegattenleistungen für staatliche Rentenempfänger kürzen kann."
+    },
+    {
+      "q": "Kann dieser Rechner Militärveteranen oder Bundesangestellten helfen?",
+      "a": "Ja, es berücksichtigt Sonderdienstgutschriften und Renteninteraktionen für Veteranen und Bundes-/Landesangestellte."
+    },
+    {
+      "q": "Beinhaltet dieser Rechner die Anpassung der Lebenshaltungskosten (COLA)?",
+      "a": "Ja, COLA wird berücksichtigt, um potenzielle zukünftige Leistungssteigerungen aufgrund der Inflation widerzuspiegeln."
+    }
+  ]
+}

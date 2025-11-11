@@ -1,0 +1,162 @@
+{
+  "pageTitle": "Retirement Calculator",
+  "pageDescription": "Plan your retirement savings and calculate required contributions to meet your retirement goals with inflation and investment return projections",
+  "form": {
+    "labels": {
+      "currentAge": "Current Age",
+      "retirementAge": "Planned Retirement Age",
+      "lifeExpectancy": "Life Expectancy",
+      "currentSavings": "Current Retirement Savings",
+      "annualSalary": "Current Annual Salary",
+      "salaryIncrease": "Expected Annual Salary Increase",
+      "currentContribution": "Current Annual Contribution",
+      "contributionIncrease": "Expected Annual Contribution Increase",
+      "employerMatch": "Employer Match Percentage",
+      "investmentReturn": "Expected Investment Return",
+      "inflationRate": "Expected Inflation Rate",
+      "retirementIncome": "Desired Annual Retirement Income"
+    },
+    "placeholders": {
+      "currentAge": "Enter your current age",
+      "retirementAge": "Enter your planned retirement age",
+      "lifeExpectancy": "Enter your life expectancy",
+      "currentSavings": "Enter current retirement savings",
+      "annualSalary": "Enter your current annual salary",
+      "salaryIncrease": "Enter expected annual salary increase (%)",
+      "currentContribution": "Enter current annual contribution",
+      "contributionIncrease": "Enter expected annual contribution increase (%)",
+      "employerMatch": "Enter employer match percentage (%)",
+      "investmentReturn": "Enter expected investment return (%)",
+      "inflationRate": "Enter expected inflation rate (%)",
+      "retirementIncome": "Enter desired annual retirement income"
+    },
+    "buttons": {
+      "calculate": "Calculate Retirement Needs",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "yearsToRetirement": "Years Until Retirement",
+    "retirementSavings": "Projected Retirement Savings",
+    "retirementIncome": "Projected Annual Retirement Income",
+    "incomeReplacement": "Income Replacement Rate",
+    "shortfall": "Retirement Savings Shortfall",
+    "requiredContribution": "Required Annual Contribution",
+    "retirementResultsTitle": "Retirement Calculation Results"
+  },
+  "educational": {
+    "retirementInfo": "Retirement Planning Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Financial Resources",
+    "retirementFacts": {
+      "replacementRate": {
+        "title": "Income Replacement Rate",
+        "description": "Most financial planners recommend replacing 70-90% of pre-retirement income"
+      },
+      "socialSecurity": {
+        "title": "Social Security Benefits",
+        "description": "Social Security typically replaces about 40% of pre-retirement income for average earners"
+      },
+      "savingsRate": {
+        "title": "Savings Rate Guidelines",
+        "description": "Financial experts recommend saving 10-15% of income for retirement"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides retirement planning estimates only",
+      "actual": "Actual retirement needs may vary based on lifestyle, health, and market conditions"
+    },
+    "importantNotesList": [
+      "Start saving early to take advantage of compound interest",
+      "Consider healthcare costs, which typically increase with age",
+      "Plan for longer lifespans, potentially 20-30 years in retirement",
+      "Regularly review and adjust your retirement plan as circumstances change"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your retirement planning information to calculate savings needs",
+    "resultMessage": "Your retirement calculation results are shown below",
+    "assessmentResult": "Retirement Calculation Result:",
+    "retirementAnalysis": "Retirement Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides retirement planning estimates based on mathematical projections. Actual retirement needs may vary significantly based on lifestyle choices, healthcare costs, market conditions, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Financial Resources",
+    "content": "For personalized retirement planning and investment advice, consult financial advisors or retirement planning specialists with expertise in long-term financial planning and individual circumstances."
+  },
+  "errors": {
+    "currentAge": "Please enter a valid current age",
+    "retirementAge": "Please enter a valid retirement age",
+    "lifeExpectancy": "Please enter a valid life expectancy",
+    "currentSavings": "Please enter valid current retirement savings",
+    "annualSalary": "Please enter a valid annual salary",
+    "salaryIncrease": "Please enter a valid expected salary increase",
+    "currentContribution": "Please enter a valid current contribution",
+    "contributionIncrease": "Please enter a valid expected contribution increase",
+    "employerMatch": "Please enter a valid employer match percentage",
+    "investmentReturn": "Please enter a valid expected investment return",
+    "inflationRate": "Please enter a valid expected inflation rate",
+    "retirementIncome": "Please enter a valid desired retirement income"
+  },
+  "tooltips": {
+    "currentAge": "Your current age in years",
+    "retirementAge": "Age when you plan to retire",
+    "lifeExpectancy": "Expected age of lifespan",
+    "currentSavings": "Current balance in retirement accounts",
+    "annualSalary": "Your current annual income",
+    "salaryIncrease": "Expected average annual salary growth",
+    "currentContribution": "Amount you're currently contributing annually",
+    "contributionIncrease": "Expected annual increase in contributions",
+    "employerMatch": "Percentage of salary your employer matches",
+    "investmentReturn": "Expected average annual return on investments",
+    "inflationRate": "Expected average annual inflation rate",
+    "retirementIncome": "Annual income needed during retirement"
+  },
+  "your_current_age_0": "Your current age",
+  "your_planned_retirement_age_1": "Your planned retirement age",
+  "your_life_expectancy_2": "Your life expectancy",
+  "current_annual_income_3": "Current annual income",
+  "expected_annual_income_increase_4": "Expected annual income increase (%)",
+  "income_needed_after_retirement_5": "Income needed after retirement (%)",
+  "average_investment_return_6": "Average investment return (%)",
+  "inflation_rate_7": "Inflation rate (%)",
+  "other_income_after_retirement_8": "Other income after retirement",
+  "your_current_income_9": "Your current income",
+  "your_current_retirement_savings_10": "Your current retirement savings",
+  "your_age_now_11": "Your age now",
+  "planned_retirement_age_12": "Planned retirement age",
+  "amount_needed_at_retirement_age_13": "Amount needed at retirement age",
+  "retirement_savings_now_14": "Retirement savings now",
+  "average_investment_return_year_15": "Average investment return (%/year)",
+  "your_age_now_16": "Your age now",
+  "planned_retirement_age_17": "Planned retirement age",
+  "life_expectancy_18": "Life expectancy",
+  "retirement_savings_today_19": "Retirement savings today",
+  "annual_contribution_20": "Annual contribution",
+  "monthly_contribution_21": "Monthly contribution",
+  "average_investment_return_year_22": "Average investment return (%/year)",
+  "inflation_rate_year_23": "Inflation rate (%/year)",
+  "amount_you_have_24": "Amount you have",
+  "planned_monthly_withdrawal_25": "Planned monthly withdrawal",
+  "average_investment_return_year_26": "Average investment return (%/year)",
+  "home_27": "Home",
+  "financial_28": "Financial",
+  "retirement_calculator_29": "Retirement Calculator",
+  "retirement_details_30": "Retirement Details",
+  "enter_your_retirement_information_below_31": "Enter your retirement information below",
+  "calculation_type_32": "Calculation Type",
+  "how_much_do_you_need_to_retire_33": "How much do you need to retire?",
+  "how_can_you_save_for_retirement_34": "How can you save for retirement?",
+  "how_much_can_you_withdraw_after_retirement_35": "How much can you withdraw after retirement?",
+  "how_long_can_your_money_last_36": "How long can your money last?",
+  "calculate_plan_37": "Calculate Plan",
+  "your_retirement_results_38": "Your Retirement Results",
+  "see_your_retirement_calculation_results_here_39": "See your retirement calculation results here",
+  "retirement_calculation_40": "Retirement Calculation",
+  "fill_in_your_details_and_click_calculate_see_your__41": "Fill in your details and click Calculate see your retirement results"
+}

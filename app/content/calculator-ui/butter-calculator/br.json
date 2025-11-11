@@ -1,0 +1,137 @@
+{
+  "pageTitle": "Calculadora de Manteiga",
+  "pageDescription": "Converta medidas de manteiga entre palitos, xícaras, colheres de sopa, colheres de chá e gramas para cozinhar e assar",
+  "form": {
+    "labels": {
+      "inputUnit": "Unidade de entrada",
+      "outputUnit": "Unidade de saída",
+      "amount": "Quantia",
+      "butterType": "Tipo de manteiga"
+    },
+    "placeholders": {
+      "amount": "Insira o valor a ser convertido"
+    },
+    "buttons": {
+      "convert": "Converter medida de manteiga",
+      "reset": "Reiniciar",
+      "calculate": "Calcular Manteiga"
+    },
+    "units": {
+      "sticks": "Varas",
+      "cups": "Copos",
+      "tablespoons": "colheres de sopa",
+      "teaspoons": "Colheres de chá",
+      "grams": "Gramas",
+      "ounces": "Onças",
+      "pounds": "Libras"
+    },
+    "butterTypes": {
+      "salted": "Manteiga Salgada",
+      "unsalted": "Manteiga sem sal",
+      "whipped": "Manteiga Batida",
+      "european": "Manteiga Estilo Europeu"
+    }
+  },
+  "results": {
+    "convertedAmount": "Valor convertido",
+    "conversionResult": "Resultado da conversão",
+    "butterResultsTitle": "Resultados de conversão de manteiga",
+    "equivalentMeasurements": "Medições Equivalentes"
+  },
+  "educational": {
+    "butterInfo": "Informações sobre medição de manteiga",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "Informações adicionais",
+    "disclaimer": "Isenção de responsabilidade importante",
+    "seekHelp": "Recursos culinários",
+    "butterEquivalents": {
+      "standard": {
+        "title": "Equivalentes de manteiga padrão",
+        "description": "1 palito = 1/2 xícara = 8 colheres de sopa = 113g = 4 onças"
+      },
+      "metric": {
+        "title": "Equivalentes Métricos",
+        "description": "1 xícara = 227g, 1 colher de sopa = 14g, 1 colher de chá = 5g"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora fornece apenas conversões de medidas",
+      "substitution": "Considere os requisitos da receita ao substituir os tipos de manteiga"
+    },
+    "importantNotesList": [
+      "Manteiga com e sem sal geralmente pode ser substituída 1:1",
+      "Manteiga batida tem mais volume, mas menos gordura por xícara",
+      "A manteiga de estilo europeu tem maior teor de gordura do que a manteiga americana",
+      "Sempre meça a manteiga com precisão para obter melhores resultados de cozimento"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Insira sua medida de manteiga para converter",
+    "resultMessage": "Sua medida de manteiga convertida é mostrada abaixo",
+    "assessmentResult": "Resultado da conversão:",
+    "butterAnalysis": "Análise de Medição de Manteiga"
+  },
+  "disclaimer": {
+    "title": "Isenção de responsabilidade importante",
+    "content": "Esta calculadora fornece conversões de medidas de manteiga com base em equivalentes padrão. Os pesos reais podem variar ligeiramente com base na marca e na embalagem."
+  },
+  "seekHelp": {
+    "title": "Recursos culinários",
+    "content": "Para aconselhamento culinário profissional e desenvolvimento de receitas, considere consultar profissionais de culinária ou usar recursos culinários e livros de receitas especializados."
+  },
+  "errors": {
+    "amount": "Insira um valor válido",
+    "inputUnit": "Selecione uma unidade de entrada",
+    "outputUnit": "Selecione uma unidade de saída",
+    "butterType": "Selecione um tipo de manteiga"
+  },
+  "tooltips": {
+    "inputUnit": "A unidade de medida da qual você está convertendo",
+    "outputUnit": "A unidade de medida para a qual você está convertendo",
+    "amount": "A quantidade de manteiga que você deseja converter",
+    "butterType": "O tipo de manteiga afeta o peso e o volume"
+  },
+  "loading_0": "Carregando...",
+  "butter_conversions_1": "Conversões de manteiga",
+  "choose_your_input_measurement_to_convert_to_all_ot_2": "Escolha sua medida de entrada para converter para todas as outras unidades",
+  "what_unit_would_you_like_to_convert_from_3": "De qual unidade você gostaria de converter?",
+  "sticks_4": "Varas",
+  "cups_5": "Copos",
+  "tablespoons_6": "colheres de sopa",
+  "grams_7": "Gramas",
+  "number_of_sticks_8": "Número de palitos",
+  "formula_9": "Fórmula:",
+  "k_1_stick_cup_8_tbsp_24_tsp_113g_10": "1 palito = ½ xícara = 8 colheres de sopa = 24 colheres de chá = 113g",
+  "number_of_cups_11": "Número de Copas",
+  "formula_12": "Fórmula:",
+  "k_1_cup_2_sticks_16_tbsp_48_tsp_226g_13": "1 xícara = 2 palitos = 16 colheres de sopa = 48 colheres de chá = 226g",
+  "number_of_tablespoons_14": "Número de colheres de sopa",
+  "formula_15": "Fórmula:",
+  "k_1_tbsp_0125_sticks_00625_cups_3_tsp_141g_16": "1 colher de sopa = 0,125 palitos = 0,0625 xícaras = 3 colheres de chá = 14,1g",
+  "weight_in_grams_17": "Peso em gramas",
+  "formula_18": "Fórmula:",
+  "k_1g_000885_sticks_000442_cups_0071_tbsp_19": "1g = 0,00885 palitos = 0,00442 xícaras = 0,071 colheres de sopa",
+  "convert_butter_20": "Converter Manteiga",
+  "conversions_21": "Conversões",
+  "equals_22": "é igual a:",
+  "sticks_23": "palitos",
+  "cups_24": "xícaras",
+  "tbsp_25": "colher de sopa",
+  "tsp_26": "colher de chá",
+  "grams_27": "gramas",
+  "perfect_for_your_cooking_and_baking_needs_28": "Perfeito para suas necessidades de cozinhar e assar!",
+  "enter_a_value_and_click_29": "Insira um valor e clique em",
+  "convert_butter_30": "Converter Manteiga",
+  "to_see_all_conversions_31": "para ver todas as conversões.",
+  "how_to_use_this_calculator_32": "Como usar esta calculadora?",
+  "k_1_33": "1",
+  "select_the_unit_you_want_to_convert_from_sticks_cu_34": "Selecione a unidade que deseja converter (palitos, xícaras, colheres de sopa ou gramas).",
+  "k_2_35": "2",
+  "enter_the_amount_you_have_in_your_recipe_36": "Insira a quantidade que você tem em sua receita.",
+  "k_3_37": "3",
+  "click_38": "Clique",
+  "convert_butter_39": "Converter Manteiga",
+  "to_see_all_equivalent_measurements_40": "para ver todos equivalentes\n                        medições.",
+  "k_4_41": "4",
+  "use_the_converted_measurements_in_your_cooking_and_42": "Use as medidas convertidas em sua cozinha e panificação!"
+}

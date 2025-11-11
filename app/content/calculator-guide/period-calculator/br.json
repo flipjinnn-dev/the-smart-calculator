@@ -1,0 +1,97 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Calculadora de período: monitore seu ciclo menstrual com precisão",
+      "content": "Compreender o seu ciclo menstrual é essencial para gerenciar sua saúde, planejar gestações e monitorar a fertilidade. Nossa calculadora de período gratuito on-line ajuda você a prever sua próxima menstruação, datas de ovulação e janela fértil com facilidade e precisão. Quer você tenha um ciclo regular ou períodos irregulares, esta ferramenta fornece informações personalizadas com base nos seus dados menstruais."
+    },
+    {
+      "heading": "Como usar a calculadora de período",
+      "content": "Usar nossa Calculadora do Ciclo Menstrual é simples:",
+      "subSections": [
+        {
+          "heading": "Etapa 1: insira a data do último período (DUM)",
+          "content": "Insira o primeiro dia do seu último ciclo menstrual."
+        },
+        {
+          "heading": "Etapa 2: insira a duração média do ciclo",
+          "content": "Normalmente 28 dias, mas pode variar de 21 a 35 dias."
+        },
+        {
+          "heading": "Etapa 3: pressione 'Calcular'",
+          "content": "Obtenha a data da próxima menstruação, a janela fértil e a data da ovulação instantaneamente."
+        }
+      ]
+    },
+    {
+      "heading": "Por que usar uma calculadora de período?",
+      "content": "Acompanhar seu ciclo oferece vários benefícios:",
+      "subSections": [
+        {
+          "heading": "Plano para a gravidez",
+          "content": "Conheça seus dias de ovulação com nossa Calculadora de Ovulação e Fertilidade."
+        },
+        {
+          "heading": "Monitore ciclos irregulares",
+          "content": "Entenda como a duração do ciclo afeta seus dias de fertilidade."
+        },
+        {
+          "heading": "Rastrear sintomas",
+          "content": "Preveja TPM ou mudanças relacionadas ao período."
+        },
+        {
+          "heading": "Informações sobre saúde",
+          "content": "Detecte alterações em seu ciclo menstrual que podem exigir atenção médica."
+        },
+        {
+          "heading": "Previsão baseada em IA",
+          "content": "Use o rastreamento de ciclo alimentado por IA para maior precisão."
+        }
+      ]
+    },
+    {
+      "heading": "Compreendendo os ciclos menstruais, ovulação e fertilidade",
+      "content": "Obtenha uma compreensão mais profunda de sua saúde reprodutiva:",
+      "subSections": [
+        {
+          "heading": "O que é um ciclo menstrual?",
+          "content": "Um processo mensal que envolve ovulação, sangramento e alterações hormonais. Um ciclo típico dura de 21 a 35 dias, com a menstruação geralmente de 3 a 7 dias."
+        },
+        {
+          "heading": "Janela fértil explicada",
+          "content": "A janela fértil é o período em que a concepção é mais provável, geralmente 5 dias antes da ovulação e no dia da ovulação."
+        },
+        {
+          "heading": "Ovulação e concepção",
+          "content": "A ovulação ocorre quando um óvulo é liberado do ovário, geralmente no meio do ciclo. Acompanhar a ovulação aumenta as chances de gravidez."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quão precisa é uma calculadora de período?",
+      "a": "Uma calculadora de período prevê seu ciclo com base em suas informações. A precisão é maior com ciclos regulares e melhora com ferramentas baseadas em IA."
+    },
+    {
+      "q": "Posso usar uma calculadora de período para períodos irregulares?",
+      "a": "Sim, o nosso monitor menstrual inteligente adapta-se a ciclos irregulares para fornecer previsões personalizadas."
+    },
+    {
+      "q": "Qual é a duração normal de um ciclo menstrual?",
+      "a": "Um ciclo normal varia de 21 a 35 dias, com média de 28 dias."
+    },
+    {
+      "q": "Como acompanho meus dias férteis?",
+      "a": "Insira as informações do seu ciclo no Rastreador de Período e Ovulação para ver sua janela fértil e datas de ovulação."
+    },
+    {
+      "q": "Existem calculadoras de período com lembretes?",
+      "a": "Sim, alguns aplicativos de calculadora de período incluem lembretes que notificam você antes da próxima menstruação ou janela fértil."
+    }
+  ],
+  "cta": {
+    "heading": "Comece a monitorar seu ciclo hoje",
+    "content": "Assuma o controle de sua saúde reprodutiva com nossa calculadora precisa de previsão de período. Insira seus dados para calcular sua próxima menstruação, data de ovulação e dias férteis instantaneamente. Comece a monitorar seus ciclos para um melhor planejamento e melhores insights de saúde!"
+  }
+}

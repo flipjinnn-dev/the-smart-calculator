@@ -1,0 +1,114 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de ovulação?",
+      "content": "Nossa calculadora de ovulação on-line gratuita ajuda a estimar o dia da ovulação, a janela fértil e as melhores datas de concepção com base na duração do seu ciclo menstrual. Esta ferramenta oferece uma maneira rápida e precisa de prever quando você terá maior probabilidade de engravidar."
+    },
+    {
+      "heading": "Como funciona a calculadora de ovulação?",
+      "content": "Uma calculadora de data de ovulação prevê quando seu ovário libera um óvulo. A maioria das mulheres ovula cerca de 14 dias antes da próxima menstruação. Ao inserir o primeiro dia da sua última menstruação e a duração média do seu ciclo, a calculadora estima o dia da ovulação, a janela fértil e as possíveis datas de concepção."
+    },
+    {
+      "heading": "Compreendendo sua janela fértil",
+      "subSections": [
+        {
+          "heading": "Vida útil do esperma",
+          "content": "O esperma pode viver até 5 dias no trato reprodutivo."
+        },
+        {
+          "heading": "Vida útil do ovo",
+          "content": "O óvulo sobrevive 12–24 horas após a ovulação."
+        },
+        {
+          "heading": "Chances de concepção",
+          "content": "Ter relações sexuais durante esses dias maximiza as chances de concepção."
+        }
+      ]
+    },
+    {
+      "heading": "Precisão das calculadoras de ovulação",
+      "content": "Mais preciso quando os ciclos são regulares (28–32 dias). Menos preciso com períodos irregulares, SOP, problemas de tireoide ou estresse. Melhor usado junto com sinais de ovulação, como muco cervical, temperatura corporal basal ou kits de ovulação. Este é um guia, não uma ferramenta de diagnóstico."
+    },
+    {
+      "heading": "Situações Especiais",
+      "subSections": [
+        {
+          "heading": "Ciclos Irregulares",
+          "content": "Use médias, mas também acompanhe os sinais de ovulação."
+        },
+        {
+          "heading": "SOP ou estresse",
+          "content": "Os ciclos podem ser imprevisíveis – considere testes de ovulação."
+        },
+        {
+          "heading": "Ciclos de fertilização in vitro",
+          "content": "Use uma calculadora de ovulação de fertilização in vitro on-line orientada por seu médico de fertilidade."
+        },
+        {
+          "heading": "Cálculo da data de vencimento",
+          "content": "Uma calculadora de data de vencimento e ovulação pode estimar a concepção e o parto esperado."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora de ovulação vs calendário de ovulação",
+      "subSections": [
+        {
+          "heading": "Calculadora",
+          "content": "Estima a ovulação e os dias férteis com base nos dados inseridos."
+        },
+        {
+          "heading": "Calendário",
+          "content": "Rastreia ciclos ao longo do tempo, mas é menos preciso para ciclos irregulares."
+        },
+        {
+          "heading": "Dica",
+          "content": "Por conveniência, experimente uma Calculadora de Ovulação com exportação de calendário ou integração de aplicativos."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quando devo ovular?",
+      "a": "A maioria das mulheres ovula cerca de 14 dias antes da próxima menstruação."
+    },
+    {
+      "q": "Como calcular a ovulação?",
+      "a": "Conte 14 dias a partir da sua próxima menstruação ou use uma ferramenta de calculadora de ovulação online."
+    },
+    {
+      "q": "Qual é a janela fértil?",
+      "a": "Os 5 dias antes da ovulação mais o dia da ovulação são a sua janela fértil."
+    },
+    {
+      "q": "Quantos dias após a menstruação você ovula?",
+      "a": "Normalmente 10–16 dias após o primeiro dia da menstruação, dependendo da duração do ciclo."
+    },
+    {
+      "q": "Quão precisas são as calculadoras de ovulação?",
+      "a": "Preciso para ciclos regulares, mas menos preciso para ciclos irregulares ou afetados clinicamente."
+    },
+    {
+      "q": "O estresse pode atrasar a ovulação?",
+      "a": "Sim. O estresse pode atrasar ou suprimir a ovulação, alterando sua janela fértil."
+    },
+    {
+      "q": "Quais são os sinais de ovulação nas mulheres?",
+      "a": "Alterações no muco cervical, dor pélvica leve, sensibilidade mamária e aumento da temperatura corporal basal."
+    },
+    {
+      "q": "Como monitorar a ovulação naturalmente?",
+      "a": "Acompanhe os ciclos, o muco cervical e a temperatura corporal basal ou use kits de ovulação."
+    },
+    {
+      "q": "Como funciona a ovulação em períodos irregulares?",
+      "a": "A ovulação é imprevisível. Use uma calculadora com opção de ciclo irregular e rastreamento de sintomas."
+    },
+    {
+      "q": "Quanto tempo dura a ovulação?",
+      "a": "A ovulação em si dura de 12 a 24 horas, mas sua janela fértil dura 6 dias."
+    }
+  ]
+}

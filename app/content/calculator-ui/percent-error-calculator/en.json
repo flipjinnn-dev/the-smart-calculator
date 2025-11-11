@@ -1,0 +1,108 @@
+{
+  "pageTitle": "Percentage Error Calculator",
+  "pageDescription": "Calculate the percentage error between an estimated value and the actual value",
+  "form": {
+    "labels": {
+      "estimatedValue": "Estimated Value",
+      "actualValue": "Actual Value"
+    },
+    "placeholders": {
+      "estimatedValue": "Enter your estimated value",
+      "actualValue": "Enter the actual value"
+    },
+    "buttons": {
+      "calculate": "Calculate Percentage Error",
+      "reset": "Reset"
+    }
+  },
+  "results": {
+    "percentageError": "Percentage Error",
+    "absoluteError": "Absolute Error",
+    "relativeError": "Relative Error",
+    "formula": "Formula Used",
+    "calculation": "Calculation Details"
+  },
+  "educational": {
+    "errorInfo": "Percentage Error Information",
+    "criticalWarnings": "Important Notes",
+    "importantNotes": "Additional Information",
+    "disclaimer": "Important Disclaimer",
+    "seekHelp": "Mathematics Resources",
+    "errorFacts": {
+      "definition": {
+        "title": "Percentage Error Definition",
+        "description": "Percentage error measures the discrepancy between an estimated value and the actual value as a percentage"
+      },
+      "formula": {
+        "title": "Calculation Formula",
+        "description": "Percentage Error = (|Estimated Value - Actual Value| / Actual Value) × 100%"
+      },
+      "applications": {
+        "title": "Real-world Applications",
+        "description": "Used in science experiments, engineering measurements, and quality control to assess accuracy"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "This calculator provides percentage error calculations only",
+      "actual": "Actual error may vary based on measurement accuracy and methodology"
+    },
+    "importantNotesList": [
+      "Percentage error is always expressed as a positive value",
+      "A smaller percentage error indicates higher accuracy",
+      "The actual value should not be zero to avoid division by zero",
+      "Results help assess the reliability of measurements or estimates"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Enter your estimated and actual values to calculate percentage error",
+    "resultMessage": "Your percentage error calculation results are shown below",
+    "assessmentResult": "Percentage Error Calculation Result:",
+    "errorAnalysis": "Error Analysis"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "content": "This calculator provides percentage error calculations based on standard mathematical formulas. Actual error values may vary based on measurement accuracy, methodology, and other factors not included in these calculations."
+  },
+  "seekHelp": {
+    "title": "Mathematics Resources",
+    "content": "For advanced error analysis and statistical methods, consult mathematics textbooks or academic resources on numerical analysis and measurement theory."
+  },
+  "errors": {
+    "estimatedValue": "Please enter a valid estimated value",
+    "actualValue": "Please enter a valid actual value",
+    "zeroActual": "Actual value cannot be zero"
+  },
+  "tooltips": {
+    "estimatedValue": "The value you estimated or calculated",
+    "actualValue": "The true or accepted value for comparison"
+  },
+  "smart_calculator_0": "Smart Calculator",
+  "percent_error_calculator_1": "Percent Error Calculator",
+  "percent_error_calculator_2": "Percent Error Calculator",
+  "calculate_the_percent_error_between_a_measured_val_3": "Calculate the percent error between a measured value and an actual value instantly.",
+  "percent_error_calculator_4": "Percent Error Calculator",
+  "enter_measured_and_actual_values_5": "Enter measured and actual values",
+  "measured_value_6": "Measured Value",
+  "actual_value_7": "Actual Value",
+  "calculate_8": "Calculate",
+  "result_9": "Result",
+  "percent_error_10": "Percent error =",
+  "formula_11": "Formula:",
+  "percent_error_vobserved_vtrue_vtrue_100_12": "Percent Error = (Vobserved - Vtrue) / Vtrue × 100",
+  "observed_value_13": "Observed Value:",
+  "true_value_14": "True Value:",
+  "percent_error_absolute_15": "Percent Error (absolute):",
+  "error_16": "% error",
+  "enter_values_and_click_17": "Enter values and click",
+  "calculate_18": "Calculate",
+  "to_see_percent_error_19": "to see percent error.",
+  "how_to_use_this_calculator_20": "How to use this calculator?",
+  "k_1_21": "1",
+  "enter_the_measured_value_22": "Enter the measured value.",
+  "k_2_23": "2",
+  "enter_the_actual_true_value_24": "Enter the actual (true) value.",
+  "k_3_25": "3",
+  "click_26": "Click",
+  "calculate_27": "Calculate",
+  "to_see_the_percent_error_instantly_28": "to see the percent error instantly."
+}
