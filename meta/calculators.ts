@@ -2117,7 +2117,7 @@ export const calculatorsMeta: CalculatorMeta = {
     de: {
       title: "Kuchenform Rechner – Zutatenmenge einfach umrechnen",
       description: "Berechne mit dem Kuchenform Rechner die richtige Zutatenmenge für jede Backform. Schnell",
-      slug: "/de/physik/kuchenform-rechner",
+      slug: "/de/essen/kuchenform-rechner",
       keywords: "Backform Größe, Äquivalenz Backformen, Rezept anpassen"
     }
   },
@@ -2339,7 +2339,7 @@ export const calculatorsMeta: CalculatorMeta = {
     de: {
       title: "Altersrechner",
       description: "Berechnen Sie das Alter in Jahren, Monaten und Tagen basierend auf dem Geburtsdatum. Nützliches Tool für offizielle Aufzeichnungen und Planung.",
-      slug: "/de/altersrechner/alter-rechner",
+      slug: "/de/andere/alter-rechner",
       keywords: "Alter, Altersrechner, Jahre Monate Tage, Geburtsdatum, offizielle Aufzeichnungen"
     }
   },
