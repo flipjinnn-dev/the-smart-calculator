@@ -14,7 +14,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Activity, Calculator, User, Scale, Ruler, AlertCircle, RotateCcw, HelpCircle } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
-import bsaData from "@/app/content/bsa-calculator.json";
+
 export default function BodySurfaceAreaCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -23,6 +23,7 @@ export default function BodySurfaceAreaCalculatorCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('body-surface-area-calculator', language, "calculator-ui");
+  const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent('body-surface-area-calculator', language, "calculator-guide");
 
   // Use content or fallback to defaults
   const contentData = content || {
@@ -113,6 +114,7 @@ export default function BodySurfaceAreaCalculatorCalculator() {
     "note_74": "",
     "normal_adult_bsa_ranges_from_15_to_20_m_average_ad_75": ""
   };
+  const guideData = guideContent || { color: 'teal', sections: [], faq: [] };
   const [result, setResult] = useState<any>(null);
   const [showResult, setShowResult] = useState(false);
   const [errors, setErrors] = useState<{
@@ -541,7 +543,7 @@ export default function BodySurfaceAreaCalculatorCalculator() {
 
            {/* How to Use Section */}
           <div className="mt-8">
-            <CalculatorGuide data={bsaData} />
+            <CalculatorGuide data={guideData} />
           </div>
         </main>
 

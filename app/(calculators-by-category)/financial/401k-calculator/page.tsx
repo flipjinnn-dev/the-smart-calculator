@@ -15,7 +15,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
-import fourOhOneKData from "@/app/content/401-k-calculator.json";
+
 export default function FourOhOneKCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -24,6 +24,7 @@ export default function FourOhOneKCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('401k-calculator', language, "calculator-ui");
+  const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent('401k-calculator', language, "calculator-guide");
 
   // Use content or fallback to defaults
   const contentData = content || {
@@ -120,6 +121,7 @@ export default function FourOhOneKCalculator() {
     "k_401k_calculator_0": "",
     "choose_your_calculation_type_and_get_accurate_reti_1": ""
   };
+  const guideData = guideContent || { color: 'blue', sections: [], faq: [] };
   const resultsRef = useRef<HTMLDivElement>(null);
   const scrollToRef = useMobileScroll();
   const [activeTab, setActiveTab] = useState("retirement");
@@ -772,7 +774,7 @@ export default function FourOhOneKCalculator() {
 
             {/* Educational Content */}
             <div className="mt-0 space-y-8">
-              <CalculatorGuide data={fourOhOneKData} />
+              <CalculatorGuide data={guideData} />
               {/* Formulas */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-green-50 rounded-t-lg border-b px-8 py-6">

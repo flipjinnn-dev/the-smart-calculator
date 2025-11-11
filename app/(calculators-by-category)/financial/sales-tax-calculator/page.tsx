@@ -15,7 +15,7 @@ import { Separator } from "@/components/ui/separator";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
-import salesTaxData from "@/app/content/sales-tax-calulcator.json";
+
 export default function SalesTaxCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -24,6 +24,7 @@ export default function SalesTaxCalculatorCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('sales-tax-calculator', language, "calculator-ui");
+  const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent('sales-tax-calculator', language, "calculator-guide");
 
   // Use content or fallback to defaults
   const contentData = content || {
@@ -65,6 +66,7 @@ export default function SalesTaxCalculatorCalculator() {
     "example_3_find_tax_rate_33": "",
     "pretax_100_aftertax_108_tax_rate_8_34": ""
   };
+  const guideData = guideContent || { color: 'green', sections: [], faq: [] };
   const resultsRef = useRef<HTMLDivElement>(null);
   const scrollToRef = useMobileScroll();
   const [calculationMode, setCalculationMode] = useState("fromPreTax");
@@ -363,7 +365,7 @@ export default function SalesTaxCalculatorCalculator() {
               </Card>
 
               {/* Guide */}
-              <CalculatorGuide data={salesTaxData} />
+              <CalculatorGuide data={guideData} />
             </div>
           </div>
         </main>

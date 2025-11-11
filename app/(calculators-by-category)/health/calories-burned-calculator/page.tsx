@@ -13,7 +13,6 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Calculator, RotateCcw, Activity, Clock, Weight, Flame } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
-import calorieBurnData from "@/app/content/calorie-burned-calculator.json";
 import SimilarCalculators from "@/components/similar-calculators";
 
 // Activity data with MET values
@@ -181,6 +180,7 @@ export default function CaloriesBurnedCalculatorCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('calories-burned-calculator', language, "calculator-ui");
+  const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent('calories-burned-calculator', language, "calculator-guide");
 
   // Use content or fallback to defaults
   const contentData = content || {
@@ -258,6 +258,8 @@ export default function CaloriesBurnedCalculatorCalculator() {
     "k_60_69": "",
     "vigorous_70": ""
   };
+
+  const guideData = guideContent || { color: 'orange', sections: [], faq: [] };
   const resultsRef = useRef<HTMLDivElement>(null);
   const scrollToRef = useMobileScroll();
   const [result, setResult] = useState<any>(null);
@@ -655,7 +657,7 @@ export default function CaloriesBurnedCalculatorCalculator() {
 
           {/* How to Use Section */}
           <div className="mt-8">
-              <CalculatorGuide data={calorieBurnData} />
+              <CalculatorGuide data={guideData} />
           </div>
         </main>
       </div>

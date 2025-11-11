@@ -15,7 +15,6 @@ import { Separator } from "@/components/ui/separator";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
-import salaryCalculator from "@/app/content/salary-calculator.json";
 type PayFrequency = "hourly" | "daily" | "weekly" | "biweekly" | "semimonthly" | "monthly" | "quarterly" | "yearly";
 interface SalaryResults {
   unadjustedAnnual: number;
@@ -493,7 +492,7 @@ export default function SalaryCalculatorCalculator() {
               </Card>
 
               {/* Guide */}
-              <CalculatorGuide data={salaryCalculator} />
+              <CalculatorGuide data={guideData} />
             </div>
           </div>
         </main>
