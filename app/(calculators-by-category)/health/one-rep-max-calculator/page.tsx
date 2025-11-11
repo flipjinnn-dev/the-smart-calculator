@@ -12,7 +12,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Dumbbell, Target, TrendingUp } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
-import oneRepMaxData from "@/app/content/one-rap-calculator.json";
+
 export default function OneRepMaxCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -21,6 +21,7 @@ export default function OneRepMaxCalculatorCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('one-rep-max-calculator', language, "calculator-ui");
+  const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent('one-rep-max-calculator', language, "calculator-guide");
 
   // Use content or fallback to defaults
   const contentData = content || {
@@ -110,6 +111,8 @@ export default function OneRepMaxCalculatorCalculator() {
     "max_strength_82": "",
     "enter_your_lift_weight_repetitions_and_select_a_fo_1": ""
   };
+
+  const guideData = guideContent || { color: 'red', sections: [], faq: [] };
   const resultsRef = useRef<HTMLDivElement>(null);
   const scrollToRef = useMobileScroll();
   const [result, setResult] = useState<any>(null);
@@ -524,10 +527,10 @@ export default function OneRepMaxCalculatorCalculator() {
 
            {/* How to Use Section */}
           <div className="mt-8">
-              <CalculatorGuide data={oneRepMaxData} />
+              <CalculatorGuide data={guideData} />
           </div>
 
         </main>
       </div>
-    </>;
+    </>
 }

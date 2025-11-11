@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
 
 // Multilingual SEO metadata for 401k-calculator
-const 401kcalculatorMeta = {
+const calculator401kMeta = {
   en: {
     title: "401(k) Calculator – Savings Growth Online | TheSmartCalculator",
     description: "Use the 401(k) Calculator to estimate savings growth and retirement income with contributions and rates. Accurate, free online tool for financial planning and projections.",
@@ -30,11 +30,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const headerList = await headers();
   const langHeader = headerList.get('x-language');
   const language =
-    langHeader && 401kcalculatorMeta[langHeader as keyof typeof 401kcalculatorMeta]
+    langHeader && calculator401kMeta[langHeader as keyof typeof calculator401kMeta]
       ? langHeader
       : "en";
 
-  const meta = 401kcalculatorMeta[language as keyof typeof 401kcalculatorMeta];
+  const meta = calculator401kMeta[language as keyof typeof calculator401kMeta];
   
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCanonicalUrl('401k-calculator', language);
@@ -61,7 +61,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function 401kCalculatorLayout({
+export default async function Calculator401kLayout({
   children,
 }: {
   children: React.ReactNode;

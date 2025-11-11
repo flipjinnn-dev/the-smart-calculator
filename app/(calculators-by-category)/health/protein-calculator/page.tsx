@@ -13,7 +13,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Zap, User, Target } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
-import proteinIntakeData from "@/app/content/protien-intake-calculator.json";
 export default function ProteinCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -22,6 +21,7 @@ export default function ProteinCalculatorCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('protein-calculator', language, "calculator-ui");
+  const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent('protein-calculator', language, "calculator-guide");
 
   // Use content or fallback to defaults
   const contentData = content || {
@@ -132,6 +132,8 @@ export default function ProteinCalculatorCalculator() {
     "individual_needs_may_vary_based_on_genetics_94": "",
     "consult_a_nutritionist_for_personalized_advice_95": ""
   };
+
+  const guideData = guideContent || { color: 'green', sections: [], faq: [] };
   const resultsRef = useRef<HTMLDivElement>(null);
   const scrollToRef = useMobileScroll();
   const [result, setResult] = useState<any>(null);
@@ -677,9 +679,9 @@ export default function ProteinCalculatorCalculator() {
 
            {/* How to Use Section */}
           <div className="mt-8">
-              <CalculatorGuide data={proteinIntakeData} />
+              <CalculatorGuide data={guideData} />
           </div>
         </main>
       </div>
-    </>;
+    </>
 }

@@ -9,12 +9,11 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Heart, Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Scale } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
-import overweightData from "@/app/content/overwieght-calculator.json";
+
 export default function OverweightCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -23,6 +22,7 @@ export default function OverweightCalculatorCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('overweight-calculator', language, "calculator-ui");
+  const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent('overweight-calculator', language, "calculator-guide");
 
   // Use content or fallback to defaults
   const contentData = content || {
@@ -86,6 +86,8 @@ export default function OverweightCalculatorCalculator() {
     "consult_healthcare_professionals_57": "",
     "for_personalized_health_advice_and_weight_manageme_58": ""
   };
+
+  const guideData = guideContent || { color: 'orange', sections: [], faq: [] };
   const [result, setResult] = useState<any>(null);
   const [showResult, setShowResult] = useState(false);
   const [errors, setErrors] = useState<{
@@ -561,9 +563,9 @@ export default function OverweightCalculatorCalculator() {
 
            {/* How to Use Section */}
           <div className="mt-8">
-           <CalculatorGuide data={overweightData} />
+           <CalculatorGuide data={guideData} />
           </div>
         </main>
       </div>
-    </>;
+    </>
 }

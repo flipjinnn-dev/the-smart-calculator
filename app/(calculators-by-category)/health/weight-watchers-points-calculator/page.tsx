@@ -12,7 +12,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Apple } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
-import weightWatchersPointsData from "@/app/content/weight-watcher-calculator.json";
+
 export default function WeightWatchersPointsCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -21,6 +21,7 @@ export default function WeightWatchersPointsCalculatorCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('weight-watchers-points-calculator', language, "calculator-ui");
+  const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent('weight-watchers-points-calculator', language, "calculator-guide");
 
   // Use content or fallback to defaults
   const contentData = content || {
@@ -105,6 +106,8 @@ export default function WeightWatchersPointsCalculatorCalculator() {
     "note_about_weight_watchers_68": "",
     "this_calculator_uses_the_smartpoints_formula_from__69": ""
   };
+
+  const guideData = guideContent || { color: 'purple', sections: [], faq: [] };
   const [result, setResult] = useState<any>(null);
   const [showResult, setShowResult] = useState(false);
   const [errors, setErrors] = useState<{
@@ -494,10 +497,10 @@ export default function WeightWatchersPointsCalculatorCalculator() {
 
           {/* How to Use Section */}
           <div className="mt-8">
-            <CalculatorGuide data={weightWatchersPointsData} />
+            <CalculatorGuide data={guideData} />
           </div>
 
         </main>
       </div>
-    </>;
+    </>
 }
