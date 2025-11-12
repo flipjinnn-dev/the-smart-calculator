@@ -26,7 +26,7 @@ export default function MortgageCalculator() {
   const language = pathname.split('/')[1] || 'en';
   const { content, loading, error: contentError } = useCalculatorContent('mortgage-calculator', language, 'calculator-ui');
   const { content: guideContent, loading: guideLoading, error: guideError } = useCalculatorContent('mortgage-calculator', language, "calculator-guide");
-  
+
   // Use content or fallback to defaults
   const contentData = content || {
     pageTitle: "Mortgage Calculator",
@@ -227,130 +227,130 @@ export default function MortgageCalculator() {
   };
   return <>
 
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
 
-        {/* Main Content */}
-        <main className="py-8 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-8">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-green-600 rounded-2xl flex items-center justify-center shadow-lg">
-                  <Home className="w-8 h-8 text-white" />
-                </div>
+      {/* Main Content */}
+      <main className="py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-green-600 rounded-2xl flex items-center justify-center shadow-lg">
+                <Home className="w-8 h-8 text-white" />
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.advanced_mortgage_calculator_0}</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.calculate_your_complete_mortgage_costs_with_advanc_1}</p>
             </div>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.advanced_mortgage_calculator_0}</h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.calculate_your_complete_mortgage_costs_with_advanc_1}</p>
+          </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              {/* Calculator Form */}
-              <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 bg-white pt-0">
-                  <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
-                    <CardTitle className="flex items-center space-x-3 text-2xl">
-                      <Calculator className="w-6 h-6 text-green-600" />
-                      <span>{contentData.mortgage_calculator_2}</span>
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="p-8">
-                    {/* Basic Information */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                      <div className="space-y-3">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.home_price_3}</Label>
-                        <div className="relative">
-                          <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                          <Input type="number" placeholder="400,000" value={homePrice} onChange={e => setHomePrice(e.target.value)} className="pl-10 h-12 text-lg border-2 focus:border-green-500" />
-                        </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Calculator Form */}
+            <div className="lg:col-span-2">
+              <Card className="shadow-2xl border-0 bg-white pt-0">
+                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 rounded-t-lg border-b px-8 py-6">
+                  <CardTitle className="flex items-center space-x-3 text-2xl">
+                    <Calculator className="w-6 h-6 text-green-600" />
+                    <span>{contentData.mortgage_calculator_2}</span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="p-8">
+                  {/* Basic Information */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div className="space-y-3">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.home_price_3}</Label>
+                      <div className="relative">
+                        <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+                        <Input type="number" placeholder="400,000" value={homePrice} onChange={e => setHomePrice(e.target.value)} className="pl-10 h-12 text-lg border-2 focus:border-green-500" />
                       </div>
+                    </div>
 
-                      <div className="space-y-3">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.down_payment_4}</Label>
-                        <div className="flex space-x-2">
-                          <Select value={downPaymentType} onValueChange={setDownPaymentType}>
-                            <SelectTrigger className="w-20 h-12 border-2">
-                              <SelectValue />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value="percent">%</SelectItem>
-                              <SelectItem value="amount">$</SelectItem>
-                            </SelectContent>
-                          </Select>
-                          <div className="relative flex-1">
-                            {downPaymentType === "amount" && <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />}
-                            {downPaymentType === "percent" && <Percent className="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />}
-                            <Input type="number" placeholder={downPaymentType === "percent" ? "20" : "80,000"} value={downPaymentType === "percent" ? downPaymentPercent : downPaymentAmount} onChange={e => downPaymentType === "percent" ? setDownPaymentPercent(e.target.value) : setDownPaymentAmount(e.target.value)} className={`h-12 text-lg border-2 focus:border-green-500 ${downPaymentType === "amount" ? "pl-10" : "pr-10"}`} />
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="space-y-3">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.loan_term_5}</Label>
-                        <div className="relative">
-                          <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                          <Select value={loanTerm} onValueChange={setLoanTerm}>
-                            <SelectTrigger className="pl-10 h-12 border-2 focus:border-green-500">
-                              <SelectValue />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value="10">{contentData.k_10_years_6}</SelectItem>
-                              <SelectItem value="15">{contentData.k_15_years_7}</SelectItem>
-                              <SelectItem value="20">{contentData.k_20_years_8}</SelectItem>
-                              <SelectItem value="25">{contentData.k_25_years_9}</SelectItem>
-                              <SelectItem value="30">{contentData.k_30_years_10}</SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                      </div>
-
-                      <div className="space-y-3">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.interest_rate_11}</Label>
-                        <div className="relative">
-                          <Percent className="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                          <Input type="number" step="0.001" placeholder="6.609" value={interestRate} onChange={e => setInterestRate(e.target.value)} className="pr-10 h-12 text-lg border-2 focus:border-green-500" />
-                        </div>
-                      </div>
-
-                      <div className="space-y-3 md:col-span-2">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.start_date_12}</Label>
-                        <div className="flex space-x-2">
-                          <Select value={startMonth} onValueChange={setStartMonth}>
-                            <SelectTrigger className="h-12 border-2">
-                              <SelectValue />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value="01">{contentData.jan_13}</SelectItem>
-                              <SelectItem value="02">{contentData.feb_14}</SelectItem>
-                              <SelectItem value="03">{contentData.mar_15}</SelectItem>
-                              <SelectItem value="04">{contentData.apr_16}</SelectItem>
-                              <SelectItem value="05">{contentData.may_17}</SelectItem>
-                              <SelectItem value="06">{contentData.jun_18}</SelectItem>
-                              <SelectItem value="07">{contentData.jul_19}</SelectItem>
-                              <SelectItem value="08">{contentData.aug_20}</SelectItem>
-                              <SelectItem value="09">{contentData.sep_21}</SelectItem>
-                              <SelectItem value="10">{contentData.oct_22}</SelectItem>
-                              <SelectItem value="11">{contentData.nov_23}</SelectItem>
-                              <SelectItem value="12">{contentData.dec_24}</SelectItem>
-                            </SelectContent>
-                          </Select>
-                          <Input type="number" placeholder="2025" value={startYear} onChange={e => setStartYear(e.target.value)} className="h-12 text-lg border-2 focus:border-green-500" />
+                    <div className="space-y-3">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.down_payment_4}</Label>
+                      <div className="flex space-x-2">
+                        <Select value={downPaymentType} onValueChange={setDownPaymentType}>
+                          <SelectTrigger className="w-20 h-12 border-2">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="percent">%</SelectItem>
+                            <SelectItem value="amount">$</SelectItem>
+                          </SelectContent>
+                        </Select>
+                        <div className="relative flex-1">
+                          {downPaymentType === "amount" && <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />}
+                          {downPaymentType === "percent" && <Percent className="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />}
+                          <Input type="number" placeholder={downPaymentType === "percent" ? "20" : "80,000"} value={downPaymentType === "percent" ? downPaymentPercent : downPaymentAmount} onChange={e => downPaymentType === "percent" ? setDownPaymentPercent(e.target.value) : setDownPaymentAmount(e.target.value)} className={`h-12 text-lg border-2 focus:border-green-500 ${downPaymentType === "amount" ? "pl-10" : "pr-10"}`} />
                         </div>
                       </div>
                     </div>
 
-                    {/* Advanced Options */}
-                    <Collapsible open={showAdvanced} onOpenChange={setShowAdvanced}>
-                      <CollapsibleTrigger asChild>
-                        <Button variant="outline" className="w-full mb-6 h-12 text-base border-2 hover:bg-gray-50 bg-transparent">
-                          {showAdvanced ? <Minus className="w-4 h-4 mr-2" /> : <Plus className="w-4 h-4 mr-2" />}
-                          {showAdvanced ? "Fewer Options" : "More Options"}
-                        </Button>
-                      </CollapsibleTrigger>
-                      <CollapsibleContent className="space-y-8">
-                        {/* Annual Tax & Costs */}
-                        <div>
-                          <h3 className="text-xl font-bold text-gray-900 mb-6">{contentData.annual_tax_costs_25}</h3>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {[{
+                    <div className="space-y-3">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.loan_term_5}</Label>
+                      <div className="relative">
+                        <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+                        <Select value={loanTerm} onValueChange={setLoanTerm}>
+                          <SelectTrigger className="pl-10 h-12 border-2 focus:border-green-500">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="10">{contentData.k_10_years_6}</SelectItem>
+                            <SelectItem value="15">{contentData.k_15_years_7}</SelectItem>
+                            <SelectItem value="20">{contentData.k_20_years_8}</SelectItem>
+                            <SelectItem value="25">{contentData.k_25_years_9}</SelectItem>
+                            <SelectItem value="30">{contentData.k_30_years_10}</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    </div>
+
+                    <div className="space-y-3">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.interest_rate_11}</Label>
+                      <div className="relative">
+                        <Percent className="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+                        <Input type="number" step="0.001" placeholder="6.609" value={interestRate} onChange={e => setInterestRate(e.target.value)} className="pr-10 h-12 text-lg border-2 focus:border-green-500" />
+                      </div>
+                    </div>
+
+                    <div className="space-y-3 md:col-span-2">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.start_date_12}</Label>
+                      <div className="flex space-x-2">
+                        <Select value={startMonth} onValueChange={setStartMonth}>
+                          <SelectTrigger className="h-12 border-2">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="01">{contentData.jan_13}</SelectItem>
+                            <SelectItem value="02">{contentData.feb_14}</SelectItem>
+                            <SelectItem value="03">{contentData.mar_15}</SelectItem>
+                            <SelectItem value="04">{contentData.apr_16}</SelectItem>
+                            <SelectItem value="05">{contentData.may_17}</SelectItem>
+                            <SelectItem value="06">{contentData.jun_18}</SelectItem>
+                            <SelectItem value="07">{contentData.jul_19}</SelectItem>
+                            <SelectItem value="08">{contentData.aug_20}</SelectItem>
+                            <SelectItem value="09">{contentData.sep_21}</SelectItem>
+                            <SelectItem value="10">{contentData.oct_22}</SelectItem>
+                            <SelectItem value="11">{contentData.nov_23}</SelectItem>
+                            <SelectItem value="12">{contentData.dec_24}</SelectItem>
+                          </SelectContent>
+                        </Select>
+                        <Input type="number" placeholder="2025" value={startYear} onChange={e => setStartYear(e.target.value)} className="h-12 text-lg border-2 focus:border-green-500" />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Advanced Options */}
+                  <Collapsible open={showAdvanced} onOpenChange={setShowAdvanced}>
+                    <CollapsibleTrigger asChild>
+                      <Button variant="outline" className="w-full mb-6 h-12 text-base border-2 hover:bg-gray-50 bg-transparent">
+                        {showAdvanced ? <Minus className="w-4 h-4 mr-2" /> : <Plus className="w-4 h-4 mr-2" />}
+                        {showAdvanced ? "Fewer Options" : "More Options"}
+                      </Button>
+                    </CollapsibleTrigger>
+                    <CollapsibleContent className="space-y-8">
+                      {/* Annual Tax & Costs */}
+                      <div>
+                        <h3 className="text-xl font-bold text-gray-900 mb-6">{contentData.annual_tax_costs_25}</h3>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                          {[{
                             label: "Property Taxes",
                             type: propertyTaxType,
                             setType: setPropertyTaxType,
@@ -391,32 +391,32 @@ export default function MortgageCalculator() {
                             percent: otherCostsPercent,
                             setPercent: setOtherCostsPercent
                           }].map((item, index) => <div key={index} className="space-y-3">
-                                <Label className="text-base font-semibold text-gray-900">{item.label}</Label>
-                                <div className="flex space-x-2">
-                                  <Select value={item.type} onValueChange={item.setType}>
-                                    <SelectTrigger className="w-20 h-10 border-2">
-                                      <SelectValue />
-                                    </SelectTrigger>
-                                    <SelectContent>
-                                      <SelectItem value="percent">%</SelectItem>
-                                      <SelectItem value="amount">$</SelectItem>
-                                    </SelectContent>
-                                  </Select>
-                                  <div className="relative flex-1">
-                                    {item.type === "amount" && <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />}
-                                    {item.type === "percent" && <Percent className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />}
-                                    <Input type="number" value={item.type === "percent" ? item.percent : item.amount} onChange={e => item.type === "percent" ? item.setPercent(e.target.value) : item.setAmount(e.target.value)} className={`h-10 border-2 focus:border-green-500 ${item.type === "amount" ? "pl-10" : "pr-10"}`} />
-                                  </div>
-                                </div>
-                              </div>)}
-                          </div>
+                            <Label className="text-base font-semibold text-gray-900">{item.label}</Label>
+                            <div className="flex space-x-2">
+                              <Select value={item.type} onValueChange={item.setType}>
+                                <SelectTrigger className="w-20 h-10 border-2">
+                                  <SelectValue />
+                                </SelectTrigger>
+                                <SelectContent>
+                                  <SelectItem value="percent">%</SelectItem>
+                                  <SelectItem value="amount">$</SelectItem>
+                                </SelectContent>
+                              </Select>
+                              <div className="relative flex-1">
+                                {item.type === "amount" && <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />}
+                                {item.type === "percent" && <Percent className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />}
+                                <Input type="number" value={item.type === "percent" ? item.percent : item.amount} onChange={e => item.type === "percent" ? item.setPercent(e.target.value) : item.setAmount(e.target.value)} className={`h-10 border-2 focus:border-green-500 ${item.type === "amount" ? "pl-10" : "pr-10"}`} />
+                              </div>
+                            </div>
+                          </div>)}
                         </div>
+                      </div>
 
-                        {/* Annual Increases */}
-                        <div>
-                          <h3 className="text-xl font-bold text-gray-900 mb-6">{contentData.annual_tax_cost_increases_26}</h3>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {[{
+                      {/* Annual Increases */}
+                      <div>
+                        <h3 className="text-xl font-bold text-gray-900 mb-6">{contentData.annual_tax_cost_increases_26}</h3>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                          {[{
                             label: "Property Taxes Increase",
                             value: propertyTaxIncrease,
                             setValue: setPropertyTaxIncrease
@@ -433,245 +433,245 @@ export default function MortgageCalculator() {
                             value: otherCostsIncrease,
                             setValue: setOtherCostsIncrease
                           }].map((item, index) => <div key={index} className="space-y-3">
-                                <Label className="text-base font-semibold text-gray-900">{item.label}</Label>
-                                <div className="relative">
-                                  <Percent className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
-                                  <Input type="number" step="0.1" value={item.value} onChange={e => item.setValue(e.target.value)} className="pr-10 h-10 border-2 focus:border-green-500" />
-                                </div>
-                              </div>)}
-                          </div>
+                            <Label className="text-base font-semibold text-gray-900">{item.label}</Label>
+                            <div className="relative">
+                              <Percent className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
+                              <Input type="number" step="0.1" value={item.value} onChange={e => item.setValue(e.target.value)} className="pr-10 h-10 border-2 focus:border-green-500" />
+                            </div>
+                          </div>)}
                         </div>
-                      </CollapsibleContent>
-                    </Collapsible>
+                      </div>
+                    </CollapsibleContent>
+                  </Collapsible>
 
-                    {/* Extra Payments */}
-                    <Collapsible open={showExtraPayments} onOpenChange={setShowExtraPayments}>
-                      <CollapsibleTrigger asChild>
-                        <Button variant="outline" className="w-full mb-6 h-12 text-base border-2 hover:bg-gray-50 bg-transparent">
-                          {showExtraPayments ? <Minus className="w-4 h-4 mr-2" /> : <Plus className="w-4 h-4 mr-2" />}{contentData.extra_payments_27}</Button>
-                      </CollapsibleTrigger>
-                      <CollapsibleContent className="space-y-6">
-                        <div className="flex flex-wrap gap-3">
-                          <Button onClick={() => addExtraPayment("monthly")} variant="outline" size="sm">{contentData.extra_monthly_pay_28}</Button>
-                          <Button onClick={() => addExtraPayment("yearly")} variant="outline" size="sm">{contentData.extra_yearly_pay_29}</Button>
-                          <Button onClick={() => addExtraPayment("one-time")} variant="outline" size="sm">{contentData.extra_onetime_pay_30}</Button>
-                        </div>
+                  {/* Extra Payments */}
+                  <Collapsible open={showExtraPayments} onOpenChange={setShowExtraPayments}>
+                    <CollapsibleTrigger asChild>
+                      <Button variant="outline" className="w-full mb-6 h-12 text-base border-2 hover:bg-gray-50 bg-transparent">
+                        {showExtraPayments ? <Minus className="w-4 h-4 mr-2" /> : <Plus className="w-4 h-4 mr-2" />}{contentData.extra_payments_27}</Button>
+                    </CollapsibleTrigger>
+                    <CollapsibleContent className="space-y-6">
+                      <div className="flex flex-wrap gap-3">
+                        <Button onClick={() => addExtraPayment("monthly")} variant="outline" size="sm">{contentData.extra_monthly_pay_28}</Button>
+                        <Button onClick={() => addExtraPayment("yearly")} variant="outline" size="sm">{contentData.extra_yearly_pay_29}</Button>
+                        <Button onClick={() => addExtraPayment("one-time")} variant="outline" size="sm">{contentData.extra_onetime_pay_30}</Button>
+                      </div>
 
-                        {extraPayments.map(payment => <div key={payment.id} className="flex items-center space-x-3 p-4 bg-gray-50 rounded-lg">
-                            <span className="text-sm font-medium capitalize">{payment.type.replace("-", " ")}</span>
-                            <Input type="number" placeholder="100" value={payment.amount} onChange={e => {
+                      {extraPayments.map(payment => <div key={payment.id} className="flex items-center space-x-3 p-4 bg-gray-50 rounded-lg">
+                        <span className="text-sm font-medium capitalize">{payment.type.replace("-", " ")}</span>
+                        <Input type="number" placeholder="100" value={payment.amount} onChange={e => {
                           setExtraPayments(extraPayments.map(p => p.id === payment.id ? {
                             ...p,
                             amount: e.target.value
                           } : p));
                         }} className="w-24 h-8" />
-                            <span className="text-sm text-gray-500">{contentData.from_31}</span>
-                            <Select value={payment.startMonth} onValueChange={value => {
+                        <span className="text-sm text-gray-500">{contentData.from_31}</span>
+                        <Select value={payment.startMonth} onValueChange={value => {
                           setExtraPayments(extraPayments.map(p => p.id === payment.id ? {
                             ...p,
                             startMonth: value
                           } : p));
                         }}>
-                              <SelectTrigger className="w-20 h-8">
-                                <SelectValue />
-                              </SelectTrigger>
-                              <SelectContent>
-                                <SelectItem value="01">{contentData.jan_32}</SelectItem>
-                                <SelectItem value="02">{contentData.feb_33}</SelectItem>
-                                <SelectItem value="03">{contentData.mar_34}</SelectItem>
-                                <SelectItem value="04">{contentData.apr_35}</SelectItem>
-                                <SelectItem value="05">{contentData.may_36}</SelectItem>
-                                <SelectItem value="06">{contentData.jun_37}</SelectItem>
-                                <SelectItem value="07">{contentData.jul_38}</SelectItem>
-                                <SelectItem value="08">{contentData.aug_39}</SelectItem>
-                                <SelectItem value="09">{contentData.sep_40}</SelectItem>
-                                <SelectItem value="10">{contentData.oct_41}</SelectItem>
-                                <SelectItem value="11">{contentData.nov_42}</SelectItem>
-                                <SelectItem value="12">{contentData.dec_43}</SelectItem>
-                              </SelectContent>
-                            </Select>
-                            <Input type="number" placeholder="2025" value={payment.startYear} onChange={e => {
+                          <SelectTrigger className="w-20 h-8">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="01">{contentData.jan_32}</SelectItem>
+                            <SelectItem value="02">{contentData.feb_33}</SelectItem>
+                            <SelectItem value="03">{contentData.mar_34}</SelectItem>
+                            <SelectItem value="04">{contentData.apr_35}</SelectItem>
+                            <SelectItem value="05">{contentData.may_36}</SelectItem>
+                            <SelectItem value="06">{contentData.jun_37}</SelectItem>
+                            <SelectItem value="07">{contentData.jul_38}</SelectItem>
+                            <SelectItem value="08">{contentData.aug_39}</SelectItem>
+                            <SelectItem value="09">{contentData.sep_40}</SelectItem>
+                            <SelectItem value="10">{contentData.oct_41}</SelectItem>
+                            <SelectItem value="11">{contentData.nov_42}</SelectItem>
+                            <SelectItem value="12">{contentData.dec_43}</SelectItem>
+                          </SelectContent>
+                        </Select>
+                        <Input type="number" placeholder="2025" value={payment.startYear} onChange={e => {
                           setExtraPayments(extraPayments.map(p => p.id === payment.id ? {
                             ...p,
                             startYear: e.target.value
                           } : p));
                         }} className="w-20 h-8" />
-                            <Button onClick={() => removeExtraPayment(payment.id)} variant="outline" size="sm" className="text-red-600 hover:text-red-700">{contentData.remove_44}</Button>
-                          </div>)}
-                      </CollapsibleContent>
-                    </Collapsible>
+                        <Button onClick={() => removeExtraPayment(payment.id)} variant="outline" size="sm" className="text-red-600 hover:text-red-700">{contentData.remove_44}</Button>
+                      </div>)}
+                    </CollapsibleContent>
+                  </Collapsible>
 
-                    <Button onClick={() => {
+                  <Button onClick={() => {
                     calculateMortgage();
                     scrollToRef(resultsRef as React.RefObject<HTMLElement>);
                   }} className="w-full h-14 text-xl bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 shadow-xl font-bold mt-12">{contentData.calculate_mortgage_45}</Button>
-                  </CardContent>
-                </Card>
-              </div>
+                </CardContent>
+              </Card>
+            </div>
 
-              {/* Results */}
-              <div className="lg:col-span-1">
-                <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24 pt-0">
-                  <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
-                    <CardTitle className="text-2xl">{contentData.monthly_payment_46}</CardTitle>
-                    <CardDescription className="text-base">{contentData.your_complete_payment_breakdown_47}</CardDescription>
-                  </CardHeader>
-                  <CardContent className="p-6">
-                    {results ? <div className="space-y-6">
-                        {/* Monthly Payment */}
-                        <div className="text-center p-6 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-2 border-green-200">
-                          <p className="text-lg text-gray-600 mb-2">{contentData.monthly_pay_48}</p>
-                          <p className="text-4xl font-bold text-green-600 mb-2">
-                            $
-                            {results.totalMonthly.toLocaleString("en-US", {
+            {/* Results */}
+            <div className="lg:col-span-1">
+              <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24 pt-0">
+                <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
+                  <CardTitle className="text-2xl">{contentData.monthly_payment_46}</CardTitle>
+                  <CardDescription className="text-base">{contentData.your_complete_payment_breakdown_47}</CardDescription>
+                </CardHeader>
+                <CardContent className="p-6">
+                  {results ? <div className="space-y-6">
+                    {/* Monthly Payment */}
+                    <div className="text-center p-6 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-2 border-green-200">
+                      <p className="text-lg text-gray-600 mb-2">{contentData.monthly_pay_48}</p>
+                      <p className="text-4xl font-bold text-green-600 mb-2">
+                        $
+                        {results.totalMonthly.toLocaleString("en-US", {
                           minimumFractionDigits: 2,
                           maximumFractionDigits: 2
                         })}
-                          </p>
-                          <p className="text-sm text-gray-500">{contentData.total_monthly_payment_49}</p>
-                        </div>
+                      </p>
+                      <p className="text-sm text-gray-500">{contentData.total_monthly_payment_49}</p>
+                    </div>
 
-                        {/* Payment Breakdown */}
-                        <div className="space-y-3">
-                          <h3 className="font-bold text-lg text-gray-900">{contentData.payment_breakdown_50}</h3>
-                          <div className="space-y-2">
-                            <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg border border-green-200">
-                              <span className="font-medium text-gray-700">{contentData.mortgage_payment_51}</span>
-                              <span className="font-bold text-green-600">
-                                $
-                                {results.principalAndInterest.toLocaleString("en-US", {
+                    {/* Payment Breakdown */}
+                    <div className="space-y-3">
+                      <h3 className="font-bold text-lg text-gray-900">{contentData.payment_breakdown_50}</h3>
+                      <div className="space-y-2">
+                        <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg border border-green-200">
+                          <span className="font-medium text-gray-700">{contentData.mortgage_payment_51}</span>
+                          <span className="font-bold text-green-600">
+                            $
+                            {results.principalAndInterest.toLocaleString("en-US", {
                               minimumFractionDigits: 2,
                               maximumFractionDigits: 2
                             })}
-                              </span>
-                            </div>
-                            <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
-                              <span className="font-medium text-gray-700">{contentData.property_tax_52}</span>
-                              <span className="font-bold text-blue-600">
-                                $
-                                {results.propertyTax.toLocaleString("en-US", {
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
+                          <span className="font-medium text-gray-700">{contentData.property_tax_52}</span>
+                          <span className="font-bold text-blue-600">
+                            $
+                            {results.propertyTax.toLocaleString("en-US", {
                               minimumFractionDigits: 2,
                               maximumFractionDigits: 2
                             })}
-                              </span>
-                            </div>
-                            <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg border border-purple-200">
-                              <span className="font-medium text-gray-700">{contentData.home_insurance_53}</span>
-                              <span className="font-bold text-purple-600">
-                                $
-                                {results.homeInsurance.toLocaleString("en-US", {
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg border border-purple-200">
+                          <span className="font-medium text-gray-700">{contentData.home_insurance_53}</span>
+                          <span className="font-bold text-purple-600">
+                            $
+                            {results.homeInsurance.toLocaleString("en-US", {
                               minimumFractionDigits: 2,
                               maximumFractionDigits: 2
                             })}
-                              </span>
-                            </div>
-                            <div className="flex justify-between items-center p-3 bg-orange-50 rounded-lg border border-orange-200">
-                              <span className="font-medium text-gray-700">{contentData.other_costs_54}</span>
-                              <span className="font-bold text-orange-600">
-                                $
-                                {results.otherCosts.toLocaleString("en-US", {
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-center p-3 bg-orange-50 rounded-lg border border-orange-200">
+                          <span className="font-medium text-gray-700">{contentData.other_costs_54}</span>
+                          <span className="font-bold text-orange-600">
+                            $
+                            {results.otherCosts.toLocaleString("en-US", {
                               minimumFractionDigits: 2,
                               maximumFractionDigits: 2
                             })}
-                              </span>
-                            </div>
-                          </div>
+                          </span>
                         </div>
+                      </div>
+                    </div>
 
-                        {/* Pie Chart Representation */}
-                        <div className="space-y-3">
-                          <h3 className="font-bold text-lg text-gray-900">{contentData.payment_distribution_55}</h3>
-                          <div className="space-y-2">
-                            <div className="flex items-center space-x-2">
-                              <div className="w-4 h-4 bg-green-500 rounded"></div>
-                              <span className="text-sm">{results.principalPercent}{contentData.principal_interest_56}</span>
-                            </div>
-                            <div className="flex items-center space-x-2">
-                              <div className="w-4 h-4 bg-blue-500 rounded"></div>
-                              <span className="text-sm">{results.taxPercent}{contentData.property_taxes_57}</span>
-                            </div>
-                            <div className="flex items-center space-x-2">
-                              <div className="w-4 h-4 bg-purple-500 rounded"></div>
-                              <span className="text-sm">{results.insurancePercent}{contentData.home_insurance_58}</span>
-                            </div>
-                            <div className="flex items-center space-x-2">
-                              <div className="w-4 h-4 bg-orange-500 rounded"></div>
-                              <span className="text-sm">{results.otherPercent}{contentData.other_costs_59}</span>
-                            </div>
-                          </div>
+                    {/* Pie Chart Representation */}
+                    <div className="space-y-3">
+                      <h3 className="font-bold text-lg text-gray-900">{contentData.payment_distribution_55}</h3>
+                      <div className="space-y-2">
+                        <div className="flex items-center space-x-2">
+                          <div className="w-4 h-4 bg-green-500 rounded"></div>
+                          <span className="text-sm">{results.principalPercent}{contentData.principal_interest_56}</span>
                         </div>
-
-                        {/* Loan Summary */}
-                        <div className="space-y-3 pt-4 border-t">
-                          <h3 className="font-bold text-lg text-gray-900">{contentData.loan_summary_60}</h3>
-                          <div className="space-y-2 text-sm">
-                            <div className="flex justify-between">
-                              <span className="text-gray-600">{contentData.house_price_61}</span>
-                              <span className="font-bold">${Number.parseFloat(homePrice).toLocaleString()}</span>
-                            </div>
-                            <div className="flex justify-between">
-                              <span className="text-gray-600">{contentData.loan_amount_62}</span>
-                              <span className="font-bold">${results.loanAmount.toLocaleString()}</span>
-                            </div>
-                            <div className="flex justify-between">
-                              <span className="text-gray-600">{contentData.down_payment_63}</span>
-                              <span className="font-bold">${calculateDownPayment().toLocaleString()}</span>
-                            </div>
-                            <div className="flex justify-between">
-                              <span className="text-gray-600">{contentData.interest_rate_64}</span>
-                              <span className="font-bold">{interestRate}%</span>
-                            </div>
-                            <div className="flex justify-between">
-                              <span className="text-gray-600">{contentData.loan_term_65}</span>
-                              <span className="font-bold">{loanTerm}{contentData.years_66}</span>
-                            </div>
-                            <div className="flex justify-between">
-                              <span className="text-gray-600">{contentData.total_interest_67}</span>
-                              <span className="font-bold text-red-600">${results.totalInterest.toLocaleString()}</span>
-                            </div>
-                            <div className="flex justify-between">
-                              <span className="text-gray-600">{contentData.payoff_date_68}</span>
-                              <span className="font-bold">{results.payoffDate}</span>
-                            </div>
-                          </div>
+                        <div className="flex items-center space-x-2">
+                          <div className="w-4 h-4 bg-blue-500 rounded"></div>
+                          <span className="text-sm">{results.taxPercent}{contentData.property_taxes_57}</span>
                         </div>
-
-                        {/* Current Rates */}
-                        <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
-                          <h4 className="font-bold text-sm text-blue-900 mb-2">{contentData.latest_mortgage_rates_69}</h4>
-                          <div className="space-y-1 text-xs text-blue-800">
-                            <div className="flex justify-between">
-                              <span>{contentData.k_30_years_70}</span>
-                              <span className="font-bold">{contentData.k_6512_71}</span>
-                            </div>
-                            <div className="flex justify-between">
-                              <span>{contentData.k_15_years_72}</span>
-                              <span className="font-bold">{contentData.k_5608_73}</span>
-                            </div>
-                            <div className="flex justify-between">
-                              <span>{contentData.k_10_years_74}</span>
-                              <span className="font-bold">{contentData.k_5494_75}</span>
-                            </div>
-                          </div>
-                          <div className="mt-3 space-y-1">
-                            <Button size="sm" className="w-full text-xs bg-blue-600 hover:bg-blue-700">{contentData.see_your_local_rates_76}</Button>
-                            <Button size="sm" variant="outline" className="w-full text-xs border-blue-300 text-blue-700 hover:bg-blue-50 bg-transparent">{contentData.get_preapproval_77}</Button>
-                          </div>
+                        <div className="flex items-center space-x-2">
+                          <div className="w-4 h-4 bg-purple-500 rounded"></div>
+                          <span className="text-sm">{results.insurancePercent}{contentData.home_insurance_58}</span>
                         </div>
-                      </div> : <div className="text-center py-12 text-gray-500">
-                        <Calculator className="w-16 h-16 mx-auto mb-4 opacity-50" />
-                        <p className="text-lg">{contentData.enter_mortgage_details_to_see_your_payment_breakdo_78}</p>
-                      </div>}
-                  </CardContent>
-                </Card>
-              </div>
+                        <div className="flex items-center space-x-2">
+                          <div className="w-4 h-4 bg-orange-500 rounded"></div>
+                          <span className="text-sm">{results.otherPercent}{contentData.other_costs_59}</span>
+                        </div>
+                      </div>
+                    </div>
 
+                    {/* Loan Summary */}
+                    <div className="space-y-3 pt-4 border-t">
+                      <h3 className="font-bold text-lg text-gray-900">{contentData.loan_summary_60}</h3>
+                      <div className="space-y-2 text-sm">
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">{contentData.house_price_61}</span>
+                          <span className="font-bold">${Number.parseFloat(homePrice).toLocaleString()}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">{contentData.loan_amount_62}</span>
+                          <span className="font-bold">${results.loanAmount.toLocaleString()}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">{contentData.down_payment_63}</span>
+                          <span className="font-bold">${calculateDownPayment().toLocaleString()}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">{contentData.interest_rate_64}</span>
+                          <span className="font-bold">{interestRate}%</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">{contentData.loan_term_65}</span>
+                          <span className="font-bold">{loanTerm}{contentData.years_66}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">{contentData.total_interest_67}</span>
+                          <span className="font-bold text-red-600">${results.totalInterest.toLocaleString()}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-gray-600">{contentData.payoff_date_68}</span>
+                          <span className="font-bold">{results.payoffDate}</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Current Rates */}
+                    <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                      <h4 className="font-bold text-sm text-blue-900 mb-2">{contentData.latest_mortgage_rates_69}</h4>
+                      <div className="space-y-1 text-xs text-blue-800">
+                        <div className="flex justify-between">
+                          <span>{contentData.k_30_years_70}</span>
+                          <span className="font-bold">{contentData.k_6512_71}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span>{contentData.k_15_years_72}</span>
+                          <span className="font-bold">{contentData.k_5608_73}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span>{contentData.k_10_years_74}</span>
+                          <span className="font-bold">{contentData.k_5494_75}</span>
+                        </div>
+                      </div>
+                      <div className="mt-3 space-y-1">
+                        <Button size="sm" className="w-full text-xs bg-blue-600 hover:bg-blue-700">{contentData.see_your_local_rates_76}</Button>
+                        <Button size="sm" variant="outline" className="w-full text-xs border-blue-300 text-blue-700 hover:bg-blue-50 bg-transparent">{contentData.get_preapproval_77}</Button>
+                      </div>
+                    </div>
+                  </div> : <div className="text-center py-12 text-gray-500">
+                    <Calculator className="w-16 h-16 mx-auto mb-4 opacity-50" />
+                    <p className="text-lg">{contentData.enter_mortgage_details_to_see_your_payment_breakdo_78}</p>
+                  </div>}
+                </CardContent>
+              </Card>
             </div>
 
           </div>
-          
-          {/* Similar Calculators Section */}
-          <SimilarCalculators calculators={[{
+
+        </div>
+
+        {/* Similar Calculators Section */}
+        <SimilarCalculators calculators={[{
           calculatorName: "Amortization Calculator",
           calculatorHref: "/financial/amortization-calculator",
           calculatorDescription: "Calculate loan payments and schedules for any type of loan"
@@ -683,13 +683,15 @@ export default function MortgageCalculator() {
           calculatorName: "House Affordability Calculator",
           calculatorHref: "/financial/house-affordability-calculator",
           calculatorDescription: "Determine how much house you can afford based on your income"
-        }]} color="green" title="Related Financial Calculators" />
-          
-          <div className="mt-8">
-              <CalculatorGuide data={guideData} />
-          </div>
-        </main>
+        }]}
+          color="green"
+          title="Related Financial Calculators" />
 
-      </div>
-    </>;
+        <div className="mt-8">
+          <CalculatorGuide data={guideData} />
+        </div>
+      </main>
+
+    </div>
+  </>;
 }
