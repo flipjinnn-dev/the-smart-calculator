@@ -10,6 +10,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 
 import { Calculator, FenceIcon as Function, AlertCircle } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
+import SimilarCalculators from "@/components/similar-calculators";
 
 // Function parser for mathematical expressions
 const evaluateFunction = (expression: string, x: number): number => {
@@ -346,7 +347,14 @@ export default function SimpsonsRuleCalculator() {
                 </Card>
               </div>
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Mean Value Theorem Calculator",
+          calculatorHref: "/maths/mean-value-theorem-calculator",
+          calculatorDescription: "The Mean Value Theorem (MVT) is a key result in differential calculus"
+        }, 
+        ]} 
+        color="green" 
+        title="Related Math Calculators" />
             {/* Step-by-step breakdown */}
             {showResult && result && showSteps && <div className="mt-8">
                 <Card className="shadow-xl border-0 p-0 bg-white">
