@@ -2345,13 +2345,13 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Idade",
       description: "Calcule a idade em anos, meses e dias com base na data de nascimento. Ferramenta útil para registros oficiais e planejamento.",
-      slug: "/br/outro/calculadora-de-idade",
+      slug: "/br/calculadora-de-idade",
       keywords: "idade, calculadora idade, anos meses dias, data nascimento, registros oficiais"
     },
     de: {
       title: "Altersrechner",
       description: "Berechnen Sie das Alter in Jahren, Monaten und Tagen basierend auf dem Geburtsdatum. Nützliches Tool für offizielle Aufzeichnungen und Planung.",
-      slug: "/de/andere/alter-rechner",
+      slug: "/de/alter-rechner",
       keywords: "Alter, Altersrechner, Jahre Monate Tage, Geburtsdatum, offizielle Aufzeichnungen"
     }
   },
@@ -2365,13 +2365,13 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Kalkulator Funkcji Odcinkowej i Graficznie",
       description: "Zdefiniuj, oblicz i narysuj funkcje odcinkowe. Narzędzie matematyczne do analizy i wizualizacji funkcji kawałkowych.",
-      slug: "/pl/matematyka/kalkulator-odcinkowy-funkcja-kalkulador-wykres-kalkulador",
+      slug: "/pl/kalkulator-odcinkowy-funkcja-kalkulador-wykres-kalkulador",
       keywords: "funkcja odcinkowa, kalkulator funkcji, grafik, funkcje kawałkowe, matematyka, wizualizacja"
     },
     br: {
       title: "Piecewise Function Calculator & Grapher",
       description: "Define, evaluate, and graph piecewise functions.",
-      slug: "/br/outro/calculadora-de-funcao-por-partes-e-graficador",
+      slug: "/br/calculadora-de-funcao-por-partes-e-graficador",
       keywords: "piecewise, function, calculator, grapher, define, evaluate, graph, functions"
     },
     de: {
@@ -2391,13 +2391,13 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Enterprise SEO ROI Kalkulator",
       description: "Oblicz the return on investment (ROI) dla enterprise SEO.",
-      slug: "/pl/inne/kalkulator-przedsiebiorstwo-seo-roi-kalkulador",
+      slug: "/pl/kalkulator-przedsiebiorstwo-seo-roi-kalkulador",
       keywords: ""
     },
     br: {
       title: "Calculadora de ROI de SEO Empresarial",
       description: "Calcule o retorno sobre investimento (ROI) para SEO empresarial. Otimize seu orçamento de marketing digital.",
-      slug: "/br/outro/calculadora-de-roi-de-seo-empresarial",
+      slug: "/br/calculadora-de-roi-de-seo-empresarial",
       keywords: "SEO empresarial, ROI SEO, calculadora marketing digital, otimização orçamento, retorno investimento"
     },
     de: {
@@ -2417,13 +2417,13 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "RPE Kalkulator",
       description: "Oblicz the rate of perceived exertion (RPE) dla różnych aktywności.",
-      slug: "/pl/lekkoatletyka/kalkulator-rpe-kalkulador",
+      slug: "/pl/kalkulator-rpe-kalkulador",
       keywords: ""
     },
     br: {
       title: "Calculadora de RPE (Escala de Percepção de Esforço)",
       description: "Calcule a taxa de percepção de esforço (RPE) para várias atividades físicas. Monitore a intensidade do treino com precisão.",
-      slug: "/br/saude/calculadora-de-epe",
+      slug: "/br/calculadora-de-epe",
       keywords: "RPE, escala percepção esforço, calculadora treino, intensidade exercício, monitoramento treino"
     },
     de: {
@@ -2443,13 +2443,13 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Indiana Child Support Kalkulator",
       description: "oszacuj child support payments na podstawie Indiana state guidelines.",
-      slug: "/pl/finansowy/kalkulator-indiana-dziecko-wsparcie-kalkulador",
+      slug: "/pl/kalkulator-indiana-dziecko-wsparcie-kalkulador",
       keywords: ""
     },
     br: {
       title: "Calculadora de Pensão Alimentícia de Indiana",
       description: "Estime os pagamentos de pensão alimentícia com base nas diretrizes do estado de Indiana. Planeje suas obrigações financeiras familiares.",
-      slug: "/br/outro/calculadora-de-pensao-alimenticia-de-indiana",
+      slug: "/br/calculadora-de-pensao-alimenticia-de-indiana",
       keywords: "pensão alimentícia Indiana, calculadora pensão, diretrizes estaduais, obrigações financeiras familiares, custódia"
     },
     de: {
@@ -2475,7 +2475,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Tempo",
       description: "Realize cálculos relacionados ao tempo, como duração e conversões de fuso horário. Gerencie cronogramas e prazos com eficiência.",
-      slug: "/br/outro/calculadora-de-tempo",
+      slug: "/br/calculadora-de-tempo",
       keywords: "calculadora tempo, duração, conversão fuso horário, gerenciamento cronograma, prazos"
     },
     de: {
@@ -2501,7 +2501,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de GPA (Média Ponderada)",
       description: "Calcule o GPA com base nas notas e créditos dos cursos. Planeje seu desempenho acadêmico e metas de graduação.",
-      slug: "/br/outro/calculadora-gpa",
+      slug: "/br/calculadora-gpa",
       keywords: "GPA, média ponderada, calculadora notas, desempenho acadêmico, metas graduação"
     },
     de: {
@@ -2527,7 +2527,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Altura",
       description: "Converta altura entre diferentes unidades como centímetros, metros, pés e polegadas. Útil para registros médicos e antropométricos.",
-      slug: "/br/saude/calculadora-de-altura",
+      slug: "/br/calculadora-de-altura",
       keywords: "calculadora altura, conversão altura, centímetros, metros, pés, polegadas, registros médicos"
     },
     de: {
@@ -2553,7 +2553,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Sub-rede IP",
       description: "Calcule sub-redes e intervalos de IP para otimizar o gerenciamento de rede. Planeje a segmentação e alocação de endereços.",
-      slug: "/br/outro/calculadora-desub-rede-IP",
+      slug: "/br/calculadora-desub-rede-IP",
       keywords: "sub-rede IP, calculadora rede, intervalos IP, gerenciamento rede, segmentação rede"
     },
     de: {

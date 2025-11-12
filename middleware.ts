@@ -713,6 +713,7 @@ export function middleware(request: NextRequest) {
       // Portuguese
       'sobre-nos': 'about-us',
       'contate-nos': 'contact-us',
+      'contato': 'contact-us',
       'politica-de-privacidade': 'privacy-policy',
       'termos-e-condicoes': 'terms-and-conditions',
       // Polish
@@ -720,10 +721,13 @@ export function middleware(request: NextRequest) {
       'kontakt': 'contact-us',
       'polityka-prywatnosci': 'privacy-policy',
       'regulamin': 'terms-and-conditions',
+      'warunki': 'terms-and-conditions',
       // German
       'uber-uns': 'about-us',
+      'kontakt-uns': 'contact-us',
       'datenschutz': 'privacy-policy',
-      'allgemeine-geschaftsbedingungen': 'terms-and-conditions'
+      'allgemeine-geschaftsbedingungen': 'terms-and-conditions',
+      'nutzungsbedingungen': 'terms-and-conditions'
     };
     
     if (translatedStaticPages[firstPart]) {
