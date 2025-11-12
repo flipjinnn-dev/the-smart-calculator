@@ -521,18 +521,6 @@ export default function SimpsonsRuleCalculator() {
             </div>
           </div>
         </main>
-
-        <footer className="bg-gray-900 text-white py-16 mt-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image_720-8sE77EX08xKuB6AvLTisdyhRT3j1X2.png" alt="Smart Calculator Logo" className="w-12 h-12" />
-                <span className="text-2xl font-bold">{contentData.smart_calculator_85}</span>
-              </div>
-              <p className="text-gray-400">{contentData.k_2025_smart_calculator_all_rights_reserved_86}</p>
-            </div>
-          </div>
-        </footer>
       </div>
     </>;
 }
