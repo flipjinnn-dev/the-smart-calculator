@@ -2128,6 +2128,12 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/food/cooking-measurement-converter",
       keywords: "cooking, measurement, converter, convert, between, different, measurements"
     },
+    pl: {
+      title: "Kalkulator Pomiarów Kulinarnych",
+      description: "Konwertuj między różnymi miarami kulinarnymi takimi jak kubki, łyżki, uncje i gramy. Idealny do precyzyjnego dostosowywania przepisów.",
+      slug: "/pl/zywnosc/kalkulator-gotowanie-pomiar-kalkulador",
+      keywords: "miary kulinarne, konwerter kulinarny, kubki, łyżki, uncje, gramy, dostosowanie przepisów"
+    },
     br: {
       title: "Conversor de Medidas para Cozinha",
       description: "Converta entre diferentes medidas de cozinha como xícaras, colheres, onças e gramas. Ideal para adaptar receitas com precisão.",
@@ -2147,6 +2153,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Convert cups to pounds for various ingredients.",
       slug: "/food/cups-to-pounds-converter",
       keywords: "cups, pounds, converter, convert, various, ingredients"
+    },
+    pl: {
+      title: "Konwerter Kubków na Funty",
+      description: "Konwertuj kubki na funty dla różnych składników takich jak mąki, cukry i ziarna. Niezbędne narzędzie dla kucharzy i piekarzy.",
+      slug: "/pl/zywnosc/kalkulator-kubki-do-funty-kalkulador",
+      keywords: "kubki na funty, konwerter kulinarny, mąki, cukier, ziarna, kucharze, piekarze"
     },
     br: {
       title: "Conversor de Xícaras para Libras",
@@ -2349,6 +2361,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Define, evaluate, and graph piecewise functions.",
       slug: "/piecewise-function-calculator-grapher",
       keywords: "piecewise, function, calculator, grapher, define, evaluate, graph, functions"
+    },
+    pl: {
+      title: "Kalkulator Funkcji Odcinkowej i Graficznie",
+      description: "Zdefiniuj, oblicz i narysuj funkcje odcinkowe. Narzędzie matematyczne do analizy i wizualizacji funkcji kawałkowych.",
+      slug: "/pl/matematyka/kalkulator-odcinkowy-funkcja-kalkulador-wykres-kalkulador",
+      keywords: "funkcja odcinkowa, kalkulator funkcji, grafik, funkcje kawałkowe, matematyka, wizualizacja"
     },
     br: {
       title: "Piecewise Function Calculator & Grapher",
