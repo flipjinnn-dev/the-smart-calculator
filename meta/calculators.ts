@@ -1923,7 +1923,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Conservation of Momentum Kalkulator",
       description: "Oblicz the conservation of momentum in collisions.",
-      slug: "/pl/",
+      slug: "/pl/fizyka/kalkulator-zachowanie-of-pedu-kalkulador",
       keywords: ""
     },
     br: {
@@ -1949,7 +1949,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Stopa Deski Kalkulator",
       description: "Oblicz stopy deski dla drewno i materiały budowlane",
-      slug: "/pl/",
+      slug: "/pl/budowa/kalkulator-deski-sdopy-kalkulador",
       keywords: ""
     },
     br: {
@@ -2001,7 +2001,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Gallons per Square Foot Kalkulator",
       description: "Oblicz the number of gallons needed per square foot dla painting or flooring.",
-      slug: "/pl/",
+      slug: "/pl/budowa/kalkulator-galony-na-kwadradowy-sdopy-kalkulador",
       keywords: ""
     },
     br: {
@@ -2027,7 +2027,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Size to ciężar Kalkulator",
       description: "Oblicz the ciężar of a rectangular cuboid given its dimensions i material density.",
-      slug: "/pl/",
+      slug: "/pl/budowa/kalkulator-rozmiar-do-wagi-prostokatny-prostopadloscian-kalkulador",
       keywords: ""
     },
     br: {
@@ -2053,7 +2053,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Square Feet to Cubic Yards Kalkulator",
       description: "Konwertuj square feet to cubic yards dla concrete i other materials.",
-      slug: "/pl/",
+      slug: "/pl/budowa/kalkulator-kwadradowy-stopy-do-szescienne-jards-kalkulador",
       keywords: ""
     },
     br: {
@@ -2079,7 +2079,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Butter Kalkulator",
       description: "Konwertuj butter measurements between sticks, kubki, tablespoons, teaspoons, i grams.",
-      slug: "/pl/",
+      slug: "/pl/zywnosc/kalkulator-maslo-kalkulador",
       keywords: ""
     },
     br: {
@@ -2105,7 +2105,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Cake Pan Kalkulator",
       description: "Oblicz the equivalent sizes of round, square, i rectangular cake pans.",
-      slug: "/pl/",
+      slug: "/pl/zywnosc/kalkulator-ciasto-patelnia-kalkulador",
       keywords: ""
     },
     br: {
@@ -2197,7 +2197,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Batting Average Kalkulator",
       description: "Oblicz batting average i related statistics",
-      slug: "/pl/",
+      slug: "/pl/lekkoatletyka/kalkulator-uderzen-srednia-kalkulador",
       keywords: ""
     },
     br: {
@@ -2223,7 +2223,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Earned Run Average Kalkulator",
       description: "Oblicz earned run average (ERA) dla pitchers",
-      slug: "/pl/",
+      slug: "/pl/lekkoatletyka/kalkulator-zdobyty-bieg-srednia-kalkulador",
       keywords: ""
     },
     br: {
@@ -2249,7 +2249,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Fielding Percentage Kalkulator",
       description: "Oblicz fielding percentage dla baseball players",
-      slug: "/pl/",
+      slug: "/pl/lekkoatletyka/kalkulator-obrona-procendowy-kalkulador",
       keywords: ""
     },
     br: {
@@ -2275,7 +2275,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Fielding Independent Pitching Kalkulator",
       description: "Oblicz fielding independent pitching (FIP) dla baseball players",
-      slug: "/pl/",
+      slug: "/pl/lekkoatletyka/kalkulator-obrona-niezalezny-rzucanie-kalkulador",
       keywords: ""
     },
     br: {
@@ -2301,7 +2301,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Magic Number Kalkulator",
       description: "Oblicz the magic number dla playoff contention in sports.",
-      slug: "/pl/",
+      slug: "/pl/lekkoatletyka/kalkulator-magiczny-liczba-kalkulador",
       keywords: ""
     },
     br: {
@@ -2373,7 +2373,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Enterprise SEO ROI Kalkulator",
       description: "Oblicz the return on investment (ROI) dla enterprise SEO.",
-      slug: "/pl/",
+      slug: "/pl/inne/kalkulator-przedsiebiorstwo-seo-roi-kalkulador",
       keywords: ""
     },
     br: {
@@ -2399,7 +2399,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "RPE Kalkulator",
       description: "Oblicz the rate of perceived exertion (RPE) dla różnych aktywności.",
-      slug: "/pl/",
+      slug: "/pl/lekkoatletyka/kalkulator-rpe-kalkulador",
       keywords: ""
     },
     br: {
@@ -2425,7 +2425,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Indiana Child Support Kalkulator",
       description: "oszacuj child support payments na podstawie Indiana state guidelines.",
-      slug: "/pl/",
+      slug: "/pl/finansowy/kalkulator-indiana-dziecko-wsparcie-kalkulador",
       keywords: ""
     },
     br: {

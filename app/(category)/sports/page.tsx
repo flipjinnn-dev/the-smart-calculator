@@ -4,7 +4,6 @@ import Link from "next/link"
 import { useState, useEffect } from "react"
 import { ArrowLeft, Calculator, Bike } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
 import { useCategoryContent } from "@/hooks/useCategoryContent"
 
@@ -89,12 +88,6 @@ export default function SportsCategoryPage() {
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               {contentData.description}
             </p>
-            <Link href="/">
-              <Button variant="outline" className="mb-8 bg-transparent cursor-pointer">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Categories
-              </Button>
-            </Link>
           </div>
         </section>
 

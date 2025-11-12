@@ -89,12 +89,6 @@ export default function OtherCalculatorsCategoryPage() {
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               {contentData.description}
             </p>
-            <Link href="/">
-              <Button variant="outline" className="mb-8 bg-transparent">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Categories
-              </Button>
-            </Link>
           </div>
         </section>
 

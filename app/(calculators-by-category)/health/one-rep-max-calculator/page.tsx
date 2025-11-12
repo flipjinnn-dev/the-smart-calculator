@@ -8,7 +8,6 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Dumbbell, Target, TrendingUp } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
