@@ -10,6 +10,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Calculator, FenceIcon as Function, AlertCircle, Download, Printer } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 const parseExpression = (expr: string): string => {
   return expr.replace(/\*\*/g, "^") // Convert ** to ^ for powers
   .replace(/Math\./g, "") // Remove Math. prefix
@@ -745,6 +746,15 @@ export default function CriticalPointCalculator() {
               </div>
             </div>
 
+          <SimilarCalculators calculators={[{
+          calculatorName: "Scientific Calculator",
+          calculatorHref: "/maths/scientific-calculator",
+          calculatorDescription: "Calculate loan payments and schedules for any type of loan"
+        }
+        ]} 
+        color="orange" 
+        title="Related Financial Calculators" />
+
             {/* Step-by-step breakdown */}
             {showResult && result && <div className="mt-12">
                 <Card className="shadow-xl border-0 p-0 bg-white">
@@ -954,6 +964,7 @@ export default function CriticalPointCalculator() {
                 <strong>{contentData.disclaimer_106}</strong>{contentData.this_tool_is_for_educational_use_only_verify_resul_107}</p>
             </div>
           </div>
+
         </main>
       </div>
     </>;

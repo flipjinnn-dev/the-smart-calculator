@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 ;
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function PercentErrorCalculator() {
   const pathname = usePathname();
@@ -176,6 +177,18 @@ export default function PercentErrorCalculator() {
               </Card>
             </div>
           </div>
+                    <SimilarCalculators calculators={[{
+          calculatorName: "Scientific Calculator",
+          calculatorHref: "/maths/scientific-calculator",
+          calculatorDescription: "Calculate loan payments and schedules for any type of loan"
+        }, {
+          calculatorName: "Percent Error Calculator",
+          calculatorHref: "/maths/percent-error-calculator",
+          calculatorDescription: "Calculate car loan payments and total cost"
+        },
+        ]} 
+        color="orange" 
+        title="Related Financial Calculators" />
         </main>
 
       </div>
