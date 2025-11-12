@@ -683,7 +683,10 @@ export default function MortgageCalculator() {
           calculatorName: "House Affordability Calculator",
           calculatorHref: "/financial/house-affordability-calculator",
           calculatorDescription: "Determine how much house you can afford based on your income"
-        }]} color="green" title="Related Financial Calculators" />
+        }
+        ]} 
+        color="green" 
+        title="Related Financial Calculators" />
           
           <div className="mt-8">
               <CalculatorGuide data={guideData} />
