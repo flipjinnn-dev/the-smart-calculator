@@ -324,7 +324,7 @@ export default function BoardFootCalculatorCalculator() {
         }
         ]} 
         color="orange" 
-        title="Related Financial Calculators" />
+        title="Related Contruction Calculators" />
             {/* Information Section */}
             <section className="mt-16">
               <Card className="shadow-2xl border-0 pt-0 bg-white">
