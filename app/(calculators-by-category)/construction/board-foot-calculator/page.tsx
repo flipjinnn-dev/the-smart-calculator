@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 interface BoardFootResults {
   boardFeetPerPiece: number;
   totalBoardFeet: number;
@@ -308,7 +309,22 @@ export default function BoardFootCalculatorCalculator() {
                 </Card>
               </div>
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Square Feet to Cubic Yards Calculator",
+          calculatorHref: "/construction/square-feet-to-cubic-yards-calculator",
+          calculatorDescription: "Convert square feet to cubic yards for concrete, soil, and other materials in construction and landscaping projects"
+        }, {
+          calculatorName: "Size to Weight Calculator",
+          calculatorHref: "/construction/size-to-weight-rectangular-cuboid-calculator",
+          calculatorDescription: "Calculate the weight of a rectangular cuboid given its dimensions and material density for shipping, construction, and engineering applications"
+        }, {
+          calculatorName: "Cubic Yard Calculator",
+          calculatorHref: "/construction/cubic-yard-calculator",
+          calculatorDescription: "Calculate cubic yards for concrete, soil, and other materials with precise measurements for construction and landscaping projects"
+        }
+        ]} 
+        color="orange" 
+        title="Related Financial Calculators" />
             {/* Information Section */}
             <section className="mt-16">
               <Card className="shadow-2xl border-0 pt-0 bg-white">

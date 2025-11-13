@@ -10,6 +10,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 
 import { Droplets, Calculator, RotateCcw, Ruler, Square, Cable as Cube } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function GallonsPerSquareFootCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -361,7 +362,6 @@ export default function GallonsPerSquareFootCalculatorCalculator() {
                             <p className="text-sm text-orange-600">{contentData.galft_36}</p>
                           </div>
                         </div>
-
                         {/* Step-by-step Calculation */}
                         <div className="bg-white p-4 rounded-lg border border-orange-200">
                           <h4 className="font-semibold text-gray-800 mb-3">{contentData.stepbystep_calculation_37}</h4>
@@ -388,7 +388,22 @@ export default function GallonsPerSquareFootCalculatorCalculator() {
                 </Card>
               </div>
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Calculate Board Feet",
+          calculatorHref: "/construction/board-foot-calculator",
+          calculatorDescription: "Calculate board feet for lumber and building materials with precise measurements for woodworking and construction projects"
+        }, {
+          calculatorName: "Cubic Yard Calculator",
+          calculatorHref: "/construction/cubic-yard-calculator",
+          calculatorDescription: "Calculate cubic yards for concrete, soil, and other materials with precise measurements for construction and landscaping projects"
+        }, {
+          calculatorName: "Square Feet to Cubic Yards Calculator",
+          calculatorHref: "/construction/square-feet-to-cubic-yards-calculator",
+          calculatorDescription: "Convert square feet to cubic yards for concrete, soil, and other materials in construction and landscaping projects"
+        }
+        ]} 
+        color="orange" 
+        title="Related Constructionl Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-50 p-8">

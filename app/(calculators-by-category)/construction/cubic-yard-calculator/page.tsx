@@ -11,6 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 
 import { Box, Calculator, Ruler, DollarSign, AlertCircle, Building2 } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function CubicYardCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -920,7 +921,22 @@ export default function CubicYardCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Gallons per Square Foot Calculator",
+          calculatorHref: "/construction/gallons-per-square-foot-calculator",
+          calculatorDescription: "Calculate the number of gallons needed per square foot for painting or flooring"
+        }, {
+          calculatorName: "Size to Weight Calculator",
+          calculatorHref: "/construction/size-to-weight-rectangular-cuboid-calculator",
+          calculatorDescription: "Calculate the weight of a rectangular cuboid given its dimensions and material density for shipping, construction, and engineering applications"
+        }, {
+          calculatorName: "Board Foot Calculator",
+          calculatorHref: "/construction/board-foot-calculator",
+          calculatorDescription: "Calculate board feet for lumber and building materials with precise measurements for woodworking and construction projects"
+        }
+        ]} 
+        color="orange" 
+        title="Related Construction Calculators" />  
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-100 p-8">

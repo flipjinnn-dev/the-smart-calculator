@@ -12,6 +12,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Calculator, RotateCcw, Square, Ruler } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function SquareFeetToCubicYardsCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -343,7 +344,22 @@ export default function SquareFeetToCubicYardsCalculatorCalculator() {
                 </Card>
               </div>
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Gallons per Square Foot Calculator",
+          calculatorHref: "/construction/gallons-per-square-foot-calculator",
+          calculatorDescription: "CCalculate the number of gallons needed per square foot for painting or flooring"
+        }, {
+          calculatorName: "Board Foot Calculator",
+          calculatorHref: "/construction/board-foot-calculator",
+          calculatorDescription: "Calculate board feet for lumber and building materials with precise measurements for woodworking and construction projects"
+        }, {
+          calculatorName: "Cubic Yard Calculator",
+          calculatorHref: "/construction/cubic-yard-calculator",
+          calculatorDescription: "Calculate cubic yards for concrete, soil, and other materials with precise measurements for construction and landscaping projects"
+        }
+        ]} 
+        color="orange" 
+        title="Related C onstruction Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-50 p-8">

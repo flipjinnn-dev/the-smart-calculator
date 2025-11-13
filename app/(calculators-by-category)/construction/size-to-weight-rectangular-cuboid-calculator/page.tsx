@@ -11,6 +11,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 
 import { Package, Calculator, RotateCcw, Ruler, Square, Cable as Cube, Weight } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function SizeToWeightRectangularCuboidCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -653,6 +654,22 @@ export default function SizeToWeightRectangularCuboidCalculatorCalculator() {
               </Card>
             </div>
           </div>
+          <SimilarCalculators calculators={[{
+          calculatorName: "Square Feet to Cubic Yards Calculator",
+          calculatorHref: "/construction/square-feet-to-cubic-yards-calculator",
+          calculatorDescription: "Convert square feet to cubic yards for concrete, soil, and other materials in construction and landscaping projects"
+        }, {
+          calculatorName: "Cubic Yard Calculator",
+          calculatorHref: "/construction/cubic-yard-calculator",
+          calculatorDescription: "Calculate cubic yards for concrete, soil, and other materials with precise measurements for construction and landscaping projects"
+        }, {
+          calculatorName: "Board Foot Calculator",
+          calculatorHref: "/construction/board-foot-calculator",
+          calculatorDescription: "Calculate board feet for lumber and building materials with precise measurements for woodworking and construction projects"
+        }
+        ]} 
+        color="blue" 
+        title="Related Financial Calculators" />
         </main>
       </div>
     </>;
