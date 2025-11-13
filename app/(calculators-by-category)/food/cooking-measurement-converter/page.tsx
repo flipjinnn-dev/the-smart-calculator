@@ -12,6 +12,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Calculator, RotateCcw, Scale, Droplets, ChefHat } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import SimilarCalculators from "@/components/similar-calculators";
 const ingredients = [{
   name: "Water",
   density: 1000
@@ -661,7 +662,14 @@ export default function CookingMeasurementConverterCalculator() {
                 </Card>
               </div>
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Dry to Cooked Pasta Converter",
+          calculatorHref: "/food/dry-to-cooked-pasta-converter",
+          calculatorDescription: "Select pasta type, enter measurements, and get accurate cooked pasta equivalents"
+        }, 
+        ]} 
+        color="pink" 
+        title="Related Food Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-red-50 to-pink-50 p-8">

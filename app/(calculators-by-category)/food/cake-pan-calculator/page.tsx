@@ -11,6 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 
 import { ChefHat, Calculator, Ruler, AlertCircle, Cookie } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function CakePanCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -434,7 +435,18 @@ export default function CakePanCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Cooking Measurement Converter",
+          calculatorHref: "/food/cooking-measurement-converter",
+          calculatorDescription: "Convert between different cooking measurements including volume, weight, and temperature for recipes and culinary applications"
+        }, {
+          calculatorName: "Cups to Pounds Converter",
+          calculatorHref: "/food/cups-to-pounds-converter",
+          calculatorDescription: "Select conversion direction, choose an ingredient, and enter the measurement to convert"
+        }, 
+        ]} 
+        color="pink" 
+        title="Related Food Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-pink-50 to-rose-100 p-8">

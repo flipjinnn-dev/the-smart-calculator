@@ -11,6 +11,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 import { ChefHat, Scale, Utensils } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function ButterCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -346,7 +347,18 @@ export default function ButterCalculatorCalculator() {
                 </Card>
               </div>
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Cake Pan Calculator",
+          calculatorHref: "/food/cake-pan-calculator",
+          calculatorDescription: "Calculate the equivalent sizes of round, square, and rectangular cake pans for recipe scaling and baking adjustments"
+        }, {
+          calculatorName: "Cooking Measurement Converter",
+          calculatorHref: "/food/cooking-measurement-converter",
+          calculatorDescription: "Convert between different cooking measurements including volume, weight, and temperature for recipes and culinary applications"
+        }, 
+        ]} 
+        color="orange" 
+        title="Related Food Calculators" />
             {/* How to use section */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-amber-50 to-orange-100 flex flex-col justify-center items-start p-8">

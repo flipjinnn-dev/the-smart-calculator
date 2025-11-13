@@ -14,6 +14,7 @@ import { Slider } from "@/components/ui/slider";
 import { Calculator, RotateCcw, ChefHat, Wheat } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function DryToCookedPastaConverterCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -540,7 +541,6 @@ export default function DryToCookedPastaConverterCalculator() {
                 </Card>
               </div>
             </div>
-
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-teal-50 p-8">
@@ -594,6 +594,14 @@ export default function DryToCookedPastaConverterCalculator() {
               </Card>
             </div>
           </div>
+          <SimilarCalculators calculators={[{
+          calculatorName: "Cooking Measurement Converter",
+          calculatorHref: "/food/cooking-measurement-converter",
+          calculatorDescription: "Calculate loan payments and schedules for any type of loan"
+        },
+        ]} 
+        color="green" 
+        title="Related Food Calculators" />
         </main>
       </div>
     </>;

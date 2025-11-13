@@ -13,6 +13,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Calculator, RotateCcw, Scale, Coffee, ChefHat } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import SimilarCalculators from "@/components/similar-calculators";
 const ingredients = [{
   name: "All-purpose flour",
   density: 0.593
@@ -419,7 +420,19 @@ export default function CupsToPoundsConverterCalculator() {
                 </Card>
               </div>
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Butter Conversion Calculator",
+          calculatorHref: "/food/butter-calculator",
+        }, {
+          calculatorName: "Cake Pan Calculator",
+          calculatorHref: "/food/cake-pan-calculator",
+        }, {
+          calculatorName: "Cooking Measurement Converter",
+          calculatorHref: "/food/cooking-measurement-converter",
+        }
+        ]} 
+        color="orange" 
+        title="Related Food Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-50 p-8">
