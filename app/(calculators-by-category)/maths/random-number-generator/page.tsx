@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 ;
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function RandomNumberGenerator() {
   const pathname = usePathname();
@@ -151,6 +152,18 @@ export default function RandomNumberGenerator() {
                 </Card>
               </div>
             </div>
+            <SimilarCalculators calculators={[{
+          calculatorName: "Percent Error Calculator",
+          calculatorHref: "/maths/percent-error-calculator",
+          calculatorDescription: "Calculate the percent error between a measured value and an actual value instantly."
+        }, {
+          calculatorName: "Critical Point Calculator",
+          calculatorHref: "/maths/critical-point-calculator",
+          calculatorDescription: "Find critical points of single-variable or multivariable functions by solving f′(x)=0 or ∂f/∂x=0 and ∂f/∂y=0. Identify where derivatives are zero or undefined."
+        }, 
+        ]} 
+        color="green" 
+        title="Related Financial Calculators" />
             {/* How to use section below both cards */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-green-200 flex flex-col justify-center items-start p-8">
@@ -184,6 +197,8 @@ export default function RandomNumberGenerator() {
             </div>
           </div>
         </main>
+        
       </div>
+      
     </>;
 }
