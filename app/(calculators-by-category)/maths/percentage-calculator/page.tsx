@@ -271,7 +271,7 @@ export default function PercentageCalculator() {
         }
         ]}
           color="blue"
-          title="Related Financial Calculators" />
+          title="Related Math Calculators" />
       </main>
 
     </div>

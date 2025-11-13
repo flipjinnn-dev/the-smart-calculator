@@ -188,7 +188,7 @@ export default function PercentErrorCalculator() {
         },
         ]} 
         color="orange" 
-        title="Related Financial Calculators" />
+        title="Related Math Calculators" />
         </main>
 
       </div>

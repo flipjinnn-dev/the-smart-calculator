@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 const buttons = [["sin", "cos", "tan", "Deg/Rad", "AC"], ["sin-1", "cos-1", "tan-1", "π", "e"], ["xy", "x3", "x2", "ex", "10x"], ["y√x", "3√x", "√x", "ln", "log"], ["(", ")", "1/x", "%", "n!"], ["7", "8", "9", "+", "Back"], ["4", "5", "6", "–", "Ans"], ["1", "2", "3", "×", "M+"], ["0", ".", "EXP", "÷", "M-"], ["±", "RND", "Back", "=", "MC"]];
 function factorial(n: number): number {
   if (n < 0) return NaN;
@@ -174,6 +175,7 @@ export default function ScientificCalculator() {
                 </Card>
               </div>
             </div>
+            
             {/* How to use section below both cards */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-blue-200 flex flex-col justify-center items-start p-8">
@@ -206,6 +208,18 @@ export default function ScientificCalculator() {
               </Card>
             </div>
           </div>
+          <SimilarCalculators calculators={[{
+          calculatorName: "Critical Point Calculator",
+          calculatorHref: "/maths/critical-point-calculator",
+          calculatorDescription: "Find critical points of single-variable or multivariable functions by solving f′(x)=0 or ∂f/∂x=0 and ∂f/∂y=0. Identify where derivatives are zero or undefined."
+        }, {
+          calculatorName: "Simpson's Rule Calculator",
+          calculatorHref: "/maths/simpsons-rule-calculator",
+          calculatorDescription: "Calculate definite integrals using Simpson's Rule"
+        }, 
+        ]} 
+        color="blue" 
+        title="Related Math Calculators" />
         </main>
         {/* Footer */}
       </div>

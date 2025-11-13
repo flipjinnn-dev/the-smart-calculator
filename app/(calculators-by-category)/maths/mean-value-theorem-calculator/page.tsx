@@ -521,7 +521,7 @@ export default function MeanValueTheoremCalculator() {
         },
         ]} 
         color="green" 
-        title="Related Financial Calculators" />
+        title="Related Math Calculators" />
             {/* Step-by-step breakdown */}
             {showResult && result && showSteps && <div className="mt-8">
                 <Card className="shadow-xl border-0 p-0 bg-white">

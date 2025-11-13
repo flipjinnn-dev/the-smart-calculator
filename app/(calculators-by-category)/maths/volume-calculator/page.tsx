@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 ;
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 const SHAPES = [{
   key: "sphere",
@@ -500,6 +501,22 @@ export default function VolumeCalculator() {
                 </Card>
               </div>
             </div>
+            <SimilarCalculators calculators={[{
+          calculatorName: "Percentage Calculator",
+          calculatorHref: "/maths/percentage-calculator",
+          calculatorDescription: "Calculate percentages, ratios, and percentage changes easily with our comprehensive percentage calculator"
+        }, {
+          calculatorName: "Critical Point Calculator",
+          calculatorHref: "/maths/critical-point-calculator",
+          calculatorDescription: "Find critical points of single-variable or multivariable functions by solving f′(x)=0 or ∂f/∂x=0 and ∂f/∂y=0. Identify where derivatives are zero or undefined."
+        }, {
+          calculatorName: "Scientific Calculator",
+          calculatorHref: "/maths/scientific-calculator",
+          calculatorDescription: "Perform advanced mathematical calculations and scientific functions including trigonometry, logarithms, exponents, and statistical operations"
+        }
+        ]} 
+        color="green" 
+        title="Related Math Calculators" />
             {/* How to use section below both cards */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-green-200 flex flex-col justify-center items-start p-8">
