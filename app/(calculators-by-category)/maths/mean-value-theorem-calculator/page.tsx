@@ -12,6 +12,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Calculator, FenceIcon, AlertCircle } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 
 // mathematical expression evaluator using safer Function constructor
 const evaluateFunction = (expression: string, x: number): number => {
@@ -509,7 +510,18 @@ export default function MeanValueTheoremCalculator() {
                 </Card>
               </div>
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Percentage Calculator",
+          calculatorHref: "/maths/percentage-calculator",
+          calculatorDescription: "Calculate percentages, ratios, and percentage changes easily with our comprehensive percentage calculator"
+        }, {
+          calculatorName: "Volume Calculator",
+          calculatorHref: "/maths/volume-calculator",
+          calculatorDescription: "Calculate car loan payments and total cost"
+        },
+        ]} 
+        color="green" 
+        title="Related Financial Calculators" />
             {/* Step-by-step breakdown */}
             {showResult && result && showSteps && <div className="mt-8">
                 <Card className="shadow-xl border-0 p-0 bg-white">
