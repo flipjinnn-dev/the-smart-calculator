@@ -11,6 +11,7 @@ import { Switch } from "@/components/ui/switch";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 import { Trophy, Calculator, Target, AlertCircle, Activity, RotateCcw, HelpCircle, BarChart3 } from "lucide-react";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function FieldingIndependentPitchingCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -658,7 +659,22 @@ export default function FieldingIndependentPitchingCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Magic Number Calculator",
+          calculatorHref: "/sports/magic-number-calculator",
+          calculatorDescription: "Calculate the magic number for playoff contention in sports"
+        }, {
+          calculatorName: "Fielding Percentage Calculator",
+          calculatorHref: "/sports/fielding-percentage-calculator",
+          calculatorDescription: "Calculate fielding percentage for baseball players"
+        }, {
+          calculatorName: "Earned Run Average Calculator",
+          calculatorHref: "/sports/earned-run-average-calculator",
+          calculatorDescription: "Calculate earned run average (ERA) for pitchers"
+        }
+        ]} 
+        color="purple" 
+        title="Related Sport Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-purple-50 to-violet-100 p-8">

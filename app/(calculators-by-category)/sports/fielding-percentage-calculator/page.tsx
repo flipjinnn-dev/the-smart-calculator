@@ -12,6 +12,7 @@ import { Switch } from "@/components/ui/switch";
 
 import { Trophy, Calculator, Target, AlertCircle, Activity, RotateCcw, HelpCircle } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function FieldingPercentageCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -415,7 +416,22 @@ export default function FieldingPercentageCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Fielding Independent Pitching Calculator",
+          calculatorHref: "/sports/fielding-independent-pitching-calculator",
+          calculatorDescription: "Calculate fielding independent pitching (FIP) for baseball players"
+        }, {
+          calculatorName: "Earned Run Average Calculator",
+          calculatorHref: "/sports/earned-run-average-calculator",
+          calculatorDescription: "Calculate earned run average (ERA) for pitchers"
+        }, {
+          calculatorName: "Batting Average Calculator",
+          calculatorHref: "/sports/batting-average-calculator",
+          calculatorDescription: "Calculate batting average and related statistics for baseball and softball players with comprehensive performance metrics"
+        }
+        ]} 
+        color="green" 
+        title="Related Sport Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-emerald-100 p-8">

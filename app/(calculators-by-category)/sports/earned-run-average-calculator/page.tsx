@@ -11,6 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 
 import { Trophy, Calculator, Target, AlertCircle, Activity } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function EarnedRunAverageCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -416,6 +417,22 @@ export default function EarnedRunAverageCalculatorCalculator() {
               </Card>
             </div>
           </div>
+          <SimilarCalculators calculators={[{
+          calculatorName: "Calculate The Magic Number",
+          calculatorHref: "/sports/magic-number-calculator",
+          calculatorDescription: "Calculate the magic number for playoff contention in sports"
+        }, {
+          calculatorName: "Fielding Percentage Calculator",
+          calculatorHref: "/sports/fielding-percentage-calculator",
+          calculatorDescription: "Calculate fielding percentage for baseball players"
+        }, {
+          calculatorName: "Fielding Independent Pitching Calculator",
+          calculatorHref: "/sports/fielding-independent-pitching-calculator",
+          calculatorDescription: "Calculate fielding independent pitching (FIP) for baseball players"
+        }
+        ]} 
+        color="blue" 
+        title="Related Sport Calculators" />
         </main>
 
       </div>

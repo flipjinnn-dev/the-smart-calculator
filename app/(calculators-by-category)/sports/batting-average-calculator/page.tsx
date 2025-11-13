@@ -11,6 +11,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 import { Trophy, Target, Activity } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function BattingAverageCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -339,6 +340,22 @@ export default function BattingAverageCalculatorCalculator() {
               </Card>
             </div>
           </div>
+          <SimilarCalculators calculators={[{
+          calculatorName: "Magic Number Calculator",
+          calculatorHref: "/sports/magic-number-calculator",
+          calculatorDescription: "Calculate the magic number for playoff contention in sports"
+        }, {
+          calculatorName: "Earned Run Average Calculator",
+          calculatorHref: "/sports/earned-run-average-calculator",
+          calculatorDescription: "Calculate earned run average (ERA) for pitchers"
+        }, {
+          calculatorName: "Fielding Percentage Calculator",
+          calculatorHref: "/sports/fielding-percentage-calculator",
+          calculatorDescription: "Calculate fielding percentage for baseball players"
+        }
+        ]} 
+        color="green" 
+        title="Related Sport Calculators" />
         </main>
 
       </div>

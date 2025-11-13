@@ -10,6 +10,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Switch } from "@/components/ui/switch";
 
 import { Trophy, Calculator, Target, AlertCircle, Activity, RotateCcw, HelpCircle, Crown } from "lucide-react";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function MagicNumberCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -415,7 +416,22 @@ export default function MagicNumberCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Fielding Percentage Calculator",
+          calculatorHref: "/sports/fielding-percentage-calculator",
+          calculatorDescription: "Calculate fielding percentage for baseball players"
+        }, {
+          calculatorName: "Pitching Insights",
+          calculatorHref: "/sports/fielding-independent-pitching-calculator",
+          calculatorDescription: "Calculate fielding independent pitching (FIP) for baseball players"
+        }, {
+          calculatorName: "Team Batting Stats",
+          calculatorHref: "/sports/batting-average-calculator",
+          calculatorDescription: "Calculate batting average and related statistics for baseball and softball players with comprehensive performance metrics"
+        }
+        ]} 
+        color="orange" 
+        title="Related Sport Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-100 p-8">
