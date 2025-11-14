@@ -10,6 +10,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Calculator, RotateCcw, Dumbbell, Target, TrendingUp, Download, Share2, Printer } from "lucide-react";
+import SimilarCalculators from "@/components/similar-calculators";
 
 // RPE Chart data mapping reps × RPE → % of 1RM
 const rpeChart = {
@@ -587,7 +588,18 @@ export default function RpeCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Enterprise SEO ROI Calculator",
+          calculatorHref: "/enterprise-seo-roi-calculator",
+          calculatorDescription: "Calculate the return on investment (ROI) for enterprise SEO"
+        }, {
+          calculatorName: "Time Calculation",
+          calculatorHref: "/time-calculator",
+          calculatorDescription: "Enter two time values and select an operation"
+        },
+        ]} 
+        color="green" 
+        title="Related Other Calculators" />
             {/* How the RPE Calculator Works */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-white p-0">

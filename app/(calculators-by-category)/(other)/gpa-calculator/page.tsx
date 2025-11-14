@@ -11,6 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Switch } from "@/components/ui/switch";
 import { GraduationCap, Calculator, Plus, Trash2, RotateCcw, BookOpen } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 interface Course {
   id: string;
   name: string;
@@ -781,7 +782,14 @@ export default function GpaCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Piecewise Function Calculator",
+          calculatorHref: "/piecewise-function-calculator-grapher",
+          calculatorDescription: "Define each piece of your piecewise function with expressions and domains"
+        },
+        ]} 
+        color="blue" 
+        title="Related Other Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-indigo-100 p-8">

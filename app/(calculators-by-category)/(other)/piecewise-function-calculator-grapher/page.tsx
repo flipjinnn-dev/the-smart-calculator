@@ -13,6 +13,7 @@ import { FenceIcon as Function, AlertCircle, Plus, Trash2 } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Legend } from "recharts";
+import SimilarCalculators from "@/components/similar-calculators";
 
 // mathematical expression evaluator
 const evaluateExpression = (expression: string, x: number): number => {
@@ -663,7 +664,18 @@ export default function PiecewiseFunctionCalculatorGrapherCalculator() {
                   </Card>}
               </div>
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "GPA Calculator",
+          calculatorHref: "/gpa-calculator",
+          calculatorDescription: "Calculate GPA based on course grades and credits with support for both 4.0 scale and letter grades"
+        }, {
+          calculatorName: "IP Subnet Calculator",
+          calculatorHref: "/ip-subnet-calculator",
+          calculatorDescription: "Enter IPv4 address and subnet mask to calculate subnet details"
+        },
+        ]} 
+        color="blue" 
+        title="Related Other Calculators" />
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
               {/* What is a Piecewise Function */}

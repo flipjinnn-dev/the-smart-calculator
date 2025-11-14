@@ -12,6 +12,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Separator } from "@/components/ui/separator";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 interface ChildSupportResults {
   combinedIncome: number;
   basicObligation: number;
@@ -675,7 +676,18 @@ export default function IndianaChildSupportCalculatorCalculator() {
                   </CardContent>
                 </Card>}
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Time Calculation",
+          calculatorHref: "/time-calculator",
+          calculatorDescription: "Enter two time values and select an operation"
+        }, {
+          calculatorName: "Age Calculator",
+          calculatorHref: "/age-calculator",
+          calculatorDescription: "Calculate age in years, months, and days based on birth date with precise calculations including leap years"
+        }, 
+        ]} 
+        color="blue" 
+        title="Related Other Calculators" />
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
               {/* How Child Support is Calculated */}
