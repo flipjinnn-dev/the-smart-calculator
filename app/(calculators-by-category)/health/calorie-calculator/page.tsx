@@ -12,6 +12,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function CalorieCalculatorCalculator() {
   const pathname = usePathname();
@@ -226,7 +227,19 @@ export default function CalorieCalculatorCalculator() {
               </Card>
             </div>
           </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Calories Burned Calculator",
+          calculatorHref: "/health/calories-burned-calculator",
+        }, {
+          calculatorName: "BMR Calculator",
+          calculatorHref: "/health/bmr-calculator",
+        }, {
+          calculatorName: "Protein Intake Calculator",
+          calculatorHref: "/health/protein-calculator",
+        }
+        ]} 
+        color="red" 
+        title="Related Health Calculators" />
           {/* How to Use Section */}
           <div className="mt-8">
             <CalculatorGuide data={guideData} />

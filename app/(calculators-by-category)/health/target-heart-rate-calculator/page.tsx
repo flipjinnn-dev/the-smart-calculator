@@ -12,6 +12,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Heart, Activity, Target } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function TargetHeartRateCalculatorCalculator() {
   const pathname = usePathname();
@@ -621,7 +622,19 @@ export default function TargetHeartRateCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Calories Burned Calculator",
+          calculatorHref: "/health/calories-burned-calculator",
+        }, {
+          calculatorName: "Running Pace Calculator",
+          calculatorHref: "/health/pace-calculator",
+        }, {
+          calculatorName: "BMR Calculator",
+          calculatorHref: "/health/bmr-calculator",
+        }
+        ]} 
+        color="blue" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-cyan-100 p-8">

@@ -13,6 +13,7 @@ import { Heart, Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Scal
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import CalculatorGuide from "@/components/calculator-guide"
 import { useCalculatorContent } from "@/hooks/useCalculatorContent"
+import SimilarCalculators from "@/components/similar-calculators"
 
 // Define the content structure interface
 interface CalculatorUIContent {
@@ -854,7 +855,19 @@ export default function AnorexicBmiCalculatorCalculator() {
                 </Card>
               </div>
             )}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Overweight Calculator",
+          calculatorHref: "/health/overweight-calculator",
+        }, {
+          calculatorName: "BMI Calculator",
+          calculatorHref: "/health/bmi-calculator",
+        }, {
+          calculatorName: "Ideal Weight Calculator",
+          calculatorHref: "/health/ideal-weight-calculator",
+        }
+        ]} 
+        color="red" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-red-50 to-orange-100 p-8">

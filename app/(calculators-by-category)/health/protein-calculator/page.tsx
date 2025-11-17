@@ -13,6 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Zap, User, Target } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function ProteinCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -584,7 +585,19 @@ export default function ProteinCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Healthy Weight Calculator",
+          calculatorHref: "/health/healthy-weight-calculator",
+        }, {
+          calculatorName: "TDEE Calculator",
+          calculatorHref: "/health/tdee-calculator",
+        }, {
+          calculatorName: "Body Type & WHR Calculator",
+          calculatorHref: "/health/body-type-calculator",
+        }
+        ]} 
+        color="green" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-emerald-100 p-8">

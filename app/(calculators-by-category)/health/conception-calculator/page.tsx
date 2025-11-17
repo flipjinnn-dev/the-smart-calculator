@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Baby, Calendar } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function ConceptionCalculatorCalculator() {
   const pathname = usePathname();
@@ -416,7 +417,19 @@ export default function ConceptionCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Pregnancy Due Date Calculator",
+          calculatorHref: "/health/due-date-calculator",
+        }, {
+          calculatorName: "Pregnancy Calculator",
+          calculatorHref: "/health/pregnancy-calculator",
+        }, {
+          calculatorName: "Pregnancy Conception Calculator",
+          calculatorHref: "/health/pregnancy-conception-calculator",
+        }
+        ]} 
+        color="purple" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-purple-50 to-violet-100 p-8">

@@ -13,6 +13,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 const jsonLd = {
   "@context": "https://schema.org",
@@ -629,7 +630,19 @@ export default function BodyFatCalculatorCalculator() {
               </Card>
             </section>
           </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "U.S. Army Body Fat Calculator",
+          calculatorHref: "/health/army-body-fat-calculator",
+        }, {
+          calculatorName: "Lean Body Mass Calculator",
+          calculatorHref: "/health/lean-body-mass-calculator",
+        }, {
+          calculatorName: "Body Type & WHR Calculator",
+          calculatorHref: "/health/body-type-calculator",
+        }
+        ]} 
+        color="green" 
+        title="Related Health Calculators" />
           {/* How to Use Section */}
           <div className="mt-8">
             <CalculatorGuide data={guideData} />

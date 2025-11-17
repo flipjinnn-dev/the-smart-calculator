@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Scale, Ruler, User } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function IdealWeightCalculatorCalculator() {
   const pathname = usePathname();
@@ -542,7 +543,19 @@ export default function IdealWeightCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Pregnancy Weight Gain Calculator",
+          calculatorHref: "/health/pregnancy-weight-gain-calculator",
+        }, {
+          calculatorName: "Healthy Weight Calculator",
+          calculatorHref: "/health/healthy-weight-calculator",
+        }, {
+          calculatorName: "Weight Watchers SmartPoints Calculator",
+          calculatorHref: "/health/weight-watchers-points-calculator",
+        }
+        ]} 
+        color="blue" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-cyan-100 p-8">

@@ -12,6 +12,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Apple } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 
 export default function WeightWatchersPointsCalculatorCalculator() {
   const pathname = usePathname();
@@ -411,7 +412,19 @@ export default function WeightWatchersPointsCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Overweight Calculator",
+          calculatorHref: "/health/overweight-calculator",
+        }, {
+          calculatorName: "Ideal Weight Calculator",
+          calculatorHref: "/health/ideal-weight-calculator",
+        }, {
+          calculatorName: "Healthy Weight Calculator",
+          calculatorHref: "/health/healthy-weight-calculator",
+        }
+        ]} 
+        color="purple" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-purple-50 to-indigo-100 p-8">

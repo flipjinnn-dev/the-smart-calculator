@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Timer, Activity, Zap, Clock } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function PaceCalculatorCalculator() {
   const pathname = usePathname();
@@ -549,7 +550,19 @@ export default function PaceCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Body Fat Calculator",
+          calculatorHref: "/health/body-fat-calculator",
+        }, {
+          calculatorName: "BMR Calculator",
+          calculatorHref: "/health/bmr-calculator",
+        }, {
+          calculatorName: "Calories Burned Calculator",
+          calculatorHref: "/health/calories-burned-calculator",
+        }
+        ]} 
+        color="orange" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-100 p-8">

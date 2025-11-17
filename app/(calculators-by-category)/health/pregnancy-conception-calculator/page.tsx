@@ -12,6 +12,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 const jsonLd = {
   "@context": "https://schema.org",
@@ -180,7 +181,19 @@ export default function PregnancyConceptionCalculatorCalculator() {
               </div>
             </div>
           </div>
-        
+        <SimilarCalculators calculators={[{
+          calculatorName: "Pregnancy Weight Gain Calculator",
+          calculatorHref: "/health/pregnancy-weight-gain-calculator",
+        }, {
+          calculatorName: "Pregnancy Calculator",
+          calculatorHref: "/health/pregnancy-calculator",
+        }, {
+          calculatorName: "BAC Calculator",
+          calculatorHref: "/health/bac-calculator",
+        }
+        ]} 
+        color="pink" 
+        title="Related Health Calculators" />
           {/* How to Use Section */}
           <div className="mt-8">
               <CalculatorGuide data={guideData} />

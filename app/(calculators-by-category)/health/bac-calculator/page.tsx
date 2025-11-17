@@ -14,6 +14,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Wine, Calculator, Clock, AlertTriangle, Activity, RotateCcw, HelpCircle, Plus, Minus } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 interface Drink {
   id: string;
@@ -732,7 +733,19 @@ export default function BacCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "BMI Calculator",
+          calculatorHref: "/health/bmi-calculator",
+        }, {
+          calculatorName: "BMR Calculator",
+          calculatorHref: "/health/bmr-calculator",
+        }, {
+          calculatorName: "TDEE Calculator",
+          calculatorHref: "/health/tdee-calculator",
+        }
+        ]} 
+        color="purple" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-purple-50 to-violet-100 p-8">
