@@ -387,3 +387,51 @@ export function getCategoryCanonicalUrl(
   
   return `${baseUrl}/${cleanSlug}`;
 }
+
+/**
+ * Return canonical URL for a static page (about-us, contact-us, privacy-policy, terms-and-conditions)
+ * For non-English languages this returns the translated slug used by sitemap and middleware.
+ */
+export function getStaticPageCanonicalUrl(
+  pageId: 'about-us' | 'contact-us' | 'privacy-policy' | 'terms-and-conditions',
+  language: string = 'en',
+  baseUrl: string = 'https://www.thesmartcalculator.com'
+): string {
+  // Mapping: pageId -> language -> localized path (including language prefix where applicable)
+  const mapping: Record<string, Record<string, string>> = {
+    'about-us': {
+      en: '/about-us',
+      br: '/br/sobre-nos',
+      pl: '/pl/o-nas',
+      de: '/de/uber-uns',
+    },
+    'contact-us': {
+      en: '/contact-us',
+      br: '/br/contato',
+      pl: '/pl/kontakt',
+      de: '/de/kontakt',
+    },
+    'privacy-policy': {
+      en: '/privacy-policy',
+      br: '/br/politica-de-privacidade',
+      pl: '/pl/polityka-prywatnosci',
+      de: '/de/datenschutz',
+    },
+    'terms-and-conditions': {
+      en: '/terms-and-conditions',
+      br: '/br/termos-e-condicoes',
+      pl: '/pl/warunki',
+      de: '/de/nutzungsbedingungen',
+    }
+  };
+
+  const pageMap = mapping[pageId];
+  if (!pageMap) return baseUrl;
+
+  const slug = (pageMap as any)[language] || pageMap['en'];
+  // If slug already contains full url, return it
+  if (slug.startsWith('http')) return slug;
+  // Ensure no duplicate slashes
+  const clean = slug.startsWith('/') ? slug : '/' + slug;
+  return `${baseUrl}${clean}`;
+}

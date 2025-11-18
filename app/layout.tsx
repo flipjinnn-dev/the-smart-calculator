@@ -144,6 +144,8 @@ export default function RootLayout({
             })(window, document, "clarity", "script", "t4gsw89qux");
           `}
         </Script>
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5433267523341571"
+     crossOrigin="anonymous"></Script>
       </head>
       <body className={inter.className}>
         <Header />
