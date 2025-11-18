@@ -44,9 +44,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }army-body-fat-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('army-body-fat-calculator', 'en'),
         'pt-BR': getCanonicalUrl('army-body-fat-calculator', 'br'),
@@ -58,9 +56,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }army-body-fat-calculator`,
+      url: canonicalUrl,
     },
   };
 }

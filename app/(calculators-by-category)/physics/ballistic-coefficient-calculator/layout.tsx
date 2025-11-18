@@ -44,9 +44,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }ballistic-coefficient-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('ballistic-coefficient-calculator', 'en'),
         'pt-BR': getCanonicalUrl('ballistic-coefficient-calculator', 'br'),
@@ -58,9 +56,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }ballistic-coefficient-calculator`,
+      url: canonicalUrl,
     },
   };
 }
