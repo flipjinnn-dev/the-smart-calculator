@@ -10,6 +10,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Clock, Calculator, Plus, Minus, AlertCircle, Timer } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function TimeCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -515,6 +516,14 @@ export default function TimeCalculatorCalculator() {
               </Card>
             </div>
           </div>
+          <SimilarCalculators calculators={[{
+          calculatorName: "Age Calculator",
+          calculatorHref: "/age-calculator",
+          calculatorDescription: "Calculate age in years, months, and days based on birth date with precise calculations including leap years"
+        }, 
+        ]} 
+        color="gray" 
+        title="Related Other Calculators" />
         </main>
 
       </div>

@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Separator } from "@/components/ui/separator"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import SimilarCalculators from "@/components/similar-calculators"
 
 interface SEOROIResults {
   monthlyRevenue: number
@@ -398,7 +399,18 @@ export default function EnterpriseSeoRoiCalculatorCalculator() {
                   </div>
                 </CardContent>
               </Card>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Time Calculator",
+          calculatorHref: "/time-calculator",
+          calculatorDescription: "Enter two time values and select an operation"
+        }, {
+          calculatorName: "RPE Calculator",
+          calculatorHref: "/rpe-calculator",
+          calculatorDescription: "Enter your lift details to calculate your estimated one-rep maximum"
+        }, 
+        ]} 
+        color="blue" 
+        title="Related Other Calculators" />
               {/* Step-by-Step Example */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">

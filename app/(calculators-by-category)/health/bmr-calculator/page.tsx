@@ -13,6 +13,7 @@ import { Slider } from "@/components/ui/slider";
 
 import { Heart, Calculator, RotateCcw, Activity, Scale, Ruler, User } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function BmrCalculatorCalculator() {
   const pathname = usePathname();
@@ -709,7 +710,19 @@ export default function BmrCalculatorCalculator() {
               </Card>
             </div>
           </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Calories Burned Calculator",
+          calculatorHref: "/health/calories-burned-calculator",
+        }, {
+          calculatorName: "Protein Intake Calculator",
+          calculatorHref: "/health/protein-calculator",
+        }, {
+          calculatorName: "TDEE Calculator",
+          calculatorHref: "/health/tdee-calculator",
+        }
+        ]} 
+        color="green" 
+        title="Related Health Calculators" />
           {/* How to Use Section */}
           <div className="mt-8">
             <CalculatorGuide data={guideData} />

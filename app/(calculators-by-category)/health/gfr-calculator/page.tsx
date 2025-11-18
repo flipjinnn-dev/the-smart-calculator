@@ -14,6 +14,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Calculator, RotateCcw, Activity, AlertTriangle } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function GfrCalculatorCalculator() {
   const pathname = usePathname();
@@ -548,7 +549,19 @@ export default function GfrCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "BMI Calculator",
+          calculatorHref: "/health/bmi-calculator",
+        }, {
+          calculatorName: "Overweight Calculator",
+          calculatorHref: "/health/overweight-calculator",
+        }, {
+          calculatorName: "Anorexic BMI Calculator",
+          calculatorHref: "/health/anorexic-bmi-calculator",
+        }
+        ]} 
+        color="green" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-green-100 p-8">

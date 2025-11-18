@@ -10,6 +10,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Switch } from "@/components/ui/switch";
 import { Network, Calculator, RotateCcw, Globe, Shield, Binary } from "lucide-react";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function IpSubnetCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -568,7 +569,18 @@ export default function IpSubnetCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Enterprise SEO ROI Calculator",
+          calculatorHref: "/enterprise-seo-roi-calculator",
+          calculatorDescription: "Calculate the return on investment (ROI) for enterprise SEO"
+        }, {
+          calculatorName: "Piecewise Function Calculator",
+          calculatorHref: "/piecewise-function-calculator-grapher",
+          calculatorDescription: "Define each piece of your piecewise function with expressions and domains"
+        },
+        ]} 
+        color="gray" 
+        title="Related Other Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-slate-50 to-gray-100 p-8">

@@ -11,6 +11,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Dumbbell, Target, TrendingUp } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 
 export default function OneRepMaxCalculatorCalculator() {
   const pathname = usePathname();
@@ -435,7 +436,19 @@ export default function OneRepMaxCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Protein Intake Calculator",
+          calculatorHref: "/health/protein-calculator",
+        }, {
+          calculatorName: "Fat Intake Calculator",
+          calculatorHref: "/health/fat-intake-calculator",
+        }, {
+          calculatorName: "Body Fat Calculator",
+          calculatorHref: "/health/body-fat-calculator",
+        }
+        ]} 
+        color="pink" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-red-50 to-rose-100 p-8">

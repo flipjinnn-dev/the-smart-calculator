@@ -14,6 +14,7 @@ import Head from "next/head";
 import { Calculator, RotateCcw, Apple, Activity, Target, TrendingUp, Zap } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function CarbohydrateCalculatorCalculator() {
   const pathname = usePathname();
@@ -618,7 +619,19 @@ export default function CarbohydrateCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Protein Intake Calculator",
+          calculatorHref: "/health/protein-calculator",
+        }, {
+          calculatorName: "TDEE Calculator",
+          calculatorHref: "/health/tdee-calculator",
+        }, {
+          calculatorName: "Fat Intake Calculator",
+          calculatorHref: "/health/fat-intake-calculator",
+        }
+        ]} 
+        color="green" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-green-100 p-8">

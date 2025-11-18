@@ -10,6 +10,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Ruler, Calculator, RotateCcw, Users, TrendingUp } from "lucide-react";
+import SimilarCalculators from "@/components/similar-calculators";
 export default function HeightCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -669,7 +670,18 @@ export default function HeightCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "GPA Calculator",
+          calculatorHref: "/gpa-calculator",
+          calculatorDescription: "Calculate GPA based on course grades and credits with support for both 4.0 scale and letter grades"
+        }, {
+          calculatorName: "Age Calculator",
+          calculatorHref: "/age-calculator",
+          calculatorDescription: "Calculate age in years, months, and days based on birth date with precise calculations including leap years"
+        },
+        ]} 
+        color="teal" 
+        title="Related Other Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-teal-50 to-cyan-100 p-8">

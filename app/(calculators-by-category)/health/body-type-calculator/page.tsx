@@ -12,6 +12,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Calculator, RotateCcw, Heart, AlertTriangle, User } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function BodyTypeCalculatorCalculator() {
   const pathname = usePathname();
@@ -461,7 +462,19 @@ export default function BodyTypeCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Body Surface Area Calculator",
+          calculatorHref: "/health/body-surface-area-calculator",
+        }, {
+          calculatorName: "Body Fat Calculator",
+          calculatorHref: "/health/body-fat-calculator",
+        }, {
+          calculatorName: "U.S. Army Body Fat Calculator",
+          calculatorHref: "/health/army-body-fat-calculator",
+        }
+        ]} 
+        color="pink" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-pink-50 to-purple-100 p-8">

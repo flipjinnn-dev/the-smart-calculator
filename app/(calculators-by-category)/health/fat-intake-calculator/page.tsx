@@ -13,6 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Droplets, User, Target } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function FatIntakeCalculatorCalculator() {
   const pathname = usePathname();
@@ -631,7 +632,19 @@ export default function FatIntakeCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "U.S. Army Body Fat Calculator",
+          calculatorHref: "/health/army-body-fat-calculator",
+        }, {
+          calculatorName: "Lean Body Mass Calculator",
+          calculatorHref: "/health/lean-body-mass-calculator",
+        }, {
+          calculatorName: "Overweight Calculator",
+          calculatorHref: "/health/overweight-calculator",
+        }
+        ]} 
+        color="orange" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-100 p-8">

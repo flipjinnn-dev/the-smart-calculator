@@ -14,6 +14,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Activity, Calculator, User, Scale, Ruler, AlertCircle, RotateCcw, HelpCircle } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 
 export default function BodySurfaceAreaCalculatorCalculator() {
   const pathname = usePathname();
@@ -494,7 +495,19 @@ export default function BodySurfaceAreaCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Body Fat Calculator",
+          calculatorHref: "/health/body-fat-calculator",
+        }, {
+          calculatorName: "Body Type & WHR Calculator",
+          calculatorHref: "/health/body-type-calculator",
+        }, {
+          calculatorName: "Lean Body Mass Calculator",
+          calculatorHref: "/health/lean-body-mass-calculator",
+        }
+        ]} 
+        color="teal" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-teal-50 to-cyan-100 p-8">

@@ -14,6 +14,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 const jsonLd = {
   "@context": "https://schema.org",
@@ -748,7 +749,19 @@ const calculateAllMacros = () => {
                 </Card>
               </div>
             </div>
-
+<SimilarCalculators calculators={[{
+          calculatorName: "TDEE Calculator",
+          calculatorHref: "/health/tdee-calculator",
+        }, {
+          calculatorName: "BMR Calculator",
+          calculatorHref: "/health/bmr-calculator",
+        }, {
+          calculatorName: "Protein Intake Calculator",
+          calculatorHref: "/health/protein-calculator",
+        }
+        ]} 
+        color="green" 
+        title="Related Health Calculators" />
             {/* Information Section */}
             <section className="mt-16">
               <Card className="shadow-2xl border-0 bg-white pt-0">

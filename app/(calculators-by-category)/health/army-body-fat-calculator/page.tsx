@@ -11,6 +11,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
 import { Calculator, RotateCcw, Shield, Activity, Target, TrendingUp } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 ;
 export default function ArmyBodyFatCalculatorCalculator() {
   const pathname = usePathname();
@@ -500,7 +501,19 @@ export default function ArmyBodyFatCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Lean Body Mass Calculator",
+          calculatorHref: "/health/lean-body-mass-calculator",
+        }, {
+          calculatorName: "Body Fat Calculator",
+          calculatorHref: "/health/body-fat-calculator",
+        }, {
+          calculatorName: "Body Type & WHR Calculator",
+          calculatorHref: "/health/body-type-calculator",
+        }
+        ]} 
+        color="green" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-emerald-100 p-8">

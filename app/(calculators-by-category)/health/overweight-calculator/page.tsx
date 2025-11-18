@@ -13,6 +13,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Heart, Calculator, AlertTriangle, Activity, RotateCcw, HelpCircle, Scale } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import SimilarCalculators from "@/components/similar-calculators";
 
 export default function OverweightCalculatorCalculator() {
   const pathname = usePathname();
@@ -486,7 +487,19 @@ export default function OverweightCalculatorCalculator() {
                   </CardContent>
                 </Card>
               </div>}
-
+<SimilarCalculators calculators={[{
+          calculatorName: "Ideal Weight Calculator",
+          calculatorHref: "/health/ideal-weight-calculator",
+        }, {
+          calculatorName: "Body Fat Calculator",
+          calculatorHref: "/health/body-fat-calculator",
+        }, {
+          calculatorName: "Lean Body Mass Calculator",
+          calculatorHref: "/health/lean-body-mass-calculator",
+        }
+        ]} 
+        color="green" 
+        title="Related Health Calculators" />
             {/* Educational Content */}
             <div className="mt-12">
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-blue-100 p-8">
