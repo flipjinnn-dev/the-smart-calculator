@@ -14,8 +14,8 @@ export const ROUTES = {
 export const CATEGORIES = {
   FINANCIAL: "/financial",
   HEALTH: "/health",
-  MATH: "/math",
-  OTHER: "/other",
+  MATH: "/maths",
+  OTHER: "/other-calculators",
 } as const
 
 // ✅ Dynamic: calculators from calculator-data.ts
