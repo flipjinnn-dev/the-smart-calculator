@@ -363,7 +363,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Kalkulator Małżeński – Oblicz Podatek Małżeński Online",
       description: "Użyj kalkulatora małżeńskiego online, aby obliczyć wspólny podatek, dochody i ulgi. Proste, dokładne i darmowe narzędzie finansowe dla małżeństw.",
-      slug: "/pl/finansowy/kalkulator-małżeński",
+      slug: "/pl/finansowy/kalkulator-malzenski",
       keywords: "kalkulator małżeński, implikacje finansowe, wspólne podatki, korzyści podatkowe, finanse rodzinne"
     },
     br: {
@@ -467,7 +467,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Kalkulator Stóp Procentowych – Oblicz Odsetki Online",
       description: "Użyj kalkulatora stóp procentowych online, aby obliczyć odsetki, oprocentowanie i zyski. Proste, szybkie i darmowe narzędzie finansowe.",
-      slug: "/pl/finansowy/kalkulator-stóp-procentowych",
+      slug: "/pl/finansowy/kalkulator-stop-procentowych",
       keywords: "kalkulator stopy procentowej, wpływ odsetek, pożyczki inwestycje, oprocentowanie kredytu"
     },
     br: {
@@ -519,7 +519,7 @@ export const calculatorsMeta: CalculatorMeta = {
     pl: {
       title: "Kalkulator Wynagrodzeń – Oblicz Pensję Netto i Brutto",
       description: "Użyj kalkulatora wynagrodzeń online, aby obliczyć pensję netto, brutto i składki ZUS. Proste, szybkie i dokładne narzędzie finansowe dla pracowników.",
-      slug: "/pl/finansowy/kalkulator-wynagrodzeń",
+      slug: "/pl/finansowy/kalkulator-wynagrodzen",
       keywords: "kalkulator wynagrodzeń, pensja netto, po podatkach, potrącenia składki, wynagrodzenie brutto"
     },
     br: {
@@ -621,10 +621,10 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "payment, calculator, calculate, loan, payments, fixed, terms, determine"
     },
     pl: {
-      title: "Kalkulator Płatności – Oblicz Swoje Płatności Online",
-      description: "Użyj kalkulatora płatności online, aby obliczyć raty, koszty i terminy spłaty. Proste, szybkie i dokładne narzędzie finansowe dla każdego.",
-      slug: "/pl/finansowy/kalkulator-płatności",
-      keywords: "kalkulator płatności, raty koszty, terminy spłaty, planowanie płatności, harmonogram rat"
+      title: "Kalkulator Płatności – Oblicz Raty i Harmonogram Spłat",
+      description: "Użyj kalkulatora płatności online, aby obliczyć raty kredytu, harmonogram spłat i koszty finansowania. Proste, szybkie i darmowe narzędzie finansowe.",
+      slug: "/pl/finansowy/kalkulator-platnosci",
+      keywords: "kalkulator płatności, raty kredytu, harmonogram spłat, koszty finansowania"
     },
     br: {
       title: "Calculadora de Pagamento",
