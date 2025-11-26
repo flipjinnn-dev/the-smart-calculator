@@ -45,17 +45,17 @@ const featureIcons: Record<string, React.ComponentType<any>> = {
 export default function HomePage() {
   // Detect language from URL path or headers
   const [language, setLanguage] = useState("en");
-  
+
   useEffect(() => {
     // First try to get language from headers (set by middleware)
     const headerLanguage = document.head.querySelector('meta[name="x-language"]')?.getAttribute('content');
     console.log('Header language:', headerLanguage);
-    
+
     if (headerLanguage) {
       setLanguage(headerLanguage);
       return;
     }
-    
+
     // Fallback to URL path detection
     const path = window.location.pathname;
     console.log('Current path:', path);
@@ -183,18 +183,18 @@ export default function HomePage() {
       href: "/health/calorie-calculator"
     }
   ];
-  
+
   // Use content data if available, otherwise use fallback
   // For translated content, we match by index position since the order is consistent
-  const calculatorsToUse = contentData.popular.calculators.length > 0 
+  const calculatorsToUse = contentData.popular.calculators.length > 0
     ? contentData.popular.calculators.map((calc: any, index: number) => {
-        // Get the href from the fallback calculators by index position
-        const fallbackCalc = fallbackCalculators[index];
-        return {
-          ...calc,
-          href: fallbackCalc ? fallbackCalc.href : "#"
-        };
-      })
+      // Get the href from the fallback calculators by index position
+      const fallbackCalc = fallbackCalculators[index];
+      return {
+        ...calc,
+        href: fallbackCalc ? fallbackCalc.href : "#"
+      };
+    })
     : fallbackCalculators;
 
   // Update metadata based on content
@@ -352,7 +352,7 @@ export default function HomePage() {
             <div className="text-center md:grid md:grid-cols-2 md:gap-20 md:items-center md:min-h-[500px] md:text-left space-y-10 md:space-y-0">
               {/* Left side - Hero text */}
               <div className="space-y-6 md:space-y-8">
-                <h1 
+                <h1
                   className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 leading-tight"
                   dangerouslySetInnerHTML={{ __html: contentData.hero.title || "Your life in <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">90+ free</span> calculators" }}
                 >
@@ -372,7 +372,7 @@ export default function HomePage() {
                       <h2 className="text-lg font-semibold text-gray-800 mb-2">{contentData.search.title || "Find your calculator"}</h2>
                       <p className="text-sm text-gray-600">{contentData.search.placeholder || "Search from hundreds of free tools"}</p>
                     </div>
-                    <SearchBar />
+                    <SearchBar language={language} />
                   </div>
                 </div>
               </div>
@@ -459,7 +459,7 @@ export default function HomePage() {
                 // Get the English href directly from the data or use fallback
                 const englishHref = calc.href || "#";
                 const localizedHref = getLocalizedCalculatorUrl(englishHref, language);
-                
+
                 // Debug logging
                 console.log(`Calculator: ${calc.name}`, {
                   englishHref,
@@ -467,33 +467,34 @@ export default function HomePage() {
                   localizedHref,
                   calcData: calc
                 });
-                
+
                 return (
-                <Link key={index} href={localizedHref !== "#" ? localizedHref : "#"}>
-                  <Card className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 cursor-pointer border-0 shadow-lg overflow-hidden h-full flex flex-col">
-                    <div className={`h-2 ${index % 3 === 0 ? 'bg-gradient-to-r from-green-400 to-green-600' : index % 3 === 1 ? 'bg-gradient-to-r from-red-400 to-red-600' : 'bg-gradient-to-r from-blue-400 to-blue-600'}`}></div>
-                    <CardContent className="p-5 md:p-8 flex-1 flex flex-col">
-                      <div className="flex-1">
-                        <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-2 md:mb-3 group-hover:text-blue-600 transition-colors">
-                          {calc.name}
-                        </h3>
-                        <p className="text-gray-600 mb-2 md:mb-4 leading-relaxed text-sm md:text-base">
-                          {calc.description}
-                        </p>
-                        <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
-                          {calc.category}
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between pt-4 md:pt-6 border-t border-gray-100 mt-4 md:mt-6">
-                        <span className="text-blue-600 font-semibold group-hover:translate-x-1 transition-transform">
-                          Calculate Now
-                        </span>
-                        <span className="text-blue-600 group-hover:translate-x-1 transition-transform">→</span>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </Link>
-              )})}
+                  <Link key={index} href={localizedHref !== "#" ? localizedHref : "#"}>
+                    <Card className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 cursor-pointer border-0 shadow-lg overflow-hidden h-full flex flex-col">
+                      <div className={`h-2 ${index % 3 === 0 ? 'bg-gradient-to-r from-green-400 to-green-600' : index % 3 === 1 ? 'bg-gradient-to-r from-red-400 to-red-600' : 'bg-gradient-to-r from-blue-400 to-blue-600'}`}></div>
+                      <CardContent className="p-5 md:p-8 flex-1 flex flex-col">
+                        <div className="flex-1">
+                          <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-2 md:mb-3 group-hover:text-blue-600 transition-colors">
+                            {calc.name}
+                          </h3>
+                          <p className="text-gray-600 mb-2 md:mb-4 leading-relaxed text-sm md:text-base">
+                            {calc.description}
+                          </p>
+                          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                            {calc.category}
+                          </span>
+                        </div>
+                        <div className="flex items-center justify-between pt-4 md:pt-6 border-t border-gray-100 mt-4 md:mt-6">
+                          <span className="text-blue-600 font-semibold group-hover:translate-x-1 transition-transform">
+                            Calculate Now
+                          </span>
+                          <span className="text-blue-600 group-hover:translate-x-1 transition-transform">→</span>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                )
+              })}
             </div>
           </div>
         </section>
@@ -523,12 +524,12 @@ export default function HomePage() {
                 }
               ]).map((feature: any, index: number) => {
                 const IconComponent = featureIcons[index] || Rocket;
-                const colorClasses = index === 0 
-                  ? "from-blue-400 to-blue-600 bg-blue-50" 
-                  : index === 1 
-                    ? "from-green-400 to-green-600 bg-green-50" 
+                const colorClasses = index === 0
+                  ? "from-blue-400 to-blue-600 bg-blue-50"
+                  : index === 1
+                    ? "from-green-400 to-green-600 bg-green-50"
                     : "from-purple-400 to-purple-600 bg-purple-50";
-                
+
                 return (
                   <Card
                     key={index}

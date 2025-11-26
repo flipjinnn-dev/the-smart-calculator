@@ -1,21 +1,55 @@
 "use client"
 
 import type React from "react"
-import { useState, useRef, useEffect } from "react"
+import { useState, useRef, useEffect, useMemo } from "react"
 import { Search, X, Calculator } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
-import { calculators } from "@/lib/calculator-data"
+import { calculators, getCalculatorFileName } from "@/lib/calculator-data"
+import { calculatorsMeta } from "@/meta/calculators"
 
-const popularCalculators = calculators.filter((calc) => calc.popular)
+interface SearchBarProps {
+  language?: string
+}
 
-export default function SearchBar() {
+export default function SearchBar({ language = "en" }: SearchBarProps) {
   const [isOpen, setIsOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
-  const [filteredCalculators, setFilteredCalculators] = useState(popularCalculators)
   const searchRef = useRef<HTMLDivElement>(null)
+
+  // Memoize the localized calculators list
+  const localizedCalculators = useMemo(() => {
+    return calculators.map(calc => {
+      // Get metadata for this calculator using the helper to resolve ID
+      const metaKey = getCalculatorFileName(calc.id)
+      const meta = calculatorsMeta[metaKey]
+
+      // If we have metadata for the requested language, use it
+      // Otherwise fall back to English or the default data
+      if (meta) {
+        const langMeta = meta[language] || meta['en']
+        if (langMeta) {
+          return {
+            ...calc,
+            name: langMeta.title,
+            description: langMeta.description,
+            href: langMeta.slug,
+            // Keep other properties like category, id, popular
+          }
+        }
+      }
+
+      return calc
+    })
+  }, [language])
+
+  const popularCalculators = useMemo(() =>
+    localizedCalculators.filter((calc) => calc.popular),
+    [localizedCalculators])
+
+  const [filteredCalculators, setFilteredCalculators] = useState(popularCalculators)
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -34,15 +68,16 @@ export default function SearchBar() {
     if (searchQuery.trim() === "") {
       setFilteredCalculators(popularCalculators)
     } else {
-      const filtered = calculators.filter(
+      const query = searchQuery.toLowerCase()
+      const filtered = localizedCalculators.filter(
         (calc) =>
-          calc.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          calc.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          calc.description.toLowerCase().includes(searchQuery.toLowerCase()),
+          calc.name.toLowerCase().includes(query) ||
+          calc.category.toLowerCase().includes(query) ||
+          calc.description.toLowerCase().includes(query),
       )
       setFilteredCalculators(filtered)
     }
-  }, [searchQuery])
+  }, [searchQuery, popularCalculators, localizedCalculators])
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
@@ -98,7 +133,12 @@ export default function SearchBar() {
             />
             <Input
               type="text"
-              placeholder="Search calculator..."
+              placeholder={
+                language === 'br' ? "Pesquisar calculadora..." :
+                  language === 'pl' ? "Szukaj kalkulatora..." :
+                    language === 'de' ? "Rechner suchen..." :
+                      "Search calculator..."
+              }
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               onFocus={() => setIsOpen(true)}
@@ -131,7 +171,14 @@ export default function SearchBar() {
               <div className="max-h-96 overflow-y-auto">
                 {searchQuery.trim() === "" && (
                   <div className="px-6 py-4 bg-gradient-to-r from-blue-50 to-purple-50 border-b">
-                    <p className="text-sm font-bold text-gray-700">Popular Calculators</p>
+                    <p className="text-sm font-bold text-gray-700">
+                      {
+                        language === 'br' ? "Calculadoras Populares" :
+                          language === 'pl' ? "Popularne Kalkulatory" :
+                            language === 'de' ? "Beliebte Rechner" :
+                              "Popular Calculators"
+                      }
+                    </p>
                   </div>
                 )}
 
@@ -161,8 +208,22 @@ export default function SearchBar() {
                 ) : (
                   <div className="px-6 py-12 text-center">
                     <Search className="w-12 h-12 text-gray-400 mx-auto mb-4" />
-                    <p className="text-gray-500 font-medium">No calculators found</p>
-                    <p className="text-sm text-gray-400 mt-2">Try searching for different terms</p>
+                    <p className="text-gray-500 font-medium">
+                      {
+                        language === 'br' ? "Nenhuma calculadora encontrada" :
+                          language === 'pl' ? "Nie znaleziono kalkulatorów" :
+                            language === 'de' ? "Keine Rechner gefunden" :
+                              "No calculators found"
+                      }
+                    </p>
+                    <p className="text-sm text-gray-400 mt-2">
+                      {
+                        language === 'br' ? "Tente pesquisar por termos diferentes" :
+                          language === 'pl' ? "Spróbuj wyszukać inne hasła" :
+                            language === 'de' ? "Versuchen Sie es mit anderen Begriffen" :
+                              "Try searching for different terms"
+                      }
+                    </p>
                   </div>
                 )}
               </div>
