@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Smart Calculator - Kostenlose Online-Rechner für jeden Bedarf",
-    "description": "Greifen Sie auf Hunderte von kostenlosen Online-Rechnern für finanziell, Gesundheit, mathe, Physik und mehr zu. Schnelle, genaue und benutzerfreundliche Berechnungstools.",
-    "keywords": "Rechner, Online-Rechner, Finanzrechner, Gesundheitsrechner, matherechner, kostenlose Tools"
+    "description": "Greifen Sie auf Hunderte von kostenlosen Online-Rechnern für Finanzen, Gesundheit, Mathe, Physik und mehr zu. Schnelle, genaue und benutzerfreundliche Berechnungstools.",
+    "keywords": "Rechner, Online-Rechner, Finanzrechner, Gesundheitsrechner, Mathe-Rechner, kostenlose Tools"
   },
   "header": {
     "title": "Smart Rechner",
@@ -10,17 +10,17 @@
   },
   "hero": {
     "title": "Ihr Leben in <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">90+ kostenlosen</span> Rechnern",
-    "description": "Vom Finanzplaning bis zur Gesundheitsverfolgung - entdecken Sie leistungsstarke Berechnungstools, die komplexe mathe einfach und zugänglich machen."
+    "description": "Vom Finanzplanung bis zur Gesundheitsverfolgung - entdecken Sie leistungsstarke Berechnungstools, die komplexe Mathematik einfach und zugänglich machen."
   },
   "search": {
     "title": "Finden Sie Ihren Rechner",
     "placeholder": "Durchsuchen Sie Hunderte von kostenlosen Tools"
   },
   "categories": {
-    "title": "Rechner-Kategorien",
+    "title": "Beste kostenlose Online-Rechner (Top-Kategorien)",
     "description": "Entdecken Sie unsere umfassende Sammlung spezialisierter Rechner",
     "financial": {
-      "name": "finanziell",
+      "name": "Finanziell",
       "description": "Kredit-, Hypotheken-, Investitions- und Steuerrechner"
     },
     "health": {
@@ -28,19 +28,19 @@
       "description": "BMI-, Kalorien-, Ernährungs- und medizinische Rechner"
     },
     "maths": {
-      "name": "mathe",
-      "description": "Algebra, Geometrie, Statistik und höhere mathe"
+      "name": "Mathe",
+      "description": "Algebra, Geometrie, Statistik und höhere Mathematik"
     },
     "physics": {
       "name": "Physik",
       "description": "Kraft-, Energie-, Bewegungs- und Physikberechnungen"
     },
     "construction": {
-      "name": "konstruktion",
+      "name": "Konstruktion",
       "description": "Immobilien-, Miet- und Bauberechnungen"
     },
     "food": {
-      "name": "essen",
+      "name": "Essen",
       "description": "Ernährungs-, Kalorien- und Mahlzeitenplanungsrechner"
     },
     "sports": {
@@ -53,12 +53,12 @@
     }
   },
   "popular": {
-    "title": "Beliebteste Rechner",
+    "title": "Beliebte Online-Rechner",
     "description": "Unsere am häufigsten verwendeten Berechnungstools",
     "calculators": [
       {
         "name": "Hypothekenrechner",
-        "category": "finanziell",
+        "category": "Finanziell",
         "description": "Berechnen Sie monatliche Raten und Gesamtzinsen für Ihre Immobilienfinanzierung"
       },
       {
@@ -68,17 +68,17 @@
       },
       {
         "name": "Kreditrechner",
-        "category": "finanziell",
+        "category": "Finanziell",
         "description": "Berechnen Sie Kreditraten und Tilgungspläne für jede Art von Kredit"
       },
       {
         "name": "Prozentrechner",
-        "category": "mathe",
+        "category": "Mathe",
         "description": "Berechnen Sie Prozentsätze, Verhältnisse und prozentuale Änderungen einfach"
       },
       {
-        "name": "Zinseszins",
-        "category": "finanziell",
+        "name": "Zinseszins-Rechner",
+        "category": "Finanziell",
         "description": "Berechnen Sie das Investitionswachstum im Zeitverlauf mit Zinseszins"
       },
       {
@@ -97,12 +97,133 @@
         "description": "Erhalten Sie sofortige Ergebnisse mit unseren optimierten Berechnungsmotoren"
       },
       {
-        "title": "100% genau",
+        "title": "100% Genau",
         "description": "Alle Rechner werden von Experten verifiziert und sind mathematisch präzise"
       },
       {
-        "title": "Immer kostenlos",
+        "title": "Immer Kostenlos",
         "description": "Vollständiger Zugriff auf alle Rechner ohne versteckte Gebühren"
+      }
+    ]
+  },
+  "introduction": {
+    "heading": "Online-Rechner",
+    "title": "Willkommen bei der besten kostenlosen Online-Rechner-Plattform",
+    "description": "wo Sie auf schnelle, genaue und benutzerfreundliche Online-Rechner für Ihre täglichen Bedürfnisse zugreifen können. Egal, ob Sie Schüler, Profi oder jemand sind, der schnelle Antworten benötigt, unsere Website bietet eine breite Palette von Online-Rechnern, die Ihnen Zeit und Mühe sparen."
+  },
+  "browse": {
+    "title": "Alle kostenlosen Rechner",
+    "description": "Nutzen Sie unsere vollständige Liste der besten Online-Rechner, um genau das zu finden, was Sie brauchen.",
+    "note": "Suche nach Kategorie, Beliebtheit oder Durchsuchen aller Tools von A bis Z.",
+    "topCategoriesLabel": "Top-Kategorien",
+    "allCalculatorsLabel": "Beliebte Tools",
+    "viewAll": "Alle anzeigen →",
+    "trustBadge": {
+      "title": "Vertrauenswürdig & Sicher",
+      "description": "Unsere Rechner werden auf Genauigkeit überprüft und respektieren Ihre Privatsphäre. Es werden keine Daten gespeichert."
+    }
+  },
+  "whyBest": {
+    "title": "Warum wir die besten Online-Rechner anbieten",
+    "items": [
+      {
+        "icon": "✔",
+        "title": "Von Experten verifizierte Formeln",
+        "description": "Jeder Rechner wird unter Verwendung genauer, branchenüblicher Formeln erstellt und von Fachleuten überprüft."
+      },
+      {
+        "icon": "✔",
+        "title": "Erfahrungsbasierte Entwicklung",
+        "description": "Unser Team verfügt über jahrelange Erfahrung in der Erstellung zuverlässiger und benutzerfreundlicher digitaler Tools."
+      },
+      {
+        "icon": "✔",
+        "title": "Genauigkeit & Transparenz",
+        "description": "Wir erklären, wie jeder Rechner funktioniert, damit Sie Ihre Ergebnisse immer verstehen."
+      },
+      {
+        "icon": "✔",
+        "title": "Für immer kostenlos",
+        "description": "Alle unsere Tools sind zu 100% kostenlose Online-Rechner — keine Anmeldungen, keine Gebühren."
+      },
+      {
+        "icon": "✔",
+        "title": "Sicher & Privat",
+        "description": "Wir speichern keine persönlichen Daten. Ihre Berechnungen bleiben auf Ihrem Gerät."
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "So verwenden Sie unsere Online-Rechner",
+    "steps": [
+      "Wählen Sie Ihren gewünschten Rechner aus.",
+      "Geben Sie Ihre Werte in die erforderlichen Felder ein.",
+      "Erhalten Sie sofortige, genaue Ergebnisse.",
+      "Sehen Sie sich Erklärungen, Formeln und zusätzliche Details zur Klarheit an."
+    ],
+    "note": "Perfekt für Schüler, Lehrer, Profis und alltägliche Benutzer."
+  },
+  "trustedBy": {
+    "title": "Von Millionen vertraut",
+    "description": "Menschen auf der ganzen Welt nutzen unsere Rechner für:",
+    "useCases": [
+      "Schulhausaufgaben",
+      "Finanzplanung",
+      "Gesundheitsverfolgung",
+      "Schnelle tägliche Umrechnungen",
+      "Professionelle Arbeit"
+    ],
+    "note": "Unsere Rechner sind so konzipiert, dass sie schnell, leicht und für Mobilgeräte optimiert sind, sodass sie auf jedem Gerät einfach zu bedienen sind.",
+    "stats": {
+      "freeCalculators": "Kostenlose Rechner",
+      "freeAndSecure": "Kostenlos & Sicher",
+      "availableOnline": "Online verfügbar",
+      "categories": "Kategorien"
+    }
+  },
+  "faqs": {
+    "title": "Häufig gestellte Fragen (FAQs)",
+    "description": "Alles, was Sie über unsere Rechner wissen müssen",
+    "items": [
+      {
+        "question": "Was ist ein Online-Rechner?",
+        "answer": "Ein Online-Rechner ist ein browserbasiertes Tool, mit dem Sie schnelle Berechnungen wie Finanzen, Gesundheit, Mathe und Umrechnungen durchführen können, ohne eine App herunterladen zu müssen."
+      },
+      {
+        "question": "Sind diese Online-Rechner kostenlos?",
+        "answer": "Ja. Alle Rechner auf unserer Website sind zu 100% kostenlos ohne Anmeldungen, versteckte Gebühren und Premium-Pläne."
+      },
+      {
+        "question": "Wie genau sind die Rechnergebnisse?",
+        "answer": "Unsere Tools verwenden von Experten verifizierte Formeln und aktualisierte Datenquellen, um genaue und zuverlässige Ergebnisse zu liefern. Dennoch können die Ergebnisse je nach Benutzereingaben leicht variieren."
+      },
+      {
+        "question": "Speichern Sie persönliche Daten oder Berechnungen?",
+        "answer": "Nein. Wir respektieren die Privatsphäre der Benutzer. Ihre Eingaben und Berechnungen werden nicht gespeichert, verfolgt oder geteilt."
+      },
+      {
+        "question": "Was macht Ihre Website zum besten Ort für Online-Rechner?",
+        "answer": "Wir bieten schnelle, genaue, benutzerfreundliche, für Mobilgeräte optimierte und von Experten verifizierte Rechner, was uns zur besten Quelle für kostenlose Online-Berechnungen macht."
+      },
+      {
+        "question": "Kann ich diese Rechner für schulische oder berufliche Arbeit verwenden?",
+        "answer": "Absolut. Schüler, Lehrer und Profis nutzen unsere Tools täglich für Aufgaben, Planung, Forschung und schnelle mathematische oder finanzielle Überprüfungen."
+      },
+      {
+        "question": "Funktionieren Ihre Rechner auf Mobilgeräten?",
+        "answer": "Ja. Alle Rechner sind für Mobiltelefone, Tablets und Desktops optimiert und gewährleisten eine reibungslose Leistung auf jedem Gerät."
+      },
+      {
+        "question": "Wie oft werden die Rechner aktualisiert?",
+        "answer": "Wir aktualisieren regelmäßig Formeln, Benutzeroberflächen und Funktionen, um Genauigkeit, Geschwindigkeit und Zuverlässigkeit bei allen Tools aufrechtzuerhalten."
+      },
+      {
+        "question": "Kann ich das Hinzufügen eines neuen Rechners anfordern?",
+        "answer": "Ja! Sie können uns jederzeit kontaktieren, um einen neuen Rechner anzufordern oder Verbesserungen vorzuschlagen. Wir freuen uns über Benutzerfeedback."
+      },
+      {
+        "question": "Sind diese Rechner für professionelle medizinische oder finanzielle Entscheidungen geeignet?",
+        "answer": "Unsere Rechner bieten allgemeine Richtlinien und genaue Schätzungen, sollten jedoch keine professionelle Beratung für rechtliche, medizinische oder finanzielle Entscheidungen ersetzen."
       }
     ]
   }

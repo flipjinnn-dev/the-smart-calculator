@@ -1,31 +1,31 @@
 {
   "meta": {
-    "title": "Smart Calculator - Darmowe kalkulatory online do każdego zastosowania",
-    "description": "Skorzystaj z setek darmowych kalkulatorów online do finansów, zdrowia, matematyki, fizyki i nie tylko. Szybkie, dokładne i łatwe w użyciu narzędzia do obliczeń.",
+    "title": "Smart Calculator - Darmowe Kalkulatory Online na Każdą Potrzebę",
+    "description": "Uzyskaj dostęp do setek darmowych kalkulatorów online z zakresu finansów, zdrowia, matematyki, fizyki i innych. Szybkie, dokładne i łatwe w użyciu narzędzia obliczeniowe.",
     "keywords": "kalkulator, kalkulator online, kalkulator finansowy, kalkulator zdrowia, kalkulator matematyczny, darmowe narzędzia"
   },
   "header": {
     "title": "Smart Kalkulatory",
-    "subtitle": "Darmowe kalkulatory online"
+    "subtitle": "Darmowe Kalkulatory Online"
   },
   "hero": {
     "title": "Twoje życie w <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">90+ darmowych</span> kalkulatorach",
-    "description": "Od planowania finansów po śledzenie zdrowia - odkryj potężne narzędzia obliczeniowe, które czynią złożoną matematykę prostą i dostępną."
+    "description": "Od planowania finansowego po śledzenie zdrowia, odkryj potężne narzędzia obliczeniowe, które sprawiają, że skomplikowana matematyka staje się prosta i przystępna."
   },
   "search": {
     "title": "Znajdź swój kalkulator",
-    "placeholder": "Przeszukaj setki darmowych narzędzi"
+    "placeholder": "Szukaj wśród setek darmowych narzędzi"
   },
   "categories": {
-    "title": "Kategorie kalkulatorów",
-    "description": "Przeglądaj naszą kompleksową kolekcję wyspecjalizowanych kalkulatorów",
+    "title": "Najlepsze Darmowe Kalkulatory Online (Główne Kategorie)",
+    "description": "Przeglądaj naszą kompleksową kolekcję specjalistycznych kalkulatorów",
     "financial": {
-      "name": "finansowy",
-      "description": "Kalkulatory kredytów, hipotek, inwestycji i podatków"
+      "name": "Finansowe",
+      "description": "Kalkulatory pożyczek, hipotek, inwestycji i podatków"
     },
     "health": {
-      "name": "Zdrowie i fitness",
-      "description": "Kalkulatory BMI, kalorii, odżywiania i medyczne"
+      "name": "Zdrowie i Fitness",
+      "description": "Kalkulatory BMI, kalorii, żywienia i medyczne"
     },
     "maths": {
       "name": "Matematyka",
@@ -36,16 +36,16 @@
       "description": "Obliczenia siły, energii, ruchu i fizyki"
     },
     "construction": {
-      "name": "budowa",
+      "name": "Budownictwo",
       "description": "Obliczenia nieruchomości, czynszu i budowy"
     },
     "food": {
       "name": "Żywność",
-      "description": "Kalkulatory odżywiania, kalorii i planowania posiłków"
+      "description": "Kalkulatory żywienia, kalorii i planowania posiłków"
     },
     "sports": {
       "name": "Sport",
-      "description": "Kalkulatory fitness, ćwiczeń i sportu"
+      "description": "Kalkulatory fitness, ćwiczeń i sportowe"
     },
     "other": {
       "name": "Inne",
@@ -53,56 +53,177 @@
     }
   },
   "popular": {
-    "title": "Najpopularniejsze kalkulatory",
+    "title": "Popularne Kalkulatory Online",
     "description": "Nasze najczęściej używane narzędzia obliczeniowe",
     "calculators": [
       {
-        "name": "Kalkulator hipoteczny",
-        "category": "finansowy",
-        "description": "Oblicz miesięczne raty i całkowite odsetki dla swojego kredytu hipotecznego"
+        "name": "Kalkulator Hipoteczny",
+        "category": "Finansowe",
+        "description": "Oblicz miesięczne raty i całkowite odsetki od kredytu mieszkaniowego"
       },
       {
         "name": "Kalkulator BMI",
         "category": "Zdrowie",
-        "description": "Oblicz swój wskaźnik masy ciała i zrozum swoje BMI"
+        "description": "Oblicz swój wskaźnik masy ciała (BMI) i zrozum swój status wagowy"
       },
       {
-        "name": "Kalkulator kredytowy",
-        "category": "finansowy",
-        "description": "Oblicz raty i harmonogramy spłat dla dowolnego rodzaju kredytu"
+        "name": "Kalkulator Pożyczki",
+        "category": "Finansowe",
+        "description": "Oblicz raty pożyczki i harmonogramy spłat dla każdego rodzaju pożyczki"
       },
       {
-        "name": "Kalkulator procentowy",
+        "name": "Kalkulator Procentowy",
         "category": "Matematyka",
-        "description": "Łatwo oblicz procenty, proporcje i zmiany procentowe"
+        "description": "Łatwo obliczaj procenty, stosunki i zmiany procentowe"
       },
       {
-        "name": "Procent składany",
-        "category": "finansowy",
-        "description": "Oblicz wzrost inwestycji w czasie z procentem składanym"
+        "name": "Kalkulator Procentu Składanego",
+        "category": "Finansowe",
+        "description": "Oblicz wzrost inwestycji w czasie przy użyciu procentu składanego"
       },
       {
-        "name": "Kalkulator kalorii",
+        "name": "Kalkulator Kalorii",
         "category": "Zdrowie",
-        "description": "Oblicz dzienne zapotrzebowanie kaloryczne na podstawie stylu życia i celów"
+        "description": "Oblicz dzienne zapotrzebowanie na kalorie w oparciu o styl życia i cele"
       }
     ]
   },
   "features": {
-    "title": "Dlaczego warto wybrać Smart Calculator?",
-    "description": "Szybki, dokładny i całkowicie darmowy w użyciu",
+    "title": "Dlaczego Warto Wybrać Smart Calculator?",
+    "description": "Szybkie, dokładne i całkowicie darmowe w użyciu",
     "items": [
       {
-        "title": "Błyskawiczny",
-        "description": "Uzyskaj natychmiastowe wyniki dzięki zoptymalizowanym silnikom obliczeniowym"
+        "title": "Błyskawicznie Szybkie",
+        "description": "Uzyskaj natychmiastowe wyniki dzięki naszym zoptymalizowanym silnikom obliczeniowym"
       },
       {
-        "title": "100% dokładny",
+        "title": "100% Dokładne",
         "description": "Wszystkie kalkulatory są weryfikowane przez ekspertów i matematycznie precyzyjne"
       },
       {
-        "title": "Zawsze darmowy",
-        "description": "Pełny dostęp do wszystkich kalkulatorów bez ukrytych opłat"
+        "title": "Zawsze Darmowe",
+        "description": "Pełny dostęp do wszystkich kalkulatorów bez ukrytych opłat na zawsze"
+      }
+    ]
+  },
+  "introduction": {
+    "heading": "Kalkulatory Online",
+    "title": "Witamy na Najlepszej Platformie Darmowych Kalkulatorów Online",
+    "description": "gdzie masz dostęp do szybkich, dokładnych i łatwych w użyciu kalkulatorów online do codziennych potrzeb. Niezależnie od tego, czy jesteś studentem, profesjonalistą czy osobą potrzebującą szybkich odpowiedzi, nasza strona oferuje szeroką gamę kalkulatorów online, które oszczędzają Twój czas i wysiłek."
+  },
+  "browse": {
+    "title": "Wszystkie Darmowe Kalkulatory",
+    "description": "Skorzystaj z naszej pełnej listy najlepszych kalkulatorów online, aby znaleźć dokładnie to, czego potrzebujesz.",
+    "note": "Szukaj według kategorii, popularności lub przeglądaj wszystkie narzędzia od A do Z.",
+    "topCategoriesLabel": "Główne Kategorie",
+    "allCalculatorsLabel": "Popularne Narzędzia",
+    "viewAll": "Zobacz Wszystkie →",
+    "trustBadge": {
+      "title": "Zaufane i Bezpieczne",
+      "description": "Nasze kalkulatory są weryfikowane pod kątem dokładności i szanują Twoją prywatność. Żadne dane nie są przechowywane."
+    }
+  },
+  "whyBest": {
+    "title": "Dlaczego oferujemy najlepsze kalkulatory online",
+    "items": [
+      {
+        "icon": "✔",
+        "title": "Formuły Zweryfikowane przez Ekspertów",
+        "description": "Każdy kalkulator jest tworzony przy użyciu dokładnych, standardowych w branży formuł i weryfikowany przez profesjonalistów."
+      },
+      {
+        "icon": "✔",
+        "title": "Rozwój Oparty na Doświadczeniu",
+        "description": "Nasz zespół ma wieloletnie doświadczenie w tworzeniu niezawodnych i przyjaznych dla użytkownika narzędzi cyfrowych."
+      },
+      {
+        "icon": "✔",
+        "title": "Dokładność i Przejrzystość",
+        "description": "Wyjaśniamy, jak działa każdy kalkulator, abyś zawsze rozumiał swoje wyniki."
+      },
+      {
+        "icon": "✔",
+        "title": "Darmowe na Zawsze",
+        "description": "Wszystkie nasze narzędzia to w 100% darmowe kalkulatory online — bez rejestracji, bez opłat."
+      },
+      {
+        "icon": "✔",
+        "title": "Bezpieczne i Prywatne",
+        "description": "Nie przechowujemy żadnych danych osobowych. Twoje obliczenia pozostają na Twoim urządzeniu."
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Jak korzystać z naszych kalkulatorów online",
+    "steps": [
+      "Wybierz żądany kalkulator.",
+      "Wprowadź swoje wartości w wymagane pola.",
+      "Uzyskaj natychmiastowe, dokładne wyniki.",
+      "Zobacz wyjaśnienie, wzór i dodatkowe szczegóły dla jasności."
+    ],
+    "note": "Idealne dla studentów, nauczycieli, profesjonalistów i codziennych użytkowników."
+  },
+  "trustedBy": {
+    "title": "Zaufane przez Miliony",
+    "description": "Ludzie na całym świecie używają naszych kalkulatorów do:",
+    "useCases": [
+      "Prac domowych",
+      "Planowania finansowego",
+      "Śledzenia zdrowia",
+      "Szybkich codziennych konwersji",
+      "Pracy zawodowej"
+    ],
+    "note": "Nasze kalkulatory są zaprojektowane tak, aby były szybkie, lekkie i zoptymalizowane pod kątem urządzeń mobilnych, dzięki czemu są łatwe w użyciu na każdym urządzeniu.",
+    "stats": {
+      "freeCalculators": "Darmowe Kalkulatory",
+      "freeAndSecure": "Darmowe i Bezpieczne",
+      "availableOnline": "Dostępne Online",
+      "categories": "Kategorie"
+    }
+  },
+  "faqs": {
+    "title": "Często Zadawane Pytania (FAQ)",
+    "description": "Wszystko, co musisz wiedzieć o naszych kalkulatorach",
+    "items": [
+      {
+        "question": "Czym jest kalkulator online?",
+        "answer": "Kalkulator online to narzędzie oparte na przeglądarce, które pomaga wykonywać szybkie obliczenia, takie jak finanse, zdrowie, matematyka i konwersje, bez pobierania żadnej aplikacji."
+      },
+      {
+        "question": "Czy te kalkulatory online są darmowe?",
+        "answer": "Tak. Wszystkie kalkulatory na naszej stronie są w 100% darmowe, bez rejestracji, bez ukrytych opłat i bez planów premium."
+      },
+      {
+        "question": "Jak dokładne są wyniki kalkulatorów?",
+        "answer": "Nasze narzędzia wykorzystują zweryfikowane przez ekspertów formuły i zaktualizowane źródła danych, aby dostarczać dokładne i wiarygodne wyniki. Mimo to wyniki mogą się nieznacznie różnić w zależności od danych wprowadzonych przez użytkownika."
+      },
+      {
+        "question": "Czy przechowujecie jakiekolwiek dane osobowe lub obliczenia?",
+        "answer": "Nie. Szanujemy prywatność użytkowników. Twoje dane wejściowe i obliczenia nie są przechowywane, śledzone ani udostępniane."
+      },
+      {
+        "question": "Co sprawia, że Wasza strona jest najlepszym miejscem dla kalkulatorów online?",
+        "answer": "Oferujemy szybkie, dokładne, przyjazne dla użytkownika, zoptymalizowane pod kątem urządzeń mobilnych i zweryfikowane przez ekspertów kalkulatory, co czyni nas najlepszym źródłem darmowych obliczeń online."
+      },
+      {
+        "question": "Czy mogę używać tych kalkulatorów do pracy szkolnej lub zawodowej?",
+        "answer": "Oczywiście. Studenci, nauczyciele i profesjonaliści codziennie korzystają z naszych narzędzi do zadań, planowania, badań i szybkich sprawdzeń matematycznych lub finansowych."
+      },
+      {
+        "question": "Czy Wasze kalkulatory działają na urządzeniach mobilnych?",
+        "answer": "Tak. Wszystkie kalkulatory są zoptymalizowane pod kątem telefonów komórkowych, tabletów i komputerów stacjonarnych, zapewniając płynne działanie na każdym urządzeniu."
+      },
+      {
+        "question": "Jak często kalkulatory są aktualizowane?",
+        "answer": "Regularnie aktualizujemy formuły, interfejsy użytkownika i funkcje, aby zachować dokładność, szybkość i niezawodność we wszystkich narzędziach."
+      },
+      {
+        "question": "Czy mogę poprosić o dodanie nowego kalkulatora?",
+        "answer": "Tak! Możesz skontaktować się z nami w dowolnym momencie, aby poprosić o nowy kalkulator lub zasugerować ulepszenia. Cenimy opinie użytkowników."
+      },
+      {
+        "question": "Czy te kalkulatory nadają się do profesjonalnych decyzji medycznych lub finansowych?",
+        "answer": "Nasze kalkulatory zapewniają ogólne wskazówki i dokładne szacunki, ale nie powinny zastępować profesjonalnej porady przy podejmowaniu decyzji prawnych, medycznych lub finansowych."
       }
     ]
   }

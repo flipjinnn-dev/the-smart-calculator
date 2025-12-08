@@ -40,7 +40,7 @@
       "description": "Cálculos de propriedade, aluguel e construção"
     },
     "food": {
-      "name": "alimento",
+      "name": "Alimento",
       "description": "Calculadoras de nutrição, calorias e planejamento de refeições"
     },
     "sports": {
@@ -48,7 +48,7 @@
       "description": "Calculadoras de fitness, exercícios e esportes"
     },
     "other": {
-      "name": "outro",
+      "name": "Outro",
       "description": "Calculadoras diversas que não se encaixam em outras categorias"
     }
   },
@@ -103,6 +103,127 @@
       {
         "title": "Sempre Grátis",
         "description": "Acesso completo a todas as calculadoras sem cobranças ocultas"
+      }
+    ]
+  },
+  "introduction": {
+    "heading": "Calculadoras Online",
+    "title": "Bem-vindo à Melhor Plataforma de Calculadoras Online Grátis",
+    "description": "onde você pode acessar calculadoras online rápidas, precisas e fáceis de usar para suas necessidades diárias. Seja você um estudante, profissional ou alguém que precisa de respostas rápidas, nosso site oferece uma ampla gama de calculadoras online que economizam seu tempo e esforço."
+  },
+  "browse": {
+    "title": "Todas as Calculadoras Grátis",
+    "description": "Use nossa lista completa das melhores calculadoras online para encontrar exatamente o que você precisa.",
+    "note": "Pesquise por categoria, popularidade ou navegue por todas as ferramentas de A a Z.",
+    "topCategoriesLabel": "Principais Categorias",
+    "allCalculatorsLabel": "Ferramentas Populares",
+    "viewAll": "Ver Tudo →",
+    "trustBadge": {
+      "title": "Confiável e Seguro",
+      "description": "Nossas calculadoras são verificadas quanto à precisão e respeitam sua privacidade. Nenhum dado é armazenado."
+    }
+  },
+  "whyBest": {
+    "title": "Por que oferecemos as melhores calculadoras online",
+    "items": [
+      {
+        "icon": "✔",
+        "title": "Fórmulas Verificadas por Especialistas",
+        "description": "Cada calculadora é criada usando fórmulas precisas e padrão da indústria, verificadas por profissionais."
+      },
+      {
+        "icon": "✔",
+        "title": "Desenvolvimento Baseado em Experiência",
+        "description": "Nossa equipe tem anos de experiência na criação de ferramentas digitais confiáveis e fáceis de usar."
+      },
+      {
+        "icon": "✔",
+        "title": "Precisão e Transparência",
+        "description": "Explicamos como cada calculadora funciona para que você sempre entenda seus resultados."
+      },
+      {
+        "icon": "✔",
+        "title": "Grátis para Sempre",
+        "description": "Todas as nossas ferramentas são 100% calculadoras online grátis — sem cadastros, sem taxas."
+      },
+      {
+        "icon": "✔",
+        "title": "Seguro e Privado",
+        "description": "Não armazenamos nenhum dado pessoal. Seus cálculos permanecem no seu dispositivo."
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Como usar nossas calculadoras online",
+    "steps": [
+      "Selecione a calculadora desejada.",
+      "Insira seus valores nos campos obrigatórios.",
+      "Obtenha resultados instantâneos e precisos.",
+      "Veja a explicação, fórmula e detalhes extras para maior clareza."
+    ],
+    "note": "Perfeito para estudantes, professores, profissionais e usuários do dia a dia."
+  },
+  "trustedBy": {
+    "title": "Confiado por Milhões",
+    "description": "Pessoas em todo o mundo usam nossas calculadoras para:",
+    "useCases": [
+      "Trabalhos escolares",
+      "Planejamento financeiro",
+      "Acompanhamento da saúde",
+      "Conversões diárias rápidas",
+      "Trabalho profissional"
+    ],
+    "note": "Nossas calculadoras são projetadas para serem rápidas, leves e otimizadas para dispositivos móveis, tornando-as fáceis de usar em qualquer dispositivo.",
+    "stats": {
+      "freeCalculators": "Calculadoras Grátis",
+      "freeAndSecure": "Grátis e Seguro",
+      "availableOnline": "Disponível Online",
+      "categories": "Categorias"
+    }
+  },
+  "faqs": {
+    "title": "Perguntas Frequentes",
+    "description": "Tudo o que você precisa saber sobre nossas calculadoras",
+    "items": [
+      {
+        "question": "O que é uma calculadora online?",
+        "answer": "Uma calculadora online é uma ferramenta baseada em navegador que ajuda você a realizar cálculos rápidos como finanças, saúde, matemática e conversões sem baixar nenhum aplicativo."
+      },
+      {
+        "question": "Essas calculadoras online são grátis para usar?",
+        "answer": "Sim. Todas as calculadoras em nosso site são 100% gratuitas, sem cadastros, sem taxas ocultas e sem planos premium."
+      },
+      {
+        "question": "Quão precisos são os resultados das calculadoras?",
+        "answer": "Nossas ferramentas usam fórmulas verificadas por especialistas e fontes de dados atualizadas para fornecer resultados precisos e confiáveis. Ainda assim, os resultados podem variar ligeiramente com base nas entradas do usuário."
+      },
+      {
+        "question": "Vocês armazenam dados pessoais ou cálculos?",
+        "answer": "Não. Respeitamos a privacidade do usuário. Suas entradas e cálculos não são armazenados, rastreados ou compartilhados."
+      },
+      {
+        "question": "O que torna seu site o melhor lugar para calculadoras online?",
+        "answer": "Oferecemos calculadoras rápidas, precisas, fáceis de usar, otimizadas para dispositivos móveis e verificadas por especialistas, tornando-nos a melhor fonte para cálculos online gratuitos."
+      },
+      {
+        "question": "Posso usar essas calculadoras para trabalho escolar ou profissional?",
+        "answer": "Com certeza. Estudantes, professores e profissionais usam nossas ferramentas diariamente para tarefas, planejamento, pesquisas e verificações matemáticas ou financeiras rápidas."
+      },
+      {
+        "question": "Suas calculadoras funcionam em dispositivos móveis?",
+        "answer": "Sim. Todas as calculadoras são otimizadas para celulares, tablets e desktops, garantindo um desempenho suave em qualquer dispositivo."
+      },
+      {
+        "question": "Com que frequência as calculadoras são atualizadas?",
+        "answer": "Atualizamos regularmente fórmulas, interfaces de usuário e recursos para manter a precisão, velocidade e confiabilidade em todas as ferramentas."
+      },
+      {
+        "question": "Posso solicitar a adição de uma nova calculadora?",
+        "answer": "Sim! Você pode entrar em contato conosco a qualquer momento para solicitar uma nova calculadora ou sugerir melhorias. Agradecemos o feedback dos usuários."
+      },
+      {
+        "question": "Essas calculadoras são adequadas para decisões médicas ou financeiras profissionais?",
+        "answer": "Nossas calculadoras fornecem orientações gerais e estimativas precisas, mas não devem substituir o aconselhamento profissional para decisões legais, médicas ou financeiras."
       }
     ]
   }
