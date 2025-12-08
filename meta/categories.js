@@ -221,7 +221,7 @@ const categoriesMeta = {
     },
     es: {
       name: "Otras Calculadoras Útiles",
-      slug: "otro",
+      slug: "otra",
       description: "Calculadoras gratuitas para la vida diaria, conversiones y necesidades únicas. Explore herramientas prácticas para todo tipo de cálculos cotidianos."
     }
   }

@@ -470,9 +470,9 @@ export const calculatorsMeta: CalculatorMeta = {
     ,
     es: {
       title: "Calculadora de Matrimonio: Descubre tu Compatibilidad Hoy",
-      description: "Usa nuestra calculadora de matrimonio y conoce tu compatibilidad con tu pareja al instante. ¡Descubre si están hechos el uno para el otro ahora!",
+      description: "Usa nuestra calculadora de matrimonio y conoce tu compatibilidad con tu pareja al instante. ¡Descubre si están hechos el uno para el otra ahora!",
       slug: "/es/financiero/calculadora-de-matrimonio",
-      keywords: "calculadora, matrimonio, descubre, compatibilidad, nuestra, conoce, pareja, instante, están, hechos, otro, ahora"
+      keywords: "calculadora, matrimonio, descubre, compatibilidad, nuestra, conoce, pareja, instante, están, hechos, otra, ahora"
     }
   },
   'sales-tax-calculator': {

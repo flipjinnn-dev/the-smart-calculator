@@ -470,9 +470,9 @@ export const calculatorsMeta: CalculatorMeta = {
     ,
     es: {
       title: "Calculadora de Matrimonio: Descubre tu Compatibilidad Hoy",
-      description: "Usa nuestra calculadora de matrimonio y conoce tu compatibilidad con tu pareja al instante. ¡Descubre si están hechos el uno para el otro ahora!",
+      description: "Usa nuestra calculadora de matrimonio y conoce tu compatibilidad con tu pareja al instante. ¡Descubre si están hechos el uno para el otra ahora!",
       slug: "/es/financiero/calculadora-de-matrimonio",
-      keywords: "calculadora, matrimonio, descubre, compatibilidad, nuestra, conoce, pareja, instante, están, hechos, otro, ahora"
+      keywords: "calculadora, matrimonio, descubre, compatibilidad, nuestra, conoce, pareja, instante, están, hechos, otra, ahora"
     }
   },
   'sales-tax-calculator': {
@@ -2941,7 +2941,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Números Mágicos para Ganar Lotería – Descúbrelos Hoy",
       description: "Encuentra tus números mágicos para la lotería y aumenta tus posibilidades de ganar. ¡Prueba nuestra guía y juega con estrategia ahora mismo",
-      slug: "/es/otro/numeros-magicos-para-ganar-loteria",
+      slug: "/es/otra/numeros-magicos-para-ganar-loteria",
       keywords: "números, mágicos, ganar, lotería, descúbrelos, encuentra, aumenta, posibilidades, prueba, nuestra, guía, juega, estrategia, ahora, mismo"
     }
   },
@@ -2973,7 +2973,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de Edad – Descubre tu Edad Exacta al Instante",
       description: "Calcula tu edad exacta al instante con nuestra herramienta rápida y precisa. ¡Descúbrelo ahora y lleva un control de tu tiempo de manera fácil!",
-      slug: "/es/otro/calculadora-de-edad",
+      slug: "/es/otra/calculadora-de-edad",
       keywords: "calculadora, edad, descubre, exacta, instante, calcula, nuestra, herramienta, rápida, precisa, descúbrelo, ahora, lleva, control, tiempo"
     }
   },
