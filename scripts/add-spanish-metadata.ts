@@ -26,85 +26,71 @@ interface CategoryData {
 }
 
 // Parse CSV file
-async function parseCSV(csvPath: string): Promise<{ calculators: SpanishMetaData[], categories: CategoryData[] }> {
-    console.log('📖 Reading CSV file...');
+// Parse meta/calculators.ts directly
+async function parseCalculatorsMetaFromCode(): Promise<{ calculators: SpanishMetaData[], categories: CategoryData[] }> {
+    console.log('📖 Reading meta/calculators.ts file...');
 
-    const csvContent = await fs.readFile(csvPath, 'utf-8');
-    const lines = csvContent.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+    const metaPath = path.join(__dirname, '..', 'meta', 'calculators.ts');
+    const content = await fs.readFile(metaPath, 'utf-8');
 
     const calculators: SpanishMetaData[] = [];
     const categories: CategoryData[] = [];
+    const categoryMap = new Map<string, string>(); // es -> en
 
-    for (let i = 2; i < lines.length; i++) {
-        const line = lines[i];
+    // Regex to find calculator blocks
+    // Matches: 'calc-id': { ... en: { ... slug: "..." ... } ... es: { ... slug: "..." ... } ... }
+    // This is complex to regex reliably if nested. 
+    // Simplified assumption: keys are top level indent 2 spaces.
 
-        // CSV parsing with quote handling
-        const parts: string[] = [];
-        let current = '';
-        let inQuotes = false;
+    const calcBlockRegex = /'([\w-]+)':\s*\{[\s\S]*?en:\s*\{[\s\S]*?slug:\s*"([^"]+)"[\s\S]*?es:\s*\{[\s\S]*?slug:\s*"([^"]+)"/g;
 
-        for (let j = 0; j < line.length; j++) {
-            const char = line[j];
+    let match;
+    while ((match = calcBlockRegex.exec(content)) !== null) {
+        const calculatorId = match[1];
+        const enSlug = match[2];
+        const esSlug = match[3];
 
-            if (char === '"') {
-                inQuotes = !inQuotes;
-            } else if (char === ',' && !inQuotes) {
-                parts.push(current.trim());
-                current = '';
-            } else {
-                current += char;
+        // enSlug: /category/calc-id or /category/subcategory/calc-id (usually just /category/calc-id)
+        // esSlug: /es/category/calc-id
+
+        // Remove leading / and split
+        const enParts = enSlug.replace(/^\//, '').split('/');
+        const esParts = esSlug.replace(/^\//, '').split('/');
+
+        if (enParts.length >= 2 && esParts.length >= 3 && esParts[0] === 'es') {
+            // enParts[0] is category (usually)
+            // esParts[1] is es category
+
+            const enCategory = enParts[0];
+            const esCategory = esParts[1];
+            const esCalcSlug = esParts[esParts.length - 1]; // Last part is the calc slug
+
+            // Store category mapping
+            if (!categoryMap.has(esCategory)) {
+                categoryMap.set(esCategory, enCategory);
+                categories.push({
+                    category: enCategory,
+                    spanishCategory: esCategory,
+                    title: '', // Not needed for middleware sync
+                    description: ''
+                });
             }
-        }
-        parts.push(current.trim());
-
-        // Extract columns and clean
-        let englishUrl = parts[0]?.trim().replace(/\r$/, '') || '';
-        let spanishUrl = parts[1]?.trim().replace(/\r$/, '') || '';
-        let title = parts[2]?.trim().replace(/\r$/, '').replace(/^"/, '').replace(/"$/, '') || '';
-        let description = parts[3]?.trim().replace(/\r$/, '').replace(/^"/, '').replace(/"$/, '') || '';
-
-        if (!englishUrl || !spanishUrl || !title || !description) continue;
-
-        // Parse URLs - remove protocol and split
-        const englishParts = englishUrl.replace(/https?:\/\//, '').split('/').filter(p => p);
-        const isCategory = englishParts.length === 2; // domain + category
-
-        if (isCategory) {
-            const category = englishParts[1];
-            const spanishParts = spanishUrl.replace(/https?:\/\//, '').split('/').filter(p => p);
-            const spanishCategory = spanishParts[2] || category;
-
-            categories.push({
-                category,
-                spanishCategory,
-                title,
-                description
-            });
-        } else if (englishParts.length === 3) {
-            // Calculator: domain/category/calculator-id
-            const calculatorId = englishParts[2];
-            const category = englishParts[1];
-            const spanishParts = spanishUrl.replace(/https?:\/\//, '').split('/').filter(p => p);
-            const spanishCategory = spanishParts[2] || category;
-            const spanishCalcSlug = spanishParts[3] || calculatorId;
-            const slug = `/es/${spanishCategory}/${spanishCalcSlug}`;
-            const keywords = generateKeywords(title, description);
 
             calculators.push({
                 calculatorId,
-                englishUrl,
-                spanishUrl,
-                title,
-                description,
-                slug,
-                category,
-                spanishCategory,
-                keywords
+                englishUrl: enSlug,
+                spanishUrl: esSlug,
+                title: '',
+                description: '',
+                slug: esSlug,
+                category: enCategory,
+                spanishCategory: esCategory,
+                keywords: ''
             });
         }
     }
 
-    console.log(`✅ Parsed ${calculators.length} calculators and ${categories.length} categories`);
+    console.log(`✅ Parsed ${calculators.length} calculators and ${categories.length} categories from code`);
     return { calculators, categories };
 }
 
@@ -322,11 +308,9 @@ async function main() {
     console.log('🚀 Starting Spanish metadata integration...\n');
 
     try {
-        const csvPath = path.join(__dirname, '..', 'docs', 'spanish-meta-info-and-slugs.csv');
-
-        const { calculators, categories } = await parseCSV(csvPath);
-        await updateCalculatorsMeta(calculators);
-        await updateLayoutFiles(calculators);
+        const { calculators, categories } = await parseCalculatorsMetaFromCode();
+        // await updateCalculatorsMeta(calculators); // Not needed for sync
+        // await updateLayoutFiles(calculators); // Not needed for sync
         await updateMiddleware(calculators, categories);
 
         console.log('\n✅ Spanish metadata integration completed! 🎉');

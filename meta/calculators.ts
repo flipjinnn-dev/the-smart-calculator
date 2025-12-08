@@ -2941,7 +2941,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Números Mágicos para Ganar Lotería – Descúbrelos Hoy",
       description: "Encuentra tus números mágicos para la lotería y aumenta tus posibilidades de ganar. ¡Prueba nuestra guía y juega con estrategia ahora mismo",
-      slug: "/es/otro/numeros-magicos-para-ganar-loteria",
+      slug: "/es/deportes/numeros-magicos-para-ganar-loteria",
       keywords: "números, mágicos, ganar, lotería, descúbrelos, encuentra, aumenta, posibilidades, prueba, nuestra, guía, juega, estrategia, ahora, mismo"
     }
   },
