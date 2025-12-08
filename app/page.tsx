@@ -64,7 +64,7 @@ export default function HomePage() {
 
   // Show loading state
   if (loading) {
-    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+    return <div className="min-h-screen flex items-center justify-center">Thinking...</div>;
   }
 
   // Show error if content failed to load

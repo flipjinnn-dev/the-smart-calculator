@@ -90,21 +90,43 @@ export async function loadHomepageContent(language: string = 'en') {
   }
 }
 
+// Import English content directly for instant initial state
+import enContent from '@/app/content/homepage/en.json';
+
 // Client-side hook for use in client components
 export function useHomepageContent(language: string = 'en') {
-  // For client components, we'll implement useEffect-based loading
-  const [content, setContent] = useState<any>(null);
-  const [loading, setLoading] = useState<boolean>(true);
+  // Initialize with English content immediately (instant load)
+  // TypeScript might complain about type mismatch if json structure isn't perfect matches interface
+  // but for now casting to any or relying on structure matching is fine
+  const [content, setContent] = useState<any>(enContent);
+  // Start with loading false since we have content immediately
+  const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let isMounted = true;
-    
+
+    // If language is English, we already have the content, no need to load
+    // But we might want to re-verify or if logic changes. 
+    // Optimization: if language is en, just ensure content is set and return.
+    if (language === 'en') {
+      if (content !== enContent) {
+        setContent(enContent);
+      }
+      setLoading(false);
+      return;
+    }
+
     const loadContent = async () => {
       try {
+        // Only show loading state if we don't have content, 
+        // OR we want to show a spinner while switching languages.
+        // For "instant" feel, we can keep showing old content while new one loads, 
+        // OR show "Thinking..." if user wants that specific feedback.
+        // User asked for "Thinking..." so let's set loading true.
         setLoading(true);
         const result = await loadHomepageContent(language);
-        
+
         if (isMounted) {
           setContent(result.content);
           setError(result.error);
