@@ -946,7 +946,9 @@ export function middleware(request: NextRequest) {
       'nutzungsbedingungen': 'terms-and-conditions',
       // Spanish
       'acerca-de-nosotros': 'about-us',
+      'sobre-nosotros': 'about-us',
       'contactanos': 'contact-us',
+      'contacto': 'contact-us',
       'politica-de-privacidad': 'privacy-policy',
       'terminos-y-condiciones': 'terms-and-conditions'
     };

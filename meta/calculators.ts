@@ -3005,7 +3005,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de Funciones por Tramos – Calcula Fácil y Rápido",
       description: "Resuelve funciones por tramos al instante con nuestra calculadora precisa. ¡Simplifica tus ejercicios y aprende matemáticas de manera eficiente ahora!",
-      slug: "/calculadora-de-funciones-por-tramos",
+      slug: "/es/calculadora-de-funciones-por-tramos",
       keywords: "calculadora, funciones, tramos, calcula, fácil, rápido, resuelve, instante, nuestra, precisa, simplifica, ejercicios, aprende, matemáticas, manera"
     }
   },
@@ -3037,7 +3037,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de ROI SEO – Mide tu Retorno Rápido y Fácil",
       description: "Calcula el ROI de tus estrategias SEO al instante y optimiza tus inversiones. ¡Descubre cuánto retorno obtienes y mejora tu marketing ahora mismo",
-      slug: "/calculadora-de-roi-seo",
+      slug: "/es/calculadora-de-roi-seo",
       keywords: "calculadora, mide, retorno, rápido, fácil, calcula, estrategias, instante, optimiza, inversiones, descubre, cuánto, obtienes, mejora, marketing"
     }
   },
@@ -3069,7 +3069,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora RPE – Evalúa tu Esfuerzo Físico Fácil y Rápido",
       description: "Calcula tu RPE (Percepción del Esfuerzo) al instante y optimiza tu entrenamiento. ¡Mejora tus rutinas y alcanza tus metas ahora mismo!",
-      slug: "/calculadora-rpe",
+      slug: "/es/calculadora-rpe",
       keywords: "calculadora, evalúa, esfuerzo, físico, fácil, rápido, calcula, percepción, instante, optimiza, entrenamiento, mejora, rutinas, alcanza, metas"
     }
   },
@@ -3101,7 +3101,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de Manutención Infantil – Calcula Fácil y Rápido",
       description: "Calcula la manutención infantil al instante con nuestra herramienta precisa. ¡Conoce los pagos justos y planifica el bienestar de tus hijos ahora mismo!",
-      slug: "/calculadora-de-manutencion-infantil",
+      slug: "/es/calculadora-de-manutencion-infantil",
       keywords: "calculadora, manutención, infantil, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, conoce, pagos, justos, planifica, bienestar"
     }
   },
@@ -3133,7 +3133,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de Tiempo – Calcula Duraciones Rápida y Fácil",
       description: "Calcula tiempos y duraciones al instante con nuestra herramienta precisa. ¡Ahorra tiempo y organiza tus actividades de manera eficiente ahora mismo!",
-      slug: "/calculadora-de-tiempo",
+      slug: "/es/calculadora-de-tiempo",
       keywords: "calculadora, tiempo, calcula, duraciones, rápida, fácil, tiempos, instante, nuestra, herramienta, precisa, ahorra, organiza, actividades, manera"
     }
   },
@@ -3165,7 +3165,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de GPA – Calcula tu Promedio Académico Fácil",
       description: "Calcula tu GPA al instante con nuestra herramienta rápida y precisa. ¡Conoce tu promedio académico y planifica tu éxito universitario ahora mismo!",
-      slug: "/calculadora-de-gpa",
+      slug: "/es/calculadora-de-gpa",
       keywords: "calculadora, calcula, promedio, académico, fácil, nuestra, herramienta, rápida, precisa, conoce, planifica, éxito, universitario, ahora"
     }
   },
@@ -3197,7 +3197,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de Altura – Predice tu Crecimiento Fácilmente",
       description: "Usa nuestra calculadora de altura para estimar tu crecimiento o el de tus hijos. ¡Descúbrelo al instante y planifica tu desarrollo ahora mismo!",
-      slug: "/calculadora-de-altura",
+      slug: "/es/calculadora-de-altura",
       keywords: "calculadora, altura, predice, crecimiento, fácilmente, nuestra, estimar, hijos, descúbrelo, instante, planifica, desarrollo, ahora"
     }
   },
@@ -3229,7 +3229,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de Subnet – Calcula Redes IP Fácil y Rápido",
       description: "Calcula tus subnets al instante con nuestra herramienta precisa. ¡Optimiza tus redes IP y simplifica la planificación de tus direcciones ahora mismo!",
-      slug: "/calculadora-subnet",
+      slug: "/es/calculadora-subnet",
       keywords: "calculadora, subnet, calcula, redes, fácil, rápido, subnets, instante, nuestra, herramienta, precisa, optimiza, simplifica, planificación, direcciones"
     }
   },
