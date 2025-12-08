@@ -25,6 +25,12 @@ const duedatecalculatorMeta = {
     description: "Nutzen Sie den Fristenrechner zur exakten Berechnung von Kündigungs-, Einspruchs- oder Zahlungsfristen. Der Fristenrechner unterstützt Sie zuverlässig bei Zeitgrenzen.",
     keywords: "fristenrechner, fristen berechnen, kündigungs einspruchs, zahlungsfristen tool, online fristen, zuverlässig unterstützt, zeitgrenzen rechner"
   }
+,
+  es: {
+    title: "Calculadora de Fecha de Vencimiento – Calcula Fácil y Rápido",
+    description: "Calcula la fecha de vencimiento al instante con nuestra herramienta precisa. ¡Evita retrasos y organiza tus fechas importantes ahora mismo",
+    keywords: "calculadora, fecha, vencimiento, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, evita, retrasos, organiza, fechas, importantes"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

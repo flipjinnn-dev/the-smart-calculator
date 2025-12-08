@@ -25,6 +25,12 @@ const leanbodymasscalculatorMeta = {
     description: "Berechne mit dem Lean Body Mass Rechner Masse basierend auf Gewicht und Fettanteil. Präzises, kostenloses Tool für Fitness und Gesundheits-Tracking.",
     keywords: "lean body mass rechner, masse schätzung, gewicht fett, online lean, fitness tracking, gesundheit tool, kostenloser mass rechner, körper masse"
   }
+,
+  es: {
+    title: "Calculadora de Masa Corporal Magra – Calcula Fácil y Rápido",
+    description: "Calcula tu masa corporal magra al instante con nuestra herramienta precisa. ¡Optimiza tu entrenamiento y mejora tu composición corporal ahora mismo",
+    keywords: "calculadora, masa, corporal, magra, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, optimiza, entrenamiento, mejora, composición"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

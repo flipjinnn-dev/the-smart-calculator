@@ -24,6 +24,12 @@ const calculator401kMeta = {
     description: "kostenloses Online-Tool für Finanzplanung und Prognosen., 401k rechner, sparwachstum berechnen, renteneinkommen, beiträge tool, online 401k, finanzplanung, kostenloser rechner",
     keywords: "401k rechner, savings growth, retirement income, contributions tool, online 401k, financial planning, kostenlos 401k rechner, estimate income"
   }
+,
+  es: {
+    title: "Calculadora de 401k: Planifica tu retiro fácilmente",
+    description: "Usa nuestra calculadora 401k para estimar tus ahorros de jubilación, aportes y crecimiento. Planifica tu futuro financiero con proyecciones claras y confiables.",
+    keywords: "calculadora, planifica, retiro, fácilmente, nuestra, estimar, ahorros, jubilación, aportes, crecimiento, futuro, financiero, proyecciones, claras, confiables"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

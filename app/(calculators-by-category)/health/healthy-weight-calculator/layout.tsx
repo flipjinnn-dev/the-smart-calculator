@@ -25,6 +25,12 @@ const healthyweightcalculatorMeta = {
     description: "Berechne mit dem Gesundes Gewicht Rechner deinen idealen Gewichtsbereich basierend auf Größe und Geschlecht. Präzises Tool für Gesundheitsziele und Gewichtsmanagement.",
     keywords: "gesundes gewicht rechner, gewicht bereich, höhe geschlecht, online gesund, gesundheitsziele, gewicht management, kostenloser gewicht rechner, bereich bestimmen"
   }
+,
+  es: {
+    title: "Calculadora de Peso Saludable – Descubre tu IMC Ideal",
+    description: "Calcula tu peso saludable al instante con nuestra herramienta precisa. ¡Conoce tu IMC y lleva un estilo de vida más sano ahora mismo",
+    keywords: "calculadora, peso, saludable, descubre, ideal, calcula, instante, nuestra, herramienta, precisa, conoce, lleva, estilo, vida, sano"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

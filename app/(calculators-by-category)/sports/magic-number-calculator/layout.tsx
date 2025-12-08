@@ -25,6 +25,12 @@ const magicnumbercalculatorMeta = {
     description: "Berechne mit dem Magische Zahl Rechner die Zahl für Playoff-Kontention in Sport. Präzises Tool für Fans und Team-Analyse kostenlos.",
     keywords: "magische zahl rechner, playoff contention, sport rechner, online magisch, team analyse, fan tool, kostenloser magisch tool, contention berechnung"
   }
+,
+  es: {
+    title: "Números Mágicos para Ganar Lotería – Descúbrelos Hoy",
+    description: "Encuentra tus números mágicos para la lotería y aumenta tus posibilidades de ganar. ¡Prueba nuestra guía y juega con estrategia ahora mismo",
+    keywords: "números, mágicos, ganar, lotería, descúbrelos, encuentra, aumenta, posibilidades, prueba, nuestra, guía, juega, estrategia, ahora, mismo"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

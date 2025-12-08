@@ -24,6 +24,12 @@ const savingscalculatorMeta = {
     description: "Mit dem Sparrechner berechnen Sie Ihre monatliche Sparrate, Laufzeit und das Endkapital – sparen Sie effektiv und erreichen Sie Ihre Ziele mit dem Sparrechner.",
     keywords: "sparrechner, wachstum zeit, beiträge tool, online sparen, finanzplanung, ziele rechner, kostenloser spar tool, wachstum schätzung"
   }
+,
+  es: {
+    title: "Calculadora de Ahorro – Optimiza tu Ahorro y Calcula Interés Compuesto",
+    description: "Utiliza nuestra calculadora de ahorro para gestionar tu cuenta de ahorros, calcular el interés compuesto y planificar tus finanzas de manera eficiente y sencilla.",
+    keywords: "calculadora, ahorro, optimiza, calcula, interés, compuesto, utiliza, nuestra, gestionar, cuenta, ahorros, calcular, planificar, finanzas, manera"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

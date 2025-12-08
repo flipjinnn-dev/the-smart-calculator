@@ -24,6 +24,12 @@ const socialsecuritycalculatorMeta = {
     description: "Mit dem Sozialversicherungsrechner ermitteln Sie Ihre Beiträge zu Kranken-, Pflege-, Renten- und Arbeitslosenversicherung online — präzise & kostenlos.",
     keywords: "sozialversicherungsrechner, leistungen schätzung, einkommensgeschichte, online social, renten tool, sozial planung, kostenloser sicherheit tool, leistung berechnung"
   }
+,
+  es: {
+    title: "Calculadora de seguridad social: Estima tus beneficios hoy",
+    description: "Calcula fácilmente tus beneficios de seguridad social. Planifica tu jubilación, conoce tus ingresos futuros y toma decisiones financieras inteligentes hoy.",
+    keywords: "calculadora, seguridad, social, estima, beneficios, calcula, fácilmente, planifica, jubilación, conoce, ingresos, futuros, toma, decisiones, financieras"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

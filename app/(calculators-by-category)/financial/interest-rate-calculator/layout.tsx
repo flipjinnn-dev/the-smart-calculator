@@ -24,6 +24,12 @@ const interestratecalculatorMeta = {
     description: "Mit dem Zinsrechner berechnen Sie Zinssatz, Laufzeit, Anfangs- oder Endkapital exakt. Nutzen Sie den Zinsrechner für Ihre Geldanlagen oder Kredite.",
     keywords: "zinsrechner, raten impact, darlehen investitionen, online rate, finanzvergleiche, kostenloser rate tool, rate berechnung, investitionsplanung"
   }
+,
+  es: {
+    title: "Calculadora de Tasas de Interés – Calcula Fácil y Rápido",
+    description: "Calcula tus tasas de interés al instante con nuestra herramienta fácil y precisa. ¡Ahorra tiempo y toma decisiones financieras inteligentes ahora!",
+    keywords: "calculadora, tasas, interés, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, ahorra, tiempo, toma, decisiones, financieras"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

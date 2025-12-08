@@ -25,6 +25,12 @@ const bmrcalculatorMeta = {
     description: "Berechne mit dem BMR Rechner deine Basale Stoffwechselrate für Kalorienbedarf. Präzises, kostenloses Tool basierend auf Alter, Gewicht, Größe für Diätplanung.",
     keywords: "bmr rechner, stoffwechselrate berechnen, kalorienbedarf tool, alter gewicht, online bmr, diätplanung, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora del Metabolismo Basal – Calcula Fácil y Rápido",
+    description: "Calcula tu metabolismo basal al instante con nuestra herramienta precisa. ¡Optimiza tu dieta y entrenamiento para alcanzar tus metas ahora mismo!",
+    keywords: "calculadora, metabolismo, basal, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, optimiza, dieta, entrenamiento, alcanzar, metas"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -24,6 +24,12 @@ const bodyfatcalculatorMeta = {
     description: "\"\"Berechne mit dem Körperfett Rechner deinen Körperfettanteil schnell & genau. Ideal für Fitness, Gesundheit und Gewichtsmanagement – kostenlos online!\"\"",
     keywords: "body fat rechner, percentage tool, methods calculation, online fat, fitness tracker, health goals, kostenlos body rechner, estimate fat"
   }
+,
+  es: {
+    title: "Calculadora de Grasa Corporal – Mide tu % Fácil y Rápido",
+    description: "Calcula tu porcentaje de grasa corporal al instante con nuestra herramienta precisa. ¡Optimiza tu entrenamiento y mejora tu salud ahora mismo!",
+    keywords: "calculadora, grasa, corporal, mide, fácil, rápido, calcula, porcentaje, instante, nuestra, herramienta, precisa, optimiza, entrenamiento, mejora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

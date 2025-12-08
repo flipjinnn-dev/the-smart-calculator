@@ -25,6 +25,12 @@ const percentagecalculatorMeta = {
     description: "Berechne mit dem Prozentrechner Prozente, Prozentwerte & Veränderungen. Schnell, genau & kostenlos – ideal für Schule, Beruf & Alltag!",
     keywords: "prozentrechner, prozente verhältnisse, ändern berechnung, online prozent, math finanz, kostenloser prozent tool, verhältnis tool, ändern schätzer"
   }
+,
+  es: {
+    title: "Calculadora de Porcentajes – Obtén Resultados al Instante",
+    description: "Calcula porcentajes fácil y rápido con nuestra calculadora online. Ideal para tareas, finanzas y negocios. ¡Ingresa los valores y obtén el resultado ahora!",
+    keywords: "calculadora, porcentajes, obtén, resultados, instante, calcula, fácil, rápido, nuestra, online, ideal, tareas, finanzas, negocios, ingresa"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

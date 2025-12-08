@@ -25,6 +25,12 @@ const pregnancyweightgaincalculatorMeta = {
     description: "Berechnen Sie Ihre gesunde Gewichtszunahme in der Schwangerschaft mit unserem Tool. Der Schwangerschaft Gewichtszunahme Rechner zeigt Ihnen Grenzwerte & Trends.",
     keywords: "schwangerschaft gewichtszunahme, empfohlene zunahme, schwangerschaftsgewicht, online zunahme tool, mütterliche gesundheit, tracking rechner, kostenloser gewicht tool, zunahme schätzung"
   }
+,
+  es: {
+    title: "Calculadora de Aumento de Peso en Embarazo – Fácil y Rápido",
+    description: "Calcula tu aumento de peso durante el embarazo al instante y lleva un control saludable. ¡Descubre si estás en el rango ideal ahora mismo!",
+    keywords: "calculadora, aumento, peso, embarazo, fácil, rápido, calcula, durante, instante, lleva, control, saludable, descubre, estás, rango"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

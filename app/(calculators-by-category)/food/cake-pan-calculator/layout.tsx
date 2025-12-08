@@ -25,6 +25,12 @@ const cakepancalculatorMeta = {
     description: "Berechne mit dem Kuchenform Rechner die richtige Zutatenmenge für jede Backform. Schnell, praktisch & kostenlos – ideal fürs Backen zu Hause!",
     keywords: "kuchenform rechner, mengen umrechnen, zutatenmenge tool, backform online, schnell praktisch, backen hause, kostenloser rechner"
   }
+,
+  es: {
+    title: "Convertidor de Moldes para Pasteles – Medidas Precisas",
+    description: "Convierte fácilmente el tamaño de moldes para pasteles entre pulgadas, cm y más. ¡Prepara tus recetas con precisión y sin errores ahora mismo!",
+    keywords: "convertidor, moldes, pasteles, medidas, precisas, convierte, fácilmente, tamaño, entre, pulgadas, prepara, recetas, precisión, errores, ahora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

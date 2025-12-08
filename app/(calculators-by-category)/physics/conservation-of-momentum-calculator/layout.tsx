@@ -25,6 +25,12 @@ const conservationofmomentumcalculatorMeta = {
     description: "Berechne mit dem Erhaltung des Impulses Rechner Impuls in Kollisionen. Präzises, kostenloses Tool für Physikstudenten und Kollisionsanalyse.",
     keywords: "erhaltung impulses rechner, kollisionen tool, impuls berechnen, online erhaltung, physik analyse, kostenloser tool, studenten rechner"
   }
+,
+  es: {
+    title: "Calculadora de Conservación del Momento – Física Fácil",
+    description: "Calcula la conservación del momento lineal y angular al instante con nuestra herramienta precisa. ¡Resuelve problemas de física rápida y fácilmente!",
+    keywords: "calculadora, conservación, momento, física, fácil, calcula, lineal, angular, instante, nuestra, herramienta, precisa, resuelve, problemas, rápida"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

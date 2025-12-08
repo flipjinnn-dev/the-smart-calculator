@@ -25,6 +25,12 @@ const caloriesburnedcalculatorMeta = {
     description: "Nutzen Sie den calories burned  – activity online | thesmartcalculator für schnelle, genaue Ergebnisse. Einfache Eingaben, klare Ausgaben und nützlicher Kontext.",
     keywords: "kalorienverbrauch rechner, verbrauch berechnen, täglichen bedarf, energie aktivitäten, online rechner, gesundheit tool, nutzen rechner"
   }
+,
+  es: {
+    title: "Calculadora de Calorías Quemadas – Calcula Fácil y Rápido",
+    description: "Calcula las calorías quemadas al instante con nuestra herramienta precisa. ¡Optimiza tu entrenamiento y alcanza tus metas fitness ahora mismo",
+    keywords: "calculadora, calorías, quemadas, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, optimiza, entrenamiento, alcanza, metas, fitness"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

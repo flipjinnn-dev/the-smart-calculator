@@ -24,6 +24,12 @@ const compoundinterestcalculatorMeta = {
     description: "Mit dem Zinseszinsrechner berechnen Sie Kapitalwachstum, Sparraten und Laufzeit effizient. Nutzen Sie den Zinseszinsrechner für Ihre Finanz- und Anlageplanung.",
     keywords: "zinseszinsrechner, vermögen berechnen, kapitalwachstum tool, sparraten laufzeit, finanz anlage, effizient nutzen, rechner online"
   }
+,
+  es: {
+    title: "Calculadora de Interés Compuesto – Calcula Capitalización y Valor Futuro",
+    description: "Utiliza nuestra calculadora de interés compuesto para estimar la capitalización de tu dinero, proyectar el valor futuro y optimizar tus inversiones de manera sencilla y precisa.",
+    keywords: "calculadora, interés, compuesto, calcula, capitalización, valor, futuro, utiliza, nuestra, estimar, dinero, proyectar, optimizar, inversiones, manera"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

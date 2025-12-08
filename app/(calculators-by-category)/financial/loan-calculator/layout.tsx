@@ -24,6 +24,12 @@ const loancalculatorMeta = {
     description: "Mit dem Kreditrechner berechnen Sie Zinsen, Laufzeit und Monatsrate für Darlehen. Nutzen Sie den Kreditrechner für transparente Kreditentscheidungen online.",
     keywords: "kreditrechner, raten zinsen, tilgungspläne, online kredit, planungstool, budgetrechner, kostenloser kredit tool, zinsberechnung"
   }
+,
+  es: {
+    title: "Calculadora de Préstamos – Calcula tu Crédito y Amortización",
+    description: "Utiliza nuestra calculadora de préstamos para planificar tu crédito, calcular la amortización y gestionar tus finanzas de manera rápida y eficiente.",
+    keywords: "calculadora, préstamos, calcula, crédito, amortización, utiliza, nuestra, planificar, calcular, gestionar, finanzas, manera, rápida, eficiente"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

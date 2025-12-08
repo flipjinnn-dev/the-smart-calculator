@@ -24,6 +24,12 @@ const mortgagepayoffcalculatorMeta = {
     description: "Nutzen Sie den mortgage payoff  – date savings online | thesmartcalculator für schnelle, genaue Ergebnisse. Einfache Eingaben, klare Ausgaben und nützlicher Kon.",
     keywords: "hypotheken tilgungsrechner, tilgungs datum, zins ersparnis, online tilgung, frühe repayment, kostenloser tilgung tool, sparen berechnung, hypothek planung"
   }
+,
+  es: {
+    title: "Calculadora de Liquidación de Hipotecas – Calcula Fácil",
+    description: "Calcula la liquidación de tu hipoteca al instante y conoce tus pagos finales. ¡Ahorra tiempo y planifica tu deuda de manera inteligente ahora!",
+    keywords: "calculadora, liquidación, hipotecas, calcula, fácil, hipoteca, instante, conoce, pagos, finales, ahorra, tiempo, planifica, deuda, manera"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -25,6 +25,12 @@ const criticalpointcalculatorMeta = {
     description: "Berechne mit dem Kritische Punkte Rechner Extrema & Wendepunkte von Funktionen. Schnell, exakt & kostenlos – ideal für Schule & Studium in Analysis!",
     keywords: "kritische punkte rechner, extrema berechnen, wendepunkte tool, funktionen online, schule studium, exakt kostenlos, ideal rechner"
   }
+,
+  es: {
+    title: "Calculadora de Puntos Críticos – Encuentra Máximos y Mínimos",
+    description: "Calcula puntos críticos de funciones rápidamente. Ideal para matemáticas, análisis y cálculo. ¡Ingresa tu función y obtén resultados al instante!",
+    keywords: "calculadora, puntos, críticos, encuentra, máximos, mínimos, calcula, funciones, rápidamente, ideal, matemáticas, análisis, cálculo, ingresa, función"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

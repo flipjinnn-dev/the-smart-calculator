@@ -25,6 +25,12 @@ const gfrcalculatorMeta = {
     description: "Berechne mit dem GFR Rechner deine Nierenfunktion schnell und genau. Ideal zur Kontrolle der Gesundheit – einfach & kostenlos online für medizinische Bewertung.",
     keywords: "gfr rechner, glomeruläre filtrationsrate, kreatinin tool, online gfr, nieren gesundheit, medizinische bewertung, kostenloser gfr tool, rate schätzung"
   }
+,
+  es: {
+    title: "Calculadora de TFG – Calcula tu Frecuencia de Trabajo Fácil",
+    description: "Calcula tu Tasa de Flujo Glomerular (TFG) al instante con nuestra herramienta precisa. ¡Evalúa tu salud renal y toma decisiones inteligentes ahora mismo",
+    keywords: "calculadora, calcula, frecuencia, trabajo, fácil, tasa, flujo, glomerular, instante, nuestra, herramienta, precisa, evalúa, salud, renal"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

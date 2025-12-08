@@ -25,6 +25,12 @@ const tdeecalculatorMeta = {
     description: "Berechne mit dem TDEE Rechner deinen täglichen Kalorienverbrauch. Ideal für Abnehmen, Muskelaufbau & Fitness – schnell, genau und kostenlos online!",
     keywords: "tdee rechner, energie verbrauch, aktivität level, online tdee, kalorien bedarf, gewicht management, kostenloser tdee tool, tägliche energie"
   }
+,
+  es: {
+    title: "Calculadora TDEE – Calcula tus Calorías y Gasto Energético",
+    description: "Utiliza nuestra calculadora TDEE para estimar tu gasto energético diario, controlar tus calorías y optimizar tu nutrición y rendimiento físico de manera sencilla.",
+    keywords: "calculadora, tdee, calcula, calorías, gasto, energético, utiliza, nuestra, estimar, diario, controlar, optimizar, nutrición, rendimiento, físico"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -25,6 +25,12 @@ const drytocookedpastaconverterMeta = {
     description: "Umrechne mit dem Trocken zu Gekochte Pasta Umrechner trockene Maße zu gekochten Äquivalenten. Präzises Tool für Kochen und Portionsplanung kostenlos.",
     keywords: "trocken gekochte pasta umrechner, maße tool, äquivalente berechnung, online pasta, kochen planning, portionen rechner, kostenloser tool"
   }
+,
+  es: {
+    title: "Pasta Seca para Cocinar – Cantidades y Medidas Exactas",
+    description: "Calcula la cantidad de pasta seca perfecta para tus recetas. ¡Optimiza tus porciones y cocina con precisión ahora mismo!",
+    keywords: "pasta, seca, cocinar, cantidades, medidas, exactas, calcula, cantidad, perfecta, recetas, optimiza, porciones, cocina, precisión, ahora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

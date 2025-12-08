@@ -24,6 +24,12 @@ const creditcardcalculatorMeta = {
     description: "Mit dem Kreditkartenrechner vergleichen Sie Gebühren, Umsätze und Zusatzleistungen. Der Kreditkartenrechner zeigt Ihnen die passende Karte ganz einfach online.",
     keywords: "kreditkartenrechner, kosten prüfen, gebühren umsätze, zusatzleistungen tool, online karte, passende rechner, einfach tool"
   }
+,
+  es: {
+    title: "Calculadora de tarjetas de crédito: Controla tu deuda fácil",
+    description: "Calcula tus pagos de tarjetas de crédito, conoce intereses y planifica tu deuda. Toma el control de tus finanzas y reduce tu carga financiera hoy mismo.",
+    keywords: "calculadora, tarjetas, crédito, controla, deuda, fácil, calcula, pagos, conoce, intereses, planifica, toma, control, finanzas, reduce"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

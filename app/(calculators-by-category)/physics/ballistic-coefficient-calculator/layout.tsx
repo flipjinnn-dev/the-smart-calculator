@@ -24,6 +24,12 @@ const ballisticcoefficientcalculatorMeta = {
     description: "Berechne mit dem Ballistischen Koeffizient Rechner den Koeffizienten für Projektile. Präzises, kostenloses Tool für Ballistik-Analyse und Schussplanung.",
     keywords: "ballistischer koeffizient rechner, projektil tool, koeffizient berechnen, online ballistik, schuss planung, kostenloser tool, analyse ballistik"
   }
+,
+  es: {
+    title: "Calculadora Balística – Trayectoria y Alcance con Precisión",
+    description: "Calcula trayectoria, caída y energía balística con precisión para uso seguro en deportes y estudios. Ingresa datos y obtén resultados al instante.",
+    keywords: "calculadora, balística, trayectoria, alcance, precisión, calcula, caída, energía, seguro, deportes, estudios, ingresa, datos, obtén, resultados"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

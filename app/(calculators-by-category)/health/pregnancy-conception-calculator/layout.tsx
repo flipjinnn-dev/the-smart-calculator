@@ -25,6 +25,12 @@ const pregnancyconceptioncalculatorMeta = {
     description: "Nutzen Sie den pregnancy conception  – milestones online | thesmartcalculator für schnelle, genaue Ergebnisse. Einfache Eingaben, klare Ausgaben und nützlicher.",
     keywords: "schwangerschaftsempfängnis rechner, empfängnis datum, meilensteine tool, online empfängnis, geburtstermin basierend, ultrasound, schwangerschaft planung, kostenloser meilenstein tool"
   }
+,
+  es: {
+    title: "Calculadora de Fecha de Concepción – Calcula Fácil y Rápido",
+    description: "Calcula la fecha de concepción al instante con nuestra herramienta precisa. ¡Planifica tu embarazo, estima fechas y obtén resultados ahora mismo!",
+    keywords: "calculadora, fecha, concepción, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, planifica, embarazo, estima, fechas, obtén"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

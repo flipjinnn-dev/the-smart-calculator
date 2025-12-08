@@ -25,6 +25,12 @@ const buttercalculatorMeta = {
     description: "Berechne mit dem Butter Rechner Umrechnungen zwischen Sticks, Tassen, Löffeln und Gramm. Präzises, kostenloses Tool für Kochen und Backen.",
     keywords: "butter rechner, maße umrechnen, sticks tassen, löffel gramm, online butter, kochen backen, kostenloser tool"
   }
+,
+  es: {
+    title: "Convertidor de Mantequilla – Convierte Medidas Fácil y Rápido",
+    description: "Convierte mantequilla entre gramos, tazas y onzas al instante con nuestra herramienta precisa. ¡Simplifica tus recetas y cocina sin errores ahora mismo!",
+    keywords: "convertidor, mantequilla, convierte, medidas, fácil, rápido, entre, gramos, tazas, onzas, instante, nuestra, herramienta, precisa, simplifica"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

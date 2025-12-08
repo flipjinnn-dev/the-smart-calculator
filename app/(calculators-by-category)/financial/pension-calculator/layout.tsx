@@ -24,6 +24,12 @@ const pensioncalculatorMeta = {
     description: "Mit dem Rentenrechner berechnen Sie Ihre monatliche Rente, Vorsorgebedarf und Ersparnisse. Nutzen Sie den Pensionsrechner für Ihre Altersplanung.",
     keywords: "rentenrechner, leistungen schätzung, gehalt jahre, online pension, rentenplanung, kostenloser pension tool, dienst berechnung, pension prognose"
   }
+,
+  es: {
+    title: "Simulador de Pensiones – Calcula tu Pensión, Jubilación y Ahorro",
+    description: "Utiliza nuestro simulador de pensiones para planificar tu jubilación, estimar tu pensión y optimizar tu ahorro de manera sencilla y precisa.",
+    keywords: "simulador, pensiones, calcula, pensión, jubilación, ahorro, utiliza, nuestro, planificar, estimar, optimizar, manera, sencilla, precisa"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

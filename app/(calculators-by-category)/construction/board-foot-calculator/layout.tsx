@@ -26,9 +26,9 @@ const boardfootcalculatorMeta = {
     keywords: "brettfuß rechner, holz tool, materialien berechnung, online brett, bau schätzung, holzarbeit calculator, kostenloser tool"
   },
   es: {
-    title: "Calculadora de Pies Tablares – Madera Online | TheSmartCalculator",
-    description: "Use la Calculadora de Pies Tablares para calcular madera y materiales. Herramienta online precisa y gratuita para construcción y carpintería.",
-    keywords: "calculadora pies tablares, herramienta madera, cálculo materiales, tabla online, estimador construcción, calculadora carpintería"
+    title: "Calculadora de Pies Cuadrados – Calcula Área Fácil y Rápido",
+    description: "Calcula pies cuadrados al instante con nuestra herramienta precisa. Ideal para casas, terrenos y proyectos. ¡Ingresa medidas y obtén resultados ahora!",
+    keywords: "calculadora, pies, cuadrados, calcula, área, fácil, rápido, instante, nuestra, herramienta, precisa, ideal, casas, terrenos, proyectos"
   }
 };
 

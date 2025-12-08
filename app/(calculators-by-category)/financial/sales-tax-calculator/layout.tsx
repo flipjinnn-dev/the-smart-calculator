@@ -24,6 +24,12 @@ const salestaxcalculatorMeta = {
     description: "Mit dem Umsatzsteuerrechner berechnen Sie schnell Brutto-, Netto- und Steuerbetrag. Ideal für Unternehmer & Selbstständige — Umsatzsteuer genau online ermitteln.",
     keywords: "umsatzsteuerrechner, steuer käufe, lokale raten, online umsatz, einkaufs tool, budget rechner, kostenloser steuer tool, steuer schätzung"
   }
+,
+  es: {
+    title: "Calculadora del Impuesto sobre las Ventas – Calcula Rápido",
+    description: "Calcula fácilmente el impuesto sobre las ventas con nuestra herramienta rápida y precisa. ¡Ahorra tiempo y evita errores ahora mismo!",
+    keywords: "calculadora, impuesto, sobre, ventas, calcula, rápido, fácilmente, nuestra, herramienta, rápida, precisa, ahorra, tiempo, evita, errores"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

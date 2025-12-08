@@ -25,6 +25,12 @@ const baccalculatorMeta = {
     description: "Berechne mit dem Blutalkohol Rechner (Promillerechner) deinen Alkoholwert im Blut. Schnell, genau & kostenlos – ideal für sichere Entscheidungen und Grenzen!",
     keywords: "blutalkohol rechner, promille berechnen, alkoholwert blut, schnell tool, online promille, sichere entscheidungen, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora de Alcohol en Sangre – Conoce tu BAC Rápido",
+    description: "Calcula tu nivel de alcohol en sangre al instante con nuestra herramienta precisa. ¡Mantente seguro y toma decisiones responsables ahora mismo!",
+    keywords: "calculadora, alcohol, sangre, conoce, rápido, calcula, nivel, instante, nuestra, herramienta, precisa, mantente, seguro, toma, decisiones"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

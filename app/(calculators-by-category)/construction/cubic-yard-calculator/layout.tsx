@@ -25,6 +25,12 @@ const cubicyardcalculatorMeta = {
     description: "Berechne mit dem Kubikyard Rechner Kubikyards für Beton, Boden und Materialien. Präzises, kostenloses Tool für Bau und Landschaftsschätzungen.",
     keywords: "kubikyard rechner, volumen berechnen, beton boden, materialien tool, online kubik, bau landschaft, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora de Metros Cúbicos – Calcula Volumen Fácil",
+    description: "Calcula metros cúbicos al instante con nuestra herramienta precisa. Ideal para líquidos, sólidos o construcción. ¡Ingresa medidas y obtén resultados ahora!",
+    keywords: "calculadora, metros, cúbicos, calcula, volumen, fácil, instante, nuestra, herramienta, precisa, ideal, líquidos, sólidos, construcción, ingresa"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -33,6 +33,11 @@ const homepageMeta = {
     title: "Smart Calculator - Kostenlose Online-Rechner für jeden Bedarf",
     description: "Greifen Sie auf Hunderte von kostenlosen Online-Rechnern für finanziell, Gesundheit, mathe, Physik und mehr zu. Schnelle, genaue und benutzerfreundliche Berechnungstools.",
     keywords: "Rechner, Online-Rechner, Finanzrechner, Gesundheitsrechner, matherechner, kostenlose Tools"
+  },
+  es: {
+    title: "Smart Calculator - Calculadoras Online Gratuitas para Todas tus Necesidades",
+    description: "Accede a cientos de calculadoras online gratuitas para finanzas, salud, matemáticas, física y más. Herramientas de cálculo rápidas, precisas y fáciles de usar.",
+    keywords: "calculadora, calculadora online, calculadora financiera, calculadora de salud, calculadora matemática, herramientas gratuitas"
   }
 };
 
@@ -68,7 +73,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     openGraph: {
       type: "website",
-      locale: language === "br" ? "pt_BR" : language === "de" ? "de_DE" : language === "pl" ? "pl_PL" : "en_US",
+      locale: language === "br" ? "pt_BR" : language === "de" ? "de_DE" : language === "pl" ? "pl_PL" : language === "es" ? "es_ES" : "en_US",
       url: canonicalUrl,
       siteName: "Smart Calculator",
       images: [

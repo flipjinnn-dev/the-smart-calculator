@@ -24,6 +24,12 @@ const interestcalculatorMeta = {
     description: "Mit dem Zinsrechner berechnen Sie Zinssatz, Laufzeit, Anfangs- und Endkapital genau – nutzen Sie den Zinsrechner für Ihre Finanz- oder Anlageplanung.",
     keywords: "zinsrechner, investitionswachstum, zinsberechnung, kaufkraft, online zins, inflationsanpassung, finanzprojektion, kostenloser zins tool"
   }
+,
+  es: {
+    title: "Cálculo de Intereses – Calcula Interés, Tasa y Tiempo",
+    description: "Utiliza nuestra herramienta de cálculo de intereses para estimar el interés generado, analizar la tasa de interés y planificar el tiempo de tus inversiones o préstamos de manera precisa.",
+    keywords: "cálculo, intereses, calcula, interés, tasa, tiempo, utiliza, nuestra, herramienta, estimar, generado, analizar, planificar, inversiones, préstamos"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

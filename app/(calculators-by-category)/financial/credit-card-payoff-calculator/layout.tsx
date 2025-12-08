@@ -24,6 +24,12 @@ const creditcardpayoffcalculatorMeta = {
     description: "Der Tilgungsrechner berechnet Ihre Darlehens­rückzahlung, Laufzeit und Restschuld präzise. Nutzen Sie den Tilgungsrechner für Ihre Baufinanzierung.",
     keywords: "tilgungsrechner, rückzahlung berechnen, laufzeit restsuld, darlehen tool, online rechner, präzise nutzen, baufinanzierung"
   }
+,
+  es: {
+    title: "Calculadora de pago de tarjeta: Reduce tu deuda rápido",
+    description: "Calcula tus pagos de tarjeta de crédito y planifica la forma más rápida de reducir tu deuda. Toma el control de tus finanzas hoy mismo.",
+    keywords: "calculadora, pago, tarjeta, reduce, deuda, rápido, calcula, pagos, crédito, planifica, forma, rápida, reducir, toma, control"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

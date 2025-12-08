@@ -24,6 +24,12 @@ const incometaxcalculatorMeta = {
     description: "Mit dem Einkommensteuerrechner berechnen Sie Ihre Einkommens- und Steuerlast genau. Nutzen Sie den Einkommensteuerrechner zur besseren Finanzplanung und Vorbereitung.",
     keywords: "einkommensteuerrechner, steuer berechnung, abzug tool, freistellungen, online steuer, steuervorbereitung, finanzplanung, kostenloser steuer tool"
   }
+,
+  es: {
+    title: "Calculadora de Impuesto sobre la Renta – Calcula tu Renta y Declaración",
+    description: "Utiliza nuestra calculadora de impuesto sobre la renta para estimar tus impuestos, planificar tu declaración y gestionar tu renta de manera precisa y sencilla.",
+    keywords: "calculadora, impuesto, sobre, renta, calcula, declaración, utiliza, nuestra, estimar, impuestos, planificar, gestionar, manera, precisa, sencilla"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

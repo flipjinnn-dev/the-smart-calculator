@@ -25,6 +25,12 @@ const squarefeettocubicyardscalculatorMeta = {
     description: "Berechne mit dem Quadratfuß zu Kubikyard Rechner Umwandlung für Materialien. Präzises, kostenloses Tool für Bau und Landschaft., quadratfuß zu kubikyard rechner",
     keywords: "square feet to cubic yards rechner, area to volume, materials converter, online square, construction tool, landscaping rechner, kostenlos yards tool, material estimate"
   }
+,
+  es: {
+    title: "Calculadora de Yardas Cúbicas – Calcula Volumen Fácil",
+    description: "Calcula yardas cúbicas al instante con nuestra herramienta precisa. Ideal para construcción, jardinería y proyectos. ¡Ingresa medidas y obtén resultados ya!",
+    keywords: "calculadora, yardas, cúbicas, calcula, volumen, fácil, instante, nuestra, herramienta, precisa, ideal, construcción, jardinería, proyectos, ingresa"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

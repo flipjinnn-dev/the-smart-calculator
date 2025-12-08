@@ -24,6 +24,12 @@ const annuitypayoutcalculatorMeta = {
     description: "Użyj kalkulatora wypłaty renty online, aby obliczyć kwoty wypłat na podstawie czynników. Dokładne, darmowe narzędzie do planowania renty i dochodu.",
     keywords: "kalkulator wypłaty renty, obliczyć kwoty, czynniki tool, planowanie renty, online wypłata, dochód estymacja, darmowy tool"
   }
+,
+  es: {
+    title: "Calculadora de pagos de anualidades: Planifica tu futuro hoy",
+    description: "Calcula los pagos de tus anualidades fácilmente. Organiza tus ingresos futuros y toma decisiones financieras inteligentes para asegurar tu estabilidad hoy mismo.",
+    keywords: "calculadora, pagos, anualidades, planifica, futuro, calcula, fácilmente, organiza, ingresos, futuros, toma, decisiones, financieras, inteligentes, asegurar"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

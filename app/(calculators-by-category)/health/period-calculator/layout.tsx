@@ -25,6 +25,12 @@ const periodcalculatorMeta = {
     description: "Berechne mit dem Periodenrechner deinen Menstruationszyklus. Erfahre nächste Periode & fruchtbare Tage – schnell, genau und kostenlos online!",
     keywords: "periodenrechner, menstruationszyklus, eisprung daten, online perioden, frauen gesundheit, fertilitäts tracking, kostenloser zyklus tool, datum berechnung"
   }
+,
+  es: {
+    title: "Calculadora Menstrual – Controla tu Ciclo Fácil y Rápido",
+    description: "Calcula tus fechas del ciclo menstrual al instante con nuestra herramienta precisa. ¡Lleva un control de tu salud y predice tu próximo periodo ahora mismo!",
+    keywords: "calculadora, menstrual, controla, ciclo, fácil, rápido, calcula, fechas, instante, nuestra, herramienta, precisa, lleva, control, salud"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

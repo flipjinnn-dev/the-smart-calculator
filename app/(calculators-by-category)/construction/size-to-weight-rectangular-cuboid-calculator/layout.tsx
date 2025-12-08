@@ -25,6 +25,12 @@ const sizetoweightrectangularcuboidcalculatorMeta = {
     description: "Berechne mit dem Größe zu Gewicht Rechteckiger Kuboid Rechner Gewicht basierend auf Abmessungen und Dichte. Präzises, kostenloses Tool für Materialien und Ingenieur.",
     keywords: "größe zu gewicht rechner, rechteckiger kuboid, dimension gewicht, online größe, densität berechnung, materials tool, ingenieur gewicht, gewicht schätzung"
   }
+,
+  es: {
+    title: "Calcula Peso de Tubo Rectangular – Rápido y Preciso",
+    description: "Calcula el peso de tubos rectangulares al instante con nuestra herramienta precisa. ¡Optimiza tus proyectos y toma decisiones de construcción ahora mismo!",
+    keywords: "calcula, peso, tubo, rectangular, rápido, preciso, tubos, rectangulares, instante, nuestra, herramienta, precisa, optimiza, proyectos, toma"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -24,6 +24,11 @@ const agecalculatorMeta = {
     title: "Altersrechner – Alter Berechnen Online | TheSmartCalculator",
     description: "Nutzen Sie den age  – exact age online tool | thesmartcalculator für schnelle, genaue Ergebnisse. Einfache Eingaben, klare Ausgaben und nützlicher Kontext — kos.",
     keywords: "altersrechner, alter berechnen, genaues alter, geburtsdatum alter, online alter tool, alter in monaten, alter in tagen, kostenloser altersrechner"
+  },
+  es: {
+    title: "Calculadora de Edad – Descubre tu Edad Exacta al Instante",
+    description: "Calcula tu edad exacta al instante con nuestra herramienta rápida y precisa. ¡Descúbrelo ahora y lleva un control de tu tiempo de manera fácil!",
+    keywords: "calculadora, edad, descubre, exacta, instante, calcula, nuestra, herramienta, rápida, precisa, descúbrelo, ahora, lleva, control, tiempo"
   }
 };
 

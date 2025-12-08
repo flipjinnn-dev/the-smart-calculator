@@ -25,6 +25,12 @@ const cookingmeasurementconverterMeta = {
     description: "Umrechne mit dem Kochmaße Umrechner Einheiten wie Tassen, Gramm und Löffel. Präzises, kostenloses Online Tool für Alltag und Beruf.",
     keywords: "kochmaße umrechner, einheiten tool, tassen gramm, löffel berechnung, online umrechner, rezepte anpassung, kostenloser tool"
   }
+,
+  es: {
+    title: "Convertidor de Medidas de Cocina – Fácil y Rápido",
+    description: "Convierte ingredientes de cocina entre gramos, tazas, onzas y más al instante. ¡Simplifica tus recetas y cocina con precisión ahora mismo!",
+    keywords: "convertidor, medidas, cocina, fácil, rápido, convierte, ingredientes, entre, gramos, tazas, onzas, instante, simplifica, recetas, precisión"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

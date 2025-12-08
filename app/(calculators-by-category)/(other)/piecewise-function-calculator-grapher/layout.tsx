@@ -22,8 +22,13 @@ const piecewisefunctioncalculatorgrapherMeta = {
   },
   de: {
     title: "Stückweise Funktion Rechner – Graph Berechnen | TheSmartCalculator",
-    description: "Berechne mit dem Stückweise Funktion Rechner Werte und Graphen von stückweisen Funktionen. Präzises, kostenloses Online-Tool für Mathe-Analyse und Domänen.",
+    description: "Berechne mit dem St\u00fcckweise Funktion Rechner Werte und Graphen von stückweisen Funktionen. Präzises, kostenloses Online-Tool für Mathe-Analyse und Domänen.",
     keywords: "stückweise funktion rechner, graph berechnen, funktion tool, online grapher, mathe analyse, domäne rechner, kostenloser tool"
+  },
+  es: {
+    title: "Calculadora de Funciones por Tramos – Calcula Fácil y Rápido",
+    description: "Resuelve funciones por tramos al instante con nuestra calculadora precisa. ¡Simplifica tus ejercicios y aprende matemáticas de manera eficiente ahora!",
+    keywords: "calculadora, funciones, tramos, calcula, fácil, rápido, resuelve, instante, nuestra, precisa, simplifica, ejercicios, aprende, matemáticas, manera"
   }
 };
 

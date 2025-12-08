@@ -25,6 +25,12 @@ const idealweightcalculatorMeta = {
     description: "Berechne mit dem Idealgewicht Rechner dein optimales Körpergewicht. Schnell, genau & kostenlos – ideal für Gesundheit, Fitness und Wohlbefinden!",
     keywords: "idealgewicht rechner, körpergewicht bereich, höhe geschlecht, online ideal, gesundheit fitness, kostenloser gewicht tool, bereich basierend, gewicht bestimmen"
   }
+,
+  es: {
+    title: "Calculadora de Peso Ideal – Determina tu Peso según Altura e IMC",
+    description: "Utiliza nuestra calculadora de peso ideal para conocer tu peso recomendado, analizar tu altura y calcular tu IMC de manera sencilla y precisa.",
+    keywords: "calculadora, peso, ideal, determina, según, altura, utiliza, nuestra, conocer, recomendado, analizar, calcular, manera, sencilla, precisa"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

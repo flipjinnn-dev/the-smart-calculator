@@ -24,6 +24,12 @@ const retirementcalculatorMeta = {
     description: "Mit dem Rentenrechner ermitteln Sie Ihre voraussichtliche Altersrente, Rentenpunkte und Versorgungslücke. Nutzen Sie den Rentenrechner für fundierte Vorsorgeplanung.",
     keywords: "rentenrechner, sparplanung, beitrags berechnung, online rente, ziele tool, prognose rechner, kostenloser rente tool, rente schätzung"
   }
+,
+  es: {
+    title: "Simulador de Jubilación – Planifica tu Pensión y Ahorro",
+    description: "Utiliza nuestro simulador de jubilación para calcular tu pensión futura, estimar el ahorro necesario y planificar tu retiro de manera sencilla y efectiva.",
+    keywords: "simulador, jubilación, planifica, pensión, ahorro, utiliza, nuestro, calcular, futura, estimar, necesario, planificar, retiro, manera, sencilla"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

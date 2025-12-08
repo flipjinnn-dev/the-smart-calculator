@@ -404,24 +404,28 @@ export function getStaticPageCanonicalUrl(
       br: '/br/sobre-nos',
       pl: '/pl/o-nas',
       de: '/de/uber-uns',
+      es: '/es/sobre-nosotros',
     },
     'contact-us': {
       en: '/contact-us',
       br: '/br/contato',
       pl: '/pl/kontakt',
       de: '/de/kontakt',
+      es: '/es/contacto',
     },
     'privacy-policy': {
       en: '/privacy-policy',
       br: '/br/politica-de-privacidade',
       pl: '/pl/polityka-prywatnosci',
       de: '/de/datenschutz',
+      es: '/es/politica-de-privacidad',
     },
     'terms-and-conditions': {
       en: '/terms-and-conditions',
       br: '/br/termos-e-condicoes',
       pl: '/pl/warunki',
       de: '/de/nutzungsbedingungen',
+      es: '/es/terminos-y-condiciones',
     }
   };
 

@@ -25,6 +25,12 @@ const onerepmaxcalculatorMeta = {
     description: "1rm rechner, 1rep max, kraft schätzung, online rep tool, gewicht reps, workout planung, kostenloser max tool, training kraft",
     keywords: "one rep max rechner, 1rep max, strength estimation, online rep tool, weight reps, workout planning, kostenlos max tool, training strength"
   }
+,
+  es: {
+    title: "Calculadora de 1 Repetición Máxima – Calcula tu Fuerza",
+    description: "Calcula tu repetición máxima al instante con nuestra herramienta precisa. ¡Optimiza tu entrenamiento y alcanza tus metas de fuerza ahora mismo",
+    keywords: "calculadora, repetición, máxima, calcula, fuerza, instante, nuestra, herramienta, precisa, optimiza, entrenamiento, alcanza, metas, ahora, mismo"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

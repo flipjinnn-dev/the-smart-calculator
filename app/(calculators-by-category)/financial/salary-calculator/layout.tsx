@@ -24,6 +24,12 @@ const salarycalculatorMeta = {
     description: "Mit dem Gehaltsrechner ermitteln Sie schnell Brutto- und Nettogehalt, Steuerklasse, Sozialabgaben sowie monatliches verfügbares Einkommen – einfach online berechnen.",
     keywords: "gehaltsrechner, netto gehalts, steuern abzüge, online gehalts, lohn tool, einkommensplanung, kostenloser gehalts tool, netto lohn"
   }
+,
+  es: {
+    title: "Calculadora de Salario – Calcula tu Sueldo e Ingreso",
+    description: "Utiliza nuestra calculadora de salario para estimar tu sueldo, controlar tus ingresos y planificar tus finanzas de manera rápida y sencilla.",
+    keywords: "calculadora, salario, calcula, sueldo, ingreso, utiliza, nuestra, estimar, controlar, ingresos, planificar, finanzas, manera, rápida, sencilla"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

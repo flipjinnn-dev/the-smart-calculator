@@ -24,6 +24,12 @@ const autoloancalculatorMeta = {
     description: "Mit dem Autokreditrechner ermitteln Sie Ihre monatliche Rate, Gesamtkosten und Laufzeit für Autokredite. Der Autokreditrechner hilft bei Ihrer Fahrzeugfinanzierung online.",
     keywords: "autokreditrechner, finanzierung berechnen, monatliche rate, gesamt kosten, laufzeit tool, fahrzeug online, hilft rechner"
   }
+,
+  es: {
+    title: "Calculadora de Préstamos de Auto – Calcula tu Pago Fácil",
+    description: "Calcula tu préstamo de auto al instante y conoce tus pagos mensuales. ¡Ahorra tiempo y planifica tu compra de manera inteligente ahora!",
+    keywords: "calculadora, préstamos, auto, calcula, pago, fácil, préstamo, instante, conoce, pagos, mensuales, ahorra, tiempo, planifica, compra"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

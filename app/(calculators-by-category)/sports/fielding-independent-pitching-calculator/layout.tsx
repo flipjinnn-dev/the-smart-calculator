@@ -25,6 +25,12 @@ const fieldingindependentpitchingcalculatorMeta = {
     description: "Berechne mit dem Feldunabhängiger Pitching Rechner FIP für Baseballspieler. Präzises Tool für Stats-Analyse und Pitcher-Bewertung kostenlos., feldunabhängiger pitching rechner",
     keywords: "calculadora arremesso independente, fip tool, jogadores beisebol, estatísticas cálculo, online fip, avaliação arremessadores, gratuita calculadora"
   }
+,
+  es: {
+    title: "Calculadora FIP – Calcula tu Inversión Fácil y Rápido",
+    description: "Calcula tu Fondo de Inversión Pública (FIP) al instante con nuestra herramienta precisa. ¡Optimiza tus inversiones y toma decisiones inteligentes ahora",
+    keywords: "calculadora, calcula, inversión, fácil, rápido, fondo, pública, instante, nuestra, herramienta, precisa, optimiza, inversiones, toma, decisiones"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

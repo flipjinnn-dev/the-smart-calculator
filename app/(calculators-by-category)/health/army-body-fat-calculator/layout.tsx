@@ -25,6 +25,12 @@ const armybodyfatcalculatorMeta = {
     description: "Berechne dein Körperfett mit dem Army Körperfett Rechner. Schnelle & genaue Analyse für Männer und Frauen – einfach, effektiv und kostenlos online!",
     keywords: "army körperfett rechner, prozent berechnen, analyse männer frauen, einfach tool, online fett, effektiv kostenlos, genaue rechner"
   }
+,
+  es: {
+    title: "Calculadora de Grasa Corporal del Ejército – Fácil y Rápida",
+    description: "Calcula tu porcentaje de grasa corporal militar al instante. ¡Cumple con los estándares del ejército y optimiza tu entrenamiento ahora mismo",
+    keywords: "calculadora, grasa, corporal, ejército, fácil, rápida, calcula, porcentaje, militar, instante, cumple, estándares, optimiza, entrenamiento, ahora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

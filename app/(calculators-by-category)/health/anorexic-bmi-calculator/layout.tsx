@@ -25,6 +25,12 @@ const anorexicbmicalculatorMeta = {
     description: "Berechne mit dem Anorexie BMI Rechner den BMI für Personen mit Anorexie. Präzises, kostenloses Online-Tool zur Gesundheitsüberwachung und medizinischen Bewertung.",
     keywords: "anorexie bmi rechner, bmi anorexie, gesundheit tool, online bmi, medizinische bewertung, niedrig gewicht rechner, kostenloser tool"
   }
+,
+  es: {
+    title: "Calculadora de IMC – Evalúa tu Peso y Salud Fácilmente",
+    description: "Calcula tu IMC al instante con nuestra herramienta precisa. ¡Monitorea tu salud y recibe orientación para mantener un peso seguro y saludable",
+    keywords: "calculadora, evalúa, peso, salud, fácilmente, calcula, instante, nuestra, herramienta, precisa, monitorea, recibe, orientación, mantener, seguro"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

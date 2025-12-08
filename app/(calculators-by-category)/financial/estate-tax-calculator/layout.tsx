@@ -24,6 +24,12 @@ const estatetaxcalculatorMeta = {
     description: "Mit dem Erbschaftsteuer­rechner ermitteln Sie Steuern, Freibeträge und Abgaben im Erbfall schnell und einfach online — präzise und kostenfrei.",
     keywords: "estate tax rechner, taxes planning, inheritance tool, deductions calculation, online estate, financial legacy, kostenlos tax tool, estimate taxes"
   }
+,
+  es: {
+    title: "Calculadora del impuesto sobre el patrimonio: Planifica hoy",
+    description: "Calcula tu impuesto sobre el patrimonio fácilmente. Conoce cuánto debes pagar y organiza tus finanzas para optimizar tu planificación fiscal de forma segura.",
+    keywords: "calculadora, impuesto, sobre, patrimonio, planifica, calcula, fácilmente, conoce, cuánto, debes, pagar, organiza, finanzas, optimizar, planificación"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

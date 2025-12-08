@@ -25,6 +25,12 @@ const bmicalculatorMeta = {
     description: "Mit dem BMI Rechner berechnen Sie Ihren Body-Mass-Index schnell & präzise. Finden Sie heraus, ob Ihr Gewicht im gesunden Bereich liegt – jetzt online testen.",
     keywords: "bmi rechner, body mass index, gewicht bereich, online testen, gesunden gewicht, präzise tool, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora IMC – Evalúa tu Peso y Altura",
+    description: "Utiliza nuestra calculadora IMC para medir tu índice de masa corporal, analizar tu peso y altura, y mejorar tu salud de manera sencilla y efectiva.",
+    keywords: "calculadora, evalúa, peso, altura, utiliza, nuestra, medir, índice, masa, corporal, analizar, mejorar, salud, manera, sencilla"
+  }
 };
 
 // JSON-LD Schema for BMI Calculator

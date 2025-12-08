@@ -24,6 +24,11 @@ const gpacalculatorMeta = {
     title: "GPA Rechner – Notendurchschnitt Berechnen | TheSmartCalculator",
     description: "Berechne mit dem GPA Rechner deinen Notendurchschnitt aus Fächern und Noten. Schnelles, genaues und kostenloses Tool für Schüler zur Leistungsüberwachung.",
     keywords: "gpa rechner, notendurchschnitt berechnen, fach noten, schüler tool, online gpa, kostenloser rechner, leistungs tracker"
+  },
+  es: {
+    title: "Calculadora de GPA – Calcula tu Promedio Académico Fácil",
+    description: "Calcula tu GPA al instante con nuestra herramienta rápida y precisa. ¡Conoce tu promedio académico y planifica tu éxito universitario ahora mismo!",
+    keywords: "calculadora, calcula, promedio, académico, fácil, nuestra, herramienta, rápida, precisa, conoce, planifica, éxito, universitario, ahora"
   }
 };
 

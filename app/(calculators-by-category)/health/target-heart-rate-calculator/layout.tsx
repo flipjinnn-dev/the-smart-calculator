@@ -25,6 +25,12 @@ const targetheartratecalculatorMeta = {
     description: "Finde mit dem Herzfrequenz Rechner deine optimale Pulsrate. Einfach online berechnen – für Training, Gesundheit & Fitness, schnell und kostenlos!",
     keywords: "herzfrequenz rechner, herzfrequenz zone, übung tool, online ziel, fitness training, cardio rechner, kostenloser herz tool, rate zone"
   }
+,
+  es: {
+    title: "Calculadora de Frecuencia Cardíaca Objetivo – Fácil y Rápida",
+    description: "Calcula tu frecuencia cardíaca objetivo al instante con nuestra herramienta precisa. ¡Optimiza tu entrenamiento y alcanza tus metas fitness ahora mismo",
+    keywords: "calculadora, frecuencia, cardíaca, objetivo, fácil, rápida, calcula, instante, nuestra, herramienta, precisa, optimiza, entrenamiento, alcanza, metas"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

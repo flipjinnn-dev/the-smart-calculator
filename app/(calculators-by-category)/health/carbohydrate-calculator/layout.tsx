@@ -25,6 +25,12 @@ const carbohydratecalculatorMeta = {
     description: "Berechne mit dem Kohlenhydrate Rechner deinen täglichen Bedarf. Ideal für Diät, Fitness & gesunde Ernährung – schnell, präzise und kostenlos online!",
     keywords: "kohlenhydrate rechner, bedarf berechnen, täglichen bedarf, diät fitness, gesunde ernährung, schnell präzise, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora de Carbohidratos – Controla tu Dieta Fácil",
+    description: "Calcula tu ingesta diaria de carbohidratos al instante con nuestra herramienta precisa. ¡Optimiza tu alimentación y mejora tu salud ahora mismo",
+    keywords: "calculadora, carbohidratos, controla, dieta, fácil, calcula, ingesta, diaria, instante, nuestra, herramienta, precisa, optimiza, alimentación, mejora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

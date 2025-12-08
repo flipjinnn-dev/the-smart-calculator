@@ -24,6 +24,11 @@ const timecalculatorMeta = {
     title: "Zeitrechner – Zeitspannen Berechnen Online | TheSmartCalculator",
     description: "Berechne mit dem Zeitrechner Zeitspannen, Additionen & Differenzen. Schnell, genau & kostenlos – ideal für Arbeit, Projekte & Alltag in Planung.",
     keywords: "zeitrechner, zeitspannen berechnen, additionen differenzen, online rechner, arbeit projekte, alltag tool, kostenloser zeitrechner"
+  },
+  es: {
+    title: "Calculadora de Tiempo – Calcula Duraciones Rápida y Fácil",
+    description: "Calcula tiempos y duraciones al instante con nuestra herramienta precisa. ¡Ahorra tiempo y organiza tus actividades de manera eficiente ahora mismo!",
+    keywords: "calculadora, tiempo, calcula, duraciones, rápida, fácil, tiempos, instante, nuestra, herramienta, precisa, ahorra, organiza, actividades, manera"
   }
 };
 

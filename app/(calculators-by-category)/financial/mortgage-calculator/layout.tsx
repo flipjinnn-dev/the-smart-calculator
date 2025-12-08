@@ -24,6 +24,12 @@ const mortgagecalculatorMeta = {
     description: "Mit dem Hypothekenrechner ermitteln Sie Ihre Monatsrate, Zinssatz und Restschuld – ideal für Ihre Immobilienfinanzierung mit präzisen Online-Tools.",
     keywords: "hypothekenrechner, monatliche zahlungen, gesamt zinsen, amortisationsplan, online hypothek, hausfinanzierung, kostenloser hypothek tool, zins berechnung"
   }
+,
+  es: {
+    title: "Simulador de Hipoteca – Calcula tu Hipoteca y Préstamo con Tasa de Interés",
+    description: "Utiliza nuestro simulador de hipoteca para calcular tu préstamo hipotecario, conocer la tasa de interés y planificar tus pagos de manera rápida y precisa.",
+    keywords: "simulador, hipoteca, calcula, préstamo, tasa, interés, utiliza, nuestro, calcular, hipotecario, conocer, planificar, pagos, manera, rápida"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

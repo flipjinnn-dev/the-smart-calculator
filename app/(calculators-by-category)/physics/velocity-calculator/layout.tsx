@@ -25,6 +25,12 @@ const velocitycalculatorMeta = {
     description: "Berechne mit dem Geschwindigkeitsrechner die Geschwindigkeit aus Strecke & Zeit. Schnell, genau & kostenlos – ideal für Physik & Alltag!",
     keywords: "geschwindigkeitsrechner, geschwindigkeit beschleunigung, bewegungs tool, online geschwindigkeit, physik berechnung, kostenloser geschwindigkeit tool, beschleunigung schätzer, geschwindigkeit analyse"
   }
+,
+  es: {
+    title: "Calculadora de Velocidad – Calcula Rápido y Fácil",
+    description: "Calcula velocidad al instante con nuestra herramienta precisa. Ideal para física, deportes o transporte. ¡Ingresa distancia y tiempo y obtén el resultado ya!",
+    keywords: "calculadora, velocidad, calcula, rápido, fácil, instante, nuestra, herramienta, precisa, ideal, física, deportes, transporte, ingresa, distancia"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

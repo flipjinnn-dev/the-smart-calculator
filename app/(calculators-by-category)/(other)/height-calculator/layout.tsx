@@ -24,6 +24,11 @@ const heightcalculatorMeta = {
     title: "Grobenrechner – Große Berechnen Online | TheSmartCalculator",
     description: "Berechne mit dem Grobenrechner Maßeinheiten schnell & genau. Kostenlos & einfach – ideal für Schule, Studium, Alltag und Handwerk! Einschätzung für Wachstum.",
     keywords: "grobenrechner, große berechnen, maßeinheiten tool, online rechner, schule studium, alltag handwerk, kostenloser groben tool"
+  },
+  es: {
+    title: "Calculadora de Altura – Predice tu Crecimiento Fácilmente",
+    description: "Usa nuestra calculadora de altura para estimar tu crecimiento o el de tus hijos. ¡Descúbrelo al instante y planifica tu desarrollo ahora mismo!",
+    keywords: "calculadora, altura, predice, crecimiento, fácilmente, nuestra, estimar, hijos, descúbrelo, instante, planifica, desarrollo, ahora"
   }
 };
 

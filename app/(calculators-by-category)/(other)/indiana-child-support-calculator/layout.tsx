@@ -24,6 +24,11 @@ const indianachildsupportcalculatorMeta = {
     title: "Indiana Child Support Calculator – Estimate Payments | TheSmar",
     description: "Berechne mit dem Indiana Kindesunterhalt Rechner Zahlungen basierend auf Einkommen und Sorgerecht. Präzises, kostenloses Online-Tool für rechtliche Planung in Indiana.",
     keywords: "indiana kindesunterhalt rechner, zahlungen schätzen, unterhalt tool, einkommen berechnung, sorgerecht estimator, online unterhalt, kostenloser indiana tool"
+  },
+  es: {
+    title: "Calculadora de Manutención Infantil – Calcula Fácil y Rápido",
+    description: "Calcula la manutención infantil al instante con nuestra herramienta precisa. ¡Conoce los pagos justos y planifica el bienestar de tus hijos ahora mismo!",
+    keywords: "calculadora, manutención, infantil, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, conoce, pagos, justos, planifica, bienestar"
   }
 };
 

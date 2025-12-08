@@ -24,6 +24,12 @@ const rentcalculatorMeta = {
     description: "Mit dem Mietrechner berechnen Sie Ihre monatliche Miete, Gesamtkosten über den Mietzeitraum und Vergleichswerte. Der Mietrechner hilft bei der Wohnkosten-Planung.",
     keywords: "mietrechner, monatszahlungen, affordabilität tool, online miete, wohnplanung, budget tool, kostenloser miete tool, miete schätzung"
   }
+,
+  es: {
+    title: "Calculadora de Alquiler – Calcula Renta y Costos de tu Vivienda",
+    description: "Utiliza nuestra calculadora de alquiler para estimar la renta, planificar los costos de tu vivienda y gestionar tu presupuesto de manera fácil y precisa.",
+    keywords: "calculadora, alquiler, calcula, renta, costos, vivienda, utiliza, nuestra, estimar, planificar, gestionar, presupuesto, manera, fácil, precisa"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

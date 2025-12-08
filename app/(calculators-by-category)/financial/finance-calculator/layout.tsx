@@ -24,6 +24,12 @@ const financecalculatorMeta = {
     description: "Mit dem Finanzrechner analysieren Sie Kredite, Anlagen und Haushaltsbudget. Der Finanzrechner bietet schnelle Online-Berechnungen für Ihre Finanzen.",
     keywords: "finanzrechner, umfassend, tool, verschiedene, finanzielle, berechnungen"
   }
+,
+  es: {
+    title: "Calculadora Financiera – Gestiona Préstamos, Inversiones e Intereses",
+    description: "Utiliza nuestra calculadora financiera para calcular préstamos, planificar inversiones y controlar los intereses de manera rápida y eficiente.",
+    keywords: "calculadora, financiera, gestiona, préstamos, inversiones, intereses, utiliza, nuestra, calcular, planificar, controlar, manera, rápida, eficiente"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

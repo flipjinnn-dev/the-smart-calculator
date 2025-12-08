@@ -24,6 +24,12 @@ const currencycalculatorMeta = {
     description: "Mit dem Währungsrechner berechnen Sie live Wechselkurse zwischen Währungen. Nutzen Sie den Währungsrechner, um Beträge schnell und präzise umzutauschen.",
     keywords: "währungsrechner, umtausch berechnen, wechselkurse live, online währung, beträge umtauschen, schnell präzise, nutzen rechner"
   }
+,
+  es: {
+    title: "Conversor de Divisas – Convierte Monedas al Instante",
+    description: "Utiliza nuestro conversor de divisas para convertir monedas, conocer el cambio actual y gestionar tus transacciones internacionales de manera rápida y sencilla.",
+    keywords: "conversor, divisas, convierte, monedas, instante, utiliza, nuestro, convertir, conocer, cambio, actual, gestionar, transacciones, internacionales, manera"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -25,6 +25,12 @@ const volumecalculatorMeta = {
     description: "Berechne mit dem Volumenrechner das Volumen von Würfeln, Kugeln & Zylindern. Schnell, genau & kostenlos – ideal für Schule, Studium & Alltag!",
     keywords: "volumenrechner, körper volumen, math tool, online volumen, ingenieur rechner, kostenloser volumen tool, körper berechnung, volumen schätzung"
   }
+,
+  es: {
+    title: "Calculadora de Volumen – Obtén Resultados al Instante",
+    description: "Calcula el volumen de cubos, cilindros, prismas y más en segundos. Ingresa las medidas y obtén resultados exactos fácilmente. ¡Prueba la herramienta ahora!",
+    keywords: "calculadora, volumen, obtén, resultados, instante, calcula, cubos, cilindros, prismas, segundos, ingresa, medidas, exactos, fácilmente, prueba"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

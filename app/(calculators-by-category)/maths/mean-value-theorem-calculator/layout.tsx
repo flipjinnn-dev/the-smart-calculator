@@ -25,6 +25,12 @@ const meanvaluetheoremcalculatorMeta = {
     description: "Berechne mit dem Durchschnittsrechner den Mittelwert deiner Zahlen. Schnell, genau & kostenlos – ideal für Schule, Statistik & Alltag!",
     keywords: "mean value theorem rechner, curve points, theorem tool, online mean, calculus analysis, math curve, kostenlos theorem tool, point finder"
   }
+,
+  es: {
+    title: "Calculadora Teorema del Valor Medio – Resultados al Instante",
+    description: "Aplica el Teorema del Valor Medio en segundos con nuestra calculadora online. Ingresa tu función y obtén el punto c y el valor exacto al instante.",
+    keywords: "calculadora, teorema, valor, medio, resultados, instante, aplica, segundos, nuestra, online, ingresa, función, obtén, punto, exacto"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

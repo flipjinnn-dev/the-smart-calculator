@@ -25,6 +25,12 @@ const percenterrorcalculatorMeta = {
     description: "Berechne mit dem Prozentfehler Rechner den Prozentfehler zwischen geschätztem und tatsächlichem Wert. Präzises, kostenloses Tool für wissenschaftliche und math Analyse.",
     keywords: "prozentfehler rechner, fehler berechnung, geschätzt tatsächlich, online fehler, wissenschaftliches tool, math analyse, kostenloser fehler tool, prozent fehler"
   }
+,
+  es: {
+    title: "Calculadora de Error Porcentual – Resultado Preciso y Rápido",
+    description: "Calcula el error porcentual en segundos con nuestra herramienta exacta. Ideal para laboratorio, ciencia y matemáticas. ¡Ingresa tus datos y obtén el resultado ya!",
+    keywords: "calculadora, error, porcentual, resultado, preciso, rápido, calcula, segundos, nuestra, herramienta, exacta, ideal, laboratorio, ciencia, matemáticas"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

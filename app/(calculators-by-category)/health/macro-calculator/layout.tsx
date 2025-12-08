@@ -25,6 +25,12 @@ const macrocalculatorMeta = {
     description: "Berechne mit dem Makro Rechner dein ideales Verhältnis von Eiweiß, Kohlenhydraten & Fett. Schnell, präzise & kostenlos – perfekt für Fitness & Diät!",
     keywords: "makro rechner, makronährstoffe, bedarf tool, online makro, diät balance, ernährungsziele, kostenloser makro tool, ziele berechnung"
   }
+,
+  es: {
+    title: "Calculadora de Macros – Calcula Proteínas, Grasas y Carbs",
+    description: "Calcula tus macronutrientes diarios al instante con nuestra herramienta precisa. ¡Optimiza tu dieta y alcanza tus metas de nutrición ahora mismo!",
+    keywords: "calculadora, macros, calcula, proteínas, grasas, carbs, macronutrientes, diarios, instante, nuestra, herramienta, precisa, optimiza, dieta, alcanza"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

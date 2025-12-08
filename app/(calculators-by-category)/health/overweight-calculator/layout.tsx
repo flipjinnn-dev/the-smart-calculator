@@ -25,6 +25,12 @@ const overweightcalculatorMeta = {
     description: "Nutzen Sie den overweight  – bmi online | thesmartcalculator für schnelle, genaue Ergebnisse. Einfache Eingaben, klare Ausgaben und nützlicher Kontext — kostenl.",
     keywords: "übergewicht rechner, bmi übergewicht, gesundheitsbewertung, online übergewicht, gewicht management, kostenloser übergewicht tool, bmi berechnung, übergewicht analyse"
   }
+,
+  es: {
+    title: "Calculadora de Sobrepeso – Evalúa tu Peso Fácil y Rápido",
+    description: "Calcula tu índice de sobrepeso al instante con nuestra herramienta precisa. ¡Monitorea tu salud y toma decisiones para un estilo de vida más saludable ahora!",
+    keywords: "calculadora, sobrepeso, evalúa, peso, fácil, rápido, calcula, índice, instante, nuestra, herramienta, precisa, monitorea, salud, toma"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

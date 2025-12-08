@@ -25,6 +25,12 @@ const simpsonsrulecalculatorMeta = {
     description: "Berechne mit dem Simpsons Regel Rechner definite Integrale mit Simpsons Regel. Präzises, kostenloses Tool für Math und Ingenieur Approximationen.",
     keywords: "simpsons regel rechner, definite integrale, approximation tool, online simpson, math integrale, ingenieur approximation, kostenloser regel tool, integral berechnung"
   }
+,
+  es: {
+    title: "Calculadora de la Regla de Simpson – Integra Fácil y Rápido",
+    description: "Resuelve integrales con la regla de Simpson de forma rápida y precisa. Ideal para cálculo e ingeniería. ¡Ingresa los datos y obtén el resultado al instante!",
+    keywords: "calculadora, regla, simpson, integra, fácil, rápido, resuelve, integrales, forma, rápida, precisa, ideal, cálculo, ingeniería, ingresa"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -24,6 +24,12 @@ const paymentcalculatorMeta = {
     description: "Mit dem Zahlungsrechner berechnen Sie Ihre geplanten Zahlungen, Raten und Laufzeiten exakt. Der Zahlungsrechner hilft bei Ihrer Finanz- und Budgetplanung online.",
     keywords: "zahlungsrechner, darlehen zahlungen, feste terme, online zahlung, finanzplanung, kostenloser zahlung tool, term bestimmung, zahlung berechnung"
   }
+,
+  es: {
+    title: "Calculadora de Pago – Calcula tu Salario y Ahorros Rápido",
+    description: "Usa nuestra calculadora de pago para conocer tu salario neto y ahorros fácilmente. ¡Calcula al instante y planifica tu dinero hoy mismo!",
+    keywords: "calculadora, pago, calcula, salario, ahorros, rápido, nuestra, conocer, neto, fácilmente, instante, planifica, dinero, mismo"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

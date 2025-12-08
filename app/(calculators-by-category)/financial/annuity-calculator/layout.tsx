@@ -24,6 +24,12 @@ const annuitycalculatorMeta = {
     description: "Mit dem Rentenrechner berechnen Sie Ihre voraussichtliche Altersrente, Rentenpunkte und Vorsorgelücke. Jetzt Rentenrechner nutzen und besser vorsorgen mit Details.",
     keywords: "rentenrechner, altersrente berechnen, rentenpunkte tool, vorsorgelücke, online renten, vorsorge planung, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora de anualidad: Planifica pagos y ahorros hoy",
+    description: "Calcula tus pagos de anualidad fácilmente. Organiza tus finanzas, proyecta tus ingresos y toma decisiones inteligentes para asegurar tu futuro financiero.",
+    keywords: "calculadora, anualidad, planifica, pagos, ahorros, calcula, fácilmente, organiza, finanzas, proyecta, ingresos, toma, decisiones, inteligentes, asegurar"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

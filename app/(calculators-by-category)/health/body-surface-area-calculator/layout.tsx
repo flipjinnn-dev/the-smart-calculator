@@ -25,6 +25,12 @@ const bodysurfaceareacalculatorMeta = {
     description: "Berechne mit dem Körperoberfläche Rechner (BSA) deine Körperfläche schnell & genau. Ideal für Medizin, Gesundheit und Dosierungsberechnung mit Methoden!",
     keywords: "körperoberfläche rechner, bsa berechnen, medizin gesundheit, dosierung tool, online körper, schnell genau, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora de Superficie Corporal – Calcula Fácil y Rápido",
+    description: "Calcula la superficie corporal al instante con nuestra herramienta precisa. ¡Optimiza evaluaciones médicas y controla tu salud ahora mismo!",
+    keywords: "calculadora, superficie, corporal, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, optimiza, evaluaciones, médicas, controla, salud"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

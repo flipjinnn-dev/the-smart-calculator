@@ -25,6 +25,12 @@ const fieldingpercentagecalculatorMeta = {
     description: "Berechne mit dem Feldprozentsatz Rechner Prozentsatz für Baseballspieler. Präzises Tool für Stats-Tracking und Leistungsanalyse kostenlos.",
     keywords: "feldprozentsatz rechner, baseball berechnen, prozentsatz tool, online feld, stats tracking, leistungsanalyse, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora de Porcentaje de Fildeo – Calcula Fácil y Rápido",
+    description: "Calcula el porcentaje de fildeo al instante con nuestra herramienta precisa. ¡Mejora tu rendimiento y toma decisiones deportivas inteligentes ahora mismo",
+    keywords: "calculadora, porcentaje, fildeo, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, mejora, rendimiento, toma, decisiones, deportivas"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

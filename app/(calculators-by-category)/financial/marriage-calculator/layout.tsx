@@ -24,6 +24,12 @@ const marriagecalculatorMeta = {
     description: "Nutzen Sie den Hochzeitsrechner zur Schätzung der Hochzeitskosten, Budgetplanung und Ausgaben. Kostenloses Online-Tool für Hochzeitsplanung und finanzielle Vorbereitung.",
     keywords: "hochzeitsrechner, hochzeitskosten, budgetplanung, hochzeitsausgaben, hochzeitsplanung, finanzielle vorbereitung, online hochzeit tool"
   }
+,
+  es: {
+    title: "Calculadora de Matrimonio: Descubre tu Compatibilidad Hoy",
+    description: "Usa nuestra calculadora de matrimonio y conoce tu compatibilidad con tu pareja al instante. ¡Descubre si están hechos el uno para el otro ahora!",
+    keywords: "calculadora, matrimonio, descubre, compatibilidad, nuestra, conoce, pareja, instante, están, hechos, otro, ahora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

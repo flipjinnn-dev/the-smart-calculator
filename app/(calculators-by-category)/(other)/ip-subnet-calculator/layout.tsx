@@ -24,6 +24,11 @@ const ipsubnetcalculatorMeta = {
     title: "IP-Subnetzrechner – Subnetze Berechnen Online | TheSmartCalculator",
     description: "Berechne mit dem IP-Subnetzrechner Subnetze, Netzmasken & IP-Bereiche. Schnell, genau & kostenlos – ideal für IT, Netzwerke & Studium in Konfiguration.",
     keywords: "ip-subnetzrechner, subnetze berechnen, netzmasken tool, ip-bereiche, online it rechner, netzwerke studium, kostenloser subnetz tool"
+  },
+  es: {
+    title: "Calculadora de Subnet – Calcula Redes IP Fácil y Rápido",
+    description: "Calcula tus subnets al instante con nuestra herramienta precisa. ¡Optimiza tus redes IP y simplifica la planificación de tus direcciones ahora mismo!",
+    keywords: "calculadora, subnet, calcula, redes, fácil, rápido, subnets, instante, nuestra, herramienta, precisa, optimiza, simplifica, planificación, direcciones"
   }
 };
 

@@ -25,6 +25,12 @@ const caloriecalculatorMeta = {
     description: "Berechne mit dem Kalorienrechner deinen täglichen Kalorienbedarf. Ideal für Abnehmen, Muskelaufbau & gesunde Ernährung – schnell & kostenlos!",
     keywords: "kalorienrechner, bedarf berechnen, täglichen kalorien, abnehmen muskelaufbau, gesunde ernährung, schnell tool, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora de Calorías – Calcula tu Ingesta Diaria Fácil",
+    description: "Calcula tus calorías diarias al instante con nuestra herramienta precisa. ¡Optimiza tu dieta y alcanza tus metas de nutrición y salud ahora mismo!",
+    keywords: "calculadora, calorías, calcula, ingesta, diaria, fácil, diarias, instante, nuestra, herramienta, precisa, optimiza, dieta, alcanza, metas"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

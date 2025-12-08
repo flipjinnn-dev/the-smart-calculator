@@ -25,6 +25,12 @@ const carjumpdistancecalculatorMeta = {
     description: "Berechne mit dem Entfernungsrechner die Strecke anhand von Zeit & Geschwindigkeit. Schnell, exakt & kostenlos – ideal für Physik & Reisen in Simulationen!",
     keywords: "entfernungsrechner, strecke berechnen, zeit geschwindigkeit, online tool, physik reisen, exakt kostenlos, ideal rechner"
   }
+,
+  es: {
+    title: "Calculadora de Distancia de Salto de Auto – Calcula Fácil",
+    description: "Calcula la distancia de salto de tu auto al instante con nuestra herramienta precisa. ¡Optimiza tus maniobras y experimenta con seguridad ahora mismo!",
+    keywords: "calculadora, distancia, salto, auto, calcula, fácil, instante, nuestra, herramienta, precisa, optimiza, maniobras, experimenta, seguridad, ahora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

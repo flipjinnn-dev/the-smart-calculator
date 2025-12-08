@@ -25,6 +25,12 @@ const battingaveragecalculatorMeta = {
     description: "Berechne mit dem Schlagdurchschnitt Rechner Durchschnitt und Baseball-Statistiken. Präzises Tool für Spieler und Fans zur Leistungsanalyse online.",
     keywords: "schlagdurchschnitt rechner, stats berechnen, baseball statistiken, online schlag, leistungsanalyse, kostenloser tool, spieler fans"
   }
+,
+  es: {
+    title: "Calculadora de Promedio de Bateo – Calcula Fácil y Rápido",
+    description: "Calcula tu promedio de bateo al instante con nuestra herramienta precisa. ¡Mejora tu rendimiento y analiza tus estadísticas de béisbol ahora mismo",
+    keywords: "calculadora, promedio, bateo, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, mejora, rendimiento, analiza, estadísticas, béisbol"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

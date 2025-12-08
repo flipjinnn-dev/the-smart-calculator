@@ -24,6 +24,12 @@ const houseaffordabilitycalculatorMeta = {
     description: "Użyj kalkulatora dostępności domu, aby określić affordalny dom na podstawie dochodu i wydatków. Dokładne, darmowe narzędzie do planowania kupna domu.",
     keywords: "house affordability rechner, affordable house, income expenses, online affordability, home buying, planning tool, kostenlos house rechner, determine affordability"
   }
+,
+  es: {
+    title: "Calculadora de asequibilidad de vivienda: Encuentra tu hogar",
+    description: "Calcula cuánto puedes pagar por una vivienda según tus ingresos y gastos. Planifica tu compra de casa con proyecciones claras y decisiones seguras.",
+    keywords: "calculadora, asequibilidad, vivienda, encuentra, hogar, calcula, cuánto, puedes, pagar, según, ingresos, gastos, planifica, compra, casa"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

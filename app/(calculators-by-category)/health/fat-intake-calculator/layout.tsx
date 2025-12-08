@@ -25,6 +25,12 @@ const fatintakecalculatorMeta = {
     description: "Berechne mit dem Fettzufuhr Rechner deinen täglichen Fettbedarf basierend auf Aktivität und Zielen. Präzises Tool für Diät und Ernährungsplanung kostenlos.",
     keywords: "fettzufuhr rechner, bedarf berechnen, täglichen fett, aktivität ziele, online fett, diät planung, kostenloser tool"
   }
+,
+  es: {
+    title: "Calculadora de Ingesta de Grasas – Controla tu Dieta Fácil",
+    description: "Calcula tu ingesta diaria de grasas al instante con nuestra herramienta precisa. ¡Optimiza tu alimentación y mejora tu salud ahora mismo",
+    keywords: "calculadora, ingesta, grasas, controla, dieta, fácil, calcula, diaria, instante, nuestra, herramienta, precisa, optimiza, alimentación, mejora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -41,10 +41,10 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "Hypothekenrechner, Baufinanzierung, monatliche Rate, Tilgungsplan, Zinsen berechnen, Immobilienfinanzierung, Darlehensrechner"
     },
     es: {
-      title: "Calculadora de Hipoteca",
-      description: "Calcule los pagos mensuales de la hipoteca, el interés total y el calendario de amortización. Herramienta completa para su financiación inmobiliaria.",
-      slug: "/es/financiero/hipoteca-calculadora",
-      keywords: "calculadora hipoteca, pagos mensuales, interés total, amortización, calendario, financiación inmobiliaria"
+      title: "Simulador de Hipoteca – Calcula tu Hipoteca y Préstamo con Tasa de Interés",
+      description: "Utiliza nuestro simulador de hipoteca para calcular tu préstamo hipotecario, conocer la tasa de interés y planificar tus pagos de manera rápida y precisa.",
+      slug: "/es/financiera/Simulador-de-hipoteca",
+      keywords: "simulador, hipoteca, calcula, préstamo, tasa, interés, utiliza, nuestro, calcular, hipotecario, conocer, planificar, pagos, manera, rápida"
     }
   },
   'finance-calculator': {
@@ -73,10 +73,10 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "Finanzrechner, Finanzberechnungen, Zinseszins, Barwert, Zukunftswert, Finanzanalyse, Finanzplanung"
     },
     es: {
-      title: "Calculadora Financiera",
-      description: "Herramienta integral para diversos cálculos financieros, incluyendo interés compuesto, valor presente y futuro, y análisis de inversiones.",
-      slug: "/es/financiero/calculadora-financiera",
-      keywords: "calculadora financiera, finanzas, interés compuesto, valor presente, valor futuro, análisis financiero"
+      title: "Calculadora Financiera – Gestiona Préstamos, Inversiones e Intereses",
+      description: "Utiliza nuestra calculadora financiera para calcular préstamos, planificar inversiones y controlar los intereses de manera rápida y eficiente.",
+      slug: "/es/financiera/calculadora-financiera",
+      keywords: "calculadora, financiera, gestiona, préstamos, inversiones, intereses, utiliza, nuestra, calcular, planificar, controlar, manera, rápida, eficiente"
     }
   },
   '401k-calculator': {
@@ -104,6 +104,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/401-k-rechner",
       keywords: "401k Rechner, Rente, Altersvorsorge, Rentenersparnisse, Zukunftseinkommen, Ruhestandsplanung, langfristige Investitionen"
     }
+    ,
+    es: {
+      title: "Calculadora de 401k: Planifica tu retiro fácilmente",
+      description: "Usa nuestra calculadora 401k para estimar tus ahorros de jubilación, aportes y crecimiento. Planifica tu futuro financiero con proyecciones claras y confiables.",
+      slug: "/es/financiera/calculadora-de-401k",
+      keywords: "calculadora, planifica, retiro, fácilmente, nuestra, estimar, ahorros, jubilación, aportes, crecimiento, futuro, financiero, proyecciones, claras, confiables"
+    }
   },
   'debt-payoff-calculator': {
     en: {
@@ -129,6 +136,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Schuldentilgungsrechner erstellen Sie einen Tilgungsplan und sehen, wie lange es dauert, schuldenfrei zu werden. Planen Sie Ihre finanzielle Freiheit.",
       slug: "/de/finanziell/schulden-tilgungsrechner",
       keywords: "Schuldenrechner, Schuldentilgung, Schuldenabbau, Tilgungsplan, Entschuldung, Schuldenmanagement, Schuldenfrei"
+    }
+    ,
+    es: {
+      title: "Calculadora de pago de deudas: Organiza tus finanzas hoy",
+      description: "Calcula tus pagos de deudas fácilmente. Planifica amortizaciones, conoce intereses y organiza tus finanzas para lograr libertad financiera más rápido.",
+      slug: "/es/financiera/calculadora-de-pago-de-deudas",
+      keywords: "calculadora, pago, deudas, organiza, finanzas, calcula, pagos, fácilmente, planifica, amortizaciones, conoce, intereses, lograr, libertad, financiera"
     }
   },
   'house-affordability-calculator': {
@@ -156,6 +170,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/haus-erschwinglichkeitsrechner",
       keywords: "Immobilienrechner, Hausfinanzierung, Eigenheimkalkulator, Budgetplanung, Immobilienkauf, Finanzierungsrechner"
     }
+    ,
+    es: {
+      title: "Calculadora de asequibilidad de vivienda: Encuentra tu hogar",
+      description: "Calcula cuánto puedes pagar por una vivienda según tus ingresos y gastos. Planifica tu compra de casa con proyecciones claras y decisiones seguras.",
+      slug: "/es/financiera/calculadora-de-asequibilidad-de-vivienda",
+      keywords: "calculadora, asequibilidad, vivienda, encuentra, hogar, calcula, cuánto, puedes, pagar, según, ingresos, gastos, planifica, compra, casa"
+    }
   },
   'estate-tax-calculator': {
     en: {
@@ -181,6 +202,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Erbschaftsteuer­rechner ermitteln Sie Steuern",
       slug: "/de/finanziell/erbschaftsteuerrechner",
       keywords: "Erbschaftssteuerrechner, Nachlassplanung, Erbschaftssteuer, Vermögensplanung, Nachfolgeplanung, Erbe"
+    }
+    ,
+    es: {
+      title: "Calculadora del impuesto sobre el patrimonio: Planifica hoy",
+      description: "Calcula tu impuesto sobre el patrimonio fácilmente. Conoce cuánto debes pagar y organiza tus finanzas para optimizar tu planificación fiscal de forma segura.",
+      slug: "/es/financiera/calculadora-del-impuesto-sobre-el-patrimonio",
+      keywords: "calculadora, impuesto, sobre, patrimonio, planifica, calcula, fácilmente, conoce, cuánto, debes, pagar, organiza, finanzas, optimizar, planificación"
     }
   },
   'credit-card-payoff-calculator': {
@@ -208,6 +236,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/kreditkarten-tilgungsrechner",
       keywords: "Kreditkartenrechner, Schuldentilgung, Kreditkarte, Zinsen, Rückzahlungsplan, Schuldenmanagement"
     }
+    ,
+    es: {
+      title: "Calculadora de pago de tarjeta: Reduce tu deuda rápido",
+      description: "Calcula tus pagos de tarjeta de crédito y planifica la forma más rápida de reducir tu deuda. Toma el control de tus finanzas hoy mismo.",
+      slug: "/es/financiera/calculadora-de-pago-de-tarjeta-de-credito",
+      keywords: "calculadora, pago, tarjeta, reduce, deuda, rápido, calcula, pagos, crédito, planifica, forma, rápida, reducir, toma, control"
+    }
   },
   'credit-card-calculator': {
     en: {
@@ -233,6 +268,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Kreditkartenrechner vergleichen Sie Gebühren",
       slug: "/de/finanziell/kreditkartenrechner",
       keywords: "Kreditkartenrechner, Kartenzahlungen, Zinsen, Rückzahlungsplan, Finanzmanagement, Kreditkartenanalyse"
+    }
+    ,
+    es: {
+      title: "Calculadora de tarjetas de crédito: Controla tu deuda fácil",
+      description: "Calcula tus pagos de tarjetas de crédito, conoce intereses y planifica tu deuda. Toma el control de tus finanzas y reduce tu carga financiera hoy mismo.",
+      slug: "/es/financiera/calculadora-de-tarjetas-de-credito",
+      keywords: "calculadora, tarjetas, crédito, controla, deuda, fácil, calcula, pagos, conoce, intereses, planifica, toma, control, finanzas, reduce"
     }
   },
   'annuity-payout-calculator': {
@@ -260,6 +302,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/rentenzahlung",
       keywords: "Rentenrechner, Rentenauszahlung, Leibrente, Ruhestandsplanung, langfristige Investitionen, Rentenberechnung"
     }
+    ,
+    es: {
+      title: "Calculadora de pagos de anualidades: Planifica tu futuro hoy",
+      description: "Calcula los pagos de tus anualidades fácilmente. Organiza tus ingresos futuros y toma decisiones financieras inteligentes para asegurar tu estabilidad hoy mismo.",
+      slug: "/es/financiera/calculadora-de-pagos-de-anualidades",
+      keywords: "calculadora, pagos, anualidades, planifica, futuro, calcula, fácilmente, organiza, ingresos, futuros, toma, decisiones, financieras, inteligentes, asegurar"
+    }
   },
   'annuity-calculator': {
     en: {
@@ -285,6 +334,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Rentenrechner berechnen Sie Ihre voraussichtliche Altersrente",
       slug: "/de/finanziell/leibrentenrechner",
       keywords: "Rentenrechner, Zukunftswert, regelmäßige Beiträge, Zinssätze, langfristige Investitionen, Finanzplanung"
+    }
+    ,
+    es: {
+      title: "Calculadora de anualidad: Planifica pagos y ahorros hoy",
+      description: "Calcula tus pagos de anualidad fácilmente. Organiza tus finanzas, proyecta tus ingresos y toma decisiones inteligentes para asegurar tu futuro financiero.",
+      slug: "/es/financiera/calculadora-de-anualidad",
+      keywords: "calculadora, anualidad, planifica, pagos, ahorros, calcula, fácilmente, organiza, finanzas, proyecta, ingresos, toma, decisiones, inteligentes, asegurar"
     }
   },
   'social-security-calculator': {
@@ -312,6 +368,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/sozialversicherungsrechner",
       keywords: "social, security, calculator, estimate, your, benefits, based, earnings, history"
     }
+    ,
+    es: {
+      title: "Calculadora de seguridad social: Estima tus beneficios hoy",
+      description: "Calcula fácilmente tus beneficios de seguridad social. Planifica tu jubilación, conoce tus ingresos futuros y toma decisiones financieras inteligentes hoy.",
+      slug: "/es/financiera/calculadora-de-seguridad-social",
+      keywords: "calculadora, seguridad, social, estima, beneficios, calcula, fácilmente, planifica, jubilación, conoce, ingresos, futuros, toma, decisiones, financieras"
+    }
   },
   'pension-calculator': {
     en: {
@@ -337,6 +400,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Rentenrechner berechnen Sie Ihre monatliche Rente",
       slug: "/de/finanziell/pensionsrechner",
       keywords: "Pensionsrechner, Rentenleistungen, Dienstjahre, Pensionsberechnung, Ruhestandsplanung, Altersvorsorge"
+    }
+    ,
+    es: {
+      title: "Simulador de Pensiones – Calcula tu Pensión, Jubilación y Ahorro",
+      description: "Utiliza nuestro simulador de pensiones para planificar tu jubilación, estimar tu pensión y optimizar tu ahorro de manera sencilla y precisa.",
+      slug: "/es/financiera/simulador-de-pensiones",
+      keywords: "simulador, pensiones, calcula, pensión, jubilación, ahorro, utiliza, nuestro, planificar, estimar, optimizar, manera, sencilla, precisa"
     }
   },
   'savings-calculator': {
@@ -364,6 +434,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/sparrechner",
       keywords: "Sparrechner, Sparguthaben, regelmäßige Einzahlungen, Finanzplanung, Vermögensaufbau, Sparziele"
     }
+    ,
+    es: {
+      title: "Calculadora de Ahorro – Optimiza tu Ahorro y Calcula Interés Compuesto",
+      description: "Utiliza nuestra calculadora de ahorro para gestionar tu cuenta de ahorros, calcular el interés compuesto y planificar tus finanzas de manera eficiente y sencilla.",
+      slug: "/es/financiera/calculadora-de-ahorro",
+      keywords: "calculadora, ahorro, optimiza, calcula, interés, compuesto, utiliza, nuestra, gestionar, cuenta, ahorros, calcular, planificar, finanzas, manera"
+    }
   },
   'marriage-calculator': {
     en: {
@@ -389,6 +466,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Hochzeitsrechner planen Sie Ihr Hochzeitsbudget – Kosten für Gäste",
       slug: "/de/finanziell/hochzeitsrechner",
       keywords: "Eherechner, Ehefinanzen, Finanzplanung, Hochzeitsbudget, gemeinsame Ausgaben, Finanzielle Eheplanung"
+    }
+    ,
+    es: {
+      title: "Calculadora de Matrimonio: Descubre tu Compatibilidad Hoy",
+      description: "Usa nuestra calculadora de matrimonio y conoce tu compatibilidad con tu pareja al instante. ¡Descubre si están hechos el uno para el otro ahora!",
+      slug: "/es/financiera/calculadora-de-matrimonio",
+      keywords: "calculadora, matrimonio, descubre, compatibilidad, nuestra, conoce, pareja, instante, están, hechos, otro, ahora"
     }
   },
   'sales-tax-calculator': {
@@ -416,6 +500,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/umsatz-steuer-calulcator-rechner",
       keywords: "Mehrwertsteuerrechner, MwSt-Rechner, Umsatzsteuer, Steuersätze, Steuerberechnung, Einkaufsplanung"
     }
+    ,
+    es: {
+      title: "Calculadora del Impuesto sobre las Ventas – Calcula Rápido",
+      description: "Calcula fácilmente el impuesto sobre las ventas con nuestra herramienta rápida y precisa. ¡Ahorra tiempo y evita errores ahora mismo!",
+      slug: "/es/financiera/calculadora-del-impuesto-sobre-las-ventas",
+      keywords: "calculadora, impuesto, sobre, ventas, calcula, rápido, fácilmente, nuestra, herramienta, rápida, precisa, ahorra, tiempo, evita, errores"
+    }
   },
   'inflation-calculator': {
     en: {
@@ -441,6 +532,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Inflationsrechner ermitteln Sie Preissteigerung",
       slug: "/de/finanziell/inflationsrechner",
       keywords: "Inflationsrechner, Kaufkraft, Geldwert, Inflationsauswirkung, Geldentwertung, Wertverlust"
+    }
+    ,
+    es: {
+      title: "Calculadora de Inflación – Calcula el Valor Real y Poder Adquisitivo",
+      description: "Utiliza nuestra calculadora de inflación para conocer el valor real de tu dinero, analizar el poder adquisitivo y planificar tus finanzas de manera precisa y sencilla.",
+      slug: "/es/financiera/calculadora-de-inflacion",
+      keywords: "calculadora, inflación, calcula, valor, real, poder, adquisitivo, utiliza, nuestra, conocer, dinero, analizar, planificar, finanzas, manera"
     }
   },
   'rent-calculator': {
@@ -468,6 +566,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/mietrechner",
       keywords: "Mietrechner, Mietzahlung, Erschwinglichkeit, Mietbudget, Wohnungsplanung, monatliche Miete"
     }
+    ,
+    es: {
+      title: "Calculadora de Alquiler – Calcula Renta y Costos de tu Vivienda",
+      description: "Utiliza nuestra calculadora de alquiler para estimar la renta, planificar los costos de tu vivienda y gestionar tu presupuesto de manera fácil y precisa.",
+      slug: "/es/financiera/calculadora-de-alquiler",
+      keywords: "calculadora, alquiler, calcula, renta, costos, vivienda, utiliza, nuestra, estimar, planificar, gestionar, presupuesto, manera, fácil, precisa"
+    }
   },
   'interest-rate-calculator': {
     en: {
@@ -493,6 +598,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Zinsrechner berechnen Sie Zinssatz",
       slug: "/de/finanziell/zinssatzrechner",
       keywords: "Zinsrechner, Zinssatz, Kredite, Investitionen, Finanzanalyse, Zinsberechnung"
+    }
+    ,
+    es: {
+      title: "Calculadora de Tasas de Interés – Calcula Fácil y Rápido",
+      description: "Calcula tus tasas de interés al instante con nuestra herramienta fácil y precisa. ¡Ahorra tiempo y toma decisiones financieras inteligentes ahora!",
+      slug: "/es/financiera/calculadora-de-tasas-de-interes",
+      keywords: "calculadora, tasas, interés, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, ahorra, tiempo, toma, decisiones, financieras"
     }
   },
   'income-tax-calculator': {
@@ -520,6 +632,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/einkommen-steuer-rechner",
       keywords: "Einkommensteuerrechner, Steuerberechnung, Steuerabzüge, Freibeträge, Steuererklärung, ESt"
     }
+    ,
+    es: {
+      title: "Calculadora de Impuesto sobre la Renta – Calcula tu Renta y Declaración",
+      description: "Utiliza nuestra calculadora de impuesto sobre la renta para estimar tus impuestos, planificar tu declaración y gestionar tu renta de manera precisa y sencilla.",
+      slug: "/es/financiera/calculadora-de-impuesto-sobre-la-renta",
+      keywords: "calculadora, impuesto, sobre, renta, calcula, declaración, utiliza, nuestra, estimar, impuestos, planificar, gestionar, manera, precisa, sencilla"
+    }
   },
   'salary-calculator': {
     en: {
@@ -545,6 +664,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Gehaltsrechner ermitteln Sie schnell Brutto- und Nettogehalt",
       slug: "/de/finanziell/gehaltsrechner",
       keywords: "Gehaltsrechner, Nettogehalt, Lohnabzüge, Lohnsteuer, Gehaltsabrechnung, Nettolohn"
+    }
+    ,
+    es: {
+      title: "Calculadora de Salario – Calcula tu Sueldo e Ingreso",
+      description: "Utiliza nuestra calculadora de salario para estimar tu sueldo, controlar tus ingresos y planificar tus finanzas de manera rápida y sencilla.",
+      slug: "/es/financiera/calculadora-de-salario",
+      keywords: "calculadora, salario, calcula, sueldo, ingreso, utiliza, nuestra, estimar, controlar, ingresos, planificar, finanzas, manera, rápida, sencilla"
     }
   },
   'loan-calculator': {
@@ -573,10 +699,10 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "Kreditrechner, Kreditraten, Zinssätze, Tilgungsplan, Darlehen, Finanzierung"
     },
     es: {
-      title: "Calculadora de Préstamos",
-      description: "Calcule los pagos del préstamo, las tasas de interés y los calendarios de pago. Planifique sus finanzas con precisión.",
-      slug: "/es/financiero/calculadora-de-prestamos",
-      keywords: "calculadora préstamos, pagos préstamo, tasas interés, calendario pagos, financiación, crédito"
+      title: "Calculadora de Préstamos – Calcula tu Crédito y Amortización",
+      description: "Utiliza nuestra calculadora de préstamos para planificar tu crédito, calcular la amortización y gestionar tus finanzas de manera rápida y eficiente.",
+      slug: "/es/financiera/calculadora-de-prestamos",
+      keywords: "calculadora, préstamos, calcula, crédito, amortización, utiliza, nuestra, planificar, calcular, gestionar, finanzas, manera, rápida, eficiente"
     }
   },
   'compound-interest-calculator': {
@@ -605,10 +731,10 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "Zinseszinsrechner, Zinseszins, Investitionswachstum, Sparrechner, Zinsen berechnen"
     },
     es: {
-      title: "Calculadora de Interés Compuesto",
-      description: "Calcule cómo crecen sus inversiones con el tiempo gracias al interés compuesto.",
-      slug: "/es/financiero/calculadora-de-juros-compostos",
-      keywords: "interés compuesto, crecimiento inversión, ahorro, calcular intereses, finanzas"
+      title: "Calculadora de Interés Compuesto – Calcula Capitalización y Valor Futuro",
+      description: "Utiliza nuestra calculadora de interés compuesto para estimar la capitalización de tu dinero, proyectar el valor futuro y optimizar tus inversiones de manera sencilla y precisa.",
+      slug: "/es/financiera/calculadora-de-interes-compuesto",
+      keywords: "calculadora, interés, compuesto, calcula, capitalización, valor, futuro, utiliza, nuestra, estimar, dinero, proyectar, optimizar, inversiones, manera"
     }
   },
   'interest-calculator': {
@@ -636,6 +762,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/zinsrechner",
       keywords: "Zinsrechner, Anlagewachstum, Kaufkraft, Inflation, reale Rendite"
     }
+    ,
+    es: {
+      title: "Cálculo de Intereses – Calcula Interés, Tasa y Tiempo",
+      description: "Utiliza nuestra herramienta de cálculo de intereses para estimar el interés generado, analizar la tasa de interés y planificar el tiempo de tus inversiones o préstamos de manera precisa.",
+      slug: "/es/financiera/calculo-de-intereses",
+      keywords: "cálculo, intereses, calcula, interés, tasa, tiempo, utiliza, nuestra, herramienta, estimar, generado, analizar, planificar, inversiones, préstamos"
+    }
   },
   'payment-calculator': {
     en: {
@@ -661,6 +794,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Zahlungsrechner berechnen Sie Ihre geplanten Zahlungen",
       slug: "/de/finanziell/zahlungsrechner",
       keywords: "Ratenrechner, Kreditraten, Laufzeit berechnen, Tilgungsrate, Kreditvergleich"
+    }
+    ,
+    es: {
+      title: "Calculadora de Pago – Calcula tu Salario y Ahorros Rápido",
+      description: "Usa nuestra calculadora de pago para conocer tu salario neto y ahorros fácilmente. ¡Calcula al instante y planifica tu dinero hoy mismo!",
+      slug: "/es/financiera/calculadora-de-pago",
+      keywords: "calculadora, pago, calcula, salario, ahorros, rápido, nuestra, conocer, neto, fácilmente, instante, planifica, dinero, mismo"
     }
   },
   'auto-loan-calculator': {
@@ -688,6 +828,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/autokreditrechner",
       keywords: "auto, loan, calculator, calculate, car, payments, total, cost"
     }
+    ,
+    es: {
+      title: "Calculadora de Préstamos de Auto – Calcula tu Pago Fácil",
+      description: "Calcula tu préstamo de auto al instante y conoce tus pagos mensuales. ¡Ahorra tiempo y planifica tu compra de manera inteligente ahora!",
+      slug: "/es/financiera/calculadora-de-prestamos-de-auto",
+      keywords: "calculadora, préstamos, auto, calcula, pago, fácil, préstamo, instante, conoce, pagos, mensuales, ahorra, tiempo, planifica, compra"
+    }
   },
   'amortization-calculator': {
     en: {
@@ -713,6 +860,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie mit dem Tilgungsrechner Ihre monatliche Rate",
       slug: "/de/finanziell/tilgungsrechner",
       keywords: "Tilgungsrechner, Tilgungsplan, Amortisation, Kreditraten, Zinsanteil, Tilgungsanteil"
+    }
+    ,
+    es: {
+      title: "Calculadora de Amortización – Calcula Pagos Fácilmente",
+      description: "Calcula tu amortización al instante y conoce tus pagos mensuales. ¡Planifica tu préstamo de forma sencilla y toma decisiones financieras inteligentes",
+      slug: "/es/financiera/calculadora-de-amortizacion",
+      keywords: "calculadora, amortización, calcula, pagos, fácilmente, instante, conoce, mensuales, planifica, préstamo, forma, sencilla, toma, decisiones, financieras"
     }
   },
   'mortgage-payoff-calculator': {
@@ -740,6 +894,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/hypotheken-ruckzahlung-rechner",
       keywords: "Hypothek tilgen, vorzeitige Tilgung, Zinseinsparungen, Tilgungsdatum, Sondertilgung"
     }
+    ,
+    es: {
+      title: "Calculadora de Liquidación de Hipotecas – Calcula Fácil",
+      description: "Calcula la liquidación de tu hipoteca al instante y conoce tus pagos finales. ¡Ahorra tiempo y planifica tu deuda de manera inteligente ahora!",
+      slug: "/es/financiera/calculadora-de-liquidacion-de-hipotecas",
+      keywords: "calculadora, liquidación, hipotecas, calcula, fácil, hipoteca, instante, conoce, pagos, finales, ahorra, tiempo, planifica, deuda, manera"
+    }
   },
   'currency-calculator': {
     en: {
@@ -765,6 +926,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Währungsrechner berechnen Sie live Wechselkurse zwischen Währungen. Nutzen Sie den Währungsrechner",
       slug: "/de/finanziell/wahrungsrechner",
       keywords: "Währungsrechner, Wechselkurs, Echtzeitkurse, Währung konvertieren, Devisen"
+    }
+    ,
+    es: {
+      title: "Conversor de Divisas – Convierte Monedas al Instante",
+      description: "Utiliza nuestro conversor de divisas para convertir monedas, conocer el cambio actual y gestionar tus transacciones internacionales de manera rápida y sencilla.",
+      slug: "/es/financiera/conversor-de-divisas",
+      keywords: "conversor, divisas, convierte, monedas, instante, utiliza, nuestro, convertir, conocer, cambio, actual, gestionar, transacciones, internacionales, manera"
     }
   },
   'investment-calculator': {
@@ -792,6 +960,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/finanziell/investitionsrechner",
       keywords: "Investmentrechner, Renditeberechnung, Wachstumsprognose, Anlageanalyse"
     }
+    ,
+    es: {
+      title: "Calculadora de Inversiones – Calcula Rendimiento y Capital",
+      description: "Utiliza nuestra calculadora de inversiones para planificar tu inversión, estimar el rendimiento y gestionar tu capital de manera eficiente y sencilla.",
+      slug: "/es/financiera/calculadora-de-inversiones",
+      keywords: "calculadora, inversiones, calcula, rendimiento, capital, utiliza, nuestra, planificar, inversión, estimar, gestionar, manera, eficiente, sencilla"
+    }
   },
   'retirement-calculator': {
     en: {
@@ -817,6 +992,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Rentenrechner ermitteln Sie Ihre voraussichtliche Altersrente",
       slug: "/de/finanziell/altersrentenrechner",
       keywords: "Rentenplanung, Altersvorsorge, erforderliche Beiträge, Rentenziel, Altersvorsorgeplanung"
+    }
+    ,
+    es: {
+      title: "Simulador de Jubilación – Planifica tu Pensión y Ahorro",
+      description: "Utiliza nuestro simulador de jubilación para calcular tu pensión futura, estimar el ahorro necesario y planificar tu retiro de manera sencilla y efectiva.",
+      slug: "/es/financiera/simulador-de-jubilacion",
+      keywords: "simulador, jubilación, planifica, pensión, ahorro, utiliza, nuestro, calcular, futura, estimar, necesario, planificar, retiro, manera, sencilla"
     }
   },
   'bmi-calculator': {
@@ -845,10 +1027,10 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "BMI-Rechner, Body-Mass-Index, gesundes Gewicht, Übergewicht, Untergewicht, BMI berechnen"
     },
     es: {
-      title: "Calculadora de IMC",
-      description: "Calcule su Índice de Masa Corporal (IMC) y descubra su peso saludable.",
-      slug: "/es/saude/calculadora-imc",
-      keywords: "calculadora IMC, índice masa corporal, peso saludable, sobrepeso, bajo peso"
+      title: "Calculadora IMC – Evalúa tu Peso y Altura",
+      description: "Utiliza nuestra calculadora IMC para medir tu índice de masa corporal, analizar tu peso y altura, y mejorar tu salud de manera sencilla y efectiva.",
+      slug: "/es/salud/calculadora-IMC",
+      keywords: "calculadora, evalúa, peso, altura, utiliza, nuestra, medir, índice, masa, corporal, analizar, mejorar, salud, manera, sencilla"
     }
   },
   'pregnancy-weight-gain-calculator': {
@@ -876,6 +1058,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/schwangerschaft-gewichtszunahme-rechner",
       keywords: "Gewichtszunahme Schwangerschaft, gesunde Gewichtszunahme, BMI vor Schwangerschaft, Schwangerschaftsberatung"
     }
+    ,
+    es: {
+      title: "Calculadora de Aumento de Peso en Embarazo – Fácil y Rápido",
+      description: "Calcula tu aumento de peso durante el embarazo al instante y lleva un control saludable. ¡Descubre si estás en el rango ideal ahora mismo!",
+      slug: "/es/salud/calculadora-de-aumento-de-peso-durante-el-embarazo",
+      keywords: "calculadora, aumento, peso, embarazo, fácil, rápido, calcula, durante, instante, lleva, control, saludable, descubre, estás, rango"
+    }
   },
   'calories-burned-calculator': {
     en: {
@@ -901,6 +1090,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Schätzen Sie die während körperlicher Aktivitäten verbrannten Kalorien basierend auf Intensität, Dauer und Körpergewicht.",
       slug: "/de/gesundheit/kalorien-verbrauch-rechner",
       keywords: "Kalorienverbrauch, verbrannte Kalorien, Aktivität Kalorien, Gewichtsverlust, Fitness"
+    }
+    ,
+    es: {
+      title: "Calculadora de Calorías Quemadas – Calcula Fácil y Rápido",
+      description: "Calcula las calorías quemadas al instante con nuestra herramienta precisa. ¡Optimiza tu entrenamiento y alcanza tus metas fitness ahora mismo",
+      slug: "/es/salud/calculadora-de-calorias-quemadas",
+      keywords: "calculadora, calorías, quemadas, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, optimiza, entrenamiento, alcanza, metas, fitness"
     }
   },
   'due-date-calculator': {
@@ -928,6 +1124,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/fristenrechner",
       keywords: "Geburtstermin, Schwangerschaftsrechner, Entbindungstermin, Pränatale Betreuung"
     }
+    ,
+    es: {
+      title: "Calculadora de Fecha de Vencimiento – Calcula Fácil y Rápido",
+      description: "Calcula la fecha de vencimiento al instante con nuestra herramienta precisa. ¡Evita retrasos y organiza tus fechas importantes ahora mismo",
+      slug: "/es/salud/calculadora-de-fecha-de-vencimiento",
+      keywords: "calculadora, fecha, vencimiento, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, evita, retrasos, organiza, fechas, importantes"
+    }
   },
   'pace-calculator': {
     en: {
@@ -953,6 +1156,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie mit dem Temporechner Ihre Laufgeschwindigkeit",
       slug: "/de/gesundheit/temporechner",
       keywords: "Lauftempo, Pace Rechner, Geschwindigkeit, Training, Wettkampf"
+    }
+    ,
+    es: {
+      title: "Calculadora de Ritmos – Mide tu Tiempo y Distancia",
+      description: "Utiliza nuestra calculadora de ritmos para calcular tus ritmos de ejercicio, medir el tiempo y la distancia recorrida, y mejorar tu rendimiento físico de manera sencilla.",
+      slug: "/es/salud/calculadora-de-ritmos",
+      keywords: "calculadora, ritmos, mide, tiempo, distancia, utiliza, nuestra, calcular, ejercicio, medir, recorrida, mejorar, rendimiento, físico, manera"
     }
   },
   'one-rep-max-calculator': {
@@ -980,6 +1190,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/ein-rap-rechner",
       keywords: "1RM Rechner, One-Rep-Max, Krafttraining, Trainingsplanung, Maximalkraft"
     }
+    ,
+    es: {
+      title: "Calculadora de 1 Repetición Máxima – Calcula tu Fuerza",
+      description: "Calcula tu repetición máxima al instante con nuestra herramienta precisa. ¡Optimiza tu entrenamiento y alcanza tus metas de fuerza ahora mismo",
+      slug: "/es/salud/calculadora-de-una-repeticion-maxima",
+      keywords: "calculadora, repetición, máxima, calcula, fuerza, instante, nuestra, herramienta, precisa, optimiza, entrenamiento, alcanza, metas, ahora, mismo"
+    }
   },
   'army-body-fat-calculator': {
     en: {
@@ -1005,6 +1222,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechne dein Körperfett mit dem Army Körperfett Rechner. Schnelle & genaue Analyse für Männer und Frauen – einfach",
       slug: "/de/gesundheit/army-korperfettrechner",
       keywords: "Körperfettanteil, US Army Methode, Körperzusammensetzung, Fitnessbewertung"
+    }
+    ,
+    es: {
+      title: "Calculadora de Grasa Corporal del Ejército – Fácil y Rápida",
+      description: "Calcula tu porcentaje de grasa corporal militar al instante. ¡Cumple con los estándares del ejército y optimiza tu entrenamiento ahora mismo",
+      slug: "/es/salud/calculadora-de-grasa-corporal-del-ejercito",
+      keywords: "calculadora, grasa, corporal, ejército, fácil, rápida, calcula, porcentaje, militar, instante, cumple, estándares, optimiza, entrenamiento, ahora"
     }
   },
   'target-heart-rate-calculator': {
@@ -1032,6 +1256,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/herzfrequenz-rechner",
       keywords: "Zielherzfrequenz, Trainingszone, Herzfrequenz, Cardio-Training"
     }
+    ,
+    es: {
+      title: "Calculadora de Frecuencia Cardíaca Objetivo – Fácil y Rápida",
+      description: "Calcula tu frecuencia cardíaca objetivo al instante con nuestra herramienta precisa. ¡Optimiza tu entrenamiento y alcanza tus metas fitness ahora mismo",
+      slug: "/es/salud/calculadora-de-frecuencia-cardiaca-objetivo",
+      keywords: "calculadora, frecuencia, cardíaca, objetivo, fácil, rápida, calcula, instante, nuestra, herramienta, precisa, optimiza, entrenamiento, alcanza, metas"
+    }
   },
   'protein-calculator': {
     en: {
@@ -1057,6 +1288,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie Ihren täglichen Proteinbedarf basierend auf Aktivitätsniveau und Zielen (Erhaltung, Muskelaufbau, Gewichtsverlust).",
       slug: "/de/gesundheit/protien-aufnahme-rechner",
       keywords: "Proteinbedarf, tägliche Proteinaufnahme, Muskelaufbau, Ernährung"
+    }
+    ,
+    es: {
+      title: "Calculadora de Proteínas – Calcula tu Ingesta Diaria Fácil",
+      description: "Calcula tu ingesta diaria de proteínas al instante con nuestra herramienta precisa. ¡Optimiza tu dieta y alcanza tus metas de nutrición ahora mismo",
+      slug: "/es/salud/calculadora-de-proteinas",
+      keywords: "calculadora, proteínas, calcula, ingesta, diaria, fácil, instante, nuestra, herramienta, precisa, optimiza, dieta, alcanza, metas, nutrición"
     }
   },
   'healthy-weight-calculator': {
@@ -1084,6 +1322,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/gesundes-gewicht-rechner",
       keywords: "gesundes Gewicht, BMI, Gewichtsspanne, Gesundheitsziele"
     }
+    ,
+    es: {
+      title: "Calculadora de Peso Saludable – Descubre tu IMC Ideal",
+      description: "Calcula tu peso saludable al instante con nuestra herramienta precisa. ¡Conoce tu IMC y lleva un estilo de vida más sano ahora mismo",
+      slug: "/es/salud/calculadora-de-peso-saludable",
+      keywords: "calculadora, peso, saludable, descubre, ideal, calcula, instante, nuestra, herramienta, precisa, conoce, lleva, estilo, vida, sano"
+    }
   },
   'fat-intake-calculator': {
     en: {
@@ -1109,6 +1354,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie Ihren täglichen Fettbedarf basierend auf Aktivitätsniveau und Zielen (Gesundheit, Gewichtsverlust, Muskelaufbau).",
       slug: "/de/gesundheit/fett-aufnahme-rechner",
       keywords: "Fettbedarf, Fettaufnahme, Makronährstoffe, Ernährung"
+    }
+    ,
+    es: {
+      title: "Calculadora de Ingesta de Grasas – Controla tu Dieta Fácil",
+      description: "Calcula tu ingesta diaria de grasas al instante con nuestra herramienta precisa. ¡Optimiza tu alimentación y mejora tu salud ahora mismo",
+      slug: "/es/salud/calculadora-de-ingesta-de-grasas",
+      keywords: "calculadora, ingesta, grasas, controla, dieta, fácil, calcula, diaria, instante, nuestra, herramienta, precisa, optimiza, alimentación, mejora"
     }
   },
   'carbohydrate-calculator': {
@@ -1136,6 +1388,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/kohlenhydrate-rechner",
       keywords: "Kohlenhydrate Bedarf, Kohlenhydrataufnahme, Ernährung, Energie"
     }
+    ,
+    es: {
+      title: "Calculadora de Carbohidratos – Controla tu Dieta Fácil",
+      description: "Calcula tu ingesta diaria de carbohidratos al instante con nuestra herramienta precisa. ¡Optimiza tu alimentación y mejora tu salud ahora mismo",
+      slug: "/es/salud/calculadora-de-carbohidratos",
+      keywords: "calculadora, carbohidratos, controla, dieta, fácil, calcula, ingesta, diaria, instante, nuestra, herramienta, precisa, optimiza, alimentación, mejora"
+    }
   },
   'ovulation-calculator': {
     en: {
@@ -1161,6 +1420,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechne mit dem Eisprungrechner deine fruchtbaren Tage. Ideal zur Familienplanung – schnell",
       slug: "/de/gesundheit/eisprungrechner",
       keywords: "Ovulation, fruchtbares Fenster, Eisprung, Fruchtbarkeit"
+    }
+    ,
+    es: {
+      title: "Calculadora de la Ovulación – Controla tu Fertilidad y Ciclo Menstrual",
+      description: "Utiliza nuestra calculadora de la ovulación para predecir tus días fértiles, seguir tu ciclo menstrual y planificar tu salud reproductiva de manera sencilla y precisa.",
+      slug: "/es/salud/calculadora-de-la-ovulacion",
+      keywords: "calculadora, ovulación, controla, fertilidad, ciclo, menstrual, utiliza, nuestra, predecir, días, fértiles, seguir, planificar, salud, reproductiva"
     }
   },
   'lean-body-mass-calculator': {
@@ -1188,6 +1454,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/malterr-korpro-masse-rechner",
       keywords: "fettfreie Masse, Körperzusammensetzung, Trainingsplanung, Ernährungsplanung"
     }
+    ,
+    es: {
+      title: "Calculadora de Masa Corporal Magra – Calcula Fácil y Rápido",
+      description: "Calcula tu masa corporal magra al instante con nuestra herramienta precisa. ¡Optimiza tu entrenamiento y mejora tu composición corporal ahora mismo",
+      slug: "/es/salud/calculadora-de-masa-corporal-magra",
+      keywords: "calculadora, masa, corporal, magra, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, optimiza, entrenamiento, mejora, composición"
+    }
   },
   'tdee-calculator': {
     en: {
@@ -1213,6 +1486,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechne mit dem TDEE Rechner deinen täglichen Kalorienverbrauch. Ideal für Abnehmen",
       slug: "/de/gesundheit/tdee-rechner",
       keywords: "TDEE, Kalorienbedarf, Energieverbrauch, Gewichtsmanagement"
+    }
+    ,
+    es: {
+      title: "Calculadora TDEE – Calcula tus Calorías y Gasto Energético",
+      description: "Utiliza nuestra calculadora TDEE para estimar tu gasto energético diario, controlar tus calorías y optimizar tu nutrición y rendimiento físico de manera sencilla.",
+      slug: "/es/salud/calculadora-tdee",
+      keywords: "calculadora, tdee, calcula, calorías, gasto, energético, utiliza, nuestra, estimar, diario, controlar, optimizar, nutrición, rendimiento, físico"
     }
   },
   'conception-calculator': {
@@ -1240,6 +1520,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/empfangnisrechner",
       keywords: "Empfängnisdatum, Zeugung, Eisprung, frühe Schwangerschaft"
     }
+    ,
+    es: {
+      title: "Calculadora de Concepción – Planea tu Embarazo Fácil",
+      description: "Calcula tus fechas ideales para concebir al instante con nuestra herramienta precisa. ¡Planifica tu embarazo y aumenta tus posibilidades ahora mismo",
+      slug: "/es/salud/calculadora-de-concepcion",
+      keywords: "calculadora, concepción, planea, embarazo, fácil, calcula, fechas, ideales, concebir, instante, nuestra, herramienta, precisa, planifica, aumenta"
+    }
   },
   'gfr-calculator': {
     en: {
@@ -1265,6 +1552,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechne mit dem GFR Rechner deine Nierenfunktion schnell und genau. Ideal zur Kontrolle der Gesundheit – einfach & kostenlos online!",
       slug: "/de/gesundheit/gfr-rechner",
       keywords: "GFR Rechner, Nierenfunktion, Kreatinin, glomeruläre Filtrationsrate"
+    }
+    ,
+    es: {
+      title: "Calculadora de TFG – Calcula tu Frecuencia de Trabajo Fácil",
+      description: "Calcula tu Tasa de Flujo Glomerular (TFG) al instante con nuestra herramienta precisa. ¡Evalúa tu salud renal y toma decisiones inteligentes ahora mismo",
+      slug: "/es/salud/calculadora-de-TFG",
+      keywords: "calculadora, calcula, frecuencia, trabajo, fácil, tasa, flujo, glomerular, instante, nuestra, herramienta, precisa, evalúa, salud, renal"
     }
   },
   'anorexic-bmi-calculator': {
@@ -1292,6 +1586,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/anorektisch-bmi-rechner",
       keywords: "BMI Anorexie, Screening, Ernährungsberatung, psychische Gesundheit"
     }
+    ,
+    es: {
+      title: "Calculadora de IMC – Evalúa tu Peso y Salud Fácilmente",
+      description: "Calcula tu IMC al instante con nuestra herramienta precisa. ¡Monitorea tu salud y recibe orientación para mantener un peso seguro y saludable",
+      slug: "/es/salud/calculadora-de-IMC-anorexica",
+      keywords: "calculadora, evalúa, peso, salud, fácilmente, calcula, instante, nuestra, herramienta, precisa, monitorea, recibe, orientación, mantener, seguro"
+    }
   },
   'ideal-weight-calculator': {
     en: {
@@ -1317,6 +1618,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechne mit dem Idealgewicht Rechner dein optimales Körpergewicht. Schnell",
       slug: "/de/gesundheit/idealgewicht-rechner",
       keywords: "Idealgewicht, BMI, Gewichtsspanne, Gesundheitsziele"
+    }
+    ,
+    es: {
+      title: "Calculadora de Peso Ideal – Determina tu Peso según Altura e IMC",
+      description: "Utiliza nuestra calculadora de peso ideal para conocer tu peso recomendado, analizar tu altura y calcular tu IMC de manera sencilla y precisa.",
+      slug: "/es/salud/calculadora-de-peso-ideal",
+      keywords: "calculadora, peso, ideal, determina, según, altura, utiliza, nuestra, conocer, recomendado, analizar, calcular, manera, sencilla, precisa"
     }
   },
   'overweight-calculator': {
@@ -1344,6 +1652,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/overwieght-rechner",
       keywords: "Übergewicht, BMI, Gesundheitsrisiken"
     }
+    ,
+    es: {
+      title: "Calculadora de Sobrepeso – Evalúa tu Peso Fácil y Rápido",
+      description: "Calcula tu índice de sobrepeso al instante con nuestra herramienta precisa. ¡Monitorea tu salud y toma decisiones para un estilo de vida más saludable ahora!",
+      slug: "/es/salud/calculadora-de-sobrepeso",
+      keywords: "calculadora, sobrepeso, evalúa, peso, fácil, rápido, calcula, índice, instante, nuestra, herramienta, precisa, monitorea, salud, toma"
+    }
   },
   'body-type-calculator': {
     en: {
@@ -1369,6 +1684,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Finde mit dem Körperform Rechner heraus",
       slug: "/de/gesundheit/korperform-rechner",
       keywords: "Körpertyp, Ektomorph, Mesomorph, Endomorph, Trainingsplanung"
+    }
+    ,
+    es: {
+      title: "Calculadora de Tipo de Cuerpo – Descubre tu Morfología",
+      description: "Descubre tu tipo de cuerpo al instante con nuestra calculadora precisa. ¡Conoce tu morfología y optimiza tu entrenamiento y estilo de vida ahora mismo!",
+      slug: "/es/salud/calculadora-de-tipo-de-cuerpo",
+      keywords: "calculadora, tipo, cuerpo, descubre, morfología, instante, nuestra, precisa, conoce, optimiza, entrenamiento, estilo, vida, ahora, mismo"
     }
   },
   'period-calculator': {
@@ -1396,6 +1718,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/periodenrechner",
       keywords: "Menstruationszyklus, Eisprungtermine, Zykluskalender"
     }
+    ,
+    es: {
+      title: "Calculadora Menstrual – Controla tu Ciclo Fácil y Rápido",
+      description: "Calcula tus fechas del ciclo menstrual al instante con nuestra herramienta precisa. ¡Lleva un control de tu salud y predice tu próximo periodo ahora mismo!",
+      slug: "/es/salud/calculadora-menstrual",
+      keywords: "calculadora, menstrual, controla, ciclo, fácil, rápido, calcula, fechas, instante, nuestra, herramienta, precisa, lleva, control, salud"
+    }
   },
   'bmr-calculator': {
     en: {
@@ -1421,6 +1750,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie Ihre basale Stoffwechselrate (BMR), um den Kalorienbedarf im Ruhezustand zu schätzen.",
       slug: "/de/gesundheit/bmr-rechner",
       keywords: "BMR Rechner, Grundumsatz, Kalorienbedarf"
+    }
+    ,
+    es: {
+      title: "Calculadora del Metabolismo Basal – Calcula Fácil y Rápido",
+      description: "Calcula tu metabolismo basal al instante con nuestra herramienta precisa. ¡Optimiza tu dieta y entrenamiento para alcanzar tus metas ahora mismo!",
+      slug: "/es/salud/calculadora-del-metabolismo-basal",
+      keywords: "calculadora, metabolismo, basal, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, optimiza, dieta, entrenamiento, alcanzar, metas"
     }
   },
   'weight-watchers-points-calculator': {
@@ -1448,6 +1784,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/weight-watchers-punkte-berechnen",
       keywords: "WW Punkte, Weight Watchers Rechner, Ernährungsplanung"
     }
+    ,
+    es: {
+      title: "Calculadora de Puntos Weight Watchers – Calcula Fácil",
+      description: "Calcula tus puntos Weight Watchers al instante con nuestra herramienta precisa. ¡Controla tu dieta y alcanza tus metas de manera saludable ahora mismo!",
+      slug: "/es/salud/calculadora-de-puntos-weight-watchers",
+      keywords: "calculadora, puntos, weight, watchers, calcula, fácil, instante, nuestra, herramienta, precisa, controla, dieta, alcanza, metas, manera"
+    }
   },
   'body-surface-area-calculator': {
     en: {
@@ -1473,6 +1816,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechne mit dem Körperoberfläche Rechner (BSA) deine Körperfläche schnell & genau. Ideal für Medizin",
       slug: "/de/gesundheit/berechnung-der-korperoberflache",
       keywords: "Körperoberfläche, BSA, Dosierung, Medizin"
+    }
+    ,
+    es: {
+      title: "Calculadora de Superficie Corporal – Calcula Fácil y Rápido",
+      description: "Calcula la superficie corporal al instante con nuestra herramienta precisa. ¡Optimiza evaluaciones médicas y controla tu salud ahora mismo!",
+      slug: "/es/salud/calculadora-de-superficie-corporal",
+      keywords: "calculadora, superficie, corporal, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, optimiza, evaluaciones, médicas, controla, salud"
     }
   },
   'calorie-calculator': {
@@ -1501,10 +1851,10 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "Kalorienrechner, Kalorienbedarf, abnehmen, zunehmen, Gewicht halten, Kalorien zählen"
     },
     es: {
-      title: "Calculadora de Calorías",
-      description: "Calcule su necesidad diaria de calorías según sus objetivos y estilo de vida.",
-      slug: "/es/saude/calculadora-de-calorias",
-      keywords: "calculadora calorías, necesidad calórica, perder peso, ganar peso, mantener peso"
+      title: "Calculadora de Calorías – Calcula tu Ingesta Diaria Fácil",
+      description: "Calcula tus calorías diarias al instante con nuestra herramienta precisa. ¡Optimiza tu dieta y alcanza tus metas de nutrición y salud ahora mismo!",
+      slug: "/es/salud/calculadora-de-calorias",
+      keywords: "calculadora, calorías, calcula, ingesta, diaria, fácil, diarias, instante, nuestra, herramienta, precisa, optimiza, dieta, alcanza, metas"
     }
   },
   'bac-calculator': {
@@ -1532,6 +1882,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/blutalkohol-berechnen",
       keywords: "Blutalkoholkonzentration, BAC, Alkoholrechner, Alkoholwirkung, Getränkeverbrauch"
     }
+    ,
+    es: {
+      title: "Calculadora de Alcohol en Sangre – Conoce tu BAC Rápido",
+      description: "Calcula tu nivel de alcohol en sangre al instante con nuestra herramienta precisa. ¡Mantente seguro y toma decisiones responsables ahora mismo!",
+      slug: "/es/salud/calculadora-de-alcohol-en-sangre",
+      keywords: "calculadora, alcohol, sangre, conoce, rápido, calcula, nivel, instante, nuestra, herramienta, precisa, mantente, seguro, toma, decisiones"
+    }
   },
   'body-fat-calculator': {
     en: {
@@ -1557,6 +1914,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechne mit dem Körperfett Rechner deinen Körperfettanteil schnell & genau. Ideal für Fitness",
       slug: "/de/gesundheit/korperfettrechner",
       keywords: "Körperfett, Körperfettanteil, Körperzusammensetzungsrechner, Stoffwechselgesundheit, Gewichtsüberwachung"
+    }
+    ,
+    es: {
+      title: "Calculadora de Grasa Corporal – Mide tu % Fácil y Rápido",
+      description: "Calcula tu porcentaje de grasa corporal al instante con nuestra herramienta precisa. ¡Optimiza tu entrenamiento y mejora tu salud ahora mismo!",
+      slug: "/es/salud/calculadora-de-grasa-corporal",
+      keywords: "calculadora, grasa, corporal, mide, fácil, rápido, calcula, porcentaje, instante, nuestra, herramienta, precisa, optimiza, entrenamiento, mejora"
     }
   },
   'macro-calculator': {
@@ -1584,6 +1948,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/makro-rechner",
       keywords: "Makronährstoffe, Proteinkalkulator, Kohlenhydrate, Fette, Ernährungsplanung, Diätziele"
     }
+    ,
+    es: {
+      title: "Calculadora de Macros – Calcula Proteínas, Grasas y Carbs",
+      description: "Calcula tus macronutrientes diarios al instante con nuestra herramienta precisa. ¡Optimiza tu dieta y alcanza tus metas de nutrición ahora mismo!",
+      slug: "/es/salud/calculadora-de-macros",
+      keywords: "calculadora, macros, calcula, proteínas, grasas, carbs, macronutrientes, diarios, instante, nuestra, herramienta, precisa, optimiza, dieta, alcanza"
+    }
   },
   'pregnancy-calculator': {
     en: {
@@ -1610,6 +1981,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/gesundheit/schwangerschaftsrechner",
       keywords: "Schwangerschaft, Schwangerschaftsrechner, Geburtstermin, Ultraschall, IVF, Fetalentwicklung"
     }
+    ,
+    es: {
+      title: "Calculadora de Embarazo – Conoce tu Fecha de Parto Fácil",
+      description: "Calcula tu fecha de parto al instante con nuestra herramienta precisa. ¡Planifica tu embarazo y sigue tu desarrollo semana a semana ahora mismo!",
+      slug: "/es/salud/calculadora-de-embarazo",
+      keywords: "calculadora, embarazo, conoce, fecha, parto, fácil, calcula, instante, nuestra, herramienta, precisa, planifica, sigue, desarrollo, semana"
+    }
   },
   'pregnancy-conception-calculator': {
     en: {
@@ -1635,6 +2013,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Schätzen Sie das Empfängnisdatum und die Schwangerschaftsmeilensteine basierend auf dem Geburtstermin, der letzten Periode oder dem Ultraschalldatum. Planen Sie Ihre Schwangerschaftsreise.",
       slug: "/de/gesundheit/schwangerschaft-empfangnis-rechner",
       keywords: "Empfängnis, Schwangerschaftsmeilensteine, Geburtstermin, Schwangerschafts-USG, Schwangerschaftsplanung"
+    }
+    ,
+    es: {
+      title: "Calculadora de Fecha de Concepción – Calcula Fácil y Rápido",
+      description: "Calcula la fecha de concepción al instante con nuestra herramienta precisa. ¡Planifica tu embarazo, estima fechas y obtén resultados ahora mismo!",
+      slug: "/es/salud/calculadora-de-fecha-de-concepcion",
+      keywords: "calculadora, fecha, concepción, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, planifica, embarazo, estima, fechas, obtén"
     }
   },
   'percentage-calculator': {
@@ -1663,10 +2048,10 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "Prozentrechner, Prozent berechnen, prozentuale Zunahme, prozentuale Abnahme, Mathematik"
     },
     es: {
-      title: "Calculadora de Porcentajes",
-      description: "Calcule porcentajes, aumentos y disminuciones de forma rápida y sencilla.",
-      slug: "/es/matematica/calculadora-de-porcentagem",
-      keywords: "calculadora porcentajes, calcular porcentaje, aumento porcentual, disminución porcentual, matemáticas"
+      title: "Calculadora de Porcentajes – Obtén Resultados al Instante",
+      description: "Calcula porcentajes fácil y rápido con nuestra calculadora online. Ideal para tareas, finanzas y negocios. ¡Ingresa los valores y obtén el resultado ahora!",
+      slug: "/es/matematicas/calculadora-de-porcentajes",
+      keywords: "calculadora, porcentajes, obtén, resultados, instante, calcula, fácil, rápido, nuestra, online, ideal, tareas, finanzas, negocios, ingresa"
     }
   },
   'percent-error-calculator': {
@@ -1694,6 +2079,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/mathe/prozent-fehler-rechner",
       keywords: "prozentualer Fehler, Genauigkeit, Fehlerberechnung"
     }
+    ,
+    es: {
+      title: "Calculadora de Error Porcentual – Resultado Preciso y Rápido",
+      description: "Calcula el error porcentual en segundos con nuestra herramienta exacta. Ideal para laboratorio, ciencia y matemáticas. ¡Ingresa tus datos y obtén el resultado ya!",
+      slug: "/es/matematicas/calculadora-de-error-porcentual",
+      keywords: "calculadora, error, porcentual, resultado, preciso, rápido, calcula, segundos, nuestra, herramienta, exacta, ideal, laboratorio, ciencia, matemáticas"
+    }
   },
   'critical-point-calculator': {
     en: {
@@ -1719,6 +2111,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechne mit dem Kritische Punkte Rechner Extrema & Wendepunkte von Funktionen. Schnell",
       slug: "/de/mathe/kritische-Punkte-rechner",
       keywords: "kritische Punkte, Ableitung, Extremstellen, Wendepunkt"
+    }
+    ,
+    es: {
+      title: "Calculadora de Puntos Críticos – Encuentra Máximos y Mínimos",
+      description: "Calcula puntos críticos de funciones rápidamente. Ideal para matemáticas, análisis y cálculo. ¡Ingresa tu función y obtén resultados al instante!",
+      slug: "/es/matematicas/calculadora-de-puntos-criticos",
+      keywords: "calculadora, puntos, críticos, encuentra, máximos, mínimos, calcula, funciones, rápidamente, ideal, matemáticas, análisis, cálculo, ingresa, función"
     }
   },
   'simpsons-rule-calculator': {
@@ -1746,6 +2145,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/mathe/simpsons-regel-rechner",
       keywords: "Simpson Regel, numerische Integration, bestimmte Integrale"
     }
+    ,
+    es: {
+      title: "Calculadora de la Regla de Simpson – Integra Fácil y Rápido",
+      description: "Resuelve integrales con la regla de Simpson de forma rápida y precisa. Ideal para cálculo e ingeniería. ¡Ingresa los datos y obtén el resultado al instante!",
+      slug: "/es/matematicas/calculadora-de-la-regla-de-Simpson",
+      keywords: "calculadora, regla, simpson, integra, fácil, rápido, resuelve, integrales, forma, rápida, precisa, ideal, cálculo, ingeniería, ingresa"
+    }
   },
   'mean-value-theorem-calculator': {
     en: {
@@ -1771,6 +2177,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechne mit dem Durchschnittsrechner den Mittelwert deiner Zahlen. Schnell",
       slug: "/de/mathe/durchschnittsrechner",
       keywords: "Mittelwertsatz, Ableitung, Kurvenpunkte"
+    }
+    ,
+    es: {
+      title: "Calculadora Teorema del Valor Medio – Resultados al Instante",
+      description: "Aplica el Teorema del Valor Medio en segundos con nuestra calculadora online. Ingresa tu función y obtén el punto c y el valor exacto al instante.",
+      slug: "/es/matematicas/calculadora-teorema-valor-medio",
+      keywords: "calculadora, teorema, valor, medio, resultados, instante, aplica, segundos, nuestra, online, ingresa, función, obtén, punto, exacto"
     }
   },
   'random-number-generator': {
@@ -1798,6 +2211,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/mathe/zufall-zahl-generator-rechner",
       keywords: "Zufallszahlen, Generator, Simulation, Auslosung"
     }
+    ,
+    es: {
+      title: "Generador de Números Aleatorios – Rápido y Online",
+      description: "Genera números aleatorios al instante con nuestro generador online. Ideal para estadísticas, sorteos y simulaciones. ¡Haz clic y obtén números ahora!",
+      slug: "/es/matematicas/generador-de-numeros-aleatorios",
+      keywords: "generador, números, aleatorios, rápido, online, genera, instante, nuestro, ideal, estadísticas, sorteos, simulaciones, clic, obtén, ahora"
+    }
   },
   'scientific-calculator': {
     en: {
@@ -1823,6 +2243,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Nutze den wissenschaftlichen Taschenrechner online für komplexe Berechnungen. Schnell",
       slug: "/de/mathe/wissenschaftlicher-taschenrechner",
       keywords: "wissenschaftlicher Taschenrechner, trigonometrie, grafiken"
+    }
+    ,
+    es: {
+      title: "Calculadora Científica Online – Cálculos Rápidos y Precisos",
+      description: "Realiza operaciones científicas avanzadas al instante. Funciones trigonométricas, logarítmicas, potencias y más. ¡Usa la calculadora online ahora!",
+      slug: "/es/matematicas/calculadora-cientifica",
+      keywords: "calculadora, científica, online, cálculos, rápidos, precisos, realiza, operaciones, científicas, avanzadas, instante, funciones, trigonométricas, logarítmicas, potencias"
     }
   },
   'volume-calculator': {
@@ -1850,6 +2277,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/mathe/volumenrechner",
       keywords: "Volumenrechner, Zylinder, Kugel, Volumenberechnung"
     }
+    ,
+    es: {
+      title: "Calculadora de Volumen – Obtén Resultados al Instante",
+      description: "Calcula el volumen de cubos, cilindros, prismas y más en segundos. Ingresa las medidas y obtén resultados exactos fácilmente. ¡Prueba la herramienta ahora!",
+      slug: "/es/matematicas/calculadora-de-volumen",
+      keywords: "calculadora, volumen, obtén, resultados, instante, calcula, cubos, cilindros, prismas, segundos, ingresa, medidas, exactos, fácilmente, prueba"
+    }
   },
   'ballistic-coefficient-calculator': {
     en: {
@@ -1875,6 +2309,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie den ballistischen Koeffizienten eines Projektils zur Bewertung des Luftwiderstands und der Flugbahn.",
       slug: "/de/physik/ballistisch-koeffizient-rechner",
       keywords: "ballistischer Koeffizient, Luftwiderstand, Projektil"
+    }
+    ,
+    es: {
+      title: "Calculadora Balística – Trayectoria y Alcance con Precisión",
+      description: "Calcula trayectoria, caída y energía balística con precisión para uso seguro en deportes y estudios. Ingresa datos y obtén resultados al instante.",
+      slug: "/es/fisica/calculadora-balistica",
+      keywords: "calculadora, balística, trayectoria, alcance, precisión, calcula, caída, energía, seguro, deportes, estudios, ingresa, datos, obtén, resultados"
     }
   },
   'velocity-calculator': {
@@ -1902,6 +2343,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/physik/geschwindigkeitsrechner",
       keywords: "Geschwindigkeit, Beschleunigung, Physik Rechner"
     }
+    ,
+    es: {
+      title: "Calculadora de Velocidad – Calcula Rápido y Fácil",
+      description: "Calcula velocidad al instante con nuestra herramienta precisa. Ideal para física, deportes o transporte. ¡Ingresa distancia y tiempo y obtén el resultado ya!",
+      slug: "/es/fisica/calculadora-de-velocidad",
+      keywords: "calculadora, velocidad, calcula, rápido, fácil, instante, nuestra, herramienta, precisa, ideal, física, deportes, transporte, ingresa, distancia"
+    }
   },
   'arrow-speed-calculator': {
     en: {
@@ -1927,6 +2375,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie Pfeilgeschwindigkeit, Impuls und kinetische Energie unter Verwendung von IBO-Werten und Bogenparametern.",
       slug: "/de/physik/pfeil-geschwindigkeit-rechner",
       keywords: "Pfeilgeschwindigkeit, kinetische Energie, Impuls, IBO"
+    }
+    ,
+    es: {
+      title: "Calculadora de Velocidad de Flecha – Precisión al Instante",
+      description: "Calcula la velocidad de tu flecha al instante con nuestra herramienta precisa. ¡Optimiza tu tiro con arco y mejora tu puntería ahora mismo!",
+      slug: "/es/fisica/calculadora-de-velocidad-de-flecha",
+      keywords: "calculadora, velocidad, flecha, precisión, instante, calcula, nuestra, herramienta, precisa, optimiza, tiro, arco, mejora, puntería, ahora"
     }
   },
   'car-jump-distance-calculator': {
@@ -1954,6 +2409,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/physik/entfernungsrechner",
       keywords: "Sprungweite Auto, Geschwindigkeit, Absprungwinkel, Physik"
     }
+    ,
+    es: {
+      title: "Calculadora de Distancia de Salto de Auto – Calcula Fácil",
+      description: "Calcula la distancia de salto de tu auto al instante con nuestra herramienta precisa. ¡Optimiza tus maniobras y experimenta con seguridad ahora mismo!",
+      slug: "/es/fisica/calculadora-da-distancia-de-salto-do-carro",
+      keywords: "calculadora, distancia, salto, auto, calcula, fácil, instante, nuestra, herramienta, precisa, optimiza, maniobras, experimenta, seguridad, ahora"
+    }
   },
   'conservation-of-momentum-calculator': {
     en: {
@@ -1979,6 +2441,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie die Impulserhaltung bei Kollisionen und analysieren Sie Geschwindigkeiten vor und nach dem Aufprall.",
       slug: "/de/physik/erhaltung-of-impuls-rechner",
       keywords: "Impulserhaltung, Kollision, Impuls, Physik"
+    }
+    ,
+    es: {
+      title: "Calculadora de Conservación del Momento – Física Fácil",
+      description: "Calcula la conservación del momento lineal y angular al instante con nuestra herramienta precisa. ¡Resuelve problemas de física rápida y fácilmente!",
+      slug: "/es/fisica/calculadora-da-conservacao-do-momento",
+      keywords: "calculadora, conservación, momento, física, fácil, calcula, lineal, angular, instante, nuestra, herramienta, precisa, resuelve, problemas, rápida"
     }
   },
   'board-foot-calculator': {
@@ -2006,6 +2475,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/konstruktion/brett-fub-rechner",
       keywords: "Board Foot, Holzberechnung, Baumaterial, Volumen"
     }
+    ,
+    es: {
+      title: "Calculadora de Pies Cuadrados – Calcula Área Fácil y Rápido",
+      description: "Calcula pies cuadrados al instante con nuestra herramienta precisa. Ideal para casas, terrenos y proyectos. ¡Ingresa medidas y obtén resultados ahora!",
+      slug: "/es/construccion/calculadora-de-pes-quadrados",
+      keywords: "calculadora, pies, cuadrados, calcula, área, fácil, rápido, instante, nuestra, herramienta, precisa, ideal, casas, terrenos, proyectos"
+    }
   },
   'cubic-yard-calculator': {
     en: {
@@ -2031,6 +2507,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie Kubik-Yards für Beton, Erde und andere Materialien zur Mengenermittlung.",
       slug: "/de/konstruktion/kubik-yard-rechner",
       keywords: "Kubik Yard, Volumenberechnung, Beton, Baustoffe"
+    }
+    ,
+    es: {
+      title: "Calculadora de Metros Cúbicos – Calcula Volumen Fácil",
+      description: "Calcula metros cúbicos al instante con nuestra herramienta precisa. Ideal para líquidos, sólidos o construcción. ¡Ingresa medidas y obtén resultados ahora!",
+      slug: "/es/construccion/calculadora-de-metros-cubicos",
+      keywords: "calculadora, metros, cúbicos, calcula, volumen, fácil, instante, nuestra, herramienta, precisa, ideal, líquidos, sólidos, construcción, ingresa"
     }
   },
   'gallons-per-square-foot-calculator': {
@@ -2058,6 +2541,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/konstruktion/gallonen-pro-quadrat-fub-rechner",
       keywords: "Gallonen pro Quadratfuß, Farbbedarf, Bodenbelag, Berechnung"
     }
+    ,
+    es: {
+      title: "Calculadora de Galones por Pie Cuadrado – Fácil y Rápida",
+      description: "Calcula galones por pie cuadrado al instante con nuestra herramienta precisa. ¡Optimiza pintura, recubrimientos y proyectos de construcción ahora mismo!",
+      slug: "/es/construccion/calculadora-de-galones-por-pie-cuadrado",
+      keywords: "calculadora, galones, cuadrado, fácil, rápida, calcula, instante, nuestra, herramienta, precisa, optimiza, pintura, recubrimientos, proyectos, construcción"
+    }
   },
   'size-to-weight-rectangular-cuboid-calculator': {
     en: {
@@ -2083,6 +2573,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie das Gewicht eines Quaders anhand seiner Abmessungen und Materialdichte.",
       slug: "/de/konstruktion/grobe-to-gewicht-rechteckig-quader-rechner",
       keywords: "Gewicht berechnen, Quader, Materialdichte, Abmessungen"
+    }
+    ,
+    es: {
+      title: "Calcula Peso de Tubo Rectangular – Rápido y Preciso",
+      description: "Calcula el peso de tubos rectangulares al instante con nuestra herramienta precisa. ¡Optimiza tus proyectos y toma decisiones de construcción ahora mismo!",
+      slug: "/es/construccion/calculo-del-peso-del-tubo-rectangular",
+      keywords: "calcula, peso, tubo, rectangular, rápido, preciso, tubos, rectangulares, instante, nuestra, herramienta, precisa, optimiza, proyectos, toma"
     }
   },
   'square-feet-to-cubic-yards-calculator': {
@@ -2110,6 +2607,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/konstruktion/quadrat-fub-to-kubik-yards-rechner",
       keywords: "Quadratfuß zu Kubik-Yards, Volumen konvertieren, Beton"
     }
+    ,
+    es: {
+      title: "Calculadora de Yardas Cúbicas – Calcula Volumen Fácil",
+      description: "Calcula yardas cúbicas al instante con nuestra herramienta precisa. Ideal para construcción, jardinería y proyectos. ¡Ingresa medidas y obtén resultados ya!",
+      slug: "/es/construccion/calculadora-de-yardas-cubicas",
+      keywords: "calculadora, yardas, cúbicas, calcula, volumen, fácil, instante, nuestra, herramienta, precisa, ideal, construcción, jardinería, proyectos, ingresa"
+    }
   },
   'butter-calculator': {
     en: {
@@ -2135,6 +2639,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Konvertieren Sie Buttermaße zwischen Sticks, Tassen, Esslöffeln, Teelöffeln und Gramm für genaue Rezepte.",
       slug: "/de/essen/butter-rechner",
       keywords: "Butter, Maßeinheiten konvertieren, Tassen, Löffel, Gramm, Rezept"
+    }
+    ,
+    es: {
+      title: "Convertidor de Mantequilla – Convierte Medidas Fácil y Rápido",
+      description: "Convierte mantequilla entre gramos, tazas y onzas al instante con nuestra herramienta precisa. ¡Simplifica tus recetas y cocina sin errores ahora mismo!",
+      slug: "/es/alimento/convertidor-de-mantequilla",
+      keywords: "convertidor, mantequilla, convierte, medidas, fácil, rápido, entre, gramos, tazas, onzas, instante, nuestra, herramienta, precisa, simplifica"
     }
   },
   'cake-pan-calculator': {
@@ -2162,6 +2673,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/essen/kuchenform-rechner",
       keywords: "Backform Größe, Äquivalenz Backformen, Rezept anpassen"
     }
+    ,
+    es: {
+      title: "Convertidor de Moldes para Pasteles – Medidas Precisas",
+      description: "Convierte fácilmente el tamaño de moldes para pasteles entre pulgadas, cm y más. ¡Prepara tus recetas con precisión y sin errores ahora mismo!",
+      slug: "/es/alimento/convertidor-de-Moldes-para-Pasteles",
+      keywords: "convertidor, moldes, pasteles, medidas, precisas, convierte, fácilmente, tamaño, entre, pulgadas, prepara, recetas, precisión, errores, ahora"
+    }
   },
   'cooking-measurement-converter': {
     en: {
@@ -2187,6 +2705,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Konvertieren Sie zwischen verschiedenen Kochmaßeinheiten wie Tassen, Esslöffeln, Unzen und Gramm. Ideal zur präzisen Anpassung von Rezepten.",
       slug: "/de/essen/koch-messung-rechner",
       keywords: "Kochmaße, Kochmaß-Konverter, Tassen, Löffel, Unzen, Gramm, Rezeptanpassung"
+    }
+    ,
+    es: {
+      title: "Convertidor de Medidas de Cocina – Fácil y Rápido",
+      description: "Convierte ingredientes de cocina entre gramos, tazas, onzas y más al instante. ¡Simplifica tus recetas y cocina con precisión ahora mismo!",
+      slug: "/es/alimento/convertidor-de-medidas-de-cocina",
+      keywords: "convertidor, medidas, cocina, fácil, rápido, convierte, ingredientes, entre, gramos, tazas, onzas, instante, simplifica, recetas, precisión"
     }
   },
   'cups-to-pounds-converter': {
@@ -2214,6 +2739,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/essen/tassen-to-pfund-rechner",
       keywords: "Tassen zu Pfund, Koch-Konverter, Mehle, Zucker, Getreide, Köche, Bäcker"
     }
+    ,
+    es: {
+      title: "Conversor de Tazas a Libras – Calcula Fácil y Rápido",
+      description: "Convierte tazas a libras al instante con nuestra herramienta precisa. ¡Simplifica tus recetas y cocina con medidas exactas ahora mismo!",
+      slug: "/es/alimento/tazas-a-libras",
+      keywords: "conversor, tazas, libras, calcula, fácil, rápido, convierte, instante, nuestra, herramienta, precisa, simplifica, recetas, cocina, medidas"
+    }
   },
   'dry-to-cooked-pasta-converter': {
     en: {
@@ -2239,6 +2771,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Konvertieren Sie Trockennudel-Maße in gekochte Nudel-Äquivalente. Perfekt zur Portionsplanung und Vermeidung von Lebensmittelverschwendung.",
       slug: "/de/essen/trocken-to-gekocht-nudeln-rechner",
       keywords: "Trockennudeln gekocht, Nudelkonverter, Portionen, Lebensmittelverschwendung vermeiden, italienische Küche"
+    }
+    ,
+    es: {
+      title: "Pasta Seca para Cocinar – Cantidades y Medidas Exactas",
+      description: "Calcula la cantidad de pasta seca perfecta para tus recetas. ¡Optimiza tus porciones y cocina con precisión ahora mismo!",
+      slug: "/es/alimento/pasta-seca-para-cocinar",
+      keywords: "pasta, seca, cocinar, cantidades, medidas, exactas, calcula, cantidad, perfecta, recetas, optimiza, porciones, cocina, precisión, ahora"
     }
   },
   'batting-average-calculator': {
@@ -2266,6 +2805,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/sport/schlag-durchschnitt-rechner",
       keywords: "Schlagdurchschnitt, Baseball-Rechner, Schlagmann-Statistiken, Spielerleistung, Schlagmänner"
     }
+    ,
+    es: {
+      title: "Calculadora de Promedio de Bateo – Calcula Fácil y Rápido",
+      description: "Calcula tu promedio de bateo al instante con nuestra herramienta precisa. ¡Mejora tu rendimiento y analiza tus estadísticas de béisbol ahora mismo",
+      slug: "/es/calculadora-de-promedio-de-bateo/batting-average-calculator",
+      keywords: "calculadora, promedio, bateo, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, mejora, rendimiento, analiza, estadísticas, béisbol"
+    }
   },
   'earned-run-average-calculator': {
     en: {
@@ -2291,6 +2837,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie das Earned Run Average (ERA) für Baseball-Pitcher. Wesentliche Kennzahl zur Bewertung der Pitcher-Effektivität.",
       slug: "/de/sport/verdient-lauf-durchschnitt-rechner",
       keywords: "ERA, Earned Run Average, Pitcher-Rechner, Pitcher-Effektivität, Baseball"
+    }
+    ,
+    es: {
+      title: "Promedio de Carreras Limpias – Calcula Fácil y Rápido",
+      description: "Calcula tu promedio de carreras limpias al instante con nuestra herramienta precisa. ¡Mejora tu rendimiento y analiza tus estadísticas ahora mismo",
+      slug: "/es/promedio-de-carreras-limpias/earned-run-average-calculator",
+      keywords: "promedio, carreras, limpias, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, mejora, rendimiento, analiza, estadísticas, ahora"
     }
   },
   'fielding-percentage-calculator': {
@@ -2318,6 +2871,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/sport/feld-prozent-rechner",
       keywords: "Feldprozentsatz, Defensivrechner, defensive Fähigkeit, Chancen zu Outs, Baseball"
     }
+    ,
+    es: {
+      title: "Calculadora de Porcentaje de Fildeo – Calcula Fácil y Rápido",
+      description: "Calcula el porcentaje de fildeo al instante con nuestra herramienta precisa. ¡Mejora tu rendimiento y toma decisiones deportivas inteligentes ahora mismo",
+      slug: "/es/calculadora-del-porcentaje-de-fildeo/fielding-percentage-calculator",
+      keywords: "calculadora, porcentaje, fildeo, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, mejora, rendimiento, toma, decisiones, deportivas"
+    }
   },
   'fielding-independent-pitching-calculator': {
     en: {
@@ -2343,6 +2903,13 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie das Fielding Independent Pitching (FIP) für Baseballspieler. Fortgeschrittene Metrik zur Bewertung der Pitcherleistung unabhängig von der Feldarbeit.",
       slug: "/de/sport/feld-unabhangig-werfen-rechner",
       keywords: "FIP, Fielding Independent Pitching, Pitcher-Rechner, fortgeschrittene Metrik, Pitcherleistung, Baseball"
+    }
+    ,
+    es: {
+      title: "Calculadora FIP – Calcula tu Inversión Fácil y Rápido",
+      description: "Calcula tu Fondo de Inversión Pública (FIP) al instante con nuestra herramienta precisa. ¡Optimiza tus inversiones y toma decisiones inteligentes ahora",
+      slug: "/es/calculadora-fip/fielding-independent-pitching-calculator",
+      keywords: "calculadora, calcula, inversión, fácil, rápido, fondo, pública, instante, nuestra, herramienta, precisa, optimiza, inversiones, toma, decisiones"
     }
   },
   'magic-number-calculator': {
@@ -2370,6 +2937,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/de/sport/magisch-zahl-rechner",
       keywords: "magische Zahl, Playoff-Rechner, Sportklassifikation, benötigte Siege, Sportjahr"
     }
+    ,
+    es: {
+      title: "Números Mágicos para Ganar Lotería – Descúbrelos Hoy",
+      description: "Encuentra tus números mágicos para la lotería y aumenta tus posibilidades de ganar. ¡Prueba nuestra guía y juega con estrategia ahora mismo",
+      slug: "/es/numeros-magicos-para-ganar-loteria/magic-number-calculator",
+      keywords: "números, mágicos, ganar, lotería, descúbrelos, encuentra, aumenta, posibilidades, prueba, nuestra, guía, juega, estrategia, ahora, mismo"
+    }
   },
   'age-calculator': {
     en: {
@@ -2395,6 +2969,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie das Alter in Jahren, Monaten und Tagen basierend auf dem Geburtsdatum. Nützliches Tool für offizielle Aufzeichnungen und Planung.",
       slug: "/de/alter-rechner",
       keywords: "Alter, Altersrechner, Jahre Monate Tage, Geburtsdatum, offizielle Aufzeichnungen"
+    },
+    es: {
+      title: "Calculadora de Edad – Descubre tu Edad Exacta al Instante",
+      description: "Calcula tu edad exacta al instante con nuestra herramienta rápida y precisa. ¡Descúbrelo ahora y lleva un control de tu tiempo de manera fácil!",
+      slug: "/calculadora-de-edad",
+      keywords: "calculadora, edad, descubre, exacta, instante, calcula, nuestra, herramienta, rápida, precisa, descúbrelo, ahora, lleva, control, tiempo"
     }
   },
   'piecewise-function-calculator-grapher': {
@@ -2421,6 +3001,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Define, evaluate, und graph piecewise functions.",
       slug: "/de/stuckweise-funktion-rechner-grafik-rechner",
       keywords: "piecewise, function, calculator, grapher, define, evaluate, graph, functions"
+    },
+    es: {
+      title: "Calculadora de Funciones por Tramos – Calcula Fácil y Rápido",
+      description: "Resuelve funciones por tramos al instante con nuestra calculadora precisa. ¡Simplifica tus ejercicios y aprende matemáticas de manera eficiente ahora!",
+      slug: "/calculadora-de-funciones-por-tramos",
+      keywords: "calculadora, funciones, tramos, calcula, fácil, rápido, resuelve, instante, nuestra, precisa, simplifica, ejercicios, aprende, matemáticas, manera"
     }
   },
   'enterprise-seo-roi-calculator': {
@@ -2447,6 +3033,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie die Rendite (ROI) für Unternehmens-SEO. Optimieren Sie Ihr digitales Marketingbudget.",
       slug: "/de/unternehmen-seo-roi-rechner",
       keywords: "Unternehmens-SEO, SEO-ROI, Digital-Marketing-Rechner, Budget-Optimierung, Rendite"
+    },
+    es: {
+      title: "Calculadora de ROI SEO – Mide tu Retorno Rápido y Fácil",
+      description: "Calcula el ROI de tus estrategias SEO al instante y optimiza tus inversiones. ¡Descubre cuánto retorno obtienes y mejora tu marketing ahora mismo",
+      slug: "/calculadora-de-roi-seo",
+      keywords: "calculadora, mide, retorno, rápido, fácil, calcula, estrategias, instante, optimiza, inversiones, descubre, cuánto, obtienes, mejora, marketing"
     }
   },
   'rpe-calculator': {
@@ -2473,6 +3065,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie die wahrgenommene Anstrengung (RPE) für verschiedene Aktivitäten. Überwachen Sie die Trainingsintensität präzise.",
       slug: "/de/rpe-rechner",
       keywords: "RPE, Rate of Perceived Exertion, Training-Rechner, Übungsintensität, Trainingsüberwachung"
+    },
+    es: {
+      title: "Calculadora RPE – Evalúa tu Esfuerzo Físico Fácil y Rápido",
+      description: "Calcula tu RPE (Percepción del Esfuerzo) al instante y optimiza tu entrenamiento. ¡Mejora tus rutinas y alcanza tus metas ahora mismo!",
+      slug: "/calculadora-rpe",
+      keywords: "calculadora, evalúa, esfuerzo, físico, fácil, rápido, calcula, percepción, instante, optimiza, entrenamiento, mejora, rutinas, alcanza, metas"
     }
   },
   'indiana-child-support-calculator': {
@@ -2499,6 +3097,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Schätzen Sie Unterhaltszahlungen basierend auf den Richtlinien des Bundesstaates Indiana. Planen Sie Ihre familiären finanziellen Verpflichtungen.",
       slug: "/de/indiana-kind-unterhalt-rechner",
       keywords: "Indiana Unterhalt, Unterhaltsrechner, staatliche Richtlinien, familiäre Finanzverpflichtungen, Sorgerecht"
+    },
+    es: {
+      title: "Calculadora de Manutención Infantil – Calcula Fácil y Rápido",
+      description: "Calcula la manutención infantil al instante con nuestra herramienta precisa. ¡Conoce los pagos justos y planifica el bienestar de tus hijos ahora mismo!",
+      slug: "/calculadora-de-manutencion-infantil",
+      keywords: "calculadora, manutención, infantil, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, conoce, pagos, justos, planifica, bienestar"
     }
   },
   'time-calculator': {
@@ -2525,6 +3129,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Führen Sie Berechnungen im Zusammenhang mit der Zeit durch, wie z. B. Dauer und Zeitzonenkonvertierungen. Verwalten Sie Zeitpläne und Fristen effizient.",
       slug: "/de/zeit-rechner",
       keywords: "Zeitrechner, Dauer, Zeitzonenkonvertierung, Zeitplanverwaltung, Fristen"
+    },
+    es: {
+      title: "Calculadora de Tiempo – Calcula Duraciones Rápida y Fácil",
+      description: "Calcula tiempos y duraciones al instante con nuestra herramienta precisa. ¡Ahorra tiempo y organiza tus actividades de manera eficiente ahora mismo!",
+      slug: "/calculadora-de-tiempo",
+      keywords: "calculadora, tiempo, calcula, duraciones, rápida, fácil, tiempos, instante, nuestra, herramienta, precisa, ahorra, organiza, actividades, manera"
     }
   },
   'gpa-calculator': {
@@ -2551,6 +3161,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie den GPA basierend auf Kursnoten und Credits. Planen Sie Ihre akademische Leistung und Abschlussziele.",
       slug: "/de/notendurchschnitt-rechner",
       keywords: "GPA, Notendurchschnitt, Notenrechner, akademische Leistung, Abschlussziele"
+    },
+    es: {
+      title: "Calculadora de GPA – Calcula tu Promedio Académico Fácil",
+      description: "Calcula tu GPA al instante con nuestra herramienta rápida y precisa. ¡Conoce tu promedio académico y planifica tu éxito universitario ahora mismo!",
+      slug: "/Calculadora-de-gpa",
+      keywords: "calculadora, calcula, promedio, académico, fácil, nuestra, herramienta, rápida, precisa, conoce, planifica, éxito, universitario, ahora"
     }
   },
   'height-calculator': {
@@ -2577,6 +3193,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Konvertieren Sie die Körpergröße zwischen verschiedenen Einheiten wie Zentimeter, Meter, Fuß und Zoll. Nützlich für medizinische und anthropometrische Aufzeichnungen.",
       slug: "/de/groben-rechner",
       keywords: "Größenrechner, Größenkonvertierung, Zentimeter, Meter, Fuß, Zoll, medizinische Aufzeichnungen"
+    },
+    es: {
+      title: "Calculadora de Altura – Predice tu Crecimiento Fácilmente",
+      description: "Usa nuestra calculadora de altura para estimar tu crecimiento o el de tus hijos. ¡Descúbrelo al instante y planifica tu desarrollo ahora mismo!",
+      slug: "/calculadora-de-altura",
+      keywords: "calculadora, altura, predice, crecimiento, fácilmente, nuestra, estimar, hijos, descúbrelo, instante, planifica, desarrollo, ahora"
     }
   },
   'ip-subnet-calculator': {
@@ -2603,6 +3225,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie Subnetze und IP-Bereiche zur Optimierung des Netzwerkmanagements. Planen Sie die Segmentierung und Adresszuweisung.",
       slug: "/de/ip-subnetz-rechner",
       keywords: "IP-Subnetz, Netzwerkrechner, IP-Bereiche, Netzwerkmanagement, Netzwerksegmentierung"
+    },
+    es: {
+      title: "Calculadora de Subnet – Calcula Redes IP Fácil y Rápido",
+      description: "Calcula tus subnets al instante con nuestra herramienta precisa. ¡Optimiza tus redes IP y simplifica la planificación de tus direcciones ahora mismo!",
+      slug: "/calculadora-subnet",
+      keywords: "calculadora, subnet, calcula, redes, fácil, rápido, subnets, instante, nuestra, herramienta, precisa, optimiza, simplifica, planificación, direcciones"
     }
   },
 };

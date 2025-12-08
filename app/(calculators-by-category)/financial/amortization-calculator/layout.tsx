@@ -24,6 +24,12 @@ const amortizationcalculatorMeta = {
     description: "Berechnen Sie mit dem Tilgungsrechner Ihre monatliche Rate, Laufzeit und Restschuld. Planen Sie Ihre Rückzahlung transparent und effizient online mit Details.",
     keywords: "tilgungsrechner, darlehen berechnen, monatliche rate, laufzeit restsuld, online rückzahlung, transparent planung, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora de Amortización – Calcula Pagos Fácilmente",
+    description: "Calcula tu amortización al instante y conoce tus pagos mensuales. ¡Planifica tu préstamo de forma sencilla y toma decisiones financieras inteligentes",
+    keywords: "calculadora, amortización, calcula, pagos, fácilmente, instante, conoce, mensuales, planifica, préstamo, forma, sencilla, toma, decisiones, financieras"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

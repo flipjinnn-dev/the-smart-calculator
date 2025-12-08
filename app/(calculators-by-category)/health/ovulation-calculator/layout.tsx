@@ -25,6 +25,12 @@ const ovulationcalculatorMeta = {
     description: "Berechne mit dem Eisprungrechner deine fruchtbaren Tage. Ideal zur Familienplanung – schnell, zuverlässig und kostenlos online!",
     keywords: "eisprungrechner, fruchtbare tage, datum schätzung, online eisprung, familienplanung, zyklus tracking, kostenloser ovulations tool, fenster berechnung"
   }
+,
+  es: {
+    title: "Calculadora de la Ovulación – Controla tu Fertilidad y Ciclo Menstrual",
+    description: "Utiliza nuestra calculadora de la ovulación para predecir tus días fértiles, seguir tu ciclo menstrual y planificar tu salud reproductiva de manera sencilla y precisa.",
+    keywords: "calculadora, ovulación, controla, fertilidad, ciclo, menstrual, utiliza, nuestra, predecir, días, fértiles, seguir, planificar, salud, reproductiva"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -25,6 +25,12 @@ const weightwatcherspointscalculatorMeta = {
     description: "Berechne mit dem Weight Watchers Punkte Rechner deine täglichen Punkte. Ideal zum Abnehmen – schnell, genau und kostenlos online!",
     keywords: "weight watchers punkte rechner, punkte berechnung, lebensmittel items, online punkte, diät tracking, kostenloser punkte tool, ernährung punkte, weight watchers"
   }
+,
+  es: {
+    title: "Calculadora de Puntos Weight Watchers – Calcula Fácil",
+    description: "Calcula tus puntos Weight Watchers al instante con nuestra herramienta precisa. ¡Controla tu dieta y alcanza tus metas de manera saludable ahora mismo!",
+    keywords: "calculadora, puntos, weight, watchers, calcula, fácil, instante, nuestra, herramienta, precisa, controla, dieta, alcanza, metas, manera"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

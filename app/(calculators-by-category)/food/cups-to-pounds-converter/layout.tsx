@@ -25,6 +25,12 @@ const cupstopoundsconverterMeta = {
     description: "Umrechne mit dem Tassen zu Pfund Umrechner Maße für verschiedene Zutaten. Präzises, kostenloses Tool für Kochen, Backen und Rezeptanpassungen.",
     keywords: "tassen pfund umrechner, zutaten tool, maße berechnung, online umrechner, kochen backen, rezept anpassung, kostenloser tool"
   }
+,
+  es: {
+    title: "Conversor de Tazas a Libras – Calcula Fácil y Rápido",
+    description: "Convierte tazas a libras al instante con nuestra herramienta precisa. ¡Simplifica tus recetas y cocina con medidas exactas ahora mismo!",
+    keywords: "conversor, tazas, libras, calcula, fácil, rápido, convierte, instante, nuestra, herramienta, precisa, simplifica, recetas, cocina, medidas"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

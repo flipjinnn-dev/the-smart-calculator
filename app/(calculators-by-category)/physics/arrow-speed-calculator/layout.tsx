@@ -25,6 +25,12 @@ const arrowspeedcalculatorMeta = {
     description: "Berechne mit dem Pfeilgeschwindigkeit Rechner Geschwindigkeit, Momentum und kinetische Energie aus IBO-Werten. Präzises Tool für Bogenschießen und Physik.",
     keywords: "pfeilgeschwindigkeit rechner, momentum berechnen, kinetische energie, ibo werte, online pfeil, bogenschießen tool, kostenloser rechner"
   }
+,
+  es: {
+    title: "Calculadora de Velocidad de Flecha – Precisión al Instante",
+    description: "Calcula la velocidad de tu flecha al instante con nuestra herramienta precisa. ¡Optimiza tu tiro con arco y mejora tu puntería ahora mismo!",
+    keywords: "calculadora, velocidad, flecha, precisión, instante, calcula, nuestra, herramienta, precisa, optimiza, tiro, arco, mejora, puntería, ahora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -25,6 +25,12 @@ const scientificcalculatorMeta = {
     description: "Nutze den wissenschaftlichen Taschenrechner online für komplexe Berechnungen. Schnell, genau & kostenlos – ideal für Schule, Studium & Technik!",
     keywords: "wissenschaftlicher taschenrechner, fortgeschrittene berechnungen, graphing tool, online wissenschaftlich, wissenschaft tool, ingenieur rechner, bildung math, kostenloser wissenschaftlich tool"
   }
+,
+  es: {
+    title: "Calculadora Científica Online – Cálculos Rápidos y Precisos",
+    description: "Realiza operaciones científicas avanzadas al instante. Funciones trigonométricas, logarítmicas, potencias y más. ¡Usa la calculadora online ahora!",
+    keywords: "calculadora, científica, online, cálculos, rápidos, precisos, realiza, operaciones, científicas, avanzadas, instante, funciones, trigonométricas, logarítmicas, potencias"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

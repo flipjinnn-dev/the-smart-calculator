@@ -9,6 +9,7 @@ export async function GET() {
     { code: 'de', url: `${baseUrl}/sitemap-de.xml` },
     { code: 'pl', url: `${baseUrl}/sitemap-pl.xml` },
     { code: 'br', url: `${baseUrl}/sitemap-br.xml` },
+    { code: 'es', url: `${baseUrl}/sitemap-es.xml` },
   ];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

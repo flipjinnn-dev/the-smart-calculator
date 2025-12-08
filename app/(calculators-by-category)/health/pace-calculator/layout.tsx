@@ -25,6 +25,12 @@ const pacecalculatorMeta = {
     description: "Berechnen Sie mit dem Temporechner Ihre Laufgeschwindigkeit, Pace (min/km) und benötigte Zeit für jede Strecke. Ideal für Läufer, Radfahrer und Sportler zur Trainingsplanung.",
     keywords: "temporechner, lauf tempo, geschwindigkeit berechnung, online tempo, training tool, leistungs tracking, kostenloser tempo tool, lauf schätzer"
   }
+,
+  es: {
+    title: "Calculadora de Ritmos – Mide tu Tiempo y Distancia",
+    description: "Utiliza nuestra calculadora de ritmos para calcular tus ritmos de ejercicio, medir el tiempo y la distancia recorrida, y mejorar tu rendimiento físico de manera sencilla.",
+    keywords: "calculadora, ritmos, mide, tiempo, distancia, utiliza, nuestra, calcular, ejercicio, medir, recorrida, mejorar, rendimiento, físico, manera"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

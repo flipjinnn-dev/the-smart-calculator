@@ -24,6 +24,11 @@ const rpecalculatorMeta = {
     title: "RPE Rechner – Trainingsintensität Berechnen | TheSmartCalculator",
     description: "Berechne mit dem RPE Rechner deine Trainingsintensität nach dem RPE-System. Ideal für Fitness, Krafttraining & Ausdauer – schnell & kostenlos online!",
     keywords: "rpe rechner, trainingsintensität berechnen, rpe system, fitness tool, krafttraining, ausdauer rechner, kostenloser online tool"
+  },
+  es: {
+    title: "Calculadora RPE – Evalúa tu Esfuerzo Físico Fácil y Rápido",
+    description: "Calcula tu RPE (Percepción del Esfuerzo) al instante y optimiza tu entrenamiento. ¡Mejora tus rutinas y alcanza tus metas ahora mismo!",
+    keywords: "calculadora, evalúa, esfuerzo, físico, fácil, rápido, calcula, percepción, instante, optimiza, entrenamiento, mejora, rutinas, alcanza, metas"
   }
 };
 

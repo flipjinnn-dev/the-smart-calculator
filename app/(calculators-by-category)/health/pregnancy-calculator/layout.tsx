@@ -24,6 +24,12 @@ const pregnancycalculatorMeta = {
     description: "Berechne mit dem Schwangerschaftsrechner deinen Geburtstermin & Schwangerschaftswoche. Schnell, genau & kostenlos – ideal für werdende Mütter!",
     keywords: "schwangerschaftsrechner, schwangerschaftswochen, geburtstermin, baby entwicklung, online schwangerschaft, präzise planung, gestations tool, wochen berechnung"
   }
+,
+  es: {
+    title: "Calculadora de Embarazo – Conoce tu Fecha de Parto Fácil",
+    description: "Calcula tu fecha de parto al instante con nuestra herramienta precisa. ¡Planifica tu embarazo y sigue tu desarrollo semana a semana ahora mismo!",
+    keywords: "calculadora, embarazo, conoce, fecha, parto, fácil, calcula, instante, nuestra, herramienta, precisa, planifica, sigue, desarrollo, semana"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

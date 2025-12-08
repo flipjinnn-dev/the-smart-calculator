@@ -25,6 +25,12 @@ const conceptioncalculatorMeta = {
     description: "Berechne mit dem Empfängnisrechner den genauen Empfängnistag und Geburtstermin. Einfach, schnell und kostenlos – ideal für Familienplanung und Timeline!",
     keywords: "empfängnisrechner, termin berechnen, empfängnistag tool, geburtstermin, familienplanung, schnell kostenlos, ideal rechner"
   }
+,
+  es: {
+    title: "Calculadora de Concepción – Planea tu Embarazo Fácil",
+    description: "Calcula tus fechas ideales para concebir al instante con nuestra herramienta precisa. ¡Planifica tu embarazo y aumenta tus posibilidades ahora mismo",
+    keywords: "calculadora, concepción, planea, embarazo, fácil, calcula, fechas, ideales, concebir, instante, nuestra, herramienta, precisa, planifica, aumenta"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

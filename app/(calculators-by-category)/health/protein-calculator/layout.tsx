@@ -25,6 +25,12 @@ const proteincalculatorMeta = {
     description: "Berechne mit dem Proteinrechner deinen täglichen Eiweißbedarf. Ideal für Muskelaufbau, Fitness & Ernährung – schnell, präzise und kostenlos online!",
     keywords: "proteinrechner, tägliches protein, aktivität tool, ziele berechnung, online protein, diät aufbau, kostenloser protein tool, muskel planung"
   }
+,
+  es: {
+    title: "Calculadora de Proteínas – Calcula tu Ingesta Diaria Fácil",
+    description: "Calcula tu ingesta diaria de proteínas al instante con nuestra herramienta precisa. ¡Optimiza tu dieta y alcanza tus metas de nutrición ahora mismo",
+    keywords: "calculadora, proteínas, calcula, ingesta, diaria, fácil, instante, nuestra, herramienta, precisa, optimiza, dieta, alcanza, metas, nutrición"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

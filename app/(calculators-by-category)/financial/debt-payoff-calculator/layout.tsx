@@ -24,6 +24,12 @@ const debtpayoffcalculatorMeta = {
     description: "Mit dem Hypothekenrechner ermitteln Sie Ihre Monatsrate, Zinssatz und Restschuld – ideal für Ihre Immobilienfinanzierung mit präzisen Online-Tools.",
     keywords: "hypothekenrechner, finanzierung berechnen, monatsrate zinssatz, restsuld tool, immobilien online, präzise tools, ideal rechner"
   }
+,
+  es: {
+    title: "Calculadora de pago de deudas: Organiza tus finanzas hoy",
+    description: "Calcula tus pagos de deudas fácilmente. Planifica amortizaciones, conoce intereses y organiza tus finanzas para lograr libertad financiera más rápido.",
+    keywords: "calculadora, pago, deudas, organiza, finanzas, calcula, pagos, fácilmente, planifica, amortizaciones, conoce, intereses, lograr, libertad, financiera"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

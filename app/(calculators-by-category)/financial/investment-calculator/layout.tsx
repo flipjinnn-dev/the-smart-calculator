@@ -24,6 +24,12 @@ const investmentcalculatorMeta = {
     description: "Mit dem Investitionsrechner ermitteln Sie Rendite, Kapitalentwicklung und Risiken. Nutzen Sie den Investitionsrechner für fundierte Anlageentscheidungen.",
     keywords: "investitionsrechner, rendite wachstum, projekte tool, online investition, planungsrechner, finanzvorhersage, kostenloser investitions tool, wachstum schätzung"
   }
+,
+  es: {
+    title: "Calculadora de Inversiones – Calcula Rendimiento y Capital",
+    description: "Utiliza nuestra calculadora de inversiones para planificar tu inversión, estimar el rendimiento y gestionar tu capital de manera eficiente y sencilla.",
+    keywords: "calculadora, inversiones, calcula, rendimiento, capital, utiliza, nuestra, planificar, inversión, estimar, gestionar, manera, eficiente, sencilla"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

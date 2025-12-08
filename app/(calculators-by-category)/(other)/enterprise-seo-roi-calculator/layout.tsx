@@ -3,13 +3,14 @@ import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
 import Script from "next/script";
 
-type Lang = 'en' | 'pl' | 'br' | 'de';
+type Lang = 'en' | 'pl' | 'br' | 'de' | 'es';
 type Meta = { title: string; description: string };
 const meta: Record<Lang, Meta> = {
   en: { title: "Enterprise SEO ROI Calculator", description: "Calculate the return on investment (ROI) for enterprise SEO." },
   pl: { title: "Enterprise SEO ROI Kalkulator", description: "Oblicz the return on investment (ROI) dla enterprise SEO." },
   br: { title: "Calculadora de ROI de SEO Empresarial", description: "Calcule o retorno sobre investimento (ROI) para SEO empresarial. Otimize seu orçamento de marketing digital." },
   de: { title: "Unternehmens-SEO-ROI-Rechner", description: "Berechnen Sie die Rendite (ROI) für Unternehmens-SEO. Optimieren Sie Ihr digitales Marketingbudget." },
+  es: { title: "Calculadora de ROI SEO – Mide tu Retorno Rápido y Fácil", description: "Calcula el ROI de tus estrategias SEO al instante y optimiza tus inversiones. ¡Descubre cuánto retorno obtienes y mejora tu marketing ahora mismo" },
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -24,6 +24,12 @@ const inflationcalculatorMeta = {
     description: "Mit dem Inflationsrechner ermitteln Sie Preissteigerung, Kaufkraftverlust und zukünftige Werte. Nutzen Sie den Inflationsrechner für Ihre Finanzplanung online.",
     keywords: "inflationsrechner, kaufkraft, inflations impact, online inflations, wirtschaftsplanung, wertanpassung, kostenloser inflations tool, zeitwert"
   }
+,
+  es: {
+    title: "Calculadora de Inflación – Calcula el Valor Real y Poder Adquisitivo",
+    description: "Utiliza nuestra calculadora de inflación para conocer el valor real de tu dinero, analizar el poder adquisitivo y planificar tus finanzas de manera precisa y sencilla.",
+    keywords: "calculadora, inflación, calcula, valor, real, poder, adquisitivo, utiliza, nuestra, conocer, dinero, analizar, planificar, finanzas, manera"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

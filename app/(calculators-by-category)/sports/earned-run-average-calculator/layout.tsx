@@ -25,6 +25,12 @@ const earnedrunaveragecalculatorMeta = {
     description: "Berechne mit dem Earned Run Average Rechner ERA für Pitcher im Baseball. Präzises Tool für Stats-Analyse und Leistungsverfolgung kostenlos.",
     keywords: "earned run average rechner, era berechnen, pitcher tool, online earned, baseball stats, leistungs tracker, kostenloser rechner"
   }
+,
+  es: {
+    title: "Promedio de Carreras Limpias – Calcula Fácil y Rápido",
+    description: "Calcula tu promedio de carreras limpias al instante con nuestra herramienta precisa. ¡Mejora tu rendimiento y analiza tus estadísticas ahora mismo",
+    keywords: "promedio, carreras, limpias, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, mejora, rendimiento, analiza, estadísticas, ahora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {

@@ -25,6 +25,12 @@ const randomnumbergeneratorMeta = {
     description: "Erzeuge mit dem Zufallszahlengenerator Zufallszahlen innerhalb eines angegebenen Bereichs. Präzises, kostenloses Tool für Spiele, Simulationen und Tests.",
     keywords: "zufallszahlengenerator, zufallsbereich, zahl generator, online zufall, spiel tool, simulation zufall, kostenloser zufall tool, bereich zahl"
   }
+,
+  es: {
+    title: "Generador de Números Aleatorios – Rápido y Online",
+    description: "Genera números aleatorios al instante con nuestro generador online. Ideal para estadísticas, sorteos y simulaciones. ¡Haz clic y obtén números ahora!",
+    keywords: "generador, números, aleatorios, rápido, online, genera, instante, nuestro, ideal, estadísticas, sorteos, simulaciones, clic, obtén, ahora"
+  }
 };
 
 export async function generateMetadata(): Promise<Metadata> {
