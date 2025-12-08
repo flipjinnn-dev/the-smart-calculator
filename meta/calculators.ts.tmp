@@ -2973,7 +2973,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de Edad – Descubre tu Edad Exacta al Instante",
       description: "Calcula tu edad exacta al instante con nuestra herramienta rápida y precisa. ¡Descúbrelo ahora y lleva un control de tu tiempo de manera fácil!",
-      slug: "/calculadora-de-edad",
+      slug: "/es/otro/calculadora-de-edad",
       keywords: "calculadora, edad, descubre, exacta, instante, calcula, nuestra, herramienta, rápida, precisa, descúbrelo, ahora, lleva, control, tiempo"
     }
   },
@@ -3165,7 +3165,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de GPA – Calcula tu Promedio Académico Fácil",
       description: "Calcula tu GPA al instante con nuestra herramienta rápida y precisa. ¡Conoce tu promedio académico y planifica tu éxito universitario ahora mismo!",
-      slug: "/calculadora-de-gpa",
+      slug: "/Calculadora-de-gpa",
       keywords: "calculadora, calcula, promedio, académico, fácil, nuestra, herramienta, rápida, precisa, conoce, planifica, éxito, universitario, ahora"
     }
   },

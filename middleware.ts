@@ -87,7 +87,9 @@ const translatedStaticPages: Record<string, string> = {
   'nutzungsbedingungen': 'terms-and-conditions',
   // Spanish
   'acerca-de-nosotros': 'about-us',
+  'sobre-nosotros': 'about-us',
   'contactanos': 'contact-us',
+  'contacto': 'contact-us',
   'politica-de-privacidad': 'privacy-policy',
   'terminos-y-condiciones': 'terms-and-conditions'
 };
@@ -147,7 +149,9 @@ export function middleware(request: NextRequest) {
     const translatedParts = pathParts.map(part => {
       // Use the dynamic mapping
       // @ts-ignore
-      return urlMappings[lang]?.[part] || part;
+      const translated = urlMappings[lang]?.[part] || part;
+      // Special case: 'other' category maps to 'other-calculators' folder
+      return translated === 'other' ? 'other-calculators' : translated;
     });
 
     // Construct the new path

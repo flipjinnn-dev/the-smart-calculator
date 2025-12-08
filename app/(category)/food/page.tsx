@@ -29,7 +29,7 @@ export default function FoodCategoryPage() {
     
     // Fallback to URL path detection
     const path = window.location.pathname;
-    const langMatch = path.match(/^\/(br|pl|de)/);
+    const langMatch = path.match(/^\/(br|pl|de|es)/);
     const detectedLanguage = langMatch ? langMatch[1] : "en";
     setLanguage(detectedLanguage);
   }, []);
