@@ -1,0 +1,151 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de velocidade de seta: o que é e como usá-la",
+      "content": "Uma calculadora de velocidade de flecha é uma ferramenta online simples que ajuda a estimar a velocidade com que uma flecha voará com base nas especificações de seu arco e flecha. Ao inserir o peso de tração do arco, o comprimento de tração e o peso da flecha, você pode ver rapidamente a velocidade estimada e, em algumas calculadoras, até mesmo a energia cinética e o momento."
+    },
+    {
+      "heading": "Como usá-lo",
+      "subSections": [
+        {
+          "heading": "Abra a calculadora",
+          "content": "Acesse-o em seu navegador."
+        },
+        {
+          "heading": "Insira o peso do sorteio",
+          "content": "A força necessária para puxar o arco (em libras ou quilogramas)."
+        },
+        {
+          "heading": "Insira o comprimento do desenho",
+          "content": "Até que ponto o arco é puxado (em polegadas ou centímetros)."
+        },
+        {
+          "heading": "Insira o peso da seta",
+          "content": "Geralmente em grãos ou gramas."
+        },
+        {
+          "heading": "Entradas opcionais",
+          "content": "Algumas calculadoras permitem adicionar a velocidade nominal do arco ou o peso do acessório."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Os resultados aparecem instantaneamente."
+        },
+        {
+          "heading": "Verifique unidades",
+          "content": "Certifique-se de que todas as medidas correspondam às unidades selecionadas."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Resultados instantâneos",
+          "content": "Sem espera; veja a velocidade da sua flecha imediatamente."
+        },
+        {
+          "heading": "Mais que velocidade",
+          "content": "Algumas ferramentas também mostram energia cinética e impulso."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona bem em telefones e tablets."
+        },
+        {
+          "heading": "Gratuito e Simples",
+          "content": "Não é necessário download ou registro."
+        },
+        {
+          "heading": "Educacional",
+          "content": "Aprenda como o peso do desenho, a massa da flecha e a energia se relacionam."
+        },
+        {
+          "heading": "Suporta unidades métricas e imperiais",
+          "content": "Funciona para usuários em todo o mundo."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Arqueiros e Caçadores",
+          "content": "Estime a velocidade e a energia da flecha para melhores escolhas de marcha."
+        },
+        {
+          "heading": "Amadores e DIYers",
+          "content": "Teste diferentes pesos de flechas ou configurações de arco."
+        },
+        {
+          "heading": "Alunos e Educadores",
+          "content": "Explore o movimento de projéteis e a transferência de energia na física."
+        },
+        {
+          "heading": "Comparando Equipamentos",
+          "content": "Veja o desempenho de diferentes flechas ou arcos."
+        },
+        {
+          "heading": "Planejamento de Segurança",
+          "content": "Entenda as velocidades aproximadas antes de fotografar."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Seta Padrão",
+          "content": "Peso do sorteio: 50 libras | Comprimento do desenho: 28 pol. Peso da flecha: 350 grãos | Velocidade estimada: 280 fps"
+        },
+        {
+          "heading": "Exemplo 2 – Flecha Leve",
+          "content": "Peso do sorteio: 60 libras | Comprimento do desenho: 29 pol. Peso da Flecha: 300 grãos | Velocidade estimada: 320 fps"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que uma calculadora de velocidade de seta faz?",
+      "a": "Ele estima a velocidade da flecha e também pode mostrar a energia cinética e o impulso com base no seu arco e flecha."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, a maioria das calculadoras online são totalmente gratuitas."
+    },
+    {
+      "q": "Preciso instalar software?",
+      "a": "Não, ele roda diretamente no seu navegador."
+    },
+    {
+      "q": "Posso usá-lo em um telefone?",
+      "a": "Absolutamente. A maioria das calculadoras é compatível com dispositivos móveis."
+    },
+    {
+      "q": "De quais insumos eu preciso?",
+      "a": "Peso do desenho, comprimento do desenho e peso da flecha."
+    },
+    {
+      "q": "Ele pode calcular energia?",
+      "a": "Sim, muitas ferramentas mostram energia cinética e impulso junto com velocidade."
+    },
+    {
+      "q": "É adequado para estudantes?",
+      "a": "Sim, é uma ótima maneira de explorar conceitos de física."
+    },
+    {
+      "q": "Os resultados são precisos?",
+      "a": "Eles fornecem uma boa estimativa, mas fatores do mundo real, como técnica e qualidade do equipamento, podem afetar a velocidade real."
+    },
+    {
+      "q": "Posso usar unidades métricas?",
+      "a": "Sim, as calculadoras geralmente suportam unidades métricas e imperiais."
+    },
+    {
+      "q": "Os arqueiros podem usar isso para planejamento no mundo real?",
+      "a": "Sim, mas trate os resultados como uma diretriz e não como valores exatos."
+    }
+  ]
+}

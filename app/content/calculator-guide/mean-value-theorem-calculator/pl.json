@@ -1,0 +1,131 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator twierdzenia o wartości średniej?",
+      "content": "Kalkulator twierdzenia o wartości średniej (MVT) to narzędzie internetowe, które znajduje punkt c, w którym chwilowa szybkość zmian jest równa średniej szybkości zmian w danym przedziale. Jest to idealne rozwiązanie dla uczniów, nauczycieli i profesjonalistów, umożliwiające szybką weryfikację obliczeń."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wprowadź funkcję",
+          "content": "Wprowadź funkcję f(x), którą chcesz analizować, np. f(x) = x^2 + 3x + 2."
+        },
+        {
+          "heading": "Wprowadź odstęp [a, b]",
+          "content": "Podaj punkt początkowy a i punkt końcowy b przedziału."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Kalkulator natychmiast znajduje wartość(-y) c, gdzie nachylenie stycznej jest równe nachyleniu siecznej nad [a,b]."
+        },
+        {
+          "heading": "Przejrzyj wyniki",
+          "content": "Dane wyjściowe pokazują dokładne wartości c, dzięki czemu weryfikacja jest szybka i łatwa."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje kalkulatora",
+      "subSections": [
+        {
+          "heading": "Bezpłatny dostęp online",
+          "content": "Nie wymaga instalacji ani rejestracji."
+        },
+        {
+          "heading": "Natychmiastowe obliczenia",
+          "content": "Uzyskaj wyniki w ciągu kilku sekund."
+        },
+        {
+          "heading": "Obsługuje wiele funkcji",
+          "content": "Działa dla wielomianów, funkcji trygonometrycznych, wykładniczych i logarytmicznych."
+        },
+        {
+          "heading": "Łatwy w obsłudze interfejs",
+          "content": "Przeznaczony zarówno dla początkujących, jak i zaawansowanych użytkowników."
+        },
+        {
+          "heading": "Dokładne wyniki",
+          "content": "Używa obliczeń symbolicznych, aby zapewnić dokładne wartości c."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Edukacja",
+          "content": "Pomaga uczniom zrozumieć twierdzenie o wartości średniej w sposób koncepcyjny i praktyczny."
+        },
+        {
+          "heading": "Prace domowe i zadania",
+          "content": "Szybko rozwiązuje problemy dzięki dokładnym wynikom."
+        },
+        {
+          "heading": "Przygotowanie do egzaminów",
+          "content": "Efektywnie ćwicz obliczenia."
+        },
+        {
+          "heading": "Badania i inżynieria",
+          "content": "Analizuj tempo zmian w modelowaniu matematycznym."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1",
+          "content": "Funkcja: f(x) = x^2, Przedział: [1, 3]\nNachylenie siecznej: (f(3) - f(1)) / (3 - 1) = (9 - 1)/2 = 4\nPochodna: f'(x) = 2x\nZbiór f'(c) = 4 → 2c = 4 → c = 2"
+        },
+        {
+          "heading": "Przykład 2",
+          "content": "Funkcja: f(x) = x^3 - 6x + 1, Przedział: [0, 3]\nNachylenie siecznej: (f(3) - f(0)) / (3 - 0) = 3,333\nPochodna: f'(x) = 3x^2 - 6\nZbiór f'(c) = 3,333 → Rozwiązanie dla c → c ≈ 1,88"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator twierdzenia o wartości średniej?",
+      "a": "Jest to narzędzie internetowe, które znajduje punkt c, w którym chwilowa szybkość zmian jest równa średniej szybkości zmian w danym przedziale."
+    },
+    {
+      "q": "Czy kalkulator jest darmowy?",
+      "a": "Tak, jest to darmowy internetowy kalkulator twierdzenia o wartości średniej."
+    },
+    {
+      "q": "Jakie funkcje są obsługiwane?",
+      "a": "Wielomiany, funkcje trygonometryczne, wykładnicze, logarytmiczne i inne funkcje różniczkowalne."
+    },
+    {
+      "q": "Czy muszę się zarejestrować, aby z niego korzystać?",
+      "a": "Nie jest wymagana żadna rejestracja ani instalacja."
+    },
+    {
+      "q": "Czy może znaleźć wiele wartości c?",
+      "a": "Tak, jeśli w przedziale istnieje wiele rozwiązań, kalkulator pokazuje wszystkie możliwe wartości c."
+    },
+    {
+      "q": "Czy jest dokładny w przypadku złożonych funkcji?",
+      "a": "Kalkulator wykorzystuje obliczenia symboliczne w celu uzyskania dokładnych wyników, ale bardzo złożone lub fragmentaryczne funkcje mogą wymagać ręcznej weryfikacji."
+    },
+    {
+      "q": "Czy uczniowie mogą używać go do odrabiania zadań domowych?",
+      "a": "Zdecydowanie — jest idealny do nauki, ćwiczeń i efektywnego rozwiązywania zadań."
+    },
+    {
+      "q": "Czy wyjaśnia kroki?",
+      "a": "Większość kalkulatorów udostępnia obliczenia pochodnej i nachylenia wraz z wynikiem."
+    },
+    {
+      "q": "Czy może zastąpić ręczne obliczenia?",
+      "a": "Może to pomóc, ale w celu pełnego zrozumienia zalecane jest ręczne zrozumienie koncepcji MVT."
+    },
+    {
+      "q": "Gdzie mogę uzyskać do niego dostęp?",
+      "a": "Dostęp do niego można uzyskać online za pośrednictwem dowolnej przeglądarki internetowej, bez konieczności pobierania żadnego oprogramowania."
+    }
+  ]
+}

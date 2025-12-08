@@ -1,0 +1,139 @@
+{
+  "color": "laranja",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de jarda cúbica?",
+      "content": "Uma calculadora de jarda cúbica ajuda a medir o volume de solo, cascalho, concreto ou cobertura morta em jardas cúbicas. É essencial para projetos de construção, paisagismo e bricolage estimar a quantidade e o custo do material com precisão."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Insira as dimensões",
+          "content": "Insira comprimento, largura e profundidade."
+        },
+        {
+          "heading": "Selecione Unidades",
+          "content": "Use pés, polegadas ou jardas."
+        },
+        {
+          "heading": "Opcional: insira o preço por jarda cúbica",
+          "content": "Para cálculo de custo total."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Obtenha volume em jardas cúbicas e custo total instantaneamente."
+        },
+        {
+          "heading": "Dica",
+          "content": "Verifique novamente as medições para obter resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Cálculo de volume preciso",
+          "content": "Usa fórmulas padrão."
+        },
+        {
+          "heading": "Unidades Flexíveis",
+          "content": "Suporta pés, polegadas e jardas."
+        },
+        {
+          "heading": "Estimativa de custos",
+          "content": "Calcula o custo total se o preço por jarda cúbica for inserido."
+        },
+        {
+          "heading": "Interface compatível com dispositivos móveis",
+          "content": "Funciona em todos os dispositivos."
+        },
+        {
+          "heading": "Suporte a vários materiais",
+          "content": "Ideal para solo, cascalho, concreto, areia ou cobertura morta."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Construção",
+          "content": "Estimar concreto para lajes, sapatas e fundações."
+        },
+        {
+          "heading": "Paisagismo",
+          "content": "Calcule solo, cobertura morta ou cascalho para jardins e caminhos."
+        },
+        {
+          "heading": "Projetos faça você mesmo",
+          "content": "Planeje calçadas, pátios e pequenas terraplanagens."
+        },
+        {
+          "heading": "Compradores/fornecedores de materiais",
+          "content": "Determine a quantidade e o custo antes de fazer o pedido."
+        },
+        {
+          "heading": "Educação",
+          "content": "Aprenda cálculo de volume para áreas cubóides ou retangulares."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1",
+          "content": "Área: 10 pés × 5 pés × 2 pés | Jardas Cúbicas = (10 × 5 × 2) ÷ 27 = 3,7 jardas³"
+        },
+        {
+          "heading": "Exemplo 2 – Cálculo de Custo",
+          "content": "Volume: 5 jardas³ | Preço por jarda cúbica: $ 40 | Custo total = 5 × 40 = $ 200"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma jarda cúbica?",
+      "a": "1 jarda³ = 1 jarda × 1 jarda × 1 jarda = 27 pés cúbicos."
+    },
+    {
+      "q": "Por que usar uma calculadora de jardas cúbicas?",
+      "a": "Para economizar tempo e evitar erros de cálculo."
+    },
+    {
+      "q": "Posso usar pés, polegadas ou jardas?",
+      "a": "Sim, todos são suportados."
+    },
+    {
+      "q": "Funciona para diversas áreas?",
+      "a": "Sim, você pode calcular o volume total para várias áreas."
+    },
+    {
+      "q": "Posso calcular o custo total?",
+      "a": "Sim, se for inserido o preço por jarda cúbica."
+    },
+    {
+      "q": "É adequado para projetos DIY?",
+      "a": "Sim, para jardins, pátios, calçadas e paisagismo."
+    },
+    {
+      "q": "Isso leva em conta o desperdício?",
+      "a": "Não, ele calcula o volume teórico. Adicione extra para resíduos ou compactação."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, funciona em todos os dispositivos."
+    },
+    {
+      "q": "Quem deve usar esta calculadora?",
+      "a": "Empreiteiros, paisagistas, DIYers, compradores de materiais e estudantes."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, 100% gratuito e não requer downloads."
+    }
+  ]
+}

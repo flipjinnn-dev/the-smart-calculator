@@ -1,0 +1,155 @@
+{
+  "color": "roxo",
+  "sections": [
+    {
+      "heading": "Calculadora FIP: o que é e como funciona",
+      "content": "A Calculadora FIP avalia o Fielding Independent Pitching (FIP) de um arremessador, uma métrica que se concentra apenas nos resultados que o arremessador controla: home runs permitidos (HR), caminhadas (BB), rebatidas por arremesso (HBP), eliminações (K) e entradas lançadas (IP). Fórmula: FIP = ((13 × HR) + (3 × (BB + HBP)) - (2 × K)) ÷ IP + C. C é uma constante da liga para escalar o FIP semelhante ao ERA médio da liga."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Digite Home Runs Permitidos (HR)",
+          "content": "Total de home runs permitidos."
+        },
+        {
+          "heading": "Entrar em caminhadas (BB)",
+          "content": "Total de caminhadas emitidas."
+        },
+        {
+          "heading": "Digite Hit-by-Pitch (HBP)",
+          "content": "Número de rebatedores atingidos."
+        },
+        {
+          "heading": "Insira riscados (K)",
+          "content": "Total de eliminações registradas."
+        },
+        {
+          "heading": "Insira as entradas lançadas (IP)",
+          "content": "Total de entradas lançadas."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Obtenha o FIP do arremessador instantaneamente."
+        },
+        {
+          "heading": "Dica",
+          "content": "Entradas precisas garantem resultados precisos e independentes da defesa."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Métrica Independente de Defesa",
+          "content": "Mede apenas o que o arremessador controla."
+        },
+        {
+          "heading": "Cálculo Instantâneo",
+          "content": "Calcula o FIP imediatamente."
+        },
+        {
+          "heading": "Preciso e confiável",
+          "content": "Usa a fórmula FIP padrão."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona em todos os dispositivos."
+        },
+        {
+          "heading": "Ideal para jogadores, treinadores e analistas",
+          "content": "Compare os arremessadores de maneira justa entre times e temporadas."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Arremessadores e treinadores",
+          "content": "Acompanhe o desempenho sem influência da defesa."
+        },
+        {
+          "heading": "Jogadores de beisebol fantasia",
+          "content": "Avalie o desempenho sustentável do jarro."
+        },
+        {
+          "heading": "Analistas e Escoteiros",
+          "content": "Compare arremessadores de ligas ou temporadas."
+        },
+        {
+          "heading": "Acompanhamento temporada após temporada",
+          "content": "Identifique tendências em métricas de habilidades."
+        },
+        {
+          "heading": "Desenvolvimento de Jogadores",
+          "content": "Destaque as áreas que precisam ser melhoradas: controle, eliminações, prevenção de home run."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1",
+          "content": "HR: 20, BB: 50, HBP: 5, K: 200, IP: 180 → FIP ≈ 3,35"
+        },
+        {
+          "heading": "Exemplo 2",
+          "content": "HR: 10, BB: 30, HBP: 2, K: 150, IP: 120 → FIP ≈ 2,95"
+        },
+        {
+          "heading": "Exemplo 3",
+          "content": "HR: 15, BB: 40, HBP: 3, K: 180, IP: 160 → FIP ≈ 3,20"
+        },
+        {
+          "heading": "Exemplo 4",
+          "content": "HR: 25, BB: 60, HBP: 4, K: 210, IP: 200 → FIP ≈ 3,50"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora FIP?",
+      "a": "Calcula o FIP de um arremessador usando HR, BB, HBP, K e IP."
+    },
+    {
+      "q": "Como o FIP é calculado?",
+      "a": "FIP = ((13 × HR) + (3 × (BB + HBP)) − (2 × K)) ÷ IP + C"
+    },
+    {
+      "q": "O FIP leva em conta a defesa da equipe?",
+      "a": "Não, ignora as bolas em jogo e concentra-se apenas nos resultados controlados pelo arremessador."
+    },
+    {
+      "q": "A calculadora é precisa?",
+      "a": "Sim, com base nas estatísticas inseridas."
+    },
+    {
+      "q": "Pode ser usado para MLB, ligas menores ou beisebol fantasia?",
+      "a": "Sim, funciona para todos os níveis."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, compatível com todos os dispositivos."
+    },
+    {
+      "q": "O uso é gratuito?",
+      "a": "Sim, totalmente gratuito online."
+    },
+    {
+      "q": "Quem deve usar esta calculadora?",
+      "a": "Jogadores, treinadores, analistas, olheiros e entusiastas do beisebol fantasia."
+    },
+    {
+      "q": "Por que usar uma calculadora FIP?",
+      "a": "Ele isola a habilidade do arremessador da defesa do time para uma avaliação justa."
+    },
+    {
+      "q": "Ele pode rastrear vários jogos ou temporadas?",
+      "a": "Sim, inserindo estatísticas cumulativas, o FIP pode ser calculado para qualquer período."
+    }
+  ]
+}

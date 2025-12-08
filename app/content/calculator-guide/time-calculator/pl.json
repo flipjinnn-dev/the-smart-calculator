@@ -1,0 +1,139 @@
+{
+  "color": "czarny",
+  "sections": [
+    {
+      "heading": "Kalkulator czasu: co to jest i jak z niego korzystać",
+      "content": "Kalkulator czasu to bezpłatne narzędzie online, które pomaga dodawać, odejmować lub porównywać godziny, minuty i sekundy. Zaprojektowany z myślą o dokładności i prostocie, idealnie nadaje się do harmonogramów pracy, śledzenia projektów, wydarzeń, sesji edukacyjnych lub planowania podróży."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora czasu",
+      "subSections": [
+        {
+          "heading": "Wprowadź wartości czasu",
+          "content": "Wprowadź godziny, minuty i sekundy."
+        },
+        {
+          "heading": "Wybierz opcję Operacja",
+          "content": "Wybierz, czy chcesz dodać, czy odjąć czas."
+        },
+        {
+          "heading": "Dodaj wiele wpisów",
+          "content": "W razie potrzeby wprowadź dodatkowe wartości czasu."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast zobacz wynik."
+        },
+        {
+          "heading": "Wynik przeglądu",
+          "content": "Kalkulator wyświetla całkowity czas lub różnicę z automatycznym przeniesieniem pomiędzy jednostkami."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Dokładne obliczenia",
+          "content": "Poprawnie odczytuje godziny, minuty i sekundy."
+        },
+        {
+          "heading": "Dodaj lub odejmij czas",
+          "content": "Zsumuj wiele czasów trwania lub znajdź czas, który upłynął."
+        },
+        {
+          "heading": "Automatyczne przeniesienie",
+          "content": "Automatycznie konwertuje sekundy na minuty i minuty na godziny."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na wszystkich urządzeniach bez instalacji."
+        },
+        {
+          "heading": "Bezpłatny i łatwy w użyciu",
+          "content": "Nie wymaga rejestracji, prosty interfejs."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Praca i płace",
+          "content": "Oblicz łączną liczbę przepracowanych godzin, nadgodzin lub czasu trwania zmian."
+        },
+        {
+          "heading": "Zarządzanie projektami",
+          "content": "Śledź czas trwania zadań lub całych projektów."
+        },
+        {
+          "heading": "Planowanie wydarzeń",
+          "content": "Określ czas trwania wydarzenia lub godzinę zakończenia."
+        },
+        {
+          "heading": "Studia i szkolenia",
+          "content": "Śledź czas spędzony na nauce lub sesjach ćwiczeń."
+        },
+        {
+          "heading": "Podróże i logistyka",
+          "content": "Oblicz czas podróży, harmonogramy i postoje."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Dodawanie czasu",
+          "content": "Czas 1: 3 godziny 40 minut | Czas 2: 2 godziny 25 minut → Wynik: 6 godzin 5 minut"
+        },
+        {
+          "heading": "Przykład 2 – Odejmowanie czasu",
+          "content": "Czas rozpoczęcia: 5 godzin 30 minut | Czas zakończenia: 2 godziny 45 minut → Wynik: 2 godziny 45 minut"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator czasu?",
+      "a": "Jest to narzędzie do dodawania, odejmowania lub porównywania godzin, minut i sekund."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, korzystanie z niego jest całkowicie bezpłatne."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania?",
+      "a": "Nie, działa bezpośrednio w dowolnej przeglądarce internetowej."
+    },
+    {
+      "q": "Czy może obsłużyć wielokrotne wpisy czasu?",
+      "a": "Tak, możesz dodać lub odjąć wiele czasów trwania."
+    },
+    {
+      "q": "Czy obsługuje godziny, minuty i sekundy?",
+      "a": "Tak, obsługiwane są wszystkie standardowe jednostki czasu."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa bezproblemowo na smartfonach, tabletach i komputerach stacjonarnych."
+    },
+    {
+      "q": "Czy mogę go używać do rozliczania czasu pracy lub płac?",
+      "a": "Tak, dokładnie oblicza łączną liczbę godzin i nadgodzin."
+    },
+    {
+      "q": "Czy automatycznie konwertuje sekundy i minuty?",
+      "a": "Tak, przeniesienie z sekund na minuty i minut na godziny odbywa się automatycznie."
+    },
+    {
+      "q": "Czy może pomóc w planowaniu wydarzeń?",
+      "a": "Tak, dokładnie oblicza czas trwania i czas zakończenia."
+    },
+    {
+      "q": "Jak dokładne jest to rozwiązanie?",
+      "a": "Zapewnia w pełni dokładne wyniki, gdy wprowadzone dane czasowe są prawidłowe."
+    }
+  ]
+}

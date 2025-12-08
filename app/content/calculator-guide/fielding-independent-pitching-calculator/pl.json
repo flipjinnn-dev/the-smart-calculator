@@ -1,0 +1,155 @@
+{
+  "color": "fioletowy",
+  "sections": [
+    {
+      "heading": "Kalkulator FIP: co to jest i jak działa",
+      "content": "Kalkulator FIP ocenia wskaźnik FIP (Fielding Independent Pitching) miotacza, który skupia się wyłącznie na wynikach kontrolowanych przez miotacza: dozwolonych home runach (HR), spacerach (BB), trafieniach na boisku (HBP), strikeouts (K) i zdobytych rundach (IP). Wzór: FIP = ((13 × HR) + (3 × (BB + HBP)) - (2 × K)) ÷ IP + C. C to stała ligowa służąca do skalowania FIP podobnej do średniej ligowej ERA."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wprowadź dozwolone przebiegi do domu (HR)",
+          "content": "Całkowita liczba home runów dozwolona."
+        },
+        {
+          "heading": "Wprowadź spacery (BB)",
+          "content": "Wydano ogółem spacery."
+        },
+        {
+          "heading": "Wprowadź uderzenie po boisku (HBP)",
+          "content": "Liczba trafionych pałkarzy."
+        },
+        {
+          "heading": "Wprowadź przekreślenia (K)",
+          "content": "Zarejestrowano całkowitą liczbę strikeouts."
+        },
+        {
+          "heading": "Wprowadź liczbę rund rozrzuconych (IP)",
+          "content": "Całkowita liczba rund narzuconych."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast uzyskaj FIP miotacza."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Dokładne dane wejściowe zapewniają dokładne, niezależne od obrony wyniki."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Wskaźnik niezależny od obrony",
+          "content": "Mierzy tylko to, co kontroluje miotacz."
+        },
+        {
+          "heading": "Natychmiastowe obliczenia",
+          "content": "Natychmiast oblicza FIP."
+        },
+        {
+          "heading": "Dokładne i niezawodne",
+          "content": "Używa standardowej formuły FIP."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na wszystkich urządzeniach."
+        },
+        {
+          "heading": "Idealny dla zawodników, trenerów i analityków",
+          "content": "Porównuj miotaczy w różnych drużynach i porach roku."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Miotacze i trenerzy",
+          "content": "Śledź wyniki bez wpływu na obronę."
+        },
+        {
+          "heading": "Gracze w baseball fantasy",
+          "content": "Oceń zrównoważoną wydajność miotacza."
+        },
+        {
+          "heading": "Analitycy i harcerze",
+          "content": "Porównuj miotaczy z różnych lig lub sezonów."
+        },
+        {
+          "heading": "Śledzenie sezon po sezonie",
+          "content": "Identyfikuj trendy w zakresie wskaźników umiejętności."
+        },
+        {
+          "heading": "Rozwój Gracza",
+          "content": "Zaznacz obszary wymagające poprawy: kontrola, strikeouts, zapobieganie home runom."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1",
+          "content": "HR: 20, BB: 50, HBP: 5, K: 200, IP: 180 → FIP ≈ 3,35"
+        },
+        {
+          "heading": "Przykład 2",
+          "content": "HR: 10, BB: 30, HBP: 2, K: 150, IP: 120 → FIP ≈ 2,95"
+        },
+        {
+          "heading": "Przykład 3",
+          "content": "HR: 15, BB: 40, HBP: 3, K: 180, IP: 160 → FIP ≈ 3,20"
+        },
+        {
+          "heading": "Przykład 4",
+          "content": "HR: 25, BB: 60, HBP: 4, K: 210, IP: 200 → FIP ≈ 3,50"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator FIP?",
+      "a": "Oblicza FIP miotacza na podstawie HR, BB, HBP, K i IP."
+    },
+    {
+      "q": "Jak oblicza się FIP?",
+      "a": "FIP = ((13 × HR) + (3 × (BB + HBP)) − (2 × K)) ÷ IP + C"
+    },
+    {
+      "q": "Czy FIP uwzględnia obronę zespołu?",
+      "a": "Nie, ignoruje piłki w grze i skupia się wyłącznie na wynikach kontrolowanych przez miotacza."
+    },
+    {
+      "q": "Czy kalkulator jest dokładny?",
+      "a": "Tak, na podstawie wprowadzonych statystyk."
+    },
+    {
+      "q": "Czy można go używać w lidze MLB, mniejszych ligach lub fantasy baseballu?",
+      "a": "Tak, to działa na wszystkich poziomach."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, kompatybilny ze wszystkimi urządzeniami."
+    },
+    {
+      "q": "Czy korzystanie z niego jest bezpłatne?",
+      "a": "Tak, całkowicie bezpłatnie online."
+    },
+    {
+      "q": "Kto powinien korzystać z tego kalkulatora?",
+      "a": "Gracze, trenerzy, analitycy, harcerze i miłośnicy fantasy baseball."
+    },
+    {
+      "q": "Dlaczego warto korzystać z kalkulatora FIP?",
+      "a": "Izoluje umiejętności miotacza od obrony zespołu, aby zapewnić uczciwą ocenę."
+    },
+    {
+      "q": "Czy może śledzić wiele gier lub sezonów?",
+      "a": "Tak, wpisując zbiorcze statystyki, FIP można obliczyć za dowolny okres."
+    }
+  ]
+}

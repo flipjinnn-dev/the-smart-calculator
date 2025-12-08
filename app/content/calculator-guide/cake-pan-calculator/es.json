@@ -1,0 +1,105 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de moldes para pasteles?",
+      "content": "La Calculadora de moldes para pasteles le ayuda a adaptar recetas para diferentes tamaños y formas de moldes para pasteles. Ya sea redondo, cuadrado o rectangular, calcula el volumen de la masa y el factor de escala, para que su pastel encaje perfectamente y se hornee de manera uniforme."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "content": "Siga estos pasos para convertir los tamaños de moldes para pasteles con precisión:",
+      "subSections": [
+        {
+          "heading": "Pasos",
+          "content": "1. Seleccione Bandeja original: elija la forma e ingrese su tamaño (diámetro para redondo, largo × ancho para cuadrado/rectangular).\n2. Seleccione Target Pan: ingrese el panorama que desea utilizar.\n3. Haga clic en Calcular: obtenga el factor de escala y las cantidades de ingredientes ajustadas al instante.\n4. Consejo: llene los recipientes entre ½ y ⅔ de su capacidad para obtener mejores resultados."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "content": "Este convertidor de moldes para pasteles ofrece ajustes precisos basados ​​en el volumen:",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "- Conversión instantánea de recipientes: funciona con recipientes redondos, cuadrados y rectangulares.\n- Escalado basado en volumen: ajusta los ingredientes según el volumen de la sartén.\n- Admite tamaños de moldes comunes: ideal para repostería doméstica y profesional.\n- Compatible con dispositivos móviles: funciona sin problemas en cualquier dispositivo.\n- Interfaz fácil de usar: sencilla para principiantes y profesionales."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "content": "Los panaderos utilizan esta herramienta para varios ajustes de recetas:",
+      "subSections": [
+        {
+          "heading": "Ejemplos",
+          "content": "- Repostería casera: Utiliza el molde que tienes sin modificar incorrectamente la receta.\n- Escalado de recetas: haz pasteles más grandes o más pequeños con las proporciones adecuadas.\n- Tortas en capas: escale varias capas con precisión.\n- Event Baking: Útil para fiestas, cumpleaños y ocasiones especiales.\n- Panadería Profesional: Ayuda a estandarizar recetas en panaderías y escuelas culinarias."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "content": "A continuación se muestran algunos ejemplos comunes de conversión de platos:",
+      "subSections": [
+        {
+          "heading": "Ejemplos",
+          "content": "- Redondo de 9 pulgadas → Cuadrado de 8×8 → Reducir los ingredientes en un 11%.\n- Cuadrado de 8×8 → rectangular de 9×13 → Ingredientes dobles.\n- Ronda de 8 pulgadas → Ronda de 10 pulgadas → Aumenta los ingredientes en un 56%."
+        }
+      ]
+    },
+    {
+      "heading": "Consejos y mejores prácticas",
+      "content": "Consejos útiles para obtener mejores resultados de horneado:",
+      "subSections": [
+        {
+          "heading": "Consejos",
+          "content": "- Llene los recipientes sólo hasta la mitad o dos tercios de su capacidad.\n- Los recipientes redondos se convierten en cuadrados de manera diferente: use el volumen para mayor precisión.\n- Controle visualmente el grado de cocción; el tiempo de horneado puede variar según la forma del molde.\n- Al escalar pasteles grandes, pese los ingredientes para obtener resultados precisos.\n- Utilice papel pergamino para asegurar un horneado uniforme en moldes más grandes."
+        }
+      ]
+    },
+    {
+      "heading": "Descargo de responsabilidad",
+      "content": "Esta calculadora proporciona estimaciones basadas en volúmenes de moldes para pasteles estándar. Los tiempos de horneado pueden variar según la temperatura del horno, el tipo de receta y la consistencia de la masa."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de moldes para pasteles?",
+      "a": "Ajusta las cantidades de ingredientes cuando se utilizan diferentes tamaños o formas de moldes para pasteles."
+    },
+    {
+      "q": "¿Puedo convertir moldes redondos a cuadrados?",
+      "a": "Sí, admite conversiones entre recipientes redondos, cuadrados y rectangulares."
+    },
+    {
+      "q": "¿Ajusta los ingredientes automáticamente?",
+      "a": "Sí, calcula un factor de escala para todos los ingredientes."
+    },
+    {
+      "q": "¿Es adecuado para tartas en capas?",
+      "a": "Sí, ajusta las capas proporcionalmente para un apilamiento uniforme."
+    },
+    {
+      "q": "¿Puede ayudar con los tiempos de horneado?",
+      "a": "No calcula el tiempo de horneado; controle visualmente el pastel para comprobar que esté cocido."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, funciona en teléfonos inteligentes, tabletas y computadoras de escritorio."
+    },
+    {
+      "q": "¿Puedo ampliar o reducir recetas?",
+      "a": "Sí, calcula el factor de escala correcto para pasteles más grandes o más pequeños."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, completamente gratis y no requiere descargas."
+    },
+    {
+      "q": "¿Quién debería utilizar esta calculadora?",
+      "a": "Panaderos caseros, panaderos profesionales, estudiantes de cocina y cualquiera que ajuste recetas de pasteles."
+    },
+    {
+      "q": "¿Por qué usarlo?",
+      "a": "Para garantizar que los pasteles encajen perfectamente en su molde y se horneen de manera uniforme."
+    }
+  ]
+}

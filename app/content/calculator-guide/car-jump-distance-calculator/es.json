@@ -1,0 +1,151 @@
+{
+  "color": "rojo",
+  "sections": [
+    {
+      "heading": "Calculadora de distancia de salto de coche: qué es y cómo utilizarla",
+      "content": "Una calculadora de distancia de salto de automóvil es una práctica herramienta en línea que estima qué tan lejos viajará un automóvil cuando se lanza desde una rampa. Al ingresar la velocidad del automóvil, el ángulo de la rampa y la altura de lanzamiento, la calculadora proporciona la distancia del salto, el tiempo de vuelo y la altura máxima."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Abre la calculadora",
+          "content": "Accede directamente en tu navegador."
+        },
+        {
+          "heading": "Introduzca la velocidad inicial",
+          "content": "La velocidad del coche en el despegue."
+        },
+        {
+          "heading": "Introduzca el ángulo de rampa",
+          "content": "El ángulo de la rampa con respecto a la horizontal."
+        },
+        {
+          "heading": "Introduzca la altura de lanzamiento",
+          "content": "La altura de la rampa o punto de despegue."
+        },
+        {
+          "heading": "Entradas opcionales",
+          "content": "Incluya la altura de aterrizaje si es diferente del punto de lanzamiento."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Vea instantáneamente la distancia de salto, el tiempo de vuelo y la altura máxima."
+        },
+        {
+          "heading": "Consultar unidades",
+          "content": "Asegúrese de que todas las medidas coincidan con las unidades que está utilizando."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Resultados instantáneos",
+          "content": "Obtenga sus cálculos de inmediato."
+        },
+        {
+          "heading": "Múltiples salidas",
+          "content": "Muestra la distancia horizontal, el tiempo de vuelo y la altura máxima."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en teléfonos, tabletas y computadoras."
+        },
+        {
+          "heading": "Gratis y fácil de usar",
+          "content": "No se requiere software ni registro."
+        },
+        {
+          "heading": "Educativo",
+          "content": "Aprenda cómo la velocidad, el ángulo y la altura influyen en los saltos."
+        },
+        {
+          "heading": "Admite unidades métricas e imperiales",
+          "content": "Funciona para usuarios de todo el mundo."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Estudiantes y profesores",
+          "content": "Explora conceptos de física y movimiento de proyectiles."
+        },
+        {
+          "heading": "Aficionados y diseñadores de juegos",
+          "content": "Simule saltos de autos para juegos o animaciones."
+        },
+        {
+          "heading": "Entusiastas de la física",
+          "content": "Pruebe cómo los ángulos de la rampa y la velocidad afectan la distancia del salto."
+        },
+        {
+          "heading": "Planificadores de escenarios",
+          "content": "Compara diferentes parámetros para ver cómo cambian los saltos."
+        },
+        {
+          "heading": "Demostraciones educativas",
+          "content": "Demuestre de forma segura escenarios de movimiento teóricos."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: salto moderado",
+          "content": "Velocidad inicial: 20 m/s | Ángulo de rampa: 30° | Altura de lanzamiento: 2 m | Distancia de salto: 35 m | Tiempo de vuelo: 2,05 s"
+        },
+        {
+          "heading": "Ejemplo 2: salto a mayor velocidad",
+          "content": "Velocidad inicial: 30 m/s | Ángulo de rampa: 25° | Altura de lanzamiento: 1,5 m | Distancia de salto: 65 m | Tiempo de vuelo: 2,85 s"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de distancia de salto de coche?",
+      "a": "Calcula la distancia que recorrerá un automóvil cuando se lanza desde una rampa utilizando fórmulas físicas."
+    },
+    {
+      "q": "¿Esta calculadora es gratuita?",
+      "a": "Sí, su uso en línea es completamente gratuito."
+    },
+    {
+      "q": "¿Necesito software o instalación?",
+      "a": "No, funciona directamente en tu navegador."
+    },
+    {
+      "q": "¿Puedo usarlo en dispositivos móviles?",
+      "a": "Sí, es totalmente compatible con dispositivos móviles."
+    },
+    {
+      "q": "¿Qué insumos se requieren?",
+      "a": "Velocidad inicial, ángulo de rampa, altura de lanzamiento y, opcionalmente, altura de aterrizaje."
+    },
+    {
+      "q": "¿Qué principios de la física se utilizan?",
+      "a": "Se basa en ecuaciones ideales de movimiento de proyectiles bajo gravedad."
+    },
+    {
+      "q": "¿Es adecuado para estudiantes?",
+      "a": "Sí, es perfecto para aprender conceptos de física, movimiento de proyectiles y trayectoria."
+    },
+    {
+      "q": "¿Puedo usarlo para acrobacias de la vida real?",
+      "a": "No, los resultados son teóricos. Los saltos en el mundo real implican factores como la resistencia, la fricción y la aerodinámica."
+    },
+    {
+      "q": "¿Puede manejar diferentes unidades?",
+      "a": "Sí, se admiten unidades métricas e imperiales."
+    },
+    {
+      "q": "¿Qué tan preciso es?",
+      "a": "Da resultados aproximados suponiendo una física ideal; Los saltos reales serán diferentes en la vida real."
+    }
+  ]
+}

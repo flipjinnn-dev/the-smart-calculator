@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "title": "Calculadora inteligente: calculadoras en línea gratuitas para cada necesidad",
+    "description": "Acceda a cientos de calculadoras en línea gratuitas para finanzas, salud, matemáticas, física y más. Herramientas de cálculo rápidas, precisas y fáciles de usar.",
+    "keywords": "calculadora, calculadora en línea, calculadora financiera, calculadora de salud, calculadora matemática, herramientas gratuitas"
+  },
+  "header": {
+    "title": "Calculadoras inteligentes",
+    "subtitle": "Calculadoras en línea gratuitas"
+  },
+  "hero": {
+    "title": "Tu vida en <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">Más de 90 calculadoras gratuitas</span>",
+    "description": "Desde planificación financiera hasta seguimiento de la salud, descubra poderosas herramientas de cálculo que hacen que las matemáticas complejas sean simples y accesibles."
+  },
+  "search": {
+    "title": "Encuentra tu calculadora",
+    "placeholder": "Busque entre cientos de herramientas gratuitas"
+  },
+  "categories": {
+    "title": "Las mejores calculadoras en línea gratuitas (categorías principales)",
+    "description": "Explore nuestra colección completa de calculadoras especializadas",
+    "financial": {
+      "name": "Financiero",
+      "description": "Calculadoras de préstamos, hipotecas, inversiones e impuestos"
+    },
+    "health": {
+      "name": "Salud y fitness",
+      "description": "Calculadoras de IMC, calorías, nutrición y médicas."
+    },
+    "maths": {
+      "name": "Matemáticas",
+      "description": "Álgebra, geometría, estadística y matemáticas avanzadas."
+    },
+    "physics": {
+      "name": "Física",
+      "description": "Cálculos de fuerza, energía, movimiento y física."
+    },
+    "construction": {
+      "name": "Construcción",
+      "description": "Cálculos de propiedad, alquiler y construcción."
+    },
+    "food": {
+      "name": "Alimento",
+      "description": "Calculadoras de nutrición, calorías y planificación de comidas."
+    },
+    "sports": {
+      "name": "Deportes",
+      "description": "Calculadoras de fitness, ejercicio y deportes"
+    },
+    "other": {
+      "name": "Otro",
+      "description": "Calculadoras varias que no encajan en otras categorías"
+    }
+  },
+  "popular": {
+    "title": "Calculadoras populares en línea",
+    "description": "Nuestras herramientas de cálculo más utilizadas",
+    "calculators": [
+      {
+        "name": "Calculadora de hipotecas",
+        "category": "Financiero",
+        "description": "Calcule los pagos mensuales y el interés total de su préstamo hipotecario"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "category": "Salud",
+        "description": "Calcule su índice de masa corporal y comprenda su estado de peso"
+      },
+      {
+        "name": "Calculadora de préstamos",
+        "category": "Financiero",
+        "description": "Calcule pagos y cronogramas de préstamos para cualquier tipo de préstamo."
+      },
+      {
+        "name": "Calculadora de porcentaje",
+        "category": "Matemáticas",
+        "description": "Calcule porcentajes, proporciones y cambios porcentuales fácilmente"
+      },
+      {
+        "name": "Interés compuesto",
+        "category": "Financiero",
+        "description": "Calcule el crecimiento de la inversión a lo largo del tiempo con interés compuesto"
+      },
+      {
+        "name": "Calculadora de calorías",
+        "category": "Salud",
+        "description": "Calcule las necesidades calóricas diarias según su estilo de vida y sus objetivos."
+      }
+    ]
+  },
+  "features": {
+    "title": "¿Por qué elegir la calculadora inteligente?",
+    "description": "Rápido, preciso y de uso completamente gratuito",
+    "items": [
+      {
+        "title": "Rayo rápido",
+        "description": "Obtenga resultados instantáneos con nuestros motores de cálculo optimizados"
+      },
+      {
+        "title": "100% preciso",
+        "description": "Todas las calculadoras están verificadas por expertos y son matemáticamente precisas."
+      },
+      {
+        "title": "Siempre gratis",
+        "description": "Acceso completo a todas las calculadoras sin cargos ocultos"
+      }
+    ]
+  },
+  "introduction": {
+    "heading": "Calculadoras en línea",
+    "title": "Bienvenido a la mejor plataforma gratuita de calculadoras en línea",
+    "description": "donde podrá acceder a calculadoras en línea rápidas, precisas y fáciles de usar para sus necesidades diarias. Ya sea estudiante, profesional o alguien que necesita respuestas rápidas, nuestro sitio web ofrece una amplia gama de calculadoras en línea que le ahorrarán tiempo y esfuerzo."
+  },
+  "browse": {
+    "title": "Todas las calculadoras gratuitas",
+    "description": "Utilice nuestra lista completa de las mejores calculadoras en línea para encontrar exactamente lo que necesita.",
+    "note": "Busque por categoría, popularidad o explore todas las herramientas de la A a la Z.",
+    "topCategoriesLabel": "Categorías principales",
+    "allCalculatorsLabel": "Herramientas populares",
+    "viewAll": "Ver todo →",
+    "trustBadge": {
+      "title": "Confiable y seguro",
+      "description": "Nuestras calculadoras están verificadas para garantizar su precisión y respetar su privacidad. Nunca se almacenan datos."
+    }
+  },
+  "whyBest": {
+    "title": "Por qué ofrecemos las mejores calculadoras en línea",
+    "items": [
+      {
+        "icon": "✔",
+        "title": "Fórmulas verificadas por expertos",
+        "description": "Cada calculadora se crea utilizando fórmulas precisas y estándar de la industria y es verificada por profesionales."
+      },
+      {
+        "icon": "✔",
+        "title": "Desarrollo basado en la experiencia",
+        "description": "Nuestro equipo tiene años de experiencia en la creación de herramientas digitales confiables y fáciles de usar."
+      },
+      {
+        "icon": "✔",
+        "title": "Precisión y transparencia",
+        "description": "Te explicamos cómo funciona cada calculadora para que siempre entiendas tus resultados."
+      },
+      {
+        "icon": "✔",
+        "title": "Gratis para siempre",
+        "description": "Todas nuestras herramientas son calculadoras en línea 100 % gratuitas: sin registros ni tarifas."
+      },
+      {
+        "icon": "✔",
+        "title": "Seguro y privado",
+        "description": "No almacenamos ningún dato personal. Sus cálculos permanecen en su dispositivo."
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Cómo utilizar nuestras calculadoras en línea",
+    "steps": [
+      "Seleccione la calculadora que desee.",
+      "Obtenga resultados instantáneos y precisos.",
+      "Obtenga resultados instantáneos y precisos.",
+      "Vea la explicación, la fórmula y detalles adicionales para mayor claridad."
+    ],
+    "note": "Perfecto para estudiantes, profesores, profesionales y usuarios cotidianos."
+  },
+  "trustedBy": {
+    "title": "Con la confianza de millones",
+    "description": "Personas de todo el mundo utilizan nuestras calculadoras para:",
+    "useCases": [
+      "tarea escolar",
+      "Seguimiento de salud",
+      "Seguimiento de salud",
+      "Conversiones diarias rápidas",
+      "trabajo profesional"
+    ],
+    "note": "Nuestras calculadoras están diseñadas para ser rápidas, livianas y optimizadas para dispositivos móviles, lo que las hace fáciles de usar en cualquier dispositivo.",
+    "stats": {
+      "freeCalculators": "Calculadoras gratuitas",
+      "freeAndSecure": "Gratis y seguro",
+      "availableOnline": "Disponible en línea",
+      "categories": "Categorías"
+    }
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "description": "Todo lo que necesitas saber sobre nuestras calculadoras",
+    "items": [
+      {
+        "question": "¿Qué es una calculadora en línea?",
+        "answer": "Una calculadora en línea es una herramienta basada en navegador que le ayuda a realizar cálculos rápidos como finanzas, salud, matemáticas y conversiones sin descargar ninguna aplicación."
+      },
+      {
+        "question": "¿Estas calculadoras en línea son de uso gratuito?",
+        "answer": "Sí. Todas las calculadoras de nuestro sitio web son 100% gratuitas, sin registros, sin tarifas ocultas y sin planes premium."
+      },
+      {
+        "question": "¿Qué tan precisos son los resultados de la calculadora?",
+        "answer": "Nuestras herramientas utilizan fórmulas verificadas por expertos y fuentes de datos actualizadas para ofrecer resultados precisos y confiables. Aún así, los resultados pueden variar ligeramente según las aportaciones del usuario."
+      },
+      {
+        "question": "¿Almacena algún dato personal o cálculos?",
+        "answer": "No. Respetamos la privacidad del usuario. Sus entradas y cálculos no se almacenan, rastrean ni comparten."
+      },
+      {
+        "question": "¿Qué hace que su sitio web sea el mejor lugar para calculadoras en línea?",
+        "answer": "Ofrecemos calculadoras rápidas, precisas, fáciles de usar, optimizadas para dispositivos móviles y verificadas por expertos, lo que nos convierte en la mejor fuente de cálculos en línea gratuitos."
+      },
+      {
+        "question": "¿Puedo utilizar estas calculadoras para el trabajo escolar o profesional?",
+        "answer": "Absolutamente. Los estudiantes, profesores y profesionales utilizan nuestras herramientas a diario para tareas, planificación, investigaciones y comprobaciones matemáticas o financieras rápidas."
+      },
+      {
+        "question": "¿Sus calculadoras funcionan en dispositivos móviles?",
+        "answer": "Sí. Todas las calculadoras están optimizadas para dispositivos móviles, tabletas y computadoras de escritorio, lo que garantiza un rendimiento fluido en cualquier dispositivo."
+      },
+      {
+        "question": "¿Con qué frecuencia se actualizan las calculadoras?",
+        "answer": "Actualizamos periódicamente fórmulas, interfaces de usuario y funciones para mantener la precisión, la velocidad y la confiabilidad en todas las herramientas."
+      },
+      {
+        "question": "¿Puedo solicitar que se agregue una nueva calculadora?",
+        "answer": "¡Sí! Puede contactarnos en cualquier momento para solicitar una nueva calculadora o sugerir mejoras. Agradecemos los comentarios de los usuarios."
+      },
+      {
+        "question": "¿Son estas calculadoras adecuadas para decisiones médicas o financieras profesionales?",
+        "answer": "Nuestras calculadoras brindan orientación general y estimaciones precisas, pero no deben reemplazar el asesoramiento profesional para decisiones legales, médicas o financieras."
+      }
+    ]
+  }
+}

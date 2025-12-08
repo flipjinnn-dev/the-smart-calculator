@@ -1,0 +1,147 @@
+{
+    "color": "green",
+    "sections": [
+        {
+            "heading": "Fielding Percentage Calculator: What It Is and How It Works",
+            "content": "The Fielding Percentage Calculator computes a fielder’s defensive efficiency using putouts, assists, and errors. Fielding Percentage (FPCT) measures how often a player successfully handles fielding chances without errors. Formula: Fielding Percentage = (Putouts + Assists) ÷ (Putouts + Assists + Errors)."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Putouts (PO)",
+                    "content": "Total outs recorded."
+                },
+                {
+                    "heading": "Enter Assists (A)",
+                    "content": "Total assists made."
+                },
+                {
+                    "heading": "Enter Errors (E)",
+                    "content": "Total errors committed."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Get the Fielding Percentage instantly."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Accurate inputs ensure precise results."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Calculation",
+                    "content": "Computes FPCT immediately."
+                },
+                {
+                    "heading": "Accurate & Reliable",
+                    "content": "Uses the standard baseball/softball formula."
+                },
+                {
+                    "heading": "Easy-to-Use",
+                    "content": "No manual math needed."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on all devices."
+                },
+                {
+                    "heading": "Ideal for Players, Coaches & Fans",
+                    "content": "Quickly evaluate defensive performance."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Players & Coaches",
+                    "content": "Track performance per game or season."
+                },
+                {
+                    "heading": "Teams & Scouts",
+                    "content": "Evaluate defensive reliability."
+                },
+                {
+                    "heading": "Fans & Analysts",
+                    "content": "Compare fielders quickly."
+                },
+                {
+                    "heading": "Youth & Amateur Baseball",
+                    "content": "Track defensive stats easily."
+                },
+                {
+                    "heading": "Record Keeping",
+                    "content": "Maintain season-long defensive statistics."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1",
+                    "content": "80 PO + 40 A ÷ 5 E = 0.960 FPCT"
+                },
+                {
+                    "heading": "Example 2",
+                    "content": "50 PO + 30 A ÷ 3 E = 0.967 FPCT"
+                },
+                {
+                    "heading": "Example 3",
+                    "content": "25 PO + 15 A ÷ 2 E = 0.952 FPCT"
+                },
+                {
+                    "heading": "Example 4",
+                    "content": "100 PO + 50 A ÷ 8 E = 0.940 FPCT"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Fielding Percentage Calculator?",
+            "a": "Calculates a fielder’s defensive efficiency using putouts, assists, and errors."
+        },
+        {
+            "q": "How is Fielding Percentage calculated?",
+            "a": "FPCT = (Putouts + Assists) ÷ (Putouts + Assists + Errors)"
+        },
+        {
+            "q": "Does it include unattempted plays?",
+            "a": "No, only plays attempted (PO + A + E) are counted."
+        },
+        {
+            "q": "Is it accurate?",
+            "a": "Yes, based on the inputs provided."
+        },
+        {
+            "q": "Can it be used for baseball and softball?",
+            "a": "Yes, it works for both sports."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, works on all devices."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, completely free online."
+        },
+        {
+            "q": "Who should use it?",
+            "a": "Players, coaches, scouts, fans, and analysts."
+        },
+        {
+            "q": "Why use this calculator?",
+            "a": "Saves time and provides an instant defensive efficiency measure."
+        },
+        {
+            "q": "Can it track multiple games or seasons?",
+            "a": "Yes, cumulative inputs allow calculation over any period."
+        }
+    ]
+}

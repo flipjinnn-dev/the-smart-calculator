@@ -1,0 +1,151 @@
+{
+  "pageTitle": "Calculadora de Amortización",
+  "pageDescription": "Genere cronogramas de amortización detallados para préstamos con desgloses de capital e intereses para cada período de pago para comprender el progreso del pago del préstamo.",
+  "form": {
+    "labels": {
+      "loanAmount": "Monto del préstamo",
+      "interestRate": "Tasa de interés anual",
+      "loanTerm": "Plazo del préstamo",
+      "loanTermUnit": "Unidad de plazo del préstamo",
+      "startDate": "Fecha de inicio del préstamo",
+      "extraPayment": "Pago mensual adicional",
+      "paymentFrequency": "Frecuencia de pago"
+    },
+    "placeholders": {
+      "loanAmount": "Ingrese el monto del préstamo",
+      "interestRate": "Introduzca la tasa de interés anual (%)",
+      "loanTerm": "Introduzca el plazo del préstamo",
+      "extraPayment": "Ingrese el pago mensual adicional (opcional)"
+    },
+    "buttons": {
+      "calculate": "Generar cronograma de amortización",
+      "reset": "Reiniciar"
+    },
+    "loanTermUnits": {
+      "years": "Años",
+      "months": "Meses"
+    },
+    "paymentFrequencies": {
+      "monthly": "Mensual",
+      "biweekly": "Quincenal",
+      "weekly": "Semanalmente"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Pago Mensual",
+    "totalInterest": "Interés total pagado",
+    "totalPayment": "Pago Total",
+    "payoffDate": "Fecha de liquidación del préstamo",
+    "interestSavings": "Ahorro de intereses con pagos adicionales",
+    "amortizationResultsTitle": "Resultados del cálculo de amortización"
+  },
+  "educational": {
+    "amortizationInfo": "Información de amortización",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "amortizationFacts": {
+      "definition": {
+        "title": "Definición de amortización",
+        "description": "Proceso de liquidación de un préstamo con pagos regulares a lo largo del tiempo, con intereses calculados sobre el saldo restante"
+      },
+      "schedule": {
+        "title": "Calendario de amortización",
+        "description": "Tabla detallada que muestra las partes de capital e intereses de cada pago durante el plazo del préstamo."
+      },
+      "earlyPayments": {
+        "title": "Impacto del pago anticipado",
+        "description": "Los pagos anticipados son en su mayoría intereses; los pagos posteriores son en su mayoría principal"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones del calendario de amortización.",
+      "actual": "Los términos reales del préstamo pueden variar según las políticas y tarifas del prestamista."
+    },
+    "importantNotesList": [
+      "Los pagos adicionales reducen directamente el capital y ahorran en intereses totales",
+      "Los pagos quincenales pueden ayudar a liquidar los préstamos más rápido",
+      "Los pagos quincenales pueden ayudar a liquidar los préstamos más rápido",
+      "Los cronogramas de amortización ayudan a planificar el presupuesto y comprender el progreso del préstamo."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su préstamo para generar un cronograma de amortización",
+    "resultMessage": "Los resultados del cálculo de amortización se muestran a continuación",
+    "assessmentResult": "Resultado del Cálculo de Amortización:",
+    "amortizationAnalysis": "Análisis de Amortización"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones del calendario de amortización basadas en fórmulas financieras estándar. Los términos, pagos e intereses reales del préstamo pueden variar según las políticas, tarifas y otros factores del prestamista no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para obtener asesoramiento personalizado sobre préstamos y análisis de amortización, consulte a asesores financieros o agentes de préstamos con experiencia en productos crediticios y circunstancias financieras individuales."
+  },
+  "errors": {
+    "loanAmount": "Por favor ingrese un monto de préstamo válido",
+    "interestRate": "Por favor ingrese una tasa de interés anual válida",
+    "loanTerm": "Por favor ingrese un plazo de préstamo válido",
+    "startDate": "Por favor ingrese una fecha de inicio de préstamo válida",
+    "extraPayment": "Por favor ingrese un monto de pago adicional válido",
+    "loanTermUnit": "Seleccione una unidad de plazo del préstamo",
+    "paymentFrequency": "Por favor seleccione una frecuencia de pago"
+  },
+  "tooltips": {
+    "loanAmount": "Monto total prestado",
+    "interestRate": "Tasa de interés anual como porcentaje",
+    "loanTerm": "Plazo para pagar el préstamo",
+    "startDate": "Fecha en que comienzan los pagos del préstamo.",
+    "extraPayment": "Monto adicional pagado cada mes hacia el capital",
+    "loanTermUnit": "Unidad de tiempo para el plazo del préstamo (años o meses)",
+    "paymentFrequency": "¿Con qué frecuencia se realizan los pagos?"
+  },
+  "smart_calculator_0": "Calculadora inteligente",
+  "amortization_calculator_1": "Calculadora de Amortización",
+  "home_2": "Hogar",
+  "financial_3": "Financiero",
+  "amortization_calculator_4": "Calculadora de Amortización",
+  "amortization_calculator_5": "Calculadora de Amortización",
+  "generate_a_detailed_amortization_schedule_showing__6": "Genere un cronograma de amortización detallado que muestre cómo se divide cada pago entre principal y\n                interés.",
+  "loan_details_7": "Detalles del préstamo",
+  "enter_loan_information_to_generate_schedule_8": "Ingrese la información del préstamo para generar el cronograma",
+  "loan_amount_9": "Monto del préstamo",
+  "interest_rate_10": "Tasa de interés (%)",
+  "loan_term_11": "Plazo del préstamo",
+  "k_15_years_12": "15 años",
+  "k_20_years_13": "20 años",
+  "k_25_years_14": "25 años",
+  "k_30_years_15": "30 años",
+  "start_date_16": "Fecha de inicio",
+  "generate_schedule_17": "Generar horario",
+  "loan_summary_18": "Resumen del préstamo",
+  "payment_overview_19": "Resumen de pagos",
+  "monthly_payment_20": "Pago Mensual",
+  "total_interest_21": "Interés total",
+  "total_payment_22": "Pago Total",
+  "enter_loan_details_to_see_summary_23": "Ingrese los detalles del préstamo para ver el resumen",
+  "payment_schedule_24": "Calendario de pagos",
+  "first_12_payments_preview_25": "Vista previa de los primeros 12 pagos",
+  "payment_26": "Pago #",
+  "principal_27": "Principal:",
+  "interest_28": "Interés:",
+  "balance_29": "Saldo: $",
+  "showing_first_12_of_30": "Mostrando los primeros 12 de",
+  "payments_31": "pagos",
+  "generate_schedule_to_see_payment_details_32": "Generar cronograma para ver detalles de pago",
+  "how_to_use_the_amortization_calculator_33": "Cómo utilizar la calculadora de amortización",
+  "the_amortization_calculator_is_a_powerful_tool_des_34": "La calculadora de amortización es una poderosa herramienta diseñada para ayudarlo a comprender el desglose de los pagos de su préstamo. Aquí se explica cómo usarlo:",
+  "enter_loan_amount_35": "Ingrese el monto del préstamo:",
+  "input_the_total_amount_of_the_loan_you_wish_to_cal_36": "Ingrese el monto total del préstamo que desea calcular.",
+  "enter_interest_rate_37": "Ingrese la tasa de interés:",
+  "provide_the_annual_interest_rate_of_the_loan_38": "Proporcione la tasa de interés anual del préstamo.",
+  "select_loan_term_39": "Seleccione el plazo del préstamo:",
+  "choose_the_duration_of_the_loan_in_years_40": "Elija la duración del préstamo en años.",
+  "enter_start_date_41": "Ingrese la fecha de inicio:",
+  "specify_the_date_when_the_loan_payments_will_begin_42": "Especifique la fecha en que comenzarán los pagos del préstamo.",
+  "generate_schedule_43": "Generar horario:",
+  "click_the_button_to_generate_the_amortization_sche_44": "Haga clic en el botón para generar el cronograma de amortización.",
+  "the_calculator_will_display_a_detailed_schedule_sh_45": "La calculadora mostrará un cronograma detallado que muestra cada pago, el monto asignado al capital y los intereses, y el saldo restante."
+}

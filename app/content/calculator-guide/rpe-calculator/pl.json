@@ -1,0 +1,139 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator RPE: co to jest i jak z niego korzystać",
+      "content": "Kalkulator RPE (wskaźnik odczuwanego wysiłku) pomaga mierzyć intensywność treningu i oszacować siłę. Po wprowadzeniu podniesionego ciężaru, powtórzeń i postrzeganego wysiłku oblicza szacunkową maksymalną wartość jednego powtórzenia (1RM) i sugeruje zalecane obciążenia treningowe. Jest idealny dla entuzjastów fitnessu, ciężarowców, trójboistów i trenerów, którzy chcą trenować bezpiecznie, skutecznie i progresywnie."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora RPE",
+      "subSections": [
+        {
+          "heading": "Wpisz podniesiony ciężar",
+          "content": "Wprowadź wagę swojego zestawu (kg lub funty)."
+        },
+        {
+          "heading": "Wprowadź powtórzenia",
+          "content": "Liczba wykonanych powtórzeń w serii."
+        },
+        {
+          "heading": "Wybierz RPE",
+          "content": "Oceń, jak trudny był zestaw w skali od 1 do 10."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Zobacz szacunkowy 1RM i zalecane obciążenia treningowe."
+        },
+        {
+          "heading": "Dostosuj treningi",
+          "content": "Wykorzystaj wyniki do zaplanowania intensywności i progresji."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Oszacowanie 1RM",
+          "content": "Przelicza wagę, powtórzenia i RPE na szacunkową siłę maksymalną."
+        },
+        {
+          "heading": "Załaduj rekomendacje",
+          "content": "Sugeruje wagę dla docelowych poziomów intensywności."
+        },
+        {
+          "heading": "Szkolenie z automatyczną regulacją",
+          "content": "Dostosuj codzienne treningi w oparciu o postrzegany wysiłek."
+        },
+        {
+          "heading": "Bezpłatny i przyjazny dla urządzeń mobilnych",
+          "content": "Działa na każdym urządzeniu bez rejestracji."
+        },
+        {
+          "heading": "Bezpieczne szkolenie",
+          "content": "Unikaj niepotrzebnych maksymalnych wzrostów podczas śledzenia postępów."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Trening siłowy",
+          "content": "Zaplanuj intensywność dla postępującego przeciążenia."
+        },
+        {
+          "heading": "Trójbój siłowy",
+          "content": "Bezpiecznie oszacuj maksymalne podniesienia, nie powodując awarii."
+        },
+        {
+          "heading": "Treningi z automatyczną regulacją",
+          "content": "Dostosuj dzienne obciążenia w oparciu o wysiłek."
+        },
+        {
+          "heading": "Coaching",
+          "content": "Trenerzy mogą dokładnie planować i monitorować obciążenia klientów."
+        },
+        {
+          "heading": "Rehabilitacja i rekonwalescencja",
+          "content": "Zarządzaj stresem, aby zapobiec kontuzjom i przetrenowaniu."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1",
+          "content": "Waga: 100 kg | Powtórzenia: 5 | RPE: 8 → Szacowany 1RM: 118 kg"
+        },
+        {
+          "heading": "Przykład 2",
+          "content": "Waga: 120 kg | Powtórzenia: 3 | RPE: 9 → Szacowany 1RM: 129 kg"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator RPE?",
+      "a": "Ocenia siłę i intensywność treningu na podstawie masy ciała, powtórzeń i postrzeganego wysiłku."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, jest to całkowicie bezpłatne online."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania?",
+      "a": "Nie, działa bezpośrednio w dowolnej przeglądarce."
+    },
+    {
+      "q": "Czy może obliczyć 1RM?",
+      "a": "Tak, na podstawie wprowadzonej wagi, powtórzeń i RPE."
+    },
+    {
+      "q": "Czy może zaplanować intensywność treningu?",
+      "a": "Tak, zaleca obciążenia treningowe dla docelowych poziomów RPE."
+    },
+    {
+      "q": "Czy jest odpowiedni dla początkujących?",
+      "a": "Tak, to działa na każdym poziomie sprawności."
+    },
+    {
+      "q": "Jak dokładne jest to rozwiązanie?",
+      "a": "Jest dokładny, jeśli dane wejściowe są spójne i prawidłowe."
+    },
+    {
+      "q": "Czy może zapobiec kontuzjom?",
+      "a": "Tak, unikając niepotrzebnych maksymalnych wyciągów i przetrenowania."
+    },
+    {
+      "q": "Czy obsługuje kg i funty?",
+      "a": "Tak, obie jednostki są akceptowane."
+    },
+    {
+      "q": "Czy coachowie mogą wykorzystać to w przypadku klientów?",
+      "a": "Tak, idealnie nadaje się do monitorowania i planowania treningów klientów."
+    }
+  ]
+}

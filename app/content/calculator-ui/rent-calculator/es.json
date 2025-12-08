@@ -1,0 +1,155 @@
+{
+  "pageTitle": "Calculadora de alquiler",
+  "pageDescription": "Calcule sus pagos de alquiler mensuales y su asequibilidad con un análisis integral que incluye servicios públicos, depósitos y comparaciones del mercado de alquiler.",
+  "form": {
+    "labels": {
+      "monthlyIncome": "Ingreso Bruto Mensual",
+      "otherMonthlyDebts": "Otros pagos mensuales de deuda",
+      "rentAmount": "Monto del alquiler mensual",
+      "utilities": "Costos mensuales de servicios públicos",
+      "rentersInsurance": "Seguro de alquiler mensual",
+      "securityDeposit": "Depósito de seguridad",
+      "leaseTerm": "Plazo de arrendamiento",
+      "petFees": "Tarifas por mascota/alquiler mensual por mascota"
+    },
+    "placeholders": {
+      "monthlyIncome": "Ingrese el ingreso bruto mensual",
+      "otherMonthlyDebts": "Ingrese otros pagos mensuales de deuda",
+      "rentAmount": "Ingrese el monto del alquiler mensual",
+      "utilities": "Ingrese los costos mensuales de servicios públicos",
+      "rentersInsurance": "Ingrese el seguro de inquilino mensual",
+      "securityDeposit": "Ingrese el monto del depósito de seguridad",
+      "leaseTerm": "Introduzca el plazo de arrendamiento en meses",
+      "petFees": "Ingrese las tarifas por mascota o el alquiler mensual por mascota"
+    },
+    "buttons": {
+      "calculate": "Calcular la asequibilidad del alquiler",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "totalMonthlyCost": "Costo total mensual de vivienda",
+    "housingRatio": "Relación costo de vivienda e ingresos",
+    "depositCost": "Costo del depósito inicial",
+    "annualHousingCost": "Costo anual de vivienda",
+    "rentCalculatorResultsTitle": "Resultados de la calculadora de alquiler"
+  },
+  "educational": {
+    "rentInfo": "Información de alquiler",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "rentFacts": {
+      "affordability": {
+        "title": "Asequibilidad del alquiler",
+        "description": "Los expertos financieros recomiendan no gastar más del 30% de los ingresos brutos en vivienda"
+      },
+      "costs": {
+        "title": "Costos de alquiler adicionales",
+        "description": "Los servicios públicos, el seguro de inquilino y los depósitos pueden aumentar significativamente los costos totales de la vivienda."
+      },
+      "comparison": {
+        "title": "Comparación de mercado",
+        "description": "Investigue alquileres comparables en el área para garantizar precios justos"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones de asequibilidad del alquiler.",
+      "actual": "Los costos de alquiler reales pueden variar según la ubicación, el estado de la propiedad y las condiciones del mercado."
+    },
+    "importantNotesList": [
+      "Los depósitos de seguridad suelen equivaler a un mes de alquiler.",
+      "A menudo se requiere un seguro de inquilino y cuesta entre 15 y 30 dólares al mes.",
+      "A menudo se requiere un seguro de inquilino y cuesta entre 15 y 30 dólares al mes.",
+      "Considere la proximidad al trabajo y los costos de transporte al evaluar la asequibilidad."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su alquiler para calcular la asequibilidad",
+    "resultMessage": "Los resultados del cálculo de su alquiler se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del alquiler:",
+    "rentAnalysis": "Análisis de alquiler"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de asequibilidad del alquiler basadas en pautas financieras generales. Los costos de alquiler reales pueden variar según la ubicación, el estado de la propiedad, los términos del arrendamiento y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para obtener un análisis personalizado de la asequibilidad del alquiler y asesoramiento sobre vivienda, consulte a asesores de vivienda o asesores financieros con experiencia en los mercados de alquiler y circunstancias financieras individuales."
+  },
+  "errors": {
+    "monthlyIncome": "Por favor ingrese un ingreso bruto mensual válido",
+    "otherMonthlyDebts": "Ingrese otros pagos de deuda mensuales válidos",
+    "rentAmount": "Por favor ingrese un monto de alquiler mensual válido",
+    "utilities": "Ingrese costos de servicios públicos mensuales válidos",
+    "rentersInsurance": "Por favor ingrese un seguro de inquilino mensual válido",
+    "securityDeposit": "Por favor ingrese un monto de depósito de seguridad válido",
+    "leaseTerm": "Por favor ingrese un plazo de arrendamiento válido",
+    "petFees": "Ingrese tarifas por mascota válidas o alquiler mensual por mascota"
+  },
+  "tooltips": {
+    "monthlyIncome": "Su ingreso bruto mensual total antes de impuestos",
+    "otherMonthlyDebts": "Pagos mensuales totales de todas las demás deudas (préstamos para automóviles, préstamos para estudiantes, tarjetas de crédito, etc.)",
+    "rentAmount": "Alquiler mensual cobrado por el propietario",
+    "utilities": "Costos mensuales estimados de luz, gas, agua, internet, etc.",
+    "rentersInsurance": "Costo mensual de la póliza de seguro de inquilino",
+    "securityDeposit": "El depósito inicial suele equivaler a un mes de alquiler",
+    "leaseTerm": "Duración del contrato de alquiler en meses",
+    "petFees": "Tarifas adicionales o cargos mensuales para mascotas"
+  },
+  "rent_calculator_0": "Calculadora de alquiler",
+  "income_information_1": "Información de ingresos",
+  "income_type_2": "Tipo de ingreso",
+  "annual_income_3": "Renta anual",
+  "monthly_income_4": "Ingreso Mensual",
+  "debt_information_5": "Información de deuda",
+  "other_monthly_debt_payments_6": "Otros pagos mensuales de deuda",
+  "include_credit_cards_car_loans_student_loans_and_o_7": "Incluya tarjetas de crédito, préstamos para automóviles, préstamos para estudiantes y otros pagos mensuales de deudas.",
+  "financial_ratios_8": "Ratios financieros",
+  "frontend_ratio_9": "Relación de entrada (%)",
+  "percentage_of_income_for_housing_typically_2830_10": "Porcentaje de ingresos para vivienda (normalmente 28-30%)",
+  "backend_ratio_11": "Relación de back-end (%)",
+  "percentage_of_income_for_all_debts_typically_3640_12": "Porcentaje de ingresos para todas las deudas (normalmente 36-40%)",
+  "calculate_rent_13": "Calcular alquiler",
+  "rent_affordability_results_14": "Resultados de asequibilidad del alquiler",
+  "your_maximum_affordable_rent_breakdown_15": "Su desglose de alquiler máximo asequible",
+  "maximum_affordable_rent_16": "Alquiler máximo asequible:",
+  "per_month_17": "por mes",
+  "calculation_breakdown_18": "Desglose del cálculo",
+  "monthly_income_19": "Ingreso Mensual",
+  "frontend_limit_20": "Límite frontal (",
+  "backend_limit_21": "Límite de back-end (",
+  "limiting_factor_22": "Factor limitante",
+  "financial_guidelines_23": "Directrices financieras:",
+  "housing_costs_should_not_exceed_24": "• Los costos de vivienda no deben exceder",
+  "of_gross_income_25": "% de ingresos brutos",
+  "total_debt_payments_should_not_exceed_26": "• Los pagos totales de la deuda no deben exceder",
+  "of_gross_income_27": "% de ingresos brutos",
+  "consider_additional_costs_like_utilities_insurance_28": "• Considere costos adicionales como servicios públicos, seguros y mantenimiento.",
+  "enter_your_income_and_debt_information_to_see_your_29": "Ingrese su información de ingresos y deudas para ver sus resultados",
+  "example_calculation_30": "Ejemplo de cálculo",
+  "sample_scenario_31": "Escenario de muestra:",
+  "inputs_32": "Entradas:",
+  "annual_income_60000_33": "• Ingreso anual: $60,000",
+  "monthly_debts_500_34": "• Deudas mensuales: $500",
+  "frontend_ratio_30_35": "• Relación de entrada: 30%",
+  "backend_ratio_40_36": "• Ratio de back-end: 40%",
+  "calculation_37": "Cálculo:",
+  "monthly_income_60000_12_5000_38": "• Ingreso mensual: $60,000 ÷ 12 = $5,000",
+  "frontend_limit_5000_30_1500_39": "• Límite inicial: $5000 × 30% = $1500",
+  "backend_limit_5000_40_500_1500_40": "• Límite final: $5000 × 40% - $500 = $1500",
+  "maximum_rent_1500_41": "Renta máxima: $1,500",
+  "formulas_calculation_details_42": "Fórmulas y detalles de cálculo",
+  "k_1_monthly_income_conversion_43": "1. Conversión de ingresos mensuales",
+  "if_annual_income_monthly_income_annual_income_12_44": "Si ingreso anual: Ingreso Mensual = Ingreso Anual ÷ 12",
+  "if_monthly_income_monthly_income_monthly_income_as_45": "Si es ingreso mensual: Ingreso mensual = Ingreso mensual (como se ingresa)",
+  "k_2_frontend_ratio_limit_46": "2. Límite de relación inicial",
+  "rent_frontend_frontend_ratio_monthly_income_47": "Alquiler (frontal) = Ratio inicial × Ingreso mensual",
+  "k_3_backend_ratio_limit_48": "3. Límite de proporción de back-end",
+  "rent_backend_backend_ratio_monthly_income_monthly__49": "Alquiler (Back-end) = (Relación back-end × Ingreso mensual) - Deudas mensuales",
+  "k_4_maximum_affordable_rent_50": "4. Alquiler máximo asequible",
+  "maximum_rent_minfrontend_limit_backend_limit_51": "Alquiler máximo = mínimo (límite inicial, límite final)",
+  "if_the_result_is_negative_the_affordable_rent_is_s_52": "Si el resultado es negativo, el alquiler asequible se fija en $0."
+}

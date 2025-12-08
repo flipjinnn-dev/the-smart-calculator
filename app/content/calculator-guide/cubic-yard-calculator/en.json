@@ -1,0 +1,139 @@
+{
+    "color": "orange",
+    "sections": [
+        {
+            "heading": "What is a Cubic Yard Calculator?",
+            "content": "A Cubic Yard Calculator helps you measure the volume of soil, gravel, concrete, or mulch in cubic yards. It is essential for construction, landscaping, and DIY projects to estimate material quantity and cost accurately."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Dimensions",
+                    "content": "Input length, width, and depth."
+                },
+                {
+                    "heading": "Select Units",
+                    "content": "Use feet, inches, or yards."
+                },
+                {
+                    "heading": "Optional: Enter Price per Cubic Yard",
+                    "content": "For total cost calculation."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Get volume in cubic yards and total cost instantly."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Double-check measurements for accurate results."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Accurate Volume Calculation",
+                    "content": "Uses standard formulas."
+                },
+                {
+                    "heading": "Flexible Units",
+                    "content": "Supports feet, inches, and yards."
+                },
+                {
+                    "heading": "Cost Estimation",
+                    "content": "Calculates total cost if price per cubic yard is entered."
+                },
+                {
+                    "heading": "Mobile-Friendly Interface",
+                    "content": "Works on all devices."
+                },
+                {
+                    "heading": "Multiple Material Support",
+                    "content": "Ideal for soil, gravel, concrete, sand, or mulch."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Construction",
+                    "content": "Estimate concrete for slabs, footings, and foundations."
+                },
+                {
+                    "heading": "Landscaping",
+                    "content": "Calculate soil, mulch, or gravel for gardens and pathways."
+                },
+                {
+                    "heading": "DIY Projects",
+                    "content": "Plan driveways, patios, and small earthworks."
+                },
+                {
+                    "heading": "Material Buyers/Suppliers",
+                    "content": "Determine quantity and cost before ordering."
+                },
+                {
+                    "heading": "Education",
+                    "content": "Learn volume calculation for cuboid or rectangular areas."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1",
+                    "content": "Area: 10 ft × 5 ft × 2 ft | Cubic Yards = (10 × 5 × 2) ÷ 27 = 3.7 yd³"
+                },
+                {
+                    "heading": "Example 2 – Cost Calculation",
+                    "content": "Volume: 5 yd³ | Price per Cubic Yard: $40 | Total Cost = 5 × 40 = $200"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a cubic yard?",
+            "a": "1 yd³ = 1 yard × 1 yard × 1 yard = 27 cubic feet."
+        },
+        {
+            "q": "Why use a cubic yard calculator?",
+            "a": "To save time and avoid calculation errors."
+        },
+        {
+            "q": "Can I use feet, inches, or yards?",
+            "a": "Yes, all are supported."
+        },
+        {
+            "q": "Does it work for multiple areas?",
+            "a": "Yes, you can calculate total volume for multiple areas."
+        },
+        {
+            "q": "Can I calculate total cost?",
+            "a": "Yes, if price per cubic yard is entered."
+        },
+        {
+            "q": "Is it suitable for DIY projects?",
+            "a": "Yes, for gardens, patios, driveways, and landscaping."
+        },
+        {
+            "q": "Does it account for waste?",
+            "a": "No, it calculates theoretical volume. Add extra for waste or compaction."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, it works on all devices."
+        },
+        {
+            "q": "Who should use this calculator?",
+            "a": "Contractors, landscapers, DIYers, material buyers, and students."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, 100% free and requires no downloads."
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for volume-calculator
 const volumecalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }volume-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }volume-calculator`,
       languages: {
         'en': getCanonicalUrl('volume-calculator', 'en'),
         'pt-BR': getCanonicalUrl('volume-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }volume-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }volume-calculator`,
     },
   };
 }
@@ -70,5 +69,149 @@ export default async function VolumeCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Volume Calculator",
+    "url": "https://www.thesmartcalculator.com/maths/volume-calculator",
+    "description": "Free online Volume Calculator to calculate the space occupied by 3D shapes like cubes, cuboids, cylinders, spheres, cones, and pyramids. Ideal for students, engineers, and everyday use.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Volume Calculator",
+        "applicationCategory": "MathCalculator",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Calculate volume of cubes, cuboids, cylinders, spheres, cones, and pyramids",
+          "Instant calculations",
+          "Mobile-friendly interface",
+          "Free and easy to use"
+        ],
+        "url": "https://www.thesmartcalculator.com/maths/volume-calculator"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Volume Calculator",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Volume Calculator",
+            "text": "Choose the 3D shape you want to calculate the volume for."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Volume Calculator",
+            "text": "Input required measurements like length, width, height, or radius."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Volume Calculator",
+            "text": "Press the calculate button to get the volume instantly."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a volume calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It calculates the space occupied by 3D objects like cubes, cuboids, cylinders, spheres, cones, and pyramids."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this calculator free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is completely free to use online."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to install software?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, it works directly in your browser."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use it on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is fully mobile-friendly and responsive."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it support multiple shapes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, including cubes, cuboids, cylinders, spheres, cones, and pyramids."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I enter dimensions correctly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Enter all measurements in consistent units, such as cm or m."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get results in cubic meters or cm³?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the output matches your input units."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it suitable for students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, perfect for homework, projects, and exams."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can engineers or architects use it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is useful for construction, material calculations, and design projects."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the calculator accurate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it provides precise results for all supported 3D shapes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="volume-calculator-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

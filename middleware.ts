@@ -326,12 +326,16 @@ export const urlMappings = {
     'zinssatzrechner': 'interest-rate-calculator',
     'zinsrechner': 'interest-calculator',
     'zufall-zahl-generator-rechner': 'random-number-generator',
+  },
+  'es': {
+    'hipoteca-calculadora': 'mortgage-calculator',
+    'financiero': 'financial',
   }
 } as const;
 
 // Define reverse mappings for generating hreflang tags
 export const reverseUrlMappings = {
-    'br': {
+  'br': {
     '401k-calculator': 'calculadora-401k',
     'age-calculator': 'calculadora-de-idade',
     'amortization-calculator': 'calculadora-de-amortizacao',
@@ -654,6 +658,14 @@ export const reverseUrlMappings = {
     'velocity-calculator': 'geschwindigkeitsrechner',
     'volume-calculator': 'volumenrechner',
     'weight-watchers-points-calculator': 'weight-watchers-punkte-berechnen',
+  },
+  'es': {
+    'mortgage-calculator': 'hipoteca-calculadora',
+    'financial': 'financiero',
+    'about-us': 'acerca-de-nosotros',
+    'contact-us': 'contactanos',
+    'privacy-policy': 'politica-de-privacidad',
+    'terms-and-conditions': 'terminos-y-condiciones',
   }
 } as const;
 
@@ -667,7 +679,7 @@ const staticPages = [
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  
+
   // Skip middleware for static files, API routes, and Next.js internals
   if (
     pathname.includes('.') || // static files
@@ -677,14 +689,14 @@ export function middleware(request: NextRequest) {
   ) {
     return NextResponse.next();
   }
-  
+
   // Check if the URL starts with a language prefix
-  const langMatch = pathname.match(/^\/(br|pl|de)(\/.*)?/);
-  
+  const langMatch = pathname.match(/^\/(br|pl|de|es)(\/.*)?/);
+
   if (langMatch) {
     const lang = langMatch[1] as keyof typeof urlMappings;
     const path = langMatch[2] || '/';
-    
+
     // Handle root path for language - show homepage instead of redirecting to calculator
     if (path === '/') {
       // Rewrite to the homepage with language header
@@ -692,10 +704,10 @@ export function middleware(request: NextRequest) {
       response.headers.set('x-language', lang);
       return response;
     }
-    
+
     // Remove the leading slash for processing
     const pathParts = path.substring(1).split('/');
-    
+
     // Check if this is a static page (first part is a static page name)
     const firstPart = pathParts[0];
     if (staticPages.includes(firstPart)) {
@@ -706,7 +718,7 @@ export function middleware(request: NextRequest) {
       response.headers.set('x-language', lang);
       return response;
     }
-    
+
     // Check if this is a translated static page
     // For example, /br/sobre-nos should rewrite to /about-us
     const translatedStaticPages: Record<string, string> = {
@@ -727,9 +739,14 @@ export function middleware(request: NextRequest) {
       'kontakt-uns': 'contact-us',
       'datenschutz': 'privacy-policy',
       'allgemeine-geschaftsbedingungen': 'terms-and-conditions',
-      'nutzungsbedingungen': 'terms-and-conditions'
+      'nutzungsbedingungen': 'terms-and-conditions',
+      // Spanish
+      'acerca-de-nosotros': 'about-us',
+      'contactanos': 'contact-us',
+      'politica-de-privacidad': 'privacy-policy',
+      'terminos-y-condiciones': 'terms-and-conditions'
     };
-    
+
     if (translatedStaticPages[firstPart]) {
       // Rewrite to the English version of the static page
       const englishPage = translatedStaticPages[firstPart];
@@ -738,24 +755,24 @@ export function middleware(request: NextRequest) {
       response.headers.set('x-language', lang);
       return response;
     }
-    
+
     // Translate the path parts for non-static pages
     const translatedParts = pathParts.map(part => {
       return urlMappings[lang]?.[part as keyof typeof urlMappings[typeof lang]] || part;
     });
-    
+
     // Construct the new path
     const newPath = '/' + translatedParts.join('/');
-    
+
     // Rewrite to the English version
     const response = NextResponse.rewrite(new URL(newPath, request.url));
-    
+
     // Add language information to headers
     response.headers.set('x-language', lang);
-    
+
     return response;
   }
-  
+
   // For English URLs (no prefix), set language to 'en'
   const response = NextResponse.next();
   response.headers.set('x-language', 'en');

@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for scientific-calculator
 const scientificcalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }scientific-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }scientific-calculator`,
       languages: {
         'en': getCanonicalUrl('scientific-calculator', 'en'),
         'pt-BR': getCanonicalUrl('scientific-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }scientific-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }scientific-calculator`,
     },
   };
 }
@@ -70,5 +69,156 @@ export default async function ScientificCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Scientific Calculator",
+    "url": "https://www.thesmartcalculator.com/maths/scientific-calculator",
+    "description": "Free online Scientific Calculator to perform advanced math functions including trigonometry, logarithms, exponents, roots, and powers. Ideal for students, professionals, and everyday use.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Scientific Calculator",
+        "applicationCategory": "MathCalculator",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Trigonometry, logarithms, exponents, roots, and powers",
+          "Instant calculations",
+          "Memory storage for numbers",
+          "Mobile-friendly interface",
+          "Free and easy to use"
+        ],
+        "url": "https://www.thesmartcalculator.com/maths/scientific-calculator"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Scientific Calculator",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Scientific Calculator",
+            "text": "Type the numbers or formulas you want to calculate."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Scientific Calculator",
+            "text": "Choose math functions like sin, cos, tan, log, ln, √, x², or e^x."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Scientific Calculator",
+            "text": "Add parentheses for complex calculations to ensure correct order of operations."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Scientific Calculator",
+            "text": "Get the result instantly."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a scientific calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A scientific calculator performs advanced calculations including trigonometry, logarithms, exponents, roots, and powers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this calculator free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is completely free to use online on all devices."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use it on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the interface is mobile-friendly and responsive."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to install software?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, it works directly in your browser."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it support complex calculations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it supports parentheses and follows the correct order of operations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I store numbers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, memory functions are available to store and recall numbers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it suitable for students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is perfect for homework, practice, and exams."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it suitable for engineers and scientists?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it supports advanced scientific and engineering calculations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it show history of calculations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, most versions display a history of previous calculations for review."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the calculator accurate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it provides precise results for all supported functions."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="scientific-calculator-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

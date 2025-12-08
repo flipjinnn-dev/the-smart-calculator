@@ -1,0 +1,101 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Was ist ein Quadratfuß-zu-Kubikyard-Rechner?",
+      "content": "Dieser Rechner rechnet die Fläche in Quadratfuß und die Materialtiefe in Volumen in Kubikmetern um und hilft Ihnen so, den Bedarf an Erde, Mulch, Kies oder Beton schnell und genau abzuschätzen."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "content": "Befolgen Sie diese Schritte, um Kubikmeter einfach zu schätzen:",
+      "subSections": [
+        {
+          "heading": "Schritte",
+          "content": "1. Fläche eingeben – Geben Sie die Gesamtquadratfußzahl oder die Länge × Breite ein.\n2. Tiefe eingeben – Geben Sie die Materialtiefe in Fuß an.\n3. Klicken Sie auf Berechnen – Erhalten Sie sofort die Kubikmeter.\n4. Tipp – Verwenden Sie bei unebenen Oberflächen eine durchschnittliche Tiefe."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "content": "Dieses Tool bietet schnelle und genaue Kubikyard-Berechnungen:",
+      "subSections": [
+        {
+          "heading": "Merkmale",
+          "content": "- Sofortige Umrechnung von Fläche und Tiefe in Kubikmeter.\n- Einfache Eingabefelder für Fläche oder direkte Länge × Breite.\n- Geeignet für Erde, Mulch, Kies, Sand und Beton.\n- Vollständig mobilfreundliche Oberfläche.\n- Hilft bei der genauen Planung von Materialmengen und -kosten."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "content": "Menschen verwenden diesen Rechner für verschiedene reale Projekte:",
+      "subSections": [
+        {
+          "heading": "Beispiele",
+          "content": "- Bau- und Landschaftsbau: Schätzen Sie das Beton-, Kies- oder Bodenvolumen.\n- Gartenarbeit: Berechnen Sie den Mulch- oder Kompostbedarf für Gartenbeete.\n- DIY-Projekte: Kostenvoranschlag für Materialien für Terrassen, Wege oder kleine Ausgrabungen.\n- Massenmaterialbestellung: Konvertieren Sie Fläche und Tiefe in Kubikmeter für Lieferanten.\n- Budgetplanung: Kosten und Materialbedarf vor dem Kauf planen."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "content": "Hier finden Sie Beispielrechnungen basierend auf realen Szenarien:",
+      "subSections": [
+        {
+          "heading": "Beispiele",
+          "content": "- Gartenbeet: Fläche 100 ft², Tiefe 0,5 ft → Volumen ≈ 1,85 yd³.\n- Auffahrtsschotter: Fläche 500 ft², Tiefe 0,25 ft → Volumen ≈ 4,63 yd³.\n- Betonplatte: Fläche 200 ft², Tiefe 0,33 ft → Volumen ≈ 2,44 yd³."
+        }
+      ]
+    },
+    {
+      "heading": "Tipps und Best Practices",
+      "content": "Nützliche Anleitung zur Verbesserung Ihrer Materialschätzungen:",
+      "subSections": [
+        {
+          "heading": "Tipps",
+          "content": "- Materialschätzungen immer aufrunden, um Engpässe zu vermeiden.\n- Verwenden Sie eine durchschnittliche Tiefe, wenn der Boden uneben ist.\n- Konvertieren Sie die Tiefe richtig (Zoll → Fuß, falls erforderlich).\n- Überprüfen Sie den Bereich noch einmal, bevor Sie Schüttgüter bestellen.\n- Vergleichen Sie die Kubikmeterpreise der Lieferanten, um Kosten zu sparen."
+        }
+      ]
+    },
+    {
+      "heading": "Haftungsausschluss",
+      "content": "Dieser Kubikyard-Rechner liefert ungefähre Ergebnisse. Materialabsetzung, Feuchtigkeit, Verdichtung und Lieferantenschwankungen können sich auf die tatsächlichen Mengen auswirken. Für genaue Anforderungen wenden Sie sich an einen Auftragnehmer oder Materiallieferanten."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was macht dieser Rechner?",
+      "a": "Es rechnet Quadratfuß und Materialtiefe (in Fuß) in Kubikmeter um."
+    },
+    {
+      "q": "Warum es verwenden?",
+      "a": "Um schnell abzuschätzen, wie viel Erde, Kies, Mulch, Sand oder Beton Sie für ein Projekt benötigen."
+    },
+    {
+      "q": "Kann ich die Fläche anhand der Länge × Breite berechnen?",
+      "a": "Ja, der Rechner kann die Fläche automatisch berechnen."
+    },
+    {
+      "q": "Kann ich unterschiedliche Tiefen verwenden?",
+      "a": "Ja, geben Sie eine beliebige Tiefe in Fuß ein. Rechnen Sie Zoll zuerst in Fuß um."
+    },
+    {
+      "q": "Funktioniert es bei unebenen Oberflächen?",
+      "a": "Ja. Für beste Ergebnisse verwenden Sie eine durchschnittliche Tiefe."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, es funktioniert reibungslos auf Telefonen, Tablets und Desktops."
+    },
+    {
+      "q": "Kann das bei der Budgetierung helfen?",
+      "a": "Ja, multiplizieren Sie die Kubikyard-Schätzung mit den Kosten pro Yard, um die Ausgaben zu planen."
+    },
+    {
+      "q": "Ist die Nutzung kostenlos?",
+      "a": "Ja, völlig kostenlos, ohne Downloads oder Anmeldung."
+    },
+    {
+      "q": "Wer sollte diesen Rechner verwenden?",
+      "a": "Bauunternehmer, Gärtner, Landschaftsgärtner, Hausbesitzer und Heimwerker."
+    }
+  ]
+}

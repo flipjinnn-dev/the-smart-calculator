@@ -1,0 +1,132 @@
+{
+  "color": "vermelho",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de ponto crítico?",
+      "content": "Uma calculadora de ponto crítico ajuda a encontrar os valores de x onde a derivada de uma função é zero ou indefinida, indicando possíveis máximos, mínimos ou pontos de sela."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "content": "Usar uma calculadora de pontos críticos de funções é fácil e eficiente. Siga estas etapas para obter resultados precisos.",
+      "subSections": [
+        {
+          "heading": "Etapas para usar:",
+          "content": "Insira a função: Insira a função matemática em termos de x (por exemplo, f(x) = x^3 - 3x + 2). Calcule a derivada: A calculadora encontra automaticamente a primeira derivada f'(x). Resolva para pontos críticos: Defina f'(x) = 0 e resolva para x para encontrar pontos críticos potenciais. Identifique valores críticos: substitua os valores de x na função original. Classificar pontos críticos: Use a segunda derivada ou análise de inclinação para determinar pontos mínimos, máximos ou de inflexão locais. Visualizar (Opcional): Algumas calculadoras fornecem um gráfico para melhor compreensão."
+        },
+        {
+          "heading": "Dica",
+          "content": "Sempre verifique o domínio da sua função para obter resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos da calculadora de ponto crítico",
+      "subSections": [
+        {
+          "heading": "Cálculo Derivativo Automático",
+          "content": "Encontra a derivada de qualquer função diferenciável automaticamente."
+        },
+        {
+          "heading": "Detecção de Pontos Críticos",
+          "content": "Identifica pontos onde a derivada é zero ou indefinida."
+        },
+        {
+          "heading": "Cálculo do valor crítico",
+          "content": "Substitui pontos críticos para obter valores exatos da função."
+        },
+        {
+          "heading": "Visualização Gráfica",
+          "content": "Mostra um gráfico da função com pontos críticos marcados."
+        },
+        {
+          "heading": "Solução passo a passo",
+          "content": "Fornece soluções detalhadas para aprendizagem e verificação de trabalhos de casa."
+        },
+        {
+          "heading": "Suporta funções complexas",
+          "content": "Funciona para funções polinomiais, trigonométricas, exponenciais e logarítmicas."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Alunos",
+          "content": "Verifique o dever de casa e entenda derivadas e extremos."
+        },
+        {
+          "heading": "Engenheiros",
+          "content": "Analise o comportamento da função para problemas de otimização."
+        },
+        {
+          "heading": "Pesquisadores",
+          "content": "Identifique pontos máximos, mínimos e de inflexão em modelos científicos."
+        },
+        {
+          "heading": "Comerciantes e Analistas",
+          "content": "Use funções para modelar tendências e encontrar pontos críticos nos dados."
+        },
+        {
+          "heading": "Educadores",
+          "content": "Ensine conceitos de cálculo com exemplos visuais."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Função Polinomial",
+          "content": "Função: f(x) = x^3 - 6x^2 + 9x + 1\nDerivada: f'(x) = 3x^2 - 12x + 9\nDefina f'(x)=0 → x = 1, 3\nValores críticos: f(1) = 5, f(3) = 1\nClassificação: x=1 é um máximo local, x=3 é um mínimo local"
+        },
+        {
+          "heading": "Exemplo 2 – Função trigonométrica",
+          "content": "Função: f(x) = sin(x) + cos(2x)\nDerivada: f'(x) = cos(x) - 2sin(2x)\nResolva f'(x)=0 → Encontre todos os valores de x dentro do domínio.\nCalcule valores críticos usando a função original.\nDica: Use a calculadora para obter resultados precisos em funções complexas."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é um ponto crítico?",
+      "a": "Um ponto crítico é onde a derivada de uma função é zero ou indefinida, geralmente indicando um máximo, mínimo ou ponto de inflexão local."
+    },
+    {
+      "q": "Como funciona a Calculadora de Ponto Crítico?",
+      "a": "Ele diferencia automaticamente a função, resolve zeros ou pontos indefinidos e calcula os valores da função correspondentes."
+    },
+    {
+      "q": "Posso usá-lo para qualquer função?",
+      "a": "Sim, funciona para funções polinomiais, trigonométricas, exponenciais e logarítmicas."
+    },
+    {
+      "q": "É preciso?",
+      "a": "Sim, mas para funções complexas ou por partes, recomenda-se a verificação manual."
+    },
+    {
+      "q": "Ele fornece soluções passo a passo?",
+      "a": "A maioria das calculadoras oferece soluções passo a passo para fins de aprendizagem."
+    },
+    {
+      "q": "Posso representar graficamente a função?",
+      "a": "Sim, a visualização gráfica está disponível em muitas calculadoras para ver claramente os pontos críticos."
+    },
+    {
+      "q": "Posso encontrar extremos globais?",
+      "a": "Os pontos críticos ajudam a localizar extremos locais. Para encontrar extremos globais, analise os pontos finais junto com os pontos críticos."
+    },
+    {
+      "q": "Preciso saber cálculo?",
+      "a": "A compreensão básica ajuda, mas a calculadora simplifica os cálculos de derivadas e valores críticos."
+    },
+    {
+      "q": "O uso é gratuito?",
+      "a": "Muitas calculadoras online são gratuitas, embora algumas possam ter recursos premium."
+    },
+    {
+      "q": "Por que é útil para estudantes e profissionais?",
+      "a": "Economiza tempo, reduz erros e fornece visualização clara para análise de funções."
+    }
+  ]
+}

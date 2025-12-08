@@ -8,6 +8,7 @@ import { Analytics } from "@vercel/analytics/next"
 import Header from "@/components/header"
 import { headers } from "next/headers"
 import "./globals.css"
+import "katex/dist/katex.min.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -39,8 +40,8 @@ export async function generateMetadata(): Promise<Metadata> {
   // Get language from headers
   const headerList = await headers();
   const langHeader = headerList.get('x-language');
-  const language = langHeader && homepageMeta[langHeader as keyof typeof homepageMeta] 
-    ? langHeader 
+  const language = langHeader && homepageMeta[langHeader as keyof typeof homepageMeta]
+    ? langHeader
     : "en";
 
   // Get metadata for the current language
@@ -145,7 +146,7 @@ export default function RootLayout({
           `}
         </Script>
         <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5433267523341571"
-     crossOrigin="anonymous"></Script>
+          crossOrigin="anonymous"></Script>
       </head>
       <body className={inter.className}>
         <Header />

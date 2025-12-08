@@ -8,10 +8,10 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-
 import { Box, Calculator, Ruler, DollarSign, AlertCircle, Building2 } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
+import CalculatorGuide from "@/components/calculator-guide";
 export default function CubicYardCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -20,7 +20,16 @@ export default function CubicYardCalculatorCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('cubic-yard-calculator', language, "calculator-ui");
-
+  const { content: guideContent } = useCalculatorContent(
+    'cubic-yard-calculator',  // Calculator name
+    language,                            // Current language (en/ur etc)
+    "calculator-guide"                   // Content type
+  );
+  const guideData = guideContent || {
+    color: 'blue',
+    sections: [],
+    faq: []
+  };
   // Use content or fallback to defaults
   const contentData = content || {
     "pageTitle": "",
@@ -342,646 +351,647 @@ export default function CubicYardCalculatorCalculator() {
     switch (selectedShape) {
       case "rectangular":
         return <>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.length_0}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.length_0}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.length ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter length in ${unit}`} value={length} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.length ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter length in ${unit}`} value={length} onChange={e => {
                 setLength(e.target.value);
                 if (errors.length) setErrors(prev => ({
                   ...prev,
                   length: ""
                 }));
               }} />
-              </div>
-              {errors.length && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.length}</span>
-                </div>}
             </div>
+            {errors.length && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.length}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.width_1}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.width_1}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.width ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter width in ${unit}`} value={width} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.width ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter width in ${unit}`} value={width} onChange={e => {
                 setWidth(e.target.value);
                 if (errors.width) setErrors(prev => ({
                   ...prev,
                   width: ""
                 }));
               }} />
-              </div>
-              {errors.width && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.width}</span>
-                </div>}
             </div>
+            {errors.width && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.width}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.height_2}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.height_2}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter height in ${unit}`} value={height} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter height in ${unit}`} value={height} onChange={e => {
                 setHeight(e.target.value);
                 if (errors.height) setErrors(prev => ({
                   ...prev,
                   height: ""
                 }));
               }} />
-              </div>
-              {errors.height && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.height}</span>
-                </div>}
             </div>
-          </>;
+            {errors.height && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.height}</span>
+            </div>}
+          </div>
+        </>;
       case "cube":
         return <div className="relative">
-            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.side_length_3}{unit})</Label>
-            <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <Box className="h-5 w-5 text-orange-500" />
-              </div>
-              <Input className={`${commonInputClass} ${errors.length ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter side length in ${unit}`} value={length} onChange={e => {
+          <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.side_length_3}{unit})</Label>
+          <div className="relative">
+            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <Box className="h-5 w-5 text-orange-500" />
+            </div>
+            <Input className={`${commonInputClass} ${errors.length ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter side length in ${unit}`} value={length} onChange={e => {
               setLength(e.target.value);
               if (errors.length) setErrors(prev => ({
                 ...prev,
                 length: ""
               }));
             }} />
-            </div>
-            {errors.length && <div className="flex items-center mt-2 text-red-600">
-                <AlertCircle className="w-4 h-4 mr-1" />
-                <span className="text-sm">{errors.length}</span>
-              </div>}
-          </div>;
+          </div>
+          {errors.length && <div className="flex items-center mt-2 text-red-600">
+            <AlertCircle className="w-4 h-4 mr-1" />
+            <span className="text-sm">{errors.length}</span>
+          </div>}
+        </div>;
       case "cylinder":
         return <>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.radius_4}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.radius_4}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.radius ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter radius in ${unit}`} value={radius} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.radius ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter radius in ${unit}`} value={radius} onChange={e => {
                 setRadius(e.target.value);
                 if (errors.radius) setErrors(prev => ({
                   ...prev,
                   radius: ""
                 }));
               }} />
-              </div>
-              {errors.radius && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.radius}</span>
-                </div>}
             </div>
+            {errors.radius && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.radius}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.height_5}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.height_5}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter height in ${unit}`} value={height} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter height in ${unit}`} value={height} onChange={e => {
                 setHeight(e.target.value);
                 if (errors.height) setErrors(prev => ({
                   ...prev,
                   height: ""
                 }));
               }} />
-              </div>
-              {errors.height && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.height}</span>
-                </div>}
             </div>
-          </>;
+            {errors.height && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.height}</span>
+            </div>}
+          </div>
+        </>;
       case "hollow-cuboid":
         return <>
-            <div className="col-span-full">
-              <h4 className="text-md font-semibold text-gray-800 mb-3">{contentData.outer_dimensions_6}</h4>
-            </div>
+          <div className="col-span-full">
+            <h4 className="text-md font-semibold text-gray-800 mb-3">{contentData.outer_dimensions_6}</h4>
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.outer_length_7}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.outer_length_7}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.length ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter outer length in ${unit}`} value={length} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.length ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter outer length in ${unit}`} value={length} onChange={e => {
                 setLength(e.target.value);
                 if (errors.length) setErrors(prev => ({
                   ...prev,
                   length: ""
                 }));
               }} />
-              </div>
-              {errors.length && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.length}</span>
-                </div>}
             </div>
+            {errors.length && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.length}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.outer_width_8}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.outer_width_8}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.width ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter outer width in ${unit}`} value={width} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.width ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter outer width in ${unit}`} value={width} onChange={e => {
                 setWidth(e.target.value);
                 if (errors.width) setErrors(prev => ({
                   ...prev,
                   width: ""
                 }));
               }} />
-              </div>
-              {errors.width && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.width}</span>
-                </div>}
             </div>
+            {errors.width && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.width}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.outer_height_9}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.outer_height_9}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter outer height in ${unit}`} value={height} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter outer height in ${unit}`} value={height} onChange={e => {
                 setHeight(e.target.value);
                 if (errors.height) setErrors(prev => ({
                   ...prev,
                   height: ""
                 }));
               }} />
-              </div>
-              {errors.height && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.height}</span>
-                </div>}
             </div>
-            <div className="col-span-full">
-              <h4 className="text-md font-semibold text-gray-800 mb-3 mt-4">{contentData.inner_dimensions_10}</h4>
-            </div>
+            {errors.height && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.height}</span>
+            </div>}
+          </div>
+          <div className="col-span-full">
+            <h4 className="text-md font-semibold text-gray-800 mb-3 mt-4">{contentData.inner_dimensions_10}</h4>
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.inner_length_11}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.inner_length_11}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.innerLength ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter inner length in ${unit}`} value={innerLength} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.innerLength ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter inner length in ${unit}`} value={innerLength} onChange={e => {
                 setInnerLength(e.target.value);
                 if (errors.innerLength) setErrors(prev => ({
                   ...prev,
                   innerLength: ""
                 }));
               }} />
-              </div>
-              {errors.innerLength && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.innerLength}</span>
-                </div>}
             </div>
+            {errors.innerLength && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.innerLength}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.inner_width_12}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.inner_width_12}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.innerWidth ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter inner width in ${unit}`} value={innerWidth} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.innerWidth ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter inner width in ${unit}`} value={innerWidth} onChange={e => {
                 setInnerWidth(e.target.value);
                 if (errors.innerWidth) setErrors(prev => ({
                   ...prev,
                   innerWidth: ""
                 }));
               }} />
-              </div>
-              {errors.innerWidth && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.innerWidth}</span>
-                </div>}
             </div>
+            {errors.innerWidth && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.innerWidth}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.inner_height_13}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.inner_height_13}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.innerHeight ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter inner height in ${unit}`} value={innerHeight} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.innerHeight ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter inner height in ${unit}`} value={innerHeight} onChange={e => {
                 setInnerHeight(e.target.value);
                 if (errors.innerHeight) setErrors(prev => ({
                   ...prev,
                   innerHeight: ""
                 }));
               }} />
-              </div>
-              {errors.innerHeight && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.innerHeight}</span>
-                </div>}
             </div>
-          </>;
+            {errors.innerHeight && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.innerHeight}</span>
+            </div>}
+          </div>
+        </>;
       case "hollow-cylinder":
         return <>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.outer_radius_14}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.outer_radius_14}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.outerRadius ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter outer radius in ${unit}`} value={outerRadius} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.outerRadius ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter outer radius in ${unit}`} value={outerRadius} onChange={e => {
                 setOuterRadius(e.target.value);
                 if (errors.outerRadius) setErrors(prev => ({
                   ...prev,
                   outerRadius: ""
                 }));
               }} />
-              </div>
-              {errors.outerRadius && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.outerRadius}</span>
-                </div>}
             </div>
+            {errors.outerRadius && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.outerRadius}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.inner_radius_15}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.inner_radius_15}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.innerRadius ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter inner radius in ${unit}`} value={innerRadius} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.innerRadius ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter inner radius in ${unit}`} value={innerRadius} onChange={e => {
                 setInnerRadius(e.target.value);
                 if (errors.innerRadius) setErrors(prev => ({
                   ...prev,
                   innerRadius: ""
                 }));
               }} />
-              </div>
-              {errors.innerRadius && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.innerRadius}</span>
-                </div>}
             </div>
+            {errors.innerRadius && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.innerRadius}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.height_16}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.height_16}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter height in ${unit}`} value={height} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter height in ${unit}`} value={height} onChange={e => {
                 setHeight(e.target.value);
                 if (errors.height) setErrors(prev => ({
                   ...prev,
                   height: ""
                 }));
               }} />
-              </div>
-              {errors.height && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.height}</span>
-                </div>}
             </div>
-          </>;
+            {errors.height && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.height}</span>
+            </div>}
+          </div>
+        </>;
       case "hemisphere":
         return <div className="relative">
-            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.radius_17}{unit})</Label>
-            <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <Ruler className="h-5 w-5 text-orange-500" />
-              </div>
-              <Input className={`${commonInputClass} ${errors.radius ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter radius in ${unit}`} value={radius} onChange={e => {
+          <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.radius_17}{unit})</Label>
+          <div className="relative">
+            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <Ruler className="h-5 w-5 text-orange-500" />
+            </div>
+            <Input className={`${commonInputClass} ${errors.radius ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter radius in ${unit}`} value={radius} onChange={e => {
               setRadius(e.target.value);
               if (errors.radius) setErrors(prev => ({
                 ...prev,
                 radius: ""
               }));
             }} />
-            </div>
-            {errors.radius && <div className="flex items-center mt-2 text-red-600">
-                <AlertCircle className="w-4 h-4 mr-1" />
-                <span className="text-sm">{errors.radius}</span>
-              </div>}
-          </div>;
+          </div>
+          {errors.radius && <div className="flex items-center mt-2 text-red-600">
+            <AlertCircle className="w-4 h-4 mr-1" />
+            <span className="text-sm">{errors.radius}</span>
+          </div>}
+        </div>;
       case "cone":
         return <>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.base_radius_18}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.base_radius_18}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.radius ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter base radius in ${unit}`} value={radius} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.radius ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter base radius in ${unit}`} value={radius} onChange={e => {
                 setRadius(e.target.value);
                 if (errors.radius) setErrors(prev => ({
                   ...prev,
                   radius: ""
                 }));
               }} />
-              </div>
-              {errors.radius && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.radius}</span>
-                </div>}
             </div>
+            {errors.radius && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.radius}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.height_19}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.height_19}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter height in ${unit}`} value={height} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter height in ${unit}`} value={height} onChange={e => {
                 setHeight(e.target.value);
                 if (errors.height) setErrors(prev => ({
                   ...prev,
                   height: ""
                 }));
               }} />
-              </div>
-              {errors.height && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.height}</span>
-                </div>}
             </div>
-          </>;
+            {errors.height && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.height}</span>
+            </div>}
+          </div>
+        </>;
       case "pyramid":
         return <>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.base_area_20}{unit}²)</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.base_area_20}{unit}²)</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Calculator className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.baseArea ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter base area in ${unit}²`} value={baseArea} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Calculator className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.baseArea ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter base area in ${unit}²`} value={baseArea} onChange={e => {
                 setBaseArea(e.target.value);
                 if (errors.baseArea) setErrors(prev => ({
                   ...prev,
                   baseArea: ""
                 }));
               }} />
-              </div>
-              {errors.baseArea && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.baseArea}</span>
-                </div>}
             </div>
+            {errors.baseArea && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.baseArea}</span>
+            </div>}
+          </div>
+          <div className="relative">
+            <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.height_21}{unit})</Label>
             <div className="relative">
-              <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.height_21}{unit})</Label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Ruler className="h-5 w-5 text-orange-500" />
-                </div>
-                <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter height in ${unit}`} value={height} onChange={e => {
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Ruler className="h-5 w-5 text-orange-500" />
+              </div>
+              <Input className={`${commonInputClass} ${errors.height ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.1" placeholder={`Enter height in ${unit}`} value={height} onChange={e => {
                 setHeight(e.target.value);
                 if (errors.height) setErrors(prev => ({
                   ...prev,
                   height: ""
                 }));
               }} />
-              </div>
-              {errors.height && <div className="flex items-center mt-2 text-red-600">
-                  <AlertCircle className="w-4 h-4 mr-1" />
-                  <span className="text-sm">{errors.height}</span>
-                </div>}
             </div>
-          </>;
+            {errors.height && <div className="flex items-center mt-2 text-red-600">
+              <AlertCircle className="w-4 h-4 mr-1" />
+              <span className="text-sm">{errors.height}</span>
+            </div>}
+          </div>
+        </>;
       default:
         return null;
     }
   };
   return <>
-      
-      <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
 
-        {/* Main Content */}
-        <main className="py-8 px-4 sm:px-6 lg:px-8 bg-white">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-8">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 bg-gradient-to-r from-orange-600 to-amber-700 rounded-2xl flex items-center justify-center shadow-lg">
-                  <Building2 className="w-8 h-8 text-white" />
-                </div>
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
+
+      {/* Main Content */}
+      <main className="py-8 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-orange-600 to-amber-700 rounded-2xl flex items-center justify-center shadow-lg">
+                <Building2 className="w-8 h-8 text-white" />
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
             </div>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
+          </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              {/* Calculator Form (left) */}
-              <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 bg-white p-0">
-                  <CardHeader className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-t-lg border-b px-8 py-6">
-                    <CardTitle className="flex items-center space-x-3 text-2xl">
-                      <Box className="w-6 h-6 text-orange-600" />
-                      <span>{contentData.shape_dimensions_22}</span>
-                    </CardTitle>
-                    <CardDescription className="text-base">{contentData.select_shape_and_enter_dimensions_to_calculate_vol_23}</CardDescription>
-                  </CardHeader>
-                  <CardContent className="p-8">
-                    {/* Shape Selector */}
-                    <div className="mb-6">
-                      <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.select_shape_24}</Label>
-                      <Select value={selectedShape} onValueChange={setSelectedShape}>
-                        <SelectTrigger className="w-full h-12 rounded-xl border-gray-200 focus:border-orange-400 focus:ring-orange-200">
-                          <SelectValue placeholder="Choose a shape" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          {shapes.map(shape => <SelectItem key={shape.value} value={shape.value}>
-                              <div className="flex items-center space-x-2">
-                                <span className="text-lg">{shape.icon}</span>
-                                <span>{shape.label}</span>
-                              </div>
-                            </SelectItem>)}
-                        </SelectContent>
-                      </Select>
-                    </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Calculator Form (left) */}
+            <div className="lg:col-span-2">
+              <Card className="shadow-2xl border-0 bg-white p-0">
+                <CardHeader className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-t-lg border-b px-8 py-6">
+                  <CardTitle className="flex items-center space-x-3 text-2xl">
+                    <Box className="w-6 h-6 text-orange-600" />
+                    <span>{contentData.shape_dimensions_22}</span>
+                  </CardTitle>
+                  <CardDescription className="text-base">{contentData.select_shape_and_enter_dimensions_to_calculate_vol_23}</CardDescription>
+                </CardHeader>
+                <CardContent className="p-8">
+                  {/* Shape Selector */}
+                  <div className="mb-6">
+                    <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.select_shape_24}</Label>
+                    <Select value={selectedShape} onValueChange={setSelectedShape}>
+                      <SelectTrigger className="w-full h-12 rounded-xl border-gray-200 focus:border-orange-400 focus:ring-orange-200">
+                        <SelectValue placeholder="Choose a shape" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {shapes.map(shape => <SelectItem key={shape.value} value={shape.value}>
+                          <div className="flex items-center space-x-2">
+                            <span className="text-lg">{shape.icon}</span>
+                            <span>{shape.label}</span>
+                          </div>
+                        </SelectItem>)}
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-                    {/* Unit Selector */}
-                    <div className="mb-6">
-                      <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.unit_25}</Label>
-                      <Select value={unit} onValueChange={(value: "ft" | "in" | "yd") => setUnit(value)}>
-                        <SelectTrigger className="w-full h-12 rounded-xl border-gray-200 focus:border-orange-400 focus:ring-orange-200">
-                          <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="ft">{contentData.feet_ft_26}</SelectItem>
-                          <SelectItem value="in">{contentData.inches_in_27}</SelectItem>
-                          <SelectItem value="yd">{contentData.yards_yd_28}</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
+                  {/* Unit Selector */}
+                  <div className="mb-6">
+                    <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.unit_25}</Label>
+                    <Select value={unit} onValueChange={(value: "ft" | "in" | "yd") => setUnit(value)}>
+                      <SelectTrigger className="w-full h-12 rounded-xl border-gray-200 focus:border-orange-400 focus:ring-orange-200">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="ft">{contentData.feet_ft_26}</SelectItem>
+                        <SelectItem value="in">{contentData.inches_in_27}</SelectItem>
+                        <SelectItem value="yd">{contentData.yards_yd_28}</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-                    {/* Dynamic Input Fields */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">{renderInputFields()}</div>
+                  {/* Dynamic Input Fields */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">{renderInputFields()}</div>
 
-                    {/* Cost Per Yard (Optional) */}
-                    <div className="mb-6">
-                      <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.cost_per_cubic_yard_optional_29}</Label>
-                      <div className="relative">
-                        <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                          <DollarSign className="h-5 w-5 text-orange-500" />
-                        </div>
-                        <Input className={`w-full pl-10 h-12 rounded-xl border-gray-200 focus:border-orange-400 focus:ring-orange-200 shadow-sm ${errors.costPerYard ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.01" placeholder="Enter cost per cubic yard" value={costPerYard} onChange={e => {
+                  {/* Cost Per Yard (Optional) */}
+                  <div className="mb-6">
+                    <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.cost_per_cubic_yard_optional_29}</Label>
+                    <div className="relative">
+                      <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <DollarSign className="h-5 w-5 text-orange-500" />
+                      </div>
+                      <Input className={`w-full pl-10 h-12 rounded-xl border-gray-200 focus:border-orange-400 focus:ring-orange-200 shadow-sm ${errors.costPerYard ? "border-red-300 focus:border-red-400 focus:ring-red-200" : ""}`} type="number" step="0.01" placeholder="Enter cost per cubic yard" value={costPerYard} onChange={e => {
                         setCostPerYard(e.target.value);
                         if (errors.costPerYard) setErrors(prev => ({
                           ...prev,
                           costPerYard: ""
                         }));
                       }} />
-                      </div>
-                      {errors.costPerYard && <div className="flex items-center mt-2 text-red-600">
-                          <AlertCircle className="w-4 h-4 mr-1" />
-                          <span className="text-sm">{errors.costPerYard}</span>
-                        </div>}
                     </div>
+                    {errors.costPerYard && <div className="flex items-center mt-2 text-red-600">
+                      <AlertCircle className="w-4 h-4 mr-1" />
+                      <span className="text-sm">{errors.costPerYard}</span>
+                    </div>}
+                  </div>
 
-                    <div className="mb-6 p-4 bg-orange-50 rounded-lg border border-orange-200">
-                      <p className="text-sm text-gray-700">
-                        <strong>{contentData.conversion_30}</strong>{contentData.k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_31}</p>
-                      <p className="text-xs text-gray-600 mt-1">{contentData.commonly_used_for_concrete_gravel_soil_mulch_and_o_32}</p>
-                    </div>
+                  <div className="mb-6 p-4 bg-orange-50 rounded-lg border border-orange-200">
+                    <p className="text-sm text-gray-700">
+                      <strong>{contentData.conversion_30}</strong>{contentData.k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_31}</p>
+                    <p className="text-xs text-gray-600 mt-1">{contentData.commonly_used_for_concrete_gravel_soil_mulch_and_o_32}</p>
+                  </div>
 
-                    <Button onClick={calculateVolume} className="w-full h-12 text-lg bg-gradient-to-r from-orange-600 to-amber-700 hover:from-orange-700 hover:to-amber-800">{contentData.calculate_33}</Button>
-                  </CardContent>
-                </Card>
-              </div>
-
-              {/* Result Card (right side) */}
-              <div className="">
-                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-100 h-full flex flex-col justify-center items-center p-8">
-                  <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-orange-600 to-amber-700 flex items-center justify-center mb-3 shadow-lg">
-                      <Box className="w-6 h-6 text-white" />
-                    </div>
-                    <CardTitle className="text-2xl font-bold text-orange-700 tracking-tight">{contentData.volume_results_34}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="w-full flex flex-col items-center justify-center">
-                    {showResult && result ? <div className="text-center space-y-4">
-                        <div className="grid grid-cols-1 gap-3 text-sm">
-                          <div className="bg-white p-3 rounded-lg border border-orange-200">
-                            <p className="text-2xl font-bold text-orange-900">{result.volumeYd3?.toFixed(2)}</p>
-                            <p className="text-gray-600">{contentData.cubic_yards_35}</p>
-                          </div>
-                          <div className="bg-white p-3 rounded-lg border border-orange-200">
-                            <p className="text-lg font-bold text-orange-900">{result.volumeFt3?.toFixed(1)}</p>
-                            <p className="text-gray-600">{contentData.cubic_feet_36}</p>
-                          </div>
-                          {result.totalCost && <div className="bg-white p-3 rounded-lg border border-orange-200">
-                              <p className="text-lg font-bold text-orange-900">${result.totalCost?.toFixed(2)}</p>
-                              <p className="text-gray-600">{contentData.total_cost_37}</p>
-                            </div>}
-                        </div>
-                      </div> : <div className="flex flex-col items-center justify-center">
-                        <Box className="w-8 h-8 text-orange-300 mb-2" />
-                        <p className="text-gray-500 text-center text-base">{contentData.select_shape_enter_dimensions_and_click_38}{" "}
-                          <span className="font-semibold text-orange-600">{contentData.calculate_39}</span>{contentData.to_see_volume_40}</p>
-                      </div>}
-                  </CardContent>
-                </Card>
-              </div>
+                  <Button onClick={calculateVolume} className="w-full h-12 text-lg bg-gradient-to-r from-orange-600 to-amber-700 hover:from-orange-700 hover:to-amber-800">{contentData.calculate_33}</Button>
+                </CardContent>
+              </Card>
             </div>
 
-            {/* Detailed Results Section */}
-            {showResult && result && <div className="mt-8">
-                <Card className="shadow-2xl border-0 bg-white">
-                  <CardHeader className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-t-lg border-b px-8 py-6">
-                    <CardTitle className="flex items-center space-x-3 text-2xl">
-                      <Calculator className="w-6 h-6 text-orange-600" />
-                      <span>{contentData.detailed_volume_breakdown_41}</span>
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="p-8">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                      <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl border border-orange-200">
-                        <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-amber-700 rounded-full flex items-center justify-center mx-auto mb-3">
-                          <Box className="w-6 h-6 text-white" />
-                        </div>
-                        <h3 className="text-lg font-semibold text-orange-700 mb-2">{contentData.cubic_yards_42}</h3>
-                        <p className="text-3xl font-bold text-orange-900 mb-1">{result.volumeYd3?.toFixed(2)}</p>
-                        <p className="text-xl text-orange-600">{contentData.yd_43}</p>
-                      </div>
-                      <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl border border-orange-200">
-                        <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-amber-700 rounded-full flex items-center justify-center mx-auto mb-3">
-                          <Ruler className="w-6 h-6 text-white" />
-                        </div>
-                        <h3 className="text-lg font-semibold text-orange-700 mb-2">{contentData.cubic_feet_44}</h3>
-                        <p className="text-3xl font-bold text-orange-900 mb-1">{result.volumeFt3?.toFixed(1)}</p>
-                        <p className="text-xl text-orange-600">{contentData.ft_45}</p>
-                      </div>
-                      {result.totalCost && <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl border border-orange-200">
-                          <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-amber-700 rounded-full flex items-center justify-center mx-auto mb-3">
-                            <DollarSign className="w-6 h-6 text-white" />
-                          </div>
-                          <h3 className="text-lg font-semibold text-orange-700 mb-2">{contentData.total_cost_46}</h3>
-                          <p className="text-3xl font-bold text-orange-900 mb-1">${result.totalCost?.toFixed(2)}</p>
-                          <p className="text-xl text-orange-600">{contentData.usd_47}</p>
-                        </div>}
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>}
-<SimilarCalculators calculators={[{
-          calculatorName: "Gallons per Square Foot Calculator",
-          calculatorHref: "/construction/gallons-per-square-foot-calculator",
-          calculatorDescription: "Calculate the number of gallons needed per square foot for painting or flooring"
-        }, {
-          calculatorName: "Size to Weight Calculator",
-          calculatorHref: "/construction/size-to-weight-rectangular-cuboid-calculator",
-          calculatorDescription: "Calculate the weight of a rectangular cuboid given its dimensions and material density for shipping, construction, and engineering applications"
-        }, {
-          calculatorName: "Board Foot Calculator",
-          calculatorHref: "/construction/board-foot-calculator",
-          calculatorDescription: "Calculate board feet for lumber and building materials with precise measurements for woodworking and construction projects"
-        }
-        ]} 
-        color="orange" 
-        title="Related Construction Calculators" />  
-            {/* Educational Content */}
-            <div className="mt-12">
-              <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-100 p-8">
-                <CardHeader className="w-full flex flex-row items-center justify-start mb-4">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-r from-orange-600 to-amber-700 flex items-center justify-center mr-3 shadow-lg">
-                    <Building2 className="w-6 h-6 text-white" />
+            {/* Result Card (right side) */}
+            <div className="">
+              <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-100 h-full flex flex-col justify-center items-center p-8">
+                <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-orange-600 to-amber-700 flex items-center justify-center mb-3 shadow-lg">
+                    <Box className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-2xl font-bold text-orange-700 tracking-tight">{contentData.understanding_cubic_yards_in_construction_48}</CardTitle>
+                  <CardTitle className="text-2xl font-bold text-orange-700 tracking-tight">{contentData.volume_results_34}</CardTitle>
                 </CardHeader>
-                <CardContent className="w-full">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                      <h3 className="text-lg font-semibold text-orange-700 mb-3">{contentData.why_cubic_yards_49}</h3>
-                      <p className="text-gray-700 mb-4">{contentData.cubic_yards_are_the_standard_unit_for_measuring_bu_50}</p>
-                      <h3 className="text-lg font-semibold text-orange-700 mb-3">{contentData.common_applications_51}</h3>
-                      <ul className="list-disc list-inside text-gray-700 space-y-2">
-                        <li>{contentData.concrete_for_foundations_driveways_patios_52}</li>
-                        <li>{contentData.gravel_for_driveways_and_landscaping_53}</li>
-                        <li>{contentData.soil_and_topsoil_for_gardening_54}</li>
-                        <li>{contentData.mulch_for_landscaping_projects_55}</li>
-                        <li>{contentData.sand_for_construction_and_landscaping_56}</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold text-orange-700 mb-3">{contentData.sample_calculation_57}</h3>
-                      <div className="bg-white p-4 rounded-lg border border-orange-200">
-                        <p className="text-gray-700 mb-2">
-                          <strong>{contentData.example_rectangular_driveway_58}</strong>
-                        </p>
-                        <p className="text-gray-700">{contentData.length_12_ft_59}</p>
-                        <p className="text-gray-700">{contentData.width_9_ft_60}</p>
-                        <p className="text-gray-700">{contentData.depth_2_ft_61}</p>
-                        <p className="text-gray-700">{contentData.volume_12_9_2_216_ft_62}</p>
-                        <p className="text-gray-700 font-semibold mt-2">{contentData.result_216_27_8_cubic_yards_63}</p>
+                <CardContent className="w-full flex flex-col items-center justify-center">
+                  {showResult && result ? <div className="text-center space-y-4">
+                    <div className="grid grid-cols-1 gap-3 text-sm">
+                      <div className="bg-white p-3 rounded-lg border border-orange-200">
+                        <p className="text-2xl font-bold text-orange-900">{result.volumeYd3?.toFixed(2)}</p>
+                        <p className="text-gray-600">{contentData.cubic_yards_35}</p>
                       </div>
-                      <p className="text-sm text-gray-600 mt-3">
-                        <strong>{contentData.conversion_64}</strong>{contentData.always_divide_cubic_feet_by_27_to_get_cubic_yards_65}</p>
+                      <div className="bg-white p-3 rounded-lg border border-orange-200">
+                        <p className="text-lg font-bold text-orange-900">{result.volumeFt3?.toFixed(1)}</p>
+                        <p className="text-gray-600">{contentData.cubic_feet_36}</p>
+                      </div>
+                      {result.totalCost && <div className="bg-white p-3 rounded-lg border border-orange-200">
+                        <p className="text-lg font-bold text-orange-900">${result.totalCost?.toFixed(2)}</p>
+                        <p className="text-gray-600">{contentData.total_cost_37}</p>
+                      </div>}
                     </div>
-                  </div>
+                  </div> : <div className="flex flex-col items-center justify-center">
+                    <Box className="w-8 h-8 text-orange-300 mb-2" />
+                    <p className="text-gray-500 text-center text-base">{contentData.select_shape_enter_dimensions_and_click_38}{" "}
+                      <span className="font-semibold text-orange-600">{contentData.calculate_39}</span>{contentData.to_see_volume_40}</p>
+                  </div>}
                 </CardContent>
               </Card>
             </div>
           </div>
-        </main>
 
-      </div>
-    </>;
+          {/* Detailed Results Section */}
+          {showResult && result && <div className="mt-8">
+            <Card className="shadow-2xl border-0 bg-white">
+              <CardHeader className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-t-lg border-b px-8 py-6">
+                <CardTitle className="flex items-center space-x-3 text-2xl">
+                  <Calculator className="w-6 h-6 text-orange-600" />
+                  <span>{contentData.detailed_volume_breakdown_41}</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="p-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl border border-orange-200">
+                    <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-amber-700 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Box className="w-6 h-6 text-white" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-orange-700 mb-2">{contentData.cubic_yards_42}</h3>
+                    <p className="text-3xl font-bold text-orange-900 mb-1">{result.volumeYd3?.toFixed(2)}</p>
+                    <p className="text-xl text-orange-600">{contentData.yd_43}</p>
+                  </div>
+                  <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl border border-orange-200">
+                    <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-amber-700 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Ruler className="w-6 h-6 text-white" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-orange-700 mb-2">{contentData.cubic_feet_44}</h3>
+                    <p className="text-3xl font-bold text-orange-900 mb-1">{result.volumeFt3?.toFixed(1)}</p>
+                    <p className="text-xl text-orange-600">{contentData.ft_45}</p>
+                  </div>
+                  {result.totalCost && <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl border border-orange-200">
+                    <div className="w-12 h-12 bg-gradient-to-r from-orange-600 to-amber-700 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <DollarSign className="w-6 h-6 text-white" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-orange-700 mb-2">{contentData.total_cost_46}</h3>
+                    <p className="text-3xl font-bold text-orange-900 mb-1">${result.totalCost?.toFixed(2)}</p>
+                    <p className="text-xl text-orange-600">{contentData.usd_47}</p>
+                  </div>}
+                </div>
+              </CardContent>
+            </Card>
+          </div>}
+          <CalculatorGuide data={guideData} />
+          <SimilarCalculators calculators={[{
+            calculatorName: "Gallons per Square Foot Calculator",
+            calculatorHref: "/construction/gallons-per-square-foot-calculator",
+            calculatorDescription: "Calculate the number of gallons needed per square foot for painting or flooring"
+          }, {
+            calculatorName: "Size to Weight Calculator",
+            calculatorHref: "/construction/size-to-weight-rectangular-cuboid-calculator",
+            calculatorDescription: "Calculate the weight of a rectangular cuboid given its dimensions and material density for shipping, construction, and engineering applications"
+          }, {
+            calculatorName: "Board Foot Calculator",
+            calculatorHref: "/construction/board-foot-calculator",
+            calculatorDescription: "Calculate board feet for lumber and building materials with precise measurements for woodworking and construction projects"
+          }
+          ]}
+            color="orange"
+            title="Related Construction Calculators" />
+          {/* Educational Content */}
+          <div className="mt-12">
+            <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-amber-100 p-8">
+              <CardHeader className="w-full flex flex-row items-center justify-start mb-4">
+                <div className="w-10 h-10 rounded-full bg-gradient-to-r from-orange-600 to-amber-700 flex items-center justify-center mr-3 shadow-lg">
+                  <Building2 className="w-6 h-6 text-white" />
+                </div>
+                <CardTitle className="text-2xl font-bold text-orange-700 tracking-tight">{contentData.understanding_cubic_yards_in_construction_48}</CardTitle>
+              </CardHeader>
+              <CardContent className="w-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div>
+                    <h3 className="text-lg font-semibold text-orange-700 mb-3">{contentData.why_cubic_yards_49}</h3>
+                    <p className="text-gray-700 mb-4">{contentData.cubic_yards_are_the_standard_unit_for_measuring_bu_50}</p>
+                    <h3 className="text-lg font-semibold text-orange-700 mb-3">{contentData.common_applications_51}</h3>
+                    <ul className="list-disc list-inside text-gray-700 space-y-2">
+                      <li>{contentData.concrete_for_foundations_driveways_patios_52}</li>
+                      <li>{contentData.gravel_for_driveways_and_landscaping_53}</li>
+                      <li>{contentData.soil_and_topsoil_for_gardening_54}</li>
+                      <li>{contentData.mulch_for_landscaping_projects_55}</li>
+                      <li>{contentData.sand_for_construction_and_landscaping_56}</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-orange-700 mb-3">{contentData.sample_calculation_57}</h3>
+                    <div className="bg-white p-4 rounded-lg border border-orange-200">
+                      <p className="text-gray-700 mb-2">
+                        <strong>{contentData.example_rectangular_driveway_58}</strong>
+                      </p>
+                      <p className="text-gray-700">{contentData.length_12_ft_59}</p>
+                      <p className="text-gray-700">{contentData.width_9_ft_60}</p>
+                      <p className="text-gray-700">{contentData.depth_2_ft_61}</p>
+                      <p className="text-gray-700">{contentData.volume_12_9_2_216_ft_62}</p>
+                      <p className="text-gray-700 font-semibold mt-2">{contentData.result_216_27_8_cubic_yards_63}</p>
+                    </div>
+                    <p className="text-sm text-gray-600 mt-3">
+                      <strong>{contentData.conversion_64}</strong>{contentData.always_divide_cubic_feet_by_27_to_get_cubic_yards_65}</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </main>
+
+    </div>
+  </>;
 }

@@ -1,0 +1,143 @@
+{
+    "color": "purple",
+    "sections": [
+        {
+            "heading": "Age Calculator: What It Is and How to Use It",
+            "content": "An Age Calculator is a free online tool that quickly calculates a person’s exact age in years, months, and days based on their date of birth. It’s useful for students, parents, professionals, or anyone who needs a fast and accurate age calculation."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Open the Calculator",
+                    "content": "Access it directly in your browser."
+                },
+                {
+                    "heading": "Enter Date of Birth",
+                    "content": "Input day, month, and year."
+                },
+                {
+                    "heading": "Select Reference Date",
+                    "content": "Choose today’s date or any past/future date."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Instantly see the age in years, months, and days."
+                },
+                {
+                    "heading": "Verify Output",
+                    "content": "Some calculators also show total days or weeks lived."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Results",
+                    "content": "No manual calculations needed."
+                },
+                {
+                    "heading": "Accurate",
+                    "content": "Accounts for leap years and varying month lengths."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on smartphones, tablets, and desktops."
+                },
+                {
+                    "heading": "Free & Easy to Use",
+                    "content": "No downloads or registration required."
+                },
+                {
+                    "heading": "Custom Date",
+                    "content": "Calculate age for any date in the past or future."
+                },
+                {
+                    "heading": "Multiple Units",
+                    "content": "Optionally see age in years, months, days, or total days/weeks."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Personal Use",
+                    "content": "Track birthdays and milestones."
+                },
+                {
+                    "heading": "Official Purposes",
+                    "content": "Estimate age for forms, applications, or ID verification."
+                },
+                {
+                    "heading": "Event Planning",
+                    "content": "Keep track of birthdays, anniversaries, or eligibility dates."
+                },
+                {
+                    "heading": "Education",
+                    "content": "Teach students about dates, time, and calendar differences."
+                },
+                {
+                    "heading": "Record Keeping",
+                    "content": "Maintain accurate age-based records."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Current Age",
+                    "content": "Date of Birth: 15 March 1995 | Reference Date: Today | Result: 30 years, 8 months, 12 days"
+                },
+                {
+                    "heading": "Example 2 – Future Age",
+                    "content": "Date of Birth: 10 June 2000 | Reference Date: 1 January 2030 | Result: 29 years, 6 months, 22 days"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is an Age Calculator?",
+            "a": "It calculates exact age in years, months, and days from a given date of birth."
+        },
+        {
+            "q": "Is this calculator free?",
+            "a": "Yes, it’s completely free to use."
+        },
+        {
+            "q": "Do I need software or installation?",
+            "a": "No, it works directly in your browser."
+        },
+        {
+            "q": "Can I use it on mobile devices?",
+            "a": "Yes, it’s fully mobile-friendly."
+        },
+        {
+            "q": "Can I calculate age for a future or past date?",
+            "a": "Yes, you can select any reference date."
+        },
+        {
+            "q": "Does it account for leap years?",
+            "a": "Yes, it accurately considers leap years and month lengths."
+        },
+        {
+            "q": "Can it show total days or weeks?",
+            "a": "Some versions provide total days or weeks lived."
+        },
+        {
+            "q": "Is it suitable for students?",
+            "a": "Yes, it’s simple and accurate for learning purposes."
+        },
+        {
+            "q": "Can it be used for official documents?",
+            "a": "It’s good for estimates, but official documents require proof like a birth certificate."
+        },
+        {
+            "q": "How accurate is it?",
+            "a": "It provides precise calculations based on the standard Gregorian calendar."
+        }
+    ]
+}

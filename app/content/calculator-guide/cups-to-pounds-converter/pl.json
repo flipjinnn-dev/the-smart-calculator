@@ -1,0 +1,151 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Przelicznik filiżanek na funty: co to jest i jak pomaga",
+      "content": "Przelicznik filiżanek na funty to bezpłatne narzędzie internetowe, które pozwala szybko i dokładnie przeliczyć miary składników pomiędzy filiżankami (objętością) a funtami (waga). Zapewnia prawidłowe skalowanie przepisów do pieczenia i gotowania."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wybierz Składnik",
+          "content": "Opcjonalne, ale zalecane w celu uzyskania dokładnych konwersji."
+        },
+        {
+          "heading": "Wprowadź ilość",
+          "content": "Wprowadź kwotę w filiżankach lub funtach."
+        },
+        {
+          "heading": "Wybierz jednostkę źródłową",
+          "content": "Wybierz filiżanki lub funty jako jednostkę początkową."
+        },
+        {
+          "heading": "Wybierz jednostkę docelową",
+          "content": "Wybierz jednostkę, na którą chcesz dokonać konwersji."
+        },
+        {
+          "heading": "Kliknij Konwertuj",
+          "content": "Uzyskaj natychmiastowy wynik konwersji."
+        },
+        {
+          "heading": "Użyj wagi dla dokładności",
+          "content": "Aby uzyskać precyzyjne pieczenie, należy stosować pomiary oparte na wadze."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowa konwersja",
+          "content": "Natychmiast przeliczaj filiżanki na funty lub funty na filiżanki."
+        },
+        {
+          "heading": "Obsługuje typowe składniki",
+          "content": "Mąka, cukier, masło, woda i inne standardowe składniki."
+        },
+        {
+          "heading": "Dokładność objętości do masy",
+          "content": "Konwersja oparta na składnikach zapewnia niezawodne wyniki."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa bezproblemowo na smartfonach, tabletach i komputerach stacjonarnych."
+        },
+        {
+          "heading": "Łatwy w użyciu",
+          "content": "Idealny zarówno dla początkujących, jak i profesjonalnych kucharzy."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Domowi piekarze i kucharze",
+          "content": "Ściśle przestrzegaj przepisów i łatwo konwertuj pomiary składników."
+        },
+        {
+          "heading": "Międzynarodowi użytkownicy przepisów",
+          "content": "Przełączaj się między pucharami amerykańskimi a funtami bez wysiłku."
+        },
+        {
+          "heading": "Kuchnie profesjonalne",
+          "content": "Zachowaj spójność i precyzję w przepisach."
+        },
+        {
+          "heading": "Śledzenie odżywiania i diety",
+          "content": "Dokładnie odmierzaj składniki pod względem kalorii i makroelementów."
+        },
+        {
+          "heading": "Studenci i miłośnicy kulinariów",
+          "content": "Przećwicz konwersję składników na potrzeby badań dotyczących gotowania i pieczenia."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe konwersje",
+      "subSections": [
+        {
+          "heading": "Mąka",
+          "content": "1 szklanka mąki → 0,276 funta"
+        },
+        {
+          "heading": "Cukier",
+          "content": "1 szklanka cukru → 0,44 funta"
+        },
+        {
+          "heading": "Masło",
+          "content": "1 szklanka masła → 0,5 funta"
+        },
+        {
+          "heading": "Odwrót mąki",
+          "content": "2 funty mąki → 7,25 filiżanek"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest konwerter filiżanek na funty?",
+      "a": "Szybko i dokładnie konwertuje pomiary składników pomiędzy filiżankami i funtami."
+    },
+    {
+      "q": "Czy może przerobić wszystkie składniki?",
+      "a": "Tak, w przypadku najpopularniejszych składników; mogą wystąpić niewielkie różnice w zależności od gęstości."
+    },
+    {
+      "q": "Czy muszę wybierać składnik?",
+      "a": "Opcjonalne, ale zalecane w celu precyzyjnej konwersji."
+    },
+    {
+      "q": "Czy jest odpowiedni do pieczenia?",
+      "a": "Tak, szczególnie w przypadku pomiarów opartych na wadze."
+    },
+    {
+      "q": "Czy mogę przeliczyć funty na kubki?",
+      "a": "Tak, konwerter działa w obie strony."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, w pełni kompatybilny ze smartfonami, tabletami i komputerami stacjonarnymi."
+    },
+    {
+      "q": "Czy ten konwerter jest darmowy?",
+      "a": "Tak, jest to całkowicie bezpłatne i dostępne online."
+    },
+    {
+      "q": "Czy mogę skalować przepisy za pomocą tego narzędzia?",
+      "a": "Tak, możesz łatwo dostosować ilości składników do dowolnego przepisu."
+    },
+    {
+      "q": "Kto powinien korzystać z tego kalkulatora?",
+      "a": "Kucharze domowi, piekarze, szefowie kuchni i wszyscy, którzy przestrzegają przepisów."
+    },
+    {
+      "q": "Dlaczego warto używać tego konwertera?",
+      "a": "Aby zapewnić dokładny pomiar składników i zmniejszyć błędy w gotowaniu i pieczeniu."
+    }
+  ]
+}

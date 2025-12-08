@@ -1,0 +1,124 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de tasas de interés: encuentre la tasa de préstamo adecuada al instante",
+      "content": "Administrar préstamos puede parecer complicado, pero comprender su tasa de interés no debería serlo. Nuestra Calculadora de tasas de interés lo ayuda a calcular de manera rápida y precisa las tasas de interés de los préstamos para hipotecas, préstamos para automóviles, préstamos personales, préstamos hipotecarios e incluso tarjetas de crédito. Ya sea que desee calcular el interés mensual del préstamo, encontrar la tasa de interés anual efectiva o comparar varias ofertas de préstamos, esta herramienta gratuita le brinda claridad instantánea."
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de tipos de interés?",
+      "subSections": [
+        {
+          "heading": "Ahorra tiempo",
+          "content": "No se requieren cálculos manuales."
+        },
+        {
+          "heading": "Planifique de forma más inteligente",
+          "content": "Conozca el costo exacto del préstamo."
+        },
+        {
+          "heading": "Comparar prestamistas",
+          "content": "Vea qué préstamo ofrece la mejor tasa."
+        },
+        {
+          "heading": "Mantente preciso",
+          "content": "Construido con las mismas fórmulas que utilizan los bancos y los prestamistas."
+        }
+      ]
+    },
+    {
+      "heading": "¿Cómo funciona la calculadora?",
+      "content": "Nuestra calculadora utiliza la fórmula de la tasa de interés del préstamo y los métodos de amortización del préstamo para brindarle resultados precisos.",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Ingrese el monto de su préstamo (principal)."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Agregue su pago mensual y el plazo del préstamo."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "La calculadora aplica la fórmula de la tasa de interés efectiva y muestra su tasa de interés mensual o anual."
+        },
+        {
+          "heading": "Nota",
+          "content": "Este es el mismo proceso que utilizan los prestamistas para calcular la APR frente a la tasa de interés y los calendarios de pago."
+        }
+      ]
+    },
+    {
+      "heading": "Tipos de préstamos que puedes calcular",
+      "subSections": [
+        {
+          "heading": "Calculadora de tasa de interés hipotecario",
+          "content": "Para préstamos hipotecarios."
+        },
+        {
+          "heading": "Calculadora de tasa de interés de préstamos para automóviles",
+          "content": "Financiamiento y arrendamiento de automóviles."
+        },
+        {
+          "heading": "Calculadora de tasa de interés de préstamos personales",
+          "content": "Préstamo sin garantía."
+        },
+        {
+          "heading": "Calculadora de tasa de interés para préstamos hipotecarios",
+          "content": "Financiación de inmuebles y viviendas."
+        },
+        {
+          "heading": "Calculadora de tasa de interés de tarjeta de crédito",
+          "content": "Saldos de crédito revolventes."
+        },
+        {
+          "heading": "Calculadora avanzada de tasas de interés de préstamos",
+          "content": "Con tarifas, APR y herramientas de comparación."
+        }
+      ]
+    },
+    {
+      "heading": "Perspectivas educativas: comprenda mejor su préstamo",
+      "subSections": [
+        {
+          "heading": "APR frente a tasa de interés",
+          "content": "Tasa de interés: El costo base del préstamo. APR (tasa de porcentaje anual): incluye intereses + tarifas, lo que brinda una imagen más clara del costo real de su préstamo."
+        },
+        {
+          "heading": "Tasa de interés mensual versus anual",
+          "content": "Mensual: útil para presupuestar y planificar EMI. Anual: Lo mejor para comparar prestamistas y costos a largo plazo."
+        },
+        {
+          "heading": "Tasa de interés nominal versus efectiva",
+          "content": "Tasa Nominal: Interés declarado sin capitalización. Tasa Anual Efectiva (EAR): Incluye la capitalización, mostrando el costo real."
+        }
+      ]
+    },
+    {
+      "heading": "Compare y encuentre el mejor préstamo",
+      "content": "¿Está buscando la mejor calculadora de tasas de interés de préstamos en línea? Nuestra herramienta también funciona como una herramienta de comparación de tasas de interés, lo que le permite verificar múltiples escenarios de préstamos en paralelo.\n- Compare las tasas de hipotecas y préstamos personales.\n- Comprender la APR de préstamos para automóviles frente a la tasa de interés.\n- Úselo como calculadora de EMI en línea con tasas de interés.\nEs gratuito, preciso y está diseñado para tomar decisiones financieras más inteligentes."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo calcular la tasa de interés de un préstamo manualmente?",
+      "a": "Se divide el interés total pagado por el capital y luego se ajusta según el plazo del préstamo. Nuestra herramienta automatiza esto al instante."
+    },
+    {
+      "q": "¿Puedo calcular la tasa de interés del pago mensual?",
+      "a": "Sí: ingrese el monto de su préstamo, el plazo y el pago mensual, y la calculadora encontrará la tasa."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre APR y tasa de interés?",
+      "a": "La APR incluye tarifas; la tasa de interés no. La TAE es siempre igual o superior a la tasa nominal."
+    },
+    {
+      "q": "¿Cómo calculan los bancos las tasas de interés de los préstamos?",
+      "a": "Los bancos utilizan factores como el puntaje crediticio, el tipo de préstamo y las tasas de mercado, y luego aplican fórmulas de amortización."
+    },
+    {
+      "q": "¿Esta calculadora es precisa para todos los préstamos?",
+      "a": "Sí, funciona para hipotecas, préstamos para automóviles, préstamos personales, tarjetas de crédito y más."
+    }
+  ]
+}

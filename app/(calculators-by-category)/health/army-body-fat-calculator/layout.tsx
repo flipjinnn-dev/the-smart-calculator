@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for army-body-fat-calculator
 const armybodyfatcalculatorMeta = {
@@ -66,5 +67,44 @@ export default async function ArmyBodyFatCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I calculate Army body fat percentage using this tool?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Enter your gender, age, weight, and abdominal (or required) measurement into the form. Then the calculator applies the Army tape-test formula (AR 600-9) to estimate your body fat percentage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the Army standards for body fat under AR 600-9?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The allowable body fat percentages vary by age and gender. The page provides a chart showing these standards per AR 600-9."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this calculator valid for official enlistment measurement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This is an estimation tool for preparation and self-check. Official measurements at recruitment or unit level are final."
+        }
+      }
+      /* Add more Q&A items here as needed */
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="army-body-fat-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

@@ -1,0 +1,131 @@
+{
+  "color": "Schwarz",
+  "sections": [
+    {
+      "heading": "Was ist ein IP-Subnetzrechner?",
+      "content": "Ein IP-Subnetzrechner ist ein kostenloses Online-Tool, das dabei hilft, Netzwerkadresse, Broadcast-Adresse, Hostbereich, Gesamtzahl der Hosts und Subnetzdetails für IPv4-Adressen mithilfe von Subnetzmasken oder CIDR-Notation zu berechnen."
+    },
+    {
+      "heading": "So funktioniert der IP-Subnetzrechner",
+      "subSections": [
+        {
+          "heading": "Eingaben erforderlich",
+          "content": "Eine gültige IPv4-Adresse (z. B. 192.168.1.0) und eine Subnetzmaske oder CIDR-Notation wie 255.255.255.0 oder /24."
+        },
+        {
+          "heading": "Berechnungsmethode",
+          "content": "Der Rechner verwendet Standard-Subnetzformeln, um Netzwerkadresse, Broadcast-Adresse, nutzbaren IP-Bereich und die Gesamtzahl der Hosts zu berechnen."
+        },
+        {
+          "heading": "Was als nächstes passiert",
+          "content": "Nachdem Sie auf „Berechnen“ geklickt haben, werden sofort Ergebnisse angezeigt, die alle für die Konfiguration oder das Lernen erforderlichen Subnetzdetails anzeigen."
+        }
+      ]
+    },
+    {
+      "heading": "Warum einen IP-Subnetzrechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Genaue Subnetzberechnung",
+          "content": "Berechnen Sie schnell Netzwerk-, Broadcast- und Hostbereiche ohne manuelle Berechnungen."
+        },
+        {
+          "heading": "Unterstützt CIDR-Notation",
+          "content": "Funktioniert mit Subnetzmasken oder CIDR-Formaten wie /26 oder /28 für flexible Eingaben."
+        },
+        {
+          "heading": "Schnell und benutzerfreundlich",
+          "content": "Sofortige Ergebnisse werden sowohl Anfängern als auch Profis deutlich angezeigt."
+        },
+        {
+          "heading": "Pädagogische und berufliche Nutzung",
+          "content": "Ideal zum Erlernen von Subnetzkonzepten oder zum Konfigurieren von Netzwerken."
+        },
+        {
+          "heading": "Bequemlichkeit",
+          "content": "Kostenlos, mobilfreundlich und in jedem Browser zugänglich."
+        }
+      ]
+    },
+    {
+      "heading": "Beispiel-Subnetzberechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Standard-Subnetz",
+          "content": "IP: 192.168.1.0, Maske: 255.255.255.0 (/24), Netzwerk: 192.168.1.0, Broadcast: 192.168.1.255, Nutzbarer Bereich: 192.168.1.1 – 192.168.1.254, Gesamtzahl der nutzbaren Hosts: 254."
+        },
+        {
+          "heading": "Beispiel 2 – Kleineres Subnetz",
+          "content": "IP: 10.0.0.0, Maske: 255.255.255.192 (/26), Netzwerk: 10.0.0.0, Broadcast: 10.0.0.63, Nutzbarer Bereich: 10.0.0.1 – 10.0.0.62, Gesamtzahl der nutzbaren Hosts: 62."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Netzwerkdesign und -planung",
+          "content": "Bestimmen Sie Subnetzbereiche für Unternehmensnetzwerke, Heimeinrichtungen oder Rechenzentren."
+        },
+        {
+          "heading": "Fehlerbehebung bei IP-Konflikten",
+          "content": "Identifizieren Sie die richtigen Hostbereiche, um überlappende IPs zu verhindern."
+        },
+        {
+          "heading": "Subnetting lernen",
+          "content": "Perfekt für Studenten, die CIDR- und Subnetzberechnungen üben."
+        },
+        {
+          "heading": "Dokumentation",
+          "content": "Pflegen Sie klare IP-Adressdatensätze für Netzwerke."
+        },
+        {
+          "heading": "Geräte- und Serverkonfiguration",
+          "content": "Weisen Sie IPs innerhalb ihres richtigen Subnetzbereichs korrekt zu."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein IP-Subnetzrechner?",
+      "a": "Es handelt sich um ein Online-Tool, das Netzwerkadresse, Broadcast-Adresse, Hostbereiche und Subnetzinformationen für IPv4 berechnet."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, die Online-Nutzung ist völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software?",
+      "a": "Nein, es funktioniert direkt in jedem modernen Webbrowser."
+    },
+    {
+      "q": "Unterstützt es die CIDR-Notation?",
+      "a": "Ja, Sie können entweder Subnetzmasken oder CIDR-Formate wie /24 oder /26 eingeben."
+    },
+    {
+      "q": "Wer kann es nutzen?",
+      "a": "Studenten, IT-Experten, Netzwerktechniker und alle, die mit IP-Adressierung arbeiten."
+    },
+    {
+      "q": "Ist es korrekt?",
+      "a": "Ja, es verwendet Standard-Netzwerkformeln für präzise Ergebnisse."
+    },
+    {
+      "q": "Kann es mir helfen, Subnetze zu erlernen?",
+      "a": "Auf jeden Fall ist es ideal zum Üben und Verstehen von Subnetzberechnungen."
+    },
+    {
+      "q": "Funktioniert es für IPv6?",
+      "a": "Dieses Tool ist hauptsächlich für die IPv4-Subnetzierung konzipiert."
+    },
+    {
+      "q": "Kann es bei der Fehlerbehebung in Netzwerken helfen?",
+      "a": "Ja, indem Netzwerk- und Hostbereiche angezeigt werden, um IP-Konflikte zu vermeiden."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, es funktioniert reibungslos auf Desktops, Tablets und Smartphones."
+    }
+  ]
+}

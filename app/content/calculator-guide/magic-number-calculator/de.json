@@ -1,0 +1,127 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Magischer Zahlenrechner: Einfache und genaue Anleitung",
+      "content": "Ein Magic Number-Rechner hilft Baseballfans dabei, schnell zu ermitteln, wie viele Siege (oder Niederlagen des Gegners) ein Team benötigt, um sich einen Platz in den Playoffs zu sichern oder seine Division zu gewinnen. Es verwendet die Siege Ihres Teams, die Niederlagen des gegnerischen Teams und die Gesamtzahl der Spiele, um automatisch die magische Zahl zu berechnen."
+    },
+    {
+      "heading": "So verwenden Sie den Magic Number-Rechner",
+      "subSections": [
+        {
+          "heading": "Geben Sie Teamsiege ein (W)",
+          "content": "Geben Sie die bisherigen Gesamtsiege Ihres Teams ein."
+        },
+        {
+          "heading": "Geben Sie rivalisierende Verluste ein (L)",
+          "content": "Geben Sie die Gesamtverluste des zweitplatzierten oder gegnerischen Teams ein."
+        },
+        {
+          "heading": "Geben Sie die Gesamtzahl der Spiele ein",
+          "content": "Geben Sie die Gesamtzahl der Spiele der regulären Saison ein."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Erhalten Sie sofort die magische Zahl."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Schnell und genau",
+          "content": "Berechnet schnell und präzise die magische Zahl."
+        },
+        {
+          "heading": "Anfängerfreundlich",
+          "content": "Einfache Schnittstelle für Fans und Analysten."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf allen Geräten."
+        },
+        {
+          "heading": "Ideal für MLB-Fans und -Trainer",
+          "content": "Verfolgen Sie Playoff-Chancen effizient."
+        },
+        {
+          "heading": "Frei",
+          "content": "Keine Kosten, keine Anmeldung erforderlich."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Playoff-Tracking",
+          "content": "Überwachen Sie die Platzierungen und mögliche Siegszenarien."
+        },
+        {
+          "heading": "Teamvergleich",
+          "content": "Vergleichen Sie die Teams im letzten Abschnitt der Saison."
+        },
+        {
+          "heading": "Sportanalyse",
+          "content": "Prognostizieren Sie Ergebnisse und bewerten Sie die Teamleistung."
+        },
+        {
+          "heading": "Entscheidungsfindung in Echtzeit",
+          "content": "Hilft Fans und Rundfunkveranstaltern, den Fortschritt live zu verfolgen."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnung",
+      "subSections": [
+        {
+          "heading": "Beispiel",
+          "content": "Ihr Team: 88 Siege, Rivale: 67 Niederlagen, Saisonspiele: 162 → Magic Number = 162 − (88 + 67) + 1 = 8. Das bedeutet, dass Ihr Team 8 weitere Siege oder Gegnerverluste benötigt, um die Division zu gewinnen."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist eine magische Zahl im Baseball?",
+      "a": "Dabei handelt es sich um die Anzahl der Siege oder Niederlagen eines Gegners, die ein Team benötigt, um sich einen Platz in den Playoffs zu sichern."
+    },
+    {
+      "q": "Wie funktioniert der Magic Number-Rechner?",
+      "a": "Es verwendet die Formel: Magische Zahl = Gesamtzahl der Spiele − (Teamsiege + Rivalenverluste) + 1."
+    },
+    {
+      "q": "Welche Informationen benötige ich zur Berechnung?",
+      "a": "Teamsiege, Niederlagen gegnerischer Teams und Gesamtsaisonspiele."
+    },
+    {
+      "q": "Ist dieses Tool nur für MLB nützlich?",
+      "a": "Meistens ja, aber es kann für jede Baseballliga mit ähnlichen Regeln verwendet werden."
+    },
+    {
+      "q": "Verringert sich die magische Zahl nach jedem Spiel?",
+      "a": "Ja, ein Teamsieg oder eine Niederlage des Gegners senkt die Zahl."
+    },
+    {
+      "q": "Können mehrere Rivalen die magische Zahl beeinflussen?",
+      "a": "Ja, aber die Berechnung konzentriert sich normalerweise auf den nächsten Konkurrenten."
+    },
+    {
+      "q": "Kann ich diesen Rechner auf Mobilgeräten verwenden?",
+      "a": "Absolut, es funktioniert auf allen Geräten reibungslos."
+    },
+    {
+      "q": "Ist die magische Zahl dasselbe wie die Ausscheidungszahl?",
+      "a": "Nein, die magische Zahl zeigt, wie nah ein Team am Sieg ist. Die Ausscheidungszahl gibt an, wie nah ein Team am Ausscheiden ist."
+    },
+    {
+      "q": "Benötige ich Baseballkenntnisse, um dieses Tool nutzen zu können?",
+      "a": "Überhaupt nicht, der Rechner ist einsteigerfreundlich."
+    },
+    {
+      "q": "Ist der Rechner kostenlos?",
+      "a": "Ja, 100 % kostenlos mit unbegrenzter Nutzung."
+    }
+  ]
+}

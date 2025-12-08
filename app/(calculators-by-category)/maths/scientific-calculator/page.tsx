@@ -3,7 +3,7 @@
 import { useCalculatorContent } from "@/hooks/useCalculatorContent";
 import { usePathname } from "next/navigation";
 import { useRef, useState } from "react";
-
+import CalculatorGuide from "@/components/calculator-guide";
 import { Calculator } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -37,7 +37,16 @@ export default function ScientificCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('scientific-calculator', language, "calculator-ui");
-
+  const { content: guideContent } = useCalculatorContent(
+    'scientific-calculator',
+    language,
+    "calculator-guide"
+  )
+  const guideData = guideContent || {
+    color: 'blue',
+    sections: [],
+    faq: []
+  }
   // Use content or fallback to defaults
   const contentData = content || {
     "pageTitle": "",
@@ -114,101 +123,102 @@ export default function ScientificCalculator() {
   }
   return <>
 
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
 
-        {/* Main Content */}
-        <main className="py-8 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-8">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
-                  <Calculator className="w-8 h-8 text-white" />
-                </div>
-              </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
-            </div>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              {/* Calculator Form (left) */}
-              <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 bg-white">
-                  <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
-                    <CardTitle className="flex items-center space-x-3 text-2xl">
-                      <Calculator className="w-6 h-6 text-blue-600" />
-                      <span>{contentData.scientific_calculations_0}</span>
-                    </CardTitle>
-                    <CardDescription className="text-base">{contentData.enter_your_expression_or_use_the_buttons_below_1}</CardDescription>
-                  </CardHeader>
-                  <CardContent className="p-8">
-                    <div className="mb-6 flex items-center gap-4">
-                      <Label className="text-base font-semibold">{contentData.expression_2}</Label>
-                      <Input type="text" value={expression} onChange={e => setExpression(e.target.value)} className="h-12 text-lg mt-2" placeholder="e.g. sin(30)+5^2" />
-                      <span className="text-xs text-gray-500">{deg ? "DEG" : "RAD"}</span>
-                      {memory && <span className="text-xs text-blue-600">{contentData.m_3}{memory}</span>}
-                    </div>
-                    <div className="grid grid-cols-5 gap-2 mb-6">
-                      {buttons.map((row, rIdx) => row.map((btn, i) => btn ? <Button key={rIdx + '-' + i} variant="outline" className="h-10 text-base" onClick={() => handleClick(btn)}>{btn}</Button> : <div key={rIdx + '-' + i}></div>))}
-                    </div>
-                    <Button onClick={() => setResult(evaluate(expression, deg))} className="w-full h-12 text-lg bg-gradient-to-r from-blue-500 to-blue-600">{contentData.calculate_4}</Button>
-                  </CardContent>
-                </Card>
-              </div>
-              {/* Result Card (right side) */}
-              <div className="">
-                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-blue-200 h-full flex flex-col justify-center items-center p-8">
-                  <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center mb-3 shadow-lg">
-                      <Calculator className="w-6 h-6 text-white" />
-                    </div>
-                    <CardTitle className="text-2xl font-bold text-blue-700 tracking-tight">{contentData.result_5}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="w-[90%] flex flex-col items-center justify-center">
-                    {result !== null ? <div className="text-center">
-                        <p className="text-lg text-gray-600 mb-2 font-medium">{contentData.calculated_value_6}</p>
-                        <p className="text-5xl w-[80%] font-extrabold text-blue-900 mb-2 drop-shadow-lg break-words whitespace-pre-wrap max-w-xs lg:max-w-sm xl:max-w-md mx-auto">{result}</p>
-                        <div className="mt-2 text-sm text-gray-500">{contentData.you_can_copy_or_use_this_value_as_needed_7}</div>
-                      </div> : <div className="flex flex-col items-center justify-center">
-                        <Calculator className="w-8 h-8 text-blue-300 mb-2" />
-                        <p className="text-gray-500 text-center text-base">{contentData.enter_an_expression_and_click_8}<span className="font-semibold text-blue-600">{contentData.calculate_9}</span>{contentData.to_see_result_10}</p>
-                      </div>}
-                  </CardContent>
-                </Card>
+      {/* Main Content */}
+      <main className="py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
+                <Calculator className="w-8 h-8 text-white" />
               </div>
             </div>
-            
-            {/* How to use section below both cards */}
-            <div className="mt-12">
-              <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-blue-200 flex flex-col justify-center items-start p-8">
-                <CardHeader className="w-full flex flex-row items-center justify-start mb-2">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center mr-3 shadow-lg">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Calculator Form (left) */}
+            <div className="lg:col-span-2">
+              <Card className="shadow-2xl border-0 bg-white">
+                <CardHeader className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-t-lg border-b px-8 py-6">
+                  <CardTitle className="flex items-center space-x-3 text-2xl">
+                    <Calculator className="w-6 h-6 text-blue-600" />
+                    <span>{contentData.scientific_calculations_0}</span>
+                  </CardTitle>
+                  <CardDescription className="text-base">{contentData.enter_your_expression_or_use_the_buttons_below_1}</CardDescription>
+                </CardHeader>
+                <CardContent className="p-8">
+                  <div className="mb-6 flex items-center gap-4">
+                    <Label className="text-base font-semibold">{contentData.expression_2}</Label>
+                    <Input type="text" value={expression} onChange={e => setExpression(e.target.value)} className="h-12 text-lg mt-2" placeholder="e.g. sin(30)+5^2" />
+                    <span className="text-xs text-gray-500">{deg ? "DEG" : "RAD"}</span>
+                    {memory && <span className="text-xs text-blue-600">{contentData.m_3}{memory}</span>}
+                  </div>
+                  <div className="grid grid-cols-5 gap-2 mb-6">
+                    {buttons.map((row, rIdx) => row.map((btn, i) => btn ? <Button key={rIdx + '-' + i} variant="outline" className="h-10 text-base" onClick={() => handleClick(btn)}>{btn}</Button> : <div key={rIdx + '-' + i}></div>))}
+                  </div>
+                  <Button onClick={() => setResult(evaluate(expression, deg))} className="w-full h-12 text-lg bg-gradient-to-r from-blue-500 to-blue-600">{contentData.calculate_4}</Button>
+                </CardContent>
+              </Card>
+            </div>
+            {/* Result Card (right side) */}
+            <div className="">
+              <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-blue-200 h-full flex flex-col justify-center items-center p-8">
+                <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center mb-3 shadow-lg">
                     <Calculator className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-2xl font-bold text-blue-700 tracking-tight mb-2 text-left">{contentData.how_to_use_this_calculator_11}</CardTitle>
+                  <CardTitle className="text-2xl font-bold text-blue-700 tracking-tight">{contentData.result_5}</CardTitle>
                 </CardHeader>
-                <CardContent className="w-full flex flex-col items-start justify-center">
-                  <ul className="list-none w-full max-w-md mx-0 text-gray-700 space-y-4 text-base text-left">
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-200 text-blue-700 font-bold">{contentData.k_1_12}</span>
-                      <span>{contentData.type_your_math_expression_or_use_the_buttons_13}</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-200 text-blue-700 font-bold">{contentData.k_2_14}</span>
-                      <span>{contentData.use_functions_like_sinx_cosx_tanx_logx_x_for_power_15}</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-200 text-blue-700 font-bold">{contentData.k_3_16}</span>
-                      <span>{contentData.click_17}<span className="font-semibold text-blue-600">{contentData.calculate_18}</span>{contentData.to_see_the_result_instantly_19}</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-200 text-blue-700 font-bold">{contentData.k_4_20}</span>
-                      <span>{contentData.use_degrad_toggle_ans_for_last_answer_memory_butto_21}</span>
-                    </li>
-                  </ul>
+                <CardContent className="w-[90%] flex flex-col items-center justify-center">
+                  {result !== null ? <div className="text-center">
+                    <p className="text-lg text-gray-600 mb-2 font-medium">{contentData.calculated_value_6}</p>
+                    <p className="text-5xl w-[80%] font-extrabold text-blue-900 mb-2 drop-shadow-lg break-words whitespace-pre-wrap max-w-xs lg:max-w-sm xl:max-w-md mx-auto">{result}</p>
+                    <div className="mt-2 text-sm text-gray-500">{contentData.you_can_copy_or_use_this_value_as_needed_7}</div>
+                  </div> : <div className="flex flex-col items-center justify-center">
+                    <Calculator className="w-8 h-8 text-blue-300 mb-2" />
+                    <p className="text-gray-500 text-center text-base">{contentData.enter_an_expression_and_click_8}<span className="font-semibold text-blue-600">{contentData.calculate_9}</span>{contentData.to_see_result_10}</p>
+                  </div>}
                 </CardContent>
               </Card>
             </div>
           </div>
-          <SimilarCalculators calculators={[{
+
+          {/* How to use section below both cards */}
+          <div className="mt-12">
+            <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-blue-200 flex flex-col justify-center items-start p-8">
+              <CardHeader className="w-full flex flex-row items-center justify-start mb-2">
+                <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center mr-3 shadow-lg">
+                  <Calculator className="w-6 h-6 text-white" />
+                </div>
+                <CardTitle className="text-2xl font-bold text-blue-700 tracking-tight mb-2 text-left">{contentData.how_to_use_this_calculator_11}</CardTitle>
+              </CardHeader>
+              <CardContent className="w-full flex flex-col items-start justify-center">
+                <ul className="list-none w-full max-w-md mx-0 text-gray-700 space-y-4 text-base text-left">
+                  <li className="flex items-start gap-3">
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-200 text-blue-700 font-bold">{contentData.k_1_12}</span>
+                    <span>{contentData.type_your_math_expression_or_use_the_buttons_13}</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-200 text-blue-700 font-bold">{contentData.k_2_14}</span>
+                    <span>{contentData.use_functions_like_sinx_cosx_tanx_logx_x_for_power_15}</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-200 text-blue-700 font-bold">{contentData.k_3_16}</span>
+                    <span>{contentData.click_17}<span className="font-semibold text-blue-600">{contentData.calculate_18}</span>{contentData.to_see_the_result_instantly_19}</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-200 text-blue-700 font-bold">{contentData.k_4_20}</span>
+                    <span>{contentData.use_degrad_toggle_ans_for_last_answer_memory_butto_21}</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+        <CalculatorGuide data={guideData} />
+        <SimilarCalculators calculators={[{
           calculatorName: "Critical Point Calculator",
           calculatorHref: "/maths/critical-point-calculator",
           calculatorDescription: "Find critical points of single-variable or multivariable functions by solving f′(x)=0 or ∂f/∂x=0 and ∂f/∂y=0. Identify where derivatives are zero or undefined."
@@ -216,12 +226,12 @@ export default function ScientificCalculator() {
           calculatorName: "Simpson's Rule Calculator",
           calculatorHref: "/maths/simpsons-rule-calculator",
           calculatorDescription: "Calculate definite integrals using Simpson's Rule"
-        }, 
-        ]} 
-        color="blue" 
-        title="Related Math Calculators" />
-        </main>
-        {/* Footer */}
-      </div>
-    </>;
+        },
+        ]}
+          color="blue"
+          title="Related Math Calculators" />
+      </main>
+      {/* Footer */}
+    </div>
+  </>;
 }

@@ -1,0 +1,143 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator średniej mrugnięcia: co to jest i jak działa",
+      "content": "Kalkulator średniej odbicia to bezpłatne narzędzie internetowe, które pomaga w natychmiastowym obliczeniu średniej odbicia zawodnika na podstawie trafień i oficjalnych uderzeń. Średnia odbijania pokazuje, jak często zawodnik zostaje trafiony podczas odbijania i jest kluczową statystyką baseballu."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wpisz trafienia",
+          "content": "Wpisz liczbę trafień gracza."
+        },
+        {
+          "heading": "Wpisz At-Bats",
+          "content": "Podaj oficjalne uderzenia nietoperzy (z wyłączeniem spacerów, ofiar i uderzeń na boisku)."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast uzyskaj średnią odbijania."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Aby uzyskać dokładność, upewnij się, że poprawnie liczysz oficjalne uderzenia nietoperzy."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe obliczenia",
+          "content": "Oblicza średnią mrugnięcia w sekundach."
+        },
+        {
+          "heading": "Dokładne i niezawodne",
+          "content": "Używa standardowej formuły: Trafienia ÷ At-Bats."
+        },
+        {
+          "heading": "Łatwy w użyciu",
+          "content": "Nie ma potrzeby ręcznej matematyki."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na smartfonach, tabletach i komputerach stacjonarnych."
+        },
+        {
+          "heading": "Idealny do baseballu fantasy i analizy",
+          "content": "Łatwe śledzenie wyników dla zawodników, trenerów i analityków."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Gracze i trenerzy",
+          "content": "Oceń wydajność na mecz lub sezon."
+        },
+        {
+          "heading": "Fani i Analitycy",
+          "content": "Szybko porównaj średnie graczy."
+        },
+        {
+          "heading": "Baseball młodzieżowy i amatorski",
+          "content": "Śledź statystyki bez skomplikowanych obliczeń."
+        },
+        {
+          "heading": "Fantastyczny baseball",
+          "content": "Monitoruj graczy pod kątem przeciągów lub punktacji."
+        },
+        {
+          "heading": "Skauci i ocena talentów",
+          "content": "Skutecznie oceniaj spójność odbijania."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1",
+          "content": "45 trafień ÷ 150 at-batów = 0,300"
+        },
+        {
+          "heading": "Przykład 2",
+          "content": "60 trafień ÷ 200 at-batów = 0,300"
+        },
+        {
+          "heading": "Przykład 3",
+          "content": "25 trafień ÷ 100 at-batów = 0,250"
+        },
+        {
+          "heading": "Przykład 4",
+          "content": "80 trafień ÷ 250 uderzeń = 0,320"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator średniej odbijania?",
+      "a": "Oblicza średnią odbijania gracza na podstawie trafień i oficjalnych uderzeń."
+    },
+    {
+      "q": "Jak obliczana jest średnia odbijania?",
+      "a": "Skorzystaj ze wzoru: Hits ÷ At-Bats."
+    },
+    {
+      "q": "Czy obejmuje to spacery i ofiary?",
+      "a": "Nie, liczone są tylko oficjalne uderzenia."
+    },
+    {
+      "q": "Czy wynik jest dokładny?",
+      "a": "Tak, w oparciu o wprowadzone trafienia i uderzenia."
+    },
+    {
+      "q": "Czy mogę go używać do gry w fantasy baseball?",
+      "a": "Tak, pomaga szybko śledzić statystyki graczy."
+    },
+    {
+      "q": "Czy ten kalkulator jest przystosowany do urządzeń mobilnych?",
+      "a": "Tak, działa na smartfonach, tabletach i komputerach stacjonarnych."
+    },
+    {
+      "q": "Czy korzystanie z niego jest bezpłatne?",
+      "a": "Tak, całkowicie bezpłatnie i online."
+    },
+    {
+      "q": "Kto powinien korzystać z tego kalkulatora?",
+      "a": "Gracze, trenerzy, kibice, analitycy i miłośnicy fantasy."
+    },
+    {
+      "q": "Dlaczego warto korzystać z kalkulatora średniej mrugnięcia?",
+      "a": "Oszczędza czas i zapewnia dokładne obliczenia."
+    },
+    {
+      "q": "Czy może śledzić wielu graczy?",
+      "a": "Tak, wprowadzając statystyki indywidualnie dla każdego gracza."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "pageTitle": "Calculadora de tipo de cuerpo",
+  "pageDescription": "Descubre tu tipo de cuerpo según tus medidas con nuestra completa calculadora de tipo de cuerpo",
+  "form": {
+    "labels": {
+      "age": "Edad (años)",
+      "gender": "Género",
+      "height": "Altura",
+      "weight": "Peso",
+      "unitSystem": "Sistema de unidades",
+      "bustChest": "Busto/circunferencia del pecho",
+      "waist": "Circunferencia de la cintura",
+      "hip": "Circunferencia de la cadera",
+      "shoulder": "Ancho de hombros (solo hombres)"
+    },
+    "placeholders": {
+      "age": "Introduce la edad",
+      "heightFt": "Pies",
+      "heightIn": "Pulgadas",
+      "heightCm": "Introduzca la altura en cm",
+      "weight": "Introduzca el peso en {unidad}",
+      "bustChest": "Ingrese la medida del busto/pecho",
+      "waist": "Ingrese la medida de la cintura",
+      "hip": "Introduzca la medida de la cadera",
+      "shoulder": "Introduzca el ancho de los hombros"
+    },
+    "buttons": {
+      "calculate": "Calcular el tipo de cuerpo",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades estadounidenses (pies/pulgadas, libras)",
+      "metric": "Unidades métricas (cm, kg)"
+    }
+  },
+  "results": {
+    "bodyType": "Tipo de cuerpo",
+    "measurements": "Tus medidas",
+    "bodyTypeResultsTitle": "Resultados del tipo de cuerpo",
+    "whr": "Relación cintura-cadera",
+    "bodyTypes": {
+      "hourglass": "Reloj de arena",
+      "pear": "Pera",
+      "apple": "Manzana",
+      "rectangle": "Rectángulo",
+      "invertedTriangle": "Triángulo invertido"
+    }
+  },
+  "educational": {
+    "bodyTypeInfo": "Información del tipo de cuerpo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Consulta a un profesional",
+    "bodyTypeDescriptions": {
+      "hourglass": {
+        "title": "Reloj de arena",
+        "description": "Medidas equilibradas de busto y cadera con cintura bien definida."
+      },
+      "pear": {
+        "title": "Pera",
+        "description": "Caderas y muslos más anchos con busto y hombros más estrechos."
+      },
+      "apple": {
+        "title": "Manzana",
+        "description": "Cintura más ancha y parte superior del cuerpo con caderas más estrechas."
+      },
+      "rectangle": {
+        "title": "Rectángulo",
+        "description": "Medidas similares para busto, cintura y caderas."
+      },
+      "invertedTriangle": {
+        "title": "Triángulo invertido",
+        "description": "Hombros y busto más anchos con caderas más estrechas."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones y no es una herramienta de diagnóstico.",
+      "generalGuidelines": "Los tipos de cuerpo son pautas generales y pueden no aplicarse a todos"
+    },
+    "importantNotesList": [
+      "El tipo de cuerpo puede influir en las elecciones de fitness y estilo",
+      "Consulte a profesionales de la salud para obtener asesoramiento personalizado.",
+      "Consulte a profesionales de la salud para obtener asesoramiento personalizado.",
+      "El tipo de cuerpo puede cambiar con la edad, el nivel de condición física y otros factores."
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Introduce tus medidas para determinar tu tipo de cuerpo.",
+    "bodyTypeResult": "Tu tipo de cuerpo es: {bodyType}",
+    "whrResult": "Tu relación cintura-cadera es: {whr}",
+    "measurementInstructions": "Tome medidas en la parte más completa de cada área.",
+    "assessmentResult": "Resultado de la evaluación:",
+    "bodyTypeAnalysis": "Análisis del tipo de cuerpo"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones basadas en fórmulas matemáticas y no debe utilizarse como sustituto del asesoramiento profesional. Los resultados individuales pueden variar según factores no tenidos en cuenta en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Consulte a un profesional de la salud",
+    "content": "Para obtener asesoramiento personalizado sobre salud y estado físico, consulte con un profesional de la salud o un entrenador físico certificado que pueda brindarle orientación basada en su historial de salud completo y sus circunstancias individuales."
+  },
+  "errors": {
+    "age": "Por favor ingresa una edad válida (1-120)",
+    "gender": "Por favor seleccione género",
+    "heightFt": "Por favor introduce pies válidos",
+    "heightIn": "Por favor ingrese pulgadas válidas (0-11)",
+    "heightCm": "Por favor introduzca una altura válida en cm.",
+    "weight": "Por favor introduce un peso válido",
+    "bustChest": "Por favor ingresa una medida de busto/pecho válida",
+    "waist": "Por favor ingresa una medida de cintura válida",
+    "hip": "Por favor ingresa una medida de cadera válida",
+    "shoulder": "Por favor ingresa un ancho de hombros válido"
+  },
+  "tooltips": {
+    "age": "La edad puede afectar la composición corporal",
+    "height": "Tu medida de altura actual",
+    "weight": "Tu peso corporal actual",
+    "bustChest": "Mide en la parte más amplia de tu busto o pecho.",
+    "waist": "Mide en la parte más estrecha de tu torso.",
+    "hip": "Mide en la parte más ancha de tus caderas.",
+    "shoulder": "Mida la espalda de hombro a hombro (solo hombres)"
+  },
+  "body_measurements_0": "Medidas corporales",
+  "enter_your_measurements_to_determine_body_shape_an_1": "Ingrese sus medidas para determinar la forma del cuerpo y la relación cintura-cadera",
+  "unit_system_2": "Sistema de unidades",
+  "inches_3": "Pulgadas",
+  "centimeters_4": "Centímetros",
+  "bust_size_5": "Tamaño del busto (",
+  "waist_size_6": "Tamaño de cintura (",
+  "high_hip_size_7": "Tamaño de cadera alta (",
+  "measured_about_7_inches_18_cm_below_waist_8": "Mide aproximadamente 7 pulgadas/18 cm por debajo de la cintura.",
+  "hip_size_9": "Tamaño de cadera (",
+  "measured_at_the_widest_part_of_hips_10": "Medido en la parte más ancha de las caderas.",
+  "calculate_type_11": "Calcular tipo",
+  "reset_12": "Reiniciar",
+  "body_analysis_13": "Análisis corporal",
+  "whr_14": "WHR:",
+  "enter_all_measurements_and_click_calculate_type_to_15": "Ingrese todas las medidas y haga clic en \"Calcular tipo\" para ver su análisis.",
+  "body_type_analysis_results_16": "Resultados del análisis del tipo de cuerpo",
+  "body_shape_classification_17": "Clasificación de la forma del cuerpo",
+  "classification_logic_18": "Lógica de clasificación:",
+  "waisthip_ratio_whr_19": "Relación cintura-cadera (WHR)",
+  "waist_hip_ratio_20": "Relación cintura ÷ cadera",
+  "women_21": "Mujer:",
+  "k_085_low_risk_085_higher_risk_22": "≤0,85 Riesgo bajo, >0,85 Riesgo mayor",
+  "men_23": "Hombres:",
+  "k_090_low_risk_090_higher_risk_24": "≤0,90 Riesgo bajo, >0,90 Riesgo mayor",
+  "your_measurements_25": "Tus medidas",
+  "bust_26": "Busto:",
+  "waist_27": "Cintura:",
+  "high_hip_28": "Cadera alta:",
+  "hip_29": "Cadera:",
+  "important_notice_30": "Aviso importante",
+  "this_tool_is_for_informational_purposes_only_and_n_31": "Esta herramienta tiene fines informativos únicamente y no sustituye el consejo médico. cuerpo\n                            Las clasificaciones de formas son pautas generales y las variaciones individuales son normales.",
+  "understanding_body_types_whr_32": "Comprender los tipos de cuerpo y el WHR",
+  "body_shape_types_33": "Tipos de forma del cuerpo",
+  "hourglass_34": "Reloj de arena:",
+  "balanced_bust_and_hips_with_defined_waist_35": "Busto y caderas equilibrados con cintura definida.",
+  "bottom_hourglass_36": "Reloj de arena inferior:",
+  "slightly_larger_hips_with_defined_waist_37": "Caderas ligeramente más grandes con cintura definida.",
+  "top_hourglass_38": "Reloj de arena superior:",
+  "slightly_larger_bust_with_defined_waist_39": "Busto ligeramente más grande con cintura definida.",
+  "spoon_40": "Cuchara:",
+  "fuller_hips_and_thighs_smaller_bust_41": "Caderas y muslos más llenos, busto más pequeño.",
+  "triangle_pear_42": "Triángulo (Pera):",
+  "larger_hips_than_bust_43": "Caderas más grandes que el busto.",
+  "inverted_triangle_44": "Triángulo invertido:",
+  "larger_bust_than_hips_45": "Busto más grande que las caderas",
+  "rectangle_46": "Rectángulo:",
+  "similar_bust_waist_and_hip_measurements_47": "Medidas similares de busto, cintura y cadera.",
+  "health_significance_48": "Importancia para la salud",
+  "whr_health_risks_49": "Riesgos para la salud de WHR:",
+  "higher_whr_indicates_more_abdominal_fat_associated_50": "Un WHR más alto indica más grasa abdominal, asociada con un mayor riesgo de enfermedad cardiovascular\n                              enfermedad y diabetes.",
+  "body_shape_health_51": "Forma del cuerpo y salud:",
+  "apple_shapes_higher_whr_may_have_higher_health_ris_52": "Las formas de manzana (mayor WHR) pueden tener mayores riesgos para la salud que las formas de pera, pero las formas individuales\n                              Los factores varían mucho."
+}

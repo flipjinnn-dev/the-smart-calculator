@@ -1,0 +1,131 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora del teorema del valor medio?",
+      "content": "La calculadora del teorema del valor medio (MVT) es una herramienta en línea que encuentra el punto c donde la tasa de cambio instantánea es igual a la tasa de cambio promedio durante un intervalo. Es perfecto para que estudiantes, profesores y profesionales verifiquen cálculos rápidamente."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Ingrese la función",
+          "content": "Ingrese la función f(x) que desea analizar, por ejemplo, f(x) = x^2 + 3x + 2."
+        },
+        {
+          "heading": "Introduzca el intervalo [a, b]",
+          "content": "Proporcione el punto inicial a y el punto final b del intervalo."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "La calculadora encuentra instantáneamente el valor(es) de c donde la pendiente de la tangente es igual a la pendiente de la recta secante sobre [a,b]."
+        },
+        {
+          "heading": "Revisar resultados",
+          "content": "El resultado muestra los valores exactos de c, lo que hace que la verificación sea rápida y sencilla."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave de la calculadora",
+      "subSections": [
+        {
+          "heading": "Acceso gratuito en línea",
+          "content": "No se requiere instalación ni registro."
+        },
+        {
+          "heading": "Cálculos instantáneos",
+          "content": "Obtenga resultados en segundos."
+        },
+        {
+          "heading": "Admite múltiples funciones",
+          "content": "Funciona con polinomios, funciones trigonométricas, exponenciales y logarítmicas."
+        },
+        {
+          "heading": "Interfaz fácil de usar",
+          "content": "Diseñado tanto para principiantes como para usuarios avanzados."
+        },
+        {
+          "heading": "Resultados precisos",
+          "content": "Utiliza cálculo simbólico para proporcionar valores precisos de c."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Educación",
+          "content": "Ayuda a los estudiantes a comprender el teorema del valor medio conceptual y prácticamente."
+        },
+        {
+          "heading": "Tareas y asignaciones",
+          "content": "Resuelve problemas rápidamente con resultados precisos."
+        },
+        {
+          "heading": "Preparación de exámenes",
+          "content": "Practica los cálculos de manera eficiente."
+        },
+        {
+          "heading": "Investigación e ingeniería",
+          "content": "Analizar la tasa de cambio en el modelado matemático."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1",
+          "content": "Función: f(x) = x^2, Intervalo: [1, 3]\nPendiente de la secante: (f(3) - f(1)) / (3 - 1) = (9 - 1)/2 = 4\nDerivada: f'(x) = 2x\nConjunto f'(c) = 4 → 2c = 4 → c = 2"
+        },
+        {
+          "heading": "Ejemplo 2",
+          "content": "Función: f(x) = x^3 - 6x + 1, Intervalo: [0, 3]\nPendiente de la secante: (f(3) - f(0)) / (3 - 0) = 3,333\nDerivada: f'(x) = 3x^2 - 6\nEstablecer f'(c) = 3.333 → Resolver para c → c ≈ 1.88"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora del teorema del valor medio?",
+      "a": "Es una herramienta en línea que encuentra el punto c donde la tasa de cambio instantánea es igual a la tasa de cambio promedio durante un intervalo."
+    },
+    {
+      "q": "¿La calculadora es gratuita?",
+      "a": "Sí, es una calculadora en línea gratuita del teorema del valor medio."
+    },
+    {
+      "q": "¿Qué funciones son compatibles?",
+      "a": "Polinomios, funciones trigonométricas, exponenciales, logarítmicas y otras funciones diferenciables."
+    },
+    {
+      "q": "¿Necesito registrarme para usarlo?",
+      "a": "No es necesario registrarse ni instalar."
+    },
+    {
+      "q": "¿Puede encontrar múltiples valores de c?",
+      "a": "Sí, si existen múltiples soluciones dentro del intervalo, la calculadora muestra todos los valores de c posibles."
+    },
+    {
+      "q": "¿Es preciso para funciones complejas?",
+      "a": "La calculadora utiliza cálculo simbólico para obtener resultados precisos, pero las funciones muy complejas o por partes pueden requerir verificación manual."
+    },
+    {
+      "q": "¿Pueden los estudiantes usarlo para la tarea?",
+      "a": "Absolutamente, es perfecto para aprender, practicar y resolver tareas de manera eficiente."
+    },
+    {
+      "q": "¿Explica los pasos?",
+      "a": "La mayoría de las calculadoras proporcionan el cálculo de la derivada y la pendiente junto con el resultado."
+    },
+    {
+      "q": "¿Puede reemplazar los cálculos manuales?",
+      "a": "Puede ayudar, pero se recomienda comprender el concepto MVT manualmente para una comprensión completa."
+    },
+    {
+      "q": "¿Dónde puedo acceder?",
+      "a": "Puede acceder a él en línea a través de cualquier navegador web sin descargar ningún software."
+    }
+  ]
+}

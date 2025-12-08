@@ -1,0 +1,123 @@
+{
+  "color": "rojo",
+  "sections": [
+    {
+      "heading": "Cómo utilizar la calculadora de tarjetas de crédito",
+      "subSections": [
+        {
+          "heading": "Ingrese su saldo",
+          "content": "Utilice nuestra calculadora de saldo de tarjeta de crédito para ingresar el monto actual que debe."
+        },
+        {
+          "heading": "Agregue su tasa de interés (APR)",
+          "content": "La calculadora de APR de la tarjeta de crédito determinará cuánto interés pagará con el tiempo."
+        },
+        {
+          "heading": "Ingrese su pago mensual",
+          "content": "Utilice la calculadora de pago mensual de tarjeta de crédito o la calculadora de pago mínimo de tarjeta de crédito para ver diferentes opciones de pago."
+        },
+        {
+          "heading": "Elija un método de pago",
+          "content": "Compare opciones como el método de bola de nieve o el método de avalancha para una reducción de deuda más rápida."
+        },
+        {
+          "heading": "Vea sus resultados",
+          "content": "Vea su tiempo de pago, interés total y cronograma de pagos al instante."
+        }
+      ]
+    },
+    {
+      "heading": "Diferentes métodos de cálculo",
+      "subSections": [
+        {
+          "heading": "Calculadora de tiempo de pago",
+          "content": "Calcule cuánto tiempo llevará liquidar su saldo con pagos actuales o planificados."
+        },
+        {
+          "heading": "Calculadora de intereses",
+          "content": "Comprenda cuánto interés se acumula con el tiempo para optimizar sus pagos."
+        },
+        {
+          "heading": "Calculadora de consolidación de deuda",
+          "content": "Explore la posibilidad de combinar varias tarjetas con intereses altos en una opción con intereses más bajos."
+        },
+        {
+          "heading": "Métodos de bola de nieve y avalancha",
+          "content": "Decida si pagar primero los saldos más pequeños (bola de nieve) o tasas de interés más altas (avalancha) para ahorrar más rápido."
+        }
+      ]
+    },
+    {
+      "heading": "Escenarios de ejemplo",
+      "subSections": [
+        {
+          "heading": "Varias tarjetas de crédito",
+          "content": "Utilice la calculadora para varias tarjetas para priorizar los pagos y reducir los intereses de manera eficiente."
+        },
+        {
+          "heading": "Saldos altos o intereses altos",
+          "content": "Concéntrese en las deudas costosas con la calculadora de pagos de tarjetas de crédito para tasas de interés altas."
+        },
+        {
+          "heading": "Puntajes de crédito bajos",
+          "content": "Adapte su plan utilizando la calculadora de puntajes crediticios bajos para evitar cargos por pagos atrasados ​​y maximizar el pago."
+        },
+        {
+          "heading": "Pagos adicionales o sumas globales",
+          "content": "Agregue pagos adicionales o de suma global para acelerar el pago."
+        },
+        {
+          "heading": "Pagos quincenales",
+          "content": "Reduzca los intereses más rápido con la programación de pagos quincenal."
+        }
+      ]
+    },
+    {
+      "heading": "Beneficios de usar la calculadora de tarjetas de crédito",
+      "subSections": [
+        {
+          "heading": "Ahorre dinero en intereses",
+          "content": "Planifique los pagos para minimizar la acumulación de intereses."
+        },
+        {
+          "heading": "Reducir el estrés",
+          "content": "Obtenga claridad con un calendario claro de pago y pago de la deuda."
+        },
+        {
+          "heading": "Comparar estrategias",
+          "content": "Decidir entre los métodos de bola de nieve y de avalancha para reducir la deuda."
+        },
+        {
+          "heading": "Seguimiento del progreso",
+          "content": "Supervise el progreso de los pagos con aplicaciones, Excel o versiones de hojas de cálculo."
+        },
+        {
+          "heading": "Planifique múltiples escenarios",
+          "content": "Evalúe las estrategias de consolidación y transferencia de saldo con comparaciones integradas."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Esta calculadora de tarjetas de crédito es gratuita?",
+      "a": "Sí, nuestra calculadora de pagos de tarjetas de crédito se puede utilizar en línea de forma completamente gratuita."
+    },
+    {
+      "q": "¿Puedo calcular pagos para varias tarjetas?",
+      "a": "¡Absolutamente! Ingresa saldos de varias tarjetas y adminístralas todas en un solo lugar."
+    },
+    {
+      "q": "¿Ayuda con las tarjetas de crédito con intereses altos?",
+      "a": "Sí. La calculadora de tasas de interés altas le ayuda a priorizar y ahorrar en intereses."
+    },
+    {
+      "q": "¿Puedo usarlo para pagos extras o quincenales?",
+      "a": "Sí, puedes probar pagos adicionales o quincenales para ver cuánto más rápido estarás libre de deudas."
+    },
+    {
+      "q": "¿Esta calculadora es adecuada para la consolidación de deudas?",
+      "a": "Definitivamente. Utilice las funciones de consolidación y transferencia de saldo para comparar opciones."
+    }
+  ]
+}

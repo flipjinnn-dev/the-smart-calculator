@@ -1,0 +1,122 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de salario: calcule fácilmente el salario bruto, neto y neto",
+      "content": "Nuestra calculadora de salario le ayuda a determinar su salario bruto y neto, sus tarifas por hora y su salario neto al instante. Ya sea que sea un empleado de tiempo completo, un profesional independiente, un contratista o un trabajador por horas, esta herramienta maneja todos los tipos de salarios y estructuras salariales."
+    },
+    {
+      "heading": "Cómo calcular el salario",
+      "subSections": [
+        {
+          "heading": "1. Salario bruto",
+          "content": "Ganancias totales antes de deducciones como impuestos, seguros y contribuciones de jubilación."
+        },
+        {
+          "heading": "2. Salario neto (pago neto)",
+          "content": "Ingresos después de que se hayan aplicado todas las deducciones."
+        },
+        {
+          "heading": "3. Salario por período de pago",
+          "content": "Convierta entre salarios por hora, diarios, mensuales y anuales."
+        },
+        {
+          "heading": "4. Incluir ajustes",
+          "content": "Agregue bonificaciones, horas extras y deducciones para obtener un desglose preciso."
+        },
+        {
+          "heading": "Ejemplo",
+          "content": "Salario mensual = $4000, deducciones = $800 → Salario neto = $3200."
+        }
+      ]
+    },
+    {
+      "heading": "Tipos de salario que puedes calcular",
+      "subSections": [
+        {
+          "heading": "Calculadora de salario mensual",
+          "content": "Planifique su presupuesto mensual calculando el salario neto."
+        },
+        {
+          "heading": "Calculadora de salario anual",
+          "content": "Vea sus ingresos anuales, incluidas bonificaciones y horas extras."
+        },
+        {
+          "heading": "Calculadora de tarifa por hora",
+          "content": "Convierta el salario anual o mensual en salario por hora."
+        },
+        {
+          "heading": "Calculadora de salario diario",
+          "content": "Estimar la remuneración de trabajos o contratos a tiempo parcial."
+        },
+        {
+          "heading": "Desglose salarial por período de pago",
+          "content": "Comprenda los ingresos semanales, quincenales o quincenales."
+        }
+      ]
+    },
+    {
+      "heading": "Beneficios de utilizar nuestra calculadora de salarios",
+      "content": "✔ Gratis y rápido: no es necesario registrarse\n✔ La mejor calculadora de salarios en línea: precisa y confiable\n✔ Calculadora de pago para llevar a casa: vea las ganancias después de impuestos\n✔ Calculadora de nómina: perfecta para empleados y empresas\n✔ Funciona en todos los dispositivos: compatible con dispositivos móviles y de escritorio"
+    },
+    {
+      "heading": "Calculadora de salarios para diferentes escenarios",
+      "subSections": [
+        {
+          "heading": "Empleados",
+          "content": "Calcular el salario neto mensual o anual con deducciones."
+        },
+        {
+          "heading": "Autónomos y contratistas",
+          "content": "Ajuste por horarios irregulares, impuestos y pagos de proyectos."
+        },
+        {
+          "heading": "Trabajadores por hora",
+          "content": "Convierta los salarios por hora en ingresos diarios, semanales o mensuales."
+        },
+        {
+          "heading": "Trabajos a tiempo parcial",
+          "content": "Realice un seguimiento de las horas reducidas o del pago por turnos."
+        },
+        {
+          "heading": "Ajustes salariales",
+          "content": "Úselo para aumentos, promociones o cambios salariales."
+        }
+      ]
+    },
+    {
+      "heading": "Por qué destaca nuestra calculadora",
+      "content": "✔ Admite tasas impositivas internacionales\n✔ Compara múltiples períodos de pago\n✔ Incluye días de vacaciones y beneficios\n✔ Funciona para empleados, trabajadores a tiempo parcial, autónomos y subcontratados"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo calculo mi salario después de impuestos?",
+      "a": "Utilice nuestra calculadora de salario neto para ingresar el salario bruto, las tasas impositivas y las deducciones. Muestra instantáneamente su salario neto."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre salario bruto y neto?",
+      "a": "El salario bruto es su ingreso antes de las deducciones. El salario neto es lo que se queda después de impuestos y deducciones."
+    },
+    {
+      "q": "¿Puedo calcular mi tarifa por hora a partir del salario anual?",
+      "a": "Sí, la calculadora convierte el pago anual o mensual en un salario por hora según las horas de trabajo."
+    },
+    {
+      "q": "¿Esta calculadora es buena para autónomos o contratistas?",
+      "a": "Absolutamente, da cuenta de ingresos irregulares, proyectos y horarios flexibles."
+    },
+    {
+      "q": "¿Puedo incluir bonificaciones y horas extras?",
+      "a": "Sí, simplemente agréguelos para obtener un desglose preciso de los ingresos totales."
+    },
+    {
+      "q": "¿Funciona para trabajos a tiempo parcial?",
+      "a": "Sí, puede ajustar las horas para calcular el pago a tiempo parcial con precisión."
+    },
+    {
+      "q": "¿Esta calculadora es gratuita?",
+      "a": "Sí, es 100% gratis y sin costos ocultos."
+    }
+  ]
+}

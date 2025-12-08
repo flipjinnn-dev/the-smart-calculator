@@ -1,0 +1,143 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator stopy deski?",
+      "content": "Kalkulator stóp desek pomaga zmierzyć objętość drewna w stopach desek – standardowej jednostce tarcicy. Dokładne oszacowanie ilości drewna i jego kosztu jest niezbędne dla stolarzy, entuzjastów majsterkowania i specjalistów budowlanych."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wprowadź liczbę desek",
+          "content": "Razem identyczne kawałki."
+        },
+        {
+          "heading": "Dodaj wymiary",
+          "content": "Grubość (cale), szerokość (cale), długość (stopy lub cale)."
+        },
+        {
+          "heading": "Opcjonalnie: cena za stopę deski",
+          "content": "Do obliczenia całkowitego kosztu."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast uzyskaj stopki deski na sztukę, całkowitą stopę deski i całkowity koszt."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Dokładny pomiar zapewnia dokładne wyniki."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Dokładne obliczenia",
+          "content": "Używa standardowych receptur tarcicy."
+        },
+        {
+          "heading": "Wiele jednostek",
+          "content": "Akceptuje cale lub stopy."
+        },
+        {
+          "heading": "Szacowanie kosztów",
+          "content": "Oblicza koszt całkowity, jeśli podana jest cena za stopę deski."
+        },
+        {
+          "heading": "Obsługuje wiele tablic",
+          "content": "Oblicza całkowitą objętość dla wielu sztuk."
+        },
+        {
+          "heading": "Przyjazny dla użytkownika i mobilny",
+          "content": "Działa na wszystkich urządzeniach."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Stolarze i stolarze",
+          "content": "Zaplanuj meble lub szafki."
+        },
+        {
+          "heading": "Projekty DIY",
+          "content": "Unikaj nadmiernego zakupu drewna."
+        },
+        {
+          "heading": "Budowa",
+          "content": "Wycena drewna na budynki."
+        },
+        {
+          "heading": "Kupujący/sprzedający drewno",
+          "content": "Porównuj koszty i planuj budżety."
+        },
+        {
+          "heading": "Edukacja",
+          "content": "Naucz się obliczać stopę deski."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1",
+          "content": "Tablica: 2″ × 6″ × 8′ | Stopy deski = (8 × 6 × 2) ÷ 12 = 8 BF"
+        },
+        {
+          "heading": "Przykład 2",
+          "content": "5 desek: 1,5″ × 4″ × 10′ | Na tablicę = (10 × 4 × 1,5) ÷ 12 = 5 BF | Razem = 5 BF × 5 = 25 BF"
+        },
+        {
+          "heading": "Przykład 3 (koszt)",
+          "content": "Cena za BF = 3 USD | Całkowity koszt = 25 × 3 = 75 USD"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest stopa deski?",
+      "a": "1 stopa deski = 1′ × 1′ × 1″ drewna."
+    },
+    {
+      "q": "Dlaczego warto korzystać z kalkulatora stóp deski?",
+      "a": "Aby zaoszczędzić czas i zmniejszyć błędy obliczeniowe."
+    },
+    {
+      "q": "Czy mogę używać cali lub stóp?",
+      "a": "Tak, oba są obsługiwane."
+    },
+    {
+      "q": "Czy poradzi sobie z wieloma tablicami?",
+      "a": "Tak, oblicza całkowitą objętość."
+    },
+    {
+      "q": "Czy mogę obliczyć koszt?",
+      "a": "Tak, jeśli podana jest cena za stopę deski."
+    },
+    {
+      "q": "Czy nadaje się do projektów DIY?",
+      "a": "Tak, idealny dla profesjonalistów i hobbystów."
+    },
+    {
+      "q": "Czy uwzględnia odpady?",
+      "a": "Nie, pokazuje teoretyczne stopy deski."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa na wszystkich urządzeniach."
+    },
+    {
+      "q": "Jaka formuła jest używana?",
+      "a": "Stopy deski = (grubość × szerokość × długość) ÷ 12"
+    },
+    {
+      "q": "Czy jest używany na całym świecie?",
+      "a": "Głównie w USA i Kanadzie; konwertuj jednostki dla innych regionów."
+    }
+  ]
+}

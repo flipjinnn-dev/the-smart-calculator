@@ -1,0 +1,148 @@
+{
+  "pageTitle": "Calculadora de ritmo",
+  "pageDescription": "Calcula el ritmo con nuestra calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Introduzca el primer valor",
+      "input2": "Introduzca el segundo valor",
+      "input3": "Introduzca el tercer valor"
+    },
+    "buttons": {
+      "calculate": "Calcular ritmo",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados del cálculo de ritmo"
+  },
+  "educational": {
+    "info": "Información de ritmo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definición de ritmo",
+        "description": "Información sobre el ritmo"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Cómo se calcula el ritmo"
+      },
+      "applications": {
+        "title": "Aplicaciones",
+        "description": "Usos del ritmo"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora solo proporciona estimaciones de ritmo",
+      "actual": "Los valores reales pueden variar según las circunstancias individuales."
+    },
+    "importantNotesList": [
+      "Esto es una estimación y no debe reemplazar el asesoramiento profesional.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Utilice unidades consistentes para obtener resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información requerida para calcular el ritmo",
+    "resultMessage": "Los resultados del cálculo de tu ritmo se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de ritmo:",
+    "analysis": "Análisis de ritmo"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de ritmo basadas en métodos estándar. Los valores reales pueden variar según circunstancias individuales y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para obtener asesoramiento personalizado e información detallada, consulte con profesionales que puedan brindarle orientación según las necesidades y circunstancias individuales."
+  },
+  "errors": {
+    "input1": "Por favor ingresa un primer valor válido",
+    "input2": "Por favor ingresa un segundo valor válido",
+    "input3": "Por favor ingresa un tercer valor válido"
+  },
+  "tooltips": {
+    "input1": "Primer parámetro de entrada",
+    "input2": "Segundo parámetro de entrada",
+    "input3": "Tercer parámetro de entrada"
+  },
+  "pace_calculation_0": "Cálculo de ritmo",
+  "enter_time_and_distance_to_calculate_your_running__1": "Introduce el tiempo y la distancia para calcular tu ritmo de carrera",
+  "time_hhmmss_or_flexible_format_2": "Hora (hh:mm:ss o formato flexible)",
+  "examples_530_2545_13000_3": "Ejemplos: 5:30, 25:45, 1:30:00",
+  "distance_4": "Distancia",
+  "miles_5": "millas",
+  "km_6": "kilómetros",
+  "meters_7": "metros",
+  "yards_8": "yardas",
+  "race_presets_optional_9": "Presets de carrera (opcional)",
+  "output_format_10": "Formato de salida",
+  "pace_minmile_11": "Ritmo (min/milla)",
+  "pace_minkm_12": "Ritmo (min/km)",
+  "speed_mph_13": "Velocidad (mph)",
+  "speed_kmh_14": "Velocidad (km/h)",
+  "calculate_15": "Calcular",
+  "reset_16": "Reiniciar",
+  "your_pace_17": "Tu ritmo",
+  "enter_your_time_and_distance_to_calculate_your_run_18": "Introduce tu tiempo y distancia para calcular tu ritmo de carrera.",
+  "your_running_results_19": "Tus resultados de carrera",
+  "primary_result_20": "Resultado primario",
+  "all_formats_21": "Todos los formatos",
+  "calculation_details_22": "Detalles del cálculo",
+  "input_summary_23": "Resumen de entrada",
+  "time_24": "Tiempo:",
+  "distance_25": "Distancia:",
+  "conversions_26": "Conversiones",
+  "distance_27": "Distancia:",
+  "miles_28": "millas",
+  "distance_29": "Distancia:",
+  "km_30": "kilómetros",
+  "understanding_running_pace_31": "Comprender el ritmo de carrera",
+  "pace_vs_speed_32": "Ritmo versus velocidad",
+  "pace_33": "Paso:",
+  "time_per_unit_distance_minmile_minkm_34": "Tiempo por unidad de distancia (min/milla, min/km)",
+  "speed_35": "Velocidad:",
+  "distance_per_unit_time_mph_kmh_36": "Distancia por unidad de tiempo (mph, km/h)",
+  "faster_pace_lower_time_per_mile_37": "Ritmo más rápido = menor tiempo por milla",
+  "higher_speed_more_distance_per_hour_38": "Mayor velocidad = más distancia por hora",
+  "example_calculation_39": "Ejemplo de cálculo",
+  "k_5k_in_2500_40": "5K en 25:00",
+  "distance_5_km_311_miles_41": "Distancia: 5 km = 3,11 millas",
+  "pace_2500_5_42": "Ritmo: 25:00 ÷ 5 =",
+  "k_500_minkm_43": "5:00 min/km",
+  "pace_2500_311_44": "Ritmo: 25:00 ÷ 3.11 =",
+  "k_802_minmile_45": "8:02 min/milla",
+  "speed_46": "Velocidad:",
+  "k_75_mph_47": "7,5 mph",
+  "or_48": "o",
+  "k_12_kmh_49": "12 kilómetros por hora",
+  "training_zones_50": "Zonas de entrenamiento",
+  "easy_run_51": "Ejecución fácil:",
+  "k_12_minmile_slower_than_5k_pace_52": "1-2 min/milla más lento que el ritmo de 5 km",
+  "tempo_53": "Tempo:",
+  "k_1530_secmile_slower_than_5k_pace_54": "15-30 segundos/milla más lento que el ritmo de 5 km",
+  "interval_55": "Intervalo:",
+  "k_5k_pace_or_faster_56": "Ritmo de 5 km o más rápido",
+  "long_run_57": "Largo plazo:",
+  "k_3090_secmile_slower_than_5k_pace_58": "30-90 segundos/milla más lento que el ritmo de 5 km",
+  "common_race_paces_59": "Ritmos de carrera comunes",
+  "k_5k_60": "5K:",
+  "k_6001000_minmile_recreational_61": "6:00-10:00 min/milla (recreativo)",
+  "k_10k_62": "10K:",
+  "k_6301030_minmile_63": "6:30-10:30 min/milla",
+  "half_marathon_64": "Media Maratón:",
+  "k_7001100_minmile_65": "7:00-11:00 min/milla",
+  "marathon_66": "Maratón:",
+  "k_7301200_minmile_67": "7:30-12:00 min/milla"
+}

@@ -1,0 +1,122 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de TFG?",
+      "content": "Una calculadora de TFG (tasa de filtración glomerular) calcula qué tan bien los riñones filtran la sangre. Utiliza su edad, sexo y niveles de creatinina sérica para proporcionar una TFG estimada (eGFR) e identificar su etapa de ERC (enfermedad renal crónica). Esta herramienta es esencial para controlar la salud renal tanto en adultos como en niños."
+    },
+    {
+      "heading": "Cómo funciona la calculadora de TFG",
+      "subSections": [
+        {
+          "heading": "Entradas requeridas",
+          "content": "Edad, sexo, creatinina sérica (mg/dL o μmol/L), selección pediátrica o adulta."
+        },
+        {
+          "heading": "Fórmulas utilizadas",
+          "content": "CKD-EPI (más preciso para adultos), MDRD (comúnmente utilizado en el seguimiento de la ERC) y Fórmula Schwartz (para el cálculo de la TFG pediátrica)."
+        },
+        {
+          "heading": "¿Qué pasa después?",
+          "content": "Después de ingresar los detalles, la calculadora estima su eGFR e identifica la etapa de ERC, si corresponde."
+        }
+      ]
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de TFG?",
+      "subSections": [
+        {
+          "heading": "Información clara sobre la salud renal",
+          "content": "Comprenda rápidamente con qué eficacia los riñones filtran la sangre."
+        },
+        {
+          "heading": "Monitoreo de ERC",
+          "content": "Realice un seguimiento de la progresión o detecte la enfermedad renal en etapa temprana."
+        },
+        {
+          "heading": "Seguimiento personalizado",
+          "content": "Las calculadoras separadas para adultos y niños garantizan la precisión."
+        },
+        {
+          "heading": "Comparación de fórmulas",
+          "content": "Verifique los resultados con CKD-EPI frente a MDRD para obtener una precisión óptima."
+        },
+        {
+          "heading": "Conveniencia",
+          "content": "Rápido, gratuito y online sin cálculos manuales."
+        }
+      ]
+    },
+    {
+      "heading": "Consejos para mejorar la función renal de forma natural",
+      "subSections": [
+        {
+          "heading": "Mantente hidratado",
+          "content": "Beba suficiente agua al día para favorecer la filtración renal."
+        },
+        {
+          "heading": "Controle la presión arterial y el azúcar en sangre",
+          "content": "Ayuda a prevenir la progresión de la ERC."
+        },
+        {
+          "heading": "Consuma una dieta beneficiosa para los riñones",
+          "content": "Limite la ingesta de sal, alimentos procesados ​​y exceso de proteínas."
+        },
+        {
+          "heading": "Evite los medicamentos nefrotóxicos",
+          "content": "Solo tome medicamentos que afecten a los riñones si se lo recetan."
+        },
+        {
+          "heading": "Haga ejercicio regularmente",
+          "content": "Apoya la salud cardiovascular, mejorando indirectamente los riñones."
+        },
+        {
+          "heading": "Monitoreo regular",
+          "content": "Utilice una calculadora de TFG en línea para realizar un seguimiento de las tendencias a lo largo del tiempo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es la TFG y por qué es importante?",
+      "a": "La TFG mide la eficacia con la que los riñones filtran la sangre, lo que indica la salud general de los riñones."
+    },
+    {
+      "q": "¿Cómo calculo la TFG en línea?",
+      "a": "Ingrese su edad, sexo y creatinina sérica en la calculadora para obtener un valor de eGFR."
+    },
+    {
+      "q": "¿Cuál es el rango normal de TFG para adultos?",
+      "a": "Normalmente es de 90 a 120 ml/min/1,73 m², aunque varía según la edad y el sexo."
+    },
+    {
+      "q": "¿Cómo se compara la TFG con los niveles de creatinina?",
+      "a": "La TFG se ajusta según la edad, el sexo y el tamaño corporal, lo que brinda una imagen más completa que la creatinina sola."
+    },
+    {
+      "q": "¿Puede una calculadora de TFG pediátrica ayudar a los niños?",
+      "a": "Sí, la fórmula de Schwartz se utiliza para estimar la función renal en niños."
+    },
+    {
+      "q": "¿Qué es mejor: la fórmula CKD-EPI o MDRD?",
+      "a": "CKD-EPI es más preciso para adultos con función renal normal o levemente reducida, mientras que MDRD se usa ampliamente en la monitorización de la ERC."
+    },
+    {
+      "q": "¿Puedo realizar un seguimiento de mi función renal a lo largo del tiempo?",
+      "a": "Sí, el seguimiento regular con la Calculadora de TFG ayuda a monitorear los cambios y detectar problemas tempranos."
+    },
+    {
+      "q": "¿Esta calculadora de TFG es adecuada para la función renal irregular?",
+      "a": "Sí, se ajusta según la edad, el sexo y el estado adulto/pediátrico para seguir siendo confiable."
+    },
+    {
+      "q": "¿Las calculadoras de TFG gratuitas son tan precisas como las de pago?",
+      "a": "Sí, nuestra calculadora gratuita utiliza las mismas fórmulas validadas que las herramientas profesionales."
+    },
+    {
+      "q": "¿Cómo puedo mejorar la TFG de forma natural?",
+      "a": "La hidratación, una dieta saludable, el control de la presión arterial, el ejercicio y un seguimiento regular pueden ayudar a mantener o mejorar la función renal."
+    }
+  ]
+}

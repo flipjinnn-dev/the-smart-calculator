@@ -1,0 +1,147 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de porcentagem de campo: o que é e como funciona",
+      "content": "A Calculadora de Porcentagem de Fielding calcula a eficiência defensiva de um defensor usando lançamentos, assistências e erros. A porcentagem de fielding (FPCT) mede a frequência com que um jogador lida com sucesso com as chances de fielding sem erros. Fórmula: Porcentagem de Fielding = (Remessas + Assistências) ÷ (Remessas + Assistências + Erros)."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Insira as saídas (PO)",
+          "content": "Total de eliminações registradas."
+        },
+        {
+          "heading": "Insira assistências (A)",
+          "content": "Total de assistências realizadas."
+        },
+        {
+          "heading": "Insira erros (E)",
+          "content": "Total de erros cometidos."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Obtenha a porcentagem de fielding instantaneamente."
+        },
+        {
+          "heading": "Dica",
+          "content": "Entradas precisas garantem resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Cálculo Instantâneo",
+          "content": "Calcula o FPCT imediatamente."
+        },
+        {
+          "heading": "Preciso e confiável",
+          "content": "Usa a fórmula padrão de beisebol/softbol."
+        },
+        {
+          "heading": "Fácil de usar",
+          "content": "Não é necessária matemática manual."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona em todos os dispositivos."
+        },
+        {
+          "heading": "Ideal para jogadores, treinadores e fãs",
+          "content": "Avalie rapidamente o desempenho defensivo."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Jogadores e treinadores",
+          "content": "Acompanhe o desempenho por jogo ou temporada."
+        },
+        {
+          "heading": "Equipes e Escoteiros",
+          "content": "Avalie a confiabilidade defensiva."
+        },
+        {
+          "heading": "Fãs e Analistas",
+          "content": "Compare os defensores rapidamente."
+        },
+        {
+          "heading": "Beisebol Juvenil e Amador",
+          "content": "Acompanhe estatísticas defensivas facilmente."
+        },
+        {
+          "heading": "Manutenção de registros",
+          "content": "Manter estatísticas defensivas ao longo da temporada."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1",
+          "content": "80 PO + 40 A ÷ 5 E = 0,960 FPCT"
+        },
+        {
+          "heading": "Exemplo 2",
+          "content": "50 PO + 30 A ÷ 3 E = 0,967 FPCT"
+        },
+        {
+          "heading": "Exemplo 3",
+          "content": "25 PO + 15 A ÷ 2 E = 0,952 FPCT"
+        },
+        {
+          "heading": "Exemplo 4",
+          "content": "100 PO + 50 A ÷ 8 E = 0,940 FPCT"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de porcentagem de campo?",
+      "a": "Calcula a eficiência defensiva de um defensor usando lançamentos, assistências e erros."
+    },
+    {
+      "q": "Como a porcentagem de campo é calculada?",
+      "a": "FPCT = (Lançamentos + Assistências) ÷ (Lançamentos + Assistências + Erros)"
+    },
+    {
+      "q": "Inclui jogadas não tentadas?",
+      "a": "Não, apenas as jogadas tentadas (PO + A + E) são contadas."
+    },
+    {
+      "q": "É preciso?",
+      "a": "Sim, com base nas informações fornecidas."
+    },
+    {
+      "q": "Pode ser usado para beisebol e softbol?",
+      "a": "Sim, funciona para ambos os esportes."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, funciona em todos os dispositivos."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, totalmente gratuito online."
+    },
+    {
+      "q": "Quem deve usá-lo?",
+      "a": "Jogadores, treinadores, olheiros, torcedores e analistas."
+    },
+    {
+      "q": "Por que usar esta calculadora?",
+      "a": "Economiza tempo e fornece uma medida instantânea de eficiência defensiva."
+    },
+    {
+      "q": "Ele pode rastrear vários jogos ou temporadas?",
+      "a": "Sim, os dados cumulativos permitem o cálculo durante qualquer período."
+    }
+  ]
+}

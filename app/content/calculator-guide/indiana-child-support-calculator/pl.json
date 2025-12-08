@@ -1,0 +1,147 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Kalkulator alimentów na dziecko w stanie Indiana: co to jest i jak z niego korzystać",
+      "content": "Kalkulator alimentów na dziecko w stanie Indiana to bezpłatne narzędzie internetowe, które pomaga rodzicom oszacować wysokość alimentów zgodnie z wytycznymi stanu Indiana. Wprowadzając dochód, liczbę dzieci, ustalenia dotyczące opieki nad dzieckiem i wydatki związane z dzieckiem, umożliwia szybkie i dokładne oszacowanie potencjalnych zobowiązań alimentacyjnych."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora alimentów na dziecko w stanie Indiana",
+      "subSections": [
+        {
+          "heading": "Wpisz dochód rodzica",
+          "content": "Wprowadź tygodniowy lub miesięczny dochód brutto każdego rodzica."
+        },
+        {
+          "heading": "Uwzględnij odliczenia",
+          "content": "Dodaj wcześniejsze alimenty na dziecko lub alimenty na rzecz współmałżonka."
+        },
+        {
+          "heading": "Określ liczbę dzieci",
+          "content": "Wpisz, ile dzieci potrzebuje wsparcia."
+        },
+        {
+          "heading": "Dodaj wydatki związane z dziećmi",
+          "content": "Uwzględnij koszty opieki nad dziećmi, ubezpieczenie zdrowotne lub inne zatwierdzone wydatki."
+        },
+        {
+          "heading": "Wprowadź szczegóły dotyczące opieki",
+          "content": "Wprowadź harmonogram noclegów lub opieki."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast zobacz szacunkowe wsparcie."
+        },
+        {
+          "heading": "Przejrzyj wyniki",
+          "content": "Wyświetl wsparcie podstawowe, korekty i całkowite szacowane zobowiązanie."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Dokładne obliczenia według wytycznych stanu Indiana",
+          "content": "Działa zgodnie z modelem udziału państwa w dochodach."
+        },
+        {
+          "heading": "Regulowane wejścia",
+          "content": "Dochody, harmonogram opieki, liczba dzieci, opieka nad dziećmi i ubezpieczenie."
+        },
+        {
+          "heading": "Szybko i bezpłatnie",
+          "content": "Natychmiast oblicza bez rejestracji."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Dostępne na każdym urządzeniu."
+        },
+        {
+          "heading": "Szczegółowy podział",
+          "content": "Wsparcie podstawowe, korekty i całkowite szacowane zobowiązanie."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Planowanie budżetu",
+          "content": "Poznaj oczekiwane miesięczne lub tygodniowe zobowiązania."
+        },
+        {
+          "heading": "Przygotowanie do rozwodu i separacji",
+          "content": "Negocjuj umowy lub uprzedzaj orzeczenia sądu."
+        },
+        {
+          "heading": "Wskazówki prawne",
+          "content": "Wizualizuj obowiązki prawników lub mediatorów."
+        },
+        {
+          "heading": "Planowanie opieki",
+          "content": "Porównaj scenariusze i zobacz, jak zmienia się wsparcie."
+        },
+        {
+          "heading": "Jasność finansowa",
+          "content": "Dowiedz się, jak obliczane jest wsparcie w stanie Indiana."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Samotny rodzic",
+          "content": "Dochód rodzica A: 1200 dolarów tygodniowo | Dochód rodzica B: 800 dolarów tygodniowo | Dzieci: 2 | Opieka nad dziećmi/wydatki na opiekę zdrowotną: 100 USD tygodniowo → Szacunkowe tygodniowe wsparcie: 350 USD"
+        },
+        {
+          "heading": "Przykład 2 – Wspólna opieka",
+          "content": "Dochód rodzica A: 1500 dolarów tygodniowo | Dochód rodzica B: 1000 dolarów tygodniowo | Dzieci: 1 | Opieka dzielona: 3 noclegi w tygodniu dla rodzica B → Szacowane tygodniowe wsparcie: 220 USD"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator alimentów na dziecko w stanie Indiana?",
+      "a": "Szacuje zobowiązania alimentacyjne na rzecz dzieci w oparciu o wytyczne stanu Indiana."
+    },
+    {
+      "q": "Czy ten kalkulator jest darmowy?",
+      "a": "Tak, jest to całkowicie bezpłatne online."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania?",
+      "a": "Nie, działa w każdej przeglądarce."
+    },
+    {
+      "q": "Czy oblicza dokładne nakazy sądowe?",
+      "a": "Nie, ostateczne kwoty mogą się różnić według uznania sędziego."
+    },
+    {
+      "q": "Czy może obejmować koszty opieki nad dziećmi i ubezpieczenia?",
+      "a": "Tak, możesz wprowadzić te wydatki."
+    },
+    {
+      "q": "Czy to uwzględnia czas opieki?",
+      "a": "Tak, wspólna opieka wpływa na obliczenia."
+    },
+    {
+      "q": "Czy poradzi sobie z wieloma dziećmi?",
+      "a": "Tak, w obliczeniach uwzględniana jest liczba dzieci."
+    },
+    {
+      "q": "Czy nadaje się do planowania prawnego?",
+      "a": "Tak, ale nie zastępuje to profesjonalnej porady prawnej."
+    },
+    {
+      "q": "Czy dochody można skorygować o odliczenia?",
+      "a": "Tak, można dodać wcześniejsze zobowiązania, takie jak istniejące wsparcie lub alimenty na rzecz współmałżonka."
+    },
+    {
+      "q": "Jak dokładne są wyniki?",
+      "a": "Wyniki są dokładne na podstawie danych wejściowych, ale wsparcie nakazane przez sąd może się różnić."
+    }
+  ]
+}

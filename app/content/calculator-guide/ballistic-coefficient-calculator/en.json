@@ -1,0 +1,95 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "What is a Ballistic Coefficient Calculator?",
+            "content": "A Ballistic Coefficient (BC) Calculator is a free online tool that measures a projectile’s aerodynamic efficiency. It calculates how well a projectile overcomes air resistance using its mass, drag coefficient, and cross-sectional area."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "content": "Follow these simple steps to calculate the ballistic coefficient:",
+            "subSections": [
+                {
+                    "heading": "Steps",
+                    "content": "- Open the Calculator – Visit the BC Calculator page in your browser.\n- Enter Mass (m) – Input the mass of the projectile in kg or g.\n- Enter Drag Coefficient (Cd) – Provide the projectile’s drag coefficient.\n- Enter Cross-Sectional Area (A) – Input the frontal area in m².\n- Click Calculate – The calculator instantly shows the ballistic coefficient.\n- Tip: Keep units consistent for accurate results."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "content": "Why use this calculator?",
+            "subSections": [
+                {
+                    "heading": "Features",
+                    "content": "- Instant Calculation – Get results in seconds.\n- Simple & Mobile-Friendly – Works on desktops and mobile devices.\n- Educational Tool – Learn external ballistics and projectile physics.\n- Free & Accessible – No downloads or registration required.\n- Formula-Based Accuracy – Uses BC = m / (Cd × A)."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "content": "Who can benefit from this tool?",
+            "subSections": [
+                {
+                    "heading": "Applications",
+                    "content": "- Physics Students & Teachers – Learn projectile motion and drag effects.\n- Hobbyists & DIY Projects – Analyze model rockets and projectiles.\n- Engineers & Designers – Estimate aerodynamic efficiency quickly.\n- Projectile Comparison – Compare BC of different projectiles for performance.\n- Educational Demonstrations – Teach external ballistics concepts in class."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "content": "Here are some examples of how the calculation works:",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Small Projectile",
+                    "content": "Mass: 0.02 kg\nDrag Coefficient: 0.45\nCross-Sectional Area: 0.001 m²\nBallistic Coefficient: 44.44"
+                },
+                {
+                    "heading": "Example 2 – Medium Projectile",
+                    "content": "Mass: 0.05 kg\nDrag Coefficient: 0.35\nCross-Sectional Area: 0.002 m²\nBallistic Coefficient: 71.43"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a ballistic coefficient?",
+            "a": "It measures how well a projectile overcomes air resistance."
+        },
+        {
+            "q": "Is this calculator free?",
+            "a": "Yes, it is completely free online."
+        },
+        {
+            "q": "Do I need software or installation?",
+            "a": "No, it works directly in your browser."
+        },
+        {
+            "q": "Can I use it on mobile devices?",
+            "a": "Yes, fully mobile-friendly."
+        },
+        {
+            "q": "What inputs are required?",
+            "a": "Mass (m), drag coefficient (Cd), and cross-sectional area (A)."
+        },
+        {
+            "q": "How is BC calculated?",
+            "a": "Using BC = m / (Cd × A)."
+        },
+        {
+            "q": "Can it compare different projectiles?",
+            "a": "Yes, you can calculate BC for multiple projectiles to compare efficiency."
+        },
+        {
+            "q": "Is it suitable for students?",
+            "a": "Yes, perfect for learning physics and external ballistics."
+        },
+        {
+            "q": "Can engineers or hobbyists use it?",
+            "a": "Yes, it helps in design experiments and projectile analysis."
+        },
+        {
+            "q": "Is the calculator accurate?",
+            "a": "Yes, for input values; it’s a simplified model and does not account for velocity changes or wind."
+        }
+    ]
+}

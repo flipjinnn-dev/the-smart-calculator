@@ -3,16 +3,15 @@
 import { useCalculatorContent } from "@/hooks/useCalculatorContent";
 import { usePathname } from "next/navigation";
 import React, { useRef, useState } from "react";
-
+import CalculatorGuide from "@/components/calculator-guide";
 import { Calculator } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-;
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
-;
+
 const SHAPES = [{
   key: "sphere",
   label: "Sphere",
@@ -260,7 +259,16 @@ export default function VolumeCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('volume-calculator', language, "calculator-ui");
-
+  const { content: guideContent } = useCalculatorContent(
+    'volume-calculator',
+    language,
+    "calculator-guide"
+  )
+  const guideData = guideContent || {
+    color: 'blue',
+    sections: [],
+    faq: []
+  }
   // Use content or fallback to defaults
   const contentData = content || {
     "pageTitle": "",
@@ -413,140 +421,114 @@ export default function VolumeCalculator() {
   };
   return <>
 
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
 
-        {/* Main Content */}
-        <main className="py-8 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-8">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-green-600 rounded-2xl flex items-center justify-center shadow-lg">
-                  <Calculator className="w-8 h-8 text-white" />
-                </div>
+      {/* Main Content */}
+      <main className="py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-green-600 rounded-2xl flex items-center justify-center shadow-lg">
+                <Calculator className="w-8 h-8 text-white" />
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {/* Left: Calculator Form and shape selection */}
-              <div className="col-span-1">
-                <Card className="shadow-2xl border-0 bg-white">
-                  <CardHeader className="bg-white rounded-t-lg border-b px-8 py-6">
-                    <CardTitle className="flex items-center space-x-3 text-2xl">
-                      <div className="w-8 h-8 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center">
-                        <Calculator className="w-5 h-5 text-white" />
-                      </div>
-                      <span className="text-gray-900">{contentData.volume_calculations_0}</span>
-                    </CardTitle>
-                    <CardDescription className="text-base text-gray-700">{contentData.select_a_shape_and_enter_your_values_1}</CardDescription>
-                  </CardHeader>
-                  <CardContent className="p-8">
-                    <div className="mb-6">
-                      <Label className="text-base font-semibold mb-2 block text-gray-900">{contentData.select_shape_2}</Label>
-                      <select className="w-full border rounded p-2" value={shape.key} onChange={handleShapeChange}>
-                        {SHAPES.map(s => <option key={s.key} value={s.key}>{s.label}</option>)}
-                      </select>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Left: Calculator Form and shape selection */}
+            <div className="col-span-1">
+              <Card className="shadow-2xl border-0 bg-white">
+                <CardHeader className="bg-white rounded-t-lg border-b px-8 py-6">
+                  <CardTitle className="flex items-center space-x-3 text-2xl">
+                    <div className="w-8 h-8 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center">
+                      <Calculator className="w-5 h-5 text-white" />
                     </div>
-                    <form onSubmit={handleSubmit} className="space-y-4">
-                      {shape.fields.map(field => <div key={field.name} className="flex items-end gap-2">
-                          <div className="flex-1">
-                            <Label className="block mb-1 text-gray-900">{field.label}</Label>
-                            <Input type="number" name={field.name} value={inputs[field.name] || ""} onChange={handleInputChange} step="any" required />
-                          </div>
-                          <div>
-                            <select name={field.name} value={inputUnits[field.name] || 'm'} onChange={handleUnitChange} className="border rounded p-2 bg-white">
-                              <option value="m">{contentData.m_3}</option>
-                              <option value="cm">{contentData.cm_4}</option>
-                              <option value="mm">{contentData.mm_5}</option>
-                              <option value="inch">{contentData.inch_6}</option>
-                              <option value="ft">{contentData.ft_7}</option>
-                              <option value="yd">{contentData.yd_8}</option>
-                            </select>
-                          </div>
-                        </div>)}
-                      <div className="text-sm text-gray-700">{contentData.formula_9}{shape.example}</div>
-                      <Button type="submit" className="w-full mt-2 bg-gradient-to-r from-green-500 to-green-700 text-white hover:from-green-600 hover:to-green-800">{contentData.calculate_10}</Button>
-                    </form>
-                  </CardContent>
-                </Card>
-              </div>
-              {/* Right: Results */}
-              <div className="col-span-1 flex items-stretch">
-                <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-green-200 flex flex-col w-full h-full">
-                  <div className="flex flex-1 flex-col justify-center items-center h-full py-12">
-                    <div className="flex flex-col items-center justify-center w-full">
-                      <div className="w-14 h-14 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center mb-4 shadow-lg">
-                        <Calculator className="w-8 h-8 text-white" />
+                    <span className="text-gray-900">{contentData.volume_calculations_0}</span>
+                  </CardTitle>
+                  <CardDescription className="text-base text-gray-700">{contentData.select_a_shape_and_enter_your_values_1}</CardDescription>
+                </CardHeader>
+                <CardContent className="p-8">
+                  <div className="mb-6">
+                    <Label className="text-base font-semibold mb-2 block text-gray-900">{contentData.select_shape_2}</Label>
+                    <select className="w-full border rounded p-2" value={shape.key} onChange={handleShapeChange}>
+                      {SHAPES.map(s => <option key={s.key} value={s.key}>{s.label}</option>)}
+                    </select>
+                  </div>
+                  <form onSubmit={handleSubmit} className="space-y-4">
+                    {shape.fields.map(field => <div key={field.name} className="flex items-end gap-2">
+                      <div className="flex-1">
+                        <Label className="block mb-1 text-gray-900">{field.label}</Label>
+                        <Input type="number" name={field.name} value={inputs[field.name] || ""} onChange={handleInputChange} step="any" required />
                       </div>
-                      <div className="text-2xl font-bold text-green-700 tracking-tight mb-4 text-center">{contentData.result_11}</div>
-                      {result !== null ? <>
-                          <div className="flex flex-col items-center w-full">
-                            <div className="text-3xl font-bold mb-2 text-center w-full bg-gradient-to-l from-green-700 to-green-300 bg-clip-text text-transparent">
-                              {(() => {
+                      <div>
+                        <select name={field.name} value={inputUnits[field.name] || 'm'} onChange={handleUnitChange} className="border rounded p-2 bg-white">
+                          <option value="m">{contentData.m_3}</option>
+                          <option value="cm">{contentData.cm_4}</option>
+                          <option value="mm">{contentData.mm_5}</option>
+                          <option value="inch">{contentData.inch_6}</option>
+                          <option value="ft">{contentData.ft_7}</option>
+                          <option value="yd">{contentData.yd_8}</option>
+                        </select>
+                      </div>
+                    </div>)}
+                    <div className="text-sm text-gray-700">{contentData.formula_9}{shape.example}</div>
+                    <Button type="submit" className="w-full mt-2 bg-gradient-to-r from-green-500 to-green-700 text-white hover:from-green-600 hover:to-green-800">{contentData.calculate_10}</Button>
+                  </form>
+                </CardContent>
+              </Card>
+            </div>
+            {/* Right: Results */}
+            <div className="col-span-1 flex items-stretch">
+              <Card ref={resultsRef} className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-green-200 flex flex-col w-full h-full">
+                <div className="flex flex-1 flex-col justify-center items-center h-full py-12">
+                  <div className="flex flex-col items-center justify-center w-full">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center mb-4 shadow-lg">
+                      <Calculator className="w-8 h-8 text-white" />
+                    </div>
+                    <div className="text-2xl font-bold text-green-700 tracking-tight mb-4 text-center">{contentData.result_11}</div>
+                    {result !== null ? <>
+                      <div className="flex flex-col items-center w-full">
+                        <div className="text-3xl font-bold mb-2 text-center w-full bg-gradient-to-l from-green-700 to-green-300 bg-clip-text text-transparent">
+                          {(() => {
                             const unitObj = volumeUnits.find(u => u.value === resultUnit) || volumeUnits[0];
                             return (result * unitObj.factor).toLocaleString(undefined, {
                               maximumFractionDigits: 6
                             });
                           })()} <span className="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-l from-green-700 to-green-300">{resultUnit}</span>
-                            </div>
-                            <div className="mt-2">
-                              <select value={resultUnit} onChange={handleResultUnitChange} className="border rounded p-2 bg-white">
-                                {volumeUnits.map(u => <option key={u.value} value={u.value}>{u.label}</option>)}
-                              </select>
-                            </div>
-                          </div>
-                        </> : <div className="text-green-700 text-center text-base">{contentData.enter_values_and_click_12}<span className="font-semibold text-green-900">{contentData.calculate_13}</span>{contentData.to_see_result_14}</div>}
-                    </div>
+                        </div>
+                        <div className="mt-2">
+                          <select value={resultUnit} onChange={handleResultUnitChange} className="border rounded p-2 bg-white">
+                            {volumeUnits.map(u => <option key={u.value} value={u.value}>{u.label}</option>)}
+                          </select>
+                        </div>
+                      </div>
+                    </> : <div className="text-green-700 text-center text-base">{contentData.enter_values_and_click_12}<span className="font-semibold text-green-900">{contentData.calculate_13}</span>{contentData.to_see_result_14}</div>}
                   </div>
-                </Card>
-              </div>
-            </div>
-            <SimilarCalculators calculators={[{
-          calculatorName: "Percentage Calculator",
-          calculatorHref: "/maths/percentage-calculator",
-          calculatorDescription: "Calculate percentages, ratios, and percentage changes easily with our comprehensive percentage calculator"
-        }, {
-          calculatorName: "Critical Point Calculator",
-          calculatorHref: "/maths/critical-point-calculator",
-          calculatorDescription: "Find critical points of single-variable or multivariable functions by solving f′(x)=0 or ∂f/∂x=0 and ∂f/∂y=0. Identify where derivatives are zero or undefined."
-        }, {
-          calculatorName: "Scientific Calculator",
-          calculatorHref: "/maths/scientific-calculator",
-          calculatorDescription: "Perform advanced mathematical calculations and scientific functions including trigonometry, logarithms, exponents, and statistical operations"
-        }
-        ]} 
-        color="green" 
-        title="Related Math Calculators" />
-            {/* How to use section below both cards */}
-            <div className="mt-12">
-              <Card className="shadow-2xl border-0 bg-gradient-to-br from-green-50 to-green-200 flex flex-col justify-center items-start p-8">
-                <CardHeader className="w-full flex flex-row items-center justify-start mb-2">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-r from-green-400 to-green-600 flex items-center justify-center mr-3 shadow-lg">
-                    <Calculator className="w-6 h-6 text-white" />
-                  </div>
-                  <CardTitle className="text-2xl font-bold text-green-700 tracking-tight mb-2 text-left">{contentData.how_to_use_this_calculator_15}</CardTitle>
-                </CardHeader>
-                <CardContent className="w-full flex flex-col items-start justify-center">
-                  <ul className="list-none w-full max-w-md mx-0 text-green-900 space-y-4 text-base text-left">
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">{contentData.k_1_16}</span>
-                      <span>{contentData.select_the_shape_you_want_to_calculate_the_volume__17}</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">{contentData.k_2_18}</span>
-                      <span>{contentData.enter_your_values_in_the_input_fields_19}</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold">{contentData.k_3_20}</span>
-                      <span>{contentData.click_21}<span className="font-semibold text-green-900">{contentData.calculate_22}</span>{contentData.to_see_the_result_instantly_23}</span>
-                    </li>
-                  </ul>
-                </CardContent>
+                </div>
               </Card>
             </div>
           </div>
-        </main>
+          <CalculatorGuide data={guideData} />
+          <SimilarCalculators calculators={[{
+            calculatorName: "Percentage Calculator",
+            calculatorHref: "/maths/percentage-calculator",
+            calculatorDescription: "Calculate percentages, ratios, and percentage changes easily with our comprehensive percentage calculator"
+          }, {
+            calculatorName: "Critical Point Calculator",
+            calculatorHref: "/maths/critical-point-calculator",
+            calculatorDescription: "Find critical points of single-variable or multivariable functions by solving f′(x)=0 or ∂f/∂x=0 and ∂f/∂y=0. Identify where derivatives are zero or undefined."
+          }, {
+            calculatorName: "Scientific Calculator",
+            calculatorHref: "/maths/scientific-calculator",
+            calculatorDescription: "Perform advanced mathematical calculations and scientific functions including trigonometry, logarithms, exponents, and statistical operations"
+          }
+          ]}
+            color="green"
+            title="Related Math Calculators" />
+        </div>
+      </main>
 
-      </div>
-    </>;
+    </div>
+  </>;
 }

@@ -1,0 +1,134 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator błędu procentowego?",
+      "content": "Kalkulator błędu procentowego to narzędzie internetowe, które oblicza różnicę między zmierzoną (obserwowaną) wartością a prawdziwą (zaakceptowaną) wartością w procentach. Pomaga określić dokładność eksperymentów, przewidywań i obliczeń. Wynik jest zawsze dodatni, ponieważ wykorzystuje różnicę bezwzględną."
+    },
+    {
+      "heading": "Zastosowana formuła:",
+      "content": "$$Błąd procentowy = \\frac{|Wartość obserwowana - Wartość prawdziwa|}{|Wartość prawdziwa|} \\times 100\\%$$ \n Uwaga: Wynik jest zawsze dodatni, ponieważ wykorzystuje różnicę bezwzględną."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora błędów procentowych",
+      "content": "Ten kalkulator błędu procentowego jest prosty i przyjazny dla początkujących. Po prostu wpisz swoje wartości i uzyskaj natychmiastowe wyniki.",
+      "subSections": [
+        {
+          "heading": "Kroki użycia:",
+          "content": "Wprowadź obserwowaną wartość (zmierzony lub szacunkowy wynik). Wprowadź wartość True (wartość zaakceptowana lub referencyjna). Kliknij Oblicz, aby natychmiast uzyskać błąd procentowy. Przeanalizuj wynik — mniejszy procent oznacza większą dokładność."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe cechy kalkulatora błędu procentowego",
+      "content": "Narzędzie zapewnia dokładne, szybkie i przyjazne dla użytkownika wyniki błędów procentowych.",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe wyniki",
+          "content": "Oblicz błąd procentowy w sekundach."
+        },
+        {
+          "heading": "Przyjazny dla użytkownika interfejs",
+          "content": "Nie jest wymagana żadna wiedza techniczna ani matematyczna."
+        },
+        {
+          "heading": "Dokładna formuła",
+          "content": "Aby uzyskać wiarygodne wyniki, stosuje się standardową formułę błędu procentowego."
+        },
+        {
+          "heading": "Obsługuje różne wejścia",
+          "content": "Działa z liczbami całkowitymi, dziesiętnymi i procentami."
+        },
+        {
+          "heading": "Darmowe i bezpieczne",
+          "content": "Nie wymaga instalacji i nie gromadzi żadnych danych osobowych."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia kalkulatora błędu procentowego",
+      "content": "Błąd procentowy jest szeroko stosowany w różnych dziedzinach do pomiaru dokładności.",
+      "subSections": [
+        {
+          "heading": "Naukowcy",
+          "content": "Używany w laboratoriach fizyki, chemii i matematyki do porównywania wyników eksperymentów."
+        },
+        {
+          "heading": "Inżynieria",
+          "content": "Zapewnia zgodność pomiarów i projektów z wymaganymi normami."
+        },
+        {
+          "heading": "Finanse",
+          "content": "Porównuje przewidywane i rzeczywiste wyniki w prognozach lub budżetach."
+        },
+        {
+          "heading": "Kontrola jakości",
+          "content": "Monitoruje spójność i dokładność wyników produkcji."
+        },
+        {
+          "heading": "Codzienne zadania",
+          "content": "Przydatne do szacunków, przepisów, pomiarów DIY i nie tylko."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Eksperyment naukowy:",
+          "content": "Obserwowana wartość: 48g \n Prawdziwa wartość: 50g \n $$Błąd procentowy = \\frac{|48 - 50|}{50} \\times 100 = 4\\%$$"
+        },
+        {
+          "heading": "Przykład 2 – Przewidywana sprzedaż:",
+          "content": "Przewidywana sprzedaż: 200 sztuk \n Rzeczywista sprzedaż: 220 sztuk \n $$Błąd procentowy = \\frac{|200 - 220|}{220} \\times 100 \\około 9,09\\%$$"
+        },
+        {
+          "heading": "Przykład 3 – Pomiar konstrukcyjny:",
+          "content": "Zmierzona długość: 9,7 m \n Rzeczywista długość: 10 m \n $$Błąd procentowy = \\frac{|9,7 - 10|}{10} \\times 100 = 3\\%$$ \n Te przykłady pokazują praktyczną użyteczność kalkulatora błędu procentowego."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jaka jest różnica między błędem procentowym a błędem procentowym?",
+      "a": "Nie ma różnicy — oba terminy opisują tę samą koncepcję dokładności pomiaru."
+    },
+    {
+      "q": "Dlaczego błąd procentowy jest zawsze dodatni?",
+      "a": "Ponieważ wykorzystuje wartość bezwzględną różnicy między wartościami obserwowanymi i prawdziwymi."
+    },
+    {
+      "q": "Czy mogę ręcznie obliczyć błąd procentowy?",
+      "a": "Tak, użyj: \n $$ \\frac{|Zaobserwowano - Prawda|}{|Prawda|} \\times 100 $$"
+    },
+    {
+      "q": "Czy ten kalkulator obsługuje ułamki dziesiętne?",
+      "a": "Tak, działa zarówno z liczbami dziesiętnymi, jak i całkowitymi."
+    },
+    {
+      "q": "Czy mogę obliczyć błąd procentowy dla wielu pomiarów?",
+      "a": "Tak, ale każdy pomiar należy obliczyć osobno, aby uzyskać indywidualne błędy procentowe."
+    },
+    {
+      "q": "Czy korzystanie z internetowych kalkulatorów błędów procentowych jest bezpieczne?",
+      "a": "Tak, renomowane narzędzia są bezpłatne, bezpieczne i nie zbierają danych osobowych."
+    },
+    {
+      "q": "Dlaczego powinienem używać kalkulatora zamiast obliczeń ręcznych?",
+      "a": "Oszczędza czas, zmniejsza liczbę błędów i zapewnia natychmiastowe i dokładne wyniki."
+    },
+    {
+      "q": "Czy mogę to wykorzystać w analizie finansowej?",
+      "a": "Tak, błąd procentowy jest przydatny do porównywania przewidywanych i rzeczywistych wyników."
+    },
+    {
+      "q": "Co oznacza niski procent błędu?",
+      "a": "Oznacza to, że obserwowana wartość jest bardzo zbliżona do wartości prawdziwej, co świadczy o dużej dokładności."
+    },
+    {
+      "q": "Czy błąd procentowy może być większy niż 100%?",
+      "a": "Tak, jeśli zaobserwowana wartość jest znacząco wyższa lub niższa od wartości rzeczywistej."
+    }
+  ]
+}

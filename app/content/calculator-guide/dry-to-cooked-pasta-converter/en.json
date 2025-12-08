@@ -1,0 +1,147 @@
+{
+    "color": "green",
+    "sections": [
+        {
+            "heading": "Dry to Cooked Pasta Converter: What It Is and How It Helps",
+            "content": "The Dry to Cooked Pasta Converter is a free online tool that helps estimate the cooked pasta weight from a given amount of dry pasta. Different pasta types expand differently when cooked, and this calculator provides accurate estimates for home cooks, meal preppers, and professional chefs."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Select Pasta Type",
+                    "content": "Choose long, short, or filled pasta."
+                },
+                {
+                    "heading": "Enter Dry Quantity",
+                    "content": "Input the dry pasta amount in grams, ounces, or cups."
+                },
+                {
+                    "heading": "Select Target Unit",
+                    "content": "Choose how you want the cooked weight displayed."
+                },
+                {
+                    "heading": "Click Convert",
+                    "content": "See the estimated cooked pasta weight instantly."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Actual cooked weight may vary based on water absorption and cooking time."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Conversion",
+                    "content": "Convert dry pasta to cooked weight in seconds."
+                },
+                {
+                    "heading": "Supports Various Pasta Types",
+                    "content": "Spaghetti, penne, fusilli, and more are supported."
+                },
+                {
+                    "heading": "Accurate Estimates",
+                    "content": "Uses average expansion ratios for reliable results."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works seamlessly on smartphones, tablets, and desktops."
+                },
+                {
+                    "heading": "User-Friendly Interface",
+                    "content": "Simple and intuitive for beginners and professionals alike."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Home Cooks",
+                    "content": "Estimate portions accurately for daily meals."
+                },
+                {
+                    "heading": "Meal Preppers",
+                    "content": "Plan exact cooked pasta quantities for weekly meals."
+                },
+                {
+                    "heading": "Nutrition Tracking",
+                    "content": "Track calories and macros precisely using cooked pasta weight."
+                },
+                {
+                    "heading": "Professional Kitchens",
+                    "content": "Standardize portion sizes for recipes in restaurants or catering."
+                },
+                {
+                    "heading": "Event Cooking",
+                    "content": "Plan ingredient needs for parties or large gatherings."
+                }
+            ]
+        },
+        {
+            "heading": "Example Conversions",
+            "subSections": [
+                {
+                    "heading": "Spaghetti",
+                    "content": "100 g dry spaghetti → 220 g cooked"
+                },
+                {
+                    "heading": "Penne",
+                    "content": "50 g dry penne → 110 g cooked"
+                },
+                {
+                    "heading": "Fusilli",
+                    "content": "200 g dry fusilli → 440 g cooked"
+                },
+                {
+                    "heading": "Volume Conversion",
+                    "content": "1 cup dry pasta → ~2 cups cooked"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Dry to Cooked Pasta Converter?",
+            "a": "It estimates how much cooked pasta you get from dry pasta."
+        },
+        {
+            "q": "Does it work for all pasta types?",
+            "a": "Yes, it supports most common pasta types."
+        },
+        {
+            "q": "Is ingredient selection important?",
+            "a": "Yes, selecting the pasta type improves conversion accuracy."
+        },
+        {
+            "q": "Is the result exact?",
+            "a": "No, it’s an estimate; actual weight may vary depending on cooking conditions."
+        },
+        {
+            "q": "Can I convert cups to cooked weight?",
+            "a": "Yes, both weight and volume inputs are supported."
+        },
+        {
+            "q": "Is this calculator mobile-friendly?",
+            "a": "Yes, it works on smartphones, tablets, and desktops."
+        },
+        {
+            "q": "Is it free to use?",
+            "a": "Yes, fully free and online."
+        },
+        {
+            "q": "Can I plan meals using this tool?",
+            "a": "Yes, it helps estimate portions for individual meals or bulk cooking."
+        },
+        {
+            "q": "Who should use this calculator?",
+            "a": "Home cooks, meal preppers, diet-conscious individuals, and chefs."
+        },
+        {
+            "q": "Why use this converter?",
+            "a": "It ensures proper portion control and accurate cooking results."
+        }
+    ]
+}

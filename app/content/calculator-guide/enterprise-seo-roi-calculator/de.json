@@ -1,0 +1,147 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "SEO-ROI-Rechner für Unternehmen: Was es ist und wie man es verwendet",
+      "content": "Ein Enterprise SEO ROI-Rechner ist ein Tool, das Unternehmen dabei hilft, den Return on Investment (ROI) ihrer SEO-Bemühungen abzuschätzen. Durch die Analyse der SEO-Ausgaben, des erwarteten Traffic-Wachstums und der Conversions werden der prognostizierte Umsatz, der ROI-Prozentsatz und die Amortisationszeit berechnet."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Öffnen Sie den Rechner",
+          "content": "Greifen Sie direkt in Ihrem Browser darauf zu."
+        },
+        {
+          "heading": "Geben Sie aktuelle Messwerte ein",
+          "content": "Berücksichtigen Sie den organischen Traffic, die Conversion-Rate und den durchschnittlichen Umsatz pro Conversion."
+        },
+        {
+          "heading": "Fügen Sie SEO-Kosten hinzu",
+          "content": "Berücksichtigen Sie die Ausgaben für Ihr Team, Ihre Tools oder Ihre Agentur."
+        },
+        {
+          "heading": "Schätzen Sie das Wachstum",
+          "content": "Geben Sie das erwartete Traffic-Wachstum durch SEO-Bemühungen ein."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Sehen Sie sofort den prognostizierten Umsatz, den ROI und die Amortisationszeit."
+        },
+        {
+          "heading": "Passen Sie Szenarien an",
+          "content": "Testen Sie verschiedene Annahmen, um die Strategie zu optimieren."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Unternehmensorientiert",
+          "content": "Entwickelt für große Websites und komplexe SEO-Strategien."
+        },
+        {
+          "heading": "Sofortige ROI-Berechnung",
+          "content": "Sehen Sie sich den ROI-Prozentsatz direkt nach der Eingabe von Eingaben an."
+        },
+        {
+          "heading": "Umsatzprognose",
+          "content": "Berechnet potenzielle Einnahmen basierend auf Traffic und Conversions."
+        },
+        {
+          "heading": "Amortisationszeit",
+          "content": "Schätzt, wie lange es dauert, bis sich SEO-Investitionen amortisieren."
+        },
+        {
+          "heading": "Szenariomodellierung",
+          "content": "Testen Sie mehrere Wachstums- und Konvertierungsszenarien, um eine Strategie zu planen."
+        },
+        {
+          "heading": "Kostenlos und mobilfreundlich",
+          "content": "Funktioniert auf jedem Gerät, ohne dass eine Registrierung erforderlich ist."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Budgetplanung",
+          "content": "Begründen Sie SEO-Ausgaben mit klaren ROI-Prognosen."
+        },
+        {
+          "heading": "Prognose",
+          "content": "Schätzen Sie das Umsatzwachstum durch SEO-Verbesserungen."
+        },
+        {
+          "heading": "Kanalvergleich",
+          "content": "Vergleichen Sie SEO mit PPC oder anderen Marketingmaßnahmen."
+        },
+        {
+          "heading": "Stakeholder-Berichterstattung",
+          "content": "Präsentieren Sie Führungskräften oder Kunden den datengesteuerten ROI."
+        },
+        {
+          "heading": "Strategische Entscheidungsfindung",
+          "content": "Optimieren Sie Budgets und SEO-Strategien."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Basisszenario",
+          "content": "Traffic: 100.000/Monat | Conversion-Rate: 2 % | Durchschnittliche Bestellung: 50 $ | SEO-Kosten: 5.000 $/Monat | Verkehrswachstum: 20 % | Ergebnis: Umsatz = 120.000 $ → ROI ≈ 140 %"
+        },
+        {
+          "heading": "Beispiel 2 – Wachstumsszenario",
+          "content": "Gleiche Daten, aber Traffic-Wachstum: 50 % | Ergebnis: Umsatz = 150.000 $ → ROI ≈ 200 %"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein SEO-ROI-Rechner für Unternehmen?",
+      "a": "Es schätzt den ROI, den prognostizierten Umsatz und die Amortisationszeit von SEO-Investitionen."
+    },
+    {
+      "q": "Ist dieser Rechner kostenlos?",
+      "a": "Ja, die Online-Nutzung ist völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software?",
+      "a": "Nein, es funktioniert direkt in jedem Browser."
+    },
+    {
+      "q": "Kann es den Umsatz schätzen?",
+      "a": "Ja, es berechnet den Umsatz basierend auf Traffic, Conversion-Rate und durchschnittlichem Bestellwert."
+    },
+    {
+      "q": "Berechnet es den ROI automatisch?",
+      "a": "Ja, Ergebnisse werden sofort nach Eingabe Ihrer Eingaben angezeigt."
+    },
+    {
+      "q": "Kann ich mehrere Szenarien testen?",
+      "a": "Ja, Sie können das Traffic-Wachstum, die Conversion-Raten und die Kosten anpassen."
+    },
+    {
+      "q": "Gilt es nur für große Websites?",
+      "a": "Es ist für Unternehmen konzipiert, kann aber auch für kleinere Unternehmen nützlich sein."
+    },
+    {
+      "q": "Kann es helfen, SEO-Budgets zu rechtfertigen?",
+      "a": "Ja, es bietet einen klaren, datengesteuerten ROI zur Unterstützung der Entscheidungsfindung."
+    },
+    {
+      "q": "Ist eine Amortisationszeit enthalten?",
+      "a": "Ja, es wird geschätzt, wie lange es dauert, bis sich Ihre SEO-Investition amortisiert."
+    },
+    {
+      "q": "Sind Ergebnisse garantiert?",
+      "a": "Nein, die Ergebnisse sind Prognosen, die auf den bereitgestellten Eingaben basieren."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de intereses?",
+      "content": "Nuestra Calculadora de intereses en línea le ayuda a descubrir cuánto interés ganará por sus ahorros e inversiones o pagará por sus préstamos. Ya sea que necesite una calculadora de interés simple o una calculadora de interés compuesto, esta herramienta le brinda resultados precisos al instante. Puede usarlo como calculadora de intereses de préstamos, calculadora de intereses de ahorros, calculadora de intereses de inversiones o calculadora de intereses bancarios, todo en un solo lugar."
+    },
+    {
+      "heading": "¿Qué es el interés?",
+      "subSections": [
+        {
+          "heading": "Interés simple (SI)",
+          "content": "Calculado únicamente sobre el monto principal. Fórmula: SI = (Principal × Tasa × Tiempo) ÷ 100"
+        },
+        {
+          "heading": "Interés compuesto (CI)",
+          "content": "Calculado sobre el capital más los intereses acumulados. Fórmula: A = P × (1 + R/100)^T"
+        },
+        {
+          "heading": "¿Por qué utilizar calculadoras de intereses?",
+          "content": "Las calculadoras de intereses diarios, mensuales y anuales lo ayudan a planificar mejor sus préstamos, ahorros e inversiones."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de intereses (paso a paso)",
+      "subSections": [
+        {
+          "heading": "Paso 1: ingrese el monto principal",
+          "content": "Escriba el monto del préstamo o inversión."
+        },
+        {
+          "heading": "Paso 2: Ingrese la tasa de interés",
+          "content": "Proporcione la tasa de porcentaje anual (APR)."
+        },
+        {
+          "heading": "Paso 3: seleccione el período de tiempo",
+          "content": "Elija la duración en meses o años."
+        },
+        {
+          "heading": "Paso 4: elija el tipo de interés",
+          "content": "Seleccione Interés simple o Interés compuesto."
+        },
+        {
+          "heading": "Paso 5: haga clic en Calcular",
+          "content": "Vea el interés total ganado/pagado y el saldo final."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo calcular el crecimiento de la inversión",
+      "subSections": [
+        {
+          "heading": "Paso 1: Ingrese la inversión inicial",
+          "content": "Comience con el monto base que planea invertir."
+        },
+        {
+          "heading": "Paso 2: agregar contribuciones",
+          "content": "Complete su aporte Anual y/o Mensual."
+        },
+        {
+          "heading": "Paso 3: Momento de la contribución",
+          "content": "Seleccione si contribuye al principio o al final de cada período."
+        },
+        {
+          "heading": "Paso 4: establecer el interés y la capitalización",
+          "content": "Ingrese la tasa de interés y elija la frecuencia de capitalización."
+        },
+        {
+          "heading": "Paso 5: Ingrese la duración de la inversión",
+          "content": "Especificar duración en años y meses."
+        },
+        {
+          "heading": "Paso 6: agregue factores opcionales",
+          "content": "Incluya tasas de impuestos e inflación para obtener resultados más precisos."
+        },
+        {
+          "heading": "Paso 7: haga clic en Calcular",
+          "content": "Vea el resumen de su inversión, crecimiento, interés total y poder adquisitivo después de la inflación."
+        }
+      ],
+      "content": "Esta herramienta le ayuda a estimar el crecimiento de su inversión, el interés total y el poder adquisitivo después de la inflación. ¡Ajusta los valores para planificar tu futuro financiero de forma inteligente!"
+    },
+    {
+      "heading": "Ejemplo de cálculo",
+      "subSections": [
+        {
+          "heading": "Ejemplo de interés simple",
+          "content": "Inversión: $10,000 al 8% de interés anual por 5 años. SI = (10.000 × 8 × 5) ÷ 100 = $4.000. Monto final = $14,000."
+        },
+        {
+          "heading": "Ejemplo de interés compuesto",
+          "content": "Inversión: $10,000 al 8% de interés anual por 5 años (capitalización anual). A = 10.000 × (1 + 0,08)^5 = $14.693. El interés compuesto da $693 más que el interés simple."
+        }
+      ]
+    },
+    {
+      "heading": "Beneficios de utilizar nuestra calculadora de intereses",
+      "subSections": [
+        {
+          "heading": "Rápido y preciso",
+          "content": "Resultados instantáneos sin cálculos manuales."
+        },
+        {
+          "heading": "Comparar SI vs CI",
+          "content": "Vea fácilmente la diferencia entre interés simple y compuesto."
+        },
+        {
+          "heading": "Funciona para todos los casos",
+          "content": "Préstamos, ahorros, DF, hipotecas e inversiones."
+        },
+        {
+          "heading": "Admite modos flexibles",
+          "content": "Cálculos de intereses diarios, mensuales y anuales."
+        },
+        {
+          "heading": "Uso versátil",
+          "content": "Perfecto para préstamos hipotecarios, préstamos para automóviles, tarjetas de crédito, préstamos comerciales y EMI."
+        }
+      ]
+    },
+    {
+      "heading": "Tipos de cálculos de intereses que puedes hacer",
+      "subSections": [
+        {
+          "heading": "Calculadora de interés simple",
+          "content": "Para préstamos o depósitos a corto plazo."
+        },
+        {
+          "heading": "Calculadora de interés compuesto",
+          "content": "Vea cómo crece el interés con la capitalización (diaria, mensual, anual)."
+        },
+        {
+          "heading": "Calculadora de intereses de préstamos",
+          "content": "Calcule el interés total del préstamo a lo largo del tiempo."
+        },
+        {
+          "heading": "Calculadora de intereses de préstamos para automóviles",
+          "content": "Calcular el interés de los préstamos para vehículos."
+        },
+        {
+          "heading": "Calculadora de intereses de préstamos personales",
+          "content": "Comprueba cuánto pagarás."
+        },
+        {
+          "heading": "Calculadora de intereses de tarjetas de crédito",
+          "content": "Comprenda los cargos mensuales de la tarjeta."
+        },
+        {
+          "heading": "Calculadora de intereses de ahorro",
+          "content": "Vea cómo crecen sus ahorros."
+        },
+        {
+          "heading": "Calculadora de intereses de depósito fijo",
+          "content": "Calcule el valor de vencimiento de FD."
+        },
+        {
+          "heading": "Calculadora de intereses de inversión",
+          "content": "Evaluar el rendimiento de las inversiones."
+        },
+        {
+          "heading": "Calculadora de intereses EMI",
+          "content": "Encuentre la porción de interés en EMI."
+        },
+        {
+          "heading": "Calculadora de intereses de préstamos comerciales",
+          "content": "Planifique los pagos de su negocio."
+        },
+        {
+          "heading": "Calculadora de intereses de préstamos hipotecarios",
+          "content": "Estimar el interés de los préstamos para vivienda."
+        },
+        {
+          "heading": "Calculadora de tasa de interés",
+          "content": "Compara resultados a diferentes ritmos."
+        },
+        {
+          "heading": "Calculadora de acumulación de intereses",
+          "content": "Realice un seguimiento del interés acumulado a lo largo del tiempo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es la fórmula del interés simple?",
+      "a": "SI = (Principal × Tasa × Tiempo) ÷ 100"
+    },
+    {
+      "q": "¿Cuál es la fórmula del interés compuesto?",
+      "a": "CI = Principal × (1 + Tasa/100)^Tiempo – Principal"
+    },
+    {
+      "q": "¿Puedo usar esta calculadora tanto para préstamos como para ahorros?",
+      "a": "Sí, nuestra herramienta funciona como calculadora de intereses de préstamos, calculadora de intereses de ahorros, calculadora de inversiones y calculadora de intereses hipotecarios."
+    }
+  ]
+}

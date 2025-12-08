@@ -1,0 +1,217 @@
+{
+  "pageTitle": "Calculadora de ingesta de grasas",
+  "pageDescription": "Calcule sus necesidades diarias de grasa según el nivel de actividad, los objetivos y los requisitos dietéticos para una salud y un rendimiento óptimos.",
+  "form": {
+    "labels": {
+      "age": "Edad (años)",
+      "gender": "Género",
+      "weight": "Peso",
+      "height": "Altura",
+      "unitSystem": "Sistema de unidades",
+      "activityLevel": "Nivel de actividad",
+      "goal": "Objetivo dietético",
+      "dietType": "Tipo de dieta"
+    },
+    "placeholders": {
+      "age": "Introduce la edad",
+      "heightFt": "Pies",
+      "heightIn": "Pulgadas",
+      "heightCm": "Introduzca la altura en cm",
+      "weight": "Introduzca el peso en {unidad}"
+    },
+    "buttons": {
+      "calculate": "Calcular la ingesta de grasas",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades estadounidenses (pies/pulgadas, libras)",
+      "metric": "Unidades métricas (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentario (poco o ningún ejercicio)",
+      "light": "Ligeramente activo (ejercicio ligero 1-3 días/semana)",
+      "moderate": "Moderadamente activo (ejercicio moderado 3-5 días/semana)",
+      "active": "Muy activo (ejercicio intenso 6-7 días/semana)",
+      "veryActive": "Extremadamente activo (ejercicio muy duro y trabajo físico)"
+    },
+    "goals": {
+      "maintenance": "Mantenimiento de peso",
+      "lose": "Pérdida de peso",
+      "gain": "Aumento de peso",
+      "athletic": "Rendimiento atlético"
+    },
+    "dietTypes": {
+      "balanced": "Dieta equilibrada (20-35% de grasa)",
+      "lowFat": "Bajo en grasa (10-20% de grasa)",
+      "highFat": "Alto contenido de grasa (35-50 % de grasa)",
+      "keto": "Cetogénico (70-80% de grasa)"
+    }
+  },
+  "results": {
+    "fatNeeds": "Necesidades diarias de grasas",
+    "caloriesFromFat": "Calorías de grasa",
+    "fatRange": "Rango de grasa recomendado",
+    "fatResultsTitle": "Resultados de la ingesta de grasas"
+  },
+  "educational": {
+    "fatInfo": "Información sobre el consumo de grasas",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos nutricionales",
+    "fatFacts": {
+      "function": {
+        "title": "Función grasa",
+        "description": "Esencial para la producción de hormonas, la absorción de vitaminas y el almacenamiento de energía a largo plazo."
+      },
+      "types": {
+        "title": "Tipos de grasas",
+        "description": "Grasas saturadas, insaturadas (mono y poli) y trans"
+      },
+      "recommendations": {
+        "title": "Recomendaciones dietéticas",
+        "description": "Entre el 20% y el 35% del total de calorías diarias deben provenir de grasas, con énfasis en las grasas insaturadas."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones nutricionales únicamente.",
+      "individual": "Las necesidades de grasas varían según factores individuales y condiciones de salud."
+    },
+    "importantNotesList": [
+      "Los ácidos grasos esenciales (omega-3 y omega-6) deben obtenerse de los alimentos.",
+      "Los ácidos grasos esenciales (omega-3 y omega-6) deben obtenerse de los alimentos.",
+      "Los ácidos grasos esenciales (omega-3 y omega-6) deben obtenerse de los alimentos.",
+      "La ingesta de grasas afecta la saciedad y puede ayudar a controlar el peso."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingresa tu información para calcular las necesidades de grasa",
+    "resultMessage": "Sus necesidades diarias de grasa se muestran a continuación.",
+    "assessmentResult": "Resultado del cálculo de la ingesta de grasas:",
+    "fatAnalysis": "Análisis de ingesta de grasas"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de la ingesta de grasas basadas en pautas nutricionales generales. Las necesidades individuales pueden variar según las condiciones de salud, los medicamentos y los requisitos dietéticos específicos."
+  },
+  "seekHelp": {
+    "title": "Recursos nutricionales",
+    "content": "Para obtener asesoramiento nutricional personalizado y planificación dietética, consulte a dietistas registrados o profesionales de la salud con experiencia en ciencias nutricionales y necesidades de salud individuales."
+  },
+  "errors": {
+    "age": "Por favor ingresa una edad válida (1-120)",
+    "gender": "Por favor seleccione género",
+    "heightFt": "Por favor introduce pies válidos",
+    "heightIn": "Por favor ingrese pulgadas válidas (0-11)",
+    "heightCm": "Por favor introduzca una altura válida en cm.",
+    "weight": "Por favor introduce un peso válido",
+    "activityLevel": "Por favor seleccione el nivel de actividad",
+    "goal": "Seleccione un objetivo dietético",
+    "dietType": "Por favor seleccione un tipo de dieta"
+  },
+  "tooltips": {
+    "age": "La edad afecta la tasa metabólica y las necesidades de grasas.",
+    "height": "Tu medida de altura actual",
+    "weight": "Tu peso corporal actual",
+    "activityLevel": "Su nivel de actividad regular afecta las necesidades energéticas",
+    "goal": "Su objetivo dietético determina las recomendaciones de grasas",
+    "dietType": "El tipo de dieta seleccionado afecta el nivel de ingesta de grasas"
+  },
+  "fat_calculation_0": "Cálculo de grasa",
+  "enter_your_details_to_calculate_your_optimal_daily_1": "Introduce tus datos para calcular tu ingesta diaria óptima de grasas",
+  "age_years_2": "Edad (años) *",
+  "gender_3": "Género *",
+  "male_4": "Masculino",
+  "female_5": "Femenino",
+  "height_6": "Altura *",
+  "metric_7": "Métrico",
+  "us_8": "A NOSOTROS",
+  "cm_9": "centímetro",
+  "ft_10": "pie",
+  "in_11": "en",
+  "weight_12": "Peso *",
+  "metric_13": "Métrico",
+  "us_14": "A NOSOTROS",
+  "kg_15": "kilos",
+  "lbs_16": "libras",
+  "activity_level_17": "Nivel de actividad *",
+  "sedentary_littleno_exercise_18": "Sedentario (poco o nada de ejercicio)",
+  "light_13week_19": "Ligero (1 a 3 veces por semana)",
+  "moderate_45week_20": "Moderado (4 a 5 veces por semana)",
+  "active_daily_or_intense_34week_21": "Activo (diario o intenso 3-4 veces/semana)",
+  "very_active_intense_67week_22": "Muy activo (intenso 6 a 7 veces por semana)",
+  "extra_active_very_intense_or_physical_job_23": "Extra Activo (trabajo muy intenso o físico)",
+  "bmr_formula_24": "Fórmula TMB",
+  "mifflinst_jeor_default_25": "Mifflin-St Jeor (predeterminado)",
+  "katchmcardle_if_body_fat_known_26": "Katch-McArdle (si se conoce el porcentaje de grasa corporal)",
+  "body_fat_27": "% de grasa corporal *",
+  "calculate_intake_28": "Calcular la ingesta",
+  "reset_29": "Reiniciar",
+  "daily_fat_range_30": "Rango de grasa diario",
+  "g_31": "gramo",
+  "per_day_32": "por dia",
+  "maintenance_33": "Mantenimiento",
+  "enter_your_details_to_calculate_your_optimal_daily_34": "Introduce tus datos para calcular tu ingesta diaria óptima de grasas.",
+  "fat_intake_results_35": "Resultados de la ingesta de grasas",
+  "goal_36": "Meta",
+  "daily_calories_37": "Calorías Diarias",
+  "fat_range_2035_38": "Rango de grasa (20-35%)",
+  "sat_fat_limit_10_39": "Límite de grasas saturadas (<10%)",
+  "sat_fat_limit_7_40": "Límite de grasa saturada (<7%)",
+  "kcal_41": "calorías",
+  "g_42": "gramo",
+  "g_43": "gramo",
+  "g_44": "gramo",
+  "calculation_details_45": "Detalles del cálculo",
+  "bmr_formula_46": "Fórmula TMB:",
+  "bmr_47": "TMB:",
+  "kcalday_48": "kcal/día",
+  "activity_level_49": "Nivel de actividad:",
+  "tdee_maintenance_50": "TDEE (Mantenimiento):",
+  "kcalday_51": "kcal/día",
+  "your_profile_52": "Tu perfil",
+  "age_53": "Edad:",
+  "years_54": "años",
+  "gender_55": "Género:",
+  "height_56": "Altura:",
+  "weight_57": "Peso:",
+  "important_notes_58": "Notas importantes",
+  "fat_provides_9_kcal_per_gram_59": "La grasa aporta 9 kcal por gramo.",
+  "healthy_range_2035_of_daily_calories_60": "Rango saludable: 20-35% de las calorías diarias.",
+  "saturated_fat_should_be_kept_below_10_or_7_for_hea_61": "Las grasas saturadas deben mantenerse por debajo del 10% (o del 7% si existe riesgo de enfermedad cardíaca).",
+  "individual_needs_may_vary_depending_on_health_cond_62": "Las necesidades individuales pueden variar según las condiciones y objetivos de salud.",
+  "focus_on_healthy_fats_from_nuts_seeds_fish_and_oli_63": "Concéntrese en las grasas saludables de las nueces, las semillas, el pescado y el aceite de oliva.",
+  "about_fat_requirements_64": "Acerca de los requisitos de grasa",
+  "types_of_dietary_fat_65": "Tipos de grasas dietéticas",
+  "monounsaturated_66": "Monoinsaturados:",
+  "olive_oil_avocados_nuts_67": "Aceite de oliva, aguacates, nueces.",
+  "polyunsaturated_68": "Poliinsaturado:",
+  "fish_walnuts_flaxseeds_69": "Pescado, nueces, linaza.",
+  "saturated_70": "Saturado:",
+  "meat_dairy_coconut_oil_limit_71": "Carne, lácteos, aceite de coco (límite)",
+  "trans_fats_72": "Grasas trans:",
+  "processed_foods_avoid_73": "Alimentos procesados ​​(evitar)",
+  "health_benefits_74": "Beneficios para la salud",
+  "essential_for_vitamin_absorption_a_d_e_k_75": "Esencial para la absorción de vitaminas (A, D, E, K)",
+  "supports_brain_and_nervous_system_function_76": "Apoya la función del cerebro y del sistema nervioso.",
+  "provides_essential_fatty_acids_77": "Aporta ácidos grasos esenciales.",
+  "helps_maintain_healthy_skin_and_hair_78": "Ayuda a mantener la piel y el cabello sanos.",
+  "healthy_fat_sources_79": "Fuentes de grasas saludables",
+  "food_80": "Alimento",
+  "fat100g_81": "Grasa/100g",
+  "olive_oil_82": "Aceite de oliva",
+  "k_100g_83": "100g",
+  "avocado_84": "Palta",
+  "k_15g_85": "15g",
+  "almonds_86": "Almendras",
+  "k_49g_87": "49g",
+  "salmon_88": "Salmón",
+  "k_13g_89": "13g",
+  "walnuts_90": "nueces",
+  "k_65g_91": "65g",
+  "guidelines_92": "Pautas",
+  "choose_unsaturated_fats_over_saturated_93": "Elija grasas insaturadas en lugar de saturadas",
+  "include_omega3_fatty_acids_regularly_94": "Incluir ácidos grasos omega-3 regularmente",
+  "limit_processed_and_fried_foods_95": "Limite los alimentos procesados ​​y fritos",
+  "read_nutrition_labels_carefully_96": "Lea atentamente las etiquetas nutricionales"
+}

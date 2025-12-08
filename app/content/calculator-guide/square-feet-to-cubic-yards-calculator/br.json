@@ -1,0 +1,101 @@
+{
+  "color": "laranja",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de pés quadrados para jardas cúbicas?",
+      "content": "Esta calculadora converte a área em pés quadrados e a profundidade do material em volume em jardas cúbicas, ajudando você a estimar os requisitos de solo, cobertura morta, cascalho ou concreto com rapidez e precisão."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "content": "Siga estas etapas para estimar jardas cúbicas facilmente:",
+      "subSections": [
+        {
+          "heading": "Passos",
+          "content": "1. Insira a área – Insira o total de pés quadrados ou comprimento × largura.\n2. Insira a profundidade – Especifique a profundidade do material em pés.\n3. Clique em Calcular – Obtenha as jardas cúbicas instantaneamente.\n4. Dica – Para superfícies irregulares utilize uma profundidade média."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "content": "Esta ferramenta oferece cálculos rápidos e precisos de jardas cúbicas:",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "- Conversão instantânea de área e profundidade em jardas cúbicas.\n- Campos de entrada simples para área ou comprimento x largura direto.\n- Adequado para solo, cobertura morta, cascalho, areia e concreto.\n- Interface totalmente compatível com dispositivos móveis.\n- Ajuda a planejar com precisão o volume e o custo do material."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "content": "As pessoas usam esta calculadora para diferentes projetos da vida real:",
+      "subSections": [
+        {
+          "heading": "Exemplos",
+          "content": "- Construção e Paisagismo: Estime o volume de concreto, cascalho ou solo.\n- Jardinagem: Calcule a cobertura morta ou composto necessário para canteiros de jardim.\n- Projetos DIY: Estime materiais para pátios, caminhos ou pequenas escavações.\n- Pedido de materiais a granel: converta área + profundidade em jardas cúbicas para fornecedores.\n- Planejamento Orçamentário: Planeje custos e necessidades de materiais antes de comprar."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "content": "Aqui estão exemplos de cálculos baseados em cenários reais:",
+      "subSections": [
+        {
+          "heading": "Exemplos",
+          "content": "- Canteiro de jardim: Área 100 pés², Profundidade 0,5 pés → Volume ≈ 1,85 jardas³.\n- Cascalho da entrada de automóveis: Área 500 pés², Profundidade 0,25 pés → Volume ≈ 4,63 jardas³.\n- Laje de concreto: Área 200 pés², Profundidade 0,33 pés → Volume ≈ 2,44 jardas³."
+        }
+      ]
+    },
+    {
+      "heading": "Dicas e práticas recomendadas",
+      "content": "Orientações úteis para melhorar suas estimativas de materiais:",
+      "subSections": [
+        {
+          "heading": "Pontas",
+          "content": "- Sempre arredonde as estimativas de materiais para evitar escassez.\n- Utilize profundidade média se o terreno for irregular.\n- Converta a profundidade corretamente (polegadas → pés, se necessário).\n- Verifique novamente a área antes de solicitar materiais a granel.\n- Compare os preços em jardas cúbicas dos fornecedores para obter economia de custos."
+        }
+      ]
+    },
+    {
+      "heading": "Isenção de responsabilidade",
+      "content": "Esta calculadora de jardas cúbicas fornece resultados aproximados. A sedimentação do material, a umidade, a compactação e as variações do fornecedor podem afetar as quantidades reais. Para requisitos precisos, consulte um empreiteiro ou fornecedor de materiais."
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que esta calculadora faz?",
+      "a": "Ele converte pés quadrados e profundidade do material (em pés) em jardas cúbicas."
+    },
+    {
+      "q": "Por que usá-lo?",
+      "a": "Para estimar rapidamente a quantidade de solo, cascalho, cobertura morta, areia ou concreto necessária para um projeto."
+    },
+    {
+      "q": "Posso calcular a área usando comprimento x largura?",
+      "a": "Sim, a calculadora pode calcular a área automaticamente."
+    },
+    {
+      "q": "Posso usar profundidades diferentes?",
+      "a": "Sim, insira qualquer profundidade em pés. Para polegadas, converta primeiro para pés."
+    },
+    {
+      "q": "Funciona para superfícies irregulares?",
+      "a": "Sim. Use uma profundidade média para obter melhores resultados."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, funciona perfeitamente em telefones, tablets e desktops."
+    },
+    {
+      "q": "Isso pode ajudar no orçamento?",
+      "a": "Sim, multiplique a estimativa de jardas cúbicas pelo custo por jarda para planejar as despesas."
+    },
+    {
+      "q": "O uso é gratuito?",
+      "a": "Sim, totalmente gratuito, sem downloads ou inscrição."
+    },
+    {
+      "q": "Quem deve usar esta calculadora?",
+      "a": "Empreiteiros, jardineiros, paisagistas, proprietários e entusiastas de projetos DIY."
+    }
+  ]
+}

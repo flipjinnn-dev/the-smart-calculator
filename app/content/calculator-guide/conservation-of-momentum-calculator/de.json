@@ -1,0 +1,151 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Impulserhaltungsrechner: Was er ist und wie man ihn verwendet",
+      "content": "Ein Impulserhaltungsrechner ist ein kostenloses Online-Physiktool, mit dem Sie Endgeschwindigkeiten oder unbekannte Impulswerte bei Kollisionen berechnen können. Mithilfe des Impulserhaltungssatzes liefert es schnelle und genaue Ergebnisse, ohne dass komplexe Berechnungen von Hand durchgeführt werden müssen."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Öffnen Sie den Rechner",
+          "content": "Greifen Sie direkt in Ihrem Browser darauf zu."
+        },
+        {
+          "heading": "Geben Sie Messen ein",
+          "content": "Geben Sie die Massen der kollidierenden Objekte ein (m₁ und m₂)."
+        },
+        {
+          "heading": "Geben Sie die Anfangsgeschwindigkeiten ein",
+          "content": "Addieren Sie die Geschwindigkeiten vor der Kollision (u₁ und u₂)."
+        },
+        {
+          "heading": "Wählen Sie Kollisionstyp aus",
+          "content": "Wählen Sie „elastisch“, „unelastisch“ oder „generisch“, falls verfügbar."
+        },
+        {
+          "heading": "Geben Sie die bekannte Endgeschwindigkeit ein",
+          "content": "Lassen Sie die unbekannte Variable leer; Der Rechner wird es lösen."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Sehen Sie sofort die Endgeschwindigkeiten oder den unbekannten Impuls."
+        },
+        {
+          "heading": "Überprüfen Sie die Einheiten",
+          "content": "Stellen Sie sicher, dass alle Einheiten mit dem von Ihnen verwendeten System übereinstimmen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Ergebnisse",
+          "content": "Erhalten Sie sofort Berechnungen ohne manuelle Formeln."
+        },
+        {
+          "heading": "Mehrere Ausgänge",
+          "content": "Berechnen Sie Endgeschwindigkeiten, Gesamtimpuls oder unbekannte Variablen."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf Telefonen, Tablets und Desktops."
+        },
+        {
+          "heading": "Kostenlos und einfach zu bedienen",
+          "content": "Keine Downloads oder Registrierung erforderlich."
+        },
+        {
+          "heading": "Pädagogisch",
+          "content": "Hilft, Impuls- und Kollisionskonzepte klar zu verstehen."
+        },
+        {
+          "heading": "Unterstützt metrische und imperiale Einheiten",
+          "content": "Flexibel für Benutzer weltweit."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Schüler und Lehrer",
+          "content": "Lösen Sie Hausaufgaben, überprüfen Sie Unterrichtsprobleme oder demonstrieren Sie Konzepte."
+        },
+        {
+          "heading": "Physikbegeisterte",
+          "content": "Experimentieren Sie mit verschiedenen Masse- und Geschwindigkeitskombinationen."
+        },
+        {
+          "heading": "Hobbyisten und Spieledesigner",
+          "content": "Simulieren Sie realistische Kollisionen für Animationen oder Spiele."
+        },
+        {
+          "heading": "Szenarioanalyse",
+          "content": "Vergleichen Sie mehrere Setups, um zu sehen, wie der Impuls erhalten bleibt."
+        },
+        {
+          "heading": "Pädagogische Demonstrationen",
+          "content": "Veranschaulichen Sie das Gesetz der Impulserhaltung anschaulich."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Elastische Kollision",
+          "content": "Masse m₁: 2 kg | Geschwindigkeit u₁: 5 m/s | Masse m₂: 3 kg | Geschwindigkeit u₂: -2 m/s | Endgeschwindigkeiten: v₁ = -1 m/s, v₂ = 4 m/s"
+        },
+        {
+          "heading": "Beispiel 2 – Inelastischer Stoß",
+          "content": "Masse m₁: 4 kg | Geschwindigkeit u₁: 3 m/s | Masse m₂: 2 kg | Geschwindigkeit u₂: 1 m/s | Endgültige kombinierte Geschwindigkeit: 2,33 m/s"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Impulserhaltungsrechner?",
+      "a": "Es berechnet Endgeschwindigkeiten oder unbekannte Impulswerte bei Kollisionen mithilfe des Impulserhaltungssatzes."
+    },
+    {
+      "q": "Ist dieser Rechner kostenlos?",
+      "a": "Ja, die Online-Nutzung ist völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software oder Installation?",
+      "a": "Nein, es läuft direkt in Ihrem Browser."
+    },
+    {
+      "q": "Kann ich es auf mobilen Geräten verwenden?",
+      "a": "Ja, es ist vollständig mobilfreundlich."
+    },
+    {
+      "q": "Welche Eingaben sind erforderlich?",
+      "a": "Massen, Anfangsgeschwindigkeiten, Kollisionsart und optional eine Endgeschwindigkeit."
+    },
+    {
+      "q": "Welche physikalischen Prinzipien werden verwendet?",
+      "a": "Es beruht auf dem Gesetz der Impulserhaltung für isolierte Systeme."
+    },
+    {
+      "q": "Ist es für Studenten geeignet?",
+      "a": "Ja, es ist ideal zum Lernen, für Hausaufgaben und Prüfungen."
+    },
+    {
+      "q": "Kann es mit verschiedenen Kollisionsarten umgehen?",
+      "a": "Ja, elastische, unelastische und generische Kollisionen werden unterstützt."
+    },
+    {
+      "q": "Kann es mit verschiedenen Einheiten umgehen?",
+      "a": "Ja, es werden sowohl metrische als auch imperiale Einheiten unterstützt."
+    },
+    {
+      "q": "Wie genau ist es?",
+      "a": "Es liefert ungefähre Ergebnisse für ideale Situationen; Kollisionen in der realen Welt können aufgrund von Energieverlust, Reibung oder äußeren Kräften variieren."
+    }
+  ]
+}

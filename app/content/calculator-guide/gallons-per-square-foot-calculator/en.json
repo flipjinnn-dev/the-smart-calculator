@@ -1,0 +1,139 @@
+{
+    "color": "orange",
+    "sections": [
+        {
+            "heading": "What is a Gallons per Square Foot Calculator?",
+            "content": "A Gallons per Square Foot Calculator helps you determine how much liquid is needed per square foot given a specific depth. It is useful for pools, tanks, coatings, landscaping, irrigation, and construction projects."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Length and Width",
+                    "content": "Base area dimensions."
+                },
+                {
+                    "heading": "Enter Depth / Height",
+                    "content": "Liquid depth in feet, inches, or yards."
+                },
+                {
+                    "heading": "Optional: Enter Price per Gallon",
+                    "content": "For cost calculation."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Get gallons per square foot and total gallons instantly."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Ensure units are consistent for accurate results."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Calculation",
+                    "content": "Gallons per square foot and total gallons."
+                },
+                {
+                    "heading": "Multiple Units",
+                    "content": "Feet, inches, or yards supported."
+                },
+                {
+                    "heading": "Cost Estimation",
+                    "content": "Calculates total cost if price per gallon is entered."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on all devices."
+                },
+                {
+                    "heading": "Versatile Applications",
+                    "content": "Water, paint, coatings, and more."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Pool & Spa Planning",
+                    "content": "Estimate water volume."
+                },
+                {
+                    "heading": "Tank Filling",
+                    "content": "Calculate storage container capacity."
+                },
+                {
+                    "heading": "Irrigation & Landscaping",
+                    "content": "Plan water requirements."
+                },
+                {
+                    "heading": "Construction & Coatings",
+                    "content": "Estimate liquids for surfaces."
+                },
+                {
+                    "heading": "Education",
+                    "content": "Understand area, depth, and volume relationships."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Basic Volume",
+                    "content": "Base: 10 ft × 5 ft | Depth: 1 ft | Volume: 10 × 5 × 1 × 7.48052 ≈ 374 gallons | Gallons per sq ft: 374 ÷ (10 × 5) ≈ 7.48 gal/ft²"
+                },
+                {
+                    "heading": "Example 2 – Cost",
+                    "content": "Volume: 500 gallons | Price per gallon: $3 | Total Cost: 500 × 3 = $1,500"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a gallons per square foot calculator?",
+            "a": "It calculates gallons needed per square foot for a given depth."
+        },
+        {
+            "q": "Why use it?",
+            "a": "Saves time and ensures accurate liquid volume planning."
+        },
+        {
+            "q": "Units supported?",
+            "a": "Feet, inches, and yards."
+        },
+        {
+            "q": "Works for pools and tanks?",
+            "a": "Yes, ideal for any liquid-containing area."
+        },
+        {
+            "q": "Does it calculate total gallons?",
+            "a": "Yes, total volume is displayed instantly."
+        },
+        {
+            "q": "Useful for landscaping/irrigation?",
+            "a": "Yes, helps plan water requirements for gardens and ponds."
+        },
+        {
+            "q": "Can I calculate cost?",
+            "a": "Yes, enter price per gallon to get total cost."
+        },
+        {
+            "q": "Does it account for uneven depth?",
+            "a": "No, it assumes flat, uniform depth."
+        },
+        {
+            "q": "Mobile-friendly?",
+            "a": "Yes, works on smartphones, tablets, and desktops."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, completely free with no downloads required."
+        }
+    ]
+}

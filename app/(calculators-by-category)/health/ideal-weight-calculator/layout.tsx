@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for ideal-weight-calculator
 const idealweightcalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }ideal-weight-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }ideal-weight-calculator`,
       languages: {
         'en': getCanonicalUrl('ideal-weight-calculator', 'en'),
         'pt-BR': getCanonicalUrl('ideal-weight-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }ideal-weight-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }ideal-weight-calculator`,
     },
   };
 }
@@ -70,5 +69,61 @@ export default async function IdealWeightCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Ideal Weight Calculator",
+    "url": "https://www.thesmartcalculator.com/health/ideal-weight-calculator",
+    "description": "Free online Ideal Weight Calculator using Hamwi, Devine, Robinson & Miller formulas, plus BMI ranges. Estimate your healthy weight quickly.",
+    "applicationCategory": "HealthApplication",
+    "operatingSystem": "All",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "url": "https://www.thesmartcalculator.com"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "mainEntity": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How accurate is the Ideal Weight Calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It provides estimates using trusted formulas, but factors like muscle mass and body fat distribution may affect accuracy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which formulas are used for calculating ideal weight?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The calculator uses Hamwi, Devine, Robinson, and Miller formulas along with BMI ranges to estimate ideal weight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the Ideal Weight Calculator suitable for everyone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The calculator is designed for people between 2 and 80 years old. For personalized medical advice, consult a healthcare professional."
+          }
+        }
+      ]
+    }
+  }
+  return <>
+    {children}
+    <Script
+      id="ideal-weight-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

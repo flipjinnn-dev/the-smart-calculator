@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for pregnancy-conception-calculator
 const pregnancyconceptioncalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }pregnancy-conception-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }pregnancy-conception-calculator`,
       languages: {
         'en': getCanonicalUrl('pregnancy-conception-calculator', 'en'),
         'pt-BR': getCanonicalUrl('pregnancy-conception-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }pregnancy-conception-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }pregnancy-conception-calculator`,
     },
   };
 }
@@ -70,5 +69,134 @@ export default async function PregnancyConceptionCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.thesmartcalculator.com/#organization",
+        "name": "The Smart Calculator",
+        "url": "https://www.thesmartcalculator.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.thesmartcalculator.com/path-to-logo.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thesmartcalculator.com/#website",
+        "url": "https://www.thesmartcalculator.com/",
+        "name": "The Smart Calculator",
+        "publisher": {
+          "@id": "https://www.thesmartcalculator.com/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.thesmartcalculator.com/health/pregnancy-conception-calculator",
+        "url": "https://www.thesmartcalculator.com/health/pregnancy-conception-calculator",
+        "name": "Pregnancy Conception Calculator",
+        "description": "Estimate conception date, ovulation window and pregnancy milestones from LMP, due date, ultrasound or IVF transfer. Not a substitute for medical advice.",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://www.thesmartcalculator.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.thesmartcalculator.com/path-to-feature-image.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Content Author Name",
+          "url": "https://www.thesmartcalculator.com/authors/author-profile"
+        },
+        "copyrightHolder": {
+          "@id": "https://www.thesmartcalculator.com/#organization"
+        },
+        "datePublished": "2024-01-01",
+        "dateModified": "2025-09-26",
+        "dateReviewed": "2025-09-26"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Pregnancy Conception Calculator",
+        "url": "https://www.thesmartcalculator.com/health/pregnancy-conception-calculator",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "All",
+        "description": "A web-based calculator that estimates conception date, ovulation window and related pregnancy milestones using LMP, due date, ultrasound or IVF transfer inputs.",
+        "featureList": "LMP-based dating, ultrasound dating, IVF-transfer dating, ovulation window estimate",
+        "provider": {
+          "@id": "https://www.thesmartcalculator.com/#organization"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does a pregnancy conception calculator work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It estimates conception using inputs such as last menstrual period (LMP), due date, average cycle length, early ultrasound measurements, or IVF transfer date to calculate an estimated conception window."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a calculator tell the exact day I conceived?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No — calculators provide an estimated window. First-trimester ultrasound dating is typically more accurate than LMP alone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which input is most accurate: LMP or ultrasound?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Early first-trimester ultrasound is generally more accurate for dating than LMP, especially if menstrual cycles are irregular."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does this apply to IVF pregnancies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — the calculator supports IVF transfer date inputs for more precise conception estimates when IVF data is available."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MedicalWebPage",
+        "url": "https://www.thesmartcalculator.com/health/pregnancy-conception-calculator",
+        "mainEntityOfPage": {
+          "@id": "https://www.thesmartcalculator.com/health/pregnancy-conception-calculator"
+        },
+        "reviewedBy": {
+          "@type": "Person",
+          "name": "Dr. Jane Doe, MD",
+          "description": "Obstetrician & Gynecologist — Medical Review",
+          "url": "https://www.thesmartcalculator.com/reviewers/dr-jane-doe"
+        },
+        "lastReviewed": "2025-09-26",
+        "about": {
+          "@type": "Thing",
+          "name": "Pregnancy dating, conception estimation, ovulation window"
+        }
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="pregnancy-conception-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

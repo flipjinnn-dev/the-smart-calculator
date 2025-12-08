@@ -1,0 +1,151 @@
+{
+  "color": "laranja",
+  "sections": [
+    {
+      "heading": "Conversor de xícaras em libras: o que é e como ajuda",
+      "content": "O conversor de xícaras em libras é uma ferramenta online gratuita que permite converter medidas de ingredientes entre xícaras (volume) e libras (peso) com rapidez e precisão. Ele garante que as receitas sejam dimensionadas corretamente para assar e cozinhar."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Selecione o ingrediente",
+          "content": "Opcional, mas recomendado para conversões precisas."
+        },
+        {
+          "heading": "Insira a quantidade",
+          "content": "Insira a quantidade em xícaras ou libras."
+        },
+        {
+          "heading": "Selecione a unidade de origem",
+          "content": "Escolha xícaras ou libras como unidade inicial."
+        },
+        {
+          "heading": "Selecione a unidade alvo",
+          "content": "Escolha a unidade para a qual deseja converter."
+        },
+        {
+          "heading": "Clique em Converter",
+          "content": "Obtenha o resultado da conversão instantânea."
+        },
+        {
+          "heading": "Use peso para precisão",
+          "content": "Para um cozimento preciso, use medidas baseadas no peso."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Conversão instantânea",
+          "content": "Converta xícaras em libras ou libras em xícaras imediatamente."
+        },
+        {
+          "heading": "Suporta Ingredientes Comuns",
+          "content": "Farinha, açúcar, manteiga, água e outros ingredientes padrão."
+        },
+        {
+          "heading": "Precisão de volume para peso",
+          "content": "A conversão baseada em ingredientes garante resultados confiáveis."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona perfeitamente em smartphones, tablets e desktops."
+        },
+        {
+          "heading": "Fácil de usar",
+          "content": "Perfeito para iniciantes e cozinheiros profissionais."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Padeiros e cozinheiros domésticos",
+          "content": "Siga as receitas com precisão e converta as medidas dos ingredientes facilmente."
+        },
+        {
+          "heading": "Usuários de receitas internacionais",
+          "content": "Alterne entre xícaras e libras dos EUA sem esforço."
+        },
+        {
+          "heading": "Cozinhas Profissionais",
+          "content": "Mantenha consistência e precisão nas receitas."
+        },
+        {
+          "heading": "Acompanhamento de nutrição e dieta",
+          "content": "Meça com precisão os ingredientes para calorias e macros."
+        },
+        {
+          "heading": "Estudantes e alunos de culinária",
+          "content": "Pratique conversões de ingredientes para estudos de culinária e panificação."
+        }
+      ]
+    },
+    {
+      "heading": "Exemplos de conversões",
+      "subSections": [
+        {
+          "heading": "Farinha",
+          "content": "1 xícara de farinha → 0,276 libras"
+        },
+        {
+          "heading": "Açúcar",
+          "content": "1 xícara de açúcar → 0,44 libras"
+        },
+        {
+          "heading": "Manteiga",
+          "content": "1 xícara de manteiga → 0,5 libra"
+        },
+        {
+          "heading": "Farinha reversa",
+          "content": "2 libras de farinha → 7,25 xícaras"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é um conversor de xícaras em libras?",
+      "a": "Ele converte medidas de ingredientes entre xícaras e libras com rapidez e precisão."
+    },
+    {
+      "q": "Ele pode converter todos os ingredientes?",
+      "a": "Sim, para os ingredientes mais comuns; podem ocorrer pequenas variações dependendo da densidade."
+    },
+    {
+      "q": "Preciso selecionar o ingrediente?",
+      "a": "Opcional, mas recomendado para conversão precisa."
+    },
+    {
+      "q": "É preciso para assar?",
+      "a": "Sim, especialmente ao usar medições baseadas em peso."
+    },
+    {
+      "q": "Posso converter libras em xícaras?",
+      "a": "Sim, o conversor funciona nos dois sentidos."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, totalmente compatível com smartphones, tablets e desktops."
+    },
+    {
+      "q": "Este conversor é gratuito?",
+      "a": "Sim, é totalmente gratuito e online."
+    },
+    {
+      "q": "Posso dimensionar receitas usando esta ferramenta?",
+      "a": "Sim, você pode ajustar facilmente as quantidades de ingredientes para qualquer receita."
+    },
+    {
+      "q": "Quem deve usar esta calculadora?",
+      "a": "Cozinheiros domésticos, padeiros, chefs e qualquer pessoa que siga receitas."
+    },
+    {
+      "q": "Por que usar este conversor?",
+      "a": "Para garantir a medição precisa dos ingredientes e reduzir erros no cozimento e panificação."
+    }
+  ]
+}

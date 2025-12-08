@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for time-calculator
 const timecalculatorMeta = {
@@ -35,7 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = timecalculatorMeta[language as keyof typeof timecalculatorMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCanonicalUrl('time-calculator', language);
 
@@ -66,5 +67,162 @@ export default async function TimeCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Time Calculator",
+    "url": "https://www.thesmartcalculator.com/time-calculator",
+    "description": "Free online Time Calculator to add, subtract, or compare hours, minutes, and seconds accurately for work, projects, events, and study.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Time Calculator",
+        "applicationCategory": "CalculatorApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Add or subtract multiple time values",
+          "Supports hours, minutes, and seconds",
+          "Automatic carryover for minutes and hours",
+          "Mobile-friendly and free to use",
+          "Accurate and easy for work, study, or event planning"
+        ],
+        "url": "https://www.thesmartcalculator.com/time-calculator"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Time Calculation",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Time Calculation",
+            "text": "Input hours, minutes, and seconds for your calculation."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Time Calculation",
+            "text": "Choose to add or subtract time."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Time Calculation",
+            "text": "Enter additional time values if necessary."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Time Calculation",
+            "text": "Get the total time or difference instantly."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Time Calculation",
+            "text": "The result will display total time with proper carryover."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the Time Calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is an online tool to add, subtract, or compare hours, minutes, and seconds."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it free to use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the Time Calculator is completely free."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need software?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, it works directly in any web browser."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it handle multiple time entries?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, you can add or subtract multiple durations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it support hours, minutes, and seconds?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, all standard time units are supported."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it mobile-friendly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it works on smartphones, tablets, and desktops."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use it for work hours or payroll?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it calculates total work hours and overtime accurately."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it automatically convert seconds and minutes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it handles carryover from seconds to minutes and minutes to hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it help with event planning?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it calculates durations and end times for events precisely."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How accurate is it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is fully accurate when time inputs are correct."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    <Script
+      id="time-calculator-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+    {children}
+  </>;
 }

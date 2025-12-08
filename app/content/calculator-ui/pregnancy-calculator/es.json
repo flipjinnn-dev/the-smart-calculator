@@ -1,0 +1,127 @@
+{
+  "pageTitle": "Calculadora de embarazo",
+  "pageDescription": "Calcule el cronograma de embarazo según la fecha de parto, el último período, la ecografía, la concepción o la fecha de transferencia de FIV",
+  "form": {
+    "labels": {
+      "calculationMethod": "Método de cálculo",
+      "lastPeriod": "Primer día del último período menstrual",
+      "dueDate": "Fecha de vencimiento prevista",
+      "conceptionDate": "Fecha de concepción",
+      "ivfTransferDate": "Fecha de transferencia de embriones de FIV",
+      "cycleLength": "Duración promedio del ciclo menstrual",
+      "ultrasoundDate": "Fecha de ultrasonido",
+      "crlMeasurement": "Medición de la longitud corona-rabadilla (CRL)"
+    },
+    "placeholders": {
+      "cycleLength": "Ingrese la duración del ciclo en días (predeterminado: 28)"
+    },
+    "buttons": {
+      "calculate": "Calcular fechas de embarazo",
+      "reset": "Reiniciar"
+    },
+    "calculationMethods": {
+      "lastPeriod": "Último período menstrual",
+      "dueDate": "Fecha de vencimiento",
+      "conception": "Fecha de concepción",
+      "ivf": "Transferencia de embriones por FIV",
+      "ultrasound": "Citas por ultrasonido"
+    }
+  },
+  "results": {
+    "dueDate": "Fecha de vencimiento prevista",
+    "conceptionDate": "Fecha estimada de concepción",
+    "pregnancyWeek": "Semana de embarazo actual",
+    "babyDevelopment": "Desarrollo del bebé",
+    "pregnancyResultsTitle": "Resultados del embarazo",
+    "trimesters": {
+      "first": "primer trimestre",
+      "second": "Segundo trimestre",
+      "third": "Tercer trimestre"
+    }
+  },
+  "educational": {
+    "pregnancyInfo": "Información sobre el embarazo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Consulte a un proveedor de atención médica",
+    "pregnancyStages": {
+      "firstTrimester": {
+        "title": "Primer trimestre (semanas 1 a 12)",
+        "description": "Durante este período se produce el mayor desarrollo de órganos."
+      },
+      "secondTrimester": {
+        "title": "Segundo trimestre (semanas 13 a 26)",
+        "description": "Los movimientos del bebé normalmente se pueden sentir durante este período."
+      },
+      "thirdTrimester": {
+        "title": "Tercer trimestre (semanas 27 a 40)",
+        "description": "Crecimiento y desarrollo rápidos en preparación para el nacimiento."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones y no es una herramienta de diagnóstico.",
+      "individualVariation": "Los plazos del embarazo varían según factores individuales"
+    },
+    "importantNotesList": [
+      "La fecha de parto es una estimación: sólo el 5% de los bebés nacen en su fecha exacta de parto.",
+      "Consulte a su proveedor de atención médica para obtener información personalizada sobre el embarazo.",
+      "Consulte a su proveedor de atención médica para obtener información personalizada sobre el embarazo.",
+      "La atención prenatal regular es esencial para un embarazo saludable"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingresa la información de tu embarazo para calcular fechas importantes",
+    "pregnancyWeek": "Actualmente estás en la semana {semana} de embarazo",
+    "trimesterInfo": "Este es el trimestre {trimester}",
+    "assessmentResult": "Resultado de la evaluación:",
+    "pregnancyAnalysis": "Análisis de embarazo"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones basadas en información general sobre el embarazo y no debe utilizarse como sustituto del asesoramiento médico profesional. Los plazos de embarazo individuales pueden variar según factores que no se tienen en cuenta en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Consulte a su proveedor de atención médica",
+    "content": "Para obtener una datación precisa del embarazo y atención prenatal personalizada, consulte con su proveedor de atención médica, quien puede brindarle orientación basada en su historial médico completo y sus circunstancias individuales."
+  },
+  "errors": {
+    "method": "Por favor seleccione un método de cálculo",
+    "lastPeriod": "Por favor ingrese el primer día de su último período menstrual",
+    "dueDate": "Por favor ingrese su fecha prevista de parto",
+    "conceptionDate": "Por favor ingrese la fecha de concepción",
+    "ivfTransferDate": "Por favor ingrese la fecha de transferencia de embriones FIV",
+    "ultrasoundDate": "Por favor ingrese la fecha del ultrasonido",
+    "crlMeasurement": "Por favor ingrese la medida del largo coronilla-grupa"
+  },
+  "tooltips": {
+    "calculationMethod": "Seleccione el método que mejor se aplique a su situación",
+    "lastPeriod": "El primer día de su último período menstrual.",
+    "cycleLength": "La duración promedio de tu ciclo menstrual en días",
+    "crlMeasurement": "Medida desde la parte superior de la cabeza del bebé hasta abajo."
+  },
+  "pregnancy_calculator_0": "Calculadora de embarazo",
+  "modify_the_values_and_click_the_calculate_button_t_1": "Modifique los valores y haga clic en el botón calcular para usar",
+  "calculate_on_2": "Calcular en",
+  "your_date_3": "Tu cita",
+  "calculate_4": "Calcular",
+  "pregnancy_info_5": "Información sobre el embarazo",
+  "your_pregnancy_schedule_breakdown_6": "Desglose de su cronograma de embarazo",
+  "due_date_7": "Fecha de vencimiento:",
+  "conception_date_8": "Fecha de concepción:",
+  "last_period_date_9": "Fecha del último período:",
+  "weeks_pregnant_10": "Semanas de embarazo:",
+  "days_pregnant_11": "Días de Embarazo:",
+  "trimester_12": "Trimestre:",
+  "enter_your_date_and_click_calculate_see_your_pregn_13": "Ingresa tu fecha y haz clic en Calcular para ver tu cronograma de embarazo",
+  "how_pregnancy_is_calculated_14": "¿Cómo se calcula el embarazo?",
+  "the_pregnancy_calculator_estimates_your_pregnancy__15": "La Calculadora de embarazo estima su cronograma de embarazo según la fecha y el método proporcionados. Utiliza fórmulas médicas estándar para el cálculo de la fecha de parto, la concepción y el trimestre. Consulte siempre a su médico para obtener asesoramiento personalizado.",
+  "due_date_16": "Fecha de vencimiento",
+  "the_estimated_date_when_your_baby_is_due_calculate_17": "La fecha estimada en la que nacerá su bebé. Calculado según el método seleccionado y la fecha de entrada.",
+  "trimester_18": "Trimestre",
+  "pregnancy_is_divided_into_three_trimesters_the_cal_19": "El embarazo se divide en tres trimestres. La calculadora muestra en qué trimestre se encuentra actualmente.",
+  "weeks_pregnant_20": "semanas de embarazo",
+  "the_number_of_weeks_you_have_been_pregnant_calcula_21": "El número de semanas que llevas embarazada, calculadas desde la fecha de inicio hasta hoy.",
+  "important_22": "Importante:",
+  "the_results_above_are_a_guideline_for_typical_situ_23": "Los resultados anteriores son una guía para situaciones típicas. Consulte con un médico su cronograma de embarazo si tiene condiciones médicas especiales o preguntas."
+}

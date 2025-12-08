@@ -1,0 +1,155 @@
+{
+  "color": "różowy",
+  "sections": [
+    {
+      "heading": "Konwerter miar gotowania: co to jest i jak pomaga",
+      "content": "Konwerter miar gotowania to bezpłatne narzędzie online, które umożliwia konwertowanie składników pomiędzy różnymi jednostkami gotowania, takimi jak filiżanki, gramy, łyżki stołowe, uncje, mililitry i inne. Pomaga dokładnie dostosować przepisy, niezależnie od tego, czy pieczesz, gotujesz, czy konwertujesz jednostki amerykańskie i metryczne."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wprowadź ilość",
+          "content": "Wpisz kwotę, którą chcesz przeliczyć w polu wejściowym."
+        },
+        {
+          "heading": "Wybierz jednostkę źródłową",
+          "content": "Wybierz jednostkę, w której chcesz wprowadzać dane, np. kubki, gramy, łyżki stołowe lub mililitry."
+        },
+        {
+          "heading": "Wybierz jednostkę docelową",
+          "content": "Wybierz jednostkę, na którą chcesz przeliczyć, aby uzyskać natychmiastowe wyniki."
+        },
+        {
+          "heading": "Wybierz składnik (opcjonalnie)",
+          "content": "Wybierz składnik, aby poprawić dokładność konwersji objętości na wagę."
+        },
+        {
+          "heading": "Kliknij Konwertuj",
+          "content": "Uzyskaj natychmiast przeliczony wynik na podstawie wybranych jednostek."
+        },
+        {
+          "heading": "Używaj dokładnych jednostek",
+          "content": "Do pieczenia preferuj gramy lub uncje, ponieważ zapewniają one dokładne pomiary."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe konwersje",
+          "content": "Natychmiastowe przeliczanie jednostek bez konieczności ręcznego obliczania."
+        },
+        {
+          "heading": "Obsługuje wiele jednostek",
+          "content": "Kubki, łyżeczki, łyżki stołowe, gramy, uncje, mililitry, litry i inne."
+        },
+        {
+          "heading": "Dokładność oparta na składnikach",
+          "content": "Wybierz składniki, aby uzyskać prawidłowe przeliczenie objętości na wagę."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Używaj go łatwo na smartfonach, tabletach i komputerach stacjonarnych."
+        },
+        {
+          "heading": "Bezpłatny i łatwy w użyciu",
+          "content": "Nie wymaga rejestracji ani instalacji."
+        },
+        {
+          "heading": "Idealny do gotowania i pieczenia",
+          "content": "Idealny dla początkujących kucharzy, profesjonalistów i skalowania przepisów."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Domowi kucharze i piekarze",
+          "content": "Ściśle przestrzegaj przepisów i bez wysiłku konwertuj składniki."
+        },
+        {
+          "heading": "Międzynarodowi użytkownicy przepisów",
+          "content": "Łatwe przełączanie pomiędzy jednostkami zwyczajowymi i metrycznymi w USA."
+        },
+        {
+          "heading": "Przepisy skalujące ludzi",
+          "content": "Dostosuj ilości składników do dowolnej wielkości porcji."
+        },
+        {
+          "heading": "Dietetycy i planiści diety",
+          "content": "Dokładnie odmierz i przelicz składniki."
+        },
+        {
+          "heading": "Studenci i profesjonalni szefowie kuchni",
+          "content": "Stosuj do studiów kulinarnych, ćwiczeń i konsystencji w kuchni."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe konwersje",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Cukier",
+          "content": "1 szklanka cukru → 200 gramów"
+        },
+        {
+          "heading": "Przykład 2 – Masło",
+          "content": "3 łyżki masła → 42 gramy"
+        },
+        {
+          "heading": "Przykład 3 – Mąka",
+          "content": "2 uncje mąki → 57 gramów"
+        },
+        {
+          "heading": "Przykład 4 – Konwersja cieczy",
+          "content": "500 mililitrów → 2 filiżanki"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest konwerter miar gotowania?",
+      "a": "Przekształca składniki pomiędzy różnymi urządzeniami do gotowania i pieczenia."
+    },
+    {
+      "q": "Czy można przeliczyć filiżanki na gramy?",
+      "a": "Tak, zwłaszcza w przypadku popularnych składników, takich jak mąka, cukier i masło."
+    },
+    {
+      "q": "Czy obsługuje wszystkie składniki?",
+      "a": "Obsługuje najpopularniejsze składniki, ale niektóre mogą nieznacznie różnić się gęstością."
+    },
+    {
+      "q": "Czy mogę przeliczyć łyżeczki na mililitry?",
+      "a": "Tak, obsługiwane są wszystkie standardowe jednostki objętości."
+    },
+    {
+      "q": "Czy jest odpowiedni do pieczenia?",
+      "a": "Tak, szczególnie w przypadku stosowania precyzyjnych jednostek, takich jak gramy lub uncje."
+    },
+    {
+      "q": "Czy mogę go używać na telefonie komórkowym?",
+      "a": "Tak, jest w pełni zoptymalizowany pod kątem urządzeń mobilnych."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, jest to całkowicie bezpłatne i dostępne online."
+    },
+    {
+      "q": "Czy mogę skalować przepisy?",
+      "a": "Tak, możesz łatwo dostosować ilość składników do dowolnej wielkości porcji."
+    },
+    {
+      "q": "Kto powinien z niego korzystać?",
+      "a": "Kucharze domowi, piekarze, szefowie kuchni, dietetycy i studenci gastronomii."
+    },
+    {
+      "q": "Czy muszę wybierać składnik?",
+      "a": "Jest to opcjonalne, ale zalecane w celu dokładnego przeliczenia objętości na wagę."
+    }
+  ]
+}

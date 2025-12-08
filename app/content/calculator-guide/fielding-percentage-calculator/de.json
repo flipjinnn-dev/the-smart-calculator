@@ -1,0 +1,147 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Fielding-Prozentrechner: Was es ist und wie es funktioniert",
+      "content": "Der Fielding Percentage Calculator berechnet die Verteidigungseffizienz eines Feldspielers anhand von Putouts, Assists und Fehlern. Der Fielding Percentage (FPCT) misst, wie oft ein Spieler Fielding-Chancen erfolgreich und fehlerfrei nutzt. Formel: Fielding-Prozentsatz = (Putouts + Assists) ÷ (Putouts + Assists + Fehler)."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Ausgaben eingeben (PO)",
+          "content": "Gesamtzahl der aufgezeichneten Outs."
+        },
+        {
+          "heading": "Assists eingeben (A)",
+          "content": "Gesamtzahl der geleisteten Assists."
+        },
+        {
+          "heading": "Fehler eingeben (E)",
+          "content": "Insgesamt begangene Fehler."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Erhalten Sie sofort den Fielding-Prozentsatz."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Präzise Eingaben sorgen für präzise Ergebnisse."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Berechnung",
+          "content": "Berechnet FPCT sofort."
+        },
+        {
+          "heading": "Präzise und zuverlässig",
+          "content": "Verwendet die Standardformel für Baseball/Softball."
+        },
+        {
+          "heading": "Einfach zu bedienen",
+          "content": "Keine manuelle Mathematik erforderlich."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf allen Geräten."
+        },
+        {
+          "heading": "Ideal für Spieler, Trainer und Fans",
+          "content": "Bewerten Sie schnell die Verteidigungsleistung."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Spieler & Trainer",
+          "content": "Verfolgen Sie die Leistung pro Spiel oder Saison."
+        },
+        {
+          "heading": "Teams & Scouts",
+          "content": "Bewerten Sie die defensive Zuverlässigkeit."
+        },
+        {
+          "heading": "Fans und Analysten",
+          "content": "Feldspieler schnell vergleichen."
+        },
+        {
+          "heading": "Jugend- und Amateur-Baseball",
+          "content": "Verfolgen Sie ganz einfach Verteidigungsstatistiken."
+        },
+        {
+          "heading": "Aufzeichnungen führen",
+          "content": "Pflegen Sie die Defensivstatistiken über die gesamte Saison hinweg."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1",
+          "content": "80 PO + 40 A ÷ 5 E = 0,960 FPCT"
+        },
+        {
+          "heading": "Beispiel 2",
+          "content": "50 PO + 30 A ÷ 3 E = 0,967 FPCT"
+        },
+        {
+          "heading": "Beispiel 3",
+          "content": "25 PO + 15 A ÷ 2 E = 0,952 FPCT"
+        },
+        {
+          "heading": "Beispiel 4",
+          "content": "100 PO + 50 A ÷ 8 E = 0,940 FPCT"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Fielding-Prozentrechner?",
+      "a": "Berechnet die Verteidigungseffizienz eines Feldspielers anhand von Putouts, Assists und Fehlern."
+    },
+    {
+      "q": "Wie wird der Fielding-Prozentsatz berechnet?",
+      "a": "FPCT = (Putouts + Assists) ÷ (Putouts + Assists + Fehler)"
+    },
+    {
+      "q": "Enthält es ungeversuchte Spielzüge?",
+      "a": "Nein, es werden nur Spielversuche (PO + A + E) gezählt."
+    },
+    {
+      "q": "Ist es korrekt?",
+      "a": "Ja, basierend auf den bereitgestellten Eingaben."
+    },
+    {
+      "q": "Kann es für Baseball und Softball verwendet werden?",
+      "a": "Ja, es funktioniert für beide Sportarten."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, funktioniert auf allen Geräten."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, völlig kostenlos online."
+    },
+    {
+      "q": "Wer sollte es nutzen?",
+      "a": "Spieler, Trainer, Scouts, Fans und Analysten."
+    },
+    {
+      "q": "Warum diesen Rechner verwenden?",
+      "a": "Spart Zeit und bietet eine sofortige Maßnahme zur Verteidigungseffizienz."
+    },
+    {
+      "q": "Kann es mehrere Spiele oder Saisons verfolgen?",
+      "a": "Ja, kumulierte Eingaben ermöglichen eine Berechnung über einen beliebigen Zeitraum."
+    }
+  ]
+}

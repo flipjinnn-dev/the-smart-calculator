@@ -1,0 +1,108 @@
+{
+  "pageTitle": "Calculadora de error porcentual",
+  "pageDescription": "Calcular el error porcentual entre un valor estimado y el valor real",
+  "form": {
+    "labels": {
+      "estimatedValue": "Valor estimado",
+      "actualValue": "Valor real"
+    },
+    "placeholders": {
+      "estimatedValue": "Ingrese su valor estimado",
+      "actualValue": "Introduzca el valor real"
+    },
+    "buttons": {
+      "calculate": "Calcular el error porcentual",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "percentageError": "Error porcentual",
+    "absoluteError": "Error absoluto",
+    "relativeError": "Error relativo",
+    "formula": "Fórmula utilizada",
+    "calculation": "Detalles del cálculo"
+  },
+  "educational": {
+    "errorInfo": "Información de error porcentual",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos matemáticos",
+    "errorFacts": {
+      "definition": {
+        "title": "Definición de error porcentual",
+        "description": "El error porcentual mide la discrepancia entre un valor estimado y el valor real como porcentaje"
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "Error porcentual = (|Valor estimado - Valor real| / Valor real) × 100%"
+      },
+      "applications": {
+        "title": "Aplicaciones del mundo real",
+        "description": "Se utiliza en experimentos científicos, mediciones de ingeniería y control de calidad para evaluar la precisión."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora solo proporciona cálculos de error porcentual",
+      "actual": "El error real puede variar según la precisión y la metodología de la medición."
+    },
+    "importantNotesList": [
+      "El error porcentual siempre se expresa como un valor positivo.",
+      "El valor real no debe ser cero para evitar la división por cero.",
+      "El valor real no debe ser cero para evitar la división por cero.",
+      "Los resultados ayudan a evaluar la confiabilidad de las mediciones o estimaciones."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese sus valores estimados y reales para calcular el error porcentual",
+    "resultMessage": "Los resultados del cálculo del error porcentual se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del error porcentual:",
+    "errorAnalysis": "Análisis de errores"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona cálculos de error porcentual basados ​​en fórmulas matemáticas estándar. Los valores de error reales pueden variar según la precisión de la medición, la metodología y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos matemáticos",
+    "content": "Para análisis de errores avanzados y métodos estadísticos, consulte libros de texto de matemáticas o recursos académicos sobre análisis numérico y teoría de la medición."
+  },
+  "errors": {
+    "estimatedValue": "Por favor ingrese un valor estimado válido",
+    "actualValue": "Por favor introduzca un valor real válido",
+    "zeroActual": "El valor real no puede ser cero."
+  },
+  "tooltips": {
+    "estimatedValue": "El valor que estimó o calculó.",
+    "actualValue": "El valor verdadero o aceptado para comparar."
+  },
+  "smart_calculator_0": "Calculadora inteligente",
+  "percent_error_calculator_1": "Calculadora de error porcentual",
+  "percent_error_calculator_2": "Calculadora de error porcentual",
+  "calculate_the_percent_error_between_a_measured_val_3": "Calcule el error porcentual entre un valor medido y un valor real al instante.",
+  "percent_error_calculator_4": "Calculadora de error porcentual",
+  "enter_measured_and_actual_values_5": "Introduzca los valores medidos y reales",
+  "measured_value_6": "Valor medido",
+  "actual_value_7": "Valor real",
+  "calculate_8": "Calcular",
+  "result_9": "Resultado",
+  "percent_error_10": "Error porcentual =",
+  "formula_11": "Fórmula:",
+  "percent_error_vobserved_vtrue_vtrue_100_12": "Error porcentual = (Vobservado - Vtrue) / Vtrue × 100",
+  "observed_value_13": "Valor observado:",
+  "true_value_14": "Valor verdadero:",
+  "percent_error_absolute_15": "Error porcentual (absoluto):",
+  "error_16": "% error",
+  "enter_values_and_click_17": "Introduzca los valores y haga clic",
+  "calculate_18": "Calcular",
+  "to_see_percent_error_19": "para ver el porcentaje de error.",
+  "how_to_use_this_calculator_20": "¿Cómo utilizar esta calculadora?",
+  "k_1_21": "1",
+  "enter_the_measured_value_22": "Introduzca el valor medido.",
+  "k_2_23": "2",
+  "enter_the_actual_true_value_24": "Ingrese el valor real (verdadero).",
+  "k_3_25": "3",
+  "click_26": "Hacer clic",
+  "calculate_27": "Calcular",
+  "to_see_the_percent_error_instantly_28": "para ver el porcentaje de error al instante."
+}

@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for carbohydrate-calculator
 const carbohydratecalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }carbohydrate-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }carbohydrate-calculator`,
       languages: {
         'en': getCanonicalUrl('carbohydrate-calculator', 'en'),
         'pt-BR': getCanonicalUrl('carbohydrate-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }carbohydrate-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }carbohydrate-calculator`,
     },
   };
 }
@@ -70,5 +69,97 @@ export default async function CarbohydrateCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thesmartcalculator.com/#website",
+        "url": "https://www.thesmartcalculator.com/",
+        "name": "Smart Calculator",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Smart Calculator",
+          "url": "https://www.thesmartcalculator.com/"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.thesmartcalculator.com/health/carbohydrate-calculator#webpage",
+        "url": "https://www.thesmartcalculator.com/health/carbohydrate-calculator",
+        "name": "Carbohydrate Calculator",
+        "isPartOf": { "@id": "https://www.thesmartcalculator.com/#website" },
+        "description": "Free Carbohydrate Calculator that estimates daily carb needs using Mifflin-St Jeor or Katch-McArdle BMR formulas, activity level, and g/kg bodyweight recommendations.",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.thesmartcalculator.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Health Calculators",
+              "item": "https://www.thesmartcalculator.com/health/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Carbohydrate Calculator",
+              "item": "https://www.thesmartcalculator.com/health/carbohydrate-calculator"
+            }
+          ]
+        },
+        "mainEntity": {
+          "@type": "SoftwareApplication",
+          "name": "Carbohydrate Calculator",
+          "applicationCategory": "HealthApplication",
+          "operatingSystem": "Web",
+          "url": "https://www.thesmartcalculator.com/health/carbohydrate-calculator",
+          "description": "Calculate your daily carbohydrate needs based on your BMR, gender, age, weight, height, and activity level."
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does the carbohydrate calculator work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It estimates your Basal Metabolic Rate (BMR) using either the Mifflin-St Jeor or Katch-McArdle formula, applies an activity multiplier to find your Total Daily Energy Expenditure (TDEE), and then converts a percentage of calories into grams of carbohydrates."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which BMR formula should I use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mifflin-St Jeor is recommended for most people. If you know your body fat percentage, the Katch-McArdle formula provides a more accurate estimate of your calorie and carb needs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many carbs do I need per day?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "General guidelines recommend 45–65% of daily calories from carbohydrates. Athletes and active individuals may require 6–12 g/kg of bodyweight, while sedentary people may need closer to 3–5 g/kg."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="carbohydrate-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

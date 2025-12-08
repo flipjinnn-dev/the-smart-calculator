@@ -1,0 +1,137 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Calculadora de concepción del embarazo: encuentre la fecha de su concepción",
+      "content": "Esta Calculadora de concepción del embarazo le ayuda a estimar la fecha de concepción, el día de ovulación y la fecha prevista de parto en función de su último período menstrual (FUM), la duración del ciclo, los resultados de la ecografía o los detalles de la transferencia de FIV. Funciona como una herramienta confiable para estimar la fecha de concepción tanto para embarazos naturales como para reproducción asistida."
+    },
+    {
+      "heading": "Descargo de responsabilidad",
+      "content": "Esta calculadora proporciona estimaciones generales y no reemplaza el consejo médico. Confirme siempre sus fechas con su proveedor de atención médica."
+    },
+    {
+      "heading": "¿Cómo funciona una calculadora de concepción del embarazo?",
+      "content": "Una calculadora en línea de la fecha de concepción del embarazo calcula cuándo es probable que se haya producido la fertilización contando hacia atrás desde la fecha prevista de parto o hacia adelante desde su último período menstrual.",
+      "subSections": [
+        {
+          "heading": "Por LMP",
+          "content": "Asume que la ovulación ocurre aproximadamente 14 días después de que comience su último período."
+        },
+        {
+          "heading": "Por fecha de vencimiento",
+          "content": "Cuenta aproximadamente 38 semanas atrás desde la fecha estimada de parto (EDD)."
+        },
+        {
+          "heading": "Por ultrasonido",
+          "content": "Utiliza medidas fetales, que son más precisas al principio del embarazo."
+        },
+        {
+          "heading": "Por FIV",
+          "content": "Calcula utilizando la fecha exacta de transferencia de embriones para obtener resultados muy precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Cronología de la concepción explicada",
+      "content": "Etapas típicas en la concepción y cálculo del embarazo:",
+      "subSections": [
+        {
+          "heading": "Primer día del último período",
+          "content": "Día 1 del ciclo: referencia para calculadoras basadas en LMP."
+        },
+        {
+          "heading": "Ventana de ovulación",
+          "content": "Generalmente, del día 12 al 16 del ciclo (en un ciclo de 28 días)."
+        },
+        {
+          "heading": "Fertilización (Concepción)",
+          "content": "Ocurre dentro de las 24 horas posteriores a la ovulación."
+        },
+        {
+          "heading": "Implantación",
+          "content": "Ocurre entre 6 y 12 días después de la ovulación."
+        },
+        {
+          "heading": "Prueba de embarazo positiva",
+          "content": "Normalmente, aproximadamente 2 semanas después de la ovulación."
+        }
+      ]
+    },
+    {
+      "heading": "Cuándo usar la calculadora",
+      "content": "Esta herramienta es útil para múltiples escenarios:",
+      "subSections": [
+        {
+          "heading": "Seguimiento natural del embarazo",
+          "content": "Calcule la fecha de concepción según la FUM o la duración del ciclo."
+        },
+        {
+          "heading": "Períodos irregulares",
+          "content": "La calculadora de concepción se adapta a las irregularidades del ciclo."
+        },
+        {
+          "heading": "Cálculo de la concepción de FIV",
+          "content": "Basado en la fecha de transferencia de embriones (transferencia del día 3 o día 5)."
+        },
+        {
+          "heading": "Citas basadas en ultrasonido",
+          "content": "Se basa en la ecografía temprana para mayor precisión."
+        },
+        {
+          "heading": "Gemelos o múltiples",
+          "content": "Ayuda a controlar embarazos múltiples, aunque la fecha de concepción sigue siendo la misma."
+        }
+      ]
+    },
+    {
+      "heading": "Precisión de las calculadoras de concepción.",
+      "content": "Una calculadora gratuita de embarazo y concepción proporciona una estimación, no una fecha exacta. La ecografía en el primer trimestre suele ser más precisa que las estimaciones basadas en FUM. Los médicos combinan el historial del ciclo, la ecografía y los datos médicos para lograr una mayor precisión. Las calculadoras de concepción de FIV son muy precisas, pero aún pueden variar ligeramente."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo funciona una calculadora de concepción de embarazo?",
+      "a": "Calcula su fecha de concepción utilizando su último período, fecha de parto, duración del ciclo o datos de ultrasonido."
+    },
+    {
+      "q": "¿Puede una calculadora decir el día exacto en que concebí?",
+      "a": "No, proporciona una ventana estimada. No se puede precisar la concepción exacta."
+    },
+    {
+      "q": "¿Qué precisión tiene la ecografía para la fecha de concepción?",
+      "a": "La ecografía en el primer trimestre es el método más fiable para determinar el embarazo."
+    },
+    {
+      "q": "¿Pueden los ciclos irregulares afectar mi fecha estimada de concepción?",
+      "a": "Sí. Los ciclos irregulares dificultan las predicciones, por lo que la ecografía es más precisa."
+    },
+    {
+      "q": "¿Cómo se calcula la fecha de concepción de la FIV?",
+      "a": "Se basa en la fecha de transferencia del embrión y el estadio del embrión (transferencia del día 3 o del día 5)."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre la fecha de concepción y la fecha de ovulación?",
+      "a": "La ovulación es cuando se libera el óvulo. La concepción ocurre cuando el espermatozoide fertiliza el óvulo poco después de la ovulación."
+    },
+    {
+      "q": "¿Por qué mi fecha de parto es diferente de la fecha de mi ultrasonido?",
+      "a": "La ecografía suele corregir las estimaciones basadas en la FUM, especialmente si los ciclos son irregulares."
+    },
+    {
+      "q": "¿Puedo usar una calculadora de concepción si no conozco mi FUM?",
+      "a": "Sí. Puede utilizar la fecha de su ultrasonido o la fecha de parto en su lugar."
+    },
+    {
+      "q": "¿Los gemelos o múltiples cambian el cálculo de la fecha de concepción?",
+      "a": "No. La fecha de concepción sigue siendo la misma, pero el progreso del embarazo y las fechas del parto pueden diferir."
+    },
+    {
+      "q": "¿Se garantiza que mi fecha de parto sea correcta?",
+      "a": "No. La fecha de parto es sólo una estimación y la mayoría de los bebés no nacen exactamente ese día."
+    }
+  ],
+  "cta": {
+    "heading": "Encuentre su fecha de concepción hoy",
+    "content": "Utilice nuestra Calculadora gratuita de concepción del embarazo para estimar la fecha de concepción, el día de ovulación y la fecha prevista de parto. Obtenga información precisa ya sea a través del embarazo natural, la ecografía o el seguimiento de FIV."
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de ROI de SEO empresarial: o que é e como usá-la",
+      "content": "Uma calculadora de ROI de SEO empresarial é uma ferramenta que ajuda as empresas a estimar o retorno do investimento (ROI) dos esforços de SEO. Ao analisar os gastos com SEO, o crescimento esperado do tráfego e as conversões, ele calcula a receita projetada, a porcentagem de ROI e o período de retorno."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Abra a calculadora",
+          "content": "Acesse-o diretamente no seu navegador."
+        },
+        {
+          "heading": "Insira as métricas atuais",
+          "content": "Inclui tráfego orgânico, taxa de conversão e receita média por conversão."
+        },
+        {
+          "heading": "Adicionar custos de SEO",
+          "content": "Inclua despesas com sua equipe, ferramentas ou agência."
+        },
+        {
+          "heading": "Estimar o crescimento",
+          "content": "Insira o crescimento de tráfego esperado dos esforços de SEO."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Veja instantaneamente a receita projetada, o ROI e o período de retorno."
+        },
+        {
+          "heading": "Ajustar cenários",
+          "content": "Teste diferentes suposições para otimizar a estratégia."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Focado na empresa",
+          "content": "Projetado para grandes sites e estratégias complexas de SEO."
+        },
+        {
+          "heading": "Cálculo instantâneo de ROI",
+          "content": "Veja a porcentagem de ROI imediatamente após inserir as informações."
+        },
+        {
+          "heading": "Projeção de receita",
+          "content": "Calcula a receita potencial com base no tráfego e nas conversões."
+        },
+        {
+          "heading": "Período de retorno",
+          "content": "Estima quanto tempo leva para recuperar os investimentos em SEO."
+        },
+        {
+          "heading": "Modelagem de Cenário",
+          "content": "Teste vários cenários de crescimento e conversão para planejar a estratégia."
+        },
+        {
+          "heading": "Gratuito e compatível com dispositivos móveis",
+          "content": "Funciona em qualquer dispositivo sem necessidade de registro."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Planejamento Orçamentário",
+          "content": "Justifique os gastos com SEO com projeções claras de ROI."
+        },
+        {
+          "heading": "Previsão",
+          "content": "Estime o crescimento da receita com melhorias de SEO."
+        },
+        {
+          "heading": "Comparação de canais",
+          "content": "Compare SEO com PPC ou outros esforços de marketing."
+        },
+        {
+          "heading": "Relatórios das partes interessadas",
+          "content": "Apresente o ROI baseado em dados para executivos ou clientes."
+        },
+        {
+          "heading": "Tomada de decisões estratégicas",
+          "content": "Otimize orçamentos e estratégias de SEO."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Cenário Básico",
+          "content": "Tráfego: 100.000/mês | Taxa de conversão: 2% | Pedido médio: $ 50 | Custo de SEO: $ 5.000/mês | Crescimento do tráfego: 20% | Resultado: Receita = US$ 120.000 → ROI ≈ 140%"
+        },
+        {
+          "heading": "Exemplo 2 – Cenário de Crescimento",
+          "content": "Mesmos dados, mas crescimento do tráfego: 50% | Resultado: Receita = US$ 150.000 → ROI ≈ 200%"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de ROI de SEO empresarial?",
+      "a": "Ele estima o ROI, a receita projetada e o período de retorno dos investimentos em SEO."
+    },
+    {
+      "q": "Esta calculadora é gratuita?",
+      "a": "Sim, é totalmente gratuito para uso online."
+    },
+    {
+      "q": "Eu preciso de software?",
+      "a": "Não, funciona diretamente em qualquer navegador."
+    },
+    {
+      "q": "Ele pode estimar a receita?",
+      "a": "Sim, ele calcula a receita com base no tráfego, taxa de conversão e valor médio do pedido."
+    },
+    {
+      "q": "Ele calcula o ROI automaticamente?",
+      "a": "Sim, os resultados aparecem instantaneamente após inserir suas informações."
+    },
+    {
+      "q": "Posso testar vários cenários?",
+      "a": "Sim, você pode ajustar o crescimento do tráfego, as taxas de conversão e os custos."
+    },
+    {
+      "q": "É apenas para sites grandes?",
+      "a": "Ele foi projetado para empresas, mas também pode ser útil para pequenas empresas."
+    },
+    {
+      "q": "Isso pode ajudar a justificar os orçamentos de SEO?",
+      "a": "Sim, fornece um ROI claro e baseado em dados para apoiar a tomada de decisões."
+    },
+    {
+      "q": "Inclui período de retorno?",
+      "a": "Sim, ele estima quanto tempo leva para recuperar seu investimento em SEO."
+    },
+    {
+      "q": "Os resultados são garantidos?",
+      "a": "Não, os resultados são projeções baseadas nos dados fornecidos."
+    }
+  ]
+}

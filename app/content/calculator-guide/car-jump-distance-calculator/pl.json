@@ -1,0 +1,151 @@
+{
+  "color": "czerwony",
+  "sections": [
+    {
+      "heading": "Kalkulator odległości skoku samochodu: co to jest i jak z niego korzystać",
+      "content": "Kalkulator odległości skoku samochodu to przydatne narzędzie internetowe, które szacuje, jaką odległość przebędzie samochód po wystrzeleniu z rampy. Wpisując prędkość samochodu, kąt rampowy i wysokość startu, kalkulator oblicza odległość skoku, czas lotu i maksymalną wysokość."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Otwórz kalkulator",
+          "content": "Uzyskaj do niego dostęp bezpośrednio w przeglądarce."
+        },
+        {
+          "heading": "Wprowadź prędkość początkową",
+          "content": "Prędkość samochodu w momencie startu."
+        },
+        {
+          "heading": "Wprowadź kąt rampy",
+          "content": "Kąt rampy względem poziomu."
+        },
+        {
+          "heading": "Wprowadź wysokość startu",
+          "content": "Wysokość rampy lub punktu startu."
+        },
+        {
+          "heading": "Opcjonalne wejścia",
+          "content": "Uwzględnij wysokość lądowania, jeśli różni się ona od punktu startu."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast sprawdź odległość skoku, czas lotu i maksymalną wysokość."
+        },
+        {
+          "heading": "Sprawdź jednostki",
+          "content": "Upewnij się, że wszystkie pomiary odpowiadają używanym jednostkom."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe wyniki",
+          "content": "Natychmiast uzyskaj obliczenia."
+        },
+        {
+          "heading": "Wiele wyjść",
+          "content": "Pokazuje odległość poziomą, czas lotu i wysokość szczytu."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na telefonach, tabletach i komputerach."
+        },
+        {
+          "heading": "Bezpłatny i łatwy w użyciu",
+          "content": "Nie wymaga oprogramowania ani rejestracji."
+        },
+        {
+          "heading": "Edukacyjny",
+          "content": "Dowiedz się, jak prędkość, kąt i wysokość wpływają na skoki."
+        },
+        {
+          "heading": "Obsługuje jednostki metryczne i imperialne",
+          "content": "Działa dla użytkowników na całym świecie."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Uczniowie i nauczyciele",
+          "content": "Poznaj koncepcje ruchu pocisku i fizyki."
+        },
+        {
+          "heading": "Hobbyści i projektanci gier",
+          "content": "Symuluj skoki samochodowe do gier i animacji."
+        },
+        {
+          "heading": "Entuzjaści Fizyki",
+          "content": "Sprawdź, jak kąt rampy i prędkość wpływają na odległość skoku."
+        },
+        {
+          "heading": "Planiści scenariuszy",
+          "content": "Porównaj różne parametry, aby zobaczyć, jak zmieniają się skoki."
+        },
+        {
+          "heading": "Pokazy edukacyjne",
+          "content": "Bezpiecznie zademonstruj teoretyczne scenariusze ruchu."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Umiarkowany skok",
+          "content": "Prędkość początkowa: 20 m/s | Kąt rampy: 30° | Wysokość startu: 2 m | Odległość skoku: 35 m | Czas lotu: 2,05 s"
+        },
+        {
+          "heading": "Przykład 2 – Skok z większą prędkością",
+          "content": "Prędkość początkowa: 30 m/s | Kąt rampy: 25° | Wysokość startu: 1,5 m | Odległość skoku: 65 m | Czas lotu: 2,85 s"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator odległości skoku samochodu?",
+      "a": "Szacuje, jak daleko przejedzie samochód po wystrzeleniu z rampy, korzystając ze wzorów fizycznych."
+    },
+    {
+      "q": "Czy ten kalkulator jest darmowy?",
+      "a": "Tak, korzystanie z niego online jest całkowicie bezpłatne."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania lub instalacji?",
+      "a": "Nie, działa bezpośrednio w Twojej przeglądarce."
+    },
+    {
+      "q": "Czy mogę z niego korzystać na urządzeniach mobilnych?",
+      "a": "Tak, jest w pełni przyjazny dla urządzeń mobilnych."
+    },
+    {
+      "q": "Jakie dane wejściowe są wymagane?",
+      "a": "Prędkość początkowa, kąt rampy, wysokość startu i opcjonalnie wysokość lądowania."
+    },
+    {
+      "q": "Jakie zasady fizyki są stosowane?",
+      "a": "Opiera się na idealnych równaniach ruchu pocisku pod wpływem grawitacji."
+    },
+    {
+      "q": "Czy jest odpowiedni dla studentów?",
+      "a": "Tak, jest idealny do nauki fizyki, ruchu pocisku i koncepcji trajektorii."
+    },
+    {
+      "q": "Czy mogę go używać do prawdziwych akrobacji?",
+      "a": "Nie, wyniki są teoretyczne. Skoki w świecie rzeczywistym obejmują takie czynniki, jak opór, tarcie i aerodynamika."
+    },
+    {
+      "q": "Czy może obsługiwać różne jednostki?",
+      "a": "Tak, obsługiwane są zarówno jednostki metryczne, jak i imperialne."
+    },
+    {
+      "q": "Jak dokładne jest to rozwiązanie?",
+      "a": "Daje przybliżone wyniki przy założeniu idealnej fizyki; rzeczywiste skoki będą się różnić w prawdziwym życiu."
+    }
+  ]
+}

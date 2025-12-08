@@ -1,0 +1,111 @@
+{
+  "pageTitle": "Calculadora de intereses",
+  "pageDescription": "Calcula el interés con nuestra calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Introduzca el primer valor",
+      "input2": "Introduzca el segundo valor",
+      "input3": "Introduzca el tercer valor"
+    },
+    "buttons": {
+      "calculate": "Calcular interés",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados del cálculo de intereses"
+  },
+  "educational": {
+    "info": "Información de interés",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definición de interés",
+        "description": "Información sobre intereses"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Cómo se calcula el interés"
+      },
+      "applications": {
+        "title": "Aplicaciones",
+        "description": "Usos de interés"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora solo proporciona estimaciones de intereses.",
+      "actual": "Los valores reales pueden variar según las circunstancias individuales."
+    },
+    "importantNotesList": [
+      "Esto es una estimación y no debe reemplazar el asesoramiento profesional.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Utilice unidades consistentes para obtener resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información requerida para calcular el interés.",
+    "resultMessage": "Los resultados del cálculo de sus intereses se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de intereses:",
+    "analysis": "Análisis de intereses"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de intereses basadas en métodos estándar. Los valores reales pueden variar según circunstancias individuales y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para obtener asesoramiento personalizado e información detallada, consulte con profesionales que puedan brindarle orientación según las necesidades y circunstancias individuales."
+  },
+  "errors": {
+    "input1": "Por favor ingresa un primer valor válido",
+    "input2": "Por favor ingresa un segundo valor válido",
+    "input3": "Por favor ingresa un tercer valor válido"
+  },
+  "tooltips": {
+    "input1": "Primer parámetro de entrada",
+    "input2": "Segundo parámetro de entrada",
+    "input3": "Tercer parámetro de entrada"
+  },
+  "investment_details_0": "Detalles de la inversión",
+  "enter_your_investment_info_1": "Ingrese la información de su inversión",
+  "initial_investment_2": "Inversión inicial",
+  "annual_contribution_3": "Contribución anual",
+  "monthly_contribution_4": "Contribución mensual",
+  "contribute_at_the_5": "Contribuir en el",
+  "beginning_6": "Comienzo",
+  "end_7": "Fin",
+  "of_each_compounding_period_8": "de cada período de capitalización",
+  "interest_rate_9": "Tasa de interés (%)",
+  "compound_10": "Compuesto",
+  "annually_11": "Anualmente",
+  "quarterly_12": "Trimestral",
+  "monthly_13": "Mensual",
+  "daily_14": "A diario",
+  "years_15": "Años",
+  "months_16": "Meses",
+  "tax_rate_17": "Tasa impositiva (%)",
+  "inflation_rate_18": "Tasa de inflación (%)",
+  "calculate_19": "Calcular",
+  "results_20": "Resultados",
+  "investment_summary_21": "Resumen de inversión",
+  "ending_balance_22": "Saldo final",
+  "total_principal_23": "Capital total",
+  "total_contributions_24": "Contribuciones totales",
+  "total_interest_25": "Interés total",
+  "interest_of_initial_investment_26": "Interés de la inversión inicial",
+  "interest_of_the_contributions_27": "Interés de las aportaciones",
+  "buying_power_after_inflation_28": "Poder adquisitivo después de la inflación",
+  "enter_investment_details_to_see_results_29": "Ingrese los detalles de la inversión para ver los resultados",
+  "this_calculator_is_for_educational_purposes_only_a_30": "Esta calculadora tiene fines educativos únicamente y no debe utilizarse como asesoramiento financiero."
+}

@@ -1,0 +1,147 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Kalkulator procentu Fieldingu: co to jest i jak działa",
+      "content": "Kalkulator procentu pola gry oblicza skuteczność obrony obrońcy na podstawie wybić, asyst i błędów. Procent wystawienia piłki (FPCT) mierzy, jak często zawodnik skutecznie radzi sobie z szansami na grę bez błędów. Wzór: Procent wystawienia = (Wybicia + Asysty) ÷ (Wybicia + Asysty + Błędy)."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wprowadź putouts (PO)",
+          "content": "Zanotowano całkowitą liczbę outów."
+        },
+        {
+          "heading": "Wprowadź asysty (A)",
+          "content": "Całkowita liczba asyst."
+        },
+        {
+          "heading": "Wprowadź błędy (E)",
+          "content": "Całkowita liczba popełnionych błędów."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast uzyskaj procent Fieldingu."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Dokładne dane wejściowe zapewniają dokładne wyniki."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe obliczenia",
+          "content": "Natychmiast oblicza FPCT."
+        },
+        {
+          "heading": "Dokładne i niezawodne",
+          "content": "Używa standardowej formuły baseballu/softballu."
+        },
+        {
+          "heading": "Łatwy w użyciu",
+          "content": "Nie ma potrzeby ręcznej matematyki."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na wszystkich urządzeniach."
+        },
+        {
+          "heading": "Idealny dla zawodników, trenerów i fanów",
+          "content": "Szybko oceniaj skuteczność defensywy."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Gracze i trenerzy",
+          "content": "Śledź wyniki w grze lub sezonie."
+        },
+        {
+          "heading": "Zespoły i harcerze",
+          "content": "Oceń niezawodność obrony."
+        },
+        {
+          "heading": "Fani i Analitycy",
+          "content": "Szybko porównaj polowych."
+        },
+        {
+          "heading": "Baseball młodzieżowy i amatorski",
+          "content": "Z łatwością śledź statystyki defensywne."
+        },
+        {
+          "heading": "Prowadzenie rejestrów",
+          "content": "Utrzymuj statystyki defensywne przez cały sezon."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1",
+          "content": "80 PO + 40 A ÷ 5 E = 0,960 FPCT"
+        },
+        {
+          "heading": "Przykład 2",
+          "content": "50 PO + 30 A ÷ 3 E = 0,967 FPCT"
+        },
+        {
+          "heading": "Przykład 3",
+          "content": "25 PO + 15 A ÷ 2 E = 0,952 FPCT"
+        },
+        {
+          "heading": "Przykład 4",
+          "content": "100 PO + 50 A ÷ 8 E = 0,940 FPCT"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator procentu Fieldingu?",
+      "a": "Oblicza skuteczność defensywną obrońcy na podstawie wybić, asyst i błędów."
+    },
+    {
+      "q": "Jak obliczany jest procent Fieldingu?",
+      "a": "FPCT = (Wybicia + Asysty) ÷ (Wybicia + Asysty + Błędy)"
+    },
+    {
+      "q": "Czy obejmuje to niepróbowane zagrania?",
+      "a": "Nie, liczą się tylko próby rozegrania (PO + A + E)."
+    },
+    {
+      "q": "Czy to jest dokładne?",
+      "a": "Tak, na podstawie dostarczonych danych wejściowych."
+    },
+    {
+      "q": "Czy można go używać do baseballu i softballu?",
+      "a": "Tak, to działa w przypadku obu sportów."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa na wszystkich urządzeniach."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, całkowicie bezpłatnie online."
+    },
+    {
+      "q": "Kto powinien z niego korzystać?",
+      "a": "Zawodnicy, trenerzy, harcerze, kibice i analitycy."
+    },
+    {
+      "q": "Dlaczego warto korzystać z tego kalkulatora?",
+      "a": "Oszczędza czas i zapewnia natychmiastową miarę efektywności obronnej."
+    },
+    {
+      "q": "Czy może śledzić wiele gier lub sezonów?",
+      "a": "Tak, skumulowane dane wejściowe umożliwiają obliczenia w dowolnym okresie."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "color": "púrpura",
+  "sections": [
+    {
+      "heading": "Calculadora de pagos: simplifique la planificación de su préstamo",
+      "content": "Nuestra Calculadora de pagos está diseñada para ayudarlo a estimar rápidamente los pagos de su préstamo, ya sea para un automóvil, una vivienda, un préstamo personal o cualquier plan de cuotas fijas. Con solo unas pocas entradas, puede ver sus pagos mensuales, intereses y reembolso total, lo que le permitirá tomar decisiones financieras informadas."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de pagos",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Seleccione su tipo de préstamo: automóvil, hipoteca, préstamo personal o pago fijo."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Ingrese el monto del préstamo que planea pedir prestado."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Ingrese la tasa de interés y el plazo del préstamo (meses o años)."
+        },
+        {
+          "heading": "Paso 4",
+          "content": "Haga clic en Calcular para ver su pago mensual, el interés total y el calendario de pagos."
+        }
+      ]
+    },
+    {
+      "heading": "Beneficios de usar una calculadora de pagos",
+      "subSections": [
+        {
+          "heading": "Estimaciones rápidas",
+          "content": "Determine instantáneamente las cuotas mensuales y los pagos totales."
+        },
+        {
+          "heading": "Planificación financiera",
+          "content": "Compare diferentes opciones de préstamos antes de comprometerse."
+        },
+        {
+          "heading": "Perspectiva de amortización",
+          "content": "Comprenda cómo se dividen los pagos entre capital e intereses."
+        },
+        {
+          "heading": "Toma de decisiones",
+          "content": "Elija el mejor préstamo basándose en expectativas de pago realistas."
+        }
+      ]
+    },
+    {
+      "heading": "Escenarios comunes",
+      "subSections": [
+        {
+          "heading": "Préstamo de coche",
+          "content": "Utilice nuestra calculadora de pagos de automóviles para estimar los pagos mensuales y comparar opciones de financiamiento."
+        },
+        {
+          "heading": "Hipoteca",
+          "content": "Planifique con anticipación con nuestra calculadora de pagos hipotecarios para préstamos hipotecarios."
+        },
+        {
+          "heading": "Préstamo personal",
+          "content": "Calcule planes de pago flexibles utilizando nuestra calculadora de pagos de préstamos personales."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo calculo los pagos mensuales?",
+      "a": "Los pagos mensuales se calculan utilizando el monto, la tasa de interés y el plazo de su préstamo. Nuestra calculadora aplica automáticamente la fórmula de pago de préstamo estándar y desglosa su amortización."
+    },
+    {
+      "q": "¿Puedo comparar diferentes calculadoras?",
+      "a": "¡Sí! Puede ver la diferencia entre una calculadora de pagos en línea, una calculadora de amortización y una calculadora de pagos fijos para encontrar la que mejor se adapte a sus necesidades."
+    },
+    {
+      "q": "¿Esta calculadora es de uso gratuito?",
+      "a": "¡Absolutamente! Nuestra calculadora de pagos gratuita proporciona resultados instantáneos sin tarifas ocultas ni requisitos de registro."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre pagos mensuales y anuales?",
+      "a": "Los pagos mensuales distribuyen el costo de su préstamo a lo largo del tiempo, mientras que los pagos anuales lo consolidan en cuotas más pequeñas y mayores. Utilice nuestra opción de pagos mensuales versus anuales para realizar comparaciones claras."
+    }
+  ]
+}

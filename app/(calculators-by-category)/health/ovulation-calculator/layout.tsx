@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for ovulation-calculator
 const ovulationcalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }ovulation-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }ovulation-calculator`,
       languages: {
         'en': getCanonicalUrl('ovulation-calculator', 'en'),
         'pt-BR': getCanonicalUrl('ovulation-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }ovulation-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }ovulation-calculator`,
     },
   };
 }
@@ -70,5 +69,53 @@ export default async function OvulationCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Ovulation Calculator - The Smart Calculator",
+    "url": "https://www.thesmartcalculator.com/health/ovulation-calculator",
+    "description": "Calculate your ovulation dates and fertile window with The Smart Calculator Ovulation Calculator. Enter your last period date and cycle length to estimate the best days for conception.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "url": "https://www.thesmartcalculator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thesmartcalculator.com/logo.png",
+        "width": 250,
+        "height": 60
+      }
+    },
+    "mainEntity": {
+      "@type": "MedicalWebPage",
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Ovulation",
+        "description": "Ovulation is the process in which an ovary releases an egg for fertilization. This calculator helps predict ovulation dates and fertile days."
+      },
+      "hasPart": {
+        "@type": "WebApplication",
+        "name": "Ovulation Calculator Tool",
+        "applicationCategory": "Health & Fitness",
+        "operatingSystem": "All",
+        "url": "https://www.thesmartcalculator.com/health/ovulation-calculator",
+        "softwareVersion": "1.0",
+        "description": "A free online tool to calculate ovulation dates and fertile window based on last menstrual period and cycle length."
+      }
+    },
+    "potentialAction": {
+      "@type": "InteractAction",
+      "name": "Calculate Ovulation Dates",
+      "target": "https://www.thesmartcalculator.com/health/ovulation-calculator"
+    }
+  }
+  return <>
+    {children}
+    <Script
+      id="ovulation-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

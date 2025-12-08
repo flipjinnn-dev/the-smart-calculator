@@ -1,0 +1,134 @@
+{
+    "color": "orange",
+    "sections": [
+        {
+            "heading": "What is a Percent Error Calculator?",
+            "content": "A Percent Error Calculator is an online tool that calculates the difference between your measured (observed) value and the true (accepted) value as a percentage. It helps determine the accuracy of experiments, predictions, or calculations. The result is always positive because it uses the absolute difference."
+        },
+        {
+            "heading": "Formula used:",
+            "content": "$$Percentage Error = \\frac{|Observed Value - True Value|}{|True Value|} \\times 100\\%$$ \n Note: The result is always positive since it uses the absolute difference."
+        },
+        {
+            "heading": "How to Use the Percent Error Calculator",
+            "content": "This Percentage Error Calculator is simple and beginner-friendly. Just enter your values and get instant results.",
+            "subSections": [
+                {
+                    "heading": "Steps to Use:",
+                    "content": "Enter the Observed Value (your measured or estimated result). Enter the True Value (accepted or reference value). Click Calculate to get the percent error instantly. Analyze the Result — a smaller percentage indicates higher accuracy."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features of a Percent Error Calculator",
+            "content": "The tool provides accurate, quick, and user-friendly percent error results.",
+            "subSections": [
+                {
+                    "heading": "Instant Results",
+                    "content": "Calculate percentage error in seconds."
+                },
+                {
+                    "heading": "User-Friendly Interface",
+                    "content": "No technical or mathematical expertise required."
+                },
+                {
+                    "heading": "Accurate Formula",
+                    "content": "Uses the standard percent error formula for reliable results."
+                },
+                {
+                    "heading": "Supports Various Inputs",
+                    "content": "Works with whole numbers, decimals, or percentages."
+                },
+                {
+                    "heading": "Free and Safe",
+                    "content": "No installation required and no personal data collected."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases of a Percentage Error Calculator",
+            "content": "Percent error is widely used across different fields to measure accuracy.",
+            "subSections": [
+                {
+                    "heading": "Academics",
+                    "content": "Used in physics, chemistry, and math labs to compare experimental results."
+                },
+                {
+                    "heading": "Engineering",
+                    "content": "Ensures measurements and designs match required standards."
+                },
+                {
+                    "heading": "Finance",
+                    "content": "Compares predicted vs actual results in forecasts or budgets."
+                },
+                {
+                    "heading": "Quality Control",
+                    "content": "Monitors the consistency and accuracy of production results."
+                },
+                {
+                    "heading": "Everyday Tasks",
+                    "content": "Useful for estimates, recipes, DIY measurements, and more."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Science Experiment:",
+                    "content": "Observed Value: 48g \n True Value: 50g \n $$Percentage Error = \\frac{|48 - 50|}{50} \\times 100 = 4\\%$$"
+                },
+                {
+                    "heading": "Example 2 – Predicted Sales:",
+                    "content": "Predicted Sales: 200 units \n Actual Sales: 220 units \n $$Percentage Error = \\frac{|200 - 220|}{220} \\times 100 \\approx 9.09\\%$$"
+                },
+                {
+                    "heading": "Example 3 – Construction Measurement:",
+                    "content": "Measured Length: 9.7m \n Actual Length: 10m \n $$Percentage Error = \\frac{|9.7 - 10|}{10} \\times 100 = 3\\%$$ \n These examples demonstrate the practical utility of a Percent Error Calculator."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is the difference between Percent Error and Percentage Error?",
+            "a": "There is no difference — both terms describe the same concept of measurement accuracy."
+        },
+        {
+            "q": "Why is percent error always positive?",
+            "a": "Because it uses the absolute value of the difference between observed and true values."
+        },
+        {
+            "q": "Can I calculate percent error manually?",
+            "a": "Yes, use: \n $$ \\frac{|Observed - True|}{|True|} \\times 100 $$"
+        },
+        {
+            "q": "Is this calculator suitable for decimals?",
+            "a": "Yes, it works with both decimals and whole numbers."
+        },
+        {
+            "q": "Can I calculate percent error for multiple measurements?",
+            "a": "Yes, but calculate each measurement separately to get individual percent errors."
+        },
+        {
+            "q": "Is it safe to use online Percent Error Calculators?",
+            "a": "Yes, reputable tools are free, secure, and do not collect personal data."
+        },
+        {
+            "q": "Why should I use a calculator instead of manual calculation?",
+            "a": "It saves time, reduces mistakes, and provides instant and accurate results."
+        },
+        {
+            "q": "Can I use this in financial analysis?",
+            "a": "Yes, percent error is useful for comparing predicted and actual outcomes."
+        },
+        {
+            "q": "What does a low percent error indicate?",
+            "a": "It means your observed value is very close to the true value, showing high accuracy."
+        },
+        {
+            "q": "Can percent error be greater than 100%?",
+            "a": "Yes, if the observed value is significantly higher or lower than the true value."
+        }
+    ]
+}

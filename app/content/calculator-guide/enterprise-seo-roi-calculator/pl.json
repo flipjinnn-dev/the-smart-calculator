@@ -1,0 +1,147 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Kalkulator ROI SEO dla przedsiębiorstw: co to jest i jak z niego korzystać",
+      "content": "Kalkulator ROI SEO dla przedsiębiorstw to narzędzie, które pomaga firmom oszacować zwrot z inwestycji (ROI) z działań SEO. Analizując wydatki na SEO, oczekiwany wzrost ruchu i konwersje, oblicza przewidywane przychody, procent ROI i okres zwrotu."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Otwórz kalkulator",
+          "content": "Uzyskaj do niego dostęp bezpośrednio w przeglądarce."
+        },
+        {
+          "heading": "Wprowadź bieżące metryki",
+          "content": "Uwzględnij ruch organiczny, współczynnik konwersji i średni przychód na konwersję."
+        },
+        {
+          "heading": "Dodaj koszty SEO",
+          "content": "Uwzględnij wydatki na swój zespół, narzędzia lub agencję."
+        },
+        {
+          "heading": "Oszacuj wzrost",
+          "content": "Wprowadź oczekiwany wzrost ruchu wynikający z działań SEO."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast zobacz przewidywane przychody, zwrot z inwestycji i okres zwrotu."
+        },
+        {
+          "heading": "Dostosuj scenariusze",
+          "content": "Testuj różne założenia, aby zoptymalizować strategię."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Skoncentrowany na przedsiębiorstwach",
+          "content": "Zaprojektowany z myślą o dużych witrynach internetowych i złożonych strategiach SEO."
+        },
+        {
+          "heading": "Natychmiastowe obliczanie zwrotu z inwestycji",
+          "content": "Zobacz procent ROI natychmiast po wprowadzeniu danych wejściowych."
+        },
+        {
+          "heading": "Projekcja przychodów",
+          "content": "Oblicza potencjalne przychody na podstawie ruchu i konwersji."
+        },
+        {
+          "heading": "Okres zwrotu",
+          "content": "Szacuje, ile czasu potrzeba na odzyskanie inwestycji SEO."
+        },
+        {
+          "heading": "Modelowanie scenariuszy",
+          "content": "Przetestuj wiele scenariuszy wzrostu i konwersji, aby zaplanować strategię."
+        },
+        {
+          "heading": "Bezpłatny i przyjazny dla urządzeń mobilnych",
+          "content": "Działa na każdym urządzeniu bez konieczności rejestracji."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Planowanie budżetu",
+          "content": "Uzasadnij wydatki na SEO za pomocą jasnych prognoz ROI."
+        },
+        {
+          "heading": "Prognozowanie",
+          "content": "Oszacuj wzrost przychodów dzięki ulepszeniom SEO."
+        },
+        {
+          "heading": "Porównanie kanałów",
+          "content": "Porównaj SEO z PPC lub innymi działaniami marketingowymi."
+        },
+        {
+          "heading": "Raportowanie interesariuszy",
+          "content": "Przedstaw zwrot z inwestycji oparty na danych kierownictwu lub klientom."
+        },
+        {
+          "heading": "Strategiczne podejmowanie decyzji",
+          "content": "Optymalizuj budżety i strategie SEO."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Scenariusz podstawowy",
+          "content": "Ruch: 100 000/miesiąc | Współczynnik konwersji: 2% | Średnie zamówienie: 50 USD | Koszt SEO: 5000 USD miesięcznie | Wzrost ruchu: 20% | Wynik: Przychody = 120 000 USD → ROI ≈ 140%"
+        },
+        {
+          "heading": "Przykład 2 – Scenariusz wzrostu",
+          "content": "Te same dane, ale wzrost ruchu: 50% | Wynik: Przychody = 150 000 USD → ROI ≈ 200%"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator ROI SEO dla przedsiębiorstw?",
+      "a": "Szacuje ROI, przewidywane przychody i okres zwrotu inwestycji SEO."
+    },
+    {
+      "q": "Czy ten kalkulator jest darmowy?",
+      "a": "Tak, korzystanie z niego online jest całkowicie bezpłatne."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania?",
+      "a": "Nie, działa bezpośrednio w dowolnej przeglądarce."
+    },
+    {
+      "q": "Czy może oszacować przychody?",
+      "a": "Tak, oblicza przychody na podstawie ruchu, współczynnika konwersji i średniej wartości zamówienia."
+    },
+    {
+      "q": "Czy automatycznie oblicza ROI?",
+      "a": "Tak, wyniki pojawiają się natychmiast po wprowadzeniu danych."
+    },
+    {
+      "q": "Czy mogę przetestować wiele scenariuszy?",
+      "a": "Tak, możesz dostosować wzrost ruchu, współczynniki konwersji i koszty."
+    },
+    {
+      "q": "Czy dotyczy to tylko dużych witryn internetowych?",
+      "a": "Jest przeznaczony dla przedsiębiorstw, ale może być również przydatny dla mniejszych firm."
+    },
+    {
+      "q": "Czy może pomóc w uzasadnieniu budżetów SEO?",
+      "a": "Tak, zapewnia przejrzysty, oparty na danych ROI, który pomaga w podejmowaniu decyzji."
+    },
+    {
+      "q": "Czy obejmuje okres zwrotu?",
+      "a": "Tak, szacuje, ile czasu zajmie odzyskanie inwestycji w SEO."
+    },
+    {
+      "q": "Czy rezultaty są gwarantowane?",
+      "a": "Nie, wyniki to prognozy oparte na dostarczonych danych wejściowych."
+    }
+  ]
+}

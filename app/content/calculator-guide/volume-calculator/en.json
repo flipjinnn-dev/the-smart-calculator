@@ -1,0 +1,147 @@
+{
+    "color": "green",
+    "sections": [
+        {
+            "heading": "What is a Volume Calculator?",
+            "content": "A Volume Calculator is an online tool that calculates the space occupied by 3D objects like cubes, cuboids, cylinders, spheres, cones, and pyramids. It uses the correct geometric formulas and instantly provides the result in cubic units. Online calculators are free, mobile-friendly, and easy to use, making them ideal for students, engineers, architects, and everyday users."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Open the Calculator",
+                    "content": "Access the volume calculator page in your browser."
+                },
+                {
+                    "heading": "Select the Shape",
+                    "content": "Choose the 3D shape (cube, cuboid, cylinder, sphere, cone, pyramid)."
+                },
+                {
+                    "heading": "Enter Dimensions",
+                    "content": "Input measurements such as length, width, height, or radius."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Get the volume instantly."
+                },
+                {
+                    "heading": "Check Units",
+                    "content": "Ensure input units are consistent; the output will match (e.g., cm³, m³)."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Multiple Shapes Supported",
+                    "content": "Cube, cuboid, cylinder, sphere, cone, pyramid."
+                },
+                {
+                    "heading": "Instant Results",
+                    "content": "Calculates volume quickly and accurately."
+                },
+                {
+                    "heading": "Unit Flexibility",
+                    "content": "Outputs in cubic units based on your input."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on desktops, tablets, and smartphones."
+                },
+                {
+                    "heading": "Free & Accessible",
+                    "content": "No downloads or registration required."
+                },
+                {
+                    "heading": "User-Friendly Interface",
+                    "content": "Simple and easy to navigate."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Students & Teachers",
+                    "content": "Solve geometry homework and classroom exercises."
+                },
+                {
+                    "heading": "Engineers & Architects",
+                    "content": "Calculate material volumes for construction and design projects."
+                },
+                {
+                    "heading": "DIY & Home Projects",
+                    "content": "Estimate paint, concrete, or storage requirements."
+                },
+                {
+                    "heading": "Packing & Shipping",
+                    "content": "Determine the volume of boxes and containers."
+                },
+                {
+                    "heading": "Everyday Use",
+                    "content": "Calculate capacity of water tanks, bins, or other objects."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Cube",
+                    "content": "Side = 5 cm → Volume: 5³ = 125 cm³"
+                },
+                {
+                    "heading": "Example 2 – Cylinder",
+                    "content": "Radius = 3 cm, Height = 10 cm → Volume: π × 3² × 10 = 282.74 cm³"
+                },
+                {
+                    "heading": "Example 3 – Sphere",
+                    "content": "Radius = 4 cm → Volume: 4/3 × π × 4³ = 268.08 cm³"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a volume calculator?",
+            "a": "It calculates the space occupied by 3D objects using geometric formulas."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, fully free to use online."
+        },
+        {
+            "q": "Do I need to install software?",
+            "a": "No, it works directly in your browser."
+        },
+        {
+            "q": "Can I use it on mobile?",
+            "a": "Yes, fully mobile-friendly."
+        },
+        {
+            "q": "Does it support multiple shapes?",
+            "a": "Yes, including cubes, cuboids, cylinders, spheres, cones, and pyramids."
+        },
+        {
+            "q": "How do I enter dimensions correctly?",
+            "a": "Enter all measurements in consistent units, such as cm or m."
+        },
+        {
+            "q": "Can I get results in cubic meters or cm³?",
+            "a": "Yes, the output matches your input units."
+        },
+        {
+            "q": "Is it suitable for students?",
+            "a": "Yes, perfect for homework and projects."
+        },
+        {
+            "q": "Can engineers or architects use it?",
+            "a": "Yes, useful for construction, material calculations, and design projects."
+        },
+        {
+            "q": "Is the calculator accurate?",
+            "a": "Yes, it provides precise results for all supported 3D shapes."
+        }
+    ]
+}

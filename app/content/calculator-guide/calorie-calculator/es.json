@@ -1,0 +1,121 @@
+{
+  "color": "rojo",
+  "sections": [
+    {
+      "heading": "Calculadora de calorías: conozca sus necesidades energéticas diarias",
+      "content": "Comprender sus necesidades calóricas diarias es esencial para mantener un peso saludable, alcanzar objetivos de acondicionamiento físico y optimizar el bienestar general. Las calorías son la energía que utiliza su cuerpo para realizar funciones básicas, ejercicio y actividades cotidianas. Con una calculadora de calorías en línea, puede determinar fácilmente cuántas calorías debe consumir cada día en función de sus datos personales."
+    },
+    {
+      "heading": "¿Cómo funciona la calculadora de calorías?",
+      "content": "La Calculadora de necesidades calóricas diarias calcula sus necesidades energéticas teniendo en cuenta factores clave:",
+      "subSections": [
+        {
+          "heading": "Tasa metabólica basal (TMB)",
+          "content": "La cantidad de calorías que su cuerpo quema en reposo para mantener funciones vitales como la respiración y la circulación."
+        },
+        {
+          "heading": "Gasto energético diario total (GDEE)",
+          "content": "Calorías quemadas a lo largo del día, incluida la actividad, el ejercicio y el movimiento diario."
+        },
+        {
+          "heading": "Nivel de actividad",
+          "content": "Sedentario, ligeramente activo, moderadamente activo, muy activo o muy activo."
+        },
+        {
+          "heading": "Atributos personales",
+          "content": "En el cálculo se tienen en cuenta la edad, el sexo, el peso y la altura."
+        }
+      ]
+    },
+    {
+      "heading": "Calorías para diferentes objetivos",
+      "content": "Tus necesidades calóricas cambian dependiendo de si quieres perder peso, mantenerlo o ganar músculo:",
+      "subSections": [
+        {
+          "heading": "Pérdida de peso",
+          "content": "500 a 750 calorías por debajo del mantenimiento: ayuda a lograr una pérdida de grasa sostenible."
+        },
+        {
+          "heading": "Mantenimiento",
+          "content": "Igual a TDEE: ayuda a mantener el peso actual."
+        },
+        {
+          "heading": "Ganancia muscular",
+          "content": "250 a 500 calorías por encima del mantenimiento: favorece el crecimiento muscular magro."
+        }
+      ]
+    },
+    {
+      "heading": "Consejos para realizar un seguimiento de las calorías de forma eficaz",
+      "content": "Siga estas prácticas para obtener mejores resultados:",
+      "subSections": [
+        {
+          "heading": "Utilice una aplicación de calculadora de calorías",
+          "content": "Registre las comidas y realice un seguimiento de la ingesta diaria fácilmente."
+        },
+        {
+          "heading": "Ajuste las calorías según la actividad",
+          "content": "La actividad ligera requiere menos calorías que el ejercicio intenso."
+        },
+        {
+          "heading": "Monitorear el progreso",
+          "content": "Verifique semanalmente y realice cambios graduales."
+        },
+        {
+          "heading": "Nutrición equilibrada",
+          "content": "Combine el seguimiento de calorías con una nutrición adecuada para una salud a largo plazo."
+        }
+      ]
+    },
+    {
+      "heading": "Limitaciones y descargo de responsabilidad",
+      "content": "Si bien nuestra herramienta Calculadora inteligente de calorías proporciona una estimación confiable, no sustituye el consejo de un médico o dietista profesional. Las necesidades individuales pueden variar según las condiciones de salud, el metabolismo y el estilo de vida. Consulte siempre a un profesional de la salud para obtener orientación personalizada."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuántas calorías debo comer al día?",
+      "a": "Depende de su edad, sexo, peso, altura y nivel de actividad. Utilice nuestra Calculadora de necesidades calóricas diarias para obtener una estimación personalizada."
+    },
+    {
+      "q": "¿Cómo calculo mis necesidades calóricas diarias?",
+      "a": "Las calorías diarias se calculan utilizando BMR y TDEE, ajustadas según el nivel de actividad y los objetivos de condición física."
+    },
+    {
+      "q": "¿Cuantas calorias para adelgazar?",
+      "a": "Consuma entre 500 y 750 calorías por debajo de su nivel de mantenimiento para una pérdida de peso sostenible."
+    },
+    {
+      "q": "¿Cuántas calorías para ganar músculo?",
+      "a": "Apunte a consumir entre 250 y 500 calorías por encima del mantenimiento, combinado con entrenamiento de fuerza, para un crecimiento muscular óptimo."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre BMR y TDEE?",
+      "a": "TMB: Calorías quemadas en reposo. TDEE: calorías totales quemadas, incluida la actividad diaria y el ejercicio."
+    },
+    {
+      "q": "¿Qué precisión tienen las calculadoras de calorías?",
+      "a": "Proporcionan estimaciones basadas en fórmulas estándar. La precisión puede variar según el metabolismo individual, las condiciones de salud y el nivel de actividad."
+    },
+    {
+      "q": "¿Cómo ajustar las calorías según el nivel de actividad?",
+      "a": "Aumente las calorías para realizar más actividad y disminuya para realizar menos actividad. Las personas sedentarias necesitan menos calorías que las personas muy activas."
+    },
+    {
+      "q": "¿Pueden las personas mayores utilizar esta calculadora?",
+      "a": "Sí, nuestra Calculadora de calorías para personas mayores se ajusta a los cambios metabólicos relacionados con la edad para brindar recomendaciones precisas."
+    },
+    {
+      "q": "¿Pueden los deportistas utilizar esta herramienta?",
+      "a": "Absolutamente. La Calculadora de calorías para deportistas tiene en cuenta las mayores demandas de energía derivadas de un entrenamiento intenso."
+    },
+    {
+      "q": "¿Puede la IA ayudarme a realizar un seguimiento de mi ingesta de calorías?",
+      "a": "¡Sí! Las calculadoras y aplicaciones de calorías basadas en inteligencia artificial pueden ayudar a registrar las comidas, controlar la ingesta de nutrientes y brindar recomendaciones personalizadas."
+    }
+  ],
+  "cta": {
+    "heading": "Realice un seguimiento de sus calorías diarias hoy",
+    "content": "Deja de adivinar tus necesidades energéticas. Utilice nuestra Calculadora de calorías gratuita en línea para saber exactamente cuántas calorías necesita para perder peso, mantener o ganar masa muscular. Obtenga resultados precisos y personalizados y tome el control de su salud y estado físico ahora."
+  }
+}

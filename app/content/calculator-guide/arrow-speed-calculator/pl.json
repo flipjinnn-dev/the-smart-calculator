@@ -1,0 +1,151 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Kalkulator prędkości strzałki: co to jest i jak z niego korzystać",
+      "content": "Kalkulator prędkości strzały to proste narzędzie online, które pomaga oszacować prędkość lotu strzały na podstawie specyfikacji łuku i strzał. Wprowadzając siłę naciągu łuku, długość naciągu i ciężar strzały, możesz szybko sprawdzić szacowaną prędkość, a w niektórych kalkulatorach nawet energię kinetyczną i pęd."
+    },
+    {
+      "heading": "Jak z niego korzystać",
+      "subSections": [
+        {
+          "heading": "Otwórz kalkulator",
+          "content": "Uzyskaj do niego dostęp z poziomu przeglądarki internetowej."
+        },
+        {
+          "heading": "Wprowadź wagę narysowania",
+          "content": "Siła potrzebna do naciągnięcia łuku (w funtach lub kilogramach)."
+        },
+        {
+          "heading": "Wprowadź długość rysowania",
+          "content": "Jak daleko jest naciągnięty łuk (w calach lub centymetrach)."
+        },
+        {
+          "heading": "Wprowadź wagę strzałki",
+          "content": "Zwykle w ziarnach lub gramach."
+        },
+        {
+          "heading": "Opcjonalne wejścia",
+          "content": "Niektóre kalkulatory pozwalają dodać prędkość znamionową łuku lub wagę akcesoriów."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Wyniki pojawiają się natychmiast."
+        },
+        {
+          "heading": "Sprawdź jednostki",
+          "content": "Upewnij się, że wszystkie pomiary odpowiadają wybranym jednostkom."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe wyniki",
+          "content": "Bez czekania; natychmiast zobacz prędkość swojej strzały."
+        },
+        {
+          "heading": "Więcej niż prędkość",
+          "content": "Niektóre narzędzia pokazują również energię kinetyczną i pęd."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa dobrze na telefonach i tabletach."
+        },
+        {
+          "heading": "Darmowe i proste",
+          "content": "Nie wymaga pobierania ani rejestracji."
+        },
+        {
+          "heading": "Edukacyjny",
+          "content": "Dowiedz się, jak powiązane są siła naciągu, masa strzały i energia."
+        },
+        {
+          "heading": "Obsługuje jednostki metryczne i imperialne",
+          "content": "Działa dla użytkowników na całym świecie."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Łucznicy i myśliwi",
+          "content": "Oszacuj prędkość i energię strzały, aby uzyskać lepszy wybór sprzętu."
+        },
+        {
+          "heading": "Hobbyści i majsterkowicze",
+          "content": "Przetestuj różne ciężary strzał lub konfiguracje łuków."
+        },
+        {
+          "heading": "Studenci i nauczyciele",
+          "content": "Zbadaj ruch pocisku i transfer energii w fizyce."
+        },
+        {
+          "heading": "Porównanie sprzętu",
+          "content": "Zobacz, jak działają różne strzały i łuki."
+        },
+        {
+          "heading": "Planowanie bezpieczeństwa",
+          "content": "Przed zrobieniem zdjęcia zapoznaj się z przybliżonymi prędkościami."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Strzałka standardowa",
+          "content": "Siła naciągu: 50 funtów | Długość naciągu: 28 cali | Waga strzały: 350 ziaren | Szacowana prędkość: 280 fps"
+        },
+        {
+          "heading": "Przykład 2 – Lekka strzała",
+          "content": "Siła naciągu: 60 funtów | Długość naciągu: 29 cali | Waga strzały: 300 ziaren | Szacowana prędkość: 320 fps"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do czego służy kalkulator prędkości strzałki?",
+      "a": "Oszacowuje prędkość strzały, a także może pokazać energię kinetyczną i pęd na podstawie łuku i strzały."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, większość kalkulatorów online jest całkowicie bezpłatna."
+    },
+    {
+      "q": "Czy muszę instalować oprogramowanie?",
+      "a": "Nie, działa bezpośrednio w przeglądarce."
+    },
+    {
+      "q": "Czy mogę go używać na telefonie?",
+      "a": "Absolutnie. Większość kalkulatorów jest dostosowana do urządzeń mobilnych."
+    },
+    {
+      "q": "Jakich danych wejściowych potrzebuję?",
+      "a": "Ciężar naciągu, długość naciągu i ciężar strzały."
+    },
+    {
+      "q": "Czy potrafi obliczyć energię?",
+      "a": "Tak, wiele narzędzi pokazuje energię kinetyczną i pęd wraz z prędkością."
+    },
+    {
+      "q": "Czy jest odpowiedni dla studentów?",
+      "a": "Tak, to świetny sposób na zgłębianie pojęć fizyki."
+    },
+    {
+      "q": "Czy wyniki są dokładne?",
+      "a": "Dają dobre szacunki, ale rzeczywiste czynniki, takie jak technika i jakość sprzętu, mogą mieć wpływ na rzeczywistą prędkość."
+    },
+    {
+      "q": "Czy mogę używać jednostek metrycznych?",
+      "a": "Tak, kalkulatory zazwyczaj obsługują zarówno jednostki metryczne, jak i imperialne."
+    },
+    {
+      "q": "Czy łucznicy mogą wykorzystać to do planowania w świecie rzeczywistym?",
+      "a": "Tak, ale wyniki traktuj jako wytyczne, a nie dokładne wartości."
+    }
+  ]
+}

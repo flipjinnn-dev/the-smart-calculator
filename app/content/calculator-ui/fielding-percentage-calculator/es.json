@@ -1,0 +1,143 @@
+{
+  "pageTitle": "Calculadora de porcentaje de campo",
+  "pageDescription": "Calcular el porcentaje de fildeo para jugadores de béisbol.",
+  "form": {
+    "labels": {
+      "putouts": "Salidas",
+      "assists": "Asistencias",
+      "errors": "Errores"
+    },
+    "placeholders": {
+      "putouts": "Ingrese el número de salidas",
+      "assists": "Introduce el número de asistencias",
+      "errors": "Ingrese el número de errores"
+    },
+    "buttons": {
+      "calculate": "Calcular el porcentaje de fildeo",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "fieldingPercentage": "Porcentaje de fildeo",
+    "totalChances": "Oportunidades totales",
+    "successfulChances": "Oportunidades de éxito",
+    "errorRate": "Tasa de errores",
+    "leagueRanking": "Estimación de clasificación de la liga"
+  },
+  "educational": {
+    "fieldingInfo": "Información de porcentaje de campo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos de béisbol",
+    "fieldingFacts": {
+      "definition": {
+        "title": "Porcentaje de fildeo",
+        "description": "Una estadística que mide la capacidad de un jugador para gestionar las oportunidades sin cometer errores."
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "Porcentaje de fildeo = (Apagados + Asistencias) / (Apagados + Asistencias + Errores)"
+      },
+      "interpretation": {
+        "title": "Interpretación escénica",
+        "description": "El porcentaje de fildeo varía de 0,000 a 1,000, siendo 1,000 un fildeo perfecto."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona cálculos de porcentaje de campo únicamente",
+      "actual": "La evaluación defensiva completa debe considerar métricas adicionales como alcance y dobles jugadas."
+    },
+    "importantNotesList": [
+      "El porcentaje de fildeo es solo una medida del desempeño defensivo",
+      "El porcentaje de fildeo es solo una medida del desempeño defensivo",
+      "Un alto porcentaje de fildeo indica menos errores en relación con las posibilidades",
+      "El tamaño de la muestra importa: más oportunidades proporcionan una mejor evaluación"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese eliminaciones, asistencias y errores para calcular el porcentaje de fildeo",
+    "resultMessage": "Los resultados del cálculo del porcentaje de fildeo se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del porcentaje de campo:",
+    "fieldingAnalysis": "Análisis de campo"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona cálculos de porcentaje de fildeo basados ​​en fórmulas estadísticas estándar de béisbol. La evaluación defensiva completa debe considerar métricas adicionales, contexto y factores de tamaño de muestra no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos de béisbol",
+    "content": "Para obtener un análisis defensivo de béisbol completo y una evaluación de jugadores, consulte sitios de referencia de béisbol, recursos de análisis deportivo o exploradores y analistas profesionales."
+  },
+  "errors": {
+    "putouts": "Por favor ingrese un número válido de salidas",
+    "assists": "Por favor ingresa un número válido de asistencias",
+    "errors": "Por favor ingresa un número válido de errores"
+  },
+  "tooltips": {
+    "putouts": "Número de outs registrados directamente por el jugador (por ejemplo, atrapando elevados, tocando corredores)",
+    "assists": "Número de veces que el jugador ayudó a registrar un out (por ejemplo, lanzando a primera base)",
+    "errors": "Número de errores defensivos que permiten a los corredores avanzar o llegar a la base"
+  },
+  "fielding_statistics_0": "Estadísticas de fildeo",
+  "enter_fielding_statistics_to_calculate_fielding_pe_1": "Ingrese estadísticas de campo para calcular el porcentaje de campo (FPCT)",
+  "putouts_p_2": "Salidas (P)",
+  "outs_recorded_by_the_fielder_3": "Outs registrados por el fildeador",
+  "assists_a_4": "Asistencias (A)",
+  "plays_that_helped_record_an_out_5": "Jugadas que ayudaron a registrar un out",
+  "errors_e_6": "Errores (E)",
+  "misplays_that_should_have_been_made_7": "Errores que deberían haberse cometido",
+  "output_format_8": "Formato de salida",
+  "display_result_as_9": "Mostrar resultado como",
+  "decimal_10": "Decimal",
+  "percentage_11": "Porcentaje",
+  "formula_12": "Fórmula:",
+  "fpct_putouts_assists_putouts_assists_errors_13": "FPCT = (Apagados + Asistencias) ÷ (Apagados + Asistencias + Errores)",
+  "total_chances_putouts_assists_errors_14": "Oportunidades totales = Eliminaciones + Asistencias + Errores",
+  "calculate_15": "Calcular",
+  "reset_16": "Reiniciar",
+  "fpct_results_17": "Resultados de la FPCT",
+  "fpct_18": "FPCT",
+  "total_chances_19": "Oportunidades totales",
+  "performance_20": "Actuación",
+  "enter_fielding_statistics_and_click_21": "Ingrese las estadísticas de campo y haga clic",
+  "calculate_22": "Calcular",
+  "to_see_fpct_23": "para ver FPCT.",
+  "detailed_fpct_breakdown_24": "Desglose detallado del FPCT",
+  "fpct_25": "FPCT",
+  "putouts_26": "Salidas",
+  "p_27": "PAG",
+  "assists_28": "Asistencias",
+  "a_29": "A",
+  "errors_30": "Errores",
+  "e_31": "mi",
+  "calculation_steps_32": "Pasos de cálculo:",
+  "step_1_33": "Paso 1:",
+  "total_chances_34": "Posibilidades totales =",
+  "step_2_35": "Paso 2:",
+  "fpct_36": "FPCT = (",
+  "step_3_37": "Paso 3:",
+  "as_percentage_38": "Como porcentaje =",
+  "k_100_39": "× 100 =",
+  "understanding_fielding_percentage_40": "Comprender el porcentaje de fildeo",
+  "what_is_fpct_41": "¿Qué es la FPCT?",
+  "fielding_percentage_fpct_measures_how_often_a_fiel_42": "El porcentaje de fildeo (FPCT) mide la frecuencia con la que un fildeador aprovecha con éxito una oportunidad sin\n                        cometiendo un error. Se calcula dividiendo las jugadas exitosas (outouts + asistencias) por el total.\n                        posibilidades.",
+  "fpct_interpretation_43": "Interpretación FPCT",
+  "k_1000_perfect_no_errors_44": "1.000: Perfecto (sin errores)",
+  "k_0980_elite_level_45": "0,980+: nivel élite",
+  "k_09500979_good_46": "0,950-0,979: Bueno",
+  "k_09000949_average_47": "0,900-0,949: promedio",
+  "below_0900_below_average_48": "Por debajo de 0,900: por debajo del promedio",
+  "sample_calculation_49": "Cálculo de muestra",
+  "example_50": "Ejemplo:",
+  "player_statistics_51": "Estadísticas del jugador",
+  "putouts_1489_52": "Salidas: 1489",
+  "assists_496_53": "Asistencias: 496",
+  "errors_33_54": "Errores: 33",
+  "calculation_55": "Cálculo:",
+  "total_chances_1489_496_33_2018_56": "Posibilidades totales = 1489 + 496 + 33 = 2018",
+  "fpct_1489_496_2018_57": "FPCT = (1489 + 496) ÷ 2018",
+  "fpct_0984_984_58": "FPCT = 0,984 (98,4%)",
+  "note_59": "Nota:",
+  "high_fpct_doesnt_reflect_a_fielders_range_or_the_d_60": "Un FPCT alto no refleja el rango de un fildeador ni la dificultad de las jugadas.\n                          intentado."
+}

@@ -1,0 +1,172 @@
+{
+  "pageTitle": "Calculadora de fecha de vencimiento",
+  "pageDescription": "Calcule su fecha de parto en función de su último período menstrual o fecha de concepción",
+  "form": {
+    "labels": {
+      "lastMenstrualPeriod": "Último período menstrual",
+      "cycleLength": "Duración del ciclo (días)",
+      "conceptionDate": "Fecha de concepción (opcional)"
+    },
+    "placeholders": {
+      "lastMenstrualPeriod": "Ingrese el primer día del último período menstrual",
+      "cycleLength": "Introduzca la duración del ciclo (predeterminado: 28)",
+      "conceptionDate": "Ingrese la fecha de concepción si la conoce."
+    },
+    "buttons": {
+      "calculate": "Calcular la fecha de vencimiento",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "dueDate": "Fecha de vencimiento estimada",
+    "conceptionDate": "Fecha estimada de concepción",
+    "weeksPregnant": "Semanas actuales de embarazo",
+    "calculationDetails": "Resultados del cálculo de la fecha de vencimiento"
+  },
+  "educational": {
+    "info": "Información de fecha de vencimiento",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definición de fecha de vencimiento",
+        "description": "Información sobre la fecha de vencimiento"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Cómo se calcula la fecha de vencimiento"
+      },
+      "applications": {
+        "title": "Aplicaciones",
+        "description": "Usos de la fecha de vencimiento"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora solo proporciona estimaciones de la fecha de vencimiento",
+      "actual": "Los valores reales pueden variar según las circunstancias individuales."
+    },
+    "importantNotesList": [
+      "Esto es una estimación y no debe reemplazar el asesoramiento profesional.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Utilice unidades consistentes para obtener resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información requerida para calcular la fecha de vencimiento",
+    "resultMessage": "Los resultados del cálculo de la fecha de vencimiento se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de la fecha de vencimiento:",
+    "analysis": "Análisis de fecha de vencimiento"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de la fecha de vencimiento basadas en métodos estándar. Los valores reales pueden variar según circunstancias individuales y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para obtener asesoramiento personalizado e información detallada, consulte con profesionales que puedan brindarle orientación según las necesidades y circunstancias individuales."
+  },
+  "errors": {
+    "input1": "Por favor ingresa un primer valor válido",
+    "input2": "Por favor ingresa un segundo valor válido",
+    "input3": "Por favor ingresa un tercer valor válido"
+  },
+  "tooltips": {
+    "input1": "Primer parámetro de entrada",
+    "input2": "Segundo parámetro de entrada",
+    "input3": "Tercer parámetro de entrada"
+  },
+  "due_date_calculation_0": "Cálculo de la fecha de vencimiento",
+  "select_your_preferred_method_and_enter_the_require_1": "Seleccione su método preferido e ingrese la información requerida",
+  "calculation_method_2": "Método de cálculo",
+  "last_menstrual_period_lmp_3": "Último período menstrual (FUM)",
+  "ultrasound_dating_4": "Citas por ultrasonido",
+  "conception_date_5": "Fecha de concepción",
+  "ivf_transfer_date_6": "Fecha de transferencia de FIV",
+  "first_day_of_last_menstrual_period_7": "Primer día del último período menstrual",
+  "average_cycle_length_days_8": "Duración promedio del ciclo (días)",
+  "typical_range_2135_days_9": "Rango típico: 21-35 días",
+  "date_of_ultrasound_scan_10": "Fecha de la ecografía",
+  "gestational_age_weeks_11": "Edad gestacional (semanas)",
+  "additional_days_12": "Días adicionales",
+  "approximate_conception_date_13": "Fecha aproximada de concepción",
+  "embryo_transfer_date_14": "Fecha de transferencia de embriones",
+  "embryo_age_at_transfer_15": "Edad del embrión en el momento de la transferencia",
+  "k_3day_embryo_16": "embrión de 3 días",
+  "k_5day_embryo_blastocyst_17": "Embrión de 5 días (blastocisto)",
+  "k_6day_embryo_18": "embrión de 6 días",
+  "calculate_date_19": "Calcular fecha",
+  "reset_20": "Reiniciar",
+  "due_date_21": "Fecha de vencimiento",
+  "expected_due_date_22": "Fecha de vencimiento prevista",
+  "w_23": "w",
+  "d_24": "d",
+  "current_age_25": "Edad actual",
+  "select_a_method_and_enter_your_information_to_calc_26": "Seleccione un método e ingrese su información para calcular su fecha de vencimiento.",
+  "your_pregnancy_timeline_27": "Cronología de su embarazo",
+  "estimated_due_date_28": "Fecha de vencimiento estimada",
+  "expected_due_date_29": "Fecha de vencimiento prevista",
+  "w_30": "w",
+  "d_31": "d",
+  "current_gestational_age_32": "Edad gestacional actual",
+  "pregnancy_progress_33": "Progreso del embarazo",
+  "calculation_details_34": "Detalles del cálculo",
+  "method_used_35": "Método utilizado",
+  "accuracy_36": "Exactitud:",
+  "important_note_37": "Nota importante",
+  "only_4_of_babies_arrive_on_the_exact_due_date_38": "Sólo ~4% de los bebés llegan en la fecha exacta de parto",
+  "most_births_occur_within_10_days_of_edd_39": "La mayoría de los nacimientos ocurren dentro de ±10 días de la EDD",
+  "pregnancy_progress_40": "Progreso del embarazo",
+  "conception_41": "Concepción",
+  "complete_42": "% Completo",
+  "due_date_43": "Fecha de vencimiento",
+  "due_date_calculation_methods_44": "Métodos de cálculo de la fecha de vencimiento",
+  "method_45": "Método",
+  "formula_46": "Fórmula",
+  "accuracy_47": "Exactitud",
+  "lmp_naegeles_rule_48": "LMP (Regla de Naegele)",
+  "lmp_280_days_49": "FML + 280 días",
+  "k_14_days_50": "±14 días",
+  "conception_date_51": "Fecha de concepción",
+  "conception_266_days_52": "Concepción + 266 días",
+  "k_10_days_53": "±10 días",
+  "ultrasound_dating_54": "Citas por ultrasonido",
+  "scan_date_280_ga_at_scan_55": "Fecha de escaneo + (280 - GA en el escaneo)",
+  "k_7_days_early_scan_56": "±7 días (exploración temprana)",
+  "ivf_transfer_57": "Transferencia de FIV",
+  "transfer_261264_days_58": "Transferencia + 261-264 días",
+  "k_5_days_59": "±5 días",
+  "understanding_due_date_calculations_60": "Comprender los cálculos de la fecha de vencimiento",
+  "method_accuracy_61": "Precisión del método",
+  "ivf_transfer_62": "Transferencia de FIV:",
+  "most_accurate_5_days_63": "Más preciso (±5 días)",
+  "early_ultrasound_64": "Ultrasonido Temprano:",
+  "very_accurate_7_days_65": "Muy preciso (±7 días)",
+  "conception_date_66": "Fecha de concepción:",
+  "good_accuracy_10_days_67": "Buena precisión (±10 días)",
+  "lmp_method_68": "Método LMP:",
+  "standard_method_14_days_69": "Método estándar (±14 días)",
+  "example_calculation_70": "Ejemplo de cálculo",
+  "lmp_january_1_2025_28day_cycle_71": "LMP: 1 de enero de 2025 (ciclo de 28 días)",
+  "formula_lmp_280_days_72": "Fórmula: LMP + 280 días",
+  "due_date_73": "Fecha de vencimiento:",
+  "october_8_2025_74": "8 de octubre de 2025",
+  "current_feb_1_75": "Actual (1 de febrero):",
+  "k_4w_3d_pregnant_76": "4w 3d embarazada",
+  "important_facts_77": "Hechos importantes",
+  "only_4_of_babies_arrive_on_exact_due_date_78": "Sólo el 4% de los bebés llegan en la fecha exacta de parto",
+  "k_3742_weeks_is_considered_fullterm_79": "37-42 semanas se considera término completo",
+  "first_babies_often_arrive_12_days_late_80": "Los primeros bebés suelen llegar con 1 o 2 días de retraso",
+  "cycle_length_affects_lmp_calculations_81": "La duración del ciclo afecta los cálculos de LMP",
+  "when_to_use_each_method_82": "Cuándo utilizar cada método",
+  "lmp_83": "LMP:",
+  "regular_cycles_known_lmp_date_84": "Ciclos regulares, fecha LMP conocida",
+  "ultrasound_85": "Ultrasonido:",
+  "irregular_cycles_uncertain_lmp_86": "Ciclos irregulares, FUM incierta",
+  "conception_87": "Concepción:",
+  "known_ovulationconception_date_88": "Fecha conocida de ovulación/concepción",
+  "ivf_89": "FIV:",
+  "assisted_reproductive_technology_90": "Tecnología de reproducción asistida"
+}

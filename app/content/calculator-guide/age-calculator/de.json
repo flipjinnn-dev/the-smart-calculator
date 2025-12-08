@@ -1,0 +1,143 @@
+{
+  "color": "lila",
+  "sections": [
+    {
+      "heading": "Altersrechner: Was es ist und wie man es verwendet",
+      "content": "Ein Altersrechner ist ein kostenloses Online-Tool, das anhand des Geburtsdatums schnell das genaue Alter einer Person in Jahren, Monaten und Tagen berechnet. Es ist nützlich für Studenten, Eltern, Berufstätige und alle, die eine schnelle und genaue Altersberechnung benötigen."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Öffnen Sie den Rechner",
+          "content": "Greifen Sie direkt in Ihrem Browser darauf zu."
+        },
+        {
+          "heading": "Geben Sie das Geburtsdatum ein",
+          "content": "Geben Sie Tag, Monat und Jahr ein."
+        },
+        {
+          "heading": "Wählen Sie Referenzdatum",
+          "content": "Wählen Sie das heutige Datum oder ein beliebiges vergangenes/zukünftiges Datum."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Sehen Sie sofort das Alter in Jahren, Monaten und Tagen."
+        },
+        {
+          "heading": "Ausgabe überprüfen",
+          "content": "Einige Rechner zeigen auch die Gesamtzahl der gelebten Tage oder Wochen an."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Ergebnisse",
+          "content": "Keine manuellen Berechnungen erforderlich."
+        },
+        {
+          "heading": "Genau",
+          "content": "Berücksichtigt Schaltjahre und unterschiedliche Monatslängen."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf Smartphones, Tablets und Desktops."
+        },
+        {
+          "heading": "Kostenlos und einfach zu bedienen",
+          "content": "Keine Downloads oder Registrierung erforderlich."
+        },
+        {
+          "heading": "Benutzerdefiniertes Datum",
+          "content": "Berechnen Sie das Alter für jedes Datum in der Vergangenheit oder Zukunft."
+        },
+        {
+          "heading": "Mehrere Einheiten",
+          "content": "Optional können Sie das Alter in Jahren, Monaten, Tagen oder der Gesamtzahl der Tage/Wochen anzeigen."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Persönlicher Gebrauch",
+          "content": "Verfolgen Sie Geburtstage und Meilensteine."
+        },
+        {
+          "heading": "Offizielle Zwecke",
+          "content": "Schätzen Sie das Alter für Formulare, Anträge oder Ausweisüberprüfungen."
+        },
+        {
+          "heading": "Eventplanung",
+          "content": "Behalten Sie Geburtstage, Jubiläen oder Berechtigungstermine im Auge."
+        },
+        {
+          "heading": "Ausbildung",
+          "content": "Informieren Sie die Schüler über Datums-, Zeit- und Kalenderunterschiede."
+        },
+        {
+          "heading": "Aufzeichnungen führen",
+          "content": "Führen Sie genaue altersbezogene Aufzeichnungen."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Aktuelles Alter",
+          "content": "Geburtsdatum: 15. März 1995 | Referenzdatum: Heute | Ergebnis: 30 Jahre, 8 Monate, 12 Tage"
+        },
+        {
+          "heading": "Beispiel 2 – Zukünftiges Alter",
+          "content": "Geburtsdatum: 10. Juni 2000 | Referenzdatum: 1. Januar 2030 | Ergebnis: 29 Jahre, 6 Monate, 22 Tage"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Altersrechner?",
+      "a": "Es berechnet das genaue Alter in Jahren, Monaten und Tagen ab einem bestimmten Geburtsdatum."
+    },
+    {
+      "q": "Ist dieser Rechner kostenlos?",
+      "a": "Ja, die Nutzung ist völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software oder Installation?",
+      "a": "Nein, es funktioniert direkt in Ihrem Browser."
+    },
+    {
+      "q": "Kann ich es auf mobilen Geräten verwenden?",
+      "a": "Ja, es ist vollständig mobilfreundlich."
+    },
+    {
+      "q": "Kann ich das Alter für ein zukünftiges oder vergangenes Datum berechnen?",
+      "a": "Ja, Sie können ein beliebiges Referenzdatum auswählen."
+    },
+    {
+      "q": "Berücksichtigt es Schaltjahre?",
+      "a": "Ja, Schaltjahre und Monatslängen werden genau berücksichtigt."
+    },
+    {
+      "q": "Kann die Gesamtzahl der Tage oder Wochen angezeigt werden?",
+      "a": "Einige Versionen geben die Gesamtzahl der gelebten Tage oder Wochen an."
+    },
+    {
+      "q": "Ist es für Studenten geeignet?",
+      "a": "Ja, es ist für Lernzwecke einfach und genau."
+    },
+    {
+      "q": "Kann es für offizielle Dokumente verwendet werden?",
+      "a": "Für Kostenvoranschläge eignet sich das gut, für offizielle Dokumente ist jedoch ein Nachweis erforderlich, beispielsweise eine Geburtsurkunde."
+    },
+    {
+      "q": "Wie genau ist es?",
+      "a": "Es liefert präzise Berechnungen basierend auf dem Standard-Gregorianischen Kalender."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Stückweiser Funktionsrechner und Grapher: Was es ist und wie man es verwendet",
+      "content": "Ein Piecewise Function Calculator & Grapher ist ein Online-Tool, mit dem Sie Funktionen definieren, auswerten und grafisch darstellen können, die aus mehreren Teilen bestehen, die jeweils über ein bestimmtes Intervall gültig sind."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Öffnen Sie den Rechner",
+          "content": "Greifen Sie direkt in Ihrem Browser darauf zu."
+        },
+        {
+          "heading": "Funktionsteile definieren",
+          "content": "Geben Sie jeden Ausdruck zusammen mit seinem Intervall ein (z. B. x < 0, 0 ≤ x < 2, x ≥ 2)."
+        },
+        {
+          "heading": "Geben Sie x-Werte ein",
+          "content": "Geben Sie Punkte an, an denen Sie die Funktion auswerten möchten."
+        },
+        {
+          "heading": "Stellen Sie den Diagrammbereich ein",
+          "content": "Wählen Sie optional die Domäne zum Plotten aus."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen / Diagramm",
+          "content": "Sehen Sie sofort Funktionswerte und ein Diagramm."
+        },
+        {
+          "heading": "Überprüfen Sie die Ergebnisse",
+          "content": "Überprüfen Sie die Grenzpunkte auf Genauigkeit."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Unterstützt mehrere Teile",
+          "content": "Fügen Sie beliebig viele Unterfunktionen mit unterschiedlichen Intervallen hinzu."
+        },
+        {
+          "heading": "Sofortige Auswertung",
+          "content": "Berechnen Sie schnell f(x) für jeden x-Wert."
+        },
+        {
+          "heading": "Grafikfunktionalität",
+          "content": "Visualisieren Sie alle Teile, einschließlich Sprünge und Endpunkte."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf Desktops, Tablets und Smartphones."
+        },
+        {
+          "heading": "Behandelt komplexe Funktionen",
+          "content": "Unterstützt Polynome, trigonometrische, exponentielle, absolute Werte und mehr."
+        },
+        {
+          "heading": "Kostenlos und einfach",
+          "content": "Keine Downloads oder Registrierung erforderlich."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Schüler- und Hausaufgabenhilfe",
+          "content": "Stückweise Funktionen schneller verstehen."
+        },
+        {
+          "heading": "Lehrer",
+          "content": "Erstellen Sie klare, visuelle Demonstrationen im Klassenzimmer."
+        },
+        {
+          "heading": "Funktionsanalyse",
+          "content": "Entdecken Sie, wie sich Funktionen über Intervalle hinweg ändern."
+        },
+        {
+          "heading": "Modellierung in der realen Welt",
+          "content": "Auf Preisstufen, Steuerklassen oder Stufenfunktionen anwenden."
+        },
+        {
+          "heading": "Schnelle grafische Darstellung",
+          "content": "Sparen Sie Zeit im Vergleich zum manuellen Plotten."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Grundlegende stückweise Funktion",
+          "content": "f(x) definiert als: x² für x < 0; 2x + 1 für 0 ≤ x < 3; 5 für x ≥ 3. Auswertung: f(-2)=4, f(1)=3, f(4)=5."
+        },
+        {
+          "heading": "Beispiel 2 – Trigonometrische stückweise Funktion",
+          "content": "f(x) definiert als: sin(x) für x < π/2; cos(x) für x ≥ π/2. Auswertung: f(π/4)≈0,707, f(π/2)=0, f(π)=-1."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein stückweiser Funktionsrechner und Grapher?",
+      "a": "Sie können damit stückweise Funktionen mit mehreren Intervallen definieren, auswerten und grafisch darstellen."
+    },
+    {
+      "q": "Ist dieser Rechner kostenlos?",
+      "a": "Ja, es ist online völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software?",
+      "a": "Nein, es funktioniert direkt in jedem Browser."
+    },
+    {
+      "q": "Kann ich meine stückweisen Funktionen grafisch darstellen?",
+      "a": "Ja, es generiert genaue Diagramme mit korrekten Intervallen."
+    },
+    {
+      "q": "Kann ich mehrere Teile hinzufügen?",
+      "a": "Ja, Sie können beliebig viele Unterfunktionen definieren."
+    },
+    {
+      "q": "Unterstützt es trigonometrische, exponentielle oder absolute Wertfunktionen?",
+      "a": "Ja, alle standardmäßigen mathematischen Ausdrücke werden unterstützt."
+    },
+    {
+      "q": "Ist es für Studenten geeignet?",
+      "a": "Ja, es ist ideal zum Lernen, für Hausaufgaben und zum Üben."
+    },
+    {
+      "q": "Kann es mit Diskontinuitäten umgehen?",
+      "a": "Ja, Sprünge und Endpunktbedingungen werden genau dargestellt."
+    },
+    {
+      "q": "Kann ich jederzeit bewerten?",
+      "a": "Ja, geben Sie einfach x-Werte ein und f(x) wird berechnet."
+    },
+    {
+      "q": "Wie genau ist es?",
+      "a": "Es liefert präzise Funktionswerte und Diagramme für standardmäßige stückweise Funktionen."
+    }
+  ]
+}

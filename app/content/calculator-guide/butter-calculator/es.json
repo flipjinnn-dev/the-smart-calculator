@@ -1,0 +1,105 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de mantequilla?",
+      "content": "La Calculadora de mantequilla le permite convertir cantidades de mantequilla en barras, tazas, cucharadas, gramos, onzas y mililitros al instante. Ideal para panaderos, chefs y cocineros caseros que necesitan medidas precisas."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "content": "Siga estos pasos para convertir unidades de mantequilla con precisión:",
+      "subSections": [
+        {
+          "heading": "Pasos",
+          "content": "1. Ingrese la cantidad: ingrese la cantidad de mantequilla en cualquier unidad.\n2. Seleccione Unidad: elija la unidad para su entrada.\n3. Elija Unidad de destino: seleccione las unidades a las que desea convertir.\n4. Haga clic en Convertir: obtenga la cantidad equivalente de mantequilla al instante.\n5. Consejo: para hornear con precisión, use unidades basadas en el peso, como gramos u onzas."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "content": "Este conversor de mantequilla está diseñado para realizar conversiones rápidas y precisas:",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "- Conversión instantánea: convierte entre todas las unidades principales de mantequilla.\n- Admite múltiples unidades: barras, tazas, gramos, onzas, cucharadas, mililitros.\n- Preciso y confiable: utiliza índices de conversión estándar.\n- Amigable internacionalmente: convierte sin problemas unidades métricas y estadounidenses.\n- Optimizado para dispositivos móviles: funciona sin problemas en todos los dispositivos."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "content": "La gente confía en esta herramienta para muchas tareas de cocina y relacionadas con recetas:",
+      "subSections": [
+        {
+          "heading": "Ejemplos",
+          "content": "- Hornear y cocinar: sigue recetas con medidas exactas.\n- Recetas internacionales: convierta unidades de mantequilla estadounidenses a métricas y viceversa.\n- Dieta y nutrición: mida la mantequilla con precisión para determinar sus calorías o macros.\n- Escalado de recetas: ajuste el tamaño de la receta hacia arriba o hacia abajo fácilmente.\n- Aprendizaje: comprender las diferencias y conversiones en las medidas de la mantequilla."
+        }
+      ]
+    },
+    {
+      "heading": "Conversiones de ejemplo",
+      "content": "A continuación se muestran conversiones de mantequilla comunes para ayudarle a comprender los resultados:",
+      "subSections": [
+        {
+          "heading": "Ejemplos",
+          "content": "- 2 barras → 227 gramos\n- 1 taza → 16 cucharadas\n- 8 onzas → 237 ml\n- 113 gramos → 1 barra"
+        }
+      ]
+    },
+    {
+      "heading": "Consejos y mejores prácticas",
+      "content": "Consejos útiles para mediciones de mantequilla más precisas:",
+      "subSections": [
+        {
+          "heading": "Consejos",
+          "content": "- Prefiera unidades de peso (gramos/onzas) para mayor precisión al hornear.\n- Verifique si su receta utiliza medidas métricas o estadounidenses.\n- Al derretir mantequilla, el volumen puede variar ligeramente; use gramos para mayor precisión.\n- Nivele siempre cucharadas y tazas para obtener resultados correctos.\n- Para recetas grandes, convierta todas las unidades de mantequilla en gramos para darle consistencia."
+        }
+      ]
+    },
+    {
+      "heading": "Descargo de responsabilidad",
+      "content": "Esta herramienta de conversión de mantequilla proporciona estimaciones de conversión estándar y ampliamente aceptadas. La densidad real de la mantequilla puede variar ligeramente según la temperatura y la marca. Utilice medidas de peso para obtener la mayor precisión."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué hace esta calculadora?",
+      "a": "Convierte mantequilla en barras, tazas, cucharadas, gramos, onzas y mililitros."
+    },
+    {
+      "q": "¿Por qué usarlo?",
+      "a": "Garantiza medidas precisas para cocinar y hornear."
+    },
+    {
+      "q": "¿Puedo convertir barras a gramos?",
+      "a": "Sí, simplemente ingrese las barras y seleccione gramos como unidad objetivo."
+    },
+    {
+      "q": "¿Admite unidades métricas?",
+      "a": "Sí, se admiten gramos y mililitros."
+    },
+    {
+      "q": "¿Es exacto para hornear?",
+      "a": "Sí, utiliza proporciones de conversión de mantequilla estándar muy utilizadas en recetas."
+    },
+    {
+      "q": "¿Puedo convertir cucharadas a tazas?",
+      "a": "Sí, la calculadora admite conversiones entre las principales unidades de volumen de mantequilla."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, está optimizado para teléfonos, tabletas y computadoras de escritorio."
+    },
+    {
+      "q": "¿Puedo usarlo para realizar un seguimiento de la dieta?",
+      "a": "Sí, ayuda a medir con precisión la mantequilla para realizar un seguimiento nutricional."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, completamente gratis y no requiere descargas."
+    },
+    {
+      "q": "¿Quién debería usarlo?",
+      "a": "Panaderos, chefs, cocineros caseros, nutricionistas y cualquiera que siga recetas."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for conception-calculator
 const conceptioncalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }conception-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }conception-calculator`,
       languages: {
         'en': getCanonicalUrl('conception-calculator', 'en'),
         'pt-BR': getCanonicalUrl('conception-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }conception-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }conception-calculator`,
     },
   };
 }
@@ -70,5 +69,75 @@ export default async function ConceptionCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Conception Calculator",
+    "url": "https://www.thesmartcalculator.com/health/conception-calculator",
+    "description": "Free online Conception Calculator to estimate fertile window, ovulation date, possible conception date, and estimated due date based on your last menstrual period and cycle length.",
+    "mainEntity": {
+      "@type": "SoftwareApplication",
+      "name": "Conception Calculator",
+      "operatingSystem": "All",
+      "applicationCategory": "HealthApplication",
+      "description": "This conception calculator estimates a woman's fertile days, ovulation period, likely conception date, and due date using last menstrual period and cycle length.",
+      "url": "https://www.thesmartcalculator.com/health/conception-calculator",
+      "publisher": {
+        "@type": "Organization",
+        "name": "The Smart Calculator",
+        "url": "https://www.thesmartcalculator.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    "faq": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Conception Calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A conception calculator is a tool that estimates your fertile window, ovulation day, and possible conception dates based on your last menstrual period and cycle length."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accurate is the Conception Calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The conception calculator provides an estimate based on the average 14-day luteal phase assumption. Individual results can vary and should not replace medical advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can this calculator predict my due date?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the calculator estimates an expected due date based on the likely conception date, usually around 266 days after conception. This is only an estimate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my cycle is irregular?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For women with irregular cycles, the calculator’s accuracy decreases. Consult a healthcare professional for personalized fertility guidance."
+          }
+        }
+      ]
+    }
+  }
+  return <>
+    {children}
+    <Script
+      id="conception-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

@@ -1,0 +1,143 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "What is a Size to Weight Calculator?",
+            "content": "A Size to Weight Calculator estimates the weight of a rectangular cuboid using its length, width, height, and material density. Ideal for construction, manufacturing, shipping, DIY projects, and education."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Dimensions",
+                    "content": "Input length, width, and height."
+                },
+                {
+                    "heading": "Select Material",
+                    "content": "Choose a preset material (steel, wood, concrete, aluminum) or enter custom density."
+                },
+                {
+                    "heading": "Select Units",
+                    "content": "Ensure units are consistent (cm, m, mm, in, ft)."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Get the weight instantly in kg or lb."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Verify density matches the actual material for accurate results."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Weight Calculation",
+                    "content": "From dimensions and material density."
+                },
+                {
+                    "heading": "Flexible Units",
+                    "content": "Supports cm, m, mm, in, and ft."
+                },
+                {
+                    "heading": "Preset & Custom Materials",
+                    "content": "Easy selection or custom density input."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on all devices."
+                },
+                {
+                    "heading": "Versatile Applications",
+                    "content": "Construction, shipping, DIY, and education."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Construction & Engineering",
+                    "content": "Weight of beams, blocks, and components."
+                },
+                {
+                    "heading": "Shipping & Logistics",
+                    "content": "Parcel or cargo weight estimation."
+                },
+                {
+                    "heading": "DIY & Fabrication",
+                    "content": "Feasibility check for furniture, enclosures, or projects."
+                },
+                {
+                    "heading": "Education",
+                    "content": "Learn volume, density, and mass relationships."
+                },
+                {
+                    "heading": "Material Planning",
+                    "content": "Load estimation and safety calculations."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Wood Block",
+                    "content": "50 cm × 40 cm × 30 cm, Oak Wood (Density 750 kg/m³) → Weight ≈ 45 kg"
+                },
+                {
+                    "heading": "Example 2 – Steel Box",
+                    "content": "2 m × 1 m × 0.5 m, Steel (Density 7850 kg/m³) → Weight ≈ 7850 kg"
+                },
+                {
+                    "heading": "Example 3 – Custom Material",
+                    "content": "1 ft × 0.5 ft × 0.25 ft, Density 500 kg/m³ → Weight ≈ 1.75 kg"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Size to Weight Calculator?",
+            "a": "It estimates cuboid weight using dimensions and material density."
+        },
+        {
+            "q": "Can I use different units?",
+            "a": "Yes, cm, m, mm, inches, and feet are supported."
+        },
+        {
+            "q": "Does it include common materials?",
+            "a": "Yes, steel, wood, concrete, and aluminum."
+        },
+        {
+            "q": "Can I enter custom density?",
+            "a": "Yes, enter any density for accurate calculation."
+        },
+        {
+            "q": "Is it suitable for DIY projects?",
+            "a": "Yes, for furniture, enclosures, or other custom objects."
+        },
+        {
+            "q": "Does it calculate in kg and lb?",
+            "a": "Yes, results are shown in both units."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, works on smartphones, tablets, and desktops."
+        },
+        {
+            "q": "Who should use this calculator?",
+            "a": "Engineers, builders, DIYers, students, and logistics planners."
+        },
+        {
+            "q": "Does it account for hollow or irregular objects?",
+            "a": "No, it assumes a solid cuboid of uniform density."
+        },
+        {
+            "q": "Is it free to use?",
+            "a": "Yes, completely free with no downloads required."
+        }
+    ]
+}

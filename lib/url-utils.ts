@@ -9,20 +9,20 @@ import { calculatorsMeta } from '@/meta/calculators';
 export function getCalculatorUrl(calculatorId: string, language: string = 'en'): string {
   // Get the calculator metadata
   const calculator = calculatorsMeta[calculatorId];
-  
+
   if (!calculator) {
     console.warn(`No metadata found for calculator: ${calculatorId}`);
     return '/';
   }
-  
+
   // Get the language-specific slug
   const meta = calculator[language] || calculator["en"];
-  
+
   if (!meta) {
     console.warn(`No metadata found for calculator: ${calculatorId} in language: ${language}`);
     return '/';
   }
-  
+
   return meta.slug;
 }
 
@@ -37,37 +37,37 @@ export function getLocalizedCalculatorUrl(englishUrl: string, language: string):
   if (language === 'en' || !language) {
     return englishUrl;
   }
-  
+
   // Remove the leading slash for processing
   const path = englishUrl.startsWith('/') ? englishUrl.substring(1) : englishUrl;
-  
+
   // Split the path into parts
   const parts = path.split('/');
-  
+
   // Get the calculator name (last part of the path)
   const calculatorId = parts[parts.length - 1];
-  
+
   if (!calculatorId) {
     console.warn('No calculator ID found in URL:', englishUrl);
     return englishUrl;
   }
-  
+
   // Get the localized URL from calculator metadata
   const calculator = calculatorsMeta[calculatorId];
-  
+
   if (!calculator) {
     console.warn(`No metadata found for calculator: ${calculatorId}`);
     return englishUrl;
   }
-  
+
   // Get the language-specific slug
   const meta = calculator[language] || calculator["en"];
-  
+
   if (!meta) {
     console.warn(`No metadata found for calculator: ${calculatorId} in language: ${language}`);
     return englishUrl;
   }
-  
+
   return meta.slug;
 }
 
@@ -80,28 +80,28 @@ export function getLocalizedCalculatorUrl(englishUrl: string, language: string):
 export function getCategoryUrl(categoryId: string, language: string = 'en'): string {
   // Import category metadata
   const { default: categoriesMeta } = require('@/meta/categories');
-  
+
   // Get the category metadata
   const category = categoriesMeta[categoryId];
-  
+
   if (!category) {
     console.warn(`No metadata found for category: ${categoryId}`);
     return '/';
   }
-  
+
   // Get the language-specific slug
   const meta = category[language] || category["en"];
-  
+
   if (!meta) {
     console.warn(`No metadata found for category: ${categoryId} in language: ${language}`);
     return '/';
   }
-  
+
   // For English, return the slug directly
   if (language === 'en') {
     return `/${meta.slug}`;
   }
-  
+
   // For other languages, prepend the language code
   return `/${language}/${meta.slug}`;
 }
@@ -117,26 +117,26 @@ export function getLocalizedCategoryUrl(categoryId: string, language: string): s
   if (language === 'en' || !language) {
     return getCategoryUrl(categoryId, 'en');
   }
-  
+
   // Import category metadata
   const { default: categoriesMeta } = require('@/meta/categories');
-  
+
   // Get the category metadata
   const category = categoriesMeta[categoryId];
-  
+
   if (!category) {
     console.warn(`No metadata found for category: ${categoryId}`);
     return '/';
   }
-  
+
   // Get the language-specific slug
   const meta = category[language] || category["en"];
-  
+
   if (!meta) {
     console.warn(`No metadata found for category: ${categoryId} in language: ${language}`);
     return '/';
   }
-  
+
   // For other languages, prepend the language code
   return `/${language}/${meta.slug}`;
 }
@@ -155,9 +155,9 @@ export function getCurrentLanguage(pathname: string, headers?: Headers): string 
       return headerLanguage;
     }
   }
-  
-  // Fallback to URL path detection
-  const langMatch = pathname.match(/^\/(br|pl|de)/);
+
+  // Fallback to URL path detection - INCLUDES 'es' FOR SPANISH
+  const langMatch = pathname.match(/^\/(br|pl|de|es)/);
   return langMatch ? langMatch[1] : "en";
 }
 
@@ -168,84 +168,84 @@ export function getCurrentLanguage(pathname: string, headers?: Headers): string 
  * @returns The URL for the same page in the new language
  */
 export function getLanguageSwitcherUrl(currentPathname: string, newLanguage: string): string {
-  // Remove the current language prefix if it exists
+  // Remove the current language prefix if it exists - INCLUDES 'es' FOR SPANISH
   let cleanPathname = currentPathname;
-  const langMatch = currentPathname.match(/^\/(br|pl|de)/);
+  const langMatch = currentPathname.match(/^\/(br|pl|de|es)/);
   const currentLanguage = langMatch ? langMatch[1] : "en";
-  
+
   if (langMatch) {
     cleanPathname = currentPathname.substring(3);
   }
-  
+
   // For English, we need to translate back to English slugs
   if (newLanguage === 'en') {
     // If already on English, return as is
     if (currentLanguage === 'en') {
       return cleanPathname || '/';
     }
-    
+
     // Need to translate from current language to English
     if (cleanPathname && cleanPathname !== '/') {
       const path = cleanPathname.startsWith('/') ? cleanPathname.substring(1) : cleanPathname;
       const parts = path.split('/');
-      
+
       if (parts.length >= 2) {
         // This is a calculator page: /category/calculator-name
         const category = parts[0];
         const calculatorName = parts[1];
-        
+
         // Import mappings
         const { urlMappings } = require('@/middleware');
-        
+
         // Translate current language category to English
         let englishCategory = category;
         const currentCategoryMappings: any = urlMappings[currentLanguage as keyof typeof urlMappings];
         if (currentCategoryMappings && currentCategoryMappings[category]) {
           englishCategory = currentCategoryMappings[category];
         }
-        
+
         // Translate current language calculator to English
         let englishCalculatorName = calculatorName;
         if (currentCategoryMappings && currentCategoryMappings[calculatorName]) {
           englishCalculatorName = currentCategoryMappings[calculatorName];
         }
-        
+
         return `/${englishCategory}/${englishCalculatorName}`;
       } else if (parts.length === 1 && parts[0]) {
         // This is a category page: /category
         const category = parts[0];
-        
+
         // Import mappings
         const { urlMappings } = require('@/middleware');
-        
+
         // Translate current language category to English
         let englishCategory = category;
         const currentCategoryMappings: any = urlMappings[currentLanguage as keyof typeof urlMappings];
         if (currentCategoryMappings && currentCategoryMappings[category]) {
           englishCategory = currentCategoryMappings[category];
         }
-        
+
         return `/${englishCategory}`;
       }
     }
-    
+
     return cleanPathname || '/';
   }
-  
+
   // For other languages, we need to translate category and calculator names
   if (cleanPathname && cleanPathname !== '/') {
     // Remove leading slash for processing
     const path = cleanPathname.startsWith('/') ? cleanPathname.substring(1) : cleanPathname;
     const parts = path.split('/');
-    
+
     if (parts.length >= 2) {
       // This is a calculator page: /category/calculator-name
       const category = parts[0];
       const calculatorName = parts[1];
-      
+
       // Import mappings
       const { reverseUrlMappings, urlMappings } = require('@/middleware');
-      
+
       // Always translate through English as intermediate language
       // Step 1: Translate current language category to English
       let englishCategory = category;
@@ -260,7 +260,7 @@ export function getLanguageSwitcherUrl(currentPathname: string, newLanguage: str
           }
         }
       }
-      
+
       // Step 2: Translate English category to target language
       let translatedCategory = englishCategory;
       if (newLanguage !== 'en') {
@@ -269,7 +269,7 @@ export function getLanguageSwitcherUrl(currentPathname: string, newLanguage: str
           translatedCategory = newCategoryMappings[englishCategory];
         }
       }
-      
+
       // Step 3: Translate current language calculator to English
       let englishCalculatorName = calculatorName;
       if (currentLanguage !== 'en') {
@@ -283,7 +283,7 @@ export function getLanguageSwitcherUrl(currentPathname: string, newLanguage: str
           }
         }
       }
-      
+
       // Step 4: Translate English calculator to target language
       let translatedCalculatorName = englishCalculatorName;
       if (newLanguage !== 'en') {
@@ -292,15 +292,15 @@ export function getLanguageSwitcherUrl(currentPathname: string, newLanguage: str
           translatedCalculatorName = newCalcMappings[englishCalculatorName];
         }
       }
-      
+
       return `/${newLanguage}/${translatedCategory}/${translatedCalculatorName}`;
     } else if (parts.length === 1 && parts[0]) {
       // This is a category page: /category
       const category = parts[0];
-      
+
       // Import mappings
       const { reverseUrlMappings, urlMappings } = require('@/middleware');
-      
+
       // Always translate through English as intermediate language
       // Step 1: Translate current language category to English
       let englishCategory = category;
@@ -315,7 +315,7 @@ export function getLanguageSwitcherUrl(currentPathname: string, newLanguage: str
           }
         }
       }
-      
+
       // Step 2: Translate English category to target language
       let translatedCategory = englishCategory;
       if (newLanguage !== 'en') {
@@ -324,11 +324,11 @@ export function getLanguageSwitcherUrl(currentPathname: string, newLanguage: str
           translatedCategory = newCategoryMappings[englishCategory];
         }
       }
-      
+
       return `/${newLanguage}/${translatedCategory}`;
     }
   }
-  
+
   // For other cases, prepend the language code
   return `/${newLanguage}${cleanPathname}`;
 }
@@ -346,15 +346,15 @@ export function getCanonicalUrl(
   baseUrl: string = 'https://www.thesmartcalculator.com'
 ): string {
   const slug = getCalculatorUrl(calculatorId, language);
-  
+
   // If slug already contains the full URL, return it
   if (slug.startsWith('http')) {
     return slug;
   }
-  
+
   // Remove leading slash if present
   const cleanSlug = slug.startsWith('/') ? slug.substring(1) : slug;
-  
+
   return `${baseUrl}/${cleanSlug}`;
 }
 
@@ -371,20 +371,20 @@ export function getCategoryCanonicalUrl(
   baseUrl: string = 'https://www.thesmartcalculator.com'
 ): string {
   const slug = getCategoryUrl(categoryId, language);
-  
+
   // If slug already contains the full URL, return it
   if (slug.startsWith('http')) {
     return slug;
   }
-  
+
   // Remove leading slash if present
   const cleanSlug = slug.startsWith('/') ? slug.substring(1) : slug;
-  
+
   // For empty slug (homepage), return just the base URL
   if (!cleanSlug) {
     return baseUrl;
   }
-  
+
   return `${baseUrl}/${cleanSlug}`;
 }
 

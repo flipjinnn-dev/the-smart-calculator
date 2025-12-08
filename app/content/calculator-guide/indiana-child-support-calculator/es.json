@@ -1,0 +1,147 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de manutención infantil de Indiana: qué es y cómo usarla",
+      "content": "La Calculadora de manutención infantil de Indiana es una herramienta gratuita en línea que ayuda a los padres a estimar los pagos de manutención infantil de acuerdo con las pautas del estado de Indiana. Al ingresar los ingresos, la cantidad de hijos, los arreglos de custodia y los gastos relacionados con los hijos, proporciona una estimación rápida y precisa de las posibles obligaciones de manutención."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de manutención infantil de Indiana",
+      "subSections": [
+        {
+          "heading": "Ingrese los ingresos de los padres",
+          "content": "Ingrese el ingreso bruto semanal o mensual de cada padre."
+        },
+        {
+          "heading": "Incluir deducciones",
+          "content": "Agregue pagos anteriores de manutención infantil o manutención del cónyuge."
+        },
+        {
+          "heading": "Especifique el número de niños",
+          "content": "Ingrese cuántos niños requieren apoyo."
+        },
+        {
+          "heading": "Agregar gastos relacionados con los niños",
+          "content": "Incluya los costos de cuidado de niños, seguro médico u otros gastos aprobados."
+        },
+        {
+          "heading": "Detalles de custodia de entrada",
+          "content": "Ingrese el horario de pernoctaciones o custodia."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Vea el soporte estimado al instante."
+        },
+        {
+          "heading": "Revisar resultados",
+          "content": "Vea el soporte base, los ajustes y la obligación total estimada."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Cálculo preciso de las pautas de Indiana",
+          "content": "Sigue el modelo de participación en los ingresos del estado."
+        },
+        {
+          "heading": "Entradas ajustables",
+          "content": "Ingresos, cronograma de custodia, número de hijos, cuidado de niños y seguro."
+        },
+        {
+          "heading": "Rápido y Gratis",
+          "content": "Calcula instantáneamente sin registro."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Accesible en cualquier dispositivo."
+        },
+        {
+          "heading": "Desglose detallado",
+          "content": "Apoyo base, ajustes y obligación total estimada."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Planificación presupuestaria",
+          "content": "Conozca las obligaciones mensuales o semanales esperadas."
+        },
+        {
+          "heading": "Preparación para el divorcio y la separación",
+          "content": "Negociar acuerdos o anticipar sentencias judiciales."
+        },
+        {
+          "heading": "Orientación jurídica",
+          "content": "Visualice obligaciones para abogados o mediadores."
+        },
+        {
+          "heading": "Planificación de custodia",
+          "content": "Compare escenarios y vea cómo cambia el soporte."
+        },
+        {
+          "heading": "Claridad financiera",
+          "content": "Comprenda cómo se calcula la manutención en Indiana."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1 – Padre soltero",
+          "content": "Ingreso del padre A: $1,200/semana | Ingresos del padre B: $800/semana | Niños: 2 | Gastos de cuidado infantil/salud: $100/semana → Apoyo semanal estimado: $350"
+        },
+        {
+          "heading": "Ejemplo 2: Custodia compartida",
+          "content": "Ingreso del padre A: $1,500/semana | Ingresos del padre B: $1,000/semana | Niños: 1 | Custodia compartida: 3 noches por semana para el padre B → Manutención semanal estimada: $220"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es la Calculadora de manutención infantil de Indiana?",
+      "a": "Calcula las obligaciones de manutención de los hijos según las pautas del estado de Indiana."
+    },
+    {
+      "q": "¿Esta calculadora es gratuita?",
+      "a": "Sí, es completamente gratis en línea."
+    },
+    {
+      "q": "¿Necesito software?",
+      "a": "No, funciona en cualquier navegador."
+    },
+    {
+      "q": "¿Calcula órdenes judiciales exactas?",
+      "a": "No, los montos finales pueden diferir a discreción del juez."
+    },
+    {
+      "q": "¿Puede incluir gastos de cuidado de niños y seguro?",
+      "a": "Sí, puedes ingresar estos gastos."
+    },
+    {
+      "q": "¿Tiene en cuenta el tiempo de custodia?",
+      "a": "Sí, la custodia compartida afecta los cálculos."
+    },
+    {
+      "q": "¿Puede manejar varios niños?",
+      "a": "Sí, el número de hijos está incluido en el cálculo."
+    },
+    {
+      "q": "¿Es adecuado para la planificación jurídica?",
+      "a": "Sí, pero no sustituye el asesoramiento jurídico profesional."
+    },
+    {
+      "q": "¿Se pueden ajustar los ingresos por deducciones?",
+      "a": "Sí, se pueden agregar obligaciones previas como manutención existente o manutención del cónyuge."
+    },
+    {
+      "q": "¿Qué tan precisos son los resultados?",
+      "a": "Los resultados son precisos según los aportes, pero el apoyo ordenado por el tribunal puede variar."
+    }
+  ]
+}

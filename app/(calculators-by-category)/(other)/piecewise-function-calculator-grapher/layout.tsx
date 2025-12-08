@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for piecewise-function-calculator-grapher
 const piecewisefunctioncalculatorgrapherMeta = {
@@ -35,7 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = piecewisefunctioncalculatorgrapherMeta[language as keyof typeof piecewisefunctioncalculatorgrapherMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCanonicalUrl('piecewise-function-calculator-grapher', language);
 
@@ -66,5 +67,150 @@ export default async function PiecewiseFunctionCalculatorGrapherLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Piecewise Function Calculator & Grapher",
+    "url": "https://www.thesmartcalculator.com/piecewise-function-calculator-grapher",
+    "description": "Free online Piecewise Function Calculator & Grapher to define, evaluate, and graph piecewise functions. Ideal for students, teachers, and math enthusiasts.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Piecewise Function Calculator & Grapher",
+        "applicationCategory": "Calculator",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Define multiple function pieces with different intervals",
+          "Instant evaluation of f(x) at any x-value",
+          "Graph piecewise functions with correct discontinuities",
+          "Supports polynomials, trig, exponentials, and absolute values",
+          "Mobile-friendly and free to use"
+        ],
+        "url": "https://www.thesmartcalculator.com/piecewise-function-calculator-grapher"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Piecewise Function Definition",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Piecewise Function Definition",
+            "text": "Enter each expression and its valid interval, e.g., x < 0, 0 ≤ x < 2, x ≥ 2."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Piecewise Function Definition",
+            "text": "Specify the points where you want to evaluate the function."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Piecewise Function Definition",
+            "text": "Set the graph range if needed and click Calculate/Graph to view values and the graph."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Piecewise Function Calculator & Grapher?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It allows you to define, evaluate, and graph functions composed of multiple pieces, each with a specific interval."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this calculator free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is completely free to use online."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need software or installation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, it works directly in any web browser."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I graph my piecewise functions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the tool generates accurate graphs showing each piece and any discontinuities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I define multiple pieces?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, you can add as many sub-functions with different intervals as needed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it support trig, exponential, or absolute value functions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it handles polynomials, trigonometric, exponential, and absolute value functions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it suitable for students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is ideal for learning, homework, and classroom demonstrations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it handle discontinuities?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, jumps and endpoint conditions are accurately represented in the graph."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I evaluate the function at any point?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, enter x-values and the calculator will compute the corresponding f(x)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the calculator accurate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it provides precise evaluations and graphing for all standard piecewise functions."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="piecewise-function-calculator-grapher-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

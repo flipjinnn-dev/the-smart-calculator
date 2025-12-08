@@ -1,0 +1,154 @@
+{
+  "pageTitle": "Calculadora de pago de tarjeta de crédito",
+  "pageDescription": "Calcule cuánto tiempo le llevará pagar la deuda y los intereses de su tarjeta de crédito con diferentes estrategias de pago para minimizar los costos y liberarse de sus deudas más rápido.",
+  "form": {
+    "labels": {
+      "currentBalance": "Saldo actual",
+      "interestRate": "Tasa de interés anual (APR)",
+      "minimumPayment": "Pago Mínimo",
+      "minimumPaymentType": "Tipo de pago mínimo",
+      "fixedPayment": "Pago Mensual Fijo",
+      "extraPayment": "Pago mensual adicional",
+      "paymentStrategy": "Estrategia de pago"
+    },
+    "placeholders": {
+      "currentBalance": "Ingrese el saldo actual de la tarjeta de crédito",
+      "interestRate": "Introduzca la tasa de interés anual (%)",
+      "minimumPayment": "Ingrese el pago mínimo",
+      "fixedPayment": "Ingrese pago mensual fijo"
+    },
+    "buttons": {
+      "calculate": "Calcular el tiempo de pago",
+      "reset": "Reiniciar"
+    },
+    "minimumPaymentTypes": {
+      "amount": "Monto Fijo",
+      "percentage": "Porcentaje de saldo"
+    },
+    "paymentStrategies": {
+      "minimum": "Sólo pagos mínimos",
+      "fixed": "Pago Mensual Fijo",
+      "minimumPlus": "Pago mínimo más extra"
+    }
+  },
+  "results": {
+    "payoffTime": "Hora de pagar",
+    "totalInterest": "Interés total pagado",
+    "totalPayment": "Pago Total",
+    "interestSavings": "Ahorro de intereses con pagos adicionales",
+    "creditCardPayoffResultsTitle": "Resultados del pago de la tarjeta de crédito"
+  },
+  "educational": {
+    "creditCardPayoffInfo": "Información de pago de tarjeta de crédito",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "creditCardPayoffFacts": {
+      "interest": {
+        "title": "Intereses de tarjeta de crédito",
+        "description": "Los intereses de las tarjetas de crédito se acumulan diariamente, lo que hace que la deuda crezca rápidamente si no se paga"
+      },
+      "minimumPayments": {
+        "title": "Impacto del pago mínimo",
+        "description": "Pagar sólo los mínimos puede prolongar el plazo de liquidación durante años y costar cientos de intereses"
+      },
+      "strategies": {
+        "title": "Estrategias de pago",
+        "description": "Los pagos fijos o pagos adicionales reducen significativamente el tiempo de pago y los costos de intereses"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones de pago de tarjetas de crédito únicamente",
+      "actual": "Los términos de pago reales pueden variar según las políticas y tarifas del emisor de la tarjeta."
+    },
+    "importantNotesList": [
+      "Los intereses de las tarjetas de crédito se acumulan diariamente, lo que aumenta el costo de mantener un saldo",
+      "Pagar más de los mínimos reduce directamente el capital y ahorra en intereses",
+      "Considere ofertas de transferencia de saldo para consolidar deudas de tarjetas de crédito con intereses altos",
+      "Deje de usar tarjetas de crédito mientras paga saldos existentes"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su tarjeta de crédito para calcular el tiempo de pago",
+    "resultMessage": "Los resultados del cálculo del pago de su tarjeta de crédito se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del pago de la tarjeta de crédito:",
+    "creditCardPayoffAnalysis": "Análisis de pago de tarjetas de crédito"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de pago de tarjetas de crédito basadas en cálculos matemáticos. Los términos de pago reales, los cargos por intereses y las tarifas pueden variar según las políticas del emisor de la tarjeta y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para obtener asesoramiento personalizado sobre consolidación y gestión de deudas de tarjetas de crédito, consulte a asesores de crédito o asesores financieros con experiencia en reducción de deudas y circunstancias financieras individuales."
+  },
+  "errors": {
+    "currentBalance": "Por favor ingrese un saldo actual válido",
+    "interestRate": "Por favor ingrese una tasa de interés anual válida",
+    "minimumPayment": "Por favor ingresa un pago mínimo válido",
+    "fixedPayment": "Por favor ingrese un monto de pago fijo válido",
+    "extraPayment": "Por favor ingrese un monto de pago adicional válido",
+    "minimumPaymentType": "Por favor seleccione un tipo de pago mínimo",
+    "paymentStrategy": "Por favor seleccione una estrategia de pago"
+  },
+  "tooltips": {
+    "currentBalance": "Saldo pendiente actual en su tarjeta de crédito",
+    "interestRate": "Tasa de porcentaje anual (APR) cobrada sobre saldos impagos",
+    "minimumPayment": "Pago mensual mínimo requerido por parte del emisor de la tarjeta",
+    "minimumPaymentType": "Si el pago mínimo es una cantidad fija o un porcentaje del saldo",
+    "fixedPayment": "Monto fijo que planeas pagar cada mes",
+    "extraPayment": "Monto adicional pagado cada mes hacia el capital",
+    "paymentStrategy": "Método utilizado para determinar el monto del pago mensual"
+  },
+  "debt_avalanche_calculator_0": "Calculadora de avalancha de deuda",
+  "monthly_payment_budget_1": "Presupuesto de pago mensual",
+  "total_monthly_budget_for_all_credit_card_payments_2": "Presupuesto mensual total para todos los pagos con tarjeta de crédito",
+  "credit_cards_3": "Tarjetas de crédito",
+  "add_card_4": "Agregar tarjeta",
+  "card_5": "Tarjeta",
+  "card_name_6": "Nombre de la tarjeta",
+  "current_balance_7": "Saldo actual",
+  "minimum_payment_8": "Pago Mínimo",
+  "apr_9": "ABR (%)",
+  "calculate_strategy_10": "Calcular estrategia",
+  "payoff_results_11": "Resultados de pago",
+  "your_debt_avalanche_strategy_12": "Su estrategia de avalancha de deuda",
+  "payoff_time_13": "Tiempo de pago:",
+  "y_14": "y",
+  "m_15": "metro",
+  "total_interest_16": "Interés total:",
+  "total_amount_paid_17": "Monto Total Pagado:",
+  "payment_schedule_18": "Calendario de pagos",
+  "download_csv_19": "Descargar CSV",
+  "month_20": "Mes",
+  "card_21": "Tarjeta",
+  "balance_22": "Balance",
+  "interest_23": "Interés",
+  "payment_24": "Pago",
+  "remaining_25": "Restante",
+  "showing_first_24_months_download_csv_for_complete__26": "Mostrando los primeros 24 meses. Descargue CSV para ver el calendario completo.",
+  "enter_your_credit_card_information_to_see_your_pay_27": "Ingrese la información de su tarjeta de crédito para ver su estrategia de pago",
+  "formulas_behind_the_avalanche_method_28": "Fórmulas detrás del método Avalancha",
+  "k_1_monthly_interest_calculation_29": "1. Cálculo de intereses mensuales",
+  "interest_balance_apr_12_30": "Interés = Saldo × (APR ÷ 12)",
+  "k_2_minimum_payment_application_31": "2. Solicitud de Pago Mínimo",
+  "new_balance_balance_interest_min_payment_32": "Nuevo saldo = (Saldo + Intereses) - Pago mínimo",
+  "k_3_extra_payment_allocation_33": "3. Asignación de pago adicional",
+  "extra_budget_min_payments_34": "Extra = Presupuesto - Σ(Pagos Mínimos)",
+  "extra_payment_goes_to_the_card_with_the_highest_ap_35": "El pago extra va a la tarjeta con la APR más alta",
+  "k_4_payoff_priority_36": "4. Prioridad de pago",
+  "cards_are_prioritized_by_apr_highest_first_with_ba_37": "Las tarjetas se priorizan por APR (las más altas primero), con el saldo como desempate (las más bajas primero)",
+  "example_scenarios_38": "Escenarios de ejemplo",
+  "scenario_1_two_cards_39": "Escenario 1: dos cartas",
+  "card_a_5000_at_1899_apr_100_minimum_40": "• Tarjeta A: $5,000 al 18.99% APR, $100 mínimo",
+  "card_b_3000_at_2499_apr_75_minimum_41": "• Tarjeta B: $3,000 al 24.99% APR, $75 mínimo",
+  "monthly_budget_400_42": "• Presupuesto mensual: $400",
+  "strategy_pay_minimums_175_put_extra_225_toward_car_43": "• Estrategia: Pague mínimos ($175), aporte $225 adicionales a la Tarjeta B (APR más alta)",
+  "scenario_2_multiple_cards_44": "Escenario 2: varias tarjetas",
+  "card_a_8000_at_1599_apr_160_minimum_45": "• Tarjeta A: $8,000 al 15.99% APR, $160 mínimo",
+  "card_b_4000_at_2299_apr_80_minimum_46": "• Tarjeta B: $4,000 al 22.99% APR, $80 mínimo",
+  "card_c_2000_at_1999_apr_50_minimum_47": "• Tarjeta C: $2,000 al 19.99% APR, $50 mínimo",
+  "monthly_budget_500_48": "• Presupuesto mensual: $500",
+  "strategy_pay_minimums_290_put_extra_210_toward_car_49": "• Estrategia: Pague mínimos ($290), aporte $210 adicionales a la Tarjeta B (APR más alta)"
+}

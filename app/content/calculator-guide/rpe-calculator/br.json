@@ -1,0 +1,139 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora RPE: o que é e como usá-la",
+      "content": "Uma calculadora RPE (taxa de esforço percebido) ajuda a medir a intensidade do treino e estimar sua força. Ao inserir o peso levantado, as repetições e o esforço percebido, ele calcula o máximo estimado de uma repetição (1RM) e sugere cargas de treinamento recomendadas. É ideal para entusiastas do fitness, levantadores de peso, levantadores de peso e treinadores que buscam treinar de forma segura, eficaz e progressiva."
+    },
+    {
+      "heading": "Como usar a calculadora RPE",
+      "subSections": [
+        {
+          "heading": "Insira o peso levantado",
+          "content": "Insira o peso do seu conjunto (kg ou lbs)."
+        },
+        {
+          "heading": "Insira repetições",
+          "content": "Número de repetições concluídas para a série."
+        },
+        {
+          "heading": "Selecione EPR",
+          "content": "Avalie o quão difícil foi a série em uma escala de 1 a 10."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Veja 1RM estimado e cargas de treinamento recomendadas."
+        },
+        {
+          "heading": "Ajustar treinos",
+          "content": "Use os resultados para planejar a intensidade e a progressão."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Estimativa de 1RM",
+          "content": "Converte peso, repetições e RPE em força máxima estimada."
+        },
+        {
+          "heading": "Recomendações de carga",
+          "content": "Sugere pesos para níveis de intensidade alvo."
+        },
+        {
+          "heading": "Treinamento Autorregulado",
+          "content": "Ajuste os treinos diários com base no esforço percebido."
+        },
+        {
+          "heading": "Gratuito e compatível com dispositivos móveis",
+          "content": "Funciona em qualquer dispositivo sem registro."
+        },
+        {
+          "heading": "Treinamento Seguro",
+          "content": "Evite elevações máximas desnecessárias ao monitorar o progresso."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Treinamento de força",
+          "content": "Planeje a intensidade para sobrecarga progressiva."
+        },
+        {
+          "heading": "Levantamento de peso",
+          "content": "Estime os levantamentos máximos com segurança, sem falhar."
+        },
+        {
+          "heading": "Exercícios autorregulados",
+          "content": "Ajuste as cargas diárias com base no esforço."
+        },
+        {
+          "heading": "Treinamento",
+          "content": "Os instrutores podem planejar e monitorar as cargas dos clientes com precisão."
+        },
+        {
+          "heading": "Reabilitação e Recuperação",
+          "content": "Gerencie o estresse para evitar lesões e overtraining."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1",
+          "content": "Peso: 100kg | Repetições: 5 | PSE: 8 → 1RM estimado: 118 kg"
+        },
+        {
+          "heading": "Exemplo 2",
+          "content": "Peso: 120kg | Repetições: 3 | PSE: 9 → 1RM estimado: 129 kg"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora RPE?",
+      "a": "Ele estima a força e a intensidade do treino usando peso, repetições e esforço percebido."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, é totalmente gratuito online."
+    },
+    {
+      "q": "Eu preciso de software?",
+      "a": "Não, funciona diretamente em qualquer navegador."
+    },
+    {
+      "q": "Ele pode calcular 1RM?",
+      "a": "Sim, com base no peso, repetições e RPE inseridos."
+    },
+    {
+      "q": "Ele pode planejar a intensidade do treino?",
+      "a": "Sim, recomenda cargas de treinamento para os níveis desejados de RPE."
+    },
+    {
+      "q": "É adequado para iniciantes?",
+      "a": "Sim, funciona para todos os níveis de condicionamento físico."
+    },
+    {
+      "q": "Quão preciso é isso?",
+      "a": "É preciso quando as entradas são consistentes e corretas."
+    },
+    {
+      "q": "Pode prevenir lesões?",
+      "a": "Sim, evitando levantamentos máximos desnecessários e overtraining."
+    },
+    {
+      "q": "Suporta kg e lbs?",
+      "a": "Sim, ambas as unidades são aceitas."
+    },
+    {
+      "q": "Os coaches podem usá-lo para os clientes?",
+      "a": "Sim, é perfeito para monitorar e planejar treinos de clientes."
+    }
+  ]
+}

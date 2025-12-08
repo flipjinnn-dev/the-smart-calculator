@@ -1,0 +1,125 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Calculadora de embarazo en línea: su guía para realizar un seguimiento de las semanas de embarazo y la fecha de parto",
+      "content": "Planificar o realizar un seguimiento de su embarazo puede resultar emocionante y abrumador. Una Calculadora de embarazo en línea es una herramienta simple y confiable para estimar las semanas de embarazo, la fecha de parto y los hitos trimestrales. Ya sea que desee saber su fecha de concepción, realizar un seguimiento del progreso después de la FIV o simplemente comprender el cronograma de su embarazo, esta herramienta inteligente lo hace fácil y preciso."
+    },
+    {
+      "heading": "¿Cómo funciona una calculadora de embarazo?",
+      "content": "Una calculadora de fecha prevista de embarazo utiliza diferentes métodos para estimar el cronograma de su embarazo:",
+      "subSections": [
+        {
+          "heading": "Método LMP (último período menstrual)",
+          "content": "Método más utilizado para calcular las semanas de embarazo. Cuenta desde el primer día de su último período y proporciona una fecha estimada de parto con desglose trimestral."
+        },
+        {
+          "heading": "Método de la fecha de concepción",
+          "content": "Si conoce la fecha exacta de la concepción, este método proporciona un recuento de semanas preciso. Útil para mujeres con períodos irregulares o aquellas que realizan un seguimiento de la fertilidad."
+        },
+        {
+          "heading": "Método de ultrasonido",
+          "content": "Estima la edad gestacional basándose en medidas fetales. Más preciso al principio del embarazo (primer trimestre). Puede ajustar su fecha de parto si las fechas de la FUM y la ecografía difieren significativamente."
+        },
+        {
+          "heading": "Método de FIV (fertilización in vitro)",
+          "content": "Calcula las semanas de embarazo a partir de la fecha de transferencia de embriones y proporciona un cronograma claro para monitorear el progreso del embarazo mediante FIV."
+        }
+      ]
+    },
+    {
+      "heading": "Comprensión de las semanas y trimestres del embarazo",
+      "content": "El embarazo normalmente se divide en tres trimestres:",
+      "subSections": [
+        {
+          "heading": "Primer trimestre (semanas 1 a 12)",
+          "content": "Desarrollo temprano, síntomas iniciales y pruebas prenatales."
+        },
+        {
+          "heading": "Segundo trimestre (semanas 13 a 26)",
+          "content": "Crecimiento y movimiento, exploraciones anatómicas y chequeos de rutina."
+        },
+        {
+          "heading": "Tercer trimestre (semanas 27 a 40)",
+          "content": "Crecimiento final, preparación laboral y planificación de entrega."
+        }
+      ]
+    },
+    {
+      "heading": "Precisión de las calculadoras de embarazo",
+      "content": "Las calculadoras de embarazo proporcionan fechas de parto estimadas, no exactas. La precisión puede variar según el método utilizado (FUM, ecografía o FIV). La mayoría de las calculadoras tienen una precisión de ±1 a 2 semanas. Los ciclos irregulares, los múltiples o la ovulación tardía pueden afectar las predicciones."
+    },
+    {
+      "heading": "Consejos para usar una calculadora de embarazo",
+      "content": "Aprovecha al máximo el seguimiento de tu embarazo con estos consejos:",
+      "subSections": [
+        {
+          "heading": "Utilice una calculadora de semanas de embarazo",
+          "content": "Realice un seguimiento de su semana de embarazo actual fácilmente."
+        },
+        {
+          "heading": "Seguimiento de vista de calendario",
+          "content": "Utilice una calculadora con vista de calendario para realizar un seguimiento visual del progreso."
+        },
+        {
+          "heading": "Para embarazos múltiples",
+          "content": "Utilice una Calculadora de embarazo para gemelos o múltiples para obtener resultados personalizados."
+        },
+        {
+          "heading": "Seguimiento personalizado",
+          "content": "Mantenga registros de citas y resultados de pruebas utilizando una calculadora de embarazo personalizada."
+        }
+      ]
+    },
+    {
+      "heading": "Descargo de responsabilidad médica",
+      "content": "Esta calculadora tiene únicamente fines informativos. No sustituye el consejo médico profesional. Consulte siempre a su obstetra o proveedor de atención médica para obtener orientación personalizada y atención prenatal."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo calcular las semanas de embarazo?",
+      "a": "Las semanas de embarazo se calculan a partir del primer día de su último período menstrual (FUM) o la fecha de concepción."
+    },
+    {
+      "q": "¿Cuál es la fecha prevista de mi embarazo?",
+      "a": "Su fecha de parto es una estimación basada en la FUM, la ecografía o la fecha de transferencia de FIV, normalmente 40 semanas desde la concepción."
+    },
+    {
+      "q": "¿Puede la ecografía determinar las semanas de embarazo?",
+      "a": "Sí, la ecografía temprana es muy precisa para estimar la edad gestacional, especialmente en el primer trimestre."
+    },
+    {
+      "q": "¿Qué precisión tiene una calculadora de embarazo?",
+      "a": "Las calculadoras de embarazo generalmente tienen una precisión de 1 a 2 semanas, pero factores como ciclos irregulares o múltiples pueden afectar las estimaciones."
+    },
+    {
+      "q": "Cálculo del embarazo mediante FUM frente a ultrasonido: ¿cuál es mejor?",
+      "a": "LMP es simple pero puede ser menos preciso para ciclos irregulares. La ecografía proporciona una estimación más precisa al comienzo del embarazo."
+    },
+    {
+      "q": "¿Cómo calcular el embarazo con períodos irregulares?",
+      "a": "Utilice la fecha de concepción, si la conoce, o una ecografía temprana para obtener resultados más precisos."
+    },
+    {
+      "q": "Calculadora de embarazo según transferencia FIV: ¿cómo funciona?",
+      "a": "Calcula la edad gestacional a partir de la fecha de transferencia del embrión en lugar de la FUM."
+    },
+    {
+      "q": "¿Por qué la fecha de vencimiento es sólo una estimación?",
+      "a": "La duración del embarazo varía naturalmente, por lo que las calculadoras proporcionan una ventana estimada en lugar de una fecha exacta de parto."
+    },
+    {
+      "q": "¿Cómo saber la fecha de concepción en el embarazo?",
+      "a": "Realice un seguimiento de la ovulación o utilice una calculadora basada en la concepción para estimar la fecha probable."
+    },
+    {
+      "q": "¿Puedo seguir mi embarazo en línea?",
+      "a": "Sí, herramientas como las herramientas y aplicaciones de la Calculadora inteligente de embarazo ayudan a monitorear el progreso, los hitos y los trimestres."
+    }
+  ],
+  "cta": {
+    "heading": "Realice un seguimiento de su viaje durante el embarazo hoy",
+    "content": "Utilice nuestra Calculadora de embarazo gratuita para estimar con precisión su fecha de parto, semanas de embarazo y trimestres. ¡Manténgase informado, planifique sus citas y siga el crecimiento de su bebé con confianza!"
+  }
+}

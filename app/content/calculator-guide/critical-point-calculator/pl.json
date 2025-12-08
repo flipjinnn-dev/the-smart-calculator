@@ -1,0 +1,132 @@
+{
+  "color": "czerwony",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator punktu krytycznego?",
+      "content": "Kalkulator punktu krytycznego pomaga znaleźć wartości x, gdzie pochodna funkcji wynosi zero lub jest niezdefiniowana, wskazując możliwe maksima, minima lub punkty siodłowe."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "content": "Korzystanie z kalkulatora punktów krytycznych funkcji jest łatwe i wydajne. Aby uzyskać dokładne wyniki, wykonaj poniższe kroki.",
+      "subSections": [
+        {
+          "heading": "Kroki użycia:",
+          "content": "Wprowadź funkcję: Wprowadź funkcję matematyczną w postaci x (np. f(x) = x^3 - 3x + 2). Oblicz pochodną: Kalkulator automatycznie znajduje pierwszą pochodną f'(x). Rozwiązanie dla punktów krytycznych: Ustaw f'(x) = 0 i rozwiąż dla x, aby znaleźć potencjalne punkty krytyczne. Zidentyfikuj wartości krytyczne: Zastąp wartości x oryginalną funkcją. Klasyfikuj punkty krytyczne: Użyj drugiej pochodnej lub analizy nachylenia, aby określić lokalne minimum, maksimum lub punkty przegięcia. Wizualizuj (opcjonalnie): Niektóre kalkulatory udostępniają wykres dla lepszego zrozumienia."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Zawsze dokładnie sprawdzaj dziedzinę swojej funkcji, aby uzyskać dokładne wyniki."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje kalkulatora punktu krytycznego",
+      "subSections": [
+        {
+          "heading": "Automatyczne obliczanie pochodnej",
+          "content": "Automatycznie znajduje pochodną dowolnej funkcji różniczkowalnej."
+        },
+        {
+          "heading": "Wykrywanie punktów krytycznych",
+          "content": "Wskazuje punkty, w których pochodna wynosi zero lub jest nieokreślona."
+        },
+        {
+          "heading": "Obliczanie wartości krytycznej",
+          "content": "Zastępuje punkty krytyczne, aby uzyskać dokładne wartości funkcji."
+        },
+        {
+          "heading": "Wizualizacja graficzna",
+          "content": "Pokazuje wykres funkcji z zaznaczonymi punktami krytycznymi."
+        },
+        {
+          "heading": "Rozwiązanie krok po kroku",
+          "content": "Zawiera szczegółowe rozwiązania dotyczące nauki i weryfikacji zadań domowych."
+        },
+        {
+          "heading": "Obsługuje złożone funkcje",
+          "content": "Działa dla funkcji wielomianowych, trygonometrycznych, wykładniczych i logarytmicznych."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Studenci",
+          "content": "Sprawdź zadanie domowe i poznaj pochodne i ekstrema."
+        },
+        {
+          "heading": "Inżynierowie",
+          "content": "Analizuj zachowanie funkcji pod kątem problemów optymalizacyjnych."
+        },
+        {
+          "heading": "Naukowcy",
+          "content": "Identyfikuj punkty maksymalne, minimalne i przegięcia w modelach naukowych."
+        },
+        {
+          "heading": "Traderzy i analitycy",
+          "content": "Używaj funkcji do modelowania trendów i znajdowania krytycznych punktów zwrotnych w danych."
+        },
+        {
+          "heading": "Wychowawcy",
+          "content": "Ucz pojęć związanych z rachunkiem różniczkowym na przykładach wizualnych."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Funkcja wielomianowa",
+          "content": "Funkcja: f(x) = x^3 - 6x^2 + 9x + 1\nPochodna: f'(x) = 3x^2 - 12x + 9\nZbiór f'(x)=0 → x = 1, 3\nWartości krytyczne: f(1) = 5, f(3) = 1\nKlasyfikacja: x=1 to maksimum lokalne, x=3 to minimum lokalne"
+        },
+        {
+          "heading": "Przykład 2 – Funkcja trygonometryczna",
+          "content": "Funkcja: f(x) = sin(x) + cos(2x)\nPochodna: f'(x) = cos(x) - 2sin(2x)\nRozwiąż f'(x)=0 → Znajdź wszystkie wartości x w domenie.\nOblicz wartości krytyczne, korzystając z oryginalnej funkcji.\nWskazówka: użyj kalkulatora, aby uzyskać dokładne wyniki w przypadku złożonych funkcji."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest punkt krytyczny?",
+      "a": "Punkt krytyczny ma miejsce, gdy pochodna funkcji wynosi zero lub jest nieokreślona, ​​co często wskazuje lokalne maksimum, minimum lub punkt przegięcia."
+    },
+    {
+      "q": "Jak działa kalkulator punktu krytycznego?",
+      "a": "Automatycznie różnicuje funkcję, wyszukuje zera lub niezdefiniowane punkty i oblicza odpowiednie wartości funkcji."
+    },
+    {
+      "q": "Czy mogę go używać do dowolnej funkcji?",
+      "a": "Tak, działa to w przypadku funkcji wielomianowych, trygonometrycznych, wykładniczych i logarytmicznych."
+    },
+    {
+      "q": "Czy to jest dokładne?",
+      "a": "Tak, ale w przypadku funkcji złożonych lub fragmentarycznych zaleca się weryfikację ręczną."
+    },
+    {
+      "q": "Czy zapewnia rozwiązania krok po kroku?",
+      "a": "Większość kalkulatorów oferuje rozwiązania krok po kroku do celów edukacyjnych."
+    },
+    {
+      "q": "Czy mogę wykreślić tę funkcję?",
+      "a": "Tak, w wielu kalkulatorach dostępna jest wizualizacja graficzna, która pozwala wyraźnie zobaczyć punkty krytyczne."
+    },
+    {
+      "q": "Czy mogę znaleźć ekstrema globalne?",
+      "a": "Punkty krytyczne pomagają zlokalizować lokalne ekstrema. Aby znaleźć ekstrema globalne, przeanalizuj punkty końcowe wraz z punktami krytycznymi."
+    },
+    {
+      "q": "Czy muszę znać rachunek różniczkowy?",
+      "a": "Podstawowa wiedza jest pomocna, ale kalkulator upraszcza obliczenia wartości pochodnych i wartości krytycznych."
+    },
+    {
+      "q": "Czy korzystanie z niego jest bezpłatne?",
+      "a": "Wiele kalkulatorów online jest bezpłatnych, chociaż niektóre mogą mieć funkcje premium."
+    },
+    {
+      "q": "Dlaczego jest przydatny dla studentów i profesjonalistów?",
+      "a": "Oszczędza czas, redukuje błędy i zapewnia przejrzystą wizualizację do analizy funkcji."
+    }
+  ]
+}

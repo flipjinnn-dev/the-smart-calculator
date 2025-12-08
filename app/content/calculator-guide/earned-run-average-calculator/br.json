@@ -1,0 +1,143 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora ERA: o que é e como funciona",
+      "content": "A Calculadora ERA é uma ferramenta online gratuita que ajuda a calcular instantaneamente a média de corridas ganhas (ERA) de um arremessador usando corridas ganhas e entradas lançadas. O ERA mede quantas corridas ganhas um arremessador permite a cada nove entradas – uma estatística importante de arremesso."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Insira corridas ganhas",
+          "content": "Insira o total de corridas ganhas permitidas pelo arremessador."
+        },
+        {
+          "heading": "Insira as entradas lançadas",
+          "content": "Insira o total de entradas lançadas, incluindo entradas fracionárias (por exemplo, 6,1 = 6⅓ entradas)."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Veja o ERA instantaneamente."
+        },
+        {
+          "heading": "Dica",
+          "content": "Certifique-se de que as entradas sejam precisas para obter resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Cálculo Instantâneo",
+          "content": "Obtenha o ERA em segundos."
+        },
+        {
+          "heading": "Preciso e confiável",
+          "content": "Usa a fórmula padrão: ERA = (Corridas ganhas ÷ Entradas lançadas) × 9."
+        },
+        {
+          "heading": "Fácil de usar",
+          "content": "Não é necessária matemática manual."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona em todos os dispositivos."
+        },
+        {
+          "heading": "Ideal para Fantasy Baseball e Análise",
+          "content": "Acompanhe facilmente o desempenho do arremessador para jogadores, treinadores e analistas."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Arremessadores e treinadores",
+          "content": "Acompanhe o desempenho por jogo, série ou temporada."
+        },
+        {
+          "heading": "Fãs e Analistas",
+          "content": "Compare jarros rapidamente."
+        },
+        {
+          "heading": "Beisebol Juvenil e Amador",
+          "content": "Rastreamento simples sem cálculos complexos."
+        },
+        {
+          "heading": "Beisebol Fantasia",
+          "content": "Avalie o valor do arremessador para rascunhos e pontuação."
+        },
+        {
+          "heading": "Escoteiros e avaliadores de talentos",
+          "content": "Avalie a consistência e a eficácia."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1",
+          "content": "3 ER ÷ 6 IP = 4,50 ERA"
+        },
+        {
+          "heading": "Exemplo 2",
+          "content": "72 ER ÷ 180 IP = 3,60 ERA"
+        },
+        {
+          "heading": "Exemplo 3",
+          "content": "5 ER ÷ 9 IP = 5,00 ERA"
+        },
+        {
+          "heading": "Exemplo 4",
+          "content": "20 ER ÷ 45 IP = 4,00 ERA"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora ERA?",
+      "a": "Ele calcula a ERA de um arremessador usando corridas ganhas e entradas lançadas."
+    },
+    {
+      "q": "Como o ERA é calculado?",
+      "a": "Fórmula: ERA = (Corridas ganhas ÷ Entradas lançadas) × 9."
+    },
+    {
+      "q": "Inclui corridas não merecidas?",
+      "a": "Não, apenas as corridas ganhas são contadas."
+    },
+    {
+      "q": "O resultado é preciso?",
+      "a": "Sim, com base nas entradas."
+    },
+    {
+      "q": "Posso usá-lo para beisebol fantasia?",
+      "a": "Sim, ajuda a rastrear as estatísticas do arremessador rapidamente."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, funciona em todos os dispositivos."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, totalmente gratuito online."
+    },
+    {
+      "q": "Quem deve usá-lo?",
+      "a": "Jogadores, treinadores, fãs, analistas e entusiastas da fantasia."
+    },
+    {
+      "q": "Por que usar uma calculadora ERA?",
+      "a": "Economiza tempo e garante cálculos precisos."
+    },
+    {
+      "q": "Ele pode rastrear vários jogos ou temporadas?",
+      "a": "Sim, usando corridas ganhas acumuladas e entradas lançadas."
+    }
+  ]
+}

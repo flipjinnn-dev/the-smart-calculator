@@ -1,0 +1,131 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Comprenda su IMC y su estado de sobrepeso",
+      "content": "Mantener un peso saludable es crucial para el bienestar general y la Calculadora de sobrepeso es una herramienta sencilla que le ayudará a comprender su peso corporal en relación con su altura. Esta calculadora utiliza el índice de masa corporal (IMC), un método estándar recomendado por las autoridades sanitarias para evaluar categorías de peso y posibles riesgos para la salud."
+    },
+    {
+      "heading": "¿Qué es el IMC?",
+      "content": "El IMC (índice de masa corporal) es una medida que utiliza la altura y el peso para estimar si tiene bajo peso, peso normal, sobrepeso u obesidad. Si bien no mide la grasa corporal directamente, proporciona un indicador confiable para la mayoría de los adultos.",
+      "subSections": [
+        {
+          "heading": "Puntos clave",
+          "content": "• Fácil de calcular con tu peso y altura.\n• Ayuda a clasificar categorías de peso\n• Útil para adultos y niños"
+        }
+      ]
+    },
+    {
+      "heading": "Rango de IMC con sobrepeso",
+      "content": "La báscula IMC clasifica el peso de la siguiente manera:",
+      "subSections": [
+        {
+          "heading": "Bajo peso",
+          "content": "IMC < 18,5"
+        },
+        {
+          "heading": "peso normal",
+          "content": "IMC 18,5 – 24,9"
+        },
+        {
+          "heading": "Sobrepeso",
+          "content": "IMC 25 – 29,9"
+        },
+        {
+          "heading": "Obeso",
+          "content": "IMC ≥ 30"
+        }
+      ]
+    },
+    {
+      "heading": "Cómo calcular el IMC",
+      "content": "Puedes calcular el IMC utilizando diferentes métodos:",
+      "subSections": [
+        {
+          "heading": "Fórmula métrica",
+          "content": "IMC = peso (kg) ÷ altura² (m²)"
+        },
+        {
+          "heading": "Fórmula imperial",
+          "content": "IMC = peso (libras) ÷ altura² (pulgadas²) × 703"
+        },
+        {
+          "heading": "Calculadora de IMC en línea",
+          "content": "O simplemente utilice nuestra calculadora de IMC en línea gratuita a continuación para obtener resultados instantáneos."
+        }
+      ]
+    },
+    {
+      "heading": "IMC versus porcentaje de grasa corporal",
+      "content": "El IMC da una idea general del estado de peso, pero no distingue entre músculo y grasa. Para una evaluación de salud más detallada, considere el análisis de la composición corporal o la combinación del IMC con la circunferencia de la cintura."
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de peso saludable?",
+      "content": "El uso de esta calculadora de IMC para controlar el peso, evaluar la salud o realizar un seguimiento del estado físico puede ayudarle a:",
+      "subSections": [
+        {
+          "heading": "Beneficios",
+          "content": "• Monitorear las tendencias de peso a lo largo del tiempo\n• Comprender los riesgos para la salud asociados con el sobrepeso y la obesidad.\n• Compare el IMC con otras medidas como el índice ponderal o la relación cintura-altura."
+        }
+      ]
+    },
+    {
+      "heading": "Funciones basadas en herramientas",
+      "content": "Nuestra calculadora está diseñada para brindar comodidad y precisión:",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "• Calculadora de IMC en línea: accesible desde cualquier lugar\n• Calculadora de IMC gratuita: no es necesario registrarse\n• Calculadora de IMC con edad, adaptada a diferentes grupos de edad\n• Calculadora de IMC métrica e imperial: elija sus unidades preferidas\n• Calculadora de IMC para evaluar la pérdida de peso, el estado físico y la salud general"
+        }
+      ]
+    },
+    {
+      "heading": "Perspectivas de salud: IMC y riesgos para la salud",
+      "content": "Comprender su IMC puede ayudarle a tomar medidas proactivas hacia una mejor salud:",
+      "subSections": [
+        {
+          "heading": "IMC y enfermedades cardíacas",
+          "content": "Un IMC más alto aumenta el riesgo cardiovascular."
+        },
+        {
+          "heading": "IMC y diabetes",
+          "content": "Las personas con sobrepeso son más propensas a padecer diabetes tipo 2."
+        },
+        {
+          "heading": "IMC y apnea del sueño",
+          "content": "El exceso de peso puede afectar la respiración durante el sueño."
+        },
+        {
+          "heading": "IMC y niveles de colesterol.",
+          "content": "El IMC con sobrepeso a menudo se correlaciona con un colesterol más alto."
+        },
+        {
+          "heading": "IMC y actividad física",
+          "content": "Mantener hábitos activos mejora el IMC y la salud en general."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿El IMC es exacto para todos?",
+      "a": "El IMC es una buena pauta general, pero es posible que no refleje completamente la grasa corporal de los atletas, las mujeres embarazadas o los adultos mayores. Combínelo con otras medidas para una evaluación precisa."
+    },
+    {
+      "q": "¿Pueden los niños usar esta calculadora?",
+      "a": "¡Sí! Nuestra calculadora incluye IMC para niños y tablas de IMC específicas para edad y sexo."
+    },
+    {
+      "q": "¿Con qué frecuencia debo comprobar mi IMC?",
+      "a": "Revise su IMC periódicamente (mensual o trimestralmente) para monitorear las tendencias y realizar los ajustes necesarios en su estilo de vida."
+    },
+    {
+      "q": "¿Qué debo hacer si mi IMC muestra sobrepeso?",
+      "a": "Consulte a un proveedor de atención médica para obtener orientación personalizada. Concéntrese en una nutrición equilibrada, actividad física regular y estrategias de control de peso."
+    },
+    {
+      "q": "¿Puede el IMC predecir problemas de salud?",
+      "a": "El IMC es una herramienta de detección útil para clasificar la obesidad y los riesgos para la salud asociados, pero no diagnostica afecciones. Combínelo con otras evaluaciones para obtener una imagen completa."
+    }
+  ]
+}

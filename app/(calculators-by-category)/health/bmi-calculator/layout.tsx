@@ -1,5 +1,6 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
+import Script from "next/script";
 import { getCanonicalUrl } from "@/lib/url-utils";
 
 // Multilingual SEO metadata for bmi-calculator
@@ -26,6 +27,148 @@ const bmicalculatorMeta = {
   }
 };
 
+// JSON-LD Schema for BMI Calculator
+const jsonLdSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.thesmartcalculator.com/health/bmi-calculator",
+      "url": "https://www.thesmartcalculator.com/health/bmi-calculator",
+      "name": "BMI Calculator — Free Online Body Mass Index Checker",
+      "description": "Free online BMI Calculator — calculate your Body Mass Index instantly in kg/cm or lbs/inches. See WHO categories (underweight, normal, overweight, obese) and learn BMI formulas with step-by-step instructions.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "The Smart Calculator",
+        "url": "https://www.thesmartcalculator.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.thesmartcalculator.com/health/bmi-calculator#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.thesmartcalculator.com/health/bmi-calculator#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.thesmartcalculator.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Health",
+          "item": "https://www.thesmartcalculator.com/health/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "BMI Calculator",
+          "item": "https://www.thesmartcalculator.com/health/bmi-calculator"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "BMI Calculator",
+      "operatingSystem": "All",
+      "applicationCategory": "Health",
+      "applicationSubCategory": "Calculator",
+      "url": "https://www.thesmartcalculator.com/health/bmi-calculator",
+      "description": "BMI Calculator to measure Body Mass Index using metric (kg/cm) or imperial (lbs/inches) units. Shows WHO BMI categories instantly.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Calculate BMI",
+      "description": "Follow these steps to calculate your Body Mass Index (BMI) using the calculator.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Enter Age",
+          "text": "Enter your age (between 2 and 120 years)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Select Gender",
+          "text": "Choose Male or Female."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Enter Height",
+          "text": "Input your height in centimeters (cm) or inches."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Enter Weight",
+          "text": "Input your weight in kilograms (kg) or pounds (lbs)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Click Calculate",
+          "text": "Press the Calculate button to instantly get your BMI result and category."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a BMI Calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A BMI Calculator measures your Body Mass Index using your height and weight. It helps to know if your weight is underweight, healthy, overweight, or obese."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the normal BMI range?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "According to WHO, a normal BMI is between 18.5 and 24.9."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which formula is used to calculate BMI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BMI = Weight (kg) / [Height (m)]² in metric system or BMI = (Weight (lbs) ÷ Height (in)²) × 703 in imperial system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a high BMI mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A high BMI usually indicates overweight or obesity, which can increase the risk of health conditions like diabetes, heart disease, and hypertension."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is BMI accurate for everyone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BMI is a general indicator, but it may not accurately represent body fat in athletes, children, elderly, or very muscular individuals."
+          }
+        }
+      ]
+    }
+  ]
+};
+
 export async function generateMetadata(): Promise<Metadata> {
   const headerList = await headers();
   const langHeader = headerList.get('x-language');
@@ -35,7 +178,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = bmicalculatorMeta[language as keyof typeof bmicalculatorMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCanonicalUrl('bmi-calculator', language);
 
@@ -66,5 +209,15 @@ export default async function BmiCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <Script
+        id="bmi-calculator-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      />
+      {children}
+    </>
+  );
 }

@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for percent-error-calculator
 const percenterrorcalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }percent-error-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }percent-error-calculator`,
       languages: {
         'en': getCanonicalUrl('percent-error-calculator', 'en'),
         'pt-BR': getCanonicalUrl('percent-error-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }percent-error-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }percent-error-calculator`,
     },
   };
 }
@@ -70,5 +69,143 @@ export default async function PercentErrorCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Percent Error Calculator - The Complete Guide",
+    "url": "https://www.thesmartcalculator.com/maths/percent-error-calculator",
+    "description": "Use our Percent Error Calculator to quickly calculate the percentage difference between observed and true values. Complete guide with examples, features, and FAQs.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "url": "https://www.thesmartcalculator.com"
+    },
+    "mainEntity": [
+      {
+        "@type": "HowTo",
+        "name": "How to Use the Percent Error Calculator",
+        "description": "Step-by-step guide to calculate percent error using our calculator.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "text": "Enter the Observed Value (your measured or estimated result)."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Enter the True Value (the accepted or reference value)."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Click Calculate to get the percent error instantly."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Analyze the result; lower percentage error indicates higher accuracy."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between Percent Error and Percentage Error?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They are the same; both represent the accuracy of a measurement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is percent error always positive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because it uses the absolute value of the difference between observed and true values."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I calculate percent error manually?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, using the formula: (|Observed – True| / |True|) × 100."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this calculator suitable for decimals?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it works with both decimals and whole numbers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I calculate percent error for multiple measurements?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, calculate each measurement separately to get individual errors."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it safe to use online Percent Error Calculators?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, reputable calculators are free and do not collect personal data."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why should I use a calculator instead of manual calculation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It saves time, reduces mistakes, and provides instant results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use it in financial analysis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it helps compare predicted vs actual outcomes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does a low percent error indicate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It shows that your observed value is close to the true value — high accuracy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can percent error be greater than 100%?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, if the observed value is much higher or lower than the true value."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Percent Error Calculator",
+        "operatingSystem": "Web",
+        "applicationCategory": "Educational / Calculator",
+        "url": "https://www.thesmartcalculator.com/maths/percent-error-calculator",
+        "description": "Calculate percent error instantly by entering the observed and true values. Easy, accurate, and free online tool."
+      }
+    ]
+  }
+  return <>
+    <Script
+      id="percent-error-calculator-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+    {children}
+  </>;
 }

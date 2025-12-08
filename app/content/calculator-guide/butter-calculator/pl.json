@@ -1,0 +1,105 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator masła?",
+      "content": "Kalkulator masła umożliwia natychmiastowe przeliczenie ilości masła na patyczki, kubki, łyżki stołowe, gramy, uncje i mililitry. Idealny dla piekarzy, szefów kuchni i kucharzy domowych, którzy potrzebują precyzyjnych pomiarów."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "content": "Wykonaj poniższe kroki, aby dokładnie przeliczyć jednostki masła:",
+      "subSections": [
+        {
+          "heading": "Kroki",
+          "content": "1. Wprowadź ilość – wprowadź ilość masła w dowolnej jednostce.\n2. Wybierz jednostkę – wybierz jednostkę dla swoich danych wejściowych.\n3. Wybierz jednostkę docelową – Wybierz jednostki, na które chcesz dokonać konwersji.\n4. Kliknij Konwertuj – natychmiast uzyskaj równoważną ilość masła.\n5. Wskazówka – do precyzyjnego pieczenia używaj jednostek wagowych, takich jak gramy lub uncje."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "content": "Ten konwerter masła został zaprojektowany z myślą o dokładnych i szybkich konwersjach:",
+      "subSections": [
+        {
+          "heading": "Cechy",
+          "content": "- Natychmiastowa konwersja – Konwersja pomiędzy wszystkimi głównymi jednostkami masła.\n- Obsługuje wiele jednostek - pałeczki, kubki, gramy, uncje, łyżki stołowe, mililitry.\n- Dokładny i niezawodny – wykorzystuje standardowe współczynniki konwersji.\n- Przyjazny dla krajów międzynarodowych – bezproblemowo konwertuje jednostki amerykańskie i metryczne.\n- Zoptymalizowany pod kątem urządzeń mobilnych - działa płynnie na wszystkich urządzeniach."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "content": "Ludzie polegają na tym narzędziu przy wielu zadaniach kuchennych i związanych z przepisami:",
+      "subSections": [
+        {
+          "heading": "Przykłady",
+          "content": "- Pieczenie i gotowanie: postępuj zgodnie z przepisami z dokładnymi pomiarami.\n- Przepisy międzynarodowe: Konwersja amerykańskich jednostek masła na metryczne i odwrotnie.\n- Dieta i odżywianie: Dokładnie zmierz masło pod kątem kalorii lub makroelementów.\n- Skalowanie przepisów: łatwo dostosuj rozmiar przepisu w górę lub w dół.\n- Nauka: zrozumienie różnic w pomiarach masła i konwersji."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe konwersje",
+      "content": "Oto typowe konwersje masła, które pomogą Ci zrozumieć wyniki:",
+      "subSections": [
+        {
+          "heading": "Przykłady",
+          "content": "- 2 patyczki → 227 gramów\n- 1 szklanka → 16 łyżek stołowych\n- 8 uncji → 237 ml\n- 113 gramów → 1 sztyft"
+        }
+      ]
+    },
+    {
+      "heading": "Wskazówki i najlepsze praktyki",
+      "content": "Przydatne wskazówki dotyczące dokładniejszych pomiarów masła:",
+      "subSections": [
+        {
+          "heading": "Porady",
+          "content": "- Preferuj jednostki masy (gramy/uncje) dla dokładności pieczenia.\n- Sprawdź, czy w Twoim przepisie zastosowano pomiary amerykańskie czy metryczne.\n- Podczas topienia masła objętość może się nieznacznie różnić – dla dokładności użyj gramów.\n- Zawsze wyrównuj łyżki i kubki, aby uzyskać prawidłowe rezultaty.\n- W przypadku dużych przepisów przelicz wszystkie jednostki masła na gramy, aby zachować konsystencję."
+        }
+      ]
+    },
+    {
+      "heading": "Zastrzeżenie",
+      "content": "To narzędzie do konwersji masła zapewnia standardowe, powszechnie akceptowane szacunki konwersji. Rzeczywista gęstość masła może się nieznacznie różnić w zależności od temperatury i marki. Aby uzyskać najwyższą dokładność, korzystaj z pomiarów masy."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do czego służy ten kalkulator?",
+      "a": "Przekształca masło w pałeczki, kubki, łyżki stołowe, gramy, uncje i mililitry."
+    },
+    {
+      "q": "Dlaczego go używać?",
+      "a": "Zapewnia dokładne pomiary podczas gotowania i pieczenia."
+    },
+    {
+      "q": "Czy mogę przeliczyć laski na gramy?",
+      "a": "Tak, po prostu wprowadź sztyfty i wybierz gramy jako jednostkę docelową."
+    },
+    {
+      "q": "Czy obsługuje jednostki metryczne?",
+      "a": "Tak, gramy i mililitry są w pełni obsługiwane."
+    },
+    {
+      "q": "Czy jest odpowiedni do pieczenia?",
+      "a": "Tak, wykorzystuje standardowe współczynniki konwersji masła powszechnie stosowane w przepisach."
+    },
+    {
+      "q": "Czy mogę zamienić łyżki stołowe na filiżanki?",
+      "a": "Tak, kalkulator obsługuje konwersje pomiędzy wszystkimi głównymi jednostkami objętości masła."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, jest zoptymalizowany pod kątem telefonów, tabletów i komputerów stacjonarnych."
+    },
+    {
+      "q": "Czy mogę go używać do śledzenia diety?",
+      "a": "Tak, pomaga dokładnie odmierzyć masło w celu śledzenia wartości odżywczej."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, całkowicie za darmo, bez konieczności pobierania."
+    },
+    {
+      "q": "Kto powinien z niego korzystać?",
+      "a": "Piekarze, szefowie kuchni, kucharze domowi, dietetycy i wszyscy, którzy przestrzegają przepisów."
+    }
+  ]
+}

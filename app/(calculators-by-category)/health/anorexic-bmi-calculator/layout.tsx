@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for anorexic-bmi-calculator
 const anorexicbmicalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }anorexic-bmi-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }anorexic-bmi-calculator`,
       languages: {
         'en': getCanonicalUrl('anorexic-bmi-calculator', 'en'),
         'pt-BR': getCanonicalUrl('anorexic-bmi-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }anorexic-bmi-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }anorexic-bmi-calculator`,
     },
   };
 }
@@ -70,5 +69,52 @@ export default async function AnorexicBmiCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "mainEntity": {
+      "@type": "SoftwareApplication",
+      "name": "Anorexic BMI Calculator",
+      "operatingSystem": "Web",
+      "applicationCategory": "HealthApplication",
+      "description": "Free anorexic BMI calculator that computes your Body Mass Index (BMI) and categorizes it into normal, mild, moderate, severe, or extreme anorexia based on medical thresholds. For educational purposes only.",
+      "url": "https://www.thesmartcalculator.com/health/anorexic-bmi-calculator",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    "name": "Anorexic BMI Calculator",
+    "url": "https://www.thesmartcalculator.com/health/anorexic-bmi-calculator",
+    "description": "Calculate your BMI and see anorexia severity levels (mild, moderate, severe, extreme). Educational tool with health warnings and FAQs.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "url": "https://www.thesmartcalculator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thesmartcalculator.com/assets/logo.png"
+      }
+    },
+    "inLanguage": "en",
+    "about": {
+      "@type": "MedicalWebPage",
+      "name": "Anorexic BMI Classification",
+      "medicalSpecialty": "Nutrition",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Adults"
+      }
+    }
+  }
+  return <>
+    {children}
+    <Script
+      id="anorexic-bmi-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

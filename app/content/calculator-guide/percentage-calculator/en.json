@@ -1,0 +1,146 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "Understand Percentages Easily with Our Percentage Calculator",
+            "content": "Our Percentage Calculator helps you solve all types of percentage problems instantly. Whether you need to find a percent, calculate increase or decrease, or convert values, this tool makes percentage calculations simple and accurate."
+        },
+        {
+            "heading": "How to Use the Percentage Calculator",
+            "content": "Using the calculator is quick and straightforward. Just enter your values and get instant results without any manual math.",
+            "subSections": [
+                {
+                    "heading": "Steps to Use:",
+                    "content": "Enter the initial value (original number). Enter the percentage you want to calculate. Click Calculate to get the result. For reverse calculations (e.g., 'X is what percent of Y'), choose the corresponding mode. For percentage change, enter Old Value → New Value → Calculate."
+                }
+            ]
+        },
+        {
+            "heading": "Calculator Modes We Support",
+            "content": "The tool offers multiple modes to help you solve different types of percentage problems easily.",
+            "subSections": [
+                {
+                    "heading": "Find Percentage",
+                    "content": "Calculate what percent a number represents."
+                },
+                {
+                    "heading": "Percentage of a Number",
+                    "content": "Find a specific percent of any number."
+                },
+                {
+                    "heading": "Percentage Increase / Decrease",
+                    "content": "Calculate growth or reduction between two values."
+                },
+                {
+                    "heading": "Reverse Percentage",
+                    "content": "Find what percent one number is of another."
+                },
+                {
+                    "heading": "Percentage Conversion",
+                    "content": "Convert percentages to decimals or fractions and vice versa."
+                },
+                {
+                    "heading": "Average Percentage",
+                    "content": "Compute the average of multiple percentage values."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Fast & Accurate Results",
+                    "content": "Get instant answers for all percentage calculations without using formulas."
+                },
+                {
+                    "heading": "Beginner-Friendly Design",
+                    "content": "Easy to use for students, professionals, teachers, and everyday tasks."
+                },
+                {
+                    "heading": "Mobile-Friendly & Free",
+                    "content": "Works smoothly on all devices with no signup needed."
+                },
+                {
+                    "heading": "Reliable & Standard Formulas",
+                    "content": "Built on standard mathematical rules for trustworthy results."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Academics & Students",
+                    "content": "Calculate marks percentage, average percentage, and exam results."
+                },
+                {
+                    "heading": "Business & Finance",
+                    "content": "Analyze profit/loss percentage, interest, and financial growth."
+                },
+                {
+                    "heading": "Shopping Discounts",
+                    "content": "Find discounted prices instantly while shopping."
+                },
+                {
+                    "heading": "Data & Reports",
+                    "content": "Compare values using percent increase or decrease."
+                },
+                {
+                    "heading": "Personal Budgeting",
+                    "content": "Track spending or savings as a percentage of income."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – What is 25% of 200?",
+                    "content": "Formula: 25 ÷ 100 × 200 = 50"
+                },
+                {
+                    "heading": "Example 2 – 40 is what percent of 320?",
+                    "content": "Formula: 40 ÷ 320 × 100 = 12.5%"
+                },
+                {
+                    "heading": "Example 3 – Percent Increase",
+                    "content": "Old Value = 500, New Value = 650 → (650 − 500) ÷ 500 × 100 = 30% increase"
+                },
+                {
+                    "heading": "Example 4 – Percent Decrease",
+                    "content": "Old Value = 800, New Value = 600 → (800 − 600) ÷ 800 × 100 = 25% decrease"
+                },
+                {
+                    "heading": "Example 5 – Average Percentage",
+                    "content": "70%, 80%, 90% → (70 + 80 + 90) ÷ 3 = 80%"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Percentage Calculator?",
+            "a": "It is an online tool that helps you perform all types of percentage calculations instantly and accurately."
+        },
+        {
+            "q": "Can I calculate percent increase with this tool?",
+            "a": "Yes, the calculator supports percentage increase mode for quick results."
+        },
+        {
+            "q": "Does it support percent decrease?",
+            "a": "Yes, you can calculate decrease percentages easily."
+        },
+        {
+            "q": "How do I calculate a percentage manually?",
+            "a": "Use the formula: Percentage = (Part ÷ Whole) × 100."
+        },
+        {
+            "q": "Can I convert percentages to numbers or numbers to percentages?",
+            "a": "Yes, the tool supports percentage conversion both ways."
+        },
+        {
+            "q": "Is it free to use?",
+            "a": "Yes, the percentage calculator is 100% free and works on all devices."
+        }
+    ]
+}

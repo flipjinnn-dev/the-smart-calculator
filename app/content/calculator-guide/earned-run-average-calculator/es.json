@@ -1,0 +1,143 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora ERA: qué es y cómo funciona",
+      "content": "La Calculadora de efectividad es una herramienta en línea gratuita que ayuda a calcular el promedio de carreras ganadas (ERA) de un lanzador instantáneamente usando carreras limpias y entradas lanzadas. La efectividad mide cuántas carreras limpias permite un lanzador por cada nueve entradas, una estadística clave de los lanzadores."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Ingrese carreras ganadas",
+          "content": "Ingrese el total de carreras limpias permitidas por el lanzador."
+        },
+        {
+          "heading": "Ingrese las entradas lanzadas",
+          "content": "Ingrese el total de entradas lanzadas, incluidas las fracciones de entradas (por ejemplo, 6,1 = 6⅓ entradas)."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Vea la ERA al instante."
+        },
+        {
+          "heading": "Consejo",
+          "content": "Asegúrese de que las entradas sean precisas para obtener resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Cálculo instantáneo",
+          "content": "Obtenga ERA en segundos."
+        },
+        {
+          "heading": "Preciso y confiable",
+          "content": "Utiliza la fórmula estándar: ERA = (Carreras ganadas ÷ Entradas lanzadas) × 9."
+        },
+        {
+          "heading": "Fácil de usar",
+          "content": "No se necesitan cálculos manuales."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en todos los dispositivos."
+        },
+        {
+          "heading": "Ideal para análisis y béisbol de fantasía",
+          "content": "Realice un seguimiento sencillo del rendimiento del lanzador para jugadores, entrenadores y analistas."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Lanzadores y entrenadores",
+          "content": "Realice un seguimiento del rendimiento por juego, serie o temporada."
+        },
+        {
+          "heading": "Fanáticos y analistas",
+          "content": "Compara lanzadores rápidamente."
+        },
+        {
+          "heading": "Béisbol juvenil y amateur",
+          "content": "Seguimiento sencillo sin cálculos complejos."
+        },
+        {
+          "heading": "Béisbol de fantasía",
+          "content": "Evaluar el valor del lanzador para drafts y anotaciones."
+        },
+        {
+          "heading": "Exploradores y evaluadores de talentos",
+          "content": "Evaluar la coherencia y la eficacia."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1",
+          "content": "3 ER ÷ 6 IP = 4.50 ERA"
+        },
+        {
+          "heading": "Ejemplo 2",
+          "content": "72 ER ÷ 180 IP = 3,60 ERA"
+        },
+        {
+          "heading": "Ejemplo 3",
+          "content": "5 ER ÷ 9 IP = 5.00 ERA"
+        },
+        {
+          "heading": "Ejemplo 4",
+          "content": "20 ER ÷ 45 IP = 4.00 ERA"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de ERA?",
+      "a": "Calcula la efectividad de un lanzador utilizando carreras limpias y entradas lanzadas."
+    },
+    {
+      "q": "¿Cómo se calcula la ERA?",
+      "a": "Fórmula: efectividad = (Carreras limpias ÷ Entradas lanzadas) × 9."
+    },
+    {
+      "q": "¿Incluye carreras no merecidas?",
+      "a": "No, sólo se cuentan las carreras ganadas."
+    },
+    {
+      "q": "¿El resultado es exacto?",
+      "a": "Sí, según las entradas."
+    },
+    {
+      "q": "¿Puedo usarlo para béisbol de fantasía?",
+      "a": "Sí, ayuda a realizar un seguimiento rápido de las estadísticas de los lanzadores."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, funciona en todos los dispositivos."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, completamente gratis en línea."
+    },
+    {
+      "q": "¿Quién debería usarlo?",
+      "a": "Jugadores, entrenadores, aficionados, analistas y entusiastas de la fantasía."
+    },
+    {
+      "q": "¿Por qué utilizar una calculadora de ERA?",
+      "a": "Ahorra tiempo y garantiza cálculos precisos."
+    },
+    {
+      "q": "¿Puede realizar un seguimiento de varios juegos o temporadas?",
+      "a": "Sí, utilizando carreras limpias acumuladas y entradas lanzadas."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de asequibilidad de la vivienda: descubra cuánta vivienda puede pagar",
+      "content": "Una calculadora de asequibilidad de la vivienda le ayuda a responder la gran pregunta: \"¿Cuánta casa puedo pagar?\" Al analizar sus ingresos, gastos, tasas hipotecarias, impuestos a la propiedad y relación deuda-ingresos (DTI), esta herramienta le brinda una estimación personalizada de qué rango de precios es realista para su presupuesto. Ya sea que sea la primera vez que compra una vivienda o la actualiza, la calculadora anterior proporciona un resultado instantáneo impulsado por IA, más rápido y más preciso que los cálculos manuales.\n\nUtilice la calculadora gratuita de asequibilidad de viviendas en línea que aparece arriba para comenzar."
+    },
+    {
+      "heading": "Cómo calcular la asequibilidad de la vivienda",
+      "subSections": [
+        {
+          "heading": "Método manual (paso a paso)",
+          "content": "Sume sus ingresos brutos mensuales.\n\nAplicar la regla 28/36 (no gastar más del 28% de los ingresos en vivienda y el 36% en deuda total).\n\nCalcule los pagos mensuales de la hipoteca utilizando las tasas de interés actuales.\n\nAgregue impuestos a la propiedad, seguro de vivienda, PMI y tarifas de HOA.\n\nCompare con su presupuesto mensual."
+        },
+        {
+          "heading": "Método de calculadora (recomendado)",
+          "content": "Simplemente ingrese sus ingresos, gastos, pago inicial, plazo del préstamo y tasa de interés en nuestra mejor herramienta de calculadora de asequibilidad de vivienda, y la IA mostrará instantáneamente sus resultados, ahorrando tiempo y evitando errores."
+        }
+      ]
+    },
+    {
+      "heading": "Factores que afectan la cantidad de casa que puede pagar",
+      "content": "Varios elementos clave determinan la asequibilidad de su vivienda:\n\nIngresos y empleo: unos ingresos más altos y estables aumentan las posibilidades de aprobación de préstamos.\n\nRelación deuda-ingresos (DTI): los prestamistas normalmente quieren una DTI inferior al 36%.\n\nPago inicial: Los pagos iniciales más grandes reducen los costos mensuales y pueden eliminar el PMI.\n\nTasa de interés hipotecaria: Incluso una diferencia del 1% cambia significativamente la asequibilidad.\n\nImpuestos y seguros sobre la propiedad: varían según la ubicación y deben incluirse.\n\nTarifas de HOA: algunas casas agregan cuotas mensuales a la asociación de propietarios.\n\nPréstamos para estudiantes o deuda crediticia: las obligaciones continuas reducen lo que puede pedir prestado.\n\nNuestra calculadora de asequibilidad de la vivienda con tarifas de HOA, PMI e impuestos garantiza que se tengan en cuenta automáticamente."
+    },
+    {
+      "heading": "Reglas generales para la asequibilidad de la vivienda",
+      "content": "Regla 28/36: Gastar ≤ 28% de los ingresos en vivienda, ≤ 36% en todas las deudas.\n\nRegla del triple de ingresos: muchos expertos sugieren que el precio de su vivienda debería ser ~3 veces su ingreso anual.\n\nAhorros de emergencia: guarde siempre de 3 a 6 meses de gastos después del pago inicial.\n\nEjemplo: ¿Qué ingresos se necesitan para costear una casa de 300.000 dólares?\n\nCon un pago inicial del 20% y un interés del 6,5%, necesitará unos ingresos anuales de unos 70.000 dólares para mantenerse dentro de la regla 28/36."
+    },
+    {
+      "heading": "Calculadora de asequibilidad de la vivienda frente a otras herramientas",
+      "content": "Calculadora de asequibilidad de la vivienda frente a calculadora de hipotecas → La asequibilidad analiza los ingresos, la deuda y el presupuesto. Las calculadoras de hipotecas sólo muestran los pagos del préstamo.\n\nCalculadora inteligente frente a Calculadora Zillow → Nuestra herramienta de asequibilidad doméstica Smart Calculator impulsada por IA brinda resultados más personalizados en tiempo real.\n\nCalculadora de relación deuda-ingresos versus calculadora de asequibilidad → Las calculadoras DTI solo muestran la carga de deuda, mientras que la asequibilidad combina deuda, ingresos e impuestos para obtener una imagen completa."
+    },
+    {
+      "heading": "¿Por qué elegir la calculadora inteligente?",
+      "content": "Información financiera basada en IA para obtener resultados más precisos.\n\nOpciones integradas para pago inicial, PMI, HOA y seguro.\n\nFunciona como una calculadora de asequibilidad inmobiliaria gratuita y accesible en cualquier momento.\n\nOptimizado para respuestas rápidas, búsqueda por voz y usuarios de dispositivos móviles.\n\nPruebe la calculadora de asequibilidad de viviendas en línea con las tasas hipotecarias anteriores y vea los resultados al instante."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo determinan los prestamistas la asequibilidad de una vivienda?",
+      "a": "Los prestamistas analizan sus ingresos, índice DTI, puntaje crediticio y pago inicial para decidir cuánto puede pedir prestado."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre asequibilidad de la vivienda y aprobación previa?",
+      "a": "Las calculadoras de asequibilidad estiman lo que usted puede pagar, mientras que la aprobación previa muestra lo que un prestamista está dispuesto a ofrecer."
+    },
+    {
+      "q": "¿Puedo permitirme una casa con una deuda de préstamos estudiantiles?",
+      "a": "Sí, pero los préstamos para estudiantes aumentan su DTI, lo que reduce la cantidad de vivienda para la que califica. Nuestra calculadora tiene en cuenta esto."
+    },
+    {
+      "q": "¿Qué precisión tienen las calculadoras de asequibilidad de viviendas?",
+      "a": "Son muy precisos para las estimaciones. Sin embargo, las cifras finales dependen de las pautas del prestamista, el crédito y los impuestos locales."
+    },
+    {
+      "q": "Alexa, ¿cuánta casa puedo pagar?",
+      "a": "Puede utilizar la herramienta de asequibilidad de la casa Smart Calculator para obtener resultados instantáneos de asequibilidad impulsados ​​por IA."
+    }
+  ]
+}

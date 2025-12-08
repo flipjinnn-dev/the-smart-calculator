@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for protein-calculator
 const proteincalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }protein-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }protein-calculator`,
       languages: {
         'en': getCanonicalUrl('protein-calculator', 'en'),
         'pt-BR': getCanonicalUrl('protein-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }protein-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }protein-calculator`,
     },
   };
 }
@@ -70,5 +69,95 @@ export default async function ProteinCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.thesmartcalculator.com/health/protein-calculator",
+        "url": "https://www.thesmartcalculator.com/health/protein-calculator",
+        "name": "Protein Calculator - Daily Protein Intake Estimator",
+        "description": "Free protein calculator to estimate your daily protein intake based on age, gender, weight, height, activity level, and goal. Find out how much protein you need for muscle gain, fat loss, or maintenance.",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.thesmartcalculator.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Health Calculators",
+              "item": "https://www.thesmartcalculator.com/health/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Protein Calculator",
+              "item": "https://www.thesmartcalculator.com/health/protein-calculator"
+            }
+          ]
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Smart Calculator",
+          "url": "https://www.thesmartcalculator.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thesmartcalculator.com/logo.png"
+          }
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.thesmartcalculator.com/health/protein-calculator#faqs",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much protein do I need daily?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The average sedentary adult needs about 0.8 grams of protein per kilogram of body weight per day. Active individuals or athletes may require 1.2–2.2 g/kg depending on their goals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much protein should I eat for muscle gain?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For muscle growth, most experts recommend around 1.6–2.2 grams of protein per kilogram of body weight daily, spread across meals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the best protein food sources?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "High-quality protein sources include chicken breast, fish, eggs, Greek yogurt, lentils, beans, and lean beef."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is high protein intake safe?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For healthy adults, higher protein intake is safe. However, people with kidney or liver issues should consult a doctor before increasing protein consumption."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="protein-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

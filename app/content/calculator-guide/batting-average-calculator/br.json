@@ -1,0 +1,143 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de média de rebatidas: o que é e como funciona",
+      "content": "A Calculadora da média de rebatidas é uma ferramenta online gratuita que ajuda a calcular a média de rebatidas de um jogador instantaneamente usando rebatidas e rebatidas oficiais. A média de rebatidas mostra a frequência com que um jogador acerta ao rebater e é uma estatística importante do beisebol."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Insira hits",
+          "content": "Digite o número de acertos que o jogador possui."
+        },
+        {
+          "heading": "Digite At-Bats",
+          "content": "Insira rebatidas oficiais (excluindo caminhadas, sacrifícios e rebatidas por arremesso)."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Obtenha a média de rebatidas imediatamente."
+        },
+        {
+          "heading": "Dica",
+          "content": "Certifique-se de contar as rebatidas oficiais corretamente para maior precisão."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Cálculo Instantâneo",
+          "content": "Calcula a média de rebatidas em segundos."
+        },
+        {
+          "heading": "Preciso e confiável",
+          "content": "Usa fórmula padrão: Hits ÷ At-Bats."
+        },
+        {
+          "heading": "Fácil de usar",
+          "content": "Não é necessária matemática manual."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona em smartphones, tablets e desktops."
+        },
+        {
+          "heading": "Ideal para Fantasy Baseball e Análise",
+          "content": "Acompanhe facilmente o desempenho de jogadores, treinadores e analistas."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Jogadores e treinadores",
+          "content": "Avalie o desempenho por jogo ou temporada."
+        },
+        {
+          "heading": "Fãs e Analistas",
+          "content": "Compare as médias dos jogadores rapidamente."
+        },
+        {
+          "heading": "Beisebol Juvenil e Amador",
+          "content": "Acompanhe estatísticas sem cálculos complexos."
+        },
+        {
+          "heading": "Beisebol Fantasia",
+          "content": "Monitore os jogadores em busca de draft ou pontuação."
+        },
+        {
+          "heading": "Escoteiros e avaliação de talentos",
+          "content": "Avalie a consistência das rebatidas de forma eficiente."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1",
+          "content": "45 rebatidas ÷ 150 rebatidas = 0,300"
+        },
+        {
+          "heading": "Exemplo 2",
+          "content": "60 rebatidas ÷ 200 rebatidas = 0,300"
+        },
+        {
+          "heading": "Exemplo 3",
+          "content": "25 rebatidas ÷ 100 rebatidas = 0,250"
+        },
+        {
+          "heading": "Exemplo 4",
+          "content": "80 rebatidas ÷ 250 rebatidas = 0,320"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de média de rebatidas?",
+      "a": "Ele calcula a média de rebatidas de um jogador usando rebatidas e rebatidas oficiais."
+    },
+    {
+      "q": "Como a média de rebatidas é calculada?",
+      "a": "Use a fórmula: Hits ÷ At-Bats."
+    },
+    {
+      "q": "Inclui caminhadas ou sacrifícios?",
+      "a": "Não, apenas as rebatidas oficiais são contadas."
+    },
+    {
+      "q": "O resultado é preciso?",
+      "a": "Sim, com base nas rebatidas e rebatidas inseridas."
+    },
+    {
+      "q": "Posso usá-lo para beisebol fantasia?",
+      "a": "Sim, ajuda a rastrear as estatísticas do jogador rapidamente."
+    },
+    {
+      "q": "Esta calculadora é compatível com dispositivos móveis?",
+      "a": "Sim, funciona em smartphones, tablets e desktops."
+    },
+    {
+      "q": "O uso é gratuito?",
+      "a": "Sim, totalmente gratuito e online."
+    },
+    {
+      "q": "Quem deve usar esta calculadora?",
+      "a": "Jogadores, treinadores, fãs, analistas e entusiastas da fantasia."
+    },
+    {
+      "q": "Por que usar uma calculadora de média de rebatidas?",
+      "a": "Isso economiza tempo e garante cálculos precisos."
+    },
+    {
+      "q": "Ele pode rastrear vários jogadores?",
+      "a": "Sim, inserindo estatísticas individualmente para cada jogador."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+    "color": "green",
+    "sections": [
+        {
+            "heading": "What is a Random Number Generator?",
+            "content": "A Random Number Generator (RNG) is an online tool that creates unpredictable numbers within a selected range. It uses a mathematical algorithm to instantly generate random values that help in decision-making, math tasks, coding, simulations, gaming, and everyday choices. RNGs are fast, unbiased, and easy to use on any device."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter the Minimum Value",
+                    "content": "Provide the lowest number of your desired range."
+                },
+                {
+                    "heading": "Enter the Maximum Value",
+                    "content": "Provide the highest number of your desired range."
+                },
+                {
+                    "heading": "Select Quantity (Optional)",
+                    "content": "Choose how many numbers you want to generate at once."
+                },
+                {
+                    "heading": "Click Generate",
+                    "content": "The calculator produces random numbers instantly."
+                },
+                {
+                    "heading": "Review Results",
+                    "content": "Double-check your range and use the generated numbers as needed."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Results",
+                    "content": "Numbers appear within milliseconds."
+                },
+                {
+                    "heading": "Custom Range",
+                    "content": "Enter any minimum and maximum values."
+                },
+                {
+                    "heading": "Multiple Outputs",
+                    "content": "Generate one or many numbers at once."
+                },
+                {
+                    "heading": "Uniform Algorithm",
+                    "content": "Results are unbiased."
+                },
+                {
+                    "heading": "Clean Interface",
+                    "content": "Beginner-friendly and easy to use."
+                },
+                {
+                    "heading": "Free Online Tool",
+                    "content": "No registration or downloads needed."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Math & Statistics",
+                    "content": "Probability, sampling, and classroom exercises."
+                },
+                {
+                    "heading": "Games & Contests",
+                    "content": "Lucky draws, dice rolls, and random selections."
+                },
+                {
+                    "heading": "Coding & Software Testing",
+                    "content": "Simulations, test data creation, and debugging."
+                },
+                {
+                    "heading": "Education",
+                    "content": "Random roll calls, group assignments, and activities."
+                },
+                {
+                    "heading": "Daily Decisions",
+                    "content": "Choosing tasks, meals, or activities."
+                },
+                {
+                    "heading": "Research",
+                    "content": "Creating unbiased samples for studies."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1",
+                    "content": "Range: 1–100, Output: 57 (random)"
+                },
+                {
+                    "heading": "Example 2",
+                    "content": "Generate 5 numbers, Range: 10–50, Output: 12, 34, 49, 28, 20 (random)"
+                },
+                {
+                    "heading": "Example 3",
+                    "content": "Dice Simulation (1–6), Output: 4 (random)"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Random Number Generator used for?",
+            "a": "It creates unpredictable numbers for math, coding, contests, and general tasks."
+        },
+        {
+            "q": "Is this tool free?",
+            "a": "Yes, completely free."
+        },
+        {
+            "q": "Are the numbers truly random?",
+            "a": "They are pseudo-random, suitable for everyday use."
+        },
+        {
+            "q": "Can I generate multiple numbers?",
+            "a": "Yes, many tools support quantity selection."
+        },
+        {
+            "q": "Can I use negative numbers?",
+            "a": "Yes, depending on the tool."
+        },
+        {
+            "q": "Are results unbiased?",
+            "a": "Yes, they follow a uniform distribution."
+        },
+        {
+            "q": "Do I need software installation?",
+            "a": "No, it works online."
+        },
+        {
+            "q": "Can I use RNG for school projects?",
+            "a": "Absolutely."
+        },
+        {
+            "q": "Is it safe for online contests?",
+            "a": "Yes, but for high-stakes events, use verifiable tools."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, works perfectly on phones and tablets."
+        }
+    ]
+}

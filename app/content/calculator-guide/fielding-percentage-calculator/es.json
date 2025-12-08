@@ -1,0 +1,147 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de porcentaje de campo: qué es y cómo funciona",
+      "content": "La Calculadora de porcentaje de fildeo calcula la eficiencia defensiva de un fildeador mediante eliminaciones, asistencias y errores. El porcentaje de fildeo (FPCT) mide la frecuencia con la que un jugador maneja con éxito las oportunidades de fildeo sin errores. Fórmula: Porcentaje de fildeo = (Salidas + Asistencias) ÷ (Salidas + Asistencias + Errores)."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Ingresar salidas (PO)",
+          "content": "Total de outs registrados."
+        },
+        {
+          "heading": "Ingresar asistencias (A)",
+          "content": "Asistencias totales realizadas."
+        },
+        {
+          "heading": "Ingresar errores (E)",
+          "content": "Errores totales cometidos."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Obtenga el porcentaje de fildeo al instante."
+        },
+        {
+          "heading": "Consejo",
+          "content": "Las entradas precisas garantizan resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Cálculo instantáneo",
+          "content": "Calcula FPCT inmediatamente."
+        },
+        {
+          "heading": "Preciso y confiable",
+          "content": "Utiliza la fórmula estándar de béisbol/softbol."
+        },
+        {
+          "heading": "Fácil de usar",
+          "content": "No se necesitan cálculos manuales."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en todos los dispositivos."
+        },
+        {
+          "heading": "Ideal para jugadores, entrenadores y aficionados",
+          "content": "Evalúe rápidamente el desempeño defensivo."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Jugadores y entrenadores",
+          "content": "Realice un seguimiento del rendimiento por partido o temporada."
+        },
+        {
+          "heading": "Equipos y exploradores",
+          "content": "Evaluar la confiabilidad defensiva."
+        },
+        {
+          "heading": "Fanáticos y analistas",
+          "content": "Compara a los fildeadores rápidamente."
+        },
+        {
+          "heading": "Béisbol juvenil y amateur",
+          "content": "Realice un seguimiento de las estadísticas defensivas fácilmente."
+        },
+        {
+          "heading": "Mantenimiento de registros",
+          "content": "Mantener estadísticas defensivas durante toda la temporada."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1",
+          "content": "80 PO + 40 A ÷ 5 E = 0,960 FPCT"
+        },
+        {
+          "heading": "Ejemplo 2",
+          "content": "50 PO + 30 A ÷ 3 E = 0,967 FPCT"
+        },
+        {
+          "heading": "Ejemplo 3",
+          "content": "25 PO + 15 A ÷ 2 E = 0,952 FPCT"
+        },
+        {
+          "heading": "Ejemplo 4",
+          "content": "100 PO + 50 A ÷ 8 E = 0,940 FPCT"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de porcentaje de campo?",
+      "a": "Calcula la eficiencia defensiva de un defensor utilizando outs, asistencias y errores."
+    },
+    {
+      "q": "¿Cómo se calcula el porcentaje de fildeo?",
+      "a": "FPCT = (Apagados + Asistencias) ÷ (Apagados + Asistencias + Errores)"
+    },
+    {
+      "q": "¿Incluye jugadas no intentadas?",
+      "a": "No, sólo se cuentan las jugadas intentadas (PO + A + E)."
+    },
+    {
+      "q": "¿Es exacto?",
+      "a": "Sí, según los aportes proporcionados."
+    },
+    {
+      "q": "¿Se puede utilizar para béisbol y softbol?",
+      "a": "Sí, sirve para ambos deportes."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, funciona en todos los dispositivos."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, completamente gratis en línea."
+    },
+    {
+      "q": "¿Quién debería usarlo?",
+      "a": "Jugadores, entrenadores, ojeadores, aficionados y analistas."
+    },
+    {
+      "q": "¿Por qué utilizar esta calculadora?",
+      "a": "Ahorra tiempo y proporciona una medida de eficiencia defensiva instantánea."
+    },
+    {
+      "q": "¿Puede realizar un seguimiento de varios juegos o temporadas?",
+      "a": "Sí, los datos acumulativos permiten el cálculo durante cualquier período."
+    }
+  ]
+}

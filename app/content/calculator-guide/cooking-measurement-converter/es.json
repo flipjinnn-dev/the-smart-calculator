@@ -1,0 +1,155 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Conversor de medidas de cocina: qué es y cómo ayuda",
+      "content": "Cooking Measurement Converter es una herramienta gratuita en línea que le permite convertir ingredientes entre diferentes unidades de cocción, como tazas, gramos, cucharadas, onzas, mililitros y más. Ayuda a ajustar las recetas con precisión, ya sea que esté horneando, cocinando o convirtiendo medidas métricas y estadounidenses."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Ingrese la cantidad",
+          "content": "Escriba la cantidad que desea convertir en el cuadro de entrada."
+        },
+        {
+          "heading": "Seleccionar unidad fuente",
+          "content": "Elija la unidad de entrada, como tazas, gramos, cucharadas o mililitros."
+        },
+        {
+          "heading": "Seleccionar unidad objetivo",
+          "content": "Elija la unidad a la que desea convertir para obtener resultados instantáneos."
+        },
+        {
+          "heading": "Elija ingrediente (opcional)",
+          "content": "Seleccione un ingrediente para mejorar la precisión de las conversiones de volumen a peso."
+        },
+        {
+          "heading": "Haga clic en Convertir",
+          "content": "Obtenga su resultado convertido instantáneamente en función de las unidades seleccionadas."
+        },
+        {
+          "heading": "Utilice unidades precisas",
+          "content": "Para hornear, prefiera gramos u onzas, ya que proporcionan medidas precisas."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Conversiones instantáneas",
+          "content": "Convierta entre unidades inmediatamente sin cálculo manual."
+        },
+        {
+          "heading": "Soporta múltiples unidades",
+          "content": "Tazas, cucharaditas, cucharadas, gramos, onzas, mililitros, litros y más."
+        },
+        {
+          "heading": "Precisión basada en ingredientes",
+          "content": "Elija ingredientes para lograr conversiones correctas de volumen a peso."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Úselo fácilmente en teléfonos inteligentes, tabletas y computadoras de escritorio."
+        },
+        {
+          "heading": "Gratis y fácil de usar",
+          "content": "No es necesario registrarse ni instalar."
+        },
+        {
+          "heading": "Perfecto para cocinar y hornear",
+          "content": "Ideal para nuevos cocineros, profesionales y escalado de recetas."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Cocineros y panaderos caseros",
+          "content": "Siga las recetas con precisión y convierta los ingredientes sin esfuerzo."
+        },
+        {
+          "heading": "Usuarios de recetas internacionales",
+          "content": "Cambie fácilmente entre unidades métricas y habituales de EE. UU."
+        },
+        {
+          "heading": "Recetas de escalado de personas",
+          "content": "Ajuste las cantidades de ingredientes para cualquier tamaño de porción."
+        },
+        {
+          "heading": "Nutricionistas y planificadores de dietas",
+          "content": "Mida y convierta los ingredientes con precisión."
+        },
+        {
+          "heading": "Estudiantes y chefs profesionales",
+          "content": "Úselo para estudios culinarios, práctica y consistencia en la cocina."
+        }
+      ]
+    },
+    {
+      "heading": "Conversiones de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: azúcar",
+          "content": "1 taza de azúcar → 200 gramos"
+        },
+        {
+          "heading": "Ejemplo 2: mantequilla",
+          "content": "3 cucharadas de mantequilla → 42 gramos"
+        },
+        {
+          "heading": "Ejemplo 3 – Harina",
+          "content": "2 onzas de harina → 57 gramos"
+        },
+        {
+          "heading": "Ejemplo 4: conversión de líquidos",
+          "content": "500 mililitros → 2 tazas"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es un convertidor de medidas de cocción?",
+      "a": "Convierte ingredientes entre diferentes unidades de cocción y horneado."
+    },
+    {
+      "q": "¿Puede convertir tazas a gramos?",
+      "a": "Sí, especialmente para ingredientes comunes como harina, azúcar y mantequilla."
+    },
+    {
+      "q": "¿Es compatible con todos los ingredientes?",
+      "a": "Admite los ingredientes más comunes, pero algunos pueden variar ligeramente en densidad."
+    },
+    {
+      "q": "¿Puedo convertir cucharaditas a mililitros?",
+      "a": "Sí, se admiten todas las unidades de volumen estándar."
+    },
+    {
+      "q": "¿Es exacto para hornear?",
+      "a": "Sí, especialmente cuando se utilizan unidades precisas como gramos u onzas."
+    },
+    {
+      "q": "¿Puedo usarlo en el móvil?",
+      "a": "Sí, está totalmente optimizado para dispositivos móviles."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, es completamente gratis y en línea."
+    },
+    {
+      "q": "¿Puedo escalar recetas?",
+      "a": "Sí, puedes ajustar fácilmente las cantidades de ingredientes para cualquier tamaño de porción."
+    },
+    {
+      "q": "¿Quién debería usarlo?",
+      "a": "Cocineros caseros, panaderos, chefs, nutricionistas y estudiantes de cocina."
+    },
+    {
+      "q": "¿Necesito seleccionar un ingrediente?",
+      "a": "Es opcional pero se recomienda para conversiones exactas de volumen a peso."
+    }
+  ]
+}

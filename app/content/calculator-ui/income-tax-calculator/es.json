@@ -1,0 +1,136 @@
+{
+  "pageTitle": "Calculadora de Impuesto sobre la Renta",
+  "pageDescription": "Calcula el impuesto sobre la renta con nuestra calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Introduzca el primer valor",
+      "input2": "Introduzca el segundo valor",
+      "input3": "Introduzca el tercer valor"
+    },
+    "buttons": {
+      "calculate": "Calcular el impuesto sobre la renta",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados del cálculo del impuesto sobre la renta"
+  },
+  "educational": {
+    "info": "Información del impuesto sobre la renta",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definición de impuesto sobre la renta",
+        "description": "Información sobre el impuesto sobre la renta"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Cómo se calcula el impuesto sobre la renta"
+      },
+      "applications": {
+        "title": "Aplicaciones",
+        "description": "Usos del impuesto sobre la renta"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora solo proporciona estimaciones del impuesto sobre la renta",
+      "actual": "Los valores reales pueden variar según las circunstancias individuales."
+    },
+    "importantNotesList": [
+      "Esto es una estimación y no debe reemplazar el asesoramiento profesional.",
+      "Esto es una estimación y no debe reemplazar el asesoramiento profesional.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Utilice unidades consistentes para obtener resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información requerida para calcular el impuesto sobre la renta",
+    "resultMessage": "Los resultados del cálculo de su impuesto sobre la renta se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del impuesto sobre la renta:",
+    "analysis": "Análisis del Impuesto sobre la Renta"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones del impuesto sobre la renta basadas en métodos estándar. Los valores reales pueden variar según circunstancias individuales y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para obtener asesoramiento personalizado e información detallada, consulte con profesionales que puedan brindarle orientación según las necesidades y circunstancias individuales."
+  },
+  "errors": {
+    "input1": "Por favor ingresa un primer valor válido",
+    "input2": "Por favor ingresa un segundo valor válido",
+    "input3": "Por favor ingresa un tercer valor válido"
+  },
+  "tooltips": {
+    "input1": "Primer parámetro de entrada",
+    "input2": "Segundo parámetro de entrada",
+    "input3": "Tercer parámetro de entrada"
+  },
+  "tax_calculator_0": "Calculadora de impuestos",
+  "basic_information_1": "Información básica",
+  "filing_status_2": "Estado civil para efectos de la declaración",
+  "single_3": "Soltero",
+  "married_filing_jointly_4": "Casado que presenta una declaración conjunta",
+  "married_filing_separately_5": "Casado que declara por separado",
+  "head_of_household_6": "Jefe de familia",
+  "qualified_widower_7": "Viuda(o) calificada",
+  "tax_year_8": "Año fiscal",
+  "k_2024_9": "2024",
+  "k_2025_10": "2025",
+  "young_dependents_016_11": "Jóvenes Dependientes (0-16)",
+  "other_dependents_17_12": "Otros dependientes (17+)",
+  "person_1_income_13": "Persona 1 Ingresos",
+  "wages_tips_w2_box_1_14": "Salarios y propinas (W-2, casilla 1)",
+  "federal_tax_withheld_w2_box_2_15": "Impuesto federal retenido (W-2, casilla 2)",
+  "state_tax_withheld_w2_box_17_16": "Impuesto estatal retenido (W-2, casilla 17)",
+  "businessselfemployment_income_17": "Ingresos de negocios/trabajo por cuenta propia",
+  "person_2_income_18": "Ingresos de la persona 2",
+  "wages_tips_w2_box_1_19": "Salarios y propinas (W-2, casilla 1)",
+  "federal_tax_withheld_w2_box_2_20": "Impuesto federal retenido (W-2, casilla 2)",
+  "other_income_21": "Otros ingresos",
+  "interest_income_1099int_22": "Ingresos por intereses (1099-INT)",
+  "ordinary_dividends_1099div_23": "Dividendos Ordinarios (1099-DIV)",
+  "qualified_dividends_1099div_24": "Dividendos calificados (1099-DIV)",
+  "longterm_capital_gains_25": "Ganancias de capital a largo plazo",
+  "other_income_26": "Otros ingresos",
+  "deductions_credits_27": "Deducciones y créditos",
+  "ira_contributions_28": "Contribuciones IRA",
+  "real_estate_tax_29": "Impuesto sobre Bienes Raíces",
+  "mortgage_interest_30": "Intereses Hipotecarios",
+  "charitable_donations_31": "Donaciones caritativas",
+  "calculate_32": "Calcular",
+  "tax_results_33": "Resultados de impuestos",
+  "your_complete_tax_breakdown_34": "Su desglose fiscal completo",
+  "adjusted_gross_income_35": "Ingreso bruto ajustado",
+  "taxable_income_36": "Ingreso imponible",
+  "federal_tax_owed_37": "Impuesto federal adeudado",
+  "selfemployment_tax_38": "Impuesto sobre el trabajo por cuenta propia",
+  "total_tax_liability_39": "Responsabilidad fiscal total",
+  "tax_rates_40": "Tasas de impuestos",
+  "effective_tax_rate_41": "Tasa impositiva efectiva",
+  "marginal_tax_rate_42": "Tasa impositiva marginal",
+  "deduction_used_43": "Deducción utilizada:",
+  "standard_44": "Estándar: $",
+  "itemized_45": "| Detallado: $",
+  "enter_your_tax_information_to_see_your_results_46": "Ingresa tu información fiscal para ver tus resultados",
+  "formulas_calculation_steps_47": "Fórmulas y pasos de cálculo",
+  "k_1_gross_income_48": "1. Ingreso bruto",
+  "gross_wages_business_income_interest_dividends_cap_49": "Bruto = Salarios + Ingresos comerciales + Intereses + Dividendos + Ganancias de capital + Otros ingresos",
+  "k_2_adjusted_gross_income_agi_50": "2. Ingreso bruto ajustado (AGI)",
+  "agi_gross_income_abovetheline_deductions_ira_stude_51": "AGI = Ingreso bruto - Deducciones por encima de la línea (IRA, intereses de préstamos estudiantiles, etc.)",
+  "k_3_taxable_income_52": "3. Ingreso imponible",
+  "taxable_income_agi_maxstandard_deduction_itemized__53": "Ingreso imponible = AGI - máximo (deducción estándar, deducciones detalladas)",
+  "k_4_federal_tax_54": "4. Impuesto federal",
+  "applied_using_progressive_tax_brackets_based_on_fi_55": "Se aplica utilizando tramos impositivos progresivos según el estado civil para efectos de la declaración."
+}

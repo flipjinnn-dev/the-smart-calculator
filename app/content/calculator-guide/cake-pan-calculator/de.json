@@ -1,0 +1,105 @@
+{
+  "color": "Rosa",
+  "sections": [
+    {
+      "heading": "Was ist ein Kuchenformrechner?",
+      "content": "Mit dem Kuchenform-Rechner können Sie Rezepte für verschiedene Kuchenformgrößen und -formen anpassen. Ob rund, quadratisch oder rechteckig, es berechnet das Teigvolumen und den Skalierungsfaktor, damit Ihr Kuchen perfekt passt und gleichmäßig backt."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "content": "Befolgen Sie diese Schritte, um die Kuchenformgrößen genau umzurechnen:",
+      "subSections": [
+        {
+          "heading": "Schritte",
+          "content": "1. Originalpfanne auswählen – Wählen Sie die Form und geben Sie ihre Größe ein (Durchmesser für rund, Länge × Breite für quadratisch/rechteckig).\n2. Wählen Sie Zielpfanne – Geben Sie die Pfanne ein, die Sie verwenden möchten.\n3. Klicken Sie auf Berechnen – Erhalten Sie sofort den Skalierungsfaktor und die angepassten Zutatenmengen.\n4. Tipp: Füllen Sie die Pfannen zu ½–⅔ voll, um optimale Ergebnisse zu erzielen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "content": "Dieser Kuchenform-Konverter bietet genaue volumenbasierte Anpassungen:",
+      "subSections": [
+        {
+          "heading": "Merkmale",
+          "content": "- Sofortige Pfannenumwandlung – Funktioniert mit runden, quadratischen und rechteckigen Pfannen.\n- Volumenbasierte Skalierung – Passt die Zutaten an das Pfannenvolumen an.\n- Unterstützt gängige Pfannengrößen – ideal für privates und professionelles Backen.\n- Mobilfreundlich – Funktioniert reibungslos auf jedem Gerät.\n- Benutzerfreundliche Oberfläche – einfach für Anfänger und Profis."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "content": "Bäcker nutzen dieses Tool für verschiedene Rezeptanpassungen:",
+      "subSections": [
+        {
+          "heading": "Beispiele",
+          "content": "- Backen zu Hause: Verwenden Sie die Pfanne, die Sie haben, ohne das Rezept falsch zu ändern.\n- Rezeptskalierung: Machen Sie größere oder kleinere Kuchen mit den richtigen Proportionen.\n- Schichtkuchen: Skalieren Sie mehrere Schichten genau.\n- Event-Backen: Nützlich für Partys, Geburtstage und besondere Anlässe.\n- Professionelles Backen: Hilft bei der Standardisierung von Rezepten in Bäckereien und Kochschulen."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "content": "Hier sind einige gängige Beispiele für die Pfannenumwandlung:",
+      "subSections": [
+        {
+          "heading": "Beispiele",
+          "content": "- 9 Zoll rund → 8×8 quadratisch → Zutaten um 11 % reduzieren.\n- 8×8 Quadrat → 9×13 Rechteck → Doppelte Zutaten.\n- 8-Zoll-Runde → 10-Zoll-Runde → Zutaten um 56 % erhöhen."
+        }
+      ]
+    },
+    {
+      "heading": "Tipps und Best Practices",
+      "content": "Nützliche Tipps für bessere Backergebnisse:",
+      "subSections": [
+        {
+          "heading": "Tipps",
+          "content": "- Füllen Sie Pfannen nur zur Hälfte bis zu zwei Dritteln.\n- Runde Pfannen lassen sich anders in quadratische verwandeln – verwenden Sie für die Genauigkeit die Lautstärke.\n- Überwachen Sie den Gargrad visuell – die Backzeit kann je nach Pfannenform variieren.\n- Wenn Sie große Kuchen skalieren, wiegen Sie die Zutaten ab, um präzise Ergebnisse zu erzielen.\n- Verwenden Sie Pergamentpapier, um ein gleichmäßiges Backen in größeren Pfannen zu gewährleisten."
+        }
+      ]
+    },
+    {
+      "heading": "Haftungsausschluss",
+      "content": "Dieser Rechner liefert Schätzungen basierend auf Standard-Kuchenformvolumina. Die Backzeiten können je nach Ofentemperatur, Rezeptart und Teigkonsistenz variieren."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Kuchenformrechner?",
+      "a": "Es passt die Zutatenmenge an, wenn unterschiedliche Kuchenformgrößen oder -formen verwendet werden."
+    },
+    {
+      "q": "Kann ich runde in eckige Pfannen umwandeln?",
+      "a": "Ja, es unterstützt Konvertierungen zwischen runden, quadratischen und rechteckigen Pfannen."
+    },
+    {
+      "q": "Passt es die Zutaten automatisch an?",
+      "a": "Ja, es berechnet einen Skalierungsfaktor für alle Zutaten."
+    },
+    {
+      "q": "Ist es für Schichtkuchen geeignet?",
+      "a": "Ja, es passt die Ebenen proportional an, um eine gleichmäßige Stapelung zu ermöglichen."
+    },
+    {
+      "q": "Kann es bei den Backzeiten helfen?",
+      "a": "Die Backzeit wird nicht berechnet; Überwachen Sie den Kuchen visuell auf seinen Gargrad."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, es funktioniert auf Smartphones, Tablets und Desktops."
+    },
+    {
+      "q": "Kann ich Rezepte vergrößern oder verkleinern?",
+      "a": "Ja, es berechnet den richtigen Skalierungsfaktor für größere oder kleinere Kuchen."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, völlig kostenlos, es sind keine Downloads erforderlich."
+    },
+    {
+      "q": "Wer sollte diesen Rechner verwenden?",
+      "a": "Hobbybäcker, professionelle Bäcker, Kochstudenten und alle, die Kuchenrezepte anpassen."
+    },
+    {
+      "q": "Warum es verwenden?",
+      "a": "Damit die Kuchen perfekt in Ihre Form passen und gleichmäßig backen."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Was ist ein Gallonen pro Quadratfuß-Rechner?",
+      "content": "Mit einem Gallonen-pro-Quadratfuß-Rechner können Sie ermitteln, wie viel Flüssigkeit pro Quadratfuß bei einer bestimmten Tiefe benötigt wird. Es ist nützlich für Pools, Tanks, Beschichtungen, Landschaftsbau, Bewässerung und Bauprojekte."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Geben Sie Länge und Breite ein",
+          "content": "Grundflächenabmessungen."
+        },
+        {
+          "heading": "Geben Sie Tiefe/Höhe ein",
+          "content": "Flüssigkeitstiefe in Fuß, Zoll oder Yards."
+        },
+        {
+          "heading": "Optional: Geben Sie den Preis pro Gallone ein",
+          "content": "Zur Kostenberechnung."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Erhalten Sie sofort Gallonen pro Quadratfuß und die Gesamtzahl der Gallonen."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Stellen Sie sicher, dass die Einheiten konsistent sind, um genaue Ergebnisse zu erzielen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Berechnung",
+          "content": "Gallonen pro Quadratfuß und Gesamtgallonen."
+        },
+        {
+          "heading": "Mehrere Einheiten",
+          "content": "Unterstützt werden Fuß, Zoll oder Yard."
+        },
+        {
+          "heading": "Kostenschätzung",
+          "content": "Berechnet die Gesamtkosten, wenn ein Preis pro Gallone eingegeben wird."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf allen Geräten."
+        },
+        {
+          "heading": "Vielseitige Anwendungen",
+          "content": "Wasser, Farbe, Beschichtungen und mehr."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Pool- und Spa-Planung",
+          "content": "Schätzen Sie die Wassermenge."
+        },
+        {
+          "heading": "Tankfüllung",
+          "content": "Berechnen Sie die Kapazität des Lagerbehälters."
+        },
+        {
+          "heading": "Bewässerung und Landschaftsbau",
+          "content": "Planen Sie den Wasserbedarf."
+        },
+        {
+          "heading": "Bau & Beschichtungen",
+          "content": "Schätzen Sie Flüssigkeiten für Oberflächen ab."
+        },
+        {
+          "heading": "Ausbildung",
+          "content": "Verstehen Sie die Beziehungen zwischen Fläche, Tiefe und Volumen."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Grundvolumen",
+          "content": "Basis: 10 Fuß × 5 Fuß | Tiefe: 1 Fuß | Volumen: 10 × 5 × 1 × 7,48052 ≈ 374 Gallonen | Gallonen pro Quadratfuß: 374 ÷ (10 × 5) ≈ 7,48 Gallonen/Quadratfuß"
+        },
+        {
+          "heading": "Beispiel 2 – Kosten",
+          "content": "Volumen: 500 Gallonen | Preis pro Gallone: ​​3 $ | Gesamtkosten: 500 × 3 = 1.500 $"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Gallonen pro Quadratfuß-Rechner?",
+      "a": "Es berechnet den Bedarf an Gallonen pro Quadratfuß für eine bestimmte Tiefe."
+    },
+    {
+      "q": "Warum es verwenden?",
+      "a": "Spart Zeit und gewährleistet eine genaue Planung des Flüssigkeitsvolumens."
+    },
+    {
+      "q": "Unterstützte Einheiten?",
+      "a": "Fuß, Zoll und Yards."
+    },
+    {
+      "q": "Funktioniert es für Pools und Tanks?",
+      "a": "Ja, ideal für alle Bereiche, in denen sich Flüssigkeiten befinden."
+    },
+    {
+      "q": "Berechnet es die Gesamtgallonenzahl?",
+      "a": "Ja, die Gesamtmenge wird sofort angezeigt."
+    },
+    {
+      "q": "Nützlich für die Landschaftsgestaltung/Bewässerung?",
+      "a": "Ja, hilft bei der Planung des Wasserbedarfs für Gärten und Teiche."
+    },
+    {
+      "q": "Kann ich die Kosten berechnen?",
+      "a": "Ja, geben Sie den Preis pro Gallone ein, um die Gesamtkosten zu erhalten."
+    },
+    {
+      "q": "Erklärt es die ungleichmäßige Tiefe?",
+      "a": "Nein, es nimmt eine flache, gleichmäßige Tiefe an."
+    },
+    {
+      "q": "Mobilfreundlich?",
+      "a": "Ja, funktioniert auf Smartphones, Tablets und Desktops."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, völlig kostenlos, es sind keine Downloads erforderlich."
+    }
+  ]
+}

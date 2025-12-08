@@ -1,0 +1,139 @@
+{
+  "color": "Schwarz",
+  "sections": [
+    {
+      "heading": "Zeitrechner: Was es ist und wie man es verwendet",
+      "content": "Der Zeitrechner ist ein kostenloses Online-Tool, mit dem Sie Stunden, Minuten und Sekunden addieren, subtrahieren oder vergleichen können. Es ist auf Genauigkeit und Einfachheit ausgelegt und eignet sich perfekt für Arbeitspläne, Projektverfolgung, Veranstaltungen, Lernsitzungen oder Reiseplanung."
+    },
+    {
+      "heading": "So verwenden Sie den Zeitrechner",
+      "subSections": [
+        {
+          "heading": "Geben Sie Zeitwerte ein",
+          "content": "Geben Sie Stunden, Minuten und Sekunden ein."
+        },
+        {
+          "heading": "Wählen Sie Operation aus",
+          "content": "Wählen Sie, ob die Zeit addiert oder subtrahiert werden soll."
+        },
+        {
+          "heading": "Mehrere Einträge hinzufügen",
+          "content": "Geben Sie bei Bedarf weitere Zeitwerte ein."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Sehen Sie sofort das Ergebnis."
+        },
+        {
+          "heading": "Überprüfen Sie das Ergebnis",
+          "content": "Der Rechner zeigt die Gesamtzeit oder Differenz mit automatischer Übertragung zwischen den Einheiten an."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Genaue Berechnungen",
+          "content": "Behandelt Stunden, Minuten und Sekunden korrekt."
+        },
+        {
+          "heading": "Zeit hinzufügen oder subtrahieren",
+          "content": "Summieren Sie mehrere Dauern oder ermitteln Sie die verstrichene Zeit."
+        },
+        {
+          "heading": "Automatische Übertragung",
+          "content": "Wandelt Sekunden automatisch in Minuten und Minuten in Stunden um."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf allen Geräten ohne Installation."
+        },
+        {
+          "heading": "Kostenlos und einfach zu bedienen",
+          "content": "Keine Anmeldung erforderlich, einfache Benutzeroberfläche."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Arbeit und Gehaltsabrechnung",
+          "content": "Berechnen Sie die Gesamtarbeitszeit, Überstunden oder Schichtdauer."
+        },
+        {
+          "heading": "Projektmanagement",
+          "content": "Verfolgen Sie die Dauer von Aufgaben oder ganzen Projekten."
+        },
+        {
+          "heading": "Eventplanung",
+          "content": "Bestimmen Sie Veranstaltungsdauern oder Endzeiten."
+        },
+        {
+          "heading": "Studium & Ausbildung",
+          "content": "Verfolgen Sie die Zeit, die Sie für Lern- oder Übungssitzungen aufwenden."
+        },
+        {
+          "heading": "Reisen & Logistik",
+          "content": "Berechnen Sie Reisezeiten, Fahrpläne oder Zwischenstopps."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Zeit hinzufügen",
+          "content": "Zeit 1: 3 Stunden 40 Minuten | Zeit 2: 2 Stunden 25 Minuten → Ergebnis: 6 Stunden 5 Minuten"
+        },
+        {
+          "heading": "Beispiel 2 – Zeit subtrahieren",
+          "content": "Startzeit: 5 Stunden 30 Minuten | Endzeit: 2 Stunden 45 Minuten → Ergebnis: 2 Stunden 45 Minuten"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist der Zeitrechner?",
+      "a": "Es ist ein Werkzeug zum Addieren, Subtrahieren oder Vergleichen von Stunden, Minuten und Sekunden."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, die Nutzung ist völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software?",
+      "a": "Nein, es funktioniert direkt in jedem Webbrowser."
+    },
+    {
+      "q": "Kann es mehrere Zeiteinträge verarbeiten?",
+      "a": "Ja, Sie können mehrere Dauern addieren oder subtrahieren."
+    },
+    {
+      "q": "Unterstützt es Stunden, Minuten und Sekunden?",
+      "a": "Ja, alle Standardzeiteinheiten werden unterstützt."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, es funktioniert nahtlos auf Smartphones, Tablets und Desktops."
+    },
+    {
+      "q": "Kann ich es für die Arbeitszeit- oder Gehaltsabrechnung verwenden?",
+      "a": "Ja, es berechnet die Gesamtstunden und Überstunden genau."
+    },
+    {
+      "q": "Werden Sekunden und Minuten automatisch umgerechnet?",
+      "a": "Ja, die Übertragung von Sekunden auf Minuten und von Minuten auf Stunden erfolgt automatisch."
+    },
+    {
+      "q": "Kann es bei der Veranstaltungsplanung helfen?",
+      "a": "Ja, es berechnet Dauer und Endzeit präzise."
+    },
+    {
+      "q": "Wie genau ist es?",
+      "a": "Es liefert völlig genaue Ergebnisse, wenn die Zeiteingaben korrekt sind."
+    }
+  ]
+}

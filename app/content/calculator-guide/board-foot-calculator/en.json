@@ -1,0 +1,143 @@
+{
+    "color": "orange",
+    "sections": [
+        {
+            "heading": "What is a Board Foot Calculator?",
+            "content": "A Board Foot Calculator helps you measure the volume of wood in board feet – a standard lumber unit. It’s essential for woodworkers, DIY enthusiasts, and construction professionals to estimate wood quantity and cost accurately."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Number of Boards",
+                    "content": "Total identical pieces."
+                },
+                {
+                    "heading": "Add Dimensions",
+                    "content": "Thickness (inches), Width (inches), Length (feet or inches)."
+                },
+                {
+                    "heading": "Optional: Price per Board Foot",
+                    "content": "For total cost calculation."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Get board feet per piece, total board feet, and total cost instantly."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Measure accurately for precise results."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Accurate Calculation",
+                    "content": "Uses standard lumber formulas."
+                },
+                {
+                    "heading": "Multiple Units",
+                    "content": "Accepts inches or feet."
+                },
+                {
+                    "heading": "Cost Estimation",
+                    "content": "Calculates total cost if price per board foot is provided."
+                },
+                {
+                    "heading": "Handles Multiple Boards",
+                    "content": "Calculates total volume for multiple pieces."
+                },
+                {
+                    "heading": "User-Friendly & Mobile-Friendly",
+                    "content": "Works on all devices."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Woodworkers & Carpenters",
+                    "content": "Plan furniture or cabinets."
+                },
+                {
+                    "heading": "DIY Projects",
+                    "content": "Avoid overbuying lumber."
+                },
+                {
+                    "heading": "Construction",
+                    "content": "Estimate wood for buildings."
+                },
+                {
+                    "heading": "Lumber Buyers/Sellers",
+                    "content": "Compare costs and plan budgets."
+                },
+                {
+                    "heading": "Education",
+                    "content": "Learn board foot calculation."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1",
+                    "content": "Board: 2″ × 6″ × 8′ | Board Feet = (8 × 6 × 2) ÷ 12 = 8 BF"
+                },
+                {
+                    "heading": "Example 2",
+                    "content": "5 boards: 1.5″ × 4″ × 10′ | Per Board = (10 × 4 × 1.5) ÷ 12 = 5 BF | Total = 5 BF × 5 = 25 BF"
+                },
+                {
+                    "heading": "Example 3 (Cost)",
+                    "content": "Price per BF = $3 | Total cost = 25 × 3 = $75"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a board foot?",
+            "a": "1 board foot = 1′ × 1′ × 1″ of wood."
+        },
+        {
+            "q": "Why use a board foot calculator?",
+            "a": "To save time and reduce calculation errors."
+        },
+        {
+            "q": "Can I use inches or feet?",
+            "a": "Yes, both are supported."
+        },
+        {
+            "q": "Can it handle multiple boards?",
+            "a": "Yes, it calculates total volume."
+        },
+        {
+            "q": "Can I calculate cost?",
+            "a": "Yes, if price per board foot is provided."
+        },
+        {
+            "q": "Is it suitable for DIY projects?",
+            "a": "Yes, perfect for professionals and hobbyists."
+        },
+        {
+            "q": "Does it account for waste?",
+            "a": "No, it shows theoretical board feet."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, works on all devices."
+        },
+        {
+            "q": "What formula is used?",
+            "a": "Board Feet = (Thickness × Width × Length) ÷ 12"
+        },
+        {
+            "q": "Is it used worldwide?",
+            "a": "Mostly in the US and Canada; convert units for other regions."
+        }
+    ]
+}

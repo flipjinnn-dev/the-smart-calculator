@@ -1,0 +1,125 @@
+{
+  "pageTitle": "Calculadora científica",
+  "pageDescription": "Realice cálculos matemáticos avanzados y funciones científicas que incluyen trigonometría, logaritmos, exponentes y operaciones estadísticas.",
+  "form": {
+    "labels": {
+      "operation": "Operación",
+      "inputValue": "Valor de entrada",
+      "angleMode": "Modo de ángulo",
+      "numberBase": "Base numérica",
+      "memory": "Funciones de memoria"
+    },
+    "placeholders": {
+      "inputValue": "Introduzca valor o expresión"
+    },
+    "buttons": {
+      "calculate": "Calcular",
+      "clear": "Claro",
+      "reset": "Reiniciar"
+    },
+    "operations": {
+      "basic": "Operaciones básicas",
+      "trig": "Funciones trigonométricas",
+      "log": "Funciones logarítmicas",
+      "exp": "Funciones exponenciales",
+      "stat": "Funciones estadísticas",
+      "misc": "Funciones diversas"
+    },
+    "angleModes": {
+      "degrees": "Grados",
+      "radians": "radianes",
+      "gradians": "Gradianes"
+    },
+    "numberBases": {
+      "decimal": "decimales (base 10)",
+      "binary": "Binario (Base 2)",
+      "octal": "Octal (Base 8)",
+      "hexadecimal": "Hexadecimal (Base 16)"
+    }
+  },
+  "results": {
+    "result": "Resultado",
+    "expression": "Expresión",
+    "calculationHistory": "Historial de cálculo",
+    "scientificResultsTitle": "Resultados de la calculadora científica"
+  },
+  "educational": {
+    "scientificInfo": "Información de la calculadora científica",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos matemáticos",
+    "scientificFunctions": {
+      "trig": {
+        "title": "Funciones trigonométricas",
+        "description": "sin, cos, tan y sus inversos (asin, acos, atan)"
+      },
+      "log": {
+        "title": "Funciones logarítmicas",
+        "description": "log (base 10), ln (log natural) y log base n"
+      },
+      "stat": {
+        "title": "Funciones estadísticas",
+        "description": "Media, mediana, desviación estándar y otras operaciones estadísticas"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona cálculos matemáticos únicamente.",
+      "precision": "Los resultados están limitados por la precisión computacional y el redondeo."
+    },
+    "importantNotesList": [
+      "Garantizar el modo de ángulo correcto para cálculos trigonométricos",
+      "Verifique el historial de cálculo para problemas complejos de varios pasos",
+      "Verifique el historial de cálculo para problemas complejos de varios pasos",
+      "Utilice un número apropiado de cifras significativas en sus resultados."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese su expresión matemática o seleccione una función",
+    "resultMessage": "El resultado de su cálculo se muestra a continuación.",
+    "assessmentResult": "Resultado del cálculo:",
+    "scientificAnalysis": "Análisis de cálculo científico"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona cálculos matemáticos basados ​​en fórmulas científicas estándar. Los resultados están sujetos a limitaciones de precisión computacional y deben verificarse para aplicaciones críticas."
+  },
+  "seekHelp": {
+    "title": "Recursos matemáticos",
+    "content": "Para problemas matemáticos complejos o aplicaciones especializadas, considere consultar a profesionales de las matemáticas o utilizar herramientas de software especializadas diseñadas para matemáticas avanzadas."
+  },
+  "errors": {
+    "inputValue": "Por favor ingresa una expresión matemática válida",
+    "operation": "Por favor seleccione una operación válida",
+    "domain": "El valor de entrada está fuera del dominio de esta función",
+    "overflow": "El resultado del cálculo es demasiado grande para mostrarlo"
+  },
+  "tooltips": {
+    "operation": "Seleccione la operación matemática a realizar",
+    "inputValue": "Ingrese el valor o expresión a calcular",
+    "angleMode": "Seleccione el modo de medición de ángulos para funciones trigonométricas",
+    "numberBase": "Seleccione la base numérica para los cálculos."
+  },
+  "scientific_calculations_0": "Cálculos científicos",
+  "enter_your_expression_or_use_the_buttons_below_1": "Ingrese su expresión o use los botones a continuación",
+  "expression_2": "Expresión",
+  "m_3": "METRO:",
+  "calculate_4": "Calcular",
+  "result_5": "Resultado",
+  "calculated_value_6": "Valor calculado",
+  "you_can_copy_or_use_this_value_as_needed_7": "Puede copiar o utilizar este valor según sea necesario.",
+  "enter_an_expression_and_click_8": "Introduzca una expresión y haga clic",
+  "calculate_9": "Calcular",
+  "to_see_result_10": "para ver resultado.",
+  "how_to_use_this_calculator_11": "¿Cómo utilizar esta calculadora?",
+  "k_1_12": "1",
+  "type_your_math_expression_or_use_the_buttons_13": "Escribe tu expresión matemática o usa los botones.",
+  "k_2_14": "2",
+  "use_functions_like_sinx_cosx_tanx_logx_x_for_power_15": "Utilice funciones como sin(x), cos(x), tan(x), log(x), √(x), ^ para potencias, n! para factorial, π, e, memoria y más.",
+  "k_3_16": "3",
+  "click_17": "Hacer clic",
+  "calculate_18": "Calcular",
+  "to_see_the_result_instantly_19": "para ver el resultado al instante.",
+  "k_4_20": "4",
+  "use_degrad_toggle_ans_for_last_answer_memory_butto_21": "Utilice la opción Deg/Rad, Ans para la última respuesta, botones de memoria y corchetes para agrupar."
+}

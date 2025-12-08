@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-
+import CalculatorGuide from "@/components/calculator-guide";
 import { Calculator, FenceIcon as Function, AlertCircle } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import SimilarCalculators from "@/components/similar-calculators";
@@ -30,7 +30,16 @@ export default function SimpsonsRuleCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('simpsons-rule-calculator', language, "calculator-ui");
-
+  const { content: guideContent } = useCalculatorContent(
+    'simpsons-rule-calculator',
+    language,
+    "calculator-guide"
+  )
+  const guideData = guideContent || {
+    color: 'blue',
+    sections: [],
+    faq: []
+  }
   // Use content or fallback to defaults
   const contentData = content || {
     "pageTitle": "",
@@ -421,7 +430,7 @@ export default function SimpsonsRuleCalculator() {
               </CardContent>
             </Card>
           </div>}
-
+          <CalculatorGuide data={guideData} />
           {/* Educational Content */}
           <div className="mt-12 space-y-8">
             {/* What is Simpson's Rule */}
@@ -492,36 +501,6 @@ export default function SimpsonsRuleCalculator() {
                     <p>{contentData.k_4_apply_coefficients_1_4_2_4_1_sum_1133_73}</p>
                     <p>{contentData.k_5_result_0253_1133_74}<strong>{contentData.k_0094417_75}</strong>
                     </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* FAQ */}
-            <Card className="shadow-xl border-0 bg-white">
-              <CardHeader className="px-8 py-6">
-                <CardTitle className="text-2xl font-bold text-gray-900">{contentData.faq_76}</CardTitle>
-              </CardHeader>
-              <CardContent className="px-8 pb-8">
-                <div className="space-y-6">
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">{contentData.what_is_simpsons_rule_77}</h3>
-                    <p className="text-gray-700">{contentData.simpsons_rule_is_a_numerical_method_for_approximat_78}</p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">{contentData.why_must_n_be_even_79}</h3>
-                    <p className="text-gray-700">{contentData.simpsons_13_rule_requires_pairing_adjacent_interva_80}</p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">{contentData.how_accurate_is_simpsons_rule_81}</h3>
-                    <p className="text-gray-700">{contentData.simpsons_rule_has_an_error_of_oh_making_it_much_mo_82}</p>
-                  </div>
-
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">{contentData.difference_between_trapezoidal_rule_and_simpsons_r_83}</h3>
-                    <p className="text-gray-700">{contentData.the_trapezoidal_rule_uses_linear_approximations_st_84}</p>
                   </div>
                 </div>
               </CardContent>

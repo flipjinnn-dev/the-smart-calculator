@@ -39,6 +39,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Berechnen Sie Ihre monatlichen Hypothekenzahlungen, Gesamtzinsen und Tilgungsplan. Umfassendes Tool für Ihre Immobilienfinanzierung.",
       slug: "/de/finanziell/hypotheken-rechner",
       keywords: "Hypothekenrechner, Baufinanzierung, monatliche Rate, Tilgungsplan, Zinsen berechnen, Immobilienfinanzierung, Darlehensrechner"
+    },
+    es: {
+      title: "Calculadora de Hipoteca",
+      description: "Calcule los pagos mensuales de la hipoteca, el interés total y el calendario de amortización. Herramienta completa para su financiación inmobiliaria.",
+      slug: "/es/financiero/hipoteca-calculadora",
+      keywords: "calculadora hipoteca, pagos mensuales, interés total, amortización, calendario, financiación inmobiliaria"
     }
   },
   'finance-calculator': {
@@ -65,6 +71,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Umfassendes Tool für verschiedene Finanzberechnungen, einschließlich Zinseszins, Gegenwarts- und Zukunftswert sowie Investitionsanalyse.",
       slug: "/de/finanziell/finanz-rechner",
       keywords: "Finanzrechner, Finanzberechnungen, Zinseszins, Barwert, Zukunftswert, Finanzanalyse, Finanzplanung"
+    },
+    es: {
+      title: "Calculadora Financiera",
+      description: "Herramienta integral para diversos cálculos financieros, incluyendo interés compuesto, valor presente y futuro, y análisis de inversiones.",
+      slug: "/es/financiero/calculadora-financiera",
+      keywords: "calculadora financiera, finanzas, interés compuesto, valor presente, valor futuro, análisis financiero"
     }
   },
   '401k-calculator': {
@@ -559,6 +571,12 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Mit dem Kreditrechner berechnen Sie Zinsen",
       slug: "/de/finanziell/kreditrechner",
       keywords: "Kreditrechner, Kreditraten, Zinssätze, Tilgungsplan, Darlehen, Finanzierung"
+    },
+    es: {
+      title: "Calculadora de Préstamos",
+      description: "Calcule los pagos del préstamo, las tasas de interés y los calendarios de pago. Planifique sus finanzas con precisión.",
+      slug: "/es/financiero/calculadora-de-prestamos",
+      keywords: "calculadora préstamos, pagos préstamo, tasas interés, calendario pagos, financiación, crédito"
     }
   },
   'compound-interest-calculator': {
@@ -581,10 +599,16 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calculadora juros compostos, crescimento investimento, contribuições regulares, rendimento acumulado"
     },
     de: {
-      title: "Zinseszinsrechner – Vermögensaufbau online berechnen",
-      description: "Mit dem Zinseszinsrechner berechnen Sie Kapitalwachstum",
+      title: "Zinseszinsrechner",
+      description: "Berechnen Sie, wie Ihre Investitionen durch Zinseszinsen im Laufe der Zeit wachsen.",
       slug: "/de/finanziell/zinseszinsrechner",
-      keywords: "Zinseszinsrechner, Zinseszins, Anlagewachstum, regelmäßige Einzahlungen, Investitionswachstum"
+      keywords: "Zinseszinsrechner, Zinseszins, Investitionswachstum, Sparrechner, Zinsen berechnen"
+    },
+    es: {
+      title: "Calculadora de Interés Compuesto",
+      description: "Calcule cómo crecen sus inversiones con el tiempo gracias al interés compuesto.",
+      slug: "/es/financiero/calculadora-de-juros-compostos",
+      keywords: "interés compuesto, crecimiento inversión, ahorro, calcular intereses, finanzas"
     }
   },
   'interest-calculator': {
@@ -815,10 +839,16 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calculadora IMC, índice massa corporal, peso saudável, sobrepeso, obesidade, saúde"
     },
     de: {
-      title: "BMI Rechner – Body-Mass-Index einfach online berechnen",
-      description: "Mit dem BMI Rechner berechnen Sie Ihren Body-Mass-Index schnell & präzise. Finden Sie heraus",
+      title: "BMI-Rechner",
+      description: "Berechnen Sie Ihren Body-Mass-Index (BMI) und finden Sie Ihr gesundes Gewicht.",
       slug: "/de/gesundheit/bmi-rechner",
-      keywords: "BMI Rechner, Body-Mass-Index, Gewichtskategorie, Gesundheit, Übergewicht"
+      keywords: "BMI-Rechner, Body-Mass-Index, gesundes Gewicht, Übergewicht, Untergewicht, BMI berechnen"
+    },
+    es: {
+      title: "Calculadora de IMC",
+      description: "Calcule su Índice de Masa Corporal (IMC) y descubra su peso saludable.",
+      slug: "/es/saude/calculadora-imc",
+      keywords: "calculadora IMC, índice masa corporal, peso saludable, sobrepeso, bajo peso"
     }
   },
   'pregnancy-weight-gain-calculator': {
@@ -1465,10 +1495,16 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calorias, necessidades calóricas, cálculo calorias, dieta, atividade física"
     },
     de: {
-      title: "Kalorienrechner – Täglichen Kalorienbedarf einfach berechnen",
-      description: "Berechne mit dem Kalorienrechner deinen täglichen Kalorienbedarf. Ideal für Abnehmen",
+      title: "Kalorienrechner",
+      description: "Berechnen Sie Ihren täglichen Kalorienbedarf basierend auf Ihren Zielen.",
       slug: "/de/gesundheit/kalorienrechner",
-      keywords: "Kalorienbedarf, tägliche Kalorien, Ernährung, Energiebedarf"
+      keywords: "Kalorienrechner, Kalorienbedarf, abnehmen, zunehmen, Gewicht halten, Kalorien zählen"
+    },
+    es: {
+      title: "Calculadora de Calorías",
+      description: "Calcule su necesidad diaria de calorías según sus objetivos y estilo de vida.",
+      slug: "/es/saude/calculadora-de-calorias",
+      keywords: "calculadora calorías, necesidad calórica, perder peso, ganar peso, mantener peso"
     }
   },
   'bac-calculator': {
@@ -1590,7 +1626,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     br: {
       title: "Calculadora de Concepção e Gravidez",
-      description: "Estime a data da concepção e os marcos da gravidez com base na data prevista do parto, última menstruação ou data do ultrassom. Planeje sua jornada gestacional.",
+      description: "Estime a data da concepção e os marcos da gravidez com base na data prevista do parto, última menstruação o u fecha do ultrassom. Planeje sua jornada gestacional.",
       slug: "/br/saude/calculadora-de-concepcao-de-gravidez",
       keywords: "concepção, marcos gravidez, data parto, ultrassom gestacional, planejamento gestacional"
     },
@@ -1621,10 +1657,16 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "percentual, cálculo porcentagem, variação percentural, proporção"
     },
     de: {
-      title: "Prozentrechner – Prozent einfach & schnell online berechnen",
-      description: "Berechne mit dem Prozentrechner Prozente",
+      title: "Prozentrechner",
+      description: "Berechnen Sie Prozentsätze, Zunahmen und Abnahmen einfach und schnell.",
       slug: "/de/mathe/prozentrechner",
-      keywords: "Prozentrechner, Prozentrechnung, prozentuale Veränderung, Verhältnis"
+      keywords: "Prozentrechner, Prozent berechnen, prozentuale Zunahme, prozentuale Abnahme, Mathematik"
+    },
+    es: {
+      title: "Calculadora de Porcentajes",
+      description: "Calcule porcentajes, aumentos y disminuciones de forma rápida y sencilla.",
+      slug: "/es/matematica/calculadora-de-porcentagem",
+      keywords: "calculadora porcentajes, calcular porcentaje, aumento porcentual, disminución porcentual, matemáticas"
     }
   },
   'percent-error-calculator': {

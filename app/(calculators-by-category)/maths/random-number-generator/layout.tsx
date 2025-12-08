@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for random-number-generator
 const randomnumbergeneratorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }random-number-generator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }random-number-generator`,
       languages: {
         'en': getCanonicalUrl('random-number-generator', 'en'),
         'pt-BR': getCanonicalUrl('random-number-generator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }random-number-generator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }random-number-generator`,
     },
   };
 }
@@ -70,5 +69,108 @@ export default async function RandomNumberGeneratorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Random Number Generator",
+    "url": "https://www.thesmartcalculator.com/maths/random-number-generator",
+    "description": "Free online Random Number Generator to instantly generate numbers between any custom range. Ideal for math, statistics, coding, gaming, and everyday use.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Random Number Generator",
+        "applicationCategory": "MathCalculator",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Instant number generation",
+          "Custom range selection",
+          "Multiple number output",
+          "Uniform random algorithm",
+          "Mobile-friendly interface"
+        ],
+        "url": "https://www.thesmartcalculator.com/maths/random-number-generator"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Random Number Generator",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Random Number Generator",
+            "text": "Input the lowest number in your desired range."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Random Number Generator",
+            "text": "Add the highest number in your selected range."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Random Number Generator",
+            "text": "Choose how many random numbers you want to generate."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Random Number Generator",
+            "text": "Press the generate button to instantly get random numbers."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Random Number Generator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Random Number Generator is an online tool that produces unpredictable numbers within a custom range."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the Random Number Generator free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the tool is completely free to use on all devices."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I generate multiple numbers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, you can choose the quantity and generate multiple numbers instantly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the output truly random?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The tool uses a pseudo-random algorithm suitable for math tasks, coding, and everyday use."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="random-number-generator-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

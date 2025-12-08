@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for height-calculator
 const heightcalculatorMeta = {
@@ -35,7 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = heightcalculatorMeta[language as keyof typeof heightcalculatorMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCanonicalUrl('height-calculator', language);
 
@@ -66,5 +67,162 @@ export default async function HeightCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Height Calculator",
+    "url": "https://www.thesmartcalculator.com/height-calculator",
+    "description": "Free online Height Calculator to convert between units (cm, meters, feet/inches) and estimate adult height accurately.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Height Calculator",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Accurate height conversion between cm, meters, and feet/inches",
+          "Optional adult height estimation",
+          "Instant calculation",
+          "Mobile-friendly interface",
+          "Free to use"
+        ],
+        "url": "https://www.thesmartcalculator.com/height-calculator"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Height Calculator",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Height Calculator",
+            "text": "Input your height in cm, meters, or feet/inches."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Height Calculator",
+            "text": "Choose whether you want unit conversion or adult height estimate."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Height Calculator",
+            "text": "For height prediction, enter age and parental heights."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Height Calculator",
+            "text": "Get instant results for height conversion or predicted adult height."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Height Calculator",
+            "text": "View accurate converted height or estimated adult height."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Height Calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is an online tool to measure, convert, or estimate height accurately."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is completely free to use online."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need software?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, it works directly in any web browser."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it convert units?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it supports cm, meters, and feet/inches conversions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it predict adult height?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it can estimate adult height using age and parental height."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it accurate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Unit conversions are precise; adult height predictions are estimates."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it mobile-friendly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it works on smartphones, tablets, and desktops."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who can use it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Students, parents, fitness enthusiasts, and health professionals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it help with school or sports records?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it provides correct height units for official documentation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I rely on predicted height?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Predicted height is an estimate and may vary due to genetics or health factors."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="height-calculator-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

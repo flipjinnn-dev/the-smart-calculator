@@ -1,0 +1,127 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Comprenda sus impuestos con nuestra calculadora de impuesto sobre la renta",
+      "content": "La declaración de impuestos no tiene por qué ser confusa. Nuestra Calculadora de impuestos sobre la renta le ayuda a calcular el impuesto sobre la renta en línea de forma rápida y precisa, brindándole información clara sobre sus ingresos imponibles, deducciones y salario neto. Ya sea que desee estimar su obligación tributaria para 2025, verificar si recibirá un reembolso o planificar sus finanzas con anticipación, esta calculadora gratuita de impuestos sobre la renta es su herramienta de referencia."
+    },
+    {
+      "heading": "Con resultados instantáneos, puedes:",
+      "subSections": [
+        {
+          "heading": "Evite errores manuales",
+          "content": "Con la fórmula de cálculo del impuesto sobre la renta."
+        },
+        {
+          "heading": "Compare el impuesto sobre la renta federal y estatal",
+          "content": "Vea resultados en segundos."
+        },
+        {
+          "heading": "Planifica mejor",
+          "content": "Utilice información valiosa para optimizar los ahorros, las deducciones y la estrategia de presentación."
+        }
+      ]
+    },
+    {
+      "heading": "¿Cómo funciona la calculadora del impuesto sobre la renta?",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Ingrese sus ingresos: salario, ganancias comerciales o de trabajo por cuenta propia."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Aplicar deducciones: elija entre la deducción estándar o la deducción detallada."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Vea su ingreso imponible: comprenda qué significa ingreso imponible y en qué se diferencia del ingreso bruto frente al ingreso neto."
+        },
+        {
+          "heading": "Paso 4",
+          "content": "Revise los tramos impositivos 2025 explicados: compruebe qué parte de sus ingresos se incluye en cada tramo."
+        },
+        {
+          "heading": "Paso 5",
+          "content": "Vea sus resultados al instante: vea su obligación tributaria, sus ingresos después de impuestos o su posible reembolso."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso y variaciones",
+      "subSections": [
+        {
+          "heading": "Calculadora del impuesto federal sobre la renta",
+          "content": "Para tramos federales de EE. UU."
+        },
+        {
+          "heading": "Calculadora del impuesto sobre la renta estatal",
+          "content": "Vea cómo su estado afecta su responsabilidad."
+        },
+        {
+          "heading": "Calculadora de reembolso del impuesto sobre la renta",
+          "content": "Calcule su reembolso en minutos."
+        },
+        {
+          "heading": "Calculadora de ingresos después de impuestos / Calculadora de salario neto",
+          "content": "Descubra lo que queda después de las deducciones."
+        },
+        {
+          "heading": "Calculadora de impuesto sobre la renta para autónomos y empresas",
+          "content": "Creado para autónomos, emprendedores y LLC."
+        },
+        {
+          "heading": "Calculadora de impuestos sobre dividendos y ganancias de capital",
+          "content": "Realice un seguimiento de las inversiones y los rendimientos."
+        },
+        {
+          "heading": "Casado que presenta una declaración conjunta o con dependientes",
+          "content": "Calcule los beneficios y compare las opciones de estado civil para efectos de la declaración."
+        }
+      ]
+    },
+    {
+      "heading": "¿Por qué elegir esta calculadora de impuesto sobre la renta?",
+      "subSections": [
+        {
+          "heading": "Rápido y Gratis",
+          "content": "Sin registros, sin tarifas."
+        },
+        {
+          "heading": "Preciso y confiable",
+          "content": "Actualizado con los tramos impositivos 2025 explicados."
+        },
+        {
+          "heading": "Fácil de usar",
+          "content": "Interfaz sencilla para individuos, familias y empresas."
+        },
+        {
+          "heading": "Integral",
+          "content": "Funciona como estimador del impuesto sobre la renta 2025, calculadora de reembolsos y estimador del salario neto, todo en uno."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo calcular el impuesto sobre el salario en línea?",
+      "a": "Ingrese su salario bruto, aplique deducciones y deje que la calculadora estime su obligación tributaria y su salario neto."
+    },
+    {
+      "q": "¿Qué son los ingresos antes de impuestos y después de impuestos?",
+      "a": "Los ingresos antes de impuestos son sus ganancias totales antes de impuestos, mientras que los ingresos después de impuestos muestran lo que conserva después de las deducciones."
+    },
+    {
+      "q": "¿Qué es el precio con impuestos incluidos y el precio sin impuestos?",
+      "a": "Con impuestos incluidos significa que el impuesto ya está incluido en el total, mientras que sin impuestos significa que los impuestos se agregan por separado."
+    },
+    {
+      "q": "¿Cómo maneja la calculadora a los dependientes o casados ​​que presentan una declaración conjunta?",
+      "a": "Simplemente seleccione su estado civil para efectos de la declaración y la cantidad de dependientes para obtener resultados personalizados."
+    },
+    {
+      "q": "¿Cómo estimar una devolución con una calculadora de impuesto sobre la renta?",
+      "a": "Ingrese los detalles de su retención y la calculadora estimará si deberá o recibirá un reembolso."
+    }
+  ]
+}

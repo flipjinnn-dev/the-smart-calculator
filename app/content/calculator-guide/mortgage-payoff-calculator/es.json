@@ -1,0 +1,85 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de liquidación de hipotecas: comprenda sus ahorros y su fecha de liquidación",
+      "content": "Nuestra calculadora gratuita de liquidación de hipotecas en línea le ayuda a ver exactamente cómo los pagos adicionales, las sumas globales o los calendarios quincenales pueden reducir el saldo de su préstamo, acortar la fecha de liquidación y ahorrar miles de dólares en intereses. Ya sea que desee probar una herramienta de cálculo de la fecha de pago de la hipoteca, comparar pagos quincenales con pagos mensuales o calcular el impacto de un pago hipotecario de suma global, esta herramienta le brinda resultados claros y personalizados en segundos."
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de liquidación de hipotecas?",
+      "content": "Una hipoteca suele ser la deuda más grande que tiene la mayoría de las personas. Saber cómo liquidarlo anticipadamente puede significar años de libertad financiera. Nuestra mejor calculadora de liquidación de hipotecas con amortización le permite:",
+      "subSections": [
+        {
+          "heading": "Beneficios",
+          "content": "- Vea cuánto interés ahorrará con pagos adicionales.\n- Compare los calendarios de liquidación de hipotecas a 15 años y a 30 años.\n- Comprender el impacto de los pagos quincenales frente a los mensuales.\n- Calcule la fecha de liquidación de su nueva hipoteca con solo unas pocas entradas.\n- Explorar estrategias antes de decidir si refinanciar o invertir."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo los pagos adicionales ahorran intereses",
+      "content": "Agregar dinero adicional a su hipoteca reduce el capital más rápidamente. Esto significa que se acumulan menos intereses con el tiempo.",
+      "subSections": [
+        {
+          "heading": "Ejemplo",
+          "content": "Préstamo: $250.000, 30 años, 6% de interés.\n- Pago mensual estándar: $1,499.\n- Con $200 extra por mes: Ahorre $62,000 en intereses y elimine 6 años de su hipoteca.\n\nEsta es la razón por la que una calculadora de pago de hipoteca adicional con ahorros es tan poderosa: le muestra exactamente cuánto dinero queda en su bolsillo."
+        }
+      ]
+    },
+    {
+      "heading": "Pagos quincenales versus pagos mensuales",
+      "content": "Muchos propietarios se preguntan: ¿un pago hipotecario quincenal ahorra dinero?",
+      "subSections": [
+        {
+          "heading": "Comparación",
+          "content": "- Pago mensual = 12 pagos completos al año.\n- Pago quincenal = 26 medios pagos (13 pagos completos).\n\nEse pago “extra” cada año puede:\n- Acorte el plazo de liquidación entre 4 y 6 años en un préstamo a 30 años.\n- Ahorre decenas de miles en intereses.\n- Trabaje automáticamente sin necesidad de grandes sumas globales.\n\nNuestra calculadora gratuita de liquidación de hipotecas quincenal facilita la comparación de ambos calendarios."
+        }
+      ]
+    },
+    {
+      "heading": "Pagos de suma global y estrategias de pago anticipado",
+      "content": "Una calculadora de pagos hipotecarios de suma global muestra cómo los pagos únicos pueden cambiar su cronograma de pagos.",
+      "subSections": [
+        {
+          "heading": "Ejemplos y estrategias",
+          "content": "Ejemplo: Pague una suma global de $10,000 en el año 5 → podría reducir 2 años de pagos.\n\nEstrategias populares para liquidar su hipoteca más rápido:\n- Redondear los pagos mensuales.\n- Realizar un pago extra anualmente.\n- Cambiar a pagos quincenales.\n- Aplicar bonificaciones, devoluciones de impuestos o sumas globales.\n- Utilice una calculadora de pago de hipoteca versus inversión para decidir si el pago anticipado supera el rendimiento de la inversión."
+        }
+      ]
+    },
+    {
+      "heading": "Liquidación de hipoteca versus refinanciación o inversión",
+      "content": "A veces, liquidar su hipoteca antes de tiempo no es la mejor decisión. Compare opciones con estas herramientas:",
+      "subSections": [
+        {
+          "heading": "Comparaciones",
+          "content": "- Calculadora de pago de hipoteca versus refinanciamiento → Vea si el refinanciamiento reduce su tasa de manera más efectiva.\n- Calculadora de pago de hipoteca versus pago de deuda → Priorice primero las deudas con intereses altos.\n- Liquidación de la hipoteca frente a ahorros para la jubilación → Compruebe si invertir en 401(k) o IRA puede generar mayores rendimientos.\n\nNuestra calculadora le ayuda a sopesar todos los escenarios antes de tomar una decisión."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo reducen los intereses los pagos hipotecarios adicionales?",
+      "a": "Al aplicar los pagos directamente al capital, reduce el saldo más rápido, lo que reduce los cargos por intereses futuros."
+    },
+    {
+      "q": "¿Cuánto puedo ahorrar amortizando anticipadamente mi hipoteca?",
+      "a": "Los ahorros varían, pero incluso $100 adicionales por mes pueden reducir años de una hipoteca a 30 años y ahorrar decenas de miles."
+    },
+    {
+      "q": "¿Es inteligente liquidar una hipoteca antes de tiempo?",
+      "a": "Depende de tus objetivos financieros. Compare con los rendimientos de las inversiones o las estrategias de pago de deudas."
+    },
+    {
+      "q": "¿La refinanciación afecta el pago de la hipoteca?",
+      "a": "Sí, la refinanciación puede restablecer su calendario de pagos, pero podría reducir su tasa. Utilice una calculadora de refinanciamiento para mayor claridad."
+    },
+    {
+      "q": "¿Cuántos años puedo cortar con pagos quincenales?",
+      "a": "Normalmente, de 4 a 6 años en una hipoteca a 30 años."
+    },
+    {
+      "q": "¿Qué pasa si mi hipoteca tiene penalizaciones por pago anticipado?",
+      "a": "Consulte los términos de su prestamista. Nuestra calculadora de multas por pago de hipotecas puede ayudar a estimar los costos."
+    }
+  ]
+}

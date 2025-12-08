@@ -1,0 +1,143 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "¿Qué es la Calculadora de Grasa Corporal?",
+      "content": "La Calculadora de grasa corporal es una herramienta gratuita y precisa que le ayuda a estimar su porcentaje de grasa corporal y su composición general. Al utilizar datos como el peso corporal, la altura, el sexo y las medidas, proporciona información sobre la masa magra, el porcentaje de grasa y el estado de salud. Si eres un entusiasta del fitness, un atleta o alguien que monitorea las métricas de salud, esta calculadora te ayuda a tomar decisiones informadas sobre la dieta, el ejercicio y el estilo de vida."
+    },
+    {
+      "heading": "Cómo se mide la grasa corporal",
+      "subSections": [
+        {
+          "heading": "Calculadora de IMC y grasa corporal",
+          "content": "El IMC muestra el peso corporal en relación con la altura, pero no distingue entre músculo y grasa. La combinación del IMC con las estimaciones de grasa da una imagen más clara."
+        },
+        {
+          "heading": "Medidas de cinta",
+          "content": "Medir la cintura, las caderas y el cuello con una cinta puede estimar la grasa corporal. Este método es común en las calculadoras de grasa corporal del ejército y en las evaluaciones de atletas."
+        },
+        {
+          "heading": "Calibradores de pliegues cutáneos",
+          "content": "Los calibradores miden el grosor de los pliegues cutáneos en puntos específicos del cuerpo. Fiable para el seguimiento cuando se realiza correctamente."
+        },
+        {
+          "heading": "Impedancia bioeléctrica y básculas inteligentes",
+          "content": "Las básculas y dispositivos inteligentes envían una corriente segura a través del cuerpo para estimar la grasa frente a la masa magra."
+        },
+        {
+          "heading": "Estándares militares y especializados",
+          "content": "La Calculadora de grasa corporal del ejército utiliza fórmulas estandarizadas para evaluar la composición corporal para determinar la aptitud y la elegibilidad."
+        }
+      ]
+    },
+    {
+      "heading": "Rangos de grasa corporal por edad, sexo y objetivos de acondicionamiento físico",
+      "subSections": [
+        {
+          "heading": "Grasa esencial",
+          "content": "Hombres: 2 a 5 %, mujeres: 10 a 13 %. Necesario para la supervivencia y las funciones hormonales."
+        },
+        {
+          "heading": "Atletas",
+          "content": "Hombres: 6–13 %, mujeres: 14–20 %: ideal para un desempeño competitivo."
+        },
+        {
+          "heading": "Aptitud física",
+          "content": "Hombres: 14–17 %, mujeres: 21–24 %: rango saludable para adultos activos."
+        },
+        {
+          "heading": "Promedio",
+          "content": "Hombres: 18–24 %, Mujeres: 25–31 %: rango típico para la población general."
+        },
+        {
+          "heading": "Obeso",
+          "content": "Hombres: 25 %+, Mujeres: 32 %+ – Mayor riesgo de problemas de salud."
+        }
+      ]
+    },
+    {
+      "heading": "Consejos para reducir la grasa corporal de forma segura",
+      "subSections": [
+        {
+          "heading": "Ejercicio",
+          "content": "Combine el entrenamiento de fuerza con cardio regular."
+        },
+        {
+          "heading": "Alimentación equilibrada",
+          "content": "Consuma proteínas, fibra y grasas saludables evitando los alimentos procesados."
+        },
+        {
+          "heading": "Seguimiento de calorías",
+          "content": "Utilice calculadoras TDEE o BMR para realizar un seguimiento de la ingesta de calorías."
+        },
+        {
+          "heading": "Hábitos de estilo de vida",
+          "content": "Duerma bien, controle el estrés y evite las dietas extremas."
+        }
+      ]
+    },
+    {
+      "heading": "Limitaciones de las calculadoras de grasa corporal",
+      "subSections": [
+        {
+          "heading": "Sólo estimaciones",
+          "content": "Es posible que los resultados no sean 100% precisos ya que factores como la hidratación y la genética afectan los resultados."
+        },
+        {
+          "heading": "No es un sustituto médico",
+          "content": "Esta herramienta no reemplaza el diagnóstico profesional ni el asesoramiento sanitario."
+        },
+        {
+          "heading": "Variaciones del método",
+          "content": "Diferentes métodos (calibradores, impedancia, etc.) pueden mostrar resultados ligeramente diferentes."
+        },
+        {
+          "heading": "Mejores prácticas",
+          "content": "Utilice la calculadora con regularidad y combínela con otros métodos de seguimiento de su estado físico."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es un porcentaje de grasa corporal saludable para hombres y mujeres?",
+      "a": "Para adultos en general: hombres entre el 14% y el 24%, mujeres entre el 21% y el 31%. Los atletas pueden estar más bajos."
+    },
+    {
+      "q": "¿Cómo calculo mi porcentaje de grasa corporal?",
+      "a": "Utilice métodos como cintas métricas, calibradores, impedancia bioeléctrica o nuestra Calculadora de grasa corporal en línea."
+    },
+    {
+      "q": "¿Son precisas las calculadoras de grasa corporal?",
+      "a": "Proporcionan estimaciones. La precisión mejora cuando se combinan varios métodos."
+    },
+    {
+      "q": "¿Cómo puedo reducir la grasa corporal de forma segura?",
+      "a": "Siga una dieta equilibrada, ejercicio constante, sueño adecuado y evite dietas extremas."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre el IMC y la grasa corporal?",
+      "a": "El IMC mide el peso frente a la altura, pero no separa la grasa del músculo. El porcentaje de grasa corporal mide la grasa frente a la masa magra."
+    },
+    {
+      "q": "¿Pueden los deportistas utilizar una calculadora de grasa corporal?",
+      "a": "Sí, las calculadoras de grasa corporal para atletas brindan información personalizada para los objetivos de entrenamiento."
+    },
+    {
+      "q": "¿Es diferente la Calculadora de grasa corporal del ejército?",
+      "a": "Sí, utiliza fórmulas militares específicas para evaluar la elegibilidad."
+    },
+    {
+      "q": "¿Pueden las personas mayores utilizar esta herramienta?",
+      "a": "Sí, ayuda a controlar los cambios en la composición corporal relacionados con el envejecimiento."
+    },
+    {
+      "q": "¿Con qué frecuencia debo comprobar mi porcentaje de grasa corporal?",
+      "a": "Cada 4 a 6 semanas para un seguimiento significativo."
+    },
+    {
+      "q": "¿Puede la IA ayudarme a seguir el progreso de mi grasa corporal?",
+      "a": "Sí, las calculadoras impulsadas por IA pueden analizar tendencias e integrarse con aplicaciones de salud."
+    }
+  ]
+}

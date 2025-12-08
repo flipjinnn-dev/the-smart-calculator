@@ -1,0 +1,131 @@
+{
+    "color": "teal",
+    "sections": [
+        {
+            "heading": "What is a Height Calculator?",
+            "content": "A Height Calculator is a free online tool that allows users to measure, convert, or estimate height quickly and accurately. It supports unit conversions between centimeters, meters, and feet/inches, and in some cases, provides adult height predictions based on age and parental height."
+        },
+        {
+            "heading": "How the Height Calculator Works",
+            "subSections": [
+                {
+                    "heading": "Inputs Required",
+                    "content": "Current height in cm, meters, or feet/inches; optional age and parental heights for prediction."
+                },
+                {
+                    "heading": "Conversion Method",
+                    "content": "The tool converts height between units such as centimeters, meters, and feet/inches with precise formulas."
+                },
+                {
+                    "heading": "Prediction Method",
+                    "content": "If enabled, it estimates adult height based on standard growth formulas using age and parental height."
+                },
+                {
+                    "heading": "What Happens Next",
+                    "content": "After clicking Calculate, you instantly get converted height or predicted adult height."
+                }
+            ]
+        },
+        {
+            "heading": "Why Use a Height Calculator?",
+            "subSections": [
+                {
+                    "heading": "Accurate Unit Conversion",
+                    "content": "Quickly convert height across cm, meters, and feet/inches with reliable accuracy."
+                },
+                {
+                    "heading": "Adult Height Estimation",
+                    "content": "Predict potential adult height using scientifically backed formulas."
+                },
+                {
+                    "heading": "Fast & User-Friendly",
+                    "content": "No manual calculations—results appear instantly."
+                },
+                {
+                    "heading": "Convenience",
+                    "content": "Free, mobile-friendly, and accessible on all devices."
+                }
+            ]
+        },
+        {
+            "heading": "Example Height Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Unit Conversion",
+                    "content": "Input: 175 cm → Convert to feet/inches → Result: 5 feet 8.9 inches."
+                },
+                {
+                    "heading": "Example 2 – Adult Height Prediction",
+                    "content": "Child age: 12, Father: 180 cm, Mother: 165 cm → Predicted adult height: 174–178 cm."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Health & Fitness Tracking",
+                    "content": "Monitor current height or growth progress."
+                },
+                {
+                    "heading": "Parental Growth Monitoring",
+                    "content": "Estimate a child's expected adult height."
+                },
+                {
+                    "heading": "Sports & School Records",
+                    "content": "Record accurate height measurements for documentation."
+                },
+                {
+                    "heading": "Clothing Size Planning",
+                    "content": "Convert height units to determine proper sizing."
+                },
+                {
+                    "heading": "General Use",
+                    "content": "Ideal for anyone needing quick height conversions or estimates."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Height Calculator?",
+            "a": "It is an online tool used to measure, convert, or estimate height accurately."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, the Height Calculator is completely free to use."
+        },
+        {
+            "q": "Do I need software?",
+            "a": "No, it works directly in any browser without installation."
+        },
+        {
+            "q": "Can it convert units?",
+            "a": "Yes, it supports centimeters, meters, and feet/inches."
+        },
+        {
+            "q": "Does it predict adult height?",
+            "a": "Yes, if enabled, it uses age and parental height for predictions."
+        },
+        {
+            "q": "Is it accurate?",
+            "a": "Conversions are precise, while predictions are estimates based on growth formulas."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, it works on smartphones, tablets, and desktops."
+        },
+        {
+            "q": "Who can use it?",
+            "a": "Students, parents, athletes, teachers, and anyone needing height information."
+        },
+        {
+            "q": "Can it help with school or sports records?",
+            "a": "Yes, it provides accurate heights for documentation purposes."
+        },
+        {
+            "q": "Can I rely on predicted height?",
+            "a": "Predictions are estimates—actual adult height may vary due to genetics and health."
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "color": "green",
+    "sections": [
+        {
+            "heading": "Batting Average Calculator: What It Is and How It Works",
+            "content": "The Batting Average Calculator is a free online tool that helps calculate a player’s batting average instantly using hits and official at-bats. Batting average shows how often a player gets a hit when at bat and is a key baseball statistic."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Hits",
+                    "content": "Type the number of hits the player has."
+                },
+                {
+                    "heading": "Enter At-Bats",
+                    "content": "Enter official at-bats (excluding walks, sacrifices, and hit-by-pitch)."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Get the batting average immediately."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Make sure to count official at-bats correctly for accuracy."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Calculation",
+                    "content": "Computes batting average in seconds."
+                },
+                {
+                    "heading": "Accurate & Reliable",
+                    "content": "Uses standard formula: Hits ÷ At-Bats."
+                },
+                {
+                    "heading": "Easy-to-Use",
+                    "content": "No manual math needed."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on smartphones, tablets, and desktops."
+                },
+                {
+                    "heading": "Ideal for Fantasy Baseball & Analysis",
+                    "content": "Track performance easily for players, coaches, and analysts."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Players & Coaches",
+                    "content": "Evaluate performance per game or season."
+                },
+                {
+                    "heading": "Fans & Analysts",
+                    "content": "Compare player averages quickly."
+                },
+                {
+                    "heading": "Youth & Amateur Baseball",
+                    "content": "Track stats without complex calculations."
+                },
+                {
+                    "heading": "Fantasy Baseball",
+                    "content": "Monitor players for drafts or scoring."
+                },
+                {
+                    "heading": "Scouts & Talent Evaluation",
+                    "content": "Assess batting consistency efficiently."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1",
+                    "content": "45 hits ÷ 150 at-bats = .300"
+                },
+                {
+                    "heading": "Example 2",
+                    "content": "60 hits ÷ 200 at-bats = .300"
+                },
+                {
+                    "heading": "Example 3",
+                    "content": "25 hits ÷ 100 at-bats = .250"
+                },
+                {
+                    "heading": "Example 4",
+                    "content": "80 hits ÷ 250 at-bats = .320"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Batting Average Calculator?",
+            "a": "It calculates a player’s batting average using hits and official at-bats."
+        },
+        {
+            "q": "How is batting average calculated?",
+            "a": "Use the formula: Hits ÷ At-Bats."
+        },
+        {
+            "q": "Does it include walks or sacrifices?",
+            "a": "No, only official at-bats are counted."
+        },
+        {
+            "q": "Is the result accurate?",
+            "a": "Yes, based on the inputted hits and at-bats."
+        },
+        {
+            "q": "Can I use it for fantasy baseball?",
+            "a": "Yes, it helps track player stats quickly."
+        },
+        {
+            "q": "Is this calculator mobile-friendly?",
+            "a": "Yes, it works on smartphones, tablets, and desktops."
+        },
+        {
+            "q": "Is it free to use?",
+            "a": "Yes, fully free and online."
+        },
+        {
+            "q": "Who should use this calculator?",
+            "a": "Players, coaches, fans, analysts, and fantasy enthusiasts."
+        },
+        {
+            "q": "Why use a Batting Average Calculator?",
+            "a": "It saves time and ensures accurate calculations."
+        },
+        {
+            "q": "Can it track multiple players?",
+            "a": "Yes, by entering stats individually for each player."
+        }
+    ]
+}

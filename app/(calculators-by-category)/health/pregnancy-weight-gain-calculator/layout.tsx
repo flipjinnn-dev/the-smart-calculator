@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for pregnancy-weight-gain-calculator
 const pregnancyweightgaincalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }pregnancy-weight-gain-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }pregnancy-weight-gain-calculator`,
       languages: {
         'en': getCanonicalUrl('pregnancy-weight-gain-calculator', 'en'),
         'pt-BR': getCanonicalUrl('pregnancy-weight-gain-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }pregnancy-weight-gain-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }pregnancy-weight-gain-calculator`,
     },
   };
 }
@@ -70,5 +69,76 @@ export default async function PregnancyWeightGainCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thesmartcalculator.com/#website",
+        "url": "https://www.thesmartcalculator.com/",
+        "name": "The Smart Calculator",
+        "publisher": {
+          "@id": "https://www.thesmartcalculator.com/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.thesmartcalculator.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.thesmartcalculator.com/#organization",
+        "name": "The Smart Calculator",
+        "url": "https://www.thesmartcalculator.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.thesmartcalculator.com/images/logo.png"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.thesmartcalculator.com/health/pregnancy-weight-gain-calculator#webpage",
+        "url": "https://www.thesmartcalculator.com/health/pregnancy-weight-gain-calculator",
+        "inLanguage": "en-US",
+        "name": "Pregnancy Weight Gain Calculator",
+        "description": "Pregnancy Weight Gain Calculator — estimate recommended total and weekly weight gain during pregnancy based on pre-pregnancy BMI (IOM guidelines).",
+        "isPartOf": {
+          "@id": "https://www.thesmartcalculator.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.thesmartcalculator.com/health/pregnancy-weight-gain-calculator/thumbnail.jpg"
+        },
+        "mainEntity": {
+          "@type": "SoftwareApplication",
+          "@id": "https://www.thesmartcalculator.com/health/pregnancy-weight-gain-calculator#software",
+          "name": "Pregnancy Weight Gain Calculator",
+          "url": "https://www.thesmartcalculator.com/health/pregnancy-weight-gain-calculator",
+          "description": "Interactive calculator that estimates recommended pregnancy weight gain ranges using Institute of Medicine (IOM) guidelines. Accepts pre-pregnancy weight, height, current weight and gestational week.",
+          "applicationCategory": "HealthApplication",
+          "operatingSystem": "All",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "featureList": "Pre-pregnancy BMI classification; recommended total weight gain range; weekly gain guidance; progress tracking by gestational week",
+          "provider": {
+            "@id": "https://www.thesmartcalculator.com/#organization"
+          }
+        }
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="pregnancy-weight-gain-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

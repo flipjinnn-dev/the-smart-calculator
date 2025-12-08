@@ -1,0 +1,106 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora GPA?",
+      "content": "Uma calculadora GPA é uma ferramenta online gratuita que ajuda os alunos a calcular com rapidez e precisão sua média de notas (GPA). Ao inserir as notas do curso e as horas de crédito, ele calcula um GPA ponderado e elimina as chances de erros manuais."
+    },
+    {
+      "heading": "Como funciona a calculadora GPA",
+      "subSections": [
+        {
+          "heading": "Entradas necessárias",
+          "content": "Notas de letras para cada curso (A, B+, B, etc.), horas de crédito para cada curso e seleção opcional de escala de notas."
+        },
+        {
+          "heading": "Método de cálculo",
+          "content": "A calculadora converte cada nota de letra em notas, multiplica-as por horas de crédito e divide o total de notas pelo total de créditos para calcular o GPA ponderado."
+        },
+        {
+          "heading": "O que acontece a seguir",
+          "content": "Depois de clicar em Calcular, você obtém instantaneamente seu GPA ponderado junto com um detalhamento claro do cálculo."
+        }
+      ]
+    },
+    {
+      "heading": "Por que usar uma calculadora GPA?",
+      "subSections": [
+        {
+          "heading": "Estimativa precisa do GPA",
+          "content": "Remove erros matemáticos manuais e garante GPA correto de acordo com fórmulas padrão."
+        },
+        {
+          "heading": "Suporte a vários cursos",
+          "content": "Adicione quantos cursos forem necessários para um semestre ou ano acadêmico completo."
+        },
+        {
+          "heading": "Acompanhamento cumulativo de GPA",
+          "content": "Combine facilmente GPAs semestrais e horas de crédito para calcular o GPA cumulativo total."
+        },
+        {
+          "heading": "Planejamento fácil de notas",
+          "content": "Simule notas futuras para prever qual GPA você precisa para atingir seus objetivos acadêmicos."
+        },
+        {
+          "heading": "Conveniência",
+          "content": "Rápido, gratuito, compatível com dispositivos móveis e funciona diretamente no seu navegador, sem instalação."
+        }
+      ]
+    },
+    {
+      "heading": "Exemplo de cálculos GPA",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Semestre Único",
+          "content": "Curso 1: A (4 créditos), Curso 2: B+ (3 créditos), Curso 3: B (3 créditos). Resultado: GPA ponderado = 3,44."
+        },
+        {
+          "heading": "Exemplo 2 – GPA cumulativo",
+          "content": "Semestre 1: GPA 3,5 (12 créditos), Semestre 2: GPA 3,8 (15 créditos). Resultado: GPA acumulado = 3,66."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora GPA?",
+      "a": "Ele calcula seu GPA usando notas de letras e horas de crédito."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, é totalmente gratuito para uso online."
+    },
+    {
+      "q": "Preciso instalar software?",
+      "a": "Não, você pode usá-lo diretamente em qualquer navegador da web."
+    },
+    {
+      "q": "Ele pode lidar com vários cursos?",
+      "a": "Sim, você pode adicionar quantos cursos forem necessários para um GPA preciso."
+    },
+    {
+      "q": "Suporta diferentes escalas de classificação?",
+      "a": "Sim, embora o padrão seja a escala 4.0."
+    },
+    {
+      "q": "Posso calcular o GPA cumulativo?",
+      "a": "Sim, ingressando em vários semestres ou conjuntos de cursos."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, funciona perfeitamente em smartphones, tablets e desktops."
+    },
+    {
+      "q": "Isso pode ajudar no planejamento de bolsas de estudo?",
+      "a": "Sim, mostra se o seu GPA atende aos requisitos da bolsa."
+    },
+    {
+      "q": "Quão precisa é a calculadora?",
+      "a": "Ele usa fórmulas GPA ponderadas padrão, garantindo resultados precisos."
+    },
+    {
+      "q": "Posso simular notas futuras?",
+      "a": "Sim, você pode planejar as notas necessárias para atingir o GPA desejado."
+    }
+  ]
+}

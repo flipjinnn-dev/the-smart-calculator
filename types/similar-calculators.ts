@@ -6,18 +6,11 @@ export interface SimilarCalculator {
   calculatorDescription?: string
 }
 
-// Support for calculator IDs (for dynamic localization)
-export interface SimilarCalculatorId {
-  id: string  // Calculator ID for localization lookup
-  category?: string  // Optional category for URL construction
-}
-
 export interface SimilarCalculatorsProps {
-  calculators: (SimilarCalculator | SimilarCalculatorId)[]
+  calculators: SimilarCalculator[]
   color?: 'green' | 'blue' | 'red' | 'orange' | 'purple' | 'gray' | 'pink' | 'yellow' | 'teal'
   title?: string
   className?: string
-  language?: string  // Optional language override (default: auto-detect from URL)
 }
 
 export type CalculatorColor = 'green' | 'blue' | 'red' | 'orange' | 'purple' | 'gray' | 'pink' | 'yellow' | 'teal'

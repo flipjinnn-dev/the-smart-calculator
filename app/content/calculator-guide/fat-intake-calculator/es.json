@@ -1,0 +1,149 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "Calculadora de ingesta de grasas: encuentre la ingesta diaria de grasas recomendada",
+      "content": "Nuestra Calculadora de ingesta de grasas lo ayuda a determinar exactamente cuánta grasa debe comer por día según su edad, sexo, peso, nivel de actividad y objetivos de acondicionamiento físico. Ya sea que desee perder peso, desarrollar músculo o simplemente mantener una dieta equilibrada, esta herramienta le brinda una recomendación personalizada para el consumo de grasas saludables. A diferencia de los consejos genéricos, nuestra Calculadora de ingesta diaria de grasas utiliza sus necesidades calóricas para estimar el porcentaje correcto de calorías provenientes de grasas, en línea con las pautas dietéticas de la OMS y el USDA."
+    },
+    {
+      "heading": "¿Qué es la ingesta de grasas y por qué es importante?",
+      "subSections": [
+        {
+          "heading": "Definición",
+          "content": "La grasa dietética es uno de los tres macronutrientes esenciales (junto con las proteínas y los carbohidratos). Desempeña un papel vital al proporcionar energía y apoyar el metabolismo, ayudar a la producción de hormonas y la absorción de vitaminas (A, D, E, K), proteger la salud del cerebro y el corazón y apoyar el crecimiento y la reparación celular."
+        },
+        {
+          "heading": "Balance",
+          "content": "La ingesta equilibrada de grasas es esencial: muy poca puede dañar las hormonas y los niveles de energía, mientras que demasiada puede provocar aumento de peso y enfermedades cardíacas."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo funciona nuestra calculadora de ingesta de grasas",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "La calculadora estima su ingesta recomendada de grasas analizando las necesidades calóricas totales (según la TMB + el nivel de actividad)."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Aplica pautas dietéticas (20% a 35% de las calorías diarias provienen de grasas, según USDA/OMS)."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Ajusta la ingesta de grasas para objetivos de acondicionamiento físico como pérdida de peso, mantenimiento o aumento de masa muscular."
+        },
+        {
+          "heading": "Ejemplo",
+          "content": "Si necesita 2000 calorías al día, 25% de grasa = 55 g de grasa al día."
+        }
+      ]
+    },
+    {
+      "heading": "Ingesta diaria recomendada de grasas por edad, sexo y actividad",
+      "content": "Mujeres sedentarias (2000 kcal) → 44-78 g de grasa/día\nMujeres activas (2400 kcal) → 53-93 g de grasa/día\nHombres sedentarios (2500 kcal) → 55–97 g de grasa/día\nHombres activos (3000 kcal) → 67-117 g de grasa/día"
+    },
+    {
+      "heading": "Ingesta de grasas para bajar de peso frente a ganar masa muscular",
+      "subSections": [
+        {
+          "heading": "Pérdida de peso",
+          "content": "Reduzca la ingesta de grasas (20-25% de las calorías) y dé prioridad a las proteínas."
+        },
+        {
+          "heading": "Ganancia muscular",
+          "content": "Grasa moderada (25-30% de las calorías) para apoyar las hormonas y la recuperación."
+        },
+        {
+          "heading": "Mantenimiento",
+          "content": "Ingesta equilibrada (25-35% de las calorías) en función de las necesidades energéticas."
+        }
+      ]
+    },
+    {
+      "heading": "Grasas saludables versus grasas no saludables",
+      "subSections": [
+        {
+          "heading": "Grasas Saludables",
+          "content": "Grasas monoinsaturadas (aceite de oliva, aguacates, nueces); Grasas poliinsaturadas (omega-3 y omega-6 del pescado, semillas de lino, nueces)."
+        },
+        {
+          "heading": "Limite las grasas no saludables",
+          "content": "Grasas saturadas (mantequilla, carnes grasas: consumir con moderación); Grasas trans (alimentos procesados, productos fritos: evítelos por completo)."
+        }
+      ]
+    },
+    {
+      "heading": "Pautas de ingesta de grasas de la OMS y el USDA",
+      "subSections": [
+        {
+          "heading": "OMS",
+          "content": "20-35% de las calorías diarias provienen de grasas, <10% de grasas saturadas."
+        },
+        {
+          "heading": "USDA",
+          "content": "20-35% de grasa total, <10% de grasa saturada, evite las grasas trans por completo."
+        }
+      ]
+    },
+    {
+      "heading": "Herramientas relacionadas para una mejor nutrición",
+      "subSections": [
+        {
+          "heading": "Calculadora de IMC",
+          "content": "Verifique su rango de peso saludable."
+        },
+        {
+          "heading": "Calculadora de ingesta de proteínas",
+          "content": "Calcule las proteínas para el crecimiento y la recuperación muscular."
+        },
+        {
+          "heading": "Calculadora de peso saludable",
+          "content": "Realice un seguimiento de los objetivos de control de peso a largo plazo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánta grasa debo comer al día?",
+      "a": "La mayoría de los adultos deben obtener entre el 20% y el 35% de las calorías diarias a partir de grasas, lo que equivale aproximadamente a entre 44 y 77 g por día con una dieta de 2000 calorías."
+    },
+    {
+      "q": "¿Cuál es la ingesta de grasas recomendada para bajar de peso?",
+      "a": "Para perder peso, intente obtener del 20 al 25 % de las calorías provenientes de la grasa y, al mismo tiempo, mantenga altas las proteínas para preservar el músculo."
+    },
+    {
+      "q": "¿Cómo calcular la ingesta de grasas a partir de calorías?",
+      "a": "Multiplique sus calorías diarias por 0,20 a 0,35 y luego divídalas por 9 (calorías por gramo de grasa)."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre grasas saludables y no saludables?",
+      "a": "Las grasas saludables son las insaturadas (aceite de oliva, pescado). Las grasas no saludables incluyen las grasas trans y el exceso de grasas saturadas."
+    },
+    {
+      "q": "¿Cuánta grasa saturada por día es segura?",
+      "a": "Menos del 10% de las calorías diarias (unos 20 g para una dieta de 2.000 calorías)."
+    },
+    {
+      "q": "¿La ingesta de grasas es diferente para hombres y mujeres?",
+      "a": "Sí. Los hombres suelen necesitar más grasa debido a sus mayores necesidades calóricas, pero el porcentaje de calorías provenientes de la grasa es similar."
+    },
+    {
+      "q": "¿Puedo usar esta calculadora para planificar la dieta cetogénica?",
+      "a": "Sí. La dieta cetogénica normalmente utiliza entre un 70 % y un 75 % de calorías provenientes de la grasa, por lo que esta herramienta ayuda a estimar los gramos de grasa."
+    },
+    {
+      "q": "¿Cómo calcular la ingesta de grasas en función del nivel de actividad?",
+      "a": "Más actividad → mayores necesidades calóricas → ingesta proporcionalmente mayor de grasas (manteniendo entre un 20 y un 35%)."
+    },
+    {
+      "q": "¿Qué pasa si como muy poca grasa?",
+      "a": "Muy poca grasa puede causar desequilibrio hormonal, fatiga, deficiencias de nutrientes y confusión mental."
+    },
+    {
+      "q": "¿Cómo equilibrar la ingesta de grasas con proteínas y carbohidratos?",
+      "a": "Siga la división de macronutrientes: proteínas del 25 al 30 %, grasas del 20 al 35 %, carbohidratos del 40 al 55 % (ajuste según los objetivos)."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for overweight-calculator
 const overweightcalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }overweight-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }overweight-calculator`,
       languages: {
         'en': getCanonicalUrl('overweight-calculator', 'en'),
         'pt-BR': getCanonicalUrl('overweight-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }overweight-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }overweight-calculator`,
     },
   };
 }
@@ -70,5 +69,51 @@ export default async function OverweightCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Overweight Calculator – Check Healthy Weight Range",
+    "url": "https://www.thesmartcalculator.com/health/overweight-calculator",
+    "description": "Free overweight calculator to check BMI, healthy weight range, and weight category (underweight, normal, overweight, obese) using WHO standards. Supports metric and US units.",
+    "mainEntity": {
+      "@type": "SoftwareApplication",
+      "name": "Overweight Calculator",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "All",
+      "url": "https://www.thesmartcalculator.com/health/overweight-calculator",
+      "description": "An online calculator to determine BMI and healthy weight range for adults using height and weight inputs.",
+      "featureList": [
+        "BMI calculation (metric & imperial)",
+        "Healthy weight range",
+        "Overweight, underweight, obesity classification",
+        "Educational content about BMI"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "url": "https://www.thesmartcalculator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thesmartcalculator.com/assets/img/logo.png"
+      }
+    },
+    "inLanguage": "en",
+    "datePublished": "2025-01-01",
+    "dateModified": "2025-09-20"
+  }
+  return <>
+    {children}
+    <Script
+      id="overweight-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

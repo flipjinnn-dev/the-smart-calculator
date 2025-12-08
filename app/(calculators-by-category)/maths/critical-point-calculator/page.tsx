@@ -11,11 +11,12 @@ import { Calculator, FenceIcon as Function, AlertCircle, Download, Printer } fro
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
+import CalculatorGuide from "@/components/calculator-guide";
 const parseExpression = (expr: string): string => {
   return expr.replace(/\*\*/g, "^") // Convert ** to ^ for powers
-  .replace(/Math\./g, "") // Remove Math. prefix
-  .replace(/\s+/g, "") // Remove all spaces
-  .trim();
+    .replace(/Math\./g, "") // Remove Math. prefix
+    .replace(/\s+/g, "") // Remove all spaces
+    .trim();
 };
 const differentiate = (expression: string, variable = "x"): string => {
   try {
@@ -46,9 +47,9 @@ const differentiate = (expression: string, variable = "x"): string => {
         if (newPower === 0) {
           derivativeTerms.push(newCoeff.toString());
         } else if (newPower === 1) {
-          if (newCoeff === 1) derivativeTerms.push(variable);else if (newCoeff === -1) derivativeTerms.push(`-${variable}`);else derivativeTerms.push(`${newCoeff}*${variable}`);
+          if (newCoeff === 1) derivativeTerms.push(variable); else if (newCoeff === -1) derivativeTerms.push(`-${variable}`); else derivativeTerms.push(`${newCoeff}*${variable}`);
         } else {
-          if (newCoeff === 1) derivativeTerms.push(`${variable}^${newPower}`);else if (newCoeff === -1) derivativeTerms.push(`-${variable}^${newPower}`);else derivativeTerms.push(`${newCoeff}*${variable}^${newPower}`);
+          if (newCoeff === 1) derivativeTerms.push(`${variable}^${newPower}`); else if (newCoeff === -1) derivativeTerms.push(`-${variable}^${newPower}`); else derivativeTerms.push(`${newCoeff}*${variable}^${newPower}`);
         }
         continue;
       }
@@ -57,7 +58,7 @@ const differentiate = (expression: string, variable = "x"): string => {
       const linearMatch = term.match(new RegExp(`([+-]?\\d*\\.?\\d*)\\*?${variable}(?!\\^)`));
       if (linearMatch) {
         const coeff = linearMatch[1] === "" || linearMatch[1] === "+" ? 1 : linearMatch[1] === "-" ? -1 : Number.parseFloat(linearMatch[1]) || 1;
-        if (coeff === 1) derivativeTerms.push("1");else if (coeff === -1) derivativeTerms.push("-1");else derivativeTerms.push(coeff.toString());
+        if (coeff === 1) derivativeTerms.push("1"); else if (coeff === -1) derivativeTerms.push("-1"); else derivativeTerms.push(coeff.toString());
         continue;
       }
     }
@@ -143,7 +144,7 @@ const partialDerivative = (expression: string, variable: string): string => {
         const xyMatch = term.match(/([+-]?\d*\.?\d*)\*?x\*?y/);
         if (xyMatch) {
           const coeff = xyMatch[1] === "" || xyMatch[1] === "+" ? 1 : xyMatch[1] === "-" ? -1 : Number.parseFloat(xyMatch[1]) || 1;
-          if (coeff === 1) derivativeTerms.push("y");else if (coeff === -1) derivativeTerms.push("-y");else derivativeTerms.push(`${coeff}*y`);
+          if (coeff === 1) derivativeTerms.push("y"); else if (coeff === -1) derivativeTerms.push("-y"); else derivativeTerms.push(`${coeff}*y`);
           continue;
         }
       }
@@ -152,7 +153,7 @@ const partialDerivative = (expression: string, variable: string): string => {
         const xyMatch = term.match(/([+-]?\d*\.?\d*)\*?x\*?y/);
         if (xyMatch) {
           const coeff = xyMatch[1] === "" || xyMatch[1] === "+" ? 1 : xyMatch[1] === "-" ? -1 : Number.parseFloat(xyMatch[1]) || 1;
-          if (coeff === 1) derivativeTerms.push("x");else if (coeff === -1) derivativeTerms.push("-x");else derivativeTerms.push(`${coeff}*x`);
+          if (coeff === 1) derivativeTerms.push("x"); else if (coeff === -1) derivativeTerms.push("-x"); else derivativeTerms.push(`${coeff}*x`);
           continue;
         }
       }
@@ -168,9 +169,9 @@ const partialDerivative = (expression: string, variable: string): string => {
         if (newPower === 0) {
           derivativeTerms.push(newCoeff.toString());
         } else if (newPower === 1) {
-          if (newCoeff === 1) derivativeTerms.push(variable);else if (newCoeff === -1) derivativeTerms.push(`-${variable}`);else derivativeTerms.push(`${newCoeff}*${variable}`);
+          if (newCoeff === 1) derivativeTerms.push(variable); else if (newCoeff === -1) derivativeTerms.push(`-${variable}`); else derivativeTerms.push(`${newCoeff}*${variable}`);
         } else {
-          if (newCoeff === 1) derivativeTerms.push(`${variable}^${newPower}`);else if (newCoeff === -1) derivativeTerms.push(`-${variable}^${newPower}`);else derivativeTerms.push(`${newCoeff}*${variable}^${newPower}`);
+          if (newCoeff === 1) derivativeTerms.push(`${variable}^${newPower}`); else if (newCoeff === -1) derivativeTerms.push(`-${variable}^${newPower}`); else derivativeTerms.push(`${newCoeff}*${variable}^${newPower}`);
         }
         continue;
       }
@@ -179,7 +180,7 @@ const partialDerivative = (expression: string, variable: string): string => {
       const linearMatch = term.match(new RegExp(`([+-]?\\d*\\.?\\d*)\\*?${variable}(?!\\^)`));
       if (linearMatch) {
         const coeff = linearMatch[1] === "" || linearMatch[1] === "+" ? 1 : linearMatch[1] === "-" ? -1 : Number.parseFloat(linearMatch[1]) || 1;
-        if (coeff === 1) derivativeTerms.push("1");else if (coeff === -1) derivativeTerms.push("-1");else derivativeTerms.push(coeff.toString());
+        if (coeff === 1) derivativeTerms.push("1"); else if (coeff === -1) derivativeTerms.push("-1"); else derivativeTerms.push(coeff.toString());
         continue;
       }
     }
@@ -289,7 +290,16 @@ export default function CriticalPointCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('critical-point-calculator', language, "calculator-ui");
-
+  const { content: guideContent } = useCalculatorContent(
+    'critical-point-calculator',
+    language,
+    "calculator-guide"
+  )
+  const guideData = guideContent || {
+    color: 'blue',
+    sections: [],
+    faq: []
+  }
   // Use content or fallback to defaults
   const contentData = content || {
     "pageTitle": "",
@@ -623,349 +633,319 @@ export default function CriticalPointCalculator() {
     window.print();
   };
   return <>
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-orange-50">
-        <main className="py-8 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-8">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl flex items-center justify-center shadow-lg">
-                  <Function className="w-8 h-8 text-white" />
-                </div>
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-orange-50">
+      <main className="py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl flex items-center justify-center shadow-lg">
+                <Function className="w-8 h-8 text-white" />
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.critical_point_calculator_0}</h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.find_critical_points_of_singlevariable_or_multivar_1}</p>
             </div>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.critical_point_calculator_0}</h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.find_critical_points_of_singlevariable_or_multivar_1}</p>
+          </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              {/* Calculator Form */}
-              <div className="lg:col-span-2">
-                <Card className="shadow-2xl border-0 p-0 bg-white">
-                  <CardHeader className="bg-gradient-to-r from-orange-50 to-red-50 rounded-t-lg border-b px-8 py-6">
-                    <CardTitle className="flex items-center space-x-3 text-2xl">
-                      <Function className="w-6 h-6 text-orange-600" />
-                      <span>{contentData.critical_point_finder_2}</span>
-                    </CardTitle>
-                    <CardDescription className="text-base">{contentData.enter_your_function_to_find_critical_points_automa_3}</CardDescription>
-                  </CardHeader>
-                  <CardContent className="p-8">
-                    {error && <Alert className="mb-6 border-red-200 bg-red-50">
-                        <AlertCircle className="h-4 w-4 text-red-600" />
-                        <AlertDescription className="text-red-700">{error}</AlertDescription>
-                      </Alert>}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Calculator Form */}
+            <div className="lg:col-span-2">
+              <Card className="shadow-2xl border-0 p-0 bg-white">
+                <CardHeader className="bg-gradient-to-r from-orange-50 to-red-50 rounded-t-lg border-b px-8 py-6">
+                  <CardTitle className="flex items-center space-x-3 text-2xl">
+                    <Function className="w-6 h-6 text-orange-600" />
+                    <span>{contentData.critical_point_finder_2}</span>
+                  </CardTitle>
+                  <CardDescription className="text-base">{contentData.enter_your_function_to_find_critical_points_automa_3}</CardDescription>
+                </CardHeader>
+                <CardContent className="p-8">
+                  {error && <Alert className="mb-6 border-red-200 bg-red-50">
+                    <AlertCircle className="h-4 w-4 text-red-600" />
+                    <AlertDescription className="text-red-700">{error}</AlertDescription>
+                  </Alert>}
 
-                    <div className="space-y-6">
-                      <div>
-                        <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.function_4}{" "}
-                          <span className="text-gray-500">{contentData.use_x_for_singlevariable_x_and_y_for_multivariable_5}</span>
-                        </Label>
-                        <Input className="w-full h-12 rounded-xl border-gray-200 focus:border-orange-400 focus:ring-orange-200 shadow-sm font-mono" type="text" value={functionExpression} onChange={e => setFunctionExpression(e.target.value)} placeholder="e.g., 3*x^2 + 4*x + 9" />
-                        <p className="text-xs text-gray-500 mt-1">{contentData.supported_sin_cos_tan_sqrt_log_ln_pi_e_6}</p>
-                      </div>
-
-                      <div className="p-4 bg-orange-50 rounded-lg border border-orange-200">
-                        <p className="text-sm text-gray-700">
-                          <strong>{contentData.how_it_works_7}</strong>
-                          <br />{contentData.if_your_function_only_uses_x_it_finds_fx_and_solve_8}<br />{contentData.if_your_function_uses_x_and_y_it_finds_fx_fy_and_s_9}</p>
-                      </div>
+                  <div className="space-y-6">
+                    <div>
+                      <Label className="text-sm font-medium text-gray-700 mb-3 block">{contentData.function_4}{" "}
+                        <span className="text-gray-500">{contentData.use_x_for_singlevariable_x_and_y_for_multivariable_5}</span>
+                      </Label>
+                      <Input className="w-full h-12 rounded-xl border-gray-200 focus:border-orange-400 focus:ring-orange-200 shadow-sm font-mono" type="text" value={functionExpression} onChange={e => setFunctionExpression(e.target.value)} placeholder="e.g., 3*x^2 + 4*x + 9" />
+                      <p className="text-xs text-gray-500 mt-1">{contentData.supported_sin_cos_tan_sqrt_log_ln_pi_e_6}</p>
                     </div>
 
-                    <div className="flex gap-4 mt-8">
-                      <Button onClick={calculateCriticalPoints} className="flex-1 h-12 text-lg bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700">{contentData.calculate_10}</Button>
-                      <Button onClick={() => {
+                    <div className="p-4 bg-orange-50 rounded-lg border border-orange-200">
+                      <p className="text-sm text-gray-700">
+                        <strong>{contentData.how_it_works_7}</strong>
+                        <br />{contentData.if_your_function_only_uses_x_it_finds_fx_and_solve_8}<br />{contentData.if_your_function_uses_x_and_y_it_finds_fx_fy_and_s_9}</p>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-4 mt-8">
+                    <Button onClick={calculateCriticalPoints} className="flex-1 h-12 text-lg bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700">{contentData.calculate_10}</Button>
+                    <Button onClick={() => {
                       if (/y/.test(functionExpression)) {
                         runMultiExample();
                       } else {
                         runSingleExample();
                       }
                     }} variant="outline" className="h-12 px-6 border-orange-200 text-orange-700 hover:bg-orange-50 bg-transparent">{contentData.example_11}</Button>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-
-              {/* Mobile Result Card */}
-              <div ref={resultsRef} className="lg:hidden" id="results">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-red-100 p-6 mb-6">
-                  <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center mb-3 shadow-lg">
-                      <Calculator className="w-6 h-6 text-white" />
-                    </div>
-                    <CardTitle className="text-2xl font-bold text-orange-700 tracking-tight">{contentData.critical_points_found_12}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="w-full flex flex-col items-center justify-center">
-                    {showResult && result ? <div className="text-center w-full">
-                        <div className="space-y-3">
-                          {result.type === "single" ? result.criticalPoints.length > 0 ? result.criticalPoints.map((point: number, index: number) => <div key={index} className="text-2xl font-bold text-orange-900">{contentData.x_13}{formatNumber(point)}
-                                </div>) : <p className="text-lg text-gray-600">{contentData.no_critical_points_found_14}</p> : result.criticalPoints.length > 0 ? result.criticalPoints.map((point: Point2D, index: number) => <div key={index} className="text-xl font-bold text-orange-900">
-                                {formatPoint(point)}
-                              </div>) : <p className="text-lg text-gray-600">{contentData.no_critical_points_found_15}</p>}
-                        </div>
-                        <div className="flex gap-2 mt-4">
-                          <Button onClick={exportToPDF} size="sm" variant="outline" className="border-orange-200 text-orange-700 bg-transparent">
-                            <Download className="w-4 h-4 mr-1" />{contentData.pdf_16}</Button>
-                          <Button onClick={() => window.print()} size="sm" variant="outline" className="border-orange-200 text-orange-700">
-                            <Printer className="w-4 h-4 mr-1" />{contentData.print_17}</Button>
-                        </div>
-                      </div> : <div className="flex flex-col items-center justify-center">
-                        <Function className="w-8 h-8 text-orange-300 mb-2" />
-                        <p className="text-gray-500 text-center text-base">{contentData.enter_function_and_click_18}<span className="font-semibold text-orange-600">{contentData.calculate_19}</span>{contentData.to_find_critical_points_20}</p>
-                      </div>}
-                  </CardContent>
-                </Card>
-              </div>
-
-              {/* Desktop Result Card */}
-              <div className="hidden lg:block">
-                <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-red-100 h-full flex flex-col justify-center items-center p-8 sticky top-24">
-                  <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center mb-3 shadow-lg">
-                      <Calculator className="w-6 h-6 text-white" />
-                    </div>
-                    <CardTitle className="text-2xl font-bold text-orange-700 tracking-tight">{contentData.critical_points_found_21}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="w-full flex flex-col items-center justify-center">
-                    {showResult && result ? <div className="text-center w-full">
-                        <div className="space-y-3">
-                          {result.type === "single" ? result.criticalPoints.length > 0 ? result.criticalPoints.map((point: number, index: number) => <div key={index} className="text-2xl font-bold text-orange-900">{contentData.x_22}{formatNumber(point)}
-                                </div>) : <p className="text-lg text-gray-600">{contentData.no_critical_points_found_23}</p> : result.criticalPoints.length > 0 ? result.criticalPoints.map((point: Point2D, index: number) => <div key={index} className="text-xl font-bold text-orange-900">
-                                {formatPoint(point)}
-                              </div>) : <p className="text-lg text-gray-600">{contentData.no_critical_points_found_24}</p>}
-                        </div>
-                        <div className="flex gap-2 mt-4">
-                          <Button onClick={exportToPDF} size="sm" variant="outline" className="border-orange-200 text-orange-700 bg-transparent">
-                            <Download className="w-4 h-4 mr-1" />{contentData.pdf_25}</Button>
-                          <Button onClick={() => window.print()} size="sm" variant="outline" className="border-orange-200 text-orange-700">
-                            <Printer className="w-4 h-4 mr-1" />{contentData.print_26}</Button>
-                        </div>
-                      </div> : <div className="flex flex-col items-center justify-center">
-                        <Function className="w-8 h-8 text-orange-300 mb-2" />
-                        <p className="text-gray-500 text-center text-base">{contentData.enter_function_and_click_27}<span className="font-semibold text-orange-600">{contentData.calculate_28}</span>{contentData.to_find_critical_points_29}</p>
-                      </div>}
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
-
-          <SimilarCalculators calculators={[{
-          calculatorName: "Scientific Calculator",
-          calculatorHref: "/maths/scientific-calculator",
-          calculatorDescription: "Calculate loan payments and schedules for any type of loan"
-        }
-        ]} 
-        color="orange" 
-        title="Related Financial Calculators" />
-
-            {/* Step-by-step breakdown */}
-            {showResult && result && <div className="mt-12">
-                <Card className="shadow-xl border-0 p-0 bg-white">
-                  <CardHeader className="bg-gradient-to-r from-orange-50 to-red-50 border-b px-8 py-6">
-                    <CardTitle className="text-xl font-bold text-orange-700">{contentData.stepbystep_process_30}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="p-8">
-                    <div className="space-y-4">
-                      {result.type === "single" ? <div className="text-lg space-y-6">
-                          <p className="font-semibold">{contentData.calculate_the_critical_point_of_31}{result.function}</p>
-
-                          <div className="space-y-4">
-                            <div>
-                              <p className="font-semibold">{contentData.step_i_find_the_first_derivative_of_the_given_func_32}</p>
-                              <div className="bg-gray-50 p-4 rounded-lg space-y-2">
-                                <p>{contentData.fx_33}{result.function}</p>
-                                <p>{contentData.fx_34}{result.derivative}</p>
-                              </div>
-                            </div>
-
-                            <div>
-                              <p className="font-semibold">{contentData.step_ii_set_the_first_derivative_equal_to_zero_and_35}</p>
-                              <div className="bg-gray-50 p-4 rounded-lg space-y-2">
-                                <p>{contentData.fx_0_36}</p>
-                                <p>{result.derivative}{contentData.k_0_37}</p>
-                                {result.criticalPoints.length > 0 && <p>{contentData.x_38}{result.criticalPoints.map(p => formatNumber(p)).join(", ")}</p>}
-                              </div>
-                            </div>
-
-                            <div>
-                              <p className="font-semibold">{contentData.hence_the_critical_points_of_the_given_function_x_39}{" "}
-                                {result.criticalPoints.length > 0 ? result.criticalPoints.map(p => formatNumber(p)).join(", ") : "No critical points found"}
-                              </p>
-                            </div>
-                          </div>
-                        </div> : <div className="text-lg space-y-6">
-                          <p className="font-semibold">{contentData.calculate_the_critical_points_of_40}{result.function}</p>
-
-                          <div className="space-y-4">
-                            <div>
-                              <p className="font-semibold">{contentData.step_i_calculate_the_first_partial_derivative_wrt__41}</p>
-                              <div className="bg-gray-50 p-4 rounded-lg space-y-2">
-                                <p>{contentData.fx_42}{result.partialX}</p>
-                              </div>
-                            </div>
-
-                            <div>
-                              <p className="font-semibold">{contentData.step_ii_calculate_the_first_partial_derivative_wrt_43}</p>
-                              <div className="bg-gray-50 p-4 rounded-lg space-y-2">
-                                <p>{contentData.fy_44}{result.partialY}</p>
-                              </div>
-                            </div>
-
-                            <div>
-                              <p className="font-semibold">{contentData.step_iii_set_both_partial_derivatives_equal_to_zer_45}</p>
-                              <div className="bg-gray-50 p-4 rounded-lg space-y-2">
-                                <p>{contentData.for_fx_46}{result.partialX}{contentData.k_0_47}</p>
-                                <p>{contentData.for_fy_48}{result.partialY}{contentData.k_0_49}</p>
-                                {result.criticalPoints.length > 0 && result.criticalPoints.map((point: Point2D, index: number) => <p key={index}>{contentData.critical_point_50}{formatPoint(point)}</p>)}
-                              </div>
-                            </div>
-
-                            <div>
-                              <p className="font-semibold">{contentData.hence_the_critical_points_of_the_given_function_ar_51}{" "}
-                                {result.criticalPoints.length > 0 ? result.criticalPoints.map(p => formatPoint(p)).join(", ") : "No critical points found"}
-                              </p>
-                            </div>
-                          </div>
-                        </div>}
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>}
-
-            {/* Educational Content */}
-            <div className="mt-12 space-y-8">
-              {/* How to Find Critical Points */}
-              <Card className="shadow-xl border-0 bg-white">
-                <CardHeader className="px-8 py-6">
-                  <CardTitle className="text-2xl font-bold text-gray-900">{contentData.how_to_find_critical_points_step_by_step_52}</CardTitle>
-                </CardHeader>
-                <CardContent className="px-8 pb-8">
-                  <div className="space-y-4">
-                    <div>
-                      <h3 className="font-semibold text-gray-900 mb-2">{contentData.for_singlevariable_functions_fx_53}</h3>
-                      <ol className="list-decimal list-inside space-y-2 text-gray-700 ml-4">
-                        <li>{contentData.find_the_first_derivative_fx_54}</li>
-                        <li>{contentData.set_fx_0_and_solve_for_x_55}</li>
-                        <li>{contentData.find_points_where_fx_is_undefined_56}</li>
-                        <li>{contentData.list_all_critical_points_57}</li>
-                      </ol>
-                    </div>
-
-                    <div>
-                      <h3 className="font-semibold text-gray-900 mb-2">{contentData.for_multivariable_functions_fxy_58}</h3>
-                      <ol className="list-decimal list-inside space-y-2 text-gray-700 ml-4">
-                        <li>{contentData.find_partial_derivatives_fx_and_fy_59}</li>
-                        <li>{contentData.set_both_partial_derivatives_equal_to_zero_60}</li>
-                        <li>{contentData.solve_the_system_of_equations_simultaneously_61}</li>
-                        <li>{contentData.check_for_points_where_partials_are_undefined_62}</li>
-                      </ol>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Single Variable Example */}
-              <Card className="shadow-xl border-0 bg-white">
-                <CardHeader className="px-8 py-6">
-                  <CardTitle className="text-2xl font-bold text-gray-900">{contentData.single_variable_functions_example_63}</CardTitle>
-                </CardHeader>
-                <CardContent className="px-8 pb-8">
-                  <div className="space-y-4">
-                    <p className="text-gray-700">
-                      <strong>{contentData.example_64}</strong>{contentData.find_critical_points_of_fx_3x_4x_9_65}</p>
-
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <div className="space-y-2 font-mono text-sm">
-                        <p>
-                          <strong>{contentData.step_1_66}</strong>{contentData.fx_3x_4x_9_67}</p>
-                        <p>
-                          <strong>{contentData.step_2_68}</strong>{contentData.fx_6x_4_69}</p>
-                        <p>
-                          <strong>{contentData.step_3_70}</strong>{contentData.set_fx_0_6x_4_0_71}</p>
-                        <p>
-                          <strong>{contentData.step_4_72}</strong>{contentData.solve_6x_4_x_46_23_73}</p>
-                        <p>
-                          <strong>{contentData.step_5_74}</strong>{contentData.critical_point_23_06667_75}</p>
-                      </div>
-                    </div>
-
-                    <p className="text-gray-700">{contentData.the_function_has_one_critical_point_at_x_23_where__76}</p>
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Multivariable Example */}
-              <Card className="shadow-xl border-0 bg-white">
-                <CardHeader className="px-8 py-6">
-                  <CardTitle className="text-2xl font-bold text-gray-900">{contentData.multivariable_functions_example_77}</CardTitle>
-                </CardHeader>
-                <CardContent className="px-8 pb-8">
-                  <div className="space-y-4">
-                    <p className="text-gray-700">
-                      <strong>{contentData.example_78}</strong>{contentData.find_critical_points_of_fxy_4x_6xy_8y_79}</p>
-
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <div className="space-y-2 font-mono text-sm">
-                        <p>
-                          <strong>{contentData.step_1_80}</strong>{contentData.fxy_4x_6xy_8y_81}</p>
-                        <p>
-                          <strong>{contentData.step_2_82}</strong>{contentData.fx_8x_6y_83}</p>
-                        <p>
-                          <strong>{contentData.step_3_84}</strong>{contentData.fy_6x_8_85}</p>
-                        <p>
-                          <strong>{contentData.step_4_86}</strong>{contentData.solve_system_87}</p>
-                        <p className="ml-4">{contentData.k_8x_6y_0_88}</p>
-                        <p className="ml-4">{contentData.k_6x_8_0_89}</p>
-                        <p>
-                          <strong>{contentData.step_5_90}</strong>{contentData.from_equation_2_x_86_43_91}</p>
-                        <p>
-                          <strong>{contentData.step_6_92}</strong>{contentData.substitute_843_6y_0_y_169_93}</p>
-                        <p>
-                          <strong>{contentData.step_7_94}</strong>{contentData.critical_point_43_169_13333_17778_95}</p>
-                      </div>
-                    </div>
-
-                    <p className="text-gray-700">{contentData.the_function_has_one_critical_point_at_43_169_wher_96}</p>
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* FAQ */}
-              <Card className="shadow-xl border-0 bg-white">
-                <CardHeader className="px-8 py-6">
-                  <CardTitle className="text-2xl font-bold text-gray-900">{contentData.faq_section_97}</CardTitle>
-                </CardHeader>
-                <CardContent className="px-8 pb-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="font-semibold text-gray-900 mb-2">{contentData.what_is_a_critical_point_98}</h3>
-                      <p className="text-gray-700">{contentData.a_critical_point_is_a_point_in_the_domain_of_a_fun_99}</p>
-                    </div>
-
-                    <div>
-                      <h3 className="font-semibold text-gray-900 mb-2">{contentData.how_do_you_find_critical_points_100}</h3>
-                      <p className="text-gray-700">{contentData.for_singlevariable_functions_find_fx_and_solve_fx__101}</p>
-                    </div>
-
-                    <div> 
-                      <h3 className="font-semibold text-gray-900 mb-2">{contentData.why_are_critical_points_important_102}</h3>
-                      <p className="text-gray-700">{contentData.critical_points_help_identify_local_extrema_maxima_103}</p>
-                    </div>
-
-                    <div>
-                      <h3 className="font-semibold text-gray-900 mb-2">{contentData.whats_the_difference_between_critical_points_and_i_104}</h3>
-                      <p className="text-gray-700">{contentData.critical_points_occur_where_fx_0_or_is_undefined_w_105}</p>
-                    </div>
                   </div>
                 </CardContent>
               </Card>
             </div>
 
-            {/* Disclaimer */}
-            <div className="mt-8 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
-              <p className="text-sm text-yellow-800">
-                <strong>{contentData.disclaimer_106}</strong>{contentData.this_tool_is_for_educational_use_only_verify_resul_107}</p>
+            {/* Mobile Result Card */}
+            <div ref={resultsRef} className="lg:hidden" id="results">
+              <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-red-100 p-6 mb-6">
+                <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center mb-3 shadow-lg">
+                    <Calculator className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-2xl font-bold text-orange-700 tracking-tight">{contentData.critical_points_found_12}</CardTitle>
+                </CardHeader>
+                <CardContent className="w-full flex flex-col items-center justify-center">
+                  {showResult && result ? <div className="text-center w-full">
+                    <div className="space-y-3">
+                      {result.type === "single" ? result.criticalPoints.length > 0 ? result.criticalPoints.map((point: number, index: number) => <div key={index} className="text-2xl font-bold text-orange-900">{contentData.x_13}{formatNumber(point)}
+                      </div>) : <p className="text-lg text-gray-600">{contentData.no_critical_points_found_14}</p> : result.criticalPoints.length > 0 ? result.criticalPoints.map((point: Point2D, index: number) => <div key={index} className="text-xl font-bold text-orange-900">
+                        {formatPoint(point)}
+                      </div>) : <p className="text-lg text-gray-600">{contentData.no_critical_points_found_15}</p>}
+                    </div>
+                    <div className="flex gap-2 mt-4">
+                      <Button onClick={exportToPDF} size="sm" variant="outline" className="border-orange-200 text-orange-700 bg-transparent">
+                        <Download className="w-4 h-4 mr-1" />{contentData.pdf_16}</Button>
+                      <Button onClick={() => window.print()} size="sm" variant="outline" className="border-orange-200 text-orange-700">
+                        <Printer className="w-4 h-4 mr-1" />{contentData.print_17}</Button>
+                    </div>
+                  </div> : <div className="flex flex-col items-center justify-center">
+                    <Function className="w-8 h-8 text-orange-300 mb-2" />
+                    <p className="text-gray-500 text-center text-base">{contentData.enter_function_and_click_18}<span className="font-semibold text-orange-600">{contentData.calculate_19}</span>{contentData.to_find_critical_points_20}</p>
+                  </div>}
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Desktop Result Card */}
+            <div className="hidden lg:block">
+              <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-red-100 h-full flex flex-col justify-center items-center p-8 sticky top-24">
+                <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center mb-3 shadow-lg">
+                    <Calculator className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-2xl font-bold text-orange-700 tracking-tight">{contentData.critical_points_found_21}</CardTitle>
+                </CardHeader>
+                <CardContent className="w-full flex flex-col items-center justify-center">
+                  {showResult && result ? <div className="text-center w-full">
+                    <div className="space-y-3">
+                      {result.type === "single" ? result.criticalPoints.length > 0 ? result.criticalPoints.map((point: number, index: number) => <div key={index} className="text-2xl font-bold text-orange-900">{contentData.x_22}{formatNumber(point)}
+                      </div>) : <p className="text-lg text-gray-600">{contentData.no_critical_points_found_23}</p> : result.criticalPoints.length > 0 ? result.criticalPoints.map((point: Point2D, index: number) => <div key={index} className="text-xl font-bold text-orange-900">
+                        {formatPoint(point)}
+                      </div>) : <p className="text-lg text-gray-600">{contentData.no_critical_points_found_24}</p>}
+                    </div>
+                    <div className="flex gap-2 mt-4">
+                      <Button onClick={exportToPDF} size="sm" variant="outline" className="border-orange-200 text-orange-700 bg-transparent">
+                        <Download className="w-4 h-4 mr-1" />{contentData.pdf_25}</Button>
+                      <Button onClick={() => window.print()} size="sm" variant="outline" className="border-orange-200 text-orange-700">
+                        <Printer className="w-4 h-4 mr-1" />{contentData.print_26}</Button>
+                    </div>
+                  </div> : <div className="flex flex-col items-center justify-center">
+                    <Function className="w-8 h-8 text-orange-300 mb-2" />
+                    <p className="text-gray-500 text-center text-base">{contentData.enter_function_and_click_27}<span className="font-semibold text-orange-600">{contentData.calculate_28}</span>{contentData.to_find_critical_points_29}</p>
+                  </div>}
+                </CardContent>
+              </Card>
             </div>
           </div>
+          <CalculatorGuide data={guideData} />
+          <SimilarCalculators calculators={[{
+            calculatorName: "Scientific Calculator",
+            calculatorHref: "/maths/scientific-calculator",
+            calculatorDescription: "Calculate loan payments and schedules for any type of loan"
+          }
+          ]}
+            color="orange"
+            title="Related Financial Calculators" />
 
-        </main>
-      </div>
-    </>;
+          {/* Step-by-step breakdown */}
+          {showResult && result && <div className="mt-12">
+            <Card className="shadow-xl border-0 p-0 bg-white">
+              <CardHeader className="bg-gradient-to-r from-orange-50 to-red-50 border-b px-8 py-6">
+                <CardTitle className="text-xl font-bold text-orange-700">{contentData.stepbystep_process_30}</CardTitle>
+              </CardHeader>
+              <CardContent className="p-8">
+                <div className="space-y-4">
+                  {result.type === "single" ? <div className="text-lg space-y-6">
+                    <p className="font-semibold">{contentData.calculate_the_critical_point_of_31}{result.function}</p>
+
+                    <div className="space-y-4">
+                      <div>
+                        <p className="font-semibold">{contentData.step_i_find_the_first_derivative_of_the_given_func_32}</p>
+                        <div className="bg-gray-50 p-4 rounded-lg space-y-2">
+                          <p>{contentData.fx_33}{result.function}</p>
+                          <p>{contentData.fx_34}{result.derivative}</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="font-semibold">{contentData.step_ii_set_the_first_derivative_equal_to_zero_and_35}</p>
+                        <div className="bg-gray-50 p-4 rounded-lg space-y-2">
+                          <p>{contentData.fx_0_36}</p>
+                          <p>{result.derivative}{contentData.k_0_37}</p>
+                          {result.criticalPoints.length > 0 && <p>{contentData.x_38}{result.criticalPoints.map(p => formatNumber(p)).join(", ")}</p>}
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="font-semibold">{contentData.hence_the_critical_points_of_the_given_function_x_39}{" "}
+                          {result.criticalPoints.length > 0 ? result.criticalPoints.map(p => formatNumber(p)).join(", ") : "No critical points found"}
+                        </p>
+                      </div>
+                    </div>
+                  </div> : <div className="text-lg space-y-6">
+                    <p className="font-semibold">{contentData.calculate_the_critical_points_of_40}{result.function}</p>
+
+                    <div className="space-y-4">
+                      <div>
+                        <p className="font-semibold">{contentData.step_i_calculate_the_first_partial_derivative_wrt__41}</p>
+                        <div className="bg-gray-50 p-4 rounded-lg space-y-2">
+                          <p>{contentData.fx_42}{result.partialX}</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="font-semibold">{contentData.step_ii_calculate_the_first_partial_derivative_wrt_43}</p>
+                        <div className="bg-gray-50 p-4 rounded-lg space-y-2">
+                          <p>{contentData.fy_44}{result.partialY}</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="font-semibold">{contentData.step_iii_set_both_partial_derivatives_equal_to_zer_45}</p>
+                        <div className="bg-gray-50 p-4 rounded-lg space-y-2">
+                          <p>{contentData.for_fx_46}{result.partialX}{contentData.k_0_47}</p>
+                          <p>{contentData.for_fy_48}{result.partialY}{contentData.k_0_49}</p>
+                          {result.criticalPoints.length > 0 && result.criticalPoints.map((point: Point2D, index: number) => <p key={index}>{contentData.critical_point_50}{formatPoint(point)}</p>)}
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="font-semibold">{contentData.hence_the_critical_points_of_the_given_function_ar_51}{" "}
+                          {result.criticalPoints.length > 0 ? result.criticalPoints.map(p => formatPoint(p)).join(", ") : "No critical points found"}
+                        </p>
+                      </div>
+                    </div>
+                  </div>}
+                </div>
+              </CardContent>
+            </Card>
+          </div>}
+
+          {/* Educational Content */}
+          <div className="mt-12 space-y-8">
+            {/* How to Find Critical Points */}
+            <Card className="shadow-xl border-0 bg-white">
+              <CardHeader className="px-8 py-6">
+                <CardTitle className="text-2xl font-bold text-gray-900">{contentData.how_to_find_critical_points_step_by_step_52}</CardTitle>
+              </CardHeader>
+              <CardContent className="px-8 pb-8">
+                <div className="space-y-4">
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-2">{contentData.for_singlevariable_functions_fx_53}</h3>
+                    <ol className="list-decimal list-inside space-y-2 text-gray-700 ml-4">
+                      <li>{contentData.find_the_first_derivative_fx_54}</li>
+                      <li>{contentData.set_fx_0_and_solve_for_x_55}</li>
+                      <li>{contentData.find_points_where_fx_is_undefined_56}</li>
+                      <li>{contentData.list_all_critical_points_57}</li>
+                    </ol>
+                  </div>
+
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-2">{contentData.for_multivariable_functions_fxy_58}</h3>
+                    <ol className="list-decimal list-inside space-y-2 text-gray-700 ml-4">
+                      <li>{contentData.find_partial_derivatives_fx_and_fy_59}</li>
+                      <li>{contentData.set_both_partial_derivatives_equal_to_zero_60}</li>
+                      <li>{contentData.solve_the_system_of_equations_simultaneously_61}</li>
+                      <li>{contentData.check_for_points_where_partials_are_undefined_62}</li>
+                    </ol>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Single Variable Example */}
+            <Card className="shadow-xl border-0 bg-white">
+              <CardHeader className="px-8 py-6">
+                <CardTitle className="text-2xl font-bold text-gray-900">{contentData.single_variable_functions_example_63}</CardTitle>
+              </CardHeader>
+              <CardContent className="px-8 pb-8">
+                <div className="space-y-4">
+                  <p className="text-gray-700">
+                    <strong>{contentData.example_64}</strong>{contentData.find_critical_points_of_fx_3x_4x_9_65}</p>
+
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <div className="space-y-2 font-mono text-sm">
+                      <p>
+                        <strong>{contentData.step_1_66}</strong>{contentData.fx_3x_4x_9_67}</p>
+                      <p>
+                        <strong>{contentData.step_2_68}</strong>{contentData.fx_6x_4_69}</p>
+                      <p>
+                        <strong>{contentData.step_3_70}</strong>{contentData.set_fx_0_6x_4_0_71}</p>
+                      <p>
+                        <strong>{contentData.step_4_72}</strong>{contentData.solve_6x_4_x_46_23_73}</p>
+                      <p>
+                        <strong>{contentData.step_5_74}</strong>{contentData.critical_point_23_06667_75}</p>
+                    </div>
+                  </div>
+
+                  <p className="text-gray-700">{contentData.the_function_has_one_critical_point_at_x_23_where__76}</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Multivariable Example */}
+            <Card className="shadow-xl border-0 bg-white">
+              <CardHeader className="px-8 py-6">
+                <CardTitle className="text-2xl font-bold text-gray-900">{contentData.multivariable_functions_example_77}</CardTitle>
+              </CardHeader>
+              <CardContent className="px-8 pb-8">
+                <div className="space-y-4">
+                  <p className="text-gray-700">
+                    <strong>{contentData.example_78}</strong>{contentData.find_critical_points_of_fxy_4x_6xy_8y_79}</p>
+
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <div className="space-y-2 font-mono text-sm">
+                      <p>
+                        <strong>{contentData.step_1_80}</strong>{contentData.fxy_4x_6xy_8y_81}</p>
+                      <p>
+                        <strong>{contentData.step_2_82}</strong>{contentData.fx_8x_6y_83}</p>
+                      <p>
+                        <strong>{contentData.step_3_84}</strong>{contentData.fy_6x_8_85}</p>
+                      <p>
+                        <strong>{contentData.step_4_86}</strong>{contentData.solve_system_87}</p>
+                      <p className="ml-4">{contentData.k_8x_6y_0_88}</p>
+                      <p className="ml-4">{contentData.k_6x_8_0_89}</p>
+                      <p>
+                        <strong>{contentData.step_5_90}</strong>{contentData.from_equation_2_x_86_43_91}</p>
+                      <p>
+                        <strong>{contentData.step_6_92}</strong>{contentData.substitute_843_6y_0_y_169_93}</p>
+                      <p>
+                        <strong>{contentData.step_7_94}</strong>{contentData.critical_point_43_169_13333_17778_95}</p>
+                    </div>
+                  </div>
+
+                  <p className="text-gray-700">{contentData.the_function_has_one_critical_point_at_43_169_wher_96}</p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Disclaimer */}
+          <div className="mt-8 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
+            <p className="text-sm text-yellow-800">
+              <strong>{contentData.disclaimer_106}</strong>{contentData.this_tool_is_for_educational_use_only_verify_resul_107}</p>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </>;
 }

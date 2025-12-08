@@ -1,0 +1,139 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de yardas cúbicas?",
+      "content": "Una calculadora de yardas cúbicas le ayuda a medir el volumen de tierra, grava, hormigón o mantillo en yardas cúbicas. Es esencial para proyectos de construcción, paisajismo y bricolaje estimar con precisión la cantidad y el costo del material."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Introducir dimensiones",
+          "content": "Introduzca la longitud, el ancho y la profundidad."
+        },
+        {
+          "heading": "Seleccionar unidades",
+          "content": "Utilice pies, pulgadas o yardas."
+        },
+        {
+          "heading": "Opcional: ingrese el precio por yarda cúbica",
+          "content": "Para el cálculo del costo total."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Obtenga el volumen en yardas cúbicas y el costo total al instante."
+        },
+        {
+          "heading": "Consejo",
+          "content": "Vuelva a verificar las mediciones para obtener resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Cálculo de volumen preciso",
+          "content": "Utiliza fórmulas estándar."
+        },
+        {
+          "heading": "Unidades flexibles",
+          "content": "Soporta pies, pulgadas y yardas."
+        },
+        {
+          "heading": "Estimación de costos",
+          "content": "Calcula el costo total si se ingresa el precio por yarda cúbica."
+        },
+        {
+          "heading": "Interfaz optimizada para dispositivos móviles",
+          "content": "Funciona en todos los dispositivos."
+        },
+        {
+          "heading": "Soporte de múltiples materiales",
+          "content": "Ideal para tierra, grava, hormigón, arena o mantillo."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Construcción",
+          "content": "Estimar concreto para losas, zapatas y cimientos."
+        },
+        {
+          "heading": "paisajismo",
+          "content": "Calcule tierra, mantillo o grava para jardines y caminos."
+        },
+        {
+          "heading": "Proyectos de bricolaje",
+          "content": "Planifique entradas de vehículos, patios y pequeños movimientos de tierra."
+        },
+        {
+          "heading": "Compradores/proveedores de materiales",
+          "content": "Determine la cantidad y el costo antes de realizar el pedido."
+        },
+        {
+          "heading": "Educación",
+          "content": "Aprenda a calcular el volumen de áreas cuboides o rectangulares."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1",
+          "content": "Área: 10 pies × 5 pies × 2 pies | Yardas cúbicas = (10 × 5 × 2) ÷ 27 = 3,7 yd³"
+        },
+        {
+          "heading": "Ejemplo 2: cálculo de costos",
+          "content": "Volumen: 5 yd³ | Precio por yarda cúbica: $40 | Costo total = 5 × 40 = $200"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una yarda cúbica?",
+      "a": "1 yd³ = 1 yarda × 1 yarda × 1 yarda = 27 pies cúbicos."
+    },
+    {
+      "q": "¿Por qué utilizar una calculadora de yardas cúbicas?",
+      "a": "Para ahorrar tiempo y evitar errores de cálculo."
+    },
+    {
+      "q": "¿Puedo usar pies, pulgadas o yardas?",
+      "a": "Sí, todos son compatibles."
+    },
+    {
+      "q": "¿Funciona para múltiples áreas?",
+      "a": "Sí, puedes calcular el volumen total para múltiples áreas."
+    },
+    {
+      "q": "¿Puedo calcular el costo total?",
+      "a": "Sí, si se ingresa el precio por yarda cúbica."
+    },
+    {
+      "q": "¿Es adecuado para proyectos de bricolaje?",
+      "a": "Sí, para jardines, patios, entradas de vehículos y paisajismo."
+    },
+    {
+      "q": "¿Tiene en cuenta el desperdicio?",
+      "a": "No, calcula el volumen teórico. Agregue extra para desperdicio o compactación."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, funciona en todos los dispositivos."
+    },
+    {
+      "q": "¿Quién debería utilizar esta calculadora?",
+      "a": "Contratistas, paisajistas, aficionados al bricolaje, compradores de materiales y estudiantes."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, 100% gratis y no requiere descargas."
+    }
+  ]
+}

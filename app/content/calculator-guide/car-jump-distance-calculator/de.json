@@ -1,0 +1,151 @@
+{
+  "color": "Rot",
+  "sections": [
+    {
+      "heading": "Auto-Sprungentfernungsrechner: Was es ist und wie man es verwendet",
+      "content": "Ein Car Jump Distance Calculator ist ein praktisches Online-Tool, das abschätzt, wie weit ein Auto zurücklegen kann, wenn es von einer Rampe gestartet wird. Durch Eingabe der Fahrzeuggeschwindigkeit, des Rampenwinkels und der Starthöhe ermittelt der Rechner die Sprungweite, die Flugzeit und die maximale Höhe."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Öffnen Sie den Rechner",
+          "content": "Greifen Sie direkt in Ihrem Browser darauf zu."
+        },
+        {
+          "heading": "Geben Sie die Anfangsgeschwindigkeit ein",
+          "content": "Die Geschwindigkeit des Autos beim Start."
+        },
+        {
+          "heading": "Geben Sie den Rampenwinkel ein",
+          "content": "Der Winkel der Rampe relativ zur Horizontalen."
+        },
+        {
+          "heading": "Geben Sie die Starthöhe ein",
+          "content": "Die Höhe der Rampe oder des Startpunkts."
+        },
+        {
+          "heading": "Optionale Eingaben",
+          "content": "Geben Sie die Landehöhe an, wenn diese vom Startpunkt abweicht."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Sehen Sie sofort Sprungweite, Flugzeit und maximale Höhe."
+        },
+        {
+          "heading": "Überprüfen Sie die Einheiten",
+          "content": "Stellen Sie sicher, dass alle Messungen mit den von Ihnen verwendeten Einheiten übereinstimmen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Ergebnisse",
+          "content": "Erhalten Sie Ihre Berechnungen sofort."
+        },
+        {
+          "heading": "Mehrere Ausgänge",
+          "content": "Zeigt horizontale Entfernung, Flugzeit und Gipfelhöhe an."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf Telefonen, Tablets und Computern."
+        },
+        {
+          "heading": "Kostenlos und einfach zu bedienen",
+          "content": "Keine Software oder Registrierung erforderlich."
+        },
+        {
+          "heading": "Pädagogisch",
+          "content": "Erfahren Sie, wie Geschwindigkeit, Winkel und Höhe Sprünge beeinflussen."
+        },
+        {
+          "heading": "Unterstützt metrische und imperiale Einheiten",
+          "content": "Funktioniert für Benutzer auf der ganzen Welt."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Schüler und Lehrer",
+          "content": "Entdecken Sie Projektilbewegungs- und Physikkonzepte."
+        },
+        {
+          "heading": "Hobbyisten und Spieledesigner",
+          "content": "Simulieren Sie Autosprünge für Spiele oder Animationen."
+        },
+        {
+          "heading": "Physikbegeisterte",
+          "content": "Testen Sie, wie sich Rampenwinkel und Geschwindigkeit auf die Sprungweite auswirken."
+        },
+        {
+          "heading": "Szenarioplaner",
+          "content": "Vergleichen Sie verschiedene Parameter, um zu sehen, wie sich Sprünge ändern."
+        },
+        {
+          "heading": "Pädagogische Demonstrationen",
+          "content": "Theoretische Bewegungsszenarien sicher demonstrieren."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Moderater Sprung",
+          "content": "Anfangsgeschwindigkeit: 20 m/s | Rampenwinkel: 30° | Starthöhe: 2 m | Sprungweite: 35 m | Flugzeit: 2,05 s"
+        },
+        {
+          "heading": "Beispiel 2 – Sprung mit höherer Geschwindigkeit",
+          "content": "Anfangsgeschwindigkeit: 30 m/s | Rampenwinkel: 25° | Starthöhe: 1,5 m | Sprungweite: 65 m | Flugzeit: 2,85 s"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Auto-Sprungweitenrechner?",
+      "a": "Mithilfe physikalischer Formeln wird geschätzt, wie weit ein Auto fahren wird, wenn es von einer Rampe gestartet wird."
+    },
+    {
+      "q": "Ist dieser Rechner kostenlos?",
+      "a": "Ja, die Online-Nutzung ist völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software oder Installation?",
+      "a": "Nein, es funktioniert direkt in Ihrem Browser."
+    },
+    {
+      "q": "Kann ich es auf mobilen Geräten verwenden?",
+      "a": "Ja, es ist vollständig mobilfreundlich."
+    },
+    {
+      "q": "Welche Eingaben sind erforderlich?",
+      "a": "Anfangsgeschwindigkeit, Rampenwinkel, Starthöhe und optional Landehöhe."
+    },
+    {
+      "q": "Welche physikalischen Prinzipien werden verwendet?",
+      "a": "Es beruht auf idealen Projektilbewegungsgleichungen unter Schwerkraft."
+    },
+    {
+      "q": "Ist es für Studenten geeignet?",
+      "a": "Ja, es eignet sich perfekt zum Erlernen von Physik, Projektilbewegungen und Flugbahnkonzepten."
+    },
+    {
+      "q": "Kann ich es für echte Stunts verwenden?",
+      "a": "Nein, die Ergebnisse sind theoretisch. Bei Sprüngen in der realen Welt spielen Faktoren wie Luftwiderstand, Reibung und Aerodynamik eine Rolle."
+    },
+    {
+      "q": "Kann es mit verschiedenen Einheiten umgehen?",
+      "a": "Ja, es werden sowohl metrische als auch imperiale Einheiten unterstützt."
+    },
+    {
+      "q": "Wie genau ist es?",
+      "a": "Es liefert ungefähre Ergebnisse unter Annahme einer idealen Physik; Die tatsächlichen Sprünge unterscheiden sich im wirklichen Leben."
+    }
+  ]
+}

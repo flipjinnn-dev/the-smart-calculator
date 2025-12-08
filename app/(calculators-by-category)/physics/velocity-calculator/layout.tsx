@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for velocity-calculator
 const velocitycalculatorMeta = {
@@ -70,5 +71,157 @@ export default async function VelocityCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  
+  const jsonLdSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Velocity Calculator",
+  "url": "https://www.thesmartcalculator.com/physics/velocity-calculator",
+  "description": "Free online Velocity Calculator to calculate speed or velocity using distance, time, initial velocity, and acceleration. Ideal for students, engineers, and hobbyists.",
+  "mainEntity": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Velocity Calculator",
+      "applicationCategory": "PhysicsCalculator",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Calculate velocity for constant and accelerated motion",
+        "Instant calculations",
+        "Mobile-friendly interface",
+        "Supports metric and imperial units",
+        "Free and easy to use"
+      ],
+      "url": "https://www.thesmartcalculator.com/physics/velocity-calculator"
+    },
+    {
+      "@type": "HowTo",
+      "name": "Velocity Calculator",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Velocity Calculator",
+          "text": "Choose between constant velocity (distance/time) or accelerated motion (v = u + a × t)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Velocity Calculator",
+          "text": "Input distance, time, initial velocity, and acceleration as required."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Velocity Calculator",
+          "text": "Press the calculate button to get the velocity instantly."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Velocity Calculator",
+          "text": "Ensure units are consistent for accurate results."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a velocity calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It calculates the speed or velocity of an object using distance, time, initial velocity, and acceleration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this calculator free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it is completely free to use online."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need software or installation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, it works directly in your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use it on mobile devices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it is fully mobile-friendly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What inputs are required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Distance, time, initial velocity, and acceleration depending on the calculation type."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which formulas are used?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simple velocity: v = distance ÷ time. Accelerated motion: v = u + a × t."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can it handle different units?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it supports metric and imperial units."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it suitable for students?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it is perfect for learning physics and motion concepts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can engineers or hobbyists use it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it is useful for experiments, projects, and motion analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the calculator accurate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it provides precise results assuming consistent units and proper input values."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+  
+  return <>
+  <Script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+  />
+  {children}
+  </>;
 }

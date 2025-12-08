@@ -1,0 +1,85 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de jubilación y por qué utilizarla?",
+      "content": "Nuestra calculadora de jubilación gratuita en línea le ayuda a estimar cuánto dinero necesitará para jubilarse cómodamente. Ya sea que esté buscando una calculadora de ahorros para la jubilación gratuita, una calculadora de ahorros para la jubilación o una calculadora de ingresos para la jubilación con el Seguro Social, esta herramienta le brinda información clara adaptada a sus objetivos financieros. En lugar de adivinar, puede calcular rápidamente cuánto dinero necesita para jubilarse ajustando los ahorros, las inversiones, la inflación y las tasas de retiro."
+    },
+    {
+      "heading": "Cómo funciona la Calculadora de Jubilación (Paso a Paso)",
+      "subSections": [
+        {
+          "heading": "Ingrese sus ahorros actuales",
+          "content": "Incluya 401(k), IRA, pensión o ahorros personales."
+        },
+        {
+          "heading": "Añade tus contribuciones esperadas",
+          "content": "Depósitos mensuales o anuales."
+        },
+        {
+          "heading": "Ajustar los supuestos de crecimiento",
+          "content": "Estimar el rendimiento de las inversiones y la inflación."
+        },
+        {
+          "heading": "Establezca su edad de jubilación y esperanza de vida",
+          "content": "Planifique plazos realistas."
+        },
+        {
+          "heading": "Revisa tus resultados",
+          "content": "Vea los ingresos proyectados, los retiros y el crecimiento de los ahorros."
+        }
+      ]
+    },
+    {
+      "heading": "Beneficios clave de nuestra calculadora de planificación de la jubilación",
+      "subSections": [
+        {
+          "heading": "Resultados ajustados por inflación",
+          "content": "Planifique de manera realista con una calculadora de planificación de jubilación con inflación."
+        },
+        {
+          "heading": "Escenarios de retiro",
+          "content": "Explore tasas de retiro seguras con una calculadora de retiros de jubilación en línea."
+        },
+        {
+          "heading": "Seguridad Social y pensiones",
+          "content": "Considere los beneficios utilizando una calculadora de pensiones y jubilación."
+        },
+        {
+          "heading": "Múltiples escenarios",
+          "content": "Compare diferentes edades de jubilación, tasas de ahorro y rendimientos."
+        },
+        {
+          "heading": "Cuadros y gráficos",
+          "content": "Visualice su viaje de jubilación para una planificación más clara."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona perfectamente en teléfonos, tabletas y computadoras de escritorio."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto necesito para jubilarme cómodamente?",
+      "a": "La mayoría de los expertos recomiendan aspirar a entre el 70% y el 80% de sus ingresos previos a la jubilación. Nuestra calculadora de jubilación con ejemplos le ayuda a personalizar esta estimación."
+    },
+    {
+      "q": "¿Qué tan precisa es una calculadora de jubilación?",
+      "a": "Si bien ninguna calculadora predice el futuro a la perfección, nuestra herramienta se ajusta a la inflación, el rendimiento de las inversiones y la esperanza de vida para proporcionar proyecciones realistas."
+    },
+    {
+      "q": "¿Puedo calcular la jubilación sin Seguridad Social?",
+      "a": "Sí. Puede ejecutar escenarios con o sin beneficios utilizando nuestra calculadora de jubilación sin Seguro Social."
+    },
+    {
+      "q": "¿Cuál es la tasa de retiro seguro durante la jubilación?",
+      "a": "Una pauta común es el 4%, pero los resultados varían. Utilice nuestra calculadora de jubilación con tasa de retiro segura para probar diferentes estrategias."
+    },
+    {
+      "q": "¿Es esta la mejor herramienta de calculadora de jubilación?",
+      "a": "Nuestra herramienta está optimizada para principiantes y usuarios avanzados en la planificación de la jubilación, y ofrece múltiples escenarios, ajustes de inflación y consideraciones fiscales, lo que la convierte en una de las mejores calculadoras de jubilación impulsadas por IA para 2025."
+    }
+  ]
+}

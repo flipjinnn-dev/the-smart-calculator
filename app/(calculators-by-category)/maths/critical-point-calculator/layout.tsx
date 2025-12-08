@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for critical-point-calculator
 const criticalpointcalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }critical-point-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }critical-point-calculator`,
       languages: {
         'en': getCanonicalUrl('critical-point-calculator', 'en'),
         'pt-BR': getCanonicalUrl('critical-point-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }critical-point-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }critical-point-calculator`,
     },
   };
 }
@@ -70,5 +69,115 @@ export default async function CriticalPointCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Critical Point Calculator - Step-by-Step Guide",
+    "url": "https://www.thesmartcalculator.com/maths/critical-point-calculator",
+    "description": "Learn how to use the Critical Point Calculator to find critical points, critical values, and analyze functions. Includes examples, key features, and FAQs.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thesmartcalculator.com/logo.png"
+      }
+    },
+    "mainEntity": [
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a critical point?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A critical point is where a function’s derivative is zero or undefined, often indicating a local maximum, minimum, or inflection point."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the Critical Value Calculator work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It automatically differentiates the function, solves for zeros or undefined points, and calculates the corresponding function values."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use it for any function?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it works for polynomial, trigonometric, exponential, and logarithmic functions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it accurate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, but for complex or piecewise functions, manual verification is recommended."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it provide step-by-step solutions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most calculators offer step-by-step solutions for learning purposes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I graph the function?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, graphical visualization is available in many calculators to see critical points clearly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I find global extrema?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Critical points help locate local extrema. To find global extrema, analyze endpoints along with critical points."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to know calculus?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic understanding helps, but the calculator simplifies derivative and critical value calculations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it free to use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Many online calculators are free, though some may have premium features."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is it useful for students and professionals?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It saves time, reduces errors, and provides clear visualization for function analysis."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="critical-point-calculator-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

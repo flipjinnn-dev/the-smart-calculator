@@ -1,0 +1,131 @@
+{
+  "color": "blaugrün",
+  "sections": [
+    {
+      "heading": "Was ist ein Höhenrechner?",
+      "content": "Ein Höhenrechner ist ein kostenloses Online-Tool, mit dem Benutzer die Höhe schnell und genau messen, umrechnen oder schätzen können. Es unterstützt Einheitenumrechnungen zwischen Zentimetern, Metern und Fuß/Zoll und bietet in einigen Fällen Vorhersagen zur Körpergröße von Erwachsenen basierend auf dem Alter und der Körpergröße der Eltern."
+    },
+    {
+      "heading": "So funktioniert der Höhenrechner",
+      "subSections": [
+        {
+          "heading": "Eingaben erforderlich",
+          "content": "Aktuelle Höhe in cm, Metern oder Fuß/Zoll; optionales Alter und Körpergröße der Eltern zur Vorhersage."
+        },
+        {
+          "heading": "Konvertierungsmethode",
+          "content": "Das Tool rechnet die Höhe mit präzisen Formeln zwischen Einheiten wie Zentimeter, Meter und Fuß/Zoll um."
+        },
+        {
+          "heading": "Vorhersagemethode",
+          "content": "Wenn diese Option aktiviert ist, wird die Erwachsenengröße anhand von Standard-Wachstumsformeln anhand des Alters und der Größe der Eltern geschätzt."
+        },
+        {
+          "heading": "Was als nächstes passiert",
+          "content": "Nachdem Sie auf „Berechnen“ geklickt haben, erhalten Sie sofort die umgerechnete Körpergröße oder die vorhergesagte Erwachsenengröße."
+        }
+      ]
+    },
+    {
+      "heading": "Warum einen Höhenrechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Genaue Einheitenumrechnung",
+          "content": "Konvertieren Sie die Höhe schnell und mit zuverlässiger Genauigkeit in cm, Meter und Fuß/Zoll."
+        },
+        {
+          "heading": "Schätzung der Körpergröße eines Erwachsenen",
+          "content": "Prognostizieren Sie mithilfe wissenschaftlich fundierter Formeln die potenzielle Körpergröße eines Erwachsenen."
+        },
+        {
+          "heading": "Schnell und benutzerfreundlich",
+          "content": "Keine manuellen Berechnungen – Ergebnisse werden sofort angezeigt."
+        },
+        {
+          "heading": "Bequemlichkeit",
+          "content": "Kostenlos, mobilfreundlich und auf allen Geräten zugänglich."
+        }
+      ]
+    },
+    {
+      "heading": "Beispiel für Höhenberechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Einheitenumrechnung",
+          "content": "Eingabe: 175 cm → Umrechnung in Fuß/Zoll → Ergebnis: 5 Fuß 8,9 Zoll."
+        },
+        {
+          "heading": "Beispiel 2 – Vorhersage der Körpergröße eines Erwachsenen",
+          "content": "Kinderalter: 12, Vater: 180 cm, Mutter: 165 cm → Voraussichtliche Erwachsenengröße: 174–178 cm."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Gesundheits- und Fitness-Tracking",
+          "content": "Überwachen Sie die aktuelle Größe oder den Wachstumsfortschritt."
+        },
+        {
+          "heading": "Überwachung des elterlichen Wachstums",
+          "content": "Schätzen Sie die erwartete Erwachsenengröße eines Kindes."
+        },
+        {
+          "heading": "Sport- und Schulaufzeichnungen",
+          "content": "Zeichnen Sie genaue Höhenmessungen zur Dokumentation auf."
+        },
+        {
+          "heading": "Planung der Konfektionsgröße",
+          "content": "Konvertieren Sie Höheneinheiten, um die richtige Größe zu ermitteln."
+        },
+        {
+          "heading": "Allgemeine Verwendung",
+          "content": "Ideal für alle, die schnelle Höhenumrechnungen oder Schätzungen benötigen."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Höhenrechner?",
+      "a": "Es handelt sich um ein Online-Tool zum genauen Messen, Umrechnen oder Schätzen der Höhe."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, die Nutzung des Höhenrechners ist völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software?",
+      "a": "Nein, es funktioniert direkt in jedem Browser ohne Installation."
+    },
+    {
+      "q": "Kann es Einheiten umrechnen?",
+      "a": "Ja, es unterstützt Zentimeter, Meter und Fuß/Zoll."
+    },
+    {
+      "q": "Wird die Körpergröße eines Erwachsenen vorhergesagt?",
+      "a": "Ja, wenn diese Option aktiviert ist, werden für Vorhersagen das Alter und die Größe der Eltern verwendet."
+    },
+    {
+      "q": "Ist es korrekt?",
+      "a": "Umrechnungen sind präzise, ​​während Vorhersagen Schätzungen sind, die auf Wachstumsformeln basieren."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, es funktioniert auf Smartphones, Tablets und Desktops."
+    },
+    {
+      "q": "Wer kann es nutzen?",
+      "a": "Schüler, Eltern, Sportler, Lehrer und alle, die Informationen zur Körpergröße benötigen."
+    },
+    {
+      "q": "Kann es bei Schul- oder Sportaufzeichnungen helfen?",
+      "a": "Ja, es liefert genaue Höhen zu Dokumentationszwecken."
+    },
+    {
+      "q": "Kann ich mich auf die vorhergesagte Höhe verlassen?",
+      "a": "Vorhersagen sind Schätzungen – die tatsächliche Körpergröße eines Erwachsenen kann aufgrund der Genetik und des Gesundheitszustands variieren."
+    }
+  ]
+}

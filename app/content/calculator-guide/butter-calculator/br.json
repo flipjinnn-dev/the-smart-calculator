@@ -1,0 +1,105 @@
+{
+  "color": "laranja",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de manteiga?",
+      "content": "A Calculadora de Manteiga permite converter quantidades de manteiga entre palitos, xícaras, colheres de sopa, gramas, onças e mililitros instantaneamente. Ideal para padeiros, chefs e cozinheiros domésticos que precisam de medições precisas."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "content": "Siga estas etapas para converter unidades de manteiga com precisão:",
+      "subSections": [
+        {
+          "heading": "Passos",
+          "content": "1. Insira a quantidade – Insira a quantidade de manteiga em qualquer unidade.\n2. Selecione Unidade – Escolha a unidade para sua entrada.\n3. Escolha Unidade de destino – Selecione as unidades para as quais deseja converter.\n4. Clique em Converter – Obtenha a quantidade equivalente de manteiga instantaneamente.\n5. Dica – Para um cozimento preciso, use unidades baseadas em peso, como gramas ou onças."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "content": "Este conversor de manteiga foi projetado para conversões precisas e rápidas:",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "- Conversão Instantânea – Converte entre todas as principais unidades de manteiga.\n- Suporta múltiplas unidades – palitos, xícaras, gramas, onças, colheres de sopa, mililitros.\n- Preciso e confiável – usa taxas de conversão padrão.\n- Amigável internacionalmente – Converte perfeitamente unidades métricas e dos EUA.\n- Otimizado para celular – Funciona perfeitamente em todos os dispositivos."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "content": "As pessoas confiam nesta ferramenta para muitas tarefas de cozinha e relacionadas a receitas:",
+      "subSections": [
+        {
+          "heading": "Exemplos",
+          "content": "- Panificação e Culinária: Siga receitas com medidas exatas.\n- Receitas Internacionais: Converta unidades de manteiga dos EUA em métricas e vice-versa.\n- Dieta e Nutrição: Meça a manteiga com precisão em termos de calorias ou macros.\n- Dimensionamento de receitas: ajuste o tamanho da receita para cima ou para baixo facilmente.\n- Aprendizagem: Entenda as diferenças e conversões de medição de manteiga."
+        }
+      ]
+    },
+    {
+      "heading": "Exemplos de conversões",
+      "content": "Aqui estão conversões comuns de manteiga para ajudá-lo a entender os resultados:",
+      "subSections": [
+        {
+          "heading": "Exemplos",
+          "content": "- 2 palitos → 227 gramas\n- 1 xícara → 16 colheres de sopa\n- 8 onças → 237 ml\n- 113 gramas → 1 palito"
+        }
+      ]
+    },
+    {
+      "heading": "Dicas e práticas recomendadas",
+      "content": "Dicas úteis para medições de manteiga mais precisas:",
+      "subSections": [
+        {
+          "heading": "Pontas",
+          "content": "- Prefira unidades de peso (gramas/onças) para maior precisão no cozimento.\n- Verifique se sua receita usa medidas americanas ou métricas.\n- Ao derreter a manteiga, o volume pode variar ligeiramente – use gramas para precisão.\n- Sempre nivele colheres de sopa e xícaras para obter resultados corretos.\n- Para receitas grandes, converta todas as unidades de manteiga em gramas para obter consistência."
+        }
+      ]
+    },
+    {
+      "heading": "Isenção de responsabilidade",
+      "content": "Esta ferramenta de conversão de manteiga fornece estimativas de conversão padrão e amplamente aceitas. A densidade real da manteiga pode variar ligeiramente dependendo da temperatura e da marca. Use medições de peso para obter a mais alta precisão."
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que esta calculadora faz?",
+      "a": "Ele converte manteiga em palitos, xícaras, colheres de sopa, gramas, onças e mililitros."
+    },
+    {
+      "q": "Por que usá-lo?",
+      "a": "Garante medições precisas para cozinhar e assar."
+    },
+    {
+      "q": "Posso converter sticks em gramas?",
+      "a": "Sim, basta inserir sticks e selecionar gramas como unidade alvo."
+    },
+    {
+      "q": "Suporta unidades métricas?",
+      "a": "Sim, gramas e mililitros são totalmente suportados."
+    },
+    {
+      "q": "É preciso para assar?",
+      "a": "Sim, ele usa taxas de conversão de manteiga padrão amplamente utilizadas em receitas."
+    },
+    {
+      "q": "Posso converter colheres de sopa em xícaras?",
+      "a": "Sim, a calculadora suporta conversões entre todas as principais unidades de volume de manteiga."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, está otimizado para telefones, tablets e desktops."
+    },
+    {
+      "q": "Posso usá-lo para monitorar dieta?",
+      "a": "Sim, ajuda a medir com precisão a manteiga para monitoramento nutricional."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, totalmente gratuito, sem necessidade de download."
+    },
+    {
+      "q": "Quem deve usá-lo?",
+      "a": "Padeiros, chefs, cozinheiros domésticos, nutricionistas e qualquer pessoa que siga receitas."
+    }
+  ]
+}

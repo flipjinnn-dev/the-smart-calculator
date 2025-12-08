@@ -1,0 +1,155 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Conversor de medidas de culinária: o que é e como ajuda",
+      "content": "O Cooking Measurement Converter é uma ferramenta online gratuita que permite converter ingredientes entre diferentes unidades de cozimento, como xícaras, gramas, colheres de sopa, onças, mililitros e muito mais. Ele ajuda a ajustar receitas com precisão, quer você esteja assando, cozinhando ou convertendo medidas americanas e métricas."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Insira a quantidade",
+          "content": "Digite o valor que deseja converter na caixa de entrada."
+        },
+        {
+          "heading": "Selecione a unidade de origem",
+          "content": "Escolha a unidade de sua entrada, como xícaras, gramas, colheres de sopa ou mililitros."
+        },
+        {
+          "heading": "Selecione a unidade alvo",
+          "content": "Escolha a unidade para a qual deseja converter para obter resultados instantâneos."
+        },
+        {
+          "heading": "Escolha o ingrediente (opcional)",
+          "content": "Selecione um ingrediente para melhorar a precisão das conversões de volume em peso."
+        },
+        {
+          "heading": "Clique em Converter",
+          "content": "Obtenha seu resultado convertido instantaneamente com base nas unidades selecionadas."
+        },
+        {
+          "heading": "Use unidades precisas",
+          "content": "Para assar, prefira gramas ou onças, pois fornecem medidas precisas."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Conversões instantâneas",
+          "content": "Converta entre unidades imediatamente sem cálculo manual."
+        },
+        {
+          "heading": "Suporta múltiplas unidades",
+          "content": "Xícaras, colheres de chá, colheres de sopa, gramas, onças, mililitros, litros e muito mais."
+        },
+        {
+          "heading": "Precisão baseada em ingredientes",
+          "content": "Escolha os ingredientes para conversões corretas de volume em peso."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Use-o facilmente em smartphones, tablets e desktops."
+        },
+        {
+          "heading": "Gratuito e fácil de usar",
+          "content": "Não é necessária inscrição ou instalação."
+        },
+        {
+          "heading": "Perfeito para cozinhar e assar",
+          "content": "Ideal para novos cozinheiros, profissionais e dimensionamento de receitas."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Cozinheiros e padeiros domésticos",
+          "content": "Siga as receitas com precisão e converta os ingredientes sem esforço."
+        },
+        {
+          "heading": "Usuários de receitas internacionais",
+          "content": "Alterne facilmente entre unidades métricas e habituais dos EUA."
+        },
+        {
+          "heading": "Receitas de dimensionamento de pessoas",
+          "content": "Ajuste as quantidades de ingredientes para qualquer tamanho de porção."
+        },
+        {
+          "heading": "Nutricionistas e planejadores de dieta",
+          "content": "Meça e converta ingredientes com precisão."
+        },
+        {
+          "heading": "Estudantes e Chefs Profissionais",
+          "content": "Use para estudos culinários, prática e consistência na cozinha."
+        }
+      ]
+    },
+    {
+      "heading": "Exemplos de conversões",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Açúcar",
+          "content": "1 xícara de açúcar → 200 gramas"
+        },
+        {
+          "heading": "Exemplo 2 – Manteiga",
+          "content": "3 colheres de sopa de manteiga → 42 gramas"
+        },
+        {
+          "heading": "Exemplo 3 – Farinha",
+          "content": "2 onças de farinha → 57 gramas"
+        },
+        {
+          "heading": "Exemplo 4 – Conversão de Líquido",
+          "content": "500 mililitros → 2 xícaras"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é um conversor de medidas de culinária?",
+      "a": "Ele converte ingredientes entre diferentes unidades de cozimento e panificação."
+    },
+    {
+      "q": "Ele pode converter xícaras em gramas?",
+      "a": "Sim, especialmente para ingredientes comuns como farinha, açúcar e manteiga."
+    },
+    {
+      "q": "Suporta todos os ingredientes?",
+      "a": "Suporta os ingredientes mais comuns, mas alguns podem variar ligeiramente em densidade."
+    },
+    {
+      "q": "Posso converter colheres de chá em mililitros?",
+      "a": "Sim, todas as unidades de volume padrão são suportadas."
+    },
+    {
+      "q": "É preciso para assar?",
+      "a": "Sim, especialmente ao usar unidades precisas como gramas ou onças."
+    },
+    {
+      "q": "Posso usá-lo no celular?",
+      "a": "Sim, está totalmente otimizado para dispositivos móveis."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, é totalmente gratuito e online."
+    },
+    {
+      "q": "Posso dimensionar receitas?",
+      "a": "Sim, você pode ajustar facilmente as quantidades de ingredientes para qualquer tamanho de porção."
+    },
+    {
+      "q": "Quem deve usá-lo?",
+      "a": "Cozinheiros domésticos, padeiros, chefs, nutricionistas e estudantes de culinária."
+    },
+    {
+      "q": "Preciso selecionar um ingrediente?",
+      "a": "É opcional, mas recomendado para conversões exatas de volume em peso."
+    }
+  ]
+}

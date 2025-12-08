@@ -1,0 +1,106 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "What is a GPA Calculator?",
+            "content": "A GPA Calculator is a free online tool that helps students quickly and accurately calculate their Grade Point Average (GPA). By entering course grades and credit hours, it computes a weighted GPA and removes the chances of manual errors."
+        },
+        {
+            "heading": "How the GPA Calculator Works",
+            "subSections": [
+                {
+                    "heading": "Inputs Required",
+                    "content": "Letter grades for each course (A, B+, B, etc.), credit hours for each course, and optional grading scale selection."
+                },
+                {
+                    "heading": "Calculation Method",
+                    "content": "The calculator converts each letter grade into grade points, multiplies them by credit hours, and divides the total grade points by total credits to compute weighted GPA."
+                },
+                {
+                    "heading": "What Happens Next",
+                    "content": "After clicking Calculate, you instantly get your weighted GPA along with a clear breakdown of the calculation."
+                }
+            ]
+        },
+        {
+            "heading": "Why Use a GPA Calculator?",
+            "subSections": [
+                {
+                    "heading": "Accurate GPA Estimation",
+                    "content": "Removes manual math errors and ensures correct GPA according to standard formulas."
+                },
+                {
+                    "heading": "Multiple Course Support",
+                    "content": "Add as many courses as needed for a semester or full academic year."
+                },
+                {
+                    "heading": "Cumulative GPA Tracking",
+                    "content": "Easily combine semester GPAs and credit hours to calculate total cumulative GPA."
+                },
+                {
+                    "heading": "Easy Grade Planning",
+                    "content": "Simulate future grades to predict what GPA you need to reach your academic goals."
+                },
+                {
+                    "heading": "Convenience",
+                    "content": "Fast, free, mobile-friendly, and works directly in your browser without installation."
+                }
+            ]
+        },
+        {
+            "heading": "Example GPA Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Single Semester",
+                    "content": "Course 1: A (4 credits), Course 2: B+ (3 credits), Course 3: B (3 credits). Result: Weighted GPA = 3.44."
+                },
+                {
+                    "heading": "Example 2 – Cumulative GPA",
+                    "content": "Semester 1: GPA 3.5 (12 credits), Semester 2: GPA 3.8 (15 credits). Result: Cumulative GPA = 3.66."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a GPA Calculator?",
+            "a": "It calculates your GPA using letter grades and credit hours."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, it is completely free to use online."
+        },
+        {
+            "q": "Do I need to install software?",
+            "a": "No, you can use it directly in any web browser."
+        },
+        {
+            "q": "Can it handle multiple courses?",
+            "a": "Yes, you can add as many courses as needed for an accurate GPA."
+        },
+        {
+            "q": "Does it support different grading scales?",
+            "a": "Yes, although the default is the 4.0 scale."
+        },
+        {
+            "q": "Can I calculate cumulative GPA?",
+            "a": "Yes, by entering multiple semesters or sets of courses."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, it works smoothly on smartphones, tablets, and desktops."
+        },
+        {
+            "q": "Can it help with scholarship planning?",
+            "a": "Yes, it shows whether your GPA meets scholarship requirements."
+        },
+        {
+            "q": "How accurate is the calculator?",
+            "a": "It uses standard weighted GPA formulas, ensuring accurate results."
+        },
+        {
+            "q": "Can I simulate future grades?",
+            "a": "Yes, you can plan the grades needed to reach a target GPA."
+        }
+    ]
+}

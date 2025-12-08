@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Calculadora de velocidad de flecha",
+  "pageDescription": "Calcule la velocidad, el impulso y la energía cinética de la flecha utilizando las calificaciones IBO para el análisis del rendimiento del tiro con arco.",
+  "form": {
+    "labels": {
+      "iboSpeed": "Velocidad del empresario independiente (fps)",
+      "drawLength": "Longitud de dibujo (pulgadas)",
+      "drawWeight": "Peso de extracción (libras)",
+      "arrowWeight": "Peso de la flecha (granos)",
+      "additionalWeight": "Peso adicional (granos)",
+      "calculationType": "Tipo de cálculo"
+    },
+    "placeholders": {
+      "iboSpeed": "Ingrese la velocidad del IBO",
+      "drawLength": "Introduzca la longitud del sorteo",
+      "drawWeight": "Ingrese el peso del sorteo",
+      "arrowWeight": "Introduzca el peso de la flecha",
+      "additionalWeight": "Introduzca peso adicional (vista, descanso, etc.)"
+    },
+    "buttons": {
+      "calculate": "Calcular la velocidad de la flecha",
+      "reset": "Reiniciar"
+    },
+    "calculationTypes": {
+      "speed": "Velocidad de flecha",
+      "momentum": "Impulso",
+      "kineticEnergy": "Energía cinética",
+      "all": "Todos los cálculos"
+    }
+  },
+  "results": {
+    "arrowSpeed": "Velocidad de flecha (fps)",
+    "momentum": "Momento (slug·ft/s)",
+    "kineticEnergy": "Energía cinética (ft·lbf)",
+    "arrowSpeedResultsTitle": "Resultados de velocidad de flecha",
+    "adjustedDrawLength": "Longitud de dibujo ajustada",
+    "adjustedDrawWeight": "Peso de dibujo ajustado"
+  },
+  "educational": {
+    "arrowSpeedInfo": "Información de velocidad de flecha",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos de tiro con arco",
+    "arrowSpeedFacts": {
+      "definition": {
+        "title": "Factores de velocidad de flecha",
+        "description": "La velocidad de la flecha se ve afectada por la clasificación IBO del arco, la longitud del tensado, el peso del tensor y el peso de la flecha."
+      },
+      "formula": {
+        "title": "Cálculo de velocidad",
+        "description": "Velocidad ajustada = Velocidad IBO - (3 × (Peso de dibujo - 70)) + (10 × (Longitud de dibujo - 30)) - (Peso de flecha - 400) ÷ 10"
+      },
+      "performance": {
+        "title": "Métricas de rendimiento",
+        "description": "El impulso afecta la penetración, la energía cinética afecta el potencial de daño."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones y no sustituye la medición real.",
+      "equipment": "El rendimiento real varía según la condición del arco, la forma del arquero y los factores ambientales."
+    },
+    "importantNotesList": [
+      "Las flechas más pesadas proporcionan más impulso pero menor velocidad.",
+      "Las calificaciones de IBO se miden con un peso de 70 lb, una longitud de 30\" y una flecha de 350 g.",
+      "Las calificaciones de IBO se miden con un peso de 70 lb, una longitud de 30\" y una flecha de 350 g.",
+      "La forma adecuada y el mantenimiento del equipo afectan el rendimiento real."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese las especificaciones de su arco y flecha para calcular el rendimiento.",
+    "resultMessage": "Los cálculos del rendimiento de sus flechas se muestran a continuación.",
+    "assessmentResult": "Resultado del rendimiento de la flecha:",
+    "arrowSpeedAnalysis": "Análisis de velocidad de flecha"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones del rendimiento de las flechas basadas en fórmulas matemáticas y estándares de IBO. El rendimiento real puede variar según la condición del arco, la forma del arquero y los factores ambientales."
+  },
+  "seekHelp": {
+    "title": "Recursos de tiro con arco",
+    "content": "Para un análisis de tiro con arco profesional y selección de equipo, consulte a instructores de tiro con arco certificados o utilice cronógrafos especializados para medir el rendimiento real."
+  },
+  "errors": {
+    "iboSpeed": "Por favor ingresa una velocidad IBO válida",
+    "drawLength": "Ingrese una longitud de dibujo válida (20-35 pulgadas)",
+    "drawWeight": "Ingrese un peso de extracción válido (10-100 lbs)",
+    "arrowWeight": "Ingrese un peso de flecha válido (100-800 granos)",
+    "additionalWeight": "Por favor ingrese un peso adicional válido",
+    "calculationType": "Por favor seleccione un tipo de cálculo"
+  },
+  "tooltips": {
+    "iboSpeed": "Clasificación de velocidad IBO del fabricante para su arco",
+    "drawLength": "Distancia desde el punto de culatín hasta el punto de pivote más 1,75 pulgadas",
+    "drawWeight": "Fuerza requerida para tensar el arco a 28 pulgadas",
+    "arrowWeight": "Peso total de la flecha, incluida la punta, el eje y las plumas.",
+    "additionalWeight": "Peso de accesorios como miras, apoyos y estabilizadores."
+  },
+  "bow_arrow_specifications_0": "Especificaciones de arco y flecha",
+  "enter_your_bow_and_arrow_specifications_to_calcula_1": "Ingrese las especificaciones de su arco y flecha para calcular métricas de rendimiento",
+  "bow_ibo_rating_2": "Clasificación IBO de arco",
+  "fps_3": "fps",
+  "ms_4": "EM",
+  "draw_length_5": "Longitud del dibujo",
+  "in_6": "en",
+  "cm_7": "centímetro",
+  "peak_draw_weight_8": "Peso máximo de extracción",
+  "lb_9": "libra",
+  "kg_10": "kilos",
+  "arrow_weight_grains_11": "Peso de la flecha (granos)",
+  "extra_string_weight_grains_optional_12": "Peso de cuerda adicional (granos): opcional",
+  "ibo_standard_13": "Estándar IBO:",
+  "based_on_30_draw_length_70_lb_draw_weight_and_350__14": "Basado en una longitud de tiro de 30\", un peso de tiro de 70 lb y una flecha de 350 granos.\n                        Ajustes: ±10 fps por pulgada de longitud de dibujo, ±2 fps por libra de peso de dibujo.",
+  "results_are_estimates_based_on_industrystandard_ib_15": "Los resultados son estimaciones basadas en cálculos de IBO estándar de la industria.",
+  "calculate_performance_16": "Calcular rendimiento",
+  "arrow_performance_17": "Rendimiento de flecha",
+  "fps_18": "fps",
+  "ms_19": "EM",
+  "joules_20": "Julios",
+  "enter_your_bow_specs_and_click_21": "Ingrese las especificaciones de su arco y haga clic",
+  "calculate_22": "Calcular",
+  "to_see_arrow_performance_23": "para ver el rendimiento de la flecha.",
+  "detailed_performance_metrics_24": "Métricas de rendimiento detalladas",
+  "arrow_speed_25": "Velocidad de flecha",
+  "fps_26": "fps",
+  "ms_27": "EM",
+  "momentum_28": "Impulso",
+  "ns_29": "N·s",
+  "kinetic_energy_30": "Energía cinética",
+  "joules_31": "Julios",
+  "understanding_arrow_speed_ibo_ratings_32": "Comprender la velocidad de Arrow y las calificaciones de IBO",
+  "ibo_rating_explained_33": "Clasificación IBO explicada",
+  "ibo_international_bowhunting_organization_rating_i_34": "La calificación IBO (Organización Internacional de Caza con Arco) es una medida estandarizada basada en una\n                        Longitud de tiro de 30 pulgadas, peso de tiro de 70 libras y flecha de 350 granos. Esto proporciona una base para\n                        Comparando el rendimiento del arco entre diferentes fabricantes.",
+  "performance_factors_35": "Factores de rendimiento",
+  "draw_length_10_fps_per_inch_change_36": "Longitud de dibujo: cambio de ±10 fps por pulgada",
+  "draw_weight_2_fps_per_pound_change_37": "Peso de dibujo: ±2 fps por libra de cambio",
+  "arrow_weight_1_fps_per_3_grains_38": "Peso de la flecha: ∓1 fps por 3 granos",
+  "string_accessories_1_fps_per_3_grains_39": "Accesorios de cuerda: ∓1 fps por 3 granos",
+  "sample_calculation_40": "Cálculo de muestra",
+  "example_41": "Ejemplo:",
+  "ibo_rating_320_fps_42": "Clasificación IBO: 320 fps",
+  "draw_length_29_1_from_baseline_43": "Longitud del dibujo: 29\" (-1\" desde la línea de fondo)",
+  "draw_weight_60_lb_10_lb_from_baseline_44": "Peso del sorteo: 60 lb (-10 lb desde la línea de base)",
+  "arrow_weight_400_gr_50_gr_from_baseline_45": "Peso de la flecha: 400 gr (+50 gr desde la línea base)",
+  "result_320_10_20_167_273_fps_46": "Resultado: 320 - 10 - 20 - 16,7 ≈ 273 fps",
+  "momentum_and_kinetic_energy_are_calculated_using_p_47": "El momento y la energía cinética se calculan mediante fórmulas físicas: p = mv y KE = ½mv²."
+}

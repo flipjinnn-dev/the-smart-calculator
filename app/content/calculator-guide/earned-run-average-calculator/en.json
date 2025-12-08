@@ -1,0 +1,143 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "ERA Calculator: What It Is and How It Works",
+            "content": "The ERA Calculator is a free online tool that helps calculate a pitcher’s Earned Run Average (ERA) instantly using earned runs and innings pitched. ERA measures how many earned runs a pitcher allows per nine innings — a key pitching statistic."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Earned Runs",
+                    "content": "Input the total earned runs allowed by the pitcher."
+                },
+                {
+                    "heading": "Enter Innings Pitched",
+                    "content": "Input the total innings pitched, including fractional innings (e.g., 6.1 = 6⅓ innings)."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "See the ERA instantly."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Make sure inputs are accurate for precise results."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Calculation",
+                    "content": "Get ERA in seconds."
+                },
+                {
+                    "heading": "Accurate & Reliable",
+                    "content": "Uses the standard formula: ERA = (Earned Runs ÷ Innings Pitched) × 9."
+                },
+                {
+                    "heading": "Easy-to-Use",
+                    "content": "No manual math needed."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on all devices."
+                },
+                {
+                    "heading": "Ideal for Fantasy Baseball & Analysis",
+                    "content": "Track pitcher performance easily for players, coaches, and analysts."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Pitchers & Coaches",
+                    "content": "Track performance per game, series, or season."
+                },
+                {
+                    "heading": "Fans & Analysts",
+                    "content": "Compare pitchers quickly."
+                },
+                {
+                    "heading": "Youth & Amateur Baseball",
+                    "content": "Simple tracking without complex calculations."
+                },
+                {
+                    "heading": "Fantasy Baseball",
+                    "content": "Evaluate pitcher value for drafts and scoring."
+                },
+                {
+                    "heading": "Scouts & Talent Evaluators",
+                    "content": "Assess consistency and effectiveness."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1",
+                    "content": "3 ER ÷ 6 IP = 4.50 ERA"
+                },
+                {
+                    "heading": "Example 2",
+                    "content": "72 ER ÷ 180 IP = 3.60 ERA"
+                },
+                {
+                    "heading": "Example 3",
+                    "content": "5 ER ÷ 9 IP = 5.00 ERA"
+                },
+                {
+                    "heading": "Example 4",
+                    "content": "20 ER ÷ 45 IP = 4.00 ERA"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is an ERA Calculator?",
+            "a": "It calculates a pitcher’s ERA using earned runs and innings pitched."
+        },
+        {
+            "q": "How is ERA calculated?",
+            "a": "Formula: ERA = (Earned Runs ÷ Innings Pitched) × 9."
+        },
+        {
+            "q": "Does it include unearned runs?",
+            "a": "No, only earned runs are counted."
+        },
+        {
+            "q": "Is the result accurate?",
+            "a": "Yes, based on the inputs."
+        },
+        {
+            "q": "Can I use it for fantasy baseball?",
+            "a": "Yes, it helps track pitcher stats quickly."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, works on all devices."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, completely free online."
+        },
+        {
+            "q": "Who should use it?",
+            "a": "Players, coaches, fans, analysts, and fantasy enthusiasts."
+        },
+        {
+            "q": "Why use an ERA Calculator?",
+            "a": "Saves time and ensures accurate calculations."
+        },
+        {
+            "q": "Can it track multiple games or seasons?",
+            "a": "Yes, using cumulative earned runs and innings pitched."
+        }
+    ]
+}

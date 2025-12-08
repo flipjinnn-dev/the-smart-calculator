@@ -1,0 +1,95 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator współczynnika balistycznego?",
+      "content": "Kalkulator współczynnika balistycznego (BC) to bezpłatne narzędzie internetowe mierzące wydajność aerodynamiczną pocisku. Oblicza, jak dobrze pocisk pokonuje opór powietrza, wykorzystując swoją masę, współczynnik oporu i pole przekroju poprzecznego."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "content": "Wykonaj poniższe proste kroki, aby obliczyć współczynnik balistyczny:",
+      "subSections": [
+        {
+          "heading": "Kroki",
+          "content": "- Otwórz kalkulator – odwiedź stronę kalkulatora BC w swojej przeglądarce.\n- Wprowadź masę (m) – Wprowadź masę pocisku w kg lub g.\n- Wprowadź współczynnik oporu (Cd) – Podaj współczynnik oporu pocisku.\n- Wprowadź pole przekroju poprzecznego (A) – Wprowadź powierzchnię czołową w m².\n- Kliknij Oblicz – Kalkulator natychmiast pokaże współczynnik balistyczny.\n- Wskazówka: zachowaj spójność jednostek, aby uzyskać dokładne wyniki."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "content": "Dlaczego warto korzystać z tego kalkulatora?",
+      "subSections": [
+        {
+          "heading": "Cechy",
+          "content": "- Natychmiastowe obliczenia - Uzyskaj wyniki w ciągu kilku sekund.\n- Prosty i przyjazny dla urządzeń mobilnych - działa na komputerach stacjonarnych i urządzeniach mobilnych.\n- Narzędzie edukacyjne - Naucz się balistyki zewnętrznej i fizyki pocisków.\n- Bezpłatny i dostępny - nie wymaga pobierania ani rejestracji.\n- Dokładność oparta na wzorze – wykorzystuje BC = m / (Cd × A)."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "content": "Kto może skorzystać z tego narzędzia?",
+      "subSections": [
+        {
+          "heading": "Aplikacje",
+          "content": "- Studenci i nauczyciele fizyki - Naucz się ruchu pocisku i efektów przeciągania.\n- Hobbyści i projekty DIY - Analizuj modele rakiet i pocisków.\n- Inżynierowie i projektanci – szybko oszacuj wydajność aerodynamiczną.\n- Porównanie pocisków - Porównaj BC różnych pocisków pod kątem wydajności.\n- Pokazy edukacyjne – Nauczaj w klasie koncepcji balistyki zewnętrznej."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "content": "Oto kilka przykładów działania obliczeń:",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Mały pocisk",
+          "content": "Masa: 0,02 kg\nWspółczynnik oporu: 0,45\nPowierzchnia przekroju: 0,001 m²\nWspółczynnik balistyczny: 44,44"
+        },
+        {
+          "heading": "Przykład 2 – Średni pocisk",
+          "content": "Masa: 0,05 kg\nWspółczynnik oporu: 0,35\nPowierzchnia przekroju: 0,002 m²\nWspółczynnik balistyczny: 71,43"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest współczynnik balistyczny?",
+      "a": "Mierzy, jak dobrze pocisk pokonuje opór powietrza."
+    },
+    {
+      "q": "Czy ten kalkulator jest darmowy?",
+      "a": "Tak, jest to całkowicie bezpłatne online."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania lub instalacji?",
+      "a": "Nie, działa bezpośrednio w Twojej przeglądarce."
+    },
+    {
+      "q": "Czy mogę z niego korzystać na urządzeniach mobilnych?",
+      "a": "Tak, w pełni przystosowany do urządzeń mobilnych."
+    },
+    {
+      "q": "Jakie dane wejściowe są wymagane?",
+      "a": "Masa (m), współczynnik oporu (Cd) i pole przekroju poprzecznego (A)."
+    },
+    {
+      "q": "Jak oblicza się BC?",
+      "a": "Używając BC = m / (Cd × A)."
+    },
+    {
+      "q": "Czy może porównywać różne pociski?",
+      "a": "Tak, możesz obliczyć BC dla wielu pocisków, aby porównać wydajność."
+    },
+    {
+      "q": "Czy jest odpowiedni dla studentów?",
+      "a": "Tak, idealny do nauki fizyki i balistyki zewnętrznej."
+    },
+    {
+      "q": "Czy mogą z niego korzystać inżynierowie lub hobbyści?",
+      "a": "Tak, pomaga w eksperymentach projektowych i analizie pocisków."
+    },
+    {
+      "q": "Czy kalkulator jest dokładny?",
+      "a": "Tak, dla wartości wejściowych; jest to model uproszczony i nie uwzględnia zmian prędkości ani wiatru."
+    }
+  ]
+}

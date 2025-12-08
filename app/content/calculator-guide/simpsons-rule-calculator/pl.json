@@ -1,0 +1,136 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator reguł Simpsona?",
+      "content": "Kalkulator reguł Simpsona to narzędzie internetowe, które upraszcza całkowanie numeryczne, umożliwiając dokładne i wydajne przybliżanie całek oznaczonych."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "content": "Korzystanie z kalkulatora reguł Simpsona jest proste i wymaga minimalnej liczby kroków.",
+      "subSections": [
+        {
+          "heading": "Wprowadź funkcję",
+          "content": "Wprowadź funkcję, którą chcesz zintegrować (np. f(x) = x^2 + 3x)."
+        },
+        {
+          "heading": "Ustaw granice integracji",
+          "content": "Podaj dolną i górną granicę całki oznaczonej."
+        },
+        {
+          "heading": "Wybierz liczbę interwałów (n)",
+          "content": "W przypadku reguły Simpsona n musi być liczbą parzystą."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Kalkulator natychmiast wyświetla przybliżoną wartość całki."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Aby uzyskać dokładne wyniki zgodnie z regułą Simpsona, zawsze używaj parzystej liczby interwałów."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Dokładne obliczenia",
+          "content": "Wykorzystuje regułę 1/3 Simpsona do precyzyjnego całkowania numerycznego."
+        },
+        {
+          "heading": "Przyjazny dla użytkownika interfejs",
+          "content": "Łatwy w użyciu, bez skomplikowanych formuł; idealny dla początkujących."
+        },
+        {
+          "heading": "Rozwiązanie krok po kroku",
+          "content": "Pokazuje obliczenia pośrednie dla lepszego zrozumienia."
+        },
+        {
+          "heading": "Obsługa wielu funkcji",
+          "content": "Działa z funkcjami wielomianowymi, trygonometrycznymi, wykładniczymi i logarytmicznymi."
+        },
+        {
+          "heading": "Oszczędność czasu",
+          "content": "Natychmiastowe wyniki eliminują ręczne obliczenia."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Cele akademickie",
+          "content": "Dla studentów rozwiązujących całki oznaczone w rachunku różniczkowym."
+        },
+        {
+          "heading": "Aplikacje inżynieryjne",
+          "content": "Obliczanie powierzchni, objętości i innych pomiarów całkowych."
+        },
+        {
+          "heading": "Badania naukowe",
+          "content": "Całki przybliżające w fizyce, chemii i statystyce."
+        },
+        {
+          "heading": "Finanse",
+          "content": "Szacowanie całek dla modeli ciągłego wzrostu lub zaniku."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1",
+          "content": "Całkuj f(x) = x^2 od 0 do 4, używając n = 4 przedziałów.\nKroki: Funkcja wejściowa x^2 → Ustaw limity od 0 do 4 → Wybierz n = 4 → Kliknij Oblicz → Wynik: 21,3333 (wartość przybliżona na podstawie reguły Simpsona)."
+        },
+        {
+          "heading": "Przykład 2",
+          "content": "Całkuj f(x) = sin(x) od 0 do π, używając n = 6 przedziałów.\nWynik: 2,0000 (wartość przybliżona na podstawie reguły Simpsona)."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jaka jest reguła Simpsona?",
+      "a": "Reguła Simpsona to numeryczna metoda aproksymacji całek oznaczonych."
+    },
+    {
+      "q": "Jak dokładna jest reguła Simpsona?",
+      "a": "Jest bardzo dokładny w przypadku płynnych funkcji i poprawia się wraz ze wzrostem liczby interwałów."
+    },
+    {
+      "q": "Czy mogę używać kalkulatora do dowolnej funkcji?",
+      "a": "Tak, działa z funkcjami wielomianowymi, trygonometrycznymi, wykładniczymi i logarytmicznymi."
+    },
+    {
+      "q": "Dlaczego liczba interwałów musi być parzysta?",
+      "a": "Reguła Simpsona wymaga par przedziałów, aby poprawnie zastosować formułę."
+    },
+    {
+      "q": "Czy kalkulator jest darmowy?",
+      "a": "Tak, korzystanie z Kalkulatora Reguł Simpsona jest całkowicie bezpłatne."
+    },
+    {
+      "q": "Czy pokazuje rozwiązania krok po kroku?",
+      "a": "Tak, kalkulator może pokazać kroki pośrednie dla lepszego zrozumienia."
+    },
+    {
+      "q": "Czy mogę go używać w dużych odstępach czasu?",
+      "a": "Tak, ale zwiększenie odstępów poprawia dokładność."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa zarówno na urządzeniach mobilnych, jak i stacjonarnych."
+    },
+    {
+      "q": "Czy może zastąpić ręczne obliczenia?",
+      "a": "Tak, oszczędza czas i zmniejsza błędy w ręcznych obliczeniach."
+    },
+    {
+      "q": "Gdzie stosowana jest reguła Simpsona?",
+      "a": "Znajduje zastosowanie w matematyce, fizyce, inżynierii, finansach i badaniach naukowych."
+    }
+  ]
+}

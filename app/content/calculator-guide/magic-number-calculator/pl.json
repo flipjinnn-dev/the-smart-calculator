@@ -1,0 +1,127 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Kalkulator liczb magicznych: prosty i dokładny przewodnik",
+      "content": "Kalkulator liczb magicznych pomaga fanom baseballu szybko określić, ile zwycięstw (lub porażek z przeciwnikiem) potrzebuje drużyna, aby zapewnić sobie miejsce w fazie play-off lub wygrać swoją ligę. Wykorzystuje zwycięstwa Twojej drużyny, porażki drużyny rywali i łączną liczbę gier, aby automatycznie obliczyć magiczną liczbę."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora magicznych liczb",
+      "subSections": [
+        {
+          "heading": "Wprowadź zwycięstwa drużynowe (W)",
+          "content": "Podaj łączną liczbę dotychczasowych zwycięstw swojej drużyny."
+        },
+        {
+          "heading": "Wprowadź straty rywali (L)",
+          "content": "Wprowadź całkowite straty drużyny zajmującej drugie miejsce lub drużyny przeciwnej."
+        },
+        {
+          "heading": "Wejdź do Total Games",
+          "content": "Wprowadź całkowitą liczbę meczów w sezonie zasadniczym."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast zdobądź magiczną liczbę."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Szybki i dokładny",
+          "content": "Szybko i precyzyjnie oblicza magiczną liczbę."
+        },
+        {
+          "heading": "Przyjazny dla początkujących",
+          "content": "Łatwy interfejs dla fanów i analityków."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na wszystkich urządzeniach."
+        },
+        {
+          "heading": "Idealny dla fanów i trenerów MLB",
+          "content": "Skutecznie śledź szanse na play-offy."
+        },
+        {
+          "heading": "Bezpłatny",
+          "content": "Zero kosztów, nie wymaga logowania."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Śledzenie play-offów",
+          "content": "Monitoruj rankingi i potencjalne scenariusze rozstrzygające."
+        },
+        {
+          "heading": "Porównanie drużyn",
+          "content": "Porównaj drużyny w ostatnim odcinku sezonu."
+        },
+        {
+          "heading": "Analiza sportu",
+          "content": "Przewiduj wyniki i oceniaj wydajność zespołu."
+        },
+        {
+          "heading": "Podejmowanie decyzji w czasie rzeczywistym",
+          "content": "Pomaga fanom i nadawcom śledzić postępy na żywo."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład",
+          "content": "Twoja drużyna: 88 zwycięstw, Rywal: 67 przegranych, Mecze w sezonie: 162 → Magiczna liczba = 162 − (88 + 67) + 1 = 8. Oznacza to, że Twoja drużyna potrzebuje jeszcze 8 zwycięstw lub porażek z przeciwnikiem, aby zapewnić sobie utrzymanie w lidze."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest magiczna liczba w baseballu?",
+      "a": "Jest to liczba zwycięstw lub porażek z przeciwnikami potrzebna drużynie do zapewnienia sobie miejsca w fazie play-off."
+    },
+    {
+      "q": "Jak działa kalkulator magicznych liczb?",
+      "a": "Używa wzoru: Magiczna liczba = Całkowita liczba gier - (Zwycięstwa drużyny + Straty rywali) + 1."
+    },
+    {
+      "q": "Jakich informacji potrzebuję, aby to obliczyć?",
+      "a": "Zwycięstwa drużyn, porażki drużyn rywali i liczba meczów w całym sezonie."
+    },
+    {
+      "q": "Czy to narzędzie jest przydatne tylko w lidze MLB?",
+      "a": "W większości tak, ale można go używać w dowolnej lidze baseballowej o podobnych zasadach."
+    },
+    {
+      "q": "Czy magiczna liczba zmniejsza się po każdej grze?",
+      "a": "Tak, zwycięstwo drużyny lub porażka przeciwnika obniżają tę liczbę."
+    },
+    {
+      "q": "Czy wielu rywali może mieć wpływ na magiczną liczbę?",
+      "a": "Tak, ale obliczenia zwykle skupiają się na najbliższym konkurentie."
+    },
+    {
+      "q": "Czy mogę używać tego kalkulatora na telefonie komórkowym?",
+      "a": "Oczywiście działa płynnie na wszystkich urządzeniach."
+    },
+    {
+      "q": "Czy liczba magiczna jest taka sama jak liczba eliminacji?",
+      "a": "Nie, magiczna liczba pokazuje, jak blisko zwycięstwa jest zespół; Liczba eliminacji pokazuje, jak blisko jest wyeliminowanie drużyny."
+    },
+    {
+      "q": "Czy potrzebuję wiedzy o baseballu, aby korzystać z tego narzędzia?",
+      "a": "Wcale nie, kalkulator jest przyjazny dla początkujących."
+    },
+    {
+      "q": "Czy kalkulator jest darmowy?",
+      "a": "Tak, w 100% za darmo i bez ograniczeń."
+    }
+  ]
+}

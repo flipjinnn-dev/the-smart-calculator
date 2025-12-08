@@ -1,0 +1,130 @@
+{
+  "color": "púrpura",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de concepción?",
+      "content": "Una Calculadora de concepción le ayuda a estimar sus días más fértiles, la fecha probable de concepción y la fecha prevista de parto según su ciclo menstrual. Al analizar su último período menstrual (FUM), la duración del ciclo y el momento de la ovulación, esta herramienta la guía en la planificación de su embarazo con confianza."
+    },
+    {
+      "heading": "Cómo funciona la calculadora de concepción",
+      "subSections": [
+        {
+          "heading": "Último período menstrual (FUM)",
+          "content": "Ingrese el primer día de su último período."
+        },
+        {
+          "heading": "Duración del ciclo",
+          "content": "Proporcione el número promedio de días entre sus períodos."
+        },
+        {
+          "heading": "Día de la ovulación",
+          "content": "Estimado automáticamente en función de la duración de su ciclo."
+        },
+        {
+          "heading": "ventana fértil",
+          "content": "Identifica los días en los que la probabilidad de concepción es mayor."
+        },
+        {
+          "heading": "Días pico de fertilidad",
+          "content": "Destaca los mejores días para concebir."
+        },
+        {
+          "heading": "Concepción estimada y fecha de vencimiento",
+          "content": "Proporciona la fecha probable de concepción y la fecha prevista de parto."
+        }
+      ]
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de concepción?",
+      "subSections": [
+        {
+          "heading": "Maximizar las posibilidades de concepción",
+          "content": "Apunte a los mejores días para concebir para obtener mayores tasas de éxito."
+        },
+        {
+          "heading": "Comprender la ventana de fertilidad",
+          "content": "Aprenda cuándo es más fértil para una concepción natural."
+        },
+        {
+          "heading": "Planificación precisa del embarazo",
+          "content": "Calcule tanto la fecha de concepción como la fecha de parto."
+        },
+        {
+          "heading": "Orientación personalizada",
+          "content": "Se ajusta a ciclos irregulares y factores de fertilidad relacionados con la edad."
+        },
+        {
+          "heading": "Conveniencia",
+          "content": "Rápido, gratuito y de fácil acceso en cualquier momento."
+        }
+      ]
+    },
+    {
+      "heading": "Consejos para una concepción exitosa",
+      "subSections": [
+        {
+          "heading": "Seguimiento de los signos de ovulación",
+          "content": "Esté atento a los cambios en el moco cervical y la temperatura corporal basal."
+        },
+        {
+          "heading": "Mantenga un estilo de vida saludable",
+          "content": "La nutrición equilibrada, el ejercicio y un sueño adecuado mejoran la fertilidad."
+        },
+        {
+          "heading": "Planifique las relaciones sexuales en torno a los días fértiles",
+          "content": "Concéntrese en sus días pico de fertilidad para tener mejores posibilidades."
+        },
+        {
+          "heading": "Manejar el estrés",
+          "content": "Reducir los niveles de estrés para apoyar el equilibrio hormonal y la fertilidad."
+        },
+        {
+          "heading": "Utilice herramientas de fertilidad",
+          "content": "Combínelo con rastreadores o aplicaciones para un monitoreo continuo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de concepción?",
+      "a": "Calcula tus días fértiles y la fecha probable de concepción en función de tu ciclo menstrual y el momento de ovulación."
+    },
+    {
+      "q": "¿Qué tan precisa es una calculadora de fecha de concepción?",
+      "a": "Es muy confiable para ciclos regulares, pero la precisión disminuye con ciclos irregulares."
+    },
+    {
+      "q": "¿Puedo utilizar una Calculadora de concepción gratuita en línea?",
+      "a": "Sí, nuestra herramienta es completamente gratuita y fácil de usar."
+    },
+    {
+      "q": "¿Cómo calculo mi fecha de concepción?",
+      "a": "Ingrese su FUM y la duración del ciclo; la calculadora estima la ovulación, la ventana fértil y la fecha de concepción."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre una calculadora de concepción y una calculadora de ovulación?",
+      "a": "Las calculadoras de ovulación sólo predicen la ovulación. Las calculadoras de concepción también estiman los días fértiles y la fecha de parto."
+    },
+    {
+      "q": "¿Puede esta herramienta ayudar con los ciclos irregulares?",
+      "a": "Sí, ajusta los cálculos para ciclos irregulares para proporcionar los resultados más precisos posibles."
+    },
+    {
+      "q": "¿Cuáles son los mejores días para concebir?",
+      "a": "Los 5 días previos a la ovulación y el día de la ovulación en sí son los días pico fértiles."
+    },
+    {
+      "q": "¿Cómo se calcula la Ventana Fértil?",
+      "a": "Se basa en el momento de la ovulación, la supervivencia de los espermatozoides (hasta 5 días) y la disponibilidad de óvulos."
+    },
+    {
+      "q": "¿Puedo realizar un seguimiento de la probabilidad de concepción por edad?",
+      "a": "Sí, algunas calculadoras avanzadas tienen en cuenta la edad para obtener información más precisa sobre la fertilidad."
+    },
+    {
+      "q": "¿Debería utilizar una calculadora de concepción frente a otras herramientas de fertilidad?",
+      "a": "Una calculadora de concepción es mejor para planificar el embarazo, ya que combina la ovulación, la ventana fértil y la estimación de la fecha de parto."
+    }
+  ]
+}

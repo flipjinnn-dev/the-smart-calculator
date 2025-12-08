@@ -1,0 +1,107 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de ritmo de carrera?",
+      "content": "Nuestra Calculadora de ritmo de carrera simplifica el cálculo del ritmo de carrera en línea para cualquier distancia y tiempo. Ya sea que esté entrenando para una carrera de 5 km, 10 km, media maratón, maratón o simplemente haciendo jogging para estar en forma, esta herramienta gratuita le ayuda a realizar un seguimiento de su ritmo por milla o ritmo por kilómetro con facilidad."
+    },
+    {
+      "heading": "Cómo calcular el ritmo de carrera",
+      "content": "El ritmo de carrera es el tiempo que se tarda en recorrer una milla o un kilómetro. La fórmula es simple: Ritmo = Tiempo total ÷ Distancia. Por ejemplo: si corres 5 km en 25 minutos, tu ritmo es de 5:00 min/km (o 8:03 min/milla). Si corres una maratón (42,2 km) en 4 horas, tu ritmo es de 5:41 min/km. Esta herramienta lo calcula automáticamente en unidades métricas (km/min) e imperiales (millas/min)."
+    },
+    {
+      "heading": "Por qué es importante el ritmo de carrera",
+      "subSections": [
+        {
+          "heading": "Planificación de carrera",
+          "content": "Ayuda con el ritmo para eventos de 5K, 10K, media maratón o maratón."
+        },
+        {
+          "heading": "Zonas de entrenamiento",
+          "content": "Se utiliza para configurar carreras fáciles, carreras de tempo y entrenamientos de intervalos."
+        },
+        {
+          "heading": "Seguimiento del progreso",
+          "content": "Compara tu ritmo de trote con el de carrera a lo largo del tiempo."
+        },
+        {
+          "heading": "ritmo al caminar",
+          "content": "Calcule los tiempos de caminata para hacer ejercicio o hacer senderismo."
+        }
+      ]
+    },
+    {
+      "heading": "Ritmo de carrera versus velocidad: ¿cuál es la diferencia?",
+      "content": "Ritmo = minutos por km o minutos por milla (más lento es un número más alto). Velocidad = distancia por hora (km/h o mph). Nuestra calculadora funciona como calculadora de ritmo y como conversor de velocidad de carrera a ritmo."
+    },
+    {
+      "heading": "Ritmos de carrera promedio y ejemplos de entrenamiento",
+      "content": "Así es como se ve el ritmo en eventos comunes:",
+      "subSections": [
+        {
+          "heading": "5K",
+          "content": "Hora de finalización: 25:00 | Ritmo: 5:00 min/km | 8:03 min/milla"
+        },
+        {
+          "heading": "10K",
+          "content": "Hora de finalización: 50:00 | Ritmo: 5:00 min/km | 8:03 min/milla"
+        },
+        {
+          "heading": "Media Maratón",
+          "content": "Hora de finalización: 2:00:00 | Ritmo: 5:41 min/km | 9:09 min/milla"
+        },
+        {
+          "heading": "Maratón",
+          "content": "Hora de finalización: 4:00:00 | Ritmo: 5:41 min/km | 9:09 min/milla"
+        }
+      ]
+    },
+    {
+      "heading": "Zonas de entrenamiento con calculadora de ritmo",
+      "subSections": [
+        {
+          "heading": "Ritmo de carrera fácil",
+          "content": "60-75% de esfuerzo, ritmo conversacional."
+        },
+        {
+          "heading": "Ritmo de ritmo",
+          "content": "Cómodamente duro, sostenible durante 20 a 40 minutos."
+        },
+        {
+          "heading": "Ritmo de maratón",
+          "content": "Ritmo objetivo para tu carrera de 26,2 millas."
+        },
+        {
+          "heading": "Ritmo de intervalo",
+          "content": "Esfuerzos más rápidos para el entrenamiento de velocidad."
+        },
+        {
+          "heading": "Calculadora de ritmo de carrera con IA",
+          "content": "Ayuda a establecer zonas de entrenamiento realistas a partir de tu último tiempo de carrera."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es un buen ritmo de carrera para principiantes?",
+      "a": "Un buen ritmo inicial es de 7:00 a 9:00 min/km (11 a 14 min/milla), dependiendo del nivel de condición física."
+    },
+    {
+      "q": "¿Qué es un ritmo de 5 min/km en millas?",
+      "a": "Equivale a aproximadamente 8:03 min/milla o 12 km/h (7,5 mph)."
+    },
+    {
+      "q": "¿Cómo calculo el ritmo si corro 10 km en 55 minutos?",
+      "a": "Divida 55 entre 10 → 5:30 min/km (8:51 min/milla)."
+    },
+    {
+      "q": "¿Puedo usar esto para caminar o trotar?",
+      "a": "Sí, funciona para ritmo de caminata, ritmo de trote o ritmo de carrera tanto en kilómetros como en millas."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre una calculadora de ritmo de carrera y una calculadora de ritmo de jogging?",
+      "a": "Race Pace Calculator ayuda a predecir divisiones de carreras competitivas, mientras que Jogging Pace Calculator es útil para realizar un seguimiento informal del estado físico."
+    }
+  ]
+}

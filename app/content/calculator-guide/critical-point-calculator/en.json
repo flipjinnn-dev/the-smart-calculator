@@ -1,0 +1,132 @@
+{
+    "color": "red",
+    "sections": [
+        {
+            "heading": "What is a Critical Point Calculator?",
+            "content": "A Critical Point Calculator helps find the values of x where the derivative of a function is zero or undefined, indicating possible maxima, minima, or saddle points."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "content": "Using a Functions Critical Points Calculator is easy and efficient. Follow these steps for accurate results.",
+            "subSections": [
+                {
+                    "heading": "Steps to Use:",
+                    "content": "Enter the Function: Input the mathematical function in terms of x (e.g., f(x) = x^3 - 3x + 2). Compute the Derivative: The calculator automatically finds the first derivative f'(x). Solve for Critical Points: Set f'(x) = 0 and solve for x to find potential critical points. Identify Critical Values: Substitute x-values into the original function. Classify Critical Points: Use the second derivative or slope analysis to determine local minimum, maximum, or inflection points. Visualize (Optional): Some calculators provide a graph for better understanding."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Always double-check the domain of your function for accurate results."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features of the Critical Point Calculator",
+            "subSections": [
+                {
+                    "heading": "Automatic Derivative Calculation",
+                    "content": "Finds the derivative of any differentiable function automatically."
+                },
+                {
+                    "heading": "Critical Points Detection",
+                    "content": "Identifies points where the derivative is zero or undefined."
+                },
+                {
+                    "heading": "Critical Value Calculation",
+                    "content": "Substitutes critical points to get exact function values."
+                },
+                {
+                    "heading": "Graphical Visualization",
+                    "content": "Shows a plot of the function with marked critical points."
+                },
+                {
+                    "heading": "Step-by-Step Solution",
+                    "content": "Provides detailed solutions for learning and homework verification."
+                },
+                {
+                    "heading": "Supports Complex Functions",
+                    "content": "Works for polynomial, trigonometric, exponential, and logarithmic functions."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Students",
+                    "content": "Check homework and understand derivatives and extrema."
+                },
+                {
+                    "heading": "Engineers",
+                    "content": "Analyze function behavior for optimization problems."
+                },
+                {
+                    "heading": "Researchers",
+                    "content": "Identify maximum, minimum, and inflection points in scientific models."
+                },
+                {
+                    "heading": "Traders & Analysts",
+                    "content": "Use functions to model trends and find critical turning points in data."
+                },
+                {
+                    "heading": "Educators",
+                    "content": "Teach calculus concepts with visual examples."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Polynomial Function",
+                    "content": "Function: f(x) = x^3 - 6x^2 + 9x + 1\nDerivative: f'(x) = 3x^2 - 12x + 9\nSet f'(x)=0 → x = 1, 3\nCritical Values: f(1) = 5, f(3) = 1\nClassification: x=1 is a local maximum, x=3 is a local minimum"
+                },
+                {
+                    "heading": "Example 2 – Trigonometric Function",
+                    "content": "Function: f(x) = sin(x) + cos(2x)\nDerivative: f'(x) = cos(x) - 2sin(2x)\nSolve f'(x)=0 → Find all x-values within the domain.\nCalculate critical values using original function.\nTip: Use the calculator for accurate results in complex functions."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a critical point?",
+            "a": "A critical point is where a function’s derivative is zero or undefined, often indicating a local maximum, minimum, or inflection point."
+        },
+        {
+            "q": "How does the Critical Point Calculator work?",
+            "a": "It automatically differentiates the function, solves for zeros or undefined points, and calculates the corresponding function values."
+        },
+        {
+            "q": "Can I use it for any function?",
+            "a": "Yes, it works for polynomial, trigonometric, exponential, and logarithmic functions."
+        },
+        {
+            "q": "Is it accurate?",
+            "a": "Yes, but for complex or piecewise functions, manual verification is recommended."
+        },
+        {
+            "q": "Does it provide step-by-step solutions?",
+            "a": "Most calculators offer step-by-step solutions for learning purposes."
+        },
+        {
+            "q": "Can I graph the function?",
+            "a": "Yes, graphical visualization is available in many calculators to see critical points clearly."
+        },
+        {
+            "q": "Can I find global extrema?",
+            "a": "Critical points help locate local extrema. To find global extrema, analyze endpoints along with critical points."
+        },
+        {
+            "q": "Do I need to know calculus?",
+            "a": "Basic understanding helps, but the calculator simplifies derivative and critical value calculations."
+        },
+        {
+            "q": "Is it free to use?",
+            "a": "Many online calculators are free, though some may have premium features."
+        },
+        {
+            "q": "Why is it useful for students and professionals?",
+            "a": "It saves time, reduces errors, and provides clear visualization for function analysis."
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de una repetición máxima (1RM)?",
+      "content": "Una Calculadora de una repetición máxima (también llamada Calculadora de 1RM en línea o Calculadora de una repetición máxima) es una herramienta de entrenamiento de fuerza que estima el peso máximo que puedes levantar para una sola repetición de un ejercicio. En lugar de probar tu levantamiento máximo absoluto en el gimnasio, lo cual puede ser arriesgado, puedes calcular una repetición máxima gratuita ingresando el peso que levantaste y la cantidad de repeticiones realizadas."
+    },
+    {
+      "heading": "¿Por qué es importante calcular tu 1RM?",
+      "subSections": [
+        {
+          "heading": "Establecer cargas de entrenamiento",
+          "content": "Ajuste con precisión las cargas en función de la fuerza, la hipertrofia o la resistencia."
+        },
+        {
+          "heading": "Seguimiento del progreso",
+          "content": "Supervise las mejoras en culturismo, CrossFit, levantamiento olímpico y levantamiento de pesas."
+        },
+        {
+          "heading": "Prevenir el sobreentrenamiento",
+          "content": "Manténgase seguro levantando objetos dentro de los rangos de intensidad óptimos."
+        },
+        {
+          "heading": "Personalizar programas",
+          "content": "Aplicar en entrenamientos 5x5, sobrecarga progresiva y ciclos de hipertrofia."
+        }
+      ]
+    },
+    {
+      "heading": "Fórmulas populares de One Rep Max explicadas",
+      "subSections": [
+        {
+          "heading": "Fórmula Epley",
+          "content": "1RM = Peso × (1 + 0,0333 × Repeticiones). Lo mejor para levantadores generales. Simple y preciso hasta 10 repeticiones pero menos preciso en repeticiones muy altas."
+        },
+        {
+          "heading": "Fórmula de Brzycki",
+          "content": "1RM = Peso × (36 ÷ (37 − Repeticiones)). Bueno para la fuerza y ​​la hipertrofia. Fiable con menos de 10 repeticiones, pero puede subestimarse para series de resistencia."
+        },
+        {
+          "heading": "Fórmula Lombardi",
+          "content": "1RM = Peso × Repeticiones^0,10. Popular entre los levantadores de pesas. Funciona en amplios rangos de repeticiones, pero puede sobreestimarse para los principiantes."
+        }
+      ]
+    },
+    {
+      "heading": "Formas seguras de calcular 1RM sin levantamiento máximo",
+      "subSections": [
+        {
+          "heading": "Elija pesos moderados",
+          "content": "Levante de 3 a 10 repeticiones con la forma adecuada en lugar de maximizar."
+        },
+        {
+          "heading": "Datos de registro",
+          "content": "Registre el peso exacto y las repeticiones realizadas."
+        },
+        {
+          "heading": "Utilice gráficos de porcentajes",
+          "content": "Estima las cargas de entrenamiento al 50%, 60%, 70%, 80%, 90% de forma segura."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo utilizar 1RM en programas de entrenamiento",
+      "subSections": [
+        {
+          "heading": "Entrenamiento de fuerza",
+          "content": "Entrene al 80-90% de 1RM durante 1-5 repeticiones. Lo mejor para levantamiento de pesas, levantamiento olímpico y CrossFit."
+        },
+        {
+          "heading": "Hipertrofia (crecimiento muscular)",
+          "content": "Entrene al 65-75% de 1RM durante 6-12 repeticiones. Eficaz para el culturismo y el aumento de tamaño."
+        },
+        {
+          "heading": "Resistencia y acondicionamiento",
+          "content": "Entrene al 50-65% de 1RM durante 12-20+ repeticiones. Ideal para fitness general y entrenamiento funcional."
+        },
+        {
+          "heading": "Ejemplos",
+          "content": "Entrenamiento 5x5 (~75–85%), sobrecarga progresiva (aumenta gradualmente), entrenamiento de hipertrofia, acondicionamiento de fuerza CrossFit."
+        }
+      ]
+    },
+    {
+      "heading": "Mejores prácticas, seguridad y exenciones de responsabilidad",
+      "subSections": [
+        {
+          "heading": "Calentamiento",
+          "content": "Siempre caliente antes de probar o estimar."
+        },
+        {
+          "heading": "Nunca Max solo",
+          "content": "Utilice un observador o equipo de seguridad."
+        },
+        {
+          "heading": "Comience de manera conservadora",
+          "content": "Los principiantes deben levantar con cautela."
+        },
+        {
+          "heading": "Ajustes específicos de elevación",
+          "content": "Aplicar por separado para levantamientos de banco, sentadillas, peso muerto y olímpicos."
+        },
+        {
+          "heading": "Escuche a su cuerpo",
+          "content": "Evite levantar pesas cuando sienta dolor."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es la fórmula One Rep Max más precisa?",
+      "a": "La calculadora de fórmula Epley 1RM es más precisa para levantamientos de menos de 10 repeticiones. Brzycki trabaja bien para repeticiones moderadas, mientras que Lombardi se adapta a los levantadores de pesas."
+    },
+    {
+      "q": "¿Pueden los principiantes utilizar una calculadora de una repetición máxima?",
+      "a": "Sí, los principiantes deben evitar los verdaderos intentos máximos y en su lugar utilizar levantamientos submáximos (3 a 10 repeticiones) para realizar estimaciones seguras."
+    },
+    {
+      "q": "¿Con qué frecuencia debo recalcular mi 1RM?",
+      "a": "La mayoría de los levantadores actualizan los resultados cada 6 a 8 semanas. Los atletas avanzados pueden volver a calcular con más frecuencia durante los ciclos de fuerza."
+    },
+    {
+      "q": "¿Es seguro probar mi verdadera repetición máxima en el gimnasio?",
+      "a": "Puede ser arriesgado sin un observador o el equipo adecuado. Usar una calculadora de 1RM es más seguro y eficaz."
+    },
+    {
+      "q": "¿Cómo uso mi 1RM para programar entrenamientos?",
+      "a": "Utilice una calculadora de porcentaje máximo de una repetición: 50–65 % de resistencia, 65–75 % de hipertrofia, 75–85 % de fuerza, 85–95 % de potencia."
+    },
+    {
+      "q": "¿Esta calculadora funciona para todos los ejercicios?",
+      "a": "Sí, funciona para press de banca, sentadillas, peso muerto, press militar, levantamientos olímpicos y movimientos accesorios."
+    },
+    {
+      "q": "¿Puedo utilizar esta herramienta en el móvil o en el gimnasio?",
+      "a": "Sí, esta calculadora de 1RM gratuita está optimizada para uso móvil, de escritorio y en gimnasios en todo el mundo."
+    }
+  ]
+}

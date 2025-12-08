@@ -1,0 +1,155 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora científica?",
+      "content": "Una calculadora científica es una calculadora avanzada que se utiliza para realizar cálculos científicos y matemáticos complejos, como trigonometría, logaritmos, exponenciales, raíces, potencias y porcentajes. Las calculadoras científicas en línea son gratuitas, están basadas en navegador y son compatibles con dispositivos móviles, lo que las hace ideales para estudiantes, profesionales y usuarios cotidianos."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Abre la calculadora",
+          "content": "Inicie la calculadora en su navegador."
+        },
+        {
+          "heading": "Ingresar números o fórmulas",
+          "content": "Ingrese los valores o expresiones matemáticas que desea calcular."
+        },
+        {
+          "heading": "Seleccionar funciones",
+          "content": "Utilice sin, cos, tan, log, ln, √, x², e^x, etc."
+        },
+        {
+          "heading": "Usar paréntesis",
+          "content": "Para cálculos complejos, utilice paréntesis para controlar el orden de las operaciones."
+        },
+        {
+          "heading": "Haga clic =",
+          "content": "Obtén el resultado al instante."
+        },
+        {
+          "heading": "Funciones de memoria",
+          "content": "Almacene y recupere valores según sea necesario."
+        },
+        {
+          "heading": "Consejo",
+          "content": "Verifique el modo grados/radianes para cálculos trigonométricos."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Funciones avanzadas",
+          "content": "Trigonometría, registros, exponentes, potencias, raíces, porcentajes."
+        },
+        {
+          "heading": "Resultados instantáneos",
+          "content": "Calcula en milisegundos."
+        },
+        {
+          "heading": "Almacenamiento de memoria",
+          "content": "Almacene y recupere valores para cálculos de varios pasos."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en computadoras de escritorio, tabletas y teléfonos inteligentes."
+        },
+        {
+          "heading": "Gratis y accesible",
+          "content": "No se requieren descargas ni registro."
+        },
+        {
+          "heading": "Interfaz fácil de usar",
+          "content": "Limpio y fácil de navegar."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Estudiantes y profesores",
+          "content": "Resolver tareas, practicar problemas y ejercicios en el aula."
+        },
+        {
+          "heading": "Ingenieros y científicos",
+          "content": "Realizar cálculos científicos complejos."
+        },
+        {
+          "heading": "Codificación y pruebas de algoritmos",
+          "content": "Cálculos matemáticos rápidos para el desarrollo de software."
+        },
+        {
+          "heading": "Finanzas y Negocios",
+          "content": "Porcentajes, raíces y cálculos financieros básicos."
+        },
+        {
+          "heading": "Uso diario",
+          "content": "Conversiones de unidades, cálculos de área/volumen y problemas matemáticos diarios."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1 – Trigonometría",
+          "content": "Expresión: sin(45°) + cos(30°) → Salida: 1.366"
+        },
+        {
+          "heading": "Ejemplo 2: exponente y registro",
+          "content": "Expresión: log(1000) + e² → Salida: 9.389"
+        },
+        {
+          "heading": "Ejemplo 3: operaciones combinadas",
+          "content": "Expresión: √(16) + 3² × 2 → Salida: 22"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora científica?",
+      "a": "Es una calculadora para matemáticas avanzadas, que incluye trigonometría, registros, exponentes, raíces y potencias."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, totalmente gratis en línea."
+    },
+    {
+      "q": "¿Funciona en el móvil?",
+      "a": "Sí, totalmente compatible con dispositivos móviles."
+    },
+    {
+      "q": "¿Necesito instalar software?",
+      "a": "No, se ejecuta en tu navegador."
+    },
+    {
+      "q": "¿Puede manejar cálculos complejos?",
+      "a": "Sí, incluidos paréntesis y orden de operaciones."
+    },
+    {
+      "q": "¿Puedo almacenar números?",
+      "a": "Sí, las funciones de memoria están disponibles."
+    },
+    {
+      "q": "¿Es adecuado para estudiantes?",
+      "a": "Sí, perfecto para tareas y exámenes."
+    },
+    {
+      "q": "¿Es adecuado para ingenieros/científicos?",
+      "a": "Sí, admite cálculos científicos avanzados."
+    },
+    {
+      "q": "¿Proporciona historia?",
+      "a": "La mayoría de las versiones muestran un historial de cálculos."
+    },
+    {
+      "q": "¿Es exacto?",
+      "a": "Sí, proporciona resultados precisos para todas las funciones compatibles."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "pageTitle": "Calculadora de velocidad",
+  "pageDescription": "Calcule la velocidad, la rapidez y la aceleración para diversas aplicaciones de física, incluido el análisis de desplazamiento, tiempo y movimiento.",
+  "form": {
+    "labels": {
+      "calculationType": "Tipo de cálculo",
+      "initialVelocity": "Velocidad inicial",
+      "finalVelocity": "Velocidad final",
+      "time": "Tiempo",
+      "displacement": "Desplazamiento",
+      "acceleration": "Aceleración",
+      "unitSystem": "Sistema de unidades"
+    },
+    "placeholders": {
+      "initialVelocity": "Introduzca la velocidad inicial",
+      "finalVelocity": "Introduzca la velocidad final",
+      "time": "Introduzca la hora",
+      "displacement": "Introducir desplazamiento",
+      "acceleration": "Introduzca la aceleración"
+    },
+    "buttons": {
+      "calculate": "Calcular la velocidad",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "metric": "Métrico (m/s, m/s²)",
+      "imperial": "Imperial (pies/s, pies/s²)"
+    },
+    "calculationTypes": {
+      "averageVelocity": "Velocidad promedio",
+      "finalVelocity": "Velocidad final",
+      "initialVelocity": "Velocidad inicial",
+      "acceleration": "Aceleración"
+    }
+  },
+  "results": {
+    "velocity": "Velocidad",
+    "speed": "Velocidad",
+    "acceleration": "Aceleración",
+    "velocityResultsTitle": "Resultados de velocidad",
+    "formulaUsed": "Fórmula utilizada"
+  },
+  "educational": {
+    "velocityInfo": "Información de velocidad",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Consulta a un profesional de la física",
+    "velocityConcepts": {
+      "velocity": {
+        "title": "Velocidad",
+        "description": "Una cantidad vectorial que incluye tanto la velocidad como la dirección."
+      },
+      "speed": {
+        "title": "Velocidad",
+        "description": "Una cantidad escalar que representa la velocidad del movimiento."
+      },
+      "acceleration": {
+        "title": "Aceleración",
+        "description": "La tasa de cambio de velocidad a lo largo del tiempo."
+      }
+    },
+    "velocityFormulas": {
+      "averageVelocity": {
+        "title": "Velocidad promedio",
+        "formula": "v_avg = Δx/Δt = (x₂ - x₁)/(t₂ - t₁)"
+      },
+      "finalVelocity": {
+        "title": "Velocidad final",
+        "formula": "v = u + en"
+      },
+      "acceleration": {
+        "title": "Aceleración",
+        "formula": "a = (v - u)/t"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona cálculos físicos únicamente.",
+      "units": "Garantice unidades consistentes en todos sus cálculos"
+    },
+    "importantNotesList": [
+      "La velocidad es una cantidad vectorial con magnitud y dirección.",
+      "La velocidad es una cantidad escalar (solo magnitud)",
+      "La velocidad es una cantidad escalar (solo magnitud)",
+      "Verifique las conversiones de unidades para obtener cálculos precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese sus valores para calcular la velocidad",
+    "resultMessage": "El resultado de su cálculo de velocidad se muestra a continuación.",
+    "assessmentResult": "Resultado del cálculo:",
+    "velocityAnalysis": "Análisis de velocidad"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona cálculos físicos basados ​​en fórmulas cinemáticas estándar. La precisión de los resultados depende de la exactitud de los valores de entrada y de la aplicación adecuada de las fórmulas."
+  },
+  "seekHelp": {
+    "title": "Consulta a un profesional de la física",
+    "content": "Para problemas de física complejos o aplicaciones especializadas, considere consultar a un profesional de la física o utilizar herramientas de software especializadas diseñadas para cálculos físicos avanzados."
+  },
+  "errors": {
+    "initialVelocity": "Por favor introduce una velocidad inicial válida",
+    "finalVelocity": "Por favor introduce una velocidad final válida",
+    "time": "Por favor ingresa un valor de tiempo válido",
+    "displacement": "Por favor ingrese un valor de desplazamiento válido",
+    "acceleration": "Por favor introduce un valor de aceleración válido",
+    "calculationType": "Por favor seleccione un tipo de cálculo"
+  },
+  "tooltips": {
+    "calculationType": "Seleccione el tipo de cálculo de velocidad que necesita",
+    "initialVelocity": "Velocidad al inicio del intervalo de tiempo.",
+    "finalVelocity": "Velocidad al final del intervalo de tiempo.",
+    "time": "Intervalo de tiempo para el movimiento.",
+    "displacement": "Cambio de posición durante el intervalo de tiempo.",
+    "acceleration": "Tasa de cambio de velocidad"
+  }
+}

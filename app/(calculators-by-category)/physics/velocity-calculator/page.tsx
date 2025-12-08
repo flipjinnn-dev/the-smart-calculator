@@ -10,13 +10,17 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Zap, Clock, Ruler } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
+import CalculatorGuide from "@/components/calculator-guide"
 
 
 export default function VelocityCalculatorCalculator() {
   const pathname = usePathname()
   const language = pathname.split('/')[1] || 'en'
   const { content, loading, error: contentError } = useCalculatorContent('velocity-calculator', language)
-  
+
+  const { content: guideContent } = useCalculatorContent('velocity-calculator', language, "calculator-guide")
+  const guideData = guideContent || { color: 'blue', sections: [], faq: [] }
+
   const resultsRef = useRef<HTMLDivElement>(null)
   const scrollToRef = useMobileScroll()
   const [tab, setTab] = useState("simple")
@@ -511,49 +515,9 @@ export default function VelocityCalculatorCalculator() {
               </div>
             </div>
 
-            {/* How to use section below both cards */}
+            {/* Educational Content */}
             <div className="mt-12">
-              <Card className="shadow-2xl border-0 bg-gradient-to-br flex flex-col justify-center items-start p-8">
-                <CardHeader className="w-full flex flex-row items-center justify-start mb-2">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 flex items-center justify-center mr-3 shadow-lg">
-                    <Zap className="w-6 h-6 text-white" />
-                  </div>
-                  <CardTitle className="text-2xl font-bold text-yellow-700 tracking-tight mb-2 text-left">
-                    How to use this calculator?
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="w-full flex flex-col items-start justify-center">
-                  <ul className="list-none w-full max-w-md mx-0 text-gray-700 space-y-4 text-base text-left">
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-yellow-200 text-yellow-700 font-bold">
-                        1
-                      </span>
-                      <span>Select the type of velocity calculation you need.</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-yellow-200 text-yellow-700 font-bold">
-                        2
-                      </span>
-                      <span>Enter your values in the input fields.</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-yellow-200 text-yellow-700 font-bold">
-                        3
-                      </span>
-                      <span>
-                        Click <span className="font-semibold text-yellow-600">Calculate</span> to see the result
-                        instantly.
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="w-6 h-6 flex items-center justify-center rounded-full bg-yellow-200 text-yellow-700 font-bold">
-                        4
-                      </span>
-                      <span>Switch between tabs for different velocity operations.</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
+              <CalculatorGuide data={guideData} />
             </div>
           </div>
         </main>

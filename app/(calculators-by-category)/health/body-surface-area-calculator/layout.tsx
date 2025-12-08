@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for body-surface-area-calculator
 const bodysurfaceareacalculatorMeta = {
@@ -66,5 +67,74 @@ export default async function BodySurfaceAreaCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://www.thesmartcalculator.com/health/body-surface-area-calculator",
+    "url": "https://www.thesmartcalculator.com/health/body-surface-area-calculator",
+    "name": "Body Surface Area (BSA) Calculator",
+    "description": "Free Body Surface Area (BSA) Calculator online. Estimate body surface area using Du Bois, Mosteller, Haycock, Boyd, Fujimoto, Gehan & George, and Takahira formulas. Useful for chemotherapy dosing, burn assessment, and clinical applications.",
+    "mainEntity": {
+      "@type": "SoftwareApplication",
+      "name": "Body Surface Area Calculator",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Any",
+      "url": "https://www.thesmartcalculator.com/health/body-surface-area-calculator",
+      "featureList": [
+        "Du Bois Formula",
+        "Mosteller Formula",
+        "Haycock Formula",
+        "Boyd Formula",
+        "Fujimoto Formula",
+        "Gehan & George Formula",
+        "Takahira Formula"
+      ],
+      "about": {
+        "@type": "MedicalEntity",
+        "name": "Body Surface Area (BSA)",
+        "description": "Body Surface Area (BSA) is the measured or calculated surface area of a human body. It is commonly used in medicine to determine drug dosages and medical indicators such as cardiac index and burn assessments."
+      }
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.thesmartcalculator.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Health",
+          "item": "https://www.thesmartcalculator.com/health/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Body Surface Area Calculator",
+          "item": "https://www.thesmartcalculator.com/health/body-surface-area-calculator"
+        }
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "url": "https://www.thesmartcalculator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thesmartcalculator.com/logo.png"
+      }
+    }
+  }
+  return <>
+    {children}
+    <Script
+      id="body-surface-area-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

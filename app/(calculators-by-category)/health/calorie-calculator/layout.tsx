@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for calorie-calculator
 const caloriecalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }calorie-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }calorie-calculator`,
       languages: {
         'en': getCanonicalUrl('calorie-calculator', 'en'),
         'pt-BR': getCanonicalUrl('calorie-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }calorie-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }calorie-calculator`,
     },
   };
 }
@@ -70,5 +69,86 @@ export default async function CalorieCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Calorie Calculator",
+    "url": "https://www.thesmartcalculator.com/health/calorie-calculator",
+    "applicationCategory": "HealthApplication",
+    "operatingSystem": "Any",
+    "description": "Free online Calorie Calculator to estimate daily calorie needs for maintenance, weight loss, or weight gain based on age, gender, height, weight, and activity level.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "url": "https://www.thesmartcalculator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thesmartcalculator.com/images/logo.png"
+      }
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "featureList": [
+      "Daily Calorie Needs Calculator",
+      "Weight Loss Calorie Estimation",
+      "Weight Gain Calorie Estimation",
+      "Activity Level Adjustments",
+      "Basal Metabolic Rate (BMR) Calculation"
+    ],
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://www.thesmartcalculator.com/health/calorie-calculator",
+      "name": "Calorie Calculator",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://www.thesmartcalculator.com"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.thesmartcalculator.com/health/calorie-calculator"
+    },
+    "faq": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Calorie Calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A calorie calculator estimates how many calories your body needs daily based on age, gender, height, weight, and activity level."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accurate is the Calorie Calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The calculator provides an estimate using standard BMR and activity formulas like Mifflin-St Jeor. Actual calorie needs may vary based on metabolism, health conditions, and lifestyle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use the Calorie Calculator for weight loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The tool shows daily calories for weight maintenance, as well as reduced-calorie recommendations for weight loss."
+          }
+        }
+      ]
+    }
+  }
+  return <>
+    {children}
+    <Script
+      id="calorie-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

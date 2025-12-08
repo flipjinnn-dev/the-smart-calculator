@@ -1,0 +1,116 @@
+{
+  "pageTitle": "Calculadora de préstamos",
+  "pageDescription": "Calcule los pagos de préstamos, las tasas de interés y los calendarios de liquidación de varios tipos de préstamos, incluidos hipotecas, préstamos para automóviles y préstamos personales.",
+  "form": {
+    "labels": {
+      "loanAmount": "Monto del préstamo",
+      "interestRate": "Tasa de interés anual",
+      "loanTerm": "Plazo del préstamo",
+      "loanTermUnit": "Unidad de plazo del préstamo",
+      "startDate": "Fecha de inicio del préstamo",
+      "extraPayment": "Pago mensual adicional",
+      "paymentFrequency": "Frecuencia de pago"
+    },
+    "placeholders": {
+      "loanAmount": "Ingrese el monto del préstamo",
+      "interestRate": "Introduzca la tasa de interés anual (%)",
+      "loanTerm": "Introduzca el plazo del préstamo",
+      "extraPayment": "Ingrese el pago mensual adicional (opcional)"
+    },
+    "buttons": {
+      "calculate": "Calcular préstamo",
+      "reset": "Reiniciar"
+    },
+    "loanTermUnits": {
+      "years": "Años",
+      "months": "Meses"
+    },
+    "paymentFrequencies": {
+      "monthly": "Mensual",
+      "biweekly": "Quincenal",
+      "weekly": "Semanalmente"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Pago Mensual",
+    "totalInterest": "Interés total pagado",
+    "totalPayment": "Pago Total",
+    "payoffDate": "Fecha de liquidación del préstamo",
+    "interestSavings": "Ahorro de intereses con pagos adicionales",
+    "loanResultsTitle": "Resultados del cálculo del préstamo"
+  },
+  "educational": {
+    "loanInfo": "Información del préstamo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "loanFacts": {
+      "amortization": {
+        "title": "Amortización",
+        "description": "Proceso de liquidación de un préstamo con pagos regulares a lo largo del tiempo."
+      },
+      "interest": {
+        "title": "Cálculo de intereses",
+        "description": "El interés se calcula sobre el saldo restante del préstamo y disminuye con el tiempo."
+      },
+      "extraPayments": {
+        "title": "Pagos adicionales",
+        "description": "Los pagos adicionales reducen el capital más rápido, ahorrando en intereses totales"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones de pago de préstamos únicamente.",
+      "actual": "Los términos reales del préstamo pueden variar según las políticas y tarifas del prestamista."
+    },
+    "importantNotesList": [
+      "Los pagos quincenales pueden ayudar a liquidar los préstamos más rápido",
+      "Los pagos quincenales pueden ayudar a liquidar los préstamos más rápido",
+      "Los pagos quincenales pueden ayudar a liquidar los préstamos más rápido",
+      "Considere la tasa de porcentaje anual (APR) para el costo real del préstamo"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su préstamo para calcular los pagos y los intereses.",
+    "resultMessage": "Los resultados del cálculo de su préstamo se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del préstamo:",
+    "loanAnalysis": "Análisis de préstamos"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de pago de préstamos basadas en fórmulas financieras estándar. Los términos, pagos e intereses reales del préstamo pueden variar según las políticas, tarifas y otros factores del prestamista no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para obtener asesoramiento sobre préstamos y planificación financiera personalizados, consulte a asesores financieros o agentes de préstamos con experiencia en productos crediticios y circunstancias financieras individuales."
+  },
+  "errors": {
+    "loanAmount": "Por favor ingrese un monto de préstamo válido",
+    "interestRate": "Por favor ingrese una tasa de interés anual válida",
+    "loanTerm": "Por favor ingrese un plazo de préstamo válido",
+    "startDate": "Por favor ingrese una fecha de inicio de préstamo válida",
+    "extraPayment": "Por favor ingrese un monto de pago adicional válido",
+    "loanTermUnit": "Seleccione una unidad de plazo del préstamo",
+    "paymentFrequency": "Por favor seleccione una frecuencia de pago"
+  },
+  "tooltips": {
+    "loanAmount": "Monto total prestado",
+    "interestRate": "Tasa de interés anual como porcentaje",
+    "loanTerm": "Plazo para pagar el préstamo",
+    "startDate": "Fecha en que comienzan los pagos del préstamo.",
+    "extraPayment": "Monto adicional pagado cada mes hacia el capital",
+    "paymentFrequency": "¿Con qué frecuencia se realizan los pagos?"
+  },
+  "loan_details_0": "Detalles del préstamo",
+  "enter_your_loan_information_to_calculate_payments_1": "Ingrese la información de su préstamo para calcular los pagos",
+  "loan_amount_2": "Monto del préstamo",
+  "annual_interest_rate_3": "Tasa de interés anual (%)",
+  "loan_term_years_4": "Plazo del préstamo (años)",
+  "calculate_5": "Calcular",
+  "calculation_results_6": "Resultados del cálculo",
+  "your_loan_payment_breakdown_7": "Desglose del pago de su préstamo",
+  "monthly_payment_8": "Pago Mensual",
+  "total_interest_9": "Interés total",
+  "total_payment_10": "Pago Total",
+  "enter_loan_details_to_see_your_calculation_11": "Ingrese los detalles del préstamo para ver su cálculo"
+}

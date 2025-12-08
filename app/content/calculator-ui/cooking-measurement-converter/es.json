@@ -1,0 +1,216 @@
+{
+  "pageTitle": "Convertidor de medidas de cocción",
+  "pageDescription": "Convierta entre diferentes medidas de cocción, incluidos volumen, peso y temperatura, para recetas y aplicaciones culinarias.",
+  "form": {
+    "labels": {
+      "inputUnit": "Unidad de entrada",
+      "outputUnit": "Unidad de salida",
+      "amount": "Cantidad",
+      "measurementType": "Tipo de medición",
+      "ingredient": "Ingrediente (para conversiones de peso)"
+    },
+    "placeholders": {
+      "amount": "Ingrese la cantidad a convertir"
+    },
+    "buttons": {
+      "convert": "Convertir medida",
+      "reset": "Reiniciar",
+      "calculate": "Calcular el convertidor de medidas de cocción"
+    },
+    "measurementTypes": {
+      "volume": "Volumen",
+      "weight": "Peso",
+      "temperature": "Temperatura"
+    },
+    "volumeUnits": {
+      "teaspoons": "Cucharaditas (tsp)",
+      "tablespoons": "Cucharadas (cucharadas)",
+      "fluidOunces": "Onzas líquidas (oz fl)",
+      "cups": "tazas",
+      "pints": "Pintas",
+      "quarts": "Cuartos",
+      "gallons": "Galones",
+      "milliliters": "Mililitros (mL)",
+      "liters": "Litros (L)"
+    },
+    "weightUnits": {
+      "ounces": "Onzas (oz)",
+      "pounds": "Libras (libras)",
+      "grams": "Gramos (g)",
+      "kilograms": "Kilogramos (kg)"
+    },
+    "temperatureUnits": {
+      "fahrenheit": "Fahrenheit (°F)",
+      "celsius": "Celsius (°C)",
+      "kelvin": "Kelvin(K)"
+    },
+    "ingredients": {
+      "water": "Agua",
+      "flour": "Harina para todo uso",
+      "sugar": "Azúcar Granulada",
+      "butter": "Manteca",
+      "oil": "Aceite vegetal",
+      "milk": "Leche",
+      "custom": "Densidad personalizada"
+    }
+  },
+  "results": {
+    "convertedAmount": "Monto convertido",
+    "conversionResult": "Resultado de la conversión",
+    "cookingResultsTitle": "Resultados de conversión de medidas",
+    "equivalentMeasurements": "Medidas equivalentes"
+  },
+  "educational": {
+    "cookingInfo": "Información sobre medidas de cocción",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos culinarios",
+    "measurementFacts": {
+      "volume": {
+        "title": "Conversiones de volumen",
+        "description": "1 taza = 16 cucharadas = 48 cucharaditas = 8 onzas líquidas = 240 ml"
+      },
+      "weight": {
+        "title": "Conversiones de peso",
+        "description": "1 libra = 16 onzas = 453,6 g, 1 onza = 28,35 g"
+      },
+      "temperature": {
+        "title": "Conversiones de temperatura",
+        "description": "°F = (°C × 9/5) + 32, °C = (°F - 32) × 5/9"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona conversiones de medidas únicamente.",
+      "accuracy": "Las mediciones de peso son más precisas que el volumen de los ingredientes secos"
+    },
+    "importantNotesList": [
+      "Las mediciones de peso son generalmente más precisas que el volumen de los ingredientes secos.",
+      "Las mediciones de peso son generalmente más precisas que el volumen de los ingredientes secos.",
+      "Tenga en cuenta la altitud y la humedad al hornear",
+      "Utilice herramientas de medición adecuadas para obtener mejores resultados."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese su medida de cocción para convertir",
+    "resultMessage": "Su medida de cocción convertida se muestra a continuación",
+    "assessmentResult": "Resultado de la conversión:",
+    "cookingAnalysis": "Análisis de medidas de cocción"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona conversiones de medidas de cocción basadas en equivalentes estándar. Los pesos reales pueden variar según la densidad de los ingredientes, el empaque y la técnica de medición."
+  },
+  "seekHelp": {
+    "title": "Recursos culinarios",
+    "content": "Para obtener consejos de cocina profesionales y desarrollo de recetas, consulte a profesionales culinarios o utilice recursos y libros de cocina especializados para obtener técnicas precisas."
+  },
+  "errors": {
+    "amount": "Por favor ingresa una cantidad válida",
+    "inputUnit": "Por favor seleccione una unidad de entrada",
+    "outputUnit": "Por favor seleccione una unidad de salida",
+    "measurementType": "Por favor seleccione un tipo de medida",
+    "ingredient": "Por favor seleccione un ingrediente"
+  },
+  "tooltips": {
+    "inputUnit": "La unidad de medida desde la que estás convirtiendo",
+    "outputUnit": "La unidad de medida a la que estás convirtiendo",
+    "amount": "La cantidad que deseas convertir",
+    "measurementType": "Tipo de medición (volumen, peso o temperatura)",
+    "ingredient": "El tipo de ingrediente afecta las conversiones de peso."
+  },
+  "ingredient_measurements_0": "Medidas de ingredientes",
+  "select_an_ingredient_and_enter_either_weight_or_vo_1": "Seleccione un ingrediente e ingrese el peso O el volumen para convertir entre medidas",
+  "select_ingredient_2": "Seleccionar ingrediente",
+  "density_3": "Densidad",
+  "kgm_4": "kg/m³",
+  "gcm_5": "gramos/cm³",
+  "gml_6": "gramos/ml",
+  "lbft_7": "lb/pie³",
+  "weight_optional_8": "Peso (opcional)",
+  "g_9": "gramo",
+  "dag_10": "trozo de cuero",
+  "kg_11": "kilos",
+  "oz_12": "onz",
+  "lb_13": "libra",
+  "volume_optional_14": "Volumen (opcional)",
+  "ml_15": "ml",
+  "l_16": "l",
+  "cups_17": "tazas",
+  "tbsp_18": "cucharada",
+  "tsp_19": "cucharadita",
+  "fl_oz_20": "onzas líquidas",
+  "convert_21": "Convertir",
+  "reset_22": "Reiniciar",
+  "results_23": "Resultados",
+  "ingredient_24": "Ingrediente",
+  "density_25": "Densidad:",
+  "kgm_26": "kg/m³",
+  "input_weight_27": "Peso de entrada",
+  "kg_28": "kilos",
+  "equivalent_volume_29": "Volumen equivalente",
+  "all_volume_conversions_30": "Todas las conversiones de volumen",
+  "ml_31": "ml",
+  "l_32": "l",
+  "cups_33": "tazas",
+  "tbsp_34": "cucharada",
+  "tsp_35": "cucharadita",
+  "fl_oz_36": "onzas líquidas",
+  "input_volume_37": "Volumen de entrada",
+  "m_38": "m³",
+  "equivalent_weight_39": "Peso equivalente",
+  "all_weight_conversions_40": "Todas las conversiones de peso",
+  "g_41": "gramo",
+  "dag_42": "trozo de cuero",
+  "kg_43": "kilos",
+  "oz_44": "onz",
+  "lb_45": "libra",
+  "formula_used_46": "Fórmula utilizada",
+  "volume_weight_density_47": "Volumen = Peso ÷ Densidad",
+  "v_48": "V =",
+  "kg_49": "kilos ÷",
+  "kgm_50": "kg/m³ =",
+  "m_51": "m³",
+  "weight_volume_density_52": "Peso = Volumen × Densidad",
+  "w_53": "W =",
+  "m_54": "m³ ×",
+  "kgm_55": "kg/m³ =",
+  "kg_56": "kilos",
+  "select_an_ingredient_and_enter_either_57": "Seleccione un ingrediente e ingrese",
+  "weight_or_volume_58": "peso O volumen",
+  "to_see_conversion_results_59": "para ver la conversión\n                          resultados.",
+  "understanding_cooking_measurement_conversion_60": "Comprender la conversión de medidas de cocción",
+  "core_formulas_61": "Fórmulas básicas",
+  "weight_to_volume_62": "Peso a Volumen:",
+  "volume_weight_density_63": "Volumen = Peso ÷ Densidad",
+  "volume_to_weight_64": "Volumen a peso:",
+  "weight_volume_density_65": "Peso = Volumen × Densidad",
+  "density_66": "Densidad:",
+  "mass_per_unit_volume_kgm_67": "Masa por unidad de volumen (kg/m³)",
+  "common_ingredient_densities_68": "Densidades de ingredientes comunes",
+  "water_69": "Agua:",
+  "k_1000_kgm_70": "1000kg/m³",
+  "flour_71": "Harina:",
+  "k_593_kgm_72": "593kg/m³",
+  "sugar_73": "Azúcar:",
+  "k_845_kgm_74": "845kg/m³",
+  "salt_75": "Sal:",
+  "k_1217_kgm_76": "1217kg/m³",
+  "milk_77": "Leche:",
+  "k_1030_kgm_78": "1030kg/m³",
+  "oil_79": "Aceite:",
+  "k_920_kgm_80": "920 kg/m³",
+  "honey_81": "Miel:",
+  "k_1420_kgm_82": "1420kg/m³",
+  "butter_83": "Manteca:",
+  "k_911_kgm_84": "911kg/m³",
+  "practical_applications_85": "Aplicaciones prácticas",
+  "recipe_scaling_86": "Escalado de recetas:",
+  "convert_between_weight_and_volume_measurements_whe_87": "Convertir entre medidas de peso y volumen al escalar\n                        recetas",
+  "international_recipes_88": "Recetas Internacionales:",
+  "convert_between_metric_and_us_customary_units_89": "Convertir entre unidades métricas y habituales de EE. UU.",
+  "precision_baking_90": "Horneado de precisión:",
+  "use_weight_measurements_for_more_accurate_results_91": "Utilice medidas de peso para obtener resultados más precisos",
+  "ingredient_substitution_92": "Sustitución de ingredientes:",
+  "calculate_amounts_when_substituting_ingredients_93": "Calcular cantidades al sustituir\n                        ingredientes"
+}

@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for target-heart-rate-calculator
 const targetheartratecalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }target-heart-rate-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }target-heart-rate-calculator`,
       languages: {
         'en': getCanonicalUrl('target-heart-rate-calculator', 'en'),
         'pt-BR': getCanonicalUrl('target-heart-rate-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }target-heart-rate-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }target-heart-rate-calculator`,
     },
   };
 }
@@ -70,5 +69,102 @@ export default async function TargetHeartRateCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://www.thesmartcalculator.com/health/target-heart-rate-calculator",
+    "url": "https://www.thesmartcalculator.com/health/target-heart-rate-calculator",
+    "name": "Target Heart Rate Calculator",
+    "description": "Free Target Heart Rate Calculator to find training zones using age, maximum heart rate, and resting heart rate. Includes Haskell & Fox, Tanaka, and Nes formulas with Basic and Karvonen methods.",
+    "mainEntity": {
+      "@type": "SoftwareApplication",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "All",
+      "name": "Target Heart Rate Calculator",
+      "description": "An online tool to calculate target heart rate zones based on age and formulas like Haskell & Fox, Tanaka et al., and Nes et al. Supports both percentage of max HR and Karvonen method.",
+      "url": "https://www.thesmartcalculator.com/health/target-heart-rate-calculator",
+      "featureList": [
+        "Target Heart Rate Zones (Light, Moderate, Vigorous, Maximum)",
+        "Formulas: Haskell & Fox (220 - age), Tanaka et al. (208 - 0.7 × age), Nes et al. (211 - 0.64 × age)",
+        "Calculation Methods: Basic % of Max HR and Karvonen (Heart Rate Reserve)",
+        "Custom Maximum Heart Rate input option",
+        "Educational guide on training zones and best practices"
+      ],
+      "softwareHelp": {
+        "@type": "CreativeWork",
+        "name": "Training Zones Explained",
+        "text": "Light: 50–60%, Moderate: 60–70%, Vigorous: 70–85%, Maximum: 85–95%. Includes formula accuracy notes and workout guidance."
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "url": "https://www.thesmartcalculator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thesmartcalculator.com/logo.png"
+      }
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.thesmartcalculator.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Health Calculators",
+          "item": "https://www.thesmartcalculator.com/health/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Target Heart Rate Calculator",
+          "item": "https://www.thesmartcalculator.com/health/target-heart-rate-calculator"
+        }
+      ]
+    },
+    "faqPage": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How is Target Heart Rate calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Target Heart Rate can be calculated using formulas like Haskell & Fox (220 - age), Tanaka (208 - 0.7 × age), or Nes (211 - 0.64 × age). Then, apply percentage zones (50–95%) or use the Karvonen method with resting heart rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the main heart rate training zones?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Light: 50–60% of MHR, Moderate: 60–70%, Vigorous: 70–85%, Maximum: 85–95%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which method is more accurate: % of Max HR or Karvonen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Karvonen method is generally more accurate because it considers resting heart rate (RHR) along with maximum heart rate (MHR)."
+          }
+        }
+      ]
+    }
+  }
+  return <>
+    {children}
+    <Script
+      id="target-heart-rate-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

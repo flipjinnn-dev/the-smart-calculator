@@ -1,0 +1,111 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de alquiler: descubra cuánto alquiler puede pagar",
+      "content": "Nuestra Calculadora de alquiler (también llamada calculadora de asequibilidad de alquiler o calculadora de presupuesto de alquiler) le ayuda a responder una de las preguntas más importantes sobre vivienda: \"¿Cuánto puedo pagar de alquiler?\" Ya sea que se esté mudando a su primer departamento, mudándose a una nueva ciudad o tratando de equilibrar el alquiler con otros gastos, esta herramienta le brinda una estimación rápida y precisa del alquiler máximo que debe pagar en función de sus ingresos y deudas."
+    },
+    {
+      "heading": "Por qué es útil",
+      "subSections": [
+        {
+          "heading": "planificación presupuestaria",
+          "content": "Manténgase dentro de una relación segura entre alquiler e ingresos."
+        },
+        {
+          "heading": "Conciencia de la deuda",
+          "content": "Tenga en cuenta préstamos, tarjetas de crédito y gastos de manutención."
+        },
+        {
+          "heading": "Opciones inteligentes",
+          "content": "Compare el alquiler con la compra con nuestra Calculadora de hipotecas."
+        }
+      ]
+    },
+    {
+      "heading": "¿Cómo funciona la calculadora de alquiler?",
+      "subSections": [
+        {
+          "heading": "Relación inicial (relación de vivienda)",
+          "content": "Esta pauta sugiere que no debe gastar más del 30% de su ingreso mensual bruto en alquiler.\nFórmula: Alquiler máximo = Ingreso mensual bruto × 0,30"
+        },
+        {
+          "heading": "Relación back-end (relación deuda-ingresos)",
+          "content": "Esta regla considera todas las deudas (alquiler + préstamos para automóviles + tarjetas de crédito + préstamos para estudiantes). Los prestamistas generalmente prefieren que los pagos totales de su deuda sean ≤ 40% de su ingreso mensual bruto.\nFórmula: (Renta máxima + Otras deudas) ≤ Ingreso mensual bruto × 0,40"
+        },
+        {
+          "heading": "Ejemplo",
+          "content": "Salario: $60,000/año → $5,000/mes.\nRegla del 30%: $5000 × 0,30 = $1500 de alquiler máximo.\nSi deudas mensuales = $500 → $1,500 de alquiler + $500 de deuda = $2,000 (40% de $5,000). Asequible."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién debería utilizar una calculadora de asequibilidad del alquiler?",
+      "subSections": [
+        {
+          "heading": "Estudiantes",
+          "content": "Calcule el alquiler al dividir los costos con los compañeros de cuarto."
+        },
+        {
+          "heading": "Hogares de un solo ingreso",
+          "content": "Encuentre límites de alquiler seguros basados ​​en un salario."
+        },
+        {
+          "heading": "Hogares de doble ingreso",
+          "content": "Combine los ingresos para obtener un presupuesto de alquiler más realista."
+        },
+        {
+          "heading": "Familias de bajos ingresos",
+          "content": "Explore opciones de alquiler asequibles y evite gastar demasiado."
+        },
+        {
+          "heading": "Por geografía",
+          "content": "Funciona ya sea que lo estés usando como calculadora de alquileres en Nueva York, calculadora de alquileres en Londres, calculadora de alquileres en California o cualquier otra ciudad."
+        }
+      ]
+    },
+    {
+      "heading": "Guía práctica sobre asequibilidad del alquiler",
+      "subSections": [
+        {
+          "heading": "¿Qué porcentaje del ingreso debería ser el alquiler?",
+          "content": "Regla general: 25%-30% de los ingresos brutos. Los planificadores conservadores apuntan a entre un 20% y un 25% si tiene gastos elevados. Si las deudas son bajas, algunas familias alcanzan entre el 35% y el 40%, pero es arriesgado."
+        },
+        {
+          "heading": "¿Debo incluir servicios públicos y otros gastos?",
+          "content": "Sí. Tenga siempre en cuenta: servicios públicos (electricidad, gas, agua, Internet), seguro de inquilinos, costos de transporte y desplazamientos, comestibles y vida diaria."
+        },
+        {
+          "heading": "Alquiler vs Hipoteca: ¿Cuál es mejor?",
+          "content": "El alquiler es flexible y requiere menos costos iniciales, pero las hipotecas generan capital. Compare opciones con nuestra Calculadora de alquiler versus hipoteca y Calculadora de préstamos hipotecarios."
+        }
+      ]
+    },
+    {
+      "heading": "Asequibilidad del alquiler por salario (referencia rápida)",
+      "content": "Salario de $40,000 → ~$1,000/mes de alquiler\nSalario de $50,000 → ~$1,250/mes de alquiler\nSalario de $60,000 → ~$1,500/mes de alquiler\nSalario de $75,000 → ~$1,875/mes de alquiler\nSalario de $100,000 → ~$2,500/mes de alquiler\n(Se supone la regla del 30%, antes de deudas y servicios públicos)."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto alquiler puedo pagar con un salario de 50.000 dólares?",
+      "a": "Usando la regla del 30%, alrededor de $1,250 por mes."
+    },
+    {
+      "q": "¿Qué porcentaje de mis ingresos debería ser el alquiler?",
+      "a": "La mayoría de los expertos recomiendan entre el 25% y el 30% de su ingreso mensual bruto."
+    },
+    {
+      "q": "¿Debo calcular el alquiler en función de los ingresos netos (después de impuestos)?",
+      "a": "La mayoría de las calculadoras utilizan el ingreso bruto, pero presupuestar según el ingreso neto es más seguro y realista."
+    },
+    {
+      "q": "¿Pueden los estudiantes o personas de bajos ingresos utilizar esta calculadora de alquiler?",
+      "a": "Sí. Se ajusta a cualquier nivel de ingresos. Para presupuestos ajustados, trate de destinar entre el 20% y el 25% de sus ingresos al alquiler y busque programas de asistencia para la vivienda si es necesario."
+    },
+    {
+      "q": "¿Es mejor alquilar o comprar?",
+      "a": "Depende de su ciudad, la estabilidad profesional y los objetivos financieros. El alquiler ofrece flexibilidad, mientras que la compra genera capital a largo plazo. Utilice nuestra Calculadora de hipotecas y nuestra Calculadora de impuestos sobre la renta para comparar."
+    }
+  ]
+}

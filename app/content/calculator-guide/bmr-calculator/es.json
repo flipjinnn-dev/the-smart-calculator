@@ -1,0 +1,141 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "¿Qué es la TMB y por qué es importante?",
+      "content": "La tasa metabólica basal (TMB) es la cantidad de calorías que su cuerpo necesita para mantener las funciones fisiológicas básicas en reposo, como la respiración, la circulación y la producción celular.",
+      "subSections": [
+        {
+          "heading": "Control de peso",
+          "content": "Conocer su TMB le ayuda a perder, ganar o mantener peso de manera eficiente."
+        },
+        {
+          "heading": "Planificación de fitness",
+          "content": "Diseñar rutinas de dieta y ejercicio basadas en las necesidades calóricas diarias."
+        },
+        {
+          "heading": "Monitoreo de salud",
+          "content": "Comprender el metabolismo y el gasto energético para la salud a largo plazo."
+        },
+        {
+          "heading": "Fundación de TDEE",
+          "content": "La BMR constituye la base del gasto energético diario total (TDEE)."
+        }
+      ]
+    },
+    {
+      "heading": "Comprensión del TDEE: gasto total diario de energía",
+      "content": "Su TDEE es la cantidad total de calorías que quema en un día, teniendo en cuenta la actividad física.",
+      "subSections": [
+        {
+          "heading": "Sedentario",
+          "content": "Poco o nada de ejercicio. Multiplicador: 1,2"
+        },
+        {
+          "heading": "Actividad ligera",
+          "content": "Ejercicio ligero 1 a 3 días por semana. Multiplicador: 1,375"
+        },
+        {
+          "heading": "Actividad moderada",
+          "content": "Ejercicio moderado 3 a 5 días por semana. Multiplicador: 1,55"
+        },
+        {
+          "heading": "muy activo",
+          "content": "Ejercicio intenso 6-7 días/semana. Multiplicador: 1,725"
+        },
+        {
+          "heading": "Extra activo",
+          "content": "Trabajo o entrenamiento físicamente exigente dos veces al día. Multiplicador: 1,9"
+        }
+      ]
+    },
+    {
+      "heading": "Cómo utilizar esta calculadora de TMB",
+      "content": "Siga estos pasos para calcular su BMR y TDEE:",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Ingrese sus datos: edad, sexo, altura (cm), peso (kg) y nivel de actividad."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Haga clic en 'Calcular': su BMR y TDEE se mostrarán instantáneamente."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Interprete los resultados: utilice BMR/TDEE para planificar la pérdida, el aumento o el mantenimiento de peso."
+        }
+      ]
+    },
+    {
+      "heading": "Fórmulas BMR explicadas",
+      "content": "Existen diferentes fórmulas para calcular la TMB con precisión:",
+      "subSections": [
+        {
+          "heading": "Fórmula de Mifflin-St Jeor",
+          "content": "Más preciso para adultos. Hombres: (10 × peso) + (6,25 × altura) - (5 × edad) + 5. Mujeres: (10 × peso) + (6,25 × altura) - (5 × edad) - 161."
+        },
+        {
+          "heading": "Fórmula de Harris-Benedict",
+          "content": "Una fórmula más antigua que puede sobrestimar ligeramente la TMB."
+        },
+        {
+          "heading": "Fórmula de Katch-McArdle",
+          "content": "Ideal para personas con masa corporal magra conocida."
+        }
+      ]
+    },
+    {
+      "heading": "Consejos para aumentar naturalmente su TMB",
+      "content": "Impulsa tu metabolismo con estas estrategias:",
+      "subSections": [
+        {
+          "heading": "Entrenamiento de fuerza",
+          "content": "Desarrolla masa muscular magra."
+        },
+        {
+          "heading": "Dieta alta en proteínas",
+          "content": "Aumenta la termogénesis con proteínas."
+        },
+        {
+          "heading": "Manténgase activo",
+          "content": "Aumentar NEAT (termogénesis de actividad sin ejercicio)."
+        },
+        {
+          "heading": "Duerma lo suficiente",
+          "content": "Asegurar una función metabólica óptima."
+        },
+        {
+          "heading": "Mantente hidratado",
+          "content": "La ingesta de agua favorece el metabolismo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué tan precisa es una calculadora de TMB?",
+      "a": "La precisión depende de la fórmula utilizada y de la precisión de la entrada. Mifflin-St Jeor es el más fiable para adultos."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre BMR y TDEE?",
+      "a": "La BMR mide las calorías en reposo, mientras que el TDEE incluye toda la actividad diaria. TDEE = TMB × factor de actividad."
+    },
+    {
+      "q": "¿Puedo usar BMR para perder peso?",
+      "a": "Sí. Consuma menos calorías que su TDEE para perder peso o más para ganar peso."
+    },
+    {
+      "q": "¿Cuántas calorías quemo al día?",
+      "a": "Su TDEE proporciona una estimación basada en su TMB y nivel de actividad."
+    },
+    {
+      "q": "¿Qué fórmula de TMB debo utilizar?",
+      "a": "Mifflin-St Jeor es mejor para uso general, mientras que Katch-McArdle es adecuado para quienes conocen su porcentaje de grasa corporal."
+    }
+  ],
+  "cta": {
+    "heading": "Calcule su BMR y TDEE hoy",
+    "content": "Utilice nuestra Calculadora BMR gratuita para comprender su metabolismo, sus necesidades calóricas diarias y tomar el control de sus objetivos de salud y estado físico."
+  }
+}

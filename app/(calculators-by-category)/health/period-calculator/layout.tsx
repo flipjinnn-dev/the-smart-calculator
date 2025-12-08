@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for period-calculator
 const periodcalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }period-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }period-calculator`,
       languages: {
         'en': getCanonicalUrl('period-calculator', 'en'),
         'pt-BR': getCanonicalUrl('period-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }period-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }period-calculator`,
     },
   };
 }
@@ -70,5 +69,82 @@ export default async function PeriodCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Period Calculator",
+    "url": "https://www.thesmartcalculator.com/health/period-calculator",
+    "description": "A simple online Period Calculator to estimate your next period, ovulation date, and fertile window based on your last menstrual period and cycle information.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "url": "https://www.thesmartcalculator.com"
+    },
+    "mainEntity": {
+      "@type": "WebApplication",
+      "name": "Period Calculator Tool",
+      "url": "https://www.thesmartcalculator.com/health/period-calculator",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web",
+      "softwareRequirements": "Any modern web browser",
+      "featureList": [
+        "Calculate next period date based on last menstrual period and average cycle length",
+        "Predict ovulation date (LMP + cycle length − 14)",
+        "Estimate fertile window (ovulation ± 2 days)",
+        "Forecast predictions for multiple cycles",
+        "Provide educational information about menstrual phases"
+      ],
+      "input": [
+        {
+          "@type": "PropertyValue",
+          "name": "First day of last period",
+          "valueRequired": true,
+          "valueType": "Date"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Average cycle length",
+          "valueRequired": true,
+          "valueType": "Integer",
+          "minValue": 22,
+          "maxValue": 44
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Average period length",
+          "valueRequired": true,
+          "valueType": "Integer",
+          "minValue": 3,
+          "maxValue": 10
+        }
+      ],
+      "output": [
+        {
+          "@type": "PropertyValue",
+          "name": "Next Period Date",
+          "valueType": "Date"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Ovulation Date",
+          "valueType": "Date"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Fertile Window",
+          "valueType": "DateRange"
+        }
+      ],
+      "usageInfo": "Estimates are based on average cycle data. Results may vary for irregular cycles. Not intended as medical advice."
+    }
+  }
+  return <>
+    {children}
+    <Script
+      id="period-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

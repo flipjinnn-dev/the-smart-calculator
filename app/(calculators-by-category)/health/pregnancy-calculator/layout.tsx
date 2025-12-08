@@ -44,9 +44,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }pregnancy-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }pregnancy-calculator`,
       languages: {
         'en': getCanonicalUrl('pregnancy-calculator', 'en'),
         'pt-BR': getCanonicalUrl('pregnancy-calculator', 'br'),
@@ -58,9 +57,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }pregnancy-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }pregnancy-calculator`,
     },
   };
 }

@@ -1,0 +1,143 @@
+{
+    "color": "orange",
+    "sections": [
+        {
+            "heading": "What is a Velocity Calculator?",
+            "content": "A Velocity Calculator is a free online tool that calculates the speed or velocity of an object using physics formulas. It can compute average velocity using distance and time or final velocity for accelerated motion using v = u + a × t."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Open the Calculator",
+                    "content": "Access the page in your browser."
+                },
+                {
+                    "heading": "Select Calculation Type",
+                    "content": "Choose simple velocity (distance/time) or accelerated motion (v = u + a × t)."
+                },
+                {
+                    "heading": "Enter Values",
+                    "content": "Input distance, time, initial velocity, and acceleration as needed."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "The velocity result appears instantly."
+                },
+                {
+                    "heading": "Check Units",
+                    "content": "Ensure all units are consistent for accurate results."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Results",
+                    "content": "Calculates velocity in seconds."
+                },
+                {
+                    "heading": "Supports Multiple Formulas",
+                    "content": "Average velocity and accelerated motion."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on any device."
+                },
+                {
+                    "heading": "Unit Flexibility",
+                    "content": "Metric and imperial units supported."
+                },
+                {
+                    "heading": "Educational Tool",
+                    "content": "Helps understand velocity, acceleration, and motion."
+                },
+                {
+                    "heading": "Free & Easy to Use",
+                    "content": "No downloads or registration required."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Students & Teachers",
+                    "content": "Solve homework and class problems."
+                },
+                {
+                    "heading": "Hobbyists & DIY Projects",
+                    "content": "Calculate motion for model vehicles or experiments."
+                },
+                {
+                    "heading": "Engineers & Designers",
+                    "content": "Quick estimation of velocity for simple projects."
+                },
+                {
+                    "heading": "Travel & Daily Calculations",
+                    "content": "Determine speed from distance and time."
+                },
+                {
+                    "heading": "Educational Demonstrations",
+                    "content": "Teach kinematics and motion concepts."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Constant Velocity",
+                    "content": "Distance: 100 meters | Time: 20 seconds | Velocity: 100 ÷ 20 = 5 m/s"
+                },
+                {
+                    "heading": "Example 2 – Accelerated Motion",
+                    "content": "Initial Velocity (u): 0 m/s | Acceleration (a): 2 m/s² | Time (t): 10 seconds | Final Velocity (v): 0 + 2 × 10 = 20 m/s"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a velocity calculator?",
+            "a": "Calculates speed or velocity using distance, time, and acceleration."
+        },
+        {
+            "q": "Is this calculator free?",
+            "a": "Yes, it is completely free online."
+        },
+        {
+            "q": "Do I need software or installation?",
+            "a": "No, it works directly in your browser."
+        },
+        {
+            "q": "Can I use it on mobile?",
+            "a": "Yes, fully mobile-friendly."
+        },
+        {
+            "q": "What inputs are required?",
+            "a": "Distance, time, initial velocity, acceleration."
+        },
+        {
+            "q": "Which formulas are used?",
+            "a": "Average velocity: v = distance ÷ time; Accelerated motion: v = u + a × t"
+        },
+        {
+            "q": "Can it handle different units?",
+            "a": "Yes, metric and imperial units are supported."
+        },
+        {
+            "q": "Is it suitable for students?",
+            "a": "Yes, perfect for learning physics and kinematics."
+        },
+        {
+            "q": "Can engineers or hobbyists use it?",
+            "a": "Yes, ideal for experiments and simple motion analysis."
+        },
+        {
+            "q": "Is the calculator accurate?",
+            "a": "Yes, it provides precise results assuming consistent units."
+        }
+    ]
+}

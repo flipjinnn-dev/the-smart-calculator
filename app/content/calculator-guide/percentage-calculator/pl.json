@@ -1,0 +1,146 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Z łatwością zrozumiesz wartości procentowe dzięki naszemu kalkulatorowi procentów",
+      "content": "Nasz kalkulator procentowy pomoże Ci natychmiast rozwiązać wszelkiego rodzaju problemy procentowe. Niezależnie od tego, czy chcesz znaleźć procent, obliczyć zwiększenie lub zmniejszenie, czy też przekonwertować wartości, dzięki temu narzędziu obliczenia procentowe będą proste i dokładne."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora procentowego",
+      "content": "Korzystanie z kalkulatora jest szybkie i proste. Po prostu wpisz swoje wartości i uzyskaj natychmiastowe wyniki bez ręcznej matematyki.",
+      "subSections": [
+        {
+          "heading": "Kroki użycia:",
+          "content": "Wprowadź wartość początkową (numer oryginalny). Wpisz procent, który chcesz obliczyć. Kliknij Oblicz, aby uzyskać wynik. W przypadku obliczeń odwrotnych (np. „X to procent Y”) wybierz odpowiedni tryb. Aby uzyskać zmianę procentową, wprowadź Stara wartość → Nowa wartość → Oblicz."
+        }
+      ]
+    },
+    {
+      "heading": "Obsługiwane przez nas tryby kalkulatora",
+      "content": "Narzędzie oferuje wiele trybów ułatwiających rozwiązywanie różnych typów problemów procentowych.",
+      "subSections": [
+        {
+          "heading": "Znajdź procent",
+          "content": "Oblicz, jaki procent reprezentuje dana liczba."
+        },
+        {
+          "heading": "Procent liczby",
+          "content": "Znajdź konkretny procent dowolnej liczby."
+        },
+        {
+          "heading": "Procentowy wzrost/spadek",
+          "content": "Oblicz wzrost lub redukcję pomiędzy dwiema wartościami."
+        },
+        {
+          "heading": "Odwrócony procent",
+          "content": "Znajdź, jaki procent stanowi jedna liczba w stosunku do drugiej."
+        },
+        {
+          "heading": "Konwersja procentowa",
+          "content": "Zamień procenty na ułamki dziesiętne lub ułamki zwykłe i odwrotnie."
+        },
+        {
+          "heading": "Średni procent",
+          "content": "Oblicz średnią z wielu wartości procentowych."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Szybkie i dokładne wyniki",
+          "content": "Uzyskaj natychmiastowe odpowiedzi na wszystkie obliczenia procentowe bez użycia formuł."
+        },
+        {
+          "heading": "Projekt przyjazny dla początkujących",
+          "content": "Łatwy w użyciu dla studentów, profesjonalistów, nauczycieli i codziennych zadań."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych i bezpłatny",
+          "content": "Działa płynnie na wszystkich urządzeniach, bez konieczności rejestracji."
+        },
+        {
+          "heading": "Niezawodne i standardowe formuły",
+          "content": "Zbudowany na standardowych regułach matematycznych zapewniających wiarygodne wyniki."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Naukowcy i studenci",
+          "content": "Oblicz procent ocen, średni procent i wyniki egzaminu."
+        },
+        {
+          "heading": "Biznes i finanse",
+          "content": "Analizuj procent zysków/strat, odsetki i wzrost finansowy."
+        },
+        {
+          "heading": "Rabaty na zakupy",
+          "content": "Natychmiast znajdź obniżone ceny podczas zakupów."
+        },
+        {
+          "heading": "Dane i raporty",
+          "content": "Porównaj wartości, stosując procentowy wzrost lub spadek."
+        },
+        {
+          "heading": "Budżetowanie osobiste",
+          "content": "Śledź wydatki lub oszczędności jako procent dochodu."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Ile wynosi 25% z 200?",
+          "content": "Wzór: 25 ÷ 100 × 200 = 50"
+        },
+        {
+          "heading": "Przykład 2 – 40 to jaki procent z 320?",
+          "content": "Wzór: 40 ÷ 320 × 100 = 12,5%"
+        },
+        {
+          "heading": "Przykład 3 – Procentowy wzrost",
+          "content": "Stara wartość = 500, Nowa wartość = 650 → (650 − 500) ÷ 500 × 100 = wzrost o 30%"
+        },
+        {
+          "heading": "Przykład 4 – Procentowy spadek",
+          "content": "Stara wartość = 800, Nowa wartość = 600 → (800 − 600) ÷ 800 × 100 = spadek o 25%"
+        },
+        {
+          "heading": "Przykład 5 – Średni procent",
+          "content": "70%, 80%, 90% → (70 + 80 + 90) ÷ 3 = 80%"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator procentowy?",
+      "a": "Jest to narzędzie internetowe, które pomaga szybko i dokładnie wykonywać wszelkiego rodzaju obliczenia procentowe."
+    },
+    {
+      "q": "Czy za pomocą tego narzędzia mogę obliczyć procentowy wzrost?",
+      "a": "Tak, kalkulator obsługuje tryb zwiększania procentowego w celu uzyskania szybkich wyników."
+    },
+    {
+      "q": "Czy obsługuje procentowe zmniejszenie?",
+      "a": "Tak, możesz łatwo obliczyć procentowe zmniejszenie."
+    },
+    {
+      "q": "Jak ręcznie obliczyć procent?",
+      "a": "Skorzystaj ze wzoru: Procent = (Część ÷ Całość) × 100."
+    },
+    {
+      "q": "Czy mogę zamienić procenty na liczby lub liczby na procenty?",
+      "a": "Tak, narzędzie obsługuje konwersję procentową w obie strony."
+    },
+    {
+      "q": "Czy korzystanie z niego jest bezpłatne?",
+      "a": "Tak, kalkulator procentowy jest w 100% darmowy i działa na wszystkich urządzeniach."
+    }
+  ]
+}

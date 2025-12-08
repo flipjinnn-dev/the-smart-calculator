@@ -1,0 +1,151 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Kalkulator zachowania pędu: co to jest i jak z niego korzystać",
+      "content": "Kalkulator zachowania pędu to bezpłatne narzędzie internetowe z fizyki, które pomaga obliczyć prędkości końcowe lub nieznane wartości pędu podczas zderzeń. Korzystając z prawa zachowania pędu, zapewnia szybkie i dokładne wyniki bez konieczności ręcznego wykonywania skomplikowanych obliczeń."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Otwórz kalkulator",
+          "content": "Uzyskaj do niego dostęp bezpośrednio w przeglądarce."
+        },
+        {
+          "heading": "Wprowadź Msze",
+          "content": "Wprowadź masy zderzających się obiektów (m₁ i m₂)."
+        },
+        {
+          "heading": "Wprowadź prędkości początkowe",
+          "content": "Dodaj prędkości przed zderzeniem (u₁ i u₂)."
+        },
+        {
+          "heading": "Wybierz Typ kolizji",
+          "content": "Wybierz elastyczny, nieelastyczny lub ogólny, jeśli jest dostępny."
+        },
+        {
+          "heading": "Wprowadź znaną prędkość końcową",
+          "content": "Pozostaw nieznaną zmienną pustą; kalkulator to rozwiąże."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast zobacz prędkości końcowe lub nieznany pęd."
+        },
+        {
+          "heading": "Sprawdź jednostki",
+          "content": "Upewnij się, że wszystkie jednostki pasują do systemu, którego używasz."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe wyniki",
+          "content": "Uzyskaj natychmiastowe obliczenia, bez ręcznych formuł."
+        },
+        {
+          "heading": "Wiele wyjść",
+          "content": "Oblicz prędkości końcowe, pęd całkowity lub nieznane zmienne."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na telefonach, tabletach i komputerach stacjonarnych."
+        },
+        {
+          "heading": "Bezpłatny i łatwy w użyciu",
+          "content": "Nie wymaga pobierania ani rejestracji."
+        },
+        {
+          "heading": "Edukacyjny",
+          "content": "Pomaga w jasnym zrozumieniu koncepcji pędu i kolizji."
+        },
+        {
+          "heading": "Obsługuje jednostki metryczne i imperialne",
+          "content": "Elastyczny dla użytkowników na całym świecie."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Uczniowie i nauczyciele",
+          "content": "Rozwiązuj zadania domowe, weryfikuj problemy w klasie lub demonstruj koncepcje."
+        },
+        {
+          "heading": "Entuzjaści Fizyki",
+          "content": "Eksperymentuj z różnymi kombinacjami masy i prędkości."
+        },
+        {
+          "heading": "Hobbyści i projektanci gier",
+          "content": "Symuluj realistyczne kolizje w animacjach lub grach."
+        },
+        {
+          "heading": "Analiza scenariuszy",
+          "content": "Porównaj wiele konfiguracji, aby zobaczyć, jak zachowana jest dynamika."
+        },
+        {
+          "heading": "Pokazy edukacyjne",
+          "content": "Zilustruj wyraźnie prawo zachowania pędu."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Zderzenie sprężyste",
+          "content": "Masa m₁: 2 kg | Prędkość u₁: 5 m/s | Masa m₂: 3 kg | Prędkość u₂: -2 m/s | Prędkości końcowe: v₁ = -1 m/s, v₂ = 4 m/s"
+        },
+        {
+          "heading": "Przykład 2 – Zderzenie niesprężyste",
+          "content": "Masa m₁: 4 kg | Prędkość u₁: 3 m/s | Masa m₂: 2 kg | Prędkość u₂: 1 m/s | Końcowa prędkość łączona: 2,33 m/s"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator zachowania pędu?",
+      "a": "Oblicza prędkości końcowe lub nieznane wartości pędu w zderzeniach, korzystając z prawa zachowania pędu."
+    },
+    {
+      "q": "Czy ten kalkulator jest darmowy?",
+      "a": "Tak, korzystanie z niego online jest całkowicie bezpłatne."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania lub instalacji?",
+      "a": "Nie, działa bezpośrednio w przeglądarce."
+    },
+    {
+      "q": "Czy mogę z niego korzystać na urządzeniach mobilnych?",
+      "a": "Tak, jest w pełni przyjazny dla urządzeń mobilnych."
+    },
+    {
+      "q": "Jakie dane wejściowe są wymagane?",
+      "a": "Masy, prędkości początkowe, rodzaj zderzenia i opcjonalnie jedna prędkość końcowa."
+    },
+    {
+      "q": "Jakie zasady fizyki są stosowane?",
+      "a": "Opiera się na prawie zachowania pędu dla układów izolowanych."
+    },
+    {
+      "q": "Czy jest odpowiedni dla studentów?",
+      "a": "Tak, idealnie nadaje się do nauki, odrabiania zadań domowych i egzaminów."
+    },
+    {
+      "q": "Czy radzi sobie z różnymi typami kolizji?",
+      "a": "Tak, obsługiwane są kolizje elastyczne, nieelastyczne i ogólne."
+    },
+    {
+      "q": "Czy może obsługiwać różne jednostki?",
+      "a": "Tak, obsługiwane są zarówno jednostki metryczne, jak i imperialne."
+    },
+    {
+      "q": "Jak dokładne jest to rozwiązanie?",
+      "a": "Zapewnia przybliżone wyniki dla idealnych sytuacji; kolizje w świecie rzeczywistym mogą się różnić ze względu na utratę energii, tarcie lub siły zewnętrzne."
+    }
+  ]
+}

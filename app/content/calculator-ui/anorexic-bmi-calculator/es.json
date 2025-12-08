@@ -1,0 +1,131 @@
+{
+  "pageTitle": "Calculadora de IMC anoréxica",
+  "pageDescription": "Calcule el IMC y evalúe la gravedad de la anorexia nerviosa utilizando umbrales de clasificación médica. Herramienta educativa para comprender los rangos del IMC y las implicaciones para la salud.",
+  "form": {
+    "labels": {
+      "age": "Edad (años)",
+      "gender": "Género",
+      "height": "Altura",
+      "weight": "Peso",
+      "unitSystem": "Sistema de unidades"
+    },
+    "placeholders": {
+      "age": "Introduce la edad",
+      "heightFt": "Pies",
+      "heightIn": "Pulgadas",
+      "heightCm": "Introduzca la altura en cm",
+      "weight": "Introduzca el peso en {unidad}"
+    },
+    "buttons": {
+      "calculate": "Calcular el IMC",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades estadounidenses (pies/pulgadas, libras)",
+      "metric": "Unidades métricas (cm, kg)"
+    }
+  },
+  "results": {
+    "bmiValue": "IMC kg/m²",
+    "classification": "Clasificación",
+    "healthyRange": "Gama saludable",
+    "bmiResultsTitle": "Resultados del IMC",
+    "bmiFormula": {
+      "label": "Fórmula de IMC",
+      "us": "IMC = (peso en libras / (altura en pulgadas)²) × 703",
+      "metric": "IMC = peso en kg / (altura en metros)²"
+    },
+    "healthyBmiRange": "Rango de IMC saludable: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "classifications": "Clasificaciones de IMC",
+    "criticalWarnings": "Advertencias críticas",
+    "importantNotes": "Notas importantes",
+    "healthyRange": "Rango de IMC saludable",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Busque ayuda profesional",
+    "bmiClassifications": {
+      "normal": {
+        "title": "Normal",
+        "description": "IMC ≥ 18,5 - No sugiere anorexia"
+      },
+      "mildAnorexia": {
+        "title": "Anorexia leve",
+        "description": "IMC 17,0 - 17,49"
+      },
+      "moderateAnorexia": {
+        "title": "Anorexia moderada",
+        "description": "IMC 16,0 - 16,99"
+      },
+      "severeAnorexia": {
+        "title": "Anorexia severa",
+        "description": "IMC 15,0 - 15,99"
+      },
+      "extremeAnorexia": {
+        "title": "anorexia extrema",
+        "description": "IMC < 15,0"
+      }
+    },
+    "criticalWarningsList": {
+      "organFailure": "IMC < 13,5: riesgo de insuficiencia orgánica",
+      "lifeThreatening": "IMC < 12: condición potencialmente mortal"
+    },
+    "importantNotesList": [
+      "El IMC por sí solo no es suficiente para diagnosticar la anorexia nerviosa",
+      "El IMC por sí solo no es suficiente para diagnosticar la anorexia nerviosa",
+      "La edad, la masa muscular y la densidad ósea afectan la interpretación del IMC",
+      "Para niños ≤20 años, utilice las tablas de crecimiento de los CDC."
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "se considera el rango de IMC saludable para adultos.",
+      "association": "Este rango se asocia con el menor riesgo de problemas de salud y mortalidad."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Ingrese sus medidas para calcular el IMC y evaluar la gravedad de la anorexia",
+    "doesNotSuggestAnorexia": "No sugiere anorexia nerviosa.",
+    "suggestsAnorexia": "Su IMC sugiere una posible anorexia (Severidad: {severidad}). Nota: el IMC por sí solo no es un diagnóstico.",
+    "lifeThreateningCondition": "Condición que pone en peligro la vida: busque atención médica inmediata.",
+    "riskOfOrganFailure": "Peligro: Riesgo de insuficiencia orgánica.",
+    "ageWarning": "Para niños y adolescentes (≤20 años), utilice las tablas de crecimiento de los CDC para una interpretación adecuada del IMC.",
+    "assessmentResult": "Resultado de la evaluación:",
+    "bmiAnalysis": "Análisis del IMC y evaluación de la anorexia"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora tiene únicamente fines informativos. El IMC es un indicador y no un diagnóstico. Consulte a un profesional de la salud para una evaluación y tratamiento adecuados de los trastornos alimentarios."
+  },
+  "seekHelp": {
+    "title": "Busque ayuda profesional",
+    "content": "Si usted o alguien que conoce sufre de trastornos alimentarios, consulte a un profesional de la salud. La intervención temprana y el tratamiento adecuado son cruciales para la recuperación."
+  },
+  "errors": {
+    "age": "Por favor ingresa una edad válida (1-120)",
+    "gender": "Por favor seleccione género",
+    "heightFt": "Por favor introduce pies válidos",
+    "heightIn": "Por favor ingrese pulgadas válidas (0-11)",
+    "heightCm": "Por favor introduzca una altura válida en cm.",
+    "weight": "Por favor introduce un peso válido"
+  },
+  "tooltips": {
+    "age": "La edad afecta la interpretación del IMC para niños/adolescentes",
+    "height": "Tu medida de altura actual",
+    "weight": "Tu peso corporal actual"
+  },
+  "loading_0": "Cargando...",
+  "error_loading_content_1": "Error al cargar contenido:",
+  "male_2": "Masculino",
+  "female_3": "Femenino",
+  "calculate_4": "Calcular",
+  "k_185_25_5": "18,5 - 25",
+  "enter_your_measurements_then_click_6": "Ingrese sus medidas, luego haga clic",
+  "calculate_7": "Calcular",
+  "to_see_bmi_8": "para ver el IMC.",
+  "bmi_value_9": "Valor del IMC",
+  "kgm_10": "kilogramos/m²",
+  "classification_11": "Clasificación",
+  "healthy_bmi_range_12": "Rango de IMC saludable",
+  "k_185_25_13": "18,5 - 25",
+  "kgm_14": "kilogramos/m²"
+}

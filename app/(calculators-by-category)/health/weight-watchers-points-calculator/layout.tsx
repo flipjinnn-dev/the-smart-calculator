@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for weight-watchers-points-calculator
 const weightwatcherspointscalculatorMeta = {
@@ -66,5 +67,80 @@ export default async function WeightWatchersPointsCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://www.thesmartcalculator.com/health/weight-watchers-points-calculator",
+    "name": "Weight Watchers SmartPoints Calculator (2015–2021 Formula)",
+    "description": "Free online Weight Watchers SmartPoints Calculator. Enter calories, saturated fat, sugar, and protein to calculate SmartPoints (2015–2021 formula).",
+    "mainEntity": {
+      "@type": "SoftwareApplication",
+      "name": "Weight Watchers Points Calculator",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Any",
+      "url": "https://www.thesmartcalculator.com/health/weight-watchers-points-calculator",
+      "description": "Calculate SmartPoints using the official 2015–2021 Weight Watchers formula. Helps track calories, saturated fat, sugar, and protein for healthy weight management.",
+      "featureList": [
+        "Weight Watchers SmartPoints formula",
+        "Calculates points from calories, saturated fat, sugar, protein",
+        "Rounds to nearest whole number",
+        "Minimum points = 0",
+        "Works with 2015–2021 WW SmartPoints system"
+      ],
+      "applicationSubCategory": "Diet & Nutrition Calculator",
+      "creator": {
+        "@type": "Organization",
+        "name": "Smart Calculator",
+        "url": "https://www.thesmartcalculator.com"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.thesmartcalculator.com/health/weight-watchers-points-calculator"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Smart Calculator",
+      "url": "https://www.thesmartcalculator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thesmartcalculator.com/logo.png"
+      }
+    },
+    "faq": [
+      {
+        "@type": "Question",
+        "name": "How do I calculate Weight Watchers SmartPoints?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Enter calories, saturated fat, sugar, and protein. The calculator applies the 2015–2021 SmartPoints formula: (0.0305 × Calories) + (0.275 × Saturated Fat) + (0.12 × Sugar) − (0.098 × Protein), rounded to the nearest whole number."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this Weight Watchers Points Calculator up to date?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This calculator is based on the 2015–2021 Weight Watchers SmartPoints system. Newer Weight Watchers programs (after 2021) may use different rules and algorithms."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the minimum Weight Watchers points a food can have?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The minimum possible SmartPoints value is 0. Even if the formula gives a negative number, the result will be floored to zero."
+        }
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="weight-watchers-points-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

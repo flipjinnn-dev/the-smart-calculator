@@ -1,0 +1,155 @@
+{
+  "color": "púrpura",
+  "sections": [
+    {
+      "heading": "Calculadora FIP: qué es y cómo funciona",
+      "content": "La calculadora FIP evalúa el lanzamiento independiente de campo (FIP) de un lanzador, una métrica que se centra solo en los resultados que controla el lanzador: jonrones permitidos (HR), bases por bolas (BB), hit por lanzamiento (HBP), ponches (K) y entradas lanzadas (IP). Fórmula: FIP = ((13 × HR) + (3 × (BB + HBP)) − (2 × K)) ÷ IP + C. C es una constante de liga para escalar FIP similar a la efectividad promedio de la liga."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Ingrese jonrones permitidos (HR)",
+          "content": "Total de jonrones permitidos."
+        },
+        {
+          "heading": "Ingresar caminatas (BB)",
+          "content": "Paseos totales emitidos."
+        },
+        {
+          "heading": "Ingrese el golpe por lanzamiento (HBP)",
+          "content": "Número de bateadores golpeados."
+        },
+        {
+          "heading": "Introduzca ponches (K)",
+          "content": "Total de ponches registrados."
+        },
+        {
+          "heading": "Ingrese las entradas lanzadas (IP)",
+          "content": "Total de entradas lanzadas."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Obtén el FIP del lanzador al instante."
+        },
+        {
+          "heading": "Consejo",
+          "content": "Las entradas precisas garantizan resultados precisos e independientes de la defensa."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Métrica independiente de la defensa",
+          "content": "Mide sólo lo que controla el lanzador."
+        },
+        {
+          "heading": "Cálculo instantáneo",
+          "content": "Calcula FIP inmediatamente."
+        },
+        {
+          "heading": "Preciso y confiable",
+          "content": "Utiliza la fórmula FIP estándar."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en todos los dispositivos."
+        },
+        {
+          "heading": "Ideal para jugadores, entrenadores y analistas",
+          "content": "Compare a los lanzadores de manera justa entre equipos y temporadas."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Lanzadores y entrenadores",
+          "content": "Realice un seguimiento del rendimiento sin influencia de la defensa."
+        },
+        {
+          "heading": "Jugadores de béisbol de fantasía",
+          "content": "Evaluar el desempeño sustentable del lanzador."
+        },
+        {
+          "heading": "Analistas y exploradores",
+          "content": "Compara lanzadores entre ligas o temporadas."
+        },
+        {
+          "heading": "Seguimiento temporada tras temporada",
+          "content": "Identificar tendencias en métricas de habilidades."
+        },
+        {
+          "heading": "Desarrollo de jugadores",
+          "content": "Resalte áreas de mejora: control, ponches, prevención de jonrones."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1",
+          "content": "HR: 20, BB: 50, HBP: 5, K: 200, IP: 180 → FIP ≈ 3,35"
+        },
+        {
+          "heading": "Ejemplo 2",
+          "content": "HR: 10, BB: 30, HBP: 2, K: 150, IP: 120 → FIP ≈ 2,95"
+        },
+        {
+          "heading": "Ejemplo 3",
+          "content": "HR: 15, BB: 40, HBP: 3, K: 180, IP: 160 → FIP ≈ 3,20"
+        },
+        {
+          "heading": "Ejemplo 4",
+          "content": "HR: 25, BB: 60, HBP: 4, K: 210, IP: 200 → FIP ≈ 3,50"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora FIP?",
+      "a": "Calcula el FIP de un lanzador usando HR, BB, HBP, K e IP."
+    },
+    {
+      "q": "¿Cómo se calcula el FIP?",
+      "a": "FIP = ((13 × HR) + (3 × (BB + HBP)) − (2 × K)) ÷ IP + C"
+    },
+    {
+      "q": "¿La FIP tiene en cuenta la defensa del equipo?",
+      "a": "No, ignora las bolas en juego y se centra únicamente en los resultados controlados por el lanzador."
+    },
+    {
+      "q": "¿Es precisa la calculadora?",
+      "a": "Sí, según las estadísticas ingresadas."
+    },
+    {
+      "q": "¿Se puede usar para MLB, ligas menores o béisbol de fantasía?",
+      "a": "Sí, funciona para todos los niveles."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, compatible con todos los dispositivos."
+    },
+    {
+      "q": "¿Es de uso gratuito?",
+      "a": "Sí, completamente gratis en línea."
+    },
+    {
+      "q": "¿Quién debería utilizar esta calculadora?",
+      "a": "Jugadores, entrenadores, analistas, cazatalentos y entusiastas del béisbol de fantasía."
+    },
+    {
+      "q": "¿Por qué utilizar una calculadora FIP?",
+      "a": "Aísla la habilidad del lanzador de la defensa del equipo para una evaluación justa."
+    },
+    {
+      "q": "¿Puede realizar un seguimiento de varios juegos o temporadas?",
+      "a": "Sí, al ingresar estadísticas acumuladas, el FIP se puede calcular para cualquier período."
+    }
+  ]
+}

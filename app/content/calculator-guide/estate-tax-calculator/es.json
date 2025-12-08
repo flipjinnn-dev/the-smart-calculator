@@ -1,0 +1,110 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "¿Qué es el impuesto federal sobre el patrimonio?",
+      "content": "El impuesto al patrimonio es un impuesto federal sobre la transferencia de activos en caso de muerte. A diferencia del impuesto a la herencia, que lo pagan los beneficiarios en ciertos estados, el impuesto federal al patrimonio lo paga el propio patrimonio antes de la distribución."
+    },
+    {
+      "heading": "Exención del impuesto federal sobre bienes inmuebles de 2025",
+      "content": "En 2025, la exención del impuesto al patrimonio será de 13,99 millones de dólares por persona. Las cantidades superiores a esta exención están sujetas a impuestos, con una tasa máxima del 40%. Los patrimonios se informan al IRS mediante el Formulario 706 (Declaración de impuestos sobre transferencias de patrimonio y de salto generacional de los Estados Unidos)."
+    },
+    {
+      "heading": "Cómo se calcula el impuesto al patrimonio",
+      "subSections": [
+        {
+          "heading": "Patrimonio bruto",
+          "content": "Valor total de los activos (bienes raíces, valores, ingresos de seguros de vida, intereses comerciales, cuentas de jubilación)."
+        },
+        {
+          "heading": "Deducciones permitidas",
+          "content": "Gastos funerarios, deudas, contribuciones caritativas y deducciones matrimoniales (las transferencias a un cónyuge generalmente están exentas)."
+        },
+        {
+          "heading": "Patrimonio sujeto a impuestos",
+          "content": "Patrimonio bruto menos deducciones."
+        },
+        {
+          "heading": "Exención del impuesto al patrimonio",
+          "content": "Reste la exención ($13,99 millones en 2025) para determinar el monto imponible."
+        },
+        {
+          "heading": "Aplicar tramos de impuestos sobre el patrimonio del IRS",
+          "content": "Se aplica una tasa de hasta el 40% para calcular el impuesto al patrimonio final adeudado."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo utilizar esta calculadora de impuestos sobre el patrimonio",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Ingrese el valor total de su patrimonio."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Agregue deducciones (deudas, donaciones caritativas, costos funerarios)."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Incluya transferencias matrimoniales o exención conyugal si corresponde."
+        },
+        {
+          "heading": "Paso 4",
+          "content": "Ingrese las donaciones de por vida para ver cómo reducen la exención."
+        },
+        {
+          "heading": "Paso 5",
+          "content": "Vea el impuesto al patrimonio estimado adeudado, según los umbrales del IRS para 2025."
+        }
+      ]
+    },
+    {
+      "heading": "Impuesto sobre el patrimonio frente a impuesto sobre sucesiones frente a ganancias de capital",
+      "subSections": [
+        {
+          "heading": "Impuesto sobre el patrimonio (federal)",
+          "content": "Pagado por el patrimonio antes de que los herederos reciban los activos."
+        },
+        {
+          "heading": "Impuesto sobre sucesiones (específico del estado)",
+          "content": "Pagado por herederos; se aplica solo en unos pocos estados (por ejemplo, PA, NJ, NE)."
+        },
+        {
+          "heading": "Impuesto sobre las ganancias de capital",
+          "content": "Se paga cuando los bienes heredados se venden posteriormente; basado en una base incrementada al momento de la muerte."
+        }
+      ]
+    },
+    {
+      "heading": "Descargo de responsabilidad y próximos pasos",
+      "content": "Esta calculadora de impuestos federales sobre el patrimonio 2025 tiene fines educativos únicamente. Los resultados son estimaciones y pueden variar según las reglas estatales, los ajustes de inflación y las actualizaciones del IRS. Consulte siempre a un profesional de impuestos calificado o a un abogado de planificación patrimonial para obtener orientación personalizada."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es la exención del impuesto al patrimonio en 2025?",
+      "a": "La exención es de $13,99 millones por persona ($27,98M para parejas casadas con portabilidad)."
+    },
+    {
+      "q": "¿Cómo afectan las donaciones vitalicias al impuesto sobre el patrimonio?",
+      "a": "Las donaciones que superen la exclusión anual ($18,000 en 2025) reducen su exención de por vida y aumentan su patrimonio sujeto a impuestos."
+    },
+    {
+      "q": "¿Los ingresos del seguro de vida cuentan para el patrimonio?",
+      "a": "Sí, si el fallecido era propietario de la póliza. Los ingresos pueden aumentar el patrimonio bruto."
+    },
+    {
+      "q": "¿Cuánto impuesto sobre el patrimonio debería adeudar sobre un patrimonio de 15 millones de dólares?",
+      "a": "Aproximadamente $400.000 después de aplicar la exención de $13,99 millones, suponiendo que no haya deducciones."
+    },
+    {
+      "q": "¿Las contribuciones caritativas reducen el impuesto al patrimonio?",
+      "a": "Sí. Las deducciones caritativas reducen directamente el patrimonio imponible, lo que reduce la responsabilidad general."
+    },
+    {
+      "q": "¿Necesito presentar el formulario 706 del IRS?",
+      "a": "Los patrimonios que superen el monto de la exención deben presentar el Formulario 706 dentro de los nueve meses posteriores al fallecimiento (extensiones disponibles)."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Verstehen Sie Prozentsätze ganz einfach mit unserem Prozentrechner",
+      "content": "Unser Prozentrechner hilft Ihnen, alle Arten von Prozentproblemen sofort zu lösen. Ganz gleich, ob Sie einen Prozentsatz ermitteln, eine Erhöhung oder Verringerung berechnen oder Werte umrechnen müssen, dieses Tool macht Prozentberechnungen einfach und genau."
+    },
+    {
+      "heading": "So verwenden Sie den Prozentrechner",
+      "content": "Die Verwendung des Rechners ist schnell und unkompliziert. Geben Sie einfach Ihre Werte ein und erhalten Sie sofortige Ergebnisse ohne manuelle Berechnung.",
+      "subSections": [
+        {
+          "heading": "Schritte zur Verwendung:",
+          "content": "Geben Sie den Anfangswert (ursprüngliche Zahl) ein. Geben Sie den Prozentsatz ein, den Sie berechnen möchten. Klicken Sie auf Berechnen, um das Ergebnis zu erhalten. Für umgekehrte Berechnungen (z. B. „X ist wie viel Prozent von Y“) wählen Sie den entsprechenden Modus. Geben Sie für die prozentuale Änderung Alter Wert → Neuer Wert → Berechnen ein."
+        }
+      ]
+    },
+    {
+      "heading": "Von uns unterstützte Rechnermodi",
+      "content": "Das Tool bietet mehrere Modi, mit denen Sie verschiedene Arten von Prozentproblemen einfach lösen können.",
+      "subSections": [
+        {
+          "heading": "Finden Sie den Prozentsatz",
+          "content": "Berechnen Sie, wie viel Prozent eine Zahl darstellt."
+        },
+        {
+          "heading": "Prozentsatz einer Zahl",
+          "content": "Finden Sie einen bestimmten Prozentsatz einer beliebigen Zahl."
+        },
+        {
+          "heading": "Prozentuale Erhöhung/Verringerung",
+          "content": "Berechnen Sie das Wachstum oder die Verringerung zwischen zwei Werten."
+        },
+        {
+          "heading": "Prozentsatz umkehren",
+          "content": "Finden Sie heraus, wie viel Prozent eine Zahl von einer anderen ist."
+        },
+        {
+          "heading": "Prozentuale Umrechnung",
+          "content": "Wandeln Sie Prozentsätze in Dezimalzahlen oder Brüche um und umgekehrt."
+        },
+        {
+          "heading": "Durchschnittlicher Prozentsatz",
+          "content": "Berechnen Sie den Durchschnitt mehrerer Prozentwerte."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Schnelle und genaue Ergebnisse",
+          "content": "Erhalten Sie sofortige Antworten für alle Prozentberechnungen, ohne Formeln verwenden zu müssen."
+        },
+        {
+          "heading": "Einsteigerfreundliches Design",
+          "content": "Einfach zu verwenden für Studenten, Berufstätige, Lehrer und alltägliche Aufgaben."
+        },
+        {
+          "heading": "Mobilfreundlich und kostenlos",
+          "content": "Funktioniert reibungslos auf allen Geräten, ohne dass eine Anmeldung erforderlich ist."
+        },
+        {
+          "heading": "Zuverlässige und Standardformeln",
+          "content": "Basierend auf standardmäßigen mathematischen Regeln für vertrauenswürdige Ergebnisse."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Akademiker und Studenten",
+          "content": "Berechnen Sie den Notenprozentsatz, den Durchschnittsprozentsatz und die Prüfungsergebnisse."
+        },
+        {
+          "heading": "Wirtschaft und Finanzen",
+          "content": "Analysieren Sie Gewinn-/Verlustprozentsatz, Zinsen und Finanzwachstum."
+        },
+        {
+          "heading": "Einkaufsrabatte",
+          "content": "Finden Sie beim Einkaufen sofort reduzierte Preise."
+        },
+        {
+          "heading": "Daten und Berichte",
+          "content": "Vergleichen Sie Werte anhand der prozentualen Erhöhung oder Verringerung."
+        },
+        {
+          "heading": "Persönliche Budgetierung",
+          "content": "Verfolgen Sie Ausgaben oder Ersparnisse als Prozentsatz des Einkommens."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Was sind 25 % von 200?",
+          "content": "Formel: 25 ÷ 100 × 200 = 50"
+        },
+        {
+          "heading": "Beispiel 2 – 40 ist wie viel Prozent von 320?",
+          "content": "Formel: 40 ÷ 320 × 100 = 12,5 %"
+        },
+        {
+          "heading": "Beispiel 3 – Prozentuale Steigerung",
+          "content": "Alter Wert = 500, Neuer Wert = 650 → (650 − 500) ÷ 500 × 100 = 30 % Steigerung"
+        },
+        {
+          "heading": "Beispiel 4 – Prozentualer Rückgang",
+          "content": "Alter Wert = 800, Neuer Wert = 600 → (800 − 600) ÷ 800 × 100 = 25 % Abnahme"
+        },
+        {
+          "heading": "Beispiel 5 – Durchschnittlicher Prozentsatz",
+          "content": "70 %, 80 %, 90 % → (70 + 80 + 90) ÷ 3 = 80 %"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Prozentrechner?",
+      "a": "Es handelt sich um ein Online-Tool, mit dem Sie alle Arten von Prozentberechnungen sofort und genau durchführen können."
+    },
+    {
+      "q": "Kann ich mit diesem Tool die prozentuale Steigerung berechnen?",
+      "a": "Ja, der Rechner unterstützt den Prozenterhöhungsmodus für schnelle Ergebnisse."
+    },
+    {
+      "q": "Unterstützt es eine prozentuale Reduzierung?",
+      "a": "Ja, Sie können die Verringerungsprozentsätze leicht berechnen."
+    },
+    {
+      "q": "Wie berechne ich einen Prozentsatz manuell?",
+      "a": "Verwenden Sie die Formel: Prozentsatz = (Teil ÷ Ganzes) × 100."
+    },
+    {
+      "q": "Kann ich Prozentsätze in Zahlen oder Zahlen in Prozentsätze umrechnen?",
+      "a": "Ja, das Tool unterstützt die prozentuale Umrechnung in beide Richtungen."
+    },
+    {
+      "q": "Ist die Nutzung kostenlos?",
+      "a": "Ja, der Prozentrechner ist 100 % kostenlos und funktioniert auf allen Geräten."
+    }
+  ]
+}

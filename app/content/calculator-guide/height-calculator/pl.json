@@ -1,0 +1,131 @@
+{
+  "color": "cyraneczka",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator wzrostu?",
+      "content": "Kalkulator wzrostu to bezpłatne narzędzie online, które pozwala użytkownikom szybko i dokładnie mierzyć, konwertować lub szacować wzrost. Obsługuje konwersję jednostek między centymetrami, metrami i stopami/calami, a w niektórych przypadkach zapewnia prognozy wzrostu osoby dorosłej na podstawie wieku i wzrostu rodziców."
+    },
+    {
+      "heading": "Jak działa kalkulator wzrostu",
+      "subSections": [
+        {
+          "heading": "Wymagane dane wejściowe",
+          "content": "Aktualny wzrost w cm, metrach lub stopach/calach; opcjonalny wiek i wzrost rodziców do przewidywania."
+        },
+        {
+          "heading": "Metoda konwersji",
+          "content": "Narzędzie przelicza wysokość między jednostkami, takimi jak centymetry, metry i stopy/cale, za pomocą precyzyjnych wzorów."
+        },
+        {
+          "heading": "Metoda przewidywania",
+          "content": "Jeśli ta opcja jest włączona, szacuje wzrost osoby dorosłej na podstawie standardowych wzorów na wzrost, wykorzystujących wiek i wzrost rodziców."
+        },
+        {
+          "heading": "Co stanie się dalej",
+          "content": "Po kliknięciu Oblicz natychmiast otrzymasz przeliczony wzrost lub przewidywany wzrost osoby dorosłej."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora wzrostu?",
+      "subSections": [
+        {
+          "heading": "Dokładna konwersja jednostek",
+          "content": "Szybko przeliczaj wysokość w cm, metrach i stopach/calach z niezawodną dokładnością."
+        },
+        {
+          "heading": "Oszacowanie wzrostu osoby dorosłej",
+          "content": "Przewiduj potencjalny wzrost osoby dorosłej, korzystając ze wzorów popartych naukowo."
+        },
+        {
+          "heading": "Szybki i przyjazny dla użytkownika",
+          "content": "Żadnych ręcznych obliczeń — wyniki pojawiają się natychmiast."
+        },
+        {
+          "heading": "Wygoda",
+          "content": "Bezpłatne, przyjazne dla urządzeń mobilnych i dostępne na wszystkich urządzeniach."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia wysokości",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Konwersja jednostek",
+          "content": "Dane wejściowe: 175 cm → Zamień na stopy/cale → Wynik: 5 stóp i 8,9 cala."
+        },
+        {
+          "heading": "Przykład 2 – Przewidywanie wzrostu osoby dorosłej",
+          "content": "Wiek dziecka: 12 lat, ojciec: 180 cm, matka: 165 cm → Przewidywany wzrost osoby dorosłej: 174–178 cm."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Śledzenie zdrowia i kondycji",
+          "content": "Monitoruj aktualny wzrost lub postęp wzrostu."
+        },
+        {
+          "heading": "Monitorowanie rozwoju rodziców",
+          "content": "Oszacuj oczekiwany wzrost dziecka w wieku dorosłym."
+        },
+        {
+          "heading": "Dokumentacja sportowa i szkolna",
+          "content": "Zapisz dokładne pomiary wysokości w celu dokumentacji."
+        },
+        {
+          "heading": "Planowanie rozmiaru odzieży",
+          "content": "Konwertuj jednostki wysokości, aby określić właściwy rozmiar."
+        },
+        {
+          "heading": "Ogólne zastosowanie",
+          "content": "Idealny dla każdego, kto potrzebuje szybkich konwersji lub szacunków wysokości."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator wzrostu?",
+      "a": "Jest to narzędzie internetowe służące do dokładnego pomiaru, przeliczenia lub oszacowania wzrostu."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, korzystanie z kalkulatora wzrostu jest całkowicie bezpłatne."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania?",
+      "a": "Nie, działa bezpośrednio w dowolnej przeglądarce, bez instalacji."
+    },
+    {
+      "q": "Czy może konwertować jednostki?",
+      "a": "Tak, obsługuje centymetry, metry i stopy/cale."
+    },
+    {
+      "q": "Czy pozwala przewidzieć wzrost osoby dorosłej?",
+      "a": "Tak, jeśli jest włączony, do prognoz wykorzystuje wiek i wzrost rodziców."
+    },
+    {
+      "q": "Czy to jest dokładne?",
+      "a": "Konwersje są precyzyjne, a prognozy to szacunki oparte na wzorach wzrostu."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa na smartfonach, tabletach i komputerach stacjonarnych."
+    },
+    {
+      "q": "Kto może z niego skorzystać?",
+      "a": "Uczniowie, rodzice, sportowcy, nauczyciele i wszyscy, którzy potrzebują informacji o wzroście."
+    },
+    {
+      "q": "Czy może pomóc w rekordach szkolnych lub sportowych?",
+      "a": "Tak, podaje dokładne wysokości do celów dokumentacyjnych."
+    },
+    {
+      "q": "Czy mogę polegać na przewidywanym wzroście?",
+      "a": "Prognozy mają charakter szacunkowy — rzeczywisty wzrost osoby dorosłej może się różnić ze względu na uwarunkowania genetyczne i stan zdrowia."
+    }
+  ]
+}

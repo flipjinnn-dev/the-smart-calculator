@@ -1,0 +1,129 @@
+{
+  "pageTitle": "Generador de números aleatorios",
+  "pageDescription": "Genere números aleatorios dentro de un rango específico con opciones personalizables para diversas aplicaciones",
+  "form": {
+    "labels": {
+      "minValue": "Valor mínimo",
+      "maxValue": "Valor máximo",
+      "count": "¿Cuántos números?",
+      "allowDuplicates": "¿Permitir duplicados?",
+      "numberType": "Tipo de número",
+      "decimalPlaces": "Lugares decimales"
+    },
+    "placeholders": {
+      "minValue": "Introduzca el valor mínimo",
+      "maxValue": "Introduzca el valor máximo",
+      "count": "¿Cuántos números generar?",
+      "decimalPlaces": "Introduzca el número de decimales"
+    },
+    "buttons": {
+      "generate": "Generar números aleatorios",
+      "reset": "Reiniciar",
+      "calculate": "Calcular generador de números aleatorios"
+    },
+    "numberTypes": {
+      "integer": "Entero",
+      "decimal": "Decimal"
+    },
+    "yesNo": {
+      "yes": "Sí",
+      "no": "No"
+    }
+  },
+  "results": {
+    "generatedNumbers": "Números generados",
+    "range": "Rango",
+    "count": "Contar",
+    "randomResultsTitle": "Resultados de números aleatorios",
+    "statistics": "Estadística"
+  },
+  "educational": {
+    "randomInfo": "Información de números aleatorios",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos adicionales",
+    "randomApplications": {
+      "lottery": {
+        "title": "Lotería y Juegos",
+        "description": "Generar números aleatorios para billetes de lotería y juegos de azar."
+      },
+      "sampling": {
+        "title": "Muestreo estadístico",
+        "description": "Selección de muestras aleatorias para investigaciones y encuestas."
+      },
+      "passwords": {
+        "title": "Generación de contraseña",
+        "description": "Crear números aleatorios para componentes de contraseña seguros"
+      },
+      "simulation": {
+        "title": "Simulación por computadora",
+        "description": "Generar entradas aleatorias para modelos y simulaciones por computadora."
+      }
+    },
+    "criticalWarningsList": {
+      "notTrulyRandom": "Estos son números pseudoaleatorios generados por algoritmos informáticos",
+      "security": "No lo utilice para aplicaciones criptográficas o sensibles a la seguridad."
+    },
+    "importantNotesList": [
+      "Para fines criptográficos, utilice herramientas de seguridad especializadas.",
+      "La calidad de la aleatoriedad depende del algoritmo utilizado.",
+      "La calidad de la aleatoriedad depende del algoritmo utilizado.",
+      "Considere sus necesidades específicas al elegir rangos de números y conteos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese sus parámetros para generar números aleatorios",
+    "generatedMessage": "Sus números aleatorios se han generado a continuación",
+    "assessmentResult": "Resultado de Generación:",
+    "randomAnalysis": "Análisis de números aleatorios"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Este generador produce números pseudoaleatorios utilizando algoritmos informáticos. Estos números son adecuados para aplicaciones generales, pero no deben usarse con fines criptográficos o sensibles a la seguridad donde se requiere una verdadera aleatoriedad."
+  },
+  "seekHelp": {
+    "title": "Recursos adicionales",
+    "content": "Para aplicaciones que requieren números aleatorios verdaderos o seguridad criptográfica, considere utilizar generadores de números aleatorios de hardware especializados o consultar con profesionales de seguridad."
+  },
+  "errors": {
+    "minValue": "Por favor introduce un valor mínimo válido",
+    "maxValue": "Por favor ingrese un valor máximo válido",
+    "count": "Por favor ingrese un recuento válido (1-1000)",
+    "decimalPlaces": "Introduzca un número válido de decimales (0-10)",
+    "range": "El valor máximo debe ser mayor que el valor mínimo."
+  },
+  "tooltips": {
+    "minValue": "El número más bajo que se puede generar.",
+    "maxValue": "El número más alto que se puede generar.",
+    "count": "¿Cuántos números aleatorios generar?",
+    "allowDuplicates": "Si el mismo número puede aparecer varias veces",
+    "decimalPlaces": "Número de decimales para números decimales"
+  },
+  "smart_calculator_0": "Calculadora inteligente",
+  "random_number_generator_1": "Generador de números aleatorios",
+  "random_number_generator_2": "Generador de números aleatorios",
+  "generate_random_numbers_in_a_custom_range_with_or__3": "Genere números aleatorios en un rango personalizado, con o sin repeticiones, al instante.",
+  "random_number_generator_4": "Generador de números aleatorios",
+  "set_your_range_and_options_5": "Establece tu rango y opciones",
+  "minimum_value_6": "Valor mínimo",
+  "maximum_value_7": "Valor máximo",
+  "how_many_numbers_8": "¿Cuántos números?",
+  "allow_repeats_9": "Permitir repeticiones",
+  "generate_10": "Generar",
+  "result_11": "Resultado",
+  "set_your_range_and_click_12": "Establece tu rango y haz clic",
+  "generate_13": "Generar",
+  "to_see_random_numbers_14": "para ver números aleatorios.",
+  "how_to_use_this_generator_15": "¿Cómo utilizar este generador?",
+  "k_1_16": "1",
+  "enter_the_minimum_and_maximum_values_for_your_rang_17": "Ingrese los valores mínimo y máximo para su rango.",
+  "k_2_18": "2",
+  "enter_how_many_random_numbers_you_want_to_generate_19": "Ingrese cuántos números aleatorios desea generar.",
+  "k_3_20": "3",
+  "choose_whether_to_allow_repeats_or_not_21": "Elija si desea permitir repeticiones o no.",
+  "k_4_22": "4",
+  "click_23": "Hacer clic",
+  "generate_24": "Generar",
+  "to_see_your_random_numbers_instantly_25": "para ver tus números aleatorios al instante."
+}

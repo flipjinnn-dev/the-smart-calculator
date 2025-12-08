@@ -1,0 +1,139 @@
+{
+  "color": "laranja",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de galões por pé quadrado?",
+      "content": "Uma calculadora de galões por pé quadrado ajuda a determinar quanto líquido é necessário por pé quadrado, dada uma profundidade específica. É útil para piscinas, tanques, revestimentos, paisagismo, irrigação e projetos de construção."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Insira o comprimento e a largura",
+          "content": "Dimensões da área base."
+        },
+        {
+          "heading": "Insira profundidade/altura",
+          "content": "Profundidade do líquido em pés, polegadas ou jardas."
+        },
+        {
+          "heading": "Opcional: insira o preço por galão",
+          "content": "Para cálculo de custos."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Obtenha galões por pé quadrado e total de galões instantaneamente."
+        },
+        {
+          "heading": "Dica",
+          "content": "Certifique-se de que as unidades sejam consistentes para obter resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Cálculo Instantâneo",
+          "content": "Galões por pé quadrado e total de galões."
+        },
+        {
+          "heading": "Várias unidades",
+          "content": "Pés, polegadas ou jardas suportadas."
+        },
+        {
+          "heading": "Estimativa de custos",
+          "content": "Calcula o custo total se o preço por galão for inserido."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona em todos os dispositivos."
+        },
+        {
+          "heading": "Aplicações versáteis",
+          "content": "Água, tinta, revestimentos e muito mais."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Planejamento de piscinas e spas",
+          "content": "Estimar o volume de água."
+        },
+        {
+          "heading": "Enchimento do tanque",
+          "content": "Calcule a capacidade do contêiner de armazenamento."
+        },
+        {
+          "heading": "Irrigação e Paisagismo",
+          "content": "Planeje as necessidades de água."
+        },
+        {
+          "heading": "Construção e Revestimentos",
+          "content": "Estimar líquidos para superfícies."
+        },
+        {
+          "heading": "Educação",
+          "content": "Entenda as relações de área, profundidade e volume."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Volume Básico",
+          "content": "Base: 10 pés × 5 pés | Profundidade: 1 pé | Volume: 10 × 5 × 1 × 7,48052 ≈ 374 galões | Galões por pé quadrado: 374 ÷ (10 × 5) ≈ 7,48 gal/pé²"
+        },
+        {
+          "heading": "Exemplo 2 – Custo",
+          "content": "Volume: 500 galões | Preço por galão: $ 3 | Custo total: 500 × 3 = US$ 1.500"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de galões por pé quadrado?",
+      "a": "Ele calcula os galões necessários por pé quadrado para uma determinada profundidade."
+    },
+    {
+      "q": "Por que usá-lo?",
+      "a": "Economiza tempo e garante um planejamento preciso do volume de líquido."
+    },
+    {
+      "q": "Unidades suportadas?",
+      "a": "Pés, polegadas e jardas."
+    },
+    {
+      "q": "Funciona para piscinas e tanques?",
+      "a": "Sim, ideal para qualquer área que contenha líquidos."
+    },
+    {
+      "q": "Ele calcula o total de galões?",
+      "a": "Sim, o volume total é exibido instantaneamente."
+    },
+    {
+      "q": "Útil para paisagismo/irrigação?",
+      "a": "Sim, ajuda a planejar as necessidades de água para jardins e lagos."
+    },
+    {
+      "q": "Posso calcular o custo?",
+      "a": "Sim, insira o preço por galão para obter o custo total."
+    },
+    {
+      "q": "Isso leva em conta a profundidade irregular?",
+      "a": "Não, pressupõe profundidade plana e uniforme."
+    },
+    {
+      "q": "Compatível com dispositivos móveis?",
+      "a": "Sim, funciona em smartphones, tablets e desktops."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, totalmente gratuito, sem necessidade de download."
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "pageTitle": "Calculadora de Ahorros",
+  "pageDescription": "Calcule el crecimiento de sus ahorros a lo largo del tiempo con contribuciones regulares e interés compuesto para objetivos financieros y planificación de fondos de emergencia.",
+  "form": {
+    "labels": {
+      "initialAmount": "Monto de ahorro inicial",
+      "monthlyContribution": "Contribución Mensual",
+      "annualInterestRate": "Tasa de interés anual",
+      "savingsPeriod": "Periodo de ahorro",
+      "compoundFrequency": "Frecuencia compuesta",
+      "inflationRate": "Tasa de inflación esperada"
+    },
+    "placeholders": {
+      "initialAmount": "Ingrese el monto de ahorro inicial",
+      "monthlyContribution": "Ingrese la contribución mensual",
+      "annualInterestRate": "Introduzca la tasa de interés anual (%)",
+      "savingsPeriod": "Introduzca el período de ahorro en años",
+      "inflationRate": "Ingrese la tasa de inflación esperada (%)"
+    },
+    "buttons": {
+      "calculate": "Calcular el crecimiento del ahorro",
+      "reset": "Reiniciar"
+    },
+    "compoundFrequencies": {
+      "monthly": "Mensual",
+      "quarterly": "Trimestral",
+      "annually": "Anualmente",
+      "daily": "A diario"
+    }
+  },
+  "results": {
+    "futureValue": "Valor futuro",
+    "totalContributions": "Contribuciones totales",
+    "totalInterest": "Interés total ganado",
+    "inflationAdjusted": "Valor ajustado a la inflación",
+    "savingsResultsTitle": "Resultados del cálculo de ahorros"
+  },
+  "educational": {
+    "savingsInfo": "Información de ahorro",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "savingsFacts": {
+      "emergencyFund": {
+        "title": "Fondo de Emergencia",
+        "description": "Los expertos financieros recomiendan ahorrar entre 3 y 6 meses de gastos para emergencias"
+      },
+      "compoundInterest": {
+        "title": "Poder del interés compuesto",
+        "description": "Las contribuciones periódicas combinadas con el interés compuesto aceleran el crecimiento del ahorro"
+      },
+      "goalsBased": {
+        "title": "Ahorros basados ​​en objetivos",
+        "description": "Los objetivos de ahorro específicos ayudan a mantener la motivación y realizar un seguimiento del progreso."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones de crecimiento del ahorro.",
+      "actual": "El crecimiento real de los ahorros puede variar según las tarifas de la cuenta y las tasas de interés cambiantes."
+    },
+    "importantNotesList": [
+      "Las tasas de interés más altas impactan significativamente el crecimiento del ahorro a largo plazo",
+      "Considere cuentas de ahorro de alto rendimiento para obtener mejores tasas de interés",
+      "Considere cuentas de ahorro de alto rendimiento para obtener mejores tasas de interés",
+      "Automatice los ahorros para garantizar contribuciones consistentes"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese su información de ahorros para calcular el crecimiento a lo largo del tiempo",
+    "resultMessage": "Los resultados del cálculo de sus ahorros se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de ahorros:",
+    "savingsAnalysis": "Análisis de ahorro"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de crecimiento del ahorro basadas en proyecciones matemáticas. El crecimiento real de los ahorros puede variar según las tarifas de la cuenta, los cambios en las tasas de interés y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para estrategias de ahorro personalizadas y planificación financiera, consulte a asesores financieros o profesionales bancarios con experiencia en productos de ahorro y circunstancias financieras individuales."
+  },
+  "errors": {
+    "initialAmount": "Por favor ingrese un monto de ahorro inicial válido",
+    "monthlyContribution": "Por favor ingrese una contribución mensual válida",
+    "annualInterestRate": "Por favor ingrese una tasa de interés anual válida",
+    "savingsPeriod": "Por favor ingresa un período de ahorro válido",
+    "inflationRate": "Por favor ingrese una tasa de inflación esperada válida",
+    "compoundFrequency": "Por favor seleccione una frecuencia compuesta"
+  },
+  "tooltips": {
+    "initialAmount": "Cantidad ya ahorrada",
+    "monthlyContribution": "Monto regular que planea ahorrar cada mes",
+    "annualInterestRate": "Tasa de interés anual promedio esperada sobre los ahorros",
+    "savingsPeriod": "Cantidad de tiempo que planea ahorrar",
+    "compoundFrequency": "¿Con qué frecuencia se compone el interés?",
+    "inflationRate": "Tasa de inflación anual promedio esperada"
+  },
+  "savings_calculator_0": "Calculadora de Ahorros",
+  "initial_investment_1": "Inversión inicial",
+  "initial_deposit_starting_balance_2": "Depósito inicial / Saldo inicial",
+  "regular_contributions_3": "Contribuciones regulares",
+  "annual_contribution_4": "Contribución anual",
+  "annual_increase_rate_5": "Tasa de aumento anual (%)",
+  "monthly_contribution_6": "Contribución Mensual",
+  "monthly_increase_rate_7": "Tasa de aumento mensual (%)",
+  "investment_parameters_8": "Parámetros de inversión",
+  "annual_interest_rate_9": "Tasa de interés anual (%)",
+  "number_of_years_10": "Número de años",
+  "compounding_frequency_11": "Frecuencia de capitalización",
+  "annually_12": "Anualmente",
+  "semiannually_13": "Semestralmente",
+  "quarterly_14": "Trimestral",
+  "monthly_15": "Mensual",
+  "biweekly_16": "Quincenal",
+  "weekly_17": "Semanalmente",
+  "daily_18": "A diario",
+  "tax_rate_on_interest_19": "Tasa impositiva sobre intereses (%)",
+  "inflation_rate_20": "Tasa de inflación (%)",
+  "calculate_growth_21": "Calcular el crecimiento",
+  "savings_results_22": "Resultados de ahorro",
+  "your_savings_growth_projection_23": "Su proyección de crecimiento de ahorros",
+  "final_balance_24": "Saldo final:",
+  "compounding_25": "capitalización",
+  "for_26": "para",
+  "years_27": "años",
+  "total_contributions_28": "Contribuciones totales",
+  "interest_earned_29": "Intereses ganados",
+  "aftertax_balance_30": "Saldo después de impuestos",
+  "real_value_inflationadjusted_31": "Valor real (ajustado por inflación)",
+  "yearly_breakdown_32": "Desglose anual",
+  "year_33": "Año",
+  "contributions_34": "Contribuciones",
+  "interest_35": "Interés",
+  "balance_36": "Balance",
+  "enter_your_savings_information_to_see_your_growth__37": "Ingresa tu información de ahorros para ver tu proyección de crecimiento",
+  "formulas_calculation_details_38": "Fórmulas y detalles de cálculo",
+  "k_1_periodic_interest_rate_39": "1. Tasa de interés periódica",
+  "rperiod_annualrate_1_taxrate_compoundingfrequency_40": "r_period = (tasa_anual × (1 - tasa_impositiva)) / frecuencia_compuesta",
+  "k_2_annual_contributions_with_growth_41": "2. Contribuciones Anuales (con crecimiento)",
+  "annualk_annualbase_1_annualincreaseratek1_42": "Anual_k = Base_anual × (1 + tasa_de_incremento_anual)^(k-1)",
+  "k_3_monthly_contributions_with_growth_43": "3. Aportes Mensuales (con crecimiento)",
+  "monthlyk_monthlybase_1_monthlyincreaseratek1_44": "Mensual_k = Base_mensual × (1 + tasa_de_incremento_mensual)^(k-1)",
+  "k_4_final_balance_45": "4. Saldo final",
+  "balance_initial_1_rperiodperiods_accumulatedcontri_46": "Saldo = Inicial × (1 + r_periodo)^(periodos) + Aportaciones_acumuladas",
+  "k_5_real_value_inflationadjusted_47": "5. Valor real (ajustado por inflación)",
+  "realvalue_finalbalance_1_inflationrateyears_48": "Valor_real = Saldo_final / (1 + tasa_inflación)^años"
+}

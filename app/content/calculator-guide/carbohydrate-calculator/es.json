@@ -1,0 +1,122 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de carbohidratos: encuentre sus necesidades diarias de carbohidratos",
+      "content": "Nuestra Calculadora de carbohidratos lo ayuda a determinar rápidamente su ingesta diaria recomendada de carbohidratos según su edad, peso, altura, sexo, nivel de actividad y objetivos de condición física. Ya sea que su objetivo sea perder peso, ganar músculo, rendimiento deportivo o tener una salud equilibrada, esta calculadora diaria de carbohidratos en línea utiliza métodos científicamente validados (como la fórmula BMR de Mifflin-St Jeor) para estimar sus necesidades energéticas y calcular cuántos carbohidratos debe comer por día."
+    },
+    {
+      "heading": "Cómo funciona la calculadora de carbohidratos",
+      "subSections": [
+        {
+          "heading": "Tasa metabólica basal (TMB)",
+          "content": "Calculado utilizando la ecuación de Mifflin-St Jeor."
+        },
+        {
+          "heading": "Nivel de actividad",
+          "content": "Sedentario, poco activo, moderadamente activo, muy activo o deportista."
+        },
+        {
+          "heading": "Metas de acondicionamiento físico",
+          "content": "Pérdida de peso, mantenimiento o ganancia muscular."
+        },
+        {
+          "heading": "Distribución de carbohidratos",
+          "content": "Normalmente, entre el 45% y el 65% de las calorías diarias deben provenir de carbohidratos."
+        },
+        {
+          "heading": "Gramos por peso corporal",
+          "content": "3-12 g/kg de peso corporal dependiendo de la actividad física y las exigencias del entrenamiento."
+        }
+      ]
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de carbohidratos?",
+      "subSections": [
+        {
+          "heading": "Pérdida de peso",
+          "content": "Ayuda a reducir el exceso de carbohidratos y controlar el azúcar en sangre."
+        },
+        {
+          "heading": "Ganancia muscular",
+          "content": "Asegura reservas suficientes de glucógeno para la fuerza y ​​la hipertrofia."
+        },
+        {
+          "heading": "Rendimiento atlético",
+          "content": "Los atletas de resistencia necesitan una mayor ingesta de carbohidratos (6-10 g/kg)."
+        },
+        {
+          "heading": "Diabetes y gestión de la salud",
+          "content": "Proporciona rangos seguros para mantener la glucosa estable."
+        },
+        {
+          "heading": "Nutrición equilibrada",
+          "content": "Garantiza proporciones adecuadas de macronutrientes junto con proteínas y grasas."
+        }
+      ]
+    },
+    {
+      "heading": "Pautas recomendadas de ingesta de carbohidratos",
+      "content": "Adultos sedentarios: ~3–4 g/kg de peso corporal (45–50 % de las calorías)\nIndividuos moderadamente activos: ~5–7 g/kg de peso corporal (50–55% de las calorías)\nAtletas de resistencia/alto volumen de entrenamiento: ~6–10 g/kg de peso corporal (55–65 % de las calorías)\nAtletas de élite/entrenamiento extremo: ~8–12 g/kg de peso corporal\nPlanes de pérdida de peso: 2 a 4 g/kg de peso corporal (bajo en carbohidratos, alto en proteínas)\nGanancia muscular: 4-7 g/kg de peso corporal para maximizar el glucógeno y la recuperación"
+    },
+    {
+      "heading": "Herramientas relacionadas para una nutrición equilibrada",
+      "subSections": [
+        {
+          "heading": "Calculadora de ingesta de proteínas",
+          "content": "Calcule los requerimientos diarios de proteínas para la recuperación y el crecimiento muscular."
+        },
+        {
+          "heading": "Calculadora de ingesta de grasas",
+          "content": "Determine las necesidades diarias óptimas de grasa para la salud energética y hormonal."
+        },
+        {
+          "heading": "Calculadora de peso saludable",
+          "content": "Verifique su rango de peso saludable ideal utilizando las pautas de IMC."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de carbohidratos?",
+      "a": "Una calculadora de carbohidratos es una herramienta que estima sus necesidades diarias de carbohidratos según el peso, el nivel de actividad y los objetivos."
+    },
+    {
+      "q": "¿Cuántos carbohidratos debo comer al día?",
+      "a": "La mayoría de los adultos necesitan entre el 45% y el 65% de las calorías provenientes de los carbohidratos, o entre 3 y 7 g/kg de peso corporal, según la actividad."
+    },
+    {
+      "q": "¿Esta calculadora es buena para bajar de peso?",
+      "a": "Sí. Puede recomendar una gama baja en carbohidratos para ayudar a reducir las calorías mientras se mantiene la energía."
+    },
+    {
+      "q": "¿Cuántos carbohidratos necesitan los atletas diariamente?",
+      "a": "Los atletas de resistencia pueden necesitar de 6 a 10 g/kg de peso corporal, mientras que los atletas de élite pueden necesitar hasta 12 g/kg."
+    },
+    {
+      "q": "¿Pueden los diabéticos utilizar esta calculadora de carbohidratos?",
+      "a": "Sí, pero los resultados deben consultarse con un médico o dietista para un control seguro del azúcar en sangre."
+    },
+    {
+      "q": "¿La calculadora utiliza la fórmula de Mifflin-St Jeor?",
+      "a": "Sí. Primero calcula la TMB utilizando Mifflin-St Jeor y luego aplica las proporciones de actividad y carbohidratos."
+    },
+    {
+      "q": "¿Cuál es la ingesta de carbohidratos por kg de peso corporal?",
+      "a": "Las necesidades de carbohidratos suelen ser de 3 a 12 g/kg por día, ajustadas a la intensidad y los objetivos del entrenamiento."
+    },
+    {
+      "q": "¿Puede esta herramienta calcular los carbohidratos para dietas cetogénicas o bajas en carbohidratos?",
+      "a": "Sí. Puede seleccionar un porcentaje de carbohidratos más bajo (5 a 20 % de las calorías) para planes cetogénicos o bajos en carbohidratos."
+    },
+    {
+      "q": "¿En qué se diferencia esta calculadora de una calculadora de calorías general?",
+      "a": "Es específico de macronutrientes y se centra únicamente en las necesidades de carbohidratos, a diferencia de las calculadoras generales de calorías."
+    },
+    {
+      "q": "¿Qué otras calculadoras debería usar con esto?",
+      "a": "Para obtener un plan de nutrición completo, utilice nuestra Calculadora de proteínas, Calculadora de grasas y Calculadora de peso saludable."
+    }
+  ]
+}

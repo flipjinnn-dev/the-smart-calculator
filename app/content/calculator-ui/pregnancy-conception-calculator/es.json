@@ -1,0 +1,93 @@
+{
+  "pageTitle": "Calculadora de concepción del embarazo",
+  "pageDescription": "Calcula la concepción del embarazo con nuestra calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Introduzca el primer valor",
+      "input2": "Introduzca el segundo valor",
+      "input3": "Introduzca el tercer valor"
+    },
+    "buttons": {
+      "calculate": "Calcular la concepción del embarazo",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados del cálculo de la concepción del embarazo"
+  },
+  "educational": {
+    "info": "Información sobre la concepción del embarazo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definición de concepción del embarazo",
+        "description": "Información sobre la concepción del embarazo."
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Cómo se calcula la concepción del embarazo"
+      },
+      "applications": {
+        "title": "Aplicaciones",
+        "description": "Usos de la concepción del embarazo."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones de concepción del embarazo.",
+      "actual": "Los valores reales pueden variar según las circunstancias individuales."
+    },
+    "importantNotesList": [
+      "Los resultados pueden variar según factores individuales.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Utilice unidades consistentes para obtener resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información requerida para calcular la concepción del embarazo.",
+    "resultMessage": "Los resultados del cálculo de la concepción de su embarazo se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de la concepción del embarazo:",
+    "analysis": "Análisis de la concepción del embarazo"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de concepción de embarazo basadas en métodos estándar. Los valores reales pueden variar según circunstancias individuales y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para obtener asesoramiento personalizado e información detallada, consulte con profesionales que puedan brindarle orientación según las necesidades y circunstancias individuales."
+  },
+  "errors": {
+    "input1": "Por favor ingresa un primer valor válido",
+    "input2": "Por favor ingresa un segundo valor válido",
+    "input3": "Por favor ingresa un tercer valor válido"
+  },
+  "tooltips": {
+    "input1": "Primer parámetro de entrada",
+    "input2": "Segundo parámetro de entrada",
+    "input3": "Tercer parámetro de entrada"
+  },
+  "pregnancy_conception_calculator_0": "Calculadora de concepción del embarazo",
+  "modify_the_values_and_click_the_calculate_button_t_1": "Modifique los valores y haga clic en el botón calcular para usar",
+  "calculate_on_2": "Calcular en",
+  "your_date_3": "Tu cita",
+  "calculate_4": "Calcular",
+  "conception_info_5": "Información de concepción",
+  "your_conception_and_pregnancy_milestones_6": "Tus hitos de la concepción y el embarazo",
+  "conception_date_7": "Fecha de concepción:",
+  "due_date_8": "Fecha de vencimiento:",
+  "last_period_date_9": "Fecha del último período:",
+  "weeks_since_conception_10": "Semanas desde la concepción:",
+  "days_since_conception_11": "Días desde la concepción:",
+  "enter_your_date_and_click_calculate_see_your_conce_12": "Ingrese su fecha y haga clic en Calcular para ver los hitos de su concepción."
+}

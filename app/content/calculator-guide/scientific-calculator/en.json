@@ -1,0 +1,155 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "What is a Scientific Calculator?",
+            "content": "A Scientific Calculator is an advanced calculator used to perform complex math and scientific calculations, such as trigonometry, logarithms, exponentials, roots, powers, and percentages. Online scientific calculators are free, browser-based, and mobile-friendly, making them ideal for students, professionals, and everyday users."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Open the Calculator",
+                    "content": "Launch the calculator in your browser."
+                },
+                {
+                    "heading": "Enter Numbers or Formulas",
+                    "content": "Input the values or mathematical expressions you want to calculate."
+                },
+                {
+                    "heading": "Select Functions",
+                    "content": "Use sin, cos, tan, log, ln, √, x², e^x, etc."
+                },
+                {
+                    "heading": "Use Parentheses",
+                    "content": "For complex calculations, use parentheses to control order of operations."
+                },
+                {
+                    "heading": "Click =",
+                    "content": "Get the result instantly."
+                },
+                {
+                    "heading": "Memory Functions",
+                    "content": "Store and recall values as needed."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Check degrees/radians mode for trigonometric calculations."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Advanced Functions",
+                    "content": "Trigonometry, logs, exponents, powers, roots, percentages."
+                },
+                {
+                    "heading": "Instant Results",
+                    "content": "Calculates in milliseconds."
+                },
+                {
+                    "heading": "Memory Storage",
+                    "content": "Store and recall values for multi-step calculations."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on desktops, tablets, and smartphones."
+                },
+                {
+                    "heading": "Free and Accessible",
+                    "content": "No downloads or registration required."
+                },
+                {
+                    "heading": "User-Friendly Interface",
+                    "content": "Clean and easy to navigate."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Students & Teachers",
+                    "content": "Solve homework, practice problems, and classroom exercises."
+                },
+                {
+                    "heading": "Engineers & Scientists",
+                    "content": "Perform complex scientific calculations."
+                },
+                {
+                    "heading": "Coding & Algorithm Testing",
+                    "content": "Quick math computations for software development."
+                },
+                {
+                    "heading": "Finance & Business",
+                    "content": "Percentages, roots, and basic financial calculations."
+                },
+                {
+                    "heading": "Everyday Use",
+                    "content": "Unit conversions, area/volume calculations, and daily math problems."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Trigonometry",
+                    "content": "Expression: sin(45°) + cos(30°) → Output: 1.366"
+                },
+                {
+                    "heading": "Example 2 – Exponent & Log",
+                    "content": "Expression: log(1000) + e² → Output: 9.389"
+                },
+                {
+                    "heading": "Example 3 – Combined Operations",
+                    "content": "Expression: √(16) + 3² × 2 → Output: 22"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a scientific calculator?",
+            "a": "It’s a calculator for advanced math, including trig, logs, exponents, roots, and powers."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, fully free online."
+        },
+        {
+            "q": "Does it work on mobile?",
+            "a": "Yes, fully mobile-friendly."
+        },
+        {
+            "q": "Do I need to install software?",
+            "a": "No, it runs in your browser."
+        },
+        {
+            "q": "Can it handle complex calculations?",
+            "a": "Yes, including parentheses and order of operations."
+        },
+        {
+            "q": "Can I store numbers?",
+            "a": "Yes, memory functions are available."
+        },
+        {
+            "q": "Is it suitable for students?",
+            "a": "Yes, perfect for homework and exams."
+        },
+        {
+            "q": "Is it suitable for engineers/scientists?",
+            "a": "Yes, supports advanced scientific calculations."
+        },
+        {
+            "q": "Does it provide history?",
+            "a": "Most versions show a history of calculations."
+        },
+        {
+            "q": "Is it accurate?",
+            "a": "Yes, provides precise results for all supported functions."
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de regras de Simpson?",
+      "content": "A Calculadora de Regra de Simpson é uma ferramenta online que simplifica a integração numérica, permitindo aproximar integrais definidas com precisão e eficiência."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "content": "Usar a Calculadora de Regra de Simpson é simples e requer etapas mínimas.",
+      "subSections": [
+        {
+          "heading": "Insira a função",
+          "content": "Insira a função que deseja integrar (por exemplo, f(x) = x^2 + 3x)."
+        },
+        {
+          "heading": "Defina os limites da integração",
+          "content": "Forneça os limites inferior e superior da integral definida."
+        },
+        {
+          "heading": "Escolha o número de intervalos (n)",
+          "content": "Para a Regra de Simpson, n deve ser um número par."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "A calculadora exibe o valor aproximado da integral instantaneamente."
+        },
+        {
+          "heading": "Dica",
+          "content": "Sempre use um número par de intervalos para obter resultados precisos com a Regra de Simpson."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Cálculos precisos",
+          "content": "Usa a regra 1/3 de Simpson para integração numérica precisa."
+        },
+        {
+          "heading": "Interface amigável",
+          "content": "Fácil de usar sem fórmulas complexas; ideal para iniciantes."
+        },
+        {
+          "heading": "Solução passo a passo",
+          "content": "Mostra cálculos intermediários para melhor compreensão."
+        },
+        {
+          "heading": "Suporte a múltiplas funções",
+          "content": "Funciona com funções polinomiais, trigonométricas, exponenciais e logarítmicas."
+        },
+        {
+          "heading": "Economia de tempo",
+          "content": "Resultados instantâneos eliminam a computação manual."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Finalidades Acadêmicas",
+          "content": "Para estudantes que resolvem integrais definidas em cálculo."
+        },
+        {
+          "heading": "Aplicações de Engenharia",
+          "content": "Cálculo de áreas, volumes e outras medidas baseadas em integrais."
+        },
+        {
+          "heading": "Pesquisa Científica",
+          "content": "Aproximação de integrais em física, química e estatística."
+        },
+        {
+          "heading": "Financiar",
+          "content": "Estimativa de integrais para modelos de crescimento contínuo ou decaimento."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1",
+          "content": "Integre f(x) = x^2 de 0 a 4 usando intervalos n = 4.\nEtapas: Função de entrada x ^ 2 → Definir limites de 0 a 4 → Escolha n = 4 → Clique em Calcular → Resultado: 21,3333 (valor aproximado usando a Regra de Simpson)."
+        },
+        {
+          "heading": "Exemplo 2",
+          "content": "Integre f(x) = sin(x) de 0 a π usando n = 6 intervalos.\nResultado: 2,0000 (valor aproximado pela Regra de Simpson)."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual é a regra de Simpson?",
+      "a": "A Regra de Simpson é um método numérico para aproximar integrais definidas."
+    },
+    {
+      "q": "Quão precisa é a regra de Simpson?",
+      "a": "É altamente preciso para funções suaves e melhora à medida que o número de intervalos aumenta."
+    },
+    {
+      "q": "Posso usar a calculadora para qualquer função?",
+      "a": "Sim, funciona com funções polinomiais, trigonométricas, exponenciais e logarítmicas."
+    },
+    {
+      "q": "Por que o número de intervalos deve ser par?",
+      "a": "A Regra de Simpson requer pares de intervalos para aplicar a fórmula corretamente."
+    },
+    {
+      "q": "A calculadora é gratuita?",
+      "a": "Sim, o uso da Calculadora de Regras de Simpson é totalmente gratuito."
+    },
+    {
+      "q": "Mostra soluções passo a passo?",
+      "a": "Sim, a calculadora pode mostrar etapas intermediárias para melhor compreensão."
+    },
+    {
+      "q": "Posso usá-lo para intervalos grandes?",
+      "a": "Sim, mas aumentar os intervalos melhora a precisão."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, funciona em dispositivos móveis e desktop."
+    },
+    {
+      "q": "Ele pode substituir o cálculo manual?",
+      "a": "Sim, economiza tempo e reduz erros em cálculos manuais."
+    },
+    {
+      "q": "Onde a regra de Simpson é aplicada?",
+      "a": "É aplicado em matemática, física, engenharia, finanças e pesquisa científica."
+    }
+  ]
+}

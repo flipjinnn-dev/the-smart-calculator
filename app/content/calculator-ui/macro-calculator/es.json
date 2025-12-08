@@ -1,0 +1,224 @@
+{
+  "pageTitle": "Calculadora de macros",
+  "pageDescription": "Calcule los requisitos de macronutrientes (proteínas, carbohidratos, grasas) para sus objetivos, incluida la pérdida de peso, el mantenimiento o el aumento de masa muscular.",
+  "form": {
+    "labels": {
+      "age": "Edad (años)",
+      "gender": "Género",
+      "height": "Altura",
+      "weight": "Peso",
+      "unitSystem": "Sistema de unidades",
+      "activityLevel": "Nivel de actividad",
+      "goal": "Meta",
+      "macroPreference": "Preferencia de macros"
+    },
+    "placeholders": {
+      "age": "Introduce la edad",
+      "heightFt": "Pies",
+      "heightIn": "Pulgadas",
+      "heightCm": "Introduzca la altura en cm",
+      "weight": "Introduzca el peso en {unidad}"
+    },
+    "buttons": {
+      "calculate": "Calcular macros",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades estadounidenses (pies/pulgadas, libras)",
+      "metric": "Unidades métricas (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentario (poco o ningún ejercicio)",
+      "light": "Ligeramente activo (ejercicio ligero 1-3 días/semana)",
+      "moderate": "Moderadamente activo (ejercicio moderado 3-5 días/semana)",
+      "active": "Muy activo (ejercicio intenso 6-7 días/semana)",
+      "veryActive": "Extremadamente activo (ejercicio muy duro y trabajo físico)"
+    },
+    "goals": {
+      "lose": "Pérdida de peso",
+      "maintain": "Mantenimiento de peso",
+      "gain": "Ganancia muscular"
+    },
+    "macroPreferences": {
+      "balanced": "Macros equilibradas",
+      "highProtein": "Alta proteína",
+      "lowCarb": "Bajo en carbohidratos",
+      "custom": "Proporción personalizada"
+    }
+  },
+  "results": {
+    "calories": "Calorías Diarias",
+    "protein": "Proteína",
+    "carbs": "carbohidratos",
+    "fat": "Gordo",
+    "macroResultsTitle": "Resultados macro",
+    "macroBreakdown": "Desglose de macros",
+    "calorieAdjustment": "Ajuste de calorías"
+  },
+  "educational": {
+    "macroInfo": "Información de macronutrientes",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Consulta a un profesional",
+    "macroFunctions": {
+      "protein": {
+        "title": "Proteína",
+        "description": "Esencial para el desarrollo y reparación de músculos, la saciedad y la producción de hormonas."
+      },
+      "carbs": {
+        "title": "carbohidratos",
+        "description": "Fuente de energía primaria para el cerebro y los músculos, especialmente durante el ejercicio."
+      },
+      "fat": {
+        "title": "Gordo",
+        "description": "Esencial para la producción de hormonas, la absorción de vitaminas y la energía a largo plazo."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones y no es una herramienta de diagnóstico.",
+      "individualVariation": "Las necesidades macro varían según factores y objetivos individuales"
+    },
+    "importantNotesList": [
+      "Estos cálculos se basan en fórmulas generales y pueden necesitar ajustes.",
+      "Consulte a un dietista registrado para obtener asesoramiento nutricional personalizado.",
+      "Consulte a un dietista registrado para obtener asesoramiento nutricional personalizado.",
+      "La coherencia con la dieta es más importante que el conteo macro perfecto"
+    ]
+  },
+  "messages": {
+    "enterMeasurements": "Introduce tus datos para calcular tus necesidades de macronutrientes",
+    "macroResult": "Sus objetivos diarios de macronutrientes se muestran a continuación",
+    "goalAdjustment": "Según tu objetivo {goal}",
+    "assessmentResult": "Resultado de la evaluación:",
+    "macroAnalysis": "Análisis Macro"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones basadas en fórmulas matemáticas y no debe utilizarse como sustituto del asesoramiento nutricional profesional. Los resultados individuales pueden variar según factores no tenidos en cuenta en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Consulte a un dietista registrado",
+    "content": "Para obtener asesoramiento nutricional personalizado y planificación de comidas, consulte con un dietista registrado que pueda brindarle orientación basada en su historial médico completo, preferencias dietéticas y circunstancias individuales."
+  },
+  "errors": {
+    "age": "Por favor ingresa una edad válida (1-120)",
+    "gender": "Por favor seleccione género",
+    "heightFt": "Por favor introduce pies válidos",
+    "heightIn": "Por favor ingrese pulgadas válidas (0-11)",
+    "heightCm": "Por favor introduzca una altura válida en cm.",
+    "weight": "Por favor introduce un peso válido",
+    "activity": "Por favor seleccione el nivel de actividad",
+    "goal": "Por favor seleccione un objetivo",
+    "macroPreference": "Por favor seleccione preferencia macro"
+  },
+  "tooltips": {
+    "age": "La edad afecta la tasa metabólica",
+    "height": "Tu medida de altura actual",
+    "weight": "Tu peso corporal actual",
+    "activity": "Su nivel de actividad regular afecta las necesidades calóricas",
+    "goal": "Tu objetivo determina el ajuste de calorías",
+    "macroPreference": "Tu macrodistribución preferida"
+  },
+  "loading_0": "Cargando...",
+  "macro_calculator_1": "Calculadora de macros",
+  "modify_the_values_and_click_the_calculate_button_t_2": "Modifique los valores y haga clic en el botón calcular para usar",
+  "unit_system_3": "Sistema de unidades",
+  "us_units_4": "Unidades estadounidenses",
+  "metric_units_5": "Unidades Métricas",
+  "other_units_6": "Otras unidades",
+  "age_7": "Edad",
+  "ages_18_80_8": "edades 18 - 80",
+  "gender_9": "Género",
+  "male_10": "Masculino",
+  "female_11": "Femenino",
+  "height_12": "Altura",
+  "feet_13": "pies",
+  "inches_14": "pulgadas",
+  "cm_15": "centímetro",
+  "weight_16": "Peso",
+  "activity_17": "Actividad",
+  "your_goal_18": "Tu objetivo",
+  "bmr_estimation_formula_19": "Fórmula de estimación de TMB",
+  "mifflin_st_jeor_20": "Mifflin St Jeor",
+  "katchmcardle_21": "Katch-McArdle",
+  "body_fat_percentage_22": "Porcentaje de grasa corporal",
+  "calculate_23": "Calcular",
+  "macro_results_24": "Resultados macro",
+  "your_daily_macronutrient_breakdown_25": "Su desglose diario de macronutrientes",
+  "balanced_26": "Equilibrado",
+  "low_fat_27": "Bajo en grasa",
+  "low_carb_28": "Bajo en carbohidratos",
+  "high_protein_29": "Alta proteína",
+  "create_your_own_30": "Crea el tuyo propio",
+  "daily_calories_31": "Calorías Diarias",
+  "or_32": "o",
+  "kjday_33": "kJ/día",
+  "macronutrients_34": "Macronutrientes",
+  "protein_35": "Proteína",
+  "g_36": "gramo",
+  "carbohydrates_37": "carbohidratos",
+  "g_38": "gramo",
+  "fat_39": "Gordo",
+  "g_40": "gramo",
+  "macro_ranges_41": "Rangos macro",
+  "protein_range_42": "Gama de proteínas",
+  "g_43": "gramo",
+  "carb_range_44": "Gama de carbohidratos",
+  "g_45": "gramo",
+  "fat_range_46": "Rango de grasa",
+  "g_47": "gramo",
+  "daily_limits_48": "Límites diarios",
+  "sugar_49": "Azúcar",
+  "g_50": "gramo",
+  "saturated_fat_51": "Grasa saturada",
+  "g_52": "gramo",
+  "metabolic_info_53": "Información metabólica",
+  "bmr_54": "TMB",
+  "calories_55": "calorias",
+  "tdee_56": "TDEE",
+  "calories_57": "calorias",
+  "save_this_calculation_58": "Guarde este cálculo",
+  "protein_59": "Proteína (%)",
+  "carbs_60": "Carbohidratos (%)",
+  "fat_61": "Gordo (%)",
+  "daily_calories_62": "Calorías Diarias",
+  "or_63": "o",
+  "kjday_64": "kJ/día",
+  "macronutrients_65": "Macronutrientes",
+  "protein_66": "Proteína",
+  "g_67": "gramo",
+  "carbohydrates_68": "carbohidratos",
+  "g_69": "gramo",
+  "fat_70": "Gordo",
+  "g_71": "gramo",
+  "macro_ranges_72": "Rangos macro",
+  "protein_range_73": "Gama de proteínas",
+  "g_74": "gramo",
+  "carb_range_75": "Gama de carbohidratos",
+  "g_76": "gramo",
+  "fat_range_77": "Rango de grasa",
+  "g_78": "gramo",
+  "daily_limits_79": "Límites diarios",
+  "sugar_80": "Azúcar",
+  "g_81": "gramo",
+  "saturated_fat_82": "Grasa saturada",
+  "g_83": "gramo",
+  "metabolic_info_84": "Información metabólica",
+  "bmr_85": "TMB",
+  "calories_86": "calorias",
+  "tdee_87": "TDEE",
+  "calories_88": "calorias",
+  "save_this_calculation_89": "Guarde este cálculo",
+  "enter_your_details_and_click_calculate_to_see_your_90": "Ingrese sus datos y haga clic en Calcular para ver sus macros",
+  "what_are_macronutrients_macros_91": "¿Qué son los Macronutrientes (Macros)?",
+  "in_the_context_of_health_and_fitness_macronutrient_92": "En el contexto de la salud y el fitness, los macronutrientes suelen definirse como la sustancia química\n                    Compuestos que los humanos consumen en grandes cantidades y que proporcionan energía a granel. En concreto, se refieren\n                    a carbohidratos, proteínas y grasas. Algunas definiciones también incluyen agua, aire, calcio, sodio,\n                    iones de cloruro y algunas otras sustancias, junto con macronutrientes más típicos, ya que son\n                    El cuerpo humano lo necesita en grandes cantidades. En esta calculadora solo calculamos diariamente\n                    necesidades de carbohidratos, proteínas y grasas.",
+  "protein_93": "Proteína",
+  "proteins_are_organic_compounds_comprised_of_amino__94": "Las proteínas son compuestos orgánicos compuestos de aminoácidos y son uno de los tipos de macronutrientes. \n                        Los aminoácidos son esenciales para el bienestar de una persona y hay ciertos aminoácidos que sólo pueden \n                        obtenerse a través de la dieta. Estos aminoácidos normalmente se denominan \"aminoácidos esenciales\". \n                        y son obtenidos por humanos y otros animales mediante el consumo de proteínas.",
+  "carbohydrates_carbs_95": "Carbohidratos (Carbohidratos)",
+  "carbohydrates_often_referred_to_as_simply_carbs_ar_96": "Los carbohidratos, a menudo denominados simplemente \"carbohidratos\", son compuestos que normalmente se clasifican \n                        como azúcar, almidón o fibra. El azúcar es la forma más simple de carbohidrato, mientras que el almidón y la fibra \n                        Son carbohidratos complejos. La glucosa es un monosacárido y es una de las fuentes clave de energía. \n                        para los humanos, así como para otros animales.",
+  "fat_97": "Gordo",
+  "fats_are_molecules_that_are_comprised_primarily_of_98": "Las grasas son moléculas compuestas principalmente de átomos de carbono e hidrógeno. Ejemplos comunes \n                        incluyen colesterol, fosfolípidos y triglicéridos. Aunque las grasas, en el contexto de la nutrición, \n                        Por lo general, se consideran poco saludables, tienen funciones tanto estructurales como metabólicas. \n                        y son una parte necesaria de la dieta humana.",
+  "important_99": "Importante:",
+  "the_results_above_are_a_guideline_for_more_typical_100": "Los resultados anteriores son una guía para situaciones más típicas. Por favor consulte con un médico para\n                      tus necesidades de macronutrientes si eres atleta, entrenas para un propósito específico o en especial\n                      dieta debido a una enfermedad, embarazo u otras condiciones."
+}

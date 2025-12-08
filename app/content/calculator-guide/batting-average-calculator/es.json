@@ -1,0 +1,143 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de promedio de bateo: qué es y cómo funciona",
+      "content": "La Calculadora de promedio de bateo es una herramienta en línea gratuita que ayuda a calcular instantáneamente el promedio de bateo de un jugador utilizando hits y turnos al bate oficiales. El promedio de bateo muestra la frecuencia con la que un jugador consigue un hit cuando está al bate y es una estadística clave del béisbol."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Introducir visitas",
+          "content": "Escribe el número de aciertos que tiene el jugador."
+        },
+        {
+          "heading": "Entrar al bate",
+          "content": "Ingrese turnos al bate oficiales (excluyendo bases por bolas, sacrificios y hits por lanzamiento)."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Obtenga el promedio de bateo de inmediato."
+        },
+        {
+          "heading": "Consejo",
+          "content": "Asegúrese de contar correctamente los turnos al bate oficiales para mayor precisión."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Cálculo instantáneo",
+          "content": "Calcula el promedio de bateo en segundos."
+        },
+        {
+          "heading": "Preciso y confiable",
+          "content": "Utiliza una fórmula estándar: Hits ÷ At-Bats."
+        },
+        {
+          "heading": "Fácil de usar",
+          "content": "No se necesitan cálculos manuales."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en teléfonos inteligentes, tabletas y computadoras de escritorio."
+        },
+        {
+          "heading": "Ideal para análisis y béisbol de fantasía",
+          "content": "Realice un seguimiento del rendimiento fácilmente para jugadores, entrenadores y analistas."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Jugadores y entrenadores",
+          "content": "Evaluar el rendimiento por partido o temporada."
+        },
+        {
+          "heading": "Fanáticos y analistas",
+          "content": "Compara los promedios de los jugadores rápidamente."
+        },
+        {
+          "heading": "Béisbol juvenil y amateur",
+          "content": "Realice un seguimiento de las estadísticas sin cálculos complejos."
+        },
+        {
+          "heading": "Béisbol de fantasía",
+          "content": "Supervise a los jugadores en busca de drafts o puntuaciones."
+        },
+        {
+          "heading": "Exploradores y evaluación de talentos",
+          "content": "Evalúe la consistencia del bateo de manera eficiente."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1",
+          "content": "45 hits ÷ 150 turnos al bate = .300"
+        },
+        {
+          "heading": "Ejemplo 2",
+          "content": "60 hits ÷ 200 turnos al bate = .300"
+        },
+        {
+          "heading": "Ejemplo 3",
+          "content": "25 hits ÷ 100 turnos al bate = .250"
+        },
+        {
+          "heading": "Ejemplo 4",
+          "content": "80 hits ÷ 250 turnos al bate = .320"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de promedio de bateo?",
+      "a": "Calcula el promedio de bateo de un jugador utilizando hits y turnos al bate oficiales."
+    },
+    {
+      "q": "¿Cómo se calcula el promedio de bateo?",
+      "a": "Utilice la fórmula: Hits ÷ Turnos al bate."
+    },
+    {
+      "q": "¿Incluye paseos o sacrificios?",
+      "a": "No, sólo se cuentan los turnos al bate oficiales."
+    },
+    {
+      "q": "¿El resultado es exacto?",
+      "a": "Sí, según los hits y turnos al bate ingresados."
+    },
+    {
+      "q": "¿Puedo usarlo para béisbol de fantasía?",
+      "a": "Sí, ayuda a realizar un seguimiento rápido de las estadísticas de los jugadores."
+    },
+    {
+      "q": "¿Esta calculadora es compatible con dispositivos móviles?",
+      "a": "Sí, funciona en teléfonos inteligentes, tabletas y computadoras de escritorio."
+    },
+    {
+      "q": "¿Es de uso gratuito?",
+      "a": "Sí, totalmente gratis y online."
+    },
+    {
+      "q": "¿Quién debería utilizar esta calculadora?",
+      "a": "Jugadores, entrenadores, aficionados, analistas y entusiastas de la fantasía."
+    },
+    {
+      "q": "¿Por qué utilizar una calculadora de promedio de bateo?",
+      "a": "Ahorra tiempo y garantiza cálculos precisos."
+    },
+    {
+      "q": "¿Puede rastrear a varios jugadores?",
+      "a": "Sí, ingresando estadísticas individualmente para cada jugador."
+    }
+  ]
+}

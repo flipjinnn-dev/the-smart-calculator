@@ -1,0 +1,143 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de pie tablar?",
+      "content": "Una calculadora de pies tablares le ayuda a medir el volumen de madera en pies tablares, una unidad de madera estándar. Es esencial que los carpinteros, los entusiastas del bricolaje y los profesionales de la construcción estimen con precisión la cantidad y el coste de la madera."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Ingrese el número de tableros",
+          "content": "Piezas totalmente idénticas."
+        },
+        {
+          "heading": "Agregar dimensiones",
+          "content": "Espesor (pulgadas), Ancho (pulgadas), Largo (pies o pulgadas)."
+        },
+        {
+          "heading": "Opcional: Precio por Pie Tablar",
+          "content": "Para el cálculo del costo total."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Obtenga pies tablares por pieza, pies tablares totales y costo total al instante."
+        },
+        {
+          "heading": "Consejo",
+          "content": "Mida con precisión para obtener resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Cálculo preciso",
+          "content": "Utiliza fórmulas de madera estándar."
+        },
+        {
+          "heading": "Varias unidades",
+          "content": "Acepta pulgadas o pies."
+        },
+        {
+          "heading": "Estimación de costos",
+          "content": "Calcula el costo total si se proporciona el precio por pie tablar."
+        },
+        {
+          "heading": "Maneja múltiples tableros",
+          "content": "Calcula el volumen total de varias piezas."
+        },
+        {
+          "heading": "Fácil de usar y compatible con dispositivos móviles",
+          "content": "Funciona en todos los dispositivos."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Carpinteros y carpinteros",
+          "content": "Planificar muebles o armarios."
+        },
+        {
+          "heading": "Proyectos de bricolaje",
+          "content": "Evite comprar madera en exceso."
+        },
+        {
+          "heading": "Construcción",
+          "content": "Estimar la madera para la construcción."
+        },
+        {
+          "heading": "Compradores/vendedores de madera",
+          "content": "Compara costos y planifica presupuestos."
+        },
+        {
+          "heading": "Educación",
+          "content": "Aprenda el cálculo del pie tablar."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1",
+          "content": "Tablero: 2″ × 6″ × 8′ | Pies de tabla = (8 × 6 × 2) ÷ 12 = 8 BF"
+        },
+        {
+          "heading": "Ejemplo 2",
+          "content": "5 tablas: 1,5 ″ × 4 ″ × 10 ′ | Por tablero = (10 × 4 × 1,5) ÷ 12 = 5 BF | Total = 5 BF × 5 = 25 BF"
+        },
+        {
+          "heading": "Ejemplo 3 (Costo)",
+          "content": "Precio por BF = $3 | Costo total = 25 × 3 = $75"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es un pie tablar?",
+      "a": "1 pie tablar = 1′ × 1′ × 1″ de madera."
+    },
+    {
+      "q": "¿Por qué utilizar una calculadora de pie tablar?",
+      "a": "Para ahorrar tiempo y reducir errores de cálculo."
+    },
+    {
+      "q": "¿Puedo usar pulgadas o pies?",
+      "a": "Sí, ambos son compatibles."
+    },
+    {
+      "q": "¿Puede manejar varios tableros?",
+      "a": "Sí, calcula el volumen total."
+    },
+    {
+      "q": "¿Puedo calcular el costo?",
+      "a": "Sí, si se proporciona el precio por pie tablar."
+    },
+    {
+      "q": "¿Es adecuado para proyectos de bricolaje?",
+      "a": "Sí, perfecto para profesionales y aficionados."
+    },
+    {
+      "q": "¿Tiene en cuenta el desperdicio?",
+      "a": "No, muestra pies tablares teóricos."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, funciona en todos los dispositivos."
+    },
+    {
+      "q": "¿Qué fórmula se utiliza?",
+      "a": "Pies de tabla = (Espesor × Ancho × Largo) ÷ 12"
+    },
+    {
+      "q": "¿Se utiliza en todo el mundo?",
+      "a": "Principalmente en Estados Unidos y Canadá; convertir unidades para otras regiones."
+    }
+  ]
+}

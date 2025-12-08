@@ -1,0 +1,151 @@
+{
+    "color": "red",
+    "sections": [
+        {
+            "heading": "Car Jump Distance Calculator: What It Is and How to Use It",
+            "content": "A Car Jump Distance Calculator is a handy online tool that estimates how far a car will travel when launched off a ramp. By entering the car’s speed, the ramp angle, and the launch height, the calculator provides the jump distance, time of flight, and maximum height."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Open the Calculator",
+                    "content": "Access it directly in your browser."
+                },
+                {
+                    "heading": "Enter Initial Speed",
+                    "content": "The speed of the car at take-off."
+                },
+                {
+                    "heading": "Enter Ramp Angle",
+                    "content": "The angle of the ramp relative to the horizontal."
+                },
+                {
+                    "heading": "Enter Launch Height",
+                    "content": "The height of the ramp or take-off point."
+                },
+                {
+                    "heading": "Optional Inputs",
+                    "content": "Include landing height if it’s different from the launch point."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Instantly see jump distance, flight time, and maximum height."
+                },
+                {
+                    "heading": "Check Units",
+                    "content": "Ensure all measurements match the units you’re using."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Results",
+                    "content": "Get your calculations immediately."
+                },
+                {
+                    "heading": "Multiple Outputs",
+                    "content": "Shows horizontal distance, flight time, and peak height."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on phones, tablets, and computers."
+                },
+                {
+                    "heading": "Free & Easy to Use",
+                    "content": "No software or registration required."
+                },
+                {
+                    "heading": "Educational",
+                    "content": "Learn how speed, angle, and height influence jumps."
+                },
+                {
+                    "heading": "Supports Metric & Imperial Units",
+                    "content": "Works for users around the world."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Students & Teachers",
+                    "content": "Explore projectile motion and physics concepts."
+                },
+                {
+                    "heading": "Hobbyists & Game Designers",
+                    "content": "Simulate car jumps for games or animations."
+                },
+                {
+                    "heading": "Physics Enthusiasts",
+                    "content": "Test how ramp angles and speed affect jump distance."
+                },
+                {
+                    "heading": "Scenario Planners",
+                    "content": "Compare different parameters to see how jumps change."
+                },
+                {
+                    "heading": "Educational Demonstrations",
+                    "content": "Safely demonstrate theoretical motion scenarios."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Moderate Jump",
+                    "content": "Initial Speed: 20 m/s | Ramp Angle: 30° | Launch Height: 2 m | Jump Distance: 35 m | Time of Flight: 2.05 s"
+                },
+                {
+                    "heading": "Example 2 – Higher Speed Jump",
+                    "content": "Initial Speed: 30 m/s | Ramp Angle: 25° | Launch Height: 1.5 m | Jump Distance: 65 m | Time of Flight: 2.85 s"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a car jump distance calculator?",
+            "a": "It estimates how far a car will travel when launched from a ramp using physics formulas."
+        },
+        {
+            "q": "Is this calculator free?",
+            "a": "Yes, it’s completely free to use online."
+        },
+        {
+            "q": "Do I need software or installation?",
+            "a": "No, it works directly in your browser."
+        },
+        {
+            "q": "Can I use it on mobile devices?",
+            "a": "Yes, it’s fully mobile-friendly."
+        },
+        {
+            "q": "What inputs are required?",
+            "a": "Initial speed, ramp angle, launch height, and optionally landing height."
+        },
+        {
+            "q": "Which physics principles are used?",
+            "a": "It relies on ideal projectile motion equations under gravity."
+        },
+        {
+            "q": "Is it suitable for students?",
+            "a": "Yes, it’s perfect for learning physics, projectile motion, and trajectory concepts."
+        },
+        {
+            "q": "Can I use it for real-life stunts?",
+            "a": "No, results are theoretical. Real-world jumps involve factors like drag, friction, and aerodynamics."
+        },
+        {
+            "q": "Can it handle different units?",
+            "a": "Yes, both metric and imperial units are supported."
+        },
+        {
+            "q": "How accurate is it?",
+            "a": "It gives approximate results assuming ideal physics; actual jumps will differ in real life."
+        }
+    ]
+}

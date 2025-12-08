@@ -1,0 +1,151 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de velocidad de flecha: qué es y cómo usarla",
+      "content": "Una calculadora de velocidad de flecha es una sencilla herramienta en línea que ayuda a estimar qué tan rápido volará una flecha según las especificaciones de su arco y flecha. Al ingresar el peso de tiro de su arco, la longitud de tiro y el peso de la flecha, puede ver rápidamente la velocidad estimada y, en algunas calculadoras, incluso la energía cinética y el impulso."
+    },
+    {
+      "heading": "Cómo usarlo",
+      "subSections": [
+        {
+          "heading": "Abre la calculadora",
+          "content": "Accede desde tu navegador web."
+        },
+        {
+          "heading": "Ingrese el peso del sorteo",
+          "content": "La fuerza necesaria para tirar del arco (en libras o kilogramos)."
+        },
+        {
+          "heading": "Introduzca la longitud del sorteo",
+          "content": "Hasta qué punto se tensa el arco (en pulgadas o centímetros)."
+        },
+        {
+          "heading": "Introduzca el peso de la flecha",
+          "content": "Generalmente en granos o gramos."
+        },
+        {
+          "heading": "Entradas opcionales",
+          "content": "Algunas calculadoras le permiten agregar la velocidad nominal del arco o el peso del accesorio."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Los resultados aparecen al instante."
+        },
+        {
+          "heading": "Consultar unidades",
+          "content": "Asegúrese de que todas las medidas coincidan con las unidades seleccionadas."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Resultados instantáneos",
+          "content": "Sin esperas; Vea la velocidad de su flecha inmediatamente."
+        },
+        {
+          "heading": "Más que velocidad",
+          "content": "Algunas herramientas también muestran energía cinética y momento."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona bien en teléfonos y tabletas."
+        },
+        {
+          "heading": "Gratis y sencillo",
+          "content": "No se necesitan descargas ni registro."
+        },
+        {
+          "heading": "Educativo",
+          "content": "Aprenda cómo se relacionan el peso del dibujo, la masa de la flecha y la energía."
+        },
+        {
+          "heading": "Admite unidades métricas e imperiales",
+          "content": "Funciona para usuarios de todo el mundo."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Arqueros y cazadores",
+          "content": "Calcule la velocidad y la energía de la flecha para elegir mejor el equipo."
+        },
+        {
+          "heading": "Aficionados y aficionados al bricolaje",
+          "content": "Pruebe diferentes pesos de flechas o configuraciones de arco."
+        },
+        {
+          "heading": "Estudiantes y educadores",
+          "content": "Explora el movimiento de proyectiles y la transferencia de energía en física."
+        },
+        {
+          "heading": "Comparando equipos",
+          "content": "Vea cómo funcionan las diferentes flechas o arcos."
+        },
+        {
+          "heading": "Planificación de seguridad",
+          "content": "Comprenda las velocidades aproximadas antes de disparar."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: flecha estándar",
+          "content": "Peso de extracción: 50 libras | Longitud del dibujo: 28 pulgadas | Peso de la flecha: 350 granos | Velocidad estimada: 280 fps"
+        },
+        {
+          "heading": "Ejemplo 2: Flecha ligera",
+          "content": "Peso de extracción: 60 libras | Longitud del sorteo: 29 pulgadas | Peso de la flecha: 300 granos | Velocidad estimada: 320 fps"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué hace una calculadora de velocidad de flecha?",
+      "a": "Estima la velocidad de la flecha y también puede mostrar la energía cinética y el impulso en función de su arco y flecha."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, la mayoría de las calculadoras online son completamente gratuitas."
+    },
+    {
+      "q": "¿Necesito instalar software?",
+      "a": "No, se ejecuta directamente en su navegador."
+    },
+    {
+      "q": "¿Puedo usarlo en un teléfono?",
+      "a": "Absolutamente. La mayoría de las calculadoras son compatibles con dispositivos móviles."
+    },
+    {
+      "q": "¿Qué insumos necesito?",
+      "a": "Peso del dibujo, longitud del dibujo y peso de la flecha."
+    },
+    {
+      "q": "¿Puede calcular la energía?",
+      "a": "Sí, muchas herramientas muestran energía cinética e impulso junto con velocidad."
+    },
+    {
+      "q": "¿Es adecuado para estudiantes?",
+      "a": "Sí, es una excelente manera de explorar conceptos de física."
+    },
+    {
+      "q": "¿Son precisos los resultados?",
+      "a": "Dan una buena estimación, pero factores del mundo real como la técnica y la calidad del equipo pueden afectar la velocidad real."
+    },
+    {
+      "q": "¿Puedo usar unidades métricas?",
+      "a": "Sí, las calculadoras suelen admitir unidades métricas e imperiales."
+    },
+    {
+      "q": "¿Pueden los arqueros utilizar esto para la planificación del mundo real?",
+      "a": "Sí, pero trate los resultados como una guía y no como valores exactos."
+    }
+  ]
+}

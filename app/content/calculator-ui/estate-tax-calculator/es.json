@@ -1,0 +1,139 @@
+{
+  "pageTitle": "Calculadora de impuestos sobre el patrimonio",
+  "pageDescription": "Calcule el impuesto al patrimonio con nuestra calculadora en línea gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Introduzca el primer valor",
+      "input2": "Introduzca el segundo valor",
+      "input3": "Introduzca el tercer valor"
+    },
+    "buttons": {
+      "calculate": "Calcular el impuesto al patrimonio",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados del cálculo del impuesto al patrimonio"
+  },
+  "educational": {
+    "info": "Información sobre impuestos sobre el patrimonio",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definición de impuesto al patrimonio",
+        "description": "Información sobre el impuesto al patrimonio"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Cómo se calcula el impuesto al patrimonio"
+      },
+      "applications": {
+        "title": "Aplicaciones",
+        "description": "Usos del impuesto al patrimonio"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones de impuestos sobre el patrimonio únicamente",
+      "actual": "Los valores reales pueden variar según las circunstancias individuales."
+    },
+    "importantNotesList": [
+      "Esto es una estimación y no debe reemplazar el asesoramiento profesional.",
+      "Esto es una estimación y no debe reemplazar el asesoramiento profesional.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Utilice unidades consistentes para obtener resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información requerida para calcular el impuesto al patrimonio",
+    "resultMessage": "Los resultados del cálculo de su impuesto sobre el patrimonio se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del impuesto al patrimonio:",
+    "analysis": "Análisis de impuestos sobre el patrimonio"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de impuestos sobre el patrimonio basadas en métodos estándar. Los valores reales pueden variar según circunstancias individuales y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para obtener asesoramiento personalizado e información detallada, consulte con profesionales que puedan brindarle orientación según las necesidades y circunstancias individuales."
+  },
+  "errors": {
+    "input1": "Por favor ingresa un primer valor válido",
+    "input2": "Por favor ingresa un segundo valor válido",
+    "input3": "Por favor ingresa un tercer valor válido"
+  },
+  "tooltips": {
+    "input1": "Primer parámetro de entrada",
+    "input2": "Segundo parámetro de entrada",
+    "input3": "Tercer parámetro de entrada"
+  },
+  "estate_tax_calculator_0": "Calculadora de impuestos sobre el patrimonio",
+  "assets_1": "Activos",
+  "residence_other_real_estate_2": "Residencia y otros bienes raíces",
+  "stocks_bonds_other_investments_3": "Acciones, bonos, otras inversiones",
+  "savings_cds_checking_accounts_4": "Ahorros, CD, cuentas corrientes",
+  "vehicles_boats_other_properties_5": "Vehículos, Barcos, Otras Propiedades",
+  "retirement_plans_6": "Planes de jubilación",
+  "life_insurance_benefit_7": "Beneficio de seguro de vida",
+  "other_assets_8": "Otros activos",
+  "liability_costs_and_deductibles_9": "Responsabilidad, costos y deducibles",
+  "debts_mortgages_loan_credit_cards_etc_10": "Deudas (hipotecas, préstamos, tarjetas de crédito, etc)",
+  "funeral_administration_and_claims_expenses_11": "Gastos funerarios, administrativos y de reclamaciones",
+  "charitable_contributions_12": "Contribuciones caritativas",
+  "state_inheritance_or_estate_taxes_13": "Impuestos estatales sobre sucesiones o patrimonio",
+  "deductions_14": "Deducciones",
+  "charitable_contributions_15": "Contribuciones caritativas",
+  "lifetime_gifted_amount_16": "Monto regalado de por vida",
+  "total_amount_youve_gifted_tax_free_in_your_lifetim_17": "Monto total que has donado libre de impuestos a lo largo de tu vida",
+  "calculate_tax_18": "Calcular impuesto",
+  "estate_tax_results_19": "Resultados del impuesto al patrimonio",
+  "your_complete_estate_tax_breakdown_20": "Su desglose completo del impuesto al patrimonio",
+  "net_taxable_estate_is_21": "El patrimonio neto imponible es de $",
+  "estate_tax_owed_22": "Impuesto sobre el patrimonio adeudado:",
+  "no_estate_tax_is_owed_since_the_estate_is_below_th_23": "No se adeuda ningún impuesto sobre el patrimonio ya que el patrimonio está por debajo del umbral de exención.",
+  "assets_24": "Activos",
+  "residence_other_real_estate_25": "Residencia y otros bienes raíces",
+  "stocks_bonds_and_other_investments_26": "Acciones, bonos y otras inversiones",
+  "savings_cds_and_checking_account_balance_27": "Saldo de cuentas de ahorros, CD y cuentas corrientes",
+  "vehicles_boats_and_other_properties_28": "Vehículos, embarcaciones y otras propiedades",
+  "retirement_plans_29": "Planes de jubilación",
+  "life_insurance_benefit_30": "Beneficio de seguro de vida",
+  "other_assets_31": "Otros activos",
+  "total_assets_32": "Activos totales",
+  "liability_costs_and_deductibles_33": "Responsabilidad, costos y deducibles",
+  "debts_mortgages_loan_credit_cards_etc_34": "Deudas (hipotecas, préstamos, tarjetas de crédito, etc)",
+  "funeral_administration_and_claims_expenses_35": "Gastos funerarios, administrativos y de reclamaciones",
+  "charitable_contributions_36": "Contribuciones caritativas",
+  "state_inheritance_or_estate_taxes_37": "Impuestos estatales sobre sucesiones o patrimonio",
+  "total_liabilities_deductions_38": "Pasivos totales y deducciones",
+  "lifetime_gifted_amount_39": "Monto regalado de por vida",
+  "total_amount_youve_gifted_tax_free_in_your_lifetim_40": "Monto total que has donado libre de impuestos a lo largo de tu vida",
+  "net_taxable_estate_41": "Patrimonio neto imponible",
+  "federal_exemption_2025_42": "Exención federal (2025)",
+  "taxable_estate_43": "Patrimonio sujeto a impuestos",
+  "tax_rate_44": "Tasa impositiva:",
+  "k_40_on_taxable_estate_above_exemption_45": "40% sobre el patrimonio imponible por encima de la exención",
+  "the_federal_estate_tax_rate_is_a_flat_40_on_the_am_46": "La tasa del impuesto federal sobre el patrimonio es fija del 40% sobre el monto que excede la exención de $13,99 millones para\n                          2025.",
+  "enter_your_estate_information_to_see_your_results_47": "Ingrese la información de su patrimonio para ver sus resultados",
+  "estate_tax_calculation_formula_48": "Fórmula de cálculo del impuesto al patrimonio",
+  "k_1_total_assets_49": "1. Activos totales",
+  "assets_real_estate_investments_savings_vehicles_re_50": "Activos = Bienes Raíces + Inversiones + Ahorros + Vehículos + Planes de Jubilación + Seguros de Vida +\n                        Otros activos",
+  "k_2_total_liabilities_51": "2. Pasivos totales",
+  "liabilities_mortgages_loans_credit_cards_funeral_e_52": "Pasivos = Hipotecas + Préstamos + Tarjetas de Crédito + Gastos Funerarios + Gastos de Administración +\n                        Reclamaciones",
+  "k_3_gross_estate_53": "3. Patrimonio bruto",
+  "gross_estate_assets_liabilities_lifetime_gifts_cha_54": "Patrimonio bruto = Activos - Pasivos + Donaciones de por vida - Contribuciones caritativas",
+  "k_4_taxable_estate_55": "4. Patrimonio sujeto a impuestos",
+  "taxable_estate_max0_gross_estate_federal_exemption_56": "Patrimonio sujeto a impuestos = max(0, patrimonio bruto - exención federal)",
+  "k_5_estate_tax_owed_57": "5. Impuesto sobre el patrimonio adeudado",
+  "estate_tax_taxable_estate_40_58": "Impuesto sobre el patrimonio = Patrimonio imponible × 40%"
+}

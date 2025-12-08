@@ -1,0 +1,111 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de interés compuesto: maximice sus ahorros e inversiones",
+      "content": "Comprender cómo su dinero puede crecer con el tiempo es esencial para una planificación financiera inteligente. Nuestra calculadora de interés compuesto en línea lo ayuda a calcular fácilmente los rendimientos potenciales de ahorros, inversiones y préstamos, brindándole información clara sobre su futuro financiero."
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de interés compuesto?",
+      "subSections": [
+        {
+          "heading": "Crecimiento acelerado",
+          "content": "El interés compuesto permite que su dinero gane intereses tanto sobre el capital como sobre el interés acumulado a lo largo del tiempo, lo que ayuda a que los ahorros y las inversiones crezcan más rápido en comparación con el interés simple."
+        },
+        {
+          "heading": "Información financiera clara",
+          "content": "Vea instantáneamente su crecimiento potencial sin necesidad de comprender fórmulas complejas."
+        },
+        {
+          "heading": "Planificación de jubilación y ahorro",
+          "content": "Planifique con anticipación con pronósticos precisos para la jubilación u otros objetivos de ahorro a largo plazo."
+        },
+        {
+          "heading": "Comparaciones flexibles",
+          "content": "Compare diferentes tasas de interés, períodos de capitalización y estrategias de contribución."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo utilizar esta calculadora",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Ingrese el monto principal: el saldo inicial de su inversión o préstamo."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Establezca la tasa de interés: anual o mensual, según su plan."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Elija la frecuencia de capitalización: diaria, mensual, trimestral o anual."
+        },
+        {
+          "heading": "Paso 4",
+          "content": "Agregue contribuciones: si corresponde, ingrese depósitos mensuales o anuales."
+        },
+        {
+          "heading": "Paso 5",
+          "content": "Ver resultados: la calculadora mostrará el interés total ganado, el saldo final y una tabla de crecimiento."
+        }
+      ]
+    },
+    {
+      "heading": "Ejemplos y escenarios",
+      "subSections": [
+        {
+          "heading": "Depósito fijo",
+          "content": "Deposite $10,000 al 5% de interés anual, compuesto mensualmente. Su inversión crece significativamente con el tiempo."
+        },
+        {
+          "heading": "Planificación de jubilación",
+          "content": "Pequeñas contribuciones mensuales se acumulan en un fondo de jubilación sustancial durante décadas."
+        },
+        {
+          "heading": "Ahorros para estudiantes",
+          "content": "Incluso los pequeños depósitos regulares pueden crecer, lo que la convierte en una herramienta ideal para los estudiantes."
+        }
+      ]
+    },
+    {
+      "heading": "Interés compuesto explicado",
+      "subSections": [
+        {
+          "heading": "Interés compuesto versus interés simple",
+          "content": "El interés simple se calcula únicamente sobre el capital, mientras que el interés compuesto crece tanto sobre el principal como sobre el interés acumulado."
+        },
+        {
+          "heading": "Frecuencia de capitalización",
+          "content": "La capitalización diaria, mensual o anual afecta el crecimiento. Una capitalización más frecuente da como resultado mayores rendimientos."
+        },
+        {
+          "heading": "Paso a paso",
+          "content": "Identifique el capital, la tasa de interés y el período de tiempo → elija la frecuencia de capitalización → agregue contribuciones → vea el saldo y los intereses."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo calcular el interés compuesto con depósitos mensuales?",
+      "a": "Ingrese sus contribuciones mensuales en la calculadora, seleccione la capitalización mensual y le mostrará su crecimiento total a lo largo del tiempo."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre interés simple y compuesto?",
+      "a": "El interés simple se calcula solo sobre el capital, mientras que el interés compuesto se calcula tanto sobre el capital como sobre el interés acumulado, lo que permite un crecimiento más rápido."
+    },
+    {
+      "q": "¿Cuánto crecerá mi inversión con interés compuesto?",
+      "a": "Utilice nuestra calculadora en línea para ingresar sus datos y ver el crecimiento proyectado durante meses o años."
+    },
+    {
+      "q": "¿Puedo comparar tasas de interés compuestas para bancos?",
+      "a": "¡Sí! Puede simular diferentes tasas y períodos de capitalización para elegir la opción más rentable."
+    },
+    {
+      "q": "¿La tasa de interés afecta el crecimiento del interés compuesto?",
+      "a": "Absolutamente. Incluso un pequeño cambio en la tasa de interés puede impactar significativamente el crecimiento a largo plazo."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "¿Qué es una hipoteca?",
+      "content": "Una hipoteca es un préstamo hipotecario garantizado por una propiedad, generalmente inmuebles. El prestamista proporciona el dinero para la compra de la vivienda y el prestatario se compromete a devolver esta cantidad durante un período prolongado, normalmente de 15 a 30 años. Los pagos mensuales se dividen en dos partes principales: el capital, que es el monto original del préstamo, y el interés, que es el costo del préstamo. La Calculadora de préstamos hipotecarios le ayuda a calcular estos componentes en detalle, junto con otros costos relevantes, como impuestos a la propiedad y seguros, para brindarle un pago mensual preciso."
+    },
+    {
+      "heading": "Características clave de nuestra calculadora de hipotecas",
+      "subSections": [
+        {
+          "heading": "Monto del préstamo",
+          "content": "El monto total prestado para comprar la vivienda, calculado restando cualquier pago inicial del precio de compra de la vivienda."
+        },
+        {
+          "heading": "Depósito",
+          "content": "Este es el pago por adelantado, generalmente expresado como un porcentaje del precio total. Un pago inicial mayor a menudo resulta en mejores condiciones de préstamo. La mayoría de los prestamistas esperan un 20% o más, pero los compradores primerizos a veces pueden pagar tan solo el 3%."
+        },
+        {
+          "heading": "Plazo del préstamo",
+          "content": "El tiempo que llevará pagar el préstamo, a menudo 15, 20 o 30 años. Los plazos más cortos suelen dar como resultado una tasa de interés más baja y un pago más rápido."
+        },
+        {
+          "heading": "Tasa de interés",
+          "content": "El costo de pedir dinero prestado, que puede ser fijo o ajustable. Las hipotecas de tasa fija (FRM) ofrecen una tasa de interés constante durante todo el préstamo, mientras que las hipotecas de tasa ajustable (ARM) pueden cambiar después de un período inicial. Utilice nuestra calculadora de hipotecas de tasa ajustable para estimar el efecto de posibles cambios en las tasas."
+        },
+        {
+          "heading": "PMI (Seguro Hipotecario Privado)",
+          "content": "Si su pago inicial es inferior al 20%, es probable que deba pagar el PMI. La Calculadora de hipotecas con opción PMI le ayuda a incluir estos costos adicionales en sus estimaciones."
+        }
+      ]
+    },
+    {
+      "heading": "Componentes de la calculadora de hipotecas explicados",
+      "subSections": [
+        {
+          "heading": "Costos recurrentes",
+          "content": "Impuestos a la propiedad: Impuestos recaudados por los gobiernos locales, generalmente alrededor del 1,1% del valor de la propiedad en los EE. UU. Estos costos tienden a aumentar anualmente debido a la inflación. Puede incluirlos en la calculadora de impuestos a la propiedad e hipotecas para obtener una estimación completa de sus costos mensuales. Seguro de Hogar: Protege la vivienda de daños inesperados. El costo varía según la ubicación y el valor de la propiedad. Nuestra calculadora de intereses hipotecarios puede tener en cuenta estos costos para obtener un pronóstico financiero preciso. Tarifas de HOA: Algunas propiedades vienen con tarifas de asociación de propietarios, a menudo menos del 1% del valor de la propiedad. Los condominios y casas adosadas suelen exigir estas tarifas. Seguro Hipotecario Privado (PMI): Requerido cuando el pago inicial es inferior al 20%. Esto ayuda a proteger al prestamista en caso de incumplimiento del prestatario."
+        },
+        {
+          "heading": "Costos no recurrentes",
+          "content": "Costos de cierre: Honorarios que se pagan al cerrar una vivienda, como honorarios de abogados, honorarios de tasación y cargos por título. Estos costes suelen oscilar entre el 2% y el 5% del precio de compra de la vivienda. Renovaciones: las mejoras opcionales, como actualizaciones de la cocina o pisos nuevos, pueden aumentar sus costos totales, pero no se tienen en cuenta en los pagos mensuales de la hipoteca. Costos varios: esto incluye gastos de mudanza, muebles y reparaciones del hogar después de la compra."
+        }
+      ]
+    },
+    {
+      "heading": "Opciones de pago anticipado en nuestra calculadora de préstamos hipotecarios",
+      "content": "Es posible que muchos compradores de vivienda deseen pagar su hipoteca antes de lo necesario para ahorrar intereses o porque están refinanciando o vendiendo su propiedad. Nuestra calculadora de pagos de hipotecas con opciones de pago anticipado puede ayudarle a planificar esto.",
+      "subSections": [
+        {
+          "heading": "Estrategias para liquidar su hipoteca anticipadamente",
+          "content": "Pagos adicionales: al realizar pagos adicionales además de su hipoteca mensual, puede reducir el capital más rápido, lo que resulta en costos de intereses más bajos con el tiempo. Pagos quincenales: en lugar de pagar mensualmente, realice la mitad de los pagos cada dos semanas. Esto da como resultado un mes adicional de pagos cada año, lo que le ayudará a liquidar el préstamo más rápidamente. Nuestra calculadora de pagos hipotecarios quincenales muestra cómo funciona este enfoque. Refinanciamiento: Refinanciar su préstamo a una tasa de interés más baja o a un plazo más corto puede ayudarlo a ahorrar dinero y liquidar su hipoteca más rápido. La calculadora de refinanciamiento de hipotecas le permite estimar los ahorros potenciales."
+        },
+        {
+          "heading": "Ventajas y desventajas del reembolso anticipado",
+          "content": "Ventajas: Costos de interés más bajos: El pago anticipado de su hipoteca reduce el interés que paga durante la vigencia del préstamo. Pago más rápido: el préstamo se liquidará más rápido, lo que le brindará libertad financiera antes. Satisfacción personal: muchos prestatarios disfrutan del beneficio emocional de no tener deudas. Desventajas: Posibles sanciones por pago anticipado: algunos prestamistas imponen tarifas por pago anticipado, lo que puede reducir los beneficios. Costo de oportunidad: si las tasas hipotecarias son bajas, usar fondos adicionales para liquidar la hipoteca podría no ser la mejor decisión financiera, especialmente si pudiera obtener un mayor rendimiento en otro lugar. Bloqueo de capital: el dinero gastado en el pago anticipado de la hipoteca podría ser necesario para otros gastos. Pérdida de deducciones fiscales: los intereses hipotecarios son deducibles de impuestos, pero el pago anticipado de la hipoteca reduce la cantidad que puede deducir."
+        }
+      ]
+    },
+    {
+      "heading": "Breve historia de las hipotecas en EE. UU.",
+      "content": "La propiedad de vivienda no siempre fue accesible para muchas personas en los EE. UU. A principios del siglo XX, los compradores de vivienda necesitaban grandes pagos iniciales y plazos de préstamo cortos. Después de la Gran Depresión, la creación de Fannie Mae y la Administración Federal de Vivienda (FHA) hicieron que los préstamos hipotecarios fueran más accesibles al introducir opciones a largo plazo con pagos iniciales bajos. Estas agencias ayudaron a estabilizar el mercado inmobiliario y su influencia continúa hoy."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo uso una calculadora de hipotecas?",
+      "a": "Simplemente ingrese el monto de su préstamo, la tasa de interés, el pago inicial y el plazo del préstamo. La calculadora estimará automáticamente el pago mensual de su hipoteca y proporcionará un desglose de intereses, impuestos y seguros."
+    },
+    {
+      "q": "¿Qué es el PMI y cómo afecta el pago de mi hipoteca?",
+      "a": "Se requiere un seguro hipotecario privado (PMI) si su pago inicial es inferior al 20%. Agrega un costo adicional a su pago mensual hasta que la relación préstamo-valor alcance el 80%."
+    },
+    {
+      "q": "¿Puedo refinanciar con la calculadora de hipotecas?",
+      "a": "Sí, la Calculadora de hipotecas de refinanciamiento le permite estimar los ahorros al refinanciar su hipoteca, incluidos los cambios en la tasa de interés y el plazo del préstamo."
+    },
+    {
+      "q": "¿Qué factores afectan los pagos de la hipoteca?",
+      "a": "Factores como el monto de su préstamo, la tasa de interés, el pago inicial y los costos relacionados con la propiedad (como impuestos y seguros) influyen en su pago mensual."
+    }
+  ]
+}

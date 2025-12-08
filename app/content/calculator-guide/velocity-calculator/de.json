@@ -1,0 +1,143 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Was ist ein Geschwindigkeitsrechner?",
+      "content": "Ein Geschwindigkeitsrechner ist ein kostenloses Online-Tool, das die Geschwindigkeit eines Objekts mithilfe physikalischer Formeln berechnet. Es kann die Durchschnittsgeschwindigkeit anhand von Entfernung und Zeit oder die Endgeschwindigkeit für beschleunigte Bewegungen mithilfe von v = u + a × t berechnen."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Öffnen Sie den Rechner",
+          "content": "Rufen Sie die Seite in Ihrem Browser auf."
+        },
+        {
+          "heading": "Wählen Sie den Berechnungstyp aus",
+          "content": "Wählen Sie einfache Geschwindigkeit (Entfernung/Zeit) oder beschleunigte Bewegung (v = u + a × t)."
+        },
+        {
+          "heading": "Geben Sie Werte ein",
+          "content": "Geben Sie nach Bedarf Entfernung, Zeit, Anfangsgeschwindigkeit und Beschleunigung ein."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Das Geschwindigkeitsergebnis wird sofort angezeigt."
+        },
+        {
+          "heading": "Überprüfen Sie die Einheiten",
+          "content": "Stellen Sie sicher, dass alle Einheiten konsistent sind, um genaue Ergebnisse zu erzielen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Ergebnisse",
+          "content": "Berechnet die Geschwindigkeit in Sekunden."
+        },
+        {
+          "heading": "Unterstützt mehrere Formeln",
+          "content": "Durchschnittliche Geschwindigkeit und beschleunigte Bewegung."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf jedem Gerät."
+        },
+        {
+          "heading": "Flexibilität der Einheit",
+          "content": "Metrische und imperiale Einheiten werden unterstützt."
+        },
+        {
+          "heading": "Lehrmittel",
+          "content": "Hilft beim Verständnis von Geschwindigkeit, Beschleunigung und Bewegung."
+        },
+        {
+          "heading": "Kostenlos und einfach zu bedienen",
+          "content": "Keine Downloads oder Registrierung erforderlich."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Schüler und Lehrer",
+          "content": "Lösen Sie Hausaufgaben und Unterrichtsprobleme."
+        },
+        {
+          "heading": "Bastler und DIY-Projekte",
+          "content": "Berechnen Sie Bewegungen für Modellfahrzeuge oder Experimente."
+        },
+        {
+          "heading": "Ingenieure und Designer",
+          "content": "Schnelle Schätzung der Geschwindigkeit für einfache Projekte."
+        },
+        {
+          "heading": "Reise- und Tagesberechnungen",
+          "content": "Bestimmen Sie die Geschwindigkeit aus Entfernung und Zeit."
+        },
+        {
+          "heading": "Pädagogische Demonstrationen",
+          "content": "Vermitteln Sie Kinematik- und Bewegungskonzepte."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Konstante Geschwindigkeit",
+          "content": "Entfernung: 100 Meter | Zeit: 20 Sekunden | Geschwindigkeit: 100 ÷ 20 = 5 m/s"
+        },
+        {
+          "heading": "Beispiel 2 – Beschleunigte Bewegung",
+          "content": "Anfangsgeschwindigkeit (u): 0 m/s | Beschleunigung (a): 2 m/s² | Zeit (t): 10 Sekunden | Endgeschwindigkeit (v): 0 + 2 × 10 = 20 m/s"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Geschwindigkeitsrechner?",
+      "a": "Berechnet Geschwindigkeit oder Geschwindigkeit anhand von Entfernung, Zeit und Beschleunigung."
+    },
+    {
+      "q": "Ist dieser Rechner kostenlos?",
+      "a": "Ja, es ist online völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software oder Installation?",
+      "a": "Nein, es funktioniert direkt in Ihrem Browser."
+    },
+    {
+      "q": "Kann ich es auf Mobilgeräten verwenden?",
+      "a": "Ja, vollständig mobilfreundlich."
+    },
+    {
+      "q": "Welche Eingaben sind erforderlich?",
+      "a": "Distanz, Zeit, Anfangsgeschwindigkeit, Beschleunigung."
+    },
+    {
+      "q": "Welche Formeln werden verwendet?",
+      "a": "Durchschnittsgeschwindigkeit: v = Distanz ÷ Zeit; Beschleunigte Bewegung: v = u + a × t"
+    },
+    {
+      "q": "Kann es mit verschiedenen Einheiten umgehen?",
+      "a": "Ja, metrische und imperiale Einheiten werden unterstützt."
+    },
+    {
+      "q": "Ist es für Studenten geeignet?",
+      "a": "Ja, perfekt zum Erlernen von Physik und Kinematik."
+    },
+    {
+      "q": "Können Ingenieure oder Bastler es verwenden?",
+      "a": "Ja, ideal für Experimente und einfache Bewegungsanalysen."
+    },
+    {
+      "q": "Ist der Rechner genau?",
+      "a": "Ja, es liefert präzise Ergebnisse unter der Annahme konsistenter Einheiten."
+    }
+  ]
+}

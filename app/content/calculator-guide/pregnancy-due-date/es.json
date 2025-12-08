@@ -1,0 +1,110 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de fecha prevista de embarazo?",
+      "content": "Nuestra Calculadora de fecha prevista de embarazo es una herramienta en línea sencilla, médicamente precisa y gratuita que le ayudará a estimar cuándo podría nacer su bebé. Al utilizar su último período menstrual (FUM), la fecha de ovulación o la fecha de transferencia de FIV, esta Calculadora de fecha de vencimiento en línea proporciona una fecha estimada de parto (EDD), un calendario de embarazo semana a semana y un cronograma trimestral. Tenga en cuenta: las fechas de parto son estimaciones: solo alrededor del 4 % de los bebés nacen exactamente en la fecha de parto. La mayoría llega dentro de un período de dos semanas antes o después."
+    },
+    {
+      "heading": "Cómo calcular la fecha prevista del embarazo",
+      "subSections": [
+        {
+          "heading": "Calculadora de fecha de vencimiento de LMP",
+          "content": "Basado en el primer día de su último período menstrual (método más común)."
+        },
+        {
+          "heading": "Calculadora de fecha de vencimiento de la concepción",
+          "content": "Si conoce su fecha de ovulación o concepción, puede utilizarla para calcular la fecha prevista de parto."
+        },
+        {
+          "heading": "Calculadora de fecha de vencimiento de FIV",
+          "content": "Para embarazos logrados mediante FIV o tecnología de reproducción asistida, se utiliza la fecha de transferencia de embriones."
+        },
+        {
+          "heading": "Calculadora de fecha límite de ultrasonido",
+          "content": "Basado en exploraciones tempranas del embarazo, especialmente precisas en el primer trimestre."
+        },
+        {
+          "heading": "Calculadora de edad gestacional y fecha de parto",
+          "content": "Combina semanas y días de embarazo con la fecha prevista de parto."
+        }
+      ]
+    },
+    {
+      "heading": "Cronología del embarazo: trimestre y semana a semana",
+      "subSections": [
+        {
+          "heading": "Primer trimestre (semanas 1 a 12)",
+          "content": "Concepción, desarrollo temprano y síntomas comunes como náuseas matutinas."
+        },
+        {
+          "heading": "Segundo trimestre (semanas 13 a 27)",
+          "content": "El crecimiento del bebé se acelera, se realiza una exploración anatómica y la madre siente el movimiento."
+        },
+        {
+          "heading": "Tercer trimestre (semanas 28 a 40+)",
+          "content": "Crecimiento rápido del bebé, preparación para el parto y embarazo a término."
+        },
+        {
+          "heading": "Embarazo a término",
+          "content": "Asume 40 semanas (280 días) desde su FUM. Los bebés pueden llegar de manera segura en cualquier momento entre las 37 y 42 semanas."
+        }
+      ]
+    },
+    {
+      "heading": "Uso global: calculadora de fecha prevista de embarazo por país",
+      "content": "Ya sea que se encuentre en los EE. UU., Reino Unido, Canadá, India, Pakistán o Australia, esta herramienta gratuita para la fecha de vencimiento del embarazo funciona universalmente. Los sistemas de atención médica pueden variar, pero el método de cálculo sigue estando alineado médicamente con las pautas de la OMS, el NHS y el ACOG."
+    },
+    {
+      "heading": "¿Por qué utilizar nuestra calculadora de fecha de entrega prevista?",
+      "subSections": [
+        {
+          "heading": "Gratis y Fácil",
+          "content": "No es necesario registrarse."
+        },
+        {
+          "heading": "Métodos precisos",
+          "content": "Opciones de FUM, concepción, FIV y ultrasonido disponibles."
+        },
+        {
+          "heading": "Alineación médica",
+          "content": "Basado en el modelo estándar de gestación de 40 semanas."
+        },
+        {
+          "heading": "Calendario de embarazo personalizado",
+          "content": "Realice un seguimiento de los hitos semana a semana con un cronograma claro del embarazo."
+        },
+        {
+          "heading": "Herramienta compartible",
+          "content": "Útil para futuros padres, familias y proveedores de atención médica."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Puede estar equivocada una calculadora de fecha de parto?",
+      "a": "Sí. Una fecha de vencimiento es sólo una estimación. Sólo 1 de cada 25 bebés nace en la fecha exacta prevista. La mayoría llega dentro de las 2 semanas anteriores o posteriores."
+    },
+    {
+      "q": "¿Qué tan precisa es una calculadora de fecha de parto?",
+      "a": "Las calculadoras basadas en LMP suponen un ciclo de 28 días. Las fechas basadas en ultrasonido (especialmente en el primer trimestre) son más precisas. La precisión puede variar si tiene ciclos irregulares."
+    },
+    {
+      "q": "¿Qué pasa si no sé la fecha de mi último período?",
+      "a": "Puede utilizar una Calculadora de la fecha de parto de la concepción o consultar a su médico para obtener un estimador de la fecha de parto por ultrasonido."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre la calculadora de fecha de parto y la ecografía?",
+      "a": "La Calculadora de fecha de parto en línea utiliza datos menstruales/de concepción, mientras que las calculadoras de ultrasonido miden el crecimiento del bebé y suelen ser más confiables al principio del embarazo."
+    },
+    {
+      "q": "¿Puedo calcular mi fecha de parto si tuve FIV?",
+      "a": "Sí. Utilice la Calculadora de fecha límite de FIV con la fecha de transferencia de embriones para obtener una mayor precisión."
+    },
+    {
+      "q": "¿Cuál es el rango semanal de fecha de parto del bebé?",
+      "a": "El embarazo suele durar entre 37 y 42 semanas. Los bebés nacidos entre estas semanas se consideran dentro del rango normal."
+    }
+  ]
+}

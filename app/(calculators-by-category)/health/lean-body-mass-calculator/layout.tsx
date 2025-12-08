@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for lean-body-mass-calculator
 const leanbodymasscalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }lean-body-mass-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }lean-body-mass-calculator`,
       languages: {
         'en': getCanonicalUrl('lean-body-mass-calculator', 'en'),
         'pt-BR': getCanonicalUrl('lean-body-mass-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }lean-body-mass-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }lean-body-mass-calculator`,
     },
   };
 }
@@ -70,5 +69,97 @@ export default async function LeanBodyMassCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://www.thesmartcalculator.com/health/lean-body-mass-calculator",
+    "name": "Lean Body Mass Calculator - Smart Calculator",
+    "description": "Free Lean Body Mass Calculator. Calculate your LBM using Boer, James, Hume, and Peters formulas. Enter your age, gender, height, weight, and optional body fat % to estimate fat-free mass.",
+    "mainEntity": {
+      "@type": "SoftwareApplication",
+      "name": "Lean Body Mass Calculator",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web",
+      "description": "An online calculator to estimate Lean Body Mass (LBM) using multiple scientific formulas and optional body fat percentage.",
+      "url": "https://www.thesmartcalculator.com/health/lean-body-mass-calculator"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.thesmartcalculator.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Health Calculators",
+          "item": "https://www.thesmartcalculator.com/health/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Lean Body Mass Calculator",
+          "item": "https://www.thesmartcalculator.com/health/lean-body-mass-calculator"
+        }
+      ]
+    },
+    "mainEntityOfPage": {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Lean Body Mass (LBM)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lean Body Mass (LBM) is your body weight minus fat. It includes muscles, bones, water, and organs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which formula is most accurate for LBM?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If body fat percentage is available, that method is most accurate. Otherwise, the Boer formula is commonly recommended for adults."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this calculator suitable for children?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the Peters formula is used for children under 14 years old."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is LBM different from BMI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BMI is a weight-to-height ratio and does not differentiate between muscle and fat, while LBM specifically measures fat-free mass."
+          }
+        }
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Smart Calculator",
+      "url": "https://www.thesmartcalculator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thesmartcalculator.com/logo.png"
+      }
+    }
+  }
+  return <>
+    {children}
+    <Script
+      id="lean-body-mass-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

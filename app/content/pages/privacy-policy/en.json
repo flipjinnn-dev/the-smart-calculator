@@ -1,37 +1,114 @@
 {
-  "pageTitle": "Privacy Policy",
-  "heroTitle": "Privacy Policy",
-  "lastUpdated": "Last Updated: November 2024",
-  "introTitle": "Introduction",
-  "introDescription": "At The Smart Calculator, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website.",
-  "infoCollectionTitle": "Information We Collect",
-  "infoCollectionDescription": "We may collect the following types of information:",
-  "info1Title": "Personal Information",
-  "info1Description": "We do not collect personal information unless you voluntarily provide it (e.g., through contact forms or email).",
-  "info2Title": "Usage Data",
-  "info2Description": "We may collect non-personal information such as browser type, device information, IP address, and pages visited for analytics purposes.",
-  "info3Title": "Cookies",
-  "info3Description": "We may use cookies to enhance user experience, analyze traffic, and personalize content. You can disable cookies in your browser settings.",
-  "howWeUseTitle": "How We Use Your Information",
-  "howWeUseDescription": "We use collected information to:",
-  "use1": "Improve website functionality and user experience",
-  "use2": "Analyze website traffic and performance",
-  "use3": "Respond to inquiries and provide customer support",
-  "use4": "Send updates and notifications (only if you opt-in)",
-  "dataSharingTitle": "Data Sharing and Disclosure",
-  "dataSharingDescription": "We do not sell, trade, or rent your personal information to third parties. We may share information only in the following cases:",
-  "share1": "With service providers who assist us in operating the website",
-  "share2": "To comply with legal obligations or protect our rights",
-  "share3": "With your consent",
-  "dataSecurityTitle": "Data Security",
-  "dataSecurityDescription": "We implement reasonable security measures to protect your information. However, no method of transmission over the internet is 100% secure.",
-  "thirdPartyLinksTitle": "Third-Party Links",
-  "thirdPartyLinksDescription": "Our website may contain links to third-party websites. We are not responsible for their privacy practices.",
-  "childrensPrivacyTitle": "Children's Privacy",
-  "childrensPrivacyDescription": "Our website is not intended for children under 13. We do not knowingly collect information from children.",
-  "changesTitle": "Changes to This Privacy Policy",
-  "changesDescription": "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date.",
-  "contactTitle": "Contact Us",
-  "contactDescription": "If you have any questions about this Privacy Policy, please contact us at:",
-  "contactEmail": "thesmartcalculators@gmail.com"
+  "pageTitle": "Privacy Policy – The Smart Calculator",
+  "heroTitle": "Privacy Policy – The Smart Calculator",
+  "heroDescription": "At The Smart Calculator, your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you use our website https://www.thesmartcalculator.com/ and our free online calculators.",
+  "heroDisclaimer": "By accessing or using our website, you agree to the practices described in this policy.",
+  "overviewItems": [
+    {
+      "title": "SSL Encryption",
+      "description": "We use SSL encryption to protect data transmitted via our website"
+    },
+    {
+      "title": "No Data Selling",
+      "description": "We do not sell, rent, or trade your personal information with third parties"
+    },
+    {
+      "title": "Restricted Access",
+      "description": "Access to personal data is restricted to authorized team members only"
+    }
+  ],
+  "sections": [
+    {
+      "number": "1",
+      "title": "Information We Collect",
+      "description": "When you use our website, we may collect the following types of information:",
+      "subsections": [
+        {
+          "title": "Personal Information (Optional):",
+          "items": [
+            "Name, email address, or contact details (only if you choose to contact us via our form or email)."
+          ]
+        },
+        {
+          "title": "Non-Personal Information (Automatically Collected):",
+          "items": [
+            "Device type, browser type, IP address, operating system.",
+            "Pages visited, time spent, and general usage data for analytics."
+          ]
+        },
+        {
+          "title": "Cookies & Tracking:",
+          "items": [
+            "We use cookies to enhance your browsing experience and to analyze website performance.",
+            "You can disable cookies in your browser settings at any time."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "How We Use Your Information",
+      "description": "We use collected information to:",
+      "items": [
+        "Improve our calculators and website functionality.",
+        "Provide better customer support and respond to your inquiries.",
+        "Analyze usage patterns and optimize user experience.",
+        "Ensure website security and prevent misuse.",
+        "Share updates, newsletters, or promotional content (only if you subscribe)."
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Data Protection & Security",
+      "description": "We take your privacy seriously and implement appropriate measures to safeguard your data.",
+      "items": [
+        "SSL encryption is used to protect data transmitted via our website.",
+        "We do not sell, rent, or trade your personal information with third parties.",
+        "Access to personal data is restricted to authorized team members only."
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Sharing of Information",
+      "items": [
+        "We may share non-personal, aggregated data with trusted third-party service providers (e.g., analytics tools like Google Analytics) to improve website performance.",
+        "We do not sell or disclose personal data to advertisers or unauthorized parties."
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Third-Party Links",
+      "description": "Our website may contain links to third-party websites. We are not responsible for their privacy practices. Please review their privacy policies before providing personal information."
+    },
+    {
+      "number": "6",
+      "title": "Your Rights",
+      "description": "Depending on your location, you may have the right to:",
+      "items": [
+        "Access the personal data we hold about you.",
+        "Request corrections or deletion of your information.",
+        "Opt out of cookies or marketing communications."
+      ],
+      "footer": "To exercise these rights, please contact us at: thesmartcalculators@gmail.com"
+    },
+    {
+      "number": "7",
+      "title": "Children's Privacy",
+      "description": "Our website and calculators are not intended for children under 13 years of age. We do not knowingly collect personal data from children."
+    },
+    {
+      "number": "8",
+      "title": "Updates to This Policy",
+      "description": "We may update this Privacy Policy from time to time to reflect changes in technology, law, or our services. The updated policy will always be posted on this page with the revised date."
+    },
+    {
+      "number": "9",
+      "title": "Contact Us",
+      "description": "If you have any questions about this Privacy Policy or how your information is handled, please contact us:",
+      "contactInfo": {
+        "email": "thesmartcalculators@gmail.com",
+        "website": "https://www.thesmartcalculator.com/"
+      }
+    }
+  ]
 }

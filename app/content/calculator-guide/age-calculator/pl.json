@@ -1,0 +1,143 @@
+{
+  "color": "fioletowy",
+  "sections": [
+    {
+      "heading": "Kalkulator wieku: co to jest i jak z niego korzystać",
+      "content": "Kalkulator wieku to bezpłatne narzędzie internetowe, które szybko oblicza dokładny wiek danej osoby w latach, miesiącach i dniach na podstawie daty urodzenia. Jest przydatny dla uczniów, rodziców, profesjonalistów i każdego, kto potrzebuje szybkiego i dokładnego obliczenia wieku."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Otwórz kalkulator",
+          "content": "Uzyskaj do niego dostęp bezpośrednio w przeglądarce."
+        },
+        {
+          "heading": "Wprowadź datę urodzenia",
+          "content": "Wprowadź dzień, miesiąc i rok."
+        },
+        {
+          "heading": "Wybierz datę referencyjną",
+          "content": "Wybierz dzisiejszą datę lub dowolną datę z przeszłości/przyszłości."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast zobacz wiek w latach, miesiącach i dniach."
+        },
+        {
+          "heading": "Sprawdź dane wyjściowe",
+          "content": "Niektóre kalkulatory pokazują również całkowitą liczbę przeżytych dni lub tygodni."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe wyniki",
+          "content": "Nie są potrzebne żadne ręczne obliczenia."
+        },
+        {
+          "heading": "Dokładny",
+          "content": "Uwzględnia lata przestępne i różne długości miesięcy."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na smartfonach, tabletach i komputerach stacjonarnych."
+        },
+        {
+          "heading": "Bezpłatny i łatwy w użyciu",
+          "content": "Nie wymaga pobierania ani rejestracji."
+        },
+        {
+          "heading": "Data niestandardowa",
+          "content": "Oblicz wiek dla dowolnej daty w przeszłości lub przyszłości."
+        },
+        {
+          "heading": "Wiele jednostek",
+          "content": "Opcjonalnie możesz zobaczyć wiek w latach, miesiącach, dniach lub całkowitej liczbie dni/tygodni."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Użytek osobisty",
+          "content": "Śledź urodziny i kamienie milowe."
+        },
+        {
+          "heading": "Oficjalne cele",
+          "content": "Oszacuj wiek formularzy, wniosków lub weryfikacji tożsamości."
+        },
+        {
+          "heading": "Planowanie wydarzeń",
+          "content": "Śledź urodziny, rocznice i daty uprawnień."
+        },
+        {
+          "heading": "Edukacja",
+          "content": "Naucz uczniów o różnicach w datach, godzinach i kalendarzach."
+        },
+        {
+          "heading": "Prowadzenie rejestrów",
+          "content": "Prowadź dokładne zapisy oparte na wieku."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Obecny wiek",
+          "content": "Data urodzenia: 15 marca 1995 | Data referencyjna: Dzisiaj | Wynik: 30 lat, 8 miesięcy, 12 dni"
+        },
+        {
+          "heading": "Przykład 2 – Przyszły wiek",
+          "content": "Data urodzenia: 10 czerwca 2000 | Data referencyjna: 1 stycznia 2030 r. | Wynik: 29 lat, 6 miesięcy, 22 dni"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator wieku?",
+      "a": "Oblicza dokładny wiek w latach, miesiącach i dniach od danej daty urodzenia."
+    },
+    {
+      "q": "Czy ten kalkulator jest darmowy?",
+      "a": "Tak, korzystanie z niego jest całkowicie bezpłatne."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania lub instalacji?",
+      "a": "Nie, działa bezpośrednio w Twojej przeglądarce."
+    },
+    {
+      "q": "Czy mogę z niego korzystać na urządzeniach mobilnych?",
+      "a": "Tak, jest w pełni przyjazny dla urządzeń mobilnych."
+    },
+    {
+      "q": "Czy mogę obliczyć wiek dla daty przyszłej lub przeszłej?",
+      "a": "Tak, możesz wybrać dowolną datę referencyjną."
+    },
+    {
+      "q": "Czy uwzględnia lata przestępne?",
+      "a": "Tak, dokładnie uwzględnia lata przestępne i długości miesięcy."
+    },
+    {
+      "q": "Czy może wyświetlać całkowitą liczbę dni lub tygodni?",
+      "a": "Niektóre wersje podają całkowitą liczbę przeżytych dni lub tygodni."
+    },
+    {
+      "q": "Czy jest odpowiedni dla studentów?",
+      "a": "Tak, jest prosty i dokładny do celów edukacyjnych."
+    },
+    {
+      "q": "Czy można go używać do dokumentów urzędowych?",
+      "a": "Jest dobry do szacunków, ale oficjalne dokumenty wymagają dowodu, takiego jak akt urodzenia."
+    },
+    {
+      "q": "Jak dokładne jest to rozwiązanie?",
+      "a": "Zapewnia precyzyjne obliczenia w oparciu o standardowy kalendarz gregoriański."
+    }
+  ]
+}

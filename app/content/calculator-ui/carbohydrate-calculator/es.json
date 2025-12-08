@@ -1,0 +1,221 @@
+{
+  "pageTitle": "Calculadora de carbohidratos",
+  "pageDescription": "Calcule sus necesidades diarias de carbohidratos según el nivel de actividad, los objetivos y los requisitos dietéticos para una salud y un rendimiento óptimos.",
+  "form": {
+    "labels": {
+      "age": "Edad (años)",
+      "gender": "Género",
+      "weight": "Peso",
+      "height": "Altura",
+      "unitSystem": "Sistema de unidades",
+      "activityLevel": "Nivel de actividad",
+      "goal": "Objetivo dietético",
+      "dietType": "Tipo de dieta"
+    },
+    "placeholders": {
+      "age": "Introduce la edad",
+      "heightFt": "Pies",
+      "heightIn": "Pulgadas",
+      "heightCm": "Introduzca la altura en cm",
+      "weight": "Introduzca el peso en {unidad}"
+    },
+    "buttons": {
+      "calculate": "Calcular carbohidratos",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades estadounidenses (pies/pulgadas, libras)",
+      "metric": "Unidades métricas (cm, kg)"
+    },
+    "activityLevels": {
+      "sedentary": "Sedentario (poco o ningún ejercicio)",
+      "light": "Ligeramente activo (ejercicio ligero 1-3 días/semana)",
+      "moderate": "Moderadamente activo (ejercicio moderado 3-5 días/semana)",
+      "active": "Muy activo (ejercicio intenso 6-7 días/semana)",
+      "veryActive": "Extremadamente activo (ejercicio muy duro y trabajo físico)"
+    },
+    "goals": {
+      "maintenance": "Mantenimiento de peso",
+      "lose": "Pérdida de peso",
+      "gain": "Aumento de peso",
+      "athletic": "Rendimiento atlético"
+    },
+    "dietTypes": {
+      "balanced": "Dieta equilibrada (45-65% carbohidratos)",
+      "lowCarb": "Bajo en carbohidratos (20-40% carbohidratos)",
+      "keto": "Cetogénico (5-10% carbohidratos)",
+      "highCarb": "Alto en carbohidratos (60-80% de carbohidratos)"
+    }
+  },
+  "results": {
+    "carbNeeds": "Necesidades diarias de carbohidratos",
+    "caloriesFromCarbs": "Calorías de carbohidratos",
+    "carbRange": "Rango de carbohidratos recomendado",
+    "carbResultsTitle": "Resultados de carbohidratos"
+  },
+  "educational": {
+    "carbInfo": "Información de carbohidratos",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos nutricionales",
+    "carbFacts": {
+      "function": {
+        "title": "Función de carbohidratos",
+        "description": "Fuente de energía primaria para el cerebro y los músculos, especialmente durante el ejercicio."
+      },
+      "types": {
+        "title": "Tipos de carbohidratos",
+        "description": "Carbohidratos simples (azúcares) y carbohidratos complejos (almidones y fibra)"
+      },
+      "recommendations": {
+        "title": "Recomendaciones dietéticas",
+        "description": "45-65% del total de calorías diarias deben provenir de carbohidratos"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones nutricionales únicamente.",
+      "individual": "Las necesidades de carbohidratos varían según factores individuales y condiciones de salud."
+    },
+    "importantNotesList": [
+      "Generalmente se prefieren los carbohidratos complejos a los azúcares simples.",
+      "Los atletas pueden requerir una mayor ingesta de carbohidratos para su rendimiento",
+      "Los atletas pueden requerir una mayor ingesta de carbohidratos para su rendimiento",
+      "Considere el contenido de fibra al calcular los carbohidratos netos."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingresa tu información para calcular las necesidades de carbohidratos",
+    "resultMessage": "Sus necesidades diarias de carbohidratos se muestran a continuación.",
+    "assessmentResult": "Resultado del cálculo de carbohidratos:",
+    "carbAnalysis": "Análisis de carbohidratos"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de la ingesta de carbohidratos basadas en pautas nutricionales generales. Las necesidades individuales pueden variar según las condiciones de salud, los medicamentos y los requisitos dietéticos específicos."
+  },
+  "seekHelp": {
+    "title": "Recursos nutricionales",
+    "content": "Para obtener asesoramiento nutricional personalizado y planificación dietética, consulte a dietistas registrados o profesionales de la salud con experiencia en ciencias nutricionales y necesidades de salud individuales."
+  },
+  "errors": {
+    "age": "Por favor ingresa una edad válida (1-120)",
+    "gender": "Por favor seleccione género",
+    "heightFt": "Por favor introduce pies válidos",
+    "heightIn": "Por favor ingrese pulgadas válidas (0-11)",
+    "heightCm": "Por favor introduzca una altura válida en cm.",
+    "weight": "Por favor introduce un peso válido",
+    "activityLevel": "Por favor seleccione el nivel de actividad",
+    "goal": "Seleccione un objetivo dietético",
+    "dietType": "Por favor seleccione un tipo de dieta"
+  },
+  "tooltips": {
+    "age": "La edad afecta la tasa metabólica y las necesidades nutricionales.",
+    "height": "Tu medida de altura actual",
+    "weight": "Tu peso corporal actual",
+    "activityLevel": "Su nivel de actividad regular afecta las necesidades energéticas",
+    "goal": "Su objetivo dietético determina la distribución de macronutrientes",
+    "dietType": "El tipo de dieta seleccionado afecta las recomendaciones de carbohidratos"
+  },
+  "carbohydrate_calculation_0": "Cálculo de carbohidratos",
+  "enter_your_details_to_calculate_daily_carbohydrate_1": "Ingrese sus datos para calcular los requerimientos diarios de carbohidratos",
+  "unit_system_2": "Sistema de unidades",
+  "us_ftin_lbs_3": "Estados Unidos (pies/pulgadas, libras)",
+  "metric_cm_kg_4": "Métrico (cm, kg)",
+  "age_years_5": "Edad (años)",
+  "gender_6": "Género",
+  "male_7": "Masculino",
+  "female_8": "Femenino",
+  "height_9": "Altura",
+  "ft_10": "pie",
+  "in_11": "en",
+  "height_cm_12": "Altura (cm)",
+  "weight_13": "Peso (",
+  "activity_level_14": "Nivel de actividad",
+  "bmr_formula_15": "Fórmula TMB",
+  "mifflinst_jeor_recommended_16": "Mifflin-St Jeor (recomendado)",
+  "most_accurate_for_general_population_17": "Más preciso para la población general",
+  "katchmcardle_18": "Katch-McArdle",
+  "more_accurate_if_body_fat_is_known_19": "Más exacto si se conoce el porcentaje de grasa corporal",
+  "body_fat_percentage_20": "Porcentaje de grasa corporal (%)",
+  "calculate_21": "Calcular",
+  "reset_22": "Reiniciar",
+  "daily_carbs_23": "Carbohidratos diarios",
+  "g_24": "gramo",
+  "g_per_kg_body_weight_25": "g por kg de peso corporal",
+  "enter_your_details_to_calculate_daily_carbohydrate_26": "Introduce tus datos para calcular las necesidades diarias de carbohidratos.",
+  "your_carbohydrate_requirements_27": "Sus necesidades de carbohidratos",
+  "daily_carbohydrate_needs_28": "Necesidades diarias de carbohidratos",
+  "g_29": "gramo",
+  "target_carbs_30": "Carbohidratos objetivo",
+  "gkg_31": "g/kg",
+  "per_body_weight_32": "Por peso corporal",
+  "carb_calories_33": "Calorías de carbohidratos",
+  "of_total_calories_34": "De calorías totales",
+  "range_35": "Rango:",
+  "g_36": "gramo -",
+  "g_37": "gramo",
+  "per_day_38": "por dia",
+  "calculation_details_39": "Detalles del cálculo",
+  "metabolic_calculations_40": "Cálculos metabólicos",
+  "bmr_41": "TMB:",
+  "caloriesday_42": "calorias/dia",
+  "tdee_43": "TDEE:",
+  "caloriesday_44": "calorias/dia",
+  "activity_level_45": "Nivel de actividad:",
+  "formula_used_46": "Fórmula utilizada:",
+  "carbohydrate_breakdown_47": "Desglose de carbohidratos",
+  "carb_calories_48": "Calorías de carbohidratos:",
+  "of_tdee_49": "% de GETD)",
+  "carb_grams_50": "Gramos de carbohidratos:",
+  "g_4_calg_51": "gramos (÷4 cal/g)",
+  "per_kg_body_weight_52": "Por kg de peso corporal:",
+  "gkg_53": "g/kg",
+  "recommended_range_54": "Rango recomendado:",
+  "g_55": "gramo -",
+  "g_56": "gramo",
+  "carbohydrate_guidelines_57": "Pautas de carbohidratos",
+  "carbohydrate_recommendations_58": "Recomendaciones de carbohidratos",
+  "activity_level_59": "Nivel de actividad",
+  "of_calories_60": "% de calorías",
+  "gkg_body_weight_61": "g/kg de peso corporal",
+  "sedentary_62": "Sedentario",
+  "k_4550_63": "45-50%",
+  "k_35gkg_64": "3-5 g/kg",
+  "light_activity_65": "Actividad ligera",
+  "k_5055_66": "50-55%",
+  "k_57gkg_67": "5-7 g/kg",
+  "moderate_activity_68": "Actividad moderada",
+  "k_5560_69": "55-60%",
+  "k_68gkg_70": "6-8g/kg",
+  "high_activity_71": "Alta actividad",
+  "k_6070_72": "60-70%",
+  "k_812gkg_73": "8-12 g/kg",
+  "bmr_formulas_74": "Fórmulas TMB",
+  "mifflinst_jeor_recommended_75": "Mifflin-St Jeor (recomendado)",
+  "most_accurate_for_general_population_accounts_for__76": "Más preciso para la población general, tiene en cuenta las diferencias de género",
+  "katchmcardle_77": "Katch-McArdle",
+  "more_accurate_when_body_fat_percentage_is_known_ba_78": "Más preciso cuando se conoce el porcentaje de grasa corporal, basado en la masa corporal magra",
+  "carbohydrate_types_79": "Tipos de carbohidratos",
+  "complex_carbs_80": "Carbohidratos complejos:",
+  "whole_grains_vegetables_legumes_81": "Cereales integrales, verduras, legumbres.",
+  "simple_carbs_82": "Carbohidratos simples:",
+  "fruits_dairy_refined_sugars_83": "Frutas, lácteos, azúcares refinados.",
+  "fiber_84": "Fibra:",
+  "k_2535g_daily_for_digestive_health_85": "25-35 g al día para la salud digestiva",
+  "timing_86": "Momento:",
+  "prepost_workout_for_performance_87": "Entrenamiento previo y posterior para mejorar el rendimiento",
+  "activity_multipliers_88": "Multiplicadores de actividad",
+  "sedentary_89": "Sedentario:",
+  "k_12x_bmr_desk_job_no_exercise_90": "1,2x BMR (trabajo de escritorio, sin ejercicio)",
+  "light_91": "Luz:",
+  "k_1375x_bmr_light_exercise_13week_92": "1.375x BMR (ejercicio ligero 1-3×/semana)",
+  "moderate_93": "Moderado:",
+  "k_155x_bmr_moderate_exercise_45week_94": "1,55x BMR (ejercicio moderado 4-5×/semana)",
+  "active_95": "Activo:",
+  "k_1725x_bmr_heavy_exercise_daily_96": "1.725x BMR (ejercicio intenso diario)",
+  "very_active_97": "Muy activo:",
+  "k_19x_bmr_very_heavy_exercise_98": "1,9x BMR (ejercicio muy intenso)",
+  "extra_active_99": "Extra activo:",
+  "k_20x_bmr_physical_job_exercise_100": "2.0x BMR (trabajo físico + ejercicio)"
+}

@@ -1,0 +1,117 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Comprenda su impacto fiscal con nuestra calculadora de matrimonio",
+      "content": "Casarse es emocionante, pero también conlleva importantes decisiones financieras. Nuestra Calculadora de matrimonio le ayuda a comprender el impacto fiscal del matrimonio y le muestra cómo su estado civil para efectos de la declaración, sus ingresos combinados y sus deducciones pueden afectar sus impuestos. Ya sea que tenga curiosidad acerca de una multa fiscal por matrimonio, una posible bonificación fiscal por matrimonio o cómo pueden cambiar los ingresos sujetos a impuestos después del matrimonio, esta herramienta simplifica el proceso y le permite planificar con antelación."
+    },
+    {
+      "heading": "Cómo funciona la calculadora de matrimonio",
+      "content": "Usar nuestra calculadora es rápido y fácil:",
+      "subSections": [
+        {
+          "heading": "Ingrese sus ingresos",
+          "content": "Incluya sus ingresos anuales y los ingresos de su cónyuge."
+        },
+        {
+          "heading": "Seleccione su estado civil para efectos de la declaración",
+          "content": "Elija entre casado que presenta una declaración conjunta o casado que presenta una declaración por separado."
+        },
+        {
+          "heading": "Incluir deducciones",
+          "content": "Tenga en cuenta las deducciones como la deducción estándar para parejas casadas."
+        },
+        {
+          "heading": "Ver resultados",
+          "content": "Obtenga una estimación clara de sus impuestos, ahorros potenciales y consecuencias fiscales del matrimonio."
+        }
+      ]
+    },
+    {
+      "heading": "Conceptos fiscales clave para parejas casadas",
+      "content": "Comprender los conceptos fiscales clave es fundamental para maximizar los beneficios:",
+      "subSections": [
+        {
+          "heading": "Presentación conjunta o por separado",
+          "content": "La presentación conjunta a menudo resulta en tasas impositivas más bajas y más créditos, mientras que la presentación por separado puede generar tasas impositivas más altas y menos deducciones."
+        },
+        {
+          "heading": "Deducción estándar para parejas casadas",
+          "content": "En 2025, las reglas del IRS proporcionan una deducción estándar más alta cuando se presenta una declaración conjunta."
+        },
+        {
+          "heading": "Tramos impositivos para parejas casadas",
+          "content": "Sus ingresos combinados determinan qué tramos impositivos se aplican, lo que afecta su obligación tributaria general."
+        },
+        {
+          "heading": "Multa por impuesto al matrimonio versus bonificación",
+          "content": "Se produce una multa cuando los ingresos combinados lo empujan a un nivel más alto, mientras que se produce una bonificación si la presentación conjunta lo califica para tasas impositivas más bajas."
+        },
+        {
+          "heading": "Impacto en la declaración de impuestos",
+          "content": "Los cambios en el estado civil, las deducciones y los créditos influyen en los ingresos sujetos a impuestos después del matrimonio."
+        }
+      ]
+    },
+    {
+      "heading": "Consejos prácticos sobre impuestos para recién casados",
+      "content": "Estrategias útiles para parejas de recién casados:",
+      "subSections": [
+        {
+          "heading": "Planifique con anticipación",
+          "content": "Utilice nuestra calculadora de impuestos sobre la renta y el matrimonio para estimar sus impuestos antes de presentar la declaración."
+        },
+        {
+          "heading": "Considere la planificación fiscal",
+          "content": "Ajustar retenciones y aportaciones a la jubilación para optimizar el ahorro."
+        },
+        {
+          "heading": "Seguimiento de deducciones",
+          "content": "Incluya deducciones para parejas casadas como intereses hipotecarios, créditos educativos o gastos de cuidado de niños."
+        },
+        {
+          "heading": "Utilice software de impuestos",
+          "content": "El software de presentación de impuestos para parejas casadas puede simplificar los cálculos y garantizar la precisión."
+        },
+        {
+          "heading": "Manténgase al tanto de los plazos",
+          "content": "Conozca los plazos de presentación de impuestos para parejas casadas para evitar sanciones."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de impuestos matrimoniales?",
+      "a": "Una calculadora de impuestos matrimoniales estima su obligación tributaria después del matrimonio, teniendo en cuenta sus ingresos, estado civil y deducciones combinados."
+    },
+    {
+      "q": "¿Cómo afecta la presentación conjunta o por separado a los impuestos?",
+      "a": "La presentación conjunta a menudo proporciona beneficios fiscales, como tasas más bajas y mayores deducciones, mientras que la presentación por separado puede limitar los créditos y aumentar la obligación tributaria."
+    },
+    {
+      "q": "¿Qué es una multa fiscal por matrimonio?",
+      "a": "Ocurre cuando la combinación de ingresos empuja a una pareja a una categoría impositiva más alta, lo que resulta en impuestos más altos que si presentaran sus declaraciones individualmente."
+    },
+    {
+      "q": "¿Qué es una bonificación fiscal por matrimonio?",
+      "a": "Se obtiene una ventaja cuando la presentación conjunta reduce la tasa impositiva general, lo que le permite ahorrar dinero en comparación con la presentación por separado."
+    },
+    {
+      "q": "¿Cómo pueden los recién casados ​​optimizar sus impuestos?",
+      "a": "Ajustando retenciones, rastreando deducciones, planificando contribuciones y utilizando software de impuestos para mayor precisión."
+    },
+    {
+      "q": "¿Cuáles serán las deducciones estándar para parejas casadas en 2025?",
+      "a": "La deducción estándar para las parejas casadas que presentan una declaración conjunta en 2025 es más alta que para los contribuyentes solteros, lo que reduce los ingresos imponibles y los impuestos."
+    },
+    {
+      "q": "¿Cuáles son las opciones de presentación de impuestos para parejas casadas?",
+      "a": "Las opciones de presentación incluyen matrimonio que presenta una declaración conjunta o casado que presenta una declaración por separado, cada uno con diferentes pros y contras."
+    },
+    {
+      "q": "¿Cómo puede ayudar un estimador de declaraciones de impuestos conjunto?",
+      "a": "Proporciona una visión clara de sus ingresos sujetos a impuestos después del matrimonio, lo que le ayuda a identificar ahorros potenciales y planificar las implicaciones fiscales del matrimonio en 2025."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist ein GPA-Rechner?",
+      "content": "Ein GPA-Rechner ist ein kostenloses Online-Tool, das Schülern hilft, ihren Notendurchschnitt (GPA) schnell und genau zu berechnen. Durch die Eingabe von Kursnoten und Kreditstunden wird ein gewichteter GPA berechnet und das Risiko manueller Fehler ausgeschlossen."
+    },
+    {
+      "heading": "So funktioniert der GPA-Rechner",
+      "subSections": [
+        {
+          "heading": "Eingaben erforderlich",
+          "content": "Buchstabennoten für jeden Kurs (A, B+, B usw.), Kreditstunden für jeden Kurs und optionale Auswahl der Bewertungsskala."
+        },
+        {
+          "heading": "Berechnungsmethode",
+          "content": "Der Rechner rechnet jede Buchstabennote in Notenpunkte um, multipliziert sie mit Kreditstunden und dividiert die Gesamtnotenpunkte durch die Gesamtpunktezahl, um den gewichteten Notendurchschnitt zu berechnen."
+        },
+        {
+          "heading": "Was als nächstes passiert",
+          "content": "Nachdem Sie auf „Berechnen“ geklickt haben, erhalten Sie sofort Ihren gewichteten GPA zusammen mit einer klaren Aufschlüsselung der Berechnung."
+        }
+      ]
+    },
+    {
+      "heading": "Warum einen GPA-Rechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Genaue GPA-Schätzung",
+          "content": "Beseitigt manuelle Rechenfehler und stellt einen korrekten GPA gemäß Standardformeln sicher."
+        },
+        {
+          "heading": "Unterstützung mehrerer Kurse",
+          "content": "Fügen Sie so viele Kurse hinzu, wie für ein Semester oder ein ganzes akademisches Jahr erforderlich sind."
+        },
+        {
+          "heading": "Kumulatives GPA-Tracking",
+          "content": "Kombinieren Sie ganz einfach Semester-GPAs und Kreditstunden, um den gesamten kumulativen GPA zu berechnen."
+        },
+        {
+          "heading": "Einfache Notenplanung",
+          "content": "Simulieren Sie zukünftige Noten, um vorherzusagen, welchen Notendurchschnitt Sie benötigen, um Ihre akademischen Ziele zu erreichen."
+        },
+        {
+          "heading": "Bequemlichkeit",
+          "content": "Schnell, kostenlos, mobilfreundlich und funktioniert ohne Installation direkt in Ihrem Browser."
+        }
+      ]
+    },
+    {
+      "heading": "Beispiel-GPA-Berechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Einzelnes Semester",
+          "content": "Kurs 1: A (4 Credits), Kurs 2: B+ (3 Credits), Kurs 3: B (3 Credits). Ergebnis: Gewichteter GPA = 3,44."
+        },
+        {
+          "heading": "Beispiel 2 – Kumulierter GPA",
+          "content": "Semester 1: GPA 3,5 (12 Credits), Semester 2: GPA 3,8 (15 Credits). Ergebnis: Kumulierter GPA = 3,66."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein GPA-Rechner?",
+      "a": "Es berechnet Ihren GPA anhand von Noten und Kreditstunden."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, die Online-Nutzung ist völlig kostenlos."
+    },
+    {
+      "q": "Muss ich Software installieren?",
+      "a": "Nein, Sie können es direkt in jedem Webbrowser verwenden."
+    },
+    {
+      "q": "Kann es mehrere Kurse bewältigen?",
+      "a": "Ja, Sie können so viele Kurse hinzufügen, wie für einen genauen GPA erforderlich sind."
+    },
+    {
+      "q": "Unterstützt es verschiedene Bewertungsskalen?",
+      "a": "Ja, obwohl die Standardeinstellung die Skala 4,0 ist."
+    },
+    {
+      "q": "Kann ich den kumulativen GPA berechnen?",
+      "a": "Ja, durch Eingabe mehrerer Semester bzw. Lehrveranstaltungen."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, es funktioniert reibungslos auf Smartphones, Tablets und Desktops."
+    },
+    {
+      "q": "Kann es bei der Stipendienplanung helfen?",
+      "a": "Ja, es zeigt, ob Ihr GPA die Stipendienanforderungen erfüllt."
+    },
+    {
+      "q": "Wie genau ist der Rechner?",
+      "a": "Es verwendet standardmäßige gewichtete GPA-Formeln und gewährleistet so genaue Ergebnisse."
+    },
+    {
+      "q": "Kann ich zukünftige Noten simulieren?",
+      "a": "Ja, Sie können die Noten planen, die zum Erreichen eines Ziel-GPA erforderlich sind."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de conservación del momento: qué es y cómo utilizarla",
+      "content": "Una calculadora de conservación del momento es una herramienta de física en línea gratuita que le ayuda a calcular velocidades finales o valores de momento desconocidos en colisiones. Utilizando la ley de conservación del impulso, proporciona resultados rápidos y precisos sin necesidad de realizar cálculos complejos a mano."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Abre la calculadora",
+          "content": "Accede directamente en tu navegador."
+        },
+        {
+          "heading": "Entrar a misas",
+          "content": "Introduzca las masas de los objetos en colisión (m₁ y m₂)."
+        },
+        {
+          "heading": "Introduzca velocidades iniciales",
+          "content": "Sume las velocidades antes de la colisión (u₁ y u₂)."
+        },
+        {
+          "heading": "Seleccionar tipo de colisión",
+          "content": "Elija elástico, inelástico o genérico si está disponible."
+        },
+        {
+          "heading": "Introduzca la velocidad final conocida",
+          "content": "Deje la variable desconocida en blanco; la calculadora lo resolverá."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Vea instantáneamente las velocidades finales o el impulso desconocido."
+        },
+        {
+          "heading": "Consultar unidades",
+          "content": "Asegúrese de que todas las unidades coincidan con el sistema que está utilizando."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Resultados instantáneos",
+          "content": "Obtenga cálculos inmediatamente sin fórmulas manuales."
+        },
+        {
+          "heading": "Múltiples salidas",
+          "content": "Calcule velocidades finales, momento total o variables desconocidas."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en teléfonos, tabletas y computadoras de escritorio."
+        },
+        {
+          "heading": "Gratis y fácil de usar",
+          "content": "No se requieren descargas ni registro."
+        },
+        {
+          "heading": "Educativo",
+          "content": "Ayuda a comprender claramente los conceptos de impulso y colisión."
+        },
+        {
+          "heading": "Admite unidades métricas e imperiales",
+          "content": "Flexible para usuarios de todo el mundo."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Estudiantes y profesores",
+          "content": "Resolver tareas, verificar problemas del aula o demostrar conceptos."
+        },
+        {
+          "heading": "Entusiastas de la física",
+          "content": "Experimente con diferentes combinaciones de masa y velocidad."
+        },
+        {
+          "heading": "Aficionados y diseñadores de juegos",
+          "content": "Simule colisiones realistas para animaciones o juegos."
+        },
+        {
+          "heading": "Análisis de escenarios",
+          "content": "Compare varias configuraciones para ver cómo se conserva el impulso."
+        },
+        {
+          "heading": "Demostraciones educativas",
+          "content": "Ilustre claramente la ley de conservación del momento."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: colisión elástica",
+          "content": "Masa m₁: 2 kg | Velocidad u₁: 5 m/s | Masa m₂: 3 kg | Velocidad u₂: -2 m/s | Velocidades finales: v₁ = -1 m/s, v₂ = 4 m/s"
+        },
+        {
+          "heading": "Ejemplo 2: colisión inelástica",
+          "content": "Masa m₁: 4 kg | Velocidad u₁: 3 m/s | Masa m₂: 2 kg | Velocidad u₂: 1 m/s | Velocidad final combinada: 2,33 m/s"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de conservación del momento?",
+      "a": "Calcula velocidades finales o valores de momento desconocidos en colisiones utilizando la ley de conservación del momento."
+    },
+    {
+      "q": "¿Esta calculadora es gratuita?",
+      "a": "Sí, su uso en línea es completamente gratuito."
+    },
+    {
+      "q": "¿Necesito software o instalación?",
+      "a": "No, se ejecuta directamente en su navegador."
+    },
+    {
+      "q": "¿Puedo usarlo en dispositivos móviles?",
+      "a": "Sí, es totalmente compatible con dispositivos móviles."
+    },
+    {
+      "q": "¿Qué insumos se requieren?",
+      "a": "Masas, velocidades iniciales, tipo de colisión y, opcionalmente, una velocidad final."
+    },
+    {
+      "q": "¿Qué principios de la física se utilizan?",
+      "a": "Se basa en la ley de conservación del impulso para sistemas aislados."
+    },
+    {
+      "q": "¿Es adecuado para estudiantes?",
+      "a": "Sí, es ideal para aprender, hacer tareas y exámenes."
+    },
+    {
+      "q": "¿Puede manejar diferentes tipos de colisiones?",
+      "a": "Sí, se admiten colisiones elásticas, inelásticas y genéricas."
+    },
+    {
+      "q": "¿Puede manejar diferentes unidades?",
+      "a": "Sí, se admiten unidades métricas e imperiales."
+    },
+    {
+      "q": "¿Qué tan preciso es?",
+      "a": "Proporciona resultados aproximados para situaciones ideales; Las colisiones del mundo real pueden variar debido a la pérdida de energía, la fricción o fuerzas externas."
+    }
+  ]
+}

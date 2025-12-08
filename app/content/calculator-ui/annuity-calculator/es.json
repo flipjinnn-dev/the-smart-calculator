@@ -1,0 +1,149 @@
+{
+  "pageTitle": "Calculadora de anualidades",
+  "pageDescription": "Calcule el valor futuro de una anualidad basándose en contribuciones regulares y tasas de interés para la planificación de la jubilación y el análisis de inversiones.",
+  "form": {
+    "labels": {
+      "presentValue": "Valor presente (inversión inicial)",
+      "paymentAmount": "Monto del pago",
+      "interestRate": "Tasa de interés anual",
+      "numberOfPeriods": "Número de períodos",
+      "paymentFrequency": "Frecuencia de pago",
+      "compoundingFrequency": "Frecuencia de capitalización",
+      "paymentTiming": "Momento de pago"
+    },
+    "placeholders": {
+      "presentValue": "Ingrese el valor presente o la inversión inicial",
+      "paymentAmount": "Ingrese el monto del pago",
+      "interestRate": "Introduzca la tasa de interés anual (%)",
+      "numberOfPeriods": "Introduzca el número de períodos"
+    },
+    "buttons": {
+      "calculate": "Calcular el valor de la anualidad",
+      "reset": "Reiniciar"
+    },
+    "paymentFrequencies": {
+      "annually": "Anualmente",
+      "semiAnnually": "Semestralmente",
+      "quarterly": "Trimestral",
+      "monthly": "Mensual"
+    },
+    "paymentTimings": {
+      "beginning": "Inicio del período",
+      "end": "Fin del periodo"
+    }
+  },
+  "results": {
+    "futureValue": "Valor futuro",
+    "totalPayments": "Pagos totales",
+    "totalInterest": "Interés total ganado",
+    "annuityResultsTitle": "Resultados del cálculo de anualidades"
+  },
+  "educational": {
+    "annuityInfo": "Información de anualidad",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "annuityFacts": {
+      "definition": {
+        "title": "Definición de anualidad",
+        "description": "Producto financiero que proporciona pagos regulares durante un período específico a cambio de una suma global inicial o una serie de pagos."
+      },
+      "types": {
+        "title": "Tipos de anualidades",
+        "description": "Las anualidades fijas ofrecen rendimientos garantizados; Las anualidades variables ofrecen rendimientos basados ​​en el mercado."
+      },
+      "presentValue": {
+        "title": "Cálculo del valor presente",
+        "description": "Determina el valor actual de una serie de pagos futuros."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones del valor de la anualidad únicamente.",
+      "actual": "Los valores reales de las anualidades pueden variar según los términos del contrato y las condiciones del mercado."
+    },
+    "importantNotesList": [
+      "Considere las tarifas y los cargos de rescate antes de comprar anualidades",
+      "Considere las tarifas y los cargos de rescate antes de comprar anualidades",
+      "Considere las tarifas y los cargos de rescate antes de comprar anualidades",
+      "Las anualidades variables ofrecen potencial de crecimiento pero conllevan riesgos de inversión"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su anualidad para calcular el valor futuro",
+    "resultMessage": "Los resultados del cálculo de su anualidad se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de la anualidad:",
+    "annuityAnalysis": "Análisis de anualidades"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones del valor de las anualidades basadas en fórmulas matemáticas. Los valores reales de las anualidades pueden variar según los términos del contrato, las tarifas, las condiciones del mercado y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para obtener asesoramiento personalizado sobre anualidades y planificación de la jubilación, consulte a asesores financieros o profesionales de seguros con experiencia en productos de anualidades y circunstancias financieras individuales."
+  },
+  "errors": {
+    "presentValue": "Por favor ingrese un valor actual válido",
+    "paymentAmount": "Por favor ingresa un monto de pago válido",
+    "interestRate": "Por favor ingrese una tasa de interés anual válida",
+    "numberOfPeriods": "Por favor ingrese un número válido de períodos",
+    "paymentFrequency": "Por favor seleccione una frecuencia de pago",
+    "compoundingFrequency": "Por favor seleccione una frecuencia de capitalización",
+    "paymentTiming": "Por favor seleccione el momento del pago"
+  },
+  "tooltips": {
+    "presentValue": "Inversión inicial a tanto alzado en la anualidad",
+    "paymentAmount": "Monto del pago regular aportado a la anualidad",
+    "interestRate": "Tasa de interés o tasa de rendimiento anual esperada",
+    "numberOfPeriods": "Número total de periodos de pago",
+    "paymentFrequency": "¿Con qué frecuencia se realizan los pagos?",
+    "compoundingFrequency": "¿Con qué frecuencia se compone el interés?",
+    "paymentTiming": "Si los pagos se realizan al principio o al final del período."
+  },
+  "calculator_inputs_0": "Entradas de la calculadora",
+  "starting_principal_1": "Director inicial",
+  "initial_investment_amount_2": "Monto de inversión inicial",
+  "regular_additions_3": "Adiciones regulares",
+  "annual_addition_4": "Adición Anual",
+  "monthly_addition_5": "Adición mensual",
+  "add_at_each_periods_beginning_annuity_due_6": "Agregar al inicio de cada período (Anualidad vencida)",
+  "when_enabled_deposits_are_made_at_the_beginning_of_7": "Cuando está habilitado, los depósitos se realizan al comienzo de cada período y generan intereses de inmediato.",
+  "growth_parameters_8": "Parámetros de crecimiento",
+  "annual_growth_rate_9": "Tasa de crecimiento anual (%)",
+  "after_years_10": "Después de años",
+  "note_11": "Nota:",
+  "monthly_deposits_use_monthly_compounding_annual_de_12": "Los depósitos mensuales utilizan capitalización mensual; depósitos anuales utilizan anual\n                        compuesto.",
+  "calculate_13": "Calcular",
+  "results_14": "Resultados",
+  "end_balance_total_additions_interest_earned_15": "Saldo final, adiciones totales, intereses devengados",
+  "final_balance_after_16": "Saldo final después",
+  "years_17": "Años:",
+  "based_on_18": "Residencia en",
+  "annual_growth_rate_with_19": "% tasa de crecimiento anual con",
+  "ofperiod_deposits_20": "depósitos del periodo",
+  "starting_principal_21": "Director inicial",
+  "total_additions_22": "Adiciones totales",
+  "interest_earned_23": "Intereses ganados",
+  "interest_percentage_24": "Porcentaje de interés",
+  "monthly_schedule_25": "Horario mensual",
+  "accumulation_schedule_26": "Calendario de acumulación",
+  "csv_27": "CSV",
+  "month_28": "Mes",
+  "starting_29": "A partir de",
+  "interest_30": "Interés",
+  "monthly_add_31": "Agregar mensualmente",
+  "annual_add_32": "Suma Anual",
+  "ending_33": "Final",
+  "enter_your_annuity_information_to_see_your_results_34": "Ingrese la información de su anualidad para ver sus resultados",
+  "formulas_notes_35": "Fórmulas y notas",
+  "future_value_of_starting_principal_36": "Valor futuro del capital inicial",
+  "fvprincipal_p_1_r_37": "FV_principal = P₀ × (1 + r)ⁿ",
+  "annual_additions_ordinary_38": "Adiciones Anuales (Ordinarias)",
+  "fvannual_aannual_1_r_1_r_39": "FV_anual = A_anual × [(1 + r)ⁿ - 1] / r",
+  "annual_additions_annuity_due_40": "Adiciones Anuales (Anualidad Vencida)",
+  "fvannualdue_fvannual_1_r_41": "FV_anual_vencido = FV_anual × (1 + r)",
+  "monthly_additions_42": "Adiciones mensuales",
+  "rm_1_r112_1_43": "r_m = (1 + r)^(1/12) - 1",
+  "fvmonthly_amonthly_1_rmn_1_rm_44": "FV_mensual = A_mensual × [(1 + r_m)^N - 1] / r_m"
+}

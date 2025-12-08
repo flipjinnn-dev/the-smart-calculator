@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for dry-to-cooked-pasta-converter
 const drytocookedpastaconverterMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }dry-to-cooked-pasta-converter`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }dry-to-cooked-pasta-converter`,
       languages: {
         'en': getCanonicalUrl('dry-to-cooked-pasta-converter', 'en'),
         'pt-BR': getCanonicalUrl('dry-to-cooked-pasta-converter', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }dry-to-cooked-pasta-converter`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }dry-to-cooked-pasta-converter`,
     },
   };
 }
@@ -70,5 +69,156 @@ export default async function DryToCookedPastaConverterLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Dry to Cooked Pasta Converter",
+    "url": "https://www.thesmartcalculator.com/food/dry-to-cooked-pasta-converter",
+    "description": "Free online Dry to Cooked Pasta Converter to estimate cooked pasta weight from dry pasta for accurate meal planning, portion control, and recipe preparation.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Dry to Cooked Pasta Converter",
+        "applicationCategory": "CalculatorApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Instant conversion from dry pasta to cooked weight",
+          "Supports various pasta types: spaghetti, penne, fusilli, and more",
+          "Accurate estimates using average expansion ratios",
+          "Mobile-friendly and easy-to-use",
+          "Ideal for home cooks, meal preppers, and professional chefs"
+        ],
+        "url": "https://www.thesmartcalculator.com/food/dry-to-cooked-pasta-converter"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Dry to Cooked Pasta Converter",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Dry to Cooked Pasta Converter",
+            "text": "Choose the pasta type for accurate conversion (long, short, or filled)."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Dry to Cooked Pasta Converter",
+            "text": "Input the dry pasta weight in grams, ounces, or cups."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Dry to Cooked Pasta Converter",
+            "text": "Choose how you want the cooked pasta weight displayed."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Dry to Cooked Pasta Converter",
+            "text": "View the estimated cooked pasta weight instantly."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Dry to Cooked Pasta Converter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It estimates how much cooked pasta you will get from a given amount of dry pasta."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it work for all pasta types?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it supports most common pasta types such as spaghetti, penne, and fusilli."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is ingredient selection important?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, choosing the correct pasta type improves conversion accuracy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the result exact?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, the calculator provides an estimate; actual weight may vary based on cooking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I convert cups to cooked weight?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, both weight and volume inputs are supported."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this calculator mobile-friendly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it works on all devices including smartphones, tablets, and desktops."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it free to use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the Dry to Cooked Pasta Converter is free and works online with no downloads."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I plan meals using this tool?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it helps estimate portions for individual meals or bulk cooking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should use this calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Home cooks, meal preppers, diet-conscious individuals, and professional chefs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why use this converter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It ensures proper portion control, reduces cooking errors, and simplifies meal planning."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="dry-to-cooked-pasta-converter-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

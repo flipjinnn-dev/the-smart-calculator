@@ -1,0 +1,101 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Co to jest przelicznik stóp kwadratowych na jardy sześcienne?",
+      "content": "Kalkulator ten przelicza powierzchnię w stopach kwadratowych i głębokość materiału na objętość w metrach sześciennych, pomagając szybko i dokładnie oszacować wymagania dotyczące gleby, ściółki, żwiru lub betonu."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "content": "Aby łatwo oszacować metry sześcienne, wykonaj następujące kroki:",
+      "subSections": [
+        {
+          "heading": "Kroki",
+          "content": "1. Wprowadź obszar – wprowadź całkowitą stopę kwadratową lub długość × szerokość.\n2. Wprowadź głębokość – określ głębokość materiału w stopach.\n3. Kliknij Oblicz – natychmiast uzyskaj metry sześcienne.\n4. Wskazówka – w przypadku nierównych powierzchni użyj średniej głębokości."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "content": "To narzędzie umożliwia szybkie i dokładne obliczenia jardów sześciennych:",
+      "subSections": [
+        {
+          "heading": "Cechy",
+          "content": "- Natychmiastowa konwersja powierzchni i głębokości na metry sześcienne.\n- Proste pola wejściowe dla obszaru lub bezpośredniej długości × szerokości.\n- Nadaje się do gleby, ściółki, żwiru, piasku i betonu.\n- Interfejs w pełni przyjazny dla urządzeń mobilnych.\n- Pomaga dokładnie zaplanować ilość materiału i koszt."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "content": "Ludzie używają tego kalkulatora do różnych rzeczywistych projektów:",
+      "subSections": [
+        {
+          "heading": "Przykłady",
+          "content": "- Budownictwo i architektura krajobrazu: oszacuj objętość betonu, żwiru lub gleby.\n- Ogrodnictwo: Oblicz ściółkę lub kompost potrzebny do łóżek ogrodowych.\n- Projekty DIY: Oszacuj materiały na tarasy, ścieżki lub małe wykopaliska.\n- Zamawianie materiałów luzem: Przeliczanie powierzchni i głębokości na metry sześcienne dla dostawców.\n- Planowanie budżetu: Zaplanuj koszty i wymagania materiałowe przed zakupem."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "content": "Oto przykładowe obliczenia oparte na rzeczywistych scenariuszach:",
+      "subSections": [
+        {
+          "heading": "Przykłady",
+          "content": "- Łóżko ogrodowe: powierzchnia 100 stóp², głębokość 0,5 stopy → objętość ≈ 1,85 jarda³.\n- Żwir podjazdowy: powierzchnia 500 ft², głębokość 0,25 ft → objętość ≈ 4,63 jarda³.\n- Płyta betonowa: powierzchnia 200 stóp², głębokość 0,33 stopy → objętość ≈ 2,44 jarda³."
+        }
+      ]
+    },
+    {
+      "heading": "Wskazówki i najlepsze praktyki",
+      "content": "Przydatne wskazówki, które pomogą Ci poprawić szacunki materiałów:",
+      "subSections": [
+        {
+          "heading": "Porady",
+          "content": "- Zawsze zaokrąglaj szacunki materiałów, aby uniknąć niedoborów.\n- Jeśli podłoże jest nierówne, użyj średniej głębokości.\n- Prawidłowo przelicz głębokość (w razie potrzeby cale → stopy).\n- Dokładnie sprawdź obszar przed zamówieniem materiałów sypkich.\n- Porównaj ceny metrów sześciennych dostawców pod kątem oszczędności."
+        }
+      ]
+    },
+    {
+      "heading": "Zastrzeżenie",
+      "content": "Ten kalkulator jardów sześciennych zapewnia przybliżone wyniki. Osiadanie materiału, wilgoć, zagęszczenie i zmiany dostawców mogą mieć wpływ na rzeczywiste ilości. Aby uzyskać szczegółowe wymagania, należy skonsultować się z wykonawcą lub dostawcą materiałów."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do czego służy ten kalkulator?",
+      "a": "Przelicza stopy kwadratowe i głębokość materiału (w stopach) na jardy sześcienne."
+    },
+    {
+      "q": "Dlaczego go używać?",
+      "a": "Aby szybko oszacować, ile ziemi, żwiru, ściółki, piasku lub betonu potrzeba do realizacji projektu."
+    },
+    {
+      "q": "Czy mogę obliczyć powierzchnię, używając długości × szerokości?",
+      "a": "Tak, kalkulator może automatycznie obliczyć powierzchnię."
+    },
+    {
+      "q": "Czy mogę używać różnych głębokości?",
+      "a": "Tak, wprowadź dowolną głębokość w stopach. W przypadku cali najpierw przelicz je na stopy."
+    },
+    {
+      "q": "Czy sprawdzi się na nierównych powierzchniach?",
+      "a": "Tak. Aby uzyskać najlepsze rezultaty, użyj średniej głębokości."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa płynnie na telefonach, tabletach i komputerach stacjonarnych."
+    },
+    {
+      "q": "Czy może to pomóc w planowaniu budżetu?",
+      "a": "Tak, pomnóż szacunkową wartość jarda sześciennego przez koszt metra, aby zaplanować wydatki."
+    },
+    {
+      "q": "Czy korzystanie z niego jest bezpłatne?",
+      "a": "Tak, całkowicie za darmo, bez pobierania i rejestracji."
+    },
+    {
+      "q": "Kto powinien korzystać z tego kalkulatora?",
+      "a": "Wykonawcy, ogrodnicy, architekci krajobrazu, właściciele domów i entuzjaści projektów DIY."
+    }
+  ]
+}

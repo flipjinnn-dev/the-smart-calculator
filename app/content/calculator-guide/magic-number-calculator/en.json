@@ -1,0 +1,127 @@
+{
+    "color": "orange",
+    "sections": [
+        {
+            "heading": "Magic Number Calculator: Simple & Accurate Guide",
+            "content": "A Magic Number Calculator helps baseball fans quickly determine how many wins (or opponent losses) a team needs to secure a playoff spot or win their division. It uses your team’s wins, rival team’s losses, and total games to automatically compute the magic number."
+        },
+        {
+            "heading": "How to Use the Magic Number Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Team Wins (W)",
+                    "content": "Input your team’s total wins so far."
+                },
+                {
+                    "heading": "Enter Rival Losses (L)",
+                    "content": "Input the second-place or rival team’s total losses."
+                },
+                {
+                    "heading": "Enter Total Games",
+                    "content": "Input the total number of regular-season games."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Instantly get the magic number."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Fast & Accurate",
+                    "content": "Quickly calculates magic number with precision."
+                },
+                {
+                    "heading": "Beginner-Friendly",
+                    "content": "Easy interface for fans and analysts."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on all devices."
+                },
+                {
+                    "heading": "Ideal for MLB Fans & Coaches",
+                    "content": "Track playoff chances efficiently."
+                },
+                {
+                    "heading": "Free",
+                    "content": "Zero cost, no login required."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Playoff Tracking",
+                    "content": "Monitor standings and potential clinching scenarios."
+                },
+                {
+                    "heading": "Team Comparison",
+                    "content": "Compare teams during the final stretch of the season."
+                },
+                {
+                    "heading": "Sports Analysis",
+                    "content": "Predict outcomes and assess team performance."
+                },
+                {
+                    "heading": "Real-Time Decision-Making",
+                    "content": "Helps fans and broadcasters track progress live."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculation",
+            "subSections": [
+                {
+                    "heading": "Example",
+                    "content": "Your team: 88 wins, Rival: 67 losses, Season games: 162 → Magic Number = 162 − (88 + 67) + 1 = 8. This means your team needs 8 more wins or opponent losses to clinch the division."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Magic Number in baseball?",
+            "a": "It’s the number of wins or opponent losses needed for a team to secure a playoff spot."
+        },
+        {
+            "q": "How does the Magic Number Calculator work?",
+            "a": "It uses the formula: Magic Number = Total Games − (Team Wins + Rival Losses) + 1."
+        },
+        {
+            "q": "What information do I need to calculate it?",
+            "a": "Team wins, rival team losses, and total season games."
+        },
+        {
+            "q": "Is this tool useful for MLB only?",
+            "a": "Mostly yes, but it can be used for any baseball league with similar rules."
+        },
+        {
+            "q": "Does the magic number decrease after every game?",
+            "a": "Yes, a team win or opponent loss lowers the number."
+        },
+        {
+            "q": "Can multiple rivals affect the magic number?",
+            "a": "Yes, but the calculation usually focuses on the closest competitor."
+        },
+        {
+            "q": "Can I use this calculator on mobile?",
+            "a": "Absolutely, it works smoothly on all devices."
+        },
+        {
+            "q": "Is the magic number the same as elimination number?",
+            "a": "No, magic number shows how close a team is to winning; elimination number shows how close a team is to being knocked out."
+        },
+        {
+            "q": "Do I need baseball knowledge to use this tool?",
+            "a": "Not at all, the calculator is beginner-friendly."
+        },
+        {
+            "q": "Is the calculator free?",
+            "a": "Yes, 100% free with unlimited use."
+        }
+    ]
+}

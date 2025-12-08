@@ -1,0 +1,131 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "What is a Mean Value Theorem Calculator?",
+            "content": "The Mean Value Theorem (MVT) Calculator is an online tool that finds the point c where the instantaneous rate of change equals the average rate of change over an interval. It’s perfect for students, teachers, and professionals to quickly verify calculations."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter the Function",
+                    "content": "Input the function f(x) you want to analyze, e.g., f(x) = x^2 + 3x + 2."
+                },
+                {
+                    "heading": "Enter the Interval [a, b]",
+                    "content": "Provide the starting point a and ending point b of the interval."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "The calculator instantly finds the value(s) of c where the slope of the tangent equals the slope of the secant line over [a,b]."
+                },
+                {
+                    "heading": "Review Results",
+                    "content": "The output shows the exact value(s) of c, making verification quick and easy."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features of the Calculator",
+            "subSections": [
+                {
+                    "heading": "Free Online Access",
+                    "content": "No installation or registration required."
+                },
+                {
+                    "heading": "Instant Calculations",
+                    "content": "Get results in seconds."
+                },
+                {
+                    "heading": "Supports Multiple Functions",
+                    "content": "Works for polynomials, trigonometric, exponential, and logarithmic functions."
+                },
+                {
+                    "heading": "Easy-to-Use Interface",
+                    "content": "Designed for both beginners and advanced users."
+                },
+                {
+                    "heading": "Accurate Results",
+                    "content": "Uses symbolic computation to provide precise values of c."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Education",
+                    "content": "Helps students understand the Mean Value Theorem conceptually and practically."
+                },
+                {
+                    "heading": "Homework & Assignments",
+                    "content": "Solves problems quickly with accurate results."
+                },
+                {
+                    "heading": "Exams Preparation",
+                    "content": "Practice calculations efficiently."
+                },
+                {
+                    "heading": "Research & Engineering",
+                    "content": "Analyze rate of change in mathematical modeling."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1",
+                    "content": "Function: f(x) = x^2, Interval: [1, 3]\nSlope of secant: (f(3) - f(1)) / (3 - 1) = (9 - 1)/2 = 4\nDerivative: f'(x) = 2x\nSet f'(c) = 4 → 2c = 4 → c = 2"
+                },
+                {
+                    "heading": "Example 2",
+                    "content": "Function: f(x) = x^3 - 6x + 1, Interval: [0, 3]\nSlope of secant: (f(3) - f(0)) / (3 - 0) = 3.333\nDerivative: f'(x) = 3x^2 - 6\nSet f'(c) = 3.333 → Solve for c → c ≈ 1.88"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Mean Value Theorem Calculator?",
+            "a": "It is an online tool that finds the point c where the instantaneous rate of change equals the average rate of change over an interval."
+        },
+        {
+            "q": "Is the calculator free?",
+            "a": "Yes, it is a free online Mean Value Theorem calculator."
+        },
+        {
+            "q": "Which functions are supported?",
+            "a": "Polynomials, trigonometric, exponential, logarithmic, and other differentiable functions."
+        },
+        {
+            "q": "Do I need to register to use it?",
+            "a": "No registration or installation is required."
+        },
+        {
+            "q": "Can it find multiple values of c?",
+            "a": "Yes, if multiple solutions exist within the interval, the calculator shows all possible c values."
+        },
+        {
+            "q": "Is it accurate for complex functions?",
+            "a": "The calculator uses symbolic computation for precise results, but very complex or piecewise functions may require manual verification."
+        },
+        {
+            "q": "Can students use it for homework?",
+            "a": "Absolutely — it’s perfect for learning, practice, and solving assignments efficiently."
+        },
+        {
+            "q": "Does it explain the steps?",
+            "a": "Most calculators provide the derivative and slope calculation along with the result."
+        },
+        {
+            "q": "Can it replace manual calculations?",
+            "a": "It can assist, but understanding the MVT concept manually is recommended for full comprehension."
+        },
+        {
+            "q": "Where can I access it?",
+            "a": "You can access it online via any web browser without downloading any software."
+        }
+    ]
+}

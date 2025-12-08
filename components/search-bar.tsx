@@ -137,7 +137,8 @@ export default function SearchBar({ language = "en" }: SearchBarProps) {
                 language === 'br' ? "Pesquisar calculadora..." :
                   language === 'pl' ? "Szukaj kalkulatora..." :
                     language === 'de' ? "Rechner suchen..." :
-                      "Search calculator..."
+                      language === "es" ? "Buscar calculadora..." :
+                        "Search calculator..."
               }
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -176,7 +177,8 @@ export default function SearchBar({ language = "en" }: SearchBarProps) {
                         language === 'br' ? "Calculadoras Populares" :
                           language === 'pl' ? "Popularne Kalkulatory" :
                             language === 'de' ? "Beliebte Rechner" :
-                              "Popular Calculators"
+                              language === 'es' ? "Calculadoras Populares" :
+                                "Popular Calculators"
                       }
                     </p>
                   </div>
@@ -213,7 +215,8 @@ export default function SearchBar({ language = "en" }: SearchBarProps) {
                         language === 'br' ? "Nenhuma calculadora encontrada" :
                           language === 'pl' ? "Nie znaleziono kalkulatorów" :
                             language === 'de' ? "Keine Rechner gefunden" :
-                              "No calculators found"
+                              language === "es" ? "No se encontraron calculadoras" :
+                                "No calculators found"
                       }
                     </p>
                     <p className="text-sm text-gray-400 mt-2">

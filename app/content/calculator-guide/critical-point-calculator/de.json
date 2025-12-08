@@ -1,0 +1,132 @@
+{
+  "color": "Rot",
+  "sections": [
+    {
+      "heading": "Was ist ein Rechner für kritische Punkte?",
+      "content": "Ein Rechner für kritische Punkte hilft dabei, die Werte von x zu finden, bei denen die Ableitung einer Funktion Null oder undefiniert ist, und gibt mögliche Maxima, Minima oder Sattelpunkte an."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "content": "Die Verwendung eines Funktionsrechners für kritische Punkte ist einfach und effizient. Befolgen Sie diese Schritte, um genaue Ergebnisse zu erhalten.",
+      "subSections": [
+        {
+          "heading": "Schritte zur Verwendung:",
+          "content": "Geben Sie die Funktion ein: Geben Sie die mathematische Funktion in Form von x ein (z. B. f(x) = x^3 - 3x + 2). Berechnen Sie die Ableitung: Der Rechner ermittelt automatisch die erste Ableitung f'(x). Nach kritischen Punkten auflösen: Setzen Sie f'(x) = 0 und lösen Sie nach x auf, um potenzielle kritische Punkte zu finden. Identifizieren Sie kritische Werte: Ersetzen Sie x-Werte in der ursprünglichen Funktion. Kritische Punkte klassifizieren: Verwenden Sie die zweite Ableitung oder Steigungsanalyse, um lokale Minimum-, Maximum- oder Wendepunkte zu bestimmen. Visualisieren (optional): Einige Rechner bieten zum besseren Verständnis eine Grafik."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Überprüfen Sie den Bereich Ihrer Funktion immer noch einmal, um genaue Ergebnisse zu erhalten."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale des Rechners für kritische Punkte",
+      "subSections": [
+        {
+          "heading": "Automatische Ableitungsrechnung",
+          "content": "Ermittelt automatisch die Ableitung einer differenzierbaren Funktion."
+        },
+        {
+          "heading": "Erkennung kritischer Punkte",
+          "content": "Identifiziert Punkte, an denen die Ableitung Null oder undefiniert ist."
+        },
+        {
+          "heading": "Berechnung des kritischen Werts",
+          "content": "Ersetzt kritische Punkte, um genaue Funktionswerte zu erhalten."
+        },
+        {
+          "heading": "Grafische Visualisierung",
+          "content": "Zeigt ein Diagramm der Funktion mit markierten kritischen Punkten."
+        },
+        {
+          "heading": "Schritt-für-Schritt-Lösung",
+          "content": "Bietet detaillierte Lösungen zum Lernen und zur Überprüfung von Hausaufgaben."
+        },
+        {
+          "heading": "Unterstützt komplexe Funktionen",
+          "content": "Funktioniert für polynomische, trigonometrische, exponentielle und logarithmische Funktionen."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Studenten",
+          "content": "Überprüfen Sie die Hausaufgaben und verstehen Sie Ableitungen und Extrema."
+        },
+        {
+          "heading": "Ingenieure",
+          "content": "Analysieren Sie das Funktionsverhalten bei Optimierungsproblemen."
+        },
+        {
+          "heading": "Forscher",
+          "content": "Identifizieren Sie Maximal-, Minimal- und Wendepunkte in wissenschaftlichen Modellen."
+        },
+        {
+          "heading": "Händler und Analysten",
+          "content": "Verwenden Sie Funktionen, um Trends zu modellieren und kritische Wendepunkte in Daten zu finden."
+        },
+        {
+          "heading": "Pädagogen",
+          "content": "Vermitteln Sie Kalkülkonzepte anhand anschaulicher Beispiele."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Polynomfunktion",
+          "content": "Funktion: f(x) = x^3 - 6x^2 + 9x + 1\nAbleitung: f'(x) = 3x^2 - 12x + 9\nSetze f'(x)=0 → x = 1, 3\nKritische Werte: f(1) = 5, f(3) = 1\nKlassifizierung: x=1 ist ein lokales Maximum, x=3 ist ein lokales Minimum"
+        },
+        {
+          "heading": "Beispiel 2 – Trigonometrische Funktion",
+          "content": "Funktion: f(x) = sin(x) + cos(2x)\nAbleitung: f'(x) = cos(x) - 2sin(2x)\nLösen Sie f'(x)=0 → Finden Sie alle x-Werte innerhalb der Domäne.\nBerechnen Sie kritische Werte mithilfe der Originalfunktion.\nTipp: Verwenden Sie den Taschenrechner für genaue Ergebnisse bei komplexen Funktionen."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein kritischer Punkt?",
+      "a": "Ein kritischer Punkt liegt dort vor, wo die Ableitung einer Funktion Null oder undefiniert ist, was häufig auf ein lokales Maximum, Minimum oder einen Wendepunkt hinweist."
+    },
+    {
+      "q": "Wie funktioniert der Rechner für kritische Punkte?",
+      "a": "Es differenziert die Funktion automatisch, löst nach Nullen oder undefinierten Punkten und berechnet die entsprechenden Funktionswerte."
+    },
+    {
+      "q": "Kann ich es für jede Funktion verwenden?",
+      "a": "Ja, es funktioniert für polynomische, trigonometrische, exponentielle und logarithmische Funktionen."
+    },
+    {
+      "q": "Ist es korrekt?",
+      "a": "Ja, aber für komplexe oder stückweise Funktionen wird eine manuelle Überprüfung empfohlen."
+    },
+    {
+      "q": "Bietet es schrittweise Lösungen?",
+      "a": "Die meisten Rechner bieten Schritt-für-Schritt-Lösungen zu Lernzwecken an."
+    },
+    {
+      "q": "Kann ich die Funktion grafisch darstellen?",
+      "a": "Ja, in vielen Taschenrechnern ist eine grafische Visualisierung verfügbar, um kritische Punkte deutlich zu erkennen."
+    },
+    {
+      "q": "Kann ich globale Extrema finden?",
+      "a": "Kritische Punkte helfen bei der Lokalisierung lokaler Extrema. Um globale Extrema zu finden, analysieren Sie Endpunkte zusammen mit kritischen Punkten."
+    },
+    {
+      "q": "Muss ich Infinitesimalrechnung beherrschen?",
+      "a": "Grundlegendes Verständnis hilft, aber der Rechner vereinfacht die Berechnung von Ableitungen und kritischen Werten."
+    },
+    {
+      "q": "Ist die Nutzung kostenlos?",
+      "a": "Viele Online-Rechner sind kostenlos, einige verfügen jedoch möglicherweise über Premium-Funktionen."
+    },
+    {
+      "q": "Warum ist es für Studenten und Berufstätige nützlich?",
+      "a": "Es spart Zeit, reduziert Fehler und bietet eine klare Visualisierung für die Funktionsanalyse."
+    }
+  ]
+}

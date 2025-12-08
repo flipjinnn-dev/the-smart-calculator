@@ -1,0 +1,147 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de volumen?",
+      "content": "Una calculadora de volumen es una herramienta en línea que calcula el espacio ocupado por objetos 3D como cubos, paralelepípedos, cilindros, esferas, conos y pirámides. Utiliza las fórmulas geométricas correctas y proporciona instantáneamente el resultado en unidades cúbicas. Las calculadoras en línea son gratuitas, compatibles con dispositivos móviles y fáciles de usar, lo que las hace ideales para estudiantes, ingenieros, arquitectos y usuarios cotidianos."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Abre la calculadora",
+          "content": "Accede a la página de la calculadora de volumen en tu navegador."
+        },
+        {
+          "heading": "Seleccione la forma",
+          "content": "Elija la forma 3D (cubo, paralelepípedo, cilindro, esfera, cono, pirámide)."
+        },
+        {
+          "heading": "Introducir dimensiones",
+          "content": "Introduzca medidas como largo, ancho, alto o radio."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Consigue el volumen al instante."
+        },
+        {
+          "heading": "Consultar unidades",
+          "content": "Asegúrese de que las unidades de entrada sean consistentes; la salida coincidirá (p. ej., cm³, m³)."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Múltiples formas admitidas",
+          "content": "Cubo, paralelepípedo, cilindro, esfera, cono, pirámide."
+        },
+        {
+          "heading": "Resultados instantáneos",
+          "content": "Calcula el volumen de forma rápida y precisa."
+        },
+        {
+          "heading": "Flexibilidad de la unidad",
+          "content": "Salidas en unidades cúbicas según su entrada."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en computadoras de escritorio, tabletas y teléfonos inteligentes."
+        },
+        {
+          "heading": "Gratis y accesible",
+          "content": "No se requieren descargas ni registro."
+        },
+        {
+          "heading": "Interfaz fácil de usar",
+          "content": "Sencillo y fácil de navegar."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Estudiantes y profesores",
+          "content": "Resolver tareas de geometría y ejercicios de aula."
+        },
+        {
+          "heading": "Ingenieros y Arquitectos",
+          "content": "Calcular volúmenes de materiales para proyectos de construcción y diseño."
+        },
+        {
+          "heading": "Proyectos de bricolaje y hogar",
+          "content": "Calcule los requisitos de pintura, concreto o almacenamiento."
+        },
+        {
+          "heading": "Embalaje y envío",
+          "content": "Determinar el volumen de cajas y contenedores."
+        },
+        {
+          "heading": "Uso diario",
+          "content": "Calcule la capacidad de tanques de agua, contenedores u otros objetos."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: cubo",
+          "content": "Lado = 5 cm → Volumen: 5³ = 125 cm³"
+        },
+        {
+          "heading": "Ejemplo 2: cilindro",
+          "content": "Radio = 3 cm, Altura = 10 cm → Volumen: π × 3² × 10 = 282,74 cm³"
+        },
+        {
+          "heading": "Ejemplo 3 – Esfera",
+          "content": "Radio = 4 cm → Volumen: 4/3 × π × 4³ = 268,08 cm³"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de volumen?",
+      "a": "Calcula el espacio que ocupan los objetos 3D mediante fórmulas geométricas."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, totalmente gratuito para usar en línea."
+    },
+    {
+      "q": "¿Necesito instalar software?",
+      "a": "No, funciona directamente en tu navegador."
+    },
+    {
+      "q": "¿Puedo usarlo en el móvil?",
+      "a": "Sí, totalmente compatible con dispositivos móviles."
+    },
+    {
+      "q": "¿Admite múltiples formas?",
+      "a": "Sí, incluidos cubos, paralelepípedos, cilindros, esferas, conos y pirámides."
+    },
+    {
+      "q": "¿Cómo ingreso las dimensiones correctamente?",
+      "a": "Ingrese todas las medidas en unidades consistentes, como cm o m."
+    },
+    {
+      "q": "¿Puedo obtener resultados en metros cúbicos o cm³?",
+      "a": "Sí, la salida coincide con sus unidades de entrada."
+    },
+    {
+      "q": "¿Es adecuado para estudiantes?",
+      "a": "Sí, perfecto para tareas y proyectos."
+    },
+    {
+      "q": "¿Pueden utilizarlo ingenieros o arquitectos?",
+      "a": "Sí, útil para construcción, cálculos de materiales y proyectos de diseño."
+    },
+    {
+      "q": "¿Es precisa la calculadora?",
+      "a": "Sí, proporciona resultados precisos para todas las formas 3D compatibles."
+    }
+  ]
+}

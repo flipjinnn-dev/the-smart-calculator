@@ -1,0 +1,143 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator prędkości?",
+      "content": "Kalkulator prędkości to bezpłatne narzędzie internetowe, które oblicza prędkość lub prędkość obiektu za pomocą wzorów fizycznych. Może obliczyć średnią prędkość na podstawie odległości i czasu lub prędkość końcową dla ruchu przyspieszonego za pomocą v = u + a × t."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Otwórz kalkulator",
+          "content": "Uzyskaj dostęp do strony w przeglądarce."
+        },
+        {
+          "heading": "Wybierz typ obliczenia",
+          "content": "Wybierz prostą prędkość (odległość/czas) lub ruch przyspieszony (v = u + a × t)."
+        },
+        {
+          "heading": "Wprowadź wartości",
+          "content": "Wprowadź odległość, czas, prędkość początkową i przyspieszenie, jeśli to konieczne."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Wynik prędkości pojawia się natychmiast."
+        },
+        {
+          "heading": "Sprawdź jednostki",
+          "content": "Aby uzyskać dokładne wyniki, upewnij się, że wszystkie jednostki są spójne."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe wyniki",
+          "content": "Oblicza prędkość w sekundach."
+        },
+        {
+          "heading": "Obsługuje wiele formuł",
+          "content": "Prędkość średnia i ruch przyspieszony."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na każdym urządzeniu."
+        },
+        {
+          "heading": "Elastyczność jednostki",
+          "content": "Obsługiwane jednostki metryczne i imperialne."
+        },
+        {
+          "heading": "Narzędzie edukacyjne",
+          "content": "Pomaga zrozumieć prędkość, przyspieszenie i ruch."
+        },
+        {
+          "heading": "Bezpłatny i łatwy w użyciu",
+          "content": "Nie wymaga pobierania ani rejestracji."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Uczniowie i nauczyciele",
+          "content": "Rozwiązuj zadania domowe i problemy klasowe."
+        },
+        {
+          "heading": "Hobbyści i projekty DIY",
+          "content": "Oblicz ruch modeli pojazdów lub eksperymentów."
+        },
+        {
+          "heading": "Inżynierowie i projektanci",
+          "content": "Szybkie szacowanie prędkości dla prostych projektów."
+        },
+        {
+          "heading": "Obliczenia podróżne i dzienne",
+          "content": "Określ prędkość na podstawie drogi i czasu."
+        },
+        {
+          "heading": "Pokazy edukacyjne",
+          "content": "Nauczanie kinematyki i koncepcji ruchu."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Stała prędkość",
+          "content": "Odległość: 100 metrów | Czas: 20 sekund | Prędkość: 100 ÷ 20 = 5 m/s"
+        },
+        {
+          "heading": "Przykład 2 – Ruch przyspieszony",
+          "content": "Prędkość początkowa (u): 0 m/s | Przyspieszenie (a): 2 m/s² | Czas (t): 10 sekund | Prędkość końcowa (v): 0 + 2 × 10 = 20 m/s"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator prędkości?",
+      "a": "Oblicza prędkość lub prędkość na podstawie odległości, czasu i przyspieszenia."
+    },
+    {
+      "q": "Czy ten kalkulator jest darmowy?",
+      "a": "Tak, jest to całkowicie bezpłatne online."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania lub instalacji?",
+      "a": "Nie, działa bezpośrednio w Twojej przeglądarce."
+    },
+    {
+      "q": "Czy mogę go używać na telefonie komórkowym?",
+      "a": "Tak, w pełni przystosowany do urządzeń mobilnych."
+    },
+    {
+      "q": "Jakie dane wejściowe są wymagane?",
+      "a": "Droga, czas, prędkość początkowa, przyspieszenie."
+    },
+    {
+      "q": "Jakie formuły są używane?",
+      "a": "Prędkość średnia: v = droga ÷ czas; Ruch przyspieszony: v = u + a × t"
+    },
+    {
+      "q": "Czy może obsługiwać różne jednostki?",
+      "a": "Tak, obsługiwane są jednostki metryczne i imperialne."
+    },
+    {
+      "q": "Czy jest odpowiedni dla studentów?",
+      "a": "Tak, idealny do nauki fizyki i kinematyki."
+    },
+    {
+      "q": "Czy mogą z niego korzystać inżynierowie lub hobbyści?",
+      "a": "Tak, idealny do eksperymentów i prostej analizy ruchu."
+    },
+    {
+      "q": "Czy kalkulator jest dokładny?",
+      "a": "Tak, zapewnia dokładne wyniki przy założeniu stałych jednostek."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for cooking-measurement-converter
 const cookingmeasurementconverterMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }cooking-measurement-converter`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }cooking-measurement-converter`,
       languages: {
         'en': getCanonicalUrl('cooking-measurement-converter', 'en'),
         'pt-BR': getCanonicalUrl('cooking-measurement-converter', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }cooking-measurement-converter`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }cooking-measurement-converter`,
     },
   };
 }
@@ -70,5 +69,156 @@ export default async function CookingMeasurementConverterLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Cooking Measurement Converter",
+    "url": "https://www.thesmartcalculator.com/food/cooking-measurement-converter",
+    "description": "Free online Cooking Measurement Converter to convert ingredients between cups, teaspoons, tablespoons, grams, ounces, milliliters, and liters for accurate cooking and baking.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Cooking Measurement Converter",
+        "applicationCategory": "CalculatorApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Instantly converts between all common cooking units",
+          "Supports cups, teaspoons, tablespoons, grams, ounces, milliliters, liters, and more",
+          "Optional ingredient selection for accurate volume-to-weight conversions",
+          "Mobile-friendly and easy-to-use",
+          "Ideal for home cooks, bakers, chefs, and nutrition tracking"
+        ],
+        "url": "https://www.thesmartcalculator.com/food/cooking-measurement-converter"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Cooking Measurement Converter",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Cooking Measurement Converter",
+            "text": "Type the amount you want to convert."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Cooking Measurement Converter",
+            "text": "Choose the unit of your input (cup, gram, tablespoon, etc.)."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Cooking Measurement Converter",
+            "text": "Choose the unit to convert to."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Cooking Measurement Converter",
+            "text": "Get the instant conversion result."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Cooking Measurement Converter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It converts ingredients between different cooking and baking units quickly and accurately."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it convert cups to grams?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, especially for most common ingredients."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it support all ingredients?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It supports most common ingredients; density may vary slightly for some."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I convert teaspoons to milliliters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, all standard volume units are supported."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it accurate for baking?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, especially when using weight-based units like grams or ounces."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use it on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the calculator is fully mobile-friendly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, completely free and works online with no downloads."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I scale recipes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, you can adjust ingredient quantities for larger or smaller servings."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should use this calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Home cooks, bakers, chefs, nutritionists, and students."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to select an ingredient?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Selecting the ingredient is optional but recommended for accurate volume-to-weight conversions."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="cooking-measurement-converter-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

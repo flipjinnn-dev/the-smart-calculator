@@ -1,0 +1,134 @@
+{
+  "pageTitle": "Calculadora de promedio de ejecución obtenida",
+  "pageDescription": "Calcular el promedio de rendimiento ganado (ERA) para los lanzadores",
+  "form": {
+    "labels": {
+      "earnedRuns": "Carreras obtenidas permitidas",
+      "inningsPitched": "Entradas lanzadas",
+      "gamesPlayed": "Juegos jugados (opcional)"
+    },
+    "placeholders": {
+      "earnedRuns": "Ingrese las carreras ganadas permitidas",
+      "inningsPitched": "Ingrese las entradas lanzadas (por ejemplo, 6.1 para 6 entradas y 1 out)",
+      "gamesPlayed": "Ingrese el número de juegos jugados (opcional)"
+    },
+    "buttons": {
+      "calculate": "Calcular ERA",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "earnedRunAverage": "Promedio de carreras ganadas (ERA)",
+    "runsPerGame": "Carreras por juego",
+    "performanceRating": "Calificación de desempeño",
+    "leagueAverage": "Comparación de promedios de liga",
+    "historicalContext": "Contexto histórico"
+  },
+  "educational": {
+    "eraInfo": "Información de la EEI",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos de béisbol",
+    "eraFacts": {
+      "definition": {
+        "title": "Promedio de ejecución obtenida",
+        "description": "El número promedio de carreras limpias que permite un lanzador por cada nueve entradas lanzadas."
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "ERA = (Carreras limpias permitidas × 9) / Entradas lanzadas"
+      },
+      "interpretation": {
+        "title": "Interpretación escénica",
+        "description": "La efectividad por debajo de 3.00 es excelente, 3.00-4.00 está por encima del promedio, 4.00-5.00 es promedio y por encima de 5.00 está por debajo del promedio."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona cálculos de ERA únicamente",
+      "actual": "La evaluación del desempeño real debe considerar estadísticas y contexto adicionales."
+    },
+    "importantNotesList": [
+      "La efectividad solo cuenta las carreras limpias, no las resultantes de errores defensivos.",
+      "Una efectividad más baja indica un mejor desempeño del lanzador",
+      "Una efectividad más baja indica un mejor desempeño del lanzador",
+      "El tamaño de la muestra importa: la efectividad es más significativa en muchas entradas"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese carreras limpias y entradas lanzadas para calcular la efectividad",
+    "resultMessage": "Los resultados del cálculo de ERA se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de ERA:",
+    "eraAnalysis": "Análisis de la ERA"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona cálculos de efectividad basados ​​en fórmulas estadísticas estándar de béisbol. La evaluación completa del desempeño debe considerar métricas adicionales, contexto y factores de tamaño de muestra no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos de béisbol",
+    "content": "Para un análisis completo de las estadísticas de béisbol y una evaluación de jugadores, consulte sitios de referencia de béisbol, recursos de análisis deportivo o exploradores y analistas profesionales."
+  },
+  "errors": {
+    "earnedRuns": "Por favor ingresa un número válido de carreras ganadas",
+    "inningsPitched": "Por favor ingresa un número válido de entradas lanzadas",
+    "gamesPlayed": "Por favor ingresa un número válido de juegos jugados"
+  },
+  "tooltips": {
+    "earnedRuns": "Número de carreras limpias permitidas por el lanzador (carreras que no son resultado de errores defensivos)",
+    "inningsPitched": "Total de entradas lanzadas, incluidas entradas parciales (p. ej., 6,1 para 6 entradas y 1 out)",
+    "gamesPlayed": "Número de juegos en los que participó el lanzador (opcional para contexto adicional)"
+  },
+  "pitching_statistics_0": "Estadísticas de lanzamiento",
+  "enter_pitching_statistics_to_calculate_earned_run__1": "Ingrese las estadísticas de lanzamiento para calcular el promedio de carreras ganadas",
+  "earned_runs_er_2": "Carreras ganadas (ER)",
+  "whole_innings_pitched_3": "Entradas enteras lanzadas",
+  "additional_outs_4": "Salidas adicionales",
+  "game_length_5": "Duración del juego",
+  "formula_6": "Fórmula:",
+  "era_earned_runs_total_innings_game_innings_7": "ERA = (Carreras ganadas ÷ Entradas totales) × Entradas de juego",
+  "total_innings_whole_innings_outs_3_each_out_repres_8": "Entradas totales = Entradas completas + (Outs ÷ 3). Cada out representa 1/3 de entrada.",
+  "calculate_9": "Calcular",
+  "era_results_10": "Resultados de efectividad",
+  "era_11": "ERA",
+  "total_innings_12": "Entradas totales",
+  "enter_pitching_statistics_and_click_13": "Ingrese las estadísticas de lanzamiento y haga clic",
+  "calculate_14": "Calcular",
+  "to_see_era_15": "para ver ERA.",
+  "detailed_era_breakdown_16": "Desglose detallado de ERA",
+  "era_17": "ERA",
+  "earned_run_average_18": "Promedio de ejecución obtenida",
+  "earned_runs_19": "Carreras ganadas",
+  "er_20": "urgencias",
+  "total_innings_21": "Entradas totales",
+  "ip_22": "IP (",
+  "game_length_23": "Duración del juego",
+  "innings_24": "entrada",
+  "calculation_steps_25": "Pasos de cálculo:",
+  "step_1_26": "Paso 1:",
+  "total_innings_27": "Entradas totales =",
+  "k_3_28": "/3) =",
+  "innings_29": "entrada",
+  "step_2_30": "Paso 2:",
+  "era_31": "efectividad = (",
+  "understanding_era_in_baseball_32": "Comprender la efectividad en el béisbol",
+  "what_is_era_33": "¿Qué es la ERA?",
+  "earned_run_average_era_measures_how_many_earned_ru_34": "El promedio de carreras limpias (ERA) mide cuántas carreras limpias permite un lanzador por cada nueve entradas.\n                        lanzado. Es una de las estadísticas más importantes para evaluar el desempeño del lanzador.",
+  "era_interpretation_35": "Interpretación de la EEI",
+  "under_200_excellent_36": "Menos de 2.00: Excelente",
+  "k_200300_very_good_37": "2.00-3.00: Muy bueno",
+  "k_300400_good_38": "3.00-4.00: Bueno",
+  "k_400500_average_39": "4.00-5.00: Promedio",
+  "above_500_below_average_40": "Por encima de 5.00: por debajo del promedio",
+  "sample_calculation_41": "Cálculo de muestra",
+  "example_42": "Ejemplo:",
+  "pitcher_statistics_43": "Estadísticas del lanzador",
+  "earned_runs_15_44": "Carreras ganadas: 15",
+  "innings_65_45": "Entradas: 65",
+  "outs_2_46": "Eliminaciones: 2",
+  "game_innings_9_47": "Entradas de juego: 9",
+  "calculation_48": "Cálculo:",
+  "total_ip_65_23_6567_49": "IP total = 65 + (2/3) = 65,67",
+  "era_15_6567_9_50": "efectividad = (15 ÷ 65,67) × 9",
+  "era_206_51": "efectividad = 2.06"
+}

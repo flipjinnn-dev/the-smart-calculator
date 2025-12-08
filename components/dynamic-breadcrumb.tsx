@@ -38,12 +38,12 @@ export default function DynamicBreadcrumb() {
     if (!pathname) return
 
     // Extract language from pathname
-    const langMatch = pathname.match(/^\/(br|pl|de)/)
+    const langMatch = pathname.match(/^\/(br|pl|de|es)/)
     const language = langMatch ? langMatch[1] : "en"
 
     // Parse the pathname to create breadcrumb items
     const pathSegments = pathname.split("/").filter(segment => segment !== "")
-    
+
     // If we're on the homepage, no breadcrumb needed
     if (pathSegments.length === 0 || (pathSegments.length === 1 && langMatch)) {
       setBreadcrumbItems([])
@@ -68,23 +68,23 @@ export default function DynamicBreadcrumb() {
           const category = (categoriesMeta as CategoryMeta)[key];
           return category[lang]?.slug === categorySlug || category.en?.slug === categorySlug;
         })
-        
+
         if (categoryKey) {
           const category = (categoriesMeta as CategoryMeta)[categoryKey];
           items.push({
             name: category[lang]?.name || category.en?.name || categorySlug,
             href: language === "en" ? `/${categoryKey}` : `/${lang}/${categorySlug}`
           })
-          
+
           // If we have a calculator slug
           if (pathSegments.length >= 3) {
             const calculatorSlug = pathSegments[2]
             // Find the calculator by href
-            const calculator = calculators.find(calc => 
-              calc.href === `/${categoryKey}/${calculatorSlug}` || 
+            const calculator = calculators.find(calc =>
+              calc.href === `/${categoryKey}/${calculatorSlug}` ||
               calc.href === `/${categoryKey}/${calculatorSlug.replace("-calculator", "")}`
             )
-            
+
             if (calculator) {
               items.push({
                 name: calculator.name,
@@ -104,7 +104,7 @@ export default function DynamicBreadcrumb() {
             name: categorySlug.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()),
             href: language === "en" ? `/${categorySlug}` : `/${lang}/${categorySlug}`
           })
-          
+
           // If we have a calculator slug
           if (pathSegments.length >= 3) {
             const calculatorSlug = pathSegments[2]
@@ -124,23 +124,23 @@ export default function DynamicBreadcrumb() {
           const category = (categoriesMeta as CategoryMeta)[key];
           return category.en?.slug === categorySlug;
         })
-        
+
         if (categoryKey) {
           const category = (categoriesMeta as CategoryMeta)[categoryKey];
           items.push({
             name: category.en?.name || categorySlug,
             href: `/${categoryKey}`
           })
-          
+
           // If we have a calculator slug
           if (pathSegments.length >= 2) {
             const calculatorSlug = pathSegments[1]
             // Find the calculator by href
-            const calculator = calculators.find(calc => 
-              calc.href === `/${categoryKey}/${calculatorSlug}` || 
+            const calculator = calculators.find(calc =>
+              calc.href === `/${categoryKey}/${calculatorSlug}` ||
               calc.href === `/${categoryKey}/${calculatorSlug.replace("-calculator", "")}`
             )
-            
+
             if (calculator) {
               items.push({
                 name: calculator.name,
@@ -160,7 +160,7 @@ export default function DynamicBreadcrumb() {
             name: categorySlug.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()),
             href: `/${categorySlug}`
           })
-          
+
           // If we have a calculator slug
           if (pathSegments.length >= 2) {
             const calculatorSlug = pathSegments[1]

@@ -1,0 +1,151 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de conservação de momento: o que é e como usá-la",
+      "content": "Uma calculadora de conservação de momento é uma ferramenta de física online gratuita que ajuda a calcular velocidades finais ou valores de momento desconhecidos em colisões. Usando a lei da conservação do momento, fornece resultados rápidos e precisos sem a necessidade de fazer cálculos complexos manualmente."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Abra a calculadora",
+          "content": "Acesse-o diretamente no seu navegador."
+        },
+        {
+          "heading": "Entrar nas Missas",
+          "content": "Insira as massas dos objetos em colisão (m₁ e m₂)."
+        },
+        {
+          "heading": "Insira as velocidades iniciais",
+          "content": "Adicione as velocidades antes da colisão (u₁ e u₂)."
+        },
+        {
+          "heading": "Selecione o tipo de colisão",
+          "content": "Escolha elástico, inelástico ou genérico, se disponível."
+        },
+        {
+          "heading": "Insira a velocidade final conhecida",
+          "content": "Deixe a variável desconhecida em branco; a calculadora resolverá isso."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Veja instantaneamente as velocidades finais ou o momento desconhecido."
+        },
+        {
+          "heading": "Verifique unidades",
+          "content": "Certifique-se de que todas as unidades correspondam ao sistema que você está usando."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Resultados instantâneos",
+          "content": "Obtenha cálculos imediatamente, sem fórmulas manuais."
+        },
+        {
+          "heading": "Múltiplas Saídas",
+          "content": "Calcule velocidades finais, momento total ou variáveis ​​desconhecidas."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona em telefones, tablets e desktops."
+        },
+        {
+          "heading": "Gratuito e fácil de usar",
+          "content": "Não é necessário download ou registro."
+        },
+        {
+          "heading": "Educacional",
+          "content": "Ajuda a compreender claramente os conceitos de momento e colisão."
+        },
+        {
+          "heading": "Suporta unidades métricas e imperiais",
+          "content": "Flexível para usuários em todo o mundo."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Alunos e Professores",
+          "content": "Resolva trabalhos de casa, verifique problemas de sala de aula ou demonstre conceitos."
+        },
+        {
+          "heading": "Entusiastas da Física",
+          "content": "Experimente diferentes combinações de massa e velocidade."
+        },
+        {
+          "heading": "Amadores e designers de jogos",
+          "content": "Simule colisões realistas para animações ou jogos."
+        },
+        {
+          "heading": "Análise de cenário",
+          "content": "Compare várias configurações para ver como o momento é conservado."
+        },
+        {
+          "heading": "Demonstrações Educacionais",
+          "content": "Ilustre claramente a lei da conservação do momento."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Colisão Elástica",
+          "content": "Massa m₁: 2 kg | Velocidade você₁: 5 m/s | Massa m₂: 3 kg | Velocidade u₂: -2 m/s | Velocidades finais: v₁ = -1 m/s, v₂ = 4 m/s"
+        },
+        {
+          "heading": "Exemplo 2 – Colisão Inelástica",
+          "content": "Massa m₁: 4 kg | Velocidade você₁: 3 m/s | Massa m₂: 2 kg | Velocidade u₂: 1 m/s | Velocidade Combinada Final: 2,33 m/s"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de conservação de momento?",
+      "a": "Ele calcula velocidades finais ou valores de momento desconhecidos em colisões usando a lei da conservação do momento."
+    },
+    {
+      "q": "Esta calculadora é gratuita?",
+      "a": "Sim, é totalmente gratuito para uso online."
+    },
+    {
+      "q": "Preciso de software ou instalação?",
+      "a": "Não, ele roda diretamente no seu navegador."
+    },
+    {
+      "q": "Posso usá-lo em dispositivos móveis?",
+      "a": "Sim, é totalmente compatível com dispositivos móveis."
+    },
+    {
+      "q": "Quais entradas são necessárias?",
+      "a": "Massas, velocidades iniciais, tipo de colisão e, opcionalmente, uma velocidade final."
+    },
+    {
+      "q": "Quais princípios da física são usados?",
+      "a": "Baseia-se na lei da conservação do momento para sistemas isolados."
+    },
+    {
+      "q": "É adequado para estudantes?",
+      "a": "Sim, é ideal para aprendizado, trabalhos de casa e exames."
+    },
+    {
+      "q": "Ele pode lidar com diferentes tipos de colisão?",
+      "a": "Sim, há suporte para colisões elásticas, inelásticas e genéricas."
+    },
+    {
+      "q": "Ele pode lidar com unidades diferentes?",
+      "a": "Sim, são suportadas unidades métricas e imperiais."
+    },
+    {
+      "q": "Quão preciso é isso?",
+      "a": "Fornece resultados aproximados para situações ideais; as colisões no mundo real podem variar devido à perda de energia, atrito ou forças externas."
+    }
+  ]
+}

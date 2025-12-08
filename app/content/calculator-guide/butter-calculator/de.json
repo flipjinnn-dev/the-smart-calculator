@@ -1,0 +1,105 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Was ist ein Butterrechner?",
+      "content": "Mit dem Butterrechner können Sie Buttermengen sofort zwischen Stangen, Tassen, Esslöffeln, Gramm, Unzen und Millilitern umrechnen. Ideal für Bäcker, Köche und Hobbyköche, die präzise Messungen benötigen."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "content": "Befolgen Sie diese Schritte, um Buttereinheiten genau umzurechnen:",
+      "subSections": [
+        {
+          "heading": "Schritte",
+          "content": "1. Menge eingeben – Geben Sie die Buttermenge in einer beliebigen Einheit ein.\n2. Einheit auswählen – Wählen Sie die Einheit für Ihre Eingabe.\n3. Zieleinheit wählen – Wählen Sie die Einheit(en) aus, in die Sie konvertieren möchten.\n4. Klicken Sie auf „Konvertieren“ – Erhalten Sie sofort die entsprechende Buttermenge.\n5. Tipp – Für präzises Backen verwenden Sie gewichtsbasierte Einheiten wie Gramm oder Unzen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "content": "Dieser Butterkonverter ist für genaue und schnelle Umrechnungen konzipiert:",
+      "subSections": [
+        {
+          "heading": "Merkmale",
+          "content": "- Sofortige Umrechnung – Konvertiert zwischen allen wichtigen Buttereinheiten.\n- Unterstützt mehrere Einheiten – Sticks, Tassen, Gramm, Unzen, Esslöffel, Milliliter.\n- Präzise und zuverlässig – Verwendet Standard-Umrechnungsverhältnisse.\n- Internationalfreundlich – Konvertiert US-amerikanische und metrische Einheiten nahtlos.\n- Für Mobilgeräte optimiert – Funktioniert reibungslos auf allen Geräten."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "content": "Menschen verlassen sich bei vielen Küchen- und Rezeptaufgaben auf dieses Werkzeug:",
+      "subSections": [
+        {
+          "heading": "Beispiele",
+          "content": "- Backen und Kochen: Befolgen Sie Rezepte mit genauen Maßen.\n- Internationale Rezepte: Konvertieren Sie US-Buttereinheiten in metrische Einheiten und umgekehrt.\n- Diät und Ernährung: Messen Sie Butter genau auf Kalorien oder Makros.\n- Rezepte skalieren: Passen Sie die Rezeptgröße einfach nach oben oder unten an.\n- Lernen: Unterschiede und Umrechnungen bei Buttermessungen verstehen."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielkonvertierungen",
+      "content": "Hier sind gängige Butterumrechnungen, die Ihnen helfen, die Ergebnisse zu verstehen:",
+      "subSections": [
+        {
+          "heading": "Beispiele",
+          "content": "- 2 Sticks → 227 Gramm\n- 1 Tasse → 16 Esslöffel\n- 8 Unzen → 237 ml\n- 113 Gramm → 1 Stick"
+        }
+      ]
+    },
+    {
+      "heading": "Tipps und Best Practices",
+      "content": "Hilfreiche Tipps für genauere Buttermessungen:",
+      "subSections": [
+        {
+          "heading": "Tipps",
+          "content": "- Bevorzugen Sie Gewichtseinheiten (Gramm/Unzen), um die Backgenauigkeit zu gewährleisten.\n- Überprüfen Sie, ob Ihr Rezept US-amerikanische oder metrische Maße verwendet.\n- Beim Schmelzen von Butter kann die Menge leicht abweichen – verwenden Sie für die Präzision Gramm.\n- Für korrekte Ergebnisse immer Esslöffel und Tassen ausgleichen.\n- Um die Konsistenz zu gewährleisten, rechnen Sie bei großen Rezepten alle Buttereinheiten in Gramm um."
+        }
+      ]
+    },
+    {
+      "heading": "Haftungsausschluss",
+      "content": "Dieses Butter-Umrechnungstool bietet standardmäßige, weithin akzeptierte Umrechnungsschätzungen. Die tatsächliche Butterdichte kann je nach Temperatur und Marke leicht variieren. Verwenden Sie Gewichtsmessungen für höchste Genauigkeit."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was macht dieser Rechner?",
+      "a": "Es wandelt Butter in Sticks, Tassen, Esslöffel, Gramm, Unzen und Milliliter um."
+    },
+    {
+      "q": "Warum es verwenden?",
+      "a": "Es sorgt für genaue Messungen beim Kochen und Backen."
+    },
+    {
+      "q": "Kann ich Sticks in Gramm umrechnen?",
+      "a": "Ja, einfach Stäbchen eingeben und als Zieleinheit Gramm auswählen."
+    },
+    {
+      "q": "Unterstützt es metrische Einheiten?",
+      "a": "Ja, Gramm und Milliliter werden vollständig unterstützt."
+    },
+    {
+      "q": "Ist es zum Backen geeignet?",
+      "a": "Ja, es werden standardmäßige Butterumrechnungsverhältnisse verwendet, die in Rezepten weit verbreitet sind."
+    },
+    {
+      "q": "Kann ich Esslöffel in Tassen umrechnen?",
+      "a": "Ja, der Rechner unterstützt Umrechnungen zwischen allen wichtigen Buttervolumeneinheiten."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, es ist für Telefone, Tablets und Desktops optimiert."
+    },
+    {
+      "q": "Kann ich es zur Diätverfolgung verwenden?",
+      "a": "Ja, es hilft dabei, Butter genau zu messen, um den Nährwert zu verfolgen."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, völlig kostenlos, es sind keine Downloads erforderlich."
+    },
+    {
+      "q": "Wer sollte es nutzen?",
+      "a": "Bäcker, Köche, Hobbyköche, Ernährungsberater und alle, die Rezepte befolgen."
+    }
+  ]
+}

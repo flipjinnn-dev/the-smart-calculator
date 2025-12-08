@@ -1,0 +1,151 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "Convertidor de tazas a libras: qué es y cómo ayuda",
+      "content": "El convertidor de tazas a libras es una herramienta gratuita en línea que le permite convertir medidas de ingredientes entre tazas (volumen) y libras (peso) de forma rápida y precisa. Garantiza que las recetas se escale correctamente para hornear y cocinar."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Seleccionar ingrediente",
+          "content": "Opcional pero recomendado para conversiones precisas."
+        },
+        {
+          "heading": "Ingrese la cantidad",
+          "content": "Ingrese la cantidad en tazas o libras."
+        },
+        {
+          "heading": "Seleccionar unidad fuente",
+          "content": "Elija tazas o libras como unidad inicial."
+        },
+        {
+          "heading": "Seleccionar unidad objetivo",
+          "content": "Elija la unidad a la que desea convertir."
+        },
+        {
+          "heading": "Haga clic en Convertir",
+          "content": "Obtenga el resultado de la conversión instantánea."
+        },
+        {
+          "heading": "Utilice el peso para obtener precisión",
+          "content": "Para hornear con precisión, utilice medidas basadas en el peso."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Conversión instantánea",
+          "content": "Convierta tazas a libras o libras a tazas inmediatamente."
+        },
+        {
+          "heading": "Soporta ingredientes comunes",
+          "content": "Harina, azúcar, mantequilla, agua y otros ingredientes estándar."
+        },
+        {
+          "heading": "Precisión de volumen a peso",
+          "content": "La conversión basada en ingredientes garantiza resultados confiables."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona perfectamente en teléfonos inteligentes, tabletas y computadoras de escritorio."
+        },
+        {
+          "heading": "Fácil de usar",
+          "content": "Perfecto tanto para principiantes como para cocineros profesionales."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Inicio Panaderos y Cocineros",
+          "content": "Siga las recetas con precisión y convierta las medidas de los ingredientes fácilmente."
+        },
+        {
+          "heading": "Usuarios de recetas internacionales",
+          "content": "Cambie entre tazas estadounidenses y libras sin esfuerzo."
+        },
+        {
+          "heading": "Cocinas Profesionales",
+          "content": "Mantenga la consistencia y precisión en las recetas."
+        },
+        {
+          "heading": "Seguimiento de nutrición y dieta",
+          "content": "Mida con precisión los ingredientes en busca de calorías y macros."
+        },
+        {
+          "heading": "Estudiantes y estudiantes culinarios",
+          "content": "Practique conversiones de ingredientes para estudios de cocina y repostería."
+        }
+      ]
+    },
+    {
+      "heading": "Conversiones de ejemplo",
+      "subSections": [
+        {
+          "heading": "Harina",
+          "content": "1 taza de harina → 0,276 libras"
+        },
+        {
+          "heading": "Azúcar",
+          "content": "1 taza de azúcar → 0,44 libras"
+        },
+        {
+          "heading": "Manteca",
+          "content": "1 taza de mantequilla → 0,5 libras"
+        },
+        {
+          "heading": "harina al revés",
+          "content": "2 libras de harina → 7,25 tazas"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es un convertidor de tazas a libras?",
+      "a": "Convierte medidas de ingredientes entre tazas y libras de forma rápida y precisa."
+    },
+    {
+      "q": "¿Puede convertir todos los ingredientes?",
+      "a": "Sí, para los ingredientes más comunes; Pueden producirse ligeras variaciones dependiendo de la densidad."
+    },
+    {
+      "q": "¿Necesito seleccionar el ingrediente?",
+      "a": "Opcional pero recomendado para una conversión precisa."
+    },
+    {
+      "q": "¿Es exacto para hornear?",
+      "a": "Sí, especialmente cuando se utilizan medidas basadas en el peso."
+    },
+    {
+      "q": "¿Puedo convertir libras a tazas?",
+      "a": "Sí, el convertidor funciona en ambos sentidos."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, totalmente compatible con teléfonos inteligentes, tabletas y computadoras de escritorio."
+    },
+    {
+      "q": "¿Este convertidor es gratuito?",
+      "a": "Sí, es completamente gratis y en línea."
+    },
+    {
+      "q": "¿Puedo escalar recetas usando esta herramienta?",
+      "a": "Sí, puedes ajustar fácilmente las cantidades de ingredientes para cualquier receta."
+    },
+    {
+      "q": "¿Quién debería utilizar esta calculadora?",
+      "a": "Cocineros caseros, panaderos, chefs y cualquiera que siga recetas."
+    },
+    {
+      "q": "¿Por qué utilizar este convertidor?",
+      "a": "Para garantizar una medición precisa de los ingredientes y reducir errores al cocinar y hornear."
+    }
+  ]
+}

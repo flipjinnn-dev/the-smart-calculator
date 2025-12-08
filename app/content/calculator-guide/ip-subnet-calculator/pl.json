@@ -1,0 +1,131 @@
+{
+  "color": "czarny",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator podsieci IP?",
+      "content": "Kalkulator podsieci IP to bezpłatne narzędzie online, które pomaga obliczyć adres sieciowy, adres rozgłoszeniowy, zakres hostów, całkowitą liczbę hostów i szczegóły podsieci dla adresów IPv4 przy użyciu masek podsieci lub notacji CIDR."
+    },
+    {
+      "heading": "Jak działa kalkulator podsieci IP",
+      "subSections": [
+        {
+          "heading": "Wymagane dane wejściowe",
+          "content": "Prawidłowy adres IPv4 (np. 192.168.1.0) i maska ​​podsieci lub zapis CIDR, taki jak 255.255.255.0 lub /24."
+        },
+        {
+          "heading": "Metoda obliczeniowa",
+          "content": "Kalkulator wykorzystuje standardowe formuły dotyczące podsieci do obliczenia adresu sieciowego, adresu rozgłoszeniowego, użytecznego zakresu adresów IP i całkowitej liczby hostów."
+        },
+        {
+          "heading": "Co stanie się dalej",
+          "content": "Po kliknięciu Oblicz wyniki pojawiają się natychmiast, pokazując wszystkie szczegóły podsieci potrzebne do konfiguracji lub nauki."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora podsieci IP?",
+      "subSections": [
+        {
+          "heading": "Dokładne obliczanie podsieci",
+          "content": "Szybko obliczaj zakresy sieci, transmisji i hostów bez konieczności wykonywania ręcznych obliczeń."
+        },
+        {
+          "heading": "Obsługuje notację CIDR",
+          "content": "Współpracuje z maskami podsieci lub formatami CIDR, takimi jak /26 lub /28, zapewniając elastyczne wejścia."
+        },
+        {
+          "heading": "Szybki i przyjazny dla użytkownika",
+          "content": "Natychmiastowe wyniki wyświetlane wyraźnie dla początkujących i profesjonalistów."
+        },
+        {
+          "heading": "Zastosowanie edukacyjne i zawodowe",
+          "content": "Idealny do nauki koncepcji podsieci lub konfiguracji sieci."
+        },
+        {
+          "heading": "Wygoda",
+          "content": "Bezpłatne, przyjazne dla urządzeń mobilnych i dostępne w dowolnej przeglądarce."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia podsieci",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Podsieć standardowa",
+          "content": "IP: 192.168.1.0, maska: 255.255.255.0 (/24), sieć: 192.168.1.0, rozgłaszanie: 192.168.1.255, użyteczny zakres: 192.168.1.1 – 192.168.1.254, całkowita liczba hostów do wykorzystania: 254."
+        },
+        {
+          "heading": "Przykład 2 – Mniejsza podsieć",
+          "content": "IP: 10.0.0.0, maska: 255.255.255.192 (/26), sieć: 10.0.0.0, transmisja: 10.0.0.63, użyteczny zakres: 10.0.0.1 – 10.0.0.62, całkowita liczba możliwych do wykorzystania hostów: 62."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Projektowanie i planowanie sieci",
+          "content": "Określ zakresy podsieci dla sieci biznesowych, konfiguracji domowych lub centrów danych."
+        },
+        {
+          "heading": "Rozwiązywanie konfliktów IP",
+          "content": "Zidentyfikuj prawidłowe zakresy hostów, aby zapobiec nakładaniu się adresów IP."
+        },
+        {
+          "heading": "Nauka tworzenia podsieci",
+          "content": "Idealny dla studentów ćwiczących obliczenia CIDR i podsieci."
+        },
+        {
+          "heading": "Dokumentacja",
+          "content": "Utrzymuj przejrzyste zapisy adresów IP dla sieci."
+        },
+        {
+          "heading": "Konfiguracja urządzenia i serwera",
+          "content": "Przypisz poprawnie adresy IP w odpowiednim zakresie podsieci."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator podsieci IP?",
+      "a": "Jest to narzędzie online, które oblicza adres sieciowy, adres rozgłoszeniowy, zakresy hostów i informacje o podsieci dla protokołu IPv4."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, korzystanie z niego online jest całkowicie bezpłatne."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania?",
+      "a": "Nie, działa bezpośrednio w dowolnej nowoczesnej przeglądarce internetowej."
+    },
+    {
+      "q": "Czy obsługuje notację CIDR?",
+      "a": "Tak, możesz wprowadzić maski podsieci lub formaty CIDR, takie jak /24 lub /26."
+    },
+    {
+      "q": "Kto może z niego skorzystać?",
+      "a": "Studenci, specjaliści IT, inżynierowie sieciowi i wszyscy, którzy zajmują się adresowaniem IP."
+    },
+    {
+      "q": "Czy to jest dokładne?",
+      "a": "Tak, wykorzystuje standardowe formuły sieciowe w celu uzyskania precyzyjnych wyników."
+    },
+    {
+      "q": "Czy może mi pomóc w nauce tworzenia podsieci?",
+      "a": "Zdecydowanie jest idealny do ćwiczenia i zrozumienia obliczeń podsieci."
+    },
+    {
+      "q": "Czy to działa dla IPv6?",
+      "a": "To narzędzie jest przeznaczone głównie do tworzenia podsieci IPv4."
+    },
+    {
+      "q": "Czy może pomóc w rozwiązywaniu problemów z siecią?",
+      "a": "Tak, pokazując zakresy sieci i hostów, aby uniknąć konfliktów adresów IP."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa płynnie na komputerach stacjonarnych, tabletach i smartfonach."
+    }
+  ]
+}

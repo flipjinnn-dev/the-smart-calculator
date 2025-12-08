@@ -1,0 +1,147 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "Indiana Child Support Calculator: What It Is and How to Use It",
+            "content": "The Indiana Child Support Calculator is a free online tool that helps parents estimate child support payments according to Indiana state guidelines. By entering income, number of children, custody arrangements, and child-related expenses, it provides a quick and accurate estimate of potential support obligations."
+        },
+        {
+            "heading": "How to Use the Indiana Child Support Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Parent Income",
+                    "content": "Input gross weekly or monthly income for each parent."
+                },
+                {
+                    "heading": "Include Deductions",
+                    "content": "Add prior child support or spousal maintenance payments."
+                },
+                {
+                    "heading": "Specify Number of Children",
+                    "content": "Enter how many children require support."
+                },
+                {
+                    "heading": "Add Child-Related Expenses",
+                    "content": "Include childcare costs, health insurance, or other approved expenses."
+                },
+                {
+                    "heading": "Input Custody Details",
+                    "content": "Enter overnights or custody schedule."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "See estimated support instantly."
+                },
+                {
+                    "heading": "Review Results",
+                    "content": "View base support, adjustments, and total estimated obligation."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Accurate Indiana Guidelines Calculation",
+                    "content": "Follows the state’s income shares model."
+                },
+                {
+                    "heading": "Adjustable Inputs",
+                    "content": "Income, custody schedule, number of children, childcare, and insurance."
+                },
+                {
+                    "heading": "Quick & Free",
+                    "content": "Instantly calculates without registration."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Accessible on any device."
+                },
+                {
+                    "heading": "Detailed Breakdown",
+                    "content": "Base support, adjustments, and total estimated obligation."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Budget Planning",
+                    "content": "Know expected monthly or weekly obligations."
+                },
+                {
+                    "heading": "Divorce & Separation Prep",
+                    "content": "Negotiate agreements or anticipate court rulings."
+                },
+                {
+                    "heading": "Legal Guidance",
+                    "content": "Visualize obligations for lawyers or mediators."
+                },
+                {
+                    "heading": "Custody Planning",
+                    "content": "Compare scenarios and see how support changes."
+                },
+                {
+                    "heading": "Financial Clarity",
+                    "content": "Understand how support is calculated in Indiana."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Single Parent",
+                    "content": "Parent A Income: $1,200/week | Parent B Income: $800/week | Children: 2 | Childcare/Health Expenses: $100/week → Estimated Weekly Support: $350"
+                },
+                {
+                    "heading": "Example 2 – Shared Custody",
+                    "content": "Parent A Income: $1,500/week | Parent B Income: $1,000/week | Children: 1 | Shared Custody: 3 overnights/week for Parent B → Estimated Weekly Support: $220"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is the Indiana Child Support Calculator?",
+            "a": "It estimates child support obligations based on Indiana state guidelines."
+        },
+        {
+            "q": "Is this calculator free?",
+            "a": "Yes, it’s completely free online."
+        },
+        {
+            "q": "Do I need software?",
+            "a": "No, it works in any browser."
+        },
+        {
+            "q": "Does it calculate exact court orders?",
+            "a": "No, final amounts may differ at the judge’s discretion."
+        },
+        {
+            "q": "Can it include childcare and insurance costs?",
+            "a": "Yes, you can input these expenses."
+        },
+        {
+            "q": "Does it account for custody time?",
+            "a": "Yes, shared custody affects calculations."
+        },
+        {
+            "q": "Can it handle multiple children?",
+            "a": "Yes, the number of children is included in the calculation."
+        },
+        {
+            "q": "Is it suitable for legal planning?",
+            "a": "Yes, but it’s not a substitute for professional legal advice."
+        },
+        {
+            "q": "Can incomes be adjusted for deductions?",
+            "a": "Yes, prior obligations like existing support or spousal maintenance can be added."
+        },
+        {
+            "q": "How accurate are results?",
+            "a": "Results are accurate based on the inputs, but court-ordered support may vary."
+        }
+    ]
+}

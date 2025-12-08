@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for conservation-of-momentum-calculator
 const conservationofmomentumcalculatorMeta = {
@@ -66,5 +67,162 @@ export default async function ConservationOfMomentumCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Conservation of Momentum Calculator",
+    "url": "https://www.thesmartcalculator.com/physics/conservation-of-momentum-calculator",
+    "description": "Free online Conservation of Momentum Calculator to calculate final velocities and momentum in collisions using mass, initial velocities, and collision type. Ideal for students, teachers, and physics enthusiasts.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Conservation of Momentum Calculator",
+        "applicationCategory": "PhysicsCalculator",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Calculate final velocities and unknown momentum variables",
+          "Instant calculation",
+          "Mobile-friendly interface",
+          "Supports metric and imperial units",
+          "Free and easy to use"
+        ],
+        "url": "https://www.thesmartcalculator.com/physics/conservation-of-momentum-calculator"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Conservation of Momentum Calculator",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Conservation of Momentum Calculator",
+            "text": "Input the masses of the colliding objects (m1 and m2)."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Conservation of Momentum Calculator",
+            "text": "Provide the velocities of the objects before the collision (u1 and u2)."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Conservation of Momentum Calculator",
+            "text": "Choose elastic, inelastic, or generic momentum conservation if available."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Conservation of Momentum Calculator",
+            "text": "Leave the unknown variable blank for the calculator to solve it."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Conservation of Momentum Calculator",
+            "text": "Press the calculate button to get the final velocities instantly."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Conservation of Momentum Calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It calculates final velocities or unknown momentum variables in collisions using the law of momentum conservation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this calculator free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is completely free online."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need software or installation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, it works directly in your browser."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use it on mobile devices?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is fully mobile-friendly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What inputs are required?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Masses, initial velocities, collision type, and optionally one final velocity."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which physics principles are used?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The calculator uses the law of conservation of momentum for isolated systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it suitable for students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, ideal for learning physics, homework, and exams."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it handle different collision types?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it supports elastic, inelastic, and generic collisions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it handle different units?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, both metric and imperial units are supported."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the calculator accurate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It provides approximate results for ideal physics situations; real-world collisions may differ due to external factors."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="conservation-of-momentum-calculator-schema"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

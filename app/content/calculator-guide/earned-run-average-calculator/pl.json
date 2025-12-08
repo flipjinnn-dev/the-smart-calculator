@@ -1,0 +1,143 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Kalkulator ERA: co to jest i jak działa",
+      "content": "Kalkulator ERA to bezpłatne narzędzie internetowe, które pomaga w natychmiastowym obliczeniu średniej rundy miotacza (ERA) na podstawie zdobytych runów i rozegranych rund. ERA mierzy, ile zarobionych runów wykonuje miotacz w ciągu dziewięciu rund – jest to kluczowa statystyka rzucania."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wprowadź zdobyte runy",
+          "content": "Wprowadź całkowitą liczbę zdobytych runów dozwolonych przez miotacza."
+        },
+        {
+          "heading": "Wprowadź inningi narzucone",
+          "content": "Wprowadź całkowitą liczbę rund narzuconych, łącznie z rundami ułamkowymi (np. 6,1 = 6⅓ rund)."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast zobacz ERA."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Aby uzyskać dokładne wyniki, upewnij się, że dane wejściowe są dokładne."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe obliczenia",
+          "content": "Uzyskaj ERA w kilka sekund."
+        },
+        {
+          "heading": "Dokładne i niezawodne",
+          "content": "Używa standardowego wzoru: ERA = (Zdobyte runy ÷ Liczba rozegranych rund) × 9."
+        },
+        {
+          "heading": "Łatwy w użyciu",
+          "content": "Nie ma potrzeby ręcznej matematyki."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na wszystkich urządzeniach."
+        },
+        {
+          "heading": "Idealny do baseballu fantasy i analizy",
+          "content": "Łatwe śledzenie wydajności miotacza dla zawodników, trenerów i analityków."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Miotacze i trenerzy",
+          "content": "Śledź wyniki w grze, serii lub sezonie."
+        },
+        {
+          "heading": "Fani i Analitycy",
+          "content": "Szybko porównaj dzbany."
+        },
+        {
+          "heading": "Baseball młodzieżowy i amatorski",
+          "content": "Proste śledzenie bez skomplikowanych obliczeń."
+        },
+        {
+          "heading": "Fantastyczny baseball",
+          "content": "Oceń wartość miotacza pod kątem przeciągów i punktacji."
+        },
+        {
+          "heading": "Skauci i oceniający talenty",
+          "content": "Oceń spójność i skuteczność."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1",
+          "content": "3 ER ÷ 6 IP = 4,50 ERA"
+        },
+        {
+          "heading": "Przykład 2",
+          "content": "72 ER ÷ 180 IP = 3,60 ERA"
+        },
+        {
+          "heading": "Przykład 3",
+          "content": "5 ER ÷ 9 IP = 5,00 ERA"
+        },
+        {
+          "heading": "Przykład 4",
+          "content": "20 ER ÷ 45 IP = 4,00 ERA"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator ERA?",
+      "a": "Oblicza ERA miotacza na podstawie zdobytych runów i rund narzuconych."
+    },
+    {
+      "q": "Jak oblicza się ERA?",
+      "a": "Wzór: ERA = (Zdobyte runy ÷ Liczba rozegranych rund) × 9."
+    },
+    {
+      "q": "Czy obejmuje to niezarobione przebiegi?",
+      "a": "Nie, liczone są tylko zdobyte runy."
+    },
+    {
+      "q": "Czy wynik jest dokładny?",
+      "a": "Tak, na podstawie danych wejściowych."
+    },
+    {
+      "q": "Czy mogę go używać do gry w fantasy baseball?",
+      "a": "Tak, pomaga szybko śledzić statystyki miotacza."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa na wszystkich urządzeniach."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, całkowicie bezpłatnie online."
+    },
+    {
+      "q": "Kto powinien z niego korzystać?",
+      "a": "Gracze, trenerzy, kibice, analitycy i miłośnicy fantasy."
+    },
+    {
+      "q": "Dlaczego warto korzystać z kalkulatora ERA?",
+      "a": "Oszczędza czas i zapewnia dokładne obliczenia."
+    },
+    {
+      "q": "Czy może śledzić wiele gier lub sezonów?",
+      "a": "Tak, biorąc pod uwagę łączne zdobyte runy i rozegrane rundy."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de velocidad?",
+      "content": "Una calculadora de velocidad es una herramienta en línea gratuita que calcula la velocidad de un objeto utilizando fórmulas físicas. Puede calcular la velocidad promedio usando la distancia y el tiempo o la velocidad final para el movimiento acelerado usando v = u + a × t."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Abre la calculadora",
+          "content": "Accede a la página en tu navegador."
+        },
+        {
+          "heading": "Seleccione el tipo de cálculo",
+          "content": "Elija velocidad simple (distancia/tiempo) o movimiento acelerado (v = u + a × t)."
+        },
+        {
+          "heading": "Introducir valores",
+          "content": "Introduzca la distancia, el tiempo, la velocidad inicial y la aceleración según sea necesario."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "El resultado de la velocidad aparece instantáneamente."
+        },
+        {
+          "heading": "Consultar unidades",
+          "content": "Asegúrese de que todas las unidades sean consistentes para obtener resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Resultados instantáneos",
+          "content": "Calcula la velocidad en segundos."
+        },
+        {
+          "heading": "Admite múltiples fórmulas",
+          "content": "Velocidad media y movimiento acelerado."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en cualquier dispositivo."
+        },
+        {
+          "heading": "Flexibilidad de la unidad",
+          "content": "Se admiten unidades métricas e imperiales."
+        },
+        {
+          "heading": "Herramienta educativa",
+          "content": "Ayuda a comprender la velocidad, la aceleración y el movimiento."
+        },
+        {
+          "heading": "Gratis y fácil de usar",
+          "content": "No se requieren descargas ni registro."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Estudiantes y profesores",
+          "content": "Resolver tareas y problemas de clase."
+        },
+        {
+          "heading": "Aficionados y proyectos de bricolaje",
+          "content": "Calcule el movimiento para modelos de vehículos o experimentos."
+        },
+        {
+          "heading": "Ingenieros y diseñadores",
+          "content": "Estimación rápida de la velocidad para proyectos simples."
+        },
+        {
+          "heading": "Viajes y cálculos diarios",
+          "content": "Determinar la velocidad a partir de la distancia y el tiempo."
+        },
+        {
+          "heading": "Demostraciones educativas",
+          "content": "Enseñar conceptos de cinemática y movimiento."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: velocidad constante",
+          "content": "Distancia: 100 metros | Tiempo: 20 segundos | Velocidad: 100 ÷ 20 = 5 m/s"
+        },
+        {
+          "heading": "Ejemplo 2: movimiento acelerado",
+          "content": "Velocidad inicial (u): 0 m/s | Aceleración (a): 2 m/s² | Tiempo (t): 10 segundos | Velocidad final (v): 0 + 2 × 10 = 20 m/s"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de velocidad?",
+      "a": "Calcula la velocidad usando la distancia, el tiempo y la aceleración."
+    },
+    {
+      "q": "¿Esta calculadora es gratuita?",
+      "a": "Sí, es completamente gratis en línea."
+    },
+    {
+      "q": "¿Necesito software o instalación?",
+      "a": "No, funciona directamente en tu navegador."
+    },
+    {
+      "q": "¿Puedo usarlo en el móvil?",
+      "a": "Sí, totalmente compatible con dispositivos móviles."
+    },
+    {
+      "q": "¿Qué insumos se requieren?",
+      "a": "Distancia, tiempo, velocidad inicial, aceleración."
+    },
+    {
+      "q": "¿Qué fórmulas se utilizan?",
+      "a": "Velocidad promedio: v = distancia ÷ tiempo; Movimiento acelerado: v = u + a × t"
+    },
+    {
+      "q": "¿Puede manejar diferentes unidades?",
+      "a": "Sí, se admiten unidades métricas e imperiales."
+    },
+    {
+      "q": "¿Es adecuado para estudiantes?",
+      "a": "Sí, perfecto para aprender física y cinemática."
+    },
+    {
+      "q": "¿Pueden utilizarlo ingenieros o aficionados?",
+      "a": "Sí, ideal para experimentos y análisis de movimiento simple."
+    },
+    {
+      "q": "¿Es precisa la calculadora?",
+      "a": "Sí, proporciona resultados precisos asumiendo unidades consistentes."
+    }
+  ]
+}

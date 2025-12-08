@@ -1,0 +1,155 @@
+{
+  "color": "lila",
+  "sections": [
+    {
+      "heading": "FIP-Rechner: Was es ist und wie es funktioniert",
+      "content": "Der FIP-Rechner bewertet das Fielding Independent Pitching (FIP) eines Pitchers, eine Metrik, die sich nur auf die Ergebnisse konzentriert, die der Pitcher kontrolliert: erlaubte Homeruns (HR), Walks (BB), Hit-by-Pitch (HBP), Strikeouts (K) und gepitchte Innings (IP). Formel: FIP = ((13 × HR) + (3 × (BB + HBP)) − (2 × K)) ÷ IP + C. C ist eine Ligakonstante zur Skalierung von FIP ähnlich dem Ligadurchschnitt ERA."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Zulässige Homeruns eingeben (HR)",
+          "content": "Insgesamt sind Homeruns erlaubt."
+        },
+        {
+          "heading": "Geben Sie Spaziergänge ein (BB)",
+          "content": "Gesamtzahl der ausgegebenen Spaziergänge."
+        },
+        {
+          "heading": "Geben Sie Hit-by-Pitch (HBP) ein",
+          "content": "Anzahl der getroffenen Batters."
+        },
+        {
+          "heading": "Geben Sie Strikeouts ein (K)",
+          "content": "Insgesamt erfasste Strikeouts."
+        },
+        {
+          "heading": "Geben Sie Innings Pitched (IP) ein",
+          "content": "Gesamtzahl der gepitchten Innings."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Holen Sie sich sofort den FIP des Pitchers."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Präzise Eingaben sorgen für präzise, ​​verteidigungsunabhängige Ergebnisse."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Verteidigungsunabhängige Metrik",
+          "content": "Misst nur das, was der Pitcher kontrolliert."
+        },
+        {
+          "heading": "Sofortige Berechnung",
+          "content": "Berechnet FIP ​​sofort."
+        },
+        {
+          "heading": "Präzise und zuverlässig",
+          "content": "Verwendet die Standard-FIP-Formel."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf allen Geräten."
+        },
+        {
+          "heading": "Ideal für Spieler, Trainer und Analysten",
+          "content": "Vergleichen Sie Pitcher fair über Teams und Saisons hinweg."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Pitcher und Trainer",
+          "content": "Verfolgen Sie die Leistung ohne Einfluss der Verteidigung."
+        },
+        {
+          "heading": "Fantasy-Baseballspieler",
+          "content": "Bewerten Sie die nachhaltige Pitcher-Leistung."
+        },
+        {
+          "heading": "Analysten und Scouts",
+          "content": "Vergleichen Sie Pitcher über Ligen oder Saisons hinweg."
+        },
+        {
+          "heading": "Verfolgung von Saison zu Saison",
+          "content": "Identifizieren Sie Trends bei Qualifikationskennzahlen."
+        },
+        {
+          "heading": "Spielerentwicklung",
+          "content": "Heben Sie verbesserungswürdige Bereiche hervor: Kontrolle, Strikeouts, Homerun-Prävention."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1",
+          "content": "HR: 20, BB: 50, HBP: 5, K: 200, IP: 180 → FIP ≈ 3,35"
+        },
+        {
+          "heading": "Beispiel 2",
+          "content": "HR: 10, BB: 30, HBP: 2, K: 150, IP: 120 → FIP ≈ 2,95"
+        },
+        {
+          "heading": "Beispiel 3",
+          "content": "HR: 15, BB: 40, HBP: 3, K: 180, IP: 160 → FIP ≈ 3,20"
+        },
+        {
+          "heading": "Beispiel 4",
+          "content": "HR: 25, BB: 60, HBP: 4, K: 210, IP: 200 → FIP ≈ 3,50"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein FIP-Rechner?",
+      "a": "Berechnet den FIP eines Pitchers anhand von HR, BB, HBP, K und IP."
+    },
+    {
+      "q": "Wie wird FIP berechnet?",
+      "a": "FIP = ((13 × HR) + (3 × (BB + HBP)) − (2 × K)) ÷ IP + C"
+    },
+    {
+      "q": "Berücksichtigt FIP ​​die Teamverteidigung?",
+      "a": "Nein, es ignoriert im Spiel befindliche Bälle und konzentriert sich nur auf die vom Werfer kontrollierten Ergebnisse."
+    },
+    {
+      "q": "Ist der Rechner genau?",
+      "a": "Ja, basierend auf den eingegebenen Statistiken."
+    },
+    {
+      "q": "Kann es für MLB, Minor Leagues oder Fantasy-Baseball verwendet werden?",
+      "a": "Ja, es funktioniert auf allen Ebenen."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, kompatibel mit allen Geräten."
+    },
+    {
+      "q": "Ist die Nutzung kostenlos?",
+      "a": "Ja, völlig kostenlos online."
+    },
+    {
+      "q": "Wer sollte diesen Rechner verwenden?",
+      "a": "Spieler, Trainer, Analysten, Scouts und Fantasy-Baseball-Enthusiasten."
+    },
+    {
+      "q": "Warum einen FIP-Rechner verwenden?",
+      "a": "Für eine faire Bewertung werden die Werferfähigkeiten von der Teamverteidigung isoliert."
+    },
+    {
+      "q": "Kann es mehrere Spiele oder Saisons verfolgen?",
+      "a": "Ja, durch Eingabe kumulativer Statistiken kann FIP für jeden Zeitraum berechnet werden."
+    }
+  ]
+}

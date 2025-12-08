@@ -1,0 +1,132 @@
+{
+  "pageTitle": "Calculadora de interés compuesto",
+  "pageDescription": "Calcule el crecimiento del interés compuesto a lo largo del tiempo con contribuciones regulares para escenarios de inversiones, ahorros y préstamos.",
+  "form": {
+    "labels": {
+      "principal": "Director inicial",
+      "interestRate": "Tasa de interés anual",
+      "timePeriod": "Período de tiempo",
+      "compoundFrequency": "Frecuencia compuesta",
+      "contributions": "Contribuciones regulares",
+      "contributionAmount": "Monto de la contribución",
+      "contributionFrequency": "Frecuencia de contribución",
+      "contributionTiming": "Momento de contribución"
+    },
+    "placeholders": {
+      "principal": "Ingrese el monto principal inicial",
+      "interestRate": "Introduzca la tasa de interés anual (%)",
+      "timePeriod": "Introduzca el período de tiempo",
+      "contributionAmount": "Ingrese el monto de la contribución"
+    },
+    "buttons": {
+      "calculate": "Calcular el interés compuesto",
+      "reset": "Reiniciar"
+    },
+    "compoundFrequencies": {
+      "annually": "Anualmente",
+      "semiAnnually": "Semestralmente",
+      "quarterly": "Trimestral",
+      "monthly": "Mensual",
+      "daily": "A diario",
+      "continuously": "Continuamente"
+    },
+    "contributionFrequencies": {
+      "monthly": "Mensual",
+      "quarterly": "Trimestral",
+      "annually": "Anualmente",
+      "none": "Sin contribuciones"
+    },
+    "contributionTimings": {
+      "beginning": "Inicio del período",
+      "end": "Fin del periodo"
+    }
+  },
+  "results": {
+    "futureValue": "Valor futuro",
+    "totalContributions": "Contribuciones totales",
+    "totalInterest": "Interés total ganado",
+    "interestPercentage": "Porcentaje de interés del total",
+    "compoundInterestResultsTitle": "Resultados de interés compuesto"
+  },
+  "educational": {
+    "compoundInterestInfo": "Información de interés compuesto",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "compoundInterestFacts": {
+      "definition": {
+        "title": "Definición de interés compuesto",
+        "description": "Intereses calculados sobre el capital inicial y los intereses acumulados de períodos anteriores"
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "A = P(1 + r/n)^(nt) + PAGO × [((1 + r/n)^(nt) - 1) / (r/n)]"
+      },
+      "power": {
+        "title": "El poder de la capitalización",
+        "description": "El tiempo y la tasa de interés impactan significativamente el valor de la inversión final"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones de interés compuesto.",
+      "actual": "Los rendimientos reales de la inversión pueden variar según las condiciones y tarifas del mercado."
+    },
+    "importantNotesList": [
+      "Cuanto más largo sea el período, más dramático será el efecto compuesto.",
+      "Las tasas de interés más altas conducen a un crecimiento exponencial con el tiempo",
+      "Las tasas de interés más altas conducen a un crecimiento exponencial con el tiempo",
+      "Considere la inflación y los impuestos al evaluar los rendimientos reales"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su inversión para calcular el crecimiento del interés compuesto",
+    "resultMessage": "Los resultados del cálculo del interés compuesto se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del interés compuesto:",
+    "compoundInterestAnalysis": "Análisis de interés compuesto"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de interés compuesto basadas en fórmulas matemáticas. Los rendimientos reales de la inversión pueden variar según las condiciones del mercado, tarifas, impuestos y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para obtener asesoramiento de inversión y planificación financiera personalizados, consulte a asesores financieros o profesionales de inversiones con experiencia en gestión de carteras y circunstancias financieras individuales."
+  },
+  "errors": {
+    "principal": "Por favor ingrese un monto de capital inicial válido",
+    "interestRate": "Por favor ingrese una tasa de interés anual válida",
+    "timePeriod": "Por favor ingrese un período de tiempo válido",
+    "contributionAmount": "Por favor ingrese un monto de contribución válido",
+    "compoundFrequency": "Por favor seleccione una frecuencia compuesta",
+    "contributionFrequency": "Por favor seleccione una frecuencia de contribución",
+    "contributionTiming": "Por favor seleccione el momento de la contribución"
+  },
+  "tooltips": {
+    "principal": "Monto inicial invertido o ahorrado",
+    "interestRate": "Tasa de interés anual o rendimiento esperado",
+    "timePeriod": "Duración del crecimiento de la inversión",
+    "compoundFrequency": "¿Con qué frecuencia se capitaliza el interés por año?",
+    "contributionAmount": "Monto regular agregado a la inversión",
+    "contributionFrequency": "¿Con qué frecuencia se hacen las contribuciones?",
+    "contributionTiming": "Si las contribuciones se realizan al principio o al final del período."
+  },
+  "investment_details_0": "Detalles de la inversión",
+  "enter_your_investment_information_1": "Ingrese la información de su inversión",
+  "initial_investment_2": "Inversión inicial",
+  "monthly_contribution_3": "Contribución Mensual",
+  "annual_interest_rate_4": "Tasa de interés anual (%)",
+  "investment_period_years_5": "Período de inversión (años)",
+  "compound_frequency_6": "Frecuencia compuesta",
+  "annually_7": "Anualmente",
+  "quarterly_8": "Trimestral",
+  "monthly_9": "Mensual",
+  "daily_10": "A diario",
+  "calculate_11": "Calcular",
+  "investment_growth_12": "Crecimiento de la inversión",
+  "your_investment_projection_13": "Tu proyección de inversión",
+  "final_amount_14": "Monto final",
+  "total_interest_earned_15": "Interés total ganado",
+  "total_contributions_16": "Contribuciones totales",
+  "enter_investment_details_to_see_growth_projection_17": "Ingrese los detalles de la inversión para ver la proyección de crecimiento"
+}

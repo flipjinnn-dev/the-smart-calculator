@@ -1,0 +1,147 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Convertidor de pasta seca a cocida: qué es y cómo ayuda",
+      "content": "El convertidor de pasta seca a cocida es una herramienta gratuita en línea que ayuda a estimar el peso de la pasta cocida a partir de una cantidad determinada de pasta seca. Los diferentes tipos de pasta se expanden de manera diferente cuando se cocinan y esta calculadora proporciona estimaciones precisas para cocineros caseros, preparadores de comidas y chefs profesionales."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Seleccionar tipo de pasta",
+          "content": "Elija pasta larga, corta o rellena."
+        },
+        {
+          "heading": "Ingrese la cantidad seca",
+          "content": "Ingrese la cantidad de pasta seca en gramos, onzas o tazas."
+        },
+        {
+          "heading": "Seleccionar unidad objetivo",
+          "content": "Elija cómo desea que se muestre el peso cocido."
+        },
+        {
+          "heading": "Haga clic en Convertir",
+          "content": "Vea el peso estimado de la pasta cocida al instante."
+        },
+        {
+          "heading": "Consejo",
+          "content": "El peso real cocido puede variar según la absorción de agua y el tiempo de cocción."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Conversión instantánea",
+          "content": "Convierta la pasta seca al peso cocido en segundos."
+        },
+        {
+          "heading": "Admite varios tipos de pasta",
+          "content": "Se admiten espaguetis, penne, fusilli y más."
+        },
+        {
+          "heading": "Estimaciones precisas",
+          "content": "Utiliza índices de expansión promedio para obtener resultados confiables."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona perfectamente en teléfonos inteligentes, tabletas y computadoras de escritorio."
+        },
+        {
+          "heading": "Interfaz fácil de usar",
+          "content": "Sencillo e intuitivo tanto para principiantes como para profesionales."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Cocineros caseros",
+          "content": "Calcule las porciones con precisión para las comidas diarias."
+        },
+        {
+          "heading": "Preparadores de comidas",
+          "content": "Planifique cantidades exactas de pasta cocida para las comidas semanales."
+        },
+        {
+          "heading": "Seguimiento de nutrición",
+          "content": "Realice un seguimiento de las calorías y las macros con precisión utilizando el peso de la pasta cocida."
+        },
+        {
+          "heading": "Cocinas Profesionales",
+          "content": "Estandarice el tamaño de las porciones para recetas en restaurantes o catering."
+        },
+        {
+          "heading": "Cocina para eventos",
+          "content": "Planifique las necesidades de ingredientes para fiestas o reuniones grandes."
+        }
+      ]
+    },
+    {
+      "heading": "Conversiones de ejemplo",
+      "subSections": [
+        {
+          "heading": "Espaguetis",
+          "content": "100 g de espaguetis secos → 220 g cocidos"
+        },
+        {
+          "heading": "Penne",
+          "content": "50 g de penne seco → 110 g cocidos"
+        },
+        {
+          "heading": "Fusilli",
+          "content": "200 g de fusilli secos → 440 g cocidos"
+        },
+        {
+          "heading": "Conversión de volumen",
+          "content": "1 taza de pasta seca → ~2 tazas cocidas"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es un convertidor de pasta seca a cocida?",
+      "a": "Calcula la cantidad de pasta cocida que se obtiene de la pasta seca."
+    },
+    {
+      "q": "¿Funciona para todo tipo de pasta?",
+      "a": "Sí, admite los tipos de pasta más comunes."
+    },
+    {
+      "q": "¿Es importante la selección de ingredientes?",
+      "a": "Sí, seleccionar el tipo de pasta mejora la precisión de la conversión."
+    },
+    {
+      "q": "¿El resultado es exacto?",
+      "a": "No, es una estimación; El peso real puede variar según las condiciones de cocción."
+    },
+    {
+      "q": "¿Puedo convertir tazas a peso cocido?",
+      "a": "Sí, se admiten entradas de peso y volumen."
+    },
+    {
+      "q": "¿Esta calculadora es compatible con dispositivos móviles?",
+      "a": "Sí, funciona en teléfonos inteligentes, tabletas y computadoras de escritorio."
+    },
+    {
+      "q": "¿Es de uso gratuito?",
+      "a": "Sí, totalmente gratis y online."
+    },
+    {
+      "q": "¿Puedo planificar comidas usando esta herramienta?",
+      "a": "Sí, ayuda a estimar las porciones para comidas individuales o para cocinar a granel."
+    },
+    {
+      "q": "¿Quién debería utilizar esta calculadora?",
+      "a": "Cocineros caseros, preparadores de comidas, personas preocupadas por la dieta y chefs."
+    },
+    {
+      "q": "¿Por qué utilizar este convertidor?",
+      "a": "Garantiza un control adecuado de las porciones y resultados de cocción precisos."
+    }
+  ]
+}

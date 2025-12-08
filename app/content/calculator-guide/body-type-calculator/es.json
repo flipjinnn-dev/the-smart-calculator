@@ -1,0 +1,97 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "Descubre tu tipo de cuerpo fácilmente",
+      "content": "Comprender la forma de su cuerpo es esencial para establecer objetivos realistas de acondicionamiento físico, elegir ropa favorecedora y mejorar la salud en general. Nuestra Calculadora de tipo de cuerpo en línea es una herramienta rápida, precisa y fácil de usar diseñada para ayudarlo a calcular la forma de su cuerpo en minutos. Ya sea que desee identificar la forma del cuerpo con curvas, pera, manzana o rectangular, esta herramienta proporciona mediciones precisas para guiar sus elecciones de estado físico y estilo de vida."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de tipo de cuerpo",
+      "content": "Usar nuestra herramienta Calculadora de la forma del cuerpo es simple e intuitivo. Siga estos pasos:",
+      "subSections": [
+        {
+          "heading": "Paso 1: Ingrese sus medidas",
+          "content": "Ingrese sus medidas de busto/pecho, cintura y cadera. Para los hombres, incluya las medidas de los hombros y el pecho para una clasificación precisa."
+        },
+        {
+          "heading": "Paso 2: Calcule su relación cintura-cadera (WHR)",
+          "content": "Esta proporción es un indicador clave del tipo de cuerpo y el riesgo para la salud. Consulte nuestra Calculadora de relación cintura-cadera para obtener un análisis detallado."
+        },
+        {
+          "heading": "Paso 3: haga clic en \"Calcular\"",
+          "content": "Vea instantáneamente el resultado de su tipo de cuerpo con un desglose claro y recomendaciones."
+        },
+        {
+          "heading": "Paso 4: revise las estadísticas personalizadas",
+          "content": "Obtenga orientación sobre consejos de fitness, dieta y estilo según la forma de su cuerpo."
+        }
+      ]
+    },
+    {
+      "heading": "Comprender los tipos de cuerpo",
+      "content": "Los diferentes tipos de cuerpo tienen características distintas que pueden influir en el estado físico, la postura y los resultados de salud.",
+      "subSections": [
+        {
+          "heading": "Reloj de arena",
+          "content": "Busto y cadera equilibrados, cintura estrecha. Concéntrese en el entrenamiento de fuerza y ​​los ejercicios básicos."
+        },
+        {
+          "heading": "Pera",
+          "content": "Caderas más anchas, parte superior del cuerpo más pequeña. Enfatice los entrenamientos de la parte inferior del cuerpo y mantenga el ejercicio cardiovascular."
+        },
+        {
+          "heading": "Manzana",
+          "content": "Parte superior del cuerpo ancha, cintura más grande. Prioriza el cardio, el fortalecimiento del core y una dieta equilibrada."
+        },
+        {
+          "heading": "Rectángulo",
+          "content": "Medidas similares de busto, cintura y cadera. Construya curvas con entrenamiento de fuerza y ​​ejercicios de flexibilidad."
+        },
+        {
+          "heading": "Triángulo invertido",
+          "content": "Hombros más anchos, caderas más estrechas. Concéntrese en el desarrollo de la parte inferior del cuerpo y del core."
+        }
+      ]
+    },
+    {
+      "heading": "Por qué es importante la WHR",
+      "content": "Una relación cintura-cadera más alta puede indicar un mayor riesgo de enfermedades metabólicas y cardiovasculares. Conocer su WHR le ayuda a realizar un seguimiento de los riesgos para la salud y diseñar un plan de acondicionamiento físico eficaz."
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de tipo de cuerpo?",
+      "content": "Nuestra Calculadora de tipo de cuerpo proporciona múltiples beneficios:",
+      "subSections": [
+        {
+          "heading": "Ventajas",
+          "content": "• Rápido y preciso: obtenga resultados en segundos utilizando mediciones precisas.\n• Orientación física personalizada: adapte los entrenamientos a la forma de su cuerpo para obtener mejores resultados.\n• Consejos de ropa y estilo: encuentre los estilos más favorecedores según su tipo de cuerpo.\n• Concientización sobre la salud: monitorear la WHR y comprender los riesgos potenciales para la salud.\n• Gratis y fácil: completamente en línea y accesible en cualquier momento."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es un tipo de cuerpo?",
+      "a": "El tipo de cuerpo se refiere a la forma natural de su cuerpo determinada por la estructura ósea, la distribución de la grasa y la masa muscular. Los tipos comunes incluyen reloj de arena, pera, manzana, rectángulo y triángulo invertido."
+    },
+    {
+      "q": "¿Puedo calcular la forma de mi cuerpo en casa?",
+      "a": "¡Sí! Utilice una cinta métrica para registrar su busto/pecho, cintura y caderas, luego ingrese estos valores en nuestra Calculadora de tipo de cuerpo."
+    },
+    {
+      "q": "¿Cómo afecta el tipo de cuerpo a la salud?",
+      "a": "Ciertas formas corporales, especialmente aquellas con una proporción más alta entre cintura y cadera, pueden tener un mayor riesgo de diabetes, enfermedades cardíacas o afecciones metabólicas."
+    },
+    {
+      "q": "¿Esta calculadora es adecuada tanto para hombres como para mujeres?",
+      "a": "Absolutamente. Nuestra herramienta está diseñada para clasificar con precisión los tipos de cuerpo masculino y femenino y proporcionar información útil."
+    },
+    {
+      "q": "¿En qué se diferencia el tipo de cuerpo del IMC?",
+      "a": "El IMC mide el peso corporal general en relación con la altura, mientras que el tipo de cuerpo se centra en la forma y la distribución de la grasa, lo que ofrece una orientación de fitness más personalizada."
+    }
+  ],
+  "cta": {
+    "heading": "Tome el control de su estado físico y estilo",
+    "content": "Deja de adivinar y empieza a entender tu cuerpo. Utilice nuestra Calculadora gratuita de tipo de cuerpo ahora para identificar la forma de su cuerpo, calcular el WHR y obtener recomendaciones personalizadas de salud y estado físico. Conocer tu tipo de cuerpo es el primer paso hacia entrenamientos más inteligentes, hábitos más saludables y una persona más segura."
+  }
+}

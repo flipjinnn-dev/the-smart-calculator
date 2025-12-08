@@ -1,0 +1,163 @@
+{
+  "pageTitle": "Calculadora de pies cuadrados a yardas cúbicas",
+  "pageDescription": "Convierta pies cuadrados en yardas cúbicas para concreto, tierra y otros materiales en proyectos de construcción y paisajismo.",
+  "form": {
+    "labels": {
+      "area": "Área (pies cuadrados)",
+      "depth": "Profundidad/Altura",
+      "depthUnit": "Unidad de profundidad",
+      "materialType": "Tipo de material",
+      "wasteFactor": "Factor de desperdicio (%)"
+    },
+    "placeholders": {
+      "area": "Ingrese el área en pies cuadrados",
+      "depth": "Introduzca profundidad o altura",
+      "wasteFactor": "Introduzca el factor de desperdicio (0-50%)"
+    },
+    "buttons": {
+      "calculate": "Calcular yardas cúbicas",
+      "reset": "Reiniciar"
+    },
+    "depthUnits": {
+      "inches": "Pulgadas",
+      "feet": "Pies",
+      "centimeters": "Centímetros",
+      "meters": "Metros"
+    },
+    "materialTypes": {
+      "concrete": "Concreto",
+      "soil": "Tierra/suciedad",
+      "mulch": "Mantillo",
+      "gravel": "Grava",
+      "sand": "Arena",
+      "asphalt": "Asfalto",
+      "custom": "Materiales personalizados"
+    }
+  },
+  "results": {
+    "cubicYards": "Yardas cúbicas",
+    "cubicFeet": "Pies cúbicos",
+    "cubicMeters": "Metros cúbicos",
+    "conversionResultsTitle": "Resultados de conversión",
+    "materialVolume": "Volumen de materiales",
+    "withWaste": "Con factor de desperdicio"
+  },
+  "educational": {
+    "conversionInfo": "Información de conversión",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos de construcción",
+    "conversionFacts": {
+      "formula": {
+        "title": "Fórmula de conversión",
+        "description": "Yardas cúbicas = (Área × Profundidad) ÷ 27, donde 27 pies cúbicos = 1 yarda cúbica"
+      },
+      "applications": {
+        "title": "Aplicaciones comunes",
+        "description": "Pedido de hormigón, entrega de suelo, cobertura de mantillo y estimación de materiales."
+      },
+      "accuracy": {
+        "title": "Factores de precisión",
+        "description": "Los requisitos reales pueden variar debido a la compactación, el asentamiento y la precisión de la medición."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora solo proporciona estimaciones.",
+      "ordering": "Solicite material adicional para tener en cuenta variaciones y derrames."
+    },
+    "importantNotesList": [
+      "Considere la compactación y asentamiento del material en los cálculos finales.",
+      "Considere la compactación y asentamiento del material en los cálculos finales.",
+      "Verificar las cantidades mínimas de pedido del proveedor local",
+      "Mida dos veces y ordene una vez para evitar escasez"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese su área y profundidad para calcular el volumen del material",
+    "resultMessage": "Su cálculo de volumen se muestra a continuación",
+    "assessmentResult": "Resultado del cálculo del volumen:",
+    "conversionAnalysis": "Análisis de pies cuadrados a yardas cúbicas"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de volumen de materiales de construcción. Los requisitos reales pueden variar debido a la compactación, el asentamiento, la precisión de las mediciones y factores específicos del proyecto. Siempre consulte con los proveedores para conocer las cantidades finales del pedido."
+  },
+  "seekHelp": {
+    "title": "Recursos de construcción",
+    "content": "Para una estimación de construcción y planificación de materiales profesionales, consulte a contratistas certificados o utilice un software de estimación especializado para los requisitos específicos del proyecto y las condiciones locales."
+  },
+  "errors": {
+    "area": "Por favor ingrese un área válida en pies cuadrados",
+    "depth": "Por favor ingrese una profundidad o altura válida",
+    "depthUnit": "Por favor seleccione una unidad de profundidad",
+    "materialType": "Por favor seleccione un tipo de material",
+    "wasteFactor": "Ingrese un factor de desperdicio válido (0-50%)"
+  },
+  "tooltips": {
+    "area": "Superficie total a cubrir",
+    "depth": "Espesor o profundidad del material requerido",
+    "depthUnit": "Unidad de medida de profundidad",
+    "materialType": "El tipo de material afecta la densidad y el manejo.",
+    "wasteFactor": "Porcentaje adicional para contabilizar desperdicios y variaciones."
+  },
+  "area_depth_inputs_0": "Entradas de área y profundidad",
+  "enter_area_and_depth_measurements_to_calculate_vol_1": "Ingrese medidas de área y profundidad para calcular el volumen en yardas cúbicas",
+  "area_2": "Área",
+  "ft_3": "pies²",
+  "in_4": "pulgadas²",
+  "yd_5": "yd²",
+  "m_6": "m²",
+  "cm_7": "cm²",
+  "depth_8": "Profundidad",
+  "in_9": "en",
+  "ft_10": "pie",
+  "yd_11": "yarda",
+  "cm_12": "centímetro",
+  "m_13": "metro",
+  "calculate_14": "Calcular",
+  "reset_15": "Reiniciar",
+  "results_16": "Resultados",
+  "input_values_converted_17": "Valores de entrada (convertidos)",
+  "area_18": "Área:",
+  "ft_19": "pies²",
+  "depth_20": "Profundidad:",
+  "inches_21": "pulgadas",
+  "volume_22": "Volumen",
+  "cubic_yards_yd_23": "yardas cúbicas (yd³)",
+  "stepbystep_calculation_24": "Cálculo paso a paso",
+  "step_1_25": "Paso 1:",
+  "step_2_26": "Paso 2:",
+  "step_3_27": "Paso 3:",
+  "direct_formula_28": "Fórmula directa:",
+  "enter_area_and_depth_to_see_29": "Ingrese el área y la profundidad para ver",
+  "volume_calculation_30": "cálculo de volumen",
+  "in_cubic_yards_31": "en yardas cúbicas.",
+  "understanding_square_feet_to_cubic_yards_conversio_32": "Comprender la conversión de pies cuadrados a yardas cúbicas",
+  "formulas_used_33": "Fórmulas utilizadas",
+  "step_1_34": "Paso 1:",
+  "convert_depth_to_feet_depthft_depthin_12_35": "Convertir profundidad a pies: profundidad_pies = profundidad_pulgadas ÷ 12",
+  "step_2_36": "Paso 2:",
+  "calculate_feet_cubicft_areaft_depthft_37": "Calcular pies: pies cúbicos = área_pies² × profundidad_pies",
+  "step_3_38": "Paso 3:",
+  "convert_to_cubic_yards_cubicyd_cubicft_27_39": "Convertir a yardas cúbicas: yardas cúbicas = pies cúbicos ÷ 27",
+  "direct_formula_40": "Fórmula directa:",
+  "cubicyd_areaft_depthin_324_41": "yardas cúbicas = (área_pies² × profundidad_pulgadas) ÷ 324",
+  "example_calculation_42": "Ejemplo de cálculo",
+  "given_43": "Dado:",
+  "area_100_ft_depth_6_inches_44": "Área = 100 pies², Profundidad = 6 pulgadas",
+  "solution_45": "Solución:",
+  "step_1_6_inches_12_05_feet_46": "Paso 1: 6 pulgadas ÷ 12 = 0,5 pies",
+  "step_2_100_ft_05_ft_50_ft_47": "Paso 2: 100 pies² × 0,5 pies = 50 pies³",
+  "step_3_50_ft_27_185_yd_48": "Paso 3: 50 pies³ ÷ 27 = 1,85 yd³",
+  "direct_100_6_324_185_yd_49": "Directo: (100 × 6) ÷ 324 = 1,85 yd³",
+  "common_applications_50": "Aplicaciones comunes",
+  "concrete_51": "Concreto:",
+  "calculate_needed_for_slabs_driveways_and_foundatio_52": "Calcule lo necesario para losas, accesos y cimientos.",
+  "landscaping_53": "Paisajismo:",
+  "estimate_mulch_soil_or_gravel_for_garden_beds_54": "Calcule el mantillo, la tierra o la grava para los parterres del jardín.",
+  "construction_55": "Construcción:",
+  "determine_material_quantities_for_excavation_proje_56": "Determinar cantidades de material para proyectos de excavación.",
+  "paving_57": "Pavimentación:",
+  "calculate_or_paving_material_requirements_58": "Calcular los requisitos de material de pavimentación."
+}

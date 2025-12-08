@@ -1,0 +1,136 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "What is a Simpson's Rule Calculator?",
+            "content": "A Simpson's Rule Calculator is an online tool that simplifies numerical integration, allowing you to approximate definite integrals accurately and efficiently."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "content": "Using the Simpson's Rule Calculator is simple and requires minimal steps.",
+            "subSections": [
+                {
+                    "heading": "Enter the Function",
+                    "content": "Input the function you want to integrate (e.g., f(x) = x^2 + 3x)."
+                },
+                {
+                    "heading": "Set the Limits of Integration",
+                    "content": "Provide the lower and upper bounds for the definite integral."
+                },
+                {
+                    "heading": "Choose Number of Intervals (n)",
+                    "content": "For Simpson's Rule, n must be an even number."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "The calculator displays the approximate value of the integral instantly."
+                },
+                {
+                    "heading": "Tip",
+                    "content": "Always use an even number of intervals for accurate results with Simpson's Rule."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Accurate Calculations",
+                    "content": "Uses Simpson's 1/3 Rule for precise numerical integration."
+                },
+                {
+                    "heading": "User-Friendly Interface",
+                    "content": "Easy to use without complex formulas; ideal for beginners."
+                },
+                {
+                    "heading": "Step-by-Step Solution",
+                    "content": "Shows intermediate calculations for better understanding."
+                },
+                {
+                    "heading": "Multiple Function Support",
+                    "content": "Works with polynomial, trigonometric, exponential, and logarithmic functions."
+                },
+                {
+                    "heading": "Time-Saving",
+                    "content": "Instant results eliminate manual computation."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "subSections": [
+                {
+                    "heading": "Academic Purposes",
+                    "content": "For students solving definite integrals in calculus."
+                },
+                {
+                    "heading": "Engineering Applications",
+                    "content": "Calculating areas, volumes, and other integral-based measurements."
+                },
+                {
+                    "heading": "Scientific Research",
+                    "content": "Approximating integrals in physics, chemistry, and statistics."
+                },
+                {
+                    "heading": "Finance",
+                    "content": "Estimating integrals for continuous growth or decay models."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1",
+                    "content": "Integrate f(x) = x^2 from 0 to 4 using n = 4 intervals.\nSteps: Input function x^2 → Set limits 0 to 4 → Choose n = 4 → Click Calculate → Result: 21.3333 (approximate value using Simpson's Rule)."
+                },
+                {
+                    "heading": "Example 2",
+                    "content": "Integrate f(x) = sin(x) from 0 to π using n = 6 intervals.\nResult: 2.0000 (approximate value using Simpson's Rule)."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is Simpson's Rule?",
+            "a": "Simpson's Rule is a numerical method for approximating definite integrals."
+        },
+        {
+            "q": "How accurate is Simpson's Rule?",
+            "a": "It is highly accurate for smooth functions and improves as the number of intervals increases."
+        },
+        {
+            "q": "Can I use the calculator for any function?",
+            "a": "Yes, it works with polynomial, trigonometric, exponential, and logarithmic functions."
+        },
+        {
+            "q": "Why must the number of intervals be even?",
+            "a": "Simpson's Rule requires pairs of intervals to apply the formula correctly."
+        },
+        {
+            "q": "Is the calculator free?",
+            "a": "Yes, the Simpson's Rule Calculator is completely free to use."
+        },
+        {
+            "q": "Does it show step-by-step solutions?",
+            "a": "Yes, the calculator can show intermediate steps for better understanding."
+        },
+        {
+            "q": "Can I use it for large intervals?",
+            "a": "Yes, but increasing intervals improves accuracy."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, it works on both mobile and desktop devices."
+        },
+        {
+            "q": "Can it replace manual calculation?",
+            "a": "Yes, it saves time and reduces errors in manual calculations."
+        },
+        {
+            "q": "Where is Simpson's Rule applied?",
+            "a": "It is applied in mathematics, physics, engineering, finance, and scientific research."
+        }
+    ]
+}

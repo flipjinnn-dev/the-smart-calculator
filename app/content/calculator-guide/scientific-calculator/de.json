@@ -1,0 +1,155 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist ein wissenschaftlicher Rechner?",
+      "content": "Ein wissenschaftlicher Rechner ist ein fortschrittlicher Taschenrechner, der zur Durchführung komplexer mathematischer und wissenschaftlicher Berechnungen wie Trigonometrie, Logarithmen, Exponentialrechnungen, Wurzeln, Potenzen und Prozentsätze verwendet wird. Wissenschaftliche Online-Rechner sind kostenlos, browserbasiert und für Mobilgeräte geeignet, was sie ideal für Studenten, Berufstätige und alltägliche Benutzer macht."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Öffnen Sie den Rechner",
+          "content": "Starten Sie den Rechner in Ihrem Browser."
+        },
+        {
+          "heading": "Geben Sie Zahlen oder Formeln ein",
+          "content": "Geben Sie die Werte oder mathematischen Ausdrücke ein, die Sie berechnen möchten."
+        },
+        {
+          "heading": "Wählen Sie Funktionen",
+          "content": "Verwenden Sie sin, cos, tan, log, ln, √, x², e^x usw."
+        },
+        {
+          "heading": "Verwenden Sie Klammern",
+          "content": "Verwenden Sie bei komplexen Berechnungen Klammern, um die Reihenfolge der Operationen zu steuern."
+        },
+        {
+          "heading": "Klicken Sie auf =",
+          "content": "Erhalten Sie sofort das Ergebnis."
+        },
+        {
+          "heading": "Speicherfunktionen",
+          "content": "Werte nach Bedarf speichern und abrufen."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Überprüfen Sie den Grad/Bogenmaß-Modus für trigonometrische Berechnungen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Erweiterte Funktionen",
+          "content": "Trigonometrie, Logarithmen, Exponenten, Potenzen, Wurzeln, Prozentsätze."
+        },
+        {
+          "heading": "Sofortige Ergebnisse",
+          "content": "Berechnet in Millisekunden."
+        },
+        {
+          "heading": "Speicherspeicher",
+          "content": "Speichern und Abrufen von Werten für mehrstufige Berechnungen."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf Desktops, Tablets und Smartphones."
+        },
+        {
+          "heading": "Kostenlos und zugänglich",
+          "content": "Keine Downloads oder Registrierung erforderlich."
+        },
+        {
+          "heading": "Benutzerfreundliche Oberfläche",
+          "content": "Sauber und einfach zu navigieren."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Schüler und Lehrer",
+          "content": "Lösen Sie Hausaufgaben, üben Sie Probleme und führen Sie Unterrichtsübungen durch."
+        },
+        {
+          "heading": "Ingenieure und Wissenschaftler",
+          "content": "Führen Sie komplexe wissenschaftliche Berechnungen durch."
+        },
+        {
+          "heading": "Codierung und Algorithmentests",
+          "content": "Schnelle mathematische Berechnungen für die Softwareentwicklung."
+        },
+        {
+          "heading": "Finanzen und Wirtschaft",
+          "content": "Prozentsätze, Wurzeln und grundlegende Finanzberechnungen."
+        },
+        {
+          "heading": "Alltagsgebrauch",
+          "content": "Einheitenumrechnungen, Flächen-/Volumenberechnungen und tägliche mathematische Probleme."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Trigonometrie",
+          "content": "Ausdruck: sin(45°) + cos(30°) → Ausgabe: 1,366"
+        },
+        {
+          "heading": "Beispiel 2 – Exponent und Log",
+          "content": "Ausdruck: log(1000) + e² → Ausgabe: 9.389"
+        },
+        {
+          "heading": "Beispiel 3 – Kombinierte Operationen",
+          "content": "Ausdruck: √(16) + 3² × 2 → Ausgabe: 22"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein wissenschaftlicher Taschenrechner?",
+      "a": "Es ist ein Rechner für fortgeschrittene Mathematik, einschließlich trigonometrischer Berechnungen, Logarithmen, Exponenten, Wurzeln und Potenzen."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, völlig kostenlos online."
+    },
+    {
+      "q": "Funktioniert es auf dem Handy?",
+      "a": "Ja, vollständig mobilfreundlich."
+    },
+    {
+      "q": "Muss ich Software installieren?",
+      "a": "Nein, es läuft in Ihrem Browser."
+    },
+    {
+      "q": "Kann es komplexe Berechnungen durchführen?",
+      "a": "Ja, einschließlich Klammern und Reihenfolge der Operationen."
+    },
+    {
+      "q": "Kann ich Nummern speichern?",
+      "a": "Ja, Speicherfunktionen sind verfügbar."
+    },
+    {
+      "q": "Ist es für Studenten geeignet?",
+      "a": "Ja, perfekt für Hausaufgaben und Prüfungen."
+    },
+    {
+      "q": "Ist es für Ingenieure/Wissenschaftler geeignet?",
+      "a": "Ja, unterstützt fortgeschrittene wissenschaftliche Berechnungen."
+    },
+    {
+      "q": "Bietet es Geschichte?",
+      "a": "Die meisten Versionen zeigen einen Berechnungsverlauf."
+    },
+    {
+      "q": "Ist es korrekt?",
+      "a": "Ja, liefert präzise Ergebnisse für alle unterstützten Funktionen."
+    }
+  ]
+}

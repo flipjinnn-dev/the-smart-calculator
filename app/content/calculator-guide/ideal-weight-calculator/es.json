@@ -1,0 +1,92 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Descubre tu peso ideal con nuestra calculadora gratuita",
+      "content": "Mantener un peso saludable es crucial para el bienestar general, el estado físico y la prevención de enfermedades. Nuestra Calculadora de peso ideal le ayuda a determinar su peso óptimo en función de su altura, edad, sexo y composición corporal. Ya sea que desee calcular el peso ideal para hombres, mujeres o objetivos de acondicionamiento físico, esta herramienta proporciona resultados precisos respaldados por la ciencia en segundos."
+    },
+    {
+      "heading": "Cómo funciona la calculadora de peso ideal",
+      "subSections": [
+        {
+          "heading": "Fórmula Hamwi",
+          "content": "Hombres: 106 libras durante los primeros 5 pies + 6 libras por pulgada en 5 pies\nMujeres: 100 libras durante los primeros 5 pies + 5 libras por pulgada a lo largo de 5 pies"
+        },
+        {
+          "heading": "Fórmula divina",
+          "content": "Similar a Hamwi pero ligeramente ajustado para mayor precisión clínica."
+        },
+        {
+          "heading": "Fórmula Robinson",
+          "content": "Hombres: 52 kg + 1,9 kg por pulgada sobre 5 pies\nMujeres: 49 kg + 1,7 kg por pulgada sobre 5 pies"
+        },
+        {
+          "heading": "Fórmula de Miller",
+          "content": "Hombres: 56,2 kg + 1,41 kg por pulgada sobre 5 pies\nMujeres: 53,1 kg + 1,36 kg por pulgada sobre 5 pies"
+        }
+      ]
+    },
+    {
+      "heading": "Por qué es importante el peso ideal",
+      "content": "✔ Apoya la salud del corazón y reduce los riesgos cardiovasculares\n✔ Ayuda a mantener niveles saludables de azúcar y colesterol en la sangre.\n✔ Mejora el rendimiento físico y la resistencia\n✔ Guía para un control de peso seguro y eficaz"
+    },
+    {
+      "heading": "Peso ideal vs IMC vs peso real",
+      "content": "• IMC (índice de masa corporal): Mide la grasa corporal según el peso y la altura, pero no tiene en cuenta la masa muscular.\n• Peso ideal: proporciona un rango de peso objetivo optimizado para la altura, el sexo y el tipo de cuerpo.\n• Peso real: su peso actual; compararlo con su peso ideal ayuda a identificar áreas de mejora.\n\n💡 Consejo: utilice nuestra Calculadora de IMC y peso ideal para obtener una imagen completa de su composición corporal."
+    },
+    {
+      "heading": "Pautas para mantener el peso ideal",
+      "content": "✔ Siga una dieta equilibrada rica en frutas, verduras, proteínas magras y cereales integrales.\n✔ Incorporar actividad física regular: cardio, entrenamiento de fuerza y ejercicios de flexibilidad\n✔ Controle el tamaño de las porciones y evite los refrigerios excesivos\n✔ Manténgase hidratado y duerma lo suficiente\n✔ Realice un seguimiento de su progreso utilizando nuestra herramienta Calculadora de peso corporal y nuestra Calculadora de grasa corporal"
+    },
+    {
+      "heading": "Herramientas relacionadas",
+      "content": "• Calculadora de IMC: verifique su índice de masa corporal y vea cómo se compara con su peso ideal\n• Calculadora de grasa corporal: mide el porcentaje de grasa corporal para obtener información sobre la salud más precisa\n• Calculadora de peso saludable: obtenga una vista completa de los rangos de peso saludable para su edad y altura."
+    },
+    {
+      "heading": "Ejemplo de cálculo",
+      "content": "Escenario: una mujer de 5'7\" quiere saber su peso ideal.\nFórmula Hamwi: 100 libras + (5 libras × 7 pulgadas) = 135 libras\nFórmula Robinson: 49 kg + (1,7 kg × 7 pulgadas) ≈ 61,9 kg (~136 lbs)\n\n✅ Estos resultados dan un rango de peso ideal claro de 135 a 137 libras."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es el peso ideal para mi altura y edad?",
+      "a": "Depende de tu altura, sexo y composición corporal. La calculadora utiliza múltiples fórmulas para brindarle un rango confiable."
+    },
+    {
+      "q": "¿Qué tan precisa es la Calculadora de Peso Ideal?",
+      "a": "Proporciona estimaciones utilizando fórmulas confiables, pero factores como la masa muscular y la distribución de la grasa corporal pueden afectar la precisión."
+    },
+    {
+      "q": "¿Qué fórmula es mejor para calcular el peso ideal?",
+      "a": "Las diferentes fórmulas sirven para diferentes propósitos: Hamwi y Devine son tradicionales, mientras que Robinson y Miller ofrecen valores clínicamente ajustados."
+    },
+    {
+      "q": "¿En qué se diferencia el peso ideal del IMC?",
+      "a": "El IMC mide la grasa corporal en función del peso y la altura, mientras que el peso ideal proporciona un rango objetivo más específico para su altura y sexo."
+    },
+    {
+      "q": "¿Puedo usar esta calculadora para hombres y mujeres?",
+      "a": "Sí, la herramienta apoya tanto a hombres como a mujeres con fórmulas específicas de género."
+    },
+    {
+      "q": "¿Con qué frecuencia debo comprobar mi peso ideal?",
+      "a": "Puedes comprobarlo periódicamente, especialmente al iniciar un nuevo plan de fitness o dieta."
+    },
+    {
+      "q": "¿Es lo mismo peso ideal que peso saludable?",
+      "a": "No exactamente: el peso saludable puede cubrir un rango más amplio según el estilo de vida, la edad y la composición corporal."
+    },
+    {
+      "q": "¿Cómo puedo mantener mi peso ideal?",
+      "a": "Siga una dieta equilibrada, haga ejercicio con regularidad, controle el tamaño de las porciones y realice un seguimiento del progreso con calculadoras."
+    },
+    {
+      "q": "¿La masa muscular afecta los cálculos del peso ideal?",
+      "a": "Sí, las personas con una gran masa muscular pueden pesar más que su \"peso ideal\" pero aun así estar muy saludables."
+    },
+    {
+      "q": "¿Existen herramientas para realizar un seguimiento de los cambios del peso real al ideal?",
+      "a": "Sí, puede utilizar nuestra Calculadora de peso corporal, Calculadora de IMC y Calculadora de grasa corporal para controlar su progreso."
+    }
+  ]
+}

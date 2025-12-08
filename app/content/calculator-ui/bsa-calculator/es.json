@@ -1,0 +1,98 @@
+{
+  "pageTitle": "Calculadora de área de superficie corporal (BSA)",
+  "pageDescription": "Calcule la superficie de su cuerpo utilizando fórmulas médicas como Du Bois, Mosteller, Haycock y Gehan & George.",
+  "form": {
+    "labels": {
+      "weight": "Peso",
+      "height": "Altura",
+      "weightUnit": "Unidad de peso",
+      "heightUnit": "Unidad de altura",
+      "formula": "Fórmula de cálculo"
+    },
+    "placeholders": {
+      "weight": "Introduce tu peso",
+      "height": "Introduce tu altura"
+    },
+    "buttons": {
+      "calculate": "Calcular BSA",
+      "reset": "Reiniciar"
+    },
+    "units": {
+      "kilograms": "Kilogramos (kg)",
+      "pounds": "Libras (libras)",
+      "centimeters": "Centímetros (cm)",
+      "inches": "Pulgadas (pulg)",
+      "feetInches": "Pies y pulgadas (ft/in)"
+    },
+    "formulas": {
+      "duBois": "Fórmula Du Bois",
+      "mosteller": "Fórmula de Mosteller",
+      "haycock": "Fórmula de Haycock",
+      "gehanGeorge": "Fórmula de Gehan y George"
+    }
+  },
+  "results": {
+    "bsaResult": "Área de superficie corporal (BSA)",
+    "formulaUsed": "Fórmula utilizada",
+    "weightInKg": "Peso (kg)",
+    "heightInCm": "Altura (cm)",
+    "normalRange": "Rango normal",
+    "interpretation": "Interpretación BSA"
+  },
+  "educational": {
+    "bsaInfo": "Información sobre la superficie corporal",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos de salud",
+    "bsaFacts": {
+      "definition": {
+        "title": "Definición del área de superficie corporal",
+        "description": "BSA es la superficie total del cuerpo humano, generalmente expresada en metros cuadrados (m²)"
+      },
+      "formulas": {
+        "title": "Fórmulas de cálculo",
+        "description": "Se utilizan diferentes fórmulas para adultos y niños, siendo Du Bois el estándar clínico."
+      },
+      "applications": {
+        "title": "Aplicaciones médicas",
+        "description": "Se utiliza para dosificación de medicamentos, reposición de líquidos y evaluaciones de la función renal."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones de BSA únicamente",
+      "actual": "Consulte a profesionales de la salud para evaluaciones médicas personalizadas."
+    },
+    "importantNotesList": [
+      "BSA es más preciso que el IMC para ciertos cálculos médicos",
+      "Diferentes fórmulas pueden ser más apropiadas para poblaciones específicas",
+      "Los resultados no deben reemplazar el consejo médico profesional.",
+      "La composición corporal y la hidratación pueden afectar la precisión"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese su peso y altura para calcular la superficie corporal",
+    "resultMessage": "Los resultados del cálculo del área de superficie corporal se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de BSA:",
+    "bsaAnalysis": "Análisis del área de superficie corporal"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de la superficie corporal basadas en fórmulas médicas estándar. Los resultados no deben reemplazar el asesoramiento, diagnóstico o tratamiento médico profesional. Las evaluaciones individuales deben ser realizadas por profesionales sanitarios cualificados."
+  },
+  "seekHelp": {
+    "title": "Recursos de salud",
+    "content": "Para evaluaciones médicas personalizadas y planes de tratamiento, consulte con profesionales de la salud que puedan brindarle orientación según las necesidades individuales y el historial médico."
+  },
+  "errors": {
+    "weight": "Por favor introduce un peso válido",
+    "height": "Por favor ingresa una altura válida"
+  },
+  "tooltips": {
+    "weight": "Tu peso corporal actual",
+    "height": "Tu altura actual",
+    "weightUnit": "Unidad de medida de peso",
+    "heightUnit": "Unidad de medida de altura",
+    "formula": "Seleccione la fórmula a utilizar para el cálculo de BSA"
+  }
+}

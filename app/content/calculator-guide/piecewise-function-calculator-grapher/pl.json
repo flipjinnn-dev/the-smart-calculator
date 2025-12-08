@@ -1,0 +1,147 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Kalkulator i wykres funkcji odcinkowych: co to jest i jak z niego korzystać",
+      "content": "Kalkulator i wykres funkcji odcinkowych to narzędzie online, które pozwala definiować, oceniać i przedstawiać wykresy funkcji składających się z wielu elementów, z których każdy jest ważny w określonym przedziale czasu."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Otwórz kalkulator",
+          "content": "Uzyskaj do niego dostęp bezpośrednio w przeglądarce."
+        },
+        {
+          "heading": "Zdefiniuj elementy funkcyjne",
+          "content": "Wprowadź każde wyrażenie wraz z jego przedziałem (np. x < 0, 0 ≤ x < 2, x ≥ 2)."
+        },
+        {
+          "heading": "Wprowadź wartości x",
+          "content": "Określ punkty, w których chcesz ocenić funkcję."
+        },
+        {
+          "heading": "Ustaw zakres wykresu",
+          "content": "Opcjonalnie wybierz domenę do kreślenia."
+        },
+        {
+          "heading": "Kliknij opcję Oblicz/Wykres",
+          "content": "Natychmiast zobacz wartości funkcji i wykres."
+        },
+        {
+          "heading": "Sprawdź wyniki",
+          "content": "Sprawdź dokładność punktów granicznych."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Obsługuje wiele elementów",
+          "content": "Dodaj tyle podfunkcji z różnymi interwałami, ile potrzeba."
+        },
+        {
+          "heading": "Natychmiastowa ocena",
+          "content": "Szybko oblicz f(x) dla dowolnej wartości x."
+        },
+        {
+          "heading": "Funkcjonalność graficzna",
+          "content": "Wizualizuj wszystkie elementy, w tym skoki i punkty końcowe."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na komputerach stacjonarnych, tabletach i smartfonach."
+        },
+        {
+          "heading": "Obsługuje złożone funkcje",
+          "content": "Obsługuje wielomiany, wartości trygonometryczne, wykładnicze, wartości bezwzględne i inne."
+        },
+        {
+          "heading": "Bezpłatne i łatwe",
+          "content": "Nie wymaga pobierania ani rejestracji."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Pomoc dla uczniów i zadań domowych",
+          "content": "Szybsze zrozumienie funkcji fragmentarycznych."
+        },
+        {
+          "heading": "Nauczycielstwo",
+          "content": "Twórz przejrzyste, wizualne demonstracje w klasie."
+        },
+        {
+          "heading": "Analiza funkcji",
+          "content": "Zbadaj, jak funkcje zmieniają się w przedziałach."
+        },
+        {
+          "heading": "Modelowanie w świecie rzeczywistym",
+          "content": "Zastosuj do warstw cenowych, progów podatkowych lub funkcji krokowych."
+        },
+        {
+          "heading": "Szybkie wykresy",
+          "content": "Oszczędzaj czas w porównaniu do ręcznego kreślenia."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Podstawowa funkcja fragmentaryczna",
+          "content": "f(x) zdefiniowane jako: x² dla x < 0; 2x + 1 dla 0 ≤ x < 3; 5 dla x ≥ 3. Ocena: f(-2)=4, f(1)=3, f(4)=5."
+        },
+        {
+          "heading": "Przykład 2 – Funkcja trygonometryczna odcinkowa",
+          "content": "f(x) zdefiniowane jako: sin(x) dla x < π/2; cos(x) dla x ≥ π/2. Ocena: f(π/4)≈0,707, f(π/2)=0, f(π)=-1."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator i wykres funkcji fragmentarycznych?",
+      "a": "Umożliwia definiowanie, obliczanie i wykreślanie funkcji fragmentarycznych w wielu odstępach czasu."
+    },
+    {
+      "q": "Czy ten kalkulator jest darmowy?",
+      "a": "Tak, jest to całkowicie bezpłatne online."
+    },
+    {
+      "q": "Czy potrzebuję oprogramowania?",
+      "a": "Nie, działa bezpośrednio w dowolnej przeglądarce."
+    },
+    {
+      "q": "Czy mogę wykreślić moje funkcje fragmentaryczne?",
+      "a": "Tak, generuje dokładne wykresy z prawidłowymi odstępami czasu."
+    },
+    {
+      "q": "Czy mogę dodać wiele sztuk?",
+      "a": "Tak, możesz zdefiniować dowolną liczbę podfunkcji."
+    },
+    {
+      "q": "Czy obsługuje funkcje trygonometryczne, wykładnicze lub wartości bezwzględne?",
+      "a": "Tak, obsługiwane są wszystkie standardowe wyrażenia matematyczne."
+    },
+    {
+      "q": "Czy jest odpowiedni dla studentów?",
+      "a": "Tak, idealnie nadaje się do nauki, odrabiania zadań domowych i ćwiczeń."
+    },
+    {
+      "q": "Czy poradzi sobie z przerwami?",
+      "a": "Tak, skoki i warunki końcowe są dokładnie odwzorowane."
+    },
+    {
+      "q": "Czy mogę ocenić w dowolnym momencie?",
+      "a": "Tak, po prostu wpisz wartości x i obliczy f(x)."
+    },
+    {
+      "q": "Jak dokładne jest to rozwiązanie?",
+      "a": "Zapewnia dokładne wartości funkcji i wykresy dla standardowych funkcji fragmentarycznych."
+    }
+  ]
+}

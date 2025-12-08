@@ -1,0 +1,146 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Entenda facilmente as porcentagens com nossa calculadora de porcentagem",
+      "content": "Nossa calculadora de porcentagem ajuda você a resolver todos os tipos de problemas de porcentagem instantaneamente. Se você precisa encontrar uma porcentagem, calcular aumento ou diminuição ou converter valores, esta ferramenta torna os cálculos percentuais simples e precisos."
+    },
+    {
+      "heading": "Como usar a calculadora de porcentagem",
+      "content": "Usar a calculadora é rápido e direto. Basta inserir seus valores e obter resultados instantâneos sem qualquer matemática manual.",
+      "subSections": [
+        {
+          "heading": "Etapas para usar:",
+          "content": "Insira o valor inicial (número original). Insira a porcentagem que deseja calcular. Clique em Calcular para obter o resultado. Para cálculos inversos (por exemplo, 'X é qual porcentagem de Y'), escolha o modo correspondente. Para alteração percentual, insira Valor Antigo → Novo Valor → Calcular."
+        }
+      ]
+    },
+    {
+      "heading": "Modos de calculadora que oferecemos suporte",
+      "content": "A ferramenta oferece vários modos para ajudá-lo a resolver facilmente diferentes tipos de problemas de porcentagem.",
+      "subSections": [
+        {
+          "heading": "Encontrar porcentagem",
+          "content": "Calcule qual porcentagem um número representa."
+        },
+        {
+          "heading": "Porcentagem de um número",
+          "content": "Encontre uma porcentagem específica de qualquer número."
+        },
+        {
+          "heading": "Aumento/diminuição percentual",
+          "content": "Calcule o crescimento ou redução entre dois valores."
+        },
+        {
+          "heading": "Porcentagem reversa",
+          "content": "Descubra qual é a porcentagem de um número em relação a outro."
+        },
+        {
+          "heading": "Conversão percentual",
+          "content": "Converta porcentagens em decimais ou frações e vice-versa."
+        },
+        {
+          "heading": "Porcentagem Média",
+          "content": "Calcule a média de vários valores percentuais."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Resultados rápidos e precisos",
+          "content": "Obtenha respostas instantâneas para todos os cálculos percentuais sem usar fórmulas."
+        },
+        {
+          "heading": "Design para iniciantes",
+          "content": "Fácil de usar para estudantes, profissionais, professores e tarefas diárias."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis e gratuito",
+          "content": "Funciona perfeitamente em todos os dispositivos, sem necessidade de inscrição."
+        },
+        {
+          "heading": "Fórmulas confiáveis ​​e padrão",
+          "content": "Baseado em regras matemáticas padrão para resultados confiáveis."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Acadêmicos e estudantes",
+          "content": "Calcule a porcentagem de notas, a porcentagem média e os resultados dos exames."
+        },
+        {
+          "heading": "Negócios e Finanças",
+          "content": "Analise a porcentagem de lucro/perda, juros e crescimento financeiro."
+        },
+        {
+          "heading": "Descontos em compras",
+          "content": "Encontre preços com desconto instantaneamente enquanto faz compras."
+        },
+        {
+          "heading": "Dados e relatórios",
+          "content": "Compare valores usando aumento ou diminuição percentual."
+        },
+        {
+          "heading": "Orçamento Pessoal",
+          "content": "Acompanhe os gastos ou poupanças como uma porcentagem da renda."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Quanto é 25% de 200?",
+          "content": "Fórmula: 25 ÷ 100 × 200 = 50"
+        },
+        {
+          "heading": "Exemplo 2 – 40 é que porcentagem de 320?",
+          "content": "Fórmula: 40 ÷ 320 × 100 = 12,5%"
+        },
+        {
+          "heading": "Exemplo 3 – Aumento percentual",
+          "content": "Valor Antigo = 500, Novo Valor = 650 → (650 - 500) ÷ 500 × 100 = aumento de 30%"
+        },
+        {
+          "heading": "Exemplo 4 – Diminuição percentual",
+          "content": "Valor antigo = 800, novo valor = 600 → (800 - 600) ÷ 800 × 100 = redução de 25%"
+        },
+        {
+          "heading": "Exemplo 5 – Porcentagem Média",
+          "content": "70%, 80%, 90% → (70 + 80 + 90) ÷ 3 = 80%"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de porcentagem?",
+      "a": "É uma ferramenta online que ajuda você a realizar todos os tipos de cálculos percentuais de forma instantânea e precisa."
+    },
+    {
+      "q": "Posso calcular o aumento percentual com esta ferramenta?",
+      "a": "Sim, a calculadora suporta o modo de aumento percentual para resultados rápidos."
+    },
+    {
+      "q": "Suporta redução percentual?",
+      "a": "Sim, você pode calcular porcentagens de redução facilmente."
+    },
+    {
+      "q": "Como calculo uma porcentagem manualmente?",
+      "a": "Use a fórmula: Porcentagem = (Parte ÷ Todo) × 100."
+    },
+    {
+      "q": "Posso converter porcentagens em números ou números em porcentagens?",
+      "a": "Sim, a ferramenta suporta conversão percentual em ambos os sentidos."
+    },
+    {
+      "q": "O uso é gratuito?",
+      "a": "Sim, a calculadora de porcentagem é 100% gratuita e funciona em todos os dispositivos."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+    "color": "green",
+    "sections": [
+        {
+            "heading": "RPE Calculator: What It Is and How to Use It",
+            "content": "An RPE (Rate of Perceived Exertion) Calculator helps measure workout intensity and estimate your strength. By entering weight lifted, repetitions, and perceived effort, it calculates your estimated one-rep max (1RM) and suggests recommended training loads. It’s ideal for fitness enthusiasts, lifters, powerlifters, and trainers looking to train safely, effectively, and progressively."
+        },
+        {
+            "heading": "How to Use the RPE Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Weight Lifted",
+                    "content": "Input the weight of your set (kg or lbs)."
+                },
+                {
+                    "heading": "Enter Repetitions",
+                    "content": "Number of reps completed for the set."
+                },
+                {
+                    "heading": "Select RPE",
+                    "content": "Rate how hard the set felt on a scale from 1–10."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "View estimated 1RM and recommended training loads."
+                },
+                {
+                    "heading": "Adjust Workouts",
+                    "content": "Use the results to plan intensity and progression."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "1RM Estimation",
+                    "content": "Converts weight, reps, and RPE into estimated maximum strength."
+                },
+                {
+                    "heading": "Load Recommendations",
+                    "content": "Suggests weights for target intensity levels."
+                },
+                {
+                    "heading": "Autoregulated Training",
+                    "content": "Adjust daily workouts based on perceived effort."
+                },
+                {
+                    "heading": "Free & Mobile-Friendly",
+                    "content": "Works on any device without registration."
+                },
+                {
+                    "heading": "Safe Training",
+                    "content": "Avoid unnecessary max lifts while tracking progress."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Strength Training",
+                    "content": "Plan intensity for progressive overload."
+                },
+                {
+                    "heading": "Powerlifting",
+                    "content": "Estimate max lifts safely without going to failure."
+                },
+                {
+                    "heading": "Autoregulated Workouts",
+                    "content": "Adjust daily loads based on effort."
+                },
+                {
+                    "heading": "Coaching",
+                    "content": "Trainers can plan and monitor client loads accurately."
+                },
+                {
+                    "heading": "Rehabilitation & Recovery",
+                    "content": "Manage stress to prevent injury and overtraining."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1",
+                    "content": "Weight: 100 kg | Reps: 5 | RPE: 8 → Estimated 1RM: 118 kg"
+                },
+                {
+                    "heading": "Example 2",
+                    "content": "Weight: 120 kg | Reps: 3 | RPE: 9 → Estimated 1RM: 129 kg"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is an RPE Calculator?",
+            "a": "It estimates strength and workout intensity using weight, repetitions, and perceived exertion."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, it’s completely free online."
+        },
+        {
+            "q": "Do I need software?",
+            "a": "No, it works directly in any browser."
+        },
+        {
+            "q": "Can it calculate 1RM?",
+            "a": "Yes, based on the weight, reps, and RPE you enter."
+        },
+        {
+            "q": "Can it plan workout intensity?",
+            "a": "Yes, it recommends training loads for target RPE levels."
+        },
+        {
+            "q": "Is it suitable for beginners?",
+            "a": "Yes, it works for all fitness levels."
+        },
+        {
+            "q": "How accurate is it?",
+            "a": "It’s accurate when inputs are consistent and correct."
+        },
+        {
+            "q": "Can it prevent injury?",
+            "a": "Yes, by avoiding unnecessary max lifts and overtraining."
+        },
+        {
+            "q": "Does it support kg and lbs?",
+            "a": "Yes, both units are accepted."
+        },
+        {
+            "q": "Can coaches use it for clients?",
+            "a": "Yes, it’s perfect for monitoring and planning client workouts."
+        }
+    ]
+}

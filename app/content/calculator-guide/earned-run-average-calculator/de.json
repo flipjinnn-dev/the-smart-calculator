@@ -1,0 +1,143 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "ERA-Rechner: Was es ist und wie es funktioniert",
+      "content": "Der ERA-Rechner ist ein kostenloses Online-Tool, das dabei hilft, den Earned Run Average (ERA) eines Pitchers anhand verdienter Runs und gepitchter Innings sofort zu berechnen. ERA misst, wie viele verdiente Runs ein Pitcher pro neun Innings zulässt – eine wichtige Pitching-Statistik."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Geben Sie verdiente Läufe ein",
+          "content": "Geben Sie die insgesamt vom Pitcher zugelassenen verdienten Runs ein."
+        },
+        {
+          "heading": "Geben Sie Innings Pitched ein",
+          "content": "Geben Sie die Gesamtzahl der gespielten Innings ein, einschließlich Teilinnings (z. B. 6,1 = 6⅓ Innings)."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Sehen Sie sich die ERA sofort an."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Stellen Sie sicher, dass die Eingaben korrekt sind, um präzise Ergebnisse zu erzielen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Berechnung",
+          "content": "Erhalten Sie ERA in Sekundenschnelle."
+        },
+        {
+          "heading": "Präzise und zuverlässig",
+          "content": "Verwendet die Standardformel: ERA = (Earned Runs ÷ Innings Pitched) × 9."
+        },
+        {
+          "heading": "Einfach zu bedienen",
+          "content": "Keine manuelle Mathematik erforderlich."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf allen Geräten."
+        },
+        {
+          "heading": "Ideal für Fantasy-Baseball und Analyse",
+          "content": "Verfolgen Sie die Leistung des Pitchers ganz einfach für Spieler, Trainer und Analysten."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Pitcher und Trainer",
+          "content": "Verfolgen Sie die Leistung pro Spiel, Serie oder Saison."
+        },
+        {
+          "heading": "Fans und Analysten",
+          "content": "Vergleichen Sie schnell Krüge."
+        },
+        {
+          "heading": "Jugend- und Amateur-Baseball",
+          "content": "Einfache Nachverfolgung ohne komplexe Berechnungen."
+        },
+        {
+          "heading": "Fantasy-Baseball",
+          "content": "Bewerten Sie den Pitcher-Wert für Drafts und Scoring."
+        },
+        {
+          "heading": "Scouts und Talentbewerter",
+          "content": "Bewerten Sie Konsistenz und Wirksamkeit."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1",
+          "content": "3 ER ÷ 6 IP = 4,50 ERA"
+        },
+        {
+          "heading": "Beispiel 2",
+          "content": "72 ER ÷ 180 IP = 3,60 ERA"
+        },
+        {
+          "heading": "Beispiel 3",
+          "content": "5 ER ÷ 9 IP = 5,00 ERA"
+        },
+        {
+          "heading": "Beispiel 4",
+          "content": "20 ER ÷ 45 IP = 4,00 ERA"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein ERA-Rechner?",
+      "a": "Es berechnet den ERA eines Pitchers anhand der verdienten Runs und gepitchten Innings."
+    },
+    {
+      "q": "Wie wird ERA berechnet?",
+      "a": "Formel: ERA = (Earned Runs ÷ Innings Pitched) × 9."
+    },
+    {
+      "q": "Beinhaltet es unverdiente Läufe?",
+      "a": "Nein, es werden nur verdiente Läufe gezählt."
+    },
+    {
+      "q": "Ist das Ergebnis korrekt?",
+      "a": "Ja, basierend auf den Eingaben."
+    },
+    {
+      "q": "Kann ich es für Fantasy-Baseball verwenden?",
+      "a": "Ja, es hilft, Pitcher-Statistiken schnell zu verfolgen."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, funktioniert auf allen Geräten."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, völlig kostenlos online."
+    },
+    {
+      "q": "Wer sollte es nutzen?",
+      "a": "Spieler, Trainer, Fans, Analysten und Fantasy-Enthusiasten."
+    },
+    {
+      "q": "Warum einen ERA-Rechner verwenden?",
+      "a": "Spart Zeit und sorgt für genaue Berechnungen."
+    },
+    {
+      "q": "Kann es mehrere Spiele oder Saisons verfolgen?",
+      "a": "Ja, unter Verwendung der kumulierten verdienten Runs und gepitchten Innings."
+    }
+  ]
+}

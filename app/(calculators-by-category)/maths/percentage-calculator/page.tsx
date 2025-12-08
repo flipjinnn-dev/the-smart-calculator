@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
+import CalculatorGuide from "@/components/calculator-guide";
 export default function PercentageCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -18,7 +19,17 @@ export default function PercentageCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('percentage-calculator', language, "calculator-ui");
+  const { content: guideContent } = useCalculatorContent(
+    'percentage-calculator',
+    language,
+    "calculator-guide"
+  )
 
+  const guideData = guideContent || {
+    color: 'blue',
+    sections: [],
+    faq: []
+  }
   // Use content or fallback to defaults
   const contentData = content || {
     "pageTitle": "",
@@ -259,7 +270,7 @@ export default function PercentageCalculator() {
             </Card>
           </div>
         </div>
-
+        <CalculatorGuide data={guideData} />
         <SimilarCalculators calculators={[{
           calculatorName: "Percent Error Calculator",
           calculatorHref: "/maths/percent-error-calculator",

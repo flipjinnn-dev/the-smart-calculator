@@ -1,0 +1,140 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "¿Qué es la Calculadora Macro?",
+      "content": "La Macro Calculadora en línea lo ayuda a realizar un seguimiento de los macronutrientes diarios (proteínas, carbohidratos y grasas) según su edad, peso, altura, nivel de actividad y objetivos personales. Ya sea que su objetivo sea perder peso, ganar masa muscular o mantenerse, esta herramienta gratuita proporciona macroobjetivos diarios precisos para guiar su plan de nutrición."
+    },
+    {
+      "heading": "¿Qué son los macronutrientes y por qué son importantes?",
+      "subSections": [
+        {
+          "heading": "Proteína",
+          "content": "Apoya la reparación muscular, el crecimiento y la función corporal general."
+        },
+        {
+          "heading": "carbohidratos",
+          "content": "Proporciona energía para los entrenamientos, la función cerebral y las actividades diarias."
+        },
+        {
+          "heading": "Grasas",
+          "content": "Esencial para la producción de hormonas, la salud del cerebro y la absorción de nutrientes."
+        }
+      ]
+    },
+    {
+      "heading": "¿Cómo funciona una calculadora macro?",
+      "subSections": [
+        {
+          "heading": "Calcular el gasto energético diario total (GDEE)",
+          "content": "Su tasa metabólica basal (TMB) multiplicada por un factor de actividad determina las necesidades energéticas diarias totales."
+        },
+        {
+          "heading": "Establece tu objetivo",
+          "content": "Pérdida de peso: déficit de calorías | Ganancia muscular: excedente de calorías | Mantenimiento: Aporte equilibrado."
+        },
+        {
+          "heading": "Determinar proporciones macro",
+          "content": "Pérdida de peso: 40% proteínas, 30% carbohidratos, 30% grasas | Ganancia muscular: 30% proteínas, 50% carbohidratos, 20% grasas."
+        },
+        {
+          "heading": "Ajustar según las preferencias dietéticas",
+          "content": "Keto: bajo en carbohidratos, alto en grasas | Vegano: Proteína de origen vegetal | Ayuno intermitente: ajuste el horario de las comidas manteniendo los totales constantes."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora macro para objetivos específicos",
+      "subSections": [
+        {
+          "heading": "Pérdida de peso",
+          "content": "Un mayor contenido de proteínas, carbohidratos moderados y menos grasas ayudan a preservar la masa muscular magra."
+        },
+        {
+          "heading": "Ganancia muscular",
+          "content": "Mayor contenido de proteínas y carbohidratos: favorece el crecimiento y la recuperación muscular."
+        },
+        {
+          "heading": "Mantenimiento",
+          "content": "Macros equilibradas: mantiene el peso y los niveles de energía actuales."
+        }
+      ]
+    },
+    {
+      "heading": "Consideraciones específicas de la dieta",
+      "subSections": [
+        {
+          "heading": "cetogénico",
+          "content": "Mantenga los carbohidratos muy bajos (5 a 10%) y aumente las grasas saludables."
+        },
+        {
+          "heading": "vegano",
+          "content": "Utilice proteínas vegetales como lentejas, frijoles y tofu."
+        },
+        {
+          "heading": "Ayuno intermitente",
+          "content": "Realice un seguimiento de las macros diarias totales dentro de las ventanas de alimentación."
+        }
+      ]
+    },
+    {
+      "heading": "Limitaciones de las macrocalculadoras",
+      "subSections": [
+        {
+          "heading": "Sólo estimaciones",
+          "content": "Los resultados varían según el metabolismo, las condiciones de salud y el estilo de vida."
+        },
+        {
+          "heading": "No es un sustituto médico",
+          "content": "Siempre consulte a un proveedor de atención médica o dietista antes de realizar cambios importantes en la dieta."
+        },
+        {
+          "heading": "Variaciones por dieta",
+          "content": "Los diferentes tipos de dietas (keto, vegana, culturismo) pueden cambiar las proporciones macro."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo calculo mis macros diarias?",
+      "a": "Sus macros se calculan a partir de TDEE, objetivo de acondicionamiento físico y proporción de macros. Esta Macro Calculadora hace los cálculos por usted automáticamente."
+    },
+    {
+      "q": "¿Cuántos carbohidratos, proteínas y grasas debo comer para bajar de peso?",
+      "a": "Una proporción común es 40% de proteínas, 30% de carbohidratos y 30% de grasas, pero el nivel de actividad y el tipo de dieta son importantes."
+    },
+    {
+      "q": "¿Pueden las macros ayudar con el aumento de masa muscular?",
+      "a": "Sí, un excedente con mayor contenido de proteínas y carbohidratos favorece el crecimiento y la recuperación."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre calorías y macronutrientes?",
+      "a": "Las calorías miden la energía. Las macros (proteínas, carbohidratos, grasas) son los nutrientes que aportan esas calorías."
+    },
+    {
+      "q": "¿Puedo usar una macrocalculadora para una dieta vegana o cetogénica?",
+      "a": "Sí, la calculadora se puede personalizar para planes veganos, cetogénicos o de ayuno intermitente."
+    },
+    {
+      "q": "¿Qué tan precisas son las macrocalculadoras?",
+      "a": "Por lo general, tienen una precisión del 5 al 10 %, pero el metabolismo personal y el estilo de vida afectan las necesidades reales."
+    },
+    {
+      "q": "¿Pueden las macros cambiar según el nivel de actividad?",
+      "a": "Sí, las personas activas necesitan más proteínas y carbohidratos, mientras que las personas sedentarias necesitan menos calorías."
+    },
+    {
+      "q": "¿Esta herramienta es adecuada para personas mayores o deportistas?",
+      "a": "Sí, ajusta las recomendaciones según la edad, la actividad y los objetivos de rendimiento."
+    },
+    {
+      "q": "¿Puedo obtener un plan macro imprimible?",
+      "a": "Sí, algunas calculadoras ofrecen planes macroeconómicos diarios descargables o imprimibles."
+    },
+    {
+      "q": "¿Cómo puedo ajustar las macros para diferentes dietas?",
+      "a": "Puede modificar las proporciones para ceto, vegano, culturismo o ayuno mientras mantiene las calorías alineadas con sus objetivos."
+    }
+  ]
+}

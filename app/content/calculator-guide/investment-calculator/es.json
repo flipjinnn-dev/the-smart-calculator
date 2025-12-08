@@ -1,0 +1,116 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de inversiones?",
+      "subSections": [
+        {
+          "heading": "Definición",
+          "content": "Una calculadora de inversiones es una herramienta en línea gratuita que estima el valor futuro de su dinero en función de sumas globales, contribuciones mensuales, tasas de interés y frecuencia de capitalización."
+        },
+        {
+          "heading": "Objetivo",
+          "content": "Proporciona información rápida sobre cómo crecen sus ahorros o inversiones con el tiempo, lo que hace que la planificación financiera sea más fácil e inteligente."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo funciona nuestra calculadora de inversiones gratuita",
+      "subSections": [
+        {
+          "heading": "Entradas que puedes personalizar",
+          "content": "- Monto de la inversión inicial (suma global)\n- Aportes mensuales (SIP/depósitos recurrentes)\n- Frecuencia de capitalización (mensual, trimestral, anual)\n- Tasa de rendimiento esperada (acciones, bonos, ahorros)\n- Duración de la inversión (años)\n- Ajuste por inflación o impuestos (opcional)"
+        },
+        {
+          "heading": "Método de cálculo",
+          "content": "La calculadora aplica fórmulas de interés compuesto para proyectar el valor futuro. Muestra cómo las contribuciones y los rendimientos se acumulan con el tiempo."
+        },
+        {
+          "heading": "Flexibilidad",
+          "content": "Puede calcular el crecimiento de la suma global, comparar SIP con depósitos únicos o simular los rendimientos del mercado de valores."
+        }
+      ]
+    },
+    {
+      "heading": "Beneficios y casos de uso",
+      "subSections": [
+        {
+          "heading": "Planificación de jubilación",
+          "content": "Calcule sus ahorros futuros con o sin ajustes por inflación."
+        },
+        {
+          "heading": "Comparación de escenarios",
+          "content": "Visualice las diferencias entre las contribuciones y la capitalización mensuales y anuales."
+        },
+        {
+          "heading": "Visualización del crecimiento de la riqueza",
+          "content": "Comprenda el poder a largo plazo de los rendimientos compuestos."
+        },
+        {
+          "heading": "Establecimiento de objetivos",
+          "content": "Planifique hitos como la compra de una casa, la educación de un hijo o la jubilación anticipada."
+        },
+        {
+          "heading": "Pruebas de inflación",
+          "content": "Compruebe cómo impacta la inflación en el poder adquisitivo real de sus ahorros."
+        }
+      ]
+    },
+    {
+      "heading": "Escenarios de ejemplo",
+      "subSections": [
+        {
+          "heading": "Contribuciones mensuales",
+          "content": "Los 500 dólares al mes invertidos durante 20 años con un rendimiento anual del 8% aumentan a más de 295 000 dólares con capitalización."
+        },
+        {
+          "heading": "Inversión a tanto alzado",
+          "content": "Una inversión única de 10.000 dólares con un rendimiento anual del 7% durante 15 años asciende a unos 27.590 dólares."
+        },
+        {
+          "heading": "Estimación de jubilación",
+          "content": "Combinar una suma global + contribuciones mensuales ayuda a proyectar los ahorros para la jubilación ajustados a la inflación."
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora de inversiones frente a otras herramientas",
+      "subSections": [
+        {
+          "heading": "Calculadora de Ahorros",
+          "content": "Se centra en el crecimiento de los depósitos fijos, no en los rendimientos variables de las inversiones."
+        },
+        {
+          "heading": "Calculadora de préstamos",
+          "content": "Calcula cronogramas de pago, mientras que las calculadoras de inversión muestran el crecimiento del valor futuro."
+        },
+        {
+          "heading": "Calculadora de jubilación",
+          "content": "Las herramientas de jubilación se centran en los retiros y los ingresos, mientras que las calculadoras de inversión se centran en la acumulación."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto valdrá mi inversión dentro de 10 años?",
+      "a": "Depende de su monto inicial, contribuciones mensuales, tasa de interés y frecuencia de capitalización. Utilice la calculadora para obtener resultados exactos."
+    },
+    {
+      "q": "¿Cuál es el valor futuro de una inversión mensual de $500?",
+      "a": "Con un rendimiento anual del 8%, 500 dólares al mes durante 20 años aumentan a más de 295 000 dólares con capitalización."
+    },
+    {
+      "q": "¿La calculadora de inversiones incluye la inflación?",
+      "a": "Sí, puede ajustar la inflación para ver el valor real de sus inversiones."
+    },
+    {
+      "q": "¿Cómo calculo los rendimientos compuestos automáticamente?",
+      "a": "Simplemente ingrese sus entradas (cantidad, tasa, tiempo, contribuciones) y la calculadora proyecta los resultados al instante."
+    },
+    {
+      "q": "¿Cuál es la mejor calculadora de inversiones online gratuita?",
+      "a": "Las mejores calculadoras incluyen opciones de suma global + SIP, contribuciones mensuales y ajuste por inflación, como esta."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator galonów na stopę kwadratową?",
+      "content": "Kalkulator galonów na stopę kwadratową pomaga określić, ile płynu potrzeba na stopę kwadratową przy określonej głębokości. Jest przydatny w przypadku basenów, zbiorników, powłok, kształtowania krajobrazu, nawadniania i projektów budowlanych."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wprowadź długość i szerokość",
+          "content": "Wymiary powierzchni podstawy."
+        },
+        {
+          "heading": "Wprowadź głębokość/wysokość",
+          "content": "Głębokość cieczy w stopach, calach lub jardach."
+        },
+        {
+          "heading": "Opcjonalnie: wprowadź cenę za galon",
+          "content": "Do kalkulacji kosztów."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast uzyskaj galony na stopę kwadratową i galony ogółem."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Aby uzyskać dokładne wyniki, upewnij się, że jednostki są spójne."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe obliczenia",
+          "content": "Galony na stopę kwadratową i galony całkowite."
+        },
+        {
+          "heading": "Wiele jednostek",
+          "content": "Obsługiwane stopy, cale lub jardy."
+        },
+        {
+          "heading": "Szacowanie kosztów",
+          "content": "Oblicza koszt całkowity, jeśli wprowadzono cenę za galon."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na wszystkich urządzeniach."
+        },
+        {
+          "heading": "Wszechstronne zastosowania",
+          "content": "Woda, farba, powłoki i nie tylko."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Planowanie basenu i spa",
+          "content": "Oszacuj objętość wody."
+        },
+        {
+          "heading": "Napełnianie zbiornika",
+          "content": "Oblicz pojemność kontenera magazynowego."
+        },
+        {
+          "heading": "Nawadnianie i kształtowanie krajobrazu",
+          "content": "Zaplanuj zapotrzebowanie na wodę."
+        },
+        {
+          "heading": "Konstrukcja i powłoki",
+          "content": "Oszacuj płyny dla powierzchni."
+        },
+        {
+          "heading": "Edukacja",
+          "content": "Zrozumienie zależności powierzchni, głębokości i objętości."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Wolumen podstawowy",
+          "content": "Podstawa: 10 stóp × 5 stóp | Głębokość: 1 stopa | Objętość: 10 × 5 × 1 × 7,48052 ≈ 374 galony | Galony na stopę kwadratową: 374 ÷ (10 × 5) ≈ 7,48 gal/ft²"
+        },
+        {
+          "heading": "Przykład 2 – Koszt",
+          "content": "Objętość: 500 galonów | Cena za galon: 3 USD | Całkowity koszt: 500 × 3 = 1500 USD"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator galonów na stopę kwadratową?",
+      "a": "Oblicza galony potrzebne na stopę kwadratową dla danej głębokości."
+    },
+    {
+      "q": "Dlaczego go używać?",
+      "a": "Oszczędza czas i zapewnia dokładne planowanie objętości cieczy."
+    },
+    {
+      "q": "Obsługiwane jednostki?",
+      "a": "Stopy, cale i jardy."
+    },
+    {
+      "q": "Działa dla basenów i zbiorników?",
+      "a": "Tak, idealny do każdego obszaru zawierającego ciecz."
+    },
+    {
+      "q": "Czy oblicza całkowitą liczbę galonów?",
+      "a": "Tak, całkowita głośność jest wyświetlana natychmiast."
+    },
+    {
+      "q": "Przydatny do kształtowania krajobrazu/nawadniania?",
+      "a": "Tak, pomaga zaplanować zapotrzebowanie na wodę w ogrodach i stawach."
+    },
+    {
+      "q": "Czy mogę obliczyć koszt?",
+      "a": "Tak, wprowadź cenę za galon, aby uzyskać całkowity koszt."
+    },
+    {
+      "q": "Czy to wyjaśnia nierówną głębokość?",
+      "a": "Nie, zakłada płaską, jednolitą głębokość."
+    },
+    {
+      "q": "Przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa na smartfonach, tabletach i komputerach stacjonarnych."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, całkowicie za darmo, bez konieczności pobierania."
+    }
+  ]
+}

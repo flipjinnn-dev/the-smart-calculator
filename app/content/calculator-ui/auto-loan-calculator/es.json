@@ -1,0 +1,165 @@
+{
+  "pageTitle": "Calculadora de préstamos para automóviles",
+  "pageDescription": "Calcule los pagos de préstamos para automóviles y el costo total, incluidos intereses, impuestos sobre las ventas y tarifas para financiamiento de vehículos nuevos y usados.",
+  "form": {
+    "labels": {
+      "vehiclePrice": "Precio del vehículo",
+      "downPayment": "Depósito",
+      "downPaymentType": "Tipo de pago inicial",
+      "loanAmount": "Monto del préstamo",
+      "interestRate": "Tasa de interés anual",
+      "loanTerm": "Plazo del préstamo",
+      "startDate": "Fecha de inicio del préstamo",
+      "salesTax": "Tasa de impuesto sobre las ventas",
+      "fees": "Tarifas adicionales",
+      "tradeIn": "Valor de intercambio"
+    },
+    "placeholders": {
+      "vehiclePrice": "Introduzca el precio del vehículo",
+      "downPayment": "Introduzca el pago inicial",
+      "loanAmount": "Ingrese el monto del préstamo",
+      "interestRate": "Introduzca la tasa de interés anual (%)",
+      "loanTerm": "Ingrese el plazo del préstamo en meses",
+      "salesTax": "Ingrese la tasa de impuesto sobre las ventas (%)",
+      "fees": "Introduce tarifas adicionales",
+      "tradeIn": "Ingrese el valor de intercambio"
+    },
+    "buttons": {
+      "calculate": "Calcular préstamo para automóvil",
+      "reset": "Reiniciar"
+    },
+    "downPaymentTypes": {
+      "amount": "Cantidad",
+      "percentage": "Porcentaje"
+    }
+  },
+  "results": {
+    "monthlyPayment": "Pago Mensual",
+    "totalInterest": "Interés total pagado",
+    "totalPayment": "Pago Total",
+    "totalCost": "Costo Total (Vehículo + Intereses + Impuestos + Tarifas)",
+    "payoffDate": "Fecha de liquidación del préstamo",
+    "autoLoanResultsTitle": "Resultados del cálculo del préstamo para automóvil"
+  },
+  "educational": {
+    "autoLoanInfo": "Información sobre préstamos para automóviles",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "autoLoanFacts": {
+      "components": {
+        "title": "Componentes de préstamos para automóviles",
+        "description": "Principal, intereses, impuestos sobre las ventas y tarifas adicionales"
+      },
+      "amortization": {
+        "title": "Amortización",
+        "description": "Los pagos anticipados son en su mayoría intereses; los pagos posteriores son en su mayoría principal"
+      },
+      "depreciation": {
+        "title": "Depreciación del vehículo",
+        "description": "Los automóviles pierden valor con el tiempo, lo que afecta la relación préstamo-valor"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones de pago de préstamos para automóviles únicamente",
+      "actual": "Los términos reales del préstamo pueden variar según las políticas del prestamista, el puntaje crediticio y los factores del vehículo."
+    },
+    "importantNotesList": [
+      "Esto es una estimación y no incluye todas las tarifas y cargos posibles.",
+      "Los plazos de préstamo más cortos suelen tener tasas de interés más bajas pero pagos mensuales más altos.",
+      "Los plazos de préstamo más cortos suelen tener tasas de interés más bajas pero pagos mensuales más altos.",
+      "Considere el costo total de propiedad, incluido el seguro, el mantenimiento y el combustible."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su préstamo de automóvil para calcular los pagos mensuales",
+    "resultMessage": "Los resultados del cálculo de su préstamo para automóvil se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del préstamo para automóvil:",
+    "autoLoanAnalysis": "Análisis de préstamos para automóviles"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de pago de préstamos para automóviles basadas en fórmulas financieras estándar. Los términos, pagos e intereses reales del préstamo pueden variar según las políticas del prestamista, el puntaje crediticio, la condición del vehículo y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para obtener asesoramiento personalizado sobre préstamos para automóviles y opciones de financiación, consulte a especialistas en préstamos para automóviles o asesores financieros con experiencia en financiación de vehículos y circunstancias financieras individuales."
+  },
+  "errors": {
+    "vehiclePrice": "Por favor ingrese un precio de vehículo válido",
+    "downPayment": "Por favor ingrese un pago inicial válido",
+    "loanAmount": "Por favor ingrese un monto de préstamo válido",
+    "interestRate": "Por favor ingrese una tasa de interés anual válida",
+    "loanTerm": "Por favor ingrese un plazo de préstamo válido",
+    "startDate": "Por favor ingrese una fecha de inicio de préstamo válida",
+    "salesTax": "Por favor ingrese una tasa de impuesto sobre las ventas válida",
+    "fees": "Por favor ingrese tarifas adicionales válidas",
+    "tradeIn": "Por favor ingresa un valor de intercambio válido"
+  },
+  "tooltips": {
+    "vehiclePrice": "Precio de compra del vehículo.",
+    "downPayment": "Monto pagado por adelantado para la compra del vehículo",
+    "downPaymentType": "Si el pago inicial se especifica como monto o porcentaje",
+    "loanAmount": "Monto prestado del prestamista",
+    "interestRate": "Tasa de interés anual del préstamo para automóvil.",
+    "loanTerm": "Plazo para reembolsar el préstamo (normalmente entre 36 y 84 meses)",
+    "startDate": "Fecha en que comienzan los pagos del préstamo",
+    "salesTax": "Impuesto sobre las ventas estatal y local sobre la compra de vehículos",
+    "fees": "Tarifas adicionales como documentación, título y tarifas de registro.",
+    "tradeIn": "Valor de su vehículo actual utilizado como pago inicial"
+  },
+  "auto_loan_calculator_0": "Calculadora de préstamos para automóviles",
+  "total_price_1": "Precio total",
+  "monthly_payment_2": "Pago Mensual",
+  "auto_price_3": "Precio del automóvil",
+  "loan_term_4": "Plazo del préstamo",
+  "months_5": "meses",
+  "interest_rate_6": "Tasa de interés",
+  "cash_incentives_7": "Incentivos en efectivo",
+  "down_payment_8": "Depósito",
+  "tradein_value_9": "Valor de intercambio",
+  "amount_owed_on_tradein_10": "Monto adeudado por el intercambio",
+  "your_state_11": "Tu estado",
+  "sales_tax_12": "Impuesto sobre las ventas",
+  "title_registration_and_other_fees_13": "Título, registro y otras tarifas",
+  "include_taxes_and_fees_in_loan_14": "Incluir impuestos y tarifas en el préstamo.",
+  "calculate_15": "Calcular",
+  "monthly_payment_16": "Pago Mensual",
+  "loan_term_17": "Plazo del préstamo",
+  "months_18": "meses",
+  "interest_rate_19": "Tasa de interés",
+  "cash_incentives_20": "Incentivos en efectivo",
+  "down_payment_21": "Depósito",
+  "tradein_value_22": "Valor de intercambio",
+  "amount_owed_on_tradein_23": "Monto adeudado por el intercambio",
+  "your_state_24": "Tu estado",
+  "sales_tax_25": "Impuesto sobre las ventas",
+  "title_registration_and_other_fees_26": "Título, registro y otras tarifas",
+  "include_taxes_and_fees_in_loan_27": "Incluir impuestos y tarifas en el préstamo.",
+  "calculate_28": "Calcular",
+  "monthly_payment_29": "Pago Mensual",
+  "your_complete_loan_breakdown_30": "El desglose completo de su préstamo",
+  "monthly_pay_31": "Pago mensual:",
+  "total_loan_amount_32": "Monto total del préstamo",
+  "sale_tax_33": "Impuesto de venta",
+  "upfront_payment_34": "Pago inicial",
+  "total_of_35": "Total de",
+  "loan_payments_36": "Pagos de préstamos",
+  "total_loan_interest_37": "Interés total del préstamo",
+  "total_cost_price_interest_tax_fees_38": "Costo total (precio, interés, impuestos, tarifas)",
+  "loan_breakdown_39": "Desglose del préstamo",
+  "principal_40": "% Principal",
+  "interest_41": "% Interés",
+  "find_average_tax_rate_and_fees_in_your_state_42": "Encuentre la tasa impositiva y las tarifas promedio en su estado",
+  "enter_auto_loan_details_to_see_your_payment_breakd_43": "Ingrese los detalles del préstamo para automóvil para ver el desglose de sus pagos",
+  "amortization_schedule_44": "Calendario de amortización",
+  "annual_payment_breakdown_45": "Desglose de pagos anuales",
+  "annual_schedule_46": "Calendario Anual",
+  "monthly_schedule_47": "Horario mensual",
+  "year_48": "Año",
+  "interest_49": "Interés",
+  "principal_50": "Principal",
+  "ending_balance_51": "Saldo final",
+  "monthly_schedule_view_coming_soon_52": "Vista de programación mensual: ¡próximamente!"
+}

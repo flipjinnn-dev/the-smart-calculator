@@ -1,0 +1,95 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de coeficiente balístico?",
+      "content": "Uma calculadora de coeficiente balístico (BC) é uma ferramenta online gratuita que mede a eficiência aerodinâmica de um projétil. Ele calcula quão bem um projétil supera a resistência do ar usando sua massa, coeficiente de arrasto e área da seção transversal."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "content": "Siga estas etapas simples para calcular o coeficiente balístico:",
+      "subSections": [
+        {
+          "heading": "Passos",
+          "content": "- Abra a Calculadora – Visite a página da Calculadora BC em seu navegador.\n- Insira Massa (m) – Insira a massa do projétil em kg ou g.\n- Insira o coeficiente de arrasto (Cd) – Fornece o coeficiente de arrasto do projétil.\n- Insira a Área da Seção Transversal (A) – Insira a área frontal em m².\n- Clique em Calcular – A calculadora mostra instantaneamente o coeficiente balístico.\n- Dica: mantenha as unidades consistentes para obter resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "content": "Por que usar esta calculadora?",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "- Cálculo instantâneo – Obtenha resultados em segundos.\n- Simples e compatível com dispositivos móveis – Funciona em desktops e dispositivos móveis.\n- Ferramenta Educacional – Aprenda balística externa e física de projéteis.\n- Gratuito e acessível – Não é necessário download ou registro.\n- Precisão Baseada em Fórmula – Usa BC = m / (Cd × A)."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "content": "Quem pode se beneficiar desta ferramenta?",
+      "subSections": [
+        {
+          "heading": "Aplicativos",
+          "content": "- Alunos e Professores de Física – Aprenda movimentos de projéteis e efeitos de arrasto.\n- Hobbyists & DIY Projects – Analise modelos de foguetes e projéteis.\n- Engenheiros e Designers – Estime a eficiência aerodinâmica rapidamente.\n- Comparação de projéteis – Compare BC de diferentes projéteis quanto ao desempenho.\n- Demonstrações Educacionais – Ensine conceitos de balística externa em sala de aula."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "content": "Aqui estão alguns exemplos de como funciona o cálculo:",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Projétil Pequeno",
+          "content": "Massa: 0,02kg\nCoeficiente de arrasto: 0,45\nÁrea Seccional: 0,001 m²\nCoeficiente balístico: 44,44"
+        },
+        {
+          "heading": "Exemplo 2 – Projétil Médio",
+          "content": "Massa: 0,05kg\nCoeficiente de arrasto: 0,35\nÁrea Seccional: 0,002 m²\nCoeficiente Balístico: 71,43"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é um coeficiente balístico?",
+      "a": "Mede quão bem um projétil supera a resistência do ar."
+    },
+    {
+      "q": "Esta calculadora é gratuita?",
+      "a": "Sim, é totalmente gratuito online."
+    },
+    {
+      "q": "Preciso de software ou instalação?",
+      "a": "Não, funciona diretamente no seu navegador."
+    },
+    {
+      "q": "Posso usá-lo em dispositivos móveis?",
+      "a": "Sim, totalmente compatível com dispositivos móveis."
+    },
+    {
+      "q": "Quais entradas são necessárias?",
+      "a": "Massa (m), coeficiente de arrasto (Cd) e área da seção transversal (A)."
+    },
+    {
+      "q": "Como o BC é calculado?",
+      "a": "Usando BC = m / (Cd × A)."
+    },
+    {
+      "q": "Ele pode comparar diferentes projéteis?",
+      "a": "Sim, você pode calcular BC para vários projéteis para comparar a eficiência."
+    },
+    {
+      "q": "É adequado para estudantes?",
+      "a": "Sim, perfeito para aprender física e balística externa."
+    },
+    {
+      "q": "Engenheiros ou amadores podem usá-lo?",
+      "a": "Sim, ajuda em experimentos de design e análise de projéteis."
+    },
+    {
+      "q": "A calculadora é precisa?",
+      "a": "Sim, para valores de entrada; é um modelo simplificado e não leva em conta mudanças de velocidade ou vento."
+    }
+  ]
+}

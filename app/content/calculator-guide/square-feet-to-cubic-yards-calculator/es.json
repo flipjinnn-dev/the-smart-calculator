@@ -1,0 +1,101 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de pies cuadrados a yardas cúbicas?",
+      "content": "Esta calculadora convierte el área en pies cuadrados y la profundidad del material en volumen en yardas cúbicas, lo que le ayuda a estimar los requisitos de suelo, mantillo, grava u hormigón de forma rápida y precisa."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "content": "Siga estos pasos para estimar yardas cúbicas fácilmente:",
+      "subSections": [
+        {
+          "heading": "Pasos",
+          "content": "1. Ingrese el área: ingrese el total de pies cuadrados o largo × ancho.\n2. Ingrese la profundidad: especifique la profundidad del material en pies.\n3. Haga clic en Calcular: obtenga las yardas cúbicas al instante.\n4. Consejo: para superficies irregulares, utilice una profundidad media."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "content": "Esta herramienta ofrece cálculos rápidos y precisos de yardas cúbicas:",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "- Conversión instantánea de área y profundidad a yardas cúbicas.\n- Campos de entrada simples para área o longitud directa × ancho.\n- Adecuado para tierra, mantillo, grava, arena y hormigón.\n- Interfaz totalmente compatible con dispositivos móviles.\n- Ayuda a planificar el volumen y el costo del material con precisión."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "content": "La gente usa esta calculadora para diferentes proyectos de la vida real:",
+      "subSections": [
+        {
+          "heading": "Ejemplos",
+          "content": "- Construcción y paisajismo: calcule el volumen de concreto, grava o suelo.\n- Jardinería: Calcule el mantillo o abono necesario para los parterres del jardín.\n- Proyectos de bricolaje: Estima materiales para patios, caminos o pequeñas excavaciones.\n- Pedido de material a granel: convierta área + profundidad en yardas cúbicas para proveedores.\n- Planificación Presupuestaria: Planificar costos y requerimientos de materiales antes de comprar."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "content": "Aquí hay ejemplos de cálculos basados ​​en escenarios reales:",
+      "subSections": [
+        {
+          "heading": "Ejemplos",
+          "content": "- Cama de jardín: Área 100 pies², Profundidad 0,5 pies → Volumen ≈ 1,85 yd³.\n- Grava de entrada: Área 500 pies², Profundidad 0,25 pies → Volumen ≈ 4,63 yd³.\n- Losa de hormigón: Área 200 ft², Profundidad 0,33 ft → Volumen ≈ 2,44 yd³."
+        }
+      ]
+    },
+    {
+      "heading": "Consejos y mejores prácticas",
+      "content": "Orientación útil para mejorar sus estimaciones de materiales:",
+      "subSections": [
+        {
+          "heading": "Consejos",
+          "content": "- Siempre redondee las estimaciones de materiales para evitar escasez.\n- Utilice una profundidad media si el terreno es irregular.\n- Convierta la profundidad correctamente (pulgadas → pies si es necesario).\n- Verifique nuevamente el área antes de ordenar materiales a granel.\n- Compare los precios de yardas cúbicas de los proveedores para ahorrar costos."
+        }
+      ]
+    },
+    {
+      "heading": "Descargo de responsabilidad",
+      "content": "Esta calculadora de yardas cúbicas proporciona resultados aproximados. La sedimentación del material, la humedad, la compactación y las variaciones de proveedores pueden afectar las cantidades reales. Para requisitos precisos, consulte a un contratista o proveedor de materiales."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué hace esta calculadora?",
+      "a": "Convierte pies cuadrados y profundidad del material (en pies) en yardas cúbicas."
+    },
+    {
+      "q": "¿Por qué usarlo?",
+      "a": "Para estimar rápidamente cuánta tierra, grava, mantillo, arena u hormigón necesita para un proyecto."
+    },
+    {
+      "q": "¿Puedo calcular el área usando largo × ancho?",
+      "a": "Sí, la calculadora puede calcular el área automáticamente."
+    },
+    {
+      "q": "¿Puedo usar diferentes profundidades?",
+      "a": "Sí, ingrese cualquier profundidad en pies. Para pulgadas, convierta primero a pies."
+    },
+    {
+      "q": "¿Funciona para superficies irregulares?",
+      "a": "Sí. Utilice una profundidad promedio para obtener mejores resultados."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, funciona sin problemas en teléfonos, tabletas y computadoras de escritorio."
+    },
+    {
+      "q": "¿Puede esto ayudar con el presupuesto?",
+      "a": "Sí, multiplique la estimación de yardas cúbicas por el costo por yarda para planificar los gastos."
+    },
+    {
+      "q": "¿Es de uso gratuito?",
+      "a": "Sí, completamente gratis, sin descargas ni registro."
+    },
+    {
+      "q": "¿Quién debería utilizar esta calculadora?",
+      "a": "Contratistas, jardineros, paisajistas, propietarios de viviendas y entusiastas de los proyectos de bricolaje."
+    }
+  ]
+}

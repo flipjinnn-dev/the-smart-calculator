@@ -1,0 +1,134 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Was ist ein Prozentfehlerrechner?",
+      "content": "Ein Prozentfehlerrechner ist ein Online-Tool, das die Differenz zwischen Ihrem gemessenen (beobachteten) Wert und dem wahren (akzeptierten) Wert in Prozent berechnet. Es hilft dabei, die Genauigkeit von Experimenten, Vorhersagen oder Berechnungen zu bestimmen. Das Ergebnis ist immer positiv, da die absolute Differenz verwendet wird."
+    },
+    {
+      "heading": "Verwendete Formel:",
+      "content": "$$Prozentueller Fehler = \\frac{|Beobachteter Wert – Wahrer Wert|}{|Wahrer Wert|} \\times 100\\%$$ \n Hinweis: Das Ergebnis ist immer positiv, da die absolute Differenz verwendet wird."
+    },
+    {
+      "heading": "So verwenden Sie den Prozentfehlerrechner",
+      "content": "Dieser prozentuale Fehlerrechner ist einfach und anfängerfreundlich. Geben Sie einfach Ihre Werte ein und erhalten Sie sofortige Ergebnisse.",
+      "subSections": [
+        {
+          "heading": "Schritte zur Verwendung:",
+          "content": "Geben Sie den beobachteten Wert (Ihr gemessenes oder geschätztes Ergebnis) ein. Geben Sie den wahren Wert (akzeptierten Wert oder Referenzwert) ein. Klicken Sie auf Berechnen, um den prozentualen Fehler sofort zu erhalten. Analysieren Sie das Ergebnis – ein kleinerer Prozentsatz bedeutet eine höhere Genauigkeit."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale eines Prozentfehlerrechners",
+      "content": "Das Tool liefert genaue, schnelle und benutzerfreundliche prozentuale Fehlerergebnisse.",
+      "subSections": [
+        {
+          "heading": "Sofortige Ergebnisse",
+          "content": "Berechnen Sie den prozentualen Fehler in Sekunden."
+        },
+        {
+          "heading": "Benutzerfreundliche Oberfläche",
+          "content": "Es sind keine technischen oder mathematischen Kenntnisse erforderlich."
+        },
+        {
+          "heading": "Genaue Formel",
+          "content": "Verwendet die standardmäßige Prozentfehlerformel für zuverlässige Ergebnisse."
+        },
+        {
+          "heading": "Unterstützt verschiedene Eingaben",
+          "content": "Funktioniert mit ganzen Zahlen, Dezimalzahlen oder Prozentsätzen."
+        },
+        {
+          "heading": "Kostenlos und sicher",
+          "content": "Es ist keine Installation erforderlich und es werden keine personenbezogenen Daten erhoben."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle eines Prozentfehlerrechners",
+      "content": "Der prozentuale Fehler wird in verschiedenen Bereichen häufig zur Messung der Genauigkeit verwendet.",
+      "subSections": [
+        {
+          "heading": "Akademiker",
+          "content": "Wird in Physik-, Chemie- und Mathematiklaboren zum Vergleich experimenteller Ergebnisse verwendet."
+        },
+        {
+          "heading": "Maschinenbau",
+          "content": "Stellt sicher, dass Maße und Designs den erforderlichen Standards entsprechen."
+        },
+        {
+          "heading": "Finanzen",
+          "content": "Vergleicht vorhergesagte mit tatsächlichen Ergebnissen in Prognosen oder Budgets."
+        },
+        {
+          "heading": "Qualitätskontrolle",
+          "content": "Überwacht die Konsistenz und Genauigkeit der Produktionsergebnisse."
+        },
+        {
+          "heading": "Alltägliche Aufgaben",
+          "content": "Nützlich für Kostenvoranschläge, Rezepte, DIY-Messungen und mehr."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Wissenschaftliches Experiment:",
+          "content": "Beobachteter Wert: 48g \n Wahrer Wert: 50g \n $$Prozentueller Fehler = \\frac{|48 - 50|}{50} \\times 100 = 4\\%$$"
+        },
+        {
+          "heading": "Beispiel 2 – Prognostizierte Verkäufe:",
+          "content": "Voraussichtlicher Verkauf: 200 Einheiten \n Tatsächlicher Verkauf: 220 Einheiten \n $$Prozentueller Fehler = \\frac{|200 - 220|}{220} \\times 100 \\ungefähr 9,09\\%$$"
+        },
+        {
+          "heading": "Beispiel 3 – Baumessung:",
+          "content": "Gemessene Länge: 9,7 m \n Tatsächliche Länge: 10 m \n $$Prozentsatzfehler = \\frac{|9,7 - 10|}{10} \\times 100 = 3\\%$$ \n Diese Beispiele veranschaulichen den praktischen Nutzen eines Fehlerprozentrechners."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist der Unterschied zwischen prozentualem Fehler und prozentualem Fehler?",
+      "a": "Es gibt keinen Unterschied – beide Begriffe beschreiben das gleiche Konzept der Messgenauigkeit."
+    },
+    {
+      "q": "Warum ist der prozentuale Fehler immer positiv?",
+      "a": "Weil es den absoluten Wert der Differenz zwischen beobachteten und wahren Werten verwendet."
+    },
+    {
+      "q": "Kann ich den prozentualen Fehler manuell berechnen?",
+      "a": "Ja, verwenden Sie: \n $$ \\frac{|Beobachtet – Wahr|}{|Wahr|} \\times 100 $$"
+    },
+    {
+      "q": "Ist dieser Rechner für Dezimalzahlen geeignet?",
+      "a": "Ja, es funktioniert sowohl mit Dezimalzahlen als auch mit ganzen Zahlen."
+    },
+    {
+      "q": "Kann ich den prozentualen Fehler für mehrere Messungen berechnen?",
+      "a": "Ja, aber berechnen Sie jede Messung separat, um individuelle prozentuale Fehler zu erhalten."
+    },
+    {
+      "q": "Ist es sicher, Online-Prozentfehlerrechner zu verwenden?",
+      "a": "Ja, seriöse Tools sind kostenlos, sicher und sammeln keine personenbezogenen Daten."
+    },
+    {
+      "q": "Warum sollte ich einen Taschenrechner anstelle einer manuellen Berechnung verwenden?",
+      "a": "Es spart Zeit, reduziert Fehler und liefert sofortige und genaue Ergebnisse."
+    },
+    {
+      "q": "Kann ich dies in der Finanzanalyse verwenden?",
+      "a": "Ja, der prozentuale Fehler ist nützlich, um vorhergesagte und tatsächliche Ergebnisse zu vergleichen."
+    },
+    {
+      "q": "Was bedeutet ein geringer prozentualer Fehler?",
+      "a": "Das bedeutet, dass Ihr beobachteter Wert sehr nahe am wahren Wert liegt und eine hohe Genauigkeit aufweist."
+    },
+    {
+      "q": "Kann der prozentuale Fehler größer als 100 % sein?",
+      "a": "Ja, wenn der beobachtete Wert deutlich über oder unter dem wahren Wert liegt."
+    }
+  ]
+}

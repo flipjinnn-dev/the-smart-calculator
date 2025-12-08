@@ -1,0 +1,147 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "Enterprise SEO ROI Calculator: What It Is and How to Use It",
+            "content": "An Enterprise SEO ROI Calculator is a tool that helps businesses estimate the return on investment (ROI) from SEO efforts. By analyzing SEO spend, expected traffic growth, and conversions, it calculates projected revenue, ROI percentage, and payback period."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Open the Calculator",
+                    "content": "Access it directly in your browser."
+                },
+                {
+                    "heading": "Enter Current Metrics",
+                    "content": "Include organic traffic, conversion rate, and average revenue per conversion."
+                },
+                {
+                    "heading": "Add SEO Costs",
+                    "content": "Include expenses for your team, tools, or agency."
+                },
+                {
+                    "heading": "Estimate Growth",
+                    "content": "Enter expected traffic growth from SEO efforts."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Instantly see projected revenue, ROI, and payback period."
+                },
+                {
+                    "heading": "Adjust Scenarios",
+                    "content": "Test different assumptions to optimize strategy."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Enterprise-Focused",
+                    "content": "Designed for large websites and complex SEO strategies."
+                },
+                {
+                    "heading": "Instant ROI Calculation",
+                    "content": "See ROI percentage immediately after entering inputs."
+                },
+                {
+                    "heading": "Revenue Projection",
+                    "content": "Calculates potential revenue based on traffic and conversions."
+                },
+                {
+                    "heading": "Payback Period",
+                    "content": "Estimates how long it takes to recover SEO investments."
+                },
+                {
+                    "heading": "Scenario Modeling",
+                    "content": "Test multiple growth and conversion scenarios to plan strategy."
+                },
+                {
+                    "heading": "Free & Mobile-Friendly",
+                    "content": "Works on any device with no registration required."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Budget Planning",
+                    "content": "Justify SEO spend with clear ROI projections."
+                },
+                {
+                    "heading": "Forecasting",
+                    "content": "Estimate revenue growth from SEO improvements."
+                },
+                {
+                    "heading": "Channel Comparison",
+                    "content": "Compare SEO with PPC or other marketing efforts."
+                },
+                {
+                    "heading": "Stakeholder Reporting",
+                    "content": "Present data-driven ROI to executives or clients."
+                },
+                {
+                    "heading": "Strategic Decision-Making",
+                    "content": "Optimize budgets and SEO strategies."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Basic Scenario",
+                    "content": "Traffic: 100,000/month | Conversion Rate: 2% | Average Order: $50 | SEO Cost: $5,000/month | Traffic Growth: 20% | Result: Revenue = $120,000 → ROI ≈ 140%"
+                },
+                {
+                    "heading": "Example 2 – Growth Scenario",
+                    "content": "Same data, but Traffic Growth: 50% | Result: Revenue = $150,000 → ROI ≈ 200%"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is an Enterprise SEO ROI Calculator?",
+            "a": "It estimates ROI, projected revenue, and payback period from SEO investments."
+        },
+        {
+            "q": "Is this calculator free?",
+            "a": "Yes, it is fully free to use online."
+        },
+        {
+            "q": "Do I need software?",
+            "a": "No, it works directly in any browser."
+        },
+        {
+            "q": "Can it estimate revenue?",
+            "a": "Yes, it calculates revenue based on traffic, conversion rate, and average order value."
+        },
+        {
+            "q": "Does it calculate ROI automatically?",
+            "a": "Yes, results appear instantly after entering your inputs."
+        },
+        {
+            "q": "Can I test multiple scenarios?",
+            "a": "Yes, you can adjust traffic growth, conversion rates, and costs."
+        },
+        {
+            "q": "Is it only for large websites?",
+            "a": "It’s designed for enterprises but can also be useful for smaller businesses."
+        },
+        {
+            "q": "Can it help justify SEO budgets?",
+            "a": "Yes, it provides clear, data-driven ROI to support decision-making."
+        },
+        {
+            "q": "Does it include payback period?",
+            "a": "Yes, it estimates how long it takes to recover your SEO investment."
+        },
+        {
+            "q": "Are results guaranteed?",
+            "a": "No, the results are projections based on the inputs provided."
+        }
+    ]
+}

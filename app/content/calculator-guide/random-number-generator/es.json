@@ -1,0 +1,151 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "¿Qué es un generador de números aleatorios?",
+      "content": "Un generador de números aleatorios (RNG) es una herramienta en línea que crea números impredecibles dentro de un rango seleccionado. Utiliza un algoritmo matemático para generar instantáneamente valores aleatorios que ayudan en la toma de decisiones, tareas matemáticas, codificación, simulaciones, juegos y elecciones cotidianas. Los RNG son rápidos, imparciales y fáciles de usar en cualquier dispositivo."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Introduzca el valor mínimo",
+          "content": "Proporcione el número más bajo de su rango deseado."
+        },
+        {
+          "heading": "Introduzca el valor máximo",
+          "content": "Proporcione el número más alto de su rango deseado."
+        },
+        {
+          "heading": "Seleccionar cantidad (opcional)",
+          "content": "Elige cuántos números quieres generar a la vez."
+        },
+        {
+          "heading": "Haga clic en Generar",
+          "content": "La calculadora produce números aleatorios al instante."
+        },
+        {
+          "heading": "Revisar resultados",
+          "content": "Vuelva a verificar su rango y use los números generados según sea necesario."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Resultados instantáneos",
+          "content": "Los números aparecen en milisegundos."
+        },
+        {
+          "heading": "Rango personalizado",
+          "content": "Introduzca los valores mínimo y máximo."
+        },
+        {
+          "heading": "Múltiples salidas",
+          "content": "Genera uno o varios números a la vez."
+        },
+        {
+          "heading": "Algoritmo uniforme",
+          "content": "Los resultados son imparciales."
+        },
+        {
+          "heading": "Interfaz limpia",
+          "content": "Apto para principiantes y fácil de usar."
+        },
+        {
+          "heading": "Herramienta en línea gratuita",
+          "content": "No es necesario registrarse ni realizar descargas."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Matemáticas y Estadística",
+          "content": "Probabilidad, muestreo y ejercicios de aula."
+        },
+        {
+          "heading": "Juegos y concursos",
+          "content": "Sorteos, tiradas de dados y selecciones aleatorias."
+        },
+        {
+          "heading": "Codificación y pruebas de software",
+          "content": "Simulaciones, creación de datos de prueba y depuración."
+        },
+        {
+          "heading": "Educación",
+          "content": "Pases de lista aleatorios, asignaciones grupales y actividades."
+        },
+        {
+          "heading": "Decisiones diarias",
+          "content": "Elegir tareas, comidas o actividades."
+        },
+        {
+          "heading": "Investigación",
+          "content": "Creación de muestras imparciales para estudios."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1",
+          "content": "Rango: 1–100, Salida: 57 (aleatorio)"
+        },
+        {
+          "heading": "Ejemplo 2",
+          "content": "Genera 5 números, rango: 10–50, salida: 12, 34, 49, 28, 20 (aleatorio)"
+        },
+        {
+          "heading": "Ejemplo 3",
+          "content": "Simulación de dados (1–6), Salida: 4 (aleatorio)"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Para qué se utiliza un generador de números aleatorios?",
+      "a": "Crea números impredecibles para matemáticas, codificación, concursos y tareas generales."
+    },
+    {
+      "q": "¿Esta herramienta es gratuita?",
+      "a": "Sí, completamente gratis."
+    },
+    {
+      "q": "¿Son los números realmente aleatorios?",
+      "a": "Son pseudoaleatorios, aptos para el uso diario."
+    },
+    {
+      "q": "¿Puedo generar varios números?",
+      "a": "Sí, muchas herramientas admiten la selección de cantidades."
+    },
+    {
+      "q": "¿Puedo usar números negativos?",
+      "a": "Sí, dependiendo de la herramienta."
+    },
+    {
+      "q": "¿Los resultados son imparciales?",
+      "a": "Sí, siguen una distribución uniforme."
+    },
+    {
+      "q": "¿Necesito instalación de software?",
+      "a": "No, funciona en línea."
+    },
+    {
+      "q": "¿Puedo usar RNG para proyectos escolares?",
+      "a": "Absolutamente."
+    },
+    {
+      "q": "¿Es seguro para los concursos en línea?",
+      "a": "Sí, pero para eventos de alto riesgo, utilice herramientas verificables."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, funciona perfectamente en teléfonos y tabletas."
+    }
+  ]
+}

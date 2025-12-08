@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Calculadora de edad",
+  "pageDescription": "Calcule la edad en años, meses y días según la fecha de nacimiento con cálculos precisos, incluidos los años bisiestos.",
+  "form": {
+    "labels": {
+      "birthDate": "Fecha de nacimiento",
+      "calculationDate": "Fecha de cálculo",
+      "includeTime": "¿Incluir tiempo?",
+      "birthTime": "hora de nacimiento",
+      "calculationTime": "Tiempo de cálculo"
+    },
+    "placeholders": {
+      "birthTime": "Ingrese la hora de nacimiento (opcional)",
+      "calculationTime": "Ingrese el tiempo de cálculo (opcional)"
+    },
+    "buttons": {
+      "calculate": "Calcular edad",
+      "reset": "Reiniciar"
+    },
+    "yesNo": {
+      "yes": "Sí",
+      "no": "No"
+    }
+  },
+  "results": {
+    "age": "Edad",
+    "years": "Años",
+    "months": "Meses",
+    "days": "Días",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "ageResultsTitle": "Resultados de edad",
+    "preciseAge": "Edad precisa"
+  },
+  "educational": {
+    "ageInfo": "Información de cálculo de edad",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos adicionales",
+    "ageFacts": {
+      "leapYears": {
+        "title": "Años bisiestos",
+        "description": "Nuestra calculadora tiene en cuenta los años bisiestos (366 días) en los cálculos de edad."
+      },
+      "precision": {
+        "title": "Precisión de cálculo",
+        "description": "Los cálculos incluyen meses con días variables (28, 30, 31 días)"
+      },
+      "timeZones": {
+        "title": "Zonas horarias",
+        "description": "Considere las zonas horarias al calcular las edades en diferentes regiones"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona cálculos de edad únicamente.",
+      "accuracy": "Garantice la entrada precisa de fecha y hora para obtener resultados precisos"
+    },
+    "importantNotesList": [
+      "Las definiciones de edad legal varían según la jurisdicción y el propósito.",
+      "Las definiciones de edad legal varían según la jurisdicción y el propósito.",
+      "Las definiciones de edad legal varían según la jurisdicción y el propósito.",
+      "Considere las diferencias culturales en los métodos de cálculo de la edad."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la fecha de nacimiento y la fecha de cálculo para determinar la edad.",
+    "resultMessage": "Su edad calculada se muestra a continuación",
+    "assessmentResult": "Resultado del cálculo de edad:",
+    "ageAnalysis": "Análisis de edad"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona cálculos de edad basados ​​en métodos de calendario estándar. Los resultados tienen fines informativos generales y es posible que no cumplan con los requisitos de documentación legal u oficial."
+  },
+  "seekHelp": {
+    "title": "Recursos adicionales",
+    "content": "Para determinaciones de edad legal o documentación oficial, consulte con las agencias gubernamentales apropiadas o profesionales legales en su jurisdicción."
+  },
+  "errors": {
+    "birthDate": "Por favor ingresa una fecha de nacimiento válida",
+    "calculationDate": "Por favor ingrese una fecha de cálculo válida",
+    "birthTime": "Por favor ingresa una hora de nacimiento válida",
+    "calculationTime": "Por favor ingrese un tiempo de cálculo válido"
+  },
+  "tooltips": {
+    "birthDate": "Tu fecha de nacimiento",
+    "calculationDate": "Fecha a partir de la cual calcular la edad (predeterminado: hoy)",
+    "birthTime": "Opcional: Hora de nacimiento para cálculos más precisos.",
+    "calculationTime": "Opcional: Tiempo de cálculo para resultados más precisos"
+  },
+  "loading_0": "Cargando...",
+  "how_it_works_1": "Cómo funciona:",
+  "the_calculator_uses_precise_calendar_arithmetic_to_2": "La calculadora utiliza aritmética de calendario precisa para manejar los saltos.\n                        años, diferentes duraciones de meses y zonas horarias con precisión.",
+  "results_include_both_exact_age_breakdown_and_total_3": "Los resultados incluyen tanto el desglose exacto por edad como el tiempo total en cada unidad.",
+  "from_4": "De",
+  "to_5": "a",
+  "enter_your_dates_and_click_6": "Introduce tus fechas y haz clic",
+  "calculate_7": "Calcular",
+  "to_see_your_exact_age_8": "a\n                          ver tu edad exacta.",
+  "years_9": "Años",
+  "months_10": "Meses",
+  "weeks_11": "Semanas",
+  "days_12": "Días",
+  "sample_calculation_13": "Cálculo de muestra",
+  "age_calculation_1": "Cálculo de edad",
+  "enter_your_birth_date_and_target_date_to_calculate_2": "Ingrese su fecha de nacimiento y fecha objetivo para calcular la edad precisa",
+  "date_of_birth_3": "Fecha de nacimiento",
+  "target_date_4": "Fecha objetivo",
+  "how_it_works_5": "Cómo funciona:",
+  "the_calculator_uses_precise_calendar_arithmetic_to_6": "La calculadora utiliza aritmética de calendario precisa para manejar los saltos.\n                        años, diferentes duraciones de meses y zonas horarias con precisión.",
+  "results_include_both_exact_age_breakdown_and_total_7": "Los resultados incluyen tanto el desglose exacto por edad como el tiempo total en cada unidad.",
+  "calculate_8": "Calcular",
+  "your_age_9": "Su edad",
+  "years_10": "Años",
+  "months_11": "Meses",
+  "weeks_12": "Semanas",
+  "days_13": "Días",
+  "from_14": "De",
+  "to_15": "a",
+  "enter_your_dates_and_click_16": "Introduce tus fechas y haz clic",
+  "calculate_17": "Calcular",
+  "to_see_your_exact_age_18": "a\n                          ver tu edad exacta.",
+  "detailed_age_breakdown_19": "Desglose detallado de edades",
+  "years_20": "Años",
+  "months_21": "Meses",
+  "weeks_22": "Semanas",
+  "days_23": "Días",
+  "hours_24": "Horas",
+  "minutes_25": "Minutos",
+  "seconds_26": "Artículos de segunda clase",
+  "understanding_age_calculation_27": "Comprender el cálculo de la edad",
+  "how_age_is_calculated_28": "Cómo se calcula la edad",
+  "age_calculation_involves_precise_calendar_arithmet_29": "El cálculo de la edad implica una aritmética precisa del calendario que tiene en cuenta los años bisiestos y los meses que varían.\n                        longitudes y el sistema de edad occidental donde la edad aumenta solo después de que pasa el cumpleaños.",
+  "key_features_30": "Características clave",
+  "handles_leap_years_automatically_31": "Maneja los años bisiestos automáticamente",
+  "accounts_for_months_with_different_day_counts_32": "Cuentas para meses con diferentes recuentos de días.",
+  "provides_both_exact_breakdown_and_total_units_33": "Proporciona desglose exacto y unidades totales.",
+  "uses_western_age_counting_system_34": "Utiliza el sistema de conteo de edades occidental.",
+  "sample_calculation_35": "Cálculo de muestra",
+  "example_36": "Ejemplo:",
+  "birth_date_january_1_2000_37": "Fecha de nacimiento: 1 de enero de 2000",
+  "target_date_august_22_2025_38": "Fecha prevista: 22 de agosto de 2025",
+  "result_25_years_7_months_21_days_39": "Resultado: 25 años, 7 meses, 21 días",
+  "the_calculator_also_provides_the_total_time_in_wee_40": "La calculadora también proporciona el tiempo total en semanas, días, horas, minutos y segundos para\n                        análisis exhaustivo de la edad."
+}

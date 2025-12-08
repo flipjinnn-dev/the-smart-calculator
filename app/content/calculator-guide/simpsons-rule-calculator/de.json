@@ -1,0 +1,136 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist ein Simpson-Regelrechner?",
+      "content": "Der Simpson-Regelrechner ist ein Online-Tool, das die numerische Integration vereinfacht und es Ihnen ermöglicht, bestimmte Integrale genau und effizient zu approximieren."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "content": "Die Verwendung des Simpson-Regelrechners ist einfach und erfordert nur minimale Schritte.",
+      "subSections": [
+        {
+          "heading": "Geben Sie die Funktion ein",
+          "content": "Geben Sie die Funktion ein, die Sie integrieren möchten (z. B. f(x) = x^2 + 3x)."
+        },
+        {
+          "heading": "Legen Sie die Grenzen der Integration fest",
+          "content": "Geben Sie die Unter- und Obergrenze für das bestimmte Integral an."
+        },
+        {
+          "heading": "Wählen Sie die Anzahl der Intervalle (n).",
+          "content": "Für die Simpson-Regel muss n eine gerade Zahl sein."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Der Rechner zeigt sofort den ungefähren Wert des Integrals an."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Verwenden Sie mit der Simpson-Regel immer eine gerade Anzahl von Intervallen, um genaue Ergebnisse zu erzielen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Genaue Berechnungen",
+          "content": "Verwendet die 1/3-Regel von Simpson für eine präzise numerische Integration."
+        },
+        {
+          "heading": "Benutzerfreundliche Oberfläche",
+          "content": "Einfache Anwendung ohne komplexe Formeln; Ideal für Anfänger."
+        },
+        {
+          "heading": "Schritt-für-Schritt-Lösung",
+          "content": "Zeigt Zwischenberechnungen zum besseren Verständnis an."
+        },
+        {
+          "heading": "Unterstützung mehrerer Funktionen",
+          "content": "Funktioniert mit polynomialen, trigonometrischen, exponentiellen und logarithmischen Funktionen."
+        },
+        {
+          "heading": "Zeitsparend",
+          "content": "Sofortige Ergebnisse machen manuelle Berechnungen überflüssig."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Akademische Zwecke",
+          "content": "Für Studierende, die bestimmte Integrale in der Analysis lösen."
+        },
+        {
+          "heading": "Technische Anwendungen",
+          "content": "Berechnen von Flächen, Volumina und anderen integralbasierten Messungen."
+        },
+        {
+          "heading": "Wissenschaftliche Forschung",
+          "content": "Approximierende Integrale in Physik, Chemie und Statistik."
+        },
+        {
+          "heading": "Finanzen",
+          "content": "Schätzen von Integralen für kontinuierliche Wachstums- oder Zerfallsmodelle."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1",
+          "content": "Integriere f(x) = x^2 von 0 bis 4 unter Verwendung von n = 4 Intervallen.\nSchritte: Funktion x^2 eingeben → Grenzwerte 0 bis 4 festlegen → n = 4 wählen → Berechnen klicken → Ergebnis: 21,3333 (ungefährer Wert unter Verwendung der Simpson-Regel)."
+        },
+        {
+          "heading": "Beispiel 2",
+          "content": "Integrieren Sie f(x) = sin(x) von 0 bis π unter Verwendung von n = 6 Intervallen.\nErgebnis: 2,0000 (ungefährer Wert nach der Simpson-Regel)."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist Simpsons Regel?",
+      "a": "Die Simpson-Regel ist eine numerische Methode zur Approximation bestimmter Integrale."
+    },
+    {
+      "q": "Wie genau ist die Simpson-Regel?",
+      "a": "Sie ist für reibungslose Funktionen hochpräzise und verbessert sich mit zunehmender Anzahl der Intervalle."
+    },
+    {
+      "q": "Kann ich den Rechner für jede Funktion verwenden?",
+      "a": "Ja, es funktioniert mit polynomialen, trigonometrischen, exponentiellen und logarithmischen Funktionen."
+    },
+    {
+      "q": "Warum muss die Anzahl der Intervalle gerade sein?",
+      "a": "Die Simpson-Regel erfordert Intervallpaare, um die Formel korrekt anzuwenden."
+    },
+    {
+      "q": "Ist der Rechner kostenlos?",
+      "a": "Ja, die Nutzung des Simpson-Regelrechners ist völlig kostenlos."
+    },
+    {
+      "q": "Zeigt es Schritt-für-Schritt-Lösungen?",
+      "a": "Ja, der Rechner kann zum besseren Verständnis Zwischenschritte anzeigen."
+    },
+    {
+      "q": "Kann ich es für große Intervalle verwenden?",
+      "a": "Ja, aber größere Intervalle verbessern die Genauigkeit."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, es funktioniert sowohl auf mobilen als auch auf Desktop-Geräten."
+    },
+    {
+      "q": "Kann es die manuelle Berechnung ersetzen?",
+      "a": "Ja, es spart Zeit und reduziert Fehler bei manuellen Berechnungen."
+    },
+    {
+      "q": "Wo wird die Simpson-Regel angewendet?",
+      "a": "Es wird in den Bereichen Mathematik, Physik, Ingenieurwesen, Finanzen und wissenschaftliche Forschung angewendet."
+    }
+  ]
+}

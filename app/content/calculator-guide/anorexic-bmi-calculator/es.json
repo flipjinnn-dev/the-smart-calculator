@@ -1,0 +1,101 @@
+{
+  "color": "rojo",
+  "sections": [
+    {
+      "heading": "Calculadora de IMC para anoréxicas: evalúe su índice de masa corporal de forma segura",
+      "content": "La Calculadora de IMC para anoréxicas es una herramienta especializada diseñada para ayudar a las personas y a los cuidadores a evaluar los niveles del índice de masa corporal (IMC) asociados con la anorexia nerviosa. Esta herramienta en línea sobre el IMC para personas anoréxicas proporciona información rápida sobre si alguien puede estar en riesgo de sufrir problemas de salud relacionados con el bajo peso, que van desde anorexia leve hasta anorexia extrema. Con esta calculadora, puede calcular el IMC de las personas anoréxicas de forma segura y comprender cómo se compara su IMC con los rangos saludables, guiando la intervención temprana y la consulta clínica."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora gratuita de IMC para anoréxicas en línea",
+      "subSections": [
+        {
+          "heading": "Guía paso a paso (unidades métricas)",
+          "content": "1. Ingrese su peso en kilogramos (kg).\n2. Ingrese su altura en centímetros (cm).\n3. Haga clic en \"Calcular\" para obtener su IMC."
+        },
+        {
+          "heading": "Guía paso a paso (unidades estadounidenses)",
+          "content": "1. Ingrese su peso en libras (lbs).\n2. Ingrese su altura en pulgadas (in).\n3. Haga clic en \"Calcular\" para determinar su IMC."
+        },
+        {
+          "heading": "Resultados",
+          "content": "Una vez calculado, su IMC se mostrará junto con la categoría de riesgo: anorexia leve, moderada, grave o extrema."
+        }
+      ]
+    },
+    {
+      "heading": "Comprender los rangos de IMC para la anorexia",
+      "subSections": [
+        {
+          "heading": "Anorexia leve",
+          "content": "IMC: 17–18,5 → Ligeramente por debajo del IMC saludable, mayor riesgo de complicaciones de salud."
+        },
+        {
+          "heading": "Anorexia moderada",
+          "content": "IMC: 16–16,9 → Bajo peso moderado, mayor riesgo de estrés orgánico y deficiencia de nutrientes."
+        },
+        {
+          "heading": "Anorexia severa",
+          "content": "IMC: 15-15,9 → Bajo peso significativo, requiere supervisión médica."
+        },
+        {
+          "heading": "anorexia extrema",
+          "content": "IMC: <15 → Se necesita intervención clínica urgente y potencialmente mortal."
+        }
+      ]
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora del índice de masa corporal anoréxica?",
+      "content": "✔ Compare rápidamente su IMC con los umbrales específicos de anorexia.\n✔ Identificar las primeras señales de alerta de anorexia nerviosa.\n✔ Comprender los riesgos para la salud con un IMC bajo, incluida la insuficiencia orgánica, la pérdida de densidad ósea y el sistema inmunológico debilitado.\n✔ Apoye la interpretación del IMC apropiada para la edad de la anorexia, especialmente en adolescentes y adultos jóvenes.\n✔ Compare su IMC con un IMC saludable y un IMC anoréxico."
+    },
+    {
+      "heading": "IMC anoréxico frente a otras categorías de IMC",
+      "content": "• IMC anoréxica versus IMC saludable: destaca la gravedad del bajo peso.\n• IMC anoréxica versus IMC con bajo peso: muestra la diferencia entre un peso bajo leve y una anorexia clínicamente significativa.\n• Tabla de IMC de anorexia y bulimia: útil para distinguir entre diferentes trastornos alimentarios.\n• Calculadora de IMC para delgadez extrema: ayuda a realizar un seguimiento de las tendencias de IMC peligrosamente bajas."
+    },
+    {
+      "heading": "Limitaciones y descargo de responsabilidad",
+      "content": "⚠ El IMC por sí solo no puede diagnosticar la anorexia nerviosa. La evaluación clínica es esencial.\n⚠ No tiene en cuenta la masa muscular, la composición corporal ni las afecciones médicas subyacentes.\n⚠ Utilice esta herramienta únicamente como guía de detección, no como sustituto del asesoramiento profesional de atención médica."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es el IMC anoréxico?",
+      "a": "El IMC anoréxico se refiere al rango del índice de masa corporal asociado con la anorexia nerviosa, lo que indica bajo peso y posibles riesgos para la salud."
+    },
+    {
+      "q": "¿Cómo calculo el IMC anoréxico?",
+      "a": "Ingrese su peso y altura en nuestra calculadora gratuita de IMC para anoréxicas en línea para obtener una lectura inmediata del IMC."
+    },
+    {
+      "q": "¿Cuáles son los rangos de IMC para la anorexia?",
+      "a": "Leve: 17–18,5, Moderada: 16–16,9, Grave: 15–15,9, Extrema: <15."
+    },
+    {
+      "q": "¿Es lo mismo el IMC de anoréxica que el de bajo peso?",
+      "a": "No exactamente. El IMC con bajo peso es una categoría más amplia; El IMC anoréxico indica un bajo peso clínicamente significativo."
+    },
+    {
+      "q": "¿Pueden los adolescentes utilizar esta calculadora de IMC para anorexia?",
+      "a": "Sí, pero la interpretación del IMC para los adolescentes puede diferir. Consulta siempre con un pediatra o nutricionista."
+    },
+    {
+      "q": "¿Cuáles son los signos de anorexia según el IMC?",
+      "a": "Los signos incluyen pérdida rápida de peso, IMC extremadamente bajo, fatiga, mareos y menstruación irregular en las mujeres."
+    },
+    {
+      "q": "¿Puedo utilizar esta herramienta para seguir mi progreso?",
+      "a": "Sí, la calculadora de peso para anorexia ayuda a controlar los cambios en el IMC, pero se recomienda orientación profesional."
+    },
+    {
+      "q": "¿Cuáles son los riesgos para la salud de un IMC bajo?",
+      "a": "Los riesgos incluyen complicaciones cardíacas, pérdida de densidad ósea, insuficiencia orgánica, inmunidad debilitada y desequilibrios hormonales."
+    },
+    {
+      "q": "¿Qué tan precisa es esta calculadora de IMC para anoréxicas?",
+      "a": "Proporciona una estimación precisa del IMC, pero la evaluación clínica es esencial para el diagnóstico y la planificación del tratamiento."
+    },
+    {
+      "q": "¿Qué debo hacer si mi IMC está en el rango de anorexia extrema?",
+      "a": "Busque asistencia médica inmediata. La anorexia extrema pone en peligro la vida y requiere intervención profesional."
+    }
+  ]
+}

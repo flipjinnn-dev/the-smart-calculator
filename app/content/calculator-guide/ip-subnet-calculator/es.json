@@ -1,0 +1,131 @@
+{
+  "color": "negro",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de subred IP?",
+      "content": "Una calculadora de subred IP es una herramienta en línea gratuita que ayuda a calcular la dirección de red, la dirección de transmisión, el rango de host, el total de hosts y los detalles de subred para direcciones IPv4 mediante máscaras de subred o notación CIDR."
+    },
+    {
+      "heading": "Cómo funciona la calculadora de subred IP",
+      "subSections": [
+        {
+          "heading": "Entradas requeridas",
+          "content": "Una dirección IPv4 válida (por ejemplo, 192.168.1.0) y una máscara de subred o notación CIDR como 255.255.255.0 o /24."
+        },
+        {
+          "heading": "Método de cálculo",
+          "content": "La calculadora utiliza fórmulas de subredes estándar para calcular la dirección de red, la dirección de transmisión, el rango de IP utilizable y el total de hosts."
+        },
+        {
+          "heading": "¿Qué pasa después?",
+          "content": "Después de hacer clic en Calcular, los resultados aparecen instantáneamente y muestran todos los detalles de la subred necesarios para la configuración o el aprendizaje."
+        }
+      ]
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de subred IP?",
+      "subSections": [
+        {
+          "heading": "Cálculo preciso de subred",
+          "content": "Calcule rápidamente rangos de redes, transmisiones y hosts sin cálculos manuales."
+        },
+        {
+          "heading": "Soporta notación CIDR",
+          "content": "Funciona con máscaras de subred o formatos CIDR como /26 o /28 para entradas flexibles."
+        },
+        {
+          "heading": "Rápido y fácil de usar",
+          "content": "Resultados instantáneos mostrados claramente para principiantes y profesionales."
+        },
+        {
+          "heading": "Uso educativo y profesional",
+          "content": "Ideal para aprender conceptos de subredes o configurar redes."
+        },
+        {
+          "heading": "Conveniencia",
+          "content": "Gratis, compatible con dispositivos móviles y accesible desde cualquier navegador."
+        }
+      ]
+    },
+    {
+      "heading": "Ejemplos de cálculos de subred",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: subred estándar",
+          "content": "IP: 192.168.1.0, Máscara: 255.255.255.0 (/24), Red: 192.168.1.0, Transmisión: 192.168.1.255, Rango utilizable: 192.168.1.1 – 192.168.1.254, Total de hosts utilizables: 254."
+        },
+        {
+          "heading": "Ejemplo 2: subred más pequeña",
+          "content": "IP: 10.0.0.0, Máscara: 255.255.255.192 (/26), Red: 10.0.0.0, Transmisión: 10.0.0.63, Rango utilizable: 10.0.0.1 – 10.0.0.62, Total de hosts utilizables: 62."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Diseño y planificación de redes",
+          "content": "Determine rangos de subred para redes comerciales, configuraciones domésticas o centros de datos."
+        },
+        {
+          "heading": "Solución de problemas de conflictos de IP",
+          "content": "Identifique los rangos de host correctos para evitar la superposición de IP."
+        },
+        {
+          "heading": "Subredes de aprendizaje",
+          "content": "Perfecto para estudiantes que practican cálculos CIDR y de subred."
+        },
+        {
+          "heading": "Documentación",
+          "content": "Mantenga registros claros de direcciones IP para las redes."
+        },
+        {
+          "heading": "Configuración de dispositivos y servidores",
+          "content": "Asigne IP correctamente dentro de su rango de subred adecuado."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de subred IP?",
+      "a": "Es una herramienta en línea que calcula la dirección de red, la dirección de transmisión, los rangos de host y la información de subred para IPv4."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, su uso en línea es completamente gratuito."
+    },
+    {
+      "q": "¿Necesito software?",
+      "a": "No, funciona directamente en cualquier navegador web moderno."
+    },
+    {
+      "q": "¿Admite la notación CIDR?",
+      "a": "Sí, puede ingresar máscaras de subred o formatos CIDR como /24 o /26."
+    },
+    {
+      "q": "¿Quién puede usarlo?",
+      "a": "Estudiantes, profesionales de TI, ingenieros de redes y cualquier persona que trabaje con direcciones IP."
+    },
+    {
+      "q": "¿Es exacto?",
+      "a": "Sí, utiliza fórmulas de red estándar para obtener resultados precisos."
+    },
+    {
+      "q": "¿Puede ayudarme a aprender a dividir en subredes?",
+      "a": "Absolutamente, es ideal para practicar y comprender los cálculos de subred."
+    },
+    {
+      "q": "¿Funciona para IPv6?",
+      "a": "Esta herramienta está diseñada principalmente para la creación de subredes IPv4."
+    },
+    {
+      "q": "¿Puede ayudar a solucionar problemas de redes?",
+      "a": "Sí, mostrando rangos de redes y hosts para evitar conflictos de IP."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, funciona sin problemas en computadoras de escritorio, tabletas y teléfonos inteligentes."
+    }
+  ]
+}

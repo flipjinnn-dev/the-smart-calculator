@@ -1,0 +1,151 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Arrow Speed Calculator: What It Is and How to Use It",
+      "content": "An Arrow Speed Calculator is a simple online tool that helps estimate how fast an arrow will fly based on your bow and arrow specifications. By entering your bow’s draw weight, draw length, and the arrow’s weight, you can quickly see the estimated speed, and in some calculators, even kinetic energy and momentum."
+    },
+    {
+      "heading": "How to Use It",
+      "subSections": [
+        {
+          "heading": "Open the Calculator",
+          "content": "Access it from your web browser."
+        },
+        {
+          "heading": "Enter Draw Weight",
+          "content": "The force needed to pull the bow (in pounds or kilograms)."
+        },
+        {
+          "heading": "Enter Draw Length",
+          "content": "How far the bow is drawn (in inches or centimeters)."
+        },
+        {
+          "heading": "Enter Arrow Weight",
+          "content": "Usually in grains or grams."
+        },
+        {
+          "heading": "Optional Inputs",
+          "content": "Some calculators let you add bow-rated speed or accessory weight."
+        },
+        {
+          "heading": "Click Calculate",
+          "content": "The results appear instantly."
+        },
+        {
+          "heading": "Check Units",
+          "content": "Make sure all measurements match the units selected."
+        }
+      ]
+    },
+    {
+      "heading": "Key Features",
+      "subSections": [
+        {
+          "heading": "Instant Results",
+          "content": "No waiting; see your arrow speed immediately."
+        },
+        {
+          "heading": "More than Speed",
+          "content": "Some tools also show kinetic energy and momentum."
+        },
+        {
+          "heading": "Mobile-Friendly",
+          "content": "Works well on phones and tablets."
+        },
+        {
+          "heading": "Free & Simple",
+          "content": "No downloads or registration needed."
+        },
+        {
+          "heading": "Educational",
+          "content": "Learn how draw weight, arrow mass, and energy relate."
+        },
+        {
+          "heading": "Supports Metric & Imperial Units",
+          "content": "Works for users worldwide."
+        }
+      ]
+    },
+    {
+      "heading": "Who Can Benefit",
+      "subSections": [
+        {
+          "heading": "Archers & Hunters",
+          "content": "Estimate arrow speed and energy for better gear choices."
+        },
+        {
+          "heading": "Hobbyists & DIYers",
+          "content": "Test different arrow weights or bow setups."
+        },
+        {
+          "heading": "Students & Educators",
+          "content": "Explore projectile motion and energy transfer in physics."
+        },
+        {
+          "heading": "Comparing Equipment",
+          "content": "See how different arrows or bows perform."
+        },
+        {
+          "heading": "Safety Planning",
+          "content": "Understand approximate speeds before shooting."
+        }
+      ]
+    },
+    {
+      "heading": "Example Calculations",
+      "subSections": [
+        {
+          "heading": "Example 1 – Standard Arrow",
+          "content": "Draw Weight: 50 lbs | Draw Length: 28 in | Arrow Weight: 350 grains | Estimated Speed: 280 fps"
+        },
+        {
+          "heading": "Example 2 – Lightweight Arrow",
+          "content": "Draw Weight: 60 lbs | Draw Length: 29 in | Arrow Weight: 300 grains | Estimated Speed: 320 fps"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What does an arrow speed calculator do?",
+      "a": "It estimates arrow speed and can also show kinetic energy and momentum based on your bow and arrow."
+    },
+    {
+      "q": "Is it free?",
+      "a": "Yes, most online calculators are completely free."
+    },
+    {
+      "q": "Do I need to install software?",
+      "a": "No, it runs directly in your browser."
+    },
+    {
+      "q": "Can I use it on a phone?",
+      "a": "Absolutely. Most calculators are mobile-friendly."
+    },
+    {
+      "q": "What inputs do I need?",
+      "a": "Draw weight, draw length, and arrow weight."
+    },
+    {
+      "q": "Can it calculate energy?",
+      "a": "Yes, many tools show kinetic energy and momentum along with speed."
+    },
+    {
+      "q": "Is it suitable for students?",
+      "a": "Yes, it’s a great way to explore physics concepts."
+    },
+    {
+      "q": "Are the results accurate?",
+      "a": "They give a good estimate, but real-world factors like technique and equipment quality can affect actual speed."
+    },
+    {
+      "q": "Can I use metric units?",
+      "a": "Yes, calculators usually support both metric and imperial units."
+    },
+    {
+      "q": "Can archers use this for real-world planning?",
+      "a": "Yes, but treat the results as a guideline rather than exact values."
+    }
+  ]
+}

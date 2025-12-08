@@ -1,0 +1,143 @@
+{
+  "color": "laranja",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de pés de placa?",
+      "content": "Uma calculadora de pés de tábua ajuda a medir o volume de madeira em pés de tábua – uma unidade de madeira padrão. É essencial que marceneiros, entusiastas do faça você mesmo e profissionais da construção estimem a quantidade e o custo da madeira com precisão."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Insira o número de placas",
+          "content": "Total de peças idênticas."
+        },
+        {
+          "heading": "Adicionar dimensões",
+          "content": "Espessura (polegadas), Largura (polegadas), Comprimento (pés ou polegadas)."
+        },
+        {
+          "heading": "Opcional: Preço por pé de tábua",
+          "content": "Para cálculo de custo total."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Obtenha pés de tábua por peça, pés de tábua totais e custo total instantaneamente."
+        },
+        {
+          "heading": "Dica",
+          "content": "Meça com precisão para obter resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Cálculo Preciso",
+          "content": "Usa fórmulas padrão de madeira serrada."
+        },
+        {
+          "heading": "Várias unidades",
+          "content": "Aceita polegadas ou pés."
+        },
+        {
+          "heading": "Estimativa de custos",
+          "content": "Calcula o custo total se o preço por pé de tábua for fornecido."
+        },
+        {
+          "heading": "Lida com várias placas",
+          "content": "Calcula o volume total para várias peças."
+        },
+        {
+          "heading": "Fácil de usar e compatível com dispositivos móveis",
+          "content": "Funciona em todos os dispositivos."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Marceneiros e carpinteiros",
+          "content": "Planeje móveis ou armários."
+        },
+        {
+          "heading": "Projetos faça você mesmo",
+          "content": "Evite comprar madeira em excesso."
+        },
+        {
+          "heading": "Construção",
+          "content": "Estimar madeira para edifícios."
+        },
+        {
+          "heading": "Compradores/vendedores de madeira",
+          "content": "Compare custos e planeje orçamentos."
+        },
+        {
+          "heading": "Educação",
+          "content": "Aprenda o cálculo do pé da prancha."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1",
+          "content": "Placa: 2″ × 6″ × 8′ | Pés da prancha = (8 × 6 × 2) ÷ 12 = 8 BF"
+        },
+        {
+          "heading": "Exemplo 2",
+          "content": "5 placas: 1,5″ × 4″ × 10′ | Por tabuleiro = (10 × 4 × 1,5) ÷ 12 = 5 BF | Total = 5 AM × 5 = 25 AM"
+        },
+        {
+          "heading": "Exemplo 3 (Custo)",
+          "content": "Preço por AM = $3 | Custo total = 25 × 3 = $ 75"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é um pé de tábua?",
+      "a": "1 pé de tábua = 1′ × 1′ × 1″ de madeira."
+    },
+    {
+      "q": "Por que usar uma calculadora de pés de tábua?",
+      "a": "Para economizar tempo e reduzir erros de cálculo."
+    },
+    {
+      "q": "Posso usar polegadas ou pés?",
+      "a": "Sim, ambos são suportados."
+    },
+    {
+      "q": "Ele pode lidar com várias placas?",
+      "a": "Sim, calcula o volume total."
+    },
+    {
+      "q": "Posso calcular o custo?",
+      "a": "Sim, se for fornecido o preço por pé de tábua."
+    },
+    {
+      "q": "É adequado para projetos DIY?",
+      "a": "Sim, perfeito para profissionais e amadores."
+    },
+    {
+      "q": "Isso leva em conta o desperdício?",
+      "a": "Não, mostra pés de prancha teóricos."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, funciona em todos os dispositivos."
+    },
+    {
+      "q": "Qual fórmula é usada?",
+      "a": "Pés da placa = (espessura × largura × comprimento) ÷ 12"
+    },
+    {
+      "q": "É usado em todo o mundo?",
+      "a": "Principalmente nos EUA e no Canadá; converter unidades para outras regiões."
+    }
+  ]
+}

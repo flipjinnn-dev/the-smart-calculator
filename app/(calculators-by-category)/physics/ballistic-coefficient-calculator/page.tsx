@@ -10,9 +10,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-
 import { Target, Calculator, Ruler } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import CalculatorGuide from "@/components/calculator-guide";
+
 export default function BallisticCoefficientCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -21,6 +22,9 @@ export default function BallisticCoefficientCalculatorCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('ballistic-coefficient-calculator', language, "calculator-ui");
+  
+  const { content: guideContent } = useCalculatorContent('ballistic-coefficient-calculator', language, "calculator-guide");
+  const guideData = guideContent || { color: 'blue', sections: [], faq: [] };
 
   // Use content or fallback to defaults
   const contentData = content || {
@@ -147,7 +151,7 @@ export default function BallisticCoefficientCalculatorCalculator() {
         return value * 0.00064516;
       // 1 in² = 0.00064516 m²
       default:
-        return value * 1e-6;
+        return value / 1000;
     }
   };
   const convertDiameterToM = (value: number, unit: string): number => {
@@ -407,7 +411,8 @@ export default function BallisticCoefficientCalculatorCalculator() {
             </div>
 
             {/* Educational Content */}
-            <div className="mt-12">
+            <div className="mt-12 space-y-8">
+              <CalculatorGuide data={guideData} />
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-teal-50 p-8">
                 <CardHeader className="w-full flex flex-row items-center justify-start mb-4">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-teal-600 flex items-center justify-center mr-3 shadow-lg">

@@ -1,0 +1,139 @@
+{
+  "color": "preto",
+  "sections": [
+    {
+      "heading": "Calculadora de tempo: o que é e como usá-la",
+      "content": "A Calculadora de Tempo é uma ferramenta online gratuita que ajuda você a adicionar, subtrair ou comparar horas, minutos e segundos. Projetado para oferecer precisão e simplicidade, é perfeito para agendas de trabalho, acompanhamento de projetos, eventos, sessões de estudo ou planejamento de viagens."
+    },
+    {
+      "heading": "Como usar a calculadora de tempo",
+      "subSections": [
+        {
+          "heading": "Insira valores de tempo",
+          "content": "Insira horas, minutos e segundos."
+        },
+        {
+          "heading": "Selecione Operação",
+          "content": "Escolha se deseja adicionar ou subtrair tempo."
+        },
+        {
+          "heading": "Adicionar várias entradas",
+          "content": "Insira valores de tempo adicionais, se necessário."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Veja instantaneamente o resultado."
+        },
+        {
+          "heading": "Resultado da revisão",
+          "content": "A calculadora exibe o tempo total ou a diferença com transferência automática entre unidades."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Cálculos precisos",
+          "content": "Lida com horas, minutos e segundos corretamente."
+        },
+        {
+          "heading": "Adicionar ou subtrair tempo",
+          "content": "Some várias durações ou encontre o tempo decorrido."
+        },
+        {
+          "heading": "Transferência Automática",
+          "content": "Converte segundos em minutos e minutos em horas automaticamente."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona em todos os dispositivos sem instalação."
+        },
+        {
+          "heading": "Gratuito e fácil de usar",
+          "content": "Não é necessária inscrição, interface simples."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Trabalho e folha de pagamento",
+          "content": "Calcule o total de horas trabalhadas, horas extras ou durações de turnos."
+        },
+        {
+          "heading": "Gerenciamento de projetos",
+          "content": "Acompanhe a duração de tarefas ou projetos inteiros."
+        },
+        {
+          "heading": "Planejamento de Eventos",
+          "content": "Determine a duração dos eventos ou os horários de término."
+        },
+        {
+          "heading": "Estudo e Treinamento",
+          "content": "Acompanhe o tempo gasto em sessões de aprendizagem ou exercícios."
+        },
+        {
+          "heading": "Viagens e Logística",
+          "content": "Calcule tempos de viagem, horários ou escalas."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Adicionando Tempo",
+          "content": "Tempo 1: 3 horas e 40 minutos | Tempo 2: 2 horas e 25 minutos → Resultado: 6 horas e 5 minutos"
+        },
+        {
+          "heading": "Exemplo 2 – Subtraindo Tempo",
+          "content": "Hora de início: 5 horas e 30 minutos | Horário de término: 2 horas e 45 minutos → Resultado: 2 horas e 45 minutos"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é a Calculadora de Tempo?",
+      "a": "É uma ferramenta para adicionar, subtrair ou comparar horas, minutos e segundos."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, é totalmente gratuito."
+    },
+    {
+      "q": "Eu preciso de software?",
+      "a": "Não, funciona diretamente em qualquer navegador da web."
+    },
+    {
+      "q": "Ele pode lidar com múltiplas entradas de tempo?",
+      "a": "Sim, você pode adicionar ou subtrair várias durações."
+    },
+    {
+      "q": "Suporta horas, minutos e segundos?",
+      "a": "Sim, todas as unidades de tempo padrão são suportadas."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, funciona perfeitamente em smartphones, tablets e desktops."
+    },
+    {
+      "q": "Posso usá-lo para horas de trabalho ou folha de pagamento?",
+      "a": "Sim, calcula com precisão o total de horas e horas extras."
+    },
+    {
+      "q": "Ele converte segundos e minutos automaticamente?",
+      "a": "Sim, a transferência de segundos para minutos e de minutos para horas é automática."
+    },
+    {
+      "q": "Pode ajudar no planejamento de eventos?",
+      "a": "Sim, ele calcula durações e horários de término com precisão."
+    },
+    {
+      "q": "Quão preciso é isso?",
+      "a": "Ele fornece resultados totalmente precisos quando as entradas de tempo estão corretas."
+    }
+  ]
+}

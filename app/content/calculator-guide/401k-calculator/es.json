@@ -1,0 +1,75 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Comprenda los resultados de su 401(k)",
+      "content": "La planificación de la jubilación comienza con claridad. Nuestra Calculadora 401(k) en línea gratuita le ayuda a estimar rápidamente cuánto podría tener al jubilarse teniendo en cuenta sus contribuciones, la contrapartida del empleador, el interés compuesto y los posibles retiros. Ya sea que esté comenzando u optimizando su plan existente, esta es una de las mejores herramientas de calculadora 401(k) para proyectar su futuro financiero."
+    },
+    {
+      "heading": "Qué hace esta calculadora 401(k)",
+      "content": "Esta herramienta está diseñada para responder preguntas de planificación de jubilación de la vida real. Va más allá de una simple estimación de ahorro al calcular:",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "- Crecimiento del plan 401(k) con contrapartida del empleador (tanto porcentual como en dólares).\n- Proyecciones de interés compuesto año tras año para ver cómo crece tu dinero con el tiempo.\n- Multas por retiro anticipado del plan 401(k) si los fondos se retiran antes de los 59 años y medio.\n- Impactos impositivos tradicionales versus Roth 401(k), lo que lo ayuda a comparar opciones.\n- Ahorros para la jubilación ajustados a la inflación para brindarle una imagen realista del valor futuro."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo funciona la calculadora 401(k)",
+      "content": "Aquí hay un desglose rápido de cómo la herramienta estima su saldo 401(k):",
+      "subSections": [
+        {
+          "heading": "Pasos",
+          "content": "1. Ingrese sus datos: salario, tasa de contribución, contribución del empleador, saldo actual.\n2. Agregue supuestos: tasa de rendimiento esperada, edad de jubilación, tasa de inflación.\n3. Aplicar el crecimiento compuesto: la calculadora proyecta el crecimiento anual de las contribuciones más los rendimientos.\n4. Cuenta de impuestos: compara las contribuciones al 401(k) tradicional con las del 401(k) Roth.\n5. Muestre los resultados: verá su saldo de jubilación estimado, las contribuciones del empleador y el desglose del crecimiento."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso comunes",
+      "content": "La gente usa esta calculadora por muchas razones:",
+      "subSections": [
+        {
+          "heading": "Ejemplos",
+          "content": "- Crecimiento de los ahorros: calcule rápidamente los ahorros 401(k) en línea y vea cómo las contribuciones generan riqueza.\n- Contrapartida del empleador: utilice la calculadora de contrapartida del empleador 401 (k) para maximizar el dinero gratis de su empresa.\n- Retiros anticipados: calcule multas e impuestos con una calculadora de multas por retiro anticipado 401 (k).\n- Roth vs Tradicional: Compare el impacto final con una calculadora 401(k vs Roth IRA).\n- Planificación de la jubilación: cree una estrategia utilizando nuestra calculadora de proyección 401(k gratuita con ajustes de inflación."
+        }
+      ]
+    },
+    {
+      "heading": "Consejos y próximos pasos",
+      "content": "Estrategias prácticas para aumentar su 401(k) y sus ahorros para la jubilación:",
+      "subSections": [
+        {
+          "heading": "Consejos",
+          "content": "- Maximice la aportación de su empleador: es esencialmente dinero gratis.\n- Incrementar las contribuciones gradualmente: incluso entre un 1% y un 2% más por año puede sumar.\n- Diversificar las inversiones: equilibrar el riesgo con el potencial de crecimiento.\n- Revisar periódicamente: volver a calcular al menos una vez al año o después de cambios importantes en la vida.\n- Compare con otras herramientas: pruebe una calculadora de jubilación con la opción 401(k) o una calculadora de finanzas personales para obtener una visión holística."
+        }
+      ]
+    },
+    {
+      "heading": "Descargo de responsabilidad",
+      "content": "Esta calculadora 401(k) en línea gratuita tiene fines educativos únicamente. Los resultados son estimaciones y no deben tomarse como asesoramiento financiero personalizado. Para una planificación de jubilación específica para su situación, consulte a un asesor financiero autorizado."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo funciona una calculadora 401(k)?",
+      "a": "Una calculadora 401(k) estima su saldo futuro combinando sus contribuciones, la contrapartida del empleador, el crecimiento compuesto y los impuestos. Proyecta ahorros año tras año hasta la edad de jubilación."
+    },
+    {
+      "q": "¿Cuánto debo contribuir a mi 401(k)?",
+      "a": "Los expertos a menudo recomiendan contribuir al menos lo suficiente para obtener la contrapartida total del empleador. Muchas personas aspiran a obtener entre el 10 y el 15 % de sus ingresos, pero la cifra correcta depende de su edad, salario y objetivos de jubilación. Utilice esta calculadora para probar diferentes niveles de contribución."
+    },
+    {
+      "q": "¿Puedo calcular el crecimiento del 401(k) con inflación?",
+      "a": "Sí. Nuestra calculadora le permite incluir una proyección ajustada a la inflación, para que pueda ver el poder adquisitivo real de sus ahorros al momento de la jubilación."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre el 401(k) tradicional y el Roth?",
+      "a": "401(k) tradicional: las contribuciones son antes de impuestos, pero los retiros están sujetos a impuestos. Roth 401(k): Las contribuciones son después de impuestos, pero los retiros durante la jubilación están libres de impuestos. Nuestra herramienta incluye ambos, actuando como una calculadora de ahorro de impuestos 401(k para comparar."
+    },
+    {
+      "q": "¿Qué precisión tienen las calculadoras 401(k)?",
+      "a": "Proporcionan estimaciones, no garantías. Los resultados reales dependen de los rendimientos de las inversiones, la inflación, las políticas de los empleadores y los cambios en las leyes tributarias (como la Ley Segura 2.0). Úselo como una guía de planificación, no como una predicción."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Was ist ein Volumenrechner?",
+      "content": "Ein Volumenrechner ist ein Online-Tool, das den Raum berechnet, der von 3D-Objekten wie Würfeln, Quadern, Zylindern, Kugeln, Kegeln und Pyramiden eingenommen wird. Es verwendet die richtigen geometrischen Formeln und liefert das Ergebnis sofort in Kubikeinheiten. Online-Rechner sind kostenlos, für Mobilgeräte geeignet und einfach zu verwenden, was sie ideal für Studenten, Ingenieure, Architekten und alltägliche Benutzer macht."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Öffnen Sie den Rechner",
+          "content": "Rufen Sie in Ihrem Browser die Seite mit dem Volumenrechner auf."
+        },
+        {
+          "heading": "Wählen Sie die Form aus",
+          "content": "Wählen Sie die 3D-Form (Würfel, Quader, Zylinder, Kugel, Kegel, Pyramide)."
+        },
+        {
+          "heading": "Geben Sie die Abmessungen ein",
+          "content": "Geben Sie Maße wie Länge, Breite, Höhe oder Radius ein."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Holen Sie sich sofort die Lautstärke."
+        },
+        {
+          "heading": "Überprüfen Sie die Einheiten",
+          "content": "Stellen Sie sicher, dass die Eingabeeinheiten konsistent sind. Die Ausgabe stimmt überein (z. B. cm³, m³)."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Mehrere Formen werden unterstützt",
+          "content": "Würfel, Quader, Zylinder, Kugel, Kegel, Pyramide."
+        },
+        {
+          "heading": "Sofortige Ergebnisse",
+          "content": "Berechnet das Volumen schnell und genau."
+        },
+        {
+          "heading": "Flexibilität der Einheit",
+          "content": "Ausgaben in Kubikeinheiten basierend auf Ihrer Eingabe."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf Desktops, Tablets und Smartphones."
+        },
+        {
+          "heading": "Kostenlos und zugänglich",
+          "content": "Keine Downloads oder Registrierung erforderlich."
+        },
+        {
+          "heading": "Benutzerfreundliche Oberfläche",
+          "content": "Einfach und leicht zu navigieren."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Schüler und Lehrer",
+          "content": "Lösen Sie Geometrie-Hausaufgaben und Unterrichtsübungen."
+        },
+        {
+          "heading": "Ingenieure und Architekten",
+          "content": "Berechnen Sie Materialmengen für Bau- und Designprojekte."
+        },
+        {
+          "heading": "DIY- und Heimprojekte",
+          "content": "Schätzen Sie den Farb-, Beton- oder Lagerbedarf."
+        },
+        {
+          "heading": "Verpackung & Versand",
+          "content": "Bestimmen Sie das Volumen von Kisten und Behältern."
+        },
+        {
+          "heading": "Alltagsgebrauch",
+          "content": "Berechnen Sie das Fassungsvermögen von Wassertanks, Behältern oder anderen Gegenständen."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Würfel",
+          "content": "Seite = 5 cm → Volumen: 5³ = 125 cm³"
+        },
+        {
+          "heading": "Beispiel 2 – Zylinder",
+          "content": "Radius = 3 cm, Höhe = 10 cm → Volumen: π × 3² × 10 = 282,74 cm³"
+        },
+        {
+          "heading": "Beispiel 3 – Kugel",
+          "content": "Radius = 4 cm → Volumen: 4/3 × π × 4³ = 268,08 cm³"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Volumenrechner?",
+      "a": "Es berechnet den von 3D-Objekten eingenommenen Raum mithilfe geometrischer Formeln."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, die Online-Nutzung ist völlig kostenlos."
+    },
+    {
+      "q": "Muss ich Software installieren?",
+      "a": "Nein, es funktioniert direkt in Ihrem Browser."
+    },
+    {
+      "q": "Kann ich es auf Mobilgeräten verwenden?",
+      "a": "Ja, vollständig mobilfreundlich."
+    },
+    {
+      "q": "Unterstützt es mehrere Formen?",
+      "a": "Ja, einschließlich Würfel, Quader, Zylinder, Kugeln, Kegel und Pyramiden."
+    },
+    {
+      "q": "Wie gebe ich Maße richtig ein?",
+      "a": "Geben Sie alle Maße in einheitlichen Einheiten ein, z. B. cm oder m."
+    },
+    {
+      "q": "Kann ich Ergebnisse in Kubikmetern oder cm³ erhalten?",
+      "a": "Ja, die Ausgabe entspricht Ihren Eingabeeinheiten."
+    },
+    {
+      "q": "Ist es für Studenten geeignet?",
+      "a": "Ja, perfekt für Hausaufgaben und Projekte."
+    },
+    {
+      "q": "Können Ingenieure oder Architekten es nutzen?",
+      "a": "Ja, nützlich für Konstruktions-, Materialberechnungen und Designprojekte."
+    },
+    {
+      "q": "Ist der Rechner genau?",
+      "a": "Ja, es liefert präzise Ergebnisse für alle unterstützten 3D-Formen."
+    }
+  ]
+}

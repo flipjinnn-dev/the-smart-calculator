@@ -1,0 +1,105 @@
+{
+    "color": "pink",
+    "sections": [
+        {
+            "heading": "What is a Cake Pan Calculator?",
+            "content": "The Cake Pan Calculator helps you adapt recipes for different cake pan sizes and shapes. Whether round, square, or rectangular, it calculates the batter volume and scaling factor, so your cake fits perfectly and bakes evenly."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "content": "Follow these steps to convert cake pan sizes accurately:",
+            "subSections": [
+                {
+                    "heading": "Steps",
+                    "content": "1. Select Original Pan – Choose the shape and enter its size (diameter for round, length × width for square/rectangular).\n2. Select Target Pan – Enter the pan you want to use.\n3. Click Calculate – Get the scaling factor and adjusted ingredient quantities instantly.\n4. Tip – Fill pans ½–⅔ full for best results."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "content": "This cake pan converter offers accurate volume-based adjustments:",
+            "subSections": [
+                {
+                    "heading": "Features",
+                    "content": "- Instant Pan Conversion – Works with round, square, and rectangular pans.\n- Volume-Based Scaling – Adjusts ingredients based on pan volume.\n- Supports Common Pan Sizes – Ideal for home and professional baking.\n- Mobile-Friendly – Works smoothly on any device.\n- User-Friendly Interface – Simple for beginners and pros."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "content": "Bakers use this tool for various recipe adjustments:",
+            "subSections": [
+                {
+                    "heading": "Examples",
+                    "content": "- Home Baking: Use the pan you have without modifying the recipe incorrectly.\n- Recipe Scaling: Make bigger or smaller cakes with proper proportions.\n- Layered Cakes: Scale multiple layers accurately.\n- Event Baking: Useful for parties, birthdays, and special occasions.\n- Professional Baking: Helps standardize recipes in bakeries and culinary schools."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "content": "Here are some common pan conversion examples:",
+            "subSections": [
+                {
+                    "heading": "Examples",
+                    "content": "- 9-inch round → 8×8 square → Reduce ingredients by 11%.\n- 8×8 square → 9×13 rectangular → Double ingredients.\n- 8-inch round → 10-inch round → Increase ingredients by 56%."
+                }
+            ]
+        },
+        {
+            "heading": "Tips & Best Practices",
+            "content": "Useful tips for better baking results:",
+            "subSections": [
+                {
+                    "heading": "Tips",
+                    "content": "- Fill pans only halfway to two-thirds full.\n- Round pans convert to square differently—use volume for accuracy.\n- Monitor doneness visually—baking time may vary by pan shape.\n- When scaling large cakes, weigh ingredients for precise results.\n- Use parchment paper to ensure even baking in larger pans."
+                }
+            ]
+        },
+        {
+            "heading": "Disclaimer",
+            "content": "This calculator provides estimates based on standard cake pan volumes. Baking times may vary depending on oven temperature, recipe type, and batter consistency."
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Cake Pan Calculator?",
+            "a": "It adjusts ingredient quantities when using different cake pan sizes or shapes."
+        },
+        {
+            "q": "Can I convert round to square pans?",
+            "a": "Yes, it supports conversions between round, square, and rectangular pans."
+        },
+        {
+            "q": "Does it adjust ingredients automatically?",
+            "a": "Yes, it calculates a scaling factor for all ingredients."
+        },
+        {
+            "q": "Is it suitable for layered cakes?",
+            "a": "Yes, it adjusts layers proportionally for even stacking."
+        },
+        {
+            "q": "Can it help with baking times?",
+            "a": "It does not calculate baking time; monitor the cake visually for doneness."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, it works on smartphones, tablets, and desktops."
+        },
+        {
+            "q": "Can I scale recipes up or down?",
+            "a": "Yes, it calculates the correct scaling factor for larger or smaller cakes."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, completely free with no downloads required."
+        },
+        {
+            "q": "Who should use this calculator?",
+            "a": "Home bakers, professional bakers, culinary students, and anyone adjusting cake recipes."
+        },
+        {
+            "q": "Why use it?",
+            "a": "To ensure cakes fit your pan perfectly and bake evenly."
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+{
+  "pageTitle": "Calculadora de pago de anualidades",
+  "pageDescription": "Calcule el monto de pago de una anualidad en función de varios factores, incluida la inversión inicial, las tasas de interés y el período de pago para la planificación de ingresos para la jubilación.",
+  "form": {
+    "labels": {
+      "annuityAmount": "Monto de la inversión de la anualidad",
+      "interestRate": "Tasa de interés anual esperada",
+      "payoutPeriod": "Período de pago",
+      "payoutFrequency": "Frecuencia de pago",
+      "paymentTiming": "Momento de pago",
+      "inflationAdjustment": "Ajuste de inflación"
+    },
+    "placeholders": {
+      "annuityAmount": "Ingrese el monto de la inversión de la anualidad",
+      "interestRate": "Ingrese la tasa de interés anual esperada (%)",
+      "payoutPeriod": "Ingrese el período de pago en años"
+    },
+    "buttons": {
+      "calculate": "Calcular el pago de la anualidad",
+      "reset": "Reiniciar"
+    },
+    "payoutFrequencies": {
+      "annually": "Anualmente",
+      "semiAnnually": "Semestralmente",
+      "quarterly": "Trimestral",
+      "monthly": "Mensual"
+    },
+    "paymentTimings": {
+      "beginning": "Inicio del período",
+      "end": "Fin del período"
+    },
+    "inflationAdjustments": {
+      "none": "Sin ajuste",
+      "fixed": "Ajuste de porcentaje fijo",
+      "variable": "Variable basada en el índice de inflación"
+    }
+  },
+  "results": {
+    "periodicPayment": "Monto del pago periódico",
+    "totalPayout": "Pago total durante el período",
+    "totalInterest": "Interés total ganado",
+    "annuityPayoutResultsTitle": "Resultados del pago de anualidades"
+  },
+  "educational": {
+    "annuityPayoutInfo": "Información de pago de anualidades",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "annuityPayoutFacts": {
+      "definition": {
+        "title": "Definición de pago de anualidades",
+        "description": "Pagos regulares recibidos de un contrato de anualidad durante un período o vida específico"
+      },
+      "immediateVsDeferred": {
+        "title": "Anualidades inmediatas versus anualidades diferidas",
+        "description": "Las anualidades inmediatas comienzan a pagarse poco después de la compra; las anualidades diferidas acumulan valor antes de los pagos"
+      },
+      "inflationImpact": {
+        "title": "Impacto de la inflación",
+        "description": "Los pagos fijos pierden poder adquisitivo con el tiempo debido a la inflación"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones de pagos de anualidades únicamente",
+      "actual": "Los pagos de anualidades reales pueden variar según los términos del contrato y las condiciones del mercado."
+    },
+    "importantNotesList": [
+      "Las anualidades fijas proporcionan ingresos predecibles pero pueden perder poder adquisitivo debido a la inflación",
+      "Las anualidades variables ofrecen potencial de crecimiento pero conllevan riesgos de inversión",
+      "Las anualidades variables ofrecen potencial de crecimiento pero conllevan riesgos de inversión",
+      "Los pagos de anualidades generalmente se gravan como ingresos ordinarios."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su anualidad para calcular los montos de pago",
+    "resultMessage": "Los resultados del cálculo del pago de su anualidad se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del pago de anualidades:",
+    "annuityPayoutAnalysis": "Análisis de pago de anualidades"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de pago de anualidades basadas en fórmulas matemáticas. Los pagos reales de anualidades pueden variar según los términos del contrato, las tarifas, las condiciones del mercado y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para un análisis personalizado del pago de anualidades y planificación de ingresos de jubilación, consulte a asesores financieros o profesionales de seguros con experiencia en productos de anualidades y circunstancias financieras individuales."
+  },
+  "errors": {
+    "annuityAmount": "Ingrese un monto de inversión de anualidad válido",
+    "interestRate": "Ingrese una tasa de interés anual esperada válida",
+    "payoutPeriod": "Por favor ingresa un período de pago válido",
+    "payoutFrequency": "Por favor seleccione una frecuencia de pago",
+    "paymentTiming": "Por favor seleccione el momento del pago",
+    "inflationAdjustment": "Por favor seleccione ajuste de inflación"
+  },
+  "tooltips": {
+    "annuityAmount": "Monto total invertido en la anualidad",
+    "interestRate": "Tasa de interés o tasa de rendimiento anual esperada",
+    "payoutPeriod": "Duración del tiempo durante el cual se recibirán los pagos",
+    "payoutFrequency": "¿Con qué frecuencia se recibirán los pagos?",
+    "paymentTiming": "Si los pagos se reciben al principio o al final del período.",
+    "inflationAdjustment": "Si los pagos se ajustarán a la inflación"
+  },
+  "payout_calculator_0": "Calculadora de pagos",
+  "calculation_mode_1": "Modo de cálculo",
+  "fixed_length_2": "Longitud fija",
+  "fixed_payment_3": "Pago Fijo",
+  "annuity_details_4": "Detalles de la anualidad",
+  "starting_principal_5": "Director inicial",
+  "annual_interest_rate_6": "Tasa de interés anual (%)",
+  "payout_frequency_7": "Frecuencia de pago",
+  "annually_8": "Anualmente",
+  "semiannually_9": "Semestralmente",
+  "quarterly_10": "Trimestral",
+  "monthly_11": "Mensual",
+  "semimonthly_12": "Quincenal",
+  "biweekly_13": "Quincenal",
+  "years_to_payout_14": "Años para pagar",
+  "payment_amount_15": "Monto del pago",
+  "calculate_16": "Calcular",
+  "payout_results_17": "Resultados de pago",
+  "your_annuity_payout_breakdown_18": "Desglose del pago de su anualidad",
+  "your_payment_per_period_19": "Su pago por período:",
+  "for_20": "para",
+  "years_21": "años",
+  "your_fund_will_last_22": "Su fondo durará:",
+  "years_23": "Años",
+  "months_24": "Meses",
+  "with_25": "Con $",
+  "payments_26": "pagos",
+  "starting_principal_27": "Director inicial",
+  "total_payments_28": "Pagos totales",
+  "total_interest_earned_29": "Interés total ganado",
+  "download_payout_schedule_csv_30": "Descargar el calendario de pagos (CSV)",
+  "enter_your_annuity_details_to_see_payout_results_31": "Ingrese los detalles de su anualidad para ver los resultados del pago",
+  "amortization_schedule_32": "Calendario de amortización",
+  "detailed_breakdown_of_each_payment_period_showing__33": "Desglose detallado de cada período de pago (mostrando los primeros 12 períodos)",
+  "period_34": "Período",
+  "beginning_balance_35": "Saldo inicial",
+  "interest_earned_36": "Intereses ganados",
+  "payment_37": "Pago",
+  "ending_balance_38": "Saldo final",
+  "showing_first_12_periods_of_39": "Mostrando los primeros 12 períodos de",
+  "total_periods_download_csv_for_complete_schedule_40": "periodos totales. Descargue CSV para completar\n                      horario.",
+  "calculation_formula_41": "Fórmula de cálculo",
+  "fixed_length_mode_42": "Modo de longitud fija",
+  "calculate_amount_given_principal_rate_and_duration_43": "Calcule el monto dado el capital, la tasa y la duración:",
+  "pmt_p_rp_1_1_rpn_44": "PAGO = P × r_p / (1 - (1 + r_p)^(-N))",
+  "where_p_principal_rp_periodic_rate_n_total_payment_45": "Donde: P = Principal, r_p = Tasa Periódica, N = Pagos Totales",
+  "fixed_payment_mode_46": "Modo de pago fijo",
+  "calculate_given_principal_rate_and_payment_amount_47": "Calcule el capital, la tasa y el monto del pago dados:",
+  "n_lnpmt_pmt_p_rp_ln1_rp_48": "N = ln(PMT / (PMT - P × r_p)) / ln(1 + r_p)",
+  "where_pmt_payment_amount_p_principal_rp_periodic_r_49": "Donde: PMT = Monto del Pago, P = Principal, r_p = Tasa Periódica"
+}

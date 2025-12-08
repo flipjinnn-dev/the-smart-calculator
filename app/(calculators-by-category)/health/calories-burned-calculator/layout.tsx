@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for calories-burned-calculator
 const caloriesburnedcalculatorMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }calories-burned-calculator`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }calories-burned-calculator`,
       languages: {
         'en': getCanonicalUrl('calories-burned-calculator', 'en'),
         'pt-BR': getCanonicalUrl('calories-burned-calculator', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }calories-burned-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }calories-burned-calculator`,
     },
   };
 }
@@ -70,5 +69,74 @@ export default async function CaloriesBurnedCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://www.thesmartcalculator.com/health/calories-burned-calculator",
+    "name": "Calories Burned Calculator - Estimate Calories Burned by Activity",
+    "description": "Use the Calories Burned Calculator to estimate how many calories you burn during different activities based on MET values, your weight, and duration.",
+    "inLanguage": "en",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Smart Calculator",
+      "url": "https://www.thesmartcalculator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thesmartcalculator.com/logo.png"
+      }
+    },
+    "mainEntity": {
+      "@type": "WebApplication",
+      "name": "Calories Burned Calculator",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "All",
+      "url": "https://www.thesmartcalculator.com/health/calories-burned-calculator",
+      "about": {
+        "@type": "Thing",
+        "name": "Calories Burned",
+        "description": "Estimation of calories burned using MET values, activity type, body weight, and duration of exercise."
+      },
+      "featureList": [
+        "Select activity type (walking, running, cycling, swimming, etc.)",
+        "Enter duration in minutes",
+        "Enter body weight in kg/lbs",
+        "Calculate estimated calories burned instantly"
+      ]
+    },
+    "faq": [
+      {
+        "@type": "Question",
+        "name": "How is calorie burn calculated?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Calories are estimated using the formula: Calories = Time(min) × MET × Weight(kg) × 0.0175."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are MET values?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MET (Metabolic Equivalent of Task) represents the energy cost of physical activities. 1 MET equals resting energy expenditure."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this calculator accurate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This calculator provides approximate estimates. Actual calorie burn can vary based on age, sex, fitness level, and other factors."
+        }
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="calories-burned-calculator-jsonld"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    />
+  </>;
 }

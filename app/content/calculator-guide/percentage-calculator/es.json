@@ -1,0 +1,146 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Comprenda los porcentajes fácilmente con nuestra calculadora de porcentajes",
+      "content": "Nuestra Calculadora de porcentajes te ayuda a resolver todo tipo de problemas de porcentajes al instante. Ya sea que necesite encontrar un porcentaje, calcular un aumento o una disminución, o convertir valores, esta herramienta hace que los cálculos de porcentaje sean simples y precisos."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de porcentajes",
+      "content": "Usar la calculadora es rápido y sencillo. Simplemente ingrese sus valores y obtenga resultados instantáneos sin ningún cálculo manual.",
+      "subSections": [
+        {
+          "heading": "Pasos de uso:",
+          "content": "Ingrese el valor inicial (número original). Ingrese el porcentaje que desea calcular. Haga clic en Calcular para obtener el resultado. Para cálculos inversos (por ejemplo, 'X es el porcentaje de Y'), elija el modo correspondiente. Para un cambio porcentual, ingrese Valor anterior → Valor nuevo → Calcular."
+        }
+      ]
+    },
+    {
+      "heading": "Modos de calculadora que admitimos",
+      "content": "La herramienta ofrece múltiples modos para ayudarlo a resolver diferentes tipos de problemas de porcentaje fácilmente.",
+      "subSections": [
+        {
+          "heading": "Buscar porcentaje",
+          "content": "Calcula qué porcentaje representa un número."
+        },
+        {
+          "heading": "Porcentaje de un número",
+          "content": "Encuentra un porcentaje específico de cualquier número."
+        },
+        {
+          "heading": "Aumento/disminución porcentual",
+          "content": "Calcular el crecimiento o reducción entre dos valores."
+        },
+        {
+          "heading": "Porcentaje inverso",
+          "content": "Encuentra qué porcentaje es un número de otro."
+        },
+        {
+          "heading": "Conversión porcentual",
+          "content": "Convierte porcentajes a decimales o fracciones y viceversa."
+        },
+        {
+          "heading": "Porcentaje promedio",
+          "content": "Calcule el promedio de múltiples valores porcentuales."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Resultados rápidos y precisos",
+          "content": "Obtenga respuestas instantáneas para todos los cálculos de porcentajes sin utilizar fórmulas."
+        },
+        {
+          "heading": "Diseño apto para principiantes",
+          "content": "Fácil de usar para estudiantes, profesionales, profesores y tareas cotidianas."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles y gratuito",
+          "content": "Funciona sin problemas en todos los dispositivos sin necesidad de registrarse."
+        },
+        {
+          "heading": "Fórmulas confiables y estándar",
+          "content": "Basado en reglas matemáticas estándar para obtener resultados confiables."
+        }
+      ]
+    },
+    {
+      "heading": "¿Quién puede beneficiarse?",
+      "subSections": [
+        {
+          "heading": "Académicos y estudiantes",
+          "content": "Calcule el porcentaje de calificaciones, el porcentaje promedio y los resultados de los exámenes."
+        },
+        {
+          "heading": "Negocios y Finanzas",
+          "content": "Analice el porcentaje de pérdidas y ganancias, los intereses y el crecimiento financiero."
+        },
+        {
+          "heading": "Descuentos en compras",
+          "content": "Encuentre precios con descuento al instante mientras compra."
+        },
+        {
+          "heading": "Datos e informes",
+          "content": "Compare los valores usando aumento o disminución porcentual."
+        },
+        {
+          "heading": "Presupuesto personal",
+          "content": "Realice un seguimiento de los gastos o ahorros como porcentaje de los ingresos."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: ¿Cuánto es el 25% de 200?",
+          "content": "Fórmula: 25 ÷ 100 × 200 = 50"
+        },
+        {
+          "heading": "Ejemplo 2: ¿40 es qué porcentaje de 320?",
+          "content": "Fórmula: 40 ÷ 320 × 100 = 12,5%"
+        },
+        {
+          "heading": "Ejemplo 3: aumento porcentual",
+          "content": "Valor anterior = 500, valor nuevo = 650 → (650 − 500) ÷ 500 × 100 = aumento del 30%"
+        },
+        {
+          "heading": "Ejemplo 4 – Disminución porcentual",
+          "content": "Valor anterior = 800, valor nuevo = 600 → (800 − 600) ÷ 800 × 100 = disminución del 25%"
+        },
+        {
+          "heading": "Ejemplo 5: porcentaje promedio",
+          "content": "70%, 80%, 90% → (70 + 80 + 90) ÷ 3 = 80%"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de porcentajes?",
+      "a": "Es una herramienta en línea que le ayuda a realizar todo tipo de cálculos de porcentajes de forma instantánea y precisa."
+    },
+    {
+      "q": "¿Puedo calcular el aumento porcentual con esta herramienta?",
+      "a": "Sí, la calculadora admite el modo de aumento porcentual para obtener resultados rápidos."
+    },
+    {
+      "q": "¿Apoya la disminución porcentual?",
+      "a": "Sí, puedes calcular los porcentajes de disminución fácilmente."
+    },
+    {
+      "q": "¿Cómo calculo un porcentaje manualmente?",
+      "a": "Utilice la fórmula: Porcentaje = (Parte ÷ Todo) × 100."
+    },
+    {
+      "q": "¿Puedo convertir porcentajes a números o números a porcentajes?",
+      "a": "Sí, la herramienta admite conversión porcentual en ambos sentidos."
+    },
+    {
+      "q": "¿Es de uso gratuito?",
+      "a": "Sí, la calculadora de porcentajes es 100% gratuita y funciona en todos los dispositivos."
+    }
+  ]
+}

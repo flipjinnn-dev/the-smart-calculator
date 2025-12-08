@@ -1,0 +1,124 @@
+{
+  "pageTitle": "Calculadora de tasa de interés",
+  "pageDescription": "Calcule el impacto de las tasas de interés en préstamos e inversiones para comparar diferentes productos financieros y tomar decisiones informadas.",
+  "form": {
+    "labels": {
+      "principal": "Monto principal",
+      "interestRate": "Tasa de interés anual",
+      "timePeriod": "Período de tiempo",
+      "compounding": "Frecuencia de capitalización",
+      "calculationType": "Tipo de cálculo"
+    },
+    "placeholders": {
+      "principal": "Ingrese el monto principal",
+      "interestRate": "Introduzca la tasa de interés anual (%)",
+      "timePeriod": "Introduzca el período de tiempo"
+    },
+    "buttons": {
+      "calculate": "Calcular interés",
+      "reset": "Reiniciar"
+    },
+    "calculationTypes": {
+      "simple": "Interés simple",
+      "compound": "Interés compuesto",
+      "apr": "Tasa de porcentaje anual (APR)",
+      "apy": "Rendimiento porcentual anual (APY)"
+    },
+    "compoundingFrequencies": {
+      "annually": "Anualmente",
+      "semiAnnually": "Semestralmente",
+      "quarterly": "Trimestral",
+      "monthly": "Mensual",
+      "daily": "A diario"
+    }
+  },
+  "results": {
+    "interestEarned": "Intereses ganados",
+    "futureValue": "Valor futuro",
+    "totalAmount": "Monto Total",
+    "effectiveRate": "Tasa anual efectiva",
+    "interestRateResultsTitle": "Resultados del cálculo de la tasa de interés"
+  },
+  "educational": {
+    "interestRateInfo": "Información sobre la tasa de interés",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "interestRateFacts": {
+      "simpleVsCompound": {
+        "title": "Interés simple versus interés compuesto",
+        "description": "El interés simple se calcula únicamente sobre el capital; El interés compuesto incluye el interés acumulado."
+      },
+      "aprVsApy": {
+        "title": "APR frente a APY",
+        "description": "APR es la tasa de interés básica; APY incluye efectos compuestos"
+      },
+      "rateFactors": {
+        "title": "Factores que afectan las tarifas",
+        "description": "El puntaje crediticio, el plazo del préstamo y las condiciones económicas influyen en las tasas de interés"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones de cálculo de tasas de interés únicamente.",
+      "actual": "Las tasas de interés reales pueden variar según las políticas del prestamista y las condiciones del mercado."
+    },
+    "importantNotesList": [
+      "El APY siempre es mayor que el APR cuando la capitalización se produce más de una vez al año.",
+      "Los puntajes crediticios más altos generalmente califican para tasas de interés más bajas",
+      "Los puntajes crediticios más altos generalmente califican para tasas de interés más bajas",
+      "Busque las mejores tasas y términos en préstamos e inversiones"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su tasa de interés para calcular ganancias o costos",
+    "resultMessage": "Los resultados del cálculo de su tasa de interés se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de la tasa de interés:",
+    "interestRateAnalysis": "Análisis de tasas de interés"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de cálculo de tasas de interés basadas en fórmulas matemáticas. Las tasas de interés y las ganancias reales pueden variar según las políticas, tarifas y condiciones del mercado del prestamista no incluidas en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para análisis personalizados de tasas de interés y comparaciones de productos financieros, consulte a asesores financieros o agentes de préstamos con experiencia en productos crediticios y circunstancias financieras individuales."
+  },
+  "errors": {
+    "principal": "Por favor ingrese un monto de capital válido",
+    "interestRate": "Por favor ingrese una tasa de interés anual válida",
+    "timePeriod": "Por favor ingrese un período de tiempo válido",
+    "compounding": "Por favor seleccione una frecuencia de capitalización",
+    "calculationType": "Por favor seleccione un tipo de cálculo"
+  },
+  "tooltips": {
+    "principal": "Monto inicial del préstamo o inversión",
+    "interestRate": "Tasa de interés anual o rendimiento esperado",
+    "timePeriod": "Plazo para el cálculo de intereses",
+    "compounding": "¿Con qué frecuencia se capitaliza el interés por año?",
+    "calculationType": "Tipo de cálculo de intereses a realizar"
+  },
+  "interest_rate_calculator_0": "Calculadora de tasa de interés",
+  "loan_information_1": "Información del préstamo",
+  "loan_amount_2": "Monto del préstamo",
+  "loan_term_3": "Plazo del préstamo",
+  "years_4": "años",
+  "months_5": "meses",
+  "monthly_payment_6": "pago mensual",
+  "calculate_rate_7": "Calcular tarifa",
+  "results_8": "Resultados",
+  "your_loan_interest_rate_breakdown_9": "Desglose de la tasa de interés de su préstamo",
+  "interest_rate_10": "Tasa de interés",
+  "total_of_11": "Total de",
+  "monthly_payments_12": "pagos mensuales",
+  "total_interest_paid_13": "Intereses totales pagados",
+  "enter_your_loan_information_to_calculate_the_inter_14": "Ingrese la información de su préstamo para calcular la tasa de interés",
+  "formulas_calculation_method_15": "Fórmulas y método de cálculo",
+  "loan_payment_formula_16": "Fórmula de pago del préstamo",
+  "pmt_p_r1rn_1rn_1_17": "PAGO = P × [r(1+r)^n] / [(1+r)^n - 1]",
+  "where_pmt_monthly_payment_p_principal_loan_amount__18": "Donde: PMT = Pago mensual, P = Principal (monto del préstamo), r = Tasa de interés mensual, n = Número\n                        de pagos",
+  "interest_rate_calculation_19": "Cálculo de la tasa de interés",
+  "since_the_interest_rate_cannot_be_solved_algebraic_20": "Dado que la tasa de interés no se puede resolver algebraicamente a partir de la fórmula de pago, esta calculadora\n                        utiliza el método numérico de Newton-Raphson para resolver iterativamente la tasa que produce la\n                        monto de pago dado.",
+  "total_interest_calculation_21": "Cálculo del interés total",
+  "total_interest_monthly_payment_number_of_payments__22": "Interés total = (Pago mensual × Número de pagos) - Monto del préstamo"
+}

@@ -1,0 +1,143 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Batting Average-Rechner: Was es ist und wie es funktioniert",
+      "content": "Der Batting Average Calculator ist ein kostenloses Online-Tool, das dabei hilft, den Schlagdurchschnitt eines Spielers anhand von Treffern und offiziellen Schlagdurchschnitten sofort zu berechnen. Der Schlagdurchschnitt gibt an, wie oft ein Spieler beim Schlagen einen Treffer erzielt, und ist eine wichtige Baseball-Statistik."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Treffer eingeben",
+          "content": "Geben Sie die Anzahl der Treffer ein, die der Spieler erzielt hat."
+        },
+        {
+          "heading": "Betreten Sie At-Bats",
+          "content": "Nehmen Sie an offiziellen Fledermäusen teil (ausgenommen Walks, Opfer und Hit-by-Pitch)."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Erhalten Sie sofort den Schlagdurchschnitt."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Stellen Sie sicher, dass Sie die offiziellen Angriffe korrekt zählen, um die Genauigkeit zu gewährleisten."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Berechnung",
+          "content": "Berechnet den Schlagdurchschnitt in Sekunden."
+        },
+        {
+          "heading": "Präzise und zuverlässig",
+          "content": "Verwendet die Standardformel: Hits ÷ At-Bats."
+        },
+        {
+          "heading": "Einfach zu bedienen",
+          "content": "Keine manuelle Mathematik erforderlich."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf Smartphones, Tablets und Desktops."
+        },
+        {
+          "heading": "Ideal für Fantasy-Baseball und Analyse",
+          "content": "Verfolgen Sie die Leistung von Spielern, Trainern und Analysten ganz einfach."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Spieler & Trainer",
+          "content": "Bewerten Sie die Leistung pro Spiel oder Saison."
+        },
+        {
+          "heading": "Fans und Analysten",
+          "content": "Vergleichen Sie schnell die Spielerdurchschnitte."
+        },
+        {
+          "heading": "Jugend- und Amateur-Baseball",
+          "content": "Verfolgen Sie Statistiken ohne komplexe Berechnungen."
+        },
+        {
+          "heading": "Fantasy-Baseball",
+          "content": "Überwachen Sie Spieler auf Drafts oder Punkte."
+        },
+        {
+          "heading": "Scouts & Talentbewertung",
+          "content": "Bewerten Sie die Schlagkonsistenz effizient."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1",
+          "content": "45 Treffer ÷ 150 Fledermäuse = .300"
+        },
+        {
+          "heading": "Beispiel 2",
+          "content": "60 Treffer ÷ 200 Fledermäuse = .300"
+        },
+        {
+          "heading": "Beispiel 3",
+          "content": "25 Treffer ÷ 100 Fledermäuse = .250"
+        },
+        {
+          "heading": "Beispiel 4",
+          "content": "80 Treffer ÷ 250 Fledermäuse = .320"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Batting-Average-Rechner?",
+      "a": "Es berechnet den Schlagdurchschnitt eines Spielers anhand von Treffern und offiziellen Fledermäusen."
+    },
+    {
+      "q": "Wie wird der Schlagdurchschnitt berechnet?",
+      "a": "Verwenden Sie die Formel: Treffer ÷ At-Bats."
+    },
+    {
+      "q": "Beinhaltet es Spaziergänge oder Opfer?",
+      "a": "Nein, es werden nur offizielle Fledermäuse gezählt."
+    },
+    {
+      "q": "Ist das Ergebnis korrekt?",
+      "a": "Ja, basierend auf den eingegebenen Treffern und Angriffen."
+    },
+    {
+      "q": "Kann ich es für Fantasy-Baseball verwenden?",
+      "a": "Ja, es hilft dabei, Spielerstatistiken schnell zu verfolgen."
+    },
+    {
+      "q": "Ist dieser Rechner mobilfreundlich?",
+      "a": "Ja, es funktioniert auf Smartphones, Tablets und Desktops."
+    },
+    {
+      "q": "Ist die Nutzung kostenlos?",
+      "a": "Ja, völlig kostenlos und online."
+    },
+    {
+      "q": "Wer sollte diesen Rechner verwenden?",
+      "a": "Spieler, Trainer, Fans, Analysten und Fantasy-Enthusiasten."
+    },
+    {
+      "q": "Warum einen Schlagdurchschnittsrechner verwenden?",
+      "a": "Das spart Zeit und sorgt für genaue Berechnungen."
+    },
+    {
+      "q": "Kann es mehrere Spieler verfolgen?",
+      "a": "Ja, indem Sie die Statistiken für jeden Spieler einzeln eingeben."
+    }
+  ]
+}

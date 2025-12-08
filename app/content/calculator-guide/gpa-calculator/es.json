@@ -1,0 +1,106 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de GPA?",
+      "content": "Una calculadora de GPA es una herramienta en línea gratuita que ayuda a los estudiantes a calcular de forma rápida y precisa su promedio de calificaciones (GPA). Al ingresar las calificaciones del curso y las horas de crédito, calcula un GPA ponderado y elimina las posibilidades de errores manuales."
+    },
+    {
+      "heading": "Cómo funciona la calculadora de GPA",
+      "subSections": [
+        {
+          "heading": "Entradas requeridas",
+          "content": "Calificaciones con letras para cada curso (A, B+, B, etc.), horas de crédito para cada curso y selección de escala de calificaciones opcional."
+        },
+        {
+          "heading": "Método de cálculo",
+          "content": "La calculadora convierte cada letra de calificación en puntos, los multiplica por horas de crédito y divide el total de puntos por el total de créditos para calcular el GPA ponderado."
+        },
+        {
+          "heading": "¿Qué pasa después?",
+          "content": "Después de hacer clic en Calcular, obtendrá instantáneamente su GPA ponderado junto con un desglose claro del cálculo."
+        }
+      ]
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de GPA?",
+      "subSections": [
+        {
+          "heading": "Estimación precisa del GPA",
+          "content": "Elimina errores matemáticos manuales y garantiza un GPA correcto según fórmulas estándar."
+        },
+        {
+          "heading": "Soporte para múltiples cursos",
+          "content": "Agregue tantos cursos como sea necesario durante un semestre o año académico completo."
+        },
+        {
+          "heading": "Seguimiento del GPA acumulativo",
+          "content": "Combine fácilmente el GPA semestral y las horas de crédito para calcular el GPA total acumulado."
+        },
+        {
+          "heading": "Planificación de calificaciones sencilla",
+          "content": "Simule calificaciones futuras para predecir qué GPA necesita para alcanzar sus objetivos académicos."
+        },
+        {
+          "heading": "Conveniencia",
+          "content": "Rápido, gratuito, compatible con dispositivos móviles y funciona directamente en su navegador sin instalación."
+        }
+      ]
+    },
+    {
+      "heading": "Ejemplos de cálculos de GPA",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: semestre único",
+          "content": "Curso 1: A (4 créditos), Curso 2: B+ (3 créditos), Curso 3: B (3 créditos). Resultado: GPA ponderado = 3,44."
+        },
+        {
+          "heading": "Ejemplo 2: GPA acumulativo",
+          "content": "Semestre 1: GPA 3.5 (12 créditos), Semestre 2: GPA 3.8 (15 créditos). Resultado: GPA acumulado = 3,66."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de GPA?",
+      "a": "Calcula su GPA utilizando calificaciones con letras y horas de crédito."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, su uso en línea es completamente gratuito."
+    },
+    {
+      "q": "¿Necesito instalar software?",
+      "a": "No, puedes usarlo directamente en cualquier navegador web."
+    },
+    {
+      "q": "¿Puede manejar varios cursos?",
+      "a": "Sí, puedes agregar tantos cursos como necesites para obtener un GPA preciso."
+    },
+    {
+      "q": "¿Admite diferentes escalas de calificación?",
+      "a": "Sí, aunque la escala por defecto es 4.0."
+    },
+    {
+      "q": "¿Puedo calcular el GPA acumulado?",
+      "a": "Sí, ingresando a varios semestres o conjuntos de cursos."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, funciona sin problemas en teléfonos inteligentes, tabletas y computadoras de escritorio."
+    },
+    {
+      "q": "¿Puede ayudar con la planificación de becas?",
+      "a": "Sí, muestra si su GPA cumple con los requisitos de beca."
+    },
+    {
+      "q": "¿Qué tan precisa es la calculadora?",
+      "a": "Utiliza fórmulas de GPA ponderadas estándar, lo que garantiza resultados precisos."
+    },
+    {
+      "q": "¿Puedo simular calificaciones futuras?",
+      "a": "Sí, puede planificar las calificaciones necesarias para alcanzar un GPA objetivo."
+    }
+  ]
+}

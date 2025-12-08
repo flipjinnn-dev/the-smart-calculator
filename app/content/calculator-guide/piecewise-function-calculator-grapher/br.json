@@ -1,0 +1,147 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora e gráfico de funções por partes: o que é e como usá-lo",
+      "content": "Uma calculadora e gráfico de funções por partes é uma ferramenta online que permite definir, avaliar e representar graficamente funções feitas de várias partes, cada uma válida em um intervalo específico."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Abra a calculadora",
+          "content": "Acesse-o diretamente no seu navegador."
+        },
+        {
+          "heading": "Definir peças funcionais",
+          "content": "Insira cada expressão junto com seu intervalo (por exemplo, x < 0, 0 ≤ x < 2, x ≥ 2)."
+        },
+        {
+          "heading": "Insira valores x",
+          "content": "Especifique os pontos onde deseja avaliar a função."
+        },
+        {
+          "heading": "Definir intervalo do gráfico",
+          "content": "Opcionalmente, escolha o domínio para plotagem."
+        },
+        {
+          "heading": "Clique em Calcular/Gráfico",
+          "content": "Veja instantaneamente os valores das funções e um gráfico."
+        },
+        {
+          "heading": "Verifique os resultados",
+          "content": "Verifique os pontos de limite quanto à precisão."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Suporta múltiplas peças",
+          "content": "Adicione quantas subfunções com intervalos diferentes forem necessárias."
+        },
+        {
+          "heading": "Avaliação Instantânea",
+          "content": "Calcule rapidamente f(x) para qualquer valor de x."
+        },
+        {
+          "heading": "Funcionalidade gráfica",
+          "content": "Visualize todas as peças, incluindo saltos e pontos finais."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona em desktops, tablets e smartphones."
+        },
+        {
+          "heading": "Lida com funções complexas",
+          "content": "Suporta polinômios, valores trigonométricos, exponenciais, absolutos e muito mais."
+        },
+        {
+          "heading": "Grátis e fácil",
+          "content": "Não é necessário download ou registro."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Alunos e ajuda com o dever de casa",
+          "content": "Entenda as funções por partes mais rapidamente."
+        },
+        {
+          "heading": "Professores",
+          "content": "Crie demonstrações claras e visuais em sala de aula."
+        },
+        {
+          "heading": "Análise de Função",
+          "content": "Explore como as funções mudam entre intervalos."
+        },
+        {
+          "heading": "Modelagem do mundo real",
+          "content": "Aplique a níveis de preços, faixas de impostos ou funções de etapa."
+        },
+        {
+          "heading": "Gráficos rápidos",
+          "content": "Economize tempo em comparação com a plotagem manual."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Função básica por partes",
+          "content": "f(x) definido como: x² para x < 0; 2x + 1 para 0 ≤ x < 3; 5 para x ≥ 3. Avaliação: f(-2)=4, f(1)=3, f(4)=5."
+        },
+        {
+          "heading": "Exemplo 2 – Função trigonométrica por partes",
+          "content": "f(x) definido como: sin(x) para x < π/2; cos(x) para x ≥ π/2. Avaliação: f(π/4)≈0,707, f(π/2)=0, f(π)=-1."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora e gráfico de funções por partes?",
+      "a": "Ele permite definir, avaliar e representar graficamente funções por partes com vários intervalos."
+    },
+    {
+      "q": "Esta calculadora é gratuita?",
+      "a": "Sim, é totalmente gratuito online."
+    },
+    {
+      "q": "Eu preciso de software?",
+      "a": "Não, funciona diretamente em qualquer navegador."
+    },
+    {
+      "q": "Posso representar graficamente minhas funções por partes?",
+      "a": "Sim, gera gráficos precisos com intervalos corretos."
+    },
+    {
+      "q": "Posso adicionar várias peças?",
+      "a": "Sim, você pode definir quantas subfunções forem necessárias."
+    },
+    {
+      "q": "Ele suporta funções trigonométricas, exponenciais ou de valor absoluto?",
+      "a": "Sim, todas as expressões matemáticas padrão são suportadas."
+    },
+    {
+      "q": "É adequado para estudantes?",
+      "a": "Sim, é ideal para aprendizagem, trabalhos de casa e prática."
+    },
+    {
+      "q": "Ele pode lidar com descontinuidades?",
+      "a": "Sim, os saltos e as condições de ponto final são representados com precisão."
+    },
+    {
+      "q": "Posso avaliar a qualquer momento?",
+      "a": "Sim, basta inserir os valores de x e ele calculará f(x)."
+    },
+    {
+      "q": "Quão preciso é isso?",
+      "a": "Ele fornece valores de função precisos e gráficos para funções por partes padrão."
+    }
+  ]
+}

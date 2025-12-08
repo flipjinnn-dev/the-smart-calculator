@@ -1,0 +1,143 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist ein Größen-Gewicht-Rechner?",
+      "content": "Ein Size-to-Weight-Rechner schätzt das Gewicht eines rechteckigen Quaders anhand seiner Länge, Breite, Höhe und Materialdichte. Ideal für Bau, Fertigung, Versand, Heimwerkerprojekte und Bildung."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Geben Sie die Abmessungen ein",
+          "content": "Geben Sie Länge, Breite und Höhe ein."
+        },
+        {
+          "heading": "Wählen Sie Material aus",
+          "content": "Wählen Sie ein voreingestelltes Material (Stahl, Holz, Beton, Aluminium) oder geben Sie eine benutzerdefinierte Dichte ein."
+        },
+        {
+          "heading": "Wählen Sie Einheiten aus",
+          "content": "Stellen Sie sicher, dass die Einheiten konsistent sind (cm, m, mm, in, ft)."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Erhalten Sie sofort das Gewicht in kg oder lb."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Stellen Sie sicher, dass die Dichte mit dem tatsächlichen Material übereinstimmt, um genaue Ergebnisse zu erhalten."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Gewichtsberechnung",
+          "content": "Von Abmessungen und Materialdichte."
+        },
+        {
+          "heading": "Flexible Einheiten",
+          "content": "Unterstützt cm, m, mm, in und ft."
+        },
+        {
+          "heading": "Voreingestellte und benutzerdefinierte Materialien",
+          "content": "Einfache Auswahl oder benutzerdefinierte Dichteeingabe."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert auf allen Geräten."
+        },
+        {
+          "heading": "Vielseitige Anwendungen",
+          "content": "Bau, Schifffahrt, Heimwerken und Bildung."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Bau & Ingenieurwesen",
+          "content": "Gewicht von Balken, Blöcken und Komponenten."
+        },
+        {
+          "heading": "Versand & Logistik",
+          "content": "Schätzung des Paket- oder Frachtgewichts."
+        },
+        {
+          "heading": "Heimwerken und Fertigung",
+          "content": "Machbarkeitsprüfung für Möbel, Gehäuse oder Projekte."
+        },
+        {
+          "heading": "Ausbildung",
+          "content": "Lernen Sie die Beziehungen zwischen Volumen, Dichte und Masse kennen."
+        },
+        {
+          "heading": "Materialplanung",
+          "content": "Lastabschätzung und Sicherheitsberechnungen."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Holzblock",
+          "content": "50 cm × 40 cm × 30 cm, Eichenholz (Dichte 750 kg/m³) → Gewicht ≈ 45 kg"
+        },
+        {
+          "heading": "Beispiel 2 – Stahlbox",
+          "content": "2 m × 1 m × 0,5 m, Stahl (Dichte 7850 kg/m³) → Gewicht ≈ 7850 kg"
+        },
+        {
+          "heading": "Beispiel 3 – Benutzerdefiniertes Material",
+          "content": "1 Fuß × 0,5 Fuß × 0,25 Fuß, Dichte 500 kg/m³ → Gewicht ≈ 1,75 kg"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Größen-Gewicht-Rechner?",
+      "a": "Es schätzt das Quadergewicht anhand der Abmessungen und der Materialdichte."
+    },
+    {
+      "q": "Kann ich verschiedene Einheiten verwenden?",
+      "a": "Ja, cm, m, mm, Zoll und Fuß werden unterstützt."
+    },
+    {
+      "q": "Enthält es gängige Materialien?",
+      "a": "Ja, Stahl, Holz, Beton und Aluminium."
+    },
+    {
+      "q": "Kann ich eine benutzerdefinierte Dichte eingeben?",
+      "a": "Ja, geben Sie für eine genaue Berechnung eine beliebige Dichte ein."
+    },
+    {
+      "q": "Ist es für DIY-Projekte geeignet?",
+      "a": "Ja, für Möbel, Gehäuse oder andere kundenspezifische Objekte."
+    },
+    {
+      "q": "Wird in kg und lb gerechnet?",
+      "a": "Ja, die Ergebnisse werden in beiden Einheiten angezeigt."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, funktioniert auf Smartphones, Tablets und Desktops."
+    },
+    {
+      "q": "Wer sollte diesen Rechner verwenden?",
+      "a": "Ingenieure, Bauherren, Heimwerker, Studenten und Logistikplaner."
+    },
+    {
+      "q": "Berücksichtigt es hohle oder unregelmäßige Objekte?",
+      "a": "Nein, es geht von einem massiven Quader mit gleichmäßiger Dichte aus."
+    },
+    {
+      "q": "Ist die Nutzung kostenlos?",
+      "a": "Ja, völlig kostenlos, es sind keine Downloads erforderlich."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "pageTitle": "Calculadora de yardas cúbicas",
+  "pageDescription": "Calcule yardas cúbicas de concreto, tierra y otros materiales con medidas precisas para proyectos de construcción y paisajismo.",
+  "form": {
+    "labels": {
+      "shape": "Forma",
+      "length": "Longitud",
+      "width": "Ancho",
+      "height": "Altura/Profundidad",
+      "diameter": "Diámetro",
+      "unitSystem": "Sistema de unidades",
+      "material": "Tipo de material",
+      "density": "Densidad del material"
+    },
+    "placeholders": {
+      "length": "Introduzca la longitud",
+      "width": "Introduzca el ancho",
+      "height": "Introduzca altura/profundidad",
+      "diameter": "Introduzca el diámetro"
+    },
+    "buttons": {
+      "calculate": "Calcular yardas cúbicas",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "imperial": "Imperial (pies, pulgadas)",
+      "metric": "Métrico (m, cm)"
+    },
+    "shapes": {
+      "rectangular": "Rectangular",
+      "circular": "Circular",
+      "triangular": "Triangular"
+    },
+    "materials": {
+      "concrete": "Concreto",
+      "soil": "Suelo",
+      "mulch": "Mantillo",
+      "gravel": "Grava",
+      "sand": "Arena",
+      "custom": "Densidad personalizada"
+    }
+  },
+  "results": {
+    "cubicYards": "Yardas cúbicas",
+    "cubicFeet": "Pies cúbicos",
+    "cubicMeters": "Metros cúbicos",
+    "materialWeight": "Peso del material",
+    "cubicYardResultsTitle": "Resultados de yardas cúbicas"
+  },
+  "educational": {
+    "cubicYardInfo": "Información sobre yardas cúbicas",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos de construcción",
+    "cubicYardFacts": {
+      "conversion": {
+        "title": "Conversiones de volumen",
+        "description": "1 yarda cúbica = 27 pies cúbicos = 0,764555 metros cúbicos"
+      },
+      "materials": {
+        "title": "Densidades de materiales comunes",
+        "description": "Concreto: 4,050 lbs/yd³, Suelo: 2,200 lbs/yd³, Mantillo: 500 lbs/yd³"
+      },
+      "ordering": {
+        "title": "Realizar pedidos de materiales",
+        "description": "Agregue entre un 10 y un 15 % adicional para tener en cuenta los residuos y la sedimentación"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona cálculos de volumen únicamente.",
+      "accuracy": "Mida con precisión y agregue más para el desperdicio y la sedimentación."
+    },
+    "importantNotesList": [
+      "Mida siempre dos veces y solicite material adicional para tener en cuenta el desperdicio",
+      "Mida siempre dos veces y solicite material adicional para tener en cuenta el desperdicio",
+      "Consulte con los proveedores locales la disponibilidad de materiales y las opciones de entrega.",
+      "Tenga en cuenta el transporte y la manipulación al planificar su proyecto"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese sus dimensiones para calcular yardas cúbicas",
+    "resultMessage": "El cálculo de su yarda cúbica se muestra a continuación",
+    "assessmentResult": "Resultado del cálculo del volumen:",
+    "cubicYardAnalysis": "Análisis de yardas cúbicas"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona cálculos de volumen basados ​​en fórmulas geométricas estándar. Los requisitos de materiales reales pueden variar según las características específicas del proyecto, los factores de desperdicio y las recomendaciones de los proveedores."
+  },
+  "seekHelp": {
+    "title": "Recursos de construcción",
+    "content": "Para obtener asesoramiento profesional sobre construcción y estimación de materiales, consulte a profesionales de la construcción o a sus proveedores de materiales locales para obtener recomendaciones específicas para el proyecto."
+  },
+  "errors": {
+    "length": "Por favor introduce una longitud válida",
+    "width": "Por favor ingresa un ancho válido",
+    "height": "Por favor ingrese una altura/profundidad válida",
+    "diameter": "Por favor introduzca un diámetro válido",
+    "shape": "Por favor seleccione una forma",
+    "material": "Por favor seleccione un tipo de material"
+  },
+  "tooltips": {
+    "shape": "Seleccione la forma del área que está midiendo",
+    "length": "Dimensión más larga del área.",
+    "width": "Ancho del área (perpendicular a la longitud)",
+    "height": "Profundidad o altura del material necesario.",
+    "diameter": "Distancia a través del área circular",
+    "material": "El tipo de material afecta los cálculos de peso."
+  },
+  "length_0": "Longitud (",
+  "width_1": "Ancho (",
+  "height_2": "Altura (",
+  "side_length_3": "Longitud lateral (",
+  "radius_4": "Radio (",
+  "height_5": "Altura (",
+  "outer_dimensions_6": "Dimensiones exteriores",
+  "outer_length_7": "Longitud exterior (",
+  "outer_width_8": "Ancho exterior (",
+  "outer_height_9": "Altura exterior (",
+  "inner_dimensions_10": "Dimensiones interiores",
+  "inner_length_11": "Longitud interior (",
+  "inner_width_12": "Ancho interior (",
+  "inner_height_13": "Altura interior (",
+  "outer_radius_14": "Radio exterior (",
+  "inner_radius_15": "Radio interior (",
+  "height_16": "Altura (",
+  "radius_17": "Radio (",
+  "base_radius_18": "Radio base (",
+  "height_19": "Altura (",
+  "base_area_20": "Área base (",
+  "height_21": "Altura (",
+  "shape_dimensions_22": "Forma y dimensiones",
+  "select_shape_and_enter_dimensions_to_calculate_vol_23": "Seleccione la forma e ingrese las dimensiones para calcular el volumen.",
+  "select_shape_24": "Seleccionar forma",
+  "yards_yd_25": "Yardas (yd)",
+  "conversion_26": "Conversión:",
+  "k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_27": "1 yarda cúbica = 27 pies cúbicos = 46,656 pulgadas cúbicas",
+  "commonly_used_for_concrete_gravel_soil_mulch_and_o_28": "Comúnmente utilizado para hormigón, grava, tierra, mantillo y otros materiales de construcción.",
+  "calculate_29": "Calcular",
+  "volume_results_30": "Resultados de volumen",
+  "cubic_yards_31": "yardas cúbicas",
+  "cubic_feet_32": "pies cúbicos",
+  "total_cost_33": "Costo total",
+  "select_shape_enter_dimensions_and_click_34": "Seleccione la forma, ingrese las dimensiones y haga clic",
+  "calculate_35": "Calcular",
+  "to_see_volume_36": "para ver el volumen.",
+  "detailed_volume_breakdown_37": "Desglose de volumen detallado",
+  "cubic_yards_38": "Yardas cúbicas",
+  "yd_39": "yd³",
+  "cubic_feet_40": "Pies cúbicos",
+  "ft_41": "pies³",
+  "total_cost_42": "Costo total",
+  "usd_43": "Dólar estadounidense",
+  "understanding_cubic_yards_in_construction_44": "Comprender las yardas cúbicas en la construcción",
+  "why_cubic_yards_45": "¿Por qué yardas cúbicas?",
+  "cubic_yards_are_the_standard_unit_for_measuring_bu_46": "Las yardas cúbicas son la unidad estándar para medir materiales de construcción a granel como concreto,\n                        grava, tierra y mantillo. Esta unidad proporciona una escala práctica para proyectos de construcción y\n                        ordenamiento de materiales.",
+  "common_applications_47": "Aplicaciones comunes",
+  "concrete_for_foundations_driveways_patios_48": "Hormigón para cimientos, entradas de vehículos, patios.",
+  "gravel_for_driveways_and_landscaping_49": "Grava para caminos de acceso y paisajismo.",
+  "soil_and_topsoil_for_gardening_50": "Suelo y tierra vegetal para jardinería.",
+  "mulch_for_landscaping_projects_51": "Mantillo para proyectos de paisajismo.",
+  "sand_for_construction_and_landscaping_52": "Arena para construcción y paisajismo.",
+  "sample_calculation_53": "Cálculo de muestra",
+  "example_rectangular_driveway_54": "Ejemplo: entrada rectangular",
+  "length_12_ft_55": "Longitud: 12 pies",
+  "width_9_ft_56": "Ancho: 9 pies",
+  "depth_2_ft_57": "Profundidad: 2 pies",
+  "volume_12_9_2_216_ft_58": "Volumen: 12 × 9 × 2 = 216 pies³",
+  "result_216_27_8_cubic_yards_59": "Resultado: 216 ÷ 27 = 8 yardas cúbicas",
+  "conversion_60": "Conversión:",
+  "always_divide_cubic_feet_by_27_to_get_cubic_yards_61": "Siempre divida los pies cúbicos entre 27 para obtener yardas cúbicas.",
+  "unit_25": "Unidad",
+  "feet_ft_26": "Pies (pies)",
+  "inches_in_27": "Pulgadas (pulg)",
+  "yards_yd_28": "Yardas (yd)",
+  "cost_per_cubic_yard_optional_29": "Costo por yarda cúbica (opcional)",
+  "conversion_30": "Conversión:",
+  "k_1_cubic_yard_27_cubic_feet_46656_cubic_inches_31": "1 yarda cúbica = 27 pies cúbicos = 46,656 pulgadas cúbicas",
+  "commonly_used_for_concrete_gravel_soil_mulch_and_o_32": "Comúnmente utilizado para hormigón, grava, tierra, mantillo y otros materiales de construcción.",
+  "calculate_33": "Calcular",
+  "volume_results_34": "Resultados de volumen",
+  "cubic_yards_35": "yardas cúbicas",
+  "cubic_feet_36": "pies cúbicos",
+  "total_cost_37": "Costo total",
+  "select_shape_enter_dimensions_and_click_38": "Seleccione la forma, ingrese las dimensiones y haga clic",
+  "calculate_39": "Calcular",
+  "to_see_volume_40": "para ver el volumen.",
+  "detailed_volume_breakdown_41": "Desglose de volumen detallado",
+  "cubic_yards_42": "Yardas cúbicas",
+  "yd_43": "yd³",
+  "cubic_feet_44": "Pies cúbicos",
+  "ft_45": "pies³",
+  "total_cost_46": "Costo total",
+  "usd_47": "Dólar estadounidense",
+  "understanding_cubic_yards_in_construction_48": "Comprender las yardas cúbicas en la construcción",
+  "why_cubic_yards_49": "¿Por qué yardas cúbicas?",
+  "cubic_yards_are_the_standard_unit_for_measuring_bu_50": "Las yardas cúbicas son la unidad estándar para medir materiales de construcción a granel como concreto,\n                        grava, tierra y mantillo. Esta unidad proporciona una escala práctica para proyectos de construcción y\n                        ordenamiento de materiales.",
+  "common_applications_51": "Aplicaciones comunes",
+  "concrete_for_foundations_driveways_patios_52": "Hormigón para cimientos, entradas de vehículos, patios.",
+  "gravel_for_driveways_and_landscaping_53": "Grava para caminos de acceso y paisajismo.",
+  "soil_and_topsoil_for_gardening_54": "Suelo y tierra vegetal para jardinería.",
+  "mulch_for_landscaping_projects_55": "Mantillo para proyectos de paisajismo.",
+  "sand_for_construction_and_landscaping_56": "Arena para construcción y paisajismo.",
+  "sample_calculation_57": "Cálculo de muestra",
+  "example_rectangular_driveway_58": "Ejemplo: entrada rectangular",
+  "length_12_ft_59": "Longitud: 12 pies",
+  "width_9_ft_60": "Ancho: 9 pies",
+  "depth_2_ft_61": "Profundidad: 2 pies",
+  "volume_12_9_2_216_ft_62": "Volumen: 12 × 9 × 2 = 216 pies³",
+  "result_216_27_8_cubic_yards_63": "Resultado: 216 ÷ 27 = 8 yardas cúbicas",
+  "conversion_64": "Conversión:",
+  "always_divide_cubic_feet_by_27_to_get_cubic_yards_65": "Siempre divida los pies cúbicos entre 27 para obtener yardas cúbicas."
+}

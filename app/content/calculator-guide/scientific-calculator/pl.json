@@ -1,0 +1,155 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator naukowy?",
+      "content": "Kalkulator naukowy to zaawansowany kalkulator służący do wykonywania skomplikowanych obliczeń matematycznych i naukowych, takich jak trygonometria, logarytmy, współczynniki wykładnicze, pierwiastki, potęgi i procenty. Kalkulatory naukowe online są bezpłatne, działają w przeglądarce i są przyjazne dla urządzeń mobilnych, dzięki czemu idealnie nadają się dla studentów, profesjonalistów i zwykłych użytkowników."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Otwórz kalkulator",
+          "content": "Uruchom kalkulator w swojej przeglądarce."
+        },
+        {
+          "heading": "Wprowadź liczby lub formuły",
+          "content": "Wprowadź wartości lub wyrażenia matematyczne, które chcesz obliczyć."
+        },
+        {
+          "heading": "Wybierz Funkcje",
+          "content": "Użyj sin, cos, tan, log, ln, √, x², e^x itp."
+        },
+        {
+          "heading": "Użyj nawiasów",
+          "content": "W przypadku skomplikowanych obliczeń użyj nawiasów, aby kontrolować kolejność operacji."
+        },
+        {
+          "heading": "Kliknij =",
+          "content": "Uzyskaj wynik natychmiast."
+        },
+        {
+          "heading": "Funkcje pamięci",
+          "content": "Przechowuj i przywołuj wartości w razie potrzeby."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Sprawdź tryb stopni/radianów dla obliczeń trygonometrycznych."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Zaawansowane funkcje",
+          "content": "Trygonometria, logarytmy, wykładniki, potęgi, pierwiastki, procenty."
+        },
+        {
+          "heading": "Natychmiastowe wyniki",
+          "content": "Oblicza się w milisekundach."
+        },
+        {
+          "heading": "Przechowywanie pamięci",
+          "content": "Przechowuj i przywołuj wartości do obliczeń wieloetapowych."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na komputerach stacjonarnych, tabletach i smartfonach."
+        },
+        {
+          "heading": "Bezpłatne i dostępne",
+          "content": "Nie wymaga pobierania ani rejestracji."
+        },
+        {
+          "heading": "Przyjazny dla użytkownika interfejs",
+          "content": "Czyste i łatwe w nawigacji."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Uczniowie i nauczyciele",
+          "content": "Rozwiązuj zadania domowe, problemy praktyczne i ćwiczenia w klasie."
+        },
+        {
+          "heading": "Inżynierowie i naukowcy",
+          "content": "Wykonuj złożone obliczenia naukowe."
+        },
+        {
+          "heading": "Kodowanie i testowanie algorytmów",
+          "content": "Szybkie obliczenia matematyczne na potrzeby tworzenia oprogramowania."
+        },
+        {
+          "heading": "Finanse i biznes",
+          "content": "Procenty, pierwiastki i podstawowe obliczenia finansowe."
+        },
+        {
+          "heading": "Codziennego użytku",
+          "content": "Konwersja jednostek, obliczenia powierzchni/objętości i codzienne problemy matematyczne."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Trygonometria",
+          "content": "Wyrażenie: sin(45°) + cos(30°) → Wynik: 1,366"
+        },
+        {
+          "heading": "Przykład 2 – Wykładnik i log",
+          "content": "Wyrażenie: log(1000) + e² → Wynik: 9,389"
+        },
+        {
+          "heading": "Przykład 3 – Operacje łączone",
+          "content": "Wyrażenie: √(16) + 3² × 2 → Wynik: 22"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator naukowy?",
+      "a": "To kalkulator do zaawansowanej matematyki, w tym trygonometrii, logów, wykładników, pierwiastków i potęg."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, całkowicie bezpłatnie online."
+    },
+    {
+      "q": "Czy to działa na urządzeniach mobilnych?",
+      "a": "Tak, w pełni przystosowany do urządzeń mobilnych."
+    },
+    {
+      "q": "Czy muszę instalować oprogramowanie?",
+      "a": "Nie, działa w Twojej przeglądarce."
+    },
+    {
+      "q": "Czy poradzi sobie ze złożonymi obliczeniami?",
+      "a": "Tak, łącznie z nawiasami i kolejnością wykonywania operacji."
+    },
+    {
+      "q": "Czy mogę przechowywać numery?",
+      "a": "Tak, funkcje pamięci są dostępne."
+    },
+    {
+      "q": "Czy jest odpowiedni dla studentów?",
+      "a": "Tak, idealny do zadań domowych i egzaminów."
+    },
+    {
+      "q": "Czy jest odpowiedni dla inżynierów/naukowców?",
+      "a": "Tak, obsługuje zaawansowane obliczenia naukowe."
+    },
+    {
+      "q": "Czy dostarcza historii?",
+      "a": "Większość wersji pokazuje historię obliczeń."
+    },
+    {
+      "q": "Czy to jest dokładne?",
+      "a": "Tak, zapewnia dokładne wyniki dla wszystkich obsługiwanych funkcji."
+    }
+  ]
+}

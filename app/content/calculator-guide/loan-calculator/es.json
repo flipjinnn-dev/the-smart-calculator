@@ -1,0 +1,168 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de préstamos?",
+      "content": "Administrar un préstamo se vuelve simple cuando tienes las herramientas adecuadas. Nuestra Calculadora de préstamos le ayuda a estimar sus cuotas mensuales, el costo total de intereses y el calendario de pagos. Ya sea que esté planeando un préstamo personal, un préstamo para automóvil, un préstamo hipotecario o un préstamo comercial, esta herramienta le brinda información clara sobre su capacidad de endeudamiento y su plan de pago."
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de préstamos?",
+      "subSections": [
+        {
+          "heading": "Estimar el pago mensual",
+          "content": "Calcule el pago mensual de su préstamo utilizando el monto del préstamo, el plazo del préstamo y la tasa de interés."
+        },
+        {
+          "heading": "Comparar tipos de préstamos",
+          "content": "Consulte diferentes calculadoras, como calculadoras de préstamos personales, préstamos para automóviles, préstamos para estudiantes y préstamos hipotecarios."
+        },
+        {
+          "heading": "Comprender los costos de interés",
+          "content": "Utilice la calculadora de intereses del préstamo o la calculadora de EMI para ver cuánto interés pagará con el tiempo."
+        },
+        {
+          "heading": "Consultar cronograma de amortización",
+          "content": "Vea cómo cada pago se divide en capital e intereses a lo largo del plazo del préstamo."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de préstamos (paso a paso)",
+      "subSections": [
+        {
+          "heading": "Paso 1: ingrese el monto del préstamo",
+          "content": "Escriba el monto total que planea pedir prestado."
+        },
+        {
+          "heading": "Paso 2: seleccione el plazo del préstamo",
+          "content": "Elija cuánto tiempo desea pagar el préstamo (en meses o años)."
+        },
+        {
+          "heading": "Paso 3: Ingrese la tasa de interés",
+          "content": "Ingrese la tasa de interés anual ofrecida por su banco o prestamista."
+        },
+        {
+          "heading": "Paso 4: haga clic en Calcular",
+          "content": "Vea instantáneamente su EMI mensual, el interés total a pagar y el calendario de pagos."
+        }
+      ]
+    },
+    {
+      "heading": "Tipos de calculadoras de préstamos que puede utilizar",
+      "subSections": [
+        {
+          "heading": "Calculadora de préstamos personales",
+          "content": "Planifique sus necesidades de endeudamiento a corto plazo."
+        },
+        {
+          "heading": "Calculadora de préstamos para automóviles",
+          "content": "Encuentre el mejor plan de pago para su préstamo de automóvil."
+        },
+        {
+          "heading": "Calculadora de préstamos estudiantiles",
+          "content": "Calcule los pagos de su préstamo educativo."
+        },
+        {
+          "heading": "Calculadora de préstamos hipotecarios",
+          "content": "Calcule la asequibilidad de los préstamos hipotecarios y el EMI mensual."
+        },
+        {
+          "heading": "Calculadora de préstamos comerciales",
+          "content": "Consulta opciones de financiación para las necesidades de tu negocio."
+        },
+        {
+          "heading": "Calculadora de préstamos hipotecarios",
+          "content": "Comprenda el costo total de ser propietario de una casa."
+        },
+        {
+          "heading": "Calculadora de consolidación de deuda",
+          "content": "Combine varios préstamos en un solo pago fácil."
+        },
+        {
+          "heading": "Calculadora de elegibilidad para préstamos",
+          "content": "Calcule cuánto puede pedir prestado en función de sus ingresos y gastos."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos avanzados de préstamos",
+      "subSections": [
+        {
+          "heading": "Calculadora de préstamos de interés simple",
+          "content": "Para préstamos básicos con interés fijo."
+        },
+        {
+          "heading": "Calculadora de interés compuesto",
+          "content": "Vea el efecto de la capitalización en su préstamo."
+        },
+        {
+          "heading": "Calculadora de plazos de préstamo",
+          "content": "Ajuste la duración del pago para que se ajuste a su presupuesto."
+        },
+        {
+          "heading": "Calculadora de asequibilidad de préstamos",
+          "content": "Sepa cuánto préstamo puede gestionar cómodamente."
+        },
+        {
+          "heading": "Calculadora de tasa de interés",
+          "content": "Compare ofertas de préstamos ajustando la tasa de interés."
+        },
+        {
+          "heading": "Calculadora de calendario de préstamos",
+          "content": "Vea un desglose completo de los pagos mes a mes."
+        },
+        {
+          "heading": "Calculadora de finanzas",
+          "content": "Una herramienta general para múltiples cálculos financieros."
+        }
+      ]
+    },
+    {
+      "heading": "Beneficios de utilizar una calculadora de préstamos",
+      "subSections": [
+        {
+          "heading": "Ahorra tiempo",
+          "content": "Obtenga resultados instantáneos sin cálculos manuales."
+        },
+        {
+          "heading": "Mejor presupuesto",
+          "content": "Planifique sus finanzas de manera más efectiva con estimaciones de pago claras."
+        },
+        {
+          "heading": "Comparar opciones",
+          "content": "Evalúe diferentes escenarios de préstamos en paralelo."
+        },
+        {
+          "heading": "Perspectivas sobre el pago anticipado",
+          "content": "Comprenda cómo los pagos anticipados pueden reducir los intereses."
+        },
+        {
+          "heading": "Toma de decisiones inteligente",
+          "content": "Tome decisiones informadas antes de solicitar un préstamo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de préstamos?",
+      "a": "Una calculadora de préstamos le ayuda a estimar el EMI mensual, el costo de los intereses y el calendario de pagos según el monto del préstamo, la tasa de interés y el plazo."
+    },
+    {
+      "q": "¿Puedo comparar diferentes tipos de préstamos?",
+      "a": "Sí, nuestra herramienta funciona como calculadora de préstamos personales, préstamos para automóviles, préstamos para estudiantes, préstamos hipotecarios y préstamos comerciales."
+    },
+    {
+      "q": "¿Qué es la EMI?",
+      "a": "EMI (cuota mensual equiparada) es el pago fijo que realiza cada mes de su préstamo, que incluye tanto el capital como los intereses."
+    },
+    {
+      "q": "¿Cómo ayuda un calendario de amortización?",
+      "a": "Muestra el desglose de cada EMI en capital e intereses, lo que le ayuda a comprender el progreso de su pago."
+    },
+    {
+      "q": "¿Puedo calcular los beneficios de amortización anticipada?",
+      "a": "Sí, al ajustar los términos y pagos del préstamo, puede ver cuánto interés ahorra con el pago anticipado."
+    }
+  ]
+}

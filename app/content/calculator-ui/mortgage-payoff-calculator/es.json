@@ -1,0 +1,146 @@
+{
+  "pageTitle": "Calculadora de liquidación de hipotecas",
+  "pageDescription": "Calcule el pago de la hipoteca con nuestra calculadora en línea gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Introduzca el primer valor",
+      "input2": "Introduzca el segundo valor",
+      "input3": "Introduzca el tercer valor"
+    },
+    "buttons": {
+      "calculate": "Calcular el pago de la hipoteca",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados del cálculo de liquidación de hipoteca"
+  },
+  "educational": {
+    "info": "Información de pago de hipoteca",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definición de liquidación de hipoteca",
+        "description": "Información sobre liquidación de hipoteca"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Cómo se calcula el pago de la hipoteca"
+      },
+      "applications": {
+        "title": "Aplicaciones",
+        "description": "Usos de la liquidación de la hipoteca"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora solo proporciona estimaciones de pago de hipotecas.",
+      "actual": "Los valores reales pueden variar según las circunstancias individuales."
+    },
+    "importantNotesList": [
+      "Esto es una estimación y no debe reemplazar el asesoramiento profesional.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Utilice unidades consistentes para obtener resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información requerida para calcular el pago de la hipoteca",
+    "resultMessage": "Los resultados del cálculo del pago de su hipoteca se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de liquidación de la hipoteca:",
+    "analysis": "Análisis de liquidación de hipotecas"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de liquidación de hipotecas basadas en métodos estándar. Los valores reales pueden variar según circunstancias individuales y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para obtener asesoramiento personalizado e información detallada, consulte con profesionales que puedan brindarle orientación según las necesidades y circunstancias individuales."
+  },
+  "errors": {
+    "input1": "Por favor ingresa un primer valor válido",
+    "input2": "Por favor ingresa un segundo valor válido",
+    "input3": "Por favor ingresa un tercer valor válido"
+  },
+  "tooltips": {
+    "input1": "Primer parámetro de entrada",
+    "input2": "Segundo parámetro de entrada",
+    "input3": "Tercer parámetro de entrada"
+  },
+  "mortgage_payoff_calculator_0": "Calculadora de liquidación de hipotecas",
+  "basic_loan_information_1": "Información básica del préstamo",
+  "original_loan_amount_2": "Monto original del préstamo ($)",
+  "the_original_amount_you_borrowed_3": "El monto original que pidió prestado",
+  "original_term_years_4": "Plazo original (años)",
+  "original_loan_term_in_years_5": "Plazo del préstamo original en años.",
+  "annual_interest_rate_6": "Tasa de interés anual (%)",
+  "your_mortgage_interest_rate_7": "El tipo de interés de tu hipoteca",
+  "calculation_method_8": "Método de cálculo",
+  "i_know_the_remaining_term_9": "Conozco el término restante",
+  "i_know_the_unpaid_balance_and_monthly_payment_10": "Conozco el saldo impago y el pago mensual",
+  "remaining_years_11": "Años restantes",
+  "remaining_months_optional_12": "Meses restantes (opcional)",
+  "unpaid_principal_13": "Principal impago ($)",
+  "monthly_payment_14": "Pago Mensual ($)",
+  "extra_payment_options_15": "Opciones de pago adicionales",
+  "onetime_extra_payment_16": "Pago adicional único ($)",
+  "monthly_extra_payment_17": "Pago Extra Mensual ($)",
+  "annual_extra_payment_18": "Pago Extra Anual ($)",
+  "switch_to_biweekly_payments_19": "Cambiar a pagos quincenales",
+  "pay_half_your_monthly_payment_every_2_weeks_26_pay_20": "Paga la mitad de tu pago mensual cada 2 semanas (26 pagos/año)",
+  "calculate_21": "Calcular",
+  "payoff_analysis_22": "Análisis de beneficios",
+  "your_mortgage_payoff_breakdown_23": "Desglose del pago de su hipoteca",
+  "interest_savings_24": "Ahorros en intereses:",
+  "time_saved_25": "Tiempo ahorrado",
+  "new_payoff_time_26": "Nuevo tiempo de pago",
+  "monthly_payment_27": "Pago Mensual",
+  "enter_mortgage_details_to_see_your_payoff_analysis_28": "Ingrese los detalles de la hipoteca para ver su análisis de liquidación",
+  "detailed_analysis_29": "Análisis detallado",
+  "complete_mortgage_payoff_comparison_30": "Comparación completa del pago de la hipoteca",
+  "interest_savings_31": "Ahorros de intereses",
+  "total_interest_saved_with_extra_payments_32": "Intereses totales ahorrados con pagos adicionales",
+  "time_saved_33": "Tiempo ahorrado",
+  "earlier_payoff_with_extra_payments_34": "Pago anticipado con pagos adicionales",
+  "monthly_payment_35": "Pago Mensual",
+  "standard_principal_interest_36": "Principal e interés estándar",
+  "scenario_37": "Guión",
+  "payoff_time_38": "Tiempo de pago",
+  "total_interest_39": "Interés total",
+  "total_payments_40": "Pagos totales",
+  "standard_payments_41": "Pagos estándar",
+  "with_extra_payments_42": "Con Pagos Extras",
+  "difference_savings_43": "Diferencia (Ahorro)",
+  "key_insights_44": "Ideas clave:",
+  "extra_payments_reduce_your_loan_term_by_45": "• Los pagos adicionales reducen el plazo de su préstamo en",
+  "youll_save_46": "• Ahorrarás",
+  "in_total_interest_47": "en total interés",
+  "your_effective_interest_savings_rate_is_48": "• Su tasa de interés de ahorro efectiva es",
+  "understanding_mortgage_payoff_strategies_49": "Comprensión de las estrategias de pago de hipotecas",
+  "extra_payment_benefits_50": "Beneficios de pago adicionales",
+  "interest_savings_51": "Ahorros en intereses:",
+  "extra_payments_go_directly_to_principal_reducing_t_52": "Los pagos adicionales van directamente al capital, lo que reduce el total\n                            intereses pagados",
+  "time_savings_53": "Ahorro de tiempo:",
+  "pay_off_your_mortgage_years_earlier_than_scheduled_54": "Liquide su hipoteca años antes de lo previsto",
+  "equity_building_55": "Construcción de equidad:",
+  "build_home_equity_faster_with_accelerated_principa_56": "Aumente el valor de la vivienda más rápido con capital acelerado\n                            pagos",
+  "payment_strategies_57": "Estrategias de pago",
+  "monthly_extra_58": "Adicional Mensual:",
+  "add_a_fixed_amount_to_each_monthly_payment_59": "Agregue una cantidad fija a cada pago mensual",
+  "annual_lump_sum_60": "Suma global anual:",
+  "use_tax_refunds_or_bonuses_for_extra_payments_61": "Utilice reembolsos de impuestos o bonificaciones para pagos adicionales",
+  "biweekly_payments_62": "Pagos quincenales:",
+  "pay_half_monthly_amount_every_2_weeks_26_paymentsy_63": "Paga la mitad del importe mensual cada 2 semanas (26 pagos/año)",
+  "important_64": "Importante:",
+  "before_making_extra_mortgage_payments_ensure_you_h_65": "Antes de realizar pagos hipotecarios adicionales, asegúrese de tener una emergencia\n                      fondo, están maximizando la contrapartida del plan 401(k) del empleador y han pagado deudas con intereses más altos. considerar\n                      la tasa de interés de su hipoteca frente a los rendimientos potenciales de la inversión al decidir sobre pagos adicionales."
+}

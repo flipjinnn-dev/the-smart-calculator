@@ -1,0 +1,153 @@
+{
+  "pageTitle": "Calculadora de Seguridad Social",
+  "pageDescription": "Calcule sus beneficios del Seguro Social según su historial de ingresos y su edad de jubilación planificada para una planificación integral de la jubilación.",
+  "form": {
+    "labels": {
+      "dateOfBirth": "Fecha de nacimiento",
+      "retirementAge": "Edad de jubilación prevista",
+      "currentAge": "Edad actual",
+      "yearsOfCoverage": "Años de cobertura",
+      "averageIndexedMonthlyEarnings": "Ganancias mensuales promedio indexadas",
+      "primaryInsuranceAmount": "Monto del seguro primario (PIA)",
+      "spouseBenefit": "Porcentaje de beneficio para el cónyuge"
+    },
+    "placeholders": {
+      "dateOfBirth": "Introduce la fecha de nacimiento",
+      "retirementAge": "Introduzca la edad de jubilación prevista",
+      "currentAge": "Introduce la edad actual",
+      "yearsOfCoverage": "Ingrese años de cobertura",
+      "averageIndexedMonthlyEarnings": "Ingrese los ingresos mensuales promedio indexados",
+      "primaryInsuranceAmount": "Ingrese el monto del seguro primario",
+      "spouseBenefit": "Ingrese el porcentaje de beneficio del cónyuge"
+    },
+    "buttons": {
+      "calculate": "Calcular los beneficios del Seguro Social",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "monthlyBenefit": "Beneficio mensual estimado",
+    "annualBenefit": "Beneficio anual estimado",
+    "benefitAtFullRetirement": "Beneficio a la plena edad de jubilación",
+    "spouseBenefit": "Monto del beneficio para el cónyuge",
+    "socialSecurityResultsTitle": "Resultados del cálculo de la Seguridad Social"
+  },
+  "educational": {
+    "socialSecurityInfo": "Información del Seguro Social",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "socialSecurityFacts": {
+      "fullRetirementAge": {
+        "title": "Edad de jubilación completa",
+        "description": "Edad a la que recibe todos los beneficios del Seguro Social (66-67 para la mayoría de las personas)"
+      },
+      "earlyRetirement": {
+        "title": "Impacto de la jubilación anticipada",
+        "description": "Beneficios reducidos un 6,67% anual por jubilación anticipada antes de la plena edad de jubilación"
+      },
+      "delayedRetirement": {
+        "title": "Créditos de jubilación retrasada",
+        "description": "Los beneficios aumentan un 8% anual por jubilación retrasada hasta los 70 años"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones de beneficios del Seguro Social únicamente",
+      "actual": "Los beneficios reales pueden variar según el historial de ingresos y los cálculos de la Administración del Seguro Social."
+    },
+    "importantNotesList": [
+      "Utilice su estado de cuenta del Seguro Social para obtener estimaciones de beneficios más precisas",
+      "La Seguridad Social reemplaza alrededor del 40% de los ingresos previos a la jubilación para los asalariados promedio",
+      "La Seguridad Social reemplaza alrededor del 40% de los ingresos previos a la jubilación para los asalariados promedio",
+      "Los beneficios pueden estar sujetos a impuestos sobre la renta federales y estatales."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese su información del Seguro Social para estimar los beneficios",
+    "resultMessage": "Los resultados del cálculo de sus beneficios del Seguro Social se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de la Seguridad Social:",
+    "socialSecurityAnalysis": "Análisis de la Seguridad Social"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de beneficios del Seguro Social basadas en fórmulas generales. Los beneficios reales pueden variar según el historial de ingresos, los cálculos de la Administración del Seguro Social y otros factores no incluidos en estas estimaciones."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para un análisis personalizado de los beneficios del Seguro Social y planificación de la jubilación, consulte a representantes del Seguro Social o asesores financieros con experiencia en planificación de ingresos de jubilación y circunstancias individuales."
+  },
+  "errors": {
+    "dateOfBirth": "Por favor ingresa una fecha de nacimiento válida",
+    "retirementAge": "Introduzca una edad de jubilación prevista válida",
+    "currentAge": "Por favor ingresa una edad actual válida",
+    "yearsOfCoverage": "Por favor ingrese años válidos de cobertura",
+    "averageIndexedMonthlyEarnings": "Ingrese ingresos mensuales promedio indexados válidos",
+    "primaryInsuranceAmount": "Por favor ingrese el monto válido del seguro primario",
+    "spouseBenefit": "Ingrese un porcentaje de beneficio para cónyuge válido"
+  },
+  "tooltips": {
+    "dateOfBirth": "Su fecha de nacimiento afecta el cálculo de la plena edad de jubilación",
+    "retirementAge": "Edad en la que planea comenzar a recibir beneficios del Seguro Social",
+    "currentAge": "Tu edad actual en años.",
+    "yearsOfCoverage": "Número de años que ha trabajado y pagado impuestos al Seguro Social",
+    "averageIndexedMonthlyEarnings": "Promedio de sus 35 años más altos de ingresos indexados",
+    "primaryInsuranceAmount": "Monto del beneficio a la plena edad de jubilación",
+    "spouseBenefit": "Porcentaje de su beneficio que el cónyuge puede recibir"
+  },
+  "social_security_inputs_0": "Insumos de la Seguridad Social",
+  "basic_information_1": "Información básica",
+  "birth_year_2": "Año de nacimiento",
+  "full_retirement_age_3": "Edad de jubilación completa",
+  "autocalculated_4": "(Calculado automáticamente:",
+  "years_5": "años",
+  "life_expectancy_years_6": "Esperanza de vida (años)",
+  "monthly_benefit_at_fra_7": "Beneficio mensual en FRA",
+  "claiming_ages_to_compare_8": "Reclamar edades para comparar",
+  "age_9": "Edad",
+  "fra_10": "(FRA)",
+  "economic_assumptions_11": "Supuestos económicos",
+  "annual_cola_12": "COLA anual (%)",
+  "investment_return_13": "Retorno de la inversión (%)",
+  "show_in_future_inflated_dollars_vs_todays_dollars_14": "Mostrar en dólares inflados futuros (frente a los dólares actuales)",
+  "calculate_15": "Calcular",
+  "benefit_comparison_16": "Comparación de beneficios",
+  "compare_claiming_strategies_17": "Comparar estrategias de reclamación",
+  "optimal_strategy_18": "Estrategia óptima:",
+  "claim_at_age_19": "Reclamo a la edad",
+  "highest_present_value_20": "Valor presente más alto: $",
+  "detailed_comparison_21": "Comparación detallada",
+  "claim_age_22": "Edad del reclamo",
+  "monthly_benefit_23": "Beneficio Mensual",
+  "lifetime_benefits_24": "Beneficios de por vida",
+  "present_value_25": "Valor presente",
+  "age_26": "Edad",
+  "best_27": "MEJOR",
+  "vs_fra_28": "% frente a FRA",
+  "key_insights_29": "Ideas clave:",
+  "present_values_assume_30": "• Los valores actuales suponen",
+  "annual_investment_return_31": "% retorno anual de la inversión",
+  "benefits_increase_by_32": "• Los beneficios aumentan en",
+  "annually_after_claiming_33": "% anual después de reclamar",
+  "early_claiming_reduces_benefits_permanently_34": "• La reclamación anticipada reduce los beneficios de forma permanente",
+  "delayed_retirement_credits_add_8_per_year_after_fr_35": "• Los créditos de jubilación retrasada suman un 8% anual después de la FRA",
+  "select_claiming_ages_and_calculate_to_see_your_res_36": "Seleccione edades de reclamo y calcule para ver sus resultados",
+  "how_social_security_benefits_work_37": "Cómo funcionan los beneficios del Seguro Social",
+  "k_1_primary_insurance_amount_pia_38": "1. Monto del seguro primario (PIA)",
+  "your_pia_is_calculated_from_your_average_indexed_m_39": "Su PIA se calcula a partir de sus ingresos mensuales promedio indexados (AIME) utilizando puntos de inflexión:",
+  "k_2_claiming_age_adjustments_40": "2. Reclamar ajustes de edad",
+  "benefits_are_reduced_for_early_claiming_before_fra_41": "Los beneficios se reducen por reclamos anticipados (antes de FRA) y aumentan por reclamos retrasados ​​(después de FRA hasta los 70 años).",
+  "k_3_present_value_analysis_42": "3. Análisis del valor presente",
+  "where_r_investment_return_rate_accounting_for_the__43": "Donde r = tasa de retorno de la inversión, teniendo en cuenta el costo de oportunidad de reclamar más adelante.",
+  "frequently_asked_questions_44": "Preguntas frecuentes",
+  "what_is_full_retirement_age_fra_45": "¿Qué es la plena edad de jubilación (FRA)?",
+  "full_retirement_age_is_when_you_can_claim_100_of_y_46": "La plena edad de jubilación es cuando puede reclamar el 100% de su beneficio del Seguro Social. Varía de 65 a 67 dependiendo de su año de nacimiento. Para los nacidos en 1960 o después, la FRA es 67.",
+  "how_much_do_i_lose_by_claiming_early_at_62_47": "¿Cuánto pierdo por reclamar anticipadamente a los 62?",
+  "claiming_at_62_reduces_your_benefit_by_about_2530__48": "Reclamar a los 62 años reduce su beneficio entre un 25% y un 30% de forma permanente, dependiendo de su FRA. La reducción es de 5/9 del 1% por cada mes antes de FRA (hasta 36 meses), luego 5/12 del 1% por cada mes adicional.",
+  "what_are_delayed_retirement_credits_49": "¿Qué son los créditos de jubilación retrasada?",
+  "for_each_year_you_delay_claiming_past_fra_up_to_ag_50": "Por cada año que demore en reclamar la FRA (hasta los 70 años), obtendrá créditos de jubilación retrasada por un valor del 8% anual. Esto significa que esperar hasta los 70 años puede aumentar su beneficio entre un 24% y un 32% en comparación con solicitarlo en la FRA.",
+  "what_is_the_breakeven_age_51": "¿Cuál es la edad de equilibrio?",
+  "the_breakeven_age_is_when_the_total_benefits_recei_52": "La edad de equilibrio es cuando los beneficios totales recibidos por reclamar más tarde son iguales a los de reclamar antes. Generalmente, si vive más de 80 años, retrasar los beneficios se amortiza en el total de dólares recibidos.",
+  "how_does_cola_affect_my_benefits_53": "¿Cómo afecta COLA mis beneficios?",
+  "costofliving_adjustments_cola_are_applied_annually_54": "Los ajustes por costo de vida (COLA) se aplican anualmente para proteger contra la inflación. El ajuste se aplica al monto de su beneficio en el momento del aumento, independientemente de cuándo lo reclamó. El COLA histórico promedia alrededor del 2-3% anual."
+}

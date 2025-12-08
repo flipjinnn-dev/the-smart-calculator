@@ -1,0 +1,199 @@
+{
+  "pageTitle": "Calculadora de peso ideal",
+  "pageDescription": "Calcule su rango de peso corporal ideal según la altura y el sexo",
+  "form": {
+    "labels": {
+      "age": "Edad (años)",
+      "gender": "Género",
+      "height": "Altura",
+      "weight": "Peso actual",
+      "unitSystem": "Sistema de unidades"
+    },
+    "placeholders": {
+      "age": "Introduce la edad",
+      "heightFt": "Pies",
+      "heightIn": "Pulgadas",
+      "heightCm": "Introduzca la altura en cm",
+      "weight": "Introduzca el peso en {unidad}"
+    },
+    "buttons": {
+      "calculate": "Calcular el peso ideal",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "us": "Unidades estadounidenses (pies/pulgadas, libras)",
+      "metric": "Unidades métricas (cm, kg)"
+    }
+  },
+  "results": {
+    "idealWeightRange": "Rango de peso ideal",
+    "currentWeight": "Peso actual",
+    "idealWeightTitle": "Resultados de peso ideal",
+    "bmiFormula": {
+      "label": "Fórmula de IMC",
+      "us": "IMC = (peso en libras / (altura en pulgadas)²) × 703",
+      "metric": "IMC = peso en kg / (altura en metros)²"
+    },
+    "healthyBmiRange": "Rango de IMC saludable: 18,5 – 25 kg/m²"
+  },
+  "educational": {
+    "idealWeightInfo": "Información sobre el peso ideal",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Consulta a un profesional",
+    "idealWeightMethods": {
+      "devine": {
+        "title": "Método divino (1974)",
+        "description": "Hombres: 50 kg + 2,3 kg por pulgada sobre 5 pies; Mujeres: 45,5 kg + 2,3 kg por pulgada sobre 5 pies"
+      },
+      "robinson": {
+        "title": "Método Robinson (1983)",
+        "description": "Hombres: 52 kg + 1,9 kg por pulgada sobre 5 pies; Mujeres: 49 kg + 1,7 kg por pulgada sobre 5 pies"
+      },
+      "miller": {
+        "title": "Método Miller (1983)",
+        "description": "Hombres: 56,2 kg + 1,41 kg por pulgada sobre 5 pies; Mujeres: 53,1 kg + 1,36 kg por pulgada sobre 5 pies"
+      },
+      "hamwi": {
+        "title": "Método Hamwi (1964)",
+        "description": "Hombres: 48 kg + 2,7 kg por pulgada sobre 5 pies; Mujeres: 45,5 kg + 2,2 kg por pulgada sobre 5 pies"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones y no es una herramienta de diagnóstico.",
+      "individualVariation": "El peso ideal varía según la masa muscular, la densidad ósea y la composición corporal."
+    },
+    "importantNotesList": [
+      "Estos cálculos proporcionan solo pautas generales.",
+      "Consulte a profesionales de la salud para obtener asesoramiento personalizado.",
+      "Consulte a profesionales de la salud para obtener asesoramiento personalizado.",
+      "El peso debe considerarse junto con otras métricas de salud"
+    ],
+    "healthyRangeDetails": {
+      "title": "18,5 – 25 kg/m²",
+      "description": "se considera el rango de IMC saludable para adultos.",
+      "association": "Este rango se asocia con el menor riesgo de problemas de salud y mortalidad."
+    }
+  },
+  "messages": {
+    "enterMeasurements": "Introduce tus medidas para calcular tu rango de peso ideal",
+    "idealWeightRange": "Tu rango de peso ideal es {min} - {max} {unit}",
+    "currentWeightStatus": "Tu peso actual es {status} el rango ideal",
+    "belowRange": "abajo",
+    "withinRange": "dentro",
+    "aboveRange": "arriba",
+    "ageWarning": "Para niños y adolescentes (≤20 años), utilizar tablas de crecimiento pediátricas.",
+    "assessmentResult": "Resultado de la evaluación:",
+    "weightAnalysis": "Análisis de peso"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones basadas en fórmulas matemáticas y no debe utilizarse como sustituto del asesoramiento médico profesional. Los resultados individuales pueden variar según factores no tenidos en cuenta en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Consulte a un profesional de la salud",
+    "content": "Si tiene dudas sobre su peso o su salud, consulte con un profesional de la salud que pueda brindarle asesoramiento personalizado basado en su historial médico completo y sus circunstancias individuales."
+  },
+  "errors": {
+    "age": "Por favor ingresa una edad válida (1-120)",
+    "gender": "Por favor seleccione género",
+    "heightFt": "Por favor introduce pies válidos",
+    "heightIn": "Por favor ingrese pulgadas válidas (0-11)",
+    "heightCm": "Por favor introduzca una altura válida en cm.",
+    "weight": "Por favor introduce un peso válido"
+  },
+  "tooltips": {
+    "age": "La edad puede afectar los cálculos del peso ideal para niños/adolescentes",
+    "height": "Tu medida de altura actual",
+    "weight": "Tu peso corporal actual",
+    "gender": "Se utilizan diferentes fórmulas para hombres y mujeres."
+  },
+  "ideal_weight_calculation_0": "Cálculo del peso ideal",
+  "enter_your_details_to_calculate_your_ideal_weight__1": "Introduce tus datos para calcular tu peso ideal utilizando múltiples fórmulas",
+  "unit_system_2": "Sistema de unidades",
+  "metric_kg_cm_3": "Métrico (kg, cm)",
+  "us_lbs_ftin_4": "Estados Unidos (libras, pies/pulg.)",
+  "age_years_5": "Edad (años)",
+  "age_range_280_years_6": "Rango de edad: 2-80 años",
+  "gender_7": "Género",
+  "male_8": "Masculino",
+  "female_9": "Femenino",
+  "height_cm_10": "Altura (cm)",
+  "height_in_centimeters_11": "Altura en centímetros",
+  "height_ftin_12": "Altura (pies/pulg.)",
+  "feet_and_inches_13": "Pies y pulgadas",
+  "calculate_weight_14": "Calcular peso",
+  "reset_15": "Reiniciar",
+  "ideal_weight_16": "Peso Ideal",
+  "kg_17": "kilos (",
+  "lbs_18": "libras)",
+  "devine_formula_19": "Fórmula divina",
+  "kg_20": "kilos",
+  "healthy_bmi_range_21": "Rango de IMC saludable",
+  "enter_your_details_and_click_calculate_see_your_id_22": "Ingresa tus datos y haz clic en Calcular para ver tus rangos de peso ideales.",
+  "ideal_weight_results_23": "Resultados de peso ideal",
+  "formulabased_ideal_weights_24": "Pesos ideales basados ​​en fórmulas",
+  "formula_25": "Fórmula",
+  "weight_kg_26": "Peso (kg)",
+  "weight_lbs_27": "Peso (libras)",
+  "notes_28": "Notas",
+  "hamwi_1964_29": "Hamwi (1964)",
+  "oldest_drug_dosage_origins_30": "Orígenes de dosis de medicamentos más antiguos",
+  "devine_1974_31": "Divina (1974)",
+  "still_used_in_medical_settings_32": "Todavía se utiliza en entornos médicos.",
+  "robinson_1983_33": "Robinson (1983)",
+  "slightly_lighter_estimate_34": "Estimación un poco más ligera",
+  "miller_1983_35": "Molinero (1983)",
+  "balanced_estimate_36": "Estimación equilibrada",
+  "bmibased_healthy_weight_range_37": "Rango de peso saludable basado en el IMC",
+  "kg_38": "kilos",
+  "lbs_39": "libras)",
+  "based_on_who_bmi_range_of_18525_kgm_this_range_pro_40": "Basado en el rango de IMC de la OMS de 18,5 a 25 kg/m². Esta gama proporciona más flexibilidad que\n                          estimaciones basadas en fórmulas.",
+  "calculation_details_41": "Detalles del cálculo",
+  "input_summary_42": "Resumen de entrada",
+  "age_43": "Edad:",
+  "years_44": "años",
+  "gender_45": "Género:",
+  "height_46": "Altura:",
+  "cm_47": "centímetros (",
+  "inches_48": "pulgadas)",
+  "inches_over_5_ft_49": "Pulgadas más de 5 pies:",
+  "inches_50": "pulgadas",
+  "formula_examples_51": "Ejemplos de fórmulas",
+  "devine_52": "divina (",
+  "bmi_range_53": "Rango de IMC:",
+  "k_18525_54": "18,5-25 × (",
+  "understanding_ideal_weight_55": "Comprender el peso ideal",
+  "formula_comparison_56": "Comparación de fórmulas",
+  "hamwi_57": "Hamwi:",
+  "oldest_formula_originally_for_drug_dosing_58": "Fórmula más antigua, originalmente para dosificación de medicamentos.",
+  "devine_59": "Divino:",
+  "most_commonly_used_in_medical_practice_60": "Más comúnmente utilizado en la práctica médica.",
+  "robinson_61": "Robinson:",
+  "tends_to_give_slightly_lower_weights_62": "Tiende a dar pesos ligeramente más bajos",
+  "miller_63": "Molinero:",
+  "more_recent_balanced_approach_64": "Enfoque más reciente y equilibrado",
+  "example_calculation_65": "Ejemplo de cálculo",
+  "female_56_16764_cm_66": "Mujer, 5'6\" (167,64 cm)",
+  "hamwi_455_22_6_67": "Hamwi: 45,5 + (2,2 × 6) =",
+  "k_587_kg_1295_lb_68": "58,7 kg (129,5 libras)",
+  "devine_455_23_6_69": "Divino: 45,5 + (2,3 × 6) =",
+  "k_593_kg_1307_lb_70": "59,3 kg (130,7 libras)",
+  "bmi_range_71": "Rango de IMC:",
+  "k_519701_kg_11451545_lb_72": "51,9-70,1 kg (114,5-154,5 libras)",
+  "important_considerations_73": "Consideraciones importantes",
+  "formulas_dont_account_for_body_composition_74": "Las fórmulas no tienen en cuenta la composición corporal.",
+  "athletes_may_weigh_more_due_to_muscle_mass_75": "Los atletas pueden pesar más debido a la masa muscular",
+  "bmi_range_provides_more_flexibility_76": "El rango BMI proporciona más flexibilidad",
+  "individual_health_factors_are_important_77": "Los factores de salud individuales son importantes",
+  "when_to_use_each_method_78": "Cuándo utilizar cada método",
+  "formulas_79": "Fórmulas:",
+  "quick_estimates_medical_dosing_80": "Estimaciones rápidas, dosificación médica.",
+  "bmi_range_81": "Rango de IMC:",
+  "general_health_guidelines_82": "Pautas generales de salud",
+  "professional_assessment_83": "Evaluación profesional:",
+  "body_composition_analysis_84": "Análisis de composición corporal.",
+  "personal_goals_85": "Metas personales:",
+  "consider_fitness_and_health_status_86": "Considere el estado físico y de salud"
+}

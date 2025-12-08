@@ -22,6 +22,11 @@ const categoriesMeta = {
       name: "Gesundheits- & Fitnessrechner",
       slug: "gesundheit",
       description: "Entdecken Sie kostenlose Gesundheits- und Fitnessrechner für BMI, Kalorien, Körperfett und Herzfrequenz. Verfolgen Sie Ihre Gesundheitsziele einfach und effektiv."
+    },
+    es: {
+      name: "Calculadoras de Salud y Fitness",
+      slug: "salud",
+      description: "Descubre calculadoras gratuitas de salud y fitness para IMC, calorías, grasa corporal, frecuencia cardíaca y más. Sigue tus metas de bienestar y mejora tu estilo de vida sin esfuerzo."
     }
   },
 
@@ -45,6 +50,11 @@ const categoriesMeta = {
       name: "Finanzrechner",
       slug: "finanziell",
       description: "Verwenden Sie kostenlose Finanzrechner für Kredite, Investitionen, Steuern und Ersparnisse. Optimieren Sie Ihre finanziell und treffen Sie bessere Entscheidungen."
+    },
+    es: {
+      name: "Calculadoras Financieras",
+      slug: "financiero",
+      description: "Utiliza calculadoras financieras gratuitas para préstamos, inversiones, impuestos y ahorros. Optimiza tu gestión monetaria y toma decisiones financieras más inteligentes hoy."
     }
   },
 
@@ -68,6 +78,11 @@ const categoriesMeta = {
       name: "matherechner",
       slug: "mathe",
       description: "Nutzen Sie kostenlose matherechner für Algebra, Geometrie, Statistik und komplexe Gleichungen. Lösen Sie Aufgaben effizient und präzise."
+    },
+    es: {
+      name: "Calculadoras de Matemáticas",
+      slug: "matematicas",
+      description: "Accede a calculadoras de matemáticas gratuitas para álgebra, geometría, estadística y ecuaciones avanzadas. Resuelve problemas matemáticos de forma rápida y precisa."
     }
   },
 
@@ -91,6 +106,11 @@ const categoriesMeta = {
       name: "Physikrechner",
       slug: "physik",
       description: "Kostenlose Physikrechner für Kraft, Energie, Bewegung und Wellen. Verstehen Sie physikalische Gesetze mit benutzerfreundlichen Tools."
+    },
+    es: {
+      name: "Calculadoras de Física",
+      slug: "fisica",
+      description: "Calculadoras de física gratuitas para fuerza, energía, movimiento, ondas y más. Comprende conceptos de física con herramientas científicas fáciles de usar."
     }
   },
 
@@ -114,6 +134,11 @@ const categoriesMeta = {
       name: "Bau-Rechner",
       slug: "konstruktion",
       description: "Kostenlose Bau-Rechner für Immobilien, Miete, Materialien und Kostenschätzungen. Planen und bauen Sie mit höchster Präzision."
+    },
+    es: {
+      name: "Calculadoras de Construcción",
+      slug: "construccion",
+      description: "Explora calculadoras de construcción gratuitas para propiedades, alquiler, materiales y estimación de costos. Planifica y construye tus proyectos con precisión y confianza."
     }
   },
 
@@ -137,6 +162,11 @@ const categoriesMeta = {
       name: "Ernährungsrechner",
       slug: "essen",
       description: "Kostenlose Ernährungsrechner für Kalorien, Nährstoffe, Mahlzeitenplanung und Rezepte. Essen Sie gesünder und bewusster."
+    },
+    es: {
+      name: "Calculadoras de Alimentos y Nutrición",
+      slug: "alimentos",
+      description: "Encuentra calculadoras de alimentos gratuitas para nutrición, seguimiento de calorías, recetas y planificación de comidas. Come de forma más inteligente y vive más saludable cada día."
     }
   },
 
@@ -160,6 +190,11 @@ const categoriesMeta = {
       name: "Sportrechner",
       slug: "sport",
       description: "Kostenlose Sportrechner für Training, Fitness und Leistungsanalyse. Verfolgen und verbessern Sie Ihre Sportergebnisse mühelos."
+    },
+    es: {
+      name: "Calculadoras de Deportes y Rendimiento",
+      slug: "deportes",
+      description: "Accede a calculadoras deportivas gratuitas para entrenamientos, objetivos de fitness, estadísticas de entrenamiento y rendimiento atlético. Rastrea y mejora tus resultados deportivos fácilmente."
     }
   },
 
@@ -183,6 +218,11 @@ const categoriesMeta = {
       name: "Andere Nützliche Rechner",
       slug: "andere",
       description: "Kostenlose Rechner für Alltag, Umrechnungen und verschiedene Zwecke. Entdecken Sie praktische Tools für tägliche Berechnungen."
+    },
+    es: {
+      name: "Otras Calculadoras Útiles",
+      slug: "otro",
+      description: "Calculadoras gratuitas para la vida diaria, conversiones y necesidades únicas. Explore herramientas prácticas para todo tipo de cálculos cotidianos."
     }
   }
 };

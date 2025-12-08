@@ -1,0 +1,134 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de porcentaje de error?",
+      "content": "Una calculadora de porcentaje de error es una herramienta en línea que calcula la diferencia entre el valor medido (observado) y el valor verdadero (aceptado) como porcentaje. Ayuda a determinar la precisión de experimentos, predicciones o cálculos. El resultado siempre es positivo porque utiliza la diferencia absoluta."
+    },
+    {
+      "heading": "Fórmula utilizada:",
+      "content": "$$Error porcentual = \\frac{|Valor observado - Valor verdadero|}{|Valor verdadero|} \\times 100\\%$$ \n Nota: El resultado siempre es positivo ya que utiliza la diferencia absoluta."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de error porcentual",
+      "content": "Esta calculadora de error porcentual es sencilla y apta para principiantes. Simplemente ingrese sus valores y obtenga resultados instantáneos.",
+      "subSections": [
+        {
+          "heading": "Pasos de uso:",
+          "content": "Ingrese el valor observado (su resultado medido o estimado). Ingrese el Valor Verdadero (valor aceptado o de referencia). Haga clic en Calcular para obtener el porcentaje de error al instante. Analice el resultado: un porcentaje menor indica una mayor precisión."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave de una calculadora de error porcentual",
+      "content": "La herramienta proporciona resultados de porcentaje de error precisos, rápidos y fáciles de usar.",
+      "subSections": [
+        {
+          "heading": "Resultados instantáneos",
+          "content": "Calcular el error porcentual en segundos."
+        },
+        {
+          "heading": "Interfaz fácil de usar",
+          "content": "No se requieren conocimientos técnicos o matemáticos."
+        },
+        {
+          "heading": "Fórmula precisa",
+          "content": "Utiliza la fórmula de error porcentual estándar para obtener resultados confiables."
+        },
+        {
+          "heading": "Admite varias entradas",
+          "content": "Funciona con números enteros, decimales o porcentajes."
+        },
+        {
+          "heading": "Gratis y Seguro",
+          "content": "No se requiere instalación ni se recopilan datos personales."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso de una calculadora de error porcentual",
+      "content": "El error porcentual se utiliza ampliamente en diferentes campos para medir la precisión.",
+      "subSections": [
+        {
+          "heading": "Académica",
+          "content": "Se utiliza en laboratorios de física, química y matemáticas para comparar resultados experimentales."
+        },
+        {
+          "heading": "Ingeniería",
+          "content": "Garantiza que las medidas y los diseños coincidan con los estándares requeridos."
+        },
+        {
+          "heading": "Finanzas",
+          "content": "Compara los resultados previstos con los reales en previsiones o presupuestos."
+        },
+        {
+          "heading": "Control de calidad",
+          "content": "Supervisa la coherencia y precisión de los resultados de producción."
+        },
+        {
+          "heading": "Tareas cotidianas",
+          "content": "Útil para estimaciones, recetas, mediciones de bricolaje y más."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1 – Experimento científico:",
+          "content": "Valor observado: 48 g \n Valor real: 50 g \n $$Error porcentual = \\frac{|48 - 50|}{50} \\times 100 = 4\\%$$"
+        },
+        {
+          "heading": "Ejemplo 2: Ventas previstas:",
+          "content": "Ventas previstas: 200 unidades \n Ventas reales: 220 unidades \n $$Error porcentual = \\frac{|200 - 220|}{220} \\veces 100 \\aprox 9,09\\%$$"
+        },
+        {
+          "heading": "Ejemplo 3 – Medición de la construcción:",
+          "content": "Longitud medida: 9,7 m \n Longitud real: 10m \n $$Error porcentual = \\frac{|9,7 - 10|}{10} \\times 100 = 3\\%$$ \n Estos ejemplos demuestran la utilidad práctica de una calculadora de error porcentual."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es la diferencia entre error porcentual y error porcentual?",
+      "a": "No hay diferencia: ambos términos describen el mismo concepto de precisión de medición."
+    },
+    {
+      "q": "¿Por qué el error porcentual es siempre positivo?",
+      "a": "Porque utiliza el valor absoluto de la diferencia entre los valores observados y verdaderos."
+    },
+    {
+      "q": "¿Puedo calcular el porcentaje de error manualmente?",
+      "a": "Sí, use: \n $$ \\frac{|Observado - Verdadero|}{|Verdadero|} \\times 100 $$"
+    },
+    {
+      "q": "¿Esta calculadora es adecuada para decimales?",
+      "a": "Sí, funciona tanto con decimales como con números enteros."
+    },
+    {
+      "q": "¿Puedo calcular el error porcentual para múltiples mediciones?",
+      "a": "Sí, pero calcule cada medición por separado para obtener errores porcentuales individuales."
+    },
+    {
+      "q": "¿Es seguro utilizar calculadoras de porcentaje de error en línea?",
+      "a": "Sí, las herramientas acreditadas son gratuitas, seguras y no recopilan datos personales."
+    },
+    {
+      "q": "¿Por qué debería utilizar una calculadora en lugar del cálculo manual?",
+      "a": "Ahorra tiempo, reduce errores y proporciona resultados instantáneos y precisos."
+    },
+    {
+      "q": "¿Puedo usar esto en análisis financiero?",
+      "a": "Sí, el error porcentual es útil para comparar resultados previstos y reales."
+    },
+    {
+      "q": "¿Qué indica un error porcentual bajo?",
+      "a": "Significa que su valor observado está muy cerca del valor real, lo que muestra una alta precisión."
+    },
+    {
+      "q": "¿Puede el error porcentual ser mayor que el 100%?",
+      "a": "Sí, si el valor observado es significativamente mayor o menor que el valor real."
+    }
+  ]
+}

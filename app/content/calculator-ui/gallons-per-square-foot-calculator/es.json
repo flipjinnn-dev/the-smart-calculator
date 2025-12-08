@@ -1,0 +1,163 @@
+{
+  "pageTitle": "Calculadora de galones por pie cuadrado",
+  "pageDescription": "Calcule la cantidad de galones necesarios por pie cuadrado para pintar o pisos",
+  "form": {
+    "labels": {
+      "totalGallons": "Total de galones disponibles",
+      "totalArea": "Área total (pies cuadrados)",
+      "coverageRate": "Tasa de cobertura (pies cuadrados por galón)"
+    },
+    "placeholders": {
+      "totalGallons": "Ingrese el total de galones disponibles",
+      "totalArea": "Ingrese el área total en pies cuadrados",
+      "coverageRate": "Ingrese la tasa de cobertura (predeterminada: 400 pies cuadrados/galón)"
+    },
+    "buttons": {
+      "calculate": "Calcular cobertura",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "gallonsPerSquareFoot": "Galones por pie cuadrado",
+    "coveragePerGallon": "Cobertura por galón",
+    "totalCoverage": "Área de cobertura total",
+    "gallonsNeeded": "Galones necesarios para el área",
+    "efficiency": "Eficiencia de la aplicación"
+  },
+  "educational": {
+    "coverageInfo": "Información de cobertura",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos de construcción",
+    "coverageFacts": {
+      "definition": {
+        "title": "Tasa de cobertura",
+        "description": "El área que puede cubrirse con un galón de pintura o material de revestimiento."
+      },
+      "factors": {
+        "title": "Factores que afectan",
+        "description": "La textura de la superficie, la porosidad, el método de aplicación y la calidad del material afectan las tasas de cobertura."
+      },
+      "applications": {
+        "title": "Aplicaciones del mundo real",
+        "description": "Se utiliza en proyectos de construcción, pintura y pisos para estimar los requisitos de materiales."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona estimaciones de cobertura únicamente",
+      "actual": "La cobertura real puede variar según las condiciones de la superficie y la técnica de aplicación."
+    },
+    "importantNotesList": [
+      "Las superficies rugosas o porosas pueden requerir más material",
+      "Las superficies rugosas o porosas pueden requerir más material",
+      "Es posible que se necesiten varias capas para una cobertura óptima.",
+      "Compre siempre material adicional para tener en cuenta los desperdicios y los retoques."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese los galones disponibles y el área para calcular los requisitos de cobertura",
+    "resultMessage": "Los resultados del cálculo de su cobertura se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de cobertura:",
+    "coverageAnalysis": "Análisis de cobertura"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de cobertura basadas en valores estándar de la industria. La cobertura real puede variar según las condiciones de la superficie, la técnica de aplicación, la calidad del material y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos de construcción",
+    "content": "Para obtener estimaciones profesionales de pintura y pisos, consulte con contratistas o proveedores de materiales que puedan evaluar los requisitos y condiciones específicos del proyecto."
+  },
+  "errors": {
+    "totalGallons": "Por favor ingrese una cantidad válida de galones",
+    "totalArea": "Por favor ingrese un área válida en pies cuadrados",
+    "coverageRate": "Por favor ingrese una tasa de cobertura válida"
+  },
+  "tooltips": {
+    "totalGallons": "Total de galones de pintura o material de revestimiento disponibles",
+    "totalArea": "Área total a cubrir en pies cuadrados",
+    "coverageRate": "Tasa de cobertura en pies cuadrados por galón (normalmente 400 para pintura estándar)"
+  },
+  "dimensions_0": "Dimensiones",
+  "enter_length_width_and_height_in_feet_to_calculate_1": "Ingrese el largo, ancho y alto en pies para calcular galones por pie cuadrado",
+  "length_l_2": "Longitud (L)",
+  "feet_ft_3": "Pies (pies)",
+  "inches_in_4": "Pulgadas (pulg)",
+  "meters_m_5": "Metros (m)",
+  "centimeters_cm_6": "Centímetros (cm)",
+  "yards_yd_7": "Yardas (yd)",
+  "width_w_8": "Ancho (ancho)",
+  "feet_ft_9": "Pies (pies)",
+  "inches_in_10": "Pulgadas (pulg)",
+  "meters_m_11": "Metros (m)",
+  "centimeters_cm_12": "Centímetros (cm)",
+  "yards_yd_13": "Yardas (yd)",
+  "height_h_14": "Altura (Al)",
+  "feet_ft_15": "Pies (pies)",
+  "inches_in_16": "Pulgadas (pulg)",
+  "meters_m_17": "Metros (m)",
+  "centimeters_cm_18": "Centímetros (cm)",
+  "yards_yd_19": "Yardas (yd)",
+  "calculate_20": "Calcular",
+  "reset_21": "Reiniciar",
+  "results_22": "Resultados",
+  "input_values_converted_to_feet_23": "Valores de entrada (convertidos a pies)",
+  "length_24": "Longitud:",
+  "ft_25": "pie",
+  "width_26": "Ancho:",
+  "ft_27": "pie",
+  "height_28": "Altura:",
+  "ft_29": "pie",
+  "area_30": "Área",
+  "ft_31": "pies²",
+  "volume_32": "Volumen",
+  "ft_33": "pies³",
+  "gallons_34": "galones",
+  "gallons_per_square_foot_35": "Galones por pie cuadrado",
+  "galft_36": "gal/pie²",
+  "stepbystep_calculation_37": "Cálculo paso a paso",
+  "step_1_38": "Paso 1:",
+  "step_2_39": "Paso 2:",
+  "step_3_40": "Paso 3:",
+  "step_4_41": "Paso 4:",
+  "enter_dimensions_to_see_42": "Ingrese las dimensiones para ver",
+  "live_results_43": "resultados en vivo",
+  "and_stepbystep_calculations_44": "y cálculos paso a paso.",
+  "understanding_gallons_per_square_foot_45": "Entendiendo los galones por pie cuadrado",
+  "formulas_used_46": "Fórmulas utilizadas",
+  "a_l_w_area_in_square_feet_47": "A = L × W (Área en pies cuadrados)",
+  "v_48": "V",
+  "ft_49": "pies³",
+  "a_h_l_w_h_volume_in_cubic_feet_50": "= A × H = (L × W) × H (Volumen en pies cúbicos)",
+  "v_51": "V",
+  "gal_52": "galón",
+  "v_53": "=v",
+  "ft_54": "pies³",
+  "k_748052_volume_in_us_gallons_55": "× 7,48052 (Volumen en galones estadounidenses)",
+  "g_v_56": "GRAMO = V",
+  "gal_57": "galón",
+  "a_gallons_per_square_foot_58": "÷ A (Galones por pie cuadrado)",
+  "common_applications_59": "Aplicaciones comunes",
+  "pool_spa_60": "Piscina y Spa:",
+  "calculate_volume_and_chemical_dosing_rates_61": "Calcular el volumen y las tasas de dosificación de productos químicos.",
+  "tank_design_62": "Diseño del tanque:",
+  "determine_liquid_storage_capacity_per_floor_area_63": "Determinar la capacidad de almacenamiento de líquidos por área de piso.",
+  "irrigation_64": "Riego:",
+  "calculate_application_rates_for_landscaping_65": "Calcule las tasas de aplicación para paisajismo.",
+  "construction_66": "Construcción:",
+  "estimate_concrete_paint_or_coating_coverage_67": "Estimar la cobertura de concreto, pintura o revestimiento.",
+  "aquaculture_68": "Acuicultura:",
+  "design_fish_tanks_and_water_systems_69": "Diseñar peceras y sistemas de agua.",
+  "conversion_factor_70": "Factor de conversión",
+  "k_1_cubic_foot_748052_us_gallons_71": "1 pie cúbico = 7,48052 galones estadounidenses",
+  "this_conversion_factor_is_exact_and_widely_used_in_72": "Este factor de conversión es exacto y ampliamente utilizado en construcción, plomería e ingeniería.\n                        aplicaciones.",
+  "example_calculation_73": "Ejemplo de cálculo",
+  "given_74": "Dado:",
+  "length_10_ft_width_8_ft_height_3_ft_75": "Largo = 10 pies, Ancho = 8 pies, Alto = 3 pies",
+  "solution_76": "Solución:",
+  "area_10_8_80_ft_77": "Área = 10 × 8 = 80 pies²",
+  "volume_80_3_240_ft_78": "Volumen = 80 × 3 = 240 pies³",
+  "volume_in_gallons_240_748052_179532_gallons_79": "Volumen en galones = 240 × 7,48052 = 1.795,32 galones",
+  "gallons_per_sq_ft_179532_80_2244_galft_80": "Galones por pie cuadrado = 1.795,32 ÷ 80 = 22,44 gal/pie²"
+}

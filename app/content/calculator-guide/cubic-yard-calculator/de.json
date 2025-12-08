@@ -1,0 +1,139 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Was ist ein Kubikyard-Rechner?",
+      "content": "Mit einem Kubikyard-Rechner können Sie das Volumen von Erde, Kies, Beton oder Mulch in Kubikmetern messen. Bei Bau-, Landschafts- und Heimwerkerprojekten ist es wichtig, Materialmenge und -kosten genau abzuschätzen."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Geben Sie die Abmessungen ein",
+          "content": "Geben Sie Länge, Breite und Tiefe ein."
+        },
+        {
+          "heading": "Wählen Sie Einheiten aus",
+          "content": "Verwenden Sie Fuß, Zoll oder Yards."
+        },
+        {
+          "heading": "Optional: Geben Sie den Preis pro Kubikyard ein",
+          "content": "Zur Gesamtkostenberechnung."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Erhalten Sie sofort Volumen in Kubikmetern und Gesamtkosten."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Überprüfen Sie die Messungen noch einmal, um genaue Ergebnisse zu erhalten."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Genaue Volumenberechnung",
+          "content": "Verwendet Standardformeln."
+        },
+        {
+          "heading": "Flexible Einheiten",
+          "content": "Unterstützt Fuß, Zoll und Yards."
+        },
+        {
+          "heading": "Kostenschätzung",
+          "content": "Berechnet die Gesamtkosten, wenn der Preis pro Kubikyard eingegeben wird."
+        },
+        {
+          "heading": "Mobilfreundliche Oberfläche",
+          "content": "Funktioniert auf allen Geräten."
+        },
+        {
+          "heading": "Unterstützung mehrerer Materialien",
+          "content": "Ideal für Erde, Kies, Beton, Sand oder Mulch."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Konstruktion",
+          "content": "Schätzen Sie den Beton für Platten, Fundamente und Fundamente."
+        },
+        {
+          "heading": "Landschaftsbau",
+          "content": "Berechnen Sie Erde, Mulch oder Kies für Gärten und Wege."
+        },
+        {
+          "heading": "DIY-Projekte",
+          "content": "Planen Sie Einfahrten, Terrassen und kleine Erdarbeiten."
+        },
+        {
+          "heading": "Materialkäufer/-lieferanten",
+          "content": "Bestimmen Sie Menge und Kosten vor der Bestellung."
+        },
+        {
+          "heading": "Ausbildung",
+          "content": "Lernen Sie die Volumenberechnung für quaderförmige oder rechteckige Flächen."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1",
+          "content": "Fläche: 10 Fuß × 5 Fuß × 2 Fuß | Kubikmeter = (10 × 5 × 2) ÷ 27 = 3,7 yd³"
+        },
+        {
+          "heading": "Beispiel 2 – Kostenberechnung",
+          "content": "Volumen: 5 yd³ | Preis pro Kubikyard: 40 $ | Gesamtkosten = 5 × 40 = 200 $"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Kubikyard?",
+      "a": "1 yd³ = 1 Yard × 1 Yard × 1 Yard = 27 Kubikfuß."
+    },
+    {
+      "q": "Warum einen Kubikyard-Rechner verwenden?",
+      "a": "Um Zeit zu sparen und Berechnungsfehler zu vermeiden."
+    },
+    {
+      "q": "Kann ich Fuß, Zoll oder Yards verwenden?",
+      "a": "Ja, alle werden unterstützt."
+    },
+    {
+      "q": "Funktioniert es für mehrere Bereiche?",
+      "a": "Ja, Sie können das Gesamtvolumen für mehrere Bereiche berechnen."
+    },
+    {
+      "q": "Kann ich die Gesamtkosten berechnen?",
+      "a": "Ja, wenn der Preis pro Kubikmeter eingegeben wird."
+    },
+    {
+      "q": "Ist es für DIY-Projekte geeignet?",
+      "a": "Ja, für Gärten, Terrassen, Einfahrten und Landschaftsbau."
+    },
+    {
+      "q": "Zählt es zu Abfall?",
+      "a": "Nein, es berechnet das theoretische Volumen. Für Abfall oder Verdichtung etwas hinzufügen."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, es funktioniert auf allen Geräten."
+    },
+    {
+      "q": "Wer sollte diesen Rechner verwenden?",
+      "a": "Bauunternehmer, Landschaftsgärtner, Heimwerker, Materialeinkäufer und Studenten."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, 100 % kostenlos und erfordert keine Downloads."
+    }
+  ]
+}

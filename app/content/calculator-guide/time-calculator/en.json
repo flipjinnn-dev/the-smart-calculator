@@ -1,0 +1,139 @@
+{
+    "color": "black",
+    "sections": [
+        {
+            "heading": "Time Calculator: What It Is and How to Use It",
+            "content": "The Time Calculator is a free online tool that helps you add, subtract, or compare hours, minutes, and seconds. Designed for accuracy and simplicity, it’s perfect for work schedules, project tracking, events, study sessions, or travel planning."
+        },
+        {
+            "heading": "How to Use the Time Calculator",
+            "subSections": [
+                {
+                    "heading": "Enter Time Values",
+                    "content": "Input hours, minutes, and seconds."
+                },
+                {
+                    "heading": "Select Operation",
+                    "content": "Choose whether to add or subtract time."
+                },
+                {
+                    "heading": "Add Multiple Entries",
+                    "content": "Enter additional time values if needed."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Instantly see the result."
+                },
+                {
+                    "heading": "Review Result",
+                    "content": "The calculator displays total time or difference with automatic carryover between units."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Accurate Calculations",
+                    "content": "Handles hours, minutes, and seconds correctly."
+                },
+                {
+                    "heading": "Add or Subtract Time",
+                    "content": "Sum multiple durations or find elapsed time."
+                },
+                {
+                    "heading": "Automatic Carryover",
+                    "content": "Converts seconds to minutes and minutes to hours automatically."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on all devices without installation."
+                },
+                {
+                    "heading": "Free & Easy to Use",
+                    "content": "No signup required, simple interface."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Work & Payroll",
+                    "content": "Calculate total hours worked, overtime, or shift durations."
+                },
+                {
+                    "heading": "Project Management",
+                    "content": "Track the duration of tasks or entire projects."
+                },
+                {
+                    "heading": "Event Planning",
+                    "content": "Determine event durations or end times."
+                },
+                {
+                    "heading": "Study & Training",
+                    "content": "Track time spent on learning or exercise sessions."
+                },
+                {
+                    "heading": "Travel & Logistics",
+                    "content": "Calculate travel times, schedules, or layovers."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Adding Time",
+                    "content": "Time 1: 3 hours 40 minutes | Time 2: 2 hours 25 minutes → Result: 6 hours 5 minutes"
+                },
+                {
+                    "heading": "Example 2 – Subtracting Time",
+                    "content": "Start Time: 5 hours 30 minutes | End Time: 2 hours 45 minutes → Result: 2 hours 45 minutes"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is the Time Calculator?",
+            "a": "It is a tool to add, subtract, or compare hours, minutes, and seconds."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, it’s completely free to use."
+        },
+        {
+            "q": "Do I need software?",
+            "a": "No, it works directly in any web browser."
+        },
+        {
+            "q": "Can it handle multiple time entries?",
+            "a": "Yes, you can add or subtract multiple durations."
+        },
+        {
+            "q": "Does it support hours, minutes, and seconds?",
+            "a": "Yes, all standard time units are supported."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, it works seamlessly on smartphones, tablets, and desktops."
+        },
+        {
+            "q": "Can I use it for work hours or payroll?",
+            "a": "Yes, it accurately calculates total hours and overtime."
+        },
+        {
+            "q": "Does it convert seconds and minutes automatically?",
+            "a": "Yes, carryover from seconds to minutes and minutes to hours is automatic."
+        },
+        {
+            "q": "Can it help with event planning?",
+            "a": "Yes, it calculates durations and end times precisely."
+        },
+        {
+            "q": "How accurate is it?",
+            "a": "It provides fully accurate results when time inputs are correct."
+        }
+    ]
+}

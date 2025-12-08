@@ -1,0 +1,143 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Was ist ein Board-Foot-Rechner?",
+      "content": "Mit einem Brettfußrechner können Sie das Holzvolumen in Brettfüßen messen – einer Standardeinheit für Schnittholz. Für Holzarbeiter, Heimwerker und Bauprofis ist es wichtig, die Holzmenge und -kosten genau abzuschätzen."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Geben Sie die Anzahl der Boards ein",
+          "content": "Insgesamt identische Stücke."
+        },
+        {
+          "heading": "Dimensionen hinzufügen",
+          "content": "Dicke (Zoll), Breite (Zoll), Länge (Fuß oder Zoll)."
+        },
+        {
+          "heading": "Optional: Preis pro Brettfuß",
+          "content": "Zur Gesamtkostenberechnung."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Erhalten Sie sofort die Brettfüße pro Stück, die gesamten Brettfüße und die Gesamtkosten."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Messen Sie genau, um präzise Ergebnisse zu erzielen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Genaue Berechnung",
+          "content": "Verwendet Standard-Holzformeln."
+        },
+        {
+          "heading": "Mehrere Einheiten",
+          "content": "Akzeptiert Zoll oder Fuß."
+        },
+        {
+          "heading": "Kostenschätzung",
+          "content": "Berechnet die Gesamtkosten, wenn der Preis pro Brettfuß angegeben ist."
+        },
+        {
+          "heading": "Behandelt mehrere Boards",
+          "content": "Berechnet das Gesamtvolumen für mehrere Teile."
+        },
+        {
+          "heading": "Benutzerfreundlich und mobilfreundlich",
+          "content": "Funktioniert auf allen Geräten."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Holzarbeiter und Tischler",
+          "content": "Planen Sie Möbel oder Schränke."
+        },
+        {
+          "heading": "DIY-Projekte",
+          "content": "Vermeiden Sie es, zu viel Holz zu kaufen."
+        },
+        {
+          "heading": "Konstruktion",
+          "content": "Holz für Gebäude schätzen."
+        },
+        {
+          "heading": "Holzkäufer/-verkäufer",
+          "content": "Vergleichen Sie Kosten und planen Sie Budgets."
+        },
+        {
+          "heading": "Ausbildung",
+          "content": "Lernen Sie die Berechnung des Brettfußes."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1",
+          "content": "Brett: 2″ × 6″ × 8′ | Brettfüße = (8 × 6 × 2) ÷ 12 = 8 BF"
+        },
+        {
+          "heading": "Beispiel 2",
+          "content": "5 Bretter: 1,5″ × 4″ × 10′ | Pro Brett = (10 × 4 × 1,5) ÷ 12 = 5 BF | Gesamt = 5 BF × 5 = 25 BF"
+        },
+        {
+          "heading": "Beispiel 3 (Kosten)",
+          "content": "Preis pro BF = 3 $ | Gesamtkosten = 25 × 3 = 75 $"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Brettfuß?",
+      "a": "1 Brettfuß = 1′ × 1′ × 1″ Holz."
+    },
+    {
+      "q": "Warum einen Brettfußrechner verwenden?",
+      "a": "Um Zeit zu sparen und Berechnungsfehler zu reduzieren."
+    },
+    {
+      "q": "Kann ich Zoll oder Fuß verwenden?",
+      "a": "Ja, beide werden unterstützt."
+    },
+    {
+      "q": "Kann es mit mehreren Boards umgehen?",
+      "a": "Ja, es berechnet das Gesamtvolumen."
+    },
+    {
+      "q": "Kann ich die Kosten berechnen?",
+      "a": "Ja, wenn der Preis pro Brettfuß angegeben ist."
+    },
+    {
+      "q": "Ist es für DIY-Projekte geeignet?",
+      "a": "Ja, perfekt für Profis und Bastler."
+    },
+    {
+      "q": "Zählt es zu Abfall?",
+      "a": "Nein, es zeigt theoretische Boardfüße."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, funktioniert auf allen Geräten."
+    },
+    {
+      "q": "Welche Formel wird verwendet?",
+      "a": "Brettfüße = (Dicke × Breite × Länge) ÷ 12"
+    },
+    {
+      "q": "Wird es weltweit verwendet?",
+      "a": "Hauptsächlich in den USA und Kanada; Konvertieren Sie Einheiten für andere Regionen."
+    }
+  ]
+}

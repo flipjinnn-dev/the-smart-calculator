@@ -1,0 +1,193 @@
+{
+  "pageTitle": "Calculadora de asequibilidad de la casa",
+  "pageDescription": "Determine cuánta casa puede pagar en función de sus ingresos y gastos con un análisis integral que incluye relaciones deuda-ingresos y requisitos de pago inicial.",
+  "form": {
+    "labels": {
+      "annualIncome": "Ingreso Bruto Anual",
+      "monthlyDebts": "Pagos mensuales de deuda",
+      "downPayment": "Depósito",
+      "downPaymentType": "Tipo de pago inicial",
+      "interestRate": "Tasa de interés hipotecaria esperada",
+      "loanTerm": "Plazo del préstamo",
+      "propertyTax": "Tasa anual de impuesto a la propiedad",
+      "homeInsurance": "Seguro Anual de Hogar",
+      "hoaFees": "Tarifas mensuales de HOA",
+      "otherHousingCosts": "Otros costos mensuales de vivienda"
+    },
+    "placeholders": {
+      "annualIncome": "Ingrese el ingreso bruto anual",
+      "monthlyDebts": "Ingrese los pagos mensuales totales de la deuda",
+      "downPayment": "Introduzca el pago inicial",
+      "interestRate": "Ingrese la tasa de interés hipotecaria esperada (%)",
+      "loanTerm": "Ingrese el plazo del préstamo en años",
+      "propertyTax": "Ingrese la tasa anual del impuesto a la propiedad (%)",
+      "homeInsurance": "Ingrese el costo anual del seguro de hogar",
+      "hoaFees": "Ingrese las tarifas mensuales de HOA",
+      "otherHousingCosts": "Ingrese otros costos mensuales de vivienda"
+    },
+    "buttons": {
+      "calculate": "Calcular la asequibilidad de la casa",
+      "reset": "Reiniciar"
+    },
+    "downPaymentTypes": {
+      "amount": "Cantidad",
+      "percentage": "Porcentaje"
+    }
+  },
+  "results": {
+    "affordablePrice": "Precio de vivienda asequible",
+    "monthlyPayment": "Pago mensual estimado",
+    "principalAndInterest": "Principal e interés",
+    "taxesAndInsurance": "Impuestos y seguros",
+    "totalHousingCost": "Costo total mensual de vivienda",
+    "dtiRatio": "Relación deuda-ingresos",
+    "houseAffordabilityResultsTitle": "Resultados de asequibilidad de la vivienda"
+  },
+  "educational": {
+    "houseAffordabilityInfo": "Información sobre asequibilidad de la casa",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "houseAffordabilityFacts": {
+      "rules": {
+        "title": "Reglas de asequibilidad",
+        "description": "Regla 28/36: Costos de vivienda ≤ 28% de los ingresos brutos, Deuda total ≤ 36% de los ingresos brutos"
+      },
+      "downPayment": {
+        "title": "Impacto del pago inicial",
+        "description": "Los pagos iniciales más grandes reducen el monto del préstamo y pueden eliminar el requisito del PMI"
+      },
+      "dti": {
+        "title": "Relación deuda-ingresos",
+        "description": "Los prestamistas suelen preferir índices DTI inferiores al 43% para hipotecas calificadas."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones de asequibilidad de la vivienda.",
+      "actual": "La asequibilidad real puede variar según el puntaje crediticio, las políticas del prestamista y las condiciones del mercado."
+    },
+    "importantNotesList": [
+      "Los costos de cierre suelen oscilar entre el 2% y el 5% del precio de la vivienda.",
+      "Los costos de cierre suelen oscilar entre el 2% y el 5% del precio de la vivienda.",
+      "El fondo de emergencia debería cubrir entre 3 y 6 meses de gastos de vivienda",
+      "Considere costos de mantenimiento del 1 al 3% del valor de la vivienda anualmente"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese su información financiera para determinar la asequibilidad de la casa",
+    "resultMessage": "Los resultados del cálculo de asequibilidad de su casa se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de asequibilidad de la vivienda:",
+    "houseAffordabilityAnalysis": "Análisis de asequibilidad de la vivienda"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de asequibilidad de viviendas basadas en pautas financieras generales. La asequibilidad real puede variar según el puntaje crediticio, las políticas de los prestamistas, las condiciones del mercado y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para obtener un análisis personalizado de la asequibilidad de la vivienda y asesoramiento hipotecario, consulte a agentes hipotecarios o asesores financieros con experiencia en préstamos hipotecarios y circunstancias financieras individuales."
+  },
+  "errors": {
+    "annualIncome": "Por favor ingrese un ingreso bruto anual válido",
+    "monthlyDebts": "Por favor ingrese pagos de deuda mensuales válidos",
+    "downPayment": "Por favor ingrese un pago inicial válido",
+    "interestRate": "Ingrese una tasa de interés hipotecaria esperada válida",
+    "loanTerm": "Por favor ingrese un plazo de préstamo válido",
+    "propertyTax": "Ingrese una tasa de impuesto a la propiedad anual válida",
+    "homeInsurance": "Ingrese un costo de seguro de hogar anual válido",
+    "hoaFees": "Ingrese tarifas mensuales válidas de HOA",
+    "otherHousingCosts": "Por favor ingrese otros costos de vivienda mensuales válidos",
+    "downPaymentType": "Por favor seleccione un tipo de pago inicial"
+  },
+  "tooltips": {
+    "annualIncome": "Su ingreso bruto anual total antes de impuestos",
+    "monthlyDebts": "Pagos mensuales totales de todas las deudas (préstamos para automóviles, préstamos para estudiantes, tarjetas de crédito, etc.)",
+    "downPayment": "Monto que planea pagar por adelantado para la compra de una vivienda",
+    "downPaymentType": "Si el pago inicial se especifica como monto o porcentaje",
+    "interestRate": "Tasa de interés anual esperada del préstamo hipotecario",
+    "loanTerm": "Plazo para pagar la hipoteca (normalmente 15 o 30 años)",
+    "propertyTax": "Tasa anual de impuesto a la propiedad evaluada por el gobierno local",
+    "homeInsurance": "Costo anual del seguro de vivienda",
+    "hoaFees": "Cuotas mensuales por servicios de Asociación de Propietarios",
+    "otherHousingCosts": "Otros gastos mensuales relacionados con la vivienda (servicios públicos, mantenimiento, etc.)"
+  },
+  "affordability_calculator_0": "Calculadora de asequibilidad",
+  "calculation_method_1": "Método de cálculo",
+  "how_would_you_like_to_calculate_2": "¿Cómo te gustaría calcular?",
+  "based_on_income_debttoincome_ratios_3": "Basado en ingresos y ratios deuda-ingresos",
+  "based_on_fixed_monthly_budget_4": "Basado en presupuesto mensual fijo",
+  "income_debt_information_5": "Información sobre ingresos y deudas",
+  "annual_gross_income_6": "Ingreso Bruto Anual",
+  "monthly_debt_payments_7": "Pagos mensuales de deuda",
+  "frontend_ratio_8": "Relación inicial (%)",
+  "housing_costs_as_of_gross_income_typically_28_9": "Costos de vivienda como porcentaje del ingreso bruto (normalmente 28%)",
+  "backend_ratio_10": "Relación back-end (%)",
+  "total_debt_as_of_gross_income_typically_36_11": "Deuda total como porcentaje del ingreso bruto (normalmente 36%)",
+  "monthly_housing_budget_12": "Presupuesto mensual de vivienda",
+  "maximum_monthly_housing_payment_13": "Pago Máximo Mensual de Vivienda",
+  "include_mortgage_taxes_insurance_and_hoa_fees_14": "Incluya hipotecas, impuestos, seguros y tarifas de HOA.",
+  "loan_property_details_15": "Detalles de préstamo y propiedad",
+  "down_payment_16": "Depósito (%)",
+  "mortgage_interest_rate_17": "Tasa de interés hipotecario (%)",
+  "loan_term_years_18": "Plazo del préstamo (años)",
+  "k_15_years_19": "15 años",
+  "k_20_years_20": "20 años",
+  "k_25_years_21": "25 años",
+  "k_30_years_22": "30 años",
+  "property_tax_rate_23": "Tasa de impuesto a la propiedad (%)",
+  "home_insurance_rate_24": "Tasa de seguro de hogar (%)",
+  "hoa_fee_rate_25": "Tasa de tarifa de HOA (%)",
+  "calculate_26": "Calcular",
+  "affordability_results_27": "Resultados de asequibilidad",
+  "how_much_house_you_can_afford_28": "¿Cuánta casa puedes pagar?",
+  "maximum_house_price_29": "Precio Máximo de la Vivienda:",
+  "monthly_payment_breakdown_30": "Desglose de pagos mensuales",
+  "principal_interest_31": "Principal e interés",
+  "property_tax_32": "Impuesto sobre la propiedad",
+  "home_insurance_33": "Seguro de hogar",
+  "hoa_fees_34": "Tarifas de asociación de propietarios",
+  "total_monthly_payment_35": "Pago Total Mensual",
+  "purchase_details_36": "Detalles de compra",
+  "down_payment_required_37": "Pago inicial requerido",
+  "loan_amount_38": "Monto del préstamo",
+  "housing_budget_used_39": "Presupuesto de vivienda utilizado:",
+  "this_calculation_assumes_40": "Este cálculo supone",
+  "down_payment_and_41": "% de pago inicial y",
+  "interest_rate_42": "% tasa de interés",
+  "enter_your_information_to_see_how_much_house_you_c_43": "Ingrese su información para ver cuánta casa puede pagar",
+  "how_much_house_can_i_afford_44": "¿Cuánta casa puedo pagar?",
+  "determining_how_much_house_you_can_afford_depends__45": "Determinar cuánto puede pagar por una casa depende de varios factores clave, incluidos sus ingresos,\n                      deudas existentes, pago inicial y las tasas hipotecarias actuales. Los prestamistas suelen utilizar dos principales\n                      ratios para evaluar su asequibilidad:",
+  "frontend_ratio_28_rule_46": "Relación inicial (regla del 28%):",
+  "your_total_housing_costs_should_not_exceed_28_of_y_47": "Sus costos totales de vivienda no deben exceder el 28% de\n                        su ingreso mensual bruto",
+  "backend_ratio_36_rule_48": "Relación back-end (regla del 36%):",
+  "your_total_debt_payments_should_not_exceed_36_of_y_49": "Los pagos totales de su deuda no deben exceder el 36% de\n                        su ingreso mensual bruto",
+  "house_affordability_formulas_logic_50": "Fórmulas y lógica de asequibilidad de la vivienda",
+  "k_1_monthly_income_calculation_51": "1. Cálculo de ingresos mensuales",
+  "monthly_income_annual_income_12_52": "Ingreso Mensual = Ingreso Anual ÷ 12",
+  "k_2_dti_ratio_limits_53": "2. Límites de la relación DTI",
+  "frontend_max_monthly_income_frontend_ratio_54": "Máximo inicial = Ingreso mensual × Relación inicial",
+  "backend_max_monthly_income_backend_ratio_monthly_d_55": "Máximo de back-end = (ingreso mensual × índice de back-end) - Deudas mensuales",
+  "k_3_housing_budget_56": "3. Presupuesto de vivienda",
+  "max_housing_budget_minfrontend_max_backend_max_57": "Presupuesto máximo de vivienda = mínimo (máximo inicial, máximo final)",
+  "k_4_monthly_mortgage_payment_58": "4. Pago mensual de la hipoteca",
+  "m_l_r1rn_1rn_1_59": "METRO = L × [r(1+r)^n] / [(1+r)^n - 1]",
+  "where_l_loan_amount_r_monthly_rate_n_number_of_pay_60": "Donde: L = Monto del préstamo, r = Tasa mensual, n = Número de pagos",
+  "k_5_total_housing_cost_61": "5. Costo total de la vivienda",
+  "total_mortgage_property_tax_insurance_hoa_62": "Total = Hipoteca + Impuesto sobre la propiedad + Seguro + HOA",
+  "example_calculations_63": "Cálculos de ejemplo",
+  "example_1_incomebased_calculation_64": "Ejemplo 1: cálculo basado en los ingresos",
+  "scenario_65": "Guión:",
+  "k_100000_annual_income_500_monthly_debts_30year_mort_66": "$100,000 ingresos anuales, $500 deudas mensuales, hipoteca a 30 años al 6%,\n                          20% de pago inicial",
+  "calculation_67": "Cálculo:",
+  "monthly_income_8333_frontend_max_2333_backend_max__68": "Ingreso mensual = $8,333, máximo inicial = $2,333, máximo final =\n                          $2,500",
+  "result_69": "Resultado:",
+  "max_housing_budget_2333_affordable_house_420000_70": "Presupuesto máximo de vivienda = $2,333, Casa asequible ≈ $420,000",
+  "example_2_budgetbased_calculation_71": "Ejemplo 2: cálculo basado en el presupuesto",
+  "scenario_72": "Guión:",
+  "fixed_budget_of_2500month_same_loan_parameters_as__73": "Presupuesto fijo de $2,500/mes, mismos parámetros de préstamo que los anteriores",
+  "calculation_74": "Cálculo:",
+  "housing_budget_2500_userdefined_75": "Presupuesto de vivienda = $2,500 (definido por el usuario)",
+  "result_76": "Resultado:",
+  "affordable_house_390000_77": "Casa asequible ≈ $390,000"
+}

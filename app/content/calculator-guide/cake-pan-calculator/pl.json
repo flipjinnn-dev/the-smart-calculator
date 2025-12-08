@@ -1,0 +1,105 @@
+{
+  "color": "różowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator formy do ciasta?",
+      "content": "Kalkulator foremek do ciast pomaga dostosować przepisy do różnych rozmiarów i kształtów foremek do ciast. Niezależnie od tego, czy jest okrągły, kwadratowy czy prostokątny, oblicza objętość ciasta i współczynnik skalowania, dzięki czemu Twoje ciasto idealnie pasuje i piecze się równomiernie."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "content": "Wykonaj poniższe kroki, aby dokładnie przeliczyć rozmiary foremek na ciasto:",
+      "subSections": [
+        {
+          "heading": "Kroki",
+          "content": "1. Wybierz opcję Original Pan – Wybierz kształt i wprowadź jego rozmiar (średnica dla okrągłego, długość × szerokość dla kwadratowego/prostokątnego).\n2. Wybierz panoramę docelową – wprowadź patelnię, której chcesz użyć.\n3. Kliknij Oblicz — natychmiast uzyskaj współczynnik skalowania i dostosowane ilości składników.\n4. Wskazówka – aby uzyskać najlepsze rezultaty, napełnij patelnie do ½–⅔ ich objętości."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "content": "Ten konwerter foremek do ciasta oferuje dokładną regulację w oparciu o objętość:",
+      "subSections": [
+        {
+          "heading": "Cechy",
+          "content": "- Natychmiastowa konwersja patelni – działa z patelniami okrągłymi, kwadratowymi i prostokątnymi.\n- Skalowanie w oparciu o objętość – dostosowuje składniki w oparciu o objętość patelni.\n- Obsługuje popularne rozmiary patelni - Idealny do domowego i profesjonalnego pieczenia.\n- Przyjazny dla urządzeń mobilnych – działa płynnie na każdym urządzeniu.\n- Przyjazny dla użytkownika interfejs – prosty dla początkujących i profesjonalistów."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "content": "Piekarze używają tego narzędzia do różnych modyfikacji przepisów:",
+      "subSections": [
+        {
+          "heading": "Przykłady",
+          "content": "- Wypieki w domu: użyj posiadanej formy, nie modyfikując nieprawidłowego przepisu.\n- Skalowanie przepisu: Twórz większe lub mniejsze ciasta o odpowiednich proporcjach.\n- Ciasta warstwowe: dokładnie skaluj wiele warstw.\n- Pieczenie na imprezy: przydatne na przyjęcia, urodziny i specjalne okazje.\n- Profesjonalne pieczenie: pomaga ujednolicić przepisy w piekarniach i szkołach kulinarnych."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "content": "Oto kilka typowych przykładów konwersji patelni:",
+      "subSections": [
+        {
+          "heading": "Przykłady",
+          "content": "- 9-calowy okrągły → 8×8 kwadratowy → Zmniejsz ilość składników o 11%.\n- 8×8 kwadratów → 9×13 prostokątów → Podwójne składniki.\n- 8-calowy okrągły → 10-calowy okrągły → Zwiększ ilość składników o 56%."
+        }
+      ]
+    },
+    {
+      "heading": "Wskazówki i najlepsze praktyki",
+      "content": "Przydatne wskazówki dotyczące lepszych rezultatów pieczenia:",
+      "subSections": [
+        {
+          "heading": "Porady",
+          "content": "- Napełniaj patelnie tylko do połowy, do dwóch trzecich ich objętości.\n- Okrągłe patelnie przekształcają się w kwadratowe w inny sposób — użyj objętości, aby uzyskać dokładność.\n- Kontroluj wzrokowo stopień wypieczenia — czas pieczenia może się różnić w zależności od kształtu formy.\n- Podczas skalowania dużych ciast należy ważyć składniki, aby uzyskać dokładne wyniki.\n- Użyj papieru pergaminowego, aby zapewnić równomierne pieczenie na większych patelniach."
+        }
+      ]
+    },
+    {
+      "heading": "Zastrzeżenie",
+      "content": "Kalkulator ten podaje szacunki w oparciu o standardowe objętości tortownicy. Czas pieczenia może się różnić w zależności od temperatury piekarnika, rodzaju przepisu i konsystencji ciasta."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator formy do ciasta?",
+      "a": "Dostosowuje ilości składników w przypadku korzystania z różnych rozmiarów i kształtów foremek do ciasta."
+    },
+    {
+      "q": "Czy mogę zamienić okrągłe patelnie na kwadratowe?",
+      "a": "Tak, obsługuje konwersję między patelniami okrągłymi, kwadratowymi i prostokątnymi."
+    },
+    {
+      "q": "Czy automatycznie dostosowuje składniki?",
+      "a": "Tak, oblicza współczynnik skalowania dla wszystkich składników."
+    },
+    {
+      "q": "Czy nadaje się do ciast warstwowych?",
+      "a": "Tak, dostosowuje warstwy proporcjonalnie, aby zapewnić równomierne układanie."
+    },
+    {
+      "q": "Czy może pomóc w skróceniu czasu pieczenia?",
+      "a": "Nie oblicza czasu pieczenia; wizualnie monitoruj ciasto pod kątem gotowości."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa na smartfonach, tabletach i komputerach stacjonarnych."
+    },
+    {
+      "q": "Czy mogę skalować przepisy w górę lub w dół?",
+      "a": "Tak, oblicza prawidłowy współczynnik skalowania dla większych i mniejszych ciast."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, całkowicie za darmo, bez konieczności pobierania."
+    },
+    {
+      "q": "Kto powinien korzystać z tego kalkulatora?",
+      "a": "Domowi piekarze, profesjonalni piekarze, studenci kuchni i wszyscy, którzy dostosowują przepisy na ciasta."
+    },
+    {
+      "q": "Dlaczego go używać?",
+      "a": "Aby mieć pewność, że ciasta idealnie pasują do formy i równomiernie się pieczą."
+    }
+  ]
+}

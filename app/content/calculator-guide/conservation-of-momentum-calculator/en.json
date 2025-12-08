@@ -1,0 +1,151 @@
+{
+    "color": "blue",
+    "sections": [
+        {
+            "heading": "Conservation of Momentum Calculator: What It Is and How to Use It",
+            "content": "A Conservation of Momentum Calculator is a free online physics tool that helps you calculate final velocities or unknown momentum values in collisions. Using the law of conservation of momentum, it provides fast, accurate results without needing to do complex calculations by hand."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "subSections": [
+                {
+                    "heading": "Open the Calculator",
+                    "content": "Access it directly in your browser."
+                },
+                {
+                    "heading": "Enter Masses",
+                    "content": "Input the masses of the colliding objects (m₁ and m₂)."
+                },
+                {
+                    "heading": "Enter Initial Velocities",
+                    "content": "Add the velocities before collision (u₁ and u₂)."
+                },
+                {
+                    "heading": "Select Collision Type",
+                    "content": "Choose elastic, inelastic, or generic if available."
+                },
+                {
+                    "heading": "Enter Known Final Velocity",
+                    "content": "Leave the unknown variable blank; the calculator will solve for it."
+                },
+                {
+                    "heading": "Click Calculate",
+                    "content": "Instantly see final velocities or the unknown momentum."
+                },
+                {
+                    "heading": "Check Units",
+                    "content": "Make sure all units match the system you are using."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "subSections": [
+                {
+                    "heading": "Instant Results",
+                    "content": "Get calculations immediately without manual formulas."
+                },
+                {
+                    "heading": "Multiple Outputs",
+                    "content": "Compute final velocities, total momentum, or unknown variables."
+                },
+                {
+                    "heading": "Mobile-Friendly",
+                    "content": "Works on phones, tablets, and desktops."
+                },
+                {
+                    "heading": "Free & Easy to Use",
+                    "content": "No downloads or registration required."
+                },
+                {
+                    "heading": "Educational",
+                    "content": "Helps understand momentum and collision concepts clearly."
+                },
+                {
+                    "heading": "Supports Metric & Imperial Units",
+                    "content": "Flexible for users worldwide."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Students & Teachers",
+                    "content": "Solve homework, verify classroom problems, or demonstrate concepts."
+                },
+                {
+                    "heading": "Physics Enthusiasts",
+                    "content": "Experiment with different mass and velocity combinations."
+                },
+                {
+                    "heading": "Hobbyists & Game Designers",
+                    "content": "Simulate realistic collisions for animations or games."
+                },
+                {
+                    "heading": "Scenario Analysis",
+                    "content": "Compare multiple setups to see how momentum is conserved."
+                },
+                {
+                    "heading": "Educational Demonstrations",
+                    "content": "Illustrate the law of momentum conservation clearly."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Elastic Collision",
+                    "content": "Mass m₁: 2 kg | Velocity u₁: 5 m/s | Mass m₂: 3 kg | Velocity u₂: -2 m/s | Final Velocities: v₁ = -1 m/s, v₂ = 4 m/s"
+                },
+                {
+                    "heading": "Example 2 – Inelastic Collision",
+                    "content": "Mass m₁: 4 kg | Velocity u₁: 3 m/s | Mass m₂: 2 kg | Velocity u₂: 1 m/s | Final Combined Velocity: 2.33 m/s"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is a Conservation of Momentum Calculator?",
+            "a": "It calculates final velocities or unknown momentum values in collisions using the law of momentum conservation."
+        },
+        {
+            "q": "Is this calculator free?",
+            "a": "Yes, it is completely free to use online."
+        },
+        {
+            "q": "Do I need software or installation?",
+            "a": "No, it runs directly in your browser."
+        },
+        {
+            "q": "Can I use it on mobile devices?",
+            "a": "Yes, it’s fully mobile-friendly."
+        },
+        {
+            "q": "What inputs are required?",
+            "a": "Masses, initial velocities, collision type, and optionally one final velocity."
+        },
+        {
+            "q": "Which physics principles are used?",
+            "a": "It relies on the law of conservation of momentum for isolated systems."
+        },
+        {
+            "q": "Is it suitable for students?",
+            "a": "Yes, it’s ideal for learning, homework, and exams."
+        },
+        {
+            "q": "Can it handle different collision types?",
+            "a": "Yes, elastic, inelastic, and generic collisions are supported."
+        },
+        {
+            "q": "Can it handle different units?",
+            "a": "Yes, both metric and imperial units are supported."
+        },
+        {
+            "q": "How accurate is it?",
+            "a": "It provides approximate results for ideal situations; real-world collisions may vary due to energy loss, friction, or external forces."
+        }
+    ]
+}

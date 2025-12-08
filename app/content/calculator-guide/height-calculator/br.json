@@ -1,0 +1,131 @@
+{
+  "color": "cerceta",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de altura?",
+      "content": "Uma calculadora de altura é uma ferramenta online gratuita que permite aos usuários medir, converter ou estimar a altura com rapidez e precisão. Ele suporta conversões de unidades entre centímetros, metros e pés/polegadas e, em alguns casos, fornece previsões de altura de adultos com base na idade e na altura dos pais."
+    },
+    {
+      "heading": "Como funciona a calculadora de altura",
+      "subSections": [
+        {
+          "heading": "Entradas necessárias",
+          "content": "Altura atual em cm, metros ou pés/polegadas; idade opcional e altura dos pais para previsão."
+        },
+        {
+          "heading": "Método de conversão",
+          "content": "A ferramenta converte a altura entre unidades como centímetros, metros e pés/polegadas com fórmulas precisas."
+        },
+        {
+          "heading": "Método de previsão",
+          "content": "Se ativado, estima a altura do adulto com base em fórmulas de crescimento padrão usando idade e altura dos pais."
+        },
+        {
+          "heading": "O que acontece a seguir",
+          "content": "Depois de clicar em Calcular, você obtém instantaneamente a altura convertida ou a altura adulta prevista."
+        }
+      ]
+    },
+    {
+      "heading": "Por que usar uma calculadora de altura?",
+      "subSections": [
+        {
+          "heading": "Conversão precisa de unidades",
+          "content": "Converta rapidamente altura em cm, metros e pés/polegadas com precisão confiável."
+        },
+        {
+          "heading": "Estimativa de altura adulta",
+          "content": "Preveja a altura potencial de um adulto usando fórmulas com respaldo científico."
+        },
+        {
+          "heading": "Rápido e fácil de usar",
+          "content": "Sem cálculos manuais – os resultados aparecem instantaneamente."
+        },
+        {
+          "heading": "Conveniência",
+          "content": "Gratuito, compatível com dispositivos móveis e acessível em todos os dispositivos."
+        }
+      ]
+    },
+    {
+      "heading": "Exemplo de cálculos de altura",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Conversão de Unidades",
+          "content": "Entrada: 175 cm → Converter para pés/polegadas → Resultado: 5 pés e 8,9 polegadas."
+        },
+        {
+          "heading": "Exemplo 2 – Previsão de Altura para Adultos",
+          "content": "Idade da criança: 12, Pai: 180 cm, Mãe: 165 cm → Altura adulta prevista: 174–178 cm."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Acompanhamento de saúde e condicionamento físico",
+          "content": "Monitore a altura atual ou o progresso do crescimento."
+        },
+        {
+          "heading": "Monitoramento do crescimento parental",
+          "content": "Estime a altura adulta esperada de uma criança."
+        },
+        {
+          "heading": "Registros esportivos e escolares",
+          "content": "Registre medições precisas de altura para documentação."
+        },
+        {
+          "heading": "Planejamento de tamanhos de roupas",
+          "content": "Converta unidades de altura para determinar o tamanho adequado."
+        },
+        {
+          "heading": "Uso Geral",
+          "content": "Ideal para quem precisa de conversões ou estimativas rápidas de altura."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de altura?",
+      "a": "É uma ferramenta online usada para medir, converter ou estimar a altura com precisão."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, o uso da Calculadora de Altura é totalmente gratuito."
+    },
+    {
+      "q": "Eu preciso de software?",
+      "a": "Não, funciona diretamente em qualquer navegador sem instalação."
+    },
+    {
+      "q": "Ele pode converter unidades?",
+      "a": "Sim, suporta centímetros, metros e pés/polegadas."
+    },
+    {
+      "q": "Prediz a altura adulta?",
+      "a": "Sim, se ativado, utiliza a idade e a altura dos pais para previsões."
+    },
+    {
+      "q": "É preciso?",
+      "a": "As conversões são precisas, enquanto as previsões são estimativas baseadas em fórmulas de crescimento."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, funciona em smartphones, tablets e desktops."
+    },
+    {
+      "q": "Quem pode usá-lo?",
+      "a": "Alunos, pais, atletas, professores e qualquer pessoa que precise de informações sobre altura."
+    },
+    {
+      "q": "Pode ajudar com registros escolares ou esportivos?",
+      "a": "Sim, fornece alturas precisas para fins de documentação."
+    },
+    {
+      "q": "Posso confiar na altura prevista?",
+      "a": "As previsões são estimativas – a altura real do adulto pode variar devido à genética e à saúde."
+    }
+  ]
+}

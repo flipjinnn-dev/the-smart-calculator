@@ -1,0 +1,147 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Konverter von trockener zu gekochter Pasta: Was es ist und wie es hilft",
+      "content": "Der Dry to Cooked Pasta Converter ist ein kostenloses Online-Tool, das dabei hilft, das Gewicht gekochter Nudeln aus einer bestimmten Menge trockener Nudeln abzuschätzen. Verschiedene Nudelsorten dehnen sich beim Kochen unterschiedlich aus, und dieser Rechner liefert genaue Schätzungen für Hobbyköche, Meal-Prepper und Profiköche."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Wählen Sie Nudelsorte",
+          "content": "Wählen Sie lange, kurze oder gefüllte Nudeln."
+        },
+        {
+          "heading": "Geben Sie die Trockenmenge ein",
+          "content": "Geben Sie die Trockennudelnmenge in Gramm, Unzen oder Tassen ein."
+        },
+        {
+          "heading": "Wählen Sie Zieleinheit",
+          "content": "Wählen Sie, wie das Gargewicht angezeigt werden soll."
+        },
+        {
+          "heading": "Klicken Sie auf Konvertieren",
+          "content": "Sehen Sie sofort das geschätzte Gewicht der gekochten Nudeln."
+        },
+        {
+          "heading": "Tipp",
+          "content": "Das tatsächliche Gargewicht kann je nach Wasseraufnahme und Garzeit variieren."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Konvertierung",
+          "content": "Wandeln Sie trockene Nudeln in Sekundenschnelle in gekochtes Gewicht um."
+        },
+        {
+          "heading": "Unterstützt verschiedene Nudelsorten",
+          "content": "Spaghetti, Penne, Fusilli und mehr werden unterstützt."
+        },
+        {
+          "heading": "Genaue Schätzungen",
+          "content": "Verwendet durchschnittliche Expansionsverhältnisse für zuverlässige Ergebnisse."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Funktioniert nahtlos auf Smartphones, Tablets und Desktops."
+        },
+        {
+          "heading": "Benutzerfreundliche Oberfläche",
+          "content": "Einfach und intuitiv für Anfänger und Profis gleichermaßen."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Hobbyköche",
+          "content": "Schätzen Sie die Portionen für die täglichen Mahlzeiten genau ab."
+        },
+        {
+          "heading": "Meal Prepper",
+          "content": "Planen Sie für wöchentliche Mahlzeiten genaue Mengen gekochter Nudeln ein."
+        },
+        {
+          "heading": "Ernährungsverfolgung",
+          "content": "Verfolgen Sie Kalorien und Makros präzise anhand des Gewichts gekochter Nudeln."
+        },
+        {
+          "heading": "Professionelle Küchen",
+          "content": "Portionsgrößen für Rezepte in Restaurants oder Catering standardisieren."
+        },
+        {
+          "heading": "Eventkochen",
+          "content": "Planen Sie den Bedarf an Zutaten für Partys oder große Zusammenkünfte."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielkonvertierungen",
+      "subSections": [
+        {
+          "heading": "Spaghetti",
+          "content": "100 g trockene Spaghetti → 220 g gekocht"
+        },
+        {
+          "heading": "Penne",
+          "content": "50 g trockene Penne → 110 g gekocht"
+        },
+        {
+          "heading": "Fusilli",
+          "content": "200 g trockene Fusilli → 440 g gekocht"
+        },
+        {
+          "heading": "Volumenkonvertierung",
+          "content": "1 Tasse trockene Nudeln → ~2 Tassen gekocht"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Konverter von trockener zu gekochter Pasta?",
+      "a": "Er schätzt, wie viel gekochte Nudeln man aus trockenen Nudeln erhält."
+    },
+    {
+      "q": "Funktioniert es für alle Nudelsorten?",
+      "a": "Ja, es unterstützt die meisten gängigen Nudelsorten."
+    },
+    {
+      "q": "Ist die Auswahl der Zutaten wichtig?",
+      "a": "Ja, die Auswahl der Nudelsorte verbessert die Konvertierungsgenauigkeit."
+    },
+    {
+      "q": "Ist das Ergebnis exakt?",
+      "a": "Nein, es ist eine Schätzung; Das tatsächliche Gewicht kann je nach Kochbedingungen variieren."
+    },
+    {
+      "q": "Kann ich Tassen in Kochgewicht umrechnen?",
+      "a": "Ja, sowohl Gewichts- als auch Volumeneingaben werden unterstützt."
+    },
+    {
+      "q": "Ist dieser Rechner mobilfreundlich?",
+      "a": "Ja, es funktioniert auf Smartphones, Tablets und Desktops."
+    },
+    {
+      "q": "Ist die Nutzung kostenlos?",
+      "a": "Ja, völlig kostenlos und online."
+    },
+    {
+      "q": "Kann ich Mahlzeiten mit diesem Tool planen?",
+      "a": "Ja, es hilft bei der Schätzung der Portionen für einzelne Mahlzeiten oder das Kochen in großen Mengen."
+    },
+    {
+      "q": "Wer sollte diesen Rechner verwenden?",
+      "a": "Hobbyköche, Essenszubereiter, ernährungsbewusste Menschen und Köche."
+    },
+    {
+      "q": "Warum diesen Konverter verwenden?",
+      "a": "Es gewährleistet eine ordnungsgemäße Portionskontrolle und genaue Kochergebnisse."
+    }
+  ]
+}

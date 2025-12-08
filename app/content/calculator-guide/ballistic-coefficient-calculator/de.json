@@ -1,0 +1,95 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist ein Rechner für den ballistischen Koeffizienten?",
+      "content": "Ein Rechner für den ballistischen Koeffizienten (BC) ist ein kostenloses Online-Tool, das die aerodynamische Effizienz eines Projektils misst. Es berechnet anhand seiner Masse, seines Luftwiderstandsbeiwerts und seiner Querschnittsfläche, wie gut ein Projektil den Luftwiderstand überwindet."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "content": "Befolgen Sie diese einfachen Schritte, um den ballistischen Koeffizienten zu berechnen:",
+      "subSections": [
+        {
+          "heading": "Schritte",
+          "content": "- Öffnen Sie den Rechner – Besuchen Sie die BC-Rechner-Seite in Ihrem Browser.\n- Masse eingeben (m) – Geben Sie die Masse des Projektils in kg oder g ein.\n- Widerstandskoeffizienten eingeben (Cd) – Geben Sie den Widerstandskoeffizienten des Projektils an.\n- Querschnittsfläche (A) eingeben – Geben Sie die Frontfläche in m² ein.\n- Klicken Sie auf „Berechnen“ – der Rechner zeigt sofort den ballistischen Koeffizienten an.\n- Tipp: Halten Sie die Einheiten konsistent, um genaue Ergebnisse zu erzielen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "content": "Warum diesen Rechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Merkmale",
+          "content": "- Sofortige Berechnung – Erhalten Sie Ergebnisse in Sekundenschnelle.\n- Einfach und mobilfreundlich – Funktioniert auf Desktops und Mobilgeräten.\n- Lehrmittel – Lernen Sie Außenballistik und Projektilphysik.\n- Kostenlos und zugänglich – Keine Downloads oder Registrierung erforderlich.\n- Formelbasierte Genauigkeit – Verwendet BC = m / (Cd × A)."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "content": "Wer kann von diesem Tool profitieren?",
+      "subSections": [
+        {
+          "heading": "Anwendungen",
+          "content": "- Physikstudenten und -lehrer – Lernen Sie Projektilbewegungen und Widerstandseffekte.\n- Bastler und Heimwerkerprojekte – Analysieren Sie Modellraketen und Projektile.\n- Ingenieure und Designer – Schätzen Sie schnell die aerodynamische Effizienz.\n- Projektilvergleich – Vergleichen Sie den BC verschiedener Projektile hinsichtlich der Leistung.\n- Pädagogische Demonstrationen – Vermitteln Sie externe Ballistikkonzepte im Unterricht."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "content": "Hier einige Beispiele, wie die Berechnung funktioniert:",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Kleines Projektil",
+          "content": "Masse: 0,02 kg\nWiderstandskoeffizient: 0,45\nQuerschnittsfläche: 0,001 m²\nBallistischer Koeffizient: 44,44"
+        },
+        {
+          "heading": "Beispiel 2 – Mittleres Projektil",
+          "content": "Masse: 0,05 kg\nWiderstandskoeffizient: 0,35\nQuerschnittsfläche: 0,002 m²\nBallistischer Koeffizient: 71,43"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein ballistischer Koeffizient?",
+      "a": "Es misst, wie gut ein Projektil den Luftwiderstand überwindet."
+    },
+    {
+      "q": "Ist dieser Rechner kostenlos?",
+      "a": "Ja, es ist online völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software oder Installation?",
+      "a": "Nein, es funktioniert direkt in Ihrem Browser."
+    },
+    {
+      "q": "Kann ich es auf mobilen Geräten verwenden?",
+      "a": "Ja, vollständig mobilfreundlich."
+    },
+    {
+      "q": "Welche Eingaben sind erforderlich?",
+      "a": "Masse (m), Luftwiderstandsbeiwert (Cd) und Querschnittsfläche (A)."
+    },
+    {
+      "q": "Wie wird BC berechnet?",
+      "a": "Unter Verwendung von BC = m / (Cd × A)."
+    },
+    {
+      "q": "Kann es verschiedene Projektile vergleichen?",
+      "a": "Ja, Sie können BC für mehrere Projektile berechnen, um die Effizienz zu vergleichen."
+    },
+    {
+      "q": "Ist es für Studenten geeignet?",
+      "a": "Ja, perfekt zum Erlernen von Physik und Außenballistik."
+    },
+    {
+      "q": "Können Ingenieure oder Bastler es verwenden?",
+      "a": "Ja, es hilft bei Designexperimenten und Projektilanalysen."
+    },
+    {
+      "q": "Ist der Rechner genau?",
+      "a": "Ja, für Eingabewerte; Es handelt sich um ein vereinfachtes Modell, das weder Geschwindigkeitsänderungen noch Wind berücksichtigt."
+    }
+  ]
+}

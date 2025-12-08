@@ -1,0 +1,127 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de aumento de peso durante el embarazo?",
+      "content": "Nuestra Calculadora de aumento de peso durante el embarazo es una herramienta gratuita diseñada para ayudar a las mujeres embarazadas a estimar su aumento de peso ideal durante el embarazo. Utiliza directrices de la Organización Mundial de la Salud (OMS), el Instituto de Medicina (IOM) y el NHS. <br><br>⚠️ Descargo de responsabilidad: esta herramienta es solo para fines educativos. Consulte siempre a su médico, ginecólogo o matrona para obtener orientación personalizada."
+    },
+    {
+      "heading": "Por qué es importante el aumento de peso durante el embarazo",
+      "subSections": [
+        {
+          "heading": "Apoya el crecimiento fetal",
+          "content": "Garantiza un desarrollo saludable del bebé."
+        },
+        {
+          "heading": "Reduce las complicaciones",
+          "content": "Ayuda a reducir los riesgos de diabetes gestacional y presión arterial alta."
+        },
+        {
+          "heading": "Mantiene la salud materna",
+          "content": "Apoya la salud y la recuperación de la madre después del parto."
+        }
+      ]
+    },
+    {
+      "heading": "Aumento de peso recomendado durante el embarazo (IOM/OMS/NHS)",
+      "subSections": [
+        {
+          "heading": "Bajo peso (IMC < 18,5)",
+          "content": "28 a 40 libras (12,5 a 18 kg)"
+        },
+        {
+          "heading": "Peso normal (IMC 18,5–24,9)",
+          "content": "25 a 35 libras (11,5 a 16 kg)"
+        },
+        {
+          "heading": "Sobrepeso (IMC 25-29,9)",
+          "content": "15 a 25 libras (7 a 11,5 kg)"
+        },
+        {
+          "heading": "Obesidad (IMC ≥ 30)",
+          "content": "11 a 20 libras (5 a 9 kg)"
+        },
+        {
+          "heading": "Embarazo gemelar/múltiple",
+          "content": "Se recomiendan rangos más altos; consulte a su médico."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de aumento de peso durante el embarazo (paso a paso)",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Ingrese su altura y peso (kg/cm o lbs/pulgadas)."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Seleccione su categoría de IMC antes del embarazo (o deje que la calculadora lo calcule automáticamente)."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Ingrese su semana actual de embarazo (1 a 40 semanas)."
+        },
+        {
+          "heading": "Paso 4",
+          "content": "Haga clic en Calcular → Vea instantáneamente su rango y gráfico de aumento de peso recomendado."
+        },
+        {
+          "heading": "Paso 5",
+          "content": "Vea orientación específica del trimestre y seguimiento semanal."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave de nuestra herramienta",
+      "subSections": [
+        {
+          "heading": "Soporte Global + Local",
+          "content": "Funciona en kg/cm (Asia, UE) y libras/pulgadas (EE. UU., Reino Unido)."
+        },
+        {
+          "heading": "Seguimiento trimestral",
+          "content": "Proporciona información sobre el aumento de peso durante el embarazo semana a semana."
+        },
+        {
+          "heading": "Basado en directrices",
+          "content": "Sigue las recomendaciones de la OMS, la OIM y el NHS."
+        },
+        {
+          "heading": "Soporta todos los IMC",
+          "content": "Funciona para madres con bajo peso, normales, con sobrepeso y obesas."
+        },
+        {
+          "heading": "Embarazos múltiples",
+          "content": "Incluye orientación para embarazos gemelares/múltiples."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto peso debo ganar durante el embarazo?",
+      "a": "Depende de tu IMC antes del embarazo. En promedio, las mujeres con un IMC normal ganan entre 11 y 16 kg (25 y 35 libras)."
+    },
+    {
+      "q": "¿Cómo calculo el aumento de peso durante el embarazo?",
+      "a": "Utilice esta calculadora ingresando su altura, peso, IMC y semana de embarazo actual."
+    },
+    {
+      "q": "¿Por qué es importante el aumento de peso durante el embarazo?",
+      "a": "Garantiza el crecimiento saludable de su bebé y reduce los riesgos de complicaciones como parto prematuro o diabetes gestacional."
+    },
+    {
+      "q": "¿Qué es el aumento de peso semanal seguro durante el embarazo?",
+      "a": "Primer trimestre: 1 a 2 kg (2 a 5 libras) en total. <br>Segundo y tercer trimestres: alrededor de 0,5 kg (1 libra) por semana."
+    },
+    {
+      "q": "¿Puedo usar esta calculadora para gemelos o múltiplos?",
+      "a": "Sí, pero los embarazos múltiples requieren cuidados especiales. Consulte a su médico para obtener asesoramiento personalizado."
+    },
+    {
+      "q": "¿Esta calculadora es válida en todo el mundo?",
+      "a": "Sí, sigue las directrices de la OMS y el NHS y funciona a nivel mundial (sur de Asia, Europa, EE. UU., etc.)."
+    }
+  ]
+}

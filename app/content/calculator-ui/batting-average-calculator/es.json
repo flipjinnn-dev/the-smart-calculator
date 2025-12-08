@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Calculadora de promedio de bateo",
+  "pageDescription": "Calcule el promedio de bateo y estadísticas relacionadas para jugadores de béisbol y softbol con métricas de rendimiento integrales.",
+  "form": {
+    "labels": {
+      "playerName": "Nombre del jugador",
+      "atBats": "En los murciélagos",
+      "hits": "Visitas",
+      "calculationType": "Tipo de cálculo",
+      "additionalStats": "¿Incluir estadísticas adicionales?"
+    },
+    "placeholders": {
+      "playerName": "Ingrese el nombre del jugador (opcional)",
+      "atBats": "Ingrese el número de turnos al bate",
+      "hits": "Introduzca el número de visitas"
+    },
+    "buttons": {
+      "calculate": "Calcular el promedio de bateo",
+      "reset": "Reiniciar"
+    },
+    "calculationTypes": {
+      "basic": "Promedio de bateo básico",
+      "season": "Estadísticas de temporada",
+      "career": "Estadísticas de carrera"
+    },
+    "yesNo": {
+      "yes": "Sí",
+      "no": "No"
+    }
+  },
+  "results": {
+    "battingAverage": "Promedio de bateo",
+    "hits": "Visitas",
+    "atBats": "En los murciélagos",
+    "additionalStats": "Estadísticas adicionales",
+    "battingAverageResultsTitle": "Resultados promedio de bateo"
+  },
+  "educational": {
+    "battingAverageInfo": "Información del promedio de bateo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos de béisbol",
+    "battingAverageFacts": {
+      "definition": {
+        "title": "Definición del promedio de bateo",
+        "description": "Promedio de bateo = Hits ÷ Turnos al bate (no incluye bases por bolas, sacrificios ni golpes por lanzamiento)"
+      },
+      "benchmarks": {
+        "title": "Puntos de referencia de rendimiento",
+        "description": "Excelente: .300+, Bueno: .270-.299, Promedio: .250-.269, Inferior al promedio: Inferior a .250"
+      },
+      "context": {
+        "title": "El contexto importa",
+        "description": "Considere el estadio, los oponentes y las situaciones de juego al evaluar el promedio de bateo."
+      }
+    },
+    "additionalStatistics": {
+      "obp": {
+        "title": "Porcentaje de base (OBP)",
+        "description": "Mide la frecuencia con la que un bateador llega a la base."
+      },
+      "slg": {
+        "title": "Porcentaje de slugging (SLG)",
+        "description": "Mide el poder de un bateador."
+      },
+      "ops": {
+        "title": "Slugging en base más (OPS)",
+        "description": "Combina OBP y SLG para un rendimiento ofensivo general"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona cálculos estadísticos únicamente.",
+      "context": "El promedio de bateo debe evaluarse con otras estadísticas para un análisis completo."
+    },
+    "importantNotesList": [
+      "El promedio de bateo no toma en cuenta las bases por bolas, los sacrificios ni los golpes por lanzamiento.",
+      "Diferentes estadios y ligas pueden afectar las métricas de rendimiento",
+      "Diferentes estadios y ligas pueden afectar las métricas de rendimiento",
+      "Métricas avanzadas como OPS y wOBA proporcionan una evaluación más completa de los jugadores."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese las estadísticas del jugador para calcular el promedio de bateo",
+    "resultMessage": "El promedio de bateo del jugador se muestra a continuación.",
+    "assessmentResult": "Resultado de las estadísticas de bateo:",
+    "battingAverageAnalysis": "Análisis del promedio de bateo"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona cálculos del promedio de bateo basados ​​en fórmulas estadísticas estándar de béisbol. Los resultados tienen fines informativos y es posible que no reflejen las estadísticas oficiales de la liga o métricas analíticas avanzadas."
+  },
+  "seekHelp": {
+    "title": "Recursos de béisbol",
+    "content": "Para análisis de béisbol profesional y estadísticas avanzadas, consulte con analistas deportivos, entrenadores o recursos estadísticos de béisbol especializados y herramientas sabermétricas."
+  },
+  "errors": {
+    "atBats": "Por favor ingrese un número válido de turnos al bate (debe ser mayor que 0)",
+    "hits": "Por favor ingrese un número válido de hits (no puede exceder los turnos al bate)",
+    "playerName": "Por favor ingresa un nombre de jugador válido",
+    "calculationType": "Por favor seleccione un tipo de cálculo"
+  },
+  "tooltips": {
+    "atBats": "Número de turnos al bate oficiales (excluye bases por bolas, sacrificios, hits por lanzamiento)",
+    "hits": "Número de hits (sencillos, dobles, triples, jonrones)",
+    "calculationType": "Seleccione el tipo de cálculo estadístico",
+    "additionalStats": "Incluya estadísticas avanzadas como OBP, SLG y OPS"
+  },
+  "loading_0": "Cargando...",
+  "batting_average_calculation_1": "Cálculo del promedio de bateo",
+  "choose_between_basic_or_advanced_calculation_metho_2": "Elija entre métodos de cálculo básicos o avanzados",
+  "what_calculation_method_would_you_like_to_use_3": "¿Qué método de cálculo le gustaría utilizar?",
+  "basic_calculation_4": "Cálculo básico",
+  "advanced_calculation_5": "Cálculo avanzado",
+  "runs_scored_6": "Carreras anotadas",
+  "times_out_7": "Tiempos agotados",
+  "formula_8": "Fórmula:",
+  "batting_average_runs_scored_times_out_9": "Promedio de bateo = Carreras anotadas ÷ Tiempos muertos",
+  "example_315_runs_3_dismissals_10500_average_10": "Ejemplo: 315 carreras ÷ 3 despidos = 105,00 promedio",
+  "runs_scored_11": "Carreras anotadas",
+  "innings_played_12": "Entradas jugadas",
+  "not_outs_13": "No salidas",
+  "formula_14": "Fórmula:",
+  "times_out_innings_played_not_outs_15": "Tiempos fuera = Entradas jugadas - No outs",
+  "batting_average_runs_scored_times_out_16": "Promedio de bateo = Carreras anotadas ÷ Tiempos muertos",
+  "not_out_innings_dont_count_as_dismissals_which_can_17": "Las entradas no terminadas no cuentan como despidos, lo que puede aumentar tu promedio.",
+  "calculate_average_18": "Calcular promedio",
+  "batting_average_19": "Promedio de bateo",
+  "batting_average_20": "Promedio de bateo",
+  "enter_your_cricket_statistics_and_click_21": "Ingrese sus estadísticas de cricket y haga clic",
+  "calculate_22": "Calcular",
+  "to_see_your_batting_average_23": "para ver tu promedio de bateo.",
+  "understanding_batting_average_24": "Comprender el promedio de bateo",
+  "definition_25": "Definición",
+  "batting_average_in_cricket_is_a_statistic_that_mea_26": "El promedio de bateo en el cricket es una estadística que mide el desempeño de un bateador. representa\n                        el número promedio de carreras anotadas por despido.",
+  "key_points_27": "Puntos clave",
+  "higher_averages_indicate_better_batting_performanc_28": "Los promedios más altos indican un mejor rendimiento de bateo",
+  "not_out_innings_are_not_counted_as_dismissals_29": "Las entradas no eliminadas no cuentan como despidos.",
+  "a_good_batting_average_varies_by_level_of_cricket_30": "Un buen promedio de bateo varía según el nivel de cricket.",
+  "professional_averages_above_40_are_considered_exce_31": "Los promedios profesionales superiores a 40 se consideran excelentes.",
+  "sample_calculation_32": "Cálculo de muestra",
+  "example_33": "Ejemplo:",
+  "runs_scored_315_34": "Carreras anotadas: 315",
+  "times_out_3_35": "Tiempos de espera: 3",
+  "batting_average_315_3_10500_36": "Promedio de bateo: 315 ÷ 3 = 105,00",
+  "this_would_be_an_exceptional_batting_average_indic_37": "Este sería un promedio de bateo excepcional, lo que indica que el jugador obtiene un promedio de 105.\n                        corre antes de salir."
+}

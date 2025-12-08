@@ -1,0 +1,139 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "RPE-Rechner: Was es ist und wie man es verwendet",
+      "content": "Ein RPE-Rechner (Rate of Perceived Exertion) hilft dabei, die Trainingsintensität zu messen und Ihre Kraft abzuschätzen. Durch Eingabe des gehobenen Gewichts, der Wiederholungen und der wahrgenommenen Anstrengung berechnet es Ihr geschätztes Ein-Wiederholungs-Maximum (1RM) und schlägt empfohlene Trainingsbelastungen vor. Es ist ideal für Fitnessbegeisterte, Lifter, Powerlifter und Trainer, die sicher, effektiv und progressiv trainieren möchten."
+    },
+    {
+      "heading": "So verwenden Sie den RPE-Rechner",
+      "subSections": [
+        {
+          "heading": "Geben Sie „Gewicht gehoben“ ein",
+          "content": "Geben Sie das Gewicht Ihres Sets ein (kg oder lbs)."
+        },
+        {
+          "heading": "Geben Sie Wiederholungen ein",
+          "content": "Anzahl der für den Satz abgeschlossenen Wiederholungen."
+        },
+        {
+          "heading": "Wählen Sie RPE",
+          "content": "Bewerten Sie auf einer Skala von 1–10, wie hart sich das Set anfühlte."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Sehen Sie sich das geschätzte 1RM und die empfohlene Trainingsbelastung an."
+        },
+        {
+          "heading": "Passen Sie das Training an",
+          "content": "Nutzen Sie die Ergebnisse, um Intensität und Fortschritt zu planen."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "1RM-Schätzung",
+          "content": "Wandelt Gewicht, Wiederholungen und RPE in geschätzte Maximalkraft um."
+        },
+        {
+          "heading": "Empfehlungen laden",
+          "content": "Schlägt Gewichte für Zielintensitätsstufen vor."
+        },
+        {
+          "heading": "Autoreguliertes Training",
+          "content": "Passen Sie Ihr tägliches Training an die wahrgenommene Anstrengung an."
+        },
+        {
+          "heading": "Kostenlos und mobilfreundlich",
+          "content": "Funktioniert auf jedem Gerät ohne Registrierung."
+        },
+        {
+          "heading": "Sicheres Training",
+          "content": "Vermeiden Sie unnötige maximale Hebungen, während Sie den Fortschritt verfolgen."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Krafttraining",
+          "content": "Planen Sie die Intensität für fortschreitende Überlastung."
+        },
+        {
+          "heading": "Kraftdreikampf",
+          "content": "Schätzen Sie maximale Hubhöhen sicher ab, ohne dass es zu Ausfällen kommt."
+        },
+        {
+          "heading": "Autoregulierte Trainingseinheiten",
+          "content": "Passen Sie die täglichen Belastungen je nach Aufwand an."
+        },
+        {
+          "heading": "Coaching",
+          "content": "Trainer können die Kundenbelastung genau planen und überwachen."
+        },
+        {
+          "heading": "Rehabilitation und Genesung",
+          "content": "Bewältigen Sie Stress, um Verletzungen und Übertraining vorzubeugen."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1",
+          "content": "Gewicht: 100 kg | Wiederholungen: 5 | RPE: 8 → Geschätztes 1RM: 118 kg"
+        },
+        {
+          "heading": "Beispiel 2",
+          "content": "Gewicht: 120 kg | Wiederholungen: 3 | RPE: 9 → Geschätztes 1RM: 129 kg"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein RPE-Rechner?",
+      "a": "Es schätzt Kraft und Trainingsintensität anhand von Gewicht, Wiederholungen und wahrgenommener Anstrengung."
+    },
+    {
+      "q": "Ist es kostenlos?",
+      "a": "Ja, es ist online völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software?",
+      "a": "Nein, es funktioniert direkt in jedem Browser."
+    },
+    {
+      "q": "Kann es 1RM berechnen?",
+      "a": "Ja, basierend auf dem Gewicht, den Wiederholungen und dem RPE, die Sie eingeben."
+    },
+    {
+      "q": "Kann es die Trainingsintensität planen?",
+      "a": "Ja, es werden Trainingsbelastungen für die angestrebten RPE-Werte empfohlen."
+    },
+    {
+      "q": "Ist es für Anfänger geeignet?",
+      "a": "Ja, es funktioniert für alle Fitnessniveaus."
+    },
+    {
+      "q": "Wie genau ist es?",
+      "a": "Es ist genau, wenn die Eingaben konsistent und korrekt sind."
+    },
+    {
+      "q": "Kann es Verletzungen vorbeugen?",
+      "a": "Ja, indem Sie unnötige Maximalbelastungen und Übertraining vermeiden."
+    },
+    {
+      "q": "Unterstützt es kg und lbs?",
+      "a": "Ja, beide Einheiten werden akzeptiert."
+    },
+    {
+      "q": "Können Trainer es für Kunden nutzen?",
+      "a": "Ja, es eignet sich perfekt zur Überwachung und Planung von Kundentrainings."
+    }
+  ]
+}

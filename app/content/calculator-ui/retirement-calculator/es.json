@@ -1,0 +1,162 @@
+{
+  "pageTitle": "Calculadora de jubilación",
+  "pageDescription": "Planifique sus ahorros para la jubilación y calcule las contribuciones requeridas para alcanzar sus objetivos de jubilación con proyecciones de inflación y retorno de la inversión.",
+  "form": {
+    "labels": {
+      "currentAge": "Edad actual",
+      "retirementAge": "Edad de jubilación prevista",
+      "lifeExpectancy": "Esperanza de vida",
+      "currentSavings": "Ahorros de jubilación actuales",
+      "annualSalary": "Salario anual actual",
+      "salaryIncrease": "Aumento salarial anual esperado",
+      "currentContribution": "Contribución anual actual",
+      "contributionIncrease": "Aumento de contribución anual esperado",
+      "employerMatch": "Porcentaje de igualación del empleador",
+      "investmentReturn": "Retorno de inversión esperado",
+      "inflationRate": "Tasa de inflación esperada",
+      "retirementIncome": "Ingreso anual de jubilación deseado"
+    },
+    "placeholders": {
+      "currentAge": "Introduce tu edad actual",
+      "retirementAge": "Introduzca su edad de jubilación prevista",
+      "lifeExpectancy": "Introduce tu esperanza de vida",
+      "currentSavings": "Ingrese los ahorros de jubilación actuales",
+      "annualSalary": "Ingrese su salario anual actual",
+      "salaryIncrease": "Ingrese el aumento salarial anual esperado (%)",
+      "currentContribution": "Introduzca la contribución anual actual",
+      "contributionIncrease": "Ingrese el aumento de contribución anual esperado (%)",
+      "employerMatch": "Ingrese el porcentaje de contrapartida del empleador (%)",
+      "investmentReturn": "Ingrese el retorno de inversión esperado (%)",
+      "inflationRate": "Ingrese la tasa de inflación esperada (%)",
+      "retirementIncome": "Ingrese el ingreso de jubilación anual deseado"
+    },
+    "buttons": {
+      "calculate": "Calcular las necesidades de jubilación",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "yearsToRetirement": "Años hasta la jubilación",
+    "retirementSavings": "Ahorros para la jubilación proyectados",
+    "retirementIncome": "Ingreso de jubilación anual proyectado",
+    "incomeReplacement": "Tasa de reemplazo de ingresos",
+    "shortfall": "Déficit de ahorro para la jubilación",
+    "requiredContribution": "Contribución anual requerida",
+    "retirementResultsTitle": "Resultados del cálculo de jubilación"
+  },
+  "educational": {
+    "retirementInfo": "Información sobre planificación de jubilación",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "retirementFacts": {
+      "replacementRate": {
+        "title": "Tasa de reemplazo de ingresos",
+        "description": "La mayoría de los planificadores financieros recomiendan reemplazar entre el 70% y el 90% de los ingresos previos a la jubilación."
+      },
+      "socialSecurity": {
+        "title": "Beneficios del Seguro Social",
+        "description": "La Seguridad Social normalmente reemplaza alrededor del 40% de los ingresos previos a la jubilación para los asalariados promedio."
+      },
+      "savingsRate": {
+        "title": "Pautas para la tasa de ahorro",
+        "description": "Los expertos financieros recomiendan ahorrar entre el 10 y el 15% de los ingresos para la jubilación"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones de planificación de jubilación.",
+      "actual": "Las necesidades reales de jubilación pueden variar según el estilo de vida, la salud y las condiciones del mercado."
+    },
+    "importantNotesList": [
+      "Empiece a ahorrar temprano para aprovechar el interés compuesto",
+      "Planifique una esperanza de vida más larga, potencialmente de 20 a 30 años de jubilación",
+      "Planifique una esperanza de vida más larga, potencialmente de 20 a 30 años de jubilación",
+      "Revise y ajuste periódicamente su plan de jubilación a medida que cambien las circunstancias."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su planificación de jubilación para calcular las necesidades de ahorro",
+    "resultMessage": "Los resultados de su cálculo de jubilación se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo de jubilación:",
+    "retirementAnalysis": "Análisis de jubilación"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de planificación de jubilación basadas en proyecciones matemáticas. Las necesidades reales de jubilación pueden variar significativamente según las opciones de estilo de vida, los costos de atención médica, las condiciones del mercado y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para obtener asesoramiento personalizado sobre inversiones y planificación de la jubilación, consulte a asesores financieros o especialistas en planificación de la jubilación con experiencia en planificación financiera a largo plazo y circunstancias individuales."
+  },
+  "errors": {
+    "currentAge": "Por favor ingresa una edad actual válida",
+    "retirementAge": "Por favor ingrese una edad de jubilación válida",
+    "lifeExpectancy": "Por favor ingrese una esperanza de vida válida",
+    "currentSavings": "Por favor ingrese ahorros de jubilación actuales válidos",
+    "annualSalary": "Por favor ingrese un salario anual válido",
+    "salaryIncrease": "Ingrese un aumento de salario esperado válido",
+    "currentContribution": "Por favor ingrese una contribución actual válida",
+    "contributionIncrease": "Ingrese un aumento de contribución esperado válido",
+    "employerMatch": "Ingrese un porcentaje válido de contrapartida del empleador",
+    "investmentReturn": "Por favor ingrese un retorno de inversión esperado válido",
+    "inflationRate": "Por favor ingrese una tasa de inflación esperada válida",
+    "retirementIncome": "Por favor ingrese un ingreso de jubilación deseado válido"
+  },
+  "tooltips": {
+    "currentAge": "Tu edad actual en años.",
+    "retirementAge": "Edad en la que planea jubilarse",
+    "lifeExpectancy": "Edad esperada de vida",
+    "currentSavings": "Saldo actual en cuentas de jubilación",
+    "annualSalary": "Tus ingresos anuales actuales",
+    "salaryIncrease": "Crecimiento salarial anual promedio esperado",
+    "currentContribution": "Monto que estás contribuyendo actualmente anualmente",
+    "contributionIncrease": "Aumento anual previsto de las contribuciones",
+    "employerMatch": "Porcentaje del salario que iguala su empleador",
+    "investmentReturn": "Rendimiento anual medio esperado de las inversiones",
+    "inflationRate": "Tasa de inflación anual promedio esperada",
+    "retirementIncome": "Ingresos anuales necesarios durante la jubilación"
+  },
+  "your_current_age_0": "Tu edad actual",
+  "your_planned_retirement_age_1": "Su edad de jubilación prevista",
+  "your_life_expectancy_2": "Tu esperanza de vida",
+  "current_annual_income_3": "Ingresos anuales actuales",
+  "expected_annual_income_increase_4": "Aumento de ingresos anual esperado (%)",
+  "income_needed_after_retirement_5": "Ingresos necesarios después de la jubilación (%)",
+  "average_investment_return_6": "Retorno promedio de la inversión (%)",
+  "inflation_rate_7": "Tasa de inflación (%)",
+  "other_income_after_retirement_8": "Otros ingresos después de la jubilación",
+  "your_current_income_9": "Tus ingresos actuales",
+  "your_current_retirement_savings_10": "Sus ahorros de jubilación actuales",
+  "your_age_now_11": "Tu edad ahora",
+  "planned_retirement_age_12": "Edad de jubilación prevista",
+  "amount_needed_at_retirement_age_13": "Cantidad necesaria a la edad de jubilación",
+  "retirement_savings_now_14": "Ahorros para la jubilación ahora",
+  "average_investment_return_year_15": "Retorno promedio de la inversión (%/año)",
+  "your_age_now_16": "Tu edad ahora",
+  "planned_retirement_age_17": "Edad de jubilación prevista",
+  "life_expectancy_18": "Esperanza de vida",
+  "retirement_savings_today_19": "Ahorros para la jubilación hoy",
+  "annual_contribution_20": "Contribución anual",
+  "monthly_contribution_21": "Contribución mensual",
+  "average_investment_return_year_22": "Retorno promedio de la inversión (%/año)",
+  "inflation_rate_year_23": "Tasa de inflación (%/año)",
+  "amount_you_have_24": "cantidad que tienes",
+  "planned_monthly_withdrawal_25": "Retiro mensual planificado",
+  "average_investment_return_year_26": "Retorno promedio de la inversión (%/año)",
+  "home_27": "Hogar",
+  "financial_28": "Financiero",
+  "retirement_calculator_29": "Calculadora de jubilación",
+  "retirement_details_30": "Detalles de jubilación",
+  "enter_your_retirement_information_below_31": "Ingrese su información de jubilación a continuación",
+  "calculation_type_32": "Tipo de cálculo",
+  "how_much_do_you_need_to_retire_33": "¿Cuánto necesitas para jubilarte?",
+  "how_can_you_save_for_retirement_34": "¿Cómo se puede ahorrar para la jubilación?",
+  "how_much_can_you_withdraw_after_retirement_35": "¿Cuánto puedes retirar después de la jubilación?",
+  "how_long_can_your_money_last_36": "¿Cuánto tiempo puede durar tu dinero?",
+  "calculate_plan_37": "Calcular plan",
+  "your_retirement_results_38": "Los resultados de su jubilación",
+  "see_your_retirement_calculation_results_here_39": "Vea los resultados de su cálculo de jubilación aquí",
+  "retirement_calculation_40": "Cálculo de jubilación",
+  "fill_in_your_details_and_click_calculate_see_your__41": "Complete sus datos y haga clic en Calcular vea sus resultados de jubilación"
+}

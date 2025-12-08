@@ -1,0 +1,143 @@
+{
+  "color": "roxo",
+  "sections": [
+    {
+      "heading": "Calculadora de idade: o que é e como usá-la",
+      "content": "Uma Calculadora de Idade é uma ferramenta online gratuita que calcula rapidamente a idade exata de uma pessoa em anos, meses e dias com base na data de nascimento. É útil para estudantes, pais, profissionais ou qualquer pessoa que precise de um cálculo de idade rápido e preciso."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Abra a calculadora",
+          "content": "Acesse-o diretamente no seu navegador."
+        },
+        {
+          "heading": "Insira a data de nascimento",
+          "content": "Insira dia, mês e ano."
+        },
+        {
+          "heading": "Selecione a data de referência",
+          "content": "Escolha a data de hoje ou qualquer data passada/futura."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Veja instantaneamente a idade em anos, meses e dias."
+        },
+        {
+          "heading": "Verifique a saída",
+          "content": "Algumas calculadoras também mostram o total de dias ou semanas vividas."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Resultados instantâneos",
+          "content": "Não são necessários cálculos manuais."
+        },
+        {
+          "heading": "Preciso",
+          "content": "Considera anos bissextos e diferentes durações de meses."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona em smartphones, tablets e desktops."
+        },
+        {
+          "heading": "Gratuito e fácil de usar",
+          "content": "Não é necessário download ou registro."
+        },
+        {
+          "heading": "Data personalizada",
+          "content": "Calcule a idade para qualquer data no passado ou futuro."
+        },
+        {
+          "heading": "Várias unidades",
+          "content": "Opcionalmente, veja a idade em anos, meses, dias ou total de dias/semanas."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Uso pessoal",
+          "content": "Acompanhe aniversários e marcos."
+        },
+        {
+          "heading": "Finalidades Oficiais",
+          "content": "Estime a idade para formulários, inscrições ou verificação de identidade."
+        },
+        {
+          "heading": "Planejamento de Eventos",
+          "content": "Acompanhe aniversários, datas comemorativas ou datas de elegibilidade."
+        },
+        {
+          "heading": "Educação",
+          "content": "Ensine aos alunos sobre datas, horários e diferenças de calendário."
+        },
+        {
+          "heading": "Manutenção de registros",
+          "content": "Mantenha registros precisos com base na idade."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Idade Atual",
+          "content": "Data de nascimento: 15 de março de 1995 | Data de Referência: Hoje | Resultado: 30 anos, 8 meses, 12 dias"
+        },
+        {
+          "heading": "Exemplo 2 – Era Futura",
+          "content": "Data de nascimento: 10 de junho de 2000 | Data de referência: 1 de janeiro de 2030 | Resultado: 29 anos, 6 meses, 22 dias"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de idade?",
+      "a": "Ele calcula a idade exata em anos, meses e dias a partir de uma determinada data de nascimento."
+    },
+    {
+      "q": "Esta calculadora é gratuita?",
+      "a": "Sim, é totalmente gratuito."
+    },
+    {
+      "q": "Preciso de software ou instalação?",
+      "a": "Não, funciona diretamente no seu navegador."
+    },
+    {
+      "q": "Posso usá-lo em dispositivos móveis?",
+      "a": "Sim, é totalmente compatível com dispositivos móveis."
+    },
+    {
+      "q": "Posso calcular a idade para uma data futura ou passada?",
+      "a": "Sim, você pode selecionar qualquer data de referência."
+    },
+    {
+      "q": "Isso leva em conta anos bissextos?",
+      "a": "Sim, ele considera com precisão os anos bissextos e a duração dos meses."
+    },
+    {
+      "q": "Pode mostrar o total de dias ou semanas?",
+      "a": "Algumas versões fornecem o total de dias ou semanas vividas."
+    },
+    {
+      "q": "É adequado para estudantes?",
+      "a": "Sim, é simples e preciso para fins de aprendizagem."
+    },
+    {
+      "q": "Pode ser usado para documentos oficiais?",
+      "a": "É bom para estimativas, mas os documentos oficiais exigem provas como uma certidão de nascimento."
+    },
+    {
+      "q": "Quão preciso é isso?",
+      "a": "Ele fornece cálculos precisos baseados no calendário gregoriano padrão."
+    }
+  ]
+}

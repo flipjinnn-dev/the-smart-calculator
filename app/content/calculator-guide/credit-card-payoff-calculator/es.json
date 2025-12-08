@@ -1,0 +1,115 @@
+{
+  "color": "rojo",
+  "sections": [
+    {
+      "heading": "¿Por qué utilizar nuestra calculadora de pagos de tarjetas de crédito?",
+      "subSections": [
+        {
+          "heading": "Perspectivas de ahorro de intereses",
+          "content": "Vea exactamente cuánto interés pagará y cuánto puede ahorrar con pagos adicionales."
+        },
+        {
+          "heading": "Opciones personalizables",
+          "content": "Elija pagos globales, pagos quincenales o pagos mensuales adicionales fijos."
+        },
+        {
+          "heading": "Soporte para múltiples tarjetas",
+          "content": "Ingrese saldos para varias tarjetas y compare estrategias una al lado de la otra."
+        },
+        {
+          "heading": "Comparación de avalancha y bola de nieve",
+          "content": "Decida si es mejor para su presupuesto apuntar primero a las tarjetas con APR alto (avalancha) o a las tarjetas con saldo bajo (bola de nieve)."
+        },
+        {
+          "heading": "Horario imprimible y compartible",
+          "content": "Obtenga un cronograma de pagos claro de tipo amortización que puede imprimir o exportar."
+        },
+        {
+          "heading": "Gráficos visuales de pagos",
+          "content": "Realice un seguimiento de su viaje libre de deudas con gráficos interactivos."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de pagos de tarjetas de crédito",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Ingrese su saldo, tasa de interés (APR) y pago mensual actual para cada tarjeta."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Seleccione entre avalancha de deuda, bola de nieve o planes de pago personalizados."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Pruebe cómo los pagos mensuales adicionales o de suma global cambian su cronograma de pago."
+        },
+        {
+          "heading": "Paso 4",
+          "content": "Vea su fecha de pago estimada, el interés total pagado y los ahorros potenciales."
+        },
+        {
+          "heading": "Paso 5",
+          "content": "Descargue o imprima su calendario de pagos personalizado para mantenerse motivado."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo funciona la calculadora (fórmulas y metodología)",
+      "subSections": [
+        {
+          "heading": "Interés por mes",
+          "content": "Interés = (TAE ÷ 12) × Saldo actual."
+        },
+        {
+          "heading": "nuevo equilibrio",
+          "content": "Nuevo Saldo = Saldo Anterior + Intereses – Pago."
+        },
+        {
+          "heading": "Estrategias de tarjetas múltiples",
+          "content": "Método Avalancha → Pague primero la APR más alta y la mínima en otros. Método de bola de nieve → Pague primero el saldo más pequeño y luego transfiera los pagos."
+        }
+      ]
+    },
+    {
+      "heading": "Ejemplos de escenarios de pago",
+      "subSections": [
+        {
+          "heading": "Ejemplo de tarjeta única",
+          "content": "Un saldo de $5,000 con una tasa de interés anual del 20% con un pago mensual de $200 tardará aproximadamente 32 meses en liquidarse, con más de $1,400 en intereses. Agregar $100 adicionales por mes reduce el tiempo de pago a 21 meses y ahorra casi $700."
+        },
+        {
+          "heading": "Ejemplo de varias tarjetas",
+          "content": "Si debe $3,000 con una tasa de interés anual del 18% y $2,000 con una tasa de interés anual del 25%, el método de avalancha ahorra más intereses, mientras que el método de bola de nieve proporciona ganancias psicológicas más rápidas."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo calculo la fecha de liquidación de mi tarjeta de crédito?",
+      "a": "Ingrese su saldo, APR y pagos en la calculadora. Calculará su fecha de pago y el interés total."
+    },
+    {
+      "q": "¿Cuál es el mejor método para liquidar la deuda de la tarjeta de crédito?",
+      "a": "El método de avalancha generalmente ahorra la mayor cantidad de dinero al abordar primero las tarjetas de alto interés, mientras que el método de bola de nieve ayuda con la motivación al liquidar pequeños saldos rápidamente."
+    },
+    {
+      "q": "¿Cómo se compara esta calculadora con la consolidación de deudas?",
+      "a": "A diferencia de un préstamo de consolidación de deuda o una tarjeta de transferencia de saldo, esta calculadora muestra su ruta de pago con sus cuentas existentes."
+    },
+    {
+      "q": "¿Puedo usar esto como calculadora de pagos de múltiples tarjetas de crédito?",
+      "a": "Sí. Ingrese detalles para varias tarjetas y elija una estrategia para ver cómo los diferentes enfoques afectan su cronograma."
+    },
+    {
+      "q": "¿Qué pasa si solo hago pagos mínimos?",
+      "a": "La calculadora muestra cómo pagar sólo el mínimo extiende su deuda y aumenta el interés total."
+    },
+    {
+      "q": "¿Debería utilizar una transferencia de saldo en lugar de esta herramienta?",
+      "a": "Una transferencia de saldo puede reducir el interés si califica para una APR inicial del 0%, pero la calculadora lo ayuda a comparar si es más beneficioso seguir un plan de pago o transferir saldos."
+    }
+  ]
+}

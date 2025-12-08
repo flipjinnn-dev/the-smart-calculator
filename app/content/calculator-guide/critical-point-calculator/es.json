@@ -1,0 +1,132 @@
+{
+  "color": "rojo",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de puntos críticos?",
+      "content": "Una calculadora de puntos críticos ayuda a encontrar los valores de x donde la derivada de una función es cero o no está definida, indicando posibles máximos, mínimos o puntos silla."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "content": "Usar una calculadora de puntos críticos de funciones es fácil y eficiente. Siga estos pasos para obtener resultados precisos.",
+      "subSections": [
+        {
+          "heading": "Pasos de uso:",
+          "content": "Ingrese la función: ingrese la función matemática en términos de x (por ejemplo, f(x) = x^3 - 3x + 2). Calcule la derivada: la calculadora encuentra automáticamente la primera derivada f'(x). Resuelva los puntos críticos: establezca f'(x) = 0 y resuelva x para encontrar puntos críticos potenciales. Identificar valores críticos: sustituir los valores de x en la función original. Clasificar puntos críticos: utilice la segunda derivada o el análisis de pendiente para determinar los puntos locales mínimos, máximos o de inflexión. Visualizar (opcional): algunas calculadoras proporcionan un gráfico para una mejor comprensión."
+        },
+        {
+          "heading": "Consejo",
+          "content": "Siempre verifique dos veces el dominio de su función para obtener resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave de la calculadora de puntos críticos",
+      "subSections": [
+        {
+          "heading": "Cálculo automático de derivadas",
+          "content": "Encuentra la derivada de cualquier función diferenciable automáticamente."
+        },
+        {
+          "heading": "Detección de puntos críticos",
+          "content": "Identifica puntos donde la derivada es cero o indefinida."
+        },
+        {
+          "heading": "Cálculo del valor crítico",
+          "content": "Sustituye puntos críticos para obtener valores de función exactos."
+        },
+        {
+          "heading": "Visualización gráfica",
+          "content": "Muestra un gráfico de la función con puntos críticos marcados."
+        },
+        {
+          "heading": "Solución paso a paso",
+          "content": "Proporciona soluciones detalladas para el aprendizaje y la verificación de tareas."
+        },
+        {
+          "heading": "Soporta funciones complejas",
+          "content": "Funciona con funciones polinomiales, trigonométricas, exponenciales y logarítmicas."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Estudiantes",
+          "content": "Revisa la tarea y comprende las derivadas y los extremos."
+        },
+        {
+          "heading": "ingenieros",
+          "content": "Analizar el comportamiento de funciones para problemas de optimización."
+        },
+        {
+          "heading": "Investigadores",
+          "content": "Identificar máximos, mínimos y puntos de inflexión en modelos científicos."
+        },
+        {
+          "heading": "Comerciantes y analistas",
+          "content": "Utilice funciones para modelar tendencias y encontrar puntos de inflexión críticos en los datos."
+        },
+        {
+          "heading": "Educadores",
+          "content": "Enseñe conceptos de cálculo con ejemplos visuales."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: función polinómica",
+          "content": "Función: f(x) = x^3 - 6x^2 + 9x + 1\nDerivada: f'(x) = 3x^2 - 12x + 9\nConjunto f'(x)=0 → x = 1, 3\nValores críticos: f(1) = 5, f(3) = 1\nClasificación: x=1 es un máximo local, x=3 es un mínimo local"
+        },
+        {
+          "heading": "Ejemplo 2: función trigonométrica",
+          "content": "Función: f(x) = pecado(x) + cos(2x)\nDerivada: f'(x) = cos(x) - 2sen(2x)\nResuelva f'(x)=0 → Encuentre todos los valores de x dentro del dominio.\nCalcule los valores críticos usando la función original.\nConsejo: utilice la calculadora para obtener resultados precisos en funciones complejas."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es un punto crítico?",
+      "a": "Un punto crítico es donde la derivada de una función es cero o no está definida, lo que a menudo indica un máximo, mínimo o punto de inflexión local."
+    },
+    {
+      "q": "¿Cómo funciona la Calculadora de Puntos Críticos?",
+      "a": "Diferencia automáticamente la función, resuelve ceros o puntos indefinidos y calcula los valores de función correspondientes."
+    },
+    {
+      "q": "¿Puedo usarlo para cualquier función?",
+      "a": "Sí, funciona para funciones polinomiales, trigonométricas, exponenciales y logarítmicas."
+    },
+    {
+      "q": "¿Es exacto?",
+      "a": "Sí, pero para funciones complejas o por partes, se recomienda la verificación manual."
+    },
+    {
+      "q": "¿Proporciona soluciones paso a paso?",
+      "a": "La mayoría de las calculadoras ofrecen soluciones paso a paso con fines de aprendizaje."
+    },
+    {
+      "q": "¿Puedo graficar la función?",
+      "a": "Sí, la visualización gráfica está disponible en muchas calculadoras para ver los puntos críticos con claridad."
+    },
+    {
+      "q": "¿Puedo encontrar extremos globales?",
+      "a": "Los puntos críticos ayudan a localizar los extremos locales. Para encontrar extremos globales, analice los puntos finales junto con los puntos críticos."
+    },
+    {
+      "q": "¿Necesito saber cálculo?",
+      "a": "La comprensión básica ayuda, pero la calculadora simplifica los cálculos de valores críticos y derivados."
+    },
+    {
+      "q": "¿Es de uso gratuito?",
+      "a": "Muchas calculadoras en línea son gratuitas, aunque algunas pueden tener funciones premium."
+    },
+    {
+      "q": "¿Por qué es útil para estudiantes y profesionales?",
+      "a": "Ahorra tiempo, reduce errores y proporciona una visualización clara para el análisis de funciones."
+    }
+  ]
+}

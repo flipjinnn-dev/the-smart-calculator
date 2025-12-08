@@ -1,0 +1,105 @@
+{
+  "color": "rosa",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de forma de bolo?",
+      "content": "A Calculadora de Formas de Bolo ajuda a adaptar receitas para diferentes tamanhos e formatos de formas de bolo. Seja redondo, quadrado ou retangular, ele calcula o volume da massa e o fator de escala, para que seu bolo caiba perfeitamente e asse uniformemente."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "content": "Siga estas etapas para converter tamanhos de formas de bolo com precisão:",
+      "subSections": [
+        {
+          "heading": "Passos",
+          "content": "1. Selecione Bandeja Original – Escolha a forma e insira seu tamanho (diâmetro para redondo, comprimento × largura para quadrado/retangular).\n2. Selecione Target Pan – Insira o prato que deseja usar.\n3. Clique em Calcular – Obtenha o fator de escala e as quantidades ajustadas dos ingredientes instantaneamente.\n4. Dica – Encha as panelas de ½ a ⅔ para obter melhores resultados."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "content": "Este conversor de forma de bolo oferece ajustes precisos com base no volume:",
+      "subSections": [
+        {
+          "heading": "Características",
+          "content": "- Conversão instantânea de panelas – Funciona com panelas redondas, quadradas e retangulares.\n- Escala baseada em volume – Ajusta os ingredientes com base no volume da panela.\n- Suporta tamanhos de panelas comuns – Ideal para panificação doméstica e profissional.\n- Compatível com dispositivos móveis – Funciona perfeitamente em qualquer dispositivo.\n- Interface amigável – Simples para iniciantes e profissionais."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "content": "Os padeiros usam esta ferramenta para vários ajustes de receitas:",
+      "subSections": [
+        {
+          "heading": "Exemplos",
+          "content": "- Assado Caseiro: Utilize a assadeira que você possui sem modificar a receita incorretamente.\n- Dimensionamento de receitas: Faça bolos maiores ou menores com proporções adequadas.\n- Bolos em camadas: dimensione várias camadas com precisão.\n- Cozimento para eventos: útil para festas, aniversários e ocasiões especiais.\n- Panificação Profissional: Ajuda a padronizar receitas em padarias e escolas de culinária."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "content": "Aqui estão alguns exemplos comuns de conversão de pan:",
+      "subSections": [
+        {
+          "heading": "Exemplos",
+          "content": "- Redondo de 9 polegadas → Quadrado 8×8 → Reduza os ingredientes em 11%.\n- 8×8 quadrado → 9×13 retangular → Ingredientes duplos.\n- Rodada de 20 cm → Rodada de 25 cm → Aumenta os ingredientes em 56%."
+        }
+      ]
+    },
+    {
+      "heading": "Dicas e práticas recomendadas",
+      "content": "Dicas úteis para melhores resultados de cozimento:",
+      "subSections": [
+        {
+          "heading": "Pontas",
+          "content": "- Encha as panelas apenas até a metade, até dois terços.\n- Panelas redondas são convertidas em quadradas de maneira diferente – use o volume para obter precisão.\n- Monitore visualmente o cozimento - o tempo de cozimento pode variar de acordo com o formato da panela.\n- Ao dimensionar bolos grandes, pese os ingredientes para obter resultados precisos.\n- Use papel manteiga para garantir um cozimento uniforme em formas maiores."
+        }
+      ]
+    },
+    {
+      "heading": "Isenção de responsabilidade",
+      "content": "Esta calculadora fornece estimativas baseadas em volumes padrão de formas de bolo. Os tempos de cozimento podem variar dependendo da temperatura do forno, tipo de receita e consistência da massa."
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma calculadora de forma de bolo?",
+      "a": "Ele ajusta as quantidades de ingredientes ao usar diferentes tamanhos ou formatos de formas de bolo."
+    },
+    {
+      "q": "Posso converter panelas redondas em quadradas?",
+      "a": "Sim, suporta conversões entre panelas redondas, quadradas e retangulares."
+    },
+    {
+      "q": "Ele ajusta os ingredientes automaticamente?",
+      "a": "Sim, calcula um fator de escala para todos os ingredientes."
+    },
+    {
+      "q": "É adequado para bolos em camadas?",
+      "a": "Sim, ele ajusta as camadas proporcionalmente para um empilhamento uniforme."
+    },
+    {
+      "q": "Pode ajudar nos tempos de cozimento?",
+      "a": "Não calcula o tempo de cozimento; monitore visualmente o bolo para ver se está cozido."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Sim, funciona em smartphones, tablets e desktops."
+    },
+    {
+      "q": "Posso aumentar ou diminuir as receitas?",
+      "a": "Sim, calcula o fator de escala correto para bolos maiores ou menores."
+    },
+    {
+      "q": "É grátis?",
+      "a": "Sim, totalmente gratuito, sem necessidade de download."
+    },
+    {
+      "q": "Quem deve usar esta calculadora?",
+      "a": "Padeiros caseiros, padeiros profissionais, estudantes de culinária e qualquer pessoa que esteja ajustando receitas de bolo."
+    },
+    {
+      "q": "Por que usá-lo?",
+      "a": "Para garantir que os bolos caibam perfeitamente na forma e assem uniformemente."
+    }
+  ]
+}

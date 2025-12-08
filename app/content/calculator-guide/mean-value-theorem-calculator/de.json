@@ -1,0 +1,131 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Was ist ein Mittelwertsatzrechner?",
+      "content": "Der Mittelwertsatz-Rechner (MVT) ist ein Online-Tool, das den Punkt c findet, an dem die momentane Änderungsrate der durchschnittlichen Änderungsrate über ein Intervall entspricht. Es eignet sich perfekt für Schüler, Lehrer und Fachleute, um Berechnungen schnell zu überprüfen."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Geben Sie die Funktion ein",
+          "content": "Geben Sie die Funktion f(x) ein, die Sie analysieren möchten, z. B. f(x) = x^2 + 3x + 2."
+        },
+        {
+          "heading": "Geben Sie das Intervall [a, b] ein.",
+          "content": "Geben Sie den Startpunkt a und den Endpunkt b des Intervalls an."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Der Rechner findet sofort den/die Wert(e) von c, bei dem die Steigung der Tangente gleich der Steigung der Sekantenlinie über [a,b] ist."
+        },
+        {
+          "heading": "Überprüfen Sie die Ergebnisse",
+          "content": "Die Ausgabe zeigt den/die genauen Wert(e) von c, wodurch die Überprüfung schnell und einfach erfolgt."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale des Rechners",
+      "subSections": [
+        {
+          "heading": "Kostenloser Online-Zugriff",
+          "content": "Keine Installation oder Registrierung erforderlich."
+        },
+        {
+          "heading": "Sofortige Berechnungen",
+          "content": "Erhalten Sie Ergebnisse in Sekundenschnelle."
+        },
+        {
+          "heading": "Unterstützt mehrere Funktionen",
+          "content": "Funktioniert für Polynome, trigonometrische, exponentielle und logarithmische Funktionen."
+        },
+        {
+          "heading": "Benutzerfreundliche Oberfläche",
+          "content": "Entwickelt für Anfänger und Fortgeschrittene."
+        },
+        {
+          "heading": "Genaue Ergebnisse",
+          "content": "Verwendet symbolische Berechnungen, um genaue Werte von c bereitzustellen."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Ausbildung",
+          "content": "Hilft den Schülern, den Mittelwertsatz konzeptionell und praktisch zu verstehen."
+        },
+        {
+          "heading": "Hausaufgaben und Aufgaben",
+          "content": "Löst Probleme schnell mit genauen Ergebnissen."
+        },
+        {
+          "heading": "Prüfungsvorbereitung",
+          "content": "Üben Sie Berechnungen effizient."
+        },
+        {
+          "heading": "Forschung und Technik",
+          "content": "Analysieren Sie die Änderungsrate in der mathematischen Modellierung."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1",
+          "content": "Funktion: f(x) = x^2, Intervall: [1, 3]\nSekantensteigung: (f(3) - f(1)) / (3 - 1) = (9 - 1)/2 = 4\nAbleitung: f'(x) = 2x\nSetze f'(c) = 4 → 2c = 4 → c = 2"
+        },
+        {
+          "heading": "Beispiel 2",
+          "content": "Funktion: f(x) = x^3 - 6x + 1, Intervall: [0, 3]\nSekantensteigung: (f(3) - f(0)) / (3 - 0) = 3,333\nAbleitung: f'(x) = 3x^2 - 6\nSetze f'(c) = 3,333 → Auflösen nach c → c ≈ 1,88"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Mittelwertsatzrechner?",
+      "a": "Es handelt sich um ein Online-Tool, das den Punkt c findet, an dem die momentane Änderungsrate der durchschnittlichen Änderungsrate über ein Intervall entspricht."
+    },
+    {
+      "q": "Ist der Rechner kostenlos?",
+      "a": "Ja, es handelt sich um einen kostenlosen Online-Mittelwertsatz-Rechner."
+    },
+    {
+      "q": "Welche Funktionen werden unterstützt?",
+      "a": "Polynome, trigonometrische, exponentielle, logarithmische und andere differenzierbare Funktionen."
+    },
+    {
+      "q": "Muss ich mich registrieren, um es nutzen zu können?",
+      "a": "Es ist keine Registrierung oder Installation erforderlich."
+    },
+    {
+      "q": "Kann es mehrere Werte von c finden?",
+      "a": "Ja, wenn innerhalb des Intervalls mehrere Lösungen existieren, zeigt der Rechner alle möglichen c-Werte an."
+    },
+    {
+      "q": "Ist es für komplexe Funktionen genau?",
+      "a": "Der Rechner verwendet symbolische Berechnungen für präzise Ergebnisse, sehr komplexe oder stückweise Funktionen erfordern jedoch möglicherweise eine manuelle Überprüfung."
+    },
+    {
+      "q": "Können Schüler es für Hausaufgaben verwenden?",
+      "a": "Absolut – es ist perfekt zum effizienten Lernen, Üben und Lösen von Aufgaben."
+    },
+    {
+      "q": "Erklärt es die Schritte?",
+      "a": "Die meisten Rechner liefern zusammen mit dem Ergebnis die Ableitungs- und Steigungsberechnung."
+    },
+    {
+      "q": "Kann es manuelle Berechnungen ersetzen?",
+      "a": "Es kann hilfreich sein, aber für ein vollständiges Verständnis wird empfohlen, das MVT-Konzept manuell zu verstehen."
+    },
+    {
+      "q": "Wo kann ich darauf zugreifen?",
+      "a": "Sie können online über jeden Webbrowser darauf zugreifen, ohne Software herunterladen zu müssen."
+    }
+  ]
+}

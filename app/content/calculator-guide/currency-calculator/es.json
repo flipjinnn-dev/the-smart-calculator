@@ -1,0 +1,123 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "¿Por qué utilizar nuestra calculadora de divisas?",
+      "subSections": [
+        {
+          "heading": "Tipos de cambio en vivo",
+          "content": "Obtenga valores de divisas en tiempo real actualizados cada pocos segundos desde los mercados de divisas y los bancos centrales globales."
+        },
+        {
+          "heading": "Más de 50 monedas admitidas",
+          "content": "Convierta entre USD, EUR, GBP, JPY, CAD, AUD, INR, CNY y más con resultados instantáneos."
+        },
+        {
+          "heading": "Apto para viajes",
+          "content": "Perfecto para viajeros internacionales: evite comisiones bancarias ocultas y calcule los costos en el extranjero al instante."
+        },
+        {
+          "heading": "Modo multidivisa",
+          "content": "Convierta varias monedas a la vez, lo que lo hace ideal para empresas que realizan transacciones internacionales."
+        },
+        {
+          "heading": "Opción de datos históricos",
+          "content": "Compare tasas anteriores para tomar mejores decisiones financieras y de inversión."
+        },
+        {
+          "heading": "Soporte para criptomonedas y Fiat",
+          "content": "Realice un seguimiento de las monedas tradicionales y las criptomonedas en una sola calculadora."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de divisas",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Ingrese la cantidad que desea convertir."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Seleccione la moneda base (por ejemplo, USD)."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Elija la moneda de destino (por ejemplo, EUR, INR, GBP)."
+        },
+        {
+          "heading": "Paso 4",
+          "content": "Haga clic en calcular para obtener el tipo de cambio en vivo y el monto convertido."
+        },
+        {
+          "heading": "Paso 5",
+          "content": "Opcional: habilite el modo histórico o el modo multidivisa para obtener información más detallada."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo funciona la calculadora (proceso y metodología)",
+      "subSections": [
+        {
+          "heading": "Datos de Forex en vivo",
+          "content": "La calculadora obtiene tasas en tiempo real de bancos centrales e instituciones financieras."
+        },
+        {
+          "heading": "Fórmula de conversión",
+          "content": "Valor convertido = Monto × Tipo de cambio actual."
+        },
+        {
+          "heading": "Exactitud",
+          "content": "A diferencia de los bancos, que añaden comisiones y márgenes, esta herramienta muestra tasas puras del mercado medio."
+        },
+        {
+          "heading": "Funciones avanzadas",
+          "content": "Incluye conversiones multidivisa, comparación de tarifas y verificaciones de tasas históricas."
+        }
+      ]
+    },
+    {
+      "heading": "Escenarios de conversión de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo de viaje",
+          "content": "Al convertir 1.000 dólares estadounidenses a euros a un tipo de cambio de 1,10, se obtienen 1.100 euros al instante, lo que ayuda a los viajeros a planificar sus gastos en el extranjero."
+        },
+        {
+          "heading": "Ejemplo de negocio",
+          "content": "Una empresa que recibe 100.000 INR de la India puede comprobar el valor en USD en tiempo real, lo que garantiza transacciones internacionales justas."
+        },
+        {
+          "heading": "Ejemplo de estudiante",
+          "content": "Un estudiante que estudia finanzas puede comparar las tasas históricas del GBP/USD para aprender cómo fluctúan los mercados cambiarios con el tiempo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es la calculadora de moneda en línea más precisa?",
+      "a": "Las calculadoras más precisas utilizan datos del mercado de divisas en vivo y actualizados en tiempo real, como este."
+    },
+    {
+      "q": "¿Cómo actualizan las calculadoras de divisas las tasas?",
+      "a": "Se conectan a fuentes globales de divisas y se actualizan automáticamente cada pocos segundos."
+    },
+    {
+      "q": "¿Puedo usar esta calculadora para viajar?",
+      "a": "Sí, está diseñado para que los viajeros internacionales calculen los costos en el extranjero al instante sin cargos ocultos."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre los tipos de cambio bancarios y los tipos de calculadora?",
+      "a": "Los bancos suelen añadir márgenes de conversión y comisiones. Esta calculadora muestra las tasas del mercado medio para que pueda comparar de manera justa."
+    },
+    {
+      "q": "¿Puedo convertir varias monedas a la vez?",
+      "a": "Sí, el modo multidivisa le permite convertir varias monedas en un solo cálculo."
+    },
+    {
+      "q": "¿Admite conversiones de criptomonedas?",
+      "a": "Sí, admite tanto monedas fiduciarias como las principales criptomonedas para conversiones en tiempo real."
+    }
+  ]
+}

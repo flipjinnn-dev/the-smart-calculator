@@ -1,0 +1,139 @@
+{
+  "color": "pomarańczowy",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator jardów sześciennych?",
+      "content": "Kalkulator metrów sześciennych pomaga zmierzyć objętość gleby, żwiru, betonu lub ściółki w metrach sześciennych. Dokładne oszacowanie ilości i kosztów materiałów w budownictwie, architekturze krajobrazu i projektach typu „zrób to sam” jest niezbędne."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wprowadź wymiary",
+          "content": "Wprowadź długość, szerokość i głębokość."
+        },
+        {
+          "heading": "Wybierz Jednostki",
+          "content": "Użyj stóp, cali lub jardów."
+        },
+        {
+          "heading": "Opcjonalnie: wprowadź cenę za metr sześcienny",
+          "content": "Do obliczenia całkowitego kosztu."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast uzyskaj objętość w metrach sześciennych i całkowity koszt."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Dokładnie sprawdź pomiary, aby uzyskać dokładne wyniki."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Dokładne obliczanie objętości",
+          "content": "Używa standardowych formuł."
+        },
+        {
+          "heading": "Elastyczne jednostki",
+          "content": "Obsługuje stopy, cale i jardy."
+        },
+        {
+          "heading": "Szacowanie kosztów",
+          "content": "Oblicza koszt całkowity, jeśli wprowadzono cenę za metr sześcienny."
+        },
+        {
+          "heading": "Interfejs przyjazny dla urządzeń mobilnych",
+          "content": "Działa na wszystkich urządzeniach."
+        },
+        {
+          "heading": "Wsparcie wielu materiałów",
+          "content": "Idealny do gleby, żwiru, betonu, piasku lub ściółki."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Budowa",
+          "content": "Oszacuj beton na płyty, stopy i fundamenty."
+        },
+        {
+          "heading": "Kształtowanie krajobrazu",
+          "content": "Oblicz glebę, ściółkę lub żwir dla ogrodów i ścieżek."
+        },
+        {
+          "heading": "Projekty DIY",
+          "content": "Planuj podjazdy, tarasy i małe prace ziemne."
+        },
+        {
+          "heading": "Kupujący/dostawcy materiałów",
+          "content": "Przed złożeniem zamówienia określ ilość i koszt."
+        },
+        {
+          "heading": "Edukacja",
+          "content": "Naucz się obliczania objętości dla obszarów prostopadłościennych i prostokątnych."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1",
+          "content": "Powierzchnia: 10 stóp × 5 stóp × 2 stopy | Jardy sześcienne = (10 × 5 × 2) ÷ 27 = 3,7 jarda³"
+        },
+        {
+          "heading": "Przykład 2 – Kalkulacja kosztów",
+          "content": "Objętość: 5 jardów³ | Cena za metr sześcienny: 40 USD | Całkowity koszt = 5 × 40 = 200 USD"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest metr sześcienny?",
+      "a": "1 jard³ = 1 jard × 1 jard × 1 jard = 27 stóp sześciennych."
+    },
+    {
+      "q": "Dlaczego warto korzystać z kalkulatora jardów sześciennych?",
+      "a": "Aby zaoszczędzić czas i uniknąć błędów w obliczeniach."
+    },
+    {
+      "q": "Czy mogę używać stóp, cali lub jardów?",
+      "a": "Tak, wszystkie są obsługiwane."
+    },
+    {
+      "q": "Czy to działa w wielu obszarach?",
+      "a": "Tak, możesz obliczyć całkowitą objętość dla wielu obszarów."
+    },
+    {
+      "q": "Czy mogę obliczyć całkowity koszt?",
+      "a": "Tak, jeśli wpisana jest cena za metr sześcienny."
+    },
+    {
+      "q": "Czy nadaje się do projektów DIY?",
+      "a": "Tak, do ogrodów, tarasów, podjazdów i architektury krajobrazu."
+    },
+    {
+      "q": "Czy uwzględnia odpady?",
+      "a": "Nie, oblicza objętość teoretyczną. Dodaj dodatkową ilość do odpadów lub zagęszczenia."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa na wszystkich urządzeniach."
+    },
+    {
+      "q": "Kto powinien korzystać z tego kalkulatora?",
+      "a": "Wykonawcy, architekci krajobrazu, majsterkowicze, nabywcy materiałów i studenci."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, w 100% darmowy i nie wymaga pobierania."
+    }
+  ]
+}

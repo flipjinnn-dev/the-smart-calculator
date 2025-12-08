@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for indiana-child-support-calculator
 const indianachildsupportcalculatorMeta = {
@@ -35,7 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = indianachildsupportcalculatorMeta[language as keyof typeof indianachildsupportcalculatorMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCanonicalUrl('indiana-child-support-calculator', language);
 
@@ -66,5 +67,168 @@ export default async function IndianaChildSupportCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Indiana Child Support Calculator",
+    "url": "https://www.thesmartcalculator.com/indiana-child-support-calculator",
+    "description": "Free Indiana Child Support Calculator to estimate support payments based on income, custody, number of children, and child-related expenses.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Indiana Child Support Calculator",
+        "applicationCategory": "FinancialApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Estimate child support obligations under Indiana guidelines",
+          "Include income, custody, children count, and expenses",
+          "Quick calculation with detailed breakdown",
+          "Free and mobile-friendly",
+          "Useful for budgeting, legal planning, and custody decisions"
+        ],
+        "url": "https://www.thesmartcalculator.com/indiana-child-support-calculator"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Indiana Child Support Calculator",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Indiana Child Support Calculator",
+            "text": "Input gross weekly or monthly income for each parent."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Indiana Child Support Calculator",
+            "text": "Add any prior child support or spousal maintenance obligations."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Indiana Child Support Calculator",
+            "text": "Enter the number of children requiring support."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Indiana Child Support Calculator",
+            "text": "Include childcare costs, health insurance, or other relevant expenses."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Indiana Child Support Calculator",
+            "text": "Enter overnights or custody arrangement."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 6,
+            "name": "Indiana Child Support Calculator",
+            "text": "View estimated child support obligation instantly."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the Indiana Child Support Calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It estimates child support payments based on Indiana state guidelines."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this calculator free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is completely free to use online."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need software?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, it works directly in any browser."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it calculate exact court orders?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, results are estimates; actual court orders may vary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it include childcare and insurance costs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, you can input relevant child-related expenses."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it account for custody or parenting time?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, shared custody and overnights affect the estimate."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it handle multiple children?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, you can enter the number of children for support calculation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it suitable for legal planning?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it provides guideline estimates but not legal advice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can incomes be adjusted for deductions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, prior obligations like existing support or maintenance can be included."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How accurate are results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Results are reliable based on inputs, but court-ordered support may differ."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="indiana-child-support-calculator-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

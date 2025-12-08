@@ -10,11 +10,11 @@ import { getLanguageSwitcherUrl } from "@/lib/url-utils"
 export default function Header() {
   const pathname = usePathname()
   const [language, setLanguage] = useState("en")
-  
+
   // Extract language from pathname
   useEffect(() => {
     if (pathname) {
-      const langMatch = pathname.match(/^\/(br|pl|de)/)
+      const langMatch = pathname.match(/^\/(br|pl|de|es)/)
       setLanguage(langMatch ? langMatch[1] : "en")
     }
   }, [pathname])
@@ -25,13 +25,14 @@ export default function Header() {
     { code: "br", name: "Português" },
     { code: "pl", name: "Polski" },
     { code: "de", name: "Deutsch" },
+    { code: "es", name: "Español" },
   ]
 
   // Function to change language
   const changeLanguage = (newLanguage: string) => {
     // Use the url-utils function to generate the correct language-switched URL
     const newPath = getLanguageSwitcherUrl(pathname, newLanguage)
-    
+
     // Navigate to new path with full page reload to ensure content updates
     if (newPath && newPath !== pathname) {
       window.location.href = newPath;
@@ -63,10 +64,10 @@ export default function Header() {
                 <p className="text-sm text-gray-500">Free Online Calculators</p>
               </div>
             </div>
-            
+
             {/* Language Selector */}
             <div className="relative">
-              <select 
+              <select
                 value={language}
                 onChange={(e) => changeLanguage(e.target.value)}
                 className="bg-white border border-gray-300 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"

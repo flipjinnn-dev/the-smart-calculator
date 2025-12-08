@@ -1,0 +1,180 @@
+{
+  "pageTitle": "Calculadora de salario",
+  "pageDescription": "Calcule su salario neto después de impuestos y deducciones con un análisis salarial completo que incluye horas extra, bonificaciones y valoración de beneficios.",
+  "form": {
+    "labels": {
+      "grossSalary": "Salario Bruto Anual",
+      "payFrequency": "Frecuencia de pago",
+      "filingStatus": "Estado civil para efectos de la declaración de impuestos",
+      "dependents": "Número de dependientes",
+      "additionalIncome": "Ingresos Adicionales",
+      "overtimeHours": "Horas extras mensuales",
+      "overtimeRate": "Tarifa de horas extras",
+      "bonuses": "Bonos Anuales",
+      "preTaxDeductions": "Deducciones antes de impuestos",
+      "postTaxDeductions": "Deducciones después de impuestos"
+    },
+    "placeholders": {
+      "grossSalary": "Introduzca el salario bruto anual",
+      "additionalIncome": "Introduzca ingresos adicionales",
+      "overtimeHours": "Ingrese las horas extras mensuales",
+      "overtimeRate": "Ingrese la tarifa de horas extras",
+      "bonuses": "Introduzca bonos anuales",
+      "preTaxDeductions": "Ingrese las deducciones antes de impuestos",
+      "postTaxDeductions": "Ingrese las deducciones después de impuestos"
+    },
+    "buttons": {
+      "calculate": "Calcular el salario neto",
+      "reset": "Reiniciar"
+    },
+    "payFrequencies": {
+      "annually": "Anualmente",
+      "monthly": "Mensual",
+      "biweekly": "Quincenal",
+      "weekly": "Semanalmente"
+    },
+    "filingStatuses": {
+      "single": "Soltero",
+      "married": "Casado que presenta una declaración conjunta",
+      "head": "Jefe de familia",
+      "separate": "Casado que declara por separado"
+    }
+  },
+  "results": {
+    "grossAnnual": "Ingreso Bruto Anual",
+    "grossMonthly": "Ingreso mensual bruto",
+    "totalDeductions": "Deducciones totales",
+    "netAnnual": "Ingreso anual neto",
+    "netMonthly": "Ingreso mensual neto",
+    "taxBreakdown": "Desglose de impuestos",
+    "salaryResultsTitle": "Resultados del cálculo del salario"
+  },
+  "educational": {
+    "salaryInfo": "Información salarial",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos financieros",
+    "salaryFacts": {
+      "grossVsNet": {
+        "title": "Pago bruto versus pago neto",
+        "description": "El salario bruto es antes de las deducciones; el pago neto es lo que realmente recibes"
+      },
+      "deductions": {
+        "title": "Deducciones Comunes",
+        "description": "Impuesto federal, impuesto estatal, Seguro Social, Medicare, primas de seguros"
+      },
+      "benefits": {
+        "title": "Valoración de Beneficios",
+        "description": "Los beneficios del empleador, como el seguro médico, pueden valer entre el 30 y el 40% del salario"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora solo proporciona estimaciones de cálculo de salario",
+      "actual": "El salario neto real puede variar según situaciones fiscales y deducciones específicas."
+    },
+    "importantNotesList": [
+      "Las deducciones antes de impuestos reducen la renta imponible",
+      "Las deducciones antes de impuestos reducen la renta imponible",
+      "Considere el paquete de compensación total, no sólo el salario",
+      "Los períodos de pago regulares ayudan con la elaboración de presupuestos y la planificación financiera."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información de su salario para calcular el salario neto",
+    "resultMessage": "Los resultados del cálculo de su salario se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del salario:",
+    "salaryAnalysis": "Análisis salarial"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones de cálculo salarial basadas en información fiscal general. El salario neto real puede variar según situaciones fiscales específicas, impuestos locales y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos financieros",
+    "content": "Para un análisis salarial personalizado y planificación fiscal, consulte a profesionales fiscales o asesores financieros con experiencia en compensaciones y circunstancias fiscales individuales."
+  },
+  "errors": {
+    "grossSalary": "Por favor ingrese un salario bruto válido",
+    "payFrequency": "Por favor seleccione una frecuencia de pago",
+    "filingStatus": "Por favor seleccione un estado civil para efectos de la declaración",
+    "dependents": "Por favor ingrese un número válido de dependientes",
+    "additionalIncome": "Por favor ingrese ingresos adicionales válidos",
+    "overtimeHours": "Por favor ingrese horas extras válidas",
+    "overtimeRate": "Por favor ingrese una tarifa de horas extra válida",
+    "bonuses": "Por favor ingresa un monto de bonificación válido",
+    "preTaxDeductions": "Por favor ingrese deducciones válidas antes de impuestos",
+    "postTaxDeductions": "Por favor ingrese deducciones válidas después de impuestos"
+  },
+  "tooltips": {
+    "grossSalary": "Su salario anual total antes de cualquier deducción",
+    "payFrequency": "¿Con qué frecuencia recibe su cheque de pago?",
+    "filingStatus": "Su estado civil para efectos de la declaración de impuestos afecta las tasas impositivas y las deducciones",
+    "dependents": "Número de dependientes reclamados en su declaración de impuestos",
+    "additionalIncome": "Ingresos de fuentes distintas a su trabajo principal",
+    "overtimeHours": "Promedio de horas extras mensuales trabajadas",
+    "overtimeRate": "Tasa de pago por horas extras (normalmente 1,5 veces la tarifa regular)",
+    "bonuses": "Montos de bonificación anuales recibidos",
+    "preTaxDeductions": "Deducciones tomadas antes de impuestos (401k, HSA, etc.)",
+    "postTaxDeductions": "Deducciones tomadas después de impuestos (Roth IRA, cuotas sindicales, etc.)"
+  },
+  "salary_calculator_0": "Calculadora de salario",
+  "salary_information_1": "Información salarial",
+  "salary_amount_2": "Monto del salario",
+  "pay_frequency_3": "Frecuencia de pago",
+  "hourly_4": "Cada hora",
+  "daily_5": "A diario",
+  "weekly_6": "Semanalmente",
+  "biweekly_7": "Quincenal",
+  "semimonthly_8": "quincenal",
+  "monthly_9": "Mensual",
+  "quarterly_10": "Trimestral",
+  "yearly_11": "Anual",
+  "work_schedule_12": "Horario de trabajo",
+  "hours_per_week_13": "Horas por semana",
+  "days_per_week_14": "Días por semana",
+  "holidays_per_year_15": "Vacaciones por año",
+  "vacation_days_per_year_16": "Días de vacaciones por año",
+  "calculate_17": "Calcular",
+  "salary_results_18": "Resultados salariales",
+  "your_salary_breakdown_and_conversions_19": "Su desglose salarial y conversiones",
+  "unadjusted_annual_20": "Anual sin ajustar",
+  "k_260_working_days_21": "260 días laborables",
+  "adjusted_annual_22": "Anual Ajustado",
+  "working_days_23": "dias laborables",
+  "pay_period_conversions_24": "Conversiones del período de pago",
+  "period_25": "Período",
+  "unadjusted_26": "Sin ajustar",
+  "adjusted_27": "Equilibrado",
+  "assumptions_used_28": "Supuestos utilizados:",
+  "k_52_working_weeks_per_year_29": "• 52 semanas laborales al año",
+  "k_5_working_days_per_week_260_total_days_30": "• 5 días laborables por semana = 260 días en total",
+  "holidays_vacation_days_31": "• Días festivos + días de vacaciones:",
+  "days_32": "días",
+  "adjusted_calculation_removes_nonworking_days_33": "• El cálculo ajustado elimina los días no laborables",
+  "enter_your_salary_information_to_see_conversions_34": "Ingrese la información de su salario para ver las conversiones",
+  "formulas_logic_35": "Fórmulas y lógica",
+  "annual_salary_conversion_36": "Conversión de salario anual",
+  "hourly_37": "Cada hora:",
+  "rate_hoursweek_52_weeks_38": "Tarifa × Horas/Semana × 52 semanas",
+  "daily_39": "A diario:",
+  "rate_260_days_40": "Tarifa × 260 días",
+  "weekly_41": "Semanalmente:",
+  "rate_52_weeks_42": "Tarifa × 52 semanas",
+  "biweekly_43": "Quincenal:",
+  "rate_26_periods_44": "Tarifa × 26 periodos",
+  "semimonthly_45": "Quincenal:",
+  "rate_24_periods_46": "Tarifa × 24 periodos",
+  "monthly_47": "Mensual:",
+  "rate_12_months_48": "Tarifa × 12 meses",
+  "quarterly_49": "Trimestral:",
+  "rate_4_quarters_50": "Tarifa × 4 trimestres",
+  "adjusted_salary_51": "Salario ajustado",
+  "adjusted_annual_unadjusted_annual_working_days_aft_52": "Anual ajustado = Anual no ajustado × (Días laborables después del tiempo libre ÷ 260)",
+  "working_days_260_holidays_vacation_days_53": "Días laborables = 260 - (Días festivos + Días de vacaciones)",
+  "example_calculation_54": "Ejemplo de cálculo",
+  "if_rate_25hour_40_hoursweek_25_days_off_55": "Si tarifa = $25/hora, 40 horas/semana, 25 días libres:",
+  "unadjusted_annual_25_40_52_52000_56": "• Anual sin ajustar = $25 × 40 × 52 = $52,000",
+  "working_days_260_25_235_days_57": "• Días laborables = 260 - 25 = 235 días",
+  "adjusted_annual_52000_235_260_47000_58": "• Anual ajustado = $52 000 × (235 ÷ 260) = $47 000"
+}

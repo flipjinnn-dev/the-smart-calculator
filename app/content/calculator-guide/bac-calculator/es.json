@@ -1,0 +1,164 @@
+{
+  "color": "púrpura",
+  "sections": [
+    {
+      "heading": "¿Qué es la calculadora del contenido de alcohol en sangre (BAC)?",
+      "content": "La Calculadora de contenido de alcohol en sangre (BAC) es una herramienta confiable que estima sus niveles de alcohol en función de las bebidas consumidas, el peso corporal, el sexo y el tiempo. A diferencia de las adivinanzas, esta calculadora aplica fórmulas científicas como Widmark y Watson para estimar el porcentaje de BAC. Puede utilizar esta Calculadora de BAC en línea de forma gratuita para realizar un seguimiento de su consumo de alcohol, comprender los límites y reducir el riesgo de DUI o daños relacionados con el alcohol."
+    },
+    {
+      "heading": "Cómo se calcula el BAC con precisión",
+      "subSections": [
+        {
+          "heading": "Peso corporal y sexo",
+          "content": "Las personas con mayor peso generalmente tienen un BAC más bajo para la misma ingesta de alcohol. El género también afecta el metabolismo del alcohol."
+        },
+        {
+          "heading": "Número de bebidas consumidas",
+          "content": "Más bebidas aumentan el BAC, según el volumen y el porcentaje de alcohol."
+        },
+        {
+          "heading": "Tiempo desde el primer trago",
+          "content": "La BAC disminuye gradualmente a medida que el cuerpo metaboliza el alcohol (aproximadamente 0,015 % por hora)."
+        },
+        {
+          "heading": "Concentración de alcohol",
+          "content": "Diferentes bebidas (cerveza, vino, licores) contienen diferentes porcentajes de alcohol."
+        },
+        {
+          "heading": "Metabolismo y tolerancia",
+          "content": "Las diferencias individuales como la salud del hígado, el metabolismo y la tolerancia afectan el BAC."
+        }
+      ]
+    },
+    {
+      "heading": "Fórmulas comunes utilizadas en las calculadoras BAC",
+      "subSections": [
+        {
+          "heading": "Fórmula de marca ancha",
+          "content": "Estima el BAC utilizando el peso corporal, el sexo, las bebidas consumidas y las horas desde que bebió."
+        },
+        {
+          "heading": "Fórmula de Watson",
+          "content": "Un método más avanzado que considera el contenido de agua corporal para un cálculo preciso."
+        },
+        {
+          "heading": "Herramientas BAC inteligentes",
+          "content": "Las calculadoras BAC modernas combinan fórmulas para brindar resultados rápidos y confiables."
+        }
+      ]
+    },
+    {
+      "heading": "Efectos de los niveles de BAC en el cuerpo y el cerebro",
+      "subSections": [
+        {
+          "heading": "0,02–0,05%",
+          "content": "Leve relajación, ligera euforia."
+        },
+        {
+          "heading": "0,06–0,10%",
+          "content": "Juicio deteriorado, coordinación reducida, tiempo de reacción más lento."
+        },
+        {
+          "heading": "0,11–0,20%",
+          "content": "Deterioro significativo, falta de equilibrio, dificultad para hablar."
+        },
+        {
+          "heading": "0,21–0,30%",
+          "content": "Confusión, mareos, riesgo de desmayo."
+        },
+        {
+          "heading": "0,31–0,40%",
+          "content": "Intoxicación grave, posible pérdida del conocimiento."
+        },
+        {
+          "heading": "0,41%+",
+          "content": "Intoxicación por alcohol potencialmente mortal."
+        }
+      ]
+    },
+    {
+      "heading": "Límites legales de BAC y conciencia de DUI",
+      "subSections": [
+        {
+          "heading": "Conductores estadounidenses (21+)",
+          "content": "0,08% BAC es el límite legal en la mayoría de los estados."
+        },
+        {
+          "heading": "Europa",
+          "content": "Muchos países establecen el límite en 0,05% BAC."
+        },
+        {
+          "heading": "Conductores profesionales y menores de edad",
+          "content": "Los límites oscilan entre 0,00 y 0,03% BAC, según la ley."
+        },
+        {
+          "heading": "Riesgo de DUI",
+          "content": "Incluso pequeñas cantidades de alcohol pueden afectar la capacidad de conducir."
+        }
+      ]
+    },
+    {
+      "heading": "Limitaciones de las calculadoras BAC",
+      "subSections": [
+        {
+          "heading": "Sólo estimaciones",
+          "content": "Es posible que los resultados no reflejen el BAC exacto debido al metabolismo, los medicamentos o la ingesta de alimentos."
+        },
+        {
+          "heading": "No es una herramienta legal",
+          "content": "No reemplaza el alcoholímetro ni las pruebas policiales."
+        },
+        {
+          "heading": "Factores de salud",
+          "content": "Condiciones como la enfermedad hepática o la edad afectan la precisión."
+        },
+        {
+          "heading": "Práctica segura",
+          "content": "Nunca confíes únicamente en una calculadora para decidir si puedes conducir."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es un nivel de BAC seguro para conducir?",
+      "a": "Por lo general, mantenerse por debajo del 0,08 % de BAC es legalmente seguro para los conductores en los EE. UU., pero pueden aplicarse límites más bajos según la edad o la profesión."
+    },
+    {
+      "q": "¿Cómo calculo mi BAC?",
+      "a": "Ingrese su peso, sexo, bebidas consumidas y tiempo desde que bebió en esta Calculadora de BAC. Aplica fórmulas de Widmark y Watson."
+    },
+    {
+      "q": "¿Cuánto tiempo lleva recuperar la sobriedad?",
+      "a": "En promedio, el cuerpo metaboliza el alcohol a una concentración de 0,015% BAC por hora, pero esto varía según la edad, el metabolismo y la salud del hígado."
+    },
+    {
+      "q": "¿Cuántas bebidas alcanzan el 0,08% BAC?",
+      "a": "Depende del peso, el sexo, la intensidad de la bebida y el ritmo. Utilice la Calculadora de BAC por bebidas y peso para obtener una estimación personalizada."
+    },
+    {
+      "q": "¿Son precisas las calculadoras de BAC?",
+      "a": "Proporcionan estimaciones, pero no pueden dar cuenta de variaciones individuales como la ingesta de alimentos, la tolerancia o los medicamentos."
+    },
+    {
+      "q": "¿El peso corporal afecta el BAC?",
+      "a": "Sí. Un peso corporal más alto generalmente diluye la concentración de alcohol, lo que resulta en un BAC más bajo para la misma cantidad de bebidas."
+    },
+    {
+      "q": "¿Pueden los deportistas o las personas mayores utilizar una calculadora de BAC?",
+      "a": "Sí. Los atletas pueden mostrar un BAC más bajo debido a una mayor masa muscular, mientras que las personas mayores pueden metabolizar el alcohol más lentamente."
+    },
+    {
+      "q": "¿Qué tan rápido sale el alcohol del torrente sanguíneo?",
+      "a": "En promedio, se metaboliza un 0,015% de BAC por hora, pero la hidratación, la alimentación y la salud del hígado afectan esto."
+    },
+    {
+      "q": "¿Pueden las calculadoras BAC prevenir DUI?",
+      "a": "Crean conciencia pero no pueden reemplazar las decisiones responsables. Evite siempre conducir después de beber."
+    },
+    {
+      "q": "¿Puede la IA ayudar a rastrear los niveles de BAC?",
+      "a": "Sí. Las calculadoras y aplicaciones de BAC impulsadas por IA pueden monitorear el consumo, estimar el BAC en tiempo real y brindar consejos de seguridad."
+    }
+  ]
+}

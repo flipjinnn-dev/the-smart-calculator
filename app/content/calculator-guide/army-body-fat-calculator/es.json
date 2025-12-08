@@ -1,0 +1,160 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "¿Qué es la Calculadora de grasa corporal del ejército?",
+      "content": "La Calculadora de grasa corporal del ejército es una herramienta confiable que ayuda a determinar si los soldados cumplen con los estándares de composición corporal del ejército de EE. UU. descritos en AR 600-9. A diferencia del IMC, que solo considera la altura y el peso, esta calculadora utiliza la fórmula Army Tape Test, un método basado en la circunferencia que mide partes específicas del cuerpo para estimar el porcentaje de grasa corporal. Puede utilizar esta Calculadora de grasa corporal del Ejército de EE. UU. en línea de forma gratuita para verificar el cumplimiento antes del alistamiento, durante el servicio o para evaluaciones de condición física de rutina."
+    },
+    {
+      "heading": "Cómo funciona la prueba de cinta militar (estándares AR 600-9)",
+      "subSections": [
+        {
+          "heading": "Para hombres",
+          "content": "Las medidas incluyen cuello y abdomen."
+        },
+        {
+          "heading": "Para mujeres",
+          "content": "Las medidas incluyen cuello, cintura y caderas."
+        },
+        {
+          "heading": "Aplicación de fórmula",
+          "content": "Una fórmula que utiliza estas medidas, junto con la altura y la edad, determina el porcentaje de grasa corporal."
+        },
+        {
+          "heading": "Objetivo",
+          "content": "Garantiza que los soldados se mantengan preparados y cumplan con los estándares de la Calculadora de requisitos de grasa corporal del ejército."
+        }
+      ]
+    },
+    {
+      "heading": "Cómo utilizar la calculadora de grasa corporal del ejército en línea",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Seleccione hombre o mujer."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "Introduzca edad, altura y peso."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Mida los puntos de circunferencia (abdomen, cuello, cintura, caderas según corresponda)."
+        },
+        {
+          "heading": "Paso 4",
+          "content": "La herramienta aplica la fórmula de prueba de cinta del ejército para estimar la grasa corporal."
+        },
+        {
+          "heading": "Paso 5",
+          "content": "Compare los resultados con la herramienta de gráfico de grasa corporal del ejército para verificar el cumplimiento."
+        }
+      ]
+    },
+    {
+      "heading": "Estándares de grasa corporal del ejército por edad y sexo (gráfico + fórmula)",
+      "subSections": [
+        {
+          "heading": "Hombres de 17 a 20 años",
+          "content": "20%"
+        },
+        {
+          "heading": "Hombres de 21 a 27 años",
+          "content": "22%"
+        },
+        {
+          "heading": "Hombres de 28 a 39 años",
+          "content": "24%"
+        },
+        {
+          "heading": "Hombres mayores de 40 años",
+          "content": "26%"
+        },
+        {
+          "heading": "Mujeres de 17 a 20 años",
+          "content": "30%"
+        },
+        {
+          "heading": "Mujeres de 21 a 27 años",
+          "content": "32%"
+        },
+        {
+          "heading": "Mujeres de 28 a 39 años",
+          "content": "34%"
+        },
+        {
+          "heading": "Mujeres mayores de 40 años",
+          "content": "36%"
+        }
+      ]
+    },
+    {
+      "heading": "Calculadora de grasa corporal del ejército frente a calculadora de IMC",
+      "subSections": [
+        {
+          "heading": "Calculadora de IMC",
+          "content": "Basado únicamente en altura y peso."
+        },
+        {
+          "heading": "Calculadora de grasa corporal del ejército",
+          "content": "Utiliza circunferencia, edad y género para mayor precisión."
+        },
+        {
+          "heading": "Preferencia del ejército",
+          "content": "El ejército reconoce el porcentaje de grasa corporal como una medida más confiable de la aptitud para el combate."
+        }
+      ]
+    },
+    {
+      "heading": "Beneficios de utilizar una herramienta de calculadora de grasa corporal militar",
+      "subSections": [
+        {
+          "heading": "Exactitud",
+          "content": "Sigue las normas oficiales AR 600-9."
+        },
+        {
+          "heading": "Seguimiento de preparación",
+          "content": "Ayuda a controlar los niveles de condición física antes de las pruebas de PT."
+        },
+        {
+          "heading": "Preparación para el alistamiento",
+          "content": "Ayuda a los reclutas a cumplir con los estándares de ingreso."
+        },
+        {
+          "heading": "Gratis y accesible",
+          "content": "Disponible en línea en cualquier momento."
+        },
+        {
+          "heading": "Claridad",
+          "content": "Explica cómo la prueba de cinta del ejército determina los resultados."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo calculo el porcentaje de grasa corporal del ejército en línea?",
+      "a": "Ingrese la altura, la edad, el peso y las medidas con cinta en una calculadora en línea de grasa corporal del ejército de EE. UU. Aplica la fórmula del método de circunferencia del ejército."
+    },
+    {
+      "q": "¿Cuál es el estándar de grasa corporal del Ejército según AR 600-9?",
+      "a": "Varía según la edad y el género: desde el 20% para los hombres jóvenes hasta el 36% para las mujeres mayores."
+    },
+    {
+      "q": "¿La Calculadora de grasa corporal del ejército es lo mismo que la Calculadora de IMC?",
+      "a": "No. La Calculadora de prueba de cinta del ejército es más precisa porque incluye puntos de circunferencia, no solo la altura y el peso."
+    },
+    {
+      "q": "¿Puedo utilizar esta Calculadora de grasa corporal del ejército para el alistamiento?",
+      "a": "Sí, ayuda a garantizar que cumpla con los estándares de la Calculadora de requisitos de grasa corporal del ejército antes de unirse."
+    },
+    {
+      "q": "¿Cuál es la mejor calculadora de grasa corporal del ejército en línea en 2025?",
+      "a": "La Calculadora de peso y grasa corporal del ejército que sigue la norma AR 600-9 es la más confiable."
+    },
+    {
+      "q": "¿Qué tan precisa es la prueba de cinta del ejército?",
+      "a": "Está médicamente aceptado, aunque pueden producirse ligeras variaciones según la técnica de medición. El uso de una herramienta de grasa corporal del ejército en línea mejora la consistencia."
+    }
+  ]
+}

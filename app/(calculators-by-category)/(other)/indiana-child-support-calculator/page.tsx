@@ -13,6 +13,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Separator } from "@/components/ui/separator";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
+import CalculatorGuide from "@/components/calculator-guide";
+
 interface ChildSupportResults {
   combinedIncome: number;
   basicObligation: number;
@@ -123,7 +125,17 @@ export default function IndianaChildSupportCalculatorCalculator() {
     loading,
     error: contentError
   } = useCalculatorContent('indiana-child-support-calculator', language, "calculator-ui");
+  const { content: guideContent } = useCalculatorContent(
+    'indiana-child-support-calculator',
+    language,
+    "calculator-guide"
+  )
 
+  const guideData = guideContent || {
+    color: 'blue',
+    sections: [],
+    faq: []
+  }
   // Use content or fallback to defaults
   const contentData = content || {
     "indiana_child_support_calculator_0": "",
@@ -437,390 +449,355 @@ export default function IndianaChildSupportCalculatorCalculator() {
   };
   return <>
 
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
 
-        {/* Main Content */}
-        <main className="py-8 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-8">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
-                  <Users className="w-8 h-8 text-white" />
-                </div>
+      {/* Main Content */}
+      <main className="py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
+                <Users className="w-8 h-8 text-white" />
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-balance">{contentData.indiana_child_support_calculator_0}</h1>
-              <h2 className="text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed text-pretty mb-4">{contentData.estimate_weekly_payments_under_indiana_guidelines_1}</h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed text-pretty">{contentData.calculate_support_obligations_based_on_indiana_sta_2}</p>
             </div>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-balance">{contentData.indiana_child_support_calculator_0}</h1>
+            <h2 className="text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed text-pretty mb-4">{contentData.estimate_weekly_payments_under_indiana_guidelines_1}</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed text-pretty">{contentData.calculate_support_obligations_based_on_indiana_sta_2}</p>
+          </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {/* Calculator Form */}
-              <Card className="shadow-2xl border-0 pt- p-0 bg-white overflow-hidden">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="flex items-center space-x-3 text-2xl">
-                    <Calculator className="w-6 h-6 text-blue-600" />
-                    <span>{contentData.child_support_calculator_3}</span>
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="p-8 space-y-8">
-                  {/* Basic Information */}
-                  <div className="space-y-6">
-                    <div className="flex items-center space-x-2 mb-4">
-                      <Users className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-lg font-semibold text-gray-900">{contentData.family_information_4}</h3>
-                    </div>
-
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div className="space-y-3">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.number_of_children_5}</Label>
-                        <Select value={numberOfChildren} onValueChange={setNumberOfChildren}>
-                          <SelectTrigger className="h-12 border-2 focus:border-blue-500">
-                            <SelectValue />
-                          </SelectTrigger>
-                          <SelectContent>
-                            <SelectItem value="1">{contentData.k_1_child_6}</SelectItem>
-                            <SelectItem value="2">{contentData.k_2_children_7}</SelectItem>
-                            <SelectItem value="3">{contentData.k_3_children_8}</SelectItem>
-                            <SelectItem value="4">{contentData.k_4_children_9}</SelectItem>
-                            <SelectItem value="5">{contentData.k_5_children_10}</SelectItem>
-                          </SelectContent>
-                        </Select>
-                      </div>
-
-                      <div className="space-y-3">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.custodial_parent_11}</Label>
-                        <Select value={custodialParent} onValueChange={setCustodialParent}>
-                          <SelectTrigger className="h-12 border-2 focus:border-blue-500">
-                            <SelectValue />
-                          </SelectTrigger>
-                          <SelectContent>
-                            <SelectItem value="parent-a">{contentData.parent_a_12}</SelectItem>
-                            <SelectItem value="parent-b">{contentData.parent_b_13}</SelectItem>
-                          </SelectContent>
-                        </Select>
-                      </div>
-                    </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Calculator Form */}
+            <Card className="shadow-2xl border-0 pt- p-0 bg-white overflow-hidden">
+              <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
+                <CardTitle className="flex items-center space-x-3 text-2xl">
+                  <Calculator className="w-6 h-6 text-blue-600" />
+                  <span>{contentData.child_support_calculator_3}</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="p-8 space-y-8">
+                {/* Basic Information */}
+                <div className="space-y-6">
+                  <div className="flex items-center space-x-2 mb-4">
+                    <Users className="w-5 h-5 text-blue-600" />
+                    <h3 className="text-lg font-semibold text-gray-900">{contentData.family_information_4}</h3>
                   </div>
 
-                  <Separator />
-
-                  {/* Income Information */}
-                  <div className="space-y-6">
-                    <div className="flex items-center space-x-2 mb-4">
-                      <DollarSign className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-lg font-semibold text-gray-900">{contentData.weekly_income_14}</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="space-y-3">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.number_of_children_5}</Label>
+                      <Select value={numberOfChildren} onValueChange={setNumberOfChildren}>
+                        <SelectTrigger className="h-12 border-2 focus:border-blue-500">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="1">{contentData.k_1_child_6}</SelectItem>
+                          <SelectItem value="2">{contentData.k_2_children_7}</SelectItem>
+                          <SelectItem value="3">{contentData.k_3_children_8}</SelectItem>
+                          <SelectItem value="4">{contentData.k_4_children_9}</SelectItem>
+                          <SelectItem value="5">{contentData.k_5_children_10}</SelectItem>
+                        </SelectContent>
+                      </Select>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div className="space-y-3">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.parent_a_weekly_income_15}</Label>
-                        <div className="relative">
-                          <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                          <Input type="number" value={parentAIncome} onChange={e => setParentAIncome(e.target.value)} className="pl-10 h-12 text-lg border-2 focus:border-blue-500" placeholder="800" />
-                        </div>
-                        <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_a_prior_childspousal_support_16}</Label>
-                        <Input type="number" value={parentAPriorSupport} onChange={e => setParentAPriorSupport(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
-                      </div>
-                      <div className="space-y-3">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.parent_b_weekly_income_17}</Label>
-                        <div className="relative">
-                          <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                          <Input type="number" value={parentBIncome} onChange={e => setParentBIncome(e.target.value)} className="pl-10 h-12 text-lg border-2 focus:border-blue-500" placeholder="600" />
-                        </div>
-                        <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_b_prior_childspousal_support_18}</Label>
-                        <Input type="number" value={parentBPriorSupport} onChange={e => setParentBPriorSupport(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
-                      </div>
+                    <div className="space-y-3">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.custodial_parent_11}</Label>
+                      <Select value={custodialParent} onValueChange={setCustodialParent}>
+                        <SelectTrigger className="h-12 border-2 focus:border-blue-500">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="parent-a">{contentData.parent_a_12}</SelectItem>
+                          <SelectItem value="parent-b">{contentData.parent_b_13}</SelectItem>
+                        </SelectContent>
+                      </Select>
                     </div>
                   </div>
+                </div>
 
-                  <Separator />
+                <Separator />
 
-                  {/* Custody & Expenses */}
-                  <div className="space-y-6">
-                    <div className="flex items-center space-x-2 mb-4">
-                      <Calendar className="w-5 h-5 text-blue-600" />
-                      <h3 className="text-lg font-semibold text-gray-900">{contentData.custody_expenses_19}</h3>
-                    </div>
+                {/* Income Information */}
+                <div className="space-y-6">
+                  <div className="flex items-center space-x-2 mb-4">
+                    <DollarSign className="w-5 h-5 text-blue-600" />
+                    <h3 className="text-lg font-semibold text-gray-900">{contentData.weekly_income_14}</h3>
+                  </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div className="space-y-3">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.parent_a_overnightsyear_20}</Label>
-                        <Input type="number" value={parentAOvernights} onChange={e => setParentAOvernights(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="261" />
-                        <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_a_child_care_weekly_21}</Label>
-                        <Input type="number" value={parentAChildCare} onChange={e => setParentAChildCare(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
-                        <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_a_health_insurance_weekly_22}</Label>
-                        <Input type="number" value={parentAHealthIns} onChange={e => setParentAHealthIns(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
-                        <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_a_education_expenses_weekly_23}</Label>
-                        <Input type="number" value={parentAEducation} onChange={e => setParentAEducation(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
-                      </div>
-                      <div className="space-y-3">
-                        <Label className="text-base font-semibold text-gray-900">{contentData.parent_b_overnightsyear_24}</Label>
-                        <Input type="number" value={parentBOvernights} onChange={e => setParentBOvernights(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="104" />
-                        <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_b_child_care_weekly_25}</Label>
-                        <Input type="number" value={parentBChildCare} onChange={e => setParentBChildCare(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="100" />
-                        <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_b_health_insurance_weekly_26}</Label>
-                        <Input type="number" value={parentBHealthIns} onChange={e => setParentBHealthIns(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="50" />
-                        <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_b_education_expenses_weekly_27}</Label>
-                        <Input type="number" value={parentBEducation} onChange={e => setParentBEducation(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
-                      </div>
-                    </div>
-                    <div className="space-y-3 mt-4">
-                      <Label className="text-base font-semibold text-gray-900">{contentData.other_extraordinary_expenses_weekly_28}</Label>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="space-y-3">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.parent_a_weekly_income_15}</Label>
                       <div className="relative">
                         <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                        <Input type="number" value={otherExpenses} onChange={e => setOtherExpenses(e.target.value)} className="pl-10 h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
+                        <Input type="number" value={parentAIncome} onChange={e => setParentAIncome(e.target.value)} className="pl-10 h-12 text-lg border-2 focus:border-blue-500" placeholder="800" />
                       </div>
+                      <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_a_prior_childspousal_support_16}</Label>
+                      <Input type="number" value={parentAPriorSupport} onChange={e => setParentAPriorSupport(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
+                    </div>
+                    <div className="space-y-3">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.parent_b_weekly_income_17}</Label>
+                      <div className="relative">
+                        <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+                        <Input type="number" value={parentBIncome} onChange={e => setParentBIncome(e.target.value)} className="pl-10 h-12 text-lg border-2 focus:border-blue-500" placeholder="600" />
+                      </div>
+                      <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_b_prior_childspousal_support_18}</Label>
+                      <Input type="number" value={parentBPriorSupport} onChange={e => setParentBPriorSupport(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
                     </div>
                   </div>
+                </div>
 
-                  <Button onClick={calculateChildSupport} className="w-full h-14 text-xl bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-xl font-bold mt-12">{contentData.calculate_support_29}</Button>
-                </CardContent>
-              </Card>
+                <Separator />
 
-              {/* Results */}
-              <Card ref={resultsRef} className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">{contentData.child_support_results_30}</CardTitle>
-                  <CardDescription className="text-base">{contentData.indiana_guideline_calculation_breakdown_31}</CardDescription>
-                </CardHeader>
-                <CardContent className="p-6">
-                  {results ? <div className="space-y-6">
-                      {/* Main Result */}
-                      <div className="text-center p-6 rounded-2xl border-2 bg-gradient-to-r from-green-100 to-green-200 border-green-300">
-                        <p className="text-lg mb-2 font-semibold text-green-800">{contentData.weekly_child_support_payment_32}</p>
-                        <p className="text-4xl font-bold mb-2 text-green-700">
-                          {formatCurrency(results.weeklyPayment)}
-                        </p>
-                        <p className="text-base text-green-600">
-                          {results.payingParent}{contentData.must_pay_33}{results.receivingParent}
-                        </p>
+                {/* Custody & Expenses */}
+                <div className="space-y-6">
+                  <div className="flex items-center space-x-2 mb-4">
+                    <Calendar className="w-5 h-5 text-blue-600" />
+                    <h3 className="text-lg font-semibold text-gray-900">{contentData.custody_expenses_19}</h3>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="space-y-3">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.parent_a_overnightsyear_20}</Label>
+                      <Input type="number" value={parentAOvernights} onChange={e => setParentAOvernights(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="261" />
+                      <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_a_child_care_weekly_21}</Label>
+                      <Input type="number" value={parentAChildCare} onChange={e => setParentAChildCare(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
+                      <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_a_health_insurance_weekly_22}</Label>
+                      <Input type="number" value={parentAHealthIns} onChange={e => setParentAHealthIns(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
+                      <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_a_education_expenses_weekly_23}</Label>
+                      <Input type="number" value={parentAEducation} onChange={e => setParentAEducation(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
+                    </div>
+                    <div className="space-y-3">
+                      <Label className="text-base font-semibold text-gray-900">{contentData.parent_b_overnightsyear_24}</Label>
+                      <Input type="number" value={parentBOvernights} onChange={e => setParentBOvernights(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="104" />
+                      <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_b_child_care_weekly_25}</Label>
+                      <Input type="number" value={parentBChildCare} onChange={e => setParentBChildCare(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="100" />
+                      <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_b_health_insurance_weekly_26}</Label>
+                      <Input type="number" value={parentBHealthIns} onChange={e => setParentBHealthIns(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="50" />
+                      <Label className="text-base font-semibold text-gray-900 mt-2">{contentData.parent_b_education_expenses_weekly_27}</Label>
+                      <Input type="number" value={parentBEducation} onChange={e => setParentBEducation(e.target.value)} className="h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
+                    </div>
+                  </div>
+                  <div className="space-y-3 mt-4">
+                    <Label className="text-base font-semibold text-gray-900">{contentData.other_extraordinary_expenses_weekly_28}</Label>
+                    <div className="relative">
+                      <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+                      <Input type="number" value={otherExpenses} onChange={e => setOtherExpenses(e.target.value)} className="pl-10 h-12 text-lg border-2 focus:border-blue-500" placeholder="0" />
+                    </div>
+                  </div>
+                </div>
+
+                <Button onClick={calculateChildSupport} className="w-full h-14 text-xl bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-xl font-bold mt-12">{contentData.calculate_support_29}</Button>
+              </CardContent>
+            </Card>
+
+            {/* Results */}
+            <Card ref={resultsRef} className="shadow-2xl border-0 pt-0 bg-white sticky top-24">
+              <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
+                <CardTitle className="text-2xl">{contentData.child_support_results_30}</CardTitle>
+                <CardDescription className="text-base">{contentData.indiana_guideline_calculation_breakdown_31}</CardDescription>
+              </CardHeader>
+              <CardContent className="p-6">
+                {results ? <div className="space-y-6">
+                  {/* Main Result */}
+                  <div className="text-center p-6 rounded-2xl border-2 bg-gradient-to-r from-green-100 to-green-200 border-green-300">
+                    <p className="text-lg mb-2 font-semibold text-green-800">{contentData.weekly_child_support_payment_32}</p>
+                    <p className="text-4xl font-bold mb-2 text-green-700">
+                      {formatCurrency(results.weeklyPayment)}
+                    </p>
+                    <p className="text-base text-green-600">
+                      {results.payingParent}{contentData.must_pay_33}{results.receivingParent}
+                    </p>
+                  </div>
+
+                  {/* Calculation Breakdown */}
+                  <div className="space-y-3">
+                    <h3 className="font-bold text-lg text-gray-900">{contentData.calculation_breakdown_34}</h3>
+
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
+                        <span className="font-medium text-gray-700">{contentData.combined_adjusted_gross_income_35}</span>
+                        <span className="font-bold text-blue-600">{formatCurrency(results.combinedIncome)}</span>
                       </div>
 
-                      {/* Calculation Breakdown */}
-                      <div className="space-y-3">
-                        <h3 className="font-bold text-lg text-gray-900">{contentData.calculation_breakdown_34}</h3>
-
-                        <div className="space-y-2">
-                          <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-200">
-                            <span className="font-medium text-gray-700">{contentData.combined_adjusted_gross_income_35}</span>
-                            <span className="font-bold text-blue-600">{formatCurrency(results.combinedIncome)}</span>
-                          </div>
-
-                          <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg border border-purple-200">
-                            <span className="font-medium text-gray-700">{contentData.basic_child_support_obligation_36}</span>
-                            <span className="font-bold text-purple-600">{formatCurrency(results.basicObligation)}</span>
-                          </div>
-
-                          <div className="flex justify-between items-center p-3 bg-orange-50 rounded-lg border border-orange-200">
-                            <span className="font-medium text-gray-700">{contentData.total_obligation_with_additions_37}</span>
-                            <span className="font-bold text-orange-600">{formatCurrency(results.totalObligation)}</span>
-                          </div>
-                        </div>
-
-                        <div className="grid grid-cols-2 gap-3 mt-4">
-                          <div className="text-center p-4 bg-gray-50 rounded-lg border">
-                            <p className="text-sm text-gray-600">{contentData.parent_a_share_38}</p>
-                            <p className="text-lg font-bold text-gray-800">{results.parentAShare.toFixed(1)}%</p>
-                            <p className="text-sm text-gray-600">{formatCurrency(results.parentASupport)}</p>
-                          </div>
-                          <div className="text-center p-4 bg-gray-50 rounded-lg border">
-                            <p className="text-sm text-gray-600">{contentData.parent_b_share_39}</p>
-                            <p className="text-lg font-bold text-gray-800">{results.parentBShare.toFixed(1)}%</p>
-                            <p className="text-sm text-gray-600">{formatCurrency(results.parentBSupport)}</p>
-                          </div>
-                        </div>
-
-                        {results.parentingTimeCredit > 0 && <div className="flex justify-between items-center p-3 bg-yellow-50 rounded-lg border border-yellow-200">
-                            <span className="font-medium text-gray-700">{contentData.parenting_time_credit_applied_40}</span>
-                            <span className="font-bold text-yellow-600">
-                              -{formatCurrency(results.parentingTimeCredit)}
-                            </span>
-                          </div>}
+                      <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg border border-purple-200">
+                        <span className="font-medium text-gray-700">{contentData.basic_child_support_obligation_36}</span>
+                        <span className="font-bold text-purple-600">{formatCurrency(results.basicObligation)}</span>
                       </div>
 
-                      {/* Action Buttons */}
-                      <div className="flex space-x-3">
-                        <Button onClick={printResults} variant="outline" className="flex-1 bg-transparent">
-                          <Printer className="w-4 h-4 mr-2" />{contentData.print_41}</Button>
-                        <Button onClick={exportToPDF} variant="outline" className="flex-1 bg-transparent">
-                          <Download className="w-4 h-4 mr-2" />{contentData.export_pdf_42}</Button>
+                      <div className="flex justify-between items-center p-3 bg-orange-50 rounded-lg border border-orange-200">
+                        <span className="font-medium text-gray-700">{contentData.total_obligation_with_additions_37}</span>
+                        <span className="font-bold text-orange-600">{formatCurrency(results.totalObligation)}</span>
                       </div>
+                    </div>
 
-                      {/* Disclaimer */}
-                      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-                        <p className="text-sm text-yellow-800">
-                          <strong>{contentData.disclaimer_43}</strong>{contentData.this_calculator_is_for_educational_purposes_only_f_44}</p>
+                    <div className="grid grid-cols-2 gap-3 mt-4">
+                      <div className="text-center p-4 bg-gray-50 rounded-lg border">
+                        <p className="text-sm text-gray-600">{contentData.parent_a_share_38}</p>
+                        <p className="text-lg font-bold text-gray-800">{results.parentAShare.toFixed(1)}%</p>
+                        <p className="text-sm text-gray-600">{formatCurrency(results.parentASupport)}</p>
                       </div>
-                    </div> : <div className="text-center py-12 text-gray-500">
-                      <Users className="w-16 h-16 mx-auto mb-4 opacity-50" />
-                      <p className="text-lg">{contentData.enter_family_information_to_calculate_child_suppor_45}</p>
+                      <div className="text-center p-4 bg-gray-50 rounded-lg border">
+                        <p className="text-sm text-gray-600">{contentData.parent_b_share_39}</p>
+                        <p className="text-lg font-bold text-gray-800">{results.parentBShare.toFixed(1)}%</p>
+                        <p className="text-sm text-gray-600">{formatCurrency(results.parentBSupport)}</p>
+                      </div>
+                    </div>
+
+                    {results.parentingTimeCredit > 0 && <div className="flex justify-between items-center p-3 bg-yellow-50 rounded-lg border border-yellow-200">
+                      <span className="font-medium text-gray-700">{contentData.parenting_time_credit_applied_40}</span>
+                      <span className="font-bold text-yellow-600">
+                        -{formatCurrency(results.parentingTimeCredit)}
+                      </span>
                     </div>}
-                </CardContent>
-              </Card>
-            </div>
-
-            {/* Mobile Results Card */}
-            <div className="lg:hidden mt-8">
-              {results && <Card className="shadow-2xl border-0 p-0 bg-white">
-                  <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-6 py-4">
-                    <CardTitle className="text-xl">{contentData.child_support_results_46}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="p-6">
-                    <div className="text-center p-6 rounded-2xl border-2 bg-gradient-to-r from-green-100 to-green-200 border-green-300 mb-4">
-                      <p className="text-lg mb-2 font-semibold text-green-800">{contentData.weekly_payment_47}</p>
-                      <p className="text-3xl font-bold mb-2 text-green-700">{formatCurrency(results.weeklyPayment)}</p>
-                      <p className="text-sm text-green-600">
-                        {results.payingParent}{contentData.pays_48}{results.receivingParent}
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>}
-            </div>
-<SimilarCalculators calculators={[{
-          calculatorName: "Time Calculation",
-          calculatorHref: "/time-calculator",
-          calculatorDescription: "Enter two time values and select an operation"
-        }, {
-          calculatorName: "Age Calculator",
-          calculatorHref: "/age-calculator",
-          calculatorDescription: "Calculate age in years, months, and days based on birth date with precise calculations including leap years"
-        }, 
-        ]} 
-        color="blue" 
-        title="Related Other Calculators" />
-            {/* Educational Content */}
-            <div className="mt-12 space-y-8">
-              {/* How Child Support is Calculated */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">{contentData.how_child_support_is_calculated_in_indiana_49}</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="prose max-w-none">
-                    <ol className="space-y-4 text-gray-700">
-                      <li>
-                        <strong>{contentData.determine_combined_income_50}</strong>{contentData.add_both_parents_adjusted_gross_weekly_income_51}</li>
-                      <li>
-                        <strong>{contentData.find_basic_obligation_52}</strong>{contentData.use_indiana_child_support_guidelines_table_based_o_53}</li>
-                      <li>
-                        <strong>{contentData.add_expenses_54}</strong>{contentData.include_child_care_health_insurance_and_extraordin_55}</li>
-                      <li>
-                        <strong>{contentData.calculate_56}</strong>{contentData.each_parents_obligation_is_proportional_to_their_i_57}</li>
-                      <li>
-                        <strong>{contentData.apply_credits_58}</strong>{contentData.parenting_time_credit_may_reduce_the_noncustodial__59}</li>
-                      <li>
-                        <strong>{contentData.determine_payment_60}</strong>{contentData.the_noncustodial_parent_pays_their_share_to_the_cu_61}</li>
-                    </ol>
                   </div>
-                </CardContent>
-              </Card>
 
-              {/* Parenting Time Credit Rules */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">{contentData.indiana_parenting_time_credit_rules_62}</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-4 text-gray-700">
-                    <p>{contentData.indiana_provides_parenting_time_credits_to_noncust_63}</p>
-                    <ul className="space-y-2 ml-6">
-                      <li>
-                        • <strong>{contentData.k_128_overnights_per_year_64}</strong>{contentData.eligible_for_parenting_time_credit_65}</li>
-                      <li>
-                        • <strong>{contentData.credit_calculation_66}</strong>{contentData.based_on_percentage_of_overnights_and_total_obliga_67}</li>
-                      <li>
-                        • <strong>{contentData.maximum_credit_68}</strong>{contentData.k_50_of_the_proportional_share_69}</li>
-                      <li>
-                        • <strong>{contentData.standard_visitation_70}</strong>{contentData.every_other_weekend_104_overnights_typically_doesn_71}</li>
-                    </ul>
-                    <p className="bg-blue-50 p-4 rounded-lg border border-blue-200">
-                      <strong>{contentData.note_72}</strong>{contentData.extended_parenting_time_arrangements_may_significa_73}</p>
+                  {/* Action Buttons */}
+                  <div className="flex space-x-3">
+                    <Button onClick={printResults} variant="outline" className="flex-1 bg-transparent">
+                      <Printer className="w-4 h-4 mr-2" />{contentData.print_41}</Button>
+                    <Button onClick={exportToPDF} variant="outline" className="flex-1 bg-transparent">
+                      <Download className="w-4 h-4 mr-2" />{contentData.export_pdf_42}</Button>
                   </div>
-                </CardContent>
-              </Card>
 
-              {/* Indiana Child Support Chart */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">{contentData.indiana_child_support_chart_sample_74}</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm border-collapse border border-gray-300">
-                      <thead>
-                        <tr className="bg-gray-100">
-                          <th className="border border-gray-300 px-4 py-2 text-left">{contentData.combined_weekly_income_75}</th>
-                          <th className="border border-gray-300 px-4 py-2 text-center">{contentData.k_1_child_76}</th>
-                          <th className="border border-gray-300 px-4 py-2 text-center">{contentData.k_2_children_77}</th>
-                          <th className="border border-gray-300 px-4 py-2 text-center">{contentData.k_3_children_78}</th>
-                          <th className="border border-gray-300 px-4 py-2 text-center">{contentData.k_4_children_79}</th>
-                          <th className="border border-gray-300 px-4 py-2 text-center">{contentData.k_5_children_80}</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {[500, 600, 700, 800, 900, 1000, 1200, 1400, 1600, 1800, 2000].map(income => <tr key={income}>
-                            <td className="border border-gray-300 px-4 py-2 font-medium">${income}</td>
-                            <td className="border border-gray-300 px-4 py-2 text-center">
-                              ${INDIANA_GUIDELINE_TABLE[1][income] || "N/A"}
-                            </td>
-                            <td className="border border-gray-300 px-4 py-2 text-center">
-                              ${INDIANA_GUIDELINE_TABLE[2][income] || "N/A"}
-                            </td>
-                            <td className="border border-gray-300 px-4 py-2 text-center">
-                              ${INDIANA_GUIDELINE_TABLE[3][income] || "N/A"}
-                            </td>
-                            <td className="border border-gray-300 px-4 py-2 text-center">
-                              ${INDIANA_GUIDELINE_TABLE[4][income] || "N/A"}
-                            </td>
-                            <td className="border border-gray-300 px-4 py-2 text-center">
-                              ${INDIANA_GUIDELINE_TABLE[5][income] || "N/A"}
-                            </td>
-                          </tr>)}
-                      </tbody>
-                    </table>
+                  {/* Disclaimer */}
+                  <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                    <p className="text-sm text-yellow-800">
+                      <strong>{contentData.disclaimer_43}</strong>{contentData.this_calculator_is_for_educational_purposes_only_f_44}</p>
                   </div>
-                  <p className="text-sm text-gray-600 mt-4">{contentData.this_is_a_simplified_version_of_the_indiana_child__81}</p>
-                </CardContent>
-              </Card>
-
-              {/* FAQ */}
-              <Card className="shadow-2xl border-0 p-0 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
-                  <CardTitle className="text-2xl">{contentData.frequently_asked_questions_82}</CardTitle>
-                </CardHeader>
-                <CardContent className="p-8">
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />{contentData.how_accurate_is_the_indiana_calculator_83}</h3>
-                      <p className="text-gray-700">{contentData.this_calculator_uses_the_official_indiana_child_su_84}</p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />{contentData.what_expenses_count_toward_child_support_85}</h3>
-                      <p className="text-gray-700">{contentData.indiana_guidelines_include_basic_support_plus_addi_86}</p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />{contentData.does_overtime_count_as_income_in_indiana_child_sup_87}</h3>
-                      <p className="text-gray-700">{contentData.yes_overtime_income_is_typically_included_in_gross_88}</p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />{contentData.when_can_child_support_be_modified_in_indiana_89}</h3>
-                      <p className="text-gray-700">{contentData.child_support_can_be_modified_when_theres_a_substa_90}</p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2 flex items-center">
-                        <HelpCircle className="w-5 h-5 mr-2 text-blue-600" />{contentData.what_if_combined_income_is_very_low_or_very_high_91}</h3>
-                      <p className="text-gray-700">{contentData.for_combined_income_below_100week_courts_have_disc_92}</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                </div> : <div className="text-center py-12 text-gray-500">
+                  <Users className="w-16 h-16 mx-auto mb-4 opacity-50" />
+                  <p className="text-lg">{contentData.enter_family_information_to_calculate_child_suppor_45}</p>
+                </div>}
+              </CardContent>
+            </Card>
           </div>
-        </main>
-      </div>
-    </>;
+
+          {/* Mobile Results Card */}
+          <div className="lg:hidden mt-8">
+            {results && <Card className="shadow-2xl border-0 p-0 bg-white">
+              <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-6 py-4">
+                <CardTitle className="text-xl">{contentData.child_support_results_46}</CardTitle>
+              </CardHeader>
+              <CardContent className="p-6">
+                <div className="text-center p-6 rounded-2xl border-2 bg-gradient-to-r from-green-100 to-green-200 border-green-300 mb-4">
+                  <p className="text-lg mb-2 font-semibold text-green-800">{contentData.weekly_payment_47}</p>
+                  <p className="text-3xl font-bold mb-2 text-green-700">{formatCurrency(results.weeklyPayment)}</p>
+                  <p className="text-sm text-green-600">
+                    {results.payingParent}{contentData.pays_48}{results.receivingParent}
+                  </p>
+                </div>
+              </CardContent>
+            </Card>}
+          </div>
+          <CalculatorGuide data={guideData} />
+          <SimilarCalculators calculators={[{
+            calculatorName: "Time Calculation",
+            calculatorHref: "/time-calculator",
+            calculatorDescription: "Enter two time values and select an operation"
+          }, {
+            calculatorName: "Age Calculator",
+            calculatorHref: "/age-calculator",
+            calculatorDescription: "Calculate age in years, months, and days based on birth date with precise calculations including leap years"
+          },
+          ]}
+            color="blue"
+            title="Related Other Calculators" />
+          {/* Educational Content */}
+          <div className="mt-12 space-y-8">
+            {/* How Child Support is Calculated */}
+            <Card className="shadow-2xl border-0 p-0 bg-white">
+              <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
+                <CardTitle className="text-2xl">{contentData.how_child_support_is_calculated_in_indiana_49}</CardTitle>
+              </CardHeader>
+              <CardContent className="p-8">
+                <div className="prose max-w-none">
+                  <ol className="space-y-4 text-gray-700">
+                    <li>
+                      <strong>{contentData.determine_combined_income_50}</strong>{contentData.add_both_parents_adjusted_gross_weekly_income_51}</li>
+                    <li>
+                      <strong>{contentData.find_basic_obligation_52}</strong>{contentData.use_indiana_child_support_guidelines_table_based_o_53}</li>
+                    <li>
+                      <strong>{contentData.add_expenses_54}</strong>{contentData.include_child_care_health_insurance_and_extraordin_55}</li>
+                    <li>
+                      <strong>{contentData.calculate_56}</strong>{contentData.each_parents_obligation_is_proportional_to_their_i_57}</li>
+                    <li>
+                      <strong>{contentData.apply_credits_58}</strong>{contentData.parenting_time_credit_may_reduce_the_noncustodial__59}</li>
+                    <li>
+                      <strong>{contentData.determine_payment_60}</strong>{contentData.the_noncustodial_parent_pays_their_share_to_the_cu_61}</li>
+                  </ol>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Parenting Time Credit Rules */}
+            <Card className="shadow-2xl border-0 p-0 bg-white">
+              <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
+                <CardTitle className="text-2xl">{contentData.indiana_parenting_time_credit_rules_62}</CardTitle>
+              </CardHeader>
+              <CardContent className="p-8">
+                <div className="space-y-4 text-gray-700">
+                  <p>{contentData.indiana_provides_parenting_time_credits_to_noncust_63}</p>
+                  <ul className="space-y-2 ml-6">
+                    <li>
+                      • <strong>{contentData.k_128_overnights_per_year_64}</strong>{contentData.eligible_for_parenting_time_credit_65}</li>
+                    <li>
+                      • <strong>{contentData.credit_calculation_66}</strong>{contentData.based_on_percentage_of_overnights_and_total_obliga_67}</li>
+                    <li>
+                      • <strong>{contentData.maximum_credit_68}</strong>{contentData.k_50_of_the_proportional_share_69}</li>
+                    <li>
+                      • <strong>{contentData.standard_visitation_70}</strong>{contentData.every_other_weekend_104_overnights_typically_doesn_71}</li>
+                  </ul>
+                  <p className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                    <strong>{contentData.note_72}</strong>{contentData.extended_parenting_time_arrangements_may_significa_73}</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Indiana Child Support Chart */}
+            <Card className="shadow-2xl border-0 p-0 bg-white">
+              <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
+                <CardTitle className="text-2xl">{contentData.indiana_child_support_chart_sample_74}</CardTitle>
+              </CardHeader>
+              <CardContent className="p-8">
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm border-collapse border border-gray-300">
+                    <thead>
+                      <tr className="bg-gray-100">
+                        <th className="border border-gray-300 px-4 py-2 text-left">{contentData.combined_weekly_income_75}</th>
+                        <th className="border border-gray-300 px-4 py-2 text-center">{contentData.k_1_child_76}</th>
+                        <th className="border border-gray-300 px-4 py-2 text-center">{contentData.k_2_children_77}</th>
+                        <th className="border border-gray-300 px-4 py-2 text-center">{contentData.k_3_children_78}</th>
+                        <th className="border border-gray-300 px-4 py-2 text-center">{contentData.k_4_children_79}</th>
+                        <th className="border border-gray-300 px-4 py-2 text-center">{contentData.k_5_children_80}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {[500, 600, 700, 800, 900, 1000, 1200, 1400, 1600, 1800, 2000].map(income => <tr key={income}>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">${income}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">
+                          ${INDIANA_GUIDELINE_TABLE[1][income] || "N/A"}
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">
+                          ${INDIANA_GUIDELINE_TABLE[2][income] || "N/A"}
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">
+                          ${INDIANA_GUIDELINE_TABLE[3][income] || "N/A"}
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">
+                          ${INDIANA_GUIDELINE_TABLE[4][income] || "N/A"}
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">
+                          ${INDIANA_GUIDELINE_TABLE[5][income] || "N/A"}
+                        </td>
+                      </tr>)}
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-sm text-gray-600 mt-4">{contentData.this_is_a_simplified_version_of_the_indiana_child__81}</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </main>
+    </div>
+  </>;
 }

@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for cups-to-pounds-converter
 const cupstopoundsconverterMeta = {
@@ -44,9 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }cups-to-pounds-converter`,
+      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }cups-to-pounds-converter`,
       languages: {
         'en': getCanonicalUrl('cups-to-pounds-converter', 'en'),
         'pt-BR': getCanonicalUrl('cups-to-pounds-converter', 'br'),
@@ -58,9 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }cups-to-pounds-converter`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }cups-to-pounds-converter`,
     },
   };
 }
@@ -70,5 +69,156 @@ export default async function CupsToPoundsConverterLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Cups to Pounds Conversion",
+    "url": "https://www.thesmartcalculator.com/food/cups-to-pounds-converter",
+    "description": "Free online Cups to Pounds Converter to quickly convert ingredients between cups and pounds for accurate baking and cooking.",
+    "mainEntity": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Cups to Pounds Converter",
+        "applicationCategory": "CalculatorApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Instant conversion between cups and pounds",
+          "Supports common ingredients like flour, sugar, butter, and water",
+          "Ingredient-based conversion for accurate results",
+          "Mobile-friendly and easy-to-use",
+          "Ideal for home cooks, bakers, and chefs"
+        ],
+        "url": "https://www.thesmartcalculator.com/food/cups-to-pounds-converter"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Cups to Pounds Converter",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Cups to Pounds Converter",
+            "text": "Choose the ingredient for accurate volume-to-weight conversion (optional)."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Cups to Pounds Converter",
+            "text": "Type the amount in cups or pounds."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Cups to Pounds Converter",
+            "text": "Choose the source unit and target unit (cups or pounds)."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Cups to Pounds Converter",
+            "text": "Get the instant conversion result."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Cups to Pounds Converter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It converts ingredient measurements between cups and pounds for accurate cooking and baking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it convert all ingredients?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it works for most common ingredients; minor variations may occur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to select the ingredient?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ingredient selection is optional but recommended for precise results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it accurate for baking?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, especially when using weight-based measurements like pounds or ounces."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I convert pounds to cups?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it works both ways."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it mobile-friendly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, fully compatible with all devices."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this converter free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it’s completely free and works online."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I scale recipes with this tool?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, adjust ingredient quantities for larger or smaller servings."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should use this calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Home cooks, bakers, chefs, and anyone following recipes with cups or pounds."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why use this converter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "To ensure accurate ingredient measurements and reduce errors in cooking and baking."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  return <>
+    {children}
+    <Script
+      id="cups-to-pounds-converter-json-ld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      strategy="afterInteractive"
+    />
+  </>;
 }

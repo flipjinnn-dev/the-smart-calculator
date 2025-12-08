@@ -1,0 +1,151 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Co to jest generator liczb losowych?",
+      "content": "Generator liczb losowych (RNG) to narzędzie online, które tworzy nieprzewidywalne liczby w wybranym zakresie. Wykorzystuje algorytm matematyczny do natychmiastowego generowania losowych wartości, które pomagają w podejmowaniu decyzji, zadaniach matematycznych, kodowaniu, symulacjach, grach i codziennych wyborach. RNG są szybkie, bezstronne i łatwe w użyciu na każdym urządzeniu."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wprowadź wartość minimalną",
+          "content": "Podaj najniższą liczbę z żądanego zakresu."
+        },
+        {
+          "heading": "Wprowadź wartość maksymalną",
+          "content": "Podaj największą liczbę z żądanego zakresu."
+        },
+        {
+          "heading": "Wybierz ilość (opcjonalnie)",
+          "content": "Wybierz, ile liczb chcesz wygenerować jednocześnie."
+        },
+        {
+          "heading": "Kliknij opcję Generuj",
+          "content": "Kalkulator natychmiast generuje liczby losowe."
+        },
+        {
+          "heading": "Przejrzyj wyniki",
+          "content": "Sprawdź dokładnie swój zakres i w razie potrzeby użyj wygenerowanych liczb."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe wyniki",
+          "content": "Liczby pojawiają się w ciągu milisekund."
+        },
+        {
+          "heading": "Zakres niestandardowy",
+          "content": "Wprowadź dowolne wartości minimalne i maksymalne."
+        },
+        {
+          "heading": "Wiele wyjść",
+          "content": "Wygeneruj jedną lub wiele liczb na raz."
+        },
+        {
+          "heading": "Jednolity algorytm",
+          "content": "Wyniki są bezstronne."
+        },
+        {
+          "heading": "Czysty interfejs",
+          "content": "Przyjazny dla początkujących i łatwy w użyciu."
+        },
+        {
+          "heading": "Bezpłatne narzędzie online",
+          "content": "Nie wymaga rejestracji ani pobierania."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Matematyka i statystyka",
+          "content": "Prawdopodobieństwo, próbkowanie i ćwiczenia w klasie."
+        },
+        {
+          "heading": "Gry i konkursy",
+          "content": "Szczęśliwe losowania, rzuty kośćmi i losowe wybory."
+        },
+        {
+          "heading": "Kodowanie i testowanie oprogramowania",
+          "content": "Symulacje, tworzenie danych testowych i debugowanie."
+        },
+        {
+          "heading": "Edukacja",
+          "content": "Losowe apele, zadania grupowe i zajęcia."
+        },
+        {
+          "heading": "Codzienne decyzje",
+          "content": "Wybieranie zadań, posiłków lub zajęć."
+        },
+        {
+          "heading": "Badania",
+          "content": "Tworzenie bezstronnych próbek do badań."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1",
+          "content": "Zakres: 1–100, wyjście: 57 (losowo)"
+        },
+        {
+          "heading": "Przykład 2",
+          "content": "Wygeneruj 5 liczb, zakres: 10–50, wynik: 12, 34, 49, 28, 20 (losowo)"
+        },
+        {
+          "heading": "Przykład 3",
+          "content": "Symulacja kości (1–6), wynik: 4 (losowo)"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do czego służy generator liczb losowych?",
+      "a": "Tworzy nieprzewidywalne liczby do matematyki, kodowania, konkursów i zadań ogólnych."
+    },
+    {
+      "q": "Czy to narzędzie jest bezpłatne?",
+      "a": "Tak, całkowicie za darmo."
+    },
+    {
+      "q": "Czy liczby są naprawdę losowe?",
+      "a": "Są pseudolosowe, odpowiednie do codziennego użytku."
+    },
+    {
+      "q": "Czy mogę wygenerować wiele numerów?",
+      "a": "Tak, wiele narzędzi umożliwia wybór ilości."
+    },
+    {
+      "q": "Czy mogę używać liczb ujemnych?",
+      "a": "Tak, w zależności od narzędzia."
+    },
+    {
+      "q": "Czy wyniki są bezstronne?",
+      "a": "Tak, mają równomierny rozkład."
+    },
+    {
+      "q": "Czy potrzebuję instalacji oprogramowania?",
+      "a": "Nie, to działa online."
+    },
+    {
+      "q": "Czy mogę używać RNG w projektach szkolnych?",
+      "a": "Absolutnie."
+    },
+    {
+      "q": "Czy konkursy online są bezpieczne?",
+      "a": "Tak, ale w przypadku wydarzeń o wysoką stawkę korzystaj z weryfikowalnych narzędzi."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa idealnie na telefonach i tabletach."
+    }
+  ]
+}

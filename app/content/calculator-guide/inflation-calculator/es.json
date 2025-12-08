@@ -1,0 +1,100 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "¿Qué es la inflación?",
+      "content": "La inflación se refiere al aumento del nivel general de precios de bienes y servicios a lo largo del tiempo. Cuando los precios suben, el poder adquisitivo del dinero disminuye. <br><br>Por ejemplo, si con 100 dólares se compraron 10 artículos en el año 2000, con esos mismos 100 dólares solo se podrían comprar entre 6 y 7 artículos en 2025. <br><br>La forma más común de medir la inflación es a través del índice de precios al consumidor (IPC), que rastrea los cambios de precios de una \"canasta de bienes y servicios\" a lo largo del tiempo."
+    },
+    {
+      "heading": "¿Cómo se calcula la inflación?",
+      "content": "La inflación generalmente se calcula usando esta fórmula:<br><br><strong>Tasa de inflación = (IPC (año actual) - IPC (año anterior)) / IPC (año anterior) × 100</strong>",
+      "subSections": [
+        {
+          "heading": "Ejemplo de cálculo",
+          "content": "IPC en 2024 = 305 <br>IPC en 2023 = 295 <br><br><strong>Tasa de inflación = (305 - 295) / 295 × 100 = 3,39%</strong> <br><br>Esto significa que el nivel de precios promedio aumentó un 3,39% en un año."
+        }
+      ]
+    },
+    {
+      "heading": "¿Por qué ocurre la inflación?",
+      "subSections": [
+        {
+          "heading": "Inflación impulsada por la demanda",
+          "content": "Cuando la demanda de bienes y servicios es mayor que la oferta, los precios aumentan."
+        },
+        {
+          "heading": "Inflación impulsada por los costos",
+          "content": "Cuando los costos de producción (como los salarios, el combustible o las materias primas) aumentan, las empresas aumentan los precios para mantener las ganancias."
+        },
+        {
+          "heading": "Inflación incorporada",
+          "content": "Cuando los trabajadores esperan que los precios suban, exigen salarios más altos, lo que aumenta los costos de producción y hace subir aún más los precios."
+        }
+      ]
+    },
+    {
+      "heading": "Ejemplos de inflación en la historia",
+      "subSections": [
+        {
+          "heading": "Hiperinflación en Alemania (década de 1920)",
+          "content": "Los precios subieron tan rápido que la gente necesitaba carretillas llenas de dinero en efectivo para comprar productos básicos."
+        },
+        {
+          "heading": "Brasil (décadas de 1980 y 1990)",
+          "content": "La inflación anual alcanzó más del 2.000%, lo que afectó gravemente a la economía."
+        },
+        {
+          "heading": "Inflación reciente de EE. UU. (2021-2022)",
+          "content": "Los problemas de la cadena de suministro posteriores a la pandemia y la alta demanda provocaron las tasas de inflación más altas en 40 años."
+        }
+      ]
+    },
+    {
+      "heading": "¿Qué pasa con la deflación?",
+      "content": "Lo opuesto a la inflación es la deflación, cuando los precios caen con el tiempo. Si bien puede parecer bueno, la deflación puede dañar la economía porque las empresas ganan menos, lo que lleva a recortes salariales y pérdidas de empleos."
+    },
+    {
+      "heading": "¿Por qué utilizar una calculadora de inflación?",
+      "subSections": [
+        {
+          "heading": "Comparar el valor del dinero",
+          "content": "Vea cómo cambia el valor del dinero con el tiempo (pasado versus presente)."
+        },
+        {
+          "heading": "Planificación financiera",
+          "content": "Comprenda cómo la inflación afecta los ahorros, las inversiones y los objetivos de jubilación a largo plazo."
+        },
+        {
+          "heading": "Análisis económico",
+          "content": "Analizar las tendencias económicas históricas y ajustar las estrategias en consecuencia."
+        },
+        {
+          "heading": "Ajuste de salario y ahorros",
+          "content": "Ajustar salarios, ahorros e inversiones a la inflación para mantener el poder adquisitivo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es la inflación en términos simples?",
+      "a": "La inflación significa que los precios de los bienes y servicios aumentan con el tiempo, reduciendo el poder adquisitivo del dinero."
+    },
+    {
+      "q": "¿Cómo calculo la inflación?",
+      "a": "Utilice la fórmula: (IPC año actual - IPC año anterior) / IPC año anterior × 100. Nuestra calculadora de inflación hace esto automáticamente."
+    },
+    {
+      "q": "¿Qué causa la inflación?",
+      "a": "Las causas comunes incluyen la inflación impulsada por la demanda, la inflación impulsada por los costos y la inflación incorporada impulsada por los ciclos de salarios y precios."
+    },
+    {
+      "q": "¿La inflación es siempre mala?",
+      "a": "No necesariamente. La inflación moderada es normal y puede indicar una economía en crecimiento. Sin embargo, una inflación alta o hiperinflación puede ser perjudicial."
+    },
+    {
+      "q": "¿Qué es la deflación?",
+      "a": "La deflación es lo opuesto a la inflación, donde los precios caen con el tiempo. Si bien parece positivo, puede frenar el crecimiento económico y provocar desempleo."
+    }
+  ]
+}

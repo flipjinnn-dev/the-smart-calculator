@@ -1,0 +1,127 @@
+{
+  "color": "laranja",
+  "sections": [
+    {
+      "heading": "Calculadora de números mágicos: guia simples e preciso",
+      "content": "Uma calculadora de números mágicos ajuda os fãs de beisebol a determinar rapidamente quantas vitórias (ou derrotas adversárias) um time precisa para garantir uma vaga nos playoffs ou vencer sua divisão. Ele usa as vitórias do seu time, as derrotas do time rival e o total de jogos para calcular automaticamente o número mágico."
+    },
+    {
+      "heading": "Como usar a calculadora de números mágicos",
+      "subSections": [
+        {
+          "heading": "Insira as vitórias da equipe (W)",
+          "content": "Insira o total de vitórias da sua equipe até o momento."
+        },
+        {
+          "heading": "Insira as perdas rivais (L)",
+          "content": "Insira as perdas totais do segundo colocado ou do time rival."
+        },
+        {
+          "heading": "Entre no total de jogos",
+          "content": "Insira o número total de jogos da temporada regular."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Obtenha instantaneamente o número mágico."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Rápido e preciso",
+          "content": "Calcula rapidamente o número mágico com precisão."
+        },
+        {
+          "heading": "Adequado para iniciantes",
+          "content": "Interface fácil para fãs e analistas."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona em todos os dispositivos."
+        },
+        {
+          "heading": "Ideal para fãs e treinadores da MLB",
+          "content": "Acompanhe as chances de playoff com eficiência."
+        },
+        {
+          "heading": "Livre",
+          "content": "Custo zero, sem necessidade de login."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Acompanhamento de playoffs",
+          "content": "Monitore a classificação e possíveis cenários de conquista."
+        },
+        {
+          "heading": "Comparação de equipes",
+          "content": "Compare equipes durante a reta final da temporada."
+        },
+        {
+          "heading": "Análise Esportiva",
+          "content": "Preveja resultados e avalie o desempenho da equipe."
+        },
+        {
+          "heading": "Tomada de decisão em tempo real",
+          "content": "Ajuda fãs e emissoras a acompanhar o progresso ao vivo."
+        }
+      ]
+    },
+    {
+      "heading": "Exemplo de cálculo",
+      "subSections": [
+        {
+          "heading": "Exemplo",
+          "content": "Seu time: 88 vitórias, Rival: 67 derrotas, Jogos da temporada: 162 → Número Mágico = 162 − (88 + 67) + 1 = 8. Isso significa que seu time precisa de mais 8 vitórias ou derrotas adversárias para conquistar a divisão."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é um número mágico no beisebol?",
+      "a": "É o número de vitórias ou derrotas do adversário necessárias para que um time garanta uma vaga nos playoffs."
+    },
+    {
+      "q": "Como funciona a Calculadora de Números Mágicos?",
+      "a": "Ele usa a fórmula: Número Mágico = Total de Jogos - (Vitórias da Equipe + Perdas do Rival) + 1."
+    },
+    {
+      "q": "Quais informações eu preciso para calculá-lo?",
+      "a": "Vitórias de equipes, derrotas de equipes rivais e total de jogos da temporada."
+    },
+    {
+      "q": "Esta ferramenta é útil apenas para MLB?",
+      "a": "Principalmente sim, mas pode ser usado para qualquer liga de beisebol com regras semelhantes."
+    },
+    {
+      "q": "O número mágico diminui após cada jogo?",
+      "a": "Sim, uma vitória da equipe ou derrota do adversário diminui o número."
+    },
+    {
+      "q": "Vários rivais podem afetar o número mágico?",
+      "a": "Sim, mas o cálculo geralmente se concentra no concorrente mais próximo."
+    },
+    {
+      "q": "Posso usar esta calculadora no celular?",
+      "a": "Com certeza, funciona perfeitamente em todos os dispositivos."
+    },
+    {
+      "q": "O número mágico é igual ao número de eliminação?",
+      "a": "Não, o número mágico mostra o quão perto uma equipe está de vencer; o número de eliminação mostra o quão perto uma equipe está de ser eliminada."
+    },
+    {
+      "q": "Preciso de conhecimento de beisebol para usar esta ferramenta?",
+      "a": "De forma alguma, a calculadora é adequada para iniciantes."
+    },
+    {
+      "q": "A calculadora é gratuita?",
+      "a": "Sim, 100% gratuito com uso ilimitado."
+    }
+  ]
+}

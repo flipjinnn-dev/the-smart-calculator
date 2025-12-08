@@ -1,0 +1,147 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Conversor de massa seca para cozida: o que é e como ajuda",
+      "content": "O Conversor de Massa Seca para Cozida é uma ferramenta online gratuita que ajuda a estimar o peso da massa cozida a partir de uma determinada quantidade de massa seca. Diferentes tipos de massa se expandem de maneira diferente quando cozidas, e esta calculadora fornece estimativas precisas para cozinheiros domésticos, preparadores de refeições e chefs profissionais."
+    },
+    {
+      "heading": "Como usar a calculadora",
+      "subSections": [
+        {
+          "heading": "Selecione o tipo de massa",
+          "content": "Escolha massa longa, curta ou recheada."
+        },
+        {
+          "heading": "Insira a quantidade seca",
+          "content": "Insira a quantidade de massa seca em gramas, onças ou xícaras."
+        },
+        {
+          "heading": "Selecione a unidade alvo",
+          "content": "Escolha como deseja que o peso cozido seja exibido."
+        },
+        {
+          "heading": "Clique em Converter",
+          "content": "Veja o peso estimado da massa cozida instantaneamente."
+        },
+        {
+          "heading": "Dica",
+          "content": "O peso real cozido pode variar com base na absorção de água e no tempo de cozimento."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Conversão instantânea",
+          "content": "Converta massa seca em peso cozido em segundos."
+        },
+        {
+          "heading": "Suporta vários tipos de massa",
+          "content": "Espaguete, penne, fusilli e muito mais são suportados."
+        },
+        {
+          "heading": "Estimativas precisas",
+          "content": "Usa taxas de expansão médias para resultados confiáveis."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Funciona perfeitamente em smartphones, tablets e desktops."
+        },
+        {
+          "heading": "Interface amigável",
+          "content": "Simples e intuitivo para iniciantes e profissionais."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Cozinheiros domésticos",
+          "content": "Estime com precisão as porções das refeições diárias."
+        },
+        {
+          "heading": "Preparadores de refeições",
+          "content": "Planeje quantidades exatas de massa cozida para as refeições semanais."
+        },
+        {
+          "heading": "Acompanhamento Nutricional",
+          "content": "Monitore calorias e macros com precisão usando o peso da massa cozida."
+        },
+        {
+          "heading": "Cozinhas Profissionais",
+          "content": "Padronize o tamanho das porções para receitas em restaurantes ou catering."
+        },
+        {
+          "heading": "Culinária para eventos",
+          "content": "Planeje as necessidades de ingredientes para festas ou grandes reuniões."
+        }
+      ]
+    },
+    {
+      "heading": "Exemplos de conversões",
+      "subSections": [
+        {
+          "heading": "Espaguete",
+          "content": "100 g de espaguete seco → 220 g cozido"
+        },
+        {
+          "heading": "Penne",
+          "content": "50 g de penne seco → 110 g cozido"
+        },
+        {
+          "heading": "Fusilli",
+          "content": "200 g de fusilli seco → 440 g cozido"
+        },
+        {
+          "heading": "Conversão de Volume",
+          "content": "1 xícara de macarrão seco → ~2 xícaras cozidas"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é um conversor de massa seca para cozida?",
+      "a": "Ele estima a quantidade de massa cozida que você obtém com a massa seca."
+    },
+    {
+      "q": "Funciona para todos os tipos de massa?",
+      "a": "Sim, suporta os tipos de massa mais comuns."
+    },
+    {
+      "q": "A seleção dos ingredientes é importante?",
+      "a": "Sim, selecionar o tipo de massa melhora a precisão da conversão."
+    },
+    {
+      "q": "O resultado é exato?",
+      "a": "Não, é uma estimativa; o peso real pode variar dependendo das condições de cozimento."
+    },
+    {
+      "q": "Posso converter xícaras em peso cozido?",
+      "a": "Sim, as entradas de peso e volume são suportadas."
+    },
+    {
+      "q": "Esta calculadora é compatível com dispositivos móveis?",
+      "a": "Sim, funciona em smartphones, tablets e desktops."
+    },
+    {
+      "q": "O uso é gratuito?",
+      "a": "Sim, totalmente gratuito e online."
+    },
+    {
+      "q": "Posso planejar refeições usando esta ferramenta?",
+      "a": "Sim, ajuda a estimar porções para refeições individuais ou cozimento em massa."
+    },
+    {
+      "q": "Quem deve usar esta calculadora?",
+      "a": "Cozinheiros domésticos, preparadores de refeições, indivíduos preocupados com a dieta e chefs."
+    },
+    {
+      "q": "Por que usar este conversor?",
+      "a": "Ele garante o controle adequado das porções e resultados de cozimento precisos."
+    }
+  ]
+}

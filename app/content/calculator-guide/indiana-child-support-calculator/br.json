@@ -1,0 +1,147 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "Calculadora de pensão alimentícia em Indiana: o que é e como usá-la",
+      "content": "A Calculadora de Apoio à Criança de Indiana é uma ferramenta online gratuita que ajuda os pais a estimar os pagamentos de pensão alimentícia de acordo com as diretrizes do estado de Indiana. Ao inserir o rendimento, o número de filhos, os acordos de custódia e as despesas relacionadas com os filhos, fornece uma estimativa rápida e precisa das potenciais obrigações de apoio."
+    },
+    {
+      "heading": "Como usar a calculadora de pensão alimentícia de Indiana",
+      "subSections": [
+        {
+          "heading": "Insira a renda dos pais",
+          "content": "Insira a renda bruta semanal ou mensal de cada pai."
+        },
+        {
+          "heading": "Incluir deduções",
+          "content": "Adicione pensão alimentícia anterior ou pagamentos de pensão alimentícia do cônjuge."
+        },
+        {
+          "heading": "Especifique o número de filhos",
+          "content": "Insira quantas crianças precisam de apoio."
+        },
+        {
+          "heading": "Adicionar despesas relacionadas a crianças",
+          "content": "Inclui custos de creche, seguro saúde ou outras despesas aprovadas."
+        },
+        {
+          "heading": "Detalhes de custódia de entrada",
+          "content": "Insira pernoites ou cronograma de custódia."
+        },
+        {
+          "heading": "Clique em Calcular",
+          "content": "Veja o suporte estimado instantaneamente."
+        },
+        {
+          "heading": "Revise os resultados",
+          "content": "Visualize suporte básico, ajustes e obrigação total estimada."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos",
+      "subSections": [
+        {
+          "heading": "Cálculo preciso das diretrizes de Indiana",
+          "content": "Segue o modelo de participação nos rendimentos do estado."
+        },
+        {
+          "heading": "Entradas ajustáveis",
+          "content": "Renda, cronograma de custódia, número de filhos, creche e seguro."
+        },
+        {
+          "heading": "Rápido e Gratuito",
+          "content": "Calcula instantaneamente sem registro."
+        },
+        {
+          "heading": "Compatível com dispositivos móveis",
+          "content": "Acessível em qualquer dispositivo."
+        },
+        {
+          "heading": "Análise detalhada",
+          "content": "Suporte básico, ajustes e obrigação total estimada."
+        }
+      ]
+    },
+    {
+      "heading": "Quem pode se beneficiar",
+      "subSections": [
+        {
+          "heading": "Planejamento Orçamentário",
+          "content": "Conheça as obrigações mensais ou semanais esperadas."
+        },
+        {
+          "heading": "Preparação para divórcio e separação",
+          "content": "Negociar acordos ou antecipar decisões judiciais."
+        },
+        {
+          "heading": "Orientação Jurídica",
+          "content": "Visualize obrigações para advogados ou mediadores."
+        },
+        {
+          "heading": "Planejamento de Custódia",
+          "content": "Compare cenários e veja como o suporte muda."
+        },
+        {
+          "heading": "Clareza Financeira",
+          "content": "Entenda como o suporte é calculado em Indiana."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Pai solteiro",
+          "content": "Renda do Pai A: $ 1.200/semana | Renda do Pai B: $ 800/semana | Crianças: 2 | Despesas com cuidados infantis/saúde: $ 100/semana → Suporte semanal estimado: $ 350"
+        },
+        {
+          "heading": "Exemplo 2 – Custódia Compartilhada",
+          "content": "Renda do Pai A: $ 1.500/semana | Renda do Pai B: $ 1.000/semana | Crianças: 1 | Custódia Compartilhada: 3 noites/semana para o Pai B → Suporte Semanal Estimado: $220"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é a calculadora de pensão alimentícia de Indiana?",
+      "a": "Ele estima as obrigações de pensão alimentícia com base nas diretrizes do estado de Indiana."
+    },
+    {
+      "q": "Esta calculadora é gratuita?",
+      "a": "Sim, é totalmente gratuito online."
+    },
+    {
+      "q": "Eu preciso de software?",
+      "a": "Não, funciona em qualquer navegador."
+    },
+    {
+      "q": "Calcula ordens judiciais exatas?",
+      "a": "Não, os valores finais podem diferir a critério do juiz."
+    },
+    {
+      "q": "Pode incluir custos de cuidados infantis e seguros?",
+      "a": "Sim, você pode inserir essas despesas."
+    },
+    {
+      "q": "Isso leva em conta o tempo de custódia?",
+      "a": "Sim, a guarda compartilhada afeta os cálculos."
+    },
+    {
+      "q": "Ele pode lidar com vários filhos?",
+      "a": "Sim, o número de filhos está incluído no cálculo."
+    },
+    {
+      "q": "É adequado para planejamento jurídico?",
+      "a": "Sim, mas não substitui o aconselhamento jurídico profissional."
+    },
+    {
+      "q": "Os rendimentos podem ser ajustados para deduções?",
+      "a": "Sim, podem ser adicionadas obrigações anteriores, como apoio existente ou manutenção do cônjuge."
+    },
+    {
+      "q": "Quão precisos são os resultados?",
+      "a": "Os resultados são precisos com base nas informações fornecidas, mas o apoio ordenado pelo tribunal pode variar."
+    }
+  ]
+}

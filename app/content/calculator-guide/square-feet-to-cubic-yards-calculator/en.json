@@ -1,0 +1,101 @@
+{
+    "color": "orange",
+    "sections": [
+        {
+            "heading": "What is a Square Feet to Cubic Yards Calculator?",
+            "content": "This calculator converts area in square feet and material depth into volume in cubic yards, helping you estimate soil, mulch, gravel, or concrete requirements quickly and accurately."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "content": "Follow these steps to estimate cubic yards easily:",
+            "subSections": [
+                {
+                    "heading": "Steps",
+                    "content": "1. Enter Area – Input total square feet or length × width.\n2. Enter Depth – Specify material depth in feet.\n3. Click Calculate – Get the cubic yards instantly.\n4. Tip – For uneven surfaces, use an average depth."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "content": "This tool offers quick and accurate cubic yard calculations:",
+            "subSections": [
+                {
+                    "heading": "Features",
+                    "content": "- Instant conversion from area and depth to cubic yards.\n- Simple input fields for area or direct length × width.\n- Suitable for soil, mulch, gravel, sand, and concrete.\n- Fully mobile-friendly interface.\n- Helps plan material volume and cost accurately."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "content": "People use this calculator for different real-life projects:",
+            "subSections": [
+                {
+                    "heading": "Examples",
+                    "content": "- Construction & Landscaping: Estimate concrete, gravel, or soil volume.\n- Gardening: Calculate mulch or compost needed for garden beds.\n- DIY Projects: Estimate materials for patios, paths, or small excavations.\n- Bulk Material Ordering: Convert area + depth into cubic yards for suppliers.\n- Budget Planning: Plan costs and material requirements before buying."
+                }
+            ]
+        },
+        {
+            "heading": "Example Calculations",
+            "content": "Here are sample calculations based on real scenarios:",
+            "subSections": [
+                {
+                    "heading": "Examples",
+                    "content": "- Garden Bed: Area 100 ft², Depth 0.5 ft → Volume ≈ 1.85 yd³.\n- Driveway Gravel: Area 500 ft², Depth 0.25 ft → Volume ≈ 4.63 yd³.\n- Concrete Slab: Area 200 ft², Depth 0.33 ft → Volume ≈ 2.44 yd³."
+                }
+            ]
+        },
+        {
+            "heading": "Tips & Best Practices",
+            "content": "Useful guidance to improve your material estimates:",
+            "subSections": [
+                {
+                    "heading": "Tips",
+                    "content": "- Always round up material estimates to avoid shortages.\n- Use average depth if the ground is uneven.\n- Convert depth properly (inches → feet if needed).\n- Double-check area before ordering bulk materials.\n- Compare suppliers' cubic yard pricing for cost savings."
+                }
+            ]
+        },
+        {
+            "heading": "Disclaimer",
+            "content": "This cubic yards calculator provides approximate results. Material settling, moisture, compaction, and supplier variations may affect actual quantities. For precise requirements, consult a contractor or material supplier."
+        }
+    ],
+    "faq": [
+        {
+            "q": "What does this calculator do?",
+            "a": "It converts square feet and material depth (in feet) into cubic yards."
+        },
+        {
+            "q": "Why use it?",
+            "a": "To quickly estimate how much soil, gravel, mulch, sand, or concrete you need for a project."
+        },
+        {
+            "q": "Can I calculate area using length × width?",
+            "a": "Yes, the calculator can compute area automatically."
+        },
+        {
+            "q": "Can I use different depths?",
+            "a": "Yes, enter any depth in feet. For inches, convert to feet first."
+        },
+        {
+            "q": "Does it work for uneven surfaces?",
+            "a": "Yes. Use an average depth for best results."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, it works smoothly on phones, tablets, and desktops."
+        },
+        {
+            "q": "Can this help with budgeting?",
+            "a": "Yes, multiply the cubic yard estimate by the cost per yard to plan expenses."
+        },
+        {
+            "q": "Is it free to use?",
+            "a": "Yes, completely free with no downloads or signup."
+        },
+        {
+            "q": "Who should use this calculator?",
+            "a": "Contractors, gardeners, landscapers, homeowners, and DIY project enthusiasts."
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "color": "orange",
+    "sections": [
+        {
+            "heading": "What is a Butter Calculator?",
+            "content": "The Butter Calculator lets you convert butter quantities between sticks, cups, tablespoons, grams, ounces, and milliliters instantly. Ideal for bakers, chefs, and home cooks who need precise measurements."
+        },
+        {
+            "heading": "How to Use the Calculator",
+            "content": "Follow these steps to convert butter units accurately:",
+            "subSections": [
+                {
+                    "heading": "Steps",
+                    "content": "1. Enter Amount – Input butter quantity in any unit.\n2. Select Unit – Choose the unit for your input.\n3. Choose Target Unit – Select the unit(s) you want to convert to.\n4. Click Convert – Get the equivalent butter amount instantly.\n5. Tip – For precise baking, use weight-based units like grams or ounces."
+                }
+            ]
+        },
+        {
+            "heading": "Key Features",
+            "content": "This butter converter is designed for accurate and fast conversions:",
+            "subSections": [
+                {
+                    "heading": "Features",
+                    "content": "- Instant Conversion – Converts between all major butter units.\n- Supports Multiple Units – Sticks, cups, grams, ounces, tablespoons, milliliters.\n- Accurate & Reliable – Uses standard conversion ratios.\n- International-Friendly – Seamlessly converts US and metric units.\n- Mobile-Optimized – Works smoothly on all devices."
+                }
+            ]
+        },
+        {
+            "heading": "Use Cases",
+            "content": "People rely on this tool for many kitchen and recipe-related tasks:",
+            "subSections": [
+                {
+                    "heading": "Examples",
+                    "content": "- Baking & Cooking: Follow recipes with exact measurements.\n- International Recipes: Convert US butter units to metric and vice versa.\n- Diet & Nutrition: Measure butter precisely for calories or macros.\n- Scaling Recipes: Adjust recipe size up or down easily.\n- Learning: Understand butter measurement differences and conversions."
+                }
+            ]
+        },
+        {
+            "heading": "Example Conversions",
+            "content": "Here are common butter conversions to help you understand results:",
+            "subSections": [
+                {
+                    "heading": "Examples",
+                    "content": "- 2 sticks → 227 grams\n- 1 cup → 16 tablespoons\n- 8 ounces → 237 ml\n- 113 grams → 1 stick"
+                }
+            ]
+        },
+        {
+            "heading": "Tips & Best Practices",
+            "content": "Helpful tips for more accurate butter measurements:",
+            "subSections": [
+                {
+                    "heading": "Tips",
+                    "content": "- Prefer weight units (grams/ounces) for baking accuracy.\n- Check if your recipe uses US or metric measurements.\n- When melting butter, volume may slightly differ—use grams for precision.\n- Always level off tablespoons and cups for correct results.\n- For large recipes, convert all butter units into grams for consistency."
+                }
+            ]
+        },
+        {
+            "heading": "Disclaimer",
+            "content": "This butter conversion tool provides standard, widely accepted conversion estimates. Actual butter density may vary slightly depending on temperature and brand. Use weight measurements for the highest accuracy."
+        }
+    ],
+    "faq": [
+        {
+            "q": "What does this calculator do?",
+            "a": "It converts butter between sticks, cups, tablespoons, grams, ounces, and milliliters."
+        },
+        {
+            "q": "Why use it?",
+            "a": "It ensures accurate measurements for cooking and baking."
+        },
+        {
+            "q": "Can I convert sticks to grams?",
+            "a": "Yes, simply enter sticks and select grams as the target unit."
+        },
+        {
+            "q": "Does it support metric units?",
+            "a": "Yes, grams and milliliters are fully supported."
+        },
+        {
+            "q": "Is it accurate for baking?",
+            "a": "Yes, it uses standard butter conversion ratios widely used in recipes."
+        },
+        {
+            "q": "Can I convert tablespoons to cups?",
+            "a": "Yes, the calculator supports conversions between all major butter volume units."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, it's optimized for phones, tablets, and desktops."
+        },
+        {
+            "q": "Can I use it for diet tracking?",
+            "a": "Yes, it helps accurately measure butter for nutrition tracking."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, completely free with no downloads required."
+        },
+        {
+            "q": "Who should use it?",
+            "a": "Bakers, chefs, home cooks, nutritionists, and anyone following recipes."
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+  "color": "Blau",
+  "sections": [
+    {
+      "heading": "Indiana-Unterhaltsrechner: Was es ist und wie man es verwendet",
+      "content": "Der Indiana Child Support Calculator ist ein kostenloses Online-Tool, das Eltern dabei hilft, die Unterhaltszahlungen für Kinder gemäß den Richtlinien des Bundesstaates Indiana abzuschätzen. Durch die Eingabe von Einkommen, Anzahl der Kinder, Sorgerechtsvereinbarungen und kindbezogenen Ausgaben ermöglicht es eine schnelle und genaue Einschätzung möglicher Unterhaltspflichten."
+    },
+    {
+      "heading": "So verwenden Sie den Indiana-Unterhaltsrechner für Kinder",
+      "subSections": [
+        {
+          "heading": "Geben Sie das Einkommen der Eltern ein",
+          "content": "Geben Sie das wöchentliche oder monatliche Bruttoeinkommen für jeden Elternteil ein."
+        },
+        {
+          "heading": "Abzüge einbeziehen",
+          "content": "Fügen Sie frühere Kindesunterhalts- oder Ehegattenunterhaltszahlungen hinzu."
+        },
+        {
+          "heading": "Geben Sie die Anzahl der Kinder an",
+          "content": "Geben Sie ein, wie viele Kinder Unterstützung benötigen."
+        },
+        {
+          "heading": "Kinderbezogene Ausgaben hinzufügen",
+          "content": "Berücksichtigen Sie die Kosten für Kinderbetreuung, Krankenversicherung oder andere genehmigte Ausgaben."
+        },
+        {
+          "heading": "Geben Sie die Verwahrungsdetails ein",
+          "content": "Geben Sie Übernachtungen oder Sorgerechtsplan ein."
+        },
+        {
+          "heading": "Klicken Sie auf Berechnen",
+          "content": "Sehen Sie sich sofort den geschätzten Support an."
+        },
+        {
+          "heading": "Überprüfen Sie die Ergebnisse",
+          "content": "Zeigen Sie die Basisunterstützung, Anpassungen und die geschätzte Gesamtverpflichtung an."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Genaue Berechnung der Indiana-Richtlinien",
+          "content": "Folgt dem Einkommensbeteiligungsmodell des Staates."
+        },
+        {
+          "heading": "Einstellbare Eingänge",
+          "content": "Einkommen, Sorgerechtsregelung, Anzahl der Kinder, Kinderbetreuung und Versicherung."
+        },
+        {
+          "heading": "Schnell und kostenlos",
+          "content": "Sofortige Berechnung ohne Registrierung."
+        },
+        {
+          "heading": "Mobilfreundlich",
+          "content": "Auf jedem Gerät zugänglich."
+        },
+        {
+          "heading": "Detaillierte Aufschlüsselung",
+          "content": "Basisunterstützung, Anpassungen und geschätzte Gesamtverpflichtung."
+        }
+      ]
+    },
+    {
+      "heading": "Wer kann davon profitieren?",
+      "subSections": [
+        {
+          "heading": "Budgetplanung",
+          "content": "Kennen Sie die erwarteten monatlichen oder wöchentlichen Verpflichtungen."
+        },
+        {
+          "heading": "Scheidungs- und Trennungsvorbereitung",
+          "content": "Verhandeln Sie Vereinbarungen oder antizipieren Sie Gerichtsurteile."
+        },
+        {
+          "heading": "Rechtliche Hinweise",
+          "content": "Visualisieren Sie Pflichten für Anwälte oder Mediatoren."
+        },
+        {
+          "heading": "Sorgerechtsplanung",
+          "content": "Vergleichen Sie Szenarien und sehen Sie, wie sich der Support ändert."
+        },
+        {
+          "heading": "Finanzielle Klarheit",
+          "content": "Verstehen Sie, wie die Unterstützung in Indiana berechnet wird."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1 – Alleinerziehender",
+          "content": "Einkommen von Elternteil A: 1.200 $/Woche | Einkommen von Elternteil B: 800 $/Woche | Kinder: 2 | Kinderbetreuungs-/Gesundheitskosten: 100 $/Woche → Geschätzte wöchentliche Unterstützung: 350 $"
+        },
+        {
+          "heading": "Beispiel 2 – Geteiltes Sorgerecht",
+          "content": "Einkommen von Elternteil A: 1.500 $/Woche | Einkommen von Elternteil B: 1.000 $/Woche | Kinder: 1 | Geteiltes Sorgerecht: 3 Übernachtungen/Woche für Elternteil B → Geschätzter wöchentlicher Unterhalt: 220 $"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist der Indiana-Kindergeldrechner?",
+      "a": "Es schätzt die Unterhaltspflichten für Kinder auf der Grundlage der Richtlinien des Bundesstaates Indiana."
+    },
+    {
+      "q": "Ist dieser Rechner kostenlos?",
+      "a": "Ja, es ist online völlig kostenlos."
+    },
+    {
+      "q": "Benötige ich Software?",
+      "a": "Nein, es funktioniert in jedem Browser."
+    },
+    {
+      "q": "Berechnet es genaue Gerichtsbeschlüsse?",
+      "a": "Nein, die endgültigen Beträge können nach Ermessen des Richters abweichen."
+    },
+    {
+      "q": "Können Kinderbetreuungs- und Versicherungskosten darin enthalten sein?",
+      "a": "Ja, Sie können diese Ausgaben eingeben."
+    },
+    {
+      "q": "Berücksichtigt es die Haftzeit?",
+      "a": "Ja, das gemeinsame Sorgerecht wirkt sich auf die Berechnungen aus."
+    },
+    {
+      "q": "Kann es mit mehreren Kindern umgehen?",
+      "a": "Ja, die Anzahl der Kinder wird in die Berechnung einbezogen."
+    },
+    {
+      "q": "Ist es für die rechtliche Planung geeignet?",
+      "a": "Ja, aber es ist kein Ersatz für eine professionelle Rechtsberatung."
+    },
+    {
+      "q": "Können Einkünfte um Abzüge angepasst werden?",
+      "a": "Ja, frühere Verpflichtungen wie bestehender Unterhalt oder Ehegattenunterhalt können hinzugerechnet werden."
+    },
+    {
+      "q": "Wie genau sind die Ergebnisse?",
+      "a": "Die Ergebnisse sind auf der Grundlage der Eingaben korrekt, die gerichtlich angeordnete Unterstützung kann jedoch variieren."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "color": "laranja",
+  "sections": [
+    {
+      "heading": "O que é uma calculadora de erro percentual?",
+      "content": "Uma calculadora de erro percentual é uma ferramenta online que calcula a diferença entre o valor medido (observado) e o valor verdadeiro (aceito) como uma porcentagem. Ajuda a determinar a precisão de experimentos, previsões ou cálculos. O resultado é sempre positivo porque utiliza a diferença absoluta."
+    },
+    {
+      "heading": "Fórmula usada:",
+      "content": "$$Erro percentual = \\frac{|Valor observado - Valor verdadeiro|}{|Valor verdadeiro|} \\times 100\\%$$ \n Nota: O resultado é sempre positivo pois utiliza a diferença absoluta."
+    },
+    {
+      "heading": "Como usar a calculadora de erro percentual",
+      "content": "Esta calculadora de erro percentual é simples e fácil de usar para iniciantes. Basta inserir seus valores e obter resultados instantâneos.",
+      "subSections": [
+        {
+          "heading": "Etapas para usar:",
+          "content": "Insira o valor observado (seu resultado medido ou estimado). Insira o Valor Verdadeiro (valor aceito ou de referência). Clique em Calcular para obter o erro percentual instantaneamente. Analise o resultado — uma porcentagem menor indica maior precisão."
+        }
+      ]
+    },
+    {
+      "heading": "Principais recursos de uma calculadora de erro percentual",
+      "content": "A ferramenta fornece resultados percentuais de erro precisos, rápidos e fáceis de usar.",
+      "subSections": [
+        {
+          "heading": "Resultados instantâneos",
+          "content": "Calcule o erro percentual em segundos."
+        },
+        {
+          "heading": "Interface amigável",
+          "content": "Não é necessário conhecimento técnico ou matemático."
+        },
+        {
+          "heading": "Fórmula precisa",
+          "content": "Usa a fórmula de erro percentual padrão para obter resultados confiáveis."
+        },
+        {
+          "heading": "Suporta várias entradas",
+          "content": "Funciona com números inteiros, decimais ou porcentagens."
+        },
+        {
+          "heading": "Gratuito e Seguro",
+          "content": "Nenhuma instalação necessária e nenhum dado pessoal coletado."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso de uma calculadora de erro percentual",
+      "content": "O erro percentual é amplamente utilizado em diferentes campos para medir a precisão.",
+      "subSections": [
+        {
+          "heading": "Acadêmicos",
+          "content": "Usado em laboratórios de física, química e matemática para comparar resultados experimentais."
+        },
+        {
+          "heading": "Engenharia",
+          "content": "Garante que as medições e projetos correspondam aos padrões exigidos."
+        },
+        {
+          "heading": "Financiar",
+          "content": "Compara resultados previstos e reais em previsões ou orçamentos."
+        },
+        {
+          "heading": "Controle de qualidade",
+          "content": "Monitora a consistência e precisão dos resultados de produção."
+        },
+        {
+          "heading": "Tarefas Diárias",
+          "content": "Útil para estimativas, receitas, medições DIY e muito mais."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de exemplo",
+      "subSections": [
+        {
+          "heading": "Exemplo 1 – Experiência Científica:",
+          "content": "Valor observado: 48g \n Valor Verdadeiro: 50g \n $$Erro percentual = \\frac{|48 - 50|}{50} \\vezes 100 = 4\\%$$"
+        },
+        {
+          "heading": "Exemplo 2 – Vendas Previstas:",
+          "content": "Vendas previstas: 200 unidades \n Vendas reais: 220 unidades \n $$Erro percentual = \\frac{|200 - 220|}{220} \\ves 100 \\aproximadamente 9,09\\%$$"
+        },
+        {
+          "heading": "Exemplo 3 – Medição de Construção:",
+          "content": "Comprimento medido: 9,7 m \n Comprimento real: 10m \n $$Erro percentual = \\frac{|9,7 - 10|}{10} \\vezes 100 = 3\\%$$ \n Esses exemplos demonstram a utilidade prática de uma calculadora de erro percentual."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qual é a diferença entre erro percentual e erro percentual?",
+      "a": "Não há diferença – ambos os termos descrevem o mesmo conceito de precisão de medição."
+    },
+    {
+      "q": "Por que o erro percentual é sempre positivo?",
+      "a": "Porque usa o valor absoluto da diferença entre os valores observados e verdadeiros."
+    },
+    {
+      "q": "Posso calcular o erro percentual manualmente?",
+      "a": "Sim, use: \n $$ \\frac{|Observado - Verdadeiro|}{|Verdadeiro|} \\ves 100 $$"
+    },
+    {
+      "q": "Esta calculadora é adequada para decimais?",
+      "a": "Sim, funciona com decimais e números inteiros."
+    },
+    {
+      "q": "Posso calcular o erro percentual para medições múltiplas?",
+      "a": "Sim, mas calcule cada medição separadamente para obter erros percentuais individuais."
+    },
+    {
+      "q": "É seguro usar calculadoras de erro percentual online?",
+      "a": "Sim, ferramentas confiáveis ​​são gratuitas, seguras e não coletam dados pessoais."
+    },
+    {
+      "q": "Por que devo usar uma calculadora em vez de cálculo manual?",
+      "a": "Economiza tempo, reduz erros e fornece resultados instantâneos e precisos."
+    },
+    {
+      "q": "Posso usar isso em análise financeira?",
+      "a": "Sim, o erro percentual é útil para comparar resultados previstos e reais."
+    },
+    {
+      "q": "O que indica um erro percentual baixo?",
+      "a": "Isso significa que o valor observado está muito próximo do valor real, mostrando alta precisão."
+    },
+    {
+      "q": "O erro percentual pode ser maior que 100%?",
+      "a": "Sim, se o valor observado for significativamente superior ou inferior ao valor real."
+    }
+  ]
+}

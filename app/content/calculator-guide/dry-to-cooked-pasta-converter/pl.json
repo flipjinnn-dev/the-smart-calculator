@@ -1,0 +1,147 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Przetwornik makaronu suchego na ugotowany: co to jest i jak pomaga",
+      "content": "Konwerter makaronu suchego na ugotowany to bezpłatne narzędzie internetowe, które pomaga oszacować wagę ugotowanego makaronu na podstawie danej ilości suchego makaronu. Różne rodzaje makaronów rozszerzają się w różny sposób po ugotowaniu, a ten kalkulator zapewnia dokładne szacunki dla kucharzy domowych, osób przygotowujących posiłki i profesjonalnych szefów kuchni."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wybierz rodzaj makaronu",
+          "content": "Wybierz makaron długi, krótki lub z nadzieniem."
+        },
+        {
+          "heading": "Wprowadź ilość suchej masy",
+          "content": "Wprowadź ilość suchego makaronu w gramach, uncjach lub filiżankach."
+        },
+        {
+          "heading": "Wybierz jednostkę docelową",
+          "content": "Wybierz sposób wyświetlania ugotowanej masy."
+        },
+        {
+          "heading": "Kliknij Konwertuj",
+          "content": "Natychmiast sprawdź szacunkową wagę ugotowanego makaronu."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Rzeczywista masa po ugotowaniu może się różnić w zależności od absorpcji wody i czasu gotowania."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowa konwersja",
+          "content": "Zamień suchy makaron na gotową masę w ciągu kilku sekund."
+        },
+        {
+          "heading": "Obsługuje różne typy makaronów",
+          "content": "Obsługiwane są spaghetti, penne, fusilli i inne."
+        },
+        {
+          "heading": "Dokładne szacunki",
+          "content": "Wykorzystuje średnie współczynniki rozszerzalności w celu uzyskania wiarygodnych wyników."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa bezproblemowo na smartfonach, tabletach i komputerach stacjonarnych."
+        },
+        {
+          "heading": "Przyjazny dla użytkownika interfejs",
+          "content": "Prosty i intuicyjny zarówno dla początkujących, jak i profesjonalistów."
+        }
+      ]
+    },
+    {
+      "heading": "Kto może skorzystać",
+      "subSections": [
+        {
+          "heading": "Domowi kucharze",
+          "content": "Dokładnie oszacuj porcje codziennych posiłków."
+        },
+        {
+          "heading": "Przyrządzacze posiłków",
+          "content": "Zaplanuj dokładną ilość ugotowanego makaronu na cotygodniowe posiłki."
+        },
+        {
+          "heading": "Śledzenie odżywiania",
+          "content": "Śledź dokładnie kalorie i makroelementy, korzystając z wagi ugotowanego makaronu."
+        },
+        {
+          "heading": "Kuchnie profesjonalne",
+          "content": "Standaryzuj rozmiary porcji dla przepisów w restauracjach lub cateringu."
+        },
+        {
+          "heading": "Gotowanie na wydarzenie",
+          "content": "Zaplanuj zapotrzebowanie na składniki na imprezy lub duże spotkania."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe konwersje",
+      "subSections": [
+        {
+          "heading": "Spaghetti",
+          "content": "100 g suchego spaghetti → 220 g ugotowanego"
+        },
+        {
+          "heading": "Penne",
+          "content": "50 g suchego penne → 110 g ugotowanego"
+        },
+        {
+          "heading": "Fusilli",
+          "content": "200 g suchego fusilli → 440 g ugotowanego"
+        },
+        {
+          "heading": "Konwersja głośności",
+          "content": "1 szklanka suchego makaronu → ~2 filiżanki ugotowanego"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest konwerter makaronu suchego na ugotowany?",
+      "a": "Szacuje, ile ugotowanego makaronu otrzymasz z suchego makaronu."
+    },
+    {
+      "q": "Czy działa to na wszystkie rodzaje makaronów?",
+      "a": "Tak, obsługuje najpopularniejsze rodzaje makaronów."
+    },
+    {
+      "q": "Czy dobór składników jest ważny?",
+      "a": "Tak, wybór rodzaju makaronu poprawia dokładność konwersji."
+    },
+    {
+      "q": "Czy wynik jest dokładny?",
+      "a": "Nie, to szacunki; Rzeczywista waga może się różnić w zależności od warunków gotowania."
+    },
+    {
+      "q": "Czy mogę przeliczyć filiżanki na masę po ugotowaniu?",
+      "a": "Tak, obsługiwane są dane wejściowe dotyczące masy i objętości."
+    },
+    {
+      "q": "Czy ten kalkulator jest przystosowany do urządzeń mobilnych?",
+      "a": "Tak, działa na smartfonach, tabletach i komputerach stacjonarnych."
+    },
+    {
+      "q": "Czy korzystanie z niego jest bezpłatne?",
+      "a": "Tak, całkowicie bezpłatnie i online."
+    },
+    {
+      "q": "Czy mogę planować posiłki za pomocą tego narzędzia?",
+      "a": "Tak, pomaga oszacować porcje poszczególnych posiłków lub gotowania zbiorczego."
+    },
+    {
+      "q": "Kto powinien korzystać z tego kalkulatora?",
+      "a": "Kucharze domowi, osoby przygotowujące posiłki, osoby dbające o dietę i szefowie kuchni."
+    },
+    {
+      "q": "Dlaczego warto używać tego konwertera?",
+      "a": "Zapewnia odpowiednią kontrolę porcji i dokładne rezultaty gotowania."
+    }
+  ]
+}

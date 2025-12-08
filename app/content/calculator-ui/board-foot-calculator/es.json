@@ -1,0 +1,160 @@
+{
+  "pageTitle": "Calculadora de pie tablar",
+  "pageDescription": "Calcule pies tablares para madera y materiales de construcción con medidas precisas para proyectos de carpintería y construcción",
+  "form": {
+    "labels": {
+      "thickness": "Espesor",
+      "width": "Ancho",
+      "length": "Longitud",
+      "quantity": "Cantidad",
+      "unitSystem": "Sistema de unidades",
+      "lumberType": "Tipo de madera"
+    },
+    "placeholders": {
+      "thickness": "Introducir espesor",
+      "width": "Introduzca el ancho",
+      "length": "Introduzca la longitud",
+      "quantity": "Introduce la cantidad"
+    },
+    "buttons": {
+      "calculate": "Calcular pies tablares",
+      "reset": "Reiniciar"
+    },
+    "unitSystems": {
+      "imperial": "Imperial (pulgadas, pies)",
+      "metric": "Métrico (mm, m)"
+    },
+    "lumberTypes": {
+      "softwood": "Madera blanda (pino, cedro, abeto)",
+      "hardwood": "Madera dura (roble, arce, cerezo)",
+      "plywood": "Madera contrachapada",
+      "custom": "Dimensiones personalizadas"
+    }
+  },
+  "results": {
+    "boardFeet": "Pies tablares",
+    "totalBoardFeet": "Pies tablares totales",
+    "volume": "Volumen",
+    "weight": "Peso estimado",
+    "boardFootResultsTitle": "Resultados del pie tablar"
+  },
+  "educational": {
+    "boardFootInfo": "Información sobre el pie tablar",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos de madera",
+    "boardFootFacts": {
+      "definition": {
+        "title": "Definición de pie tablar",
+        "description": "Un pie tablar equivale a 144 pulgadas cúbicas de madera (12\" × 12\" × 1\")"
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "Pies de tabla = (Espesor × Ancho × Largo × Cantidad) ÷ 144"
+      },
+      "pricing": {
+        "title": "Precios de la madera",
+        "description": "La madera generalmente se vende por pie tablar para las maderas duras y por pieza para las maderas blandas."
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona cálculos de volumen únicamente.",
+      "accuracy": "Mida la madera con precisión y tenga en cuenta los residuos en sus proyectos"
+    },
+    "importantNotesList": [
+      "Las dimensiones reales de la madera suelen ser más pequeñas que los tamaños nominales.",
+      "Agregue entre un 15 y un 20 % adicional por desperdicios y errores en proyectos de carpintería",
+      "Agregue entre un 15 y un 20 % adicional por desperdicios y errores en proyectos de carpintería",
+      "Considere el contenido de humedad al calcular las estimaciones de peso."
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese las dimensiones de su madera para calcular los pies tablares.",
+    "resultMessage": "El cálculo del pie tablar se muestra a continuación",
+    "assessmentResult": "Resultado del cálculo de la madera:",
+    "boardFootAnalysis": "Análisis del pie tablar"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona cálculos de pies tablares basados ​​en fórmulas estándar de medición de madera. Los requisitos reales de madera pueden variar según las características específicas del proyecto, los factores de desperdicio y las recomendaciones de los proveedores."
+  },
+  "seekHelp": {
+    "title": "Recursos de madera",
+    "content": "Para obtener asesoramiento profesional sobre madera y estimación de proyectos, consulte a proveedores de madera o profesionales de la carpintería para obtener recomendaciones específicas para el proyecto y selección de materiales."
+  },
+  "errors": {
+    "thickness": "Por favor ingrese un espesor válido",
+    "width": "Por favor ingresa un ancho válido",
+    "length": "Por favor introduce una longitud válida",
+    "quantity": "Por favor introduce una cantidad válida",
+    "unitSystem": "Por favor seleccione un sistema de unidad"
+  },
+  "tooltips": {
+    "thickness": "Grosor de la pieza de madera.",
+    "width": "Ancho de la pieza de madera",
+    "length": "Longitud de la pieza de madera",
+    "quantity": "Número de piezas con estas dimensiones",
+    "lumberType": "El tipo de madera afecta el peso y el precio."
+  },
+  "loading_0": "Cargando...",
+  "in_1": "en",
+  "in_2": "en",
+  "ft_3": "pie",
+  "in_4": "en",
+  "bf_5": "novio",
+  "bf_6": "novio",
+  "bf_7": "novio",
+  "in_8": "pulgadas³",
+  "volume_cubic_feet_9": "Volumen (pies cúbicos):",
+  "ft_10": "pies³",
+  "total_cost_11": "Costo total:",
+  "pkr_12": "PKR",
+  "save_this_calculation_13": "Guarde este cálculo",
+  "a_board_foot_is_a_unit_of_measurement_for_lumber_v_14": "Un pie tablar es una unidad de medida para el volumen de madera. Un pie tablar equivale a 144 pulgadas cúbicas o\n                    1/12 pie cúbico. Se calcula multiplicando espesor (pulgadas) × ancho (pulgadas) × largo (pies)\n                    ÷ 12.",
+  "calculation_formulas_15": "Fórmulas de cálculo",
+  "length_in_feet_16": "Longitud en pies",
+  "bf_lengthft_widthin_thicknessin_12_17": "BF = (Largo_pies × Ancho_pulg × Espesor_pulg) ÷ 12",
+  "length_in_inches_18": "Longitud en pulgadas",
+  "bf_thicknessin_widthin_lengthin_144_19": "BF = (Espesor_pulg × Ancho_pulg × Largo_pulg) ÷ 144",
+  "key_conversions_20": "Conversiones clave",
+  "k_1_board_foot_21": "1 pie tablar =",
+  "k_144_cubic_inches_22": "144 pulgadas cúbicas",
+  "k_1_board_foot_23": "1 pie tablar =",
+  "k_112_cubic_foot_24": "1/12 pie cúbico",
+  "total_bf_25": "Total LM =",
+  "number_of_pieces_bf_per_piece_26": "Número de piezas × BF por pieza",
+  "total_cost_27": "Costo total =",
+  "total_bf_price_per_bf_28": "Total BF × Precio por BF",
+  "example_29": "Ejemplo:",
+  "a_2_6_8_board_8_6_2_12_8_board_feet_for_10_pieces__30": "Una tabla de 2\" × 6\" × 8' = (8 × 6 × 2) ÷ 12 = 8 pies tablares. Por 10 piezas,\n                      total = 80 pies tablares.",
+  "price_per_board_foot_optional_5": "Precio por pie tablar (opcional)",
+  "pkrbf_6": "PKR/BF",
+  "cost_per_board_foot_for_total_price_calculation_7": "Costo por pie tablar para el cálculo del precio total",
+  "bf_8": "novio",
+  "bf_9": "novio",
+  "bf_10": "novio",
+  "in_11": "pulgadas³",
+  "volume_cubic_feet_12": "Volumen (pies cúbicos):",
+  "ft_13": "pies³",
+  "total_cost_14": "Costo total:",
+  "pkr_15": "PKR",
+  "save_this_calculation_16": "Guarde este cálculo",
+  "a_board_foot_is_a_unit_of_measurement_for_lumber_v_17": "Un pie tablar es una unidad de medida para el volumen de madera. Un pie tablar equivale a 144 pulgadas cúbicas o\n                    1/12 pie cúbico. Se calcula multiplicando espesor (pulgadas) × ancho (pulgadas) × largo (pies)\n                    ÷ 12.",
+  "calculation_formulas_18": "Fórmulas de cálculo",
+  "length_in_feet_19": "Longitud en pies",
+  "bf_lengthft_widthin_thicknessin_12_20": "BF = (Largo_pies × Ancho_pulg × Espesor_pulg) ÷ 12",
+  "length_in_inches_21": "Longitud en pulgadas",
+  "bf_thicknessin_widthin_lengthin_144_22": "BF = (Espesor_pulg × Ancho_pulg × Largo_pulg) ÷ 144",
+  "key_conversions_23": "Conversiones clave",
+  "k_1_board_foot_24": "1 pie tablar =",
+  "k_144_cubic_inches_25": "144 pulgadas cúbicas",
+  "k_1_board_foot_26": "1 pie tablar =",
+  "k_112_cubic_foot_27": "1/12 pie cúbico",
+  "total_bf_28": "Total LM =",
+  "number_of_pieces_bf_per_piece_29": "Número de piezas × BF por pieza",
+  "total_cost_30": "Costo total =",
+  "total_bf_price_per_bf_31": "Total BF × Precio por BF",
+  "example_32": "Ejemplo:",
+  "a_2_6_8_board_8_6_2_12_8_board_feet_for_10_pieces__33": "Una tabla de 2\" × 6\" × 8' = (8 × 6 × 2) ÷ 12 = 8 pies tablares. Por 10 piezas,\n                      total = 80 pies tablares."
+}

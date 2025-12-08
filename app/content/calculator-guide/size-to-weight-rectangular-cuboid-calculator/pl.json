@@ -1,0 +1,143 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator rozmiaru na wagę?",
+      "content": "Kalkulator rozmiaru do wagi szacuje wagę prostokątnego prostopadłościanu na podstawie jego długości, szerokości, wysokości i gęstości materiału. Idealny do budownictwa, produkcji, wysyłki, projektów DIY i edukacji."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Wprowadź wymiary",
+          "content": "Wprowadź długość, szerokość i wysokość."
+        },
+        {
+          "heading": "Wybierz Materiał",
+          "content": "Wybierz gotowy materiał (stal, drewno, beton, aluminium) lub wprowadź niestandardową gęstość."
+        },
+        {
+          "heading": "Wybierz Jednostki",
+          "content": "Upewnij się, że jednostki są spójne (cm, m, mm, in, ft)."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Uzyskaj natychmiastową wagę w kg lub funtach."
+        },
+        {
+          "heading": "Wskazówka",
+          "content": "Aby uzyskać dokładne wyniki, sprawdź, czy gęstość odpowiada rzeczywistemu materiałowi."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe obliczanie wagi",
+          "content": "Od wymiarów i gęstości materiału."
+        },
+        {
+          "heading": "Elastyczne jednostki",
+          "content": "Obsługuje cm, m, mm, cale i stopy."
+        },
+        {
+          "heading": "Gotowe i niestandardowe materiały",
+          "content": "Łatwy wybór lub niestandardowe wprowadzenie gęstości."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na wszystkich urządzeniach."
+        },
+        {
+          "heading": "Wszechstronne zastosowania",
+          "content": "Budownictwo, wysyłka, majsterkowanie i edukacja."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Budownictwo i inżynieria",
+          "content": "Masa belek, bloków i komponentów."
+        },
+        {
+          "heading": "Wysyłka i logistyka",
+          "content": "Oszacowanie masy przesyłki lub ładunku."
+        },
+        {
+          "heading": "Zrób to sam i produkcja",
+          "content": "Kontrola wykonalności mebli, obudów lub projektów."
+        },
+        {
+          "heading": "Edukacja",
+          "content": "Naucz się relacji objętości, gęstości i masy."
+        },
+        {
+          "heading": "Planowanie materiałów",
+          "content": "Oszacowanie obciążenia i obliczenia bezpieczeństwa."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Blok drewna",
+          "content": "50 cm × 40 cm × 30 cm, drewno dębowe (gęstość 750 kg/m3) → waga ≈ 45 kg"
+        },
+        {
+          "heading": "Przykład 2 – Stalowe pudełko",
+          "content": "2 m × 1 m × 0,5 m, stal (gęstość 7850 kg/m3) → Waga ≈ 7850 kg"
+        },
+        {
+          "heading": "Przykład 3 – Materiał niestandardowy",
+          "content": "1 stopa × 0,5 stopy × 0,25 stopy, gęstość 500 kg/m3 → Waga ≈ 1,75 kg"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator rozmiaru na wagę?",
+      "a": "Szacuje masę prostopadłościanu na podstawie wymiarów i gęstości materiału."
+    },
+    {
+      "q": "Czy mogę używać różnych jednostek?",
+      "a": "Tak, obsługiwane są cm, m, mm, cale i stopy."
+    },
+    {
+      "q": "Czy obejmuje typowe materiały?",
+      "a": "Tak, stal, drewno, beton i aluminium."
+    },
+    {
+      "q": "Czy mogę wprowadzić niestandardową gęstość?",
+      "a": "Tak, wprowadź dowolną gęstość w celu dokładnych obliczeń."
+    },
+    {
+      "q": "Czy nadaje się do projektów DIY?",
+      "a": "Tak, w przypadku mebli, obudów i innych niestandardowych przedmiotów."
+    },
+    {
+      "q": "Czy liczy się w kg i funtach?",
+      "a": "Tak, wyniki są wyświetlane w obu jednostkach."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa na smartfonach, tabletach i komputerach stacjonarnych."
+    },
+    {
+      "q": "Kto powinien korzystać z tego kalkulatora?",
+      "a": "Inżynierowie, konstruktorzy, majsterkowicze, studenci i planiści logistyki."
+    },
+    {
+      "q": "Czy uwzględnia puste lub nieregularne przedmioty?",
+      "a": "Nie, zakłada bryłowy prostopadłościan o jednakowej gęstości."
+    },
+    {
+      "q": "Czy korzystanie z niego jest bezpłatne?",
+      "a": "Tak, całkowicie za darmo, bez konieczności pobierania."
+    }
+  ]
+}

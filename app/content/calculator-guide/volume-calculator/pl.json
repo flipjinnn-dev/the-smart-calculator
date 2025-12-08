@@ -1,0 +1,147 @@
+{
+  "color": "zielony",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator objętości?",
+      "content": "Kalkulator objętości to narzędzie internetowe, które oblicza przestrzeń zajmowaną przez obiekty 3D, takie jak sześciany, prostopadłościany, cylindry, kule, stożki i piramidy. Używa poprawnych wzorów geometrycznych i natychmiast podaje wynik w jednostkach sześciennych. Kalkulatory online są bezpłatne, przyjazne dla urządzeń mobilnych i łatwe w użyciu, dzięki czemu idealnie nadają się dla studentów, inżynierów, architektów i zwykłych użytkowników."
+    },
+    {
+      "heading": "Jak korzystać z kalkulatora",
+      "subSections": [
+        {
+          "heading": "Otwórz kalkulator",
+          "content": "Uzyskaj dostęp do strony kalkulatora objętości w przeglądarce."
+        },
+        {
+          "heading": "Wybierz kształt",
+          "content": "Wybierz kształt 3D (sześcian, prostopadłościan, walec, kula, stożek, piramida)."
+        },
+        {
+          "heading": "Wprowadź wymiary",
+          "content": "Pomiary wejściowe, takie jak długość, szerokość, wysokość lub promień."
+        },
+        {
+          "heading": "Kliknij Oblicz",
+          "content": "Natychmiast uzyskaj głośność."
+        },
+        {
+          "heading": "Sprawdź jednostki",
+          "content": "Upewnij się, że jednostki wejściowe są spójne; moc wyjściowa będzie zgodna (np. cm3, m3)."
+        }
+      ]
+    },
+    {
+      "heading": "Kluczowe funkcje",
+      "subSections": [
+        {
+          "heading": "Obsługiwanych jest wiele kształtów",
+          "content": "Sześcian, prostopadłościan, walec, kula, stożek, piramida."
+        },
+        {
+          "heading": "Natychmiastowe wyniki",
+          "content": "Szybko i dokładnie oblicza objętość."
+        },
+        {
+          "heading": "Elastyczność jednostki",
+          "content": "Dane wyjściowe w jednostkach sześciennych na podstawie wprowadzonych danych."
+        },
+        {
+          "heading": "Przyjazny dla urządzeń mobilnych",
+          "content": "Działa na komputerach stacjonarnych, tabletach i smartfonach."
+        },
+        {
+          "heading": "Bezpłatne i dostępne",
+          "content": "Nie wymaga pobierania ani rejestracji."
+        },
+        {
+          "heading": "Przyjazny dla użytkownika interfejs",
+          "content": "Prosty i łatwy w nawigacji."
+        }
+      ]
+    },
+    {
+      "heading": "Przypadki użycia",
+      "subSections": [
+        {
+          "heading": "Uczniowie i nauczyciele",
+          "content": "Rozwiązuj zadania domowe z geometrii i ćwiczenia w klasie."
+        },
+        {
+          "heading": "Inżynierowie i architekci",
+          "content": "Oblicz ilości materiałów dla projektów budowlanych i projektowych."
+        },
+        {
+          "heading": "Projekty DIY i domowe",
+          "content": "Oszacuj wymagania dotyczące farby, betonu lub przechowywania."
+        },
+        {
+          "heading": "Pakowanie i wysyłka",
+          "content": "Określ objętość pudeł i pojemników."
+        },
+        {
+          "heading": "Codziennego użytku",
+          "content": "Oblicz pojemność zbiorników na wodę, pojemników lub innych obiektów."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Kostka",
+          "content": "Bok = 5 cm → Objętość: 5³ = 125 cm³"
+        },
+        {
+          "heading": "Przykład 2 – Cylinder",
+          "content": "Promień = 3 cm, Wysokość = 10 cm → Objętość: π × 3² × 10 = 282,74 cm³"
+        },
+        {
+          "heading": "Przykład 3 – Kula",
+          "content": "Promień = 4 cm → Objętość: 4/3 × π × 4³ = 268,08 cm³"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator objętości?",
+      "a": "Oblicza przestrzeń zajmowaną przez obiekty 3D za pomocą wzorów geometrycznych."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, całkowicie bezpłatnie do korzystania online."
+    },
+    {
+      "q": "Czy muszę instalować oprogramowanie?",
+      "a": "Nie, działa bezpośrednio w Twojej przeglądarce."
+    },
+    {
+      "q": "Czy mogę go używać na telefonie komórkowym?",
+      "a": "Tak, w pełni przystosowany do urządzeń mobilnych."
+    },
+    {
+      "q": "Czy obsługuje wiele kształtów?",
+      "a": "Tak, łącznie z sześcianami, prostopadłościanami, walcami, kulami, stożkami i piramidami."
+    },
+    {
+      "q": "Jak poprawnie wprowadzić wymiary?",
+      "a": "Wprowadź wszystkie pomiary w spójnych jednostkach, takich jak cm lub m."
+    },
+    {
+      "q": "Czy mogę otrzymać wyniki w metrach sześciennych lub cm3?",
+      "a": "Tak, wynik jest zgodny z jednostkami wejściowymi."
+    },
+    {
+      "q": "Czy jest odpowiedni dla studentów?",
+      "a": "Tak, idealny do zadań domowych i projektów."
+    },
+    {
+      "q": "Czy mogą z niego korzystać inżynierowie lub architekci?",
+      "a": "Tak, przydatne w budownictwie, obliczeniach materiałowych i projektach projektowych."
+    },
+    {
+      "q": "Czy kalkulator jest dokładny?",
+      "a": "Tak, zapewnia precyzyjne wyniki dla wszystkich obsługiwanych kształtów 3D."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "pageTitle": "Calculadora de aumento de peso durante el embarazo",
+  "pageDescription": "Calcule el aumento de peso durante el embarazo con nuestra calculadora online gratuita",
+  "form": {
+    "labels": {
+      "input1": "Entrada 1",
+      "input2": "Entrada 2",
+      "input3": "Entrada 3"
+    },
+    "placeholders": {
+      "input1": "Introduzca el primer valor",
+      "input2": "Introduzca el segundo valor",
+      "input3": "Introduzca el tercer valor"
+    },
+    "buttons": {
+      "calculate": "Calcular el aumento de peso durante el embarazo",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "result1": "Resultado 1",
+    "result2": "Resultado 2",
+    "calculationDetails": "Resultados del cálculo del aumento de peso durante el embarazo"
+  },
+  "educational": {
+    "info": "Información sobre el aumento de peso durante el embarazo",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos",
+    "facts": {
+      "definition": {
+        "title": "Definición de aumento de peso durante el embarazo",
+        "description": "Información sobre el aumento de peso durante el embarazo"
+      },
+      "formula": {
+        "title": "Método de cálculo",
+        "description": "Cómo se calcula el aumento de peso durante el embarazo"
+      },
+      "applications": {
+        "title": "Aplicaciones",
+        "description": "Usos del aumento de peso durante el embarazo"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona únicamente estimaciones de aumento de peso durante el embarazo.",
+      "actual": "Los valores reales pueden variar según las circunstancias individuales."
+    },
+    "importantNotesList": [
+      "Esto es una estimación y no debe reemplazar el asesoramiento profesional.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Consulta con profesionales para obtener orientación personalizada.",
+      "Utilice unidades consistentes para obtener resultados precisos"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese la información requerida para calcular el aumento de peso durante el embarazo.",
+    "resultMessage": "Los resultados del cálculo del aumento de peso durante el embarazo se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo del aumento de peso durante el embarazo:",
+    "analysis": "Análisis de aumento de peso durante el embarazo"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona estimaciones del aumento de peso durante el embarazo basadas en métodos estándar. Los valores reales pueden variar según circunstancias individuales y otros factores no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos",
+    "content": "Para obtener asesoramiento personalizado e información detallada, consulte con profesionales que puedan brindarle orientación según las necesidades y circunstancias individuales."
+  },
+  "errors": {
+    "input1": "Por favor ingresa un primer valor válido",
+    "input2": "Por favor ingresa un segundo valor válido",
+    "input3": "Por favor ingresa un tercer valor válido"
+  },
+  "tooltips": {
+    "input1": "Primer parámetro de entrada",
+    "input2": "Segundo parámetro de entrada",
+    "input3": "Tercer parámetro de entrada"
+  },
+  "weight_gain_calculation_0": "Cálculo del aumento de peso",
+  "enter_your_prepregnancy_details_and_optional_curre_1": "Ingrese sus detalles previos al embarazo e información actual opcional para realizar un seguimiento del progreso.",
+  "unit_system_2": "Sistema de unidades",
+  "metric_kg_cm_3": "Métrico (kg, cm)",
+  "us_lbs_ftin_4": "Estados Unidos (libras, pies/pulg.)",
+  "prepregnancy_weight_5": "Peso antes del embarazo (",
+  "height_cm_6": "Altura (cm)",
+  "height_ftin_7": "Altura (pies/pulg.)",
+  "current_weight_8": "Peso actual (",
+  "optional_9": "(Opcional)",
+  "for_progress_tracking_10": "Para seguimiento del progreso",
+  "gestational_week_11": "Semana gestacional",
+  "optional_12": "(Opcional)",
+  "week_142_for_progress_tracking_13": "Semana 1-42 para seguimiento del progreso",
+  "calculate_gain_14": "Calcular ganancia",
+  "reset_15": "Reiniciar",
+  "weight_gain_16": "Aumento de peso",
+  "kg_17": "kilos",
+  "total_recommended_18": "Total recomendado",
+  "bmi_19": "IMC:",
+  "enter_your_prepregnancy_details_to_see_recommended_20": "Ingrese sus datos previos al embarazo para ver los rangos de aumento de peso recomendados.",
+  "weight_gain_recommendations_21": "Recomendaciones para aumentar de peso",
+  "prepregnancy_assessment_22": "Evaluación previa al embarazo",
+  "bmi_23": "IMC:",
+  "category_24": "Categoría:",
+  "kg_25": "kilos",
+  "lbs_26": "libras)",
+  "trimester_schedule_27": "Horario trimestral",
+  "first_trimester_weeks_113_28": "Primer trimestre (semanas 1 a 13)",
+  "total_gain_29": "Ganancia total:",
+  "kg_30": "kilos (",
+  "lbs_31": "libras)",
+  "gradual_weight_gain_focus_on_nutrition_quality_32": "Aumento de peso gradual, enfoque en la calidad de la nutrición",
+  "second_third_trimesters_weeks_1440_33": "Segundo y tercer trimestre (semanas 14 a 40)",
+  "weekly_gain_34": "Ganancia semanal:",
+  "kg_35": "kilos (~",
+  "lbs_36": "libras)",
+  "steady_weekly_weight_gain_37": "Aumento de peso semanal constante",
+  "progress_tracking_week_38": "Seguimiento del progreso (semana",
+  "kg_39": "kilos",
+  "actual_gain_40": "Ganancia real",
+  "kg_41": "kilos",
+  "expected_gain_42": "Ganancia esperada",
+  "status_43": "Estado",
+  "iom_weight_gain_guidelines_44": "Directrices de la OIM sobre aumento de peso",
+  "bmi_category_45": "Categoría de IMC",
+  "bmi_range_46": "Rango de IMC",
+  "total_gain_kg_47": "Ganancia total (kg)",
+  "total_gain_lbs_48": "Ganancia total (libras)",
+  "underweight_49": "Bajo peso",
+  "k_185_50": "< 18,5",
+  "k_12518_51": "12.5-18",
+  "k_2840_52": "28-40",
+  "normal_53": "Normal",
+  "k_185249_54": "18,5-24,9",
+  "k_11516_55": "11.5-16",
+  "k_2535_56": "25-35",
+  "overweight_57": "Sobrepeso",
+  "k_250299_58": "25,0-29,9",
+  "k_7115_59": "7-11.5",
+  "k_1525_60": "15-25",
+  "obese_61": "Obeso",
+  "k_300_62": "≥ 30,0",
+  "k_59_63": "5-9",
+  "k_1120_64": "11-20",
+  "understanding_pregnancy_weight_gain_65": "Comprender el aumento de peso durante el embarazo",
+  "iom_guidelines_66": "Directrices de la OIM",
+  "based_on_prepregnancy_bmi_category_67": "Basado en la categoría de IMC antes del embarazo",
+  "accounts_for_maternal_and_fetal_health_68": "Cuentas de salud materna y fetal",
+  "reduces_risk_of_complications_69": "Reduce el riesgo de complicaciones.",
+  "updated_in_2009_by_institute_of_medicine_70": "Actualizado en 2009 por el Instituto de Medicina.",
+  "example_calculation_71": "Ejemplo de cálculo",
+  "prepregnancy_130_lbs_55_bmi_216_72": "Antes del embarazo: 130 libras, 5'5\" (IMC 21,6)",
+  "category_normal_weight_73": "Categoría: Peso normal",
+  "total_gain_74": "Ganancia total:",
+  "k_2535_lbs_11516_kg_75": "25 a 35 libras (11,5 a 16 kg)",
+  "k_1st_trimester_76": "1er trimestre:",
+  "k_14_lbs_77": "1-4 libras",
+  "k_2nd3rd_78": "2do/3ro:",
+  "k_1_lbweek_79": "~1 libra/semana",
+  "important_factors_80": "Factores importantes",
+  "individual_variation_is_normal_81": "La variación individual es normal.",
+  "quality_of_nutrition_matters_most_82": "La calidad de la nutrición es lo más importante",
+  "regular_prenatal_care_is_essential_83": "La atención prenatal regular es esencial",
+  "multiple_pregnancies_need_different_guidelines_84": "Los embarazos múltiples necesitan pautas diferentes",
+  "health_benefits_85": "Beneficios para la salud",
+  "reduces_risk_of_gestational_diabetes_86": "Reduce el riesgo de diabetes gestacional.",
+  "lowers_chance_of_preterm_birth_87": "Reduce la probabilidad de parto prematuro",
+  "supports_healthy_fetal_development_88": "Apoya el desarrollo fetal saludable",
+  "easier_postpartum_weight_loss_89": "Pérdida de peso posparto más fácil"
+}

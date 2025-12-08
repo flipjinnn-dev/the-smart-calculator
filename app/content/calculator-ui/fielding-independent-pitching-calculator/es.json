@@ -1,0 +1,173 @@
+{
+  "pageTitle": "Calculadora de lanzamiento independiente de Fielding",
+  "pageDescription": "Calcular el lanzamiento independiente (FIP) para jugadores de béisbol",
+  "form": {
+    "labels": {
+      "homeRuns": "Jonrones permitidos",
+      "walks": "Paseos emitidos",
+      "hitByPitches": "Bateadores golpeados por el lanzamiento",
+      "strikeouts": "Ponches registrados",
+      "inningsPitched": "Entradas lanzadas",
+      "leagueERA": "ERA promedio de la liga (opcional)"
+    },
+    "placeholders": {
+      "homeRuns": "Ingrese jonrones permitidos",
+      "walks": "Ingrese los paseos emitidos",
+      "hitByPitches": "Introduzca los bateadores golpeados por el lanzamiento.",
+      "strikeouts": "Introduzca los ponches registrados",
+      "inningsPitched": "Ingrese las entradas lanzadas (por ejemplo, 6.1 para 6 entradas y 1 out)",
+      "leagueERA": "Ingrese la efectividad promedio de la liga (opcional por contexto)"
+    },
+    "buttons": {
+      "calculate": "Calcular FIP",
+      "reset": "Reiniciar"
+    }
+  },
+  "results": {
+    "fieldingIndependentPitching": "Lanzamiento independiente (FIP)",
+    "components": "Componentes FIP",
+    "hrComponent": "Componente de jonrón",
+    "bbComponent": "Componente de caminata",
+    "soComponent": "Componente tachado",
+    "hbpComponent": "Componente golpeado por tono",
+    "eraComparison": "Comparación de efectividad",
+    "performanceContext": "Contexto de desempeño"
+  },
+  "educational": {
+    "fipInfo": "Información FIP",
+    "criticalWarnings": "Notas importantes",
+    "importantNotes": "información adicional",
+    "disclaimer": "Descargo de responsabilidad importante",
+    "seekHelp": "Recursos de béisbol",
+    "fipFacts": {
+      "definition": {
+        "title": "Lanzamiento independiente",
+        "description": "Una estadística que mide el desempeño de un lanzador basándose únicamente en eventos totalmente bajo su control."
+      },
+      "formula": {
+        "title": "Fórmula de cálculo",
+        "description": "FIP = ((13×HR) + (3×(BB+HBP)) - (2×K)) / IP + Constante"
+      },
+      "components": {
+        "title": "Componentes FIP",
+        "description": "Mide jonrones, bases por bolas, bateadores golpeados y ponches: eventos que no se ven afectados por el fildeo"
+      }
+    },
+    "criticalWarningsList": {
+      "notDiagnostic": "Esta calculadora proporciona cálculos FIP únicamente",
+      "actual": "La evaluación completa del lanzamiento debe considerar métricas y contexto adicionales."
+    },
+    "importantNotesList": [
+      "FIP se centra en eventos bajo control del lanzador: HR, BB, HBP y K",
+      "Un FIP más bajo indica un mejor rendimiento del lanzador",
+      "Un FIP más bajo indica un mejor rendimiento del lanzador",
+      "FIP debe compararse con ERA para obtener información sobre el impacto del campo"
+    ]
+  },
+  "messages": {
+    "enterInformation": "Ingrese las estadísticas de lanzamiento para calcular el FIP",
+    "resultMessage": "Los resultados del cálculo de su FIP se muestran a continuación",
+    "assessmentResult": "Resultado del cálculo FIP:",
+    "fipAnalysis": "Análisis FIP"
+  },
+  "disclaimer": {
+    "title": "Descargo de responsabilidad importante",
+    "content": "Esta calculadora proporciona cálculos de FIP basados ​​en fórmulas estadísticas estándar de béisbol. La evaluación completa del lanzamiento debe considerar métricas adicionales, contexto y factores de tamaño de muestra no incluidos en estos cálculos."
+  },
+  "seekHelp": {
+    "title": "Recursos de béisbol",
+    "content": "Para obtener un análisis completo de los lanzamientos de béisbol y una evaluación de los jugadores, consulte sitios de referencia de béisbol, recursos de análisis deportivo o exploradores y analistas profesionales."
+  },
+  "errors": {
+    "homeRuns": "Por favor ingresa un número válido de jonrones",
+    "walks": "Por favor ingresa un número válido de caminatas",
+    "hitByPitches": "Por favor ingresa un número válido de aciertos por lanzamientos",
+    "strikeouts": "Por favor ingrese un número válido de ponches",
+    "inningsPitched": "Por favor ingresa un número válido de entradas lanzadas",
+    "leagueERA": "Ingrese una efectividad promedio de la liga válida"
+  },
+  "tooltips": {
+    "homeRuns": "Número de jonrones permitidos por el lanzador",
+    "walks": "Número de bases por bolas (bases por bolas) otorgadas por el lanzador",
+    "hitByPitches": "Número de bateadores golpeados por lanzamiento del lanzador",
+    "strikeouts": "Número de ponches registrados por el lanzador",
+    "inningsPitched": "Total de entradas lanzadas, incluidas entradas parciales (p. ej., 6,1 para 6 entradas y 1 out)",
+    "leagueERA": "ERA promedio de la liga para contexto (opcional)"
+  },
+  "pitching_statistics_0": "Estadísticas de lanzamiento",
+  "enter_pitching_statistics_to_calculate_fielding_in_1": "Ingrese las estadísticas de lanzamiento para calcular el lanzamiento independiente de Fielding (FIP)",
+  "home_runs_allowed_hr_2": "Jonrones permitidos (HR)",
+  "home_runs_allowed_by_the_pitcher_3": "Jonrones permitidos por el lanzador",
+  "walks_bb_4": "Caminatas (BB)",
+  "base_on_balls_issued_by_the_pitcher_5": "Base por bolas emitidas por el lanzador",
+  "hit_by_pitch_hbp_6": "Golpe por lanzamiento (HBP)",
+  "batters_hit_by_pitch_7": "Bateadores golpeados por el lanzamiento",
+  "strikeouts_k_8": "Ponches (K)",
+  "strikeouts_recorded_by_the_pitcher_9": "Ponches registrados por el lanzador",
+  "innings_pitched_ip_10": "Entradas lanzadas (IP)",
+  "total_innings_pitched_eg_1452_11": "Total de entradas lanzadas (p. ej., 145,2)",
+  "fip_constant_cfip_12": "FIP constante (cFIP)",
+  "scaling_constant_3132_13": "Constante de escala (~3,1-3,2)",
+  "decimal_precision_14": "Precisión decimal",
+  "k_1_decimal_place_15": "1 decimal",
+  "k_2_decimal_places_16": "2 decimales",
+  "k_3_decimal_places_17": "3 decimales",
+  "advanced_mode_18": "Modo avanzado",
+  "calculate_cfip_from_league_stats_19": "Calcula cFIP a partir de las estadísticas de la liga",
+  "league_statistics_20": "Estadísticas de la liga",
+  "league_era_21": "efectividad de la liga",
+  "league_hr_22": "Liga HR",
+  "league_bb_23": "Liga BB",
+  "league_hbp_24": "Liga HBP",
+  "league_k_25": "Liga K",
+  "league_ip_26": "IP de la liga",
+  "formula_27": "Fórmula:",
+  "fip_13hr_3bbhbp_2k_ip_cfip_28": "FIP = (13×HR + 3×(BB+HBP) - 2×K) ÷ IP + cFIP",
+  "lower_fip_indicates_better_pitcher_performance_29": "Un FIP más bajo indica un mejor desempeño del lanzador",
+  "calculate_30": "Calcular",
+  "reset_31": "Reiniciar",
+  "fip_results_32": "Resultados de la FIP",
+  "fip_33": "FIP",
+  "performance_34": "Actuación",
+  "custom_cfip_35": "cFIP personalizado",
+  "enter_pitching_statistics_and_click_36": "Ingrese las estadísticas de lanzamiento y haga clic",
+  "calculate_37": "Calcular",
+  "to_see_fip_38": "para ver FIP.",
+  "detailed_fip_breakdown_39": "Desglose detallado del FIP",
+  "fip_40": "FIP",
+  "hr_component_41": "Componente de recursos humanos",
+  "k_13_42": "13 ×",
+  "bbhbp_component_43": "Componente BB+HBP",
+  "k_3_44": "3 × (",
+  "k_component_45": "Componente K",
+  "k_2_46": "-2 ×",
+  "calculation_steps_47": "Pasos de cálculo:",
+  "step_1_48": "Paso 1:",
+  "numerator_13_49": "Numerador = 13×",
+  "k_3_50": "+ 3×(",
+  "k_2_51": ") - 2×",
+  "step_2_52": "Paso 2:",
+  "divide_by_ip_53": "Dividir por IP =",
+  "step_3_54": "Paso 3:",
+  "add_cfip_55": "Añadir cFIP =",
+  "note_56": "Nota:",
+  "custom_cfip_calculated_from_league_statistics_57": "cFIP personalizado calculado a partir de las estadísticas de la liga",
+  "understanding_fip_58": "Entendiendo la FIP",
+  "what_is_fip_59": "¿Qué es FIP?",
+  "fielding_independent_pitching_fip_evaluates_a_pitc_60": "Fielding Independent Pitching (FIP) evalúa el desempeño de un lanzador basándose únicamente en los resultados.\n                        pueden controlar directamente: jonrones, bases por bolas, bateadores golpeados y ponches. Se elimina el\n                        influencia del fildeo y la suerte.",
+  "fip_vs_era_comparison_61": "Comparación de FIP y ERA",
+  "fip_era_neutral_defenseluck_62": "FIP ≈ ERA: Defensa neutral/suerte",
+  "fip_era_defense_may_have_hurt_pitcher_63": "FIP < ERA: La defensa puede haber lastimado al lanzador",
+  "fip_era_defense_may_have_helped_pitcher_64": "FIP > ERA: La defensa pudo haber ayudado al lanzador",
+  "sample_calculation_65": "Cálculo de muestra",
+  "example_66": "Ejemplo:",
+  "pitcher_statistics_67": "Estadísticas del lanzador",
+  "hr_21_bb_55_hbp_13_68": "HR: 21, BB: 55, HBP: 13",
+  "k_235_ip_145_cfip_3214_69": "K: 235, IP: 145, cFIP: 3.214",
+  "calculation_70": "Cálculo:",
+  "numerator_1321_35513_2235_7_71": "Numerador = 13×21 + 3×(55+13) - 2×235 = 7",
+  "fip_7_145_3214_72": "FIP = 7 ÷ 145 + 3,214",
+  "fip_326_73": "FIP = 3,26",
+  "note_74": "Nota:",
+  "average_fip_is_typically_around_420_varying_by_sea_75": "El FIP promedio suele ser de alrededor de 4,20, y varía según la temporada y la liga."
+}

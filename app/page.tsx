@@ -4,6 +4,7 @@ import type { Metadata } from "next"
 import Head from "next/head"
 import Link from "next/link"
 import { useState, useEffect } from "react"
+import { usePathname } from "next/navigation"
 import {
   Calculator,
   TrendingUp,
@@ -17,7 +18,8 @@ import {
   MoreHorizontal,
   Beef,
 } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import SearchBar from "@/components/search-bar"
 import { getCalculatorCount, getCalculatorByName, calculators } from "@/lib/calculator-data"
 import { getLocalizedCategoryUrl, getLocalizedCalculatorUrl } from "@/lib/url-utils"
@@ -43,27 +45,20 @@ const featureIcons: Record<string, React.ComponentType<any>> = {
 }
 
 export default function HomePage() {
+  const pathname = usePathname();
   // Detect language from URL path or headers
   const [language, setLanguage] = useState("en");
 
   useEffect(() => {
-    // First try to get language from headers (set by middleware)
-    const headerLanguage = document.head.querySelector('meta[name="x-language"]')?.getAttribute('content');
-    console.log('Header language:', headerLanguage);
-
-    if (headerLanguage) {
-      setLanguage(headerLanguage);
-      return;
+    // Detect language from URL path
+    if (pathname) {
+      console.log('Current path:', pathname);
+      const langMatch = pathname.match(/^\/(br|pl|de|es)/);
+      const detectedLanguage = langMatch ? langMatch[1] : "en";
+      console.log('Detected language:', detectedLanguage);
+      setLanguage(detectedLanguage);
     }
-
-    // Fallback to URL path detection
-    const path = window.location.pathname;
-    console.log('Current path:', path);
-    const langMatch = path.match(/^\/(br|pl|de)/);
-    const detectedLanguage = langMatch ? langMatch[1] : "en";
-    console.log('Detected language:', detectedLanguage);
-    setLanguage(detectedLanguage);
-  }, []);
+  }, [pathname]);
 
   const { content, loading, error } = useHomepageContent(language);
 
@@ -140,6 +135,48 @@ export default function HomePage() {
     features: {
       title: "",
       description: "",
+      items: []
+    },
+    introduction: {
+      heading: "",
+      title: "",
+      description: ""
+    },
+    browse: {
+      title: "",
+      description: "",
+      note: "",
+      topCategoriesLabel: "",
+      allCalculatorsLabel: "",
+      viewAll: "",
+      trustBadge: {
+        title: "",
+        description: ""
+      }
+    },
+    whyBest: {
+      title: "",
+      items: []
+    },
+    howToUse: {
+      title: "",
+      steps: [],
+      note: ""
+    },
+    trustedBy: {
+      title: "",
+      description: "",
+      useCases: [],
+      note: "",
+      stats: {
+        freeCalculators: "",
+        freeAndSecure: "",
+        availableOnline: "",
+        categories: ""
+      }
+    },
+    faqs: {
+      title: "",
       items: []
     }
   };
@@ -306,26 +343,122 @@ export default function HomePage() {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: contentData.meta.title || "Smart Calculator",
-    description: contentData.meta.description || "Free online calculators for finance, health, math, physics, and more",
+    "@type": "WebPage",
+    name: "Free Online Calculators - Best Online Calculator Tools",
     url: "https://www.thesmartcalculator.com/",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: "https://www.thesmartcalculator.com/search?q={search_term_string}",
-      },
-      "query-input": "required name=search_term_string",
+    description: "Access free online calculators for finance, health, math, conversions, and daily tools. Fast, accurate, mobile-friendly, and expert-verified calculators.",
+    inLanguage: language,
+    isPartOf: {
+      "@type": "WebSite",
+      name: "thesmartcalculator",
+      url: "https://www.thesmartcalculator.com/",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://www.thesmartcalculator.com/search?q={search_term}",
+        "query-input": "required name=search_term"
+      }
     },
     publisher: {
       "@type": "Organization",
-      name: "Smart Calculator",
+      name: "thesmartcalculator",
+      url: "https://www.thesmartcalculator.com/",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.thesmartcalculator.com/logo.png",
+        url: "https://www.thesmartcalculator.com/logo.png"
       },
+      sameAs: [
+        "https://www.pinterest.com/thesmartcalculators/",
+        "https://x.com/SmartCalculat0r",
+        "https://www.instagram.com/thesmartcalculators/",
+        "https://www.youtube.com/@TheSmartCalculators"
+      ]
     },
+    mainEntity: {
+      "@type": "FAQPage",
+      name: "Online Calculator FAQs",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is an online calculator?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "An online calculator is a web-based tool that helps you perform quick calculations like finance, health, math, and conversions without installing any app."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Are these online calculators free to use?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, all calculators on our website are 100% free with no sign-ups, subscriptions, or hidden charges."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "How accurate are the calculator results?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Our calculators use expert-verified formulas and accurate algorithms. Results depend on user inputs but are generally reliable."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Do you store any personal data or calculations?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No, we do not store or track any user data. All calculations remain private and secure on your device."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "What makes your website the best online calculator platform?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "We offer fast, accurate, mobile-friendly, and expert-verified calculators across finance, health, math, and daily tools — completely free."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Can I use these calculators for school or professional work?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Students, teachers, and professionals use our calculators for assignments, financial planning, math practice, and daily tasks."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Do your calculators work on mobile devices?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, all calculators are fully mobile-responsive and work smoothly on phones, tablets, and desktops."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "How often are your calculators updated?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "We update our tools regularly to ensure accuracy, fast performance, improved formulas, and better user experience."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Can I request a new calculator?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. You can contact us anytime to suggest a new calculator or request improvements to existing tools."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Are these calculators suitable for medical or financial decisions?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Our calculators provide accurate estimates, but they should not replace professional financial, legal, or medical advice."
+          }
+        }
+      ]
+    }
   };
 
   return (
@@ -365,7 +498,7 @@ export default function HomePage() {
               </div>
 
               {/* Right side - Search bar */}
-              <div className="flex justify-center md:justify-end items-center">
+              <div className="flex justify-center md:justify-end items-center" id="hero-search">
                 <div className="w-full max-w-md md:max-w-lg px-4 md:px-0">
                   <div className="bg-white/90 md:bg-white/95 backdrop-blur-sm md:backdrop-blur-md rounded-2xl md:rounded-3xl p-4 md:p-8 shadow-lg md:shadow-2xl border border-white/20 md:border-white/30 hover:shadow-3xl transition-all duration-300">
                     <div className="hidden md:block mb-4">
@@ -545,6 +678,266 @@ export default function HomePage() {
                   </Card>
                 )
               })}
+            </div>
+          </div>
+        </section>
+
+        {/* Introduction Section - Clean & Welcoming */}
+        <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-white relative overflow-hidden">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl pointer-events-none">
+            <div className="absolute top-10 left-10 w-64 h-64 bg-blue-50 rounded-full blur-3xl opacity-60" />
+            <div className="absolute bottom-10 right-10 w-64 h-64 bg-green-50 rounded-full blur-3xl opacity-60" />
+          </div>
+          <div className="max-w-4xl mx-auto text-center relative z-10 space-y-6">
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 text-blue-700 text-xs font-bold tracking-wider uppercase">
+              <Sparkles className="w-3 h-3" />
+              {contentData.introduction?.heading || "ONLINE CALCULATORS"}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-black text-gray-900 tracking-tight leading-tight">
+              {contentData.introduction?.title || "Welcome to The Best Free Online Calculator Platform"}
+            </h2>
+            <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
+              {contentData.introduction?.description || "Access fast, accurate, and easy-to-use calculators for your daily needs."}
+            </p>
+          </div>
+        </section>
+
+        {/* Browse & Why Best Section - Split Layout */}
+        <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-slate-50/50">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 items-start">
+
+            {/* Left Column: Browse All (4 cols) */}
+            <div className="lg:col-span-5 space-y-6">
+              <div className="bg-white rounded-3xl p-6 md:p-8 shadow-xl shadow-blue-900/5 border border-blue-100 relative overflow-hidden group">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110" />
+
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 relative z-10">
+                  {contentData.browse?.title || "All Free Calculators"}
+                </h3>
+                <p className="text-gray-600 mb-6 relative z-10">
+                  {contentData.browse?.description || "Find exactly what you need from our complete collection."}
+                </p>
+
+                <div className="space-y-4 relative z-10">
+                  <div>
+                    <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
+                      {contentData.browse?.topCategoriesLabel || "Top Categories"}
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {categories.slice(0, 6).map((category) => (
+                        <Link
+                          key={category.id}
+                          href={category.href}
+                          className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 hover:-translate-y-0.5 ${category.bgColor} ${category.textColor} hover:shadow-md`}
+                        >
+                          <category.icon className="w-3.5 h-3.5" />
+                          {category.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="pt-4 border-t border-gray-100">
+                    <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
+                      {contentData.browse?.allCalculatorsLabel || "Popular Tools"}
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {calculatorsToUse.slice(0, 8).map((calc: any, idx: number) => {
+                        const englishHref = calc.href || "#";
+                        const localizedHref = getLocalizedCalculatorUrl(englishHref, language);
+                        return (
+                          <Link
+                            key={idx}
+                            href={localizedHref !== "#" ? localizedHref : "#"}
+                            className="inline-flex items-center px-3 py-1.5 rounded-lg bg-gray-50 text-gray-600 text-xs font-medium hover:bg-gray-100 hover:text-gray-900 transition-colors border border-gray-100"
+                          >
+                            {calc.name}
+                          </Link>
+                        );
+                      })}
+                      <Link href="#hero-search" className="inline-flex items-center px-3 py-1.5 rounded-lg bg-blue-50 text-blue-600 text-xs font-medium hover:bg-blue-100 transition-colors">
+                        {contentData.browse?.viewAll || "View All →"}
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Trust Badge */}
+              <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-6 md:p-8 text-white shadow-lg relative overflow-hidden">
+                <div className="relative z-10">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="p-2 bg-white/20 rounded-lg backdrop-blur-sm">
+                      <Shield className="w-5 h-5 text-white" />
+                    </div>
+                    <h4 className="font-bold text-lg">{contentData.browse?.trustBadge?.title || "Trusted & Secure"}</h4>
+                  </div>
+                  <p className="text-blue-100 text-sm opacity-90">
+                    {contentData.browse?.trustBadge?.description || "Our calculators are verified for accuracy and respect your privacy. No data is ever stored."}
+                  </p>
+                </div>
+                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-white/10 rounded-full blur-xl" />
+              </div>
+            </div>
+
+            {/* Right Column: Why Best (7 cols) */}
+            <div className="lg:col-span-7 space-y-8">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                  {contentData.whyBest?.title || "Why We Offer the Best Online Calculators"}
+                </h2>
+                <div className="h-1 w-20 bg-blue-600 rounded-full" />
+              </div>
+
+              <div className="grid gap-4">
+                {(contentData.whyBest?.items || []).map((item: any, index: number) => (
+                  <div
+                    key={index}
+                    className="group bg-white rounded-2xl p-5 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-100 flex gap-4 items-start"
+                  >
+                    <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                      {index === 0 ? <Atom className="w-5 h-5" /> :
+                        index === 1 ? <TrendingUp className="w-5 h-5" /> :
+                          index === 2 ? <Sparkles className="w-5 h-5" /> :
+                            <Shield className="w-5 h-5" />}
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-gray-900 mb-1 group-hover:text-blue-700 transition-colors">
+                        {item.title}
+                      </h3>
+                      <p className="text-sm text-gray-600 leading-relaxed">
+                        {item.description}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Use Section - Timeline Style */}
+        <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-white">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                {contentData.howToUse?.title || "How to Use Our Online Calculators"}
+              </h2>
+              {contentData.howToUse?.note && (
+                <p className="text-gray-600 max-w-2xl mx-auto">
+                  {contentData.howToUse.note}
+                </p>
+              )}
+            </div>
+
+            <div className="relative">
+              {/* Connecting Line (Desktop) */}
+              <div className="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-100 -translate-y-1/2 z-0" />
+
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative z-10">
+                {(contentData.howToUse?.steps || []).map((step: string, index: number) => (
+                  <div key={index} className="flex flex-col items-center text-center group">
+                    <div className="w-12 h-12 rounded-2xl bg-white border-2 border-blue-100 text-blue-600 flex items-center justify-center font-bold text-lg shadow-sm mb-6 group-hover:border-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 relative">
+                      {index + 1}
+                      {/* Mobile connecting line */}
+                      {index < (contentData.howToUse?.steps || []).length - 1 && (
+                        <div className="md:hidden absolute bottom-0 left-1/2 w-0.5 h-8 bg-gray-100 translate-y-full -translate-x-1/2" />
+                      )}
+                    </div>
+                    <div className="bg-gray-50 rounded-xl p-4 w-full h-full flex items-center justify-center group-hover:bg-white group-hover:shadow-lg transition-all duration-300 border border-transparent group-hover:border-gray-100">
+                      <p className="text-sm font-medium text-gray-800">
+                        {step}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trusted By Section - Stats Style */}
+        <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-slate-900 text-white relative overflow-hidden">
+          {/* Background Accents */}
+          <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-20">
+            <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500 rounded-full blur-3xl" />
+            <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500 rounded-full blur-3xl" />
+          </div>
+
+          <div className="max-w-6xl mx-auto relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
+              <div className="space-y-6">
+                <h2 className="text-3xl md:text-4xl font-bold leading-tight">
+                  {contentData.trustedBy?.title || "Trusted by Users Worldwide"}
+                </h2>
+                <p className="text-blue-100 text-lg leading-relaxed">
+                  {contentData.trustedBy?.description || "People across the world use our calculators for school, work, and daily life."}
+                </p>
+
+                <div className="flex flex-wrap gap-3 pt-4">
+                  {(contentData.trustedBy?.useCases || []).map((useCase: string, index: number) => (
+                    <span
+                      key={index}
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/10 text-sm backdrop-blur-sm hover:bg-white/20 transition-colors"
+                    >
+                      <span className="w-1.5 h-1.5 rounded-full bg-green-400" />
+                      {useCase}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-4 md:gap-6">
+                <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
+                  <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-1">90+</div>
+                  <div className="text-sm text-gray-400">{contentData.trustedBy?.stats?.freeCalculators || "Free Calculators"}</div>
+                </div>
+                <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
+                  <div className="text-3xl md:text-4xl font-bold text-green-400 mb-1">100%</div>
+                  <div className="text-sm text-gray-400">{contentData.trustedBy?.stats?.freeAndSecure || "Free & Secure"}</div>
+                </div>
+                <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
+                  <div className="text-3xl md:text-4xl font-bold text-purple-400 mb-1">24/7</div>
+                  <div className="text-sm text-gray-400">{contentData.trustedBy?.stats?.availableOnline || "Available Online"}</div>
+                </div>
+                <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
+                  <div className="text-3xl md:text-4xl font-bold text-orange-400 mb-1">8+</div>
+                  <div className="text-sm text-gray-400">{contentData.trustedBy?.stats?.categories || "Categories"}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section - Modern Accordion */}
+        <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-gray-50">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                {contentData.faqs?.title || "Frequently Asked Questions"}
+              </h2>
+              <p className="text-gray-600">
+                {contentData.faqs?.description || "Everything you need to know about our calculators"}
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <Accordion type="single" collapsible className="w-full space-y-4">
+                {(contentData.faqs?.items || []).map((item: any, index: number) => (
+                  <AccordionItem
+                    key={index}
+                    value={`faq-${index}`}
+                    className="bg-white border border-gray-200 rounded-xl px-6 shadow-sm data-[state=open]:ring-2 data-[state=open]:ring-blue-100 data-[state=open]:border-blue-200 transition-all"
+                  >
+                    <AccordionTrigger className="text-left text-base font-semibold text-gray-900 py-6 hover:text-blue-600 hover:no-underline">
+                      {item.question}
+                    </AccordionTrigger>
+                    <AccordionContent className="text-gray-600 text-base leading-relaxed pb-6">
+                      {item.answer}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
             </div>
           </div>
         </section>

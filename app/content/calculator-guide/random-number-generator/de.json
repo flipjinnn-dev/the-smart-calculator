@@ -1,0 +1,151 @@
+{
+  "color": "Grün",
+  "sections": [
+    {
+      "heading": "Was ist ein Zufallszahlengenerator?",
+      "content": "Ein Zufallszahlengenerator (RNG) ist ein Online-Tool, das unvorhersehbare Zahlen innerhalb eines ausgewählten Bereichs erstellt. Es verwendet einen mathematischen Algorithmus, um sofort Zufallswerte zu generieren, die bei der Entscheidungsfindung, bei mathematischen Aufgaben, beim Codieren, bei Simulationen, beim Spielen und bei alltäglichen Entscheidungen hilfreich sind. RNGs sind schnell, unvoreingenommen und auf jedem Gerät einfach zu verwenden."
+    },
+    {
+      "heading": "So verwenden Sie den Rechner",
+      "subSections": [
+        {
+          "heading": "Geben Sie den Mindestwert ein",
+          "content": "Geben Sie die niedrigste Zahl Ihres gewünschten Bereichs an."
+        },
+        {
+          "heading": "Geben Sie den Maximalwert ein",
+          "content": "Geben Sie die höchste Anzahl Ihres gewünschten Bereichs an."
+        },
+        {
+          "heading": "Menge auswählen (optional)",
+          "content": "Wählen Sie aus, wie viele Zahlen Sie gleichzeitig generieren möchten."
+        },
+        {
+          "heading": "Klicken Sie auf „Generieren“.",
+          "content": "Der Rechner erzeugt sofort Zufallszahlen."
+        },
+        {
+          "heading": "Überprüfen Sie die Ergebnisse",
+          "content": "Überprüfen Sie Ihren Bereich noch einmal und verwenden Sie die generierten Zahlen nach Bedarf."
+        }
+      ]
+    },
+    {
+      "heading": "Hauptmerkmale",
+      "subSections": [
+        {
+          "heading": "Sofortige Ergebnisse",
+          "content": "Zahlen erscheinen innerhalb von Millisekunden."
+        },
+        {
+          "heading": "Benutzerdefinierter Bereich",
+          "content": "Geben Sie beliebige Mindest- und Höchstwerte ein."
+        },
+        {
+          "heading": "Mehrere Ausgänge",
+          "content": "Generieren Sie eine oder mehrere Zahlen gleichzeitig."
+        },
+        {
+          "heading": "Einheitlicher Algorithmus",
+          "content": "Die Ergebnisse sind unvoreingenommen."
+        },
+        {
+          "heading": "Saubere Schnittstelle",
+          "content": "Einsteigerfreundlich und einfach zu bedienen."
+        },
+        {
+          "heading": "Kostenloses Online-Tool",
+          "content": "Keine Registrierung oder Downloads erforderlich."
+        }
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle",
+      "subSections": [
+        {
+          "heading": "Mathematik und Statistik",
+          "content": "Wahrscheinlichkeits-, Stichproben- und Unterrichtsübungen."
+        },
+        {
+          "heading": "Spiele und Wettbewerbe",
+          "content": "Glücksziehungen, Würfelwürfe und zufällige Auswahlen."
+        },
+        {
+          "heading": "Codierung und Softwaretests",
+          "content": "Simulationen, Testdatenerstellung und Debugging."
+        },
+        {
+          "heading": "Ausbildung",
+          "content": "Zufällige Appelle, Gruppenzuteilungen und Aktivitäten."
+        },
+        {
+          "heading": "Tägliche Entscheidungen",
+          "content": "Auswählen von Aufgaben, Mahlzeiten oder Aktivitäten."
+        },
+        {
+          "heading": "Forschung",
+          "content": "Erstellung unvoreingenommener Stichproben für Studien."
+        }
+      ]
+    },
+    {
+      "heading": "Beispielrechnungen",
+      "subSections": [
+        {
+          "heading": "Beispiel 1",
+          "content": "Bereich: 1–100, Ausgabe: 57 (zufällig)"
+        },
+        {
+          "heading": "Beispiel 2",
+          "content": "Generieren Sie 5 Zahlen, Bereich: 10–50, Ausgabe: 12, 34, 49, 28, 20 (zufällig)"
+        },
+        {
+          "heading": "Beispiel 3",
+          "content": "Würfelsimulation (1–6), Ausgabe: 4 (zufällig)"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wofür wird ein Zufallszahlengenerator verwendet?",
+      "a": "Es erzeugt unvorhersehbare Zahlen für Mathematik, Codierung, Wettbewerbe und allgemeine Aufgaben."
+    },
+    {
+      "q": "Ist dieses Tool kostenlos?",
+      "a": "Ja, völlig kostenlos."
+    },
+    {
+      "q": "Sind die Zahlen wirklich zufällig?",
+      "a": "Sie sind pseudozufällig und alltagstauglich."
+    },
+    {
+      "q": "Kann ich mehrere Nummern generieren?",
+      "a": "Ja, viele Tools unterstützen die Mengenauswahl."
+    },
+    {
+      "q": "Kann ich negative Zahlen verwenden?",
+      "a": "Ja, abhängig vom Werkzeug."
+    },
+    {
+      "q": "Sind die Ergebnisse unvoreingenommen?",
+      "a": "Ja, sie folgen einer gleichmäßigen Verteilung."
+    },
+    {
+      "q": "Benötige ich eine Softwareinstallation?",
+      "a": "Nein, es funktioniert online."
+    },
+    {
+      "q": "Kann ich RNG für Schulprojekte verwenden?",
+      "a": "Absolut."
+    },
+    {
+      "q": "Ist es für Online-Wettbewerbe sicher?",
+      "a": "Ja, aber verwenden Sie bei hochriskanten Veranstaltungen überprüfbare Tools."
+    },
+    {
+      "q": "Ist es mobilfreundlich?",
+      "a": "Ja, funktioniert perfekt auf Telefonen und Tablets."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "color": "azul",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de tamaño a peso?",
+      "content": "Una calculadora de tamaño a peso estima el peso de un cuboide rectangular utilizando su largo, ancho, alto y densidad del material. Ideal para construcción, fabricación, envío, proyectos de bricolaje y educación."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Introducir dimensiones",
+          "content": "Introduzca el largo, ancho y alto."
+        },
+        {
+          "heading": "Seleccionar material",
+          "content": "Elija un material preestablecido (acero, madera, hormigón, aluminio) o introduzca una densidad personalizada."
+        },
+        {
+          "heading": "Seleccionar unidades",
+          "content": "Asegúrese de que las unidades sean consistentes (cm, m, mm, pulgadas, pies)."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Obtenga el peso al instante en kg o lb."
+        },
+        {
+          "heading": "Consejo",
+          "content": "Verifique que la densidad coincida con el material real para obtener resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Cálculo de peso instantáneo",
+          "content": "De las dimensiones y la densidad del material."
+        },
+        {
+          "heading": "Unidades flexibles",
+          "content": "Admite cm, m, mm, pulgadas y pies."
+        },
+        {
+          "heading": "Materiales preestablecidos y personalizados",
+          "content": "Fácil selección o entrada de densidad personalizada."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en todos los dispositivos."
+        },
+        {
+          "heading": "Aplicaciones versátiles",
+          "content": "Construcción, envío, bricolaje y educación."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Construcción e ingeniería",
+          "content": "Peso de vigas, bloques y componentes."
+        },
+        {
+          "heading": "Envío y logística",
+          "content": "Estimación del peso del paquete o carga."
+        },
+        {
+          "heading": "Bricolaje y fabricación",
+          "content": "Verificación de viabilidad de muebles, cerramientos o proyectos."
+        },
+        {
+          "heading": "Educación",
+          "content": "Aprenda las relaciones de volumen, densidad y masa."
+        },
+        {
+          "heading": "Planificación de materiales",
+          "content": "Estimación de carga y cálculos de seguridad."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: bloque de madera",
+          "content": "50 cm × 40 cm × 30 cm, Madera de Roble (Densidad 750 kg/m³) → Peso ≈ 45 kg"
+        },
+        {
+          "heading": "Ejemplo 2: caja de acero",
+          "content": "2 m × 1 m × 0,5 m, Acero (Densidad 7850 kg/m³) → Peso ≈ 7850 kg"
+        },
+        {
+          "heading": "Ejemplo 3: material personalizado",
+          "content": "1 pie × 0,5 pies × 0,25 pies, Densidad 500 kg/m³ → Peso ≈ 1,75 kg"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de tamaño a peso?",
+      "a": "Estima el peso del cuboide utilizando dimensiones y densidad del material."
+    },
+    {
+      "q": "¿Puedo utilizar diferentes unidades?",
+      "a": "Sí, se admiten cm, m, mm, pulgadas y pies."
+    },
+    {
+      "q": "¿Incluye materiales comunes?",
+      "a": "Sí, acero, madera, hormigón y aluminio."
+    },
+    {
+      "q": "¿Puedo ingresar una densidad personalizada?",
+      "a": "Sí, ingrese cualquier densidad para un cálculo preciso."
+    },
+    {
+      "q": "¿Es adecuado para proyectos de bricolaje?",
+      "a": "Sí, para muebles, cerramientos u otros objetos personalizados."
+    },
+    {
+      "q": "¿Se calcula en kg y lb?",
+      "a": "Sí, los resultados se muestran en ambas unidades."
+    },
+    {
+      "q": "¿Es compatible con dispositivos móviles?",
+      "a": "Sí, funciona en teléfonos inteligentes, tabletas y computadoras de escritorio."
+    },
+    {
+      "q": "¿Quién debería utilizar esta calculadora?",
+      "a": "Ingenieros, constructores, aficionados al bricolaje, estudiantes y planificadores de logística."
+    },
+    {
+      "q": "¿Tiene en cuenta objetos huecos o irregulares?",
+      "a": "No, se supone un cuboide sólido de densidad uniforme."
+    },
+    {
+      "q": "¿Es de uso gratuito?",
+      "a": "Sí, completamente gratis y no requiere descargas."
+    }
+  ]
+}

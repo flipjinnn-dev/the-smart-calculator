@@ -1,0 +1,139 @@
+{
+  "color": "naranja",
+  "sections": [
+    {
+      "heading": "¿Qué es una calculadora de galones por pie cuadrado?",
+      "content": "Una calculadora de galones por pie cuadrado le ayuda a determinar cuánto líquido se necesita por pie cuadrado dada una profundidad específica. Es útil para piscinas, tanques, revestimientos, paisajismo, riego y proyectos de construcción."
+    },
+    {
+      "heading": "Cómo utilizar la calculadora",
+      "subSections": [
+        {
+          "heading": "Introduzca longitud y ancho",
+          "content": "Dimensiones del área base."
+        },
+        {
+          "heading": "Introduzca profundidad/altura",
+          "content": "Profundidad del líquido en pies, pulgadas o yardas."
+        },
+        {
+          "heading": "Opcional: ingrese el precio por galón",
+          "content": "Para el cálculo de costos."
+        },
+        {
+          "heading": "Haga clic en Calcular",
+          "content": "Obtenga galones por pie cuadrado y el total de galones al instante."
+        },
+        {
+          "heading": "Consejo",
+          "content": "Asegúrese de que las unidades sean consistentes para obtener resultados precisos."
+        }
+      ]
+    },
+    {
+      "heading": "Características clave",
+      "subSections": [
+        {
+          "heading": "Cálculo instantáneo",
+          "content": "Galones por pie cuadrado y galones totales."
+        },
+        {
+          "heading": "Varias unidades",
+          "content": "Pies, pulgadas o yardas soportadas."
+        },
+        {
+          "heading": "Estimación de costos",
+          "content": "Calcula el costo total si se ingresa el precio por galón."
+        },
+        {
+          "heading": "Compatible con dispositivos móviles",
+          "content": "Funciona en todos los dispositivos."
+        },
+        {
+          "heading": "Aplicaciones versátiles",
+          "content": "Agua, pintura, revestimientos y más."
+        }
+      ]
+    },
+    {
+      "heading": "Casos de uso",
+      "subSections": [
+        {
+          "heading": "Planificación de piscinas y spas",
+          "content": "Estimar el volumen de agua."
+        },
+        {
+          "heading": "Llenado del tanque",
+          "content": "Calcular la capacidad del contenedor de almacenamiento."
+        },
+        {
+          "heading": "Riego y paisajismo",
+          "content": "Planificar las necesidades de agua."
+        },
+        {
+          "heading": "Construcción y Recubrimientos",
+          "content": "Estimar líquidos para superficies."
+        },
+        {
+          "heading": "Educación",
+          "content": "Comprender las relaciones de área, profundidad y volumen."
+        }
+      ]
+    },
+    {
+      "heading": "Cálculos de ejemplo",
+      "subSections": [
+        {
+          "heading": "Ejemplo 1: volumen básico",
+          "content": "Base: 10 pies × 5 pies | Profundidad: 1 pie | Volumen: 10 × 5 × 1 × 7,48052 ≈ 374 galones | Galones por pie cuadrado: 374 ÷ (10 × 5) ≈ 7,48 gal/pie²"
+        },
+        {
+          "heading": "Ejemplo 2 – Costo",
+          "content": "Volumen: 500 galones | Precio por galón: $3 | Costo total: 500 × 3 = $1,500"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una calculadora de galones por pie cuadrado?",
+      "a": "Calcula los galones necesarios por pie cuadrado para una profundidad determinada."
+    },
+    {
+      "q": "¿Por qué usarlo?",
+      "a": "Ahorra tiempo y garantiza una planificación precisa del volumen de líquido."
+    },
+    {
+      "q": "¿Unidades compatibles?",
+      "a": "Pies, pulgadas y yardas."
+    },
+    {
+      "q": "Sirve para piscinas y tanques?",
+      "a": "Sí, ideal para cualquier zona que contenga líquidos."
+    },
+    {
+      "q": "¿Calcula el total de galones?",
+      "a": "Sí, el volumen total se muestra instantáneamente."
+    },
+    {
+      "q": "¿Útil para paisajismo/riego?",
+      "a": "Sí, ayuda a planificar las necesidades de agua para jardines y estanques."
+    },
+    {
+      "q": "¿Puedo calcular el costo?",
+      "a": "Sí, ingrese el precio por galón para obtener el costo total."
+    },
+    {
+      "q": "¿Tiene en cuenta la profundidad desigual?",
+      "a": "No, se supone una profundidad plana y uniforme."
+    },
+    {
+      "q": "¿Apto para dispositivos móviles?",
+      "a": "Sí, funciona en teléfonos inteligentes, tabletas y computadoras de escritorio."
+    },
+    {
+      "q": "¿Es gratis?",
+      "a": "Sí, completamente gratis y no requiere descargas."
+    }
+  ]
+}

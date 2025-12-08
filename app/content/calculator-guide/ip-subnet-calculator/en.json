@@ -1,0 +1,131 @@
+{
+    "color": "black",
+    "sections": [
+        {
+            "heading": "What is an IP Subnet Calculator?",
+            "content": "An IP Subnet Calculator is a free online tool that helps compute network address, broadcast address, host range, total hosts, and subnet details for IPv4 addresses using subnet masks or CIDR notation."
+        },
+        {
+            "heading": "How the IP Subnet Calculator Works",
+            "subSections": [
+                {
+                    "heading": "Inputs Required",
+                    "content": "A valid IPv4 address (e.g., 192.168.1.0) and a subnet mask or CIDR notation such as 255.255.255.0 or /24."
+                },
+                {
+                    "heading": "Calculation Method",
+                    "content": "The calculator uses standard subnetting formulas to compute network address, broadcast address, usable IP range, and total hosts."
+                },
+                {
+                    "heading": "What Happens Next",
+                    "content": "After clicking Calculate, results appear instantly, showing all subnet details needed for configuration or learning."
+                }
+            ]
+        },
+        {
+            "heading": "Why Use an IP Subnet Calculator?",
+            "subSections": [
+                {
+                    "heading": "Accurate Subnet Calculation",
+                    "content": "Quickly compute network, broadcast, and host ranges without manual maths."
+                },
+                {
+                    "heading": "Supports CIDR Notation",
+                    "content": "Works with subnet masks or CIDR formats like /26 or /28 for flexible inputs."
+                },
+                {
+                    "heading": "Fast & User-Friendly",
+                    "content": "Instant results displayed clearly for beginners and professionals."
+                },
+                {
+                    "heading": "Educational & Professional Use",
+                    "content": "Ideal for learning subnetting concepts or configuring networks."
+                },
+                {
+                    "heading": "Convenience",
+                    "content": "Free, mobile-friendly, and accessible on any browser."
+                }
+            ]
+        },
+        {
+            "heading": "Example Subnet Calculations",
+            "subSections": [
+                {
+                    "heading": "Example 1 – Standard Subnet",
+                    "content": "IP: 192.168.1.0, Mask: 255.255.255.0 (/24), Network: 192.168.1.0, Broadcast: 192.168.1.255, Usable Range: 192.168.1.1 – 192.168.1.254, Total Usable Hosts: 254."
+                },
+                {
+                    "heading": "Example 2 – Smaller Subnet",
+                    "content": "IP: 10.0.0.0, Mask: 255.255.255.192 (/26), Network: 10.0.0.0, Broadcast: 10.0.0.63, Usable Range: 10.0.0.1 – 10.0.0.62, Total Usable Hosts: 62."
+                }
+            ]
+        },
+        {
+            "heading": "Who Can Benefit",
+            "subSections": [
+                {
+                    "heading": "Network Design & Planning",
+                    "content": "Determine subnet ranges for business networks, home setups, or data centers."
+                },
+                {
+                    "heading": "Troubleshooting IP Conflicts",
+                    "content": "Identify the correct host ranges to prevent overlapping IPs."
+                },
+                {
+                    "heading": "Learning Subnetting",
+                    "content": "Perfect for students practicing CIDR and subnet calculations."
+                },
+                {
+                    "heading": "Documentation",
+                    "content": "Maintain clear IP address records for networks."
+                },
+                {
+                    "heading": "Device & Server Configuration",
+                    "content": "Assign IPs correctly within their proper subnet range."
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "q": "What is an IP Subnet Calculator?",
+            "a": "It’s an online tool that calculates network address, broadcast address, host ranges, and subnet information for IPv4."
+        },
+        {
+            "q": "Is it free?",
+            "a": "Yes, it’s completely free to use online."
+        },
+        {
+            "q": "Do I need software?",
+            "a": "No, it works directly in any modern web browser."
+        },
+        {
+            "q": "Does it support CIDR notation?",
+            "a": "Yes, you can enter either subnet masks or CIDR formats like /24 or /26."
+        },
+        {
+            "q": "Who can use it?",
+            "a": "Students, IT professionals, network engineers, and anyone working with IP addressing."
+        },
+        {
+            "q": "Is it accurate?",
+            "a": "Yes, it uses standard networking formulas for precise results."
+        },
+        {
+            "q": "Can it help me learn subnetting?",
+            "a": "Absolutely, it’s ideal for practicing and understanding subnet calculations."
+        },
+        {
+            "q": "Does it work for IPv6?",
+            "a": "This tool is primarily designed for IPv4 subnetting."
+        },
+        {
+            "q": "Can it help troubleshoot networks?",
+            "a": "Yes, by showing network and host ranges to avoid IP conflicts."
+        },
+        {
+            "q": "Is it mobile-friendly?",
+            "a": "Yes, it works smoothly on desktops, tablets, and smartphones."
+        }
+    ]
+}

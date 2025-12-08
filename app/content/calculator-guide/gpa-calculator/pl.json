@@ -1,0 +1,106 @@
+{
+  "color": "niebieski",
+  "sections": [
+    {
+      "heading": "Co to jest kalkulator GPA?",
+      "content": "Kalkulator GPA to bezpłatne narzędzie internetowe, które pomaga uczniom szybko i dokładnie obliczyć średnią ocen (GPA). Wprowadzając oceny z zajęć i godziny zaliczeń, oblicza ważony GPA i eliminuje ryzyko błędów ręcznych."
+    },
+    {
+      "heading": "Jak działa kalkulator GPA",
+      "subSections": [
+        {
+          "heading": "Wymagane dane wejściowe",
+          "content": "Oceny literowe dla każdego kursu (A, B+, B itp.), godziny zaliczeń dla każdego kursu i opcjonalny wybór skali ocen."
+        },
+        {
+          "heading": "Metoda obliczeniowa",
+          "content": "Kalkulator przelicza ocenę z każdej litery na punkty, mnoży je przez godziny zaliczeniowe i dzieli łączną liczbę punktów ocen przez łączną liczbę punktów w celu obliczenia ważonego GPA."
+        },
+        {
+          "heading": "Co stanie się dalej",
+          "content": "Po kliknięciu Oblicz natychmiast otrzymasz ważoną średnią ocen wraz z przejrzystym zestawieniem obliczeń."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego warto korzystać z kalkulatora GPA?",
+      "subSections": [
+        {
+          "heading": "Dokładne oszacowanie GPA",
+          "content": "Usuwa ręczne błędy matematyczne i zapewnia poprawność GPA zgodnie ze standardowymi wzorami."
+        },
+        {
+          "heading": "Obsługa wielu kursów",
+          "content": "Dodaj tyle kursów, ile potrzeba na semestr lub cały rok akademicki."
+        },
+        {
+          "heading": "Zbiorcze śledzenie GPA",
+          "content": "Z łatwością łącz semestralne GPA i godziny zaliczeń, aby obliczyć całkowitą skumulowaną GPA."
+        },
+        {
+          "heading": "Łatwe planowanie ocen",
+          "content": "Symuluj przyszłe oceny, aby przewidzieć, jaką średnią ocen będziesz potrzebować, aby osiągnąć swoje cele akademickie."
+        },
+        {
+          "heading": "Wygoda",
+          "content": "Szybki, bezpłatny, przyjazny dla urządzeń mobilnych i działa bezpośrednio w przeglądarce, bez instalacji."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe obliczenia GPA",
+      "subSections": [
+        {
+          "heading": "Przykład 1 – Pojedynczy semestr",
+          "content": "Kurs 1: A (4 punkty), Kurs 2: B+ (3 punkty), Kurs 3: B (3 punkty). Wynik: ważony GPA = 3,44."
+        },
+        {
+          "heading": "Przykład 2 – Skumulowany GPA",
+          "content": "Semestr 1: GPA 3,5 (12 punktów), Semestr 2: GPA 3,8 (15 punktów). Wynik: skumulowany GPA = 3,66."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest kalkulator GPA?",
+      "a": "Oblicza Twój GPA na podstawie ocen listowych i godzin zaliczeń."
+    },
+    {
+      "q": "Czy to jest bezpłatne?",
+      "a": "Tak, korzystanie z niego online jest całkowicie bezpłatne."
+    },
+    {
+      "q": "Czy muszę instalować oprogramowanie?",
+      "a": "Nie, możesz z niego korzystać bezpośrednio w dowolnej przeglądarce internetowej."
+    },
+    {
+      "q": "Czy może obsłużyć wiele kursów?",
+      "a": "Tak, możesz dodać tyle kursów, ile potrzeba do uzyskania dokładnego GPA."
+    },
+    {
+      "q": "Czy obsługuje różne skale ocen?",
+      "a": "Tak, chociaż domyślna jest skala 4,0."
+    },
+    {
+      "q": "Czy mogę obliczyć skumulowany GPA?",
+      "a": "Tak, zapisując wiele semestrów lub zestawów kursów."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Tak, działa płynnie na smartfonach, tabletach i komputerach stacjonarnych."
+    },
+    {
+      "q": "Czy może pomóc w planowaniu stypendiów?",
+      "a": "Tak, pokazuje, czy Twoja GPA spełnia wymagania stypendialne."
+    },
+    {
+      "q": "Jak dokładny jest kalkulator?",
+      "a": "Wykorzystuje standardowe ważone formuły GPA, zapewniając dokładne wyniki."
+    },
+    {
+      "q": "Czy mogę symulować przyszłe oceny?",
+      "a": "Tak, możesz zaplanować oceny potrzebne do osiągnięcia docelowej średniej ocen."
+    }
+  ]
+}

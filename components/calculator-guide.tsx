@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import 'katex/dist/katex.min.css';
+import Latex from 'react-latex-next';
 
 interface FAQ {
   q: string
@@ -12,7 +14,7 @@ interface SubSection {
 
 interface Section {
   heading: string
-  content?: string   // ✅ optional banaya
+  content?: string
   subSections?: SubSection[]
 }
 
@@ -76,6 +78,12 @@ const getColorVariants = (color: string) => {
       ultraLight: "#14b8a608",
       gradient: "from-teal-500 to-teal-600",
     },
+    black: {
+      primary: "#000303ff",
+      light: "#000303ff20",
+      ultraLight: "#000303ff08",
+      gradient: "from-teal-500 to-teal-600",
+    },
   }
 
   return colorMap[color] || colorMap.blue
@@ -88,6 +96,14 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
   }
 
   const colors = getColorVariants(data.color)
+
+  const renderContent = (content: string) => {
+    return content.split('\n').map((line, i) => (
+      <div key={i} className="min-h-[1.5em]">
+        <Latex>{line}</Latex>
+      </div>
+    ));
+  };
 
   return (
     <section className="w-full max-w-7xl mx-auto px-4 py-12">
@@ -115,12 +131,11 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">{section.heading}</h3>
 
-                    {/* ✅ Render content only if exists */ }
+                    {/* ✅ Render content only if exists */}
                     {section.content && (
-                      <div
-                        className="text-gray-700 leading-relaxed"
-                        dangerouslySetInnerHTML={{ __html: section.content.replace(/\n/g, "<br>") }}
-                      />
+                      <div className="text-gray-700 leading-relaxed space-y-1">
+                        {renderContent(section.content)}
+                      </div>
                     )}
                   </div>
                 </div>
@@ -138,10 +153,9 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
                         }}
                       >
                         <h4 className="font-semibold text-gray-900 mb-2">{subSection.heading}</h4>
-                        <div
-                          className="text-gray-700 text-sm"
-                          dangerouslySetInnerHTML={{ __html: subSection.content.replace(/\n/g, "<br>") }}
-                        />
+                        <div className="text-gray-700 text-sm space-y-1">
+                          {renderContent(subSection.content)}
+                        </div>
                       </div>
                     ))}
                   </div>
@@ -171,10 +185,9 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
                     </div>
                   </summary>
                   <div className="px-4 pb-4 pt-2">
-                    <div
-                      className="text-gray-700 text-sm leading-relaxed"
-                      dangerouslySetInnerHTML={{ __html: item.a.replace(/\n/g, "<br>") }}
-                    />
+                    <div className="text-gray-700 text-sm leading-relaxed space-y-1">
+                      {renderContent(item.a)}
+                    </div>
                   </div>
                 </details>
               ))}

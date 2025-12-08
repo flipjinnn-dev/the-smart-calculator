@@ -1,0 +1,132 @@
+{
+  "color": "verde",
+  "sections": [
+    {
+      "heading": "Calculadora de peso saludable: encuentre su rango de peso ideal",
+      "content": "Nuestra Calculadora de peso saludable lo ayuda a estimar rápidamente su rango de peso saludable según las pautas de altura, edad, sexo e IMC. Esta herramienta está diseñada para brindarle un punto de referencia médicamente preciso para establecer objetivos de peso corporal saludable, ya sea para el bienestar general, el estado físico o el control del peso."
+    },
+    {
+      "heading": "¿Qué es un peso saludable?",
+      "subSections": [
+        {
+          "heading": "Definición",
+          "content": "Un peso saludable es el rango en el que su cuerpo funciona de manera óptima, reduciendo el riesgo de enfermedades crónicas como diabetes, enfermedades cardíacas y presión arterial alta."
+        },
+        {
+          "heading": "Pautas",
+          "content": "Los profesionales de la salud suelen utilizar la fórmula del IMC (índice de masa corporal) recomendada por la Organización Mundial de la Salud (OMS) y los CDC para definir el peso saludable."
+        },
+        {
+          "heading": "Rango",
+          "content": "Rango de peso saludable (IMC 18,5-24,9), ajustado por factores de edad, altura, sexo y estilo de vida."
+        }
+      ]
+    },
+    {
+      "heading": "¿Cómo calcular el peso saludable para la altura?",
+      "subSections": [
+        {
+          "heading": "Paso 1",
+          "content": "Ingrese su altura, edad, sexo y peso."
+        },
+        {
+          "heading": "Paso 2",
+          "content": "La herramienta aplica la fórmula de la calculadora de peso saludable del IMC."
+        },
+        {
+          "heading": "Paso 3",
+          "content": "Verá su rango de peso saludable en kg y libras por altura."
+        }
+      ]
+    },
+    {
+      "heading": "Ejemplo de gráfico de peso saludable por altura",
+      "content": "Altura (cm) | Rango de peso saludable (kg) | Rango de peso saludable (libras)\n--- | --- | ---\n150 cm (4'11\") | 43 - 56 kg | 95 - 123 libras\n160 cm (5'3\") | 47 – 64 kilogramos | 104 – 141 libras\n170 cm (5'7\") | 54 - 72 kg | 119 - 159 libras\n180 cm (5'11\") | 60 – 81 kilos | 132 – 178 libras\n190 cm (6'3\") | 66 - 90 kg | 145 - 198 libras"
+    },
+    {
+      "heading": "Peso saludable para diferentes grupos",
+      "subSections": [
+        {
+          "heading": "Adultos (hombres y mujeres)",
+          "content": "Utilice la Calculadora de peso ideal para adultos para obtener rangos equilibrados."
+        },
+        {
+          "heading": "Atletas y culturistas",
+          "content": "Puede tener mayor masa muscular, por lo que se debe considerar la diferencia entre el peso ideal y el peso saludable."
+        },
+        {
+          "heading": "Personas mayores (50+)",
+          "content": "Un IMC ligeramente más alto puede tener un efecto protector."
+        },
+        {
+          "heading": "Adolescentes",
+          "content": "Úselo con precaución ya que las etapas de crecimiento afectan los resultados."
+        },
+        {
+          "heading": "Embarazo",
+          "content": "Consulte las pautas sobre peso saludable durante el embarazo."
+        }
+      ]
+    },
+    {
+      "heading": "Peso saludable para objetivos de fitness y estilo de vida",
+      "subSections": [
+        {
+          "heading": "Control de peso",
+          "content": "Establezca objetivos de peso saludable para perder o mantener la grasa."
+        },
+        {
+          "heading": "Culturismo",
+          "content": "Equilibre la ganancia muscular frente a las diferencias de IMC."
+        },
+        {
+          "heading": "Seguimiento",
+          "content": "Realice un seguimiento de los cambios con una herramienta inteligente de seguimiento de peso saludable."
+        }
+      ]
+    },
+    {
+      "heading": "¿Por qué se utiliza el IMC para calcular el peso saludable?",
+      "subSections": [
+        {
+          "heading": "Estimación estandarizada",
+          "content": "Proporciona una medida rápida y estandarizada del peso saludable."
+        },
+        {
+          "heading": "Correlación de salud",
+          "content": "El IMC se correlaciona con riesgos de enfermedades como diabetes y problemas cardíacos."
+        },
+        {
+          "heading": "Aprobado por la OMS/CDC",
+          "content": "Se ajusta a las pautas reconocidas mundialmente."
+        },
+        {
+          "heading": "Limitación",
+          "content": "El IMC no tiene en cuenta la masa muscular, la densidad ósea ni la distribución de la grasa. Úselo como referencia general, no como juicio médico final."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es mi rango de peso saludable?",
+      "a": "Su rango de peso saludable depende de su altura y su IMC (18,5 a 24,9). Utilice la calculadora de arriba para encontrar su número exacto."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre peso ideal y peso saludable?",
+      "a": "El peso ideal se basa en fórmulas como Devine o Hamwi (a menudo centradas en la apariencia), mientras que el peso saludable se basa en rangos de IMC relacionados con menores riesgos para la salud."
+    },
+    {
+      "q": "¿Cómo calculo el peso saludable para la altura?",
+      "a": "Divida el peso (kg) por la altura (m²) para obtener el IMC. Compárelo con la tabla de peso saludable de la OMS por altura."
+    },
+    {
+      "q": "¿Cuál es el peso saludable para mujeres versus hombres?",
+      "a": "Los rangos son similares según el IMC, pero la composición corporal difiere: las mujeres suelen tener un mayor porcentaje de grasa y los hombres, más masa magra."
+    },
+    {
+      "q": "¿Puedo utilizar esta herramienta como calculadora de peso saludable personalizada en línea?",
+      "a": "Sí. Nuestra herramienta es una calculadora de peso saludable estándar, pero también funciona como una calculadora de peso corporal saludable personalizada ajustándola por edad, sexo y objetivos."
+    }
+  ]
+}
