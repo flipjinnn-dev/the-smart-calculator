@@ -2973,7 +2973,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de Edad – Descubre tu Edad Exacta al Instante",
       description: "Calcula tu edad exacta al instante con nuestra herramienta rápida y precisa. ¡Descúbrelo ahora y lleva un control de tu tiempo de manera fácil!",
-      slug: "/calculadora-de-edad",
+      slug: "/es/calculadora-de-edad",
       keywords: "calculadora, edad, descubre, exacta, instante, calcula, nuestra, herramienta, rápida, precisa, descúbrelo, ahora, lleva, control, tiempo"
     }
   },
