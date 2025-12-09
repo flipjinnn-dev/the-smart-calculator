@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }scientific-calculator`,
       languages: {
         'en': getCanonicalUrl('scientific-calculator', 'en'),
+        'es': getCanonicalUrl('scientific-calculator', 'es'),
         'pt-BR': getCanonicalUrl('scientific-calculator', 'br'),
         'pl': getCanonicalUrl('scientific-calculator', 'pl'),
         'de': getCanonicalUrl('scientific-calculator', 'de'),

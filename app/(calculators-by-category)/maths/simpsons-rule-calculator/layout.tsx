@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }simpsons-rule-calculator`,
       languages: {
         'en': getCanonicalUrl('simpsons-rule-calculator', 'en'),
+        'es': getCanonicalUrl('simpsons-rule-calculator', 'es'),
         'pt-BR': getCanonicalUrl('simpsons-rule-calculator', 'br'),
         'pl': getCanonicalUrl('simpsons-rule-calculator', 'pl'),
         'de': getCanonicalUrl('simpsons-rule-calculator', 'de'),

@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }lean-body-mass-calculator`,
       languages: {
         'en': getCanonicalUrl('lean-body-mass-calculator', 'en'),
+        'es': getCanonicalUrl('lean-body-mass-calculator', 'es'),
         'pt-BR': getCanonicalUrl('lean-body-mass-calculator', 'br'),
         'pl': getCanonicalUrl('lean-body-mass-calculator', 'pl'),
         'de': getCanonicalUrl('lean-body-mass-calculator', 'de'),

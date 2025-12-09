@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }gfr-calculator`,
       languages: {
         'en': getCanonicalUrl('gfr-calculator', 'en'),
+        'es': getCanonicalUrl('gfr-calculator', 'es'),
         'pt-BR': getCanonicalUrl('gfr-calculator', 'br'),
         'pl': getCanonicalUrl('gfr-calculator', 'pl'),
         'de': getCanonicalUrl('gfr-calculator', 'de'),

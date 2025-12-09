@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }one-rep-max-calculator`,
       languages: {
         'en': getCanonicalUrl('one-rep-max-calculator', 'en'),
+        'es': getCanonicalUrl('one-rep-max-calculator', 'es'),
         'pt-BR': getCanonicalUrl('one-rep-max-calculator', 'br'),
         'pl': getCanonicalUrl('one-rep-max-calculator', 'pl'),
         'de': getCanonicalUrl('one-rep-max-calculator', 'de'),

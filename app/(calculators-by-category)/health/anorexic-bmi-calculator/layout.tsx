@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }anorexic-bmi-calculator`,
       languages: {
         'en': getCanonicalUrl('anorexic-bmi-calculator', 'en'),
+        'es': getCanonicalUrl('anorexic-bmi-calculator', 'es'),
         'pt-BR': getCanonicalUrl('anorexic-bmi-calculator', 'br'),
         'pl': getCanonicalUrl('anorexic-bmi-calculator', 'pl'),
         'de': getCanonicalUrl('anorexic-bmi-calculator', 'de'),

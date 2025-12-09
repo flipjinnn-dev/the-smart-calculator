@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('size-to-weight-rectangular-cuboid-calculator', 'en'),
+        'es': getCanonicalUrl('size-to-weight-rectangular-cuboid-calculator', 'es'),
         'pt-BR': getCanonicalUrl('size-to-weight-rectangular-cuboid-calculator', 'br'),
         'pl': getCanonicalUrl('size-to-weight-rectangular-cuboid-calculator', 'pl'),
         'de': getCanonicalUrl('size-to-weight-rectangular-cuboid-calculator', 'de'),

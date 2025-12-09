@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }protein-calculator`,
       languages: {
         'en': getCanonicalUrl('protein-calculator', 'en'),
+        'es': getCanonicalUrl('protein-calculator', 'es'),
         'pt-BR': getCanonicalUrl('protein-calculator', 'br'),
         'pl': getCanonicalUrl('protein-calculator', 'pl'),
         'de': getCanonicalUrl('protein-calculator', 'de'),

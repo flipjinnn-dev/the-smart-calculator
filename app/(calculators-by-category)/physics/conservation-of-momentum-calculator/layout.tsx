@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('conservation-of-momentum-calculator', 'en'),
+        'es': getCanonicalUrl('conservation-of-momentum-calculator', 'es'),
         'pt-BR': getCanonicalUrl('conservation-of-momentum-calculator', 'br'),
         'pl': getCanonicalUrl('conservation-of-momentum-calculator', 'pl'),
         'de': getCanonicalUrl('conservation-of-momentum-calculator', 'de'),

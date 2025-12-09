@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }calories-burned-calculator`,
       languages: {
         'en': getCanonicalUrl('calories-burned-calculator', 'en'),
+        'es': getCanonicalUrl('calories-burned-calculator', 'es'),
         'pt-BR': getCanonicalUrl('calories-burned-calculator', 'br'),
         'pl': getCanonicalUrl('calories-burned-calculator', 'pl'),
         'de': getCanonicalUrl('calories-burned-calculator', 'de'),

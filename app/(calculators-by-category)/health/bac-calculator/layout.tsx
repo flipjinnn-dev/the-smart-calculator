@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }bac-calculator`,
       languages: {
         'en': getCanonicalUrl('bac-calculator', 'en'),
+        'es': getCanonicalUrl('bac-calculator', 'es'),
         'pt-BR': getCanonicalUrl('bac-calculator', 'br'),
         'pl': getCanonicalUrl('bac-calculator', 'pl'),
         'de': getCanonicalUrl('bac-calculator', 'de'),

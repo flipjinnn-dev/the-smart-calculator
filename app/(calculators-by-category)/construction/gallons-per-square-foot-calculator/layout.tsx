@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('gallons-per-square-foot-calculator', 'en'),
+        'es': getCanonicalUrl('gallons-per-square-foot-calculator', 'es'),
         'pt-BR': getCanonicalUrl('gallons-per-square-foot-calculator', 'br'),
         'pl': getCanonicalUrl('gallons-per-square-foot-calculator', 'pl'),
         'de': getCanonicalUrl('gallons-per-square-foot-calculator', 'de'),

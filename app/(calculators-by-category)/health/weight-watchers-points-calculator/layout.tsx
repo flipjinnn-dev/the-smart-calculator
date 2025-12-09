@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('weight-watchers-points-calculator', 'en'),
+        'es': getCanonicalUrl('weight-watchers-points-calculator', 'es'),
         'pt-BR': getCanonicalUrl('weight-watchers-points-calculator', 'br'),
         'pl': getCanonicalUrl('weight-watchers-points-calculator', 'pl'),
         'de': getCanonicalUrl('weight-watchers-points-calculator', 'de'),

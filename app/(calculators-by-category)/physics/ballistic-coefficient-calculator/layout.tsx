@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('ballistic-coefficient-calculator', 'en'),
+        'es': getCanonicalUrl('ballistic-coefficient-calculator', 'es'),
         'pt-BR': getCanonicalUrl('ballistic-coefficient-calculator', 'br'),
         'pl': getCanonicalUrl('ballistic-coefficient-calculator', 'pl'),
         'de': getCanonicalUrl('ballistic-coefficient-calculator', 'de'),

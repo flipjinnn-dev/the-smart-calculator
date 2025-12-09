@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }cooking-measurement-converter`,
       languages: {
         'en': getCanonicalUrl('cooking-measurement-converter', 'en'),
+        'es': getCanonicalUrl('cooking-measurement-converter', 'es'),
         'pt-BR': getCanonicalUrl('cooking-measurement-converter', 'br'),
         'pl': getCanonicalUrl('cooking-measurement-converter', 'pl'),
         'de': getCanonicalUrl('cooking-measurement-converter', 'de'),

@@ -196,6 +196,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('bmi-calculator', 'en'),
+        'es': getCanonicalUrl('bmi-calculator', 'es'),
         'pt-BR': getCanonicalUrl('bmi-calculator', 'br'),
         'pl': getCanonicalUrl('bmi-calculator', 'pl'),
         'de': getCanonicalUrl('bmi-calculator', 'de'),

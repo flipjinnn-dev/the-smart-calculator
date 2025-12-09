@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('rpe-calculator', 'en'),
+        'es': getCanonicalUrl('rpe-calculator', 'es'),
         'pt-BR': getCanonicalUrl('rpe-calculator', 'br'),
         'pl': getCanonicalUrl('rpe-calculator', 'pl'),
         'de': getCanonicalUrl('rpe-calculator', 'de'),

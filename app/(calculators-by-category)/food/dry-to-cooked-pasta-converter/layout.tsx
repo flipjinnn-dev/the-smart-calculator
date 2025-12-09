@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }dry-to-cooked-pasta-converter`,
       languages: {
         'en': getCanonicalUrl('dry-to-cooked-pasta-converter', 'en'),
+        'es': getCanonicalUrl('dry-to-cooked-pasta-converter', 'es'),
         'pt-BR': getCanonicalUrl('dry-to-cooked-pasta-converter', 'br'),
         'pl': getCanonicalUrl('dry-to-cooked-pasta-converter', 'pl'),
         'de': getCanonicalUrl('dry-to-cooked-pasta-converter', 'de'),

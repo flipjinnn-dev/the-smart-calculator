@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('salary-calculator', 'en'),
+        'es': getCanonicalUrl('salary-calculator', 'es'),
         'pt-BR': getCanonicalUrl('salary-calculator', 'br'),
         'pl': getCanonicalUrl('salary-calculator', 'pl'),
         'de': getCanonicalUrl('salary-calculator', 'de'),

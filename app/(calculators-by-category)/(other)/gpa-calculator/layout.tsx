@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('gpa-calculator', 'en'),
+        'es': getCanonicalUrl('gpa-calculator', 'es'),
         'pt-BR': getCanonicalUrl('gpa-calculator', 'br'),
         'pl': getCanonicalUrl('gpa-calculator', 'pl'),
         'de': getCanonicalUrl('gpa-calculator', 'de'),

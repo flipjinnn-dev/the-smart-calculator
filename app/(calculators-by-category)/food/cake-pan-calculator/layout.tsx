@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }cake-pan-calculator`,
       languages: {
         'en': getCanonicalUrl('cake-pan-calculator', 'en'),
+        'es': getCanonicalUrl('cake-pan-calculator', 'es'),
         'pt-BR': getCanonicalUrl('cake-pan-calculator', 'br'),
         'pl': getCanonicalUrl('cake-pan-calculator', 'pl'),
         'de': getCanonicalUrl('cake-pan-calculator', 'de'),

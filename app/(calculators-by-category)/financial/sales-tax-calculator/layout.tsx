@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('sales-tax-calculator', 'en'),
+        'es': getCanonicalUrl('sales-tax-calculator', 'es'),
         'pt-BR': getCanonicalUrl('sales-tax-calculator', 'br'),
         'pl': getCanonicalUrl('sales-tax-calculator', 'pl'),
         'de': getCanonicalUrl('sales-tax-calculator', 'de'),

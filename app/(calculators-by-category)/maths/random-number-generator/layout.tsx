@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }random-number-generator`,
       languages: {
         'en': getCanonicalUrl('random-number-generator', 'en'),
+        'es': getCanonicalUrl('random-number-generator', 'es'),
         'pt-BR': getCanonicalUrl('random-number-generator', 'br'),
         'pl': getCanonicalUrl('random-number-generator', 'pl'),
         'de': getCanonicalUrl('random-number-generator', 'de'),

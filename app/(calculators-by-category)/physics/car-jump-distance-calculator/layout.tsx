@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('car-jump-distance-calculator', 'en'),
+        'es': getCanonicalUrl('car-jump-distance-calculator', 'es'),
         'pt-BR': getCanonicalUrl('car-jump-distance-calculator', 'br'),
         'pl': getCanonicalUrl('car-jump-distance-calculator', 'pl'),
         'de': getCanonicalUrl('car-jump-distance-calculator', 'de'),

@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }butter-calculator`,
       languages: {
         'en': getCanonicalUrl('butter-calculator', 'en'),
+        'es': getCanonicalUrl('butter-calculator', 'es'),
         'pt-BR': getCanonicalUrl('butter-calculator', 'br'),
         'pl': getCanonicalUrl('butter-calculator', 'pl'),
         'de': getCanonicalUrl('butter-calculator', 'de'),

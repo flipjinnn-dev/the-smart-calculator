@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('amortization-calculator', 'en'),
+        'es': getCanonicalUrl('amortization-calculator', 'es'),
         'pt-BR': getCanonicalUrl('amortization-calculator', 'br'),
         'pl': getCanonicalUrl('amortization-calculator', 'pl'),
         'de': getCanonicalUrl('amortization-calculator', 'de'),

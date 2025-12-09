@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }fat-intake-calculator`,
       languages: {
         'en': getCanonicalUrl('fat-intake-calculator', 'en'),
+        'es': getCanonicalUrl('fat-intake-calculator', 'es'),
         'pt-BR': getCanonicalUrl('fat-intake-calculator', 'br'),
         'pl': getCanonicalUrl('fat-intake-calculator', 'pl'),
         'de': getCanonicalUrl('fat-intake-calculator', 'de'),

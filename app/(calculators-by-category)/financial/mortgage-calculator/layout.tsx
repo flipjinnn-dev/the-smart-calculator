@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('mortgage-calculator', 'en'),
+        'es': getCanonicalUrl('mortgage-calculator', 'es'),
         'pt-BR': getCanonicalUrl('mortgage-calculator', 'br'),
         'pl': getCanonicalUrl('mortgage-calculator', 'pl'),
         'de': getCanonicalUrl('mortgage-calculator', 'de'),

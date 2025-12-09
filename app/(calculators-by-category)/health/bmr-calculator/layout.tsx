@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('bmr-calculator', 'en'),
+        'es': getCanonicalUrl('bmr-calculator', 'es'),
         'pt-BR': getCanonicalUrl('bmr-calculator', 'br'),
         'pl': getCanonicalUrl('bmr-calculator', 'pl'),
         'de': getCanonicalUrl('bmr-calculator', 'de'),

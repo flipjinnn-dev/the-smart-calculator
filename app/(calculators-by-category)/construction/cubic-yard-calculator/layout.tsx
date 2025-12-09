@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('cubic-yard-calculator', 'en'),
+        'es': getCanonicalUrl('cubic-yard-calculator', 'es'),
         'pt-BR': getCanonicalUrl('cubic-yard-calculator', 'br'),
         'pl': getCanonicalUrl('cubic-yard-calculator', 'pl'),
         'de': getCanonicalUrl('cubic-yard-calculator', 'de'),

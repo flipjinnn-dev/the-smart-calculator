@@ -56,6 +56,7 @@ export async function generateMetadata(): Promise<Metadata> {
       }due-date-calculator`,
       languages: {
         'en': getCanonicalUrl('due-date-calculator', 'en'),
+        'es': getCanonicalUrl('due-date-calculator', 'es'),
         'pt-BR': getCanonicalUrl('due-date-calculator', 'br'),
         'pl': getCanonicalUrl('due-date-calculator', 'pl'),
         'de': getCanonicalUrl('due-date-calculator', 'de'),

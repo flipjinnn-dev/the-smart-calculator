@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('ip-subnet-calculator', 'en'),
+        'es': getCanonicalUrl('ip-subnet-calculator', 'es'),
         'pt-BR': getCanonicalUrl('ip-subnet-calculator', 'br'),
         'pl': getCanonicalUrl('ip-subnet-calculator', 'pl'),
         'de': getCanonicalUrl('ip-subnet-calculator', 'de'),

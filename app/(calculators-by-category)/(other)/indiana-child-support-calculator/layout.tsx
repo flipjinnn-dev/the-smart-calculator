@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('indiana-child-support-calculator', 'en'),
+        'es': getCanonicalUrl('indiana-child-support-calculator', 'es'),
         'pt-BR': getCanonicalUrl('indiana-child-support-calculator', 'br'),
         'pl': getCanonicalUrl('indiana-child-support-calculator', 'pl'),
         'de': getCanonicalUrl('indiana-child-support-calculator', 'de'),

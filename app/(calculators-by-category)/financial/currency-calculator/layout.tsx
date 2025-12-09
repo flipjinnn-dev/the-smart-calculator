@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('currency-calculator', 'en'),
+        'es': getCanonicalUrl('currency-calculator', 'es'),
         'pt-BR': getCanonicalUrl('currency-calculator', 'br'),
         'pl': getCanonicalUrl('currency-calculator', 'pl'),
         'de': getCanonicalUrl('currency-calculator', 'de'),

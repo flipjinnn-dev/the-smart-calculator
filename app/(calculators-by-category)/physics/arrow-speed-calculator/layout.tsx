@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('arrow-speed-calculator', 'en'),
+        'es': getCanonicalUrl('arrow-speed-calculator', 'es'),
         'pt-BR': getCanonicalUrl('arrow-speed-calculator', 'br'),
         'pl': getCanonicalUrl('arrow-speed-calculator', 'pl'),
         'de': getCanonicalUrl('arrow-speed-calculator', 'de'),

@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }cups-to-pounds-converter`,
       languages: {
         'en': getCanonicalUrl('cups-to-pounds-converter', 'en'),
+        'es': getCanonicalUrl('cups-to-pounds-converter', 'es'),
         'pt-BR': getCanonicalUrl('cups-to-pounds-converter', 'br'),
         'pl': getCanonicalUrl('cups-to-pounds-converter', 'pl'),
         'de': getCanonicalUrl('cups-to-pounds-converter', 'de'),

@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }healthy-weight-calculator`,
       languages: {
         'en': getCanonicalUrl('healthy-weight-calculator', 'en'),
+        'es': getCanonicalUrl('healthy-weight-calculator', 'es'),
         'pt-BR': getCanonicalUrl('healthy-weight-calculator', 'br'),
         'pl': getCanonicalUrl('healthy-weight-calculator', 'pl'),
         'de': getCanonicalUrl('healthy-weight-calculator', 'de'),

@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('square-feet-to-cubic-yards-calculator', 'en'),
+        'es': getCanonicalUrl('square-feet-to-cubic-yards-calculator', 'es'),
         'pt-BR': getCanonicalUrl('square-feet-to-cubic-yards-calculator', 'br'),
         'pl': getCanonicalUrl('square-feet-to-cubic-yards-calculator', 'pl'),
         'de': getCanonicalUrl('square-feet-to-cubic-yards-calculator', 'de'),

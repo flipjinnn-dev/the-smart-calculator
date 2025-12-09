@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('credit-card-calculator', 'en'),
+        'es': getCanonicalUrl('credit-card-calculator', 'es'),
         'pt-BR': getCanonicalUrl('credit-card-calculator', 'br'),
         'pl': getCanonicalUrl('credit-card-calculator', 'pl'),
         'de': getCanonicalUrl('credit-card-calculator', 'de'),

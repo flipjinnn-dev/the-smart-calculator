@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('fielding-independent-pitching-calculator', 'en'),
+        'es': getCanonicalUrl('fielding-independent-pitching-calculator', 'es'),
         'pt-BR': getCanonicalUrl('fielding-independent-pitching-calculator', 'br'),
         'pl': getCanonicalUrl('fielding-independent-pitching-calculator', 'pl'),
         'de': getCanonicalUrl('fielding-independent-pitching-calculator', 'de'),

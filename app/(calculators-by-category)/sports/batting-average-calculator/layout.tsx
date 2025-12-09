@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('batting-average-calculator', 'en'),
+        'es': getCanonicalUrl('batting-average-calculator', 'es'),
         'pt-BR': getCanonicalUrl('batting-average-calculator', 'br'),
         'pl': getCanonicalUrl('batting-average-calculator', 'pl'),
         'de': getCanonicalUrl('batting-average-calculator', 'de'),

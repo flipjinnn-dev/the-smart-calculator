@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }calorie-calculator`,
       languages: {
         'en': getCanonicalUrl('calorie-calculator', 'en'),
+        'es': getCanonicalUrl('calorie-calculator', 'es'),
         'pt-BR': getCanonicalUrl('calorie-calculator', 'br'),
         'pl': getCanonicalUrl('calorie-calculator', 'pl'),
         'de': getCanonicalUrl('calorie-calculator', 'de'),

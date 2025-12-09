@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('earned-run-average-calculator', 'en'),
+        'es': getCanonicalUrl('earned-run-average-calculator', 'es'),
         'pt-BR': getCanonicalUrl('earned-run-average-calculator', 'br'),
         'pl': getCanonicalUrl('earned-run-average-calculator', 'pl'),
         'de': getCanonicalUrl('earned-run-average-calculator', 'de'),

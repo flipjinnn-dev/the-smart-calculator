@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }pregnancy-calculator`,
       languages: {
         'en': getCanonicalUrl('pregnancy-calculator', 'en'),
+        'es': getCanonicalUrl('pregnancy-calculator', 'es'),
         'pt-BR': getCanonicalUrl('pregnancy-calculator', 'br'),
         'pl': getCanonicalUrl('pregnancy-calculator', 'pl'),
         'de': getCanonicalUrl('pregnancy-calculator', 'de'),

@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }volume-calculator`,
       languages: {
         'en': getCanonicalUrl('volume-calculator', 'en'),
+        'es': getCanonicalUrl('volume-calculator', 'es'),
         'pt-BR': getCanonicalUrl('volume-calculator', 'br'),
         'pl': getCanonicalUrl('volume-calculator', 'pl'),
         'de': getCanonicalUrl('volume-calculator', 'de'),

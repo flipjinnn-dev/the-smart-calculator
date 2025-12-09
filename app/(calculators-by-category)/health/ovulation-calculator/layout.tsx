@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }ovulation-calculator`,
       languages: {
         'en': getCanonicalUrl('ovulation-calculator', 'en'),
+        'es': getCanonicalUrl('ovulation-calculator', 'es'),
         'pt-BR': getCanonicalUrl('ovulation-calculator', 'br'),
         'pl': getCanonicalUrl('ovulation-calculator', 'pl'),
         'de': getCanonicalUrl('ovulation-calculator', 'de'),

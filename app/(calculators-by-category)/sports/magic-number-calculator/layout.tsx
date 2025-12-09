@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('magic-number-calculator', 'en'),
+        'es': getCanonicalUrl('magic-number-calculator', 'es'),
         'pt-BR': getCanonicalUrl('magic-number-calculator', 'br'),
         'pl': getCanonicalUrl('magic-number-calculator', 'pl'),
         'de': getCanonicalUrl('magic-number-calculator', 'de'),

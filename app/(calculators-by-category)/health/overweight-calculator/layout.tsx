@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }overweight-calculator`,
       languages: {
         'en': getCanonicalUrl('overweight-calculator', 'en'),
+        'es': getCanonicalUrl('overweight-calculator', 'es'),
         'pt-BR': getCanonicalUrl('overweight-calculator', 'br'),
         'pl': getCanonicalUrl('overweight-calculator', 'pl'),
         'de': getCanonicalUrl('overweight-calculator', 'de'),

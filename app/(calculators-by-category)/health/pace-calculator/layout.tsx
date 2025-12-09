@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }pace-calculator`,
       languages: {
         'en': getCanonicalUrl('pace-calculator', 'en'),
+        'es': getCanonicalUrl('pace-calculator', 'es'),
         'pt-BR': getCanonicalUrl('pace-calculator', 'br'),
         'pl': getCanonicalUrl('pace-calculator', 'pl'),
         'de': getCanonicalUrl('pace-calculator', 'de'),

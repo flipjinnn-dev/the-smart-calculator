@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('annuity-payout-calculator', 'en'),
+        'es': getCanonicalUrl('annuity-payout-calculator', 'es'),
         'pt-BR': getCanonicalUrl('annuity-payout-calculator', 'br'),
         'pl': getCanonicalUrl('annuity-payout-calculator', 'pl'),
         'de': getCanonicalUrl('annuity-payout-calculator', 'de'),

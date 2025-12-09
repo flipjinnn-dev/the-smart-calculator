@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }pregnancy-weight-gain-calculator`,
       languages: {
         'en': getCanonicalUrl('pregnancy-weight-gain-calculator', 'en'),
+        'es': getCanonicalUrl('pregnancy-weight-gain-calculator', 'es'),
         'pt-BR': getCanonicalUrl('pregnancy-weight-gain-calculator', 'br'),
         'pl': getCanonicalUrl('pregnancy-weight-gain-calculator', 'pl'),
         'de': getCanonicalUrl('pregnancy-weight-gain-calculator', 'de'),

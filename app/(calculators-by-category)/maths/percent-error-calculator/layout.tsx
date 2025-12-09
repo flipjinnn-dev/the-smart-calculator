@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }percent-error-calculator`,
       languages: {
         'en': getCanonicalUrl('percent-error-calculator', 'en'),
+        'es': getCanonicalUrl('percent-error-calculator', 'es'),
         'pt-BR': getCanonicalUrl('percent-error-calculator', 'br'),
         'pl': getCanonicalUrl('percent-error-calculator', 'pl'),
         'de': getCanonicalUrl('percent-error-calculator', 'de'),

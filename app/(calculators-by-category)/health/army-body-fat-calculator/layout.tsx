@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('army-body-fat-calculator', 'en'),
+        'es': getCanonicalUrl('army-body-fat-calculator', 'es'),
         'pt-BR': getCanonicalUrl('army-body-fat-calculator', 'br'),
         'pl': getCanonicalUrl('army-body-fat-calculator', 'pl'),
         'de': getCanonicalUrl('army-body-fat-calculator', 'de'),

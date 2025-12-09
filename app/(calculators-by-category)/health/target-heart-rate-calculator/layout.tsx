@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }target-heart-rate-calculator`,
       languages: {
         'en': getCanonicalUrl('target-heart-rate-calculator', 'en'),
+        'es': getCanonicalUrl('target-heart-rate-calculator', 'es'),
         'pt-BR': getCanonicalUrl('target-heart-rate-calculator', 'br'),
         'pl': getCanonicalUrl('target-heart-rate-calculator', 'pl'),
         'de': getCanonicalUrl('target-heart-rate-calculator', 'de'),

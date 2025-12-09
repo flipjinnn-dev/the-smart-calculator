@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('height-calculator', 'en'),
+        'es': getCanonicalUrl('height-calculator', 'es'),
         'pt-BR': getCanonicalUrl('height-calculator', 'br'),
         'pl': getCanonicalUrl('height-calculator', 'pl'),
         'de': getCanonicalUrl('height-calculator', 'de'),

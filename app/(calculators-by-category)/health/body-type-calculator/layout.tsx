@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
       }body-type-calculator`,
       languages: {
         'en': getCanonicalUrl('body-type-calculator', 'en'),
+        'es': getCanonicalUrl('body-type-calculator', 'es'),
         'pt-BR': getCanonicalUrl('body-type-calculator', 'br'),
         'pl': getCanonicalUrl('body-type-calculator', 'pl'),
         'de': getCanonicalUrl('body-type-calculator', 'de'),

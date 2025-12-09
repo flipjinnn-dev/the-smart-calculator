@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }tdee-calculator`,
       languages: {
         'en': getCanonicalUrl('tdee-calculator', 'en'),
+        'es': getCanonicalUrl('tdee-calculator', 'es'),
         'pt-BR': getCanonicalUrl('tdee-calculator', 'br'),
         'pl': getCanonicalUrl('tdee-calculator', 'pl'),
         'de': getCanonicalUrl('tdee-calculator', 'de'),

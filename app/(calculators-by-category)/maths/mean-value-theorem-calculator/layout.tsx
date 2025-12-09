@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }mean-value-theorem-calculator`,
       languages: {
         'en': getCanonicalUrl('mean-value-theorem-calculator', 'en'),
+        'es': getCanonicalUrl('mean-value-theorem-calculator', 'es'),
         'pt-BR': getCanonicalUrl('mean-value-theorem-calculator', 'br'),
         'pl': getCanonicalUrl('mean-value-theorem-calculator', 'pl'),
         'de': getCanonicalUrl('mean-value-theorem-calculator', 'de'),

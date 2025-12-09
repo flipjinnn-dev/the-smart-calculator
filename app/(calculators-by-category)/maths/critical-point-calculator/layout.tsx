@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }critical-point-calculator`,
       languages: {
         'en': getCanonicalUrl('critical-point-calculator', 'en'),
+        'es': getCanonicalUrl('critical-point-calculator', 'es'),
         'pt-BR': getCanonicalUrl('critical-point-calculator', 'br'),
         'pl': getCanonicalUrl('critical-point-calculator', 'pl'),
         'de': getCanonicalUrl('critical-point-calculator', 'de'),

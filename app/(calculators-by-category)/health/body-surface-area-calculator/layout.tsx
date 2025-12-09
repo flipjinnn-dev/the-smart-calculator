@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('body-surface-area-calculator', 'en'),
+        'es': getCanonicalUrl('body-surface-area-calculator', 'es'),
         'pt-BR': getCanonicalUrl('body-surface-area-calculator', 'br'),
         'pl': getCanonicalUrl('body-surface-area-calculator', 'pl'),
         'de': getCanonicalUrl('body-surface-area-calculator', 'de'),

@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('house-affordability-calculator', 'en'),
+        'es': getCanonicalUrl('house-affordability-calculator', 'es'),
         'pt-BR': getCanonicalUrl('house-affordability-calculator', 'br'),
         'pl': getCanonicalUrl('house-affordability-calculator', 'pl'),
         'de': getCanonicalUrl('house-affordability-calculator', 'de'),

@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }carbohydrate-calculator`,
       languages: {
         'en': getCanonicalUrl('carbohydrate-calculator', 'en'),
+        'es': getCanonicalUrl('carbohydrate-calculator', 'es'),
         'pt-BR': getCanonicalUrl('carbohydrate-calculator', 'br'),
         'pl': getCanonicalUrl('carbohydrate-calculator', 'pl'),
         'de': getCanonicalUrl('carbohydrate-calculator', 'de'),

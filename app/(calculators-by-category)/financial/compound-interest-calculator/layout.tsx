@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('compound-interest-calculator', 'en'),
+        'es': getCanonicalUrl('compound-interest-calculator', 'es'),
         'pt-BR': getCanonicalUrl('compound-interest-calculator', 'br'),
         'pl': getCanonicalUrl('compound-interest-calculator', 'pl'),
         'de': getCanonicalUrl('compound-interest-calculator', 'de'),

@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }period-calculator`,
       languages: {
         'en': getCanonicalUrl('period-calculator', 'en'),
+        'es': getCanonicalUrl('period-calculator', 'es'),
         'pt-BR': getCanonicalUrl('period-calculator', 'br'),
         'pl': getCanonicalUrl('period-calculator', 'pl'),
         'de': getCanonicalUrl('period-calculator', 'de'),

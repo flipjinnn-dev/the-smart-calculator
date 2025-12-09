@@ -55,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         }macro-calculator`,
       languages: {
         'en': getCanonicalUrl('macro-calculator', 'en'),
+        'es': getCanonicalUrl('macro-calculator', 'es'),
         'pt-BR': getCanonicalUrl('macro-calculator', 'br'),
         'pl': getCanonicalUrl('macro-calculator', 'pl'),
         'de': getCanonicalUrl('macro-calculator', 'de'),

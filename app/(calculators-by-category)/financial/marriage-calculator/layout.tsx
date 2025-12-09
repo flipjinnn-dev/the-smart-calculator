@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('marriage-calculator', 'en'),
+        'es': getCanonicalUrl('marriage-calculator', 'es'),
         'pt-BR': getCanonicalUrl('marriage-calculator', 'br'),
         'pl': getCanonicalUrl('marriage-calculator', 'pl'),
         'de': getCanonicalUrl('marriage-calculator', 'de'),

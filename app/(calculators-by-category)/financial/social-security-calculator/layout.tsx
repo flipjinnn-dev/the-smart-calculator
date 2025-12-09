@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('social-security-calculator', 'en'),
+        'es': getCanonicalUrl('social-security-calculator', 'es'),
         'pt-BR': getCanonicalUrl('social-security-calculator', 'br'),
         'pl': getCanonicalUrl('social-security-calculator', 'pl'),
         'de': getCanonicalUrl('social-security-calculator', 'de'),

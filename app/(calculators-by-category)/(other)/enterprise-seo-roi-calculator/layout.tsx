@@ -30,6 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalPath.startsWith('http') ? canonicalPath : baseUrl + canonicalPath,
       languages: {
         'en': getCanonicalUrl('enterprise-seo-roi-calculator', 'en'),
+        'es': getCanonicalUrl('enterprise-seo-roi-calculator', 'es'),
         'pt-BR': getCanonicalUrl('enterprise-seo-roi-calculator', 'br'),
         'pl': getCanonicalUrl('enterprise-seo-roi-calculator', 'pl'),
         'de': getCanonicalUrl('enterprise-seo-roi-calculator', 'de'),

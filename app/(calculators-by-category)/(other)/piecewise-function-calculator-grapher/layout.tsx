@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('piecewise-function-calculator-grapher', 'en'),
+        'es': getCanonicalUrl('piecewise-function-calculator-grapher', 'es'),
         'pt-BR': getCanonicalUrl('piecewise-function-calculator-grapher', 'br'),
         'pl': getCanonicalUrl('piecewise-function-calculator-grapher', 'pl'),
         'de': getCanonicalUrl('piecewise-function-calculator-grapher', 'de'),

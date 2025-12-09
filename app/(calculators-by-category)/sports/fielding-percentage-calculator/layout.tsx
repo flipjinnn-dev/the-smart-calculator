@@ -54,6 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('fielding-percentage-calculator', 'en'),
+        'es': getCanonicalUrl('fielding-percentage-calculator', 'es'),
         'pt-BR': getCanonicalUrl('fielding-percentage-calculator', 'br'),
         'pl': getCanonicalUrl('fielding-percentage-calculator', 'pl'),
         'de': getCanonicalUrl('fielding-percentage-calculator', 'de'),
