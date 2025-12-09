@@ -23,6 +23,11 @@ const physicsMeta = {
     title: "Physik Rechner – Formeln Berechnen Online | TheSmartCalculator",
     description: "Mit dem Physik Rechner können Sie Geschwindigkeit, Energie und Kraft berechnen. Verwenden Sie den Physik Rechner für genaue physikalische Berechnungen in Studium und Beruf.",
     keywords: "physik rechner, formeln berechnen, geschwindigkeit energie, kraft tool, online physik, genaue berechnungen, kostenloser rechner"
+  },
+  es: {
+    title: "Calculadora de Física – Fórmulas y Resultados | TheSmartCalculator",
+    description: "Usa la Calculadora de Física para resolver fórmulas, leyes y ejercicios. Herramienta online gratuita y precisa para estudiantes y profesionales en física.",
+    keywords: "calculadora de física, resolver fórmulas, leyes físicas, herramienta de ejercicios, física online"
   }
 };
 
@@ -35,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = physicsMeta[language as keyof typeof physicsMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCategoryCanonicalUrl('physics', language);
 
@@ -50,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         'pt-BR': getCategoryCanonicalUrl('physics', 'br'),
         'pl': getCategoryCanonicalUrl('physics', 'pl'),
         'de': getCategoryCanonicalUrl('physics', 'de'),
+        'es': getCategoryCanonicalUrl('physics', 'es'),
       }
     },
     openGraph: {

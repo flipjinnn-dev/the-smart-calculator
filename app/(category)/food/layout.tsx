@@ -23,6 +23,11 @@ const foodMeta = {
     title: "Essen Rechner – Ernährung Online Tools | TheSmartCalculator",
     description: "Essen online berechnen: Nutzen Sie Tools zur Analyse von Ernährung, Kalorien und Makronährstoffen. Planen Sie Essen und gesundes Leben mit präzisen Online-Berechnungen.",
     keywords: "essen rechner, ernährung tools, kalorien analyse, makronährstoffe kalkulator, online essen planung, gesundes leben, kostenlose berechnungen"
+  },
+  es: {
+    title: "Calculadora de Alimentos – Calorías y Nutrición | TheSmartCalculator",
+    description: "Cuenta las calorías, proteínas y nutrientes de tus comidas. Herramienta online gratuita y precisa para seguimiento de dieta, salud y análisis nutricional.",
+    keywords: "calculadora de alimentos, contador de calorías, herramienta de nutrición, calculadora de proteínas, seguimiento de dieta"
   }
 };
 
@@ -35,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = foodMeta[language as keyof typeof foodMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCategoryCanonicalUrl('food', language);
 
@@ -50,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         'pt-BR': getCategoryCanonicalUrl('food', 'br'),
         'pl': getCategoryCanonicalUrl('food', 'pl'),
         'de': getCategoryCanonicalUrl('food', 'de'),
+        'es': getCategoryCanonicalUrl('food', 'es'),
       }
     },
     openGraph: {

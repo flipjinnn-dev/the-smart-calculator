@@ -23,6 +23,11 @@ const sportsMeta = {
     title: "Sport Rechner – Fitness Leistung Online | TheSmartCalculator",
     description: "Sport online berechnen: Finden Sie Tools für Training, Fitness und Leistung. Analysieren Sie Sport und Fortschritte mit präzisen Online-Berechnungen für Athleten.",
     keywords: "sport rechner, fitness tools, leistung berechnen, training analyser, online sport, fortschritte tool, kostenloser rechner"
+  },
+  es: {
+    title: "Calculadora de Deportes – Rendimiento y Calorías | TheSmartCalculator",
+    description: "Mide tu rendimiento deportivo, calorías quemadas y objetivos de entrenamiento. Herramienta online gratuita y precisa para atletas y entusiastas del deporte.",
+    keywords: "calculadora de deportes, herramienta de rendimiento, calorías quemadas, objetivos de entrenamiento"
   }
 };
 
@@ -35,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = sportsMeta[language as keyof typeof sportsMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCategoryCanonicalUrl('sports', language);
 
@@ -50,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         'pt-BR': getCategoryCanonicalUrl('sports', 'br'),
         'pl': getCategoryCanonicalUrl('sports', 'pl'),
         'de': getCategoryCanonicalUrl('sports', 'de'),
+        'es': getCategoryCanonicalUrl('sports', 'es'),
       }
     },
     openGraph: {

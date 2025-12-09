@@ -1,7 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 
-type Language = "en" | "br" | "pl" | "de";
+type Language = "en" | "br" | "pl" | "de" | "es";
 
 const termsMeta: Record<Language, { title: string; description: string; keywords: string }> = {
   en: {
@@ -23,6 +23,11 @@ const termsMeta: Record<Language, { title: string; description: string; keywords
     title: "Nutzungsbedingungen – TheSmartCalculator",
     description: "Lesen Sie die Nutzungsbedingungen für die Nutzung der Dienste und Tools von TheSmartCalculator.",
     keywords: "bedingungen, rechtliches, TheSmartCalculator"
+  },
+  es: {
+    title: "Términos y Condiciones – TheSmartCalculator",
+    description: "Revisa los términos y condiciones para usar los servicios y herramientas de TheSmartCalculator.",
+    keywords: "términos, condiciones, legal, TheSmartCalculator"
   }
 };
 
@@ -31,7 +36,8 @@ const pageUrls: Record<Language, string> = {
   en: "https://www.thesmartcalculator.com/terms-and-conditions",
   br: "https://www.thesmartcalculator.com/br/termos-e-condicoes",
   pl: "https://www.thesmartcalculator.com/pl/warunki",
-  de: "https://www.thesmartcalculator.com/de/nutzungsbedingungen"
+  de: "https://www.thesmartcalculator.com/de/nutzungsbedingungen",
+  es: "https://www.thesmartcalculator.com/es/terminos-y-condiciones"
 };
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -53,6 +59,7 @@ export async function generateMetadata(): Promise<Metadata> {
         'pt-BR': pageUrls.br,
         'pl': pageUrls.pl,
         'de': pageUrls.de,
+        'es': pageUrls.es
       }
     },
     openGraph: {

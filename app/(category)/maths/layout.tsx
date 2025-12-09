@@ -23,6 +23,11 @@ const mathsMeta = {
     title: "Mathe Rechner – Gleichungen Online Lösen | TheSmartCalculator",
     description: "Mit dem Mathe Rechner können Sie Gleichungen lösen, Brüche berechnen und Formeln anwenden. Verwenden Sie den Mathe Rechner für schnelle Berechnungen in Schule und Alltag.",
     keywords: "mathe rechner, gleichungen lösen, brüche berechnen, formeln tool, online mathe, schule rechner, schnelle berechnungen"
+  },
+  es: {
+    title: "Calculadora de Matemáticas – Resuelve Ecuaciones Online | TheSmartCalculator",
+    description: "Usa la Calculadora de Matemáticas para resolver ecuaciones, fracciones y porcentajes. Herramienta precisa y gratuita para educación y resolución de problemas.",
+    keywords: "calculadora matemática, resolver ecuaciones, fracciones, calculadora de porcentajes, educación matemática"
   }
 };
 
@@ -35,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = mathsMeta[language as keyof typeof mathsMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCategoryCanonicalUrl('maths', language);
 
@@ -50,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         'pt-BR': getCategoryCanonicalUrl('maths', 'br'),
         'pl': getCategoryCanonicalUrl('maths', 'pl'),
         'de': getCategoryCanonicalUrl('maths', 'de'),
+        'es': getCategoryCanonicalUrl('maths', 'es'),
       }
     },
     openGraph: {

@@ -1,7 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 
-type Language = "en" | "br" | "pl" | "de";
+type Language = "en" | "br" | "pl" | "de" | "es";
 
 const aboutMeta: Record<Language, { title: string; description: string; keywords: string }> = {
   en: {
@@ -23,6 +23,11 @@ const aboutMeta: Record<Language, { title: string; description: string; keywords
     title: "Über Uns – TheSmartCalculator",
     description: "Erfahren Sie mehr über TheSmartCalculator: unsere Mission, das Team und wie wir nützliche Online-Rechner entwickeln.",
     keywords: "über uns, team, mission, TheSmartCalculator"
+  },
+  es: {
+    title: "Sobre Nosotros – TheSmartCalculator",
+    description: "Conoce a TheSmartCalculator: nuestra misión, equipo y cómo creamos calculadoras en línea útiles.",
+    keywords: "sobre nosotros, equipo, misión, TheSmartCalculator"
   }
 };
 
@@ -31,7 +36,8 @@ const pageUrls: Record<Language, string> = {
   en: "https://www.thesmartcalculator.com/about-us",
   br: "https://www.thesmartcalculator.com/br/sobre-nos",
   pl: "https://www.thesmartcalculator.com/pl/o-nas",
-  de: "https://www.thesmartcalculator.com/de/uber-uns"
+  de: "https://www.thesmartcalculator.com/de/uber-uns",
+  es: "https://www.thesmartcalculator.com/es/sobre-nosotros"
 };
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -52,7 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
         en: pageUrls.en,
         "pt-BR": pageUrls.br,
         pl: pageUrls.pl,
-        de: pageUrls.de
+        de: pageUrls.de,
+        es: pageUrls.es
       }
     },
     openGraph: {

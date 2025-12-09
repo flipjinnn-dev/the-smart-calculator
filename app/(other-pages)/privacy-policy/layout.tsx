@@ -1,7 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 
-type Language = "en" | "br" | "pl" | "de";
+type Language = "en" | "br" | "pl" | "de" | "es";
 
 const privacyMeta: Record<Language, { title: string; description: string; keywords: string }> = {
   en: {
@@ -23,6 +23,11 @@ const privacyMeta: Record<Language, { title: string; description: string; keywor
     title: "Datenschutzerklärung – TheSmartCalculator",
     description: "Lesen Sie die Datenschutzerklärung von TheSmartCalculator, um zu verstehen, wie wir Daten erheben und verwenden.",
     keywords: "datenschutz, richtlinie, daten, TheSmartCalculator"
+  },
+  es: {
+    title: "Política de Privacidad – TheSmartCalculator",
+    description: "Lee la política de privacidad de TheSmartCalculator para entender cómo recopilamos y usamos los datos.",
+    keywords: "privacidad, política, datos, TheSmartCalculator"
   }
 };
 
@@ -31,7 +36,8 @@ const pageUrls: Record<Language, string> = {
   en: "https://www.thesmartcalculator.com/privacy-policy",
   br: "https://www.thesmartcalculator.com/br/politica-de-privacidade",
   pl: "https://www.thesmartcalculator.com/pl/polityka-prywatnosci",
-  de: "https://www.thesmartcalculator.com/de/datenschutz"
+  de: "https://www.thesmartcalculator.com/de/datenschutz",
+  es: "https://www.thesmartcalculator.com/es/politica-de-privacidad"
 };
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -53,6 +59,7 @@ export async function generateMetadata(): Promise<Metadata> {
         'pt-BR': pageUrls.br,
         'pl': pageUrls.pl,
         'de': pageUrls.de,
+        'es': pageUrls.es
       }
     },
     openGraph: {

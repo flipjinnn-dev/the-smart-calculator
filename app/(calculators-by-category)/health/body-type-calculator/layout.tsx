@@ -24,7 +24,7 @@ const bodytypecalculatorMeta = {
     description: "Finde mit dem Körperform Rechner heraus, welcher Körpertyp du bist. Schnell, genau & kostenlos – ideal für Fitness, Mode und Gesundheitsziele mit Messungen!",
     keywords: "körperform rechner, typ bestimmen, fitness mode, gesundheitsziele tool, online körper, schnell genau, kostenloser rechner"
   }
-,
+  ,
   es: {
     title: "Calculadora de Tipo de Cuerpo – Descubre tu Morfología",
     description: "Descubre tu tipo de cuerpo al instante con nuestra calculadora precisa. ¡Conoce tu morfología y optimiza tu entrenamiento y estilo de vida ahora mismo!",
@@ -50,9 +50,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }body-type-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('body-type-calculator', 'en'),
         'es': getCanonicalUrl('body-type-calculator', 'es'),
@@ -65,9 +63,8 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${
-        language !== "en" ? `${language}/` : ""
-      }body-type-calculator`,
+      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
+        }body-type-calculator`,
     },
   };
 }

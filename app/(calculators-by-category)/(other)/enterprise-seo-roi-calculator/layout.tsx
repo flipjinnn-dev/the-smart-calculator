@@ -3,9 +3,8 @@ import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
 import Script from "next/script";
 
-type Lang = 'en' | 'pl' | 'br' | 'de' | 'es';
-type Meta = { title: string; description: string };
-const meta: Record<Lang, Meta> = {
+// Multilingual SEO metadata
+const enterpriseSeoMeta = {
   en: { title: "Enterprise SEO ROI Calculator", description: "Calculate the return on investment (ROI) for enterprise SEO." },
   pl: { title: "Enterprise SEO ROI Kalkulator", description: "Oblicz the return on investment (ROI) dla enterprise SEO." },
   br: { title: "Calculadora de ROI de SEO Empresarial", description: "Calcule o retorno sobre investimento (ROI) para SEO empresarial. Otimize seu orçamento de marketing digital." },
@@ -15,19 +14,20 @@ const meta: Record<Lang, Meta> = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const headerList = await headers();
-  const langHeader = headerList.get('x-language') as Lang | null;
-  const language: Lang = (langHeader && meta[langHeader]) ? (langHeader as Lang) : 'en';
-  const m = meta[language];
+  const langHeader = headerList.get('x-language');
+  const language =
+    langHeader && enterpriseSeoMeta[langHeader as keyof typeof enterpriseSeoMeta]
+      ? langHeader
+      : "en";
 
-  const baseUrl = 'https://www.thesmartcalculator.com';
-  const pathEn = '/enterprise-seo-roi-calculator';
-  const canonicalPath = language === 'pl' ? '/pl/' : (language === 'en' ? pathEn : `/${language}${pathEn}`);
+  const meta = enterpriseSeoMeta[language as keyof typeof enterpriseSeoMeta];
+  const canonicalUrl = getCanonicalUrl('enterprise-seo-roi-calculator', language);
 
   return {
-    title: m.title,
-    description: m.description,
+    title: meta.title,
+    description: meta.description,
     alternates: {
-      canonical: canonicalPath.startsWith('http') ? canonicalPath : baseUrl + canonicalPath,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('enterprise-seo-roi-calculator', 'en'),
         'es': getCanonicalUrl('enterprise-seo-roi-calculator', 'es'),
@@ -37,10 +37,10 @@ export async function generateMetadata(): Promise<Metadata> {
       }
     },
     openGraph: {
-      title: m.title,
-      description: m.description,
+      title: meta.title,
+      description: meta.description,
       type: 'website',
-      url: canonicalPath.startsWith('http') ? canonicalPath : baseUrl + canonicalPath,
+      url: canonicalUrl,
     },
   };
 }

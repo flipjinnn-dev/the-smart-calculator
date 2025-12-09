@@ -23,6 +23,11 @@ const othercalculatorsMeta = {
     title: "Andere Rechner – Nützliche Online Tools | TheSmartCalculator",
     description: "Entdecken Sie unseren Andere Rechner für verschiedene Berechnungen. Der Andere Rechner bietet praktische Online Tools für Alltag und Beruf mit genauen Ergebnissen.",
     keywords: "andere rechner, nützliche tools, verschiedene berechnungen, online rechner, alltag beruf, praktische tools, kostenloser andere rechner"
+  },
+  es: {
+    title: "Otras Calculadoras – Herramientas Útiles Varias | TheSmartCalculator",
+    description: "Explora otras calculadoras útiles para diversas necesidades. Herramientas gratuitas para cálculos generales y específicos no categorizados.",
+    keywords: "otras calculadoras, herramientas útiles, calculadoras varias, utilidades online"
   }
 };
 
@@ -50,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         'pt-BR': getCategoryCanonicalUrl('other-calculators', 'br'),
         'pl': getCategoryCanonicalUrl('other-calculators', 'pl'),
         'de': getCategoryCanonicalUrl('other-calculators', 'de'),
+        'es': getCategoryCanonicalUrl('other-calculators', 'es'),
       }
     },
     openGraph: {

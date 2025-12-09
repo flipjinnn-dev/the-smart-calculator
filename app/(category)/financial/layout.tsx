@@ -23,6 +23,11 @@ const financialMeta = {
     title: "Finanziell Rechner – Budget Online Tool | TheSmartCalculator",
     description: "Nutzen Sie den financial  – loans & investments tool | thesmartcalculator für schnelle, genaue Ergebnisse. Einfache Eingaben, klare Ausgaben und nützlicher Kont.",
     keywords: "finanziell rechner, budget berechnen, ersparnisse tool, investitionen kalkulator, online finanzplanung, schnelle berechnungen, kostenloser finanziell rechner"
+  },
+  es: {
+    title: "Calculadora Financiera – Herramienta de Préstamos e Inversiones | TheSmartCalculator",
+    description: "Usa la Calculadora Financiera para préstamos, inversiones, intereses y presupuestos. Herramienta online gratuita y precisa para simular escenarios y planificar tus finanzas.",
+    keywords: "calculadora financiera, calculadora de préstamos, herramienta de inversión, cálculo de intereses, finanzas online, presupuesto"
   }
 };
 
@@ -35,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = financialMeta[language as keyof typeof financialMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCategoryCanonicalUrl('financial', language);
 
@@ -50,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         'pt-BR': getCategoryCanonicalUrl('financial', 'br'),
         'pl': getCategoryCanonicalUrl('financial', 'pl'),
         'de': getCategoryCanonicalUrl('financial', 'de'),
+        'es': getCategoryCanonicalUrl('financial', 'es'),
       }
     },
     openGraph: {

@@ -1,7 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 
-type Language = "en" | "br" | "pl" | "de";
+type Language = "en" | "br" | "pl" | "de" | "es";
 
 const contactMeta: Record<Language, { title: string; description: string; keywords: string }> = {
   en: {
@@ -23,6 +23,11 @@ const contactMeta: Record<Language, { title: string; description: string; keywor
     title: "Kontakt – TheSmartCalculator",
     description: "Kontaktieren Sie das TheSmartCalculator-Team für Support, Feedback oder Partnerschaften.",
     keywords: "kontakt, support, feedback, TheSmartCalculator"
+  },
+  es: {
+    title: "Contacto – TheSmartCalculator",
+    description: "Ponte en contacto con el equipo de TheSmartCalculator para soporte, comentarios o asociaciones.",
+    keywords: "contacto, soporte, comentarios, TheSmartCalculator"
   }
 };
 
@@ -31,7 +36,8 @@ const pageUrls: Record<Language, string> = {
   en: "https://www.thesmartcalculator.com/contact-us",
   br: "https://www.thesmartcalculator.com/br/contato",
   pl: "https://www.thesmartcalculator.com/pl/kontakt",
-  de: "https://www.thesmartcalculator.com/de/kontakt"
+  de: "https://www.thesmartcalculator.com/de/kontakt",
+  es: "https://www.thesmartcalculator.com/es/contacto"
 };
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -52,7 +58,8 @@ export async function generateMetadata(): Promise<Metadata> {
         en: pageUrls.en,
         "pt-BR": pageUrls.br,
         pl: pageUrls.pl,
-        de: pageUrls.de
+        de: pageUrls.de,
+        es: pageUrls.es
       }
     },
     openGraph: {

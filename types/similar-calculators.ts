@@ -6,11 +6,16 @@ export interface SimilarCalculator {
   calculatorDescription?: string
 }
 
+export interface SimilarCalculatorId {
+  id: string
+}
+
 export interface SimilarCalculatorsProps {
-  calculators: SimilarCalculator[]
-  color?: 'green' | 'blue' | 'red' | 'orange' | 'purple' | 'gray' | 'pink' | 'yellow' | 'teal'
+  calculators: (SimilarCalculator | SimilarCalculatorId)[]
+  color?: CalculatorColor
   title?: string
   className?: string
+  language?: string
 }
 
 export type CalculatorColor = 'green' | 'blue' | 'red' | 'orange' | 'purple' | 'gray' | 'pink' | 'yellow' | 'teal'

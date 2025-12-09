@@ -23,6 +23,11 @@ const constructionMeta = {
     title: "Konstruktion Rechner – Bau Online Tools | TheSmartCalculator",
     description: "Konstruktion online berechnen: Nutzen Sie kostenlose Tools für Bau, Technik und Planung. Präzise Berechnungen für Material, Kosten und Maße – ideal für Projekte und Renovierungen.",
     keywords: "konstruktion rechner, bau tools, technik berechnen, material kalkulator, kosten konstruktion, online bau rechner, kostenloser konstruktion tool"
+  },
+  es: {
+    title: "Calculadora de Construcción – Materiales y Costos | TheSmartCalculator",
+    description: "Estima materiales de construcción, concreto, techos y pies tablares. Herramienta precisa y gratuita para contratistas y aficionados al bricolaje.",
+    keywords: "calculadora de construcción, estimar materiales, concreto, calculadora de techos, pies tablares"
   }
 };
 
@@ -35,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = constructionMeta[language as keyof typeof constructionMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCategoryCanonicalUrl('construction', language);
 
@@ -50,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         'pt-BR': getCategoryCanonicalUrl('construction', 'br'),
         'pl': getCategoryCanonicalUrl('construction', 'pl'),
         'de': getCategoryCanonicalUrl('construction', 'de'),
+        'es': getCategoryCanonicalUrl('construction', 'es'),
       }
     },
     openGraph: {

@@ -23,6 +23,11 @@ const healthMeta = {
     title: "Gesundheitsrechner – BMI Kalorien Online | TheSmartCalculator",
     description: "Unser Gesundheitsrechner hilft Ihnen, BMI, Kalorien und Blutdruck zu berechnen. Verwenden Sie den Gesundheitsrechner, um Ihre Gesundheit zu verbessern mit präzisen Metriken.",
     keywords: "gesundheitsrechner, bmi kalorien, blutdruck berechnen, gesundheit tool, online rechner, verbessern gesundheit, kostenloser gesundheits tool"
+  },
+  es: {
+    title: "Calculadora de Salud – BMI, Calorías y Más | TheSmartCalculator",
+    description: "Usa la Calculadora de Salud para medir IMC, calorías, metabolismo y otras métricas. Herramienta online gratuita y precisa para seguimiento de salud, dieta y fitness.",
+    keywords: "calculadora de salud, herramienta bmi, calculadora de calorías, seguimiento metabolismo, salud online"
   }
 };
 
@@ -35,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = healthMeta[language as keyof typeof healthMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCategoryCanonicalUrl('health', language);
 
@@ -50,6 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
         'pt-BR': getCategoryCanonicalUrl('health', 'br'),
         'pl': getCategoryCanonicalUrl('health', 'pl'),
         'de': getCategoryCanonicalUrl('health', 'de'),
+        'es': getCategoryCanonicalUrl('health', 'es'),
       }
     },
     openGraph: {
