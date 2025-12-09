@@ -42,7 +42,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const meta = othercalculatorsMeta[language as keyof typeof othercalculatorsMeta];
 
   // Generate correct canonical URL using localized slug
-  const canonicalUrl = getCategoryCanonicalUrl('other-calculators', language);
+  const canonicalUrl = getCategoryCanonicalUrl('other', language);
 
   return {
     title: meta.title,
@@ -51,11 +51,11 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        'en': getCategoryCanonicalUrl('other-calculators', 'en'),
-        'pt-BR': getCategoryCanonicalUrl('other-calculators', 'br'),
-        'pl': getCategoryCanonicalUrl('other-calculators', 'pl'),
-        'de': getCategoryCanonicalUrl('other-calculators', 'de'),
-        'es': getCategoryCanonicalUrl('other-calculators', 'es'),
+        'en': getCategoryCanonicalUrl('other', 'en'),
+        'pt-BR': getCategoryCanonicalUrl('other', 'br'),
+        'pl': getCategoryCanonicalUrl('other', 'pl'),
+        'de': getCategoryCanonicalUrl('other', 'de'),
+        'es': getCategoryCanonicalUrl('other', 'es'),
       }
     },
     openGraph: {

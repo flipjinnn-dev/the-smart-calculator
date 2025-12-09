@@ -1,5 +1,6 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
+import { getStaticPageCanonicalUrl } from "@/lib/url-utils";
 
 type Language = "en" | "br" | "pl" | "de" | "es";
 
@@ -31,22 +32,13 @@ const contactMeta: Record<Language, { title: string; description: string; keywor
   }
 };
 
-// Hardcoded canonical and hreflang URLs matching middleware/sitemap
-const pageUrls: Record<Language, string> = {
-  en: "https://www.thesmartcalculator.com/contact-us",
-  br: "https://www.thesmartcalculator.com/br/contato",
-  pl: "https://www.thesmartcalculator.com/pl/kontakt",
-  de: "https://www.thesmartcalculator.com/de/kontakt",
-  es: "https://www.thesmartcalculator.com/es/contacto"
-};
-
 export async function generateMetadata(): Promise<Metadata> {
   const headerList = await headers();
   const langHeader = headerList.get("x-language");
   const language: Language = langHeader && contactMeta[langHeader as Language] ? (langHeader as Language) : "en";
 
   const meta = contactMeta[language];
-  const canonicalUrl = pageUrls[language];
+  const canonicalUrl = getStaticPageCanonicalUrl('contact-us', language);
 
   return {
     title: meta.title,
@@ -55,11 +47,11 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        en: pageUrls.en,
-        "pt-BR": pageUrls.br,
-        pl: pageUrls.pl,
-        de: pageUrls.de,
-        es: pageUrls.es
+        en: getStaticPageCanonicalUrl('contact-us', 'en'),
+        "pt-BR": getStaticPageCanonicalUrl('contact-us', 'br'),
+        pl: getStaticPageCanonicalUrl('contact-us', 'pl'),
+        de: getStaticPageCanonicalUrl('contact-us', 'de'),
+        es: getStaticPageCanonicalUrl('contact-us', 'es')
       }
     },
     openGraph: {

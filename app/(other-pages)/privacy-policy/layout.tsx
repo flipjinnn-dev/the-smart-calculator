@@ -1,5 +1,6 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
+import { getStaticPageCanonicalUrl } from "@/lib/url-utils";
 
 type Language = "en" | "br" | "pl" | "de" | "es";
 
@@ -31,22 +32,13 @@ const privacyMeta: Record<Language, { title: string; description: string; keywor
   }
 };
 
-// Hardcoded canonical and hreflang URLs matching middleware/sitemap
-const pageUrls: Record<Language, string> = {
-  en: "https://www.thesmartcalculator.com/privacy-policy",
-  br: "https://www.thesmartcalculator.com/br/politica-de-privacidade",
-  pl: "https://www.thesmartcalculator.com/pl/polityka-prywatnosci",
-  de: "https://www.thesmartcalculator.com/de/datenschutz",
-  es: "https://www.thesmartcalculator.com/es/politica-de-privacidad"
-};
-
 export async function generateMetadata(): Promise<Metadata> {
   const headerList = await headers();
   const langHeader = headerList.get('x-language');
   const language: Language = langHeader && privacyMeta[langHeader as Language] ? (langHeader as Language) : 'en';
 
   const meta = privacyMeta[language];
-  const canonicalUrl = pageUrls[language];
+  const canonicalUrl = getStaticPageCanonicalUrl('privacy-policy', language);
 
   return {
     title: meta.title,
@@ -55,11 +47,11 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        'en': pageUrls.en,
-        'pt-BR': pageUrls.br,
-        'pl': pageUrls.pl,
-        'de': pageUrls.de,
-        'es': pageUrls.es
+        'en': getStaticPageCanonicalUrl('privacy-policy', 'en'),
+        'pt-BR': getStaticPageCanonicalUrl('privacy-policy', 'br'),
+        'pl': getStaticPageCanonicalUrl('privacy-policy', 'pl'),
+        'de': getStaticPageCanonicalUrl('privacy-policy', 'de'),
+        'es': getStaticPageCanonicalUrl('privacy-policy', 'es')
       }
     },
     openGraph: {
