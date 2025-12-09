@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }lean-body-mass-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('lean-body-mass-calculator', 'en'),
         'es': getCanonicalUrl('lean-body-mass-calculator', 'es'),

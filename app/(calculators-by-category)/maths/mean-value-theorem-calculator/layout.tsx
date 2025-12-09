@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }mean-value-theorem-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('mean-value-theorem-calculator', 'en'),
         'es': getCanonicalUrl('mean-value-theorem-calculator', 'es'),

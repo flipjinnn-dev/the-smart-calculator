@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }random-number-generator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('random-number-generator', 'en'),
         'es': getCanonicalUrl('random-number-generator', 'es'),

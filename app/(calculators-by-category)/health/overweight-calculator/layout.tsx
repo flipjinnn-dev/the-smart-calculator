@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }overweight-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('overweight-calculator', 'en'),
         'es': getCanonicalUrl('overweight-calculator', 'es'),

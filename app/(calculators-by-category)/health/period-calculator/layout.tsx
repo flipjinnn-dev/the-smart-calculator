@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }period-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('period-calculator', 'en'),
         'es': getCanonicalUrl('period-calculator', 'es'),

@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }pregnancy-conception-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('pregnancy-conception-calculator', 'en'),
         'es': getCanonicalUrl('pregnancy-conception-calculator', 'es'),

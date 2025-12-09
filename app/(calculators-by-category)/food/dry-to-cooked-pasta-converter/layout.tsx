@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }dry-to-cooked-pasta-converter`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('dry-to-cooked-pasta-converter', 'en'),
         'es': getCanonicalUrl('dry-to-cooked-pasta-converter', 'es'),

@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }cups-to-pounds-converter`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('cups-to-pounds-converter', 'en'),
         'es': getCanonicalUrl('cups-to-pounds-converter', 'es'),

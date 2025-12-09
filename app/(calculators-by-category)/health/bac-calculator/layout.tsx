@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }bac-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('bac-calculator', 'en'),
         'es': getCanonicalUrl('bac-calculator', 'es'),

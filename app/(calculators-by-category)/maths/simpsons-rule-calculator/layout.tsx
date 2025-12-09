@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }simpsons-rule-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('simpsons-rule-calculator', 'en'),
         'es': getCanonicalUrl('simpsons-rule-calculator', 'es'),

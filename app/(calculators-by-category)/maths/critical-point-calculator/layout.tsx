@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }critical-point-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('critical-point-calculator', 'en'),
         'es': getCanonicalUrl('critical-point-calculator', 'es'),

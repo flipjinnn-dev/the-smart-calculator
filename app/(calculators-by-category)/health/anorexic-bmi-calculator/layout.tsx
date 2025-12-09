@@ -51,8 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }anorexic-bmi-calculator`,
+      canonical: canonicalUrl,
       languages: {
         'en': getCanonicalUrl('anorexic-bmi-calculator', 'en'),
         'es': getCanonicalUrl('anorexic-bmi-calculator', 'es'),
