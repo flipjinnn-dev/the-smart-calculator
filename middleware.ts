@@ -620,7 +620,7 @@ export const reverseUrlMappings = {
     'mortgage-calculator': 'kalkulator-kredytu-hipotecznego',
     'mortgage-payoff-calculator': 'kalkulator-splaty-kredytu-hipotecznego',
     'one-rep-max-calculator': 'kalkulator-1rm',
-    'other-calculators': 'inny',
+    'other-calculators': 'inne',
     'overweight-calculator': 'kalkulator-nadwagi',
     'ovulation-calculator': 'kalkulator-owulacji',
     'pace-calculator': 'kalkulator-tempa',

@@ -15,9 +15,9 @@ const othercalculatorsMeta = {
     keywords: "calculadora online, ferramentas diversas, tarefas diárias, calculadoras outro tipo, precisa ferramenta, qualquer necessidade, gratuita online"
   },
   pl: {
-    title: "Kalkulator Inny – Oblicz Różne Dane Online | TheSmartCalculator",
-    description: "Skorzystaj z kalkulatora inny online, aby szybko obliczyć różne dane i wartości. Proste, dokładne i uniwersalne narzędzie dla każdego użytkownika i zadań.",
-    keywords: "kalkulator inny, obliczyć dane, różne wartości, narzędzie uniwersalne, online inny, dokładne obliczenia, darmowy kalkulator inny"
+    title: "Kalkulator inne – Oblicz Różne Dane Online | TheSmartCalculator",
+    description: "Skorzystaj z kalkulatora inne online, aby szybko obliczyć różne dane i wartości. Proste, dokładne i uniwersalne narzędzie dla każdego użytkownika i zadań.",
+    keywords: "kalkulator inne, obliczyć dane, różne wartości, narzędzie uniwersalne, online inne, dokładne obliczenia, darmowy kalkulator inne"
   },
   de: {
     title: "Andere Rechner – Nützliche Online Tools | TheSmartCalculator",
@@ -35,7 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "en";
 
   const meta = othercalculatorsMeta[language as keyof typeof othercalculatorsMeta];
-  
+
   // Generate correct canonical URL using localized slug
   const canonicalUrl = getCategoryCanonicalUrl('other-calculators', language);
 
