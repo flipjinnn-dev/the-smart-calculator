@@ -3233,4 +3233,100 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calculadora, subnet, calcula, redes, fácil, rápido, subnets, instante, nuestra, herramienta, precisa, optimiza, simplifica, planificación, direcciones"
     }
   },
+  'orthogonal-projection-calculator': {
+    en: {
+      title: "Orthogonal Projection Calculator",
+      description: "Calculate the orthogonal projection of one vector onto another with step-by-step solutions and detailed analysis",
+      slug: "/physics/orthogonal-projection-calculator",
+      keywords: "orthogonal, projection, calculator, vector, dot product, linear algebra, mathematics"
+    },
+    pl: {
+      title: "Kalkulator Rzutu Ortogonalnego",
+      description: "Oblicz rzut ortogonalny jednego wektora na drugi z rozwiązaniami krok po kroku i szczegółową analizą",
+      slug: "/pl/fizyka/kalkulator-rzutu-ortogonalnego",
+      keywords: "rzut ortogonalny, kalkulator wektorów, iloczyn skalarny, algebra liniowa, matematyka"
+    },
+    br: {
+      title: "Calculadora de Projeção Ortogonal",
+      description: "Calcule a projeção ortogonal de um vetor sobre outro com soluções passo a passo e análise detalhada",
+      slug: "/br/fisica/calculadora-de-projecao-ortogonal",
+      keywords: "projeção ortogonal, calculadora vetores, produto escalar, álgebra linear, matemática"
+    },
+    de: {
+      title: "Orthogonale Projektionsrechner",
+      description: "Berechnen Sie die orthogonale Projektion eines Vektors auf einen anderen mit schrittweisen Lösungen und detaillierter Analyse",
+      slug: "/de/physik/orthogonale-projektionsrechner",
+      keywords: "orthogonale projektion, vektorrechner, skalarprodukt, lineare algebra, mathematik"
+    },
+    es: {
+      title: "Calculadora de Proyección Ortogonal",
+      description: "Calcule la proyección ortogonal de un vector sobre otro con soluciones paso a paso y análisis detallado",
+      slug: "/es/fisica/calculadora-de-proyeccion-ortogonal",
+      keywords: "proyección ortogonal, calculadora vectores, producto escalar, álgebra lineal, matemáticas"
+    }
+  },
+  'towing-estimate-calculator': {
+    en: {
+      title: "Towing Estimate Calculator",
+      description: "Calculate towing costs based on vehicle type, distance, location, time of day, and additional services with detailed cost breakdown",
+      slug: "/towing-estimate-calculator",
+      keywords: "towing, estimate, calculator, cost, vehicle, distance, roadside assistance, flatbed, towing service"
+    },
+    pl: {
+      title: "Kalkulator Kosztów Holowania",
+      description: "Oblicz koszty holowania na podstawie typu pojazdu, odległości, lokalizacji, pory dnia i dodatkowych usług ze szczegółowym podziałem kosztów",
+      slug: "/pl/kalkulator-kosztow-holowania",
+      keywords: "holowanie, koszty, kalkulator, pojazd, odległość, pomoc drogowa, platforma, usługa holowania"
+    },
+    br: {
+      title: "Calculadora de Custo de Reboque",
+      description: "Calcule os custos de reboque com base no tipo de veículo, distância, localização, hora do dia e serviços adicionais com detalhamento de custos",
+      slug: "/br/calculadora-de-custo-de-reboque",
+      keywords: "reboque, custo, calculadora, veículo, distância, assistência na estrada, plataforma, serviço de reboque"
+    },
+    de: {
+      title: "Abschleppkosten-Rechner",
+      description: "Berechnen Sie Abschleppkosten basierend auf Fahrzeugtyp, Entfernung, Standort, Tageszeit und zusätzlichen Dienstleistungen mit detaillierter Kostenaufschlüsselung",
+      slug: "/de/abschleppkosten-rechner",
+      keywords: "abschleppen, kosten, rechner, fahrzeug, entfernung, pannenhilfe, plateau, abschleppdienst"
+    },
+    es: {
+      title: "Calculadora de Costos de Remolque",
+      description: "Calcule los costos de remolque según el tipo de vehículo, distancia, ubicación, hora del día y servicios adicionales con desglose detallado de costos",
+      slug: "/es/calculadora-de-costos-de-remolque",
+      keywords: "remolque, costos, calculadora, vehículo, distancia, asistencia en carretera, plataforma, servicio de remolque"
+    }
+  },
+  'square-root-curve-calculator': {
+    en: {
+      title: "Square Root Curve Calculator",
+      description: "Convert grades using the square root grading curve method with step-by-step calculations and instant results",
+      slug: "/maths/square-root-curve-calculator",
+      keywords: "square root curve, grade curve calculator, sqrt curve, grading curve, grade adjustment, curved grade, square root grading"
+    },
+    pl: {
+      title: "Kalkulator Krzywej Pierwiastka Kwadratowego",
+      description: "Konwertuj oceny za pomocą metody krzywej oceniania pierwiastka kwadratowego z obliczeniami krok po kroku",
+      slug: "/pl/matematyka/kalkulator-krzywej-pierwiastka-kwadratowego",
+      keywords: "krzywa pierwiastka kwadratowego, kalkulator krzywej ocen, krzywa oceniania, dostosowanie ocen, ocena zakrzywiona"
+    },
+    br: {
+      title: "Calculadora de Curva de Raiz Quadrada",
+      description: "Converta notas usando o método de curva de classificação de raiz quadrada com cálculos passo a passo",
+      slug: "/br/matematica/calculadora-de-curva-de-raiz-quadrada",
+      keywords: "curva de raiz quadrada, calculadora de curva de notas, curva de classificação, ajuste de notas, nota curvada"
+    },
+    de: {
+      title: "Quadratwurzel-Kurven-Rechner",
+      description: "Noten mit der Quadratwurzel-Bewertungskurvenmethode mit schrittweisen Berechnungen umrechnen",
+      slug: "/de/mathe/quadratwurzel-kurven-rechner",
+      keywords: "quadratwurzel kurve, notenkurven rechner, bewertungskurve, notenanpassung, gekrümmte note"
+    },
+    es: {
+      title: "Calculadora de Curva de Raíz Cuadrada",
+      description: "Convierte calificaciones usando el método de curva de calificación de raíz cuadrada con cálculos paso a paso",
+      slug: "/es/matematicas/calculadora-de-curva-de-raiz-cuadrada",
+      keywords: "curva de raíz cuadrada, calculadora de curva de calificaciones, curva de calificación, ajuste de calificaciones"
+    }
+  },
 };

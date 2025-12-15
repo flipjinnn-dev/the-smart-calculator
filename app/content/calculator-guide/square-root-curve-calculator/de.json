@@ -1,0 +1,44 @@
+{
+  "color": "lila",
+  "heading": "Quadratwurzel-Kurven-Rechner – Werkzeug zur Notenanpassung",
+  "sections": [
+    {
+      "heading": "Was ist eine Quadratwurzel-Kurve?",
+      "content": "Die Quadratwurzel-Kurve ist eine Bewertungsmethode, die entwickelt wurde, um Schülerpunkte auf derselben Skala anzupassen. Sie wird häufig verwendet, wenn eine Prüfung oder Aufgabe schwieriger ausfällt als erwartet und hilft, die Noten der Schüler fair zu erhöhen.\n\nEin Quadratwurzel-Kurven-Rechner vereinfacht diesen Prozess, indem er rohe Prozentnoten sofort in angepasste Quadratwurzel-Kurvennoten umwandelt.\n\n![Quadratwurzel-Kurven-Formel](/images/calculators/square-root-curve-formula.png)"
+    },
+    {
+      "heading": "So verwenden Sie den Quadratwurzel-Kurven-Rechner",
+      "content": "1. **Schülerprozentsatz eingeben**: Geben Sie die Rohbewertung des Schülers in den Rechner ein.\n\n2. **\"Berechnen\" klicken**: Das Tool berechnet die Quadratwurzel der Note und multipliziert sie mit 10.\n\n3. **Ergebnis anzeigen**: Die angepasste Quadratwurzel-Kurvennote wird sofort angezeigt.\n\n4. **Optionaler Schritt**: Vergleichen Sie die Noten mehrerer Schüler, um Leistungsverbesserungen zu analysieren.\n\nDer Rechner bietet auch Schritt-für-Schritt-Berechnungen zur Klarheit.\n\n**Vom Rechner verwendete Formel:**\n\nSRG = √(G) × 10"
+    },
+    {
+      "heading": "Vorteile der Verwendung eines Notenkurven-Rechners",
+      "content": "- **Faire Bewertung**: Passen Sie Noten an, wenn Prüfungen unerwartet schwierig sind\n- **Begünstigt niedrigere Noten mehr**: Die Quadratwurzelmethode hilft kämpfenden Studenten mehr als Leistungsträgern\n- **Schnelle Berechnungen**: Sparen Sie Zeit mit sofortigen Notenumrechnungen\n- **Transparenter Prozess**: Studenten können ihre gekrümmten Noten überprüfen"
+    },
+    {
+      "heading": "Die Quadratwurzel-Kurvenmethode verstehen",
+      "content": "Die Quadratwurzel-Kurvenbewertungsmethode ist ein mathematischer Ansatz zur Notenanpassung, der:\n\n- **Alle Noten erhöht**: Jede Note verbessert sich, aber niedrigere Noten profitieren mehr\n- **Relative Leistung beibehält**: Studentenrankings bleiben ähnlich\n- **Einfache Formel**: Leicht zu verstehen und anzuwenden\n- **Weithin akzeptiert**: Wird in Universitäten und Hochschulen weltweit verwendet"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie funktioniert der Quadratwurzel-Kurven-Rechner?",
+      "a": "Der Rechner verwendet die Formel SRG = √(G) × 10, wobei G Ihr ursprünglicher Notenprozentsatz ist."
+    },
+    {
+      "q": "Warum verwenden Professoren die Quadratwurzel-Bewertungskurve?",
+      "a": "Professoren verwenden diese Methode, wenn Prüfungen unerwartet schwierig sind, um eine faire Bewertung zu gewährleisten."
+    },
+    {
+      "q": "Profitieren alle Studenten gleichermaßen vom Notenkurven-Rechner?",
+      "a": "Nein, die Quadratwurzel-Kurve begünstigt niedrigere Noten mehr als höhere Noten."
+    },
+    {
+      "q": "Kann ich diesen Rechner für jede Note verwenden?",
+      "a": "Ja, der Rechner funktioniert für jede Note zwischen 0 und 100."
+    },
+    {
+      "q": "Ist die Quadratwurzel-Kurve dasselbe wie die Kurve auf einer Glockenkurve?",
+      "a": "Nein, die Quadratwurzel-Kurve ist anders. Eine Glockenkurve passt Noten basierend auf der Klassenverteilung an."
+    }
+  ]
+}

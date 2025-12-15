@@ -1,0 +1,44 @@
+{
+  "color": "púrpura",
+  "heading": "Calculadora de Curva de Raíz Cuadrada – Herramienta de Ajuste de Calificaciones",
+  "sections": [
+    {
+      "heading": "¿Qué es una Curva de Raíz Cuadrada?",
+      "content": "La curva de raíz cuadrada es un método de calificación diseñado para ajustar las puntuaciones de los estudiantes en la misma escala. Se utiliza a menudo cuando un examen o tarea resulta ser más desafiante de lo esperado, ayudando a aumentar las calificaciones de los estudiantes de manera justa.\n\nUna calculadora de curva de raíz cuadrada simplifica este proceso al convertir instantáneamente las calificaciones porcentuales brutas en calificaciones de curva de raíz cuadrada ajustadas.\n\n![Fórmula de Curva de Raíz Cuadrada](/images/calculators/square-root-curve-formula.png)"
+    },
+    {
+      "heading": "Cómo Usar la Calculadora de Curva de Raíz Cuadrada",
+      "content": "1. **Ingresar el Porcentaje del Estudiante**: Ingrese la calificación bruta del estudiante en la calculadora.\n\n2. **Hacer clic en \\\"Calcular\\\"**: La herramienta calcula la raíz cuadrada de la calificación y la multiplica por 10.\n\n3. **Ver el Resultado**: La calificación de curva de raíz cuadrada ajustada se muestra instantáneamente.\n\n4. **Paso Opcional**: Compare las calificaciones de varios estudiantes para analizar mejoras de rendimiento.\n\nLa calculadora también proporciona cálculos paso a paso para mayor claridad."
+    },
+    {
+      "heading": "Beneficios de la Curva de Raíz Cuadrada",
+      "content": "- **Calificación Justa**: Ajuste calificaciones cuando los exámenes son inesperadamente difíciles\n- **Beneficia Más a Calificaciones Más Bajas**: El método de raíz cuadrada ayuda más a estudiantes con dificultades que a estudiantes de alto rendimiento\n- **Cálculos Rápidos**: Ahorre tiempo con conversiones instantáneas de calificaciones\n- **Proceso Transparente**: Los estudiantes pueden verificar sus calificaciones curvadas"
+    },
+    {
+      "heading": "Comprendiendo el Método de Curva de Raíz Cuadrada",
+      "content": "El método de curva de calificación de raíz cuadrada es un enfoque matemático para el ajuste de calificaciones que:\n\n- **Aumenta todas las calificaciones**: Cada calificación mejora, pero las calificaciones más bajas se benefician más\n- **Mantiene el rendimiento relativo**: Las clasificaciones de los estudiantes permanecen similares\n- **Fórmula simple**: Fácil de entender y aplicar\n- **Ampliamente aceptado**: Utilizado en universidades y colegios en todo el mundo"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo funciona la calculadora de curva de raíz cuadrada?",
+      "a": "La calculadora usa la fórmula SRG = √(G) × 10, donde G es su porcentaje de calificación original."
+    },
+    {
+      "q": "¿Por qué los profesores usan la curva de calificación de raíz cuadrada?",
+      "a": "Los profesores usan este método cuando los exámenes son inesperadamente difíciles para garantizar una calificación justa."
+    },
+    {
+      "q": "¿La calculadora de curva de calificaciones beneficia a todos los estudiantes por igual?",
+      "a": "No, la curva de raíz cuadrada beneficia más a las calificaciones más bajas que a las más altas."
+    },
+    {
+      "q": "¿Puedo usar esta calculadora para cualquier calificación?",
+      "a": "Sí, la calculadora funciona para cualquier calificación entre 0 y 100."
+    },
+    {
+      "q": "¿La curva de raíz cuadrada es lo mismo que curvar en una curva de campana?",
+      "a": "No, la curva de raíz cuadrada es diferente. Una curva de campana ajusta calificaciones basándose en la distribución de la clase."
+    }
+  ]
+}

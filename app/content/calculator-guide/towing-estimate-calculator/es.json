@@ -1,0 +1,55 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "title": "Comprendiendo los Costos de Remolque",
+      "content": "Los costos de remolque varían significativamente según múltiples factores, incluido el tipo de vehículo, distancia, ubicación, hora del día y el tipo de servicio de remolque requerido. Nuestra calculadora le ayuda a estimar estos costos considerando todas las variables relevantes para proporcionar un rango de precio preciso.\n\nEl costo base generalmente varía de $45 a $200 dependiendo de su vehículo y método de remolque, con cargos adicionales por milla que van de $2 a $5 por milla. Los factores de ubicación y tiempo pueden aumentar los costos en un 10% a 50%."
+    },
+    {
+      "title": "Impacto del Tipo de Vehículo en el Costo",
+      "content": "Diferentes vehículos requieren diferentes equipos de remolque:\n\n**Sedán/Auto Compacto**: Más ligero y fácil de remolcar, generalmente requiere equipo estándar con costos base alrededor de $50-75.\n\n**SUV/Crossover**: Vehículos de peso medio que pueden necesitar servicio de plataforma, con costos base de $65-95.\n\n**Camioneta**: Vehículos más pesados que requieren capacidad mejorada, costos base $70-100.\n\n**Auto de Lujo/Deportivo**: Vehículos de alto valor que requieren remolque especializado o cerrado, costos base $125+.\n\n**Motocicleta**: Ligera pero requiere equipo especializado, costos base $45-60.\n\n**Van/Minivan**: Vehículos familiares con necesidades moderadas, costos base $65-90.\n\n**Casa Rodante/Autobús/Camión Pesado**: Vehículos grandes que requieren remolque comercial pesado, costos base $150-200+."
+    },
+    {
+      "title": "Métodos de Remolque Explicados",
+      "content": "**Remolque de Plataforma**: El método más seguro donde su vehículo se carga en una plataforma plana. Ideal para todos los tipos de vehículos, especialmente autos de lujo, vehículos 4x4 y largas distancias. Tarifa por milla: $3.50.\n\n**Remolque con Elevación de Rueda**: Una opción económica donde las ruedas delanteras o traseras se levantan del suelo. Adecuado para distancias cortas y vehículos más ligeros. Tarifa por milla: $2.50.\n\n**Gancho y Cadena**: Método tradicional para vehículos no conducibles o accidentados. No recomendado para autos modernos debido a posibles daños. Tarifa por milla: $2.00.\n\n**Remolque Pesado**: Servicio especializado para autobuses, casas rodantes y vehículos comerciales usando equipo potente. Tarifa por milla: $5.00.\n\n**Remolque de Motocicleta**: Equipo especializado diseñado para transportar motocicletas de forma segura. Tarifa por milla: $2.00."
+    },
+    {
+      "title": "Factores de Ubicación y Tiempo",
+      "content": "**Multiplicadores de Ubicación**:\n- Áreas urbanas (1.2x): Costos más altos debido al tráfico, permisos y demanda\n- Áreas suburbanas (1.0x): Precios estándar con buena accesibilidad\n- Áreas rurales (1.1x): Ligeramente más alto debido a tiempos de respuesta más largos\n- Interestatal (1.15x): Precios de larga distancia con consideraciones logísticas\n- Montañoso/Remoto (1.4x): Costos más altos debido a terreno difícil\n\n**Multiplicadores de Tiempo**:\n- Día (1.0x): Precios de horario comercial estándar\n- Noche (1.3x): Prima de horario fuera de servicio\n- Fin de semana (1.25x): Recargo de fin de semana\n- Día festivo (1.5x): Tarifas más altas durante días festivos"
+    },
+    {
+      "title": "Servicios Adicionales",
+      "content": "**Cabrestante/Recuperación ($75)**: Sistema de cable motorizado para sacar vehículos de zanjas, barro, nieve o situaciones fuera de carretera.\n\n**Asistencia en Carretera ($50)**: Incluye arranques auxiliares, cambio de neumáticos pinchados, servicios de desbloqueo y entrega de combustible de emergencia.\n\n**Almacenamiento en Depósito ($35/día)**: Tarifa diaria por mantener su vehículo en las instalaciones de la empresa de remolque.\n\n**Peajes ($25)**: Cubre tarifas de peaje pagadas por la empresa de remolque al transportar su vehículo.\n\n**Recargo Ambiental (7%)**: Tarifa que cubre la eliminación de materiales peligrosos, fluidos y prácticas de cumplimiento de seguridad ambiental."
+    },
+    {
+      "title": "Cómo Usar Esta Calculadora",
+      "content": "1. **Seleccione el Tipo de Vehículo**: Elija la categoría que mejor coincida con su vehículo\n2. **Elija el Método de Remolque**: Seleccione según el tipo de vehículo y situación\n3. **Ingrese la Distancia**: Introduzca la distancia de remolque en millas o kilómetros\n4. **Seleccione la Ubicación**: Elija dónde está ubicado actualmente su vehículo\n5. **Especifique el Tiempo**: Indique cuándo necesita el servicio de remolque\n6. **Agregue Servicios**: Marque cualquier servicio adicional que necesite\n7. **Calcule**: Haga clic en el botón calcular para ver su costo estimado\n\nLa calculadora proporcionará un desglose detallado mostrando costo base, cargos de distancia, ajustes de ubicación, primas de tiempo y tarifas de servicios adicionales."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué tan precisa es esta estimación de costo de remolque?",
+      "a": "Nuestras estimaciones se basan en tarifas promedio de la industria y proporcionan un rango de costo confiable. Sin embargo, los precios reales pueden variar en un 10-20% dependiendo de la empresa de remolque específica, condiciones del mercado local y cualquier circunstancia única de su situación."
+    },
+    {
+      "q": "¿El seguro cubre los costos de remolque?",
+      "a": "Muchas pólizas de seguro de auto incluyen asistencia en carretera o cobertura de remolque, generalmente cubriendo $50-100 por remolque. Verifique los detalles de su póliza o contacte a su proveedor de seguro."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre remolque de plataforma y elevación de rueda?",
+      "a": "El remolque de plataforma carga todo su vehículo en una plataforma plana, proporcionando máxima seguridad. El remolque con elevación de rueda levanta las ruedas delanteras o traseras del suelo. La plataforma es más segura pero más cara, mientras que la elevación de rueda es económica para distancias cortas."
+    },
+    {
+      "q": "¿Por qué los costos de remolque varían según la ubicación?",
+      "a": "Las áreas urbanas tienen costos más altos debido a la congestión del tráfico, restricciones de estacionamiento y gastos operativos más altos. Las áreas rurales y remotas cobran más debido a tiempos de respuesta más largos y disponibilidad limitada de servicio."
+    },
+    {
+      "q": "¿Hay tarifas ocultas no mostradas en esta estimación?",
+      "a": "Esta calculadora incluye los principales componentes de costo. Sin embargo, algunas empresas pueden cobrar tarifas adicionales por: despacho fuera de horario, tarifas administrativas, recargos de combustible o equipo especial."
+    },
+    {
+      "q": "¿Cómo puedo reducir mis costos de remolque?",
+      "a": "Para minimizar costos: (1) Verifique si su seguro cubre remolque, (2) Elija el método de remolque más apropiado, (3) Evite horarios pico si es posible, (4) Compare cotizaciones de varios proveedores, (5) Considere si la asistencia en carretera puede resolver el problema sin remolque."
+    }
+  ]
+}

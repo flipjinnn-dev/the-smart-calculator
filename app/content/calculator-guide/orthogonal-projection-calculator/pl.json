@@ -1,0 +1,51 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "title": "Czym jest Rzut Ortogonalny?",
+      "content": "Rzut ortogonalny to fundamentalne pojęcie w algebrze liniowej, które rzutuje jeden wektor na drugi. Rzut wektora **a** na wektor **b** tworzy nowy wektor, który leży wzdłuż **b** i reprezentuje składową **a** w kierunku **b**. Jest to szczególnie przydatne w fizyce, grafice komputerowej i analizie danych."
+    },
+    {
+      "title": "Formuła Rzutu",
+      "content": "Rzut ortogonalny wektora **a** na wektor **b** jest obliczany za pomocą wzoru:\n\n**proj_b(a) = ((a·b) / (b·b)) × b**\n\nGdzie:\n- **a·b** to iloczyn skalarny wektorów a i b\n- **b·b** to iloczyn skalarny b ze sobą (wielkość do kwadratu)\n- Wynik to wektor równoległy do **b**"
+    },
+    {
+      "title": "Jak Korzystać z Tego Kalkulatora",
+      "content": "1. **Wybierz Wymiar**: Wybierz między wektorami 2D lub 3D\n2. **Wprowadź Wektor a**: Wprowadź składowe x, y (i z dla 3D) pierwszego wektora\n3. **Wprowadź Wektor b**: Wprowadź składowe x, y (i z dla 3D) drugiego wektora\n4. **Oblicz**: Kliknij przycisk, aby zobaczyć wektor rzutu i szczegółowe kroki\n\nKalkulator pokaże wektor rzutu, jego wielkość i szczegółowy opis obliczeń krok po kroku."
+    },
+    {
+      "title": "Zrozumienie Wyników",
+      "content": "Kalkulator dostarcza:\n- **Wektor Rzutu**: Wynikowy wektor reprezentujący rzut a na b\n- **Wielkość**: Długość wektora rzutu\n- **Iloczyn Skalarny**: Iloczyn skalarny a·b użyty w obliczeniach\n- **Współczynnik Skalowania**: Stosunek (a·b)/(b·b) określający, ile z b tworzy rzut\n- **Rozwiązanie Krok po Kroku**: Szczegółowy opis pokazujący każdy krok obliczeń"
+    },
+    {
+      "title": "Zastosowania",
+      "content": "Rzut ortogonalny ma wiele praktycznych zastosowań:\n- **Fizyka**: Obliczanie składowych siły w różnych kierunkach\n- **Grafika Komputerowa**: Renderowanie obiektów 3D na ekranach 2D\n- **Uczenie Maszynowe**: Analiza Głównych Składowych (PCA) i redukcja wymiarowości\n- **Inżynieria**: Analiza sił strukturalnych i składowych naprężeń\n- **Przetwarzanie Sygnałów**: Rozkład sygnałów na składowe ortogonalne"
+    },
+    {
+      "title": "Przykładowe Obliczenie",
+      "content": "Rzutujmy wektor **a = (3, 4)** na wektor **b = (1, 1)**:\n\n1. Oblicz a·b = 3×1 + 4×1 = 7\n2. Oblicz b·b = 1×1 + 1×1 = 2\n3. Współczynnik skalowania = 7/2 = 3,5\n4. Rzut = 3,5 × (1, 1) = (3,5, 3,5)\n\nWektor rzutu to (3,5, 3,5) o wielkości ≈ 4,95"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co się dzieje, jeśli wektor b jest wektorem zerowym?",
+      "a": "Rzut jest nieokreślony, gdy wektor b jest wektorem zerowym, ponieważ nie możemy dzielić przez zero (b·b = 0). Kalkulator wyświetli komunikat o błędzie w tym przypadku."
+    },
+    {
+      "q": "Czy mogę rzutować wektor 2D na wektor 3D?",
+      "a": "Nie, oba wektory muszą mieć ten sam wymiar. Musisz dodać składową z do wektora 2D (czyniąc go 3D) lub usunąć składową z z wektora 3D (czyniąc go 2D)."
+    },
+    {
+      "q": "Jaka jest różnica między rzutem 2D a 3D?",
+      "a": "Formuła jest taka sama dla rzutów 2D i 3D. Jedyna różnica polega na tym, że wektory 3D mają dodatkową składową z, która jest uwzględniana w obliczeniach iloczynu skalarnego."
+    },
+    {
+      "q": "Dlaczego nazywa się to rzutem 'ortogonalnym'?",
+      "a": "Nazywa się to ortogonalnym, ponieważ różnica między oryginalnym wektorem a a jego rzutem (nazywana wektorem odrzucenia) jest prostopadła (ortogonalna) do wektora b."
+    },
+    {
+      "q": "Co to jest współczynnik skalowania?",
+      "a": "Współczynnik skalowania to stosunek (a·b)/(b·b), który wskazuje, ile razy wektor b musi być przeskalowany, aby uzyskać rzut. Jeśli jest dodatni, rzut wskazuje w tym samym kierunku co b; jeśli ujemny, wskazuje w przeciwnym kierunku."
+    }
+  ]
+}

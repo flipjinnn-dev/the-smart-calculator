@@ -1,0 +1,55 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "title": "Abschleppkosten verstehen",
+      "content": "Die Abschleppkosten variieren erheblich je nach Fahrzeugtyp, Entfernung, Standort, Tageszeit und der erforderlichen Art des Abschleppdienstes. Unser Rechner hilft Ihnen, diese Kosten zu schätzen, indem alle relevanten Variablen berücksichtigt werden, um eine genaue Preisspanne zu liefern.\n\nDie Grundkosten liegen typischerweise zwischen 45€ und 200€, abhängig von Ihrem Fahrzeug und der Abschleppmethode, mit zusätzlichen Kosten pro Kilometer von 1,50€ bis 3,50€. Standort- und Zeitfaktoren können die Kosten um 10% bis 50% erhöhen."
+    },
+    {
+      "title": "Einfluss des Fahrzeugtyps auf die Kosten",
+      "content": "Verschiedene Fahrzeuge erfordern unterschiedliche Abschleppausrüstung:\n\n**Limousine/Kompaktwagen**: Am leichtesten zu schleppen, typischerweise mit Standardausrüstung, Grundkosten ca. 50-75€.\n\n**SUV/Crossover**: Mittelgewichtsfahrzeuge, die möglicherweise einen Plateau-Abschleppwagen benötigen, Grundkosten 65-95€.\n\n**Pickup-Truck**: Schwerere Fahrzeuge, die erhöhte Kapazität erfordern, Grundkosten 70-100€.\n\n**Luxus-/Sportwagen**: Hochwertige Fahrzeuge, die spezialisiertes Abschleppen erfordern, Grundkosten 125€+.\n\n**Motorrad**: Leicht, aber spezialisierte Ausrüstung erforderlich, Grundkosten 45-60€.\n\n**Van/Minivan**: Familienfahrzeuge mit moderaten Anforderungen, Grundkosten 65-90€.\n\n**Wohnmobil/Bus/Schwerer LKW**: Übergroße Fahrzeuge, die schweres kommerzielles Abschleppen erfordern, Grundkosten 150-200€+."
+    },
+    {
+      "title": "Abschleppmethoden erklärt",
+      "content": "**Plateau-Abschleppwagen**: Die sicherste Methode, bei der Ihr Fahrzeug auf eine flache Plattform geladen wird. Ideal für alle Fahrzeugtypen, besonders Luxusautos, Allradfahrzeuge und lange Strecken. Kosten pro km: 3,50€.\n\n**Radlift-Abschleppen**: Eine kostengünstige Option, bei der die Vorder- oder Hinterräder vom Boden abgehoben werden. Geeignet für kurze Strecken und leichtere Fahrzeuge. Kosten pro km: 2,50€.\n\n**Haken & Kette**: Traditionelle Methode für nicht fahrbare oder beschädigte Fahrzeuge. Nicht empfohlen für moderne Autos aufgrund möglicher Schäden. Kosten pro km: 2,00€.\n\n**Schwerlast-Abschleppen**: Spezialisierter Service für Busse, Wohnmobile und Nutzfahrzeuge mit leistungsstarker Ausrüstung. Kosten pro km: 5,00€.\n\n**Motorrad-Abschleppen**: Spezialisierte Ausrüstung zum sicheren Transport von Motorrädern. Kosten pro km: 2,00€."
+    },
+    {
+      "title": "Standort- und Zeitfaktoren",
+      "content": "**Standort-Multiplikatoren**:\n- Städtische Gebiete (1,2x): Höhere Kosten durch Verkehr, Genehmigungen und Nachfrage\n- Vorstädtische Gebiete (1,0x): Standardpreise mit guter Erreichbarkeit\n- Ländliche Gebiete (1,1x): Etwas höher aufgrund längerer Reaktionszeiten\n- Autobahn (1,15x): Langstreckenpreise mit Logistikerwägungen\n- Bergig/Abgelegen (1,4x): Höchste Kosten aufgrund schwierigen Geländes\n\n**Tageszeit-Multiplikatoren**:\n- Tagsüber (1,0x): Standard-Geschäftszeiten\n- Nacht (1,3x): Aufpreis für 24/7-Verfügbarkeit\n- Wochenende (1,25x): Wochenend-Zuschlag\n- Feiertag (1,5x): Höchste Tarife an Feiertagen"
+    },
+    {
+      "title": "Zusätzliche Dienstleistungen",
+      "content": "**Winden/Bergung (75€)**: Motorisiertes Kabelsystem zum Ziehen von Fahrzeugen aus Gräben, Schlamm, Schnee oder Offroad-Situationen.\n\n**Pannenhilfe (50€)**: Umfasst Starthilfe, Reifenwechsel, Aussperrungsdienste und Notfall-Kraftstofflieferung.\n\n**Lagerung im Abschlepphof (35€/Tag)**: Tägliche Gebühr für die Aufbewahrung Ihres Fahrzeugs in der Einrichtung des Abschleppunternehmens.\n\n**Mautgebühren (25€)**: Deckt Mautgebühren ab, die das Abschleppunternehmen beim Transport Ihres Fahrzeugs zahlt.\n\n**Umweltzuschlag (7%)**: Gebühr für die Entsorgung gefährlicher Materialien und Einhaltung von Umweltschutzpraktiken."
+    },
+    {
+      "title": "So verwenden Sie diesen Rechner",
+      "content": "1. **Fahrzeugtyp auswählen**: Wählen Sie die Kategorie, die am besten zu Ihrem Fahrzeug passt\n2. **Abschleppmethode wählen**: Wählen Sie basierend auf Ihrem Fahrzeugtyp und Ihrer Situation\n3. **Entfernung eingeben**: Geben Sie die Abschleppentfernung in Kilometern ein\n4. **Standort auswählen**: Wählen Sie, wo sich Ihr Fahrzeug derzeit befindet\n5. **Zeit angeben**: Geben Sie an, wann Sie den Abschleppdienst benötigen\n6. **Dienste hinzufügen**: Markieren Sie alle zusätzlichen Dienste, die Sie benötigen\n7. **Berechnen**: Klicken Sie auf die Schaltfläche Berechnen, um Ihre geschätzten Kosten zu sehen\n\nDer Rechner liefert eine detaillierte Aufschlüsselung mit Grundkosten, Entfernungsgebühren, Standortanpassungen, Zeitprämien und zusätzlichen Servicegebühren."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie genau ist diese Abschleppkostenschätzung?",
+      "a": "Unsere Schätzungen basieren auf branchendurchschnittlichen Tarifen und bieten eine zuverlässige Kostenspanne. Die tatsächlichen Preise können jedoch je nach spezifischem Abschleppunternehmen, lokalen Marktbedingungen und besonderen Umständen um 10-20% variieren."
+    },
+    {
+      "q": "Deckt die Versicherung Abschleppkosten ab?",
+      "a": "Viele Autoversicherungen beinhalten Pannenhilfe oder Abschleppschutz, der typischerweise 50-100€ pro Abschleppvorgang abdeckt. Überprüfen Sie Ihre Versicherungsdetails oder kontaktieren Sie Ihren Versicherungsanbieter."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Plateau- und Radlift-Abschleppen?",
+      "a": "Beim Plateau-Abschleppen wird Ihr gesamtes Fahrzeug auf eine flache Plattform geladen, was maximale Sicherheit bietet. Beim Radlift-Abschleppen werden entweder die Vorder- oder Hinterräder vom Boden abgehoben. Plateau ist sicherer, aber teurer, während Radlift für kurze Strecken kostengünstig ist."
+    },
+    {
+      "q": "Warum variieren die Abschleppkosten je nach Standort?",
+      "a": "Städtische Gebiete haben höhere Kosten aufgrund von Verkehrsstaus, Parkbeschränkungen und höheren Betriebskosten. Ländliche und abgelegene Gebiete verlangen mehr aufgrund längerer Reaktionszeiten und begrenzter Serviceverfügbarkeit."
+    },
+    {
+      "q": "Gibt es versteckte Gebühren, die in dieser Schätzung nicht angezeigt werden?",
+      "a": "Dieser Rechner enthält die Hauptkostenkomponenten. Einige Unternehmen können jedoch zusätzliche Gebühren erheben für: Einsatz außerhalb der Geschäftszeiten, Verwaltungsgebühren, Kraftstoffzuschläge oder Spezialausrüstung."
+    },
+    {
+      "q": "Wie kann ich meine Abschleppkosten reduzieren?",
+      "a": "Um Kosten zu minimieren: (1) Prüfen Sie, ob Ihre Versicherung Abschleppen abdeckt, (2) Wählen Sie die am besten geeignete Abschleppmethode, (3) Vermeiden Sie Spitzenzeiten wenn möglich, (4) Vergleichen Sie Angebote mehrerer Anbieter, (5) Überlegen Sie, ob Pannenhilfe das Problem ohne Abschleppen lösen kann."
+    }
+  ]
+}

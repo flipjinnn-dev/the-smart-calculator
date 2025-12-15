@@ -1,0 +1,51 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "title": "Was ist orthogonale Projektion?",
+      "content": "Die orthogonale Projektion ist ein grundlegendes Konzept der linearen Algebra, bei dem ein Vektor auf einen anderen projiziert wird. Die Projektion von Vektor **a** auf Vektor **b** erzeugt einen neuen Vektor, der entlang **b** liegt und die Komponente von **a** in Richtung **b** darstellt. Dies ist besonders nützlich in der Physik, Computergrafik und Datenanalyse."
+    },
+    {
+      "title": "Die Projektionsformel",
+      "content": "Die orthogonale Projektion von Vektor **a** auf Vektor **b** wird mit der Formel berechnet:\n\n**proj_b(a) = ((a·b) / (b·b)) × b**\n\nWobei:\n- **a·b** das Skalarprodukt der Vektoren a und b ist\n- **b·b** das Skalarprodukt von b mit sich selbst ist (Betrag im Quadrat)\n- Das Ergebnis ist ein Vektor parallel zu **b**"
+    },
+    {
+      "title": "So verwenden Sie diesen Rechner",
+      "content": "1. **Dimension wählen**: Wählen Sie zwischen 2D- oder 3D-Vektoren\n2. **Vektor a eingeben**: Geben Sie die x-, y- (und z- für 3D) Komponenten des ersten Vektors ein\n3. **Vektor b eingeben**: Geben Sie die x-, y- (und z- für 3D) Komponenten des zweiten Vektors ein\n4. **Berechnen**: Klicken Sie auf die Schaltfläche, um den Projektionsvektor und detaillierte Schritte zu sehen\n\nDer Rechner zeigt Ihnen den Projektionsvektor, seinen Betrag und eine schrittweise Aufschlüsselung der Berechnung."
+    },
+    {
+      "title": "Verstehen der Ergebnisse",
+      "content": "Der Rechner liefert:\n- **Projektionsvektor**: Der resultierende Vektor, der die Projektion von a auf b darstellt\n- **Betrag**: Die Länge des Projektionsvektors\n- **Skalarprodukt**: Das Skalarprodukt a·b, das in der Berechnung verwendet wird\n- **Skalierungsfaktor**: Das Verhältnis (a·b)/(b·b), das bestimmt, wie viel von b die Projektion bildet\n- **Schritt-für-Schritt-Lösung**: Eine detaillierte Aufschlüsselung jedes Berechnungsschritts"
+    },
+    {
+      "title": "Anwendungen",
+      "content": "Orthogonale Projektion hat viele praktische Anwendungen:\n- **Physik**: Berechnung von Kraftkomponenten in verschiedenen Richtungen\n- **Computergrafik**: Darstellung von 3D-Objekten auf 2D-Bildschirmen\n- **Maschinelles Lernen**: Hauptkomponentenanalyse (PCA) und Dimensionsreduktion\n- **Ingenieurwesen**: Analyse von Strukturkräften und Spannungskomponenten\n- **Signalverarbeitung**: Zerlegung von Signalen in orthogonale Komponenten"
+    },
+    {
+      "title": "Beispielberechnung",
+      "content": "Projizieren wir Vektor **a = (3, 4)** auf Vektor **b = (1, 1)**:\n\n1. Berechne a·b = 3×1 + 4×1 = 7\n2. Berechne b·b = 1×1 + 1×1 = 2\n3. Skalierungsfaktor = 7/2 = 3,5\n4. Projektion = 3,5 × (1, 1) = (3,5, 3,5)\n\nDer Projektionsvektor ist (3,5, 3,5) mit Betrag ≈ 4,95"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was passiert, wenn Vektor b ein Nullvektor ist?",
+      "a": "Die Projektion ist undefiniert, wenn Vektor b ein Nullvektor ist, da wir nicht durch Null teilen können (b·b = 0). Der Rechner zeigt in diesem Fall eine Fehlermeldung an."
+    },
+    {
+      "q": "Kann ich einen 2D-Vektor auf einen 3D-Vektor projizieren?",
+      "a": "Nein, beide Vektoren müssen die gleiche Dimension haben. Sie müssen entweder eine z-Komponente zum 2D-Vektor hinzufügen (um ihn 3D zu machen) oder die z-Komponente vom 3D-Vektor entfernen (um ihn 2D zu machen)."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen 2D- und 3D-Projektion?",
+      "a": "Die Formel ist für 2D- und 3D-Projektionen gleich. Der einzige Unterschied besteht darin, dass 3D-Vektoren eine zusätzliche z-Komponente haben, die in die Skalarproduktberechnungen einbezogen wird."
+    },
+    {
+      "q": "Warum heißt es 'orthogonale' Projektion?",
+      "a": "Es wird orthogonal genannt, weil die Differenz zwischen dem ursprünglichen Vektor a und seiner Projektion (genannt Rejektionsvektor) senkrecht (orthogonal) zu Vektor b ist."
+    },
+    {
+      "q": "Was ist der Skalierungsfaktor?",
+      "a": "Der Skalierungsfaktor ist das Verhältnis (a·b)/(b·b), das angibt, wie oft Vektor b skaliert werden muss, um die Projektion zu erhalten. Wenn er positiv ist, zeigt die Projektion in die gleiche Richtung wie b; wenn er negativ ist, zeigt sie in die entgegengesetzte Richtung."
+    }
+  ]
+}

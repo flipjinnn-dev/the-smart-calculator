@@ -1,0 +1,55 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "title": "Zrozumienie Kosztów Holowania",
+      "content": "Koszty holowania znacznie się różnią w zależności od wielu czynników, w tym typu pojazdu, odległości, lokalizacji, pory dnia i rodzaju wymaganej usługi holowania. Nasz kalkulator pomaga oszacować te koszty, uwzględniając wszystkie istotne zmienne, aby zapewnić dokładny zakres cenowy.\n\nKoszt podstawowy zazwyczaj waha się od 45 do 200 zł w zależności od pojazdu i metody holowania, z dodatkowymi opłatami za kilometr od 2 do 5 zł za km. Czynniki lokalizacji i czasu mogą zwiększyć koszty o 10% do 50%."
+    },
+    {
+      "title": "Wpływ Typu Pojazdu na Koszt",
+      "content": "Różne pojazdy wymagają różnego sprzętu holowniczego:\n\n**Sedan/Samochód Kompaktowy**: Najlżejszy i najłatwiejszy do holowania, zazwyczaj wymaga standardowego sprzętu z kosztami podstawowymi około 50-75 zł.\n\n**SUV/Crossover**: Pojazdy średniej wagi, które mogą wymagać usługi platformy, z kosztami podstawowymi 65-95 zł.\n\n**Pickup**: Cięższe pojazdy wymagające zwiększonej pojemności, koszty podstawowe 70-100 zł.\n\n**Samochód Luksusowy/Sportowy**: Pojazdy o wysokiej wartości wymagające specjalistycznego holowania, koszty podstawowe 125 zł+.\n\n**Motocykl**: Lekki, ale wymagający specjalistycznego sprzętu, koszty podstawowe 45-60 zł.\n\n**Van/Minivan**: Pojazdy rodzinne o umiarkowanych potrzebach, koszty podstawowe 65-90 zł.\n\n**Kamper/Autobus/Ciężarówka**: Pojazdy ponadgabarytowe wymagające ciężkiego holowania komercyjnego, koszty podstawowe 150-200 zł+."
+    },
+    {
+      "title": "Metody Holowania Wyjaśnione",
+      "content": "**Holowanie Platformowe**: Najbezpieczniejsza metoda, w której pojazd jest ładowany na płaską platformę. Idealne dla wszystkich typów pojazdów, zwłaszcza samochodów luksusowych, pojazdów 4x4 i długich dystansów. Stawka za km: 3,50 zł.\n\n**Holowanie z Podnośnikiem Kołowym**: Ekonomiczna opcja, w której przednie lub tylne koła są podniesione z ziemi. Odpowiednie na krótkie dystanse i lżejsze pojazdy. Stawka za km: 2,50 zł.\n\n**Hak i Łańcuch**: Tradycyjna metoda dla pojazdów niezdatnych do jazdy lub uszkodzonych. Niezalecana dla nowoczesnych samochodów ze względu na możliwe uszkodzenia. Stawka za km: 2,00 zł.\n\n**Holowanie Ciężkie**: Specjalistyczna usługa dla autobusów, kamperów i pojazdów komercyjnych przy użyciu potężnego sprzętu. Stawka za km: 5,00 zł.\n\n**Holowanie Motocykla**: Specjalistyczny sprzęt zaprojektowany do bezpiecznego transportu motocykli. Stawka za km: 2,00 zł."
+    },
+    {
+      "title": "Czynniki Lokalizacji i Czasu",
+      "content": "**Mnożniki Lokalizacji**:\n- Obszary miejskie (1,2x): Wyższe koszty ze względu na ruch, zezwolenia i popyt\n- Obszary podmiejskie (1,0x): Standardowe ceny z dobrą dostępnością\n- Obszary wiejskie (1,1x): Nieco wyższe ze względu na dłuższe czasy reakcji\n- Międzystanowy (1,15x): Ceny długodystansowe z uwzględnieniem logistyki\n- Górski/Odległy (1,4x): Najwyższe koszty ze względu na trudny teren\n\n**Mnożniki Czasu**:\n- Dzień (1,0x): Standardowe ceny w godzinach pracy\n- Noc (1,3x): Premia za dostępność 24/7\n- Weekend (1,25x): Dopłata weekendowa\n- Święto (1,5x): Najwyższe stawki podczas świąt"
+    },
+    {
+      "title": "Dodatkowe Usługi",
+      "content": "**Wyciągarka/Odzyskiwanie (300 zł)**: Zmotoryzowany system linowy do wyciągania pojazdów z rowów, błota, śniegu lub sytuacji terenowych.\n\n**Pomoc Drogowa (200 zł)**: Obejmuje rozruch, wymianę opon, usługi odblokowania i dostawę paliwa awaryjnego.\n\n**Przechowywanie na Parkingu (140 zł/dzień)**: Dzienna opłata za przechowywanie pojazdu w obiekcie firmy holowniczej.\n\n**Opłaty Drogowe (100 zł)**: Pokrywa opłaty drogowe płacone przez firmę holowniczą podczas transportu pojazdu.\n\n**Opłata Środowiskowa (7%)**: Opłata pokrywająca utylizację materiałów niebezpiecznych, płynów i praktyk zgodności z bezpieczeństwem środowiskowym."
+    },
+    {
+      "title": "Jak Używać Tego Kalkulatora",
+      "content": "1. **Wybierz Typ Pojazdu**: Wybierz kategorię, która najlepiej odpowiada Twojemu pojazdowi\n2. **Wybierz Metodę Holowania**: Wybierz na podstawie typu pojazdu i sytuacji\n3. **Wprowadź Odległość**: Wprowadź odległość holowania w kilometrach\n4. **Wybierz Lokalizację**: Wybierz, gdzie obecnie znajduje się Twój pojazd\n5. **Określ Czas**: Wskaż, kiedy potrzebujesz usługi holowania\n6. **Dodaj Usługi**: Zaznacz wszelkie dodatkowe usługi, których potrzebujesz\n7. **Oblicz**: Kliknij przycisk oblicz, aby zobaczyć szacowany koszt\n\nKalkulator dostarczy szczegółowy podział pokazujący koszt podstawowy, opłaty za odległość, korekty lokalizacji, premie czasowe i opłaty za dodatkowe usługi."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak dokładne jest to oszacowanie kosztu holowania?",
+      "a": "Nasze oszacowania opierają się na średnich stawkach branżowych i zapewniają wiarygodny zakres kosztów. Jednak rzeczywiste ceny mogą się różnić o 10-20% w zależności od konkretnej firmy holowniczej, lokalnych warunków rynkowych i wszelkich unikalnych okoliczności Twojej sytuacji."
+    },
+    {
+      "q": "Czy ubezpieczenie pokrywa koszty holowania?",
+      "a": "Wiele polis ubezpieczenia samochodowego obejmuje pomoc drogową lub pokrycie holowania, zazwyczaj pokrywając 50-100 zł za holowanie. Sprawdź szczegóły swojej polisy lub skontaktuj się z dostawcą ubezpieczenia."
+    },
+    {
+      "q": "Jaka jest różnica między holowaniem platformowym a podnośnikiem kołowym?",
+      "a": "Holowanie platformowe ładuje cały pojazd na płaską platformę, zapewniając maksymalne bezpieczeństwo. Holowanie z podnośnikiem kołowym podnosi przednie lub tylne koła z ziemi. Platforma jest bezpieczniejsza, ale droższa, podczas gdy podnośnik kołowy jest ekonomiczny na krótkie dystanse."
+    },
+    {
+      "q": "Dlaczego koszty holowania różnią się w zależności od lokalizacji?",
+      "a": "Obszary miejskie mają wyższe koszty ze względu na korki, ograniczenia parkingowe i wyższe koszty operacyjne. Obszary wiejskie i odległe pobierają więcej ze względu na dłuższe czasy reakcji i ograniczoną dostępność usług."
+    },
+    {
+      "q": "Czy są ukryte opłaty niepokazane w tym oszacowaniu?",
+      "a": "Ten kalkulator zawiera główne składniki kosztów. Jednak niektóre firmy mogą pobierać dodatkowe opłaty za: wysyłkę po godzinach, opłaty administracyjne, dopłaty paliwowe lub specjalny sprzęt."
+    },
+    {
+      "q": "Jak mogę zmniejszyć koszty holowania?",
+      "a": "Aby zminimalizować koszty: (1) Sprawdź, czy Twoje ubezpieczenie pokrywa holowanie, (2) Wybierz najbardziej odpowiednią metodę holowania, (3) Unikaj godzin szczytu, jeśli to możliwe, (4) Porównaj oferty od wielu dostawców, (5) Rozważ, czy pomoc drogowa może rozwiązać problem bez holowania."
+    }
+  ]
+}

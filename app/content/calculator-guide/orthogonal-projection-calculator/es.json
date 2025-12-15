@@ -1,0 +1,51 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "title": "¿Qué es la Proyección Ortogonal?",
+      "content": "La proyección ortogonal es un concepto fundamental en álgebra lineal que proyecta un vector sobre otro. La proyección del vector **a** sobre el vector **b** crea un nuevo vector que se encuentra a lo largo de **b** y representa el componente de **a** en la dirección de **b**. Esto es particularmente útil en física, gráficos por computadora y análisis de datos."
+    },
+    {
+      "title": "La Fórmula de Proyección",
+      "content": "La proyección ortogonal del vector **a** sobre el vector **b** se calcula usando la fórmula:\n\n**proj_b(a) = ((a·b) / (b·b)) × b**\n\nDonde:\n- **a·b** es el producto escalar de los vectores a y b\n- **b·b** es el producto escalar de b consigo mismo (magnitud al cuadrado)\n- El resultado es un vector paralelo a **b**"
+    },
+    {
+      "title": "Cómo Usar Esta Calculadora",
+      "content": "1. **Seleccionar Dimensión**: Elija entre vectores 2D o 3D\n2. **Ingresar Vector a**: Ingrese los componentes x, y (y z para 3D) del primer vector\n3. **Ingresar Vector b**: Ingrese los componentes x, y (y z para 3D) del segundo vector\n4. **Calcular**: Haga clic en el botón para ver el vector de proyección y pasos detallados\n\nLa calculadora mostrará el vector de proyección, su magnitud y un desglose paso a paso del cálculo."
+    },
+    {
+      "title": "Comprendiendo los Resultados",
+      "content": "La calculadora proporciona:\n- **Vector de Proyección**: El vector resultante que representa la proyección de a sobre b\n- **Magnitud**: La longitud del vector de proyección\n- **Producto Escalar**: El producto escalar a·b utilizado en el cálculo\n- **Factor de Escala**: La razón (a·b)/(b·b) que determina cuánto de b forma la proyección\n- **Solución Paso a Paso**: Un desglose detallado que muestra cada paso del cálculo"
+    },
+    {
+      "title": "Aplicaciones",
+      "content": "La proyección ortogonal tiene muchas aplicaciones prácticas:\n- **Física**: Cálculo de componentes de fuerza en diferentes direcciones\n- **Gráficos por Computadora**: Renderización de objetos 3D en pantallas 2D\n- **Aprendizaje Automático**: Análisis de Componentes Principales (PCA) y reducción de dimensionalidad\n- **Ingeniería**: Análisis de fuerzas estructurales y componentes de tensión\n- **Procesamiento de Señales**: Descomposición de señales en componentes ortogonales"
+    },
+    {
+      "title": "Ejemplo de Cálculo",
+      "content": "Proyectemos el vector **a = (3, 4)** sobre el vector **b = (1, 1)**:\n\n1. Calcular a·b = 3×1 + 4×1 = 7\n2. Calcular b·b = 1×1 + 1×1 = 2\n3. Factor de escala = 7/2 = 3,5\n4. Proyección = 3,5 × (1, 1) = (3,5, 3,5)\n\nEl vector de proyección es (3,5, 3,5) con magnitud ≈ 4,95"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué sucede si el vector b es un vector cero?",
+      "a": "La proyección es indefinida cuando el vector b es un vector cero porque no podemos dividir por cero (b·b = 0). La calculadora mostrará un mensaje de error en este caso."
+    },
+    {
+      "q": "¿Puedo proyectar un vector 2D sobre un vector 3D?",
+      "a": "No, ambos vectores deben tener la misma dimensión. Necesita agregar un componente z al vector 2D (haciéndolo 3D) o eliminar el componente z del vector 3D (haciéndolo 2D)."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre proyección 2D y 3D?",
+      "a": "La fórmula es la misma para proyecciones 2D y 3D. La única diferencia es que los vectores 3D tienen un componente z adicional que se incluye en los cálculos del producto escalar."
+    },
+    {
+      "q": "¿Por qué se llama proyección 'ortogonal'?",
+      "a": "Se llama ortogonal porque la diferencia entre el vector original a y su proyección (llamado vector de rechazo) es perpendicular (ortogonal) al vector b."
+    },
+    {
+      "q": "¿Qué es el factor de escala?",
+      "a": "El factor de escala es la razón (a·b)/(b·b) que indica cuántas veces el vector b necesita ser escalado para obtener la proyección. Si es positivo, la proyección apunta en la misma dirección que b; si es negativo, apunta en la dirección opuesta."
+    }
+  ]
+}

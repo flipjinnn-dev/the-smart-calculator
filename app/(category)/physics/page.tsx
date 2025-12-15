@@ -1,12 +1,10 @@
 "use client"
 
-import type { Metadata } from "next"
 import Script from "next/script"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 import { ArrowLeft, Calculator, Atom } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
 import { useCategoryContent } from "@/hooks/useCategoryContent"
 

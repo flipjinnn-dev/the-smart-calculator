@@ -1,0 +1,48 @@
+{
+  "color": "fioletowy",
+  "heading": "Kalkulator Krzywej Pierwiastka Kwadratowego – Narzędzie do Dostosowywania Ocen Uczniów",
+  "sections": [
+    {
+      "heading": "Czym jest Krzywa Pierwiastka Kwadratowego?",
+      "content": "Krzywa pierwiastka kwadratowego to metoda oceniania zaprojektowana w celu dostosowania wyników uczniów na tej samej skali. Jest często używana, gdy egzamin lub zadanie okazuje się trudniejsze niż oczekiwano, pomagając sprawiedliwie podnieść oceny uczniów.\n\nKalkulator krzywej pierwiastka kwadratowego upraszcza ten proces, natychmiast konwertując surowe oceny procentowe na dostosowane oceny krzywej pierwiastka kwadratowego.\n\n![Formuła Krzywej Pierwiastka Kwadratowego](/images/calculators/square-root-curve-formula.png)"
+    },
+    {
+      "heading": "Jak Używać Kalkulatora Krzywej Pierwiastka Kwadratowego",
+      "content": "1. **Wprowadź Procent Ucznia**: Wprowadź surową ocenę ucznia do kalkulatora.\n\n2. **Kliknij \\\"Oblicz\\\"**: Narzędzie oblicza pierwiastek kwadratowy z oceny i mnoży przez 10.\n\n3. **Zobacz Wynik**: Dostosowana ocena krzywej pierwiastka kwadratowego jest wyświetlana natychmiast.\n\n4. **Opcjonalny Krok**: Porównaj oceny wielu uczniów, aby przeanalizować poprawę wyników.\n\nKalkulator zapewnia również obliczenia krok po kroku dla przejrzystości."
+    },
+    {
+      "heading": "Funkcje Kalkulatora Krzywej Oceniania Pierwiastka Kwadratowego",
+      "content": "- **Natychmiastowy Kalkulator Krzywej Ocen**: Oblicz oceny zakrzywione bez ręcznych obliczeń\n- **Dokładna Krzywa Pierwiastka Kwadratowego**: Używa standardowej formuły √(G) × 10\n- **Rozwiązanie Krok po Kroku**: Pokazuje szczegółowy proces obliczania\n- **Wyświetlanie Poprawy Oceny**: Zobacz dokładnie, o ile poprawiła się ocena\n- **Narzędzie Edukacyjne**: Idealne dla nauczycieli, profesorów i uczniów"
+    },
+    {
+      "heading": "Korzyści z Używania Kalkulatora Krzywej Ocen",
+      "content": "- **Sprawiedliwe Ocenianie**: Dostosuj oceny, gdy egzaminy są nieoczekiwanie trudne\n- **Bardziej Korzystne dla Niższych Ocen**: Metoda pierwiastka kwadratowego pomaga bardziej uczniom z trudnościami niż uczniom osiągającym wysokie wyniki\n- **Szybkie Obliczenia**: Oszczędzaj czas dzięki natychmiastowym konwersjom ocen\n- **Przejrzysty Proces**: Uczniowie mogą zweryfikować swoje oceny zakrzywione"
+    },
+    {
+      "heading": "Zrozumienie Metody Krzywej Pierwiastka Kwadratowego",
+      "content": "Metoda krzywej oceniania pierwiastka kwadratowego to matematyczne podejście do dostosowania ocen, które:\n\n- **Podnosi wszystkie oceny**: Każda ocena się poprawia, ale niższe oceny korzystają bardziej\n- **Utrzymuje względną wydajność**: Rankingi uczniów pozostają podobne\n- **Prosta formuła**: Łatwa do zrozumienia i zastosowania\n- **Powszechnie akceptowana**: Używana na uniwersytetach i uczelniach na całym świecie"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak działa kalkulator krzywej pierwiastka kwadratowego?",
+      "a": "Kalkulator używa formuły SRG = √(G) × 10, gdzie G to Twój oryginalny procent oceny."
+    },
+    {
+      "q": "Dlaczego profesorowie używają krzywej oceniania pierwiastka kwadratowego?",
+      "a": "Profesorowie używają tej metody, gdy egzaminy są nieoczekiwanie trudne, aby zapewnić sprawiedliwe ocenianie."
+    },
+    {
+      "q": "Czy kalkulator krzywej ocen przynosi korzyści wszystkim uczniom równo?",
+      "a": "Nie, krzywa pierwiastka kwadratowego bardziej faworyzuje niższe oceny niż wyższe oceny."
+    },
+    {
+      "q": "Czy mogę użyć tego kalkulatora dla każdej oceny?",
+      "a": "Tak, kalkulator działa dla każdej oceny między 0 a 100."
+    },
+    {
+      "q": "Czy krzywa pierwiastka kwadratowego to to samo co krzywa na krzywej dzwonowej?",
+      "a": "Nie, krzywa pierwiastka kwadratowego jest inna. Krzywa dzwonowa dostosowuje oceny na podstawie rozkładu klasy."
+    }
+  ]
+}

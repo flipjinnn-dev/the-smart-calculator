@@ -546,6 +546,14 @@ export const calculators: Calculator[] = [
     category: "maths",
     popular: true,
   },
+    {
+    id: "square-root-curve-calculator",
+    name: "Square Root Curve Calculator",
+    description: "Convert grades using the square root grading curve method",
+    href: "maths/square-root-curve-calculator",
+    category: "maths",
+    popular: false
+  },
   {
     id: "percent-error",
     name: "Percentage Error Calculator",
@@ -597,6 +605,14 @@ export const calculators: Calculator[] = [
   },
 
   // Physics Calculators
+  {
+    id:"orthogonal-projection-calculator",
+    name:"Orthogonal Projection Calculator",
+    description:"Calculate the orthogonal projection of one vector onto another with step-by-step solutions and detailed analysis",
+    href:"/physics/orthogonal-projection-calculator",
+    category:"physics",
+    popular:true
+  },
   {
     id: "ballistic-coefficient",
     name: "Ballistic Coefficient Calculator",
@@ -748,6 +764,14 @@ export const calculators: Calculator[] = [
 
   // Other Calculators
   {
+    id: "towing-estimate-calculator",
+    name: "Towing Estimate Calculator",
+    description: "Calculate towing costs based on vehicle type, distance, location, and services",
+    href: "/other/towing-estimate-calculator",
+    category: "other",
+    popular: true
+  },
+  {
     id: "age",
     name: "Age Calculator",
     description: "Calculate age in years, months, and days",
@@ -811,9 +835,6 @@ export const calculators: Calculator[] = [
     href: "/ip-subnet-calculator",
     category: "other",
   }
-
-
-
 ]
 
 // Helper functions to get calculators by category with multilingual support

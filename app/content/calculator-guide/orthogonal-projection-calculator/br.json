@@ -1,0 +1,51 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "title": "O que é Projeção Ortogonal?",
+      "content": "A projeção ortogonal é um conceito fundamental em álgebra linear que projeta um vetor sobre outro. A projeção do vetor **a** sobre o vetor **b** cria um novo vetor que está ao longo de **b** e representa a componente de **a** na direção de **b**. Isso é particularmente útil em física, computação gráfica e análise de dados."
+    },
+    {
+      "title": "A Fórmula de Projeção",
+      "content": "A projeção ortogonal do vetor **a** sobre o vetor **b** é calculada usando a fórmula:\n\n**proj_b(a) = ((a·b) / (b·b)) × b**\n\nOnde:\n- **a·b** é o produto escalar dos vetores a e b\n- **b·b** é o produto escalar de b consigo mesmo (magnitude ao quadrado)\n- O resultado é um vetor paralelo a **b**"
+    },
+    {
+      "title": "Como Usar Esta Calculadora",
+      "content": "1. **Selecionar Dimensão**: Escolha entre vetores 2D ou 3D\n2. **Inserir Vetor a**: Insira os componentes x, y (e z para 3D) do primeiro vetor\n3. **Inserir Vetor b**: Insira os componentes x, y (e z para 3D) do segundo vetor\n4. **Calcular**: Clique no botão para ver o vetor de projeção e etapas detalhadas\n\nA calculadora mostrará o vetor de projeção, sua magnitude e uma análise passo a passo do cálculo."
+    },
+    {
+      "title": "Compreendendo os Resultados",
+      "content": "A calculadora fornece:\n- **Vetor de Projeção**: O vetor resultante que representa a projeção de a sobre b\n- **Magnitude**: O comprimento do vetor de projeção\n- **Produto Escalar**: O produto escalar a·b usado no cálculo\n- **Fator de Escala**: A razão (a·b)/(b·b) que determina quanto de b forma a projeção\n- **Solução Passo a Passo**: Uma análise detalhada mostrando cada etapa do cálculo"
+    },
+    {
+      "title": "Aplicações",
+      "content": "A projeção ortogonal tem muitas aplicações práticas:\n- **Física**: Cálculo de componentes de força em diferentes direções\n- **Computação Gráfica**: Renderização de objetos 3D em telas 2D\n- **Aprendizado de Máquina**: Análise de Componentes Principais (PCA) e redução de dimensionalidade\n- **Engenharia**: Análise de forças estruturais e componentes de tensão\n- **Processamento de Sinais**: Decomposição de sinais em componentes ortogonais"
+    },
+    {
+      "title": "Exemplo de Cálculo",
+      "content": "Vamos projetar o vetor **a = (3, 4)** sobre o vetor **b = (1, 1)**:\n\n1. Calcular a·b = 3×1 + 4×1 = 7\n2. Calcular b·b = 1×1 + 1×1 = 2\n3. Fator de escala = 7/2 = 3,5\n4. Projeção = 3,5 × (1, 1) = (3,5, 3,5)\n\nO vetor de projeção é (3,5, 3,5) com magnitude ≈ 4,95"
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que acontece se o vetor b for um vetor zero?",
+      "a": "A projeção é indefinida quando o vetor b é um vetor zero porque não podemos dividir por zero (b·b = 0). A calculadora exibirá uma mensagem de erro neste caso."
+    },
+    {
+      "q": "Posso projetar um vetor 2D sobre um vetor 3D?",
+      "a": "Não, ambos os vetores devem ter a mesma dimensão. Você precisa adicionar um componente z ao vetor 2D (tornando-o 3D) ou remover o componente z do vetor 3D (tornando-o 2D)."
+    },
+    {
+      "q": "Qual é a diferença entre projeção 2D e 3D?",
+      "a": "A fórmula é a mesma para projeções 2D e 3D. A única diferença é que vetores 3D têm um componente z adicional que é incluído nos cálculos do produto escalar."
+    },
+    {
+      "q": "Por que é chamada de projeção 'ortogonal'?",
+      "a": "É chamada de ortogonal porque a diferença entre o vetor original a e sua projeção (chamada de vetor de rejeição) é perpendicular (ortogonal) ao vetor b."
+    },
+    {
+      "q": "O que é o fator de escala?",
+      "a": "O fator de escala é a razão (a·b)/(b·b) que indica quantas vezes o vetor b precisa ser escalado para obter a projeção. Se for positivo, a projeção aponta na mesma direção que b; se negativo, aponta na direção oposta."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "color": "roxo",
+  "heading": "Calculadora de Curva de Raiz Quadrada – Ferramenta de Ajuste de Notas de Alunos",
+  "sections": [
+    {
+      "heading": "O que é uma Curva de Raiz Quadrada?",
+      "content": "A curva de raiz quadrada é um método de classificação projetado para ajustar as pontuações dos alunos na mesma escala. É frequentemente usado quando um exame ou tarefa se revela mais desafiador do que o esperado, ajudando a aumentar as notas dos alunos de forma justa.\n\nUma calculadora de curva de raiz quadrada simplifica esse processo convertendo instantaneamente notas percentuais brutas em notas de curva de raiz quadrada ajustadas.\n\n![Fórmula da Curva de Raiz Quadrada](/images/calculators/square-root-curve-formula.png)"
+    },
+    {
+      "heading": "Como Usar a Calculadora de Curva de Raiz Quadrada",
+      "content": "1. **Inserir a Porcentagem do Aluno**: Insira a nota bruta do aluno na calculadora.\n\n2. **Clicar em \\\"Calcular\\\"**: A ferramenta calcula a raiz quadrada da nota e multiplica por 10.\n\n3. **Visualizar o Resultado**: A nota de curva de raiz quadrada ajustada é exibida instantaneamente.\n\n4. **Passo Opcional**: Compare as notas de vários alunos para analisar melhorias de desempenho.\n\nA calculadora também fornece cálculos passo a passo para maior clareza."
+    },
+    {
+      "heading": "Benefícios de Usar uma Calculadora de Curva de Notas",
+      "content": "- **Avaliação Justa**: Ajuste notas quando os exames são inesperadamente difíceis\n- **Beneficia Notas Mais Baixas**: O método de raiz quadrada ajuda alunos com dificuldades mais do que alunos de alto desempenho\n- **Cálculos Rápidos**: Economize tempo com conversões instantâneas de notas\n- **Processo Transparente**: Os alunos podem verificar suas notas curvadas"
+    },
+    {
+      "heading": "Entendendo o Método de Curva de Raiz Quadrada",
+      "content": "O método de curva de classificação de raiz quadrada é uma abordagem matemática para ajuste de notas que:\n\n- **Aumenta todas as notas**: Cada nota melhora, mas notas mais baixas se beneficiam mais\n- **Mantém o desempenho relativo**: As classificações dos alunos permanecem semelhantes\n- **Fórmula simples**: Fácil de entender e aplicar\n- **Amplamente aceito**: Usado em universidades e faculdades em todo o mundo"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como funciona a calculadora de curva de raiz quadrada?",
+      "a": "A calculadora usa a fórmula SRG = √(G) × 10, onde G é sua porcentagem de nota original."
+    },
+    {
+      "q": "Por que os professores usam a curva de classificação de raiz quadrada?",
+      "a": "Os professores usam este método quando os exames são inesperadamente difíceis para garantir uma avaliação justa."
+    },
+    {
+      "q": "A calculadora de curva de notas beneficia todos os alunos igualmente?",
+      "a": "Não, a curva de raiz quadrada beneficia notas mais baixas mais do que notas mais altas."
+    },
+    {
+      "q": "Posso usar esta calculadora para qualquer nota?",
+      "a": "Sim, a calculadora funciona para qualquer nota entre 0 e 100."
+    },
+    {
+      "q": "A curva de raiz quadrada é a mesma que curvar em uma curva de sino?",
+      "a": "Não, a curva de raiz quadrada é diferente. Uma curva de sino ajusta notas com base na distribuição da turma."
+    }
+  ]
+}

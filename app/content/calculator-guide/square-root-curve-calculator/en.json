@@ -1,0 +1,56 @@
+{
+  "color": "purple",
+  "heading": "Square Root Curve Calculator – Student Grade Adjustment Tool",
+  "sections": [
+    {
+      "heading": "What is a Square Root Curve?",
+      "content": "The square root curve is a grading method designed to adjust student scores on the same scale. It is often used when an exam or assignment turns out to be more challenging than expected, helping to fairly increase the grades of students.\n\nA square root curve calculator simplifies this process by instantly converting raw percentage grades into adjusted square root curve grades, making it easier for teachers and students to understand performance improvements.\n\n![Square Root Curve Formula](/images/calculators/square-root-curve-formula.png)"
+    },
+    {
+      "heading": "How to Use the Square Root Curve Calculator",
+      "content": "1. **Enter the Student Percentage**: Input the student's raw grade in the calculator.\n\n2. **Click \"Calculate\"**: The tool computes the square root of the grade and multiplies it by 10.\n\n3. **View the Result**: The adjusted square root curve grade is displayed instantly.\n\n4. **Optional Step**: Compare multiple students' grades to analyze performance improvements.\n\nThe calculator also provides step-by-step calculations for clarity."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How does the square root curve work?",
+      "a": "The square root curve boosts lower student grades and adjusts all scores on a consistent scale."
+    },
+    {
+      "q": "Is this calculator suitable for large classes?",
+      "a": "Yes, you can quickly calculate square root curve grades for all students."
+    },
+    {
+      "q": "Can I use it for homework or exams?",
+      "a": "Absolutely, it works for any graded assignment where square root curve adjustment is needed."
+    },
+    {
+      "q": "What if a student has a grade of 0%?",
+      "a": "The square root of 0 is 0, so the adjusted grade remains 0."
+    },
+    {
+      "q": "Can this calculator show step-by-step calculations?",
+      "a": "Yes, most calculators will show how the grade is converted using the formula."
+    },
+    {
+      "q": "Does the square root curve always increase the grades?",
+      "a": "Yes, it benefits students with lower grades more significantly while keeping high grades relatively consistent."
+    },
+    {
+      "q": "Is the square root curve method fair?",
+      "a": "It is generally considered fair in cases where exams are unexpectedly difficult, as it raises grades proportionally."
+    },
+    {
+      "q": "Can teachers use this for online grading?",
+      "a": "Yes, the calculator can be used for digital gradebooks and online assessments."
+    },
+    {
+      "q": "How is the square root curve different from a normal grading curve?",
+      "a": "Unlike linear or bell-curve adjustments, the square root curve specifically benefits lower scores and applies a mathematical square root function."
+    },
+    {
+      "q": "Can I calculate grades for multiple students at once?",
+      "a": "Yes, many square root curve calculators allow batch input for quick class-wide calculations."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "title": "What is an Orthogonal Projection Calculator?",
+      "content": "An Orthogonal Projection Calculator is a tool designed to compute the projection of a vector onto another vector quickly and accurately. Also referred to as a vector projection calculator, this tool is widely used in linear algebra, physics, and engineering applications.\n\nWith this calculator, you can calculate perpendicular projections, orthogonal vector projections, and understand vector relationships without manual calculations."
+    },
+    {
+      "title": "How to Use the Vector Projection Calculator",
+      "content": "1. **Enter Vector A** (the vector you want to project)\n2. **Enter Vector B** (the vector onto which A is projected)\n3. **Click Calculate**\n4. The orthogonal projection result is displayed, showing step-by-step details if needed"
+    },
+    {
+      "title": "Features of the Orthogonal Vector Projection Tool",
+      "content": "- **Vector Projection Calculator**: Quickly calculate projections without manual effort\n- **Perpendicular Projection Calculator**: Ensures accurate orthogonal projections\n- **Linear Algebra Projection Calculator**: Perfect for students and engineers working with linear algebra\n- **Multi-Dimensional Support**: Works for 2D, 3D, and n-dimensional vectors\n- **Step-by-Step Explanation**: Understand how the projection is calculated"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I calculate the projection of a vector onto another vector?",
+      "a": "Use the formula proj_B A = (A·B / B·B) B, which is computed automatically by the vector projection calculator."
+    },
+    {
+      "q": "Can I use the orthogonal vector projection tool for 3D vectors?",
+      "a": "Yes, it works for 2D, 3D, and higher dimensions."
+    },
+    {
+      "q": "What is the difference between perpendicular projection calculator and vector projection calculator?",
+      "a": "Both calculate projections, but the perpendicular projection calculator emphasizes the orthogonal (right-angle) relationship."
+    },
+    {
+      "q": "Does the linear algebra projection calculator show calculation steps?",
+      "a": "Yes, it provides step-by-step guidance for better understanding."
+    },
+    {
+      "q": "Can I manually calculate the projection of a vector onto another vector?",
+      "a": "Yes, using the dot product formula, but the vector projection calculator is faster and reduces errors."
+    },
+    {
+      "q": "Is the orthogonal vector projection tool suitable for physics problems?",
+      "a": "Absolutely. Ideal for engineering, physics, and mathematics applications."
+    },
+    {
+      "q": "Can I calculate projection for multiple vectors at once?",
+      "a": "Many vector projection calculators allow batch calculations for convenience."
+    },
+    {
+      "q": "How accurate is the perpendicular projection calculator?",
+      "a": "It provides exact results using precise linear algebra formulas."
+    },
+    {
+      "q": "Do I need prior knowledge of vectors to use this calculator?",
+      "a": "No. Simply enter the vectors, and the orthogonal projection calculator handles the calculations."
+    },
+    {
+      "q": "What dimensions does the linear algebra projection calculator support?",
+      "a": "It supports 2D, 3D, and n-dimensional vectors, making it versatile for all vector-related problems."
+    }
+  ]
+}
