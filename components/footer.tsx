@@ -57,6 +57,15 @@ export const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
         { name: "Terms and Conditions", href: "/terms-and-conditions" }
       ]
     },
+    popularCalculators: {
+      title: "Popular Financial Calculators",
+      items: [
+        { name: "Mortgage Calculator", href: "https://hypotheken-rechner.net/" },
+        { name: "Financing Calculator", href: "https://hypotheken-rechner.net/finanzierungs-rechner" },
+        { name: "Construction Financing Calculator", href: "https://hypotheken-rechner.net/baufinanzierungs-rechner" },
+        { name: "Budget Calculator", href: "https://hypotheken-rechner.net/budget-rechner" }
+      ]
+    },
     social: {
       pinterest: "https://www.pinterest.com/thesmartcalculators/",
       twitter: "https://x.com/SmartCalculat0r",
@@ -143,8 +152,8 @@ export const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
   return (
         <footer className="bg-gray-900 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-              <div className="col-span-1 md:col-span-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+              <div className="col-span-1 md:col-span-2 lg:col-span-2">
                 <div className="flex items-center space-x-3 mb-6">
                   <Logo />
                   <span className="text-2xl font-bold">{footerContent.company.name}</span>
@@ -183,6 +192,24 @@ export const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
                     <li key={index}>
                       <Link
                         href={item.href}
+                        className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
+                      >
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="font-bold mb-6 text-lg">{footerContent.popularCalculators.title}</h3>
+                <ul className="space-y-3 text-gray-400">
+                  {footerContent.popularCalculators.items.map((item: FooterItem, index: number) => (
+                    <li key={index}>
+                      <Link
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                       >
                         {item.name}

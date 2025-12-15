@@ -54,6 +54,27 @@
       }
     ]
   },
+  "popularCalculators": {
+    "title": "Beliebte Finanzrechner",
+    "items": [
+      {
+        "name": "Hypothekenrechner",
+        "href": "https://hypotheken-rechner.net/"
+      },
+      {
+        "name": "Finanzierungsrechner",
+        "href": "https://hypotheken-rechner.net/finanzierungs-rechner"
+      },
+      {
+        "name": "Baufinanzierungsrechner",
+        "href": "https://hypotheken-rechner.net/baufinanzierungs-rechner"
+      },
+      {
+        "name": "Budgetrechner",
+        "href": "https://hypotheken-rechner.net/budget-rechner"
+      }
+    ]
+  },
   "social": {
     "pinterest": "https://www.pinterest.com/thesmartcalculators/",
     "twitter": "https://x.com/SmartCalculat0r",

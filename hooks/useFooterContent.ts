@@ -20,6 +20,13 @@ interface FooterContent {
       href: string;
     }>;
   };
+  popularCalculators: {
+    title: string;
+    items: Array<{
+      name: string;
+      href: string;
+    }>;
+  };
   social: {
     pinterest: string;
     twitter: string;

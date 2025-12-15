@@ -9,23 +9,23 @@
     "items": [
       {
         "name": "Calculadoras financieras",
-        "href": "/financiero"
+        "href": "/es/financiero"
       },
       {
         "name": "Salud y fitness",
-        "href": "/salud"
+        "href": "/es/salud"
       },
       {
         "name": "Calculadoras matemáticas",
-        "href": "/matemáticas"
+        "href": "/es/matematicas"
       },
       {
         "name": "Calculadoras de física",
-        "href": "/física"
+        "href": "/es/fisica"
       },
       {
         "name": "Otras calculadoras",
-        "href": "/otras-calculadoras"
+        "href": "/es/otro"
       }
     ]
   },
@@ -34,23 +34,44 @@
     "items": [
       {
         "name": "Hogar",
-        "href": "/"
+        "href": "/es"
       },
       {
         "name": "Sobre nosotros",
-        "href": "/sobre nosotros"
+        "href": "/es/sobre-nosotros"
       },
       {
         "name": "Contáctenos",
-        "href": "/contacto-nosotros"
+        "href": "/es/contacto"
       },
       {
-        "name": "política de privacidad",
-        "href": "/política de privacidad"
+        "name": "Política de privacidad",
+        "href": "/es/politica-de-privacidad"
       },
       {
         "name": "Términos y condiciones",
-        "href": "/Términos y condiciones"
+        "href": "/es/terminos-y-condiciones"
+      }
+    ]
+  },
+  "popularCalculators": {
+    "title": "Calculadoras Financieras Populares",
+    "items": [
+      {
+        "name": "Calculadora de Hipoteca",
+        "href": "https://hypotheken-rechner.net/"
+      },
+      {
+        "name": "Calculadora de Financiamiento",
+        "href": "https://hypotheken-rechner.net/finanzierungs-rechner"
+      },
+      {
+        "name": "Calculadora de Financiamiento de Construcción",
+        "href": "https://hypotheken-rechner.net/baufinanzierungs-rechner"
+      },
+      {
+        "name": "Calculadora de Presupuesto",
+        "href": "https://hypotheken-rechner.net/budget-rechner"
       }
     ]
   },

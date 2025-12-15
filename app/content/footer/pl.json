@@ -54,6 +54,27 @@
       }
     ]
   },
+  "popularCalculators": {
+    "title": "Popularne Kalkulatory Finansowe",
+    "items": [
+      {
+        "name": "Kalkulator Hipoteczny",
+        "href": "https://hypotheken-rechner.net/"
+      },
+      {
+        "name": "Kalkulator Finansowania",
+        "href": "https://hypotheken-rechner.net/finanzierungs-rechner"
+      },
+      {
+        "name": "Kalkulator Finansowania Budowy",
+        "href": "https://hypotheken-rechner.net/baufinanzierungs-rechner"
+      },
+      {
+        "name": "Kalkulator Budżetu",
+        "href": "https://hypotheken-rechner.net/budget-rechner"
+      }
+    ]
+  },
   "social": {
     "pinterest": "https://www.pinterest.com/thesmartcalculators/",
     "twitter": "https://x.com/SmartCalculat0r",

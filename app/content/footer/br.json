@@ -54,6 +54,27 @@
       }
     ]
   },
+  "popularCalculators": {
+    "title": "Calculadoras Financeiras Populares",
+    "items": [
+      {
+        "name": "Calculadora de Hipoteca",
+        "href": "https://hypotheken-rechner.net/"
+      },
+      {
+        "name": "Calculadora de Financiamento",
+        "href": "https://hypotheken-rechner.net/finanzierungs-rechner"
+      },
+      {
+        "name": "Calculadora de Financiamento de Construção",
+        "href": "https://hypotheken-rechner.net/baufinanzierungs-rechner"
+      },
+      {
+        "name": "Calculadora de Orçamento",
+        "href": "https://hypotheken-rechner.net/budget-rechner"
+      }
+    ]
+  },
   "social": {
     "pinterest": "https://www.pinterest.com/thesmartcalculators/",
     "twitter": "https://x.com/SmartCalculat0r",
