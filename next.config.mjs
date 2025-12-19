@@ -37,7 +37,14 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.sanity.io',
+      },
+    ],
   },
+  transpilePackages: ['next-sanity'],
 }
 
 export default nextConfig

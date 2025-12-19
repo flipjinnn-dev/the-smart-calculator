@@ -4,6 +4,7 @@ import type { NextRequest } from 'next/server';
 // Define the URL mappings for each language
 export const urlMappings = {
   'br': {
+    'br-slug': 'en-slug',
     'alimento': 'food',
     'calculadora-cientifica': 'scientific-calculator',
     'calculadora-data-de-vencimento': 'due-date-calculator',
@@ -115,6 +116,7 @@ export const urlMappings = {
     'simulador-hipoteca': 'mortgage-calculator'
   },
   'pl': {
+    'pl-slug':'en-slug',
     'kalkulator-szesciennych-jardow': 'cubic-yard-calculator',
     'kalkulator-kredytowy': 'loan-calculator',
     'kalkulator-stezenia-alkoholu-we-krwi': 'bac-calculator',
@@ -225,6 +227,7 @@ export const urlMappings = {
     'zywnosc': 'food',
   },
   'de': {
+    'de-slug':'en-slug',
     '401-k-rechner': '401k-calculator',
     'essen': 'food',
     'gesundheit': 'health',
@@ -335,6 +338,7 @@ export const urlMappings = {
     'zufall-zahl-generator-rechner': 'random-number-generator',
   },
   'es': {
+    'es-slug':'en-slug',
     'financiero': 'financial',
     'salud': 'health',
     'matematicas': 'maths',
@@ -448,6 +452,7 @@ export const urlMappings = {
 // Define reverse mappings for generating hreflang tags
 export const reverseUrlMappings = {
   'br': {
+    'en-slug':'br-slug',
     '401k-calculator': 'calculadora-401k',
     'age-calculator': 'calculadora-de-idade',
     'amortization-calculator': 'calculadora-de-amortizacao',
@@ -559,6 +564,7 @@ export const reverseUrlMappings = {
     'weight-watchers-points-calculator': 'calculadora-de-pontos-vigilantes-do-peso'
   },
   'pl': {
+    'en-slug':'pl-slug',
     '401k-calculator': 'kalkulator-401-k',
     'age-calculator': 'kalkulator-wieku',
     'amortization-calculator': 'kalkulator-amortyzacji',
@@ -670,6 +676,7 @@ export const reverseUrlMappings = {
     'weight-watchers-points-calculator': 'kalkulator-punktow-weight-watchers',
   },
   'de': {
+    'en-slug':'de-slug',
     '401k-calculator': '401-k-rechner',
     'age-calculator': 'alter-rechner',
     'amortization-calculator': 'tilgungsrechner',
@@ -780,6 +787,7 @@ export const reverseUrlMappings = {
     'weight-watchers-points-calculator': 'weight-watchers-punkte-berechnen',
   },
   'es': {
+    'en-slug':'es-slug',
     'financial': 'financiero',
     'health': 'salud',
     'maths': 'matematicas',
@@ -897,7 +905,8 @@ const staticPages = [
   'about-us',
   'contact-us',
   'privacy-policy',
-  'terms-and-conditions'
+  'terms-and-conditions',
+  'blogs'
 ];
 
 export function middleware(request: NextRequest) {
