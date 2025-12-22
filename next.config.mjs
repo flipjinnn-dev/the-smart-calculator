@@ -46,9 +46,10 @@ const nextConfig = {
     // Reduce memory usage during build
     workerThreads: false,
     cpus: 1,
+    // Disable Turbopack (memory heavy)
+    turbo: false,
   },
   // Optimize build output
-  swcMinify: true,
   compress: true,
 }
 
