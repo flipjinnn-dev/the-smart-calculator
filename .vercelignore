@@ -1,0 +1,10 @@
+# Ignore files that don't need to be deployed
+scripts/
+docs/
+*.md
+!README.md
+.git/
+.github/
+test_*.py
+*.tmp
+*-backup.json

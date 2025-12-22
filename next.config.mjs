@@ -29,9 +29,6 @@ const nextConfig = {
       },
     ];
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -45,6 +42,14 @@ const nextConfig = {
     ],
   },
   transpilePackages: ['next-sanity'],
+  experimental: {
+    // Reduce memory usage during build
+    workerThreads: false,
+    cpus: 1,
+  },
+  // Optimize build output
+  swcMinify: true,
+  compress: true,
 }
 
 export default nextConfig
