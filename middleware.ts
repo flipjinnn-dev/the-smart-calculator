@@ -453,6 +453,8 @@ export const urlMappings = {
     'calculadora-de-gpa': 'gpa-calculator',
     'calculadora-de-altura': 'height-calculator',
     'calculadora-subnet': 'ip-subnet-calculator',
+    'calculadora-de-calorias-de-rucking': 'rucking-calorie-calculator',
+
   }
 } as const;
 
@@ -910,6 +912,7 @@ export const reverseUrlMappings = {
     'ip-subnet-calculator': 'calculadora-subnet',
     'towing-estimate-calculator': 'calculadora-de-costos-de-remolque',
     'square-root-curve-calculator': 'calculadora-de-curva-de-raiz-cuadrada',
+    'rucking-calorie-calculator': 'calculadora-de-calorias-de-rucking',
   }
 } as const;
 
