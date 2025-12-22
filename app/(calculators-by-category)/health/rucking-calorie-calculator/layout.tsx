@@ -63,8 +63,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }rucking-calorie-calculator`,
+      url: canonicalUrl,
     },
   };
 }
