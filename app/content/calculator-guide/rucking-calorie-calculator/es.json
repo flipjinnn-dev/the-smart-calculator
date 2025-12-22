@@ -1,0 +1,117 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Cómo funciona la Calculadora de Calorías de Rucking",
+      "content": "Estimar el gasto calórico durante el rucking no es simple. Las fórmulas estándar de calorías de caminata no tienen en cuenta el costo metabólico de llevar una carga. Esta calculadora usa la Ecuación de Pandolf:\n\n$$M = 1.5W + 2.0(W + L)(\\frac{L}{W})^2 + \\eta(W + L)(1.5V^2 + 0.35VG)$$\n\nDonde: $$W = Peso corporal,$$ $$L = Carga transportada,$$ $$V = Velocidad,$$ $$G = Pendiente (inclinación),$$ $$\\eta = Factor de terreno$$\n\nLa fórmula se ajusta con la investigación más reciente para precisión en el mundo real. Aunque ningún modelo puede predecir perfectamente el gasto energético de cada individuo, usar un método ajustado a la carga mejora significativamente la precisión sobre los métodos genéricos. Esta calculadora estima las calorías quemadas tanto por hora como para toda la sesión según sus entradas."
+
+    },
+    {
+      "heading": "Entradas clave",
+      "content": "Para proporcionar una estimación personalizada de calorías, ingresará la siguiente información:",
+      "subSections": [
+        {
+          "heading": "Campos de entrada",
+          "content": "- Peso Corporal: Su peso corporal sin la mochila determina el gasto energético basal.\n- Peso de la Mochila (Carga): El peso que lleva aumenta la energía necesaria para moverse.\n- Distancia o Ritmo: Su velocidad de caminata influye en las calorías quemadas por minuto.\n- Duración (Tiempo): El tiempo total de rucking asegura que las sesiones sin distancia fija se midan con precisión.\n- Terreno e Inclinación: El tipo de terreno e inclinación afectan el nivel de esfuerzo; pendientes más pronunciadas y superficies desafiantes requieren más energía.\n- Alternancia Métrica/Imperial: Cambie entre kg/km o lbs/millas automáticamente.\n\nAl combinar estas variables, esta calculadora proporciona una estimación práctica de calorías adaptada a su sesión de rucking."
+        }
+      ]
+    },
+    {
+      "heading": "Estimaciones de calorías de muestra",
+      "content": "Basado en peso corporal de 70kg, terreno plano, ritmo de 5 km/h:",
+      "subSections": [
+        {
+          "heading": "Quema de calorías por carga",
+          "content": "- 0 kg (Caminata): ~300 kcal por hora\n- 10 kg: ~500 kcal por hora\n- 20 kg: ~700 kcal por hora\n\nEl rucking puede quemar de dos a tres veces más calorías que caminar dependiendo de la carga y el ritmo, convirtiéndolo en una actividad de entrenamiento efectiva para pérdida de grasa, resistencia y desarrollo de fuerza."
+        }
+      ]
+    },
+    {
+      "heading": "Por qué importa la duración",
+      "content": 
+        "Muchas calculadoras de rucking estiman calorías basándose solo en distancia o ritmo. Sin embargo, los ruckings del mundo real a menudo varían en velocidad y terreno. La entrada de duración considera sesiones donde la distancia es desconocida o inconsistente, como ruckings de intervalos, urbanos o basados en tiempo. Esto asegura que su estimación de calorías refleje el tiempo activo total bajo carga, no solo la distancia teórica recorrida."
+
+    },
+    {
+      "heading": "Qué resultados recibirá",
+      "content": "Después de ingresar sus detalles, la calculadora mostrará:",
+      "subSections": [
+        {
+          "heading": "Información de salida",
+          "content": "- Calorías estimadas quemadas por hora\n- Total de calorías quemadas para la sesión\n- Estimaciones de calorías ajustadas para carga, ritmo y duración\n- Escenarios \"Qué pasaría si\": ¿Duplicar el ritmo? ¿Agregar 10kg? ¡Vea cambios instantáneos!\n\nEstos resultados le ayudan a comparar diferentes sesiones de rucking, monitorear el progreso y planificar la intensidad del entrenamiento según sus objetivos, ya sea pérdida de grasa, resistencia o fuerza."
+        }
+      ]
+    },
+    {
+      "heading": "Consejos para usar esta calculadora",
+      "content": "Estrategias prácticas para obtener las estimaciones de calorías más precisas:",
+      "subSections": [
+        {
+          "heading": "Mejores prácticas",
+          "content": "- Comience con cargas realistas y aumente gradualmente a medida que mejora su fuerza.\n- Monitoree su ritmo; velocidades de caminata más rápidas generalmente aumentan la quema de calorías pero pueden reducir la duración total de la sesión.\n- Incluya ajustes de terreno e inclinación para mejor precisión de la estimación.\n- Use la entrada de duración para ruckings basados en tiempo donde no se rastrea la distancia.\n- Consejo profesional: Para usuarios de Karachi – comience con 10–15 kg en senderos de playa para máxima quema de calorías."
+        }
+      ]
+    },
+    {
+      "heading": "Por qué esta calculadora proporciona estimaciones superiores",
+      "content": 
+        "La mayoría de las calculadoras genéricas de calorías subestiman el gasto energético del rucking porque ignoran la carga externa y la entrada de duración independiente. Esta herramienta considera directamente la duración en ruckings de intervalos/urbanos e incluye ajustes de terreno/inclinación para estimaciones precisas del mundo real."
+    },
+    {
+      "heading": "Consideraciones importantes",
+      "content": "Tenga en cuenta estos factores al usar la calculadora:",
+      "subSections": [
+        {
+          "heading": "Notas de precisión",
+          "content": "- Estimaciones, no mediciones exactas: Las predicciones de calorías son aproximadas; el gasto real depende de la fisiología individual, el ambiente y el esfuerzo.\n- Tasa Metabólica Basal (TMB) no incluida: La calculadora se centra en las calorías activas quemadas durante el rucking.\n- Variación por condiciones: El terreno, el clima, el ajuste de la mochila y el acondicionamiento personal pueden influir en la quema de calorías."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo difiere el rucking de caminar?",
+      "a": "El rucking incluye una mochila con peso, aumentando el gasto energético en comparación con caminar sin carga."
+    },
+    {
+      "q": "¿Puedo usar esta calculadora para cualquier sesión de rucking?",
+      "a": "Sí, funciona para ruckings al aire libre o en interiores con configuraciones ajustables."
+    },
+    {
+      "q": "¿Por qué no se incluye la tasa metabólica en reposo?",
+      "a": "El enfoque está en las calorías quemadas del rucking activo; la energía en reposo varía ampliamente entre individuos."
+    },
+    {
+      "q": "¿Qué ritmo debo usar?",
+      "a": "Use su velocidad promedio de caminata. Si varía, la entrada de duración ajusta la estimación."
+    },
+    {
+      "q": "¿El terreno realmente afecta la quema de calorías?",
+      "a": "Sí. Las colinas y superficies irregulares requieren más esfuerzo que el terreno plano."
+    },
+    {
+      "q": "¿Debo aumentar el peso de la mochila para quemar más calorías?",
+      "a": "Las cargas más pesadas aumentan la quema de calorías, pero siempre elija pesos que pueda manejar de manera segura sin comprometer la postura."
+    },
+    {
+      "q": "¿Son precisos los resultados?",
+      "a": "Los resultados son estimaciones basadas en métodos validados ajustados a la carga, no mediciones exactas."
+    },
+    {
+      "q": "¿Pueden los rastreadores de fitness proporcionar estimaciones similares?",
+      "a": "La mayoría de los rastreadores subestiman las calorías del rucking porque no consideran completamente el transporte de carga."
+    },
+    {
+      "q": "¿Con qué frecuencia debo hacer rucking para fitness o pérdida de peso?",
+      "a": "La frecuencia depende de su nivel de fitness y recuperación; use la calculadora para planificar volumen e intensidad."
+    },
+    {
+      "q": "¿Puedo usar esto para entrenamiento de carreras o eventos?",
+      "a": "Sí; ayuda a planificar la intensidad del entrenamiento y expectativas de calorías para marchas con peso o eventos de rucking."
+    },
+    {
+      "q": "¿Qué fórmula se usa?",
+      "a": "La Ecuación de Pandolf con correcciones de terreno e inclinación – validada por el ejército de EE. UU. y actualizada para investigación moderna."
+    }
+  ]
+}

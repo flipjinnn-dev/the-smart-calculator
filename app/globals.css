@@ -239,3 +239,24 @@
 .main-card input::placeholder {
     color: #0000005e;
 }
+
+/* Beautiful table styles for HTML content from Sanity */
+.html-content table {
+  @apply min-w-full border-collapse my-8;
+}
+
+.html-content th {
+  @apply border border-gray-300 px-4 py-3 text-left font-semibold text-gray-900 bg-blue-50;
+}
+
+.html-content td {
+  @apply border border-gray-300 px-4 py-3 text-gray-700;
+}
+
+.html-content tr:nth-child(even) {
+  @apply bg-gray-50;
+}
+
+.html-content tr:hover {
+  @apply bg-blue-50;
+}

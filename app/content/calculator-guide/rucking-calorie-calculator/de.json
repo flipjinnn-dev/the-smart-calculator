@@ -1,0 +1,118 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Wie der Rucking-Kalorienrechner funktioniert",
+      "content": "Die Schätzung des Kalorienverbrauchs beim Rucking ist nicht einfach. Standard-Kalorienformeln für das Gehen berücksichtigen nicht die metabolischen Kosten des Tragens einer Last. Dieser Rechner verwendet die Pandolf-Gleichung:\n\n$$M = 1.5W + 2.0(W + L)(\\frac{L}{W})^2 + \\eta(W + L)(1.5V^2 + 0.35VG)$$\n\nWobei: $$W = Körpergewicht,$$ $$L = Getragene Last,$$ $$V = Geschwindigkeit,$$ $$G = Steigung (Neigung),$$ $$\\eta = Geländefaktor$$\n\nDie Formel wird mit den neuesten Forschungsergebnissen für reale Genauigkeit angepasst. Während kein Modell den Energieverbrauch jeder Person perfekt vorhersagen kann, verbessert die Verwendung einer lastangepassten Methode die Genauigkeit gegenüber generischen Methoden erheblich. Dieser Rechner schätzt sowohl die pro Stunde verbrannten Kalorien als auch für die gesamte Sitzung basierend auf Ihren Eingaben."
+
+    },
+    {
+      "heading": "Wichtige Eingaben",
+      "content": "Um eine personalisierte Kalorienschätzung zu liefern, geben Sie folgende Informationen ein:",
+      "subSections": [
+        {
+          "heading": "Eingabefelder",
+          "content": "- Körpergewicht: Ihr Körpergewicht ohne Rucksack bestimmt den Grundenergieverbrauch.\n- Rucksackgewicht (Last): Das Gewicht, das Sie tragen, erhöht die benötigte Energie zur Bewegung.\n- Distanz oder Tempo: Ihre Gehgeschwindigkeit beeinflusst die pro Minute verbrannten Kalorien.\n- Dauer (Zeit): Die Gesamtzeit des Ruckings stellt sicher, dass Sitzungen ohne feste Distanz genau gemessen werden.\n- Gelände und Steigung: Geländetyp und Neigung beeinflussen das Anstrengungsniveau; steilere Steigungen und anspruchsvolle Oberflächen erfordern mehr Energie.\n- Metrisch/Imperial-Umschalter: Wechseln Sie automatisch zwischen kg/km oder lbs/Meilen.\n\nDurch die Kombination dieser Variablen liefert dieser Rechner eine praktische Kalorienschätzung, die auf Ihre Rucking-Sitzung zugeschnitten ist."
+        }
+      ]
+    },
+    {
+      "heading": "Beispiel-Kalorienschätzungen",
+      "content": "Basierend auf 70kg Körpergewicht, flachem Gelände, 5 km/h Tempo:",
+      "subSections": [
+        {
+          "heading": "Kalorienverbrennung nach Last",
+          "content": "- 0 kg (Gehen): ~300 kcal pro Stunde\n- 10 kg: ~500 kcal pro Stunde\n- 20 kg: ~700 kcal pro Stunde\n\nRucking kann je nach Last und Tempo zwei- bis dreimal mehr Kalorien verbrennen als Gehen, was es zu einer effektiven Trainingsaktivität für Fettabbau, Ausdauer und Kraftentwicklung macht."
+        }
+      ]
+    },
+    {
+      "heading": "Warum die Dauer wichtig ist",
+      "content": 
+        "Viele Rucking-Rechner schätzen Kalorien nur basierend auf Distanz oder Tempo. Allerdings variieren reale Rucks oft in Geschwindigkeit und Gelände. Die Dauereingabe berücksichtigt Sitzungen, bei denen die Distanz unbekannt oder inkonsistent ist, wie Intervall-Rucks, Stadt-Rucks oder zeitbasiertes Training. Dies stellt sicher, dass Ihre Kalorienschätzung die gesamte aktive Zeit unter Last widerspiegelt, nicht nur die theoretisch zurückgelegte Distanz."
+
+    },
+    {
+      "heading": "Welche Ergebnisse Sie erhalten",
+      "content": "Nach Eingabe Ihrer Details zeigt der Rechner an:",
+      "subSections": [
+        {
+          "heading": "Ausgabeinformationen",
+          "content": "- Geschätzte verbrannte Kalorien pro Stunde\n- Gesamte verbrannte Kalorien für die Sitzung\n- Kalorienschätzungen angepasst für Last, Tempo und Dauer\n- \"Was-wäre-wenn\"-Szenarien: Tempo verdoppeln? 10kg hinzufügen? Sehen Sie sofortige Änderungen!\n\nDiese Ergebnisse helfen Ihnen, verschiedene Rucking-Sitzungen zu vergleichen, Fortschritte zu überwachen und Trainingsintensität basierend auf Ihren Zielen zu planen, sei es Fettabbau, Ausdauer oder Kraft."
+        }
+      ]
+    },
+    {
+      "heading": "Tipps zur Verwendung dieses Rechners",
+      "content": "Praktische Strategien für die genauesten Kalorienschätzungen:",
+      "subSections": [
+        {
+          "heading": "Best Practices",
+          "content": "- Beginnen Sie mit realistischen Gewichtslasten und erhöhen Sie schrittweise, wenn Ihre Kraft zunimmt.\n- Überwachen Sie Ihr Tempo; schnellere Gehgeschwindigkeiten erhöhen im Allgemeinen den Kalorienverbrauch, können aber die Gesamtdauer der Sitzung verringern.\n- Berücksichtigen Sie Gelände- und Steigungsanpassungen für bessere Schätzgenauigkeit.\n- Verwenden Sie die Dauereingabe für zeitbasierte Rucks, bei denen die Distanz nicht verfolgt wird.\n- Profi-Tipp: Für Karachi-Benutzer – beginnen Sie mit 10–15 kg auf Strandpfaden für maximalen Kalorienverbrauch."
+        }
+      ]
+    },
+    {
+      "heading": "Warum dieser Rechner überlegene Schätzungen liefert",
+      "content": 
+        "Die meisten generischen Kalorienrechner unterschätzen den Energieverbrauch beim Rucking, weil sie externe Last und eigenständige Dauereingabe ignorieren. Dieses Tool berücksichtigt direkt die Dauer bei Intervall-/Stadt-Rucks und enthält Gelände-/Steigungsanpassungen für genaue reale Schätzungen."
+
+    },
+    {
+      "heading": "Wichtige Überlegungen",
+      "content": "Beachten Sie diese Faktoren bei der Verwendung des Rechners:",
+      "subSections": [
+        {
+          "heading": "Genauigkeitshinweise",
+          "content": "- Schätzungen, keine exakten Messungen: Kalorienvorhersagen sind ungefähr; der tatsächliche Verbrauch hängt von individueller Physiologie, Umgebung und Anstrengung ab.\n- Grundumsatz (BMR) nicht enthalten: Der Rechner konzentriert sich auf aktive Kalorien, die beim Rucking verbrannt werden.\n- Variation nach Bedingungen: Gelände, Wetter, Rucksackpassform und persönliche Konditionierung können den Kalorienverbrauch beeinflussen."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie unterscheidet sich Rucking vom Gehen?",
+      "a": "Rucking beinhaltet einen gewichteten Rucksack, was den Energieverbrauch im Vergleich zum Gehen ohne Last erhöht."
+    },
+    {
+      "q": "Kann ich diesen Rechner für jede Rucking-Sitzung verwenden?",
+      "a": "Ja, er funktioniert für Outdoor- oder Indoor-Rucks mit einstellbaren Einstellungen."
+    },
+    {
+      "q": "Warum ist die Ruhestoffwechselrate nicht enthalten?",
+      "a": "Der Fokus liegt auf Kalorien, die beim aktiven Rucking verbrannt werden; Ruheenergie variiert stark zwischen Individuen."
+    },
+    {
+      "q": "Welches Tempo sollte ich verwenden?",
+      "a": "Verwenden Sie Ihre durchschnittliche Gehgeschwindigkeit. Wenn sie variiert, passt die Dauereingabe die Schätzung an."
+    },
+    {
+      "q": "Beeinflusst das Gelände wirklich den Kalorienverbrauch?",
+      "a": "Ja. Hügel und unebene Oberflächen erfordern mehr Anstrengung als flacher Boden."
+    },
+    {
+      "q": "Sollte ich das Rucksackgewicht erhöhen, um mehr Kalorien zu verbrennen?",
+      "a": "Schwerere Lasten erhöhen den Kalorienverbrauch, aber wählen Sie immer Gewichte, die Sie sicher handhaben können, ohne die Haltung zu beeinträchtigen."
+    },
+    {
+      "q": "Sind die Ergebnisse präzise?",
+      "a": "Die Ergebnisse sind Schätzungen basierend auf validierten lastangepassten Methoden, keine exakten Messungen."
+    },
+    {
+      "q": "Können Fitness-Tracker ähnliche Schätzungen liefern?",
+      "a": "Die meisten Tracker unterschätzen Rucking-Kalorien, weil sie das Tragen von Lasten nicht vollständig berücksichtigen."
+    },
+    {
+      "q": "Wie oft sollte ich für Fitness oder Gewichtsverlust rucken?",
+      "a": "Die Häufigkeit hängt von Ihrem Fitnesslevel und Ihrer Erholung ab; verwenden Sie den Rechner, um Volumen und Intensität zu planen."
+    },
+    {
+      "q": "Kann ich dies für Rennen- oder Event-Training verwenden?",
+      "a": "Ja; es hilft, Trainingsintensität und Kalorienerwartungen für gewichtete Märsche oder Rucking-Events zu planen."
+    },
+    {
+      "q": "Welche Formel wird verwendet?",
+      "a": "Die Pandolf-Gleichung mit Gelände- und Steigungskorrekturen – validiert durch die US-Armee und aktualisiert für moderne Forschung."
+    }
+  ]
+}

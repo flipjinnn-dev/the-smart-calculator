@@ -2120,6 +2120,38 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calculadora, puntos, críticos, encuentra, máximos, mínimos, calcula, funciones, rápidamente, ideal, matemáticas, análisis, cálculo, ingresa, función"
     }
   },
+  'relative-extrema-calculator': {
+    en: {
+      title: "Relative Extrema Calculator - Find Maxima, Minima & Saddle Points",
+      description: "Find all relative maxima, minima, and saddle points with detailed step-by-step solutions using first and second derivative tests.",
+      slug: "/maths/relative-extrema-calculator",
+      keywords: "relative extrema, calculator, maxima, minima, saddle points, critical points, second derivative test, calculus, optimization"
+    },
+    pl: {
+      title: "Kalkulator Ekstremów Względnych – Maksima i Minima",
+      description: "Znajdź wszystkie ekstrema względne funkcji z testem drugiej pochodnej. Oblicz maksima, minima i punkty siodłowe krok po kroku.",
+      slug: "/pl/matematyka/kalkulator-ekstremow-wzglednych",
+      keywords: "ekstrema względne, maksimum, minimum, punkt siodłowy, pochodna, analiza matematyczna"
+    },
+    br: {
+      title: "Calculadora de Extremos Relativos - Máximos e Mínimos",
+      description: "Encontre todos os extremos relativos de funções com teste da segunda derivada. Calcule máximos, mínimos e pontos de sela passo a passo.",
+      slug: "/br/matematica/calculadora-de-extremos-relativos",
+      keywords: "extremos relativos, máximo, mínimo, ponto de sela, derivada, cálculo, otimização"
+    },
+    de: {
+      title: "Relative Extrema Rechner - Maxima, Minima & Sattelpunkte",
+      description: "Finden Sie alle relativen Extrema mit dem zweiten Ableitungstest. Berechnen Sie Maxima, Minima und Sattelpunkte Schritt für Schritt.",
+      slug: "/de/mathe/relative-extrema-rechner",
+      keywords: "relative Extrema, Maximum, Minimum, Sattelpunkt, Ableitung, Analysis, Optimierung"
+    },
+    es: {
+      title: "Calculadora de Extremos Relativos - Máximos y Mínimos",
+      description: "Encuentra todos los extremos relativos con la prueba de la segunda derivada. Calcula máximos, mínimos y puntos de silla paso a paso.",
+      slug: "/es/matematicas/calculadora-de-extremos-relativos",
+      keywords: "extremos relativos, máximo, mínimo, punto de silla, derivada, cálculo, optimización"
+    }
+  },
   'simpsons-rule-calculator': {
     en: {
       title: "Simpson",
@@ -3327,6 +3359,38 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Convierte calificaciones usando el método de curva de calificación de raíz cuadrada con cálculos paso a paso",
       slug: "/es/matematicas/calculadora-de-curva-de-raiz-cuadrada",
       keywords: "curva de raíz cuadrada, calculadora de curva de calificaciones, curva de calificación, ajuste de calificaciones"
+    }
+  },
+  'rucking-calorie-calculator': {
+    en: {
+      title: "Rucking Calorie Calculator",
+      description: "Calculate calories burned during weighted walks (rucking) using the Pandolf equation. Estimate energy expenditure for military training and fitness.",
+      slug: "/health/rucking-calorie-calculator",
+      keywords: "rucking, calorie calculator, weighted walk, Pandolf equation, military training, ruck march, load carriage, hiking calories, backpack weight"
+    },
+    pl: {
+      title: "Kalkulator Kalorii Rucking",
+      description: "Oblicz kalorie spalone podczas marszu z obciążeniem (rucking) za pomocą równania Pandolfa. Oszacuj wydatek energetyczny dla treningu wojskowego i fitness.",
+      slug: "/pl/zdrowie/kalkulator-kalorii-rucking",
+      keywords: "rucking, kalkulator kalorii, marsz z obciążeniem, równanie Pandolfa, trening wojskowy, marsz z plecakiem, noszenie ciężaru, kalorie wędrówka"
+    },
+    br: {
+      title: "Calculadora de Calorias de Rucking",
+      description: "Calcule calorias queimadas durante caminhadas com peso (rucking) usando a equação de Pandolf. Estime o gasto energético para treinamento militar e fitness.",
+      slug: "/br/saude/calculadora-de-calorias-de-rucking",
+      keywords: "rucking, calculadora calorias, caminhada com peso, equação Pandolf, treinamento militar, marcha com mochila, transporte de carga, calorias trilha"
+    },
+    de: {
+      title: "Rucking Kalorien Rechner",
+      description: "Berechnen Sie verbrannte Kalorien beim gewichteten Gehen (Rucking) mit der Pandolf-Gleichung. Schätzen Sie den Energieverbrauch für militärisches Training und Fitness.",
+      slug: "/de/gesundheit/rucking-kalorien-rechner",
+      keywords: "rucking, kalorien rechner, gewichtetes gehen, Pandolf-Gleichung, militärisches training, rucksackmarsch, lasttragen, wandern kalorien"
+    },
+    es: {
+      title: "Calculadora de Calorías de Rucking",
+      description: "Calcule las calorías quemadas durante caminatas con peso (rucking) usando la ecuación de Pandolf. Estime el gasto energético para entrenamiento militar y fitness.",
+      slug: "/es/salud/calculadora-de-calorias-de-rucking",
+      keywords: "rucking, calculadora calorías, caminata con peso, ecuación Pandolf, entrenamiento militar, marcha con mochila, transporte de carga, calorías senderismo"
     }
   },
 };

@@ -1,0 +1,118 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Jak działa kalkulator kalorii rucking",
+      "content": "Szacowanie wydatku kalorycznego podczas ruckingu nie jest proste. Standardowe formuły kalorii dla chodzenia nie uwzględniają kosztów metabolicznych noszenia obciążenia. Ten kalkulator używa równania Pandolfa:\n\n$$M = 1.5W + 2.0(W + L)(\\frac{L}{W})^2 + \\eta(W + L)(1.5V^2 + 0.35VG)$$\n\nGdzie: $$W = Masa ciała,$$ $$L = Noszone obciążenie,$$ $$V = Prędkość,$$ $$G = Nachylenie (wzniesienie),$$ $$\\eta = Współczynnik terenu$$\n\nFormuła jest dostosowana do najnowszych badań dla rzeczywistej dokładności. Chociaż żaden model nie może idealnie przewidzieć wydatku energetycznego każdej osoby, użycie metody dostosowanej do obciążenia znacznie poprawia dokładność w porównaniu z metodami ogólnymi. Ten kalkulator szacuje spalone kalorie zarówno na godzinę, jak i dla całej sesji na podstawie Twoich danych."
+
+    },
+    {
+      "heading": "Kluczowe dane wejściowe",
+      "content": "Aby zapewnić spersonalizowane oszacowanie kalorii, wprowadzisz następujące informacje:",
+      "subSections": [
+        {
+          "heading": "Pola wejściowe",
+          "content": "- Masa ciała: Twoja masa ciała bez plecaka określa bazowy wydatek energetyczny.\n- Waga plecaka (obciążenie): Waga, którą nosisz, zwiększa energię potrzebną do ruchu.\n- Dystans lub tempo: Twoja prędkość chodzenia wpływa na spalone kalorie na minutę.\n- Czas trwania: Całkowity czas ruckingu zapewnia dokładny pomiar sesji bez ustalonego dystansu.\n- Teren i nachylenie: Typ terenu i nachylenie wpływają na poziom wysiłku; bardziej strome wzniesienia i wymagające powierzchnie wymagają więcej energii.\n- Przełącznik metryczny/imperialny: Automatyczne przełączanie między kg/km lub lbs/mile.\n\nŁącząc te zmienne, ten kalkulator dostarcza praktyczne oszacowanie kalorii dostosowane do Twojej sesji ruckingu."
+        }
+      ]
+    },
+    {
+      "heading": "Przykładowe oszacowania kalorii",
+      "content": "Na podstawie masy ciała 70kg, płaskiego terenu, tempa 5 km/h:",
+      "subSections": [
+        {
+          "heading": "Spalanie kalorii według obciążenia",
+          "content": "- 0 kg (chodzenie): ~300 kcal na godzinę\n- 10 kg: ~500 kcal na godzinę\n- 20 kg: ~700 kcal na godzinę\n\nRucking może spalić dwa do trzech razy więcej kalorii niż chodzenie w zależności od obciążenia i tempa, co czyni go skuteczną aktywnością treningową do utraty tłuszczu, wytrzymałości i rozwoju siły."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego czas trwania ma znaczenie",
+      "content": 
+        "Wiele kalkulatorów ruckingu szacuje kalorie tylko na podstawie dystansu lub tempa. Jednak rzeczywiste ruckingi często różnią się prędkością i terenem. Dane wejściowe czasu trwania uwzględniają sesje, w których dystans jest nieznany lub niespójny, takie jak ruckingi interwałowe, miejskie lub oparte na czasie. To zapewnia, że Twoje oszacowanie kalorii odzwierciedla całkowity aktywny czas pod obciążeniem, a nie tylko teoretyczny przebytydystans."
+
+    },
+    {
+      "heading": "Jakie wyniki otrzymasz",
+      "content": "Po wprowadzeniu swoich danych kalkulator wyświetli:",
+      "subSections": [
+        {
+          "heading": "Informacje wyjściowe",
+          "content": "- Szacowane spalone kalorie na godzinę\n- Całkowite spalone kalorie dla sesji\n- Oszacowania kalorii dostosowane do obciążenia, tempa i czasu trwania\n- Scenariusze \"Co jeśli\": Podwójne tempo? Dodaj 10kg? Zobacz natychmiastowe zmiany!\n\nTe wyniki pomagają porównywać różne sesje ruckingu, monitorować postępy i planować intensywność treningu w oparciu o Twoje cele, czy to utrata tłuszczu, wytrzymałość czy siła."
+        }
+      ]
+    },
+    {
+      "heading": "Wskazówki dotyczące korzystania z tego kalkulatora",
+      "content": "Praktyczne strategie uzyskania najdokładniejszych oszacowań kalorii:",
+      "subSections": [
+        {
+          "heading": "Najlepsze praktyki",
+          "content": "- Zacznij od realistycznych obciążeń i zwiększaj stopniowo w miarę poprawy siły.\n- Monitoruj swoje tempo; szybsze prędkości chodzenia zazwyczaj zwiększają spalanie kalorii, ale mogą zmniejszyć całkowity czas trwania sesji.\n- Uwzględnij dostosowania terenu i nachylenia dla lepszej dokładności oszacowania.\n- Użyj danych wejściowych czasu trwania dla ruckingów opartych na czasie, gdzie dystans nie jest śledzony.\n- Wskazówka: Dla użytkowników z Karaczi – zacznij od 10–15 kg na plażowych szlakach dla maksymalnego spalania kalorii."
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego ten kalkulator zapewnia lepsze oszacowania",
+      "content": 
+        "Większość ogólnych kalkulatorów kalorii niedoszacowuje wydatku energetycznego ruckingu, ponieważ ignorują zewnętrzne obciążenie i samodzielne dane wejściowe czasu trwania. To narzędzie bezpośrednio uwzględnia czas trwania w ruckingach interwałowych/miejskich i zawiera dostosowania terenu/nachylenia dla dokładnych oszacowań w rzeczywistych warunkach."
+
+    },
+    {
+      "heading": "Ważne uwagi",
+      "content": "Pamiętaj o tych czynnikach podczas korzystania z kalkulatora:",
+      "subSections": [
+        {
+          "heading": "Uwagi dotyczące dokładności",
+          "content": "- Oszacowania, a nie dokładne pomiary: Przewidywania kalorii są przybliżone; rzeczywisty wydatek zależy od indywidualnej fizjologii, środowiska i wysiłku.\n- Podstawowy wskaźnik metaboliczny (BMR) nie jest uwzględniony: Kalkulator koncentruje się na aktywnych kaloriach spalonych podczas ruckingu.\n- Zmienność w zależności od warunków: Teren, pogoda, dopasowanie plecaka i osobiste kondycjonowanie mogą wpływać na spalanie kalorii."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Czym różni się rucking od chodzenia?",
+      "a": "Rucking obejmuje ważony plecak, zwiększając wydatek energetyczny w porównaniu do chodzenia bez obciążenia."
+    },
+    {
+      "q": "Czy mogę używać tego kalkulatora do każdej sesji ruckingu?",
+      "a": "Tak, działa dla ruckingów na zewnątrz lub w pomieszczeniach z regulowanymi ustawieniami."
+    },
+    {
+      "q": "Dlaczego nie uwzględniono spoczynkowego wskaźnika metabolicznego?",
+      "a": "Skupiamy się na kaloriach spalonych podczas aktywnego ruckingu; energia spoczynkowa różni się znacznie między osobami."
+    },
+    {
+      "q": "Jakiego tempa powinienem użyć?",
+      "a": "Użyj swojej średniej prędkości chodzenia. Jeśli się zmienia, dane wejściowe czasu trwania dostosują oszacowanie."
+    },
+    {
+      "q": "Czy teren naprawdę wpływa na spalanie kalorii?",
+      "a": "Tak. Wzgórza i nierówne powierzchnie wymagają więcej wysiłku niż płaski grunt."
+    },
+    {
+      "q": "Czy powinienem zwiększyć wagę plecaka, aby spalić więcej kalorii?",
+      "a": "Cięższe obciążenia zwiększają spalanie kalorii, ale zawsze wybieraj wagi, które możesz bezpiecznie zarządzać bez naruszania postawy."
+    },
+    {
+      "q": "Czy wyniki są precyzyjne?",
+      "a": "Wyniki są oszacowaniami opartymi na zwalidowanych metodach dostosowanych do obciążenia, a nie dokładnymi pomiarami."
+    },
+    {
+      "q": "Czy trackery fitness mogą zapewnić podobne oszacowania?",
+      "a": "Większość trackerów niedoszacowuje kalorii ruckingu, ponieważ nie uwzględniają w pełni noszenia obciążenia."
+    },
+    {
+      "q": "Jak często powinienem uprawiać rucking dla fitness lub utraty wagi?",
+      "a": "Częstotliwość zależy od Twojego poziomu fitness i regeneracji; użyj kalkulatora do planowania objętości i intensywności."
+    },
+    {
+      "q": "Czy mogę używać tego do treningu wyścigowego lub eventowego?",
+      "a": "Tak; pomaga planować intensywność treningu i oczekiwania kaloryczne dla marszów z obciążeniem lub eventów ruckingowych."
+    },
+    {
+      "q": "Która formuła jest używana?",
+      "a": "Równanie Pandolfa z korektami terenu i nachylenia – zwalidowane przez armię USA i zaktualizowane dla nowoczesnych badań."
+    }
+  ]
+}

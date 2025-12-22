@@ -1,0 +1,159 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Czym są Ekstrema Względne?",
+      "content": "Ekstrema względne to lokalne szczyty i doliny wykresu funkcji. Maksimum Lokalne występuje gdzie f(c) ≥ f(x) dla wszystkich x blisko c (krzywa w dół ∩). Minimum Lokalne występuje gdzie f(c) ≤ f(x) dla wszystkich x blisko c (krzywa w górę ∪). W przeciwieństwie do ekstremów absolutnych (globalny maksimum/minimum), ekstrema względne zależą tylko od wartości pobliskich."
+    },
+    {
+      "heading": "Jak Działa Kalkulator",
+      "content": "Kalkulator używa systematycznego procesu 3-krokowego do znajdowania i klasyfikowania ekstremów względnych.",
+      "subSections": [
+        {
+          "heading": "Krok 1: Pierwsza Pochodna",
+          "content": "Kalkulator oblicza f'(x) = d/dx f(x). Ustawiając f'(x) = 0 otrzymujemy punkty krytyczne, gdzie mogą występować ekstrema."
+        },
+        {
+          "heading": "Krok 2: Punkty Krytyczne",
+          "content": "Punkty krytyczne to wartości x gdzie f'(x) = 0 lub f'(x) jest nieokreślona. To wszystkie punkty kandydujące na maksima lub minima względne."
+        },
+        {
+          "heading": "Krok 3: Testy Klasyfikacji",
+          "content": "Test Drugiej Pochodnej: f''(c) > 0 oznacza Minimum Lokalne, f''(c) < 0 oznacza Maksimum Lokalne, f''(c) = 0 jest Nierozstrzygające. Test Pierwszej Pochodnej: Sprawdź zmianę znaku f'(x) wokół każdego punktu krytycznego."
+        }
+      ]
+    },
+    {
+      "heading": "Podstawowe Wzory",
+      "content": "Pierwsza Pochodna: f'(x) = d/dx f(x). Druga Pochodna: f''(x) = d²/dx² f(x). Te wzory są podstawą do znajdowania i klasyfikowania ekstremów."
+    },
+    {
+      "heading": "Szczegółowy Przykład",
+      "content": "Funkcja: f(x) = x³ - 3x² + 2. Pierwsza Pochodna: f'(x) = 3x² - 6x = 3x(x-2), dając punkty krytyczne x = 0, 2. Druga Pochodna: f''(x) = 6x - 6. W x=0: f''(0) = -6 < 0, więc Maksimum Lokalne. W x=2: f''(2) = 6 > 0, więc Minimum Lokalne. Wartości: f(0) = 2, f(2) = -6. Wynik: Maks(0, 2), Min(2, -6). Interaktywny Wykres pokazuje szczyt w x=0, dolinę w x=2, z nakładką pochodnej."
+    },
+    {
+      "heading": "Dlaczego Używać Tego Kalkulatora?",
+      "subSections": [
+        {
+          "heading": "Natychmiastowe Wyniki",
+          "content": "Rozwiązuj nawet złożone funkcje w sekundach bez ręcznych obliczeń."
+        },
+        {
+          "heading": "Rozwiązania Krok po Kroku",
+          "content": "Pełne obliczenia pochodnych wyjaśnione jasno do nauki."
+        },
+        {
+          "heading": "Interaktywne Wykresy",
+          "content": "Wykresy z powiększeniem i zaznaczonymi ekstremami do wizualnego zrozumienia."
+        },
+        {
+          "heading": "100% Darmowy",
+          "content": "Bez płatnych barier lub subskrypcji, nieograniczone użycie."
+        },
+        {
+          "heading": "Dokładny i Bezbłędny",
+          "content": "Rozwiązywanie symboliczne i numeryczne włączone dla precyzji."
+        }
+      ]
+    },
+    {
+      "heading": "Obsługiwane Funkcje",
+      "subSections": [
+        {
+          "heading": "Funkcje Wielomianowe",
+          "content": "x^n + ... dla dowolnego stopnia wielomianu."
+        },
+        {
+          "heading": "Funkcje Trygonometryczne",
+          "content": "sin(x), cos(x), tan(x) z wykrywaniem ekstremów okresowych."
+        },
+        {
+          "heading": "Funkcje Wykładnicze",
+          "content": "e^x i inne wyrażenia wykładnicze."
+        },
+        {
+          "heading": "Funkcje Logarytmiczne",
+          "content": "ln(x) i funkcje log."
+        },
+        {
+          "heading": "Funkcje Przedziałami",
+          "content": "Funkcje zdefiniowane w wielu częściach."
+        }
+      ]
+    },
+    {
+      "heading": "Ekstrema Względne vs Absolutne",
+      "content": "Zrozumienie różnicy między ekstremami lokalnymi a globalnymi.",
+      "subSections": [
+        {
+          "heading": "Ekstrema Względne",
+          "content": "Zakres: Lokalne sąsiedztwo. Liczba: Wiele możliwych. Test: f'(x) = 0. Przykład: f(x) = x³ ma min w x=0."
+        },
+        {
+          "heading": "Ekstrema Absolutne",
+          "content": "Zakres: Cała dziedzina. Liczba: Jedno maks, jedno min. Test: f'(x) = 0 plus punkty końcowe. Przykład: Sprawdź również granice."
+        }
+      ]
+    },
+    {
+      "heading": "Jak Używać Tego Kalkulatora",
+      "content": "Używanie kalkulatora jest szybkie i proste. Po prostu wprowadź swoją funkcję i uzyskaj natychmiastowe wyniki.",
+      "subSections": [
+        {
+          "heading": "Krok 1: Wprowadź Funkcję",
+          "content": "Wprowadź swoją funkcję, np. x^3-3x^2+2 lub sin(x)+x."
+        },
+        {
+          "heading": "Krok 2: Ustaw Przedział (Opcjonalnie)",
+          "content": "Opcjonalnie ustaw przedział [a,b] aby ograniczyć dziedzinę."
+        },
+        {
+          "heading": "Krok 3: Oblicz",
+          "content": "Kliknij Oblicz aby zobaczyć punkty, testy pochodnych, wykres i eksportuj PDF. Przykład Trygonometryczny: f(x) = x - 2sin(x) daje punkty krytyczne w przybliżeniu x=2.83 (maks), x=6.07 (min), z pełnym interaktywnym wykresem."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co oblicza ten kalkulator?",
+      "a": "Znajduje maksima i minima lokalne używając pochodnych, punktów krytycznych i testów klasyfikacji."
+    },
+    {
+      "q": "Jaka jest różnica między ekstremami względnymi a absolutnymi?",
+      "a": "Ekstrema względne to lokalne szczyty/doliny; ekstrema absolutne to najwyższe/najniższe w całej funkcji."
+    },
+    {
+      "q": "Jak znajduje punkty krytyczne?",
+      "a": "Rozwiązuje f'(x) = 0 symbolicznie (dla wielomianów) lub numerycznie (dla funkcji trygonometrycznych/wykładniczych)."
+    },
+    {
+      "q": "Co jeśli druga pochodna równa się zero?",
+      "a": "Kalkulator automatycznie używa testu pierwszej pochodnej (zmiana znaku) do klasyfikacji punktu."
+    },
+    {
+      "q": "Czy obsługuje funkcje trygonometryczne?",
+      "a": "Tak, włącznie z sin(x), cos(x), tan(x) z wykrywaniem ekstremów okresowych."
+    },
+    {
+      "q": "Czy mogę używać go dla funkcji wielowymiarowych?",
+      "a": "Podstawowe wsparcie używając pochodnych cząstkowych fx = fy = 0."
+    },
+    {
+      "q": "Czy mogę wprowadzać funkcje przedziałami?",
+      "a": "Tak, używając standardowej notacji jak if(x<0, x^2, -x)."
+    },
+    {
+      "q": "Czy wykresy są dołączone?",
+      "a": "Tak, interaktywne wykresy z powiększeniem zaznaczają maksima (🔴) i minima (🔵)."
+    },
+    {
+      "q": "Czy jest lepszy niż Wolfram Alpha lub Symbolab?",
+      "a": "Tak, nieograniczone darmowe rozwiązania krok po kroku z interaktywnymi wykresami, bez premium."
+    },
+    {
+      "q": "Czy jest przyjazny dla urządzeń mobilnych?",
+      "a": "Całkowicie responsywny na iPhone, Android, tablety i komputery na całym świecie."
+    }
+  ]
+}

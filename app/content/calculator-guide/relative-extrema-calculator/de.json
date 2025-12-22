@@ -1,0 +1,159 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Was sind relative Extrema?",
+      "content": "Relative Extrema sind lokale Spitzen und Täler des Funktionsgraphen. Ein Lokales Maximum tritt auf, wo f(c) ≥ f(x) für alle x nahe c (Kurve nach unten ∩). Ein Lokales Minimum tritt auf, wo f(c) ≤ f(x) für alle x nahe c (Kurve nach oben ∪). Im Gegensatz zu absoluten Extrema (globales Maximum/Minimum) hängen relative Extrema nur von nahen Werten ab."
+    },
+    {
+      "heading": "Wie der Rechner funktioniert",
+      "content": "Der Rechner verwendet einen systematischen 3-Schritt-Prozess zum Finden und Klassifizieren relativer Extrema.",
+      "subSections": [
+        {
+          "heading": "Schritt 1: Erste Ableitung",
+          "content": "Der Rechner berechnet f'(x) = d/dx f(x). Das Setzen von f'(x) = 0 ergibt kritische Punkte, wo Extrema auftreten können."
+        },
+        {
+          "heading": "Schritt 2: Kritische Punkte",
+          "content": "Kritische Punkte sind Werte von x, wo f'(x) = 0 oder f'(x) undefiniert ist. Dies sind alle Kandidatenpunkte für relative Maxima oder Minima."
+        },
+        {
+          "heading": "Schritt 3: Klassifizierungstests",
+          "content": "Test der zweiten Ableitung: f''(c) > 0 bedeutet Lokales Minimum, f''(c) < 0 bedeutet Lokales Maximum, f''(c) = 0 ist Nicht schlüssig. Test der ersten Ableitung: Überprüfen Sie die Vorzeichenänderung von f'(x) um jeden kritischen Punkt."
+        }
+      ]
+    },
+    {
+      "heading": "Kernformeln",
+      "content": "Erste Ableitung: f'(x) = d/dx f(x). Zweite Ableitung: f''(x) = d²/dx² f(x). Diese Formeln sind die Grundlage zum Finden und Klassifizieren von Extrema."
+    },
+    {
+      "heading": "Detailliertes Beispiel",
+      "content": "Funktion: f(x) = x³ - 3x² + 2. Erste Ableitung: f'(x) = 3x² - 6x = 3x(x-2), ergibt kritische Punkte x = 0, 2. Zweite Ableitung: f''(x) = 6x - 6. Bei x=0: f''(0) = -6 < 0, also Lokales Maximum. Bei x=2: f''(2) = 6 > 0, also Lokales Minimum. Werte: f(0) = 2, f(2) = -6. Ergebnis: Max(0, 2), Min(2, -6). Interaktiver Graph zeigt Spitze bei x=0, Tal bei x=2, mit Ableitungsüberlagerung."
+    },
+    {
+      "heading": "Warum diesen Rechner verwenden?",
+      "subSections": [
+        {
+          "heading": "Sofortige Ergebnisse",
+          "content": "Lösen Sie selbst komplexe Funktionen in Sekunden ohne manuelle Berechnungen."
+        },
+        {
+          "heading": "Schritt-für-Schritt-Lösungen",
+          "content": "Vollständige Ableitungsberechnungen klar zum Lernen erklärt."
+        },
+        {
+          "heading": "Interaktive Grafiken",
+          "content": "Zoombare Diagramme mit markierten Extrema zum visuellen Verständnis."
+        },
+        {
+          "heading": "100% Kostenlos",
+          "content": "Keine Bezahlschranken oder Abonnements erforderlich, unbegrenzte Nutzung."
+        },
+        {
+          "heading": "Genau und Fehlerfrei",
+          "content": "Symbolisches und numerisches Lösen für Präzision enthalten."
+        }
+      ]
+    },
+    {
+      "heading": "Unterstützte Funktionen",
+      "subSections": [
+        {
+          "heading": "Polynomfunktionen",
+          "content": "x^n + ... für jeden Polynomgrad."
+        },
+        {
+          "heading": "Trigonometrische Funktionen",
+          "content": "sin(x), cos(x), tan(x) mit periodischer Extrema-Erkennung."
+        },
+        {
+          "heading": "Exponentialfunktionen",
+          "content": "e^x und andere Exponentialausdrücke."
+        },
+        {
+          "heading": "Logarithmische Funktionen",
+          "content": "ln(x) und log-Funktionen."
+        },
+        {
+          "heading": "Stückweise Funktionen",
+          "content": "Funktionen, die in mehreren Teilen definiert sind."
+        }
+      ]
+    },
+    {
+      "heading": "Relative vs Absolute Extrema",
+      "content": "Den Unterschied zwischen lokalen und globalen Extrema verstehen.",
+      "subSections": [
+        {
+          "heading": "Relative Extrema",
+          "content": "Bereich: Lokale Nachbarschaft. Anzahl: Mehrere möglich. Test: f'(x) = 0. Beispiel: f(x) = x³ hat min bei x=0."
+        },
+        {
+          "heading": "Absolute Extrema",
+          "content": "Bereich: Gesamter Definitionsbereich. Anzahl: Ein Max, ein Min. Test: f'(x) = 0 plus Endpunkte. Beispiel: Grenzen auch prüfen."
+        }
+      ]
+    },
+    {
+      "heading": "Wie man diesen Rechner verwendet",
+      "content": "Die Verwendung des Rechners ist schnell und unkompliziert. Geben Sie einfach Ihre Funktion ein und erhalten Sie sofortige Ergebnisse.",
+      "subSections": [
+        {
+          "heading": "Schritt 1: Funktion eingeben",
+          "content": "Geben Sie Ihre Funktion ein, z.B. x^3-3x^2+2 oder sin(x)+x."
+        },
+        {
+          "heading": "Schritt 2: Intervall festlegen (Optional)",
+          "content": "Optional ein Intervall [a,b] festlegen, um den Definitionsbereich einzuschränken."
+        },
+        {
+          "heading": "Schritt 3: Berechnen",
+          "content": "Klicken Sie auf Berechnen, um Punkte, Ableitungstests, Grafik zu sehen und PDF zu exportieren. Trigonometrisches Beispiel: f(x) = x - 2sin(x) ergibt kritische Punkte bei ungefähr x=2.83 (max), x=6.07 (min), mit vollständigem interaktivem Graphen."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was berechnet dieser Rechner?",
+      "a": "Er findet lokale Maxima und Minima unter Verwendung von Ableitungen, kritischen Punkten und Klassifizierungstests."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen relativen und absoluten Extrema?",
+      "a": "Relative Extrema sind lokale Spitzen/Täler; absolute Extrema sind die höchsten/niedrigsten über die gesamte Funktion."
+    },
+    {
+      "q": "Wie findet er kritische Punkte?",
+      "a": "Er löst f'(x) = 0 symbolisch (für Polynome) oder numerisch (für trigonometrische/Exponentialfunktionen)."
+    },
+    {
+      "q": "Was ist, wenn die zweite Ableitung null ist?",
+      "a": "Der Rechner verwendet automatisch den Test der ersten Ableitung (Vorzeichenwechsel), um den Punkt zu klassifizieren."
+    },
+    {
+      "q": "Unterstützt er trigonometrische Funktionen?",
+      "a": "Ja, einschließlich sin(x), cos(x), tan(x) mit periodischer Extrema-Erkennung."
+    },
+    {
+      "q": "Kann ich ihn für mehrdimensionale Funktionen verwenden?",
+      "a": "Grundlegende Unterstützung unter Verwendung partieller Ableitungen fx = fy = 0."
+    },
+    {
+      "q": "Kann ich stückweise Funktionen eingeben?",
+      "a": "Ja, unter Verwendung der Standardnotation wie if(x<0, x^2, -x)."
+    },
+    {
+      "q": "Sind Grafiken enthalten?",
+      "a": "Ja, interaktive, zoombare Diagramme markieren Maxima (🔴) und Minima (🔵)."
+    },
+    {
+      "q": "Ist er besser als Wolfram Alpha oder Symbolab?",
+      "a": "Ja, unbegrenzte kostenlose Schritt-für-Schritt-Lösungen mit interaktiven Grafiken, kein Premium erforderlich."
+    },
+    {
+      "q": "Ist er mobilfreundlich?",
+      "a": "Vollständig responsiv auf iPhone, Android, Tablets und Desktop weltweit."
+    }
+  ]
+}

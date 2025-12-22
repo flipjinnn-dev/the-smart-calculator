@@ -1,0 +1,159 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "What Are Relative Extrema?",
+      "content": "Relative extrema are local peaks and valleys of a function's graph. A Local Maximum occurs where f(c) ≥ f(x) for all x near c (downward curve ∩). A Local Minimum occurs where f(c) ≤ f(x) for all x near c (upward curve ∪). Unlike absolute extrema (global high/low), relative extrema depend on nearby values only."
+    },
+    {
+      "heading": "How the Calculator Works",
+      "content": "The calculator uses a systematic 3-step process to find and classify relative extrema.",
+      "subSections": [
+        {
+          "heading": "Step 1: First Derivative",
+          "content": "The calculator computes f'(x) = d/dx f(x). Setting f'(x) = 0 gives critical points where extrema may occur."
+        },
+        {
+          "heading": "Step 2: Critical Points",
+          "content": "Critical points are values of x where f'(x) = 0 or f'(x) is undefined. These are all candidate points for relative maxima or minima."
+        },
+        {
+          "heading": "Step 3: Classification Tests",
+          "content": "Second Derivative Test: f''(c) > 0 means Local Minimum, f''(c) < 0 means Local Maximum, f''(c) = 0 is Inconclusive. First Derivative Test: Check the sign change of f'(x) around each critical point."
+        }
+      ]
+    },
+    {
+      "heading": "Core Formulas",
+      "content": "First Derivative: f'(x) = d/dx f(x). Second Derivative: f''(x) = d²/dx² f(x). These formulas are the foundation for finding and classifying extrema."
+    },
+    {
+      "heading": "Detailed Example",
+      "content": "Function: f(x) = x³ - 3x² + 2. First Derivative: f'(x) = 3x² - 6x = 3x(x-2), giving critical points x = 0, 2. Second Derivative: f''(x) = 6x - 6. At x=0: f''(0) = -6 < 0, so Local Max. At x=2: f''(2) = 6 > 0, so Local Min. Values: f(0) = 2, f(2) = -6. Result: Max(0, 2), Min(2, -6). Interactive Graph shows peak at x=0, valley at x=2, with derivative overlay."
+    },
+    {
+      "heading": "Why Use This Calculator?",
+      "subSections": [
+        {
+          "heading": "Instant Results",
+          "content": "Solve even complex functions in seconds without manual calculations."
+        },
+        {
+          "heading": "Step-by-Step Solutions",
+          "content": "Full derivative calculations explained clearly for learning."
+        },
+        {
+          "heading": "Interactive Graphs",
+          "content": "Zoomable plots with marked extrema for visual understanding."
+        },
+        {
+          "heading": "100% Free",
+          "content": "No paywalls or subscriptions required, unlimited use."
+        },
+        {
+          "heading": "Accurate & Error-Free",
+          "content": "Symbolic and numerical solving included for precision."
+        }
+      ]
+    },
+    {
+      "heading": "Supported Functions",
+      "subSections": [
+        {
+          "heading": "Polynomial Functions",
+          "content": "x^n + ... for any degree polynomial."
+        },
+        {
+          "heading": "Trigonometric Functions",
+          "content": "sin(x), cos(x), tan(x) with periodic extrema detection."
+        },
+        {
+          "heading": "Exponential Functions",
+          "content": "e^x and other exponential expressions."
+        },
+        {
+          "heading": "Logarithmic Functions",
+          "content": "ln(x) and log functions."
+        },
+        {
+          "heading": "Piecewise Functions",
+          "content": "Functions defined in multiple pieces."
+        }
+      ]
+    },
+    {
+      "heading": "Relative vs Absolute Extrema",
+      "content": "Understanding the difference between local and global extrema.",
+      "subSections": [
+        {
+          "heading": "Relative Extrema",
+          "content": "Scope: Local neighborhood. Number: Multiple possible. Test: f'(x) = 0. Example: f(x) = x³ has min at x=0."
+        },
+        {
+          "heading": "Absolute Extrema",
+          "content": "Scope: Entire domain. Number: One max, one min. Test: f'(x) = 0 plus endpoints. Example: Check boundaries as well."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Using the calculator is quick and straightforward. Just enter your function and get instant results.",
+      "subSections": [
+        {
+          "heading": "Step 1: Enter Function",
+          "content": "Enter your function, e.g., x^3-3x^2+2 or sin(x)+x."
+        },
+        {
+          "heading": "Step 2: Set Interval (Optional)",
+          "content": "Optionally set an interval [a,b] to restrict the domain."
+        },
+        {
+          "heading": "Step 3: Calculate",
+          "content": "Click Calculate to see points, derivative tests, graph, and export PDF. Trig Example: f(x) = x - 2sin(x) gives critical points at approximately x=2.83 (max), x=6.07 (min), with full interactive graph."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What does this calculator compute?",
+      "a": "It finds local maxima and minima using derivatives, critical points, and classification tests."
+    },
+    {
+      "q": "What's the difference between relative and absolute extrema?",
+      "a": "Relative extrema are local peaks/valleys; absolute extrema are the highest/lowest over the entire function."
+    },
+    {
+      "q": "How does it find critical points?",
+      "a": "It solves f'(x) = 0 symbolically (for polynomials) or numerically (for trig/exponential functions)."
+    },
+    {
+      "q": "What if the second derivative equals zero?",
+      "a": "The calculator automatically uses the first derivative test (sign change) to classify the point."
+    },
+    {
+      "q": "Does it support trigonometric functions?",
+      "a": "Yes, including sin(x), cos(x), tan(x) with periodic extrema detection."
+    },
+    {
+      "q": "Can I use it for multivariable functions?",
+      "a": "Basic support using partial derivatives fx = fy = 0."
+    },
+    {
+      "q": "Can I input piecewise functions?",
+      "a": "Yes, using standard notation like if(x<0, x^2, -x)."
+    },
+    {
+      "q": "Are graphs included?",
+      "a": "Yes, interactive, zoomable plots mark maxima (🔴) and minima (🔵)."
+    },
+    {
+      "q": "Is it better than Wolfram Alpha or Symbolab?",
+      "a": "Yes, unlimited free step-by-step solutions with interactive graphs, no premium required."
+    },
+    {
+      "q": "Is it mobile-friendly?",
+      "a": "Fully responsive on iPhone, Android, tablets, and desktop worldwide."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Como funciona a Calculadora de Calorias de Rucking",
+      "content": "Estimar o gasto calórico durante o rucking não é simples. Fórmulas padrão de calorias de caminhada não consideram o custo metabólico de carregar uma carga. Esta calculadora usa a Equação de Pandolf:\n\n$$M = 1.5W + 2.0(W + L)(\\frac{L}{W})^2 + \\eta(W + L)(1.5V^2 + 0.35VG)$$\n\nOnde: $$W = Peso corporal,$$ $$L = Carga transportada,$$ $$V = Velocidade,$$ $$G = Inclinação,$$ $$\\eta = Fator de terreno$$\n\nA fórmula é ajustada com as pesquisas mais recentes para precisão no mundo real. Embora nenhum modelo possa prever perfeitamente o gasto energético de cada indivíduo, usar um método ajustado para carga melhora significativamente a precisão em relação aos métodos genéricos. Esta calculadora estima calorias queimadas por hora e para toda a sessão com base em suas entradas."
+
+    },
+    {
+      "heading": "Entradas principais",
+      "content": "Para fornecer uma estimativa personalizada de calorias, você inserirá as seguintes informações:",
+      "subSections": [
+        {
+          "heading": "Campos de entrada",
+          "content": "- Peso Corporal: Seu peso corporal sem a mochila determina o gasto energético basal.\n- Peso da Mochila (Carga): O peso que você carrega aumenta a energia necessária para se mover.\n- Distância ou Ritmo: Sua velocidade de caminhada influencia as calorias queimadas por minuto.\n- Duração (Tempo): O tempo total de rucking garante que sessões sem distância fixa sejam medidas com precisão.\n- Terreno e Inclinação: O tipo de terreno e inclinação afetam o nível de esforço; inclinações mais íngremes e superfícies desafiadoras requerem mais energia.\n- Alternância Métrica/Imperial: Alterne entre kg/km ou lbs/milhas automaticamente.\n\nCombinando essas variáveis, esta calculadora fornece uma estimativa prática de calorias adaptada à sua sessão de rucking."
+        }
+      ]
+    },
+    {
+      "heading": "Estimativas de calorias de amostra",
+      "content": "Com base em peso corporal de 70kg, terreno plano, ritmo de 5 km/h:",
+      "subSections": [
+        {
+          "heading": "Queima de calorias por carga",
+          "content": "- 0 kg (Caminhada): ~300 kcal por hora\n- 10 kg: ~500 kcal por hora\n- 20 kg: ~700 kcal por hora\n\nO rucking pode queimar duas a três vezes mais calorias do que caminhar, dependendo da carga e do ritmo, tornando-o uma atividade de treinamento eficaz para perda de gordura, resistência e desenvolvimento de força."
+        }
+      ]
+    },
+    {
+      "heading": "Por que a duração importa",
+      "content": 
+        "Muitas calculadoras de rucking estimam calorias com base apenas na distância ou ritmo. No entanto, ruckings do mundo real frequentemente variam em velocidade e terreno. A entrada de duração considera sessões onde a distância é desconhecida ou inconsistente, como ruckings intervalados, urbanos ou baseados em tempo. Isso garante que sua estimativa de calorias reflita o tempo ativo total sob carga, não apenas a distância teórica percorrida."
+
+    },
+    {
+      "heading": "Quais resultados você receberá",
+      "content": "Após inserir seus detalhes, a calculadora exibirá:",
+      "subSections": [
+        {
+          "heading": "Informações de saída",
+          "content": "- Calorias estimadas queimadas por hora\n- Total de calorias queimadas para a sessão\n- Estimativas de calorias ajustadas para carga, ritmo e duração\n- Cenários \"E se\": Dobrar o ritmo? Adicionar 10kg? Veja mudanças instantâneas!\n\nEsses resultados ajudam você a comparar diferentes sessões de rucking, monitorar o progresso e planejar a intensidade do treinamento com base em seus objetivos, seja perda de gordura, resistência ou força."
+        }
+      ]
+    },
+    {
+      "heading": "Dicas para usar esta calculadora",
+      "content": "Estratégias práticas para obter as estimativas de calorias mais precisas:",
+      "subSections": [
+        {
+          "heading": "Melhores práticas",
+          "content": "- Comece com cargas realistas e aumente gradualmente conforme sua força melhora.\n- Monitore seu ritmo; velocidades de caminhada mais rápidas geralmente aumentam a queima de calorias, mas podem reduzir a duração total da sessão.\n- Inclua ajustes de terreno e inclinação para melhor precisão da estimativa.\n- Use a entrada de duração para ruckings baseados em tempo onde a distância não é rastreada.\n- Dica: Para usuários de Karachi – comece com 10–15 kg em trilhas de praia para máxima queima de calorias."
+        }
+      ]
+    },
+    {
+      "heading": "Por que esta calculadora fornece estimativas superiores",
+      "content": 
+        "A maioria das calculadoras genéricas de calorias subestima o gasto energético do rucking porque ignoram a carga externa e a entrada de duração independente. Esta ferramenta considera diretamente a duração em ruckings intervalados/urbanos e inclui ajustes de terreno/inclinação para estimativas precisas do mundo real."
+    },
+    {
+      "heading": "Considerações importantes",
+      "content": "Mantenha esses fatores em mente ao usar a calculadora:",
+      "subSections": [
+        {
+          "heading": "Notas de precisão",
+          "content": "- Estimativas, não medições exatas: As previsões de calorias são aproximadas; o gasto real depende da fisiologia individual, ambiente e esforço.\n- Taxa Metabólica Basal (TMB) não incluída: A calculadora se concentra nas calorias ativas queimadas durante o rucking.\n- Variação por condições: Terreno, clima, ajuste da mochila e condicionamento pessoal podem influenciar a queima de calorias."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como o rucking difere da caminhada?",
+      "a": "O rucking inclui uma mochila com peso, aumentando o gasto energético em comparação com a caminhada sem carga."
+    },
+    {
+      "q": "Posso usar esta calculadora para qualquer sessão de rucking?",
+      "a": "Sim, funciona para ruckings ao ar livre ou internos com configurações ajustáveis."
+    },
+    {
+      "q": "Por que a taxa metabólica de repouso não está incluída?",
+      "a": "O foco está nas calorias queimadas do rucking ativo; a energia de repouso varia amplamente entre indivíduos."
+    },
+    {
+      "q": "Qual ritmo devo usar?",
+      "a": "Use sua velocidade média de caminhada. Se variar, a entrada de duração ajusta a estimativa."
+    },
+    {
+      "q": "O terreno realmente afeta a queima de calorias?",
+      "a": "Sim. Colinas e superfícies irregulares requerem mais esforço do que terreno plano."
+    },
+    {
+      "q": "Devo aumentar o peso da mochila para queimar mais calorias?",
+      "a": "Cargas mais pesadas aumentam a queima de calorias, mas sempre escolha pesos que você possa gerenciar com segurança sem comprometer a postura."
+    },
+    {
+      "q": "Os resultados são precisos?",
+      "a": "Os resultados são estimativas baseadas em métodos validados ajustados para carga, não medições exatas."
+    },
+    {
+      "q": "Os rastreadores de fitness podem fornecer estimativas semelhantes?",
+      "a": "A maioria dos rastreadores subestima as calorias do rucking porque não consideram totalmente o transporte de carga."
+    },
+    {
+      "q": "Com que frequência devo fazer rucking para fitness ou perda de peso?",
+      "a": "A frequência depende do seu nível de fitness e recuperação; use a calculadora para planejar volume e intensidade."
+    },
+    {
+      "q": "Posso usar isso para treinamento de corrida ou evento?",
+      "a": "Sim; ajuda a planejar a intensidade do treinamento e expectativas de calorias para marchas com peso ou eventos de rucking."
+    },
+    {
+      "q": "Qual fórmula é usada?",
+      "a": "A Equação de Pandolf com correções de terreno e inclinação – validada pelo exército dos EUA e atualizada para pesquisas modernas."
+    }
+  ]
+}

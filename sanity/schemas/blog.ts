@@ -138,6 +138,45 @@ export default defineType({
               type: 'code',
               title: 'Code Block',
             },
+            {
+              type: 'object',
+              name: 'table',
+              title: 'Table',
+              fields: [
+                {
+                  name: 'rows',
+                  type: 'array',
+                  title: 'Table Rows',
+                  of: [
+                    {
+                      type: 'object',
+                      name: 'row',
+                      fields: [
+                        {
+                          name: 'cells',
+                          type: 'array',
+                          title: 'Cells',
+                          of: [{ type: 'string' }],
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              type: 'object',
+              name: 'html',
+              title: 'HTML Block',
+              fields: [
+                {
+                  name: 'code',
+                  type: 'text',
+                  title: 'HTML Code',
+                  rows: 10,
+                },
+              ],
+            },
           ],
         },
         {
@@ -250,6 +289,45 @@ export default defineType({
             {
               type: 'code',
               title: 'Code Block',
+            },
+            {
+              type: 'object',
+              name: 'table',
+              title: 'Table',
+              fields: [
+                {
+                  name: 'rows',
+                  type: 'array',
+                  title: 'Table Rows',
+                  of: [
+                    {
+                      type: 'object',
+                      name: 'row',
+                      fields: [
+                        {
+                          name: 'cells',
+                          type: 'array',
+                          title: 'Cells',
+                          of: [{ type: 'string' }],
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              type: 'object',
+              name: 'html',
+              title: 'HTML Block',
+              fields: [
+                {
+                  name: 'code',
+                  type: 'text',
+                  title: 'HTML Code',
+                  rows: 10,
+                },
+              ],
             },
           ],
         },
@@ -364,6 +442,45 @@ export default defineType({
               type: 'code',
               title: 'Code Block',
             },
+            {
+              type: 'object',
+              name: 'table',
+              title: 'Table',
+              fields: [
+                {
+                  name: 'rows',
+                  type: 'array',
+                  title: 'Table Rows',
+                  of: [
+                    {
+                      type: 'object',
+                      name: 'row',
+                      fields: [
+                        {
+                          name: 'cells',
+                          type: 'array',
+                          title: 'Cells',
+                          of: [{ type: 'string' }],
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              type: 'object',
+              name: 'html',
+              title: 'HTML Block',
+              fields: [
+                {
+                  name: 'code',
+                  type: 'text',
+                  title: 'HTML Code',
+                  rows: 10,
+                },
+              ],
+            },
           ],
         },
         {
@@ -477,6 +594,45 @@ export default defineType({
               type: 'code',
               title: 'Code Block',
             },
+            {
+              type: 'object',
+              name: 'table',
+              title: 'Table',
+              fields: [
+                {
+                  name: 'rows',
+                  type: 'array',
+                  title: 'Table Rows',
+                  of: [
+                    {
+                      type: 'object',
+                      name: 'row',
+                      fields: [
+                        {
+                          name: 'cells',
+                          type: 'array',
+                          title: 'Cells',
+                          of: [{ type: 'string' }],
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              type: 'object',
+              name: 'html',
+              title: 'HTML Block',
+              fields: [
+                {
+                  name: 'code',
+                  type: 'text',
+                  title: 'HTML Code',
+                  rows: 10,
+                },
+              ],
+            },
           ],
         },
         {
@@ -589,6 +745,45 @@ export default defineType({
             {
               type: 'code',
               title: 'Code Block',
+            },
+            {
+              type: 'object',
+              name: 'table',
+              title: 'Table',
+              fields: [
+                {
+                  name: 'rows',
+                  type: 'array',
+                  title: 'Table Rows',
+                  of: [
+                    {
+                      type: 'object',
+                      name: 'row',
+                      fields: [
+                        {
+                          name: 'cells',
+                          type: 'array',
+                          title: 'Cells',
+                          of: [{ type: 'string' }],
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              type: 'object',
+              name: 'html',
+              title: 'HTML Block',
+              fields: [
+                {
+                  name: 'code',
+                  type: 'text',
+                  title: 'HTML Code',
+                  rows: 10,
+                },
+              ],
             },
           ],
         },

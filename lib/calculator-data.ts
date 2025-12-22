@@ -536,6 +536,13 @@ export const calculators: Calculator[] = [
     category: "health",
     popular: true,
   },
+  {
+    id: "rucking-calorie-calculator",
+    name: "Rucking Calorie Calculator",
+    description: "Calculate calories burned during weighted walks (rucking) using the Pandolf equation",
+    href: "/health/rucking-calorie-calculator",
+    category: "health",
+  },
 
   // Math Calculators
   {
@@ -566,6 +573,13 @@ export const calculators: Calculator[] = [
     name: "Critical Point Calculator",
     description: "Calculate the critical point of a function.",
     href: "/maths/critical-point-calculator",
+    category: "maths",
+  },
+  {
+    id: "relative-extrema-calculator",
+    name: "Relative Extrema Calculator",
+    description: "Find all relative maxima, minima, and saddle points with step-by-step solutions",
+    href: "/maths/relative-extrema-calculator",
     category: "maths",
   },
   {

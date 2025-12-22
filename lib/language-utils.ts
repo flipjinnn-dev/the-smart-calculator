@@ -13,7 +13,7 @@ export function detectLanguage(pathname: string, headers?: Headers): string {
   // First try to get language from headers (set by middleware)
   if (headers) {
     const headerLanguage = headers.get('x-language');
-    if (headerLanguage && ['en', 'br', 'pl', 'de'].includes(headerLanguage)) {
+    if (headerLanguage && ['en', 'br', 'pl', 'de', 'es'].includes(headerLanguage)) {
       return headerLanguage;
     }
   }
@@ -22,16 +22,16 @@ export function detectLanguage(pathname: string, headers?: Headers): string {
   if (typeof window !== 'undefined') {
     // Client-side detection
     const headerLanguage = document.head.querySelector('meta[name="x-language"]')?.getAttribute('content');
-    if (headerLanguage && ['en', 'br', 'pl', 'de'].includes(headerLanguage)) {
+    if (headerLanguage && ['en', 'br', 'pl', 'de', 'es'].includes(headerLanguage)) {
       return headerLanguage;
     }
     
     const path = window.location.pathname;
-    const langMatch = path.match(/^\/(br|pl|de)/);
+    const langMatch = path.match(/^\/(br|pl|de|es)/);
     return langMatch ? langMatch[1] : "en";
   } else {
     // Server-side detection
-    const langMatch = pathname.match(/^\/(br|pl|de)/);
+    const langMatch = pathname.match(/^\/(br|pl|de|es)/);
     return langMatch ? langMatch[1] : "en";
   }
 }

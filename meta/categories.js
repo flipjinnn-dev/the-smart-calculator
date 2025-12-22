@@ -60,7 +60,7 @@ const categoriesMeta = {
 
   'maths': {
     en: {
-      name: "mathematics Calculators",
+      name: "Mathematics Calculators",
       slug: "maths",
       description: "Access free math calculators for algebra, geometry, statistics, and advanced equations. Solve mathematical problems quickly and accurately."
     },

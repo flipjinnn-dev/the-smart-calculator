@@ -31,6 +31,51 @@ const components: PortableTextComponents = {
         </pre>
       );
     },
+    table: ({ value }) => {
+      if (!value?.rows || value.rows.length === 0) {
+        return null;
+      }
+      return (
+        <div className="my-8 overflow-x-auto">
+          <table className="min-w-full border-collapse border border-gray-300">
+            <tbody>
+              {value.rows.map((row: any, rowIndex: number) => (
+                <tr key={rowIndex} className={rowIndex === 0 ? 'bg-gray-100' : 'bg-white'}>
+                  {row.cells && row.cells.map((cell: string, cellIndex: number) => (
+                    rowIndex === 0 ? (
+                      <th
+                        key={cellIndex}
+                        className="border border-gray-300 px-4 py-2 text-left font-semibold text-gray-900"
+                      >
+                        {cell}
+                      </th>
+                    ) : (
+                      <td
+                        key={cellIndex}
+                        className="border border-gray-300 px-4 py-2 text-gray-700"
+                      >
+                        {cell}
+                      </td>
+                    )
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+    },
+    html: ({ value }) => {
+      if (!value?.code) {
+        return null;
+      }
+      return (
+        <div 
+          className="my-8 html-content"
+          dangerouslySetInnerHTML={{ __html: value.code }}
+        />
+      );
+    },
   },
   block: {
     h1: ({ children }) => (

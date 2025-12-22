@@ -1,0 +1,113 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "How the Rucking Calorie Calculator Works",
+      "content": "Estimating caloric expenditure during rucking is not simple. Standard walking calorie formulas do not account for the metabolic cost of carrying a load. This calculator uses the Pandolf Equation:\n\n$$M = 1.5W + 2.0(W + L)(\\frac{L}{W})^2 + \\eta(W + L)(1.5V^2 + 0.35VG)$$\n\nWhere: $$W = Body weight,$$ $$L = Load carried,$$ $$V = Speed,$$ $$G = Grade (incline),$$ $$\\eta = Terrain factor$$\n\nThe formula is adjusted with the latest research for real-world accuracy. While no model can perfectly predict every individual's energy expenditure, using a load-adjusted method significantly improves accuracy over generic methods. This calculator estimates calories burned both per hour and for the full session based on your inputs."
+    },
+    {
+      "heading": "Key Inputs",
+      "content": "To provide a personalized calorie estimate, you will enter the following information:",
+      "subSections": [
+        {
+          "heading": "Input Fields",
+          "content": "- Body Weight: Your body weight without the backpack determines baseline energy expenditure.\n- Ruck Weight (Load): The weight you carry increases the energy required to move.\n- Distance or Pace: Your walking speed influences calories burned per minute.\n- Duration (Time): Total rucking time ensures that sessions without a fixed distance are accurately measured.\n- Terrain and Grade: Terrain type and incline affect effort level; steeper grades and challenging surfaces require more energy.\n- Metric/Imperial Toggle: Switch between kg/km or lbs/miles automatically.\n\nBy combining these variables, this calculator delivers a practical calorie estimate tailored to your rucking session."
+        }
+      ]
+    },
+    {
+      "heading": "Sample Calorie Estimates",
+      "content": "Based on 70kg body weight, flat terrain, 5 km/h pace:",
+      "subSections": [
+        {
+          "heading": "Calorie Burn by Load",
+          "content": "- 0 kg (Walking): ~300 kcal per hour\n- 10 kg: ~500 kcal per hour\n- 20 kg: ~700 kcal per hour\n\nRucking can burn two to three times more calories than walking depending on load and pace, making it an effective training activity for fat loss, endurance, and strength development."
+        }
+      ]
+    },
+    {
+      "heading": "Why Duration Matters",
+      "content": "Many rucking calculators estimate calories based only on distance or pace. However, real-world rucks often vary in speed and terrain. The duration input accounts for sessions where distance is unknown or inconsistent, such as interval rucks, urban rucks, or time-based training. This ensures your calorie estimate reflects the total active time under load, not just theoretical distance walked."
+    },
+    {
+      "heading": "What Results You Will Receive",
+      "content": "After entering your details, the calculator will display:",
+      "subSections": [
+        {
+          "heading": "Output Information",
+          "content": "- Estimated calories burned per hour\n- Total calories burned for the session\n- Calorie estimates adjusted for load, pace, and duration\n- \"What-If\" scenarios: Double pace? Add 10kg? See instant changes!\n\nThese results help you compare different rucking sessions, monitor progress, and plan training intensity based on your goals, whether fat loss, endurance, or strength."
+        }
+      ]
+    },
+    {
+      "heading": "Tips for Using This Calculator",
+      "content": "Practical strategies to get the most accurate calorie estimates:",
+      "subSections": [
+        {
+          "heading": "Best Practices",
+          "content": "- Start with realistic weight loads and increase gradually as your strength improves.\n- Monitor your pace; faster walking speeds generally increase calorie burn but may reduce total session duration.\n- Include terrain and incline adjustments for better estimate accuracy.\n- Use the duration input for time-based rucks where distance is not tracked.\n- Pro Tip: For Karachi users – start with 10–15 kg on beach trails for maximum calorie burn."
+        }
+      ]
+    },
+    {
+      "heading": "Why This Calculator Provides Superior Estimates",
+      "content": "Most generic calorie calculators underestimate rucking energy expenditure because they ignore external load and standalone duration input. This tool directly accounts for duration in interval/urban rucks and includes terrain/grade adjustments for accurate real-world estimates."
+    },
+    {
+      "heading": "Important Considerations",
+      "content": "Keep these factors in mind when using the calculator:",
+      "subSections": [
+        {
+          "heading": "Accuracy Notes",
+          "content": "- Estimates, Not Exact Measurements: Calorie predictions are approximate; actual expenditure depends on individual physiology, environment, and effort.\n- Basic Metabolic Rate (BMR) Not Included: The calculator focuses on active calories burned during rucking.\n- Variation by Conditions: Terrain, weather, pack fit, and personal conditioning can influence calorie burn."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How does rucking differ from walking?",
+      "a": "Rucking includes a weighted backpack, increasing energy expenditure compared to walking without load."
+    },
+    {
+      "q": "Can this calculator be used for any rucking session?",
+      "a": "Yes, it works for outdoor or indoor rucks with adjustable settings."
+    },
+    {
+      "q": "Why isn't resting metabolic rate included?",
+      "a": "The focus is on calories burned from active rucking; resting energy varies widely among individuals."
+    },
+    {
+      "q": "What pace should I use?",
+      "a": "Use your average walking speed. If it varies, the duration input adjusts the estimate."
+    },
+    {
+      "q": "Does terrain really affect calorie burn?",
+      "a": "Yes. Hills and uneven surfaces require more effort than flat ground."
+    },
+    {
+      "q": "Should I increase ruck weight to burn more calories?",
+      "a": "Heavier loads increase calorie burn, but always choose weights you can safely manage without compromising posture."
+    },
+    {
+      "q": "Are the results precise?",
+      "a": "Results are estimates based on validated load-adjusted methods, not exact measurements."
+    },
+    {
+      "q": "Can fitness trackers provide similar estimates?",
+      "a": "Most trackers underestimate rucking calories because they do not fully factor in load carriage."
+    },
+    {
+      "q": "How often should I ruck for fitness or weight loss?",
+      "a": "Frequency depends on your fitness level and recovery; use the calculator to plan volume and intensity."
+    },
+    {
+      "q": "Can I use this for race or event training?",
+      "a": "Yes; it helps plan training intensity and calorie expectations for weighted marches or ruck events."
+    },
+    {
+      "q": "Which formula is used?",
+      "a": "The Pandolf Equation with terrain and grade corrections – validated by the US military and updated for modern research."
+    }
+  ]
+}

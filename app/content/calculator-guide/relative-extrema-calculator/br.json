@@ -1,0 +1,159 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "O que são Extremos Relativos?",
+      "content": "Extremos relativos são picos e vales locais do gráfico de uma função. Um Máximo Local ocorre onde f(c) ≥ f(x) para todos x próximos de c (curva para baixo ∩). Um Mínimo Local ocorre onde f(c) ≤ f(x) para todos x próximos de c (curva para cima ∪). Ao contrário dos extremos absolutos (máximo/mínimo global), os extremos relativos dependem apenas dos valores próximos."
+    },
+    {
+      "heading": "Como a Calculadora Funciona",
+      "content": "A calculadora usa um processo sistemático de 3 passos para encontrar e classificar extremos relativos.",
+      "subSections": [
+        {
+          "heading": "Passo 1: Primeira Derivada",
+          "content": "A calculadora calcula f'(x) = d/dx f(x). Definindo f'(x) = 0 obtemos pontos críticos onde extremos podem ocorrer."
+        },
+        {
+          "heading": "Passo 2: Pontos Críticos",
+          "content": "Pontos críticos são valores de x onde f'(x) = 0 ou f'(x) é indefinida. Estes são todos os pontos candidatos para máximos ou mínimos relativos."
+        },
+        {
+          "heading": "Passo 3: Testes de Classificação",
+          "content": "Teste da Segunda Derivada: f''(c) > 0 significa Mínimo Local, f''(c) < 0 significa Máximo Local, f''(c) = 0 é Inconclusivo. Teste da Primeira Derivada: Verifique a mudança de sinal de f'(x) ao redor de cada ponto crítico."
+        }
+      ]
+    },
+    {
+      "heading": "Fórmulas Principais",
+      "content": "Primeira Derivada: f'(x) = d/dx f(x). Segunda Derivada: f''(x) = d²/dx² f(x). Estas fórmulas são a base para encontrar e classificar extremos."
+    },
+    {
+      "heading": "Exemplo Detalhado",
+      "content": "Função: f(x) = x³ - 3x² + 2. Primeira Derivada: f'(x) = 3x² - 6x = 3x(x-2), dando pontos críticos x = 0, 2. Segunda Derivada: f''(x) = 6x - 6. Em x=0: f''(0) = -6 < 0, então Máximo Local. Em x=2: f''(2) = 6 > 0, então Mínimo Local. Valores: f(0) = 2, f(2) = -6. Resultado: Máx(0, 2), Mín(2, -6). Gráfico Interativo mostra pico em x=0, vale em x=2, com sobreposição de derivada."
+    },
+    {
+      "heading": "Por que Usar Esta Calculadora?",
+      "subSections": [
+        {
+          "heading": "Resultados Instantâneos",
+          "content": "Resolva até funções complexas em segundos sem cálculos manuais."
+        },
+        {
+          "heading": "Soluções Passo a Passo",
+          "content": "Cálculos de derivadas totalmente explicados claramente para aprendizado."
+        },
+        {
+          "heading": "Gráficos Interativos",
+          "content": "Gráficos com zoom e extremos marcados para compreensão visual."
+        },
+        {
+          "heading": "100% Gratuito",
+          "content": "Sem paywalls ou assinaturas necessárias, uso ilimitado."
+        },
+        {
+          "heading": "Preciso e Sem Erros",
+          "content": "Resolução simbólica e numérica incluída para precisão."
+        }
+      ]
+    },
+    {
+      "heading": "Funções Suportadas",
+      "subSections": [
+        {
+          "heading": "Funções Polinomiais",
+          "content": "x^n + ... para qualquer grau de polinômio."
+        },
+        {
+          "heading": "Funções Trigonométricas",
+          "content": "sin(x), cos(x), tan(x) com detecção de extremos periódicos."
+        },
+        {
+          "heading": "Funções Exponenciais",
+          "content": "e^x e outras expressões exponenciais."
+        },
+        {
+          "heading": "Funções Logarítmicas",
+          "content": "ln(x) e funções log."
+        },
+        {
+          "heading": "Funções por Partes",
+          "content": "Funções definidas em múltiplas partes."
+        }
+      ]
+    },
+    {
+      "heading": "Extremos Relativos vs Absolutos",
+      "content": "Compreendendo a diferença entre extremos locais e globais.",
+      "subSections": [
+        {
+          "heading": "Extremos Relativos",
+          "content": "Escopo: Vizinhança local. Número: Múltiplos possíveis. Teste: f'(x) = 0. Exemplo: f(x) = x³ tem mín em x=0."
+        },
+        {
+          "heading": "Extremos Absolutos",
+          "content": "Escopo: Domínio inteiro. Número: Um máx, um mín. Teste: f'(x) = 0 mais extremidades. Exemplo: Verificar limites também."
+        }
+      ]
+    },
+    {
+      "heading": "Como Usar Esta Calculadora",
+      "content": "Usar a calculadora é rápido e direto. Basta inserir sua função e obter resultados instantâneos.",
+      "subSections": [
+        {
+          "heading": "Passo 1: Inserir Função",
+          "content": "Digite sua função, ex: x^3-3x^2+2 ou sin(x)+x."
+        },
+        {
+          "heading": "Passo 2: Definir Intervalo (Opcional)",
+          "content": "Opcionalmente defina um intervalo [a,b] para restringir o domínio."
+        },
+        {
+          "heading": "Passo 3: Calcular",
+          "content": "Clique em Calcular para ver pontos, testes de derivadas, gráfico e exportar PDF. Exemplo Trigonométrico: f(x) = x - 2sin(x) dá pontos críticos em aproximadamente x=2.83 (máx), x=6.07 (mín), com gráfico interativo completo."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que esta calculadora calcula?",
+      "a": "Ela encontra máximos e mínimos locais usando derivadas, pontos críticos e testes de classificação."
+    },
+    {
+      "q": "Qual é a diferença entre extremos relativos e absolutos?",
+      "a": "Extremos relativos são picos/vales locais; extremos absolutos são os mais altos/baixos em toda a função."
+    },
+    {
+      "q": "Como ela encontra pontos críticos?",
+      "a": "Ela resolve f'(x) = 0 simbolicamente (para polinômios) ou numericamente (para funções trig/exponenciais)."
+    },
+    {
+      "q": "E se a segunda derivada for igual a zero?",
+      "a": "A calculadora usa automaticamente o teste da primeira derivada (mudança de sinal) para classificar o ponto."
+    },
+    {
+      "q": "Ela suporta funções trigonométricas?",
+      "a": "Sim, incluindo sin(x), cos(x), tan(x) com detecção de extremos periódicos."
+    },
+    {
+      "q": "Posso usá-la para funções multivariáveis?",
+      "a": "Suporte básico usando derivadas parciais fx = fy = 0."
+    },
+    {
+      "q": "Posso inserir funções por partes?",
+      "a": "Sim, usando notação padrão como if(x<0, x^2, -x)."
+    },
+    {
+      "q": "Gráficos estão incluídos?",
+      "a": "Sim, gráficos interativos com zoom marcam máximos (🔴) e mínimos (🔵)."
+    },
+    {
+      "q": "É melhor que Wolfram Alpha ou Symbolab?",
+      "a": "Sim, soluções passo a passo ilimitadas e gratuitas com gráficos interativos, sem premium necessário."
+    },
+    {
+      "q": "É compatível com dispositivos móveis?",
+      "a": "Totalmente responsivo em iPhone, Android, tablets e desktop em todo o mundo."
+    }
+  ]
+}

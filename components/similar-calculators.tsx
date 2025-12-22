@@ -88,7 +88,7 @@ export default function SimilarCalculators({
   // Helper function to extract calculator ID from href
   const extractCalculatorIdFromHref = (href: string): string | null => {
     // Remove leading slash and language prefix
-    const cleanHref = href.replace(/^\/(en|br|pl|de|es)\//, '/').replace(/^\//, '')
+    const cleanHref = href.replace(/^\/(br|pl|de|es)\//, '/').replace(/^\//, '')
     
     // Extract calculator name from path (e.g., "financial/mortgage-calculator" -> "mortgage-calculator")
     const parts = cleanHref.split('/')
