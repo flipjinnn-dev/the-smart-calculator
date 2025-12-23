@@ -370,20 +370,6 @@ export default function ButterCalculatorCalculator() {
           ]}
             color="orange"
             title="Related Food Calculators" />
-
-          {/* Rating and Profile Section */}
-          <RatingProfileSection
-            entityId="butter-calculator" 
-            entityType="calculator"
-            initialRatingTotal={145}
-            initialRatingCount={32}
-            creatorProfile={{
-              name: "Chef Sarah",
-              slug: "chef-sarah",
-              image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&fit=crop",
-              tagline: "Professional pastry chef with 15 years of experience specializing in French patisserie and baking science."
-            }}
-          />
         </div>
       </main>
 
