@@ -12,6 +12,7 @@ import CalculatorGuide from "@/components/calculator-guide";
 import { ChefHat, Scale, Utensils } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
+
 export default function ButterCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -369,37 +370,20 @@ export default function ButterCalculatorCalculator() {
           ]}
             color="orange"
             title="Related Food Calculators" />
-          {/* How to use section */}
-          <div className="mt-12">
-            <Card className="shadow-2xl border-0 bg-gradient-to-br from-amber-50 to-orange-100 flex flex-col justify-center items-start p-8">
-              <CardHeader className="w-full flex flex-row items-center justify-start mb-2">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 flex items-center justify-center mr-3 shadow-lg">
-                  <ChefHat className="w-6 h-6 text-white" />
-                </div>
-                <CardTitle className="text-2xl font-bold text-amber-700 tracking-tight mb-2 text-left">{contentData.how_to_use_this_calculator_32}</CardTitle>
-              </CardHeader>
-              <CardContent className="w-full flex flex-col items-start justify-center">
-                <ul className="list-none w-full max-w-md mx-0 text-gray-700 space-y-4 text-base text-left">
-                  <li className="flex items-start gap-3">
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-amber-200 text-amber-700 font-bold">{contentData.k_1_33}</span>
-                    <span>{contentData.select_the_unit_you_want_to_convert_from_sticks_cu_34}</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-amber-200 text-amber-700 font-bold">{contentData.k_2_35}</span>
-                    <span>{contentData.enter_the_amount_you_have_in_your_recipe_36}</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-amber-200 text-amber-700 font-bold">{contentData.k_3_37}</span>
-                    <span>{contentData.click_38}<span className="font-semibold text-amber-600">{contentData.convert_butter_39}</span>{contentData.to_see_all_equivalent_measurements_40}</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-amber-200 text-amber-700 font-bold">{contentData.k_4_41}</span>
-                    <span>{contentData.use_the_converted_measurements_in_your_cooking_and_42}</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
+
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="butter-calculator" 
+            entityType="calculator"
+            initialRatingTotal={145}
+            initialRatingCount={32}
+            creatorProfile={{
+              name: "Chef Sarah",
+              slug: "chef-sarah",
+              image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&fit=crop",
+              tagline: "Professional pastry chef with 15 years of experience specializing in French patisserie and baking science."
+            }}
+          />
         </div>
       </main>
 

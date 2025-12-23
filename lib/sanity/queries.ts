@@ -59,3 +59,26 @@ export const allBlogSlugsQuery = `
     "esSlug": es.slug.current
   }
 `;
+
+export const authorBySlugQuery = `
+  *[_type == "author" && slug.current == $slug][0] {
+    name,
+    "slug": slug.current,
+    "image": image.asset->url,
+    tagline,
+    bio,
+    social,
+    "calculators": *[_type == "calculator" && references(^._id)] {
+      title,
+      calculatorId,
+      ratingTotal,
+      ratingCount
+    },
+    "posts": *[_type == "blog" && references(^._id)] {
+      "title": en.title,
+      "slug": en.slug.current,
+      publishedAt,
+      "image": featuredImage.asset->url
+    }
+  }
+`;

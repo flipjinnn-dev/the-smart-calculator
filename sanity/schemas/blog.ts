@@ -40,6 +40,22 @@ export default defineType({
       of: [{ type: 'reference', to: { type: 'category' } }],
     }),
     defineField({
+      name: 'ratingTotal',
+      title: 'Total Rating Score',
+      type: 'number',
+      initialValue: 0,
+      readOnly: true,
+      description: 'Sum of all ratings (Updated via API)',
+    }),
+    defineField({
+      name: 'ratingCount',
+      title: 'Number of Ratings',
+      type: 'number',
+      initialValue: 0,
+      readOnly: true,
+      description: 'Total number of users who rated (Updated via API)',
+    }),
+    defineField({
       name: 'publishedAt',
       title: 'Published At',
       type: 'datetime',

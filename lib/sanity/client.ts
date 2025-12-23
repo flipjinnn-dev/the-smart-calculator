@@ -53,3 +53,14 @@ export async function getAllBlogSlugs(): Promise<Array<{ blogId: string; enSlug?
     return [];
   }
 }
+
+export async function getAuthorBySlug(slug: string) {
+  try {
+    const { authorBySlugQuery } = await import('./queries');
+    const author = await client.fetch(authorBySlugQuery, { slug });
+    return author || null;
+  } catch (error) {
+    console.error('Error fetching author:', error);
+    return null;
+  }
+}
