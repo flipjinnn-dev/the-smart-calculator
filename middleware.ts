@@ -255,6 +255,7 @@ export const urlMappings = {
     'bmr-rechner': 'bmr-calculator',
     'brett-fub-rechner': 'board-foot-calculator',
     'butter-rechner': 'butter-calculator',
+    'pflasterunterbau-rechner': 'paver-base-calculator',
     'durchschnittsrechner': 'mean-value-theorem-calculator',
     'ein-rap-rechner': 'one-rep-max-calculator',
     'einkommen-steuer-rechner': 'income-tax-calculator',
