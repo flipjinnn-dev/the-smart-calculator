@@ -191,7 +191,13 @@ export default function BlogsPage() {
                       </CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-gray-600 mb-4 line-clamp-3">{post.excerpt}</p>
+                      <div className="text-gray-600 mb-4 line-clamp-3">
+                        {typeof post.excerpt === 'string' ? (
+                          <p>{post.excerpt}</p>
+                        ) : (
+                          <p>{post.title}</p>
+                        )}
+                      </div>
                       <Link
                         href={getBlogUrl(post.slug)}
                         className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-semibold group-hover:gap-3 transition-all"
