@@ -1,0 +1,95 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Como Funciona",
+      "content": "Planeje seu pátio, caminho ou entrada com confiança! Uma base forte e adequadamente em camadas é fundamental para fazer seu projeto durar anos. Use esta calculadora para estimar quanto brita e areia você precisa para uma base sólida de pavimento.",
+      "subSections": [
+        {
+          "heading": "Passos Simples",
+          "content": "1. Insira as dimensões do seu projeto (Comprimento × Largura)\n2. Insira as profundidades desejadas para brita e areia\n3. Obtenha a quantidade estimada de materiais necessários em jardas cúbicas ou metros cúbicos"
+        }
+      ]
+    },
+    {
+      "heading": "Como Estimar Materiais de Base",
+      "content": "Siga estes métodos de cálculo para determinar a quantidade exata de brita e areia necessária para sua base de pavimento.",
+      "subSections": [
+        {
+          "heading": "Passo 1: Calcular Volume de Brita",
+          "content": "1. Meça comprimento e largura em polegadas\n2. Multiplique para obter área em polegadas quadradas\n3. Multiplique pela profundidade da brita (em polegadas) para obter volume em polegadas cúbicas\n4. Converta para jardas cúbicas:\n\n$$\\text{Jardas Cúbicas} = \\frac{\\text{Volume em polegadas cúbicas}}{46,656}$$"
+        },
+        {
+          "heading": "Passo 2: Calcular Volume de Areia",
+          "content": "1. Use a mesma área em polegadas quadradas\n2. Multiplique pela profundidade da areia (geralmente 1 polegada)\n3. Converta para jardas cúbicas:\n\n$$\\text{Jardas Cúbicas} = \\frac{\\text{Volume em polegadas cúbicas}}{46,656}$$"
+        },
+        {
+          "heading": "Versão Métrica",
+          "content": "1. Meça em centímetros\n2. Multiplique área pela profundidade (cm) para obter centímetros cúbicos\n3. Converta para metros cúbicos:\n\n$$\\text{Metros Cúbicos} = \\frac{\\text{Volume em centímetros cúbicos}}{1,000,000}$$"
+        }
+      ]
+    },
+    {
+      "heading": "Profundidades de Base Recomendadas",
+      "content": "Diferentes projetos requerem diferentes profundidades de base para estabilidade e longevidade ideais.",
+      "subSections": [
+        {
+          "heading": "Diretrizes de Profundidade",
+          "content": "**Pátios:** 4–6″ brita compactada + 1″ areia\n\n**Entradas / Uso Pesado:** 6–8″ brita\n\n**Nota Importante:** Compactar brita reduz seu volume inicial. Adicione ~20% extra para atingir a profundidade desejada."
+        }
+      ]
+    },
+    {
+      "heading": "Tabela de Referência Rápida",
+      "content": "Use esta tabela para estimar rapidamente os materiais necessários para tamanhos comuns de pátio.",
+      "subSections": [
+        {
+          "heading": "Estimativas de Material por Tamanho de Pátio",
+          "content": "| Tamanho do Pátio | Brita Necessária (base 4–6″) | Areia Necessária (base 1″) |\n|------------------|------------------------------|---------------------------|\n| 50 pés quad. | 0.75 – 1.12 jardas cúb. | 0.15 jardas cúb. |\n| 100 pés quad. | 1.48 – 2.22 jardas cúb. | 0.31 jardas cúb. |\n| 150 pés quad. | 2.22 – 3.34 jardas cúb. | 0.46 jardas cúb. |\n| 200 pés quad. | 2.96 – 4.44 jardas cúb. | 0.62 jardas cúb. |\n| 250 pés quad. | 3.71 – 5.56 jardas cúb. | 0.77 jardas cúb. |\n| 300 pés quad. | 4.44 – 6.67 jardas cúb. | 0.93 jardas cúb. |\n| 350 pés quad. | 5.18 – 7.78 jardas cúb. | 1.08 jardas cúb. |\n| 400 pés quad. | 5.93 – 8.89 jardas cúb. | 1.23 jardas cúb. |\n| 450 pés quad. | 6.67 – 10.01 jardas cúb. | 1.39 jardas cúb. |\n| 500 pés quad. | 7.40 – 11.11 jardas cúb. | 1.54 jardas cúb. |\n| 550 pés quad. | 8.15 – 12.23 jardas cúb. | 1.70 jardas cúb. |\n| 600 pés quad. | 8.89 – 13.34 jardas cúb. | 1.85 jardas cúb. |\n| 650 pés quad. | 9.62 – 14.45 jardas cúb. | 2.01 jardas cúb. |\n| 700 pés quad. | 10.67 – 15.56 jardas cúb. | 2.16 jardas cúb. |"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma base de pavimento e por que é importante?",
+      "a": "Uma base de pavimento é uma camada de brita compactada coberta com areia que suporta seus pavimentos. Ela evita afundamento, deslocamento e rachaduras."
+    },
+    {
+      "q": "Qual deve ser a profundidade da base de brita?",
+      "a": "Pátios: 4–6 polegadas. Entradas / uso pesado: 6–8 polegadas."
+    },
+    {
+      "q": "Qual deve ser a espessura da camada de areia?",
+      "a": "1 polegada geralmente é suficiente para nivelamento e estabilização."
+    },
+    {
+      "q": "Como calculo a quantidade de brita e areia que preciso?",
+      "a": "Meça a área (comprimento × largura), multiplique pela profundidade e converta para jardas cúbicas (ou metros cúbicos)."
+    },
+    {
+      "q": "Por que adicionar brita extra para compactação?",
+      "a": "A compactação reduz o volume; adicionar ~20% garante a profundidade correta."
+    },
+    {
+      "q": "Esta calculadora pode ser usada para entradas?",
+      "a": "Sim, apenas aumente a profundidade da brita para 6–8 polegadas. A profundidade da areia permanece ~1 polegada."
+    },
+    {
+      "q": "Posso medir em pés ou polegadas?",
+      "a": "Ambos funcionam. Certifique-se de que as conversões estejam corretas ao calcular jardas/metros cúbicos."
+    },
+    {
+      "q": "Posso usá-la para formas irregulares?",
+      "a": "Divida áreas irregulares em retângulos, calcule separadamente e some os resultados."
+    },
+    {
+      "q": "Quão precisa é esta calculadora?",
+      "a": "Ela fornece uma boa estimativa. Sempre compre um pouco mais para compactação e erros de medição."
+    },
+    {
+      "q": "Pode ser usada internacionalmente?",
+      "a": "Sim, insira pés/polegadas ou cm/m e obtenha resultados em jardas cúbicas ou metros cúbicos."
+    }
+  ]
+}

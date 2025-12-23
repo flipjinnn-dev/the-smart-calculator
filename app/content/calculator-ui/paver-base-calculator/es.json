@@ -1,0 +1,53 @@
+{
+  "title": "Calculadora de Base para Pavimento",
+  "description": "Calcule la cantidad de material de base, arena y adoquines necesarios para su proyecto de pavimentación",
+  "calculator": {
+    "title": "Calcular Materiales",
+    "description": "Ingrese las dimensiones del proyecto y especificaciones"
+  },
+  "inputs": {
+    "unitSystem": "Sistema de Unidades",
+    "calculationMode": "Calcular Usando",
+    "projectDimensions": "Dimensiones del Proyecto",
+    "projectArea": "Área del Proyecto",
+    "length": "Longitud",
+    "width": "Ancho",
+    "totalArea": "Área Total",
+    "baseDepth": "Profundidad de Grava/Base",
+    "baseDepthHint": "Acera: 10-15 cm, Entrada: 15-30 cm",
+    "sandDepth": "Profundidad de Capa de Arena",
+    "sandDepthHint": "Típico: 2.5 cm",
+    "paverThickness": "Espesor del Adoquín",
+    "baseDensity": "Densidad de la Base",
+    "sandDensity": "Densidad de la Arena",
+    "wasteFactor": "Factor de Desperdicio",
+    "advancedOptions": "Opciones Avanzadas"
+  },
+  "buttons": {
+    "calculate": "Calcular",
+    "reset": "Restablecer"
+  },
+  "results": {
+    "title": "Materiales Requeridos",
+    "description": "Basado en las especificaciones del proyecto",
+    "projectArea": "Área del Proyecto",
+    "baseMaterial": "Material de Base (Grava/Piedra Triturada)",
+    "sandMaterial": "Capa de Arena",
+    "volume": "Volumen",
+    "weight": "Peso",
+    "bags50lb": "Bolsas de 23 kg",
+    "bags80lb": "Bolsas de 36 kg",
+    "bags": "bolsas",
+    "note": "Nota",
+    "noteText": "Estos cálculos incluyen el factor de desperdicio. Siempre verifique con su proveedor y considere los códigos de construcción locales."
+  },
+  "errors": {
+    "invalidDimensions": "Por favor ingrese longitud y ancho válidos",
+    "invalidArea": "Por favor ingrese un área válida",
+    "invalidBaseDepth": "Por favor ingrese una profundidad de base válida",
+    "invalidSandDepth": "Por favor ingrese una profundidad de arena válida"
+  },
+  "warnings": {
+    "shallowBase": "Advertencia: La profundidad de base menor a 10 cm puede no ser adecuada para cargas pesadas"
+  }
+}

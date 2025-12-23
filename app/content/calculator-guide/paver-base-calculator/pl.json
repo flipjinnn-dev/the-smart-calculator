@@ -1,0 +1,95 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Jak To Działa",
+      "content": "Zaplanuj swój taras, chodnik lub podjazd z pewnością! Mocna, odpowiednio warstwowa podbudowa jest kluczem do tego, aby Twój projekt przetrwał lata. Użyj tego kalkulatora, aby oszacować, ile żwiru i piasku potrzebujesz do solidnej podbudowy pod kostkę.",
+      "subSections": [
+        {
+          "heading": "Proste Kroki",
+          "content": "1. Wprowadź wymiary projektu (Długość × Szerokość)\n2. Wprowadź pożądane głębokości podbudowy dla żwiru i piasku\n3. Otrzymaj szacunkową ilość potrzebnych materiałów w jardach sześciennych lub metrach sześciennych"
+        }
+      ]
+    },
+    {
+      "heading": "Jak Oszacować Materiały Podbudowy",
+      "content": "Postępuj zgodnie z tymi metodami obliczeniowymi, aby określić dokładną ilość żwiru i piasku potrzebną do podbudowy pod kostkę.",
+      "subSections": [
+        {
+          "heading": "Krok 1: Oblicz Objętość Żwiru",
+          "content": "1. Zmierz długość i szerokość w calach\n2. Pomnóż, aby uzyskać powierzchnię w calach kwadratowych\n3. Pomnóż przez głębokość żwiru (w calach), aby uzyskać objętość w calach sześciennych\n4. Przelicz na jardy sześcienne:\n\n$$\\text{Jardy Sześcienne} = \\frac{\\text{Objętość w calach sześciennych}}{46,656}$$"
+        },
+        {
+          "heading": "Krok 2: Oblicz Objętość Piasku",
+          "content": "1. Użyj tej samej powierzchni w calach kwadratowych\n2. Pomnóż przez głębokość piasku (zazwyczaj 1 cal)\n3. Przelicz na jardy sześcienne:\n\n$$\\text{Jardy Sześcienne} = \\frac{\\text{Objętość w calach sześciennych}}{46,656}$$"
+        },
+        {
+          "heading": "Wersja Metryczna",
+          "content": "1. Mierz w centymetrach\n2. Pomnóż powierzchnię przez głębokość (cm), aby uzyskać centymetry sześcienne\n3. Przelicz na metry sześcienne:\n\n$$\\text{Metry Sześcienne} = \\frac{\\text{Objętość w centymetrach sześciennych}}{1,000,000}$$"
+        }
+      ]
+    },
+    {
+      "heading": "Zalecane Głębokości Podbudowy",
+      "content": "Różne projekty wymagają różnych głębokości podbudowy dla optymalnej stabilności i trwałości.",
+      "subSections": [
+        {
+          "heading": "Wytyczne Głębokości",
+          "content": "**Tarasy:** 4–6″ zagęszczonego żwiru + 1″ piasku\n\n**Podjazdy / Ciężkie Użytkowanie:** 6–8″ żwiru\n\n**Ważna Uwaga:** Zagęszczanie żwiru zmniejsza jego początkową objętość. Dodaj ~20% extra, aby osiągnąć pożądaną głębokość."
+        }
+      ]
+    },
+    {
+      "heading": "Szybka Tabela Referencyjna",
+      "content": "Użyj tej tabeli, aby szybko oszacować materiały potrzebne do popularnych rozmiarów tarasów.",
+      "subSections": [
+        {
+          "heading": "Szacunki Materiałów według Rozmiaru Tarasu",
+          "content": "| Rozmiar Tarasu | Potrzebny Żwir (podbudowa 4–6″) | Potrzebny Piasek (podbudowa 1″) |\n|----------------|----------------------------------|----------------------------------|\n| 50 stóp kw. | 0.75 – 1.12 jardów sześc. | 0.15 jardów sześc. |\n| 100 stóp kw. | 1.48 – 2.22 jardów sześc. | 0.31 jardów sześc. |\n| 150 stóp kw. | 2.22 – 3.34 jardów sześc. | 0.46 jardów sześc. |\n| 200 stóp kw. | 2.96 – 4.44 jardów sześc. | 0.62 jardów sześc. |\n| 250 stóp kw. | 3.71 – 5.56 jardów sześc. | 0.77 jardów sześc. |\n| 300 stóp kw. | 4.44 – 6.67 jardów sześc. | 0.93 jardów sześc. |\n| 350 stóp kw. | 5.18 – 7.78 jardów sześc. | 1.08 jardów sześc. |\n| 400 stóp kw. | 5.93 – 8.89 jardów sześc. | 1.23 jardów sześc. |\n| 450 stóp kw. | 6.67 – 10.01 jardów sześc. | 1.39 jardów sześc. |\n| 500 stóp kw. | 7.40 – 11.11 jardów sześc. | 1.54 jardów sześc. |\n| 550 stóp kw. | 8.15 – 12.23 jardów sześc. | 1.70 jardów sześc. |\n| 600 stóp kw. | 8.89 – 13.34 jardów sześc. | 1.85 jardów sześc. |\n| 650 stóp kw. | 9.62 – 14.45 jardów sześc. | 2.01 jardów sześc. |\n| 700 stóp kw. | 10.67 – 15.56 jardów sześc. | 2.16 jardów sześc. |"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest podbudowa pod kostkę i dlaczego jest ważna?",
+      "a": "Podbudowa pod kostkę to warstwa zagęszczonego żwiru pokryta piaskiem, która wspiera kostkę. Zapobiega zapadaniu się, przesuwaniu i pękaniu."
+    },
+    {
+      "q": "Jak głęboka powinna być podbudowa żwirowa?",
+      "a": "Tarasy: 4–6 cali. Podjazdy / ciężkie użytkowanie: 6–8 cali."
+    },
+    {
+      "q": "Jak gruba powinna być warstwa piasku?",
+      "a": "1 cal zazwyczaj wystarcza do wyrównania i stabilizacji."
+    },
+    {
+      "q": "Jak obliczyć ilość żwiru i piasku, której potrzebuję?",
+      "a": "Zmierz powierzchnię (długość × szerokość), pomnóż przez głębokość i przelicz na jardy sześcienne (lub metry sześcienne)."
+    },
+    {
+      "q": "Dlaczego dodawać dodatkowy żwir na zagęszczenie?",
+      "a": "Zagęszczenie zmniejsza objętość; dodanie ~20% zapewnia prawidłową głębokość."
+    },
+    {
+      "q": "Czy ten kalkulator może być używany do podjazdów?",
+      "a": "Tak, po prostu zwiększ głębokość żwiru do 6–8 cali. Głębokość piasku pozostaje ~1 cal."
+    },
+    {
+      "q": "Czy mogę mierzyć w stopach lub calach?",
+      "a": "Oba działają. Upewnij się, że konwersje są prawidłowe przy obliczaniu jardów/metrów sześciennych."
+    },
+    {
+      "q": "Czy mogę używać go do nieregularnych kształtów?",
+      "a": "Podziel nieregularne obszary na prostokąty, oblicz osobno i dodaj wyniki."
+    },
+    {
+      "q": "Jak dokładny jest ten kalkulator?",
+      "a": "Daje dobre oszacowanie. Zawsze kup trochę więcej na zagęszczenie i błędy pomiarowe."
+    },
+    {
+      "q": "Czy można go używać międzynarodowo?",
+      "a": "Tak, wprowadź stopy/cale lub cm/m i otrzymaj wyniki w jardach sześciennych lub metrach sześciennych."
+    }
+  ]
+}

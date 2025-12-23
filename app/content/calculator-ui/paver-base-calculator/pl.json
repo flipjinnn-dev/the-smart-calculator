@@ -1,0 +1,53 @@
+{
+  "title": "Kalkulator Podbudowy Brukowej",
+  "description": "Oblicz ilość materiału podbudowy, piasku i kostki brukowej potrzebnej do projektu",
+  "calculator": {
+    "title": "Oblicz Materiały",
+    "description": "Wprowadź wymiary projektu i specyfikacje"
+  },
+  "inputs": {
+    "unitSystem": "System Jednostek",
+    "calculationMode": "Oblicz Używając",
+    "projectDimensions": "Wymiary Projektu",
+    "projectArea": "Powierzchnia Projektu",
+    "length": "Długość",
+    "width": "Szerokość",
+    "totalArea": "Całkowita Powierzchnia",
+    "baseDepth": "Głębokość Żwiru/Podbudowy",
+    "baseDepthHint": "Chodnik: 10-15 cm, Podjazd: 15-30 cm",
+    "sandDepth": "Głębokość Warstwy Piasku",
+    "sandDepthHint": "Typowo: 2.5 cm",
+    "paverThickness": "Grubość Kostki",
+    "baseDensity": "Gęstość Podbudowy",
+    "sandDensity": "Gęstość Piasku",
+    "wasteFactor": "Współczynnik Strat",
+    "advancedOptions": "Opcje Zaawansowane"
+  },
+  "buttons": {
+    "calculate": "Oblicz",
+    "reset": "Resetuj"
+  },
+  "results": {
+    "title": "Wymagane Materiały",
+    "description": "Na podstawie specyfikacji projektu",
+    "projectArea": "Powierzchnia Projektu",
+    "baseMaterial": "Materiał Podbudowy (Żwir/Kruszywo)",
+    "sandMaterial": "Warstwa Piasku",
+    "volume": "Objętość",
+    "weight": "Waga",
+    "bags50lb": "Worki 23 kg",
+    "bags80lb": "Worki 36 kg",
+    "bags": "worki",
+    "note": "Uwaga",
+    "noteText": "Obliczenia uwzględniają współczynnik strat. Zawsze weryfikuj z dostawcą i uwzględniaj lokalne przepisy budowlane."
+  },
+  "errors": {
+    "invalidDimensions": "Wprowadź prawidłową długość i szerokość",
+    "invalidArea": "Wprowadź prawidłową powierzchnię",
+    "invalidBaseDepth": "Wprowadź prawidłową głębokość podbudowy",
+    "invalidSandDepth": "Wprowadź prawidłową głębokość piasku"
+  },
+  "warnings": {
+    "shallowBase": "Ostrzeżenie: Głębokość podbudowy mniejsza niż 10 cm może nie być odpowiednia dla dużych obciążeń"
+  }
+}

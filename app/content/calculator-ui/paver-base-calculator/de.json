@@ -1,0 +1,53 @@
+{
+  "title": "Pflasterunterbau-Rechner",
+  "description": "Berechnen Sie die Menge an Unterbaumaterial, Sand und Pflastersteinen für Ihr Projekt",
+  "calculator": {
+    "title": "Materialien Berechnen",
+    "description": "Geben Sie Ihre Projektabmessungen und Spezifikationen ein"
+  },
+  "inputs": {
+    "unitSystem": "Einheitensystem",
+    "calculationMode": "Berechnen Mit",
+    "projectDimensions": "Projektabmessungen",
+    "projectArea": "Projektfläche",
+    "length": "Länge",
+    "width": "Breite",
+    "totalArea": "Gesamtfläche",
+    "baseDepth": "Kies-/Unterbautiefe",
+    "baseDepthHint": "Gehweg: 10-15 cm, Einfahrt: 15-30 cm",
+    "sandDepth": "Sandbettungstiefe",
+    "sandDepthHint": "Typisch: 2.5 cm",
+    "paverThickness": "Pflastersteindicke",
+    "baseDensity": "Unterbaudichte",
+    "sandDensity": "Sanddichte",
+    "wasteFactor": "Verschnittfaktor",
+    "advancedOptions": "Erweiterte Optionen"
+  },
+  "buttons": {
+    "calculate": "Berechnen",
+    "reset": "Zurücksetzen"
+  },
+  "results": {
+    "title": "Materialbedarf",
+    "description": "Basierend auf Ihren Projektspezifikationen",
+    "projectArea": "Projektfläche",
+    "baseMaterial": "Unterbaumaterial (Kies/Schotter)",
+    "sandMaterial": "Sandbettung",
+    "volume": "Volumen",
+    "weight": "Gewicht",
+    "bags50lb": "23 kg Säcke",
+    "bags80lb": "36 kg Säcke",
+    "bags": "säcke",
+    "note": "Hinweis",
+    "noteText": "Diese Berechnungen beinhalten den Verschnittfaktor. Überprüfen Sie immer mit Ihrem Lieferanten und beachten Sie lokale Bauvorschriften."
+  },
+  "errors": {
+    "invalidDimensions": "Bitte geben Sie gültige Länge und Breite ein",
+    "invalidArea": "Bitte geben Sie eine gültige Fläche ein",
+    "invalidBaseDepth": "Bitte geben Sie eine gültige Unterbautiefe ein",
+    "invalidSandDepth": "Bitte geben Sie eine gültige Sandtiefe ein"
+  },
+  "warnings": {
+    "shallowBase": "Warnung: Unterbautiefe unter 10 cm ist möglicherweise nicht für schwere Lasten geeignet"
+  }
+}

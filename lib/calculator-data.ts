@@ -700,6 +700,14 @@ export const calculators: Calculator[] = [
     href: "/construction/square-feet-to-cubic-yards-calculator",
     category: "construction"
   },
+  {
+    id: "paver-base-calculator",
+    name: "Paver Base Calculator",
+    description: "Calculate gravel, sand, and base material needed for paving projects",
+    href: "/construction/paver-base-calculator",
+    category: "construction",
+    popular: true
+  },
   // Food Calculators
   {
     id: "butter",

@@ -1,0 +1,53 @@
+{
+  "title": "Paver Base Calculator",
+  "description": "Calculate the amount of base material, sand, and pavers needed for your paving project",
+  "calculator": {
+    "title": "Calculate Materials",
+    "description": "Enter your project dimensions and specifications"
+  },
+  "inputs": {
+    "unitSystem": "Unit System",
+    "calculationMode": "Calculate Using",
+    "projectDimensions": "Project Dimensions",
+    "projectArea": "Project Area",
+    "length": "Length",
+    "width": "Width",
+    "totalArea": "Total Area",
+    "baseDepth": "Gravel/Base Depth",
+    "baseDepthHint": "Walkway: 4-6 in, Driveway: 6-12 in",
+    "sandDepth": "Sand Bedding Depth",
+    "sandDepthHint": "Typical: 1 inch (2.5 cm)",
+    "paverThickness": "Paver Thickness",
+    "baseDensity": "Base Density",
+    "sandDensity": "Sand Density",
+    "wasteFactor": "Waste Factor",
+    "advancedOptions": "Advanced Options"
+  },
+  "buttons": {
+    "calculate": "Calculate",
+    "reset": "Reset"
+  },
+  "results": {
+    "title": "Material Requirements",
+    "description": "Based on your project specifications",
+    "projectArea": "Project Area",
+    "baseMaterial": "Base Material (Gravel/Crushed Stone)",
+    "sandMaterial": "Sand Bedding",
+    "volume": "Volume",
+    "weight": "Weight",
+    "bags50lb": "50 lb Bags",
+    "bags80lb": "80 lb Bags",
+    "bags": "bags",
+    "note": "Note",
+    "noteText": "These calculations include the waste factor. Always verify with your supplier and consider local building codes."
+  },
+  "errors": {
+    "invalidDimensions": "Please enter valid length and width",
+    "invalidArea": "Please enter valid area",
+    "invalidBaseDepth": "Please enter valid base depth",
+    "invalidSandDepth": "Please enter valid sand depth"
+  },
+  "warnings": {
+    "shallowBase": "Warning: Base depth less than 4 inches may not be suitable for heavy loads"
+  }
+}

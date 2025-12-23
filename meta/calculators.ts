@@ -3393,4 +3393,36 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "rucking, calculadora calorías, caminata con peso, ecuación Pandolf, entrenamiento militar, marcha con mochila, transporte de carga, calorías senderismo"
     }
   },
+  'paver-base-calculator': {
+    en: {
+      title: "Paver Base Calculator – Calculate Gravel, Sand & Material Needed",
+      description: "Free paver base calculator to estimate gravel, crushed stone, and sand required for paving projects. Supports imperial and metric units with accurate material calculations.",
+      slug: "/construction/paver-base-calculator",
+      keywords: "paver base calculator, gravel calculator, crushed stone calculator, sand calculator, paving materials, base material calculator, construction calculator"
+    },
+    pl: {
+      title: "Kalkulator Podbudowy Brukowej – Oblicz Żwir, Piasek i Materiały",
+      description: "Darmowy kalkulator podbudowy brukowej do szacowania żwiru, kruszywa i piasku potrzebnego do projektów brukarskich. Obsługuje jednostki imperialne i metryczne.",
+      slug: "/pl/budowa/kalkulator-podbudowy-brukowej",
+      keywords: "kalkulator podbudowy brukowej, kalkulator żwiru, kalkulator kruszywa, kalkulator piasku, materiały brukarskie, kalkulator materiału podbudowy"
+    },
+    br: {
+      title: "Calculadora de Base para Pavimentação – Calcule Brita, Areia e Materiais",
+      description: "Calculadora gratuita de base para pavimentação para estimar brita, pedra britada e areia necessárias para projetos de pavimentação. Suporta unidades imperiais e métricas.",
+      slug: "/br/construcao/calculadora-de-base-para-pavimentacao",
+      keywords: "calculadora de base para pavimentação, calculadora de brita, calculadora de pedra britada, calculadora de areia, materiais de pavimentação, calculadora de material de base"
+    },
+    de: {
+      title: "Pflasterunterbau-Rechner – Berechnen Sie Kies, Sand und Materialien",
+      description: "Kostenloser Pflasterunterbau-Rechner zur Schätzung von Kies, Schotter und Sand für Pflasterprojekte. Unterstützt imperiale und metrische Einheiten.",
+      slug: "/de/konstruktion/pflasterunterbau-rechner",
+      keywords: "pflasterunterbau rechner, kies rechner, schotter rechner, sand rechner, pflastermaterialien, unterbaumaterial rechner"
+    },
+    es: {
+      title: "Calculadora de Base para Pavimento – Calcula Grava, Arena y Materiales",
+      description: "Calculadora gratuita de base para pavimento para estimar grava, piedra triturada y arena necesarias para proyectos de pavimentación. Soporta unidades imperiales y métricas.",
+      slug: "/es/construccion/calculadora-de-base-para-pavimento",
+      keywords: "calculadora de base para pavimento, calculadora de grava, calculadora de piedra triturada, calculadora de arena, materiales de pavimentación, calculadora de material de base"
+    }
+  },
 };

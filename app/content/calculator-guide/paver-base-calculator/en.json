@@ -1,0 +1,95 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "How It Works",
+      "content": "Plan your patio, walkway, or driveway with confidence! A strong, properly layered base is key to making your project last for years. Use this calculator to estimate how much gravel and sand you need for a solid paver base.",
+      "subSections": [
+        {
+          "heading": "Simple Steps",
+          "content": "1. Enter your project dimensions (Length × Width)\n2. Enter desired base depths for gravel and sand\n3. Get the estimated amount of materials needed in cubic yards or cubic meters"
+        }
+      ]
+    },
+    {
+      "heading": "How to Estimate Base Materials",
+      "content": "Follow these calculation methods to determine the exact amount of gravel and sand needed for your paver base.",
+      "subSections": [
+        {
+          "heading": "Step 1: Calculate Gravel Volume",
+          "content": "1. Measure length and width in inches\n2. Multiply to get area in square inches\n3. Multiply by gravel depth (in inches) to get volume in cubic inches\n4. Convert to cubic yards:\n\n$$\\text{Cubic Yards} = \\frac{\\text{Volume in cubic inches}}{46,656}$$"
+        },
+        {
+          "heading": "Step 2: Calculate Sand Volume",
+          "content": "1. Use the same area in square inches\n2. Multiply by sand depth (usually 1 inch)\n3. Convert to cubic yards:\n\n$$\\text{Cubic Yards} = \\frac{\\text{Volume in cubic inches}}{46,656}$$"
+        },
+        {
+          "heading": "Metric Version",
+          "content": "1. Measure in centimeters\n2. Multiply area by depth (cm) to get cubic centimeters\n3. Convert to cubic meters:\n\n$$\\text{Cubic Meters} = \\frac{\\text{Volume in cubic centimeters}}{1,000,000}$$"
+        }
+      ]
+    },
+    {
+      "heading": "Recommended Base Depths",
+      "content": "Different projects require different base depths for optimal stability and longevity.",
+      "subSections": [
+        {
+          "heading": "Depth Guidelines",
+          "content": "**Patios:** 4–6″ compacted gravel + 1″ sand\n\n**Driveways / Heavy Use:** 6–8″ gravel\n\n**Important Note:** Compacting gravel reduces its initial volume. Add ~20% extra to reach the desired depth."
+        }
+      ]
+    },
+    {
+      "heading": "Quick Reference Table",
+      "content": "Use this table to quickly estimate materials needed for common patio sizes.",
+      "subSections": [
+        {
+          "heading": "Material Estimates by Patio Size",
+          "content": "| Patio Size | Gravel Needed (4–6″ base) | Sand Needed (1″ base) |\n|------------|---------------------------|----------------------|\n| 50 sq. ft. | 0.75 – 1.12 cu. yds. | 0.15 cu. yds. |\n| 100 sq. ft. | 1.48 – 2.22 cu. yds. | 0.31 cu. yds. |\n| 150 sq. ft. | 2.22 – 3.34 cu. yds. | 0.46 cu. yds. |\n| 200 sq. ft. | 2.96 – 4.44 cu. yds. | 0.62 cu. yds. |\n| 250 sq. ft. | 3.71 – 5.56 cu. yds. | 0.77 cu. yds. |\n| 300 sq. ft. | 4.44 – 6.67 cu. yds. | 0.93 cu. yds. |\n| 350 sq. ft. | 5.18 – 7.78 cu. yds. | 1.08 cu. yds. |\n| 400 sq. ft. | 5.93 – 8.89 cu. yds. | 1.23 cu. yds. |\n| 450 sq. ft. | 6.67 – 10.01 cu. yds. | 1.39 cu. yds. |\n| 500 sq. ft. | 7.40 – 11.11 cu. yds. | 1.54 cu. yds. |\n| 550 sq. ft. | 8.15 – 12.23 cu. yds. | 1.70 cu. yds. |\n| 600 sq. ft. | 8.89 – 13.34 cu. yds. | 1.85 cu. yds. |\n| 650 sq. ft. | 9.62 – 14.45 cu. yds. | 2.01 cu. yds. |\n| 700 sq. ft. | 10.67 – 15.56 cu. yds. | 2.16 cu. yds. |"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a paver base and why is it important?",
+      "a": "A paver base is a layer of compacted gravel topped with sand that supports your pavers. It prevents sinking, shifting, and cracking."
+    },
+    {
+      "q": "How deep should the gravel base be?",
+      "a": "Patios: 4–6 inches. Driveways / heavy use: 6–8 inches."
+    },
+    {
+      "q": "How thick should the sand layer be?",
+      "a": "1 inch is usually enough for leveling and stabilization."
+    },
+    {
+      "q": "How do I calculate the amount of gravel and sand I need?",
+      "a": "Measure the area (length × width), multiply by the depth, and convert to cubic yards (or cubic meters)."
+    },
+    {
+      "q": "Why add extra gravel for compaction?",
+      "a": "Compaction reduces volume; adding ~20% ensures correct depth."
+    },
+    {
+      "q": "Can this calculator be used for driveways?",
+      "a": "Yes, just increase gravel depth to 6–8 inches. Sand depth remains ~1 inch."
+    },
+    {
+      "q": "Can I measure in feet or inches?",
+      "a": "Both work. Make sure conversions are correct when calculating cubic yards/meters."
+    },
+    {
+      "q": "Can I use it for irregular shapes?",
+      "a": "Break irregular areas into rectangles, calculate separately, and add results."
+    },
+    {
+      "q": "How accurate is this calculator?",
+      "a": "It gives a good estimate. Always buy a little extra for compaction and measurement errors."
+    },
+    {
+      "q": "Can it be used internationally?",
+      "a": "Yes, input feet/inches or cm/m and get results in cubic yards or cubic meters."
+    }
+  ]
+}

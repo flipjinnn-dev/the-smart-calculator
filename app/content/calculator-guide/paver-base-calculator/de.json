@@ -1,0 +1,95 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Wie Es Funktioniert",
+      "content": "Planen Sie Ihre Terrasse, Ihren Weg oder Ihre Einfahrt mit Zuversicht! Eine starke, richtig geschichtete Basis ist der Schlüssel dafür, dass Ihr Projekt jahrelang hält. Verwenden Sie diesen Rechner, um zu schätzen, wie viel Schotter und Sand Sie für eine solide Pflasterunterbau benötigen.",
+      "subSections": [
+        {
+          "heading": "Einfache Schritte",
+          "content": "1. Geben Sie Ihre Projektabmessungen ein (Länge × Breite)\n2. Geben Sie die gewünschten Basistiefen für Schotter und Sand ein\n3. Erhalten Sie die geschätzte Menge an benötigten Materialien in Kubikyards oder Kubikmetern"
+        }
+      ]
+    },
+    {
+      "heading": "So Schätzen Sie Basismaterialien",
+      "content": "Befolgen Sie diese Berechnungsmethoden, um die genaue Menge an Schotter und Sand für Ihren Pflasterunterbau zu bestimmen.",
+      "subSections": [
+        {
+          "heading": "Schritt 1: Schottervolumen Berechnen",
+          "content": "1. Messen Sie Länge und Breite in Zoll\n2. Multiplizieren Sie, um die Fläche in Quadratzoll zu erhalten\n3. Multiplizieren Sie mit der Schottertiefe (in Zoll), um das Volumen in Kubikzoll zu erhalten\n4. Umrechnen in Kubikyards:\n\n$$\\text{Kubikyards} = \\frac{\\text{Volumen in Kubikzoll}}{46,656}$$"
+        },
+        {
+          "heading": "Schritt 2: Sandvolumen Berechnen",
+          "content": "1. Verwenden Sie dieselbe Fläche in Quadratzoll\n2. Multiplizieren Sie mit der Sandtiefe (normalerweise 1 Zoll)\n3. Umrechnen in Kubikyards:\n\n$$\\text{Kubikyards} = \\frac{\\text{Volumen in Kubikzoll}}{46,656}$$"
+        },
+        {
+          "heading": "Metrische Version",
+          "content": "1. Messen Sie in Zentimetern\n2. Multiplizieren Sie die Fläche mit der Tiefe (cm), um Kubikzentimeter zu erhalten\n3. Umrechnen in Kubikmeter:\n\n$$\\text{Kubikmeter} = \\frac{\\text{Volumen in Kubikzentimetern}}{1,000,000}$$"
+        }
+      ]
+    },
+    {
+      "heading": "Empfohlene Basistiefen",
+      "content": "Verschiedene Projekte erfordern unterschiedliche Basistiefen für optimale Stabilität und Langlebigkeit.",
+      "subSections": [
+        {
+          "heading": "Tiefenrichtlinien",
+          "content": "**Terrassen:** 4–6″ verdichteter Schotter + 1″ Sand\n\n**Einfahrten / Starke Nutzung:** 6–8″ Schotter\n\n**Wichtiger Hinweis:** Das Verdichten von Schotter reduziert sein ursprüngliches Volumen. Fügen Sie ~20% extra hinzu, um die gewünschte Tiefe zu erreichen."
+        }
+      ]
+    },
+    {
+      "heading": "Schnellreferenztabelle",
+      "content": "Verwenden Sie diese Tabelle, um schnell die benötigten Materialien für gängige Terrassengrößen zu schätzen.",
+      "subSections": [
+        {
+          "heading": "Materialschätzungen nach Terrassengröße",
+          "content": "| Terrassengröße | Benötigter Schotter (4–6″ Basis) | Benötigter Sand (1″ Basis) |\n|----------------|----------------------------------|----------------------------|\n| 50 Quadratfuß | 0.75 – 1.12 Kubikyards | 0.15 Kubikyards |\n| 100 Quadratfuß | 1.48 – 2.22 Kubikyards | 0.31 Kubikyards |\n| 150 Quadratfuß | 2.22 – 3.34 Kubikyards | 0.46 Kubikyards |\n| 200 Quadratfuß | 2.96 – 4.44 Kubikyards | 0.62 Kubikyards |\n| 250 Quadratfuß | 3.71 – 5.56 Kubikyards | 0.77 Kubikyards |\n| 300 Quadratfuß | 4.44 – 6.67 Kubikyards | 0.93 Kubikyards |\n| 350 Quadratfuß | 5.18 – 7.78 Kubikyards | 1.08 Kubikyards |\n| 400 Quadratfuß | 5.93 – 8.89 Kubikyards | 1.23 Kubikyards |\n| 450 Quadratfuß | 6.67 – 10.01 Kubikyards | 1.39 Kubikyards |\n| 500 Quadratfuß | 7.40 – 11.11 Kubikyards | 1.54 Kubikyards |\n| 550 Quadratfuß | 8.15 – 12.23 Kubikyards | 1.70 Kubikyards |\n| 600 Quadratfuß | 8.89 – 13.34 Kubikyards | 1.85 Kubikyards |\n| 650 Quadratfuß | 9.62 – 14.45 Kubikyards | 2.01 Kubikyards |\n| 700 Quadratfuß | 10.67 – 15.56 Kubikyards | 2.16 Kubikyards |"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein Pflasterunterbau und warum ist er wichtig?",
+      "a": "Ein Pflasterunterbau ist eine Schicht aus verdichtetem Schotter, die mit Sand bedeckt ist und Ihre Pflastersteine trägt. Er verhindert Absacken, Verschieben und Risse."
+    },
+    {
+      "q": "Wie tief sollte die Schotterbasis sein?",
+      "a": "Terrassen: 4–6 Zoll. Einfahrten / starke Nutzung: 6–8 Zoll."
+    },
+    {
+      "q": "Wie dick sollte die Sandschicht sein?",
+      "a": "1 Zoll reicht normalerweise zum Nivellieren und Stabilisieren aus."
+    },
+    {
+      "q": "Wie berechne ich die Menge an Schotter und Sand, die ich benötige?",
+      "a": "Messen Sie die Fläche (Länge × Breite), multiplizieren Sie mit der Tiefe und rechnen Sie in Kubikyards (oder Kubikmeter) um."
+    },
+    {
+      "q": "Warum zusätzlichen Schotter für die Verdichtung hinzufügen?",
+      "a": "Verdichtung reduziert das Volumen; das Hinzufügen von ~20% stellt die korrekte Tiefe sicher."
+    },
+    {
+      "q": "Kann dieser Rechner für Einfahrten verwendet werden?",
+      "a": "Ja, erhöhen Sie einfach die Schottertiefe auf 6–8 Zoll. Die Sandtiefe bleibt bei ~1 Zoll."
+    },
+    {
+      "q": "Kann ich in Fuß oder Zoll messen?",
+      "a": "Beides funktioniert. Stellen Sie sicher, dass die Umrechnungen beim Berechnen von Kubikyards/Metern korrekt sind."
+    },
+    {
+      "q": "Kann ich ihn für unregelmäßige Formen verwenden?",
+      "a": "Teilen Sie unregelmäßige Bereiche in Rechtecke, berechnen Sie separat und addieren Sie die Ergebnisse."
+    },
+    {
+      "q": "Wie genau ist dieser Rechner?",
+      "a": "Er gibt eine gute Schätzung. Kaufen Sie immer etwas mehr für Verdichtung und Messfehler."
+    },
+    {
+      "q": "Kann er international verwendet werden?",
+      "a": "Ja, geben Sie Fuß/Zoll oder cm/m ein und erhalten Sie Ergebnisse in Kubikyards oder Kubikmetern."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Calculadora de Base para Pavimentação",
+  "description": "Calcule a quantidade de material de base, areia e blocos necessários para seu projeto de pavimentação",
+  "calculator": {
+    "title": "Calcular Materiais",
+    "description": "Insira as dimensões do projeto e especificações"
+  },
+  "inputs": {
+    "unitSystem": "Sistema de Unidades",
+    "calculationMode": "Calcular Usando",
+    "projectDimensions": "Dimensões do Projeto",
+    "projectArea": "Área do Projeto",
+    "length": "Comprimento",
+    "width": "Largura",
+    "totalArea": "Área Total",
+    "baseDepth": "Profundidade da Brita/Base",
+    "baseDepthHint": "Calçada: 10-15 cm, Entrada: 15-30 cm",
+    "sandDepth": "Profundidade da Camada de Areia",
+    "sandDepthHint": "Típico: 2.5 cm",
+    "paverThickness": "Espessura do Bloco",
+    "baseDensity": "Densidade da Base",
+    "sandDensity": "Densidade da Areia",
+    "wasteFactor": "Fator de Desperdício",
+    "advancedOptions": "Opções Avançadas"
+  },
+  "buttons": {
+    "calculate": "Calcular",
+    "reset": "Resetar"
+  },
+  "results": {
+    "title": "Materiais Necessários",
+    "description": "Com base nas especificações do projeto",
+    "projectArea": "Área do Projeto",
+    "baseMaterial": "Material de Base (Brita/Pedra Britada)",
+    "sandMaterial": "Camada de Areia",
+    "volume": "Volume",
+    "weight": "Peso",
+    "bags50lb": "Sacos de 23 kg",
+    "bags80lb": "Sacos de 36 kg",
+    "bags": "sacos",
+    "note": "Nota",
+    "noteText": "Esses cálculos incluem o fator de desperdício. Sempre verifique com seu fornecedor e considere os códigos de construção locais."
+  },
+  "errors": {
+    "invalidDimensions": "Por favor, insira comprimento e largura válidos",
+    "invalidArea": "Por favor, insira uma área válida",
+    "invalidBaseDepth": "Por favor, insira uma profundidade de base válida",
+    "invalidSandDepth": "Por favor, insira uma profundidade de areia válida"
+  },
+  "warnings": {
+    "shallowBase": "Aviso: Profundidade de base menor que 10 cm pode não ser adequada para cargas pesadas"
+  }
+}

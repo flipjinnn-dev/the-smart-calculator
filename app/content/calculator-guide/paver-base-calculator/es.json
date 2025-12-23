@@ -1,0 +1,95 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Cómo Funciona",
+      "content": "¡Planifica tu patio, camino o entrada con confianza! Una base fuerte y correctamente en capas es clave para que tu proyecto dure años. Usa esta calculadora para estimar cuánta grava y arena necesitas para una base sólida de pavimento.",
+      "subSections": [
+        {
+          "heading": "Pasos Simples",
+          "content": "1. Ingresa las dimensiones de tu proyecto (Longitud × Ancho)\n2. Ingresa las profundidades deseadas de base para grava y arena\n3. Obtén la cantidad estimada de materiales necesarios en yardas cúbicas o metros cúbicos"
+        }
+      ]
+    },
+    {
+      "heading": "Cómo Estimar Materiales de Base",
+      "content": "Siga estos métodos de cálculo para determinar la cantidad exacta de grava y arena necesaria para su base de pavimento.",
+      "subSections": [
+        {
+          "heading": "Paso 1: Calcular Volumen de Grava",
+          "content": "1. Mida longitud y ancho en pulgadas\n2. Multiplique para obtener área en pulgadas cuadradas\n3. Multiplique por la profundidad de grava (en pulgadas) para obtener volumen en pulgadas cúbicas\n4. Convierta a yardas cúbicas:\n\n$$\\text{Yardas Cúbicas} = \\frac{\\text{Volumen en pulgadas cúbicas}}{46,656}$$"
+        },
+        {
+          "heading": "Paso 2: Calcular Volumen de Arena",
+          "content": "1. Use la misma área en pulgadas cuadradas\n2. Multiplique por la profundidad de arena (generalmente 1 pulgada)\n3. Convierta a yardas cúbicas:\n\n$$\\text{Yardas Cúbicas} = \\frac{\\text{Volumen en pulgadas cúbicas}}{46,656}$$"
+        },
+        {
+          "heading": "Versión Métrica",
+          "content": "1. Mida en centímetros\n2. Multiplique el área por la profundidad (cm) para obtener centímetros cúbicos\n3. Convierta a metros cúbicos:\n\n$$\\text{Metros Cúbicos} = \\frac{\\text{Volumen en centímetros cúbicos}}{1,000,000}$$"
+        }
+      ]
+    },
+    {
+      "heading": "Profundidades de Base Recomendadas",
+      "content": "Diferentes proyectos requieren diferentes profundidades de base para estabilidad y longevidad óptimas.",
+      "subSections": [
+        {
+          "heading": "Directrices de Profundidad",
+          "content": "**Patios:** 4–6″ de grava compactada + 1″ de arena\n\n**Entradas / Uso Pesado:** 6–8″ de grava\n\n**Nota Importante:** Compactar la grava reduce su volumen inicial. Agregue ~20% extra para alcanzar la profundidad deseada."
+        }
+      ]
+    },
+    {
+      "heading": "Tabla de Referencia Rápida",
+      "content": "Use esta tabla para estimar rápidamente los materiales necesarios para tamaños comunes de patio.",
+      "subSections": [
+        {
+          "heading": "Estimaciones de Material por Tamaño de Patio",
+          "content": "| Tamaño de Patio | Grava Necesaria (base 4–6″) | Arena Necesaria (base 1″) |\n|-----------------|----------------------------|---------------------------|\n| 50 pies cuad. | 0.75 – 1.12 yardas cúb. | 0.15 yardas cúb. |\n| 100 pies cuad. | 1.48 – 2.22 yardas cúb. | 0.31 yardas cúb. |\n| 150 pies cuad. | 2.22 – 3.34 yardas cúb. | 0.46 yardas cúb. |\n| 200 pies cuad. | 2.96 – 4.44 yardas cúb. | 0.62 yardas cúb. |\n| 250 pies cuad. | 3.71 – 5.56 yardas cúb. | 0.77 yardas cúb. |\n| 300 pies cuad. | 4.44 – 6.67 yardas cúb. | 0.93 yardas cúb. |\n| 350 pies cuad. | 5.18 – 7.78 yardas cúb. | 1.08 yardas cúb. |\n| 400 pies cuad. | 5.93 – 8.89 yardas cúb. | 1.23 yardas cúb. |\n| 450 pies cuad. | 6.67 – 10.01 yardas cúb. | 1.39 yardas cúb. |\n| 500 pies cuad. | 7.40 – 11.11 yardas cúb. | 1.54 yardas cúb. |\n| 550 pies cuad. | 8.15 – 12.23 yardas cúb. | 1.70 yardas cúb. |\n| 600 pies cuad. | 8.89 – 13.34 yardas cúb. | 1.85 yardas cúb. |\n| 650 pies cuad. | 9.62 – 14.45 yardas cúb. | 2.01 yardas cúb. |\n| 700 pies cuad. | 10.67 – 15.56 yardas cúb. | 2.16 yardas cúb. |"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es una base de pavimento y por qué es importante?",
+      "a": "Una base de pavimento es una capa de grava compactada cubierta con arena que soporta tus adoquines. Previene hundimiento, desplazamiento y agrietamiento."
+    },
+    {
+      "q": "¿Qué tan profunda debe ser la base de grava?",
+      "a": "Patios: 4–6 pulgadas. Entradas / uso pesado: 6–8 pulgadas."
+    },
+    {
+      "q": "¿Qué tan gruesa debe ser la capa de arena?",
+      "a": "1 pulgada suele ser suficiente para nivelación y estabilización."
+    },
+    {
+      "q": "¿Cómo calculo la cantidad de grava y arena que necesito?",
+      "a": "Mide el área (longitud × ancho), multiplica por la profundidad y convierte a yardas cúbicas (o metros cúbicos)."
+    },
+    {
+      "q": "¿Por qué agregar grava extra para compactación?",
+      "a": "La compactación reduce el volumen; agregar ~20% asegura la profundidad correcta."
+    },
+    {
+      "q": "¿Se puede usar esta calculadora para entradas?",
+      "a": "Sí, solo aumenta la profundidad de grava a 6–8 pulgadas. La profundidad de arena permanece en ~1 pulgada."
+    },
+    {
+      "q": "¿Puedo medir en pies o pulgadas?",
+      "a": "Ambos funcionan. Asegúrate de que las conversiones sean correctas al calcular yardas/metros cúbicos."
+    },
+    {
+      "q": "¿Puedo usarla para formas irregulares?",
+      "a": "Divide áreas irregulares en rectángulos, calcula por separado y suma los resultados."
+    },
+    {
+      "q": "¿Qué tan precisa es esta calculadora?",
+      "a": "Da una buena estimación. Siempre compra un poco más para compactación y errores de medición."
+    },
+    {
+      "q": "¿Se puede usar internacionalmente?",
+      "a": "Sí, ingresa pies/pulgadas o cm/m y obtén resultados en yardas cúbicas o metros cúbicos."
+    }
+  ]
+}
