@@ -28,10 +28,22 @@ export default async function CreatorPage({ params }: PageProps) {
   const totalCalculators = author.calculators?.length || 0;
   const totalPosts = author.posts?.length || 0;
   
+  // Demo override: Add ratings for paver-base-calculator
+  const calculatorsWithDemoRatings = author.calculators?.map((calc: any) => {
+    if (calc.calculatorId === 'paver-base-calculator') {
+      return {
+        ...calc,
+        ratingCount: 3200,
+        ratingTotal: 15360
+      };
+    }
+    return calc;
+  }) || [];
+  
   // Calculate total reviews across all content (if available)
-  const totalReviews = author.calculators?.reduce((acc: number, curr: any) => acc + (curr.ratingCount || 0), 0) || 0;
+  const totalReviews = calculatorsWithDemoRatings.reduce((acc: number, curr: any) => acc + (curr.ratingCount || 0), 0) || 0;
   const averageRating = totalReviews > 0 
-    ? (author.calculators?.reduce((acc: number, curr: any) => acc + (curr.ratingTotal || 0), 0) / totalReviews).toFixed(1)
+    ? (calculatorsWithDemoRatings.reduce((acc: number, curr: any) => acc + (curr.ratingTotal || 0), 0) / totalReviews).toFixed(1)
     : null;
 
   // Brand colors inspired by the image (Blue, Red, Green, Yellow)
@@ -179,9 +191,9 @@ export default async function CreatorPage({ params }: PageProps) {
                 </div>
               </div>
               
-              {author.calculators && author.calculators.length > 0 ? (
+              {calculatorsWithDemoRatings && calculatorsWithDemoRatings.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {author.calculators.map((calc: any, idx: number) => (
+                  {calculatorsWithDemoRatings.map((calc: any, idx: number) => (
                     <Link href={`/${calc.calculatorId}`} key={calc.calculatorId || idx} className="group h-full">
                       <Card className="h-full border-0 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_40px_-5px_rgba(66,133,244,0.2)] transition-all duration-300 bg-white rounded-2xl overflow-hidden group-hover:-translate-y-1.5 ring-1 ring-slate-100 hover:ring-[#4285F4]/30">
                         {/* Top Color Line */}

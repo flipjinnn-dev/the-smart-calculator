@@ -11,15 +11,16 @@ import { toast } from 'sonner';
 
 interface CreatorProfile {
   name: string;
-  slug: string; // expecting full slug or part? usually /creator/slug
+  slug: string;
   image?: string | null;
+  tagline?: string;
   bio?: string;
 }
 
 interface RatingProfileSectionProps {
   entityId: string;
   entityType: 'calculator' | 'blog';
-  creatorProfile: CreatorProfile;
+  creatorSlug: string; // Only need the slug, will fetch the rest from Sanity
   initialRatingTotal?: number;
   initialRatingCount?: number;
   className?: string;
@@ -28,7 +29,7 @@ interface RatingProfileSectionProps {
 export function RatingProfileSection({
   entityId,
   entityType,
-  creatorProfile,
+  creatorSlug,
   initialRatingTotal = 0,
   initialRatingCount = 0,
   className,
@@ -37,6 +38,8 @@ export function RatingProfileSection({
   const [hoverRating, setHoverRating] = useState<number>(0);
   const [hasRated, setHasRated] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [creatorProfile, setCreatorProfile] = useState<CreatorProfile | null>(null);
+  const [isLoadingProfile, setIsLoadingProfile] = useState(true);
   
   // Display state
   const [currentTotal, setCurrentTotal] = useState(initialRatingTotal);
@@ -44,6 +47,34 @@ export function RatingProfileSection({
 
   // Calculate average for display
   const averageRating = currentCount > 0 ? (currentTotal / currentCount) : 0;
+
+  // Format review count for display (e.g., "1.2K", "3.5K")
+  const formatReviewCount = (count: number): string => {
+    if (count >= 1000) {
+      return `${(count / 1000).toFixed(1)}K`;
+    }
+    return count.toString();
+  };
+
+  // Fetch creator profile from Sanity
+  useEffect(() => {
+    async function fetchCreatorProfile() {
+      try {
+        setIsLoadingProfile(true);
+        const response = await fetch(`/api/author/${creatorSlug}`);
+        if (response.ok) {
+          const data = await response.json();
+          setCreatorProfile(data);
+        }
+      } catch (error) {
+        console.error('Error fetching creator profile:', error);
+      } finally {
+        setIsLoadingProfile(false);
+      }
+    }
+
+    fetchCreatorProfile();
+  }, [creatorSlug]);
 
   useEffect(() => {
     // Check if user has already rated this entity via cookie
@@ -100,84 +131,140 @@ export function RatingProfileSection({
   };
 
   return (
-    <div className={cn("w-full py-8 border-t border-border mt-12", className)}>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        {/* LEFT SIDE: Rating */}
-        <div className="flex flex-col gap-4">
-          <h3 className="text-xl font-semibold">
-            How useful was this {entityType === 'calculator' ? 'calculator' : 'article'}?
-          </h3>
-          
-          <div className="flex items-center gap-1">
-            {[1, 2, 3, 4, 5].map((star) => (
-              <button
-                key={star}
-                type="button"
-                className={cn(
-                  "p-1 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-full",
-                  hasRated ? "cursor-default" : "cursor-pointer hover:scale-110"
-                )}
-                onMouseEnter={() => !hasRated && setHoverRating(star)}
-                onMouseLeave={() => !hasRated && setHoverRating(0)}
-                onClick={() => handleRate(star)}
-                disabled={hasRated || isSubmitting}
-                aria-label={`Rate ${star} stars`}
-              >
-                <Star
-                  className={cn(
-                    "w-8 h-8",
-                    (hoverRating || rating || Math.round(averageRating)) >= star
-                      ? "fill-yellow-400 text-yellow-400"
-                      : "fill-transparent text-muted-foreground"
-                  )}
-                />
-              </button>
-            ))}
-          </div>
+    <div className={cn("w-full py-10 mt-10", className)}>
+      <div className="grid grid-cols-1 lg:grid-cols-[1.5fr,1fr] gap-8 lg:gap-12 items-center">
+        {/* LEFT SIDE: Reviews Section */}
+        <div className="bg-white dark:bg-slate-950 rounded-2xl border border-border/50 shadow-sm p-8">
+          <div className="flex flex-col gap-6">
+            <div className="flex items-start justify-between">
+              <div>
+                <h3 className="text-2xl font-bold text-foreground flex items-center gap-2">
+                  <Star className="w-6 h-6 fill-yellow-400 text-yellow-400" />
+                  Rate this Tool
+                </h3>
+                <p className="text-muted-foreground mt-1">How useful was this {entityType === 'calculator' ? 'calculator' : 'article'} for you?</p>
+              </div>
+              {currentCount > 0 && (
+                <div className="text-right hidden sm:block">
+                  <div className="text-3xl font-bold text-foreground">{averageRating.toFixed(1)}</div>
+                  <div className="text-sm text-muted-foreground">{formatReviewCount(currentCount)} Reviews</div>
+                </div>
+              )}
+            </div>
 
-          <div className="text-sm text-muted-foreground">
-            {currentCount > 0 ? (
-              <>
-                <span className="font-medium text-foreground">{averageRating.toFixed(1)}</span>/5 
-                <span className="mx-1">•</span> 
-                {currentCount} {currentCount === 1 ? 'vote' : 'votes'}
-              </>
-            ) : (
-              "Be the first to rate!"
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+              <div className="flex items-center gap-1.5 p-2 bg-slate-50 dark:bg-slate-900 rounded-xl border border-border/50">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <button
+                    key={star}
+                    type="button"
+                    className={cn(
+                      "transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg p-1",
+                      hasRated ? "cursor-default" : "cursor-pointer hover:scale-110 hover:bg-slate-200 dark:hover:bg-slate-800"
+                    )}
+                    onMouseEnter={() => !hasRated && setHoverRating(star)}
+                    onMouseLeave={() => !hasRated && setHoverRating(0)}
+                    onClick={() => handleRate(star)}
+                    disabled={hasRated || isSubmitting}
+                    aria-label={`Rate ${star} stars`}
+                  >
+                    <Star
+                      className={cn(
+                        "w-8 h-8 md:w-10 md:h-10 transition-all",
+                        (hoverRating || rating || Math.round(averageRating)) >= star
+                          ? "fill-yellow-400 text-yellow-400 drop-shadow-sm"
+                          : "fill-transparent text-slate-300 dark:text-slate-600"
+                      )}
+                    />
+                  </button>
+                ))}
+              </div>
+
+              {hasRated ? (
+                <div className="flex items-center gap-2 px-4 py-2 bg-green-500/10 text-green-600 dark:text-green-400 border border-green-500/20 rounded-full">
+                  <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+                  <span className="font-medium">Thanks for rating!</span>
+                </div>
+              ) : (
+                <span className="text-sm text-muted-foreground animate-pulse font-medium">
+                  Tap stars to rate
+                </span>
+              )}
+            </div>
+            
+            {/* Mobile Stats */}
+            {currentCount > 0 && (
+              <div className="flex items-center gap-4 sm:hidden border-t border-border/50 pt-4">
+                <div>
+                  <span className="text-xl font-bold">{averageRating.toFixed(1)}</span>
+                  <span className="text-muted-foreground text-sm">/5</span>
+                </div>
+                <div className="w-px h-8 bg-border"></div>
+                <div>
+                  <span className="font-bold">{formatReviewCount(currentCount)}</span>
+                  <span className="text-muted-foreground text-sm ml-1">Reviews</span>
+                </div>
+              </div>
             )}
-            {hasRated && <span className="ml-2 text-green-600 font-medium">(Thanks!)</span>}
           </div>
         </div>
 
-        {/* RIGHT SIDE: Creator Profile */}
-        <div className="flex md:justify-end">
-          <Card className="p-4 flex items-center gap-4 min-w-[300px] hover:shadow-md transition-shadow">
-            <Link href={`/creator/${creatorProfile.slug}`} className="shrink-0">
-              <Avatar className="h-16 w-16 border-2 border-primary/10">
-                <AvatarImage src={creatorProfile.image || undefined} alt={creatorProfile.name} />
-                <AvatarFallback className="bg-primary/5">
-                  <User className="h-8 w-8 text-primary/40" />
-                </AvatarFallback>
-              </Avatar>
-            </Link>
-            
-            <div className="flex flex-col">
-              <span className="text-xs text-muted-foreground uppercase tracking-wider font-semibold mb-1">
-                Created by
-              </span>
-              <Link 
-                href={`/creator/${creatorProfile.slug}`}
-                className="text-lg font-bold hover:text-primary transition-colors line-clamp-1"
-              >
-                {creatorProfile.name}
-              </Link>
-              {(creatorProfile.tagline || creatorProfile.bio) && (
-                <p className="text-xs text-muted-foreground line-clamp-2 mt-1">
-                  {creatorProfile.tagline || creatorProfile.bio}
-                </p>
-              )}
+        {/* RIGHT SIDE: Creator Profile Section */}
+        <div className="h-full">
+          {isLoadingProfile ? (
+            <div className="h-full bg-slate-50 dark:bg-slate-900 rounded-2xl border border-border/50 p-8 flex flex-col justify-center gap-4">
+              <div className="flex items-center gap-4">
+                <div className="h-16 w-16 rounded-full bg-muted animate-pulse" />
+                <div className="space-y-2 flex-1">
+                  <div className="h-4 w-24 bg-muted animate-pulse rounded" />
+                  <div className="h-3 w-32 bg-muted animate-pulse rounded" />
+                </div>
+              </div>
+              <div className="h-12 w-full bg-muted animate-pulse rounded-xl" />
             </div>
-          </Card>
+          ) : creatorProfile ? (
+            <div className="h-full bg-slate-50 dark:bg-slate-900 rounded-2xl border border-border/50 p-8 flex flex-col justify-center relative overflow-hidden group hover:border-primary/20 transition-colors">
+              {/* Decorative Background Elements */}
+              <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
+              
+              <div className="relative z-10 flex items-start gap-5">
+                <Link href={`/creator/${creatorProfile.slug}`} className="shrink-0 relative">
+                  <Avatar className="h-20 w-20 border-4 border-white dark:border-slate-950 shadow-md group-hover:scale-105 transition-transform duration-300">
+                    <AvatarImage src={creatorProfile.image || undefined} alt={creatorProfile.name} />
+                    <AvatarFallback className="bg-gradient-to-br from-primary/20 to-primary/10 text-xl">
+                      <User className="h-8 w-8 text-primary/60" />
+                    </AvatarFallback>
+                  </Avatar>
+                  <div className="absolute bottom-0 right-0 w-5 h-5 bg-green-500 border-4 border-white dark:border-slate-950 rounded-full shadow-sm" title="Online" />
+                </Link>
+                
+                <div className="flex-1 min-w-0 pt-1">
+                  <div className="text-xs font-bold text-primary tracking-wider uppercase mb-1">Created By</div>
+                  <Link 
+                    href={`/creator/${creatorProfile.slug}`}
+                    className="text-xl font-bold text-foreground hover:text-primary transition-colors line-clamp-1 block mb-1"
+                  >
+                    {creatorProfile.name}
+                  </Link>
+                  {(creatorProfile.tagline || creatorProfile.bio) && (
+                    <p className="text-sm text-muted-foreground line-clamp-2 leading-relaxed">
+                      {creatorProfile.tagline || creatorProfile.bio}
+                    </p>
+                  )}
+                </div>
+              </div>
+
+              <div className="mt-6 pt-6 border-t border-border/50 flex justify-between items-center relative z-10">
+                <Link 
+                  href={`/creator/${creatorProfile.slug}`}
+                  className="text-sm font-semibold text-primary hover:text-primary/80 transition-colors flex items-center gap-1 group/link"
+                >
+                  View Full Profile 
+                  <span className="group-hover/link:translate-x-1 transition-transform">→</span>
+                </Link>
+              </div>
+            </div>
+          ) : null}
         </div>
       </div>
     </div>
