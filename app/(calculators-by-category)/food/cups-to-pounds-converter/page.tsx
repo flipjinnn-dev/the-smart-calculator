@@ -14,6 +14,7 @@ import { Calculator, RotateCcw, Scale, Coffee, ChefHat } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 const ingredients = [{
   name: "All-purpose flour",
   density: 0.593
@@ -429,6 +430,15 @@ export default function CupsToPoundsConverterCalculator() {
               </Card>
             </div>
           </div>
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="cups-to-pounds-converter"
+            entityType="calculator"
+            creatorSlug="jessica-adam"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Butter Conversion Calculator",

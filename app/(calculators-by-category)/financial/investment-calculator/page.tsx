@@ -17,6 +17,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 ;
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function InvestmentCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -891,6 +892,15 @@ export default function InvestmentCalculatorCalculator() {
           </div>
 
           {/* Guide */}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="investment-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
         </main>
 

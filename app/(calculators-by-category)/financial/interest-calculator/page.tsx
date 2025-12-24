@@ -16,6 +16,7 @@ import { Calculator, DollarSign, Percent, Calendar, TrendingUp } from "lucide-re
 import CalculatorGuide from "@/components/calculator-guide";
 ;
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function InterestCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -433,6 +434,15 @@ export default function InterestCalculatorCalculator() {
           calculatorDescription: "Calculate and future value of money with time"
         }]} color="green" title="Related Financial Calculators" />
           {/* How to Use Section */}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="interest-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <div className="mt-8">
               <CalculatorGuide data={guideData} />
           </div>

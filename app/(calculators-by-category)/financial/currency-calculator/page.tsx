@@ -14,6 +14,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 ;
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 const currencies = [{
   code: "USD",
   name: "US Dollar",
@@ -714,6 +715,15 @@ export default function CurrencyCalculatorCalculator() {
             </section>
           </div>
 
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="currency-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
 
           <SimilarCalculators calculators={[{

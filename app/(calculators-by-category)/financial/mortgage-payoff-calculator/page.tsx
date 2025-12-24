@@ -18,6 +18,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 ;
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 interface MortgageResult {
   standardPayoffMonths: number;
   standardTotalInterest: number;
@@ -661,6 +662,15 @@ export default function MortgagePayoffCalculatorCalculator() {
             </div>
           </div>
 
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="mortgage-payoff-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
 
         <SimilarCalculators calculators={[{

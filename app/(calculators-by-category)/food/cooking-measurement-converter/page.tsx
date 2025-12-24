@@ -13,6 +13,7 @@ import { Calculator, RotateCcw, Scale, Droplets, ChefHat } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 const ingredients = [{
   name: "Water",
   density: 1000
@@ -671,6 +672,15 @@ export default function CookingMeasurementConverterCalculator() {
               </Card>
             </div>
           </div>
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="cooking-measurement-converter"
+            entityType="calculator"
+            creatorSlug="jessica-adam"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Dry to Cooked Pasta Converter",

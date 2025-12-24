@@ -13,6 +13,7 @@ import { GraduationCap, Calculator, Plus, Trash2, RotateCcw, BookOpen } from "lu
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 interface Course {
   id: string;
   name: string;
@@ -794,6 +795,15 @@ export default function GpaCalculatorCalculator() {
               </CardContent>
             </Card>
           </div>}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="gpa-calculator"
+            entityType="calculator"
+            creatorSlug="aiden-asher"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Piecewise Function Calculator",

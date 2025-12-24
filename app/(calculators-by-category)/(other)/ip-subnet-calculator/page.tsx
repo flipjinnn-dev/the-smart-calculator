@@ -12,6 +12,7 @@ import { Switch } from "@/components/ui/switch";
 import { Network, Calculator, RotateCcw, Globe, Shield, Binary } from "lucide-react";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function IpSubnetCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -579,6 +580,15 @@ export default function IpSubnetCalculatorCalculator() {
               </CardContent>
             </Card>
           </div>}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="ip-subnet-calculator"
+            entityType="calculator"
+            creatorSlug="aiden-asher"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Enterprise SEO ROI Calculator",

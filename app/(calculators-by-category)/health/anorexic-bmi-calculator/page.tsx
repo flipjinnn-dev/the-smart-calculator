@@ -14,6 +14,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll"
 import CalculatorGuide from "@/components/calculator-guide"
 import { useCalculatorContent } from "@/hooks/useCalculatorContent"
 import SimilarCalculators from "@/components/similar-calculators"
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 // Define the content structure interface
 interface CalculatorUIContent {
@@ -951,6 +952,15 @@ export default function AnorexicBmiCalculatorCalculator() {
           </div>
 
           {/* How to Use Section */}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="anorexic-bmi-calculator"
+            entityType="calculator"
+            creatorSlug="simon-stephen"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <div className="mt-8">
             <CalculatorGuide data={guideData} />
           </div>

@@ -15,6 +15,7 @@ import { Calculator, RotateCcw, ChefHat, Wheat } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function DryToCookedPastaConverterCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -603,7 +604,16 @@ export default function DryToCookedPastaConverterCalculator() {
             </Card>
           </div>
         </div>
-        <CalculatorGuide data={guideData} />
+        
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="dry-to-cooked-pasta-converter"
+            entityType="calculator"
+            creatorSlug="jessica-adam"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
         <SimilarCalculators calculators={[{
           calculatorName: "Cooking Measurement Converter",
           calculatorHref: "/food/cooking-measurement-converter",

@@ -12,6 +12,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 interface ProjectionResults {
   projectionVector: number[];
@@ -408,7 +409,16 @@ export default function OrthogonalProjectionCalculator() {
 
           {/* Information Section */}
           <section className="mt-16">
-            <div className="mt-8">
+            
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="orthogonal-projection-calculator"
+            entityType="calculator"
+            creatorSlug="realynn-reed"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <div className="mt-8">
               <CalculatorGuide data={guideData} />
             </div>
           </section>

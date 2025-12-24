@@ -12,6 +12,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Calculator, RotateCcw, Shield, Activity, Target, TrendingUp } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 export default function ArmyBodyFatCalculatorCalculator() {
   const pathname = usePathname();
@@ -604,6 +605,15 @@ export default function ArmyBodyFatCalculatorCalculator() {
           </div>
 
          {/* How to Use Section */}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="army-body-fat-calculator"
+            entityType="calculator"
+            creatorSlug="simon-stephen"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <div className="mt-8">
               <CalculatorGuide data={guideData} />
           </div>

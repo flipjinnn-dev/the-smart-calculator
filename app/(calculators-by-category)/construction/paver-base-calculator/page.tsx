@@ -13,6 +13,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
 import { useCalculatorContent } from "@/hooks/useCalculatorContent";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 type UnitSystem = "imperial" | "metric";
 type CalculationMode = "dimensions" | "area";
@@ -513,6 +514,15 @@ export default function PaverBaseCalculator() {
             </div>
           </div>
 
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="paver-base-calculator"
+            entityType="calculator"
+            creatorSlug="hudson-hale"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators
             calculators={[

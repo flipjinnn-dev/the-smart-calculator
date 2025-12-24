@@ -12,6 +12,7 @@ import CalculatorGuide from "@/components/calculator-guide";
 import { ChefHat, Scale, Utensils } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 export default function ButterCalculatorCalculator() {
   const pathname = usePathname();
@@ -357,6 +358,15 @@ export default function ButterCalculatorCalculator() {
               </Card>
             </div>
           </div>
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="butter-calculator"
+            entityType="calculator"
+            creatorSlug="jessica-adam"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Cake Pan Calculator",

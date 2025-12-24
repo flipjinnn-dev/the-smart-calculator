@@ -15,6 +15,7 @@ import { Activity, Calculator, User, Scale, Ruler, AlertCircle, RotateCcw, HelpC
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 export default function BodySurfaceAreaCalculatorCalculator() {
   const pathname = usePathname();
@@ -555,6 +556,15 @@ export default function BodySurfaceAreaCalculatorCalculator() {
           </div>
 
            {/* How to Use Section */}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="body-surface-area-calculator"
+            entityType="calculator"
+            creatorSlug="simon-stephen"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <div className="mt-8">
             <CalculatorGuide data={guideData} />
           </div>

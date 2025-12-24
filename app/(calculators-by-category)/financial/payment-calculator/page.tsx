@@ -14,6 +14,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 ;
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 interface PaymentResults {
   monthlyPayment: number;
   totalPayments: number;
@@ -431,6 +432,15 @@ export default function PaymentCalculatorCalculator() {
           calculatorHref: "/financial/savings-calculator",
           calculatorDescription: "Calculate value of savings with compound interest"
         }]} color="blue" title="Related Financial Calculators" />
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="payment-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
 
         </main>

@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 interface BoardFootResults {
   boardFeetPerPiece: number;
   totalBoardFeet: number;
@@ -320,6 +321,15 @@ export default function BoardFootCalculatorCalculator() {
               </Card>
             </div>
           </div>
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="board-foot-calculator"
+            entityType="calculator"
+            creatorSlug="hudson-hale"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Square Feet to Cubic Yards Calculator",

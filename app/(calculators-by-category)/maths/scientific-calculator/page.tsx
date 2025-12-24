@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 const buttons = [["sin", "cos", "tan", "Deg/Rad", "AC"], ["sin-1", "cos-1", "tan-1", "π", "e"], ["xy", "x3", "x2", "ex", "10x"], ["y√x", "3√x", "√x", "ln", "log"], ["(", ")", "1/x", "%", "n!"], ["7", "8", "9", "+", "Back"], ["4", "5", "6", "–", "Ans"], ["1", "2", "3", "×", "M+"], ["0", ".", "EXP", "÷", "M-"], ["±", "RND", "Back", "=", "MC"]];
 function factorial(n: number): number {
   if (n < 0) return NaN;
@@ -217,7 +218,16 @@ export default function ScientificCalculator() {
             </Card>
           </div>
         </div>
-        <CalculatorGuide data={guideData} />
+        
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="scientific-calculator"
+            entityType="calculator"
+            creatorSlug="felix-yacoub"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
         <SimilarCalculators calculators={[{
           calculatorName: "Critical Point Calculator",
           calculatorHref: "/maths/critical-point-calculator",

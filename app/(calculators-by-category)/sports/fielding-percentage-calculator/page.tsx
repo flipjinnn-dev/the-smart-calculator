@@ -13,6 +13,7 @@ import CalculatorGuide from "@/components/calculator-guide";
 import { Trophy, Calculator, Target, AlertCircle, Activity, RotateCcw, HelpCircle } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function FieldingPercentageCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -425,6 +426,15 @@ export default function FieldingPercentageCalculatorCalculator() {
               </CardContent>
             </Card>
           </div>}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="fielding-percentage-calculator"
+            entityType="calculator"
+            creatorSlug="antonio-ares"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Fielding Independent Pitching Calculator",

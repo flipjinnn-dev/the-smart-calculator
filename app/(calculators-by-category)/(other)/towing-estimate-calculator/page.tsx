@@ -13,6 +13,7 @@ import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 interface TowingResults {
   totalCost: number;
@@ -556,7 +557,16 @@ export default function TowingEstimateCalculator() {
         {/* Guide Section */}
         {guideContent && (
           <div className="mt-12">
-            <CalculatorGuide data={guideData} />
+            
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="towing-estimate-calculator"
+            entityType="calculator"
+            creatorSlug="aiden-asher"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
           </div>
         )}
 

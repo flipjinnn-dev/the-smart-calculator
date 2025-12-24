@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function PercentageCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -270,7 +271,16 @@ export default function PercentageCalculator() {
             </Card>
           </div>
         </div>
-        <CalculatorGuide data={guideData} />
+        
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="percentage-calculator"
+            entityType="calculator"
+            creatorSlug="felix-yacoub"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
         <SimilarCalculators calculators={[{
           calculatorName: "Percent Error Calculator",
           calculatorHref: "/maths/percent-error-calculator",

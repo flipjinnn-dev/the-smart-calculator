@@ -13,6 +13,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Zap, Calculator, TrendingUp, Gauge, Settings } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function ConservationOfMomentumCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -538,6 +539,15 @@ export default function ConservationOfMomentumCalculatorCalculator() {
             </div>
           </div>
 
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="conservation-of-momentum-calculator"
+            entityType="calculator"
+            creatorSlug="realynn-reed"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
 
           {/* Educational Content */}

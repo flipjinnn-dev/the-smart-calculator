@@ -15,6 +15,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 
 // 2025 Tax brackets
@@ -906,7 +907,16 @@ export default function MarriageCalculatorCalculator() {
               </Card>
 
               {/* Guide */}
-              <CalculatorGuide data={guideData} />
+              
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="marriage-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
             </div>
           </div>
         </main>

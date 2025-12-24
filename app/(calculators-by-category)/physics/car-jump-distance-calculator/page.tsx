@@ -14,6 +14,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Car, Calculator, TrendingUp, Gauge, Settings } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function CarJumpDistanceCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -936,7 +937,16 @@ export default function CarJumpDistanceCalculatorCalculator() {
           </div>
 
           <div className="mt-12">
-            <CalculatorGuide data={guideContent} />
+            
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="car-jump-distance-calculator"
+            entityType="calculator"
+            creatorSlug="realynn-reed"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideContent} />
           </div>
         </div>
       </main>

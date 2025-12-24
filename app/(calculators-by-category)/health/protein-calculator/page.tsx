@@ -14,6 +14,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Zap, User, Target } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function ProteinCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -691,6 +692,15 @@ export default function ProteinCalculatorCalculator() {
           </div>
 
            {/* How to Use Section */}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="protein-calculator"
+            entityType="calculator"
+            creatorSlug="simon-stephen"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <div className="mt-8">
               <CalculatorGuide data={guideData} />
           </div>

@@ -12,6 +12,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Ruler, Calculator, RotateCcw, Users, TrendingUp } from "lucide-react";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function HeightCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -680,6 +681,15 @@ export default function HeightCalculatorCalculator() {
               </CardContent>
             </Card>
           </div>}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="height-calculator"
+            entityType="calculator"
+            creatorSlug="aiden-asher"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "GPA Calculator",

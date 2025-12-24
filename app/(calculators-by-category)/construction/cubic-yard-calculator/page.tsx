@@ -12,6 +12,7 @@ import { Box, Calculator, Ruler, DollarSign, AlertCircle, Building2 } from "luci
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function CubicYardCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -930,6 +931,15 @@ export default function CubicYardCalculatorCalculator() {
               </CardContent>
             </Card>
           </div>}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="cubic-yard-calculator"
+            entityType="calculator"
+            creatorSlug="hudson-hale"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Gallons per Square Foot Calculator",

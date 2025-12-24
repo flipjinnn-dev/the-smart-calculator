@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 const SHAPES = [{
   key: "sphere",
@@ -509,6 +510,15 @@ export default function VolumeCalculator() {
               </Card>
             </div>
           </div>
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="volume-calculator"
+            entityType="calculator"
+            creatorSlug="felix-yacoub"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Percentage Calculator",

@@ -15,6 +15,7 @@ import { Separator } from "@/components/ui/separator";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 type PayFrequency = "hourly" | "daily" | "weekly" | "biweekly" | "semimonthly" | "monthly" | "quarterly" | "yearly";
 interface SalaryResults {
   unadjustedAnnual: number;
@@ -492,7 +493,16 @@ export default function SalaryCalculatorCalculator() {
               </Card>
 
               {/* Guide */}
-              <CalculatorGuide data={guideData} />
+              
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="salary-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
             </div>
           </div>
         </main>

@@ -14,6 +14,7 @@ import { Separator } from "@/components/ui/separator";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 interface ChildSupportResults {
   combinedIncome: number;
@@ -688,6 +689,15 @@ export default function IndianaChildSupportCalculatorCalculator() {
               </CardContent>
             </Card>}
           </div>
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="indiana-child-support-calculator"
+            entityType="calculator"
+            creatorSlug="aiden-asher"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Time Calculation",

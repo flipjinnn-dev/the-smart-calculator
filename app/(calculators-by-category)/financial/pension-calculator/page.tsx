@@ -17,6 +17,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 export default function PensionCalculatorCalculator() {
   const pathname = usePathname();
@@ -705,7 +706,16 @@ export default function PensionCalculatorCalculator() {
                 </CardContent>
               </Card>
               {/* Guide */}
-              <CalculatorGuide data={guideData} />
+              
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="pension-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
             </div>
           </div>
         </main>

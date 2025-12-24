@@ -13,6 +13,7 @@ import { Calculator, RotateCcw, Square, Ruler } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function SquareFeetToCubicYardsCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -353,6 +354,15 @@ export default function SquareFeetToCubicYardsCalculatorCalculator() {
               </Card>
             </div>
           </div>
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="square-feet-to-cubic-yards-calculator"
+            entityType="calculator"
+            creatorSlug="hudson-hale"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Gallons per Square Foot Calculator",

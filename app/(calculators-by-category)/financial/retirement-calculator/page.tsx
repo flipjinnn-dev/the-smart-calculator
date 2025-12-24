@@ -15,6 +15,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 ;
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function RetirementCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -476,7 +477,16 @@ Equivalent in Today's Money: $${Math.round(PV_today).toLocaleString()}`);
               </div>
             </div>
             {/* How to Use Section (below main grid) */}
-            <CalculatorGuide data={guideData} />
+            
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="retirement-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
 
          <SimilarCalculators calculators={[{
             calculatorName: "Pension Calculator",

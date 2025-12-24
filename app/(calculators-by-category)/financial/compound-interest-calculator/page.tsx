@@ -13,6 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 export default function CompoundInterestCalculatorCalculator() {
   const pathname = usePathname();
@@ -251,6 +252,15 @@ export default function CompoundInterestCalculatorCalculator() {
           }]} color="green" title="Related Financial Calculators" />
           </div>
 
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="compound-interest-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
         </main>
 

@@ -13,6 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 export default function CalorieCalculatorCalculator() {
   const pathname = usePathname();
@@ -241,6 +242,15 @@ export default function CalorieCalculatorCalculator() {
         color="red" 
         title="Related Health Calculators" />
           {/* How to Use Section */}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="calorie-calculator"
+            entityType="calculator"
+            creatorSlug="simon-stephen"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <div className="mt-8">
             <CalculatorGuide data={guideData} />
           </div>

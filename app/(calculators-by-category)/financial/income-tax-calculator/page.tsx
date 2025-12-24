@@ -15,6 +15,7 @@ import { Separator } from "@/components/ui/separator";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 
 // Tax brackets for 2024 and 2025
@@ -740,7 +741,16 @@ export default function IncomeTaxCalculatorCalculator() {
               </Card>
 
               {/* Guide */}
-              <CalculatorGuide data={guideData} />
+              
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="income-tax-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
             </div>
           </div>
         </main>

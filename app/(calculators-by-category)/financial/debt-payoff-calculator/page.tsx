@@ -16,6 +16,7 @@ import { Switch } from "@/components/ui/switch";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 interface Debt {
   id: number;
@@ -692,7 +693,16 @@ export default function DebtPayoffCalculatorCalculator() {
                 </CardContent>
               </Card>
               {/* Calculator Guide */}
-              <CalculatorGuide data={guideData} />
+              
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="debt-payoff-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
               {/* Example Debt Payoff Schedule */}
               <Card className="shadow-2xl border-0 p-0 bg-white">
                 <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg border-b px-8 py-6">

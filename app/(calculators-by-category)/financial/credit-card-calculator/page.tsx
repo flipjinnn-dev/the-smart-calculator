@@ -16,6 +16,7 @@ import { Separator } from "@/components/ui/separator";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 interface PaymentScheduleEntry {
   month: number;
@@ -588,7 +589,16 @@ export default function CreditCardCalculatorCalculator() {
               </Card>
 
               {/* Calculator Guide */}
-              <CalculatorGuide data={guideData} />
+              
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="credit-card-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
 
             </div>
           </div>

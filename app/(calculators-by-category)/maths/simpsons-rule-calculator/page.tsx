@@ -11,6 +11,7 @@ import CalculatorGuide from "@/components/calculator-guide";
 import { Calculator, FenceIcon as Function, AlertCircle } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 // Function parser for mathematical expressions
 const evaluateFunction = (expression: string, x: number): number => {
@@ -430,6 +431,15 @@ export default function SimpsonsRuleCalculator() {
               </CardContent>
             </Card>
           </div>}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="simpsons-rule-calculator"
+            entityType="calculator"
+            creatorSlug="felix-yacoub"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           {/* Educational Content */}
           <div className="mt-12 space-y-8">

@@ -15,6 +15,7 @@ import { Separator } from "@/components/ui/separator";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 export default function RentCalculatorCalculator() {
   const pathname = usePathname();
@@ -414,7 +415,16 @@ export default function RentCalculatorCalculator() {
               </Card>
 
               {/* Guide */}
-              <CalculatorGuide data={guideData} />
+              
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="rent-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
             </div>
           </div>
         </main>

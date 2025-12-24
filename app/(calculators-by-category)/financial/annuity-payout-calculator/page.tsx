@@ -4,7 +4,6 @@ import { useCalculatorContent } from "@/hooks/useCalculatorContent";
 import { usePathname } from "next/navigation";
 import type React from "react";
 import { useRef, useState } from "react";
-
 import { Calculator, DollarSign, TrendingDown, HelpCircle, Download } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -17,6 +16,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 interface PayoutScheduleEntry {
   period: number;
@@ -510,7 +510,16 @@ export default function AnnuityPayoutCalculatorCalculator() {
                 </CardContent>
               </Card>
 
-              <CalculatorGuide data={guideData} />
+              
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="annuity-payout-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
             </div>
           </div>
         </main>

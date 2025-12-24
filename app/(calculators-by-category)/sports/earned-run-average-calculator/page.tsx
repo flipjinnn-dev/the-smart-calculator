@@ -12,6 +12,7 @@ import CalculatorGuide from "@/components/calculator-guide";
 import { Trophy, Calculator, Target, AlertCircle, Activity } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function EarnedRunAverageCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -426,7 +427,16 @@ export default function EarnedRunAverageCalculatorCalculator() {
             </Card>
           </div>
         </div>
-        <CalculatorGuide data={guideData} />
+        
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="earned-run-average-calculator"
+            entityType="calculator"
+            creatorSlug="antonio-ares"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
         <SimilarCalculators calculators={[{
           calculatorName: "Calculate The Magic Number",
           calculatorHref: "/sports/magic-number-calculator",

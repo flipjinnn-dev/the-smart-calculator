@@ -16,6 +16,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 ;
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 const US_STATES = [{
   value: "AL",
   label: "Alabama",
@@ -842,7 +843,16 @@ export default function AutoLoanCalculatorCalculator() {
         }]} color="blue" title="Related Financial Calculators" />
           {/* Calculator Guide */}
           <div className="mx-auto mt-12">
-            <CalculatorGuide data={guideData} />
+            
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="auto-loan-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
           </div>
 
         </main>

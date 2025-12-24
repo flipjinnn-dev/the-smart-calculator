@@ -12,6 +12,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 const parseExpression = (expr: string): string => {
   return expr.replace(/\*\*/g, "^")
@@ -570,7 +571,16 @@ export default function RelativeExtremaCalculator() {
           </div>
 
           <div className="mt-12">
-            <CalculatorGuide data={guideData} />
+            
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="relative-extrema-calculator"
+            entityType="calculator"
+            creatorSlug="felix-yacoub"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
           </div>
         </div>
       </main>

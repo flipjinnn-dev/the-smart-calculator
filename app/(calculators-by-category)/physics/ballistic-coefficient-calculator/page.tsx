@@ -13,6 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Target, Calculator, Ruler } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 export default function BallisticCoefficientCalculatorCalculator() {
   const pathname = usePathname();
@@ -412,7 +413,16 @@ export default function BallisticCoefficientCalculatorCalculator() {
 
             {/* Educational Content */}
             <div className="mt-12 space-y-8">
-              <CalculatorGuide data={guideData} />
+              
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="ballistic-coefficient-calculator"
+            entityType="calculator"
+            creatorSlug="realynn-reed"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
               <Card className="shadow-2xl border-0 bg-gradient-to-br from-blue-50 to-teal-50 p-8">
                 <CardHeader className="w-full flex flex-row items-center justify-start mb-4">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-teal-600 flex items-center justify-center mr-3 shadow-lg">

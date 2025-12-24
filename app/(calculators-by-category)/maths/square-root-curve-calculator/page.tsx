@@ -11,6 +11,7 @@ import { Calculator, TrendingUp, RotateCcw } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 interface SquareRootCurveResults {
   originalGrade: number;
@@ -306,7 +307,16 @@ export default function SquareRootCurveCalculator() {
         {/* Guide Section */}
         {guideData && (
           <div className="mt-12">
-            <CalculatorGuide data={guideData} />
+            
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="square-root-curve-calculator"
+            entityType="calculator"
+            creatorSlug="felix-yacoub"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
           </div>
         )}
 

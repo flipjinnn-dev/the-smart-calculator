@@ -13,6 +13,7 @@ import { DollarSign, Calculator, RotateCcw, TrendingUp, PiggyBank, Target } from
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 export default function FinanceCalculatorCalculator() {
   const pathname = usePathname();
@@ -790,6 +791,15 @@ export default function FinanceCalculatorCalculator() {
           </div>
 
           {/* How to Use Section */}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="finance-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <div className="mt-8">
             <CalculatorGuide data={guideData} />
           </div>

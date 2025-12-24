@@ -11,6 +11,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Zap, Clock, Ruler } from "lucide-react"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import CalculatorGuide from "@/components/calculator-guide"
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 
 export default function VelocityCalculatorCalculator() {
@@ -517,7 +518,16 @@ export default function VelocityCalculatorCalculator() {
 
             {/* Educational Content */}
             <div className="mt-12">
-              <CalculatorGuide data={guideData} />
+              
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="velocity-calculator"
+            entityType="calculator"
+            creatorSlug="realynn-reed"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
             </div>
           </div>
         </main>

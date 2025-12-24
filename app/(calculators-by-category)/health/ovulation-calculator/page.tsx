@@ -13,6 +13,7 @@ import { useMobileScroll } from "@/hooks/useMobileScroll";
 import { Calculator, RotateCcw, Heart, Calendar } from "lucide-react";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 ;
 export default function OvulationCalculatorCalculator() {
   const pathname = usePathname();
@@ -486,6 +487,15 @@ export default function OvulationCalculatorCalculator() {
           </div>
 
            {/* How to Use Section */}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="ovulation-calculator"
+            entityType="calculator"
+            creatorSlug="simon-stephen"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <div className="mt-8">
               <CalculatorGuide data={guideData} />
           </div>

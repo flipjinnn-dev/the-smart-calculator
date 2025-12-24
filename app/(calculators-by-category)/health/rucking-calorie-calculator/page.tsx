@@ -14,6 +14,7 @@ import { Calculator, RotateCcw, Backpack, Clock, Weight, Flame, TrendingUp } fro
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 // Terrain factors for Pandolf equation
 const terrainFactors: { [key: string]: number } = {
@@ -540,7 +541,16 @@ export default function RuckingCalorieCalculator() {
 
         </div>
 
-        <div className="mt-8">
+        
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="rucking-calorie-calculator"
+            entityType="calculator"
+            creatorSlug="simon-stephen"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <div className="mt-8">
           <CalculatorGuide data={guideData} />
         </div>
       </main>

@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import CalculatorGuide from "@/components/calculator-guide";
 import { Trophy, Calculator, Target, AlertCircle, Activity, RotateCcw, HelpCircle, BarChart3 } from "lucide-react";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function FieldingIndependentPitchingCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -668,6 +669,15 @@ export default function FieldingIndependentPitchingCalculatorCalculator() {
               </CardContent>
             </Card>
           </div>}
+          
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="fielding-independent-pitching-calculator"
+            entityType="calculator"
+            creatorSlug="antonio-ares"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
           <CalculatorGuide data={guideData} />
           <SimilarCalculators calculators={[{
             calculatorName: "Magic Number Calculator",

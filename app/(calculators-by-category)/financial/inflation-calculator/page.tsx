@@ -17,6 +17,7 @@ import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
 ;
 import { useMobileScroll } from "@/hooks/useMobileScroll";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function InflationCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -974,7 +975,16 @@ export default function InflationCalculatorCalculator() {
           }]} color="red" title="Related Financial Calculators" />
           </div>
 
-           <div className="mt-8">
+           
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="inflation-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <div className="mt-8">
               <CalculatorGuide data={guideData} />
             </div>
         </main>

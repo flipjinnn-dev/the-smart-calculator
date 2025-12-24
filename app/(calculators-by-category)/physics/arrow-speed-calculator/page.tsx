@@ -12,6 +12,7 @@ import { Switch } from "@/components/ui/switch";
 import { Target, Zap, Activity, AlertCircle, ToggleLeft } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 export default function ArrowSpeedCalculatorCalculator() {
   const pathname = usePathname();
   const language = pathname.split('/')[1] || 'en';
@@ -436,7 +437,16 @@ export default function ArrowSpeedCalculatorCalculator() {
 
           {/* Educational Content */}
           <div className="mt-12">
-            <CalculatorGuide data={guideData} />
+            
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="arrow-speed-calculator"
+            entityType="calculator"
+            creatorSlug="realynn-reed"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
           </div>
         </div>
       </main>

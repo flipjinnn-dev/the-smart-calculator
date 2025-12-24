@@ -13,6 +13,7 @@ import { Separator } from "@/components/ui/separator"
 import { useMobileScroll } from "@/hooks/useMobileScroll"
 import SimilarCalculators from "@/components/similar-calculators"
 import CalculatorGuide from "@/components/calculator-guide";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 interface SEOROIResults {
   monthlyRevenue: number
@@ -477,7 +478,16 @@ export default function EnterpriseSeoRoiCalculatorCalculator() {
                 </CardContent>
               </Card>
             </div>
-            <CalculatorGuide data={guideData} />
+            
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="enterprise-seo-roi-calculator"
+            entityType="calculator"
+            creatorSlug="aiden-asher"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <CalculatorGuide data={guideData} />
           </div>
         </main>
       </div>
