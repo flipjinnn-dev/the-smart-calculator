@@ -13,6 +13,7 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/component
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import CalculatorGuide from "@/components/calculator-guide";
 import SimilarCalculators from "@/components/similar-calculators";
+import { RatingProfileSection } from '@/components/rating-profile-section';
 
 interface ExtraPayment {
   id: string;
@@ -687,7 +688,16 @@ export default function MortgageCalculator() {
           color="green"
           title="Related Financial Calculators" />
 
-        <div className="mt-8">
+        
+          {/* Rating and Profile Section */}
+          <RatingProfileSection
+            entityId="mortgage-calculator"
+            entityType="calculator"
+            creatorSlug="neo-nicholas"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+          <div className="mt-8">
           <CalculatorGuide data={guideData} />
         </div>
       </main>

@@ -131,10 +131,10 @@ export function RatingProfileSection({
   };
 
   return (
-    <div className={cn("w-full py-10 mt-10", className)}>
-      <div className="grid grid-cols-1 lg:grid-cols-[1.5fr,1fr] gap-8 lg:gap-12 items-center">
+    <div className={cn("w-full max-w-7xl mx-auto py-10 mt-10", className)}>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
         {/* LEFT SIDE: Reviews Section */}
-        <div className="bg-white dark:bg-slate-950 rounded-2xl border border-border/50 shadow-sm p-8">
+        <div className="bg-white dark:bg-slate-950 rounded-2xl border border-border/50 shadow-sm p-8 flex flex-col justify-center">
           <div className="flex flex-col gap-6">
             <div className="flex items-start justify-between">
               <div>
@@ -146,21 +146,21 @@ export function RatingProfileSection({
               </div>
               {currentCount > 0 && (
                 <div className="text-right hidden sm:block">
-                  <div className="text-3xl font-bold text-foreground">{averageRating.toFixed(1)}</div>
+                  <div className="text-4xl font-bold text-foreground">{averageRating.toFixed(1)}</div>
                   <div className="text-sm text-muted-foreground">{formatReviewCount(currentCount)} Reviews</div>
                 </div>
               )}
             </div>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-              <div className="flex items-center gap-1.5 p-2 bg-slate-50 dark:bg-slate-900 rounded-xl border border-border/50">
+              <div className="flex items-center gap-1 p-2 bg-slate-50 dark:bg-slate-900 rounded-xl border border-border/50">
                 {[1, 2, 3, 4, 5].map((star) => (
                   <button
                     key={star}
                     type="button"
                     className={cn(
                       "transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg p-1",
-                      hasRated ? "cursor-default" : "cursor-pointer hover:scale-110 hover:bg-slate-200 dark:hover:bg-slate-800"
+                      hasRated ? "cursor-default" : "cursor-pointer hover:scale-110"
                     )}
                     onMouseEnter={() => !hasRated && setHoverRating(star)}
                     onMouseLeave={() => !hasRated && setHoverRating(0)}
@@ -181,12 +181,12 @@ export function RatingProfileSection({
               </div>
 
               {hasRated ? (
-                <div className="flex items-center gap-2 px-4 py-2 bg-green-500/10 text-green-600 dark:text-green-400 border border-green-500/20 rounded-full">
+                <div className="flex items-center gap-2 px-4 py-2 bg-green-500/10 text-green-600 dark:text-green-400 border border-green-500/20 rounded-full animate-in fade-in zoom-in duration-300">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
                   <span className="font-medium">Thanks for rating!</span>
                 </div>
               ) : (
-                <span className="text-sm text-muted-foreground animate-pulse font-medium">
+                <span className="text-sm text-muted-foreground animate-pulse font-medium hidden sm:inline-block">
                   Tap stars to rate
                 </span>
               )}
@@ -196,13 +196,13 @@ export function RatingProfileSection({
             {currentCount > 0 && (
               <div className="flex items-center gap-4 sm:hidden border-t border-border/50 pt-4">
                 <div>
-                  <span className="text-xl font-bold">{averageRating.toFixed(1)}</span>
-                  <span className="text-muted-foreground text-sm">/5</span>
+                  <span className="text-2xl font-bold">{averageRating.toFixed(1)}</span>
+                  <span className="text-muted-foreground text-sm ml-1">/ 5</span>
                 </div>
                 <div className="w-px h-8 bg-border"></div>
                 <div>
-                  <span className="font-bold">{formatReviewCount(currentCount)}</span>
-                  <span className="text-muted-foreground text-sm ml-1">Reviews</span>
+                  <span className="font-bold block">{formatReviewCount(currentCount)}</span>
+                  <span className="text-muted-foreground text-xs uppercase tracking-wider">Reviews</span>
                 </div>
               </div>
             )}
