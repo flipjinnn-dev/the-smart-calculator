@@ -127,7 +127,7 @@ export default async function CreatorPage({ params }: PageProps) {
                   <p className="text-lg font-medium text-slate-600 mb-8 max-w-xs mx-auto leading-relaxed">{author.tagline}</p>
                   
                   {/* Stats Row with Brand Colors */}
-                  <div className="grid grid-cols-3 gap-3 border-t border-slate-100 pt-6 pb-2 mb-8">
+                  <div className="grid grid-cols-2 gap-3 border-t border-slate-100 pt-6 pb-2 mb-8">
                     <div className="group cursor-default hover:bg-blue-50/50 p-2 rounded-2xl transition-all duration-300 hover:scale-105">
                       <div className={`font-black text-2xl ${brandColors.blue} mb-1`}>{totalCalculators}</div>
                       <div className="text-[10px] text-slate-400 uppercase tracking-widest font-bold flex items-center justify-center gap-1">
@@ -140,14 +140,14 @@ export default async function CreatorPage({ params }: PageProps) {
                         <FileText className="w-3 h-3" /> Posts
                       </div>
                     </div>
-                    <div className="group cursor-default hover:bg-yellow-50/50 p-2 rounded-2xl transition-all duration-300 hover:scale-105">
+                    {/* <div className="group cursor-default hover:bg-yellow-50/50 p-2 rounded-2xl transition-all duration-300 hover:scale-105">
                       <div className={`font-black text-2xl ${brandColors.yellow} flex items-center justify-center gap-1 mb-1`}>
                         {averageRating || '-'} <Star className="w-4 h-4 fill-[#FBBC05] text-[#FBBC05]" />
                       </div>
                       <div className="text-[10px] text-slate-400 uppercase tracking-widest font-bold flex items-center justify-center gap-1">
                         <Award className="w-3 h-3" /> Rating
                       </div>
-                    </div>
+                    </div> */}
                   </div>
 
                   {/* Bio */}

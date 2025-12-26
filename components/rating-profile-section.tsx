@@ -41,12 +41,28 @@ export function RatingProfileSection({
   const [creatorProfile, setCreatorProfile] = useState<CreatorProfile | null>(null);
   const [isLoadingProfile, setIsLoadingProfile] = useState(true);
   
-  // Display state
-  const [currentTotal, setCurrentTotal] = useState(initialRatingTotal);
-  const [currentCount, setCurrentCount] = useState(initialRatingCount);
+  // Generate a consistent random base count for this entity (>1000)
+  const generateBaseCount = (id: string): number => {
+    // Use entity ID to generate a consistent random number between 1000-5000
+    let hash = 0;
+    for (let i = 0; i < id.length; i++) {
+      hash = ((hash << 5) - hash) + id.charCodeAt(i);
+      hash = hash & hash; // Convert to 32-bit integer
+    }
+    const randomBase = Math.abs(hash) % 4000 + 1000; // Range: 1000-5000
+    return randomBase;
+  };
 
-  // Calculate average for display
-  const averageRating = currentCount > 0 ? (currentTotal / currentCount) : 0;
+  // Calculate display count: base random count + actual user reviews
+  const baseCount = generateBaseCount(entityId);
+  const displayCount = baseCount + initialRatingCount;
+  
+  // Display state (starts with base + initial, increments with new reviews)
+  const [currentTotal, setCurrentTotal] = useState(initialRatingTotal);
+  const [currentCount, setCurrentCount] = useState(displayCount);
+
+  // Calculate average for display (only based on actual reviews, not fake count)
+  const averageRating = initialRatingCount > 0 ? (currentTotal / initialRatingCount) : 4.5;
 
   // Format review count for display (e.g., "1.2K", "3.5K")
   const formatReviewCount = (count: number): string => {
