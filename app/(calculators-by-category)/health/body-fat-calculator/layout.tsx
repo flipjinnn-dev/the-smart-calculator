@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for body-fat-calculator
 const bodyfatcalculatorMeta = {
@@ -73,5 +74,185 @@ export default async function BodyFatCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Body Fat Calculator",
+          "item": "https://www.thesmartcalculator.com/health/body-fat-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Army Body Fat Calculator",
+          "item": "https://www.thesmartcalculator.com/health/army-body-fat-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Lean Body Mass Calculator",
+          "item": "https://www.thesmartcalculator.com/health/lean-body-mass-calculator"
+        }
+      ]
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.thesmartcalculator.com/#organization",
+      "name": "Body Fat Calculator",
+      "alternateName": "Body Fat Calculator",
+      "url": "https://www.thesmartcalculator.com/health/body-fat-calculator",
+      "logo": "https://www.thesmartcalculator.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1 614-596-2581",
+        "contactType": "technical support",
+        "contactOption": "TollFree",
+        "areaServed": ["US","GB","ES","PL","PT","DE"],
+        "availableLanguage": ["en","es","German","Polish","Portuguese"]
+      },
+      "sameAs": [
+        "https://x.com/SmartCalculat0r",
+        "https://www.instagram.com/thesmartcalculators/",
+        "https://www.youtube.com/@TheSmartCalculators",
+        "https://www.linkedin.com/company/smart-calculator/",
+        "https://www.pinterest.com/thesmartcalculators/_saved/",
+        "https://www.thesmartcalculator.com/"
+      ]
+    },
+
+    {
+      "@type": "SoftwareApplication",
+      "name": "Body Fat Calculator",
+      "operatingSystem": "All",
+      "applicationCategory": "HealthApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "3000"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Simon Stephen"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Body Fat Calculator is easy to use and provides accurate estimates. Perfect for fitness enthusiasts and health monitoring."
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a healthy body fat percentage for men and women?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For general adults: Men 14–24%, Women 21–31%. Athletes may be lower."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I calculate my body fat percentage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use methods like tape measurements, calipers, bioelectrical impedance, or our online Body Fat Calculator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are body fat calculators accurate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They provide estimates. Accuracy improves when multiple methods are combined."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I reduce body fat safely?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Follow a balanced diet, consistent exercise, proper sleep, and avoid extreme diets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between BMI and body fat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BMI measures weight vs. height but does not separate fat from muscle. Body fat percentage measures fat vs. lean mass."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can athletes use a body fat calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, body fat calculators for athletes provide tailored insights for training goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the Army Body Fat Calculator different?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it uses military-specific formulas to assess eligibility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can seniors use this tool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it helps monitor body composition changes related to aging."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I check my body fat percentage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every 4–6 weeks for meaningful tracking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can AI help track my body fat progress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, AI-powered calculators can analyze trends and integrate with health apps."
+          }
+        }
+      ]
+    }
+
+  ]
+}
+  return <>
+  <Script
+  type="application/ld+json"
+  id="body-fat-calc-schema"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+  strategy="afterInteractive"
+  />
+  {children}
+  </>;
 }

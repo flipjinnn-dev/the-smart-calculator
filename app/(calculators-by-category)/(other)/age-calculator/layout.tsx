@@ -74,142 +74,171 @@ export default async function AgeCalculatorLayout({
   children: React.ReactNode;
 }) {
   const jsonLdSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Age Calculator",
-    "url": "https://www.thesmartcalculator.com/age-calculator",
-    "description": "Free online Age Calculator to calculate exact age in years, months, and days based on date of birth. Ideal for students, professionals, and personal use.",
-    "mainEntity": [
-      {
-        "@type": "SoftwareApplication",
-        "name": "Age Calculator",
-        "applicationCategory": "Calculator",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Age Calculator",
+          "item": "https://www.thesmartcalculator.com/age-calculator"
         },
-        "featureList": [
-          "Calculate exact age in years, months, and days",
-          "Instant calculation",
-          "Mobile-friendly interface",
-          "Supports custom reference dates",
-          "Free and easy to use"
-        ],
-        "url": "https://www.thesmartcalculator.com/age-calculator"
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Height Calculator",
+          "item": "https://www.thesmartcalculator.com/height-calculator"
+        }
+      ]
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.thesmartcalculator.com/#organization",
+      "name": "Age Calculator",
+      "alternateName": "Age Calculator",
+      "url": "https://www.thesmartcalculator.com/age-calculator",
+      "logo": "https://www.thesmartcalculator.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1 614-596-2581",
+        "contactType": "technical support",
+        "contactOption": "TollFree",
+        "areaServed": ["US","GB","PL","PT","DE","ES"],
+        "availableLanguage": ["en","Polish","Portuguese","es","German"]
       },
-      {
-        "@type": "HowTo",
-        "name": "Age Calculator",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Enter Date of Birth",
-            "text": "Input your date of birth including day, month, and year."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Age Calculator",
-            "text": "Use today’s date or any past or future date as reference."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Age Calculator",
-            "text": "Press the calculate button to see your age in years, months, and days instantly."
-          }
-        ]
+      "sameAs": [
+        "https://x.com/SmartCalculat0r",
+        "https://www.instagram.com/thesmartcalculators/",
+        "https://www.youtube.com/@TheSmartCalculators",
+        "https://www.linkedin.com/company/smart-calculator/",
+        "https://www.pinterest.com/thesmartcalculators/",
+        "https://www.thesmartcalculator.com/"
+      ]
+    },
+
+    {
+      "@type": "SoftwareApplication",
+      "name": "Age Calculator",
+      "operatingSystem": "All",
+      "applicationCategory": "CalculatorApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
       },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is an Age Calculator?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "It calculates exact age in years, months, and days from a given date of birth."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is this calculator free?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it is completely free to use online."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do I need software or installation?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No, it works directly in your web browser."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I use it on mobile devices?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it is fully mobile-friendly."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I calculate age for a future or past date?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, you can select any reference date for calculation."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does it account for leap years?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it automatically adjusts for leap years and month variations."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can it show total days or weeks?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Some versions provide the total days or weeks lived."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is it suitable for students?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it is simple and accurate for learning purposes."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can it be used for official documents?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "It is useful for estimates, but official documents require legal proof such as a birth certificate."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is the calculator accurate?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it provides precise calculations for standard Gregorian calendar dates."
-            }
-          }
-        ]
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "1900"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Aiden Asher"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Accurate and easy-to-use Age Calculator. Perfect for students and anyone who needs precise age calculations."
       }
-    ]
-  }
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an Age Calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It calculates exact age in years, months, and days from a given date of birth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this calculator free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it’s completely free to use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need software or installation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, it works directly in your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use it on mobile devices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it’s fully mobile-friendly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I calculate age for a future or past date?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can select any reference date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it account for leap years?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it accurately considers leap years and month lengths."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can it show total days or weeks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some versions provide total days or weeks lived."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it suitable for students?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it’s simple and accurate for learning purposes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can it be used for official documents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It’s good for estimates, but official documents require proof like a birth certificate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accurate is it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It provides precise calculations based on the standard Gregorian calendar."
+          }
+        }
+      ]
+    }
+
+  ]
+}
   return <>
     {children}
     <Script

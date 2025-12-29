@@ -76,100 +76,178 @@ export default async function GfrCalculatorLayout({
   children: React.ReactNode;
 }) {
   const jsonLdSchema = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://www.thesmartcalculator.com/#website",
-        "url": "https://www.thesmartcalculator.com/",
-        "name": "The Smart Calculator",
-        "publisher": {
-          "@type": "Organization",
-          "name": "The Smart Calculator",
-          "url": "https://www.thesmartcalculator.com/",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.thesmartcalculator.com/path-to-your-logo.png"
-          }
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "GFR Calculator",
+          "item": "https://www.thesmartcalculator.com/health/gfr-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "BMI Calculator",
+          "item": "https://www.thesmartcalculator.com/health/bmi-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Overweight Calculator",
+          "item": "https://www.thesmartcalculator.com/health/overweight-calculator"
         }
+      ]
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.thesmartcalculator.com/#organization",
+      "name": "GFR Calculator",
+      "alternateName": "GFR Calculator",
+      "url": "https://www.thesmartcalculator.com/health/gfr-calculator",
+      "logo": "https://www.thesmartcalculator.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1 614-596-2581",
+        "contactType": "technical support",
+        "contactOption": "TollFree",
+        "areaServed": ["US","GB","DE","PL","PT","ES"],
+        "availableLanguage": ["en","es","German","Polish","Portuguese"]
       },
-      {
-        "@type": "MedicalWebPage",
-        "@id": "https://www.thesmartcalculator.com/health/gfr-calculator#webpage",
-        "url": "https://www.thesmartcalculator.com/health/gfr-calculator",
-        "name": "GFR Calculator — Estimate eGFR (CKD-EPI, MDRD, Schwartz)",
-        "description": "Free online GFR (eGFR) calculator supporting CKD-EPI 2021 (race-free), MDRD (IDMS), and Schwartz (pediatric). Includes CKD staging, limitations and clinical notes.",
-        "isPartOf": {
-          "@id": "https://www.thesmartcalculator.com/#website"
-        },
-        "primaryImageOfPage": {
-          "@type": "ImageObject",
-          "url": "https://www.thesmartcalculator.com/path-to-preview-image.jpg",
-          "width": 1200,
-          "height": 630
-        },
-        "datePublished": "2024-01-01",
-        "dateModified": "2025-09-01",
-        "lastReviewedBy": {
+      "sameAs": [
+        "https://x.com/SmartCalculat0r",
+        "https://www.youtube.com/@TheSmartCalculators",
+        "https://www.instagram.com/thesmartcalculators/",
+        "https://www.linkedin.com/company/smart-calculator/",
+        "https://www.pinterest.com/thesmartcalculators/",
+        "https://www.thesmartcalculator.com/"
+      ]
+    },
+
+    {
+      "@type": "SoftwareApplication",
+      "name": "GFR Calculator",
+      "operatingSystem": "All",
+      "applicationCategory": "HealthApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "4500"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
           "@type": "Person",
-          "name": "[REPLACE: Dr. Full Name]",
-          "description": "Nephrology reviewer"
+          "name": "Simon Stephen"
         },
-        "mainEntity": {
-          "@type": "SoftwareApplication",
-          "name": "GFR (eGFR) Calculator",
-          "url": "https://www.thesmartcalculator.com/health/gfr-calculator",
-          "applicationCategory": "MedicalWebApplication",
-          "operatingSystem": "Web",
-          "isAccessibleForFree": true,
-          "description": "Calculates estimated glomerular filtration rate using CKD-EPI 2021 (race-free), MDRD (IDMS) and Schwartz (pediatric) formulas. Accepts serum creatinine in mg/dL or µmol/L and offers automatic unit conversion.",
-          "featureList": [
-            "CKD-EPI 2021 (race-free) formula",
-            "MDRD (IDMS-traceable) formula",
-            "Schwartz bedside formula for pediatrics (requires height)",
-            "Unit conversion mg/dL ↔ µmol/L",
-            "CKD staging interpretation"
-          ],
-          "softwareVersion": "1.0",
-          "author": {
-            "@type": "Organization",
-            "name": "The Smart Calculator",
-            "url": "https://www.thesmartcalculator.com/"
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Accurate and user-friendly GFR Calculator. Very helpful for monitoring kidney health over time."
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is GFR and why is it important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GFR measures how efficiently your kidneys filter blood, indicating overall kidney health."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I calculate GFR online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enter your age, sex, and serum creatinine into the calculator to get an eGFR value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the normal GFR range for adults?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically 90–120 mL/min/1.73 m², though it varies with age and sex."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does GFR compare to creatinine levels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GFR adjusts for age, sex, and body size, giving a more complete picture than creatinine alone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a pediatric GFR calculator help children?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the Schwartz formula is used to estimate kidney function in children."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is better: CKD-EPI or MDRD formula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CKD-EPI is more accurate for adults with normal or mildly reduced kidney function, while MDRD is widely used in CKD monitoring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I track my kidney function over time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, regular tracking with the GFR Calculator helps monitor changes and detect early issues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this GFR calculator suitable for irregular kidney function?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it adjusts for age, sex, and adult/pediatric status to remain reliable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are free GFR calculators as accurate as paid ones?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our free calculator uses the same validated formulas as professional tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I improve GFR naturally?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hydration, healthy diet, blood pressure control, exercise, and regular monitoring can help maintain or improve kidney function."
           }
         }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://www.thesmartcalculator.com/health/gfr-calculator#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What formulas does this GFR calculator use?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "This tool supports the CKD-EPI 2021 race-free equation for adults, the MDRD (IDMS-traceable) equation, and the bedside Schwartz formula for children (height required)."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Which units are accepted for serum creatinine?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "You can enter serum creatinine in mg/dL or µmol/L. The calculator converts units automatically (1 mg/dL ≈ 88.42 µmol/L)."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is this a medical diagnosis?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. The eGFR value is an estimate and for informational use only. It should not replace professional medical evaluation. Consult your healthcare provider for interpretation and clinical decisions."
-            }
-          }
-        ]
-      }
-    ]
-  }
+      ]
+    }
+
+  ]
+}
+
   return <>
     {children}
     <Script

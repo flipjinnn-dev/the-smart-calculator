@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for currency-calculator
 const currencycalculatorMeta = {
@@ -73,5 +74,129 @@ export default async function CurrencyCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Currency Calculator",
+          "item": "https://www.thesmartcalculator.com/financial/currency-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Salary Calculator",
+          "item": "https://www.thesmartcalculator.com/financial/salary-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Finance Calculator",
+          "item": "https://www.thesmartcalculator.com/financial/finance-calculator"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.thesmartcalculator.com/financial/currency-calculator#organization",
+      "name": "Currency Calculator",
+      "alternateName": "Currency Calculator",
+      "url": "https://www.thesmartcalculator.com/financial/currency-calculator",
+      "logo": "https://www.thesmartcalculator.com/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+4955279784001",
+        "contactType": "technical support",
+        "contactOption": "TollFree",
+        "areaServed": ["US","DE","PL","ES","PT"],
+        "availableLanguage": ["en","es","de","pl","pt"]
+      },
+      "sameAs": [
+        "https://www.pinterest.com/thesmartcalculators/",
+        "https://www.linkedin.com/company/smart-calculator",
+        "https://www.youtube.com/@TheSmartCalculators",
+        "https://www.instagram.com/thesmartcalculators/",
+        "https://x.com/SmartCalculat0r"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "3400"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.thesmartcalculator.com/creator/neo-nicholas",
+      "name": "Neo Nicholas",
+      "url": "https://www.thesmartcalculator.com/creator/neo-nicholas"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the most accurate online currency calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most accurate calculators use live forex market data updated in real time—like this one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do currency calculators update rates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They connect to global forex feeds and refresh automatically every few seconds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use this calculator for travel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it’s designed for international travelers to calculate costs abroad instantly without hidden fees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What’s the difference between bank exchange rates and calculator rates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Banks usually add conversion margins and fees. This calculator shows mid-market rates so you can compare fairly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I convert multiple currencies at once?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the multi-currency mode allows you to convert across several currencies in a single calculation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it support cryptocurrency conversions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it supports both fiat currencies and major cryptocurrencies for real-time conversions."
+          }
+        }
+      ]
+    }
+  ]
+}
+  return <>
+  <Script 
+  id="currency-calculator-json-ld"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+  strategy="afterInteractive"
+  />
+  {children}
+  </>;
 }

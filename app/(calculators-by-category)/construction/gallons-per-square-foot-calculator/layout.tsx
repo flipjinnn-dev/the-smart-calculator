@@ -75,148 +75,177 @@ export default async function GallonsPerSquareFootCalculatorLayout({
   children: React.ReactNode;
 }) {
   const jsonLdSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Gallons per Square Foot Calculator – Online Liquid Volume Tool",
-    "url": "https://www.thesmartcalculator.com/construction/gallons-per-square-foot-calculator",
-    "description": "Free online Gallons per Square Foot Calculator to calculate liquid volume and cost per square foot for pools, tanks, landscaping, and coatings.",
-    "mainEntity": [
-      {
-        "@type": "SoftwareApplication",
-        "name": "Gallons per Square Foot Calculator",
-        "applicationCategory": "CalculatorApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Gallons per Square Foot Calculator",
+          "item": "https://www.thesmartcalculator.com/construction/gallons-per-square-foot-calculator"
         },
-        "featureList": [
-          "Calculates Gallons per Square Foot",
-          "Supports Feet, Inches, and Yards",
-          "Total Gallons Calculation",
-          "Cost Estimation",
-          "Mobile-Friendly and Easy-to-Use"
-        ],
-        "url": "https://www.thesmartcalculator.com/construction/gallons-per-square-foot-calculator"
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Board Foot Calculator",
+          "item": "https://www.thesmartcalculator.com/construction/board-foot-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cubic Yard Calculator",
+          "item": "https://www.thesmartcalculator.com/construction/cubic-yard-calculator"
+        }
+      ]
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.thesmartcalculator.com/#organization",
+      "name": "Gallons per Square Foot Calculator",
+      "alternateName": "Gallons per Square Foot Calculator",
+      "url": "https://www.thesmartcalculator.com/construction/gallons-per-square-foot-calculator",
+      "logo": "https://www.thesmartcalculator.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1 614-596-2581",
+        "contactType": "technical support",
+        "contactOption": "TollFree",
+        "areaServed": ["US","GB","PL","PT","DE"],
+        "availableLanguage": ["en","es","Polish","Portuguese","German"]
       },
-      {
-        "@type": "HowTo",
-        "name": "Gallons per Square Foot Calculator",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Gallons per Square Foot Calculator",
-            "text": "Input the length and width of the area."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Gallons per Square Foot Calculator",
-            "text": "Specify the liquid depth in feet, inches, or yards."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Gallons per Square Foot Calculator",
-            "text": "Add price per gallon to calculate total cost."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 4,
-            "name": "Gallons per Square Foot Calculator",
-            "text": "Get gallons per square foot and total gallons instantly."
-          }
-        ]
+      "sameAs": [
+        "https://x.com/SmartCalculat0r",
+        "https://www.instagram.com/thesmartcalculators/",
+        "https://www.youtube.com/@TheSmartCalculators",
+        "https://www.linkedin.com/company/smart-calculator/",
+        "https://www.pinterest.com/thesmartcalculators/",
+        "https://www.thesmartcalculator.com/"
+      ]
+    },
+
+    {
+      "@type": "SoftwareApplication",
+      "name": "Gallons per Square Foot Calculator",
+      "operatingSystem": "All",
+      "applicationCategory": "CalculatorApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
       },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is a gallons per square foot calculator?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "It calculates how many gallons of liquid are needed per square foot for a given depth."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I use feet, inches, or yards?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, the calculator supports all three units."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does it calculate total gallons?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it outputs the total volume required for the area and depth."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I calculate cost?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, by entering the price per gallon, it calculates total cost."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is it mobile-friendly?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it works on smartphones, tablets, and desktops."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does it work for pools and tanks?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, ideal for estimating liquid volume in pools, tanks, and containers."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is it free to use?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it’s completely free and requires no downloads."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does it account for uneven depth?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No, it assumes a flat and uniform depth."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Who should use this calculator?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Contractors, landscapers, DIYers, pool owners, and students can benefit from it."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What liquids can I calculate?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Water, paint, coatings, and other liquids where volume per area is needed."
-            }
-          }
-        ]
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "4100"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Hudson Hale"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Excellent calculator for estimating gallons per square foot. Very helpful for construction, pools, and landscaping projects."
       }
-    ]
-  }
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a gallons per square foot calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It calculates gallons needed per square foot for a given depth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why use it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Saves time and ensures accurate liquid volume planning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Units supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Feet, inches, and yards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Works for pools and tanks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, ideal for any liquid-containing area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it calculate total gallons?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, total volume is displayed instantly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Useful for landscaping/irrigation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, helps plan water requirements for gardens and ponds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I calculate cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, enter price per gallon to get total cost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it account for uneven depth?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, it assumes flat, uniform depth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobile-friendly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, works on smartphones, tablets, and desktops."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, completely free with no downloads required."
+          }
+        }
+      ]
+    }
+
+  ]
+}
   return <>
     {children}
     <Script

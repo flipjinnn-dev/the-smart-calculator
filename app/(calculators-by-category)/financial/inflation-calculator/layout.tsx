@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for inflation-calculator
 const inflationcalculatorMeta = {
@@ -73,5 +74,145 @@ export default async function InflationCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inflation Calculator",
+          "item": "https://www.thesmartcalculator.com/financial/inflation-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Interest Calculator",
+          "item": "https://www.thesmartcalculator.com/financial/interest-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Salary Calculator",
+          "item": "https://www.thesmartcalculator.com/financial/salary-calculator"
+        }
+      ]
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.thesmartcalculator.com/#organization",
+      "name": "Inflation Calculator",
+      "alternateName": "Inflation Calculator",
+      "url": "https://www.thesmartcalculator.com/financial/inflation-calculator",
+      "logo": "https://www.thesmartcalculator.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1 614-596-2581",
+        "contactType": "technical support",
+        "contactOption": "TollFree",
+        "areaServed": ["US","GB","PL","PT","DE","ES"],
+        "availableLanguage": ["en","es","German","Polish","Portuguese"]
+      },
+      "sameAs": [
+        "https://x.com/SmartCalculat0r",
+        "https://www.youtube.com/@TheSmartCalculators",
+        "https://www.instagram.com/thesmartcalculators/",
+        "https://www.linkedin.com/company/smart-calculator/",
+        "https://www.pinterest.com/thesmartcalculators/_saved/",
+        "https://www.thesmartcalculator.com/"
+      ]
+    },
+
+    {
+      "@type": "SoftwareApplication",
+      "name": "Inflation Calculator",
+      "operatingSystem": "All",
+      "applicationCategory": "FinancialApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "2800"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Neo Nicholas"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Accurate and easy-to-use Inflation Calculator. Perfect for tracking price changes and financial planning."
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is inflation in simple terms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inflation means the prices of goods and services increase over time, reducing the purchasing power of money."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I calculate inflation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the formula: (CPI current year - CPI previous year) / CPI previous year × 100. Our inflation calculator does this for you automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What causes inflation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common causes include demand-pull inflation, cost-push inflation, and built-in inflation driven by wage-price cycles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is inflation always bad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. Moderate inflation is normal and can indicate a growing economy. However, high inflation or hyperinflation can be damaging."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is deflation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deflation is the opposite of inflation, where prices fall over time. While it seems positive, it can slow economic growth and lead to unemployment."
+          }
+        }
+      ]
+    }
+
+  ]
+}
+  return <>
+  <Script
+  id="inflation-calculator-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+  strategy="afterInteractive"
+  />
+  {children}
+  </>;
 }

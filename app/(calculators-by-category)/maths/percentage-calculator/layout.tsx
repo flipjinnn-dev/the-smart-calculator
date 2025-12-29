@@ -77,50 +77,61 @@ export default async function PercentageCalculatorLayout({
   const jsonLdSchema = {
   "@context": "https://schema.org",
   "@graph": [
+
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Prozentrechner",
-          "item": "https://www.thesmartcalculator.com/de/mathe/prozentrechner"
+          "name": "Percentage Calculator",
+          "item": "https://www.thesmartcalculator.com/maths/percentage-calculator"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Rechner für prozentuale Fehler",
-          "item": "https://www.thesmartcalculator.com/de/mathe/prozent-fehler-rechner"
+          "name": "Percent Error Calculator",
+          "item": "https://www.thesmartcalculator.com/maths/percent-error-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Scientific Calculator",
+          "item": "https://www.thesmartcalculator.com/maths/scientific-calculator"
         }
       ]
     },
+
     {
       "@type": "Organization",
       "@id": "https://www.thesmartcalculator.com/#organization",
-      "name": "Prozentrechner",
-      "alternateName": "prozentrechner online",
-      "url": "https://www.thesmartcalculator.com/de/mathe/prozentrechner",
+      "name": "Percentage Calculator",
+      "alternateName": "Percentage Calculator",
+      "url": "https://www.thesmartcalculator.com/maths/percentage-calculator",
+      "logo": "https://www.thesmartcalculator.com/logo.png",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+4955279784001",
+        "telephone": "+1 614-596-2581",
         "contactType": "technical support",
         "contactOption": "TollFree",
-        "areaServed": "DE",
-        "availableLanguage": "German"
-      }
+        "areaServed": ["US","GB","DE","ES","PL","PT"],
+        "availableLanguage": ["en","es","German","Polish","Portuguese"]
+      },
+      "sameAs": [
+        "https://x.com/SmartCalculat0r",
+        "https://www.instagram.com/thesmartcalculators/",
+        "https://www.youtube.com/@TheSmartCalculators",
+        "https://www.linkedin.com/company/smart-calculator/",
+        "https://www.pinterest.com/thesmartcalculators/_saved/",
+        "https://www.thesmartcalculator.com/"
+      ]
     },
+
     {
       "@type": "SoftwareApplication",
-      "@id": "https://www.thesmartcalculator.com/de/mathe/prozentrechner#software",
-      "name": "Prozentrechner",
-      "description": "Berechnen Sie ganz einfach Prozentsätze, Verhältnisse und prozentuale Änderungen mit unserem umfassenden Prozentrechner.",
-      "operatingSystem": "Web",
-      "applicationCategory": "EducationalApplication",
-      "url": "https://www.thesmartcalculator.com/de/mathe/prozentrechner",
-      "author": {
-        "@type": "Person",
-        "name": "Felix Yacoub"
-      },
+      "name": "Percentage Calculator",
+      "operatingSystem": "All",
+      "applicationCategory": "MathApplication",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -130,56 +141,77 @@ export default async function PercentageCalculatorLayout({
         "@type": "AggregateRating",
         "ratingValue": "4.5",
         "bestRating": "5",
-        "worstRating": "1",
-        "reviewCount": "2000"
+        "ratingCount": "2000"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Felix Yacoub"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Simple and accurate Percentage Calculator. Great for students and professionals alike for quick calculations."
       }
     },
+
     {
       "@type": "FAQPage",
-      "@id": "https://www.thesmartcalculator.com/de/mathe/prozentrechner#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Wie kann ich Prozente berechnen?",
+          "name": "What is a Percentage Calculator?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Mit unserem kostenlosen Online Prozentrechner geben Sie einfach Grundwert und Prozentsatz ein – das Ergebnis wird automatisch berechnet."
+            "text": "It is an online tool that helps you perform all types of percentage calculations instantly and accurately."
           }
         },
         {
           "@type": "Question",
-          "name": "Kann ich Werte in Prozent umrechnen?",
+          "name": "Can I calculate percent increase with this tool?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja, der integrierte Umrechner ermöglicht es, Zahlen in Prozent umzurechnen oder eine komplette Prozentumrechnung durchzuführen."
+            "text": "Yes, the calculator supports percentage increase mode for quick results."
           }
         },
         {
           "@type": "Question",
-          "name": "Ist dieser Prozentrechner besser als der Prozentrechner von Google?",
+          "name": "Does it support percent decrease?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja, unser Online Prozentrechner bietet mehr Funktionen als der Google Prozentrechner, einschließlich Rückrechnung und Prozentwert-Berechnung."
+            "text": "Yes, you can calculate decrease percentages easily."
           }
         },
         {
           "@type": "Question",
-          "name": "Ist der Rechner wirklich kostenlos?",
+          "name": "How do I calculate a percentage manually?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja, es handelt sich um einen kostenlosen Prozentrechner ohne Anmeldung oder Einschränkungen."
+            "text": "Use the formula: Percentage = (Part ÷ Whole) × 100."
           }
         },
         {
           "@type": "Question",
-          "name": "Kann ich diesen Rechner auch mobil nutzen?",
+          "name": "Can I convert percentages to numbers or numbers to percentages?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja, der Prozentrechner ist vollständig mobil-optimiert und auf allen Geräten nutzbar."
+            "text": "Yes, the tool supports percentage conversion both ways."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it free to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the percentage calculator is 100% free and works on all devices."
           }
         }
       ]
     }
+
   ]
 }
   return <>

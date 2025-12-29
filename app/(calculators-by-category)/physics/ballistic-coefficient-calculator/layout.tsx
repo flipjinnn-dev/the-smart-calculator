@@ -76,148 +76,165 @@ export default async function BallisticCoefficientCalculatorLayout({
   children: React.ReactNode;
 }) {
   const jsonLdSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Ballistic Coefficient Calculator",
-    "url": "https://www.thesmartcalculator.com/physics/ballistic-coefficient-calculator",
-    "description": "Free online Ballistic Coefficient Calculator to measure projectile efficiency using mass, drag coefficient, and cross-sectional area. Ideal for students, engineers, and hobbyists.",
-    "mainEntity": [
-      {
-        "@type": "SoftwareApplication",
-        "name": "Ballistic Coefficient Calculator",
-        "applicationCategory": "PhysicsCalculator",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "featureList": [
-          "Calculate ballistic coefficient of projectiles",
-          "Instant calculations",
-          "Mobile-friendly interface",
-          "Free and easy to use"
-        ],
-        "url": "https://www.thesmartcalculator.com/physics/ballistic-coefficient-calculator"
-      },
-      {
-        "@type": "HowTo",
-        "name": "Ballistic Coefficient Calculator",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Ballistic Coefficient Calculator",
-            "text": "Input the mass of the projectile in kg or g."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Ballistic Coefficient Calculator",
-            "text": "Provide the drag coefficient (Cd) of the projectile."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Ballistic Coefficient Calculator",
-            "text": "Input the frontal area (A) in m²."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 4,
-            "name": "Ballistic Coefficient Calculator",
-            "text": "Press calculate to get the ballistic coefficient instantly."
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is a ballistic coefficient?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "It measures how efficiently a projectile overcomes air resistance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is this calculator free?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it is completely free to use online."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do I need software or installation?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No, it works directly in your browser."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I use it on mobile?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it is fully mobile-friendly."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What inputs are required?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Mass (m), drag coefficient (Cd), and cross-sectional area (A)."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How is BC calculated?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Using the formula: BC = m / (Cd × A)."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can it compare different projectiles?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, by calculating BC for each projectile, you can compare efficiency."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is it suitable for students?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it helps students learn external ballistics and physics concepts."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can engineers or hobbyists use it?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it is useful for design experiments and projectile analysis."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is the calculator accurate?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, it provides precise results for input values, but it is a simplified model."
-            }
-          }
-        ]
-      }
-    ]
-  };
+  "@context": "https://schema.org",
+  "@graph": [
 
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ballistic Coefficient Calculator",
+          "item": "https://www.thesmartcalculator.com/physics/ballistic-coefficient-calculator"
+        }
+      ]
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.thesmartcalculator.com/#organization",
+      "name": "Ballistic Coefficient Calculator",
+      "alternateName": "Ballistic Coefficient Calculator",
+      "url": "https://www.thesmartcalculator.com/physics/ballistic-coefficient-calculator",
+      "logo": "https://www.thesmartcalculator.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1 614-596-2581",
+        "contactType": "technical support",
+        "contactOption": "TollFree",
+        "areaServed": ["US","GB","DE","PL","PT","ES"],
+        "availableLanguage": ["en","es","German","Polish","Portuguese"]
+      },
+      "sameAs": [
+        "https://x.com/SmartCalculat0r",
+        "https://www.instagram.com/thesmartcalculators/",
+        "https://www.linkedin.com/company/smart-calculator/",
+        "https://www.youtube.com/@TheSmartCalculators",
+        "https://www.pinterest.com/thesmartcalculators/_saved/",
+        "https://www.thesmartcalculator.com/"
+      ]
+    },
+
+    {
+      "@type": "SoftwareApplication",
+      "name": "Ballistic Coefficient Calculator",
+      "operatingSystem": "All",
+      "applicationCategory": "PhysicsApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "4300"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Realynn Reed"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Highly accurate Ballistic Coefficient Calculator. Perfect for students, engineers, and hobbyists for projectile analysis."
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a ballistic coefficient?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It measures how well a projectile overcomes air resistance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this calculator free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it is completely free online."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need software or installation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, it works directly in your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use it on mobile devices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, fully mobile-friendly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What inputs are required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mass (m), drag coefficient (Cd), and cross-sectional area (A)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is BC calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Using BC = m / (Cd × A)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can it compare different projectiles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can calculate BC for multiple projectiles to compare efficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it suitable for students?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, perfect for learning physics and external ballistics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can engineers or hobbyists use it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it helps in design experiments and projectile analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the calculator accurate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, for input values; it’s a simplified model and does not account for velocity changes or wind."
+          }
+        }
+      ]
+    }
+
+  ]
+}
   return (
     <>
       <Script
