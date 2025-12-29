@@ -162,22 +162,22 @@ export const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
                   {footerContent.company.description}
                 </p>
                 <div className="flex space-x-4">
-                  <Link href={footerContent.social.pinterest}>
+                  <Link href={footerContent.social.pinterest} aria-label="Visit our Pinterest page">
                     <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center hover:bg-red-700 transition-colors cursor-pointer">
                       <span className="text-white font-bold"><FaPinterestP /></span>
                     </div>
                   </Link>
-                  <Link href={footerContent.social.twitter}>
+                  <Link href={footerContent.social.twitter} aria-label="Visit our Twitter page">
                     <div className="w-10 h-10 bg-blue-400 rounded-lg flex items-center justify-center hover:bg-blue-500 transition-colors cursor-pointer">
                       <span className="text-white font-bold"><TwitterIcon /></span>
                     </div>
                   </Link>
-                  <Link href={footerContent.social.instagram}>
+                  <Link href={footerContent.social.instagram} aria-label="Visit our Instagram page">
                     <div className="w-10 h-10 bg-pink-700 rounded-lg flex items-center justify-center hover:bg-pink-800 transition-colors cursor-pointer">
                       <span className="text-white font-bold"><Instagram /></span>
                     </div>
                   </Link>
-                  <Link href={footerContent.social.youtube}>
+                  <Link href={footerContent.social.youtube} aria-label="Visit our YouTube channel">
                     <div className="w-10 h-10 bg-red-700 rounded-lg flex items-center justify-center hover:bg-red-800 transition-colors cursor-pointer">
                       <span className="text-white font-extrabold font-xl"><AiOutlineYoutube /></span>
                     </div>

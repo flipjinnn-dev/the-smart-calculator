@@ -51,7 +51,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-1 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-3">
-              <Link href={getHomepageUrl()}>
+              <Link href={getHomepageUrl()} aria-label="Smart Calculator Home">
                 <Logo />
               </Link>
               <div>
@@ -67,10 +67,13 @@ export default function Header() {
 
             {/* Language Selector */}
             <div className="relative">
+              <label htmlFor="language-selector" className="sr-only">Select Language</label>
               <select
+                id="language-selector"
                 value={language}
                 onChange={(e) => changeLanguage(e.target.value)}
                 className="bg-white border border-gray-300 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                aria-label="Select Language"
               >
                 {languages.map((lang) => (
                   <option key={lang.code} value={lang.code}>

@@ -10,7 +10,12 @@ import { headers } from "next/headers"
 import "./globals.css"
 import "katex/dist/katex.min.css"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ 
+  subsets: ["latin"],
+  display: 'swap',
+  preload: true,
+  fallback: ['system-ui', 'arial']
+})
 
 // Define metadata for all languages
 const homepageMeta = {
@@ -119,17 +124,31 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#3b82f6" />
 
+        {/* Preconnect to external domains */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+        <link rel="preconnect" href="https://www.clarity.ms" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+
         {/* Favicon & App Icons */}
         <link rel="icon" href="/logo.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
-
-        {/* ✅ Google Analytics */}
+      </head>
+      <body className={inter.className}>
+        <Header />
+        <main>
+          {children}
+        </main>
+        
+        {/* ✅ Google Analytics - Deferred */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-18W2MEF31Q"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -140,8 +159,8 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* ✅ Microsoft Clarity */}
-        <Script id="microsoft-clarity" strategy="afterInteractive">
+        {/* ✅ Microsoft Clarity - Deferred */}
+        <Script id="microsoft-clarity" strategy="lazyOnload">
           {`
             (function(c,l,a,r,i,t,y){
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -150,12 +169,14 @@ export default function RootLayout({
             })(window, document, "clarity", "script", "t4gsw89qux");
           `}
         </Script>
-        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5433267523341571"
-          crossOrigin="anonymous"></Script>
-      </head>
-      <body className={inter.className}>
-        <Header />
-        {children}
+        
+        {/* ✅ Google AdSense - Deferred */}
+        <Script 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5433267523341571"
+          strategy="lazyOnload"
+          crossOrigin="anonymous"
+        />
+        
         {/* ✅ Vercel tools */}
         <SpeedInsights />
         <Analytics />

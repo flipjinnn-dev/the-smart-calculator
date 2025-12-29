@@ -720,7 +720,7 @@ export default function HomePage() {
 
                 <div className="space-y-4 relative z-10">
                   <div>
-                    <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
+                    <p className="text-xs font-semibold text-gray-600 uppercase tracking-wider mb-3">
                       {contentData.browse?.topCategoriesLabel || "Top Categories"}
                     </p>
                     <div className="flex flex-wrap gap-2">
@@ -738,7 +738,7 @@ export default function HomePage() {
                   </div>
 
                   <div className="pt-4 border-t border-gray-100">
-                    <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
+                    <p className="text-xs font-semibold text-gray-600 uppercase tracking-wider mb-3">
                       {contentData.browse?.allCalculatorsLabel || "Popular Tools"}
                     </p>
                     <div className="flex flex-wrap gap-2">
@@ -890,19 +890,19 @@ export default function HomePage() {
               <div className="grid grid-cols-2 gap-4 md:gap-6">
                 <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
                   <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-1">90+</div>
-                  <div className="text-sm text-gray-400">{contentData.trustedBy?.stats?.freeCalculators || "Free Calculators"}</div>
+                  <div className="text-sm text-gray-300">{contentData.trustedBy?.stats?.freeCalculators || "Free Calculators"}</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
                   <div className="text-3xl md:text-4xl font-bold text-green-400 mb-1">100%</div>
-                  <div className="text-sm text-gray-400">{contentData.trustedBy?.stats?.freeAndSecure || "Free & Secure"}</div>
+                  <div className="text-sm text-gray-300">{contentData.trustedBy?.stats?.freeAndSecure || "Free & Secure"}</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
                   <div className="text-3xl md:text-4xl font-bold text-purple-400 mb-1">24/7</div>
-                  <div className="text-sm text-gray-400">{contentData.trustedBy?.stats?.availableOnline || "Available Online"}</div>
+                  <div className="text-sm text-gray-300">{contentData.trustedBy?.stats?.availableOnline || "Available Online"}</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
                   <div className="text-3xl md:text-4xl font-bold text-orange-400 mb-1">8+</div>
-                  <div className="text-sm text-gray-400">{contentData.trustedBy?.stats?.categories || "Categories"}</div>
+                  <div className="text-sm text-gray-300">{contentData.trustedBy?.stats?.categories || "Categories"}</div>
                 </div>
               </div>
             </div>
