@@ -3,8 +3,6 @@
 import type { Metadata } from "next"
 import Head from "next/head"
 import Link from "next/link"
-import { useState, useEffect } from "react"
-import { usePathname } from "next/navigation"
 import {
   Calculator,
   TrendingUp,
@@ -18,14 +16,13 @@ import {
   MoreHorizontal,
   Beef,
   ChevronRight,
-  CheckCircle
+  CircleCheck
 } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import SearchBar from "@/components/search-bar"
 import { getCalculatorCount, getCalculatorByName, calculators } from "@/lib/calculator-data"
 import { getLocalizedCategoryUrl, getLocalizedCalculatorUrl } from "@/lib/url-utils"
-import { useHomepageContent } from "@/hooks/useHomepageContent"
 
 // Define category icons mapping
 const categoryIcons: Record<string, React.ComponentType<any>> = {
@@ -46,34 +43,12 @@ const featureIcons: Record<string, React.ComponentType<any>> = {
   2: Sparkles,
 }
 
-export default function HomePage(props: any) {
-  const pathname = usePathname();
-  // Detect language from URL path or headers
-  const [language, setLanguage] = useState("en");
+interface HomeClientProps {
+  content: any;
+  language: string;
+}
 
-  useEffect(() => {
-    // Detect language from URL path
-    if (pathname) {
-      console.log('Current path:', pathname);
-      const langMatch = pathname.match(/^\/(br|pl|de|es)/);
-      const detectedLanguage = langMatch ? langMatch[1] : "en";
-      console.log('Detected language:', detectedLanguage);
-      setLanguage(detectedLanguage);
-    }
-  }, [pathname]);
-
-  const { content, loading, error } = useHomepageContent(language);
-
-  // Show loading state
-  if (loading) {
-    return <div className="min-h-screen flex items-center justify-center">Thinking...</div>;
-  }
-
-  // Show error if content failed to load
-  if (error) {
-    return <div className="min-h-screen flex items-center justify-center">Error loading content: {error}</div>;
-  }
-
+export default function HomePage({ content, language }: HomeClientProps) {
   // Use content or fallback to defaults
   const contentData = content || {
     meta: {
