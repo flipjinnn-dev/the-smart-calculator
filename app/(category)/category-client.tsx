@@ -47,7 +47,7 @@ export default function CategoryClient({ categoryId, content }: CategoryClientPr
           <div className="mb-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
               <TrendingUp className="mr-3 h-6 w-6 text-blue-600" />
-              Popular {contentData.name} Calculators
+              Popular {contentData.name}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {popularCalculators.map((calc) => (
@@ -70,7 +70,7 @@ export default function CategoryClient({ categoryId, content }: CategoryClientPr
         <div>
           <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
             <Calculator className="mr-3 h-6 w-6 text-blue-600" />
-            All {contentData.name} Calculators
+            All {contentData.name}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {allCalculators.map((calc) => (
