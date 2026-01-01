@@ -55,7 +55,9 @@ export default function CreditCardPayoffCalculatorClient({ content, guideContent
     "minimum_payment": "Minimum Payment",
     "apr": "APR",
     "calculate": "Calculate Strategy",
-    "results": "Results",
+    "results": {
+      "creditCardPayoffResultsTitle": "Results"
+    },
     "enter_info": "Enter your credit card information"
   };
 
@@ -170,7 +172,7 @@ export default function CreditCardPayoffCalculatorClient({ content, guideContent
 
               <Card ref={resultsRef} className="shadow-2xl border-0">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
-                  <CardTitle>{contentData.results}</CardTitle>
+                  <CardTitle>{contentData.results?.creditCardPayoffResultsTitle || "Results"}</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
                   {results ? (

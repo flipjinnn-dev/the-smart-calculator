@@ -172,7 +172,7 @@ export const urlMappings = {
     'kalkulator-punktow-weight-watchers': 'weight-watchers-points-calculator',
     'kalkulator-poczecia-i-ciazy': 'pregnancy-conception-calculator',
     'kalkulator-bledu-procentowego': 'percent-error-calculator',
-    'kalkulator-punktow-krytycznych': 'critical-point-calculator',
+    'kalkulator-punktu-krytycznego': 'critical-point-calculator',
     'kalkulator-ekstremow-wzglednych': 'relative-extrema-calculator',
     'regula-simpsona': 'simpsons-rule-calculator',
     'twierdzenie-o-wartosci-sredniej': 'mean-value-theorem-calculator',
