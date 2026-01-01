@@ -294,7 +294,266 @@ export default function CriticalPointCalculatorClient({ content, guideContent }:
     faq: []
   };
   
-  const contentData = content || {};
-  
+  const contentData = content || {
+    "pageTitle": "",
+    "pageDescription": "",
+    "critical_point_calculator_0": "",
+    "find_critical_points_of_singlevariable_or_multivar_1": "",
+    "critical_point_finder_2": "",
+    "enter_your_function_to_find_critical_points_automa_3": "",
+    "function_4": "",
+    "use_x_for_singlevariable_x_and_y_for_multivariable_5": "",
+    "supported_sin_cos_tan_sqrt_log_ln_pi_e_6": "",
+    "how_it_works_7": "",
+    "if_your_function_only_uses_x_it_finds_fx_and_solve_8": "",
+    "if_your_function_uses_x_and_y_it_finds_fx_fy_and_s_9": "",
+    "calculate_10": "",
+    "example_11": "",
+    "critical_points_found_12": "",
+    "x_13": "",
+    "no_critical_points_found_14": ""
+  };
 
+  const resultsRef = useRef<HTMLDivElement>(null);
+  const scrollToRef = useMobileScroll();
+  const [functionExpression, setFunctionExpression] = useState("3*x^2 + 4*x + 9");
+  
+  type Point2D = {
+    x: number;
+    y: number;
+  };
+  
+  type SingleVariableResult = {
+    type: "single";
+    function: string;
+    derivative: string;
+    criticalPoints: number[];
+    steps: string[];
+  };
+  
+  type MultiVariableResult = {
+    type: "multi";
+    function: string;
+    partialX: string;
+    partialY: string;
+    criticalPoints: Point2D[];
+    steps: string[];
+  };
+  
+  type CalculatorResult = SingleVariableResult | MultiVariableResult;
+  const [result, setResult] = useState<CalculatorResult | null>(null);
+  const [showResult, setShowResult] = useState(false);
+  const [error, setError] = useState("");
+
+  const formatNumber = (value: number): string => {
+    if (!isFinite(value) || isNaN(value)) return "undefined";
+    const tolerance = 1e-10;
+    for (let denom = 1; denom <= 20; denom++) {
+      const num = Math.round(value * denom);
+      if (Math.abs(value - num / denom) < tolerance) {
+        if (denom === 1) return num.toString();
+        if (num < 0) return `-${Math.abs(num)}/${denom}`;
+        return `${num}/${denom}`;
+      }
+    }
+    return Math.abs(value) < 1e-10 ? "0" : value.toFixed(4);
+  };
+
+  const formatPoint = (point: Point2D): string => {
+    return `(${formatNumber(point.x)}, ${formatNumber(point.y)})`;
+  };
+
+  const calculateCriticalPoints = () => {
+    setError("");
+    if (!functionExpression.trim()) {
+      setError("Please enter a function.");
+      return;
+    }
+    try {
+      const cleanedExpression = functionExpression.replace(/\^/g, "**").replace(/\s+/g, "").trim();
+      const hasX = /(?:^|[^a-zA-Z])x(?:[^a-zA-Z]|$)/.test(cleanedExpression);
+      const hasY = /(?:^|[^a-zA-Z])y(?:[^a-zA-Z]|$)/.test(cleanedExpression);
+      
+      if (hasX && hasY) {
+        const partialX = partialDerivative(functionExpression, "x");
+        const partialY = partialDerivative(functionExpression, "y");
+        const criticalPoints = solveSystem(partialX, partialY);
+        const steps = [`Step I: Calculate the first partial derivative w.r.t "x"`, `∂f/∂x = ${partialX}`, `Step II: Calculate the first partial derivative w.r.t "y"`, `∂f/∂y = ${partialY}`, `Step III: Set both partial derivatives equal to zero`, `${partialX} = 0`, `${partialY} = 0`, criticalPoints.length > 0 ? `Critical point(s): ${criticalPoints.map(p => formatPoint(p)).join(", ")}` : "No critical points found"];
+        setResult({
+          type: "multi",
+          function: functionExpression,
+          partialX,
+          partialY,
+          criticalPoints,
+          steps
+        });
+      } else {
+        const variable = hasX ? "x" : "y";
+        const derivative = differentiate(functionExpression, variable);
+        const criticalPoints = solveCriticalPoints(derivative, variable);
+        const steps = [`Step I: Find the first derivative of the given function`, `f'(${variable}) = ${derivative}`, `Step II: Set the first derivative equal to zero and solve`, `${derivative} = 0`, criticalPoints.length > 0 ? `Critical point(s): ${variable} = ${criticalPoints.map(p => formatNumber(p)).join(", ")}` : "No critical points found"];
+        setResult({
+          type: "single",
+          function: functionExpression,
+          derivative,
+          criticalPoints,
+          steps
+        });
+      }
+      setShowResult(true);
+      scrollToRef(resultsRef as React.RefObject<HTMLElement>);
+    } catch (err) {
+      setError("Calculation error. Please check your function syntax.");
+      console.error("Calculation error:", err);
+    }
+  };
+
+  const runExample = () => {
+    setFunctionExpression("3*x^2 + 4*x + 9");
+    setTimeout(() => calculateCriticalPoints(), 100);
+  };
+
+  return (
+    <>
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-orange-50">
+        <main className="py-8 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-8">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl flex items-center justify-center shadow-lg">
+                  <Function className="w-8 h-8 text-white" />
+                </div>
+              </div>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              <div className="lg:col-span-2">
+                <Card className="shadow-2xl border-0 p-0 bg-white">
+                  <CardHeader className="bg-gradient-to-r from-orange-50 to-red-50 rounded-t-lg border-b px-8 py-6">
+                    <CardTitle className="flex items-center space-x-3 text-2xl">
+                      <Function className="w-6 h-6 text-orange-600" />
+                      <span>{contentData.critical_point_finder_2}</span>
+                    </CardTitle>
+                    <CardDescription className="text-base">{contentData.enter_your_function_to_find_critical_points_automa_3}</CardDescription>
+                  </CardHeader>
+                  <CardContent className="p-8">
+                    {error && (
+                      <Alert className="mb-6 border-red-200 bg-red-50">
+                        <AlertCircle className="h-4 h-4 text-red-600" />
+                        <AlertDescription className="text-red-700">{error}</AlertDescription>
+                      </Alert>
+                    )}
+
+                    <div className="space-y-6">
+                      <div>
+                        <Label className="text-sm font-medium text-gray-700 mb-3 block">
+                          {contentData.function_4}{" "}
+                          <span className="text-gray-500">{contentData.use_x_for_singlevariable_x_and_y_for_multivariable_5}</span>
+                        </Label>
+                        <Input 
+                          className="w-full h-12 rounded-xl border-gray-200 focus:border-orange-400 focus:ring-orange-200 shadow-sm font-mono" 
+                          type="text" 
+                          value={functionExpression} 
+                          onChange={e => setFunctionExpression(e.target.value)} 
+                          placeholder="e.g., 3*x^2 + 4*x + 9" 
+                        />
+                        <p className="text-xs text-gray-500 mt-1">{contentData.supported_sin_cos_tan_sqrt_log_ln_pi_e_6}</p>
+                      </div>
+
+                      <div className="p-4 bg-orange-50 rounded-lg border border-orange-200">
+                        <p className="text-sm text-gray-700">
+                          <strong>{contentData.how_it_works_7}</strong>
+                          <br />{contentData.if_your_function_only_uses_x_it_finds_fx_and_solve_8}
+                          <br />{contentData.if_your_function_uses_x_and_y_it_finds_fx_fy_and_s_9}
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex gap-4 mt-8">
+                      <Button onClick={calculateCriticalPoints} className="flex-1 h-12 text-lg bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700">
+                        {contentData.calculate_10}
+                      </Button>
+                      <Button onClick={runExample} variant="outline" className="h-12 px-6 border-orange-200 text-orange-700 hover:bg-orange-50 bg-transparent">
+                        {contentData.example_11}
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+
+              <div className="hidden lg:block">
+                <Card className="shadow-2xl border-0 bg-gradient-to-br from-orange-50 to-red-100 h-full flex flex-col justify-center items-center p-8 sticky top-24">
+                  <CardHeader className="w-full flex flex-col items-center justify-center mb-2">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center mb-3 shadow-lg">
+                      <Calculator className="w-6 h-6 text-white" />
+                    </div>
+                    <CardTitle className="text-2xl font-bold text-orange-700 tracking-tight">{contentData.critical_points_found_12}</CardTitle>
+                  </CardHeader>
+                  <CardContent className="w-full flex flex-col items-center justify-center">
+                    {showResult && result ? (
+                      <div className="text-center w-full">
+                        <div className="space-y-3">
+                          {result.type === "single" ? (
+                            result.criticalPoints.length > 0 ? (
+                              result.criticalPoints.map((point: number, index: number) => (
+                                <div key={index} className="text-2xl font-bold text-orange-900">
+                                  {contentData.x_13}{formatNumber(point)}
+                                </div>
+                              ))
+                            ) : (
+                              <p className="text-lg text-gray-600">{contentData.no_critical_points_found_14}</p>
+                            )
+                          ) : (
+                            result.criticalPoints.length > 0 ? (
+                              result.criticalPoints.map((point: Point2D, index: number) => (
+                                <div key={index} className="text-xl font-bold text-orange-900">
+                                  {formatPoint(point)}
+                                </div>
+                              ))
+                            ) : (
+                              <p className="text-lg text-gray-600">{contentData.no_critical_points_found_14}</p>
+                            )
+                          )}
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="flex flex-col items-center justify-center">
+                        <Function className="w-8 h-8 text-orange-300 mb-2" />
+                        <p className="text-gray-500 text-center text-base">
+                          Enter function and click <span className="font-semibold text-orange-600">Calculate</span> to find critical points
+                        </p>
+                      </div>
+                    )}
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+
+            <SimilarCalculators 
+              calculators={[
+                {
+                  calculatorName: "Scientific Calculator",
+                  calculatorHref: "/maths/scientific-calculator",
+                  calculatorDescription: "Calculate loan payments and schedules for any type of loan"
+                }
+              ]}
+              color="orange"
+              title="Related Math Calculators" 
+            />
+
+            <RatingProfileSection
+              entityId="critical-point-calculator"
+              entityType="calculator"
+              creatorSlug="felix-yacoub"
+              initialRatingTotal={0}
+              initialRatingCount={0}
+            />
+            <CalculatorGuide data={guideData} />
+          </div>
+        </main>
+      </div>
+    </>
+  );
 }
