@@ -98,7 +98,7 @@ export function getCalculatorFileName(id: string): string {
 export const calculators: Calculator[] = [
   // Financial Calculators
   {
-    id: "mortgage",
+    id: "mortgage-calculator",
     name: "Mortgage Calculators",
     description: "Calculate monthly mortgage payments, total interest, and amortization schedule",
     href: "/financial/mortgage-calculator",
@@ -204,7 +204,7 @@ export const calculators: Calculator[] = [
     category: "financial",
   },
   {
-    id: "inflation",
+    id: "inflation-calculator",
     name: "Inflation Calculator",
     description: "Calculate the impact of inflation on purchasing power over time",
     href: "/financial/inflation-calculator",
@@ -240,7 +240,7 @@ export const calculators: Calculator[] = [
     category: "financial",
   },
   {
-    id: "loan",
+    id: "loan-calculator",
     name: "Loan Calculator",
     description: "Calculate loan payments, interest rates, and payoff schedules",
     href: "/financial/loan-calculator",
@@ -248,7 +248,7 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
-    id: "compound-interest",
+    id: "compound-interest-calculator",
     name: "Compound Interest Calculator",
     description: "Calculate compound interest growth over time with regular contributions",
     href: "/financial/compound-interest-calculator",
@@ -256,7 +256,7 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
-    id: "interest",
+    id: "interest-calculator",
     name: "Interest Calculator",
     description: "Calculate investment growth, interest, and buying power after inflation.",
     href: "/financial/interest-calculator",
@@ -264,7 +264,7 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
-    id: "payment",
+    id: "payment-calculator",
     name: "Payment Calculator",
     description: "Calculate loan payments for fixed terms or determine loan terms for fixed payments",
     href: "/financial/payment-calculator",
@@ -272,14 +272,14 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
-    id: "auto-loan",
+    id: "auto-loan-calculator",
     name: "Auto Loan Calculator",
     description: "Calculate car loan payments and total cost",
     href: "/financial/auto-loan-calculator",
     category: "financial",
   },
   {
-    id: "amortization",
+    id: "amortization-calculator",
     name: "Amortization Calculator",
     description: "Generate detailed amortization schedules for loans",
     href: "/financial/amortization-calculator",
@@ -293,21 +293,21 @@ export const calculators: Calculator[] = [
     category: "financial",
   },
   {
-    id: "currency",
+    id: "currency-calculator",
     name: "Currency Calculator",
     description: "Convert between different currencies with real-time rates",
     href: "/financial/currency-calculator",
     category: "financial",
   },
   {
-    id: "investment",
+    id: "investment-calculator",
     name: "Investment Calculator",
     description: "Calculate investment returns and growth projections",
     href: "/financial/investment-calculator",
     category: "financial",
   },
   {
-    id: "retirement",
+    id: "retirement-calculator",
     name: "Retirement Calculator",
     description: "Plan your retirement savings and calculate required contributions",
     href: "/financial/retirement-calculator",
@@ -316,7 +316,7 @@ export const calculators: Calculator[] = [
 
   // Health Calculators
   {
-    id: "bmi",
+    id: "bmi-calculator",
     name: "BMI Calculator",
     description: "Calculate your Body Mass Index and understand your weight status",
     href: "/health/bmi-calculator",
@@ -443,7 +443,7 @@ export const calculators: Calculator[] = [
     category: "health"
   },
   {
-    id: "ideal-weight",
+    id: "ideal-weight-calculator",
     name: "Ideal Weight Calculator",
     description: "Calculate your ideal body weight range based on height and gender",
     href: "/health/ideal-weight-calculator",
@@ -471,7 +471,7 @@ export const calculators: Calculator[] = [
     category: "health"
   },
   {
-    id: "bmr",
+    id: "bmr-calculator",
     name: "BMR Calculator",
     description: "Calculate your Basal Metabolic Rate (BMR) for calorie needs",
     href: "/health/bmr-calculator",
@@ -492,7 +492,7 @@ export const calculators: Calculator[] = [
     category: "health"
   },
   {
-    id: "calorie",
+    id: "calorie-calculator",
     name: "Calorie Calculator",
     description: "Calculate daily calorie needs based on your lifestyle and goals",
     href: "/health/calorie-calculator",
@@ -507,21 +507,21 @@ export const calculators: Calculator[] = [
     category: "health"
   },
   {
-    id: "body-fat",
+    id: "body-fat-calculator",
     name: "Body Fat Calculator",
     description: "Calculate body fat percentage using various methods",
     href: "/health/body-fat-calculator",
     category: "health",
   },
   {
-    id: "macro",
+    id: "macro-calculator",
     name: "Macro Calculator",
     description: "Calculate macronutrient requirements for your goals",
     href: "/health/macro-calculator",
     category: "health",
   },
   {
-    id: "pregnancy",
+    id: "pregnancy-calculator",
     name: "Pregnancy Calculator",
     description: "Estimate pregnancy schedule based on due date, last period, ultrasound, conception, or IVF transfer date.",
     href: "/health/pregnancy-calculator",
@@ -529,7 +529,7 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
-    id: "pregnancy-conception",
+    id: "pregnancy-conception-calculator",
     name: "Pregnancy Conception Calculator",
     description: "Estimate conception date and pregnancy milestones based on due date, last period, or ultrasound date.",
     href: "/health/pregnancy-conception-calculator",
@@ -546,7 +546,7 @@ export const calculators: Calculator[] = [
 
   // Math Calculators
   {
-    id: "percentage",
+    id: "percentage-calculator",
     name: "Percentage Calculator",
     description: "Calculate percentages, ratios, and percentage changes easily",
     href: "/maths/percentage-calculator",

@@ -43,7 +43,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Simulador de Hipoteca – Calcula tu Hipoteca y Préstamo con Tasa de Interés",
       description: "Utiliza nuestro simulador de hipoteca para calcular tu préstamo hipotecario, conocer la tasa de interés y planificar tus pagos de manera rápida y precisa.",
-      slug: "/es/financiero/Simulador-de-hipoteca",
+      slug: "/es/financiero/simulador-de-hipoteca",
       keywords: "simulador, hipoteca, calcula, préstamo, tasa, interés, utiliza, nuestro, calcular, hipotecario, conocer, planificar, pagos, manera, rápida"
     }
   },
@@ -199,7 +199,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Erbschaftsteuer­rechner – Ihre Online-Berechnung für Erbe",
-      description: "Mit dem Erbschaftsteuer­rechner ermitteln Sie Steuern",
+      description: "Mit dem Erbschaftsteuer­rechner ermitteln Sie Steuern auf Ihr Erbe und planen Ihre Nachlassverwaltung optimal.",
       slug: "/de/finanziell/erbschaftsteuerrechner",
       keywords: "Erbschaftssteuerrechner, Nachlassplanung, Erbschaftssteuer, Vermögensplanung, Nachfolgeplanung, Erbe"
     }
@@ -232,7 +232,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Tilgungsrechner – Ihre Rückzahlungs­berechnung online",
-      description: "Der Tilgungsrechner berechnet Ihre Darlehens­rückzahlung",
+      description: "Der Tilgungsrechner berechnet Ihre Darlehens­rückzahlung und zeigt Ihnen, wie lange es dauert, Ihre Kreditkartenschulden abzubezahlen.",
       slug: "/de/finanziell/kreditkarten-tilgungsrechner",
       keywords: "Kreditkartenrechner, Schuldentilgung, Kreditkarte, Zinsen, Rückzahlungsplan, Schuldenmanagement"
     }
@@ -265,7 +265,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Kreditkartenrechner – Kosten & Konditionen einfach online prüfen",
-      description: "Mit dem Kreditkartenrechner vergleichen Sie Gebühren",
+      description: "Mit dem Kreditkartenrechner vergleichen Sie Gebühren, Zinsen und Tilgungspläne für Ihre Kreditkarte schnell und einfach.",
       slug: "/de/finanziell/kreditkartenrechner",
       keywords: "Kreditkartenrechner, Kartenzahlungen, Zinsen, Rückzahlungsplan, Finanzmanagement, Kreditkartenanalyse"
     }
@@ -298,7 +298,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Rentenzahlung – Online Berechnung Ihrer Altersvorsorge",
-      description: "Mit unserer Rentenzahlung-Berechnung ermitteln Sie einfach Ihre monatlichen Zahlungen",
+      description: "Mit unserer Rentenzahlung-Berechnung ermitteln Sie einfach Ihre monatlichen Zahlungen aus Ihrer Leibrente oder Altersvorsorge.",
       slug: "/de/finanziell/rentenzahlung",
       keywords: "Rentenrechner, Rentenauszahlung, Leibrente, Ruhestandsplanung, langfristige Investitionen, Rentenberechnung"
     }
@@ -331,7 +331,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Rentenrechner – Ihre Altersrente online ermitteln",
-      description: "Mit dem Rentenrechner berechnen Sie Ihre voraussichtliche Altersrente",
+      description: "Mit dem Rentenrechner berechnen Sie Ihre voraussichtliche Altersrente basierend auf regelmäßigen Beiträgen und Zinssätzen.",
       slug: "/de/finanziell/leibrentenrechner",
       keywords: "Rentenrechner, Zukunftswert, regelmäßige Beiträge, Zinssätze, langfristige Investitionen, Finanzplanung"
     }
@@ -364,7 +364,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Sozialversicherungsrechner – Beiträge online berechnen",
-      description: "Mit dem Sozialversicherungsrechner ermitteln Sie Ihre Beiträge zu Kranken-",
+      description: "Mit dem Sozialversicherungsrechner ermitteln Sie Ihre Beiträge zu Kranken-, Renten- und Arbeitslosenversicherung basierend auf Ihrem Einkommen.",
       slug: "/de/finanziell/sozialversicherungsrechner",
       keywords: "social, security, calculator, estimate, your, benefits, based, earnings, history"
     }
@@ -397,7 +397,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Rentenrechner – Ihre Rentenplanung online berechnen",
-      description: "Mit dem Rentenrechner berechnen Sie Ihre monatliche Rente",
+      description: "Mit dem Rentenrechner berechnen Sie Ihre monatliche Rente basierend auf Gehalt und Dienstjahren für eine sichere Ruhestandsplanung.",
       slug: "/de/finanziell/pensionsrechner",
       keywords: "Pensionsrechner, Rentenleistungen, Dienstjahre, Pensionsberechnung, Ruhestandsplanung, Altersvorsorge"
     }
@@ -430,7 +430,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Sparrechner – Ihr Tool für regelmäßiges Sparen",
-      description: "Mit dem Sparrechner berechnen Sie Ihre monatliche Sparrate",
+      description: "Mit dem Sparrechner berechnen Sie Ihre monatliche Sparrate und sehen, wie Ihr Vermögen über die Zeit wächst.",
       slug: "/de/finanziell/sparrechner",
       keywords: "Sparrechner, Sparguthaben, regelmäßige Einzahlungen, Finanzplanung, Vermögensaufbau, Sparziele"
     }
@@ -463,7 +463,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Hochzeitsrechner – Ihr Budget-Tool für die Traumhochzeit",
-      description: "Mit dem Hochzeitsrechner planen Sie Ihr Hochzeitsbudget – Kosten für Gäste",
+      description: "Mit dem Hochzeitsrechner planen Sie Ihr Hochzeitsbudget – Kosten für Gäste, Location, Catering und mehr im Überblick.",
       slug: "/de/finanziell/hochzeitsrechner",
       keywords: "Eherechner, Ehefinanzen, Finanzplanung, Hochzeitsbudget, gemeinsame Ausgaben, Finanzielle Eheplanung"
     }
@@ -880,7 +880,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Spłaty Kredytu Hipotecznego – Oblicz Ratę",
       description: "Użyj kalkulatora spłaty kredytu hipotecznego online, aby obliczyć raty, odsetki i całkowity koszt. Proste, dokładne i darmowe narzędzie finansowe.",
       slug: "/pl/finansowy/kalkulator-splaty-kredytu-hipotecznego",
-      keywords: ""
+      keywords: "spłata hipoteki, wcześniejsza spłata, oszczędności odsetek, data spłaty, dodatkowe wpłaty"
     },
     br: {
       title: "Calculadora de Quitação da Hipoteca",
@@ -1012,7 +1012,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator BMI – Oblicz Swoje BMI Online Szybko",
       description: "Użyj kalkulatora BMI online, aby obliczyć wskaźnik masy ciała i sprawdzić swoją wagę idealną. Proste, dokładne i darmowe narzędzie zdrowotne.",
       slug: "/pl/zdrowie/kalkulator-bmi",
-      keywords: ""
+      keywords: "BMI, wskaźnik masy ciała, zdrowa waga, nadwaga, otyłość, oblicz BMI"
     },
     br: {
       title: "Calculadora de IMC",
@@ -1110,7 +1110,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Terminu Porodu – Oblicz Datę Porodu Online",
       description: "Użyj kalkulatora terminu porodu online, aby dokładnie obliczyć przewidywaną datę porodu. Proste, szybkie i darmowe narzędzie dla przyszłych mam.",
       slug: "/pl/zdrowie/kalkulator-terminu-porodu",
-      keywords: ""
+      keywords: "termin porodu, data porodu, ciąża, ostatnia miesiączka, kalkulator ciąży"
     },
     br: {
       title: "Calculadora de Data Provável do Parto",
@@ -1143,7 +1143,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Tempa – Oblicz Swoje Tempo Biegu Online",
       description: "Użyj kalkulatora tempa online, aby obliczyć swoje tempo biegu, czas i dystans. Proste, szybkie i darmowe narzędzie dla biegaczy i sportowców.",
       slug: "/pl/zdrowie/kalkulator-tempa",
-      keywords: ""
+      keywords: "tempo biegu, prędkość biegania, czas biegu, dystans, kalkulator biegowy"
     },
     br: {
       title: "Calculadora de Ritmo de Corrida",
@@ -1374,7 +1374,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Węglowodanów – Oblicz Spożycie Online",
       description: "Użyj kalkulatora węglowodanów online, aby obliczyć dzienne spożycie węglowodanów i kalorie. Proste, dokładne i darmowe narzędzie dietetyczne.",
       slug: "/pl/zdrowie/kalkulator-weglowodanow",
-      keywords: ""
+      keywords: "węglowodany, spożycie węglowodanów, dieta, makroskładniki, kalorie z węglowodanów"
     },
     br: {
       title: "Calculadora de Carboidratos",
@@ -1407,7 +1407,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Owulacji – Oblicz Dni Płodne Online",
       description: "Użyj kalkulatora owulacji online, aby obliczyć dni płodne i niepłodne. Proste, dokładne i darmowe narzędzie dla kobiet planujących ciążę.",
       slug: "/pl/zdrowie/kalkulator-owulacji",
-      keywords: ""
+      keywords: "owulacja, dni płodne, planowanie ciąży, cykl miesięczny, płodność"
     },
     br: {
       title: "Calculadora de Ovulação",
@@ -1473,7 +1473,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator TDEE – Oblicz Dzienne Zapotrzebowanie Kalorii",
       description: "Użyj kalkulatora TDEE online, aby obliczyć całkowite dzienne zapotrzebowanie kaloryczne. Proste, dokładne i darmowe narzędzie zdrowotne.",
       slug: "/pl/zdrowie/kalkulator-tdee",
-      keywords: ""
+      keywords: "TDEE, zapotrzebowanie kaloryczne, wydatek energetyczny, kalorie dziennie, metabolizm"
     },
     br: {
       title: "Calculadora TDEE",
@@ -1506,7 +1506,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Poczęcia – Oblicz Datę Poczęcia Online",
       description: "Użyj kalkulatora poczęcia online, aby obliczyć przewidywaną datę poczęcia i dni płodne. Proste, dokładne i darmowe narzędzie dla przyszłych rodziców.",
       slug: "/pl/zdrowie/kalkulator-poczecia",
-      keywords: ""
+      keywords: "poczęcie, data poczęcia, owulacja, planowanie ciąży, zapłodnienie"
     },
     br: {
       title: "Calculadora de Concepção",
@@ -1539,7 +1539,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator GFR – Oblicz Filtrację Kłębuszkową Online",
       description: "Użyj kalkulatora GFR online, aby obliczyć wskaźnik filtracji kłębuszkowej i ocenić funkcję nerek. Proste, dokładne i darmowe narzędzie zdrowotne.",
       slug: "/pl/zdrowie/kalkulator-gfr",
-      keywords: ""
+      keywords: "GFR, filtracja kłębuszkowa, funkcja nerek, kreatynina, zdrowie nerek"
     },
     br: {
       title: "Calculadora de Taxa de Filtração Glomerular (TFG)",
@@ -1605,7 +1605,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Idealnej Wagi – Oblicz Wagę Ciała Online",
       description: "Użyj kalkulatora idealnej wagi online, aby sprawdzić swoją wagę optymalną według wzrostu i płci. Proste, dokładne i darmowe narzędzie zdrowotne.",
       slug: "/pl/zdrowie/kalkulator-idealnej-wagi",
-      keywords: ""
+      keywords: "idealna waga, waga ciała, wzrost, BMI, zdrowa waga"
     },
     br: {
       title: "Calculadora de Peso Ideal",
@@ -1649,7 +1649,7 @@ export const calculatorsMeta: CalculatorMeta = {
     de: {
       title: "Übergewichtsrechner",
       description: "Berechnen Sie den BMI für Personen mit Übergewicht und verstehen Sie mögliche Gesundheitsrisiken.",
-      slug: "/de/gesundheit/overwieght-rechner",
+      slug: "/de/gesundheit/uebergewicht-rechner",
       keywords: "Übergewicht, BMI, Gesundheitsrisiken"
     }
     ,
@@ -1671,7 +1671,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Typu Sylwetki – Poznaj Swoją Budowę Ciała",
       description: "Użyj kalkulatora typu sylwetki online, aby określić swój typ ciała: ektomorfik, mezomorfik lub endomorfik. Proste, szybkie i darmowe narzędzie.",
       slug: "/pl/zdrowie/kalkulator-typu-sylwetki",
-      keywords: ""
+      keywords: "typ sylwetki, ektomorfik, mezomorfik, endomorfik, budowa ciała"
     },
     br: {
       title: "Calculadora de Tipo Corporal",
@@ -1704,7 +1704,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Okresu – Oblicz Cykl Miesięczny Online",
       description: "Użyj kalkulatora okresu online, aby śledzić cykl menstruacyjny i przewidzieć kolejną miesiączkę. Proste, dokładne i darmowe narzędzie dla kobiet.",
       slug: "/pl/zdrowie/kalkulator-okresu",
-      keywords: ""
+      keywords: "okres, cykl miesięczny, miesiączka, owulacja, kalendarz menstruacyjny"
     },
     br: {
       title: "Calculadora de Ciclo Menstrual",
@@ -1737,7 +1737,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator BMR – Oblicz Podstawową Przemianę Materii",
       description: "Użyj kalkulatora BMR online, aby obliczyć dzienne zapotrzebowanie kaloryczne i podstawową przemianę materii. Proste, dokładne i darmowe narzędzie zdrowotne.",
       slug: "/pl/zdrowie/kalkulator-bmr",
-      keywords: ""
+      keywords: "BMR, podstawowa przemiana materii, metabolizm, zapotrzebowanie kaloryczne, spalanie kalorii"
     },
     br: {
       title: "Calculadora de Taxa Metabólica Basal (TMB)",
@@ -1803,7 +1803,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Powierzchni Ciała – Oblicz Powierzchnię Online",
       description: "Użyj kalkulatora powierzchni ciała online, aby obliczyć powierzchnię skóry i wskaźniki zdrowotne. Proste, szybkie i darmowe narzędzie dla każdego.",
       slug: "/pl/zdrowie/kalkulator-powierzchni-ciala",
-      keywords: ""
+      keywords: "powierzchnia ciała, BSA, dawkowanie leków, pole powierzchni ciała"
     },
     br: {
       title: "Calculadora de Área de Superfície Corporal (ASC)",
@@ -1836,7 +1836,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Kalorii – Oblicz Dzienne Spożycie Kalorii",
       description: "Użyj kalkulatora kalorii online, aby obliczyć dzienne spożycie kalorii i zbilansować dietę. Proste, dokładne i darmowe narzędzie zdrowotne.",
       slug: "/pl/zdrowie/kalkulator-kalorii",
-      keywords: ""
+      keywords: "kalorie, dzienne zapotrzebowanie kaloryczne, dieta, odchudzanie, bilans kaloryczny"
     },
     br: {
       title: "Calculadora de Calorias",
@@ -1868,7 +1868,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Stężenia Alkoholu – Oblicz BAC Online",
       description: "Użyj kalkulatora stężenia alkoholu we krwi online, aby obliczyć poziom alkoholu i bezpieczne granice. Proste, szybkie i darmowe narzędzie zdrowotne.",
       slug: "/pl/zdrowie/kalkulator-stezenia-alkoholu-we-krwi",
-      keywords: ""
+      keywords: "BAC, stężenie alkoholu, alkohol we krwi, promile, bezpieczne granice"
     },
     br: {
       title: "Calculadora de Teor Alcoólico no Sangue (BAC)",
@@ -1901,7 +1901,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Tkanki Tłuszczowej – Oblicz Procent Tłuszczu",
       description: "Użyj kalkulatora tkanki tłuszczowej online, aby obliczyć procent tłuszczu w ciele. Proste, szybkie i dokładne narzędzie zdrowotne dla każdego.",
       slug: "/pl/zdrowie/kalkulator-tkanki-tluszczowej",
-      keywords: ""
+      keywords: "tkanka tłuszczowa, procent tłuszczu, skład ciała, pomiar tłuszczu, zdrowie metaboliczne"
     },
     br: {
       title: "Calculadora de Gordura Corporal",
@@ -1934,7 +1934,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Makro – Oblicz Makroskładniki Online",
       description: "Użyj kalkulatora makro online, aby obliczyć białka, tłuszcze i węglowodany w diecie. Proste, dokładne i darmowe narzędzie zdrowotne dla każdego.",
       slug: "/pl/zdrowie/kalkulator-makro",
-      keywords: ""
+      keywords: "makroskładniki, białko, tłuszcze, węglowodany, planowanie żywienia, dieta"
     },
     br: {
       title: "Calculadora de Macronutrientes",
@@ -1967,7 +1967,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Ciąży – Oblicz Tydzień Ciąży Online",
       description: "Użyj kalkulatora ciąży online, aby obliczyć tydzień ciąży i przewidywaną datę porodu. Proste, szybkie i darmowe narzędzie dla przyszłych mam.",
       slug: "/pl/zdrowie/kalkulator-ciazy",
-      keywords: ""
+      keywords: "ciąża, tydzień ciąży, termin porodu, USG, rozwój płodu"
     },
     br: {
       title: "Calculadora de Gravidez",
@@ -2033,7 +2033,7 @@ export const calculatorsMeta: CalculatorMeta = {
       title: "Kalkulator Procentowy – Oblicz Procent Online Szybko",
       description: "Użyj kalkulatora procentowego online, aby szybko obliczyć procenty, wartości i różnice. Proste, dokładne i darmowe narzędzie matematyczne.",
       slug: "/pl/matematyka/kalkulator-procentowy",
-      keywords: ""
+      keywords: "procenty, obliczanie procentów, wartość procentowa, zmiana procentowa, proporcja"
     },
     br: {
       title: "Calculadora de Percentual",
