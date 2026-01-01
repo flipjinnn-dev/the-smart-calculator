@@ -3,6 +3,7 @@ import HomeClient from "./home-client";
 import { loadHomepageContent } from "@/lib/loadHomepageContent";
 import type { Metadata } from "next";
 import Head from "next/head";
+import Script from "next/script";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
@@ -121,9 +122,13 @@ export default async function HomePage() {
   return (
     <>
       <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <meta name="x-language" content={language} />
       </Head>
+      <Script 
+      id="schema-org" 
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} 
+      />
       <HomeClient content={content} language={language} />
     </>
   );
