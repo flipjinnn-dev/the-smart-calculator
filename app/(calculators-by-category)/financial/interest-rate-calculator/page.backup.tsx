@@ -4,7 +4,6 @@ import { useCalculatorContent } from "@/hooks/useCalculatorContent";
 import { usePathname } from "next/navigation";
 import type React from "react";
 import { useState, useRef } from "react";
-
 import { Calculator, Percent, DollarSign, HelpCircle } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";

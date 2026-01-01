@@ -1,4 +1,6 @@
 {
+  "pageTitle": "Kalkulator Nadwagi",
+  "pageDescription": "Oblicz swoje BMI i określ, czy masz nadwagę według standardów WHO z spersonalizowaną klasyfikacją wagi",
   "bmi_calculation_0": "Obliczanie BMI",
   "enter_your_measurements_to_calculate_bmi_and_weigh_1": "Wprowadź swoje pomiary, aby obliczyć BMI i klasyfikację wagową",
   "unit_system_2": "Układ jednostek",

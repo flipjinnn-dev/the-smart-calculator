@@ -172,7 +172,7 @@ export const urlMappings = {
     'kalkulator-punktow-weight-watchers': 'weight-watchers-points-calculator',
     'kalkulator-poczecia-i-ciazy': 'pregnancy-conception-calculator',
     'kalkulator-bledu-procentowego': 'percent-error-calculator',
-    'kalkulator-punktu-krytycznego': 'critical-point-calculator',
+    'kalkulator-punktow-krytycznych': 'critical-point-calculator',
     'kalkulator-ekstremow-wzglednych': 'relative-extrema-calculator',
     'regula-simpsona': 'simpsons-rule-calculator',
     'twierdzenie-o-wartosci-sredniej': 'mean-value-theorem-calculator',
@@ -231,6 +231,7 @@ export const urlMappings = {
     'podatek-od-nieruchomosci-kalkulator': 'estate-tax-calculator',
     'zdrowie': 'health',
     'zywnosc': 'food',
+    'kalkulator-wynagrodzen': 'salary-calculator',
   },
   'de': {
     'de-slug':'en-slug',
@@ -345,6 +346,7 @@ export const urlMappings = {
     'zinssatzrechner': 'interest-rate-calculator',
     'zinsrechner': 'interest-calculator',
     'zufall-zahl-generator-rechner': 'random-number-generator',
+    'orthogonale-projektionsrechner': 'orthogonal-projection-calculator',
   },
   'es': {
     'es-slug':'en-slug',
@@ -458,7 +460,7 @@ export const urlMappings = {
     'calculadora-de-altura': 'height-calculator',
     'calculadora-subnet': 'ip-subnet-calculator',
     'calculadora-de-calorias-de-rucking': 'rucking-calorie-calculator',
-
+    'calculadora-de-curva-de-raiz-cuadrada': 'square-root-curve-calculator',
   }
 } as const;
 

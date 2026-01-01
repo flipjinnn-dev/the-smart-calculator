@@ -1,4 +1,6 @@
 {
+  "pageTitle": "Overweight Calculator",
+  "pageDescription": "Calculate your BMI and determine if you are overweight based on WHO standards with personalized weight classification and health recommendations",
   "bmi_calculation_0": "BMI Calculation",
   "enter_your_measurements_to_calculate_bmi_and_weigh_1": "Enter your measurements to calculate BMI and weight classification",
   "unit_system_2": "Unit System",

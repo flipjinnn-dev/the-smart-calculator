@@ -1,4 +1,6 @@
 {
+  "pageTitle": "Calculadora de Sobrepeso",
+  "pageDescription": "Calcule seu IMC e determine se você está acima do peso com base nos padrões da OMS com classificação de peso personalizada",
   "bmi_calculation_0": "Cálculo do IMC",
   "enter_your_measurements_to_calculate_bmi_and_weigh_1": "Insira suas medidas para calcular o IMC e a classificação de peso",
   "unit_system_2": "Sistema de Unidades",

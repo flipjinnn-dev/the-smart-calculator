@@ -1,4 +1,6 @@
 {
+  "pageTitle": "Übergewicht-Rechner",
+  "pageDescription": "Berechnen Sie Ihren BMI und ermitteln Sie, ob Sie übergewichtig sind, basierend auf WHO-Standards mit personalisierter Gewichtsklassifizierung",
   "bmi_calculation_0": "BMI-Berechnung",
   "enter_your_measurements_to_calculate_bmi_and_weigh_1": "Geben Sie Ihre Maße ein, um den BMI und die Gewichtsklassifizierung zu berechnen",
   "unit_system_2": "Einheitensystem",

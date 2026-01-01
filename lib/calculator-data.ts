@@ -557,7 +557,7 @@ export const calculators: Calculator[] = [
     id: "square-root-curve-calculator",
     name: "Square Root Curve Calculator",
     description: "Convert grades using the square root grading curve method",
-    href: "maths/square-root-curve-calculator",
+    href: "/maths/square-root-curve-calculator",
     category: "maths",
     popular: false
   },
