@@ -8,6 +8,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
+  const baseUrl = "https://www.thesmartcalculator.com";
+  const canonical = language === "en" ? baseUrl : `${baseUrl}/${language}`;
+  
   const { content } = await loadHomepageContent(language);
   const contentData = content || {
     meta: {
@@ -25,10 +28,10 @@ export async function generateMetadata(): Promise<Metadata> {
       title: contentData.meta.title,
       description: contentData.meta.description,
       type: "website",
-      url: "https://www.thesmartcalculator.com/",
+      url: canonical,
     },
     alternates: {
-      canonical: "https://www.thesmartcalculator.com/",
+      canonical: canonical,
     },
   };
 }

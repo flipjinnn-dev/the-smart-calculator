@@ -48,17 +48,15 @@ export default function CreditCardPayoffCalculatorClient({ content, guideContent
   const contentData = content || {
     "pageTitle": "",
     "pageDescription": "",
-    "your_credit_cards": "Your Credit Cards",
-    "add_card": "Add Card",
-    "card_name": "Card Name",
-    "current_balance": "Current Balance",
-    "minimum_payment": "Minimum Payment",
-    "apr": "APR",
-    "calculate": "Calculate Strategy",
-    "results": {
-      "creditCardPayoffResultsTitle": "Results"
-    },
-    "enter_info": "Enter your credit card information"
+    "credit_cards_3": "Credit Cards",
+    "add_card_4": "Add Card",
+    "card_name_6": "Card Name",
+    "current_balance_7": "Current Balance",
+    "minimum_payment_8": "Minimum Payment",
+    "apr_9": "APR (%)",
+    "calculate_strategy_10": "Calculate Strategy",
+    "payoff_results_11": "Payoff Results",
+    "enter_your_credit_card_information_to_see_your_pay_27": "Enter your credit card information to see your payoff strategy"
   };
 
   const resultsRef = useRef<HTMLDivElement>(null);
@@ -131,11 +129,11 @@ export default function CreditCardPayoffCalculatorClient({ content, guideContent
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              <Card className="shadow-2xl border-0">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
+              <Card className="shadow-2xl border-0 pt-0">
+                <CardHeader className="bg-gradient-to-r py-6 from-blue-50 to-indigo-50">
                   <CardTitle className="flex items-center space-x-3">
                     <CreditCardIcon className="w-6 h-6 text-blue-600" />
-                    <span>{contentData.your_credit_cards}</span>
+                    <span>{contentData.credit_cards_3 || "Credit Cards"}</span>
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -152,27 +150,39 @@ export default function CreditCardPayoffCalculatorClient({ content, guideContent
                             )}
                           </div>
                           <div className="grid grid-cols-2 gap-4">
-                            <Input value={card.name} onChange={e => updateCard(card.id, "name", e.target.value)} placeholder="Card name" />
-                            <Input type="number" value={card.balance} onChange={e => updateCard(card.id, "balance", Number(e.target.value))} placeholder="Balance" />
-                            <Input type="number" value={card.minPayment} onChange={e => updateCard(card.id, "minPayment", Number(e.target.value))} placeholder="Min Payment" />
-                            <Input type="number" value={card.apr} onChange={e => updateCard(card.id, "apr", Number(e.target.value))} placeholder="APR %" />
+                            <div>
+                              <Label className="text-sm font-medium mb-1 block">{contentData.card_name_6 || "Card Name"}</Label>
+                              <Input value={card.name} onChange={e => updateCard(card.id, "name", e.target.value)} placeholder={contentData.card_name_6 || "Card name"} />
+                            </div>
+                            <div>
+                              <Label className="text-sm font-medium mb-1 block">{contentData.current_balance_7 || "Current Balance"}</Label>
+                              <Input type="number" value={card.balance} onChange={e => updateCard(card.id, "balance", Number(e.target.value))} placeholder={contentData.current_balance_7 || "Balance"} />
+                            </div>
+                            <div>
+                              <Label className="text-sm font-medium mb-1 block">{contentData.minimum_payment_8 || "Minimum Payment"}</Label>
+                              <Input type="number" value={card.minPayment} onChange={e => updateCard(card.id, "minPayment", Number(e.target.value))} placeholder={contentData.minimum_payment_8 || "Min Payment"} />
+                            </div>
+                            <div>
+                              <Label className="text-sm font-medium mb-1 block">{contentData.apr_9 || "APR (%)"}</Label>
+                              <Input type="number" value={card.apr} onChange={e => updateCard(card.id, "apr", Number(e.target.value))} placeholder={contentData.apr_9 || "APR %"} />
+                            </div>
                           </div>
                         </CardContent>
                       </Card>
                     ))}
                   </div>
                   <Button onClick={addCard} variant="outline" className="w-full mb-4">
-                    <Plus className="w-4 h-4 mr-2" />{contentData.add_card}
+                    <Plus className="w-4 h-4 mr-2" />{contentData.add_card_4 || "Add Card"}
                   </Button>
                   <Button onClick={calculatePayoff} className="w-full h-12 bg-gradient-to-r from-blue-500 to-indigo-600">
-                    {contentData.calculate}
+                    {contentData.calculate_strategy_10 || "Calculate Strategy"}
                   </Button>
                 </CardContent>
               </Card>
 
-              <Card ref={resultsRef} className="shadow-2xl border-0">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
-                  <CardTitle>{contentData.results?.creditCardPayoffResultsTitle || "Results"}</CardTitle>
+              <Card ref={resultsRef} className="shadow-2xl pt-0 border-0">
+                <CardHeader className="bg-gradient-to-r py-6 from-blue-50 to-indigo-50">
+                  <CardTitle>{contentData.payoff_results_11 || "Payoff Results"}</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
                   {results ? (
@@ -193,7 +203,7 @@ export default function CreditCardPayoffCalculatorClient({ content, guideContent
                   ) : (
                     <div className="text-center py-12">
                       <CreditCardIcon className="w-16 h-16 mx-auto mb-4 text-gray-400" />
-                      <p>{contentData.enter_info}</p>
+                      <p>{contentData.enter_your_credit_card_information_to_see_your_pay_27 || "Enter your credit card information"}</p>
                     </div>
                   )}
                 </CardContent>

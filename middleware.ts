@@ -1028,6 +1028,7 @@ export function middleware(request: NextRequest) {
 
     // Add language information to headers
     response.headers.set('x-language', lang);
+    response.headers.set('x-pathname', pathname);
 
     return response;
   }
@@ -1035,6 +1036,7 @@ export function middleware(request: NextRequest) {
   // For English URLs (no prefix), set language to 'en'
   const response = NextResponse.next();
   response.headers.set('x-language', 'en');
+  response.headers.set('x-pathname', pathname);
   return response;
 }
 

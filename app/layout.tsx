@@ -16,7 +16,6 @@ const inter = Inter({
   preload: true,
   fallback: ['system-ui', 'arial']
 })
-
 // Define metadata for all languages
 const homepageMeta = {
   en: {
@@ -65,7 +64,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: meta.title,
     description: meta.description,
     keywords: meta.keywords,
-    authors: [{ name: "Smart Calculator Team" }],
+    authors: [{ name: "The Smart Calculator Team" }],
     creator: "Smart Calculator",
     publisher: "Smart Calculator",
     formatDetection: {
@@ -75,6 +74,13 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     alternates: {
       canonical: canonicalUrl,
+      languages: {
+        'en': baseUrl,
+        'pt-BR': `${baseUrl}/br`,
+        'pl': `${baseUrl}/pl`,
+        'de': `${baseUrl}/de`,
+        'es': `${baseUrl}/es`,
+      }
     },
     openGraph: {
       type: "website",
