@@ -16,8 +16,8 @@ const inflationcalculatorMeta = {
     keywords: "calculadora inflação, poder compra, impacto inflação, online inflação, planejamento econômico, ajuste valor, gratuita ferramenta inflação, valor tempo"
   },
   pl: {
-    title: "Kalkulator Inflacji – Oblicz Wartość Pieniądza Online",
-    description: "Użyj kalkulatora inflacji online, aby sprawdzić spadek wartości pieniądza w czasie. Proste, szybkie i dokładne narzędzie finansowe.",
+    title: "Kalkulator inflacji – Niezbędne obliczenia",
+    description: "Sprawdź wskaźnik inflacji i poznaj prognozę inflacji. Niezawodne dane, które pomagają podejmować pewne decyzje.",
     keywords: "kalkulator inflacji, siła nabywcza, wpływ inflacji, online inflacja, planowanie ekonomiczne, dostosowanie wartości, darmowe narzędzie inflacja, wartość czasu"
   },
   de: {

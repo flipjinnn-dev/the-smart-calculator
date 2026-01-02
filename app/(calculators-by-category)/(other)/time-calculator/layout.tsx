@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for time-calculator
 const timecalculatorMeta = {
   en: {
-    title: "Time Calculator – Difference & Duration Online | TheSmartCalculator",
-    description: "Use the Time Calculator to compute differences between dates and times. Accurate, free online tool for planning, studies, projects, and duration calculations.",
+    title: "Time Calculation Made Easy | Powerful Tool",
+    description: "Powerful time addition calculator to add hours, minutes, and seconds fast. Perfect seconds calculator for accurate time adding.",
     keywords: "time calculator, date difference, duration tool, online time, planning calculator, study tool, project duration, free time calculator"
   },
   br: {

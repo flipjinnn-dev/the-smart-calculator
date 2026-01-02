@@ -21,9 +21,9 @@ const percentagecalculatorMeta = {
     keywords: "kalkulator procentowy, procenty stosunki, obliczenia zmiany, online procent, matematyka finanse, darmowe narzędzie procentowe, narzędzie stosunek, estymator zmiany"
   },
   de: {
-    title: "Prozentrechner – Prozent einfach & schnell online berechnen",
-    description: "Berechne mit dem Prozentrechner Prozente, Prozentwerte & Veränderungen. Schnell, genau & kostenlos – ideal für Schule, Beruf & Alltag!",
-    keywords: "prozentrechner, prozente verhältnisse, ändern berechnung, online prozent, math finanz, kostenloser prozent tool, verhältnis tool, ändern schätzer"
+    title: "Prozentrechner – Schnell & Einfach Berechnen",
+    description: "Prozent Rechner für schnelle, einfache Berechnungen. Spare Zeit und erhalte sofort starke Ergebnisse online.",
+    keywords: "prozentrechner, prozent rechner, prozentrechner online, rechner prozent, prozent berechnen, prozentrechnung online, prozent ausrechnen, prozent zurückrechnen"
   }
 ,
   es: {

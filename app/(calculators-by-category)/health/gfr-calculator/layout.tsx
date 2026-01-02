@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for gfr-calculator
 const gfrcalculatorMeta = {
   en: {
-    title: "GFR Calculator – Filtration Rate Online | TheSmartCalculator",
-    description: "Use the GFR Calculator to estimate Glomerular Filtration Rate from creatinine. Accurate, free online tool for kidney health monitoring and medical assessment.",
+    title: "GFR Calculator: Fast & Accurate Results",
+    description: "Use the best GFR calculator online to check GFR by age quickly. Get accurate kidney insights in seconds with our tool.",
     keywords: "gfr calculator, glomerular filtration rate, creatinine tool, online gfr, kidney health, medical assessment, free gfr tool, rate estimate"
   },
   br: {

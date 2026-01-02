@@ -6,9 +6,9 @@ import Script from "next/script";
 // Multilingual SEO metadata for currency-calculator
 const currencycalculatorMeta = {
   en: {
-    title: "Currency Calculator – Conversion Rates Online | TheSmartCalculator",
-    description: "Use the Currency Calculator to convert between currencies with real-time rates. Accurate, free online tool for travel, business, and financial conversions.",
-    keywords: "currency calculator, conversion rates, real time rates, online currency, travel business, financial converter, free currency tool, exchange rates"
+    title: "Instant Currency Converter Calculator",
+    description: "Get accurate converter rate calculator results with our current currency converter calculator—fast, reliable, and easy to use.",
+    keywords: "currency converter calculator, conversion rates money calculator, currencies exchange rate calculator, converter rate calculator, current currency converter calculator, financial converter, free currency tool, exchange rates"
   },
   br: {
     title: "Currency Calculator – Conversion Rates Online | TheSmartCalcul",
