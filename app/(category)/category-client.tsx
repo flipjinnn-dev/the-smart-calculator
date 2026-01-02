@@ -1,25 +1,24 @@
 "use client"
 
 import Link from "next/link"
-import { ArrowLeft, Calculator, TrendingUp } from "lucide-react"
+import { ArrowLeft, Calculator as CalculatorIcon, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data"
+import type { Calculator } from "@/lib/calculator-data"
 
 interface CategoryClientProps {
   categoryId: string;
   content: any;
+  allCalculators: Calculator[];
+  popularCalculators: Calculator[];
 }
 
-export default function CategoryClient({ categoryId, content }: CategoryClientProps) {
+export default function CategoryClient({ categoryId, content, allCalculators, popularCalculators }: CategoryClientProps) {
   const contentData = content || {
     name: categoryId.charAt(0).toUpperCase() + categoryId.slice(1),
     description: `Free ${categoryId} calculators`,
     slug: categoryId
   };
-
-  const allCalculators = getCalculatorsByCategory(categoryId);
-  const popularCalculators = getPopularCalculatorsByCategory(categoryId);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
@@ -33,7 +32,7 @@ export default function CategoryClient({ categoryId, content }: CategoryClientPr
 
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl mb-6 shadow-xl">
-            <Calculator className="w-10 h-10 text-white" />
+            <CalculatorIcon className="w-10 h-10 text-white" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             {contentData.name}
@@ -69,7 +68,7 @@ export default function CategoryClient({ categoryId, content }: CategoryClientPr
 
         <div>
           <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-            <Calculator className="mr-3 h-6 w-6 text-blue-600" />
+            <CalculatorIcon className="mr-3 h-6 w-6 text-blue-600" />
             All {contentData.name}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
