@@ -461,6 +461,7 @@ export const urlMappings = {
     'calculadora-subnet': 'ip-subnet-calculator',
     'calculadora-de-calorias-de-rucking': 'rucking-calorie-calculator',
     'calculadora-de-curva-de-raiz-cuadrada': 'square-root-curve-calculator',
+    'calculadora-de-costos-de-remolque': 'towing-estimate-calculator',
   }
 } as const;
 
