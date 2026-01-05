@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { usePathname } from "next/navigation"
 import type { Metadata } from "next"
 import Script from "next/script"
 import Link from "next/link"
@@ -9,62 +8,18 @@ import Image from "next/image"
 import { Calendar, User, ArrowRight, BookOpen } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { getAllBlogPosts, type BlogPost } from "@/lib/sanity/client"
-import { getCurrentLanguage } from "@/lib/url-utils"
 
 const blogContent = {
-  en: {
-    title: "Blog",
-    subtitle: "Insights, tips, and guides from our experts",
-    readMore: "Read More",
-    publishedOn: "Published on",
-    by: "by",
-    noPosts: "No blog posts available yet.",
-    loading: "Loading blog posts...",
-  },
-  br: {
-    title: "Blog",
-    subtitle: "Insights, dicas e guias de nossos especialistas",
-    readMore: "Leia Mais",
-    publishedOn: "Publicado em",
-    by: "por",
-    noPosts: "Nenhuma postagem de blog disponível ainda.",
-    loading: "Carregando postagens do blog...",
-  },
-  pl: {
-    title: "Blog",
-    subtitle: "Spostrzeżenia, wskazówki i przewodniki od naszych ekspertów",
-    readMore: "Czytaj Więcej",
-    publishedOn: "Opublikowano",
-    by: "przez",
-    noPosts: "Brak dostępnych postów na blogu.",
-    loading: "Ładowanie postów na blogu...",
-  },
-  de: {
-    title: "Blog",
-    subtitle: "Einblicke, Tipps und Anleitungen von unseren Experten",
-    readMore: "Weiterlesen",
-    publishedOn: "Veröffentlicht am",
-    by: "von",
-    noPosts: "Noch keine Blog-Beiträge verfügbar.",
-    loading: "Blog-Beiträge werden geladen...",
-  },
-  es: {
-    title: "Blog",
-    subtitle: "Perspectivas, consejos y guías de nuestros expertos",
-    readMore: "Leer Más",
-    publishedOn: "Publicado el",
-    by: "por",
-    noPosts: "Aún no hay publicaciones de blog disponibles.",
-    loading: "Cargando publicaciones del blog...",
-  },
+  title: "Blog",
+  subtitle: "Insights, tips, and guides from our experts",
+  readMore: "Read More",
+  publishedOn: "Published on",
+  by: "by",
+  noPosts: "No blog posts available yet.",
+  loading: "Loading blog posts...",
 }
 
 export default function BlogsPage() {
-  const pathname = usePathname()
-  const pathParts = pathname.split('/')
-  const potentialLang = pathParts[1]
-  const validLanguages = ['br', 'pl', 'de', 'es']
-  const language = validLanguages.includes(potentialLang) ? potentialLang : 'en'
   const [posts, setPosts] = useState<BlogPost[]>([])
   const [loading, setLoading] = useState(true)
 
@@ -72,7 +27,7 @@ export default function BlogsPage() {
     const fetchPosts = async () => {
       setLoading(true)
       try {
-        const blogPosts = await getAllBlogPosts(language)
+        const blogPosts = await getAllBlogPosts()
         setPosts(blogPosts)
       } catch (error) {
         console.error("Error fetching blog posts:", error)
@@ -82,15 +37,10 @@ export default function BlogsPage() {
     }
 
     fetchPosts()
-  }, [language])
-
-  const content = blogContent[language as keyof typeof blogContent] || blogContent.en
+  }, [])
 
   const getBlogUrl = (slug: string) => {
-    if (language === "en") {
-      return `/${slug}`
-    }
-    return `/${language}/${slug}`
+    return `/${slug}`
   }
 
   const formatDate = (dateString: string) => {
@@ -101,23 +51,15 @@ export default function BlogsPage() {
       day: 'numeric' 
     }
     
-    const localeMap: Record<string, string> = {
-      en: 'en-US',
-      br: 'pt-BR',
-      pl: 'pl-PL',
-      de: 'de-DE',
-      es: 'es-ES',
-    }
-    
-    return date.toLocaleDateString(localeMap[language] || 'en-US', options)
+    return date.toLocaleDateString('en-US', options)
   }
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    name: content.title,
-    description: content.subtitle,
-    url: `https://www.thesmartcalculator.com${language === 'en' ? '' : `/${language}`}/blogs`,
+    name: blogContent.title,
+    description: blogContent.subtitle,
+    url: "https://www.thesmartcalculator.com/blogs",
     blogPost: posts.map((post) => ({
       "@type": "BlogPosting",
       headline: post.title,
@@ -144,8 +86,8 @@ export default function BlogsPage() {
                 <BookOpen className="w-10 h-10 text-white" />
               </div>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">{content.title}</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{content.subtitle}</p>
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">{blogContent.title}</h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{blogContent.subtitle}</p>
           </div>
         </section>
 
@@ -153,11 +95,11 @@ export default function BlogsPage() {
           <div className="max-w-7xl mx-auto">
             {loading ? (
               <div className="text-center py-20">
-                <p className="text-xl text-gray-600">{content.loading}</p>
+                <p className="text-xl text-gray-600">{blogContent.loading}</p>
               </div>
             ) : posts.length === 0 ? (
               <div className="text-center py-20">
-                <p className="text-xl text-gray-600">{content.noPosts}</p>
+                <p className="text-xl text-gray-600">{blogContent.noPosts}</p>
               </div>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -202,7 +144,7 @@ export default function BlogsPage() {
                         href={getBlogUrl(post.slug)}
                         className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-semibold group-hover:gap-3 transition-all"
                       >
-                        {content.readMore}
+                        {blogContent.readMore}
                         <ArrowRight className="w-4 h-4" />
                       </Link>
                     </CardContent>

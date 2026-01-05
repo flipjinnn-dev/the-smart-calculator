@@ -3,7 +3,6 @@ import { blogPostsQuery, blogPostBySlugQuery, allBlogSlugsQuery } from './querie
 
 export interface BlogPost {
   _id: string;
-  blogId: string;
   title: string;
   slug: string;
   excerpt: string;
@@ -24,9 +23,9 @@ export interface BlogPost {
   keywords?: string;
 }
 
-export async function getAllBlogPosts(language: string = 'en'): Promise<BlogPost[]> {
+export async function getAllBlogPosts(): Promise<BlogPost[]> {
   try {
-    const posts = await client.fetch(blogPostsQuery(language), { language });
+    const posts = await client.fetch(blogPostsQuery());
     return posts || [];
   } catch (error) {
     console.error('Error fetching blog posts:', error);
@@ -34,9 +33,9 @@ export async function getAllBlogPosts(language: string = 'en'): Promise<BlogPost
   }
 }
 
-export async function getBlogPostBySlug(slug: string, language: string = 'en'): Promise<BlogPost | null> {
+export async function getBlogPostBySlug(slug: string): Promise<BlogPost | null> {
   try {
-    const post = await client.fetch(blogPostBySlugQuery(language), { slug, language });
+    const post = await client.fetch(blogPostBySlugQuery(), { slug });
     return post || null;
   } catch (error) {
     console.error('Error fetching blog post:', error);
@@ -44,7 +43,7 @@ export async function getBlogPostBySlug(slug: string, language: string = 'en'): 
   }
 }
 
-export async function getAllBlogSlugs(): Promise<Array<{ blogId: string; enSlug?: string; brSlug?: string; plSlug?: string; deSlug?: string; esSlug?: string }>> {
+export async function getAllBlogSlugs(): Promise<Array<{ _id: string; slug: string }>> {
   try {
     const slugs = await client.fetch(allBlogSlugsQuery);
     return slugs || [];

@@ -11,6 +11,29 @@ export default function Header() {
   const pathname = usePathname()
   const [language, setLanguage] = useState("en")
 
+  // Check if current page is a blog page or blog post
+  // Blog listing: /blogs or /br/blogs etc.
+  // Blog posts: /my-slug or /br/my-slug (root-level slugs)
+  const isBlogListingPage = pathname.includes('/blog')
+  
+  // Blog posts are at root level with just slug (no category prefix)
+  // NOT: /, /br, /pl, /de, /es (language roots)
+  // NOT: /physics/, /health/, /maths/, /financial/, etc. (calculator categories)
+  const isBlogPostPage = (() => {
+    const pathWithoutLang = pathname.replace(/^\/(br|pl|de|es)/, '') || '/'
+    const segments = pathWithoutLang.split('/').filter(Boolean)
+    
+    // If exactly 1 segment and not a known category/page
+    if (segments.length === 1) {
+      const knownPages = ['blogs', 'about', 'contact', 'privacy', 'terms']
+      const categories = ['physics', 'health', 'maths', 'financial', 'construction', 'food', 'sports', 'other']
+      return !knownPages.includes(segments[0]) && !categories.includes(segments[0])
+    }
+    return false
+  })()
+  
+  const isBlogPage = isBlogListingPage || isBlogPostPage
+  
   // Extract language from pathname
   useEffect(() => {
     if (pathname) {
@@ -65,23 +88,25 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Language Selector */}
-            <div className="relative">
-              <label htmlFor="language-selector" className="sr-only">Select Language</label>
-              <select
-                id="language-selector"
-                value={language}
-                onChange={(e) => changeLanguage(e.target.value)}
-                className="bg-white border border-gray-300 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                aria-label="Select Language"
-              >
-                {languages.map((lang) => (
-                  <option key={lang.code} value={lang.code}>
-                    {lang.name}
-                  </option>
-                ))}
-              </select>
-            </div>
+            {/* Language Selector - Hidden on blog pages */}
+            {!isBlogPage && (
+              <div className="relative">
+                <label htmlFor="language-selector" className="sr-only">Select Language</label>
+                <select
+                  id="language-selector"
+                  value={language}
+                  onChange={(e) => changeLanguage(e.target.value)}
+                  className="bg-white border border-gray-300 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  aria-label="Select Language"
+                >
+                  {languages.map((lang) => (
+                    <option key={lang.code} value={lang.code}>
+                      {lang.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
           </div>
         </div>
       </header>

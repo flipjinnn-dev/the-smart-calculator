@@ -6,14 +6,10 @@ import { reverseUrlMappings } from "@/middleware";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const validLanguages = ['br', 'pl', 'de', 'es'];
-  const language = langHeader || 'en';
 
-  // Fetch blog post to get metadata
+  // Fetch blog post to get metadata (English only)
   const { getBlogPostBySlug } = await import("@/lib/sanity/client");
-  const post = await getBlogPostBySlug(slug, language);
+  const post = await getBlogPostBySlug(slug);
 
   if (!post) {
     return {
@@ -26,44 +22,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const metaDescription = post.metaDescription || post.excerpt;
   const keywords = post.keywords || "";
 
-  // Get all slugs for this blog post to generate hreflang tags
-  const allBlogSlugs = await getAllBlogSlugs();
-  const currentBlog = allBlogSlugs.find((blog) => 
-    blog.enSlug === slug || 
-    blog.brSlug === slug || 
-    blog.plSlug === slug || 
-    blog.deSlug === slug || 
-    blog.esSlug === slug
-  );
-
   const baseUrl = 'https://www.thesmartcalculator.com';
-  
-  // Generate canonical URL based on current language
-  let canonicalUrl = `${baseUrl}/${slug}`;
-  if (language !== 'en') {
-    canonicalUrl = `${baseUrl}/${language}/${slug}`;
-  }
-
-  // Generate hreflang alternate URLs
-  const alternateLanguages: Record<string, string> = {};
-  
-  if (currentBlog) {
-    if (currentBlog.enSlug) {
-      alternateLanguages['en'] = `${baseUrl}/${currentBlog.enSlug}`;
-    }
-    if (currentBlog.brSlug) {
-      alternateLanguages['pt-BR'] = `${baseUrl}/br/${currentBlog.brSlug}`;
-    }
-    if (currentBlog.plSlug) {
-      alternateLanguages['pl'] = `${baseUrl}/pl/${currentBlog.plSlug}`;
-    }
-    if (currentBlog.deSlug) {
-      alternateLanguages['de'] = `${baseUrl}/de/${currentBlog.deSlug}`;
-    }
-    if (currentBlog.esSlug) {
-      alternateLanguages['es'] = `${baseUrl}/es/${currentBlog.esSlug}`;
-    }
-  }
+  const canonicalUrl = `${baseUrl}/${slug}`;
 
   return {
     title: metaTitle,
@@ -71,7 +31,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     keywords: keywords,
     alternates: {
       canonical: canonicalUrl,
-      languages: alternateLanguages,
+      languages: {
+        'en': canonicalUrl,
+        'x-default': canonicalUrl,
+      },
     },
     openGraph: {
       title: metaTitle,
@@ -80,6 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url: canonicalUrl,
       images: post.featuredImage ? [{ url: post.featuredImage }] : [],
       publishedTime: post.publishedAt,
+      locale: 'en_US',
     },
     twitter: {
       card: "summary_large_image",
@@ -98,24 +62,17 @@ export default async function BlogPostLayout({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const validLanguages = ['br', 'pl', 'de', 'es'];
-  const language = langHeader || 'en';
 
-  // Fetch blog post for JSON-LD
+  // Fetch blog post for JSON-LD (English only)
   const { getBlogPostBySlug } = await import("@/lib/sanity/client");
-  const post = await getBlogPostBySlug(slug, language);
+  const post = await getBlogPostBySlug(slug);
 
   if (!post) {
     return <>{children}</>;
   }
 
   const baseUrl = 'https://www.thesmartcalculator.com';
-  let blogUrl = `${baseUrl}/${slug}`;
-  if (language !== 'en') {
-    blogUrl = `${baseUrl}/${language}/${slug}`;
-  }
+  const blogUrl = `${baseUrl}/${slug}`;
 
   const jsonLdSchema = {
     "@context": "https://schema.org",
@@ -124,6 +81,7 @@ export default async function BlogPostLayout({
     "description": post.excerpt,
     "image": post.featuredImage || "",
     "datePublished": post.publishedAt,
+    "inLanguage": "en-US",
     "author": {
       "@type": "Person",
       "name": post.author?.name || "Smart Calculator Team",
