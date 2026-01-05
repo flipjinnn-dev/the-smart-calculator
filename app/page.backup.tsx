@@ -487,7 +487,7 @@ export default function HomePage() {
               <div className="space-y-6 md:space-y-8">
                 <h1
                   className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 leading-tight"
-                  dangerouslySetInnerHTML={{ __html: contentData.hero.title || "Your life in <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">90+ free</span> calculators" }}
+                  dangerouslySetInnerHTML={{ __html: contentData.hero.title || "Your life in <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">100+ free</span> calculators" }}
                 >
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 max-w-md md:max-w-lg mx-auto md:mx-0">
@@ -889,7 +889,7 @@ export default function HomePage() {
 
               <div className="grid grid-cols-2 gap-4 md:gap-6">
                 <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
-                  <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-1">90+</div>
+                  <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-1">100+</div>
                   <div className="text-sm text-gray-300">{contentData.trustedBy?.stats?.freeCalculators || "Free Calculators"}</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">

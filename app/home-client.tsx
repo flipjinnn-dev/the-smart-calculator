@@ -16,13 +16,15 @@ import {
   MoreHorizontal,
   Beef,
   ChevronRight,
-  CircleCheck
+  CircleCheck,
+  ArrowRight
 } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import SearchBar from "@/components/search-bar"
 import { getCalculatorCount, getCalculatorByName, calculators } from "@/lib/calculator-data"
 import { getLocalizedCategoryUrl, getLocalizedCalculatorUrl } from "@/lib/url-utils"
+import HomepageScientificCalculator from "@/components/homepage-scientific-calculator"
 
 // Define category icons mapping
 const categoryIcons: Record<string, React.ComponentType<any>> = {
@@ -445,168 +447,147 @@ export default function HomePage({ content, language }: HomeClientProps) {
         <meta name="x-language" content={language} />
       </Head>
 
-      <div className="min-h-screen bg-white">
-        <section className="relative py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50/80 via-blue-50/80 to-red-50/80 overflow-hidden">
-          <div className="absolute hidden md:block inset-0 overflow-hidden h-[300px] md:h-[60vh] opacity-[0.5]">
-            <div className="absolute -top-10 -left-10 w-40 h-40 bg-gradient-to-br from-green-400/30 to-green-600/30 rounded-full blur-xl"></div>
-            <div className="absolute top-32 left-32 w-24 h-24 bg-gradient-to-br from-blue-400/40 to-blue-600/40 rounded-full blur-lg"></div>
-            <div className="absolute -bottom-16 -right-16 w-56 h-56 bg-gradient-to-br from-red-400/25 mb-[82px] to-red-600/25 rounded-full blur-2xl"></div>
-            <div className="absolute bottom-32 right-40 w-32 h-32 bg-gradient-to-br from-green-400/30 to-blue-500/30 rounded-full blur-xl"></div>
-
-            <div className="absolute top-20 right-20 w-6 h-6 bg-gradient-to-r from-green-500 to-blue-500 rounded transform rotate-45 opacity-60"></div>
-            <div className="absolute bottom-40 left-40 w-4 h-4 bg-gradient-to-r from-blue-500 to-red-500 rounded-full opacity-50"></div>
-            <div className="absolute top-1/2 left-20 w-8 h-8 border-2 border-green-400/40 rounded transform rotate-12"></div>
-          </div>
-
-          <div className="relative max-w-7xl mx-auto">
-            <div className="text-center md:grid md:grid-cols-2 md:gap-20 md:items-center md:min-h-[500px] md:text-left space-y-10 md:space-y-0">
-              {/* Left side - Hero text */}
-              <div className="space-y-6 md:space-y-8">
-                <h1
-                  className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 leading-tight"
-                  dangerouslySetInnerHTML={{ __html: contentData.hero.title || "Your life in <span class=\"bg-gradient-to-r from-green-600 via-blue-600 to-red-600 bg-clip-text text-transparent\">90+ free</span> calculators" }}
-                >
-                </h1>
-                <p className="text-lg md:text-xl text-gray-600 max-w-md md:max-w-lg mx-auto md:mx-0">
-                  <span className="hidden md:inline">
-                    {contentData.hero.description || "From financial planning to health tracking, discover powerful calculation tools that make complex math simple and accessible."}
-                  </span>
-                </p>
-              </div>
-
-              {/* Right side - Search bar */}
-              <div className="flex justify-center md:justify-end items-center" id="hero-search">
-                <div className="w-full max-w-md md:max-w-lg px-4 md:px-0">
-                  <div className="bg-white/90 md:bg-white/95 backdrop-blur-sm md:backdrop-blur-md rounded-2xl md:rounded-3xl p-4 md:p-8 shadow-lg md:shadow-2xl border border-white/20 md:border-white/30 hover:shadow-3xl transition-all duration-300">
-                    <div className="hidden md:block mb-4">
-                      <h2 className="text-lg font-semibold text-gray-800 mb-2">{contentData.search.title || "Find your calculator"}</h2>
-                      <p className="text-sm text-gray-600">{contentData.search.placeholder || "Search from hundreds of free tools"}</p>
-                    </div>
-                    <SearchBar language={language} />
-                  </div>
-                </div>
-              </div>
+      <div className="min-h-screen bg-white font-sans selection:bg-blue-100 selection:text-blue-900">
+        {/* Hero Section */}
+        <section className="relative pt-12 pb-20 lg:pt-24 lg:pb-32 overflow-hidden bg-slate-50/30">
+            {/* Background Gradients */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute -top-[30%] -left-[10%] w-[70%] h-[70%] rounded-full bg-blue-100/40 blur-3xl mix-blend-multiply opacity-50" />
+                <div className="absolute -bottom-[30%] -right-[10%] w-[70%] h-[70%] rounded-full bg-purple-100/40 blur-3xl mix-blend-multiply opacity-50" />
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-white/60 rounded-full blur-3xl mix-blend-overlay" />
             </div>
-          </div>
 
-          <div className="w-full bg-white mt-16 -mb-16 rounded-t-3xl shadow-xl">
-            <section className="py-12 md:py-20 px-4 sm:px-6 lg:px-8">
-              <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-12">
-                  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{contentData.categories.title || "Calculator Categories"}</h2>
-                  <p className="text-lg hidden md:block text-gray-600">
-                    {contentData.categories.description || "Explore our comprehensive collection of specialized calculators"}
-                  </p>
-                </div>
-
-                <div className="space-y-2 md:space-y-0 md:grid md:grid-cols-1 md:sm:grid-cols-2 md:lg:grid-cols-3 md:xl:grid-cols-4 md:gap-8">
-                  {categories.map((category) => {
-                    const IconComponent = category.icon
-                    return (
-                      <Link key={category.id} href={category.href} className="block md:h-full">
-                        {/* Mobile List Layout */}
-                        <div className="flex md:hidden items-center justify-between p-4 bg-white border-b border-gray-100 hover:bg-gray-50 transition-colors duration-200 group">
-                          <div className="flex items-center space-x-4">
-                            <div className="w-8 h-8 flex items-center justify-center">
-                              <IconComponent className="w-5 h-5 text-blue-500" />
-                            </div>
-                            <div>
-                              <h3 className="font-medium text-gray-900 text-base group-hover:text-blue-600 transition-colors">
-                                {category.name}
-                              </h3>
-                            </div>
-                          </div>
-                          <div className="text-right">
-                            <span className="text-sm text-gray-500">{category.calculators} calculators</span>
-                          </div>
+            <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                    {/* Left Column: Content */}
+                    <div className="text-center lg:text-left space-y-8 max-w-2xl mx-auto lg:mx-0">
+                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-blue-100 text-blue-600 text-xs font-semibold uppercase tracking-wider shadow-sm animate-in fade-in slide-in-from-bottom-4 duration-500">
+                            <Sparkles className="w-3 h-3" />
+                            {contentData.header?.subtitle || "100% Free Online Calculators"}
                         </div>
+                        
+                        <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-gray-900 tracking-tight leading-[1.1] animate-in fade-in slide-in-from-bottom-5 duration-700 delay-100"
+                            dangerouslySetInnerHTML={{ __html: contentData.hero.title || "Your life in <span class=\"bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent\">100+ free</span> calculators" }}
+                        />
+                        <div className="animate-in fade-in slide-in-from-bottom-7 duration-700 delay-300">
+                            <div className="bg-white p-2 rounded-3xl shadow-xl shadow-blue-900/5 border border-blue-50 ring-1 ring-black/5 max-w-lg mx-auto lg:mx-0 relative z-20">
+                                 <SearchBar language={language} />
+                            </div>
+                            <p className="mt-4 text-sm text-gray-400 font-medium pl-2 flex items-center justify-center lg:justify-start gap-2">
+                                <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+                                {contentData.search.placeholder || "Try searching for 'BMI', 'Mortgage', or 'Percentage'"}
+                            </p>
+                        </div>
+                    </div>
 
-                        {/* Desktop Card Layout */}
-                        <Card className="hidden md:block h-full hover:shadow-xl transition-all duration-200 cursor-pointer group border border-gray-200 rounded-2xl p-8 hover:-translate-y-1 bg-white">
-                          <div className="text-center space-y-6">
-                            <div className="relative">
-                              <div
-                                className={`w-16 h-16 mx-auto rounded-2xl bg-gradient-to-r ${category.color} flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform duration-200`}
-                              >
-                                <IconComponent className="w-8 h-8 text-white" />
-                              </div>
-                            </div>
-                            <div>
-                              <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-200">
-                                {category.name}
-                              </h3>
-                              <p className="text-sm text-gray-600 mb-4 leading-relaxed">{category.description}</p>
-                              <div className="inline-flex items-center px-4 py-2 bg-gray-100 rounded-full">
-                                <span className="text-sm font-semibold text-gray-700">
-                                  {category.calculators} calculators
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                        </Card>
-                      </Link>
-                    )
-                  })}
+                    {/* Right Column: Scientific Calculator */}
+                    <div className="relative z-10 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 lg:translate-x-8">
+                        {/* Decorative elements behind calculator */}
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-[140%] bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-full blur-3xl -z-10" />
+                        <HomepageScientificCalculator language={language} />
+                    </div>
                 </div>
-              </div>
-            </section>
-          </div>
+            </div>
+        </section>
+
+        {/* Categories Grid */}
+        <section className="py-24 bg-gray-50/50">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center mb-16">
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+                        {contentData.categories.title || "Browse by Category"}
+                    </h2>
+                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                         {contentData.categories.description || "Find the perfect tool for your specific needs from our organized collections"}
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                    {categories.map((category, idx) => {
+                        const IconComponent = category.icon;
+                        return (
+                            <Link key={category.id} href={category.href} className="group">
+                                <div className="h-full bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-100 hover:-translate-y-1 relative overflow-hidden">
+                                    <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-br ${category.color} opacity-5 rounded-bl-full transition-opacity group-hover:opacity-10`} />
+                                    
+                                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${category.color} flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform duration-300`}>
+                                        <IconComponent className="w-6 h-6 text-white" />
+                                    </div>
+                                    
+                                    <h3 className="text-lg font-bold text-gray-900 mb-1 group-hover:text-blue-600 transition-colors">
+                                        {category.name}
+                                    </h3>
+                                    <p className="text-sm text-gray-500 mb-3 line-clamp-2">
+                                        {category.description}
+                                    </p>
+                                    
+                                    <div className="flex items-center text-xs font-semibold text-gray-400 group-hover:text-blue-500 transition-colors">
+                                        <span>{category.calculators} calculators</span>
+                                        <ArrowRight className="w-3 h-3 ml-1 group-hover:translate-x-0.5 transition-transform" />
+                                    </div>
+                                </div>
+                            </Link>
+                        )
+                    })}
+                </div>
+            </div>
         </section>
 
         {/* Popular Calculators */}
-        <section className="py-12 md:py-20 px-2 sm:px-6 lg:px-8 bg-gray-50">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-10 md:mb-16">
-              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">{contentData.popular.title || "Most Popular Calculators"}</h2>
-              <p className="text-base md:text-xl text-gray-600">{contentData.popular.description || "Our most frequently used calculation tools"}</p>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 animate-stagger">
-              {console.log('Content data calculators:', contentData.popular.calculators)}
-              {console.log('Content data length:', contentData.popular.calculators.length)}
-              {console.log('Using fallback?', contentData.popular.calculators.length === 0)}
-              {console.log('Calculators to use:', calculatorsToUse)}
-              {calculatorsToUse.map((calc: any, index: number) => {
-                // Get the English href directly from the data or use fallback
-                const englishHref = calc.href || "#";
-                const localizedHref = getLocalizedCalculatorUrl(englishHref, language);
+        <section className="py-24 bg-white relative">
+             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+                    <div className="max-w-2xl">
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+                            {contentData.popular.title || "Most Popular Tools"}
+                        </h2>
+                        <p className="text-lg text-gray-600">
+                             {contentData.popular.description || "The calculators our users rely on every day"}
+                        </p>
+                    </div>
+                </div>
 
-                // Debug logging
-                console.log(`Calculator: ${calc.name}`, {
-                  englishHref,
-                  language,
-                  localizedHref,
-                  calcData: calc
-                });
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                     {calculatorsToUse.map((calc: any, index: number) => {
+                        const englishHref = calc.href || "#";
+                        const localizedHref = getLocalizedCalculatorUrl(englishHref, language);
+                        
+                        return (
+                             <Link key={index} href={localizedHref !== "#" ? localizedHref : "#"}>
+                                <div className="group h-full bg-white rounded-2xl border border-gray-100 p-6 md:p-8 hover:shadow-xl hover:shadow-blue-900/5 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden">
+                                     <div className={`absolute top-0 left-0 w-1 h-full bg-gradient-to-b ${
+                                        index % 3 === 0 ? 'from-blue-500 to-blue-600' : 
+                                        index % 3 === 1 ? 'from-purple-500 to-purple-600' : 
+                                        'from-green-500 to-green-600'
+                                    }`} />
+                                    
+                                    <div className="flex items-start justify-between mb-4">
+                                        <div className={`px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider ${
+                                            index % 3 === 0 ? 'bg-blue-50 text-blue-600' : 
+                                            index % 3 === 1 ? 'bg-purple-50 text-purple-600' : 
+                                            'bg-green-50 text-green-600'
+                                        }`}>
+                                            {calc.category}
+                                        </div>
+                                    </div>
 
-                return (
-                  <Link key={index} href={localizedHref !== "#" ? localizedHref : "#"}>
-                    <Card className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 cursor-pointer border-0 shadow-lg overflow-hidden h-full flex flex-col">
-                      <div className={`h-2 ${index % 3 === 0 ? 'bg-gradient-to-r from-green-400 to-green-600' : index % 3 === 1 ? 'bg-gradient-to-r from-red-400 to-red-600' : 'bg-gradient-to-r from-blue-400 to-blue-600'}`}></div>
-                      <CardContent className="p-5 md:p-8 flex-1 flex flex-col">
-                        <div className="flex-1">
-                          <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-2 md:mb-3 group-hover:text-blue-600 transition-colors">
-                            {calc.name}
-                          </h3>
-                          <p className="text-gray-600 mb-2 md:mb-4 leading-relaxed text-sm md:text-base">
-                            {calc.description}
-                          </p>
-                          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
-                            {calc.category}
-                          </span>
-                        </div>
-                        <div className="flex items-center justify-between pt-4 md:pt-6 border-t border-gray-100 mt-4 md:mt-6">
-                          <span className="text-blue-600 font-semibold group-hover:translate-x-1 transition-transform">
-                            Calculate Now
-                          </span>
-                          <span className="text-blue-600 group-hover:translate-x-1 transition-transform">→</span>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </Link>
-                )
-              })}
-            </div>
-          </div>
+                                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                                        {calc.name}
+                                    </h3>
+                                    
+                                    <p className="text-gray-600 mb-6 leading-relaxed">
+                                        {calc.description}
+                                    </p>
+                                    
+                                    <div className="flex items-center text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors mt-auto">
+                                        Calculate Now <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                                    </div>
+                                </div>
+                             </Link>
+                        )
+                     })}
+                </div>
+             </div>
         </section>
 
         {/* Features Section */}
@@ -866,7 +847,7 @@ export default function HomePage({ content, language }: HomeClientProps) {
 
               <div className="grid grid-cols-2 gap-4 md:gap-6">
                 <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
-                  <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-1">90+</div>
+                  <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-1">100+</div>
                   <div className="text-sm text-gray-300">{contentData.trustedBy?.stats?.freeCalculators || "Free Calculators"}</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">

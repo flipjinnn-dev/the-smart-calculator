@@ -19,15 +19,26 @@ export default function Header() {
   // Blog posts are at root level with just slug (no category prefix)
   // NOT: /, /br, /pl, /de, /es (language roots)
   // NOT: /physics/, /health/, /maths/, /financial/, etc. (calculator categories)
+  // NOT: Other-category calculators at root level (age-calculator, gpa-calculator, etc.)
   const isBlogPostPage = (() => {
     const pathWithoutLang = pathname.replace(/^\/(br|pl|de|es)/, '') || '/'
     const segments = pathWithoutLang.split('/').filter(Boolean)
     
     // If exactly 1 segment and not a known category/page
     if (segments.length === 1) {
-      const knownPages = ['blogs', 'about', 'contact', 'privacy', 'terms']
+      const knownPages = ['blogs', 'about', 'contact', 'privacy', 'terms', 'other-calculators', 'studio']
       const categories = ['physics', 'health', 'maths', 'financial', 'construction', 'food', 'sports', 'other']
-      return !knownPages.includes(segments[0]) && !categories.includes(segments[0])
+      
+      // Other-category calculators at root level (without /other/ prefix)
+      const otherCalculators = [
+        'age-calculator', 'piecewise-function-calculator-grapher', 'enterprise-seo-roi-calculator',
+        'rpe-calculator', 'indiana-child-support-calculator', 'time-calculator', 'gpa-calculator',
+        'height-calculator', 'ip-subnet-calculator', 'towing-estimate-calculator'
+      ]
+      
+      return !knownPages.includes(segments[0]) && 
+             !categories.includes(segments[0]) && 
+             !otherCalculators.includes(segments[0])
     }
     return false
   })()
