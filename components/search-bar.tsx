@@ -126,7 +126,7 @@ export default function SearchBar({ language = "en", onFocusChange }: SearchBarP
 
   return (
     <div
-      className={`relative z-[50] w-full`}
+      className={`relative z-[100] w-full`}
       ref={searchRef}
     >
       <div className={`relative transition-all duration-300 ${isFocused ? 'scale-[1.02]' : 'scale-100'}`}>
@@ -180,10 +180,10 @@ export default function SearchBar({ language = "en", onFocusChange }: SearchBarP
         </form>
 
         {isOpen && (
-          <div className="absolute top-full left-0 right-0 pt-4 animate-in fade-in slide-in-from-top-2 duration-200">
-            <Card className="border-0 h-[350px] shadow-2xl rounded-2xl overflow-hidden backdrop-blur-xl bg-white/95 ring-1 ring-black/5">
-              <CardContent className="p-0">
-                <div className="max-h-[350px] overflow-y-auto custom-scrollbar">
+          <div className="absolute top-full left-0 right-0 pt-4 z-[100] pointer-events-auto animate-in fade-in slide-in-from-top-2 duration-200">
+            <Card className="border-0 h-[400px] pt-0 md:h-[350px]  shadow-2xl rounded-2xl overflow-hidden backdrop-blur-xl bg-white/95 ring-1 ring-black/5 pointer-events-auto">
+              <CardContent className="p-0 overflow-y-auto custom-scrollbar">
+                <div className="min-h-full">
                   {searchQuery.trim() === "" && (
                     <div className="sticky top-0 z-10 bg-white/95 backdrop-blur-md border-b border-gray-100 px-6 py-4 flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-blue-500" />

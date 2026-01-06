@@ -473,7 +473,7 @@ export default function HomePage({ content, language }: HomeClientProps) {
                             dangerouslySetInnerHTML={{ __html: contentData.hero.title || "Your life in <span class=\"bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent\">100+ free</span> calculators" }}
                         />
                         <div className="animate-in fade-in slide-in-from-bottom-7 duration-700 delay-300">
-                            <div className="bg-white p-2 rounded-3xl shadow-xl shadow-blue-900/5 border border-blue-50 ring-1 ring-black/5 max-w-lg mx-auto lg:mx-0 relative z-20">
+                            <div className="bg-white p-2 rounded-3xl shadow-xl shadow-blue-900/5 border border-blue-50 ring-1 ring-black/5 max-w-lg mx-auto lg:mx-0 relative z-[100]">
                                  <SearchBar language={language} onFocusChange={setIsSearchFocused} />
                             </div>
                             <p className="mt-4 text-sm text-gray-400 font-medium pl-2 flex items-center justify-center lg:justify-start gap-2">
@@ -484,7 +484,7 @@ export default function HomePage({ content, language }: HomeClientProps) {
                     </div>
 
                     {/* Right Column: Scientific Calculator */}
-                    <div className="relative z-10 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 lg:translate-x-8">
+                    <div className={`home-calc relative animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 lg:translate-x-8 transition-all duration-300 ${isSearchFocused ? 'lg:z-0 -z-10' : 'z-0'}`}>
                         {/* Decorative elements behind calculator */}
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-[140%] bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-full blur-3xl -z-10" />
                         <div className={`transition-opacity duration-300 ${isSearchFocused ? 'lg:opacity-100 opacity-0 pointer-events-none lg:pointer-events-auto' : 'opacity-100'}`}>
