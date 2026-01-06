@@ -12,9 +12,10 @@ import { calculatorsMeta } from "@/meta/calculators"
 
 interface SearchBarProps {
   language?: string
+  onFocusChange?: (focused: boolean) => void
 }
 
-export default function SearchBar({ language = "en" }: SearchBarProps) {
+export default function SearchBar({ language = "en", onFocusChange }: SearchBarProps) {
   const [isOpen, setIsOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
   const [isFocused, setIsFocused] = useState(false)
@@ -57,6 +58,7 @@ export default function SearchBar({ language = "en" }: SearchBarProps) {
       if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
         setIsOpen(false)
         setIsFocused(false)
+        onFocusChange?.(false)
       }
     }
 
@@ -64,7 +66,7 @@ export default function SearchBar({ language = "en" }: SearchBarProps) {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside)
     }
-  }, [])
+  }, [onFocusChange])
 
   useEffect(() => {
     if (searchQuery.trim() === "") {
@@ -150,6 +152,7 @@ export default function SearchBar({ language = "en" }: SearchBarProps) {
                 onFocus={() => {
                   setIsOpen(true)
                   setIsFocused(true)
+                  onFocusChange?.(true)
                 }}
                 className="pl-4 pr-12 py-7 w-full bg-transparent border-0 shadow-none focus-visible:ring-0 text-lg text-gray-800 placeholder:text-gray-400 h-auto"
               />
@@ -163,6 +166,8 @@ export default function SearchBar({ language = "en" }: SearchBarProps) {
                     onClick={() => {
                       setIsOpen(false)
                       setSearchQuery("")
+                      setIsFocused(false)
+                      onFocusChange?.(false)
                     }}
                     className="h-9 w-9 p-0 hover:bg-gray-100 rounded-full text-gray-400 hover:text-gray-600"
                   >
@@ -176,9 +181,9 @@ export default function SearchBar({ language = "en" }: SearchBarProps) {
 
         {isOpen && (
           <div className="absolute top-full left-0 right-0 pt-4 animate-in fade-in slide-in-from-top-2 duration-200">
-            <Card className="border-0 shadow-2xl rounded-2xl overflow-hidden backdrop-blur-xl bg-white/95 ring-1 ring-black/5">
+            <Card className="border-0 h-[350px] shadow-2xl rounded-2xl overflow-hidden backdrop-blur-xl bg-white/95 ring-1 ring-black/5">
               <CardContent className="p-0">
-                <div className="max-h-[450px] overflow-y-auto custom-scrollbar">
+                <div className="max-h-[350px] overflow-y-auto custom-scrollbar">
                   {searchQuery.trim() === "" && (
                     <div className="sticky top-0 z-10 bg-white/95 backdrop-blur-md border-b border-gray-100 px-6 py-4 flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-blue-500" />

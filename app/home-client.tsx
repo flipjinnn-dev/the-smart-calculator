@@ -1,5 +1,6 @@
 "use client"
 
+import { useState } from "react"
 import type { Metadata } from "next"
 import Head from "next/head"
 import Link from "next/link"
@@ -51,6 +52,8 @@ interface HomeClientProps {
 }
 
 export default function HomePage({ content, language }: HomeClientProps) {
+  const [isSearchFocused, setIsSearchFocused] = useState(false)
+
   // Use content or fallback to defaults
   const contentData = content || {
     meta: {
@@ -458,7 +461,7 @@ export default function HomePage({ content, language }: HomeClientProps) {
             </div>
 
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-flex-start">
                     {/* Left Column: Content */}
                     <div className="text-center lg:text-left space-y-8 max-w-2xl mx-auto lg:mx-0">
                         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-blue-100 text-blue-600 text-xs font-semibold uppercase tracking-wider shadow-sm animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -471,7 +474,7 @@ export default function HomePage({ content, language }: HomeClientProps) {
                         />
                         <div className="animate-in fade-in slide-in-from-bottom-7 duration-700 delay-300">
                             <div className="bg-white p-2 rounded-3xl shadow-xl shadow-blue-900/5 border border-blue-50 ring-1 ring-black/5 max-w-lg mx-auto lg:mx-0 relative z-20">
-                                 <SearchBar language={language} />
+                                 <SearchBar language={language} onFocusChange={setIsSearchFocused} />
                             </div>
                             <p className="mt-4 text-sm text-gray-400 font-medium pl-2 flex items-center justify-center lg:justify-start gap-2">
                                 <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
@@ -484,7 +487,9 @@ export default function HomePage({ content, language }: HomeClientProps) {
                     <div className="relative z-10 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 lg:translate-x-8">
                         {/* Decorative elements behind calculator */}
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-[140%] bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-full blur-3xl -z-10" />
-                        <HomepageScientificCalculator language={language} />
+                        <div className={`transition-opacity duration-300 ${isSearchFocused ? 'lg:opacity-100 opacity-0 pointer-events-none lg:pointer-events-auto' : 'opacity-100'}`}>
+                            <HomepageScientificCalculator language={language} />
+                        </div>
                     </div>
                 </div>
             </div>
