@@ -1,6 +1,3 @@
-"use client"
-
-import { useState, useEffect } from "react"
 import type { Metadata } from "next"
 import Script from "next/script"
 import Link from "next/link"
@@ -16,43 +13,47 @@ const blogContent = {
   publishedOn: "Published on",
   by: "by",
   noPosts: "No blog posts available yet.",
-  loading: "Loading blog posts...",
 }
 
-export default function BlogsPage() {
-  const [posts, setPosts] = useState<BlogPost[]>([])
-  const [loading, setLoading] = useState(true)
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://smartcalculator.com"
 
-  useEffect(() => {
-    const fetchPosts = async () => {
-      setLoading(true)
-      try {
-        const blogPosts = await getAllBlogPosts()
-        setPosts(blogPosts)
-      } catch (error) {
-        console.error("Error fetching blog posts:", error)
-      } finally {
-        setLoading(false)
-      }
-    }
+export const metadata: Metadata = {
+  title: "Blog - Smart Calculator | Insights, Tips & Guides",
+  description: "Explore our blog for expert insights, calculation tips, and comprehensive guides on using various calculators effectively.",
+  alternates: {
+    canonical: `${SITE_URL}/blogs`,
+  },
+  openGraph: {
+    title: "Blog - Smart Calculator",
+    description: "Explore our blog for expert insights, calculation tips, and comprehensive guides.",
+    url: `${SITE_URL}/blogs`,
+    siteName: "Smart Calculator",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog - Smart Calculator",
+    description: "Explore our blog for expert insights, calculation tips, and comprehensive guides.",
+  },
+}
 
-    fetchPosts()
-  }, [])
+const getBlogUrl = (slug: string) => {
+  return `/${slug}`
+}
 
-  const getBlogUrl = (slug: string) => {
-    return `/${slug}`
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString)
+  const options: Intl.DateTimeFormatOptions = { 
+    year: 'numeric', 
+    month: 'long', 
+    day: 'numeric' 
   }
+  return date.toLocaleDateString('en-US', options)
+}
 
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString)
-    const options: Intl.DateTimeFormatOptions = { 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
-    }
-    
-    return date.toLocaleDateString('en-US', options)
-  }
+export default async function BlogsPage() {
+  const posts = await getAllBlogPosts()
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -76,7 +77,11 @@ export default function BlogsPage() {
 
   return (
     <>
-      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <Script 
+        id="blog-schema"
+        type="application/ld+json" 
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} 
+      />
 
       <div className="min-h-screen bg-white">
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-purple-50">
@@ -93,11 +98,7 @@ export default function BlogsPage() {
 
         <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
-            {loading ? (
-              <div className="text-center py-20">
-                <p className="text-xl text-gray-600">{blogContent.loading}</p>
-              </div>
-            ) : posts.length === 0 ? (
+            {posts.length === 0 ? (
               <div className="text-center py-20">
                 <p className="text-xl text-gray-600">{blogContent.noPosts}</p>
               </div>

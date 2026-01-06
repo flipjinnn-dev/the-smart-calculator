@@ -1,95 +1,111 @@
-"use client"
-
-import { useState, useEffect } from "react"
-import { useParams, notFound } from "next/navigation"
+import { redirect } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
-import { Calendar, User, ArrowLeft, Clock } from "lucide-react"
+import { Calendar, ArrowLeft, Clock } from "lucide-react"
 import { getBlogPostBySlug, type BlogPost } from "@/lib/sanity/client"
 import { PortableText } from "@/components/portable-text"
+import type { Metadata } from "next"
 
 const blogContent = {
   backToBlogs: "Back to Blogs",
   by: "by",
   publishedOn: "Published on",
   readTime: "min read",
-  loading: "Loading...",
-  notFound: "Blog post not found",
 }
 
-export default function BlogPostPage() {
-  const params = useParams()
-  const slug = params?.slug as string
-  const [post, setPost] = useState<BlogPost | null>(null)
-  const [loading, setLoading] = useState(true)
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://smartcalculator.com"
 
-  useEffect(() => {
-    const fetchPost = async () => {
-      if (!slug) return
-      
-      setLoading(true)
-      try {
-        const blogPost = await getBlogPostBySlug(slug)
-        if (!blogPost) {
-          notFound()
-        }
-        setPost(blogPost)
-      } catch (error) {
-        console.error("Error fetching blog post:", error)
-        notFound()
-      } finally {
-        setLoading(false)
-      }
-    }
+interface BlogPostPageProps {
+  params: { slug: string }
+}
 
-    fetchPost()
-  }, [slug])
-
-  const getBlogsUrl = () => {
-    return "/blogs"
-  }
-
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString)
-    const options: Intl.DateTimeFormatOptions = { 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
-    }
-    
-    return date.toLocaleDateString('en-US', options)
-  }
-
-  const calculateReadTime = (body: any) => {
-    if (!body) return 5
-    const text = JSON.stringify(body)
-    const words = text.split(/\s+/).length
-    return Math.ceil(words / 200)
-  }
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <p className="text-xl text-gray-600">{blogContent.loading}</p>
-      </div>
-    )
-  }
-
+export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params
+  const post = await getBlogPostBySlug(slug)
+  
   if (!post) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <p className="text-xl text-gray-600">{blogContent.notFound}</p>
-      </div>
-    )
+    return {
+      title: "Blog Not Found",
+      description: "The requested blog post could not be found.",
+    }
+  }
+
+  const canonicalUrl = `${SITE_URL}/blogs/${slug}`
+  const ogImage = post.featuredImage || `${SITE_URL}/og-image.jpg`
+
+  return {
+    title: post.metaTitle || post.title,
+    description: post.metaDescription || post.excerpt,
+    keywords: post.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: post.metaTitle || post.title,
+      description: post.metaDescription || post.excerpt,
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: post.featuredImageAlt || post.title,
+        },
+      ],
+      locale: "en_US",
+      type: "article",
+      publishedTime: post.publishedAt,
+      authors: post.author?.name ? [post.author.name] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.metaTitle || post.title,
+      description: post.metaDescription || post.excerpt,
+      images: [ogImage],
+    },
+  }
+}
+
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString)
+  const options: Intl.DateTimeFormatOptions = { 
+    year: 'numeric', 
+    month: 'long', 
+    day: 'numeric' 
+  }
+  return date.toLocaleDateString('en-US', options)
+}
+
+const calculateReadTime = (body: any) => {
+  if (!body) return 5
+  const text = JSON.stringify(body)
+  const words = text.split(/\s+/).length
+  return Math.ceil(words / 200)
+}
+
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params
+  let post: BlogPost | null = null
+  
+  try {
+    post = await getBlogPostBySlug(slug)
+  } catch (error) {
+    console.error(`Error fetching blog post with slug "${slug}":`, error)
+    // Don't redirect on error, show error message instead
+  }
+  
+  // Only redirect if blog truly doesn't exist (not on fetch errors)
+  if (!post) {
+    console.log(`Blog post not found for slug: ${slug}`)
+    redirect("/")
   }
 
   return (
-    <>
-
-      <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
         <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <Link
-            href={getBlogsUrl()}
+            href="/blogs"
             className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 mb-8 font-semibold"
           >
             <ArrowLeft className="w-4 h-4" />
@@ -177,6 +193,5 @@ export default function BlogPostPage() {
           )}
         </article>
       </div>
-    </>
   )
 }

@@ -27,7 +27,18 @@ export default function Header() {
     // If exactly 1 segment and not a known category/page
     if (segments.length === 1) {
       const knownPages = ['blogs', 'about', 'contact', 'privacy', 'terms', 'other-calculators', 'studio']
-      const categories = ['physics', 'health', 'maths', 'financial', 'construction', 'food', 'sports', 'other']
+      const categories = [
+        // English
+        'physics', 'health', 'maths', 'financial', 'construction', 'food', 'sports', 'other',
+        // Portuguese (br)
+        'fisica', 'saude', 'matematica', 'financeiro', 'construcao', 'alimento', 'esportes', 'outro',
+        // Polish (pl)
+        'fizyka', 'zdrowie', 'matematyka', 'finansowy', 'budowa', 'zywnosc', 'lekkoatletyka', 'inne',
+        // German (de)
+        'physik', 'gesundheit', 'mathe', 'finanziell', 'konstruktion', 'essen', 'sport', 'andere',
+        // Spanish (es)
+        'fisica', 'salud', 'matematicas', 'financiero', 'construccion', 'alimentos', 'deportes', 'otra'
+      ]
       
       // Other-category calculators at root level (without /other/ prefix)
       const otherCalculators = [
