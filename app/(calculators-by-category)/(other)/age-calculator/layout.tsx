@@ -12,7 +12,7 @@ const agecalculatorMeta = {
   },
   br: {
     title: "Calculadora de Idade – Idade Exata Online | TheSmartCalculator",
-    description: "Use a age  – exact age online tool | thesmartcalculator para obter resultados rápidos e precisos. Entradas simples, saídas claras e contexto útil — grátis e fác.",
+    description: "Use a age – exact age online tool | thesmartcalculator para obter resultados rápidos e precisos. Entradas simples, saídas claras e contexto útil — grátis e fác.",
     keywords: "calculadora de idade, calcular idade, idade exata, idade data nascimento, ferramenta idade online, idade em meses, idade em dias, calculadora idade gratuita"
   },
   pl: {
