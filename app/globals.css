@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
+/* Theme variants */
 
 :root {
   --background: oklch(1 0 0);
@@ -74,7 +74,8 @@
   --sidebar-ring: oklch(0.439 0 0);
 }
 
-@theme inline {
+/* Theme inline variables */
+:root {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -113,13 +114,15 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+/* Base styles */
+* {
+  border-color: var(--border);
+  outline-color: rgba(var(--ring), 0.5);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 /* Custom animations */
@@ -230,6 +233,56 @@
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
+/* Wordle game animations */
+@keyframes flip-reveal {
+  0% {
+    transform: rotateX(0deg);
+    background-color: transparent;
+  }
+  50% {
+    transform: rotateX(90deg);
+    background-color: transparent;
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.flip-reveal {
+  animation: flip-reveal 0.6s ease forwards;
+  transform-style: preserve-3d;
+}
+
+.shake-animation {
+  animation: shake 0.6s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.animate-shake {
+  animation: shake 0.6s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0);
+  }
+  50% {
+    transform: rotateX(-90deg);
+  }
+  100% {
+    transform: rotateX(0);
+  }
+}
+
+.animate-flip {
+  animation: flip 0.6s ease-in-out;
+}
+
 /* Smooth transitions */
 * {
   transition: all 0.2s ease;
@@ -242,21 +295,31 @@
 
 /* Beautiful table styles for HTML content from Sanity */
 .html-content table {
-  @apply min-w-full border-collapse my-8;
+  min-width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .html-content th {
-  @apply border border-gray-300 px-4 py-3 text-left font-semibold text-gray-900 bg-blue-50;
+  border: 1px solid #e5e7eb;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #111827;
+  background-color: #eff6ff;
 }
 
 .html-content td {
-  @apply border border-gray-300 px-4 py-3 text-gray-700;
+  border: 1px solid #e5e7eb;
+  padding: 0.75rem 1rem;
+  color: #374151;
 }
 
 .html-content tr:nth-child(even) {
-  @apply bg-gray-50;
+  background-color: #f9fafb;
 }
 
 .html-content tr:hover {
-  @apply bg-blue-50;
+  background-color: #eff6ff;
 }
