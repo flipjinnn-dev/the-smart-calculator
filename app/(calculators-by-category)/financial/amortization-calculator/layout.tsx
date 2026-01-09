@@ -5,29 +5,29 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for amortization-calculator
 const amortizationcalculatorMeta = {
   en: {
-    title: "Amortization Calculator – Loan Schedules Online | TheSmartCalculator",
-    description: "Use the Amortization Calculator to generate detailed loan schedules with payments, interest, and balance. Accurate, free online tool for financial planning and debt management.",
+    title: "Amortization Calculator – Calculate Loan Payments Fast",
+    description: "Use our Amortization Calculator to plan loans, see monthly payments, total interest, and full amortization schedule. Calculate your loan now!",
     keywords: "amortization calculator, loan schedules, payment details, interest calculation, online amortization, debt tool, free loan calculator, balance tracker"
   },
   br: {
-    title: "Calculadora de Amortização – Parcelas Juros | TheSmartCalculator",
-    description: "Use a Calculadora de Amortização para calcular parcelas, juros e saldo devedor. Planeje seus financiamentos com precisão e facilidade online em detalhes completos.",
+    title: "Calculadora de Amortização – Planeje Seus Pagamentos",
+    description: "Use nossa calculadora de amortização para ver parcelas, juros e saldo do empréstimo. Calcule agora e organize seus pagamentos!",
     keywords: "calculadora amortização, calcular parcelas, juros saldo, planejamento financiamentos, online amortização, precisa tool, detalhada calculadora"
   },
   pl: {
-    title: "Kalkulator Amortyzacji – Oblicz Online | TheSmartCalculator",
-    description: "Użyj kalkulatora amortyzacji online, aby obliczyć koszt i wartość środka trwałego. Proste, dokładne i darmowe narzędzie finansowe dla firm i planowania.",
+    title: "Kalkulator Amortyzacji – Oblicz Raty Szybko",
+    description: "Użyj naszego kalkulatora amortyzacji, aby zobaczyć raty, odsetki i harmonogram spłat. Oblicz teraz i zaplanuj swoje płatności!",
     keywords: "kalkulator amortyzacji, obliczyć koszt, wartość trwałego, narzędzie finansowe, firmy planowanie, darmowy kalkulator, dokładne obliczenia"
   },
   de: {
-    title: "Tilgungsrechner – Darlehen Online Berechnen | TheSmartCalculator",
-    description: "Berechnen Sie mit dem Tilgungsrechner Ihre monatliche Rate, Laufzeit und Restschuld. Planen Sie Ihre Rückzahlung transparent und effizient online mit Details.",
+    title: "Tilgungsrechner – Berechne Deine Raten Einfach",
+    description: "Nutze unseren Tilgungsrechner, um Raten, Zinsen und Tilgungsplan zu sehen. Jetzt berechnen und Rückzahlungen effizient planen!",
     keywords: "tilgungsrechner, darlehen berechnen, monatliche rate, laufzeit restsuld, online rückzahlung, transparent planung, kostenloser rechner"
   }
 ,
   es: {
-    title: "Calculadora de Amortización – Calcula Pagos Fácilmente",
-    description: "Calcula tu amortización al instante y conoce tus pagos mensuales. ¡Planifica tu préstamo de forma sencilla y toma decisiones financieras inteligentes",
+    title: "Calculadora de Amortización – Planea Tus Pagos Fácil",
+    description: "Usa nuestra calculadora de amortización para ver pagos, intereses y plan de amortización. Calcula ahora y organiza tus pagos fácilmente!",
     keywords: "calculadora, amortización, calcula, pagos, fácilmente, instante, conoce, mensuales, planifica, préstamo, forma, sencilla, toma, decisiones, financieras"
   }
 };

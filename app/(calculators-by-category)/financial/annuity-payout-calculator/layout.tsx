@@ -5,18 +5,18 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for annuity-payout-calculator
 const annuitypayoutcalculatorMeta = {
   en: {
-    title: "Annuity Payout Calculator – Amount Online | TheSmartCalculator",
-    description: "Use the Annuity Payout Calculator to determine payout amounts based on factors like principal and rates. Accurate, free online tool for annuity planning and income estimation.",
+    title: "Annuity Payout Calculator – Estimate Retirement Income",
+    description: "Use our free online annuity payout calculator to estimate monthly retirement income. Start planning payouts and financial security today.",
     keywords: "annuity payout calculator, payout amount, principal tool, rates calculation, online payout, annuity planning, free payout tool, income estimator"
   },
   br: {
-    title: "Annuity Payout Calculator – Amount Online | TheSmartCalculator",
-    description: "Use a Calculadora de Pagamento Anuidade para calcular valores de pagamento com base em fatores. Ferramenta precisa e gratuita para planejamento de anuidades e renda.",
+    title: "Calculadora de Pagamento de Anuidade – Planeje Contas",
+    description: "Planeje pagamentos de anuidades sem surpresas. Saiba valores e prazos e calcule agora facilmente.",
     keywords: "calculadora pagamento anuidade, valor pagamento, fatores tool, online anuidade, planejamento renda, gratuita calculadora, estimativa pagamento"
   },
   pl: {
-    title: "Rentenzahlung Rechner – Altersvorsorge Online | TheSmartCalculator",
-    description: "Mit unserer Rentenzahlung-Berechnung ermitteln Sie einfach Ihre monatlichen Zahlungen, den Vorsorgebedarf und sichern Ihre Altersvorsorge präzise online mit Faktoren.",
+    title: "Kalkulator Wypłaty Renty – Oblicz Online",
+    description: "Oblicz wysokość wypłaty renty i zaplanuj przyszłość finansową. Sprawdź online!",
     keywords: "rentenzahlung rechner, monatliche zahlungen, vorsorgebedarf tool, altersvorsorge, online berechnung, präzise tool, kostenloser rechner"
   },
   de: {
