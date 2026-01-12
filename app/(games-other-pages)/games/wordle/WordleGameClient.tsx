@@ -4,6 +4,7 @@ import { useWordle } from "@/hooks/useWordle"
 import { toast } from "sonner"
 import { Info, BarChart3, Settings, RotateCcw, X, Infinity, Share2, Award, Twitter, Facebook, Copy, HelpCircle, Calendar, Clock, Globe, BookOpen } from "lucide-react"
 import confetti from 'canvas-confetti'
+import Link from "next/link"
 
 interface WordleGameClientProps {
     solution: string
@@ -162,7 +163,7 @@ export default function WordleGameClient({ solution, wordleNumber }: WordleGameC
                         </h1>
                     </div>
 
-                    <div className="flex gap-2">
+                    {/* <div className="flex gap-2">
                         <button
                             onClick={() => setShowStats(true)}
                             className="p-2 transition-colors hover:bg-white/10 rounded"
@@ -177,7 +178,7 @@ export default function WordleGameClient({ solution, wordleNumber }: WordleGameC
                         >
                             <Settings className="w-5 h-5" />
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </header>
 
@@ -425,7 +426,7 @@ export default function WordleGameClient({ solution, wordleNumber }: WordleGameC
                         <div className="rounded-2xl p-6 hover:bg-white/5 transition-colors" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
                             <h3 className="text-lg font-bold mb-3 text-white">What Is The Wordle Today?</h3>
                             <p className="text-sm leading-relaxed" style={{ color: '#a1a1aa' }}>
-                                Wordle is a popular online word puzzle game where players try to guess a 5-letter word every day. “Wordle Today” refers to the puzzle word for the current day. Every day, there is a unique word that is the same for all players worldwide.
+                                Wordle is a popular online word puzzle game where players try to guess a 5-letter word every day.<Link href="https://www.thesmartcalculator.com/games/what-is-wordle-today" className="text-green-500">“Wordle Today”</Link> refers to the puzzle word for the current day. Every day, there is a unique word that is the same for all players worldwide.
                             </p>
                         </div>
 

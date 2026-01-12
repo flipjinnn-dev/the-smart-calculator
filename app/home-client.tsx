@@ -18,7 +18,8 @@ import {
   Beef,
   ChevronRight,
   CircleCheck,
-  ArrowRight
+  ArrowRight,
+  Gamepad
 } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
@@ -36,7 +37,7 @@ const categoryIcons: Record<string, React.ComponentType<any>> = {
   construction: Home,
   food: Beef,
   sports: Bike,
-  other: MoreHorizontal,
+  games: Gamepad,
 }
 
 // Define feature icons mapping
@@ -311,15 +312,16 @@ export default function HomePage({ content, language }: HomeClientProps) {
       href: getLocalizedCategoryUrl("sports", language),
     },
     {
-      id: "other",
-      name: contentData.categories.other.name || "Other",
-      description: contentData.categories.other.description || "Miscellaneous calculators that don't fit into other categories",
-      icon: categoryIcons.other,
-      color: "from-gray-400 to-gray-600",
-      bgColor: "bg-gray-50",
-      textColor: "text-pink-600",
-      calculators: getCalculatorCount("other"),
-      href: getLocalizedCategoryUrl("other", language),
+      id: "games",
+      name: "Games",
+      description: "Play fun and interactive games to train your brain",
+      icon: categoryIcons.games,
+      color: "from-indigo-400 to-violet-600",
+      bgColor: "bg-indigo-50",
+      textColor: "text-indigo-600",
+      calculators: 1,
+      itemLabel: "game",
+      href: "/games",
     },
   ];
 
@@ -453,146 +455,144 @@ export default function HomePage({ content, language }: HomeClientProps) {
       <div className="min-h-screen bg-white font-sans selection:bg-blue-100 selection:text-blue-900">
         {/* Hero Section */}
         <section className="relative pt-12 pb-20 lg:pt-24 lg:pb-32 overflow-hidden bg-slate-50/30">
-            {/* Background Gradients */}
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <div className="absolute -top-[30%] -left-[10%] w-[70%] h-[70%] rounded-full bg-blue-100/40 blur-3xl mix-blend-multiply opacity-50" />
-                <div className="absolute -bottom-[30%] -right-[10%] w-[70%] h-[70%] rounded-full bg-purple-100/40 blur-3xl mix-blend-multiply opacity-50" />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-white/60 rounded-full blur-3xl mix-blend-overlay" />
-            </div>
+          {/* Background Gradients */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute -top-[30%] -left-[10%] w-[70%] h-[70%] rounded-full bg-blue-100/40 blur-3xl mix-blend-multiply opacity-50" />
+            <div className="absolute -bottom-[30%] -right-[10%] w-[70%] h-[70%] rounded-full bg-purple-100/40 blur-3xl mix-blend-multiply opacity-50" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-white/60 rounded-full blur-3xl mix-blend-overlay" />
+          </div>
 
-            <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-flex-start">
-                    {/* Left Column: Content */}
-                    <div className="text-center lg:text-left space-y-8 max-w-2xl mx-auto lg:mx-0">
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-blue-100 text-blue-600 text-xs font-semibold uppercase tracking-wider shadow-sm animate-in fade-in slide-in-from-bottom-4 duration-500">
-                            <Sparkles className="w-3 h-3" />
-                            {contentData.header?.subtitle || "100% Free Online Calculators"}
-                        </div>
-                        
-                        <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-gray-900 tracking-tight leading-[1.1] animate-in fade-in slide-in-from-bottom-5 duration-700 delay-100"
-                            dangerouslySetInnerHTML={{ __html: contentData.hero.title || "Your life in <span class=\"bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent\">100+ free</span> calculators" }}
-                        />
-                        <div className="animate-in fade-in slide-in-from-bottom-7 duration-700 delay-300">
-                            <div className="bg-white p-2 rounded-3xl shadow-xl shadow-blue-900/5 border border-blue-50 ring-1 ring-black/5 max-w-lg mx-auto lg:mx-0 relative z-[100]">
-                                 <SearchBar language={language} onFocusChange={setIsSearchFocused} />
-                            </div>
-                            <p className="mt-4 text-sm text-gray-400 font-medium pl-2 flex items-center justify-center lg:justify-start gap-2">
-                                <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-                                {contentData.search.placeholder || "Try searching for 'BMI', 'Mortgage', or 'Percentage'"}
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* Right Column: Scientific Calculator */}
-                    <div className={`home-calc relative animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 lg:translate-x-8 transition-all duration-300 ${isSearchFocused ? 'lg:z-0 -z-10' : 'z-0'}`}>
-                        {/* Decorative elements behind calculator */}
-                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-[140%] bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-full blur-3xl -z-10" />
-                        <div className={`transition-opacity duration-300 ${isSearchFocused ? 'lg:opacity-100 opacity-0 pointer-events-none lg:pointer-events-auto' : 'opacity-100'}`}>
-                            <HomepageScientificCalculator language={language} />
-                        </div>
-                    </div>
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-flex-start">
+              {/* Left Column: Content */}
+              <div className="text-center lg:text-left space-y-8 max-w-2xl mx-auto lg:mx-0">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-blue-100 text-blue-600 text-xs font-semibold uppercase tracking-wider shadow-sm animate-in fade-in slide-in-from-bottom-4 duration-500">
+                  <Sparkles className="w-3 h-3" />
+                  {contentData.header?.subtitle || "100% Free Online Calculators"}
                 </div>
+
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-gray-900 tracking-tight leading-[1.1] animate-in fade-in slide-in-from-bottom-5 duration-700 delay-100"
+                  dangerouslySetInnerHTML={{ __html: contentData.hero.title || "Your life in <span class=\"bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent\">100+ free</span> calculators" }}
+                />
+                <div className="animate-in fade-in slide-in-from-bottom-7 duration-700 delay-300">
+                  <div className="bg-white p-2 rounded-3xl shadow-xl shadow-blue-900/5 border border-blue-50 ring-1 ring-black/5 max-w-lg mx-auto lg:mx-0 relative z-[100]">
+                    <SearchBar language={language} onFocusChange={setIsSearchFocused} />
+                  </div>
+                  <p className="mt-4 text-sm text-gray-400 font-medium pl-2 flex items-center justify-center lg:justify-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+                    {contentData.search.placeholder || "Try searching for 'BMI', 'Mortgage', or 'Percentage'"}
+                  </p>
+                </div>
+              </div>
+
+              {/* Right Column: Scientific Calculator */}
+              <div className={`home-calc relative animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 lg:translate-x-8 transition-all duration-300 ${isSearchFocused ? 'lg:z-0 -z-10' : 'z-0'}`}>
+                {/* Decorative elements behind calculator */}
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-[140%] bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-full blur-3xl -z-10" />
+                <div className={`transition-opacity duration-300 ${isSearchFocused ? 'lg:opacity-100 opacity-0 pointer-events-none lg:pointer-events-auto' : 'opacity-100'}`}>
+                  <HomepageScientificCalculator language={language} />
+                </div>
+              </div>
             </div>
+          </div>
         </section>
 
         {/* Categories Grid */}
         <section className="py-24 bg-gray-50/50">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
-                        {contentData.categories.title || "Browse by Category"}
-                    </h2>
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                         {contentData.categories.description || "Find the perfect tool for your specific needs from our organized collections"}
-                    </p>
-                </div>
-
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-                    {categories.map((category, idx) => {
-                        const IconComponent = category.icon;
-                        return (
-                            <Link key={category.id} href={category.href} className="group">
-                                <div className="h-full bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-100 hover:-translate-y-1 relative overflow-hidden">
-                                    <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-br ${category.color} opacity-5 rounded-bl-full transition-opacity group-hover:opacity-10`} />
-                                    
-                                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${category.color} flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform duration-300`}>
-                                        <IconComponent className="w-6 h-6 text-white" />
-                                    </div>
-                                    
-                                    <h3 className="text-lg font-bold text-gray-900 mb-1 group-hover:text-blue-600 transition-colors">
-                                        {category.name}
-                                    </h3>
-                                    <p className="text-sm text-gray-500 mb-3 line-clamp-2">
-                                        {category.description}
-                                    </p>
-                                    
-                                    <div className="flex items-center text-xs font-semibold text-gray-400 group-hover:text-blue-500 transition-colors">
-                                        <span>{category.calculators} calculators</span>
-                                        <ArrowRight className="w-3 h-3 ml-1 group-hover:translate-x-0.5 transition-transform" />
-                                    </div>
-                                </div>
-                            </Link>
-                        )
-                    })}
-                </div>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+                {contentData.categories.title || "Browse by Category"}
+              </h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                {contentData.categories.description || "Find the perfect tool for your specific needs from our organized collections"}
+              </p>
             </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+              {categories.map((category, idx) => {
+                const IconComponent = category.icon;
+                return (
+                  <Link key={category.id} href={category.href} className="group">
+                    <div className="h-full bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-100 hover:-translate-y-1 relative overflow-hidden">
+                      <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-br ${category.color} opacity-5 rounded-bl-full transition-opacity group-hover:opacity-10`} />
+
+                      <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${category.color} flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform duration-300`}>
+                        <IconComponent className="w-6 h-6 text-white" />
+                      </div>
+
+                      <h3 className="text-lg font-bold text-gray-900 mb-1 group-hover:text-blue-600 transition-colors">
+                        {category.name}
+                      </h3>
+                      <p className="text-sm text-gray-500 mb-3 line-clamp-2">
+                        {category.description}
+                      </p>
+
+                      <div className="flex items-center text-xs font-semibold text-gray-400 group-hover:text-blue-500 transition-colors">
+                        <span>{category.calculators} {(category as any).itemLabel || "calculators"}</span>
+                        <ArrowRight className="w-3 h-3 ml-1 group-hover:translate-x-0.5 transition-transform" />
+                      </div>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
         </section>
 
         {/* Popular Calculators */}
         <section className="py-24 bg-white relative">
-             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
-                    <div className="max-w-2xl">
-                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
-                            {contentData.popular.title || "Most Popular Tools"}
-                        </h2>
-                        <p className="text-lg text-gray-600">
-                             {contentData.popular.description || "The calculators our users rely on every day"}
-                        </p>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+              <div className="max-w-2xl">
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+                  {contentData.popular.title || "Most Popular Tools"}
+                </h2>
+                <p className="text-lg text-gray-600">
+                  {contentData.popular.description || "The calculators our users rely on every day"}
+                </p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              {calculatorsToUse.map((calc: any, index: number) => {
+                const englishHref = calc.href || "#";
+                const localizedHref = getLocalizedCalculatorUrl(englishHref, language);
+
+                return (
+                  <Link key={index} href={localizedHref !== "#" ? localizedHref : "#"}>
+                    <div className="group h-full bg-white rounded-2xl border border-gray-100 p-6 md:p-8 hover:shadow-xl hover:shadow-blue-900/5 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden">
+                      <div className={`absolute top-0 left-0 w-1 h-full bg-gradient-to-b ${index % 3 === 0 ? 'from-blue-500 to-blue-600' :
+                        index % 3 === 1 ? 'from-purple-500 to-purple-600' :
+                          'from-green-500 to-green-600'
+                        }`} />
+
+                      <div className="flex items-start justify-between mb-4">
+                        <div className={`px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider ${index % 3 === 0 ? 'bg-blue-50 text-blue-600' :
+                          index % 3 === 1 ? 'bg-purple-50 text-purple-600' :
+                            'bg-green-50 text-green-600'
+                          }`}>
+                          {calc.category}
+                        </div>
+                      </div>
+
+                      <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                        {calc.name}
+                      </h3>
+
+                      <p className="text-gray-600 mb-6 leading-relaxed">
+                        {calc.description}
+                      </p>
+
+                      <div className="flex items-center text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors mt-auto">
+                        Calculate Now <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                      </div>
                     </div>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-                     {calculatorsToUse.map((calc: any, index: number) => {
-                        const englishHref = calc.href || "#";
-                        const localizedHref = getLocalizedCalculatorUrl(englishHref, language);
-                        
-                        return (
-                             <Link key={index} href={localizedHref !== "#" ? localizedHref : "#"}>
-                                <div className="group h-full bg-white rounded-2xl border border-gray-100 p-6 md:p-8 hover:shadow-xl hover:shadow-blue-900/5 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden">
-                                     <div className={`absolute top-0 left-0 w-1 h-full bg-gradient-to-b ${
-                                        index % 3 === 0 ? 'from-blue-500 to-blue-600' : 
-                                        index % 3 === 1 ? 'from-purple-500 to-purple-600' : 
-                                        'from-green-500 to-green-600'
-                                    }`} />
-                                    
-                                    <div className="flex items-start justify-between mb-4">
-                                        <div className={`px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider ${
-                                            index % 3 === 0 ? 'bg-blue-50 text-blue-600' : 
-                                            index % 3 === 1 ? 'bg-purple-50 text-purple-600' : 
-                                            'bg-green-50 text-green-600'
-                                        }`}>
-                                            {calc.category}
-                                        </div>
-                                    </div>
-
-                                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
-                                        {calc.name}
-                                    </h3>
-                                    
-                                    <p className="text-gray-600 mb-6 leading-relaxed">
-                                        {calc.description}
-                                    </p>
-                                    
-                                    <div className="flex items-center text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors mt-auto">
-                                        Calculate Now <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                                    </div>
-                                </div>
-                             </Link>
-                        )
-                     })}
-                </div>
-             </div>
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
         </section>
 
         {/* Features Section */}
