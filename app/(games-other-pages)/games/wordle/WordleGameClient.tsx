@@ -2,7 +2,7 @@
 import { useEffect, useState, useCallback } from "react"
 import { useWordle } from "@/hooks/useWordle"
 import { toast } from "sonner"
-import { Info, BarChart3, Settings, RotateCcw, X, Infinity, Share2, Award, Twitter, Facebook, Copy } from "lucide-react"
+import { Info, BarChart3, Settings, RotateCcw, X, Infinity, Share2, Award, Twitter, Facebook, Copy, HelpCircle, Calendar, Clock, Globe, BookOpen } from "lucide-react"
 import confetti from 'canvas-confetti'
 
 interface WordleGameClientProps {
@@ -381,6 +381,117 @@ export default function WordleGameClient({ solution, wordleNumber }: WordleGameC
                     </div>
                 </div>
             </main>
+
+            {/* Wordle Game Guide Section */}
+            <section className="w-full max-w-3xl mx-auto px-6 py-16 border-t" style={{ borderColor: 'rgba(255, 255, 255, 0.05)' }}>
+                <div className="flex items-center justify-center gap-3 mb-12">
+                    <BookOpen className="w-8 h-8 text-emerald-500" />
+                    <h2 className="text-3xl md:text-4xl font-black tracking-tight text-center" style={{ color: '#ffffff' }}>Wordle Game Guide</h2>
+                </div>
+
+                <div className="grid gap-8">
+                    {/* How to Play */}
+                    <div className="rounded-2xl p-8 transition-all hover:bg-white/5" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
+                        <h3 className="text-xl font-bold mb-4 flex items-center gap-2" style={{ color: '#ffffff' }}>
+                            <HelpCircle className="w-5 h-5 text-emerald-500" />
+                            How to Play Wordle?
+                        </h3>
+                        <p className="mb-4 leading-relaxed" style={{ color: '#a1a1aa' }}>
+                            Playing Wordle is simple. You need to guess a 5-letter word in 6 tries. After each guess, the letters change color:
+                        </p>
+                        <ul className="space-y-3 mb-6" style={{ color: '#d4d4d8' }}>
+                            <li className="flex items-center gap-3">
+                                <span className="w-3 h-3 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]"></span>
+                                <span><strong>Green:</strong> Letter is in the correct position</span>
+                            </li>
+                            <li className="flex items-center gap-3">
+                                <span className="w-3 h-3 rounded-full bg-yellow-600 shadow-[0_0_10px_rgba(202,138,4,0.5)]"></span>
+                                <span><strong>Yellow:</strong> Letter is in the word but wrong position</span>
+                            </li>
+                            <li className="flex items-center gap-3">
+                                <span className="w-3 h-3 rounded-full bg-zinc-600"></span>
+                                <span><strong>Gray:</strong> Letter is not in the word</span>
+                            </li>
+                        </ul>
+                        <div className="p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/20">
+                            <p className="text-sm font-medium text-emerald-400">
+                                <strong>Tip:</strong> Start by guessing common vowels and consonants. Pay attention to repeated letters and word patterns.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 gap-8">
+                        {/* What is Wordle */}
+                        <div className="rounded-2xl p-6 hover:bg-white/5 transition-colors" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
+                            <h3 className="text-lg font-bold mb-3 text-white">What Is The Wordle Today?</h3>
+                            <p className="text-sm leading-relaxed" style={{ color: '#a1a1aa' }}>
+                                Wordle is a popular online word puzzle game where players try to guess a 5-letter word every day. “Wordle Today” refers to the puzzle word for the current day. Every day, there is a unique word that is the same for all players worldwide.
+                            </p>
+                        </div>
+
+                        {/* How it Works */}
+                        <div className="rounded-2xl p-6 hover:bg-white/5 transition-colors" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
+                            <h3 className="text-lg font-bold mb-3 text-white">How Does Wordle Work?</h3>
+                            <p className="text-sm leading-relaxed mb-3" style={{ color: '#a1a1aa' }}>
+                                Wordle works using an algorithm that selects a daily word from a word list. The word is the same for every player, which allows tracking streaks and leaderboards.
+                            </p>
+                            <p className="text-sm" style={{ color: '#a1a1aa' }}>The game is browser-based and works on any device.</p>
+                        </div>
+                    </div>
+
+                    {/* History & Facts */}
+                    <div className="rounded-2xl p-8 hover:bg-white/5 transition-colors" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
+                        <div className="grid md:grid-cols-2 gap-x-12 gap-y-8">
+                            <div>
+                                <h3 className="text-lg font-bold mb-3 flex items-center gap-2 text-white">
+                                    <Globe className="w-5 h-5 text-blue-500" />
+                                    When Did Wordle Start?
+                                </h3>
+                                <p className="text-sm leading-relaxed mb-4" style={{ color: '#a1a1aa' }}>
+                                    Wordle was created by Josh Wardle in 2021. Originally made for his partner, it went viral in November 2021 and was acquired by The New York Times in January 2022.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h3 className="text-lg font-bold mb-3 flex items-center gap-2 text-white">
+                                    <Calendar className="w-5 h-5 text-purple-500" />
+                                    When Does Wordle Reset?
+                                </h3>
+                                <ul className="text-sm space-y-2" style={{ color: '#a1a1aa' }}>
+                                    <li>• Resets daily at midnight local time.</li>
+                                    <li>• New word every 24 hours.</li>
+                                    <li>• Previous words are archived.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Vowels & Where to Play */}
+                    <div className="grid md:grid-cols-2 gap-8">
+                        <div className="rounded-2xl p-6 hover:bg-white/5 transition-colors" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
+                            <h3 className="text-lg font-bold mb-3 text-white">How Many Vowels?</h3>
+                            <p className="text-sm leading-relaxed mb-3" style={{ color: '#a1a1aa' }}>
+                                The number of vowels (A, E, I, O, U) in each day’s Wordle can vary. Focusing on vowels while guessing can be very helpful as most words contain at least one.
+                            </p>
+                        </div>
+
+                        <div className="rounded-2xl p-6 hover:bg-white/5 transition-colors relative overflow-hidden group" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
+                            <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500/10 rounded-full blur-2xl group-hover:bg-emerald-500/20 transition-all"></div>
+                            <h3 className="text-lg font-bold mb-3 flex items-center gap-2 text-white">
+                                <Clock className="w-5 h-5 text-emerald-500" />
+                                Where to Play?
+                            </h3>
+                            <p className="text-sm mb-3" style={{ color: '#a1a1aa' }}>
+                                You are playing on the official Smart Calculator Wordle game!
+                            </p>
+                            <a href="https://www.thesmartcalculator.com/games/wordle" className="text-sm font-semibold text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1">
+                                thesmartcalculator.com/games/wordle
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
 
             {/* Instructions Modal */}
             {showInstructions && (
