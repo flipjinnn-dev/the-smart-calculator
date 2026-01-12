@@ -150,7 +150,7 @@ export function RatingProfileSection({
     <div className={cn("w-full max-w-7xl mx-auto py-10 mt-10", className)}>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
         {/* LEFT SIDE: Reviews Section */}
-        <div className="bg-white dark:bg-slate-950 rounded-2xl border border-border/50 shadow-sm p-8 flex flex-col justify-center">
+        <div className="bg-white rounded-2xl border border-border/50 shadow-sm p-8 flex flex-col justify-center">
           <div className="flex flex-col gap-6">
             <div className="flex items-start justify-between">
               <div>
@@ -169,7 +169,7 @@ export function RatingProfileSection({
             </div>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-              <div className="flex items-center gap-1 p-2 bg-slate-50 dark:bg-slate-900 rounded-xl border border-border/50">
+              <div className="flex items-center gap-1 p-2 bg-slate-50 rounded-xl border border-border/50">
                 {[1, 2, 3, 4, 5].map((star) => (
                   <button
                     key={star}
@@ -189,7 +189,7 @@ export function RatingProfileSection({
                         "w-8 h-8 md:w-10 md:h-10 transition-all",
                         (hoverRating || rating || Math.round(averageRating)) >= star
                           ? "fill-yellow-400 text-yellow-400 drop-shadow-sm"
-                          : "fill-transparent text-slate-300 dark:text-slate-600"
+                          : "fill-transparent text-slate-300"
                       )}
                     />
                   </button>
@@ -197,7 +197,7 @@ export function RatingProfileSection({
               </div>
 
               {hasRated ? (
-                <div className="flex items-center gap-2 px-4 py-2 bg-green-500/10 text-green-600 dark:text-green-400 border border-green-500/20 rounded-full animate-in fade-in zoom-in duration-300">
+                <div className="flex items-center gap-2 px-4 py-2 bg-green-500/10 text-green-600 border border-green-500/20 rounded-full animate-in fade-in zoom-in duration-300">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
                   <span className="font-medium">Thanks for rating!</span>
                 </div>
@@ -228,7 +228,7 @@ export function RatingProfileSection({
         {/* RIGHT SIDE: Creator Profile Section */}
         <div className="h-full">
           {isLoadingProfile ? (
-            <div className="h-full bg-slate-50 dark:bg-slate-900 rounded-2xl border border-border/50 p-8 flex flex-col justify-center gap-4">
+            <div className="h-full bg-slate-50 rounded-2xl border border-border/50 p-8 flex flex-col justify-center gap-4">
               <div className="flex items-center gap-4">
                 <div className="h-16 w-16 rounded-full bg-muted animate-pulse" />
                 <div className="space-y-2 flex-1">
@@ -239,19 +239,19 @@ export function RatingProfileSection({
               <div className="h-12 w-full bg-muted animate-pulse rounded-xl" />
             </div>
           ) : creatorProfile ? (
-            <div className="h-full bg-slate-50 dark:bg-slate-900 rounded-2xl border border-border/50 p-8 flex flex-col justify-center relative overflow-hidden group hover:border-primary/20 transition-colors">
+            <div className="h-full bg-slate-50 rounded-2xl border border-border/50 p-8 flex flex-col justify-center relative overflow-hidden group hover:border-primary/20 transition-colors">
               {/* Decorative Background Elements */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
               
               <div className="relative z-10 flex items-start gap-5">
                 <Link href={`/creator/${creatorProfile.slug}`} className="shrink-0 relative">
-                  <Avatar className="h-20 w-20 border-4 border-white dark:border-slate-950 shadow-md group-hover:scale-105 transition-transform duration-300">
+                  <Avatar className="h-20 w-20 border-4 border-white shadow-md group-hover:scale-105 transition-transform duration-300">
                     <AvatarImage src={creatorProfile.image || undefined} alt={creatorProfile.name} />
                     <AvatarFallback className="bg-gradient-to-br from-primary/20 to-primary/10 text-xl">
                       <User className="h-8 w-8 text-primary/60" />
                     </AvatarFallback>
                   </Avatar>
-                  <div className="absolute bottom-0 right-0 w-5 h-5 bg-green-500 border-4 border-white dark:border-slate-950 rounded-full shadow-sm" title="Online" />
+                  <div className="absolute bottom-0 right-0 w-5 h-5 bg-green-500 border-4 border-white rounded-full shadow-sm" title="Online" />
                 </Link>
                 
                 <div className="flex-1 min-w-0 pt-1">
