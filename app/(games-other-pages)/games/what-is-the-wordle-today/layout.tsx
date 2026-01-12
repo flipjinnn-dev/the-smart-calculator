@@ -1,21 +1,24 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Wordle History - Past Wordle Answers & Solutions | TheSmartCalculator",
-  description: "Browse the complete history of Wordle puzzles. Find past Wordle answers, solutions, and daily words. Search by date or Wordle number.",
-  keywords: "wordle history, past wordle answers, wordle solutions, wordle archive, previous wordle words, wordle lookup",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/games/what-is-the-wordle-today",
-  },
+  title: "Wordle Archive & History | Complete List of Past Wordle Answers",
+  description: "Browse the complete archive of past Wordle solutions. Search history by date, number, or word. Practice your skills with previous Wordle puzzles.",
+  keywords: ["wordle history", "wordle archive", "past wordle answers", "wordle solutions list", "wordle replay", "wordle unlimited"],
   openGraph: {
-    title: "Wordle History - Past Wordle Answers & Solutions | TheSmartCalculator",
-    description: "Browse the complete history of Wordle puzzles. Find past Wordle answers, solutions, and daily words.",
+    title: "Wordle Archive - Complete History of Solutions",
+    description: "Explore every Wordle puzzle ever released. Search by date or number and view the full solution list.",
     type: "website",
     url: "https://www.thesmartcalculator.com/games/what-is-the-wordle-today",
-  },
-};
+    images: [{
+      url: "https://www.thesmartcalculator.com/assets/wordle-history-og.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Wordle History Archive"
+    }],
+  }
+}
 
-export default async function WordleHistoryLayout({
+export default function WordleHistoryLayout({
   children,
 }: {
   children: React.ReactNode;

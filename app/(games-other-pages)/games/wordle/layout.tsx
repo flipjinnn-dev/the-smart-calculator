@@ -1,21 +1,24 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Wordle of the Day - Free Daily Word Puzzle Game | TheSmartCalculator",
-  description: "Play today's Wordle! Guess the 5-letter word in 6 tries. New puzzle every day at midnight. Track your stats and share your results. Play Wordle Unlimited online.",
-  keywords: "wordle, wordle today, daily wordle, word game, word puzzle, wordle of the day, wordle game, wordle unlimited, play wordle",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/games/wordle",
-  },
+  title: "Play Wordle Online - Daily Word Puzzle Game",
+  description: "Play the daily Wordle game online. Guess the 5-letter hidden word in 6 tries. Challenge your vocabulary and share your results!",
+  keywords: ["wordle", "play wordle", "wordle game", "daily word puzzle", "word guess game", "online wordle"],
   openGraph: {
-    title: "Wordle of the Day - Free Daily Word Puzzle Game | TheSmartCalculator",
-    description: "Play today's Wordle! Guess the 5-letter word in 6 tries. New puzzle every day at midnight. Track your stats and share your results.",
+    title: "Play Wordle - Daily Word Puzzle Challenge",
+    description: "Can you guess the hidden word? Play the official-style Wordle game online now.",
     type: "website",
     url: "https://www.thesmartcalculator.com/games/wordle",
-  },
-};
+    images: [{
+      url: "https://www.thesmartcalculator.com/assets/wordle-og.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Play Wordle Daily"
+    }],
+  }
+}
 
-export default async function WordleLayout({
+export default function WordleLayout({
   children,
 }: {
   children: React.ReactNode;
