@@ -163,7 +163,7 @@ export default function WordleGameClient({ solution, wordleNumber }: WordleGameC
                         </h1>
                     </div>
 
-                    {/* <div className="flex gap-2">
+                    <div className="flex gap-2 opacity-0">
                         <button
                             onClick={() => setShowStats(true)}
                             className="p-2 transition-colors hover:bg-white/10 rounded"
@@ -178,7 +178,7 @@ export default function WordleGameClient({ solution, wordleNumber }: WordleGameC
                         >
                             <Settings className="w-5 h-5" />
                         </button>
-                    </div> */}
+                    </div>
                 </div>
             </header>
 
