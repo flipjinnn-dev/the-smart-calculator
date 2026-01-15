@@ -1,15 +1,34 @@
 import Link from "next/link"
 import Script from "next/script"
-import { Gamepad2, Trophy, Calendar } from "lucide-react"
+import { Gamepad2, Trophy, Brain } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
 export default function GamesPage() {
+  const games = [
+    {
+      id: "wordle",
+      title: "Wordle of the Day",
+      description: "Guess the 5-letter word in 6 tries. A new word every day!",
+      icon: Trophy,
+      link: "/games/wordle",
+      gradient: "from-green-400 to-blue-500"
+    },
+    {
+      id: "mental-maths",
+      title: "Mental Math Trainer",
+      description: "Challenge yourself with quick mental math quizzes and improve your speed!",
+      icon: Brain,
+      link: "/games/mental-maths",
+      gradient: "from-purple-400 to-pink-500"
+    }
+  ]
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "Games",
-    description: "Challenge yourself with fun and engaging word games",
+    description: "Challenge yourself with fun and engaging games including Wordle and Mental Math",
     url: "https://www.thesmartcalculator.com/games",
   }
 
@@ -34,24 +53,29 @@ export default function GamesPage() {
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Available Games</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <Card className="hover:shadow-xl transition-shadow border-0 shadow-lg bg-white">
-                <CardHeader>
-                  <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-blue-500 rounded-lg flex items-center justify-center mb-4">
-                    <Trophy className="w-6 h-6 text-white" />
-                  </div>
-                  <CardTitle className="text-xl">Wordle of the Day</CardTitle>
-                  <CardDescription className="text-base">
-                    Guess the 5-letter word in 6 tries. A new word every day!
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <Link href="/games/wordle">
-                    <Button className="w-full bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white font-semibold">
-                      Play Now
-                    </Button>
-                  </Link>
-                </CardContent>
-              </Card>
+              {games.map((game) => {
+                const IconComponent = game.icon
+                return (
+                  <Card key={game.id} className="hover:shadow-xl transition-shadow border-0 shadow-lg bg-white">
+                    <CardHeader>
+                      <div className={`w-12 h-12 bg-gradient-to-br ${game.gradient} rounded-lg flex items-center justify-center mb-4`}>
+                        <IconComponent className="w-6 h-6 text-white" />
+                      </div>
+                      <CardTitle className="text-xl">{game.title}</CardTitle>
+                      <CardDescription className="text-base">
+                        {game.description}
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <Link href={game.link}>
+                        <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold">
+                          Play Now
+                        </Button>
+                      </Link>
+                    </CardContent>
+                  </Card>
+                )
+              })}
 
               <Card className="border-2 border-dashed border-gray-300 bg-gray-50">
                 <CardHeader>
