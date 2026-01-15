@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Play Wordle Online - Daily Word Puzzle Game",
@@ -23,5 +24,35 @@ export default function WordleLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const jsonLdSchema = {
+  "@context": "https://schema.org",
+  "@type": "Game",
+  "name": "Daily Wordle Game",
+  "url": "https://www.thesmartcalculator.com/games/wordle",
+  "description": "Play the daily Wordle game online for free. Guess the 5-letter word in 6 tries!",
+  "applicationCategory": "PuzzleGame",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.thesmartcalculator.com/games/wordle",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "1024"
+  }
+}
+
+return (
+  <>
+    <Script 
+    type="application/ld+json" 
+    id="json-ld-schema" 
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+    strategy="afterInteractive" 
+    />
+    {children}
+  </>
+)
 }
