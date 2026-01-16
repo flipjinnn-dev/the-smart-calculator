@@ -31,6 +31,22 @@ export async function GET() {
     });
   });
 
+  // Games pages
+  const gamePages = [
+    { path: '/games', priority: 0.8 },
+    { path: '/games/wordle', priority: 0.8 },
+    { path: '/games/what-is-the-wordle-today', priority: 0.8 },
+    { path: '/games/mental-maths', priority: 0.8 },
+  ];
+
+  gamePages.forEach(page => {
+    urls.push({
+      loc: `${baseUrl}${page.path}`,
+      priority: page.priority,
+      changefreq: 'weekly',
+    });
+  });
+
   // Category pages - Using dynamic function
   const categories = ['financial', 'health', 'construction', 'food', 'sports', 'maths', 'physics', 'other'];
 
