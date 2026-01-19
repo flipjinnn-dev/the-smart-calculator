@@ -64,7 +64,7 @@
     ]
   },
   "messages": {
-    "enterInformation": "Wprowadź informacje dotyczące obliczeń inflacji, aby zobaczyć zmiany siły nabywczej",
+    "enterInformation": "Wprowadź informacje dotyczące obliczeń inflacji , aby zobaczyć zmiany siły nabywczej",
     "resultMessage": "Wyniki obliczeń inflacji pokazano poniżej",
     "assessmentResult": "Wynik obliczenia inflacji:",
     "inflationAnalysis": "Analiza inflacji"
