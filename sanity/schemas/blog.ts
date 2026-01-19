@@ -183,6 +183,19 @@ export default defineType({
       title: 'Keywords',
       type: 'string',
     }),
+    defineField({
+      name: 'schemaMarkup',
+      title: 'Schema.org JSON-LD Markup',
+      type: 'code',
+      description: 'Paste your complete JSON-LD schema markup here. This will be injected into the page <head> for SEO.',
+      options: {
+        language: 'json',
+        languageAlternatives: [
+          { title: 'JSON', value: 'json' },
+        ],
+        withFilename: false,
+      },
+    }),
   ],
   preview: {
     select: {
@@ -199,4 +212,4 @@ export default defineType({
       };
     },
   },
-});
+});

@@ -1,0 +1,39 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Zrozumienie Analizy Progu Rentowności",
+      "content": "Analiza progu rentowności to podstawowe narzędzie finansowe, które pomaga firmom określić, kiedy zaczną osiągać zyski. Nasz Kalkulator Progu Rentowności pomaga znaleźć dokładny punkt, w którym całkowite przychody równają się całkowitym kosztom.\n\n**Ten kalkulator jest niezbędny do:**\n- Planowania nowych biznesów\n- Decyzji o wprowadzeniu produktów\n- Rozwijania strategii cenowej\n- Prognozowania finansowego"
+    },
+    {
+      "heading": "Główna Formuła Wyjaśniona",
+      "content": "### Formuła Jednostek Rentowności\n\nPodstawowa formuła do obliczenia progu rentowności w jednostkach:\n\n$$Q_{BE} = \\frac{FC}{P - VC}$$\n\nGdzie:\n- **Q_BE** = Ilość Rentowności (jednostki)\n- **FC** = Koszty Stałe\n- **P** = Cena Sprzedaży za Jednostkę\n- **VC** = Koszt Zmienny za Jednostkę\n\n### Formuła Przychodu Rentowności\n\n$$R_{BE} = Q_{BE} \\times P$$"
+    },
+    {
+      "heading": "Marża Kontrybucyjna Wyjaśniona",
+      "content": "Marża kontrybucyjna to kwota, którą każda jednostka wnosi na pokrycie kosztów stałych:\n\n$$CM = P - VC$$\n\n### Procent Marży Kontrybucyjnej\n\n$$CM\\% = \\frac{P - VC}{P} \\times 100$$\n\n**Dlaczego to ważne:**\n- Wyższa marża = mniej jednostek potrzebnych do rentowności\n- Pokazuje potencjał rentowności na jednostkę\n- Pomaga w decyzjach cenowych"
+    },
+    {
+      "heading": "Praktyczny Przykład",
+      "content": "**Scenariusz:** Mała piekarnia sprzedająca chleb rzemieślniczy\n\n**Dane:**\n- Koszty Stałe (FC) = €10.000/miesiąc\n- Koszt Zmienny za Bochenek (VC) = €2,50\n- Cena Sprzedaży za Bochenek (P) = €6,00\n\n**Obliczenia:**\n- Marża Kontrybucyjna: €6,00 - €2,50 = €3,50\n- Jednostki Rentowności: €10.000 / €3,50 = 2.857 bochenków\n- Przychód Rentowności: 2.857 × €6,00 = €17.142\n\n**Interpretacja:** Piekarnia musi sprzedać 2.857 bochenków miesięcznie, aby osiągnąć próg rentowności."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Co to jest dobra marża kontrybucyjna?",
+      "a": "Dobra marża różni się w zależności od branży. Ogólnie 40-60% uważa się za zdrowe dla firm produktowych, podczas gdy firmy usługowe często mają wyższe marże (60-80%)."
+    },
+    {
+      "q": "Jak często powinienem przeliczać próg rentowności?",
+      "a": "Przelicz, gdy nastąpi znacząca zmiana w: kosztach stałych, kosztach zmiennych lub cenach sprzedaży. Dla rozwijających się firm zalecane są kwartalne przeglądy."
+    },
+    {
+      "q": "Czy mogę używać analizy progu rentowności dla wielu produktów?",
+      "a": "Tak, ale musisz obliczyć średnią ważoną marżę kontrybucyjną opartą na miksie produktów."
+    },
+    {
+      "q": "Jak zmniejszyć próg rentowności?",
+      "a": "Cztery główne strategie: 1) Zmniejszyć koszty stałe, 2) Zmniejszyć koszty zmienne, 3) Zwiększyć cenę sprzedaży, lub 4) Poprawić miks produktowy."
+    }
+  ]
+}

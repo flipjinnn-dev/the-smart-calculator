@@ -50,6 +50,22 @@
     "other": {
       "name": "otra",
       "description": "Calculadoras varias que no encajan en otras categorías"
+    },
+    "more-calculators": {
+      "name": "Más Calculadoras",
+      "description": "Calculadoras especializadas para software, web e IT, negocios y startups"
+    },
+    "other-calculators": {
+      "name": "Otras Calculadoras Útiles",
+      "description": "Calculadoras gratuitas para la vida diaria, conversiones y necesidades únicas"
+    },
+    "software": {
+      "name": "Software, Web e IT",
+      "description": "Calculadoras profesionales para desarrollo de software, diseño web e infraestructura de IT"
+    },
+    "business": {
+      "name": "Negocios y Startups",
+      "description": "Calculadoras esenciales para emprendedores, startups y planificación empresarial"
     }
   },
   "popular": {

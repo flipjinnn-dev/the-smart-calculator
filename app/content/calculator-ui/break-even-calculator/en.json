@@ -1,0 +1,44 @@
+{
+  "title": "Break-Even Calculator",
+  "description": "Calculate the point where your total revenue equals total costs and find when your business becomes profitable",
+  "labels": {
+    "fixedCosts": "Fixed Costs",
+    "variableCostPerUnit": "Variable Cost per Unit",
+    "sellingPricePerUnit": "Selling Price per Unit",
+    "targetUnits": "Target Units",
+    "optional": "Optional",
+    "calculateButton": "Calculate Break-Even"
+  },
+  "cardTitles": {
+    "costs": "Cost Information",
+    "pricing": "Pricing Information"
+  },
+  "descriptions": {
+    "fixedCosts": "Costs that don't change with output (rent, salaries, etc.)",
+    "variableCostPerUnit": "Costs that change per product (materials, labor per unit)",
+    "sellingPricePerUnit": "Price at which you sell one unit",
+    "targetUnits": "Calculate profit at a specific number of units"
+  },
+  "results": {
+    "title": "Break-Even Analysis",
+    "breakEvenUnits": "Break-Even Units",
+    "unitsNeeded": "units needed",
+    "breakEvenRevenue": "Break-Even Revenue",
+    "details": "Details",
+    "contributionMargin": "Contribution Margin",
+    "contributionMarginPercent": "Margin %",
+    "profitAtTarget": "Profit at Target",
+    "notesTitle": "Key Insights",
+    "note1": "Units needed to break even",
+    "note2": "Each unit contributes towards fixed costs",
+    "note3": "After break-even, each unit adds to profit",
+    "readyTitle": "Ready to Calculate?",
+    "readyDesc": "Enter your costs and pricing, then click calculate"
+  },
+  "errors": {
+    "title": "Cannot Calculate",
+    "invalidInput": "Please enter valid numbers for all fields",
+    "negativeValues": "All values must be positive",
+    "priceTooLow": "Selling price must be greater than variable cost per unit. No break-even possible."
+  }
+}

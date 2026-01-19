@@ -26,18 +26,18 @@ export default function Header() {
     
     // If exactly 1 segment and not a known category/page
     if (segments.length === 1) {
-      const knownPages = ['blogs', 'about', 'contact', 'privacy', 'terms', 'other-calculators', 'studio']
+      const knownPages = ['blogs', 'about', 'contact', 'privacy', 'terms', 'studio']
       const categories = [
         // English
-        'physics', 'health', 'maths', 'financial', 'construction', 'food', 'sports', 'other',
+        'physics', 'health', 'maths', 'financial', 'construction', 'food', 'sports', 'other', 'other-calculators', 'software', 'business', 'games',
         // Portuguese (br)
-        'fisica', 'saude', 'matematica', 'financeiro', 'construcao', 'alimento', 'esportes', 'outro',
+        'fisica', 'saude', 'matematica', 'financeiro', 'construcao', 'alimento', 'esportes', 'outro', 'software', 'negocios', 'jogos',
         // Polish (pl)
-        'fizyka', 'zdrowie', 'matematyka', 'finansowy', 'budowa', 'zywnosc', 'lekkoatletyka', 'inne',
+        'fizyka', 'zdrowie', 'matematyka', 'finansowy', 'budowa', 'zywnosc', 'lekkoatletyka', 'inne', 'oprogramowanie', 'biznes', 'gry',
         // German (de)
-        'physik', 'gesundheit', 'mathe', 'finanziell', 'konstruktion', 'essen', 'sport', 'andere',
+        'physik', 'gesundheit', 'mathe', 'finanziell', 'konstruktion', 'essen', 'sport', 'andere', 'software', 'geschaeft', 'spiele',
         // Spanish (es)
-        'fisica', 'salud', 'matematicas', 'financiero', 'construccion', 'alimentos', 'deportes', 'otra'
+        'fisica', 'salud', 'matematicas', 'financiero', 'construccion', 'alimentos', 'deportes', 'otra', 'software', 'negocios', 'juegos'
       ]
       
       // Other-category calculators at root level (without /other/ prefix)

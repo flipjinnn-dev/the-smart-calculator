@@ -50,6 +50,22 @@
     "other": {
       "name": "Andere",
       "description": "Verschiedene Rechner, die nicht in andere Kategorien passen"
+    },
+    "more-calculators": {
+      "name": "Weitere Rechner",
+      "description": "Spezialisierte Rechner für Software, Web & IT, Geschäft und Startups"
+    },
+    "other-calculators": {
+      "name": "Andere Nützliche Rechner",
+      "description": "Kostenlose Rechner für Alltag, Umrechnungen und verschiedene Zwecke"
+    },
+    "software": {
+      "name": "Software, Web & IT",
+      "description": "Professionelle Rechner für Softwareentwicklung, Webdesign und IT-Infrastruktur"
+    },
+    "business": {
+      "name": "Geschäft & Startups",
+      "description": "Wesentliche Rechner für Unternehmer, Startups und Geschäftsplanung"
     }
   },
   "popular": {

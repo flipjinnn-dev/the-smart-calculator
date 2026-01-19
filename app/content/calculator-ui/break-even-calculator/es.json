@@ -1,0 +1,44 @@
+{
+  "title": "Calculadora de Punto de Equilibrio",
+  "description": "Calcule el punto donde sus ingresos totales igualan los costos totales y descubra cuándo su negocio se vuelve rentable",
+  "labels": {
+    "fixedCosts": "Costos Fijos",
+    "variableCostPerUnit": "Costo Variable por Unidad",
+    "sellingPricePerUnit": "Precio de Venta por Unidad",
+    "targetUnits": "Unidades Objetivo",
+    "optional": "Opcional",
+    "calculateButton": "Calcular Punto de Equilibrio"
+  },
+  "cardTitles": {
+    "costs": "Información de Costos",
+    "pricing": "Información de Precios"
+  },
+  "descriptions": {
+    "fixedCosts": "Costos que no cambian con la producción (alquiler, salarios, etc.)",
+    "variableCostPerUnit": "Costos que cambian por producto (materiales, mano de obra por unidad)",
+    "sellingPricePerUnit": "Precio al que vende una unidad",
+    "targetUnits": "Calcule la ganancia en un número específico de unidades"
+  },
+  "results": {
+    "title": "Análisis de Punto de Equilibrio",
+    "breakEvenUnits": "Unidades de Equilibrio",
+    "unitsNeeded": "unidades necesarias",
+    "breakEvenRevenue": "Ingresos de Equilibrio",
+    "details": "Detalles",
+    "contributionMargin": "Margen de Contribución",
+    "contributionMarginPercent": "Margen %",
+    "profitAtTarget": "Ganancia en Objetivo",
+    "notesTitle": "Ideas Clave",
+    "note1": "Unidades necesarias para equilibrar",
+    "note2": "Cada unidad contribuye a los costos fijos",
+    "note3": "Después del equilibrio, cada unidad agrega a la ganancia",
+    "readyTitle": "¿Listo para Calcular?",
+    "readyDesc": "Ingrese sus costos y precios, luego haga clic en calcular"
+  },
+  "errors": {
+    "title": "No se Puede Calcular",
+    "invalidInput": "Por favor ingrese números válidos para todos los campos",
+    "negativeValues": "Todos los valores deben ser positivos",
+    "priceTooLow": "El precio de venta debe ser mayor que el costo variable por unidad. No es posible el punto de equilibrio."
+  }
+}

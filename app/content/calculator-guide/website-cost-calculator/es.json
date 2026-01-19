@@ -1,0 +1,39 @@
+{
+  "color": "cyan",
+  "sections": [
+    {
+      "heading": "Comprender los Costos de Desarrollo Web",
+      "content": "Los costos de desarrollo web varían significativamente según la complejidad, las características y los requisitos de diseño. Esta calculadora le ayuda a estimar costos desglosando cada componente de un proyecto web moderno."
+    },
+    {
+      "heading": "Fórmula de Costo",
+      "content": "El costo total del sitio web se calcula utilizando un modelo de agregación basado en características:\n\n$$\\text{Costo Total} = C_{\\text{diseño}} + C_{\\text{páginas}} + C_{\\text{SEO}} + C_{\\text{ecommerce}} + C_{\\text{responsivo}} + C_{\\text{base de datos}} + C_{\\text{CMS}}$$"
+    },
+    {
+      "heading": "Impacto del Nivel de Diseño",
+      "content": "El nivel de diseño es el principal factor de costo:\n\n**Básico ($2.000-$3.000):** Diseño basado en plantillas con personalización mínima\n\n**Estándar ($3.000-$5.000):** Diseño personalizado con complejidad moderada\n\n**Excelente ($5.000-$10.000):** Diseño sofisticado con interacciones avanzadas\n\n**Clase Mundial ($10.000-$15.000):** Diseño premium con UX de vanguardia"
+    },
+    {
+      "heading": "Características Avanzadas",
+      "content": "**Integración de Base de Datos:** Básica, Avanzada o Completa\n\n**E-commerce:** Desde tienda básica hasta plataforma completa\n\n**Opciones de CMS:** WordPress, Personalizado o Empresarial"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué tan precisas son estas estimaciones de costos?",
+      "a": "Estas estimaciones se basan en estándares de la industria. Los costos reales pueden variar en ±15% dependiendo de las necesidades específicas, el cronograma y la complejidad del proyecto."
+    },
+    {
+      "q": "¿Qué no está incluido en esta estimación?",
+      "a": "Esta calculadora no incluye: costos de mantenimiento continuo, registro de dominio, hosting, certificados SSL, integraciones de API de terceros y soporte post-lanzamiento."
+    },
+    {
+      "q": "¿Debo elegir WordPress o CMS personalizado?",
+      "a": "WordPress es ideal para sitios con mucho contenido y pequeñas empresas. Un CMS personalizado es mejor para flujos de trabajo únicos y requisitos comerciales específicos."
+    },
+    {
+      "q": "¿Cuánto tiempo toma un proyecto web típico?",
+      "a": "El cronograma varía: Sitios básicos toman 2-4 semanas, Estándar 4-8 semanas, Excelente 8-12 semanas, y proyectos de Clase Mundial pueden tomar 12-16+ semanas."
+    }
+  ]
+}

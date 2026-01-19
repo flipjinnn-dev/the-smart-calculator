@@ -1,0 +1,91 @@
+{
+  "title": "Website-Kosten-Rechner",
+  "description": "Erhalten Sie genaue Schätzungen für Ihr Website-Entwicklungsprojekt basierend auf Funktionen, Designniveau und Funktionalität",
+  "labels": {
+    "providerQuestion": "Wer wird Ihre Website erstellen?",
+    "freelancer": "Freelancer",
+    "freelancerDesc": "Niedrigere Kosten, direkte Kommunikation",
+    "agency": "Agentur",
+    "agencyDesc": "Vollständiges Team, Qualitätssicherung",
+    "numberOfPages": "Anzahl der Seiten",
+    "designLevel": "Design-Qualität",
+    "copywritingPages": "Professionelles Copywriting",
+    "seoKeywords": "SEO-Keywords",
+    "responsiveDesign": "Responsives Design",
+    "responsiveDesc": "Mobile- und Tablet-Optimierung",
+    "databaseIntegration": "Datenbankintegration",
+    "ecommerce": "E-Commerce",
+    "cms": "Content-Management",
+    "calculateButton": "Kosten Berechnen"
+  },
+  "designLevels": {
+    "basic": "Basis ($2.000 - $3.000)",
+    "standard": "Standard ($3.000 - $5.000)",
+    "excellent": "Exzellent ($5.000 - $10.000)",
+    "worldClass": "Weltklasse ($10.000 - $15.000)"
+  },
+  "databaseLevels": {
+    "none": "Keine",
+    "basic": "Basis ($1.500)",
+    "advanced": "Erweitert ($3.500)",
+    "full": "Vollständige Integration ($6.000)"
+  },
+  "ecommerceLevels": {
+    "none": "Keine",
+    "basic": "Basis-Shop ($2.500)",
+    "standard": "Standard-Shop ($5.000)",
+    "advanced": "Erweiterter Shop ($10.000)",
+    "full": "Vollständiger E-Commerce ($15.000)"
+  },
+  "cmsOptions": {
+    "none": "Keine",
+    "wordpress": "WordPress ($1.000)",
+    "custom": "Benutzerdefiniertes CMS ($3.500)",
+    "enterprise": "Enterprise CMS ($7.500)"
+  },
+  "results": {
+    "title": "Ihre Schätzung",
+    "totalInvestment": "Gesamtinvestition",
+    "expectedRange": "Erwartete Spanne",
+    "breakdown": "Aufschlüsselung",
+    "baseDesign": "Basis-Design",
+    "pages": "Zusätzliche Seiten",
+    "copywriting": "Copywriting",
+    "seoKeywords": "SEO",
+    "responsive": "Responsiv",
+    "database": "Datenbank",
+    "ecommerce": "E-Commerce",
+    "cmsSetup": "CMS",
+    "hosting": "Hosting (1 Jahr)",
+    "maintenance": "Wartung",
+    "freelancerRate": "Freelancer-Tarif",
+    "agencyRate": "Agentur-Tarif",
+    "readyTitle": "Bereit zum Berechnen?",
+    "readyDesc": "Konfigurieren Sie Ihre Anforderungen und klicken Sie auf Berechnen",
+    "notesTitle": "Wichtige Hinweise",
+    "note1": "Basierend auf {provider}-Tarifen",
+    "note2": "Kosten variieren je nach Standort",
+    "note3": "Holen Sie 2-3 Angebote zum Vergleich ein"
+  },
+  "descriptions": {
+    "pages": "Wie viele einzelne Seiten Ihre Website benötigt",
+    "designLevel": "Qualität und Komplexität des Designs",
+    "responsive": "Mobil-freundliches Layout",
+    "copywriting": "Professionelles SEO-optimiertes Texten",
+    "seoKeywords": "Keywords für SEO-Optimierung"
+  },
+  "notes": {
+    "title": "Wichtige Hinweise:",
+    "items": [
+      "Dies sind geschätzte Kosten basierend auf Industriestandards",
+      "Tatsächliche Kosten können je nach spezifischen Anforderungen variieren",
+      "Zeitrahmen und Komplexität beeinflussen die endgültige Preisgestaltung",
+      "Konsultieren Sie Entwickler für genaue Angebote"
+    ]
+  },
+  "cardTitles": {
+    "general": "Allgemeine Einstellungen",
+    "contentSeo": "Inhalt & SEO",
+    "features": "Erweiterte Funktionen"
+  }
+}

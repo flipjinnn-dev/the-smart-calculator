@@ -1,0 +1,39 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Break-Even-Analyse Verstehen",
+      "content": "Die Break-Even-Analyse ist ein grundlegendes Finanzinstrument, das Unternehmen hilft zu bestimmen, wann sie profitabel werden. Unser Break-Even-Rechner hilft Ihnen, den genauen Punkt zu finden, an dem Ihr Gesamtumsatz Ihren Gesamtkosten entspricht.\n\n**Dieser Rechner ist wichtig für:**\n- Planung neuer Geschäfte\n- Produkteinführungsentscheidungen\n- Entwicklung von Preisstrategien\n- Finanzprognosen"
+    },
+    {
+      "heading": "Hauptformel Erklärt",
+      "content": "### Break-Even-Einheiten-Formel\n\nDie grundlegende Formel zur Berechnung des Break-Even-Punkts in Einheiten:\n\n$$Q_{BE} = \\frac{FC}{P - VC}$$\n\nWo:\n- **Q_BE** = Break-Even-Menge (Einheiten)\n- **FC** = Fixkosten\n- **P** = Verkaufspreis pro Einheit\n- **VC** = Variable Kosten pro Einheit\n\n### Break-Even-Umsatz-Formel\n\n$$R_{BE} = Q_{BE} \\times P$$"
+    },
+    {
+      "heading": "Deckungsbeitrag Erklärt",
+      "content": "Der Deckungsbeitrag ist der Betrag, den jede Einheit zur Deckung der Fixkosten beiträgt:\n\n$$CM = P - VC$$\n\n### Deckungsbeitrag in Prozent\n\n$$CM\\% = \\frac{P - VC}{P} \\times 100$$\n\n**Warum es wichtig ist:**\n- Höhere Marge = weniger Einheiten zum Break-Even erforderlich\n- Zeigt Rentabilitätspotenzial pro Einheit\n- Hilft bei Preisentscheidungen"
+    },
+    {
+      "heading": "Praktisches Beispiel",
+      "content": "**Szenario:** Kleine Bäckerei, die handwerkliches Brot verkauft\n\n**Gegeben:**\n- Fixkosten (FC) = €10.000/Monat\n- Variable Kosten pro Brot (VC) = €2,50\n- Verkaufspreis pro Brot (P) = €6,00\n\n**Berechnung:**\n- Deckungsbeitrag: €6,00 - €2,50 = €3,50\n- Break-Even-Einheiten: €10.000 / €3,50 = 2.857 Brote\n- Break-Even-Umsatz: 2.857 × €6,00 = €17.142\n\n**Interpretation:** Die Bäckerei muss 2.857 Brote pro Monat verkaufen, um die Gewinnschwelle zu erreichen."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist ein guter Deckungsbeitrag?",
+      "a": "Ein guter Deckungsbeitrag variiert je nach Branche. Im Allgemeinen gelten 40-60% als gesund für Produktgeschäfte, während Dienstleistungsunternehmen oft höhere Margen haben (60-80%)."
+    },
+    {
+      "q": "Wie oft sollte ich meinen Break-Even-Punkt neu berechnen?",
+      "a": "Berechnen Sie neu, wenn es eine signifikante Änderung gibt bei: Fixkosten, variablen Kosten oder Verkaufspreisen. Für wachsende Unternehmen werden vierteljährliche Überprüfungen empfohlen."
+    },
+    {
+      "q": "Kann ich Break-Even-Analyse für mehrere Produkte verwenden?",
+      "a": "Ja, aber Sie müssen einen gewichteten durchschnittlichen Deckungsbeitrag basierend auf Ihrem Produktmix berechnen."
+    },
+    {
+      "q": "Wie reduziere ich meinen Break-Even-Punkt?",
+      "a": "Vier Hauptstrategien: 1) Fixkosten reduzieren, 2) Variable Kosten reduzieren, 3) Verkaufspreis erhöhen, oder 4) Produktmix verbessern."
+    }
+  ]
+}

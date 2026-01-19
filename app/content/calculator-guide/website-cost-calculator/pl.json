@@ -1,0 +1,39 @@
+{
+  "color": "cyan",
+  "sections": [
+    {
+      "heading": "Zrozumienie Kosztów Tworzenia Stron Internetowych",
+      "content": "Koszty tworzenia stron internetowych znacznie się różnią w zależności od złożoności, funkcji i wymagań projektowych. Ten kalkulator pomaga oszacować koszty, rozkładając każdy komponent nowoczesnego projektu strony internetowej."
+    },
+    {
+      "heading": "Formuła Kosztów",
+      "content": "Całkowity koszt strony internetowej jest obliczany przy użyciu modelu agregacji opartego na funkcjach:\n\n$$\\text{Całkowity Koszt} = C_{\\text{projekt}} + C_{\\text{strony}} + C_{\\text{SEO}} + C_{\\text{ecommerce}} + C_{\\text{responsywny}} + C_{\\text{baza danych}} + C_{\\text{CMS}}$$"
+    },
+    {
+      "heading": "Wpływ Poziomu Projektu",
+      "content": "Poziom projektu jest głównym czynnikiem kosztów:\n\n**Podstawowy ($2.000-$3.000):** Projekt oparty na szablonie z minimalną personalizacją\n\n**Standardowy ($3.000-$5.000):** Niestandardowy projekt o umiarkowanej złożoności\n\n**Doskonały ($5.000-$10.000):** Wyrafinowany projekt z zaawansowanymi interakcjami\n\n**Światowej Klasy ($10.000-$15.000):** Premium projekt z najnowocześniejszym UX"
+    },
+    {
+      "heading": "Zaawansowane Funkcje",
+      "content": "**Integracja Bazy Danych:** Podstawowa, Zaawansowana lub Pełna\n\n**E-commerce:** Od podstawowego sklepu do pełnej platformy\n\n**Opcje CMS:** WordPress, Niestandardowy lub Enterprise"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak dokładne są te szacunki kosztów?",
+      "a": "Te szacunki są oparte na standardach branżowych. Rzeczywiste koszty mogą się różnić o ±15% w zależności od szczególnych potrzeb, harmonogramu i złożoności projektu."
+    },
+    {
+      "q": "Co nie jest uwzględnione w tym szacunku?",
+      "a": "Ten kalkulator nie zawiera: bieżących kosztów utrzymania, rejestracji domeny, hostingu, certyfikatów SSL, integracji API stron trzecich i wsparcia po uruchomieniu."
+    },
+    {
+      "q": "Czy powinienem wybrać WordPress czy niestandardowy CMS?",
+      "a": "WordPress jest idealny dla stron z dużą ilością treści i małych firm. Niestandardowy CMS jest lepszy dla unikalnych przepływów pracy i specyficznych wymagań biznesowych."
+    },
+    {
+      "q": "Ile czasu zajmuje typowy projekt strony internetowej?",
+      "a": "Harmonogram się różni: Podstawowe strony trwają 2-4 tygodnie, Standardowe 4-8 tygodni, Doskonałe 8-12 tygodni, a projekty Światowej Klasy mogą trwać 12-16+ tygodni."
+    }
+  ]
+}

@@ -74,7 +74,8 @@ export default async function BlogPostLayout({
   const baseUrl = 'https://www.thesmartcalculator.com';
   const blogUrl = `${baseUrl}/${slug}`;
 
-  const jsonLdSchema = {
+  // Default schema
+  const defaultSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": post.title,
@@ -99,6 +100,25 @@ export default async function BlogPostLayout({
       "@id": blogUrl,
     },
   };
+
+  // Use custom schema from Sanity if available, otherwise use default
+  let jsonLdSchema: any = defaultSchema;
+  
+  if (post.schemaMarkup?.code) {
+    try {
+      // Trim whitespace and validate JSON
+      const schemaCode = post.schemaMarkup.code.trim();
+      if (schemaCode) {
+        jsonLdSchema = JSON.parse(schemaCode);
+      }
+    } catch (error) {
+      console.error('❌ Invalid JSON in schema markup for blog:', post.slug);
+      console.error('Error details:', error);
+      console.error('Schema content preview:', post.schemaMarkup.code.substring(0, 200));
+      // Use default schema on error
+      jsonLdSchema = defaultSchema;
+    }
+  }
 
   return (
     <>

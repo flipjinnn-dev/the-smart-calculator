@@ -21,6 +21,10 @@ export interface BlogPost {
   metaTitle?: string;
   metaDescription?: string;
   keywords?: string;
+  schemaMarkup?: {
+    language: string;
+    code: string;
+  };
 }
 
 export async function getAllBlogPosts(): Promise<BlogPost[]> {

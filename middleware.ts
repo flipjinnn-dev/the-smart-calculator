@@ -110,13 +110,17 @@ export const urlMappings = {
     'gerador-de-numero-aleatorio': 'random-number-generator',
     'matematica': 'maths',
     'outro': 'other-calculators',
+    'software': 'software',
+    'negocios': 'business',
     'calculadora-de-funcao-por-partes-e-graficador': 'piecewise-function-calculator-grapher',
     'calculadora-de-projecao-ortogonal': 'orthogonal-projection-calculator',
     'calculadora-de-calorias-de-rucking': 'rucking-calorie-calculator',
     'saude': 'health',
     'simulador-da-previdencia': 'social-security-calculator',
     'simulador-de-cartao-de-credito': 'credit-card-payoff-calculator',
-    'simulador-hipoteca': 'mortgage-calculator'
+    'simulador-hipoteca': 'mortgage-calculator',
+    'calculadora-de-custo-de-site': 'website-cost-calculator',
+    'calculadora-de-ponto-de-equilibrio': 'break-even-calculator'
   },
   'pl': {
     'pl-slug':'en-slug',
@@ -231,7 +235,11 @@ export const urlMappings = {
     'podatek-od-nieruchomosci-kalkulator': 'estate-tax-calculator',
     'zdrowie': 'health',
     'zywnosc': 'food',
+    'oprogramowanie': 'software',
+    'biznes': 'business',
     'kalkulator-wynagrodzen': 'salary-calculator',
+    'kalkulator-kosztow-strony-internetowej': 'website-cost-calculator',
+    'kalkulator-progu-rentownosci':'break-even-calculator'
   },
   'de': {
     'de-slug':'en-slug',
@@ -242,6 +250,8 @@ export const urlMappings = {
     'mathe': 'maths',
     'physik': 'physics',
     'sport': 'sports',
+    'software': 'software',
+    'geschaeft': 'business',
     'abschleppkosten-rechner': 'towing-estimate-calculator',
     'quadratwurzel-kurven-rechner': 'square-root-curve-calculator',
     'alter-rechner': 'age-calculator',
@@ -347,6 +357,8 @@ export const urlMappings = {
     'zinsrechner': 'interest-calculator',
     'zufall-zahl-generator-rechner': 'random-number-generator',
     'orthogonale-projektionsrechner': 'orthogonal-projection-calculator',
+    'website-kosten-rechner': 'website-cost-calculator',
+    'break-even-rechner': 'break-even-calculator'
   },
   'es': {
     'es-slug':'en-slug',
@@ -358,6 +370,8 @@ export const urlMappings = {
     'alimentos': 'food',
     'deportes': 'sports',
     'otra': 'other-calculators',
+    'software': 'software',
+    'negocios': 'business',
     'simulador-de-hipoteca': 'mortgage-calculator',
     'calculadora-financiera': 'finance-calculator',
     'calculadora-de-401k': '401k-calculator',
@@ -462,6 +476,8 @@ export const urlMappings = {
     'calculadora-de-calorias-de-rucking': 'rucking-calorie-calculator',
     'calculadora-de-curva-de-raiz-cuadrada': 'square-root-curve-calculator',
     'calculadora-de-costos-de-remolque': 'towing-estimate-calculator',
+    'calculadora-de-costo-de-sitio-web': 'website-cost-calculator',
+    'calculadora-de-punto-de-equilibrio':'break-even-calculator'
   }
 } as const;
 
@@ -571,6 +587,8 @@ export const reverseUrlMappings = {
     'size-to-weight-rectangular-cuboid-calculator': 'calculadora-de-tamanho-para-peso-cuboide-retangular',
     'social-security-calculator': 'simulador-da-previdencia',
     'sports': 'esportes',
+    'software': 'software',
+    'business': 'negocios',
     'square-feet-to-cubic-yards-calculator': 'calculadora-de-pes-quadrados-para-jardas-cubicas',
     'square-root-curve-calculator': 'calculadora-de-curva-de-raiz-quadrada',
     'target-heart-rate-calculator': 'calculadora-de-frequencia-cardiaca-alvo',
@@ -579,7 +597,9 @@ export const reverseUrlMappings = {
     'towing-estimate-calculator': 'calculadora-de-custo-de-reboque',
     'velocity-calculator': 'calculadora-de-velocidade',
     'volume-calculator': 'calculadora-de-volume',
-    'weight-watchers-points-calculator': 'calculadora-de-pontos-vigilantes-do-peso'
+    'weight-watchers-points-calculator': 'calculadora-de-pontos-vigilantes-do-peso',
+    'website-cost-calculator': 'calculadora-de-custo-de-site',
+    'break-even-calculator': 'calculadora-de-ponto-de-equilibrio'
   },
   'pl': {
     'en-slug':'pl-slug',
@@ -686,6 +706,8 @@ export const reverseUrlMappings = {
     'size-to-weight-rectangular-cuboid-calculator': 'kalkulator-rozmiar-do-wagi-prostokatny-prostopadloscian-kalkulador',
     'social-security-calculator': 'kalkulator-zus',
     'sports': 'lekkoatletyka',
+    'software': 'oprogramowanie',
+    'business': 'biznes',
     'square-feet-to-cubic-yards-calculator': 'kalkulator-kwadradowy-stopy-do-szescienne-jards-kalkulador',
     'square-root-curve-calculator': 'kalkulator-krzywej-pierwiastka-kwadratowego',
     'target-heart-rate-calculator': 'kalkulator-strefy-tetna',
@@ -695,6 +717,8 @@ export const reverseUrlMappings = {
     'velocity-calculator': 'kalkulator-predkosci',
     'volume-calculator': 'kalkulator-objetosci',
     'weight-watchers-points-calculator': 'kalkulator-punktow-weight-watchers',
+    'website-cost-calculator': 'kalkulator-kosztow-strony-internetowej',
+    'break-even-calculator': 'kalkulator-progu-rentownosci'
   },
   'de': {
     'en-slug':'de-slug',
@@ -800,6 +824,8 @@ export const reverseUrlMappings = {
     'size-to-weight-rectangular-cuboid-calculator': 'grobe-to-gewicht-rechteckig-quader-rechner',
     'social-security-calculator': 'sozialversicherungsrechner',
     'sports': 'sport',
+    'software': 'software',
+    'business': 'geschaeft',
     'square-feet-to-cubic-yards-calculator': 'quadrat-fub-to-kubik-yards-rechner',
     'square-root-curve-calculator': 'quadratwurzel-kurven-rechner',
     'target-heart-rate-calculator': 'herzfrequenz-rechner',
@@ -809,6 +835,8 @@ export const reverseUrlMappings = {
     'velocity-calculator': 'geschwindigkeitsrechner',
     'volume-calculator': 'volumenrechner',
     'weight-watchers-points-calculator': 'weight-watchers-punkte-berechnen',
+    'website-cost-calculator': 'website-kosten-rechner',
+    'break-even-calculator': 'break-even-rechner'
   },
   'es': {
     'en-slug':'es-slug',
@@ -819,6 +847,8 @@ export const reverseUrlMappings = {
     'construction': 'construccion',
     'food': 'alimentos',
     'sports': 'deportes',
+    'software': 'software',
+    'business': 'negocios',
     'other-calculators': 'otra',
     'mortgage-calculator': 'simulador-de-hipoteca',
     'finance-calculator': 'calculadora-financiera',
@@ -923,6 +953,8 @@ export const reverseUrlMappings = {
     'towing-estimate-calculator': 'calculadora-de-costos-de-remolque',
     'square-root-curve-calculator': 'calculadora-de-curva-de-raiz-cuadrada',
     'rucking-calorie-calculator': 'calculadora-de-calorias-de-rucking',
+    'website-cost-calculator': 'calculadora-de-costo-de-sitio-web',
+    'break-even-calculator': 'calculadora-de-punto-de-equilibrio'
   }
 } as const;
 

@@ -1,0 +1,44 @@
+{
+  "title": "Break-Even-Rechner",
+  "description": "Berechnen Sie den Punkt, an dem Ihr Gesamtumsatz den Gesamtkosten entspricht, und finden Sie heraus, wann Ihr Unternehmen profitabel wird",
+  "labels": {
+    "fixedCosts": "Fixkosten",
+    "variableCostPerUnit": "Variable Kosten pro Einheit",
+    "sellingPricePerUnit": "Verkaufspreis pro Einheit",
+    "targetUnits": "Zieleinheiten",
+    "optional": "Optional",
+    "calculateButton": "Break-Even Berechnen"
+  },
+  "cardTitles": {
+    "costs": "Kosteninformationen",
+    "pricing": "Preisinformationen"
+  },
+  "descriptions": {
+    "fixedCosts": "Kosten, die sich nicht mit der Produktion ändern (Miete, Gehälter usw.)",
+    "variableCostPerUnit": "Kosten, die sich pro Produkt ändern (Materialien, Arbeit pro Einheit)",
+    "sellingPricePerUnit": "Preis, zu dem Sie eine Einheit verkaufen",
+    "targetUnits": "Berechnen Sie den Gewinn bei einer bestimmten Anzahl von Einheiten"
+  },
+  "results": {
+    "title": "Break-Even-Analyse",
+    "breakEvenUnits": "Break-Even-Einheiten",
+    "unitsNeeded": "Einheiten benötigt",
+    "breakEvenRevenue": "Break-Even-Umsatz",
+    "details": "Details",
+    "contributionMargin": "Deckungsbeitrag",
+    "contributionMarginPercent": "Marge %",
+    "profitAtTarget": "Gewinn beim Ziel",
+    "notesTitle": "Wichtige Erkenntnisse",
+    "note1": "Einheiten zum Break-Even erforderlich",
+    "note2": "Jede Einheit trägt zu den Fixkosten bei",
+    "note3": "Nach dem Break-Even trägt jede Einheit zum Gewinn bei",
+    "readyTitle": "Bereit zum Berechnen?",
+    "readyDesc": "Geben Sie Ihre Kosten und Preise ein und klicken Sie auf Berechnen"
+  },
+  "errors": {
+    "title": "Berechnung nicht möglich",
+    "invalidInput": "Bitte geben Sie für alle Felder gültige Zahlen ein",
+    "negativeValues": "Alle Werte müssen positiv sein",
+    "priceTooLow": "Der Verkaufspreis muss höher sein als die variablen Kosten pro Einheit. Kein Break-Even möglich."
+  }
+}

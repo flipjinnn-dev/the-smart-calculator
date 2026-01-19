@@ -1,0 +1,39 @@
+{
+  "color": "cyan",
+  "sections": [
+    {
+      "heading": "Website-Entwicklungskosten verstehen",
+      "content": "Die Kosten für die Website-Entwicklung variieren erheblich je nach Komplexität, Funktionen und Designanforderungen. Dieser Rechner hilft Ihnen, Kosten zu schätzen, indem er jede Komponente eines modernen Website-Projekts aufschlüsselt."
+    },
+    {
+      "heading": "Kostenformel",
+      "content": "Die Gesamtkosten der Website werden mit einem funktionsbasierten Aggregationsmodell berechnet:\n\n$$\\text{Gesamtkosten} = C_{\\text{Design}} + C_{\\text{Seiten}} + C_{\\text{SEO}} + C_{\\text{E-Commerce}} + C_{\\text{Responsiv}} + C_{\\text{Datenbank}} + C_{\\text{CMS}}$$"
+    },
+    {
+      "heading": "Auswirkungen des Design-Niveaus",
+      "content": "Das Design-Niveau ist der Hauptkostentreiber:\n\n**Basis ($2.000-$3.000):** Vorlagenbasiertes Design mit minimaler Anpassung\n\n**Standard ($3.000-$5.000):** Individuelles Design mit mäßiger Komplexität\n\n**Exzellent ($5.000-$10.000):** Anspruchsvolles Design mit erweiterten Interaktionen\n\n**Weltklasse ($10.000-$15.000):** Premium-Design mit modernster UX"
+    },
+    {
+      "heading": "Erweiterte Funktionen",
+      "content": "**Datenbankintegration:** Basis, Erweitert oder Vollständig\n\n**E-Commerce:** Von einfachem Shop bis zur vollständigen Plattform\n\n**CMS-Optionen:** WordPress, Benutzerdefiniert oder Enterprise"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie genau sind diese Kostenschätzungen?",
+      "a": "Diese Schätzungen basieren auf Industriestandards. Die tatsächlichen Kosten können je nach spezifischen Anforderungen, Zeitrahmen und Projektkomplexität um ±15% variieren."
+    },
+    {
+      "q": "Was ist nicht in dieser Schätzung enthalten?",
+      "a": "Dieser Rechner enthält nicht: laufende Wartungskosten, Domainregistrierung, Hosting, SSL-Zertifikate, Drittanbieter-API-Integrationen und Support nach der Veröffentlichung."
+    },
+    {
+      "q": "Sollte ich WordPress oder ein benutzerdefiniertes CMS wählen?",
+      "a": "WordPress ist ideal für inhaltsreiche Websites und kleine Unternehmen. Ein benutzerdefiniertes CMS eignet sich besser für einzigartige Workflows und spezifische Geschäftsanforderungen."
+    },
+    {
+      "q": "Wie lange dauert ein typisches Website-Projekt?",
+      "a": "Der Zeitrahmen variiert: Basis-Sites dauern 2-4 Wochen, Standard 4-8 Wochen, Exzellent 8-12 Wochen, und Weltklasse-Projekte können 12-16+ Wochen dauern."
+    }
+  ]
+}

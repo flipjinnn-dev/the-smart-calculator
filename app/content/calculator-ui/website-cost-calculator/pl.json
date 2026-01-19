@@ -1,0 +1,91 @@
+{
+  "title": "Kalkulator Kosztów Strony Internetowej",
+  "description": "Uzyskaj dokładne oszacowania kosztów projektu tworzenia strony internetowej na podstawie funkcji, poziomu projektu i funkcjonalności",
+  "labels": {
+    "providerQuestion": "Kto zbuduje Twoją stronę?",
+    "freelancer": "Freelancer",
+    "freelancerDesc": "Niższy koszt, bezpośrednia komunikacja",
+    "agency": "Agencja",
+    "agencyDesc": "Pełny zespół, zapewnienie jakości",
+    "numberOfPages": "Liczba Stron",
+    "designLevel": "Jakość Projektu",
+    "copywritingPages": "Profesjonalny Copywriting",
+    "seoKeywords": "Słowa Kluczowe SEO",
+    "responsiveDesign": "Responsywny Design",
+    "responsiveDesc": "Optymalizacja mobilna i tabletowa",
+    "databaseIntegration": "Integracja Bazy Danych",
+    "ecommerce": "E-commerce",
+    "cms": "Zarządzanie Treścią",
+    "calculateButton": "Oblicz Koszt"
+  },
+  "designLevels": {
+    "basic": "Podstawowy ($2.000 - $3.000)",
+    "standard": "Standardowy ($3.000 - $5.000)",
+    "excellent": "Doskonały ($5.000 - $10.000)",
+    "worldClass": "Światowej Klasy ($10.000 - $15.000)"
+  },
+  "databaseLevels": {
+    "none": "Brak",
+    "basic": "Podstawowa ($1.500)",
+    "advanced": "Zaawansowana ($3.500)",
+    "full": "Pełna Integracja ($6.000)"
+  },
+  "ecommerceLevels": {
+    "none": "Brak",
+    "basic": "Podstawowy Sklep ($2.500)",
+    "standard": "Standardowy Sklep ($5.000)",
+    "advanced": "Zaawansowany Sklep ($10.000)",
+    "full": "Pełny E-commerce ($15.000)"
+  },
+  "cmsOptions": {
+    "none": "Brak",
+    "wordpress": "WordPress ($1.000)",
+    "custom": "Niestandardowy CMS ($3.500)",
+    "enterprise": "Enterprise CMS ($7.500)"
+  },
+  "results": {
+    "title": "Twoje Oszacowanie",
+    "totalInvestment": "Całkowita Inwestycja",
+    "expectedRange": "Oczekiwany Zakres",
+    "breakdown": "Rozkład",
+    "baseDesign": "Projekt Podstawowy",
+    "pages": "Dodatkowe Strony",
+    "copywriting": "Copywriting",
+    "seoKeywords": "SEO",
+    "responsive": "Responsywny",
+    "database": "Baza Danych",
+    "ecommerce": "E-commerce",
+    "cmsSetup": "CMS",
+    "hosting": "Hosting (1 rok)",
+    "maintenance": "Konserwacja",
+    "freelancerRate": "Stawka Freelancera",
+    "agencyRate": "Stawka Agencji",
+    "readyTitle": "Gotowy do Obliczenia?",
+    "readyDesc": "Skonfiguruj swoje wymagania i kliknij oblicz",
+    "notesTitle": "Ważne Uwagi",
+    "note1": "Na podstawie stawek {provider}",
+    "note2": "Koszty różnią się w zależności od lokalizacji",
+    "note3": "Uzyskaj 2-3 wyceny do porównania"
+  },
+  "descriptions": {
+    "pages": "Ile pojedynczych stron potrzebuje Twoja witryna",
+    "designLevel": "Jakość i złożoność projektu",
+    "responsive": "Układ zoptymalizowany pod kątem urządzeń mobilnych",
+    "copywriting": "Profesjonalny copywriting zoptymalizowany pod SEO",
+    "seoKeywords": "Słowa kluczowe do optymalizacji SEO"
+  },
+  "notes": {
+    "title": "Ważne Uwagi:",
+    "items": [
+      "To są szacunkowe koszty oparte na standardach branżowych",
+      "Rzeczywiste koszty mogą się różnić w zależności od szczegółowych wymagań",
+      "Harmonogram i złożoność wpływają na ostateczną cenę",
+      "Skonsultuj się z programistami w celu uzyskania dokładnych wycen"
+    ]
+  },
+  "cardTitles": {
+    "general": "Ustawienia Ogólne",
+    "contentSeo": "Treść i SEO",
+    "features": "Zaawansowane Funkcje"
+  }
+}

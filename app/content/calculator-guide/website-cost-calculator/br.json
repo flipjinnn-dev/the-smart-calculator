@@ -1,0 +1,39 @@
+{
+  "color": "cyan",
+  "sections": [
+    {
+      "heading": "Compreendendo os Custos de Desenvolvimento de Sites",
+      "content": "Os custos de desenvolvimento de sites variam significativamente com base na complexidade, recursos e requisitos de design. Esta calculadora ajuda você a estimar custos dividindo cada componente de um projeto de site moderno."
+    },
+    {
+      "heading": "Fórmula de Custo",
+      "content": "O custo total do site é calculado usando um modelo de agregação baseado em recursos:\n\n$$\\text{Custo Total} = C_{\\text{design}} + C_{\\text{páginas}} + C_{\\text{SEO}} + C_{\\text{ecommerce}} + C_{\\text{responsivo}} + C_{\\text{banco de dados}} + C_{\\text{CMS}}$$"
+    },
+    {
+      "heading": "Impacto do Nível de Design",
+      "content": "O nível de design é o principal direcionador de custo:\n\n**Básico ($2.000-$3.000):** Design baseado em template com personalização mínima\n\n**Padrão ($3.000-$5.000):** Design personalizado com complexidade moderada\n\n**Excelente ($5.000-$10.000):** Design sofisticado com interações avançadas\n\n**Classe Mundial ($10.000-$15.000):** Design premium com UX de ponta"
+    },
+    {
+      "heading": "Recursos Avançados",
+      "content": "**Integração de Banco de Dados:** Básico, Avançado ou Completo\n\n**E-commerce:** De loja básica a plataforma completa\n\n**Opções de CMS:** WordPress, Personalizado ou Empresarial"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quão precisas são essas estimativas de custo?",
+      "a": "Estas estimativas são baseadas em padrões da indústria. Os custos reais podem variar em ±15% dependendo de necessidades específicas, cronograma e complexidade do projeto."
+    },
+    {
+      "q": "O que não está incluído nesta estimativa?",
+      "a": "Esta calculadora não inclui: custos de manutenção contínuos, registro de domínio, hospedagem, certificados SSL, integrações de API de terceiros e suporte pós-lançamento."
+    },
+    {
+      "q": "Devo escolher WordPress ou CMS personalizado?",
+      "a": "WordPress é ideal para sites com muito conteúdo e pequenas empresas. CMS personalizado é melhor para fluxos de trabalho únicos e requisitos específicos de negócios."
+    },
+    {
+      "q": "Quanto tempo leva um projeto de site típico?",
+      "a": "O cronograma varia: Sites básicos levam 2-4 semanas, Padrão 4-8 semanas, Excelente 8-12 semanas, e projetos de Classe Mundial podem levar 12-16+ semanas."
+    }
+  ]
+}

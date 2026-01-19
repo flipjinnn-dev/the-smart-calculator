@@ -224,6 +224,62 @@ const categoriesMeta = {
       slug: "otra",
       description: "Calculadoras gratuitas para la vida diaria, conversiones y necesidades únicas. Explore herramientas prácticas para todo tipo de cálculos cotidianos."
     }
+  },
+
+  'software': {
+    en: {
+      name: "Software, Web & IT Calculators",
+      slug: "software",
+      description: "Professional calculators for software development, web design, IT infrastructure, and technology projects. Estimate costs, plan resources, and optimize tech workflows."
+    },
+    br: {
+      name: "Calculadoras de Software, Web e TI",
+      slug: "software",
+      description: "Calculadoras profissionais para desenvolvimento de software, design web, infraestrutura de TI e projetos de tecnologia. Estime custos, planeje recursos e otimize fluxos de trabalho técnicos."
+    },
+    pl: {
+      name: "Kalkulatory Oprogramowania, Sieci i IT",
+      slug: "oprogramowanie",
+      description: "Profesjonalne kalkulatory do tworzenia oprogramowania, projektowania stron internetowych, infrastruktury IT i projektów technologicznych. Szacuj koszty, planuj zasoby i optymalizuj przepływy pracy."
+    },
+    de: {
+      name: "Software-, Web- und IT-Rechner",
+      slug: "software",
+      description: "Professionelle Rechner für Softwareentwicklung, Webdesign, IT-Infrastruktur und Technologieprojekte. Schätzen Sie Kosten, planen Sie Ressourcen und optimieren Sie technische Arbeitsabläufe."
+    },
+    es: {
+      name: "Calculadoras de Software, Web e IT",
+      slug: "software",
+      description: "Calculadoras profesionales para desarrollo de software, diseño web, infraestructura de IT y proyectos tecnológicos. Estima costos, planifica recursos y optimiza flujos de trabajo técnicos."
+    }
+  },
+
+  'business': {
+    en: {
+      name: "Business & Startups Calculators",
+      slug: "business",
+      description: "Essential calculators for entrepreneurs, startups, and business planning. Calculate valuations, ROI, growth metrics, and strategic business decisions."
+    },
+    br: {
+      name: "Calculadoras de Negócios e Startups",
+      slug: "negocios",
+      description: "Calculadoras essenciais para empreendedores, startups e planejamento de negócios. Calcule avaliações, ROI, métricas de crescimento e decisões estratégicas de negócios."
+    },
+    pl: {
+      name: "Kalkulatory Biznesowe i dla Startupów",
+      slug: "biznes",
+      description: "Niezbędne kalkulatory dla przedsiębiorców, startupów i planowania biznesowego. Oblicz wyceny, ROI, metryki wzrostu i strategiczne decyzje biznesowe."
+    },
+    de: {
+      name: "Geschäfts- und Startup-Rechner",
+      slug: "geschaeft",
+      description: "Wesentliche Rechner für Unternehmer, Startups und Geschäftsplanung. Berechnen Sie Bewertungen, ROI, Wachstumsmetriken und strategische Geschäftsentscheidungen."
+    },
+    es: {
+      name: "Calculadoras de Negocios y Startups",
+      slug: "negocios",
+      description: "Calculadoras esenciales para emprendedores, startups y planificación empresarial. Calcula valoraciones, ROI, métricas de crecimiento y decisiones estratégicas de negocio."
+    }
   }
 };
 

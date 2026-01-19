@@ -1,0 +1,63 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Website Cost Calculator",
+      "content": "Our Website Cost Calculator is designed to give you a clear, transparent, and realistic estimate of your website development cost. Each option in the calculator directly affects the final price, development time, and complexity of your website.\n\n**Below is a complete explanation of every calculator option**, so you understand what you're paying for and why."
+    },
+    {
+      "heading": "Who Will Build Your Website?",
+      "content": "Choosing the right development option is the first and most important decision, as it impacts cost, quality, support, and scalability.\n\n### Freelancer Website Development\n\nFreelancers are usually individual developers working independently.\n\n**Best for:**\n- Small websites\n- Personal projects\n- Tight budgets\n\n**Cost Impact:**\n- Lower upfront cost\n- Flexible pricing\n\n**Limitations:**\n- Limited availability\n- Slower delivery for large projects\n- No dedicated support team\n\n👉 Selecting **Freelancer** reduces your estimated cost but may increase project risk for complex websites.\n\n### Agency Website Development\n\nAgencies have a dedicated team of designers, developers, and project managers.\n\n**Best for:**\n- Business websites\n- Corporate projects\n- Long-term scalability\n\n**Cost Impact:**\n- Higher cost due to team involvement\n- Better quality assurance\n\n**Benefits:**\n- Professional UI/UX design\n- Faster delivery\n- Ongoing support & maintenance\n\n👉 Selecting **Agency** increases cost but ensures reliability and professional execution."
+    },
+    {
+      "heading": "General Website Settings",
+      "content": "These are the core factors that define your website's size and complexity.\n\n### Number of Pages\n\nThe number of pages directly affects:\n- Design workload\n- Development time\n- Content creation cost\n\n**Typical examples:**\n- **1–5 pages:** Landing page or small business website\n- **6–10 pages:** Company profile website\n- **10–20 pages:** Corporate or service-based website\n- **20+ pages:** Enterprise or content-heavy platform\n\n👉 **More pages = more design + more development + higher cost.**\n\n### Design Quality Level\n\nDesign quality determines how professional and visually appealing your website will look.\n\n**Basic Design:**\n- Template-based layout\n- Minimal customization\n- Suitable for simple projects\n\n**Standard Design:**\n- Custom color scheme\n- Modern UI elements\n- Balanced cost & quality\n\n**Premium Design:**\n- Fully custom UI/UX\n- Advanced animations\n- Brand-focused design\n\n👉 **Higher design quality increases development time and total cost.**\n\n### Responsive Design (Mobile-Friendly)\n\nResponsive design ensures your website works perfectly on:\n- Smartphones\n- Tablets\n- Desktops\n\n**Why it matters:**\n- Google ranking factor\n- Better user experience\n- Higher conversion rates\n\n👉 **Responsive design is highly recommended and considered standard for modern websites.**"
+    },
+    {
+      "heading": "Content & SEO Configuration",
+      "content": "Content and SEO play a major role in visibility and conversions.\n\n### Professional Copywriting\n\nIf you don't have content, our calculator includes professional copywriting services.\n\n**Includes:**\n- SEO-friendly content\n- Clear call-to-actions\n- Industry-relevant tone\n\n**Pricing Model:**\n- Charged per page\n- Ideal for businesses & startups\n\n👉 **More pages = higher content cost.**\n\n### SEO Keyword Targeting\n\nSEO keyword targeting helps your website rank on Google.\n\n**Includes:**\n- Keyword research\n- Search intent analysis\n- On-page optimization\n\n**Examples:**\n- Local service keywords\n- Product-based keywords\n- Informational blog keywords\n\n👉 **More keywords = better SEO coverage but higher cost.**"
+    },
+    {
+      "heading": "Advanced Website Features",
+      "content": "Advanced features increase functionality and backend complexity.\n\n### Database Integration\n\nRequired for websites that store or process data.\n\n**Common use cases:**\n- Contact forms\n- User accounts\n- Dashboards\n- CRM integrations\n\n👉 **Database integration increases backend development cost.**\n\n### E-Commerce Functionality\n\nE-commerce functionality is essential for selling products or services online.\n\n**Includes:**\n- Product management\n- Shopping cart\n- Checkout system\n- Payment gateways\n- Order tracking\n\n👉 **Selecting e-commerce significantly increases cost and timeline.**\n\n### Content Management System (CMS)\n\nA CMS allows you to update content without technical knowledge.\n\n**Options include:**\n- Static website (no CMS)\n- WordPress CMS\n- Custom CMS solution\n\n**Benefits:**\n- Easy content updates\n- Blog management\n- Page editing\n\n👉 **CMS-based websites cost more than static websites but offer flexibility.**"
+    },
+    {
+      "heading": "Website Cost Estimation & Timeline",
+      "content": "After configuring all options, the calculator provides:\n\n- **Estimated website development cost**\n- **Approximate delivery timeline**\n- **Feature summary** based on selections\n\nThis allows you to plan your budget confidently before contacting developers or agencies."
+    },
+    {
+      "heading": "Why Our Website Cost Calculator Is More Accurate",
+      "content": "✓ Feature-based calculation\n\n✓ Industry-standard pricing logic\n\n✓ Beginner-friendly explanations\n\n✓ No hidden assumptions\n\n✓ Based on real-world development costs"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How close is this estimate to the final price?",
+      "a": "The estimate reflects average market pricing. Custom integrations or unique requirements may change final pricing."
+    },
+    {
+      "q": "Can I change options later?",
+      "a": "Yes, you can adjust selections anytime to see how cost and timeline change."
+    },
+    {
+      "q": "Is this suitable for large projects?",
+      "a": "Yes, the calculator supports enterprise-level websites with advanced features."
+    },
+    {
+      "q": "Does this include maintenance costs?",
+      "a": "No, this calculator focuses on development cost only. Maintenance can be calculated separately."
+    },
+    {
+      "q": "Can agencies use this calculator?",
+      "a": "Yes, agencies can use it to provide transparent estimates to clients."
+    },
+    {
+      "q": "What does the estimate include?",
+      "a": "It includes development cost only (design, features, content, SEO). Hosting/maintenance not included."
+    },
+    {
+      "q": "Is the estimate based on local pricing?",
+      "a": "It reflects average market pricing; local rates may vary depending on location and requirements."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Kalkulator Progu Rentowności",
+  "description": "Oblicz punkt, w którym całkowite przychody równają się całkowitym kosztom i dowiedz się, kiedy Twoja firma staje się rentowna",
+  "labels": {
+    "fixedCosts": "Koszty Stałe",
+    "variableCostPerUnit": "Koszt Zmienny na Jednostkę",
+    "sellingPricePerUnit": "Cena Sprzedaży na Jednostkę",
+    "targetUnits": "Docelowe Jednostki",
+    "optional": "Opcjonalne",
+    "calculateButton": "Oblicz Próg Rentowności"
+  },
+  "cardTitles": {
+    "costs": "Informacje o Kosztach",
+    "pricing": "Informacje o Cenach"
+  },
+  "descriptions": {
+    "fixedCosts": "Koszty, które nie zmieniają się z produkcją (czynsz, pensje itp.)",
+    "variableCostPerUnit": "Koszty, które zmieniają się na produkt (materiały, praca na jednostkę)",
+    "sellingPricePerUnit": "Cena, za którą sprzedajesz jedną jednostkę",
+    "targetUnits": "Oblicz zysk przy określonej liczbie jednostek"
+  },
+  "results": {
+    "title": "Analiza Progu Rentowności",
+    "breakEvenUnits": "Jednostki Rentowności",
+    "unitsNeeded": "jednostek potrzebnych",
+    "breakEvenRevenue": "Przychód Rentowności",
+    "details": "Szczegóły",
+    "contributionMargin": "Marża Kontrybucyjna",
+    "contributionMarginPercent": "Marża %",
+    "profitAtTarget": "Zysk przy Celu",
+    "notesTitle": "Kluczowe Spostrzeżenia",
+    "note1": "Jednostki potrzebne do rentowności",
+    "note2": "Każda jednostka przyczynia się do kosztów stałych",
+    "note3": "Po progu rentowności każda jednostka dodaje do zysku",
+    "readyTitle": "Gotowy do Obliczenia?",
+    "readyDesc": "Wprowadź swoje koszty i ceny, następnie kliknij oblicz"
+  },
+  "errors": {
+    "title": "Nie Można Obliczyć",
+    "invalidInput": "Proszę wprowadzić prawidłowe liczby dla wszystkich pól",
+    "negativeValues": "Wszystkie wartości muszą być dodatnie",
+    "priceTooLow": "Cena sprzedaży musi być wyższa niż koszt zmienny na jednostkę. Próg rentowności niemożliwy."
+  }
+}

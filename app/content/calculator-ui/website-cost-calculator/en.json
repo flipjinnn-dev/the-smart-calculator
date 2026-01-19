@@ -1,0 +1,91 @@
+{
+  "title": "Website Cost Calculator",
+  "description": "Get accurate estimates for your website development project based on features, design level, and functionality",
+  "labels": {
+    "providerQuestion": "Who will build your website?",
+    "freelancer": "Freelancer",
+    "freelancerDesc": "Lower cost, direct communication",
+    "agency": "Agency",
+    "agencyDesc": "Full team, quality assurance",
+    "numberOfPages": "Number of Pages",
+    "designLevel": "Design Quality",
+    "copywritingPages": "Professional Copywriting",
+    "seoKeywords": "SEO Keywords",
+    "responsiveDesign": "Responsive Design",
+    "responsiveDesc": "Mobile & tablet optimization",
+    "databaseIntegration": "Database Integration",
+    "ecommerce": "E-commerce",
+    "cms": "Content Management",
+    "calculateButton": "Calculate Cost"
+  },
+  "designLevels": {
+    "basic": "Basic ($2,000 - $3,000)",
+    "standard": "Standard ($3,000 - $5,000)",
+    "excellent": "Excellent ($5,000 - $10,000)",
+    "worldClass": "World Class ($10,000 - $15,000)"
+  },
+  "databaseLevels": {
+    "none": "None",
+    "basic": "Basic ($1,500)",
+    "advanced": "Advanced ($3,500)",
+    "full": "Full Integration ($6,000)"
+  },
+  "ecommerceLevels": {
+    "none": "None",
+    "basic": "Basic Store ($2,500)",
+    "standard": "Standard Store ($5,000)",
+    "advanced": "Advanced Store ($10,000)",
+    "full": "Full E-commerce ($15,000)"
+  },
+  "cmsOptions": {
+    "none": "None",
+    "wordpress": "WordPress ($1,000)",
+    "custom": "Custom CMS ($3,500)",
+    "enterprise": "Enterprise CMS ($7,500)"
+  },
+  "results": {
+    "title": "Your Estimate",
+    "totalInvestment": "Total Investment",
+    "expectedRange": "Expected Range",
+    "breakdown": "Breakdown",
+    "baseDesign": "Base Design",
+    "pages": "Additional Pages",
+    "copywriting": "Copywriting",
+    "seoKeywords": "SEO",
+    "responsive": "Responsive",
+    "database": "Database",
+    "ecommerce": "E-commerce",
+    "cmsSetup": "CMS",
+    "hosting": "Hosting (1 yr)",
+    "maintenance": "Maintenance",
+    "freelancerRate": "Freelancer Rate",
+    "agencyRate": "Agency Rate",
+    "readyTitle": "Ready to Calculate?",
+    "readyDesc": "Configure your requirements and click calculate",
+    "notesTitle": "Important Notes",
+    "note1": "Based on {provider} rates",
+    "note2": "Costs vary by location",
+    "note3": "Get 2-3 quotes for comparison"
+  },
+  "descriptions": {
+    "pages": "How many individual pages your site needs",
+    "designLevel": "Quality and complexity of design",
+    "responsive": "Mobile-friendly layout",
+    "copywriting": "Professional SEO-optimized content writing",
+    "seoKeywords": "Keywords for SEO optimization"
+  },
+  "notes": {
+    "title": "Important Notes:",
+    "items": [
+      "These are estimated costs based on industry standards",
+      "Actual costs may vary based on specific requirements",
+      "Timeline and complexity affect final pricing",
+      "Consult with developers for accurate quotes"
+    ]
+  },
+  "cardTitles": {
+    "general": "General Settings",
+    "contentSeo": "Content & SEO",
+    "features": "Advanced Features"
+  }
+}

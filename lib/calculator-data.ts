@@ -6,6 +6,7 @@ export interface Calculator {
   description: string
   href: string
   category: string
+  subcategory?: string
   popular?: boolean
 }
 
@@ -856,6 +857,33 @@ export const calculators: Calculator[] = [
     description: "Calculate subnets and IP ranges.",
     href: "/ip-subnet-calculator",
     category: "other",
+  },
+
+  // Software, Web & IT Calculators
+  {
+    id: "enterprise-seo-roi-calculator",
+    name: "Enterprise SEO ROI Calculator",
+    description: "Calculate the return on investment (ROI) for enterprise SEO.",
+    href: "/software/enterprise-seo-roi-calculator",
+    category: "software",
+  },
+  {
+    id: "website-cost-calculator",
+    name: "Website Cost Calculator",
+    description: "Estimate website development costs based on features, design level, and functionality.",
+    href: "/software/website-cost-calculator",
+    category: "software",
+    popular: true,
+  },
+
+  // Business & Startups Calculators
+  {
+    id: "break-even-calculator",
+    name: "Break-Even Calculator",
+    description: "Calculate break-even point in units and revenue to determine when your business becomes profitable.",
+    href: "/business/break-even-calculator",
+    category: "business",
+    popular: true,
   }
 ]
 
@@ -910,4 +938,31 @@ export function getAllCalculatorsByCategory(): Record<string, Calculator[]> {
 // New function to get calculator by name
 export function getCalculatorByName(name: string): Calculator | undefined {
   return calculators.find((calc) => calc.name === name);
+}
+
+// Helper functions for subcategories
+export function getCalculatorsBySubcategory(category: string, subcategory: string, language: string = 'en'): Calculator[] {
+  return calculators.filter((calc) => calc.category === category && calc.subcategory === subcategory).map(calc => {
+    const fileName = getCalculatorFileName(calc.id);
+    const localizedData = getLocalizedCalculatorData(fileName, language);
+
+    return {
+      ...calc,
+      name: localizedData.name,
+      description: localizedData.description,
+      href: getLocalizedCalculatorHref(fileName, language)
+    };
+  });
+}
+
+export function getSubcategoriesByCategory(category: string): string[] {
+  const subcategories = new Set<string>();
+  calculators
+    .filter((calc) => calc.category === category && calc.subcategory)
+    .forEach((calc) => {
+      if (calc.subcategory) {
+        subcategories.add(calc.subcategory);
+      }
+    });
+  return Array.from(subcategories);
 }

@@ -1,0 +1,44 @@
+{
+  "title": "Calculadora de Ponto de Equilíbrio",
+  "description": "Calcule o ponto onde sua receita total é igual aos custos totais e descubra quando seu negócio se torna lucrativo",
+  "labels": {
+    "fixedCosts": "Custos Fixos",
+    "variableCostPerUnit": "Custo Variável por Unidade",
+    "sellingPricePerUnit": "Preço de Venda por Unidade",
+    "targetUnits": "Unidades Alvo",
+    "optional": "Opcional",
+    "calculateButton": "Calcular Ponto de Equilíbrio"
+  },
+  "cardTitles": {
+    "costs": "Informações de Custo",
+    "pricing": "Informações de Preço"
+  },
+  "descriptions": {
+    "fixedCosts": "Custos que não mudam com a produção (aluguel, salários, etc.)",
+    "variableCostPerUnit": "Custos que mudam por produto (materiais, mão de obra por unidade)",
+    "sellingPricePerUnit": "Preço pelo qual você vende uma unidade",
+    "targetUnits": "Calcule o lucro em um número específico de unidades"
+  },
+  "results": {
+    "title": "Análise de Ponto de Equilíbrio",
+    "breakEvenUnits": "Unidades de Equilíbrio",
+    "unitsNeeded": "unidades necessárias",
+    "breakEvenRevenue": "Receita de Equilíbrio",
+    "details": "Detalhes",
+    "contributionMargin": "Margem de Contribuição",
+    "contributionMarginPercent": "Margem %",
+    "profitAtTarget": "Lucro no Alvo",
+    "notesTitle": "Principais Insights",
+    "note1": "Unidades necessárias para equilibrar",
+    "note2": "Cada unidade contribui para os custos fixos",
+    "note3": "Após o equilíbrio, cada unidade adiciona ao lucro",
+    "readyTitle": "Pronto para Calcular?",
+    "readyDesc": "Insira seus custos e preços, depois clique em calcular"
+  },
+  "errors": {
+    "title": "Não é Possível Calcular",
+    "invalidInput": "Por favor, insira números válidos para todos os campos",
+    "negativeValues": "Todos os valores devem ser positivos",
+    "priceTooLow": "O preço de venda deve ser maior que o custo variável por unidade. Nenhum ponto de equilíbrio é possível."
+  }
+}

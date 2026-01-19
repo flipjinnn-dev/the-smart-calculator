@@ -1,0 +1,75 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Understanding Break-Even Analysis",
+      "content": "Break-even analysis is a fundamental financial tool that helps businesses determine when they will start making profit. Our Break-Even Calculator helps you find the exact point where your total revenue equals your total costs - meaning you're neither making a profit nor a loss.\n\n**This calculator is essential for:**\n- New business planning\n- Product launch decisions\n- Pricing strategy development\n- Financial forecasting"
+    },
+    {
+      "heading": "What is Break-Even Point?",
+      "content": "The break-even point (BEP) is the level of sales at which total revenues equal total costs. At this point:\n\n✓ **Total Revenue = Total Costs**\n\n✓ **Profit = Zero**\n\n✓ **Every unit sold after this point generates profit**\n\nUnderstanding your break-even point helps you set realistic sales targets and pricing strategies."
+    },
+    {
+      "heading": "Core Formula Explained",
+      "content": "### Break-Even Units Formula\n\nThe fundamental formula to calculate break-even point in units:\n\n$$Q_{BE} = \\frac{FC}{P - VC}$$\n\nWhere:\n- **Q_BE** = Break-Even Quantity (units)\n- **FC** = Fixed Costs\n- **P** = Selling Price per Unit\n- **VC** = Variable Cost per Unit\n\n### Break-Even Revenue Formula\n\nOnce you know the break-even units:\n\n$$R_{BE} = Q_{BE} \\times P$$\n\nWhere:\n- **R_BE** = Break-Even Revenue\n- **Q_BE** = Break-Even Units\n- **P** = Selling Price per Unit"
+    },
+    {
+      "heading": "Understanding the Components",
+      "content": "### Fixed Costs (FC)\n\nCosts that remain constant regardless of production volume:\n\n**Examples:**\n- Rent and lease payments\n- Salaries (fixed staff)\n- Insurance premiums\n- Equipment depreciation\n- License fees\n\n### Variable Costs (VC)\n\nCosts that change directly with production volume:\n\n**Examples:**\n- Raw materials\n- Direct labor (hourly wages)\n- Packaging\n- Shipping costs\n- Sales commissions\n\n### Selling Price (P)\n\nThe price at which you sell one unit of your product or service. This should cover both variable costs and contribute to fixed costs."
+    },
+    {
+      "heading": "Contribution Margin Explained",
+      "content": "### What is Contribution Margin?\n\nContribution margin is the amount each unit contributes toward covering fixed costs and generating profit:\n\n$$CM = P - VC$$\n\n### Contribution Margin Percentage\n\nExpressed as a percentage of selling price:\n\n$$CM\\% = \\frac{P - VC}{P} \\times 100$$\n\n**Why it matters:**\n- Higher margin = fewer units needed to break even\n- Shows profitability potential per unit\n- Helps in pricing decisions\n\n**Example:**\n- Selling Price: €60\n- Variable Cost: €40\n- Contribution Margin: €20 (€60 - €40)\n- CM%: 33.33% (20/60 × 100)"
+    },
+    {
+      "heading": "Practical Example",
+      "content": "Let's walk through a real-world example:\n\n**Scenario:** Small bakery selling artisan bread\n\n**Given:**\n- Fixed Costs (FC) = €10,000/month (rent, utilities, salaries)\n- Variable Cost per Loaf (VC) = €2.50 (flour, yeast, packaging)\n- Selling Price per Loaf (P) = €6.00\n\n**Calculation:**\n\n1. **Contribution Margin:**\n   - CM = €6.00 - €2.50 = €3.50\n\n2. **Break-Even Units:**\n   - Q_BE = €10,000 / €3.50 = 2,857 loaves\n\n3. **Break-Even Revenue:**\n   - R_BE = 2,857 × €6.00 = €17,142\n\n**Interpretation:**\nThe bakery needs to sell 2,857 loaves per month to break even. Every loaf sold beyond this generates €3.50 in profit."
+    },
+    {
+      "heading": "When Break-Even is Impossible",
+      "content": "Break-even analysis fails when:\n\n### Selling Price ≤ Variable Cost\n\nIf your selling price is equal to or less than your variable cost per unit:\n\n$$P \\leq VC \\Rightarrow \\text{No break-even possible}$$\n\n**Why?** You lose money on every unit sold, so you can never cover fixed costs.\n\n**Solution:**\n- Increase selling price\n- Reduce variable costs\n- Re-evaluate business model\n\n**Example of impossible break-even:**\n- Selling Price: €50\n- Variable Cost: €55\n- Result: You lose €5 on every sale"
+    },
+    {
+      "heading": "Using Break-Even for Decision Making",
+      "content": "### Pricing Decisions\n\nUse break-even analysis to test different price points:\n- Higher price = fewer units needed to break even\n- Lower price = more units needed but potentially higher volume\n\n### Cost Management\n\n**Reducing Fixed Costs:**\n- Lowers break-even point\n- Makes profitability easier to achieve\n\n**Reducing Variable Costs:**\n- Increases contribution margin\n- Improves profit per unit\n\n### Sales Targets\n\nSet realistic sales goals:\n- Minimum: Break-even units\n- Target: Break-even + desired profit margin\n- Stretch: Maximum market potential"
+    },
+    {
+      "heading": "Profit Analysis Beyond Break-Even",
+      "content": "### Calculating Target Profit\n\nTo find units needed for a specific profit target:\n\n$$Q_{target} = \\frac{FC + \\text{Target Profit}}{P - VC}$$\n\n**Example:**\n- Want €5,000 profit\n- Fixed Costs: €10,000\n- Contribution Margin: €20\n- Units needed: (€10,000 + €5,000) / €20 = 750 units\n\n### Total Profit Formula\n\nProfit at any sales level:\n\n$$\\text{Profit} = (P \\times Q) - (FC + VC \\times Q)$$\n\nSimplified:\n\n$$\\text{Profit} = (P - VC) \\times Q - FC$$"
+    },
+    {
+      "heading": "Limitations and Assumptions",
+      "content": "Break-even analysis assumes:\n\n⚠️ **All units are sold** (no inventory buildup)\n\n⚠️ **Costs are linear** (no economies of scale)\n\n⚠️ **Fixed costs remain constant** (within relevant range)\n\n⚠️ **Selling price doesn't change** with volume\n\n⚠️ **Product mix is constant** (single product or consistent mix)\n\n**In reality:**\n- Volume discounts may reduce variable costs\n- Bulk buying may lower prices\n- Fixed costs may step up at certain volumes\n- Market conditions affect pricing"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a good contribution margin?",
+      "a": "A good contribution margin varies by industry. Generally, 40-60% is considered healthy for product businesses, while service businesses often have higher margins (60-80%). The key is that your margin must be high enough to cover fixed costs at realistic sales volumes."
+    },
+    {
+      "q": "How often should I recalculate my break-even point?",
+      "a": "Recalculate whenever there's a significant change in: fixed costs (new lease, staff changes), variable costs (supplier price changes), or selling prices. For growing businesses, quarterly reviews are recommended."
+    },
+    {
+      "q": "Can I use break-even analysis for multiple products?",
+      "a": "Yes, but you need to calculate a weighted average contribution margin based on your product mix, or calculate break-even separately for each product line. Our calculator is designed for single products or consistent product mixes."
+    },
+    {
+      "q": "What if my fixed costs change with production volume?",
+      "a": "This is called a 'step cost'. You'll need to calculate multiple break-even points for different volume ranges. For example, if you need new equipment at 5,000 units, calculate BEP for volumes below and above that threshold separately."
+    },
+    {
+      "q": "How do I reduce my break-even point?",
+      "a": "Four main strategies: 1) Reduce fixed costs (cheaper rent, automation), 2) Reduce variable costs (better suppliers, efficiency), 3) Increase selling price (value addition, branding), or 4) Improve product mix (focus on higher-margin items)."
+    },
+    {
+      "q": "Is break-even analysis useful for service businesses?",
+      "a": "Absolutely! Service businesses often have lower variable costs and higher contribution margins. The 'unit' might be billable hours, projects, or clients. The same principles apply."
+    },
+    {
+      "q": "What's the difference between break-even and cash flow break-even?",
+      "a": "Traditional break-even includes non-cash expenses like depreciation. Cash flow break-even only considers actual cash in and out, excluding depreciation. For immediate viability, cash flow break-even is more relevant."
+    }
+  ]
+}

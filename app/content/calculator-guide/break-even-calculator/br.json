@@ -1,0 +1,39 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Compreendendo a Análise de Ponto de Equilíbrio",
+      "content": "A análise de ponto de equilíbrio é uma ferramenta financeira fundamental que ajuda as empresas a determinar quando começarão a lucrar. Nossa Calculadora de Ponto de Equilíbrio ajuda você a encontrar o ponto exato onde sua receita total é igual aos seus custos totais.\n\n**Esta calculadora é essencial para:**\n- Planejamento de novos negócios\n- Decisões de lançamento de produtos\n- Desenvolvimento de estratégia de preços\n- Previsão financeira"
+    },
+    {
+      "heading": "Fórmula Principal Explicada",
+      "content": "### Fórmula de Unidades de Equilíbrio\n\nA fórmula fundamental para calcular o ponto de equilíbrio em unidades:\n\n$$Q_{BE} = \\frac{FC}{P - VC}$$\n\nOnde:\n- **Q_BE** = Quantidade de Equilíbrio (unidades)\n- **FC** = Custos Fixos\n- **P** = Preço de Venda por Unidade\n- **VC** = Custo Variável por Unidade\n\n### Fórmula de Receita de Equilíbrio\n\n$$R_{BE} = Q_{BE} \\times P$$"
+    },
+    {
+      "heading": "Margem de Contribuição Explicada",
+      "content": "A margem de contribuição é o valor que cada unidade contribui para cobrir os custos fixos:\n\n$$CM = P - VC$$\n\n### Percentual de Margem de Contribuição\n\n$$CM\\% = \\frac{P - VC}{P} \\times 100$$\n\n**Por que isso importa:**\n- Margem maior = menos unidades necessárias para equilibrar\n- Mostra o potencial de lucratividade por unidade\n- Ajuda nas decisões de preços"
+    },
+    {
+      "heading": "Exemplo Prático",
+      "content": "**Cenário:** Padaria pequena vendendo pão artesanal\n\n**Dados:**\n- Custos Fixos (FC) = €10.000/mês\n- Custo Variável por Pão (VC) = €2,50\n- Preço de Venda por Pão (P) = €6,00\n\n**Cálculo:**\n- Margem de Contribuição: €6,00 - €2,50 = €3,50\n- Unidades de Equilíbrio: €10.000 / €3,50 = 2.857 pães\n- Receita de Equilíbrio: 2.857 × €6,00 = €17.142\n\n**Interpretação:** A padaria precisa vender 2.857 pães por mês para equilibrar."
+    }
+  ],
+  "faq": [
+    {
+      "q": "O que é uma boa margem de contribuição?",
+      "a": "Uma boa margem varia por indústria. Geralmente, 40-60% é considerado saudável para negócios de produtos, enquanto negócios de serviços frequentemente têm margens maiores (60-80%)."
+    },
+    {
+      "q": "Com que frequência devo recalcular meu ponto de equilíbrio?",
+      "a": "Recalcule sempre que houver uma mudança significativa em: custos fixos, custos variáveis ou preços de venda. Para negócios em crescimento, revisões trimestrais são recomendadas."
+    },
+    {
+      "q": "Posso usar análise de ponto de equilíbrio para múltiplos produtos?",
+      "a": "Sim, mas você precisa calcular uma margem de contribuição média ponderada baseada no seu mix de produtos."
+    },
+    {
+      "q": "Como reduzir meu ponto de equilíbrio?",
+      "a": "Quatro estratégias principais: 1) Reduzir custos fixos, 2) Reduzir custos variáveis, 3) Aumentar preço de venda, ou 4) Melhorar mix de produtos."
+    }
+  ]
+}

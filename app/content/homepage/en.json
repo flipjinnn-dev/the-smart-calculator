@@ -50,6 +50,22 @@
     "other": {
       "name": "Other",
       "description": "Miscellaneous calculators that don't fit into other categories"
+    },
+    "more-calculators": {
+      "name": "More Calculators",
+      "description": "Specialized calculators for software, web & IT, business, and startups"
+    },
+    "other-calculators": {
+      "name": "Other Calculators",
+      "description": "Free miscellaneous calculators for daily life, conversions, and unique needs"
+    },
+    "software": {
+      "name": "Software, Web & IT",
+      "description": "Professional calculators for software development, web design, and IT infrastructure"
+    },
+    "business": {
+      "name": "Business & Startups",
+      "description": "Essential calculators for entrepreneurs, startups, and business planning"
     }
   },
   "popular": {

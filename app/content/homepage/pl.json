@@ -50,6 +50,22 @@
     "other": {
       "name": "Inne",
       "description": "Różne kalkulatory, które nie pasują do innych kategorii"
+    },
+    "more-calculators": {
+      "name": "Więcej Kalkulatorów",
+      "description": "Specjalistyczne kalkulatory do oprogramowania, sieci i IT, biznesu i startupów"
+    },
+    "other-calculators": {
+      "name": "Inne Przydatne Kalkulatory",
+      "description": "Darmowe kalkulatory do codziennych zastosowań i konwersji"
+    },
+    "software": {
+      "name": "Oprogramowanie, Sieć i IT",
+      "description": "Profesjonalne kalkulatory do tworzenia oprogramowania, projektowania stron internetowych i infrastruktury IT"
+    },
+    "business": {
+      "name": "Biznes i Startupy",
+      "description": "Niezbędne kalkulatory dla przedsiębiorców, startupów i planowania biznesowego"
     }
   },
   "popular": {

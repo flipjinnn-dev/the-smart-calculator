@@ -1,0 +1,39 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Comprendiendo el Análisis de Punto de Equilibrio",
+      "content": "El análisis de punto de equilibrio es una herramienta financiera fundamental que ayuda a las empresas a determinar cuándo comenzarán a obtener ganancias. Nuestra Calculadora de Punto de Equilibrio le ayuda a encontrar el punto exacto donde sus ingresos totales igualan sus costos totales.\n\n**Esta calculadora es esencial para:**\n- Planificación de nuevos negocios\n- Decisiones de lanzamiento de productos\n- Desarrollo de estrategia de precios\n- Pronósticos financieros"
+    },
+    {
+      "heading": "Fórmula Principal Explicada",
+      "content": "### Fórmula de Unidades de Equilibrio\n\nLa fórmula fundamental para calcular el punto de equilibrio en unidades:\n\n$$Q_{BE} = \\frac{FC}{P - VC}$$\n\nDonde:\n- **Q_BE** = Cantidad de Equilibrio (unidades)\n- **FC** = Costos Fijos\n- **P** = Precio de Venta por Unidad\n- **VC** = Costo Variable por Unidad\n\n### Fórmula de Ingresos de Equilibrio\n\n$$R_{BE} = Q_{BE} \\times P$$"
+    },
+    {
+      "heading": "Margen de Contribución Explicado",
+      "content": "El margen de contribución es la cantidad que cada unidad contribuye para cubrir los costos fijos:\n\n$$CM = P - VC$$\n\n### Porcentaje de Margen de Contribución\n\n$$CM\\% = \\frac{P - VC}{P} \\times 100$$\n\n**Por qué importa:**\n- Mayor margen = menos unidades necesarias para equilibrar\n- Muestra el potencial de rentabilidad por unidad\n- Ayuda en decisiones de precios"
+    },
+    {
+      "heading": "Ejemplo Práctico",
+      "content": "**Escenario:** Pequeña panadería que vende pan artesanal\n\n**Datos:**\n- Costos Fijos (FC) = €10.000/mes\n- Costo Variable por Pan (VC) = €2,50\n- Precio de Venta por Pan (P) = €6,00\n\n**Cálculo:**\n- Margen de Contribución: €6,00 - €2,50 = €3,50\n- Unidades de Equilibrio: €10.000 / €3,50 = 2.857 panes\n- Ingresos de Equilibrio: 2.857 × €6,00 = €17.142\n\n**Interpretación:** La panadería necesita vender 2.857 panes por mes para equilibrar."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es un buen margen de contribución?",
+      "a": "Un buen margen varía según la industria. Generalmente, 40-60% se considera saludable para negocios de productos, mientras que los negocios de servicios a menudo tienen márgenes más altos (60-80%)."
+    },
+    {
+      "q": "¿Con qué frecuencia debo recalcular mi punto de equilibrio?",
+      "a": "Recalcule cuando haya un cambio significativo en: costos fijos, costos variables o precios de venta. Para negocios en crecimiento, se recomiendan revisiones trimestrales."
+    },
+    {
+      "q": "¿Puedo usar análisis de punto de equilibrio para múltiples productos?",
+      "a": "Sí, pero necesita calcular un margen de contribución promedio ponderado basado en su mezcla de productos."
+    },
+    {
+      "q": "¿Cómo reduzco mi punto de equilibrio?",
+      "a": "Cuatro estrategias principales: 1) Reducir costos fijos, 2) Reducir costos variables, 3) Aumentar precio de venta, o 4) Mejorar mezcla de productos."
+    }
+  ]
+}

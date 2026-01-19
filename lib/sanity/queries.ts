@@ -27,6 +27,7 @@ export const blogPostBySlugQuery = () => `
     metaTitle,
     metaDescription,
     keywords,
+    schemaMarkup,
     "featuredImage": featuredImage.asset->url,
     "featuredImageAlt": featuredImage.alt,
     publishedAt,

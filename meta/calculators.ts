@@ -3041,6 +3041,38 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calculadora, funciones, tramos, calcula, fácil, rápido, resuelve, instante, nuestra, precisa, simplifica, ejercicios, aprende, matemáticas, manera"
     }
   },
+  'website-cost-calculator': {
+    en: {
+      title: "Website Cost Calculator - Estimate Website Development Costs",
+      description: "Calculate website development costs based on features, design level, pages, SEO, e-commerce, and CMS. Get accurate estimates for your web project budget.",
+      slug: "/software/website-cost-calculator",
+      keywords: "website cost calculator, website development cost, web design pricing, website estimate, web development budget, website price calculator, e-commerce cost, CMS pricing"
+    },
+    pl: {
+      title: "Kalkulator Kosztów Strony Internetowej",
+      description: "Oblicz koszty tworzenia strony internetowej na podstawie funkcji, poziomu projektu, stron, SEO, e-commerce i CMS. Uzyskaj dokładne oszacowania budżetu.",
+      slug: "/pl/oprogramowanie/kalkulator-kosztow-strony-internetowej",
+      keywords: "kalkulator kosztów strony, koszt tworzenia strony, ceny web design, szacowanie strony, budżet strony internetowej, wycena strony"
+    },
+    br: {
+      title: "Calculadora de Custo de Site - Estime Desenvolvimento Web",
+      description: "Calcule custos de desenvolvimento de site com base em recursos, design, páginas, SEO, e-commerce e CMS. Obtenha estimativas precisas para seu orçamento.",
+      slug: "/br/software/calculadora-de-custo-de-site",
+      keywords: "calculadora custo site, custo desenvolvimento web, preço web design, orçamento site, estimativa website, preço e-commerce"
+    },
+    de: {
+      title: "Website-Kosten-Rechner - Webentwicklung Kosten Schätzen",
+      description: "Berechnen Sie Website-Entwicklungskosten basierend auf Funktionen, Design, Seiten, SEO, E-Commerce und CMS. Erhalten Sie genaue Budget-Schätzungen.",
+      slug: "/de/software/website-kosten-rechner",
+      keywords: "Website Kosten Rechner, Webentwicklung Kosten, Web Design Preise, Website Budget, E-Commerce Kosten, CMS Preise"
+    },
+    es: {
+      title: "Calculadora de Costo de Sitio Web - Estima Desarrollo Web",
+      description: "Calcula costos de desarrollo web según características, diseño, páginas, SEO, e-commerce y CMS. Obtén estimaciones precisas para tu presupuesto web.",
+      slug: "/es/software/calculadora-de-costo-de-sitio-web",
+      keywords: "calculadora costo sitio web, costo desarrollo web, precios diseño web, presupuesto website, estimación web, costo e-commerce"
+    }
+  },
   'enterprise-seo-roi-calculator': {
     en: {
       title: "Enterprise SEO ROI Calculator",
@@ -3423,6 +3455,38 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Calculadora gratuita de base para pavimento para estimar grava, piedra triturada y arena necesarias para proyectos de pavimentación. Soporta unidades imperiales y métricas.",
       slug: "/es/construccion/calculadora-de-base-para-pavimento",
       keywords: "calculadora de base para pavimento, calculadora de grava, calculadora de piedra triturada, calculadora de arena, materiales de pavimentación, calculadora de material de base"
+    }
+  },
+  'break-even-calculator': {
+    en: {
+      title: "Break-Even Calculator - Calculate Break-Even Point for Business",
+      description: "Calculate break-even point in units and revenue. Find when your business becomes profitable with our break-even analysis calculator. Includes contribution margin and profit calculations.",
+      slug: "/business/break-even-calculator",
+      keywords: "break-even calculator, break-even point, break-even analysis, contribution margin, business profitability, break-even units, break-even revenue, fixed costs, variable costs"
+    },
+    pl: {
+      title: "Kalkulator Progu Rentowności - Oblicz Punkt Równowagi Biznesowej",
+      description: "Oblicz próg rentowności w jednostkach i przychodach. Dowiedz się, kiedy Twoja firma staje się rentowna dzięki naszemu kalkulatorowi analizy progu rentowności.",
+      slug: "/pl/biznes/kalkulator-progu-rentownosci",
+      keywords: "kalkulator progu rentowności, punkt rentowności, analiza rentowności, marża kontrybucyjna, rentowność biznesu, jednostki rentowności, przychód rentowności"
+    },
+    br: {
+      title: "Calculadora de Ponto de Equilíbrio - Calcule Quando Seu Negócio Lucra",
+      description: "Calcule o ponto de equilíbrio em unidades e receita. Descubra quando seu negócio se torna lucrativo com nossa calculadora de análise de ponto de equilíbrio.",
+      slug: "/br/negocios/calculadora-de-ponto-de-equilibrio",
+      keywords: "calculadora ponto equilíbrio, ponto equilíbrio, análise equilíbrio, margem contribuição, lucratividade negócio, unidades equilíbrio, receita equilíbrio"
+    },
+    de: {
+      title: "Break-Even-Rechner - Berechnen Sie die Gewinnschwelle für Ihr Unternehmen",
+      description: "Berechnen Sie den Break-Even-Punkt in Einheiten und Umsatz. Finden Sie heraus, wann Ihr Unternehmen profitabel wird mit unserem Break-Even-Analyse-Rechner.",
+      slug: "/de/geschaft/break-even-rechner",
+      keywords: "Break-Even-Rechner, Gewinnschwelle, Break-Even-Analyse, Deckungsbeitrag, Unternehmensrentabilität, Break-Even-Einheiten, Break-Even-Umsatz"
+    },
+    es: {
+      title: "Calculadora de Punto de Equilibrio - Calcula Rentabilidad del Negocio",
+      description: "Calcula el punto de equilibrio en unidades e ingresos. Descubre cuándo tu negocio se vuelve rentable con nuestra calculadora de análisis de punto de equilibrio.",
+      slug: "/es/negocios/calculadora-de-punto-de-equilibrio",
+      keywords: "calculadora punto equilibrio, punto equilibrio, análisis equilibrio, margen contribución, rentabilidad negocio, unidades equilibrio, ingresos equilibrio"
     }
   },
 };

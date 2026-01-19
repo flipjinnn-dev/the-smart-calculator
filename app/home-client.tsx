@@ -19,7 +19,9 @@ import {
   ChevronRight,
   CircleCheck,
   ArrowRight,
-  Gamepad
+  Gamepad,
+  Code,
+  Briefcase
 } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
@@ -38,6 +40,10 @@ const categoryIcons: Record<string, React.ComponentType<any>> = {
   food: Beef,
   sports: Bike,
   games: Gamepad,
+  'more-calculators': Sparkles,
+  'other-calculators': MoreHorizontal,
+  software: Code,
+  business: Briefcase,
 }
 
 // Define feature icons mapping
@@ -106,6 +112,18 @@ export default function HomePage({ content, language }: HomeClientProps) {
         description: ""
       },
       other: {
+        name: "",
+        description: ""
+      },
+      'other-calculators': {
+        name: "",
+        description: ""
+      },
+      software: {
+        name: "",
+        description: ""
+      },
+      business: {
         name: "",
         description: ""
       }
@@ -319,9 +337,42 @@ export default function HomePage({ content, language }: HomeClientProps) {
       color: "from-indigo-400 to-violet-600",
       bgColor: "bg-indigo-50",
       textColor: "text-indigo-600",
-      calculators: 1,
+      calculators: 2,
       itemLabel: "game",
       href: "/games",
+    },
+    {
+      id: "other-calculators",
+      name: contentData.categories['other-calculators']?.name || "Other Calculators",
+      description: contentData.categories['other-calculators']?.description || "Miscellaneous calculators for various needs",
+      icon: categoryIcons['other-calculators'],
+      color: "from-gray-400 to-slate-600",
+      bgColor: "bg-gray-50",
+      textColor: "text-gray-600",
+      calculators: getCalculatorCount("other"),
+      href: getLocalizedCategoryUrl("other", language),
+    },
+    {
+      id: "software",
+      name: contentData.categories.software?.name || "Software & IT",
+      description: contentData.categories.software?.description || "Software development and IT calculators",
+      icon: categoryIcons.software,
+      color: "from-teal-400 to-cyan-600",
+      bgColor: "bg-teal-50",
+      textColor: "text-teal-600",
+      calculators: getCalculatorCount("software"),
+      href: getLocalizedCategoryUrl("software", language),
+    },
+    {
+      id: "business",
+      name: contentData.categories.business?.name || "Business",
+      description: contentData.categories.business?.description || "Business and startup calculators",
+      icon: categoryIcons.business,
+      color: "from-amber-400 to-orange-600",
+      bgColor: "bg-amber-50",
+      textColor: "text-amber-600",
+      calculators: getCalculatorCount("business"),
+      href: getLocalizedCategoryUrl("business", language),
     },
   ];
 
