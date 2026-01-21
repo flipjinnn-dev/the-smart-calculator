@@ -1,0 +1,66 @@
+{
+  "title": "Calculadora de Custos de Abertura de Empresa",
+  "description": "Calcule os custos totais de abertura necessários para lançar seu negócio e planeje sua estratégia de financiamento",
+  "currencySymbol": "R$",
+  "labels": {
+    "advertising": "Publicidade e Marketing",
+    "businessPlan": "Plano de Negócios",
+    "communications": "Infraestrutura de Comunicações",
+    "financing": "Custo de Financiamento",
+    "fixtures": "Móveis e Equipamentos",
+    "insurance": "Seguro",
+    "officeSupplies": "Material de Escritório",
+    "premises": "Imóvel",
+    "professionalFees": "Taxas Profissionais",
+    "productDev": "Desenvolvimento de Produto e Estoque",
+    "research": "Pesquisa e Desenvolvimento",
+    "transport": "Transporte",
+    "website": "Desenvolvimento de Site",
+    "otherCosts": "Outros Custos",
+    "unexpected": "Custos Imprevistos (Fundo de Emergência)",
+    "ownCapital": "Seu Capital Próprio",
+    "calculateButton": "Calcular Custos Totais de Abertura"
+  },
+  "cardTitles": {
+    "marketingSetup": "Custos de Marketing e Configuração",
+    "operationalCosts": "Custos Operacionais e de Infraestrutura",
+    "professionalCosts": "Custos Profissionais e de Desenvolvimento",
+    "otherCosts": "Outros Custos e Contingências"
+  },
+  "descriptions": {
+    "advertising": "Promoção, campanhas, materiais de marca",
+    "businessPlan": "Custo para criar documentação do plano de negócios",
+    "communications": "Telefones, internet, assinaturas de software",
+    "financing": "Juros de empréstimo, taxas, custos de arranjo",
+    "fixtures": "Móveis, máquinas, computadores, equipamentos",
+    "insurance": "Prêmios de seguro empresarial",
+    "officeSupplies": "Papelaria, impressão, materiais de escritório",
+    "premises": "Aluguel, depósitos, despesas de propriedade",
+    "professionalFees": "Contador, jurídico, taxas de consultoria",
+    "productDev": "Desenvolvimento de produto e estoque inicial",
+    "research": "Custos de P&D e pesquisa de mercado",
+    "transport": "Veículos de entrega ou custos de transporte",
+    "website": "Design, desenvolvimento e hospedagem de site",
+    "otherCosts": "Quaisquer despesas diversas",
+    "unexpected": "Fundo de emergência para surpresas (10-20%)",
+    "ownCapital": "Quanto você investirá por conta própria"
+  },
+  "results": {
+    "title": "Análise de Custos de Abertura",
+    "totalStartupCost": "Custo Total de Abertura",
+    "netFundingNeeded": "Financiamento Líquido Necessário",
+    "afterCapital": "Após seu capital próprio",
+    "breakdown": "Detalhamento de Custos",
+    "keyInsights": "Principais Insights",
+    "insight1": "Este é o capital mínimo necessário para começar",
+    "insight2": "Adicione margem de 10-20% para custos inesperados",
+    "insight3": "Considere opções de financiamento: economias, empréstimos, investidores",
+    "readyTitle": "Pronto para Calcular?",
+    "readyDesc": "Digite seus custos estimados de abertura no formulário e clique em calcular para ver seus requisitos orçamentários totais.",
+    "tip": "Dica: Seja realista com suas estimativas. É melhor superestimar do que subestimar."
+  },
+  "errors": {
+    "title": "Não é Possível Calcular",
+    "negativeValues": "Todos os valores devem ser positivos ou zero"
+  }
+}

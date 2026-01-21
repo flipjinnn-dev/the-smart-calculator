@@ -1,0 +1,66 @@
+{
+  "title": "Business-Gründungskosten-Rechner",
+  "description": "Berechnen Sie die gesamten Gründungskosten für Ihr Unternehmen und planen Sie Ihre Finanzierungsstrategie",
+  "currencySymbol": "€",
+  "labels": {
+    "advertising": "Werbung & Marketing",
+    "businessPlan": "Geschäftsplan",
+    "communications": "Kommunikationsinfrastruktur",
+    "financing": "Finanzierungskosten",
+    "fixtures": "Einrichtung & Ausstattung",
+    "insurance": "Versicherung",
+    "officeSupplies": "Bürobedarf",
+    "premises": "Räumlichkeiten",
+    "professionalFees": "Professionelle Gebühren",
+    "productDev": "Produktentwicklung & Lagerbestand",
+    "research": "Forschung & Entwicklung",
+    "transport": "Transport",
+    "website": "Website-Entwicklung",
+    "otherCosts": "Sonstige Kosten",
+    "unexpected": "Unerwartete Kosten (Notfallfonds)",
+    "ownCapital": "Ihr Eigenkapital",
+    "calculateButton": "Gesamte Gründungskosten Berechnen"
+  },
+  "cardTitles": {
+    "marketingSetup": "Marketing- und Einrichtungskosten",
+    "operationalCosts": "Betriebs- und Infrastrukturkosten",
+    "professionalCosts": "Professionelle und Entwicklungskosten",
+    "otherCosts": "Sonstige Kosten und Rücklagen"
+  },
+  "descriptions": {
+    "advertising": "Werbung, Kampagnen, Markenmaterialien",
+    "businessPlan": "Kosten für Geschäftsplan-Dokumentation",
+    "communications": "Telefone, Internet, Software-Abonnements",
+    "financing": "Darlehenszinsen, Gebühren, Bearbeitungskosten",
+    "fixtures": "Möbel, Maschinen, Computer, Ausrüstung",
+    "insurance": "Betriebsversicherungsprämien",
+    "officeSupplies": "Schreibwaren, Druck, Büromaterialien",
+    "premises": "Miete, Kautionen, Immobilienkosten",
+    "professionalFees": "Buchhaltung, Rechtsberatung, Beratungsgebühren",
+    "productDev": "Produktentwicklung und Erstbestand",
+    "research": "F&E-Kosten und Marktforschung",
+    "transport": "Lieferfahrzeuge oder Transportkosten",
+    "website": "Website-Design, Entwicklung, Hosting",
+    "otherCosts": "Sonstige Ausgaben",
+    "unexpected": "Notfallfonds für Überraschungen (10-20%)",
+    "ownCapital": "Wie viel Sie selbst investieren werden"
+  },
+  "results": {
+    "title": "Gründungskostenanalyse",
+    "totalStartupCost": "Gesamte Gründungskosten",
+    "netFundingNeeded": "Benötigte Nettofinanzierung",
+    "afterCapital": "Nach Ihrem Eigenkapital",
+    "breakdown": "Kostenaufschlüsselung",
+    "keyInsights": "Wichtige Erkenntnisse",
+    "insight1": "Dies ist das Mindestkapital zum Start",
+    "insight2": "Fügen Sie 10-20% Puffer für unerwartete Kosten hinzu",
+    "insight3": "Erwägen Sie Finanzierungsoptionen: Ersparnisse, Kredite, Investoren",
+    "readyTitle": "Bereit zum Berechnen?",
+    "readyDesc": "Geben Sie Ihre geschätzten Gründungskosten in das Formular ein und klicken Sie auf Berechnen, um Ihre gesamten Budgetanforderungen zu sehen.",
+    "tip": "Tipp: Seien Sie realistisch bei Ihren Schätzungen. Es ist besser zu überschätzen als zu unterschätzen."
+  },
+  "errors": {
+    "title": "Berechnung nicht möglich",
+    "negativeValues": "Alle Werte müssen positiv oder Null sein"
+  }
+}

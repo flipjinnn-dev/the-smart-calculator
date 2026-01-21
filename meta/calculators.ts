@@ -3073,6 +3073,38 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calculadora costo sitio web, costo desarrollo web, precios diseño web, presupuesto website, estimación web, costo e-commerce"
     }
   },
+  'youtube-money-calculator': {
+    en: {
+      title: "YouTube Money Calculator 2026 – Free YouTube Earnings Estimator",
+      description: "Estimate YouTube earnings with RPM, views, CPM & sponsorship. Get daily, monthly & yearly revenue in 2026 with our free calculator.",
+      slug: "/software/youtube-money-calculator",
+      keywords: "youtube money calculator, youtube earnings calculator, youtube revenue calculator, youtube income estimator, how much money youtube pays, youtube cpm calculator, youtube rpm calculator, youtube sponsorship calculator, youtube ad revenue calculator 2026"
+    },
+    pl: {
+      title: "Kalkulator Zarobków YouTube 2026 – Darmowy Estymator Przychodów",
+      description: "Oszacuj zarobki YouTube za pomocą RPM, wyświetleń, CPM i sponsoringu. Uzyskaj przychody dzienne, miesięczne i roczne w 2026 roku za pomocą naszego bezpłatnego kalkulatora.",
+      slug: "/pl/oprogramowanie/kalkulator-zarobkow-youtube",
+      keywords: "kalkulator zarobków youtube, kalkulator przychodów youtube, estymator dochodów youtube, ile płaci youtube, kalkulator cpm youtube, kalkulator rpm youtube, kalkulator sponsoringu youtube"
+    },
+    br: {
+      title: "Calculadora de Dinheiro do YouTube 2026 – Estimador de Ganhos Grátis",
+      description: "Estime os ganhos do YouTube com RPM, visualizações, CPM e patrocínio. Obtenha receita diária, mensal e anual em 2026 com nossa calculadora gratuita.",
+      slug: "/br/software/calculadora-de-dinheiro-youtube",
+      keywords: "calculadora de dinheiro youtube, calculadora de ganhos youtube, calculadora de receita youtube, estimador de renda youtube, quanto o youtube paga, calculadora cpm youtube, calculadora rpm youtube, calculadora de patrocínio youtube"
+    },
+    de: {
+      title: "YouTube Geld Rechner 2026 – Kostenloser Einnahmen-Schätzer",
+      description: "Schätzen Sie YouTube-Einnahmen mit RPM, Aufrufen, CPM und Sponsoring. Erhalten Sie tägliche, monatliche und jährliche Einnahmen 2026 mit unserem kostenlosen Rechner.",
+      slug: "/de/software/youtube-geld-rechner",
+      keywords: "youtube geld rechner, youtube einnahmen rechner, youtube umsatz rechner, youtube einkommensrechner, wie viel zahlt youtube, youtube cpm rechner, youtube rpm rechner, youtube sponsoring rechner"
+    },
+    es: {
+      title: "Calculadora de Dinero de YouTube 2026 – Estimador de Ganancias Gratis",
+      description: "Estime las ganancias de YouTube con RPM, vistas, CPM y patrocinio. Obtenga ingresos diarios, mensuales y anuales en 2026 con nuestra calculadora gratuita.",
+      slug: "/es/software/calculadora-de-dinero-youtube",
+      keywords: "calculadora de dinero youtube, calculadora de ganancias youtube, calculadora de ingresos youtube, estimador de ingresos youtube, cuanto paga youtube, calculadora cpm youtube, calculadora rpm youtube, calculadora de patrocinio youtube"
+    }
+  },
   'enterprise-seo-roi-calculator': {
     en: {
       title: "Enterprise SEO ROI Calculator",
@@ -3487,6 +3519,70 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Calcula el punto de equilibrio en unidades e ingresos. Descubre cuándo tu negocio se vuelve rentable con nuestra calculadora de análisis de punto de equilibrio.",
       slug: "/es/negocios/calculadora-de-punto-de-equilibrio",
       keywords: "calculadora punto equilibrio, punto equilibrio, análisis equilibrio, margen contribución, rentabilidad negocio, unidades equilibrio, ingresos equilibrio"
+    }
+  },
+  'startup-costs-calculator': {
+    en: {
+      title: "Business Startup Cost Calculator - Estimate Total Startup Expenses",
+      description: "Calculate total business startup costs and funding requirements. Free startup cost calculator to estimate all expenses including equipment, marketing, legal fees, and operational costs for your new business.",
+      slug: "/business/startup-costs-calculator",
+      keywords: "startup cost calculator, business startup costs, startup expenses, business funding calculator, initial investment calculator, startup budget, business launch costs, entrepreneur cost estimator, small business startup"
+    },
+    pl: {
+      title: "Kalkulator Kosztów Rozpoczęcia Działalności - Oszacuj Wydatki Startowe",
+      description: "Oblicz całkowite koszty rozpoczęcia działalności i wymagania finansowe. Darmowy kalkulator kosztów startowych do oszacowania wszystkich wydatków, w tym sprzętu, marketingu, opłat prawnych i kosztów operacyjnych dla nowej firmy.",
+      slug: "/pl/biznes/kalkulator-kosztow-rozpoczecia-dzialalnosci",
+      keywords: "kalkulator kosztów startowych, koszty rozpoczęcia działalności, wydatki startowe, kalkulator finansowania biznesu, kalkulator inwestycji początkowej, budżet startowy, koszty uruchomienia firmy, szacowanie kosztów przedsiębiorcy"
+    },
+    br: {
+      title: "Calculadora de Custos de Abertura de Empresa - Estime Gastos Iniciais",
+      description: "Calcule os custos totais de abertura de empresa e requisitos de financiamento. Calculadora gratuita de custos de abertura para estimar todas as despesas incluindo equipamentos, marketing, taxas legais e custos operacionais para seu novo negócio.",
+      slug: "/br/negocios/calculadora-de-custos-de-abertura",
+      keywords: "calculadora custos abertura, custos iniciais empresa, despesas startup, calculadora financiamento negócio, calculadora investimento inicial, orçamento startup, custos lançamento empresa, estimador custos empreendedor, pequena empresa abertura"
+    },
+    de: {
+      title: "Gründungskosten-Rechner - Schätzen Sie Ihre Startup-Gesamtkosten",
+      description: "Berechnen Sie die gesamten Gründungskosten und Finanzierungsanforderungen. Kostenloser Gründungskostenrechner zur Schätzung aller Ausgaben einschließlich Ausrüstung, Marketing, Rechtsgebühren und Betriebskosten für Ihr neues Unternehmen.",
+      slug: "/de/geschaft/grundungskosten-rechner",
+      keywords: "Gründungskostenrechner, Unternehmensgründungskosten, Startup-Ausgaben, Geschäftsfinanzierungsrechner, Anfangsinvestitionsrechner, Startup-Budget, Geschäftsstartkosten, Unternehmer-Kostenschätzer, Kleinunternehmensgründung"
+    },
+    es: {
+      title: "Calculadora de Costos de Inicio de Negocio - Estime Gastos Totales de Startup",
+      description: "Calcule los costos totales de inicio de negocio y requisitos de financiamiento. Calculadora gratuita de costos de inicio para estimar todos los gastos incluyendo equipamiento, marketing, honorarios legales y costos operacionales para su nuevo negocio.",
+      slug: "/es/negocios/calculadora-de-costos-de-inicio",
+      keywords: "calculadora costos inicio, costos iniciales negocio, gastos startup, calculadora financiamiento negocio, calculadora inversión inicial, presupuesto startup, costos lanzamiento empresa, estimador costos emprendedor, pequeña empresa inicio"
+    }
+  },
+  'app-cost-calculator': {
+    en: {
+      title: "App Cost Calculator - Estimate Mobile & Web App Development Cost",
+      description: "Calculate app development cost with our feature-based estimator. Get instant quotes for mobile and web apps including design, features, security, and development hours. Free app cost calculator.",
+      slug: "/software/app-cost-calculator",
+      keywords: "app cost calculator, app development cost, mobile app cost, web app cost, app development estimator, app pricing calculator, software development cost, app budget calculator, MVP cost calculator, app features pricing"
+    },
+    pl: {
+      title: "Kalkulator Kosztów Aplikacji - Oszacuj Koszt Rozwoju Aplikacji",
+      description: "Oblicz koszt rozwoju aplikacji za pomocą naszego estymatora opartego na funkcjach. Uzyskaj natychmiastowe wyceny dla aplikacji mobilnych i webowych, w tym projekt, funkcje, bezpieczeństwo i godziny rozwoju.",
+      slug: "/pl/oprogramowanie/kalkulator-kosztow-aplikacji",
+      keywords: "kalkulator kosztów aplikacji, koszt rozwoju aplikacji, koszt aplikacji mobilnej, koszt aplikacji webowej, estymator rozwoju aplikacji, kalkulator cen aplikacji, koszt rozwoju oprogramowania, kalkulator budżetu aplikacji, koszt MVP"
+    },
+    br: {
+      title: "Calculadora de Custo de App - Estime Custo de Desenvolvimento de Aplicativo",
+      description: "Calcule o custo de desenvolvimento de app com nosso estimador baseado em recursos. Obtenha orçamentos instantâneos para apps móveis e web incluindo design, recursos, segurança e horas de desenvolvimento.",
+      slug: "/br/software/calculadora-de-custo-de-app",
+      keywords: "calculadora custo app, custo desenvolvimento app, custo app móvel, custo app web, estimador desenvolvimento app, calculadora preço app, custo desenvolvimento software, calculadora orçamento app, custo MVP"
+    },
+    de: {
+      title: "App-Kosten Rechner - Schätzen Sie Mobile & Web App Entwicklungskosten",
+      description: "Berechnen Sie App-Entwicklungskosten mit unserem funktionsbasierten Schätzer. Erhalten Sie sofortige Angebote für mobile und Web-Apps einschließlich Design, Funktionen, Sicherheit und Entwicklungsstunden.",
+      slug: "/de/software/app-kosten-rechner",
+      keywords: "App-Kosten Rechner, App-Entwicklungskosten, Mobile-App-Kosten, Web-App-Kosten, App-Entwicklungsschätzer, App-Preisrechner, Softwareentwicklungskosten, App-Budgetrechner, MVP-Kostenrechner"
+    },
+    es: {
+      title: "Calculadora de Costo de App - Estime Costo de Desarrollo de Aplicación",
+      description: "Calcule el costo de desarrollo de app con nuestro estimador basado en funciones. Obtenga cotizaciones instantáneas para apps móviles y web incluyendo diseño, funciones, seguridad y horas de desarrollo.",
+      slug: "/es/software/calculadora-de-costo-de-app",
+      keywords: "calculadora costo app, costo desarrollo app, costo app móvil, costo app web, estimador desarrollo app, calculadora precio app, costo desarrollo software, calculadora presupuesto app, costo MVP"
     }
   },
 };

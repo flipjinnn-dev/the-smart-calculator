@@ -1,0 +1,66 @@
+{
+  "title": "Calculadora de Costos de Inicio de Negocio",
+  "description": "Calcule los costos totales de inicio necesarios para lanzar su negocio y planifique su estrategia de financiamiento",
+  "currencySymbol": "€",
+  "labels": {
+    "advertising": "Publicidad y Marketing",
+    "businessPlan": "Plan de Negocios",
+    "communications": "Infraestructura de Comunicaciones",
+    "financing": "Costo de Financiamiento",
+    "fixtures": "Mobiliario y Equipamiento",
+    "insurance": "Seguro",
+    "officeSupplies": "Material de Oficina",
+    "premises": "Local Comercial",
+    "professionalFees": "Honorarios Profesionales",
+    "productDev": "Desarrollo de Producto y Stock",
+    "research": "Investigación y Desarrollo",
+    "transport": "Transporte",
+    "website": "Desarrollo de Sitio Web",
+    "otherCosts": "Otros Costos",
+    "unexpected": "Costos Imprevistos (Fondo de Emergencia)",
+    "ownCapital": "Su Capital Propio",
+    "calculateButton": "Calcular Costos Totales de Inicio"
+  },
+  "cardTitles": {
+    "marketingSetup": "Costos de Marketing y Configuración",
+    "operationalCosts": "Costos Operacionales y de Infraestructura",
+    "professionalCosts": "Costos Profesionales y de Desarrollo",
+    "otherCosts": "Otros Costos y Contingencias"
+  },
+  "descriptions": {
+    "advertising": "Promoción, campañas, materiales de marca",
+    "businessPlan": "Costo de crear documentación del plan de negocios",
+    "communications": "Teléfonos, internet, suscripciones de software",
+    "financing": "Intereses de préstamos, comisiones, costos de gestión",
+    "fixtures": "Muebles, máquinas, computadoras, equipamiento",
+    "insurance": "Primas de seguro empresarial",
+    "officeSupplies": "Papelería, impresión, materiales de oficina",
+    "premises": "Alquiler, depósitos, gastos de propiedad",
+    "professionalFees": "Contador, legal, honorarios de consultoría",
+    "productDev": "Desarrollo de producto e inventario inicial",
+    "research": "Costos de I+D e investigación de mercado",
+    "transport": "Vehículos de entrega o costos de transporte",
+    "website": "Diseño, desarrollo y alojamiento de sitio web",
+    "otherCosts": "Cualquier gasto misceláneo",
+    "unexpected": "Fondo de emergencia para sorpresas (10-20%)",
+    "ownCapital": "Cuánto invertirá usted mismo"
+  },
+  "results": {
+    "title": "Análisis de Costos de Inicio",
+    "totalStartupCost": "Costo Total de Inicio",
+    "netFundingNeeded": "Financiamiento Neto Necesario",
+    "afterCapital": "Después de su capital propio",
+    "breakdown": "Desglose de Costos",
+    "keyInsights": "Puntos Clave",
+    "insight1": "Este es el capital mínimo necesario para comenzar",
+    "insight2": "Agregue un margen del 10-20% para costos inesperados",
+    "insight3": "Considere opciones de financiamiento: ahorros, préstamos, inversores",
+    "readyTitle": "¿Listo para Calcular?",
+    "readyDesc": "Ingrese sus costos estimados de inicio en el formulario y haga clic en calcular para ver sus requisitos presupuestarios totales.",
+    "tip": "Consejo: Sea realista con sus estimaciones. Es mejor sobreestimar que subestimar."
+  },
+  "errors": {
+    "title": "No se puede Calcular",
+    "negativeValues": "Todos los valores deben ser positivos o cero"
+  }
+}

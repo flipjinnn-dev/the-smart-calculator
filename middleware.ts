@@ -120,7 +120,10 @@ export const urlMappings = {
     'simulador-de-cartao-de-credito': 'credit-card-payoff-calculator',
     'simulador-hipoteca': 'mortgage-calculator',
     'calculadora-de-custo-de-site': 'website-cost-calculator',
-    'calculadora-de-ponto-de-equilibrio': 'break-even-calculator'
+    'calculadora-de-ponto-de-equilibrio': 'break-even-calculator',
+    'calculadora-de-custos-de-abertura': 'startup-costs-calculator',
+    'calculadora-de-custo-de-app': 'app-cost-calculator',
+    'calculadora-de-dinheiro-youtube': 'youtube-money-calculator'
   },
   'pl': {
     'pl-slug':'en-slug',
@@ -239,7 +242,10 @@ export const urlMappings = {
     'biznes': 'business',
     'kalkulator-wynagrodzen': 'salary-calculator',
     'kalkulator-kosztow-strony-internetowej': 'website-cost-calculator',
-    'kalkulator-progu-rentownosci':'break-even-calculator'
+    'kalkulator-progu-rentownosci':'break-even-calculator',
+    'kalkulator-kosztow-rozpoczecia-dzialalnosci': 'startup-costs-calculator',
+    'kalkulator-kosztow-aplikacji': 'app-cost-calculator',
+    'kalkulator-zarobkow-youtube': 'youtube-money-calculator'
   },
   'de': {
     'de-slug':'en-slug',
@@ -358,7 +364,10 @@ export const urlMappings = {
     'zufall-zahl-generator-rechner': 'random-number-generator',
     'orthogonale-projektionsrechner': 'orthogonal-projection-calculator',
     'website-kosten-rechner': 'website-cost-calculator',
-    'break-even-rechner': 'break-even-calculator'
+    'break-even-rechner': 'break-even-calculator',
+    'grundungskosten-rechner': 'startup-costs-calculator',
+    'app-kosten-rechner': 'app-cost-calculator',
+    'youtube-geld-rechner': 'youtube-money-calculator'
   },
   'es': {
     'es-slug':'en-slug',
@@ -477,7 +486,10 @@ export const urlMappings = {
     'calculadora-de-curva-de-raiz-cuadrada': 'square-root-curve-calculator',
     'calculadora-de-costos-de-remolque': 'towing-estimate-calculator',
     'calculadora-de-costo-de-sitio-web': 'website-cost-calculator',
-    'calculadora-de-punto-de-equilibrio':'break-even-calculator'
+    'calculadora-de-punto-de-equilibrio':'break-even-calculator',
+    'calculadora-de-costos-de-inicio': 'startup-costs-calculator',
+    'calculadora-de-costo-de-app': 'app-cost-calculator',
+    'calculadora-de-dinero-youtube': 'youtube-money-calculator'
   }
 } as const;
 
@@ -599,7 +611,10 @@ export const reverseUrlMappings = {
     'volume-calculator': 'calculadora-de-volume',
     'weight-watchers-points-calculator': 'calculadora-de-pontos-vigilantes-do-peso',
     'website-cost-calculator': 'calculadora-de-custo-de-site',
-    'break-even-calculator': 'calculadora-de-ponto-de-equilibrio'
+    'break-even-calculator': 'calculadora-de-ponto-de-equilibrio',
+    'startup-costs-calculator': 'calculadora-de-custos-de-abertura',
+    'app-cost-calculator': 'calculadora-de-custo-de-app',
+    'youtube-money-calculator': 'calculadora-de-dinheiro-youtube'
   },
   'pl': {
     'en-slug':'pl-slug',
@@ -718,7 +733,10 @@ export const reverseUrlMappings = {
     'volume-calculator': 'kalkulator-objetosci',
     'weight-watchers-points-calculator': 'kalkulator-punktow-weight-watchers',
     'website-cost-calculator': 'kalkulator-kosztow-strony-internetowej',
-    'break-even-calculator': 'kalkulator-progu-rentownosci'
+    'break-even-calculator': 'kalkulator-progu-rentownosci',
+    'startup-costs-calculator': 'kalkulator-kosztow-rozpoczecia-dzialalnosci',
+    'app-cost-calculator': 'kalkulator-kosztow-aplikacji',
+    'youtube-money-calculator': 'kalkulator-zarobkow-youtube'
   },
   'de': {
     'en-slug':'de-slug',
@@ -836,7 +854,10 @@ export const reverseUrlMappings = {
     'volume-calculator': 'volumenrechner',
     'weight-watchers-points-calculator': 'weight-watchers-punkte-berechnen',
     'website-cost-calculator': 'website-kosten-rechner',
-    'break-even-calculator': 'break-even-rechner'
+    'break-even-calculator': 'break-even-rechner',
+    'startup-costs-calculator': 'grundungskosten-rechner',
+    'app-cost-calculator': 'app-kosten-rechner',
+    'youtube-money-calculator': 'youtube-geld-rechner'
   },
   'es': {
     'en-slug':'es-slug',
@@ -954,7 +975,10 @@ export const reverseUrlMappings = {
     'square-root-curve-calculator': 'calculadora-de-curva-de-raiz-cuadrada',
     'rucking-calorie-calculator': 'calculadora-de-calorias-de-rucking',
     'website-cost-calculator': 'calculadora-de-costo-de-sitio-web',
-    'break-even-calculator': 'calculadora-de-punto-de-equilibrio'
+    'break-even-calculator': 'calculadora-de-punto-de-equilibrio',
+    'startup-costs-calculator': 'calculadora-de-costos-de-inicio',
+    'app-cost-calculator': 'calculadora-de-costo-de-app',
+    'youtube-money-calculator': 'calculadora-de-dinero-youtube'
   }
 } as const;
 

@@ -1,0 +1,102 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Cómo Funciona Nuestra Calculadora de Costo de App (Metodología Transparente)",
+      "content": "Nuestra Calculadora de Costo de App utiliza una metodología transparente y basada en el mercado. La estimación se genera basándose en:\n• Complejidad de características\n• Nivel de diseño\n• Selección de plataforma (iOS / Android / Ambas)\n• Requisitos de backend\n• Región de desarrollo y tarifas por hora\n\nCalculamos el costo usando un desglose por características, para que sepas exactamente cuánto costará cada parte de la app."
+    },
+    {
+      "heading": "Paso 1 – Seleccione Su Industria",
+      "content": "Diferentes industrias requieren diferentes características y complejidad. Esto impacta significativamente el costo.",
+      "subSections": [
+        {
+          "heading": "Ejemplos:",
+          "content": "• Educación: Gestión de contenido, cuestionarios, seguimiento de progreso\n• Salud: Seguridad de datos, registros de pacientes, cumplimiento HIPAA\n• FinTech: Transacciones, seguridad, cumplimiento regulatorio\n• E-commerce: Pasarela de pago, inventario, panel de administración\n• Viajes: Sistemas de reserva, mapas, actualizaciones en tiempo real"
+        }
+      ]
+    },
+    {
+      "heading": "Paso 2 – Seleccione el Tipo de App",
+      "content": "El tipo de app afecta directamente el costo:\n• App Simple: UI básica, inicio de sesión, páginas de información\n• App de Complejidad Media: Social, e-commerce, apps de reserva\n• App Compleja: Características en tiempo real, IA, múltiples integraciones, base de datos grande"
+    },
+    {
+      "heading": "Paso 3 – Seleccione la Plataforma",
+      "content": "Elija la plataforma donde desea lanzar:\n• iOS\n• Android\n• Ambas (Cross-platform)\n• Aplicación web\n\nEl desarrollo cross-platform (Flutter/React Native) puede reducir el costo, pero las apps nativas ofrecen mejor rendimiento y personalización."
+    },
+    {
+      "heading": "Paso 4 – Elija la Complejidad del Diseño",
+      "content": "El diseño juega un papel importante en el costo:\n• UI Simple: Componentes estándar\n• UI Personalizada: Diseño específico de marca\n• UI Avanzada: Animaciones, UX premium, interacciones personalizadas"
+    },
+    {
+      "heading": "Paso 5 – Seleccione Características",
+      "content": "Las características son el principal factor de costo. Las características comunes incluyen:\n• Inicio de sesión/registro de usuario\n• Inicio de sesión social\n• Integración de pagos\n• Notificaciones push\n• Chat y mensajería\n• GPS y mapas\n• Panel de administración\n• Integración de API de terceros"
+    },
+    {
+      "heading": "Paso 6 – Seleccione Requisitos de Backend",
+      "content": "El backend es la columna vertebral de la app. Las características del backend incluyen:\n• Configuración de servidor\n• Base de datos\n• Integración de API\n• Seguridad\n• Alojamiento en la nube\n\nUn backend complejo aumenta el costo, pero garantiza escalabilidad y rendimiento."
+    },
+    {
+      "heading": "Paso 7 – Elija la Región de Desarrollo",
+      "content": "Las tarifas de desarrollo varían según la región:\n• EE. UU. / Canadá (Tarifas altas)\n• Europa (Tarifas medio-altas)\n• Medio Oriente (Tarifas medias)\n• Asia (Tarifas bajo-medias)"
+    },
+    {
+      "heading": "Paso 8 – Obtenga el Costo Estimado",
+      "content": "El resultado final muestra:\n• Rango de costo estimado\n• Tiempo de desarrollo estimado\n• Desglose de costo por característica\n• Costo de diseño y plataforma\n• Costo de backend"
+    },
+    {
+      "heading": "¿Qué Está Incluido en el Costo de Desarrollo de la App?",
+      "content": "Para hacer la estimación más clara, el costo generalmente incluye:\n• Diseño UI/UX\n• Desarrollo Frontend\n• Desarrollo Backend\n• Pruebas QA\n• Implementación de la App\n• Gestión de Proyectos"
+    },
+    {
+      "heading": "Estimaciones de Costo de Desarrollo de App (Rango Realista)",
+      "subSections": [
+        {
+          "heading": "App Simple",
+          "content": "Rango de Costo: $5,000 – $15,000\nPlazo: 1–3 meses"
+        },
+        {
+          "heading": "Complejidad Media",
+          "content": "Rango de Costo: $15,000 – $40,000\nPlazo: 3–6 meses"
+        },
+        {
+          "heading": "App Compleja",
+          "content": "Rango de Costo: $40,000 – $150,000+\nPlazo: 6–12+ meses"
+        }
+      ]
+    },
+    {
+      "heading": "¿Por Qué Usar Nuestra Calculadora de Costo de App? (Nuestra USP)",
+      "content": "Nuestra calculadora no es solo una herramienta de estimación – es una solución de planificación completa.\n• Actualizaciones de costo en tiempo real al seleccionar características\n• Fórmula de precios transparente\n• Desglose de costo por característica\n• Estimación PDF gratuita después del cálculo\n• Tarifas precisas basadas en el mercado\n• Perfecta para planificación de presupuesto y presentaciones a inversores"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto cuesta desarrollar una aplicación móvil?",
+      "a": "El costo de una app móvil depende de las características, plataforma, diseño y complejidad. Una app simple comienza desde $5,000, mientras que las apps complejas pueden exceder $150,000."
+    },
+    {
+      "q": "¿Cuánto tiempo lleva construir una aplicación móvil?",
+      "a": "Las apps simples toman 1–3 meses, las apps medias 3–6 meses, y las apps complejas 6–12+ meses."
+    },
+    {
+      "q": "¿Cuánto cuesta una app MVP?",
+      "a": "El costo de una app MVP generalmente varía de $10,000 – $25,000, dependiendo de las características."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre el costo de app iOS y Android?",
+      "a": "El desarrollo de iOS puede ser ligeramente más alto debido a pautas estrictas, mientras que el costo de prueba de Android aumenta debido a múltiples dispositivos."
+    },
+    {
+      "q": "¿Qué plataforma es mejor para el desarrollo de apps?",
+      "a": "Para apps económicas, cross-platform (Flutter/React Native) es mejor. Para UX premium y rendimiento, se recomienda iOS/Android nativo."
+    },
+    {
+      "q": "¿Cuánto cuesta el mantenimiento de la app?",
+      "a": "El mantenimiento de la app es típicamente 10–20% del costo total de desarrollo anualmente, incluyendo actualizaciones, correcciones de errores y mantenimiento del servidor."
+    },
+    {
+      "q": "¿Qué tan precisa es una calculadora de costo de app?",
+      "a": "Esta calculadora proporciona una estimación aproximada. El costo final depende de los requisitos detallados y la complejidad del diseño."
+    }
+  ]
+}

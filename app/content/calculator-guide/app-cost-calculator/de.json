@@ -1,0 +1,102 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Wie Unser App-Kosten-Rechner Funktioniert (Transparente Methodik)",
+      "content": "Unser App-Kosten-Rechner verwendet eine transparente und marktbasierte Methodik. Die Schätzung basiert auf:\n• Funktionskomplexität\n• Design-Level\n• Plattformauswahl (iOS / Android / Beide)\n• Backend-Anforderungen\n• Entwicklungsregion und Stundensätze\n\nWir berechnen die Kosten anhand einer funktionsbasierten Aufschlüsselung, damit Sie genau wissen, was jeder Teil der App kosten wird."
+    },
+    {
+      "heading": "Schritt 1 – Wählen Sie Ihre Branche",
+      "content": "Verschiedene Branchen erfordern unterschiedliche Funktionen und Komplexität. Dies beeinflusst die Kosten erheblich.",
+      "subSections": [
+        {
+          "heading": "Beispiele:",
+          "content": "• Bildung: Content-Management, Quizze, Fortschrittsverfolgung\n• Gesundheitswesen: Datensicherheit, Patientenakten, HIPAA-Konformität\n• FinTech: Transaktionen, Sicherheit, regulatorische Konformität\n• E-Commerce: Zahlungs-Gateway, Inventar, Admin-Panel\n• Reisen: Buchungssysteme, Karten, Echtzeit-Updates"
+        }
+      ]
+    },
+    {
+      "heading": "Schritt 2 – Wählen Sie Ihren App-Typ",
+      "content": "Der App-Typ beeinflusst direkt die Kosten:\n• Einfache App: Basis-UI, Login, Informationsseiten\n• Mittlere Komplexität: Social Media, E-Commerce, Buchungs-Apps\n• Komplexe App: Echtzeit-Funktionen, KI, Multi-Integrationen, große Datenbank"
+    },
+    {
+      "heading": "Schritt 3 – Wählen Sie die Plattform",
+      "content": "Wählen Sie die Plattform, auf der Sie starten möchten:\n• iOS\n• Android\n• Beide (Cross-Platform)\n• Web-App\n\nCross-Platform-Entwicklung (Flutter/React Native) kann die Kosten senken, aber native Apps bieten bessere Performance und Anpassung."
+    },
+    {
+      "heading": "Schritt 4 – Wählen Sie die Design-Komplexität",
+      "content": "Design spielt eine wichtige Rolle bei den Kosten:\n• Einfaches UI: Standard-Komponenten\n• Benutzerdefiniertes UI: Markenspezifisches Design\n• Erweiterte UI: Animationen, Premium-UX, benutzerdefinierte Interaktionen"
+    },
+    {
+      "heading": "Schritt 5 – Wählen Sie Funktionen",
+      "content": "Funktionen sind der Hauptkostenfaktor. Häufige Funktionen umfassen:\n• Benutzer-Login/Registrierung\n• Social Login\n• Zahlungsintegration\n• Push-Benachrichtigungen\n• Chat & Messaging\n• GPS & Karten\n• Admin-Panel\n• Drittanbieter-API-Integration"
+    },
+    {
+      "heading": "Schritt 6 – Wählen Sie Backend-Anforderungen",
+      "content": "Das Backend ist das Rückgrat der App. Backend-Funktionen umfassen:\n• Server-Setup\n• Datenbank\n• API-Integration\n• Sicherheit\n• Cloud-Hosting\n\nKomplexes Backend erhöht die Kosten, gewährleistet aber Skalierbarkeit und Performance."
+    },
+    {
+      "heading": "Schritt 7 – Wählen Sie die Entwicklungsregion",
+      "content": "Die Entwicklungskosten variieren je nach Region:\n• USA / Kanada (Hohe Tarife)\n• Europa (Mittel-hohe Tarife)\n• Naher Osten (Mittlere Tarife)\n• Asien (Niedrig-mittlere Tarife)"
+    },
+    {
+      "heading": "Schritt 8 – Erhalten Sie Geschätzte Kosten",
+      "content": "Das Endergebnis zeigt:\n• Geschätzter Kostenbereich\n• Geschätzte Entwicklungszeit\n• Funktionsbasierte Kostenaufschlüsselung\n• Design- und Plattformkosten\n• Backend-Kosten"
+    },
+    {
+      "heading": "Was Ist in den App-Entwicklungskosten Enthalten?",
+      "content": "Um die Schätzung klarer zu machen, umfassen die Kosten normalerweise:\n• UI/UX-Design\n• Frontend-Entwicklung\n• Backend-Entwicklung\n• QA-Tests\n• App-Bereitstellung\n• Projektmanagement"
+    },
+    {
+      "heading": "App-Entwicklungskosten-Schätzungen (Realistischer Bereich)",
+      "subSections": [
+        {
+          "heading": "Einfache App",
+          "content": "Kostenbereich: $5.000 – $15.000\nZeitrahmen: 1–3 Monate"
+        },
+        {
+          "heading": "Mittlere Komplexität",
+          "content": "Kostenbereich: $15.000 – $40.000\nZeitrahmen: 3–6 Monate"
+        },
+        {
+          "heading": "Komplexe App",
+          "content": "Kostenbereich: $40.000 – $150.000+\nZeitrahmen: 6–12+ Monate"
+        }
+      ]
+    },
+    {
+      "heading": "Warum Unseren App-Kosten-Rechner Verwenden? (Unser USP)",
+      "content": "Unser Rechner ist nicht nur ein Schätzwerkzeug – es ist eine vollständige Planungslösung.\n• Echtzeit-Kostenaktualisierungen beim Auswählen von Funktionen\n• Transparente Preisformel\n• Funktionsbasierte Kostenaufschlüsselung\n• Kostenlose PDF-Schätzung nach Berechnung\n• Genaue, marktbasierte Tarife\n• Perfekt für Budgetplanung und Investoren-Pitches"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viel kostet die Entwicklung einer mobilen App?",
+      "a": "Die Kosten für mobile Apps hängen von Funktionen, Plattform, Design und Komplexität ab. Eine einfache App beginnt bei $5.000, während komplexe Apps $150.000 überschreiten können."
+    },
+    {
+      "q": "Wie lange dauert es, eine mobile App zu erstellen?",
+      "a": "Einfache Apps dauern 1–3 Monate, mittlere Apps 3–6 Monate und komplexe Apps 6–12+ Monate."
+    },
+    {
+      "q": "Wie viel kostet eine MVP-App?",
+      "a": "Die Kosten für eine MVP-App liegen normalerweise zwischen $10.000 – $25.000, abhängig von den Funktionen."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen iOS- und Android-App-Kosten?",
+      "a": "iOS-Entwicklung kann aufgrund strenger Richtlinien etwas teurer sein, während die Android-Testkosten aufgrund mehrerer Geräte steigen."
+    },
+    {
+      "q": "Welche Plattform ist am besten für App-Entwicklung?",
+      "a": "Für budgetfreundliche Apps ist Cross-Platform (Flutter/React Native) am besten. Für Premium-UX und Performance wird natives iOS/Android empfohlen."
+    },
+    {
+      "q": "Wie viel kostet App-Wartung?",
+      "a": "App-Wartung beträgt normalerweise 10–20% der gesamten Entwicklungskosten jährlich, einschließlich Updates, Fehlerbehebungen und Serverwartung."
+    },
+    {
+      "q": "Wie genau ist ein App-Kosten-Rechner?",
+      "a": "Dieser Rechner liefert eine ungefähre Schätzung. Die endgültigen Kosten hängen von detaillierten Anforderungen und Design-Komplexität ab."
+    }
+  ]
+}

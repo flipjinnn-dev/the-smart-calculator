@@ -1,0 +1,66 @@
+{
+  "title": "Kalkulator Kosztów Rozpoczęcia Działalności",
+  "description": "Oblicz całkowite koszty rozpoczęcia działalności potrzebne do uruchomienia firmy i zaplanuj strategię finansowania",
+  "currencySymbol": "zł",
+  "labels": {
+    "advertising": "Reklama i Marketing",
+    "businessPlan": "Plan Biznesowy",
+    "communications": "Infrastruktura Komunikacyjna",
+    "financing": "Koszt Finansowania",
+    "fixtures": "Wyposażenie i Sprzęt",
+    "insurance": "Ubezpieczenie",
+    "officeSupplies": "Materiały Biurowe",
+    "premises": "Lokal",
+    "professionalFees": "Opłaty Profesjonalne",
+    "productDev": "Rozwój Produktu i Zapasy",
+    "research": "Badania i Rozwój",
+    "transport": "Transport",
+    "website": "Rozwój Strony Internetowej",
+    "otherCosts": "Inne Koszty",
+    "unexpected": "Koszty Nieprzewidziane (Fundusz Awaryjny)",
+    "ownCapital": "Twój Własny Kapitał",
+    "calculateButton": "Oblicz Całkowite Koszty Rozpoczęcia"
+  },
+  "cardTitles": {
+    "marketingSetup": "Koszty Marketingu i Konfiguracji",
+    "operationalCosts": "Koszty Operacyjne i Infrastrukturalne",
+    "professionalCosts": "Koszty Profesjonalne i Rozwojowe",
+    "otherCosts": "Inne Koszty i Rezerwy"
+  },
+  "descriptions": {
+    "advertising": "Promocja, kampanie, materiały brandingowe",
+    "businessPlan": "Koszt stworzenia dokumentacji planu biznesowego",
+    "communications": "Telefony, internet, subskrypcje oprogramowania",
+    "financing": "Odsetki od kredytu, opłaty, koszty ustaleń",
+    "fixtures": "Meble, maszyny, komputery, sprzęt",
+    "insurance": "Składki ubezpieczenia biznesowego",
+    "officeSupplies": "Artykuły papiernicze, drukowanie, materiały biurowe",
+    "premises": "Czynsz, kaucje, wydatki na nieruchomości",
+    "professionalFees": "Księgowy, prawnik, opłaty konsultingowe",
+    "productDev": "Rozwój produktu i początkowy zapas",
+    "research": "Koszty B+R i badania rynku",
+    "transport": "Pojazdy dostawcze lub koszty transportu",
+    "website": "Projektowanie, rozwój i hosting strony internetowej",
+    "otherCosts": "Wszelkie dodatkowe wydatki",
+    "unexpected": "Fundusz awaryjny na niespodzianki (10-20%)",
+    "ownCapital": "Ile zainwestujesz samodzielnie"
+  },
+  "results": {
+    "title": "Analiza Kosztów Rozpoczęcia",
+    "totalStartupCost": "Całkowity Koszt Rozpoczęcia",
+    "netFundingNeeded": "Wymagane Finansowanie Netto",
+    "afterCapital": "Po twoim własnym kapitale",
+    "breakdown": "Podział Kosztów",
+    "keyInsights": "Kluczowe Spostrzeżenia",
+    "insight1": "To jest minimalny kapitał potrzebny do rozpoczęcia",
+    "insight2": "Dodaj bufor 10-20% na nieprzewidziane koszty",
+    "insight3": "Rozważ opcje finansowania: oszczędności, kredyty, inwestorzy",
+    "readyTitle": "Gotowy do Obliczenia?",
+    "readyDesc": "Wprowadź szacunkowe koszty rozpoczęcia działalności w formularzu i kliknij oblicz, aby zobaczyć całkowite wymagania budżetowe.",
+    "tip": "Wskazówka: Bądź realistyczny w swoich szacunkach. Lepiej przeszacować niż niedoszacować."
+  },
+  "errors": {
+    "title": "Nie Można Obliczyć",
+    "negativeValues": "Wszystkie wartości muszą być dodatnie lub zero"
+  }
+}

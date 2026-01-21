@@ -1,0 +1,177 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "How Our App Cost Calculator Works (Transparent Methodology)",
+      "content": "Our App Cost Calculator uses a transparent and market-based methodology. The estimate is generated based on:\n• Feature complexity\n• Design level\n• Platform selection (iOS / Android / Both)\n• Backend requirements\n• Development region and hourly rates\n\nWe calculate the cost using a feature-wise breakdown, so you know exactly what each part of the app will cost."
+    },
+    {
+      "heading": "Step 1 – Select Your Industry",
+      "content": "Different industries require different features and complexity. This impacts the cost significantly.",
+      "subSections": [
+        {
+          "heading": "Examples:",
+          "content": "• Education: Content management, quizzes, progress tracking\n• Healthcare: Data security, patient records, HIPAA compliance\n• FinTech: Transactions, security, regulatory compliance\n• E-commerce: Payment gateway, inventory, admin panel\n• Travel: Booking systems, maps, real-time updates"
+        }
+      ]
+    },
+    {
+      "heading": "Step 2 – Select Your App Type",
+      "content": "App type directly affects cost:\n• Simple App: Basic UI, login, information pages\n• Medium Complexity App: Social, e-commerce, booking apps\n• Complex App: Real-time features, AI, multi-integrations, large database"
+    },
+    {
+      "heading": "Step 3 – Select Platform",
+      "content": "Choose the platform where you want to launch:\n• iOS\n• Android\n• Both (Cross-platform)\n• Web app\n\nCross-platform development (Flutter/React Native) can reduce cost, but native apps offer better performance and customization."
+    },
+    {
+      "heading": "Step 4 – Choose Design Complexity",
+      "content": "Design plays a major role in cost:\n• Simple UI: Standard components\n• Custom UI: Brand-specific design\n• Advanced UI: Animations, premium UX, custom interactions"
+    },
+    {
+      "heading": "Step 5 – Select Features",
+      "content": "Features are the main cost driver. Common features include:\n• User login/signup\n• Social login\n• Payment integration\n• Push notifications\n• Chat & messaging\n• GPS & maps\n• Admin panel\n• Third-party API integration"
+    },
+    {
+      "heading": "Step 6 – Select Backend Requirement",
+      "content": "Backend is the backbone of the app. Backend features include:\n• Server setup\n• Database\n• API integration\n• Security\n• Cloud hosting\n\nComplex backend increases cost, but it ensures scalability and performance."
+    },
+    {
+      "heading": "Step 7 – Choose Development Region",
+      "content": "Development rates vary by region:\n• USA / Canada (High rates)\n• Europe (Medium-high rates)\n• Middle East (Medium rates)\n• Asia (Low-medium rates)"
+    },
+    {
+      "heading": "Step 8 – Get Estimated Cost",
+      "content": "The final result shows:\n• Estimated cost range\n• Estimated development time\n• Feature-wise cost breakdown\n• Design and platform cost\n• Backend cost"
+    },
+    {
+      "heading": "What's Included in the App Development Cost?",
+      "content": "To make the estimate clearer, the cost typically includes:\n• UI/UX Design\n• Frontend Development\n• Backend Development\n• QA Testing\n• App Deployment\n• Project Management"
+    },
+    {
+      "heading": "App Development Cost Estimates (Realistic Range)",
+      "subSections": [
+        {
+          "heading": "Simple App",
+          "content": "Cost Range: $5,000 – $15,000\nTimeline: 1–3 months"
+        },
+        {
+          "heading": "Medium Complexity",
+          "content": "Cost Range: $15,000 – $40,000\nTimeline: 3–6 months"
+        },
+        {
+          "heading": "Complex App",
+          "content": "Cost Range: $40,000 – $150,000+\nTimeline: 6–12+ months"
+        }
+      ]
+    },
+    {
+      "heading": "Real App Cost Examples (Case Studies)",
+      "subSections": [
+        {
+          "heading": "Example 1 – MVP Food Delivery App (Flutter)",
+          "content": "Features: Basic ordering, payments, tracking\nCost: $18,000\nTimeline: 3 months\nTeam: 1 UI/UX Designer + 2 Developers + 1 QA"
+        },
+        {
+          "heading": "Example 2 – Healthcare Appointment App (iOS & Android)",
+          "content": "Features: Patient records, appointment scheduling, security\nCost: $35,000\nTimeline: 5 months\nTeam: 1 UI/UX Designer + 2 Developers + 1 Backend + 1 QA"
+        },
+        {
+          "heading": "Example 3 – Complex Social Networking App (Real-time + AI)",
+          "content": "Features: Real-time chat, video calls, AI recommendations\nCost: $85,000+\nTimeline: 8–10 months\nTeam: 2 Designers + 4 Developers + 1 Backend + 2 QA"
+        }
+      ]
+    },
+    {
+      "heading": "Feature-wise Cost Breakdown (Approximate)",
+      "subSections": [
+        {
+          "heading": "User Login/Signup",
+          "content": "$500 – $2,000"
+        },
+        {
+          "heading": "Social Login",
+          "content": "$700 – $2,500"
+        },
+        {
+          "heading": "Payment Integration",
+          "content": "$1,500 – $5,000"
+        },
+        {
+          "heading": "Push Notifications",
+          "content": "$500 – $2,000"
+        },
+        {
+          "heading": "Chat & Messaging",
+          "content": "$2,000 – $8,000"
+        },
+        {
+          "heading": "GPS & Maps",
+          "content": "$1,000 – $4,000"
+        },
+        {
+          "heading": "Admin Panel",
+          "content": "$3,000 – $10,000"
+        },
+        {
+          "heading": "API Integration",
+          "content": "$1,000 – $5,000"
+        }
+      ]
+    },
+    {
+      "heading": "Development Region Hourly Rates (Approximate)",
+      "subSections": [
+        {
+          "heading": "USA / Canada",
+          "content": "$60 – $150/hr"
+        },
+        {
+          "heading": "Europe",
+          "content": "$40 – $100/hr"
+        },
+        {
+          "heading": "Middle East",
+          "content": "$30 – $70/hr"
+        },
+        {
+          "heading": "Asia",
+          "content": "$15 – $45/hr"
+        }
+      ]
+    },
+    {
+      "heading": "Why Use Our App Cost Calculator? (Our USP)",
+      "content": "Our calculator is not just an estimate tool – it's a complete planning solution.\n• Real-time cost updates while selecting features\n• Transparent pricing formula\n• Feature-wise cost breakdown\n• Free PDF estimate after calculation\n• Accurate, market-based rates\n• Perfect for budget planning and investor pitches"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to develop a mobile app?",
+      "a": "Mobile app cost depends on features, platform, design, and complexity. A simple app starts from $5,000, while complex apps can exceed $150,000."
+    },
+    {
+      "q": "How long does it take to build a mobile app?",
+      "a": "Simple apps take 1–3 months, medium apps 3–6 months, and complex apps 6–12+ months."
+    },
+    {
+      "q": "How much does an MVP app cost?",
+      "a": "MVP app cost usually ranges from $10,000 – $25,000, depending on features."
+    },
+    {
+      "q": "What is the difference between iOS and Android app cost?",
+      "a": "iOS development can be slightly higher due to strict guidelines, while Android testing cost increases due to multiple devices."
+    },
+    {
+      "q": "Which platform is best for app development?",
+      "a": "For budget-friendly apps, cross-platform (Flutter/React Native) is best. For premium UX and performance, native iOS/Android is recommended."
+    },
+    {
+      "q": "How much does app maintenance cost?",
+      "a": "App maintenance is typically 10–20% of total development cost annually, including updates, bug fixes, and server maintenance."
+    },
+    {
+      "q": "How accurate is an app cost calculator?",
+      "a": "This calculator provides an approximate estimate. Final cost depends on detailed requirements and design complexity."
+    }
+  ]
+}

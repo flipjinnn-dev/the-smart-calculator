@@ -1,0 +1,66 @@
+{
+  "title": "Business Startup Cost Calculator",
+  "description": "Calculate the total startup costs needed to launch your business and plan your funding strategy",
+  "currencySymbol": "£",
+  "labels": {
+    "advertising": "Advertising & Marketing",
+    "businessPlan": "Business Plan",
+    "communications": "Communications Infrastructure",
+    "financing": "Cost of Financing",
+    "fixtures": "Fixtures & Equipment",
+    "insurance": "Insurance",
+    "officeSupplies": "Office Supplies",
+    "premises": "Premises",
+    "professionalFees": "Professional Fees",
+    "productDev": "Product Development & Stock",
+    "research": "Research & Development",
+    "transport": "Transport",
+    "website": "Website Development",
+    "otherCosts": "Other Costs",
+    "unexpected": "Unexpected Costs (Rainy Day Fund)",
+    "ownCapital": "Your Own Capital",
+    "calculateButton": "Calculate Total Startup Costs"
+  },
+  "cardTitles": {
+    "marketingSetup": "Marketing & Setup Costs",
+    "operationalCosts": "Operational & Infrastructure Costs",
+    "professionalCosts": "Professional & Development Costs",
+    "otherCosts": "Other & Contingency Costs"
+  },
+  "descriptions": {
+    "advertising": "Promotion, campaigns, branding materials",
+    "businessPlan": "Cost to create business plan documentation",
+    "communications": "Phones, internet, software subscriptions",
+    "financing": "Loan interest, fees, arrangement costs",
+    "fixtures": "Furniture, machines, computers, equipment",
+    "insurance": "Business insurance premiums",
+    "officeSupplies": "Stationery, printing, office consumables",
+    "premises": "Rent, deposits, property expenses",
+    "professionalFees": "Accountant, legal, consultancy fees",
+    "productDev": "Product development and initial inventory",
+    "research": "R&D costs and market research",
+    "transport": "Delivery vehicles or transport costs",
+    "website": "Website design, development, hosting",
+    "otherCosts": "Any miscellaneous expenses",
+    "unexpected": "Emergency fund for surprises (10-20%)",
+    "ownCapital": "How much you will invest yourself"
+  },
+  "results": {
+    "title": "Startup Cost Analysis",
+    "totalStartupCost": "Total Startup Cost",
+    "netFundingNeeded": "Net Funding Needed",
+    "afterCapital": "After your own capital",
+    "breakdown": "Cost Breakdown",
+    "keyInsights": "Key Insights",
+    "insight1": "This is the minimum capital needed to start",
+    "insight2": "Add 10-20% buffer for unexpected costs",
+    "insight3": "Consider funding options: savings, loans, investors",
+    "readyTitle": "Ready to Calculate?",
+    "readyDesc": "Enter your estimated startup costs in the form and click calculate to see your total budget requirements.",
+    "tip": "Tip: Be realistic with your estimates. It's better to overestimate than underestimate."
+  },
+  "errors": {
+    "title": "Cannot Calculate",
+    "negativeValues": "All values must be positive or zero"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Jak Działa Nasz Kalkulator Kosztów Aplikacji (Przejrzysta Metodologia)",
+      "content": "Nasz Kalkulator Kosztów Aplikacji wykorzystuje przejrzystą metodologię opartą na rynku. Oszacowanie jest generowane na podstawie:\n• Złożoność funkcji\n• Poziom designu\n• Wybór platformy (iOS / Android / Obie)\n• Wymagania backendu\n• Region rozwoju i stawki godzinowe\n\nObliczamy koszt przy użyciu podziału na funkcje, dzięki czemu dokładnie wiesz, ile będzie kosztować każda część aplikacji."
+    },
+    {
+      "heading": "Krok 1 – Wybierz Swoją Branżę",
+      "content": "Różne branże wymagają różnych funkcji i złożoności. To znacząco wpływa na koszt.",
+      "subSections": [
+        {
+          "heading": "Przykłady:",
+          "content": "• Edukacja: Zarządzanie treścią, quizy, śledzenie postępów\n• Zdrowie: Bezpieczeństwo danych, dokumentacja pacjentów, zgodność HIPAA\n• FinTech: Transakcje, bezpieczeństwo, zgodność regulacyjna\n• E-commerce: Bramka płatności, inwentarz, panel admina\n• Podróże: Systemy rezerwacji, mapy, aktualizacje w czasie rzeczywistym"
+        }
+      ]
+    },
+    {
+      "heading": "Krok 2 – Wybierz Typ Aplikacji",
+      "content": "Typ aplikacji bezpośrednio wpływa na koszt:\n• Prosta Aplikacja: Podstawowe UI, logowanie, strony informacyjne\n• Aplikacja Średniej Złożoności: Social media, e-commerce, aplikacje rezerwacyjne\n• Złożona Aplikacja: Funkcje w czasie rzeczywistym, AI, wiele integracji, duża baza danych"
+    },
+    {
+      "heading": "Krok 3 – Wybierz Platformę",
+      "content": "Wybierz platformę, na której chcesz uruchomić:\n• iOS\n• Android\n• Obie (Cross-platform)\n• Aplikacja webowa\n\nRozwój cross-platform (Flutter/React Native) może obniżyć koszt, ale aplikacje natywne oferują lepszą wydajność i personalizację."
+    },
+    {
+      "heading": "Krok 4 – Wybierz Złożoność Designu",
+      "content": "Design odgrywa ważną rolę w kosztach:\n• Proste UI: Standardowe komponenty\n• Niestandardowe UI: Design specyficzny dla marki\n• Zaawansowane UI: Animacje, premium UX, niestandardowe interakcje"
+    },
+    {
+      "heading": "Krok 5 – Wybierz Funkcje",
+      "content": "Funkcje są głównym czynnikiem kosztu. Typowe funkcje obejmują:\n• Logowanie/rejestracja użytkownika\n• Logowanie społecznościowe\n• Integracja płatności\n• Powiadomienia push\n• Chat i wiadomości\n• GPS i mapy\n• Panel admina\n• Integracja API stron trzecich"
+    },
+    {
+      "heading": "Krok 6 – Wybierz Wymagania Backendu",
+      "content": "Backend jest kręgosłupem aplikacji. Funkcje backendu obejmują:\n• Konfiguracja serwera\n• Baza danych\n• Integracja API\n• Bezpieczeństwo\n• Hosting w chmurze\n\nZłożony backend zwiększa koszt, ale zapewnia skalowalność i wydajność."
+    },
+    {
+      "heading": "Krok 7 – Wybierz Region Rozwoju",
+      "content": "Stawki za rozwój różnią się w zależności od regionu:\n• USA / Kanada (Wysokie stawki)\n• Europa (Średnio-wysokie stawki)\n• Bliski Wschód (Średnie stawki)\n• Azja (Niskie-średnie stawki)"
+    },
+    {
+      "heading": "Krok 8 – Uzyskaj Szacunkowy Koszt",
+      "content": "Końcowy wynik pokazuje:\n• Zakres szacunkowego kosztu\n• Szacunkowy czas rozwoju\n• Podział kosztów według funkcji\n• Koszt designu i platformy\n• Koszt backendu"
+    },
+    {
+      "heading": "Co Jest Wliczone w Koszt Rozwoju Aplikacji?",
+      "content": "Aby uczynić szacunek bardziej przejrzystym, koszt zazwyczaj obejmuje:\n• Design UI/UX\n• Rozwój Frontend\n• Rozwój Backend\n• Testy QA\n• Wdrożenie Aplikacji\n• Zarządzanie Projektem"
+    },
+    {
+      "heading": "Szacunki Kosztów Rozwoju Aplikacji (Realistyczny Zakres)",
+      "subSections": [
+        {
+          "heading": "Prosta Aplikacja",
+          "content": "Zakres Kosztów: $5,000 – $15,000\nCzas: 1–3 miesiące"
+        },
+        {
+          "heading": "Średnia Złożoność",
+          "content": "Zakres Kosztów: $15,000 – $40,000\nCzas: 3–6 miesięcy"
+        },
+        {
+          "heading": "Złożona Aplikacja",
+          "content": "Zakres Kosztów: $40,000 – $150,000+\nCzas: 6–12+ miesięcy"
+        }
+      ]
+    },
+    {
+      "heading": "Dlaczego Warto Używać Naszego Kalkulatora Kosztów Aplikacji? (Nasza USP)",
+      "content": "Nasz kalkulator to nie tylko narzędzie do szacowania – to kompleksowe rozwiązanie planistyczne.\n• Aktualizacje kosztów w czasie rzeczywistym podczas wybierania funkcji\n• Przejrzysta formuła cenowa\n• Podział kosztów według funkcji\n• Bezpłatne szacowanie PDF po obliczeniu\n• Dokładne stawki oparte na rynku\n• Idealne do planowania budżetu i prezentacji dla inwestorów"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ile kosztuje rozwój aplikacji mobilnej?",
+      "a": "Koszt aplikacji mobilnej zależy od funkcji, platformy, designu i złożoności. Prosta aplikacja zaczyna się od $5,000, podczas gdy złożone aplikacje mogą przekroczyć $150,000."
+    },
+    {
+      "q": "Jak długo trwa budowa aplikacji mobilnej?",
+      "a": "Proste aplikacje zajmują 1–3 miesiące, średnie aplikacje 3–6 miesięcy, a złożone aplikacje 6–12+ miesięcy."
+    },
+    {
+      "q": "Ile kosztuje aplikacja MVP?",
+      "a": "Koszt aplikacji MVP zwykle wynosi od $10,000 – $25,000, w zależności od funkcji."
+    },
+    {
+      "q": "Jaka jest różnica między kosztem aplikacji iOS i Android?",
+      "a": "Rozwój iOS może być nieco droższy ze względu na surowe wytyczne, podczas gdy koszt testowania Android wzrasta ze względu na wiele urządzeń."
+    },
+    {
+      "q": "Która platforma jest najlepsza do rozwoju aplikacji?",
+      "a": "Dla ekonomicznych aplikacji, cross-platform (Flutter/React Native) jest najlepszy. Dla premium UX i wydajności, natywny iOS/Android jest zalecany."
+    },
+    {
+      "q": "Ile kosztuje utrzymanie aplikacji?",
+      "a": "Utrzymanie aplikacji to zazwyczaj 10–20% całkowitego kosztu rozwoju rocznie, w tym aktualizacje, poprawki błędów i utrzymanie serwera."
+    },
+    {
+      "q": "Jak dokładny jest kalkulator kosztów aplikacji?",
+      "a": "Ten kalkulator zapewnia przybliżone oszacowanie. Ostateczny koszt zależy od szczegółowych wymagań i złożoności designu."
+    }
+  ]
+}

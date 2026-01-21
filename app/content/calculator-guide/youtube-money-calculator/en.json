@@ -1,0 +1,226 @@
+{
+  "color": "red",
+  "sections": [
+    {
+      "heading": "How the YouTube Money Calculator 2026 Works",
+      "content": "Our earnings calculator uses a transparent algorithm based on real channel data and industry averages. The goal is to give you a realistic estimate of your earnings, not a fake number."
+    },
+    {
+      "heading": "Step 1: Enter Your YouTube Channel URL (Optional)",
+      "content": "You can paste your YouTube channel link to automatically fetch:\n• Total views\n• Total subscribers\n• Channel age\n• Country (if available)\n\nThis helps the calculator give more accurate results."
+    },
+    {
+      "heading": "Step 2: Select Your Country or Region",
+      "content": "CPM and RPM rates vary greatly depending on the viewer's location. Countries like the USA, UK, Canada, Germany, and Australia usually have higher CPM rates compared to India, Pakistan, Bangladesh, or Indonesia.\n\nSelecting your country helps the calculator estimate your earnings more accurately."
+    },
+    {
+      "heading": "Step 3: Set Daily Views",
+      "content": "Daily views are the main factor affecting YouTube earnings. You can use the slider to enter your average daily views. The calculator will automatically convert this into monthly and yearly views."
+    },
+    {
+      "heading": "Step 4: Set RPM (Revenue Per Mille)",
+      "content": "RPM is the actual earnings per 1,000 views after YouTube's share. RPM is usually lower than CPM.\n\nYouTube takes a percentage of ad revenue, and the remaining amount is your RPM.\n\nThis calculator estimates your actual revenue using RPM, not CPM only."
+    },
+    {
+      "heading": "Step 5: Get Your Estimated Earnings",
+      "content": "Once you enter all data, the calculator instantly shows:\n• Estimated daily earnings\n• Estimated monthly earnings\n• Estimated yearly earnings\n• Views per month\n• Views per year\n• Estimated sponsorship price per video\n\nThis gives you a complete overview of your earning potential."
+    },
+    {
+      "heading": "What Data Does Our YouTube Revenue Calculator Use?",
+      "subSections": [
+        {
+          "heading": "Total Subscribers",
+          "content": "Subscribers indicate your channel's audience base. A higher subscriber count usually means:\n• More consistent views\n• Better engagement\n• Higher chances of ad revenue\n\nHowever, subscribers alone do not guarantee earnings. Views and watch time are the main factors."
+        },
+        {
+          "heading": "Total Views",
+          "content": "Views are the primary factor affecting YouTube revenue. The more views you have, the higher your earning potential.\n\nBut not all views are monetized. Only views where ads are shown generate revenue."
+        },
+        {
+          "heading": "Channel Age and Growth Rate",
+          "content": "Older channels with consistent growth usually earn more because:\n• They have better watch time\n• They have stronger trust and authority\n• They are more likely to be recommended by YouTube\n\nA new channel may have many views but still earn less due to low watch time and engagement."
+        },
+        {
+          "heading": "Country / Region",
+          "content": "Different countries have different CPM and RPM rates. Advertisers pay more in countries with high purchasing power.\n\nFor example, viewers from the USA and Canada generate higher CPM compared to viewers from many Asian countries."
+        },
+        {
+          "heading": "Engagement Rate (Watch Time & Retention)",
+          "content": "Watch time and retention are crucial because advertisers prefer engaged audiences. If viewers watch your video longer, YouTube shows more ads, which increases earnings."
+        }
+      ]
+    },
+    {
+      "heading": "YouTube CPM vs RPM – 2026 Guide",
+      "subSections": [
+        {
+          "heading": "CPM (Cost Per Mille)",
+          "content": "CPM is the amount advertisers pay per 1,000 ad views.\n\nCPM depends on:\n• Viewer location\n• Niche\n• Season\n• Ad format\n\nExample: Finance and tech niches usually have higher CPM because advertisers in these industries pay more."
+        },
+        {
+          "heading": "RPM (Revenue Per Mille)",
+          "content": "RPM is the actual earnings per 1,000 views after YouTube's share. RPM is usually lower than CPM.\n\nYouTube takes a percentage of ad revenue, and the remaining amount is your RPM.\n\nThis calculator estimates your actual revenue using RPM, not CPM only."
+        }
+      ]
+    },
+    {
+      "heading": "Why Your YouTube Earnings Can Change",
+      "subSections": [
+        {
+          "heading": "Niche & Content Type",
+          "content": "Some niches have higher CPM because advertisers pay more. For example:\n• Finance\n• Technology\n• Marketing\n• Health and fitness\n\nOther niches like entertainment or vlogs may have lower CPM."
+        },
+        {
+          "heading": "Viewer Country",
+          "content": "Viewers from high-income countries generate higher CPM. Countries like USA, Canada, UK, Germany, and Australia have higher ad rates."
+        },
+        {
+          "heading": "Watch Time & Retention",
+          "content": "Higher watch time increases monetization because:\n• YouTube shows more ads\n• Your video ranks higher\n• You get more impressions"
+        },
+        {
+          "heading": "Ad Types",
+          "content": "Different ads pay differently:\n• Display ads\n• Skippable ads\n• Non-skippable ads\n• Sponsored cards\n\nNon-skippable ads usually pay more but they can reduce viewer retention."
+        }
+      ]
+    },
+    {
+      "heading": "Real-World Earnings Examples (2026 Updated)",
+      "subSections": [
+        {
+          "heading": "10,000 Monthly Views",
+          "content": "Estimated Monthly Earnings: $15 – $120"
+        },
+        {
+          "heading": "100,000 Monthly Views",
+          "content": "Estimated Monthly Earnings: $200 – $1,500"
+        },
+        {
+          "heading": "500,000 Monthly Views",
+          "content": "Estimated Monthly Earnings: $1,200 – $6,000"
+        },
+        {
+          "heading": "1,000,000 Monthly Views",
+          "content": "Estimated Monthly Earnings: $2,500 – $12,000"
+        }
+      ]
+    },
+    {
+      "heading": "Niche-Wise Earnings Examples",
+      "subSections": [
+        {
+          "heading": "Finance & Investing",
+          "content": "Finance and investing channels have high CPM because advertisers pay more for leads and customers.\n\n50,000 views: $600 – $3,000\n200,000 views: $2,500 – $10,000\n500,000 views: $6,000 – $20,000"
+        },
+        {
+          "heading": "Tech & Gadgets",
+          "content": "Tech channels also earn high CPM because advertisers sell products.\n\n50,000 views: $400 – $2,500\n200,000 views: $1,800 – $8,000\n500,000 views: $5,000 – $18,000"
+        },
+        {
+          "heading": "Gaming & Entertainment",
+          "content": "Gaming and entertainment usually have lower CPM but higher views.\n\n50,000 views: $150 – $700\n200,000 views: $600 – $2,500\n500,000 views: $1,200 – $6,000"
+        }
+      ]
+    },
+    {
+      "heading": "Country-Wise RPM Examples (Estimated)",
+      "subSections": [
+        {
+          "heading": "USA",
+          "content": "Estimated RPM: $4 – $12"
+        },
+        {
+          "heading": "Canada",
+          "content": "Estimated RPM: $3.5 – $10"
+        },
+        {
+          "heading": "UK",
+          "content": "Estimated RPM: $3 – $9"
+        },
+        {
+          "heading": "Germany",
+          "content": "Estimated RPM: $3 – $8"
+        },
+        {
+          "heading": "Australia",
+          "content": "Estimated RPM: $2.5 – $8"
+        },
+        {
+          "heading": "India",
+          "content": "Estimated RPM: $0.5 – $2"
+        },
+        {
+          "heading": "Pakistan",
+          "content": "Estimated RPM: $0.4 – $1.8"
+        },
+        {
+          "heading": "Bangladesh",
+          "content": "Estimated RPM: $0.3 – $1.5"
+        }
+      ]
+    },
+    {
+      "heading": "Video Length vs Earnings",
+      "content": "Longer videos usually earn more because:\n• More ad placements\n• Higher watch time\n• Better engagement\n\nExample:\n• 5-minute video: 1 ad placement\n• 10-minute video: 2-3 ad placements\n• 20-minute video: 4-6 ad placements\n\nMore ads mean higher earnings, but you must maintain viewer retention."
+    },
+    {
+      "heading": "Why Our Calculator is More Accurate",
+      "content": "Many calculators show only CPM and provide unrealistic earnings. Our calculator uses RPM (actual earnings) and factors like:\n• Country-based RPM\n• Engagement rate\n• Channel age\n• View consistency\n\nThis makes the results more realistic and trustworthy."
+    },
+    {
+      "heading": "How to Use This Calculator to Grow Your Channel",
+      "subSections": [
+        {
+          "heading": "1. Check Your Current Earnings",
+          "content": "Use the calculator to see your monthly and yearly potential. This helps you understand where your channel stands."
+        },
+        {
+          "heading": "2. Compare Channels",
+          "content": "Compare your channel with others in your niche. This helps you understand:\n• Which niches earn more\n• Which strategies work\n• What type of content gets monetized views"
+        },
+        {
+          "heading": "3. Improve Content Strategy",
+          "content": "If your estimated earnings are low, focus on improving:\n• Watch time\n• Thumbnails\n• Hook\n• Video length\n• Consistency"
+        },
+        {
+          "heading": "4. Plan Sponsorship Deals",
+          "content": "The calculator shows your sponsorship price range so you can negotiate confidently.\n\nSponsors usually look for:\n• High views\n• Strong engagement\n• Consistent upload schedule"
+        }
+      ]
+    },
+    {
+      "heading": "Limitations of YouTube Earnings Calculators (Important)",
+      "content": "This tool is an estimate, not an exact value. YouTube revenue depends on many factors that cannot be fully predicted, such as:\n• Ads shown to your audience\n• YouTube Premium revenue\n• Channel monetization status\n• Seasonal ad demand\n• Viewer behavior\n\nThis calculator provides a realistic estimate but cannot guarantee exact earnings."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this calculator accurate?",
+      "a": "Yes, it provides a realistic estimate based on real data and industry averages. Exact earnings may vary based on niche, location, and engagement."
+    },
+    {
+      "q": "What is the difference between CPM and RPM?",
+      "a": "CPM is what advertisers pay per 1,000 ad views, while RPM is what creators actually earn per 1,000 views after YouTube's revenue share."
+    },
+    {
+      "q": "Can I use the calculator without a channel link?",
+      "a": "Yes, you can manually adjust views and RPM to estimate your earnings without fetching channel data."
+    },
+    {
+      "q": "Do all views generate revenue?",
+      "a": "No. Only monetized views with ads shown generate revenue. Not all viewers see ads due to ad blockers or YouTube Premium."
+    },
+    {
+      "q": "What is a good RPM?",
+      "a": "A good RPM is usually between $2 to $8 depending on niche and audience location. Finance and tech niches can reach $10-$15."
+    },
+    {
+      "q": "How does viewer location affect earnings?",
+      "a": "Viewers from high-income countries (USA, UK, Canada, Germany, Australia) generate higher CPM and RPM compared to developing countries."
+    },
+    {
+      "q": "Why are my actual earnings different from the estimate?",
+      "a": "Actual earnings depend on many factors: ad types shown, viewer engagement, watch time, seasonal demand, and YouTube Premium revenue. This calculator provides an average estimate."
+    }
+  ]
+}

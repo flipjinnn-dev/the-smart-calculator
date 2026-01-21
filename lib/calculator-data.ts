@@ -875,6 +875,22 @@ export const calculators: Calculator[] = [
     category: "software",
     popular: true,
   },
+  {
+    id: "youtube-money-calculator",
+    name: "YouTube Money Calculator",
+    description: "Estimate YouTube earnings with RPM, views, CPM & sponsorship calculator for 2026.",
+    href: "/software/youtube-money-calculator",
+    category: "software",
+    popular: true,
+  },
+  {
+    id: "app-cost-calculator",
+    name: "App Cost Calculator",
+    description: "Estimate mobile and web app development costs with feature-based pricing. Get instant quotes for design, development, and deployment.",
+    href: "/software/app-cost-calculator",
+    category: "software",
+    popular: true,
+  },
 
   // Business & Startups Calculators
   {
@@ -882,6 +898,14 @@ export const calculators: Calculator[] = [
     name: "Break-Even Calculator",
     description: "Calculate break-even point in units and revenue to determine when your business becomes profitable.",
     href: "/business/break-even-calculator",
+    category: "business",
+    popular: true,
+  },
+  {
+    id: "startup-costs-calculator",
+    name: "Business Startup Cost Calculator",
+    description: "Calculate total business startup costs and funding requirements including all expenses for your new business.",
+    href: "/business/startup-costs-calculator",
     category: "business",
     popular: true,
   }
