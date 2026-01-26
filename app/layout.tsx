@@ -148,24 +148,6 @@ export default function RootLayout({
         <Header />
         <main>
           {children}
-          {/* DMCA Badge — usually footer me */}
-          <footer style={{ textAlign: "center", marginTop: "40px" }}>
-            <a
-              href="//www.dmca.com/Protection/Status.aspx?ID=675e8f05-64e3-408f-bd2a-c9f92818a42f"
-              title="DMCA.com Protection Status"
-              className="dmca-badge"
-            >
-              <img
-                src="https://images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=675e8f05-64e3-408f-bd2a-c9f92818a42f"
-                alt="DMCA.com Protection Status"
-              />
-            </a>
-          </footer>
-
-          <Script
-            src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"
-            strategy="afterInteractive"
-          />
         </main>
 
         {/* ✅ Google Analytics - Deferred */}
@@ -200,6 +182,12 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5433267523341571"
           strategy="lazyOnload"
           crossOrigin="anonymous"
+        />
+
+        {/* ✅ DMCA Badge Helper */}
+        <Script
+          src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"
+          strategy="lazyOnload"
         />
 
         {/* ✅ Vercel tools */}

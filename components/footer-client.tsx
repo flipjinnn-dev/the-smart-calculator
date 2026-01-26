@@ -350,8 +350,24 @@ const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
 
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-8">
-          <div className="flex items-center text-center justify-center">
+          <div className="flex flex-col items-center text-center justify-center space-y-4">
             <p className="text-gray-400">&copy; {footerContent.company.copyright}</p>
+            
+            {/* DMCA Protection Badge */}
+            <a 
+              href="//www.dmca.com/Protection/Status.aspx?ID=675e8f05-64e3-408f-bd2a-c9f92818a42f" 
+              title="DMCA.com Protection Status" 
+              className="dmca-badge"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img 
+                src="https://images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=675e8f05-64e3-408f-bd2a-c9f92818a42f" 
+                alt="DMCA.com Protection Status"
+                width="120"
+                height="24"
+              />
+            </a>
           </div>
         </div>
       </div>
