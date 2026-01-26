@@ -1,0 +1,72 @@
+{
+  "heroTitle": "Política Editorial y Declaración de Misión",
+  "heroDescription": "En TheSmartCalculator, estamos comprometidos a proporcionar herramientas de cálculo precisas, confiables y fáciles de usar. Esta Política Editorial y Declaración de Misión describe nuestros estándares, valores y los principios que seguimos al crear y mantener nuestro contenido.",
+  "overviewItems": [
+    {
+      "title": "Nuestra Misión",
+      "description": "Simplificar cálculos complejos con calculadoras en línea gratuitas, fáciles de usar y precisas"
+    },
+    {
+      "title": "Precisión Primero",
+      "description": "Cada herramienta se desarrolla utilizando fórmulas estándar, datos verificados y referencias confiables"
+    },
+    {
+      "title": "Confianza del Usuario",
+      "description": "Independencia editorial completa con contenido imparcial, honesto y claro"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Nuestra Declaración de Misión",
+      "description": "Nuestra misión es simplificar cálculos complejos ofreciendo calculadoras en línea gratuitas, fáciles de usar y precisas. Nuestro objetivo es ayudar a estudiantes, profesionales y usuarios cotidianos a tomar decisiones informadas a través de herramientas de cálculo claras y confiables."
+    },
+    {
+      "title": "Precisión del Contenido",
+      "description": "Priorizamos la precisión en todas nuestras calculadoras y contenido informativo. Cada herramienta se desarrolla utilizando fórmulas estándar, datos verificados y referencias confiables para garantizar resultados confiables."
+    },
+    {
+      "title": "Proceso de Creación de Contenido",
+      "description": "Todo el contenido y las calculadoras en TheSmartCalculator se investigan, desarrollan y prueban cuidadosamente antes de la publicación. Nuestro objetivo es garantizar claridad, usabilidad y corrección en cada herramienta que proporcionamos."
+    },
+    {
+      "title": "Revisión y Actualizaciones",
+      "description": "Revisamos regularmente nuestras calculadoras y contenido para mantenerlos actualizados. Las actualizaciones se realizan cuando las fórmulas cambian, se introducen nuevos estándares o se requieren mejoras para una mejor precisión y experiencia del usuario."
+    },
+    {
+      "title": "Fuentes de Información",
+      "description": "Utilizamos fuentes confiables y autorizadas, que incluyen:",
+      "items": [
+        "Libros de texto educativos y referencias académicas",
+        "Sitios web gubernamentales y oficiales",
+        "Fórmulas y metodologías estándar de la industria"
+      ]
+    },
+    {
+      "title": "Transparencia e Independencia",
+      "description": "TheSmartCalculator mantiene una independencia editorial completa. Nuestro contenido es imparcial y no está influenciado por anunciantes o patrocinadores."
+    },
+    {
+      "title": "Descargo de Responsabilidad del Usuario",
+      "description": "Todas las calculadoras e información proporcionadas en este sitio web son solo para fines informativos y educativos. Si bien nos esforzamos por la precisión, los resultados no deben considerarse un sustituto del asesoramiento profesional financiero, legal, médico o técnico. Se alienta a los usuarios a verificar los resultados de forma independiente."
+    },
+    {
+      "title": "Política de Correcciones",
+      "description": "Si se identifica un error en cualquier calculadora o contenido, tomamos medidas inmediatas para corregirlo. Los usuarios son bienvenidos a informar inexactitudes o sugerir mejoras contactándonos a través de nuestro sitio web."
+    },
+    {
+      "title": "Estándares Éticos",
+      "description": "Seguimos estándares éticos estrictos en la creación de contenido. Nuestro enfoque es la honestidad, la claridad y la confianza del usuario. No publicamos información engañosa, engañosa o exagerada."
+    },
+    {
+      "title": "Compromiso con la Experiencia del Usuario",
+      "description": "Trabajamos continuamente para mejorar la usabilidad, velocidad y accesibilidad de nuestras calculadoras, asegurando una experiencia fluida y eficiente para todos los usuarios en todos los dispositivos."
+    },
+    {
+      "title": "Información de Contacto",
+      "description": "Para preguntas, comentarios o solicitudes de corrección, los usuarios pueden comunicarse con nosotros a través de la página de Contacto.",
+      "contactInfo": {
+        "website": "https://www.thesmartcalculator.com/contact-us"
+      }
+    }
+  ]
+}

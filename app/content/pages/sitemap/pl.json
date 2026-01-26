@@ -1,0 +1,87 @@
+{
+  "heroTitle": "Mapa Strony",
+  "heroDescription": "Przeglądaj wszystkie dostępne kalkulatory i strony w Smart Calculator. Znajdź idealne narzędzie do swoich obliczeń.",
+  "categoriesTitle": "Kalkulatory według Kategorii",
+  "staticPagesTitle": "Ważne Strony",
+  "blogsTitle": "Blogi",
+  "gamesTitle": "Gry",
+  "categories": {
+    "financial": "Kalkulatory Finansowe",
+    "financeiro": "Kalkulatory Finansowe",
+    "finansowy": "Kalkulatory Finansowe",
+    "finanziell": "Kalkulatory Finansowe",
+    "financiero": "Kalkulatory Finansowe",
+    "health": "Kalkulatory Zdrowia i Fitness",
+    "saude": "Kalkulatory Zdrowia i Fitness",
+    "zdrowie": "Kalkulatory Zdrowia i Fitness",
+    "gesundheit": "Kalkulatory Zdrowia i Fitness",
+    "salud": "Kalkulatory Zdrowia i Fitness",
+    "maths": "Kalkulatory Matematyczne",
+    "matematica": "Kalkulatory Matematyczne",
+    "matematyka": "Kalkulatory Matematyczne",
+    "mathe": "Kalkulatory Matematyczne",
+    "matematicas": "Kalkulatory Matematyczne",
+    "physics": "Kalkulatory Fizyczne",
+    "fisica": "Kalkulatory Fizyczne",
+    "fizyka": "Kalkulatory Fizyczne",
+    "physik": "Kalkulatory Fizyczne",
+    "construction": "Kalkulatory Budowlane",
+    "construcao": "Kalkulatory Budowlane",
+    "budowa": "Kalkulatory Budowlane",
+    "konstruktion": "Kalkulatory Budowlane",
+    "construccion": "Kalkulatory Budowlane",
+    "food": "Kalkulatory Żywności i Odżywiania",
+    "alimento": "Kalkulatory Żywności i Odżywiania",
+    "zywnosc": "Kalkulatory Żywności i Odżywiania",
+    "essen": "Kalkulatory Żywności i Odżywiania",
+    "alimentos": "Kalkulatory Żywności i Odżywiania",
+    "sports": "Kalkulatory Sportowe",
+    "esportes": "Kalkulatory Sportowe",
+    "lekkoatletyka": "Kalkulatory Sportowe",
+    "sport": "Kalkulatory Sportowe",
+    "deportes": "Kalkulatory Sportowe",
+    "other": "Inne Kalkulatory",
+    "other-calculators": "Inne Kalkulatory",
+    "outro": "Inne Kalkulatory",
+    "inne": "Inne Kalkulatory",
+    "andere": "Inne Kalkulatory",
+    "otra": "Inne Kalkulatory",
+    "business": "Kalkulatory Biznesowe",
+    "negocios": "Kalkulatory Biznesowe",
+    "biznes": "Kalkulatory Biznesowe",
+    "geschaeft": "Kalkulatory Biznesowe",
+    "software": "Kalkulatory Oprogramowania",
+    "oprogramowanie": "Kalkulatory Oprogramowania",
+    "games": "Kalkulatory Gier",
+    "jogos": "Kalkulatory Gier",
+    "gry": "Kalkulatory Gier",
+    "spiele": "Kalkulatory Gier",
+    "juegos": "Kalkulatory Gier"
+  },
+  "staticPages": [
+    {
+      "name": "Strona Główna",
+      "url": "/pl"
+    },
+    {
+      "name": "O Nas",
+      "url": "/pl/o-nas"
+    },
+    {
+      "name": "Kontakt",
+      "url": "/pl/kontakt"
+    },
+    {
+      "name": "Polityka Prywatności",
+      "url": "/pl/polityka-prywatnosci"
+    },
+    {
+      "name": "Regulamin",
+      "url": "/pl/warunki"
+    },
+    {
+      "name": "Polityka Redakcyjna i Deklaracja Misji",
+      "url": "/pl/polityka-redakcyjna-deklaracja-misji"
+    }
+  ]
+}

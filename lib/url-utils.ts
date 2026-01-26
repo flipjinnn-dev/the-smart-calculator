@@ -389,11 +389,11 @@ export function getCategoryCanonicalUrl(
 }
 
 /**
- * Return canonical URL for a static page (about-us, contact-us, privacy-policy, terms-and-conditions)
+ * Return canonical URL for a static page (about-us, contact-us, privacy-policy, terms-and-conditions, editorial-policy-mission-statement, sitemap)
  * For non-English languages this returns the translated slug used by sitemap and middleware.
  */
 export function getStaticPageCanonicalUrl(
-  pageId: 'about-us' | 'contact-us' | 'privacy-policy' | 'terms-and-conditions',
+  pageId: 'about-us' | 'contact-us' | 'privacy-policy' | 'terms-and-conditions' | 'editorial-policy-mission-statement' | 'sitemap',
   language: string = 'en',
   baseUrl: string = 'https://www.thesmartcalculator.com'
 ): string {
@@ -426,6 +426,20 @@ export function getStaticPageCanonicalUrl(
       pl: '/pl/warunki',
       de: '/de/nutzungsbedingungen',
       es: '/es/terminos-y-condiciones',
+    },
+    'editorial-policy-mission-statement': {
+      en: '/editorial-policy-mission-statement',
+      br: '/br/politica-editorial-declaracao-missao',
+      pl: '/pl/polityka-redakcyjna-deklaracao-misji',
+      de: '/de/redaktionelle-richtlinien-leitbild',
+      es: '/es/politica-editorial-declaracion-mision',
+    },
+    'sitemap': {
+      en: '/sitemap',
+      br: '/br/mapa-do-site',
+      pl: '/pl/mapa-strony',
+      de: '/de/sitemap',
+      es: '/es/mapa-del-sitio',
     }
   };
 

@@ -10,6 +10,9 @@ export const metadata: Metadata = {
         description: 'Challenge yourself with quick mental math quizzes and improve your calculation speed and accuracy.',
         type: 'website',
     },
+    alternates: {
+        canonical: 'https://www.smartcalculator.com/mental-maths',
+    },
 };
 
 export default function MentalMathsPage() {

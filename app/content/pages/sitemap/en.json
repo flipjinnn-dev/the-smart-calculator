@@ -1,0 +1,87 @@
+{
+  "heroTitle": "Sitemap",
+  "heroDescription": "Browse all available calculators and pages on Smart Calculator. Find the perfect tool for your calculations.",
+  "categoriesTitle": "Calculators by Category",
+  "staticPagesTitle": "Important Pages",
+  "blogsTitle": "Blogs",
+  "gamesTitle": "Games",
+  "categories": {
+    "financial": "Financial Calculators",
+    "financeiro": "Financial Calculators",
+    "finansowy": "Financial Calculators",
+    "finanziell": "Financial Calculators",
+    "financiero": "Financial Calculators",
+    "health": "Health & Fitness Calculators",
+    "saude": "Health & Fitness Calculators",
+    "zdrowie": "Health & Fitness Calculators",
+    "gesundheit": "Health & Fitness Calculators",
+    "salud": "Health & Fitness Calculators",
+    "maths": "Math Calculators",
+    "matematica": "Math Calculators",
+    "matematyka": "Math Calculators",
+    "mathe": "Math Calculators",
+    "matematicas": "Math Calculators",
+    "physics": "Physics Calculators",
+    "fisica": "Physics Calculators",
+    "fizyka": "Physics Calculators",
+    "physik": "Physics Calculators",
+    "construction": "Construction Calculators",
+    "construcao": "Construction Calculators",
+    "budowa": "Construction Calculators",
+    "konstruktion": "Construction Calculators",
+    "construccion": "Construction Calculators",
+    "food": "Food & Nutrition Calculators",
+    "alimento": "Food & Nutrition Calculators",
+    "zywnosc": "Food & Nutrition Calculators",
+    "essen": "Food & Nutrition Calculators",
+    "alimentos": "Food & Nutrition Calculators",
+    "sports": "Sports Calculators",
+    "esportes": "Sports Calculators",
+    "lekkoatletyka": "Sports Calculators",
+    "sport": "Sports Calculators",
+    "deportes": "Sports Calculators",
+    "other": "Other Calculators",
+    "other-calculators": "Other Calculators",
+    "outro": "Other Calculators",
+    "inne": "Other Calculators",
+    "andere": "Other Calculators",
+    "otra": "Other Calculators",
+    "business": "Business Calculators",
+    "negocios": "Business Calculators",
+    "biznes": "Business Calculators",
+    "geschaeft": "Business Calculators",
+    "software": "Software Calculators",
+    "oprogramowanie": "Software Calculators",
+    "games": "Games Calculators",
+    "jogos": "Games Calculators",
+    "gry": "Games Calculators",
+    "spiele": "Games Calculators",
+    "juegos": "Games Calculators"
+  },
+  "staticPages": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About Us",
+      "url": "/about-us"
+    },
+    {
+      "name": "Contact Us",
+      "url": "/contact-us"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    },
+    {
+      "name": "Terms and Conditions",
+      "url": "/terms-and-conditions"
+    },
+    {
+      "name": "Editorial Policy & Mission Statement",
+      "url": "/editorial-policy-mission-statement"
+    }
+  ]
+}

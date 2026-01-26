@@ -217,8 +217,8 @@ export default function PaverBaseCalculatorClient({ content, guideContent }: Pav
                 <Layers className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle || "Paver Base Calculator"}</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription || "Calculate the amount of base material, sand, and pavers needed for your paving project"}</p>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.title || "Paver Base Calculator"}</h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.description || "Calculate the amount of base material, sand, and pavers needed for your paving project"}</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

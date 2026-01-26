@@ -15,7 +15,10 @@ export const metadata: Metadata = {
       height: 630,
       alt: "Wordle History Archive"
     }],
-  }
+  },
+  alternates: {
+    canonical: 'https://www.smartcalculator.com/games/what-is-the-wordle-today',
+  },
 }
 
 export default function WordleHistoryLayout({

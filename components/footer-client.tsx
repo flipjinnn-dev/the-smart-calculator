@@ -1,8 +1,11 @@
+"use client"
+
+import React, { useState, useEffect } from 'react';
 import Logo from './logo'
 import Link from 'next/link'
 import { Instagram, TwitterIcon, Mail } from 'lucide-react'
 import { FaPinterestP } from "react-icons/fa"
-import { AiOutlineYoutube } from "react-icons/ai"
+import { AiOutlineLinkedin, AiOutlineYoutube } from "react-icons/ai"
 import { getLocalizedCategoryUrl } from '@/lib/url-utils'
 import { getAllCalculatorsByCategory } from '@/lib/calculator-data'
 import { getLocalizedCalculatorData, getLocalizedCalculatorHref } from '@/lib/language-utils'
@@ -17,68 +20,29 @@ interface FooterItem {
   href: string
 }
 
-async function getFooterContent(language: string) {
-  try {
-    const content = await import(`@/app/content/footer/${language}.json`)
-    return content.default || content
-  } catch (error) {
-    console.error('Error loading footer content:', error)
-    const fallback = await import(`@/app/content/footer/en.json`)
-    return fallback.default || fallback
-  }
-}
+const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
+  const [footerContent, setFooterContent] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
-export const Footer = async ({ language = 'en' }: FooterProps) => {
-  const content = await getFooterContent(language)
-  
-  const footerContent = content ?? {
-    company: {
-      name: "Smart Calculator",
-      description: "Your go-to destination for free, accurate, and easy-to-use online calculators. Trusted by millions of users worldwide.",
-      email: "thesmartcalculators@gmail.com",
-      copyright: "2026 Smart Calculator. All rights reserved."
-    },
-    categories: {
-      title: "Most Used Categories",
-      items: [
-        { name: "Financial Calculators", href: "/financial" },
-        { name: "Health & Fitness", href: "/health" },
-        { name: "Math Calculators", href: "/maths" },
-        { name: "Physics Calculators", href: "/physics" },
-        { name: "Other Calculators", href: "/other-calculators" }
-      ]
-    },
-    companyLinks: {
-      title: "Company",
-      items: [
-        { name: "Home", href: "/" },
-        { name: "About Us", href: "/about-us" },
-        { name: "Contact Us", href: "/contact-us" },
-        { name: "Sitemap", href: "/sitemap" },
-        { name: "Editorial Policy", href: "/editorial-policy-mission-statement" },
-        { name: "Privacy Policy", href: "/privacy-policy" },
-        { name: "Terms and Conditions", href: "/terms-and-conditions" }
-      ]
-    },
-    allCalculators: {
-      title: "All Calculators",
-      showInFooter: true
-    },
-    popularCalculators: {
-      title: "Popular Financial Calculators",
-      items: [
-        { name: "Mortgage Calculator", href: "https://hypotheken-rechner.net/" },
-        { name: "Financing Calculator", href: "https://hypotheken-rechner.net/finanzierungs-rechner" },
-        { name: "Construction Financing Calculator", href: "https://hypotheken-rechner.net/baufinanzierungs-rechner" },
-        { name: "Budget Calculator", href: "https://hypotheken-rechner.net/budget-rechner" }
-      ]
-    },
-    social: {
-      pinterest: "https://www.pinterest.com/thesmartcalculators/",
-      twitter: "https://x.com/SmartCalculat0r",
-      instagram: "https://www.instagram.com/thesmartcalculators/",
-      youtube: "https://www.youtube.com/@TheSmartCalculators"
-    }
+  useEffect(() => {
+    const loadContent = async () => {
+      try {
+        const content = await import(`@/app/content/footer/${language}.json`);
+        setFooterContent(content.default || content);
+      } catch (error) {
+        console.error('Error loading footer content:', error);
+        const fallback = await import(`@/app/content/footer/en.json`);
+        setFooterContent(fallback.default || fallback);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadContent();
+  }, [language]);
+
+  if (loading || !footerContent) {
+    return <footer className="bg-gray-900 text-white py-16"><div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">Loading...</div></footer>;
   }
 
   // Get all calculators organized by category
@@ -294,6 +258,11 @@ export const Footer = async ({ language = 'en' }: FooterProps) => {
                   <span className="text-white font-extrabold font-xl"><AiOutlineYoutube /></span>
                 </div>
               </Link>
+              <Link href={"https://www.linkedin.com/company/smart-calculator/"} aria-label="Visit our LinkedIn page">
+                <div className="w-10 h-10 bg-blue-700 rounded-lg flex items-center justify-center hover:bg-blue-800 transition-colors cursor-pointer">
+                  <span className="text-white font-extrabold font-3xl"><AiOutlineLinkedin /></span>
+                </div>
+              </Link>
             </div>
           </div>
 
@@ -389,3 +358,5 @@ export const Footer = async ({ language = 'en' }: FooterProps) => {
     </footer>
   )
 }
+
+export default FooterClient;

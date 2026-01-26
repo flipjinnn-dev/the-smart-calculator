@@ -1,0 +1,87 @@
+{
+  "heroTitle": "Mapa del Sitio",
+  "heroDescription": "Explore todas las calculadoras y páginas disponibles en Smart Calculator. Encuentre la herramienta perfecta para sus cálculos.",
+  "categoriesTitle": "Calculadoras por Categoría",
+  "staticPagesTitle": "Páginas Importantes",
+  "blogsTitle": "Blogs",
+  "gamesTitle": "Juegos",
+  "categories": {
+    "financial": "Calculadoras Financieras",
+    "financeiro": "Calculadoras Financieras",
+    "finansowy": "Calculadoras Financieras",
+    "finanziell": "Calculadoras Financieras",
+    "financiero": "Calculadoras Financieras",
+    "health": "Calculadoras de Salud y Fitness",
+    "saude": "Calculadoras de Salud y Fitness",
+    "zdrowie": "Calculadoras de Salud y Fitness",
+    "gesundheit": "Calculadoras de Salud y Fitness",
+    "salud": "Calculadoras de Salud y Fitness",
+    "maths": "Calculadoras Matemáticas",
+    "matematica": "Calculadoras Matemáticas",
+    "matematyka": "Calculadoras Matemáticas",
+    "mathe": "Calculadoras Matemáticas",
+    "matematicas": "Calculadoras Matemáticas",
+    "physics": "Calculadoras de Física",
+    "fisica": "Calculadoras de Física",
+    "fizyka": "Calculadoras de Física",
+    "physik": "Calculadoras de Física",
+    "construction": "Calculadoras de Construcción",
+    "construcao": "Calculadoras de Construcción",
+    "budowa": "Calculadoras de Construcción",
+    "konstruktion": "Calculadoras de Construcción",
+    "construccion": "Calculadoras de Construcción",
+    "food": "Calculadoras de Alimentación y Nutrición",
+    "alimento": "Calculadoras de Alimentación y Nutrición",
+    "zywnosc": "Calculadoras de Alimentación y Nutrición",
+    "essen": "Calculadoras de Alimentación y Nutrición",
+    "alimentos": "Calculadoras de Alimentación y Nutrición",
+    "sports": "Calculadoras Deportivas",
+    "esportes": "Calculadoras Deportivas",
+    "lekkoatletyka": "Calculadoras Deportivas",
+    "sport": "Calculadoras Deportivas",
+    "deportes": "Calculadoras Deportivas",
+    "other": "Otras Calculadoras",
+    "other-calculators": "Otras Calculadoras",
+    "outro": "Otras Calculadoras",
+    "inne": "Otras Calculadoras",
+    "andere": "Otras Calculadoras",
+    "otra": "Otras Calculadoras",
+    "business": "Calculadoras de Negocios",
+    "negocios": "Calculadoras de Negocios",
+    "biznes": "Calculadoras de Negocios",
+    "geschaeft": "Calculadoras de Negocios",
+    "software": "Calculadoras de Software",
+    "oprogramowanie": "Calculadoras de Software",
+    "games": "Calculadoras de Juegos",
+    "jogos": "Calculadoras de Juegos",
+    "gry": "Calculadoras de Juegos",
+    "spiele": "Calculadoras de Juegos",
+    "juegos": "Calculadoras de Juegos"
+  },
+  "staticPages": [
+    {
+      "name": "Inicio",
+      "url": "/es"
+    },
+    {
+      "name": "Sobre Nosotros",
+      "url": "/es/sobre-nosotros"
+    },
+    {
+      "name": "Contacto",
+      "url": "/es/contacto"
+    },
+    {
+      "name": "Política de Privacidad",
+      "url": "/es/politica-de-privacidad"
+    },
+    {
+      "name": "Términos y Condiciones",
+      "url": "/es/terminos-y-condiciones"
+    },
+    {
+      "name": "Directrices Editoriales y Declaración de Misión",
+      "url": "/es/politica-editorial-declaracion-mision"
+    }
+  ]
+}

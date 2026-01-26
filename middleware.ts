@@ -123,7 +123,8 @@ export const urlMappings = {
     'calculadora-de-ponto-de-equilibrio': 'break-even-calculator',
     'calculadora-de-custos-de-abertura': 'startup-costs-calculator',
     'calculadora-de-custo-de-app': 'app-cost-calculator',
-    'calculadora-de-dinheiro-youtube': 'youtube-money-calculator'
+    'calculadora-de-dinheiro-youtube': 'youtube-money-calculator',
+    'politica-editorial-declaracao-missao': 'editorial-policy-mission-statement'
   },
   'pl': {
     'pl-slug':'en-slug',
@@ -245,7 +246,8 @@ export const urlMappings = {
     'kalkulator-progu-rentownosci':'break-even-calculator',
     'kalkulator-kosztow-rozpoczecia-dzialalnosci': 'startup-costs-calculator',
     'kalkulator-kosztow-aplikacji': 'app-cost-calculator',
-    'kalkulator-zarobkow-youtube': 'youtube-money-calculator'
+    'kalkulator-zarobkow-youtube': 'youtube-money-calculator',
+    'polityka-redakcyjna-deklaracja-misji': 'editorial-policy-mission-statement'
   },
   'de': {
     'de-slug':'en-slug',
@@ -301,6 +303,7 @@ export const urlMappings = {
     'schulden-tilgungsrechner': 'debt-payoff-calculator',
     'haus-erschwinglichkeitsrechner': 'house-affordability-calculator',
     'idealgewicht-rechner': 'ideal-weight-calculator',
+    'income-tax-calculator': 'income-tax-calculator',
     'indiana-kind-unterhalt-rechner': 'indiana-child-support-calculator',
     'inflationsrechner': 'inflation-calculator',
     'investitionsrechner': 'investment-calculator',
@@ -367,7 +370,8 @@ export const urlMappings = {
     'break-even-rechner': 'break-even-calculator',
     'grundungskosten-rechner': 'startup-costs-calculator',
     'app-kosten-rechner': 'app-cost-calculator',
-    'youtube-geld-rechner': 'youtube-money-calculator'
+    'youtube-geld-rechner': 'youtube-money-calculator',
+    'redaktionelle-richtlinien-leitbild': 'editorial-policy-mission-statement'
   },
   'es': {
     'es-slug':'en-slug',
@@ -489,7 +493,8 @@ export const urlMappings = {
     'calculadora-de-punto-de-equilibrio':'break-even-calculator',
     'calculadora-de-costos-de-inicio': 'startup-costs-calculator',
     'calculadora-de-costo-de-app': 'app-cost-calculator',
-    'calculadora-de-dinero-youtube': 'youtube-money-calculator'
+    'calculadora-de-dinero-youtube': 'youtube-money-calculator',
+    'politica-editorial-declaracion-mision': 'editorial-policy-mission-statement'
   }
 } as const;
 
@@ -614,7 +619,8 @@ export const reverseUrlMappings = {
     'break-even-calculator': 'calculadora-de-ponto-de-equilibrio',
     'startup-costs-calculator': 'calculadora-de-custos-de-abertura',
     'app-cost-calculator': 'calculadora-de-custo-de-app',
-    'youtube-money-calculator': 'calculadora-de-dinheiro-youtube'
+    'youtube-money-calculator': 'calculadora-de-dinheiro-youtube',
+    'editorial-policy-mission-statement': 'politica-editorial-declaracao-missao'
   },
   'pl': {
     'en-slug':'pl-slug',
@@ -736,7 +742,8 @@ export const reverseUrlMappings = {
     'break-even-calculator': 'kalkulator-progu-rentownosci',
     'startup-costs-calculator': 'kalkulator-kosztow-rozpoczecia-dzialalnosci',
     'app-cost-calculator': 'kalkulator-kosztow-aplikacji',
-    'youtube-money-calculator': 'kalkulator-zarobkow-youtube'
+    'youtube-money-calculator': 'kalkulator-zarobkow-youtube',
+    'editorial-policy-mission-statement': 'polityka-redakcyjna-deklaracja-misji'
   },
   'de': {
     'en-slug':'de-slug',
@@ -857,7 +864,8 @@ export const reverseUrlMappings = {
     'break-even-calculator': 'break-even-rechner',
     'startup-costs-calculator': 'grundungskosten-rechner',
     'app-cost-calculator': 'app-kosten-rechner',
-    'youtube-money-calculator': 'youtube-geld-rechner'
+    'youtube-money-calculator': 'youtube-geld-rechner',
+    'editorial-policy-mission-statement': 'redaktionelle-richtlinien-leitbild'
   },
   'es': {
     'en-slug':'es-slug',
@@ -978,7 +986,8 @@ export const reverseUrlMappings = {
     'break-even-calculator': 'calculadora-de-punto-de-equilibrio',
     'startup-costs-calculator': 'calculadora-de-costos-de-inicio',
     'app-cost-calculator': 'calculadora-de-costo-de-app',
-    'youtube-money-calculator': 'calculadora-de-dinero-youtube'
+    'youtube-money-calculator': 'calculadora-de-dinero-youtube',
+    'editorial-policy-mission-statement': 'politica-editorial-declaracion-mision'
   }
 } as const;
 
@@ -988,7 +997,9 @@ const staticPages = [
   'contact-us',
   'privacy-policy',
   'terms-and-conditions',
-  'blogs'
+  'blogs',
+  'editorial-policy-mission-statement',
+  'sitemap'
 ];
 
 export function middleware(request: NextRequest) {

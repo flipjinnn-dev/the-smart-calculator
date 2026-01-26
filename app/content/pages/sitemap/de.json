@@ -1,0 +1,87 @@
+{
+  "heroTitle": "Sitemap",
+  "heroDescription": "Durchsuchen Sie alle verfügbaren Rechner und Seiten auf Smart Calculator. Finden Sie das perfekte Tool für Ihre Berechnungen.",
+  "categoriesTitle": "Rechner nach Kategorie",
+  "staticPagesTitle": "Wichtige Seiten",
+  "blogsTitle": "Blogs",
+  "gamesTitle": "Spiele",
+  "categories": {
+    "financial": "Finanzrechner",
+    "financeiro": "Finanzrechner",
+    "finansowy": "Finanzrechner",
+    "finanziell": "Finanzrechner",
+    "financiero": "Finanzrechner",
+    "health": "Gesundheits- und Fitnessrechner",
+    "saude": "Gesundheits- und Fitnessrechner",
+    "zdrowie": "Gesundheits- und Fitnessrechner",
+    "gesundheit": "Gesundheits- und Fitnessrechner",
+    "salud": "Gesundheits- und Fitnessrechner",
+    "maths": "Mathematikrechner",
+    "matematica": "Mathematikrechner",
+    "matematyka": "Mathematikrechner",
+    "mathe": "Mathematikrechner",
+    "matematicas": "Mathematikrechner",
+    "physics": "Physikrechner",
+    "fisica": "Physikrechner",
+    "fizyka": "Physikrechner",
+    "physik": "Physikrechner",
+    "construction": "Baurechner",
+    "construcao": "Baurechner",
+    "budowa": "Baurechner",
+    "konstruktion": "Baurechner",
+    "construccion": "Baurechner",
+    "food": "Ernährungs- und Lebensmittelrechner",
+    "alimento": "Ernährungs- und Lebensmittelrechner",
+    "zywnosc": "Ernährungs- und Lebensmittelrechner",
+    "essen": "Ernährungs- und Lebensmittelrechner",
+    "alimentos": "Ernährungs- und Lebensmittelrechner",
+    "sports": "Sportrechner",
+    "esportes": "Sportrechner",
+    "lekkoatletyka": "Sportrechner",
+    "sport": "Sportrechner",
+    "deportes": "Sportrechner",
+    "other": "Andere Rechner",
+    "other-calculators": "Andere Rechner",
+    "outro": "Andere Rechner",
+    "inne": "Andere Rechner",
+    "andere": "Andere Rechner",
+    "otra": "Andere Rechner",
+    "business": "Geschäftsrechner",
+    "negocios": "Geschäftsrechner",
+    "biznes": "Geschäftsrechner",
+    "geschaeft": "Geschäftsrechner",
+    "software": "Softwarerechner",
+    "oprogramowanie": "Softwarerechner",
+    "games": "Spielerechner",
+    "jogos": "Spielerechner",
+    "gry": "Spielerechner",
+    "spiele": "Spielerechner",
+    "juegos": "Spielerechner"
+  },
+  "staticPages": [
+    {
+      "name": "Startseite",
+      "url": "/de"
+    },
+    {
+      "name": "Über Uns",
+      "url": "/de/uber-uns"
+    },
+    {
+      "name": "Kontakt",
+      "url": "/de/kontakt"
+    },
+    {
+      "name": "Datenschutz",
+      "url": "/de/datenschutz"
+    },
+    {
+      "name": "AGB",
+      "url": "/de/nutzungsbedingungen"
+    },
+    {
+      "name": "Redaktionelle Richtlinien und Leitbild",
+      "url": "/de/redaktionelle-richtlinien-leitbild"
+    }
+  ]
+}

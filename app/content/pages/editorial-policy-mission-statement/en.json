@@ -1,0 +1,72 @@
+{
+  "heroTitle": "Editorial Policy & Mission Statement",
+  "heroDescription": "At TheSmartCalculator, we are committed to providing accurate, reliable, and easy-to-use calculation tools. This Editorial Policy & Mission Statement outlines our standards, values, and the principles we follow while creating and maintaining our content.",
+  "overviewItems": [
+    {
+      "title": "Our Mission",
+      "description": "Simplify complex calculations with free, user-friendly, and accurate online calculators"
+    },
+    {
+      "title": "Accuracy First",
+      "description": "Every tool is developed using standard formulas, verified data, and trusted references"
+    },
+    {
+      "title": "User Trust",
+      "description": "Complete editorial independence with unbiased, honest, and clear content"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Our Mission Statement",
+      "description": "Our mission is to simplify complex calculations by offering free, user-friendly, and accurate online calculators. We aim to help students, professionals, and everyday users make informed decisions through clear and trustworthy calculation tools."
+    },
+    {
+      "title": "Content Accuracy",
+      "description": "We prioritize accuracy in all our calculators and informational content. Each tool is developed using standard formulas, verified data, and trusted references to ensure reliable results."
+    },
+    {
+      "title": "Content Creation Process",
+      "description": "All content and calculators on TheSmartCalculator are carefully researched, developed, and tested before publication. Our goal is to ensure clarity, usability, and correctness in every tool we provide."
+    },
+    {
+      "title": "Review and Updates",
+      "description": "We regularly review our calculators and content to keep them up to date. Updates are made whenever formulas change, new standards are introduced, or improvements are required for better accuracy and user experience."
+    },
+    {
+      "title": "Sources of Information",
+      "description": "We use reliable and authoritative sources, including:",
+      "items": [
+        "Educational textbooks and academic references",
+        "Government and official websites",
+        "Industry-standard formulas and methodologies"
+      ]
+    },
+    {
+      "title": "Transparency and Independence",
+      "description": "TheSmartCalculator maintains complete editorial independence. Our content is unbiased and not influenced by advertisers or sponsors."
+    },
+    {
+      "title": "User Responsibility Disclaimer",
+      "description": "All calculators and information provided on this website are for informational and educational purposes only. While we strive for accuracy, results should not be considered a substitute for professional financial, legal, medical, or technical advice. Users are encouraged to verify results independently."
+    },
+    {
+      "title": "Corrections Policy",
+      "description": "If an error is identified in any calculator or content, we take prompt action to correct it. Users are welcome to report inaccuracies or suggest improvements by contacting us through our website."
+    },
+    {
+      "title": "Ethical Standards",
+      "description": "We follow strict ethical standards in content creation. Our focus is on honesty, clarity, and user trust. We do not publish misleading, deceptive, or exaggerated information."
+    },
+    {
+      "title": "Commitment to User Experience",
+      "description": "We continuously work to improve the usability, speed, and accessibility of our calculators, ensuring a smooth and efficient experience for all users across devices."
+    },
+    {
+      "title": "Contact Information",
+      "description": "For questions, feedback, or correction requests, users can reach us through the Contact page.",
+      "contactInfo": {
+        "website": "https://www.thesmartcalculator.com/contact-us"
+      }
+    }
+  ]
+}

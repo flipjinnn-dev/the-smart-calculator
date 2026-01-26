@@ -16,7 +16,10 @@ export const metadata: Metadata = {
       height: 630,
       alt: "Play Wordle Daily"
     }],
-  }
+  },
+  alternates: {
+    canonical: 'https://www.smartcalculator.com/games/wordle',
+  },
 }
 
 export default function WordleLayout({

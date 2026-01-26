@@ -2,7 +2,8 @@
   "company": {
     "name": "Smart Calculators",
     "description": "Su destino preferido para obtener calculadoras en línea gratuitas, precisas y fáciles de usar. Con la confianza de millones de usuarios en todo el mundo.",
-    "copyright": "Smart Calculators 2025. Reservados todos los derechos."
+    "email": "thesmartcalculators@gmail.com",
+    "copyright": "Smart Calculators 2026. Reservados todos los derechos."
   },
   "categories": {
     "title": "Categorías más utilizadas",
@@ -30,14 +31,14 @@
     ]
   },
   "companyLinks": {
-    "title": "Compañía",
+    "title": "Empresa",
     "items": [
       {
-        "name": "Hogar",
+        "name": "Inicio",
         "href": "/es"
       },
       {
-        "name": "Sobre nosotros",
+        "name": "Sobre Nosotros",
         "href": "/es/sobre-nosotros"
       },
       {
@@ -45,14 +46,26 @@
         "href": "/es/contacto"
       },
       {
-        "name": "Política de privacidad",
+        "name": "Mapa del Sitio",
+        "href": "/sitemap"
+      },
+      {
+        "name": "Política Editorial",
+        "href": "/editorial-policy-mission-statement"
+      },
+      {
+        "name": "Política de Privacidad",
         "href": "/es/politica-de-privacidad"
       },
       {
-        "name": "Términos y condiciones",
+        "name": "Términos y Condiciones",
         "href": "/es/terminos-y-condiciones"
       }
     ]
+  },
+  "allCalculators": {
+    "title": "Todas las Calculadoras",
+    "showInFooter": true
   },
   "popularCalculators": {
     "title": "Calculadoras Financieras Populares",

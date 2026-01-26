@@ -1,0 +1,72 @@
+{
+  "heroTitle": "Redaktionelle Richtlinien und Leitbild",
+  "heroDescription": "Bei TheSmartCalculator sind wir bestrebt, genaue, zuverlässige und benutzerfreundliche Berechnungstools bereitzustellen. Diese redaktionellen Richtlinien und das Leitbild beschreiben unsere Standards, Werte und die Prinzipien, die wir bei der Erstellung und Pflege unserer Inhalte befolgen.",
+  "overviewItems": [
+    {
+      "title": "Unsere Mission",
+      "description": "Vereinfachung komplexer Berechnungen mit kostenlosen, benutzerfreundlichen und genauen Online-Rechnern"
+    },
+    {
+      "title": "Genauigkeit Zuerst",
+      "description": "Jedes Tool wird mit Standardformeln, verifizierten Daten und vertrauenswürdigen Referenzen entwickelt"
+    },
+    {
+      "title": "Nutzervertrauen",
+      "description": "Vollständige redaktionelle Unabhängigkeit mit unvoreingenommenen, ehrlichen und klaren Inhalten"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Unser Leitbild",
+      "description": "Unsere Mission ist es, komplexe Berechnungen zu vereinfachen, indem wir kostenlose, benutzerfreundliche und genaue Online-Rechner anbieten. Unser Ziel ist es, Studenten, Fachleuten und alltäglichen Nutzern zu helfen, fundierte Entscheidungen durch klare und vertrauenswürdige Berechnungstools zu treffen."
+    },
+    {
+      "title": "Inhaltsgenauigkeit",
+      "description": "Wir legen Wert auf Genauigkeit in allen unseren Rechnern und informativen Inhalten. Jedes Tool wird mit Standardformeln, verifizierten Daten und vertrauenswürdigen Referenzen entwickelt, um zuverlässige Ergebnisse zu gewährleisten."
+    },
+    {
+      "title": "Prozess der Inhaltserstellung",
+      "description": "Alle Inhalte und Rechner auf TheSmartCalculator werden vor der Veröffentlichung sorgfältig recherchiert, entwickelt und getestet. Unser Ziel ist es, Klarheit, Benutzerfreundlichkeit und Korrektheit in jedem von uns bereitgestellten Tool zu gewährleisten."
+    },
+    {
+      "title": "Überprüfung und Aktualisierungen",
+      "description": "Wir überprüfen regelmäßig unsere Rechner und Inhalte, um sie auf dem neuesten Stand zu halten. Aktualisierungen werden vorgenommen, wenn sich Formeln ändern, neue Standards eingeführt werden oder Verbesserungen für bessere Genauigkeit und Benutzererfahrung erforderlich sind."
+    },
+    {
+      "title": "Informationsquellen",
+      "description": "Wir verwenden zuverlässige und maßgebliche Quellen, einschließlich:",
+      "items": [
+        "Bildungslehrbücher und akademische Referenzen",
+        "Regierungs- und offizielle Websites",
+        "Branchenübliche Formeln und Methodologien"
+      ]
+    },
+    {
+      "title": "Transparenz und Unabhängigkeit",
+      "description": "TheSmartCalculator wahrt vollständige redaktionelle Unabhängigkeit. Unsere Inhalte sind unvoreingenommen und werden nicht von Werbetreibenden oder Sponsoren beeinflusst."
+    },
+    {
+      "title": "Haftungsausschluss für Benutzerverantwortung",
+      "description": "Alle auf dieser Website bereitgestellten Rechner und Informationen dienen nur zu Informations- und Bildungszwecken. Obwohl wir nach Genauigkeit streben, sollten die Ergebnisse nicht als Ersatz für professionelle finanzielle, rechtliche, medizinische oder technische Beratung betrachtet werden. Benutzer werden ermutigt, die Ergebnisse unabhängig zu überprüfen."
+    },
+    {
+      "title": "Korrekturrichtlinie",
+      "description": "Wenn ein Fehler in einem Rechner oder Inhalt identifiziert wird, ergreifen wir umgehend Maßnahmen, um ihn zu korrigieren. Benutzer sind herzlich eingeladen, Ungenauigkeiten zu melden oder Verbesserungen vorzuschlagen, indem sie uns über unsere Website kontaktieren."
+    },
+    {
+      "title": "Ethische Standards",
+      "description": "Wir befolgen strenge ethische Standards bei der Inhaltserstellung. Unser Fokus liegt auf Ehrlichkeit, Klarheit und Nutzervertrauen. Wir veröffentlichen keine irreführenden, täuschenden oder übertriebenen Informationen."
+    },
+    {
+      "title": "Engagement für Benutzererfahrung",
+      "description": "Wir arbeiten kontinuierlich daran, die Benutzerfreundlichkeit, Geschwindigkeit und Zugänglichkeit unserer Rechner zu verbessern und eine reibungslose und effiziente Erfahrung für alle Benutzer auf allen Geräten zu gewährleisten."
+    },
+    {
+      "title": "Kontaktinformationen",
+      "description": "Für Fragen, Feedback oder Korrekturanfragen können Benutzer uns über die Kontaktseite erreichen.",
+      "contactInfo": {
+        "website": "https://www.thesmartcalculator.com/contact-us"
+      }
+    }
+  ]
+}

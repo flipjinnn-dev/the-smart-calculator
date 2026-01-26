@@ -2,7 +2,8 @@
   "company": {
     "name": "Smart Calculator",
     "description": "Ihr Ziel für kostenlose, genaue und einfach zu bedienende Online-Rechner. Vertraut von Millionen von Nutzern weltweit.",
-    "copyright": "2025 Smart Calculator. Alle Rechte vorbehalten."
+    "email": "thesmartcalculators@gmail.com",
+    "copyright": "2026 Smart Calculator. Alle Rechte vorbehalten."
   },
   "categories": {
     "title": "Meistgenutzte Kategorien",
@@ -45,6 +46,14 @@
         "href": "/de/kontakt"
       },
       {
+        "name": "Sitemap",
+        "href": "/sitemap"
+      },
+      {
+        "name": "Redaktionelle Richtlinien",
+        "href": "/editorial-policy-mission-statement"
+      },
+      {
         "name": "Datenschutz",
         "href": "/de/datenschutz"
       },
@@ -53,6 +62,10 @@
         "href": "/de/allgemeine-geschaftsbedingungen"
       }
     ]
+  },
+  "allCalculators": {
+    "title": "Alle Rechner",
+    "showInFooter": true
   },
   "popularCalculators": {
     "title": "Beliebte Finanzrechner",

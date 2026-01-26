@@ -6,6 +6,7 @@ import { LanguageFooter } from "@/components/language-footer"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/next"
 import Header from "@/components/header"
+import BackToTop from "@/components/back-to-top"
 import { headers } from "next/headers"
 import "./globals.css"
 import "katex/dist/katex.min.css"
@@ -187,6 +188,7 @@ export default function RootLayout({
         <SpeedInsights />
         <Analytics />
 
+        <BackToTop />
         <LanguageFooter />
       </body>
     </html>
