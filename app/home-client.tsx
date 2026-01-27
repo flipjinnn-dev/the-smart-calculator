@@ -29,6 +29,8 @@ import SearchBar from "@/components/search-bar"
 import { getCalculatorCount, getCalculatorByName, calculators } from "@/lib/calculator-data"
 import { getLocalizedCategoryUrl, getLocalizedCalculatorUrl } from "@/lib/url-utils"
 import HomepageScientificCalculator from "@/components/homepage-scientific-calculator"
+import AuthorsSection from "@/components/authors-section"
+import type { Author } from "@/lib/sanity/client"
 
 // Define category icons mapping
 const categoryIcons: Record<string, React.ComponentType<any>> = {
@@ -56,9 +58,10 @@ const featureIcons: Record<string, React.ComponentType<any>> = {
 interface HomeClientProps {
   content: any;
   language: string;
+  authors: Author[];
 }
 
-export default function HomePage({ content, language }: HomeClientProps) {
+export default function HomePage({ content, language, authors }: HomeClientProps) {
   const [isSearchFocused, setIsSearchFocused] = useState(false)
 
   // Use content or fallback to defaults
@@ -645,6 +648,9 @@ export default function HomePage({ content, language }: HomeClientProps) {
             </div>
           </div>
         </section>
+
+        {/* Authors Section */}
+        <AuthorsSection authors={authors} />
 
         {/* Features Section */}
         <section className="py-12 md:py-20 px-2 sm:px-6 lg:px-8 bg-white">

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
         type: 'website',
     },
     alternates: {
-        canonical: 'https://www.smartcalculator.com/mental-maths',
+        canonical: 'https://www.thesmartcalculator.com/games/mental-maths',
     },
 };
 

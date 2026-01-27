@@ -1,5 +1,5 @@
 import { client } from './config';
-import { blogPostsQuery, blogPostBySlugQuery, allBlogSlugsQuery } from './queries';
+import { blogPostsQuery, blogPostBySlugQuery, allBlogSlugsQuery, allAuthorsQuery } from './queries';
 
 export interface BlogPost {
   _id: string;
@@ -25,6 +25,23 @@ export interface BlogPost {
     language: string;
     code: string;
   };
+}
+
+export interface Author {
+  _id: string;
+  name: string;
+  slug: string;
+  image?: string;
+  tagline?: string;
+  social?: {
+    email?: string;
+    linkedin?: string;
+    twitter?: string;
+    instagram?: string;
+    website?: string;
+  };
+  postCount?: number;
+  calculatorCount?: number;
 }
 
 export async function getAllBlogPosts(): Promise<BlogPost[]> {
@@ -65,5 +82,15 @@ export async function getAuthorBySlug(slug: string) {
   } catch (error) {
     console.error('Error fetching author:', error);
     return null;
+  }
+}
+
+export async function getAllAuthors(): Promise<Author[]> {
+  try {
+    const authors = await client.fetch(allAuthorsQuery);
+    return authors || [];
+  } catch (error) {
+    console.error('Error fetching authors:', error);
+    return [];
   }
 }

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     }],
   },
   alternates: {
-    canonical: 'https://www.smartcalculator.com/games/what-is-the-wordle-today',
+    canonical: 'https://www.thesmartcalculator.com/games/what-is-the-wordle-today',
   },
 }
 

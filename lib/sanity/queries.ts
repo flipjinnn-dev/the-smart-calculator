@@ -71,3 +71,16 @@ export const authorBySlugQuery = `
     }
   }
 `;
+
+export const allAuthorsQuery = `
+  *[_type == "author" && !(_id in path("drafts.**"))] | order(_createdAt desc) {
+    _id,
+    name,
+    "slug": slug.current,
+    "image": image.asset->url,
+    tagline,
+    social,
+    "postCount": count(*[_type == "blog" && references(^._id) && !(_id in path("drafts.**"))]),
+    "calculatorCount": count(*[_type == "calculator" && references(^._id) && !(_id in path("drafts.**"))])
+  }
+`;

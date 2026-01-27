@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import HomeClient from "./home-client";
 import { loadHomepageContent } from "@/lib/loadHomepageContent";
+import { getAllAuthors } from "@/lib/sanity/client";
 import type { Metadata } from "next";
 import Head from "next/head";
 import Script from "next/script";
@@ -40,6 +41,7 @@ export default async function HomePage() {
   const language = headersList.get('x-language') || 'en';
   
   const { content } = await loadHomepageContent(language);
+  const authors = await getAllAuthors();
 
   const jsonLd = {
   "@context": "https://schema.org",
@@ -129,7 +131,7 @@ export default async function HomePage() {
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} 
       />
-      <HomeClient content={content} language={language} />
+      <HomeClient content={content} language={language} authors={authors} />
     </>
   );
 }

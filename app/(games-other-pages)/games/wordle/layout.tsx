@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     }],
   },
   alternates: {
-    canonical: 'https://www.smartcalculator.com/games/wordle',
+    canonical: 'https://www.thesmartcalculator.com/games/wordle',
   },
 }
 
