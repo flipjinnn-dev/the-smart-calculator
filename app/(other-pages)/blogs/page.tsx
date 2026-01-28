@@ -15,7 +15,7 @@ const blogContent = {
   noPosts: "No blog posts available yet.",
 }
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://smartcalculator.com"
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.thesmartcalculator.com"
 
 export const metadata: Metadata = {
   title: "Blog - Smart Calculator | Insights, Tips & Guides",
@@ -60,7 +60,7 @@ export default async function BlogsPage() {
     "@type": "Blog",
     name: blogContent.title,
     description: blogContent.subtitle,
-    url: "https://www.thesmartcalculator.com/blogs",
+    url: `${SITE_URL}/blogs`,
     blogPost: posts.map((post) => ({
       "@type": "BlogPosting",
       headline: post.title,
@@ -71,7 +71,7 @@ export default async function BlogsPage() {
         "@type": "Person",
         name: post.author?.name || "Smart Calculator Team",
       },
-      url: `https://www.thesmartcalculator.com${getBlogUrl(post.slug)}`,
+      url: `${SITE_URL}${getBlogUrl(post.slug)}`,
     })),
   }
 

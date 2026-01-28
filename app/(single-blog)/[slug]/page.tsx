@@ -4,7 +4,6 @@ import Link from "next/link"
 import { Calendar, ArrowLeft, Clock } from "lucide-react"
 import { getBlogPostBySlug, type BlogPost } from "@/lib/sanity/client"
 import { PortableText } from "@/components/portable-text"
-import type { Metadata } from "next"
 
 const blogContent = {
   backToBlogs: "Back to Blogs",
@@ -13,58 +12,8 @@ const blogContent = {
   readTime: "min read",
 }
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://smartcalculator.com"
-
 interface BlogPostPageProps {
   params: { slug: string }
-}
-
-export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
-  const { slug } = await params
-  const post = await getBlogPostBySlug(slug)
-  
-  if (!post) {
-    return {
-      title: "Blog Not Found",
-      description: "The requested blog post could not be found.",
-    }
-  }
-
-  const canonicalUrl = `${SITE_URL}/blogs/${slug}`
-  const ogImage = post.featuredImage || `${SITE_URL}/og-image.jpg`
-
-  return {
-    title: post.metaTitle || post.title,
-    description: post.metaDescription || post.excerpt,
-    keywords: post.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: post.metaTitle || post.title,
-      description: post.metaDescription || post.excerpt,
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: ogImage,
-          width: 1200,
-          height: 630,
-          alt: post.featuredImageAlt || post.title,
-        },
-      ],
-      locale: "en_US",
-      type: "article",
-      publishedTime: post.publishedAt,
-      authors: post.author?.name ? [post.author.name] : undefined,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: post.metaTitle || post.title,
-      description: post.metaDescription || post.excerpt,
-      images: [ogImage],
-    },
-  }
 }
 
 const formatDate = (dateString: string) => {
