@@ -19,18 +19,15 @@ import {
 import type { Metadata } from 'next';
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export const revalidate = 3600;
 
-export async function generateMetadata(
-  { params }: PageProps
-): Promise<Metadata> {
-  const { slug } = params;
-
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
   const author = await getAuthorBySlug(slug);
-
+  
   if (!author) {
     return {
       title: 'Creator Not Found | Smart Calculator',
@@ -38,12 +35,13 @@ export async function generateMetadata(
     };
   }
 
-  const bioText =
-    typeof author.bio === 'string'
-      ? author.bio
-      : 'Expert contributor creating high-quality calculators and content.';
+  const bioText = Array.isArray(author.bio) 
+    ? 'Expert contributor creating high-quality calculators and content.'
+    : typeof author.bio === 'string' 
+    ? author.bio 
+    : 'Expert contributor creating high-quality calculators and content.';
 
-  const canonicalUrl = `https://yourdomain.com/creator/${slug}`;
+  const canonicalUrl = `/creator/${slug}`;
 
   return {
     title: `${author.name} - Creator Profile | Smart Calculator`,
@@ -56,20 +54,19 @@ export async function generateMetadata(
       description: author.tagline || bioText,
       url: canonicalUrl,
       siteName: 'Smart Calculator',
+      images: author.image ? [
+        {
+          url: author.image,
+          width: 800,
+          height: 800,
+          alt: author.name,
+        },
+      ] : [],
+      locale: 'en_US',
       type: 'profile',
-      images: author.image
-        ? [
-            {
-              url: author.image,
-              width: 800,
-              height: 800,
-              alt: author.name,
-            },
-          ]
-        : [],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary',
       title: `${author.name} - Creator Profile`,
       description: author.tagline || bioText,
       images: author.image ? [author.image] : [],
