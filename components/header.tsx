@@ -11,25 +11,37 @@ export default function Header() {
   const pathname = usePathname()
   const [language, setLanguage] = useState("en")
 
-  // Check if current page is a games page
-  const isGamesPage = pathname.includes('/games')
+  // Check if current page is a games page (category page or any inner game page)
+  // Games paths: /games, /br/games, /games/wordle, /games/mental-maths, etc.
+  const isGamesPage = (() => {
+    const pathWithoutLang = pathname.replace(/^\/(br|pl|de|es)/, '') || '/'
+    return pathWithoutLang.startsWith('/games') || pathWithoutLang === '/games'
+  })()
 
-  // Check if current page is a blog page or blog post
-  // Blog listing: /blogs or /br/blogs etc.
-  // Blog posts: /my-slug or /br/my-slug (root-level slugs)
-  const isBlogListingPage = pathname.includes('/blog')
+  // Check if current page is a blog listing page
+  // Blog listing: /blogs or /br/blogs or /pl/blogs etc.
+  const isBlogListingPage = (() => {
+    const pathWithoutLang = pathname.replace(/^\/(br|pl|de|es)/, '') || '/'
+    return pathWithoutLang === '/blogs' || pathWithoutLang.startsWith('/blogs/')
+  })()
   
+  // Check if current page is an individual blog post
   // Blog posts are at root level with just slug (no category prefix)
   // NOT: /, /br, /pl, /de, /es (language roots)
   // NOT: /physics/, /health/, /maths/, /financial/, etc. (calculator categories)
-  // NOT: Other-category calculators at root level (age-calculator, gpa-calculator, etc.)
+  // NOT: /games (games category)
+  // NOT: Other known pages and calculators (including other-category calculators)
   const isBlogPostPage = (() => {
     const pathWithoutLang = pathname.replace(/^\/(br|pl|de|es)/, '') || '/'
     const segments = pathWithoutLang.split('/').filter(Boolean)
     
-    // If exactly 1 segment and not a known category/page
+    // If exactly 1 segment and not a known category/page/calculator
     if (segments.length === 1) {
-      const knownPages = ['blogs', 'about-us', 'contact-us', 'privacy-policy', 'terms-and-conditions', 'studio' , 'editorial-policy-mission-statement', 'sitemap']
+      const knownPages = ['blogs', 'about-us', 'contact-us', 'privacy-policy', 'terms-and-conditions', 'studio', 'editorial-policy-mission-statement', 'sitemap', 
+                         'sobre-nos', 'contato', 'politica-de-privacidade', 'termos-e-condicoes', 'politica-editorial-declaracao-missao', 'mapa-do-site',
+                         'o-nas', 'kontakt', 'polityka-prywatnosci', 'warunki', 'polityka-redakcyjna-deklaracja-misji', 'mapa-strony',
+                         'uber-uns', 'datenschutz', 'nutzungsbedingungen', 'redaktionelle-richtlinien-leitbild',
+                         'sobre-nosotros', 'contacto', 'politica-de-privacidad', 'terminos-y-condiciones', 'politica-editorial-declaracion-mision', 'mapa-del-sitio']
       const categories = [
         // English
         'physics', 'health', 'maths', 'financial', 'construction', 'food', 'sports', 'other', 'other-calculators', 'software', 'business', 'games',
@@ -44,12 +56,33 @@ export default function Header() {
       ]
       
       // Other-category calculators at root level (without /other/ prefix)
+      // These are CALCULATORS, not blog posts - language switcher should be visible
+      // Include ALL language versions (English, Portuguese, Polish, German, Spanish)
       const otherCalculators = [
+        // English
         'age-calculator', 'piecewise-function-calculator-grapher', 'enterprise-seo-roi-calculator',
         'rpe-calculator', 'indiana-child-support-calculator', 'time-calculator', 'gpa-calculator',
-        'height-calculator', 'ip-subnet-calculator', 'towing-estimate-calculator'
+        'height-calculator', 'ip-subnet-calculator', 'towing-estimate-calculator',
+        // Portuguese (br)
+        'calculadora-de-idade', 'calculadora-de-funcao-por-partes-e-graficador', 'calculadora-de-roi-de-seo-empresarial',
+        'calculadora-de-epe', 'calculadora-de-pensao-alimenticia-de-indiana', 'calculadora-de-tempo', 'calculadora-gpa',
+        'calculadora-de-altura', 'calculadora-desub-rede-IP', 'calculadora-de-custo-de-reboque',
+        // Polish (pl)
+        'kalkulator-wieku', 'kalkulator-odcinkowy-funkcja-kalkulador-wykres-kalkulador', 'kalkulator-przedsiebiorstwo-seo-roi-kalkulador',
+        'kalkulator-rpe-kalkulador', 'kalkulator-indiana-dziecko-wsparcie-kalkulador', 'kalkulator-czasu', 'kalkulator-sredniej-ocen',
+        'kalkulator-wzrostu', 'kalkulator-podsieci-ip', 'kalkulator-kosztow-holowania',
+        // German (de)
+        'alter-rechner', 'stuckweise-funktion-rechner-grafik-rechner', 'unternehmen-seo-roi-rechner',
+        'rpe-rechner', 'indiana-kind-unterhalt-rechner', 'zeit-rechner', 'notendurchschnitt-rechner',
+        'groben-rechner', 'ip-subnetz-rechner', 'abschleppkosten-rechner',
+        // Spanish (es)
+        'calculadora-de-edad', 'calculadora-de-funciones-por-tramos', 'calculadora-de-roi-seo',
+        'calculadora-rpe', 'calculadora-de-manutencion-infantil', 'calculadora-de-tiempo', 'calculadora-de-gpa',
+        'calculadora-de-altura', 'calculadora-subnet', 'calculadora-de-costos-de-remolque'
       ]
       
+      // If it's a known page, category, or other-category calculator, it's NOT a blog post
+      // Only treat as blog post if it's none of these
       return !knownPages.includes(segments[0]) && 
              !categories.includes(segments[0]) && 
              !otherCalculators.includes(segments[0])
@@ -59,7 +92,8 @@ export default function Header() {
   
   const isBlogPage = isBlogListingPage || isBlogPostPage
   
-  // Hide language switcher on blog pages and games pages
+  // Hide language switcher ONLY on blog pages and games pages
+  // Show on all other pages: calculators, static pages, homepage, etc.
   const shouldHideLanguageSwitcher = isBlogPage || isGamesPage
   
   // Extract language from pathname
