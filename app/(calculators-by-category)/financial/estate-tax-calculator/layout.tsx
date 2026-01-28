@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for estate-tax-calculator
 const estatetaxcalculatorMeta = {
   en: {
-    title: "Estate Tax Calculator – Taxes Planning Online | TheSmartCalculator",
-    description: "Use the Estate Tax Calculator to estimate taxes and plan estate. Accurate, free online tool for inheritance, deductions, and financial legacy management.",
+    title: "Estate Tax Calculator Online Estate Tax Estimate",
+    description: "Estimate estate or inheritance taxes quickly and accurately with our Estate Tax Calculator for smarter tax planning.",
     keywords: "estate tax calculator, taxes planning, inheritance tool, deductions calculation, online estate, financial legacy, free tax tool, estimate taxes"
   },
   br: {

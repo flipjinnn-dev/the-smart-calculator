@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for inflation-calculator
 const inflationcalculatorMeta = {
   en: {
-    title: "Inflation Calculator – Purchasing Power Online | TheSmartCalculator",
-    description: "Use the Inflation Calculator to calculate the impact of inflation on purchasing power over time. Accurate, free online tool for economic planning and value adjustments.",
+    title: "Inflation Calculator Value of Money Over Time",
+    description: "See how inflation affects purchasing power and savings using our Inflation Calculator for better financial decisions.",
     keywords: "inflation calculator, purchasing power, inflation impact, online inflation, economic planning, value adjustment, free inflation tool, time value"
   },
   br: {

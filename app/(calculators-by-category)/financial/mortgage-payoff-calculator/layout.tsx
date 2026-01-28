@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for mortgage-payoff-calculator
 const mortgagepayoffcalculatorMeta = {
   en: {
-    title: "Mortgage Payoff Calculator – Date Savings Online | TheSmartCal",
-    description: "Use the Mortgage Payoff Calculator to estimate payoff date and interest savings. Accurate, free online tool for early repayment planning.",
+    title: "Mortgage Payoff Calculator Pay Loan Off Early",
+    description: "Find your mortgage payoff date and interest savings using our Mortgage Payoff Calculator.",
     keywords: "mortgage payoff calculator, payoff date, interest savings, online payoff, early repayment, free payoff tool, savings calculation, mortgage planning"
   },
   br: {

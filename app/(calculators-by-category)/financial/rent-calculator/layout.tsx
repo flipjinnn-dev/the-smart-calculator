@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for rent-calculator
 const rentcalculatorMeta = {
   en: {
-    title: "Rent Calculator – Monthly Payments Online | TheSmartCalculator",
-    description: "Use the Rent Calculator to calculate monthly rent payments and affordability. Accurate, free online tool for housing planning and budgeting.",
+    title: "Rent Calculator Monthly Rent Estimate",
+    description: "Estimate affordable monthly rent and plan your housing budget easily with our Rent Calculator.",
     keywords: "rent calculator, monthly payments, affordability tool, online rent, housing planning, budgeting tool, free rent tool, rent estimate"
   },
   br: {

@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for pregnancy-conception-calculator
 const pregnancyconceptioncalculatorMeta = {
   en: {
-    title: "Pregnancy Conception Calculator – Milestones Online | TheSmart",
-    description: "Use the Pregnancy Conception Calculator to estimate conception date and milestones based on due date or ultrasound. Accurate, free online tool for pregnancy planning.",
+    title: "Pregnancy Conception Calculator - Fertile Window",
+    description: "Predict fertile days with our Pregnancy Conception Calculator to boost pregnancy chances.",
     keywords: "pregnancy conception calculator, conception date, milestones tool, online conception, due date based, ultrasound, pregnancy planning, free milestone tool"
   },
   br: {

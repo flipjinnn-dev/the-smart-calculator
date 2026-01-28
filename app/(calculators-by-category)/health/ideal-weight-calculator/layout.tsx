@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for ideal-weight-calculator
 const idealweightcalculatorMeta = {
   en: {
-    title: "Ideal Weight Calculator – Range Online | TheSmartCalculator",
-    description: "Use the Ideal Weight Calculator to determine body weight range based on height and gender. Accurate, free online tool for health and fitness goals.",
+    title: "Ideal Weight Calculator - Ideal Weight Range",
+    description: "Find your perfect body weight with our Ideal Weight Calculator for health and fitness goals.",
     keywords: "ideal weight calculator, body weight range, height gender, online ideal, health fitness, free weight tool, range based, determine weight"
   },
   br: {

@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for annuity-calculator
 const annuitycalculatorMeta = {
   en: {
-    title: "Annuity Calculator – Estimate Future Value and Payments",
-    description: "Use our free online annuity calculator to calculate future value, returns, and payouts. Plan retirement income and investments with confidence.",
+    title: "Annuity Calculator Retirement Payout Estimator",
+    description: "Plan retirement income and estimate annuity returns easily with our Annuity Calculator for long-term security.",
     keywords: "annuity calculator, future value, contributions tool, interest rates, online annuity, retirement planning, free annuity tool, investment calculator"
   },
   br: {

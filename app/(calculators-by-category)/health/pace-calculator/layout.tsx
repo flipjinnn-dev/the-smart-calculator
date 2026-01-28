@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for pace-calculator
 const pacecalculatorMeta = {
   en: {
-    title: "Pace Calculator – Running Speed Online | TheSmartCalculator",
-    description: "Use the Pace Calculator to calculate your running pace and speed. Accurate, free online tool for training and performance tracking.",
+    title: "Pace Calculator - Running Pace Calculator",
+    description: "Calculate running pace and performance with our Pace Calculator to improve workouts efficiently.",
     keywords: "pace calculator, running pace, speed calculation, online pace, training tool, performance tracking, free pace tool, running estimator"
   },
   br: {

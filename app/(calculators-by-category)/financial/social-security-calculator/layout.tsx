@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for social-security-calculator
 const socialsecuritycalculatorMeta = {
   en: {
-    title: "Social Security Calculator – Benefits Online | TheSmartCalculator",
-    description: "Use the Social Security Calculator to estimate benefits based on earnings history. Accurate, free online tool for retirement and social planning.",
+    title: "Social Security Calculator Benefit Estimate Tool",
+    description: "Estimate future Social Security benefits quickly using our Social Security Calculator to plan retirement income.",
     keywords: "social security calculator, benefits estimate, earnings history, online social, retirement tool, social planning, free security tool, benefit calculation"
   },
   br: {

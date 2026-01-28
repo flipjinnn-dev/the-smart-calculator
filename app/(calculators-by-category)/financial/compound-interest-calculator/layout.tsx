@@ -6,7 +6,7 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 const compoundinterestcalculatorMeta = {
   en: {
     title: "Compound Interest Calculator – Growth Online | TheSmartCalculator",
-    description: "Use the Compound Interest Calculator to compute growth over time with contributions. Accurate, free online tool for investments and savings projections.",
+    description: "See how money grows over time with compounding using our Compound Interest Calculator.",
     keywords: "compound interest calculator, growth tool, contributions calculation, online compound, investment projections, savings calculator, free interest tool, time growth"
   },
   br: {

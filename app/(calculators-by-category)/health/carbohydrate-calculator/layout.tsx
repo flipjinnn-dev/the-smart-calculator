@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for carbohydrate-calculator
 const carbohydratecalculatorMeta = {
   en: {
-    title: "Carbohydrate Calculator – Daily Needs Online | TheSmartCalculator",
-    description: "Use the Carbohydrate Calculator to estimate daily needs based on activity and goals. Accurate, free online tool for diet balancing and nutrition planning.",
+    title: "Carbohydrate Calculator - Daily Carb Intake",
+    description: "Track daily carb intake using our Carbohydrate Calculator for balanced nutrition planning.",
     keywords: "carbohydrate calculator, daily needs, activity tool, goals calculation, online carb, diet balancing, free carb tool, nutrition planning"
   },
   br: {

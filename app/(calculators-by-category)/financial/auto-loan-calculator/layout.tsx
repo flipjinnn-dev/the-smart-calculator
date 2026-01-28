@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for auto-loan-calculator
 const autoloancalculatorMeta = {
   en: {
-    title: "Auto Loan Calculator – Payments Cost Online | TheSmartCalculator",
-    description: "Use the Auto Loan Calculator to compute car loan payments and total cost. Accurate, free online tool for vehicle financing and budget planning.",
+    title: "Auto Loan Calculator Car Payment Estimate",
+    description: "Calculate car loan payments, interest, and totals using our Auto Loan Calculator before buying a vehicle.",
     keywords: "auto loan calculator, car payments, total cost, financing tool, online auto, budget calculator, free loan tool, vehicle estimate"
   },
   br: {

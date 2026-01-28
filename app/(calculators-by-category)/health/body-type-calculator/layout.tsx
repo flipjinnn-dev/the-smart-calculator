@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for body-type-calculator
 const bodytypecalculatorMeta = {
   en: {
-    title: "Body Type Calculator – Measurements Online | TheSmartCalculator",
-    description: "Use the Body Type Calculator to determine type based on measurements and characteristics. Accurate, free online tool for fitness and health planning.",
+    title: "Body Type Calculator - Body Shape Identifier",
+    description: "Discover your body shape using our Body Type Calculator to optimize workout routines.",
     keywords: "body type calculator, measurements tool, characteristics analysis, online type, fitness planning, health calculator, free body tool, type estimate"
   },
   br: {

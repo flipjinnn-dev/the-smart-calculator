@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for pregnancy-weight-gain-calculator
 const pregnancyweightgaincalculatorMeta = {
   en: {
-    title: "Pregnancy Weight Gain Calculator – Recommended Online | TheSma",
-    description: "Use the Pregnancy Weight Gain Calculator to calculate recommended weight gain during pregnancy. Accurate, free online tool for maternal health tracking.",
+    title: "Pregnancy Weight Gain Calculator - Healthy Weight Guide",
+    description: "Track healthy pregnancy weight gain with our Pregnancy Weight Gain Calculator to stay on target.",
     keywords: "pregnancy weight gain calculator, recommended gain, pregnancy weight, online gain tool, maternal health, tracking calculator, free weight tool, gain estimate"
   },
   br: {

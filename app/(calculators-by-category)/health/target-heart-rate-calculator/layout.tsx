@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for target-heart-rate-calculator
 const targetheartratecalculatorMeta = {
   en: {
-    title: "Target Heart Rate Calculator – Zone Online | TheSmartCalculator",
-    description: "Use the Target Heart Rate Calculator to calculate target heart rate zone for exercise. Accurate, free online tool for fitness and cardio training.",
+    title: "Target Heart Rate Calculator - Training Zones",
+    description: "Find your ideal exercise heart rate with our Target Heart Rate Calculator to optimize workouts.",
     keywords: "target heart rate calculator, heart rate zone, exercise tool, online target, fitness training, cardio calculator, free heart tool, rate zone"
   },
   br: {

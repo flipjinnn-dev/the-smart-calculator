@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for credit-card-calculator
 const creditcardcalculatorMeta = {
   en: {
-    title: "Credit Card Calculator – Payments Interest Online | TheSmartCa",
-    description: "Use the Credit Card Calculator to compute payments, interest charges, and payoff timeline. Accurate, free online tool for debt management and budgeting.",
+    title: "Credit Card Calculator Payments & Interest Breakdown",
+    description: "Calculate payments, balances, and interest accurately using our Credit Card Calculator to manage credit smarter.",
     keywords: "credit card calculator, payments tool, interest charges, payoff timeline, online credit, debt management, free card calculator, budgeting tool"
   },
   br: {

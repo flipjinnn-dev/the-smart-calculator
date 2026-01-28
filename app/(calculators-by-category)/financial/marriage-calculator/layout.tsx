@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for marriage-calculator
 const marriagecalculatorMeta = {
   en: {
-    title: "Marriage Calculator – Wedding Cost & Budget Planner | TheSmartCalculator",
-    description: "Use the Marriage Calculator to estimate wedding costs, budget planning, and expenses. Accurate, free online tool for marriage planning and financial preparation.",
+    title: "Marriage Calculator Combined Financial Planning",
+    description: "Plan combined finances, expenses, and budgeting as a couple using our Marriage Calculator for financial harmony.",
     keywords: "marriage calculator, wedding cost, budget planner, wedding expenses, marriage planning, financial preparation, online wedding tool, free marriage calculator"
   },
   br: {

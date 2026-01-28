@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for fat-intake-calculator
 const fatintakecalculatorMeta = {
   en: {
-    title: "Fat Intake Calculator – Daily Goals Online | TheSmartCalculator",
-    description: "Use the Fat Intake Calculator to estimate daily fat needs based on activity and goals. Accurate, free online tool for diet balancing and nutrition.",
+    title: "Fat Intake Calculator - Daily Fat Requirement",
+    description: "Monitor daily fat intake with our Fat Intake Calculator to plan meals and stay healthy.",
     keywords: "fat intake calculator, daily goals, activity tool, needs calculation, online fat, diet balancing, free intake tool, nutrition planning"
   },
   br: {

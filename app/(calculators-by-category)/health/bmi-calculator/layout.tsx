@@ -6,8 +6,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for bmi-calculator
 const bmicalculatorMeta = {
   en: {
-    title: "BMI Calculator – Body Mass Index Online | TheSmartCalculator",
-    description: "Use the BMI Calculator to calculate your Body Mass Index and understand weight status. Accurate, free online tool based on height and weight for health assessment.",
+    title: "BMI Calculator - Body Mass Index Check",
+    description: "Check your BMI instantly with our BMI Calculator to monitor health and fitness goals easily.",
     keywords: "bmi calculator, body mass index, weight status, height weight tool, online bmi, health assessment, free bmi calculator, index calculation"
   },
   br: {

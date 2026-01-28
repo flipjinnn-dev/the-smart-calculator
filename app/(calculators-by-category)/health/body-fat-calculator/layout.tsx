@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for body-fat-calculator
 const bodyfatcalculatorMeta = {
   en: {
-    title: "Body Fat Calculator – Percentage Methods Online | TheSmartCalculator",
-    description: "Use the Body Fat Calculator to estimate percentage using various methods. Accurate, free online tool for fitness tracking and health goals.",
+    title: "Body Fat Calculator",
+    description: "Measure body fat percentage using our Body Fat Calculator to track fitness progress.",
     keywords: "body fat calculator, percentage tool, methods calculation, online fat, fitness tracker, health goals, free body calculator, estimate fat"
   },
   br: {

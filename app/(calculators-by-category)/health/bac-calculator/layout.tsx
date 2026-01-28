@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for bac-calculator
 const baccalculatorMeta = {
   en: {
-    title: "BAC Calculator – Blood Alcohol Content Online | TheSmartCalculator",
-    description: "Use the BAC Calculator to estimate blood alcohol content from drinks consumed. Accurate, free online tool for safety checks and legal limits awareness.",
+    title: "BAC Calculator - Blood Alcohol Level",
+    description: "Estimate blood alcohol content using our BAC Calculator to stay safe and informed.",
     keywords: "bac calculator, blood alcohol, content estimate, drinks tool, online bac, safety calculator, free alcohol tool, legal limits"
   },
   br: {

@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for calories-burned-calculator
 const caloriesburnedcalculatorMeta = {
   en: {
-    title: "Calories Burned Calculator – Activity Online | TheSmartCalculator",
-    description: "Use the Calories Burned Calculator to estimate calories during physical activities. Accurate, free online tool for fitness tracking, weight loss, and exercise planning.",
+    title: "Calories Burned Calculator - Exercise Calorie Estimate",
+    description: "Estimate calories burned during workouts using our Calories Burned Calculator for fitness tracking.",
     keywords: "calories burned calculator, activity tool, estimate calories, online burned, fitness tracker, weight loss, free calories tool, exercise planning"
   },
   br: {

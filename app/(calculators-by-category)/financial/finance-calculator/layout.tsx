@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for finance-calculator
 const financecalculatorMeta = {
   en: {
-    title: "Finance Calculator – Various Calculations Online | TheSmartCal",
-    description: "Use the Finance Calculator for various financial calculations. Accurate, free online tool for loans, investments, and budgeting.",
+    title: "Finance Calculator Savings & Investment Planning",
+    description: "Estimate savings, loans, investments, and future finances with our Finance Calculator to make smarter money decisions easily.",
     keywords: "finance calculator, comprehensive, tool, various, financial, calculations"
   },
   br: {

@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for credit-card-payoff-calculator
 const creditcardpayoffcalculatorMeta = {
   en: {
-    title: "Credit Card Payoff Calculator – Debt Timeline Online | TheSmar",
-    description: "Use the Credit Card Payoff Calculator to find payoff time and interest savings. Accurate, free online tool for debt reduction and financial planning.",
+    title: "Credit Card Payoff Calculator Reduce Card Debt Faster",
+    description: "Plan faster debt reduction and save on interest using our Credit Card Payoff Calculator with clear payoff timelines.",
     keywords: "credit card payoff calculator, debt timeline, interest savings, online payoff, debt reduction, financial planning, free payoff tool, time calculation"
   },
   br: {

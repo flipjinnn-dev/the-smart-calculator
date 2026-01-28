@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for bmr-calculator
 const bmrcalculatorMeta = {
   en: {
-    title: "BMR Calculator – Metabolic Rate Online | TheSmartCalculator",
-    description: "Use the BMR Calculator to estimate your Basal Metabolic Rate for calorie needs. Accurate, free online tool based on age, weight, height for diet planning.",
+    title: "BMR Calculator - Basal Metabolic Rate",
+    description: "Estimate resting calorie needs with our BMR Calculator to plan diet and fitness.",
     keywords: "bmr calculator, metabolic rate, calorie needs, age weight tool, online bmr, diet planning, free bmr calculator, basal rate"
   },
   br: {

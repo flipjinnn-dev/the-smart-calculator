@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for overweight-calculator
 const overweightcalculatorMeta = {
   en: {
-    title: "Overweight Calculator – BMI Online | TheSmartCalculator",
-    description: "Use the Overweight Calculator to calculate BMI for overweight individuals. Accurate, free online tool for health assessment and weight management.",
+    title: "Overweight Calculator - Weight Status Check",
+    description: "Check your weight status using our Overweight Calculator to plan diet and fitness.",
     keywords: "overweight calculator, bmi overweight, health assessment, online overweight, weight management, free overweight tool, bmi calculation, overweight analysis"
   },
   br: {

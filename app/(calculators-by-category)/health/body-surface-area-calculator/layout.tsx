@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for body-surface-area-calculator
 const bodysurfaceareacalculatorMeta = {
   en: {
-    title: "Body Surface Area Calculator – BSA Methods Online | TheSmartCa",
-    description: "Use the Body Surface Area Calculator to compute BSA using various methods. Accurate, free online tool for medical dosing and health assessments.",
+    title: "Body Surface Area Calculator - BSA Formula Tool",
+    description: "Estimate BSA accurately with our Body Surface Area Calculator for health and treatment planning.",
     keywords: "body surface area calculator, bsa tool, methods calculation, online bsa, medical dosing, health assessment, free surface calculator, area estimate"
   },
   br: {

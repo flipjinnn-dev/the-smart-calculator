@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for retirement-calculator
 const retirementcalculatorMeta = {
   en: {
-    title: "Retirement Calculator – Savings Online | TheSmartCalculator",
-    description: "Use the Retirement Calculator to plan savings and calculate required contributions. Accurate, free online tool for retirement goals and forecasting.",
+    title: "Retirement Calculator Retirement Savings Planner",
+    description: "Plan retirement savings and income accurately using our Retirement Calculator for a secure future.",
     keywords: "retirement calculator, savings planning, contributions calculation, online retirement, goals tool, forecasting calculator, free retirement tool, retirement estimate"
   },
   br: {

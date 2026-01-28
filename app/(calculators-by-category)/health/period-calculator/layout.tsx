@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for period-calculator
 const periodcalculatorMeta = {
   en: {
-    title: "Period Calculator – Cycle Ovulation Online | TheSmartCalculator",
-    description: "Use the Period Calculator to calculate your menstrual cycle and ovulation dates. Accurate, free online tool for women's health and fertility tracking.",
+    title: "Period Calculator - Menstrual Cycle Tracker",
+    description: "Track menstrual cycle and fertile days using our Period Calculator for health monitoring.",
     keywords: "period calculator, menstrual cycle, ovulation dates, online period, women's health, fertility tracking, free cycle tool, date calculation"
   },
   br: {

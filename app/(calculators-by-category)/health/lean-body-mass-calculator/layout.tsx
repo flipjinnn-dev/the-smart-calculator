@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for lean-body-mass-calculator
 const leanbodymasscalculatorMeta = {
   en: {
-    title: "Lean Body Mass Calculator – Weight Fat Online | TheSmartCalculator",
-    description: "Use the Lean Body Mass Calculator to estimate mass based on weight and fat percentage. Accurate, free online tool for fitness and health tracking.",
+    title: "Lean Body Mass Calculator - Muscle Mass Estimate",
+    description: "Estimate muscle mass and body composition with our Lean Body Mass Calculator for fitness tracking.",
     keywords: "lean body mass calculator, mass estimate, weight fat, online lean, fitness tracking, health tool, free mass calculator, body mass"
   },
   br: {

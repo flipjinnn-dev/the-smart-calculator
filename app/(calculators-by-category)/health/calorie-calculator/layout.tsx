@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for calorie-calculator
 const caloriecalculatorMeta = {
   en: {
-    title: "Calorie Calculator – Daily Needs Online | TheSmartCalculator",
-    description: "Use the Calorie Calculator to estimate daily needs based on lifestyle and goals. Accurate, free online tool for diet, weight management, and health planning.",
+    title: "Calorie Calculator - Daily Calorie Intake",
+    description: "Monitor daily calorie intake using our Calorie Calculator to stay on track with your diet.",
     keywords: "calorie calculator, daily needs, lifestyle tool, goals calculation, online calorie, diet management, free calorie tool, health planning"
   },
   br: {

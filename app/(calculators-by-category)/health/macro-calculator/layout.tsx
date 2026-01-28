@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for macro-calculator
 const macrocalculatorMeta = {
   en: {
-    title: "Macro Calculator – Macronutrients Online | TheSmartCalculator",
-    description: "Use the Macro Calculator to calculate macronutrient requirements for your goals. Accurate, free online tool for diet and nutrition balance.",
+    title: "Macro Calculator - Protein, Carbs & Fat",
+    description: "Calculate daily macros using our Macro Calculator to plan meals and reach fitness goals.",
     keywords: "macro calculator, macronutrients, requirements tool, online macro, diet balance, nutrition goals, free macro tool, goals calculation"
   },
   br: {

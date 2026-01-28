@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for investment-calculator
 const investmentcalculatorMeta = {
   en: {
-    title: "Investment Calculator – Returns Growth Online | TheSmartCalculator",
-    description: "Use the Investment Calculator to calculate returns and growth projections. Accurate, free online tool for investment planning and financial forecasting.",
+    title: "Investment Calculator Return on Investment",
+    description: "Estimate investment returns and future value using our Investment Calculator for wealth growth.",
     keywords: "investment calculator, returns growth, projections tool, online investment, planning calculator, financial forecasting, free investment tool, growth estimate"
   },
   br: {

@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for loan-calculator
 const loancalculatorMeta = {
   en: {
-    title: "Loan Calculator – Payments Rates Online | TheSmartCalculator",
-    description: "Use the Loan Calculator to calculate payments, interest rates, and payoff schedules. Accurate, free online tool for loan planning and budgeting.",
+    title: "Loan Calculator Monthly Payment Estimator",
+    description: "Estimate monthly loan payments and total interest easily using our Loan Calculator for smart borrowing.",
     keywords: "loan calculator, payments rates, payoff schedules, online loan, planning tool, budgeting calculator, free loan tool, interest calculation"
   },
   br: {

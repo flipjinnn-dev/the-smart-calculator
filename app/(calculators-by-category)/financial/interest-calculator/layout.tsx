@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for interest-calculator
 const interestcalculatorMeta = {
   en: {
-    title: "Interest Calculator – Growth Inflation Online | TheSmartCalculator",
-    description: "Use the Interest Calculator to calculate investment growth, interest, and buying power after inflation. Accurate, free online tool for financial projections.",
+    title: "Interest Calculator",
+    description: "Calculate simple or compound interest accurately using our Interest Calculator for loans and savings.",
     keywords: "interest calculator, investment growth, interest calculation, buying power, online interest, inflation adjustment, financial projection, free interest tool"
   },
   br: {

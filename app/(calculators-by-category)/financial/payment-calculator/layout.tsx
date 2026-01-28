@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for payment-calculator
 const paymentcalculatorMeta = {
   en: {
-    title: "Payment Calculator – Loan Terms Online | TheSmartCalculator",
-    description: "Use the Payment Calculator to calculate loan payments for fixed terms or determine terms for fixed payments. Accurate, free online tool for financial planning.",
+    title: "Payment Calculator Monthly Payment Planner",
+    description: "Estimate monthly or total payments accurately using our Payment Calculator for better budgeting.",
     keywords: "payment calculator, loan payments, fixed terms, online payment, financial planning, free payment tool, term determination, payment calculation"
   },
   br: {

@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for protein-calculator
 const proteincalculatorMeta = {
   en: {
-    title: "Protein Calculator – Daily Needs Online | TheSmartCalculator",
-    description: "Use the Protein Calculator to estimate daily protein needs based on activity and goals. Accurate, free online tool for diet and muscle building.",
+    title: "Protein Calculator - Daily Protein Needs",
+    description: "Calculate daily protein needs with our Protein Calculator to plan meals and support fitness.",
     keywords: "protein calculator, daily protein, activity tool, goals calculation, online protein, diet building, free protein tool, muscle planning"
   },
   br: {

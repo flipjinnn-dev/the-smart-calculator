@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for house-affordability-calculator
 const houseaffordabilitycalculatorMeta = {
   en: {
-    title: "House Affordability Calculator – Income Online | TheSmartCalculator",
-    description: "Use the House Affordability Calculator to determine affordable house based on income and expenses. Accurate, free online tool for home buying planning.",
+    title: "House Affordability Calculator How Much Home You Can Buy",
+    description: "Find out how much home you can afford based on income, expenses, and rates using our House Affordability Calculator.",
     keywords: "house affordability calculator, affordable house, income expenses, online affordability, home buying, planning tool, free house calculator, determine affordability"
   },
   br: {

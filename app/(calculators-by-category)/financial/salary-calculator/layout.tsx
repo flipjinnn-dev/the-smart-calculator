@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for salary-calculator
 const salarycalculatorMeta = {
   en: {
-    title: "Salary Calculator – Take-Home Pay Online | TheSmartCalculator",
-    description: "Use the Salary Calculator to calculate take-home pay after taxes and deductions. Accurate, free online tool for payroll and income planning.",
+    title: "Salary Calculator Take-Home Pay Calculator",
+    description: "Calculate take-home pay after taxes and deductions using our Salary Calculator for income clarity.",
     keywords: "salary calculator, take home pay, taxes deductions, online salary, payroll tool, income planning, free salary tool, net pay"
   },
   br: {

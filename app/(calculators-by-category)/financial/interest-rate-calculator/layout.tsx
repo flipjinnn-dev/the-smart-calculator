@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for interest-rate-calculator
 const interestratecalculatorMeta = {
   en: {
-    title: "Interest Rate Calculator – Loans Investments Online | TheSmart",
-    description: "Use the Interest Rate Calculator to calculate the impact of interest rates on loans and investments. Accurate, free online tool for financial comparisons.",
+    title: "Interest Rate Calculator Loan & Savings Rates",
+    description: "Calculate loan or savings interest rates accurately using our Interest Rate Calculator for better planning.",
     keywords: "interest rate calculator, rates impact, loans investments, online rate, financial comparisons, free rate tool, rate calculation, investment planning"
   },
   br: {

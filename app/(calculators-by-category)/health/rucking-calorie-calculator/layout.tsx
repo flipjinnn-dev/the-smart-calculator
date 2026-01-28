@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for random-number-generator
 const ruckingCalorieCalculatorMeta = {
   en: {
-    title: "Rucking Calorie Calculator – Estimate Calories Burned While Rucking",
-    description:"Use our Rucking Calorie Calculator to accurately estimate calories burned during rucks based on body weight, ruck load, pace, terrain, and duration. Perfect for fat loss, endurance, and strength training.",
+    title: "Rucking Calorie Calculator - Calories Burned Rucking",
+    description:"Estimate calories burned during rucking using our Rucking Calorie Calculator for fitness tracking.",
     keywords: "random number generator, random range, number generator, online random, game tool, simulation random, free random tool, range number"
   },
   br: {

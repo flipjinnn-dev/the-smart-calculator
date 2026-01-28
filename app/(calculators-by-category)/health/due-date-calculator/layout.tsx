@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for due-date-calculator
 const duedatecalculatorMeta = {
   en: {
-    title: "Due Date Calculator – Pregnancy Timeline Online | TheSmartCalculator",
-    description: "Use the Due Date Calculator to estimate date based on last period or conception. Accurate, free online tool for pregnancy tracking and planning.",
+    title: "Due Date Calculator - Pregnancy Due Date",
+    description: "Predict your baby’s arrival date accurately with our Due Date Calculator for pregnancy planning.",
     keywords: "due date calculator, pregnancy timeline, last period, conception tool, online due, tracking calculator, free date tool, planning pregnancy"
   },
   br: {

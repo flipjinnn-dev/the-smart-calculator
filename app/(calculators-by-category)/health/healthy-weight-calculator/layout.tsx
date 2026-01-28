@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for healthy-weight-calculator
 const healthyweightcalculatorMeta = {
   en: {
-    title: "Healthy Weight Calculator – Range Online | TheSmartCalculator",
-    description: "Use the Healthy Weight Calculator to determine range based on height and gender. Accurate, free online tool for health goals and weight management.",
+    title: "Healthy Weight Calculator - Healthy Weight Range",
+    description: "Estimate your ideal body weight using our Healthy Weight Calculator for better health goals.",
     keywords: "healthy weight calculator, weight range, height gender, online healthy, health goals, weight management, free weight calculator, range determine"
   },
   br: {

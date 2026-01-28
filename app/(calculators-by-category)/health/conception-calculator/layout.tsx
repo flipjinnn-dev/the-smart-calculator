@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for conception-calculator
 const conceptioncalculatorMeta = {
   en: {
-    title: "Conception Calculator – Date Estimate Online | TheSmartCalculator",
-    description: "Use the Conception Calculator to estimate date based on ovulation and intercourse. Accurate, free online tool for pregnancy planning and timeline tracking.",
+    title: "Conception Calculator - Fertile Days Predictor",
+    description: "Estimate fertile days and plan pregnancy using our Conception Calculator for better timing.",
     keywords: "conception calculator, date estimate, ovulation tool, intercourse calculation, online conception, pregnancy planning, free date tool, timeline tracker"
   },
   br: {

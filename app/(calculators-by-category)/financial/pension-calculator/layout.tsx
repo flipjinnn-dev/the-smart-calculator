@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for pension-calculator
 const pensioncalculatorMeta = {
   en: {
-    title: "Pension Calculator – Benefits Salary Online | TheSmartCalculator",
-    description: "Use the Pension Calculator to estimate benefits based on salary and years of service. Accurate, free online tool for retirement planning.",
+    title: "Pension Calculator Retirement Income Planner",
+    description: "Calculate expected pension income accurately with our Pension Calculator and plan a secure retirement.",
     keywords: "pension calculator, benefits estimate, salary years, online pension, retirement planning, free pension tool, service calculation, pension projection"
   },
   br: {

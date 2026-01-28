@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for one-rep-max-calculator
 const onerepmaxcalculatorMeta = {
   en: {
-    title: "One Rep Max Calculator – Strength Online | TheSmartCalculator",
-    description: "Use the One Rep Max Calculator to estimate one-rep max for strength training. Accurate, free online tool based on weight and reps for workout planning.",
+    title: "1RM Calculator - One-Rep Max Estimator",
+    description: "Find your one-rep max for any exercise using our 1RM Calculator to track strength gains.",
     keywords: "one rep max calculator, 1rep max, strength estimation, online rep tool, weight reps, workout planning, free max tool, training strength"
   },
   br: {

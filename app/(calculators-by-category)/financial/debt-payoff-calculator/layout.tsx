@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for debt-payoff-calculator
 const debtpayoffcalculatorMeta = {
   en: {
-    title: "Debt Payoff Calculator – Plan Debt-Free Online | TheSmartCalculator",
-    description: "Use the Debt Payoff Calculator to create a plan and estimate time to become debt-free. Accurate, free online tool for financial management and reduction strategies.",
+    title: "Debt Payoff Calculator Clear Debt Faster",
+    description: "See how long it takes to clear debt, reduce interest, and plan payments effectively using our Debt Payoff Calculator.",
     keywords: "debt payoff calculator, debt free plan, time estimate, online debt, financial management, reduction tool, free payoff calculator, strategy planning"
   },
   br: {

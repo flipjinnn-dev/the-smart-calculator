@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for currency-calculator
 const currencycalculatorMeta = {
   en: {
-    title: "Instant Currency Converter Calculator",
-    description: "Get accurate converter rate calculator results with our current currency converter calculator—fast, reliable, and easy to use.",
+    title: "ICurrency Calculator Live Currency Conversion",
+    description: "Convert currencies and track exchange rates instantly using our Currency Calculator.",
     keywords: "currency converter calculator, conversion rates money calculator, currencies exchange rate calculator, converter rate calculator, current currency converter calculator, financial converter, free currency tool, exchange rates"
   },
   br: {

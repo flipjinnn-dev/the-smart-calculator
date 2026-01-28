@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for income-tax-calculator
 const incometaxcalculatorMeta = {
   en: {
-    title: "Income Tax Calculator – Deductions Online | TheSmartCalculator",
-    description: "Use the Income Tax Calculator to compute tax based on various deductions and exemptions. Accurate, free online tool for tax preparation and financial planning.",
+    title: "Income Tax Calculator Quick Tax Estimate",
+    description: "Estimate annual income tax quickly and plan savings efficiently using our Income Tax Calculator.",
     keywords: "income tax calculator, tax computation, deductions tool, exemptions, online tax, tax preparation, financial planning, free tax tool"
   },
   br: {

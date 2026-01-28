@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for savings-calculator
 const savingscalculatorMeta = {
   en: {
-    title: "Savings Calculator – Growth Online | TheSmartCalculator",
-    description: "Use the Savings Calculator to calculate savings growth over time with contributions. Accurate, free online tool for financial planning and goals.",
+    title: "Savings Calculator Future Savings Growth",
+    description: "Estimate future savings growth with deposits and interest using our Savings Calculator to reach financial goals.",
     keywords: "savings calculator, growth time, contributions tool, online savings, financial planning, goals calculator, free savings tool, growth estimate"
   },
   br: {

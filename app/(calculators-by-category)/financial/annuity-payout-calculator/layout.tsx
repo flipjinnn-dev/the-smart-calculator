@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for annuity-payout-calculator
 const annuitypayoutcalculatorMeta = {
   en: {
-    title: "Annuity Payout Calculator – Estimate Retirement Income",
-    description: "Use our free online annuity payout calculator to estimate monthly retirement income. Start planning payouts and financial security today.",
+    title: "Annuity Payout Calculator Retirement Income Estimate",
+    description: "Estimate monthly or yearly retirement income using our Annuity Payout Calculator for confident financial planning.",
     keywords: "annuity payout calculator, payout amount, principal tool, rates calculation, online payout, annuity planning, free payout tool, income estimator"
   },
   br: {

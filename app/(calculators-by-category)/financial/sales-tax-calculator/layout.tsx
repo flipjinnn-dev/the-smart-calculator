@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for sales-tax-calculator
 const salestaxcalculatorMeta = {
   en: {
-    title: "Sales Tax Calculator – Purchases Online | TheSmartCalculator",
-    description: "Use the Sales Tax Calculator to calculate sales tax for purchases based on local rates. Accurate, free online tool for shopping and budgeting.",
+    title: "Sales Tax Calculator State & Local Tax Estimate",
+    description: "Calculate sales tax accurately by state or region using our Sales Tax Calculator for smarter purchase planning.",
     keywords: "sales tax calculator, tax purchases, local rates, online sales, shopping tool, budgeting calculator, free tax tool, tax estimate"
   },
   br: {

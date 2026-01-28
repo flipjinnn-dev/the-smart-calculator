@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for army-body-fat-calculator
 const armybodyfatcalculatorMeta = {
   en: {
-    title: "Army Body Fat Calculator – Percentage Online | TheSmartCalculator",
-    description: "Use the Army Body Fat Calculator to estimate percentage using U.S. Army method. Accurate, free online tool for fitness tracking and military standards compliance.",
+    title: "Army Body Fat Calculator - Body Fat Percentage",
+    description: "Estimate body fat percentage using our Army Body Fat Calculator for fitness and readiness.",
     keywords: "army body fat calculator, fat percentage, army method, fitness tool, online fat calculator, military standards, free army tool, body analysis"
   },
   br: {

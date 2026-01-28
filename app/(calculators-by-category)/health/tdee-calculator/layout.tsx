@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for tdee-calculator
 const tdeecalculatorMeta = {
   en: {
-    title: "TDEE Calculator – Energy Expenditure Online | TheSmartCalculator",
-    description: "Use the TDEE Calculator to calculate Total Daily Energy Expenditure based on activity. Accurate, free online tool for calorie needs and weight management.",
+    title: "TDEE Calculator - Daily Calorie Needs",
+    description: "Calculate daily calorie needs based on activity using our TDEE Calculator for diet planning.",
     keywords: "tdee calculator, energy expenditure, activity level, online tdee, calorie needs, weight management, free tdee tool, daily energy"
   },
   br: {

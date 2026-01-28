@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for pregnancy-calculator
 const pregnancycalculatorMeta = {
   en: {
-    title: "Pregnancy Calculator – Acompanhe Sua Gestação Online",
-    description: "Use a Calculadora de Gravidez para estimar semanas, data de parto e acompanhar o desenvolvimento do bebê. Planeje sua gestação com precisão online.",
+    title: "Pregnancy Calculator - Pregnancy Timeline",
+    description: "Track pregnancy milestones and due date using our Pregnancy Calculator for easy planning.",
     keywords: "pregnancy calculator, gestation weeks, due date, baby development, online pregnancy, precision planning, gestation tool, week calculation"
   },
   br: {

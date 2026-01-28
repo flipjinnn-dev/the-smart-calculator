@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for ovulation-calculator
 const ovulationcalculatorMeta = {
   en: {
-    title: "Ovulation Calculator – Fertile Window Online | TheSmartCalculator",
-    description: "Use the Ovulation Calculator to estimate date and fertile window. Accurate, free online tool for family planning and cycle tracking.",
+    title: "Ovulation Calculator - Fertility Window Tracker",
+    description: "Predict fertile days using our Ovulation Calculator to plan conception easily.",
     keywords: "ovulation calculator, fertile window, date estimate, online ovulation, family planning, cycle tracking, free ovulation tool, window calculation"
   },
   br: {

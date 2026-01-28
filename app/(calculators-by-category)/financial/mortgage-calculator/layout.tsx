@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for mortgage-calculator
 const mortgagecalculatorMeta = {
   en: {
-    title: "Mortgage Calculator – Payments Interest Online | TheSmartCalculator",
-    description: "Use the Mortgage Calculator to calculate monthly payments, total interest, and amortization schedule. Accurate, free online tool for home financing.",
+    title: "Mortgage Calculator Monthly Payments & Interest",
+    description: "Estimate monthly payments, total interest, and full amortization schedule with our Mortgage Calculator to plan your home loan confidently.",
     keywords: "mortgage calculator, monthly payments, total interest, amortization schedule, online mortgage, home financing, free mortgage tool, interest calculation"
   },
   br: {
