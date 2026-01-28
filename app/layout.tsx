@@ -73,6 +73,11 @@ export async function generateMetadata(): Promise<Metadata> {
       address: false,
       telephone: false,
     },
+    manifest: '/manifest.json',
+    icons: {
+      icon: '/logo.png',
+      apple: '/apple-touch-icon.png',
+    },
     alternates: {
       canonical: canonicalUrl,
       languages: {
@@ -119,6 +124,12 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#3b82f6',
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -126,24 +137,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        {/* Basic Meta */}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#3b82f6" />
-
-        {/* Preconnect to external domains */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://www.google-analytics.com" />
-        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
-        <link rel="preconnect" href="https://www.clarity.ms" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
-
-        {/* Favicon & App Icons */}
-        <link rel="icon" href="/logo.png" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
-      </head>
       <body className={inter.className}>
         <Header />
         <main>

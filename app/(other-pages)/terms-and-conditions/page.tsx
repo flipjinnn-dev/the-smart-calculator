@@ -1,42 +1,27 @@
-"use client"
-import { useState, useEffect } from "react"
-import { usePathname } from "next/navigation"
+import { headers } from "next/headers"
 import Link from "next/link"
 import { FileText, Scale, AlertTriangle, CheckCircle, XCircle, Info } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
-export default function TermsPage() {
-  const pathname = usePathname()
-  const [language, setLanguage] = useState("en")
-  const [content, setContent] = useState<any>(null)
+type Language = "en" | "br" | "pl" | "de" | "es"
 
-  useEffect(() => {
-    // Detect language from URL
-    const langMatch = pathname?.match(/^\/(br|pl|de|es)/)
-    const detectedLang = langMatch ? langMatch[1] : "en"
-    setLanguage(detectedLang)
-
-    // Load content based on language
-    const loadContent = async () => {
-      try {
-        const contentModule = await import(`@/app/content/pages/terms-and-conditions/${detectedLang}.json`)
-        setContent(contentModule.default || contentModule)
-      } catch (error) {
-        console.error("Failed to load content:", error)
-        // Fallback to English
-        const fallbackContent = await import(`@/app/content/pages/terms-and-conditions/en.json`)
-        setContent(fallbackContent.default || fallbackContent)
-      }
-    }
-
-    loadContent()
-  }, [pathname])
-
-  if (!content) {
-    return <div className="min-h-screen bg-white flex items-center justify-center">
-      <div className="text-gray-600">Loading...</div>
-    </div>
+async function getContent(language: Language) {
+  try {
+    const content = await import(`@/app/content/pages/terms-and-conditions/${language}.json`)
+    return content.default || content
+  } catch (error) {
+    console.error("Failed to load content:", error)
+    const fallbackContent = await import(`@/app/content/pages/terms-and-conditions/en.json`)
+    return fallbackContent.default || fallbackContent
   }
+}
+
+export default async function TermsPage() {
+  const headerList = await headers()
+  const langHeader = headerList.get("x-language")
+  const language: Language = (langHeader && ["en", "br", "pl", "de", "es"].includes(langHeader)) ? langHeader as Language : "en"
+  
+  const content = await getContent(language)
 
   const icons = [CheckCircle, Scale, AlertTriangle, Info, XCircle, AlertTriangle, XCircle, Info, FileText, Scale, Info]
   const iconColors = ["green", "blue", "orange", "purple", "red", "yellow", "red", "indigo", "green", "blue", "purple"]

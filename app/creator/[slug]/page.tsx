@@ -16,12 +16,66 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import type { Metadata } from 'next';
 
 interface PageProps {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }
 
-export const revalidate = 3600; // Revalidate every hour
+export const revalidate = 3600;
+
+export async function generateMetadata(
+  { params }: PageProps
+): Promise<Metadata> {
+  const { slug } = params;
+
+  const author = await getAuthorBySlug(slug);
+
+  if (!author) {
+    return {
+      title: 'Creator Not Found | Smart Calculator',
+      description: 'The requested creator profile could not be found.',
+    };
+  }
+
+  const bioText =
+    typeof author.bio === 'string'
+      ? author.bio
+      : 'Expert contributor creating high-quality calculators and content.';
+
+  const canonicalUrl = `https://yourdomain.com/creator/${slug}`;
+
+  return {
+    title: `${author.name} - Creator Profile | Smart Calculator`,
+    description: author.tagline || bioText,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: `${author.name} - Creator Profile`,
+      description: author.tagline || bioText,
+      url: canonicalUrl,
+      siteName: 'Smart Calculator',
+      type: 'profile',
+      images: author.image
+        ? [
+            {
+              url: author.image,
+              width: 800,
+              height: 800,
+              alt: author.name,
+            },
+          ]
+        : [],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${author.name} - Creator Profile`,
+      description: author.tagline || bioText,
+      images: author.image ? [author.image] : [],
+    },
+  };
+}
 
 export default async function CreatorPage({ params }: PageProps) {
   const { slug } = await params;

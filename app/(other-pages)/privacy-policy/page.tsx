@@ -1,42 +1,27 @@
-"use client"
-import { useState, useEffect } from "react"
-import { usePathname } from "next/navigation"
+import { headers } from "next/headers"
 import Link from "next/link"
 import { Shield, Eye, Lock, UserCheck, Database, Globe } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
-export default function PrivacyPolicyPage() {
-  const pathname = usePathname()
-  const [language, setLanguage] = useState("en")
-  const [content, setContent] = useState<any>(null)
+type Language = "en" | "br" | "pl" | "de" | "es"
 
-  useEffect(() => {
-    // Detect language from URL
-    const langMatch = pathname?.match(/^\/(br|pl|de|es)/)
-    const detectedLang = langMatch ? langMatch[1] : "en"
-    setLanguage(detectedLang)
-
-    // Load content based on language
-    const loadContent = async () => {
-      try {
-        const contentModule = await import(`@/app/content/pages/privacy-policy/${detectedLang}.json`)
-        setContent(contentModule.default || contentModule)
-      } catch (error) {
-        console.error("Failed to load content:", error)
-        // Fallback to English
-        const fallbackContent = await import(`@/app/content/pages/privacy-policy/en.json`)
-        setContent(fallbackContent.default || fallbackContent)
-      }
-    }
-
-    loadContent()
-  }, [pathname])
-
-  if (!content) {
-    return <div className="min-h-screen bg-white flex items-center justify-center">
-      <div className="text-gray-600">Loading...</div>
-    </div>
+async function getContent(language: Language) {
+  try {
+    const content = await import(`@/app/content/pages/privacy-policy/${language}.json`)
+    return content.default || content
+  } catch (error) {
+    console.error("Failed to load content:", error)
+    const fallbackContent = await import(`@/app/content/pages/privacy-policy/en.json`)
+    return fallbackContent.default || fallbackContent
   }
+}
+
+export default async function PrivacyPolicyPage() {
+  const headerList = await headers()
+  const langHeader = headerList.get("x-language")
+  const language: Language = (langHeader && ["en", "br", "pl", "de", "es"].includes(langHeader)) ? langHeader as Language : "en"
+  
+  const content = await getContent(language)
 
   return (
     <div className="min-h-screen bg-white">
