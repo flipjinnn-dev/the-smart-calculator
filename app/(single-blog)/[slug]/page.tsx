@@ -34,6 +34,9 @@ const calculateReadTime = (body: any) => {
   return Math.ceil(words / 200)
 }
 
+export const dynamic = 'force-static';
+export const dynamicParams = true;
+
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params;
   

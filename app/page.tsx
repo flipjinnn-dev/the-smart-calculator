@@ -2,39 +2,7 @@ import { headers } from "next/headers";
 import HomeClient from "./home-client";
 import { loadHomepageContent } from "@/lib/loadHomepageContent";
 import { getAllAuthors } from "@/lib/sanity/client";
-import type { Metadata } from "next";
-import Head from "next/head";
 import Script from "next/script";
-
-export async function generateMetadata(): Promise<Metadata> {
-  const headersList = await headers();
-  const language = headersList.get('x-language') || 'en';
-  const baseUrl = "https://www.thesmartcalculator.com";
-  const canonical = language === "en" ? baseUrl : `${baseUrl}/${language}`;
-  const { content } = await loadHomepageContent(language);
-  const contentData = content || {
-    meta: {
-      title: "Smart Calculator - Free Online Calculators for Every Need",
-      description: "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
-      keywords: "calculator, online calculator, financial calculator, health calculator, math calculator, free tools"
-    }
-  };
-
-  return {
-    title: contentData.meta.title,
-    description: contentData.meta.description,
-    keywords: contentData.meta.keywords,
-    openGraph: {
-      title: contentData.meta.title,
-      description: contentData.meta.description,
-      type: "website",
-      url: canonical,
-    },
-    alternates: {
-      canonical: canonical,
-    },
-  };
-}
 
 export default async function HomePage() {
   const headersList = await headers();
@@ -123,9 +91,6 @@ export default async function HomePage() {
 };
   return (
     <>
-      <Head>
-        <meta name="x-language" content={language} />
-      </Head>
       <Script 
       id="schema-org" 
       type="application/ld+json"
