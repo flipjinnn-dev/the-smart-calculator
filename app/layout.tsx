@@ -7,6 +7,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/next"
 import Header from "@/components/header"
 import BackToTop from "@/components/back-to-top"
+import { SessionProvider } from "@/components/providers/session-provider"
+import { Toaster } from "sonner"
 import { headers } from "next/headers"
 import "./globals.css"
 import "katex/dist/katex.min.css"
@@ -81,6 +83,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': baseUrl,
         'en': baseUrl,
         'pt-BR': `${baseUrl}/br`,
         'pl': `${baseUrl}/pl`,
@@ -93,6 +96,8 @@ export async function generateMetadata(): Promise<Metadata> {
       locale: language === "br" ? "pt_BR" : language === "de" ? "de_DE" : language === "pl" ? "pl_PL" : language === "es" ? "es_ES" : "en_US",
       url: canonicalUrl,
       siteName: "Smart Calculator",
+      title: meta.title,
+      description: meta.description,
       images: [
         {
           url: "/og-image.png",
@@ -138,57 +143,60 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        <main>
-          {children}
-        </main>
+        <SessionProvider>
+          <Header />
+          <main>
+            {children}
+          </main>
 
-        {/* ✅ Google Analytics - Deferred */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-18W2MEF31Q"
-          strategy="lazyOnload"
-        />
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-18W2MEF31Q', {
-              page_path: window.location.pathname,
-            });
-          `}
-        </Script>
+          {/* ✅ Google Analytics - Deferred */}
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-18W2MEF31Q"
+            strategy="lazyOnload"
+          />
+          <Script id="google-analytics" strategy="lazyOnload">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-18W2MEF31Q', {
+                page_path: window.location.pathname,
+              });
+            `}
+          </Script>
 
-        {/* ✅ Microsoft Clarity - Deferred */}
-        <Script id="microsoft-clarity" strategy="lazyOnload">
-          {`
-            (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "t4gsw89qux");
-          `}
-        </Script>
+          {/* ✅ Microsoft Clarity - Deferred */}
+          <Script id="microsoft-clarity" strategy="lazyOnload">
+            {`
+              (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "t4gsw89qux");
+            `}
+          </Script>
 
-        {/* ✅ Google AdSense - Deferred */}
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5433267523341571"
-          strategy="lazyOnload"
-          crossOrigin="anonymous"
-        />
+          {/* ✅ Google AdSense - Deferred */}
+          <Script
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5433267523341571"
+            strategy="lazyOnload"
+            crossOrigin="anonymous"
+          />
 
-        {/* ✅ DMCA Badge Helper */}
-        <Script
-          src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"
-          strategy="lazyOnload"
-        />
+          {/* ✅ DMCA Badge Helper */}
+          <Script
+            src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"
+            strategy="lazyOnload"
+          />
 
-        {/* ✅ Vercel tools */}
-        <SpeedInsights />
-        <Analytics />
+          {/* ✅ Vercel tools */}
+          <SpeedInsights />
+          <Analytics />
 
-        <BackToTop />
-        <LanguageFooter />
+          <BackToTop />
+          <LanguageFooter />
+          <Toaster position="top-center" richColors />
+        </SessionProvider>
       </body>
     </html>
   )

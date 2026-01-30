@@ -6,10 +6,16 @@ import { usePathname } from "next/navigation"
 import { useState, useEffect } from "react"
 import DynamicBreadcrumb from "@/components/dynamic-breadcrumb"
 import { getLanguageSwitcherUrl } from "@/lib/url-utils"
+import { useSession, signIn, signOut } from "next-auth/react"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Button } from "@/components/ui/button"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { User, LogOut, Shield, Users } from "lucide-react"
 
 export default function Header() {
   const pathname = usePathname()
   const [language, setLanguage] = useState("en")
+  const { data: session, status } = useSession()
 
   // Check if current page is a games page (category page or any inner game page)
   // Games paths: /games, /br/games, /games/wordle, /games/mental-maths, etc.
@@ -197,6 +203,12 @@ export default function Header() {
             </div>
 
             <div className="flex items-center space-x-6">
+              {/* Community Link */}
+              <Link href="/community" className="text-sm font-semibold text-gray-700 hover:text-blue-600 transition-colors flex items-center gap-2">
+                <Users className="w-4 h-4" />
+                <span className="hidden sm:inline">Community</span>
+              </Link>
+
               {/* Navigation Links - Always visible */}
               <nav className="hidden lg:flex items-center space-x-4">
                 <Link href={currentPages.aboutUs.url} className="text-sm text-gray-700 hover:text-blue-600 transition-colors">
@@ -234,6 +246,60 @@ export default function Header() {
                     ))}
                   </select>
                 </div>
+              )}
+
+              {/* User Profile Menu */}
+              {status === "loading" ? (
+                <div className="w-10 h-10 rounded-full bg-gray-200 animate-pulse" />
+              ) : session ? (
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <Button variant="ghost" className="relative h-10 w-10 rounded-full border-2 border-blue-500/30 hover:border-blue-500 transition-all">
+                      <Avatar className="h-10 w-10">
+                        <AvatarImage src={session.user?.image || ""} alt={session.user?.name || "User"} />
+                        <AvatarFallback className="bg-gradient-to-br from-blue-500 to-purple-500 text-white">
+                          <User className="h-5 w-5" />
+                        </AvatarFallback>
+                      </Avatar>
+                    </Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent className="w-56 bg-white/95 backdrop-blur-xl border-2 border-gray-200 shadow-2xl" align="end" forceMount>
+                    <DropdownMenuLabel className="font-normal">
+                      <div className="flex flex-col space-y-1">
+                        <p className="text-sm font-medium leading-none">{session.user?.name}</p>
+                        <p className="text-xs leading-none text-muted-foreground">{session.user?.email}</p>
+                      </div>
+                    </DropdownMenuLabel>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuItem asChild>
+                      <Link href="/community" className="cursor-pointer flex items-center">
+                        <Users className="mr-2 h-4 w-4" />
+                        <span>Community</span>
+                      </Link>
+                    </DropdownMenuItem>
+                    {/* @ts-ignore */}
+                    {session.user?.role === "admin" && (
+                      <DropdownMenuItem asChild>
+                        <Link href="/admin/dashboard" className="cursor-pointer flex items-center">
+                          <Shield className="mr-2 h-4 w-4" />
+                          <span>Admin Dashboard</span>
+                        </Link>
+                      </DropdownMenuItem>
+                    )}
+                    <DropdownMenuSeparator />
+                    <DropdownMenuItem
+                      className="cursor-pointer text-red-600 focus:text-red-600"
+                      onClick={() => signOut({ callbackUrl: "/" })}
+                    >
+                      <LogOut className="mr-2 h-4 w-4" />
+                      <span>Sign Out</span>
+                    </DropdownMenuItem>
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              ) : (
+                <Button onClick={() => signIn()} size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+                  Sign In
+                </Button>
               )}
             </div>
           </div>

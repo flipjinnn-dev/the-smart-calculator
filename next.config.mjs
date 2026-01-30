@@ -70,6 +70,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'cdn.sanity.io',
       },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+      },
     ],
   },
   transpilePackages: ['next-sanity'],
@@ -79,10 +83,17 @@ const nextConfig = {
   experimental: {
     optimizeCss: true,
     optimizePackageImports: ['lucide-react', 'react-icons', '@radix-ui/react-accordion', '@radix-ui/react-dialog', '@radix-ui/react-dropdown-menu'],
+    serverActions: {
+      bodySizeLimit: '50mb',
+    },
   },
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
+  devIndicators: {
+    buildActivityPosition: 'bottom-right',
+  },
+  productionBrowserSourceMaps: false,
 }
 
 export default nextConfig

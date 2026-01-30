@@ -3,6 +3,20 @@ import author from './author';
 import category from './category';
 import calculator from './calculator';
 import wordle from './wordle';
+import communityUser from './community-user';
+import communityPost from './community-post';
+import communityComment from './community-comment';
+import communityReaction from './community-reaction';
 
-export const schemaTypes = [blog, author, category, calculator, wordle];
+export const schemaTypes = [
+  blog, 
+  author, 
+  category, 
+  calculator, 
+  wordle,
+  communityUser,
+  communityPost,
+  communityComment,
+  communityReaction,
+];
 
