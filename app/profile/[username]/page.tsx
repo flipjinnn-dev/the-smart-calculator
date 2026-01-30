@@ -18,11 +18,25 @@ interface ProfilePageProps {
 
 export default async function ProfilePage({ params }: ProfilePageProps) {
   const username = normalizeUsername(params.username);
-  
   const user = await getUserByName(username);
   
   if (!user) {
-    notFound();
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50/30 to-purple-50/20">
+        <div className="container mx-auto px-4 py-8 max-w-6xl">
+          <Card className="bg-white/80 backdrop-blur-xl rounded-3xl border-2 border-gray-200 shadow-xl">
+            <CardContent className="p-12 text-center">
+              <User className="w-16 h-16 text-gray-400 mx-auto mb-4" />
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">User Not Found</h2>
+              <p className="text-gray-600 mb-6">The user &quot;{username}&quot; does not exist.</p>
+              <Button asChild>
+                <Link href="/community">Back to Community</Link>
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    );
   }
 
   const [posts, stats] = await Promise.all([

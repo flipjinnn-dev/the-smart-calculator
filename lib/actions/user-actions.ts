@@ -4,6 +4,8 @@ import { client as sanityClient } from '@/lib/sanity/config';
 
 export async function getUserByName(name: string) {
   try {
+    console.log('[DEBUG] Looking for user with name:', name);
+    
     const user = await sanityClient.fetch(
       `*[_type == "communityUser" && lower(name) == lower($name)][0] {
         _id,
@@ -15,8 +17,18 @@ export async function getUserByName(name: string) {
       }`,
       { name }
     );
+    
+    if (user) {
+      console.log('[DEBUG] User found:', user.name, user._id);
+    } else {
+      console.log('[DEBUG] User not found. Searching for similar names...');
+      const allUsers = await sanityClient.fetch(`*[_type == "communityUser"][0...5] { name }`);
+      console.log('[DEBUG] Sample users in database:', allUsers.map((u: any) => u.name));
+    }
+    
     return user;
   } catch (error) {
+    console.error('[ERROR] getUserByName failed:', error);
     return null;
   }
 }

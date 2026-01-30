@@ -114,6 +114,24 @@ export async function getPostBySlug(slug: string, includeUnapproved = false) {
   try {
     const statusFilter = includeUnapproved ? '' : '&& status == "approved"';
     
+    // First, let's check if ANY post with this slug exists (regardless of status)
+    const checkQuery = `*[_type == "communityPost" && slug.current == $slug][0] { _id, title, status, slug }`;
+    const checkResult = await sanityClient.fetch(checkQuery, { slug });
+    
+    if (checkResult) {
+      console.log('[DEBUG] Post found in Sanity:', {
+        id: checkResult._id,
+        title: checkResult.title,
+        status: checkResult.status,
+        slug: checkResult.slug.current
+      });
+    } else {
+      console.log('[DEBUG] No post found with slug:', slug);
+      // Try to find similar slugs
+      const allPosts = await sanityClient.fetch(`*[_type == "communityPost"][0...5] { slug }`);
+      console.log('[DEBUG] Sample slugs in database:', allPosts.map((p: any) => p.slug?.current));
+    }
+    
     const query = `*[_type == "communityPost" && slug.current == $slug ${statusFilter}][0] {
       _id,
       title,
@@ -135,8 +153,13 @@ export async function getPostBySlug(slug: string, includeUnapproved = false) {
     
     const post = await sanityClient.fetch(query, { slug });
     
+    if (!post && checkResult) {
+      console.log('[DEBUG] Post exists but filtered out by status. Status:', checkResult.status);
+    }
+    
     return post;
   } catch (error) {
+    console.error('[ERROR] getPostBySlug failed:', error);
     return null;
   }
 }

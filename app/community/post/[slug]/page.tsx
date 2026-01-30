@@ -84,15 +84,15 @@ export async function generateMetadata({ params }: PostPageProps) {
 }
 
 export default async function PostPage({ params }: PostPageProps) {
-  try {
-    const post = await getPostBySlug(params.slug);
-    
-    if (!post) {
-      notFound();
-    }
-    const user = await getCurrentUser();
-    const hasReacted = user ? await hasUserReacted(post._id, user.userId!) : false;
-    const isAuthenticated = !!user;
+  const post = await getPostBySlug(params.slug);
+  
+  if (!post) {
+    notFound();
+  }
+  
+  const user = await getCurrentUser();
+  const hasReacted = user ? await hasUserReacted(post._id, user.userId!) : false;
+  const isAuthenticated = !!user;
 
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50/30 to-purple-50/20">
@@ -165,8 +165,5 @@ export default async function PostPage({ params }: PostPageProps) {
         />
       </div>
     </div>
-    );
-  } catch (error) {
-    notFound();
-  }
+  );
 }
