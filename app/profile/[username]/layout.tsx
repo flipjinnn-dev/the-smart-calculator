@@ -4,7 +4,8 @@ import { normalizeUsername, createUsernameSlug } from "@/lib/utils/username-slug
 export async function generateMetadata({ params }: { params: { username: string } }): Promise<Metadata> {
   try {
     // Normalize username from slug
-    const username = normalizeUsername(params.username);
+    const { username: rawUsername } = await params;
+    const username = normalizeUsername(rawUsername);
     const usernameSlug = createUsernameSlug(username);
     
     // Create properly slugified URL

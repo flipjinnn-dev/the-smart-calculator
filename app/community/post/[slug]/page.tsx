@@ -21,7 +21,8 @@ interface PostPageProps {
 
 export async function generateMetadata({ params }: PostPageProps) {
   try {
-    const post = await getPostBySlug(params.slug);
+    const { slug } = await params;
+    const post = await getPostBySlug(slug);
     
     if (!post) {
       return {
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: PostPageProps) {
       };
     }
 
-    const postUrl = `https://www.thesmartcalculator.com/community/post/${params.slug}`;
+    const postUrl = `https://www.thesmartcalculator.com/community/post/${slug}`;
     const description = post.content?.[0]?.children?.[0]?.text?.substring(0, 160) || 'Read this post on our community platform.';
     
     // Use featured image if available, otherwise use default
@@ -84,7 +85,8 @@ export async function generateMetadata({ params }: PostPageProps) {
 }
 
 export default async function PostPage({ params }: PostPageProps) {
-  const post = await getPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = await getPostBySlug(slug);
   
   if (!post) {
     notFound();

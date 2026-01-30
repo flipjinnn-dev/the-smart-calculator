@@ -17,7 +17,8 @@ interface ProfilePageProps {
 }
 
 export default async function ProfilePage({ params }: ProfilePageProps) {
-  const username = normalizeUsername(params.username);
+  const { username: rawUsername } = await params;
+  const username = normalizeUsername(rawUsername);
   const user = await getUserByName(username);
   
   if (!user) {
