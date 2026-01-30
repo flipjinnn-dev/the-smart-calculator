@@ -113,29 +113,30 @@ export async function getApprovedPosts(limit = 20, offset = 0) {
 export async function getPostBySlug(slug: string, includeUnapproved = false) {
   try {
     const statusFilter = includeUnapproved ? '' : '&& status == "approved"';
-    const post = await sanityClient.fetch(
-      `*[_type == "communityPost" && slug.current == $slug ${statusFilter}][0] {
+    
+    const query = `*[_type == "communityPost" && slug.current == $slug ${statusFilter}][0] {
+      _id,
+      title,
+      slug,
+      content,
+      images,
+      featuredImage,
+      "author": author->{_id, name, image},
+      status,
+      createdAt,
+      "comments": *[_type == "communityComment" && post._ref == ^._id && status == "approved"] | order(createdAt asc) {
         _id,
-        title,
-        slug,
         content,
-        images,
-        "author": author->{_id, name, image},
-        status,
-        createdAt,
-        "comments": *[_type == "communityComment" && post._ref == ^._id && status == "approved"] | order(createdAt asc) {
-          _id,
-          content,
-          "author": author->{name, image},
-          createdAt
-        },
-        "reactionCount": count(*[_type == "communityReaction" && post._ref == ^._id])
-      }`,
-      { slug }
-    );
+        "author": author->{name, image},
+        createdAt
+      },
+      "reactionCount": count(*[_type == "communityReaction" && post._ref == ^._id])
+    }`;
+    
+    const post = await sanityClient.fetch(query, { slug });
+    
     return post;
   } catch (error) {
-    console.error('Error fetching post:', error);
     return null;
   }
 }

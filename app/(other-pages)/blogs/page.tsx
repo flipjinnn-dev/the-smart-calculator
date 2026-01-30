@@ -22,6 +22,10 @@ export const metadata: Metadata = {
   description: "Explore our blog for expert insights, calculation tips, and comprehensive guides on using various calculators effectively.",
   alternates: {
     canonical: `${SITE_URL}/blogs`,
+    languages: {
+      'x-default': `${SITE_URL}/blogs`,
+      'en': `${SITE_URL}/blogs`,
+    }
   },
   openGraph: {
     title: "Blog - Smart Calculator",
@@ -30,11 +34,20 @@ export const metadata: Metadata = {
     siteName: "Smart Calculator",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Blog - Smart Calculator",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Blog - Smart Calculator",
     description: "Explore our blog for expert insights, calculation tips, and comprehensive guides.",
+    images: ["/og-image.png"],
   },
 }
 

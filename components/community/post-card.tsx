@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { urlFor } from '@/lib/sanity/config';
+import { createUsernameSlug } from '@/lib/utils/username-slug';
 import { PortableText } from '@portabletext/react';
 import { ReactionButton } from './reaction-button';
 import { CommentSection } from './comment-section';
@@ -38,7 +39,7 @@ export function PostCard({ post, hasReacted, isAuthenticated }: PostCardProps) {
       <CardHeader className="bg-gradient-to-br from-white to-gray-50/50 p-6 border-b-2 border-gray-100">
         <div className="flex items-start justify-between gap-4 mb-4">
           <div className="flex items-center gap-3">
-            <Link href={`/profile/${post.author.name}`} className="group/avatar">
+            <Link href={`/profile/${createUsernameSlug(post.author.name)}`} className="group/avatar">
               <Avatar className="w-14 h-14 border-2 border-white shadow-lg ring-2 ring-gray-100 group-hover/avatar:ring-blue-400 transition-all">
                 <AvatarImage src={post.author.image} alt={post.author.name} />
                 <AvatarFallback className="bg-gradient-to-br from-blue-600 to-purple-600 text-white font-bold text-lg">
@@ -47,7 +48,7 @@ export function PostCard({ post, hasReacted, isAuthenticated }: PostCardProps) {
               </Avatar>
             </Link>
             <div>
-              <Link href={`/profile/${post.author.name}`} className="font-bold text-base text-gray-900 hover:text-blue-600 transition-colors">
+              <Link href={`/profile/${createUsernameSlug(post.author.name)}`} className="font-bold text-base text-gray-900 hover:text-blue-600 transition-colors">
                 {post.author.name}
               </Link>
               <div className="flex items-center gap-2 text-xs text-gray-500 mt-0.5">

@@ -5,13 +5,33 @@ import { BookOpen, Brain, Calculator, Clock, HelpCircle, Lightbulb, Target, Zap 
 export const metadata: Metadata = {
     title: 'Mental Math Practice – Boost Your Calculation Skills',
     description: 'Challenge yourself with quick mental math quizzes and improve your calculation speed and accuracy. Learn shortcuts for addition, subtraction, multiplication, and more.',
+    alternates: {
+        canonical: 'https://www.thesmartcalculator.com/games/mental-maths',
+        languages: {
+            'x-default': 'https://www.thesmartcalculator.com/games/mental-maths',
+            'en': 'https://www.thesmartcalculator.com/games/mental-maths',
+        }
+    },
     openGraph: {
         title: 'Mental Math Practice – Boost Your Calculation Skills',
         description: 'Challenge yourself with quick mental math quizzes and improve your calculation speed and accuracy.',
         type: 'website',
+        url: 'https://www.thesmartcalculator.com/games/mental-maths',
+        siteName: "Smart Calculator",
+        images: [
+            {
+                url: "/og-image.png",
+                width: 1200,
+                height: 630,
+                alt: "Mental Math Practice",
+            },
+        ],
     },
-    alternates: {
-        canonical: 'https://www.thesmartcalculator.com/games/mental-maths',
+    twitter: {
+        card: "summary_large_image",
+        title: 'Mental Math Practice – Boost Your Calculation Skills',
+        description: 'Challenge yourself with quick mental math quizzes and improve your calculation speed and accuracy.',
+        images: ["/og-image.png"],
     },
 };
 

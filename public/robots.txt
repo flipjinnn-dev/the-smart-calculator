@@ -1,0 +1,30 @@
+# Robots.txt for The Smart Calculator
+# Updated: 2026-01-30
+
+# Allow all crawlers by default
+User-agent: *
+Allow: /
+
+# Block user-generated and authentication pages
+Disallow: /auth/
+Disallow: /admin/
+
+# Block API routes
+Disallow: /api/
+
+# Allow calculators and main content
+Allow: /financial/
+Allow: /health/
+Allow: /maths/
+Allow: /physics/
+Allow: /construction/
+Allow: /food/
+Allow: /sports/
+Allow: /software/
+Allow: /business/
+Allow: /games/
+Allow: /blogs/
+Allow: /other/
+
+# Sitemap location
+Sitemap: https://www.thesmartcalculator.com/sitemap.xml

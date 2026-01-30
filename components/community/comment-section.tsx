@@ -10,6 +10,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { createComment } from '@/lib/actions/comment-actions';
 import { toast } from 'sonner';
+import { createUsernameSlug } from '@/lib/utils/username-slug';
 
 interface Comment {
   _id: string;
@@ -101,7 +102,7 @@ export function CommentSection({ postId, comments, isAuthenticated }: CommentSec
           comments.map((comment) => (
             <div key={comment._id} className="p-5 bg-white rounded-2xl border-2 border-gray-200 hover:border-blue-300 hover:shadow-md transition-all duration-300 group">
               <div className="flex gap-4">
-                <Link href={`/profile/${comment.author.name}`}>
+                <Link href={`/profile/${createUsernameSlug(comment.author.name)}`}>
                   <Avatar className="w-11 h-11 border-2 border-white shadow-md ring-2 ring-gray-100 group-hover:ring-blue-200 transition-all cursor-pointer">
                     <AvatarImage src={comment.author.image} alt={comment.author.name} />
                     <AvatarFallback className="bg-gradient-to-br from-blue-600 to-purple-600 text-white text-sm font-bold">
@@ -112,7 +113,7 @@ export function CommentSection({ postId, comments, isAuthenticated }: CommentSec
                 <div className="flex-1 min-w-0">
                   <div className="flex items-start justify-between mb-2">
                     <div>
-                      <Link href={`/profile/${comment.author.name}`} className="font-bold text-sm text-gray-900 hover:text-blue-600 transition-colors">
+                      <Link href={`/profile/${createUsernameSlug(comment.author.name)}`} className="font-bold text-sm text-gray-900 hover:text-blue-600 transition-colors">
                         {comment.author.name}
                       </Link>
                       <div className="flex items-center gap-2 text-xs text-gray-500 mt-0.5">

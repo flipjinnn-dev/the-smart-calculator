@@ -47,6 +47,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getStaticPageCanonicalUrl('editorial-policy-mission-statement', 'en'),
         en: getStaticPageCanonicalUrl('editorial-policy-mission-statement', 'en'),
         "pt-BR": getStaticPageCanonicalUrl('editorial-policy-mission-statement', 'br'),
         pl: getStaticPageCanonicalUrl('editorial-policy-mission-statement', 'pl'),
@@ -58,7 +59,22 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: canonicalUrl
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
     }
   };
 }
