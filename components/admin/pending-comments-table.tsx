@@ -56,67 +56,87 @@ export function PendingCommentsTable({ comments }: { comments: PendingComment[] 
 
   if (comments.length === 0) {
     return (
-      <Card>
-        <CardContent className="py-12 text-center">
-          <p className="text-muted-foreground">No pending comments to review</p>
+      <Card className="border-2 border-dashed border-gray-300 bg-gray-50">
+        <CardContent className="py-16 text-center">
+          <div className="flex flex-col items-center gap-3">
+            <div className="p-4 bg-green-100 rounded-full">
+              <Check className="w-8 h-8 text-green-600" />
+            </div>
+            <p className="text-lg font-semibold text-gray-900">All caught up!</p>
+            <p className="text-sm text-gray-600">No pending comments to review</p>
+          </div>
         </CardContent>
       </Card>
     );
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       {comments.map((comment) => (
-        <Card key={comment._id}>
-          <CardHeader>
-            <div className="flex items-start justify-between">
-              <div className="flex-1">
-                <CardTitle className="text-base mb-2 flex items-center gap-2">
-                  Comment on: {comment.post.title}
+        <Card key={comment._id} className="border-2 border-pink-200 bg-gradient-to-br from-pink-50/50 to-white shadow-lg hover:shadow-xl transition-all">
+          <CardHeader className="pb-4">
+            <div className="flex items-start justify-between gap-4">
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="px-3 py-1 bg-pink-100 text-pink-700 text-xs font-bold rounded-full border border-pink-200">
+                    PENDING REVIEW
+                  </span>
+                </div>
+                <CardTitle className="text-lg mb-3 text-gray-900 flex items-center gap-2 flex-wrap">
+                  <span>Comment on:</span>
+                  <span className="text-blue-600">{comment.post.title}</span>
                   <Link
                     href={`/community/post/${comment.post.slug.current}`}
                     target="_blank"
-                    className="text-primary hover:underline"
+                    className="text-blue-600 hover:text-blue-700 transition-colors"
                   >
                     <ExternalLink className="w-4 h-4" />
                   </Link>
                 </CardTitle>
-                <div className="flex flex-col gap-1 text-sm text-muted-foreground">
-                  <p>
-                    <span className="font-medium">Author:</span> {comment.author.name} ({comment.author.email})
-                  </p>
-                  <p>
-                    <span className="font-medium">Submitted:</span>{' '}
-                    {formatDistanceToNow(new Date(comment.createdAt), { addSuffix: true })}
-                  </p>
+                <div className="flex flex-wrap gap-4 text-sm">
+                  <div className="flex items-center gap-2">
+                    <span className="font-semibold text-gray-700">Author:</span>
+                    <span className="text-gray-600">{comment.author.name}</span>
+                    <span className="px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded-full font-medium">
+                      {comment.author.email}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="font-semibold text-gray-700">Submitted:</span>
+                    <span className="text-gray-600">{formatDistanceToNow(new Date(comment.createdAt), { addSuffix: true })}</span>
+                  </div>
                 </div>
-              </div>
-              <div className="flex gap-2">
-                <Button
-                  variant="default"
-                  size="sm"
-                  onClick={() => handleApprove(comment._id)}
-                  disabled={loading === comment._id}
-                >
-                  <Check className="w-4 h-4 mr-2" />
-                  Approve
-                </Button>
-                <Button
-                  variant="destructive"
-                  size="sm"
-                  onClick={() => handleReject(comment._id)}
-                  disabled={loading === comment._id}
-                >
-                  <X className="w-4 h-4 mr-2" />
-                  Reject
-                </Button>
               </div>
             </div>
           </CardHeader>
-          <CardContent>
-            <p className="text-sm whitespace-pre-wrap bg-muted/50 p-3 rounded-lg">
-              {comment.content}
-            </p>
+          <CardContent className="space-y-4">
+            <div className="bg-white rounded-xl p-4 border-2 border-gray-200">
+              <p className="text-sm text-gray-700 whitespace-pre-wrap leading-relaxed">
+                {comment.content}
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-3 pt-2">
+              <Button
+                size="default"
+                onClick={() => handleApprove(comment._id)}
+                disabled={loading === comment._id}
+                className="flex-1 min-w-[140px] bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-semibold shadow-md hover:shadow-lg transition-all"
+              >
+                <Check className="w-4 h-4 mr-2" />
+                Approve Comment
+              </Button>
+              <Button
+                variant="destructive"
+                size="default"
+                onClick={() => handleReject(comment._id)}
+                disabled={loading === comment._id}
+                className="flex-1 min-w-[140px] bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 font-semibold shadow-md hover:shadow-lg transition-all"
+              >
+                <X className="w-4 h-4 mr-2" />
+                Reject Comment
+              </Button>
+            </div>
           </CardContent>
         </Card>
       ))}
