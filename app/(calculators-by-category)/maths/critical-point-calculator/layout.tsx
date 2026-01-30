@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('critical-point-calculator', 'en'),
         'en': getCanonicalUrl('critical-point-calculator', 'en'),
         'es': getCanonicalUrl('critical-point-calculator', 'es'),
         'pt-BR': getCanonicalUrl('critical-point-calculator', 'br'),
@@ -64,8 +65,22 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }critical-point-calculator`,
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
     },
   };
 }

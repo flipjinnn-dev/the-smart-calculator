@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('bac-calculator', 'en'),
         'en': getCanonicalUrl('bac-calculator', 'en'),
         'es': getCanonicalUrl('bac-calculator', 'es'),
         'pt-BR': getCanonicalUrl('bac-calculator', 'br'),
@@ -64,8 +65,22 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }bac-calculator`,
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
     },
   };
 }

@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('overweight-calculator', 'en'),
         'en': getCanonicalUrl('overweight-calculator', 'en'),
         'es': getCanonicalUrl('overweight-calculator', 'es'),
         'pt-BR': getCanonicalUrl('overweight-calculator', 'br'),
@@ -64,8 +65,22 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }overweight-calculator`,
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
     },
   };
 }

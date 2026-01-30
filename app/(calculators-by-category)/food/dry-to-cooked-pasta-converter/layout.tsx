@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('dry-to-cooked-pasta-converter', 'en'),
         'en': getCanonicalUrl('dry-to-cooked-pasta-converter', 'en'),
         'es': getCanonicalUrl('dry-to-cooked-pasta-converter', 'es'),
         'pt-BR': getCanonicalUrl('dry-to-cooked-pasta-converter', 'br'),
@@ -64,8 +65,22 @@ export async function generateMetadata(): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: `https://www.thesmartcalculator.com/${language !== "en" ? `${language}/` : ""
-        }dry-to-cooked-pasta-converter`,
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
     },
   };
 }

@@ -51,11 +51,12 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('website-cost-calculator', 'en'),
         'en': getCanonicalUrl('website-cost-calculator', 'en'),
+        'es': getCanonicalUrl('website-cost-calculator', 'es'),
         'pt-BR': getCanonicalUrl('website-cost-calculator', 'br'),
         'pl': getCanonicalUrl('website-cost-calculator', 'pl'),
         'de': getCanonicalUrl('website-cost-calculator', 'de'),
-        'es': getCanonicalUrl('website-cost-calculator', 'es'),
       }
     },
     openGraph: {
@@ -63,23 +64,21 @@ export async function generateMetadata(): Promise<Metadata> {
       description: meta.description,
       type: "website",
       url: canonicalUrl,
-      siteName: "TheSmartCalculator",
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: meta.title,
       description: meta.description,
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
+      images: ["/og-image.png"],
     },
   };
 }

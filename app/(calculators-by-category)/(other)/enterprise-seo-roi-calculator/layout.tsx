@@ -26,9 +26,11 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: meta.title,
     description: meta.description,
+    keywords: meta.keywords,
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('enterprise-seo-roi-calculator', 'en'),
         'en': getCanonicalUrl('enterprise-seo-roi-calculator', 'en'),
         'es': getCanonicalUrl('enterprise-seo-roi-calculator', 'es'),
         'pt-BR': getCanonicalUrl('enterprise-seo-roi-calculator', 'br'),
@@ -39,8 +41,23 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: meta.title,
       description: meta.description,
-      type: 'website',
+      type: "website",
       url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
     },
   };
 }

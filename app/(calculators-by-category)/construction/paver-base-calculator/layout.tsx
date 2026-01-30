@@ -50,24 +50,34 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('paver-base-calculator', 'en'),
         'en': getCanonicalUrl('paver-base-calculator', 'en'),
+        'es': getCanonicalUrl('paver-base-calculator', 'es'),
         'pt-BR': getCanonicalUrl('paver-base-calculator', 'br'),
         'pl': getCanonicalUrl('paver-base-calculator', 'pl'),
         'de': getCanonicalUrl('paver-base-calculator', 'de'),
-        'es': getCanonicalUrl('paver-base-calculator', 'es'),
-      },
+      }
     },
     openGraph: {
       title: meta.title,
       description: meta.description,
-      url: canonicalUrl,
       type: "website",
-      locale: language === 'en' ? 'en_US' : language === 'br' ? 'pt_BR' : language === 'pl' ? 'pl_PL' : language === 'de' ? 'de_DE' : 'es_ES',
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: meta.title,
       description: meta.description,
+      images: ["/og-image.png"],
     },
   };
 }

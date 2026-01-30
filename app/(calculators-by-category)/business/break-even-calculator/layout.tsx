@@ -51,11 +51,12 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('break-even-calculator', 'en'),
         'en': getCanonicalUrl('break-even-calculator', 'en'),
+        'es': getCanonicalUrl('break-even-calculator', 'es'),
         'pt-BR': getCanonicalUrl('break-even-calculator', 'br'),
         'pl': getCanonicalUrl('break-even-calculator', 'pl'),
         'de': getCanonicalUrl('break-even-calculator', 'de'),
-        'es': getCanonicalUrl('break-even-calculator', 'es'),
       }
     },
     openGraph: {
@@ -63,23 +64,21 @@ export async function generateMetadata(): Promise<Metadata> {
       description: meta.description,
       type: "website",
       url: canonicalUrl,
-      siteName: "TheSmartCalculator",
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: meta.title,
       description: meta.description,
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
+      images: ["/og-image.png"],
     },
   };
 }

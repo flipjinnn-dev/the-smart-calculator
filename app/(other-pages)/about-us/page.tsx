@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { getStaticPageCanonicalUrl } from "@/lib/url-utils";
 import Script from "next/script"
 import Link from "next/link"
 import { Calculator, Users, Target, Award, Heart, TrendingUp } from "lucide-react"
@@ -7,12 +8,40 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export const metadata: Metadata = {
   title: "About Smart Calculator - Free Online Calculator Platform",
-  description:
-    "Learn about Smart Calculator, the leading platform for free online calculators. Our mission is to provide accurate, fast, and easy-to-use calculation tools for everyone.",
+  description: "Learn about Smart Calculator, the leading platform for free online calculators. Our mission is to provide accurate, fast, and easy-to-use calculation tools for everyone.",
   keywords: "about smart calculator, online calculator platform, free calculators, calculation tools",
-    alternates: {
-      canonical: "https://www.thesmartcalculator.com/about-us",
-    },
+  alternates: {
+    canonical: getStaticPageCanonicalUrl('about-us', 'en'),
+    languages: {
+      'x-default': getStaticPageCanonicalUrl('about-us', 'en'),
+      'en': getStaticPageCanonicalUrl('about-us', 'en'),
+      'pt-BR': getStaticPageCanonicalUrl('about-us', 'br'),
+      'pl': getStaticPageCanonicalUrl('about-us', 'pl'),
+      'de': getStaticPageCanonicalUrl('about-us', 'de'),
+      'es': getStaticPageCanonicalUrl('about-us', 'es'),
+    }
+  },
+  openGraph: {
+    title: "About Smart Calculator - Free Online Calculator Platform",
+    description: "Learn about Smart Calculator, the leading platform for free online calculators. Our mission is to provide accurate, fast, and easy-to-use calculation tools for everyone.",
+    type: "website",
+    url: getStaticPageCanonicalUrl('about-us', 'en'),
+    siteName: "Smart Calculator",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "About Smart Calculator - Free Online Calculator Platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Smart Calculator - Free Online Calculator Platform",
+    description: "Learn about Smart Calculator, the leading platform for free online calculators. Our mission is to provide accurate, fast, and easy-to-use calculation tools for everyone.",
+    images: ["/og-image.png"],
+  },
 }
 
 const jsonLd = {

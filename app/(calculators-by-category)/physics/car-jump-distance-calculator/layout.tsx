@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('car-jump-distance-calculator', 'en'),
         'en': getCanonicalUrl('car-jump-distance-calculator', 'en'),
         'es': getCanonicalUrl('car-jump-distance-calculator', 'es'),
         'pt-BR': getCanonicalUrl('car-jump-distance-calculator', 'br'),
@@ -65,6 +66,21 @@ export async function generateMetadata(): Promise<Metadata> {
       description: meta.description,
       type: "website",
       url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
     },
   };
 }

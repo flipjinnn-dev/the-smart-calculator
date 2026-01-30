@@ -50,11 +50,12 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('youtube-money-calculator', 'en'),
         'en': getCanonicalUrl('youtube-money-calculator', 'en'),
+        'es': getCanonicalUrl('youtube-money-calculator', 'es'),
         'pt-BR': getCanonicalUrl('youtube-money-calculator', 'br'),
         'pl': getCanonicalUrl('youtube-money-calculator', 'pl'),
         'de': getCanonicalUrl('youtube-money-calculator', 'de'),
-        'es': getCanonicalUrl('youtube-money-calculator', 'es'),
       }
     },
     openGraph: {
@@ -62,30 +63,21 @@ export async function generateMetadata(): Promise<Metadata> {
       description: meta.description,
       type: "website",
       url: canonicalUrl,
-      siteName: "TheSmartCalculator",
-      locale: language === 'en' ? 'en_US' : language === 'br' ? 'pt_BR' : language === 'pl' ? 'pl_PL' : language === 'de' ? 'de_DE' : 'es_ES',
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: meta.title,
       description: meta.description,
-      site: "@TheSmartCalc",
-    },
-    robots: {
-      index: true,
-      follow: true,
-      nocache: false,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
-    },
-    other: {
-      'geo.region': language === 'en' ? 'US' : language === 'br' ? 'BR' : language === 'pl' ? 'PL' : language === 'de' ? 'DE' : 'ES',
-      'geo.placename': language === 'en' ? 'United States' : language === 'br' ? 'Brazil' : language === 'pl' ? 'Poland' : language === 'de' ? 'Germany' : 'Spain',
+      images: ["/og-image.png"],
     },
   };
 }

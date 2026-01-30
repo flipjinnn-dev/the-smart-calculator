@@ -51,11 +51,12 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('app-cost-calculator', 'en'),
         'en': getCanonicalUrl('app-cost-calculator', 'en'),
+        'es': getCanonicalUrl('app-cost-calculator', 'es'),
         'pt-BR': getCanonicalUrl('app-cost-calculator', 'br'),
         'pl': getCanonicalUrl('app-cost-calculator', 'pl'),
         'de': getCanonicalUrl('app-cost-calculator', 'de'),
-        'es': getCanonicalUrl('app-cost-calculator', 'es'),
       }
     },
     openGraph: {
@@ -63,30 +64,21 @@ export async function generateMetadata(): Promise<Metadata> {
       description: meta.description,
       type: "website",
       url: canonicalUrl,
-      siteName: "TheSmartCalculator",
-      locale: language === 'en' ? 'en_US' : language === 'br' ? 'pt_BR' : language === 'pl' ? 'pl_PL' : language === 'de' ? 'de_DE' : 'es_ES',
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: meta.title,
       description: meta.description,
-      site: "@TheSmartCalc",
-    },
-    robots: {
-      index: true,
-      follow: true,
-      nocache: false,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
-    },
-    other: {
-      'geo.region': language === 'en' ? 'US' : language === 'br' ? 'BR' : language === 'pl' ? 'PL' : language === 'de' ? 'DE' : 'ES',
-      'geo.placename': language === 'en' ? 'United States' : language === 'br' ? 'Brazil' : language === 'pl' ? 'Poland' : language === 'de' ? 'Germany' : 'Spain',
+      images: ["/og-image.png"],
     },
   };
 }

@@ -53,6 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl('size-to-weight-rectangular-cuboid-calculator', 'en'),
         'en': getCanonicalUrl('size-to-weight-rectangular-cuboid-calculator', 'en'),
         'es': getCanonicalUrl('size-to-weight-rectangular-cuboid-calculator', 'es'),
         'pt-BR': getCanonicalUrl('size-to-weight-rectangular-cuboid-calculator', 'br'),
@@ -65,6 +66,21 @@ export async function generateMetadata(): Promise<Metadata> {
       description: meta.description,
       type: "website",
       url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
     },
   };
 }

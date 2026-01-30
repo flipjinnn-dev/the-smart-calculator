@@ -51,6 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCategoryCanonicalUrl('health', 'en'),
         'en': getCategoryCanonicalUrl('health', 'en'),
         'pt-BR': getCategoryCanonicalUrl('health', 'br'),
         'pl': getCategoryCanonicalUrl('health', 'pl'),
@@ -63,6 +64,21 @@ export async function generateMetadata(): Promise<Metadata> {
       description: meta.description,
       type: "website",
       url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
     },
   };
 }
