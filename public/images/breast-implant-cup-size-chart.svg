@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .title { font: bold 28px Arial; fill: #2c3e50; }
+      .header { font: bold 18px Arial; fill: #fff; }
+      .label { font: 16px Arial; fill: #2c3e50; }
+      .small-text { font: 11px Arial; fill: #666; font-style: italic; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" class="title">Breast Implant Cup Size Chart</text>
+  
+  <!-- Color blocks -->
+  <rect x="0" y="80" width="200" height="220" fill="#e74c3c"/>
+  <rect x="200" y="80" width="400" height="220" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  <rect x="600" y="80" width="200" height="220" fill="#3498db"/>
+  
+  <rect x="0" y="300" width="200" height="220" fill="#27ae60"/>
+  <rect x="600" y="300" width="200" height="220" fill="#f39c12"/>
+  
+  <!-- Headers -->
+  <rect x="220" y="100" width="180" height="40" fill="#3498db"/>
+  <text x="310" y="125" text-anchor="middle" class="header">Desired result</text>
+  
+  <rect x="420" y="100" width="160" height="40" fill="#3498db"/>
+  <text x="500" y="118" text-anchor="middle" class="header">Volume of</text>
+  <text x="500" y="133" text-anchor="middle" class="header">breast implants</text>
+  
+  <!-- Data rows -->
+  <g class="label">
+    <text x="310" y="170" text-anchor="middle">From A cup to B cup</text>
+    <text x="500" y="170" text-anchor="middle">300 to 350 cc</text>
+    
+    <text x="310" y="205" text-anchor="middle">From A cup to C cup</text>
+    <text x="500" y="205" text-anchor="middle">250 to 350 cc</text>
+    
+    <text x="310" y="240" text-anchor="middle">From A cup to D cup</text>
+    <text x="500" y="240" text-anchor="middle">350 to 350 cc</text>
+    
+    <text x="310" y="275" text-anchor="middle">From B cup to D cup</text>
+    <text x="500" y="275" text-anchor="middle">350 to 400 cc</text>
+    
+    <text x="310" y="340" text-anchor="middle">From B cup to DD cup</text>
+    <text x="500" y="340" text-anchor="middle">300 to 450 cc</text>
+    
+    <text x="310" y="375" text-anchor="middle">C om C cup to DD cup</text>
+    <text x="500" y="375" text-anchor="middle">370 to 450 cc</text>
+    
+    <text x="310" y="410" text-anchor="middle">From C cup to E E</text>
+    <text x="500" y="410" text-anchor="middle">450 to 550 cc</text>
+    
+    <text x="310" y="445" text-anchor="middle">From D cup to DD cup</text>
+    <text x="500" y="445" text-anchor="middle">300 to 600 cc</text>
+  </g>
+  
+  <!-- Dividing lines -->
+  <line x1="220" y1="180" x2="580" y2="180" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="220" y1="215" x2="580" y2="215" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="220" y1="250" x2="580" y2="250" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="220" y1="285" x2="580" y2="285" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="220" y1="325" x2="580" y2="325" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="220" y1="360" x2="580" y2="360" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="220" y1="395" x2="580" y2="395" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="220" y1="430" x2="580" y2="430" stroke="#dee2e6" stroke-width="1"/>
+  
+  <line x1="400" y1="140" x2="400" y2="460" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Footer note -->
+  <text x="400" y="540" text-anchor="middle" class="small-text">*This table only indicates and often uses anthropometric to verify. The result strongly</text>
+  <text x="400" y="555" text-anchor="middle" class="small-text">depends on other factors. The surgeon will discuss the fitting consultation.</text>
+</svg>

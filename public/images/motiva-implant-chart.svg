@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <style>
+      .title { font: bold 32px Arial; fill: #2c3e50; }
+      .brand { font: bold 48px Arial; fill: #2c3e50; letter-spacing: 8px; }
+      .subtitle { font: 16px Arial; fill: #555; }
+      .label { font: bold 16px Arial; fill: #2c3e50; }
+      .small-label { font: 12px Arial; fill: #666; }
+    </style>
+    <radialGradient id="implant-light" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#fff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#e8d5c4;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="body-grad" cx="50%" cy="20%">
+      <stop offset="0%" style="stop-color:#f5d5c3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Brand Title -->
+  <text x="600" y="60" text-anchor="middle" class="brand">MOTIVA</text>
+  <text x="600" y="90" text-anchor="middle" class="subtitle">MOTIVA BREAST IMPLANT SIZE CHART</text>
+  
+  <!-- Left Section: Implant Volumes -->
+  <text x="50" y="140" text-anchor="start" class="label">IMPLANT IMPLANT</text>
+  
+  <!-- 200cc Row -->
+  <g transform="translate(150, 180)">
+    <text x="-80" y="5" text-anchor="start" class="label">200cc</text>
+    <ellipse cx="0" cy="0" rx="40" ry="25" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    
+    <ellipse cx="150" cy="0" rx="35" ry="20" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="150" y="35" text-anchor="middle" class="small-label">300cc</text>
+    <text x="150" y="48" text-anchor="middle" class="small-label">cc</text>
+    
+    <ellipse cx="300" cy="0" rx="42" ry="28" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="300" y="35" text-anchor="middle" class="small-label">400cc</text>
+    
+    <ellipse cx="450" cy="0" rx="38" ry="22" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="450" y="35" text-anchor="middle" class="small-label">Base</text>
+    <text x="450" y="48" text-anchor="middle" class="small-label">Width</text>
+    
+    <ellipse cx="580" cy="0" rx="30" ry="18" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+  </g>
+  
+  <!-- 400cc Row -->
+  <g transform="translate(150, 280)">
+    <text x="-80" y="5" text-anchor="start" class="label">400cc</text>
+    <ellipse cx="0" cy="0" rx="48" ry="30" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    
+    <ellipse cx="150" cy="0" rx="40" ry="24" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="150" y="35" text-anchor="middle" class="small-label">200cc</text>
+    <text x="150" y="48" text-anchor="middle" class="small-label">cc</text>
+    
+    <ellipse cx="300" cy="0" rx="50" ry="32" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="300" y="35" text-anchor="middle" class="small-label">400cc</text>
+    
+    <ellipse cx="450" cy="0" rx="42" ry="26" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="450" y="35" text-anchor="middle" class="small-label">Base Width</text>
+    <text x="450" y="48" text-anchor="middle" class="small-label">Projection</text>
+    
+    <ellipse cx="580" cy="0" rx="35" ry="22" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+  </g>
+  
+  <!-- 500cc Row -->
+  <g transform="translate(150, 380)">
+    <text x="-80" y="5" text-anchor="start" class="label">500cc</text>
+    <ellipse cx="0" cy="0" rx="52" ry="34" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    
+    <ellipse cx="150" cy="0" rx="44" ry="28" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="150" y="35" text-anchor="middle" class="small-label">300cc</text>
+    <text x="150" y="48" text-anchor="middle" class="small-label">cc</text>
+    
+    <ellipse cx="300" cy="0" rx="54" ry="36" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="300" y="35" text-anchor="middle" class="small-label">500cc</text>
+    
+    <ellipse cx="450" cy="0" rx="46" ry="30" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="450" y="35" text-anchor="middle" class="small-label">Base Width</text>
+    <text x="450" y="48" text-anchor="middle" class="small-label">Projection</text>
+    
+    <ellipse cx="580" cy="0" rx="38" ry="24" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+  </g>
+  
+  <!-- 100cc Row -->
+  <g transform="translate(150, 480)">
+    <text x="-80" y="5" text-anchor="start" class="label">100cc</text>
+    <ellipse cx="0" cy="0" rx="56" ry="38" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    
+    <ellipse cx="150" cy="0" rx="48" ry="32" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="150" y="35" text-anchor="middle" class="small-label">400cc</text>
+    <text x="150" y="48" text-anchor="middle" class="small-label">cc</text>
+    
+    <ellipse cx="300" cy="0" rx="58" ry="40" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="300" y="35" text-anchor="middle" class="small-label">100cc</text>
+    
+    <ellipse cx="450" cy="0" rx="50" ry="34" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+    <text x="450" y="35" text-anchor="middle" class="small-label">Base Width</text>
+    <text x="450" y="48" text-anchor="middle" class="small-label">Projection</text>
+    
+    <ellipse cx="580" cy="0" rx="42" ry="28" fill="url(#implant-light)" stroke="#d4a574" stroke-width="2"/>
+  </g>
+  
+  <!-- Right Section: Before/After Figures -->
+  <g transform="translate(900, 300)">
+    <!-- Before (smaller) -->
+    <ellipse cx="0" cy="-30" rx="30" ry="40" fill="url(#body-grad)" stroke="#d4a574" stroke-width="2"/>
+    <ellipse cx="-12" cy="-5" rx="14" ry="18" fill="none" stroke="#d4a574" stroke-width="2"/>
+    <ellipse cx="12" cy="-5" rx="14" ry="18" fill="none" stroke="#d4a574" stroke-width="2"/>
+    <circle cx="-6" cy="-2" r="2" fill="#8b6f47"/>
+    <circle cx="6" cy="-2" r="2" fill="#8b6f47"/>
+    
+    <!-- After (larger) -->
+    <ellipse cx="120" cy="-30" rx="30" ry="40" fill="url(#body-grad)" stroke="#d4a574" stroke-width="2"/>
+    <ellipse cx="108" cy="-5" rx="18" ry="24" fill="none" stroke="#d4a574" stroke-width="2"/>
+    <ellipse cx="132" cy="-5" rx="18" ry="24" fill="none" stroke="#d4a574" stroke-width="2"/>
+    <circle cx="114" cy="-2" r="2" fill="#8b6f47"/>
+    <circle cx="126" cy="-2" r="2" fill="#8b6f47"/>
+  </g>
+  
+  <g transform="translate(900, 500)">
+    <!-- Before (smaller) -->
+    <ellipse cx="0" cy="-30" rx="30" ry="40" fill="url(#body-grad)" stroke="#d4a574" stroke-width="2"/>
+    <ellipse cx="-14" cy="-5" rx="16" ry="20" fill="none" stroke="#d4a574" stroke-width="2"/>
+    <ellipse cx="14" cy="-5" rx="16" ry="20" fill="none" stroke="#d4a574" stroke-width="2"/>
+    <circle cx="-7" cy="-2" r="2" fill="#8b6f47"/>
+    <circle cx="7" cy="-2" r="2" fill="#8b6f47"/>
+    
+    <!-- After (larger) -->
+    <ellipse cx="120" cy="-30" rx="30" ry="40" fill="url(#body-grad)" stroke="#d4a574" stroke-width="2"/>
+    <ellipse cx="106" cy="-5" rx="20" ry="26" fill="none" stroke="#d4a574" stroke-width="2"/>
+    <ellipse cx="134" cy="-5" rx="20" ry="26" fill="none" stroke="#d4a574" stroke-width="2"/>
+    <circle cx="113" cy="-2" r="2" fill="#8b6f47"/>
+    <circle cx="127" cy="-2" r="2" fill="#8b6f47"/>
+  </g>
+  
+  <!-- Profile Labels -->
+  <text x="600" y="580" text-anchor="middle" class="small-label">Mini: Lowest projection (subtle) | Demi: Moderate (natural)</text>
+  <text x="600" y="600" text-anchor="middle" class="small-label">Full: Higher projection (more fullness) | Corsé: Maximum projection</text>
+  
+  <!-- Footer -->
+  <text x="600" y="650" text-anchor="middle" class="small-label">Motiva implants range from 100cc to 700+ cc. Final appearance depends on volume (cc),</text>
+  <text x="600" y="670" text-anchor="middle" class="small-label">profile type, and base width matching your natural breast/chest dimensions.</text>
+</svg>

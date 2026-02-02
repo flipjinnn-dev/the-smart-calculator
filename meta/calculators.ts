@@ -3585,11 +3585,11 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calculadora costo app, costo desarrollo app, costo app móvil, costo app web, estimador desarrollo app, calculadora precio app, costo desarrollo software, calculadora presupuesto app, costo MVP"
     }
   },
-  'breast-implant-size-calculator': {
+  'implant-size-calculator': {
     en: {
       title: "Breast Implant Size Calculator – Find Your Perfect Fit",
       description: "Use our Breast Implant Size Calculator to find the ideal implant volume and cup size for a natural, proportional look. Calculate cc to cup size conversions instantly.",
-      slug: "/breast-implant-size-calculator",
+      slug: "/implant-size-calculator",
       keywords: "breast implant calculator, breast implant size calculator, breast implant cc calculator, implant size chart, breast augmentation calculator, breast implant cup size calculator, cc to cup size, implant volume calculator"
     }
   },

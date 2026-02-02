@@ -867,10 +867,10 @@ export const calculators: Calculator[] = [
     category: "other",
   },
   {
-    id: "breast-implant-size-calculator",
+    id: "implant-size-calculator",
     name: "Breast Implant Size Calculator",
     description: "Calculate ideal breast implant size based on body measurements and desired cup size for natural, proportional results.",
-    href: "/breast-implant-size-calculator",
+    href: "/implant-size-calculator",
     category: "other",
     popular: true,
   },

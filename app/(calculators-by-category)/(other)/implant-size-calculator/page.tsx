@@ -1,10 +1,10 @@
 import { headers } from "next/headers";
 import { Metadata } from "next";
-import BreastImplantSizeCalculatorClient from "./breast-implant-size-calculator-client";
+import BreastImplantSizeCalculatorClient from "./breast-client";
 
 export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = "https://www.thesmartcalculator.com";
-  const canonicalUrl = `${baseUrl}/breast-implant-size-calculator`;
+  const canonicalUrl = `${baseUrl}/implant-size-calculator`;
 
   return {
     title: "Breast Implant Size Calculator – Find Your Perfect Fit",

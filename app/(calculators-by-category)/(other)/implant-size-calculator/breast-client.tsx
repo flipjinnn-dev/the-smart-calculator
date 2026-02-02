@@ -181,19 +181,19 @@ export default function BreastImplantSizeCalculatorClient({ content, guideConten
 
     // Generate guidance based on inputs
     let guidance = []
-    
+
     if (cupIncrease >= 3) {
       guidance.push(content?.guidance?.largeIncrease || "You're looking for a significant size increase. Consider gradual augmentation or consult about tissue expansion.")
     }
-    
+
     if (skinElasticity === "tight" && cupIncrease >= 2) {
       guidance.push(content?.guidance?.tightSkin || "With tight skin elasticity, achieving larger sizes may require staged procedures for optimal results.")
     }
-    
+
     if (lifestyle === "active" && calculatedVolume > 400) {
       guidance.push(content?.guidance?.activeLifestyle || "For an active lifestyle, consider how larger implants may affect physical activities and sports.")
     }
-    
+
     if (chestWidthCm < 30 && calculatedVolume > 350) {
       guidance.push(content?.guidance?.petiteFrame || "Your petite frame may be better suited for moderate-sized implants for natural proportions.")
     }
@@ -536,22 +536,22 @@ export default function BreastImplantSizeCalculatorClient({ content, guideConten
             )}
           </div>
         </div>
-
+        {/* Rating Section */}
+        <div className="mt-12">
+          <RatingProfileSection
+            entityId="breast-implant-size-calculator"
+            entityType="calculator"
+            creatorSlug="aiden-asher"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+        </div>
         {/* Educational Guide */}
         {guideContent && (
           <div className="mt-12">
             <CalculatorGuide data={guideContent} />
           </div>
         )}
-
-        {/* Rating Section */}
-        <div className="mt-12">
-          <RatingProfileSection 
-            entityId="breast-implant-size-calculator"
-            entityType="calculator"
-            creatorSlug="zahan-munshi"
-          />
-        </div>
       </div>
     </div>
   )

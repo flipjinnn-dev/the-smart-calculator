@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <style>
+      .title { font: bold 32px Arial; fill: #2c3e50; }
+      .header { font: bold 16px Arial; fill: #34495e; }
+      .label { font: 14px Arial; fill: #555; }
+      .small-label { font: 12px Arial; fill: #666; }
+      .cell-bg { fill: #f8f9fa; stroke: #dee2e6; stroke-width: 1; }
+      .header-bg { fill: #e9ecef; stroke: #dee2e6; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" class="title">BREAST SIZE COMPARISON</text>
+  
+  <!-- Column Headers -->
+  <rect x="50" y="70" width="140" height="50" class="header-bg"/>
+  <text x="120" y="100" text-anchor="middle" class="header">IMPLANT VOLUME</text>
+  
+  <rect x="190" y="70" width="120" height="50" class="header-bg"/>
+  <text x="250" y="95" text-anchor="middle" class="header">200cc</text>
+  <text x="250" y="110" text-anchor="middle" class="small-label">A</text>
+  
+  <rect x="310" y="70" width="120" height="50" class="header-bg"/>
+  <text x="370" y="95" text-anchor="middle" class="header">300cc</text>
+  <text x="370" y="110" text-anchor="middle" class="small-label">B</text>
+  
+  <rect x="430" y="70" width="120" height="50" class="header-bg"/>
+  <text x="490" y="95" text-anchor="middle" class="header">400cc</text>
+  <text x="490" y="110" text-anchor="middle" class="small-label">C</text>
+  
+  <rect x="550" y="70" width="120" height="50" class="header-bg"/>
+  <text x="610" y="95" text-anchor="middle" class="header">500cc</text>
+  <text x="610" y="110" text-anchor="middle" class="small-label">D</text>
+  
+  <rect x="670" y="70" width="120" height="50" class="header-bg"/>
+  <text x="730" y="95" text-anchor="middle" class="header">500cc</text>
+  <text x="730" y="110" text-anchor="middle" class="small-label">E</text>
+  
+  <rect x="790" y="70" width="120" height="50" class="header-bg"/>
+  <text x="850" y="95" text-anchor="middle" class="header">DD</text>
+  <text x="850" y="110" text-anchor="middle" class="small-label">F</text>
+  
+  <rect x="910" y="70" width="120" height="50" class="header-bg"/>
+  <text x="970" y="95" text-anchor="middle" class="header">HIGH</text>
+  <text x="970" y="110" text-anchor="middle" class="small-label">G</text>
+  
+  <rect x="1030" y="70" width="140" height="50" class="header-bg"/>
+  <text x="1100" y="85" text-anchor="middle" class="small-label">IMPLANT PROFILE</text>
+  <text x="1100" y="100" text-anchor="middle" class="small-label">• APPROXIMATE</text>
+  <text x="1100" y="112" text-anchor="middle" class="small-label">PROJECTION</text>
+  
+  <!-- Row B -->
+  <rect x="50" y="120" width="140" height="140" class="cell-bg"/>
+  <text x="120" y="195" text-anchor="middle" class="header">B</text>
+  
+  <!-- B Cup - 200cc -->
+  <rect x="190" y="120" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="250" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="230" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="240" cy="175" r="3" fill="#8b6f47"/>
+  <circle cx="260" cy="175" r="3" fill="#8b6f47"/>
+  
+  <!-- B Cup - 300cc -->
+  <rect x="310" y="120" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="370" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="350" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="360" cy="175" r="3" fill="#8b6f47"/>
+  <circle cx="380" cy="175" r="3" fill="#8b6f47"/>
+  
+  <!-- B Cup - 400cc -->
+  <rect x="430" y="120" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="490" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="470" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="480" cy="175" r="3" fill="#8b6f47"/>
+  <circle cx="500" cy="175" r="3" fill="#8b6f47"/>
+  
+  <!-- B Cup - 500cc -->
+  <rect x="550" y="120" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="610" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="590" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="600" cy="175" r="3" fill="#8b6f47"/>
+  <circle cx="620" cy="175" r="3" fill="#8b6f47"/>
+  
+  <!-- B Cup - 500cc E -->
+  <rect x="670" y="120" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="730" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="710" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="720" cy="175" r="3" fill="#8b6f47"/>
+  <circle cx="740" cy="175" r="3" fill="#8b6f47"/>
+  
+  <!-- B Cup - DD -->
+  <rect x="790" y="120" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="850" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="830" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="840" cy="175" r="3" fill="#8b6f47"/>
+  <circle cx="860" cy="175" r="3" fill="#8b6f47"/>
+  
+  <!-- B Cup - HIGH -->
+  <rect x="910" y="120" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="970" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="950" cy="170" rx="25" ry="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="960" cy="175" r="3" fill="#8b6f47"/>
+  <circle cx="980" cy="175" r="3" fill="#8b6f47"/>
+  
+  <rect x="1030" y="120" width="140" height="140" class="cell-bg"/>
+  <text x="1100" y="185" text-anchor="middle" class="small-label">• MODERATE</text>
+  <text x="1100" y="200" text-anchor="middle" class="small-label">HEIGHT</text>
+  
+  <!-- Row C -->
+  <rect x="50" y="260" width="140" height="140" class="cell-bg"/>
+  <text x="120" y="335" text-anchor="middle" class="header">C</text>
+  
+  <!-- C Cup - 200cc -->
+  <rect x="190" y="260" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="250" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="228" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="239" cy="318" r="3" fill="#8b6f47"/>
+  <circle cx="261" cy="318" r="3" fill="#8b6f47"/>
+  
+  <!-- C Cup - 300cc -->
+  <rect x="310" y="260" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="370" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="348" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="359" cy="318" r="3" fill="#8b6f47"/>
+  <circle cx="381" cy="318" r="3" fill="#8b6f47"/>
+  
+  <!-- C Cup - 400cc -->
+  <rect x="430" y="260" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="490" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="468" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="479" cy="318" r="3" fill="#8b6f47"/>
+  <circle cx="501" cy="318" r="3" fill="#8b6f47"/>
+  
+  <!-- C Cup - 500cc -->
+  <rect x="550" y="260" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="610" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="588" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="599" cy="318" r="3" fill="#8b6f47"/>
+  <circle cx="621" cy="318" r="3" fill="#8b6f47"/>
+  
+  <!-- C Cup - 500cc E -->
+  <rect x="670" y="260" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="730" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="708" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="719" cy="318" r="3" fill="#8b6f47"/>
+  <circle cx="741" cy="318" r="3" fill="#8b6f47"/>
+  
+  <!-- C Cup - DD -->
+  <rect x="790" y="260" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="850" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="828" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="839" cy="318" r="3" fill="#8b6f47"/>
+  <circle cx="861" cy="318" r="3" fill="#8b6f47"/>
+  
+  <!-- C Cup - HIGH -->
+  <rect x="910" y="260" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="970" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="948" cy="310" rx="28" ry="35" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="959" cy="318" r="3" fill="#8b6f47"/>
+  <circle cx="981" cy="318" r="3" fill="#8b6f47"/>
+  
+  <rect x="1030" y="260" width="140" height="140" class="cell-bg"/>
+  <text x="1100" y="320" text-anchor="middle" class="small-label">• ULTRA HIGH</text>
+  <text x="1100" y="335" text-anchor="middle" class="small-label">PROJECTION</text>
+  
+  <!-- Row D -->
+  <rect x="50" y="400" width="140" height="140" class="cell-bg"/>
+  <text x="120" y="475" text-anchor="middle" class="header">D</text>
+  
+  <!-- D Cup - 200cc -->
+  <rect x="190" y="400" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="250" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="226" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="238" cy="460" r="3" fill="#8b6f47"/>
+  <circle cx="262" cy="460" r="3" fill="#8b6f47"/>
+  
+  <!-- D Cup - 300cc -->
+  <rect x="310" y="400" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="370" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="346" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="358" cy="460" r="3" fill="#8b6f47"/>
+  <circle cx="382" cy="460" r="3" fill="#8b6f47"/>
+  
+  <!-- D Cup - 400cc -->
+  <rect x="430" y="400" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="490" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="466" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="478" cy="460" r="3" fill="#8b6f47"/>
+  <circle cx="502" cy="460" r="3" fill="#8b6f47"/>
+  
+  <!-- D Cup - 500cc -->
+  <rect x="550" y="400" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="610" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="586" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="598" cy="460" r="3" fill="#8b6f47"/>
+  <circle cx="622" cy="460" r="3" fill="#8b6f47"/>
+  
+  <!-- D Cup - 500cc E -->
+  <rect x="670" y="400" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="730" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="706" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="718" cy="460" r="3" fill="#8b6f47"/>
+  <circle cx="742" cy="460" r="3" fill="#8b6f47"/>
+  
+  <!-- D Cup - DD -->
+  <rect x="790" y="400" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="850" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="826" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="838" cy="460" r="3" fill="#8b6f47"/>
+  <circle cx="862" cy="460" r="3" fill="#8b6f47"/>
+  
+  <!-- D Cup - HIGH -->
+  <rect x="910" y="400" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="970" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="946" cy="452" rx="30" ry="38" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="958" cy="460" r="3" fill="#8b6f47"/>
+  <circle cx="982" cy="460" r="3" fill="#8b6f47"/>
+  
+  <rect x="1030" y="400" width="140" height="140" class="cell-bg"/>
+  <text x="1100" y="460" text-anchor="middle" class="small-label">• HIGH</text>
+  <text x="1100" y="475" text-anchor="middle" class="small-label">PROJECTION</text>
+  
+  <!-- Row DD -->
+  <rect x="50" y="540" width="140" height="140" class="cell-bg"/>
+  <text x="120" y="615" text-anchor="middle" class="header">DD</text>
+  
+  <!-- DD Cup - 200cc -->
+  <rect x="190" y="540" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="250" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="224" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="237" cy="602" r="3" fill="#8b6f47"/>
+  <circle cx="263" cy="602" r="3" fill="#8b6f47"/>
+  
+  <!-- DD Cup - 300cc -->
+  <rect x="310" y="540" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="370" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="344" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="357" cy="602" r="3" fill="#8b6f47"/>
+  <circle cx="383" cy="602" r="3" fill="#8b6f47"/>
+  
+  <!-- DD Cup - 400cc -->
+  <rect x="430" y="540" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="490" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="464" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="477" cy="602" r="3" fill="#8b6f47"/>
+  <circle cx="503" cy="602" r="3" fill="#8b6f47"/>
+  
+  <!-- DD Cup - 500cc -->
+  <rect x="550" y="540" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="610" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="584" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="597" cy="602" r="3" fill="#8b6f47"/>
+  <circle cx="623" cy="602" r="3" fill="#8b6f47"/>
+  
+  <!-- DD Cup - 500cc E -->
+  <rect x="670" y="540" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="730" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="704" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="717" cy="602" r="3" fill="#8b6f47"/>
+  <circle cx="743" cy="602" r="3" fill="#8b6f47"/>
+  
+  <!-- DD Cup - DD -->
+  <rect x="790" y="540" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="850" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="824" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="837" cy="602" r="3" fill="#8b6f47"/>
+  <circle cx="863" cy="602" r="3" fill="#8b6f47"/>
+  
+  <!-- DD Cup - HIGH -->
+  <rect x="910" y="540" width="120" height="140" class="cell-bg"/>
+  <ellipse cx="970" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <ellipse cx="944" cy="595" rx="32" ry="42" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="957" cy="602" r="3" fill="#8b6f47"/>
+  <circle cx="983" cy="602" r="3" fill="#8b6f47"/>
+  
+  <rect x="1030" y="540" width="140" height="140" class="cell-bg"/>
+  
+  <!-- Footer Note -->
+  <text x="600" y="720" text-anchor="middle" class="small-label">Visual representation showing how implant volume and profile affect final breast appearance</text>
+  <text x="600" y="740" text-anchor="middle" class="small-label">Results vary based on body frame, chest width, and existing breast tissue</text>
+</svg>

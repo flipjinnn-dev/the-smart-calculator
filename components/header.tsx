@@ -48,7 +48,7 @@ const OTHER_CALCULATORS = [
 ]
 
 const ENGLISH_ONLY_PATHS = [
-  '/breast-implant-size-calculator',
+  '/implant-size-calculator',
   '/maths/reverse-percentage-calculator'
 ]
 
@@ -339,6 +339,27 @@ function Header() {
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {currentPages.contactUs.text}
+                    </Link>
+                    <Link 
+                      href={currentPages.privacyPolicy.url} 
+                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors" 
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {currentPages.privacyPolicy.text}
+                    </Link>
+                    <Link 
+                      href={currentPages.termsConditions.url} 
+                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors" 
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {currentPages.termsConditions.text}
+                    </Link>
+                    <Link 
+                      href={currentPages.editorialGuidelines.url} 
+                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors" 
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {currentPages.editorialGuidelines.text}
                     </Link>
                   </div>
                 </div>

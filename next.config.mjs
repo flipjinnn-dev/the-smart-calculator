@@ -105,7 +105,6 @@ const nextConfig = {
     buildActivityPosition: 'bottom-right',
   },
   productionBrowserSourceMaps: false,
-  swcMinify: true,
 }
 
 export default nextConfig
