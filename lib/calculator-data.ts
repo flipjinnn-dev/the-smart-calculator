@@ -554,6 +554,14 @@ export const calculators: Calculator[] = [
     category: "maths",
     popular: true,
   },
+  {
+    id: "reverse-percentage-calculator",
+    name: "Reverse Percentage Calculator",
+    description: "Calculate original prices, discounts, or tax amounts by working backwards from final values and percentages",
+    href: "/maths/reverse-percentage-calculator",
+    category: "maths",
+    popular: true,
+  },
     {
     id: "square-root-curve-calculator",
     name: "Square Root Curve Calculator",
@@ -857,6 +865,14 @@ export const calculators: Calculator[] = [
     description: "Calculate subnets and IP ranges.",
     href: "/ip-subnet-calculator",
     category: "other",
+  },
+  {
+    id: "breast-implant-size-calculator",
+    name: "Breast Implant Size Calculator",
+    description: "Calculate ideal breast implant size based on body measurements and desired cup size for natural, proportional results.",
+    href: "/breast-implant-size-calculator",
+    category: "other",
+    popular: true,
   },
 
   // Software, Web & IT Calculators

@@ -1,0 +1,94 @@
+{
+  "pageTitle": "Breast Implant Size Calculator",
+  "pageDescription": "Calculate your ideal breast implant size based on body measurements, current cup size, and aesthetic goals for natural, proportional results",
+  "form": {
+    "title": "Calculate Your Implant Size",
+    "labels": {
+      "height": "Height",
+      "weight": "Weight",
+      "chestWidth": "Chest Width / Rib Cage Width",
+      "currentCupSize": "Current Cup Size",
+      "desiredCupSize": "Desired Cup Size",
+      "skinElasticity": "Skin Elasticity",
+      "lifestyle": "Lifestyle & Activity Level",
+      "implantProfile": "Implant Profile",
+      "implantShape": "Implant Shape",
+      "unitSystem": "Unit System"
+    },
+    "placeholders": {
+      "height": "Enter your height",
+      "weight": "Enter your weight",
+      "chestWidth": "Enter chest/rib cage width"
+    },
+    "buttons": {
+      "calculate": "Calculate Implant Size",
+      "reset": "Reset"
+    },
+    "unitSystems": {
+      "imperial": "Imperial (in, lbs)",
+      "metric": "Metric (cm, kg)"
+    },
+    "skinElasticity": {
+      "tight": "Tight",
+      "average": "Average",
+      "loose": "Loose"
+    },
+    "lifestyle": {
+      "active": "Active/Athletic",
+      "moderate": "Moderate",
+      "sedentary": "Sedentary"
+    },
+    "implantProfile": {
+      "low": "Low Profile",
+      "moderate": "Moderate Profile",
+      "high": "High Profile",
+      "ultraHigh": "Ultra High Profile"
+    },
+    "implantShape": {
+      "round": "Round",
+      "teardrop": "Teardrop",
+      "anatomical": "Anatomical"
+    }
+  },
+  "results": {
+    "title": "Your Results",
+    "recommendedVolume": "Recommended Implant Volume",
+    "range": "Volume Range",
+    "cupSizeChange": "Cup Size Change",
+    "diameter": "Implant Diameter",
+    "projection": "Implant Projection",
+    "profile": "Profile",
+    "shape": "Shape",
+    "professionalGuidance": "Professional Guidance"
+  },
+  "messages": {
+    "enterInformation": "Enter your measurements to see personalized recommendations",
+    "disclaimer": "This calculator provides estimates only. Always consult with a board-certified plastic surgeon for personalized recommendations."
+  },
+  "errors": {
+    "height": "Please enter a valid height",
+    "weight": "Please enter a valid weight",
+    "chestWidth": "Please enter a valid chest width",
+    "currentCupSize": "Please select your current cup size",
+    "desiredCupSize": "Please select your desired cup size",
+    "desiredTooSmall": "Desired cup size must be larger than current cup size"
+  },
+  "guidance": {
+    "largeIncrease": "You're looking for a significant size increase. Consider gradual augmentation or consult about tissue expansion.",
+    "tightSkin": "With tight skin elasticity, achieving larger sizes may require staged procedures for optimal results.",
+    "activeLifestyle": "For an active lifestyle, consider how larger implants may affect physical activities and sports.",
+    "petiteFrame": "Your petite frame may be better suited for moderate-sized implants for natural proportions.",
+    "highProfile": "High-profile implants provide more forward projection with less width, ideal for narrower chest walls."
+  },
+  "tooltips": {
+    "height": "Your total body height affects overall proportions",
+    "weight": "Body weight helps determine frame size and tissue characteristics",
+    "chestWidth": "The width across your chest/rib cage determines implant base width",
+    "currentCupSize": "Your starting bra cup size (varies by brand)",
+    "desiredCupSize": "The cup size you wish to achieve after surgery",
+    "skinElasticity": "How stretchy your skin is affects implant accommodation",
+    "lifestyle": "Your activity level influences implant size recommendations",
+    "implantProfile": "How much the implant projects forward from the chest",
+    "implantShape": "The overall shape of the implant (round vs anatomical)"
+  }
+}

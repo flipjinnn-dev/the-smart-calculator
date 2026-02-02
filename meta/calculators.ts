@@ -3585,4 +3585,20 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calculadora costo app, costo desarrollo app, costo app móvil, costo app web, estimador desarrollo app, calculadora precio app, costo desarrollo software, calculadora presupuesto app, costo MVP"
     }
   },
+  'breast-implant-size-calculator': {
+    en: {
+      title: "Breast Implant Size Calculator – Find Your Perfect Fit",
+      description: "Use our Breast Implant Size Calculator to find the ideal implant volume and cup size for a natural, proportional look. Calculate cc to cup size conversions instantly.",
+      slug: "/breast-implant-size-calculator",
+      keywords: "breast implant calculator, breast implant size calculator, breast implant cc calculator, implant size chart, breast augmentation calculator, breast implant cup size calculator, cc to cup size, implant volume calculator"
+    }
+  },
+  'reverse-percentage-calculator': {
+    en: {
+      title: "Reverse Percentage Calculator – Find Original Prices Fast",
+      description: "Calculate original prices, discounts, or tax amounts instantly with our free reverse percentage calculator online or in Excel.",
+      slug: "/maths/reverse-percentage-calculator",
+      keywords: "reverse percentage calculator, reverse percentages calculator, reverse percentage calculator online, reverse percentage discount calculator, reverse percentage formula, how to calculate reverse percentages, reverse percentage increase calculator, reverse percentage decrease calculator"
+    }
+  },
 };

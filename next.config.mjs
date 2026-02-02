@@ -82,7 +82,18 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: true,
-    optimizePackageImports: ['lucide-react', 'react-icons', '@radix-ui/react-accordion', '@radix-ui/react-dialog', '@radix-ui/react-dropdown-menu'],
+    optimizePackageImports: [
+      'lucide-react', 
+      'react-icons', 
+      '@radix-ui/react-accordion', 
+      '@radix-ui/react-dialog', 
+      '@radix-ui/react-dropdown-menu',
+      '@radix-ui/react-avatar',
+      '@radix-ui/react-select',
+      '@radix-ui/react-label',
+      'sonner',
+      'react-latex-next'
+    ],
     serverActions: {
       bodySizeLimit: '50mb',
     },
@@ -94,6 +105,7 @@ const nextConfig = {
     buildActivityPosition: 'bottom-right',
   },
   productionBrowserSourceMaps: false,
+  swcMinify: true,
 }
 
 export default nextConfig

@@ -1,0 +1,184 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "What is a Reverse Percentage Calculator?",
+      "content": "A reverse percentage calculator is an essential tool in finance, retail, and accounting that allows users to determine the original value of a number before a percentage change was applied. Unlike a standard percentage calculator, which calculates the percentage of a number, reverse percentage calculations work backward to identify the base value. Free reverse percentage calculator online options allow quick calculations without installing software, and reverse percentage calculator Excel formulas make it easy to handle multiple data points in a spreadsheet."
+    },
+    {
+      "heading": "How the Calculator Works",
+      "content": "The Reverse Percentages Calculator works backwards from a final value and a percentage to find the original number before the percentage was applied. This is also called a reverse percentage or inverse percentage calculation.",
+      "subSections": [
+        {
+          "heading": "Type 1: Percentage of Original",
+          "content": "You know a percentage of a number and the result, and want the original number. Example: 32% of a number is 150 — what is the number?"
+        },
+        {
+          "heading": "Type 2: After Increase or Decrease",
+          "content": "You know a final value after a percentage increase or decrease and want the original value. Example: After a 12% decrease, the price is $15,000 — what was the original price?"
+        }
+      ]
+    },
+    {
+      "heading": "Reverse Percentage Calculator Formula",
+      "content": "The reverse percentage formula is simple: $$\\text{Original Value} = \\frac{\\text{Final Value}}{1 \\pm \\frac{\\text{Percentage Change}}{100}}$$ Use + for percentage increase and - for percentage decrease.",
+      "subSections": [
+        {
+          "heading": "Formula Reference Table",
+          "content": "<table><tr><th>Final Value</th><th>Percentage Change</th><th>Type</th><th>Original Value</th></tr><tr><td>$120</td><td>20%</td><td>Increase</td><td>$100</td></tr><tr><td>$80</td><td>20%</td><td>Decrease</td><td>$100</td></tr><tr><td>$150</td><td>50%</td><td>Increase</td><td>$100</td></tr><tr><td>$75</td><td>25%</td><td>Decrease</td><td>$100</td></tr></table>"
+        }
+      ]
+    },
+    {
+      "heading": "Three Main Calculation Cases",
+      "subSections": [
+        {
+          "heading": "Case A: Given Percentage of Original",
+          "content": "When you know that a final number is P% of the original number: $$O = \\frac{F}{(P/100)}$$ So you divide by the percentage expressed as a decimal. Example: 70% of a number = 210. Solution: $$O = 210 \\div (70/100) = 210 \\div 0.70 = 300$$ Original number = 300"
+        },
+        {
+          "heading": "Case B: Reverse After Percentage Increase",
+          "content": "If the final value includes a percentage increase (e.g., +P%): $$O = \\frac{F}{1 + (P/100)}$$ Explanation: final = original × (1 + P/100) → solve for original. Example: Final value 320 which is 15% more than original. $$O = \\frac{320}{1 + 0.15} = \\frac{320}{1.15} \\approx 278.26$$ Original ≈ 278.26"
+        },
+        {
+          "heading": "Case C: Reverse After Percentage Decrease",
+          "content": "If the final value is after a percentage decrease (e.g., −P%): $$O = \\frac{F}{1 - (P/100)}$$ Explanation: final = original × (1 − P/100) → solve for original. Example: After a 20% decrease the price is $40,000. $$O = \\frac{40,000}{1 - 0.20} = \\frac{40,000}{0.80} = 50,000$$ Original price = $50,000"
+        }
+      ]
+    },
+    {
+      "heading": "Step-by-Step Method",
+      "content": "Follow these steps to calculate reverse percentages:",
+      "subSections": [
+        {
+          "heading": "Step 1: Identify the Type",
+          "content": "Determine if the change was an increase (final value is more than original), decrease (final value is less than original), or percentage of original."
+        },
+        {
+          "heading": "Step 2: Convert to Decimal",
+          "content": "Convert the percentage to a decimal by dividing by 100. Example: 25% → 0.25"
+        },
+        {
+          "heading": "Step 3: Apply the Formula",
+          "content": "Use the appropriate formula: For increase → divide by (1 + decimal), For decrease → divide by (1 - decimal), For % of original → divide by (P/100)"
+        },
+        {
+          "heading": "Step 4: Calculate",
+          "content": "Perform the division to find the original value. This gives you the value before the percentage change."
+        }
+      ]
+    },
+    {
+      "heading": "Practical Examples",
+      "subSections": [
+        {
+          "heading": "Example 1: Reverse Increase",
+          "content": "Problem: Final value = 150 after a 20% increase. Solution: $$O = \\frac{150}{1 + 0.2} = \\frac{150}{1.2} = 125$$ Original value = 125. Verification: 125 + (125 × 0.2) = 125 + 25 = 150 ✓"
+        },
+        {
+          "heading": "Example 2: Reverse Decrease",
+          "content": "Problem: Final value = 80 after a 20% decrease. Solution: $$O = \\frac{80}{1 - 0.2} = \\frac{80}{0.8} = 100$$ Original value = 100. Verification: 100 - (100 × 0.2) = 100 - 20 = 80 ✓"
+        },
+        {
+          "heading": "Example 3: Percentage of Original",
+          "content": "Problem: 32% of a number is 150. Solution: $$O = \\frac{150}{0.32} = 468.75$$ Original value = 468.75. Verification: 468.75 × 0.32 = 150 ✓"
+        }
+      ]
+    },
+    {
+      "heading": "Types of Reverse Percentage Calculations",
+      "content": "<ul><li><strong>Reverse Percentage Discount Calculator:</strong> Finds original price before a discount</li><li><strong>Reverse Percentage Increase Calculator:</strong> Determines initial value before a price hike</li><li><strong>Reverse Percentage Decrease Calculator:</strong> Determines initial value before a reduction</li><li><strong>Reverse Percentage Tax Calculator:</strong> Calculates pre-tax amount from the final price</li></ul>",
+      "subSections": [
+        {
+          "heading": "Common Scenarios Table",
+          "content": "<table><tr><th>Scenario</th><th>Formula</th><th>Use Case</th></tr><tr><td>Discount</td><td>Original = Final ÷ (1 − %Discount/100)</td><td>Sales, shopping</td></tr><tr><td>Price Increase</td><td>Original = Final ÷ (1 + %Increase/100)</td><td>Markups, inflation</td></tr><tr><td>Tax Calculation</td><td>Original = Final ÷ (1 + %Tax/100)</td><td>VAT, GST, sales tax</td></tr><tr><td>Reverse Percentage Change</td><td>Original = Final ÷ (1 ± %Change/100)</td><td>Financial analysis</td></tr></table>"
+        }
+      ]
+    },
+    {
+      "heading": "When Reverse Percentages Are Useful",
+      "content": "Reverse percentage calculations are used in various real-world scenarios:",
+      "subSections": [
+        {
+          "heading": "Retail and Shopping",
+          "content": "Finding original price before a discount or sale. Example: A shirt costs $24 after a 40% discount. What was the original price? Solution: $24 ÷ (1 - 0.40) = $24 ÷ 0.60 = $40"
+        },
+        {
+          "heading": "Tax Calculations",
+          "content": "Finding pre-tax amounts when you know the total including tax. Example: Total with 10% tax is $110. What was the pre-tax amount? Solution: $110 ÷ (1 + 0.10) = $110 ÷ 1.10 = $100"
+        },
+        {
+          "heading": "Salary and Pay",
+          "content": "Undoing pay raises or reductions to find the original salary. Backtracking original values in financial data analysis."
+        },
+        {
+          "heading": "Business and Finance",
+          "content": "Calculating original investment amounts, understanding price changes, analyzing percentage-based growth or decline in metrics."
+        }
+      ]
+    },
+    {
+      "heading": "Online vs Excel vs Manual Methods",
+      "subSections": [
+        {
+          "heading": "Online Tools",
+          "content": "Quick, free, and convenient. Search for 'reverse percentages calculator online' or 'free reverse percentage calculator'. Ideal for one-off calculations and quick checks."
+        },
+        {
+          "heading": "Excel Method",
+          "content": "Perfect for bulk calculations, reports, and automated workflows. For increase: =FinalValue/(1+Percentage/100). For decrease: =FinalValue/(1-Percentage/100). Great for handling multiple data points simultaneously."
+        },
+        {
+          "heading": "Manual Method",
+          "content": "Best for learning, small calculations, or when a calculator is not available (reverse percentages without a calculator). Helps understand the underlying mathematical principles."
+        }
+      ]
+    },
+    {
+      "heading": "Common Mistakes to Avoid",
+      "content": "<ul><li><strong>Using the wrong formula:</strong> Make sure to use + for increases and - for decreases</li><li><strong>Not converting percentages:</strong> Always convert percentage to decimal (divide by 100)</li><li><strong>Dividing by percentage instead of multiplier:</strong> Remember to use (1 ± P/100), not just P/100</li><li><strong>Rounding too early:</strong> Keep precision during calculation, round only the final answer</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I calculate reverse percentages?",
+      "a": "Use the formula: Original Value = Final Value ÷ (1 ± Percentage Change/100). Add the percentage for increases, subtract for decreases. For example, if a value is $120 after a 20% increase, the original is $120 ÷ 1.20 = $100."
+    },
+    {
+      "q": "Can I calculate reverse percentages without a calculator?",
+      "a": "Yes, divide the final value by 1 plus or minus the decimal equivalent of the percentage. For mental math, convert the percentage to a simple fraction when possible."
+    },
+    {
+      "q": "Is there a reverse percentage Excel formula?",
+      "a": "Yes, for an increase: =FinalValue/(1+Percentage/100); for a decrease: =FinalValue/(1-Percentage/100). For percentage of: =FinalValue/(Percentage/100)."
+    },
+    {
+      "q": "What is the difference between reverse percentage and percentage change?",
+      "a": "Reverse percentage finds the original value before a change; percentage change calculates the difference from the original to final value as a percentage."
+    },
+    {
+      "q": "How do I find the original price after a discount?",
+      "a": "Use the formula: Original Price = Sale Price ÷ (1 - Discount%/100). For example, if an item costs $60 after a 25% discount: $60 ÷ (1 - 0.25) = $60 ÷ 0.75 = $80."
+    },
+    {
+      "q": "Can reverse percentage calculations give negative results?",
+      "a": "The original value should always be positive if your inputs are correct. A negative result indicates an error in the calculation type or that the decrease percentage is 100% or more."
+    },
+    {
+      "q": "How accurate are reverse percentage calculators?",
+      "a": "Reverse percentage calculators are mathematically exact. Any rounding is typically done only in the final display, maintaining precision throughout the calculation."
+    },
+    {
+      "q": "What if I need to reverse multiple percentage changes?",
+      "a": "Apply each reverse calculation in reverse order. If a value went through +10% then -5%, reverse the -5% first, then reverse the +10%."
+    },
+    {
+      "q": "Are there free reverse percentage calculators online?",
+      "a": "Yes, many websites offer free reverse percentage calculators, including tools for discounts, taxes, and increases. Our calculator is completely free and requires no registration."
+    },
+    {
+      "q": "Why is my answer different from the forward calculation?",
+      "a": "Due to compounding effects. A 50% increase followed by a 50% decrease does not return to the original value because the percentages are applied to different base numbers."
+    }
+  ]
+}

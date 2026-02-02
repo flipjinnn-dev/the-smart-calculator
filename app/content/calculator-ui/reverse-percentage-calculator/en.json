@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Reverse Percentage Calculator",
+  "pageDescription": "Find the original value before a percentage increase, decrease, or when given a percentage of the original",
+  "form": {
+    "title": "Calculate Original Value",
+    "labels": {
+      "calculationType": "Calculation Type",
+      "finalValue": "Final Value (F)",
+      "percentage": "Percentage (P)"
+    },
+    "placeholders": {
+      "finalValue": "Enter final value",
+      "percentage": "Enter percentage"
+    },
+    "buttons": {
+      "calculate": "Calculate Original Value",
+      "reset": "Reset"
+    },
+    "calculationTypes": {
+      "percentageOf": "Percentage of Original (e.g., 70% of X = 210)",
+      "increase": "After Percentage Increase (e.g., +20% = $120)",
+      "decrease": "After Percentage Decrease (e.g., -20% = $80)"
+    },
+    "descriptions": {
+      "percentageOf": "Find the original when you know a percentage of it equals the final value",
+      "increase": "Find the original value before a percentage increase was applied",
+      "decrease": "Find the original value before a percentage decrease was applied"
+    }
+  },
+  "results": {
+    "title": "Original Value",
+    "originalValue": "Original Value",
+    "finalValue": "Final Value",
+    "percentage": "Percentage",
+    "changeAmount": "Change Amount",
+    "formula": "Formula Used",
+    "explanation": "Explanation",
+    "steps": "Step-by-Step Solution"
+  },
+  "messages": {
+    "enterInformation": "Enter the final value and percentage to calculate the original value"
+  },
+  "errors": {
+    "finalValue": "Please enter a valid final value",
+    "percentage": "Please enter a valid percentage (greater than 0)",
+    "decreaseTooLarge": "For decrease, percentage must be less than 100%"
+  },
+  "explanations": {
+    "percentageOf": "{{percentage}}% of the original value equals {{finalValue}}, so the original value is {{originalValue}}",
+    "increase": "After a {{percentage}}% increase, the value became {{finalValue}}. The original value was {{originalValue}}",
+    "decrease": "After a {{percentage}}% decrease, the value became {{finalValue}}. The original value was {{originalValue}}"
+  },
+  "steps": {
+    "step1PercentageOf": "Given: {{percentage}}% of original = {{finalValue}}",
+    "step2PercentageOf": "Convert percentage to decimal: {{percentage}}% = {{decimal}}",
+    "step3PercentageOf": "Divide final value by decimal: {{finalValue}} ÷ {{decimal}} = {{result}}",
+    "step4PercentageOf": "Original value = {{result}}",
+    "step1Increase": "Given: After {{percentage}}% increase, value = {{finalValue}}",
+    "step2Increase": "Convert to decimal: {{percentage}}% = {{decimal}}",
+    "step3Increase": "Calculate multiplier: 1 + {{decimal}} = {{multiplier}}",
+    "step4Increase": "Divide final by multiplier: {{finalValue}} ÷ {{multiplier}} = {{result}}",
+    "step5Increase": "Original value = {{result}}",
+    "step1Decrease": "Given: After {{percentage}}% decrease, value = {{finalValue}}",
+    "step2Decrease": "Convert to decimal: {{percentage}}% = {{decimal}}",
+    "step3Decrease": "Calculate multiplier: 1 - {{decimal}} = {{multiplier}}",
+    "step4Decrease": "Divide final by multiplier: {{finalValue}} ÷ {{multiplier}} = {{result}}",
+    "step5Decrease": "Original value = {{result}}"
+  },
+  "tooltips": {
+    "finalValue": "The value after the percentage change has been applied",
+    "percentage": "The percentage that was applied (increase, decrease, or portion)",
+    "calculationType": "Select the type of reverse percentage calculation you need"
+  }
+}

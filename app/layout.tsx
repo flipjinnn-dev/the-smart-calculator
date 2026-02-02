@@ -19,6 +19,7 @@ const inter = Inter({
   preload: true,
   fallback: ['system-ui', 'arial']
 })
+
 // Define metadata for all languages
 const homepageMeta = {
   en: {
