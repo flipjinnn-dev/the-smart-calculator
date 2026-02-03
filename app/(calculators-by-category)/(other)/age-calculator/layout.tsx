@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for age-calculator
 const agecalculatorMeta = {
   en: {
-    title: "Age Calculator – Exact Age Online Tool | TheSmartCalculator",
-    description: "Use the Age  – Exact Age Online Tool | TheSmartCalculator calculator to get instant, accurate results. Fast inputs, clear outputs, and helpful context for quick.",
+    title: "Age Calculator Exact Age Finder",
+    description: "Determine exact age instantly using our Age Calculator from your birthdate for quick results.",
     keywords: "age calculator, calculate age, exact age, birthdate age, online age tool, age in months, age in days, free age calculator"
   },
   br: {

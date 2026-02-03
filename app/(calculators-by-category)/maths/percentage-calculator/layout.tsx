@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for percentage-calculator
 const percentagecalculatorMeta = {
   en: {
-    title: "Percentage Calculator – Ratios Changes Online | TheSmartCalculator",
-    description: "Use the Percentage Calculator to calculate percentages, ratios, and percentage changes easily. Accurate, free online tool for math and finance calculations.",
+    title: "Percentage Calculator Percentage Finder",
+    description: "Find percentages instantly using our Percentage Calculator to solve math problems quickly and accurately.",
     keywords: "percentage calculator, percentages ratios, change calculation, online percentage, math finance, free percentage tool, ratio tool, change estimator"
   },
   br: {

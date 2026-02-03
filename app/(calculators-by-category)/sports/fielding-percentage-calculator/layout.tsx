@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for fielding-percentage-calculator
 const fieldingpercentagecalculatorMeta = {
   en: {
-    title: "Fielding Percentage Calculator – Baseball Online | TheSmartCal",
-    description: "Use the Fielding Percentage Calculator to compute percentage for baseball players. Accurate, free online tool for stats tracking and performance analysis.",
+    title: "Fielding Percentage Calculator Defensive Stats",
+    description: "Measure defensive performance using our Fielding Percentage Calculator for accurate stats.",
     keywords: "fielding percentage calculator, baseball tool, percentage calculation, online fielding, stats tracking, performance analysis, free percentage calculator, player tool"
   },
   br: {

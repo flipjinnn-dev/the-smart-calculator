@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for percent-error-calculator
 const percenterrorcalculatorMeta = {
   en: {
-    title: "Percent Error Calculator – Value Online | TheSmartCalculator",
-    description: "Use the Percentage Error Calculator to calculate the percentage error between an estimated value and the actual value. Accurate, free online tool for scientific and math analysis.",
+    title: "Percent Error Calculator Error Percentage",
+    description: "Calculate percentage errors fast using our Percent Error Calculator for science, math, and homework.",
     keywords: "percent error calculator, error calculation, estimated actual, online error, scientific tool, math analysis, free error tool, percentage error"
   },
   br: {

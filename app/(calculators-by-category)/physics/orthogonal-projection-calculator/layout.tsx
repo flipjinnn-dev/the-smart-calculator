@@ -4,8 +4,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 
 const orthogonalProjectionMeta = {
   en: {
-    title: "Orthogonal Projection Calculator - Vector Projection Tool",
-    description: "Calculate orthogonal projections of vectors onto other vectors. Free online tool for linear algebra, physics, and engineering calculations.",
+    title: "Orthogonal Projection Calculator Vector Projection",
+    description: "Project vectors accurately using our Orthogonal Projection Calculator for math and physics solutions.",
     keywords: "orthogonal projection, vector projection, linear algebra calculator, dot product, physics calculator"
   },
   br: {

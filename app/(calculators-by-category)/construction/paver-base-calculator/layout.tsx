@@ -5,8 +5,8 @@ import Script from "next/script";
 
 const paverBaseCalculatorMeta = {
   en: {
-    title: "Paver Base Calculator – Estimate Gravel & Sand for Patios, Walkways & Driveways",
-    description: "Use our Paver Base Calculator to quickly estimate the amount of gravel and sand needed for your patio, walkway, or driveway. Plan your project with the right base depth for long-lasting results.",
+    title: "Paver Base Calculator Base Material Estimate",
+    description: "Estimate the required base material for paving using our Paver Base Calculator for landscaping and construction projects.",
     keywords: "paver base calculator, gravel calculator, sand calculator, patio base, walkway base, driveway base, paving materials, crushed stone calculator, base depth calculator, construction calculator, paver installation, compacted gravel"
   },
   br: {

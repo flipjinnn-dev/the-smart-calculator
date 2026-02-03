@@ -10,8 +10,8 @@ const creditcardcalculatorMeta = {
     keywords: "credit card calculator, payments tool, interest charges, payoff timeline, online credit, debt management, free card calculator, budgeting tool"
   },
   br: {
-    title: "Calculadora Cartão Crédito – Juros Parcelas Online",
-    description: "Use a Calculadora de Cartão de Crédito para simular juros, parcelas e saldo. Entenda quanto vai pagar e organize suas finanças com precisão e detalhes.",
+    title: "Simulador de Cartão de Crédito",
+    description: "Use o simulador de cartão de crédito para calcular juros, parcelas e saldo rapidamente. Planeje melhor seus gastos e simule agora mesmo!",
     keywords: "calculadora cartão crédito, simular juros, parcelas saldo, organizar finanças, precisa tool, detalhes calculadora, pagamento entender"
   },
   pl: {

@@ -10,8 +10,8 @@ const compoundinterestcalculatorMeta = {
     keywords: "compound interest calculator, growth tool, contributions calculation, online compound, investment projections, savings calculator, free interest tool, time growth"
   },
   br: {
-    title: "Calculadora Juros Compostos – Rendimentos Online",
-    description: "Use a Calculadora de Juros Compostos para simular ganhos e investimentos. Descubra quanto seu dinheiro pode render com cálculos rápidos e precisos ao longo do tempo.",
+    title: "Calculadora de Juros Compostos Online Grátis",
+    description: "Use a calculadora de juros compostos para calcular rendimentos e crescimento do investimento. Planeje seus ganhos e simule agora mesmo!",
     keywords: "calculadora juros compostos, simular ganhos, investimentos tool, render dinheiro, cálculos rápidos, precisa calculadora, tempo crescimento"
   },
   pl: {

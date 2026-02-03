@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for mean-value-theorem-calculator
 const meanvaluetheoremcalculatorMeta = {
   en: {
-    title: "Mean Value Theorem Calculator – Curve Points Online | TheSmart",
-    description: "Use the Mean Value Theorem Calculator to find points on a curve. Accurate, free online tool for calculus and math analysis.",
+    title: "Mean Value Theorem Calculator MVT Solver",
+    description: "Solve Mean Value Theorem problems easily using our Mean Value Theorem Calculator for fast results.",
     keywords: "mean value theorem calculator, curve points, theorem tool, online mean, calculus analysis, math curve, free theorem tool, point finder"
   },
   br: {

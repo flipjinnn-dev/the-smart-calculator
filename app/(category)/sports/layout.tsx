@@ -5,8 +5,8 @@ import { getCategoryCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for sports
 const sportsMeta = {
   en: {
-    title: "Sports Calculator – Performance & Calories Tool | TheSmartCalculator",
-    description: "Use the Sports Calculator to measure performance, calories burned, and training goals. Accurate, free online tool for athletes and enthusiasts in sports analysis.",
+    title: "Sports Calculator",
+    description: "Explore free sports calculators for batting average, ERA, fielding percentage, FIP, and magic number to track baseball stats and team performance easily.",
     keywords: "sports calculator, performance tool, calories burned, training goals, online sports, athlete calculator, free sports tool, enthusiasm analysis"
   },
   br: {

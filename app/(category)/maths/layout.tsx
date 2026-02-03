@@ -5,8 +5,8 @@ import { getCategoryCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for maths
 const mathsMeta = {
   en: {
-    title: "Math Calculator – Solve Equations Online | TheSmartCalculator",
-    description: "Use the Math Calculator to solve equations, fractions, percentages, and more. Accurate, free online tool for daily calculations, education, and problem-solving.",
+    title: "Math Calculators",
+    description: "Explore free online math calculators for percentages, errors, extrema, scientific functions, volume, and square roots to solve problems accurately and quickly.",
     keywords: "math calculator, solve equations, fractions tool, percentage calculator, online math, education tool, problem solver, free math calculator"
   },
   br: {

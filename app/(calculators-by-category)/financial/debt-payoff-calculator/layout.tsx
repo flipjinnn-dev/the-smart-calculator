@@ -5,13 +5,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for debt-payoff-calculator
 const debtpayoffcalculatorMeta = {
   en: {
-    title: "Debt Payoff Calculator Clear Debt Faster",
+    title: "Debt Payoff Calculator",
     description: "See how long it takes to clear debt, reduce interest, and plan payments effectively using our Debt Payoff Calculator.",
     keywords: "debt payoff calculator, debt free plan, time estimate, online debt, financial management, reduction tool, free payoff calculator, strategy planning"
   },
   br: {
-    title: "Calculadora Quitação Dívida – Plano Online | TheSmartCalculator",
-    description: "Use a Calculadora Quitação Dívida para criar plano e estimar tempo para ficar livre de dívidas. Ferramenta precisa para gestão financeira e estratégias de redução.",
+    title: "Calculadora de Quitação de Dívidas Planeje Suas Dívidas",
+    description: "Use nossa calculadora de quitação de dívidas para ver parcelas, juros e prazo de pagamento. Calcule agora e organize suas dívidas!",
     keywords: "calculadora quitação dívida, plano dívida, tempo estimar, online dívida, gestão financeira, estratégias redução, gratuita tool"
   },
   pl: {

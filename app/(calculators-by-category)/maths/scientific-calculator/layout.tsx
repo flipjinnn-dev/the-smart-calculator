@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for scientific-calculator
 const scientificcalculatorMeta = {
   en: {
-    title: "Scientific Calculator – Advanced Calculations Online | TheSmar",
-    description: "Use the Scientific Calculator to perform advanced mathematical calculations and graphing. Accurate, free online tool for science, engineering, and education.",
+    title: "Scientific Calculator Advanced Calculations",
+    description: "Perform complex calculations instantly using our Scientific Calculator for students and professionals.",
     keywords: "scientific calculator, advanced calculations, graphing tool, online scientific, science tool, engineering calculator, education math, free scientific tool"
   },
   br: {

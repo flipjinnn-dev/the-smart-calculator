@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for cups-to-pounds-converter
 const cupstopoundsconverterMeta = {
   en: {
-    title: "Cups to Pounds Converter – Ingredients Online | TheSmartCalculator",
-    description: "Use the Cups to Pounds Converter to convert cups to pounds for various ingredients. Accurate, free online tool for cooking, baking, and recipe adjustments.",
+    title: "Cups to Pounds Converter Ingredient Conversion",
+    description: "Convert ingredients from cups to pounds instantly using our Cups to Pounds Converter for baking and cooking.",
     keywords: "cups to pounds converter, ingredients tool, measurements calculation, online converter, cooking baking, recipe adjustment, free cups tool, pounds estimate"
   },
   br: {

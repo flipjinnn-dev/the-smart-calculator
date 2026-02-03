@@ -10,8 +10,8 @@ const houseaffordabilitycalculatorMeta = {
     keywords: "house affordability calculator, affordable house, income expenses, online affordability, home buying, planning tool, free house calculator, determine affordability"
   },
   br: {
-    title: "Finanzrechner – Online Tools für Ihre Finanzplanung",
-    description: "Mit dem Finanzrechner analysieren Sie Kredite, Anlagen und Haushaltsbudget. Der Finanzrechner bietet schnelle Online-Berechnungen für Ihre Finanzen.",
+    title: "Calculadora de Acessibilidade da Casa",
+    description: "Use a Calculadora de Acessibilidade da Casa para saber se sua renda permite comprar uma casa e simular custos de habitação. Experimente agora!",
     keywords: "finanzrechner, affordable haus, einkommen ausgaben, online affordabilität, hauskauf, planung tool, kostenloser haus rechner, affordabilität bestimmen"
   },
   pl: {

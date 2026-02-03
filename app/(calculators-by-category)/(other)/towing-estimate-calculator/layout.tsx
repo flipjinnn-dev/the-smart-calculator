@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for towing-estimate-calculator
 const towingEstimateCalculatorMeta = {
   en: {
-    title: "Towing Estimate Calculator – Calculate Towing Costs Instantly",
-    description: "Calculate towing costs based on vehicle type, distance, location, time of day, and additional services with detailed cost breakdown",
+    title: "Towing Estimate Calculator Towing Cost Estimate",
+    description: "Calculate towing costs quickly using our Towing Estimate Calculator for fast quotes.",
     keywords: "towing, estimate, calculator, cost, vehicle, distance, roadside assistance, flatbed, towing service"
   },
   br: {

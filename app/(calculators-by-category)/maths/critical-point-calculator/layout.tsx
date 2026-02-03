@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for critical-point-calculator
 const criticalpointcalculatorMeta = {
   en: {
-    title: "Critical Point Calculator – Function Online | TheSmartCalculator",
-    description: "Use the Critical Point Calculator to find critical points of functions. Accurate, free online tool for math analysis, extrema, and calculus problems.",
+    title: "Critical Point Calculator Function Analysis",
+    description: "Determine critical points in functions using our Critical Point Calculator for math and calculus.",
     keywords: "critical point calculator, function tool, extrema calculation, online critical, math analysis, calculus problems, free point tool, find points"
   },
   br: {

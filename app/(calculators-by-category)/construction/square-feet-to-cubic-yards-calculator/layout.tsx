@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for square-feet-to-cubic-yards-calculator
 const squarefeettocubicyardscalculatorMeta = {
   en: {
-    title: "Square Feet to Cubic Yards Calculator – Materials Online | The",
-    description: "Use the Square Feet to Cubic Yards Calculator to convert square feet to cubic yards for materials. Accurate, free online tool for construction and landscaping.",
+    title: "Square Feet to Cubic Yards Calculator Area to Volume",
+    description: "Convert square feet to cubic yards accurately using our Square Feet to Cubic Yards Calculator for projects.",
     keywords: "square feet to cubic yards calculator, area to volume, materials converter, online square, construction tool, landscaping calculator, free yards tool, material estimate"
   },
   br: {

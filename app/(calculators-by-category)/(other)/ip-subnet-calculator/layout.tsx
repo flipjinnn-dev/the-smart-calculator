@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for ip-subnet-calculator
 const ipsubnetcalculatorMeta = {
   en: {
-    title: "IP Subnet Calculator – Configure Networks Online | TheSmartCal",
-    description: "Use the IP Subnet Calculator to compute masks, addresses, and subnets. Accurate, free online tool for network admins to plan and configure IP networks efficiently.",
+    title: "IP Subnet Calculator Network Calculator",
+    description: "Determine network ranges instantly using our IP Subnet Calculator for IT and networking.",
     keywords: "ip subnet calculator, subnet tool, ip mask, network addresses, online subnet, configure networks, free ip calculator, admin tool"
   },
   br: {

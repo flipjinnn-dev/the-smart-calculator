@@ -10,8 +10,8 @@ const annuitypayoutcalculatorMeta = {
     keywords: "annuity payout calculator, payout amount, principal tool, rates calculation, online payout, annuity planning, free payout tool, income estimator"
   },
   br: {
-    title: "Calculadora de Pagamento de Anuidade – Planeje Contas",
-    description: "Planeje pagamentos de anuidades sem surpresas. Saiba valores e prazos e calcule agora facilmente.",
+    title: "Calculadora de Pagamento de Anuidade Online Grátis",
+    description: "Calcule facilmente o pagamento de anuidade com nossa calculadora. Descubra valores e parcelas rapidamente. Experimente agora mesmo!",
     keywords: "calculadora pagamento anuidade, valor pagamento, fatores tool, online anuidade, planejamento renda, gratuita calculadora, estimativa pagamento"
   },
   pl: {

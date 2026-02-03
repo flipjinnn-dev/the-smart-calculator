@@ -5,8 +5,8 @@ import { getCategoryCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for other-calculators
 const othercalculatorsMeta = {
   en: {
-    title: "Other Calculator – Miscellaneous Tools Online | TheSmartCalculator",
-    description: "Use the Other Calculator for various daily tasks and unique calculations. Accurate, free online tool for miscellaneous needs, planning, and problem-solving.",
+    title: "Other Calculators",
+    description: "Explore other calculators for age, time, GPA, height, IP subnet, SEO ROI, RPE, child support, towing costs and more useful everyday calculation tools.",
     keywords: "other calculator, miscellaneous tool, daily calculations, unique calculator, online other, planning tool, free miscellaneous, problem solver"
   },
   br: {

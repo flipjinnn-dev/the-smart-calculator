@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for ballistic-coefficient-calculator
 const ballisticcoefficientcalculatorMeta = {
   en: {
-    title: "Ballistic Coefficient Calculator – Projectile Online | TheSmar",
-    description: "Use the Ballistic Coefficient Calculator to compute coefficient for projectiles. Accurate, free online tool for ballistics analysis and shooting planning.",
+    title: "Ballistic Coefficient Calculator BC Value",
+    description: "Calculate ballistic coefficient quickly using our Ballistic Coefficient Calculator for shooters, engineers, and physics students.",
     keywords: "ballistic coefficient calculator, projectile tool, coefficient calculation, online ballistic, shooting planner, free coefficient tool, analysis ballistics"
   },
   br: {

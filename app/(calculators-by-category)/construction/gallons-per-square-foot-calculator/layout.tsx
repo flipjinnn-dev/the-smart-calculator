@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for gallons-per-square-foot-calculator
 const gallonspersquarefootcalculatorMeta = {
   en: {
-    title: "Ultimate Gallons Calculator – Fast & Easy",
-    description: "Powerful gallons to square feet calculator. Instantly convert gallons, square feet, and coverage with our gallons calculator—simple and fast..",
+    title: "Gallons per Square Foot Calculator Coverage Rate",
+    description: "Calculate paint or material coverage using our Gallons per Square Foot Calculator for accurate estimates.",
     keywords: "gallons per square foot calculator, painting gallons, flooring estimator, online gallons tool, material needs, home improvement, construction tool, square foot estimate"
   },
   br: {

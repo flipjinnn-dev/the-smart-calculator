@@ -5,8 +5,8 @@ import { getCategoryCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for health
 const healthMeta = {
   en: {
-    title: "Health Calculator – BMI Calories & More Tool | TheSmartCalculator",
-    description: "Use the Health Calculator to measure BMI, calories, metabolism, and other metrics. Accurate, free online tool for tracking health, diet, and fitness progress.",
+    title: "Health Calculators",
+    description: "Explore free online health and fitness calculators for BMI, calories, body fat, heart rate, ovulation, pregnancy and more to track wellness goals with ease.",
     keywords: "health calculator, bmi tool, calorie calculator, metabolism tracker, online health, diet metrics, fitness tool, free health calculator"
   },
   br: {

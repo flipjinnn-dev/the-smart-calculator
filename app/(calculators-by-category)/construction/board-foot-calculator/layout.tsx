@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for board-foot-calculator
 const boardfootcalculatorMeta = {
   en: {
-    title: "Board Foot Calculator – Lumber Materials Online | TheSmartCalculator",
-    description: "Use the Board Foot Calculator to compute board feet for lumber and materials. Accurate, free online tool for construction, woodworking, and cost estimation.",
+    title: "Board Foot Calculator Lumber Volume",
+    description: "Measure lumber volume quickly using our Board Foot Calculator for accurate woodwork and construction planning.",
     keywords: "board foot calculator, lumber tool, materials calculation, online board, construction estimator, woodworking calculator, free foot tool, cost materials"
   },
   br: {

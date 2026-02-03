@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for rpe-calculator
 const rpecalculatorMeta = {
   en: {
-    title: "RPE Calculator – Training Intensity Online | TheSmartCalculator",
-    description: "Use the RPE Calculator to determine training intensity based on perceived exertion. Accurate, free online tool for fitness, strength, and endurance planning.",
+    title: "RPE Calculator Workout Intensity Scale",
+    description: "Track workout intensity using our RPE Calculator for fitness and training progress.",
     keywords: "rpe calculator, training intensity, perceived exertion, fitness tool, online rpe, strength calculator, endurance planning, free rpe tool"
   },
   br: {

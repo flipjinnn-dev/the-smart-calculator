@@ -5,8 +5,8 @@ import { getCategoryCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for construction
 const constructionMeta = {
   en: {
-    title: "Construction Calculator – Materials & Costs Tool | TheSmartCal…",
-    description: "Use the Construction  – Materials & Costs Tool | TheSmartCalculator calculator to get instant, accurate results. Fast inputs, clear outputs, and helpful context.",
+    title: "Construction Calculators",
+    description: "Explore free construction calculators for board feet, cubic yards, material coverage, weight conversions, and base estimates to plan projects easily and accurately.",
     keywords: "construction calculator, materials calculator, building costs, renovation tool, online construction, estimate materials, construction measurements, free building calculator"
   },
   br: {

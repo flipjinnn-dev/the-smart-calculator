@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for batting-average-calculator
 const battingaveragecalculatorMeta = {
   en: {
-    title: "Batting Average Calculator – Stats Online | TheSmartCalculator",
-    description: "Use the Batting Average Calculator to compute average and related baseball statistics. Accurate, free online tool for players and fans in performance analysis.",
+    title: "Batting Average Calculator Batting Status",
+    description: "Calculate baseball stats instantly using our Batting Average Calculator for players and coaches.",
     keywords: "batting average calculator, baseball stats, average tool, online batting, performance analysis, free average calculator, player stats, fan tool"
   },
   br: {

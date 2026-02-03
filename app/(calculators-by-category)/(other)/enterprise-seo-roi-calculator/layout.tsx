@@ -5,7 +5,9 @@ import Script from "next/script";
 
 // Multilingual SEO metadata
 const enterpriseSeoMeta = {
-  en: { title: "Enterprise SEO ROI Calculator", description: "Calculate the return on investment (ROI) for enterprise SEO." },
+  en: { 
+    title: "Enterprise SEO ROI Calculator SEO Return Estimator", 
+    description: "Estimate SEO returns using our Enterprise SEO ROI Calculator for marketers and businesses." },
   pl: { title: "Enterprise SEO ROI Kalkulator", description: "Oblicz the return on investment (ROI) dla enterprise SEO." },
   br: { title: "Calculadora de ROI de SEO Empresarial", description: "Calcule o retorno sobre investimento (ROI) para SEO empresarial. Otimize seu orçamento de marketing digital." },
   de: { title: "Unternehmens-SEO-ROI-Rechner", description: "Berechnen Sie die Rendite (ROI) für Unternehmens-SEO. Optimieren Sie Ihr digitales Marketingbudget." },
@@ -26,7 +28,6 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: meta.title,
     description: meta.description,
-    keywords: meta.keywords,
     alternates: {
       canonical: canonicalUrl,
       languages: {

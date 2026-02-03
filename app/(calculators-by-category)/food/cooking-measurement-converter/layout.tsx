@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for cooking-measurement-converter
 const cookingmeasurementconverterMeta = {
   en: {
-    title: "Cooking Measurement Converter – Units Online | TheSmartCalculator",
-    description: "Use the Cooking Measurement Converter to convert between units like cups, grams, and spoons. Accurate, free online tool for recipes and kitchen adjustments.",
+    title: "Cooking Measurement Converter Kitchen Unit Converter",
+    description: "Convert cooking measurements fast using our Cooking Measurement Converter for teaspoons, cups, grams, and more.",
     keywords: "cooking measurement converter, units tool, cups grams, spoons calculation, online converter, recipe adjustment, free cooking tool, kitchen calculator"
   },
   br: {

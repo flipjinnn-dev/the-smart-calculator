@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for height-calculator
 const heightcalculatorMeta = {
   en: {
-    title: "Height Calculator – Estimate Growth Online | TheSmartCalculator",
-    description: "Use the Height Calculator to estimate current or future height based on factors like age and genetics. Accurate, free online tool for health, planning, or curiosity.",
+    title: "Height Calculator Height Measurement",
+    description: "Find exact height conversions using our Height Calculator for accurate measurements.",
     keywords: "height calculator, estimate height, growth tool, online height, height prediction, genetics calculator, free height tool, health height"
   },
   br: {

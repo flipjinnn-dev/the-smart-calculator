@@ -5,8 +5,8 @@ import { getCategoryCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for food
 const foodMeta = {
   en: {
-    title: "Food Calculator – Calories & Nutrition Tool | TheSmartCalculator",
-    description: "Use the Food Calculator to count calories, proteins, and nutrients in meals. Accurate, free online tool for diet tracking, health planning, and nutritional analysis.",
+    title: "Food Calculators Measurement Converters & Recipe Tools",
+    description: "Find free food and cooking calculators for butter conversions, pan sizes, measurement units, cups to pounds, and pasta portions to cook with confidence.",
     keywords: "food calculator, calorie counter, nutrition tool, protein calculator, online food tracker, diet calculator, nutrient analysis, free food tool"
   },
   br: {

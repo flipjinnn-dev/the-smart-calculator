@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for fielding-independent-pitching-calculator
 const fieldingindependentpitchingcalculatorMeta = {
   en: {
-    title: "Fielding Independent Pitching Calculator – FIP Online | TheSma",
-    description: "Use the Fielding Independent Pitching  – FIP Online | TheSmartCalculator calculator to get instant, accurate results. Fast inputs, clear outputs, and helpful co.",
+    title: "FIP Calculator Fielding Independent Pitching",
+    description: "Calculate fielding independent pitching easily using our FIP Calculator for player evaluation.",
     keywords: "calculadora arremesso independente, fip tool, jogadores beisebol, estatísticas cálculo, online fip, avaliação arremessadores, gratuita calculadora"
   },
   br: {

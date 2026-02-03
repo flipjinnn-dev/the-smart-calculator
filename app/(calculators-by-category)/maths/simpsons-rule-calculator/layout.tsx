@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for simpsons-rule-calculator
 const simpsonsrulecalculatorMeta = {
   en: {
-    title: "Simpson's Rule Calculator – Integrals Online | TheSmartCalculator",
-    description: "Use the Simpson's Rule Calculator to calculate definite integrals using Simpson's Rule. Accurate, free online tool for math and engineering approximations.",
+    title: "Simpson's Rule Calculator Area Under Curve",
+    description: "Estimate areas under curves using our Simpson’s Rule Calculator for accurate integration results.",
     keywords: "simpsons rule calculator, definite integrals, approximation tool, online simpson, math integrals, engineering approximation, free rule tool, integral calculation"
   },
   br: {

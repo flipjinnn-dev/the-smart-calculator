@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for dry-to-cooked-pasta-converter
 const drytocookedpastaconverterMeta = {
   en: {
-    title: "Dry to Cooked Pasta Converter – Measurements Online | TheSmart",
-    description: "Use the Dry to Cooked Pasta Converter to convert dry measurements to cooked equivalents. Accurate, free online tool for cooking and portion planning.",
+    title: "Dry to Cooked Pasta Calculator Pasta Conversion",
+    description: "Convert dry pasta to cooked portions easily using our Dry to Cooked Pasta Calculator for meal planning.",
     keywords: "dry to cooked pasta converter, measurements tool, equivalents calculation, online pasta, cooking planning, portion calculator, free converter, pasta estimate"
   },
   br: {

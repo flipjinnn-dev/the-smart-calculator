@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for relative-extrema-calculator
 const relativeextremacalculatorMeta = {
   en: {
-    title: "Relative Extrema Calculator – Free Local Max & Min Calculator with Steps & Graphs",
-    description: "Use our Relative Extrema Calculator to instantly find local maxima and minima of any function. Step-by-step derivatives, critical points, interactive graphs, and formulas included. 100% free, mobile-friendly, perfect for students, engineers, and calculus enthusiasts.",
+    title: "Relative Extrema Calculator Max & Min Finder",
+    description: "Identify maxima and minima in functions using our Relative Extrema Calculator for quick solutions.",
     keywords: "relative extrema calculator, local maxima, local minima, critical points, derivatives, second derivative test, first derivative test, calculus calculator, extrema finder, free calculator, step-by-step solutions, interactive graphs, optimization, mathematical modeling"
   },
   br: {

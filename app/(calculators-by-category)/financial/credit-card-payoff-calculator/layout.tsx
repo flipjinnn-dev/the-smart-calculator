@@ -10,8 +10,8 @@ const creditcardpayoffcalculatorMeta = {
     keywords: "credit card payoff calculator, debt timeline, interest savings, online payoff, debt reduction, financial planning, free payoff tool, time calculation"
   },
   br: {
-    title: "Simulador de Cartão de Crédito – Calcule Juros e Parcelas",
-    description: "Use o Simulador de Cartão de Crédito para calcular juros, parcelas e saldo devedor. Planeje suas finanças com rapidez e precisão online.",
+    title: "Calculadora ITCMD Calcule seu Imposto sobre Herança",
+    description: "Use nossa Calculadora ITCMD para calcular rapidamente o imposto sobre herança no Brasil. Ferramenta gratuita, online e fácil de usar.",
     keywords: "simulador cartão crédito, calcular juros, parcelas saldo, planejamento finanças, online simulador, rapidez precisão, redução dívida"
   },
   pl: {

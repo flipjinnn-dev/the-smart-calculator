@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for cubic-yard-calculator
 const cubicyardcalculatorMeta = {
   en: {
-    title: "Cubic Yard Calculator – Volume Materials Online | TheSmartCalculator",
-    description: "Use the Cubic Yard Calculator to compute cubic yards for concrete, soil, and materials. Accurate, free online tool for construction and landscaping estimates.",
+    title: "Cubic Yard Calculator Material Volume",
+    description: "Estimate material volume easily using our Cubic Yard Calculator for construction, landscaping, and DIY projects.",
     keywords: "cubic yard calculator, volume tool, materials calculation, online cubic, construction estimator, landscaping calculator, free yard tool, concrete soil"
   },
   br: {

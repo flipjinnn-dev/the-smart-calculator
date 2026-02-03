@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for gpa-calculator
 const gpacalculatorMeta = {
   en: {
-    title: "GPA Calculator – Calculate Academic Average | TheSmartCalculator",
-    description: "Use the GPA Calculator to compute your grade point average from courses and grades. Accurate, free online tool for students to track performance and academic progress.",
+    title: "GPA Calculator Grade Point Average",
+    description: "Calculate GPA accurately using our GPA Calculator for students and academic planning.",
     keywords: "gpa calculator, calculate gpa, grade average, academic tool, online gpa, student calculator, performance tracker, free gpa tool"
   },
   br: {

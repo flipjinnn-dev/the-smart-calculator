@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for earned-run-average-calculator
 const earnedrunaveragecalculatorMeta = {
   en: {
-    title: "Earned Run Average Calculator – ERA Online | TheSmartCalculator",
-    description: "Use the Earned Run Average Calculator to compute ERA for pitchers in baseball. Accurate, free online tool for stats analysis and performance tracking.",
+    title: "ERA Calculator Earned Run Average",
+    description: "Compute earned run average quickly using our ERA Calculator for baseball and softball analysis.",
     keywords: "earned run average calculator, era tool, pitchers calculation, online earned, baseball stats, performance tracker, free era calculator, run average"
   },
   br: {

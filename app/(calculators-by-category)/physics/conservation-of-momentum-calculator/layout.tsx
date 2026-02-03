@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for conservation-of-momentum-calculator
 const conservationofmomentumcalculatorMeta = {
   en: {
-    title: "Conservation of Momentum Calculator – Collisions Online | TheS",
-    description: "Use the Conservation of Momentum Calculator to compute momentum in collisions. Accurate, free online tool for physics students and collision analysis.",
+    title: "Conservation of Momentum Calculator Collision Solver",
+    description: "Solve momentum problems instantly using our Conservation of Momentum Calculator for collisions and physics.",
     keywords: "conservation of momentum calculator, collisions tool, momentum calculation, online conservation, physics analysis, free momentum tool, student calculator"
   },
   br: {

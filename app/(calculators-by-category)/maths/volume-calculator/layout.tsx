@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for volume-calculator
 const volumecalculatorMeta = {
   en: {
-    title: "Volume Calculator – Shapes Online | TheSmartCalculator",
-    description: "Use the Volume Calculator to calculate the volume of various shapes. Accurate, free online tool for math, engineering, and daily use.",
+    title: "Volume Calculator Shape Volume Finder",
+    description: "Find the volume of shapes instantly using our Volume Calculator for math and engineering.",
     keywords: "volume calculator, shapes volume, math tool, online volume, engineering calculator, free volume tool, shape calculation, volume estimate"
   },
   br: {

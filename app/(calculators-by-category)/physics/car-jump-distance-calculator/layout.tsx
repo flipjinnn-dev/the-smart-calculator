@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for car-jump-distance-calculator
 const carjumpdistancecalculatorMeta = {
   en: {
-    title: "Car Jump Distance Calculator – Speed Angle Online | TheSmartCa",
-    description: "Use the Car Jump Distance Calculator to compute jump distance based on speed and angle. Accurate, free online tool for physics simulations and fun calculations.",
+    title: "Car Jump Distance Calculator Jump Distance",
+    description: "Estimate car jump distance precisely using our Car Jump Distance Calculator for physics and engineering.",
     keywords: "car jump distance calculator, speed angle, jump tool, online distance, physics simulation, free jump calculator, car calculation, fun tool"
   },
   br: {

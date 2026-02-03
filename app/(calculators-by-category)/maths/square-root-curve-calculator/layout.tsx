@@ -4,8 +4,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 
 const squareRootCurveMeta = {
   en: {
-    title: "Square Root Curve Calculator - Grade Curve Tool",
-    description: "Calculate curved grades using the square root method. Transform test scores fairly and boost student performance with our free online square root curve calculator.",
+    title: "Square Root Curve Calculator Graph & Solve",
+    description: "Plot square root curves and calculate values quickly using our Square Root Curve Calculator.",
     keywords: "square root curve, grade curve calculator, test score curve, grading calculator, curve grades, education tool"
   },
   br: {

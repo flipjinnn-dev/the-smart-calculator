@@ -10,8 +10,8 @@ const estatetaxcalculatorMeta = {
     keywords: "estate tax calculator, taxes planning, inheritance tool, deductions calculation, online estate, financial legacy, free tax tool, estimate taxes"
   },
   br: {
-    title: "Podatek od Nieruchomości Kalkulator – Oblicz Online",
-    description: "Użyj podatek od nieruchomości kalkulator online, aby szybko obliczyć wysokość podatku. Proste, dokładne i darmowe narzędzie finansowe dla każdego.",
+    title: "Calculadora ITCMD | Calcule seu imposto sobre herança",
+    description: "Use nossa Calculadora ITCMD para calcular rapidamente o imposto sobre herança no Brasil. Ferramenta gratuita, online e fácil de usar.",
     keywords: "podatek od nieruchomości kalkulator, obliczyć wysokość, narzędzie finansowe, online podatek, proste dokładne, darmowy tool, każdy planowanie"
   },
   pl: {

@@ -10,8 +10,8 @@ const autoloancalculatorMeta = {
     keywords: "auto loan calculator, car payments, total cost, financing tool, online auto, budget calculator, free loan tool, vehicle estimate"
   },
   br: {
-    title: "Calculadora Empréstimo Auto – Parcelas Online | TheSmartCalculator",
-    description: "Use a Calculadora Empréstimo Auto para calcular pagamentos de carro e custo total. Ferramenta precisa e gratuita para financiamento de veículos e orçamento.",
+    title: "Simulador de financiamento de veículos",
+    description: "Use o simulador de financiamento de veículos online grátis para calcular parcelas e juros. Planeje sua compra e simule seu financiamento rapidamente!",
     keywords: "calculadora empréstimo auto, parcelas carro, custo total, ferramenta financiamento, online auto, orçamento calculadora, gratuita tool"
   },
   pl: {

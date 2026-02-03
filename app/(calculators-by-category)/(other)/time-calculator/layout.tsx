@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for time-calculator
 const timecalculatorMeta = {
   en: {
-    title: "Time Calculation Made Easy | Powerful Tool",
-    description: "Powerful time addition calculator to add hours, minutes, and seconds fast. Perfect seconds calculator for accurate time adding.",
+    title: "Time Calculator Add & Subtract Time",
+    description: "Add or subtract hours and minutes using our Time Calculator for fast time calculations.",
     keywords: "time calculator, date difference, duration tool, online time, planning calculator, study tool, project duration, free time calculator"
   },
   br: {

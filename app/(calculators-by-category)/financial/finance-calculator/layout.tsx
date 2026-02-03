@@ -10,8 +10,8 @@ const financecalculatorMeta = {
     keywords: "finance calculator, comprehensive, tool, various, financial, calculations"
   },
   br: {
-    title: "Conversor de Moedas Online – Cotações em Tempo Real",
-    description: "Use o Conversor de Moedas para ver taxas de câmbio atualizadas. Converta valores com rapidez e precisão em várias moedas do mundo.",
+    title: "Calculadora Financeira Online Grátis Planeje Seus Investimentos",
+    description: "Use nossa calculadora financeira online grátis para estimar economias, empréstimos e investimentos. Planeje suas finanças com facilidade e precisão!",
     keywords: "conversor moedas, cotações tempo real, taxas câmbio, converta valores, online moedas, precisão rapidez, mundo finanças"
   },
   pl: {

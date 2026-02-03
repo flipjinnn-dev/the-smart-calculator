@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for cake-pan-calculator
 const cakepancalculatorMeta = {
   en: {
-    title: "Cake Pan Calculator – Sizes Equivalent Online | TheSmartCalculator",
-    description: "Use the Cake Pan Calculator to find equivalent sizes for round, square, and rectangular pans. Accurate, free online tool for baking adjustments and recipes.",
+    title: "Cake Pan Converter Pan Size Conversion",
+    description: "Adjust cake pan sizes easily using our Cake Pan Converter for perfect baking results every time.",
     keywords: "cake pan calculator, sizes equivalent, round square, rectangular tool, online pan, baking calculator, free size tool, recipe adjustment"
   },
   br: {

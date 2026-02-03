@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for butter-calculator
 const buttercalculatorMeta = {
   en: {
-    title: "Butter Calculator – Measurements Converter Online | TheSmartCa",
-    description: "Use the Butter Calculator to convert measurements between sticks, cups, tablespoons, teaspoons, and grams. Accurate, free online tool for cooking and baking.",
+    title: "Butter Converter Butter Measurement Converter",
+    description: "Convert butter units instantly using our Butter Converter for cooking and baking recipes with accurate measurements.",
     keywords: "butter calculator, measurements converter, sticks cups, tablespoons tool, online butter, cooking calculator, free converter, baking tool"
   },
   br: {

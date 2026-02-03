@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for arrow-speed-calculator
 const arrowspeedcalculatorMeta = {
   en: {
-    title: "Arrow Speed Calculator – Momentum Online | TheSmartCalculator",
-    description: "Use the Arrow Speed Calculator to compute speed, momentum, and kinetic energy from IBO ratings. Accurate, free online tool for archery and physics analysis.",
+    title: "Arrow Speed Calculator Arrow Velocity",
+    description: "Measure arrow velocity accurately using our Arrow Speed Calculator for archery and physics analysis.",
     keywords: "arrow speed calculator, momentum tool, kinetic energy, ibo ratings, online arrow, archery calculator, free speed tool, physics arrow"
   },
   br: {

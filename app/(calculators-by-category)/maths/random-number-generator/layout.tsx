@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for random-number-generator
 const randomnumbergeneratorMeta = {
   en: {
-    title: "Random Number Generator – Range Online | TheSmartCalculator",
-    description: "Use the Random Number Generator to generate random numbers within a specified range. Accurate, free online tool for games, simulations, and testing.",
+    title: "Random Number Generator Generate Random Numbers",
+    description: "Generate random numbers instantly using our Random Number Generator for math, gaming, and tasks.",
     keywords: "random number generator, random range, number generator, online random, game tool, simulation random, free random tool, range number"
   },
   br: {

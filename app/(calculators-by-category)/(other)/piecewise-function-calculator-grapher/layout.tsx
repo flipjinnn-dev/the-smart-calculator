@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for piecewise-function-calculator-grapher
 const piecewisefunctioncalculatorgrapherMeta = {
   en: {
-    title: "Piecewise Function Calculator – Graph Online | TheSmartCalculator",
-    description: "Use the Piecewise Function Calculator to evaluate and graph piecewise functions. Accurate, free online tool for math students to analyze domains and values.",
+    title: "Piecewise Function Calculator Solve & Graph",
+    description: "Solve and graph piecewise functions quickly using our Piecewise Function Calculator.",
     keywords: "piecewise function calculator, graph piecewise, function tool, online grapher, math analysis, domain calculator, free piecewise tool, student math"
   },
   br: {
