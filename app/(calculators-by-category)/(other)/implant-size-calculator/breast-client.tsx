@@ -9,7 +9,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Activity, AlertCircle, Heart, Ruler, Scale } from "lucide-react"
-import CalculatorGuide from "@/components/calculator-guide"
 import { RatingProfileSection } from "@/components/rating-profile-section"
 
 interface CalculatorProps {
@@ -536,6 +535,356 @@ export default function BreastImplantSizeCalculatorClient({ content, guideConten
             )}
           </div>
         </div>
+        {/* Comprehensive Educational Guide */}
+        <div className="mt-12 space-y-8">
+          <Card className="shadow-xl border-0">
+            <CardHeader>
+              <CardTitle className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+                Breast Implant Size Calculator: Your Ultimate Guide
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="prose max-w-none space-y-8">
+              {/* Summary */}
+              <div className="bg-pink-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold text-pink-900 mb-3">Concise Summary</h3>
+                <p className="text-gray-700">
+                  A breast implant size calculator helps estimate the ideal implant size for your body, desired cup size, and proportions. Using factors like chest width, current breast volume, and desired augmentation, these calculators provide a visual and numerical guide. Popular tools include breast implant bra size calculators, cup size calculators, and visual simulators. Implant sizes are measured in cubic centimeters (cc) and range typically from 125cc to 800cc depending on goals and anatomy.
+                </p>
+              </div>
+
+              {/* Implant Volume Reference Chart */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Implant Volume Reference Chart</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow">
+                    <thead className="bg-gradient-to-r from-pink-600 to-purple-600">
+                      <tr>
+                        <th className="px-6 py-3 text-left text-white font-semibold">Implant Volume (cc)</th>
+                        <th className="px-6 py-3 text-left text-white font-semibold">Approximate Cup Size Increase</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr><td className="px-6 py-3">150-200 cc</td><td className="px-6 py-3">0.5 – 1 cup size</td></tr>
+                      <tr className="bg-gray-50"><td className="px-6 py-3">250-300 cc</td><td className="px-6 py-3">1 – 1.5 cup sizes</td></tr>
+                      <tr><td className="px-6 py-3">300-350 cc</td><td className="px-6 py-3">1.5 – 2 cup sizes</td></tr>
+                      <tr className="bg-gray-50"><td className="px-6 py-3">400-450 cc</td><td className="px-6 py-3">2 – 2.5 cup sizes</td></tr>
+                      <tr><td className="px-6 py-3">500-600 cc</td><td className="px-6 py-3">2.5 – 3 cup sizes</td></tr>
+                      <tr className="bg-gray-50"><td className="px-6 py-3">650-800 cc</td><td className="px-6 py-3">3+ cup sizes</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* What is Breast Augmentation */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">What is Breast Augmentation?</h3>
+                <p className="text-gray-700 mb-3">Breast augmentation is a cosmetic procedure that uses implants to:</p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                  <li>Increase breast volume (e.g., going from an A cup to a C cup)</li>
+                  <li>Restore breast volume lost after pregnancy or weight changes</li>
+                  <li>Improve breast symmetry and shape</li>
+                </ul>
+                <p className="text-gray-700 mt-3">The ultimate goal is aesthetic harmony, ensuring your breasts complement your body frame, chest width, and natural proportions.</p>
+              </div>
+
+              {/* Understanding Breast Implant Sizing */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Understanding Breast Implant Sizing</h3>
+                <h4 className="text-xl font-semibold text-gray-800 mb-3">Why Implant Volume Matters</h4>
+                <p className="text-gray-700 mb-3">Implant size is measured in cubic centimeters (cc), which is far more accurate than bra cup sizing. Cup sizes vary between brands and countries, but cc provides a standardized measurement surgeons rely on.</p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-3">
+                  <li>150–200cc → ~1 cup increase</li>
+                  <li>250–300cc → ~1.5 cup increase</li>
+                  <li>350–400cc → ~2 cup increase</li>
+                </ul>
+                <p className="text-gray-700 font-semibold">Important:</p>
+                <p className="text-gray-700">The same implant volume will look different on different body frames. For example, a 350cc implant on a petite 32-inch band may appear as a D cup, while on a 38-inch band, it may look like a C cup.</p>
+              </div>
+
+              {/* Breast Implant Size Comparison Chart */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Breast Implant Size Comparison Chart</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow mb-4">
+                    <thead className="bg-gradient-to-r from-pink-600 to-purple-600">
+                      <tr>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Implant Volume (cc)</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Profile</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Approx. Cup Size Increase</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Appearance / Notes</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr><td className="px-4 py-3">100–150 cc</td><td className="px-4 py-3">Mini</td><td className="px-4 py-3">A → Small B</td><td className="px-4 py-3">Subtle, natural increase</td></tr>
+                      <tr className="bg-gray-50"><td className="px-4 py-3">150–250 cc</td><td className="px-4 py-3">Demi</td><td className="px-4 py-3">A → B</td><td className="px-4 py-3">Moderate, natural look</td></tr>
+                      <tr><td className="px-4 py-3">250–350 cc</td><td className="px-4 py-3">Demi / Full</td><td className="px-4 py-3">B → C</td><td className="px-4 py-3">Noticeable fullness</td></tr>
+                      <tr className="bg-gray-50"><td className="px-4 py-3">350–450 cc</td><td className="px-4 py-3">Full</td><td className="px-4 py-3">C → D</td><td className="px-4 py-3">Fuller, more projection</td></tr>
+                      <tr><td className="px-4 py-3">450–550 cc</td><td className="px-4 py-3">Full / Corsé</td><td className="px-4 py-3">D → DD</td><td className="px-4 py-3">Large, very full</td></tr>
+                      <tr className="bg-gray-50"><td className="px-4 py-3">550–700+ cc</td><td className="px-4 py-3">Corsé</td><td className="px-4 py-3">DD → E+</td><td className="px-4 py-3">Very large, dramatic projection</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* Breast Implant Cup Size Chart */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Breast Implant Cup Size Chart</h3>
+                <img src="/images/breast-implant-cup-size-chart.jpeg" alt="Breast Implant Cup Size Chart" className="w-full rounded-lg shadow-lg mb-4" />
+                <p className="text-gray-700">Volume to Cup Size Guide showing the relationship between desired results and implant volumes needed.</p>
+              </div>
+
+              {/* Breast Implant Size Calculator Info */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Breast Implant Size Calculator</h3>
+                <p className="text-gray-700 mb-3">A breast implant calculator simplifies your size selection by converting your desired cup size into cc volume. Most calculators consider:</p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                  <li>Current band and cup size</li>
+                  <li>Desired cup size</li>
+                  <li>Chest width and frame</li>
+                  <li>Existing breast tissue</li>
+                </ul>
+                <p className="text-gray-700 mt-3 font-semibold">Pro Tip:</p>
+                <p className="text-gray-700">Use a breast implant bra size calculator or breast implant cup size calculator for preliminary planning, but always consult a certified surgeon for final recommendations.</p>
+              </div>
+
+              {/* Breast Enlargement Size Chart */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Breast Enlargement Size Chart</h3>
+                <img src="/images/breast-enlargement-size-chart.jpeg" alt="Breast Enlargement Size Chart" className="w-full rounded-lg shadow-lg mb-4" />
+                <p className="text-gray-700">Visual comparison showing breast sizes from A cup through H cup on different body frames, demonstrating how the same cup size appears different based on individual anatomy.</p>
+              </div>
+
+              {/* Implant Volume, Diameter, and Profile */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Implant Volume, Diameter, and Profile</h3>
+                <div className="overflow-x-auto mb-4">
+                  <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow">
+                    <thead className="bg-gradient-to-r from-pink-600 to-purple-600">
+                      <tr>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Feature</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">What It Means</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Surgical Impact</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr><td className="px-4 py-3 font-medium">Volume (cc)</td><td className="px-4 py-3">Total implant size</td><td className="px-4 py-3">Determines cup increase</td></tr>
+                      <tr className="bg-gray-50"><td className="px-4 py-3 font-medium">Diameter (mm/cm)</td><td className="px-4 py-3">Implant width across the chest</td><td className="px-4 py-3">Must match your breast base width</td></tr>
+                      <tr><td className="px-4 py-3 font-medium">Projection/Profile</td><td className="px-4 py-3">How far implant protrudes from chest</td><td className="px-4 py-3">Low, Moderate, High profiles affect shape</td></tr>
+                      <tr className="bg-gray-50"><td className="px-4 py-3 font-medium">Shape</td><td className="px-4 py-3">Round vs Teardrop</td><td className="px-4 py-3">Round gives upper fullness; teardrop mimics natural slope</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-gray-700 mb-2 font-semibold">Example:</p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-3">
+                  <li>350cc, 12cm diameter, moderate profile → balanced, natural enhancement</li>
+                  <li>350cc, 12cm diameter, high profile → more forward projection</li>
+                </ul>
+                <p className="text-gray-700">Matching implant diameter to your chest base width is critical. Too wide → implants may extend to armpits; too narrow → unnatural look.</p>
+              </div>
+
+              {/* Breast Implant Types */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Breast Implant Types</h3>
+                <div className="overflow-x-auto mb-4">
+                  <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow">
+                    <thead className="bg-gradient-to-r from-pink-600 to-purple-600">
+                      <tr>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Implant Type</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Fill Material</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Weight</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Pros</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Cons</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr>
+                        <td className="px-4 py-3 font-medium">Silicone</td>
+                        <td className="px-4 py-3">Cohesive gel</td>
+                        <td className="px-4 py-3">0.8 lbs / 350cc</td>
+                        <td className="px-4 py-3">Natural feel, less visible rippling</td>
+                        <td className="px-4 py-3">Slightly heavier, larger incision</td>
+                      </tr>
+                      <tr className="bg-gray-50">
+                        <td className="px-4 py-3 font-medium">Saline</td>
+                        <td className="px-4 py-3">Sterile salt water</td>
+                        <td className="px-4 py-3">0.77 lbs / 350cc</td>
+                        <td className="px-4 py-3">Can adjust volume during surgery, smaller incision</td>
+                        <td className="px-4 py-3">Less natural feel, more prone to rippling</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-gray-700">Advanced options like Motiva implants offer new-generation silicone gels that mimic natural breast movement.</p>
+              </div>
+
+              {/* Silicone Implant Size Chart */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Silicone Implant Size Chart</h3>
+                <img src="/images/silicone-size-chart.jpeg" alt="Silicone Implant Size Chart" className="w-full rounded-lg shadow-lg mb-4" />
+                <p className="text-gray-700">This chart shows silicone implant volumes across different profiles: Moderate (low projection), Moderate Plus (medium projection), High (increased projection), and Ultra High (maximum projection). Each profile affects the final appearance and projection from the chest wall.</p>
+              </div>
+
+              {/* Implant Placement Options */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Implant Placement Options</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow">
+                    <thead className="bg-gradient-to-r from-pink-600 to-purple-600">
+                      <tr>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Placement</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Location</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Benefits</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Considerations</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr>
+                        <td className="px-4 py-3 font-medium">Subglandular</td>
+                        <td className="px-4 py-3">Above muscle, below breast tissue</td>
+                        <td className="px-4 py-3">Faster recovery, easier surgery</td>
+                        <td className="px-4 py-3">May show rippling if tissue is thin</td>
+                      </tr>
+                      <tr className="bg-gray-50">
+                        <td className="px-4 py-3 font-medium">Submuscular/Dual-plane</td>
+                        <td className="px-4 py-3">Partially under chest muscle</td>
+                        <td className="px-4 py-3">More natural slope, reduced rippling</td>
+                        <td className="px-4 py-3">Longer recovery, may affect muscle movement</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* Choosing the Right Implant Size */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Choosing the Right Implant Size</h3>
+                <p className="text-gray-700 mb-3 font-semibold">Factors to Consider:</p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                  <li><strong>Body Frame and Chest Width</strong> – Taller or wider-chested individuals can often support larger implants.</li>
+                  <li><strong>Existing Breast Tissue</strong> – Less tissue may require smaller implants or submuscular placement.</li>
+                  <li><strong>Skin Elasticity</strong> – Determines how well the skin stretches to accommodate volume.</li>
+                  <li><strong>Lifestyle & Activity</strong> – Athletes or physically active people may prefer smaller or moderate-profile implants.</li>
+                  <li><strong>Aesthetic Goals</strong> – Subtle vs dramatic enhancement. Bring photos of results you like.</li>
+                </ul>
+              </div>
+
+              {/* Breast Implant Size Chart CC */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Breast Implant Size Chart CC to Approximate Cup Increase</h3>
+                <img src="/images/breast-implant-cc-chart.jpeg" alt="Breast Implant Size Chart CC" className="w-full rounded-lg shadow-lg mb-4" />
+                <div className="overflow-x-auto mb-4">
+                  <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow">
+                    <thead className="bg-gradient-to-r from-pink-600 to-purple-600">
+                      <tr>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Implant Volume (cc)</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Approximate Cup Increase</th>
+                        <th className="px-4 py-3 text-left text-white font-semibold">Notes</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr><td className="px-4 py-3">100–150</td><td className="px-4 py-3">~0.5 cup</td><td className="px-4 py-3">Very subtle enhancement</td></tr>
+                      <tr className="bg-gray-50"><td className="px-4 py-3">150–200</td><td className="px-4 py-3">~1 cup</td><td className="px-4 py-3">Natural-looking increase</td></tr>
+                      <tr><td className="px-4 py-3">250–300</td><td className="px-4 py-3">~1.5 cups</td><td className="px-4 py-3">Moderate enhancement</td></tr>
+                      <tr className="bg-gray-50"><td className="px-4 py-3">350–400</td><td className="px-4 py-3">~2 cups</td><td className="px-4 py-3">Noticeable, full effect</td></tr>
+                      <tr><td className="px-4 py-3">450–500</td><td className="px-4 py-3">~2.5–3 cups</td><td className="px-4 py-3">Dramatic change, only suitable for larger frames</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-gray-700">This chart is a guideline. Final results depend on chest width, tissue, and implant placement.</p>
+              </div>
+
+              {/* Breast Implant Size Visualizers & Simulators */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Breast Implant Size Visualizers & Simulators</h3>
+                <p className="text-gray-700 mb-3">Modern clinics use 3D simulation software to visualize implants:</p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                  <li>Compare sizes (e.g., 300cc vs 400cc)</li>
+                  <li>See different profiles (low, moderate, high)</li>
+                  <li>Preview results from multiple angles</li>
+                </ul>
+                <p className="text-gray-700 mt-3">This tool improves confidence and communication between patient and surgeon.</p>
+              </div>
+
+              {/* Breast Implant Size Chart Motiva */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Breast Implant Size Chart Motiva</h3>
+                <img src="/images/motiva.jpeg" alt="Breast Implant Size Chart Motiva" className="w-full rounded-lg shadow-lg mb-4" />
+                <p className="text-gray-700 mb-3">Motiva breast implants are measured in cubic centimeters (cc), which indicates the volume of the implant. However, the final appearance depends not only on cc but also on the implant profile (Mini, Demi, Full, Corsé) and base width, which must match your natural breast/chest size.</p>
+                <p className="text-gray-700 mb-3 font-semibold">Points:</p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-3">
+                  <li><strong>Volume (cc):</strong> 100–700+ cc; measures silicone inside implant.</li>
+                  <li><strong>Profiles:</strong>
+                    <ul className="list-circle pl-6 mt-2 space-y-1">
+                      <li>Mini → low projection, subtle</li>
+                      <li>Demi → moderate, natural</li>
+                      <li>Full → higher, fuller look</li>
+                      <li>Corsé → maximum projection, dramatic</li>
+                    </ul>
+                  </li>
+                  <li><strong>Base width:</strong> Should match your breast/chest width for natural fit.</li>
+                  <li><strong>Appearance by cc (approx.):</strong>
+                    <ul className="list-circle pl-6 mt-2 space-y-1">
+                      <li>100–250 cc → small increase (A→B)</li>
+                      <li>250–350 cc → moderate increase (B→C)</li>
+                      <li>350–450 cc → noticeable (C→D)</li>
+                      <li>450–550 cc → large (D→DD)</li>
+                      <li>550–700+ cc → very large (DD→E+)</li>
+                    </ul>
+                  </li>
+                  <li><strong>Important:</strong> Same cc looks different on different people due to chest width, tissue thickness, and implant profile.</li>
+                  <li><strong>Tip:</strong> Surgeons use sizers to try different sizes/profiles before surgery.</li>
+                </ul>
+              </div>
+
+              {/* Breast Implant Post-Operative Care */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Breast Implant Post-Operative Care</h3>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                  <li>Wear surgical bras 24/7 for first weeks</li>
+                  <li>Avoid lifting heavy objects or intense exercise</li>
+                  <li>Expect "drop and fluff" process: 3–6 months for implants to settle</li>
+                  <li>Professional bra fitting after healing is essential</li>
+                  <li>Monitor implant health over years; consider potential replacement</li>
+                </ul>
+              </div>
+
+              {/* Common Questions About Implant Sizing */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Common Questions About Implant Sizing</h3>
+                <div className="space-y-4">
+                  <div className="bg-pink-50 p-4 rounded-lg">
+                    <p className="font-semibold text-pink-900 mb-2">Q1: What is the most common breast implant size?</p>
+                    <p className="text-gray-700">Typically 300–400cc for an average frame (1.5–2 cup increase)</p>
+                  </div>
+                  <div className="bg-purple-50 p-4 rounded-lg">
+                    <p className="font-semibold text-purple-900 mb-2">Q2: Can I breastfeed after implants?</p>
+                    <p className="text-gray-700">Yes, especially with inframammary (under-breast) incisions</p>
+                  </div>
+                  <div className="bg-pink-50 p-4 rounded-lg">
+                    <p className="font-semibold text-pink-900 mb-2">Q3: How long does it take for implants to settle?</p>
+                    <p className="text-gray-700">3–6 months for final position and softness</p>
+                  </div>
+                  <div className="bg-purple-50 p-4 rounded-lg">
+                    <p className="font-semibold text-purple-900 mb-2">Q4: How do I choose between small and large implants?</p>
+                    <p className="text-gray-700">Balance aesthetic goals, lifestyle, and body frame. Smaller implants → natural look, larger → more dramatic.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Expert Insights */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Expert Insights</h3>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                  <li><strong>Dr. Anca Breahna (UK)</strong> – Emphasizes natural, proportional results tailored to anatomy</li>
+                  <li><strong>Dr. Craig Rubinstein (Melbourne)</strong> – Advocate of 3D imaging and implant width matching</li>
+                  <li><strong>Dr. Juan Carlos</strong> – Breast reconstruction specialist highlighting natural slope and contour</li>
+                </ul>
+                <p className="text-gray-700 mt-3">Modern aesthetic surgery combines technical expertise, visualization, and patient-first planning.</p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
         {/* Rating Section */}
         <div className="mt-12">
           <RatingProfileSection
@@ -546,12 +895,6 @@ export default function BreastImplantSizeCalculatorClient({ content, guideConten
             initialRatingCount={0}
           />
         </div>
-        {/* Educational Guide */}
-        {guideContent && (
-          <div className="mt-12">
-            <CalculatorGuide data={guideContent} />
-          </div>
-        )}
       </div>
     </div>
   )
