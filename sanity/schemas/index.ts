@@ -7,6 +7,7 @@ import communityUser from './community-user';
 import communityPost from './community-post';
 import communityComment from './community-comment';
 import communityReaction from './community-reaction';
+import commentLike from './comment-like';
 
 export const schemaTypes = [
   blog, 
@@ -18,5 +19,6 @@ export const schemaTypes = [
   communityPost,
   communityComment,
   communityReaction,
+  commentLike,
 ];
 

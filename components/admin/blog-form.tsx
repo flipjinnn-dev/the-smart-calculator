@@ -10,6 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { createBlog, updateBlog } from '@/lib/actions/blog-actions';
 import { toast } from 'sonner';
 import { Loader2, Save } from 'lucide-react';
+import { RichTextEditor } from '@/components/ui/rich-text-editor';
 import {
   Select,
   SelectContent,
@@ -148,14 +149,10 @@ export function BlogForm({ blog, authors, categories }: BlogFormProps) {
             <Label htmlFor="excerpt" className="text-sm font-semibold text-gray-700">
               Excerpt *
             </Label>
-            <Textarea
-              id="excerpt"
-              value={formData.excerpt}
-              onChange={(e) => setFormData({ ...formData, excerpt: e.target.value })}
-              required
-              rows={3}
-              placeholder="Brief description of the blog post"
-              className="border-2 border-gray-300 focus:border-blue-500"
+            <RichTextEditor
+              content={formData.excerpt}
+              onChange={(content) => setFormData({ ...formData, excerpt: content })}
+              placeholder="Brief description of the blog post with rich formatting..."
             />
           </div>
 

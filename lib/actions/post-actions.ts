@@ -92,11 +92,18 @@ export async function getApprovedPosts(limit = 20, offset = 0) {
         images,
         "author": author->{name, image},
         createdAt,
-        "comments": *[_type == "communityComment" && post._ref == ^._id && status == "approved"] | order(createdAt asc) {
+        "comments": *[_type == "communityComment" && post._ref == ^._id && status == "approved" && !defined(parentComment)] | order(createdAt asc) {
           _id,
           content,
           "author": author->{name, image},
-          createdAt
+          createdAt,
+          "likeCount": count(*[_type == "commentLike" && comment._ref == ^._id]),
+          "replies": *[_type == "communityComment" && parentComment._ref == ^._id && status == "approved"] | order(createdAt asc) {
+            _id,
+            content,
+            "author": author->{name, image},
+            createdAt
+          }
         },
         "commentCount": count(*[_type == "communityComment" && post._ref == ^._id && status == "approved"]),
         "reactionCount": count(*[_type == "communityReaction" && post._ref == ^._id])
@@ -142,11 +149,18 @@ export async function getPostBySlug(slug: string, includeUnapproved = false) {
       "author": author->{_id, name, image},
       status,
       createdAt,
-      "comments": *[_type == "communityComment" && post._ref == ^._id && status == "approved"] | order(createdAt asc) {
+      "comments": *[_type == "communityComment" && post._ref == ^._id && status == "approved" && !defined(parentComment)] | order(createdAt asc) {
         _id,
         content,
         "author": author->{name, image},
-        createdAt
+        createdAt,
+        "likeCount": count(*[_type == "commentLike" && comment._ref == ^._id]),
+        "replies": *[_type == "communityComment" && parentComment._ref == ^._id && status == "approved"] | order(createdAt asc) {
+          _id,
+          content,
+          "author": author->{name, image},
+          createdAt
+        }
       },
       "reactionCount": count(*[_type == "communityReaction" && post._ref == ^._id])
     }`;

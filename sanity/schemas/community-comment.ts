@@ -28,6 +28,13 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
+      name: 'parentComment',
+      title: 'Parent Comment',
+      type: 'reference',
+      to: [{ type: 'communityComment' }],
+      description: 'If this is a reply, reference the parent comment',
+    }),
+    defineField({
       name: 'status',
       title: 'Status',
       type: 'string',

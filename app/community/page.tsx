@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import { getApprovedPosts } from '@/lib/actions/post-actions';
 import { getCurrentUser } from '@/lib/auth-utils';
 import { hasUserReacted } from '@/lib/actions/reaction-actions';
+import { hasUserLikedComment } from '@/lib/actions/comment-actions';
 import { CommunityContent } from '@/components/community/community-content';
 
 export const metadata = {
@@ -47,7 +48,20 @@ export default async function CommunityPage() {
     posts.map((post: any) => hasUserReacted(post._id, user.userId!))
   ) : [];
 
-  const trendingPosts = posts
+  // Add hasUserLiked status to each comment in all posts
+  const postsWithCommentLikeStatus = user ? await Promise.all(
+    posts.map(async (post: any) => ({
+      ...post,
+      comments: await Promise.all(
+        (post.comments || []).map(async (comment: any) => ({
+          ...comment,
+          hasUserLiked: await hasUserLikedComment(comment._id, user.userId!),
+        }))
+      ),
+    }))
+  ) : posts;
+
+  const trendingPosts = postsWithCommentLikeStatus
     .sort((a: any, b: any) => (b.reactionCount + b.commentCount) - (a.reactionCount + a.commentCount))
     .slice(0, 5);
 
@@ -62,7 +76,7 @@ export default async function CommunityPage() {
   return (
     <Suspense fallback={<CommunityLoadingSkeleton />}>
       <CommunityContent 
-        posts={posts}
+        posts={postsWithCommentLikeStatus}
         userReactions={userReactions}
         user={user}
         trendingPosts={trendingPosts}

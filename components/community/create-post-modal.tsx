@@ -17,18 +17,23 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { createPost } from '@/lib/actions/post-actions';
 import { toast } from 'sonner';
+import { RichTextEditor } from '@/components/ui/rich-text-editor';
 
 export function CreatePostModal() {
   const [open, setOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [images, setImages] = useState<File[]>([]);
+  const [content, setContent] = useState('');
+  const [title, setTitle] = useState('');
   const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
 
-    const formData = new FormData(e.currentTarget);
+    const formData = new FormData();
+    formData.append('title', title);
+    formData.append('content', content);
     images.forEach((image) => {
       formData.append('images', image);
     });
@@ -39,6 +44,9 @@ export function CreatePostModal() {
       toast.error(result.error);
     } else {
       toast.success('Post submitted for review!');
+      setTitle('');
+      setContent('');
+      setImages([]);
       setOpen(false);
       router.refresh();
     }
@@ -80,7 +88,8 @@ export function CreatePostModal() {
             </Label>
             <Input
               id="title"
-              name="title"
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
               placeholder="Write a clear, descriptive title..."
               required
               minLength={10}
@@ -97,13 +106,11 @@ export function CreatePostModal() {
             <Label htmlFor="content" className="text-sm font-bold text-gray-700 group-focus-within:text-blue-600 transition-colors">
               Content <span className="text-red-500">*</span>
             </Label>
-            <Textarea
-              id="content"
-              name="content"
-              placeholder="Share your thoughts in detail..."
-              required
-              rows={8}
-              className="resize-none text-base border-2 border-gray-200 bg-gray-50/50 focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10 transition-all rounded-xl placeholder:text-gray-400 p-4 leading-relaxed"
+            <RichTextEditor
+              content={content}
+              onChange={setContent}
+              placeholder="Share your thoughts with rich formatting..."
+              className="min-h-[200px]"
             />
           </div>
 

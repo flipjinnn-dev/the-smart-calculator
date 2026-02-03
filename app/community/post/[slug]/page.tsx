@@ -6,6 +6,7 @@ import { ArrowLeft, User, Calendar } from 'lucide-react';
 import { getPostBySlug } from '@/lib/actions/post-actions';
 import { hasUserReacted } from '@/lib/actions/reaction-actions';
 import { getCurrentUser } from '@/lib/auth-utils';
+import { hasUserLikedComment } from '@/lib/actions/comment-actions';
 import { CommentSection } from '@/components/community/comment-section';
 import { ReactionButton } from '@/components/community/reaction-button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -96,6 +97,14 @@ export default async function PostPage({ params }: PostPageProps) {
   const hasReacted = user ? await hasUserReacted(post._id, user.userId!) : false;
   const isAuthenticated = !!user;
 
+  // Add hasUserLiked status to each comment
+  const commentsWithLikeStatus = user ? await Promise.all(
+    (post.comments || []).map(async (comment: any) => ({
+      ...comment,
+      hasUserLiked: await hasUserLikedComment(comment._id, user.userId!),
+    }))
+  ) : post.comments || [];
+
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50/30 to-purple-50/20">
         <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -162,7 +171,7 @@ export default async function PostPage({ params }: PostPageProps) {
         {/* Comments Section */}
         <CommentSection 
           postId={post._id}
-          comments={post.comments || []}
+          comments={commentsWithLikeStatus}
           isAuthenticated={isAuthenticated}
         />
       </div>

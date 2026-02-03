@@ -1,5 +1,8 @@
+'use client';
+
+import { useState } from 'react';
 import { formatDistanceToNow } from 'date-fns';
-import { Calendar, MessageSquare, Eye, Share2, Bookmark } from 'lucide-react';
+import { Calendar, MessageSquare, Eye, Share2, Check } from 'lucide-react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
@@ -9,6 +12,7 @@ import { PortableText } from '@portabletext/react';
 import { ReactionButton } from './reaction-button';
 import { CommentSection } from './comment-section';
 import Link from 'next/link';
+import { toast } from 'sonner';
 
 interface PostCardProps {
   post: {
@@ -31,13 +35,39 @@ interface PostCardProps {
 }
 
 export function PostCard({ post, hasReacted, isAuthenticated }: PostCardProps) {
+  const [showComments, setShowComments] = useState(false);
+  const [isSharing, setIsSharing] = useState(false);
   const mockViewCount = 245;
+
+  const handleShare = async () => {
+    const postUrl = `${window.location.origin}/community/post/${post.slug.current}`;
+    
+    try {
+      if (navigator.share) {
+        await navigator.share({
+          title: post.title,
+          text: `Check out this post: ${post.title}`,
+          url: postUrl,
+        });
+        toast.success('Post shared successfully!');
+      } else {
+        await navigator.clipboard.writeText(postUrl);
+        setIsSharing(true);
+        toast.success('Link copied to clipboard!');
+        setTimeout(() => setIsSharing(false), 2000);
+      }
+    } catch (error) {
+      if ((error as Error).name !== 'AbortError') {
+        toast.error('Failed to share post');
+      }
+    }
+  };
   
   return (
     <Card className="shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-200 bg-white overflow-hidden rounded-3xl hover:-translate-y-1 group">
       
       <CardHeader className="bg-gradient-to-br from-white to-gray-50/50 p-6 border-b-2 border-gray-100">
-        <div className="flex items-start justify-between gap-4 mb-4">
+        <div className="flex items-start gap-4 mb-4">
           <div className="flex items-center gap-3">
             <Link href={`/profile/${createUsernameSlug(post.author.name)}`} className="group/avatar">
               <Avatar className="w-14 h-14 border-2 border-white shadow-lg ring-2 ring-gray-100 group-hover/avatar:ring-blue-400 transition-all">
@@ -59,9 +89,6 @@ export function PostCard({ post, hasReacted, isAuthenticated }: PostCardProps) {
               </div>
             </div>
           </div>
-          <Button variant="ghost" size="sm" className="rounded-lg hover:bg-blue-50 hover:text-blue-600">
-            <Bookmark className="w-4 h-4" />
-          </Button>
         </div>
         
         <Link href={`/community/post/${post.slug.current}`}>
@@ -102,13 +129,20 @@ export function PostCard({ post, hasReacted, isAuthenticated }: PostCardProps) {
                 hasReacted={hasReacted}
                 isAuthenticated={isAuthenticated}
               />
-              <Link href={`/community/post/${post.slug.current}#comments`}>
-                <Button variant="outline" size="default" className="gap-2 h-10 px-5 rounded-lg border-2 border-gray-200 hover:border-purple-400 hover:bg-purple-50 hover:text-purple-600 transition-all">
-                  <MessageSquare className="w-4 h-4" />
-                  <span className="font-semibold">{post.commentCount}</span>
-                  <span className="hidden sm:inline">Comments</span>
-                </Button>
-              </Link>
+              <Button 
+                variant="outline" 
+                size="default" 
+                onClick={() => setShowComments(!showComments)}
+                className={`gap-2 h-10 px-5 rounded-lg border-2 transition-all ${
+                  showComments 
+                    ? 'border-purple-500 bg-purple-50 text-purple-600' 
+                    : 'border-gray-200 hover:border-purple-400 hover:bg-purple-50 hover:text-purple-600'
+                }`}
+              >
+                <MessageSquare className="w-4 h-4" />
+                <span className="font-semibold">{post.commentCount}</span>
+                <span className="hidden sm:inline">{showComments ? 'Hide' : 'View'} Comments</span>
+              </Button>
             </div>
             
             <div className="flex items-center gap-3">
@@ -116,21 +150,38 @@ export function PostCard({ post, hasReacted, isAuthenticated }: PostCardProps) {
                 <Eye className="w-4 h-4" />
                 <span className="font-medium">{mockViewCount}</span>
               </div>
-              <Button variant="ghost" size="sm" className="gap-2 rounded-lg hover:bg-green-50 hover:text-green-600">
-                <Share2 className="w-4 h-4" />
-                <span className="hidden sm:inline text-sm font-medium">Share</span>
+              <Button 
+                variant="ghost" 
+                size="sm" 
+                onClick={handleShare}
+                className={`gap-2 rounded-lg transition-all ${
+                  isSharing 
+                    ? 'bg-green-100 text-green-600' 
+                    : 'hover:bg-green-50 hover:text-green-600'
+                }`}
+              >
+                {isSharing ? (
+                  <Check className="w-4 h-4" />
+                ) : (
+                  <Share2 className="w-4 h-4" />
+                )}
+                <span className="hidden sm:inline text-sm font-medium">
+                  {isSharing ? 'Copied!' : 'Share'}
+                </span>
               </Button>
             </div>
           </div>
         </div>
 
-        <div className="px-6 py-6 border-t-2 border-gray-100 bg-white">
-          <CommentSection
-            postId={post._id}
-            comments={post.comments || []}
-            isAuthenticated={isAuthenticated}
-          />
-        </div>
+        {showComments && (
+          <div className="px-6 py-6 border-t-2 border-gray-100 bg-white">
+            <CommentSection
+              postId={post._id}
+              comments={post.comments || []}
+              isAuthenticated={isAuthenticated}
+            />
+          </div>
+        )}
       </CardContent>
     </Card>
   );
