@@ -5,13 +5,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for sales-tax-calculator
 const salestaxcalculatorMeta = {
   en: {
-    title: "Sales Tax Calculator State & Local Tax Estimate",
+    title: "Sales Tax Calculator",
     description: "Calculate sales tax accurately by state or region using our Sales Tax Calculator for smarter purchase planning.",
     keywords: "sales tax calculator, tax purchases, local rates, online sales, shopping tool, budgeting calculator, free tax tool, tax estimate"
   },
   br: {
-    title: "Calculadora de Imposto de Vendas – Oblicz Podatek VAT Online Szybko",
-    description: "Użyj kalkulatora VAT online, aby łatwo obliczyć kwotę netto, brutto i podatek VAT. Proste, dokładne i darmowe narzędzie finansowe dla firm.",
+    title: " Calculadora de Impostos sobre Vendas",
+    description: "Use a calculadora de imposto sobre vendas para calcular taxas e valores rapidamente. Planeje seus pagamentos e simule agora mesmo!",
     keywords: "calculadora imposto vendas, imposto compras, taxas locais, online vendas, ferramenta compras, calculadora orçamento, gratuita ferramenta imposto, estimativa imposto"
   },
   pl: {

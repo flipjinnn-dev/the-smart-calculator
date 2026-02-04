@@ -10,8 +10,8 @@ const socialsecuritycalculatorMeta = {
     keywords: "social security calculator, benefits estimate, earnings history, online social, retirement tool, social planning, free security tool, benefit calculation"
   },
   br: {
-    title: "Simulador da Previdência – Calcule Aposentadoria Online",
-    description: "Use o Simulador da Previdência para calcular aposentadoria e contribuições. Planeje seu futuro financeiro com rapidez, clareza e precisão online.",
+    title: "Simulador da Previdência",
+    description: "Use o Simulador de Previdência para calcular sua aposentadoria, ver valores e planejar seu futuro financeiro. Comece agora e saiba quanto você pode economizar!",
     keywords: "simulador previdência, estimativa benefícios, história ganhos, online social, ferramenta aposentadoria, planejamento social, gratuita ferramenta segurança, cálculo benefício"
   },
   pl: {

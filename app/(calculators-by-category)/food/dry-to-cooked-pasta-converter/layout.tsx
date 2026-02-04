@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for dry-to-cooked-pasta-converter
 const drytocookedpastaconverterMeta = {
   en: {
-    title: "Dry to Cooked Pasta Calculator Pasta Conversion",
+    title: "Dry to Cooked Pasta Calculator - Pasta Conversion",
     description: "Convert dry pasta to cooked portions easily using our Dry to Cooked Pasta Calculator for meal planning.",
     keywords: "dry to cooked pasta converter, measurements tool, equivalents calculation, online pasta, cooking planning, portion calculator, free converter, pasta estimate"
   },
   br: {
-    title: "Conversor Macarrão Cru para Cozido – Medidas Precisas",
-    description: "Use o Conversor de Macarrão Cru para Cozido para calcular a quantidade exata de massa pronta. Cozinhe com precisão e evite desperdícios na receita.",
+    title: "Conversor de Macarrão Cru para Cozido",
+    description: "Use a calculadora para conversão de xícaras para libras com precisão. Planeje suas receitas e descubra a quantidade exata agora mesmo!",
     keywords: "conversor macarrão cru, cozido quantidade, precisão receita, evitar desperdícios, online conversor, porções tool, gratuita medida"
   },
   pl: {

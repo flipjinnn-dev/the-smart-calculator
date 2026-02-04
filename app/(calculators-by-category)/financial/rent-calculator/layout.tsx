@@ -10,8 +10,8 @@ const rentcalculatorMeta = {
     keywords: "rent calculator, monthly payments, affordability tool, online rent, housing planning, budgeting tool, free rent tool, rent estimate"
   },
   br: {
-    title: "Calculadora de Aluguel – Simule Valor e Ajustes de Contrato",
-    description: "Use a Calculadora de Aluguel para calcular reajustes, valores e custos mensais. Planeje seu orçamento e contratos com precisão e rapidez online.",
+    title: "Calculadora de Aluguel Grátis",
+    description: "Use a calculadora de aluguel para calcular valores e reajustes rapidamente. Planeje seus gastos e simule o aluguel agora mesmo!",
     keywords: "calculadora aluguel, pagamentos mensais, ferramenta acessibilidade, online aluguel, planejamento habitação, ferramenta orçamento, gratuita ferramenta aluguel, estimativa aluguel"
   },
   pl: {

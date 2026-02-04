@@ -11,8 +11,8 @@ const inflationcalculatorMeta = {
     keywords: "inflation calculator, purchasing power, inflation impact, online inflation, economic planning, value adjustment, free inflation tool, time value"
   },
   br: {
-    title: "Calculadora de Inflação – Compare Preços e Poder de Compra",
-    description: "Use a Calculadora de Inflação para ver a variação de preços e o impacto no seu dinheiro. Simule o poder de compra ao longo dos anos com precisão.",
+    title: "Calculadora de inflação online gratuita ",
+    description: "Use a calculadora de inflação para calcular reajustes e perdas de poder de compra. Planeje suas finanças e simule agora mesmo!",
     keywords: "calculadora inflação, poder compra, impacto inflação, online inflação, planejamento econômico, ajuste valor, gratuita ferramenta inflação, valor tempo"
   },
   pl: {

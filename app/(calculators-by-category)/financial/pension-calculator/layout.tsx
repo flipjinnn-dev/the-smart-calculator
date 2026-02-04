@@ -5,13 +5,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for pension-calculator
 const pensioncalculatorMeta = {
   en: {
-    title: "Pension Calculator Retirement Income Planner",
+    title: "Pension Calculator",
     description: "Calculate expected pension income accurately with our Pension Calculator and plan a secure retirement.",
     keywords: "pension calculator, benefits estimate, salary years, online pension, retirement planning, free pension tool, service calculation, pension projection"
   },
   br: {
-    title: "Calculadora de Pensão Online – Calcule o Valor Correto",
-    description: "Use a Calculadora de Pensão para estimar valores de pensão alimentícia com base em renda e despesas. Ferramenta rápida, fácil e precisa online.",
+    title: "Calculadora de Pensão",
+    description: "Use a calculadora de pensão online grátis e fácil para calcular valores e parcelas. Planeje seus pagamentos rapidamente e sem complicações!",
     keywords: "calculadora pensão, estimativa benefícios, salário anos, online pensão, planejamento aposentadoria, gratuita ferramenta pensão, cálculo serviço, projeção pensão"
   },
   pl: {

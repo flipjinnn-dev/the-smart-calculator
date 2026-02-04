@@ -11,8 +11,8 @@ const cakepancalculatorMeta = {
     keywords: "cake pan calculator, sizes equivalent, round square, rectangular tool, online pan, baking calculator, free size tool, recipe adjustment"
   },
   br: {
-    title: "Cake Pan Calculator – Sizes Equivalent Online | TheSmartCalcul",
-    description: "Use a Calculadora Forma Bolo para calcular tamanhos equivalentes de formas redondas, quadradas e retangulares. Ferramenta precisa para ajustes em receitas de bolo.",
+    title: "Conversor de Formas de Bolo",
+    description: "Use o conversor de formas de bolo para ajustar receitas facilmente. Planeje suas preparações e descubra o tamanho ideal agora mesmo!",
     keywords: "calculadora forma bolo, tamanhos equivalentes, redondas quadradas, retangulares tool, online forma, ajustes receitas, gratuita calculadora"
   },
   pl: {

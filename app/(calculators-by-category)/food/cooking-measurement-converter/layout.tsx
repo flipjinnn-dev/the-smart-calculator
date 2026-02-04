@@ -11,8 +11,8 @@ const cookingmeasurementconverterMeta = {
     keywords: "cooking measurement converter, units tool, cups grams, spoons calculation, online converter, recipe adjustment, free cooking tool, kitchen calculator"
   },
   br: {
-    title: "Conversor Medidas Culinárias – Ingredientes Fácil",
-    description: "Use o Conversor de Medidas Culinárias para transformar gramas, litros e colheres. Cozinhe com precisão e pratique receitas sem erros de medida.",
+    title: "Conversor de Medidas Culinárias",
+    description: "Use o conversor de medidas culinárias para ajustar receitas com precisão. Planeje seus pratos e converta medidas facilmente agora mesmo!",
     keywords: "conversor medidas culinárias, transformar gramas, litros colheres, precisão receitas, online conversor, sem erros, cozinha tool"
   },
   pl: {

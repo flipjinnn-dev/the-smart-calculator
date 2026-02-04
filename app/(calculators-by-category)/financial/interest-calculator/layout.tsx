@@ -10,8 +10,8 @@ const interestcalculatorMeta = {
     keywords: "interest calculator, investment growth, interest calculation, buying power, online interest, inflation adjustment, financial projection, free interest tool"
   },
   br: {
-    title: "Calculadora de Juros – Calcule Juros Simples e Compostos",
-    description: "Use a Calculadora de Juros para calcular juros simples e compostos. Descubra valores, prazos e rendimentos com resultados rápidos e precisos.",
+    title: "Calculadora de Juros Grátis",
+    description: "Use a calculadora de juros online grátis para calcular rendimentos e crescimento do seu dinheiro. Planeje seus investimentos de forma simples e rápida!",
     keywords: "calculadora juros, crescimento investimento, cálculo juros, poder compra, online juros, ajuste inflação, projeção financeira, gratuita ferramenta juros"
   },
   pl: {

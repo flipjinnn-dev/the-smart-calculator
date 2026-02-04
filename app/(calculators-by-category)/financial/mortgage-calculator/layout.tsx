@@ -5,13 +5,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for mortgage-calculator
 const mortgagecalculatorMeta = {
   en: {
-    title: "Mortgage Calculator Monthly Payments & Interest",
+    title: "Mortgage Calculator",
     description: "Estimate monthly payments, total interest, and full amortization schedule with our Mortgage Calculator to plan your home loan confidently.",
     keywords: "mortgage calculator, monthly payments, total interest, amortization schedule, online mortgage, home financing, free mortgage tool, interest calculation"
   },
   br: {
-    title: "Simulador de Hipoteca Online – Cálculo de Financiamento",
-    description: "Use o Simulador de Hipoteca para calcular parcelas, juros e prazos. Planeje seu financiamento imobiliário com precisão e resultados rápidos.",
+    title: "Simulador de financiamento imobiliário",
+    description: "Use nossa simulador de financiamento imobiliário e descubra seu valor mensal em segundos. Clique agora e planeje seu futuro financeiro com precisão!",
     keywords: "simulador hipoteca, pagamentos mensais, interesse total, cronograma amortização, online hipoteca, financiamento casa, gratuita ferramenta hipoteca, cálculo interesse"
   },
   pl: {

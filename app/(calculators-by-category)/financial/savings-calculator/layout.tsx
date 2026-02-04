@@ -10,8 +10,8 @@ const savingscalculatorMeta = {
     keywords: "savings calculator, growth time, contributions tool, online savings, financial planning, goals calculator, free savings tool, growth estimate"
   },
   br: {
-    title: "Calculadora de Poupança – Simule Juros e Rendimentos",
-    description: "Use a Calculadora de Poupança para simular juros e ganhos mensais. Descubra quanto seu dinheiro pode render com cálculos rápidos e precisos.",
+    title: "Calculadora de Poupança",
+    description: "Use a calculadora de imposto sobre vendas para calcular taxas e valores rapidamente. Planeje seus pagamentos e simule agora mesmo!",
     keywords: "calculadora poupança, crescimento tempo, ferramenta contribuições, online poupança, planejamento financeiro, calculadora metas, gratuita ferramenta poupança, estimativa crescimento"
   },
   pl: {

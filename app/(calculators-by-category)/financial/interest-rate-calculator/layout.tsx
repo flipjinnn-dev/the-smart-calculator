@@ -10,8 +10,8 @@ const interestratecalculatorMeta = {
     keywords: "interest rate calculator, rates impact, loans investments, online rate, financial comparisons, free rate tool, rate calculation, investment planning"
   },
   br: {
-    title: "Calculadora de Taxa de Juros – Calcule Juros Simples e Compostos",
-    description: "Use a Calculadora de Taxa de Juros para simular juros simples e compostos. Descubra quanto vai pagar ou ganhar com resultados rápidos e precisos.",
+    title: "Calculadora de Taxa de Juros Grátis",
+    description: "Use a calculadora de taxa de juros para calcular rendimentos e pagamentos rapidamente. Planeje seus investimentos e simule agora mesmo!",
     keywords: "calculadora taxa juros, impacto taxas, empréstimos investimentos, online taxa, comparações financeiras, gratuita ferramenta taxa, cálculo taxa, planejamento investimento"
   },
   pl: {

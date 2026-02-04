@@ -10,8 +10,8 @@ const incometaxcalculatorMeta = {
     keywords: "income tax calculator, tax computation, deductions tool, exemptions, online tax, tax preparation, financial planning, free tax tool"
   },
   br: {
-    title: "Calculadora de Imposto de Renda – Simule e Calcule Online",
-    description: "Use a Calculadora de Imposto de Renda para simular valores e deduções. Descubra quanto pagar ou receber com cálculos rápidos e precisos online.",
+    title: "Calculadora de Imposto de Renda",
+    description: "Use a calculadora de imposto de renda para calcular tributos e restituições. Planeje suas finanças e simule seu imposto agora mesmo!",
     keywords: "calculadora imposto renda, computação imposto, ferramenta deduções, isenções, online imposto, preparação imposto, planejamento financeiro, gratuita ferramenta imposto"
   },
   pl: {

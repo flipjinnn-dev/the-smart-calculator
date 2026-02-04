@@ -5,13 +5,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for payment-calculator
 const paymentcalculatorMeta = {
   en: {
-    title: "Payment Calculator Monthly Payment Planner",
+    title: "Payment Calculator",
     description: "Estimate monthly or total payments accurately using our Payment Calculator for better budgeting.",
     keywords: "payment calculator, loan payments, fixed terms, online payment, financial planning, free payment tool, term determination, payment calculation"
   },
   br: {
-    title: "Calculadora de Pagamento – Simule Parcelas e Juros Online",
-    description: "Use a Calculadora de Pagamento para calcular parcelas, prazos e juros. Organize suas finanças com resultados rápidos e precisos online.",
+    title: "Calculadora de Pagamento",
+    description: "Use a calculadora de pagamento para calcular parcelas e valores rapidamente. Planeje seus pagamentos e simule agora mesmo!",
     keywords: "calculadora pagamento, pagamentos empréstimo, termos fixos, online pagamento, planejamento financeiro, gratuita ferramenta pagamento, determinação termo, cálculo pagamento"
   },
   pl: {

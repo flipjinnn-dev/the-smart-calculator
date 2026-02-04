@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for butter-calculator
 const buttercalculatorMeta = {
   en: {
-    title: "Butter Converter Butter Measurement Converter",
+    title: "Butter Conversion",
     description: "Convert butter units instantly using our Butter Converter for cooking and baking recipes with accurate measurements.",
     keywords: "butter calculator, measurements converter, sticks cups, tablespoons tool, online butter, cooking calculator, free converter, baking tool"
   },
   br: {
-    title: "Calculadora Manteiga – Conversor Medidas Online | TheSmartCalculator",
-    description: "Use a Calculadora Manteiga para converter medidas entre barras, xícaras, colheres e gramas. Ferramenta precisa e gratuita para cozinhar e assar receitas.",
+    title: "Calculadora de Manteiga",
+    description: "Use a calculadora de manteiga para medir a quantidade exata para suas receitas. Planeje sua cozinha e descubra a quantidade ideal agora mesmo!",
     keywords: "calculadora manteiga, conversor medidas, barras xícaras, colheres gramas, online manteiga, cozinhar tool, gratuita conversor"
   },
   pl: {

@@ -5,13 +5,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for mortgage-payoff-calculator
 const mortgagepayoffcalculatorMeta = {
   en: {
-    title: "Mortgage Payoff Calculator Pay Loan Off Early",
+    title: "Mortgage Payoff Calculator",
     description: "Find your mortgage payoff date and interest savings using our Mortgage Payoff Calculator.",
     keywords: "mortgage payoff calculator, payoff date, interest savings, online payoff, early repayment, free payoff tool, savings calculation, mortgage planning"
   },
   br: {
-    title: "Calculadora de Spłaty Kredytu Hipotecznego – Oblicz Ratę",
-    description: "Użyj kalkulatora spłaty kredytu hipotecznego online, aby obliczyć raty, odsetki i całkowity koszt. Proste, dokładne i darmowe narzędzie finansowe.",
+    title: "Calculadora de pagamento de hipoteca",
+    description: "Use a Calculadora de pagamento de hipoteca para calcular parcelas, juros e custo total da hipoteca. Simule agora e planeje seu financiamento com facilidade!",
     keywords: "calculadora spłata hipoteki, data spłaty, oszczędności odsetek, online spłata, wczesna spłata, gratuita ferramenta spłata, cálculo oszczędności, planejamento hipoteca"
   },
   pl: {

@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for cups-to-pounds-converter
 const cupstopoundsconverterMeta = {
   en: {
-    title: "Cups to Pounds Converter Ingredient Conversion",
+    title: "Cups to Pounds Converter",
     description: "Convert ingredients from cups to pounds instantly using our Cups to Pounds Converter for baking and cooking.",
     keywords: "cups to pounds converter, ingredients tool, measurements calculation, online converter, cooking baking, recipe adjustment, free cups tool, pounds estimate"
   },
   br: {
-    title: "Conversor Xícaras Libras – Ingredientes Online | TheSmartCalculator",
-    description: "Use o Conversor de Xícaras para Libras para converter medidas de vários ingredientes. Ferramenta precisa e gratuita para cozinhar, assar e ajustes de receitas.",
+    title: "Conversor de xícaras para libras",
+    description: "Use a calculadora para conversão de xícaras para libras com precisão. Planeje suas receitas e descubra a quantidade exata agora mesmo!",
     keywords: "conversor xícaras libras, ingredientes tool, medidas cálculo, online conversor, cozinhar assar, ajustes receitas, gratuita tool"
   },
   pl: {

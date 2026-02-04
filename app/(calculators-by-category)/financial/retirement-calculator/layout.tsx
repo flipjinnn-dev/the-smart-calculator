@@ -5,13 +5,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for retirement-calculator
 const retirementcalculatorMeta = {
   en: {
-    title: "Retirement Calculator Retirement Savings Planner",
+    title: "Retirement Calculator",
     description: "Plan retirement savings and income accurately using our Retirement Calculator for a secure future.",
     keywords: "retirement calculator, savings planning, contributions calculation, online retirement, goals tool, forecasting calculator, free retirement tool, retirement estimate"
   },
   br: {
-    title: "Calculadora de Aposentadoria – Planeje Seu Futuro Financeiro",
-    description: "Use a Calculadora de Aposentadoria para estimar quanto poupar e investir. Planeje sua renda futura com cálculos rápidos e resultados precisos.",
+    title: "Calculadora de Aposentadoria Online Grátis",
+    description: "Use o simulador de aposentadoria online grátis fácil para calcular seu futuro financeiro. Planeje sua aposentadoria de forma segura e rápida!",
     keywords: "calculadora aposentadoria, planejamento poupança, cálculo contribuições, online aposentadoria, ferramenta metas, calculadora previsão, gratuita ferramenta aposentadoria, estimativa aposentadoria"
   },
   pl: {

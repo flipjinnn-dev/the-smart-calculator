@@ -5,13 +5,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for salary-calculator
 const salarycalculatorMeta = {
   en: {
-    title: "Salary Calculator Take-Home Pay Calculator",
+    title: "Salary Calculator",
     description: "Calculate take-home pay after taxes and deductions using our Salary Calculator for income clarity.",
     keywords: "salary calculator, take home pay, taxes deductions, online salary, payroll tool, income planning, free salary tool, net pay"
   },
   br: {
-    title: "Calculadora de Salário – Calcule Salário Líquido e Bruto",
-    description: "Use a Calculadora de Salário para calcular salário líquido, descontos e benefícios. Descubra quanto vai receber com precisão e rapidez online.",
+    title: "Calculadora de Salário",
+    description: "Use a calculadora de salário para calcular descontos, impostos e líquido. Planeje seus ganhos e simule seu salário agora mesmo!",
     keywords: "calculadora salário, pagamento líquido, impostos deduções, online salário, ferramenta folha pagamento, planejamento renda, gratuita ferramenta salário, pagamento neto"
   },
   pl: {

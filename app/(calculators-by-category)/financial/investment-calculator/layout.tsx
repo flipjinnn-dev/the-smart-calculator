@@ -5,13 +5,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for investment-calculator
 const investmentcalculatorMeta = {
   en: {
-    title: "Investment Calculator Return on Investment",
+    title: "Investment Calculator",
     description: "Estimate investment returns and future value using our Investment Calculator for wealth growth.",
     keywords: "investment calculator, returns growth, projections tool, online investment, planning calculator, financial forecasting, free investment tool, growth estimate"
   },
   br: {
-    title: "Calculadora de Investimentos – Simule Ganhos e Rendimentos",
-    description: "Use a Calculadora de Investimentos para simular rendimentos, juros e lucros. Planeje seus ganhos com resultados rápidos e precisos online.",
+    title: "Calculadora de Investimentos",
+    description: "Use a calculadora de investimentos para calcular rendimentos e projeções financeiras. Planeje seus investimentos e simule agora mesmo!",
     keywords: "calculadora investimentos, crescimento retornos, ferramenta projeções, online investimento, calculadora planejamento, previsão financeira, gratuita ferramenta investimento, estimativa crescimento"
   },
   pl: {
