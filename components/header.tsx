@@ -44,12 +44,14 @@ const OTHER_CALCULATORS = [
   'groben-rechner', 'ip-subnetz-rechner', 'abschleppkosten-rechner',
   'calculadora-de-edad', 'calculadora-de-funciones-por-tramos', 'calculadora-de-roi-seo',
   'calculadora-rpe', 'calculadora-de-manutencion-infantil', 'calculadora-de-tiempo', 'calculadora-de-gpa',
-  'calculadora-de-altura', 'calculadora-subnet', 'calculadora-de-costos-de-remolque'
+  'calculadora-de-altura', 'calculadora-subnet', 'calculadora-de-costos-de-remolque',
+  'therapy-productivity-calculator'
 ]
 
 const ENGLISH_ONLY_PATHS = [
   '/implant-size-calculator',
-  '/maths/reverse-percentage-calculator'
+  '/maths/reverse-percentage-calculator',
+  '/therapy-productivity-calculator'
 ]
 
 const LANGUAGES = [

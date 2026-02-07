@@ -924,6 +924,16 @@ export const calculators: Calculator[] = [
     href: "/business/startup-costs-calculator",
     category: "business",
     popular: true,
+  },
+
+  // Other Calculators (English-only)
+  {
+    id: "therapy-productivity-calculator",
+    name: "Therapy Productivity Calculator",
+    description: "Measure therapist efficiency by comparing direct patient care time with total work hours. Track daily, weekly, or monthly productivity.",
+    href: "/therapy-productivity-calculator",
+    category: "other",
+    popular: false,
   }
 ]
 

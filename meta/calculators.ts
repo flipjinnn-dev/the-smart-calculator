@@ -3601,4 +3601,12 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "reverse percentage calculator, reverse percentages calculator, reverse percentage calculator online, reverse percentage discount calculator, reverse percentage formula, how to calculate reverse percentages, reverse percentage increase calculator, reverse percentage decrease calculator"
     }
   },
+  'therapy-productivity-calculator':{
+    en:{
+      title: "Therapy Productivity Calculator",
+      description: "Calculate therapy productivity with our free online calculator. Estimate patient load, therapy duration, and productivity metrics.",
+      slug: "/therapy-productivity-calculator",
+      keywords: "therapy productivity calculator, therapy productivity metrics, therapy productivity online, therapy productivity estimation, therapy productivity formula, therapy productivity increase calculator, therapy productivity decrease calculator"
+    }
+  }
 };
