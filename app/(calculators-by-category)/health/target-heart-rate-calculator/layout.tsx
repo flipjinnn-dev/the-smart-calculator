@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for target-heart-rate-calculator
 const targetheartratecalculatorMeta = {
   en: {
-    title: "Target Heart Rate Calculator - Training Zones",
+    title: "Target Heart Rate Calculator",
     description: "Find your ideal exercise heart rate with our Target Heart Rate Calculator to optimize workouts.",
     keywords: "target heart rate calculator, heart rate zone, exercise tool, online target, fitness training, cardio calculator, free heart tool, rate zone"
   },
   br: {
-    title: "Target Heart Rate Calculator – Zone Online | TheSmartCalculato",
-    description: "Use a Calculadora Frequência Cardíaca Alvo para calcular zona de frequência cardíaca para exercício. Ferramenta precisa e gratuita para fitness e treinamento cardio.",
+    title: "Frequência Cardíaca Máxima",
+    description: "Use a calculadora de frequência cardíaca máxima para planejar treinos e monitorar seu coração. Descubra seu valor agora mesmo!",
     keywords: "calculadora frequência cardíaca alvo, zona frequência cardíaca, ferramenta exercício, online alvo, treinamento fitness, calculadora cardio, gratuita ferramenta coração, zona taxa"
   },
   pl: {

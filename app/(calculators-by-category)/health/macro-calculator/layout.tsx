@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for macro-calculator
 const macrocalculatorMeta = {
   en: {
-    title: "Macro Calculator - Protein, Carbs & Fat",
+    title: "Macro Calculator",
     description: "Calculate daily macros using our Macro Calculator to plan meals and reach fitness goals.",
     keywords: "macro calculator, macronutrients, requirements tool, online macro, diet balance, nutrition goals, free macro tool, goals calculation"
   },
   br: {
-    title: "Calculadora Macro – Calcule Seus Macronutrientes Diários",
-    description: "Use a Calculadora Macro para saber quantos carboidratos, proteínas e gorduras consumir por dia. Monte sua dieta com equilíbrio e precisão online.",
+    title: "Calculadora Macro",
+    description: "Use a calculadora macro para calcular suas macros diárias ideais. Planeje sua dieta e treinos e simule suas macros agora mesmo!",
     keywords: "calculadora macro, macronutrientes, ferramenta requisitos, online macro, equilíbrio dieta, metas nutrição, gratuita ferramenta macro, cálculo metas"
   },
   pl: {

@@ -11,8 +11,8 @@ const periodcalculatorMeta = {
     keywords: "period calculator, menstrual cycle, ovulation dates, online period, women's health, fertility tracking, free cycle tool, date calculation"
   },
   br: {
-    title: "Calculadora de Período Fértil – Descubra Seus Dias Férteis",
-    description: "Use a Calculadora de Período Fértil para identificar os dias ideais para engravidar. Acompanhe seu ciclo menstrual com precisão e facilidade online.",
+    title: "Calculadora de Período Fértil",
+    description: "Use a Calculadora de Período Fértil para descobrir seus dias férteis e ovulação. Ferramenta simples, rápida e gratuita para acompanhar sua fertilidade.",
     keywords: "calculadora período fértil, ciclo menstrual, datas ovulação, online período, saúde mulheres, rastreamento fertilidade, gratuita ferramenta ciclo, cálculo data"
   },
   pl: {

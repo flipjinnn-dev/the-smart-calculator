@@ -11,8 +11,8 @@ const fatintakecalculatorMeta = {
     keywords: "fat intake calculator, daily goals, activity tool, needs calculation, online fat, diet balancing, free intake tool, nutrition planning"
   },
   br: {
-    title: "Calculadora de Gordura – Ingestão Diária Online | TheSmartCalculator",
-    description: "Use a Calculadora de Gordura para estimar necessidades diárias de gordura com base em atividade. Ferramenta precisa para equilíbrio dietético e nutrição.",
+    title: "Quantidade de Gordura por Dia",
+    description: "Descubra a quantidade de gordura por dia ideal para sua dieta. Use a calculadora, planeje sua alimentação e simule agora mesmo!",
     keywords: "calculadora gordura, diária necessidades, atividade base, equilíbrio dietético, online gordura, nutrição planning, precisa tool"
   },
   pl: {

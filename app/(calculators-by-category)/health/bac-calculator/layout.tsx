@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for bac-calculator
 const baccalculatorMeta = {
   en: {
-    title: "BAC Calculator - Blood Alcohol Level",
-    description: "Estimate blood alcohol content using our BAC Calculator to stay safe and informed.",
+    title: "Blood Alcohol Content Calculator",
+    description: "Estimate blood alcohol content calculator using our BAC Calculator to stay safe and informed.",
     keywords: "bac calculator, blood alcohol, content estimate, drinks tool, online bac, safety calculator, free alcohol tool, legal limits"
   },
   br: {
-    title: "Calculadora BAC – Nível Álcool Sangue Online | TheSmartCalculator",
-    description: "Use a Calculadora BAC para estimar o nível de álcool no sangue após beber. Saiba se está dentro do limite seguro para dirigir com precisão.",
+    title: "Calculadora BAC",
+    description: "Use a Calculadora BAC para estimar o álcool no sangue com base em bebidas, peso e tempo. Calculadora de álcool no sangue simples e gratuita.",
     keywords: "calculadora bac, nível álcool, sangue estimar, limite seguro, dirigir tool, online bac, precisa calculadora"
   },
   pl: {

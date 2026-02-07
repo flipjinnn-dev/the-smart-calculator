@@ -11,8 +11,8 @@ const ruckingCalorieCalculatorMeta = {
     keywords: "random number generator, random range, number generator, online random, game tool, simulation random, free random tool, range number"
   },
   br: {
-    title: "Calculadora de Calorias para Rucking – Estime Calorias Queimadas Durante o Rucking",
-    description: "Use nossa Calculadora de Calorias para Rucking para estimar com precisão as calorias queimadas durante os rucks com base no peso corporal, carga do ruck, ritmo, terreno e duração. Perfeito para perda de gordura, resistência e treino de força.",
+    title: "Calculadora de Calorias Queimadas",
+    description: "Use a calculadora de calorias queimadas para estimar quantas calorias você queima durante rucking ou caminhada com mochila. Simples, rápido e gratuito.",
     keywords: "calculadora de calorias para rucking, calorias queimadas, rucking, peso corporal, carga do ruck, ritmo, terreno, duração, perda de gordura, resistência, treino de força"
   },
   pl: {

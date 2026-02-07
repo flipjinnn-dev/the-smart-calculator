@@ -6,12 +6,12 @@ import Script from "next/script";
 // Multilingual SEO metadata for bmr-calculator
 const bmrcalculatorMeta = {
   en: {
-    title: "BMR Calculator - Basal Metabolic Rate",
+    title: "BMR Calculator",
     description: "Estimate resting calorie needs with our BMR Calculator to plan diet and fitness.",
     keywords: "bmr calculator, metabolic rate, calorie needs, age weight tool, online bmr, diet planning, free bmr calculator, basal rate"
   },
   br: {
-    title: "Calculadora TMB – Taxa Metabólica Online | TheSmartCalculator",
+    title: "Calculadora de Taxa Metabólica Basal",
     description: "Use a Calculadora TMB para descobrir quantas calorias seu corpo gasta em repouso. Ajuste sua dieta e treino com resultados rápidos e precisos baseados em dados.",
     keywords: "calculadora tmb, taxa metabólica, calorias repouso, dieta treino, online tmb, resultados rápidos, precisa calculadora"
   },

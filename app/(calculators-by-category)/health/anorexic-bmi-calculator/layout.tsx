@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for anorexic-bmi-calculator
 const anorexicbmicalculatorMeta = {
   en: {
-    title: "Anorexic BMI Calculator  Low BMI Checker",
+    title: "Anorexic BMI Calculator",
     description: "Monitor BMI safely using our Anorexic BMI Calculator for awareness and nutrition planning.",
     keywords: "anorexic bmi calculator, bmi for anorexia, health tool, online bmi, medical assessment, low weight calculator, free anorexic tool, index calculation"
   },
   br: {
-    title: "Calculadora IMC Anoréxico – Índice Online | TheSmartCalculator",
-    description: "Use a Calculadora IMC Anoréxico para calcular IMC em casos de anorexia. Ferramenta precisa e gratuita online para monitoramento de saúde e avaliação médica.",
+    title: "Calculadora de IMC",
+    description: "Use a calculadora de IMC para calcular seu índice de massa corporal com precisão. Planeje sua saúde e simule seu IMC agora mesmo!",
     keywords: "calculadora imc anoréxico, imc anorexia, ferramenta saúde, online imc, avaliação médica, baixa peso calculadora, gratuita tool"
   },
   pl: {

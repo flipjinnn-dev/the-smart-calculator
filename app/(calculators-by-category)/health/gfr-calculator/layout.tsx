@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for gfr-calculator
 const gfrcalculatorMeta = {
   en: {
-    title: "GFR Calculator - Kidney Function Estimate",
+    title: "GFR Calculator",
     description: "Assess kidney function using our GFR Calculator for quick renal health monitoring.",
     keywords: "gfr calculator, glomerular filtration rate, creatinine tool, online gfr, kidney health, medical assessment, free gfr tool, rate estimate"
   },
   br: {
-    title: "Calculadora GFR – Filtração Renal Online | TheSmartCalculator",
-    description: "Use a Calculadora GFR para estimar taxa de filtração glomerular de creatinina. Ferramenta precisa para monitoramento de saúde renal e avaliação médica.",
+    title: "TFG Calculator",
+    description: "Use a calculadora TFG para calcular a taxa de filtração glomerular e monitorar sua saúde renal. Descubra seus resultados agora mesmo!",
     keywords: "calculadora gfr, taxa filtração glomerular, ferramenta creatinina, online gfr, saúde renal, avaliação médica, gratuita tool"
   },
   pl: {

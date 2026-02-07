@@ -11,8 +11,8 @@ const pregnancycalculatorMeta = {
     keywords: "pregnancy calculator, gestation weeks, due date, baby development, online pregnancy, precision planning, gestation tool, week calculation"
   },
   br: {
-    title: "Calculadora de Gravidez – Acompanhe Sua Gestação Online",
-    description: "Use a pregnancy  – acompanhe sua gestação online para obter resultados rápidos e precisos. Entradas simples, saídas claras e contexto útil — grátis e fácil de usar.",
+    title: "Calculadora de Gravidez",
+    description: "Use a calculadora de gravidez para estimar datas importantes da gestação. Planeje sua gravidez e simule seu período agora mesmo!",
     keywords: "calculadora gravidez, semanas gestação, data parto, desenvolvimento bebê, online gravidez, planejamento precisão, ferramenta gestação, cálculo semana"
   },
   pl: {

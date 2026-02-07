@@ -11,9 +11,9 @@ const caloriecalculatorMeta = {
     keywords: "calorie calculator, daily needs, lifestyle tool, goals calculation, online calorie, diet management, free calorie tool, health planning"
   },
   br: {
-    title: "Calculadora de Calorias – Gasto Diário Online",
-    description: "Use a Calculadora de Calorias para controlar seu consumo e gasto diário. Planeje sua dieta e alcance seus objetivos de saúde com precisão.",
-    keywords: "calculadora de calorias, gasto diário, consumo controle, dieta planejamento, objetivos saúde, precisa tool, métricas calorias"
+    title: "Calculadora de calorías",
+    description: "Use a calculadora de calorias para calcular sua ingestão diária. Planeje sua dieta e treino e descubra suas calorias agora mesmo!",
+    keywords: "Calculador de calorías, gasto diário, consumo controle, dieta planejamento, objetivos saúde, precisa tool, métricas calorias"
   },
   pl: {
     title: "Kalkulator Kalorii – Spożycie Online | TheSmartCalculator",

@@ -11,8 +11,8 @@ const healthyweightcalculatorMeta = {
     keywords: "healthy weight calculator, weight range, height gender, online healthy, health goals, weight management, free weight calculator, range determine"
   },
   br: {
-    title: "Calculadora Peso Saudável – Faixa Online | TheSmartCalculator",
-    description: "Use a Calculadora Peso Saudável para determinar faixa baseada em altura e gênero. Ferramenta precisa para metas de saúde e gerenciamento de peso.",
+    title: "Peso Ideal para Altura",
+    description: "Use a calculadora de peso ideal para altura para descobrir seu peso saudável. Planeje sua saúde e simule seu peso agora mesmo!",
     keywords: "calculadora peso saudável, faixa peso, altura gênero, online saudável, metas saúde, gerenciamento peso, gratuita calculadora"
   },
   pl: {

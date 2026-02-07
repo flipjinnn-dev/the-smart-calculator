@@ -11,8 +11,8 @@ const carbohydratecalculatorMeta = {
     keywords: "carbohydrate calculator, daily needs, activity tool, goals calculation, online carb, diet balancing, free carb tool, nutrition planning"
   },
   br: {
-    title: "Calculadora Carboidratos – Ingestão Diária Ideal",
-    description: "Use a Calculadora de Carboidratos para saber quantos consumir por dia. Equilibre sua dieta e mantenha energia e saúde com precisão online.",
+    title: "Calculadora Carboidratos",
+    description: "Use a calculadora de carboidratos para calcular sua ingestão diária ideal. Planeje sua dieta e descubra seus carboidratos agora mesmo!",
     keywords: "calculadora carboidratos, ingestão diária, consumir dia, dieta equilíbrio, energia saúde, precisa online, metas calculadora"
   },
   pl: {

@@ -5,13 +5,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for body-type-calculator
 const bodytypecalculatorMeta = {
   en: {
-    title: "Body Type Calculator - Body Shape Identifier",
+    title: "Body Type Calculator",
     description: "Discover your body shape using our Body Type Calculator to optimize workout routines.",
     keywords: "body type calculator, measurements tool, characteristics analysis, online type, fitness planning, health calculator, free body tool, type estimate"
   },
   br: {
-    title: "Body Type Calculator – Measurements Online | TheSmartCalculato",
-    description: "Use a Calculadora de Biotipo Corporal para identificar se você é ectomorfo, mesomorfo ou endomorfo. Entenda seu corpo e otimize seus treinos com precisão.",
+    title: "Calculadora de Biotipo Corporal",
+    description: "Use a calculadora de biotipo corporal para descobrir seu tipo físico. Planeje treinos e saúde e simule seu biotipo agora mesmo!",
     keywords: "calculadora biotipo corporal, tipo físico, ectomorfo mesomorfo, ferramenta corpo online, otimizar treinos, precisa calculadora, saúde física"
   },
   pl: {
