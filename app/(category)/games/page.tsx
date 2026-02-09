@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
-import { Gamepad2, Trophy, Brain } from "lucide-react"
+import { Gamepad2, Trophy, Brain, Coins } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -21,6 +21,14 @@ export default function GamesPage() {
       icon: Brain,
       link: "/games/mental-maths",
       gradient: "from-purple-400 to-pink-500"
+    },
+    {
+      id: "coin-saver-challenge",
+      title: "Coin Saver Challenge",
+      description: "Drag and drop coins into the piggy bank before time runs out! Features levels, power-ups, and leaderboards.",
+      icon: Coins,
+      link: "/games/coin-saver-challenge",
+      gradient: "from-yellow-400 to-orange-500"
     }
   ]
 

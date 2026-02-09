@@ -4,6 +4,10 @@ import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Underline from '@tiptap/extension-underline';
 import Link from '@tiptap/extension-link';
+import { Table } from '@tiptap/extension-table';
+import { TableRow } from '@tiptap/extension-table-row';
+import { TableHeader } from '@tiptap/extension-table-header';
+import { TableCell } from '@tiptap/extension-table-cell';
 import { 
   Bold, 
   Italic, 
@@ -16,7 +20,10 @@ import {
   Heading2,
   Quote,
   Code,
-  Sparkles
+  Sparkles,
+  Table as TableIcon,
+  Plus,
+  Trash
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -45,6 +52,23 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
         openOnClick: false,
         HTMLAttributes: {
           class: 'text-blue-600 underline hover:text-blue-800',
+        },
+      }),
+      Table.configure({
+        resizable: true,
+        HTMLAttributes: {
+          class: 'border-collapse table-auto w-full my-4 border-2 border-gray-300 rounded-lg overflow-hidden',
+        },
+      }),
+      TableRow,
+      TableHeader.configure({
+        HTMLAttributes: {
+          class: 'bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold p-3 border border-gray-300',
+        },
+      }),
+      TableCell.configure({
+        HTMLAttributes: {
+          class: 'border border-gray-300 p-3',
         },
       }),
     ],
@@ -192,6 +216,43 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
           >
             <LinkIcon className="w-4 h-4" />
           </Button>
+        </div>
+
+        <div className="flex items-center gap-0.5 bg-white rounded-lg px-1 py-0.5 shadow-sm border border-gray-200">
+          <Button
+            type="button"
+            variant="ghost"
+            size="sm"
+            onClick={() => editor.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()}
+            className={`h-8 w-8 p-0 rounded-md transition-all ${editor.isActive('table') ? 'bg-gradient-to-br from-indigo-500 to-purple-600 text-white shadow-md' : 'hover:bg-gray-100'}`}
+            title="Insert Table"
+          >
+            <TableIcon className="w-4 h-4" />
+          </Button>
+          {editor.isActive('table') && (
+            <>
+              <Button
+                type="button"
+                variant="ghost"
+                size="sm"
+                onClick={() => editor.chain().focus().addColumnAfter().run()}
+                className="h-8 w-8 p-0 rounded-md hover:bg-gray-100"
+                title="Add Column"
+              >
+                <Plus className="w-3.5 h-3.5" />
+              </Button>
+              <Button
+                type="button"
+                variant="ghost"
+                size="sm"
+                onClick={() => editor.chain().focus().deleteTable().run()}
+                className="h-8 w-8 p-0 rounded-md hover:bg-red-100 hover:text-red-600"
+                title="Delete Table"
+              >
+                <Trash className="w-3.5 h-3.5" />
+              </Button>
+            </>
+          )}
         </div>
 
         <div className="flex-1" />

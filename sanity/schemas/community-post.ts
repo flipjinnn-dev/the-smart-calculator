@@ -49,7 +49,12 @@ export default defineType({
           },
         },
       ],
-      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'htmlContent',
+      title: 'HTML Content',
+      type: 'text',
+      description: 'Rich text editor HTML content',
     }),
     defineField({
       name: 'images',

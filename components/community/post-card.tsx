@@ -19,7 +19,8 @@ interface PostCardProps {
     _id: string;
     title: string;
     slug: { current: string };
-    content: any[];
+    content?: any[];
+    htmlContent?: string;
     author: {
       name: string;
       image?: string;
@@ -37,7 +38,36 @@ interface PostCardProps {
 export function PostCard({ post, hasReacted, isAuthenticated }: PostCardProps) {
   const [showComments, setShowComments] = useState(false);
   const [isSharing, setIsSharing] = useState(false);
-  const mockViewCount = 245;
+  
+  // Generate consistent random view count based on post ID
+  const getViewCount = (postId: string) => {
+    let hash = 0;
+    for (let i = 0; i < postId.length; i++) {
+      hash = ((hash << 5) - hash) + postId.charCodeAt(i);
+      hash = hash & hash;
+    }
+    return Math.abs(hash % 800) + 100; // Random between 100-900
+  };
+  const mockViewCount = getViewCount(post._id);
+
+  // Helper to extract HTML from PortableText if it contains HTML strings
+  const getHtmlFromPortableText = (content: any[]): string | null => {
+    if (!Array.isArray(content) || content.length === 0) return null;
+    
+    // Check if the first block contains HTML tags
+    const firstBlock = content[0];
+    if (firstBlock?.children?.[0]?.text) {
+      const text = firstBlock.children[0].text;
+      // Check if text contains HTML tags
+      if (text.includes('<') && text.includes('>')) {
+        // Extract all text from all blocks and join
+        return content
+          .map(block => block.children?.map((child: any) => child.text).join('') || '')
+          .join('\n');
+      }
+    }
+    return null;
+  };
 
   const handleShare = async () => {
     const postUrl = `${window.location.origin}/community/post/${post.slug.current}`;
@@ -116,7 +146,22 @@ export function PostCard({ post, hasReacted, isAuthenticated }: PostCardProps) {
 
         <div className="px-8 py-6">
           <div className="prose prose-base max-w-none text-gray-700 leading-relaxed">
-            <PortableText value={post.content} />
+            {post.htmlContent ? (
+              <div dangerouslySetInnerHTML={{ __html: post.htmlContent }} />
+            ) : post.content ? (
+              Array.isArray(post.content) ? (
+                (() => {
+                  const htmlContent = getHtmlFromPortableText(post.content);
+                  return htmlContent ? (
+                    <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+                  ) : (
+                    <PortableText value={post.content} />
+                  );
+                })()
+              ) : (
+                <div dangerouslySetInnerHTML={{ __html: post.content }} />
+              )
+            ) : null}
           </div>
         </div>
 

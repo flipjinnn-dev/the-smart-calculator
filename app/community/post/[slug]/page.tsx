@@ -105,6 +105,42 @@ export default async function PostPage({ params }: PostPageProps) {
     }))
   ) : post.comments || [];
 
+  // Helper to extract HTML from PortableText if it contains HTML strings
+  const getHtmlFromPortableText = (content: any[]): string | null => {
+    if (!Array.isArray(content) || content.length === 0) return null;
+    
+    const firstBlock = content[0];
+    if (firstBlock?.children?.[0]?.text) {
+      const text = firstBlock.children[0].text;
+      if (text.includes('<') && text.includes('>')) {
+        return content
+          .map(block => block.children?.map((child: any) => child.text).join('') || '')
+          .join('\n');
+      }
+    }
+    return null;
+  };
+
+  const renderContent = () => {
+    if (post.htmlContent) {
+      return <div dangerouslySetInnerHTML={{ __html: post.htmlContent }} />;
+    }
+    
+    if (post.content) {
+      if (Array.isArray(post.content)) {
+        const htmlContent = getHtmlFromPortableText(post.content);
+        return htmlContent ? (
+          <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+        ) : (
+          <PortableText value={post.content} />
+        );
+      }
+      return <div dangerouslySetInnerHTML={{ __html: post.content }} />;
+    }
+    
+    return null;
+  };
+
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50/30 to-purple-50/20">
         <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -154,7 +190,7 @@ export default async function PostPage({ params }: PostPageProps) {
 
           {/* Content */}
           <div className="prose prose-lg max-w-none">
-            <PortableText value={post.content} />
+            {renderContent()}
           </div>
 
           {/* Reaction Button */}

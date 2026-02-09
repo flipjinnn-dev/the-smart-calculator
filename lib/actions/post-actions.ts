@@ -37,21 +37,6 @@ export async function createPost(formData: FormData) {
       }
     }
 
-    const contentBlocks = content.split('\n').map(paragraph => ({
-      _type: 'block',
-      _key: Math.random().toString(36).substring(7),
-      style: 'normal',
-      children: [
-        {
-          _type: 'span',
-          _key: Math.random().toString(36).substring(7),
-          text: paragraph,
-          marks: [],
-        },
-      ],
-      markDefs: [],
-    }));
-
     const post = await sanityClient.create({
       _type: 'communityPost',
       title,
@@ -63,8 +48,7 @@ export async function createPost(formData: FormData) {
           .replace(/\s+/g, '-')
           .substring(0, 96),
       },
-      content: contentBlocks,
-      images: uploadedImages,
+      htmlContent: content,
       author: {
         _type: 'reference',
         _ref: session.user.userId,
@@ -89,6 +73,7 @@ export async function getApprovedPosts(limit = 20, offset = 0) {
         title,
         slug,
         content,
+        htmlContent,
         images,
         "author": author->{name, image},
         createdAt,
@@ -144,6 +129,7 @@ export async function getPostBySlug(slug: string, includeUnapproved = false) {
       title,
       slug,
       content,
+      htmlContent,
       images,
       featuredImage,
       "author": author->{_id, name, image},
@@ -189,6 +175,7 @@ export async function getPendingPosts() {
         "author": author->{name, email},
         createdAt,
         content,
+        htmlContent,
         images
       }`
     );
