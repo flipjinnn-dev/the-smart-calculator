@@ -4,13 +4,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 
 const squareRootCurveMeta = {
   en: {
-    title: "Square Root Curve Calculator Graph & Solve",
+    title: "Square Root Curve Calculator",
     description: "Plot square root curves and calculate values quickly using our Square Root Curve Calculator.",
     keywords: "square root curve, grade curve calculator, test score curve, grading calculator, curve grades, education tool"
   },
   br: {
-    title: "Calculadora de Curva de Raiz Quadrada",
-    description: "Calcule notas curvas usando o método de raiz quadrada. Transforme pontuações de teste de forma justa com nossa calculadora online gratuita.",
+    title: "Calculadora de Raiz Quadrada ",
+    description: "Use a calculadora de raiz quadrada para resolver cálculos rapidamente. Descubra raízes facilmente e simule agora mesmo seus resultados!",
     keywords: "curva raiz quadrada, calculadora notas, curva teste, ferramenta educação"
   },
   pl: {

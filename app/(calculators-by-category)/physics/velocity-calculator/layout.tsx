@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for velocity-calculator
 const velocitycalculatorMeta = {
   en: {
-    title: "Velocity Calculator Speed & Motion",
+    title: "Velocity Calculator",
     description: "Find speed and motion values instantly using our Velocity Calculator for physics and engineering problems.",
     keywords: "velocity calculator, speed acceleration, motion tool, online velocity, physics calculation, free velocity tool, acceleration estimator, velocity analysis"
   },
   br: {
-    title: "Calculadora de Velocidade – Calcule Rapidez e Movimento",
-    description: "Use a Calculadora de Velocidade para calcular a rapidez de objetos em movimento. Ferramenta online precisa para física, estudos e projetos.",
+    title: "Calculadora de Velocidade",
+    description: "Use a calculadora de velocidade para medir rapidez de objetos. Planeje seus cálculos e simule velocidades com precisão agora mesmo!",
     keywords: "calculadora velocidade, aceleração velocidade, ferramenta movimento, online velocidade, cálculo física, gratuita ferramenta velocidade, estimador aceleração, análise velocidade"
   },
   pl: {

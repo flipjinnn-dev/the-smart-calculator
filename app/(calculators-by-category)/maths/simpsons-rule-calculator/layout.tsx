@@ -6,14 +6,14 @@ import Script from "next/script";
 // Multilingual SEO metadata for simpsons-rule-calculator
 const simpsonsrulecalculatorMeta = {
   en: {
-    title: "Simpson's Rule Calculator Area Under Curve",
+    title: "Simpson's Rule Calculator",
     description: "Estimate areas under curves using our Simpson’s Rule Calculator for accurate integration results.",
     keywords: "simpsons rule calculator, definite integrals, approximation tool, online simpson, math integrals, engineering approximation, free rule tool, integral calculation"
   },
   br: {
-    title: "Calculadora Regra Simpson – Integrais Online | TheSmartCalculator",
-    description: "Use a Calculadora Regra Simpson para calcular integrais definidas usando a Regra de Simpson. Ferramenta precisa e gratuita para matemática e engenharia.",
-    keywords: "calculadora regra simpson, integrais definidas, ferramenta aproximação, online simpson, integrais matemática, aproximação engenharia, gratuita ferramenta regra, cálculo integral"
+    title: "Calculadora da Regra de Simpson",
+    description: "Use a calculadora da Regra de Simpson para integrar funções com precisão. Planeje seus cálculos e simule integrações agora mesmo!",
+    keywords: "cCalculadora da Regra de Simpson, integrais definidas, ferramenta aproximação, online simpson, integrais matemática, aproximação engenharia, gratuita ferramenta regra, cálculo integral"
   },
   pl: {
     title: "Kalkulator Reguły Simpson – Całki Online | TheSmartCalculator",

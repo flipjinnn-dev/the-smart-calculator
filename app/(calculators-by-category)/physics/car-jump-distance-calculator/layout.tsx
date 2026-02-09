@@ -11,9 +11,9 @@ const carjumpdistancecalculatorMeta = {
     keywords: "car jump distance calculator, speed angle, jump tool, online distance, physics simulation, free jump calculator, car calculation, fun tool"
   },
   br: {
-    title: "Car Jump Distance Calculator – Speed Angle Online | TheSmartCa",
-    description: "Use a Calculadora Distância Salto Carro para calcular distância de salto com velocidade e ângulo. Ferramenta precisa para simulações de física e cálculos divertidos.",
-    keywords: "calculadora distância salto, velocidade ângulo, salto tool, online distância, simulação física, gratuita calculadora, carro cálculo"
+    title: "Calculadora de distância de salto de carro",
+    description: "Use a calculadora da distância de salto do carro para simular saltos com precisão. Planeje experimentos e descubra resultados agora mesmo!",
+    keywords: "Calculadora de distância de salto de carro, velocidade ângulo, salto tool, online distância, simulação física, gratuita calculadora, carro cálculo"
   },
   pl: {
     title: "Car Jump Distance Calculator – Speed Angle Online | TheSmartCa",

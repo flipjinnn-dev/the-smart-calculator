@@ -11,8 +11,8 @@ const randomnumbergeneratorMeta = {
     keywords: "random number generator, random range, number generator, online random, game tool, simulation random, free random tool, range number"
   },
   br: {
-    title: "Generator Números Aleatórios – Intervalo Online | TheSmartCalculator",
-    description: "Use o Generator de Números Aleatórios para gerar números aleatórios dentro de um intervalo especificado. Ferramenta precisa e gratuita para jogos, simulações e testes.",
+    title: "Gerador de Números Aleatórios ",
+    description: "Use o gerador de números aleatórios para criar números únicos e imprevisíveis. Experimente agora e gere seus números aleatórios facilmente!",
     keywords: "generator números aleatórios, intervalo aleatório, generator número, online aleatório, ferramenta jogo, simulação aleatório, gratuita ferramenta aleatório, número intervalo"
   },
   pl: {

@@ -11,8 +11,8 @@ const arrowspeedcalculatorMeta = {
     keywords: "arrow speed calculator, momentum tool, kinetic energy, ibo ratings, online arrow, archery calculator, free speed tool, physics arrow"
   },
   br: {
-    title: "Calculadora Velocidade Flecha – Momentum Online | TheSmartCalculator",
-    description: "Use a Calculadora Velocidade Flecha para calcular velocidade, momentum e energia cinética de classificações IBO. Ferramenta precisa para arco e flecha e física.",
+    title: "Calculadora de Velocidade de Flecha",
+    description: "Use a calculadora da velocidade da flecha para medir a rapidez de disparos. Planeje seus tiros e simule a velocidade agora mesmo!",
     keywords: "calculadora velocidade flecha, momentum tool, energia cinética, ibo classificações, online flecha, arco calculadora, gratuita tool"
   },
   pl: {
