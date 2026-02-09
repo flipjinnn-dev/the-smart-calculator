@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for volume-calculator
 const volumecalculatorMeta = {
   en: {
-    title: "Volume Calculator Shape Volume Finder",
+    title: "Volume Calculator",
     description: "Find the volume of shapes instantly using our Volume Calculator for math and engineering.",
     keywords: "volume calculator, shapes volume, math tool, online volume, engineering calculator, free volume tool, shape calculation, volume estimate"
   },
   br: {
-    title: "Calculadora de Volume – Calcule Espaços e Capacidades",
-    description: "Use a Calculadora de Volume para calcular o espaço de sólidos e recipientes. Ferramenta rápida e precisa para estudos, engenharia e projetos.",
+    title: "Calculadora de Volume",
+    description: "Use a calculadora de volume para medir espaços e sólidos com precisão. Planeje seus cálculos e descubra volumes rapidamente agora mesmo!",
     keywords: "calculadora volume, volume formas, ferramenta matemática, online volume, calculadora engenharia, gratuita ferramenta volume, cálculo forma, estimativa volume"
   },
   pl: {

@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const canonicalUrl = `${baseUrl}/maths/reverse-percentage-calculator`;
 
   return {
-    title: "Reverse Percentage Calculator – Find Original Prices Fast",
+    title: "Reverse Percentage Calculator",
     description: "Calculate original prices, discounts, or tax amounts instantly with our free reverse percentage calculator online. Find original values before percentage changes.",
     keywords: "reverse percentage calculator, reverse percentages calculator, reverse percentage calculator online, reverse percentage discount calculator, reverse percentage formula, how to calculate reverse percentages",
     alternates: {

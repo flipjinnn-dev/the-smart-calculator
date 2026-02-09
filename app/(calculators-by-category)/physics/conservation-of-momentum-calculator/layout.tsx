@@ -6,14 +6,14 @@ import Script from "next/script";
 // Multilingual SEO metadata for conservation-of-momentum-calculator
 const conservationofmomentumcalculatorMeta = {
   en: {
-    title: "Conservation of Momentum Calculator Collision Solver",
+    title: "Conservation of Momentum Calculator",
     description: "Solve momentum problems instantly using our Conservation of Momentum Calculator for collisions and physics.",
     keywords: "conservation of momentum calculator, collisions tool, momentum calculation, online conservation, physics analysis, free momentum tool, student calculator"
   },
   br: {
-    title: "Conservation of Momentum Calculator – Collisions Online | TheS",
-    description: "Use a Calculadora Conservação Momentum para calcular momentum em colisões. Ferramenta precisa e gratuita para estudantes de física e análise de impactos.",
-    keywords: "calculadora conservação momentum, colisões tool, cálculo momentum, online conservação, análise física, gratuita tool, estudantes calculadora"
+    title: "Calculadora da Conservação do Momento",
+    description: "Use a calculadora da conservação do momento para simular colisões e movimentos. Planeje seus cálculos e descubra resultados agora mesmo!",
+    keywords: "Calculadora da Conservação do Momento, colisões tool, cálculo momentum, online conservação, análise física, gratuita tool, estudantes calculadora"
   },
   pl: {
     title: "Kalkulator Zachowania Pędu – Zderzenia Online | TheSmartCalculator",

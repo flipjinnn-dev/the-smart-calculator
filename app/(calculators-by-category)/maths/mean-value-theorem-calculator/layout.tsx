@@ -11,8 +11,8 @@ const meanvaluetheoremcalculatorMeta = {
     keywords: "mean value theorem calculator, curve points, theorem tool, online mean, calculus analysis, math curve, free theorem tool, point finder"
   },
   br: {
-    title: "Calculadora Teorema Valor Médio – Curva Online | TheSmartCalculator",
-    description: "Use a Calculadora Teorema Valor Médio para encontrar pontos em uma curva. Ferramenta precisa para cálculo e análise matemática.",
+    title: "Calculadora del Teorema del Valor Medio",
+    description: "Use a calculadora do Teorema do Valor Médio para calcular derivadas e médias de funções. Planeje seus cálculos e simule agora mesmo!",
     keywords: "calculadora teorema valor médio, pontos curva, ferramenta teorema, online médio, análise cálculo, curva matemática, gratuita ferramenta teorema, buscador ponto"
   },
   pl: {

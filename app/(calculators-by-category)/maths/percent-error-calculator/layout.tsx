@@ -11,8 +11,8 @@ const percenterrorcalculatorMeta = {
     keywords: "percent error calculator, error calculation, estimated actual, online error, scientific tool, math analysis, free error tool, percentage error"
   },
   br: {
-    title: "Calculadora de Erro Percentual – Calcule Precisamente",
-    description: "Use a Calculadora de Erro Percentual para medir diferenças entre valores esperados e reais. Ferramenta rápida e precisa para análises e estudos.",
+    title: "Calculadora de Redução Percentual",
+    description: "Use nossa Calculadora de Redução Percentual para calcular descontos e reduções em porcentagem de forma rápida, fácil e gratuita online.",
     keywords: "calculadora erro percentual, cálculo erro, estimado atual, online erro, ferramenta científica, análise matemática, gratuita ferramenta erro, erro porcentagem"
   },
   pl: {

@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for percentage-calculator
 const percentagecalculatorMeta = {
   en: {
-    title: "Percentage Calculator Percentage Finder",
+    title: "Percentage Calculator",
     description: "Find percentages instantly using our Percentage Calculator to solve math problems quickly and accurately.",
     keywords: "percentage calculator, percentages ratios, change calculation, online percentage, math finance, free percentage tool, ratio tool, change estimator"
   },
   br: {
-    title: "Calculadora de Porcentagem – Calcule Descontos e Aumentos",
-    description: "Use a Calculadora de Porcentagem para calcular descontos, acréscimos e porcentagens em geral. Ferramenta rápida e precisa para seus cálculos diários.",
+    title: "Calculadora de Porcentagem",
+    description: "Use a calculadora de porcentagem para calcular descontos, aumentos e taxas facilmente. Simule seus resultados e descubra agora mesmo!",
     keywords: "calculadora porcentagem, porcentagens razões, cálculo mudança, online porcentagem, matemática finanças, gratuita ferramenta porcentagem, ferramenta razão, estimador mudança"
   },
   pl: {

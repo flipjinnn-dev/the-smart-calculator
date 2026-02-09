@@ -10,8 +10,8 @@ const orthogonalProjectionMeta = {
   },
   br: {
     title: "Calculadora de Projeção Ortogonal",
-    description: "Calcule projeções ortogonais de vetores. Ferramenta online gratuita para álgebra linear e física.",
-    keywords: "projeção ortogonal, projeção vetor, calculadora álgebra linear, produto escalar"
+    description: "Use a Calculadora de Projeção Ortogonal para calcular projeções de vetores com precisão. Ideal para estudantes e profissionais de física. Teste grátis agora!",
+    keywords: "Calculadora de Projeção Ortogonal, projeção vetor, calculadora álgebra linear, produto escalar"
   },
   pl: {
     title: "Kalkulator Rzutu Ortogonalnego",
