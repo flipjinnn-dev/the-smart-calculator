@@ -30,7 +30,8 @@ const COIN_CONFIG = {
   penny: { 
     value: 1, 
     label: "1¢", 
-    size: 75, 
+    size: 60, 
+    mobileSize: 50,
     bgGradient: "from-amber-600 via-orange-500 to-amber-700", 
     borderColor: "border-amber-800",
     shine: "from-amber-300 via-yellow-200 to-transparent"
@@ -38,7 +39,8 @@ const COIN_CONFIG = {
   nickel: { 
     value: 5, 
     label: "5¢", 
-    size: 85, 
+    size: 68, 
+    mobileSize: 56,
     bgGradient: "from-gray-400 via-slate-300 to-gray-500", 
     borderColor: "border-gray-700",
     shine: "from-white via-gray-100 to-transparent"
@@ -46,7 +48,8 @@ const COIN_CONFIG = {
   dime: { 
     value: 10, 
     label: "10¢", 
-    size: 80, 
+    size: 64, 
+    mobileSize: 53,
     bgGradient: "from-slate-400 via-gray-300 to-slate-500", 
     borderColor: "border-slate-700",
     shine: "from-slate-200 via-white to-transparent"
@@ -54,7 +57,8 @@ const COIN_CONFIG = {
   quarter: { 
     value: 25, 
     label: "25¢", 
-    size: 90, 
+    size: 72, 
+    mobileSize: 60,
     bgGradient: "from-zinc-300 via-gray-200 to-zinc-400", 
     borderColor: "border-zinc-600",
     shine: "from-white via-zinc-100 to-transparent"
@@ -157,13 +161,16 @@ export default function CoinSaverGameClient() {
 
     const randomType = COIN_TYPES[Math.floor(Math.random() * COIN_TYPES.length)]
     const gameRect = gameAreaRef.current.getBoundingClientRect()
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 640
+    const coinSize = isMobile ? COIN_CONFIG[randomType].mobileSize : COIN_CONFIG[randomType].size
+    const padding = isMobile ? 30 : 60
     
     const newCoin: Coin = {
       id: `coin-${Date.now()}-${Math.random()}`,
       type: randomType,
       value: COIN_CONFIG[randomType].value,
-      x: Math.random() * (gameRect.width - 100) + 50,
-      y: gameRect.height - 80,
+      x: Math.random() * (gameRect.width - padding * 2) + padding,
+      y: gameRect.height - (isMobile ? 60 : 80),
       isDragging: false
     }
 
@@ -548,49 +555,49 @@ export default function CoinSaverGameClient() {
       onTouchEnd={handleDragEnd}
     >
       <div className="max-w-6xl mx-auto">
-        <div className="flex justify-between items-center mb-4">
-          <div className="flex gap-4">
-            <div className="bg-white/20 backdrop-blur-lg rounded-2xl px-6 py-3">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-4 mb-4">
+          <div className="flex gap-2 sm:gap-4 flex-wrap">
+            <div className="bg-white/20 backdrop-blur-lg rounded-2xl px-3 sm:px-6 py-2 sm:py-3">
               <div className="flex items-center gap-2">
-                <Timer className="w-6 h-6 text-white" />
-                <span className="text-2xl font-bold text-white">{formatTime(time)}</span>
+                <Timer className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
+                <span className="text-lg sm:text-2xl font-bold text-white">{formatTime(time)}</span>
               </div>
             </div>
           </div>
 
-          <div className="flex gap-4 items-center">
-            <div className="bg-white/20 backdrop-blur-lg rounded-2xl px-6 py-3">
-              <p className="text-white/80 text-sm">Score</p>
-              <p className="text-2xl font-bold text-yellow-300">${(score / 100).toFixed(2)}</p>
+          <div className="flex gap-2 sm:gap-4 items-center">
+            <div className="bg-white/20 backdrop-blur-lg rounded-2xl px-3 sm:px-6 py-2 sm:py-3">
+              <p className="text-white/80 text-xs sm:text-sm">Score</p>
+              <p className="text-lg sm:text-2xl font-bold text-yellow-300">${(score / 100).toFixed(2)}</p>
             </div>
 
             <button
               onClick={() => setShowHowToPlay(true)}
-              className="bg-white/20 backdrop-blur-lg rounded-2xl p-3 text-white hover:bg-white/30 transition-colors"
+              className="bg-white/20 backdrop-blur-lg rounded-2xl p-2 sm:p-3 text-white hover:bg-white/30 transition-colors"
               title="How to Play"
             >
-              <Info className="w-6 h-6" />
+              <Info className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>
 
             <button
               onClick={toggleFullscreen}
-              className="bg-white/20 backdrop-blur-lg rounded-2xl p-3 text-white hover:bg-white/30"
+              className="bg-white/20 backdrop-blur-lg rounded-2xl p-2 sm:p-3 text-white hover:bg-white/30"
             >
-              {isFullscreen ? <Minimize className="w-6 h-6" /> : <Maximize className="w-6 h-6" />}
+              {isFullscreen ? <Minimize className="w-5 h-5 sm:w-6 sm:h-6" /> : <Maximize className="w-5 h-5 sm:w-6 sm:h-6" />}
             </button>
           </div>
         </div>
 
-        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 mb-4">
+        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-3 sm:p-4 mb-3 sm:mb-4">
           <div className="flex justify-between items-center">
-            <span className="text-white font-semibold">
+            <span className="text-white font-semibold text-sm sm:text-base">
               Progress: {collectedCoins} / {DIFFICULTY_CONFIG[difficulty].coinsToWin}
             </span>
-            <span className="text-white/80">
+            <span className="text-white/80 text-sm sm:text-base">
               {Math.round((collectedCoins / DIFFICULTY_CONFIG[difficulty].coinsToWin) * 100)}%
             </span>
           </div>
-          <div className="mt-2 h-3 bg-white/20 rounded-full overflow-hidden">
+          <div className="mt-2 h-2 sm:h-3 bg-white/20 rounded-full overflow-hidden">
             <motion.div
               className="h-full bg-gradient-to-r from-green-400 to-green-600"
               initial={{ width: 0 }}
@@ -601,9 +608,9 @@ export default function CoinSaverGameClient() {
 
         <div
           ref={gameAreaRef}
-          className="relative bg-white/10 backdrop-blur-sm rounded-3xl min-h-[600px] overflow-hidden border-4 border-white/20"
+          className="relative bg-white/10 backdrop-blur-sm rounded-3xl min-h-[500px] md:min-h-[600px] overflow-hidden border-4 border-white/20"
         >
-          <div className="absolute top-0 left-0 right-0 flex justify-around p-4 bg-gradient-to-b from-black/20 to-transparent">
+          <div className="absolute top-0 left-0 right-0 flex justify-around gap-1 md:gap-4 p-2 md:p-4 bg-gradient-to-b from-black/20 to-transparent">
             {COIN_TYPES.map((type) => (
               <div
                 key={type}
@@ -612,22 +619,22 @@ export default function CoinSaverGameClient() {
               >
                 <motion.div
                   whileHover={{ scale: 1.05 }}
-                  className="w-28 h-36 bg-gradient-to-b from-slate-300 via-gray-300 to-slate-400 rounded-t-full rounded-b-2xl border-4 border-slate-600 shadow-2xl flex flex-col items-center justify-center relative overflow-hidden"
+                  className="w-16 h-20 sm:w-20 sm:h-24 md:w-28 md:h-36 bg-gradient-to-b from-slate-300 via-gray-300 to-slate-400 rounded-t-full rounded-b-2xl border-2 md:border-4 border-slate-600 shadow-2xl flex flex-col items-center justify-center relative overflow-hidden"
                 >
                   {/* Glass reflection effect */}
                   <div className="absolute inset-0 bg-gradient-to-br from-white/30 via-transparent to-transparent rounded-t-full"></div>
                   
                   {/* Jar opening darkness */}
-                  <div className="absolute top-0 inset-x-0 h-8 bg-gradient-to-b from-black/40 to-transparent rounded-t-full"></div>
+                  <div className="absolute top-0 inset-x-0 h-4 sm:h-6 md:h-8 bg-gradient-to-b from-black/40 to-transparent rounded-t-full"></div>
                   
                   {/* Label */}
-                  <div className="text-3xl font-black text-gray-900 drop-shadow-md z-10">{COIN_CONFIG[type].label}</div>
+                  <div className="text-lg sm:text-2xl md:text-3xl font-black text-gray-900 drop-shadow-md z-10">{COIN_CONFIG[type].label}</div>
                   
                   {/* Jar opening rim */}
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 h-2 bg-slate-500 rounded-full"></div>
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-12 sm:w-16 md:w-20 h-1 md:h-2 bg-slate-500 rounded-full"></div>
                   
                   {/* Bottom reflection */}
-                  <div className="absolute bottom-0 inset-x-0 h-12 bg-gradient-to-t from-white/20 to-transparent rounded-b-2xl"></div>
+                  <div className="absolute bottom-0 inset-x-0 h-6 sm:h-8 md:h-12 bg-gradient-to-t from-white/20 to-transparent rounded-b-2xl"></div>
                 </motion.div>
               </div>
             ))}
@@ -640,20 +647,20 @@ export default function CoinSaverGameClient() {
                 initial={{ scale: 0, y: 100 }}
                 animate={{
                   scale: coin.isDragging ? 1.2 : 1,
-                  x: coin.x - COIN_CONFIG[coin.type].size / 2,
-                  y: coin.y - COIN_CONFIG[coin.type].size / 2,
+                  x: coin.x - (typeof window !== 'undefined' && window.innerWidth < 640 ? COIN_CONFIG[coin.type].mobileSize : COIN_CONFIG[coin.type].size) / 2,
+                  y: coin.y - (typeof window !== 'undefined' && window.innerWidth < 640 ? COIN_CONFIG[coin.type].mobileSize : COIN_CONFIG[coin.type].size) / 2,
                 }}
                 exit={{ scale: 0, opacity: 0 }}
                 className={`absolute cursor-grab active:cursor-grabbing ${coin.isDragging ? 'z-50' : 'z-10'}`}
                 style={{
-                  width: COIN_CONFIG[coin.type].size,
-                  height: COIN_CONFIG[coin.type].size,
+                  width: typeof window !== 'undefined' && window.innerWidth < 640 ? COIN_CONFIG[coin.type].mobileSize : COIN_CONFIG[coin.type].size,
+                  height: typeof window !== 'undefined' && window.innerWidth < 640 ? COIN_CONFIG[coin.type].mobileSize : COIN_CONFIG[coin.type].size,
                   touchAction: 'none'
                 }}
                 onMouseDown={(e) => handleDragStart(e, coin.id)}
                 onTouchStart={(e) => handleDragStart(e, coin.id)}
               >
-                <div className={`w-full h-full rounded-full bg-gradient-to-br ${COIN_CONFIG[coin.type].bgGradient} border-4 ${COIN_CONFIG[coin.type].borderColor} shadow-2xl flex items-center justify-center relative overflow-hidden`}>
+                <div className={`w-full h-full rounded-full bg-gradient-to-br ${COIN_CONFIG[coin.type].bgGradient} border-2 md:border-4 ${COIN_CONFIG[coin.type].borderColor} shadow-2xl flex items-center justify-center relative overflow-hidden`}>
                   {/* Outer ring highlight */}
                   <div className="absolute inset-0 rounded-full border-2 border-white/40"></div>
                   
@@ -661,10 +668,10 @@ export default function CoinSaverGameClient() {
                   <div className={`absolute top-0 left-0 w-1/2 h-1/2 rounded-full bg-gradient-to-br ${COIN_CONFIG[coin.type].shine} opacity-60`}></div>
                   
                   {/* Small highlight dot */}
-                  <div className="absolute top-3 left-3 w-4 h-4 bg-white/60 rounded-full blur-[2px]"></div>
+                  <div className="absolute top-2 left-2 w-2 h-2 md:top-3 md:left-3 md:w-4 md:h-4 bg-white/60 rounded-full blur-[2px]"></div>
                   
                   {/* Coin value label */}
-                  <div className="text-2xl font-black text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] z-10">{COIN_CONFIG[coin.type].label}</div>
+                  <div className="text-base sm:text-xl md:text-2xl font-black text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] z-10">{COIN_CONFIG[coin.type].label}</div>
                   
                   {/* Bottom shadow for depth */}
                   <div className="absolute bottom-0 inset-x-0 h-1/3 bg-gradient-to-t from-black/30 to-transparent rounded-b-full"></div>
