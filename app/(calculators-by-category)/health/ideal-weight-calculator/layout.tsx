@@ -11,8 +11,8 @@ const idealweightcalculatorMeta = {
     keywords: "ideal weight calculator, body weight range, height gender, online ideal, health fitness, free weight tool, range based, determine weight"
   },
   br: {
-    title: "Calculadora de Peso Ideal – Descubra Seu Peso Saudável",
-    description: "Use a Calculadora de Peso Ideal para saber o peso adequado para sua altura e idade. Acompanhe sua saúde e forma física com precisão online.",
+    title: "Calculadora de Peso Ideal",
+    description: "Use a calculadora de peso ideal para descobrir seu peso saudável. Planeje sua saúde e simule seu peso ideal agora mesmo!",
     keywords: "calculadora peso ideal, faixa peso corporal, altura gênero, online ideal, saúde fitness, gratuita ferramenta peso, baseado faixa, determinar peso"
   },
   pl: {

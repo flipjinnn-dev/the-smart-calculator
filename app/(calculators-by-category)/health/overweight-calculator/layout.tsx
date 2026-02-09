@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for overweight-calculator
 const overweightcalculatorMeta = {
   en: {
-    title: "Overweight Calculator - Weight Status Check",
+    title: "Overweight Calculator",
     description: "Check your weight status using our Overweight Calculator to plan diet and fitness.",
     keywords: "overweight calculator, bmi overweight, health assessment, online overweight, weight management, free overweight tool, bmi calculation, overweight analysis"
   },
   br: {
     title: "Calculadora de Sobrepeso – Verifique Seu IMC e Saúde Ideal",
-    description: "Use a Calculadora de Sobrepeso para descobrir seu IMC e avaliar se está acima do peso. Acompanhe sua saúde e metas com resultados rápidos.",
+    description: "Use a calculadora de sobrepeso para descobrir seu índice de massa corporal e saúde. Planeje sua dieta e simule agora mesmo!",
     keywords: "calculadora sobrepeso, imc sobrepeso, avaliação saúde, online sobrepeso, gerenciamento peso, gratuita ferramenta sobrepeso, cálculo imc, análise sobrepeso"
   },
   pl: {

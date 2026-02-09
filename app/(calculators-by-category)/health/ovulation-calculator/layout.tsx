@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for ovulation-calculator
 const ovulationcalculatorMeta = {
   en: {
-    title: "Ovulation Calculator - Fertility Window Tracker",
+    title: "Ovulation Calculator",
     description: "Predict fertile days using our Ovulation Calculator to plan conception easily.",
     keywords: "ovulation calculator, fertile window, date estimate, online ovulation, family planning, cycle tracking, free ovulation tool, window calculation"
   },
   br: {
-    title: "Calculadora de Ovulação – Descubra Seus Dias Férteis",
-    description: "Use a Calculadora de Ovulação para identificar seus dias férteis e planejar a gravidez. Tenha previsões precisas e acompanhamento fácil online.",
+    title: "Calculadora da Ovulação",
+    description: "Use a calculadora da ovulação para descobrir seus dias férteis e planejar sua gravidez. Simule seu ciclo menstrual agora mesmo!",
     keywords: "calculadora ovulação, janela fértil, estimativa data, online ovulação, planejamento familiar, rastreamento ciclo, gratuita ferramenta ovulação, cálculo janela"
   },
   pl: {

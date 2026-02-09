@@ -11,8 +11,8 @@ const duedatecalculatorMeta = {
     keywords: "due date calculator, pregnancy timeline, last period, conception tool, online due, tracking calculator, free date tool, planning pregnancy"
   },
   br: {
-    title: "Calculadora Data Vencimento – Descubra Sua DPP",
-    description: "Use a Calculadora de Data de Vencimento para estimar a data provável do parto. Acompanhe sua gestação com praticidade e precisão online.",
+    title: "Calculadora data de parto",
+    description: "Use a calculadora de datas para calcular vencimentos, prazos e períodos facilmente. Planeje suas datas importantes e simule agora mesmo!",
     keywords: "calculadora data vencimento, dpp estimar, parto provável, acompanhe gestação, online data, precisão praticidade, período base"
   },
   pl: {

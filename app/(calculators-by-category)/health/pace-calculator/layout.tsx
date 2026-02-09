@@ -11,7 +11,7 @@ const pacecalculatorMeta = {
     keywords: "pace calculator, running pace, speed calculation, online pace, training tool, performance tracking, free pace tool, running estimator"
   },
   br: {
-    title: "Calculadora de Ritmo – Calcule o Ciclo Menstrual e Ovulação",
+    title: "Calculadora de Ritmo",
     description: "Use a Calculadora de Ritmo para identificar dias férteis e ovulação. Planeje ou evite a gravidez com precisão e acompanhamento fácil online.",
     keywords: "calculadora ritmo, ritmo corrida, cálculo velocidade, online ritmo, ferramenta treinamento, rastreamento desempenho, gratuita ferramenta ritmo, estimador corrida"
   },

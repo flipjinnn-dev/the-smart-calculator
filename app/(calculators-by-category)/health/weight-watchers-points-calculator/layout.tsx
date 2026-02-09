@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for weight-watchers-points-calculator
 const weightwatcherspointscalculatorMeta = {
   en: {
-    title: "Weight Watchers Points Calculator - Points Estimator",
+    title: "Weight Watchers Points Calculator",
     description: "Track daily points using our Weight Watchers Points Calculator for diet success.",
     keywords: "weight watchers points calculator, points calculation, food items, online points, diet tracking, free points tool, nutrition points, weight watchers"
   },
   br: {
-    title: "Weight Watchers Points Calculator – Food Online | TheSmartCalc",
-    description: "Use a Calculadora Pontos Weight Watchers para calcular pontos baseado em itens de comida. Ferramenta precisa e gratuita para dieta e rastreamento de pontos.",
+    title: "Calculadora de Pontos Vigilantes do Peso ",
+    description: "Use a calculadora de pontos Vigilantes do Peso para gerenciar sua dieta e controlar calorias. Planeje sua alimentação e simule agora mesmo!",
     keywords: "calculadora pontos weight watchers, cálculo pontos, itens comida, online pontos, rastreamento dieta, gratuita ferramenta pontos, pontos nutrição, weight watchers"
   },
   pl: {

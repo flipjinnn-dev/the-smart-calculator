@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for pregnancy-conception-calculator
 const pregnancyconceptioncalculatorMeta = {
   en: {
-    title: "Pregnancy Conception Calculator - Fertile Window",
+    title: "Pregnancy Conception Calculator",
     description: "Predict fertile days with our Pregnancy Conception Calculator to boost pregnancy chances.",
     keywords: "pregnancy conception calculator, conception date, milestones tool, online conception, due date based, ultrasound, pregnancy planning, free milestone tool"
   },
   br: {
-    title: "Calculadora Concepção Gravidez – Marcos Online | TheSmartCalculator",
-    description: "Use a Calculadora Concepção Gravidez para estimar data de concepção e marcos com base em data de parto ou ultrassom. Ferramenta precisa para planejamento de gravidez.",
+    title: "Calculadora de Concepção de Gravidez",
+    description: "Use a calculadora de concepção de gravidez para estimar seus dias férteis. Planeje sua gestação e simule sua concepção agora mesmo!",
     keywords: "calculadora concepção gravidez, data concepção, ferramenta marcos, online concepção, baseado data parto, ultrassom, planejamento gravidez, gratuita ferramenta marco"
   },
   pl: {

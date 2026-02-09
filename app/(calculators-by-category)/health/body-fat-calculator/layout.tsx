@@ -11,8 +11,8 @@ const bodyfatcalculatorMeta = {
     keywords: "body fat calculator, percentage tool, methods calculation, online fat, fitness tracker, health goals, free body calculator, estimate fat"
   },
   br: {
-    title: "Calculadora Gordura Corporal – Percentual Ideal",
-    description: "Use a Calculadora de Gordura Corporal para medir seu percentual de gordura. Acompanhe sua evolução física e melhore seus resultados com precisão.",
+    title: "Calculadora de Gordura Corporal",
+    description: "Use a calculadora de gordura corporal para medir seu percentual de gordura. Planeje treinos e saúde e descubra seu resultado agora mesmo!",
     keywords: "calculadora gordura corporal, percentual gordura, medir evolução, ferramenta física online, resultados precisos, métodos variados, saúde calculadora"
   },
   pl: {

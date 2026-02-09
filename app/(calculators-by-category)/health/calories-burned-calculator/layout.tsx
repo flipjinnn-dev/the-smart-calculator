@@ -6,14 +6,14 @@ import Script from "next/script";
 // Multilingual SEO metadata for calories-burned-calculator
 const caloriesburnedcalculatorMeta = {
   en: {
-    title: "Calories Burned Calculator - Exercise Calorie Estimate",
+    title: "Calories Burned Calculator",
     description: "Estimate calories burned during workouts using our Calories Burned Calculator for fitness tracking.",
     keywords: "calories burned calculator, activity tool, estimate calories, online burned, fitness tracker, weight loss, free calories tool, exercise planning"
   },
   br: {
-    title: "Calories Burned Calculator – Activity Online | TheSmartCalcula",
-    description: "Use a Calculadora Calorias Queimadas para estimar calorias em atividades físicas. Ferramenta precisa para rastreamento de fitness, perda de peso e planejamento de exercícios.",
-    keywords: "calculadora calorias queimadas, atividade tool, estimar calorias, online queimadas, fitness rastreador, perda peso, gratuita tool"
+    title: "Calculadora de Calorias Queimadas",
+    description: "Use a calculadora de calorias queimadas para calcular seu gasto energético. Planeje seus treinos e veja calorias queimadas agora mesmo!",
+    keywords: "calculadora de calorias queimadas, atividade tool, estimar calorias, online queimadas, fitness rastreador, perda peso, gratuita tool"
   },
   pl: {
     title: "Kalkulator Spalonych Kalorii – Oblicz Online | TheSmartCalculator",

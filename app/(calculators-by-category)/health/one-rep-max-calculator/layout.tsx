@@ -11,8 +11,8 @@ const onerepmaxcalculatorMeta = {
     keywords: "one rep max calculator, 1rep max, strength estimation, online rep tool, weight reps, workout planning, free max tool, training strength"
   },
   br: {
-    title: "Calculadora One Rep Max – Força Online | TheSmartCalculator",
-    description: "Use a Calculadora One Rep Max para estimar max para treinamento de força. Ferramenta precisa baseada em peso e reps para planejamento de treino.",
+    title: "Calculadora de 1RM",
+    description: "Use a calculadora de 1RM para calcular sua repetição máxima em exercícios. Planeje seus treinos e descubra seu 1RM agora mesmo!",
     keywords: "calculadora one rep max, max 1rep, estimativa força, ferramenta online rep, peso reps, planejamento treino, gratuita max tool, força treinamento"
   },
   pl: {

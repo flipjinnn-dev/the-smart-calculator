@@ -11,7 +11,7 @@ const proteincalculatorMeta = {
     keywords: "protein calculator, daily protein, activity tool, goals calculation, online protein, diet building, free protein tool, muscle planning"
   },
   br: {
-    title: "Calculadora de Proteína – Calcule a Ingestão Diária Ideal",
+    title: "Calculadora de Proteína  – Calcule a Ingestão Diária Ideal",
     description: "Use a Calculadora de Proteína para saber quanto consumir por dia. Ajuste sua dieta e alcance seus objetivos de saúde e fitness com precisão.",
     keywords: "calculadora proteína, proteína diária, ferramenta atividade, cálculo metas, online proteína, construção dieta, gratuita ferramenta proteína, planejamento músculo"
   },

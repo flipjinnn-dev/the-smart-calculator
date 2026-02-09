@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for pregnancy-weight-gain-calculator
 const pregnancyweightgaincalculatorMeta = {
   en: {
-    title: "Pregnancy Weight Gain Calculator - Healthy Weight Guide",
+    title: " Pregnancy Weight Gain Calculator",
     description: "Track healthy pregnancy weight gain with our Pregnancy Weight Gain Calculator to stay on target.",
     keywords: "pregnancy weight gain calculator, recommended gain, pregnancy weight, online gain tool, maternal health, tracking calculator, free weight tool, gain estimate"
   },
   br: {
-    title: "Calculadora Ganho de Peso na Gravidez – Veja o Ideal",
-    description: "Use a Calculadora de Ganho de Peso na Gravidez para saber o peso ideal para cada fase. Acompanhe sua gestação com segurança e precisão online.",
+    title: "Calculadora de ganho de peso na gravidez",
+    description: "Use a calculadora de ganho de peso na gravidez para acompanhar seu peso ideal. Planeje sua gestação e simule seu ganho agora mesmo!",
     keywords: "calculadora ganho peso gravidez, ganho recomendado, peso gravidez, ferramenta online ganho, saúde materna, calculadora tracking, gratuita ferramenta peso, estimativa ganho"
   },
   pl: {

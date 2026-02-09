@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for lean-body-mass-calculator
 const leanbodymasscalculatorMeta = {
   en: {
-    title: "Lean Body Mass Calculator - Muscle Mass Estimate",
+    title: "Lean Body Mass Calculator",
     description: "Estimate muscle mass and body composition with our Lean Body Mass Calculator for fitness tracking.",
     keywords: "lean body mass calculator, mass estimate, weight fat, online lean, fitness tracking, health tool, free mass calculator, body mass"
   },
   br: {
-    title: "Calculadora Massa Corporal Magra – Descubra Seu Percentual Ideal",
-    description: "Use a Calculadora de Massa Corporal Magra para estimar massa baseada em peso e porcentagem de gordura. Ferramenta precisa para rastreamento de fitness e saúde.",
+    title: "Calculadora de Massa Corporal Magra ",
+    description: "Use a calculadora de massa corporal magra para descobrir sua composição corporal. Planeje treinos e saúde e simule agora mesmo!",
     keywords: "calculadora massa magra, estimativa massa, peso gordura, online magra, rastreamento fitness, ferramenta saúde, gratuita calculadora massa, massa corporal"
   },
   pl: {

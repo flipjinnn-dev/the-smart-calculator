@@ -6,13 +6,13 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for bmi-calculator
 const bmicalculatorMeta = {
   en: {
-    title: "BMI Calculator - Body Mass Index Check",
+    title: "BMI Calculator",
     description: "Check your BMI instantly with our BMI Calculator to monitor health and fitness goals easily.",
     keywords: "bmi calculator, body mass index, weight status, height weight tool, online bmi, health assessment, free bmi calculator, index calculation"
   },
   br: {
-    title: "Calculadora IMC – Massa Corporal Online | TheSmartCalculator",
-    description: "Use a Calculadora IMC para descobrir seu índice de massa corporal. Avalie se seu peso está ideal e acompanhe sua saúde com rapidez e precisão baseada em altura.",
+    title: "Calculadora IMC",
+    description: "Use a calculadora IMC para calcular seu índice de massa corporal rapidamente. Descubra seu IMC e cuide da sua saúde agora mesmo!",
     keywords: "calculadora imc, massa corporal, peso ideal, ferramenta saúde, online imc, avaliação peso, precisa calculadora"
   },
   pl: {

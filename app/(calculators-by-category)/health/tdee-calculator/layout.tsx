@@ -11,8 +11,8 @@ const tdeecalculatorMeta = {
     keywords: "tdee calculator, energy expenditure, activity level, online tdee, calorie needs, weight management, free tdee tool, daily energy"
   },
   br: {
-    title: "Calculadora TDEE – Gasto Energético Online | TheSmartCalculator",
-    description: "Use a Calculadora TDEE para calcular gasto energético diário total baseado em atividade. Ferramenta precisa e gratuita para necessidades de calorias e gerenciamento de peso.",
+    title: "Calculadora TDEE Online Grátis Fácil e Rápida",
+    description: "Use a calculadora TDEE para descobrir seu gasto calórico diário total. Planeje sua dieta e treino e simule seu TDEE agora mesmo!",
     keywords: "calculadora tdee, gasto energético, nível atividade, online tdee, necessidades calorias, gerenciamento peso, gratuita ferramenta tdee, energia diária"
   },
   pl: {
