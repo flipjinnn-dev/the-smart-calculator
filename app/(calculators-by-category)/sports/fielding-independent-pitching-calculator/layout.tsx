@@ -11,8 +11,8 @@ const fieldingindependentpitchingcalculatorMeta = {
     keywords: "calculadora arremesso independente, fip tool, jogadores beisebol, estatísticas cálculo, online fip, avaliação arremessadores, gratuita calculadora"
   },
   br: {
-    title: "Fielding Independent Pitching Calculator – FIP Online | TheSma",
-    description: "Użyj kalkulatora niezależnego miotania pola online, aby obliczyć FIP dla graczy baseballu. Dokładne narzędzie do analizy statystyk i oceny miotaczy.",
+    title: "Calculadora de Arremessos Independentes Online",
+    description: "Use a calculadora de arremessos independentes do campo para avaliar seu desempenho. Confira suas estatísticas e melhore sua técnica agora mesmo!",
     keywords: "kalkulator niezależnego miotania, fip tool, gracze baseball, statystyki obliczenia, online fip, ocena miotaczy, darmowy tool"
   },
   pl: {

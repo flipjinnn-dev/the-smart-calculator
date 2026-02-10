@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for gallons-per-square-foot-calculator
 const gallonspersquarefootcalculatorMeta = {
   en: {
-    title: "Gallons per Square Foot Calculator Coverage Rate",
+    title: "Gallons per Square Foot Calculator",
     description: "Calculate paint or material coverage using our Gallons per Square Foot Calculator for accurate estimates.",
     keywords: "gallons per square foot calculator, painting gallons, flooring estimator, online gallons tool, material needs, home improvement, construction tool, square foot estimate"
   },
   br: {
-    title: "Gallons per Square Foot Calculator – Painting Online | TheSmar",
-    description: "Use a Calculadora Litros por Metro Quadrado para estimar litros para pintura ou piso. Ferramenta precisa para construção e melhorias em casa.",
+    title: "Calculadora de Galões por Pé Quadrado",
+    description: "Use a calculadora de tinta para medir a quantidade necessária por área. Planeje sua pintura e descubra o consumo de tinta agora mesmo!",
     keywords: "calculadora litros metro, pintura litros, estimador piso, ferramenta online litros, necessidades material, melhoria casa, ferramenta construção, estimativa metro quadrado"
   },
   pl: {

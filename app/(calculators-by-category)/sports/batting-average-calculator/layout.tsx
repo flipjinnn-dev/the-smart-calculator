@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for batting-average-calculator
 const battingaveragecalculatorMeta = {
   en: {
-    title: "Batting Average Calculator Batting Status",
+    title: "Batting Average Calculator",
     description: "Calculate baseball stats instantly using our Batting Average Calculator for players and coaches.",
     keywords: "batting average calculator, baseball stats, average tool, online batting, performance analysis, free average calculator, player stats, fan tool"
   },
   br: {
-    title: "Batting Average Calculator – Stats Online | TheSmartCalculator",
-    description: "Use a Calculadora Média de Rebatidas para calcular média e estatísticas relacionadas ao beisebol. Ferramenta precisa para jogadores e fãs em análise de desempenho.",
+    title: "Calculadora de Média de Rebatidas",
+    description: "Use a calculadora da média de rebatidas para avaliar seu desempenho no beisebol ou softball. Confira suas estatísticas e melhore seu jogo agora mesmo!",
     keywords: "calculadora média rebatidas, estatísticas beisebol, média tool, online rebatidas, análise desempenho, gratuita calculadora, jogadores stats"
   },
   pl: {

@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for size-to-weight-rectangular-cuboid-calculator
 const sizetoweightrectangularcuboidcalculatorMeta = {
   en: {
-    title: "Size to Weight Calculator Weight from Dimensions",
+    title: "Size to Weight Calculator",
     description: "Convert dimensions into weight instantly using our Size to Weight Calculator for construction and engineering.",
     keywords: "size to weight calculator, rectangular cuboid, dimension weight, online size, density calculation, materials tool, engineering weight, weight estimate"
   },
   br: {
-    title: "Size to Weight Rectangular Cuboid Calculator – Online | TheSma",
-    description: "Use a Calculadora Tamanho Peso Cuboide Retangular para calcular peso baseado em dimensões e densidade. Ferramenta precisa e gratuita para materiais e engenharia.",
+    title: "Calculadora de Tamanho para Peso",
+    description: "Use a calculadora de tamanho para peso para converter dimensões em peso com precisão. Planeje seus projetos e simule agora mesmo!",
     keywords: "calculadora tamanho peso, cuboide retangular, peso dimensão, online tamanho, cálculo densidade, ferramenta materiais, peso engenharia, estimativa peso"
   },
   pl: {

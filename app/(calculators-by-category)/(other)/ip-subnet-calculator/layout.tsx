@@ -11,8 +11,8 @@ const ipsubnetcalculatorMeta = {
     keywords: "ip subnet calculator, subnet tool, ip mask, network addresses, online subnet, configure networks, free ip calculator, admin tool"
   },
   br: {
-    title: "Calculadora de Sub-rede IP – Configurar Redes | TheSmartCalculator",
-    description: "Use a Calculadora de Sub-rede IP para calcular máscaras, endereços e sub-redes. Ferramenta rápida e precisa para administradores de redes e TI em planejamento.",
+    title: "Calculadora de Sub-rede IP",
+    description: "Use a Calculadora de Sub-rede IP para calcular e planejar sub-redes rapidamente. Ideal para profissionais de TI e estudantes de redes. Teste grátis agora!",
     keywords: "calculadora sub-rede ip, calcular máscaras, endereços sub-redes, ferramenta redes online, admin ti calculadora, planejamento ip, gratuita sub-rede"
   },
   pl: {

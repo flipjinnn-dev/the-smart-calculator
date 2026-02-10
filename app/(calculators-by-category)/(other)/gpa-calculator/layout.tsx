@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for gpa-calculator
 const gpacalculatorMeta = {
   en: {
-    title: "GPA Calculator Grade Point Average",
+    title: "GPA Calculator",
     description: "Calculate GPA accurately using our GPA Calculator for students and academic planning.",
     keywords: "gpa calculator, calculate gpa, grade average, academic tool, online gpa, student calculator, performance tracker, free gpa tool"
   },
   br: {
-    title: "Calculadora GPA – Coeficiente Desempenho | TheSmartCalculator",
-    description: "Use a Calculadora GPA para calcular seu índice acadêmico. Ferramenta rápida e precisa para estudantes acompanharem desempenho, notas e progresso escolar online.",
+    title: "Calculadora GPA",
+    description: "Use a calculadora GPA para calcular sua média acadêmica facilmente. Planeje seus estudos e descubra seu desempenho agora mesmo!",
     keywords: "calculadora gpa, calcular gpa, índice acadêmico, ferramenta estudantes, desempenho notas, calculadora online gpa, progresso escolar"
   },
   pl: {

@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for towing-estimate-calculator
 const towingEstimateCalculatorMeta = {
   en: {
-    title: "Towing Estimate Calculator Towing Cost Estimate",
+    title: "Towing Estimate Calculator",
     description: "Calculate towing costs quickly using our Towing Estimate Calculator for fast quotes.",
     keywords: "towing, estimate, calculator, cost, vehicle, distance, roadside assistance, flatbed, towing service"
   },
   br: {
-    title: "Calculadora de Custo de Reboque – Calcule Custos Instantaneamente",
-    description: "Calcule os custos de reboque com base no tipo de veículo, distância, localização, hora do dia e serviços adicionais com detalhamento de custos",
+    title: "Calculadora de estimativa de reboque",
+    description: "Descubra o custo do reboque do seu veículo com nossa calculadora. Rápido, fácil e preciso. Calcule agora e evite surpresas!",
     keywords: "reboque, custo, calculadora, veículo, distância, assistência na estrada, plataforma, serviço de reboque"
   },
   pl: {
