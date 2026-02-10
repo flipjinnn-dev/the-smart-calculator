@@ -29,6 +29,14 @@ export default function GamesPage() {
       icon: Coins,
       link: "/games/coin-saver-challenge",
       gradient: "from-yellow-400 to-orange-500"
+    },
+    {
+      id: "money-master",
+      title: "Money Master",
+      description: "Drag and drop bills and coins into the piggy bank before time runs out! Features levels, power-ups, and leaderboards.",
+      icon: Coins,
+      link: "/games/money-master",
+      gradient: "from-yellow-400 to-orange-500"
     }
   ]
 

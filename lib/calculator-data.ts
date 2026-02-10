@@ -91,6 +91,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'cups-to-pounds-converter') return 'cups-to-pounds-converter';
   if (id === 'cooking-measurement-converter') return 'cooking-measurement-converter';
   if (id === 'dry-to-cooked-pasta-converter') return 'dry-to-cooked-pasta-converter';
+  if (id === 'acres-per-hour-calculator') return 'acres-per-hour-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -934,6 +935,14 @@ export const calculators: Calculator[] = [
     href: "/therapy-productivity-calculator",
     category: "other",
     popular: false,
+  },
+  {
+    id: "acres-per-hour-calculator",
+    name: "Acres Per Hour Calculator",
+    description: "Calculate acres per hour for mowing, planting, spraying, and tillage using width, speed, and efficiency",
+    href: "/acres-per-hour-calculator",
+    category: "other",
+    popular: true,
   }
 ]
 
