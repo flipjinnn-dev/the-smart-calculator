@@ -3608,5 +3608,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/therapy-productivity-calculator",
       keywords: "therapy productivity calculator, therapy productivity metrics, therapy productivity online, therapy productivity estimation, therapy productivity formula, therapy productivity increase calculator, therapy productivity decrease calculator"
     }
+  },
+  'acres-per-hour-calculator': {
+    en: {
+      title: "Acres Per Hour Calculator | Mowing, Planting & More",
+      description: "Calculate acres per hour for mowing, planting, spraying, and tillage using width, speed, and efficiency. Fast, accurate results.",
+      slug: "/acres-per-hour-calculator",
+      keywords: "acres per hour calculator, acre per hour calculator, mowing acres per hour, planting calculator, spraying calculator, tillage calculator, bush hog calculator, farm equipment calculator, acres covered per hour, field efficiency calculator, acres per hour mowing, acres per hour planting"
+    }
   }
 };

@@ -5,29 +5,29 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for annuity-calculator
 const annuitycalculatorMeta = {
   en: {
-    title: "Annuity Calculator Retirement Payout Estimator",
+    title: "Annuity Calculator",
     description: "Plan retirement income and estimate annuity returns easily with our Annuity Calculator for long-term security.",
     keywords: "annuity calculator, future value, contributions tool, interest rates, online annuity, retirement planning, free annuity tool, investment calculator"
   },
   br: {
-    title: "Calculadora de Anuidades – Calcule Rendimentos e Pagamentos",
-    description: "Calcule rendimentos e pagamentos de anuidades com rapidez. Planeje investimentos e descubra agora.",
-    keywords: "calculadora anuidade, valor futuro, contribuições regulares, taxas juros, online anuidade, planejamento aposentadoria, gratuita tool"
+    title: "Calculadora de Anualidades",
+    description: "Use nossa calculadora de anualidades para simular pagamentos periódicos e planejar sua renda futura de forma rápida e prática.",
+    keywords: "calculadora de anualidades, valor futuro, contribuições regulares, taxas juros, online anuidade, planejamento aposentadoria, gratuita tool"
   },
   pl: {
-    title: "Kalkulator Renty – Sprawdź Swoje Świadczenia",
-    description: "Oblicz swoją rentę i dowiedz się, ile możesz otrzymać. Sprawdź teraz online!",
+    title: "Kalkulator Renty",
+    description: "Skorzystaj z kalkulatora renty, aby obliczyć przyszłe świadczenia emerytalne i zaplanować stabilny dochód w prosty sposób.",
     keywords: "kalkulator renty, obliczyć wysokość, raty okres, narzędzie finansowe, online renta, dokładne obliczenia, darmowy kalkulator"
   },
   de: {
-    title: "Leibrentenrechner & Annuitätenrechner – Renten Auszahlung Berechnen",
-    description: "Nutzen Sie unseren Leibrentenrechner & Annuitätenrechner, um Ihre Renten- und Rentenauszahlung zu berechnen und Ihre finanzielle Planung für den Ruhestand zu optimieren.",
+    title: "Annuitätenrechner",
+    description: "Berechnen Sie Ihre Leibrenten mit dem Annuitätenrechner und planen Sie zukünftige Zahlungen einfach und zuverlässig online.",
     keywords: "rentenrechner, altersrente berechnen, rentenpunkte tool, vorsorgelücke, online renten, vorsorge planung, kostenloser rechner"
   }
 ,
   es: {
-    title: "Calcula Anualidad y Conoce sus Pagos",
-    description: "Calcula tu anualidad y descubre el valor exacto de tus pagos futuros para tomar decisiones financieras seguras y claras.",
+    title: "Calculadora de Anualidad",
+    description: "Calcula pagos periódicos con nuestra calculadora de anualidad y planifica tu ingreso futuro de forma sencilla y precisa.",
     keywords: "calculadora, anualidad, planifica, pagos, ahorros, calcula, fácilmente, organiza, finanzas, proyecta, ingresos, toma, decisiones, inteligentes, asegurar"
   }
 };

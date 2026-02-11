@@ -5,30 +5,30 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for amortization-calculator
 const amortizationcalculatorMeta = {
   en: {
-    title: "Amortization Calculator – Calculate Loan Payments Fast",
+    title: "Amortization Calculator",
     description: "Use our Amortization Calculator to plan loans, see monthly payments, total interest, and full amortization schedule. Calculate your loan now!",
     keywords: "amortization calculator, loan schedules, payment details, interest calculation, online amortization, debt tool, free loan calculator, balance tracker"
   },
   br: {
-    title: "Calculadora de Amortização – Planeje Seus Pagamentos",
-    description: "Use nossa calculadora de amortização para ver parcelas, juros e saldo do empréstimo. Calcule agora e organize seus pagamentos!",
-    keywords: "calculadora amortização, calcular parcelas, juros saldo, planejamento financiamentos, online amortização, precisa tool, detalhada calculadora"
+    title: "Calculadora de Amortização",
+    description: "Use nossa calculadora de amortização para calcular parcelas de empréstimos e simular seu pagamento de forma rápida e prática.",
+    keywords: "calculadora de amortização, calcular parcelas, juros saldo, planejamento financiamentos, online amortização, precisa tool, detalhada calculadora"
   },
   pl: {
-    title: "Kalkulator Amortyzacji – Oblicz Raty Szybko",
-    description: "Użyj naszego kalkulatora amortyzacji, aby zobaczyć raty, odsetki i harmonogram spłat. Oblicz teraz i zaplanuj swoje płatności!",
+    title: "Kalkulator Amortyzacji",
+    description: "Skorzystaj z kalkulatora amortyzacji, aby obliczyć raty kredytu i harmonogram spłat szybko i dokładnie.",
     keywords: "kalkulator amortyzacji, obliczyć koszt, wartość trwałego, narzędzie finansowe, firmy planowanie, darmowy kalkulator, dokładne obliczenia"
   },
   de: {
-    title: "Tilgungsrechner – Berechne Deine Raten Einfach",
-    description: "Nutze unseren Tilgungsrechner, um Raten, Zinsen und Tilgungsplan zu sehen. Jetzt berechnen und Rückzahlungen effizient planen!",
+    title: "Tilgungsrechner",
+    description: "Berechnen Sie mit dem Tilgungsrechner Ihre Kreditraten und planen Sie die Rückzahlung einfach und genau online.",
     keywords: "tilgungsrechner, darlehen berechnen, monatliche rate, laufzeit restsuld, online rückzahlung, transparent planung, kostenloser rechner"
   }
 ,
   es: {
-    title: "Calculadora de Amortización – Planea Tus Pagos Fácil",
-    description: "Usa nuestra calculadora de amortización para ver pagos, intereses y plan de amortización. Calcula ahora y organiza tus pagos fácilmente!",
-    keywords: "calculadora, amortización, calcula, pagos, fácilmente, instante, conoce, mensuales, planifica, préstamo, forma, sencilla, toma, decisiones, financieras"
+    title: "Calculadora de Amortización",
+    description: "Calcula las cuotas de tu préstamo con nuestra calculadora de amortización y organiza tu plan de pagos de manera sencilla y precisa.",
+    keywords: "calculadora de amortización, calcula, pagos, fácilmente, instante, conoce, mensuales, planifica, préstamo, forma, sencilla, toma, decisiones, financieras"
   }
 };
 

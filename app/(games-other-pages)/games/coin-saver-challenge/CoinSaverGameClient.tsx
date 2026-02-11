@@ -345,9 +345,9 @@ export default function CoinSaverGameClient() {
         animate={{ scale: 1 }}
         className="text-center max-w-md"
       >
-        <h1 className="text-6xl md:text-7xl font-bold text-white mb-4 drop-shadow-lg">
+        <div className="text-6xl md:text-7xl font-bold text-white mb-4 drop-shadow-lg">
           Coin Saver
-        </h1>
+        </div>
         <p className="text-xl text-white/90 mb-8">
           Drag coins into the correct jars!
         </p>
