@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for height-calculator
 const heightcalculatorMeta = {
   en: {
-    title: "Height Calculator Height Measurement",
+    title: "Height Calculator",
     description: "Find exact height conversions using our Height Calculator for accurate measurements.",
     keywords: "height calculator, estimate height, growth tool, online height, height prediction, genetics calculator, free height tool, health height"
   },
   br: {
-    title: "Calculadora de Altura – Estime Crescimento | TheSmartCalculator",
-    description: "Use a Calculadora de Altura para estimar sua altura futura ou atual. Ferramenta online rápida e precisa para curiosidade, saúde ou planejamento com base em fatores.",
+    title: "Calculadora de Altura ",
+    description: "Use a calculadora de altura para estimar seu crescimento e medidas. Planeje sua saúde ou treinos e descubra seus resultados agora mesmo!",
     keywords: "calculadora de altura, estimar altura, crescimento tool, ferramenta altura online, saúde altura, planejamento calculadora, altura genética"
   },
   pl: {

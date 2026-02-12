@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for fielding-percentage-calculator
 const fieldingpercentagecalculatorMeta = {
   en: {
-    title: "Fielding Percentage Calculator Defensive Stats",
+    title: "Fielding Percentage Calculator",
     description: "Measure defensive performance using our Fielding Percentage Calculator for accurate stats.",
     keywords: "fielding percentage calculator, baseball tool, percentage calculation, online fielding, stats tracking, performance analysis, free percentage calculator, player tool"
   },
   br: {
-    title: "Calculadora Porcentagem Campo – Beisebol Online | TheSmartCalculator",
-    description: "Use a Calculadora Porcentagem Campo para calcular porcentagem para jogadores de beisebol. Ferramenta precisa para rastreamento de estatísticas e análise de desempenho.",
+    title: "Calculadora da porcentagem de defesa",
+    description: "Use a calculadora da porcentagem de defesa para medir seu desempenho no beisebol ou softball. Confira suas estatísticas e melhore seu jogo agora mesmo!",
     keywords: "calculadora porcentagem campo, beisebol tool, cálculo porcentagem, online campo, estatísticas rastreamento, análise desempenho, gratuita calculadora"
   },
   pl: {

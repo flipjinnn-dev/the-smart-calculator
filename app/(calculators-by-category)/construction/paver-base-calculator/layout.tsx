@@ -5,13 +5,13 @@ import Script from "next/script";
 
 const paverBaseCalculatorMeta = {
   en: {
-    title: "Paver Base Calculator Base Material Estimate",
+    title: "Paver Base Calculator",
     description: "Estimate the required base material for paving using our Paver Base Calculator for landscaping and construction projects.",
     keywords: "paver base calculator, gravel calculator, sand calculator, patio base, walkway base, driveway base, paving materials, crushed stone calculator, base depth calculator, construction calculator, paver installation, compacted gravel"
   },
   br: {
-    title: "Calculadora de Base para Pavimentos – Estime Brita e Areia para Pátios, Caminhos e Entradas",
-    description: "Use nossa Calculadora de Base para Pavimentos para estimar rapidamente a quantidade de brita e areia necessária para seu pátio, caminho ou entrada. Planeje seu projeto com a profundidade certa para resultados duradouros.",
+    title: "Calcular Base de Pavimento",
+    description: "Use a calculadora para calcular a base de pavimento com precisão. Planeje sua obra e simule a quantidade de material necessária agora mesmo!",
     keywords: "calculadora de base para pavimentos, calculadora de brita, calculadora de areia, base de pátio, base de caminho, base de entrada, materiais de pavimentação, calculadora de pedra britada, calculadora de profundidade de base, instalação de pavimentos"
   },
   pl: {

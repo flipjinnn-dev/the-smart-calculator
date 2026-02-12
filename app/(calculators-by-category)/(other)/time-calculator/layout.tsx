@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for time-calculator
 const timecalculatorMeta = {
   en: {
-    title: "Time Calculator Add & Subtract Time",
+    title: "Time Calculator",
     description: "Add or subtract hours and minutes using our Time Calculator for fast time calculations.",
     keywords: "time calculator, date difference, duration tool, online time, planning calculator, study tool, project duration, free time calculator"
   },
   br: {
-    title: "Calculadora de Tempo – Diferença Duração | TheSmartCalculator",
-    description: "Use a Calculadora de Tempo para medir a duração entre datas e horários. Ferramenta rápida e precisa para planejamento, estudos e projetos com cálculos detalhados.",
+    title: "Calculadora de Tempo",
+    description: "Use a calculadora de tempo para calcular intervalos e durações facilmente. Planeje suas atividades e organize seu tempo de forma rápida agora mesmo!",
     keywords: "calculadora de tempo, medir duração, datas horários, ferramenta tempo online, planejamento estudos, projetos calculadora, precisa tempo"
   },
   pl: {

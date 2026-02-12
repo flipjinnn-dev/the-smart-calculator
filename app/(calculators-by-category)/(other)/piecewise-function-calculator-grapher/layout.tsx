@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for piecewise-function-calculator-grapher
 const piecewisefunctioncalculatorgrapherMeta = {
   en: {
-    title: "Piecewise Function Calculator Solve & Graph",
+    title: "Piecewise Function Calculator",
     description: "Solve and graph piecewise functions quickly using our Piecewise Function Calculator.",
     keywords: "piecewise function calculator, graph piecewise, function tool, online grapher, math analysis, domain calculator, free piecewise tool, student math"
   },
   br: {
-    title: "Calculadora de Função Pedaço – Gráfico Online | TheSmartCalculator",
-    description: "Use a Calculadora de Função Pedaço para avaliar e graficar funções definidas por partes. Ferramenta precisa e gratuita online para análise matemática e domínios.",
+    title: "Função Definida por Partes",
+    description: "Use a calculadora de função definida por partes para calcular e gerar gráficos. Resolva suas funções rapidamente e visualize os resultados agora mesmo!",
     keywords: "calculadora função pedaço, gráfico função, ferramenta pedaço online, análise matemática, domínio calculadora, gratuita tool, matemática estudante"
   },
   pl: {

@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for indiana-child-support-calculator
 const indianachildsupportcalculatorMeta = {
   en: {
-    title: "Indiana Child Support Calculator Payment Estimate",
+    title: "Indiana Child Support Calculator",
     description: "Estimate child support payments using our Indiana Child Support Calculator for accurate planning.",
     keywords: "indiana child support calculator, estimate payments, child support tool, income calculation, custody estimator, online child support, free indiana tool, family budgeting"
   },
   br: {
-    title: "Indiana Child Support Calculator – Estimate Payments | TheSmar",
-    description: "Use a Calculadora de Pensão Infantil Indiana para estimar pagamentos com base em renda e custódia. Ferramenta online precisa e gratuita para planejamento legal em Indiana.",
+    title: "Calculadora de Pensão Alimentícia de Indiana",
+    description: "Use a calculadora de pensão alimentícia de Indiana para estimar o valor de pagamento com precisão — ferramenta online gratuita e fácil de usar.",
     keywords: "calculadora pensão indiana, estimar pagamentos, pensão infantil tool, renda cálculo, custódia estimativa, online pensão, gratuita ferramenta indiana"
   },
   pl: {

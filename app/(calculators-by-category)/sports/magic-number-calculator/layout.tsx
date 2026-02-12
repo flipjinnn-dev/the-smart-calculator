@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for magic-number-calculator
 const magicnumbercalculatorMeta = {
   en: {
-    title: "Magic Number Calculator Playoff Tracker",
+    title: "Magic Number Calculator",
     description: "Track team wins and playoff chances using our Magic Number Calculator for sports fans and analysts.",
     keywords: "magic number calculator, playoff contention, sports calculator, online magic, team analysis, fan tool, free magic tool, contention calculation"
   },
   br: {
-    title: "Magic Number Calculator – Playoff Sports Online | TheSmartCalc",
-    description: "Use a Calculadora Número Mágico para calcular número para disputa de playoff em esportes. Ferramenta precisa para fãs e análise de equipes.",
+    title: "Calculadora do Número Mágico",
+    description: "Use a calculadora do número mágico para acompanhar sua equipe. Planeje estratégias e descubra os resultados para vencer agora mesmo!",
     keywords: "calculadora número mágico, disputa playoff, calculadora esportes, online mágico, análise equipe, ferramenta fã, gratuita ferramenta mágico, cálculo contention"
   },
   pl: {

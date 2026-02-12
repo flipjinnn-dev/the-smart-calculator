@@ -6,13 +6,13 @@ import Script from "next/script";
 // Multilingual SEO metadata for board-foot-calculator
 const boardfootcalculatorMeta = {
   en: {
-    title: "Board Foot Calculator Lumber Volume",
+    title: "Board Foot Calculator",
     description: "Measure lumber volume quickly using our Board Foot Calculator for accurate woodwork and construction planning.",
     keywords: "board foot calculator, lumber tool, materials calculation, online board, construction estimator, woodworking calculator, free foot tool, cost materials"
   },
   br: {
-    title: "Calculadora Metros Cúbicos – Calcule Volume de Materiais",
-    description: "Use a Calculadora de Metros Cúbicos para medir volumes de construção e materiais. Ferramenta rápida e precisa para obras e projetos online.",
+    title: "Calculadora de pés cúbicos",
+    description: "Use a Calculadora de pés cúbicos para medir volumes de construção e materiais. Ferramenta rápida e precisa para obras e projetos online.",
     keywords: "calculadora metros cúbicos, volume construção, materiais medir, ferramenta obras online, projetos calculadora, precisa rápida, estimativas volume"
   },
   pl: {

@@ -6,14 +6,14 @@ import Script from "next/script";
 // Multilingual SEO metadata for rpe-calculator
 const rpecalculatorMeta = {
   en: {
-    title: "RPE Calculator Workout Intensity Scale",
+    title: "RPE Calculator",
     description: "Track workout intensity using our RPE Calculator for fitness and training progress.",
     keywords: "rpe calculator, training intensity, perceived exertion, fitness tool, online rpe, strength calculator, endurance planning, free rpe tool"
   },
   br: {
-    title: "Calculadora RPE – Intensidade Treino Online | TheSmartCalculator",
-    description: "Use a Calculadora RPE para calcular intensidade de treino com base em esforço percebido. Ferramenta precisa e gratuita online para fitness e planejamento de força.",
-    keywords: "calculadora rpe, intensidade treino, esforço percebido, ferramenta fitness online, força calculadora, planejamento endurance, gratuita rpe"
+    title: "Calculadora de One Rep Max",
+    description: "Use a calculadora de One Rep Max para descobrir seu máximo de força. Planeje seus treinos e melhore seus resultados na academia agora mesmo!",
+    keywords: "Calculadora de One Rep Max, intensidade treino, esforço percebido, ferramenta fitness online, força calculadora, planejamento endurance, gratuita rpe"
   },
   pl: {
     title: "Kalkulator RPE – Intensywność Treningu Online | TheSmartCalculator",

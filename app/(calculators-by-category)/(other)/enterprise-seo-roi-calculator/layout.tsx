@@ -6,10 +6,10 @@ import Script from "next/script";
 // Multilingual SEO metadata
 const enterpriseSeoMeta = {
   en: { 
-    title: "Enterprise SEO ROI Calculator SEO Return Estimator", 
+    title: "Enterprise SEO ROI Calculator", 
     description: "Estimate SEO returns using our Enterprise SEO ROI Calculator for marketers and businesses." },
   pl: { title: "Enterprise SEO ROI Kalkulator", description: "Oblicz the return on investment (ROI) dla enterprise SEO." },
-  br: { title: "Calculadora de ROI de SEO Empresarial", description: "Calcule o retorno sobre investimento (ROI) para SEO empresarial. Otimize seu orçamento de marketing digital." },
+  br: { title: "Calculadora de ROI de SEO Empresarial", description: "Use a calculadora de ROI de SEO empresarial para medir o retorno dos seus investimentos. Planeje suas estratégias e maximize resultados agora mesmo!" },
   de: { title: "Unternehmens-SEO-ROI-Rechner", description: "Berechnen Sie die Rendite (ROI) für Unternehmens-SEO. Optimieren Sie Ihr digitales Marketingbudget." },
   es: { title: "Calculadora de ROI SEO – Mide tu Retorno Rápido y Fácil", description: "Calcula el ROI de tus estrategias SEO al instante y optimiza tus inversiones. ¡Descubre cuánto retorno obtienes y mejora tu marketing ahora mismo" },
 };
