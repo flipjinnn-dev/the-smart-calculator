@@ -92,6 +92,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'cooking-measurement-converter') return 'cooking-measurement-converter';
   if (id === 'dry-to-cooked-pasta-converter') return 'dry-to-cooked-pasta-converter';
   if (id === 'acres-per-hour-calculator') return 'acres-per-hour-calculator';
+  if (id === 'notice-period-calculator') return 'notice-period-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -819,13 +820,6 @@ export const calculators: Calculator[] = [
     category: "other",
   },
   {
-    id: "enterprise-seo-roi-calculator",
-    name: "Enterprise SEO ROI Calculator",
-    description: "Calculate the return on investment (ROI) for enterprise SEO.",
-    href: "/enterprise-seo-roi-calculator",
-    category: "other",
-  },
-  {
     id: "rpe-calculator",
     name: "RPE Calculator",
     description: "Calculate the rate of perceived exertion (RPE) for various activities.",
@@ -941,6 +935,14 @@ export const calculators: Calculator[] = [
     name: "Acres Per Hour Calculator",
     description: "Calculate acres per hour for mowing, planting, spraying, and tillage using width, speed, and efficiency",
     href: "/acres-per-hour-calculator",
+    category: "other",
+    popular: true,
+  },
+  {
+    id: "notice-period-calculator",
+    name: "Notice Period Calculator",
+    description: "Calculate your last working day, notice duration, end date, and estimate notice period pay",
+    href: "/notice-period-calculator",
     category: "other",
     popular: true,
   }

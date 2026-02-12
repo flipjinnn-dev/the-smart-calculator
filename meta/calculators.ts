@@ -3616,5 +3616,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/acres-per-hour-calculator",
       keywords: "acres per hour calculator, acre per hour calculator, mowing acres per hour, planting calculator, spraying calculator, tillage calculator, bush hog calculator, farm equipment calculator, acres covered per hour, field efficiency calculator, acres per hour mowing, acres per hour planting"
     }
+  },
+  'notice-period-calculator': {
+    en: {
+      title: "Notice Period Calculator – Calculate Last Working Day",
+      description: "Free online notice period calculator to instantly find your last working day, notice duration, end date, and estimate notice period pay accurately.",
+      slug: "/notice-period-calculator",
+      keywords: "notice period calculator, calculate notice period, last working day calculator, notice period end date, notice period pay calculator, resignation calculator, employment notice calculator, notice duration calculator, calendar days calculator, working days calculator"
+    }
   }
 };
