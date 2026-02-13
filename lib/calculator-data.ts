@@ -93,6 +93,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'dry-to-cooked-pasta-converter') return 'dry-to-cooked-pasta-converter';
   if (id === 'acres-per-hour-calculator') return 'acres-per-hour-calculator';
   if (id === 'notice-period-calculator') return 'notice-period-calculator';
+  if (id === 'grade-curve-calculator') return 'grade-curve-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -845,6 +846,13 @@ export const calculators: Calculator[] = [
     name: "GPA Calculator",
     description: "Calculate GPA based on course grades and credits.",
     href: "/gpa-calculator",
+    category: "other",
+  },
+  {
+    id: "grade-curve-calculator",
+    name: "Grade Curve Calculator",
+    description: "Adjust student scores using different curving methods to reflect relative class performance.",
+    href: "/grade-curve-calculator",
     category: "other",
   },
   {

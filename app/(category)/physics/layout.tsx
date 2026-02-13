@@ -5,9 +5,9 @@ import { getCategoryCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for physics
 const physicsMeta = {
   en: {
-    title: "Physics Calculators",
-    description: "Find free online physics calculators for velocity, momentum, vector projection, ballistic coefficient, arrow speed, and jump distance to solve physics problems easily.",
-    keywords: "physics calculator, solve formulas, physics laws, exercise tool, online physics, student calculator, professional tool, free physics calculator"
+    title: "Best Physics Calculator Online Free with AI Solver",
+    description: "Use our free physics calculator AI to solve physics problems online with step-by-step solutions, formulas, and a scientific calculator tool.",
+    keywords: "physics calculator, physics calculator online, best physics calculator online, physics calculator free, physics solver online free, physics calculator AI, physics problem calculator, physics scientific calculator, physics calculation formulas, physics calculation questions"
   },
   br: {
     title: "Calculadora de Física – Fórmulas Online | TheSmartCalculator",

@@ -1,0 +1,63 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "title": "What the Grade Curve Calculator Is",
+      "content": "The Grade Curve Calculator helps you adjust a list of student scores using different curving methods so the grades become more relative to the class performance. It's useful when:\n\n• The exam was difficult and most scores are low\n• You want the highest score to become 100%\n• You want a normal distribution (bell curve)\n• Or you want to boost lower grades more\n\nThis tool lets you choose among several curving methods such as linear scaling, ratio scaling, bell curve transformation, and square-root curving."
+    },
+    {
+      "title": "Why Curve Grades?",
+      "content": "\"Grading on a curve\" means changing raw exam scores so they reflect relative performance, not strict percentages. It's common when:\n\n• The highest score isn't near 100%\n• You want to adjust for test difficulty\n• You want more grades clustered around a middle range (like a normal distribution)\n\nThere are multiple curving methods — the calculator supports several approaches to fit different scenarios."
+    },
+    {
+      "title": "Methods & Formulas Explained",
+      "content": "**1️⃣ Linear Rescaling**\n\nSimply add the same number of points to every score.\n\nGoal: make the highest score equal 100.\n\nFormula:\n```\nadd_points = 100 − max_original\nnew_score = original_score + add_points\n```\n\nExample: Highest score = 90 → add 10 to everyone.\n\n**2️⃣ Ratio Scaling**\n\nMultiply all scores by the same factor so the highest becomes 100.\n\nFormula:\n```\nscale_factor = 100 / max_original\nnew_score = original_score × scale_factor\n```\n\nThis preserves the ratio of scores.\n\n**3️⃣ Bell Curve (Normal Distribution) Method**\n\nThis is more advanced — it uses statistics:\n\n1. Compute original mean (μ₀) and standard deviation (σ₀) of all scores\n2. Decide a new mean (μ) and new standard deviation (σ) you want for the curved distribution\n3. For each score:\n   - Calculate z-score: z = (original − μ₀) / σ₀\n   - Then compute new grade: new_score = μ + z × σ\n\nThis redistributes grades so they follow a normal distribution with your chosen center and spread.\n\n**4️⃣ Square Root Method**\n\nTake the square root of each original score, then multiply by a factor.\n\nFormula:\n```\nnew_score = √original × K\n```\n\nThis helps lower scores increase more than higher ones."
+    },
+    {
+      "title": "How to Use the Calculator",
+      "content": "1. Enter your list of scores (up to 30)\n2. Choose which method you want\n3. Optionally set target new mean / standard deviation (for bell curve)\n4. The calculator instantly outputs curved scores\n\nThe results show both individual score changes and overall statistics like mean improvement and grade distribution."
+    },
+    {
+      "title": "Pros & Cons of Curved Grades",
+      "content": "**Advantages**\n\n✔ Adjusts for test difficulty\n✔ Helps low scores improve\n✔ Best performers typically stay best\n✔ Creates more normalized distribution\n\n**Disadvantages**\n\n✘ Lower scores may get larger boosts than higher scores\n✘ Can create competition/tension\n✘ The method selection is somewhat subjective\n✘ May not reflect absolute mastery of material"
+    },
+    {
+      "title": "Summary of Formulas",
+      "content": "**Linear Rescaling:** Add constant to all\n```\nnew = original + (100 − max)\n```\n\n**Ratio Scaling:** Multiply by factor\n```\nnew = original × (100/max)\n```\n\n**Bell Curve:** Standardize and rescale\n```\nnew = μ + z × σ\n```\n\n**Square Root:** Emphasize lower scores\n```\nnew = √original × K\n```"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between absolute grading and grade curving?",
+      "answer": "Absolute grading assigns grades based on fixed score thresholds (e.g., 90-100 = A, 80-89 = B). Curve grading adjusts grades relative to class performance, so your grade depends on how you perform compared to your peers."
+    },
+    {
+      "question": "Can I use a grade curve calculator for small classes?",
+      "answer": "It's less effective for small classes (<10 students) because statistical patterns may not be meaningful. Curving works best with larger sample sizes where distribution patterns emerge."
+    },
+    {
+      "question": "Is grade curving fair?",
+      "answer": "Fairness depends on the test context. It's fair in challenging exams where absolute scores don't reflect relative mastery, but may penalize top performers in easier tests. The key is transparency and consistency."
+    },
+    {
+      "question": "What is the formula for curving grades?",
+      "answer": "It depends on the method. For bell curve: z = (x - μ)/σ, then new_score = new_μ + z × new_σ. For linear: add (100 - max_score) to all. For ratio: multiply all by (100/max_score). For square root: √score × K."
+    },
+    {
+      "question": "Which curving method should I use?",
+      "answer": "Linear rescaling is simplest and maintains score differences. Ratio scaling preserves proportions. Bell curve creates a normal distribution ideal for large classes. Square root helps lower scores more. Choose based on your goals and class size."
+    },
+    {
+      "question": "How does the bell curve method work?",
+      "answer": "The bell curve method uses z-scores to standardize all scores, then redistributes them according to a new mean and standard deviation you specify. This creates a normal distribution where most students get average grades and fewer get extreme grades."
+    },
+    {
+      "question": "Can curved scores exceed 100?",
+      "answer": "In this calculator, curved scores are capped at 100 to maintain the standard grading scale. However, some curving methods in practice may allow scores above 100."
+    },
+    {
+      "question": "What is a z-score in grade curving?",
+      "answer": "A z-score measures how many standard deviations a score is from the mean. In grade curving, z-scores standardize all scores so they can be redistributed according to a new target distribution."
+    }
+  ]
+}

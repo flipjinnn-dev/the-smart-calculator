@@ -3265,6 +3265,14 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calculadora, calcula, promedio, académico, fácil, nuestra, herramienta, rápida, precisa, conoce, planifica, éxito, universitario, ahora"
     }
   },
+  'grade-curve-calculator': {
+    en: {
+      title: "Grade Curve Calculator Free Online",
+      description: "Use our Grade Curve Calculator to assign A-F grades fairly with bell curve or fixed range. Step-by-step examples make grading simple and accurate.",
+      slug: "/grade-curve-calculator",
+      keywords: "grade curve calculator, grading curve calculator, bell curve grade calculator, curve grading calculator, grading on a curve calculator, grade calculator with curve, bell curve grading calculator, normal distribution grading"
+    }
+  },
   'height-calculator': {
     en: {
       title: "Height Calculator",

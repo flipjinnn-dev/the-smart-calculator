@@ -5,9 +5,9 @@ import { getCategoryCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for maths
 const mathsMeta = {
   en: {
-    title: "Math Calculators",
-    description: "Explore free online math calculators for percentages, errors, extrema, scientific functions, volume, and square roots to solve problems accurately and quickly.",
-    keywords: "math calculator, solve equations, fractions tool, percentage calculator, online math, education tool, problem solver, free math calculator"
+    title: "Mathematics Calculator Online | Free & Best Tools",
+    description: "Explore the best mathematics calculators online free. Solve algebra, business math, and school problems fast with accurate, step-by-step solutions.",
+    keywords: "math calculator, mathematics calculator online, math calculator online, best math calculator, math calculators online free, free math calculator, math calculator free, math calculator algebra, business math calculator, math calculator 4th grade, math calculator 6th grade, math calculator 8th grade, math calculator 9th grade"
   },
   br: {
     title: "Calculadora de Matemática – Equações Online | TheSmartCalculator",

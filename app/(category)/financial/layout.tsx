@@ -5,9 +5,9 @@ import { getCategoryCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for financial
 const financialMeta = {
   en: {
-    title: "Financial calculators",
-    description: "Find free online financial calculators for loans, savings, tax, retirement, and investments. Optimize money decisions with easy, accurate calculation tools.",
-    keywords: "financial calculator, loan calculator, investment tool, interest calculation, online finance, budgeting tool, payment simulator, free financial tool"
+    title: "Best Free Online Financial Calculators 2026",
+    description: "Use free online financial calculators to plan loans, investments and retirement. Smart financial calculator tools for accurate, fast results.",
+    keywords: "financial calculator, free online financial calculator, best financial calculators 2026, smart financial calculator, financial calculators online, loan calculator, investment calculator, retirement planning, financial calculator free"
   },
   br: {
     title: "Calculadora Financeiro – Juros Investimentos | TheSmartCalculator",
