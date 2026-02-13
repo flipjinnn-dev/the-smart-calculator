@@ -15,20 +15,20 @@ const debtpayoffcalculatorMeta = {
     keywords: "calculadora quitação dívida, plano dívida, tempo estimar, online dívida, gestão financeira, estratégias redução, gratuita tool"
   },
   pl: {
-    title: "Kalkulator Spłaty Długu – Plan Online | TheSmartCalculator",
-    description: "Użyj kalkulatora spłaty długu online, aby stworzyć plan i oszacować czas na wolność od długów. Dokładne, darmowe narzędzie do zarządzania finansami.",
-    keywords: "kalkulator spłaty długu, plan dług, czas oszacować, online dług, zarządzanie finansami, redukcja tool, darmowy kalkulator"
+    title: "Kalkulator spłaty zadłużenia",
+    description: "Kalkulator spłaty zadłużenia – oblicz raty, odsetki i czas spłaty długu. Sprawdź koszty i zaplanuj wyjście z zadłużenia już dziś!",
+    keywords: "Kalkulator spłaty zadłużenia, plan dług, czas oszacować, online dług, zarządzanie finansami, redukcja tool, darmowy kalkulator"
   },
   de: {
-    title: "Hypothekenrechner – Online Baufinanzierung und Immobilienkredit",
-    description: "Mit dem Hypothekenrechner ermitteln Sie Ihre Monatsrate, Zinssatz und Restschuld – ideal für Ihre Immobilienfinanzierung mit präzisen Online-Tools.",
-    keywords: "hypothekenrechner, finanzierung berechnen, monatsrate zinssatz, restsuld tool, immobilien online, präzise tools, ideal rechner"
+    title: "Schuldenrückzahlungsrechner",
+    description: "Schuldenrückzahlungsrechner – berechnen Sie Raten, Zinsen und Tilgungsdauer einfach online. Jetzt Schulden planen und schneller abbauen!",
+    keywords: "Schuldenrückzahlungsrechner, finanzierung berechnen, monatsrate zinssatz, restsuld tool, immobilien online, präzise tools, ideal rechner"
   }
 ,
   es: {
-    title: "Calculadora de pago de deudas: Organiza tus finanzas hoy",
-    description: "Calcula tus pagos de deudas fácilmente. Planifica amortizaciones, conoce intereses y organiza tus finanzas para lograr libertad financiera más rápido.",
-    keywords: "calculadora, pago, deudas, organiza, finanzas, calcula, pagos, fácilmente, planifica, amortizaciones, conoce, intereses, lograr, libertad, financiera"
+    title: "Calculadora de pago de deudas",
+    description: "CCalculadora de pago de deuda: calcula cuotas, intereses y tiempo de pago fácilmente. Organiza tus finanzas y elimina deudas hoy mismo.",
+    keywords: "Calculadora de pago de deuda, organiza, finanzas, calcula, pagos, fácilmente, planifica, amortizaciones, conoce, intereses, lograr, libertad, financiera"
   }
 };
 

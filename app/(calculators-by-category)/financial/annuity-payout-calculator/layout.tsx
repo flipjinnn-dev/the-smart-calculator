@@ -5,18 +5,18 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for annuity-payout-calculator
 const annuitypayoutcalculatorMeta = {
   en: {
-    title: "Annuity Payout Calculator Retirement Income Estimate",
+    title: "Annuity Payout Calculator",
     description: "Estimate monthly or yearly retirement income using our Annuity Payout Calculator for confident financial planning.",
     keywords: "annuity payout calculator, payout amount, principal tool, rates calculation, online payout, annuity planning, free payout tool, income estimator"
   },
   br: {
-    title: "Calculadora de Pagamento de Anuidade Online Grátis",
+    title: "Calculadora de Pagamento de Anuidade",
     description: "Calcule facilmente o pagamento de anuidade com nossa calculadora. Descubra valores e parcelas rapidamente. Experimente agora mesmo!",
     keywords: "calculadora pagamento anuidade, valor pagamento, fatores tool, online anuidade, planejamento renda, gratuita calculadora, estimativa pagamento"
   },
   pl: {
-    title: "Kalkulator Wypłaty Renty – Oblicz Online",
-    description: "Oblicz wysokość wypłaty renty i zaplanuj przyszłość finansową. Sprawdź online!",
+    title: "Kalkulator Wypłaty Renty",
+    description: "Oblicz wypłatę swojej renty szybko i dokładnie! Skorzystaj z kalkulatora i zaplanuj finanse emerytalne już dziś.",
     keywords: "rentenzahlung rechner, monatliche zahlungen, vorsorgebedarf tool, altersvorsorge, online berechnung, präzise tool, kostenloser rechner"
   },
   de: {

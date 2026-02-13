@@ -5,30 +5,30 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for compound-interest-calculator
 const compoundinterestcalculatorMeta = {
   en: {
-    title: "Compound Interest Calculator – Growth Online | TheSmartCalculator",
+    title: "Compound Interest Calculator",
     description: "See how money grows over time with compounding using our Compound Interest Calculator.",
     keywords: "compound interest calculator, growth tool, contributions calculation, online compound, investment projections, savings calculator, free interest tool, time growth"
   },
   br: {
-    title: "Calculadora de Juros Compostos Online Grátis",
+    title: "Calculadora de Juros Compostos",
     description: "Use a calculadora de juros compostos para calcular rendimentos e crescimento do investimento. Planeje seus ganhos e simule agora mesmo!",
-    keywords: "calculadora juros compostos, simular ganhos, investimentos tool, render dinheiro, cálculos rápidos, precisa calculadora, tempo crescimento"
+    keywords: "calculadora de juros compostos, simular ganhos, investimentos tool, render dinheiro, cálculos rápidos, precisa calculadora, tempo crescimento"
   },
   pl: {
-    title: "Kalkulator Procentu Składanego – Zysk Online | TheSmartCalculator",
-    description: "Użyj kalkulatora procentu składanego online, aby obliczyć zysk z inwestycji i odsetki. Proste, szybkie i dokładne narzędzie finansowe do projekcji.",
+    title: "Kalkulator Procentu Składanego",
+    description: "Kalkulator Procentu Składanego – oblicz zyski z inwestycji i oszczędności. Sprawdź, ile możesz zarobić i zacznij planować już dziś!",
     keywords: "kalkulator procentu składanego, obliczyć zysk, inwestycji odsetki, narzędzie finansowe, online składany, szybkie dokładne, darmowy tool"
   },
   de: {
-    title: "Zinseszinsrechner – Vermögen Berechnen Online | TheSmartCalculator",
-    description: "Mit dem Zinseszinsrechner berechnen Sie Kapitalwachstum, Sparraten und Laufzeit effizient. Nutzen Sie den Zinseszinsrechner für Ihre Finanz- und Anlageplanung.",
+    title: "Zinseszinsrechner",
+    description: "Zinseszinsrechner online: Kapital, Zinssatz und Laufzeit eingeben und Zinseszins schnell berechnen. Kostenlos, einfach und zuverlässig.",
     keywords: "zinseszinsrechner, vermögen berechnen, kapitalwachstum tool, sparraten laufzeit, finanz anlage, effizient nutzen, rechner online"
   }
 ,
   es: {
-    title: "Calculadora de Interés Compuesto – Calcula Capitalización y Valor Futuro",
-    description: "Utiliza nuestra calculadora de interés compuesto para estimar la capitalización de tu dinero, proyectar el valor futuro y optimizar tus inversiones de manera sencilla y precisa.",
-    keywords: "calculadora, interés, compuesto, calcula, capitalización, valor, futuro, utiliza, nuestra, estimar, dinero, proyectar, optimizar, inversiones, manera"
+    title: "Calculadora de Interés Compuesto",
+    description: "Calcula fácilmente el interés compuesto y el valor futuro de tu inversión. Usa esta calculadora online gratis y planifica tus ahorros hoy mismo.",
+    keywords: "Calculadora de Interés Compuesto, interés, compuesto, calcula, capitalización, valor, futuro, utiliza, nuestra, estimar, dinero, proyectar, optimizar, inversiones, manera"
   }
 };
 

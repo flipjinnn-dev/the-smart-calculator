@@ -6,30 +6,30 @@ import Script from "next/script";
 // Multilingual SEO metadata for currency-calculator
 const currencycalculatorMeta = {
   en: {
-    title: "Currency Calculator Live Currency Conversion",
-    description: "Convert currencies and track exchange rates instantly using our Currency Calculator.",
+    title: "currency converter",
+    description: "Quickly convert currencies and track real-time exchange rates with our easy-to-use Currency Converter and calculator.",
     keywords: "currency converter calculator, conversion rates money calculator, currencies exchange rate calculator, converter rate calculator, current currency converter calculator, financial converter, free currency tool, exchange rates"
   },
   br: {
-    title: "Conversor de Moedas Online Grátis Fácil",
-    description: "Use o conversor de moedas para calcular cotações rapidamente. Planeje suas transações e converta valores de moedas agora mesmo!",
-    keywords: "calculadora moedas, conversão valores, taxas câmbio, online moedas, atualizadas rapidez, precisa tool, viagens negócios"
+    title: "Conversor Moedas",
+    description: "Converta moedas facilmente com nosso conversor online. Verifique taxas de câmbio e planeje suas finanças. Experimente agora!",
+    keywords: "Conversor Moedas, conversão valores, taxas câmbio, online moedas, atualizadas rapidez, precisa tool, viagens negócios"
   },
   pl: {
-    title: "Kalkulator Walutowy – Przelicz Online | TheSmartCalculator",
-    description: "Użyj kalkulatora walutowego online, aby szybko przeliczyć kursy i wartości walut. Proste, dokładne i darmowe narzędzie finansowe do konwersji i handlu.",
+    title: "Kalkulator walutowy",
+    description: "Sprawdź kursy walut i przelicz online szybko i dokładnie. Skorzystaj z kalkulatora walutowego i planuj swoje finanse już dziś!",
     keywords: "kalkulator walutowy, przeliczyć kursy, wartości walut, narzędzie finansowe, online waluty, dokładne darmowe, konwersja handel"
   },
   de: {
-    title: "Währungsrechner – Umtausch Berechnen Online | TheSmartCalculator",
-    description: "Mit dem Währungsrechner berechnen Sie live Wechselkurse zwischen Währungen. Nutzen Sie den Währungsrechner, um Beträge schnell und präzise umzutauschen.",
+    title: "Währungsrechner",
+    description: "Mit dem Währungsrechner wechselst du schnell zwischen Euro und Fremdwährungen, inkl. aktuellem Kurs ideal für Reisen, Online-Shopping und Transfers.",
     keywords: "währungsrechner, umtausch berechnen, wechselkurse live, online währung, beträge umtauschen, schnell präzise, nutzen rechner"
   }
 ,
   es: {
-    title: "Conversor de Divisas – Convierte Monedas al Instante",
-    description: "Utiliza nuestro conversor de divisas para convertir monedas, conocer el cambio actual y gestionar tus transacciones internacionales de manera rápida y sencilla.",
-    keywords: "conversor, divisas, convierte, monedas, instante, utiliza, nuestro, convertir, conocer, cambio, actual, gestionar, transacciones, internacionales, manera"
+    title: "Conversor de Divisas",
+    description: "Convierte fácilmente cualquier moneda al instante. Usa este conversor de divisas online gratis y calcula tus importes de forma rápida y segura.",
+    keywords: "Conversor de Divisas, convierte, monedas, instante, utiliza, nuestro, convertir, conocer, cambio, actual, gestionar, transacciones, internacionales, manera"
   }
 };
 

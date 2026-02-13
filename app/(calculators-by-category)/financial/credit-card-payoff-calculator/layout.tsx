@@ -5,30 +5,30 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for credit-card-payoff-calculator
 const creditcardpayoffcalculatorMeta = {
   en: {
-    title: "Credit Card Payoff Calculator Reduce Card Debt Faster",
+    title: "Credit Card Payoff Calculator",
     description: "Plan faster debt reduction and save on interest using our Credit Card Payoff Calculator with clear payoff timelines.",
     keywords: "credit card payoff calculator, debt timeline, interest savings, online payoff, debt reduction, financial planning, free payoff tool, time calculation"
   },
   br: {
-    title: "Calculadora ITCMD Calcule seu Imposto sobre Herança",
-    description: "Use nossa Calculadora ITCMD para calcular rapidamente o imposto sobre herança no Brasil. Ferramenta gratuita, online e fácil de usar.",
-    keywords: "simulador cartão crédito, calcular juros, parcelas saldo, planejamento finanças, online simulador, rapidez precisão, redução dívida"
+    title: "calculadora de pagamento de cartão de crédito",
+    description: "Calculadora de Pagamento de Cartão de Crédito: calcule juros, parcela mínima e valor total da dívida. Simule agora e organize suas finanças!",
+    keywords: "calculadora de pagamento de cartão de crédito, calcular juros, parcelas saldo, planejamento finanças, online simulador, rapidez precisão, redução dívida"
   },
   pl: {
-    title: "Kalkulator Spłaty Karty Kredytowej – Oblicz Online",
-    description: "Użyj kalkulatora spłaty karty kredytowej online, aby obliczyć raty, odsetki i czas spłaty. Proste, szybkie i dokładne narzędzie finansowe.",
-    keywords: "kalkulator spłaty karty, obliczyć raty, odsetki czas, narzędzie finansowe, online spłata, szybkie dokładne, darmowy tool"
+    title: "Kalkulator spłaty karty kredytowej",
+    description: "Kalkulator Spłaty Karty Kredytowej – oblicz ratę, odsetki i czas spłaty zadłużenia. Sprawdź koszty i uporządkuj finanse już dziś!",
+    keywords: "Kalkulator spłaty karty kredytowej, obliczyć raty, odsetki czas, narzędzie finansowe, online spłata, szybkie dokładne, darmowy tool"
   },
   de: {
-    title: "Tilgungsrechner – Rückzahlungs­berechnung online",
-    description: "Der Tilgungsrechner berechnet Ihre Darlehens­rückzahlung, Laufzeit und Restschuld präzise. Nutzen Sie den Tilgungsrechner für Ihre Baufinanzierung.",
-    keywords: "tilgungsrechner, rückzahlung berechnen, laufzeit restsuld, darlehen tool, online rechner, präzise nutzen, baufinanzierung"
+    title: "Kreditkarte abbezahlen Rechner",
+    description: "Kreditkarte abbezahlen leicht gemacht – berechne Raten, Zinsen und Tilgungsdauer schnell online. Jetzt Finanzen planen und sparen!",
+    keywords: "Kreditkarte abbezahlen, rückzahlung berechnen, laufzeit restsuld, darlehen tool, online rechner, präzise nutzen, baufinanzierung"
   }
 ,
   es: {
-    title: "Calculadora de pago de tarjeta: Reduce tu deuda rápido",
-    description: "Calcula tus pagos de tarjeta de crédito y planifica la forma más rápida de reducir tu deuda. Toma el control de tus finanzas hoy mismo.",
-    keywords: "calculadora, pago, tarjeta, reduce, deuda, rápido, calcula, pagos, crédito, planifica, forma, rápida, reducir, toma, control"
+    title: "Calculadora de pago de tarjeta de crédito",
+    description: "Calcula pagos de tu tarjeta de crédito fácil y rápido. Usa nuestra calculadora online y controla tus finanzas hoy mismo. ¡Prueba ahora!",
+    keywords: "Calculadora de pago de tarjeta de crédito, reduce, deuda, rápido, calcula, pagos, crédito, planifica, forma, rápida, reducir, toma, control"
   }
 };
 
