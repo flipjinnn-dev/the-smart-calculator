@@ -37,6 +37,14 @@ export default function GamesPage() {
       icon: Coins,
       link: "/games/money-master",
       gradient: "from-yellow-400 to-orange-500"
+    },
+    {
+      id:"cashier-simulator",
+      title:"Cashier Simulator",
+      description:"Drag and drop products into the cashier before time runs out! Features levels, power-ups, and leaderboards.",
+      icon:Coins,
+      link:"/games/cashier-simulator",
+      gradient:"from-yellow-400 to-orange-500"
     }
   ]
 
