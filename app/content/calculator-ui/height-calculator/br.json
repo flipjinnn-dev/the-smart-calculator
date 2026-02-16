@@ -1,6 +1,14 @@
 {
   "pageTitle": "Calculadora de Altura",
   "pageDescription": "Converta a altura entre diferentes unidades, como centímetros, metros, pés e polegadas, para uso médico, fitness e geral",
+  "height_converter": "Conversor de Altura",
+  "enter_height": "Insira sua altura",
+  "height_value": "Valor da Altura",
+  "from_unit": "Da Unidade",
+  "to_unit": "Para Unidade",
+  "calculate": "Converter",
+  "result": "Resultado",
+  "converted_height": "Altura Convertida",
   "form": {
     "labels": {
       "inputUnit": "Unidade de entrada",

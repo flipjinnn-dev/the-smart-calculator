@@ -2,54 +2,62 @@
   "color": "blue",
   "sections": [
     {
-      "title": "Entendendo os Custos de Reboque",
-      "content": "Os custos de reboque variam significativamente com base em múltiplos fatores, incluindo tipo de veículo, distância, localização, hora do dia e o tipo de serviço de reboque necessário. Nossa calculadora ajuda você a estimar esses custos considerando todas as variáveis relevantes para fornecer uma faixa de preço precisa.\n\nO custo base geralmente varia de R$45 a R$200, dependendo do seu veículo e método de reboque, com cobranças adicionais por quilômetro variando de R$2 a R$5 por km. Fatores de localização e horário podem aumentar os custos em 10% a 50%."
+      "heading": "Calculadora de Custo de Reboque: Planeje o Valor do Seu Serviço com Precisão",
+      "content": "A calculadora de custo de reboque é a ferramenta ideal para quem deseja saber quanto custa chamar um reboque sem surpresas. Ela permite calcular o custo de reboque por km, entender o preço do reboque por km e estimar o valor total considerando o tipo de veículo, distância e serviços extras."
     },
     {
-      "title": "Impacto do Tipo de Veículo no Custo",
-      "content": "Diferentes veículos requerem diferentes equipamentos de reboque:\n\n**Sedan/Carro Compacto**: Mais leve e fácil de rebocar, geralmente requerendo equipamento padrão com custos base em torno de R$50-75.\n\n**SUV/Crossover**: Veículos de peso médio que podem precisar de serviço de plataforma, com custos base de R$65-95.\n\n**Caminhonete**: Veículos mais pesados requerendo capacidade aprimorada, custos base R$70-100.\n\n**Carro de Luxo/Esportivo**: Veículos de alto valor requerendo reboque especializado ou fechado, custos base R$125+.\n\n**Motocicleta**: Leve mas requerendo equipamento especializado, custos base R$45-60.\n\n**Van/Minivan**: Veículos familiares com necessidades moderadas, custos base R$65-90.\n\n**Trailer/Ônibus/Caminhão Pesado**: Veículos grandes requerendo reboque comercial pesado, custos base R$150-200+."
+      "heading": "O Que é a Calculadora de Custo de Reboque?",
+      "content": "Uma calculadora de custo de reboque é uma ferramenta online que ajuda motoristas a estimar o preço de serviços de reboque de forma rápida e precisa. Ela é especialmente útil em situações de emergência, quando é necessário saber quanto custa reboque de carro antes de acionar o serviço.\n\nEssas calculadoras normalmente consideram:\n\n• Tipo de veículo (carro, SUV, caminhão leve)\n• Distância do transporte\n• Hora do dia ou necessidade de atendimento emergencial\n• Serviços extras (veículos pesados, transporte noturno, guincho especial)\n\nAo usar uma calculadora, você evita cobranças inesperadas e consegue comparar diferentes prestadores de serviços."
     },
     {
-      "title": "Métodos de Reboque Explicados",
-      "content": "**Reboque de Plataforma**: O método mais seguro onde seu veículo é carregado em uma plataforma plana. Ideal para todos os tipos de veículos, especialmente carros de luxo, veículos 4x4 e longas distâncias. Taxa por km: R$3,50.\n\n**Reboque com Elevação de Roda**: Uma opção econômica onde as rodas dianteiras ou traseiras são levantadas do chão. Adequado para curtas distâncias e veículos mais leves. Taxa por km: R$2,50.\n\n**Gancho e Corrente**: Método tradicional para veículos não dirigíveis ou acidentados. Não recomendado para carros modernos devido a possíveis danos. Taxa por km: R$2,00.\n\n**Reboque Pesado**: Serviço especializado para ônibus, trailers e veículos comerciais usando equipamento potente. Taxa por km: R$5,00.\n\n**Reboque de Motocicleta**: Equipamento especializado projetado para transportar motocicletas com segurança. Taxa por km: R$2,00."
+      "heading": "Como Funciona o Cálculo do Custo de Reboque",
+      "content": "O cálculo do custo de reboque é baseado em uma combinação de taxa fixa e preço por quilômetro. A fórmula padrão é:\n\n**Custo Total = Taxa Fixa + (Preço por km × Distância)**\n\n• **Taxa Fixa:** Cobrança mínima para iniciar o serviço.\n• **Preço por km:** Valor cobrado por cada quilômetro percorrido pelo reboque.\n• **Distância:** Total de quilômetros entre o local do veículo e o destino final.\n\n**Exemplo Prático:**\n\nTaxa fixa: R$ 60\nPreço por km: R$ 3,50\nDistância: 25 km\n\nCusto Total = 60 + (3,5 × 25) = R$ 147,50\n\nAssim, você consegue planejar financeiramente antes de chamar o reboque."
     },
     {
-      "title": "Fatores de Localização e Horário",
-      "content": "**Multiplicadores de Localização**:\n- Áreas urbanas (1,2x): Custos mais altos devido ao trânsito, licenças e demanda\n- Áreas suburbanas (1,0x): Preços padrão com boa acessibilidade\n- Áreas rurais (1,1x): Ligeiramente mais alto devido a tempos de resposta mais longos\n- Interestadual (1,15x): Preços de longa distância com considerações logísticas\n- Montanhoso/Remoto (1,4x): Custos mais altos devido a terreno difícil\n\n**Multiplicadores de Horário**:\n- Dia (1,0x): Preços de horário comercial padrão\n- Noite (1,3x): Prêmio de horário fora do expediente\n- Fim de semana (1,25x): Sobretaxa de fim de semana\n- Feriado (1,5x): Tarifas mais altas durante feriados"
+      "heading": "Fatores Que Influenciam o Preço do Reboque",
+      "content": "O preço do reboque não é único e pode variar bastante. Alguns fatores determinantes incluem:\n\n• **Tipo de veículo:** Carros pequenos têm custo menor, enquanto SUVs e caminhões exigem guinchos especiais.\n• **Distância:** Quanto maior a distância, maior será o custo.\n• **Horário:** Serviços noturnos ou emergenciais podem custar 20–50% a mais.\n• **Localização:** Preços variam entre cidades, estados e regiões metropolitanas.\n• **Serviços extras:** Guincho para veículos especiais, transporte de caminhões ou carros usados, e atendimento 24h."
     },
     {
-      "title": "Serviços Adicionais",
-      "content": "**Guincho/Recuperação (R$75)**: Sistema de cabo motorizado para puxar veículos de valas, lama, neve ou situações fora de estrada.\n\n**Assistência na Estrada (R$50)**: Inclui partida auxiliar, troca de pneu furado, serviços de desbloqueio e entrega de combustível de emergência.\n\n**Armazenamento no Pátio (R$35/dia)**: Taxa diária para manter seu veículo nas instalações da empresa de reboque.\n\n**Pedágios (R$25)**: Cobre taxas de pedágio pagas pela empresa de reboque ao transportar seu veículo.\n\n**Taxa Ambiental (7%)**: Taxa cobrindo descarte de materiais perigosos, fluidos e práticas de conformidade de segurança ambiental."
+      "heading": "Custo de Reboque por Km: Comparativo",
+      "content": "O custo de reboque por km ajuda a comparar preços de diferentes empresas e estimar gastos em viagens mais longas. Confira a média:\n\n**Tipo de Veículo | Preço Médio por km | Observações**\n\nCarro pequeno: R$ 2,50 – R$ 3,50 | Ideal para deslocamentos urbanos\nSUV / Crossover: R$ 3,50 – R$ 4,50 | Transporte seguro, carro maior\nVeículo pesado: R$ 5,00 – R$ 7,00 | Guincho especial necessário\n\nEssas informações ajudam a planejar melhor, evitando surpresas financeiras."
     },
     {
-      "title": "Como Usar Esta Calculadora",
-      "content": "1. **Selecione o Tipo de Veículo**: Escolha a categoria que melhor corresponde ao seu veículo\n2. **Escolha o Método de Reboque**: Selecione com base no tipo de veículo e situação\n3. **Digite a Distância**: Insira a distância de reboque em quilômetros\n4. **Selecione a Localização**: Escolha onde seu veículo está localizado atualmente\n5. **Especifique o Horário**: Indique quando você precisa do serviço de reboque\n6. **Adicione Serviços**: Marque quaisquer serviços adicionais que você precise\n7. **Calcule**: Clique no botão calcular para ver seu custo estimado\n\nA calculadora fornecerá um detalhamento mostrando custo base, cobranças de distância, ajustes de localização, prêmios de horário e taxas de serviços adicionais."
+      "heading": "Calculadoras de Veículos e Carros Usados",
+      "content": "Além das calculadoras específicas de custo de reboque, existem ferramentas para:\n\n• **Calculadora de veículos:** Estima custo de manutenção, seguro e reboque.\n• **Calculadora de carros usados:** Avalia depreciação, valor de mercado e possíveis custos extras, como transporte de emergência.\n\nUma das opções confiáveis é:\n\n**Calculadora de Custo de Reboque:** Permite inserir tipo de veículo, distância e condições especiais para obter uma estimativa precisa."
+    },
+    {
+      "heading": "Quando Chamar um Reboque",
+      "content": "Você deve considerar chamar um reboque nas seguintes situações:\n\n• **Pane mecânica:** Motor, transmissão ou problemas elétricos.\n• **Acidente de trânsito:** Transporte seguro do veículo para oficina.\n• **Veículo parado em local perigoso:** Como rodovias ou locais de risco.\n• **Compra/venda de carros usados:** Transporte seguro para o comprador ou vendedor."
+    },
+    {
+      "heading": "Dicas para Reduzir o Custo do Reboque",
+      "content": "• Compare preços entre diferentes empresas.\n• Use a calculadora de custo de reboque antes de acionar o serviço.\n• Evite serviços emergenciais quando possível.\n• Verifique se o seguro ou assistência 24h cobre o reboque.\n• Prefira horários de atendimento normais, que costumam ter preço mais acessível."
+    },
+    {
+      "heading": "Conclusão",
+      "content": "A calculadora de custo de reboque é uma ferramenta essencial para motoristas que querem planejar e economizar ao chamar um serviço de reboque. Com ela, você pode calcular quanto custa reboque de carro, o preço do reboque por km e estimar o valor total do serviço, evitando surpresas financeiras.\n\nPlanejar com antecedência, comparar preços e usar ferramentas online confiáveis garante economia, segurança e eficiência."
     }
   ],
   "faq": [
     {
-      "q": "Quão precisa é esta estimativa de custo de reboque?",
-      "a": "Nossas estimativas são baseadas em tarifas médias da indústria e fornecem uma faixa de custo confiável. No entanto, os preços reais podem variar de 10-20% dependendo da empresa de reboque específica, condições do mercado local e quaisquer circunstâncias únicas da sua situação."
+      "q": "Quanto custa um reboque de carro?",
+      "a": "O valor médio varia de R$ 80 a R$ 200 em distâncias curtas. Veículos maiores podem custar mais."
     },
     {
-      "q": "O seguro cobre custos de reboque?",
-      "a": "Muitas apólices de seguro auto incluem assistência na estrada ou cobertura de reboque, geralmente cobrindo R$50-100 por reboque. Verifique os detalhes da sua apólice ou entre em contato com seu provedor de seguro."
+      "q": "Quanto custa chamar um reboque à noite ou em emergência?",
+      "a": "Serviços emergenciais noturnos podem ter acréscimo de 20% a 50% sobre o preço base."
     },
     {
-      "q": "Qual é a diferença entre reboque de plataforma e elevação de roda?",
-      "a": "O reboque de plataforma carrega todo o seu veículo em uma plataforma plana, proporcionando máxima segurança. O reboque com elevação de roda levanta as rodas dianteiras ou traseiras do chão. A plataforma é mais segura mas mais cara, enquanto a elevação de roda é econômica para curtas distâncias."
+      "q": "Como calcular o preço do reboque por km?",
+      "a": "Divida o custo total pela distância percorrida. Ex.: R$ 120 / 30 km = R$ 4/km."
     },
     {
-      "q": "Por que os custos de reboque variam por localização?",
-      "a": "Áreas urbanas têm custos mais altos devido ao congestionamento de trânsito, restrições de estacionamento e despesas operacionais mais altas. Áreas rurais e remotas cobram mais devido a tempos de resposta mais longos e disponibilidade limitada de serviço."
+      "q": "Existe diferença entre reboque de carro e de caminhão?",
+      "a": "Sim, veículos maiores exigem guinchos especiais, aumentando o custo."
     },
     {
-      "q": "Existem taxas ocultas não mostradas nesta estimativa?",
-      "a": "Esta calculadora inclui os principais componentes de custo. No entanto, algumas empresas podem cobrar taxas adicionais por: despacho fora do horário, taxas administrativas, sobretaxas de combustível ou equipamento especial."
-    },
-    {
-      "q": "Como posso reduzir meus custos de reboque?",
-      "a": "Para minimizar custos: (1) Verifique se seu seguro cobre reboque, (2) Escolha o método de reboque mais apropriado, (3) Evite horários de pico se possível, (4) Compare cotações de vários provedores, (5) Considere se a assistência na estrada pode resolver o problema sem reboque."
+      "q": "Posso usar a calculadora para carros usados?",
+      "a": "Sim, muitas calculadoras permitem inserir informações de veículos usados para estimar custos com precisão."
     }
   ]
 }

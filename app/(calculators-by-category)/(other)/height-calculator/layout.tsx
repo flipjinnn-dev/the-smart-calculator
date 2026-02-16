@@ -11,8 +11,8 @@ const heightcalculatorMeta = {
     keywords: "height calculator, estimate height, growth tool, online height, height prediction, genetics calculator, free height tool, health height"
   },
   br: {
-    title: "Calculadora de Altura ",
-    description: "Use a calculadora de altura para estimar seu crescimento e medidas. Planeje sua saúde ou treinos e descubra seus resultados agora mesmo!",
+    title: "Calculadora de Altura",
+    description: "Converta altura entre centímetros, metros, pés e polegadas com precisão instantânea. Ferramenta online gratuita, rápida e confiável.",
     keywords: "calculadora de altura, estimar altura, crescimento tool, ferramenta altura online, saúde altura, planejamento calculadora, altura genética"
   },
   pl: {

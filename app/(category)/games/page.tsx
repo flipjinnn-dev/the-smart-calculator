@@ -45,6 +45,14 @@ export default function GamesPage() {
       icon:Coins,
       link:"/games/cashier-simulator",
       gradient:"from-yellow-400 to-orange-500"
+    },
+    {
+     id:"grocery-cashier",
+     title:"Grocery Cashier",
+     description:"Enter the price of products into the game before time runs out! Features levels, power-ups, and leaderboards.",
+     icon:Coins,
+     link:"/games/grocery-cashier",
+     gradient:"from-yellow-400 to-orange-500"
     }
   ]
 

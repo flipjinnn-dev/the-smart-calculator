@@ -2054,6 +2054,38 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "calculadora, porcentajes, obtén, resultados, instante, calcula, fácil, rápido, nuestra, online, ideal, tareas, finanzas, negocios, ingresa"
     }
   },
+  'empirical-rule-calculator': {
+    en: {
+      title: "Empirical Rule Calculator (68-95-99.7 Rule)",
+      description: "Calculate data ranges using the 68-95-99.7 rule for normal distributions. Find percentages within 1, 2, or 3 standard deviations from the mean.",
+      slug: "/maths/empirical-rule-calculator",
+      keywords: "empirical rule calculator, 68-95-99.7 rule, normal distribution calculator, standard deviation calculator, three sigma rule, bell curve calculator, statistical calculator, data range calculator"
+    },
+    pl: {
+      title: "Kalkulator Reguły Empirycznej (Reguła 68-95-99,7)",
+      description: "Oblicz zakresy danych za pomocą reguły 68-95-99,7 dla rozkładów normalnych. Znajdź procenty w obrębie 1, 2 lub 3 odchyleń standardowych od średniej.",
+      slug: "/pl/matematyka/kalkulator-reguly-empirycznej",
+      keywords: "kalkulator reguły empirycznej, reguła 68-95-99.7, kalkulator rozkładu normalnego, kalkulator odchylenia standardowego, reguła trzech sigma, kalkulator krzywej dzwonowej"
+    },
+    br: {
+      title: "Calculadora de Regra Empírica (Regra 68-95-99,7)",
+      description: "Calcule intervalos de dados usando a regra 68-95-99,7 para distribuições normais. Encontre porcentagens dentro de 1, 2 ou 3 desvios padrão da média.",
+      slug: "/br/matematica/calculadora-de-regra-empirica",
+      keywords: "calculadora regra empírica, regra 68-95-99.7, calculadora distribuição normal, calculadora desvio padrão, regra três sigma, curva de sino"
+    },
+    de: {
+      title: "Empirischer Regelrechner (68-95-99,7-Regel)",
+      description: "Berechnen Sie Datenbereiche mithilfe der 68-95-99,7-Regel für Normalverteilungen. Finden Sie Prozentsätze innerhalb von 1, 2 oder 3 Standardabweichungen vom Mittelwert.",
+      slug: "/de/mathe/empirischer-regelrechner",
+      keywords: "empirischer Regelrechner, 68-95-99.7 Regel, Normalverteilungsrechner, Standardabweichungsrechner, Drei-Sigma-Regel, Glockenkurvenrechner"
+    },
+    es: {
+      title: "Calculadora de Regla Empírica (Regla 68-95-99,7)",
+      description: "Calcule rangos de datos usando la regla 68-95-99,7 para distribuciones normales. Encuentra porcentajes dentro de 1, 2 o 3 desviaciones estándar de la media.",
+      slug: "/es/matematicas/calculadora-de-regla-empirica",
+      keywords: "calculadora regla empírica, regla 68-95-99.7, calculadora distribución normal, calculadora desviación estándar, regla tres sigma, curva de campana"
+    }
+  },
   'percent-error-calculator': {
     en: {
       title: "Percentage Error Calculator",
@@ -3288,7 +3320,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     br: {
       title: "Calculadora de Altura",
-      description: "Converta altura entre diferentes unidades como centímetros, metros, pés e polegadas. Útil para registros médicos e antropométricos.",
+      description: "Converta altura entre centímetros, metros, pés e polegadas com precisão instantânea. Ferramenta online gratuita, rápida e confiável.",
       slug: "/br/calculadora-de-altura",
       keywords: "calculadora altura, conversão altura, centímetros, metros, pés, polegadas, registros médicos"
     },
@@ -3384,7 +3416,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     br: {
       title: "Calculadora de Custo de Reboque",
-      description: "Calcule os custos de reboque com base no tipo de veículo, distância, localização, hora do dia e serviços adicionais com detalhamento de custos",
+      description: "Use a calculadora de custo de reboque para saber quanto custa chamar um reboque de carro, calcular preço por km e estimar o valor total do serviço.",
       slug: "/br/calculadora-de-custo-de-reboque",
       keywords: "reboque, custo, calculadora, veículo, distância, assistência na estrada, plataforma, serviço de reboque"
     },

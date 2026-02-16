@@ -11,8 +11,8 @@ const towingEstimateCalculatorMeta = {
     keywords: "towing, estimate, calculator, cost, vehicle, distance, roadside assistance, flatbed, towing service"
   },
   br: {
-    title: "Calculadora de estimativa de reboque",
-    description: "Descubra o custo do reboque do seu veículo com nossa calculadora. Rápido, fácil e preciso. Calcule agora e evite surpresas!",
+    title: "Calculadora de Custo de Reboque",
+    description: "Use a calculadora de custo de reboque para saber quanto custa chamar um reboque de carro, calcular preço por km e estimar o valor total do serviço.",
     keywords: "reboque, custo, calculadora, veículo, distância, assistência na estrada, plataforma, serviço de reboque"
   },
   pl: {

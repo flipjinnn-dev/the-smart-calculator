@@ -558,6 +558,14 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
+    id:"empirical-rule-calculator",
+    name:"Empirical Rule Calculator",
+    description:"Calculate the empirical rule for a given set of data.",
+    href:"/maths/empirical-rule-calculator",
+    category:"maths",
+    popular:true
+  },
+  {
     id: "reverse-percentage-calculator",
     name: "Reverse Percentage Calculator",
     description: "Calculate original prices, discounts, or tax amounts by working backwards from final values and percentages",

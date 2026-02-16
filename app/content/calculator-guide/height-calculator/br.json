@@ -1,131 +1,114 @@
 {
-  "color": "cerceta",
+  "color": "teal",
   "sections": [
     {
-      "heading": "O que é uma calculadora de altura?",
-      "content": "Uma calculadora de altura é uma ferramenta online gratuita que permite aos usuários medir, converter ou estimar a altura com rapidez e precisão. Ele suporta conversões de unidades entre centímetros, metros e pés/polegadas e, em alguns casos, fornece previsões de altura de adultos com base na idade e na altura dos pais."
+      "heading": "Calculadora de Altura",
+      "content": "A Calculadora de Altura é uma ferramenta online gratuita que converte centímetros, metros, pés e polegadas em segundos. Rápida, precisa e fácil de usar, ela elimina cálculos manuais e fornece resultados automáticos com base em padrões internacionais oficiais.\n\nSe você precisa transformar 170 cm em pés, converter 1,75 m para pés e polegadas ou calcular altura no sistema imperial, esta ferramenta realiza o cálculo automaticamente com base em padrões internacionais oficiais.\n\nIdeal para uso médico, acadêmico, esportivo, formulários internacionais e cálculos de IMC."
     },
     {
-      "heading": "Como funciona a calculadora de altura",
+      "heading": "Como Usar a Calculadora de Altura",
+      "content": "Utilizar a ferramenta é simples:\n\n1. Digite o valor da altura.\n2. Escolha a unidade de origem (cm, m, ft ou in).\n3. Selecione a unidade de destino.\n4. Clique em converter.\n5. O resultado será exibido instantaneamente.\n\nNão é necessário instalar aplicativos ou realizar cálculos manuais."
+    },
+    {
+      "heading": "Unidades Suportadas",
+      "content": "Esta calculadora converte entre:\n\n• Centímetros (cm)\n• Metros (m)\n• Pés (ft)\n• Polegadas (in)\n\nEssas unidades são utilizadas globalmente em contextos diferentes:\n\n• Brasil e Europa utilizam principalmente metros e centímetros.\n• Estados Unidos utilizam pés e polegadas.\n• Documentações internacionais podem exigir conversão entre sistemas."
+    },
+    {
+      "heading": "Conversões de Altura Mais Procuradas",
+      "content": "Muitos usuários pesquisam no Google termos como:\n\n• 170 cm em pés\n• 180 cm em pés e polegadas\n• 1,75 m em pés\n• 5.9 ft em centímetros\n• Converter altura de metros para cm\n• Converter pés para metros\n• Quanto é 1,80 de altura em pés\n• 5'7 em centímetros\n\nNossa calculadora atende exatamente essas necessidades."
+    },
+    {
+      "heading": "Tabela de Conversão Rápida de Altura",
+      "content": "**Centímetros | Pés e Polegadas**\n\n150 cm = 4 ft 11 in\n160 cm = 5 ft 3 in\n170 cm = 5 ft 7 in\n175 cm = 5 ft 9 in\n180 cm = 5 ft 11 in\n185 cm = 6 ft 1 in\n190 cm = 6 ft 3 in\n\nEssa tabela ajuda em consultas rápidas sem necessidade de cálculo manual."
+    },
+    {
+      "heading": "Fórmulas Oficiais de Conversão",
+      "content": "A ferramenta utiliza padrões internacionais reconhecidos pelo Sistema Internacional de Unidades (SI).\n\n• 1 metro = 100 centímetros\n• 1 polegada = 2,54 centímetros\n• 1 pé = 30,48 centímetros\n• 1 pé = 12 polegadas\n\n**Exemplos:**\n\n• 170 cm ÷ 30,48 = 5,57 pés\n• 1,75 m × 3,28084 = 5,74 pés\n• 6 pés × 30,48 = 182,88 cm\n\nTodos os cálculos são feitos automaticamente para evitar erros humanos."
+    },
+    {
+      "heading": "Por Que Converter Altura?",
       "subSections": [
         {
-          "heading": "Entradas necessárias",
-          "content": "Altura atual em cm, metros ou pés/polegadas; idade opcional e altura dos pais para previsão."
+          "heading": "Uso Médico",
+          "content": "Cálculo de IMC, avaliação clínica e exames físicos."
         },
         {
-          "heading": "Método de conversão",
-          "content": "A ferramenta converte a altura entre unidades como centímetros, metros e pés/polegadas com fórmulas precisas."
+          "heading": "Documentação Internacional",
+          "content": "Formulários de visto, imigração ou intercâmbio."
         },
         {
-          "heading": "Método de previsão",
-          "content": "Se ativado, estima a altura do adulto com base em fórmulas de crescimento padrão usando idade e altura dos pais."
+          "heading": "Fitness e Esporte",
+          "content": "Registros de academias e competições."
         },
         {
-          "heading": "O que acontece a seguir",
-          "content": "Depois de clicar em Calcular, você obtém instantaneamente a altura convertida ou a altura adulta prevista."
+          "heading": "Estudos Acadêmicos",
+          "content": "Pesquisas e padronização de dados."
+        },
+        {
+          "heading": "Comparações Internacionais",
+          "content": "Conversão entre sistema métrico e imperial."
         }
       ]
     },
     {
-      "heading": "Por que usar uma calculadora de altura?",
-      "subSections": [
-        {
-          "heading": "Conversão precisa de unidades",
-          "content": "Converta rapidamente altura em cm, metros e pés/polegadas com precisão confiável."
-        },
-        {
-          "heading": "Estimativa de altura adulta",
-          "content": "Preveja a altura potencial de um adulto usando fórmulas com respaldo científico."
-        },
-        {
-          "heading": "Rápido e fácil de usar",
-          "content": "Sem cálculos manuais – os resultados aparecem instantaneamente."
-        },
-        {
-          "heading": "Conveniência",
-          "content": "Gratuito, compatível com dispositivos móveis e acessível em todos os dispositivos."
-        }
-      ]
+      "heading": "Conversão de Centímetros para Pés",
+      "content": "Para converter manualmente:\n\n**Altura (cm) ÷ 30,48 = Altura em pés**\n\nExemplo: 170 cm ÷ 30,48 = 5,57 ft\n\nPara converter para pés e polegadas completas, separamos a parte decimal.\n\nNossa calculadora faz isso automaticamente."
     },
     {
-      "heading": "Exemplo de cálculos de altura",
-      "subSections": [
-        {
-          "heading": "Exemplo 1 – Conversão de Unidades",
-          "content": "Entrada: 175 cm → Converter para pés/polegadas → Resultado: 5 pés e 8,9 polegadas."
-        },
-        {
-          "heading": "Exemplo 2 – Previsão de Altura para Adultos",
-          "content": "Idade da criança: 12, Pai: 180 cm, Mãe: 165 cm → Altura adulta prevista: 174–178 cm."
-        }
-      ]
+      "heading": "Conversão de Metros para Pés",
+      "content": "**Altura (m) × 3,28084 = Altura em pés**\n\nExemplo: 1,80 m × 3,28084 = 5,90 ft"
     },
     {
-      "heading": "Quem pode se beneficiar",
+      "heading": "Conversão de Pés para Centímetros",
+      "content": "**Altura (ft) × 30,48 = Altura em centímetros**\n\nExemplo: 5,9 ft × 30,48 = 179,83 cm"
+    },
+    {
+      "heading": "Diferença Entre Sistema Métrico e Sistema Imperial",
       "subSections": [
         {
-          "heading": "Acompanhamento de saúde e condicionamento físico",
-          "content": "Monitore a altura atual ou o progresso do crescimento."
+          "heading": "Sistema Métrico",
+          "content": "Utilizado no Brasil e na maioria dos países. Baseado em metros e centímetros."
         },
         {
-          "heading": "Monitoramento do crescimento parental",
-          "content": "Estime a altura adulta esperada de uma criança."
-        },
-        {
-          "heading": "Registros esportivos e escolares",
-          "content": "Registre medições precisas de altura para documentação."
-        },
-        {
-          "heading": "Planejamento de tamanhos de roupas",
-          "content": "Converta unidades de altura para determinar o tamanho adequado."
-        },
-        {
-          "heading": "Uso Geral",
-          "content": "Ideal para quem precisa de conversões ou estimativas rápidas de altura."
+          "heading": "Sistema Imperial",
+          "content": "Utilizado principalmente nos Estados Unidos. Baseado em pés e polegadas."
         }
-      ]
+      ],
+      "content": "A conversão entre esses sistemas é comum em viagens, imigração e registros internacionais."
+    },
+    {
+      "heading": "Precisão e Confiabilidade",
+      "content": "Esta Calculadora de Altura utiliza valores matemáticos fixos e padronizados.\n\n• Não há estimativas aproximadas.\n• Não há arredondamentos incorretos.\n• Os resultados seguem padrões técnicos internacionais.\n\nA ferramenta foi projetada para fornecer cálculos consistentes e confiáveis."
+    },
+    {
+      "heading": "Quando Utilizar Esta Calculadora",
+      "content": "Você pode usar esta ferramenta para:\n\n• Converter altura para intercâmbio\n• Preencher formulários internacionais\n• Avaliações médicas\n• Processos de imigração\n• Cálculo de IMC\n• Estudos acadêmicos\n• Conversões rápidas no dia a dia"
+    },
+    {
+      "heading": "Resumo",
+      "content": "A Calculadora de Altura é uma ferramenta online gratuita que converte medidas entre centímetros, metros, pés e polegadas com rapidez e precisão.\n\nDesenvolvida para uso prático e profissional, ela elimina cálculos manuais e reduz erros de conversão.\n\nSe você precisa transformar 170 cm em pés, converter metros para polegadas ou entender sua altura no sistema imperial, esta ferramenta oferece uma solução confiável e imediata."
     }
   ],
   "faq": [
     {
-      "q": "O que é uma calculadora de altura?",
-      "a": "É uma ferramenta online usada para medir, converter ou estimar a altura com precisão."
+      "q": "A calculadora de altura é precisa?",
+      "a": "Sim. Ela utiliza fórmulas matemáticas oficiais reconhecidas internacionalmente."
     },
     {
-      "q": "É grátis?",
-      "a": "Sim, o uso da Calculadora de Altura é totalmente gratuito."
+      "q": "Posso usar para cálculo de IMC?",
+      "a": "Sim. Você pode converter sua altura antes de usar uma calculadora de IMC."
     },
     {
-      "q": "Eu preciso de software?",
-      "a": "Não, funciona diretamente em qualquer navegador sem instalação."
+      "q": "Funciona com números decimais?",
+      "a": "Sim. Aceita valores como 1,75 m ou 5.9 ft."
     },
     {
-      "q": "Ele pode converter unidades?",
-      "a": "Sim, suporta centímetros, metros e pés/polegadas."
+      "q": "Preciso instalar algo?",
+      "a": "Não. Funciona diretamente no navegador."
     },
     {
-      "q": "Prediz a altura adulta?",
-      "a": "Sim, se ativado, utiliza a idade e a altura dos pais para previsões."
-    },
-    {
-      "q": "É preciso?",
-      "a": "As conversões são precisas, enquanto as previsões são estimativas baseadas em fórmulas de crescimento."
-    },
-    {
-      "q": "É compatível com dispositivos móveis?",
-      "a": "Sim, funciona em smartphones, tablets e desktops."
-    },
-    {
-      "q": "Quem pode usá-lo?",
-      "a": "Alunos, pais, atletas, professores e qualquer pessoa que precise de informações sobre altura."
-    },
-    {
-      "q": "Pode ajudar com registros escolares ou esportivos?",
-      "a": "Sim, fornece alturas precisas para fins de documentação."
-    },
-    {
-      "q": "Posso confiar na altura prevista?",
-      "a": "As previsões são estimativas – a altura real do adulto pode variar devido à genética e à saúde."
+      "q": "Posso converter polegadas para metros?",
+      "a": "Sim. Basta selecionar polegadas como unidade de origem e metros como unidade de destino."
     }
   ]
 }

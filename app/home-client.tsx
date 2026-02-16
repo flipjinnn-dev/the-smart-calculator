@@ -340,7 +340,7 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-indigo-400 to-violet-600",
       bgColor: "bg-indigo-50",
       textColor: "text-indigo-600",
-      calculators: 5,
+      calculators: 6,
       itemLabel: "game",
       href: "/games",
     },
@@ -540,7 +540,7 @@ export default function HomePage({ content, language, authors }: HomeClientProps
               </div>
 
               {/* Right Column: Scientific Calculator */}
-              <div className={`home-calc relative animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 lg:translate-x-8 transition-all duration-300 ${isSearchFocused ? 'lg:z-0 -z-10' : 'z-0'}`}>
+              <div className={`home-calc relative animate-in fade-in slide-in-from-bottom-8 delay-500 lg:translate-x-8 transition-all duration-300 ${isSearchFocused ? 'lg:z-0 -z-10' : 'z-0'}`}>
                 {/* Decorative elements behind calculator */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-[140%] bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-full blur-3xl -z-10" />
                 <div className={`transition-opacity duration-300 ${isSearchFocused ? 'lg:opacity-100 opacity-0 pointer-events-none lg:pointer-events-auto' : 'opacity-100'}`}>
