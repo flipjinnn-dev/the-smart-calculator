@@ -1,0 +1,4 @@
+Name,Description,Link
+,,
+Pinterest AI Analysis & Content Suggestion Automation,"Automates Pinterest pin data collection via Pinterest API, stores data in Airtable, and leverages OpenAI's GPT-4o-mini AI models for trend analysis and content suggestions. Sends summarized marketing insights via Gmail, aiding content calendar planning and audience targeting.",https://drive.google.com/file/d/1h7E6EpCl3uYaEkxcJsumTcSzb_X3L8r8/view?usp=sharing
+Pinterest Data Analysis & AI Content Suggestions,"Automates weekly Pinterest data retrieval via Pinterest API, stores it in Airtable, and uses OpenAI GPT-4o-mini for AI-powered trend analysis and pin content suggestions. Summarized insights are emailed to marketing managers to optimize content calendars.",https://drive.google.com/file/d/1t1hPN0FUVMk_aMfkRZzt1RBVLxHZMjoe/view?usp=sharing
