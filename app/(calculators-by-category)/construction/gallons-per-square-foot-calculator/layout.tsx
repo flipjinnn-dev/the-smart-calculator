@@ -47,7 +47,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const canonicalUrl = getCanonicalUrl('gallons-per-square-foot-calculator', language);
 
   return {
-    title: meta.title,
+    title: {
+      absolute: meta.title,
+    },
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
