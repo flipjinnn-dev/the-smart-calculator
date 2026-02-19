@@ -19,6 +19,10 @@ export async function generateMetadata({ params }: { params: { username: string 
         languages: {
           'x-default': profileUrl,
           'en': profileUrl,
+          'pt-BR': profileUrl,
+          'pl': profileUrl,
+          'de': profileUrl,
+          'es': profileUrl,
         }
       },
       openGraph: {

@@ -18,6 +18,14 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.thesmartcalculator.com/games/what-is-the-wordle-today',
+    languages: {
+      'x-default': 'https://www.thesmartcalculator.com/games/what-is-the-wordle-today',
+      'en': 'https://www.thesmartcalculator.com/games/what-is-the-wordle-today',
+      'pt-BR': 'https://www.thesmartcalculator.com/games/what-is-the-wordle-today',
+      'pl': 'https://www.thesmartcalculator.com/games/what-is-the-wordle-today',
+      'de': 'https://www.thesmartcalculator.com/games/what-is-the-wordle-today',
+      'es': 'https://www.thesmartcalculator.com/games/what-is-the-wordle-today',
+    }
   },
 }
 

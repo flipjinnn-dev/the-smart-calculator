@@ -47,6 +47,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getStaticPageCanonicalUrl('about-us', 'en'),
         en: getStaticPageCanonicalUrl('about-us', 'en'),
         "pt-BR": getStaticPageCanonicalUrl('about-us', 'br'),
         pl: getStaticPageCanonicalUrl('about-us', 'pl'),

@@ -53,6 +53,10 @@ export async function generateMetadata({ params }: PostPageProps) {
         languages: {
           'x-default': postUrl,
           'en': postUrl,
+          'pt-BR': postUrl,
+          'pl': postUrl,
+          'de': postUrl,
+          'es': postUrl,
         }
       },
       openGraph: {
@@ -121,21 +125,37 @@ export default async function PostPage({ params }: PostPageProps) {
     return null;
   };
 
+  // Helper to strip head-only elements from HTML content
+  const stripHeadElements = (html: string): string => {
+    if (!html) return html;
+    
+    // Remove meta tags, link tags, title tags, script tags, and style tags that shouldn't be in body
+    return html
+      .replace(/<meta[^>]*>/gi, '')
+      .replace(/<link[^>]*>/gi, '')
+      .replace(/<title[^>]*>.*?<\/title>/gi, '')
+      .replace(/<script[^>]*>.*?<\/script>/gi, '')
+      .replace(/<style[^>]*>.*?<\/style>/gi, '')
+      .trim();
+  };
+
   const renderContent = () => {
     if (post.htmlContent) {
-      return <div dangerouslySetInnerHTML={{ __html: post.htmlContent }} />;
+      const cleanHtml = stripHeadElements(post.htmlContent);
+      return <div dangerouslySetInnerHTML={{ __html: cleanHtml }} />;
     }
     
     if (post.content) {
       if (Array.isArray(post.content)) {
         const htmlContent = getHtmlFromPortableText(post.content);
-        return htmlContent ? (
-          <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-        ) : (
-          <PortableText value={post.content} />
-        );
+        if (htmlContent) {
+          const cleanHtml = stripHeadElements(htmlContent);
+          return <div dangerouslySetInnerHTML={{ __html: cleanHtml }} />;
+        }
+        return <PortableText value={post.content} />;
       }
-      return <div dangerouslySetInnerHTML={{ __html: post.content }} />;
+      const cleanHtml = stripHeadElements(post.content);
+      return <div dangerouslySetInnerHTML={{ __html: cleanHtml }} />;
     }
     
     return null;

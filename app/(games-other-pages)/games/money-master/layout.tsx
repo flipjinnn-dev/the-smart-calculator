@@ -17,17 +17,21 @@ export const metadata: Metadata = {
     "counting money activities for 2nd grade"
   ],
   alternates: {
-    canonical: "/games/money-master",
+    canonical: "https://www.thesmartcalculator.com/games/money-master",
     languages: {
-      "x-default": "/games/money-master",
-      "en": "/games/money-master"
+      "x-default": "https://www.thesmartcalculator.com/games/money-master",
+      "en": "https://www.thesmartcalculator.com/games/money-master",
+      "pt-BR": "https://www.thesmartcalculator.com/games/money-master",
+      "pl": "https://www.thesmartcalculator.com/games/money-master",
+      "de": "https://www.thesmartcalculator.com/games/money-master",
+      "es": "https://www.thesmartcalculator.com/games/money-master"
     }
   },
   openGraph: {
     title: "Counting Money Game for Kids | Free Online Practice",
     description: "Play a counting money game for kids to learn coins, bills, and value. Enjoy free online counting money games and fun practice activities.",
     type: "website",
-    url: "/games/money-master",
+    url: "https://www.thesmartcalculator.com/games/money-master",
   },
   twitter: {
     card: "summary_large_image",

@@ -26,17 +26,21 @@ export const metadata: Metadata = {
     "educational money game"
   ],
   alternates: {
-    canonical: "/games/grocery-cashier",
+    canonical: "https://www.thesmartcalculator.com/games/grocery-cashier",
     languages: {
-      "x-default": "/games/grocery-cashier",
-      "en": "/games/grocery-cashier"
+      "x-default": "https://www.thesmartcalculator.com/games/grocery-cashier",
+      "en": "https://www.thesmartcalculator.com/games/grocery-cashier",
+      "pt-BR": "https://www.thesmartcalculator.com/games/grocery-cashier",
+      "pl": "https://www.thesmartcalculator.com/games/grocery-cashier",
+      "de": "https://www.thesmartcalculator.com/games/grocery-cashier",
+      "es": "https://www.thesmartcalculator.com/games/grocery-cashier"
     }
   },
   openGraph: {
     title: "Grocery Cashier Game - Free Cash Register Simulator",
     description: "Master the cash register in this fun grocery cashier simulation game! Ring up items, accept payments, and give correct change.",
     type: "website",
-    url: "/games/grocery-cashier",
+    url: "https://www.thesmartcalculator.com/games/grocery-cashier",
   },
   twitter: {
     card: "summary_large_image",

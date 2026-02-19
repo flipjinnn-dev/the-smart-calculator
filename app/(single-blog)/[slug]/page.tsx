@@ -66,8 +66,12 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        'en': canonicalUrl,
         'x-default': canonicalUrl,
+        'en': canonicalUrl,
+        'pt-BR': canonicalUrl,
+        'pl': canonicalUrl,
+        'de': canonicalUrl,
+        'es': canonicalUrl,
       },
     },
     openGraph: {

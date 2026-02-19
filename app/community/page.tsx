@@ -13,6 +13,10 @@ export const metadata = {
     languages: {
       'x-default': 'https://www.thesmartcalculator.com/community',
       'en': 'https://www.thesmartcalculator.com/community',
+      'pt-BR': 'https://www.thesmartcalculator.com/community',
+      'pl': 'https://www.thesmartcalculator.com/community',
+      'de': 'https://www.thesmartcalculator.com/community',
+      'es': 'https://www.thesmartcalculator.com/community',
     }
   },
   openGraph: {

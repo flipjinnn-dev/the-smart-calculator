@@ -28,17 +28,21 @@ export const metadata: Metadata = {
     "cashier training game"
   ],
   alternates: {
-    canonical: "/games/cashier-simulator",
+    canonical: "https://www.thesmartcalculator.com/games/cashier-simulator",
     languages: {
-      "x-default": "/games/cashier-simulator",
-      "en": "/games/cashier-simulator"
+      "x-default": "https://www.thesmartcalculator.com/games/cashier-simulator",
+      "en": "https://www.thesmartcalculator.com/games/cashier-simulator",
+      "pt-BR": "https://www.thesmartcalculator.com/games/cashier-simulator",
+      "pl": "https://www.thesmartcalculator.com/games/cashier-simulator",
+      "de": "https://www.thesmartcalculator.com/games/cashier-simulator",
+      "es": "https://www.thesmartcalculator.com/games/cashier-simulator"
     }
   },
   openGraph: {
     title: "Best Cashier Simulator Game Online & PC Experience",
     description: "Experience realistic checkout in the best cashier simulator game! Play online, PC, or mobile and enjoy supermarket, grocery, and cashier gameplay fun.",
     type: "website",
-    url: "/games/cashier-simulator",
+    url: "https://www.thesmartcalculator.com/games/cashier-simulator",
   },
   twitter: {
     card: "summary_large_image",

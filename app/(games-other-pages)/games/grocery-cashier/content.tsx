@@ -2,9 +2,9 @@ export default function GroceryCashierContent() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-12 text-left">
       <section className="mb-12 bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-left">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent text-left">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent text-left">
           Grocery Cashier Game
-        </h1>
+        </h2>
         <p className="text-lg leading-relaxed text-gray-700 text-left">
           A grocery cashier game is an interactive simulation that allows players to practice handling transactions, calculating totals, giving change, and managing a virtual grocery store. These games, available online or as apps, are ideal for children learning basic math, as well as anyone interested in improving money-handling skills. You can find free online grocery store cashier games, grocery cashier game Android apps, and supermarket cashier simulators online to practice in a fun and engaging way.
         </p>
