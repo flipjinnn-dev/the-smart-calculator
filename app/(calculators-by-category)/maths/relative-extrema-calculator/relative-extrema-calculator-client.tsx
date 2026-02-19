@@ -538,6 +538,36 @@ export default function RelativeExtremaCalculatorClient({ content, guideContent 
               </Card>
             </div>
           )}
+
+          <div className="mt-8">
+            <CalculatorGuide 
+              data={{
+                color: guideData.color || 'blue',
+                sections: guideData.sections || [],
+                faq: guideData.faq || []
+              }}
+            />
+          </div>
+
+          <div className="mt-8">
+            <SimilarCalculators 
+              calculators={[
+                { id: 'critical-point-calculator' },
+                { id: 'mean-value-theorem-calculator' },
+                { id: 'simpsons-rule-calculator' },
+                { id: 'percentage-calculator' }
+              ]}
+              color="blue"
+            />
+          </div>
+
+          <div className="mt-8">
+            <RatingProfileSection 
+              entityId="relative-extrema-calculator"
+              entityType="calculator"
+              creatorSlug="felix-yacoub"
+            />
+          </div>
         </div>
       </main>
     </div>

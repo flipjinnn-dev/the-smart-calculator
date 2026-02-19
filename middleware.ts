@@ -539,6 +539,7 @@ export const reverseUrlMappings = {
     'credit-card-calculator': 'calculadora-de-cartao-de-credito',
     'credit-card-payoff-calculator': 'simulador-de-cartao-de-credito',
     'critical-point-calculator': 'calculadora-de-ponto-critico',
+    'relative-extrema-calculator': 'calculadora-de-extremos-relativos',
     'cubic-yard-calculator': 'calculadora-de-metros-cubicos',
     'cups-to-pounds-converter': 'calculadora-de-xicaras-para-libras',
     'currency-calculator': 'calculadora-de-moedas',

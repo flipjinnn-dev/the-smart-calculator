@@ -4,6 +4,7 @@ import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Underline from '@tiptap/extension-underline';
 import Link from '@tiptap/extension-link';
+import Image from '@tiptap/extension-image';
 import { Table } from '@tiptap/extension-table';
 import { TableRow } from '@tiptap/extension-table-row';
 import { TableHeader } from '@tiptap/extension-table-header';
@@ -17,17 +18,21 @@ import {
   Link as LinkIcon,
   Undo,
   Redo,
+  Heading1,
   Heading2,
+  Heading3,
   Quote,
   Code,
   Sparkles,
   Table as TableIcon,
   Plus,
-  Trash
+  Trash,
+  ImageIcon,
+  Upload
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { useCallback, useState } from 'react';
+import { useCallback, useState, useRef } from 'react';
 
 interface RichTextEditorProps {
   content: string;
@@ -39,12 +44,13 @@ interface RichTextEditorProps {
 export function RichTextEditor({ content, onChange, placeholder, className }: RichTextEditorProps) {
   const [showLinkDialog, setShowLinkDialog] = useState(false);
   const [linkUrl, setLinkUrl] = useState('');
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const editor = useEditor({
     extensions: [
       StarterKit.configure({
         heading: {
-          levels: [2, 3],
+          levels: [1, 2, 3, 4, 5, 6],
         },
       }),
       Underline,
@@ -53,6 +59,12 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
         HTMLAttributes: {
           class: 'text-blue-600 underline hover:text-blue-800',
         },
+      }),
+      Image.configure({
+        HTMLAttributes: {
+          class: 'rounded-lg max-w-full h-auto my-4',
+        },
+        inline: true,
       }),
       Table.configure({
         resizable: true,
@@ -81,6 +93,20 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
       attributes: {
         class: 'prose prose-sm max-w-none focus:outline-none min-h-[150px] p-5',
       },
+      handlePaste: (view, event) => {
+        const items = Array.from(event.clipboardData?.items || []);
+        const imageItem = items.find(item => item.type.startsWith('image/'));
+        
+        if (imageItem) {
+          event.preventDefault();
+          const file = imageItem.getAsFile();
+          if (file) {
+            handleImageUpload(file);
+          }
+          return true;
+        }
+        return false;
+      },
     },
   });
 
@@ -108,6 +134,31 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
     setShowLinkDialog(false);
     setLinkUrl('');
   }, []);
+
+  const handleImageUpload = useCallback((file: File) => {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const url = e.target?.result as string;
+      if (url && editor) {
+        editor.chain().focus().setImage({ src: url }).run();
+      }
+    };
+    reader.readAsDataURL(file);
+  }, [editor]);
+
+  const triggerImageUpload = useCallback(() => {
+    fileInputRef.current?.click();
+  }, []);
+
+  const handleFileInputChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      handleImageUpload(file);
+    }
+    if (fileInputRef.current) {
+      fileInputRef.current.value = '';
+    }
+  }, [handleImageUpload]);
 
   if (!editor) {
     return null;
@@ -154,11 +205,31 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
             type="button"
             variant="ghost"
             size="sm"
+            onClick={() => editor.chain().focus().toggleHeading({ level: 1 }).run()}
+            className={`h-8 w-8 p-0 rounded-md transition-all ${editor.isActive('heading', { level: 1 }) ? 'bg-gradient-to-br from-purple-500 to-pink-600 text-white shadow-md' : 'hover:bg-gray-100'}`}
+            title="Heading 1"
+          >
+            <Heading1 className="w-4 h-4" />
+          </Button>
+          <Button
+            type="button"
+            variant="ghost"
+            size="sm"
             onClick={() => editor.chain().focus().toggleHeading({ level: 2 }).run()}
             className={`h-8 w-8 p-0 rounded-md transition-all ${editor.isActive('heading', { level: 2 }) ? 'bg-gradient-to-br from-purple-500 to-pink-600 text-white shadow-md' : 'hover:bg-gray-100'}`}
-            title="Heading"
+            title="Heading 2"
           >
             <Heading2 className="w-4 h-4" />
+          </Button>
+          <Button
+            type="button"
+            variant="ghost"
+            size="sm"
+            onClick={() => editor.chain().focus().toggleHeading({ level: 3 }).run()}
+            className={`h-8 w-8 p-0 rounded-md transition-all ${editor.isActive('heading', { level: 3 }) ? 'bg-gradient-to-br from-purple-500 to-pink-600 text-white shadow-md' : 'hover:bg-gray-100'}`}
+            title="Heading 3"
+          >
+            <Heading3 className="w-4 h-4" />
           </Button>
           <Button
             type="button"
@@ -215,6 +286,16 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
             title="Insert Link"
           >
             <LinkIcon className="w-4 h-4" />
+          </Button>
+          <Button
+            type="button"
+            variant="ghost"
+            size="sm"
+            onClick={triggerImageUpload}
+            className={`h-8 w-8 p-0 rounded-md transition-all hover:bg-gray-100`}
+            title="Upload Image"
+          >
+            <ImageIcon className="w-4 h-4" />
           </Button>
         </div>
 
@@ -289,6 +370,13 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
       </div>
       
       <div className="relative">
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="image/*"
+          onChange={handleFileInputChange}
+          className="hidden"
+        />
         <EditorContent editor={editor} placeholder={placeholder} />
         
         {showLinkDialog && (
