@@ -55,6 +55,7 @@ export function BlogForm({ blog, authors, categories }: BlogFormProps) {
     title: blog?.title || '',
     slug: blog?.slug?.current || '',
     excerpt: blog?.excerpt || '',
+    htmlBody: (blog as any)?.htmlBody || '',
     metaTitle: blog?.metaTitle || '',
     metaDescription: blog?.metaDescription || '',
     keywords: blog?.keywords || '',
@@ -71,6 +72,7 @@ export function BlogForm({ blog, authors, categories }: BlogFormProps) {
       title: formData.title,
       slug: { current: formData.slug, _type: 'slug' },
       excerpt: formData.excerpt,
+      htmlBody: formData.htmlBody,
       metaTitle: formData.metaTitle,
       metaDescription: formData.metaDescription,
       keywords: formData.keywords,
@@ -147,12 +149,30 @@ export function BlogForm({ blog, authors, categories }: BlogFormProps) {
           {/* Excerpt */}
           <div className="space-y-2">
             <Label htmlFor="excerpt" className="text-sm font-semibold text-gray-700">
-              Excerpt *
+              Excerpt * <span className="font-normal text-gray-500">(Plain text summary, max 500 chars)</span>
+            </Label>
+            <Textarea
+              id="excerpt"
+              value={formData.excerpt}
+              onChange={(e) => setFormData({ ...formData, excerpt: e.target.value })}
+              maxLength={500}
+              rows={3}
+              required
+              placeholder="Brief plain-text description of the blog post..."
+              className="border-2 border-gray-300 focus:border-blue-500"
+            />
+            <p className="text-xs text-gray-500">{formData.excerpt.length}/500 characters</p>
+          </div>
+
+          {/* Body Content */}
+          <div className="space-y-2">
+            <Label className="text-sm font-semibold text-gray-700">
+              Body Content
             </Label>
             <RichTextEditor
-              content={formData.excerpt}
-              onChange={(content) => setFormData({ ...formData, excerpt: content })}
-              placeholder="Brief description of the blog post with rich formatting..."
+              content={formData.htmlBody}
+              onChange={(content) => setFormData({ ...formData, htmlBody: content })}
+              placeholder="Write your blog post content here... Use H1, H2, H3 for headings."
             />
           </div>
 
@@ -308,11 +328,7 @@ export function BlogForm({ blog, authors, categories }: BlogFormProps) {
         </CardContent>
       </Card>
 
-      <div className="mt-6 bg-yellow-50 border-2 border-yellow-200 rounded-xl p-4">
-        <p className="text-sm text-gray-700">
-          <strong>Note:</strong> The blog body content can be edited in the Sanity Studio. This form handles metadata and basic information only.
-        </p>
-      </div>
+
     </form>
   );
 }

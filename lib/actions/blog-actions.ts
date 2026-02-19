@@ -48,6 +48,9 @@ export async function createBlog(data: any) {
     
     revalidatePath('/admin/dashboard');
     revalidatePath('/blogs');
+    if (data.slug?.current) {
+      revalidatePath(`/${data.slug.current}`);
+    }
     return { success: true, data: result };
   } catch (error: any) {
     return { success: false, error: error.message };
@@ -60,6 +63,9 @@ export async function updateBlog(id: string, data: any) {
     
     revalidatePath('/admin/dashboard');
     revalidatePath('/blogs');
+    if (data.slug?.current) {
+      revalidatePath(`/${data.slug.current}`);
+    }
     return { success: true, data: result };
   } catch (error: any) {
     return { success: false, error: error.message };

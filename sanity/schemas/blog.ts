@@ -67,103 +67,109 @@ export default defineType({
       title: 'Body Content',
       type: 'array',
       of: [
-            {
-              type: 'block',
-              styles: [
-                { title: 'Normal', value: 'normal' },
-                { title: 'H1', value: 'h1' },
-                { title: 'H2', value: 'h2' },
-                { title: 'H3', value: 'h3' },
-                { title: 'H4', value: 'h4' },
-                { title: 'Quote', value: 'blockquote' },
-              ],
-              lists: [
-                { title: 'Bullet', value: 'bullet' },
-                { title: 'Numbered', value: 'number' },
-              ],
-              marks: {
-                decorators: [
-                  { title: 'Strong', value: 'strong' },
-                  { title: 'Emphasis', value: 'em' },
-                  { title: 'Underline', value: 'underline' },
-                  { title: 'Strike', value: 'strike-through' },
-                ],
-                annotations: [
+        {
+          type: 'block',
+          styles: [
+            { title: 'Normal', value: 'normal' },
+            { title: 'H1', value: 'h1' },
+            { title: 'H2', value: 'h2' },
+            { title: 'H3', value: 'h3' },
+            { title: 'H4', value: 'h4' },
+            { title: 'Quote', value: 'blockquote' },
+          ],
+          lists: [
+            { title: 'Bullet', value: 'bullet' },
+            { title: 'Numbered', value: 'number' },
+          ],
+          marks: {
+            decorators: [
+              { title: 'Strong', value: 'strong' },
+              { title: 'Emphasis', value: 'em' },
+              { title: 'Underline', value: 'underline' },
+              { title: 'Strike', value: 'strike-through' },
+            ],
+            annotations: [
+              {
+                name: 'link',
+                type: 'object',
+                title: 'Link',
+                fields: [
                   {
-                    name: 'link',
-                    type: 'object',
-                    title: 'Link',
-                    fields: [
-                      {
-                        name: 'href',
-                        type: 'url',
-                        title: 'URL',
-                      },
-                    ],
+                    name: 'href',
+                    type: 'url',
+                    title: 'URL',
                   },
                 ],
               },
+            ],
+          },
+        },
+        {
+          type: 'image',
+          options: { hotspot: true },
+          fields: [
+            {
+              name: 'alt',
+              type: 'string',
+              title: 'Alternative Text',
             },
             {
-              type: 'image',
-              options: { hotspot: true },
-              fields: [
-                {
-                  name: 'alt',
-                  type: 'string',
-                  title: 'Alternative Text',
-                },
-                {
-                  name: 'caption',
-                  type: 'string',
-                  title: 'Caption',
-                },
-              ],
+              name: 'caption',
+              type: 'string',
+              title: 'Caption',
             },
+          ],
+        },
+        {
+          type: 'code',
+          title: 'Code Block',
+        },
+        {
+          type: 'object',
+          name: 'table',
+          title: 'Table',
+          fields: [
             {
-              type: 'code',
-              title: 'Code Block',
-            },
-            {
-              type: 'object',
-              name: 'table',
-              title: 'Table',
-              fields: [
+              name: 'rows',
+              type: 'array',
+              title: 'Table Rows',
+              of: [
                 {
-                  name: 'rows',
-                  type: 'array',
-                  title: 'Table Rows',
-                  of: [
+                  type: 'object',
+                  name: 'row',
+                  fields: [
                     {
-                      type: 'object',
-                      name: 'row',
-                      fields: [
-                        {
-                          name: 'cells',
-                          type: 'array',
-                          title: 'Cells',
-                          of: [{ type: 'string' }],
-                        },
-                      ],
+                      name: 'cells',
+                      type: 'array',
+                      title: 'Cells',
+                      of: [{ type: 'string' }],
                     },
                   ],
                 },
               ],
             },
+          ],
+        },
+        {
+          type: 'object',
+          name: 'html',
+          title: 'HTML Block',
+          fields: [
             {
-              type: 'object',
-              name: 'html',
-              title: 'HTML Block',
-              fields: [
-                {
-                  name: 'code',
-                  type: 'text',
-                  title: 'HTML Code',
-                  rows: 10,
-                },
-              ],
+              name: 'code',
+              type: 'text',
+              title: 'HTML Code',
+              rows: 10,
             },
           ],
+        },
+      ],
+    }),
+    defineField({
+      name: 'htmlBody',
+      title: 'Body Content (HTML Editor)',
+      type: 'text',
+      description: 'Rich HTML content written via the admin editor. This is used for rendering the blog post body.',
     }),
     defineField({
       name: 'metaTitle',

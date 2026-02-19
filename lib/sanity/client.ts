@@ -6,6 +6,7 @@ export interface BlogPost {
   title: string;
   slug: string;
   excerpt: string;
+  htmlBody?: string;
   featuredImage?: string;
   featuredImageAlt?: string;
   publishedAt: string;

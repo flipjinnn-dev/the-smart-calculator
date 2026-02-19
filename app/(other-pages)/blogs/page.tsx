@@ -55,6 +55,22 @@ const getBlogUrl = (slug: string) => {
   return `/${slug}`
 }
 
+// Strip HTML tags to get plain text for excerpt preview
+const stripHtml = (html: string): string => {
+  if (!html) return '';
+  // Remove all HTML tags and decode common entities
+  return html
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 const formatDate = (dateString: string) => {
   const date = new Date(dateString)
   const options: Intl.DateTimeFormatOptions = { 
@@ -148,11 +164,7 @@ export default async function BlogsPage() {
                     </CardHeader>
                     <CardContent>
                       <div className="text-gray-600 mb-4 line-clamp-3">
-                        {typeof post.excerpt === 'string' ? (
-                          <p>{post.excerpt}</p>
-                        ) : (
-                          <p>{post.title}</p>
-                        )}
+                        <p>{typeof post.excerpt === 'string' ? stripHtml(post.excerpt) || post.title : post.title}</p>
                       </div>
                       <Link
                         href={getBlogUrl(post.slug)}

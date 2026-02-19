@@ -11,11 +11,13 @@ export const metadata = {
   description: 'Edit an existing blog post',
 };
 
-export default async function EditBlogPage({ params }: { params: { id: string } }) {
+export default async function EditBlogPage({ params }: { params: Promise<{ id: string }> }) {
   await requireAdmin();
+  
+  const { id } = await params;
 
   const [blog, authors, categories] = await Promise.all([
-    getBlogById(params.id),
+    getBlogById(id),
     getAllAuthors(),
     getAllCategories(),
   ]);

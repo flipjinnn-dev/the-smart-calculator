@@ -9,11 +9,11 @@ import { Table } from '@tiptap/extension-table';
 import { TableRow } from '@tiptap/extension-table-row';
 import { TableHeader } from '@tiptap/extension-table-header';
 import { TableCell } from '@tiptap/extension-table-cell';
-import { 
-  Bold, 
-  Italic, 
-  Underline as UnderlineIcon, 
-  List, 
+import {
+  Bold,
+  Italic,
+  Underline as UnderlineIcon,
+  List,
   ListOrdered,
   Link as LinkIcon,
   Undo,
@@ -103,12 +103,13 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
     },
     editorProps: {
       attributes: {
-        class: 'prose prose-sm max-w-none focus:outline-none min-h-[150px] p-5',
+        class: 'prose prose-sm max-w-none focus:outline-none min-h-[400px] p-6',
+        'data-placeholder': placeholder || 'Start writing your blog content...',
       },
       handlePaste: (view, event) => {
         const items = Array.from(event.clipboardData?.items || []);
         const imageItem = items.find(item => item.type.startsWith('image/'));
-        
+
         if (imageItem) {
           event.preventDefault();
           const file = imageItem.getAsFile();
@@ -141,7 +142,7 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
     } else {
       editor.chain().focus().extendMarkRange('link').setLink({ href: linkUrl }).run();
     }
-    
+
     setShowLinkDialog(false);
     setLinkUrl('');
   }, [editor, linkUrl]);
@@ -171,6 +172,136 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
 
   return (
     <div className={`border-2 border-gray-300 rounded-2xl bg-white focus-within:border-blue-500 focus-within:ring-4 focus-within:ring-blue-500/10 transition-all shadow-sm hover:shadow-md ${className}`}>
+      {/* Scoped styles for heading sizes inside the editor */}
+      <style>{`
+        .rich-editor-content .ProseMirror {
+          color: #374151;
+          line-height: 1.75;
+        }
+        .rich-editor-content .ProseMirror h1 {
+          font-size: 2.25rem;
+          font-weight: 700;
+          line-height: 1.2;
+          margin-top: 2rem;
+          margin-bottom: 1rem;
+          color: #111827;
+        }
+        .rich-editor-content .ProseMirror h2 {
+          font-size: 1.875rem;
+          font-weight: 700;
+          line-height: 1.3;
+          margin-top: 1.75rem;
+          margin-bottom: 0.75rem;
+          color: #111827;
+        }
+        .rich-editor-content .ProseMirror h3 {
+          font-size: 1.5rem;
+          font-weight: 600;
+          line-height: 1.4;
+          margin-top: 1.5rem;
+          margin-bottom: 0.65rem;
+          color: #111827;
+        }
+        .rich-editor-content .ProseMirror h4 {
+          font-size: 1.25rem;
+          font-weight: 600;
+          line-height: 1.4;
+          margin-top: 1.25rem;
+          margin-bottom: 0.5rem;
+          color: #111827;
+        }
+        .rich-editor-content .ProseMirror p {
+          font-size: 1.1rem;
+          color: #374151;
+          line-height: 1.75;
+          margin-bottom: 1rem;
+        }
+        .rich-editor-content .ProseMirror ul {
+          list-style-type: disc;
+          padding-left: 2rem;
+          margin-bottom: 1rem;
+          color: #374151;
+        }
+        .rich-editor-content .ProseMirror ol {
+          list-style-type: decimal;
+          padding-left: 2rem;
+          margin-bottom: 1rem;
+          color: #374151;
+        }
+        .rich-editor-content .ProseMirror li {
+          margin-bottom: 0.35rem;
+        }
+        .rich-editor-content .ProseMirror blockquote {
+          border-left: 4px solid #3b82f6;
+          padding-left: 1.25rem;
+          font-style: italic;
+          color: #4b5563;
+          margin: 1.25rem 0;
+        }
+        .rich-editor-content .ProseMirror pre {
+          background: #1f2937;
+          color: #f9fafb;
+          padding: 1rem;
+          border-radius: 0.5rem;
+          overflow-x: auto;
+          font-family: monospace;
+          font-size: 0.9rem;
+          margin: 1rem 0;
+        }
+        .rich-editor-content .ProseMirror code {
+          background: #f3f4f6;
+          color: #dc2626;
+          padding: 0.15rem 0.4rem;
+          border-radius: 0.25rem;
+          font-size: 0.875rem;
+          font-family: monospace;
+        }
+        .rich-editor-content .ProseMirror a {
+          color: #2563eb;
+          text-decoration: underline;
+        }
+        .rich-editor-content .ProseMirror a:hover {
+          color: #1e40af;
+        }
+        .rich-editor-content .ProseMirror strong {
+          font-weight: 700;
+        }
+        .rich-editor-content .ProseMirror em {
+          font-style: italic;
+        }
+        .rich-editor-content .ProseMirror img {
+          border-radius: 0.5rem;
+          max-width: 100%;
+          height: auto;
+          margin: 1rem 0;
+        }
+        .rich-editor-content .ProseMirror hr {
+          border: none;
+          border-top: 2px solid #e5e7eb;
+          margin: 1.5rem 0;
+        }
+        .rich-editor-content .ProseMirror table {
+          border-collapse: collapse;
+          width: 100%;
+          margin: 1rem 0;
+        }
+        .rich-editor-content .ProseMirror td,
+        .rich-editor-content .ProseMirror th {
+          border: 1px solid #d1d5db;
+          padding: 0.5rem 0.75rem;
+        }
+        .rich-editor-content .ProseMirror th {
+          background: #f9fafb;
+          font-weight: 600;
+        }
+        .rich-editor-content .ProseMirror p.is-editor-empty:first-child::before {
+          content: attr(data-placeholder);
+          float: left;
+          color: #9ca3af;
+          pointer-events: none;
+          height: 0;
+        }
+      `}</style>
       <div className="border-b-2 border-gray-200 bg-gradient-to-r from-gray-50 to-gray-100/50 px-3 py-2.5 flex flex-wrap gap-1.5 items-center">
         <div className="flex items-center gap-0.5 bg-white rounded-lg px-1 py-0.5 shadow-sm border border-gray-200">
           <Button
@@ -373,7 +504,7 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
           <span className="text-xs font-semibold text-gray-700">Rich Editor</span>
         </div>
       </div>
-      
+
       <div className="relative">
         <input
           ref={fileInputRef}
@@ -382,8 +513,10 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
           onChange={handleFileInputChange}
           className="hidden"
         />
-        <EditorContent editor={editor} placeholder={placeholder} />
-        
+        <div className="rich-editor-content">
+          <EditorContent editor={editor} placeholder={placeholder} />
+        </div>
+
         {showLinkDialog && (
           <div className="absolute top-2 left-2 right-2 z-50 bg-white border-2 border-blue-500 rounded-xl shadow-2xl p-4 animate-in fade-in slide-in-from-top-2">
             <div className="flex items-center gap-2 mb-3">
