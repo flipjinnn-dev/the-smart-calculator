@@ -45,6 +45,18 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
   const [showLinkDialog, setShowLinkDialog] = useState(false);
   const [linkUrl, setLinkUrl] = useState('');
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const editorRef = useRef<any>(null);
+
+  const handleImageUpload = useCallback((file: File) => {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const url = e.target?.result as string;
+      if (url && editorRef.current) {
+        editorRef.current.chain().focus().setImage({ src: url }).run();
+      }
+    };
+    reader.readAsDataURL(file);
+  }, []);
 
   const editor = useEditor({
     extensions: [
@@ -110,6 +122,10 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
     },
   });
 
+  if (editor && !editorRef.current) {
+    editorRef.current = editor;
+  }
+
   const openLinkDialog = useCallback(() => {
     if (!editor) return;
     const previousUrl = editor.getAttributes('link').href;
@@ -134,17 +150,6 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
     setShowLinkDialog(false);
     setLinkUrl('');
   }, []);
-
-  const handleImageUpload = useCallback((file: File) => {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      const url = e.target?.result as string;
-      if (url && editor) {
-        editor.chain().focus().setImage({ src: url }).run();
-      }
-    };
-    reader.readAsDataURL(file);
-  }, [editor]);
 
   const triggerImageUpload = useCallback(() => {
     fileInputRef.current?.click();
