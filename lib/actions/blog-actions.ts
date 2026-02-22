@@ -29,6 +29,7 @@ export async function getBlogById(id: string) {
     categories[]->{_id, title},
     publishedAt,
     body,
+    htmlBody,
     metaTitle,
     metaDescription,
     keywords,

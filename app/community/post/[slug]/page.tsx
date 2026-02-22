@@ -15,9 +15,9 @@ import { PortableText } from '@portabletext/react';
 import { urlFor } from '@/lib/sanity/config';
 
 interface PostPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateMetadata({ params }: PostPageProps) {
@@ -33,7 +33,15 @@ export async function generateMetadata({ params }: PostPageProps) {
     }
 
     const postUrl = `https://www.thesmartcalculator.com/community/post/${slug}`;
-    const description = post.content?.[0]?.children?.[0]?.text?.substring(0, 160) || 'Read this post on our community platform.';
+    
+    // Extract description safely from content blocks
+    const description = post.excerpt || 
+      post.content?.flatMap((block: any) => block.children ?? [])
+        .map((child: any) => child.text)
+        .filter(Boolean)
+        .join(' ')
+        .slice(0, 160) || 
+      'Read this post on our community platform.';
     
     // Use featured image if available, otherwise use default
     let ogImage = '/og-image.png';
@@ -129,13 +137,39 @@ export default async function PostPage({ params }: PostPageProps) {
   const stripHeadElements = (html: string): string => {
     if (!html) return html;
     
-    // Remove meta tags, link tags, title tags, script tags, and style tags that shouldn't be in body
+    // Remove all head-only elements that should never appear in body content:
+    // - meta tags (including Open Graph, Twitter cards, charset, viewport, etc.)
+    // - link tags (canonical, alternate, preload, dns-prefetch, etc.)
+    // - title tags
+    // - script tags (especially JSON-LD schema markup)
+    // - style tags in head
+    // - base tags
+    // - noscript tags
     return html
-      .replace(/<meta[^>]*>/gi, '')
-      .replace(/<link[^>]*>/gi, '')
-      .replace(/<title[^>]*>.*?<\/title>/gi, '')
-      .replace(/<script[^>]*>.*?<\/script>/gi, '')
-      .replace(/<style[^>]*>.*?<\/style>/gi, '')
+      // Remove meta tags (all variations including self-closing and non-self-closing)
+      .replace(/<meta\s+[^>]*\/?>/gi, '')
+      .replace(/<meta\s+[^>]*>.*?<\/meta>/gi, '')
+      // Remove link tags (canonical, alternate, stylesheet, preload, etc.)
+      .replace(/<link\s+[^>]*\/?>/gi, '')
+      .replace(/<link\s+[^>]*>.*?<\/link>/gi, '')
+      // Remove title tags
+      .replace(/<title\s*[^>]*>[\s\S]*?<\/title>/gi, '')
+      // Remove script tags (including JSON-LD schema markup)
+      .replace(/<script\s+[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, '')
+      .replace(/<script\s+[^>]*>[\s\S]*?<\/script>/gi, '')
+      // Remove style tags
+      .replace(/<style\s+[^>]*>[\s\S]*?<\/style>/gi, '')
+      // Remove base tags
+      .replace(/<base\s+[^>]*\/?>/gi, '')
+      // Remove noscript tags
+      .replace(/<noscript\s+[^>]*>[\s\S]*?<\/noscript>/gi, '')
+      // Remove any remaining head tags if they somehow got into content
+      .replace(/<head\s*[^>]*>[\s\S]*?<\/head>/gi, '')
+      // Remove html and body opening/closing tags if present
+      .replace(/<\/?html[^>]*>/gi, '')
+      .replace(/<\/?body[^>]*>/gi, '')
+      // Clean up multiple consecutive whitespace/newlines
+      .replace(/\n\s*\n\s*\n/g, '\n\n')
       .trim();
   };
 

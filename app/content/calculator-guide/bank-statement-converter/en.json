@@ -1,0 +1,170 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "What is the Bank Statement Converter?",
+      "content": "The Bank Statement Converter is a powerful tool that transforms any bank statement from any country, bank, or format into a clean, standardized CSV file. It automatically detects date formats, currencies, and transaction patterns to create consistent, organized financial data.",
+      "subSections": []
+    },
+    {
+      "heading": "How to Use the Bank Statement Converter",
+      "content": "Follow these simple steps to convert your bank statement:",
+      "subSections": [
+        {
+          "heading": "Step 1: Prepare Your Statement",
+          "content": "You can use bank statements in various formats:\n- PDF (copy and paste the text content)\n- Excel/CSV files (upload directly or copy the data)\n- Plain text files\n- Screenshot OCR text"
+        },
+        {
+          "heading": "Step 2: Upload or Paste",
+          "content": "Either upload a TXT/CSV file using the upload button, or simply paste your bank statement text into the text area. The converter accepts unstructured text and automatically extracts transaction data."
+        },
+        {
+          "heading": "Step 3: Convert",
+          "content": "Click the 'Convert to CSV' button. The tool will automatically:\n- Detect the date format and convert to ISO format (YYYY-MM-DD)\n- Identify the currency used\n- Extract transaction details (date, description, debit, credit, balance)\n- Clean and normalize the data"
+        },
+        {
+          "heading": "Step 4: Download",
+          "content": "Review the converted CSV output and download it using the 'Download CSV File' button. The file will be named with the current date for easy organization."
+        }
+      ]
+    },
+    {
+      "heading": "Supported Formats",
+      "content": "The converter handles a wide range of bank statement formats:",
+      "subSections": [
+        {
+          "heading": "Date Formats",
+          "content": "Automatically detects and converts:\n- YYYY-MM-DD (ISO)\n- DD/MM/YYYY\n- DD-MM-YYYY\n- DD.MM.YYYY\n- DD Mon YYYY (e.g., 15 Jan 2024)"
+        },
+        {
+          "heading": "Currencies",
+          "content": "Supports all major currencies including:\n- PKR (Pakistani Rupee)\n- USD (US Dollar)\n- EUR (Euro)\n- GBP (British Pound)\n- INR (Indian Rupee)\n- And many more..."
+        },
+        {
+          "heading": "Transaction Formats",
+          "content": "Handles various statement layouts:\n- Separate Debit/Credit columns\n- Single Amount column with DR/CR indicators\n- Running balance formats\n- Multi-line descriptions\n- Different column orders"
+        }
+      ]
+    },
+    {
+      "heading": "Output Format",
+      "content": "The converter produces a standardized CSV with exactly these columns:",
+      "subSections": [
+        {
+          "heading": "Date",
+          "content": "All dates are converted to ISO format (YYYY-MM-DD) for consistency and easy sorting."
+        },
+        {
+          "heading": "Description",
+          "content": "Multi-line descriptions are merged into clean, single-line entries with extra spaces and symbols removed."
+        },
+        {
+          "heading": "Debit",
+          "content": "Money withdrawn or debited from the account. Empty if not applicable."
+        },
+        {
+          "heading": "Credit",
+          "content": "Money deposited or credited to the account. Empty if not applicable."
+        },
+        {
+          "heading": "Balance",
+          "content": "Running balance after the transaction (if available in the statement)."
+        },
+        {
+          "heading": "Currency",
+          "content": "The currency code (PKR, USD, EUR, etc.) detected from the statement."
+        }
+      ]
+    },
+    {
+      "heading": "Tips for Best Results",
+      "content": "Follow these tips to ensure accurate conversion:",
+      "subSections": [
+        {
+          "heading": "Clean Your Input",
+          "content": "Remove any unnecessary headers, footers, bank logos, or page numbers before pasting. The tool filters these automatically, but cleaner input produces better results."
+        },
+        {
+          "heading": "Check OCR Quality",
+          "content": "If copying from a scanned PDF, verify the text quality. OCR errors can affect accuracy. You can manually correct obvious errors before conversion."
+        },
+        {
+          "heading": "Verify Currency",
+          "content": "If your statement doesn't clearly show currency symbols, the tool may mark it as 'UNKNOWN'. You can edit the CSV after download if needed."
+        },
+        {
+          "heading": "Review Output",
+          "content": "Always review the converted CSV before using it for analysis or accounting. Check that dates, amounts, and descriptions are correctly extracted."
+        }
+      ]
+    },
+    {
+      "heading": "Use Cases",
+      "content": "The Bank Statement Converter is useful for:",
+      "subSections": [
+        {
+          "heading": "Personal Finance Management",
+          "content": "Import your bank transactions into budgeting apps, spreadsheets, or personal finance software."
+        },
+        {
+          "heading": "Accounting & Bookkeeping",
+          "content": "Quickly convert statements for accounting software, tax preparation, or financial record-keeping."
+        },
+        {
+          "heading": "Financial Analysis",
+          "content": "Analyze spending patterns, create reports, or perform data analysis on your banking history."
+        },
+        {
+          "heading": "Multi-Bank Consolidation",
+          "content": "Standardize statements from different banks into a single format for easier comparison and analysis."
+        },
+        {
+          "heading": "Data Migration",
+          "content": "Convert historical statements to import into new banking or financial management systems."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What file formats can I upload?",
+      "a": "You can upload TXT and CSV files directly. For PDF or Excel files, copy the text content and paste it into the text area. The converter works with plain text extracted from any source."
+    },
+    {
+      "q": "Does this work with statements from any bank?",
+      "a": "Yes! The converter is designed to handle bank statements from any country and any bank. It automatically detects the format and adapts to different layouts."
+    },
+    {
+      "q": "How does date detection work?",
+      "a": "The tool scans your statement for common date patterns and automatically identifies the format used. It then converts all dates to ISO format (YYYY-MM-DD) for consistency."
+    },
+    {
+      "q": "What if my statement has a unique format?",
+      "a": "The converter uses intelligent parsing to handle various formats. If transactions aren't detected correctly, try cleaning up the input by removing headers, footers, and extra formatting."
+    },
+    {
+      "q": "Is my data secure?",
+      "a": "Yes, all processing happens entirely in your browser. No data is sent to any server. Your bank statement never leaves your computer."
+    },
+    {
+      "q": "Can I edit the CSV after conversion?",
+      "a": "Absolutely! Download the CSV and open it in Excel, Google Sheets, or any spreadsheet application to make further edits or corrections."
+    },
+    {
+      "q": "What if the currency isn't detected?",
+      "a": "If the currency can't be determined, it will be marked as 'UNKNOWN'. You can manually replace this with the correct currency code in the downloaded CSV file."
+    },
+    {
+      "q": "How are multi-line descriptions handled?",
+      "a": "The converter automatically merges multi-line descriptions into a single clean line, removing extra spaces and formatting while preserving the transaction meaning."
+    },
+    {
+      "q": "What about opening and closing balances?",
+      "a": "Summary lines like opening balances, closing balances, and page totals are automatically filtered out. Only actual transaction rows are included in the output."
+    },
+    {
+      "q": "Can I convert statements with missing data?",
+      "a": "Yes, the tool handles incomplete data gracefully. Missing fields are left empty in the CSV output rather than causing errors."
+    }
+  ]
+}

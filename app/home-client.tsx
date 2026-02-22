@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import type { Metadata } from "next"
-import Head from "next/head"
 import Link from "next/link"
 import {
   Calculator,
@@ -340,7 +339,7 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-indigo-400 to-violet-600",
       bgColor: "bg-indigo-50",
       textColor: "text-indigo-600",
-      calculators: 6,
+      calculators: 7,
       itemLabel: "game",
       href: "/games",
     },
@@ -501,11 +500,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
 
   return (
     <>
-      <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-        <meta name="x-language" content={language} />
-      </Head>
-
       <div className="min-h-screen bg-white font-sans selection:bg-blue-100 selection:text-blue-900">
         {/* Hero Section */}
         <section className="relative pt-12 pb-20 lg:pt-24 lg:pb-32 overflow-hidden bg-slate-50/30">

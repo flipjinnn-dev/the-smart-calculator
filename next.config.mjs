@@ -1,3 +1,9 @@
+import { fileURLToPath } from 'url';
+import { dirname, resolve } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async redirects() {
@@ -105,6 +111,40 @@ const nextConfig = {
     buildActivityPosition: 'bottom-right',
   },
   productionBrowserSourceMaps: false,
+  turbopack: {
+    rules: {
+      '*.node': {
+        loaders: ['ignore-loader'],
+      },
+    },
+  },
+  webpack: (config, { isServer, webpack }) => {
+    // Handle canvas for both server and client
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      canvas: false,
+    };
+    
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        path: false,
+        stream: false,
+        crypto: false,
+      };
+    }
+    
+    // Replace canvas module with mock for both environments
+    config.plugins.push(
+      new webpack.NormalModuleReplacementPlugin(
+        /^canvas$/,
+        resolve(__dirname, './canvas-mock.js')
+      )
+    );
+    
+    return config;
+  },
 }
 
 export default nextConfig

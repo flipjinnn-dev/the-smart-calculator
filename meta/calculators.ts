@@ -935,6 +935,14 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "conversor, divisas, convierte, monedas, instante, utiliza, nuestro, convertir, conocer, cambio, actual, gestionar, transacciones, internacionales, manera"
     }
   },
+  'bank-statement-converter': {
+    en: {
+      title: "Bank Statement Converter - Convert Any Bank Statement to CSV",
+      description: "Convert any bank statement (PDF, Excel, CSV) from any country or bank into standardized CSV format. Supports all currencies, date formats, and statement layouts.",
+      slug: "/financial/bank-statement-converter",
+      keywords: "bank statement converter, PDF to CSV, bank statement parser, financial data extraction, statement converter, normalize bank data, convert bank statement, financial tools"
+    }
+  },
   'investment-calculator': {
     en: {
       title: "Investment Calculator",

@@ -1,0 +1,30 @@
+{
+  "title": "Bank Statement Converter",
+  "description": "Convert any bank statement (PDF text, CSV, Excel, or plain text) into a clean, standardized CSV format. Supports all countries, banks, and currencies.",
+  "uploadSection": {
+    "title": "Upload or Paste Statement",
+    "description": "Paste your bank statement text or upload a TXT/CSV file"
+  },
+  "buttons": {
+    "uploadFile": "Upload File",
+    "convert": "Convert to CSV",
+    "converting": "Converting...",
+    "reset": "Reset",
+    "download": "Download CSV File"
+  },
+  "placeholders": {
+    "input": "Paste your bank statement here...\n\nExample:\nDate        Description              Debit    Credit   Balance\n01/01/2024  Opening Balance                            5000.00\n02/01/2024  ATM Withdrawal          500.00            4500.00\n03/01/2024  Salary Credit                   3000.00  7500.00"
+  },
+  "messages": {
+    "success": "Statement converted successfully!",
+    "noTransactions": "No transactions detected. Please ensure the statement contains valid transaction data.",
+    "emptyInput": "Please paste your bank statement text",
+    "fileError": "Please upload a TXT or CSV file. For PDF/Excel files, copy and paste the text content.",
+    "readError": "Failed to read file. Please try again.",
+    "processingError": "An error occurred while processing the statement. Please check the format and try again."
+  },
+  "outputSection": {
+    "title": "Converted CSV Output",
+    "description": "Your standardized bank statement in CSV format"
+  }
+}

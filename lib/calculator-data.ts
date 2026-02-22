@@ -94,6 +94,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'acres-per-hour-calculator') return 'acres-per-hour-calculator';
   if (id === 'notice-period-calculator') return 'notice-period-calculator';
   if (id === 'grade-curve-calculator') return 'grade-curve-calculator';
+  if (id === 'bank-statement-converter') return 'bank-statement-converter';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -301,6 +302,13 @@ export const calculators: Calculator[] = [
     name: "Currency Calculator",
     description: "Convert between different currencies with real-time rates",
     href: "/financial/currency-calculator",
+    category: "financial",
+  },
+  {
+    id: "bank-statement-converter",
+    name: "Bank Statement Converter",
+    description: "Convert any bank statement (PDF, Excel, CSV) from any country or bank into standardized CSV format",
+    href: "/financial/bank-statement-converter",
     category: "financial",
   },
   {

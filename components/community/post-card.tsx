@@ -69,6 +69,46 @@ export function PostCard({ post, hasReacted, isAuthenticated }: PostCardProps) {
     return null;
   };
 
+  // Helper to strip head-only elements from HTML content
+  const stripHeadElements = (html: string): string => {
+    if (!html) return html;
+    
+    // Remove all head-only elements that should never appear in body content:
+    // - meta tags (including Open Graph, Twitter cards, charset, viewport, etc.)
+    // - link tags (canonical, alternate, preload, dns-prefetch, etc.)
+    // - title tags
+    // - script tags (especially JSON-LD schema markup)
+    // - style tags in head
+    // - base tags
+    // - noscript tags
+    return html
+      // Remove meta tags (all variations including self-closing and non-self-closing)
+      .replace(/<meta\s+[^>]*\/?>/gi, '')
+      .replace(/<meta\s+[^>]*>.*?<\/meta>/gi, '')
+      // Remove link tags (canonical, alternate, stylesheet, preload, etc.)
+      .replace(/<link\s+[^>]*\/?>/gi, '')
+      .replace(/<link\s+[^>]*>.*?<\/link>/gi, '')
+      // Remove title tags
+      .replace(/<title\s*[^>]*>[\s\S]*?<\/title>/gi, '')
+      // Remove script tags (including JSON-LD schema markup)
+      .replace(/<script\s+[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, '')
+      .replace(/<script\s+[^>]*>[\s\S]*?<\/script>/gi, '')
+      // Remove style tags
+      .replace(/<style\s+[^>]*>[\s\S]*?<\/style>/gi, '')
+      // Remove base tags
+      .replace(/<base\s+[^>]*\/?>/gi, '')
+      // Remove noscript tags
+      .replace(/<noscript\s+[^>]*>[\s\S]*?<\/noscript>/gi, '')
+      // Remove any remaining head tags if they somehow got into content
+      .replace(/<head\s*[^>]*>[\s\S]*?<\/head>/gi, '')
+      // Remove html and body opening/closing tags if present
+      .replace(/<\/?html[^>]*>/gi, '')
+      .replace(/<\/?body[^>]*>/gi, '')
+      // Clean up multiple consecutive whitespace/newlines
+      .replace(/\n\s*\n\s*\n/g, '\n\n')
+      .trim();
+  };
+
   const handleShare = async () => {
     const postUrl = `${window.location.origin}/community/post/${post.slug.current}`;
     
@@ -147,19 +187,19 @@ export function PostCard({ post, hasReacted, isAuthenticated }: PostCardProps) {
         <div className="px-8 py-6">
           <div className="prose prose-base max-w-none text-gray-700 leading-relaxed">
             {post.htmlContent ? (
-              <div dangerouslySetInnerHTML={{ __html: post.htmlContent }} />
+              <div dangerouslySetInnerHTML={{ __html: stripHeadElements(post.htmlContent) }} />
             ) : post.content ? (
               Array.isArray(post.content) ? (
                 (() => {
                   const htmlContent = getHtmlFromPortableText(post.content);
                   return htmlContent ? (
-                    <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+                    <div dangerouslySetInnerHTML={{ __html: stripHeadElements(htmlContent) }} />
                   ) : (
                     <PortableText value={post.content} />
                   );
                 })()
               ) : (
-                <div dangerouslySetInnerHTML={{ __html: post.content }} />
+                <div dangerouslySetInnerHTML={{ __html: stripHeadElements(post.content) }} />
               )
             ) : null}
           </div>

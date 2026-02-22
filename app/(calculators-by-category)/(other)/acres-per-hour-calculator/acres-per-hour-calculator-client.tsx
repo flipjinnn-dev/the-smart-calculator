@@ -5,38 +5,33 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { Calculator, Tractor, Gauge, Percent, TrendingUp, Book, HelpCircle, ChevronDown, ChevronUp, Leaf, Info, CheckCircle2 } from "lucide-react";
+import { Calculator, Tractor, Gauge, Percent, TrendingUp, Book, HelpCircle, ChevronDown, ChevronUp, Clock, MapPin, Sprout } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { RatingProfileSection } from '@/components/rating-profile-section';
-import Image from "next/image";
-import { cn } from "@/lib/utils";
 
 interface AcresPerHourResults {
   acresPerHour: number;
+  theoreticalAPH: number;
   acresPerDay: number;
-  hoursFor100Acres: number;
-  hoursFor1000Acres: number;
+  timeForField: number | null;
   workingWidthFt: number;
   speedMph: number;
   efficiency: number;
+  overlap: number;
 }
 
-interface AcresPerHourCalculatorClientProps {
-  content: any;
-  guideContent: any;
-}
-
-export default function AcresPerHourCalculatorClient({ content, guideContent }: AcresPerHourCalculatorClientProps) {
-  const contentData = content || {};
+export default function AcresPerHourCalculatorClient() {
   
   const [workingWidth, setWorkingWidth] = useState("");
   const [widthUnit, setWidthUnit] = useState("feet");
   const [speed, setSpeed] = useState("");
   const [speedUnit, setSpeedUnit] = useState("mph");
   const [efficiency, setEfficiency] = useState("");
+  const [overlap, setOverlap] = useState("10");
   const [operationType, setOperationType] = useState("");
+  const [fieldArea, setFieldArea] = useState("");
   const [results, setResults] = useState<AcresPerHourResults | null>(null);
   const [error, setError] = useState("");
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
@@ -62,39 +57,52 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
 
     const widthValue = parseFloat(workingWidth);
     if (isNaN(widthValue) || widthValue <= 0) {
-      setError(contentData.error_width || "Please enter a valid working width");
+      setError("Please enter a valid working width");
       return;
     }
 
     const speedValue = parseFloat(speed);
     if (isNaN(speedValue) || speedValue <= 0) {
-      setError(contentData.error_speed || "Please enter a valid speed");
+      setError("Please enter a valid speed");
       return;
     }
 
     const efficiencyValue = parseFloat(efficiency);
     if (isNaN(efficiencyValue) || efficiencyValue <= 0 || efficiencyValue > 100) {
-      setError(contentData.error_efficiency || "Please enter a valid efficiency (1-100%)");
+      setError("Please enter a valid efficiency (1-100%)");
+      return;
+    }
+
+    const overlapValue = parseFloat(overlap);
+    if (isNaN(overlapValue) || overlapValue < 0 || overlapValue > 50) {
+      setError("Please enter a valid overlap (0-50%)");
       return;
     }
 
     const widthInFeet = widthUnit === "inches" ? widthValue / 12 : widthValue;
     const speedInMph = speedUnit === "kmh" ? speedValue * 0.621371 : speedValue;
     const efficiencyDecimal = efficiencyValue / 100;
+    const overlapDecimal = overlapValue / 100;
 
-    const acresPerHour = (widthInFeet * speedInMph * efficiencyDecimal) / 8.25;
+    const effectiveWidth = widthInFeet * (1 - overlapDecimal);
+    const theoreticalAPH = (widthInFeet * speedInMph) / 8.25;
+    const acresPerHour = (effectiveWidth * speedInMph * efficiencyDecimal) / 8.25;
     const acresPerDay = acresPerHour * 8;
-    const hoursFor100Acres = 100 / acresPerHour;
-    const hoursFor1000Acres = 1000 / acresPerHour;
+
+    let timeForField = null;
+    if (fieldArea && parseFloat(fieldArea) > 0) {
+      timeForField = parseFloat(fieldArea) / acresPerHour;
+    }
 
     setResults({
       acresPerHour: parseFloat(acresPerHour.toFixed(2)),
+      theoreticalAPH: parseFloat(theoreticalAPH.toFixed(2)),
       acresPerDay: parseFloat(acresPerDay.toFixed(2)),
-      hoursFor100Acres: parseFloat(hoursFor100Acres.toFixed(2)),
-      hoursFor1000Acres: parseFloat(hoursFor1000Acres.toFixed(2)),
+      timeForField,
       workingWidthFt: parseFloat(widthInFeet.toFixed(2)),
       speedMph: parseFloat(speedInMph.toFixed(2)),
-      efficiency: efficiencyValue
+      efficiency: efficiencyValue,
+      overlap: overlapValue
     });
   };
 
@@ -111,7 +119,9 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
     setSpeed("");
     setSpeedUnit("mph");
     setEfficiency("");
+    setOverlap("10");
     setOperationType("");
+    setFieldArea("");
     setResults(null);
     setError("");
   };
@@ -125,24 +135,56 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
             <Tractor className="h-10 w-10 text-white" />
           </div>
           <h1 className="text-5xl font-bold bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent">
-            {contentData.title || "Acres Per Hour Calculator"}
+            Acres Per Hour Calculator
           </h1>
         </div>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          {contentData.description || "Calculate how many acres you can cover per hour based on working width, ground speed, and field efficiency"}
+          Calculate acres per hour for mowing, planting, spraying, or harvesting with efficiency and overlap adjustments. Plan farm work accurately and fast.
         </p>
       </div>
 
+      {/* Introduction Section */}
+      <section className="mb-12 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border border-green-200">
+        <p className="text-lg text-gray-700 leading-relaxed mb-4">
+          An acres per hour calculator determines how much land a machine can cover in one hour using this formula:
+        </p>
+        <div className="bg-white p-6 rounded-xl border-2 border-green-500 mb-4">
+          <p className="text-center text-2xl font-semibold text-gray-900">
+            Acres per Hour = <span className="text-green-600">(Speed × Width × Efficiency)</span> ÷ 8.25
+          </p>
+        </div>
+        <div className="grid md:grid-cols-3 gap-4 text-sm text-gray-700">
+          <div className="bg-white p-4 rounded-lg">
+            <p className="font-semibold text-green-600 mb-1">Speed</p>
+            <p>miles per hour (mph)</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg">
+            <p className="font-semibold text-green-600 mb-1">Width</p>
+            <p>working width of implement (feet)</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg">
+            <p className="font-semibold text-green-600 mb-1">Efficiency</p>
+            <p>0.70–0.90 depending on field conditions</p>
+          </div>
+        </div>
+        <p className="text-gray-700 mt-4">
+          <strong>8.25</strong> = conversion constant
+        </p>
+        <p className="text-gray-700 mt-4">
+          For mowing, spraying, planting, bush hogging, or combine harvesting, this formula gives accurate real-world coverage estimates.
+        </p>
+      </section>
+
       <div className="grid lg:grid-cols-2 gap-8 items-start">
         {/* Input Section */}
-        <Card className="shadow-2xl border-2 border-green-100 hover:shadow-green-100 transition-shadow duration-300">
+        <Card className="shadow-2xl border-2 pt-0 border-green-100 hover:shadow-green-100 transition-shadow duration-300">
           <CardHeader className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-t-lg border-b px-8 py-6">
             <CardTitle className="flex items-center gap-2 text-xl">
               <Calculator className="h-6 w-6" />
-              {contentData.input_title || "Calculate Acres Per Hour"}
+              Calculate Acres Per Hour
             </CardTitle>
             <CardDescription className="text-gray-600">
-              {contentData.input_description || "Enter your equipment specifications and field conditions"}
+              Enter your equipment specifications and field conditions
             </CardDescription>
           </CardHeader>
           <CardContent className="p-6 space-y-6">
@@ -150,19 +192,19 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
             <div className="space-y-2">
               <Label htmlFor="operationType" className="flex items-center gap-2">
                 <Tractor className="h-4 w-4 text-green-600" />
-                {contentData.operation_label || "Operation Type"}
+                Operation Type
               </Label>
               <Select value={operationType} onValueChange={handleOperationChange}>
                 <SelectTrigger id="operationType">
-                  <SelectValue placeholder={contentData.operation_placeholder || "Select operation type"} />
+                  <SelectValue placeholder="Select operation type" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="mowing">{contentData.operation_mowing || "Mowing"}</SelectItem>
-                  <SelectItem value="planting">{contentData.operation_planting || "Planting"}</SelectItem>
-                  <SelectItem value="spraying">{contentData.operation_spraying || "Spraying"}</SelectItem>
-                  <SelectItem value="tillage">{contentData.operation_tillage || "Tillage"}</SelectItem>
-                  <SelectItem value="bush_hog">{contentData.operation_bush_hog || "Bush Hog"}</SelectItem>
-                  <SelectItem value="custom">{contentData.operation_custom || "Custom"}</SelectItem>
+                  <SelectItem value="mowing">Mowing</SelectItem>
+                  <SelectItem value="planting">Planting</SelectItem>
+                  <SelectItem value="spraying">Spraying</SelectItem>
+                  <SelectItem value="tillage">Tillage</SelectItem>
+                  <SelectItem value="bush_hog">Bush Hog</SelectItem>
+                  <SelectItem value="custom">Custom</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -171,7 +213,7 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
             <div className="space-y-2">
               <Label htmlFor="workingWidth" className="flex items-center gap-2">
                 <Gauge className="h-4 w-4 text-green-600" />
-                {contentData.width_label || "Working Width"}
+                Working Width
               </Label>
               <div className="flex gap-2">
                 <Input
@@ -189,13 +231,13 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="feet">{contentData.unit_feet || "Feet"}</SelectItem>
-                    <SelectItem value="inches">{contentData.unit_inches || "Inches"}</SelectItem>
+                    <SelectItem value="feet">Feet</SelectItem>
+                    <SelectItem value="inches">Inches</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
               <p className="text-xs text-gray-500">
-                {contentData.width_hint || "Effective working width of your implement"}
+                Effective working width of your implement
               </p>
             </div>
 
@@ -203,7 +245,7 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
             <div className="space-y-2">
               <Label htmlFor="speed" className="flex items-center gap-2">
                 <TrendingUp className="h-4 w-4 text-green-600" />
-                {contentData.speed_label || "Ground Speed"}
+                Ground Speed
               </Label>
               <div className="flex gap-2">
                 <Input
@@ -221,13 +263,13 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="mph">{contentData.unit_mph || "MPH"}</SelectItem>
-                    <SelectItem value="kmh">{contentData.unit_kmh || "KM/H"}</SelectItem>
+                    <SelectItem value="mph">MPH</SelectItem>
+                    <SelectItem value="kmh">KM/H</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
               <p className="text-xs text-gray-500">
-                {contentData.speed_hint || "Average operating speed"}
+                Average operating speed
               </p>
             </div>
 
@@ -235,7 +277,7 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
             <div className="space-y-2">
               <Label htmlFor="efficiency" className="flex items-center gap-2">
                 <Percent className="h-4 w-4 text-green-600" />
-                {contentData.efficiency_label || "Field Efficiency (%)"}
+                Field Efficiency (%)
               </Label>
               <Input
                 id="efficiency"
@@ -248,7 +290,48 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
                 max="100"
               />
               <p className="text-xs text-gray-500">
-                {contentData.efficiency_hint || "Typical: Mowing 70-85%, Planting 65-80%, Spraying 75-90%, Tillage 70-85%"}
+                Typical: Mowing 70-85%, Planting 65-80%, Spraying 75-90%, Tillage 70-85%
+              </p>
+            </div>
+
+            {/* Overlap */}
+            <div className="space-y-2">
+              <Label htmlFor="overlap" className="flex items-center gap-2">
+                <Gauge className="h-4 w-4 text-green-600" />
+                Overlap (%)
+              </Label>
+              <Input
+                id="overlap"
+                type="number"
+                value={overlap}
+                onChange={(e) => setOverlap(e.target.value)}
+                placeholder="Enter overlap (e.g., 10)"
+                step="1"
+                min="0"
+                max="50"
+              />
+              <p className="text-xs text-gray-500">
+                Typical overlap: 5-15% (default 10%)
+              </p>
+            </div>
+
+            {/* Field Area (Optional) */}
+            <div className="space-y-2">
+              <Label htmlFor="fieldArea" className="flex items-center gap-2">
+                <MapPin className="h-4 w-4 text-green-600" />
+                Field Area (Optional)
+              </Label>
+              <Input
+                id="fieldArea"
+                type="number"
+                value={fieldArea}
+                onChange={(e) => setFieldArea(e.target.value)}
+                placeholder="Enter field size in acres"
+                step="0.1"
+                min="0"
+              />
+              <p className="text-xs text-gray-500">
+                Enter field size to calculate time needed
               </p>
             </div>
 
@@ -261,10 +344,10 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
             <div className="flex gap-3 pt-4">
               <Button onClick={calculateAcresPerHour} className="flex-1 bg-green-600 hover:bg-green-700">
                 <Calculator className="w-4 h-4 mr-2" />
-                {contentData.calculate_button || "Calculate"}
+                Calculate
               </Button>
               <Button onClick={resetCalculator} variant="outline">
-                {contentData.reset_button || "Reset"}
+                Reset
               </Button>
             </div>
           </CardContent>
@@ -273,27 +356,27 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
         {/* Results Section */}
         <div ref={resultsRef}>
           {results && (
-            <Card className="shadow-2xl border-2 border-green-100">
+            <Card className="shadow-2xl border-2 pt-0 border-green-100">
               <CardHeader className="bg-gradient-to-r from-green-50 to-emerald-50 border-b px-8 py-6">
                 <CardTitle className="flex items-center gap-2 text-xl">
                   <TrendingUp className="h-6 w-6" />
-                  {contentData.results_title || "Productivity Results"}
+                  Productivity Results
                 </CardTitle>
                 <CardDescription className="text-gray-600">
-                  {contentData.results_description || "Your field coverage estimates"}
+                  Your field coverage estimates
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6 space-y-6">
                 <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-xl border-2 border-green-200">
                   <div className="text-center">
                     <p className="text-sm text-gray-600 mb-2">
-                      {contentData.result_acres_per_hour_label || "Acres Per Hour"}
+                      Effective Acres Per Hour
                     </p>
                     <p className="text-5xl font-bold text-green-600">
                       {results.acresPerHour}
                     </p>
                     <p className="text-sm text-gray-500 mt-2">
-                      {contentData.result_acres_unit || "acres/hour"}
+                      acres/hour
                     </p>
                   </div>
                 </div>
@@ -301,7 +384,17 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-4 bg-gray-50 rounded-lg">
                     <p className="text-sm text-gray-600 mb-1">
-                      {contentData.result_acres_per_day_label || "Acres Per 8-Hour Day"}
+                      Theoretical APH
+                    </p>
+                    <p className="text-2xl font-bold text-gray-900">
+                      {results.theoreticalAPH}
+                    </p>
+                    <p className="text-xs text-gray-500 mt-1">Without efficiency</p>
+                  </div>
+
+                  <div className="p-4 bg-gray-50 rounded-lg">
+                    <p className="text-sm text-gray-600 mb-1">
+                      Acres Per 8-Hour Day
                     </p>
                     <p className="text-2xl font-bold text-gray-900">
                       {results.acresPerDay}
@@ -310,67 +403,65 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
 
                   <div className="p-4 bg-gray-50 rounded-lg">
                     <p className="text-sm text-gray-600 mb-1">
-                      {contentData.result_hours_100_label || "Hours for 100 Acres"}
-                    </p>
-                    <p className="text-2xl font-bold text-gray-900">
-                      {results.hoursFor100Acres}
-                    </p>
-                  </div>
-
-                  <div className="p-4 bg-gray-50 rounded-lg">
-                    <p className="text-sm text-gray-600 mb-1">
-                      {contentData.result_hours_1000_label || "Hours for 1,000 Acres"}
-                    </p>
-                    <p className="text-2xl font-bold text-gray-900">
-                      {results.hoursFor1000Acres}
-                    </p>
-                  </div>
-
-                  <div className="p-4 bg-gray-50 rounded-lg">
-                    <p className="text-sm text-gray-600 mb-1">
-                      {contentData.result_efficiency_label || "Field Efficiency"}
+                      Field Efficiency
                     </p>
                     <p className="text-2xl font-bold text-gray-900">
                       {results.efficiency}%
                     </p>
                   </div>
+
+                  <div className="p-4 bg-gray-50 rounded-lg">
+                    <p className="text-sm text-gray-600 mb-1">
+                      Overlap
+                    </p>
+                    <p className="text-2xl font-bold text-gray-900">
+                      {results.overlap}%
+                    </p>
+                  </div>
                 </div>
+
+                {results.timeForField && (
+                  <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                    <div className="flex items-center gap-2 mb-2">
+                      <Clock className="h-5 w-5 text-blue-600" />
+                      <p className="font-semibold text-blue-900">Time to Complete Field</p>
+                    </div>
+                    <p className="text-3xl font-bold text-blue-600">
+                      {results.timeForField.toFixed(2)} hours
+                    </p>
+                    <p className="text-sm text-blue-700 mt-1">
+                      ≈ {Math.floor(results.timeForField)} hours {Math.round((results.timeForField % 1) * 60)} minutes
+                    </p>
+                  </div>
+                )}
 
                 <div className="border-t pt-4">
                   <h3 className="font-semibold mb-3 text-gray-900">
-                    {contentData.calculation_details_title || "Calculation Details"}
+                    Calculation Details
                   </h3>
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
-                      <span className="text-gray-600">
-                        {contentData.detail_working_width || "Working Width:"}
-                      </span>
-                      <span className="font-medium text-gray-900">
-                        {results.workingWidthFt} ft
-                      </span>
+                      <span className="text-gray-600">Working Width:</span>
+                      <span className="font-medium text-gray-900">{results.workingWidthFt} ft</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">
-                        {contentData.detail_speed || "Ground Speed:"}
-                      </span>
-                      <span className="font-medium text-gray-900">
-                        {results.speedMph} mph
-                      </span>
+                      <span className="text-gray-600">Effective Width:</span>
+                      <span className="font-medium text-gray-900">{(results.workingWidthFt * (1 - results.overlap / 100)).toFixed(2)} ft</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">
-                        {contentData.detail_formula || "Formula Used:"}
-                      </span>
-                      <span className="font-medium text-gray-900 text-xs">
-                        (W × S × E) ÷ 8.25
-                      </span>
+                      <span className="text-gray-600">Ground Speed:</span>
+                      <span className="font-medium text-gray-900">{results.speedMph} mph</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-600">Formula Used:</span>
+                      <span className="font-medium text-gray-900 text-xs">(W × S × E × (1-O)) ÷ 8.25</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
                   <p className="text-sm text-blue-800">
-                    <strong>{contentData.note_title || "Note:"}</strong> {contentData.note_text || "These are estimates. Actual field performance may vary based on terrain, operator skill, and field conditions."}
+                    <strong>Note:</strong> These are estimates. Actual field performance may vary based on terrain, operator skill, and field conditions.
                   </p>
                 </div>
               </CardContent>
@@ -407,37 +498,62 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
           </div>
         </section>
 
-        {/* Formula Section with Image */}
+        {/* Core Formula Section */}
         <section className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            The Acres Per Hour Formula
+            Core Formula Behind Acres Per Hour Calculation
           </h2>
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
+          
+          <div className="space-y-6">
             <div>
-              <div className="bg-green-100 p-6 rounded-xl border-2 border-green-500 mb-6">
-                <p className="text-xl font-mono text-center text-gray-900">
-                  Acres per Hour = (Width × Speed × Efficiency) ÷ 8.25
+              <h3 className="text-xl font-bold text-gray-900 mb-4">1️⃣ Theoretical Field Capacity (TFC)</h3>
+              <div className="bg-blue-50 p-6 rounded-xl border-2 border-blue-400 mb-4">
+                <p className="text-center text-2xl font-semibold text-gray-900">
+                  TFC = <span className="text-blue-600">(Speed × Width)</span> ÷ 8.25
                 </p>
               </div>
-              <div className="space-y-4 text-gray-700">
-                <p className="font-semibold text-lg text-gray-900">Why 8.25?</p>
-                <ul className="space-y-2 pl-5 list-disc">
-                  <li>1 mile per hour = 5,280 feet per hour</li>
-                  <li>1 acre = 43,560 square feet</li>
-                  <li>43,560 ÷ 5,280 ≈ 8.25</li>
-                </ul>
-                <p className="mt-4">
-                  This constant converts feet and miles into acres accurately.
-                </p>
-              </div>
+              <p className="text-gray-700">This assumes:</p>
+              <ul className="list-disc pl-6 text-gray-700 space-y-1 mt-2">
+                <li>No overlap</li>
+                <li>No turning loss</li>
+                <li>Perfect rectangular field</li>
+                <li>No downtime</li>
+              </ul>
+              <p className="text-gray-700 mt-2"><strong>This is ideal performance only.</strong></p>
             </div>
-            <div className="relative h-64 lg:h-80">
-              <Image
-                src="/images/how-to-calculate-acres-per-hour.png"
-                alt="How to Calculate Acres Per Hour"
-                fill
-                className="object-contain rounded-lg"
-              />
+
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">2️⃣ Effective Field Capacity (EFC)</h3>
+              <div className="bg-green-100 p-6 rounded-xl border-2 border-green-500 mb-4">
+                <p className="text-center text-2xl font-semibold text-gray-900">
+                  EFC = <span className="text-green-600">(Speed × Width × Field Efficiency)</span> ÷ 8.25
+                </p>
+              </div>
+              <p className="text-gray-700 mb-2">Field efficiency accounts for:</p>
+              <ul className="list-disc pl-6 text-gray-700 space-y-1">
+                <li>Turning time</li>
+                <li>Irregular field shape</li>
+                <li>Overlapping passes</li>
+                <li>Refilling downtime</li>
+                <li>Terrain variation</li>
+              </ul>
+              <p className="text-gray-700 mt-3"><strong>Typical efficiency range: 70% – 90%</strong></p>
+            </div>
+
+            <div className="bg-amber-50 p-6 rounded-xl border border-amber-300">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Why the Constant 8.25 Is Used</h3>
+              <p className="text-gray-700 mb-3">The number 8.25 converts square feet per hour into acres per hour. It comes from:</p>
+              <div className="bg-white p-4 rounded-lg mb-3">
+                <p className="text-gray-700">• 1 acre = 43,560 square feet</p>
+                <p className="text-gray-700">• 1 mile = 5,280 feet</p>
+              </div>
+              <p className="text-gray-700 mb-2">Mathematically:</p>
+              <div className="bg-white p-4 rounded-lg">
+                <p className="text-center font-mono text-lg text-gray-900">
+                  5280 ÷ 43560 ≈ 8.25
+                </p>
+              </div>
+              <p className="text-gray-700 mt-3">Without this constant, conversion would require multiple manual steps.</p>
             </div>
           </div>
         </section>
@@ -552,61 +668,226 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
           </div>
         </section>
 
-        {/* Manual Calculation Steps with Image */}
+        {/* How to Calculate Section */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-200">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            How to Calculate Acres per Hour Manually
+            How to Calculate Acres Per Hour (Step-by-Step)
           </h2>
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div className="relative h-64 lg:h-80">
-              <Image
-                src="/images/how-to-calculate-acres-per-hour-manually.png"
-                alt="Calculate Acres Per Hour Manually"
-                fill
-                className="object-contain rounded-lg"
-              />
+          <p className="text-gray-700 mb-6">To calculate how many acres per hour you can cover:</p>
+          
+          <div className="space-y-4 mb-6">
+            <div className="flex items-start gap-3">
+              <div className="bg-amber-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">
+                1
+              </div>
+              <div>
+                <p className="text-gray-700 font-semibold">Measure actual working width (feet)</p>
+                <p className="text-gray-600 text-sm">Use the effective width, not rated width</p>
+              </div>
             </div>
-            <div className="space-y-4">
-              <div className="flex items-start gap-3">
-                <div className="bg-amber-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">
-                  1
-                </div>
-                <p className="text-gray-700">
-                  <strong>Measure actual working width</strong> (feet) – Use the effective width, not rated width
-                </p>
+            <div className="flex items-start gap-3">
+              <div className="bg-amber-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">
+                2
               </div>
-              <div className="flex items-start gap-3">
-                <div className="bg-amber-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">
-                  2
-                </div>
-                <p className="text-gray-700">
-                  <strong>Determine average operating speed</strong> (mph) – Not maximum, but realistic average
-                </p>
+              <div>
+                <p className="text-gray-700 font-semibold">Determine average operating speed (mph)</p>
+                <p className="text-gray-600 text-sm">Not maximum, but realistic average</p>
               </div>
-              <div className="flex items-start gap-3">
-                <div className="bg-amber-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">
-                  3
-                </div>
-                <p className="text-gray-700">
-                  <strong>Estimate realistic field efficiency</strong> (%) – Consider field conditions
-                </p>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="bg-amber-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">
+                3
               </div>
-              <div className="flex items-start gap-3">
-                <div className="bg-amber-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">
-                  4
-                </div>
-                <p className="text-gray-700">
-                  <strong>Plug values into the formula</strong> and divide by 8.25
-                </p>
+              <div>
+                <p className="text-gray-700 font-semibold">Estimate realistic field efficiency (%)</p>
+                <p className="text-gray-600 text-sm">Consider field conditions, turns, and obstacles</p>
               </div>
-              <div className="flex items-start gap-3">
-                <div className="bg-amber-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">
-                  5
-                </div>
-                <p className="text-gray-700">
-                  <strong>Adjust for terrain, operator skill, and conditions</strong>
-                </p>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="bg-amber-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">
+                4
               </div>
+              <div>
+                <p className="text-gray-700 font-semibold">Plug values into the formula</p>
+                <p className="text-gray-600 text-sm">Multiply and divide by 8.25</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white p-6 rounded-xl border-2 border-amber-400">
+            <h3 className="font-bold text-gray-900 mb-3">Example:</h3>
+            <p className="text-gray-700 mb-2">Speed = 5 mph, Width = 6 ft, Efficiency = 80%</p>
+            <div className="bg-amber-50 p-4 rounded-lg">
+              <p className="text-center font-mono text-lg text-gray-900">
+                (5 × 6 × 0.80) ÷ 8.25 = 2.91 acres/hour
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Time Calculation Section */}
+        <section className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-200">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            How Long Will It Take to Cover My Field?
+          </h2>
+          <p className="text-gray-700 mb-4">To calculate time required:</p>
+          <div className="bg-white p-6 rounded-xl border-2 border-purple-400 mb-6">
+            <p className="text-center text-2xl font-semibold text-gray-900">
+              Time = <span className="text-purple-600">Total Area</span> ÷ Acres Per Hour
+            </p>
+          </div>
+          <div className="bg-white p-6 rounded-xl">
+            <h3 className="font-bold text-gray-900 mb-3">Example:</h3>
+            <p className="text-gray-700">Field size = 20 acres</p>
+            <p className="text-gray-700 mb-3">Machine capacity = 2.91 acres/hour</p>
+            <div className="bg-purple-50 p-4 rounded-lg">
+              <p className="text-center font-mono text-lg text-gray-900 mb-2">
+                20 ÷ 2.91 = 6.87 hours
+              </p>
+              <p className="text-center text-gray-600 text-sm">So approximately 6.9 hours needed.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Equipment-Specific Calculators */}
+        <section className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Equipment-Specific Acres Per Hour Calculators
+          </h2>
+          <div className="space-y-6">
+            <div className="border-l-4 border-green-500 pl-6 py-4 bg-green-50 rounded-r-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Bush Hog Acres Per Hour Calculator</h3>
+              <ul className="space-y-1 text-gray-700">
+                <li>• Typical speed: 4–6 mph</li>
+                <li>• Width: 5–8 ft</li>
+                <li>• Efficiency: 75–85%</li>
+              </ul>
+              <p className="text-gray-700 mt-2">Common for pasture mowing and land clearing.</p>
+            </div>
+
+            <div className="border-l-4 border-blue-500 pl-6 py-4 bg-blue-50 rounded-r-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Mowing Acres Per Hour Calculator</h3>
+              <ul className="space-y-1 text-gray-700">
+                <li>• Overlap usually 10%</li>
+                <li>• Efficiency slightly lower for irregular lawns</li>
+              </ul>
+              <p className="text-gray-700 mt-2">Used for:</p>
+              <ul className="space-y-1 text-gray-700 pl-4">
+                <li>• Residential lawn mowing</li>
+                <li>• Estate maintenance</li>
+                <li>• Commercial landscape contracts</li>
+              </ul>
+            </div>
+
+            <div className="border-l-4 border-purple-500 pl-6 py-4 bg-purple-50 rounded-r-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Acres Per Hour Calculator Spraying</h3>
+              <p className="text-gray-700 mb-2">Sprayers have wider booms (20–120 ft).</p>
+              <p className="text-gray-700 font-semibold">Typical:</p>
+              <ul className="space-y-1 text-gray-700">
+                <li>• Speed: 6–12 mph</li>
+                <li>• Efficiency: 80–90%</li>
+              </ul>
+              <p className="text-gray-700 mt-2">Spraying covers significantly more acres per hour.</p>
+            </div>
+
+            <div className="border-l-4 border-orange-500 pl-6 py-4 bg-orange-50 rounded-r-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Combine Acres Per Hour Calculator</h3>
+              <p className="text-gray-700 mb-2">Combine harvesters operate slower.</p>
+              <p className="text-gray-700 font-semibold">Typical:</p>
+              <ul className="space-y-1 text-gray-700">
+                <li>• Speed: 3–5 mph</li>
+                <li>• Header width: 20–40 ft</li>
+                <li>• Efficiency: 65–75%</li>
+              </ul>
+              <p className="text-gray-700 mt-2">Used for wheat, corn, soybean harvesting.</p>
+            </div>
+
+            <div className="border-l-4 border-amber-500 pl-6 py-4 bg-amber-50 rounded-r-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Acres Per Hour Planting Calculator</h3>
+              <p className="text-gray-700">Planting requires precise overlap control.</p>
+              <p className="text-gray-700 mt-2">Typical efficiency: 70–85%.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Quick Estimation Rule */}
+        <section className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-8 border border-indigo-200">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Quick Estimation Rule (For Fast Bidding)
+          </h2>
+          <div className="bg-white p-6 rounded-xl border-2 border-indigo-400">
+            <p className="text-center text-2xl font-semibold text-gray-900 mb-4">
+              1 mph × 10 ft width ≈ 1.21 acres/hour
+            </p>
+            <p className="text-gray-700 text-center">Useful for quick rough estimates.</p>
+          </div>
+        </section>
+
+        {/* Factors Section */}
+        <section className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Factors That Affect Acres Covered Per Hour
+          </h2>
+          <p className="text-gray-700 mb-4">Actual results vary due to:</p>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="font-semibold text-gray-900 mb-2">• Field shape</p>
+              <p className="text-gray-600 text-sm">Irregular fields reduce efficiency</p>
+            </div>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="font-semibold text-gray-900 mb-2">• Obstacles (trees, poles)</p>
+              <p className="text-gray-600 text-sm">More obstacles = more turning</p>
+            </div>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="font-semibold text-gray-900 mb-2">• Soil condition</p>
+              <p className="text-gray-600 text-sm">Wet or rough terrain slows work</p>
+            </div>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="font-semibold text-gray-900 mb-2">• Operator experience</p>
+              <p className="text-gray-600 text-sm">Skilled operators work faster</p>
+            </div>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="font-semibold text-gray-900 mb-2">• Equipment horsepower</p>
+              <p className="text-gray-600 text-sm">Underpowered = slower speeds</p>
+            </div>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="font-semibold text-gray-900 mb-2">• Weather</p>
+              <p className="text-gray-600 text-sm">Wind, rain affect operations</p>
+            </div>
+          </div>
+          <p className="text-gray-700 mt-6 font-semibold">Large rectangular plots give most accurate results.</p>
+        </section>
+
+        {/* Why Use Section */}
+        <section className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-8 border border-green-200">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Why Use an Acres Per Hour Calculator?
+          </h2>
+          <p className="text-gray-700 mb-4">A professional farm equipment acres per hour calculator helps:</p>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="flex items-start gap-3">
+              <span className="text-green-600 text-xl">✓</span>
+              <p className="text-gray-700">Estimate fuel usage</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-green-600 text-xl">✓</span>
+              <p className="text-gray-700">Plan labor requirements</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-green-600 text-xl">✓</span>
+              <p className="text-gray-700">Calculate contract pricing</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-green-600 text-xl">✓</span>
+              <p className="text-gray-700">Compare machinery productivity</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-green-600 text-xl">✓</span>
+              <p className="text-gray-700">Improve operational efficiency</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-green-600 text-xl">✓</span>
+              <p className="text-gray-700">Support precision agriculture</p>
             </div>
           </div>
         </section>
@@ -716,6 +997,45 @@ export default function AcresPerHourCalculatorClient({ content, guideContent }: 
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Final Summary */}
+        <section className="bg-gradient-to-br from-gray-50 to-slate-50 rounded-2xl p-8 border border-gray-300">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Final Summary
+          </h2>
+          <p className="text-gray-700 mb-4">
+            The <strong>Acres Per Hour Calculator</strong> estimates how much land a machine can cover in one hour using:
+          </p>
+          <div className="bg-white p-6 rounded-xl border-2 border-gray-400 mb-6">
+            <p className="text-center text-2xl font-semibold text-gray-900">
+              Acres per Hour = <span className="text-gray-700">(Speed × Width × Efficiency)</span> ÷ 8.25
+            </p>
+          </div>
+          <p className="text-gray-700 mb-4">
+            Including <strong>overlap adjustment</strong> and realistic efficiency helps farmers and contractors:
+          </p>
+          <div className="grid md:grid-cols-2 gap-3">
+            <div className="flex items-center gap-2">
+              <span className="text-green-600 font-bold">✓</span>
+              <p className="text-gray-700">Plan productivity</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-green-600 font-bold">✓</span>
+              <p className="text-gray-700">Estimate fuel & labor costs</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-green-600 font-bold">✓</span>
+              <p className="text-gray-700">Bid contracts accurately</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-green-600 font-bold">✓</span>
+              <p className="text-gray-700">Optimize farm operations</p>
+            </div>
+          </div>
+          <p className="text-gray-700 mt-6 font-semibold">
+            A simple yet essential tool for modern agriculture and lawn management.
+          </p>
         </section>
       </div>
 

@@ -53,6 +53,14 @@ export default function GamesPage() {
      icon:Coins,
      link:"/games/grocery-cashier",
      gradient:"from-yellow-400 to-orange-500"
+    },
+    {
+      id:"sort-coins",
+      title:"Sort Coins",
+      description:"Drag and drop coins into thier bottle.",
+      icon:Coins,
+      link:"/games/sort-coins",
+      gradient:"from-yellow-400 to-orange-500"
     }
   ]
 
