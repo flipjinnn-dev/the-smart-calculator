@@ -57,7 +57,7 @@ export default function GamesPage() {
     {
       id:"sort-coins",
       title:"Sort Coins",
-      description:"Drag and drop coins into thier bottle.",
+      description:"Play a free online coin sorting and merging game for kids. Sort coins by value, merge stacks, complete levels, and enjoy a fun educational puzzle game.",
       icon:Coins,
       link:"/games/sort-coins",
       gradient:"from-yellow-400 to-orange-500"
