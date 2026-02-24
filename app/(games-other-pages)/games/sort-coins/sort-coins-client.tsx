@@ -688,7 +688,7 @@ export default function SortCoinsGame() {
 
                     <div className="bg-white p-6 rounded-lg shadow-md border border-green-200">
                       <h3 className="text-xl font-semibold text-green-600 mb-2">Educational Coin Sorting Games</h3>
-                      <p className="text-gray-700">Coin sorting games help players understand money counting and denominations. Players who enjoy a <a href="/games/money-counting" className="text-green-600 hover:text-green-700 font-semibold underline">money counting game</a> can also try handling real purchase scenarios.</p>
+                      <p className="text-gray-700">Coin sorting games help players understand money counting and denominations. Players who enjoy a <a href="/games/coin-saver-challenge" className="text-green-600 hover:text-green-700 font-semibold underline">money counting game</a> can also try handling real purchase scenarios.</p>
                     </div>
                   </div>
                 </section>
@@ -715,7 +715,7 @@ export default function SortCoinsGame() {
                     </li>
                   </ul>
                   <p className="text-gray-700 leading-relaxed">
-                    A coin sort online game is ideal for quick, relaxing gameplay. Many players who enjoy a <a href="/games/money-master" className="text-green-600 hover:text-green-700 font-semibold underline">money management game</a> also prefer coin sorting challenges.
+                    A coin sort online game is ideal for quick, relaxing gameplay. Many players who enjoy a <a href="/games/grocery-cashier" className="text-green-600 hover:text-green-700 font-semibold underline">money management game</a> also prefer coin sorting challenges.
                   </p>
                 </section>
 
