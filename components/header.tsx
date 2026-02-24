@@ -50,6 +50,7 @@ const OTHER_CALCULATORS = [
 
 const ENGLISH_ONLY_PATHS = [
   '/implant-size-calculator',
+  '/health/dental-implant-cost-calculator',
   '/maths/reverse-percentage-calculator',
   '/therapy-productivity-calculator',
   '/financial/bank-statement-converter'

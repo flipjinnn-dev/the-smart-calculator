@@ -590,7 +590,7 @@ export default function SortCoinsGame() {
           {!isPlaying && (
             <div className="bg-gradient-to-br from-white to-green-50 rounded-2xl p-10 shadow-2xl border-2 border-green-200">
               <article className="max-w-4xl mx-auto">
-                <h1 className="text-5xl font-extrabold text-green-800 mb-6 text-center">Sort Coins</h1>
+                <h2 className="text-5xl font-extrabold text-green-800 mb-6 text-center">Sort Coins</h2>
                 
                 <div className="bg-green-100 border-l-4 border-green-600 p-6 mb-8 rounded-r-lg">
                   <p className="text-xl text-gray-800 leading-relaxed">

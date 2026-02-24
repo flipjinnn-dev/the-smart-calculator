@@ -30,6 +30,15 @@ export async function generateMetadata(): Promise<Metadata> {
       description: meta?.description || 'Calculate salary and compensation',
       url: canonicalUrl,
       type: 'website',
+      siteName: 'Smart Calculator',
+      images: [
+        {
+          url: '/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: meta?.title || 'Salary Calculator',
+        },
+      ],
     }
   };
 }

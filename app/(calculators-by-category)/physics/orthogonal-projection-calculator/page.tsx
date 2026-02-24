@@ -30,6 +30,15 @@ export async function generateMetadata(): Promise<Metadata> {
       description: meta?.description || 'Calculate orthogonal projections',
       url: canonicalUrl,
       type: 'website',
+      siteName: 'Smart Calculator',
+      images: [
+        {
+          url: '/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: meta?.title || 'Orthogonal Projection Calculator',
+        },
+      ],
     }
   };
 }

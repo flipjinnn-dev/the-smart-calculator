@@ -95,6 +95,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'notice-period-calculator') return 'notice-period-calculator';
   if (id === 'grade-curve-calculator') return 'grade-curve-calculator';
   if (id === 'bank-statement-converter') return 'bank-statement-converter';
+  if (id === 'dental-implant-cost-calculator') return 'dental-implant-cost-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -553,6 +554,13 @@ export const calculators: Calculator[] = [
     name: "Rucking Calorie Calculator",
     description: "Calculate calories burned during weighted walks (rucking) using the Pandolf equation",
     href: "/health/rucking-calorie-calculator",
+    category: "health",
+  },
+  {
+    id: "dental-implant-cost-calculator",
+    name: "Dental Implant Cost Calculator",
+    description: "Use our dental implant cost calculator to estimate per tooth, 6 teeth, 7 implants, or full mouth dental implant costs fast.",
+    href: "/health/dental-implant-cost-calculator",
     category: "health",
   },
 

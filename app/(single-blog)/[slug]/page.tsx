@@ -97,7 +97,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   const metaTitle = post.metaTitle || post.title;
   const metaDescription = post.metaDescription || post.excerpt;
   const keywords = post.keywords || "";
-  const canonicalUrl = `/${slug}`;
+  const canonicalUrl = `https://www.thesmartcalculator.com/${slug}`;
 
   return {
     title: metaTitle,
@@ -119,6 +119,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       description: metaDescription,
       type: "article",
       url: canonicalUrl,
+      siteName: 'Smart Calculator',
       images: post.featuredImage ? [{ url: post.featuredImage }] : [],
       publishedTime: post.publishedAt,
       locale: 'en_US',

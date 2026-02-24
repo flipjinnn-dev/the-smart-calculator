@@ -3672,5 +3672,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/notice-period-calculator",
       keywords: "notice period calculator, calculate notice period, last working day calculator, notice period end date, notice period pay calculator, resignation calculator, employment notice calculator, notice duration calculator, calendar days calculator, working days calculator"
     }
+  },
+  'dental-implant-cost-calculator': {
+    en: {
+      title: "Dental Implant Cost Calculator & Price Guide",
+      description: "Use our dental implant cost calculator to estimate per tooth, 6 teeth, 7 implants, or full mouth dental implant costs fast.",
+      slug: "/health/dental-implant-cost-calculator",
+      keywords: "dental implant cost calculator, dental implant calculator, dental implant cost estimator, average cost of a dental implant per tooth, how much is dental implant, full mouth dental implants cost, dental implant cost 6 teeth, how much would 7 dental implants cost, ClearChoice dental implants cost, tooth implant cost estimate, dental implant price, implant cost breakdown, All-on-4 cost, dental implant surgery cost"
+    }
   }
 };

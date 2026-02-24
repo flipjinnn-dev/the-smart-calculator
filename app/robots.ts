@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
+        disallow: ["/auth/signin", "/auth/*"],
         // index/follow ka option nahi hota — Allow: "/" hi enough hai
       },
     ],
