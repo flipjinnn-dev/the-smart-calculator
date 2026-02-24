@@ -79,7 +79,7 @@ export default function AboutPage() {
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8">About Us</h1>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto mb-8">
-              At The Smart Calculator, our mission is simple: to make everyday calculations faster, easier, and more
+              At <Link href="https://www.thesmartcalculator.com">The Smart Calculator</Link>, our mission is simple: to make everyday calculations faster, easier, and more
               accurate for everyone. We are a dedicated team of IT professionals, math enthusiasts, and content creators
               who believe that knowledge should be accessible through smart, user-friendly tools.
             </p>

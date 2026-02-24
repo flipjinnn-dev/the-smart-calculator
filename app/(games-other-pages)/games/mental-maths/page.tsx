@@ -59,9 +59,9 @@ export default function MentalMathsPage() {
 
                     {/* Intro */}
                     <section className="space-y-6 text-center">
-                        <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-300">
+                        <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-300">
                             Mental Math Trainer
-                        </h1>
+                        </h2>
                         <p className="text-lg text-slate-100 leading-relaxed max-w-2xl mx-auto">
                             Mental math is the skill of performing calculations in your head without using a calculator, pen, or paper.
                             It’s not only fun but also improves focus, memory, and problem-solving speed—perfect for games and everyday life.
