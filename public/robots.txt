@@ -1,30 +1,171 @@
-# Robots.txt for The Smart Calculator
-# Updated: 2026-01-30
-
 # Allow all crawlers by default
 User-agent: *
 Allow: /
 
-# Block user-generated and authentication pages
+User-agent: *
+Allow: /*/*.css
+Allow: /*/*.js
+Disallow: /readme.html
 Disallow: /auth/
 Disallow: /admin/
-
-# Block API routes
 Disallow: /api/
+Disallow: /license.txt
+Disallow: /xmlrpc.php
+Disallow: *?attachment_id=
+Disallow: /?rest_route=
+Disallow: /search/
+Disallow: /?s=
+Disallow: *?s=*
+Disallow: *?p=*
+Disallow: *&p=*
+Disallow: *&preview=*
+Disallow: /feed/
+Disallow: /feed/$
+Disallow: /comments/feed
+Disallow: */feed
+Disallow: */feed$
+Disallow: /?feed=
+Disallow: /feed
+Disallow: /trackback/
+Disallow: */comments$
+Disallow: */trackback
+Disallow: */trackback$
+Disallow: /comments
+Disallow: /trackback
+Disallow: */replytocom=
 
-# Allow calculators and main content
-Allow: /financial/
-Allow: /health/
-Allow: /maths/
-Allow: /physics/
-Allow: /construction/
-Allow: /food/
-Allow: /sports/
-Allow: /software/
-Allow: /business/
-Allow: /games/
-Allow: /blogs/
-Allow: /other/
+User-agent: Googlebot
+Allow: /
 
-# Sitemap location
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+User-agent: msnbot-media
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: YandexImages
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Qwantify
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: SeznamBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Instagrambot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: SemrushBot-SA
+Allow: /
+
+User-agent: SemrushBot-BA
+Allow: /
+
+User-agent: SemrushBot-SI
+Allow: /
+
+User-agent: SemrushBot-SWA
+Allow: /
+
+User-agent: SemrushBot-CT
+Allow: /
+
+User-agent: SemrushBot-BM
+Allow: /
+
+User-agent: rogerbot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+User-agent: Xenu
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://www.thesmartcalculator.com/sitemap.xml
+Sitemap: https://www.thesmartcalculator.com/sitemap-en.xml
+Sitemap: https://www.thesmartcalculator.com/sitemap-de.xml
+Sitemap: https://www.thesmartcalculator.com/sitemap-pl.xml
+Sitemap: https://www.thesmartcalculator.com/sitemap-br.xml
+Sitemap: https://www.thesmartcalculator.com/sitemap-es.xml

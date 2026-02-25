@@ -5,8 +5,7 @@ import { useWheelSpinnerStore } from '@/lib/stores/wheel-spinner-store';
 import { ModernWheelSpinner } from '@/components/games/wheel-spinner/ModernWheelSpinner';
 import { EditorPanel } from '@/components/games/wheel-spinner/EditorPanel';
 import { SettingsPanel } from '@/components/games/wheel-spinner/SettingsPanel';
-import { Menu, X, Share2, Download, Calendar, Sparkles } from 'lucide-react';
-import html2canvas from 'html2canvas';
+import { Menu, X, Share2, Calendar, Sparkles } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -72,21 +71,6 @@ export default function AgeGeneratorWheelClient() {
     }
   }, [theme]);
 
-  const handleExportImage = async () => {
-    const wheelElement = document.querySelector('canvas');
-    if (!wheelElement) return;
-
-    try {
-      const canvas = await html2canvas(wheelElement as HTMLElement);
-      const link = document.createElement('a');
-      link.download = 'age-generator-wheel.png';
-      link.href = canvas.toDataURL();
-      link.click();
-    } catch (error) {
-      console.error('Failed to export image:', error);
-    }
-  };
-
   const handleShare = () => {
     const data = {
       slices,
@@ -116,19 +100,19 @@ export default function AgeGeneratorWheelClient() {
 
   return (
     <div className={`min-h-screen ${theme === 'dark' ? 'dark' : ''}`}>
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-cyan-50 to-teal-50 dark:from-gray-900 dark:via-blue-900 dark:to-gray-900 transition-colors">
-        <header className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-lg border-b border-blue-200 dark:border-gray-700 sticky top-0 z-40 shadow-lg">
+      <div className="min-h-screen bg-gradient-to-br from-blue-100 via-cyan-100 to-teal-100 dark:from-gray-900 dark:via-blue-900 dark:to-gray-900 transition-colors duration-200">
+        <header className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg border-b border-blue-300 dark:border-gray-700 sticky top-0 z-40 shadow-lg">
           <div className="max-w-7xl mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <button
                   onClick={() => setShowEditor(!showEditor)}
-                  className="p-2 bg-blue-100 dark:bg-blue-900 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-800 md:hidden transition-colors"
+                  className="p-2 bg-blue-200 dark:bg-blue-900 rounded-lg hover:bg-blue-300 dark:hover:bg-blue-800 md:hidden transition-colors shadow-sm"
                 >
                   {showEditor ? <X size={24} /> : <Menu size={24} />}
                 </button>
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center shadow-md">
                     <Calendar className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -142,18 +126,11 @@ export default function AgeGeneratorWheelClient() {
 
               <div className="flex items-center gap-2">
                 <button
-                  onClick={handleExportImage}
-                  className="p-2 md:p-3 bg-blue-100 dark:bg-blue-900 rounded-full hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors"
-                  title="Export as Image"
-                >
-                  <Download size={20} className="md:w-6 md:h-6" />
-                </button>
-                <button
                   onClick={handleShare}
-                  className="p-2 md:p-3 bg-blue-100 dark:bg-blue-900 rounded-full hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors"
+                  className="p-2 md:p-3 bg-blue-100 dark:bg-blue-900 rounded-full hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors shadow-sm"
                   title="Share Wheel"
                 >
-                  <Share2 size={20} className="md:w-6 md:h-6" />
+                  <Share2 size={20} className="md:w-6 md:h-6 text-blue-700 dark:text-blue-200" />
                 </button>
                 <SettingsPanel />
               </div>

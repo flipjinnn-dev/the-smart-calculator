@@ -69,7 +69,7 @@ export const useWheelSpinnerStore = create<WheelSpinnerStore>((set, get) => ({
   isSpinning: false,
   selectedSlice: null,
   rotation: 0,
-  theme: 'light',
+  theme: 'dark',
   history: {
     past: [],
     future: [],
@@ -293,7 +293,7 @@ export const useWheelSpinnerStore = create<WheelSpinnerStore>((set, get) => ({
         set({
           slices: data.slices || DEFAULT_SLICES,
           settings: data.settings || DEFAULT_SETTINGS,
-          theme: data.theme || 'light',
+          theme: data.theme || 'dark',
         });
       }
     } catch (error) {

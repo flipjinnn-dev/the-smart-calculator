@@ -1,58 +1,28 @@
 'use client';
 
 import { useWheelSpinnerStore } from '@/lib/stores/wheel-spinner-store';
-import { Settings, Volume2, VolumeX, Sun, Moon } from 'lucide-react';
+import { Settings, Volume2, VolumeX } from 'lucide-react';
 import { useState } from 'react';
 
 export const SettingsPanel = () => {
-  const { settings, updateSettings, theme, setTheme } = useWheelSpinnerStore();
+  const { settings, updateSettings } = useWheelSpinnerStore();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="p-3 bg-gray-100 dark:bg-gray-700 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600"
+        className="p-3 bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors shadow-sm"
         title="Settings"
       >
-        <Settings size={24} />
+        <Settings size={24} className="text-gray-700 dark:text-gray-200" />
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-80 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 p-4 z-50">
+        <div className="absolute right-0 mt-2 w-80 bg-white dark:bg-gray-800 rounded-lg shadow-2xl border-2 border-gray-300 dark:border-gray-700 p-4 z-50">
           <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Wheel Settings</h3>
 
           <div className="space-y-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Theme
-              </label>
-              <div className="flex gap-2">
-                <button
-                  onClick={() => setTheme('light')}
-                  className={`flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded ${
-                    theme === 'light'
-                      ? 'bg-blue-500 text-white'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
-                  }`}
-                >
-                  <Sun size={18} />
-                  Light
-                </button>
-                <button
-                  onClick={() => setTheme('dark')}
-                  className={`flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded ${
-                    theme === 'dark'
-                      ? 'bg-blue-500 text-white'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
-                  }`}
-                >
-                  <Moon size={18} />
-                  Dark
-                </button>
-              </div>
-            </div>
-
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                 Border Width: {settings.borderWidth}px
