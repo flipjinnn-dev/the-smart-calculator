@@ -3680,5 +3680,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/health/dental-implant-cost-calculator",
       keywords: "dental implant cost calculator, dental implant calculator, dental implant cost estimator, average cost of a dental implant per tooth, how much is dental implant, full mouth dental implants cost, dental implant cost 6 teeth, how much would 7 dental implants cost, ClearChoice dental implants cost, tooth implant cost estimate, dental implant price, implant cost breakdown, All-on-4 cost, dental implant surgery cost"
     }
+  },
+  'ssc-gpa-calculator': {
+    en: {
+      title: "SSC GPA Calculator – Fast & Accurate Results",
+      description: "Use our SSC GPA calculator to compute GPA, convert to percentage or marks, and understand the SSC grading system instantly.",
+      slug: "/ssc-gpa-calculator",
+      keywords: "ssc gpa calculator, ssc gpa calculator online, how to calculate ssc gpa, ssc gpa calculation system, ssc gpa calculator with marks, ssc gpa to percentage calculator, ssc gpa to marks calculator, ssc gpa calculator and grading system, middle school gpa calculator, gpa calculator middle school no credits, bangladesh ssc gpa, secondary school certificate gpa, grade point average calculator, ssc result calculator, ssc marks to gpa"
+    }
   }
 };

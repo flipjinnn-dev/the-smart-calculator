@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: 'Use the Age Generator Wheel to spin and get a random age instantly. Customize age range, enjoy fair results, and play online free.',
   keywords: 'age generator wheel, age calculator wheel, age random wheel, wheel of age generator, age generator spin the wheel, age number wheel, age wheel picker, age range wheel, generator wheel number, random age generator, age picker, spin the wheel age',
   alternates: {
-    canonical: 'https://thesmartcalculator.com/games/age-generator-wheel',
+    canonical: 'https://www.thesmartcalculator.com/games/age-generator-wheel',
   },
   openGraph: {
     title: 'Age Generator Wheel – Spin Random Age Picker',
     description: 'Use the Age Generator Wheel to spin and get a random age instantly. Customize age range, enjoy fair results, and play online free.',
-    url: 'https://thesmartcalculator.com/games/age-generator-wheel',
+    url: 'https://www.thesmartcalculator.com/games/age-generator-wheel',
     type: 'website',
     siteName: 'The Smart Calculator',
   },
@@ -28,7 +28,7 @@ const structuredData = {
   '@type': 'WebApplication',
   name: 'Age Generator Wheel',
   description: 'Use the Age Generator Wheel to spin and get a random age instantly. Customize age range, enjoy fair results, and play online free.',
-  url: 'https://thesmartcalculator.com/games/age-generator-wheel',
+  url: 'https://www.thesmartcalculator.com/games/age-generator-wheel',
   applicationCategory: 'GameApplication',
   operatingSystem: 'Any',
   offers: {
@@ -51,19 +51,19 @@ const breadcrumbStructuredData = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://thesmartcalculator.com',
+      item: 'https://www.thesmartcalculator.com',
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Games',
-      item: 'https://thesmartcalculator.com/games',
+      item: 'https://www.thesmartcalculator.com/games',
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Age Generator Wheel',
-      item: 'https://thesmartcalculator.com/games/age-generator-wheel',
+      item: 'https://www.thesmartcalculator.com/games/age-generator-wheel',
     },
   ],
 };

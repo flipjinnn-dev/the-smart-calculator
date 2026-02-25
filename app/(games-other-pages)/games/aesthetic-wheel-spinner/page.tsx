@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: 'Use the Aesthetic Wheel to spin and discover outfits, themes, colors, names, and creative ideas instantly. Simple, fun, and inspiring.',
   keywords: 'aesthetic wheel, aesthetic spinner, style wheel, outfit picker, aesthetic generator, theme wheel, color palette wheel, aesthetic ideas, grunge aesthetic, soft girl aesthetic, dark academia, cottagecore, y2k aesthetic',
   alternates: {
-    canonical: 'https://thesmartcalculator.com/games/aesthetic-wheel-spinner',
+    canonical: 'https://www.thesmartcalculator.com/games/aesthetic-wheel-spinner',
   },
   openGraph: {
     title: 'Aesthetic Wheel: Spin & Discover Your Style',
     description: 'Use the Aesthetic Wheel to spin and discover outfits, themes, colors, names, and creative ideas instantly. Simple, fun, and inspiring.',
-    url: 'https://thesmartcalculator.com/games/aesthetic-wheel-spinner',
+    url: 'https://www.thesmartcalculator.com/games/aesthetic-wheel-spinner',
     type: 'website',
     siteName: 'The Smart Calculator',
   },
@@ -28,7 +28,7 @@ const structuredData = {
   '@type': 'WebApplication',
   name: 'Aesthetic Wheel Spinner',
   description: 'Use the Aesthetic Wheel to spin and discover outfits, themes, colors, names, and creative ideas instantly. Simple, fun, and inspiring.',
-  url: 'https://thesmartcalculator.com/games/aesthetic-wheel-spinner',
+  url: 'https://www.thesmartcalculator.com/games/aesthetic-wheel-spinner',
   applicationCategory: 'GameApplication',
   operatingSystem: 'Any',
   offers: {
@@ -51,19 +51,19 @@ const breadcrumbStructuredData = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://thesmartcalculator.com',
+      item: 'https://www.thesmartcalculator.com',
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Games',
-      item: 'https://thesmartcalculator.com/games',
+      item: 'https://www.thesmartcalculator.com/games',
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Aesthetic Wheel Spinner',
-      item: 'https://thesmartcalculator.com/games/aesthetic-wheel-spinner',
+      item: 'https://www.thesmartcalculator.com/games/aesthetic-wheel-spinner',
     },
   ],
 };

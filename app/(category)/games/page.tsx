@@ -69,6 +69,14 @@ export default function GamesPage() {
       icon:Coins,
       link:"/games/aesthetic-wheel-spinner",
       gradient:"from-yellow-400 to-orange-500"
+    },
+    {
+      id:"age-wheel-spinner",
+      title:"Age Wheel Spinner",
+      description:"Use the Age Wheel to spin and discover your age instantly. Simple, fun, and inspiring.",
+      icon:Coins,
+      link:"/games/age-generator-wheel",
+      gradient:"from-yellow-400 to-orange-500"
     }
   ]
 
