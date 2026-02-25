@@ -31,5 +31,10 @@ export default async function WordlePage() {
   const number = getTodayWordleNumber()
   const solution = await getTodaysWordleAnswer()
 
-  return <WordleGameClient solution={solution} wordleNumber={number} />
+  return (
+    <>
+      <h1 className="sr-only">Wordle - Daily Word Puzzle Game</h1>
+      <WordleGameClient solution={solution} wordleNumber={number} />
+    </>
+  )
 }

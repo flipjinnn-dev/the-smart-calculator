@@ -225,7 +225,7 @@ export default function DentalImplantCostCalculator() {
         <div className="max-w-5xl mx-auto space-y-12 mt-16">
           {/* Introduction Section */}
           <section className="bg-white rounded-xl shadow-lg p-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-6">Dental Implant Cost Calculator: Accurate Estimates, Real-World Pricing & Expert Breakdown (2026)</h1>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Dental Implant Cost Calculator: Accurate Estimates, Real-World Pricing & Expert Breakdown (2026)</h2>
             <p className="text-gray-700 leading-relaxed">
               The average cost of a dental implant per tooth in the U.S. ranges from <strong>$3,000 to $6,000</strong> including the implant, abutment, and crown. A full mouth of dental implants typically costs <strong>$20,000 to $60,000+</strong> per arch, depending on materials, bone grafting, sedation, and whether you choose implant-supported bridges or All-on-4 style systems. A reliable dental implant cost calculator helps estimate your total by factoring in extractions, bone grafts, imaging, and prosthetic type.
             </p>
