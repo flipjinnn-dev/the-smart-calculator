@@ -30,7 +30,7 @@ export const ModernWheelSpinner = () => {
     setSelectedSlice(null);
 
     const targetRotation = calculateSpinRotation(rotation);
-    const duration = 5000;
+    const duration = 7000;
 
     let lastAngle = rotation % 360;
     const sliceAngle = calculateTickInterval(slices);

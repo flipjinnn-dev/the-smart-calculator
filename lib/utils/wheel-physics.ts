@@ -9,12 +9,10 @@ export interface SpinConfig {
 
 export const DEFAULT_SPIN_CONFIG: SpinConfig = {
   minSpins: 5,
-  maxSpins: 10,
-  duration: 5000,
+  maxSpins: 8,
+  duration: 7000,
   easing: (t: number) => {
-    return t < 0.5
-      ? 4 * t * t * t
-      : 1 - Math.pow(-2 * t + 2, 3) / 2;
+    return t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
   },
 };
 
@@ -24,6 +22,25 @@ export const easeOutCubic = (t: number): number => {
 
 export const easeOutQuart = (t: number): number => {
   return 1 - Math.pow(1 - t, 4);
+};
+
+export const easeOutExpo = (t: number): number => {
+  return t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
+};
+
+export const easeInOutCubic = (t: number): number => {
+  return t < 0.5
+    ? 4 * t * t * t
+    : 1 - Math.pow(-2 * t + 2, 3) / 2;
+};
+
+export const customSpinEase = (t: number): number => {
+  const c1 = 1.70158;
+  const c2 = c1 * 1.525;
+
+  return t < 0.5
+    ? (Math.pow(2 * t, 2) * ((c2 + 1) * 2 * t - c2)) / 2
+    : (Math.pow(2 * t - 2, 2) * ((c2 + 1) * (t * 2 - 2) + c2) + 2) / 2;
 };
 
 export const calculateSpinRotation = (
@@ -42,8 +59,8 @@ export const getWinningSlice = (
   slices: WheelSlice[]
 ): WheelSlice => {
   const normalizedRotation = ((finalRotation % 360) + 360) % 360;
-  const pointerAngle = 90;
-  const adjustedAngle = (360 - normalizedRotation + pointerAngle) % 360;
+  const pointerAngle = 0;
+  const adjustedAngle = (pointerAngle - normalizedRotation + 360) % 360;
   
   const sliceAngle = 360 / slices.length;
   const winningIndex = Math.floor(adjustedAngle / sliceAngle) % slices.length;
@@ -57,23 +74,28 @@ export const animateSpin = (
   duration: number,
   onUpdate: (rotation: number, progress: number) => void,
   onComplete: () => void,
-  easing: (t: number) => number = easeOutCubic
+  easing: (t: number) => number = easeOutExpo
 ): (() => void) => {
   const startTime = performance.now();
   let animationFrameId: number;
+  let lastRotation = startRotation;
 
   const animate = (currentTime: number) => {
     const elapsed = currentTime - startTime;
     const progress = Math.min(elapsed / duration, 1);
     
     const easedProgress = easing(progress);
-    const currentRotation = startRotation + (endRotation - startRotation) * easedProgress;
+    const targetRotation = startRotation + (endRotation - startRotation) * easedProgress;
     
-    onUpdate(currentRotation, progress);
+    const smoothRotation = lastRotation + (targetRotation - lastRotation) * 0.3;
+    lastRotation = smoothRotation;
+    
+    onUpdate(smoothRotation, progress);
     
     if (progress < 1) {
       animationFrameId = requestAnimationFrame(animate);
     } else {
+      onUpdate(endRotation, 1);
       onComplete();
     }
   };

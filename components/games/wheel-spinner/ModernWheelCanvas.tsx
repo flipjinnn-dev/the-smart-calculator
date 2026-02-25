@@ -185,7 +185,14 @@ export const ModernWheelCanvas = ({
         width={canvasSize}
         height={canvasSize}
         className="mx-auto drop-shadow-2xl"
-        style={{ maxWidth: '100%', height: 'auto' }}
+        style={{ 
+          maxWidth: '100%', 
+          height: 'auto',
+          willChange: 'transform',
+          transform: 'translateZ(0)',
+          backfaceVisibility: 'hidden',
+          perspective: 1000
+        }}
       />
       {isSpinning && (
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
