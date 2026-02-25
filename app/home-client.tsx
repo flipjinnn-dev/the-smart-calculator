@@ -339,7 +339,7 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-indigo-400 to-violet-600",
       bgColor: "bg-indigo-50",
       textColor: "text-indigo-600",
-      calculators: 7,
+      calculators: 8,
       itemLabel: "game",
       href: "/games",
     },

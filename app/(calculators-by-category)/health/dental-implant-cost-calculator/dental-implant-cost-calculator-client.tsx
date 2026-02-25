@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { Calculator, DollarSign, TrendingDown, Info, Sparkles, Heart, ChevronDown, ChevronUp } from "lucide-react";
+import { Calculator, DollarSign, TrendingDown, Info, Sparkles, Heart } from "lucide-react";
 import { useMobileScroll } from "@/hooks/useMobileScroll";
 import SimilarCalculators from "@/components/similar-calculators";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -54,7 +54,6 @@ export default function DentalImplantCostCalculatorClient() {
   const [currency, setCurrency] = useState<"EGP" | "USD">("USD");
   const [results, setResults] = useState<CalculationResults | null>(null);
   const [error, setError] = useState("");
-  const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
 
   const scrollToResults = useMobileScroll();
   const resultsRef = useRef<HTMLDivElement>(null);
@@ -98,37 +97,6 @@ export default function DentalImplantCostCalculatorClient() {
     setResults(null);
     setError("");
   };
-
-  const faqs = [
-    {
-      question: "What is the average cost of a dental implant per tooth?",
-      answer: "$3,000 to $6,000 including implant, abutment, and crown."
-    },
-    {
-      question: "How much is dental implant surgery without a crown?",
-      answer: "Usually $1,500 to $3,000 for the implant post alone."
-    },
-    {
-      question: "How much does a molar extraction cost before implant placement?",
-      answer: "Between $150 and $800 depending on complexity."
-    },
-    {
-      question: "How much is a full mouth of dental implants?",
-      answer: "Typically $20,000 to $60,000+ per arch."
-    },
-    {
-      question: "Dental implant cost 6 teeth what should I expect?",
-      answer: "$10,000 to $30,000 depending on whether implants are individual or bridge-supported."
-    },
-    {
-      question: "How much would 7 dental implants cost?",
-      answer: "Approximately $21,000 to $42,000."
-    },
-    {
-      question: "Is a dental implant cost estimator accurate?",
-      answer: "It provides a close range but cannot replace a personalized treatment plan."
-    }
-  ];
 
   return (
     <div className="container mx-auto p-4 max-w-7xl">
@@ -368,59 +336,26 @@ export default function DentalImplantCostCalculatorClient() {
         </div>
       </div>
 
-      {/* FAQ Section */}
-      <section className="mt-16 bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8 border border-purple-200">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="bg-purple-600 p-3 rounded-xl">
-            <Info className="w-6 h-6 text-white" />
-          </div>
-          <h2 className="text-3xl font-bold text-gray-900">
-            Frequently Asked Questions
-          </h2>
-        </div>
-        <div className="space-y-3">
-          {faqs.map((faq, index) => (
-            <div key={index} className="bg-white rounded-lg border border-gray-200 overflow-hidden">
-              <button
-                onClick={() => setOpenFaqIndex(openFaqIndex === index ? null : index)}
-                className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors"
-              >
-                <span className="font-semibold text-gray-900">{faq.question}</span>
-                {openFaqIndex === index ? (
-                  <ChevronUp className="h-5 w-5 text-gray-500" />
-                ) : (
-                  <ChevronDown className="h-5 w-5 text-gray-500" />
-                )}
-              </button>
-              {openFaqIndex === index && (
-                <div className="px-6 pb-4 text-gray-700">
-                  {faq.answer}
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Similar Calculators */}
+      {/* Similar Calculators and Rating Profile Section - Right after calculator */}
       <div className="mt-16">
-
-      {/* Rating and Profile Section */}
-      <RatingProfileSection
-        entityId="dental-implant-cost-calculator"
-        entityType="calculator"
-        creatorSlug="simon-stephen"
-        initialRatingTotal={0}
-        initialRatingCount={0}
-      />
-      <SimilarCalculators calculators={[{
-        calculatorName: "BMI Calculator",
-        calculatorHref: "/health/bmi-calculator",
-        calculatorDescription: "Calculate your Body Mass Index (BMI) to determine if you are underweight, normal weight, overweight, or obese"
-      },
-      ]}
-        color="purple"
-        title="Related Other Calculators" />
+        <SimilarCalculators calculators={[{
+          calculatorName: "BMI Calculator",
+          calculatorHref: "/health/bmi-calculator",
+          calculatorDescription: "Calculate your Body Mass Index (BMI) to determine if you are underweight, normal weight, overweight, or obese"
+        },
+        ]}
+          color="purple"
+          title="Related Other Calculators" />
+        
+        <div className="mt-8">
+          <RatingProfileSection
+            entityId="dental-implant-cost-calculator"
+            entityType="calculator"
+            creatorSlug="simon-stephen"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+        </div>
       </div>
     </div>
   );

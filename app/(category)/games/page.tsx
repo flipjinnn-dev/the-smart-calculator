@@ -61,6 +61,14 @@ export default function GamesPage() {
       icon:Coins,
       link:"/games/sort-coins",
       gradient:"from-yellow-400 to-orange-500"
+    },
+    {
+      id:"aesthetic-wheel-spinner",
+      title:"Aesthetic Wheel Spinner",
+      description:"Use the Aesthetic Wheel to spin and discover outfits, themes, colors, names, and creative ideas instantly. Simple, fun, and inspiring.",
+      icon:Coins,
+      link:"/games/aesthetic-wheel-spinner",
+      gradient:"from-yellow-400 to-orange-500"
     }
   ]
 

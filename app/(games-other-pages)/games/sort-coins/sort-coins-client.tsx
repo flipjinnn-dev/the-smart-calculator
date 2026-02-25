@@ -600,7 +600,7 @@ export default function SortCoinsGame() {
 
                 <section className="mb-10">
                   <h2 className="text-3xl font-bold text-green-700 mb-4 border-b-2 border-green-300 pb-2">
-                    <a href="/games/money-saving" className="hover:text-green-600 transition-colors">Money Saving Game</a>
+                    <a href="/games/money-master" className="hover:text-green-600 transition-colors">Money Master Game</a>
                   </h2>
 
                   <div className="space-y-6">

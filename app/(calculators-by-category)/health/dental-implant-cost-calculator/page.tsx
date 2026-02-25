@@ -223,6 +223,14 @@ export default function DentalImplantCostCalculator() {
       {/* SEO Content Sections */}
       <div className="container mx-auto p-4 max-w-7xl">
         <div className="max-w-5xl mx-auto space-y-12 mt-16">
+          {/* Introduction Section */}
+          <section className="bg-white rounded-xl shadow-lg p-8">
+            <h1 className="text-4xl font-bold text-gray-900 mb-6">Dental Implant Cost Calculator: Accurate Estimates, Real-World Pricing & Expert Breakdown (2026)</h1>
+            <p className="text-gray-700 leading-relaxed">
+              The average cost of a dental implant per tooth in the U.S. ranges from <strong>$3,000 to $6,000</strong> including the implant, abutment, and crown. A full mouth of dental implants typically costs <strong>$20,000 to $60,000+</strong> per arch, depending on materials, bone grafting, sedation, and whether you choose implant-supported bridges or All-on-4 style systems. A reliable dental implant cost calculator helps estimate your total by factoring in extractions, bone grafts, imaging, and prosthetic type.
+            </p>
+          </section>
+
           {/* What Is Section */}
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">What Is a Dental Implant Cost Calculator?</h2>
@@ -238,16 +246,7 @@ export default function DentalImplantCostCalculator() {
               <li>Sedation or anesthesia</li>
               <li>Geographic location</li>
             </ul>
-            <div className="mt-6">
-              <Image
-                src="/images/dental-implant-cost-breakdown.png"
-                alt="Dental Implant Cost Breakdown"
-                width={800}
-                height={500}
-                className="rounded-lg shadow-md w-full"
-              />
-            </div>
-            <p className="text-gray-600 mt-4 italic">
+            <p className="text-gray-600 mt-4">
               Because every patient's bone density, gum health, and treatment plan differ, calculators provide estimates not final quotes.
             </p>
           </section>
@@ -258,7 +257,7 @@ export default function DentalImplantCostCalculator() {
             <p className="text-gray-700 mb-6">
               If you're asking, <strong>"how much is dental implant treatment?"</strong>, here's a transparent breakdown:
             </p>
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto mb-6">
               <table className="w-full border-collapse border border-gray-300">
                 <thead>
                   <tr className="bg-blue-100">
@@ -286,8 +285,11 @@ export default function DentalImplantCostCalculator() {
                 </tbody>
               </table>
             </div>
-            <p className="text-gray-600 mt-4">
-              This is your typical <strong>tooth implant cost estimate</strong> for one missing tooth. Costs may vary depending on whether your provider uses premium systems like those from Nobel Biocare or Straumann.
+            <p className="text-gray-700 mb-4">
+              This is your typical <strong>tooth implant cost estimate</strong> for one missing tooth.
+            </p>
+            <p className="text-gray-700">
+              Costs may vary depending on whether your provider uses premium systems like those from Nobel Biocare or Straumann.
             </p>
           </section>
 
@@ -324,12 +326,12 @@ export default function DentalImplantCostCalculator() {
 
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">4. Implant Placement</h3>
-                <p className="text-gray-700 ml-4">$1,500–$3,000 per implant</p>
+                <p className="text-gray-700">$1,500–$3,000 per implant</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">5. Abutment + Crown</h3>
-                <p className="text-gray-700 ml-4">$1,300–$2,500</p>
+                <p className="text-gray-700">$1,300–$2,500</p>
               </div>
             </div>
           </section>
@@ -337,11 +339,11 @@ export default function DentalImplantCostCalculator() {
           {/* Full Mouth Section */}
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How Much Is a Full Mouth of Dental Implants?</h2>
-            <p className="text-gray-700 mb-6">
+            <p className="text-gray-700 mb-4">
               One of the most searched questions is: <strong>"how much is a full mouth of dental implants?"</strong>
             </p>
             <p className="text-gray-700 mb-6">Here's a realistic range:</p>
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto mb-6">
               <table className="w-full border-collapse border border-gray-300">
                 <thead>
                   <tr className="bg-purple-100">
@@ -365,19 +367,20 @@ export default function DentalImplantCostCalculator() {
                 </tbody>
               </table>
             </div>
-            <p className="text-gray-700 mt-6">
+            <p className="text-gray-700 mb-6">
               A full upper and lower restoration can exceed <strong>$60,000–$90,000</strong> depending on complexity.
             </p>
-            <div className="mt-6">
+            <div className="mb-6">
               <Image
                 src="/images/implant-types.png"
                 alt="Different Types of Dental Implants"
                 width={800}
                 height={500}
                 className="rounded-lg shadow-md w-full"
+                priority={false}
               />
             </div>
-            <p className="text-gray-600 mt-4">
+            <p className="text-gray-700">
               Popular branded full-arch systems include All-on-4®, originally developed by Nobel Biocare.
             </p>
           </section>
@@ -390,21 +393,21 @@ export default function DentalImplantCostCalculator() {
               <div>
                 <h3 className="text-2xl font-semibold text-gray-800 mb-3">Dental Implant Cost 6 Teeth</h3>
                 <p className="text-gray-700 mb-2"><strong>Replacing 6 teeth individually:</strong></p>
-                <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4 mb-3">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4 mb-4">
                   <li>6 × $3,500–$5,000</li>
                   <li>Estimated total: <strong>$21,000–$30,000</strong></li>
                 </ul>
                 <p className="text-gray-700 mb-2"><strong>If using an implant-supported bridge (2–3 implants):</strong></p>
-                <p className="text-gray-700 ml-4"><strong>$10,000–$18,000</strong></p>
+                <p className="text-gray-700"><strong>$10,000–$18,000</strong></p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-semibold text-gray-800 mb-3">How Much Would 7 Dental Implants Cost?</h3>
-                <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4 mb-4">
                   <li>7 × $3,000–$6,000</li>
                   <li>Estimated total: <strong>$21,000–$42,000</strong></li>
                 </ul>
-                <p className="text-gray-600 mt-3">
+                <p className="text-gray-700">
                   A smart <strong>dental implant cost estimator</strong> will compare individual implants vs. bridge-supported options.
                 </p>
               </div>
@@ -486,7 +489,7 @@ export default function DentalImplantCostCalculator() {
           <section className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Are Dental Implants Worth the Cost?</h2>
             <p className="text-gray-700 mb-6">Compared to bridges or dentures:</p>
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto mb-6">
               <table className="w-full border-collapse border border-gray-300">
                 <thead>
                   <tr className="bg-green-100">
@@ -518,7 +521,7 @@ export default function DentalImplantCostCalculator() {
                 </tbody>
               </table>
             </div>
-            <p className="text-gray-700 mt-6">
+            <p className="text-gray-700">
               Implants prevent jawbone shrinkage and offer the most natural function.
             </p>
           </section>
