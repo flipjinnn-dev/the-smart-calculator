@@ -2,142 +2,120 @@
   "color": "roxo",
   "sections": [
     {
-      "heading": "Calculadora de idade: o que é e como usá-la",
-      "content": "Uma Calculadora de Idade é uma ferramenta online gratuita que calcula rapidamente a idade exata de uma pessoa em anos, meses e dias com base na data de nascimento. É útil para estudantes, pais, profissionais ou qualquer pessoa que precise de um cálculo de idade rápido e preciso."
+      "heading": "Calculadora de Idade",
+      "content": "Uma calculadora de idade ajuda você a descobrir sua idade exata usando a data de nascimento. Ela também pode ser usada para calcular a idade gestacional do bebê, a idade de cães e gatos, e métricas de saúde como IMC por idade, peso ideal por idade e quantidade de água por peso e idade. Com estas ferramentas, você pode planejar sua saúde, acompanhar crescimento e cuidar melhor dos pets."
     },
     {
-      "heading": "Como usar a calculadora",
+      "heading": "O Que é uma Calculadora de Idade?",
+      "content": "Uma calculadora de idade é uma ferramenta simples que calcula a idade de uma pessoa ou animal de forma rápida e precisa. Diferente de cálculos manuais, ela mostra anos, meses e dias, evitando erros.\n\nTipos de calculadoras que você pode usar:\n• Calculadora de idade por data de nascimento\n• Calculadora de idade entre datas\n• Calculadora de idade gestacional\n• Calculadora de idade de cachorro ou gato\n• Calculadora de idade cronológica, biológica ou metabólica\n• Calculadora de aposentadoria por idade"
+    },
+    {
+      "heading": "Como Calcular Idade Pela Data de Nascimento",
+      "content": "Para calcular idade manualmente:\n1. Subtraia o ano de nascimento do ano atual.\n2. Verifique se já passou o mês e o dia do aniversário.\n\nExemplo:\n• Nascimento: 15/04/1990\n• Data atual: 16/02/2026\n• Idade: 35 anos, 10 meses e 1 dia\n\nUsando Excel:\n• Para anos: =DATEDIF(DataNascimento, HOJE(), \"Y\")\n• Para meses: =DATEDIF(DataNascimento, HOJE(), \"YM\")"
+    },
+    {
+      "heading": "Calculadora de Idade Gestacional",
+      "content": "A calculadora de idade gestacional ajuda a saber quantas semanas a gravidez está. Ela pode usar a DUM (data da última menstruação) ou resultado do ultrassom.\n\nFerramentas confiáveis:\n• Calculadora de idade gestacional FetalMed\n• Calculadora de idade gestacional pela DUM"
+    },
+    {
+      "heading": "Como Calcular a Idade de Cachorro ou Gato",
       "subSections": [
         {
-          "heading": "Abra a calculadora",
-          "content": "Acesse-o diretamente no seu navegador."
+          "heading": "Cachorros",
+          "content": "1 ano humano ≈ 7 anos do cachorro (ajustado pelo tamanho da raça)."
         },
         {
-          "heading": "Insira a data de nascimento",
-          "content": "Insira dia, mês e ano."
+          "heading": "Gatos",
+          "content": "• 1º ano = 15 anos humanos\n• 2º ano = +9 anos\n• Cada ano seguinte = +4 anos"
         },
         {
-          "heading": "Selecione a data de referência",
-          "content": "Escolha a data de hoje ou qualquer data passada/futura."
-        },
-        {
-          "heading": "Clique em Calcular",
-          "content": "Veja instantaneamente a idade em anos, meses e dias."
-        },
-        {
-          "heading": "Verifique a saída",
-          "content": "Algumas calculadoras também mostram o total de dias ou semanas vividas."
+          "heading": "Ferramentas online",
+          "content": "• Calculadora de idade de cachorro\n• Calculadora de idade de gato\n• Calculadora de idade canina"
         }
       ]
     },
     {
-      "heading": "Principais recursos",
+      "heading": "Tabela de Calculadoras de Idade",
       "subSections": [
         {
-          "heading": "Resultados instantâneos",
-          "content": "Não são necessários cálculos manuais."
+          "heading": "Calculadora de idade",
+          "content": "Para quem/uso: Pessoas\nExemplo: Calcular idade pela data de nascimento"
         },
         {
-          "heading": "Preciso",
-          "content": "Considera anos bissextos e diferentes durações de meses."
+          "heading": "Calculadora de idade entre datas",
+          "content": "Para quem/uso: Pessoas ou empresas\nExemplo: Calcular diferença de idade entre duas datas"
         },
         {
-          "heading": "Compatível com dispositivos móveis",
-          "content": "Funciona em smartphones, tablets e desktops."
+          "heading": "Calculadora de idade gestacional",
+          "content": "Para quem/uso: Gestantes\nExemplo: FetalMed, calculadora pela DUM"
         },
         {
-          "heading": "Gratuito e fácil de usar",
-          "content": "Não é necessário download ou registro."
+          "heading": "Calculadora de idade de cachorro",
+          "content": "Para quem/uso: Donos de pets\nExemplo: Calculadora de idade de cachorro"
         },
         {
-          "heading": "Data personalizada",
-          "content": "Calcule a idade para qualquer data no passado ou futuro."
+          "heading": "Calculadora de idade de gato",
+          "content": "Para quem/uso: Donos de pets\nExemplo: Calculadora de idade de gato"
         },
         {
-          "heading": "Várias unidades",
-          "content": "Opcionalmente, veja a idade em anos, meses, dias ou total de dias/semanas."
+          "heading": "Calculadora de IMC por idade",
+          "content": "Para quem/uso: Pessoas\nExemplo: Calculadora de IMC por idade"
+        },
+        {
+          "heading": "Calculadora de peso ideal por idade",
+          "content": "Para quem/uso: Pessoas\nExemplo: Calculadora de peso ideal por idade"
+        },
+        {
+          "heading": "Calculadora de água por peso e idade",
+          "content": "Para quem/uso: Pessoas\nExemplo: Calculadora de água por peso e idade"
+        },
+        {
+          "heading": "Calculadora de aposentadoria por idade",
+          "content": "Para quem/uso: Pessoas\nExemplo: Calculadora de aposentadoria por idade"
+        },
+        {
+          "heading": "Calculadora de idade cronológica/biológica/metabólica",
+          "content": "Para quem/uso: Pessoas interessadas em saúde/metabolismo\nExemplo: Calculadora de idade biológica/metabólica"
         }
       ]
     },
     {
-      "heading": "Quem pode se beneficiar",
-      "subSections": [
-        {
-          "heading": "Uso pessoal",
-          "content": "Acompanhe aniversários e marcos."
-        },
-        {
-          "heading": "Finalidades Oficiais",
-          "content": "Estime a idade para formulários, inscrições ou verificação de identidade."
-        },
-        {
-          "heading": "Planejamento de Eventos",
-          "content": "Acompanhe aniversários, datas comemorativas ou datas de elegibilidade."
-        },
-        {
-          "heading": "Educação",
-          "content": "Ensine aos alunos sobre datas, horários e diferenças de calendário."
-        },
-        {
-          "heading": "Manutenção de registros",
-          "content": "Mantenha registros precisos com base na idade."
-        }
-      ]
+      "heading": "Outras Calculadoras Úteis",
+      "content": "• Calculadora de peso ideal por idade – mantém a alimentação equilibrada.\n• Calculadora de altura por idade – acompanha o crescimento de crianças.\n• Calculadora de água por peso e idade – calcula a hidratação diária.\n• Calculadora de IMC por idade – avalia o índice de massa corporal.\n• Calculadora de sono por idade – indica quantas horas de sono são ideais.\n• Calculadora de patrimônio por idade – ajuda no planejamento financeiro e aposentadoria."
     },
     {
-      "heading": "Cálculos de exemplo",
-      "subSections": [
-        {
-          "heading": "Exemplo 1 – Idade Atual",
-          "content": "Data de nascimento: 15 de março de 1995 | Data de Referência: Hoje | Resultado: 30 anos, 8 meses, 12 dias"
-        },
-        {
-          "heading": "Exemplo 2 – Era Futura",
-          "content": "Data de nascimento: 10 de junho de 2000 | Data de referência: 1 de janeiro de 2030 | Resultado: 29 anos, 6 meses, 22 dias"
-        }
-      ]
+      "heading": "Como Calcular Diferença de Idade",
+      "content": "Para descobrir a diferença entre duas pessoas:\n1. Subtraia o ano mais jovem do mais velho.\n2. Ajuste meses e dias para precisão.\n\nExemplo:\n• Pessoa 1: 05/06/1985\n• Pessoa 2: 20/11/1990\n• Diferença: 5 anos, 5 meses e 15 dias\n\nFerramentas úteis:\n• Calculadora de diferença de idade\n• Diferença de idade calculadora"
+    },
+    {
+      "heading": "Conclusão",
+      "content": "A calculadora de idade é uma ferramenta prática e fácil de usar para pessoas de todas as idades, gestantes e donos de pets. Ela permite calcular:\n• Idade exata de pessoas\n• Idade gestacional do bebê\n• Idade de cachorro e gato\n• Diferenças de idade entre pessoas\n• IMC, peso, altura, sono e hidratação por idade\n\nCom estas ferramentas, planejar saúde, bem-estar e cuidados com animais se torna simples, rápido e confiável."
     }
   ],
   "faq": [
     {
-      "q": "O que é uma calculadora de idade?",
-      "a": "Ele calcula a idade exata em anos, meses e dias a partir de uma determinada data de nascimento."
+      "q": "Como calcular idade pela data de nascimento?",
+      "a": "Use a diferença entre o ano atual e o ano de nascimento, ou use uma calculadora de idade online."
     },
     {
-      "q": "Esta calculadora é gratuita?",
-      "a": "Sim, é totalmente gratuito."
+      "q": "O que é calculadora de idade gestacional?",
+      "a": "Ferramenta que mostra em quantas semanas está a gestação, usando DUM ou ultrassom."
     },
     {
-      "q": "Preciso de software ou instalação?",
-      "a": "Não, funciona diretamente no seu navegador."
+      "q": "Como calcular a idade de cachorro ou gato?",
+      "a": "Multiplicando anos humanos por coeficientes ou usando calculadora de idade de cachorro/gato."
     },
     {
-      "q": "Posso usá-lo em dispositivos móveis?",
-      "a": "Sim, é totalmente compatível com dispositivos móveis."
+      "q": "Qual a diferença entre idade cronológica e biológica?",
+      "a": "Cronológica = tempo vivido. Biológica = idade real do corpo baseada na saúde e metabolismo."
     },
     {
-      "q": "Posso calcular a idade para uma data futura ou passada?",
-      "a": "Sim, você pode selecionar qualquer data de referência."
+      "q": "É possível calcular idade no Excel?",
+      "a": "Sim, com a fórmula DATEDIF você obtém anos, meses ou dias."
     },
     {
-      "q": "Isso leva em conta anos bissextos?",
-      "a": "Sim, ele considera com precisão os anos bissextos e a duração dos meses."
-    },
-    {
-      "q": "Pode mostrar o total de dias ou semanas?",
-      "a": "Algumas versões fornecem o total de dias ou semanas vividas."
-    },
-    {
-      "q": "É adequado para estudantes?",
-      "a": "Sim, é simples e preciso para fins de aprendizagem."
-    },
-    {
-      "q": "Pode ser usado para documentos oficiais?",
-      "a": "É bom para estimativas, mas os documentos oficiais exigem provas como uma certidão de nascimento."
-    },
-    {
-      "q": "Quão preciso é isso?",
-      "a": "Ele fornece cálculos precisos baseados no calendário gregoriano padrão."
+      "q": "O que é calculadora de idade corrigida?",
+      "a": "Ferramenta usada para bebês prematuros, ajustando a idade conforme semanas de gestação."
     }
   ]
 }

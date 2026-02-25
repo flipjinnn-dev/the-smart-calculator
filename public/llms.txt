@@ -1,0 +1,74 @@
+# LLMs.txt for TheSmartCalculator.com
+
+This file provides information about the structure and content of TheSmartCalculator.com, a website offering a wide variety of free online calculators and tools for various needs, including finance, health, mathematics, physics, construction, food, sports, software, and business.  The site also features free online games. Our mission is to provide accurate and easy-to-use calculation tools for everyone.
+
+## Website Purpose:
+TheSmartCalculator.com aims to be a comprehensive resource for online calculations, providing users with free and reliable tools to solve everyday problems and complex equations.
+
+## Website Structure:
+
+### 1. Core Pages:
+   - [Smart Calculator - Free Online Calculators for Every Need](https://www.thesmartcalculator.com/) - Homepage and main entry point to all calculators.
+   - [About Smart Calculator - Free Online Calculator Platform](https://www.thesmartcalculator.com/about-us) - Information about the website, its mission, and team.
+   - [Contact Us – TheSmartCalculator](https://www.thesmartcalculator.com/contact-us) - Contact information and form for inquiries.
+   - [Privacy Policy – TheSmartCalculator](https://www.thesmartcalculator.com/privacy-policy) - Website privacy policy.
+   - [Terms and Conditions – TheSmartCalculator](https://www.thesmartcalculator.com/terms-and-conditions) - Website terms of use.
+   - [Editorial Policy & Mission Statement - TheSmartCalculator](https://www.thesmartcalculator.com/editorial-policy-mission-statement) - Details about the editorial standards and mission of the website.
+   - [Community - The Smart Calculator](https://www.thesmartcalculator.com/community) - Community forum for users.
+
+### 2. Calculator Categories:
+   - **2.1. Financial Calculators:**
+      - [Best Free Online Financial Calculators 2026](https://www.thesmartcalculator.com/financial) - Main page for financial calculators.
+      - [Mortgage Calculator](https://www.thesmartcalculator.com/financial/mortgage-calculator) - Tool for calculating mortgage payments.
+      - [Loan Calculator](https://www.thesmartcalculator.com/financial/loan-calculator) - Tool for calculating loan payments.
+      - [Compound Interest Calculator](https://www.thesmartcalculator.com/financial/compound-interest-calculator) - Tool for calculating compound interest.
+
+   - **2.2. Health and Fitness Calculators:**
+      - [Health and Fitness Calculators](https://www.thesmartcalculator.com/health) - Main page for health and fitness calculators.
+      - [BMI Calculator](https://www.thesmartcalculator.com/health/bmi-calculator) - Tool for calculating Body Mass Index.
+      - [Calorie Calculator - Daily Calorie Intake](https://www.thesmartcalculator.com/health/calorie-calculator) - Tool for calculating daily calorie intake.
+
+   - **2.3. Mathematics Calculators:**
+      - [Mathematics Calculator Online | Free & Best Tools](https://www.thesmartcalculator.com/maths) - Main page for mathematics calculators.
+      - [Percentage Calculator](https://www.thesmartcalculator.com/maths/percentage-calculator) - Tool for calculating percentages.
+
+   - **2.4. Physics Calculators:**
+      - [Best Physics Calculator Online Free with AI Solver](https://www.thesmartcalculator.com/physics) - Main page for physics calculators.
+
+   - **2.5. Construction Calculators:**
+      - [Construction Calculators](https://www.thesmartcalculator.com/construction) - Main page for construction calculators.
+
+   - **2.6. Food Calculators:**
+      - [Food Calculators Measurement Converters & Recipe Tools](https://www.thesmartcalculator.com/food) - Main page for food calculators and converters.
+
+   - **2.7. Sports Calculators:**
+      - [Sports Calculator](https://www.thesmartcalculator.com/sports) - Main page for sports related calculators.
+
+   - **2.8. Software Calculators:**
+      - [Software Calculator – Web & IT Development Tools | TheSmartCalculator](https://www.thesmartcalculator.com/software) - Main page for software and IT calculators.
+
+   - **2.9. Business Calculators:**
+      - [Business Calculator – Startup & Entrepreneurship Tools | TheSmartCalculator](https://www.thesmartcalculator.com/business) - Main page for business and entrepreneurship calculators.
+
+   - **2.10. Other Calculators:**
+      - [Other Calculators](https://www.thesmartcalculator.com/other-calculators) - Main page for various uncategorized calculators.
+
+### 3. Games:
+   - [Free Online Games - Wordle & More | TheSmartCalculator](https://www.thesmartcalculator.com/games) - Page featuring free online games.
+
+### 4. Creator Profiles:
+   - [George Charles - Creator Profile | Smart Calculator](https://www.thesmartcalculator.com/creator/george-charles)
+   - [Andrés Montoya - Creator Profile | Smart Calculator](https://www.thesmartcalculator.com/creator/andres-montoya)
+   - [Realynn Reed  - Creator Profile | Smart Calculator](https://www.thesmartcalculator.com/creator/realynn-reed)
+   - [Felix Yacoub - Creator Profile | Smart Calculator](https://www.thesmartcalculator.com/creator/felix-yacoub)
+   - [Antonio Ares - Creator Profile | Smart Calculator](https://www.thesmartcalculator.com/creator/antonio-ares)
+   - [Simon Stephen - Creator Profile | Smart Calculator](https://www.thesmartcalculator.com/creator/simon-stephen)
+   - [Aiden Asher - Creator Profile | Smart Calculator](https://www.thesmartcalculator.com/creator/aiden-asher)
+   - [Neo Nicholas - Creator Profile | Smart Calculator](https://www.thesmartcalculator.com/creator/neo-nicholas)
+   - [Hudson Hale - Creator Profile | Smart Calculator](https://www.thesmartcalculator.com/creator/hudson-hale)
+   - [Jessica Adam - Creator Profile | Smart Calculator](https://www.thesmartcalculator.com/creator/jessica-adam)
+
+## Content Structure Notes:
+- Each calculator page generally includes a calculator interface, a description of the calculator's purpose, and instructions on how to use it.
+- Category pages provide an overview of the available calculators within that category.
+- Creator profiles provide information about the individuals who have contributed to the development of the website and its calculators.

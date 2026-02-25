@@ -379,124 +379,121 @@ export default function HomePage({ content, language, authors }: HomeClientProps
   ];
 
   const jsonLd = {
-    "@context": "https://schema.org",
+  "@context": "https://schema.org",
+  "@type": [
+    "SoftwareApplication",
+    "WebApplication"
+  ],
+  "name": "the smart calculator",
+  "description": "Smart calculator provides solutions for a wide range of problems, from finance and business to health. It’s so fast and easy you won’t want to do the math again!",
+  "url": "https://www.thesmartcalculator.com",
+  "operatingSystem": "Web",
+  "applicationCategory": "Calculators",
+  "applicationSubCategory": "Software Calculators",
+  "inLanguage": "en-US",
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "Online Only"
+  },
+  "mainEntityOfPage": {
     "@type": "WebPage",
-    name: "Free Online Calculators - Best Online Calculator Tools",
-    url: "https://www.thesmartcalculator.com/",
-    description: "Access free online calculators for finance, health, math, conversions, and daily tools. Fast, accurate, mobile-friendly, and expert-verified calculators.",
-    inLanguage: language,
-    isPartOf: {
-      "@type": "WebSite",
-      name: "thesmartcalculator",
-      url: "https://www.thesmartcalculator.com/",
-      potentialAction: {
-        "@type": "SearchAction",
-        target: "https://www.thesmartcalculator.com/search?q={search_term}",
-        "query-input": "required name=search_term"
-      }
+    "@id": "https://www.thesmartcalculator.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Smart Calculator sp. z o.o.",
+    "url": "https://www.thesmartcalculator.com",
+    "brand": "Smart Calculator",
+    "publishingPrinciples": "https://www.thesmartcalculator.com/about-us",
+    "sameAs": [
+      "https://www.pinterest.com/thesmartcalculators/",
+      "https://x.com/SmartCalculat0r",
+      "https://www.instagram.com/thesmartcalculators/",
+      "https://www.youtube.com/@TheSmartCalculators",
+      "https://www.linkedin.com/company/smart-calculator/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3457 Hodson Pickett Trail High Point",
+      "addressLocality": "Hodson Pickett Trail",
+      "addressRegion": "North Carolina",
+      "postalCode": "27260",
+      "addressCountry": "US"
     },
-    publisher: {
-      "@type": "Organization",
-      name: "thesmartcalculator",
-      url: "https://www.thesmartcalculator.com/",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.thesmartcalculator.com/logo.png"
-      },
-      sameAs: [
-        "https://www.pinterest.com/thesmartcalculators/",
-        "https://x.com/SmartCalculat0r",
-        "https://www.instagram.com/thesmartcalculators/",
-        "https://www.youtube.com/@TheSmartCalculators"
-      ]
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "feedback",
+      "email": "thesmartcalculators@gmail.com"
     },
-    mainEntity: {
-      "@type": "FAQPage",
-      name: "Online Calculator FAQs",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What is an online calculator?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "An online calculator is a web-based tool that helps you perform quick calculations like finance, health, math, and conversions without installing any app."
-          }
-        },
-        {
-          "@type": "Question",
-          name: "Are these online calculators free to use?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, all calculators on our website are 100% free with no sign-ups, subscriptions, or hidden charges."
-          }
-        },
-        {
-          "@type": "Question",
-          name: "How accurate are the calculator results?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Our calculators use expert-verified formulas and accurate algorithms. Results depend on user inputs but are generally reliable."
-          }
-        },
-        {
-          "@type": "Question",
-          name: "Do you store any personal data or calculations?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "No, we do not store or track any user data. All calculations remain private and secure on your device."
-          }
-        },
-        {
-          "@type": "Question",
-          name: "What makes your website the best online calculator platform?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "We offer fast, accurate, mobile-friendly, and expert-verified calculators across finance, health, math, and daily tools — completely free."
-          }
-        },
-        {
-          "@type": "Question",
-          name: "Can I use these calculators for school or professional work?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Students, teachers, and professionals use our calculators for assignments, financial planning, math practice, and daily tasks."
-          }
-        },
-        {
-          "@type": "Question",
-          name: "Do your calculators work on mobile devices?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, all calculators are fully mobile-responsive and work smoothly on phones, tablets, and desktops."
-          }
-        },
-        {
-          "@type": "Question",
-          name: "How often are your calculators updated?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "We update our tools regularly to ensure accuracy, fast performance, improved formulas, and better user experience."
-          }
-        },
-        {
-          "@type": "Question",
-          name: "Can I request a new calculator?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. You can contact us anytime to suggest a new calculator or request improvements to existing tools."
-          }
-        },
-        {
-          "@type": "Question",
-          name: "Are these calculators suitable for medical or financial decisions?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Our calculators provide accurate estimates, but they should not replace professional financial, legal, or medical advice."
-          }
-        }
-      ]
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.thesmartcalculator.com/logo.png",
+      "width": 713,
+      "height": 720
     }
-  };
+  },
+  "hasPart": [
+    {
+      "@type": "WebPage",
+      "name": "business Calculators",
+      "url": "https://www.thesmartcalculator.com/business"
+    },
+    {
+      "@type": "WebPage",
+      "name": "software Calculators",
+      "url": "https://www.thesmartcalculator.com/software"
+    },
+    {
+      "@type": "WebPage",
+      "name": "other calculators",
+      "url": "https://www.thesmartcalculator.com/other-calculators"
+    },
+    {
+      "@type": "WebPage",
+      "name": "construction Calculators",
+      "url": "https://www.thesmartcalculator.com/construction"
+    },
+    {
+      "@type": "WebPage",
+      "name": "food Calculators",
+      "url": "https://www.thesmartcalculator.com/food"
+    },
+    {
+      "@type": "WebPage",
+      "name": "sports Calculators",
+      "url": "https://www.thesmartcalculator.com/sports"
+    },
+    {
+      "@type": "WebPage",
+      "name": "games",
+      "url": "https://www.thesmartcalculator.com/games"
+    },
+    {
+      "@type": "WebPage",
+      "name": "physics Calculators",
+      "url": "https://www.thesmartcalculator.com/physics"
+    },
+    {
+      "@type": "WebPage",
+      "name": "maths Calculators",
+      "url": "https://www.thesmartcalculator.com/maths"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Health and Fitness Calculators",
+      "url": "https://www.thesmartcalculator.com/health"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Online Financial Calculators",
+      "url": "https://www.thesmartcalculator.com/financial"
+    }
+  ],
+  "_extractedType": "SoftwareApplication"
+}
 
   return (
     <>
