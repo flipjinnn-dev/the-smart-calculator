@@ -3649,8 +3649,8 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "reverse percentage calculator, reverse percentages calculator, reverse percentage calculator online, reverse percentage discount calculator, reverse percentage formula, how to calculate reverse percentages, reverse percentage increase calculator, reverse percentage decrease calculator"
     }
   },
-  'therapy-productivity-calculator':{
-    en:{
+  'therapy-productivity-calculator': {
+    en: {
       title: "Therapy Productivity Calculator",
       description: "Calculate therapy productivity with our free online calculator. Estimate patient load, therapy duration, and productivity metrics.",
       slug: "/therapy-productivity-calculator",
@@ -3687,6 +3687,22 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Use our SSC GPA calculator to compute GPA, convert to percentage or marks, and understand the SSC grading system instantly.",
       slug: "/ssc-gpa-calculator",
       keywords: "ssc gpa calculator, ssc gpa calculator online, how to calculate ssc gpa, ssc gpa calculation system, ssc gpa calculator with marks, ssc gpa to percentage calculator, ssc gpa to marks calculator, ssc gpa calculator and grading system, middle school gpa calculator, gpa calculator middle school no credits, bangladesh ssc gpa, secondary school certificate gpa, grade point average calculator, ssc result calculator, ssc marks to gpa"
+    },
+  },
+  'end-of-service-calculator': {
+    en: {
+      title: "End of Service Calculator",
+      description: "Use our End of Service Calculator to calculate the end of service date, salary, and benefits.",
+      slug: "/end-of-service-calculator",
+      keywords: "end of service calculator, end of service date calculator, end of service salary calculator, end of service benefits calculator, end of service formula, end of service calculation, end of service salary, end of service benefits, end of service date, end of service salary, end of service benefits"
+    }
+  },
+  'animal-wheel-spinner': {
+    en: {
+      title: "Animal Wheel Spinner: Fun & Random Animal Generator",
+      description: "Spin the animal wheel online or toy version to pick random animals. Perfect for games, learning, or fun activities for kids and adults.",
+      slug: "/games/animal-wheel-spinner",
+      keywords: "animal wheel spinner, animal spin wheel, random animal generator wheel, animal spinner online, animal wheel spinner online, animal spin wheel game, farm animal wheel spinner, pet wheel spinner, cute animal wheel spinner, animal generator wheel, spinning animal wheel, animal wheel spinner toy"
     }
   }
 };

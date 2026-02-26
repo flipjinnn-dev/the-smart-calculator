@@ -77,6 +77,14 @@ export default function GamesPage() {
       icon:Coins,
       link:"/games/age-generator-wheel",
       gradient:"from-yellow-400 to-orange-500"
+    },
+    {
+      id:"animal-wheel-spinner",
+      title:"Animal Wheel Spinner",
+      description:"Use the Animal Wheel to spin and discover your favorite animal instantly. Simple, fun, and inspiring.",
+      icon:Coins,
+      link:"/games/animal-wheel-spinner",
+      gradient:"from-yellow-400 to-orange-500"
     }
   ]
 

@@ -839,6 +839,14 @@ export const calculators: Calculator[] = [
     popular: true
   },
   {
+    id:"end-of-service-calculator",
+    name:"End of Service Calculator",
+    description:"Use our End of Service Calculator to calculate the end of service date, salary, and benefits.",
+    href:"/end-of-service-calculator",
+    category:"other",
+    popular: true
+  },
+  {
     id: "piecewise-function-calculator-grapher",
     name: "Piecewise Function Calculator & Grapher",
     description: "Define, evaluate, and graph piecewise functions.",

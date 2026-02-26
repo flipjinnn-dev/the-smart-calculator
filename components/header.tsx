@@ -53,7 +53,9 @@ const ENGLISH_ONLY_PATHS = [
   '/health/dental-implant-cost-calculator',
   '/maths/reverse-percentage-calculator',
   '/therapy-productivity-calculator',
-  '/financial/bank-statement-converter'
+  '/financial/bank-statement-converter',
+  '/end-of-service-calculator',
+  '/games/animal-wheel-spinner'
 ]
 
 const LANGUAGES = [
