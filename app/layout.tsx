@@ -79,7 +79,6 @@ export async function generateMetadata(): Promise<Metadata> {
     manifest: '/manifest.json',
     icons: {
       icon: '/logo.png',
-      apple: '/apple-touch-icon.png',
     },
     alternates: {
       canonical: canonicalUrl,

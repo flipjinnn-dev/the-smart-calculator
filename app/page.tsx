@@ -3,6 +3,36 @@ import HomeClient from "./home-client";
 import { loadHomepageContent } from "@/lib/loadHomepageContent";
 import { getAllAuthors } from "@/lib/sanity/client";
 import Script from "next/script";
+import type { Metadata } from "next";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const headersList = await headers();
+  const language = headersList.get('x-language') || 'en';
+  const { content } = await loadHomepageContent(language);
+
+  const contentData = content || {
+    meta: {
+      title: "",
+      description: "",
+      keywords: ""
+    }
+  };
+
+  return {
+    title: contentData.meta.title || "Smart Calculator - Free Online Calculators for Every Need",
+    description: contentData.meta.description || "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
+    keywords: contentData.meta.keywords || "calculator, online calculator, financial calculator, health calculator, math calculator, free tools",
+    openGraph: {
+      title: contentData.meta.title || "Smart Calculator - Free Online Calculators for Every Need",
+      description: contentData.meta.description || "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
+      type: "website",
+      url: "https://www.thesmartcalculator.com/",
+    },
+    alternates: {
+      canonical: "https://www.thesmartcalculator.com/",
+    },
+  };
+}
 
 export default async function HomePage() {
   const headersList = await headers();

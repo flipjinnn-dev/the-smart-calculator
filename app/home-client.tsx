@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import type { Metadata } from "next"
 import Link from "next/link"
 import {
   Calculator,
@@ -236,22 +235,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       };
     })
     : fallbackCalculators;
-
-  // Update metadata based on content
-  const metadata: Metadata = {
-    title: contentData.meta.title || "Smart Calculator - Free Online Calculators for Every Need",
-    description: contentData.meta.description || "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
-    keywords: contentData.meta.keywords || "calculator, online calculator, financial calculator, health calculator, math calculator, free tools",
-    openGraph: {
-      title: contentData.meta.title || "Smart Calculator - Free Online Calculators for Every Need",
-      description: contentData.meta.description || "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
-      type: "website",
-      url: "https://www.thesmartcalculator.com/",
-    },
-    alternates: {
-      canonical: "https://www.thesmartcalculator.com/",
-    },
-  };
 
   const categories = [
     {
