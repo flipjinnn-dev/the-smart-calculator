@@ -896,6 +896,14 @@ export const calculators: Calculator[] = [
     category: "other",
   },
   {
+    id:"ovr-calculator",
+    name:"OVR Calculator",
+    description:"Calculate the OVR (Overall Rating) for video games.",
+    href:"/ovr-calculator",
+    category:"other",
+    popular: true,
+  },
+  {
     id: "ip-subnet-calculator",
     name: "IP Subnet Calculator",
     description: "Calculate subnets and IP ranges.",

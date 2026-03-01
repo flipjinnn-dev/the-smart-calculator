@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { calculatorsMeta } from '@/meta/calculators';
 import { getCategoryCanonicalUrl } from '@/lib/url-utils';
+import { getAllGames } from '@/lib/games-data';
 
 export async function GET() {
   const baseUrl = 'https://www.thesmartcalculator.com';
@@ -31,18 +32,18 @@ export async function GET() {
     });
   });
 
-  // Games pages
-  const gamePages = [
-    { path: '/games', priority: 0.8 },
-    { path: '/games/wordle', priority: 0.8 },
-    { path: '/games/what-is-the-wordle-today', priority: 0.8 },
-    { path: '/games/mental-maths', priority: 0.8 },
-  ];
+  // Games pages - dynamically from games-data.ts
+  urls.push({
+    loc: `${baseUrl}/games`,
+    priority: 0.8,
+    changefreq: 'weekly',
+  });
 
-  gamePages.forEach(page => {
+  const allGames = getAllGames();
+  allGames.forEach(game => {
     urls.push({
-      loc: `${baseUrl}${page.path}`,
-      priority: page.priority,
+      loc: `${baseUrl}${game.href}`,
+      priority: 0.8,
       changefreq: 'weekly',
     });
   });

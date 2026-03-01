@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Map } from "lucide-react"
 import { calculators } from "@/lib/calculator-data"
 import { getAllBlogPosts } from "@/lib/sanity/client"
+import { getAllGames } from "@/lib/games-data"
 
 interface SitemapContent {
   heroTitle: string
@@ -43,12 +44,12 @@ export default async function SitemapPage() {
     console.error("Failed to fetch blog posts:", error)
   }
   
-  // Define games
-  const games = [
-    { title: "Wordle of the Day", url: "/games/wordle" },
-    { title: "Mental Math Trainer", url: "/games/mental-maths" },
-    { title: "Wordle Archive", url: "/games/what-is-the-wordle-today" }
-  ]
+  // Get all games dynamically from games-data.ts
+  const allGames = getAllGames()
+  const games = allGames.map(game => ({
+    title: game.name,
+    url: game.href
+  }))
 
   // Organize calculators by category
   const calculatorsByCategory: { [key: string]: typeof calculators } = {}

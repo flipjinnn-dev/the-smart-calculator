@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { calculatorsMeta } from '@/meta/calculators';
 import { getCategoryCanonicalUrl } from '@/lib/url-utils';
+import { getAllGames } from '@/lib/games-data';
 
 export async function GET() {
   const baseUrl = 'https://www.thesmartcalculator.com';
@@ -29,6 +30,22 @@ export async function GET() {
       loc: `${baseUrl}/${lang}/${page.path}`,
       priority: page.priority,
       changefreq: 'monthly',
+    });
+  });
+
+  // Games pages - dynamically from games-data.ts (English only)
+  urls.push({
+    loc: `${baseUrl}/games`,
+    priority: 0.8,
+    changefreq: 'weekly',
+  });
+
+  const allGames = getAllGames();
+  allGames.forEach(game => {
+    urls.push({
+      loc: `${baseUrl}${game.href}`,
+      priority: 0.8,
+      changefreq: 'weekly',
     });
   });
 

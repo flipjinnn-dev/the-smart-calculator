@@ -7,6 +7,7 @@ import { getLocalizedCategoryUrl } from '@/lib/url-utils'
 import { getAllCalculatorsByCategory } from '@/lib/calculator-data'
 import { getLocalizedCalculatorData, getLocalizedCalculatorHref } from '@/lib/language-utils'
 import { getCalculatorFileName } from '@/lib/calculator-data'
+import { getAllGames } from '@/lib/games-data'
 
 interface FooterProps {
   language?: string
@@ -84,14 +85,14 @@ export const Footer = async ({ language = 'en' }: FooterProps) => {
   // Get all calculators organized by category
   const calculatorsByCategory = getAllCalculatorsByCategory()
   
-  // Add games category
-  const games = [
-    { id: 'wordle', name: 'Wordle of the Day', description: 'Play daily Wordle puzzle', href: '/games/wordle', category: 'games' },
-    { id: 'mental-maths', name: 'Mental Math Trainer', description: 'Train your mental math skills', href: '/games/mental-maths', category: 'games' },
-    { id: 'wordle-archive', name: 'Wordle Archive', description: 'Access past Wordle puzzles', href: '/games/what-is-the-wordle-today', category: 'games' }
-  ]
+  // Add games category dynamically from games-data.ts
+  const allGames = getAllGames()
+  const gamesWithCategory = allGames.map(game => ({
+    ...game,
+    category: 'games'
+  }))
   
-  calculatorsByCategory['games'] = games
+  calculatorsByCategory['games'] = gamesWithCategory
   
   // Localize calculator names and hrefs
   const localizedCalculatorsByCategory: Record<string, any[]> = {}

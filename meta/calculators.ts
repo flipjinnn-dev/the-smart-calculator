@@ -3704,5 +3704,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/games/animal-wheel-spinner",
       keywords: "animal wheel spinner, animal spin wheel, random animal generator wheel, animal spinner online, animal wheel spinner online, animal spin wheel game, farm animal wheel spinner, pet wheel spinner, cute animal wheel spinner, animal generator wheel, spinning animal wheel, animal wheel spinner toy"
     }
+  },
+  'ovr-calculator': {
+    en: {
+      title: "OVR Calculator – Calculate Overall Rating Easily",
+      description: "Use our OVR Calculator to quickly compute overall ratings from stats, weights, and performance metrics. Fast, accurate, and easy to use.",
+      slug: "/ovr-calculator",
+      keywords: "ovr calculator, overall rating calculator, fc mobile ovr calculator, ovr calculator fifa mobile, ovr calculator ea fc, how to calculate ovr in fifa, team ovr calculator in fc mobile, ovr calculator renderz, ovr calculator online, ovr calculator fc 26"
+    }
   }
 };

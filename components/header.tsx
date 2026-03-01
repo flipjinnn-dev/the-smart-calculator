@@ -55,7 +55,8 @@ const ENGLISH_ONLY_PATHS = [
   '/therapy-productivity-calculator',
   '/financial/bank-statement-converter',
   '/end-of-service-calculator',
-  '/games/animal-wheel-spinner'
+  '/games/animal-wheel-spinner',
+  '/ovr-calculator'
 ]
 
 const LANGUAGES = [
