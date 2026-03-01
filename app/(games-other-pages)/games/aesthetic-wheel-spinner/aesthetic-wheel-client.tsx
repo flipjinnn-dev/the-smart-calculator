@@ -577,6 +577,33 @@ export default function AestheticWheelClient() {
                     </div>
                   </div>
 
+                  <div className="mt-12 mb-8">
+                    <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-6 text-white text-center shadow-xl">
+                      <h3 className="text-2xl font-bold mb-3">🔗 Related Wheel Games</h3>
+                      <p className="mb-4 opacity-90">Explore more exciting wheel spinner games!</p>
+                      <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                        <Link 
+                          href="/games/anime-character-wheel"
+                          className="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-lg px-4 py-3 transition-all transform hover:scale-105 font-semibold"
+                        >
+                          Anime Character Wheel
+                        </Link>
+                        <Link 
+                          href="/games/age-generator-wheel"
+                          className="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-lg px-4 py-3 transition-all transform hover:scale-105 font-semibold"
+                        >
+                          Age Generator
+                        </Link>
+                        <Link 
+                          href="/games/animal-wheel-spinner"
+                          className="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-lg px-4 py-3 transition-all transform hover:scale-105 font-semibold"
+                        >
+                          Animal Wheel
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="mt-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-8 text-white text-center">
                     <h3 className="text-2xl font-bold mb-4">
                       Ready to Discover Your Aesthetic?

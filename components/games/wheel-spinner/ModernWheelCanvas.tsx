@@ -78,7 +78,6 @@ export const ModernWheelCanvas = ({
       ctx.rotate(textAngle + Math.PI / 2);
 
       ctx.fillStyle = slice.textColor;
-      ctx.font = `${slice.fontStyle} ${slice.fontWeight} ${slice.fontSize}px ${slice.fontFamily}`;
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
 
@@ -87,8 +86,35 @@ export const ModernWheelCanvas = ({
       ctx.shadowOffsetX = 1;
       ctx.shadowOffsetY = 1;
 
-      const textRadius = radius * 0.65;
-      ctx.fillText(slice.label, 0, -textRadius);
+      const text = slice.label;
+      const characters = text.split('');
+      
+      const maxAvailableHeight = radius * 0.85;
+      const textStartRadius = radius * 0.75;
+      const textEndRadius = radius * 0.15;
+      const availableTextHeight = textStartRadius - textEndRadius;
+      
+      let fontSize = slice.fontSize;
+      let lineHeight = fontSize * 1.2;
+      let totalHeight = characters.length * lineHeight;
+      
+      if (totalHeight > availableTextHeight) {
+        lineHeight = availableTextHeight / characters.length;
+        fontSize = lineHeight / 1.2;
+      }
+      
+      fontSize = Math.max(8, Math.min(fontSize, slice.fontSize));
+      lineHeight = fontSize * 1.2;
+      totalHeight = characters.length * lineHeight;
+      
+      ctx.font = `${slice.fontStyle} ${slice.fontWeight} ${fontSize}px ${slice.fontFamily}`;
+      
+      const centerRadius = (textStartRadius + textEndRadius) / 2;
+      const startY = -centerRadius - (totalHeight / 2) + (lineHeight / 2);
+      
+      characters.forEach((char, i) => {
+        ctx.fillText(char, 0, startY + (i * lineHeight));
+      });
 
       ctx.restore();
     });

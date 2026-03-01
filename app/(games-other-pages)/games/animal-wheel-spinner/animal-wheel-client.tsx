@@ -757,6 +757,33 @@ export default function AnimalWheelClient() {
                     </div>
                   </div>
 
+                  <div className="mt-12 mb-8">
+                    <div className="bg-gradient-to-r from-green-500 to-blue-500 rounded-2xl p-6 text-white text-center shadow-xl">
+                      <h3 className="text-2xl font-bold mb-3">🔗 Related Wheel Games</h3>
+                      <p className="mb-4 opacity-90">Explore more exciting wheel spinner games!</p>
+                      <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                        <Link 
+                          href="/games/anime-character-wheel"
+                          className="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-lg px-4 py-3 transition-all transform hover:scale-105 font-semibold"
+                        >
+                          Anime Character Wheel
+                        </Link>
+                        <Link 
+                          href="/games/aesthetic-wheel-spinner"
+                          className="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-lg px-4 py-3 transition-all transform hover:scale-105 font-semibold"
+                        >
+                          Aesthetic Wheel
+                        </Link>
+                        <Link 
+                          href="/games/age-generator-wheel"
+                          className="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-lg px-4 py-3 transition-all transform hover:scale-105 font-semibold"
+                        >
+                          Age Generator
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-2xl p-8 mt-12">
                     <h3 className="text-2xl font-bold mb-4">
                       Conclusion

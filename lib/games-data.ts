@@ -77,6 +77,12 @@ export const games: Game[] = [
     description: "Generate random ages with a spinning wheel",
     href: "/games/age-generator-wheel",
   },
+  {
+    id:"anime-character-wheel",
+    name:"Anime Character Wheel",
+    description:"Spin the wheel to pick random anime characters",
+    href:"/games/anime-character-wheel",
+  }
 ]
 
 export function getAllGames(): Game[] {

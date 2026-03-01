@@ -648,6 +648,33 @@ export default function AgeGeneratorWheelClient() {
                     </p>
                   </div>
 
+                  <div className="mt-12 mb-8">
+                    <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl p-6 text-white text-center shadow-xl">
+                      <h3 className="text-2xl font-bold mb-3">🔗 Related Wheel Games</h3>
+                      <p className="mb-4 opacity-90">Explore more exciting wheel spinner games!</p>
+                      <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                        <Link 
+                          href="/games/anime-character-wheel"
+                          className="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-lg px-4 py-3 transition-all transform hover:scale-105 font-semibold"
+                        >
+                          Anime Character Wheel
+                        </Link>
+                        <Link 
+                          href="/games/aesthetic-wheel-spinner"
+                          className="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-lg px-4 py-3 transition-all transform hover:scale-105 font-semibold"
+                        >
+                          Aesthetic Wheel
+                        </Link>
+                        <Link 
+                          href="/games/animal-wheel-spinner"
+                          className="bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-lg px-4 py-3 transition-all transform hover:scale-105 font-semibold"
+                        >
+                          Animal Wheel
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="mt-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl p-8 text-white text-center">
                     <h3 className="text-2xl font-bold mb-4">
                       Ready to Generate Random Ages?
@@ -655,18 +682,12 @@ export default function AgeGeneratorWheelClient() {
                     <p className="text-lg mb-6 opacity-90">
                       Spin the wheel above and discover your random age instantly!
                     </p>
-                    <div className="flex flex-wrap justify-center gap-4">
+                    <div className="flex justify-center">
                       <Link 
                         href="/games"
                         className="px-8 py-4 bg-white text-blue-600 rounded-full font-semibold hover:bg-gray-100 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
                       >
                         Explore More Games
-                      </Link>
-                      <Link 
-                        href="/games/aesthetic-wheel-spinner"
-                        className="px-8 py-4 bg-white/20 backdrop-blur text-white border-2 border-white rounded-full font-semibold hover:bg-white/30 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
-                      >
-                        Try Aesthetic Wheel
                       </Link>
                     </div>
                   </div>
