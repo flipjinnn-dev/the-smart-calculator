@@ -1,122 +1,104 @@
 {
-  "color": "niebieski",
+  "color": "blue",
   "sections": [
     {
-      "heading": "Kalkulator węglowodanów – znajdź swoje dzienne zapotrzebowanie na węglowodany",
-      "content": "Nasz kalkulator węglowodanów pomaga szybko określić zalecane dzienne spożycie węglowodanów na podstawie wieku, masy ciała, wzrostu, płci, poziomu aktywności i celów fitness. Niezależnie od tego, czy Twoim celem jest utrata masy ciała, przyrost masy mięśniowej, wyniki sportowe czy zrównoważony stan zdrowia, ten codzienny kalkulator węglowodanów dostępny online wykorzystuje naukowo potwierdzone metody (takie jak wzór Mifflin-St Jeor BMR), aby oszacować Twoje zapotrzebowanie na energię i obliczyć, ile węglowodanów powinieneś spożywać dziennie."
+      "heading": "Kalkulator węglowodanów – Kompletny przewodnik 2026",
+      "content": "Kalkulator węglowodanów to narzędzie umożliwiające precyzyjne monitorowanie spożycia węglowodanów, białek i tłuszczy w codziennej diecie. Dzięki niemu możesz obliczyć ile węglowodanów dziennie kalkulator zaleca w Twoim przypadku, dostosować ilość węglowodanów do masy ciała (ile węglowodanów na kg masy kalkulator), a także planować diety ketogeniczne, low carb i dla cukrzyków. Narzędzie pomaga także w analizie karmy dla zwierząt, co jest istotne dla właścicieli psów i kotów. W artykule przedstawiamy szczegółowe informacje, jak korzystać z kalkulatora węglowodanów, jakie funkcje oferuje i jakie są najlepsze praktyki."
     },
     {
-      "heading": "Jak działa kalkulator węglowodanów",
-      "subSections": [
-        {
-          "heading": "Podstawowa przemiana materii (BMR)",
-          "content": "Obliczono przy użyciu równania Mifflina-St Jeora."
-        },
-        {
-          "heading": "Poziom aktywności",
-          "content": "Prowadzący siedzący tryb życia, lekko aktywny, średnio aktywny, bardzo aktywny lub uprawiający sport."
-        },
-        {
-          "heading": "Cele fitness",
-          "content": "Utrata masy ciała, utrzymanie lub przyrost masy mięśniowej."
-        },
-        {
-          "heading": "Dystrybucja węglowodanów",
-          "content": "Zazwyczaj 45–65% dziennej dawki kalorii powinno pochodzić z węglowodanów."
-        },
-        {
-          "heading": "Gramów na masę ciała",
-          "content": "3–12 g/kg masy ciała w zależności od aktywności fizycznej i wymagań treningowych."
-        }
+      "heading": "Co to jest kalkulator węglowodanów?",
+      "content": "Kalkulator węglowodanów to narzędzie, które pomaga obliczyć ilość węglowodanów w posiłkach, całodziennej diecie lub w określonym produkcie spożywczym. Dzięki niemu możesz w prosty sposób śledzić spożycie makroskładników i planować dietę zgodną z Twoimi celami zdrowotnymi lub sportowymi.\n\nNajczęściej dostępne kalkulatory pozwalają również obliczyć białko i tłuszcze, co daje pełen obraz wartości odżywczych:",
+      "list": [
+        "Kalkulator białka węglowodanów tłuszczy – pozwala obliczyć proporcje makroskładników w diecie.",
+        "Kalkulator kalorii bialka weglowodanow tluszczy – idealny dla osób liczących kalorie i dbających o proporcje.",
+        "Kalkulator wartości odżywczych – daje szczegółowe informacje o witaminach, minerałach i błonniku."
       ]
     },
     {
-      "heading": "Dlaczego warto korzystać z kalkulatora węglowodanów?",
-      "subSections": [
-        {
-          "heading": "Utrata wagi",
-          "content": "Pomaga zredukować nadmiar węglowodanów i kontrolować poziom cukru we krwi."
-        },
-        {
-          "heading": "Przyrost mięśni",
-          "content": "Zapewnia wystarczające zapasy glikogenu dla siły i hipertrofii."
-        },
-        {
-          "heading": "Wydajność sportowa",
-          "content": "Sportowcy wytrzymałościowi potrzebują większego spożycia węglowodanów (6–10 g/kg)."
-        },
-        {
-          "heading": "Cukrzyca i zarządzanie zdrowiem",
-          "content": "Zapewnia bezpieczne zakresy umożliwiające utrzymanie stabilnego poziomu glukozy."
-        },
-        {
-          "heading": "Zbilansowane odżywianie",
-          "content": "Zapewnia odpowiednie proporcje makroskładników odżywczych oraz białka i tłuszczu."
-        }
-      ]
+      "heading": "Jak działa kalkulator węglowodanów?",
+      "content": "Kalkulatory węglowodanów wykorzystują dane dotyczące produktu spożywczego lub posiłku i przeliczają zawartość makroskładników. Najczęściej wymagają informacji takich jak:",
+      "list": [
+        "Waga posiłku w gramach",
+        "Typ produktu (warzywa, owoce, mięso, nabiał, zboża)",
+        "Cel diety (odchudzanie, utrzymanie masy, zwiększenie masy mięśniowej)"
+      ],
+      "additionalContent": "Niektóre kalkulatory oferują funkcje bardziej zaawansowane, jak:\n• Kalkulator węglowodanów keto / kalkulator ketogeniczny – do planowania diety niskowęglowodanowej.\n• Kalkulator ketozy / kalkulator keto – sprawdza, czy dieta prowadzi do stanu ketozy.\n• Kalkulator low carb – oblicza węglowodany w dietach redukcyjnych.\n• Zapotrzebowanie węglowodanów kalkulator – określa ilość węglowodanów potrzebną na dzień w zależności od aktywności i wagi."
     },
     {
-      "heading": "Wytyczne dotyczące zalecanego spożycia węglowodanów",
-      "content": "Dorośli prowadzący siedzący tryb życia: ~3–4 g/kg masy ciała (45–50% kalorii)\nOsoby średnio aktywne: ~5–7 g/kg masy ciała (50–55% kalorii)\nSportowcy wytrzymałościowi / duża objętość treningu: ~6–10 g/kg masy ciała (55–65% kalorii)\nElitarni sportowcy / trening ekstremalny: ~8–12 g/kg masy ciała\nPlany odchudzania: 2–4 g/kg masy ciała (niższa zawartość węglowodanów, wyższa zawartość białka)\nPrzyrost mięśni: 4–7 g/kg masy ciała, aby zmaksymalizować zapasy glikogenu i regenerację"
+      "heading": "Kalkulator węglowodanów w diecie cukrzycowej",
+      "content": "Dla osób z cukrzycą kluczowe jest precyzyjne liczenie węglowodanów. Kalkulator węglowodanów dla cukrzyków pozwala:",
+      "list": [
+        "Obliczyć ilość węglowodanów netto (kalkulator węglowodanów netto)",
+        "Kontrolować poziom glukozy po posiłkach",
+        "Dostosować insulinę do spożytej ilości węglowodanów (kalkulator węglowodanów cukrzycą)"
+      ],
+      "additionalContent": "Dzięki temu można uniknąć nagłych skoków cukru we krwi i lepiej zarządzać chorobą."
     },
     {
-      "heading": "Powiązane narzędzia dotyczące zrównoważonego odżywiania",
-      "subSections": [
-        {
-          "heading": "Kalkulator spożycia białka",
-          "content": "Oszacuj dzienne zapotrzebowanie na białko potrzebne do regeneracji i wzrostu mięśni."
-        },
-        {
-          "heading": "Kalkulator spożycia tłuszczu",
-          "content": "Określ optymalne dzienne zapotrzebowanie na tłuszcze w celu zapewnienia zdrowia energetycznego i hormonalnego."
-        },
-        {
-          "heading": "Kalkulator zdrowej wagi",
-          "content": "Sprawdź swój idealny, zdrowy zakres wagi, korzystając ze wskazówek dotyczących BMI."
-        }
-      ]
+      "heading": "Ile węglowodanów dziennie i na kg masy ciała?",
+      "content": "Określenie optymalnej ilości węglowodanów jest kluczowe dla zdrowia i osiągania celów dietetycznych.",
+      "list": [
+        "Ile węglowodanów dziennie kalkulator – pozwala obliczyć dzienną dawkę węglowodanów w zależności od wieku, płci, wagi i aktywności fizycznej.",
+        "Ile węglowodanów na kg masy kalkulator – przydatne dla sportowców i osób na diecie ketogenicznej lub low carb."
+      ],
+      "additionalContent": "Przykładowo, osoba o masie 70 kg i umiarkowanej aktywności fizycznej może potrzebować 3–5 g węglowodanów na kg masy ciała dziennie, w zależności od celu (redukcja, utrzymanie masy lub budowa mięśni)."
+    },
+    {
+      "heading": "Kalkulator węglowodanów w karmie dla zwierząt",
+      "content": "Nie tylko ludzie potrzebują precyzyjnych danych o węglowodanach. Równie ważne jest żywienie psów i kotów:",
+      "list": [
+        "Kalkulator węglowodanów w karmie – umożliwia sprawdzenie zawartości węglowodanów w karmie gotowej i domowej.",
+        "Kalkulator węglowodanów w karmie dla psa / kalkulator węglowodanów w karmie dla kota – pomaga utrzymać zdrową dietę zwierzęcia, kontrolując wagę i poziom energii."
+      ],
+      "additionalContent": "Dla właścicieli zwierząt to istotne narzędzie w profilaktyce otyłości i chorób metabolicznych u pupili."
+    },
+    {
+      "heading": "Najlepsze aplikacje i narzędzia online",
+      "content": "Coraz więcej osób korzysta z kalkulator węglowodanów aplikacja, które oferują dodatkowe funkcje, jak:",
+      "list": [
+        "Skany kodów kreskowych produktów",
+        "Integrację z zegarkami sportowymi i aplikacjami fitness",
+        "Śledzenie postępów dietetycznych",
+        "Personalizowane rekomendacje węglowodanów, białek i tłuszczy"
+      ],
+      "additionalContent": "Popularne funkcje obejmują również obliczanie kalkulator węglowodanów keto, kalkulator ketozy oraz kalkulator low carb, co pozwala planować diety o niskim indeksie glikemicznym i ketogeniczne."
+    },
+    {
+      "heading": "Doświadczenie użytkowników",
+      "content": "Osoby korzystające z kalkulatorów dzielą się następującymi spostrzeżeniami:",
+      "list": [
+        "Lepsza kontrola wagi – dzięki precyzyjnemu obliczaniu makroskładników.",
+        "Świadome posiłki – łatwiej unikać nadmiaru węglowodanów i cukrów prostych.",
+        "Wsparcie w chorobach metabolicznych – osoby z cukrzycą zauważają stabilizację poziomu glukozy.",
+        "Motywacja do zdrowego stylu życia – aplikacje często oferują wizualizacje postępów i raporty tygodniowe."
+      ],
+      "additionalContent": "Doświadczenie pokazuje, że najlepsze efekty osiąga się, gdy kalkulator jest używany codziennie i w połączeniu z planem diety dostosowanym do indywidualnych potrzeb."
+    },
+    {
+      "heading": "Podsumowanie",
+      "content": "Kalkulator węglowodanów to nieocenione narzędzie w planowaniu diety, kontroli masy ciała, leczeniu cukrzycy oraz żywieniu zwierząt. Pozwala precyzyjnie obliczyć dzienne zapotrzebowanie, analizować makroskładniki i tworzyć zbilansowane posiłki. Dzięki nowoczesnym aplikacjom i kalkulatorom online monitorowanie węglowodanów stało się łatwe, wygodne i dostosowane do indywidualnych potrzeb."
     }
   ],
   "faq": [
     {
-      "q": "Co to jest kalkulator węglowodanów?",
-      "a": "Kalkulator węglowodanów to narzędzie, które szacuje dzienne zapotrzebowanie na węglowodany na podstawie masy ciała, poziomu aktywności i celów."
+      "q": "Czy kalkulator węglowodanów jest darmowy?",
+      "a": "Tak, wiele kalkulatorów online i aplikacji mobilnych oferuje bezpłatny dostęp do podstawowych funkcji, choć niektóre premium wersje oferują dodatkowe analizy."
     },
     {
-      "q": "Ile węglowodanów powinienem jeść dziennie?",
-      "a": "Większość dorosłych potrzebuje 45–65% kalorii z węglowodanów lub 3–7 g/kg masy ciała, w zależności od aktywności."
+      "q": "Czy mogę używać kalkulatora do diety ketogenicznej?",
+      "a": "Tak, istnieją specjalne kalkulatory keto, kalkulator ketogeniczny i kalkulator ketozy, które uwzględniają niską ilość węglowodanów i wysoką zawartość tłuszczu."
     },
     {
-      "q": "Czy ten kalkulator jest dobry do odchudzania?",
-      "a": "Tak. Może zalecić zakres niższych węglowodanów, aby pomóc zmniejszyć kalorie przy jednoczesnym zachowaniu energii."
+      "q": "Jak dokładny jest kalkulator węglowodanów dla cukrzyków?",
+      "a": "Dokładność zależy od źródła danych i precyzji wprowadzanych informacji. Najlepiej korzystać z kalkulatorów zatwierdzonych medycznie i konsultować wyniki z dietetykiem."
     },
     {
-      "q": "Ile węglowodanów dziennie potrzebują sportowcy?",
-      "a": "Sportowcy wytrzymałościowi mogą potrzebować 6–10 g/kg masy ciała, podczas gdy sportowcy wyczynowi mogą potrzebować do 12 g/kg."
+      "q": "Czy mogę obliczyć węglowodany w karmie dla zwierząt?",
+      "a": "Tak, kalkulator węglowodanów w karmie dla psa i kota pozwala sprawdzić skład karmy i dostosować dietę do potrzeb zwierzęcia."
     },
     {
-      "q": "Czy diabetycy mogą korzystać z tego kalkulatora węglowodanów?",
-      "a": "Tak, ale wyniki należy omówić z lekarzem lub dietetykiem w celu bezpiecznego kontrolowania poziomu cukru we krwi."
-    },
-    {
-      "q": "Czy w kalkulatorze zastosowano wzór Mifflina-St Jeora?",
-      "a": "Tak. Najpierw oblicza BMR za pomocą Mifflin-St Jeor, a następnie stosuje współczynniki aktywności i węglowodanów."
-    },
-    {
-      "q": "Jakie jest spożycie węglowodanów na kilogram masy ciała?",
-      "a": "Zapotrzebowanie na węglowodany wynosi zazwyczaj 3–12 g/kg dziennie, dostosowane do intensywności treningu i celów."
-    },
-    {
-      "q": "Czy to narzędzie może obliczyć węglowodany dla diety ketonowej lub niskowęglowodanowej?",
-      "a": "Tak. Możesz wybrać niższą zawartość węglowodanów (5–20% kalorii) w przypadku planów ketogenicznych lub niskowęglowodanowych."
-    },
-    {
-      "q": "Czym ten kalkulator różni się od ogólnego kalkulatora kalorii?",
-      "a": "Jest specyficzny dla makroskładników i skupia się wyłącznie na zapotrzebowaniu na węglowodany, w przeciwieństwie do ogólnych kalkulatorów kalorii."
-    },
-    {
-      "q": "Jakich innych kalkulatorów powinienem użyć w tym przypadku?",
-      "a": "Aby uzyskać kompletny plan żywieniowy, skorzystaj z naszego kalkulatora białka, kalkulatora tłuszczu i kalkulatora zdrowej wagi."
+      "q": "Czy kalkulator liczy węglowodany netto?",
+      "a": "Tak, kalkulator węglowodanów netto odejmuje błonnik od całkowitych węglowodanów, co jest szczególnie przydatne w dietach low carb i ketogenicznych."
     }
   ]
 }

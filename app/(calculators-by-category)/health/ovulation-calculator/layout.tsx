@@ -21,8 +21,8 @@ const ovulationcalculatorMeta = {
     keywords: "kalkulator owulacji, okno płodne, estymacja data, online owulacja, planowanie rodziny, tracking cyklu, darmowe narzędzie owulacja, obliczenia okna"
   },
   de: {
-    title: "Eisprungrechner – Fruchtbare Tage Berechnen | TheSmartCalculator",
-    description: "Berechne mit dem Eisprungrechner deine fruchtbaren Tage. Ideal zur Familienplanung – schnell, zuverlässig und kostenlos online!",
+    title: "Eisprungrechner: Alles, was Sie über fruchtbare Tage und Zyklusberechnung wissen müssen",
+    description: "Ein Eisprungrechner ist ein hilfreiches Online-Tool, das den Zeitpunkt des Eisprungs berechnet und damit die fruchtbaren Tage einer Frau identifiziert.",
     keywords: "eisprungrechner, fruchtbare tage, datum schätzung, online eisprung, familienplanung, zyklus tracking, kostenloser ovulations tool, fenster berechnung"
   }
 ,
@@ -92,53 +92,89 @@ export default async function OvulationCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const jsonLdSchema = {
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language = langHeader || 'en';
+
+  // Only add schema for German version
+  const jsonLdSchema = language === 'de' ? {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Ovulation Calculator - The Smart Calculator",
-    "url": "https://www.thesmartcalculator.com/health/ovulation-calculator",
-    "description": "Calculate your ovulation dates and fertile window with The Smart Calculator Ovulation Calculator. Enter your last period date and cycle length to estimate the best days for conception.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "The Smart Calculator",
-      "url": "https://www.thesmartcalculator.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.thesmartcalculator.com/logo.png",
-        "width": 250,
-        "height": 60
-      }
-    },
-    "mainEntity": {
-      "@type": "MedicalWebPage",
-      "about": {
-        "@type": "MedicalCondition",
-        "name": "Ovulation",
-        "description": "Ovulation is the process in which an ovary releases an egg for fertilization. This calculator helps predict ovulation dates and fertile days."
-      },
-      "hasPart": {
+    "@graph": [
+      {
         "@type": "WebApplication",
-        "name": "Ovulation Calculator Tool",
-        "applicationCategory": "Health & Fitness",
+        "name": "Eisprungrechner",
+        "description": "Ein Eisprungrechner ist ein hilfreiches Online-Tool, das den Zeitpunkt des Eisprungs berechnet und damit die fruchtbaren Tage einer Frau identifiziert.",
+        "applicationCategory": "HealthApplication",
         "operatingSystem": "All",
-        "url": "https://www.thesmartcalculator.com/health/ovulation-calculator",
-        "softwareVersion": "1.0",
-        "description": "A free online tool to calculate ovulation dates and fertile window based on last menstrual period and cycle length."
+        "softwareVersion": "5.2.1",
+        "url": "https://www.thesmartcalculator.com/de/gesundheit/eisprungrechner",
+        "image": "https://cdn.sanity.io/images/f0wclefz/production/c206eff7e579f5a144deeb1478a03085d91ed96c-832x914.png",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "4300",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Simon Stephen"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Wie kann ich meine fruchtbaren Tage berechnen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mit einem fruchtbare Tage Rechner, der den Zyklus analysiert, lassen sich die fruchtbaren Tage berechnen. Online-Rechner oder Apps sind dabei die einfachsten Tools."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ist ein Eisprungrechner zuverlässig?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Die Genauigkeit hängt von der Regelmäßigkeit Ihres Zyklus ab. Mit zusätzlichen Tests wie Ovulationstests oder Temperaturmessungen wird der Eisprung genauer vorhergesagt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kann man Eisprungrechner für Verhütung nutzen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, Eisprungrechner Verhütung kann helfen, fruchtbare und unfruchtbare Tage zu erkennen, sollte aber bei unregelmäßigen Zyklen nicht als alleiniges Verhütungsmittel verwendet werden"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Funktioniert ein Eisprungrechner bei unregelmäßigen Zyklen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, viele Eisprungrechner unregelmäßiger Zyklus verwenden Algorithmen, die Durchschnittswerte über mehrere Zyklen berechnen, um die fruchtbaren Tage zu schätzen"
+            }
+          }
+        ]
       }
-    },
-    "potentialAction": {
-      "@type": "InteractAction",
-      "name": "Calculate Ovulation Dates",
-      "target": "https://www.thesmartcalculator.com/health/ovulation-calculator"
-    }
-  }
+    ]
+  } : null;
+
   return <>
     {children}
-    <Script
-      id="ovulation-calculator-jsonld"
-      type="application/ld+json"
-      strategy="afterInteractive"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
-    />
+    {jsonLdSchema && (
+      <Script
+        id="ovulation-calculator-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      />
+    )}
   </>;
 }

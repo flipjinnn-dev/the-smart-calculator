@@ -39,6 +39,7 @@ const [result, setResult] = useState<any>(null);
   const [saturatedFat, setSaturatedFat] = useState("");
   const [sugar, setSugar] = useState("");
   const [protein, setProtein] = useState("");
+  const [weightUnit, setWeightUnit] = useState("g"); // g or oz
   const resultsRef = useRef<HTMLDivElement>(null);
   const scrollToRef = useMobileScroll();
   const validateInputs = () => {
@@ -64,9 +65,12 @@ const [result, setResult] = useState<any>(null);
     if (!validateInputs()) return;
     scrollToRef(resultsRef as React.RefObject<HTMLElement>);
     const caloriesValue = Number.parseFloat(calories);
-    const saturatedFatValue = Number.parseFloat(saturatedFat);
-    const sugarValue = Number.parseFloat(sugar);
-    const proteinValue = Number.parseFloat(protein);
+    
+    // Convert to grams if in ounces
+    const conversionFactor = weightUnit === "oz" ? 28.3495 : 1;
+    const saturatedFatValue = Number.parseFloat(saturatedFat) * conversionFactor;
+    const sugarValue = Number.parseFloat(sugar) * conversionFactor;
+    const proteinValue = Number.parseFloat(protein) * conversionFactor;
 
     // Weight Watchers SmartPoints Formula (2015-2021)
     const rawPoints = 0.0305 * caloriesValue + 0.275 * saturatedFatValue + 0.12 * sugarValue - 0.098 * proteinValue;
@@ -131,11 +135,40 @@ const [result, setResult] = useState<any>(null);
                   <CardHeader className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
                       <Activity className="w-6 h-6 text-purple-600" />
-                      <span>{contentData.smartpoints_calculation_0}</span>
+                      <span>{contentData?.smartpoints_calculation_0 || "SmartPoints Calculation"}</span>
                     </CardTitle>
-                    <CardDescription className="text-base">{contentData.enter_nutritional_information_to_calculate_weight__1}</CardDescription>
+                    <CardDescription className="text-base">{contentData?.enter_nutritional_information_to_calculate_weight__1 || "Enter nutritional information to calculate Weight Watchers SmartPoints"}</CardDescription>
                   </CardHeader>
                   <CardContent className="p-8">
+                    {/* Unit Selector */}
+                    <div className="mb-6 p-4 bg-gradient-to-r from-purple-100 to-indigo-100 rounded-xl border border-purple-300">
+                      <Label className="text-sm font-semibold text-purple-800 mb-3 block">Weight Unit for Nutrition Values</Label>
+                      <div className="flex gap-4">
+                        <button
+                          type="button"
+                          onClick={() => setWeightUnit("g")}
+                          className={`flex-1 px-4 py-3 rounded-lg font-medium transition-all ${
+                            weightUnit === "g"
+                              ? "bg-gradient-to-r from-purple-600 to-indigo-700 text-white shadow-lg"
+                              : "bg-white text-gray-700 hover:bg-purple-50 border border-purple-200"
+                          }`}
+                        >
+                          Grams (g)
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setWeightUnit("oz")}
+                          className={`flex-1 px-4 py-3 rounded-lg font-medium transition-all ${
+                            weightUnit === "oz"
+                              ? "bg-gradient-to-r from-purple-600 to-indigo-700 text-white shadow-lg"
+                              : "bg-white text-gray-700 hover:bg-purple-50 border border-purple-200"
+                          }`}
+                        >
+                          Ounces (oz)
+                        </button>
+                      </div>
+                    </div>
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                       {/* Calories */}
                       <div>
@@ -159,7 +192,7 @@ const [result, setResult] = useState<any>(null);
 
                       {/* Saturated Fat */}
                       <div>
-                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">{contentData.saturated_fat_grams_4}<div className="group relative ml-2">
+                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">Saturated Fat ({weightUnit})<div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help group-hover:text-gray-600" />
                             <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none">{contentData.saturated_fat_content_in_grams_5}</div>
                           </div>
@@ -179,7 +212,7 @@ const [result, setResult] = useState<any>(null);
 
                       {/* Sugar */}
                       <div>
-                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">{contentData.sugar_grams_6}<div className="group relative ml-2">
+                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">Sugar ({weightUnit})<div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help group-hover:text-gray-600" />
                             <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none">{contentData.total_sugar_content_in_grams_7}</div>
                           </div>
@@ -199,7 +232,7 @@ const [result, setResult] = useState<any>(null);
 
                       {/* Protein */}
                       <div>
-                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">{contentData.protein_grams_8}<div className="group relative ml-2">
+                        <Label className="text-sm font-medium text-gray-700 mb-3 flex items-center">Protein ({weightUnit})<div className="group relative ml-2">
                             <HelpCircle className="h-4 w-4 text-gray-400 cursor-help group-hover:text-gray-600" />
                             <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none">{contentData.protein_content_in_grams_reduces_points_9}</div>
                           </div>

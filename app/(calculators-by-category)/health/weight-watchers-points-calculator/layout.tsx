@@ -21,8 +21,8 @@ const weightwatcherspointscalculatorMeta = {
     keywords: "kalkulator punktów weight watchers, obliczenia punktów, pozycje żywności, online punkty, tracking diety, darmowe narzędzie punkty, punkty odżywianie, weight watchers"
   },
   de: {
-    title: "Weight Watchers Punkte Rechner – Punkte berechnen",
-    description: "Berechne mit dem Weight Watchers Punkte Rechner deine täglichen Punkte. Ideal zum Abnehmen – schnell, genau und kostenlos online!",
+    title: "Weight Watchers Punkte Rechner – WW Punkte berechnen",
+    description: "Berechne deine WW Punkte kostenlos für Lebensmittel & Rezepte",
     keywords: "weight watchers punkte rechner, punkte berechnung, lebensmittel items, online punkte, diät tracking, kostenloser punkte tool, ernährung punkte, weight watchers"
   }
 ,
@@ -93,72 +93,128 @@ export default async function WeightWatchersPointsCalculatorLayout({
   children: React.ReactNode;
 }) {
   const jsonLdSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "url": "https://www.thesmartcalculator.com/health/weight-watchers-points-calculator",
-    "name": "Weight Watchers SmartPoints Calculator (2015–2021 Formula)",
-    "description": "Free online Weight Watchers SmartPoints Calculator. Enter calories, saturated fat, sugar, and protein to calculate SmartPoints (2015–2021 formula).",
-    "mainEntity": {
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
       "@type": "SoftwareApplication",
+      "@id": "https://www.thesmartcalculator.com/health/weight-watchers-points-calculator",
       "name": "Weight Watchers Points Calculator",
-      "applicationCategory": "HealthApplication",
-      "operatingSystem": "Any",
       "url": "https://www.thesmartcalculator.com/health/weight-watchers-points-calculator",
-      "description": "Calculate SmartPoints using the official 2015–2021 Weight Watchers formula. Helps track calories, saturated fat, sugar, and protein for healthy weight management.",
-      "featureList": [
-        "Weight Watchers SmartPoints formula",
-        "Calculates points from calories, saturated fat, sugar, protein",
-        "Rounds to nearest whole number",
-        "Minimum points = 0",
-        "Works with 2015–2021 WW SmartPoints system"
-      ],
-      "applicationSubCategory": "Diet & Nutrition Calculator",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "All",
       "creator": {
-        "@type": "Organization",
-        "name": "Smart Calculator",
-        "url": "https://www.thesmartcalculator.com"
-      }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.thesmartcalculator.com/health/weight-watchers-points-calculator"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Smart Calculator",
-      "url": "https://www.thesmartcalculator.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.thesmartcalculator.com/logo.png"
-      }
-    },
-    "faq": [
-      {
-        "@type": "Question",
-        "name": "How do I calculate Weight Watchers SmartPoints?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Enter calories, saturated fat, sugar, and protein. The calculator applies the 2015–2021 SmartPoints formula: (0.0305 × Calories) + (0.275 × Saturated Fat) + (0.12 × Sugar) − (0.098 × Protein), rounded to the nearest whole number."
-        }
+        "@type": "Person",
+        "name": "Simon Stephen",
+        "jobTitle": "Health & Fitness Expert"
       },
-      {
-        "@type": "Question",
-        "name": "Is this Weight Watchers Points Calculator up to date?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "This calculator is based on the 2015–2021 Weight Watchers SmartPoints system. Newer Weight Watchers programs (after 2021) may use different rules and algorithms."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the minimum Weight Watchers points a food can have?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The minimum possible SmartPoints value is 0. Even if the formula gives a negative number, the result will be floored to zero."
-        }
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "reviewCount": 1100,
+        "bestRating": 5,
+        "worstRating": 1
       }
-    ]
-  }
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Weight Watchers Points Calculator",
+          "item": "https://www.thesmartcalculator.com/health/weight-watchers-points-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Overweight Calculator",
+          "item": "https://www.thesmartcalculator.com/health/overweight-calculator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ideal Weight Calculator",
+          "item": "https://www.thesmartcalculator.com/health/ideal-weight-calculator"
+        }
+      ]
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+
+        {
+          "@type": "Question",
+          "name": "How many WW points am I allowed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your daily points allowance depends on your weight, age, gender, and activity level."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I figure out WW points?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enter calories, fat, sugar, and protein into the calculator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free weight watchers points calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, free online calculators are available without subscription."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I calculate weight watchers points without the app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use an online SmartPoints calculator formula."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I calculate exercise points?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can add activity points using an exercise calculator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I calculate WW points for a meal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Add all ingredients and sum total points."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many SmartPoints are in an egg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A boiled egg is typically 0 points."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What foods have zero WW points?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eggs, lean chicken, fish, and non-starchy vegetables."
+          }
+        }
+
+      ]
+    }
+
+  ]
+}
   return <>
     {children}
     <Script

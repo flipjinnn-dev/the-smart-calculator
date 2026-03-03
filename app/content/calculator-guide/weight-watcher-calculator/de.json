@@ -2,128 +2,100 @@
   "color": "lila",
   "sections": [
     {
-      "heading": "Berechnen Sie sofort Ihre Weight Watchers-Punkte",
-      "content": "Nutzen Sie unseren Weight Watchers-Punkterechner, um schnell und genau die SmartPoints für Ihre Mahlzeiten, Snacks und Rezepte zu ermitteln. Ganz gleich, ob Sie am WW-Programm zur Gewichtsreduktion teilnehmen oder Ihre tägliche Nahrungsaufnahme verfolgen, dieser WW-Punkterechner online bietet eine schnelle, zuverlässige und einfache Möglichkeit, Ihre Punkte ohne Rätselraten zu verwalten."
+      "heading": "Weight Watchers Punkte Rechner",
+      "content": "Mit diesem Weight Watchers Punkte Rechner kannst du WW Punkte kostenlos berechnen – für einzelne Lebensmittel, Getränke und komplette Rezepte. Gib einfach die Nährwerte ein und erhalte sofort eine verständliche Punkte-Schätzung. Der Rechner hilft dir dabei, bewusster zu essen und deine Mahlzeiten besser zu planen.\n\n**Hinweis:** Dieser Rechner bietet eine realistische Orientierung und ist kein offizielles Tool von Weight Watchers."
     },
     {
-      "heading": "Was sind Weight Watchers-Punkte?",
-      "content": "Weight Watchers (WW) weist jedem Lebensmittel und Getränk basierend auf seinem Nährstoffgehalt einen Punktewert, sogenannte SmartPoints, zu. Das System hilft Ihnen, gesündere Entscheidungen zu treffen, indem es:",
-      "subSections": [
-        {
-          "heading": "Fördert gesunde Entscheidungen",
-          "content": "Proteinreiche, zuckerarme Lebensmittel haben Vorrang."
-        },
-        {
-          "heading": "Begrenzt ungesunde Artikel",
-          "content": "Vermeiden Sie gesättigte Fettsäuren und kalorienreiche Lebensmittel."
-        },
-        {
-          "heading": "Flexible Budgets",
-          "content": "Tägliche und wöchentliche Punktebudgets ermöglichen Ausgewogenheit und Flexibilität."
-        },
-        {
-          "heading": "SmartPoints-Berechnungsfaktoren",
-          "content": "Kalorien pro Portion, Gehalt an gesättigten Fettsäuren, Zuckergehalt, Proteingehalt."
-        }
-      ]
+      "heading": "WW Punkte Rechner kostenlos nutzen – so funktioniert es",
+      "content": "Mit dem WW Punkterechner kostenlos berechnest du deine Punkte in wenigen Sekunden:",
+      "list": [
+        "Trage die Nährwerte des Lebensmittels ein (Kalorien, Fett, Zucker, Eiweiß, Ballaststoffe).",
+        "Passe die Portionsgröße an.",
+        "Klicke auf \"Berechnen\".",
+        "Du erhältst direkt deine Weight Watchers Punkteberechnung."
+      ],
+      "additionalContent": "So kannst du schnell vergleichen, welches Produkt besser in deinen Tagesplan passt. Viele Nutzer verwenden den Weight Watchers Rechner, um im Supermarkt oder beim Kochen schnelle Entscheidungen zu treffen."
     },
     {
-      "heading": "So verwenden Sie den WW-Punkterechner",
-      "subSections": [
-        {
-          "heading": "Schritt 1",
-          "content": "Geben Sie Ihre Lebensmittel ein (Name, Menge oder Nährwertangaben)."
-        },
-        {
-          "heading": "Schritt 2",
-          "content": "Fügen Sie Zutaten für Rezepte hinzu, um die gesamten SmartPoints zu berechnen."
-        },
-        {
-          "heading": "Schritt 3",
-          "content": "Klicken Sie auf „Berechnen“, um den WW-Punktewert zu erhalten."
-        },
-        {
-          "heading": "Schritt 4",
-          "content": "Verfolgen Sie Ihre Punkte mit dem WW Points Tracker Tool."
-        },
-        {
-          "heading": "Tipps",
-          "content": "Verwenden Sie genaue Portionen, prüfen Sie Zero Point Foods, vergleichen Sie SmartPoints mit PointsPlus."
-        }
-      ]
+      "heading": "WW Punkte berechnen für Lebensmittel",
+      "content": "Mit dem Rechner kannst du WW Punkte berechnen für Lebensmittel wie Brot, Joghurt, Käse, Fleisch, Snacks oder Getränke. Besonders praktisch ist der Vergleich ähnlicher Produkte:",
+      "list": [
+        "Naturjoghurt vs. Fruchtjoghurt",
+        "Vollkornbrot vs. Weißbrot",
+        "Hähnchenbrust vs. Wurst",
+        "Wasser vs. gesüßte Getränke"
+      ],
+      "additionalContent": "Du erkennst sofort, welches Lebensmittel weniger Punkte hat und dich trotzdem satt macht. Genau hier hilft der Punkte Rechner Weight Watchers, bessere Entscheidungen im Alltag zu treffen."
     },
     {
-      "heading": "WW-Punkterechner für Mahlzeiten und Rezepte",
-      "content": "Unser Weight Watchers-Rezept-Punkterechner hilft Ihnen dabei, Punkte zu ermitteln für:",
-      "subSections": [
-        {
-          "heading": "Mahlzeiten und Snacks",
-          "content": "Frühstück, Mittagessen, Abendessen, Snacks."
-        },
-        {
-          "heading": "Lebensmittelarten",
-          "content": "Hausgemachte, verpackte und spezielle Diätgerichte (kohlenhydratarm, proteinreich)."
-        },
-        {
-          "heading": "Beispiele",
-          "content": "1 gekochtes Ei = 0 Punkte, 1 Scheibe Vollkornbrot = 2 Punkte, 1 Portion gegrillte Hähnchenbrust = 0 Punkte."
-        }
-      ]
+      "heading": "Weight Watchers Rezepte Punkte berechnen",
+      "content": "Du kochst gerne selbst? Dann kannst du mit dem Weight Watchers Punkte Rechner auch WW Punkte für Rezepte berechnen:",
+      "list": [
+        "Trage jede Zutat einzeln in den Rechner ein.",
+        "Addiere die Punkte aller Zutaten.",
+        "Teile die Gesamtpunkte durch die Anzahl der Portionen."
+      ],
+      "additionalContent": "So weißt du genau, wie viele Punkte eine Portion deines Rezepts hat. Viele Nutzer optimieren ihre Lieblingsgerichte, indem sie Zutaten austauschen und so die WW Punkteberechnung verbessern."
     },
     {
-      "heading": "Vorteile der Verwendung eines WW-Punkterechners",
-      "subSections": [
-        {
-          "heading": "Genaue Verfolgung",
-          "content": "Kennen Sie die genauen Punkte in jedem Lebensmittel oder Rezept."
-        },
-        {
-          "heading": "Unterstützung beim Abnehmen",
-          "content": "Bleiben Sie innerhalb der täglichen SmartPoints für ein effektives Gewichtsmanagement."
-        },
-        {
-          "heading": "Essensplanung",
-          "content": "Berechnen Sie schnell Punkte für die Essenszubereitung."
-        },
-        {
-          "heading": "Bequemlichkeit",
-          "content": "Keine App erforderlich – nutzen Sie jederzeit unseren kostenlosen Online-WW-SmartPoints-Rechner."
-        }
-      ]
+      "heading": "Wie viele WW Punkte darf ich pro Tag essen?",
+      "content": "Die Frage \"Wie viele WW Punkte darf ich essen?\" stellen sich viele Nutzer. Die persönliche Tagesmenge hängt von mehreren Faktoren ab, zum Beispiel:",
+      "list": [
+        "Körpergröße",
+        "Gewicht",
+        "Aktivitätslevel",
+        "Abnehmziel"
+      ],
+      "additionalContent": "Dieser Weight Watchers Punkterechner hilft dir dabei, die Punkte von Lebensmitteln und Mahlzeiten zu berechnen. Die individuelle Tagesvorgabe unterscheidet sich von Person zu Person."
+    },
+    {
+      "heading": "WW Punkte Rechner altes System & SmartPoints",
+      "content": "Viele suchen nach Begriffen wie \"Weight Watchers Punkte Rechner altes System\" oder \"WW SmartPoints berechnen 2019\". Der Rechner eignet sich auch, um ältere Rezepte und bekannte Lebensmittel neu zu bewerten.\n\nDa sich die Systeme im Laufe der Zeit geändert haben, liefert der Rechner eine praxisnahe Orientierung, mit der du alte und neue Rezepte vergleichen kannst."
+    },
+    {
+      "heading": "WW Punkte in Kalorien umrechnen – geht das?",
+      "content": "Eine direkte Umrechnung von WW Punkten in Kalorien ist nicht möglich. Punkte berücksichtigen mehr als nur Kalorien. Zwei Lebensmittel mit gleicher Kalorienzahl können unterschiedliche Weight Watchers Punkte haben, weil Zucker, Fett und Eiweiß unterschiedlich bewertet werden. Nutze Punkte für die Planung und Kalorien nur als zusätzliche Orientierung."
+    },
+    {
+      "heading": "Warum viele Nutzer lieber einen WW Punkterechner nutzen",
+      "list": [
+        "Schnellere Entscheidungen im Alltag",
+        "Besserer Überblick über Snacks und Getränke",
+        "Einfaches Vergleichen von Lebensmitteln",
+        "Hilfreich beim Abnehmen mit dem Punkte-System",
+        "Kostenlos nutzbar ohne Anmeldung"
+      ],
+      "additionalContent": "Der Weight Watchers Punkterechner eignet sich für Einsteiger und Fortgeschrittene, die WW Punkte berechnen möchten, ohne komplizierte Tabellen zu verwenden."
     }
   ],
   "faq": [
     {
-      "q": "Wie berechne ich WW-Punkte für eine Mahlzeit?",
-      "a": "Geben Sie jede Zutat oder jedes Lebensmittel in den Rechner ein. Das Tool summiert die Punkte für den Gesamtwert der Mahlzeit."
+      "q": "Wie berechne ich meine WW Punkte?",
+      "a": "Du gibst die Nährwerte eines Lebensmittels in den Weight Watchers Punkte Rechner ein. Der Rechner zeigt dir direkt, wie viele WW Punkte das Lebensmittel hat."
     },
     {
-      "q": "Wie viele SmartPoints sind in einem Ei?",
-      "a": "Ein normal gekochtes Ei kostet 0 WW-Punkte."
+      "q": "Wie berechne ich WW Punkte für Lebensmittel?",
+      "a": "Mit dem WW Punkte Rechner kostenlos kannst du die Punkte für einzelne Lebensmittel berechnen, indem du Kalorien, Fett, Zucker, Eiweiß und Ballaststoffe eingibst."
     },
     {
-      "q": "Kann ich WW-Punkte auch ohne die App berechnen?",
-      "a": "Ja, nutzen Sie unseren WW-Punkterechner online direkt in Ihrem Browser."
+      "q": "Kann ich mit dem Rechner WW Punkte für Rezepte berechnen?",
+      "a": "Ja. Du kannst jede Zutat einzeln berechnen, die Punkte addieren und durch die Anzahl der Portionen teilen. So erhältst du die WW Punkte pro Portion für dein Rezept."
     },
     {
-      "q": "Wie viele WW-Punkte sollte ich pro Tag essen?",
-      "a": "Die Tagespunkte variieren je nach Alter, Geschlecht, Gewicht und Aktivität. Folgen Sie Ihrem WW-Planziel."
+      "q": "Wie viele WW Punkte darf ich pro Tag essen?",
+      "a": "Die tägliche Punktzahl ist individuell und hängt von Faktoren wie Größe, Gewicht und Aktivitätslevel ab. Der Rechner zeigt dir die Punkte von Lebensmitteln, nicht dein persönliches Tageslimit."
     },
     {
-      "q": "Für welche Lebensmittel gibt es null WW-Punkte?",
-      "a": "Eier, mageres Huhn, Fisch und nicht stärkehaltiges Gemüse haben normalerweise 0 Punkte."
+      "q": "Funktioniert der WW Punkte Rechner auch für das alte System?",
+      "a": "Der Rechner eignet sich zur Orientierung für Weight Watchers Punkte Rechner altes System und frühere Modelle. Du kannst damit alte Rezepte und bekannte Lebensmittel neu bewerten."
     },
     {
-      "q": "Wie rechnet man Kalorien in WW-Punkte um?",
-      "a": "Geben Sie Kalorien-, Protein-, Zucker- und Fettwerte ein. Der Rechner rechnet sie in SmartPoints um."
+      "q": "Kann ich WW Punkte in Kalorien umrechnen?",
+      "a": "Nein. Eine direkte Umrechnung von WW Punkten in Kalorien ist nicht möglich, da Punkte mehr Faktoren berücksichtigen als nur Kalorien."
     },
     {
-      "q": "Wie berechnet man WW-Punkte für Rezepte?",
-      "a": "Geben Sie jede Zutat ein, summieren Sie die Punkte und teilen Sie sie dann durch die Portionen, um den Wert pro Portion zu erhalten."
-    },
-    {
-      "q": "Wie helfen WW-Punkte beim Abnehmen?",
-      "a": "Sie leiten Sie bei der Auswahl kalorienärmerer, proteinreicher Lebensmittel an und begrenzen den Zucker-/Fettgehalt für eine nachhaltige Gewichtsabnahme."
+      "q": "Ist der WW Punkte Rechner kostenlos nutzbar?",
+      "a": "Ja, du kannst den WW Punkterechner kostenlos ohne Anmeldung verwenden und beliebig oft WW Punkte berechnen."
     }
   ]
 }

@@ -6,8 +6,8 @@ import Script from "next/script";
 // Multilingual SEO metadata for one-rep-max-calculator
 const onerepmaxcalculatorMeta = {
   en: {
-    title: "1RM Calculator - One-Rep Max Estimator",
-    description: "Find your one-rep max for any exercise using our 1RM Calculator to track strength gains.",
+    title: "One Rep Max Calculator: The Ultimate Guide for Strength Training",
+    description: "A one rep max calculator is a tool that estimates the maximum weight you can lift for a single repetition of an exercise, such as the bench press, squat, or deadlift.",
     keywords: "one rep max calculator, 1rep max, strength estimation, online rep tool, weight reps, workout planning, free max tool, training strength"
   },
   br: {
@@ -96,50 +96,29 @@ export default async function OneRepMaxCalculatorLayout({
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebPage",
-        "@id": "https://www.thesmartcalculator.com/health/one-rep-max-calculator#webpage",
+        "@type": "WebApplication",
+        "name": "one rep max calculator",
+        "description": "A one rep max calculator is a tool that estimates the maximum weight you can lift for a single repetition of an exercise, such as the bench press, squat, or deadlift.",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "All",
+        "softwareVersion": "3.2.1",
         "url": "https://www.thesmartcalculator.com/health/one-rep-max-calculator",
-        "name": "One-Rep Max Calculator",
-        "description": "Free One-Rep Max (1RM) Calculator — estimate your max lift using Epley, Brzycki, or Lombardi formulas. Includes training percentages, safety tips, and examples.",
-        "inLanguage": "en",
-        "isPartOf": {
-          "@type": "WebSite",
-          "@id": "https://www.thesmartcalculator.com/#website",
-          "url": "https://www.thesmartcalculator.com/",
-          "name": "Smart Calculator"
+        "image": "https://cdn.sanity.io/images/f0wclefz/production/c206eff7e579f5a144deeb1478a03085d91ed96c-832x914.png",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
         },
-        "primaryImageOfPage": {
-          "@type": "ImageObject",
-          "url": "https://www.thesmartcalculator.com/assets/images/one-rep-max.png"
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "1500",
+          "bestRating": "5",
+          "worstRating": "1"
         },
-        "publisher": {
+        "author": {
           "@type": "Organization",
-          "name": "Smart Calculator",
-          "url": "https://www.thesmartcalculator.com/",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.thesmartcalculator.com/assets/images/logo.png"
-          }
-        },
-        "mainEntity": {
-          "@type": "SoftwareApplication",
-          "name": "One-Rep Max Calculator",
-          "applicationCategory": "HealthApplication",
-          "operatingSystem": "Any",
-          "url": "https://www.thesmartcalculator.com/health/one-rep-max-calculator",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-          },
-          "softwareVersion": "1.0",
-          "featureList": [
-            "Epley formula",
-            "Brzycki formula",
-            "Lombardi formula",
-            "Unit conversion (kg/lbs)",
-            "Training percentage chart"
-          ]
+          "name": "Simon Stephen"
         }
       },
       {
@@ -147,34 +126,42 @@ export default async function OneRepMaxCalculatorLayout({
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What is a One-Rep Max (1RM)?",
+            "name": "Is one rep max calculator accurate?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A one-rep max (1RM) is the maximum amount of weight you can lift for a single repetition of a given exercise, such as bench press, squat, or deadlift."
+              "text": "A: Most calculators provide reliable estimates, especially with 1–10 reps. For heavy lifts like the deadlift, accuracy improves using multiple sets."
             }
           },
           {
             "@type": "Question",
-            "name": "How do I calculate my One-Rep Max safely?",
+            "name": "Can I use one rep max calculator for dumbbells?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Instead of attempting a true max lift, perform 3–10 reps at a submaximal weight and use a calculator with formulas like Epley or Brzycki for a safer estimate."
+              "text": "A: Yes, one rep max calculator dumbbell works for unilateral lifts like dumbbell bench press and curls."
             }
           },
           {
             "@type": "Question",
-            "name": "Which One-Rep Max formula is most accurate?",
+            "name": "How do I calculate one rep max for beginners?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Epley works best for 3–10 reps, Brzycki is conservative for moderate reps, and Lombardi is effective across a wide range of reps. Accuracy depends on the exercise and rep range."
+              "text": "A: Start with manageable weights for 5–10 reps and apply formulas like Epley or Brzycki for a safe estimate."
             }
           },
           {
             "@type": "Question",
-            "name": "Can beginners use a One-Rep Max calculator?",
+            "name": "Are there online one rep max calculators?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, beginners can use a 1RM calculator to estimate strength without lifting dangerously heavy loads. Always prioritize proper form and safety."
+              "text": "Yes, options like 1 rep max calculator online and one rep max calculator app provide quick calculations and progress tracking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can women use the same formulas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. Use one rep max calculator women to tailor percentages for strength programs."
             }
           }
         ]

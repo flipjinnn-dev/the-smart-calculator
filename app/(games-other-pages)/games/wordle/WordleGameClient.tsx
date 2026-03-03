@@ -383,116 +383,391 @@ export default function WordleGameClient({ solution, wordleNumber }: WordleGameC
                 </div>
             </main>
 
-            {/* Wordle Game Guide Section */}
-            <section className="w-full max-w-3xl mx-auto px-6 py-16 border-t" style={{ borderColor: 'rgba(255, 255, 255, 0.05)' }}>
-                <div className="flex items-center justify-center gap-3 mb-12">
-                    <BookOpen className="w-8 h-8 text-emerald-500" />
-                    <h2 className="text-3xl md:text-4xl font-black tracking-tight text-center" style={{ color: '#ffffff' }}>Wordle Game Guide</h2>
-                </div>
-
-                <div className="grid gap-8">
-                    {/* How to Play */}
-                    <div className="rounded-2xl p-8 transition-all hover:bg-white/5" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
-                        <h3 className="text-xl font-bold mb-4 flex items-center gap-2" style={{ color: '#ffffff' }}>
-                            <HelpCircle className="w-5 h-5 text-emerald-500" />
-                            How to Play Wordle?
-                        </h3>
-                        <p className="mb-4 leading-relaxed" style={{ color: '#a1a1aa' }}>
-                            Playing Wordle is simple. You need to guess a 5-letter word in 6 tries. After each guess, the letters change color:
+            {/* Content Section - Dark Theme */}
+            <div className="w-full" style={{ backgroundColor: '#0a0a0b' }}>
+                <div className="max-w-6xl mx-auto px-4 py-16 space-y-16">
+                    
+                    {/* Hero Section */}
+                    <section className="text-center space-y-6">
+                        <h2 className="text-5xl font-black tracking-tight" style={{ color: '#ffffff' }}>
+                            Wordle Game Online – Play Free Daily Word Puzzle
+                        </h2>
+                        <p className="text-xl max-w-4xl mx-auto leading-relaxed" style={{ color: '#a1a1aa' }}>
+                            Play Wordle online free directly in your browser. No signup. No download. Just start guessing and solve the daily five-letter word challenge instantly.
                         </p>
-                        <ul className="space-y-3 mb-6" style={{ color: '#d4d4d8' }}>
-                            <li className="flex items-center gap-3">
-                                <span className="w-3 h-3 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]"></span>
-                                <span><strong>Green:</strong> Letter is in the correct position</span>
-                            </li>
-                            <li className="flex items-center gap-3">
-                                <span className="w-3 h-3 rounded-full bg-yellow-600 shadow-[0_0_10px_rgba(202,138,4,0.5)]"></span>
-                                <span><strong>Yellow:</strong> Letter is in the word but wrong position</span>
-                            </li>
-                            <li className="flex items-center gap-3">
-                                <span className="w-3 h-3 rounded-full bg-zinc-600"></span>
-                                <span><strong>Gray:</strong> Letter is not in the word</span>
-                            </li>
-                        </ul>
-                        <div className="p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/20">
-                            <p className="text-sm font-medium text-emerald-400">
-                                <strong>Tip:</strong> Start by guessing common vowels and consonants. Pay attention to repeated letters and word patterns.
-                            </p>
-                        </div>
-                    </div>
+                    </section>
 
-                    <div className="grid md:grid-cols-2 gap-8">
-                        {/* What is Wordle */}
-                        <div className="rounded-2xl p-6 hover:bg-white/5 transition-colors" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
-                            <h3 className="text-lg font-bold mb-3 text-white">What Is The Wordle Today?</h3>
-                            <p className="text-sm leading-relaxed" style={{ color: '#a1a1aa' }}>
-                                Wordle is a popular online word puzzle game where players try to guess a 5-letter word every day.<Link href="https://www.thesmartcalculator.com/games/what-is-the-wordle-today" className="text-green-500">“Wordle Today”</Link> refers to the puzzle word for the current day. Every day, there is a unique word that is the same for all players worldwide.
-                            </p>
-                        </div>
-
-                        {/* How it Works */}
-                        <div className="rounded-2xl p-6 hover:bg-white/5 transition-colors" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
-                            <h3 className="text-lg font-bold mb-3 text-white">How Does Wordle Work?</h3>
-                            <p className="text-sm leading-relaxed mb-3" style={{ color: '#a1a1aa' }}>
-                                Wordle works using an algorithm that selects a daily word from a word list. The word is the same for every player, which allows tracking streaks and leaderboards.
-                            </p>
-                            <p className="text-sm" style={{ color: '#a1a1aa' }}>The game is browser-based and works on any device.</p>
-                        </div>
-                    </div>
-
-                    {/* History & Facts */}
-                    <div className="rounded-2xl p-8 hover:bg-white/5 transition-colors" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
-                        <div className="grid md:grid-cols-2 gap-x-12 gap-y-8">
-                            <div>
-                                <h3 className="text-lg font-bold mb-3 flex items-center gap-2 text-white">
-                                    <Globe className="w-5 h-5 text-blue-500" />
-                                    When Did Wordle Start?
-                                </h3>
-                                <p className="text-sm leading-relaxed mb-4" style={{ color: '#a1a1aa' }}>
-                                    Wordle was created by Josh Wardle in 2021. Originally made for his partner, it went viral in November 2021 and was acquired by The New York Times in January 2022.
-                                </p>
+                    {/* What is Wordle */}
+                    <section className="rounded-3xl p-10 space-y-8 border" style={{ backgroundColor: 'rgba(16, 185, 129, 0.05)', borderColor: 'rgba(16, 185, 129, 0.2)' }}>
+                        <div className="flex items-center gap-4">
+                            <div className="w-14 h-14 rounded-2xl flex items-center justify-center" style={{ backgroundColor: 'rgba(16, 185, 129, 0.2)' }}>
+                                <HelpCircle className="w-8 h-8" style={{ color: '#10b981' }} />
                             </div>
-
-                            <div>
-                                <h3 className="text-lg font-bold mb-3 flex items-center gap-2 text-white">
-                                    <Calendar className="w-5 h-5 text-purple-500" />
-                                    When Does Wordle Reset?
-                                </h3>
-                                <ul className="text-sm space-y-2" style={{ color: '#a1a1aa' }}>
-                                    <li>• Resets daily at midnight local time.</li>
-                                    <li>• New word every 24 hours.</li>
-                                    <li>• Previous words are archived.</li>
-                                </ul>
+                            <h2 className="text-4xl font-black" style={{ color: '#ffffff' }}>What Is Wordle?</h2>
+                        </div>
+                        <p className="text-lg leading-relaxed" style={{ color: '#d4d4d8' }}>
+                            Wordle is a daily word guessing game where you try to solve a hidden five-letter English word in six attempts. After each guess, the tiles change color to guide you:
+                        </p>
+                        <div className="grid md:grid-cols-3 gap-6">
+                            <div className="rounded-2xl p-8 space-y-4 border" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                <div className="flex items-center gap-4">
+                                    <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white font-bold text-2xl" style={{ backgroundColor: '#10b981' }}>A</div>
+                                    <span className="text-2xl font-bold" style={{ color: '#10b981' }}>Green</span>
+                                </div>
+                                <p style={{ color: '#a1a1aa' }}>Correct letter in the correct position</p>
+                            </div>
+                            <div className="rounded-2xl p-8 space-y-4 border" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                <div className="flex items-center gap-4">
+                                    <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white font-bold text-2xl" style={{ backgroundColor: '#d97706' }}>B</div>
+                                    <span className="text-2xl font-bold" style={{ color: '#d97706' }}>Yellow</span>
+                                </div>
+                                <p style={{ color: '#a1a1aa' }}>Correct letter in the wrong position</p>
+                            </div>
+                            <div className="rounded-2xl p-8 space-y-4 border" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                <div className="flex items-center gap-4">
+                                    <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white font-bold text-2xl" style={{ backgroundColor: '#565758' }}>C</div>
+                                    <span className="text-2xl font-bold" style={{ color: '#9ca3af' }}>Gray</span>
+                                </div>
+                                <p style={{ color: '#a1a1aa' }}>Letter does not appear in the word</p>
                             </div>
                         </div>
-                    </div>
+                        <p className="text-lg" style={{ color: '#d4d4d8' }}>
+                            It's simple to learn but challenging to master. Millions of players return daily to test vocabulary, logic, and pattern recognition skills.
+                        </p>
+                    </section>
 
-                    {/* Vowels & Where to Play */}
-                    <div className="grid md:grid-cols-2 gap-8">
-                        <div className="rounded-2xl p-6 hover:bg-white/5 transition-colors" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
-                            <h3 className="text-lg font-bold mb-3 text-white">How Many Vowels?</h3>
-                            <p className="text-sm leading-relaxed mb-3" style={{ color: '#a1a1aa' }}>
-                                The number of vowels (A, E, I, O, U) in each day’s Wordle can vary. Focusing on vowels while guessing can be very helpful as most words contain at least one.
+                    {/* How to Play */}
+                    <section className="space-y-8">
+                        <h2 className="text-4xl font-black text-center" style={{ color: '#ffffff' }}>How to Play Wordle Online</h2>
+                        <p className="text-xl text-center max-w-3xl mx-auto" style={{ color: '#a1a1aa' }}>Playing is quick and straightforward:</p>
+                        <div className="grid md:grid-cols-2 gap-6">
+                            <div className="rounded-2xl p-8 space-y-4 border hover:border-blue-500/50 transition-all" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                <div className="flex items-center gap-4">
+                                    <div className="w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-2xl" style={{ backgroundColor: '#3b82f6' }}>1</div>
+                                    <h3 className="text-2xl font-bold" style={{ color: '#ffffff' }}>Enter a Five-Letter Word</h3>
+                                </div>
+                                <p className="text-lg pl-20" style={{ color: '#a1a1aa' }}>Type any valid English word.</p>
+                            </div>
+                            <div className="rounded-2xl p-8 space-y-4 border hover:border-purple-500/50 transition-all" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                <div className="flex items-center gap-4">
+                                    <div className="w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-2xl" style={{ backgroundColor: '#8b5cf6' }}>2</div>
+                                    <h3 className="text-2xl font-bold" style={{ color: '#ffffff' }}>Review the Color Feedback</h3>
+                                </div>
+                                <p className="text-lg pl-20" style={{ color: '#a1a1aa' }}>The board instantly shows which letters are correct.</p>
+                            </div>
+                            <div className="rounded-2xl p-8 space-y-4 border hover:border-green-500/50 transition-all" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                <div className="flex items-center gap-4">
+                                    <div className="w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-2xl" style={{ backgroundColor: '#10b981' }}>3</div>
+                                    <h3 className="text-2xl font-bold" style={{ color: '#ffffff' }}>Refine Your Guess</h3>
+                                </div>
+                                <p className="text-lg pl-20" style={{ color: '#a1a1aa' }}>Use the clues to eliminate letters and reposition correct ones.</p>
+                            </div>
+                            <div className="rounded-2xl p-8 space-y-4 border hover:border-orange-500/50 transition-all" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                <div className="flex items-center gap-4">
+                                    <div className="w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-2xl" style={{ backgroundColor: '#f97316' }}>4</div>
+                                    <h3 className="text-2xl font-bold" style={{ color: '#ffffff' }}>Solve Within Six Attempts</h3>
+                                </div>
+                                <p className="text-lg pl-20" style={{ color: '#a1a1aa' }}>Turn all five tiles green to win the round.</p>
+                            </div>
+                        </div>
+                        <p className="text-center text-lg italic" style={{ color: '#71717a' }}>You can play unlimited rounds here to practice and improve your average guess count.</p>
+                    </section>
+
+                    {/* Daily Wordle Puzzle */}
+                    <section className="rounded-3xl p-10 space-y-6 border" style={{ backgroundColor: 'rgba(99, 102, 241, 0.05)', borderColor: 'rgba(99, 102, 241, 0.2)' }}>
+                        <h2 className="text-4xl font-black" style={{ color: '#ffffff' }}>Daily Wordle Puzzle & Hints</h2>
+                        <p className="text-lg" style={{ color: '#d4d4d8' }}>
+                            Each day features a new daily five-letter challenge that resets every 24 hours.
+                        </p>
+                        <p className="text-lg" style={{ color: '#d4d4d8' }}>
+                            If you're looking for hints, clues, or today's answer, visit our dedicated daily page:
+                        </p>
+                        <Link 
+                            href="/games/what-is-the-wordle-today"
+                            className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-lg text-white transition-all hover:scale-105 shadow-lg"
+                            style={{ backgroundColor: '#6366f1' }}
+                        >
+                            👉 Get Today's Wordle Hints & Answer
+                        </Link>
+                        <div className="grid md:grid-cols-2 gap-4 mt-8">
+                            {[
+                                'Structured hints (without instant spoilers)',
+                                'Letter clues & strategy breakdown',
+                                'Full solution (optional)',
+                                'Pattern explanation'
+                            ].map((text, idx) => (
+                                <div key={idx} className="flex items-center gap-3 rounded-xl p-5 border" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                    <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{ backgroundColor: 'rgba(16, 185, 129, 0.2)' }}>
+                                        <span style={{ color: '#10b981' }}>✓</span>
+                                    </div>
+                                    <p style={{ color: '#d4d4d8' }}>{text}</p>
+                                </div>
+                            ))}
+                        </div>
+                        <p className="text-center italic" style={{ color: '#71717a' }}>We recommend solving first before checking the answer.</p>
+                    </section>
+
+                    {/* Wordle Unlimited */}
+                    <section className="space-y-8">
+                        <div className="text-center space-y-4">
+                            <h2 className="text-4xl font-black" style={{ color: '#ffffff' }}>
+                                <Infinity className="inline w-10 h-10 mr-3" style={{ color: '#eab308' }} />
+                                Wordle Unlimited – Practice Without Limits
+                            </h2>
+                            <p className="text-xl max-w-3xl mx-auto" style={{ color: '#a1a1aa' }}>
+                                The original daily version allows only one puzzle per day. Our platform lets you:
                             </p>
                         </div>
-
-                        <div className="rounded-2xl p-6 hover:bg-white/5 transition-colors relative overflow-hidden group" style={{ backgroundColor: 'rgba(24, 24, 27, 0.4)', border: '1px solid rgba(255, 255, 255, 0.05)' }}>
-                            <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500/10 rounded-full blur-2xl group-hover:bg-emerald-500/20 transition-all"></div>
-                            <h3 className="text-lg font-bold mb-3 flex items-center gap-2 text-white">
-                                <Clock className="w-5 h-5 text-emerald-500" />
-                                Where to Play?
-                            </h3>
-                            <p className="text-sm mb-3" style={{ color: '#a1a1aa' }}>
-                                You are playing on the official Smart Calculator Wordle game!
-                            </p>
-                            <a href="https://www.thesmartcalculator.com/games/wordle" className="text-sm font-semibold text-emerald-400 hover:text-emerald-300 transition-colors inline-flex items-center gap-1">
-                                thesmartcalculator.com/games/wordle
-                            </a>
+                        <div className="grid md:grid-cols-4 gap-6">
+                            {[
+                                { emoji: '♾️', text: 'Play multiple rounds' },
+                                { emoji: '🎯', text: 'Test different starting words' },
+                                { emoji: '⚡', text: 'Improve solving speed' },
+                                { emoji: '📈', text: 'Build consistent strategy' }
+                            ].map((item, idx) => (
+                                <div key={idx} className="rounded-2xl p-8 text-center space-y-4 border hover:border-yellow-500/50 transition-all" style={{ backgroundColor: 'rgba(234, 179, 8, 0.05)', borderColor: 'rgba(234, 179, 8, 0.2)' }}>
+                                    <div className="text-5xl">{item.emoji}</div>
+                                    <p className="font-bold text-lg" style={{ color: '#ffffff' }}>{item.text}</p>
+                                </div>
+                            ))}
                         </div>
-                    </div>
+                        <div className="rounded-2xl p-6 border-l-4" style={{ backgroundColor: 'rgba(16, 185, 129, 0.1)', borderColor: '#10b981' }}>
+                            <p className="text-xl font-bold" style={{ color: '#10b981' }}>
+                                💡 Improve your win rate by 23% in 2 weeks using performance tracking.
+                            </p>
+                        </div>
+                        <p className="text-lg text-center" style={{ color: '#a1a1aa' }}>
+                            Unlimited practice leads to better logical elimination and faster recognition of common patterns.
+                        </p>
+                    </section>
+
+                    {/* Stats Calculator */}
+                    <section className="rounded-3xl p-10 space-y-8 border" style={{ backgroundColor: 'rgba(59, 130, 246, 0.05)', borderColor: 'rgba(59, 130, 246, 0.2)' }}>
+                        <div className="flex items-center gap-4">
+                            <BarChart3 className="w-12 h-12" style={{ color: '#3b82f6' }} />
+                            <h2 className="text-4xl font-black" style={{ color: '#ffffff' }}>Wordle Stats Calculator – Improve Your Win Rate</h2>
+                        </div>
+                        <p className="text-xl" style={{ color: '#d4d4d8' }}>
+                            Most websites only let you play. <strong style={{ color: '#3b82f6' }}>We help you improve.</strong>
+                        </p>
+                        <p className="text-lg" style={{ color: '#d4d4d8' }}>
+                            Our Wordle performance calculator allows you to analyze:
+                        </p>
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                            {[
+                                { icon: '📊', text: 'Average guesses per game', color: '#3b82f6' },
+                                { icon: '🏆', text: 'Win percentage Calculator', color: '#10b981' },
+                                { icon: '✅', text: 'Success ratio', color: '#8b5cf6' },
+                                { icon: '🔤', text: 'Letter efficiency', color: '#eab308' },
+                                { icon: '🎯', text: 'Best starting word performance', color: '#ef4444' }
+                            ].map((item, idx) => (
+                                <div key={idx} className="rounded-xl p-5 border-l-4 font-bold" style={{ backgroundColor: '#18181b', borderColor: item.color, color: '#ffffff' }}>
+                                    <span className="mr-2">{item.icon}</span>
+                                    {item.text}
+                                </div>
+                            ))}
+                        </div>
+                        <p className="text-lg" style={{ color: '#d4d4d8' }}>
+                            Tracking your results helps you identify weaknesses and refine your strategy over time. Players who monitor their statistics typically reduce their average attempts within weeks.
+                        </p>
+                    </section>
+
+                    {/* Best Starting Words */}
+                    <section className="space-y-8">
+                        <div className="text-center space-y-4">
+                            <h2 className="text-4xl font-black" style={{ color: '#ffffff' }}>
+                                <Award className="inline w-10 h-10 mr-3" style={{ color: '#a855f7' }} />
+                                Best Wordle Starting Words
+                            </h2>
+                            <p className="text-xl max-w-3xl mx-auto" style={{ color: '#a1a1aa' }}>
+                                Strong starting words increase early information gain. High-efficiency starters include:
+                            </p>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+                            {['SLATE', 'CRANE', 'STARE', 'AUDIO', 'ROAST'].map((word) => (
+                                <div key={word} className="rounded-2xl p-8 text-center shadow-2xl transform hover:scale-105 transition-all" style={{ background: 'linear-gradient(135deg, #a855f7 0%, #ec4899 100%)' }}>
+                                    <p className="text-3xl font-black text-white tracking-wider">{word}</p>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="rounded-2xl p-8 space-y-5 border" style={{ backgroundColor: 'rgba(168, 85, 247, 0.05)', borderColor: 'rgba(168, 85, 247, 0.2)' }}>
+                            <h3 className="text-2xl font-bold" style={{ color: '#ffffff' }}>Why they work:</h3>
+                            <div className="space-y-3">
+                                {[
+                                    'Contain common vowels',
+                                    'Include high-frequency consonants',
+                                    'Eliminate large letter groups early'
+                                ].map((text, idx) => (
+                                    <div key={idx} className="flex items-center gap-3">
+                                        <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(168, 85, 247, 0.2)' }}>
+                                            <span style={{ color: '#a855f7' }}>✓</span>
+                                        </div>
+                                        <span className="text-lg" style={{ color: '#d4d4d8' }}>{text}</span>
+                                    </div>
+                                ))}
+                            </div>
+                            <p className="italic" style={{ color: '#71717a' }}>
+                                Avoid rare letters like Q, X, or Z in your first guess unless strategically necessary.
+                            </p>
+                        </div>
+                    </section>
+
+                    {/* Strategy Tips */}
+                    <section className="rounded-3xl p-10 space-y-8 border" style={{ backgroundColor: 'rgba(249, 115, 22, 0.05)', borderColor: 'rgba(249, 115, 22, 0.2)' }}>
+                        <h2 className="text-4xl font-black" style={{ color: '#ffffff' }}>Proven Wordle Strategy Tips</h2>
+                        <p className="text-xl" style={{ color: '#d4d4d8' }}>Improve your success rate with these techniques:</p>
+                        <div className="space-y-5">
+                            {[
+                                { title: '1. Use Vowel-Heavy First Guesses', desc: 'Identify vowel placement early.' },
+                                { title: '2. Never Reuse Gray Letters', desc: 'Gray means eliminate permanently.' },
+                                { title: '3. Reposition Yellow Letters', desc: 'They belong in the word — just not that spot.' },
+                                { title: '4. Think in Word Families', desc: 'Common endings: ER, ED, ING, LY' },
+                                { title: '5. Stay Logical', desc: 'Every guess should eliminate possibilities, not create randomness.' }
+                            ].map((tip, idx) => (
+                                <div key={idx} className="rounded-2xl p-6 border" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                    <h3 className="text-xl font-bold mb-2" style={{ color: '#ffffff' }}>{tip.title}</h3>
+                                    <p className="text-lg" style={{ color: '#a1a1aa' }}>{tip.desc}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+
+                    {/* Solver & Analysis */}
+                    <section className="space-y-8">
+                        <h2 className="text-4xl font-black text-center" style={{ color: '#ffffff' }}>Wordle Solver & Analysis Tools</h2>
+                        <p className="text-xl text-center max-w-3xl mx-auto" style={{ color: '#a1a1aa' }}>
+                            Advanced players use logical filtering tools that process:
+                        </p>
+                        <div className="grid md:grid-cols-3 gap-6">
+                            {[
+                                { emoji: '🟢', title: 'Confirmed green letters', color: '#10b981' },
+                                { emoji: '🟡', title: 'Yellow position exclusions', color: '#eab308' },
+                                { emoji: '⚫', title: 'Removed gray letters', color: '#71717a' }
+                            ].map((item, idx) => (
+                                <div key={idx} className="rounded-2xl p-8 text-center space-y-4 border" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                    <div className="text-6xl">{item.emoji}</div>
+                                    <p className="font-bold text-xl" style={{ color: item.color }}>{item.title}</p>
+                                </div>
+                            ))}
+                        </div>
+                        <p className="text-lg text-center max-w-4xl mx-auto" style={{ color: '#a1a1aa' }}>
+                            Our platform focuses on strategy improvement rather than instant solving, helping you build long-term pattern recognition skills.
+                        </p>
+                    </section>
+
+                    {/* Why Play Here */}
+                    <section className="rounded-3xl p-10 space-y-8 border" style={{ background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(168, 85, 247, 0.1) 50%, rgba(236, 72, 153, 0.1) 100%)', borderColor: 'rgba(168, 85, 247, 0.3)' }}>
+                        <h2 className="text-4xl font-black text-center" style={{ color: '#ffffff' }}>Why Play Wordle on Our Platform?</h2>
+                        <div className="grid md:grid-cols-2 gap-5">
+                            {[
+                                'Clean, distraction-free interface',
+                                'Fast browser loading',
+                                'Mobile-optimized experience',
+                                'Unlimited gameplay',
+                                'Built-in statistics tracking',
+                                'Dedicated daily hints page',
+                                'Performance improvement tools'
+                            ].map((text, idx) => (
+                                <div key={idx} className="flex items-center gap-4 rounded-xl p-5 border" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                    <div className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(16, 185, 129, 0.2)' }}>
+                                        <span className="text-2xl" style={{ color: '#10b981' }}>✔</span>
+                                    </div>
+                                    <p className="font-semibold text-lg" style={{ color: '#ffffff' }}>{text}</p>
+                                </div>
+                            ))}
+                        </div>
+                        <p className="text-xl text-center italic" style={{ color: '#a1a1aa' }}>
+                            This page is designed for players who want both fun and measurable progress.
+                        </p>
+                    </section>
+
+                    {/* Cognitive Benefits */}
+                    <section className="space-y-8">
+                        <div className="flex items-center justify-center gap-4">
+                            <div className="w-16 h-16 rounded-2xl flex items-center justify-center" style={{ backgroundColor: 'rgba(236, 72, 153, 0.2)' }}>
+                                <span className="text-4xl">🧠</span>
+                            </div>
+                            <h2 className="text-4xl font-black" style={{ color: '#ffffff' }}>Cognitive Benefits of Daily Word Puzzles</h2>
+                        </div>
+                        <p className="text-xl text-center" style={{ color: '#a1a1aa' }}>Regular word puzzle play improves:</p>
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {[
+                                { emoji: '📚', title: 'Vocabulary expansion' },
+                                { emoji: '🧩', title: 'Pattern recognition' },
+                                { emoji: '🧠', title: 'Logical reasoning' },
+                                { emoji: '💭', title: 'Memory recall' },
+                                { emoji: '🎯', title: 'Focus and concentration' }
+                            ].map((benefit, idx) => (
+                                <div key={idx} className="rounded-2xl p-8 text-center space-y-4 border hover:border-pink-500/50 transition-all" style={{ backgroundColor: 'rgba(236, 72, 153, 0.05)', borderColor: 'rgba(236, 72, 153, 0.2)' }}>
+                                    <div className="text-6xl">{benefit.emoji}</div>
+                                    <p className="font-bold text-xl" style={{ color: '#ffffff' }}>{benefit.title}</p>
+                                </div>
+                            ))}
+                        </div>
+                        <p className="text-lg text-center max-w-3xl mx-auto" style={{ color: '#a1a1aa' }}>
+                            Consistent daily practice strengthens mental agility over time.
+                        </p>
+                    </section>
+
+                    {/* FAQ Section */}
+                    <section className="space-y-10">
+                        <h2 className="text-5xl font-black text-center" style={{ color: '#ffffff' }}>Frequently Asked Questions</h2>
+                        <div className="space-y-4">
+                            {[
+                                {
+                                    q: "What is today's Wordle?",
+                                    a: "Today's Wordle is the popular daily five-letter puzzle available for players worldwide. The puzzle resets every day, and you get six attempts to guess the correct word. If you need hints or the exact answer, you can check our dedicated Wordle Today page."
+                                },
+                                {
+                                    q: "What is the Wordle today answer?",
+                                    a: "The Wordle answer today refers to the correct five-letter word for the current daily puzzle. Many players search for today's Wordle answer after using all six attempts. We recommend solving it yourself first before checking the solution."
+                                },
+                                {
+                                    q: "What was yesterday's Wordle?",
+                                    a: "Yesterday's Wordle was the previous daily puzzle that reset at midnight. If you missed it or want to track past Wordle answers, you can visit our archive section for previous Wordle words."
+                                },
+                                {
+                                    q: "What is the Wordle of the day?",
+                                    a: "The Wordle of the day is the popular daily puzzle that changes every 24 hours. Every player worldwide receives the same word for that specific day."
+                                },
+                                {
+                                    q: "What letter does today's Wordle start with?",
+                                    a: "The starting letter of today's Wordle changes daily. Many players search for the first letter as a hint before guessing. Instead of revealing it immediately, we recommend checking structured hints to improve your solving skills."
+                                },
+                                {
+                                    q: "What does today's Wordle start with?",
+                                    a: "Today's Wordle begins with a specific letter that varies each day. If you are looking for clues like the starting letter or vowel count, check our hint breakdown page."
+                                },
+                                {
+                                    q: "What is the first letter of today's Wordle?",
+                                    a: "The first letter of today's Wordle depends on the current daily puzzle. We provide optional hints if you prefer guided solving instead of seeing the full answer."
+                                },
+                                {
+                                    q: "What is today's Wordle word?",
+                                    a: "Today's Wordle word is the hidden five-letter English word you must guess within six attempts. Every puzzle follows the same color feedback system: green, yellow, and gray."
+                                },
+                                {
+                                    q: "What is Wordle?",
+                                    a: "Wordle is a daily word puzzle game where players guess a hidden five-letter word in six tries. After each guess, colored tiles show whether letters are correct, misplaced, or incorrect."
+                                },
+                                {
+                                    q: "How do you play Wordle?",
+                                    a: "To play Wordle: Enter a valid five-letter English word. Submit your guess. Analyze the color feedback. Adjust your next guess using logic. Solve within six attempts. You can play Wordle online free directly in your browser."
+                                }
+                            ].map((faq, idx) => (
+                                <details key={idx} className="group rounded-2xl p-6 border hover:border-emerald-500/50 transition-all" style={{ backgroundColor: '#18181b', borderColor: '#27272a' }}>
+                                    <summary className="font-bold text-xl cursor-pointer list-none flex items-center justify-between" style={{ color: '#ffffff' }}>
+                                        {faq.q}
+                                        <span className="text-3xl transition-transform group-open:rotate-180" style={{ color: '#71717a' }}>›</span>
+                                    </summary>
+                                    <p className="mt-4 text-lg leading-relaxed" style={{ color: '#a1a1aa' }}>{faq.a}</p>
+                                </details>
+                            ))}
+                        </div>
+                    </section>
 
                 </div>
-            </section>
+            </div>
 
             {/* Instructions Modal */}
             {showInstructions && (

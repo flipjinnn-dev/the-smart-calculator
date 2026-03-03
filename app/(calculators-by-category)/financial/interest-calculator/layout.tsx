@@ -5,8 +5,8 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for interest-calculator
 const interestcalculatorMeta = {
   en: {
-    title: "Interest Calculator",
-    description: "Calculate simple or compound interest accurately using our Interest Calculator for loans and savings.",
+    title: "Interest Calculator: Loans, Savings & Investments Tool",
+    description: "Use our online interest calculator to compute loans, savings, mortgages, and investments. Calculate APR, APY, and compound interest easily and accurately.",
     keywords: "interest calculator, investment growth, interest calculation, buying power, online interest, inflation adjustment, financial projection, free interest tool"
   },
   br: {
@@ -91,5 +91,90 @@ export default async function InterestCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "online interest calculator",
+        "description": "Interest Calculator: Loans, Savings & Investments Tool",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "softwareVersion": "2.3.1",
+        "url": "https://www.thesmartcalculator.com/financial/interest-calculator",
+        "image": "https://cdn.sanity.io/images/f0wclefz/production/237b4add8e6cdfc2a0bd1d48d42ce6aebd994b49-1113x1292.png",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "2700",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Neo Nicholas"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between APR and APY?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "APR (Annual Percentage Rate) reflects interest without compounding.\n\nAPY (Annual Percentage Yield) accounts for compound interest, showing true growth or cost."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use an interest calculator for daily compounding?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, select interest calculator compounded daily to see daily growth effects on loans or savings."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do extra payments affect my loan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Making extra payments reduces principal faster, lowering total interest. Use interest calculator with extra payments to visualize impact."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there a calculator for monthly interest?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, interest calculator monthly breaks down payments or earnings per month for accurate planning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can an interest calculator handle multiple loans?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Advanced calculators allow for multiple loans or mixed investments, providing a combined overview."
+            }
+          }
+        ]
+      }
+    ]
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      {children}
+    </>
+  );
 }

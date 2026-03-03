@@ -98,11 +98,73 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
   const colors = getColorVariants(data.color)
 
   const renderContent = (content: string) => {
-    return content.split('\n').map((line, i) => (
-      <div key={i} className="min-h-[1.5em]">
-        <Latex>{line}</Latex>
-      </div>
-    ));
+    const lines = content.split('\n');
+    const result: JSX.Element[] = [];
+    let i = 0;
+
+    while (i < lines.length) {
+      const line = lines[i];
+      
+      // Check if this line starts a markdown table (contains | and next line has dashes)
+      if (line.includes('|') && i + 1 < lines.length && lines[i + 1].includes('---')) {
+        const tableLines: string[] = [];
+        let j = i;
+        
+        // Collect all table lines
+        while (j < lines.length && lines[j].trim().includes('|')) {
+          tableLines.push(lines[j]);
+          j++;
+        }
+        
+        if (tableLines.length >= 2) {
+          // Parse table
+          const headers = tableLines[0].split('|').map(h => h.trim()).filter(h => h);
+          const rows = tableLines.slice(2).map(row => 
+            row.split('|').map(cell => cell.trim()).filter(cell => cell)
+          );
+          
+          result.push(
+            <div key={i} className="overflow-x-auto my-4">
+              <table className="min-w-full border-collapse border border-gray-300">
+                <thead className="bg-gray-100">
+                  <tr>
+                    {headers.map((header, idx) => (
+                      <th key={idx} className="border border-gray-300 px-4 py-2 text-left font-semibold text-gray-900">
+                        {header}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {rows.map((row, rowIdx) => (
+                    <tr key={rowIdx} className="hover:bg-gray-50">
+                      {row.map((cell, cellIdx) => (
+                        <td key={cellIdx} className="border border-gray-300 px-4 py-2 text-gray-700">
+                          {cell}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          );
+          
+          i = j;
+          continue;
+        }
+      }
+      
+      // Regular line rendering
+      result.push(
+        <div key={i} className="min-h-[1.5em]">
+          <Latex>{line}</Latex>
+        </div>
+      );
+      i++;
+    }
+
+    return result;
   };
 
   return (

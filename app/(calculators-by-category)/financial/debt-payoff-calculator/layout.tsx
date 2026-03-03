@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for debt-payoff-calculator
 const debtpayoffcalculatorMeta = {
@@ -15,8 +16,8 @@ const debtpayoffcalculatorMeta = {
     keywords: "calculadora quitação dívida, plano dívida, tempo estimar, online dívida, gestão financeira, estratégias redução, gratuita tool"
   },
   pl: {
-    title: "Kalkulator spłaty zadłużenia",
-    description: "Kalkulator spłaty zadłużenia – oblicz raty, odsetki i czas spłaty długu. Sprawdź koszty i zaplanuj wyjście z zadłużenia już dziś!",
+    title: "Kalkulator spłat zadłużenia – kompletny przewodnik",
+    description: "Kalkulator spłat zadłużenia to narzędzie finansowe, które pozwala dokładnie zaplanować i obliczyć raty kredytu, pożyczki czy zobowiązań finansowych. Dzięki niemu można stworzyć harmonogram spłat kredytu, uwzględnić nadpłaty i obliczyć całkowity koszt kredytu.",
     keywords: "Kalkulator spłaty zadłużenia, plan dług, czas oszacować, online dług, zarządzanie finansami, redukcja tool, darmowy kalkulator"
   },
   de: {
@@ -91,5 +92,89 @@ export default async function DebtPayoffCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language = langHeader || 'en';
+
+  // Only add schema for Polish version
+  const jsonLdSchema = language === 'pl' ? {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Kalkulator spłat zadłużenia",
+        "description": "Kalkulator spłat zadłużenia to narzędzie finansowe, które pozwala dokładnie zaplanować i obliczyć raty kredytu, pożyczki czy zobowiązań finansowych. Dzięki niemu można stworzyć harmonogram spłat kredytu, uwzględnić nadpłaty i obliczyć całkowity koszt kredytu. Narzędzie jest przydatne zarówno dla osób indywidualnych, jak i przedsiębiorców, pomagając świadomie zarządzać finansami, redukować długi i planować spłatę zobowiązań.",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "softwareVersion": "5.2.1",
+        "url": "https://www.thesmartcalculator.com/pl/finansowy/kalkulator-dlugu-splaty-kalkulador",
+        "image": "https://cdn.sanity.io/images/f0wclefz/production/237b4add8e6cdfc2a0bd1d48d42ce6aebd994b49-1113x1292.png",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "3000",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Neo Nicholas"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Jak obliczyć spłatę kredytu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Najłatwiej użyć kalkulatora spłaty, który uwzględnia kwotę kredytu, oprocentowanie i okres spłaty"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Czy kalkulator nadpłaty kredytu hipotecznego jest darmowy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tak, wiele kalkulatorów online jest bezpłatnych i dostępnych dla każdego."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Czy mogę zrobić harmonogram spłat kredytu kalkulator online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tak, większość kalkulatorów generuje pełny harmonogram spłat z podziałem na raty kapitałowe i odsetkowe."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Jak wyjść z długów kalkulator może pomóc?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pozwala zobaczyć realne scenariusze spłaty zadłużenia, konsolidacji i nadpłat, co ułatwia planowanie i unikanie pułapek finansowych."
+            }
+          }
+        ]
+      }
+    ]
+  } : null;
+
+  return <>
+    {children}
+    {jsonLdSchema && (
+      <Script
+        id="debt-payoff-calculator-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      />
+    )}
+  </>;
 }

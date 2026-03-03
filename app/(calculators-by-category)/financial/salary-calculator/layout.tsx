@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
 
 // Multilingual SEO metadata for salary-calculator
 const salarycalculatorMeta = {
@@ -91,5 +92,149 @@ export default async function SalaryCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language = langHeader || 'en';
+
+  // Only add schema for English version
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.thesmartcalculator.com/financial/salary-calculator",
+        "name": "Salary Calculator",
+        "url": "https://www.thesmartcalculator.com/financial/salary-calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4.5,
+          "reviewCount": 3000,
+          "bestRating": 5,
+          "worstRating": 1
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Salary Calculator",
+            "item": "https://www.thesmartcalculator.com/financial/salary-calculator"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Investment Calculator",
+            "item": "https://www.thesmartcalculator.com/financial/investment-calculator"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Finance Calculator",
+            "item": "https://www.thesmartcalculator.com/financial/finance-calculator"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a salary calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A salary calculator converts pay across periods (hourly to annual) and estimates net after deductions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I calculate annual salary from monthly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Multiply monthly gross salary by 12 to get annual salary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the best salary calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A good salary calculator provides accurate conversions, tax estimates, and pro-rata calculations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can it handle taxes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, advanced salary calculators include tax estimates and deduction breakdowns."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there a free online salary calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, you can calculate salary online without sign-up."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How to prorate salary?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the formula: (Annual Salary / 260) × Days Worked."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Difference between wage and salary calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wage calculators are for hourly pay, salary calculators are for fixed annual compensation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I calculate my salary after tax?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Enter gross pay, tax rates, and deductions to see take-home pay."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the difference between gross and net salary?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gross salary is before deductions; net salary is after taxes and deductions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I calculate my hourly rate from annual salary?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, divide annual salary by total yearly working hours."
+            }
+          }
+        ]
+      }
+    ]
+  }
+
+  return <>
+    {children}
+    {jsonLdSchema && (
+      <Script
+        id="salary-calculator-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      />
+    )}
+  </>;
 }

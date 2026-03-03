@@ -1,6 +1,8 @@
 {
   "pageTitle": "Height Calculator",
   "pageDescription": "Convert height between different units such as centimeters, meters, feet, and inches for medical, fitness, and general use",
+  "height_converter":"Height Converter",
+  "enter_height":"Convert your height into diffrent units.",
   "form": {
     "labels": {
       "inputUnit": "Input Unit",

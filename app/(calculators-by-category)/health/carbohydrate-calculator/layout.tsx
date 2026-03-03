@@ -16,8 +16,8 @@ const carbohydratecalculatorMeta = {
     keywords: "calculadora carboidratos, ingestão diária, consumir dia, dieta equilíbrio, energia saúde, precisa online, metas calculadora"
   },
   pl: {
-    title: "Kalkulator Węglowodanów – Spożycie Online | TheSmartCalculator",
-    description: "Użyj kalkulatora węglowodanów online, aby obliczyć dzienne spożycie węglowodanów i kalorie. Proste, dokładne i darmowe narzędzie dietetyczne do planowania.",
+    title: "Kalkulator węglowodanów – Kompletny przewodnik 2026",
+    description: "Kalkulator węglowodanów to narzędzie umożliwiające precyzyjne monitorowanie spożycia węglowodanów, białek i tłuszczy w codziennej diecie. Dzięki niemu możesz obliczyć ile węglowodanów dziennie kalkulator zaleca w Twoim przypadku, dostosować ilość węglowodanów do masy ciała (ile węglowodanów na kg masy kalkulator), a także planować diety ketogeniczne, low carb i dla cukrzyków.",
     keywords: "kalkulator węglowodanów, spożycie dzienne, obliczyć kalorie, narzędzie dietetyczne, online węglowodany, dokładne darmowe, planowanie diety"
   },
   de: {
@@ -92,97 +92,48 @@ export default async function CarbohydrateCalculatorLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const jsonLdSchema = {
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language = langHeader || 'en';
+
+  // Only add Polish-specific schema for Polish version
+  const jsonLdSchema = language === 'pl' ? {
     "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://www.thesmartcalculator.com/#website",
-        "url": "https://www.thesmartcalculator.com/",
-        "name": "Smart Calculator",
-        "publisher": {
-          "@type": "Organization",
-          "name": "Smart Calculator",
-          "url": "https://www.thesmartcalculator.com/"
-        }
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://www.thesmartcalculator.com/health/carbohydrate-calculator#webpage",
-        "url": "https://www.thesmartcalculator.com/health/carbohydrate-calculator",
-        "name": "Carbohydrate Calculator",
-        "isPartOf": { "@id": "https://www.thesmartcalculator.com/#website" },
-        "description": "Free Carbohydrate Calculator that estimates daily carb needs using Mifflin-St Jeor or Katch-McArdle BMR formulas, activity level, and g/kg bodyweight recommendations.",
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://www.thesmartcalculator.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Health Calculators",
-              "item": "https://www.thesmartcalculator.com/health/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Carbohydrate Calculator",
-              "item": "https://www.thesmartcalculator.com/health/carbohydrate-calculator"
-            }
-          ]
-        },
-        "mainEntity": {
-          "@type": "SoftwareApplication",
-          "name": "Carbohydrate Calculator",
-          "applicationCategory": "HealthApplication",
-          "operatingSystem": "Web",
-          "url": "https://www.thesmartcalculator.com/health/carbohydrate-calculator",
-          "description": "Calculate your daily carbohydrate needs based on your BMR, gender, age, weight, height, and activity level."
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How does the carbohydrate calculator work?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "It estimates your Basal Metabolic Rate (BMR) using either the Mifflin-St Jeor or Katch-McArdle formula, applies an activity multiplier to find your Total Daily Energy Expenditure (TDEE), and then converts a percentage of calories into grams of carbohydrates."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Which BMR formula should I use?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Mifflin-St Jeor is recommended for most people. If you know your body fat percentage, the Katch-McArdle formula provides a more accurate estimate of your calorie and carb needs."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How many carbs do I need per day?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "General guidelines recommend 45–65% of daily calories from carbohydrates. Athletes and active individuals may require 6–12 g/kg of bodyweight, while sedentary people may need closer to 3–5 g/kg."
-            }
-          }
-        ]
-      }
-    ]
-  }
+    "@type": "WebApplication",
+    "name": "Kalkulator węglowodanów",
+    "description": "Kalkulator węglowodanów to narzędzie umożliwiające precyzyjne monitorowanie spożycia węglowodanów, białek i tłuszczy w codziennej diecie. Dzięki niemu możesz obliczyć ile węglowodanów dziennie kalkulator zaleca w Twoim przypadku, dostosować ilość węglowodanów do masy ciała (ile węglowodanów na kg masy kalkulator), a także planować diety ketogeniczne, low carb i dla cukrzyków. Narzędzie pomaga także w analizie karmy dla zwierząt, co jest istotne dla właścicieli psów i kotów. W artykule przedstawiamy szczegółowe informacje, jak korzystać z kalkulatora węglowodanów, jakie funkcje oferuje i jakie są najlepsze praktyki.\n",
+    "applicationCategory": "HealthApplication",
+    "operatingSystem": "All",
+    "softwareVersion": "6.5.1",
+    "url": "https://www.thesmartcalculator.com/pl/zdrowie/kalkulator-weglowodanow",
+    "image": "https://cdn.sanity.io/images/f0wclefz/production/c206eff7e579f5a144deeb1478a03085d91ed96c-832x914.png",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "2800",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Simon Stephen"
+    }
+  } : null;
+
   return <>
     {children}
-    <Script
-      id="carbohydrate-calculator-jsonld"
-      type="application/ld+json"
-      strategy="afterInteractive"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
-    />
+    {jsonLdSchema && (
+      <Script
+        id="carbohydrate-calculator-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+      />
+    )}
   </>;
 }
