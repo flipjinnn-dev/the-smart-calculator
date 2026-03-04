@@ -9,11 +9,11 @@
       "heading": "What is an Interest Calculator?",
       "content": "An interest calculator is a digital tool designed to calculate the cost of borrowing or the growth of investments. It uses mathematical formulas to compute interest based on principal, rate, and time. There are various types of interest calculators, each tailored to specific needs:",
       "list": [
-        "**Simple Interest Calculators** – Calculate interest without compounding.",
-        "**Compound Interest Calculators** – Calculate interest on both principal and accumulated interest.",
-        "**Loan Interest Calculators** – Determine monthly or annual payments for loans.",
-        "**Savings Interest Calculators** – Show how deposits grow over time with interest.",
-        "**Credit Card Interest Calculators** – Estimate credit card charges based on APR and outstanding balance."
+        "Simple Interest Calculators – Calculate interest without compounding.",
+        "Compound Interest Calculators – Calculate interest on both principal and accumulated interest.",
+        "Loan Interest Calculators – Determine monthly or annual payments for loans.",
+        "Savings Interest Calculators – Show how deposits grow over time with interest.",
+        "Credit Card Interest Calculators – Estimate credit card charges based on APR and outstanding balance."
       ],
       "additionalContent": "With the rise of digital banking, online interest calculators have become widely accessible, enabling anyone to plan finances efficiently without manual computations."
     },
@@ -22,11 +22,11 @@
       "subSections": [
         {
           "heading": "1. Simple Interest Calculator",
-          "content": "A simple interest calculator uses the formula:\n\n**Simple Interest = Principal × Rate × Time**\n\nIt is ideal for short-term loans or investments with fixed interest rates."
+          "content": "A simple interest calculator uses the formula:\n\nSimple Interest = Principal × Rate × Time\n\nIt is ideal for short-term loans or investments with fixed interest rates."
         },
         {
           "heading": "2. Compound Interest Calculator",
-          "content": "Compound interest grows exponentially, as interest is earned on both the principal and previous interest. The formula is:\n\n**A = P(1 + r/n)^(nt)**\n\nWhere:\n• **A** = total amount\n• **P** = principal\n• **r** = annual interest rate\n• **n** = number of compounding periods per year\n• **t** = time in years\n\nAn interest calculator compounded daily or interest calculator compounded monthly can show how frequently compounding affects growth."
+          "content": "Compound interest grows exponentially, as interest is earned on both the principal and previous interest. The formula is:\n\nA = P(1 + r/n)^(nt)\n\nWhere:\n• A = total amount\n• P = principal\n• r = annual interest rate\n• n = number of compounding periods per year\n• t = time in years\n\nAn interest calculator compounded daily or interest calculator compounded monthly can show how frequently compounding affects growth."
         },
         {
           "heading": "3. Loan Interest Calculator",
@@ -55,11 +55,11 @@
       "heading": "Key Features to Look for in an Interest Calculator",
       "content": "When choosing an online calculator interest, consider these features:",
       "list": [
-        "**Multiple Compounding Options:** Daily, monthly, quarterly, or annually.",
-        "**Loan and Investment Modes:** Separate tools for different financial products.",
-        "**Extra Payment Options:** Helps users calculate the impact of additional contributions.",
-        "**Amortization Schedules:** Break down payments over time for loans.",
-        "**APY and APR Calculations:** Useful for comparing savings and borrowing products."
+        "Multiple Compounding Options: Daily, monthly, quarterly, or annually.",
+        "Loan and Investment Modes: Separate tools for different financial products.",
+        "Extra Payment Options: Helps users calculate the impact of additional contributions.",
+        "Amortization Schedules: Break down payments over time for loans.",
+        "APY and APR Calculations: Useful for comparing savings and borrowing products."
       ]
     },
     {
@@ -67,15 +67,15 @@
       "subSections": [
         {
           "heading": "Simple Interest Formula",
-          "content": "**I = P × r × t**\n\nWhere **I** is interest, **P** is principal, **r** is rate per annum, and **t** is time in years."
+          "content": "I = P × r × t\n\nWhere I is interest, P is principal, r is rate per annum, and t is time in years."
         },
         {
           "heading": "Compound Interest Formula",
-          "content": "**A = P(1 + r/n)^(n·t)**\n\nThis formula is foundational for interest calculator annual, interest calculator per annum, or any frequency-specific compounding calculator."
+          "content": "A = P(1 + r/n)^(n·t)\n\nThis formula is foundational for interest calculator annual, interest calculator per annum, or any frequency-specific compounding calculator."
         },
         {
           "heading": "Loan Amortization Formula",
-          "content": "**M = P × [r(1+r)^n] / [(1+r)^n - 1]**\n\nWhere **M** is monthly payment, **r** is monthly interest rate, and **n** is number of payments."
+          "content": "M = P × [r(1+r)^n] / [(1+r)^n - 1]\n\nWhere M is monthly payment, r is monthly interest rate, and n is number of payments."
         }
       ]
     },
@@ -103,11 +103,11 @@
     {
       "heading": "Common Use Cases of Interest Calculators",
       "list": [
-        "**Mortgage Planning** – Understanding monthly payments, total interest, and principal reduction.",
-        "**Car Loans** – Comparing financing options and early payoff strategies.",
-        "**Credit Card Debt** – Estimating monthly interest and managing balances.",
-        "**Savings Accounts** – Forecasting account growth and retirement planning.",
-        "**Investments** – Evaluating compound growth and effect of periodic contributions."
+        "Mortgage Planning – Understanding monthly payments, total interest, and principal reduction.",
+        "Car Loans – Comparing financing options and early payoff strategies.",
+        "Credit Card Debt – Estimating monthly interest and managing balances.",
+        "Savings Accounts – Forecasting account growth and retirement planning.",
+        "Investments – Evaluating compound growth and effect of periodic contributions."
       ]
     },
     {
@@ -118,10 +118,10 @@
       "heading": "Advanced Interest Calculators",
       "content": "Some online calculators include advanced features:",
       "list": [
-        "**Interest Calculator APR** – Compares loans with varying interest types.",
-        "**Interest Calculator Amortization** – Displays principal and interest breakdown.",
-        "**Interest Calculator Investment** – Accounts for varying rates, periodic deposits, or withdrawals.",
-        "**Interest Calculator Loan with Extra Payments** – Shows accelerated payoff strategies."
+        "Interest Calculator APR – Compares loans with varying interest types.",
+        "Interest Calculator Amortization – Displays principal and interest breakdown.",
+        "Interest Calculator Investment – Accounts for varying rates, periodic deposits, or withdrawals.",
+        "Interest Calculator Loan with Extra Payments – Shows accelerated payoff strategies."
       ],
       "additionalContent": "Such tools are essential for anyone seeking precise financial forecasts."
     },

@@ -85,6 +85,14 @@ export default function GamesPage() {
       icon:Coins,
       link:"/games/animal-wheel-spinner",
       gradient:"from-yellow-400 to-orange-500"
+    },
+    {
+      id:"anime-character-wheel",
+      title:"Anime Character Wheel",
+      description:"Use the Anime Character Wheel to spin and discover your favorite anime character instantly. Simple, fun, and inspiring.",
+      icon:Coins,
+      link:"/games/anime-character-wheel",
+      gradient:"from-yellow-400 to-orange-500"
     }
   ]
 
