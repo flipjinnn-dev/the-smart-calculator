@@ -6,8 +6,8 @@ import Link from "next/link"
 import { CheckCircle2, Target, TrendingUp, Brain, Zap, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: 'Play Wordle Online – Daily Puzzle & Unlimited',
-  description: 'Play Wordle online free. Solve the daily 5-letter Wordle today, get helpful hints, check answers, and enjoy unlimited Wordle practice anytime.',
+  title: 'Play Wordle Online Free – Daily 5 Letter Word Game',
+  description: 'Play Wordle online free and solve the daily 5 letter word puzzle. Get hints, check answers, and enjoy unlimited Wordle practice anytime in your browser.',
   keywords: 'wordle, word game, puzzle game, daily puzzle, word puzzle, wordle online, play wordle',
   alternates: {
     canonical: 'https://www.thesmartcalculator.com/games/wordle',

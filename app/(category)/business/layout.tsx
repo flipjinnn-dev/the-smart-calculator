@@ -5,13 +5,13 @@ import { getCategoryCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for business
 const businessMeta = {
   en: {
-    title: "Business Calculator – Startup & Entrepreneurship Tools | TheSmartCalculator",
-    description: "Use the Business Calculator for startups, entrepreneurship, and business planning. Accurate, free online tools for ROI, valuation, budgeting, and financial projections.",
+    title: "Business Calculators",
+    description: "Explore free Business Calculators to simplify finance, tax, profit, loan, and investment calculations. Accurate tools for smarter business decisions online.",
     keywords: "business calculator, startup tool, entrepreneurship calculator, business planning, ROI calculator, valuation tool, free business tools, financial projections"
   },
   br: {
-    title: "Calculadora Negócios – Ferramentas Startups | TheSmartCalculator",
-    description: "Use a Calculadora Negócios para startups, empreendedorismo e planejamento empresarial. Ferramentas gratuitas para ROI, avaliação, orçamento e projeções financeiras.",
+    title: "Calculadora de negocios",
+    description: "Use nossa Calculadora de Negocios gratuita para calcular lucros, impostos, empréstimos e investimentos. Ferramentas precisas para decisões de negócios inteligentes.",
     keywords: "calculadora negócios, ferramenta startup, calculadora empreendedorismo, planejamento empresarial, calculadora ROI, avaliação negócios, ferramentas gratuitas"
   },
   pl: {

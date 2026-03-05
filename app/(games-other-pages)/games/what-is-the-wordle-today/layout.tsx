@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Wordle Archive & History | Complete List of Past Wordle Answers",
-  description: "Browse the complete archive of past Wordle solutions. Search history by date, number, or word. Practice your skills with previous Wordle puzzles.",
+  title: "Wordle Today – Hints, Clues & Today’s Wordle Answer",
+  description: "Looking for Wordle today? Get today’s Wordle answer, hints, clues, and helpful tips to solve the daily 5 letter puzzle. Check the latest Wordle solution now.",
   keywords: ["wordle history", "wordle archive", "past wordle answers", "wordle solutions list", "wordle replay", "wordle unlimited"],
   openGraph: {
     title: "Wordle Archive - Complete History of Solutions",
