@@ -169,7 +169,7 @@ export default function UIFCalculatorClient({ content }: UIFCalculatorClientProp
             <CardContent className="p-8 space-y-6">
               <div className="space-y-3">
                 <Label className="text-base font-semibold text-gray-900">
-                  {contentData.monthlySalaryLabel || "Monthly Salary (R)"}
+                  Monthly Salary (R)
                 </Label>
                 <div className="relative">
                   <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
@@ -185,7 +185,7 @@ export default function UIFCalculatorClient({ content }: UIFCalculatorClientProp
 
               <div className="space-y-3">
                 <Label className="text-base font-semibold text-gray-900">
-                  {contentData.contributionMonthsLabel || "Contribution Months"}
+                  Contribution Months
                 </Label>
                 <div className="relative">
                   <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
@@ -201,7 +201,7 @@ export default function UIFCalculatorClient({ content }: UIFCalculatorClientProp
 
               <div className="space-y-3">
                 <Label className="text-base font-semibold text-gray-900">
-                  {contentData.claimTypeLabel || "Claim Type"}
+                  Claim Type
                 </Label>
                 <Select value={claimType} onValueChange={(value: ClaimType) => setClaimType(value)}>
                   <SelectTrigger className="h-12 border-2 focus:border-green-500">
@@ -219,14 +219,14 @@ export default function UIFCalculatorClient({ content }: UIFCalculatorClientProp
                   onClick={calculateUIF}
                   className="w-full h-14 text-xl bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 shadow-xl font-bold"
                 >
-                  {contentData.calculateButton || "Calculate UIF Benefits"}
+                  Calculate UIF Benefits
                 </Button>
                 <div className="grid grid-cols-2 gap-3">
                   <Button onClick={loadExample} variant="outline" className="h-12">
-                    {contentData.exampleButton || "Try Example"}
+                    Try Example
                   </Button>
                   <Button onClick={resetForm} variant="outline" className="h-12">
-                    {contentData.resetButton || "Reset"}
+                    Reset
                   </Button>
                 </div>
               </div>
@@ -236,7 +236,7 @@ export default function UIFCalculatorClient({ content }: UIFCalculatorClientProp
           <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24">
             <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b px-8 py-6">
               <CardTitle className="text-2xl">
-                {contentData.resultsTitle || "UIF Benefit Estimate"}
+                UIF Benefit Estimate
               </CardTitle>
               <CardDescription className="text-base">Your estimated benefits breakdown</CardDescription>
             </CardHeader>
@@ -285,13 +285,247 @@ export default function UIFCalculatorClient({ content }: UIFCalculatorClientProp
                 <div className="text-center py-12">
                   <FileText className="w-16 h-16 text-gray-300 mx-auto mb-4" />
                   <p className="text-gray-500 text-lg">
-                    {contentData.noResultsYet || "Enter your details to calculate UIF benefits"}
+                    Enter your details to calculate UIF benefits
                   </p>
                 </div>
               )}
             </CardContent>
           </Card>
         </div>
+
+        <Card className="shadow-xl border-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
+            <CardTitle className="text-2xl">UIF Calculator (South Africa) – Complete Guide</CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <p className="text-gray-700 mb-4">
+              This guide explains how the UIF calculator online South Africa works, how UIF benefits are calculated, and how to estimate your unemployment or maternity payouts.
+            </p>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <h3 className="font-bold text-gray-900 mb-3">Topics covered:</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• What UIF is and how contributions work</li>
+                <li>• The UIF calculation formula</li>
+                <li>• Using a UIF unemployment benefit calculator</li>
+                <li>• UIF calculator for maternity leave</li>
+                <li>• UIF deduction calculator South Africa</li>
+                <li>• Real UIF calculation examples</li>
+              </ul>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-xl border-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
+            <CardTitle className="text-2xl">What Is UIF in South Africa?</CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <p className="text-gray-700 mb-4">
+              The Unemployment Insurance Fund (UIF) is a government program managed by the Department of Employment and Labour in South Africa. It provides short-term financial relief to workers who:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="bg-green-50 p-4 rounded-lg border border-green-200">
+                <p className="text-gray-700">• Become unemployed</p>
+              </div>
+              <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                <p className="text-gray-700">• Take maternity leave</p>
+              </div>
+              <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
+                <p className="text-gray-700">• Are unable to work due to illness</p>
+              </div>
+              <div className="bg-pink-50 p-4 rounded-lg border border-pink-200">
+                <p className="text-gray-700">• Go on adoption or parental leave</p>
+              </div>
+              <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                <p className="text-gray-700">• Lose income due to reduced working hours</p>
+              </div>
+            </div>
+            <p className="text-gray-700 mt-4">
+              Both employees and employers contribute to UIF every month. A UIF contribution calculator South Africa helps determine these deductions from your salary.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-xl border-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
+            <CardTitle className="text-2xl">What Is UIF Calculated On?</CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <p className="text-gray-700 mb-4">
+              Many workers ask: "What is UIF calculated on?"
+            </p>
+            <p className="text-gray-700 mb-4">
+              UIF is calculated based on:
+            </p>
+            <div className="space-y-3">
+              <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+                <p className="font-semibold text-gray-900">Monthly salary</p>
+              </div>
+              <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+                <p className="font-semibold text-gray-900">UIF contribution rate</p>
+              </div>
+              <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+                <p className="font-semibold text-gray-900">Contribution period</p>
+              </div>
+              <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+                <p className="font-semibold text-gray-900">Income Replacement Rate (IRR)</p>
+              </div>
+            </div>
+            <div className="mt-4 bg-green-50 p-4 rounded-lg">
+              <h4 className="font-bold text-gray-900 mb-2">Key points:</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li>• UIF contribution = 2% of gross salary</li>
+                <li>• Maximum contribution threshold applies</li>
+                <li>• Benefits depend on credits accumulated</li>
+              </ul>
+            </div>
+            <p className="text-gray-700 mt-4">
+              A UIF benefits calculator South Africa automatically applies these rules to estimate payouts.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-xl border-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
+            <CardTitle className="text-2xl">UIF Contribution Calculation (Monthly Deductions)</CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <p className="text-gray-700 mb-4">
+              Before calculating benefits, you must understand how contributions work.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6">
+              <h3 className="font-bold text-lg text-gray-900 mb-3">UIF Contribution Rate</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• Employee contribution: <strong>1%</strong></li>
+                <li>• Employer contribution: <strong>1%</strong></li>
+                <li>• Total: <strong>2%</strong></li>
+              </ul>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
+              <h3 className="font-bold text-lg text-gray-900 mb-3">Example</h3>
+              <p className="text-gray-700 mb-2">If your salary is <strong>R20,000 per month</strong></p>
+              <div className="space-y-2 mt-4">
+                <p className="text-gray-700">Employee UIF deduction: <strong>R20,000 × 1% = R200</strong></p>
+                <p className="text-gray-700">Employer contribution: <strong>R20,000 × 1% = R200</strong></p>
+                <p className="text-gray-900 font-bold text-lg mt-2">Total UIF contribution: R400 per month</p>
+              </div>
+            </div>
+            <p className="text-gray-700 mt-4">
+              A UIF deduction calculator South Africa helps estimate these deductions automatically.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-xl border-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
+            <CardTitle className="text-2xl">UIF Calculation Formula (Benefits)</CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <p className="text-gray-700 mb-6">
+              The official UIF calculation formula determines the daily benefit amount.
+            </p>
+            <div className="space-y-6">
+              <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">Step 1: Calculate Daily Salary</h3>
+                <p className="text-gray-700 font-mono text-lg">Monthly Salary ÷ 30 = Daily Income</p>
+              </div>
+              <div className="bg-indigo-50 p-6 rounded-lg border-l-4 border-indigo-500">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">Step 2: Apply Income Replacement Rate (IRR)</h3>
+                <p className="text-gray-700 mb-2">The IRR ranges from: <strong>38% – 60%</strong></p>
+                <p className="text-gray-600 text-sm">Lower salaries receive a higher percentage.</p>
+              </div>
+              <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">Step 3: Calculate Daily UIF Benefit</h3>
+                <p className="text-gray-700 font-mono text-lg">Daily Income × IRR = Daily Benefit</p>
+              </div>
+              <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">Step 4: Multiply by Payable Days</h3>
+                <p className="text-gray-700 font-mono text-lg">Daily Benefit × number of claim days</p>
+              </div>
+            </div>
+            <p className="text-gray-700 mt-6">
+              A UIF unemployment calculator performs this entire process instantly.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-xl border-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
+            <CardTitle className="text-2xl">How Do You Calculate UIF Benefits?</CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <p className="text-gray-700 mb-4">
+              Many people ask: <strong>How do you calculate UIF benefits manually?</strong>
+            </p>
+            <p className="text-gray-700 mb-4">Follow these steps:</p>
+            <div className="bg-gray-50 p-6 rounded-lg mb-6">
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-2">Step 1: Determine Salary</h4>
+                  <p className="text-gray-700">Example salary: <strong>R15,000 per month</strong></p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-2">Step 2: Calculate Daily Rate</h4>
+                  <p className="text-gray-700">15,000 ÷ 30 = <strong>R500</strong></p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-2">Step 3: Apply IRR (example 50%)</h4>
+                  <p className="text-gray-700">500 × 50% = <strong>R250</strong></p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-2">Step 4: Monthly Benefit Estimate</h4>
+                  <p className="text-gray-700">R250 × 30 = <strong>R7,500</strong></p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
+              <p className="text-gray-900 font-bold text-lg">
+                This means the worker could receive approximately: <span className="text-green-700">R7,500 per month</span> from UIF.
+              </p>
+            </div>
+            <p className="text-gray-700 mt-4">
+              A UIF benefits calculator simplifies this process.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-xl border-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
+            <CardTitle className="text-2xl">UIF Calculation Example (Realistic Scenario)</CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <p className="text-gray-700 mb-4">Here is a practical UIF calculation example.</p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6">
+              <p className="text-gray-700 mb-4">Employee salary: <strong>R18,000 per month</strong></p>
+              <div className="space-y-3">
+                <div className="flex justify-between py-2 border-b border-blue-200">
+                  <span className="font-semibold text-gray-700">Daily Income</span>
+                  <span className="font-bold text-gray-900">18,000 ÷ 30 = R600</span>
+                </div>
+                <div className="flex justify-between py-2 border-b border-blue-200">
+                  <span className="font-semibold text-gray-700">Estimated IRR</span>
+                  <span className="font-bold text-gray-900">45%</span>
+                </div>
+                <div className="flex justify-between py-2 border-b border-blue-200">
+                  <span className="font-semibold text-gray-700">Daily Benefit</span>
+                  <span className="font-bold text-gray-900">600 × 45% = R270</span>
+                </div>
+                <div className="flex justify-between py-2">
+                  <span className="font-semibold text-gray-700">Monthly UIF Benefit</span>
+                  <span className="font-bold text-green-600 text-lg">R270 × 30 = R8,100</span>
+                </div>
+              </div>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
+              <p className="text-gray-900 font-bold text-lg">
+                Estimated UIF payout: <span className="text-green-700">R8,100 per month</span>
+              </p>
+            </div>
+            <p className="text-gray-700 mt-4">
+              A UIF calculator payout tool can estimate this automatically.
+            </p>
+          </CardContent>
+        </Card>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           <Card className="shadow-xl border-0 bg-white">
@@ -413,67 +647,6 @@ export default function UIFCalculatorClient({ content }: UIFCalculatorClientProp
           </CardContent>
         </Card>
 
-        <Card className="shadow-xl border-0 bg-white mb-12">
-          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
-            <CardTitle className="flex items-center space-x-2 text-2xl">
-              <HelpCircle className="w-6 h-6 text-green-600" />
-              <span>Frequently Asked Questions</span>
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="p-6">
-            <div className="space-y-6">
-              <div className="border-b pb-4">
-                <h3 className="font-bold text-lg text-gray-900 mb-2">What is a UIF calculator?</h3>
-                <p className="text-gray-700">
-                  A UIF calculator estimates how much money you may receive from the Unemployment Insurance Fund if you become unemployed or take maternity leave.
-                </p>
-              </div>
-
-              <div className="border-b pb-4">
-                <h3 className="font-bold text-lg text-gray-900 mb-2">How do you calculate UIF benefits?</h3>
-                <p className="text-gray-700">
-                  UIF benefits are calculated using: Daily income, Income Replacement Rate (38%-60% depending on income), and Contribution credits. A UIF benefits calculator automatically performs this calculation.
-                </p>
-              </div>
-
-              <div className="border-b pb-4">
-                <h3 className="font-bold text-lg text-gray-900 mb-2">How to calculate how much UIF I will get?</h3>
-                <p className="text-gray-700">
-                  Multiply your salary by approximately 38%–60%, depending on your income level. A UIF calculator South Africa provides a more accurate estimate based on your specific circumstances.
-                </p>
-              </div>
-
-              <div className="border-b pb-4">
-                <h3 className="font-bold text-lg text-gray-900 mb-2">What is UIF calculated on?</h3>
-                <p className="text-gray-700">
-                  UIF is calculated based on: Monthly salary, UIF contribution history, Income replacement rate (which varies by income level), and Credit days accumulated through contributions.
-                </p>
-              </div>
-
-              <div className="border-b pb-4">
-                <h3 className="font-bold text-lg text-gray-900 mb-2">Is there a UIF calculator for maternity leave?</h3>
-                <p className="text-gray-700">
-                  Yes. A UIF calculator for maternity leave estimates payments during maternity leave based on your salary and UIF contributions. Maternity benefits are available for up to 121 days.
-                </p>
-              </div>
-
-              <div className="border-b pb-4">
-                <h3 className="font-bold text-lg text-gray-900 mb-2">What is a UIF deduction calculator South Africa?</h3>
-                <p className="text-gray-700">
-                  A UIF deduction calculator South Africa estimates monthly deductions from your salary (1%) and your employer's contribution (1%), totaling 2% of your gross salary.
-                </p>
-              </div>
-
-              <div className="pb-4">
-                <h3 className="font-bold text-lg text-gray-900 mb-2">Is there a UIF calculator online South Africa?</h3>
-                <p className="text-gray-700">
-                  Yes. Many websites offer a UIF calculator online South Africa where you can enter your salary to estimate benefits instantly. This calculator is one such tool.
-                </p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           <Card className="shadow-xl border-0 bg-white">
             <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
@@ -507,6 +680,9 @@ export default function UIFCalculatorClient({ content }: UIFCalculatorClientProp
                   </tbody>
                 </table>
               </div>
+              <p className="text-gray-700 mt-4">
+                A UIF unemployment benefit calculator factors this into your payout estimate.
+              </p>
             </CardContent>
           </Card>
 
@@ -546,9 +722,38 @@ export default function UIFCalculatorClient({ content }: UIFCalculatorClientProp
                   </tbody>
                 </table>
               </div>
+              <p className="text-gray-700 mt-4">
+                A UIF calculator payout tool gives more accurate estimates.
+              </p>
             </CardContent>
           </Card>
         </div>
+
+        <Card className="shadow-xl border-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
+            <CardTitle className="text-2xl">Common Mistakes When Calculating UIF</CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <p className="text-gray-700 mb-6">Many workers miscalculate UIF benefits. Common mistakes include:</p>
+            <div className="space-y-4">
+              <div className="bg-red-50 p-4 rounded-lg border-l-4 border-red-500">
+                <h4 className="font-bold text-gray-900 mb-2">Ignoring Salary Caps</h4>
+                <p className="text-gray-700 text-sm">UIF calculations may use a maximum salary threshold.</p>
+              </div>
+              <div className="bg-orange-50 p-4 rounded-lg border-l-4 border-orange-500">
+                <h4 className="font-bold text-gray-900 mb-2">Forgetting Contribution Months</h4>
+                <p className="text-gray-700 text-sm">UIF benefits depend on how long you contributed.</p>
+              </div>
+              <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500">
+                <h4 className="font-bold text-gray-900 mb-2">Using Gross Salary Incorrectly</h4>
+                <p className="text-gray-700 text-sm">Some calculators require capped earnings, not full salary.</p>
+              </div>
+            </div>
+            <p className="text-gray-700 mt-6">
+              Using a UIF benefits calculator South Africa avoids these errors.
+            </p>
+          </CardContent>
+        </Card>
 
         <Card className="shadow-xl border-0 bg-white mb-12">
           <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
@@ -620,44 +825,128 @@ export default function UIFCalculatorClient({ content }: UIFCalculatorClientProp
           </CardContent>
         </Card>
 
-        <Card className="shadow-xl border-0 bg-white">
+        <Card className="shadow-xl border-0 bg-white mb-12">
           <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
-            <CardTitle className="text-2xl">How to Apply for UIF</CardTitle>
+            <CardTitle className="text-2xl">How to Claim UIF Benefits</CardTitle>
           </CardHeader>
           <CardContent className="p-6">
+            <p className="text-gray-700 mb-6">Steps to claim UIF in South Africa:</p>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Register at your nearest Labour Centre</h4>
-                  <p className="text-gray-600 text-sm">Bring your ID, proof of employment termination, and banking details.</p>
+                  <h4 className="font-semibold text-gray-900">Register at the Department of Employment and Labour</h4>
+                  <p className="text-gray-600 text-sm">Visit your nearest labour centre with required documents.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">2</div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Complete the UI-2.8 form</h4>
-                  <p className="text-gray-600 text-sm">Your employer must complete the UI-19 form for you.</p>
+                  <h4 className="font-semibold text-gray-900">Submit required documents</h4>
+                  <p className="text-gray-600 text-sm">ID, proof of employment termination, banking details, and payslips.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">3</div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Submit required documents</h4>
-                  <p className="text-gray-600 text-sm">ID copy, service certificate, last 6 payslips, and banking details.</p>
+                  <h4 className="font-semibold text-gray-900">Complete claim forms</h4>
+                  <p className="text-gray-600 text-sm">Fill out UI-2.8 form and ensure employer completes UI-19 form.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">4</div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Wait for approval</h4>
-                  <p className="text-gray-600 text-sm">Processing typically takes 6-8 weeks. Check your status online.</p>
+                  <h4 className="font-semibold text-gray-900">Wait for verification</h4>
+                  <p className="text-gray-600 text-sm">Processing typically takes 6-8 weeks.</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">5</div>
+                <div>
+                  <h4 className="font-semibold text-gray-900">Receive payments</h4>
+                  <p className="text-gray-600 text-sm">Payments are made directly to your bank account.</p>
                 </div>
               </div>
             </div>
+            <p className="text-gray-700 mt-6">
+              Many people first estimate payments using a UIF calculator online.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-xl border-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
+            <CardTitle className="flex items-center space-x-2 text-2xl">
+              <HelpCircle className="w-6 h-6 text-green-600" />
+              <span>Frequently Asked Questions</span>
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <div className="space-y-6">
+              <div className="border-b pb-4">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">What is a UIF calculator?</h3>
+                <p className="text-gray-700">
+                  A UIF calculator estimates how much money you may receive from the Unemployment Insurance Fund if you become unemployed or take maternity leave.
+                </p>
+              </div>
+
+              <div className="border-b pb-4">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">How do you calculate UIF benefits?</h3>
+                <p className="text-gray-700">
+                  UIF benefits are calculated using: Daily income, Income Replacement Rate (38%-60% depending on income), and Contribution credits. A UIF benefits calculator automatically performs this calculation.
+                </p>
+              </div>
+
+              <div className="border-b pb-4">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">How to calculate how much UIF I will get?</h3>
+                <p className="text-gray-700">
+                  Multiply your salary by approximately 38%–60%, depending on your income level. A UIF calculator South Africa provides a more accurate estimate based on your specific circumstances.
+                </p>
+              </div>
+
+              <div className="border-b pb-4">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">What is UIF calculated on?</h3>
+                <p className="text-gray-700">
+                  UIF is calculated based on: Monthly salary, UIF contribution history, Income replacement rate (which varies by income level), and Credit days accumulated through contributions.
+                </p>
+              </div>
+
+              <div className="border-b pb-4">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">Is there a UIF calculator for maternity leave?</h3>
+                <p className="text-gray-700">
+                  Yes. A UIF calculator for maternity leave estimates payments during maternity leave based on your salary and UIF contributions. Maternity benefits are available for up to 121 days.
+                </p>
+              </div>
+
+              <div className="border-b pb-4">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">What is a UIF deduction calculator South Africa?</h3>
+                <p className="text-gray-700">
+                  A UIF deduction calculator South Africa estimates monthly deductions from your salary (1%) and your employer's contribution (1%), totaling 2% of your gross salary.
+                </p>
+              </div>
+
+              <div className="pb-4">
+                <h3 className="font-bold text-lg text-gray-900 mb-2">Is there a UIF calculator online South Africa?</h3>
+                <p className="text-gray-700">
+                  Yes. Many websites offer a UIF calculator online South Africa where you can enter your salary to estimate benefits instantly. This calculator is one such tool.
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-xl border-0 bg-white">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50 border-b">
+            <CardTitle className="text-2xl">Final Summary</CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <p className="text-gray-700 text-lg leading-relaxed">
+              A UIF calculator South Africa helps workers estimate unemployment or maternity benefits from the Unemployment Insurance Fund. The calculation depends on your monthly salary, contribution period, and income replacement rate, typically paying 38%–60% of earnings for up to 365 days depending on credits.
+            </p>
           </CardContent>
         </Card>
       </div>
     </div>
   );
 }
+

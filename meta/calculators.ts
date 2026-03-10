@@ -3733,7 +3733,7 @@ export const calculatorsMeta: CalculatorMeta = {
     en: {
       title: "Board and Batten Calculator - Estimate Boards, Battens & Spacing",
       description: "Quickly calculate boards, battens, spacing, and siding materials for your wall project with our easy Board and Batten Calculator.",
-      slug: "/construction/board-and-batten-siding-calculator",
+      slug: "/construction/board-and-batten-calculator",
       keywords: "board and batten calculator, board and batten siding calculator, board and batten wall calculator, board and batten spacing calculator, DIY board and batten calculator"
     }
   },
