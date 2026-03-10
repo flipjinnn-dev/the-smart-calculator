@@ -1,0 +1,15 @@
+{
+  "calculatorTitle": "Board and Batten Calculator",
+  "calculatorDescription": "Calculate boards, battens, spacing, and siding materials for your wall project",
+  "wallWidthLabel": "Wall Width",
+  "wallHeightLabel": "Wall Height",
+  "boardWidthLabel": "Board Width",
+  "boardSpacingLabel": "Board Spacing",
+  "doorsWindowsLabel": "Doors & Windows Area (Optional)",
+  "unitLabel": "Unit",
+  "calculateButton": "Calculate Materials",
+  "exampleButton": "Try Example",
+  "resetButton": "Reset",
+  "resultsTitle": "Estimated Materials",
+  "noResultsYet": "Enter dimensions and click Calculate to see results"
+}

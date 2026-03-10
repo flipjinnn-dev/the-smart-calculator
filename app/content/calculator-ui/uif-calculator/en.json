@@ -1,0 +1,12 @@
+{
+  "calculatorTitle": "UIF Calculator (South Africa)",
+  "calculatorDescription": "Estimate your unemployment and maternity benefits",
+  "monthlySalaryLabel": "Monthly Salary (R)",
+  "contributionMonthsLabel": "Contribution Months",
+  "claimTypeLabel": "Claim Type",
+  "calculateButton": "Calculate UIF Benefits",
+  "exampleButton": "Try Example",
+  "resetButton": "Reset",
+  "resultsTitle": "UIF Benefit Estimate",
+  "noResultsYet": "Enter your details to calculate UIF benefits"
+}

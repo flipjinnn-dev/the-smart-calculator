@@ -23,6 +23,8 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'interest-rate-calculator') return 'interest-rate-calculator';
   if (id === 'income-tax-calculator') return 'income-tax-calculator';
   if (id === 'salary-calculator') return 'salary-calculator';
+  if (id === 'uif-calculator') return 'uif-calculator';
+  if (id === 'vancomycin-calculator') return 'vancomycin-calculator';
   if (id === 'compound-interest') return 'compound-interest-calculator';
   if (id === 'interest') return 'interest-calculator';
   if (id === 'payment') return 'payment-calculator';
@@ -245,6 +247,20 @@ export const calculators: Calculator[] = [
     description: "Calculate your take-home pay after taxes and deductions",
     href: "/financial/salary-calculator",
     category: "financial",
+  },
+  {
+    id: "uif-calculator",
+    name: "UIF Calculator",
+    description: "Calculate unemployment and maternity benefits in South Africa",
+    href: "/uif-calculator",
+    category: "other",
+  },
+  {
+    id: "vancomycin-calculator",
+    name: "Vancomycin Calculator",
+    description: "Calculate vancomycin dosing, AUC, trough levels for clinical use",
+    href: "/health/vancomycin-calculator",
+    category: "health",
   },
   {
     id: "loan-calculator",
@@ -575,6 +591,13 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
+    id:"inflection-point-calculator",
+    name:"Inflection Point Calculator",
+    description:"Find inflection points where a function changes concavity.",
+    href:"/maths/inflection-point-calculator",
+    category:"maths",
+  },
+  {
     id:"empirical-rule-calculator",
     name:"Empirical Rule Calculator",
     description:"Calculate the empirical rule for a given set of data.",
@@ -696,8 +719,15 @@ export const calculators: Calculator[] = [
   {
     id: "conservation-of-momentum",
     name: "Conservation of Momentum Calculator",
-    description: "Calculate the conservation of momentum in collisions.",
+    description: "Calculate momentum before and after collisions using conservation laws",
     href: "/physics/conservation-of-momentum-calculator",
+    category: "physics",
+  },
+  {
+    id: "power-to-weight-ratio",
+    name: "Power-to-Weight Ratio Calculator",
+    description: "Calculate acceleration & efficiency of cars, bikes, F1 cars, or cyclists",
+    href: "/physics/power-to-weight-ratio-calculator",
     category: "physics",
   },
   // Construction Calculators
@@ -744,6 +774,20 @@ export const calculators: Calculator[] = [
     href: "/construction/paver-base-calculator",
     category: "construction",
     popular: true
+  },
+  {
+    id: "angle-weight-calculator",
+    name: "Angle Weight Calculator",
+    description: "Calculate steel, MS, SS, and aluminum angle weight in kg",
+    href: "/construction/angle-weight-calculator",
+    category: "construction"
+  },
+  {
+    id: "board-and-batten-calculator",
+    name: "Board and Batten Calculator",
+    description: "Calculate boards, battens, spacing, and siding materials for wall projects",
+    href: "/construction/board-and-batten-calculator",
+    category: "construction"
   },
   // Food Calculators
   {

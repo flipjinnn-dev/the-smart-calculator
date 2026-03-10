@@ -1,0 +1,15 @@
+{
+  "calculatorTitle": "Vancomycin Calculator",
+  "calculatorDescription": "Calculate vancomycin dosing, AUC, and trough levels",
+  "weightLabel": "Patient Weight (kg)",
+  "ageLabel": "Age (years)",
+  "creatinineLabel": "Serum Creatinine (mg/dL)",
+  "genderLabel": "Gender",
+  "infectionTypeLabel": "Infection Severity",
+  "dialysisLabel": "Dialysis Status",
+  "calculateButton": "Calculate Vancomycin Dose",
+  "exampleButton": "Try Example",
+  "resetButton": "Reset",
+  "resultsTitle": "Vancomycin Dosing Results",
+  "noResultsYet": "Enter patient details to calculate vancomycin dosing"
+}

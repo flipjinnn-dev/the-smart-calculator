@@ -56,7 +56,8 @@ const ENGLISH_ONLY_PATHS = [
   '/financial/bank-statement-converter',
   '/end-of-service-calculator',
   '/games/animal-wheel-spinner',
-  '/ovr-calculator'
+  '/ovr-calculator','/construction/board-and-batten-calculator',
+  '/physics/power-to-weight-ratio-calculator'
 ]
 
 const LANGUAGES = [

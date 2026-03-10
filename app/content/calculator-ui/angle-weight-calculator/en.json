@@ -1,0 +1,27 @@
+{
+  "calculatorTitle": "Angle Weight Calculator",
+  "calculatorDescription": "Calculate the weight of steel, MS, SS, and aluminum angle bars based on dimensions and length",
+  "materialLabel": "Material Type",
+  "angleTypeLabel": "Angle Type",
+  "leg1Label": "Leg 1 (Width 1)",
+  "leg2Label": "Leg 2 (Width 2)",
+  "thicknessLabel": "Wall Thickness",
+  "lengthLabel": "Length",
+  "dimensionUnitLabel": "Dimension Unit",
+  "lengthUnitLabel": "Length Unit",
+  "calculateButton": "Calculate Weight",
+  "exampleButton": "Try Example",
+  "resetButton": "Reset",
+  "steps": "Calculation Results",
+  "resultsTitle": "Weight Results",
+  "noResultsYet": "Enter dimensions and click Calculate to see results",
+  "materials": {
+    "mild_steel": "Mild Steel (MS)",
+    "stainless_steel": "Stainless Steel (SS)",
+    "aluminum": "Aluminum"
+  },
+  "angleTypes": {
+    "equal": "Equal Angle",
+    "unequal": "Unequal Angle"
+  }
+}

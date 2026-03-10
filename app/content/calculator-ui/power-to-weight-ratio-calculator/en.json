@@ -1,0 +1,14 @@
+{
+  "calculatorTitle": "Power-to-Weight Ratio Calculator",
+  "calculatorDescription": "Calculate acceleration & efficiency of cars, bikes, F1 cars, or cyclists",
+  "powerOutputLabel": "Power Output",
+  "weightLabel": "Weight / Mass",
+  "powerUnitLabel": "Power Unit",
+  "weightUnitLabel": "Weight Unit",
+  "vehicleTypeLabel": "Vehicle Type (Optional)",
+  "calculateButton": "Calculate Ratio",
+  "exampleButton": "Try Example",
+  "resetButton": "Reset",
+  "resultsTitle": "Power-to-Weight Ratio",
+  "noResultsYet": "Enter power and weight to calculate ratio"
+}

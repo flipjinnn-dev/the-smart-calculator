@@ -78,13 +78,7 @@ export const games: Game[] = [
     href: "/games/age-generator-wheel",
   },
   {
-    id:"anime-character-wheel",
-    name:"Anime Character Wheel",
-    description:"Spin the wheel to pick random anime characters",
-    href:"/games/anime-character-wheel",
-  },
-  {
-    id:"anime-character-wheel",
+    id:"anime-character-wheel-game",
     name:"Anime Character Wheel",
     description:"Spin the wheel to pick random anime characters",
     href:"/games/anime-character-wheel",

@@ -1,0 +1,18 @@
+{
+  "pageTitle": "Inflection Point Calculator (Concavity & Point of Inflection Guide)",
+  "pageDescription": "Find inflection points and analyze concavity of functions with step-by-step solutions. Determine where curves change from concave up to concave down.",
+  "calculatorTitle": "Inflection Point Finder",
+  "calculatorDescription": "Enter your function to find inflection points and concavity intervals automatically",
+  "functionLabel": "Function f(x)",
+  "functionPlaceholder": "e.g., x^3 - 3*x^2 + 2",
+  "functionHelper": "Use x for variable. Supported: ^, *, +, -, /, sin, cos, tan, sqrt, log, ln, pi, e",
+  "calculateButton": "Calculate",
+  "exampleButton": "Example",
+  "resultsTitle": "Results",
+  "noResultsYet": "Enter function and click Calculate to find inflection points",
+  "inflectionPointsFound": "Inflection Points Found",
+  "concaveUpIntervals": "Concave Up Intervals",
+  "concaveDownIntervals": "Concave Down Intervals",
+  "noInflectionPoints": "No inflection points found",
+  "steps": "Step-by-Step Solution"
+}

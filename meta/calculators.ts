@@ -3712,5 +3712,53 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/ovr-calculator",
       keywords: "ovr calculator, overall rating calculator, fc mobile ovr calculator, ovr calculator fifa mobile, ovr calculator ea fc, how to calculate ovr in fifa, team ovr calculator in fc mobile, ovr calculator renderz, ovr calculator online, ovr calculator fc 26"
     }
+  },
+  "inflection-point-calculator": {
+    en: {
+      title: "Inflection Point Calculator – Find Curve Inflections",
+      description: "Use an inflection point calculator to find where a function changes concavity. Solve calculus problems online with steps and graphs.",
+      slug: "/maths/inflection-point-calculator",
+      keywords: "inflection point calculator, concavity calculator, point of inflection, calculus calculator, second derivative, curve analysis, inflection points and concavity calculator, critical and inflection point calculator"
+    }
+  },
+  "angle-weight-calculator": {
+    en: {
+      title: "Angle Weight Calculator - Calculate Steel & MS Angle Weight in KG",
+      description: "Use our angle weight calculator to find steel, MS, SS, and aluminum angle weight in kg. Includes formula, chart, and online calculator.",
+      slug: "/construction/angle-weight-calculator",
+      keywords: "angle weight calculator, steel angle weight calculator, MS angle weight calculator, angle weight calculation formula, equal angle weight calculator, unequal angle weight calculator, angle weight chart, angle bar weight calculator, ss angle weight calculator, aluminum angle weight calculator, angle iron weight calculator, l angle weight calculator, angle section weight calculator, angle weight calculator in kg, angle weight calculator online, angle weight calculator excel, angle weight chart pdf"
+    }
+  },
+  "board-and-batten-calculator": {
+    en: {
+      title: "Board and Batten Calculator - Estimate Boards, Battens & Spacing",
+      description: "Quickly calculate boards, battens, spacing, and siding materials for your wall project with our easy Board and Batten Calculator.",
+      slug: "/construction/board-and-batten-siding-calculator",
+      keywords: "board and batten calculator, board and batten siding calculator, board and batten wall calculator, board and batten spacing calculator, DIY board and batten calculator"
+    }
+  },
+  "power-to-weight-ratio-calculator": {
+    en: {
+      title: "Power-to-Weight Ratio Calculator - Calculate Acceleration & Efficiency",
+      description: "Calculate acceleration & efficiency of cars, bikes, F1 cars, or cyclists with our Power-to-Weight Ratio Calculator. Compare performance instantly!",
+      slug: "/physics/power-to-weight-ratio-calculator",
+      keywords: "power-to-weight ratio calculator, power to weight ratio, car power-to-weight ratio, cycling power-to-weight ratio, F1 car power-to-weight ratio, motorcycle power-to-weight ratio, hp/lb calculator, kW/kg calculator"
+    }
+  },
+  "uif-calculator": {
+    en: { 
+      title: "UIF Calculator South Africa Payout Tools",
+      description: "Use this UIF calculator to estimate unemployment and maternity payouts in South Africa. Calculate UIF contributions, deductions, and benefits online.",
+      slug: "/uif-calculator",
+      keywords: "UIF calculator, UIF calculator South Africa, UIF benefits calculator, UIF unemployment calculator, UIF maternity calculator, UIF deduction calculator, UIF contribution calculator, UIF calculator online, UIF payout calculator, UIF maternity leave calculator South Africa"
+    }
+  },
+  "vancomycin-calculator": {
+    en: {
+      title: "Vancomycin Calculator | AUC, Dose & Trough",
+      description: "Use our vancomycin calculator to estimate AUC, dose, trough levels, and dosing for pediatrics, renal impairment, and hemodialysis patients.",
+      slug: "/health/vancomycin-calculator",
+      keywords: "vancomycin calculator, vancomycin dosing calculator, vancomycin auc calculator, vancomycin calculator trough, vancomycin dose calculator, vancomycin calculator loading dose, vancomycin calculator pediatric, vancomycin calculator for hemodialysis, vancomycin dosing calculator hemodialysis, vancomycin calculator renal impairment, vancomycin clinical calculator, vancomycin calculator with trough"
+    }
   }
 };
