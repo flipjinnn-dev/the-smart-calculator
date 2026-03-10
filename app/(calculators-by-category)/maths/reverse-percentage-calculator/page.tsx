@@ -12,6 +12,10 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: "reverse percentage calculator, reverse percentages calculator, reverse percentage calculator online, reverse percentage discount calculator, reverse percentage formula, how to calculate reverse percentages",
     alternates: {
       canonical: canonicalUrl,
+      languages: {
+        'x-default': canonicalUrl,
+        'en': canonicalUrl,
+      }
     },
     openGraph: {
       title: "Reverse Percentage Calculator – Find Original Prices Fast",

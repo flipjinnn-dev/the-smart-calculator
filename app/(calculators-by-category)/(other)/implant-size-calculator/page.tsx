@@ -12,6 +12,10 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: "breast implant calculator, breast implant size calculator, breast implant cc calculator, implant size chart, breast augmentation calculator, breast implant cup size calculator",
     alternates: {
       canonical: canonicalUrl,
+      languages: {
+        'x-default': canonicalUrl,
+        'en': canonicalUrl,
+      }
     },
     openGraph: {
       title: "Breast Implant Size Calculator – Find Your Perfect Fit",

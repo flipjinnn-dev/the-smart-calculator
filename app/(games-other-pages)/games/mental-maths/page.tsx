@@ -10,10 +10,6 @@ export const metadata: Metadata = {
         languages: {
             'x-default': 'https://www.thesmartcalculator.com/games/mental-maths',
             'en': 'https://www.thesmartcalculator.com/games/mental-maths',
-            'pt-BR': 'https://www.thesmartcalculator.com/games/mental-maths',
-            'pl': 'https://www.thesmartcalculator.com/games/mental-maths',
-            'de': 'https://www.thesmartcalculator.com/games/mental-maths',
-            'es': 'https://www.thesmartcalculator.com/games/mental-maths',
         }
     },
     openGraph: {

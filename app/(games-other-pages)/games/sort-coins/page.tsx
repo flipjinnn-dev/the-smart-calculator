@@ -7,6 +7,10 @@ export const metadata = {
   keywords: 'coin sorting game, merge game, kids game, educational game, puzzle game',
   alternates: {
     canonical: 'https://www.thesmartcalculator.com/games/sort-coins',
+    languages: {
+      'x-default': 'https://www.thesmartcalculator.com/games/sort-coins',
+      'en': 'https://www.thesmartcalculator.com/games/sort-coins',
+    }
   },
   openGraph: {
     title: 'Free Online Coin Sorting & Merge Game for Kids',

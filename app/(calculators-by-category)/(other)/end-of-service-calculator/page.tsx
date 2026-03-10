@@ -14,6 +14,10 @@
     keywords: "end of service calculator, gratuity calculator UAE, end of service benefits calculator, end of service calculator KSA, end of service calculator Dubai, end of service calculator Abu Dhabi, end of service gratuity calculator, end of service benefits calculator UAE, end of service benefits calculator KSA, end of service calculator Qatar",
     alternates: {
       canonical: "https://www.thesmartcalculator.com/end-of-service-calculator",
+      languages: {
+        'x-default': "https://www.thesmartcalculator.com/end-of-service-calculator",
+        'en': "https://www.thesmartcalculator.com/end-of-service-calculator",
+      }
     },
     openGraph: {
       title: "End of Service Calculator UAE, KSA & Qatar",

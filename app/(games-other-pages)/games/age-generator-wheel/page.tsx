@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   keywords: 'age generator wheel, age calculator wheel, age random wheel, wheel of age generator, age generator spin the wheel, age number wheel, age wheel picker, age range wheel, generator wheel number, random age generator, age picker, spin the wheel age',
   alternates: {
     canonical: 'https://www.thesmartcalculator.com/games/age-generator-wheel',
+    languages: {
+      'x-default': 'https://www.thesmartcalculator.com/games/age-generator-wheel',
+      'en': 'https://www.thesmartcalculator.com/games/age-generator-wheel',
+    }
   },
   openGraph: {
     title: 'Age Generator Wheel – Spin Random Age Picker',

@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   keywords: 'ovr calculator, overall rating calculator, fc mobile ovr calculator, ovr calculator fifa mobile, ovr calculator ea fc, how to calculate ovr in fifa, team ovr calculator in fc mobile, ovr calculator renderz, ovr calculator online, ovr calculator fc 26',
   alternates: {
     canonical: 'https://www.thesmartcalculator.com/ovr-calculator',
+    languages: {
+      'x-default': 'https://www.thesmartcalculator.com/ovr-calculator',
+      'en': 'https://www.thesmartcalculator.com/ovr-calculator',
+    }
   },
   openGraph: {
     title: 'OVR Calculator – Calculate Overall Rating Easily',

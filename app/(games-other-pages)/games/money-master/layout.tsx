@@ -21,10 +21,6 @@ export const metadata: Metadata = {
     languages: {
       "x-default": "https://www.thesmartcalculator.com/games/money-master",
       "en": "https://www.thesmartcalculator.com/games/money-master",
-      "pt-BR": "https://www.thesmartcalculator.com/games/money-master",
-      "pl": "https://www.thesmartcalculator.com/games/money-master",
-      "de": "https://www.thesmartcalculator.com/games/money-master",
-      "es": "https://www.thesmartcalculator.com/games/money-master"
     }
   },
   openGraph: {

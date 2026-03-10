@@ -14,10 +14,6 @@ export const metadata: Metadata = {
     languages: {
       'x-default': 'https://www.thesmartcalculator.com/games/wordle',
       'en': 'https://www.thesmartcalculator.com/games/wordle',
-      'pt-BR': 'https://www.thesmartcalculator.com/games/wordle',
-      'pl': 'https://www.thesmartcalculator.com/games/wordle',
-      'de': 'https://www.thesmartcalculator.com/games/wordle',
-      'es': 'https://www.thesmartcalculator.com/games/wordle',
     }
   },
   openGraph: {

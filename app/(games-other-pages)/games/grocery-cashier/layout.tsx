@@ -30,10 +30,6 @@ export const metadata: Metadata = {
     languages: {
       "x-default": "https://www.thesmartcalculator.com/games/grocery-cashier",
       "en": "https://www.thesmartcalculator.com/games/grocery-cashier",
-      "pt-BR": "https://www.thesmartcalculator.com/games/grocery-cashier",
-      "pl": "https://www.thesmartcalculator.com/games/grocery-cashier",
-      "de": "https://www.thesmartcalculator.com/games/grocery-cashier",
-      "es": "https://www.thesmartcalculator.com/games/grocery-cashier"
     }
   },
   openGraph: {

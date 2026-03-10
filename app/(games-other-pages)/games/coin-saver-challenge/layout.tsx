@@ -9,10 +9,6 @@ export const metadata: Metadata = {
     languages: {
       "x-default": "https://www.thesmartcalculator.com/games/coin-saver-challenge",
       "en": "https://www.thesmartcalculator.com/games/coin-saver-challenge",
-      "pt-BR": "https://www.thesmartcalculator.com/games/coin-saver-challenge",
-      "pl": "https://www.thesmartcalculator.com/games/coin-saver-challenge",
-      "de": "https://www.thesmartcalculator.com/games/coin-saver-challenge",
-      "es": "https://www.thesmartcalculator.com/games/coin-saver-challenge"
     }
   },
   openGraph: {

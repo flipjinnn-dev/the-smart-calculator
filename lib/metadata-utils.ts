@@ -87,3 +87,63 @@ export function getLocaleFromLanguage(language: string): string {
   };
   return localeMap[language] || 'en_US';
 }
+
+interface EnglishOnlyMetadataParams {
+  title: string;
+  description: string;
+  keywords?: string;
+  canonicalUrl: string;
+  ogImage?: string;
+}
+
+/**
+ * Generate metadata for English-only pages (no hreflang language alternatives)
+ * Use this for pages that are only available in English like:
+ * - English-only calculators
+ * - Blog pages
+ * - Games pages
+ */
+export function generateEnglishOnlyMetadata(params: EnglishOnlyMetadataParams): Metadata {
+  const {
+    title,
+    description,
+    keywords,
+    canonicalUrl,
+    ogImage = DEFAULT_OG_IMAGE,
+  } = params;
+
+  return {
+    title,
+    description,
+    ...(keywords && { keywords }),
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        'x-default': canonicalUrl,
+        'en': canonicalUrl,
+      }
+    },
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      locale: "en_US",
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}

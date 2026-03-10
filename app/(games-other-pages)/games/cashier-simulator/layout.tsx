@@ -32,10 +32,6 @@ export const metadata: Metadata = {
     languages: {
       "x-default": "https://www.thesmartcalculator.com/games/cashier-simulator",
       "en": "https://www.thesmartcalculator.com/games/cashier-simulator",
-      "pt-BR": "https://www.thesmartcalculator.com/games/cashier-simulator",
-      "pl": "https://www.thesmartcalculator.com/games/cashier-simulator",
-      "de": "https://www.thesmartcalculator.com/games/cashier-simulator",
-      "es": "https://www.thesmartcalculator.com/games/cashier-simulator"
     }
   },
   openGraph: {

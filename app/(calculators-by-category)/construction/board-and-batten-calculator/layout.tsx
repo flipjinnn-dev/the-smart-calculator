@@ -16,7 +16,11 @@ export const metadata: Metadata = {
     "vertical siding calculator"
   ],
   alternates: {
-    canonical: "/construction/board-and-batten-calculator"
+    canonical: "/construction/board-and-batten-calculator",
+    languages: {
+      'x-default': "/construction/board-and-batten-calculator",
+      'en': "/construction/board-and-batten-calculator",
+    }
   },
   openGraph: {
     title: "Board and Batten Calculator - Estimate Boards, Battens & Spacing",

@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   keywords: 'animal wheel spinner, animal spin wheel, random animal generator wheel, animal spinner online, animal wheel spinner online, animal spin wheel game, farm animal wheel spinner, pet wheel spinner, cute animal wheel spinner, animal generator wheel, spinning animal wheel, animal wheel spinner toy',
   alternates: {
     canonical: 'https://www.thesmartcalculator.com/games/animal-wheel-spinner',
+    languages: {
+      'x-default': 'https://www.thesmartcalculator.com/games/animal-wheel-spinner',
+      'en': 'https://www.thesmartcalculator.com/games/animal-wheel-spinner',
+    }
   },
   openGraph: {
     title: 'Animal Wheel Spinner: Fun & Random Animal Generator',

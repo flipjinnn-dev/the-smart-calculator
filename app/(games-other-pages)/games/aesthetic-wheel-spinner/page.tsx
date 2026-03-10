@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   keywords: 'aesthetic wheel, aesthetic spinner, style wheel, outfit picker, aesthetic generator, theme wheel, color palette wheel, aesthetic ideas, grunge aesthetic, soft girl aesthetic, dark academia, cottagecore, y2k aesthetic',
   alternates: {
     canonical: 'https://www.thesmartcalculator.com/games/aesthetic-wheel-spinner',
+    languages: {
+      'x-default': 'https://www.thesmartcalculator.com/games/aesthetic-wheel-spinner',
+      'en': 'https://www.thesmartcalculator.com/games/aesthetic-wheel-spinner',
+    }
   },
   openGraph: {
     title: 'Aesthetic Wheel: Spin & Discover Your Style',

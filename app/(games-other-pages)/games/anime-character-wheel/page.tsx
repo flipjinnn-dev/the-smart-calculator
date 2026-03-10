@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   keywords: 'anime character wheel, random anime character wheel, anime characters spin wheel, anime picker wheel, spinning wheel anime characters, anime character creator wheel, spin the wheel anime characters, wheel of anime characters, anime character spin the wheel, random anime character generator wheel',
   alternates: {
     canonical: 'https://www.thesmartcalculator.com/games/anime-character-wheel',
+    languages: {
+      'x-default': 'https://www.thesmartcalculator.com/games/anime-character-wheel',
+      'en': 'https://www.thesmartcalculator.com/games/anime-character-wheel',
+    }
   },
   openGraph: {
     title: 'Anime Character Wheel – Spin Random Anime Picks',
