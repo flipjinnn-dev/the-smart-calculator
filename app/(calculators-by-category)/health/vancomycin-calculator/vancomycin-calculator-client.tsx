@@ -132,8 +132,8 @@ export default function VancomycinCalculatorClient({ content }: VancomycinCalcul
           </p>
         </div>
 
-        <Card className="shadow-xl border-0 bg-white mb-12">
-          <CardContent className="p-8">
+        <Card className="shadow-xl pt-0 border-0 bg-white mb-12">
+          <CardContent className="p-8 py-4">
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 A <strong>vancomycin calculator</strong> is a clinical dosing tool used to estimate the optimal vancomycin dose, trough levels, and AUC (Area Under the Curve) based on patient-specific variables such as weight, age, kidney function (creatinine clearance), infection severity, and dialysis status. Modern vancomycin dosing calculators follow current AUC-guided therapeutic monitoring guidelines, targeting an AUC/MIC ratio of 400–600 to maximize treatment effectiveness while reducing nephrotoxicity. Clinicians commonly use a vancomycin dose calculator or vancomycin clinical calculator to determine loading dose, maintenance dose, trough level targets, and dosing intervals, especially in patients with renal impairment, pediatric populations, and those receiving hemodialysis.
@@ -191,7 +191,7 @@ export default function VancomycinCalculatorClient({ content }: VancomycinCalcul
         </Card>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-          <Card className="shadow-2xl border-0 bg-white">
+          <Card className="shadow-2xl border-0 pt-0 bg-white">
             <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b px-8 py-6">
               <CardTitle className="flex items-center space-x-3 text-2xl">
                 <Calculator className="w-6 h-6 text-blue-600" />
@@ -310,7 +310,7 @@ export default function VancomycinCalculatorClient({ content }: VancomycinCalcul
             </CardContent>
           </Card>
 
-          <Card ref={resultsRef} className="shadow-2xl border-0 bg-white sticky top-24">
+          <Card ref={resultsRef} className="shadow-2xl pt-0 border-0 bg-white sticky top-24">
             <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b px-8 py-6">
               <CardTitle className="text-2xl">
                 {contentData.resultsTitle || "Vancomycin Dosing Results"}
@@ -374,8 +374,8 @@ export default function VancomycinCalculatorClient({ content }: VancomycinCalcul
           </Card>
         </div>
 
-        <Card className="shadow-xl border-0 bg-white mb-12">
-          <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b">
+        <Card className="shadow-xl border-0 bg-white pt-0 mb-12">
+          <CardHeader className="bg-gradient-to-r from-blue-50 py-6 to-indigo-50 border-b">
             <CardTitle className="text-2xl">Target Trough Levels</CardTitle>
           </CardHeader>
           <CardContent className="p-6">
@@ -402,8 +402,8 @@ export default function VancomycinCalculatorClient({ content }: VancomycinCalcul
           </CardContent>
         </Card>
 
-        <Card className="shadow-xl border-0 bg-white mb-12">
-          <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b">
+        <Card className="shadow-xl border-0 pt-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b py-6">
             <CardTitle className="text-2xl">Vancomycin Dosing in Renal Impairment</CardTitle>
           </CardHeader>
           <CardContent className="p-6">
@@ -442,8 +442,8 @@ export default function VancomycinCalculatorClient({ content }: VancomycinCalcul
         </Card>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-          <Card className="shadow-xl border-0 bg-white">
-            <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b">
+          <Card className="shadow-xl border-0 pt-0 bg-white">
+            <CardHeader className="bg-gradient-to-r py-6 from-blue-50 to-indigo-50 border-b">
               <CardTitle className="text-2xl">Vancomycin Dosing Based on Trough</CardTitle>
             </CardHeader>
             <CardContent className="p-6">
@@ -481,8 +481,8 @@ export default function VancomycinCalculatorClient({ content }: VancomycinCalcul
             </CardContent>
           </Card>
 
-          <Card className="shadow-xl border-0 bg-white">
-            <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b">
+          <Card className="shadow-xl border-0 pt-0 bg-white">
+            <CardHeader className="bg-gradient-to-r py-6 from-blue-50 to-indigo-50 border-b">
               <CardTitle className="text-2xl">Hemodialysis Dosing</CardTitle>
             </CardHeader>
             <CardContent className="p-6">
@@ -532,8 +532,8 @@ export default function VancomycinCalculatorClient({ content }: VancomycinCalcul
           </CardContent>
         </Card>
 
-        <Card className="shadow-xl border-0 bg-white mb-12">
-          <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b">
+        <Card className="shadow-xl border-0 pt-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r py-6 from-blue-50 to-indigo-50 border-b">
             <CardTitle className="text-2xl">Best Practices from Vancomycin Dosing Guidelines</CardTitle>
           </CardHeader>
           <CardContent className="p-6">
@@ -570,8 +570,8 @@ export default function VancomycinCalculatorClient({ content }: VancomycinCalcul
           </CardContent>
         </Card>
 
-        <Card className="shadow-xl border-0 bg-white mb-12">
-          <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b">
+        <Card className="shadow-xl border-0 pt-0 bg-white mb-12">
+          <CardHeader className="bg-gradient-to-r py-6 from-blue-50 to-indigo-50 border-b">
             <CardTitle className="flex items-center space-x-2 text-2xl">
               <HelpCircle className="w-6 h-6 text-blue-600" />
               <span>Frequently Asked Questions</span>
@@ -624,8 +624,8 @@ export default function VancomycinCalculatorClient({ content }: VancomycinCalcul
           </CardContent>
         </Card>
 
-        <Card className="shadow-xl border-0 bg-white">
-          <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b">
+        <Card className="shadow-xl border-0 pt-0 bg-white">
+          <CardHeader className="bg-gradient-to-r py-6 from-blue-50 to-indigo-50 border-b">
             <CardTitle className="text-2xl">When to Use a Vancomycin Calculator</CardTitle>
           </CardHeader>
           <CardContent className="p-6">
