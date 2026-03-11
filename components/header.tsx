@@ -49,15 +49,38 @@ const OTHER_CALCULATORS = [
 ]
 
 const ENGLISH_ONLY_PATHS = [
+  // English-only calculators
   '/implant-size-calculator',
   '/health/dental-implant-cost-calculator',
   '/maths/reverse-percentage-calculator',
   '/therapy-productivity-calculator',
   '/financial/bank-statement-converter',
   '/end-of-service-calculator',
+  '/ovr-calculator',
+  '/construction/board-and-batten-calculator',
+  '/physics/power-to-weight-ratio-calculator',
+  '/grade-curve-calculator',
+  '/acres-per-hour-calculator',
+  '/notice-period-calculator',
+  '/ssc-gpa-calculator',
+  // All games
+  '/games',
   '/games/animal-wheel-spinner',
-  '/ovr-calculator','/construction/board-and-batten-calculator',
-  '/physics/power-to-weight-ratio-calculator'
+  '/games/wordle',
+  '/games/money-master',
+  '/games/aesthetic-wheel-spinner',
+  '/games/age-generator-wheel',
+  '/games/anime-character-wheel',
+  '/games/cashier-simulator',
+  '/games/coin-saver-challenge',
+  '/games/grocery-cashier',
+  '/games/what-is-the-wordle-today',
+  '/games/mental-maths',
+  '/games/sort-coins',
+  // Community & creator pages
+  '/community',
+  '/blogs',
+  '/creator'
 ]
 
 const LANGUAGES = [

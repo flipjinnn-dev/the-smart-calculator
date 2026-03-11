@@ -50,6 +50,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: author.tagline || bioText,
     alternates: {
       canonical: canonicalUrl,
+      languages: {
+        'x-default': canonicalUrl,
+        'en': canonicalUrl,
+      }
     },
     openGraph: {
       title: `${author.name} - Creator Profile`,

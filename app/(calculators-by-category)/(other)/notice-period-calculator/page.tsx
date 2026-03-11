@@ -11,6 +11,10 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: "notice period calculator, calculate notice period, last working day calculator, notice period end date, notice period pay calculator, resignation calculator, employment notice calculator, notice duration calculator, calendar days calculator, working days calculator",
     alternates: {
       canonical: canonicalUrl,
+      languages: {
+        'x-default': canonicalUrl,
+        'en': canonicalUrl,
+      }
     },
     openGraph: {
       title: "Notice Period Calculator – Calculate Last Working Day",

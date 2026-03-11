@@ -1,0 +1,1264 @@
+{
+  "english_only": [
+    {
+      "id": "bank-statement-converter",
+      "slug": "/financial/bank-statement-converter"
+    },
+    {
+      "id": "grade-curve-calculator",
+      "slug": "/grade-curve-calculator"
+    },
+    {
+      "id": "implant-size-calculator",
+      "slug": "/implant-size-calculator"
+    },
+    {
+      "id": "reverse-percentage-calculator",
+      "slug": "/maths/reverse-percentage-calculator"
+    },
+    {
+      "id": "therapy-productivity-calculator",
+      "slug": "/therapy-productivity-calculator"
+    },
+    {
+      "id": "acres-per-hour-calculator",
+      "slug": "/acres-per-hour-calculator"
+    },
+    {
+      "id": "notice-period-calculator",
+      "slug": "/notice-period-calculator"
+    },
+    {
+      "id": "dental-implant-cost-calculator",
+      "slug": "/health/dental-implant-cost-calculator"
+    },
+    {
+      "id": "ssc-gpa-calculator",
+      "slug": "/ssc-gpa-calculator"
+    },
+    {
+      "id": "end-of-service-calculator",
+      "slug": "/end-of-service-calculator"
+    },
+    {
+      "id": "animal-wheel-spinner",
+      "slug": "/games/animal-wheel-spinner"
+    },
+    {
+      "id": "ovr-calculator",
+      "slug": "/ovr-calculator"
+    }
+  ],
+  "multi_language": [
+    {
+      "id": "mortgage-calculator",
+      "slug": "/es/financiero/simulador-de-hipoteca",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "finance-calculator",
+      "slug": "/es/financiero/calculadora-financiera",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "401k-calculator",
+      "slug": "/es/financiero/calculadora-de-401k",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "debt-payoff-calculator",
+      "slug": "/es/financiero/calculadora-de-pago-de-deudas",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "house-affordability-calculator",
+      "slug": "/es/financiero/calculadora-de-asequibilidad-de-vivienda",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "estate-tax-calculator",
+      "slug": "/es/financiero/calculadora-del-impuesto-sobre-el-patrimonio",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "credit-card-payoff-calculator",
+      "slug": "/es/financiero/calculadora-de-pago-de-tarjeta-de-credito",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "credit-card-calculator",
+      "slug": "/es/financiero/calculadora-de-tarjetas-de-credito",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "annuity-payout-calculator",
+      "slug": "/es/financiero/calculadora-de-pagos-de-anualidades",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "annuity-calculator",
+      "slug": "/es/financiero/calculadora-de-anualidad",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "social-security-calculator",
+      "slug": "/es/financiero/calculadora-de-seguridad-social",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "pension-calculator",
+      "slug": "/es/financiero/simulador-de-pensiones",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "savings-calculator",
+      "slug": "/es/financiero/calculadora-de-ahorro",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "marriage-calculator",
+      "slug": "/es/financiero/calculadora-de-matrimonio",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "sales-tax-calculator",
+      "slug": "/es/financiero/calculadora-del-impuesto-sobre-las-ventas",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "inflation-calculator",
+      "slug": "/es/financiero/calculadora-de-inflacion",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "rent-calculator",
+      "slug": "/es/financiero/calculadora-de-alquiler",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "interest-rate-calculator",
+      "slug": "/es/financiero/calculadora-de-tasas-de-interes",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "income-tax-calculator",
+      "slug": "/es/financiero/calculadora-de-impuesto-sobre-la-renta",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "salary-calculator",
+      "slug": "/es/financiero/calculadora-de-salario",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "loan-calculator",
+      "slug": "/es/financiero/calculadora-de-prestamos",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "compound-interest-calculator",
+      "slug": "/es/financiero/calculadora-de-interes-compuesto",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "interest-calculator",
+      "slug": "/es/financiero/calculo-de-intereses",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "payment-calculator",
+      "slug": "/es/financiero/calculadora-de-pago",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "auto-loan-calculator",
+      "slug": "/es/financiero/calculadora-de-prestamos-de-auto",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "amortization-calculator",
+      "slug": "/es/financiero/calculadora-de-amortizacion",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "mortgage-payoff-calculator",
+      "slug": "/es/financiero/calculadora-de-liquidacion-de-hipotecas",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "currency-calculator",
+      "slug": "/es/financiero/conversor-de-divisas",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "investment-calculator",
+      "slug": "/es/financiero/calculadora-de-inversiones",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "retirement-calculator",
+      "slug": "/es/financiero/simulador-de-jubilacion",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "bmi-calculator",
+      "slug": "/es/salud/calculadora-IMC",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "pregnancy-weight-gain-calculator",
+      "slug": "/es/salud/calculadora-de-aumento-de-peso-durante-el-embarazo",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "calories-burned-calculator",
+      "slug": "/es/salud/calculadora-de-calorias-quemadas",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "due-date-calculator",
+      "slug": "/es/salud/calculadora-de-fecha-de-vencimiento",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "pace-calculator",
+      "slug": "/es/salud/calculadora-de-ritmos",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "one-rep-max-calculator",
+      "slug": "/es/salud/calculadora-de-una-repeticion-maxima",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "army-body-fat-calculator",
+      "slug": "/es/salud/calculadora-de-grasa-corporal-del-ejercito",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "target-heart-rate-calculator",
+      "slug": "/es/salud/calculadora-de-frecuencia-cardiaca-objetivo",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "protein-calculator",
+      "slug": "/es/salud/calculadora-de-proteinas",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "healthy-weight-calculator",
+      "slug": "/es/salud/calculadora-de-peso-saludable",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "fat-intake-calculator",
+      "slug": "/es/salud/calculadora-de-ingesta-de-grasas",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "carbohydrate-calculator",
+      "slug": "/es/salud/calculadora-de-carbohidratos",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "ovulation-calculator",
+      "slug": "/es/salud/calculadora-de-la-ovulacion",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "lean-body-mass-calculator",
+      "slug": "/es/salud/calculadora-de-masa-corporal-magra",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "tdee-calculator",
+      "slug": "/es/salud/calculadora-tdee",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "conception-calculator",
+      "slug": "/es/salud/calculadora-de-concepcion",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "gfr-calculator",
+      "slug": "/es/salud/calculadora-de-TFG",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "anorexic-bmi-calculator",
+      "slug": "/es/salud/calculadora-de-IMC-anorexica",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "ideal-weight-calculator",
+      "slug": "/es/salud/calculadora-de-peso-ideal",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "overweight-calculator",
+      "slug": "/es/salud/calculadora-de-sobrepeso",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "body-type-calculator",
+      "slug": "/es/salud/calculadora-de-tipo-de-cuerpo",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "period-calculator",
+      "slug": "/es/salud/calculadora-menstrual",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "bmr-calculator",
+      "slug": "/es/salud/calculadora-del-metabolismo-basal",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "weight-watchers-points-calculator",
+      "slug": "/es/salud/calculadora-de-puntos-weight-watchers",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "body-surface-area-calculator",
+      "slug": "/es/salud/calculadora-de-superficie-corporal",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "calorie-calculator",
+      "slug": "/es/salud/calculadora-de-calorias",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "bac-calculator",
+      "slug": "/es/salud/calculadora-de-alcohol-en-sangre",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "body-fat-calculator",
+      "slug": "/es/salud/calculadora-de-grasa-corporal",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "macro-calculator",
+      "slug": "/es/salud/calculadora-de-macros",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "pregnancy-calculator",
+      "slug": "/es/salud/calculadora-de-embarazo",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "pregnancy-conception-calculator",
+      "slug": "/es/salud/calculadora-de-fecha-de-concepcion",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "percentage-calculator",
+      "slug": "/es/matematicas/calculadora-de-porcentajes",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "empirical-rule-calculator",
+      "slug": "/es/matematicas/calculadora-de-regla-empirica",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "percent-error-calculator",
+      "slug": "/es/matematicas/calculadora-de-error-porcentual",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "critical-point-calculator",
+      "slug": "/es/matematicas/calculadora-de-puntos-criticos",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "relative-extrema-calculator",
+      "slug": "/es/matematicas/calculadora-de-extremos-relativos",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "simpsons-rule-calculator",
+      "slug": "/es/matematicas/calculadora-de-la-regla-de-Simpson",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "mean-value-theorem-calculator",
+      "slug": "/es/matematicas/calculadora-teorema-valor-medio",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "random-number-generator",
+      "slug": "/es/matematicas/generador-de-numeros-aleatorios",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "scientific-calculator",
+      "slug": "/es/matematicas/calculadora-cientifica",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "volume-calculator",
+      "slug": "/es/matematicas/calculadora-de-volumen",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "ballistic-coefficient-calculator",
+      "slug": "/es/fisica/calculadora-balistica",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "velocity-calculator",
+      "slug": "/es/fisica/calculadora-de-velocidad",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "arrow-speed-calculator",
+      "slug": "/es/fisica/calculadora-de-velocidad-de-flecha",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "car-jump-distance-calculator",
+      "slug": "/es/fisica/calculadora-da-distancia-de-salto-do-carro",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "conservation-of-momentum-calculator",
+      "slug": "/es/fisica/calculadora-da-conservacao-do-momento",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "board-foot-calculator",
+      "slug": "/es/construccion/calculadora-de-pes-quadrados",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "cubic-yard-calculator",
+      "slug": "/es/construccion/calculadora-de-metros-cubicos",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "gallons-per-square-foot-calculator",
+      "slug": "/es/construccion/calculadora-de-galones-por-pie-cuadrado",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "size-to-weight-rectangular-cuboid-calculator",
+      "slug": "/es/construccion/calculo-del-peso-del-tubo-rectangular",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "square-feet-to-cubic-yards-calculator",
+      "slug": "/es/construccion/calculadora-de-yardas-cubicas",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "butter-calculator",
+      "slug": "/es/alimentos/convertidor-de-mantequilla",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "cake-pan-calculator",
+      "slug": "/es/alimentos/convertidor-de-Moldes-para-Pasteles",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "cooking-measurement-converter",
+      "slug": "/es/alimentos/convertidor-de-medidas-de-cocina",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "cups-to-pounds-converter",
+      "slug": "/es/alimentos/tazas-a-libras",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "dry-to-cooked-pasta-converter",
+      "slug": "/es/alimentos/pasta-seca-para-cocinar",
+      "languages": [
+        "en",
+        "br",
+        "pl",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "batting-average-calculator",
+      "slug": "/es/deportes/calculadora-de-promedio-de-bateo",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "earned-run-average-calculator",
+      "slug": "/es/deportes/promedio-de-carreras-limpias",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "fielding-percentage-calculator",
+      "slug": "/es/deportes/calculadora-del-porcentaje-de-fildeo",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "fielding-independent-pitching-calculator",
+      "slug": "/es/deportes/calculadora-fip",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "magic-number-calculator",
+      "slug": "/es/deportes/numeros-magicos-para-ganar-loteria",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "age-calculator",
+      "slug": "/es/calculadora-de-edad",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "piecewise-function-calculator-grapher",
+      "slug": "/es/calculadora-de-funciones-por-tramos",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "website-cost-calculator",
+      "slug": "/es/software/calculadora-de-costo-de-sitio-web",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "youtube-money-calculator",
+      "slug": "/es/software/calculadora-de-dinero-youtube",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "enterprise-seo-roi-calculator",
+      "slug": "/es/calculadora-de-roi-seo",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "rpe-calculator",
+      "slug": "/es/calculadora-rpe",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "indiana-child-support-calculator",
+      "slug": "/es/calculadora-de-manutencion-infantil",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "time-calculator",
+      "slug": "/es/calculadora-de-tiempo",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "gpa-calculator",
+      "slug": "/es/calculadora-de-gpa",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "height-calculator",
+      "slug": "/es/calculadora-de-altura",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "ip-subnet-calculator",
+      "slug": "/es/calculadora-subnet",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "orthogonal-projection-calculator",
+      "slug": "/es/fisica/calculadora-de-proyeccion-ortogonal",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "towing-estimate-calculator",
+      "slug": "/es/calculadora-de-costos-de-remolque",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "square-root-curve-calculator",
+      "slug": "/es/matematicas/calculadora-de-curva-de-raiz-cuadrada",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "rucking-calorie-calculator",
+      "slug": "/es/salud/calculadora-de-calorias-de-rucking",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "paver-base-calculator",
+      "slug": "/es/construccion/calculadora-de-base-para-pavimento",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "break-even-calculator",
+      "slug": "/es/negocios/calculadora-de-punto-de-equilibrio",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "startup-costs-calculator",
+      "slug": "/es/negocios/calculadora-de-costos-de-inicio",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    },
+    {
+      "id": "app-cost-calculator",
+      "slug": "/es/software/calculadora-de-costo-de-app",
+      "languages": [
+        "en",
+        "pl",
+        "br",
+        "de",
+        "es"
+      ]
+    }
+  ]
+}
