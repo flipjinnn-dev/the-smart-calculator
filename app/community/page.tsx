@@ -9,15 +9,7 @@ export const metadata = {
   title: 'Community - The Smart Calculator',
   description: 'Join our community to share knowledge, ask questions, and learn from others.',
   alternates: {
-    canonical: 'https://www.thesmartcalculator.com/community',
-    languages: {
-      'x-default': 'https://www.thesmartcalculator.com/community',
-      'en': 'https://www.thesmartcalculator.com/community',
-      'pt-BR': 'https://www.thesmartcalculator.com/community',
-      'pl': 'https://www.thesmartcalculator.com/community',
-      'de': 'https://www.thesmartcalculator.com/community',
-      'es': 'https://www.thesmartcalculator.com/community',
-    }
+    canonical: 'https://www.thesmartcalculator.com/community'
   },
   openGraph: {
     title: 'Community - The Smart Calculator',

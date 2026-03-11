@@ -58,14 +58,6 @@ export async function generateMetadata({ params }: PostPageProps) {
       description: description,
       alternates: {
         canonical: postUrl,
-        languages: {
-          'x-default': postUrl,
-          'en': postUrl,
-          'pt-BR': postUrl,
-          'pl': postUrl,
-          'de': postUrl,
-          'es': postUrl,
-        }
       },
       openGraph: {
         title: post.title,
