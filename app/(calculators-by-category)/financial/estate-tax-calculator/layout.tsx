@@ -15,9 +15,9 @@ const estatetaxcalculatorMeta = {
     keywords: "Calculadora de Herança, Calculadora ITCMD , narzędzie finansowe, online podatek, proste dokładne, darmowy tool, każdy planowanie"
   },
   pl: {
-    title: "Podatek od nieruchomości kalkulator",
+    title: "Kalkulator podatku od nieruchomości",
     description: "Skorzystaj z narzędzia Podatek od nieruchomości kalkulator, aby szybko obliczyć podatek od domu, mieszkania lub działki w Polsce online.",
-    keywords: "Podatek od nieruchomości kalkulator, steuern berechnen, freibeträge abgaben, erbfall tool, online erbschaft, präzise kostenfrei, planung rechner"
+    keywords: "Kalkulator podatku od nieruchomości, steuern berechnen, freibeträge abgaben, erbfall tool, online erbschaft, präzise kostenfrei, planung rechner"
   },
   de: {
     title: "Erbschaftssteuerrechner",
