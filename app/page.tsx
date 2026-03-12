@@ -18,6 +18,10 @@ export async function generateMetadata(): Promise<Metadata> {
     }
   };
 
+  // Generate language-specific canonical URL
+  const baseUrl = "https://www.thesmartcalculator.com";
+  const canonicalUrl = language === 'en' ? baseUrl : `${baseUrl}/${language}`;
+
   return {
     title: contentData.meta.title || "Smart Calculator - Free Online Calculators for Every Need",
     description: contentData.meta.description || "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
@@ -26,10 +30,18 @@ export async function generateMetadata(): Promise<Metadata> {
       title: contentData.meta.title || "Smart Calculator - Free Online Calculators for Every Need",
       description: contentData.meta.description || "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
       type: "website",
-      url: "https://www.thesmartcalculator.com/",
+      url: canonicalUrl,
     },
     alternates: {
-      canonical: "https://www.thesmartcalculator.com/",
+      canonical: canonicalUrl,
+      languages: {
+        'x-default': baseUrl,
+        'en': baseUrl,
+        'pt-BR': `${baseUrl}/br`,
+        'pl': `${baseUrl}/pl`,
+        'de': `${baseUrl}/de`,
+        'es': `${baseUrl}/es`,
+      }
     },
   };
 }

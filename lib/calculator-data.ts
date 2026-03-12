@@ -99,6 +99,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'bank-statement-converter') return 'bank-statement-converter';
   if (id === 'dental-implant-cost-calculator') return 'dental-implant-cost-calculator';
   if (id === 'ssc-gpa-calculator') return 'ssc-gpa-calculator';
+  if (id === 'twin-flame-calculator') return 'twin-flame-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -881,6 +882,14 @@ export const calculators: Calculator[] = [
     href: "/age-calculator",
     category: "other",
     popular: true
+  },
+  {
+    id: "twin-flame-calculator",
+    name: "Twin Flame Calculator",
+    description: "Calculate spiritual compatibility using numerology, birth charts, and lunar phases",
+    href: "/twin-flame-calculator",
+    category: "other",
+    popular: false
   },
   {
     id:"end-of-service-calculator",
