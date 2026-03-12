@@ -5,30 +5,30 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for estate-tax-calculator
 const estatetaxcalculatorMeta = {
   en: {
-    title: "Estate Tax Calculator Online Estate Tax Estimate",
-    description: "Estimate estate or inheritance taxes quickly and accurately with our Estate Tax Calculator for smarter tax planning.",
+    title: "Estate Tax Calculator Online",
+    description: "Calculate your estate tax instantly with our free Estate Tax Calculator. Estimate inheritance tax, assets value, deductions, and total estate tax liability online.",
     keywords: "estate tax calculator, taxes planning, inheritance tool, deductions calculation, online estate, financial legacy, free tax tool, estimate taxes"
   },
   br: {
-    title: "Calculadora ITCMD | Calcule seu imposto sobre herança",
-    description: "Use nossa Calculadora ITCMD para calcular rapidamente o imposto sobre herança no Brasil. Ferramenta gratuita, online e fácil de usar.",
-    keywords: "podatek od nieruchomości kalkulator, obliczyć wysokość, narzędzie finansowe, online podatek, proste dokładne, darmowy tool, każdy planowanie"
+    title: "Calculadora de Herança",
+    description: "Use nossa Calculadora de Herança para estimar o imposto sobre herança no Brasil. Calcule valores, bens e veja rapidamente quanto imposto pode pagar.",
+    keywords: "Calculadora de Herança, Calculadora ITCMD , narzędzie finansowe, online podatek, proste dokładne, darmowy tool, każdy planowanie"
   },
   pl: {
-    title: "Erbschaftsteuer­rechner – Ihre Online-Berechnung für Erbe",
-    description: "Mit dem Erbschaftsteuer­rechner ermitteln Sie Steuern, Freibeträge und Abgaben im Erbfall schnell und einfach online — präzise und kostenfrei.",
-    keywords: "erbschaftsteuerrechner, steuern berechnen, freibeträge abgaben, erbfall tool, online erbschaft, präzise kostenfrei, planung rechner"
+    title: "Podatek od nieruchomości kalkulator",
+    description: "Skorzystaj z narzędzia Podatek od nieruchomości kalkulator, aby szybko obliczyć podatek od domu, mieszkania lub działki w Polsce online.",
+    keywords: "Podatek od nieruchomości kalkulator, steuern berechnen, freibeträge abgaben, erbfall tool, online erbschaft, präzise kostenfrei, planung rechner"
   },
   de: {
-    title: "Estate Tax Calculator – Taxes Planning Online | TheSmartCalcul",
-    description: "Mit dem Erbschaftsteuer­rechner ermitteln Sie Steuern, Freibeträge und Abgaben im Erbfall schnell und einfach online — präzise und kostenfrei.",
-    keywords: "estate tax rechner, taxes planning, inheritance tool, deductions calculation, online estate, financial legacy, kostenlos tax tool, estimate taxes"
+    title: "Erbschaftssteuerrechner",
+    description: "Mit unserem Erbschaftssteuerrechner können Sie schnell die Erbschaftsteuer in Deutschland berechnen. Werte, Vermögen und Freibeträge online ermitteln.",
+    keywords: "Erbschaftssteuerrechner, taxes planning, inheritance tool, deductions calculation, online estate, financial legacy, kostenlos tax tool, estimate taxes"
   }
 ,
   es: {
-    title: "Calculadora del impuesto sobre el patrimonio: Planifica hoy",
-    description: "Calcula tu impuesto sobre el patrimonio fácilmente. Conoce cuánto debes pagar y organiza tus finanzas para optimizar tu planificación fiscal de forma segura.",
-    keywords: "calculadora, impuesto, sobre, patrimonio, planifica, calcula, fácilmente, conoce, cuánto, debes, pagar, organiza, finanzas, optimizar, planificación"
+    title: "Calculadora Impuesto Patrimonio",
+    description: "Usa nuestra Calculadora Impuesto Patrimonio para estimar rápidamente tu impuesto sobre el patrimonio en España. Calcula bienes, valores y obligaciones online.",
+    keywords: "Calculadora Impuesto Patrimonio, impuesto, sobre, patrimonio, planifica, calcula, fácilmente, conoce, cuánto, debes, pagar, organiza, finanzas, optimizar, planificación"
   }
 };
 
