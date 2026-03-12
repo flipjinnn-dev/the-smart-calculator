@@ -3745,6 +3745,14 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "power-to-weight ratio calculator, power to weight ratio, car power-to-weight ratio, cycling power-to-weight ratio, F1 car power-to-weight ratio, motorcycle power-to-weight ratio, hp/lb calculator, kW/kg calculator"
     }
   },
+  "twin-flame-calculator": {
+    en: {
+      title: "Twin Flame Calculator – Free Love Match",
+      description: "Use our twin flame calculator free to check spiritual compatibility by name, date of birth, numerology, birth chart, and lunar match.",
+      slug: "/twin-flame-calculator",
+      keywords: "twin flame calculator, twin flame calculator free, twin flame calculator by date of birth, twin flame birth chart calculator, twin flame compatibility calculator, twin flame synastry calculator, twin flame moon phase calculator, twin flame name calculator, twin flame numerology, soulmate calculator"
+    }
+  },
   "uif-calculator": {
     en: { 
       title: "UIF Calculator South Africa Payout Tools",

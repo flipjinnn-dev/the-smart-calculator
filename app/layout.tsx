@@ -60,11 +60,8 @@ export async function generateMetadata(): Promise<Metadata> {
   // Get metadata for the current language
   const meta = homepageMeta[language as keyof typeof homepageMeta] || homepageMeta.en;
 
-  const baseUrl = "https://www.thesmartcalculator.com";
-  const canonicalUrl = language !== "en" ? `${baseUrl}/${language}` : baseUrl;
-
   return {
-    metadataBase: new URL(baseUrl),
+    metadataBase: new URL("https://www.thesmartcalculator.com"),
     title: meta.title,
     description: meta.description,
     keywords: meta.keywords,
@@ -81,20 +78,19 @@ export async function generateMetadata(): Promise<Metadata> {
       icon: '/logo.png',
     },
     alternates: {
-      canonical: canonicalUrl,
       languages: {
-        'x-default': baseUrl,
-        'en': baseUrl,
-        'pt-BR': `${baseUrl}/br`,
-        'pl': `${baseUrl}/pl`,
-        'de': `${baseUrl}/de`,
-        'es': `${baseUrl}/es`,
+        'x-default': 'https://www.thesmartcalculator.com',
+        'en': 'https://www.thesmartcalculator.com',
+        'pt-BR': 'https://www.thesmartcalculator.com/br',
+        'pl': 'https://www.thesmartcalculator.com/pl',
+        'de': 'https://www.thesmartcalculator.com/de',
+        'es': 'https://www.thesmartcalculator.com/es',
       }
     },
     openGraph: {
       type: "website",
       locale: language === "br" ? "pt_BR" : language === "de" ? "de_DE" : language === "pl" ? "pl_PL" : language === "es" ? "es_ES" : "en_US",
-      url: canonicalUrl,
+      url: "https://www.thesmartcalculator.com",
       siteName: "Smart Calculator",
       title: meta.title,
       description: meta.description,
@@ -135,13 +131,23 @@ export const viewport = {
   themeColor: '#3b82f6',
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  // Get language from headers for dynamic lang attribute
+  const headerList = await headers();
+  const langHeader = headerList.get('x-language');
+  const language = langHeader && homepageMeta[langHeader as keyof typeof homepageMeta]
+    ? langHeader
+    : "en";
+  
+  // Map language codes to proper HTML lang attributes
+  const htmlLang = language === "br" ? "pt-BR" : language;
+
   return (
-    <html lang="en">
+    <html lang={htmlLang}>
       <body className={inter.className}>
         <SessionProvider>
           <Header />
