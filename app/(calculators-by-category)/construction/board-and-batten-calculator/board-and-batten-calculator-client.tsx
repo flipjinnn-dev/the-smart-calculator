@@ -706,7 +706,7 @@ export default function BoardAndBattenCalculatorClient({
               <div className="mb-8 bg-gradient-to-r from-orange-50 to-amber-50 p-6 rounded-xl border-2 border-orange-200">
                 <img 
                   src="/images/daigram-of-batten.png" 
-                  alt="Board and Batten Wall Diagram showing vertical boards, battens, furring strips, wall width and wall height"
+                  alt="Board and Batten Wall Diagram with vertical boards and battens"
                   className="w-full max-w-3xl mx-auto rounded-lg shadow-lg"
                 />
                 <p className="text-center text-gray-600 mt-4 text-sm">

@@ -16,13 +16,26 @@ export const metadata: Metadata = {
     "UIF maternity leave calculator South Africa"
   ],
   alternates: {
-    canonical: "/uif-calculator"
+    canonical: "https://www.thesmartcalculator.com/uif-calculator",
+    languages: {
+      'x-default': "https://www.thesmartcalculator.com/uif-calculator",
+      'en': "https://www.thesmartcalculator.com/uif-calculator",
+    }
   },
   openGraph: {
     title: "UIF Calculator South Africa Payout Tools",
     description: "Use this UIF calculator to estimate unemployment and maternity payouts in South Africa. Calculate UIF contributions, deductions, and benefits online.",
     type: "website",
-    url: "/uif-calculator"
+    url: "https://www.thesmartcalculator.com/uif-calculator",
+    siteName: "Smart Calculator",
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: "UIF Calculator South Africa Payout Tools",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

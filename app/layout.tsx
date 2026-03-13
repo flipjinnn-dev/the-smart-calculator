@@ -90,7 +90,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       type: "website",
       locale: language === "br" ? "pt_BR" : language === "de" ? "de_DE" : language === "pl" ? "pl_PL" : language === "es" ? "es_ES" : "en_US",
-      url: "https://www.thesmartcalculator.com",
+      url: language === "en" ? "https://www.thesmartcalculator.com" : `https://www.thesmartcalculator.com/${language}`,
       siteName: "Smart Calculator",
       title: meta.title,
       description: meta.description,

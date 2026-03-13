@@ -3559,7 +3559,7 @@ export const calculatorsMeta: CalculatorMeta = {
     de: {
       title: "Break-Even-Rechner - Berechnen Sie die Gewinnschwelle für Ihr Unternehmen",
       description: "Berechnen Sie den Break-Even-Punkt in Einheiten und Umsatz. Finden Sie heraus, wann Ihr Unternehmen profitabel wird mit unserem Break-Even-Analyse-Rechner.",
-      slug: "/de/geschaft/break-even-rechner",
+      slug: "/de/geschaeft/break-even-rechner",
       keywords: "Break-Even-Rechner, Gewinnschwelle, Break-Even-Analyse, Deckungsbeitrag, Unternehmensrentabilität, Break-Even-Einheiten, Break-Even-Umsatz"
     },
     es: {
@@ -3591,7 +3591,7 @@ export const calculatorsMeta: CalculatorMeta = {
     de: {
       title: "Gründungskosten-Rechner - Schätzen Sie Ihre Startup-Gesamtkosten",
       description: "Berechnen Sie die gesamten Gründungskosten und Finanzierungsanforderungen. Kostenloser Gründungskostenrechner zur Schätzung aller Ausgaben einschließlich Ausrüstung, Marketing, Rechtsgebühren und Betriebskosten für Ihr neues Unternehmen.",
-      slug: "/de/geschaft/grundungskosten-rechner",
+      slug: "/de/geschaeft/grundungskosten-rechner",
       keywords: "Gründungskostenrechner, Unternehmensgründungskosten, Startup-Ausgaben, Geschäftsfinanzierungsrechner, Anfangsinvestitionsrechner, Startup-Budget, Geschäftsstartkosten, Unternehmer-Kostenschätzer, Kleinunternehmensgründung"
     },
     es: {

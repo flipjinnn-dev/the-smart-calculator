@@ -19,6 +19,14 @@ export const metadata: Metadata = {
     url: 'https://www.thesmartcalculator.com/games/age-generator-wheel',
     type: 'website',
     siteName: 'The Smart Calculator',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Age Generator Wheel – Spin Random Age Picker',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

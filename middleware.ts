@@ -1024,6 +1024,14 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
+  // Redirect uppercase URLs to lowercase for SEO compliance
+  const lowercasePathname = pathname.toLowerCase();
+  if (pathname !== lowercasePathname) {
+    const url = request.nextUrl.clone();
+    url.pathname = lowercasePathname;
+    return NextResponse.redirect(url, 301);
+  }
+
   // Check if the URL starts with a language prefix
   const langMatch = pathname.match(/^\/(br|pl|de|es)(\/.*)?/);
 

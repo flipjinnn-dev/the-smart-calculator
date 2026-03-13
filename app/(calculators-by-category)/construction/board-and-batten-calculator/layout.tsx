@@ -16,17 +16,26 @@ export const metadata: Metadata = {
     "vertical siding calculator"
   ],
   alternates: {
-    canonical: "/construction/board-and-batten-calculator",
+    canonical: "https://www.thesmartcalculator.com/construction/board-and-batten-calculator",
     languages: {
-      'x-default': "/construction/board-and-batten-calculator",
-      'en': "/construction/board-and-batten-calculator",
+      'x-default': "https://www.thesmartcalculator.com/construction/board-and-batten-calculator",
+      'en': "https://www.thesmartcalculator.com/construction/board-and-batten-calculator",
     }
   },
   openGraph: {
     title: "Board and Batten Calculator - Estimate Boards, Battens & Spacing",
     description: "Quickly calculate boards, battens, spacing, and siding materials for your wall project with our easy Board and Batten Calculator.",
     type: "website",
-    url: "/construction/board-and-batten-calculator"
+    url: "https://www.thesmartcalculator.com/construction/board-and-batten-calculator",
+    siteName: "Smart Calculator",
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: "Board and Batten Calculator - Estimate Boards, Battens & Spacing",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

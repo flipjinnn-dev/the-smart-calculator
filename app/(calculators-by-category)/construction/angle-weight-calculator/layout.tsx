@@ -36,6 +36,14 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: 'The Smart Calculator',
       locale: 'en_US',
       type: 'website',
+      images: [
+        {
+          url: '/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: angleWeightCalculatorMeta.title,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',

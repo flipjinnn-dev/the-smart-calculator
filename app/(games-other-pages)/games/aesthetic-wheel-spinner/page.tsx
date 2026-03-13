@@ -19,6 +19,14 @@ export const metadata: Metadata = {
     url: 'https://www.thesmartcalculator.com/games/aesthetic-wheel-spinner',
     type: 'website',
     siteName: 'The Smart Calculator',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Aesthetic Wheel: Spin & Discover Your Style',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

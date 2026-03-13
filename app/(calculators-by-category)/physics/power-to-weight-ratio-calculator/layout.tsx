@@ -16,13 +16,26 @@ export const metadata: Metadata = {
     "acceleration calculator"
   ],
   alternates: {
-    canonical: "/physics/power-to-weight-ratio-calculator"
+    canonical: "https://www.thesmartcalculator.com/physics/power-to-weight-ratio-calculator",
+    languages: {
+      'x-default': "https://www.thesmartcalculator.com/physics/power-to-weight-ratio-calculator",
+      'en': "https://www.thesmartcalculator.com/physics/power-to-weight-ratio-calculator",
+    }
   },
   openGraph: {
     title: "Power-to-Weight Ratio Calculator - Calculate Acceleration & Efficiency",
     description: "Calculate acceleration & efficiency of cars, bikes, F1 cars, or cyclists with our Power-to-Weight Ratio Calculator. Compare performance instantly!",
     type: "website",
-    url: "/physics/power-to-weight-ratio-calculator"
+    url: "https://www.thesmartcalculator.com/physics/power-to-weight-ratio-calculator",
+    siteName: "Smart Calculator",
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: "Power-to-Weight Ratio Calculator - Calculate Acceleration & Efficiency",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
