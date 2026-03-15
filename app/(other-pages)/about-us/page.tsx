@@ -4,44 +4,83 @@ import Script from "next/script"
 import Link from "next/link"
 import { Calculator, Users, Target, Award, Heart, TrendingUp } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { headers } from "next/headers"
 
+type Language = "en" | "br" | "pl" | "de" | "es";
 
-export const metadata: Metadata = {
-  title: "About Smart Calculator - Free Online Calculator Platform",
-  description: "Learn about Smart Calculator, the leading platform for free online calculators. Our mission is to provide accurate, fast, and easy-to-use calculation tools for everyone.",
-  keywords: "about smart calculator, online calculator platform, free calculators, calculation tools",
-  alternates: {
-    canonical: getStaticPageCanonicalUrl('about-us', 'en'),
-    languages: {
-      'x-default': getStaticPageCanonicalUrl('about-us', 'en'),
-      'en': getStaticPageCanonicalUrl('about-us', 'en'),
-      'pt-BR': getStaticPageCanonicalUrl('about-us', 'br'),
-      'pl': getStaticPageCanonicalUrl('about-us', 'pl'),
-      'de': getStaticPageCanonicalUrl('about-us', 'de'),
-      'es': getStaticPageCanonicalUrl('about-us', 'es'),
-    }
-  },
-  openGraph: {
+const aboutPageMeta: Record<Language, { title: string; description: string; keywords: string }> = {
+  en: {
     title: "About Smart Calculator - Free Online Calculator Platform",
     description: "Learn about Smart Calculator, the leading platform for free online calculators. Our mission is to provide accurate, fast, and easy-to-use calculation tools for everyone.",
-    type: "website",
-    url: getStaticPageCanonicalUrl('about-us', 'en'),
-    siteName: "Smart Calculator",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "About Smart Calculator - Free Online Calculator Platform",
-      },
-    ],
+    keywords: "about smart calculator, online calculator platform, free calculators, calculation tools"
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "About Smart Calculator - Free Online Calculator Platform",
-    description: "Learn about Smart Calculator, the leading platform for free online calculators. Our mission is to provide accurate, fast, and easy-to-use calculation tools for everyone.",
-    images: ["/og-image.png"],
+  br: {
+    title: "Sobre Nós - Smart Calculator - Plataforma de Calculadoras Online Gratuitas",
+    description: "Conheça o Smart Calculator, a plataforma líder em calculadoras online gratuitas. Nossa missão é fornecer ferramentas de cálculo precisas, rápidas e fáceis de usar para todos.",
+    keywords: "sobre smart calculator, plataforma calculadora online, calculadoras gratuitas, ferramentas cálculo"
   },
+  pl: {
+    title: "O nas - Smart Calculator - Platforma Darmowych Kalkulatorów Online",
+    description: "Poznaj Smart Calculator, wiodącą platformę darmowych kalkulatorów online. Nasza misja to dostarczanie dokładnych, szybkich i łatwych w użyciu narzędzi obliczeniowych dla każdego.",
+    keywords: "o smart calculator, platforma kalkulator online, darmowe kalkulatory, narzędzia obliczeniowe"
+  },
+  de: {
+    title: "Über Uns - Smart Calculator - Kostenlose Online-Rechner-Plattform",
+    description: "Erfahren Sie mehr über Smart Calculator, die führende Plattform für kostenlose Online-Rechner. Unsere Mission ist es, genaue, schnelle und benutzerfreundliche Berechnungstools für alle bereitzustellen.",
+    keywords: "über smart calculator, online rechner plattform, kostenlose rechner, berechnungstools"
+  },
+  es: {
+    title: "Sobre Nosotros - Smart Calculator - Plataforma de Calculadoras Online Gratuitas",
+    description: "Conoce Smart Calculator, la plataforma líder en calculadoras online gratuitas. Nuestra misión es proporcionar herramientas de cálculo precisas, rápidas y fáciles de usar para todos.",
+    keywords: "sobre smart calculator, plataforma calculadora online, calculadoras gratuitas, herramientas cálculo"
+  }
+};
+
+export async function generateMetadata(): Promise<Metadata> {
+  const headerList = await headers();
+  const langHeader = headerList.get("x-language");
+  const language: Language = langHeader && aboutPageMeta[langHeader as Language] ? (langHeader as Language) : "en";
+
+  const meta = aboutPageMeta[language];
+  const canonicalUrl = getStaticPageCanonicalUrl('about-us', language);
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        'x-default': getStaticPageCanonicalUrl('about-us', 'en'),
+        'en': getStaticPageCanonicalUrl('about-us', 'en'),
+        'pt-BR': getStaticPageCanonicalUrl('about-us', 'br'),
+        'pl': getStaticPageCanonicalUrl('about-us', 'pl'),
+        'de': getStaticPageCanonicalUrl('about-us', 'de'),
+        'es': getStaticPageCanonicalUrl('about-us', 'es'),
+      }
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "website",
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
+    },
+  };
 }
 
 const jsonLd = {

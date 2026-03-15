@@ -1037,7 +1037,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora IMC – Evalúa tu Peso y Altura",
       description: "Utiliza nuestra calculadora IMC para medir tu índice de masa corporal, analizar tu peso y altura, y mejorar tu salud de manera sencilla y efectiva.",
-      slug: "/es/salud/calculadora-IMC",
+      slug: "/es/salud/calculadora-imc",
       keywords: "calculadora, evalúa, peso, altura, utiliza, nuestra, medir, índice, masa, corporal, analizar, mejorar, salud, manera, sencilla"
     }
   },
@@ -1565,7 +1565,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de TFG – Calcula tu Frecuencia de Trabajo Fácil",
       description: "Calcula tu Tasa de Flujo Glomerular (TFG) al instante con nuestra herramienta precisa. ¡Evalúa tu salud renal y toma decisiones inteligentes ahora mismo",
-      slug: "/es/salud/calculadora-de-TFG",
+      slug: "/es/salud/calculadora-de-tfg",
       keywords: "calculadora, calcula, frecuencia, trabajo, fácil, tasa, flujo, glomerular, instante, nuestra, herramienta, precisa, evalúa, salud, renal"
     }
   },
@@ -1598,7 +1598,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de IMC – Evalúa tu Peso y Salud Fácilmente",
       description: "Calcula tu IMC al instante con nuestra herramienta precisa. ¡Monitorea tu salud y recibe orientación para mantener un peso seguro y saludable",
-      slug: "/es/salud/calculadora-de-IMC-anorexica",
+      slug: "/es/salud/calculadora-de-imc-anorexica",
       keywords: "calculadora, evalúa, peso, salud, fácilmente, calcula, instante, nuestra, herramienta, precisa, monitorea, recibe, orientación, mantener, seguro"
     }
   },
@@ -1684,7 +1684,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Tipo Corporal",
       description: "Determine seu tipo corporal com base em medidas e características físicas. Útil para ajustar treinamento e dieta.",
-      slug: "/br/saude/Calculadora-de-Biotipo-Corporal",
+      slug: "/br/saude/calculadora-de-biotipo-corporal",
       keywords: "tipo corporal, ectomorfo, mesomorfo, endomorfo, planejamento treinamento"
     },
     de: {
@@ -2221,7 +2221,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Calculadora de la Regla de Simpson – Integra Fácil y Rápido",
       description: "Resuelve integrales con la regla de Simpson de forma rápida y precisa. Ideal para cálculo e ingeniería. ¡Ingresa los datos y obtén el resultado al instante!",
-      slug: "/es/matematicas/calculadora-de-la-regla-de-Simpson",
+      slug: "/es/matematicas/calculadora-de-la-regla-de-simpson",
       keywords: "calculadora, regla, simpson, integra, fácil, rápido, resuelve, integrales, forma, rápida, precisa, ideal, cálculo, ingeniería, ingresa"
     }
   },
@@ -2749,7 +2749,7 @@ export const calculatorsMeta: CalculatorMeta = {
     es: {
       title: "Convertidor de Moldes para Pasteles – Medidas Precisas",
       description: "Convierte fácilmente el tamaño de moldes para pasteles entre pulgadas, cm y más. ¡Prepara tus recetas con precisión y sin errores ahora mismo!",
-      slug: "/es/alimentos/convertidor-de-Moldes-para-Pasteles",
+      slug: "/es/alimentos/convertidor-de-moldes-para-pasteles",
       keywords: "convertidor, moldes, pasteles, medidas, precisas, convierte, fácilmente, tamaño, entre, pulgadas, prepara, recetas, precisión, errores, ahora"
     }
   },
@@ -2829,7 +2829,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Conversor de Macarrão Cru para Cozido",
       description: "Converta medidas de massa seca em equivalentes de massa cozida. Perfeito para planejar porções e evitar desperdício de alimentos.",
-      slug: "/br/alimento/Conversor-de-Macarrao-Cru-para-Cozido",
+      slug: "/br/alimento/conversor-de-macarrao-cru-para-cozido",
       keywords: "massa seca cozida, conversor macarrão, porções, evitar desperdício, cozinha italiana"
     },
     pl: {
@@ -3361,7 +3361,7 @@ export const calculatorsMeta: CalculatorMeta = {
     br: {
       title: "Calculadora de Sub-rede IP",
       description: "Calcule sub-redes e intervalos de IP para otimizar o gerenciamento de rede. Planeje a segmentação e alocação de endereços.",
-      slug: "/br/calculadora-desub-rede-IP",
+      slug: "/br/calculadora-desub-rede-ip",
       keywords: "sub-rede IP, calculadora rede, intervalos IP, gerenciamento rede, segmentação rede"
     },
     de: {

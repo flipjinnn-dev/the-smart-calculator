@@ -382,7 +382,7 @@
     },
     {
       "id": "bmi-calculator",
-      "slug": "/es/salud/calculadora-IMC",
+      "slug": "/es/salud/calculadora-imc",
       "languages": [
         "en",
         "pl",
@@ -558,7 +558,7 @@
     },
     {
       "id": "gfr-calculator",
-      "slug": "/es/salud/calculadora-de-TFG",
+      "slug": "/es/salud/calculadora-de-tfg",
       "languages": [
         "en",
         "pl",
@@ -569,7 +569,7 @@
     },
     {
       "id": "anorexic-bmi-calculator",
-      "slug": "/es/salud/calculadora-de-IMC-anorexica",
+      "slug": "/es/salud/calculadora-de-imc-anorexica",
       "languages": [
         "en",
         "pl",
@@ -778,7 +778,7 @@
     },
     {
       "id": "simpsons-rule-calculator",
-      "slug": "/es/matematicas/calculadora-de-la-regla-de-Simpson",
+      "slug": "/es/matematicas/calculadora-de-la-regla-de-simpson",
       "languages": [
         "en",
         "pl",
@@ -954,7 +954,7 @@
     },
     {
       "id": "cake-pan-calculator",
-      "slug": "/es/alimentos/convertidor-de-Moldes-para-Pasteles",
+      "slug": "/es/alimentos/convertidor-de-moldes-para-pasteles",
       "languages": [
         "en",
         "pl",
