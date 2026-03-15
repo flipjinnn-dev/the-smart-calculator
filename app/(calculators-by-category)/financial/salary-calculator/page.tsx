@@ -18,6 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
+        'x-default': getCanonicalUrl(calculatorId, 'en'),
         'en': getCanonicalUrl(calculatorId, 'en'),
         'pt-BR': getCanonicalUrl(calculatorId, 'br'),
         'pl': getCanonicalUrl(calculatorId, 'pl'),
