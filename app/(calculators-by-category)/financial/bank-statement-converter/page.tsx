@@ -12,9 +12,9 @@ export async function generateMetadata(): Promise<Metadata> {
   
   return {
     title: {
-      absolute: 'Bank Statement Converter - Convert PDF to CSV Online Free | Smart Calculator',
+      absolute: 'Bank Statement Converter – Convert PDF/Excel to CSV Instantly',
     },
-    description: 'Convert any bank statement from PDF, Excel, or text to clean CSV format instantly. Supports all banks and countries worldwide. Free online bank statement converter with automatic date and currency detection. 100% secure and private.',
+    description: 'Easily convert your bank statements from PDF, Excel, or text into clean, structured CSV format. Free, secure, and runs directly in your browser.',
     keywords: 'bank statement converter, PDF to CSV, bank statement to CSV, convert bank statement, bank statement parser, financial data converter, transaction converter, statement to excel, bank data extraction',
     alternates: {
       canonical: canonicalUrl,
@@ -24,8 +24,8 @@ export async function generateMetadata(): Promise<Metadata> {
       }
     },
     openGraph: {
-      title: 'Bank Statement Converter - Convert PDF to CSV Online Free',
-      description: 'Transform any bank statement into clean CSV format. Upload PDF, Excel, or paste text. Supports all banks worldwide. 100% free and secure.',
+      title: 'Bank Statement Converter – Convert PDF/Excel to CSV Instantly',
+      description: 'Easily convert your bank statements from PDF, Excel, or text into clean, structured CSV format. Free, secure, and runs directly in your browser.',
       url: canonicalUrl,
       siteName: 'Smart Calculator',
       type: 'website',

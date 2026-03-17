@@ -5,30 +5,30 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for house-affordability-calculator
 const houseaffordabilitycalculatorMeta = {
   en: {
-    title: "House Affordability Calculator How Much Home You Can Buy",
-    description: "Find out how much home you can afford based on income, expenses, and rates using our House Affordability Calculator.",
+    title: "House Affordability Calculator – How Much House Can You Afford?",
+    description: "Use our How Much House Can I Afford Calculator to quickly estimate your home budget. Plan smart and find out the right house you can comfortably buy.",
     keywords: "house affordability calculator, affordable house, income expenses, online affordability, home buying, planning tool, free house calculator, determine affordability"
   },
   br: {
-    title: "Calculadora de Acessibilidade da Casa",
-    description: "Use a Calculadora de Acessibilidade da Casa para saber se sua renda permite comprar uma casa e simular custos de habitação. Experimente agora!",
-    keywords: "finanzrechner, affordable haus, einkommen ausgaben, online affordabilität, hauskauf, planung tool, kostenloser haus rechner, affordabilität bestimmen"
+    title: "Calculadora de Acessibilidade à Casa",
+    description: "Use nossa Calculadora de Acessibilidade à Casa para descobrir quanto você pode pagar. Planeje seu orçamento e encontre a casa ideal que cabe no seu bolso.",
+    keywords: "Calculadora de Acessibilidade à Casa, affordable haus, einkommen ausgaben, online affordabilität, hauskauf, planung tool, kostenloser haus rechner, affordabilität bestimmen"
   },
   pl: {
-    title: "Calculadora Acessibilidade Habitação – Simule Financiamento",
-    description: "Use a Calculadora de Acessibilidade à Habitação para avaliar crédito e simular parcelas. Descubra se você pode financiar sua casa própria com precisão.",
-    keywords: "calculadora acessibilidade habitação, casa afford, renda despesas, online acessibilidade, compra casa, ferramenta planejamento, gratuita calculadora, determinar acessibilidade"
+    title: "Na Jakie Mieszkanie Mnie Stać – Kalkulator Domu",
+    description: "Sprawdź, na jakie mieszkanie Cię stać z naszym Kalkulatorem Dostępności Domu. Szybko oblicz budżet i znajdź idealne mieszkanie dla siebie.",
+    keywords: "cKalkulator Dostępności Domu, Wycena Nieruchomości, online acessibilidade, compra casa, ferramenta planejamento, gratuita calculadora, determinar acessibilidade"
   },
   de: {
-    title: "Kalkulator Dostępności Domu – Dochód Online | TheSmartCalculator",
-    description: "Użyj kalkulatora dostępności domu, aby określić affordalny dom na podstawie dochodu i wydatków. Dokładne, darmowe narzędzie do planowania kupna domu.",
-    keywords: "house affordability rechner, affordable house, income expenses, online affordability, home buying, planning tool, kostenlos house rechner, determine affordability"
+    title: "Wie viel Haus kann ich mir leisten",
+    description: "Finden Sie heraus, wie viel Haus Sie sich leisten können mit unserem Haus Erschwinglichkeitsrechner. Einfach Budget berechnen und passende Immobilie finden.",
+    keywords: "Wie viel Haus kann ich mir leisten, affordable house, income expenses, online affordability, home buying, planning tool, kostenlos house rechner, determine affordability"
   }
 ,
   es: {
-    title: "Calculadora de asequibilidad de vivienda: Encuentra tu hogar",
-    description: "Calcula cuánto puedes pagar por una vivienda según tus ingresos y gastos. Planifica tu compra de casa con proyecciones claras y decisiones seguras.",
-    keywords: "calculadora, asequibilidad, vivienda, encuentra, hogar, calcula, cuánto, puedes, pagar, según, ingresos, gastos, planifica, compra, casa"
+    title: "Calculadora de asequibilidad de vivienda",
+    description: "Usa nuestra Calculadora de Asequibilidad de Vivienda para descubrir cuánto puedes pagar por una casa. Calcula tu presupuesto y encuentra la vivienda ideal.",
+    keywords: "Calculadora de asequibilidad de vivienda, asequibilidad, vivienda, encuentra, hogar, calcula, cuánto, puedes, pagar, según, ingresos, gastos, planifica, compra, casa"
   }
 };
 
