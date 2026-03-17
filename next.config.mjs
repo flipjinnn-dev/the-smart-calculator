@@ -82,7 +82,18 @@ const nextConfig = {
       },
     ],
   },
-  transpilePackages: ['next-sanity'],
+  transpilePackages: [
+    'next-sanity',
+    '@tiptap/react',
+    '@tiptap/starter-kit',
+    '@tiptap/extension-underline',
+    '@tiptap/extension-link',
+    '@tiptap/extension-image',
+    '@tiptap/extension-table',
+    '@tiptap/extension-table-row',
+    '@tiptap/extension-table-header',
+    '@tiptap/extension-table-cell'
+  ],
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production' ? { exclude: ['error', 'warn'] } : false,
   },
