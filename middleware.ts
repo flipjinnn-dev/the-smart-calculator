@@ -786,7 +786,7 @@ export const reverseUrlMappings = {
     'cooking-measurement-converter': 'koch-messung-rechner',
     'credit-card-calculator': 'kreditkartenrechner',
     'credit-card-payoff-calculator': 'kreditkarten-tilgungsrechner',
-    'critical-point-calculator': 'kritische-Punkte-rechner',
+    'critical-point-calculator': 'kritische-punkte-rechner',
     'relative-extrema-calculator': 'relative-extrema-rechner',
     'cubic-yard-calculator': 'kubik-yard-rechner',
     'cups-to-pounds-converter': 'tassen-to-pfund-rechner',

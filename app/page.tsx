@@ -27,10 +27,19 @@ export async function generateMetadata(): Promise<Metadata> {
     description: contentData.meta.description || "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
     keywords: contentData.meta.keywords || "calculator, online calculator, financial calculator, health calculator, math calculator, free tools",
     openGraph: {
-      title: contentData.meta.title || "Smart Calculator - Free Online Calculators for Every Need",
-      description: contentData.meta.description || "Access hundreds of free online calculators for finance, health, math, physics, and more. Fast, accurate, and easy-to-use calculation tools.",
+      title: contentData.meta.title,
+      description: contentData.meta.description,
       type: "website",
       url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: contentData.meta.title,
+        },
+      ],
     },
     alternates: {
       canonical: canonicalUrl,

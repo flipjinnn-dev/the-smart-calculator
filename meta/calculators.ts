@@ -2149,7 +2149,7 @@ export const calculatorsMeta: CalculatorMeta = {
     de: {
       title: "Kritische Punkte Rechner – Extrema & Wendepunkte berechnen",
       description: "Berechne mit dem Kritische Punkte Rechner Extrema & Wendepunkte von Funktionen. Schnell",
-      slug: "/de/mathe/kritische-Punkte-rechner",
+      slug: "/de/mathe/kritische-punkte-rechner",
       keywords: "kritische Punkte, Ableitung, Extremstellen, Wendepunkt"
     }
     ,
