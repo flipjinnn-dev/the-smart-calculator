@@ -33,12 +33,9 @@ const contactMeta: Record<Language, { title: string; description: string; keywor
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get("x-language");
-  const language: Language = langHeader && contactMeta[langHeader as Language] ? (langHeader as Language) : "en";
-
-  const meta = contactMeta[language];
-  const canonicalUrl = getStaticPageCanonicalUrl('contact-us', language);
+  // Always use English-only metadata (no multilingual support)
+  const meta = contactMeta.en;
+  const canonicalUrl = 'https://www.thesmartcalculator.com/contact-us';
 
   return {
     title: meta.title,
@@ -46,14 +43,6 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: meta.keywords,
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        'x-default': getStaticPageCanonicalUrl('contact-us', 'en'),
-        en: getStaticPageCanonicalUrl('contact-us', 'en'),
-        "pt-BR": getStaticPageCanonicalUrl('contact-us', 'br'),
-        pl: getStaticPageCanonicalUrl('contact-us', 'pl'),
-        de: getStaticPageCanonicalUrl('contact-us', 'de'),
-        es: getStaticPageCanonicalUrl('contact-us', 'es')
-      }
     },
     openGraph: {
       title: meta.title,

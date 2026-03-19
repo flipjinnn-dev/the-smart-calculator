@@ -37,12 +37,9 @@ const aboutPageMeta: Record<Language, { title: string; description: string; keyw
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get("x-language");
-  const language: Language = langHeader && aboutPageMeta[langHeader as Language] ? (langHeader as Language) : "en";
-
-  const meta = aboutPageMeta[language];
-  const canonicalUrl = getStaticPageCanonicalUrl('about-us', language);
+  // Always use English-only metadata (no multilingual support)
+  const meta = aboutPageMeta.en;
+  const canonicalUrl = 'https://www.thesmartcalculator.com/about-us';
 
   return {
     title: meta.title,
@@ -50,14 +47,6 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: meta.keywords,
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        'x-default': getStaticPageCanonicalUrl('about-us', 'en'),
-        'en': getStaticPageCanonicalUrl('about-us', 'en'),
-        'pt-BR': getStaticPageCanonicalUrl('about-us', 'br'),
-        'pl': getStaticPageCanonicalUrl('about-us', 'pl'),
-        'de': getStaticPageCanonicalUrl('about-us', 'de'),
-        'es': getStaticPageCanonicalUrl('about-us', 'es'),
-      }
     },
     openGraph: {
       title: meta.title,

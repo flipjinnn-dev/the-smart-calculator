@@ -80,7 +80,14 @@ const ENGLISH_ONLY_PATHS = [
   // Community & creator pages
   '/community',
   '/blogs',
-  '/creator'
+  '/creator',
+  // Other pages
+  '/about-us',
+  '/contact-us',
+  '/privacy-policy',
+  '/terms-and-conditions',
+  '/editorial-policy-mission-statement',
+  '/sitemap'
 ]
 
 const LANGUAGES = [

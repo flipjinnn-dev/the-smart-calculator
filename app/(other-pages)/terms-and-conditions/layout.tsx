@@ -33,12 +33,9 @@ const termsMeta: Record<Language, { title: string; description: string; keywords
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const language: Language = langHeader && termsMeta[langHeader as Language] ? (langHeader as Language) : 'en';
-
-  const meta = termsMeta[language];
-  const canonicalUrl = getStaticPageCanonicalUrl('terms-and-conditions', language);
+  // Always use English-only metadata (no multilingual support)
+  const meta = termsMeta.en;
+  const canonicalUrl = 'https://www.thesmartcalculator.com/terms-and-conditions';
 
   return {
     title: meta.title,
@@ -46,14 +43,6 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: meta.keywords,
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        'x-default': getStaticPageCanonicalUrl('terms-and-conditions', 'en'),
-        'en': getStaticPageCanonicalUrl('terms-and-conditions', 'en'),
-        'pt-BR': getStaticPageCanonicalUrl('terms-and-conditions', 'br'),
-        'pl': getStaticPageCanonicalUrl('terms-and-conditions', 'pl'),
-        'de': getStaticPageCanonicalUrl('terms-and-conditions', 'de'),
-        'es': getStaticPageCanonicalUrl('terms-and-conditions', 'es')
-      }
     },
     openGraph: {
       title: meta.title,

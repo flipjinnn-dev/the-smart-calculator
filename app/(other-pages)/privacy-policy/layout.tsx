@@ -33,12 +33,9 @@ const privacyMeta: Record<Language, { title: string; description: string; keywor
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const language: Language = langHeader && privacyMeta[langHeader as Language] ? (langHeader as Language) : 'en';
-
-  const meta = privacyMeta[language];
-  const canonicalUrl = getStaticPageCanonicalUrl('privacy-policy', language);
+  // Always use English-only metadata (no multilingual support)
+  const meta = privacyMeta.en;
+  const canonicalUrl = 'https://www.thesmartcalculator.com/privacy-policy';
 
   return {
     title: meta.title,
@@ -46,14 +43,6 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: meta.keywords,
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        'x-default': getStaticPageCanonicalUrl('privacy-policy', 'en'),
-        'en': getStaticPageCanonicalUrl('privacy-policy', 'en'),
-        'pt-BR': getStaticPageCanonicalUrl('privacy-policy', 'br'),
-        'pl': getStaticPageCanonicalUrl('privacy-policy', 'pl'),
-        'de': getStaticPageCanonicalUrl('privacy-policy', 'de'),
-        'es': getStaticPageCanonicalUrl('privacy-policy', 'es')
-      }
     },
     openGraph: {
       title: meta.title,

@@ -1053,16 +1053,15 @@ export function middleware(request: NextRequest) {
     // Check if this is a static page (first part is a static page name)
     const firstPart = pathParts[0];
     if (staticPages.includes(firstPart)) {
-      // For static pages, keep the English URL but set the language header
-      // We need to rewrite to the English path
-      const newPath = '/' + pathParts.join('/');
-      const response = NextResponse.rewrite(new URL(newPath, request.url));
-      response.headers.set('x-language', lang);
-      return response;
+      // For static pages with language prefix (e.g., /br/about-us), redirect to English version
+      // 301 Permanent redirect to remove language prefix
+      const url = request.nextUrl.clone();
+      url.pathname = '/' + firstPart;
+      return NextResponse.redirect(url, 301);
     }
 
     // Check if this is a translated static page
-    // For example, /br/sobre-nos should rewrite to /about-us
+    // For example, /br/sobre-nos should redirect to /about-us (301 permanent redirect)
     const translatedStaticPages: Record<string, string> = {
       // Portuguese
       'sobre-nos': 'about-us',
@@ -1070,34 +1069,40 @@ export function middleware(request: NextRequest) {
       'contato': 'contact-us',
       'politica-de-privacidade': 'privacy-policy',
       'termos-e-condicoes': 'terms-and-conditions',
+      'politica-editorial-declaracao-missao': 'editorial-policy-mission-statement',
+      'mapa-do-site': 'sitemap',
       // Polish
       'o-nas': 'about-us',
-      'kontakt': 'contact-us',
       'polityka-prywatnosci': 'privacy-policy',
       'regulamin': 'terms-and-conditions',
       'warunki': 'terms-and-conditions',
+      'polityka-redakcyjna-deklaracja-misji': 'editorial-policy-mission-statement',
+      'mapa-strony': 'sitemap',
       // German
       'uber-uns': 'about-us',
-      'kontakt-uns': 'contact-us',
+      'kontakt': 'contact-us',
       'datenschutz': 'privacy-policy',
       'allgemeine-geschaftsbedingungen': 'terms-and-conditions',
       'nutzungsbedingungen': 'terms-and-conditions',
+      'redaktionelle-richtlinien-leitbild': 'editorial-policy-mission-statement',
+      'sitemap': 'sitemap',
       // Spanish
       'acerca-de-nosotros': 'about-us',
       'sobre-nosotros': 'about-us',
       'contactanos': 'contact-us',
       'contacto': 'contact-us',
       'politica-de-privacidad': 'privacy-policy',
-      'terminos-y-condiciones': 'terms-and-conditions'
+      'terminos-y-condiciones': 'terms-and-conditions',
+      'politica-editorial-declaracion-mision': 'editorial-policy-mission-statement',
+      'mapa-del-sitio': 'sitemap'
     };
 
     if (translatedStaticPages[firstPart]) {
-      // Rewrite to the English version of the static page
+      // 301 Permanent redirect to the English version of the static page
       const englishPage = translatedStaticPages[firstPart];
-      const newPath = '/' + [englishPage, ...pathParts.slice(1)].join('/');
-      const response = NextResponse.rewrite(new URL(newPath, request.url));
-      response.headers.set('x-language', lang);
-      return response;
+      const url = request.nextUrl.clone();
+      url.pathname = '/' + englishPage;
+      return NextResponse.redirect(url, 301);
     }
 
     // Translate the path parts for non-static pages

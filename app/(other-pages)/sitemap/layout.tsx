@@ -33,12 +33,9 @@ const sitemapMeta: Record<Language, { title: string; description: string; keywor
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get("x-language");
-  const language: Language = langHeader && sitemapMeta[langHeader as Language] ? (langHeader as Language) : "en";
-
-  const meta = sitemapMeta[language];
-  const canonicalUrl = getStaticPageCanonicalUrl('sitemap', language);
+  // Always use English-only metadata (no multilingual support)
+  const meta = sitemapMeta.en;
+  const canonicalUrl = 'https://www.thesmartcalculator.com/sitemap';
 
   return {
     title: meta.title,
@@ -47,18 +44,30 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        en: getStaticPageCanonicalUrl('sitemap', 'en'),
-        "pt-BR": getStaticPageCanonicalUrl('sitemap', 'br'),
-        pl: getStaticPageCanonicalUrl('sitemap', 'pl'),
-        de: getStaticPageCanonicalUrl('sitemap', 'de'),
-        es: getStaticPageCanonicalUrl('sitemap', 'es')
+        'x-default': canonicalUrl,
+        'en': canonicalUrl,
       }
     },
     openGraph: {
       title: meta.title,
       description: meta.description,
       type: "website",
-      url: canonicalUrl
+      url: canonicalUrl,
+      siteName: "Smart Calculator",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/og-image.png"],
     }
   };
 }

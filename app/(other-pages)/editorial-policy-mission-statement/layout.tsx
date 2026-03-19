@@ -33,12 +33,9 @@ const editorialPolicyMeta: Record<Language, { title: string; description: string
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get("x-language");
-  const language: Language = langHeader && editorialPolicyMeta[langHeader as Language] ? (langHeader as Language) : "en";
-
-  const meta = editorialPolicyMeta[language];
-  const canonicalUrl = getStaticPageCanonicalUrl('editorial-policy-mission-statement', language);
+  // Always use English-only metadata (no multilingual support)
+  const meta = editorialPolicyMeta.en;
+  const canonicalUrl = 'https://www.thesmartcalculator.com/editorial-policy-mission-statement';
 
   return {
     title: meta.title,
@@ -46,14 +43,6 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: meta.keywords,
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        'x-default': getStaticPageCanonicalUrl('editorial-policy-mission-statement', 'en'),
-        en: getStaticPageCanonicalUrl('editorial-policy-mission-statement', 'en'),
-        "pt-BR": getStaticPageCanonicalUrl('editorial-policy-mission-statement', 'br'),
-        pl: getStaticPageCanonicalUrl('editorial-policy-mission-statement', 'pl'),
-        de: getStaticPageCanonicalUrl('editorial-policy-mission-statement', 'de'),
-        es: getStaticPageCanonicalUrl('editorial-policy-mission-statement', 'es')
-      }
     },
     openGraph: {
       title: meta.title,
