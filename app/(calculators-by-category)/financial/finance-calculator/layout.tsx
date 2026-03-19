@@ -5,30 +5,30 @@ import { getCanonicalUrl } from "@/lib/url-utils";
 // Multilingual SEO metadata for finance-calculator
 const financecalculatorMeta = {
   en: {
-    title: "Finance Calculator Savings & Investment Planning",
-    description: "Estimate savings, loans, investments, and future finances with our Finance Calculator to make smarter money decisions easily.",
+    title: "Finance Calculator – Calculate EMI, Loans & Savings Fast",
+    description: "Use our Finance Calculator to quickly calculate EMI, loans, savings, and interest. Free, accurate, and easy-to-use tool for all your financial planning needs.",
     keywords: "finance calculator, comprehensive, tool, various, financial, calculations"
   },
   br: {
-    title: "Calculadora Financeira Online Grátis Planeje Seus Investimentos",
-    description: "Use nossa calculadora financeira online grátis para estimar economias, empréstimos e investimentos. Planeje suas finanças com facilidade e precisão!",
+    title: "Calculadora Financeira – Juros, Empréstimos, Investimentos",
+    description: "Calcule parcelas, juros e investimentos com nossa Calculadora Financeira fácil e rápida. Planeje suas finanças de forma precisa e gratuita online.",
     keywords: "conversor moedas, cotações tempo real, taxas câmbio, converta valores, online moedas, precisão rapidez, mundo finanças"
   },
   pl: {
-    title: "Kalkulator Finansowy – Oblicz Wyniki Finansowe",
-    description: "Skorzystaj z kalkulatora finansowego online, aby łatwo analizować dane finansowe. Proste narzędzie do szybkich i dokładnych obliczeń finansowych.",
+    title: "Kalkulator Finansowy",
+    description: "Skorzystaj z naszego Kalkulatora Finansowego, aby szybko i dokładnie obliczyć kredyty, odsetki, raty i inwestycje online, całkowicie za darmo.",
     keywords: "kalkulator finansowy, kompleksowe, narzędzie, różne, finansowe, obliczenia"
   },
   de: {
-    title: "Finanzrechner – Online Tools für Ihre Finanzen",
-    description: "Mit dem Finanzrechner analysieren Sie Kredite, Anlagen und Haushaltsbudget. Der Finanzrechner bietet schnelle Online-Berechnungen für Ihre Finanzen.",
-    keywords: "finanzrechner, umfassend, tool, verschiedene, finanzielle, berechnungen"
+    title: "Finanzrechner – Kredite, Zinsen & Investitionen",
+    description: "Berechnen Sie Kredite, Zinsen, Raten und Investitionen schnell, präzise und kostenlos mit unserem FinanzRechner online – ideal für Ihre Finanzplanung.",
+    keywords: "finanzrechner, Kredite, tool, verschiedene, finanzielle, berechnungen"
   }
 ,
   es: {
-    title: "Calculadora Financiera – Gestiona Préstamos, Inversiones e Intereses",
-    description: "Utiliza nuestra calculadora financiera para calcular préstamos, planificar inversiones y controlar los intereses de manera rápida y eficiente.",
-    keywords: "calculadora, financiera, gestiona, préstamos, inversiones, intereses, utiliza, nuestra, calcular, planificar, controlar, manera, rápida, eficiente"
+    title: "Calculadora Financiera – Kredite, Zinsen & Investitionen",
+    description: "Berechnen Sie Kredite, Zinsen, Raten und Investitionen schnell, präzise und kostenlos mit unserem Finanz-Rechner online – ideal für Ihre Finanzplanung.",
+    keywords: "calculadora financiera, gestiona, préstamos, inversiones, intereses, utiliza, nuestra, calcular, planificar, controlar, manera, rápida, eficiente"
   }
 };
 
