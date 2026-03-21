@@ -1,0 +1,606 @@
+[
+  {
+    "keyword": "Free Online Calculators",
+    "href": "/"
+  },
+  {
+    "keyword": "financial Calculator",
+    "href": "/financial"
+  },
+  {
+    "keyword": "mortgage calculator",
+    "href": "/financial/mortgage-calculator"
+  },
+  {
+    "keyword": "loan calculator",
+    "href": "/financial/loan-calculator"
+  },
+  {
+    "keyword": "compound interest calculator",
+    "href": "/financial/compound-interest-calculator"
+  },
+  {
+    "keyword": "inflation calculator",
+    "href": "/financial/inflation-calculator"
+  },
+  {
+    "keyword": "interest calculator",
+    "href": "/financial/interest-calculator"
+  },
+  {
+    "keyword": "payment calculator",
+    "href": "/financial/payment-calculator"
+  },
+  {
+    "keyword": "finance calculator",
+    "href": "/financial/finance-calculator"
+  },
+  {
+    "keyword": "401k calculator",
+    "href": "/financial/401k-calculator"
+  },
+  {
+    "keyword": "debt payoff calculator",
+    "href": "/financial/debt-payoff-calculator"
+  },
+  {
+    "keyword": "house affordability calculator",
+    "href": "/financial/house-affordability-calculator"
+  },
+  {
+    "keyword": "estate tax calculator",
+    "href": "/financial/estate-tax-calculator"
+  },
+  {
+    "keyword": "credit card payoff calculator",
+    "href": "/financial/credit-card-payoff-calculator"
+  },
+  {
+    "keyword": "credit card calculator",
+    "href": "/financial/credit-card-calculator"
+  },
+  {
+    "keyword": "annuity payout calculator",
+    "href": "/financial/annuity-payout-calculator"
+  },
+  {
+    "keyword": "annuity calculator",
+    "href": "/financial/annuity-calculator"
+  },
+  {
+    "keyword": "social security calculator",
+    "href": "/financial/social-security-calculator"
+  },
+  {
+    "keyword": "pension calculator",
+    "href": "/financial/pension-calculator"
+  },
+  {
+    "keyword": "savings calculator",
+    "href": "/financial/savings-calculator"
+  },
+  {
+    "keyword": "marriage calculator",
+    "href": "/financial/marriage-calculator"
+  },
+  {
+    "keyword": "sales tax calculator",
+    "href": "/financial/sales-tax-calculator"
+  },
+  {
+    "keyword": "rent calculator",
+    "href": "/financial/rent-calculator"
+  },
+  {
+    "keyword": "interest rate calculator",
+    "href": "/financial/interest-rate-calculator"
+  },
+  {
+    "keyword": "income tax calculator",
+    "href": "/financial/income-tax-calculator"
+  },
+  {
+    "keyword": "salary calculator",
+    "href": "/financial/salary-calculator"
+  },
+  {
+    "keyword": "auto loan calculator",
+    "href": "/financial/auto-loan-calculator"
+  },
+  {
+    "keyword": "amortization calculator",
+    "href": "/financial/amortization-calculator"
+  },
+  {
+    "keyword": "mortgage payoff calculator",
+    "href": "/financial/mortgage-payoff-calculator"
+  },
+  {
+    "keyword": "currency calculator",
+    "href": "/financial/currency-calculator"
+  },
+  {
+    "keyword": "bank statement converter",
+    "href": "/financial/bank-statement-converter"
+  },
+  {
+    "keyword": "investment calculator",
+    "href": "/financial/investment-calculator"
+  },
+  {
+    "keyword": "retirement calculator",
+    "href": "/financial/retirement-calculator"
+  },
+  {
+    "keyword": "health Calculator",
+    "href": "/health"
+  },
+  {
+    "keyword": "bmi calculator",
+    "href": "/health/bmi-calculator"
+  },
+  {
+    "keyword": "calorie calculator",
+    "href": "/health/calorie-calculator"
+  },
+  {
+    "keyword": "pregnancy calculator",
+    "href": "/health/pregnancy-calculator"
+  },
+  {
+    "keyword": "pregnancy conception calculator",
+    "href": "/health/pregnancy-conception-calculator"
+  },
+  {
+    "keyword": "vancomycin calculator",
+    "href": "/health/vancomycin-calculator"
+  },
+  {
+    "keyword": "pregnancy weight gain calculator",
+    "href": "/health/pregnancy-weight-gain-calculator"
+  },
+  {
+    "keyword": "calories burned calculator",
+    "href": "/health/calories-burned-calculator"
+  },
+  {
+    "keyword": "due date calculator",
+    "href": "/health/due-date-calculator"
+  },
+  {
+    "keyword": "pace calculator",
+    "href": "/health/pace-calculator"
+  },
+  {
+    "keyword": "one rep max calculator",
+    "href": "/health/one-rep-max-calculator"
+  },
+  {
+    "keyword": "army body fat calculator",
+    "href": "/health/army-body-fat-calculator"
+  },
+  {
+    "keyword": "target heart rate calculator",
+    "href": "/health/target-heart-rate-calculator"
+  },
+  {
+    "keyword": "protein calculator",
+    "href": "/health/protein-calculator"
+  },
+  {
+    "keyword": "healthy weight calculator",
+    "href": "/health/healthy-weight-calculator"
+  },
+  {
+    "keyword": "fat intake calculator",
+    "href": "/health/fat-intake-calculator"
+  },
+  {
+    "keyword": "carbohydrate calculator",
+    "href": "/health/carbohydrate-calculator"
+  },
+  {
+    "keyword": "ovulation calculator",
+    "href": "/health/ovulation-calculator"
+  },
+  {
+    "keyword": "lean body mass calculator",
+    "href": "/health/lean-body-mass-calculator"
+  },
+  {
+    "keyword": "tdee calculator",
+    "href": "/health/tdee-calculator"
+  },
+  {
+    "keyword": "conception calculator",
+    "href": "/health/conception-calculator"
+  },
+  {
+    "keyword": "gfr calculator",
+    "href": "/health/gfr-calculator"
+  },
+  {
+    "keyword": "anorexic bmi calculator",
+    "href": "/health/anorexic-bmi-calculator"
+  },
+  {
+    "keyword": "ideal weight calculator",
+    "href": "/health/ideal-weight-calculator"
+  },
+  {
+    "keyword": "overweight calculator",
+    "href": "/health/overweight-calculator"
+  },
+  {
+    "keyword": "body type calculator",
+    "href": "/health/body-type-calculator"
+  },
+  {
+    "keyword": "period calculator",
+    "href": "/health/period-calculator"
+  },
+  {
+    "keyword": "bmr calculator",
+    "href": "/health/bmr-calculator"
+  },
+  {
+    "keyword": "weight watchers points calculator",
+    "href": "/health/weight-watchers-points-calculator"
+  },
+  {
+    "keyword": "body surface area calculator",
+    "href": "/health/body-surface-area-calculator"
+  },
+  {
+    "keyword": "bac calculator",
+    "href": "/health/bac-calculator"
+  },
+  {
+    "keyword": "body fat calculator",
+    "href": "/health/body-fat-calculator"
+  },
+  {
+    "keyword": "macro calculator",
+    "href": "/health/macro-calculator"
+  },
+  {
+    "keyword": "rucking calorie calculator",
+    "href": "/health/rucking-calorie-calculator"
+  },
+  {
+    "keyword": "dental implant cost calculator",
+    "href": "/health/dental-implant-cost-calculator"
+  },
+  {
+    "keyword": "maths Calculator",
+    "href": "/maths"
+  },
+  {
+    "keyword": "percentage calculator",
+    "href": "/maths/percentage-calculator"
+  },
+  {
+    "keyword": "empirical rule calculator",
+    "href": "/maths/empirical-rule-calculator"
+  },
+  {
+    "keyword": "reverse percentage calculator",
+    "href": "/maths/reverse-percentage-calculator"
+  },
+  {
+    "keyword": "inflection point calculator",
+    "href": "/maths/inflection-point-calculator"
+  },
+  {
+    "keyword": "square root curve calculator",
+    "href": "/maths/square-root-curve-calculator"
+  },
+  {
+    "keyword": "percent error calculator",
+    "href": "/maths/percent-error-calculator"
+  },
+  {
+    "keyword": "critical point calculator",
+    "href": "/maths/critical-point-calculator"
+  },
+  {
+    "keyword": "relative extrema calculator",
+    "href": "/maths/relative-extrema-calculator"
+  },
+  {
+    "keyword": "simpsons rule calculator",
+    "href": "/maths/simpsons-rule-calculator"
+  },
+  {
+    "keyword": "mean value theorem calculator",
+    "href": "/maths/mean-value-theorem-calculator"
+  },
+  {
+    "keyword": "random number generator",
+    "href": "/maths/random-number-generator"
+  },
+  {
+    "keyword": "scientific calculator",
+    "href": "/maths/scientific-calculator"
+  },
+  {
+    "keyword": "volume calculator",
+    "href": "/maths/volume-calculator"
+  },
+  {
+    "keyword": "physics",
+    "href": "/physics"
+  },
+  {
+    "keyword": "orthogonal projection calculator",
+    "href": "/physics/orthogonal-projection-calculator"
+  },
+  {
+    "keyword": "velocity calculator",
+    "href": "/physics/velocity-calculator"
+  },
+  {
+    "keyword": "ballistic coefficient calculator",
+    "href": "/physics/ballistic-coefficient-calculator"
+  },
+  {
+    "keyword": "arrow speed calculator",
+    "href": "/physics/arrow-speed-calculator"
+  },
+  {
+    "keyword": "car jump distance calculator",
+    "href": "/physics/car-jump-distance-calculator"
+  },
+  {
+    "keyword": "conservation of momentum calculator",
+    "href": "/physics/conservation-of-momentum-calculator"
+  },
+  {
+    "keyword": "power to weight ratio calculator",
+    "href": "/physics/power-to-weight-ratio-calculator"
+  },
+  {
+    "keyword": "construction Calculator",
+    "href": "/construction"
+  },
+  {
+    "keyword": "board foot calculator",
+    "href": "/construction/board-foot-calculator"
+  },
+  {
+    "keyword": "paver base calculator",
+    "href": "/construction/paver-base-calculator"
+  },
+  {
+    "keyword": "cubic yard calculator",
+    "href": "/construction/cubic-yard-calculator"
+  },
+  {
+    "keyword": "gallons per square foot calculator",
+    "href": "/construction/gallons-per-square-foot-calculator"
+  },
+  {
+    "keyword": "size to weight rectangular cuboid calculator",
+    "href": "/construction/size-to-weight-rectangular-cuboid-calculator"
+  },
+  {
+    "keyword": "square feet to cubic yards calculator",
+    "href": "/construction/square-feet-to-cubic-yards-calculator"
+  },
+  {
+    "keyword": "angle weight calculator",
+    "href": "/construction/angle-weight-calculator"
+  },
+  {
+    "keyword": "board and batten calculator",
+    "href": "/construction/board-and-batten-calculator"
+  },
+  {
+    "keyword": "food Calculator",
+    "href": "/food"
+  },
+  {
+    "keyword": "butter calculator",
+    "href": "/food/butter-calculator"
+  },
+  {
+    "keyword": "cake pan calculator",
+    "href": "/food/cake-pan-calculator"
+  },
+  {
+    "keyword": "cooking measurement converter",
+    "href": "/food/cooking-measurement-converter"
+  },
+  {
+    "keyword": "dry to cooked pasta converter",
+    "href": "/food/dry-to-cooked-pasta-converter"
+  },
+  {
+    "keyword": "cups to pounds converter",
+    "href": "/food/cups-to-pounds-converter"
+  },
+  {
+    "keyword": "sports Calculator",
+    "href": "/sports"
+  },
+  {
+    "keyword": "batting average calculator",
+    "href": "/sports/batting-average-calculator"
+  },
+  {
+    "keyword": "earned run average calculator",
+    "href": "/sports/earned-run-average-calculator"
+  },
+  {
+    "keyword": "fielding percentage calculator",
+    "href": "/sports/fielding-percentage-calculator"
+  },
+  {
+    "keyword": "fielding independent pitching calculator",
+    "href": "/sports/fielding-independent-pitching-calculator"
+  },
+  {
+    "keyword": "magic number calculator",
+    "href": "/sports/magic-number-calculator"
+  },
+  {
+    "keyword": "games",
+    "href": "/games"
+  },
+  {
+    "keyword": "wordle",
+    "href": "/games/wordle"
+  },
+  {
+    "keyword": "mental maths",
+    "href": "/games/mental-maths"
+  },
+  {
+    "keyword": "coin saver challenge",
+    "href": "/games/coin-saver-challenge"
+  },
+  {
+    "keyword": "money master",
+    "href": "/games/money-master"
+  },
+  {
+    "keyword": "cashier simulator",
+    "href": "/games/cashier-simulator"
+  },
+  {
+    "keyword": "grocery cashier",
+    "href": "/games/grocery-cashier"
+  },
+  {
+    "keyword": "sort coins",
+    "href": "/games/sort-coins"
+  },
+  {
+    "keyword": "aesthetic wheel spinner",
+    "href": "/games/aesthetic-wheel-spinner"
+  },
+  {
+    "keyword": "age generator wheel",
+    "href": "/games/age-generator-wheel"
+  },
+  {
+    "keyword": "animal wheel spinner",
+    "href": "/games/animal-wheel-spinner"
+  },
+  {
+    "keyword": "anime character wheel",
+    "href": "/games/anime-character-wheel"
+  },
+  {
+    "keyword": "software Calculator",
+    "href": "/software"
+  },
+  {
+    "keyword": "website cost calculator",
+    "href": "/software/website-cost-calculator"
+  },
+  {
+    "keyword": "youtube money calculator",
+    "href": "/software/youtube-money-calculator"
+  },
+  {
+    "keyword": "app cost calculator",
+    "href": "/software/app-cost-calculator"
+  },
+  {
+    "keyword": "business Calculator",
+    "href": "/business"
+  },
+  {
+    "keyword": "break even calculator",
+    "href": "/business/break-even-calculator"
+  },
+  {
+    "keyword": "startup costs calculator",
+    "href": "/business/startup-costs-calculator"
+  },
+  {
+    "keyword": "other calculators",
+    "href": "/other-calculators"
+  },
+  {
+    "keyword": "towing estimate calculator",
+    "href": "/towing-estimate-calculator"
+  },
+  {
+    "keyword": "age calculator",
+    "href": "/age-calculator"
+  },
+  {
+    "keyword": "end of service calculator",
+    "href": "/end-of-service-calculator"
+  },
+  {
+    "keyword": "ovr calculator",
+    "href": "/ovr-calculator"
+  },
+  {
+    "keyword": "implant size calculator",
+    "href": "/implant-size-calculator"
+  },
+  {
+    "keyword": "acres per hour calculator",
+    "href": "/acres-per-hour-calculator"
+  },
+  {
+    "keyword": "notice period calculator",
+    "href": "/notice-period-calculator"
+  },
+  {
+    "keyword": "ssc gpa calculator",
+    "href": "/ssc-gpa-calculator"
+  },
+  {
+    "keyword": "uif calculator",
+    "href": "/uif-calculator"
+  },
+  {
+    "keyword": "twin flame calculator",
+    "href": "/twin-flame-calculator"
+  },
+  {
+    "keyword": "piecewise function calculator grapher",
+    "href": "/piecewise-function-calculator-grapher"
+  },
+  {
+    "keyword": "rpe calculator",
+    "href": "/rpe-calculator"
+  },
+  {
+    "keyword": "indiana child support calculator",
+    "href": "/indiana-child-support-calculator"
+  },
+  {
+    "keyword": "time calculator",
+    "href": "/time-calculator"
+  },
+  {
+    "keyword": "gpa calculator",
+    "href": "/gpa-calculator"
+  },
+  {
+    "keyword": "grade curve calculator",
+    "href": "/grade-curve-calculator"
+  },
+  {
+    "keyword": "height calculator",
+    "href": "/height-calculator"
+  },
+  {
+    "keyword": "ip subnet calculator",
+    "href": "/ip-subnet-calculator"
+  },
+  {
+    "keyword": "therapy productivity calculator",
+    "href": "/therapy-productivity-calculator"
+  },
+  {
+    "keyword": "enterprise seo roi calculator",
+    "href": "/enterprise-seo-roi-calculator"
+  }
+]

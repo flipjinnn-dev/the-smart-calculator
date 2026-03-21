@@ -10,6 +10,7 @@ import BackToTop from "@/components/back-to-top"
 import { SessionProvider } from "@/components/providers/session-provider"
 import { Toaster } from "sonner"
 import { headers } from "next/headers"
+import { InternalLinksSection } from "@/components/internal-links-section"
 import "./globals.css"
 import "katex/dist/katex.min.css"
 
@@ -202,6 +203,7 @@ export default async function RootLayout({
           <Analytics />
 
           <BackToTop />
+          <InternalLinksSection language={language} />
           <LanguageFooter />
           <Toaster position="top-center" richColors />
         </SessionProvider>
