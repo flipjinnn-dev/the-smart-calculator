@@ -1,199 +1,312 @@
 {
   "pageTitle": "Mortgage Calculator",
-  "pageDescription": "Calculate monthly mortgage payments, total interest, and amortization schedule for home loans with property tax and insurance considerations",
-  "form": {
-    "labels": {
-      "homePrice": "Home Price",
-      "downPayment": "Down Payment",
-      "downPaymentType": "Down Payment Type",
-      "loanAmount": "Loan Amount",
-      "interestRate": "Annual Interest Rate",
-      "loanTerm": "Loan Term",
-      "startDate": "Loan Start Date",
-      "propertyTax": "Annual Property Tax",
-      "homeInsurance": "Annual Home Insurance",
-      "pmi": "Private Mortgage Insurance (PMI)",
-      "hoa": "Monthly HOA Fees"
-    },
-    "placeholders": {
-      "homePrice": "Enter home price",
-      "downPayment": "Enter down payment",
-      "loanAmount": "Enter loan amount",
-      "interestRate": "Enter annual interest rate (%)",
-      "loanTerm": "Enter loan term in years",
-      "propertyTax": "Enter annual property tax",
-      "homeInsurance": "Enter annual home insurance",
-      "pmi": "Enter PMI if applicable",
-      "hoa": "Enter monthly HOA fees"
-    },
-    "buttons": {
-      "calculate": "Calculate Mortgage",
-      "reset": "Reset"
-    },
-    "downPaymentTypes": {
-      "amount": "Amount",
-      "percentage": "Percentage"
-    }
+  "pageDescription": "Free advanced mortgage calculator with live payment breakdown chart, amortization graph, extra payment savings, and full cost analysis. No sign-up required.",
+  "heroTitle": "Mortgage Calculator",
+  "heroSubtitle": "Get your complete monthly payment breakdown — including P&I, taxes, insurance, and PMI — instantly.",
+
+  "breadcrumb": {
+    "home": "Home",
+    "financial": "Financial Calculators",
+    "current": "Mortgage Calculator"
   },
+
+  "tabs": {
+    "buy": "🏠 Buy a Home",
+    "refi": "🔄 Refinance",
+    "extra": "⚡ Extra Payments"
+  },
+
+  "fields": {
+    "homePrice": "Home Price",
+    "downPayment": "Down Payment",
+    "loanTerm": "Loan Term",
+    "interestRate": "Interest Rate",
+    "startDate": "Start Date",
+    "propertyTax": "Property Tax ($/yr)",
+    "homeInsurance": "Home Insurance ($/yr)",
+    "hoaFees": "HOA Fees ($/mo)",
+    "pmiRate": "PMI Rate (%/yr)",
+    "extraPayment": "Extra Payment ($/mo)"
+  },
+
+  "loanTermOptions": {
+    "10": "10 Years",
+    "15": "15 Years",
+    "20": "20 Years",
+    "30": "30 Years"
+  },
+
+  "months": {
+    "01": "Jan", "02": "Feb", "03": "Mar", "04": "Apr",
+    "05": "May", "06": "Jun", "07": "Jul", "08": "Aug",
+    "09": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
+  },
+
+  "moreOptions": {
+    "show": "Add Taxes, Insurance & HOA",
+    "hide": "Hide Options"
+  },
+
+  "calculateBtn": "Calculate My Mortgage Payment",
+
   "results": {
     "monthlyPayment": "Monthly Payment",
-    "principalAndInterest": "Principal & Interest",
-    "propertyTax": "Property Tax",
-    "homeInsurance": "Home Insurance",
-    "pmi": "PMI",
-    "hoa": "HOA Fees",
-    "totalInterest": "Total Interest Paid",
-    "totalPayment": "Total Payment",
-    "payoffDate": "Loan Payoff Date",
-    "mortgageResultsTitle": "Mortgage Calculation Results"
+    "piLabel": "P&I",
+    "breakdown": {
+      "principalInterest": "Principal & Interest",
+      "propertyTax": "Property Tax",
+      "homeInsurance": "Home Insurance",
+      "pmi": "PMI",
+      "hoa": "HOA Fees"
+    },
+    "totals": {
+      "totalPrincipal": "Total Principal",
+      "totalInterest": "Total Interest",
+      "totalPaid": "Total Paid",
+      "payoffTerm": "Payoff Term"
+    },
+    "tabs": {
+      "balanceChart": "📊 Balance Chart",
+      "amortTable": "📋 Amortization Table",
+      "extraSavings": "💡 Extra Payment Savings"
+    },
+    "chartNote": "Principal balance over time — blue = with extra payments (if any)",
+    "amortHeaders": {
+      "year": "Year",
+      "principal": "Principal",
+      "interest": "Interest",
+      "taxesIns": "Taxes+Ins",
+      "totalPaid": "Total Paid",
+      "balance": "Balance"
+    },
+    "extraScenarios": {
+      "noExtra": "No Extra Payment",
+      "plus100": "+$100/month",
+      "plus200": "+$200/month",
+      "plus300": "+$300/month"
+    },
+    "extraLabels": {
+      "monthlyPI": "Monthly P&I",
+      "totalInterest": "Total Interest",
+      "totalCost": "Total Cost",
+      "payoff": "Payoff",
+      "interestSaved": "Interest Saved",
+      "timeSaved": "Time Saved"
+    },
+    "savingsBanner": {
+      "heading": "You save with extra payments",
+      "interestPrefix": "You save $",
+      "interestSuffix": " in interest",
+      "monthsPrefix": "Extra $",
+      "monthsSuffix": "/mo cuts "
+    },
+    "subLine": "Loan",
+    "monthsSavedLabel": "mo (saved"
   },
-  "educational": {
-    "mortgageInfo": "Mortgage Information",
-    "criticalWarnings": "Important Notes",
-    "importantNotes": "Additional Information",
-    "disclaimer": "Important Disclaimer",
-    "seekHelp": "Financial Resources",
-    "mortgageFacts": {
-      "components": {
-        "title": "Mortgage Payment Components",
-        "description": "Principal, Interest, Taxes, and Insurance (PITI)"
-      },
-      "amortization": {
-        "title": "Amortization",
-        "description": "Early payments are mostly interest; later payments are mostly principal"
-      },
-      "downPayment": {
-        "title": "Down Payment Impact",
-        "description": "Larger down payments reduce loan amount and may eliminate PMI requirement"
-      }
+
+  "ratingCard": {
+    "label": "Rate this Tool",
+    "sub": "How useful was this calculator for you?",
+    "score": "4.5",
+    "count": "3,500 Reviews"
+  },
+
+  "author": {
+    "initials": "NN",
+    "name": "Neo Nicholas",
+    "role": "Financial Accounting Expert",
+    "bio": "Neo Nicholas is a certified financial accounting expert with over 12 years of experience in mortgage analysis, loan structuring, and personal finance education. He reviews all calculator methodologies for accuracy and compliance with current lending standards."
+  },
+
+  "quickAnswer": {
+    "badge": "Quick Answer",
+    "text": "A mortgage calculator helps you estimate your monthly home loan payment by factoring in your loan amount, interest rate, loan term, down payment, property taxes, homeowners insurance, and PMI. Use our advanced mortgage calculator above to get an instant, accurate breakdown of your total monthly costs with no sign-up required."
+  },
+
+  "intro": [
+    "Buying a home is one of the most significant financial decisions you will ever make. Before you speak to a lender, sign any paperwork, or even browse listings, you need one critical number: your estimated monthly mortgage payment. Our free mortgage calculator gives you that number in seconds along with a full breakdown of principal, interest, taxes, insurance, and PMI.",
+    "Whether you are a first-time buyer in Europe, a property investor in Southeast Asia, or a homeowner in North America exploring refinancing options, this calculator works for you. Enter your numbers, adjust the sliders, and instantly see how changes in your down payment or interest rate affect your total cost over the life of the loan."
+  ],
+
+  "sections": [
+    {
+      "heading": "How to Use the Mortgage Calculator",
+      "intro": "Using our mortgage calculator takes less than 60 seconds. Follow these five steps to get an accurate estimate:",
+      "type": "steps",
+      "steps": [
+        { "label": "Enter the home price", "text": "— type the total purchase price of the property." },
+        { "label": "Set your down payment", "text": "— enter either a dollar amount or a percentage. Most conventional loans require 5% to 20% down." },
+        { "label": "Choose your loan term", "text": "— select 10, 15, 20, or 30 years based on your financial goals." },
+        { "label": "Enter the interest rate", "text": "— use your lender's quoted rate, or check current average rates in your region." },
+        { "label": "Add optional costs", "text": "— expand \"Add Taxes, Insurance & HOA\" to include property taxes, home insurance, HOA fees, and PMI for a complete monthly estimate." }
+      ],
+      "outro": "The calculator instantly displays your total monthly payment, the principal-to-interest breakdown, and a full amortization schedule. You can also test the impact of extra monthly payments to see how much interest you save over time.",
+      "callout": { "type": "tip", "badge": "Expert Tip", "text": "Even a 0.5% difference in your interest rate can change your total loan cost by tens of thousands of dollars. Always compare at least three lender quotes before committing." }
     },
-    "criticalWarningsList": {
-      "notDiagnostic": "This calculator provides mortgage payment estimates only",
-      "actual": "Actual mortgage terms may vary based on lender policies, fees, and creditworthiness"
+    {
+      "heading": "What Makes Up Your Monthly Mortgage Payment?",
+      "intro": "Your monthly mortgage payment is not just principal and interest. A complete payment often called PITI includes four core components, and sometimes a fifth.",
+      "type": "subsections",
+      "subsections": [
+        { "heading": "1. Principal", "text": "The principal is the portion of your payment that directly reduces your loan balance. In the early years of your mortgage, most of your payment goes toward interest. As time passes, the principal portion grows — this process is called amortization." },
+        { "heading": "2. Interest", "text": "Interest is the cost you pay the lender for borrowing money. Your lender calculates it as an annual percentage rate (APR) applied to your remaining loan balance each month. A lower interest rate significantly reduces the total amount you pay over the life of the loan." },
+        { "heading": "3. Property Taxes", "text": "Most homeowners pay property taxes as part of their monthly mortgage payment through an escrow account. Your lender collects this amount monthly and pays the tax authority on your behalf. Property tax rates vary by country, region, and municipality — they typically range from 0.3% to 2.5% of the property's assessed value per year globally." },
+        { "heading": "4. Homeowners Insurance", "text": "Homeowners insurance protects your property against damage from fire, storms, theft, and other covered events. Lenders require you to maintain active coverage for the duration of your loan. The annual premium varies based on the property value, location, and coverage level you choose." },
+        { "heading": "5. Private Mortgage Insurance (PMI)", "text": "PMI applies when your down payment is less than 20% of the home's purchase price. It protects the lender — not you — in the event of a default. PMI typically costs between 0.5% and 1.5% of the loan amount per year. Once your loan-to-value ratio (LTV) reaches 80%, you can request cancellation of PMI." }
+      ]
     },
-    "importantNotesList": [
-      "This is an estimate and does not include all possible fees and charges",
-      "PMI is typically required for down payments less than 20%",
-      "Property taxes and insurance can vary significantly by location",
-      "Consider getting pre-approved for a mortgage before house hunting"
+    {
+      "heading": "15-Year vs. 30-Year Mortgage: Which Loan Term Should You Choose?",
+      "intro": "The loan term you select dramatically affects both your monthly payment and your total interest cost. The comparison below is based on a $250,000 loan at a 6.5% fixed interest rate:",
+      "type": "table",
+      "tableHeaders": ["", "15-Year Mortgage", "30-Year Mortgage", "Difference"],
+      "tableRows": [
+        ["Monthly Payment", "$1,899", "$1,342", "$557 more/month"],
+        ["Total Interest Paid", "$91,828", "$183,120", "Save $91,292"],
+        ["Total Cost", "$341,828", "$483,120", "Save $141,292"],
+        ["Best For", "Lower total cost", "Lower monthly payment", "—"]
+      ],
+      "outro": "A 30-year mortgage gives you a lower monthly payment, which improves short-term cash flow. A 15-year mortgage costs significantly less in total interest and builds home equity faster. Choose a 30-year term if monthly affordability is your priority, and a 15-year term if eliminating debt quickly is your goal.",
+      "callout": { "type": "insight", "badge": "Financial Insight", "text": "Many homeowners choose a 30-year mortgage but make extra monthly payments. This strategy gives you the flexibility of a lower required payment while still paying off the loan faster when your budget allows." }
+    },
+    {
+      "heading": "Fixed-Rate vs. Adjustable-Rate Mortgage (ARM): A Side-by-Side Comparison",
+      "intro": "The type of interest rate you choose is just as important as the rate itself. Here is how fixed and adjustable mortgages compare:",
+      "type": "table",
+      "tableHeaders": ["Feature", "Fixed-Rate Mortgage", "Adjustable-Rate Mortgage (ARM)"],
+      "tableRows": [
+        ["Interest Rate", "Stays the same for the full term", "Changes after an initial fixed period"],
+        ["Monthly Payment", "Predictable and stable", "Can increase or decrease"],
+        ["Best For", "Long-term homeowners who prefer certainty", "Buyers planning to sell or refinance within 5–7 years"],
+        ["Risk Level", "Low — no payment surprises", "Medium to high — rate fluctuates with the market"],
+        ["Initial Rate", "Usually slightly higher", "Usually lower than fixed rates"]
+      ],
+      "outro": "Most homebuyers globally prefer fixed-rate mortgages because of the payment stability they offer. However, if you plan to sell or refinance within 5 to 7 years, an ARM can save you money due to its lower initial interest rate."
+    },
+    {
+      "heading": "Understanding PMI: What It Is and How to Avoid It",
+      "intro": "Private Mortgage Insurance is one of the most misunderstood costs in homebuying. Many buyers pay it unnecessarily for years simply because they do not know when or how to cancel it. Here is what you need to know:",
+      "type": "bullets",
+      "bullets": [
+        "PMI applies when your down payment is below 20% of the home's purchase price.",
+        "The average PMI cost is 0.5% to 1.5% of your loan amount annually, paid monthly.",
+        "On a $300,000 loan, that means $125 to $375 in extra monthly costs.",
+        "You can request PMI cancellation once your LTV ratio reaches 80% (20% equity).",
+        "Lenders must automatically cancel PMI when your LTV reaches 78% in many jurisdictions.",
+        "You can accelerate PMI removal by making extra payments or through home value appreciation confirmed by a new appraisal."
+      ],
+      "outro": "Our mortgage calculator automatically calculates and displays your PMI cost when your down payment falls below 20%. This helps you see exactly how much you save by increasing your down payment."
+    },
+    {
+      "heading": "How Extra Mortgage Payments Save You Thousands",
+      "intro": "One of the most powerful features of our calculator is the extra payment tool. Even small additional monthly payments dramatically reduce your total interest and shorten your loan term.",
+      "type": "subsections",
+      "subsections": [
+        { "heading": "Extra Monthly Payment Strategy", "text": "Adding just $100 to $300 per month to your payment directly reduces your principal balance faster. Because your interest calculates on the remaining balance, a lower balance means less interest accumulates each month — compounding your savings over time." },
+        { "heading": "Biweekly Payment Strategy", "text": "Instead of paying your mortgage once a month, split your payment in half and pay every two weeks. Since there are 26 biweekly periods in a year, this method results in 13 full monthly payments instead of 12 — effectively making one extra payment per year without feeling the financial strain." },
+        { "heading": "Lump-Sum Annual Payment", "text": "If you receive a work bonus, tax refund, or investment return, applying it directly to your mortgage principal creates an immediate, permanent reduction in your interest costs. Even a single annual lump-sum payment of $1,000 can shave 1 to 2 years off a 30-year mortgage." }
+      ],
+      "callout": { "type": "warning", "badge": "Important", "text": "Before making extra payments, confirm that your mortgage has no prepayment penalty clauses. Some lenders charge a fee for early repayment within the first few years of the loan." }
+    },
+    {
+      "heading": "How Much Mortgage Can You Actually Afford?",
+      "intro": "A mortgage calculator tells you what your payment will be, but affordability depends on more than the monthly number. Financial experts and lenders use two key ratios to assess how much mortgage you can safely carry:",
+      "type": "subsections",
+      "subsections": [
+        { "heading": "The 28% Rule (Front-End Ratio)", "text": "Your total monthly housing costs — principal, interest, taxes, insurance, and HOA fees — should not exceed 28% of your gross monthly income. For example, if your household earns $7,000 per month before taxes, your maximum housing payment should be no more than $1,960." },
+        { "heading": "The 36% Rule (Back-End Ratio / Debt-to-Income)", "text": "Your total monthly debt obligations — including your mortgage, car loans, student loans, and credit card minimums — should stay below 36% of your gross income. Lenders use this Debt-to-Income (DTI) ratio as a primary qualification factor. Many lenders accept DTI ratios up to 43% for qualified borrowers." }
+      ],
+      "callout": { "type": "insight", "badge": "Experience-Based Insight", "text": "Analysis of first-time homebuyer outcomes consistently shows that buyers who keep their housing costs below 25% of gross income report significantly less financial stress and are far less likely to miss a payment within the first three years of ownership." }
+    },
+    {
+      "heading": "Closing Costs: The Hidden Expense Every Buyer Must Budget For",
+      "intro": "Your monthly mortgage payment is just one part of the home-buying equation. Closing costs are one-time fees you pay at the time of purchase, and most buyers significantly underestimate them.",
+      "type": "bullets_strong",
+      "preamble": "Closing costs typically range from 2% to 5% of the home's purchase price globally. On a $300,000 home, that means $6,000 to $15,000 in upfront costs. These commonly include:",
+      "bullets": [
+        { "label": "Loan origination fee", "text": "— charged by the lender to process your mortgage application" },
+        { "label": "Appraisal fee", "text": "— paid to a certified appraiser who determines the property's fair market value" },
+        { "label": "Title search and title insurance", "text": "— protects you and the lender against ownership disputes" },
+        { "label": "Attorney or notary fees", "text": "— required in many countries and jurisdictions" },
+        { "label": "Prepaid interest", "text": "— interest that accrues from your closing date to your first payment date" },
+        { "label": "Home inspection fee", "text": "— uncovers structural or systemic issues before you commit to the purchase" }
+      ],
+      "callout": { "type": "info", "badge": "Pro Tip", "text": "Always request a Loan Estimate from your lender within 3 business days of applying. This official document itemizes every projected closing cost and allows you to compare lenders accurately." }
+    },
+    {
+      "heading": "When Does It Make Sense to Refinance Your Mortgage?",
+      "intro": "Refinancing means replacing your existing mortgage with a new one — ideally at a lower interest rate or on better terms. It can save you a significant amount of money, but it is not always the right move.",
+      "type": "subsections_with_bullets",
+      "subsections": [
+        {
+          "heading": "The Break-Even Rule",
+          "text": "Refinancing typically costs 2% to 3% of your loan amount in closing costs. To determine whether refinancing makes financial sense, divide your total refinancing costs by your monthly savings. If you plan to stay in the home beyond that break-even period, refinancing is likely beneficial.",
+          "example": "If refinancing costs $5,000 and saves you $200 per month, your break-even point is 25 months. If you plan to live in the home for at least 3 more years, refinancing delivers a clear return."
+        }
+      ],
+      "bulletsHeading": "Top Reasons to Refinance",
+      "bullets": [
+        "Your current interest rate is at least 0.75% to 1% higher than today's available rates",
+        "Your credit score has significantly improved since your original loan",
+        "You want to switch from an adjustable-rate to a fixed-rate mortgage for long-term stability",
+        "You want to shorten your loan term to build equity faster",
+        "You need to access home equity through a cash-out refinance"
+      ]
+    },
+    {
+      "heading": "5 Ways to Improve Your Mortgage Approval Chances",
+      "intro": "Getting approved for a mortgage — and securing the best possible interest rate — depends on several factors within your control. Take these steps before you apply:",
+      "type": "steps",
+      "steps": [
+        { "label": "Improve your credit score", "text": "— Pay down revolving credit card balances below 30% of your credit limit. Even a 20-point increase in your score can unlock a significantly lower interest rate." },
+        { "label": "Save a larger down payment", "text": "— A 20% down payment eliminates PMI entirely and signals financial stability to lenders." },
+        { "label": "Reduce your debt-to-income ratio", "text": "— Pay off or pay down existing debts before applying for a mortgage." },
+        { "label": "Maintain stable employment", "text": "— Lenders want to see at least two years of consistent employment or self-employment income in the same field." },
+        { "label": "Get pre-approved before house hunting", "text": "— A pre-approval letter tells sellers you are a serious buyer and locks in your rate for 60 to 90 days." }
+      ]
+    }
+  ],
+
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      { "q": "How accurate is an online mortgage calculator?", "a": "A mortgage calculator provides a reliable estimate based on the inputs you provide. The principal and interest calculation is mathematically precise. Property taxes and insurance figures are estimates unless you enter your actual amounts. Always confirm final numbers with your lender's official Loan Estimate document." },
+      { "q": "What credit score do I need to qualify for a mortgage?", "a": "Most conventional lenders require a minimum credit score of 620 to 640. Higher scores unlock better interest rates. Borrowers with scores above 740 typically qualify for the most competitive rates available. Government-backed loan programs in various countries sometimes allow lower scores with strong compensating factors." },
+      { "q": "What is the difference between interest rate and APR?", "a": "The interest rate is the cost of borrowing the principal loan amount. The Annual Percentage Rate (APR) is a broader measure that includes the interest rate plus lender fees, points, and other charges expressed as a yearly rate. Always compare APR across lenders, not just the interest rate, for an accurate cost comparison." },
+      { "q": "How does a down payment affect my mortgage payment?", "a": "A larger down payment reduces your loan amount, which directly lowers your monthly principal and interest payment. A down payment of 20% or more eliminates PMI, saving you hundreds of dollars per month. It also lowers your loan-to-value ratio, which often qualifies you for better interest rates." },
+      { "q": "Can I use a mortgage calculator for refinancing?", "a": "Yes. Enter your remaining loan balance as the home price, set the down payment to zero, and enter the new interest rate and term you are considering. The result shows your new projected monthly payment. Compare it to your current payment to calculate your monthly savings and estimate your break-even timeline." },
+      { "q": "What is an amortization schedule and why does it matter?", "a": "An amortization schedule is a complete table showing every monthly payment over the life of your loan — including exactly how much goes toward principal and how much toward interest. In the early years, the majority of your payment covers interest. Over time, the balance shifts toward principal. Understanding your schedule helps you identify the optimal time to refinance or make extra payments for maximum impact." },
+      { "q": "How does PMI work, and when can I remove it?", "a": "PMI protects your lender against default risk when your equity is below 20%. You can request cancellation once your loan balance drops to 80% of the original appraised value. Your lender must automatically cancel it at 78% LTV in many jurisdictions. You can reach 80% equity faster by making extra principal payments or through an increase in your property's market value confirmed by a new appraisal." },
+      { "q": "What is the ideal debt-to-income ratio for a mortgage?", "a": "Most lenders prefer a total DTI below 36%, with housing costs representing no more than 28% of your gross monthly income. Many conventional lenders accept DTI ratios up to 43% for well-qualified borrowers. Some specialized loan programs allow higher ratios with strong compensating factors such as significant cash reserves." },
+      { "q": "Should I choose a fixed-rate or adjustable-rate mortgage?", "a": "Choose a fixed-rate mortgage if you plan to stay in the home long-term and want payment predictability. Choose an ARM if you plan to sell or refinance within 5 to 7 years, as the lower initial rate saves money during that period. In a rising interest rate environment, fixed-rate mortgages offer stronger protection against future payment increases." },
+      { "q": "How do extra mortgage payments save money?", "a": "Every extra dollar you pay toward principal directly reduces your loan balance. Because interest accrues on the remaining balance, a lower balance means less interest accumulates in subsequent months. On a 30-year mortgage, consistent extra monthly payments of $200 to $300 can eliminate 4 to 7 years of payments and save tens of thousands of dollars in interest." },
+      { "q": "What happens if interest rates rise after I get my mortgage?", "a": "If you have a fixed-rate mortgage, rising rates have no impact on your payment — your rate stays locked for the full loan term. If you have an ARM, your rate adjusts periodically after the initial fixed period ends, which can increase your monthly payment. This is why many borrowers refinance from an ARM to a fixed-rate mortgage when they decide to stay in their home long-term." },
+      { "q": "How do I calculate how much house I can afford?", "a": "Start with the 28% rule: multiply your gross monthly income by 0.28 to find your maximum comfortable housing payment. Then use our mortgage calculator to find the home price that produces that payment given your down payment and current interest rates. Our House Affordability Calculator factors in your full financial picture including existing debts and local tax rates for an even more precise result." }
     ]
   },
-  "messages": {
-    "enterInformation": "Enter your mortgage information to calculate monthly payments",
-    "resultMessage": "Your mortgage calculation results are shown below",
-    "assessmentResult": "Mortgage Calculation Result:",
-    "mortgageAnalysis": "Mortgage Analysis"
+
+  "relatedCalcs": {
+    "heading": "Related Mortgage and Financial Calculators",
+    "sub": "Use these tools alongside the mortgage calculator for complete home-buying financial planning:",
+    "items": [
+      { "name": "Amortization Calculator", "href": "/financial/amortization-calculator", "desc": "Generate a full payment-by-payment amortization schedule for any loan" },
+      { "name": "Mortgage Payoff Calculator", "href": "/financial/mortgage-payoff-calculator", "desc": "Find your exact payoff date and calculate how extra payments affect it" },
+      { "name": "House Affordability Calculator", "href": "/financial/house-affordability-calculator", "desc": "Determine the maximum home price you can afford based on income and debts" },
+      { "name": "Refinance Calculator", "href": "/financial/refinance-calculator", "desc": "Compare your current mortgage to a new loan offer and calculate break-even date" }
+    ]
   },
-  "disclaimer": {
-    "title": "Important Disclaimer",
-    "content": "This calculator provides mortgage payment estimates based on standard financial formulas. Actual mortgage terms, payments, and interest may vary based on lender policies, fees, credit score, and other factors not included in these calculations."
-  },
-  "seekHelp": {
-    "title": "Financial Resources",
-    "content": "For personalized mortgage advice and loan options, consult mortgage brokers or loan officers with expertise in home lending products and individual financial circumstances."
-  },
-  "errors": {
-    "homePrice": "Please enter a valid home price",
-    "downPayment": "Please enter a valid down payment",
-    "loanAmount": "Please enter a valid loan amount",
-    "interestRate": "Please enter a valid annual interest rate",
-    "loanTerm": "Please enter a valid loan term",
-    "startDate": "Please enter a valid loan start date",
-    "propertyTax": "Please enter a valid annual property tax amount",
-    "homeInsurance": "Please enter a valid annual home insurance amount",
-    "pmi": "Please enter a valid PMI amount",
-    "hoa": "Please enter a valid HOA fee amount"
-  },
-  "tooltips": {
-    "homePrice": "Purchase price of the home",
-    "downPayment": "Amount paid upfront toward the home purchase",
-    "downPaymentType": "Whether down payment is specified as amount or percentage",
-    "loanAmount": "Amount borrowed from the lender",
-    "interestRate": "Annual interest rate on the mortgage loan",
-    "loanTerm": "Length of time to repay the mortgage (typically 15 or 30 years)",
-    "startDate": "Date when mortgage payments begin",
-    "propertyTax": "Annual property tax assessed by local government",
-    "homeInsurance": "Annual cost of homeowners insurance",
-    "pmi": "Private Mortgage Insurance required for down payments less than 20%",
-    "hoa": "Monthly fees for Homeowners Association services"
-  },
-  "advanced_mortgage_calculator_0": "Advanced Mortgage Calculator",
-  "calculate_your_complete_mortgage_costs_with_advanc_1": "Calculate your complete mortgage costs with advanced features including extra payments, annual\n                increases, and detailed breakdowns.",
-  "mortgage_calculator_2": "Mortgage Calculator",
-  "home_price_3": "Home Price",
-  "down_payment_4": "Down Payment",
-  "loan_term_5": "Loan Term",
-  "k_10_years_6": "10 years",
-  "k_15_years_7": "15 years",
-  "k_20_years_8": "20 years",
-  "k_25_years_9": "25 years",
-  "k_30_years_10": "30 years",
-  "interest_rate_11": "Interest Rate",
-  "start_date_12": "Start Date",
-  "jan_13": "Jan",
-  "feb_14": "Feb",
-  "mar_15": "Mar",
-  "apr_16": "Apr",
-  "may_17": "May",
-  "jun_18": "Jun",
-  "jul_19": "Jul",
-  "aug_20": "Aug",
-  "sep_21": "Sep",
-  "oct_22": "Oct",
-  "nov_23": "Nov",
-  "dec_24": "Dec",
-  "annual_tax_costs_25": "Annual Tax & Costs",
-  "annual_tax_cost_increases_26": "Annual Tax & Cost Increases",
-  "extra_payments_27": "Extra Payments",
-  "extra_monthly_pay_28": "+ Extra Monthly Pay",
-  "extra_yearly_pay_29": "+ Extra Yearly Pay",
-  "extra_onetime_pay_30": "+ Extra One-time Pay",
-  "from_31": "from",
-  "jan_32": "Jan",
-  "feb_33": "Feb",
-  "mar_34": "Mar",
-  "apr_35": "Apr",
-  "may_36": "May",
-  "jun_37": "Jun",
-  "jul_38": "Jul",
-  "aug_39": "Aug",
-  "sep_40": "Sep",
-  "oct_41": "Oct",
-  "nov_42": "Nov",
-  "dec_43": "Dec",
-  "remove_44": "Remove",
-  "calculate_mortgage_45": "Calculate Mortgage",
-  "monthly_payment_46": "Monthly Payment",
-  "your_complete_payment_breakdown_47": "Your complete payment breakdown",
-  "monthly_pay_48": "Monthly Pay",
-  "total_monthly_payment_49": "Total Monthly Payment",
-  "payment_breakdown_50": "Payment Breakdown",
-  "mortgage_payment_51": "Mortgage Payment",
-  "property_tax_52": "Property Tax",
-  "home_insurance_53": "Home Insurance",
-  "other_costs_54": "Other Costs",
-  "payment_distribution_55": "Payment Distribution",
-  "principal_interest_56": "% Principal & Interest",
-  "property_taxes_57": "% Property Taxes",
-  "home_insurance_58": "% Home Insurance",
-  "other_costs_59": "% Other Costs",
-  "loan_summary_60": "Loan Summary",
-  "house_price_61": "House Price:",
-  "loan_amount_62": "Loan Amount:",
-  "down_payment_63": "Down Payment:",
-  "interest_rate_64": "Interest Rate:",
-  "loan_term_65": "Loan Term:",
-  "years_66": "years",
-  "total_interest_67": "Total Interest:",
-  "payoff_date_68": "Payoff Date:",
-  "latest_mortgage_rates_69": "Latest Mortgage Rates:",
-  "k_30_years_70": "30 Years:",
-  "k_6512_71": "6.512%",
-  "k_15_years_72": "15 Years:",
-  "k_5608_73": "5.608%",
-  "k_10_years_74": "10 Years:",
-  "k_5494_75": "5.494%",
-  "see_your_local_rates_76": "See Your Local Rates",
-  "get_preapproval_77": "Get Pre-approval",
-  "enter_mortgage_details_to_see_your_payment_breakdo_78": "Enter mortgage details to see your payment breakdown"
+
+  "takeaways": {
+    "heading": "Summary: Key Takeaways for Smart Mortgage Planning",
+    "bullets": [
+      "Use our mortgage calculator to estimate your complete monthly payment — including principal, interest, taxes, insurance, and PMI.",
+      "A 20% down payment eliminates PMI and typically secures a lower interest rate.",
+      "The 30-year mortgage offers lower monthly payments; the 15-year mortgage saves more in total interest.",
+      "Fixed-rate mortgages provide stability; ARMs are better for short-term ownership plans.",
+      "Extra payments accelerate your payoff and can save tens of thousands in interest over the loan term.",
+      "Always compare lender APRs — not just interest rates — to find the true cost of your loan.",
+      "Budget 2% to 5% of the purchase price for closing costs in addition to your down payment."
+    ],
+    "closing": "This mortgage calculator updates regularly to reflect current lending standards. Every calculation uses industry-standard amortization formulas to deliver precise, reliable results. Consult a licensed mortgage professional in your region for personalized guidance."
+  }
 }

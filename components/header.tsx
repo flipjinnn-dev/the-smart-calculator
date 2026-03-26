@@ -51,6 +51,7 @@ const OTHER_CALCULATORS = [
 const ENGLISH_ONLY_PATHS = [
   // English-only calculators
   '/implant-size-calculator',
+  '/business/break-even-roas-calculator',
   '/health/dental-implant-cost-calculator',
   '/maths/reverse-percentage-calculator',
   '/therapy-productivity-calculator',
@@ -150,39 +151,39 @@ function Header() {
   // Memoize expensive path calculations
   const pathWithoutLang = useMemo(() => pathname.replace(/^\/(br|pl|de|es)/, '') || '/', [pathname])
 
-  const isGamesPage = useMemo(() => 
+  const isGamesPage = useMemo(() =>
     pathWithoutLang.startsWith('/games') || pathWithoutLang === '/games',
     [pathWithoutLang]
   )
 
-  const isBlogListingPage = useMemo(() => 
+  const isBlogListingPage = useMemo(() =>
     pathWithoutLang === '/blogs' || pathWithoutLang.startsWith('/blogs/'),
     [pathWithoutLang]
   )
-  
+
   const isBlogPostPage = useMemo(() => {
     const segments = pathWithoutLang.split('/').filter(Boolean)
-    
+
     if (segments.length === 1) {
-      return !KNOWN_PAGES.includes(segments[0]) && 
-             !CATEGORIES.includes(segments[0]) && 
-             !OTHER_CALCULATORS.includes(segments[0])
+      return !KNOWN_PAGES.includes(segments[0]) &&
+        !CATEGORIES.includes(segments[0]) &&
+        !OTHER_CALCULATORS.includes(segments[0])
     }
     return false
   }, [pathWithoutLang])
-  
+
   const isBlogPage = useMemo(() => isBlogListingPage || isBlogPostPage, [isBlogListingPage, isBlogPostPage])
-  
-  const isEnglishOnlyCalculator = useMemo(() => 
+
+  const isEnglishOnlyCalculator = useMemo(() =>
     ENGLISH_ONLY_PATHS.some(path => pathWithoutLang === path),
     [pathWithoutLang]
   )
-  
-  const shouldHideLanguageSwitcher = useMemo(() => 
+
+  const shouldHideLanguageSwitcher = useMemo(() =>
     isBlogPage || isGamesPage || isEnglishOnlyCalculator,
     [isBlogPage, isGamesPage, isEnglishOnlyCalculator]
   )
-  
+
   // Extract language from pathname - optimized
   useEffect(() => {
     const langMatch = pathname.match(/^\/(br|pl|de|es)/)
@@ -191,7 +192,7 @@ function Header() {
       setLanguage(newLang)
     }
   }, [pathname, language])
-  
+
   // Close mobile menu on route change
   useEffect(() => {
     setMobileMenuOpen(false)
@@ -206,7 +207,7 @@ function Header() {
 
   const homepageUrl = useMemo(() => language === "en" ? "/" : `/${language}/`, [language])
 
-  const currentPages = useMemo(() => 
+  const currentPages = useMemo(() =>
     STATIC_PAGES_CONFIG[language as keyof typeof STATIC_PAGES_CONFIG] || STATIC_PAGES_CONFIG.en,
     [language]
   )
@@ -343,65 +344,65 @@ function Header() {
               )}
             </div>
           </div>
-          
+
           {/* Mobile Menu - Enhanced with scrolling and better UI */}
           {mobileMenuOpen && (
             <div className="md:hidden border-t border-gray-200 bg-white shadow-lg">
               <div className="max-h-[70vh] overflow-y-auto py-3">
                 {/* Navigation Section */}
                 <div className="px-3 mb-3">
-                  <Link 
-                    href="/community" 
-                    className="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-purple-50 rounded-lg transition-all" 
+                  <Link
+                    href="/community"
+                    className="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-gray-700 hover:bg-gradient-to-r hover:from-blue-50 hover:to-purple-50 rounded-lg transition-all"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     <Users className="w-5 h-5 text-blue-600" />
                     <span>Community</span>
                   </Link>
                 </div>
-                
+
                 {/* Quick Links */}
                 <div className="px-3 mb-3">
                   <p className="px-4 text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Quick Links</p>
                   <div className="space-y-1">
-                    <Link 
-                      href={currentPages.aboutUs.url} 
-                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors" 
+                    <Link
+                      href={currentPages.aboutUs.url}
+                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {currentPages.aboutUs.text}
                     </Link>
-                    <Link 
-                      href={currentPages.contactUs.url} 
-                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors" 
+                    <Link
+                      href={currentPages.contactUs.url}
+                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {currentPages.contactUs.text}
                     </Link>
-                    <Link 
-                      href={currentPages.privacyPolicy.url} 
-                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors" 
+                    <Link
+                      href={currentPages.privacyPolicy.url}
+                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {currentPages.privacyPolicy.text}
                     </Link>
-                    <Link 
-                      href={currentPages.termsConditions.url} 
-                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors" 
+                    <Link
+                      href={currentPages.termsConditions.url}
+                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {currentPages.termsConditions.text}
                     </Link>
-                    <Link 
-                      href={currentPages.editorialGuidelines.url} 
-                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors" 
+                    <Link
+                      href={currentPages.editorialGuidelines.url}
+                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {currentPages.editorialGuidelines.text}
                     </Link>
                   </div>
                 </div>
-                
+
                 {/* Language Selector */}
                 {!shouldHideLanguageSwitcher && (
                   <div className="px-3 mb-3">
@@ -422,13 +423,13 @@ function Header() {
                     </div>
                   </div>
                 )}
-                
+
                 {/* Sign In Button */}
                 {!session && (
                   <div className="px-3 mb-3">
                     <div className="px-4">
-                      <Button 
-                        onClick={() => { signIn(); setMobileMenuOpen(false); }} 
+                      <Button
+                        onClick={() => { signIn(); setMobileMenuOpen(false); }}
                         className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 rounded-lg shadow-md hover:shadow-lg transition-all"
                       >
                         Sign In
@@ -436,7 +437,7 @@ function Header() {
                     </div>
                   </div>
                 )}
-                
+
                 {/* User Profile Section */}
                 {session && (
                   <div className="px-3 pt-3 border-t border-gray-200 mt-2">
@@ -454,13 +455,13 @@ function Header() {
                         </div>
                       </div>
                     </div>
-                    
+
                     <div className="space-y-1 px-4 pb-2">
                       {/* @ts-ignore */}
                       {session.user?.role === "admin" && (
-                        <Link 
-                          href="/admin/dashboard" 
-                          className="flex items-center gap-3 px-3 py-2.5 text-sm text-gray-700 hover:bg-blue-50 rounded-lg transition-colors" 
+                        <Link
+                          href="/admin/dashboard"
+                          className="flex items-center gap-3 px-3 py-2.5 text-sm text-gray-700 hover:bg-blue-50 rounded-lg transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           <Shield className="h-4 w-4 text-blue-600" />

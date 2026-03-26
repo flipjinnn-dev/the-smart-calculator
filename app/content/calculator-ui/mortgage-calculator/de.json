@@ -1,199 +1,156 @@
 {
   "pageTitle": "Hypothekenrechner",
-  "pageDescription": "Berechnen Sie die monatlichen Hypothekenzahlungen, die Gesamtzinsen und den Tilgungsplan für Wohnungsbaudarlehen unter Berücksichtigung von Grundsteuer- und Versicherungsaspekten",
-  "form": {
-    "labels": {
-      "homePrice": "Hauspreis",
-      "downPayment": "Anzahlung",
-      "downPaymentType": "Art der Anzahlung",
-      "loanAmount": "Darlehensbetrag",
-      "interestRate": "Jährlicher Zinssatz",
-      "loanTerm": "Kreditlaufzeit",
-      "startDate": "Kreditbeginndatum",
-      "propertyTax": "Jährliche Grundsteuer",
-      "homeInsurance": "Jährliche Hausratversicherung",
-      "pmi": "Private Hypothekenversicherung (PMI)",
-      "hoa": "Monatliche HOA-Gebühren"
-    },
-    "placeholders": {
-      "homePrice": "Geben Sie den Hauspreis ein",
-      "downPayment": "Anzahlung eingeben",
-      "loanAmount": "Geben Sie den Kreditbetrag ein",
-      "interestRate": "Geben Sie den jährlichen Zinssatz (%) ein.",
-      "loanTerm": "Geben Sie die Kreditlaufzeit in Jahren ein",
-      "propertyTax": "Geben Sie die jährliche Grundsteuer ein",
-      "homeInsurance": "Schließen Sie eine jährliche Hausratversicherung ab",
-      "pmi": "Geben Sie ggf. PMI ein",
-      "hoa": "Geben Sie die monatlichen HOA-Gebühren ein"
-    },
-    "buttons": {
-      "calculate": "Hypothek berechnen",
-      "reset": "Zurücksetzen"
-    },
-    "downPaymentTypes": {
-      "amount": "Menge",
-      "percentage": "Prozentsatz"
-    }
+  "pageDescription": "Kostenloser erweiterter Hypothekenrechner mit dynamischem Tilgungsplan, Extrazahlungsanalyse und Gesamtkostenaufschlüsselung. Keine Anmeldung erforderlich.",
+  "heroTitle": "Hypothekenrechner",
+  "heroSubtitle": "Erhalten Sie sofort eine vollständige Aufschlüsselung Ihrer monatlichen Rate — inklusive Zinsen, Tilgung, Steuern und Versicherungen.",
+
+  "breadcrumb": {
+    "home": "Startseite",
+    "financial": "Finanzrechner",
+    "current": "Hypothekenrechner"
   },
+
+  "tabs": {
+    "buy": "🏠 Hauskauf",
+    "refi": "🔄 Umschuldung",
+    "extra": "⚡ Sondertilgungen"
+  },
+
+  "fields": {
+    "homePrice": "Kaufpreis",
+    "downPayment": "Eigenkapital",
+    "loanTerm": "Darlehenslaufzeit",
+    "interestRate": "Zinssatz (Sollzins)",
+    "startDate": "Startdatum",
+    "propertyTax": "Grundsteuer (€/Jahr)",
+    "homeInsurance": "Wohngebäudeversicherung (€/Jahr)",
+    "hoaFees": "Hausgeld (€/Monat)",
+    "pmiRate": "Risikoprämie (%/Jahr)",
+    "extraPayment": "Sondertilgung (€/Monat)"
+  },
+
+  "loanTermOptions": {
+    "10": "10 Jahre",
+    "15": "15 Jahre",
+    "20": "20 Jahre",
+    "30": "30 Jahre"
+  },
+
+  "moreOptions": {
+    "show": "Steuern, Versicherungen & Hausgeld hinzufügen",
+    "hide": "Optionen ausblenden"
+  },
+
+  "calculateBtn": "Monatsrate berechnen",
+
   "results": {
-    "monthlyPayment": "Monatliche Zahlung",
-    "principalAndInterest": "Kapital und Zinsen",
-    "propertyTax": "Vermögenssteuer",
-    "homeInsurance": "Hausversicherung",
-    "pmi": "PMI",
-    "hoa": "HOA-Gebühren",
-    "totalInterest": "Gezahlte Gesamtzinsen",
-    "totalPayment": "Gesamtzahlung",
-    "payoffDate": "Datum der Kreditrückzahlung",
-    "mortgageResultsTitle": "Ergebnisse der Hypothekenberechnung"
+    "monthlyPayment": "Monatliche Rate",
+    "piLabel": "Zins+Tilg.",
+    "breakdown": {
+      "principalInterest": "Zins & Tilgung",
+      "propertyTax": "Grundsteuer",
+      "homeInsurance": "Wohngebäudevers.",
+      "pmi": "Risikoaufpreis",
+      "hoa": "Hausgeld"
+    },
+    "totals": {
+      "totalPrincipal": "Netto-Darlehen",
+      "totalInterest": "Zinsen Gesamt",
+      "totalPaid": "Rückzahlung Gesamt",
+      "payoffTerm": "Dauer bis Schuldenfreiheit"
+    },
+    "tabs": {
+      "balanceChart": "📊 Restschuld-Diagramm",
+      "amortTable": "📋 Tilgungsplan",
+      "extraSavings": "💡 Ersparnis durch Sondertilgung"
+    },
+    "chartNote": "Restschuldverlauf — blau = mit Sondertilgung",
+    "amortHeaders": {
+      "year": "Jahr",
+      "principal": "Tilgung",
+      "interest": "Zinsen",
+      "taxesIns": "Steuer+Vers.",
+      "totalPaid": "Gezahlt",
+      "balance": "Restschuld"
+    },
+    "extraScenarios": {
+      "noExtra": "Ohne Sondertilgung",
+      "plus100": "+100 €/Monat",
+      "plus200": "+200 €/Monat",
+      "plus300": "+300 €/Monat"
+    },
+    "extraLabels": {
+      "monthlyPI": "Monatsrate (Z+T)",
+      "totalInterest": "Zinsen Gesamt",
+      "totalCost": "Gesamtkosten",
+      "payoff": "Abbezahlt in",
+      "interestSaved": "Gesperte Zinsen",
+      "timeSaved": "Zeitersparnis"
+    },
+    "savingsBanner": {
+      "heading": "So sparen Sie mit Sondertilgungen",
+      "interestPrefix": "Ersparnis: ",
+      "interestSuffix": " € an Zinsen",
+      "monthsPrefix": "Extra ",
+      "monthsSuffix": " €/Monat verkürzen "
+    },
+    "subLine": "Darlehen",
+    "monthsSavedLabel": "Monate gespart"
   },
-  "educational": {
-    "mortgageInfo": "Hypothekeninformationen",
-    "criticalWarnings": "Wichtige Hinweise",
-    "importantNotes": "Weitere Informationen",
-    "disclaimer": "Wichtiger Haftungsausschluss",
-    "seekHelp": "Finanzielle Ressourcen",
-    "mortgageFacts": {
-      "components": {
-        "title": "Komponenten der Hypothekenzahlung",
-        "description": "Kapital, Zinsen, Steuern und Versicherungen (PITI)"
-      },
-      "amortization": {
-        "title": "Amortisation",
-        "description": "Bei vorzeitigen Zahlungen handelt es sich meist um Zinsen; Bei späteren Zahlungen handelt es sich meist um Kapitalzahlungen"
-      },
-      "downPayment": {
-        "title": "Auswirkungen auf die Anzahlung",
-        "description": "Höhere Anzahlungen reduzieren den Kreditbetrag und können dazu führen, dass die PMI-Anforderung entfällt"
-      }
-    },
-    "criticalWarningsList": {
-      "notDiagnostic": "Dieser Rechner liefert nur Schätzungen der Hypothekenzahlungen",
-      "actual": "Die tatsächlichen Hypothekenbedingungen können je nach Richtlinien, Gebühren und Kreditwürdigkeit des Kreditgebers variieren"
-    },
-    "importantNotesList": [
-      "Dies ist eine Schätzung und beinhaltet nicht alle möglichen Gebühren und Entgelte",
-      "PMI ist in der Regel für Anzahlungen von weniger als 20 % erforderlich.",
-      "Grundsteuern und Versicherungen können je nach Standort erheblich variieren",
-      "Erwägen Sie, vor der Wohnungssuche eine Vorabgenehmigung für eine Hypothek einzuholen"
+
+  "ratingCard": {
+    "label": "Bewerten Sie dieses Tool",
+    "sub": "Wie hilfreich war dieser Rechner für Sie?",
+    "score": "4.5",
+    "count": "3.500 Bewertungen"
+  },
+
+  "author": {
+    "initials": "NN",
+    "name": "Neo Nicholas",
+    "role": "Finanzbuchhaltungsexperte",
+    "bio": "Neo Nicholas ist ein zertifizierter Finanzexperte mit über 12 Jahren Erfahrung in Darlehensstrukturierung und Hypothekenanalyse."
+  },
+
+  "quickAnswer": {
+    "badge": "Kurze Antwort",
+    "text": "Ein Hypothekenrechner hilft Ihnen, die monatliche Belastung durch einen Immobilienkredit abzuschätzen."
+  },
+
+  "intro": [
+    "Die Baufinanzierung...",
+    "Egal ob Ersterwerb oder Anschlussfinanzierung, unser Tool bietet genaue Insights."
+  ],
+
+  "sections": [
+    {
+      "heading": "So nutzen Sie den Rechner",
+      "type": "steps",
+      "steps": [
+        { "label": "Kaufpreis", "text": ": Geben Sie den Immobilienwert ein." }
+      ]
+    }
+  ],
+
+  "faq": {
+    "heading": "Häufige Fragen",
+    "items": [
+      { "q": "Sind Sondertilgungen immer möglich?", "a": "Oft bis zu 5% der Kreditsumme im Jahr kostenlos. Prüfen Sie Ihren Vertrag." }
     ]
   },
-  "messages": {
-    "enterInformation": "Geben Sie Ihre Hypothekeninformationen ein, um die monatlichen Zahlungen zu berechnen",
-    "resultMessage": "Die Ergebnisse Ihrer Hypothekenberechnung werden unten angezeigt",
-    "assessmentResult": "Ergebnis der Hypothekenberechnung:",
-    "mortgageAnalysis": "Hypothekenanalyse"
+
+  "relatedCalcs": {
+    "heading": "Verwandte Rechner",
+    "items": [
+      { "name": "Tilgungsrechner", "href": "/de/financial/amortization-calculator", "desc": "Genauer Tilgungsplan pro Monat" }
+    ]
   },
-  "disclaimer": {
-    "title": "Wichtiger Haftungsausschluss",
-    "content": "Dieser Rechner liefert Schätzungen der Hypothekenzahlungen auf der Grundlage standardmäßiger Finanzformeln. Die tatsächlichen Hypothekenbedingungen, Zahlungen und Zinsen können je nach Richtlinien des Kreditgebers, Gebühren, Kreditwürdigkeit und anderen Faktoren, die nicht in diese Berechnungen einbezogen werden, variieren."
-  },
-  "seekHelp": {
-    "title": "Finanzielle Ressourcen",
-    "content": "Für individuelle Hypothekenberatung und Kreditoptionen wenden Sie sich an Hypothekenmakler oder Kreditsachbearbeiter mit Fachkenntnissen in Bezug auf Immobilienkreditprodukte und individuelle finanzielle Umstände."
-  },
-  "errors": {
-    "homePrice": "Bitte geben Sie einen gültigen Hauspreis ein",
-    "downPayment": "Bitte geben Sie eine gültige Anzahlung ein",
-    "loanAmount": "Bitte geben Sie einen gültigen Kreditbetrag ein",
-    "interestRate": "Bitte geben Sie einen gültigen Jahreszinssatz ein",
-    "loanTerm": "Bitte geben Sie eine gültige Kreditlaufzeit ein",
-    "startDate": "Bitte geben Sie ein gültiges Kreditbeginndatum ein",
-    "propertyTax": "Bitte geben Sie einen gültigen jährlichen Grundsteuerbetrag ein",
-    "homeInsurance": "Bitte geben Sie einen gültigen jährlichen Hausratversicherungsbetrag ein",
-    "pmi": "Bitte geben Sie einen gültigen PMI-Betrag ein",
-    "hoa": "Bitte geben Sie einen gültigen HOA-Gebührenbetrag ein"
-  },
-  "tooltips": {
-    "homePrice": "Kaufpreis des Hauses",
-    "downPayment": "Betrag, der im Voraus für den Hauskauf gezahlt wird",
-    "downPaymentType": "Ob die Anzahlung als Betrag oder Prozentsatz angegeben wird",
-    "loanAmount": "Vom Kreditgeber geliehener Betrag",
-    "interestRate": "Jährlicher Zinssatz für das Hypothekendarlehen",
-    "loanTerm": "Dauer der Rückzahlung der Hypothek (in der Regel 15 oder 30 Jahre)",
-    "startDate": "Datum, an dem die Hypothekenzahlungen beginnen",
-    "propertyTax": "Jährliche Grundsteuer, die von der Kommunalverwaltung erhoben wird",
-    "homeInsurance": "Jährliche Kosten der Hausratversicherung",
-    "pmi": "Bei Anzahlungen von weniger als 20 % ist eine private Hypothekenversicherung erforderlich",
-    "hoa": "Monatliche Gebühren für Dienstleistungen der Hausbesitzervereinigung"
-  },
-  "advanced_mortgage_calculator_0": "Erweiterter Hypothekenrechner",
-  "calculate_your_complete_mortgage_costs_with_advanc_1": "Berechnen Sie Ihre gesamten Hypothekenkosten mit erweiterten Funktionen, einschließlich jährlicher Zusatzzahlungen\n                Erhöhungen und detaillierte Aufschlüsselungen.",
-  "mortgage_calculator_2": "Hypothekenrechner",
-  "home_price_3": "Hauspreis",
-  "down_payment_4": "Anzahlung",
-  "loan_term_5": "Kreditlaufzeit",
-  "k_10_years_6": "10 Jahre",
-  "k_15_years_7": "15 Jahre",
-  "k_20_years_8": "20 Jahre",
-  "k_25_years_9": "25 Jahre",
-  "k_30_years_10": "30 Jahre",
-  "interest_rate_11": "Zinssatz",
-  "start_date_12": "Startdatum",
-  "jan_13": "Jan",
-  "feb_14": "Febr",
-  "mar_15": "Beschädigen",
-  "apr_16": "Apr",
-  "may_17": "Mai",
-  "jun_18": "Jun",
-  "jul_19": "Juli",
-  "aug_20": "Aug",
-  "sep_21": "Sept",
-  "oct_22": "Okt",
-  "nov_23": "Nov",
-  "dec_24": "Dez",
-  "annual_tax_costs_25": "Jährliche Steuern und Kosten",
-  "annual_tax_cost_increases_26": "Jährliche Steuer- und Kostenerhöhungen",
-  "extra_payments_27": "Zusätzliche Zahlungen",
-  "extra_monthly_pay_28": "+ Zusätzliches Monatsgehalt",
-  "extra_yearly_pay_29": "+ Zusätzliches Jahresgehalt",
-  "extra_onetime_pay_30": "+ Zusätzliche einmalige Bezahlung",
-  "from_31": "aus",
-  "jan_32": "Jan",
-  "feb_33": "Febr",
-  "mar_34": "Beschädigen",
-  "apr_35": "Apr",
-  "may_36": "Mai",
-  "jun_37": "Jun",
-  "jul_38": "Juli",
-  "aug_39": "Aug",
-  "sep_40": "Sept",
-  "oct_41": "Okt",
-  "nov_42": "Nov",
-  "dec_43": "Dez",
-  "remove_44": "Entfernen",
-  "calculate_mortgage_45": "Hypothek berechnen",
-  "monthly_payment_46": "Monatliche Zahlung",
-  "your_complete_payment_breakdown_47": "Ihre vollständige Zahlungsaufschlüsselung",
-  "monthly_pay_48": "Monatliches Gehalt",
-  "total_monthly_payment_49": "Monatliche Gesamtzahlung",
-  "payment_breakdown_50": "Zahlungsaufschlüsselung",
-  "mortgage_payment_51": "Hypothekenzahlung",
-  "property_tax_52": "Vermögenssteuer",
-  "home_insurance_53": "Hausversicherung",
-  "other_costs_54": "Sonstige Kosten",
-  "payment_distribution_55": "Zahlungsverteilung",
-  "principal_interest_56": "% Kapital und Zinsen",
-  "property_taxes_57": "% Grundsteuern",
-  "home_insurance_58": "% Hausratversicherung",
-  "other_costs_59": "% Sonstige Kosten",
-  "loan_summary_60": "Kreditübersicht",
-  "house_price_61": "Hauspreis:",
-  "loan_amount_62": "Kreditbetrag:",
-  "down_payment_63": "Anzahlung:",
-  "interest_rate_64": "Zinssatz:",
-  "loan_term_65": "Kreditlaufzeit:",
-  "years_66": "Jahre",
-  "total_interest_67": "Gesamtzins:",
-  "payoff_date_68": "Auszahlungsdatum:",
-  "latest_mortgage_rates_69": "Aktuelle Hypothekenzinsen:",
-  "k_30_years_70": "30 Jahre:",
-  "k_6512_71": "6,512 %",
-  "k_15_years_72": "15 Jahre:",
-  "k_5608_73": "5,608 %",
-  "k_10_years_74": "10 Jahre:",
-  "k_5494_75": "5,494 %",
-  "see_your_local_rates_76": "Sehen Sie sich Ihre lokalen Tarife an",
-  "get_preapproval_77": "Holen Sie sich eine Vorabgenehmigung",
-  "enter_mortgage_details_to_see_your_payment_breakdo_78": "Geben Sie die Hypothekendaten ein, um die Aufschlüsselung Ihrer Zahlungen anzuzeigen"
+
+  "takeaways": {
+    "heading": "Zusammenfassung",
+    "bullets": [
+      "Höheres Eigenkapital führt meist zu deutlich besseren Zinsen."
+    ],
+    "closing": "Alle Berechnungen ohne Gewähr."
+  }
 }
