@@ -3754,7 +3754,7 @@ export const calculatorsMeta: CalculatorMeta = {
     }
   },
   "uif-calculator": {
-    en: { 
+    en: {
       title: "UIF Calculator South Africa Payout Tools",
       description: "Use this UIF calculator to estimate unemployment and maternity payouts in South Africa. Calculate UIF contributions, deductions, and benefits online.",
       slug: "/uif-calculator",
@@ -3767,6 +3767,14 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Use our vancomycin calculator to estimate AUC, dose, trough levels, and dosing for pediatrics, renal impairment, and hemodialysis patients.",
       slug: "/health/vancomycin-calculator",
       keywords: "vancomycin calculator, vancomycin dosing calculator, vancomycin auc calculator, vancomycin calculator trough, vancomycin dose calculator, vancomycin calculator loading dose, vancomycin calculator pediatric, vancomycin calculator for hemodialysis, vancomycin dosing calculator hemodialysis, vancomycin calculator renal impairment, vancomycin clinical calculator, vancomycin calculator with trough"
+    }
+  },
+  "break-even-roas-calculator": {
+    en: {
+      title: "Break-Even ROAS Calculator – Calculate Break-Even ROAS Easily",
+      description: "Use our Break-Even ROAS Calculator to quickly compute break-even roas from stats, weights, and performance metrics. Fast, accurate, and easy to use.",
+      slug: "/business/break-even-roas-calculator",
+      keywords: "break-even roas calculator, break even roas, break even roas calculator, break even roas calculation, break even roas formula, break even roas online, break even roas calculator online, break even roas calculator excel, break even roas calculator pdf, break even roas calculator google sheets"
     }
   }
 };

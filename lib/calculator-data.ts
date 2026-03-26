@@ -100,6 +100,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'dental-implant-cost-calculator') return 'dental-implant-cost-calculator';
   if (id === 'ssc-gpa-calculator') return 'ssc-gpa-calculator';
   if (id === 'twin-flame-calculator') return 'twin-flame-calculator';
+  if (id === 'break-even-roas-calculator') return 'break-even-roas-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -592,19 +593,19 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
-    id:"inflection-point-calculator",
-    name:"Inflection Point Calculator",
-    description:"Find inflection points where a function changes concavity.",
-    href:"/maths/inflection-point-calculator",
-    category:"maths",
+    id: "inflection-point-calculator",
+    name: "Inflection Point Calculator",
+    description: "Find inflection points where a function changes concavity.",
+    href: "/maths/inflection-point-calculator",
+    category: "maths",
   },
   {
-    id:"empirical-rule-calculator",
-    name:"Empirical Rule Calculator",
-    description:"Calculate the empirical rule for a given set of data.",
-    href:"/maths/empirical-rule-calculator",
-    category:"maths",
-    popular:true
+    id: "empirical-rule-calculator",
+    name: "Empirical Rule Calculator",
+    description: "Calculate the empirical rule for a given set of data.",
+    href: "/maths/empirical-rule-calculator",
+    category: "maths",
+    popular: true
   },
   {
     id: "reverse-percentage-calculator",
@@ -614,7 +615,7 @@ export const calculators: Calculator[] = [
     category: "maths",
     popular: true,
   },
-    {
+  {
     id: "square-root-curve-calculator",
     name: "Square Root Curve Calculator",
     description: "Convert grades using the square root grading curve method",
@@ -681,12 +682,12 @@ export const calculators: Calculator[] = [
 
   // Physics Calculators
   {
-    id:"orthogonal-projection-calculator",
-    name:"Orthogonal Projection Calculator",
-    description:"Calculate the orthogonal projection of one vector onto another with step-by-step solutions and detailed analysis",
-    href:"/physics/orthogonal-projection-calculator",
-    category:"physics",
-    popular:true
+    id: "orthogonal-projection-calculator",
+    name: "Orthogonal Projection Calculator",
+    description: "Calculate the orthogonal projection of one vector onto another with step-by-step solutions and detailed analysis",
+    href: "/physics/orthogonal-projection-calculator",
+    category: "physics",
+    popular: true
   },
   {
     id: "ballistic-coefficient",
@@ -892,11 +893,11 @@ export const calculators: Calculator[] = [
     popular: false
   },
   {
-    id:"end-of-service-calculator",
-    name:"End of Service Calculator",
-    description:"Use our End of Service Calculator to calculate the end of service date, salary, and benefits.",
-    href:"/end-of-service-calculator",
-    category:"other",
+    id: "end-of-service-calculator",
+    name: "End of Service Calculator",
+    description: "Use our End of Service Calculator to calculate the end of service date, salary, and benefits.",
+    href: "/end-of-service-calculator",
+    category: "other",
     popular: true
   },
   {
@@ -949,11 +950,11 @@ export const calculators: Calculator[] = [
     category: "other",
   },
   {
-    id:"ovr-calculator",
-    name:"OVR Calculator",
-    description:"Calculate the OVR (Overall Rating) for video games.",
-    href:"/ovr-calculator",
-    category:"other",
+    id: "ovr-calculator",
+    name: "OVR Calculator",
+    description: "Calculate the OVR (Overall Rating) for video games.",
+    href: "/ovr-calculator",
+    category: "other",
     popular: true,
   },
   {
@@ -1054,6 +1055,14 @@ export const calculators: Calculator[] = [
     description: "Calculate SSC GPA using Bangladesh grading system with marks to grade conversion and percentage calculator",
     href: "/ssc-gpa-calculator",
     category: "other",
+    popular: true,
+  },
+  {
+    id: "break-even-roas-calculator",
+    name: "Break-Even ROAS Calculator",
+    description: "Calculate your Break-Even ROAS and Target ROAS based on gross margin to stop losing money on ads.",
+    href: "/business/break-even-roas-calculator",
+    category: "business",
     popular: true,
   }
 ]

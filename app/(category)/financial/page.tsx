@@ -1,10 +1,8 @@
 import { headers } from "next/headers";
-import Link from "next/link";
-import { ArrowLeft, Calculator as CalculatorIcon, TrendingUp, DollarSign, PiggyBank, CheckCircle2, BarChart3, Shield, Zap } from "lucide-react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Calculator as CalculatorIcon, TrendingUp, DollarSign, PiggyBank, CheckCircle2, BarChart3, Shield, Zap } from "lucide-react";
 import { loadCategoryContent } from "@/lib/loadCategoryContent";
 import { getCalculatorsByCategory, getPopularCalculatorsByCategory } from "@/lib/calculator-data";
+import CategoryClient from "../category-client";
 
 export default async function FinancialCategoryPage() {
   const headersList = await headers();
@@ -21,80 +19,13 @@ export default async function FinancialCategoryPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <CategoryClient
+      categoryId="financial"
+      content={contentData}
+      allCalculators={allCalculators}
+      popularCalculators={popularCalculators}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <Link href="/">
-          <Button variant="ghost" className="mb-8 hover:bg-white/50">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Home
-          </Button>
-        </Link>
-
-        {/* Hero Section */}
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl mb-6 shadow-xl">
-            <DollarSign className="w-10 h-10 text-white" />
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Free Online Financial Calculators for Smart Money
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Use free online financial calculators to plan loans, investments and retirement. Smart financial calculator tools for accurate, fast results.
-          </p>
-        </div>
-
-        {/* Popular Calculators */}
-        {popularCalculators.length > 0 && (
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center">
-              <TrendingUp className="mr-3 h-8 w-8 text-blue-600" />
-              Popular {contentData.name}
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {popularCalculators.map((calc) => (
-                <Link key={calc.id} href={calc.href}>
-                  <Card className="h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer border-0 shadow-lg group">
-                    <div className="h-2 bg-gradient-to-r from-blue-600 to-purple-600"></div>
-                    <CardHeader>
-                      <CardTitle className="group-hover:text-blue-600 transition-colors">
-                        {calc.name}
-                      </CardTitle>
-                      <CardDescription>{calc.description}</CardDescription>
-                    </CardHeader>
-                  </Card>
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* All Calculators */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center">
-            <CalculatorIcon className="mr-3 h-8 w-8 text-blue-600" />
-            All {contentData.name}
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {allCalculators.map((calc) => (
-              <Link key={calc.id} href={calc.href}>
-                <Card className="h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
-                  <CardHeader>
-                    <CardTitle className="group-hover:text-blue-600 transition-colors">
-                      {calc.name}
-                    </CardTitle>
-                    <CardDescription>{calc.description}</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <span className="text-blue-600 font-semibold group-hover:translate-x-1 transition-transform inline-block">
-                      Calculate Now →
-                    </span>
-                  </CardContent>
-                </Card>
-              </Link>
-            ))}
-          </div>
-        </div>
-
         {/* Content Section: Introduction */}
         <article className="prose prose-lg max-w-none mb-16">
           <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
@@ -714,8 +645,7 @@ export default async function FinancialCategoryPage() {
             </p>
           </div>
         </article>
-
       </div>
-    </div>
+    </CategoryClient>
   );
 }
