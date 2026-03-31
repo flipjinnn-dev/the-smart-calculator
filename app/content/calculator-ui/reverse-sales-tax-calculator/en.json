@@ -1,0 +1,18 @@
+{
+  "pageTitle": "Reverse Sales Tax Calculator",
+  "pageDescription": "Calculate pre-tax price and exact tax amount from a tax-inclusive total price.",
+  "reverse_sales_tax_calculator_0": "Reverse Sales Tax Calculator",
+  "total_price_1": "Total Price (Tax-Inclusive)",
+  "tax_rate_2": "Sales Tax Rate (%)",
+  "calculate_3": "Calculate",
+  "results_4": "Results",
+  "your_reverse_tax_calculation_5": "Your Reverse Tax Calculation",
+  "pretax_price_6": "Pre-Tax Price",
+  "sales_tax_amount_7": "Tax Amount",
+  "total_price_8": "Total Price",
+  "tax_rate_9": "Tax Rate",
+  "enter_your_information_to_reverse_calculate_sales_tax_10": "Enter your information to reverse calculate sales tax",
+  "formulas_11": "Formulas",
+  "pretax_price_formula_12": "Pre-Tax Price = Total Price / (1 + Tax Rate)",
+  "tax_amount_formula_13": "Tax Amount = Total Price - Pre-Tax Price"
+}

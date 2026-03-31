@@ -1,0 +1,242 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "Reverse Sales Tax Calculator",
+      "content": "Quick Answer: A reverse sales tax calculator works backward from a tax-inclusive total to find the original pre-tax price. You divide the total amount by (1 + tax rate as a decimal). For example, if you paid $107 and the tax rate is 7%, the pre-tax price is $107 ÷ 1.07 = $100.00. The tax amount is $107 − $100 = $7.00."
+    },
+    {
+      "heading": "What Is a Reverse Sales Tax Calculator?",
+      "content": "A reverse sales tax calculator is a tool that works in the opposite direction of a standard sales tax calculator. Instead of adding tax to a base price, it removes tax from a total price to reveal the original pre-tax amount. Tax professionals, small business owners, accountants, and everyday consumers all use this type of reverse tax calculation regularly.\n\nThink of it this way — when you look at a receipt, the final charge already includes the sales tax. But what if you need to know what the item actually cost before tax? That is precisely what a reverse sales tax calculation solves.\n\nA standard sales tax calculator starts with a pre-tax price and adds tax to find what you pay. A reverse sales tax calculator starts with the tax-inclusive total and extracts the original pre-tax price and the exact tax amount. Bookkeepers, retailers, freelancers, auditors, and shoppers use it to compare real item costs.\n\nSales tax applies at the point of sale in most US states and through GST/HST/PST systems in Canada. Because the tax rate varies by jurisdiction from 0% in tax-free states like Montana or Oregon to over 10% in some combined local and state rates a free reverse sales tax calculator becomes essential for accurate financial record-keeping."
+    },
+    {
+      "heading": "The Reverse Sales Tax Formula",
+      "content": "Understanding the reverse sales tax formula is the foundation of every reverse calculation. The math is simple once you see the logic behind it.\n\n**The Core Formula:**\n- **Pre-Tax Price** = Total Price ÷ (1 + Tax Rate)\n- **Tax Amount** = Total Price − Pre-Tax Price\n- **Tax Rate** is expressed as a decimal — for example, 8% = 0.08\n\nThis formula works because the total price you paid is already equal to the original price multiplied by (1 + tax rate). So to reverse-engineer the pre-tax price, you simply divide by that same factor.",
+      "subSections": [
+        {
+          "heading": "Example 1 — Basic Reverse Sales Tax Calculation",
+          "content": "Total Price Paid: $53.50\nSales Tax Rate: 7% = 0.07\nDivisor: 1 + 0.07 = 1.07\nPre-Tax Price = $53.50 ÷ 1.07 = $50.00\nTax Amount = $53.50 − $50.00 = $3.50"
+        },
+        {
+          "heading": "Example 2 — Higher Combined State + Local Rate",
+          "content": "Total Price Paid: $215.00\nTax Rate: 9.75% = 0.0975\nDivisor: 1.0975\nPre-Tax Price = $215.00 ÷ 1.0975 = $195.90\nTax Amount = $215.00 − $195.90 = $19.10"
+        },
+        {
+          "heading": "Example 3 — Canadian HST (Ontario 13%)",
+          "content": "Total Price Paid: $339.00 CAD\nOntario HST Rate: 13% = 0.13\nDivisor: 1.13\nPre-Tax Price = $339.00 ÷ 1.13 = $300.00 CAD\nTax Amount = $339.00 − $300.00 = $39.00 CAD"
+        }
+      ]
+    },
+    {
+      "heading": "How to Reverse Calculate Sales Tax — Step by Step",
+      "content": "Whether you use a reverse sales tax calculator online, a spreadsheet, or a phone calculator, follow these five steps every time.",
+      "subSections": [
+        {
+          "heading": "Step 1 — Identify the Tax-Inclusive Total",
+          "content": "Find the grand total from your receipt, invoice, or financial record. This is the number that already includes the sales tax baked in."
+        },
+        {
+          "heading": "Step 2 — Find the Applicable Sales Tax Rate",
+          "content": "Look up the correct rate for the state, county, or city where the transaction happened. Combined rates often include both state and local components, so do not assume the state rate alone is sufficient."
+        },
+        {
+          "heading": "Step 3 — Convert the Rate to a Decimal",
+          "content": "Divide the percentage by 100. For example: 8.5% ÷ 100 = 0.085. Then add 1 to get your divisor: 1 + 0.085 = 1.085."
+        },
+        {
+          "heading": "Step 4 — Divide the Total by the Divisor",
+          "content": "Pre-Tax Price = Total ÷ Divisor. This gives you the original price before tax was applied."
+        },
+        {
+          "heading": "Step 5 — Calculate the Tax Amount",
+          "content": "Subtract the pre-tax price from the total: Tax Amount = Total − Pre-Tax Price. This tells you the exact dollar amount of tax you paid."
+        }
+      ]
+    },
+    {
+      "heading": "Reverse Sales Tax by US State",
+      "content": "The United States has no single federal sales tax. Every state sets its own rate, and many counties and cities add local surcharges on top. Here is the reverse sales tax formula applied to the most commonly searched US states.",
+      "table": {
+        "headers": ["State", "State Rate", "Typical Combined Rate", "Reverse Formula"],
+        "rows": [
+          ["California", "7.25%", "8.68% avg.", "Price ÷ 1.0868"],
+          ["Texas", "6.25%", "8.20% avg.", "Price ÷ 1.0820"],
+          ["Florida", "6.00%", "7.02% avg.", "Price ÷ 1.0702"],
+          ["New York (NY)", "4.00%", "8.52% avg.", "Price ÷ 1.0852"],
+          ["New York City (NYC)", "4.00%", "8.875%", "Price ÷ 1.08875"],
+          ["New Jersey (NJ)", "6.625%", "6.625%", "Price ÷ 1.06625"],
+          ["Ohio", "5.75%", "7.24% avg.", "Price ÷ 1.0724"],
+          ["Connecticut (CT)", "6.35%", "6.35%", "Price ÷ 1.0635"],
+          ["Montana / Oregon / NH", "0%", "0%", "No calculation needed"]
+        ]
+      }
+    },
+    {
+      "heading": "Reverse Sales Tax by Selected US States",
+      "subSections": [
+        {
+          "heading": "Reverse Sales Tax Calculator — California",
+          "content": "California carries the highest statewide base rate in the US at 7.25%, but with local district taxes layered on top, many shoppers face combined rates between 8% and 10.75%. To reverse calculate sales tax in California, identify the exact combined rate for the county where you made the purchase. For the statewide base rate only: Pre-Tax Price = Total ÷ 1.0725."
+        },
+        {
+          "heading": "Reverse Sales Tax Calculator — Texas",
+          "content": "Texas sets its state rate at 6.25%, with counties and cities allowed to add up to 2% more, creating a maximum combined rate of 8.25%. For most Texas transactions: Pre-Tax Price = Total ÷ 1.0825. Texas businesses regularly use this reverse sales tax calculation for quarterly state tax filings."
+        },
+        {
+          "heading": "Reverse Sales Tax Calculator — New York & NYC",
+          "content": "New York state charges 4%, but New York City's combined rate reaches 8.875% when you add the city and Metropolitan Commuter Transportation District surcharges. For NYC purchases: Pre-Tax Price = Total ÷ 1.08875. New York also exempts unprepared food and clothing items under $110, which affects how you apply the formula."
+        },
+        {
+          "heading": "Reverse Sales Tax Calculator — New Jersey",
+          "content": "New Jersey applies a flat statewide rate of 6.625% with no additional local sales taxes. The NJ reverse sales tax formula is straightforward: Pre-Tax Price = Total ÷ 1.06625. Urban Enterprise Zones in NJ use a reduced rate of 3.3125%, so verify the purchase location before you calculate."
+        },
+        {
+          "heading": "Reverse Sales Tax Calculator — Florida",
+          "content": "Florida's base rate is 6%, but most counties levy a discretionary surtax of 0.5% to 1.5%. Always check the specific county rate for an accurate calculation in Florida. For the base state rate: Pre-Tax Price = Total ÷ 1.06."
+        }
+      ]
+    },
+    {
+      "heading": "Reverse Sales Tax in Canada — GST, HST, PST",
+      "content": "Canada's tax system differs from the US model. The federal government charges a Goods and Services Tax (GST) of 5%, and most provinces layer a Provincial Sales Tax (PST) on top, or harmonize both into a single Harmonized Sales Tax (HST).",
+      "table": {
+        "headers": ["Province", "Tax Type", "Total Rate", "Reverse Formula"],
+        "rows": [
+          ["Ontario", "HST", "13%", "Price ÷ 1.13"],
+          ["British Columbia (BC)", "GST + PST", "12%", "Price ÷ 1.12"],
+          ["Alberta", "GST only", "5%", "Price ÷ 1.05"],
+          ["Quebec", "GST + QST", "14.975%", "Price ÷ 1.14975"],
+          ["Nova Scotia", "HST", "15%", "Price ÷ 1.15"],
+          ["Manitoba", "GST + PST", "12%", "Price ÷ 1.12"]
+        ]
+      }
+    },
+    {
+      "heading": "Reverse Sales Tax by Canadian Provinces",
+      "subSections": [
+        {
+          "heading": "Reverse Sales Tax Calculator — Quebec",
+          "content": "Quebec applies both the federal GST (5%) and its Quebec Sales Tax (QST) at 9.975%, resulting in a combined rate of 14.975%. The Quebec reverse sales tax formula is: Pre-Tax Price = Total ÷ 1.14975. This is one of the highest combined rates in Canada, so the difference between total and pre-tax price is significant."
+        },
+        {
+          "heading": "Reverse Sales Tax Calculator — Ontario",
+          "content": "Ontario operates on a flat HST of 13%, which combines the 5% federal GST and 8% provincial component. The Ontario reverse formula is: Pre-Tax Price = Total ÷ 1.13. This is one of the cleaner Canadian systems for reverse calculations."
+        },
+        {
+          "heading": "Reverse Sales Tax Calculator — British Columbia (BC)",
+          "content": "BC applies a combined rate of 12% (5% GST + 7% PST). However, not all items attract PST books, basic groceries, and prescription drugs are PST-exempt. For fully taxable goods: Pre-Tax Price = Total ÷ 1.12."
+        },
+        {
+          "heading": "Reverse Sales Tax Calculator — Alberta",
+          "content": "Alberta is the only Canadian province with no provincial sales tax, making it the simplest for reverse GST calculation. Only the federal 5% GST applies: Pre-Tax Price = Total ÷ 1.05."
+        }
+      ]
+    },
+    {
+      "heading": "Reverse Sales Tax Calculator Excel Formula",
+      "content": "Many accountants and business owners prefer to reverse calculate sales tax directly inside Microsoft Excel or Google Sheets.\n\n**Excel Column Layout:**\n- Column A → Total Price (Tax-Inclusive)\n- Column B → Tax Rate (as a decimal, e.g., 0.08 for 8%)\n- Column C → Pre-Tax Price: `=A2/(1+B2)`\n- Column D → Tax Amount: `=A2-C2`\n\nUse the ROUND function to avoid floating-point errors: `=ROUND(A2/(1+B2),2)`\n\n**Excel Pro Tip:** Format Column B as a Percentage type. When you enter \"8%\" in a percentage-formatted cell, Excel stores it as 0.08 automatically, so your formula works correctly without manual conversion."
+    },
+    {
+      "heading": "When Do You Need to Reverse Calculate Sales Tax?",
+      "content": "Reverse sales tax calculations arise in many real-world situations:",
+      "list": [
+        "**Expense reporting:** Employees who submit expense claims need to separate the tax portion from the total for accurate reimbursement records.",
+        "**GST/HST input tax credits:** Businesses registered for GST/HST in Canada claim back the tax they paid. Reverse calculation confirms the exact claimable amount.",
+        "**Bookkeeping and accounting:** Accountants must record the pre-tax value of purchases in the general ledger, not the tax-inclusive total.",
+        "**Retail price analysis:** Retailers with tax-inclusive shelf prices need to back out the tax to determine their actual selling price and margin.",
+        "**Audit and compliance:** During tax audits, businesses must demonstrate that reported tax amounts match actual transactions.",
+        "**Real estate transactions:** Property purchases in Canada often include HST, and buyers need to identify the HST component for rebate applications.",
+        "**Consumer price awareness:** Shoppers comparing prices between tax-free and taxable states benefit from knowing the true pre-tax cost.",
+        "**Business travel:** Travelers crossing state or provincial lines need to apply the correct local rate when reverse calculating hotel or rental charges."
+      ]
+    },
+    {
+      "heading": "Common Mistakes When Using a Reverse Tax Calculator",
+      "subSections": [
+        {
+          "heading": "Mistake 1 — Using the Wrong Tax Rate",
+          "content": "The most frequent error is applying the state rate when a combined state + local rate actually applies. Using California's base 7.25% instead of a Los Angeles combined rate of 10.25% will give you an incorrect pre-tax price. Always verify the exact rate for the specific city and county."
+        },
+        {
+          "heading": "Mistake 2 — Subtracting Instead of Dividing",
+          "content": "Many people incorrectly calculate $108 × 0.08 = $8.64 and subtract to get $99.36. The correct answer is $108 ÷ 1.08 = $100.00. The subtraction method introduces an error because 8% of the total is not the same as 8% of the pre-tax price.\n❌ Wrong: $108 − ($108 × 0.08) = $99.36\n✅ Correct: $108 ÷ 1.08 = $100.00"
+        },
+        {
+          "heading": "Mistake 3 — Applying the Formula to a Tax-Exclusive Price",
+          "content": "The reverse formula only works when your starting number is a tax-inclusive total. If your receipt already shows the pre-tax price and tax as separate line items, you do not need reverse calculation."
+        },
+        {
+          "heading": "Mistake 4 — Ignoring Exempt Items",
+          "content": "Many states exempt groceries, prescription drugs, or clothing under a threshold. If a single receipt covers both taxable and exempt items, apply the reverse formula only to the taxable portion."
+        },
+        {
+          "heading": "Mistake 5 — Using Outdated Tax Rates",
+          "content": "Tax rates change. States and provinces update their rates regularly. Always use current 2026 rates before you reverse calculate sales tax on any transaction."
+        }
+      ]
+    },
+    {
+      "heading": "Summary",
+      "content": "A reverse sales tax calculator removes tax from a tax-inclusive price to give you the original pre-tax cost and the exact tax dollar amount paid. Here are the key takeaways:",
+      "list": [
+        "**Core formula:** Pre-Tax Price = Total ÷ (1 + Tax Rate as decimal)",
+        "**Tax amount:** Total Price − Pre-Tax Price",
+        "**Common US rates:** California 7.25–10.75%, Texas up to 8.25%, Florida 6–7.5%, NYC 8.875%, NJ 6.625%",
+        "**Common Canadian rates:** Ontario HST 13%, BC 12%, Quebec 14.975%, Alberta 5% GST only",
+        "**Excel formula:** =A2/(1+B2) where A2 = total and B2 = tax rate as decimal",
+        "**Most common mistake:** Subtracting a percentage of the total instead of dividing by (1 + rate)",
+        "Always verify the exact current 2026 combined rate for your city, county, or province before calculating"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the reverse sales tax formula?",
+      "a": "The reverse sales tax formula is: Pre-Tax Price = Total Price ÷ (1 + Tax Rate). Convert the rate to a decimal first (8% = 0.08), then divide the total by 1.08. The tax amount equals: Total Price − Pre-Tax Price."
+    },
+    {
+      "q": "How do I reverse calculate sales tax without a calculator?",
+      "a": "Divide your total by the tax rate multiplier. For an 8% rate, divide by 1.08. For 10%, divide by 1.10. The result is your pre-tax price. Division is always more accurate than the common shortcut of subtracting a percentage of the total."
+    },
+    {
+      "q": "What is the reverse sales tax calculator formula for California?",
+      "a": "California's base state rate is 7.25%, so the formula is: Pre-Tax Price = Total ÷ 1.0725. With local district taxes, many cities reach 10.25–10.75%. Always use the combined rate for your specific city."
+    },
+    {
+      "q": "How do I use a reverse sales tax calculator for Quebec?",
+      "a": "Quebec charges GST (5%) and QST (9.975%) for a combined rate of 14.975%. Use: Pre-Tax Price = Total ÷ 1.14975. This single divisor accurately extracts the pre-tax price from any Quebec invoice total."
+    },
+    {
+      "q": "Is there a reverse sales tax calculator for NJ (New Jersey)?",
+      "a": "Yes. New Jersey has a uniform statewide rate of 6.625% with no local add-ons. The formula is: Pre-Tax Price = Total ÷ 1.06625. Urban Enterprise Zones use 3.3125%, so use Total ÷ 1.033125 for those areas."
+    },
+    {
+      "q": "How do I calculate reverse sales tax in Ontario?",
+      "a": "Ontario uses a 13% HST. The formula is: Pre-Tax Price = Total ÷ 1.13. The GST portion (5%) = Pre-Tax Price × 0.05, and the provincial portion (8%) = Pre-Tax Price × 0.08."
+    },
+    {
+      "q": "How do I reverse calculate sales tax in Excel or Google Sheets?",
+      "a": "Place your total in cell A2 and the tax rate as a decimal in B2. Enter =A2/(1+B2) in C2 for the pre-tax price. Enter =A2-C2 in D2 for the tax amount. Use =ROUND(A2/(1+B2),2) to round to two decimal places."
+    },
+    {
+      "q": "What is the reverse sales tax formula for British Columbia?",
+      "a": "BC applies 5% GST + 7% PST = 12% combined. The formula is: Pre-Tax Price = Total ÷ 1.12. Basic groceries, prescription medications, and some services are PST-exempt, so verify taxability before calculating."
+    },
+    {
+      "q": "Which US states have no sales tax?",
+      "a": "Five states charge zero sales tax: Montana, Oregon, New Hampshire, Delaware, and Alaska (at the state level). In these states, the total price equals the pre-tax price — no reverse calculation is necessary."
+    },
+    {
+      "q": "Is the reverse sales tax formula the same in 2026 as before?",
+      "a": "The formula itself does not change it is always: Pre-Tax Price = Total ÷ (1 + Tax Rate). However, the tax rates do change. Always verify current 2026 rates for your state or province before calculating."
+    },
+    {
+      "q": "Can I use a reverse sales tax calculator for Canadian GST?",
+      "a": "Yes. For Alberta (5% GST only): Pre-Tax Price = Total ÷ 1.05. For HST provinces, use the full HST rate as the divisor. Businesses file GST/HST returns with the CRA and use reverse calculations to claim Input Tax Credits (ITCs)."
+    },
+    {
+      "q": "How do I find the pre-tax price from a total in Florida?",
+      "a": "Florida's state base rate is 6%. Most counties add 0.5–1.5% on top. Using a 7% combined rate: Pre-Tax Price = Total ÷ 1.07. Miami-Dade and Broward County both sit at 7% combined, making this a common reference point for South Florida."
+    }
+  ]
+}
