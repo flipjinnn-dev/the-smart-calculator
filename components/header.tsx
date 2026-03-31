@@ -64,6 +64,7 @@ const ENGLISH_ONLY_PATHS = [
   '/acres-per-hour-calculator',
   '/notice-period-calculator',
   '/ssc-gpa-calculator',
+  '/financial/reverse-sales-tax-calculator
   // All games
   '/games',
   '/games/animal-wheel-spinner',
