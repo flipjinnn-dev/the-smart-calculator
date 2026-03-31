@@ -151,6 +151,9 @@ export default async function RootLayout({
 
   return (
     <html lang={htmlLang}>
+      <head dangerouslySetInnerHTML={{
+        __html: `<script data-grow-initializer="">!(function(){window.growMe||((window.growMe=function(e){window.growMe.q.push(e);}),(window.growMe.q=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","U2l0ZTowMWYyMzhiMS1hYmU3LTQ1MjgtYjgyOC04NTNlZWM1YjMzYzI=");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();</script>`
+      }} />
       <body className={inter.className}>
         <SessionProvider>
           <Header />
@@ -196,12 +199,6 @@ export default async function RootLayout({
             src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"
             strategy="lazyOnload"
           />
-
-          {/* ✅ Grow.me */}
-          <Script id="grow-me-initializer" strategy="lazyOnload" data-grow-initializer="">
-            {`!(function(){window.growMe||((window.growMe=function(e){window.growMe.q.push(e);}),(window.growMe.q=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","U2l0ZTowMWYyMzhiMS1hYmU3LTQ1MjgtYjgyOC04NTNlZWM1YjMzYzI=");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();`}
-          </Script>
-
           {/* ✅ Vercel tools */}
           <SpeedInsights />
           <Analytics />
