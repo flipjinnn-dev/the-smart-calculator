@@ -156,8 +156,7 @@ export default async function RootLayout({
           <Header />
           <main>
             {children}
-          </main>
-
+          </main>     
           {/* ✅ Google Analytics - Deferred */}
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-18W2MEF31Q"
@@ -197,6 +196,28 @@ export default async function RootLayout({
             src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"
             strategy="lazyOnload"
           />
+
+        <Script
+          id="growme-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.growMe || (
+                (window.growMe = function(e) {
+                  window.growMe.q.push(e);
+                }),
+                (window.growMe.q = [])
+              );
+            `,
+          }}
+        />
+
+        {/* GrowMe Script */}
+        <Script
+          src="https://faves.grow.me/main.js"
+          strategy="afterInteractive"
+          data-grow-faves-site-id="U2l0ZTowMWYyMzhiMS1hYmU3LTQ1MjgtYjgyOC04NTNlZWM1YjMzYzI="
+        />
 
           {/* ✅ Vercel tools */}
           <SpeedInsights />
