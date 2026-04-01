@@ -3776,5 +3776,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/business/break-even-roas-calculator",
       keywords: "break-even roas calculator, break even roas, break even roas calculator, break even roas calculation, break even roas formula, break even roas online, break even roas calculator online, break even roas calculator excel, break even roas calculator pdf, break even roas calculator google sheets"
     }
+  },
+  "reverse-sales-tax-calculator": {
+    en: {
+      title: "Reverse Sales Tax Calculator",
+      description: "Calculate pre-tax price and exact tax amount from a tax-inclusive total price",
+      slug: "/financial/reverse-sales-tax-calculator",
+      keywords: "reverse sales tax calculator, reverse sales tax, reverse sales tax calculator, reverse sales tax calculation, reverse sales tax formula, reverse sales tax online, reverse sales tax calculator online, reverse sales tax calculator excel, reverse sales tax calculator pdf, reverse sales tax calculator google sheets"
+    }
   }
 };
