@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Logo from './logo'
 import Link from 'next/link'
-import { Instagram, TwitterIcon, Mail } from 'lucide-react'
+import { Instagram, TwitterIcon, Mail, ChevronDown } from 'lucide-react'
 import { FaPinterestP } from "react-icons/fa"
 import { AiOutlineLinkedin, AiOutlineYoutube } from "react-icons/ai"
 import { getLocalizedCategoryUrl } from '@/lib/url-utils'
@@ -24,6 +24,7 @@ interface FooterItem {
 const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
   const [footerContent, setFooterContent] = useState<any>(null);
   const [loading, setLoading] = useState(true);
+  const [showAllCalculators, setShowAllCalculators] = useState(false);
 
   useEffect(() => {
     const loadContent = async () => {
@@ -321,8 +322,27 @@ const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
         {/* All Calculators Section */}
         {footerContent.allCalculators?.showInFooter && (
           <div className="border-t border-gray-800 pt-12 mb-12">
-            <h3 className="font-bold mb-8 text-2xl text-center">{footerContent.allCalculators.title}</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="flex justify-center mb-8">
+              <button
+                onClick={() => setShowAllCalculators(!showAllCalculators)}
+                className="flex items-center gap-2 font-bold text-2xl text-white hover:text-blue-400 transition-colors duration-300 group"
+                aria-expanded={showAllCalculators}
+                aria-label={showAllCalculators ? "Hide all calculators" : "Show all calculators"}
+              >
+                {footerContent.allCalculators.title}
+                <ChevronDown 
+                  className={`w-6 h-6 transition-transform duration-300 group-hover:text-blue-400 ${
+                    showAllCalculators ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+            </div>
+            
+            <div 
+              className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 overflow-hidden transition-all duration-500 ease-in-out ${
+                showAllCalculators ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'
+              }`}
+            >
               {Object.keys(localizedCalculatorsByCategory).map((category) => {
                 const categoryName = categoryNames[language]?.[category] || category
                 const calcs = localizedCalculatorsByCategory[category]

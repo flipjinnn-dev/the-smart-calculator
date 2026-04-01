@@ -56,6 +56,7 @@ const ENGLISH_ONLY_PATHS = [
   '/maths/reverse-percentage-calculator',
   '/therapy-productivity-calculator',
   '/financial/bank-statement-converter',
+  '/financial/reverse-sales-tax-calculator',
   '/end-of-service-calculator',
   '/ovr-calculator',
   '/construction/board-and-batten-calculator',

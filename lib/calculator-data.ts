@@ -318,6 +318,13 @@ export const calculators: Calculator[] = [
     category: "financial",
   },
   {
+    id: "reverse-sales-tax-calculator",
+    name: "Reverse Sales Tax Calculator",
+    description: "Calculate pre-tax price and exact tax amount from a tax-inclusive total price",
+    href: "/financial/reverse-sales-tax-calculator",
+    category: "financial",
+  },
+  {
     id: "currency-calculator",
     name: "Currency Calculator",
     description: "Convert between different currencies with real-time rates",
