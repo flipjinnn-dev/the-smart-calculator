@@ -101,6 +101,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'ssc-gpa-calculator') return 'ssc-gpa-calculator';
   if (id === 'twin-flame-calculator') return 'twin-flame-calculator';
   if (id === 'break-even-roas-calculator') return 'break-even-roas-calculator';
+  if (id === 'pressure-washing-estimate-calculator') return 'pressure-washing-estimate-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1070,6 +1071,14 @@ export const calculators: Calculator[] = [
     description: "Calculate your Break-Even ROAS and Target ROAS based on gross margin to stop losing money on ads.",
     href: "/business/break-even-roas-calculator",
     category: "business",
+    popular: true,
+  },
+  {
+    id: "pressure-washing-estimate-calculator",
+    name: "Pressure Washing Estimate Calculator",
+    description: "Calculate pressure washing costs per sq ft for driveways, houses, and commercial properties with instant estimates",
+    href: "/pressure-washing-estimate-calculator",
+    category: "other",
     popular: true,
   }
 ]

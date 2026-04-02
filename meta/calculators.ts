@@ -3784,5 +3784,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/financial/reverse-sales-tax-calculator",
       keywords: "reverse sales tax calculator, reverse sales tax, reverse sales tax calculator, reverse sales tax calculation, reverse sales tax formula, reverse sales tax online, reverse sales tax calculator online, reverse sales tax calculator excel, reverse sales tax calculator pdf, reverse sales tax calculator google sheets"
     }
+  },
+  "pressure-washing-estimate-calculator": {
+    en: {
+      title: "Pressure Washing Estimate Calculator | Free & Instant",
+      description: "Use our free pressure washing estimate calculator for instant costs per sq ft. Perfect for driveway, commercial & house washing. Try our cost estimator now!",
+      slug: "/pressure-washing-estimate-calculator",
+      keywords: "pressure washing estimate calculator, pressure washing cost calculator, pressure washing calculator, pressure washer estimate calculator, pressure washing driveway estimate calculator, commercial pressure washing estimate calculator, pressure washing cost estimator, power washing cost calculator, free pressure washing estimate calculator, pressure washing estimate, pressure washing cost per square foot, how much does pressure washing cost"
+    }
   }
 };
