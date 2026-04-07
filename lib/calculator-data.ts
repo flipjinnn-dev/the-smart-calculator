@@ -1080,6 +1080,46 @@ export const calculators: Calculator[] = [
     href: "/pressure-washing-estimate-calculator",
     category: "other",
     popular: true,
+  },
+  {
+    id: "venmo-fee-calculator",
+    name: "Venmo Fee Calculator",
+    description: "Calculate Venmo fees instantly for instant transfers, credit card payments, and goods & services",
+    href: "/financial/venmo-fee-calculator",
+    category: "financial",
+    popular: false,
+  },
+  {
+    id: "home-inspection-cost-calculator",
+    name: "Home Inspection Cost Calculator",
+    description: "Estimate your home inspection cost based on size, age, location, and add-ons. Get accurate pricing instantly",
+    href: "/home-inspection-cost-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "wall-panelling-calculator",
+    name: "Wall Panelling Calculator",
+    description: "Calculate how much wall panelling you need for MDF, shaker, dado, box & wood panels. Get accurate measurements and spacing",
+    href: "/wall-panelling-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "song-length-calculator",
+    name: "Song Length Calculator",
+    description: "Calculate total duration of songs, playlists, and tracks. Add multiple songs, convert time formats, and estimate song length using BPM",
+    href: "/song-length-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "ethnicity-calculator",
+    name: "Ethnicity Calculator",
+    description: "Calculate your ethnic percentage based on parents and ancestors. Estimate baby ethnicity, DNA results, and explore your ethnic background",
+    href: "/ethnicity-calculator",
+    category: "other",
+    popular: false,
   }
 ]
 

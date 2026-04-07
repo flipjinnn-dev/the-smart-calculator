@@ -66,6 +66,11 @@ const ENGLISH_ONLY_PATHS = [
   '/notice-period-calculator',
   '/ssc-gpa-calculator',
   '/pressure-washing-estimate-calculator',
+  '/financial/venmo-fee-calculator',
+  '/home-inspection-cost-calculator',
+  '/wall-panelling-calculator',
+  '/song-length-calculator',
+  '/ethnicity-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',

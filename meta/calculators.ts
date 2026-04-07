@@ -3792,5 +3792,45 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/pressure-washing-estimate-calculator",
       keywords: "pressure washing estimate calculator, pressure washing cost calculator, pressure washing calculator, pressure washer estimate calculator, pressure washing driveway estimate calculator, commercial pressure washing estimate calculator, pressure washing cost estimator, power washing cost calculator, free pressure washing estimate calculator, pressure washing estimate, pressure washing cost per square foot, how much does pressure washing cost"
     }
+  },
+  "venmo-fee-calculator": {
+    en: {
+      title: "Venmo Fee Calculator | Instant Fee & Transfer Costs",
+      description: "Calculate Venmo fees instantly. See exact charges for instant transfers, credit card payments, and goods & services. Free, fast, no signup needed.",
+      slug: "/financial/venmo-fee-calculator",
+      keywords: "venmo fee calculator, venmo fees, instant transfer fee, venmo credit card fee, goods and services fee, venmo business fee, calculate venmo fees, venmo fee structure, venmo vs paypal fees, venmo instant transfer, venmo transaction fees, how much does venmo charge, venmo seller fees, venmo payment fees"
+    }
+  },
+  "home-inspection-cost-calculator": {
+    en: {
+      title: "Home Inspection Cost Calculator | Estimate Prices",
+      description: "Estimate your home inspection cost instantly. Get accurate pricing based on size, age, location, and add-ons. Free calculator, no signup needed.",
+      slug: "/home-inspection-cost-calculator",
+      keywords: "home inspection cost calculator, home inspection cost, inspection cost estimator, home inspector cost, home inspection price, cost of home inspection, home inspection fees, ASHI inspection cost, InterNACHI inspector, home inspection estimate, property inspection cost, house inspection cost, home inspection calculator, home inspection pricing, average home inspection cost, home inspection cost per square foot"
+    }
+  },
+  "wall-panelling-calculator": {
+    en: {
+      title: "Wall Panelling Calculator Free Online Tool, Formulas & Complete Guide",
+      description: "Calculate how much wall panelling you need instantly. Free UK calculator for MDF, shaker, dado, box & wood panels. Get accurate measurements, spacing & costs.",
+      slug: "/wall-panelling-calculator",
+      keywords: "wall panelling calculator, wall panelling calculator uk, panelling calculator, mdf panelling calculator, shaker panelling calculator, dado panelling calculator, box panelling calculator, wood panelling calculator, wall panel calculator, panelling spacing calculator, panelling height calculator, how to calculate wall panelling, wall panelling cost calculator, panelling measurement calculator, wall panel spacing, dado rail height calculator, shaker panel spacing, wall panelling uk, pvc wall panels calculator"
+    }
+  },
+  "song-length-calculator": {
+    en: {
+      title: "Song Length Calculator - Calculate Song Duration Instantly",
+      description: "Free song length calculator to calculate total duration of songs, playlists, and tracks. Add multiple songs, convert time formats, and estimate song length using BPM.",
+      slug: "/song-length-calculator",
+      keywords: "song length calculator, song duration calculator, playlist length calculator, song time calculator, bpm to song length calculator, average song length calculator, song playlist time calculator, music duration calculator, track length calculator, song length adder, calculate playlist time, song time duration calculator, how long is a song, playlist duration calculator"
+    }
+  },
+  "ethnicity-calculator": {
+    en: {
+      title: "Ethnicity Calculator – Calculate Your Ethnic % Fast",
+      description: "Use our ethnicity percentage calculator to calculate ethnicity, estimate baby ethnicity, and explore your ethnic background instantly online free.",
+      slug: "/ethnicity-calculator",
+      keywords: "ethnicity calculator, ethnicity percentage calculator, calculate ethnicity, baby ethnicity calculator, DNA ethnicity calculator, ethnic background calculator, ethnicity calculator based on parents, free ethnicity calculator, ethnicity estimate calculator, cultural ethnicity calculator, genetic ethnicity calculator, BMI calculator with ethnicity, ethnicity by face, ethnicity calculator ancestry, ethnic percentage calculator, calculate baby ethnicity, parent ethnicity calculator, grandparent ethnicity calculator"
+    }
   }
 };
