@@ -71,6 +71,11 @@ const ENGLISH_ONLY_PATHS = [
   '/wall-panelling-calculator',
   '/song-length-calculator',
   '/ethnicity-calculator',
+  '/construction/flange-weight-calculator',
+  '/msi-calculator',
+  '/water-potential-calculator',
+  '/whatnot-fee-calculator',
+  '/depop-fee-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',

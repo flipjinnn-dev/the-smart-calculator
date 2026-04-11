@@ -3832,5 +3832,45 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/ethnicity-calculator",
       keywords: "ethnicity calculator, ethnicity percentage calculator, calculate ethnicity, baby ethnicity calculator, DNA ethnicity calculator, ethnic background calculator, ethnicity calculator based on parents, free ethnicity calculator, ethnicity estimate calculator, cultural ethnicity calculator, genetic ethnicity calculator, BMI calculator with ethnicity, ethnicity by face, ethnicity calculator ancestry, ethnic percentage calculator, calculate baby ethnicity, parent ethnicity calculator, grandparent ethnicity calculator"
     }
+  },
+  "flange-weight-calculator": {
+    en: {
+      title: "Flange Weight Calculator – Accurate, Fast & Easy Online Tool",
+      description: "A flange weight calculator helps you determine the weight of a flange in kilograms (kg) or pounds by using standard formulas based on outer diameter, inner diameter, thickness, and material density.",
+      slug: "/construction/flange-weight-calculator",
+      keywords: "flange weight calculator, flange weight calculator in kg, blind flange weight calculator, weld neck flange weight calculator, slip on flange weight calculator, raised face flange weight calculator, ring flange weight calculator, reducing flange weight calculator, carbon steel flange weight calculator, stainless steel flange weight calculator, ms flange weight calculator, ss flange weight calculator, pipe flange weight calculator, flange weight chart, asme flange weight calculator, flange weight calculator excel, flange weight and dimensions, flange weight formula, calculate flange weight, online flange weight calculator"
+    }
+  },
+  "msi-calculator": {
+    en: {
+      title: "MSI Calculator – Power Supply, Wattage & PC Build Calculator",
+      description: "An MSI calculator helps you estimate your PC's power consumption, PSU wattage requirements, and component compatibility. It analyzes CPU, GPU, RAM, storage, and other hardware to calculate total wattage and recommend the ideal power supply.",
+      slug: "/msi-calculator",
+      keywords: "msi calculator, msi power supply calculator, msi psu calculator, msi wattage calculator, msi pc build calculator, msi gpu calculator, msi bottleneck calculator, msi power consumption calculator, msi tdp calculator, msi afterburner calculator, msi dram calculator, msi motherboard calculator, msi price calculator, power supply calculator, psu wattage calculator, pc power calculator, kalkulator zasilacza msi, msi zasilacz kalkulator, msi calculator alimentation, pc build power calculator, gaming pc psu calculator, msi psu calculator reddit"
+    }
+  },
+  "water-potential-calculator": {
+    en: {
+      title: "Water Potential Calculator | AP Biology & A-Level Guide",
+      description: "Calculate water potential (ψ) instantly using ψ = ψs + ψp. Includes osmotic, pressure potential & examples for AP Bio & A-Level labs.",
+      slug: "/water-potential-calculator",
+      keywords: "water potential calculator, water potential formula, osmotic potential calculator, ap biology water potential, a-level water potential, water potential calculator with temperature, calculate water potential, water potential of potato cells, water potential of zucchini cores, water potential equilibrium, ψ calculator, psi calculator biology, solute potential calculator, pressure potential calculator, turgor pressure calculator, plasmolysis calculator, water potential experiment, water potential lab, sucrose solution water potential, plant cell water potential"
+    }
+  },
+  "whatnot-fee-calculator": {
+    en: {
+      title: "Whatnot Fee Calculator – Free Seller Profit Tool",
+      description: "Use our free Whatnot fees calculator to calculate seller fees for US, UK & Canada. Instant Whatnot cost calculator for commission, processing & net profit.",
+      slug: "/whatnot-fee-calculator",
+      keywords: "whatnot fee calculator, whatnot seller fees, whatnot fees calculator, whatnot cost calculator, whatnot selling fee calculator, whatnot price calculator, whatnot fee calculator usa, whatnot fee calculator canada, whatnot fee calculator uk, whatnot seller fees uk calculator, whatnot shipping cost calculator, whatnot commission calculator, whatnot processing fee calculator, whatnot profit calculator, whatnot payout calculator, free whatnot fee calculator, whatnot seller fee breakdown, whatnot 8 percent fee, whatnot electronics fee, whatnot coins fee, whatnot $1500 threshold"
+    }
+  },
+  "depop-fee-calculator": {
+    en: {
+      title: "Depop Fee Calculator — Calculate Your Exact Profit",
+      description: "Free Depop fee calculator for US, UK & Australia sellers. Calculate selling fees, processing fees & net profit instantly. 0% fees for US/UK sellers!",
+      slug: "/depop-fee-calculator",
+      keywords: "depop fee calculator, depop fees, depop selling fee, depop transaction fee, depop fee calculator us, depop fee calculator uk, depop fee calculator australia, depop processing fee, depop boosted listing fee, depop profit calculator, depop payout calculator, free depop calculator, depop fee and transaction fee calculator, depop seller fees 2026, depop 0 percent fee, depop vs poshmark fees, depop shipping fees, depop bundle fees, depop refund fees"
+    }
   }
 };

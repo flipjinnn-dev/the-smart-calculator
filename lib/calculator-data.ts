@@ -1120,6 +1120,46 @@ export const calculators: Calculator[] = [
     href: "/ethnicity-calculator",
     category: "other",
     popular: false,
+  },
+  {
+    id: "flange-weight-calculator",
+    name: "Flange Weight Calculator",
+    description: "Calculate flange weight in kg or pounds using standard formulas. Supports blind, weld neck, slip-on flanges with carbon steel, stainless steel materials",
+    href: "/construction/flange-weight-calculator",
+    category: "construction",
+    popular: false,
+  },
+  {
+    id: "msi-calculator",
+    name: "MSI Calculator",
+    description: "Calculate PC power consumption, PSU wattage requirements, and component compatibility. Analyzes CPU, GPU, RAM, storage for optimal power supply selection",
+    href: "/msi-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "water-potential-calculator",
+    name: "Water Potential Calculator",
+    description: "Calculate water potential (ψ) using ψ = ψs + ψp formula. Includes osmotic potential, pressure potential for AP Biology and A-Level labs",
+    href: "/water-potential-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "whatnot-fee-calculator",
+    name: "Whatnot Fee Calculator",
+    description: "Calculate Whatnot seller fees for US, UK & Canada. Instant commission, processing fee & net profit calculator for all categories",
+    href: "/whatnot-fee-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "depop-fee-calculator",
+    name: "Depop Fee Calculator",
+    description: "Calculate Depop seller fees for US, UK & Australia. Free tool for selling fees, processing fees & net profit with 0% fees for US/UK",
+    href: "/depop-fee-calculator",
+    category: "other",
+    popular: false,
   }
 ]
 

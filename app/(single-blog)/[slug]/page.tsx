@@ -127,6 +127,33 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params
+  
+  // List of calculator routes that should not be handled by blog route
+  const calculatorRoutes = [
+    'depop-fee-calculator',
+    'whatnot-fee-calculator',
+    'water-potential-calculator',
+    'msi-calculator',
+    'ethnicity-calculator',
+    'song-length-calculator',
+    'wall-panelling-calculator',
+    'home-inspection-cost-calculator',
+    'pressure-washing-estimate-calculator',
+    'ssc-gpa-calculator',
+    'notice-period-calculator',
+    'acres-per-hour-calculator',
+    'grade-curve-calculator',
+    'ovr-calculator',
+    'end-of-service-calculator',
+    'therapy-productivity-calculator',
+    'implant-size-calculator',
+  ]
+  
+  // If this is a calculator route, return 404 to let Next.js handle it properly
+  if (calculatorRoutes.includes(slug)) {
+    redirect(`/${slug}`)
+  }
+  
   let post: BlogPost | null = null
 
   try {
