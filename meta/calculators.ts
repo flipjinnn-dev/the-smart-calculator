@@ -3872,5 +3872,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/depop-fee-calculator",
       keywords: "depop fee calculator, depop fees, depop selling fee, depop transaction fee, depop fee calculator us, depop fee calculator uk, depop fee calculator australia, depop processing fee, depop boosted listing fee, depop profit calculator, depop payout calculator, free depop calculator, depop fee and transaction fee calculator, depop seller fees 2026, depop 0 percent fee, depop vs poshmark fees, depop shipping fees, depop bundle fees, depop refund fees"
     }
+  },
+  "seatime-calculator": {
+    en: {
+      title: "Seatime Calculator — Accurate Sea Time Calculation for Seafarers",
+      description: "Instantly calculate your total sea service in days and months with this free seatime calculator. Perfect for DG Shipping (India), MCA (UK), USCG (USA), and STCW applications.",
+      slug: "/seatime-calculator",
+      keywords: "seatime calculator, sea time calculator, seatime calculator online, free seatime calculator, DG Shipping seatime calculator, seatime calculator MCA, seatime calculator USCG, Clyde Marine seatime calculator, seatime calculator in days, onboard maritime seatime calculator, seatime calculator Excel, seatime tracker, sea service calculator, CoC application, Certificate of Competency, STCW seatime, deck cadet seatime, OOW seatime requirements, AB seatime requirements, master license seatime, seafarer sea time, CDC seatime, maritime seatime calculation, sea service record, watchkeeping service calculator"
+    }
   }
 };

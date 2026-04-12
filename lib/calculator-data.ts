@@ -1160,6 +1160,14 @@ export const calculators: Calculator[] = [
     href: "/depop-fee-calculator",
     category: "other",
     popular: false,
+  },
+  {
+    id: "seatime-calculator",
+    name: "Seatime Calculator",
+    description: "Calculate total sea service in days and months for seafarers. Perfect for DG Shipping, MCA, USCG & STCW CoC applications",
+    href: "/seatime-calculator",
+    category: "other",
+    popular: false,
   }
 ]
 
