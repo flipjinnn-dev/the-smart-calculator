@@ -76,6 +76,10 @@ const ENGLISH_ONLY_PATHS = [
   '/water-potential-calculator',
   '/whatnot-fee-calculator',
   '/depop-fee-calculator',
+  '/cpv-calculator',
+  '/home-reversion-calculator',
+  '/construction/rip-rap-calculator',
+  '/construction/soffit-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',

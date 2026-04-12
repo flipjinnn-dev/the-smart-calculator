@@ -147,6 +147,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     'end-of-service-calculator',
     'therapy-productivity-calculator',
     'implant-size-calculator',
+    'cpv-calculator',
+    'home-reversion-calculator',
+    'rip-rap-calculator',
+    'soffit-calculator',
   ]
   
   // If this is a calculator route, return 404 to let Next.js handle it properly

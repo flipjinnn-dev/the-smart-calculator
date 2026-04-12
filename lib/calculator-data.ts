@@ -102,6 +102,10 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'twin-flame-calculator') return 'twin-flame-calculator';
   if (id === 'break-even-roas-calculator') return 'break-even-roas-calculator';
   if (id === 'pressure-washing-estimate-calculator') return 'pressure-washing-estimate-calculator';
+  if (id === 'cpv-calculator') return 'cpv-calculator';
+  if (id === 'home-reversion-calculator') return 'home-reversion-calculator';
+  if (id === 'rip-rap-calculator') return 'rip-rap-calculator';
+  if (id === 'soffit-calculator') return 'soffit-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1159,6 +1163,38 @@ export const calculators: Calculator[] = [
     description: "Calculate Depop seller fees for US, UK & Australia. Free tool for selling fees, processing fees & net profit with 0% fees for US/UK",
     href: "/depop-fee-calculator",
     category: "other",
+    popular: false,
+  },
+  {
+    id: "cpv-calculator",
+    name: "CPV Calculator",
+    description: "Calculate cost per view for video ads. Free CPV calculator for YouTube, Google Ads with CPV to CPM converter",
+    href: "/cpv-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "home-reversion-calculator",
+    name: "Home Reversion Calculator",
+    description: "Estimate your equity release payout instantly. Calculate home reversion plan cash release based on age, property value & share sold",
+    href: "/home-reversion-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "rip-rap-calculator",
+    name: "Rip Rap Calculator",
+    description: "Calculate rip rap tons, cubic yards, coverage & cost. Free erosion control stone calculator for channels, shorelines & slopes",
+    href: "/construction/rip-rap-calculator",
+    category: "construction",
+    popular: false,
+  },
+  {
+    id: "soffit-calculator",
+    name: "Soffit Calculator",
+    description: "Calculate soffit area, vents, fascia & cost. Free soffit replacement calculator for roofing projects with ventilation requirements",
+    href: "/construction/soffit-calculator",
+    category: "construction",
     popular: false,
   }
 ]

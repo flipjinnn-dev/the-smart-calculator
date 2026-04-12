@@ -3872,5 +3872,37 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/depop-fee-calculator",
       keywords: "depop fee calculator, depop fees, depop selling fee, depop transaction fee, depop fee calculator us, depop fee calculator uk, depop fee calculator australia, depop processing fee, depop boosted listing fee, depop profit calculator, depop payout calculator, free depop calculator, depop fee and transaction fee calculator, depop seller fees 2026, depop 0 percent fee, depop vs poshmark fees, depop shipping fees, depop bundle fees, depop refund fees"
     }
+  },
+  "cpv-calculator": {
+    en: {
+      title: "CPV Calculator – Calculate Cost Per View Free Online",
+      description: "Use our free CPV calculator to calculate cost per view instantly. Learn the CPV formula, how to calculate CPV for YouTube ads, convert CPV to CPM, and reduce your ad spend.",
+      slug: "/cpv-calculator",
+      keywords: "cpv calculator, cost per view calculator, cpv formula, calculate cpv, youtube cpv calculator, cpv to cpm converter, cpv calculation, how to calculate cpv, google ads cpv, video ad cost calculator, cpv bidding, trueview cpv, average cpv, good cpv, cpv vs cpm, cpv vs cpc, lower cpv, reduce cpv, cpv benchmarks, youtube advertising cost, video advertising calculator, ad spend calculator, view cost calculator, marketing calculator, cpv metric, cpv pricing model"
+    }
+  },
+  "home-reversion-calculator": {
+    en: {
+      title: "Home Reversion Calculator — Estimate Your Equity Release Payout Instantly",
+      description: "Use our free home reversion calculator to estimate your equity release payout. Calculate how much cash you can release from your property based on age, property value, and share sold. Get instant results for home reversion plans in the UK.",
+      slug: "/home-reversion-calculator",
+      keywords: "home reversion calculator, equity release calculator, home reversion plan, home reversion equity release calculator, home reversion value calculator, reversion value calculator, home reversion scheme, equity release, home reversion plan calculator, calculate home reversion, home reversion payout, home reversion vs lifetime mortgage, home reversion vs reverse mortgage, home reversion minimum age, home reversion costs, home reversion plan UK, equity release plan, home reversion formula, home reversion discount rate, FCA regulated equity release, Equity Release Council, home reversion pros and cons, home reversion calculator UK, free home reversion calculator, home reversion estimate"
+    }
+  },
+  "rip-rap-calculator": {
+    en: {
+      title: "Rip Rap Calculator — Tons, Cubic Yards, Coverage & Cost Estimator",
+      description: "Free rip rap calculator to estimate tons, cubic yards, coverage & cost. Calculate erosion control stone for channels, shorelines & slopes instantly. Get accurate results for rectangular areas, sloped banks, and circular ponds with density-based conversions.",
+      slug: "/construction/rip-rap-calculator",
+      keywords: "rip rap calculator, riprap calculator, rip rap tonnage calculator, rip rap cost calculator, rip rap coverage calculator, rip rap density calculator, how to calculate rip rap, rip rap calculation, rip rap formula, cubic yards to tons rip rap, rip rap coverage per ton, rip rap cost per ton, erosion control calculator, rip rap size calculator, rip rap depth calculator, rip rap estimator, shoreline protection calculator, stream bank stabilization, rip rap tons per linear foot, rip rap cubic yards, rip rap stone calculator, rip rap installation cost, geotextile fabric rip rap, rip rap design, rip rap vs gabion"
+    }
+  },
+  "soffit-calculator": {
+    en: {
+      title: "Soffit Calculator | Area, Vent & Cost Estimate",
+      description: "Use our soffit calculator to estimate soffit area, vents, fascia, panels & cost. Free tool for soffit replacement and roofing projects 2026. Calculate soffit panels, ventilation requirements, J-channel, and total project cost instantly.",
+      slug: "/construction/soffit-calculator",
+      keywords: "soffit calculator, soffit area calculator, soffit vent calculator, soffit cost calculator, soffit replacement calculator, soffit and fascia calculator, vinyl soffit calculator, aluminum soffit calculator, how to calculate soffit, soffit calculation, soffit formula, soffit panels needed, soffit vents needed, soffit ventilation calculator, soffit coverage calculator, linear feet of soffit, soffit cost per square foot, soffit installation cost, soffit material calculator, j-channel calculator, fascia calculator, roof soffit calculator, eave soffit calculator, soffit estimator, free soffit calculator"
+    }
   }
 };
