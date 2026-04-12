@@ -151,6 +151,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     'home-reversion-calculator',
     'rip-rap-calculator',
     'soffit-calculator',
+    'seatime-calculator',
   ]
   
   // If this is a calculator route, return 404 to let Next.js handle it properly

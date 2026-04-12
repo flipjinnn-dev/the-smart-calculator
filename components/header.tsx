@@ -80,6 +80,7 @@ const ENGLISH_ONLY_PATHS = [
   '/home-reversion-calculator',
   '/construction/rip-rap-calculator',
   '/construction/soffit-calculator',
+  '/seatime-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',

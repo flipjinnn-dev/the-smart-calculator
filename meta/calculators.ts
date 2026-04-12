@@ -3904,5 +3904,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/construction/soffit-calculator",
       keywords: "soffit calculator, soffit area calculator, soffit vent calculator, soffit cost calculator, soffit replacement calculator, soffit and fascia calculator, vinyl soffit calculator, aluminum soffit calculator, how to calculate soffit, soffit calculation, soffit formula, soffit panels needed, soffit vents needed, soffit ventilation calculator, soffit coverage calculator, linear feet of soffit, soffit cost per square foot, soffit installation cost, soffit material calculator, j-channel calculator, fascia calculator, roof soffit calculator, eave soffit calculator, soffit estimator, free soffit calculator"
     }
+  },
+  "seatime-calculator": {
+    en: {
+      title: "Seatime Calculator — Accurate Sea Time Calculation for Seafarers",
+      description: "Instantly calculate your total sea service in days and months with this free seatime calculator. Perfect for DG Shipping (India), MCA (UK), USCG (USA), and STCW applications.",
+      slug: "/seatime-calculator",
+      keywords: "seatime calculator, sea time calculator, seatime calculator online, free seatime calculator, DG Shipping seatime calculator, seatime calculator MCA, seatime calculator USCG, Clyde Marine seatime calculator, seatime calculator in days, onboard maritime seatime calculator, seatime calculator Excel, seatime tracker, sea service calculator, CoC application, Certificate of Competency, STCW seatime, deck cadet seatime, OOW seatime requirements, AB seatime requirements, master license seatime, seafarer sea time, CDC seatime, maritime seatime calculation, sea service record, watchkeeping service calculator"
+    }
   }
 };
