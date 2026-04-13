@@ -1102,6 +1102,14 @@ export const calculators: Calculator[] = [
     popular: false,
   },
   {
+    id: "loft-conversion-cost-calculator",
+    name: "Loft Conversion Cost Calculator",
+    description: "Calculate loft conversion costs for UK projects. Get estimates for Velux, dormer, hip-to-gable, mansard conversions",
+    href: "/construction/loft-conversion-cost-calculator",
+    category: "construction",
+    popular: false,
+  },
+  {
     id: "home-inspection-cost-calculator",
     name: "Home Inspection Cost Calculator",
     description: "Estimate your home inspection cost based on size, age, location, and add-ons. Get accurate pricing instantly",

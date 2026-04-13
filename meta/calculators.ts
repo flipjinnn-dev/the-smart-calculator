@@ -3809,6 +3809,14 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "grailed fee calculator, grailed fees, grailed seller fees, grailed commission, grailed payout calculator, grailed seller fee calculator, grailed buyer fee calculator, grailed and paypal fee calculator, calculate grailed fees, grailed processing fees, grailed stripe fees, how much does grailed take, grailed fee breakdown, grailed 9 percent fee, grailed international fees, grailed domestic fees, what is grailed fee, grailed fees 2026, grailed calculator, resale fee calculator, streetwear resale fees, designer resale calculator, grailed profit calculator"
     }
   },
+  "loft-conversion-cost-calculator": {
+    en: {
+      title: "Loft Conversion Cost Calculator | Instant Estimates for Dormer, Velux & More",
+      description: "Calculate loft conversion costs instantly for UK projects. Get accurate estimates for Velux, dormer, hip-to-gable, mansard conversions. Free calculator with detailed breakdown.",
+      slug: "/construction/loft-conversion-cost-calculator",
+      keywords: "loft conversion cost calculator, loft conversion calculator, cost of loft conversion uk calculator, average loft conversion cost calculator, dormer loft conversion cost calculator, velux loft conversion cost calculator, loft conversion cost basic, loft conversion price calculator, loft conversion cost per m2, how much does a loft conversion cost, loft conversion cost uk, dormer loft conversion cost, velux loft conversion cost, hip to gable loft conversion cost, mansard loft conversion cost, loft conversion calculator online, loft conversion estimate calculator, loft conversion roi calculator, uk loft conversion costs 2026"
+    }
+  },
   "home-inspection-cost-calculator": {
     en: {
       title: "Home Inspection Cost Calculator | Estimate Prices",

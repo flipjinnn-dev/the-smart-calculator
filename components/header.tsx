@@ -83,6 +83,7 @@ const ENGLISH_ONLY_PATHS = [
   '/seatime-calculator',
   '/construction/polymeric-sand-calculator',
   '/financial/grailed-fee-calculator',
+  '/construction/loft-conversion-cost-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',
