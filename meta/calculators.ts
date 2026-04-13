@@ -3801,6 +3801,14 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "venmo fee calculator, venmo fees, instant transfer fee, venmo credit card fee, goods and services fee, venmo business fee, calculate venmo fees, venmo fee structure, venmo vs paypal fees, venmo instant transfer, venmo transaction fees, how much does venmo charge, venmo seller fees, venmo payment fees"
     }
   },
+  "grailed-fee-calculator": {
+    en: {
+      title: "Grailed Fee Calculator — Calculate Grailed Fees & Payout Instantly",
+      description: "Calculate Grailed fees instantly and know your exact payout before you list. Free Grailed fee calculator shows commission, processing fees, and net earnings in seconds.",
+      slug: "/financial/grailed-fee-calculator",
+      keywords: "grailed fee calculator, grailed fees, grailed seller fees, grailed commission, grailed payout calculator, grailed seller fee calculator, grailed buyer fee calculator, grailed and paypal fee calculator, calculate grailed fees, grailed processing fees, grailed stripe fees, how much does grailed take, grailed fee breakdown, grailed 9 percent fee, grailed international fees, grailed domestic fees, what is grailed fee, grailed fees 2026, grailed calculator, resale fee calculator, streetwear resale fees, designer resale calculator, grailed profit calculator"
+    }
+  },
   "home-inspection-cost-calculator": {
     en: {
       title: "Home Inspection Cost Calculator | Estimate Prices",
@@ -3911,6 +3919,14 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Instantly calculate your total sea service in days and months with this free seatime calculator. Perfect for DG Shipping (India), MCA (UK), USCG (USA), and STCW applications.",
       slug: "/seatime-calculator",
       keywords: "seatime calculator, sea time calculator, seatime calculator online, free seatime calculator, DG Shipping seatime calculator, seatime calculator MCA, seatime calculator USCG, Clyde Marine seatime calculator, seatime calculator in days, onboard maritime seatime calculator, seatime calculator Excel, seatime tracker, sea service calculator, CoC application, Certificate of Competency, STCW seatime, deck cadet seatime, OOW seatime requirements, AB seatime requirements, master license seatime, seafarer sea time, CDC seatime, maritime seatime calculation, sea service record, watchkeeping service calculator"
+    }
+  },
+  "polymeric-sand-calculator": {
+    en: {
+      title: "Polymeric Sand Calculator — How Much Polymeric Sand Do I Need?",
+      description: "Free paver sand estimator to instantly find how many bags of polymeric jointing sand your project needs. Works for Dominator, Techniseal, Alliance Gator, Gator Maxx, EZ Sand, and Unilock.",
+      slug: "/construction/polymeric-sand-calculator",
+      keywords: "polymeric sand calculator, paver sand calculator, polymeric sand estimator, joint sand calculator, how much polymeric sand do i need, polymeric sand coverage, polymeric sand bags needed, dominator polymeric sand calculator, techniseal polymeric sand calculator, alliance gator calculator, gator maxx calculator, polymeric jointing sand calculator, paver joint sand calculator, flagstone sand calculator, polymeric sand for pavers, polymeric sand coverage table, 50 lb bag polymeric sand coverage, polymeric sand per square foot, patio sand calculator, driveway sand calculator, walkway sand calculator, tumbled paver sand, wide joint polymeric sand, ez sand calculator, unilock sand calculator"
     }
   }
 };

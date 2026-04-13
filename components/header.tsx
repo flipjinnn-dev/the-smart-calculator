@@ -81,6 +81,8 @@ const ENGLISH_ONLY_PATHS = [
   '/construction/rip-rap-calculator',
   '/construction/soffit-calculator',
   '/seatime-calculator',
+  '/construction/polymeric-sand-calculator',
+  '/financial/grailed-fee-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',

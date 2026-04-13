@@ -1,126 +1,122 @@
-Seatime Calculator — Accurate Sea Time Calculation for Seafarers
-Quick Answer: Instantly calculate your total sea service in days and months with this free seatime calculator. Enter your vessel name, sign-on, and sign-off dates for each voyage to get a precise record. Perfect for DG Shipping (India), MCA (UK), USCG (USA), and STCW applications. Track multiple voyages, avoid errors, and submit your CoC applications confidently.
-Seatime Calculator — Accurate Sea Time Calculation for Seafarers (DG Shipping, MCA, USCG & STCW)
-Every seafarer's career depends on one critical number — total sea time. Whether you are a deck cadet counting months before your Second Mate CoC exam, an AB tracking days toward an OOW certificate, or a Captain verifying sea service for USCG license renewal, accurate seatime calculation is non-negotiable. One miscalculation means a delayed Certificate of Competency, a rejected application, or a missed career opportunity.
-This free seatime calculator online gives you a precise, date-by-date breakdown of sea service across multiple vessels. It works for DG Shipping seatime requirements in India, MCA seatime requirements in the UK, USCG sea time calculations in the USA, and all STCW-compliant administrations worldwide.
-What Is a Seatime Calculator?
-A seatime calculator computes the total duration of a seafarer's service on board merchant vessels. You enter the vessel name, joining date, and leaving date for each ship. The calculator adds all service periods and gives your total sea time in months and days — the exact format required by maritime administrations globally.
-Seafarers know it by different names depending on their region:
-Clyde Marine seatime calculator — popular UK-based tool using MCA's system
-DG Shipping seatime calculator — India-specific for MMD/DGS applications
-Seatime calculator MCA — for UK Maritime and Coastguard Agency applications
-Seatime calculator USCG — for US Coast Guard MMC applications
-Seatime calculator in days — for administrations requiring day-count format
-Onboard maritime seatime calculator — used by shipping companies and crewing managers
-All serve the same purpose preventing errors in your sea service record that cost you time and career progression.
-How to Use This Seatime Calculator Online
-Using this free seatime calculator takes under two minutes per voyage entry.
-Step 1 — Enter Vessel Name
-Type the ship name exactly as it appears on your Continuous Discharge Certificate (CDC) or sea service letter.
-Step 2 — Enter Sign-On Date
-Use the exact date from your CDC. For MCA and DG Shipping use DD/MM/YYYY format. For USCG use MM/DD/YYYY. Never use your travel date to the port always use your official joining date.
-Step 3 — Enter Sign-Off Date
-Use the date on your official sign-off documentation. If your CDC shows a different date than your actual departure, always use the CDC date that is what your administration verifies.
-Step 4 — Click Calculate and Add All Voyages
-The calculator instantly shows that voyage duration and adds it to your running total. Repeat for every ship you have served on. Your complete sea service record builds automatically in a log table below.
-Step 5 — Verify Against Your Target Requirement
-Compare your total against the sea time requirement for the rank or certificate you are applying for. The sections below cover exact requirements for DG Shipping, MCA, and USCG.
+Grailed Fee Calculator
+Calculate Grailed fees instantly and know your exact payout before you list or accept an offer. Enter your sale price, choose domestic or international, and see your Grailed commission, payment processing fees, and net earnings in seconds.
+Grailed fees consist of a flat 9% commission on the item price plus a separate payment processing fee (typically 3.49%–5.49% + a small fixed amount). Most sellers see total fees between 12% and 14%, depending on their Stripe onboarding status and buyer location. Use this Grailed fee calculator to avoid surprises, price items profitably, and maximize your take-home pay on every sale. Whether you sell streetwear, designer pieces, or luxury sneakers, knowing your numbers upfront helps you list smarter and sell faster.
+What is Grailed Fee?
+Grailed operates a straightforward fee system designed to keep the platform curated and seller-friendly. What is Grailed fee? It’s the cost sellers pay when an item sells no monthly subscriptions, no listing fees, and no hidden charges until the sale closes.
+Sellers pay two main components:
+Grailed commission: A flat 9% applied to the item sale price (not shipping).
+Payment processing fee: Handled through Stripe, this covers credit card and bank transfer costs and varies by your seller status and buyer location.
+Buyers pay nothing extra to Grailed. The platform stays completely free for buyers, which is one reason Grailed remains popular for fashion resale. Buyers only cover the listed item price, shipping (if not free), and any applicable taxes or duties.
+This structure makes selling fees on Grailed some of the lowest among major resale marketplaces. You keep more of your money compared to platforms that charge 15–20% flat commissions. As a longtime seller who has moved hundreds of items, I’ve seen how understanding these fees turns good listings into consistent profits.
+Grailed Fee Calculator (How It Works)
+The Grailed fee calculator removes all the guesswork. Here’s exactly how it works:
+Input your item sale price (the amount the buyer pays for the product itself).
+Select your seller status (Stripe onboarded, eligible but not onboarded, or non-eligible country).
+Choose transaction type (domestic US or international).
+Add shipping cost (optional, but realistic for accurate totals).
+Hit calculate the tool instantly breaks down:
+Grailed 9% commission
+Stripe payment processing fee
+Total fees
+Your estimated payout
+Formula breakdown (simple and transparent):
+Grailed Commission = Sale Price × 0.09
+Payment Processing Fee = (Transaction Amount × Percentage Rate) + Fixed Fee
+Total Fees = Commission + Processing Fee
+Your Payout = Sale Price + Shipping Collected – Total Fees
+You will receive your payout directly to your linked bank account (via Stripe) usually within 3 calendar days after delivery confirmation. The Grailed fee cal updates in real time, so you can test different price points and shipping strategies before listing.
+Calculate Grailed Fees (Step-by-Step Guide)
+Ready to calculate Grailed fees yourself? Follow these steps for perfect accuracy every time:
+Step 1: Decide your final accepted sale price. Example: You list a pair of sneakers for $250 and the buyer accepts at $230.
+Step 2: Determine if you’re charging shipping. Let’s say $18 (common for US domestic).
+Step 3: Check your Stripe status in your Grailed account settings.
+Step 4: Apply the correct rates (current as of 2026):
+Domestic (US) – Onboarded: 3.49% + $0.49
+International – Onboarded: 4.99% + $0.49
+Real-life example calculations:
+Example 1 – $150 Domestic Sale (Onboarded Seller)
+Item price: $150
+Shipping charged: $12
+Grailed commission: $150 × 9% = $13.50
+Processing fee (on ~$162 total): ~$6.15 (3.49% + $0.49)
+Total fees: ~$19.65
+You receive: $142.35
+Example 2 – $400 International Sale
+Item price: $400
+Shipping: $35
+Grailed commission: $36.00
+Processing fee (higher international rate): ~$24.45
+Total fees: ~$60.45
+You receive: $374.55
+These examples show why the Grailed payout calculator is essential you see the real number hitting your account, not just the headline 9% figure.
+Grailed Seller Fee Calculator Explained
+The Grailed seller fee calculator focuses entirely on your earnings. Sellers love it because it answers the most important question: “How much money will I actually receive?”
+Key seller insights:
+Commission always hits the item price only.
+Processing fees scale with transaction size but include that annoying fixed dollar amount making very low-price sales less profitable.
+You keep 100% of any shipping profit if you charge more than your actual cost.
+Payout calculation examples:
+$80 hoodie → After ~$11–$13 total fees → You keep ~$67–$69
+$600 jacket → After ~$75–$85 total fees → You keep ~$515–$525
+Experienced sellers use the Grailed seller fee calculator before every listing to set minimum acceptable offers. It prevents you from accepting lowball bids that leave you with almost nothing after fees.
+Grailed Buyer Fee Calculator Explained
+Here’s the good news for buyers: There is no Grailed buyer fee calculator needed because buyers pay zero platform fees.
+Grailed is 100% free for buyers. You only pay:
+The listed item price
+Shipping (or free shipping if the seller offers it)
+Any state sales tax or international duties/tariffs
+The Grailed buyer fee calculator people sometimes search for usually just helps estimate total out-of-pocket cost including shipping and tax. Grailed’s Purchase Protection program adds extra peace of mind at no extra charge to buyers covering authenticity and description issues on qualifying orders.
+Grailed and PayPal Fee Calculator Breakdown
+Many sellers still search for a Grailed and PayPal fee calculator because the platform used PayPal in earlier years. Today Grailed processes payments through Stripe, but the combined fee structure feels very similar.
+Transaction flow:
+Buyer pays item price + shipping via card or other methods.
+Grailed deducts the 9% commission immediately.
+Stripe deducts the processing fee from the remaining amount.
+Grailed releases your net payout to your bank (usually 3 days after delivery).
+The old PayPal rates (2.9% + $0.30) were slightly lower than current Stripe international rates, which is why the Grailed and PayPal fee calculator still appears in searches. Use the current Stripe rates in this tool for 2026 accuracy.
+Grailed Fees in 2026
+As of April 2026, Grailed fees remain competitive and unchanged at their core: 9% commission + Stripe processing fees. No major increases have hit sellers this year.
+Current 2026 rates (official):
+Stripe Onboarded Sellers (recommended): Domestic 3.49% + $0.49 | International 4.99% + $0.49
+Not Onboarded: Slightly higher fixed fees ($0.99)
+Non-Stripe Countries: Default higher rate
+Total effective fees usually land between 12–14%, still far below Poshmark (20%), Depop (10% + processing), or eBay (13%+). Occasional promotions appear earlier in 2026 some in-demand designers enjoyed 0% seller fees for a limited time.
+Market comparison: Grailed continues to win for serious fashion resellers who value lower fees and a curated audience.
+Factors Affecting Grailed Fees
+Several variables change your exact fees:
+Sale price — Higher prices reduce the impact of the fixed processing fee.
+Buyer location — International buyers trigger higher processing rates.
+Your Stripe status — Onboarding saves you $0.50 per transaction.
+Currency & region — Non-US sellers may face conversion fees.
+Shipping strategy — Charging shipping increases the total transaction amount processed.
+Promotions — Temporary 0% commission events can appear.
+Tips to Reduce Grailed Fees
+Smart sellers use these practical strategies to keep more money:
+Onboard with Stripe immediately — Cuts the fixed fee in half.
+Price strategically — Bundle items or aim for $100+ sales to minimize percentage impact.
+Offer free shipping — Absorb the cost into your price and attract more buyers (then calculate the real net).
+Monitor promotions — Grailed occasionally runs 0-fee periods for popular designers.
+Ship efficiently — Use Grailed labels when available to streamline delivery and faster payouts.
+Negotiate offers wisely — Run every offer through the Grailed fee calculator before accepting.
+After years of selling, I’ve found that consistent high-volume sellers who stay onboarded and price above $150 see the best net margins.
+Common Mistakes Users Make
+Even experienced sellers trip up on these:
+Calculating only the 9% commission and forgetting processing fees.
+Assuming fees apply only to the item price when shipping is charged.
+Not checking Stripe status before big sales.
+Accepting very low offers on cheap items where fixed fees eat most of the profit.
+Ignoring potential refund scenarios (some processing fees may not return fully).
+Using outdated PayPal-only calculators instead of 2026 Stripe rates.
+FAQs 
 
-Sea Time Calculation as per STCW — Key Rules Every Seafarer Must Know
-The STCW Convention (1978, Manila Amendments 2010) sets the minimum sea time standards all signatory nations follow. Key calculation principles include:
-Approved seagoing service counts only time on qualifying vessels generally ocean-going or near-coastal trading vessels above the minimum GT specified for each rank.
-Watchkeeping service is calculated separately from total sea service. Under MCA rules, every 4 hours of watchkeeping counts as 1 day of watchkeeping service on a cumulative basis. You need both figures for OOW applications total voyage days and watchkeeping days are two different numbers.
-Cadet bonus credit applies under USCG rules cadet service on Maritime Administration training ships counts at 1.5 days per actual day served.
-Non-trading vessel service under DG Shipping counts at a 2/3 rate beyond the first six months of such service on non-trading vessels in foreign waters.
-DG Shipping Seatime Calculator — Sea Time Requirements for Indian Seafarers
-Sea Time Requirements for Deck Cadet (DG Shipping India)
-DNS (Diploma in Nautical Science) cadets from IMU-affiliated institutes must complete:
-Minimum 18 months of sea service to become eligible for the 4-month post-sea training course
-After post-sea training, the cadet qualifies for the Second Mate (FG) CoC examination
-Cadets completing a Structured Shipboard Training Programme (SSTP) receive a 12-month remission, reducing the total requirement from 36 to 24 months
-Cadets without SSTP must complete 36 months of sea time before sitting the Second Mate CoC exam
-Critical DG Shipping rule: At least half of total required sea service must be on foreign-going or coastal trading vessels of 3,000 GT and above engaged on voyages of 500 nautical miles or more. Additionally, six months of supervised navigational watchkeeping must be completed on such qualifying vessels. Log your vessel GT and trading area for every voyage in your seatime tracker you will need this information at the MMD office.
-Seatime Calculator MCA — Sea Time Requirements for UK Seafarers
-The MCA's Sea Service Testimonial (SST) verification system is strict. A poorly documented application causes delays of up to 160 days in issuing your Notice of Eligibility (NoE). Accurate seatime calculation before submission is essential.
-Sea Time Requirements for OOW 3000 GT (MCA)
-12 months of approved seagoing service via an MNTB-approved Cadet Training Programme
-36 months of qualifying sea service via the MCA Experienced Seafarer Route
-At least 6 months of bridge watchkeeping documented for ratings seeking OOW certification from other categories
-All service must be in an approved Training Record Book (TRB) for cadetship routes
-Watchkeeping Service — MCA Cumulative Calculation
-MCA calculates watchkeeping service cumulatively. Every 4 hours of watchkeeping performed on a voyage counts as 1 day of watchkeeping service. Time at anchor during an active passage, while the officer maintains a bridge watch, also counts. Your total voyage days and your watchkeeping days are recorded and submitted separately to MCA.
-Seatime Calculator USCG — Sea Time Requirements for US Seafarers
-Sea Time Requirements for Captain's License and 100 Ton Master (USCG)
-100 Ton Master: 360 days of sea service, minimum 90 days on near-coastal or offshore waters
-Master 200 GRT: 720 days of sea service, 360 days near-coastal or offshore
-Master 500/1600 GRT: 1,080 days with appropriate offshore qualification
-Sea Time Requirements for Able Bodied Seaman (AB) — USCG
-AB Special: 180 days of deck service
-AB Limited: 540 days on near-coastal, ocean, or Great Lakes waters
-AB Unlimited: 1,080 days on ocean or near-coastal waters on vessels 100 GRT and above
-STCW Able Seafarer Deck: 360 days with a USCG-approved course, or 540 days via NVIC 14-14 Checklist
-USCG calculation rule: Great Lakes service counts day-for-day up to 100% of total requirement. Inland waters service counts day-for-day for up to 50% of total. STCW-applicable vessel service counts day-for-day regardless of waters.
-Clyde Marine Seatime Calculator vs This Tool
-The Clyde seatime calculator (seatimecalculator.com) was built by Clyde Software for MCA-based sea time calculation. It uses the same join-date to leave-date methodology and remains widely used by UK seafarers. However, it has clear limitations:
-Supports only MCA calculation no DG Shipping or USCG modes
-Does not separate watchkeeping service from total sea service
-Does not flag whether a vessel qualifies under DG Shipping's 3,000 GT rule
-No mobile optimisation
-No data export or save function
-This seatime calculator online covers all major administrations DG Shipping, MCA, and USCG  using the same core calculation logic as the Clyde tool while adding region-specific guidance.
-Seatime Calculator Excel vs Online — Which Should You Use?
-Many seafarers maintain a seatime calculator Excel spreadsheet. It works, but has real risks date difference formulas break easily, cells get overwritten, and there is no mobile access on board.
-An online seatime calculator free tool eliminates formula errors, works on any device including mobile, and gives a clean record ready to verify against official requirements. Best practice: use Excel for ongoing tracking on board, and use this online calculator for final verification before any CoC or license application.
-Seatime Tracker — How to Maintain an Accurate Sea Service Record
-Experienced seafarers follow these habits from their very first contract:
-Record each voyage immediately on sign-off. Do not wait until your CoC application. Shipping companies merge, close, or change names — your CDC is your primary evidence but a personal seatime tracker is your backup.
-Record exact dates, never approximate months. A five-day error can push you below a minimum threshold. Copy dates directly from your CDC.
-Note vessel GT and trading route. DG Shipping requires at least half your service on vessels of 3,000 GT and above. Log this for every voyage.
-Keep digital and physical copies. Scan every CDC page and sea service letter. Store them in cloud storage. Multiple seafarers have lost verified sea time to lost documents when applying for Master CoC.
-Frequently Asked Questions 
-How does the DG Shipping seatime calculator work?
-Enter sign-on and sign-off dates for each vessel. The calculator totals your sea time in months and days. For DG Shipping applications, separately verify that at least half your sea time qualifies on vessels of 3,000 GT and above on voyages of 500 nautical miles or more.
-How much sea time do I need for OOW 3000 GT under MCA?
-Minimum 12 months via an MNTB-approved cadetship, or 36 months through the Experienced Seafarer Route.
-How much sea time does USCG require for a 100-ton Master?
-360 days of sea service with at least 90 days on near-coastal or offshore waters.
-What is the sea time requirement for Able Bodied Seaman?
-USCG requires 180 days (AB Special), 540 days (AB Limited), or 1,080 days (AB Unlimited). STCW Able Seafarer Deck requires 360 days with an approved course.
-Is this seatime calculator free?
-Yes. This is a completely free seatime calculator online. No registration, no download, no fee required.
-Can I use this calculator for DG Shipping, MCA, and USCG?
-Yes. Select your region and the calculator outputs sea time in the format each administration requires months and days for DG Shipping and MCA, total days for USCG.
-What is the difference between the Clyde Marine seatime calculator and this tool?
-The Clyde seatime calculator supports only MCA calculations. This tool supports DG Shipping, MCA, and USCG with guidance on qualifying vessel rules for each administration.
-
-Sea Time Requirements — Quick Reference Summary
-Rank / Certificate
-Administration
-Minimum Sea Time
-Deck Cadet (DNS + SSTP)
-DG Shipping India
-18 months
-Deck Cadet (without SSTP)
-DG Shipping India
-36 months
-OOW 3000 GT (cadetship)
-MCA UK
-12 months
-OOW 3000 GT (experienced route)
-MCA UK
-36 months
-AB Unlimited
-USCG USA
-1,080 days
-STCW Able Seafarer Deck
-USCG USA
-360 days (with course)
-Master 100 Ton
-USCG USA
-360 days
-Master 200 GRT
-USCG USA
-720 days
-
-Use this free seatime calculator before every CoC application. Calculate your exact total, verify your qualifying vessel service, and submit with confidence. Never estimate your sea time always calculate it precisely.
+What is Grailed fee?
+It’s the 9% commission plus Stripe processing fees that sellers pay on every successful sale. Buyers pay nothing to the platform.
+How much does Grailed take from a sale?
+Typically 12–14% total (9% commission + processing). Exact amount depends on your seller status and buyer location.
+Does PayPal charge extra fees on Grailed?
+No Grailed uses Stripe for processing in 2026. Older calculators may still reference PayPal rates, but current fees are listed above.
+How do I calculate Grailed payout?
+Use the Grailed payout calculator above: subtract 9% commission and the applicable Stripe processing fee from your sale price (plus any shipping you collected).
+Is Grailed fee fixed or variable?
+The 9% commission is fixed. The processing fee has both a percentage (variable) and fixed dollar component, so total fees vary slightly by sale size and location.
 
