@@ -107,6 +107,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'rip-rap-calculator') return 'rip-rap-calculator';
   if (id === 'soffit-calculator') return 'soffit-calculator';
   if (id === 'ashtakavarga-calculator') return 'ashtakavarga-calculator';
+  if (id === 'aquarium-substrate-calculator') return 'aquarium-substrate-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1235,6 +1236,14 @@ export const calculators: Calculator[] = [
     name: "Ashtakavarga Calculator",
     description: "Free ashtakavarga calculator online. Get complete ashtakavarga chart, sarvashtakavarga & bhinnashtakavarga scores by date of birth",
     href: "/ashtakavarga-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "aquarium-substrate-calculator",
+    name: "Aquarium Substrate Calculator",
+    description: "Calculate exact volume and weight of substrate for your aquarium. Free gravel, sand, and planted tank substrate calculator",
+    href: "/aquarium-substrate-calculator",
     category: "other",
     popular: false,
   }

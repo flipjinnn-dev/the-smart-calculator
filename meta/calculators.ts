@@ -3944,5 +3944,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/construction/polymeric-sand-calculator",
       keywords: "polymeric sand calculator, paver sand calculator, polymeric sand estimator, joint sand calculator, how much polymeric sand do i need, polymeric sand coverage, polymeric sand bags needed, dominator polymeric sand calculator, techniseal polymeric sand calculator, alliance gator calculator, gator maxx calculator, polymeric jointing sand calculator, paver joint sand calculator, flagstone sand calculator, polymeric sand for pavers, polymeric sand coverage table, 50 lb bag polymeric sand coverage, polymeric sand per square foot, patio sand calculator, driveway sand calculator, walkway sand calculator, tumbled paver sand, wide joint polymeric sand, ez sand calculator, unilock sand calculator"
     }
+  },
+  "aquarium-substrate-calculator": {
+    en: {
+      title: "Aquarium Substrate Calculator: How Much Gravel, Sand, or Soil Do You Need?",
+      description: "Use this aquarium substrate calculator to instantly determine the exact volume and weight of substrate your aquarium requires. Free aquarium gravel calculator, aquarium sand calculator, and planted aquarium substrate calculator for all tank sizes.",
+      slug: "/aquarium-substrate-calculator",
+      keywords: "aquarium substrate calculator, aquarium gravel calculator, aquarium sand calculator, planted aquarium substrate calculator, aquarium substrate volume calculator, aquarium gravel amount calculator, aquarium sand volume calculator, aquarium soil substrate calculator, aquarium substrate for plants calculator, aquarium substrate depth calculator, aquarium gravel depth calculator, aquarium sand depth calculator, how much substrate for aquarium, aquarium substrate calculator liters, aquarium substrate calculator kg, fish tank substrate calculator, planted tank substrate calculator, aquasoil calculator, ada amazonia calculator, fluval stratum calculator, seachem flourite calculator, aquarium gravel weight calculator, aquarium sand weight calculator, substrate calculator for planted tanks, how much gravel for aquarium"
+    }
   }
 };
