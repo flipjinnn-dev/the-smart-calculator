@@ -106,6 +106,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'home-reversion-calculator') return 'home-reversion-calculator';
   if (id === 'rip-rap-calculator') return 'rip-rap-calculator';
   if (id === 'soffit-calculator') return 'soffit-calculator';
+  if (id === 'ashtakavarga-calculator') return 'ashtakavarga-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1202,6 +1203,14 @@ export const calculators: Calculator[] = [
     name: "Seatime Calculator",
     description: "Calculate total sea service in days and months for seafarers. Perfect for DG Shipping, MCA, USCG & STCW CoC applications",
     href: "/seatime-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "ashtakavarga-calculator",
+    name: "Ashtakavarga Calculator",
+    description: "Free ashtakavarga calculator online. Get complete ashtakavarga chart, sarvashtakavarga & bhinnashtakavarga scores by date of birth",
+    href: "/ashtakavarga-calculator",
     category: "other",
     popular: false,
   }

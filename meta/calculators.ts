@@ -3912,5 +3912,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/seatime-calculator",
       keywords: "seatime calculator, sea time calculator, seatime calculator online, free seatime calculator, DG Shipping seatime calculator, seatime calculator MCA, seatime calculator USCG, Clyde Marine seatime calculator, seatime calculator in days, onboard maritime seatime calculator, seatime calculator Excel, seatime tracker, sea service calculator, CoC application, Certificate of Competency, STCW seatime, deck cadet seatime, OOW seatime requirements, AB seatime requirements, master license seatime, seafarer sea time, CDC seatime, maritime seatime calculation, sea service record, watchkeeping service calculator"
     }
+  },
+  "ashtakavarga-calculator": {
+    en: {
+      title: "Ashtakavarga Calculator: Free Online Vedic Astrology Bindu Points Tool by Date of Birth",
+      description: "Free ashtakavarga calculator online delivers your complete ashtakavarga chart and ashtakavarga points in seconds. Get sarvashtakavarga chart calculator results, bhinnashtakavarga scores for every planet, and precise Vedic predictions for career, marriage, health, wealth, and longevity.",
+      slug: "/ashtakavarga-calculator",
+      keywords: "ashtakavarga calculator, ashtakavarga calculator online, ashtakavarga calculator free, ashtakavarga calculator by date of birth, sarvashtakavarga chart calculator, bhinnashtakavarga calculator, ashtakavarga bindu calculator, ashtakavarga points calculator, lagna ashtakavarga calculator, moon ashtakavarga calculator, saturn ashtakavarga calculator, venus ashtakavarga calculator, ashtakavarga chart calculator, ashtakavarga vedic astrology, ashtakavarga calculation, how to calculate ashtakavarga, ashtakavarga rules, ashtakavarga predictions, free ashtakavarga calculator, online ashtakavarga calculator, vedic astrology calculator, bindu calculator, sarvashtakavarga calculator, bhinnashtakavarga chart, ashtakavarga marriage prediction"
+    }
   }
 };
