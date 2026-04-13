@@ -128,6 +128,9 @@ const nextConfig = {
         loaders: ['ignore-loader'],
       },
     },
+    resolveAlias: {
+      canvas: './canvas-mock.js',
+    },
   },
   webpack: (config, { isServer, webpack }) => {
     // Handle canvas for both server and client
