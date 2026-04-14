@@ -753,6 +753,14 @@ export const calculators: Calculator[] = [
     href: "/physics/power-to-weight-ratio-calculator",
     category: "physics",
   },
+  {
+    id: "phasor-calculator",
+    name: "Phasor Calculator",
+    description: "Learn phasor calculator concepts for AC circuits, conversions, impedance, and power factor. Simple guide with formulas, examples, and FAQs.",
+    href: "/physics/phasor-calculator",
+    category: "physics",
+    popular: false,
+  },
   // Construction Calculators
   {
     id: "board-foot",

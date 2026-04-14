@@ -3761,6 +3761,14 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "power-to-weight ratio calculator, power to weight ratio, car power-to-weight ratio, cycling power-to-weight ratio, F1 car power-to-weight ratio, motorcycle power-to-weight ratio, hp/lb calculator, kW/kg calculator"
     }
   },
+  "phasor-calculator": {
+    en: {
+      title: "Phasor Calculator Guide: AC Circuits Made Simple",
+      description: "Learn phasor calculator concepts for AC circuits, conversions, impedance, and power factor. Simple guide with formulas, examples, and FAQs.",
+      slug: "/physics/phasor-calculator",
+      keywords: "phasor calculator, phasor conversion, rectangular to polar, polar to rectangular, ac circuit analysis, impedance calculator, complex number calculator, phasor diagram, euler formula, atan2 calculator, electrical engineering calculator, power factor calculator, ac ohm's law, phasor arithmetic, sinusoid to phasor, three phase phasor, RLC circuit phasor, phasor addition, phasor multiplication, electrical phasor, ac steady state analysis, complex impedance, phasor domain, time domain to phasor"
+    }
+  },
   "twin-flame-calculator": {
     en: {
       title: "Twin Flame Calculator – Free Love Match",

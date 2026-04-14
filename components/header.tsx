@@ -88,6 +88,7 @@ const ENGLISH_ONLY_PATHS = [
   '/aquarium-substrate-calculator',
   '/health/peth-test-calculator',
   '/evony-troop-calculator',
+  '/physics/phasor-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',
