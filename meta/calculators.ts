@@ -3681,6 +3681,14 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "dental implant cost calculator, dental implant calculator, dental implant cost estimator, average cost of a dental implant per tooth, how much is dental implant, full mouth dental implants cost, dental implant cost 6 teeth, how much would 7 dental implants cost, ClearChoice dental implants cost, tooth implant cost estimate, dental implant price, implant cost breakdown, All-on-4 cost, dental implant surgery cost"
     }
   },
+  'peth-test-calculator': {
+    en: {
+      title: "Peth Test Calculator | Alcohol Clearance Date",
+      description: "Estimate your PEth level and alcohol clearance date using half-life science. Learn detection window, cutoff levels, and safe testing timeline.",
+      slug: "/health/peth-test-calculator",
+      keywords: "peth test calculator, peth calculator, peth level calculator, peth half life calculator, peth elimination calculator, peth test time frame, peth calculator online, peth blood test, phosphatidylethanol test, alcohol biomarker test, peth test detection window, peth test accuracy, how long does peth test take, can peth test detect one drink, peth test results, peth clearance calculator, alcohol abstinence test, peth test for court, peth test probation"
+    }
+  },
   'ssc-gpa-calculator': {
     en: {
       title: "SSC GPA Calculator – Fast & Accurate Results",
@@ -3703,6 +3711,14 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Spin the animal wheel online or toy version to pick random animals. Perfect for games, learning, or fun activities for kids and adults.",
       slug: "/games/animal-wheel-spinner",
       keywords: "animal wheel spinner, animal spin wheel, random animal generator wheel, animal spinner online, animal wheel spinner online, animal spin wheel game, farm animal wheel spinner, pet wheel spinner, cute animal wheel spinner, animal generator wheel, spinning animal wheel, animal wheel spinner toy"
+    }
+  },
+  'evony-troop-calculator': {
+    en: {
+      title: "Evony Troop Calculator | RSS, Power & Cost Tool",
+      description: "Use Evony Troop Calculator to estimate troop cost, RSS, power, training & healing. Plan T1–T16 troops, optimize PvP & save resources easily.",
+      slug: "/evony-troop-calculator",
+      keywords: "evony troop calculator, evony troop cost calculator, evony rss calculator, evony troop power calculator, evony troop tier calculator, evony troop training calculator, evony troop healing cost calculator, evony troop layering calculator, evony troop build calculator, evony calculator, evony the king's return calculator, t1 to t16 troops, mounted cavalry cost, ground infantry cost, ranged troops cost, siege troops cost, evony resource calculator, evony training cost, evony power gain calculator, evony keep level troops, evony pvp calculator, evony boss troop calculator"
     }
   },
   'ovr-calculator': {

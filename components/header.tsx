@@ -86,6 +86,8 @@ const ENGLISH_ONLY_PATHS = [
   '/financial/grailed-fee-calculator',
   '/construction/loft-conversion-cost-calculator',
   '/aquarium-substrate-calculator',
+  '/health/peth-test-calculator',
+  '/evony-troop-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',

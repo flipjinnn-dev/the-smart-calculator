@@ -1,139 +1,203 @@
-Loft Conversion Cost Calculator | Instant Estimates for Dormer, Velux & More
-The average loft conversion cost in the UK sits between £40,000 and £55,000 for a typical 30 m² project. A basic Velux loft conversion starts from £25,000, while a dormer loft conversion averages £50,000. London and the South East add 20-30 % more. Use this loft conversion cost calculator (or the cost of loft conversion UK calculator below) to see your exact figure instantly. Most homeowners recover 20-24 % of the investment through increased property value.
-How to Use Our Loft Conversion Cost Calculator Online
-You control the numbers. Our loft conversion calculator online works like this:
-Choose your conversion type – Velux (rooflight), dormer, hip-to-gable, mansard or L-shaped dormer.
-Enter your loft dimensions – floor area in m² (or length × width).
-Select your UK location – England (non-London), London/South East, Midlands, North, Scotland or Wales.
-Add extras – en-suite bathroom, high-end finishes, new staircase position.
-Hit Calculate – you receive a low, mid and high estimate plus a full cost breakdown.
-Example results from the calculator (30 m² mid-range finish):
-Velux: £27,500 – £35,000
-Dormer: £45,000 – £60,000
-Hip-to-gable: £55,000 – £70,000
-Mansard: £60,000 – £80,000
-You adjust any variable and watch the price update live. This loft conversion price calculator uses 2026 UK data from Checkatrade, MyJobQuote and real builder quotes, so you plan with confidence.
-Average Loft Conversion Cost Calculator 2026 – What Homeowners Actually Pay
-You gain clarity fast. The average loft conversion cost calculator shows UK-wide figures for 2026:
-Conversion Type
-Average Cost (30 m²)
-Cost per m²
-Build Time
-Typical Use Case
-Velux (rooflight)
-£27,500 – £35,000
-£920 – £1,600
-4–6 weeks
-Extra bedroom, minimal change
-Dormer
-£45,000 – £60,000
-£1,500 – £2,000
-8–12 weeks
-Full-height room + bathroom
-Hip-to-gable
-£55,000 – £70,000
-£1,800 – £2,200
-10–14 weeks
-Side extension on end-of-terrace
-Mansard
-£60,000 – £80,000+
-£1,900 – £2,600
-10–14 weeks
-Maximum space, listed buildings
-L-shaped dormer
-£55,000 – £75,000
-£1,700 – £2,300
-10–14 weeks
-Large family homes
+Meta Title 
+Evony Troop Calculator | RSS, Power & Cost Tool
+Meta Description
+Use Evony Troop Calculator to estimate troop cost, RSS, power, training & healing. Plan T1–T16 troops, optimize PvP & save resources easily.
+Compitetor: https://onechilledgamer.com/evony-troop-cost-calculator/
+Evony Troop Cost Calculator
+Quick Answer:The Evony Troop Cost Calculator uses three inputs—Troop Type (Mounted, Ground, Ranged, Siege), Troop Tier (T1–T16), and Troop Target—to instantly calculate total food, lumber, stone, ore, gold cost, and power gain before training troops.
+What This Evony Troop Cost Calculator Does
+If you want to train troops in Evony: The King's Return without running out of resources halfway through, this calculator is your first stop.
+Most players open their barracks, pick a troop, and start training then panic when lumber or ore runs dry at 60 percent completion. This Evony troop calculator eliminates that problem completely.
+You give it three things:
+Troop Type — Mounted, Ground, Ranged, or Siege
+Troop Tier — anywhere from T1 to T16
+Troop Target — the exact quantity you want to build
+It gives you back the complete resource bill and your power gain before you commit a single resource.
+Input 1 — Troop Type (Mounted, Ground, Ranged, Siege)
+The first thing the Evony troop cost calculator asks you is which of the four troop types you are training. This matters because each type has a different resource cost structure, a different role in battle, and a different power value per unit.
+Mounted Troops (Cavalry)
+Mounted troops are your fastest and most aggressive attack force. They deal heavy damage against Ground troops and excel in open-field PvP battles. However, they are expensive Mounted troops cost significantly more ore per unit than Ground or Ranged at the same tier.
+Use the Evony troop calculator for Mounted troops when:
+Planning a PvP attack march that needs maximum offensive power
+Calculating whether your ore stockpile supports a large Cavalry batch before a war event
+Comparing the cost of T12 Mounted vs T14 Mounted to find the tier your economy actually supports
+Ground Troops (Infantry)
+Ground troops are your defensive backbone and your layering filler. They counter Mounted troops, absorb damage well, and form the foundation of every serious defensive setup. Ground troops at low tiers (T1 to T5) are also the cheapest filler troops available — critical for hospital buffer layering strategies.
+Use the calculator for Ground troops when:
+Building your defensive layer before a Server War
+Calculating how many T1 Ground troops you can train as filler with leftover resources
+Planning a T12 or T14 Ground batch for a serious defense upgrade
+Experience note: Never skip calculating even cheap T1 Ground troops. Players building large filler layers for hospital buffering sometimes need 2 to 5 million T1 troops and even at low cost, that adds up to hundreds of millions of food. The calculator catches this before it wipes your farm.
+Ranged Troops
+Ranged troops attack from a distance and deal effective damage against Mounted troops. They are a critical mid-layer in balanced armies and the primary troop type for certain boss monster compositions. Ranged troops have a notably high lumber requirement compared to other types at the same tier.
+Use the calculator for Ranged troops when:
+Building the support layer of a layered march
+Preparing a boss-farming army optimized for monsters weak to Ranged damage
+Checking whether your lumber stockpile supports a Ranged training batch before you start
+Siege Troops
+Siege troops deal massive damage to buildings and fortifications but move slowly and are vulnerable without protection. High-tier Siege machines are among the most resource-intensive troops in the game their ore and gold costs at T12 and above are the highest of any troop type.
+Use the calculator for Siege troops when:
+Planning a Keep attack that requires breaking through high-level walls
+Calculating the exact cost of adding a Siege layer to your march
+Checking whether a Siege batch is feasible before a coordinated alliance rally
+Key insight: Many players ignore Siege in their cost planning because they train smaller quantities. But 50,000 T12 Siege machines cost more in ore than 500,000 T10 Cavalry. Always run the Siege numbers through the troop cost calculator Evony before you start the resource bill surprises most players the first time they see it.
+Input 2 — Troop Tier (T1 Through T16)
+The second input and the one that changes your resource bill the most dramatically — is Troop Tier. The Evony troop tier calculator logic applies a scaling multiplier at each tier level. The cost difference between T7 and T10 is significant. The difference between T10 and T14 is enormous. The difference between T14 and T16 is staggering.
+Troop Cost Scaling by Tier — What to Expect
+Tier Range
+Cost Level
+Best For
+Who Should Train
+T1 – T3
+Minimal
+Hospital filler, march buffer layers
+All players
+T4 – T6
+Low
+Early-game army building
+New players, K20 and below
+T7 – T9
+Moderate
+Mid-game core troops
+Developing players, K25 range
+T10 – T11
+High
+Best power-to-cost ratio troops
+Mid-to-late game, K30 range
+T12 – T13
+Very High
+Competitive PvP core troops
+Late-game players, K35+
+T14 – T15
+Extreme
+Elite war troops
+Established players, strong economies
+T16
+Massive
+Top-tier combat
+End-game, K45+, major spenders
 
-Basic loft conversion cost (shell only, no finishes) starts at £15,000–£25,000. You add £10,000–£20,000 for full fit-out including electrics, plumbing and decoration. These numbers reflect real 2026 projects across the UK and help you benchmark quotes.
-Cost of Loft Conversion UK Calculator – Key Factors That Shape Your Price
-You avoid nasty surprises. Several variables drive the final figure in our cost of loft conversion UK calculator. Here they are, explained clearly:
-1. Loft Size and Head Height
-Larger lofts cost more per project but less per square metre because of economies of scale. You need at least 2.2 m head height at the ridge for a comfortable room. If your loft falls short, you lower the ceiling below or raise the roof – both add £5,000–£12,000.
-2. Conversion Type
-Velux keeps costs lowest because you install rooflights without altering the roof structure. Dormer and hip-to-gable add vertical walls and extra volume, so you pay more for scaffolding, roofing and structural steel. Mansard demands a completely new roof slope, pushing prices higher.
-3. Location
-London and the South East command 20-30 % premiums due to higher labour and material costs. A dormer that costs £50,000 in Manchester may reach £65,000 in London. Northern regions often sit 10-15 % below the UK average.
-4. Structural Work
-You reinforce floors, install steel beams and sometimes move water tanks or chimneys. Trussed roofs need more engineering than traditional cut roofs. Expect £6,000–£10,000 for structural elements in a standard dormer.
-5. Finishes and Extras
-Basic paint and carpet keep costs down. You add £4,000–£8,000 for an en-suite, premium flooring, built-in storage or smart lighting. High-spec kitchens or Juliet balconies push the total into six figures.
-6. Access and Staircase
-You create safe access. Straight staircases cost less than spiral or relocated ones. External scaffolding and temporary roofs add £4,000–£7,000.
-7. Planning Permission and Building Regulations
-Most loft conversions fall under permitted development – no planning application needed. You always require building regulations approval (£450–£1,500). Party-wall agreements for terraced or semi-detached homes add £700–£2,000 per neighbour. Full planning permission (if required) costs £258 plus architect drawings (£1,500–£4,000).
-8. VAT and Contingency
-VAT sits at 20 % on most work. You build in 10-15 % contingency for unexpected issues such as asbestos or rotten timbers.
-Our loft conversion cost calculator automatically factors these in so you receive realistic figures.
-Dormer Loft Conversion Cost Calculator – Most Popular Choice Explained
-You choose dormer more than any other type. Our dormer loft conversion cost calculator estimates £45,000–£60,000 for a standard rear dormer on a 30 m² space.
-What you get:
-Vertical walls for full head height
-Flat or pitched roof on the dormer
-One or two large windows
-Extra floor space (up to 40 m³ under permitted development)
-Pros: More usable room than Velux, good natural light, proven ROI.
-Cons: Longer build time, visible from the rear.
-Real example: A Birmingham terraced homeowner converted a 28 m² dormer with en-suite for £56,000 in early 2026. The project added a double bedroom and boosted property value by £85,000.
-Velux Loft Conversion Cost Calculator – Cheapest and Fastest Option
-You want speed and value. The Velux loft conversion cost calculator shows £25,000–£35,000 for a typical rooflight project.
-What you get:
-Two to four Velux roof windows
-Insulated walls and ceiling
-New staircase
-Electrics and basic finishes
-Pros: Minimal structural change, 4–6 week build, least disruption.
-Cons: Sloping ceilings limit furniture placement.
-Homeowners in the Midlands regularly complete Velux conversions for under £30,000 and report excellent results for home offices or guest bedrooms.
-Loft Conversion Cost Basic vs Full Fit-Out
-You decide the spec. A loft conversion cost basic (shell only – floor, insulation, staircase, rooflights) runs £15,000–£25,000. Full fit-out adds:
-Electrics & lighting: £2,000–£3,500
-Plumbing & heating: £1,500–£4,000
-Bathroom: £4,000–£8,000
-Decoration & flooring: £2,000–£4,000
-You save money by supplying your own bathroom suite or decorating yourself.
-Step-by-Step Process – From Calculator to Completion
-Use the calculator – get your estimate.
-Book a free site survey – local specialists measure head height and roof structure.
-Engage an architect or designer – produce plans and structural calculations.
-Submit building regulations – or permitted development notice.
-Choose your builder – compare three detailed quotes.
-Sign contract and start – scaffolding goes up, work begins.
-Monitor progress – weekly updates keep you informed.
-Final inspection – building control signs off.
-The entire journey takes 3–6 months from first click to finished room.
-How Much Value Does a Loft Conversion Add? Real ROI
-You invest wisely. Nationwide research shows a loft conversion with a double bedroom and bathroom adds up to 24 % to a three-bedroom house. Even a simple Velux project typically returns 60-80 % of your outlay on sale. In high-demand areas you often achieve 100 % ROI or more.
-Tips to Reduce Your Loft Conversion Costs Without Cutting Quality
-You keep the project affordable:
-Stick to permitted development to avoid planning fees.
-Choose Velux if head height allows.
-Source materials yourself for finishes.
-Schedule work outside peak summer months.
-Use local builders to cut travel costs.
-Build a 10 % contingency instead of over-specifying.
-Our calculator lets you test “what-if” scenarios instantly.
-FAQs
+Tier Unlock Requirements
+The troop tier calculator shows you costs for all tiers — but you can only train the tiers your Keep level actually unlocks. Here is the general unlock structure:
+T1 – T3: Available from Keep Level 1
+T4 – T6: Unlocks around Keep Level 15 to 20
+T7 – T9: Unlocks around Keep Level 20 to 25
+T10 – T11: Unlocks at Keep Level 25+
+T12 – T13: Requires Keep Level 30+, significant Academy research
+T14 – T15: Requires Keep Level 35+, advanced research chain completion
+T16: Requires Keep Level 40+, top-tier research
+Practical tip:Use the calculator to compare adjacent tiers before training. The jump from T11 to T12 is a major cost spike, and it helps you avoid overspending resources on troops your economy can’t sustain.
+The T10 Sweet Spot
+Experienced players consistently identify T10 as the best value tier for most mid-game players. The Evony troop power calculator output confirms this — T10 delivers the highest power gain per resource unit spent of any tier available to Keep 25 to 30 players.
+If you are between K25 and K30 and unsure which tier to focus on, run both T10 and T12 through the cost calculator with your target quantity. The resource gap will tell you clearly whether your economy is ready for T12 or whether T10 is the smarter investment at your current stage.
+Input 3 — Troop Target (How Many Troops You Want to Train)
+The third input is the quantity your Troop Target. This is the number of troops you want to train in this batch. The calculator multiplies your per-unit cost by this number to give you the total resource bill.
+How to Set Your Troop Target Smartly
+For Resource Consumption Events: The Resource Consumption Event rewards players for spending large quantities of resources within the event window. Before the event starts, decide your target reward tier, then work backward through the calculator to find the troop quantity that generates exactly the resource spend you need.
+For example: if the top event reward requires spending 2 billion total resources, input your chosen troop type and tier into the calculator, then adjust the Troop Target quantity until the total resource output matches your event goal. This gives you an exact training target to hit during the event.
+For War Preparation: Before any Server War, Alliance War, or Keep Warfare event, decide your minimum acceptable army size. Run that number through the Evony troop build calculator to confirm your resources support the full batch before the war window opens.
+For March Optimization: Your Troop Target should align with your march capacity. Use your march size limit as your maximum quantity target, then use the calculator to find the most resource-efficient composition that fills that march completely.
+For Layering Builds: If you are building a layered army, run separate calculations for each layer. For example:
+T12 Cavalry: 200,000 troops — run cost calculation
+T10 Ranged: 150,000 troops — run cost calculation
+T7 Ground: 300,000 troops — run cost calculation
+T1 Infantry: 500,000 troops — run cost calculation
+Add all four outputs together for your total resource requirement across the complete layered build.
+Evony Troop RSS Calculator — Reading the Output
+After you enter your Troop Type, Troop Tier, and Troop Target and hit Calculate, the Evony troop RSS calculator outputs five resource values plus your power gain.
+Understanding Each Output
+Food: Food is consumed primarily by Mounted and Ground troops at higher tiers. Food is typically the easiest resource to stockpile through farming but becomes a significant cost at T12 and above for large batches.
+Lumber: Lumber is the most commonly bottlenecked resource for Ranged troop training. High-tier Ranged troops have disproportionately high lumber costs. If the calculator shows your lumber requirement is higher than your current stockpile, prioritize lumber-focused gathering marches before starting the batch.
+Stone: Stone requirements are moderate across most troop types but spike significantly for Siege machines. Always check your stone balance before a large Siege batch.
+Ore: Ore is the primary bottleneck for Mounted (Cavalry) training at high tiers. T12 and T14 Cavalry ore costs shock many players the first time they calculate them accurately. Ore is also the slowest resource to gather, so plan your ore accumulation well in advance of any major Cavalry training session.
+Gold: Gold requirements scale sharply at higher tiers and are the hardest resource to accumulate without active play. If your gold output is insufficient to support your planned Troop Target, reduce your batch size or split it across multiple smaller training sessions.
+Power Gain: This tells you exactly how much your total power score increases from this batch. Use this number to plan for power milestone events and to track whether your training investments are delivering the power growth your strategy requires.
+Evony Troop Training Calculator — Time Planning with Your Cost Data
+The resource output from the Evony troop training calculator is only half the planning picture. The other half is time.
+Once you know your resource cost, check your training time against any upcoming events or war timelines. Key questions to answer:
+Does your planned batch complete before the Resource Consumption Event ends?
+Does your army reach its target size before the next Server War window?
+Do you need to allocate speed-ups to hit your timeline, or does natural training speed get you there?
+The training time for the same Troop Target varies significantly by troop type and tier. Siege machines take longer per unit than Cavalry at the same tier. Your Academy research in Training Speed directly reduces this time always factor your current research level into your time estimate.
+Evony Troop Healing Cost Calculator — The Cost After the Battle
+Training cost is what you pay before the battle. Healing cost is what you pay after.
+Every troop that enters your hospital after a PvP engagement costs resources to heal. The Evony troop healing cost calculator uses the same three-input logic  Troop Type, Troop Tier, and quantity sent to hospital to calculate your post-battle resource requirement.
+Why this matters before you fight:
+Before any major PvP battle or Server War engagement, run a healing cost estimate based on the worst-case scenario of your full hospital capacity filled with your dominant troop tier. That number is your minimum healing reserve. Keep that resource amount locked in your inventory and do not spend it on anything else during a war period.
+Players who drain their resource stockpile on new training batches during a war and cannot afford to heal their casualties are the players who lose wars on Day 3 and 4 despite having competitive armies on Day 1.
+Evony Troop Layering Calculator — Combine All Four Types Strategically
+The Evony troop layering calculator is where all four troop types and multiple tiers come together into a single army plan.
+A complete layered army uses all four troop types at different tier levels simultaneously. Run the cost calculator separately for each component of your layer, then add the totals together to see your complete resource requirement for the full layered build.
+Sample Layered Army — Mid-Game Player (K30)
+Layer Role
+Troop Type
+Tier
+Quantity
+Primary Resource Cost
+Main attack force
+Mounted
+T12
+200,000
+High ore + food
+Siege support
+Siege
+T10
+80,000
+High ore + stone
+Ranged mid-layer
+Ranged
+T9
+150,000
+High lumber
+Ground base layer
+Ground
+T10
+200,000
+Moderate all resources
+Hospital filler
+Ground
+T1
+1,000,000
+Minimal — cheap buffer
 
-How accurate is the loft conversion cost calculator?
-Extremely accurate when you enter real measurements. It draws on 2026 builder data and adjusts for your exact location and spec.
-What is the cheapest loft conversion?
-A Velux rooflight conversion at £25,000–£35,000.
-Do I need planning permission for a loft conversion?
-Usually not, provided you stay within permitted development limits. All projects require building regulations approval.
-How long does a loft conversion take?
-4–6 weeks for Velux, 8–14 weeks for dormer or more complex types.
-Can I live in the house during the work?
-Yes. Most families stay put, though you lose access to the loft and may experience some noise for the first few weeks.
-Is VAT included in the quotes?
-Yes – 20 % is added to the final price unless the work qualifies for any zero-rating (rare for standard conversions).
-What is the average loft conversion cost per m²?
-£1,200–£2,500 depending on type and region. London reaches £2,500–£4,100 per m² for high-spec projects.
-Will a loft conversion increase my council tax?
-Usually yes, by one band if you add a bedroom and bathroom. Check with your local authority.
-How do I get the most accurate quote?
-Use our calculator first, then request three site surveys from reputable local companies. Compare like-for-like quotes.
-Can I finance a loft conversion?
-Yes many homeowners use savings, remortgaging, or government-backed green loans if the project improves energy efficiency.
+Run each row through the troop cost calculator Evony separately, then sum all five resource totals. This gives you the complete resource roadmap for building a competitive layered army at Keep 30.
+PvP Layering vs PvE Layering
+PvP Evony troop layering calculator use: Focus on composition variety and unpredictability. Include all four troop types to prevent an opponent from running a counter composition that defeats your army cheaply. The T1 filler layer is especially important for PvP — it fills hospital beds and protects expensive high-tier troops from permanent death.
+PvE layering (Boss Troop Calculator use): Different boss monsters have different type weaknesses. Optimize your boss farming composition for the specific monster you are targeting. A composition optimized for the Fire Dragon boss is different from the one that maximizes damage against the Hydra. Calculate the cost of maintaining both compositions separately and decide which bosses are worth the resource investment for your current economy.
+Evony Troop Power Calculator — Does Your Training Plan Build Real Strength?
+Every batch you calculate should pass one final check: does this troop investment build actual battle strength, or just paper power?
+The Evony troop power calculator output the power gain figure tells you how much your power score increases. But experienced players cross-reference that number against battle effectiveness.
+The key question: Are you training troops that make your army stronger in actual combat, or troops that inflate your power score without improving your real fighting capability?
+Low-tier filler troops (T1 to T3) add almost zero power but serve a critical hospital buffer function. High-tier troops (T12 to T16) add massive power and deliver real combat performance. Mid-tier troops (T7 to T10) balance both reasonable power gain, genuine combat contribution, sustainable resource cost.
+Use the power gain output from the calculator to ensure your training plan aligns with your current strategic goal whether that is hitting a power milestone for an event, building genuine PvP strength, or maintaining a cost-efficient growing army.
+
+How to Use the Evony Troop Cost Calculator — Step by Step
+Step 1 — Select Troop Type. Choose Mounted, Ground, Ranged, or Siege from the dropdown. If you are planning a layered army, run the calculator once for each troop type you plan to train.
+Step 2 — Select Troop Tier. Choose your target tier from T1 to T16. If you are unsure which tier your economy supports, run the same quantity through T10, T12, and T14 and compare the three resource outputs side by side.
+Step 3 — Enter Troop Target. Input the exact quantity you want to train. For event planning, calculate backward from your resource goal. For war planning, use your march capacity or army size target as your quantity guide.
+Step 4 — Hit Calculate. Review all five resource outputs: food, lumber, stone, ore, gold plus your power gain. Compare each resource output against your current stockpile.
+Step 5 — Check your stockpile gap. If any resource output exceeds your current inventory, you know exactly what to gather before starting. Use your gathering marches on the specific bottleneck resource.
+Step 6 — Plan your training time. Check whether your batch completes within your required timeline. Allocate speed-ups if necessary or split the batch into multiple sessions.
+Frequently Asked Questions
+Which troop type costs the most resources in Evony? 
+Siege machines and high-tier Mounted (Cavalry) troops carry the highest per-unit resource costs. Siege machines have especially high ore and stone requirements. Mounted troops at T12 and above demand massive ore quantities. Always run these through the cost calculator before committing to a large batch.
+What is the cheapest troop to train in Evony? 
+T1 Ground troops are the cheapest troops in the game. They cost minimal resources per unit, train quickly, and serve as effective hospital filler in layered armies. Many experienced players maintain millions of T1 Ground troops specifically for this purpose.
+How do I use the Troop Target field for Resource Consumption Events? 
+Decide your target event reward tier and note the required resource spend. Enter your chosen Troop Type and Tier, then adjust the Troop Target quantity until the total resource output matches your event goal. This gives you your exact training target to hit during the event window.
+
+Why does ore run out faster than other resources during Cavalry training? 
+Mounted troops have disproportionately high ore requirements per unit compared to other troop types at the same tier. This is a deliberate game balance mechanic that makes high-tier Cavalry armies expensive to maintain. Plan ore gathering in advance of any large Cavalry training batch.
+Can I calculate multiple troop types at once? 
+Run the calculator separately for each troop type and tier in your planned army, then add the five resource totals together manually. This gives you the complete resource requirement for a full multi-type training plan or layered army build.
+What tier should a Keep 30 player focus on training? 
+T10 to T12 is the sweet spot for most Keep 30 players. Run both tiers through the cost calculator with your target quantity and compare the resource gap to your current stockpile. T10 delivers excellent power gain per resource spent. T12 delivers superior combat performance but at a cost that requires a well-developed resource economy to sustain consistently.
+Does the calculator account for research bonuses? 
+Base calculator outputs use standard game values. If your Academy research includes Training Cost Reduction bonuses, your actual cost will be lower than the base output. Apply your research percentage reduction manually to get your personalized accurate cost.
+How do T1 troops help in PvP even though they are weak? 
+T1 troops fill hospital beds when your army takes damage in battle. When your hospital fills with cheap T1 troops, your expensive T12 and T14 troops go to the hospital to heal rather than dying permanently. This hospital buffer strategy is one of the most important and most overlooked uses of low-tier troops in serious PvP play.
+Final Thoughts
+The Evony Troop Cost Calculator gives you three simple inputs Troop Type, Troop Tier, Troop Target and turns them into a complete resource roadmap for every training decision you make.
+Every resource you save through accurate pre-training calculation is a resource your opponent does not have. In a game where wars are won and lost by who ran out of ore first, that advantage compounds over weeks and months of play.
+Select your troop type. Set your tier. Enter your target. Calculate before you commit.
 

@@ -596,6 +596,13 @@ export const calculators: Calculator[] = [
     href: "/health/dental-implant-cost-calculator",
     category: "health",
   },
+  {
+    id: "peth-test-calculator",
+    name: "PEth Test Calculator",
+    description: "Estimate your PEth level and alcohol clearance date using half-life science. Learn detection window, cutoff levels, and safe testing timeline.",
+    href: "/health/peth-test-calculator",
+    category: "health",
+  },
 
   // Math Calculators
   {
@@ -1188,6 +1195,14 @@ export const calculators: Calculator[] = [
     name: "CPV Calculator",
     description: "Calculate cost per view for video ads. Free CPV calculator for YouTube, Google Ads with CPV to CPM converter",
     href: "/cpv-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "evony-troop-calculator",
+    name: "Evony Troop Calculator",
+    description: "Use Evony Troop Calculator to estimate troop cost, RSS, power, training & healing. Plan T1–T16 troops, optimize PvP & save resources easily.",
+    href: "/evony-troop-calculator",
     category: "other",
     popular: false,
   },

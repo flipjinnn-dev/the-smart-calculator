@@ -157,6 +157,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     'grailed-fee-calculator',
     'loft-conversion-cost-calculator',
     'aquarium-substrate-calculator',
+    'peth-test-calculator',
+    'evony-troop-calculator',
   ]
   
   // If this is a calculator route, return 404 to let Next.js handle it properly
