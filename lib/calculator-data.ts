@@ -112,6 +112,8 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'kite-size-calculator') return 'kite-size-calculator';
   if (id === 'crochet-calculator') return 'crochet-calculator';
   if (id === 'era-calculator') return 'era-calculator';
+  if (id === 'extrapolation-calculator') return 'extrapolation-calculator';
+  if (id === 'chaturbate-token-calculator') return 'chaturbate-token-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1304,6 +1306,22 @@ export const calculators: Calculator[] = [
     description: "Calculate earned run average (ERA) for baseball and softball pitchers with 9-inning or 7-inning formulas",
     href: "/sports/era-calculator",
     category: "sports",
+    popular: false,
+  },
+  {
+    id: "extrapolation-calculator",
+    name: "Extrapolation Calculator",
+    description: "Predict future values from data points using linear extrapolation with step-by-step solutions",
+    href: "/maths/extrapolation-calculator",
+    category: "maths",
+    popular: false,
+  },
+  {
+    id: "chaturbate-token-calculator",
+    name: "Chaturbate Token Calculator",
+    description: "Convert Chaturbate tokens to USD or EUR instantly. Models earn $0.05 per token",
+    href: "/other/chaturbate-token-calculator",
+    category: "other",
     popular: false,
   }
 ]

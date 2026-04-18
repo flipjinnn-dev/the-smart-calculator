@@ -93,6 +93,8 @@ const ENGLISH_ONLY_PATHS = [
   '/sports/kite-size-calculator',
   '/other/crochet-calculator',
   '/sports/era-calculator',
+  '/maths/extrapolation-calculator',
+  '/other/chaturbate-token-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',

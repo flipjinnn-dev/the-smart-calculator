@@ -161,6 +161,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     'kite-size-calculator',
     'crochet-calculator',
     'era-calculator',
+    'extrapolation-calculator',
+    'chaturbate-token-calculator',
     'peth-test-calculator',
     'evony-troop-calculator',
     'phasor-calculator',

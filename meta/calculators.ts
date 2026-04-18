@@ -4008,5 +4008,21 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/sports/era-calculator",
       keywords: "ERA calculator, earned run average calculator, ERA calculator baseball, ERA calculator MLB, ERA calculator softball, ERA calculator 9 innings, ERA calculator 7 innings, how to calculate ERA, ERA formula, ERA formula baseball, what is ERA in baseball, good ERA in baseball, ERA rating scale, expected ERA, xERA calculator, season ERA calculator, relief pitcher ERA, Japanese era calculator, Japanese era converter, Reiwa era calculator, Heisei era calculator, Showa era calculator, era to years conversion, Japanese era to Western year, Gengō calculator, free ERA calculator online"
     }
+  },
+  "extrapolation-calculator": {
+    en: {
+      title: "Extrapolation Calculator | Predict Future Values Online",
+      description: "Use our extrapolation calculator to predict future values from data points using linear and exponential methods. Fast, accurate online forecasting tool.",
+      slug: "/maths/extrapolation-calculator",
+      keywords: "extrapolation calculator, linear extrapolation calculator, extrapolation formula, extrapolation calculator online, extrapolation equation calculator, extrapolation formula calculator, extrapolation calculator with steps, linear extrapolation formula, extrapolation formula example, how to calculate extrapolation, extrapolation vs interpolation, interpolation and extrapolation calculator, interpolation extrapolation calculator, exponential extrapolation calculator, polynomial extrapolation, Richardson extrapolation calculator, retrograde extrapolation calculator, BAC retrograde extrapolation calculator, blood alcohol retrograde extrapolation calculator, BAC back extrapolation calculator, bac retrograde extrapolation calculator, vancomycin extrapolated trough calculator, extrapolation calculator excel, linear extrapolation calculator excel, how to calculate extrapolation in excel, data extrapolation calculator, extrapolate data calculator, free extrapolation calculator"
+    }
+  },
+  "chaturbate-token-calculator": {
+    en: {
+      title: "Chaturbate Token Calculator – Convert Tokens to USD/EUR",
+      description: "Free Chaturbate token calculator. Convert tokens to USD or EUR instantly. Models earn $0.05 per token. Check 100, 500, 1000 tokens value now.",
+      slug: "/other/chaturbate-token-calculator",
+      keywords: "chaturbate token calculator, chaturbate tokens to usd, chaturbate token value, chaturbate token converter, chaturbate tokens to dollars, chaturbate token to usd calculator, how much is 1 chaturbate token, how much is 100 tokens on chaturbate, how much is 500 tokens on chaturbate, how much is 1000 tokens on chaturbate, chaturbate token price, chaturbate model earnings, chaturbate payout, chaturbate tokens to eur, chaturbate token calculator eur, chaturbate broadcaster earnings, chaturbate token rate, chaturbate token conversion chart, free chaturbate token calculator, chaturbate earnings calculator"
+    }
   }
 };
