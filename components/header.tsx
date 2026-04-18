@@ -89,6 +89,10 @@ const ENGLISH_ONLY_PATHS = [
   '/health/peth-test-calculator',
   '/evony-troop-calculator',
   '/physics/phasor-calculator',
+  '/financial/fix-and-flip-calculator',
+  '/sports/kite-size-calculator',
+  '/other/crochet-calculator',
+  '/sports/era-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',

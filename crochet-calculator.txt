@@ -1,0 +1,301 @@
+Crochet Calculator 
+Yaha calculator ay gai
+A crochet calculator helps you estimate yarn yardage, project cost, time, gauge adjustments, stitch counts, and pricing for any crochet project from blankets and hats to sweaters and commission work. Use it before you start any project to avoid running out of yarn, undercharging for your work, or getting the wrong size.
+What Is a Crochet Calculator?
+A crochet calculator is a tool either online or on paper that takes your project measurements, yarn weight, hook size, and gauge swatch, and gives you accurate numbers. It removes the guesswork from crocheting.
+When you start a new project without calculating first, you risk running out of yarn mid-blanket, sizing a sweater wrong, or charging a client too little for a commissioned piece. Experienced crocheters know that five minutes with a crochet calculator saves hours of frustration.
+A full-featured free crochet calculator covers:
+Yarn amount (yardage and weight in grams)
+Project dimensions (width, length, circumference)
+Gauge adjustments (stitches per inch, rows per inch)
+Stitch counts (total stitches, increases, decreases per row)
+Pricing and commissions (material cost + labour rate + overhead)
+Time estimates (hours per project based on stitch count)
+Whether you are a complete beginner or a seasoned maker selling on Etsy, a crochet project calculator keeps your work organised and profitable.
+Crochet Yarn Calculator — How Much Yarn Do You Need?
+The crochet yarn calculator answers the most common question every crocheter asks: "How many skeins do I need to buy?"
+How the Crochet Yarn Amount Calculator Works
+You input:
+Project dimensions — length and width in inches or centimetres
+Yarn weight category — lace, fingering, DK, worsted, bulky, super bulky
+Stitch pattern — single crochet uses more yarn than double crochet for the same area
+Gauge swatch result — stitches per 4 inches and rows per 4 inches
+The calculator outputs:
+Total yardage required
+Recommended number of skeins (based on skein yardage you enter)
+A safety buffer (usually 10–15% extra recommended)
+Yarn Weight Reference Chart
+Yarn Weight
+Hook Size (mm)
+Avg. Yardage per 100g
+Lace / Thread
+1.5–2.25 mm
+800–1,000 yds
+Fingering / Sock
+2.25–3.5 mm
+400–600 yds
+Sport / DK
+3.5–4.5 mm
+250–350 yds
+Worsted
+4.5–5.5 mm
+180–220 yds
+Bulky
+5.5–8 mm
+100–150 yds
+Super Bulky
+9+ mm
+50–100 yds
+
+Experience tip: Always buy one extra skein of the same dye lot. Yarn is dyed in batches, and a skein from a different dye lot even the same colour name can look noticeably different once you wash your finished piece.
+Crochet Blanket Calculator — Size, Yarn & Yardage
+The crochet blanket calculator is probably the most-used crochet tool online. Blankets are large, use a lot of yarn, and come in many sizes so calculating before you buy is essential.
+Standard Blanket Sizes
+Blanket Type
+Dimensions (inches)
+Security / Lovey
+12 × 12
+Baby Blanket
+30 × 36
+Lap / Stroller
+30 × 40
+Throw Blanket
+50 × 60
+Twin Bed
+60 × 80
+Queen Bed
+90 × 90
+King Bed
+108 × 90
+
+Crochet Blanket Yarn Calculator — Example
+Let us say you want to make a throw blanket (50 × 60 inches) using worsted weight yarn with a single crochet stitch at a gauge of 14 stitches and 16 rows per 4 inches.
+Stitch count: (50 ÷ 4) × 14 = 175 stitches wide
+Row count: (60 ÷ 4) × 16 = 240 rows tall
+Total stitches: 175 × 240 = 42,000 stitches
+Approximate yardage: Single crochet uses roughly 1.5× the fabric width per row, so ≈ 50 × 1.5 × 240 = 18,000 inches ÷ 36 = 500 yards. In practice, add 15% buffer → 575 yards minimum
+This shows why a crochet blanket yarn calculator is so valuable the math is too tedious to do by hand every time.
+Crochet Gauge Calculator — Swatching Made Simple
+The crochet gauge calculator converts your swatch measurements into usable stitch and row counts for your actual project.
+What Is Gauge and Why Does It Matter?
+Gauge measures how many stitches and rows fit into a 4 × 4 inch (10 × 10 cm) square. Every crocheter has a slightly different tension. Two people using the same yarn and the same hook can produce swatches that differ by 2–3 stitches per 4 inches which adds up to several inches across a full blanket or sweater.
+How to Use the Crochet Gauge Calculator
+Crochet a swatch at least 6 × 6 inches with your chosen yarn and hook
+Wash and block it the way you plan to treat the finished item
+Measure the centre 4 inches and count stitches across and rows down
+Enter those numbers into the gauge calculator
+Input your target dimensions
+The tool outputs how many stitches to cast on and how many rows to work
+Formula:
+Target Width (inches) ÷ 4 × Stitches per 4 inches = Starting Stitch Count
+Target Length (inches) ÷ 4 × Rows per 4 inches = Total Row Count
+If your gauge does not match the pattern, go up a hook size to get fewer stitches per inch, or down a hook size to get more stitches per inch.
+Crochet Size Calculator — Getting the Right Fit
+The crochet size calculator is essential for wearables garments that must fit a real human body. It combines body measurements, ease allowance, and gauge to tell you exactly how many stitches to start with.
+Key Measurements for the Crochet Size Calculator
+Bust / Chest circumference — measured at the fullest point
+Body length — from underarm to desired hem length
+Sleeve length — from underarm to wrist
+Ease — the amount of extra width built in (negative ease = tight fit; positive ease = relaxed fit)
+Standard Size Guide for Adults
+Size
+Bust (inches)
+Positive Ease
+XS
+30–32
+2
+S
+34–36
+2
+M
+38–40
+2
+L
+42–44
+2
+XL
+46–48
+2
+2XL
+50–52
+2
+
+Experience tip: For beginners, choose patterns with 2–4 inches of positive ease. Fitted garments demand precise gauge and sizing, which is harder to achieve without experience.
+Crochet Hat Calculator — From Baby to Adult
+The crochet hat calculator uses head circumference to calculate the number of starting stitches and the number of rounds to work.
+Standard Head Circumferences
+Age Group
+Head Circumference
+Preemie
+10–12 inches
+Newborn
+13–14 inches
+Baby (3–6 months)
+15–16 inches
+Toddler (1–3 years)
+17–18 inches
+Child (3–10 years)
+19–20 inches
+Teen / Small Adult
+21–22 inches
+Average Adult
+22–23 inches
+Large Adult
+23–24 inches
+
+Hat Calculator Formula
+Most hats are worked in the round. You need two measurements: circumference and height.
+Negative ease for hats: Hats should be 1–2 inches smaller than actual head circumference so they stretch and stay on.
+Stitch count for brim: (Circumference − 1.5 inches) ÷ 4 × Stitches per 4 inches = Starting stitch count (round to a number divisible by your stitch repeat)
+Crown increases: For a flat top worked in the round, increase 6 stitches every other round until you reach your target circumference
+Crochet Sweater Calculator — Sizing & Yarn Amounts
+A crochet sweater calculator combines elements of the size calculator and the yarn calculator. Sweaters are complex they have a front, back, two sleeves, neckline, and sometimes a collar or button band.
+How Much Yarn Does a Sweater Need?
+Yarn Weight
+Average Yardage for Adult Sweater
+Fingering
+1,500–2,000 yds
+DK
+1,000–1,500 yds
+Worsted
+800–1,200 yds
+Bulky
+500–800 yds
+
+Experience tip: For colourwork sweaters, calculate each colour separately. You often use far less of contrast colours than you think, but you need to buy at least one full skein of each to ensure dye lot consistency.
+Crochet Stitch Calculator — Increases and Decreases
+The crochet stitch calculator covers two of the most important shaping techniques: increases and decreases. These shape garments, hats, amigurumi, and any 3D object.
+Crochet Increase Calculator
+An increase adds one or more stitches to expand your fabric. The most common increase is working two stitches into one stitch.
+Evenly spaced increase formula:
+Total stitches ÷ Number of increases = Work 1 stitch, then increase every N stitches
+Example: You have 48 stitches and need to increase by 6 stitches evenly. 48 ÷ 6 = 8. Work 1 stitch in every 8th stitch. Your new count = 54.
+Crochet Decrease Calculator
+A decrease removes stitches to shape or close fabric. The most common decrease is working two stitches together (sc2tog, dc2tog).
+Evenly spaced decrease formula:
+Total stitches ÷ Number of decreases = Decrease every N stitches
+Example: You have 60 stitches and need to decrease by 10. 60 ÷ 10 = 6. Work a decrease every 6th stitch. New count = 50.
+Crochet Price Calculator — Charge What You Are Worth
+The crochet price calculator is a tool every maker who sells their work needs to use. Many crocheters especially beginners undercharge because they only count material costs and ignore their time.
+The Full Pricing Formula
+Selling Price = Material Cost + Labour Cost + Overhead + Profit Margin
+Material cost: Price of yarn, stuffing, buttons, labels, packaging
+Labour cost: Hours worked × hourly rate (minimum wage at least; skilled craft rates are higher)
+Overhead: Marketplace fees (Etsy takes up to 10%), shipping supplies, photography, electricity
+Profit margin: Typically 10–30% added on top
+Why Most Crocheters Undercharge
+A hand-crocheted queen-size blanket can take 40–60 hours to complete. At even minimum wage, that is hundreds of dollars in labour alone before materials. Yet many people price blankets at $50–$80 because they feel guilty charging more. A crochet pricing calculator free of emotion shows you the real numbers so you can make an informed decision.
+Crochet Time Calculator — Estimate Hours Per Project
+The crochet time calculator estimates how long a project will take you to complete, based on:
+Total stitch count
+Your personal crocheting speed (stitches per minute)
+Number of colour changes or finishing steps
+How to Measure Your Crochet Speed
+Work for exactly 10 minutes on a straightforward stitch like single crochet or double crochet. Count the stitches you completed. Multiply by 6 to get your hourly stitch count.
+Average crochet speeds:
+Experience Level
+Stitches per Minute (Single Crochet)
+Beginner
+15–25
+Intermediate
+30–45
+Advanced
+50–70
+
+Once you know your speed and your total stitch count, divide: Total Stitches ÷ (Speed × 60) = Hours required.
+Crochet Cost Calculator — Materials, Labour & Overhead
+The crochet cost calculator gives you a line-by-line breakdown of every expense in a project. This is different from the price calculator cost is what you spend; price is what you charge.
+Cost Components to Track
+Cost Item
+How to Calculate
+Yarn
+Yardage needed ÷ Skein yardage × Skein price
+Hook
+Spread cost over many projects (depreciation)
+Stuffing / Notions
+Actual purchase price
+Labels / Tags
+Cost per unit
+Packaging
+Cost per unit
+Platform fees
+% of selling price (e.g., 6.5% Etsy transaction fee)
+Shipping supplies
+Actual cost
+
+Knowing your total cost helps you set a price that covers all expenses and still generates profit.
+Crochet Commission Calculator — Pricing for Sellers
+A crochet commission calculator focuses specifically on custom orders. Commissions are unique because the client chooses the design, size, colours, and deadline all of which affect your price.
+Commission Pricing Checklist
+Customisation premium: Charge 10–20% more for custom colour choices
+Rush fee: Charge 25–50% more for orders needed within 2 weeks
+Complexity premium: Intricate stitch patterns like Tunisian entrelac or overlay mosaic take longer than basic stitches
+Consultation time: Include the time you spend communicating with the client
+Non-refundable deposit: Always collect 30–50% upfront for commissions
+Sample Commission Price Calculation
+Item
+Cost
+Yarn for adult sweater (worsted, 1,200 yds)
+$30
+Labour: 25 hours × $20/hr
+$500
+Overhead (10%)
+$53
+Profit margin (15%)
+$87
+Total Commission Price
+$670
+
+This may feel high, but it reflects the true value of skilled handmade work. Use the crochet commission calculator to show clients a transparent cost breakdown.
+Entities and Concepts You Should Know
+For Google to understand and trust this content, the following entities are directly relevant to crochet calculators:
+Ravelry — the largest online crochet and knitting community; many patterns include built-in yarn calculators
+Gauge swatch — the test square every crocheter makes before starting a project
+Stitch marker — a physical tool used to mark stitch counts, relevant to calculator outputs
+WPI (wraps per inch) — a method to determine yarn weight without a label
+Amigurumi — crocheted stuffed figures that require increase/decrease calculators for shaping
+Tunisian crochet — a hybrid crochet/knitting method with different gauge properties
+CYCA yarn weight system — the Craft Yarn Council's standard weight numbering (0–7)
+Dye lot — the batch number on yarn labels; important when calculating how many skeins to buy at once
+Ease — the intentional difference between body measurement and garment measurement
+Blocking — washing and shaping a finished piece; can change gauge by up to 10%
+Frequently Asked Questions
+
+What is a crochet calculator used for?
+A crochet calculator estimates yarn yardage, stitch counts, sizing, project cost, and time for any crochet project. It helps you buy the right amount of yarn, size garments correctly, and price your work fairly.
+
+
+How do I calculate how much yarn I need for a crochet project?
+Measure your gauge swatch to get stitches and rows per 4 inches. Input your target dimensions and stitch type into a crochet yardage calculator. Add a 10–15% safety buffer to the result before buying yarn.
+
+
+Is there a free crochet calculator online?
+Yes. Several free crochet calculators are available online. Many cover yarn yardage, blanket sizing, hat sizing, and basic pricing. This page provides the formulas so you can calculate manually or use any tool you prefer.
+
+
+How do I price my crochet work correctly?
+Use a crochet price calculator that adds material cost + labour (hours × your hourly rate) + overhead (platform fees, packaging) + a profit margin. Never price based on material cost alone.
+
+
+How do I calculate increases and decreases in crochet?
+Divide your current stitch count by the number of increases or decreases needed to find the interval. For example, 48 stitches with 6 increases = increase every 8th stitch. The crochet increase and decrease calculator automates this for any stitch count.
+
+
+How long does a crochet blanket take to make?
+It depends on size, stitch type, and your speed. A throw blanket in single crochet at an intermediate speed takes approximately 20–35 hours. A crochet time calculator gives you a personalised estimate based on your stitch count and speed.
+
+
+What gauge should I use for a crochet hat?
+Most worsted weight hat patterns use a gauge of 14–16 stitches per 4 inches with a 5.0–5.5 mm hook. Always swatch and use the crochet gauge calculator to confirm your stitch count before starting.
+
+
+How many stitches do I need for a crochet blanket?
+It depends on your gauge and target width. Divide your target width in inches by 4, then multiply by your stitches per 4 inches. For a 50-inch-wide blanket at 14 stitches per 4 inches: (50 ÷ 4) × 14 = 175 stitches.
+
+
+How do I calculate a crochet sweater size?
+Measure the bust circumference, add your desired ease, divide by 4, and multiply by your stitch gauge. A crochet sweater calculator also helps you estimate yarn needed for each section body, sleeves, and collar.
+
+
+What is the difference between a crochet cost calculator and a price calculator?
+A cost calculator adds up all your expenses (yarn, notions, overhead). A price calculator uses that cost as a base and adds labour and profit margin to arrive at a selling price. You need both to run a sustainable crochet business.

@@ -108,6 +108,10 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'soffit-calculator') return 'soffit-calculator';
   if (id === 'ashtakavarga-calculator') return 'ashtakavarga-calculator';
   if (id === 'aquarium-substrate-calculator') return 'aquarium-substrate-calculator';
+  if (id === 'fix-and-flip-calculator') return 'fix-and-flip-calculator';
+  if (id === 'kite-size-calculator') return 'kite-size-calculator';
+  if (id === 'crochet-calculator') return 'crochet-calculator';
+  if (id === 'era-calculator') return 'era-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1268,6 +1272,38 @@ export const calculators: Calculator[] = [
     description: "Calculate exact volume and weight of substrate for your aquarium. Free gravel, sand, and planted tank substrate calculator",
     href: "/aquarium-substrate-calculator",
     category: "other",
+    popular: false,
+  },
+  {
+    id: "fix-and-flip-calculator",
+    name: "Fix and Flip Calculator",
+    description: "Estimate profit, ROI, ARV, rehab, financing, holding and selling costs for real estate house flipping deals",
+    href: "/financial/fix-and-flip-calculator",
+    category: "financial",
+    popular: false,
+  },
+  {
+    id: "kite-size-calculator",
+    name: "Kite Size Calculator",
+    description: "Calculate ideal kite size for kitesurfing based on weight, wind speed, skill level, and riding style",
+    href: "/sports/kite-size-calculator",
+    category: "sports",
+    popular: false,
+  },
+  {
+    id: "crochet-calculator",
+    name: "Crochet Calculator",
+    description: "Estimate yarn yardage, project cost, time, gauge, stitch counts, and pricing for crochet projects",
+    href: "/other/crochet-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
+    id: "era-calculator",
+    name: "ERA Calculator",
+    description: "Calculate earned run average (ERA) for baseball and softball pitchers with 9-inning or 7-inning formulas",
+    href: "/sports/era-calculator",
+    category: "sports",
     popular: false,
   }
 ]

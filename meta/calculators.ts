@@ -3976,5 +3976,37 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/aquarium-substrate-calculator",
       keywords: "aquarium substrate calculator, aquarium gravel calculator, aquarium sand calculator, planted aquarium substrate calculator, aquarium substrate volume calculator, aquarium gravel amount calculator, aquarium sand volume calculator, aquarium soil substrate calculator, aquarium substrate for plants calculator, aquarium substrate depth calculator, aquarium gravel depth calculator, aquarium sand depth calculator, how much substrate for aquarium, aquarium substrate calculator liters, aquarium substrate calculator kg, fish tank substrate calculator, planted tank substrate calculator, aquasoil calculator, ada amazonia calculator, fluval stratum calculator, seachem flourite calculator, aquarium gravel weight calculator, aquarium sand weight calculator, substrate calculator for planted tanks, how much gravel for aquarium"
     }
+  },
+  "fix-and-flip-calculator": {
+    en: {
+      title: "Fix and Flip Calculator | ARV & ROI Tool",
+      description: "Use this fix and flip calculator to estimate profit, ROI, ARV, rehab, financing, holding and selling costs for accurate real estate deal analysis.",
+      slug: "/financial/fix-and-flip-calculator",
+      keywords: "fix and flip calculator, fix and flip calculator online, fix and flip calculator free, property flip calculator, real estate deal calculator, house flipping calculator, fix and flip profit calculator, fix and flip deal calculator, fix and flip real estate calculator, fix and flip ARV calculator, fix and flip rehab calculator, fix and flip loan calculator, fix and flip mortgage calculator, fix and flip house calculator, fix and flip ROI calculator, hard money fix and flip loan, hard money loan fix and flip calculator, wholesaling fix and flip buy formula calculator, fix and flip calculator Excel, fix and flip calculator Excel free download, fix and flip calculator Google Sheets, fix and flip calculator app, best fix and flip calculator online, fix and flip spreadsheet, 70% rule calculator, ARV calculator, house flip profit calculator"
+    }
+  },
+  "kite-size-calculator": {
+    en: {
+      title: "Kite Size Calculator | Free Kitesurfing Kite Size Chart by Weight & Wind",
+      description: "Use this kite size calculator to instantly determine the ideal kite size in square meters (m²) using proven formulas. Free kite size chart by weight and kite size wind calculator deliver accurate results tailored to real-world conditions.",
+      slug: "/sports/kite-size-calculator",
+      keywords: "kite size calculator, kite size chart, kite size by weight, kite size chart by weight, kite size wind calculator, kite size chart knots, kite size chart m/s, what size kite do I need, how big should a kite be, kiteboard kite size calculator, kitesurfing kite size calculator, kitesurf size calculator, kite dimensions calculator, kiteboard size calculator, kite measurements, kiteboarding kite size, kite size for beginners, kite size for advanced riders, kite size chart wind speed, kite size formula, kite quiver calculator, twintip kite size, directional board kite size, foil kite size, kite size weight chart"
+    }
+  },
+  "crochet-calculator": {
+    en: {
+      title: "Crochet Calculator | Free Yarn, Gauge, Pricing & Time Calculator",
+      description: "Use this crochet calculator to estimate yarn yardage, project cost, time, gauge adjustments, stitch counts, and pricing for any crochet project from blankets and hats to sweaters and commission work.",
+      slug: "/other/crochet-calculator",
+      keywords: "crochet calculator, crochet yarn calculator, crochet blanket calculator, crochet gauge calculator, crochet size calculator, crochet hat calculator, crochet sweater calculator, crochet stitch calculator, crochet price calculator, crochet time calculator, crochet cost calculator, crochet commission calculator, crochet yarn amount calculator, crochet blanket yarn calculator, crochet increase calculator, crochet decrease calculator, crochet pricing calculator, crochet yardage calculator, crochet project calculator, free crochet calculator, crochet calculator online, how much yarn for crochet blanket, crochet gauge swatch calculator, crochet pattern calculator, crochet hook size calculator"
+    }
+  },
+  "era-calculator": {
+    en: {
+      title: "ERA Calculator | Free Earned Run Average Calculator for Baseball & Softball",
+      description: "Free ERA calculator (Earned Run Average) for baseball and softball pitchers. Calculate ERA with 9-inning or 7-inning formulas. Includes MLB ERA standards, xERA explanation, and Japanese era converter.",
+      slug: "/sports/era-calculator",
+      keywords: "ERA calculator, earned run average calculator, ERA calculator baseball, ERA calculator MLB, ERA calculator softball, ERA calculator 9 innings, ERA calculator 7 innings, how to calculate ERA, ERA formula, ERA formula baseball, what is ERA in baseball, good ERA in baseball, ERA rating scale, expected ERA, xERA calculator, season ERA calculator, relief pitcher ERA, Japanese era calculator, Japanese era converter, Reiwa era calculator, Heisei era calculator, Showa era calculator, era to years conversion, Japanese era to Western year, Gengō calculator, free ERA calculator online"
+    }
   }
 };
