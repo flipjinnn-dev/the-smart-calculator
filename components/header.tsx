@@ -95,6 +95,9 @@ const ENGLISH_ONLY_PATHS = [
   '/sports/era-calculator',
   '/maths/extrapolation-calculator',
   '/other/chaturbate-token-calculator',
+  '/construction/garage-conversion-cost-calculator',
+  '/health/newborn-weight-loss-calculator',
+  '/food/sourdough-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',

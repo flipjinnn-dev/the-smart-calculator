@@ -4024,5 +4024,29 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/other/chaturbate-token-calculator",
       keywords: "chaturbate token calculator, chaturbate tokens to usd, chaturbate token value, chaturbate token converter, chaturbate tokens to dollars, chaturbate token to usd calculator, how much is 1 chaturbate token, how much is 100 tokens on chaturbate, how much is 500 tokens on chaturbate, how much is 1000 tokens on chaturbate, chaturbate token price, chaturbate model earnings, chaturbate payout, chaturbate tokens to eur, chaturbate token calculator eur, chaturbate broadcaster earnings, chaturbate token rate, chaturbate token conversion chart, free chaturbate token calculator, chaturbate earnings calculator"
     }
+  },
+  "garage-conversion-cost-calculator": {
+    en: {
+      title: "Garage Conversion Cost Calculator UK | Instant Estimates 2026",
+      description: "Calculate your garage conversion cost in seconds. Get accurate UK estimates for single/double garage conversions. Includes regional pricing, spec levels, and detailed breakdowns.",
+      slug: "/construction/garage-conversion-cost-calculator",
+      keywords: "garage conversion cost calculator, garage conversion cost uk, garage conversion cost per m2, how much does a garage conversion cost, garage conversion calculator, garage conversion cost, cost of garage conversion, garage conversion price, garage conversion cost estimator, single garage conversion cost, double garage conversion cost, garage conversion cost per square metre, garage conversion cost breakdown, integral garage conversion cost, detached garage conversion cost, garage to bedroom conversion cost, garage to office conversion cost, garage to adu conversion cost, garage conversion cost london, garage conversion building regulations, garage conversion planning permission, garage conversion roi, garage conversion value added, garage conversion quotes, free garage conversion calculator"
+    }
+  },
+  "newborn-weight-loss-calculator": {
+    en: {
+      title: "Newborn Weight Loss Calculator — How to Calculate, What's Normal",
+      description: "Free newborn weight loss calculator. Calculate weight loss percentage in kg, lbs, or oz. Normal range is 7-10%. Get instant results and know when to call your pediatrician.",
+      slug: "/health/newborn-weight-loss-calculator",
+      keywords: "newborn weight loss calculator, newborn weight loss percentage calculator, baby weight loss calculator, how to calculate newborn weight loss, newborn weight loss formula, normal newborn weight loss, newborn weight loss percentage, baby weight loss percentage, newborn weight loss chart, how much weight loss is normal for newborn, newborn weight loss in kg, newborn weight loss in pounds and ounces, newborn weight loss in lbs, calculate baby weight loss, baby weight loss percentage formula, newborn weight loss normal range, when to worry about newborn weight loss, newborn weight loss 10 percent, newborn weight loss after birth, breastfed baby weight loss, formula fed baby weight loss, newborn weight regain, NEWT tool, newborn weight tool, free newborn weight loss calculator"
+    }
+  },
+  "sourdough-calculator": {
+    en: {
+      title: "Sourdough Calculator: Complete Guide to Hydration, Ratios & Loaves",
+      description: "Free sourdough calculator for perfect bread. Calculate hydration percentages, baker's ratios, and scale recipes. Get exact measurements for flour, water, starter & salt.",
+      slug: "/food/sourdough-calculator",
+      keywords: "sourdough calculator, sourdough hydration calculator, sourdough bread calculator, sourdough starter hydration calculator, baker's percentage calculator, how to calculate sourdough hydration, sourdough ratio calculator, sourdough recipe calculator, free sourdough calculator, sourdough bread nutrition calculator, calculate sourdough starter hydration, sourdough dough calculator, baker's math calculator, sourdough scaling calculator, true hydration calculator, effective hydration sourdough, sourdough ingredient calculator, sourdough formula calculator, baker's percentages, sourdough hydration percentage, how to calculate hydration of sourdough with starter, sourdough starter calculator, bread hydration calculator, artisan bread calculator, free bread calculator"
+    }
   }
 };

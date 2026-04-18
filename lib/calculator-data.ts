@@ -114,6 +114,9 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'era-calculator') return 'era-calculator';
   if (id === 'extrapolation-calculator') return 'extrapolation-calculator';
   if (id === 'chaturbate-token-calculator') return 'chaturbate-token-calculator';
+  if (id === 'garage-conversion-cost-calculator') return 'garage-conversion-cost-calculator';
+  if (id === 'newborn-weight-loss-calculator') return 'newborn-weight-loss-calculator';
+  if (id === 'sourdough-calculator') return 'sourdough-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1322,6 +1325,30 @@ export const calculators: Calculator[] = [
     description: "Convert Chaturbate tokens to USD or EUR instantly. Models earn $0.05 per token",
     href: "/other/chaturbate-token-calculator",
     category: "other",
+    popular: false,
+  },
+  {
+    id: "garage-conversion-cost-calculator",
+    name: "Garage Conversion Cost Calculator",
+    description: "Calculate UK garage conversion costs with regional pricing, spec levels, and detailed breakdowns",
+    href: "/construction/garage-conversion-cost-calculator",
+    category: "construction",
+    popular: false,
+  },
+  {
+    id: "newborn-weight-loss-calculator",
+    name: "Newborn Weight Loss Calculator",
+    description: "Calculate newborn weight loss percentage in kg, lbs, or oz. Normal range 7-10%. Know when to call pediatrician",
+    href: "/health/newborn-weight-loss-calculator",
+    category: "health",
+    popular: false,
+  },
+  {
+    id: "sourdough-calculator",
+    name: "Sourdough Calculator",
+    description: "Calculate sourdough hydration, baker's percentages, and scale recipes. Get exact measurements for perfect bread",
+    href: "/food/sourdough-calculator",
+    category: "food",
     popular: false,
   }
 ]
