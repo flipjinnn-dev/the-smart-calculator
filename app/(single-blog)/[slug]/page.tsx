@@ -168,6 +168,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     'sourdough-calculator',
     'lmtd-calculator',
     'combination-sum-calculator',
+    'blox-fruits-wheel',
     'peth-test-calculator',
     'evony-troop-calculator',
     'phasor-calculator',

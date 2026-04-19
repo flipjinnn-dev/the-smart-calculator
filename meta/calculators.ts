@@ -4064,5 +4064,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/maths/combination-sum-calculator",
       keywords: "combination sum calculator, combination sum, number combination sum calculator, find combinations that equal a sum, combination sum problem, backtracking calculator, combination sum calculator online, free combination sum calculator, combination sum excel, combination sum google sheets, how to find combinations that add up to a number, combination sum algorithm, leetcode combination sum, combination sum type 1, combination sum type 2, combination sum with repetition, combination sum without repetition, budget reconciliation calculator, invoice matching calculator, combination vs permutation, combination sum vs combination formula, nCr vs combination sum, combination sum interview question, programming interview calculator, recursive combination calculator, subset sum calculator"
     }
+  },
+  "blox-fruits-wheel": {
+    en: {
+      title: "Blox Fruits Wheel Spin – Random Fruit, Sword & Race",
+      description: "Spin the Blox Fruits Wheel to get random fruits, swords, guns, races, and fighting styles. Fast, free, and perfect for fun challenges.",
+      slug: "/games/blox-fruits-wheel",
+      keywords: "blox fruits wheel, blox fruit wheel, blox fruits spin wheel, blox fruit spin wheel, wheel of blox fruits, spin the wheel blox fruits, blox fruits random wheel, blox fruits wheel all fruits, all fruits in blox fruits wheel, blox fruits fruit wheel, blox fruits wheel update 26, blox fruits wheel update 27, blox fruit spin wheel update 25, blox fruits wheel swords, blox fruits wheel guns, blox fruits random gun wheel, blox fruits wheel race, blox fruits wheel fighting style, blox fruits spin wheel fighting style, spin wheel blox fruit, blox fruit spin the wheel, blox fruits wheel spin, blox fruit spin wheel chances, free blox fruits wheel, blox fruits challenge wheel"
+    }
   }
 };

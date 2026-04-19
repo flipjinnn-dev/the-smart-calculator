@@ -102,6 +102,7 @@ const ENGLISH_ONLY_PATHS = [
   '/maths/combination-sum-calculator',
   // All games
   '/games',
+  '/games/blox-fruits-wheel',
   '/games/animal-wheel-spinner',
   '/games/wordle',
   '/games/money-master',
