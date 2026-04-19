@@ -166,6 +166,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     'garage-conversion-cost-calculator',
     'newborn-weight-loss-calculator',
     'sourdough-calculator',
+    'lmtd-calculator',
+    'combination-sum-calculator',
     'peth-test-calculator',
     'evony-troop-calculator',
     'phasor-calculator',

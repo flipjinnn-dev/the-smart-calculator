@@ -117,6 +117,8 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'garage-conversion-cost-calculator') return 'garage-conversion-cost-calculator';
   if (id === 'newborn-weight-loss-calculator') return 'newborn-weight-loss-calculator';
   if (id === 'sourdough-calculator') return 'sourdough-calculator';
+  if (id === 'lmtd-calculator') return 'lmtd-calculator';
+  if (id === 'combination-sum-calculator') return 'combination-sum-calculator';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1349,6 +1351,22 @@ export const calculators: Calculator[] = [
     description: "Calculate sourdough hydration, baker's percentages, and scale recipes. Get exact measurements for perfect bread",
     href: "/food/sourdough-calculator",
     category: "food",
+    popular: false,
+  },
+  {
+    id: "lmtd-calculator",
+    name: "LMTD Calculator",
+    description: "Calculate log mean temperature difference for heat exchangers. Supports counterflow, parallel flow, shell-and-tube, and cross-flow",
+    href: "/physics/lmtd-calculator",
+    category: "physics",
+    popular: false,
+  },
+  {
+    id: "combination-sum-calculator",
+    name: "Combination Sum Calculator",
+    description: "Find all unique groups of numbers that add up to a target value. Supports number reuse, backtracking algorithm for budget & programming",
+    href: "/maths/combination-sum-calculator",
+    category: "maths",
     popular: false,
   }
 ]

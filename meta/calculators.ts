@@ -4048,5 +4048,21 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/food/sourdough-calculator",
       keywords: "sourdough calculator, sourdough hydration calculator, sourdough bread calculator, sourdough starter hydration calculator, baker's percentage calculator, how to calculate sourdough hydration, sourdough ratio calculator, sourdough recipe calculator, free sourdough calculator, sourdough bread nutrition calculator, calculate sourdough starter hydration, sourdough dough calculator, baker's math calculator, sourdough scaling calculator, true hydration calculator, effective hydration sourdough, sourdough ingredient calculator, sourdough formula calculator, baker's percentages, sourdough hydration percentage, how to calculate hydration of sourdough with starter, sourdough starter calculator, bread hydration calculator, artisan bread calculator, free bread calculator"
     }
+  },
+  "lmtd-calculator": {
+    en: {
+      title: "LMTD Calculator – Log Mean Temperature Difference Calculator",
+      description: "Free LMTD calculator for heat exchangers. Calculate log mean temperature difference, correction factors, and thermal performance. Supports counterflow, parallel flow, shell-and-tube, and cross-flow configurations.",
+      slug: "/physics/lmtd-calculator",
+      keywords: "LMTD calculator, log mean temperature difference calculator, LMTD correction factor calculator, heat exchanger LMTD calculator, counterflow LMTD calculator, parallel flow LMTD calculator, shell and tube LMTD calculator, cross flow LMTD calculator, how to calculate LMTD, LMTD formula, LMTD calculation, heat exchanger design calculator, thermal design calculator, LMTD correction factor, TEMA correction factor, counter current LMTD, LMTD for condensers, LMTD for evaporators, plate heat exchanger LMTD, LMTD Excel calculator, free LMTD calculator, online LMTD calculator, heat transfer calculator, temperature difference calculator, Q=UA LMTD calculator"
+    }
+  },
+  "combination-sum-calculator": {
+    en: {
+      title: "Combination Sum Calculator - Find All Number Combinations That Add Up",
+      description: "Free combination sum calculator finds all unique groups of numbers that add up to your target. Supports number reuse, backtracking algorithm, Excel integration. Perfect for budget reconciliation, programming interviews & math problems.",
+      slug: "/maths/combination-sum-calculator",
+      keywords: "combination sum calculator, combination sum, number combination sum calculator, find combinations that equal a sum, combination sum problem, backtracking calculator, combination sum calculator online, free combination sum calculator, combination sum excel, combination sum google sheets, how to find combinations that add up to a number, combination sum algorithm, leetcode combination sum, combination sum type 1, combination sum type 2, combination sum with repetition, combination sum without repetition, budget reconciliation calculator, invoice matching calculator, combination vs permutation, combination sum vs combination formula, nCr vs combination sum, combination sum interview question, programming interview calculator, recursive combination calculator, subset sum calculator"
+    }
   }
 };

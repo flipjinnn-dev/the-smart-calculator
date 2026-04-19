@@ -98,6 +98,8 @@ const ENGLISH_ONLY_PATHS = [
   '/construction/garage-conversion-cost-calculator',
   '/health/newborn-weight-loss-calculator',
   '/food/sourdough-calculator',
+  '/physics/lmtd-calculator',
+  '/maths/combination-sum-calculator',
   // All games
   '/games',
   '/games/animal-wheel-spinner',
