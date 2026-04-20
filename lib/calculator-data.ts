@@ -1302,7 +1302,7 @@ export const calculators: Calculator[] = [
     id: "crochet-calculator",
     name: "Crochet Calculator",
     description: "Estimate yarn yardage, project cost, time, gauge, stitch counts, and pricing for crochet projects",
-    href: "/other/crochet-calculator",
+    href: "/crochet-calculator",
     category: "other",
     popular: false,
   },

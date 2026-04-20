@@ -31,12 +31,12 @@ export const metadata: Metadata = {
     "crochet hook size calculator"
   ],
   alternates: {
-    canonical: "https://www.thesmartcalculator.com/other/crochet-calculator"
+    canonical: "https://www.thesmartcalculator.com/crochet-calculator"
   },
   openGraph: {
     title: "Crochet Calculator | Free Yarn, Gauge, Pricing & Time Calculator",
     description: "Free crochet calculator to estimate yarn yardage, project cost, time, gauge adjustments, stitch counts, and pricing for blankets, hats, sweaters, and commissions.",
-    url: "https://www.thesmartcalculator.com/other/crochet-calculator",
+    url: "https://www.thesmartcalculator.com/crochet-calculator",
     siteName: "The Smart Calculator",
     type: "website",
     images: [
