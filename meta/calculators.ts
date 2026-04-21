@@ -3997,8 +3997,8 @@ export const calculatorsMeta: CalculatorMeta = {
     en: {
       title: "Crochet Calculator | Free Yarn, Gauge, Pricing & Time Calculator",
       description: "Use this crochet calculator to estimate yarn yardage, project cost, time, gauge adjustments, stitch counts, and pricing for any crochet project from blankets and hats to sweaters and commission work.",
-      slug: "/crochet-calculator",
-      keywords: "crochet calculator, crochet yarn calculator, crochet blanket calculator, crochet gauge calculator, crochet size calculator, crochet hat calculator, crochet sweater calculator, crochet stitch calculator, crochet price calculator, crochet time calculator, crochet cost calculator, crochet commission calculator, crochet yarn amount calculator, crochet blanket yarn calculator, crochet increase calculator, crochet decrease calculator, crochet pricing calculator, crochet yardage calculator, crochet project calculator, free crochet calculator, crochet calculator online, how much yarn for crochet blanket, crochet gauge swatch calculator, crochet pattern calculator, crochet hook size calculator"
+      slug: "/crochet-calculator", 
+      keywords: "crochet calculator, crochet yarn calculator, crochet blanket calculator, crochet gauge calculator, crochet size calculator, crochet hat calculator, crochet stitch calculator, crochet price calculator, crochet time calculator, crochet cost calculator, crochet commission calculator, crochet yarn amount calculator, crochet blanket yarn calculator, crochet increase calculator, crochet decrease calculator, crochet pricing calculator, crochet yardage calculator, crochet project calculator, free crochet calculator, crochet calculator online, how much yarn for crochet blanket, crochet gauge swatch calculator, crochet pattern calculator, crochet hook size calculator"
     }
   },
   "era-calculator": {
