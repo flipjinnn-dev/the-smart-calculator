@@ -290,7 +290,7 @@ export default function AcresPerHourCalculatorClient() {
                 max="100"
               />
               <p className="text-xs text-gray-500">
-                Typical: Mowing 70-85%, Planting 65-80%, Spraying 75-90%, Tillage 70-85%
+                Typical: Mowing 70-85%, planting 65-80%, Spraying 75-90%, Tillage 70-85%
               </p>
             </div>
 
