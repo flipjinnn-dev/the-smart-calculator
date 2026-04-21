@@ -4021,7 +4021,7 @@ export const calculatorsMeta: CalculatorMeta = {
     en: {
       title: "Chaturbate Token Calculator – Convert Tokens to USD/EUR",
       description: "Free Chaturbate token calculator. Convert tokens to USD or EUR instantly. Models earn $0.05 per token. Check 100, 500, 1000 tokens value now.",
-      slug: "/other/chaturbate-token-calculator",
+      slug: "/chaturbate-token-calculator",
       keywords: "chaturbate token calculator, chaturbate tokens to usd, chaturbate token value, chaturbate token converter, chaturbate tokens to dollars, chaturbate token to usd calculator, how much is 1 chaturbate token, how much is 100 tokens on chaturbate, how much is 500 tokens on chaturbate, how much is 1000 tokens on chaturbate, chaturbate token price, chaturbate model earnings, chaturbate payout, chaturbate tokens to eur, chaturbate token calculator eur, chaturbate broadcaster earnings, chaturbate token rate, chaturbate token conversion chart, free chaturbate token calculator, chaturbate earnings calculator"
     }
   },
