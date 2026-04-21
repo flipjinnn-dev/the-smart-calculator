@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation"
+import { redirect, notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
 import { Calendar, ArrowLeft, Clock } from "lucide-react"
@@ -169,14 +169,17 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     'lmtd-calculator',
     'combination-sum-calculator',
     'blox-fruits-wheel',
+    'celebrity-wheel',
     'peth-test-calculator',
     'evony-troop-calculator',
     'phasor-calculator',
   ]
   
-  // If this is a calculator route, return 404 to let Next.js handle it properly
+  // If this is a calculator route, return 404 to let Next.js route to proper calculator page
   if (calculatorRoutes.includes(slug)) {
-    redirect(`/${slug}`)
+    // Return 404 so Next.js can match the actual calculator route
+    // This prevents blog route from catching calculator URLs
+    notFound()
   }
   
   let post: BlogPost | null = null

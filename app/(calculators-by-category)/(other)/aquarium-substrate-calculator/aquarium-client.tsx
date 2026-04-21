@@ -19,9 +19,9 @@ export default function AquariumSubstrateCalculatorClient() {
           <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-green-600 to-teal-600 bg-clip-text text-transparent">
             Aquarium Substrate Calculator: How Much Gravel, Sand, or Soil Do You Need?
           </h1>
-          <p className="text-lg text-gray-700 max-w-5xl mx-auto leading-relaxed">
+          {/* <p className="text-lg text-gray-700 max-w-5xl mx-auto leading-relaxed">
             Use this aquarium substrate calculator to instantly determine the exact volume and weight of substrate your aquarium requires. Enter your tank length, width, and desired depth (typically 2–4 inches or 5–10 cm for most setups), choose gravel, sand, or nutrient-rich soil, and receive precise results in liters, kilograms, or pounds. For a standard 55-gallon tank with 3 inches of depth, you need about 45–60 liters of substrate depending on type. This aquarium gravel calculator, aquarium sand calculator, and planted aquarium substrate calculator prevent over- or under-buying while ensuring optimal plant growth and fish health. You calculate once, set up confidently, and enjoy a thriving aquarium.
-          </p>
+          </p> */}
         </div>
 
         {/* Main Calculator Card */}

@@ -8,6 +8,92 @@ const __dirname = dirname(__filename);
 const nextConfig = {
   async redirects() {
     return [
+      // Calculator redirects - redirect root-level calculator URLs to category paths
+      {
+        source: '/crochet-calculator',
+        destination: '/other/crochet-calculator',
+        permanent: true,
+      },
+      {
+        source: '/era-calculator',
+        destination: '/sports/era-calculator',
+        permanent: true,
+      },
+      {
+        source: '/extrapolation-calculator',
+        destination: '/maths/extrapolation-calculator',
+        permanent: true,
+      },
+      {
+        source: '/chaturbate-token-calculator',
+        destination: '/other/chaturbate-token-calculator',
+        permanent: true,
+      },
+      {
+        source: '/kite-size-calculator',
+        destination: '/sports/kite-size-calculator',
+        permanent: true,
+      },
+      {
+        source: '/fix-and-flip-calculator',
+        destination: '/financial/fix-and-flip-calculator',
+        permanent: true,
+      },
+      {
+        source: '/phasor-calculator',
+        destination: '/physics/phasor-calculator',
+        permanent: true,
+      },
+      {
+        source: '/evony-troop-calculator',
+        destination: '/games/evony-troop-calculator',
+        permanent: true,
+      },
+      {
+        source: '/peth-test-calculator',
+        destination: '/health/peth-test-calculator',
+        permanent: true,
+      },
+      {
+        source: '/aquarium-substrate-calculator',
+        destination: '/other/aquarium-substrate-calculator',
+        permanent: true,
+      },
+      {
+        source: '/garage-conversion-cost-calculator',
+        destination: '/construction/garage-conversion-cost-calculator',
+        permanent: true,
+      },
+      {
+        source: '/newborn-weight-loss-calculator',
+        destination: '/health/newborn-weight-loss-calculator',
+        permanent: true,
+      },
+      {
+        source: '/sourdough-calculator',
+        destination: '/food/sourdough-calculator',
+        permanent: true,
+      },
+      {
+        source: '/lmtd-calculator',
+        destination: '/physics/lmtd-calculator',
+        permanent: true,
+      },
+      {
+        source: '/combination-sum-calculator',
+        destination: '/maths/combination-sum-calculator',
+        permanent: true,
+      },
+      {
+        source: '/blox-fruits-wheel',
+        destination: '/games/blox-fruits-wheel',
+        permanent: true,
+      },
+      {
+        source: '/celebrity-wheel',
+        destination: '/games/celebrity-wheel',
+        permanent: true,
+      },
       {
         // non-WWW to WWW
         source: '/:path*',

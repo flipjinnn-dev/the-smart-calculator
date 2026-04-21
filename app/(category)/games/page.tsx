@@ -1,11 +1,27 @@
 import Link from "next/link"
 import Script from "next/script"
-import { Gamepad2, Trophy, Brain, Coins } from "lucide-react"
+import { Gamepad2, Trophy, Brain, Coins, Sparkles, Star } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
 export default function GamesPage() {
   const games = [
+    {
+      id: "blox-fruits-wheel",
+      title: "Blox Fruits Wheel",
+      description: "Spin the wheel to get random fruits, swords, guns, races, and fighting styles. Perfect for challenges and fun gameplay!",
+      icon: Sparkles,
+      link: "/games/blox-fruits-wheel",
+      gradient: "from-blue-500 to-purple-600"
+    },
+    {
+      id: "celebrity-wheel",
+      title: "Celebrity Wheel",
+      description: "Spin the celebrity wheel to get random famous people instantly. Perfect for party games, trivia, and creative challenges!",
+      icon: Star,
+      link: "/games/celebrity-wheel",
+      gradient: "from-purple-500 to-pink-600"
+    },
     {
       id: "wordle",
       title: "Wordle of the Day",

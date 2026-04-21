@@ -64,44 +64,35 @@ export default function BloxFruitsWheel() {
 
     // Calculate winning slice after animation
     setTimeout(() => {
-      // Normalize rotation to 0-360 range
-      const normalizedRotation = ((finalRotation % 360) + 360) % 360
-      
-      // Our SVG wheel:
-      // - First segment (index 0) starts at -90° and its middle is at -90° + (sliceAngle/2)
-      // - Arrow points DOWN at top of circle (at -90° or 270° in standard coords)
-      // - After clockwise rotation, we need to find which segment's MIDDLE is at -90°
+      // SIMPLE DIRECT CALCULATION
+      // After rotation, which segment is at the top (where arrow points)?
       
       const sliceAngle = 360 / items.length
       
-      // The wheel rotates, so if we rotated by normalizedRotation degrees,
-      // a segment that was originally at angle X is now at angle X + normalizedRotation
-      // We want to find which segment is now at -90° (top)
-      // Original position of that segment: -90° - normalizedRotation
-      // Normalize to 0-360: (270 - normalizedRotation + 360) % 360
+      // Normalize the final rotation
+      const normalizedRotation = ((finalRotation % 360) + 360) % 360
       
-      const segmentAngleAtTop = (270 - normalizedRotation + 360) % 360
+      // Arrow points at top. In our SVG, index 0 starts at -90° (top)
+      // After rotating by normalizedRotation degrees clockwise,
+      // the segment that is now at top was originally at position: -normalizedRotation
+      // 
+      // Since index 0 starts at -90° (or 270° in 0-360):
+      // We need to find which segment is at: 270° - normalizedRotation
+      // 
+      // Each segment i covers angles from: (i * sliceAngle - 90) to ((i+1) * sliceAngle - 90)
+      // Or in 0-360: (i * sliceAngle + 270) to ((i+1) * sliceAngle + 270)
       
-      // Each segment starts at: index * sliceAngle - 90 (in -90 to 270 range)
-      // Convert to 0-360: (index * sliceAngle - 90 + 360) % 360 = (index * sliceAngle + 270) % 360
-      // Middle of segment: (index * sliceAngle + 270 + sliceAngle/2) % 360
+      // The angle we're looking for (where arrow points after rotation):
+      const targetAngle = (270 - normalizedRotation + 360) % 360
       
-      // Find which index has its middle closest to segmentAngleAtTop
-      let winningIndex = 0
-      let minDiff = 360
+      // Which segment contains this angle?
+      // Segment i starts at: (i * sliceAngle + 270) % 360
+      // We need: targetAngle to be within segment i's range
       
-      for (let i = 0; i < items.length; i++) {
-        const segmentStart = (i * sliceAngle + 270) % 360
-        const segmentMiddle = (segmentStart + sliceAngle / 2) % 360
-        
-        let diff = Math.abs(segmentMiddle - segmentAngleAtTop)
-        if (diff > 180) diff = 360 - diff
-        
-        if (diff < minDiff) {
-          minDiff = diff
-          winningIndex = i
-        }
-      }
+      // Simple formula: which segment index does targetAngle fall into?
+      // Since segments are evenly distributed starting from 270°:
+      const angleFromStart = (targetAngle - 270 + 360) % 360
+      const winningIndex = Math.floor(angleFromStart / sliceAngle) % items.length
       
       setResult(items[winningIndex])
       setIsSpinning(false)
@@ -213,19 +204,24 @@ export default function BloxFruitsWheel() {
                   const textX = 250 + textRadius * Math.cos((midAngle * Math.PI) / 180)
                   const textY = 250 + textRadius * Math.sin((midAngle * Math.PI) / 180)
                   
-                  // Dynamic font size
+                  // Dynamic font size based on BOTH item count AND name length - NO TRUNCATION
                   let fontSize = 24
                   if (items.length > 30) fontSize = 14
                   else if (items.length > 20) fontSize = 16
                   else if (items.length > 12) fontSize = 18
                   else if (items.length > 8) fontSize = 20
                   
+                  // Further reduce font size for long names
+                  if (item.length > 18) fontSize = Math.min(fontSize, 11)
+                  else if (item.length > 15) fontSize = Math.min(fontSize, 13)
+                  else if (item.length > 12) fontSize = Math.min(fontSize, 15)
+                  
                   return (
                     <g key={index}>
                       {/* Slice */}
                       <path d={pathData} fill={color} stroke="#ffffff" strokeWidth="3" />
                       
-                      {/* Text - Vertical from top to bottom */}
+                      {/* Text - Vertical from top to bottom - FULL NAME VISIBLE */}
                       <text
                         x={textX}
                         y={textY}
@@ -238,10 +234,10 @@ export default function BloxFruitsWheel() {
                         filter="url(#textShadow)"
                         style={{ 
                           fontFamily: "Arial, sans-serif",
-                          letterSpacing: "0.5px"
+                          letterSpacing: "0.3px"
                         }}
                       >
-                        {item.length > 11 ? item.substring(0, 9) + ".." : item}
+                        {item}
                       </text>
                     </g>
                   )

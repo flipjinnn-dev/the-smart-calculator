@@ -120,6 +120,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'lmtd-calculator') return 'lmtd-calculator';
   if (id === 'combination-sum-calculator') return 'combination-sum-calculator';
   if (id === 'blox-fruits-wheel') return 'blox-fruits-wheel';
+  if (id === 'celebrity-wheel') return 'celebrity-wheel';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1375,6 +1376,14 @@ export const calculators: Calculator[] = [
     name: "Blox Fruits Wheel",
     description: "Spin the wheel to get random fruits, swords, guns, races, and fighting styles. Perfect for challenges and fun gameplay",
     href: "/games/blox-fruits-wheel",
+    category: "games",
+    popular: true,
+  },
+  {
+    id: "celebrity-wheel",
+    name: "Celebrity Wheel",
+    description: "Spin the celebrity wheel to get random famous people instantly. Perfect for party games, trivia, and creative challenges",
+    href: "/games/celebrity-wheel",
     category: "games",
     popular: true,
   }

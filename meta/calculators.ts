@@ -4072,5 +4072,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/games/blox-fruits-wheel",
       keywords: "blox fruits wheel, blox fruit wheel, blox fruits spin wheel, blox fruit spin wheel, wheel of blox fruits, spin the wheel blox fruits, blox fruits random wheel, blox fruits wheel all fruits, all fruits in blox fruits wheel, blox fruits fruit wheel, blox fruits wheel update 26, blox fruits wheel update 27, blox fruit spin wheel update 25, blox fruits wheel swords, blox fruits wheel guns, blox fruits random gun wheel, blox fruits wheel race, blox fruits wheel fighting style, blox fruits spin wheel fighting style, spin wheel blox fruit, blox fruit spin the wheel, blox fruits wheel spin, blox fruit spin wheel chances, free blox fruits wheel, blox fruits challenge wheel"
     }
+  },
+  "celebrity-wheel": {
+    en: {
+      title: "Celebrity Wheel Spin – Random Famous Person Picker",
+      description: "Spin the Celebrity Wheel to get random famous people instantly. Use this free celebrity spinner for games, fun challenges, and creative ideas.",
+      slug: "/games/celebrity-wheel",
+      keywords: "celebrity wheel, celebrity wheel spinner, random celebrity wheel, celebrity picker wheel, spin the wheel celebrity, celebrity name generator, random famous person generator, free celebrity wheel, celebrity spinner, random celebrity picker, celebrity wheel game, famous person wheel, celebrity random picker, spin wheel celebrity, celebrity trivia wheel"
+    }
   }
 };
