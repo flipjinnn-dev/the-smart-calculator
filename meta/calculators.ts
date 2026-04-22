@@ -3997,8 +3997,8 @@ export const calculatorsMeta: CalculatorMeta = {
     en: {
       title: "Crochet Calculator | Free Yarn, Gauge, Pricing & Time Calculator",
       description: "Use this crochet calculator to estimate yarn yardage, project cost, time, gauge adjustments, stitch counts, and pricing for any crochet project from blankets and hats to sweaters and commission work.",
-      slug: "/crochet-calculator",
-      keywords: "crochet calculator, crochet yarn calculator, crochet blanket calculator, crochet gauge calculator, crochet size calculator, crochet hat calculator, crochet sweater calculator, crochet stitch calculator, crochet price calculator, crochet time calculator, crochet cost calculator, crochet commission calculator, crochet yarn amount calculator, crochet blanket yarn calculator, crochet increase calculator, crochet decrease calculator, crochet pricing calculator, crochet yardage calculator, crochet project calculator, free crochet calculator, crochet calculator online, how much yarn for crochet blanket, crochet gauge swatch calculator, crochet pattern calculator, crochet hook size calculator"
+      slug: "/crochet-calculator", 
+      keywords: "crochet calculator, crochet yarn calculator, crochet blanket calculator, crochet gauge calculator, crochet size calculator, crochet hat calculator, crochet stitch calculator, crochet price calculator, crochet time calculator, crochet cost calculator, crochet commission calculator, crochet yarn amount calculator, crochet blanket yarn calculator, crochet increase calculator, crochet decrease calculator, crochet pricing calculator, crochet yardage calculator, crochet project calculator, free crochet calculator, crochet calculator online, how much yarn for crochet blanket, crochet gauge swatch calculator, crochet pattern calculator, crochet hook size calculator"
     }
   },
   "era-calculator": {
@@ -4021,7 +4021,7 @@ export const calculatorsMeta: CalculatorMeta = {
     en: {
       title: "Chaturbate Token Calculator – Convert Tokens to USD/EUR",
       description: "Free Chaturbate token calculator. Convert tokens to USD or EUR instantly. Models earn $0.05 per token. Check 100, 500, 1000 tokens value now.",
-      slug: "/other/chaturbate-token-calculator",
+      slug: "/chaturbate-token-calculator",
       keywords: "chaturbate token calculator, chaturbate tokens to usd, chaturbate token value, chaturbate token converter, chaturbate tokens to dollars, chaturbate token to usd calculator, how much is 1 chaturbate token, how much is 100 tokens on chaturbate, how much is 500 tokens on chaturbate, how much is 1000 tokens on chaturbate, chaturbate token price, chaturbate model earnings, chaturbate payout, chaturbate tokens to eur, chaturbate token calculator eur, chaturbate broadcaster earnings, chaturbate token rate, chaturbate token conversion chart, free chaturbate token calculator, chaturbate earnings calculator"
     }
   },
