@@ -2,48 +2,56 @@
 
 import { useState, useRef } from "react"
 import { Button } from "@/components/ui/button"
-import { Play, RotateCcw, Sparkles } from "lucide-react"
+import { Play, RotateCcw, Sparkles, Settings, X, Plus } from "lucide-react"
 
-const FRUITS = [
+const DEFAULT_FRUITS = [
   "Spike", "Chop", "Spring", "Bomb", "Smoke", "Falcon", "Flame", "Ice", "Sand", "Dark",
   "Diamond", "Rubber", "Barrier", "Light", "Magma", "Quake", "Buddha", "Rumble", "Blizzard",
   "Phoenix", "Shadow", "Venom", "Control", "Gravity", "Love", "Spider", "Dough", "Pain",
   "Portal", "Spirit", "Sound", "Dragon", "Mammoth", "Kitsune", "Leopard"
 ]
 
-const SWORDS = [
+const DEFAULT_SWORDS = [
   "Katana", "Cutlass", "Dual Katana", "Iron Mace", "Pipe", "Bisento", "Triple Katana",
   "Saber", "Pole", "Trident", "Soul Cane", "Wando", "Shisui", "Saddi", "Canvander",
   "Buddy Sword", "True Triple Katana", "Cursed Dual Katana", "Dark Blade", "Hallow Scythe",
   "Tushita", "Yama", "Rengoku", "Dragon Trident", "Shark Anchor"
 ]
 
-const GUNS = [
+const DEFAULT_GUNS = [
   "Flintlock", "Musket", "Slingshot", "Cannon", "Kabucha", "Bizarre Rifle", "Acidum Rifle",
   "Soul Guitar"
 ]
 
-const RACES = ["Human", "Mink", "Fishman", "Skypian", "Ghoul", "Cyborg"]
+const DEFAULT_RACES = ["Human", "Mink", "Fishman", "Skypian", "Ghoul", "Cyborg"]
 
-const FIGHTING_STYLES = [
+const DEFAULT_FIGHTING_STYLES = [
   "Combat", "Black Leg", "Electro", "Fishman Karate", "Dragon Claw", "Superhuman",
   "Death Step", "Sharkman Karate", "Electric Claw", "Dragon Talon", "Godhuman", "Sanguine Art"
 ]
 
-const CATEGORIES = {
-  fruits: { name: "Fruits", items: FRUITS, color: "from-purple-500 to-pink-500" },
-  swords: { name: "Swords", items: SWORDS, color: "from-blue-500 to-cyan-500" },
-  guns: { name: "Guns", items: GUNS, color: "from-red-500 to-orange-500" },
-  races: { name: "Races", items: RACES, color: "from-green-500 to-emerald-500" },
-  fightingStyles: { name: "Fighting Styles", items: FIGHTING_STYLES, color: "from-yellow-500 to-amber-500" }
-}
-
 export default function BloxFruitsWheel() {
-  const [selectedCategory, setSelectedCategory] = useState<keyof typeof CATEGORIES>("fruits")
+  const [fruits, setFruits] = useState<string[]>(DEFAULT_FRUITS)
+  const [swords, setSwords] = useState<string[]>(DEFAULT_SWORDS)
+  const [guns, setGuns] = useState<string[]>(DEFAULT_GUNS)
+  const [races, setRaces] = useState<string[]>(DEFAULT_RACES)
+  const [fightingStyles, setFightingStyles] = useState<string[]>(DEFAULT_FIGHTING_STYLES)
+  
+  const [selectedCategory, setSelectedCategory] = useState<string>("fruits")
   const [isSpinning, setIsSpinning] = useState(false)
   const [result, setResult] = useState<string | null>(null)
   const [rotation, setRotation] = useState(0)
+  const [showCustomize, setShowCustomize] = useState(false)
+  const [newItem, setNewItem] = useState('')
   const wheelRef = useRef<HTMLDivElement>(null)
+
+  const CATEGORIES: Record<string, { name: string; items: string[]; color: string; setItems: (items: string[]) => void; defaultItems: string[] }> = {
+    fruits: { name: "Fruits", items: fruits, color: "from-purple-500 to-pink-500", setItems: setFruits, defaultItems: DEFAULT_FRUITS },
+    swords: { name: "Swords", items: swords, color: "from-blue-500 to-cyan-500", setItems: setSwords, defaultItems: DEFAULT_SWORDS },
+    guns: { name: "Guns", items: guns, color: "from-red-500 to-orange-500", setItems: setGuns, defaultItems: DEFAULT_GUNS },
+    races: { name: "Races", items: races, color: "from-green-500 to-emerald-500", setItems: setRaces, defaultItems: DEFAULT_RACES },
+    fightingStyles: { name: "Fighting Styles", items: fightingStyles, color: "from-yellow-500 to-amber-500", setItems: setFightingStyles, defaultItems: DEFAULT_FIGHTING_STYLES }
+  }
 
   const currentCategory = CATEGORIES[selectedCategory]
   const items = currentCategory.items
@@ -104,12 +112,31 @@ export default function BloxFruitsWheel() {
     setRotation(0)
   }
 
-  const changeCategory = (category: keyof typeof CATEGORIES) => {
+  const changeCategory = (category: string) => {
     if (!isSpinning) {
       setSelectedCategory(category)
       setResult(null)
       setRotation(0)
     }
+  }
+
+  const addItem = () => {
+    if (newItem.trim() && !currentCategory.items.includes(newItem.trim())) {
+      currentCategory.setItems([...currentCategory.items, newItem.trim()])
+      setNewItem('')
+    }
+  }
+
+  const removeItem = (item: string) => {
+    if (currentCategory.items.length > 3) {
+      currentCategory.setItems(currentCategory.items.filter(i => i !== item))
+    }
+  }
+
+  const resetToDefault = () => {
+    currentCategory.setItems(currentCategory.defaultItems)
+    setResult(null)
+    setRotation(0)
   }
 
   return (
@@ -251,7 +278,7 @@ export default function BloxFruitsWheel() {
           </div>
 
           {/* Controls */}
-          <div className="flex gap-4 justify-center mt-8">
+          <div className="flex flex-wrap gap-3 justify-center mt-8">
             <Button
               onClick={spinWheel}
               disabled={isSpinning}
@@ -259,6 +286,14 @@ export default function BloxFruitsWheel() {
             >
               <Play className="w-5 h-5 mr-2" />
               {isSpinning ? "Spinning..." : "SPIN WHEEL"}
+            </Button>
+            <Button
+              onClick={() => setShowCustomize(!showCustomize)}
+              disabled={isSpinning}
+              className="bg-blue-600 text-white hover:bg-blue-700 font-bold py-6 px-8 text-lg shadow-lg disabled:opacity-50"
+            >
+              <Settings className="w-5 h-5 mr-2" />
+              Customize
             </Button>
             <Button
               onClick={reset}
@@ -270,6 +305,84 @@ export default function BloxFruitsWheel() {
               Reset
             </Button>
           </div>
+
+          {/* Customize Panel */}
+          {showCustomize && (
+            <div className="mt-6 p-6 bg-white rounded-xl shadow-lg border-2 border-blue-200">
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-xl font-bold text-gray-800">Customize {currentCategory.name}</h3>
+                <button
+                  onClick={() => setShowCustomize(false)}
+                  className="text-gray-500 hover:text-gray-700"
+                >
+                  <X className="w-6 h-6" />
+                </button>
+              </div>
+
+              {/* Add Item */}
+              <div className="mb-4">
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  Add New {currentCategory.name.slice(0, -1)}
+                </label>
+                <div className="flex gap-2">
+                  <input
+                    type="text"
+                    value={newItem}
+                    onChange={(e) => setNewItem(e.target.value)}
+                    onKeyPress={(e) => e.key === 'Enter' && addItem()}
+                    placeholder={`Enter ${currentCategory.name.toLowerCase().slice(0, -1)} name...`}
+                    className="flex-1 px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none"
+                  />
+                  <button
+                    onClick={addItem}
+                    className="px-4 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-all flex items-center gap-2"
+                  >
+                    <Plus className="w-5 h-5" />
+                    Add
+                  </button>
+                </div>
+              </div>
+
+              {/* Item List */}
+              <div className="mb-4">
+                <div className="flex justify-between items-center mb-2">
+                  <label className="block text-sm font-semibold text-gray-700">
+                    Current {currentCategory.name} ({currentCategory.items.length})
+                  </label>
+                  <button
+                    onClick={resetToDefault}
+                    className="text-sm text-blue-600 hover:text-blue-700 font-semibold flex items-center gap-1"
+                  >
+                    <RotateCcw className="w-4 h-4" />
+                    Reset to Default
+                  </button>
+                </div>
+                <div className="max-h-64 overflow-y-auto border-2 border-gray-200 rounded-lg p-3 bg-gray-50">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {currentCategory.items.map((item, index) => (
+                      <div
+                        key={index}
+                        className="flex justify-between items-center bg-white px-3 py-2 rounded-lg shadow-sm border border-gray-200"
+                      >
+                        <span className="text-sm font-medium text-gray-700">{item}</span>
+                        <button
+                          onClick={() => removeItem(item)}
+                          disabled={currentCategory.items.length <= 3}
+                          className="text-red-600 hover:text-red-700 disabled:opacity-30 disabled:cursor-not-allowed"
+                          title={currentCategory.items.length <= 3 ? "Minimum 3 items required" : "Remove"}
+                        >
+                          <X className="w-4 h-4" />
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <p className="text-xs text-gray-500 mt-2">
+                  * Minimum 3 items required to spin the wheel
+                </p>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 

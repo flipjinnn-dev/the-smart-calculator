@@ -95,6 +95,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/candy-wheel',
+        destination: '/games/candy-wheel',
+        permanent: true,
+      },
+      {
         // non-WWW to WWW
         source: '/:path*',
         has: [

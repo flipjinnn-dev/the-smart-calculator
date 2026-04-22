@@ -17,13 +17,10 @@ export default function BloxFruitsWheelClient() {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
-            Blox Fruits Wheel — Spin to Get Your Random Fruit
+            Blox Fruits Wheel
           </h1>
-          <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed mb-4">
-            Are you tired of spending hours deciding which fruit to use in Blox Fruits? Do you and your friends argue about builds, races, or fighting styles? The Blox Fruits Wheel solves all of that with one single spin. This free, interactive Blox Fruits Spin Wheel gives you a completely random result every time, making your gameplay faster, fairer, and way more exciting.
-          </p>
-          <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            Whether you call it the blox fruit wheel, the wheel of blox fruits, or simply spin the wheel blox fruits, you are in the right place. Spin it, trust it, and get back into the game without wasting another second.
+          <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed mb-8">
+            Welcome to the Blox Fruits Wheel! Give it a spin to reveal your next journey or upgrade in this exciting universe. Every segment unlocks a distinct ability, ready for you to uncover and use.
           </p>
         </div>
 
@@ -40,6 +37,16 @@ export default function BloxFruitsWheelClient() {
               <BloxFruitsWheel />
             </CardContent>
           </Card>
+        </div>
+
+        {/* Description Below Wheel */}
+        <div className="text-center mb-12 max-w-4xl mx-auto">
+          <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            Are you tired of spending hours deciding which fruit to use in Blox Fruits? Do you and your friends argue about builds, races, or fighting styles? The Blox Fruits Wheel solves all of that with one single spin. This free, interactive Blox Fruits Spin Wheel gives you a completely random result every time, making your gameplay faster, fairer, and way more exciting.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Whether you call it the blox fruit wheel, the wheel of blox fruits, or simply spin the wheel blox fruits, you are in the right place. Spin it, trust it, and get back into the game without wasting another second.
+          </p>
         </div>
 
         {/* Main Content */}

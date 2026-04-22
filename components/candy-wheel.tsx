@@ -3,32 +3,27 @@
 import { useState, useRef } from 'react'
 import { Settings, X, Plus, RotateCcw } from 'lucide-react'
 
-const DEFAULT_CELEBRITIES = [
-  'Zendaya', 'Millie Bobby Brown', 'Jennifer Lawrence', 'Timothee Chalamet',
-  'Olivia Rodrigo', 'Tom Holland', 'Chris Evans', 'Robert Downey Jr.',
-  'Kendall Jenner', 'Jenna Ortega', 'Florence Pugh', 'Noah Schnapp',
-  'Gigi Hadid', 'Taylor Swift', 'Chris Pratt', 'Kim Kardashian',
-  'Emma Watson', 'Daniel Radcliffe', 'Ariana Grande', 'Billie Eilish',
-  'Justin Bieber', 'Harry Styles', 'Beyonce', 'Dwayne Johnson',
-  'Zac Efron', 'Ryan Reynolds', 'Andrew Garfield'
+const DEFAULT_CANDIES = [
+  'Gummy Bears', 'Chocolate Bar', 'Lollipop', 'Sour Candy', 'Caramel Chews',
+  'Candy Cane', 'Jelly Beans', 'Hard Candy', 'Toffee', 'Licorice',
+  'Peppermint', 'Butterscotch', 'Rock Candy', 'Cotton Candy', 'Marshmallow',
+  'Fudge', 'Taffy', 'Gumdrops', 'Jawbreaker', 'Candy Corn'
 ]
 
 const COLORS = [
   '#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8',
   '#F7DC6F', '#BB8FCE', '#85C1E2', '#F8B739', '#52B788',
   '#FF8FAB', '#6C5CE7', '#FD79A8', '#A29BFE', '#74B9FF',
-  '#55EFC4', '#FFEAA7', '#DFE6E9', '#FF7675', '#FDCB6E',
-  '#6C5CE7', '#00B894', '#00CEC9', '#0984E3', '#B2BEC3',
-  '#FD79A8', '#FDCB6E'
+  '#55EFC4', '#FFEAA7', '#DFE6E9', '#FF7675', '#FDCB6E'
 ]
 
-export default function CelebrityWheel() {
-  const [celebrities, setCelebrities] = useState<string[]>(DEFAULT_CELEBRITIES)
+export default function CandyWheel() {
+  const [candies, setCandies] = useState<string[]>(DEFAULT_CANDIES)
   const [isSpinning, setIsSpinning] = useState(false)
   const [result, setResult] = useState<string | null>(null)
   const [rotation, setRotation] = useState(0)
   const [showCustomize, setShowCustomize] = useState(false)
-  const [newCelebrity, setNewCelebrity] = useState('')
+  const [newCandy, setNewCandy] = useState('')
   const wheelRef = useRef<HTMLDivElement>(null)
 
   const spinWheel = () => {
@@ -37,59 +32,41 @@ export default function CelebrityWheel() {
     setIsSpinning(true)
     setResult(null)
 
-    // Calculate rotation - EXACT LOGIC FROM BLOX FRUITS WHEEL
-    const spins = 5 + Math.random() * 3 // 5-8 full rotations
+    const spins = 5 + Math.random() * 3
     const randomDegrees = Math.random() * 360
     const totalRotation = spins * 360 + randomDegrees
     
     const finalRotation = rotation + totalRotation
     setRotation(finalRotation)
 
-    // Calculate winning celebrity after animation - EXACT LOGIC FROM WORKING GAME
     setTimeout(() => {
-      // Normalize rotation to 0-360 range
       const normalizedRotation = ((finalRotation % 360) + 360) % 360
-      
-      const sliceAngle = 360 / celebrities.length
-      
-      // Arrow points at top. In our SVG, index 0 starts at -90° (top)
-      // After rotating by normalizedRotation degrees clockwise,
-      // the celebrity that is now at top was originally at position: -normalizedRotation
-      // 
-      // Since index 0 starts at -90° (or 270° in 0-360):
-      // We need to find which celebrity is at: 270° - normalizedRotation
-      // 
-      // Each celebrity i covers angles from: (i * sliceAngle + 270) to ((i+1) * sliceAngle + 270)
-      
-      // The angle we're looking for (where arrow points after rotation):
+      const sliceAngle = 360 / candies.length
       const targetAngle = (270 - normalizedRotation + 360) % 360
-      
-      // Which celebrity contains this angle?
-      // Since celebrities are evenly distributed starting from 270°:
       const angleFromStart = (targetAngle - 270 + 360) % 360
       const winningIndex = Math.floor(angleFromStart / sliceAngle)
-      const winner = celebrities[winningIndex]
+      const winner = candies[winningIndex]
       
       setResult(winner)
       setIsSpinning(false)
-    }, 4000) // 4 second spin duration
+    }, 4000)
   }
 
-  const addCelebrity = () => {
-    if (newCelebrity.trim() && !celebrities.includes(newCelebrity.trim())) {
-      setCelebrities([...celebrities, newCelebrity.trim()])
-      setNewCelebrity('')
+  const addCandy = () => {
+    if (newCandy.trim() && !candies.includes(newCandy.trim())) {
+      setCandies([...candies, newCandy.trim()])
+      setNewCandy('')
     }
   }
 
-  const removeCelebrity = (name: string) => {
-    if (celebrities.length > 3) {
-      setCelebrities(celebrities.filter(c => c !== name))
+  const removeCandy = (name: string) => {
+    if (candies.length > 3) {
+      setCandies(candies.filter(c => c !== name))
     }
   }
 
   const resetToDefault = () => {
-    setCelebrities(DEFAULT_CELEBRITIES)
+    setCandies(DEFAULT_CANDIES)
     setResult(null)
     setRotation(0)
   }
@@ -101,14 +78,14 @@ export default function CelebrityWheel() {
 
   return (
     <div className="w-full max-w-2xl mx-auto">
-      <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl shadow-2xl p-8">
+      <div className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-3xl shadow-2xl p-8">
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
-          Celebrity Wheel
+          Candy Wheel
         </h2>
 
         {/* Wheel Container */}
         <div className="relative mx-auto mb-8" style={{ width: "min(500px, 90vw)", height: "min(500px, 90vw)" }}>
-          {/* Pointer - Fixed Triangle Arrow - EXACT BLOX FRUITS STYLE */}
+          {/* Pointer - Red Triangle Arrow */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 z-20" style={{ marginTop: "-15px" }}>
             <div 
               className="drop-shadow-2xl"
@@ -134,12 +111,12 @@ export default function CelebrityWheel() {
           >
             <svg viewBox="0 0 500 500" className="w-full h-full" style={{ background: "white", borderRadius: "50%" }}>
               <defs>
-                <filter id="textShadow">
+                <filter id="candyShadow">
                   <feDropShadow dx="0" dy="1" stdDeviation="2" floodOpacity="0.5"/>
                 </filter>
               </defs>
-              {celebrities.map((celebrity, index) => {
-                const sliceAngle = 360 / celebrities.length
+              {candies.map((candy, index) => {
+                const sliceAngle = 360 / candies.length
                 const startAngle = index * sliceAngle - 90
                 const endAngle = (index + 1) * sliceAngle - 90
                 const midAngle = startAngle + sliceAngle / 2
@@ -152,29 +129,29 @@ export default function CelebrityWheel() {
                 const x2 = 250 + 250 * Math.cos(endRad)
                 const y2 = 250 + 250 * Math.sin(endRad)
                 
-                const largeArc = sliceAngle > 180 ? 1 : 0
-                const pathData = `M 250 250 L ${x1} ${y1} A 250 250 0 ${largeArc} 1 ${x2} ${y2} Z`
+                const largeArcFlag = sliceAngle > 180 ? 1 : 0
+                const pathData = `M 250 250 L ${x1} ${y1} A 250 250 0 ${largeArcFlag} 1 ${x2} ${y2} Z`
                 
-                // Calculate text position - EXACT BLOX FRUITS STYLE
-                const textRadius = 170
+                const color = COLORS[index % COLORS.length]
+                
+                const textRadius = 160
                 const textX = 250 + textRadius * Math.cos((midAngle * Math.PI) / 180)
                 const textY = 250 + textRadius * Math.sin((midAngle * Math.PI) / 180)
                 
-                // Dynamic font size based on name length - NO TRUNCATION
-                let fontSize = 16
-                if (celebrity.length > 18) fontSize = 11
-                else if (celebrity.length > 15) fontSize = 12
-                else if (celebrity.length > 12) fontSize = 14
+                let fontSize = 24
+                if (candies.length > 30) fontSize = 14
+                else if (candies.length > 20) fontSize = 16
+                else if (candies.length > 12) fontSize = 18
+                else if (candies.length > 8) fontSize = 20
+                
+                if (candy.length > 18) fontSize = Math.min(fontSize, 11)
+                else if (candy.length > 15) fontSize = Math.min(fontSize, 13)
+                else if (candy.length > 12) fontSize = Math.min(fontSize, 15)
                 
                 return (
                   <g key={index}>
-                    <path
-                      d={pathData}
-                      fill={COLORS[index % COLORS.length]}
-                      stroke="#ffffff"
-                      strokeWidth="3"
-                    />
-                    {/* Text - Rotated vertically like Blox Fruits - FULL NAME VISIBLE */}
+                    <path d={pathData} fill={color} stroke="#ffffff" strokeWidth="3" />
+                    
                     <text
                       x={textX}
                       y={textY}
@@ -184,19 +161,18 @@ export default function CelebrityWheel() {
                       textAnchor="middle"
                       dominantBaseline="middle"
                       transform={`rotate(${midAngle} ${textX} ${textY})`}
-                      filter="url(#textShadow)"
+                      filter="url(#candyShadow)"
                       style={{ 
                         fontFamily: "Arial, sans-serif",
                         letterSpacing: "0.3px"
                       }}
                     >
-                      {celebrity}
+                      {candy}
                     </text>
                   </g>
                 )
               })}
               
-              {/* Center Circle */}
               <circle cx="250" cy="250" r="40" fill="white" stroke="#333" strokeWidth="4" />
               <circle cx="250" cy="250" r="15" fill="#333" />
             </svg>
@@ -208,7 +184,7 @@ export default function CelebrityWheel() {
           <button
             onClick={spinWheel}
             disabled={isSpinning}
-            className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-xl hover:from-purple-700 hover:to-pink-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
+            className="px-8 py-3 bg-gradient-to-r from-pink-600 to-purple-600 text-white font-bold rounded-xl hover:from-pink-700 hover:to-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
           >
             {isSpinning ? '▶ SPINNING...' : '▶ SPIN WHEEL'}
           </button>
@@ -235,7 +211,7 @@ export default function CelebrityWheel() {
         {showCustomize && (
           <div className="mb-6 p-6 bg-white rounded-xl shadow-lg border-2 border-blue-200">
             <div className="flex justify-between items-center mb-4">
-              <h3 className="text-xl font-bold text-gray-800">Customize Celebrities</h3>
+              <h3 className="text-xl font-bold text-gray-800">Customize Candies</h3>
               <button
                 onClick={() => setShowCustomize(false)}
                 className="text-gray-500 hover:text-gray-700"
@@ -244,22 +220,22 @@ export default function CelebrityWheel() {
               </button>
             </div>
 
-            {/* Add Celebrity */}
+            {/* Add Candy */}
             <div className="mb-4">
               <label className="block text-sm font-semibold text-gray-700 mb-2">
-                Add New Celebrity
+                Add New Candy
               </label>
               <div className="flex gap-2">
                 <input
                   type="text"
-                  value={newCelebrity}
-                  onChange={(e) => setNewCelebrity(e.target.value)}
-                  onKeyPress={(e) => e.key === 'Enter' && addCelebrity()}
-                  placeholder="Enter celebrity name..."
+                  value={newCandy}
+                  onChange={(e) => setNewCandy(e.target.value)}
+                  onKeyPress={(e) => e.key === 'Enter' && addCandy()}
+                  placeholder="Enter candy name..."
                   className="flex-1 px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none"
                 />
                 <button
-                  onClick={addCelebrity}
+                  onClick={addCandy}
                   className="px-4 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-all flex items-center gap-2"
                 >
                   <Plus className="w-5 h-5" />
@@ -268,11 +244,11 @@ export default function CelebrityWheel() {
               </div>
             </div>
 
-            {/* Celebrity List */}
+            {/* Candy List */}
             <div className="mb-4">
               <div className="flex justify-between items-center mb-2">
                 <label className="block text-sm font-semibold text-gray-700">
-                  Current Celebrities ({celebrities.length})
+                  Current Candies ({candies.length})
                 </label>
                 <button
                   onClick={resetToDefault}
@@ -284,17 +260,17 @@ export default function CelebrityWheel() {
               </div>
               <div className="max-h-64 overflow-y-auto border-2 border-gray-200 rounded-lg p-3 bg-gray-50">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                  {celebrities.map((celebrity, index) => (
+                  {candies.map((candy, index) => (
                     <div
                       key={index}
                       className="flex justify-between items-center bg-white px-3 py-2 rounded-lg shadow-sm border border-gray-200"
                     >
-                      <span className="text-sm font-medium text-gray-700">{celebrity}</span>
+                      <span className="text-sm font-medium text-gray-700">{candy}</span>
                       <button
-                        onClick={() => removeCelebrity(celebrity)}
-                        disabled={celebrities.length <= 3}
+                        onClick={() => removeCandy(candy)}
+                        disabled={candies.length <= 3}
                         className="text-red-600 hover:text-red-700 disabled:opacity-30 disabled:cursor-not-allowed"
-                        title={celebrities.length <= 3 ? "Minimum 3 celebrities required" : "Remove"}
+                        title={candies.length <= 3 ? "Minimum 3 candies required" : "Remove"}
                       >
                         <X className="w-4 h-4" />
                       </button>
@@ -303,7 +279,7 @@ export default function CelebrityWheel() {
                 </div>
               </div>
               <p className="text-xs text-gray-500 mt-2">
-                * Minimum 3 celebrities required to spin the wheel
+                * Minimum 3 candies required to spin the wheel
               </p>
             </div>
           </div>
@@ -311,10 +287,10 @@ export default function CelebrityWheel() {
 
         {/* Result Display */}
         {result && (
-          <div className="mt-8 p-6 bg-gradient-to-r from-purple-100 to-pink-100 rounded-2xl border-2 border-purple-300 animate-bounce-in">
+          <div className="mt-8 p-6 bg-gradient-to-r from-pink-100 to-purple-100 rounded-2xl border-2 border-pink-300 animate-bounce-in">
             <div className="text-center">
-              <p className="text-lg text-gray-600 mb-2">✨ You Got:</p>
-              <p className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
+              <p className="text-lg text-gray-600 mb-2">🍬 You Got:</p>
+              <p className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600">
                 {result}
               </p>
             </div>

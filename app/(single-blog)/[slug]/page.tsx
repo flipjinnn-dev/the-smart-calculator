@@ -170,6 +170,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     'combination-sum-calculator',
     'blox-fruits-wheel',
     'celebrity-wheel',
+    'candy-wheel',
     'peth-test-calculator',
     'evony-troop-calculator',
     'phasor-calculator',

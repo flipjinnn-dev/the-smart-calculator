@@ -102,6 +102,7 @@ const ENGLISH_ONLY_PATHS = [
   '/games',
   '/games/blox-fruits-wheel',
   '/games/celebrity-wheel',
+  '/games/candy-wheel',
   '/games/animal-wheel-spinner',
   '/games/wordle',
   '/games/money-master',

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
-import { Gamepad2, Trophy, Brain, Coins, Sparkles, Star } from "lucide-react"
+import { Gamepad2, Trophy, Brain, Coins, Sparkles, Star, Candy } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -21,6 +21,14 @@ export default function GamesPage() {
       icon: Star,
       link: "/games/celebrity-wheel",
       gradient: "from-purple-500 to-pink-600"
+    },
+    {
+      id: "candy-wheel",
+      title: "Candy Wheel",
+      description: "Spin the candy wheel to instantly pick a random candy. A fun, fair and interactive spinner for parties, classrooms and online games!",
+      icon: Candy,
+      link: "/games/candy-wheel",
+      gradient: "from-pink-500 to-red-600"
     },
     {
       id: "wordle",

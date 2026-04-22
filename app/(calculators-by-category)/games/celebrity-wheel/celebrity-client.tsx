@@ -11,17 +11,24 @@ export default function CelebrityWheelClient() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Celebrity Wheel
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Do you ever sit with your friends and spend twenty minutes arguing about which celebrity to talk about, imitate, or assign for a game? That ends right now. The Celebrity Wheel gives you a completely random famous person in one spin, and it works instantly every single time.
-          </p>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto mt-4">
-            Whether you need it for a party game, a trivia night, a creative writing prompt, or just pure entertainment, the celebrity wheel spinner makes everything faster, fairer, and a hundred times more fun. Spin it once and let the wheel do all the thinking for you.
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+            Celebrity Wheel of Fortune is a popular game show where celebrities win money to donate to charity.
           </p>
         </div>
 
         {/* Wheel Component */}
-        <div className="mb-16">
+        <div className="mb-12">
           <CelebrityWheel />
+        </div>
+
+        {/* Description Below Wheel */}
+        <div className="text-center mb-16 max-w-4xl mx-auto">
+          <p className="text-xl text-gray-700 mb-4">
+            Do you ever sit with your friends and spend twenty minutes arguing about which celebrity to talk about, imitate, or assign for a game? That ends right now. The Celebrity Wheel gives you a completely random famous person in one spin, and it works instantly every single time.
+          </p>
+          <p className="text-lg text-gray-600">
+            Whether you need it for a party game, a trivia night, a creative writing prompt, or just pure entertainment, the celebrity wheel spinner makes everything faster, fairer, and a hundred times more fun. Spin it once and let the wheel do all the thinking for you.
+          </p>
         </div>
 
         {/* Content Sections */}
@@ -31,7 +38,7 @@ export default function CelebrityWheelClient() {
             The celebrity wheel is a free online random picker tool that features a wide collection of the most famous and popular celebrities in the world. Every time you spin, the wheel randomly lands on a different celebrity name, giving you an instant result with zero effort.
           </p>
           <p className="text-gray-700 mb-6">
-            The random celebrity wheel spinner pulls from actors, musicians, athletes, and social media stars., athletes, social media stars, models, and entertainers. You never know who you are going to get, and that unpredictability is exactly what makes it so addictive and entertaining.
+            The random celebrity wheel spinner pulls from actors, musicians, athletes, and social media stars, athletes, social media stars, models, and entertainers. You never know who you are going to get, and that unpredictability is exactly what makes it so addictive and entertaining.
           </p>
           
           <h3 className="text-2xl font-bold text-gray-900 mb-3">You can use the celebrity picker wheel for:</h3>

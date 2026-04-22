@@ -4080,5 +4080,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/games/celebrity-wheel",
       keywords: "celebrity wheel, celebrity wheel spinner, random celebrity wheel, celebrity picker wheel, spin the wheel celebrity, celebrity name generator, random famous person generator, free celebrity wheel, celebrity spinner, random celebrity picker, celebrity wheel game, famous person wheel, celebrity random picker, spin wheel celebrity, celebrity trivia wheel"
     }
+  },
+  "candy-wheel": {
+    en: {
+      title: "Candy Wheel – Spin & Pick Candy Instantly Online",
+      description: "Spin the candy wheel to instantly pick a random candy. A fun, fair and interactive spinner for parties, classrooms and online games.",
+      slug: "/games/candy-wheel",
+      keywords: "candy wheel, candy wheel spinner, random candy wheel, candy picker wheel, spin the wheel candy, candy name generator, random candy picker, free candy wheel, candy spinner, candy wheel game, candy prize wheel, candy random picker, spin wheel candy, candy trivia wheel, candy land wheel, candy crush wheel, candy ferris wheel, candy bar wheel"
+    }
   }
 };
