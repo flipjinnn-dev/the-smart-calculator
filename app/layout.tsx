@@ -176,6 +176,13 @@ export default async function RootLayout({
             `}
           </Script>
 
+          {/* MidJourney Code */}
+          <Script id="midjourney-code" strategy="lazyOnload">
+            {`
+              <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false" src="//scripts.scriptwrapper.com/tags/01f238b1-abe7-4528-b828-853eec5b33c2.js"></script>
+            `}
+          </Script>
+
           {/* ✅ Microsoft Clarity - Deferred */}
           <Script id="microsoft-clarity" strategy="lazyOnload">
             {`
