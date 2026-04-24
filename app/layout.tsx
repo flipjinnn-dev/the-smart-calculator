@@ -195,11 +195,11 @@ export default async function RootLayout({
           </Script>
 
           {/* ✅ Google AdSense - Deferred */}
-          <Script
+          {/* <Script
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5433267523341571"
             strategy="lazyOnload"
             crossOrigin="anonymous"
-          />
+          /> */}
 
           {/* ✅ DMCA Badge Helper */}
           <Script
