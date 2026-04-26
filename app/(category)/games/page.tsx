@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
-import { Gamepad2, Trophy, Brain, Coins, Sparkles, Star, Candy } from "lucide-react"
+import { Gamepad2, Trophy, Brain, Coins, Sparkles, Star, Candy, ListChecks, Smile } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -29,6 +29,22 @@ export default function GamesPage() {
       icon: Candy,
       link: "/games/candy-wheel",
       gradient: "from-pink-500 to-red-600"
+    },
+    {
+      id: "chore-wheel",
+      title: "Wheel Of Chores",
+      description: "Spin the Wheel Of Chores and assign household tasks fairly in seconds. Free chore wheel generator for kids, adults & roommates!",
+      icon: ListChecks,
+      link: "/games/chore-wheel",
+      gradient: "from-green-500 to-blue-600"
+    },
+    {
+      id: "cartoon-character-wheel",
+      title: "Cartoon Character Wheel",
+      description: "Spin the Cartoon Character Wheel to pick random cartoon characters instantly. Free cartoon character wheel generator for drawing, games & fun!",
+      icon: Smile,
+      link: "/games/cartoon-character-wheel",
+      gradient: "from-purple-500 to-blue-600"
     },
     {
       id: "wordle",

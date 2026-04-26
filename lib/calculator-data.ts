@@ -122,6 +122,8 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'blox-fruits-wheel') return 'blox-fruits-wheel';
   if (id === 'celebrity-wheel') return 'celebrity-wheel';
   if (id === 'candy-wheel') return 'candy-wheel';
+  if (id === 'chore-wheel') return 'chore-wheel';
+  if (id === 'cartoon-character-wheel') return 'cartoon-character-wheel';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1393,6 +1395,22 @@ export const calculators: Calculator[] = [
     name: "Candy Wheel",
     description: "Spin the candy wheel to instantly pick a random candy. A fun, fair and interactive spinner for parties, classrooms and online games",
     href: "/games/candy-wheel",
+    category: "games",
+    popular: true,
+  },
+  {
+    id: "chore-wheel",
+    name: "Wheel Of Chores",
+    description: "Spin the Wheel Of Chores and assign household tasks fairly in seconds. Free chore wheel generator for kids, adults & roommates",
+    href: "/games/chore-wheel",
+    category: "games",
+    popular: true,
+  },
+  {
+    id: "cartoon-character-wheel",
+    name: "Cartoon Character Wheel",
+    description: "Spin the Cartoon Character Wheel to pick random cartoon characters instantly. Free cartoon character wheel generator for drawing, games & fun",
+    href: "/games/cartoon-character-wheel",
     category: "games",
     popular: true,
   }

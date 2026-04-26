@@ -90,6 +90,16 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/chore-wheel',
+        destination: '/games/chore-wheel',
+        permanent: true,
+      },
+      {
+        source: '/cartoon-character-wheel',
+        destination: '/games/cartoon-character-wheel',
+        permanent: true,
+      },
+      {
         // non-WWW to WWW
         source: '/:path*',
         has: [

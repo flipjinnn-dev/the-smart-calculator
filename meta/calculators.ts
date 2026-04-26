@@ -4088,5 +4088,21 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/games/candy-wheel",
       keywords: "candy wheel, candy wheel spinner, random candy wheel, candy picker wheel, spin the wheel candy, candy name generator, random candy picker, free candy wheel, candy spinner, candy wheel game, candy prize wheel, candy random picker, spin wheel candy, candy trivia wheel, candy land wheel, candy crush wheel, candy ferris wheel, candy bar wheel"
     }
+  },
+  "chore-wheel": {
+    en: {
+      title: "Wheel Of Chores — Free Spin & Assign Chores Fairly",
+      description: "Spin the Wheel Of Chores and assign household tasks fairly in seconds. Free chore wheel generator for kids, adults & roommates. No sign-up needed — try now!",
+      slug: "/games/chore-wheel",
+      keywords: "wheel of chores, chore wheel, chore wheel generator, digital chore wheel, chore wheel generator online, printable chore wheel, spin wheel chore chart, chore wheel for kids, chore wheel for roommates, randomizer system, decision wheel mechanism, probability fairness, behavior management systems, family productivity methods, education-based chore systems, household chore wheel, free chore wheel, online chore spinner, chore assignment tool"
+    }
+  },
+  "cartoon-character-wheel": {
+    en: {
+      title: "Cartoon Character Wheel – Random Character Picker & Spinner",
+      description: "Spin the Cartoon Character Wheel to pick random cartoon characters instantly. Free cartoon character wheel generator for drawing, games & fun. No signup needed!",
+      slug: "/games/cartoon-character-wheel",
+      keywords: "cartoon character wheel, cartoon character wheel generator, cartoon character wheel spinner, cartoon character wheel picker, random cartoon character generator wheel, cartoon character spin the wheel, cartoon character drawing wheel, wheel of cartoon characters, Disney cartoon character wheel, female cartoon character wheel, girl cartoon character wheel, random cartoon anime character wheel, cartoon character name wheel, cartoon character wheel of names, random cartoon character spin the wheel, popular cartoon character wheel, cartoon character color wheel"
+    }
   }
 };
