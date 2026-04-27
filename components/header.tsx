@@ -105,6 +105,7 @@ const ENGLISH_ONLY_PATHS = [
   '/games/candy-wheel',
   '/games/chore-wheel',
   '/games/cartoon-character-wheel',
+  '/games/country-wheel',
   '/games/animal-wheel-spinner',
   '/games/wordle',
   '/games/money-master',

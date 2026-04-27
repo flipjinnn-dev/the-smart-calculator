@@ -100,6 +100,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/country-wheel',
+        destination: '/games/country-wheel',
+        permanent: true,
+      },
+      {
         // non-WWW to WWW
         source: '/:path*',
         has: [

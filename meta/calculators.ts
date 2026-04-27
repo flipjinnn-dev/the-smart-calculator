@@ -4104,5 +4104,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/games/cartoon-character-wheel",
       keywords: "cartoon character wheel, cartoon character wheel generator, cartoon character wheel spinner, cartoon character wheel picker, random cartoon character generator wheel, cartoon character spin the wheel, cartoon character drawing wheel, wheel of cartoon characters, Disney cartoon character wheel, female cartoon character wheel, girl cartoon character wheel, random cartoon anime character wheel, cartoon character name wheel, cartoon character wheel of names, random cartoon character spin the wheel, popular cartoon character wheel, cartoon character color wheel"
     }
+  },
+  "country-wheel": {
+    en: {
+      title: "Country Wheel – Spin & Pick a Random Country Instantly",
+      description: "Spin the Country Wheel to pick a random country instantly. Use this fun tool for games, travel ideas, geography learning, and challenges online.",
+      slug: "/games/country-wheel",
+      keywords: "country wheel, random country wheel, country wheel spinner, wheel of countries, country picker wheel, random country generator wheel, country spin the wheel, countries wheel, all 197 countries wheel, europe countries wheel, european countries wheel, wheel of every country, country randomizer wheel, random country generator wheel, country picker wheel, country wheel generator, country spinning wheel, geography wheel, travel wheel, world countries wheel"
+    }
   }
 };

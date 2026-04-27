@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
-import { Gamepad2, Trophy, Brain, Coins, Sparkles, Star, Candy, ListChecks, Smile } from "lucide-react"
+import { Gamepad2, Trophy, Brain, Coins, Sparkles, Star, Candy, ListChecks, Smile, Globe } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -45,6 +45,14 @@ export default function GamesPage() {
       icon: Smile,
       link: "/games/cartoon-character-wheel",
       gradient: "from-purple-500 to-blue-600"
+    },
+    {
+      id: "country-wheel",
+      title: "Country Wheel",
+      description: "Spin the Country Wheel to pick a random country instantly. Use this fun tool for games, travel ideas, geography learning, and challenges!",
+      icon: Globe,
+      link: "/games/country-wheel",
+      gradient: "from-green-500 to-teal-600"
     },
     {
       id: "wordle",
