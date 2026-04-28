@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
-import { Gamepad2, Trophy, Brain, Coins, Sparkles, Star, Candy, ListChecks, Smile, Globe } from "lucide-react"
+import { Gamepad2, Trophy, Brain, Coins, Sparkles, Star, Candy, ListChecks, Smile, Globe, Sword } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -53,6 +53,14 @@ export default function GamesPage() {
       icon: Globe,
       link: "/games/country-wheel",
       gradient: "from-green-500 to-teal-600"
+    },
+    {
+      id: "clash-royale-wheel",
+      title: "Clash Royale Wheel",
+      description: "Spin the Clash Royale Wheel to get random cards, decks, or champions instantly. Free, fair, and perfect for challenges!",
+      icon: Sword,
+      link: "/games/clash-royale-wheel",
+      gradient: "from-purple-500 to-red-600"
     },
     {
       id: "wordle",

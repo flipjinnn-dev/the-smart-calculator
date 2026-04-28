@@ -105,6 +105,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/clash-royale-wheel',
+        destination: '/games/clash-royale-wheel',
+        permanent: true,
+      },
+      {
         // non-WWW to WWW
         source: '/:path*',
         has: [

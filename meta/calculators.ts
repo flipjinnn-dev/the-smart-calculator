@@ -4112,5 +4112,13 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/games/country-wheel",
       keywords: "country wheel, random country wheel, country wheel spinner, wheel of countries, country picker wheel, random country generator wheel, country spin the wheel, countries wheel, all 197 countries wheel, europe countries wheel, european countries wheel, wheel of every country, country randomizer wheel, random country generator wheel, country picker wheel, country wheel generator, country spinning wheel, geography wheel, travel wheel, world countries wheel"
     }
+  },
+  "clash-royale-wheel": {
+    en: {
+      title: "Clash Royale Wheel – Spin & Get Random Cards Instantly",
+      description: "Use the Clash Royale Wheel to spin and instantly get random cards, decks, or champions. Free, fair, and perfect for Clash Royale challenges.",
+      slug: "/games/clash-royale-wheel",
+      keywords: "clash royale wheel, clash royale spin wheel, wheel clash royale, clash royale random wheel, spin wheel clash royale, wheel of names clash royale, clash royale wheel spinner, clash royale spinning wheel, clash royale card wheel, clash royale deck wheel, clash royale challenge wheel, clash royale evo wheel, clash royale champion wheel, clash royale card generator, clash royale deck generator, clash royale random card, clash royale spin the wheel challenge, clash royale wheel of fortune, free clash royale wheel"
+    }
   }
 };

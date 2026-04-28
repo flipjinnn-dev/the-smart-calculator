@@ -174,6 +174,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     'chore-wheel',
     'cartoon-character-wheel',
     'country-wheel',
+    'clash-royale-wheel',
     'peth-test-calculator',
     'evony-troop-calculator',
     'phasor-calculator',

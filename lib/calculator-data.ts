@@ -125,6 +125,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'chore-wheel') return 'chore-wheel';
   if (id === 'cartoon-character-wheel') return 'cartoon-character-wheel';
   if (id === 'country-wheel') return 'country-wheel';
+  if (id === 'clash-royale-wheel') return 'clash-royale-wheel';
 
   // For other IDs, just add -calculator suffix if not already present
   return id.endsWith('-calculator') ? id : `${id}-calculator`;
@@ -1420,6 +1421,14 @@ export const calculators: Calculator[] = [
     name: "Country Wheel",
     description: "Spin the Country Wheel to pick a random country instantly. Use this fun tool for games, travel ideas, geography learning, and challenges",
     href: "/games/country-wheel",
+    category: "games",
+    popular: true,
+  },
+  {
+    id: "clash-royale-wheel",
+    name: "Clash Royale Wheel",
+    description: "Spin the Clash Royale Wheel to get random cards, decks, or champions instantly. Free, fair, and perfect for challenges",
+    href: "/games/clash-royale-wheel",
     category: "games",
     popular: true,
   }
