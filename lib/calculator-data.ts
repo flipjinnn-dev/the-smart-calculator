@@ -98,7 +98,8 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'grade-curve-calculator') return 'grade-curve-calculator';
   if (id === 'bank-statement-converter') return 'bank-statement-converter';
   if (id === 'dental-implant-cost-calculator') return 'dental-implant-cost-calculator';
-  if (id === 'ssc-gpa-calculator') return 'ssc-gpa-calculator';
+  if (id === 'mg-to-ml-calculator') return 'mg-to-ml-calculator';
+  if (id === 'notice-period-calculator') return 'notice-period-calculator';
   if (id === 'twin-flame-calculator') return 'twin-flame-calculator';
   if (id === 'break-even-roas-calculator') return 'break-even-roas-calculator';
   if (id === 'pressure-washing-estimate-calculator') return 'pressure-washing-estimate-calculator';
@@ -620,6 +621,14 @@ export const calculators: Calculator[] = [
     description: "Estimate your PEth level and alcohol clearance date using half-life science. Learn detection window, cutoff levels, and safe testing timeline.",
     href: "/health/peth-test-calculator",
     category: "health",
+  },
+  {
+    id: "mg-to-ml-calculator",
+    name: "mg to mL Calculator",
+    description: "Convert mg to mL instantly using density or concentration. Free calculator for medicine, syringe dosing, lab work & liquid conversions.",
+    href: "/physics/mg-to-ml-calculator",
+    category: "physics",
+    popular: true,
   },
 
   // Math Calculators

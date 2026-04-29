@@ -1,0 +1,93 @@
+{
+  "pageTitle": "mg to mL Calculator | Instant Conversion Tool",
+  "pageDescription": "Convert mg to mL instantly using density or concentration. Free calculator for medicine, syringe dosing, lab work & liquid conversions.",
+  "form": {
+    "labels": {
+      "conversionType": "Conversion Direction",
+      "mgInput": "Milligrams (mg)",
+      "mlInput": "Milliliters (mL)",
+      "liquidType": "Liquid Type",
+      "customDensity": "Custom Density (mg/mL)",
+      "medicationConcentration": "Medication Concentration (Optional)"
+    },
+    "placeholders": {
+      "mgInput": "Enter mg",
+      "mlInput": "Enter mL",
+      "customDensity": "Enter density in mg/mL",
+      "medicationConcentration": "e.g., 250 mg/5 mL or 50 mg/mL"
+    },
+    "buttons": {
+      "calculate": "Calculate",
+      "mgToMl": "mg → mL",
+      "mlToMg": "mL → mg"
+    },
+    "liquids": {
+      "water": "Water",
+      "milk": "Whole Milk",
+      "cooking_oil": "Cooking Oil",
+      "ethanol": "Ethanol (Alcohol)",
+      "honey": "Honey",
+      "custom": "Custom Density"
+    }
+  },
+  "results": {
+    "title": "Result",
+    "description": "Your conversion result",
+    "formulaUsed": "Formula Used",
+    "calculationSteps": "Calculation Steps",
+    "commonConversions": "Common Conversions"
+  },
+  "liquidPresets": {
+    "water": {
+      "name": "Water",
+      "density": 1000,
+      "unit": "mg/mL"
+    },
+    "milk": {
+      "name": "Whole Milk",
+      "density": 1032,
+      "unit": "mg/mL"
+    },
+    "cooking_oil": {
+      "name": "Cooking Oil",
+      "density": 915,
+      "unit": "mg/mL"
+    },
+    "ethanol": {
+      "name": "Ethanol (Alcohol)",
+      "density": 789,
+      "unit": "mg/mL"
+    },
+    "honey": {
+      "name": "Honey",
+      "density": 1420,
+      "unit": "mg/mL"
+    }
+  },
+  "messages": {
+    "enterValues": "Enter values to calculate conversion",
+    "step1": "Step 1: Identify density: {density} mg/mL",
+    "step2": "Step 2: Apply formula: {formula}",
+    "step3": "Step 3: Calculate: {calculation}",
+    "mgToMlResult": "{mg} mg = {ml} mL",
+    "mlToMgResult": "{ml} mL = {mg} mg"
+  },
+  "helpText": {
+    "customDensity": "Enter the density of your liquid in milligrams per milliliter",
+    "medicationConcentration": "For medicine: enter concentration from bottle label (e.g., 250 mg/5 mL)"
+  },
+  "errors": {
+    "invalidMg": "Please enter a valid milligram value",
+    "invalidMl": "Please enter a valid milliliter value",
+    "invalidDensity": "Please enter a valid density value"
+  },
+  "seo": {
+    "title": "mg to mL Calculator | Instant Conversion Tool",
+    "description": "Convert mg to mL instantly using density or concentration. Free calculator for medicine, syringe dosing, lab work & liquid conversions.",
+    "keywords": "mg to ml, mg to ml calculator, milligrams to milliliters, medicine conversion, syringe dosage, liquid density, concentration calculator"
+  },
+  "mainHeading": "Mg to mL Calculator",
+  "mainDescription": "Divide milligrams by the liquid's density (mg/mL) to get milliliters. For water: mL = mg ÷ 1000. For medicine: mL = mg ÷ concentration (mg/mL).",
+  "metaTitle": "mg to mL Calculator | Instant Conversion Tool",
+  "metaDescription": "Convert mg to mL instantly using density or concentration. Free calculator for medicine, syringe dosing, lab work & liquid conversions."
+}

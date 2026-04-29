@@ -1,0 +1,75 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "What Is the mg to mL Calculator?",
+      "content": "The mg to mL calculator is a free online tool that converts milligrams (mg) to milliliters (mL) instantly. Enter the weight in milligrams plus the density or concentration of your liquid — the calculator returns the exact volume in mL.\n\nThis mg to mL conversion calculator works for medicine dosing, syringe measurements, lab work, cooking, and general liquid conversions. It supports water, milk, cooking oil, medication solutions, and any custom liquid density you enter.\n\nIt also runs in reverse enter milliliters to get milligrams back. One tool, both directions."
+    },
+    {
+      "heading": "How To Use This mg to mL Conversion Calculator",
+      "content": "**Step 1 — Enter Your Milligrams**\nType the weight you want to convert into the mg field. Example: enter 500 to convert 500 mg.\n\n**Step 2 — Select Your Liquid or Concentration**\nPick a preset liquid (water, milk, cooking oil) or choose \"Medication\" and enter the concentration from the bottle label such as 250 mg/5 mL or 50 mg/mL. For any other substance, enter a custom density.\n\n**Step 3 — Read Your mL Result**\nThe calculator shows your volume in mL instantly. Switch units to liters, grams, or micrograms as needed."
+    },
+    {
+      "heading": "mg to mL Conversion Formula",
+      "content": "**Universal Formula (All Liquids)**\n```\nmL = mg ÷ density (mg/mL)\n```\nThis single formula covers every liquid. The only variable that changes is the density.\n\n**For Water**\nWater density = 1000 mg/mL\n```\nmL = mg ÷ 1000\n```\nExample: 5000 mg of water = 5000 ÷ 1000 = 5 mL\n\n**For Medicine**\n```\nmL = mg ÷ concentration (mg/mL)\n```\nExample: 500 mg dose, medicine label reads 250 mg/5 mL (= 50 mg/mL) 500 ÷ 50 = 10 mL\n\nNote: If your label shows mg per 5 mL, divide first. Example: 250 mg/5 mL = 50 mg/mL. Then apply the formula."
+    },
+    {
+      "heading": "mg to mL Conversion for Medicine and Syringes",
+      "content": "Nurses, caregivers, and parents most commonly use the mg to mL calculator for medicine when a prescription shows milligrams but the dose must be measured in a syringe or spoon.\n\n**Syringe Dosage Example**\nA doctor prescribes 150 mg of amoxicillin. The bottle reads 250 mg/5 mL.\n- Convert concentration: 250 ÷ 5 = 50 mg/mL\n- Apply formula: 150 ÷ 50 = 3 mL\n- Draw 3 mL into the syringe\n\nThe mg to mL syringe calculator on this page does both steps automatically."
+    },
+    {
+      "heading": "mg to mL Drug Conversion Chart",
+      "content": "Always check the label of your specific medication. Concentrations vary by brand and manufacturer.\n\n| Medication | Concentration | 100 mg Dose = |\n|------------|---------------|---------------|\n| Amoxicillin suspension | 250 mg/5 mL (50 mg/mL) | 2 mL |\n| Paracetamol suspension | 120 mg/5 mL (24 mg/mL) | 4.17 mL |\n| Ibuprofen suspension | 100 mg/5 mL (20 mg/mL) | 5 mL |\n| Morphine injection | 10 mg/mL | 10 mL |\n| Water | 1000 mg/mL | 0.1 mL |"
+    },
+    {
+      "heading": "mg to mL Conversion Chart for Water",
+      "content": "| Milligrams (mg) | Milliliters (mL) |\n|----------------|------------------|\n| 1 mg | 0.001 mL |\n| 10 mg | 0.01 mL |\n| 50 mg | 0.05 mL |\n| 100 mg | 0.1 mL |\n| 250 mg | 0.25 mL |\n| 500 mg | 0.5 mL |\n| 1,000 mg | 1 mL |\n| 5,000 mg | 5 mL |\n| 10,000 mg | 10 mL |"
+    },
+    {
+      "heading": "mg to mL for Different Liquids",
+      "content": "Different liquids have different densities. Use this reference when converting non-water substances.\n\n| Liquid | Density (mg/mL) | 500 mg = ? mL |\n|--------|----------------|---------------|\n| Water | 1000 | 0.5 mL |\n| Whole Milk | 1032 | 0.485 mL |\n| Cooking Oil | 915 | 0.546 mL |\n| Ethanol (Alcohol) | 789 | 0.634 mL |\n| Honey | 1420 | 0.352 mL |\n\nFor any other liquid, enter its density directly into the custom density field of the calculator."
+    },
+    {
+      "heading": "Weight-Based Dosing — mg/kg to mL Calculator",
+      "content": "Doctors often prescribe pediatric medications by body weight (mg per kg). Here is how to calculate the correct volume.\n\n**Step 1:** Total dose (mg) = prescribed dose (mg/kg) × body weight (kg)\n**Step 2:** Volume (mL) = total dose (mg) ÷ concentration (mg/mL)\n\n**Example:** Child weighs 20 kg. Doctor prescribes 10 mg/kg ibuprofen. Concentration: 100 mg/5 mL (= 20 mg/mL).\n- Total dose = 10 × 20 = 200 mg\n- Volume = 200 ÷ 20 = 10 mL"
+    },
+    {
+      "heading": "Advanced Concentration Conversions",
+      "content": "**mg/mL to Molarity**\nFormula: Molarity (M) = (mg/mL × 1000) ÷ molecular weight (g/mol)\nExample: Protein at 5 mg/mL, molecular weight 50,000 g/mol = (5 × 1000) ÷ 50,000 = 0.1 mM\nUsed in biochemistry, pharmaceutical research, and lab settings.\n\n**mg/mL to PPM**\nFormula: ppm = mg/mL × 1000\nExample: 0.5 mg/mL = 500 ppm\n\n**mg/mL to Percentage (% w/v)**\nFormula: % w/v = mg/mL ÷ 10\nExample: 5 mg/mL = 0.5% w/v\n\n**mg/mL to µg/mL**\nFormula: µg/mL = mg/mL × 1000\nExample: 2 mg/mL = 2000 µg/mL"
+    },
+    {
+      "heading": "Why mg and mL Are Not the Same",
+      "content": "Milligrams (mg) measure mass. Milliliters (mL) measure volume. You cannot convert one to the other without knowing the density of the specific substance.\n\n1 mL of water = 1000 mg. But 1 mL of oil = only 915 mg. Same volume, different mass. This is why the calculator always needs density or concentration as an input — it is the connecting factor between weight and volume.\n\nIn medicine, this distinction is critical. Using the wrong concentration in a mg to mL drug conversion can lead to an incorrect dose. Always verify the concentration on the label before calculating."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do I convert mg to mL?",
+      "answer": "Divide milligrams by the density or concentration of the liquid in mg/mL. For water, divide by 1000. For medicine, divide by the concentration shown on the label. Use the mg to mL conversion calculator above for instant results."
+    },
+    {
+      "question": "Is 1 mg equal to 1 mL?",
+      "answer": "No. For water, 1 mg = 0.001 mL. For other liquids, the value depends on their density. Never assume 1 mg = 1 mL without checking the substance first."
+    },
+    {
+      "question": "How many mL is 500 mg?",
+      "answer": "For water: 500 mg = 0.5 mL. For a medicine with 50 mg/mL concentration: 500 mg = 10 mL. The answer always depends on the substance density or medication concentration."
+    },
+    {
+      "question": "How do I use this calculator for a syringe dose?",
+      "answer": "Enter your prescribed dose in mg and the concentration from the medicine label. The mg to mL dosage calculator for syringe calculates the exact mL to draw. Example: 75 mg ÷ 50 mg/mL = 1.5 mL."
+    },
+    {
+      "question": "Can I use this calculator for any medication?",
+      "answer": "Yes, as long as you know the concentration on the bottle. Enter that concentration into the medicine field and input your dose in mg. Always confirm the result with your pharmacist or doctor before administering any medication."
+    },
+    {
+      "question": "How do I convert mg/mL to molarity?",
+      "answer": "Use: Molarity = (mg/mL × 1000) ÷ molecular weight (g/mol). This is commonly used in lab and pharmaceutical settings when working with protein solutions or chemical compounds."
+    },
+    {
+      "question": "What is the difference between mg/mL and % concentration?",
+      "answer": "mg/mL measures mass per unit volume directly. Percentage (% w/v) expresses grams per 100 mL. To convert: divide mg/mL by 10 to get % w/v. Example: 20 mg/mL = 2% w/v."
+    }
+  ]
+}

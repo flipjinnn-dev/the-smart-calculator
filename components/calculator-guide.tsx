@@ -3,8 +3,8 @@ import 'katex/dist/katex.min.css';
 import Latex from 'react-latex-next';
 
 interface FAQ {
-  q: string
-  a: string
+  question: string
+  answer: string
 }
 
 interface SubSection {
@@ -98,6 +98,7 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
   const colors = getColorVariants(data.color)
 
   const renderContent = (content: string) => {
+    if (!content) return null;
     const lines = content.split('\n');
     const result: JSX.Element[] = [];
     let i = 0;
@@ -236,7 +237,7 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
               {data.faq.map((item, index) => (
                 <details key={index} className="group">
                   <summary className="flex items-center justify-between cursor-pointer p-4 rounded-lg bg-white border border-gray-200 hover:border-gray-300 transition-colors">
-                    <h4 className="font-medium text-gray-900 pr-4">{item.q}</h4>
+                    <h4 className="font-medium text-gray-900 pr-4">{item.question}</h4>
                     <div
                       className="w-6 h-6 rounded flex items-center justify-center group-open:rotate-180 transition-transform flex-shrink-0"
                       style={{ backgroundColor: colors.primary }}
@@ -248,7 +249,7 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
                   </summary>
                   <div className="px-4 pb-4 pt-2">
                     <div className="text-gray-700 text-sm leading-relaxed space-y-1">
-                      {renderContent(item.a)}
+                      {renderContent(item.answer)}
                     </div>
                   </div>
                 </details>
