@@ -664,6 +664,14 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
+    id: "percentage-decrease-calculator",
+    name: "Percentage Decrease Calculator",
+    description: "Calculate percent decrease between two numbers with formula and step-by-step working",
+    href: "/maths/percentage-decrease",
+    category: "maths",
+    popular: true,
+  },
+  {
     id: "square-root-curve-calculator",
     name: "Square Root Curve Calculator",
     description: "Convert grades using the square root grading curve method",

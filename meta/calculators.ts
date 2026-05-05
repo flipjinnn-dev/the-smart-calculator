@@ -3649,6 +3649,38 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "reverse percentage calculator, reverse percentages calculator, reverse percentage calculator online, reverse percentage discount calculator, reverse percentage formula, how to calculate reverse percentages, reverse percentage increase calculator, reverse percentage decrease calculator"
     }
   },
+  'percentage-decrease-calculator': {
+    en: {
+      title: "Percentage Decrease Calculator | Find % Decrease",
+      description: "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
+      slug: "/maths/percentage-decrease",
+      keywords: "percentage decrease calculator, percent decrease calculator, percentage drop calculator, decrease percentage formula, calculate percentage decrease"
+    },
+    br: {
+      title: "Calculadora de Diminuicao Percentual",
+      description: "Calcule a diminuicao percentual entre dois numeros com formula e passos detalhados.",
+      slug: "/br/matematica/calculadora-de-diminuicao-percentual",
+      keywords: "calculadora de diminuicao percentual, diminuir porcentagem, queda percentual"
+    },
+    pl: {
+      title: "Kalkulator Spadku Procentowego",
+      description: "Oblicz spadek procentowy miedzy dwiema liczbami z formula i krokami.",
+      slug: "/pl/matematyka/kalkulator-spadku-procentowego",
+      keywords: "kalkulator spadku procentowego, spadek procentowy, oblicz spadek procentowy"
+    },
+    de: {
+      title: "Prozentuale Abnahme Rechner",
+      description: "Berechnen Sie die prozentuale Abnahme zwischen zwei Zahlen mit Formel und Schritten.",
+      slug: "/de/mathe/prozentuale-abnahme-rechner",
+      keywords: "prozentuale abnahme rechner, prozentuale verringerung, prozentuale abnahme berechnen"
+    },
+    es: {
+      title: "Calculadora de Disminucion Porcentual",
+      description: "Calcula la disminucion porcentual entre dos numeros con formula y pasos.",
+      slug: "/es/matematicas/calculadora-de-disminucion-porcentual",
+      keywords: "calculadora de disminucion porcentual, calcular disminucion porcentual, porcentaje de disminucion"
+    }
+  },
   'therapy-productivity-calculator': {
     en: {
       title: "Therapy Productivity Calculator",

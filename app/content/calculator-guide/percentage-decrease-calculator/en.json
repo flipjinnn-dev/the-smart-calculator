@@ -1,0 +1,116 @@
+{
+  "color": "red",
+  "sections": [
+    {
+      "heading": "What Is a Percentage Decrease Calculator?",
+      "content": "A Percentage Decrease Calculator is a free online tool that helps you calculate percentage decrease between two numbers, the original value and the new lower value, instantly and without errors. It removes guesswork and shows full step-by-step working for fast and accurate answers."
+    },
+    {
+      "heading": "Percentage Decrease Formula",
+      "content": "Formula: $$\\text{Percentage Decrease} = \\frac{\\text{Original Value} - \\text{New Value}}{\\text{Original Value}} \\times 100$$ Subtract the new value from the original value, divide by the original value, and multiply by 100."
+    },
+    {
+      "heading": "How to Use the Percent Decrease Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1 - Enter the Original Value",
+          "content": "Type the starting number (the value before the decrease). Example: if a product cost 200, enter 200."
+        },
+        {
+          "heading": "Step 2 - Enter the New Value",
+          "content": "Type the new lower number (the value after the decrease). Example: if the price dropped to 150, enter 150."
+        },
+        {
+          "heading": "Step 3 - Click Calculate",
+          "content": "Press Calculate. The tool instantly applies the formula and displays your result."
+        },
+        {
+          "heading": "Step 4 - View Result with Steps",
+          "content": "You get the percentage decrease result with full working shown clearly."
+        }
+      ]
+    },
+    {
+      "heading": "What Is the Formula for Percentage Decrease?",
+      "content": "This formula works in three parts: (1) Subtract new value from original to get the absolute drop, (2) Divide by the original value to measure relative drop, (3) Multiply by 100 to convert to percent."
+    },
+    {
+      "heading": "Why Divide by Original Value?",
+      "content": "Percentage decrease is measured relative to where you started. The original value is the 100% baseline, so division must be by original value, not by new value."
+    },
+    {
+      "heading": "Worked Examples",
+      "subSections": [
+        {
+          "heading": "Example 1 - Price Drop",
+          "content": "Original: 80, New: 60. Step 1: 80 - 60 = 20. Step 2: 20 / 80 = 0.25. Step 3: 0.25 x 100 = 25%."
+        },
+        {
+          "heading": "Example 2 - Weight Loss",
+          "content": "Original: 95, New: 82. Step 1: 95 - 82 = 13. Step 2: 13 / 95 = 0.1368. Step 3: 0.1368 x 100 = 13.68%."
+        },
+        {
+          "heading": "Example 3 - Sales Drop",
+          "content": "Original: 500, New: 430. Step 1: 500 - 430 = 70. Step 2: 70 / 500 = 0.14. Step 3: 0.14 x 100 = 14%."
+        }
+      ]
+    },
+    {
+      "heading": "Common Mistakes",
+      "content": "| Mistake | Why It Is Wrong | Correct Approach |\n| --- | --- | --- |\n| Dividing by the new value | Gives a wrong inflated result | Always divide by the original value |\n| Forgetting to multiply by 100 | Gives a decimal, not a percentage | Multiply by 100 as the final step |\n| Swapping original and new values | Produces a percentage increase result | Original = starting value, New = ending value |\n| Using percentage decrease for an increase | Wrong formula for the situation | If new > original, use percentage increase formula |"
+    },
+    {
+      "heading": "Percentage Decrease vs Percentage Increase",
+      "content": "| Metric | Percentage Decrease | Percentage Increase |\n| --- | --- | --- |\n| When to use | New value is lower than original | New value is higher than original |\n| Formula | ((Original - New) / Original) x 100 | ((New - Original) / Original) x 100 |\n| Result | Positive percentage (drop) | Positive percentage (rise) |\n| Division | Always by original value | Always by original value |"
+    },
+    {
+      "heading": "Calculator Features",
+      "displayType": "icon-bullets-features",
+      "content": "- Instant Result - Get your percentage decrease answer in under a second.\n- Full Step-by-Step Working - Every step from subtraction to final percentage is shown clearly.\n- Handles Decimals Accurately - Enter values like 99.5 and 74.3 with no rounding errors.\n- Percentage Increase Detection - If new value is higher than original, the calculator tells you automatically.\n- Works for Any Numbers - Prices, salaries, test scores, temperatures, populations, and any numeric data.\n- No Login Required - Open, enter, calculate. No account or subscription needed.\n- Fully Mobile Responsive - Works on phones, tablets, and desktops perfectly."
+    },
+    {
+      "heading": "Where Percentage Decrease Is Used",
+      "displayType": "icon-bullets-usecases",
+      "content": "- Retail Discounts - Verify whether a store discount is as large as advertised.\n- Finance and Investing - Track drops in stock prices, portfolio values, and revenue figures.\n- Health and Fitness - Measure progress in body weight, blood pressure, or cholesterol.\n- Business and Sales - Identify underperforming periods by percentage decrease in sales or conversions.\n- Education - Compare test scores between attempts to measure improvement or decline.\n- Economics - Measure percentage decrease in unemployment, GDP, or inflation."
+    },
+    {
+      "heading": "Where Percentage Decrease Is Used in Real Life",
+      "displayType": "icon-bullets-usecases",
+      "content": "- Retail and Shopping - Verify whether a store discount is as large as advertised. A drop from 120 to 90 is exactly a 25% decrease.\n- Finance and Investing - Track drops in stock prices, portfolio values, and revenue figures over any time period.\n- Health and Fitness - Measure progress in body weight, blood pressure, or cholesterol using actual percentage change.\n- Business and Sales - Identify underperforming periods by calculating the percentage decrease in sales, leads, or conversions month over month.\n- Education - Compare test scores between two attempts to measure academic improvement or decline.\n- Economics - Measure percentage decrease in unemployment, GDP, or inflation to track economic direction."
+    },
+    {
+      "heading": "Summary",
+      "content": "The Percentage Decrease Calculator finds how much a value has dropped between two numbers instantly. Enter original and new value, and it applies ((Original - New) / Original) x 100 with full step-by-step working."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the formula for percentage decrease?",
+      "answer": "((Original Value - New Value) / Original Value) x 100."
+    },
+    {
+      "question": "How do I calculate percentage decrease between two numbers?",
+      "answer": "Subtract new value from original, divide by original, then multiply by 100."
+    },
+    {
+      "question": "How do I find percentage decrease without a calculator?",
+      "answer": "Difference divided by original multiplied by 100."
+    },
+    {
+      "question": "What is the difference between percent decrease and percent change?",
+      "answer": "Percent change includes both increase and decrease; percent decrease is only when value goes down."
+    },
+    {
+      "question": "What if my new value is higher than the original value?",
+      "answer": "Then it is a percentage increase, not a decrease."
+    },
+    {
+      "question": "Is percentage decrease the same as discount percentage?",
+      "answer": "Yes, both use the same formula."
+    },
+    {
+      "question": "How do I calculate percentage decrease in Excel?",
+      "answer": "Use =((A1-B1)/A1)*100 where A1 is original and B1 is new value."
+    }
+  ]
+}
