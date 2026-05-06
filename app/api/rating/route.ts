@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@sanity/client';
-import { isSanityConfigured } from '@/lib/sanity/config';
+
+const isSanityConfigured =
+  Boolean(process.env.NEXT_PUBLIC_SANITY_PROJECT_ID) &&
+  process.env.NEXT_PUBLIC_SANITY_PROJECT_ID !== '00000000' &&
+  Boolean(process.env.NEXT_PUBLIC_SANITY_DATASET);
 
 const client = createClient({
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
