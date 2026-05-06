@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useRef, type MouseEvent } from "react";
+import { useMemo, useState, useRef } from "react";
 import { Gauge, AlertTriangle, ArrowRight } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -202,11 +202,6 @@ export default function SilcaTirePressureCalculatorClient({ content, guideConten
   const guideData =
     (typeof guideContent === "object" && guideContent !== null ? guideContent : {}) as Partial<CalculatorGuideData>;
 
-  const scrollToGuide = (e: MouseEvent) => {
-    e.preventDefault();
-    document.getElementById("silca-guide")?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-cyan-50 to-blue-50">
       <div className="container mx-auto px-4 py-8 sm:px-6 lg:px-8 max-w-6xl">
@@ -305,14 +300,6 @@ export default function SilcaTirePressureCalculatorClient({ content, guideConten
                     <SelectItem value="cat4_gravel">Category 4 Gravel</SelectItem>
                   </SelectContent>
                 </Select>
-                <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
-                  <button type="button" onClick={scrollToGuide} className="text-cyan-600 hover:text-cyan-700 underline font-medium">
-                    {f.surfaceGuide || "Surface guide"}
-                  </button>
-                  <button type="button" onClick={scrollToGuide} className="text-cyan-600 hover:text-cyan-700 underline font-medium">
-                    {f.learnMore || "Learn more"}
-                  </button>
-                </div>
               </div>
 
               {/* Tire width */}
@@ -332,9 +319,6 @@ export default function SilcaTirePressureCalculatorClient({ content, guideConten
                     ))}
                   </SelectContent>
                 </Select>
-                <button type="button" onClick={scrollToGuide} className="text-sm text-cyan-600 hover:text-cyan-700 underline font-medium">
-                  {f.measuringGuide || "Measuring guide"}
-                </button>
               </div>
 
               {/* Wheel */}
@@ -371,9 +355,6 @@ export default function SilcaTirePressureCalculatorClient({ content, guideConten
                     <SelectItem value="puncture_tubeless_latex">Puncture resistant tire tubeless / latex tube</SelectItem>
                   </SelectContent>
                 </Select>
-                <button type="button" onClick={scrollToGuide} className="text-sm text-cyan-600 hover:text-cyan-700 underline font-medium">
-                  {f.tireTypeHelp || "How does this change my tire pressure?"}
-                </button>
               </div>
 
               {/* Speed */}
