@@ -10,7 +10,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Percentage Decrease Calculator | Find % Decrease",
     description:
-      "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
+      "Free online percentage decrease calculator: enter original and new values, get instant results with full step-by-step working. No login required.",
     alternates: {
       canonical: canonicalUrl,
       languages: {
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: "Percentage Decrease Calculator | Find % Decrease",
       description:
-        "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
+        "Free online percentage decrease calculator: enter original and new values, get instant results with full step-by-step working. No login required.",
       url: canonicalUrl,
       type: "website",
       images: [
@@ -37,7 +37,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: "Percentage Decrease Calculator | Find % Decrease",
       description:
-        "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
+        "Free online percentage decrease calculator: enter original and new values, get instant results with full step-by-step working. No login required.",
     },
     robots: {
       index: true,
@@ -103,7 +103,7 @@ export default async function PercentageDecreaseCalculatorPage() {
         "@id": "https://www.thesmartcalculator.com/#webapp",
         name: "The Smart Calculator",
         description:
-          "Free percentage decrease calculator helps you calculate percentage decrease between two numbers instantly with formula, steps, and accurate results.",
+          "Free percentage decrease calculator: enter original and new values, get instant results with full step-by-step working. No login required.",
         applicationCategory: "EducationalApplication",
         operatingSystem: "All",
         softwareVersion: "9.2.1",
@@ -136,7 +136,7 @@ export default async function PercentageDecreaseCalculatorPage() {
             name: "What is the formula for percentage decrease?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "((Original Value - New Value) / Original Value) x 100",
+              text: "The formula is: ((Original Value - New Value) / Original Value) x 100. Subtract the new value from the original, divide by the original, and multiply by 100.",
             },
           },
           {
@@ -144,7 +144,39 @@ export default async function PercentageDecreaseCalculatorPage() {
             name: "How do you calculate percentage decrease between two numbers?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Subtract new value from original, divide by original, then multiply by 100.",
+              text: "Subtract the new number from the original number. Divide that result by the original number. Multiply by 100. That is your percentage decrease.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "How do I find percentage decrease without a calculator?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Use the formula manually. Example: Original = 200, New = 160. Difference = 40. 40 / 200 = 0.20. 0.20 x 100 = 20% decrease.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What is the difference between percent decrease and percent change?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Percent change covers both increases and decreases. Percent decrease specifically applies when the new value is lower. Both use the same formula structure but percent change can be positive or negative.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What if my new value is higher than the original value?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "You have a percentage increase, not a decrease. Use a percentage increase calculator in that case.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Is percentage decrease the same as a discount percentage?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Yes. When a price drops from one number to another, the discount percentage and the percentage decrease are calculated using the exact same formula.",
             },
           },
           {
@@ -152,7 +184,7 @@ export default async function PercentageDecreaseCalculatorPage() {
             name: "How do I calculate percentage decrease in Excel?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "=((A1-B1)/A1)*100",
+              text: "Use this Excel formula: =((A1-B1)/A1)*100 where A1 is the original value and B1 is the new value.",
             },
           },
         ],

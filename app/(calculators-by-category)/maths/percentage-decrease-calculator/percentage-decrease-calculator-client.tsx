@@ -224,34 +224,19 @@ export default function PercentageDecreaseCalculatorClient({
           </CardContent>
         </Card>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-          <Card className="border-0 shadow-md bg-white">
-            <CardContent className="pt-6">
-              <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">Category</p>
-              <p className="text-lg font-semibold text-gray-900 flex items-center gap-2">
-                <Calculator className="w-4 h-4 text-red-600" />
-                {content?.category || "Math"}
-              </p>
-              <p className="text-sm text-gray-600 mt-2">
-                {content?.categoryDescription ||
-                  "Calculate percentage decrease between two numbers instantly."}
-              </p>
-            </CardContent>
-          </Card>
-          <Card className="border-0 shadow-md bg-white">
-            <CardContent className="pt-6">
-              <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">Formula</p>
-              <p className="text-sm font-semibold text-gray-900">
-                {content?.formula ||
-                  "Percentage Decrease = ((Original Value - New Value) / Original Value) x 100"}
-              </p>
-              <p className="text-sm text-gray-600 mt-2">
-                {content?.formulaDescription ||
-                  "Subtract the new value from the original value, divide by the original value, and multiply by 100."}
-              </p>
-            </CardContent>
-          </Card>
-        </div>
+        <Card className="mt-6 rounded-2xl border border-slate-200/90 bg-white shadow-md ring-1 ring-slate-900/5 overflow-hidden">
+          <CardContent className="pt-6 pb-6 px-6 sm:px-8">
+            <p className="text-xs font-semibold uppercase tracking-wider text-red-600/90 mb-3">Formula</p>
+            <div className="rounded-xl border border-red-100/90 bg-gradient-to-br from-red-50/80 to-orange-50/40 px-4 py-3.5 sm:px-5 border-l-4 border-l-red-500 font-mono text-[13px] sm:text-[15px] font-medium text-gray-900 leading-relaxed shadow-sm">
+              {content?.formula ||
+                "Percentage Decrease = ((Original Value - New Value) / Original Value) x 100"}
+            </div>
+            <p className="text-[15px] text-gray-600 mt-4 leading-relaxed">
+              {content?.formulaDescription ||
+                "Subtract the new value from the original value, divide by the original value, and multiply by 100."}
+            </p>
+          </CardContent>
+        </Card>
 
         <div className="mt-10">
           <RatingProfileSection

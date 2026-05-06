@@ -130,6 +130,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   
   // List of calculator routes that should not be handled by blog route
   const calculatorRoutes = [
+    'uf-gpa-calculator',
     'depop-fee-calculator',
     'whatnot-fee-calculator',
     'water-potential-calculator',

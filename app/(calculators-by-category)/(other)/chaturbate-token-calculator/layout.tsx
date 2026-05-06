@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     "chaturbate earnings calculator"
   ],
   alternates: {
-    canonical: "https://www.thesmartcalculator.com/other/chaturbate-token-calculator"
+    canonical: "https://www.thesmartcalculator.com/chaturbate-token-calculator",
   },
   openGraph: {
     title: "Chaturbate Token Calculator – Convert Tokens to USD/EUR",
     description: "Free Chaturbate token calculator. Convert tokens to USD or EUR instantly. Models earn $0.05 per token.",
-    url: "https://www.thesmartcalculator.com/other/chaturbate-token-calculator",
+    url: "https://www.thesmartcalculator.com/chaturbate-token-calculator",
     siteName: "The Smart Calculator",
     type: "website",
     images: [

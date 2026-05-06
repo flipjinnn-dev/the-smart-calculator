@@ -1,6 +1,25 @@
-import { useState, useEffect } from 'react';
+import type { ReactElement } from 'react';
 import 'katex/dist/katex.min.css';
 import Latex from 'react-latex-next';
+import {
+  CheckCircle2,
+  Briefcase,
+  Zap,
+  ListChecks,
+  Sigma,
+  TrendingUp,
+  Hash,
+  LockOpen,
+  Smartphone,
+  ShoppingCart,
+  LineChart,
+  HeartPulse,
+  GraduationCap,
+  Landmark,
+  Building2,
+  FlaskConical,
+  School,
+} from 'lucide-react';
 
 interface FAQ {
   question: string
@@ -16,9 +35,10 @@ interface Section {
   heading: string
   content?: string
   subSections?: SubSection[]
+  displayType?: 'icon-bullets-features' | 'icon-bullets-usecases'
 }
 
-interface CalculatorGuideData {
+export interface CalculatorGuideData {
   color: string
   sections: Section[]
   faq: FAQ[]
@@ -97,72 +117,274 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
 
   const colors = getColorVariants(data.color)
 
+  const renderIconBullets = (
+    content: string,
+    mode: 'features' | 'use-cases'
+  ) => {
+    if (!content) return null;
+    const lines = content
+      .split('\n')
+      .map((line) => line.trim().replace(/^- /, ''))
+      .filter(Boolean);
+
+    if (lines.length === 0) return null;
+
+    return (
+      <ul className="space-y-3.5">
+        {lines.map((line, index) => {
+          const [title, ...rest] = line.split(' - ');
+          const description = rest.join(' - ');
+          const normalized = `${title} ${description}`.toLowerCase();
+          const Icon = (() => {
+            if (mode === 'features') {
+              if (normalized.includes('instant')) return Zap;
+              if (normalized.includes('step-by-step')) return ListChecks;
+              if (normalized.includes('decimal')) return Sigma;
+              if (normalized.includes('increase detection')) return TrendingUp;
+              if (normalized.includes('any numbers')) return Hash;
+              if (normalized.includes('no login')) return LockOpen;
+              if (normalized.includes('mobile')) return Smartphone;
+              return CheckCircle2;
+            }
+
+            if (normalized.includes('retail') || normalized.includes('shopping')) return ShoppingCart;
+            if (normalized.includes('finance') || normalized.includes('investing')) return LineChart;
+            if (normalized.includes('pre-med') || normalized.includes('science major') || normalized.includes('bcpm')) return FlaskConical;
+            if (normalized.includes('health') || normalized.includes('fitness')) return HeartPulse;
+            if (normalized.includes('business') || normalized.includes('sales')) return Building2;
+            if (normalized.includes('graduate school') || normalized.includes('grad school')) return GraduationCap;
+            if (normalized.includes('high school') || normalized.includes('freshmen') || normalized.includes('prospective')) return School;
+            if (normalized.includes('upper division') || normalized.includes('last 60')) return Landmark;
+            if (normalized.includes('below 2') || normalized.includes('deficit')) return TrendingUp;
+            if (normalized.includes('transfer')) return Briefcase;
+            if (normalized.includes('current uf') || normalized.includes('uf student')) return GraduationCap;
+            if (normalized.includes('education')) return GraduationCap;
+            if (normalized.includes('economics')) return Landmark;
+            return Briefcase;
+          })();
+
+          return (
+            <li key={`${mode}-${index}`} className="flex items-start gap-3.5">
+              <div
+                className="mt-0.5 w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 shadow-sm"
+                style={{ backgroundColor: colors.ultraLight }}
+              >
+                <Icon className="w-4 h-4" style={{ color: colors.primary }} />
+              </div>
+              <div className="text-[15px] leading-relaxed pt-0.5">
+                <span className="font-semibold text-gray-900">{title}</span>
+                {description ? <span className="text-gray-700"> — {description}</span> : null}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    );
+  };
+
   const renderContent = (content: string) => {
     if (!content) return null;
     const lines = content.split('\n');
-    const result: JSX.Element[] = [];
+    const result: ReactElement[] = [];
     let i = 0;
+    let blockKey = 0;
+
+    const shouldUseLatex = (line: string) =>
+      line.includes('$$') ||
+      line.includes('\\frac') ||
+      line.includes('\\text') ||
+      line.includes('\\times') ||
+      line.includes('\\div');
+
+    const isTableStart = (idx: number) => {
+      const row = lines[idx]?.trim() ?? '';
+      const sep = lines[idx + 1]?.trim() ?? '';
+      return row.includes('|') && sep.includes('---');
+    };
 
     while (i < lines.length) {
-      const line = lines[i];
-      
-      // Check if this line starts a markdown table (contains | and next line has dashes)
-      if (line.includes('|') && i + 1 < lines.length && lines[i + 1].includes('---')) {
+      const trimmed = lines[i].trim();
+      if (!trimmed) {
+        i++;
+        continue;
+      }
+
+      if (isTableStart(i)) {
         const tableLines: string[] = [];
         let j = i;
-        
-        // Collect all table lines
         while (j < lines.length && lines[j].trim().includes('|')) {
           tableLines.push(lines[j]);
           j++;
         }
-        
         if (tableLines.length >= 2) {
-          // Parse table
-          const headers = tableLines[0].split('|').map(h => h.trim()).filter(h => h);
-          const rows = tableLines.slice(2).map(row => 
-            row.split('|').map(cell => cell.trim()).filter(cell => cell)
+          const headers = tableLines[0].split('|').map((h) => h.trim()).filter(Boolean);
+          const rows = tableLines.slice(2).map((row) =>
+            row.split('|').map((cell) => cell.trim()).filter(Boolean)
           );
-          
+          const k = blockKey++;
           result.push(
-            <div key={i} className="overflow-x-auto my-4">
-              <table className="min-w-full border-collapse border border-gray-300">
-                <thead className="bg-gray-100">
-                  <tr>
-                    {headers.map((header, idx) => (
-                      <th key={idx} className="border border-gray-300 px-4 py-2 text-left font-semibold text-gray-900">
-                        {header}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {rows.map((row, rowIdx) => (
-                    <tr key={rowIdx} className="hover:bg-gray-50">
-                      {row.map((cell, cellIdx) => (
-                        <td key={cellIdx} className="border border-gray-300 px-4 py-2 text-gray-700">
-                          {cell}
-                        </td>
+            <div key={k} className="my-6 overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-md ring-1 ring-slate-900/5">
+              <div className="overflow-x-auto">
+                <table className="min-w-full border-separate border-spacing-0">
+                  <thead className="bg-gradient-to-r from-slate-50 to-slate-100/90">
+                    <tr>
+                      {headers.map((header, idx) => (
+                        <th
+                          key={idx}
+                          className="border-b border-slate-200 px-4 py-3.5 text-left text-sm font-bold text-slate-800 tracking-wide first:pl-5 last:pr-5 sm:px-5"
+                        >
+                          {header}
+                        </th>
                       ))}
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {rows.map((row, rowIdx) => (
+                      <tr
+                        key={rowIdx}
+                        className={`${rowIdx % 2 === 0 ? 'bg-white' : 'bg-slate-50/60'} transition-colors hover:bg-slate-100/90`}
+                      >
+                        {row.map((cell, cellIdx) => (
+                          <td
+                            key={cellIdx}
+                            className="border-b border-slate-100 px-4 py-3.5 text-[15px] text-slate-700 leading-relaxed align-top first:pl-5 last:pr-5 sm:px-5"
+                          >
+                            {cell}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           );
-          
           i = j;
           continue;
         }
       }
-      
-      // Regular line rendering
+
+      if (/^[-*]\s+/.test(trimmed)) {
+        const items: string[] = [];
+        while (i < lines.length) {
+          const t = lines[i].trim();
+          if (!t || !/^[-*]\s+/.test(t)) break;
+          items.push(t.replace(/^[-*]\s+/, ''));
+          i++;
+        }
+        const k = blockKey++;
+        result.push(
+          <ul key={k} className="my-5 space-y-3 pl-0.5">
+            {items.map((item, idx) => (
+              <li key={idx} className="flex gap-3 text-[15px] text-gray-700 leading-relaxed">
+                <span
+                  className="mt-2 h-2 w-2 shrink-0 rounded-full shadow-sm"
+                  style={{ backgroundColor: colors.primary }}
+                  aria-hidden
+                />
+                <span className="min-w-0 flex-1">{item}</span>
+              </li>
+            ))}
+          </ul>
+        );
+        continue;
+      }
+
+      if (/^\d+\.\s+/.test(trimmed)) {
+        const items: string[] = [];
+        while (i < lines.length) {
+          const t = lines[i].trim();
+          if (!t) break;
+          const m = t.match(/^\d+\.\s+(.*)$/);
+          if (!m) break;
+          items.push(m[1]);
+          i++;
+        }
+        const k = blockKey++;
+        result.push(
+          <ol
+            key={k}
+            className="my-5 list-decimal space-y-2.5 pl-6 text-[15px] text-gray-700 leading-relaxed marker:font-semibold marker:text-gray-900"
+          >
+            {items.map((item, idx) => (
+              <li key={idx} className="pl-1">
+                {shouldUseLatex(item) ? <Latex>{item}</Latex> : item}
+              </li>
+            ))}
+          </ol>
+        );
+        continue;
+      }
+
+      const paraLines: string[] = [];
+      while (i < lines.length) {
+        const t = lines[i].trim();
+        if (!t) break;
+        if (isTableStart(i)) break;
+        if (/^[-*]\s+/.test(t)) break;
+        if (/^\d+\.\s+/.test(t)) break;
+        paraLines.push(lines[i]);
+        i++;
+      }
+
+      if (paraLines.length === 0) continue;
+
+      const single = paraLines.length === 1 ? paraLines[0].trim() : null;
+      const isShortQuestion =
+        Boolean(single && single.endsWith('?') && single.length <= 200 && !single.includes('|'));
+
+      if (isShortQuestion && single) {
+        result.push(
+          <p key={blockKey++} className="mb-2 mt-5 text-[17px] font-semibold text-gray-900 leading-snug first:mt-0">
+            {single}
+          </p>
+        );
+        continue;
+      }
+
+      if (paraLines.length === 1 && shouldUseLatex(paraLines[0])) {
+        result.push(
+          <div key={blockKey++} className="mb-4 overflow-x-auto rounded-xl border border-slate-100 bg-slate-50/50 px-4 py-3 text-[15px]">
+            <Latex>{paraLines[0]}</Latex>
+          </div>
+        );
+        continue;
+      }
+
+      const isFormulaLine =
+        paraLines.length === 1 &&
+        /=\s*\(/.test(single ?? '') &&
+        (single?.includes('x 100') || single?.includes('× 100') || single?.includes('* 100'));
+
+      if (isFormulaLine && single) {
+        result.push(
+          <div
+            key={blockKey++}
+            className="my-4 rounded-xl border px-4 py-3 font-mono text-[15px] font-medium text-gray-900 shadow-sm sm:text-base"
+            style={{
+              borderColor: colors.light,
+              backgroundColor: colors.ultraLight,
+            }}
+          >
+            {single}
+          </div>
+        );
+        continue;
+      }
+
       result.push(
-        <div key={i} className="min-h-[1.5em]">
-          <Latex>{line}</Latex>
-        </div>
+        <p key={blockKey++} className="mb-4 text-[15px] text-gray-700 leading-relaxed last:mb-0">
+          {paraLines.map((pl, pi) => {
+            const t = pl.trim();
+            return (
+              <span key={pi}>
+                {pi > 0 ? <br /> : null}
+                {shouldUseLatex(pl) ? <Latex>{pl}</Latex> : t}
+              </span>
+            );
+          })}
+        </p>
       );
-      i++;
     }
 
     return result;
@@ -170,53 +392,67 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
 
   return (
     <section className="w-full max-w-7xl mx-auto px-4 py-12">
-      <div className="bg-white rounded-xl shadow-lg border border-gray-200">
+      <div className="bg-white rounded-2xl shadow-lg border border-slate-200/90 ring-1 ring-slate-900/5 overflow-hidden">
         {/* Header */}
-        <div className="px-6 py-8 border-b border-gray-200">
-          <div className="text-center">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">How to Use This Calculator</h2>
-            <p className="text-gray-600">Step-by-step guide to get accurate results</p>
+        <div
+          className="px-6 py-9 sm:px-10 border-b border-slate-200/80"
+          style={{ background: `linear-gradient(180deg, ${colors.ultraLight} 0%, #ffffff 100%)` }}
+        >
+          <div className="text-center max-w-2xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2 tracking-tight">
+              How to Use This Calculator
+            </h2>
+            <p className="text-gray-600 text-[15px] sm:text-base leading-relaxed">
+              Step-by-step guide to get accurate results
+            </p>
           </div>
         </div>
 
         {/* Sections */}
         {data.sections && data.sections.length > 0 && (
-          <div className="px-6 py-8 space-y-8">
+          <div className="px-6 sm:px-10 py-8 sm:py-10 space-y-10 sm:space-y-12">
             {data.sections.map((section, sectionIndex) => (
-              <div key={sectionIndex} className="space-y-4">
-                <div className="flex items-start gap-4">
+              <div key={sectionIndex} className="space-y-5">
+                <div className="flex items-start gap-4 sm:gap-5">
                   <div
-                    className="w-8 h-8 rounded-lg flex items-center justify-center text-white font-semibold text-sm flex-shrink-0"
+                    className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center text-white font-bold text-sm sm:text-base flex-shrink-0 shadow-md"
                     style={{ backgroundColor: colors.primary }}
                   >
                     {sectionIndex + 1}
                   </div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-3">{section.heading}</h3>
+                  <div className="flex-1 min-w-0 pt-0.5">
+                    <h3 className="text-xl sm:text-[1.35rem] font-semibold text-gray-900 mb-4 leading-snug">
+                      {section.heading}
+                    </h3>
 
-                    {/* ✅ Render content only if exists */}
                     {section.content && (
-                      <div className="text-gray-700 leading-relaxed space-y-1">
-                        {renderContent(section.content)}
+                      <div className="text-gray-700 leading-relaxed [&>:first-child]:mt-0">
+                        {section.displayType === 'icon-bullets-features'
+                          ? renderIconBullets(section.content, 'features')
+                          : section.displayType === 'icon-bullets-usecases'
+                            ? renderIconBullets(section.content, 'use-cases')
+                            : renderContent(section.content)}
                       </div>
                     )}
                   </div>
                 </div>
 
-                {/* Subsections */}
                 {section.subSections && section.subSections.length > 0 && (
-                  <div className="ml-12 space-y-3">
+                  <div className="ml-0 sm:ml-[3.25rem] space-y-3.5">
                     {section.subSections.map((subSection, subIndex) => (
                       <div
                         key={subIndex}
-                        className="p-4 rounded-lg border"
+                        className="p-5 sm:p-6 rounded-xl border border-slate-200/90 bg-white shadow-sm hover:shadow-md transition-shadow duration-200"
                         style={{
-                          backgroundColor: colors.ultraLight,
-                          borderColor: colors.light,
+                          borderLeftWidth: 4,
+                          borderLeftStyle: 'solid',
+                          borderLeftColor: colors.primary,
                         }}
                       >
-                        <h4 className="font-semibold text-gray-900 mb-2">{subSection.heading}</h4>
-                        <div className="text-gray-700 text-sm space-y-1">
+                        <h4 className="font-semibold text-gray-900 mb-3 text-[15px] sm:text-base leading-snug">
+                          {subSection.heading}
+                        </h4>
+                        <div className="text-gray-700 text-[15px] leading-relaxed [&>:first-child]:mt-0 [&_ul]:my-4 [&_ol]:my-4">
                           {renderContent(subSection.content)}
                         </div>
                       </div>
@@ -230,16 +466,23 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
 
         {/* FAQs */}
         {data.faq && data.faq.length > 0 && (
-          <div className="border-t border-gray-200 px-6 py-8 bg-gray-50">
-            <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Frequently Asked Questions</h3>
+          <div className="border-t border-slate-200/80 px-6 sm:px-10 py-9 sm:py-10 bg-gradient-to-b from-slate-50/90 to-slate-50">
+            <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-8 text-center tracking-tight">
+              Frequently Asked Questions
+            </h3>
 
-            <div className="space-y-4">
+            <div className="max-w-3xl mx-auto space-y-3">
               {data.faq.map((item, index) => (
-                <details key={index} className="group">
-                  <summary className="flex items-center justify-between cursor-pointer p-4 rounded-lg bg-white border border-gray-200 hover:border-gray-300 transition-colors">
-                    <h4 className="font-medium text-gray-900 pr-4">{item.question}</h4>
+                <details
+                  key={index}
+                  className="group rounded-xl border border-slate-200/90 bg-white shadow-sm hover:border-slate-300/90 transition-colors overflow-hidden"
+                >
+                  <summary className="flex items-center justify-between cursor-pointer list-none p-4 sm:p-5 gap-3 [&::-webkit-details-marker]:hidden">
+                    <span className="font-medium text-gray-900 text-[15px] sm:text-base leading-snug pr-2">
+                      {item.question}
+                    </span>
                     <div
-                      className="w-6 h-6 rounded flex items-center justify-center group-open:rotate-180 transition-transform flex-shrink-0"
+                      className="w-8 h-8 rounded-lg flex items-center justify-center group-open:rotate-180 transition-transform flex-shrink-0 shadow-sm"
                       style={{ backgroundColor: colors.primary }}
                     >
                       <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -247,8 +490,8 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
                       </svg>
                     </div>
                   </summary>
-                  <div className="px-4 pb-4 pt-2">
-                    <div className="text-gray-700 text-sm leading-relaxed space-y-1">
+                  <div className="px-4 sm:px-5 pb-5 pt-0 border-t border-slate-100">
+                    <div className="text-gray-700 text-[15px] leading-relaxed pt-4 [&>:first-child]:mt-0">
                       {renderContent(item.answer)}
                     </div>
                   </div>

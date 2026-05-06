@@ -1,10 +1,10 @@
 {
   "category": "Math",
-  "categoryDescription": "Free online math tool to calculate percentage decrease between two numbers with full step-by-step working.",
+  "categoryDescription": "Free online tool to calculate percentage decrease between the original value and the new lower value, with full step-by-step working.",
   "formula": "Percentage Decrease = ((Original Value - New Value) / Original Value) x 100",
   "formulaDescription": "Subtract the new value from the original value, divide by the original value, and multiply by 100. That gives you the percentage decrease.",
   "pageTitle": "Percentage Decrease Calculator",
-  "pageDescription": "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
+  "pageDescription": "Calculate percentage decrease between two numbers instantly. Enter original and new values — get accurate results with full step-by-step working. No login required.",
   "form": {
     "title": "Find % Decrease Between Two Numbers",
     "labels": {

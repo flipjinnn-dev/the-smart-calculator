@@ -1,7 +1,15 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import Script from "next/script";
-import { getCanonicalUrl } from "@/lib/url-utils";
+import { getLocalizedCalculatorUrl } from "@/lib/url-utils";
+
+const SITE_ORIGIN = "https://www.thesmartcalculator.com";
+const MG_TO_ML_EN_PATH = "/physics/mg-to-ml-calculator";
+
+function absoluteUrlFromPath(path: string): string {
+  const p = path.startsWith("/") ? path : `/${path}`;
+  return `${SITE_ORIGIN}${p}`;
+}
 
 // Multilingual SEO metadata for mg-to-ml-calculator
 const mgToMlCalculatorMeta = {
@@ -192,10 +200,13 @@ export async function generateMetadata(): Promise<Metadata> {
 
   const meta = mgToMlCalculatorMeta[language as keyof typeof mgToMlCalculatorMeta];
 
-  // Generate correct canonical URL using localized slug
-  const canonicalUrl = getCanonicalUrl('mg-to-ml-calculator', language, 'physics');
+  const canonicalUrl = absoluteUrlFromPath(MG_TO_ML_EN_PATH);
+
+  const localizedAbsolute = (langCode: string) =>
+    absoluteUrlFromPath(getLocalizedCalculatorUrl(MG_TO_ML_EN_PATH, langCode));
 
   return {
+    metadataBase: new URL(SITE_ORIGIN),
     title: {
       absolute: meta.title,
     },
@@ -204,13 +215,13 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        'x-default': getCanonicalUrl('mg-to-ml-calculator', 'en', 'physics'),
-        'en': getCanonicalUrl('mg-to-ml-calculator', 'en', 'physics'),
-        'es': getCanonicalUrl('mg-to-ml-calculator', 'es', 'physics'),
-        'pt-BR': getCanonicalUrl('mg-to-ml-calculator', 'br', 'physics'),
-        'pl': getCanonicalUrl('mg-to-ml-calculator', 'pl', 'physics'),
-        'de': getCanonicalUrl('mg-to-ml-calculator', 'de', 'physics'),
-      }
+        "x-default": localizedAbsolute("en"),
+        en: localizedAbsolute("en"),
+        es: localizedAbsolute("es"),
+        "pt-BR": localizedAbsolute("br"),
+        pl: localizedAbsolute("pl"),
+        de: localizedAbsolute("de"),
+      },
     },
     openGraph: {
       title: meta.title,

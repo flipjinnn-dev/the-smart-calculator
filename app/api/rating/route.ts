@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@sanity/client';
+import { isSanityConfigured } from '@/lib/sanity/config';
 
 const client = createClient({
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
@@ -10,6 +11,12 @@ const client = createClient({
 });
 
 export async function POST(req: NextRequest) {
+  if (!isSanityConfigured) {
+    return NextResponse.json(
+      { message: 'Ratings are disabled until Sanity environment variables are configured.' },
+      { status: 503 }
+    );
+  }
   try {
     const body = await req.json();
     const { entityId, entityType, rating } = body;

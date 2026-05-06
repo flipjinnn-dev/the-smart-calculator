@@ -1,0 +1,38 @@
+{
+  "pageTitle": "UF GPA Calculator",
+  "pageSubtitle": "Enter your grades and credit hours this free UF GPA Calculator instantly applies UF's official grading scale and gives you your accurate semester, cumulative, or science GPA in seconds.",
+  "form": {
+    "headers": {
+      "course": "Course",
+      "grade": "Grade (points)",
+      "credits": "Credits"
+    },
+    "placeholders": {
+      "course": "e.g. MAC2311",
+      "credits": "0"
+    },
+    "gradePlaceholder": "Select grade",
+    "addRow": "Add course",
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "priorSectionTitle": "Prior UF coursework (optional)",
+    "priorSectionHint": "Add your cumulative GPA and total UF credits earned before this semester to include them in your cumulative GPA.",
+    "priorGpaLabel": "Prior cumulative GPA",
+    "priorCreditsLabel": "Prior credits (UF)",
+    "includePrior": "Include prior cumulative GPA"
+  },
+  "results": {
+    "title": "Your results",
+    "gpa": "Cumulative GPA",
+    "semesterGpa": "This term only (rows above)",
+    "gradePoints": "Total quality points",
+    "credits": "Total credits",
+    "dpc": "Grade point deficit (GPD)",
+    "dpcHint": "At the 2.0 standard: (2.0 × total credits) − total quality points when below good standing. Shown as 0 if your cumulative GPA is 2.0 or higher."
+  },
+  "errors": {
+    "needRow": "Add at least one course with credits and a grade.",
+    "invalidCredits": "Credits must be greater than 0.",
+    "invalidPrior": "Prior GPA must be between 0 and 4, and prior credits must be greater than 0."
+  }
+}

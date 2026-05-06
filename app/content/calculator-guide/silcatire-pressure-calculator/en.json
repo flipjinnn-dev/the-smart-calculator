@@ -1,0 +1,60 @@
+{
+  "color": "teal",
+  "sections": [
+    {
+      "heading": "What is this bike tire pressure calculator?",
+      "content": "This professional cycling pressure tool is built on SILCA's real-world research and wind tunnel testing data. It calculates separate front and rear PSI for road bikes, gravel bikes, MTB, and cyclocross. It supports clincher, tubeless, and TPU tube setups.\n\nUnlike basic pressure charts, this PSI calculator factors in eight variables simultaneously. Weight distribution on a bicycle is never equal, so your front and rear tires always need different pressures. The tool handles this automatically.\n\nReal-world testing shows that even a 2 PSI adjustment can completely change your ride feel — especially on rough or mixed surfaces.\n\nFrom real-world riding, slightly lowering PSI on rough roads improves comfort without sacrificing speed — a small change most riders overlook."
+    },
+    {
+      "heading": "Tire pressure formula",
+      "content": "Core logic:\n\nPSI = (System Weight × Weight Distribution %) ÷ (Contact Patch Factor × Surface Coefficient)\n\n- Front tire carries 45–48% of total weight\n- Rear tire carries 52–55% of total weight\n- Tubeless setups deduct 5–10 PSI from clincher baseline\n- Temperature shifts pressure ~2% per 10°C change\n\nRecalculate whenever you switch surfaces or seasons."
+    },
+    {
+      "heading": "Quick PSI reference table",
+      "content": "Use this as a quick reference before calculating your exact PSI:\n\n| Bike type | Tire setup | Front PSI | Rear PSI |\n| --- | --- | --- | --- |\n| Road bike | Clincher (butyl) | 72–88 | 78–95 |\n| Road bike | Tubeless | 65–80 | 70–85 |\n| Gravel bike | Tubeless | 28–38 | 32–42 |\n| Gravel bike | Clincher | 35–48 | 40–52 |\n| MTB hardtail | Tubeless | 20–28 | 22–30 |\n| MTB full suspension | Tubeless | 18–25 | 20–27 |\n| Cyclocross | Tubeless | 25–33 | 28–36 |\n| Hookless rim | Tubeless only | Max 73 PSI | Max 73 PSI |\n\nAlways cross-check against your rim and tire manufacturer's maximum rating."
+    },
+    {
+      "heading": "Use cases — road, gravel, MTB, tubeless & hookless",
+      "displayType": "icon-bullets-usecases",
+      "content": "- Gravel tire pressure - Lower PSI improves traction and vibration absorption on loose surfaces. Select surface roughness to match real conditions. Adjust PSI for comfort — gravel riders often drop 2–3 PSI mid-ride on rougher sections.\n- Mountain bike pressure - MTB tubeless runs the lowest PSI of any setup. Full-suspension bikes often perform better at the lower end of the recommended range. Recalculate when switching from trail to more aggressive terrain.\n- Hookless rim systems - Hookless rims are capped at 73 PSI (5 bar) per ETRTO standards. This calculator can flag that automatically — never override this limit.\n- TPU tubes - TPU tubes run slightly lower than butyl. Choose TPU in the tire type menu (or the closest match to your setup) for output that tracks your casing behavior better."
+    },
+    {
+      "heading": "Troubleshooting — common issues",
+      "content": "- Results seem too low? - Use real tire width for best results — measure your actual mounted width with a caliper. Labeled width is almost always narrower than mounted width.\n- Results seem too high? - Switch your surface to a rougher category. Selecting smooth road on cracked pavement often overestimates PSI.\n- Calculator not loading? - Clear browser cache or switch browsers. The tool requires JavaScript enabled to run.\n- Hookless warning showing? - Never exceed the 73 PSI cap — going over risks tire blowout and serious injury."
+    },
+    {
+      "heading": "Summary",
+      "content": "Use this professional bike tire pressure calculator before every ride to maximize speed, comfort, and grip. Enter your system weight, actual tire width, surface type, and tire setup to get precise front and rear PSI instantly. Even a small 2 PSI change can significantly impact your performance on road, gravel, or trail.\n\nRecalculate your PSI whenever your weight, terrain, or tire setup changes to always maintain optimal performance.\n\nAlways verify output against your rim and tire manufacturer's stated maximum PSI — especially on hookless setups."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How accurate is this PSI calculator?",
+      "answer": "It is highly accurate when you enter correct inputs — especially actual mounted tire width, not labeled width. Results land within 2–3 PSI of optimal pressure for most riders. Accuracy drops only when users enter estimated weights or incorrect surface categories."
+    },
+    {
+      "question": "Is this tool accurate for tubeless setups?",
+      "answer": "Yes. Tubeless mode automatically reduces PSI by 5–10 compared to clincher baseline. Tubeless tires deform more efficiently at lower pressure, which cuts rolling resistance and improves cornering grip without pinch flat risk."
+    },
+    {
+      "question": "SILCA vs SRAM tire pressure calculator — which is better?",
+      "answer": "SILCA factors in more variables — surface category, casing type, riding speed, and weight distribution. SRAM AXS mainly uses rider weight and tire width. Most experienced riders agree that SILCA gives more terrain-specific results, especially for gravel and MTB riding."
+    },
+    {
+      "question": "Does this bike pressure tool work for mountain bikes?",
+      "answer": "Yes. It uses MTB-specific weight distribution (46.5/53.5) and adjusts for aggressive terrain. For full suspension setups, always run the lower end of the suggested PSI range for better traction and control on technical trails."
+    },
+    {
+      "question": "How do I calculate pressure for hookless rims?",
+      "answer": "Select tubeless tire type — hookless rims are incompatible with inner tubes at performance pressures. The tool automatically caps output at 73 PSI (5 bar) to comply with ETRTO hookless safety standards. Never override this limit."
+    },
+    {
+      "question": "Why does the calculator give different front and rear PSI?",
+      "answer": "Because weight distribution on a bicycle is never equal. Road bikes place about 48% of load on the front wheel and 52% on the rear. Running equal pressure on both increases rear rolling resistance and reduces front-end grip at the same time."
+    },
+    {
+      "question": "Is there a SILCA tire pressure calculator app?",
+      "answer": "There is no standalone app currently available. The tool runs as a fully mobile-optimized web calculator — no download or account required. It works smoothly on all smartphones and tablets without any setup."
+    }
+  ]
+}

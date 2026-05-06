@@ -5,6 +5,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const canonicalUrl = "https://www.thesmartcalculator.com/depop-fee-calculator"
 
   return {
+    metadataBase: new URL("https://www.thesmartcalculator.com"),
     title: {
       absolute: "Depop Fee Calculator — Calculate Your Exact Profit",
     },
