@@ -1,9 +1,9 @@
 {
-  "color": "red",
+  "color": "purple",
   "sections": [
     {
       "heading": "What Is a Percentage Decrease Calculator?",
-      "content": "A Percentage Decrease Calculator is a free online tool that helps you calculate percentage decrease between two numbers, the original value and the new lower value, instantly and without errors.\n\nTrying to find percentage decrease manually is easy to get wrong, especially with decimals or large numbers. This percent decrease calculator removes all guesswork. Enter your two numbers and get the result in seconds, along with full step-by-step working.\n\nWhether you are a student, professional, or anyone comparing before-and-after values this tool gives you accurate answers fast.\n\nWith this Percentage Decrease Calculator, you can:\n\n- Calculate percentage decrease between any two numbers instantly\n- Find percentage decrease with full step-by-step formula shown\n- Use it for prices, scores, weights, sales figures, or any numeric data\n- Detect percentage increase automatically if values are entered in reverse\n- Get results on mobile, tablet, or desktop — no login required"
+      "content": "A **Percentage Decrease Calculator** is a free online tool that helps you **calculate percentage decrease** between two numbers, the original value and the new lower value, instantly and without errors.\n\nTrying to **find percentage decrease** manually is easy to get wrong, especially with decimals or large numbers. This **percent decrease calculator** removes all guesswork. Enter your two numbers and get the result in seconds, along with full step-by-step working.\n\nWhether you are a student, professional, or anyone comparing before-and-after values this tool gives you accurate answers fast.\n\n**With this Percentage Decrease Calculator, you can:**\n\n- Calculate percentage decrease between any two numbers instantly\n- Find percentage decrease with full step-by-step formula shown\n- Use it for prices, scores, weights, sales figures, or any numeric data\n- Detect percentage increase automatically if values are entered in reverse\n- Get results on mobile, tablet, or desktop — no login required"
     },
     {
       "heading": "How to Use the Percent Decrease Calculator",
@@ -65,7 +65,7 @@
     },
     {
       "heading": "Percentage Decrease vs Percentage Increase",
-      "content": "| | Percentage Decrease | Percentage Increase |\n| --- | --- | --- |\n| When to use | New value is lower than original | New value is higher than original |\n| Formula | ((Original - New) / Original) x 100 | ((New - Original) / Original) x 100 |\n| Result | Positive percentage (drop) | Positive percentage (rise) |\n| Division | Always by original value | Always by original value |\n\nBoth formulas divide by the original value. The only difference is the order of subtraction."
+      "content": "| | **Percentage Decrease** | **Percentage Increase** |\n| --- | --- | --- |\n| When to use | New value is lower than original | New value is higher than original |\n| Formula | ((Original – New) ÷ Original) × 100 | ((New – Original) ÷ Original) × 100 |\n| Result | Positive percentage (drop) | Positive percentage (rise) |\n| Division | Always by original value | Always by original value |\n\nBoth formulas divide by the original value. The only difference is the order of subtraction."
     },
     {
       "heading": "Calculator Features",
@@ -76,10 +76,6 @@
       "heading": "Where Percentage Decrease Is Used in Real Life",
       "displayType": "icon-bullets-usecases",
       "content": "- Retail and Shopping - Verify whether a store discount is as large as advertised. A drop from $120 to $90 is exactly a 25% decrease.\n- Finance and Investing - Track drops in stock prices, portfolio values, and revenue figures over any time period.\n- Health and Fitness - Measure progress in body weight, blood pressure, or cholesterol using actual percentage change.\n- Business and Sales - Identify underperforming periods by calculating the percentage decrease in sales, leads, or conversions month over month.\n- Education - Compare test scores between two attempts to measure academic improvement or decline.\n- Economics - Measure percentage decrease in unemployment, GDP, or inflation to track economic direction."
-    },
-    {
-      "heading": "Summary",
-      "content": "The Percentage Decrease Calculator finds how much a value has dropped between two numbers instantly. Enter your original and new value, and it applies the formula ((Original - New) / Original) x 100 with full step-by-step working. Fast, free, and no login required."
     }
   ],
   "faq": [
@@ -110,6 +106,12 @@
     {
       "question": "How do I calculate percentage decrease in Excel?",
       "answer": "Use this Excel formula: =((A1-B1)/A1)*100 where A1 is the original value and B1 is the new value."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "The Percentage Decrease Calculator finds how much a value has dropped between two numbers instantly. Enter your original and new value, and it applies the formula ((Original - New) / Original) x 100 with full step-by-step working. Fast, free, and no login required."
     }
   ]
 }

@@ -4,7 +4,7 @@
   "formula": "Percentage Decrease = ((Original Value - New Value) / Original Value) x 100",
   "formulaDescription": "Subtract the new value from the original value, divide by the original value, and multiply by 100. That gives you the percentage decrease.",
   "pageTitle": "Percentage Decrease Calculator",
-  "pageDescription": "Calculate percentage decrease between two numbers instantly. Enter original and new values — get accurate results with full step-by-step working. No login required.",
+  "pageDescription": "",
   "form": {
     "title": "Find % Decrease Between Two Numbers",
     "labels": {

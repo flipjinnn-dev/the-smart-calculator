@@ -1,4 +1,20 @@
-import type { ReactElement } from 'react';
+import type { ReactElement, ReactNode } from 'react';
+
+/** Renders `**bold**` in guide strings as semantic bold. */
+function renderInlineWithBold(text: string): ReactNode {
+  const parts = text.split(/(\*\*[\s\S]*?\*\*)/g);
+  return parts.map((part, i) => {
+    const m = part.match(/^\*\*([\s\S]*?)\*\*$/);
+    if (m) {
+      return (
+        <strong key={i} className="font-semibold text-gray-900">
+          {m[1]}
+        </strong>
+      );
+    }
+    return part ? <span key={i}>{part}</span> : null;
+  });
+}
 import 'katex/dist/katex.min.css';
 import Latex from 'react-latex-next';
 import {
@@ -19,7 +35,15 @@ import {
   Building2,
   FlaskConical,
   School,
+  BookOpen,
+  HelpCircle,
 } from 'lucide-react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
 
 interface FAQ {
   question: string
@@ -42,10 +66,14 @@ export interface CalculatorGuideData {
   color: string
   sections: Section[]
   faq: FAQ[]
+  /** Rendered after FAQ (e.g. closing Summary). Article layout: same card styles as main sections. */
+  sectionsAfterFaq?: Section[]
 }
 
 interface CalculatorGuideProps {
   data: CalculatorGuideData
+  /** Stacked article cards + accordion FAQ (matches Combination Sum long-form pages). */
+  layout?: 'default' | 'article'
 }
 
 const getColorVariants = (color: string) => {
@@ -109,9 +137,11 @@ const getColorVariants = (color: string) => {
   return colorMap[color] || colorMap.blue
 }
 
-export default function CalculatorGuide({ data }: CalculatorGuideProps) {
-  // If no data or empty sections/faq, don't render anything
-  if (!data || (!data.sections || data.sections.length === 0) && (!data.faq || data.faq.length === 0)) {
+export default function CalculatorGuide({ data, layout = 'default' }: CalculatorGuideProps) {
+  const hasSections = (data?.sections?.length ?? 0) > 0
+  const hasFaq = (data?.faq?.length ?? 0) > 0
+  const hasAfterFaq = (data?.sectionsAfterFaq?.length ?? 0) > 0
+  if (!data || (!hasSections && !hasFaq && !hasAfterFaq)) {
     return null;
   }
 
@@ -202,6 +232,15 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
       return row.includes('|') && sep.includes('---');
     };
 
+    /** Pipe row like `| a | b |` → ['a','b']; keeps empty cells (e.g. corner `| | H1 | H2 |`). */
+    const parseTableRow = (line: string): string[] => {
+      const t = line.trim();
+      if (!t.includes('|')) return [];
+      const parts = t.split('|');
+      if (parts.length < 3) return [];
+      return parts.slice(1, -1).map((c) => c.trim());
+    };
+
     while (i < lines.length) {
       const trimmed = lines[i].trim();
       if (!trimmed) {
@@ -217,10 +256,8 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
           j++;
         }
         if (tableLines.length >= 2) {
-          const headers = tableLines[0].split('|').map((h) => h.trim()).filter(Boolean);
-          const rows = tableLines.slice(2).map((row) =>
-            row.split('|').map((cell) => cell.trim()).filter(Boolean)
-          );
+          const headers = parseTableRow(tableLines[0]);
+          const rows = tableLines.slice(2).map((row) => parseTableRow(row));
           const k = blockKey++;
           result.push(
             <div key={k} className="my-6 overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-md ring-1 ring-slate-900/5">
@@ -233,7 +270,13 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
                           key={idx}
                           className="border-b border-slate-200 px-4 py-3.5 text-left text-sm font-bold text-slate-800 tracking-wide first:pl-5 last:pr-5 sm:px-5"
                         >
-                          {header}
+                          {header === '' ? (
+                            <span className="block min-w-[1rem]" aria-hidden="true">
+                              &nbsp;
+                            </span>
+                          ) : (
+                            renderInlineWithBold(header)
+                          )}
                         </th>
                       ))}
                     </tr>
@@ -249,7 +292,7 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
                             key={cellIdx}
                             className="border-b border-slate-100 px-4 py-3.5 text-[15px] text-slate-700 leading-relaxed align-top first:pl-5 last:pr-5 sm:px-5"
                           >
-                            {cell}
+                            {renderInlineWithBold(cell)}
                           </td>
                         ))}
                       </tr>
@@ -282,7 +325,7 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
                   style={{ backgroundColor: colors.primary }}
                   aria-hidden
                 />
-                <span className="min-w-0 flex-1">{item}</span>
+                <span className="min-w-0 flex-1">{renderInlineWithBold(item)}</span>
               </li>
             ))}
           </ul>
@@ -308,7 +351,7 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
           >
             {items.map((item, idx) => (
               <li key={idx} className="pl-1">
-                {shouldUseLatex(item) ? <Latex>{item}</Latex> : item}
+                {shouldUseLatex(item) ? <Latex>{item}</Latex> : renderInlineWithBold(item)}
               </li>
             ))}
           </ol>
@@ -336,7 +379,7 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
       if (isShortQuestion && single) {
         result.push(
           <p key={blockKey++} className="mb-2 mt-5 text-[17px] font-semibold text-gray-900 leading-snug first:mt-0">
-            {single}
+            {renderInlineWithBold(single)}
           </p>
         );
         continue;
@@ -379,7 +422,7 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
             return (
               <span key={pi}>
                 {pi > 0 ? <br /> : null}
-                {shouldUseLatex(pl) ? <Latex>{pl}</Latex> : t}
+                {shouldUseLatex(pl) ? <Latex>{pl}</Latex> : renderInlineWithBold(t)}
               </span>
             );
           })}
@@ -389,6 +432,141 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
 
     return result;
   };
+
+  if (layout === 'article') {
+    const articleSectionShells = [
+      'bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg',
+      'bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg',
+      'bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg',
+      'bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg',
+      'bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg',
+    ]
+    const subBorderClasses = [
+      'border-purple-600',
+      'border-blue-600',
+      'border-green-600',
+      'border-orange-600',
+    ]
+
+    return (
+      <section className="w-full max-w-7xl mx-auto px-4 pb-12">
+        <div className="space-y-12">
+          {(data.sections ?? []).map((section, sectionIndex) => (
+            <div
+              key={sectionIndex}
+              className={articleSectionShells[sectionIndex % articleSectionShells.length]}
+            >
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                {sectionIndex === 0 ? (
+                  <BookOpen className="w-8 h-8 text-purple-600 shrink-0" aria-hidden />
+                ) : null}
+                <span>{section.heading}</span>
+              </h2>
+
+              {section.content ? (
+                <div className="space-y-4 text-gray-700 leading-relaxed [&>:first-child]:mt-0">
+                  {section.displayType === 'icon-bullets-features'
+                    ? renderIconBullets(section.content, 'features')
+                    : section.displayType === 'icon-bullets-usecases'
+                      ? renderIconBullets(section.content, 'use-cases')
+                      : renderContent(section.content)}
+                </div>
+              ) : null}
+
+              {section.subSections && section.subSections.length > 0 ? (
+                <div className="mt-6 space-y-4">
+                  {section.subSections.map((subSection, subIndex) => (
+                    <div
+                      key={subIndex}
+                      className={`bg-white p-4 sm:p-6 rounded-lg border-l-4 shadow-sm ${subBorderClasses[subIndex % subBorderClasses.length]}`}
+                    >
+                      <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">
+                        {subSection.heading}
+                      </h3>
+                      <div className="text-gray-700 leading-relaxed text-[15px] [&>:first-child]:mt-0 [&_ul]:my-4 [&_ol]:my-4">
+                        {renderContent(subSection.content)}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          ))}
+        </div>
+
+        {data.faq && data.faq.length > 0 ? (
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg mt-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+              <HelpCircle className="w-8 h-8 text-purple-600 shrink-0" aria-hidden />
+              Frequently Asked Questions
+            </h2>
+            <Accordion type="single" collapsible className="w-full space-y-3">
+              {data.faq.map((item, index) => (
+                <AccordionItem
+                  key={index}
+                  value={`faq-article-${index}`}
+                  className="border border-gray-200 rounded-xl px-4 bg-white shadow-sm data-[state=open]:ring-2 data-[state=open]:ring-purple-100 data-[state=open]:border-purple-200"
+                >
+                  <AccordionTrigger className="text-left text-base font-semibold py-5 hover:no-underline hover:text-purple-700">
+                    {item.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed pb-5 text-[15px] border-t border-gray-100">
+                    <div className="pt-4 [&>:first-child]:mt-0">{renderContent(item.answer)}</div>
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        ) : null}
+
+        {(data.sectionsAfterFaq ?? []).length > 0 ? (
+          <div className="space-y-12 mt-12">
+            {(data.sectionsAfterFaq ?? []).map((section, idx) => {
+              const sectionIndex = (data.sections?.length ?? 0) + idx
+              return (
+                <div
+                  key={`after-faq-${idx}`}
+                  className={articleSectionShells[sectionIndex % articleSectionShells.length]}
+                >
+                  <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                    <span>{section.heading}</span>
+                  </h2>
+
+                  {section.content ? (
+                    <div className="space-y-4 text-gray-700 leading-relaxed [&>:first-child]:mt-0">
+                      {section.displayType === 'icon-bullets-features'
+                        ? renderIconBullets(section.content, 'features')
+                        : section.displayType === 'icon-bullets-usecases'
+                          ? renderIconBullets(section.content, 'use-cases')
+                          : renderContent(section.content)}
+                    </div>
+                  ) : null}
+
+                  {section.subSections && section.subSections.length > 0 ? (
+                    <div className="mt-6 space-y-4">
+                      {section.subSections.map((subSection, subIndex) => (
+                        <div
+                          key={subIndex}
+                          className={`bg-white p-4 sm:p-6 rounded-lg border-l-4 shadow-sm ${subBorderClasses[subIndex % subBorderClasses.length]}`}
+                        >
+                          <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">
+                            {subSection.heading}
+                          </h3>
+                          <div className="text-gray-700 leading-relaxed text-[15px] [&>:first-child]:mt-0 [&_ul]:my-4 [&_ol]:my-4">
+                            {renderContent(subSection.content)}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
+                </div>
+              )
+            })}
+          </div>
+        ) : null}
+      </section>
+    )
+  }
 
   return (
     <section className="w-full max-w-7xl mx-auto px-4 py-12">
@@ -498,6 +676,64 @@ export default function CalculatorGuide({ data }: CalculatorGuideProps) {
                 </details>
               ))}
             </div>
+          </div>
+        )}
+
+        {data.sectionsAfterFaq && data.sectionsAfterFaq.length > 0 && (
+          <div className="border-t border-slate-200/80 px-6 sm:px-10 py-8 sm:py-10 space-y-10 sm:space-y-12">
+            {data.sectionsAfterFaq.map((section, sectionIndex) => {
+              const globalIndex = (data.sections?.length ?? 0) + sectionIndex
+              return (
+                <div key={`after-faq-${sectionIndex}`} className="space-y-5">
+                  <div className="flex items-start gap-4 sm:gap-5">
+                    <div
+                      className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center text-white font-bold text-sm sm:text-base flex-shrink-0 shadow-md"
+                      style={{ backgroundColor: colors.primary }}
+                    >
+                      {globalIndex + 1}
+                    </div>
+                    <div className="flex-1 min-w-0 pt-0.5">
+                      <h3 className="text-xl sm:text-[1.35rem] font-semibold text-gray-900 mb-4 leading-snug">
+                        {section.heading}
+                      </h3>
+
+                      {section.content && (
+                        <div className="text-gray-700 leading-relaxed [&>:first-child]:mt-0">
+                          {section.displayType === 'icon-bullets-features'
+                            ? renderIconBullets(section.content, 'features')
+                            : section.displayType === 'icon-bullets-usecases'
+                              ? renderIconBullets(section.content, 'use-cases')
+                              : renderContent(section.content)}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {section.subSections && section.subSections.length > 0 && (
+                    <div className="ml-0 sm:ml-[3.25rem] space-y-3.5">
+                      {section.subSections.map((subSection, subIndex) => (
+                        <div
+                          key={subIndex}
+                          className="p-5 sm:p-6 rounded-xl border border-slate-200/90 bg-white shadow-sm hover:shadow-md transition-shadow duration-200"
+                          style={{
+                            borderLeftWidth: 4,
+                            borderLeftStyle: 'solid',
+                            borderLeftColor: colors.primary,
+                          }}
+                        >
+                          <h4 className="font-semibold text-gray-900 mb-3 text-[15px] sm:text-base leading-snug">
+                            {subSection.heading}
+                          </h4>
+                          <div className="text-gray-700 text-[15px] leading-relaxed [&>:first-child]:mt-0 [&_ul]:my-4 [&_ol]:my-4">
+                            {renderContent(subSection.content)}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )
+            })}
           </div>
         )}
       </div>
