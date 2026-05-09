@@ -2,7 +2,7 @@
 
 import { signIn, useSession } from 'next-auth/react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader } from '@/components/ui/card';
 import { Chrome, Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
@@ -30,7 +30,6 @@ export default function SignInPage() {
   }
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 p-4 relative overflow-hidden">
-      <h1 className="sr-only">Sign In to Smart Calculator</h1>
       {/* Background decorative elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-pink-400/20 to-orange-400/20 rounded-full blur-3xl" />
@@ -40,9 +39,10 @@ export default function SignInPage() {
           <div className="mx-auto w-20 h-20 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
             <Chrome className="w-10 h-10 text-white" />
           </div>
-          <CardTitle className="text-3xl font-bold text-gray-900">
-            Welcome Back!
-          </CardTitle>
+          <h1 className="text-3xl font-bold text-gray-900">
+            Sign In
+          </h1>
+          <p className="text-lg font-semibold text-gray-800">Welcome back!</p>
           <CardDescription className="text-base text-gray-600 px-4">
             Sign in with your Google account to access the community
           </CardDescription>
