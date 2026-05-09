@@ -386,7 +386,10 @@ export default function HomePage({ content, language, authors }: HomeClientProps
                   dangerouslySetInnerHTML={{ __html: contentData.hero.title || "Your life in <span class=\"bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent\">100+ free</span> calculators" }}
                 />
                 <div className="animate-in fade-in slide-in-from-bottom-7 duration-700 delay-300">
-                  <div className="bg-white p-2 rounded-3xl shadow-xl shadow-blue-900/5 border border-blue-50 ring-1 ring-black/5 max-w-lg mx-auto lg:mx-0 relative z-[100]">
+                  <div
+                    id="hero-search"
+                    className="bg-white p-2 rounded-3xl shadow-xl shadow-blue-900/5 border border-blue-50 ring-1 ring-black/5 max-w-lg mx-auto lg:mx-0 relative z-[100] scroll-mt-24"
+                  >
                     <SearchBar language={language} onFocusChange={setIsSearchFocused} />
                   </div>
                   <p className="mt-4 text-sm text-gray-400 font-medium pl-2 flex items-center justify-center lg:justify-start gap-2">

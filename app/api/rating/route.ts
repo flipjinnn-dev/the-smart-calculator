@@ -6,13 +6,23 @@ const isSanityConfigured =
   process.env.NEXT_PUBLIC_SANITY_PROJECT_ID !== '00000000' &&
   Boolean(process.env.NEXT_PUBLIC_SANITY_DATASET);
 
-const client = createClient({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
-  apiVersion: '2024-01-01',
-  token: process.env.SANITY_API_TOKEN, // Critical: Server-side token with write permissions
-  useCdn: false, // We need fresh data for writes
-});
+// Placeholder projectId so module load succeeds during `next build` without env (matches lib/sanity/config.ts).
+const client = createClient(
+  isSanityConfigured
+    ? {
+        projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
+        dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
+        apiVersion: '2024-01-01',
+        token: process.env.SANITY_API_TOKEN,
+        useCdn: false,
+      }
+    : {
+        projectId: '00000000',
+        dataset: 'production',
+        apiVersion: '2024-01-01',
+        useCdn: true,
+      }
+);
 
 export async function POST(req: NextRequest) {
   if (!isSanityConfigured) {

@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { headers } from 'next/headers';
 import Image from 'next/image';
 import Link from 'next/link';
 import { formatDistanceToNow } from 'date-fns';
@@ -27,8 +28,9 @@ function stripHeadElements(html: string): string {
   return html
     .replace(/<meta\s+[^>]*\/?>/gi, '')
     .replace(/<meta\s+[^>]*>.*?<\/meta>/gi, '')
-    .replace(/<link\s+[^>]*\/?>/gi, '')
-    .replace(/<link\s+[^>]*>.*?<\/link>/gi, '')
+    // `<link>` (hreflang, canonical, etc.) must live in <head> only — match multiline tags
+    .replace(/<link\b[\s\S]*?>/gi, '')
+    .replace(/<\/link>/gi, '')
     .replace(/<title\s*[^>]*>[\s\S]*?<\/title>/gi, '')
     .replace(/<script\s+[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, '')
     .replace(/<script\s+[^>]*>[\s\S]*?<\/script>/gi, '')
@@ -108,6 +110,20 @@ function resolvePostMetaDescription(post: {
   return 'Read this post on our community platform.';
 }
 
+const SITE_ORIGIN = 'https://www.thesmartcalculator.com';
+
+function communityPostHreflangLanguages(slug: string): Record<string, string> {
+  const enUrl = `${SITE_ORIGIN}/community/post/${slug}`;
+  return {
+    'x-default': enUrl,
+    en: enUrl,
+    de: `${SITE_ORIGIN}/de/community/post/${slug}`,
+    pl: `${SITE_ORIGIN}/pl/community/post/${slug}`,
+    'pt-BR': `${SITE_ORIGIN}/br/community/post/${slug}`,
+    es: `${SITE_ORIGIN}/es/community/post/${slug}`,
+  };
+}
+
 export async function generateMetadata({ params }: PostPageProps) {
   try {
     const { slug } = await params;
@@ -122,7 +138,11 @@ export async function generateMetadata({ params }: PostPageProps) {
       };
     }
 
-    const postUrl = `https://www.thesmartcalculator.com/community/post/${slug}`;
+    const headersList = await headers();
+    const pathname =
+      headersList.get('x-pathname') || `/community/post/${slug}`;
+    const path = pathname.startsWith('/') ? pathname : `/${pathname}`;
+    const canonicalUrl = `${SITE_ORIGIN}${path}`;
     const description = resolvePostMetaDescription(post);
     
     // Use featured image if available, otherwise use default
@@ -141,17 +161,14 @@ export async function generateMetadata({ params }: PostPageProps) {
       },
       description: description,
       alternates: {
-        canonical: postUrl,
-        languages: {
-          'x-default': postUrl,
-          'en': postUrl,
-        }
+        canonical: canonicalUrl,
+        languages: communityPostHreflangLanguages(slug),
       },
       openGraph: {
         title: post.title,
         description: description,
         type: 'article',
-        url: postUrl,
+        url: canonicalUrl,
         siteName: 'Smart Calculator',
         images: [
           {

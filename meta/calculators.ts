@@ -3945,6 +3945,16 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "depop fee calculator, depop fees, depop selling fee, depop transaction fee, depop fee calculator us, depop fee calculator uk, depop fee calculator australia, depop processing fee, depop boosted listing fee, depop profit calculator, depop payout calculator, free depop calculator, depop fee and transaction fee calculator, depop seller fees 2026, depop 0 percent fee, depop vs poshmark fees, depop shipping fees, depop bundle fees, depop refund fees"
     }
   },
+  "uf-gpa-calculator": {
+    en: {
+      title: "UF GPA Calculator | Calculate GPA Instantly UF",
+      description:
+        "Use UF GPA Calculator to calculate semester, cumulative, science & transfer GPA instantly with UF grading scale. 100% free and accurate tool.",
+      slug: "/uf-gpa-calculator",
+      keywords:
+        "UF GPA calculator, University of Florida GPA, UF grading scale, UF cumulative GPA, UF semester GPA, UF grade point deficit, GPD calculator UF, UF science GPA, UF transfer GPA, GPA calculator Gainesville, UF plus minus grades, UF F grade GPA",
+    },
+  },
   "cpv-calculator": {
     en: {
       title: "CPV Calculator – Calculate Cost Per View Free Online",

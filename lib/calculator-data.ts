@@ -1234,6 +1234,15 @@ export const calculators: Calculator[] = [
     popular: false,
   },
   {
+    id: "uf-gpa-calculator",
+    name: "UF GPA Calculator",
+    description:
+      "University of Florida GPA calculator — semester & cumulative GPA, UF grade points, credits, and grade point deficit (DPC) using the official scale.",
+    href: "/uf-gpa-calculator",
+    category: "other",
+    popular: false,
+  },
+  {
     id: "cpv-calculator",
     name: "CPV Calculator",
     description: "Calculate cost per view for video ads. Free CPV calculator for YouTube, Google Ads with CPV to CPM converter",

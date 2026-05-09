@@ -5,13 +5,12 @@ import { calculatorsMeta } from "@/meta/calculators";
 import AmortizationCalculatorClient from "./amortization-calculator-client";
 
 const CALCULATOR_ID = "amortization-calculator";
-const SITE_ORIGIN = "https://www.thesmartcalculator.com";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
-  const pathname = headersList.get("x-pathname") || "/financial/amortization-calculator";
-  const canonicalUrl = `${SITE_ORIGIN}${pathname.startsWith("/") ? pathname : `/${pathname}`}`;
+  /** Always use meta slugs so canonical matches hreflang (avoids mixed URLs like /de/financial/amortization-calculator). */
+  const canonicalUrl = getCanonicalUrl(CALCULATOR_ID, language);
 
   const meta =
     calculatorsMeta[CALCULATOR_ID]?.[language] || calculatorsMeta[CALCULATOR_ID]?.en;
