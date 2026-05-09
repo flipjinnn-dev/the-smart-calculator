@@ -105,6 +105,21 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/financial/refinance-calculator',
+        destination: '/financial/mortgage-calculator',
+        permanent: true,
+      },
+      {
+        source: '/physics/density-calculator',
+        destination: '/physics/mg-to-ml-calculator',
+        permanent: true,
+      },
+      {
+        source: '/physics/mass-calculator',
+        destination: '/physics/mg-to-ml-calculator',
+        permanent: true,
+      },
+      {
         source: '/clash-royale-wheel',
         destination: '/games/clash-royale-wheel',
         permanent: true,

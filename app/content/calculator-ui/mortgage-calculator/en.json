@@ -292,7 +292,7 @@
       { "name": "Amortization Calculator", "href": "/financial/amortization-calculator", "desc": "Generate a full payment-by-payment amortization schedule for any loan" },
       { "name": "Mortgage Payoff Calculator", "href": "/financial/mortgage-payoff-calculator", "desc": "Find your exact payoff date and calculate how extra payments affect it" },
       { "name": "House Affordability Calculator", "href": "/financial/house-affordability-calculator", "desc": "Determine the maximum home price you can afford based on income and debts" },
-      { "name": "Refinance Calculator", "href": "/financial/refinance-calculator", "desc": "Compare your current mortgage to a new loan offer and calculate break-even date" }
+      { "name": "Refinance Calculator", "href": "/financial/mortgage-calculator", "desc": "Model payments, rates, and term changes — the same math used when comparing a refinance" }
     ]
   },
 
