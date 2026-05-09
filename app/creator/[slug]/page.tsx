@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getAuthorBySlug } from '@/lib/sanity/client';
+import { HOMEPAGE_FALLBACK_AUTHORS } from '@/lib/homepage-fallback-authors';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
@@ -26,9 +27,22 @@ export const revalidate = 3600;
 export const dynamic = 'force-static';
 export const dynamicParams = true;
 
+function getFallbackAuthor(slug: string) {
+  const fallback = HOMEPAGE_FALLBACK_AUTHORS.find((author) => author.slug === slug);
+  if (!fallback) return null;
+
+  return {
+    ...fallback,
+    bio: `${fallback.name} is an expert contributor at Smart Calculator, focused on practical and accurate tools for everyday use.`,
+    social: undefined,
+    posts: [],
+    calculators: [],
+  };
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const author = await getAuthorBySlug(slug);
+  const author = (await getAuthorBySlug(slug)) || getFallbackAuthor(slug);
   
   if (!author) {
     return {
@@ -85,6 +99,9 @@ export default async function CreatorPage({ params }: PageProps) {
   
   // Fetch real data from Sanity
   let author = await getAuthorBySlug(slug);
+  if (!author) {
+    author = getFallbackAuthor(slug);
+  }
 
   if (!author) {
     notFound();
