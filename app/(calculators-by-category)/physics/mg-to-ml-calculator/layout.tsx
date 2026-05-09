@@ -200,10 +200,23 @@ export async function generateMetadata(): Promise<Metadata> {
 
   const meta = mgToMlCalculatorMeta[language as keyof typeof mgToMlCalculatorMeta];
 
-  const canonicalUrl = absoluteUrlFromPath(MG_TO_ML_EN_PATH);
+  const pathname =
+    headerList.get("x-pathname") || MG_TO_ML_EN_PATH;
+  const canonicalUrl = absoluteUrlFromPath(pathname);
 
   const localizedAbsolute = (langCode: string) =>
     absoluteUrlFromPath(getLocalizedCalculatorUrl(MG_TO_ML_EN_PATH, langCode));
+
+  const ogLocale =
+    language === "br"
+      ? "pt_BR"
+      : language === "de"
+        ? "de_DE"
+        : language === "pl"
+          ? "pl_PL"
+          : language === "es"
+            ? "es_ES"
+            : "en_US";
 
   return {
     metadataBase: new URL(SITE_ORIGIN),
@@ -228,6 +241,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description: meta.description,
       type: "website",
       url: canonicalUrl,
+      locale: ogLocale,
       siteName: "Smart Calculator",
       images: [
         {

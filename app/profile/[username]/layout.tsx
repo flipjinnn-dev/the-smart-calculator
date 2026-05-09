@@ -1,39 +1,42 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { normalizeUsername, createUsernameSlug } from "@/lib/utils/username-slug";
+import {
+  alternateLanguagesForEnglishPath,
+  canonicalFromRequestPathname,
+} from "@/lib/seo-hreflang";
 
-export async function generateMetadata({ params }: { params: { username: string } }): Promise<Metadata> {
+interface ProfileLayoutParams {
+  params: Promise<{ username: string }>;
+}
+
+export async function generateMetadata({ params }: ProfileLayoutParams): Promise<Metadata> {
   try {
-    // Normalize username from slug
     const { username: rawUsername } = await params;
     const username = normalizeUsername(rawUsername);
     const usernameSlug = createUsernameSlug(username);
-    
-    // Create properly slugified URL
-    const profileUrl = `https://www.thesmartcalculator.com/profile/${usernameSlug}`;
+    const englishPath = `/profile/${usernameSlug}`;
+
+    const headersList = await headers();
+    const pathname = headersList.get("x-pathname") || englishPath;
+    const canonicalUrl = canonicalFromRequestPathname(pathname);
 
     return {
       title: `${username}'s Profile - Community`,
       description: `View ${username}'s profile, posts, and contributions on The Smart Calculator community.`,
       alternates: {
-        canonical: profileUrl,
-        languages: {
-          'x-default': profileUrl,
-          'en': profileUrl,
-          'pt-BR': profileUrl,
-          'pl': profileUrl,
-          'de': profileUrl,
-          'es': profileUrl,
-        }
+        canonical: canonicalUrl,
+        languages: alternateLanguagesForEnglishPath(englishPath),
       },
       openGraph: {
         title: `${username}'s Profile`,
         description: `View ${username}'s profile and contributions on The Smart Calculator community.`,
-        type: 'profile',
-        url: profileUrl,
-        siteName: 'Smart Calculator',
+        type: "profile",
+        url: canonicalUrl,
+        siteName: "Smart Calculator",
         images: [
           {
-            url: '/og-image.png',
+            url: "/og-image.png",
             width: 1200,
             height: 630,
             alt: `${username}'s Profile`,
@@ -41,28 +44,28 @@ export async function generateMetadata({ params }: { params: { username: string 
         ],
       },
       twitter: {
-        card: 'summary_large_image',
+        card: "summary_large_image",
         title: `${username}'s Profile`,
         description: `View ${username}'s profile and contributions on The Smart Calculator community.`,
-        images: ['/og-image.png'],
+        images: ["/og-image.png"],
       },
     };
   } catch (error) {
-    console.error('Error generating profile metadata:', error);
+    console.error("Error generating profile metadata:", error);
     return {
-      title: 'User Profile - Community',
-      description: 'View user profile on The Smart Calculator community.',
+      title: "User Profile - Community",
+      description: "View user profile on The Smart Calculator community.",
       openGraph: {
-        title: 'User Profile',
-        description: 'View user profile on The Smart Calculator community.',
-        type: 'profile',
-        siteName: 'Smart Calculator',
+        title: "User Profile",
+        description: "View user profile on The Smart Calculator community.",
+        type: "profile",
+        siteName: "Smart Calculator",
         images: [
           {
-            url: '/og-image.png',
+            url: "/og-image.png",
             width: 1200,
             height: 630,
-            alt: 'User Profile',
+            alt: "User Profile",
           },
         ],
       },

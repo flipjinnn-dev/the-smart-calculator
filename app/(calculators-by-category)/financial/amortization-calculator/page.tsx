@@ -6,6 +6,29 @@ import AmortizationCalculatorClient from "./amortization-calculator-client";
 
 const CALCULATOR_ID = "amortization-calculator";
 
+function amortizationHreflangLanguages(
+  canonicalUrl: string,
+  language: string
+): Record<string, string> {
+  const base: Record<string, string> = {
+    "x-default": getCanonicalUrl(CALCULATOR_ID, "en"),
+    en: getCanonicalUrl(CALCULATOR_ID, "en"),
+    "pt-BR": getCanonicalUrl(CALCULATOR_ID, "br"),
+    pl: getCanonicalUrl(CALCULATOR_ID, "pl"),
+    de: getCanonicalUrl(CALCULATOR_ID, "de"),
+    es: getCanonicalUrl(CALCULATOR_ID, "es"),
+  }
+  const hreflangKey =
+    language === "br" ? "pt-BR" : language === "en" ? "en" : language
+  if (hreflangKey === "en") {
+    base.en = canonicalUrl
+    base["x-default"] = canonicalUrl
+  } else if (hreflangKey in base) {
+    base[hreflangKey] = canonicalUrl
+  }
+  return base
+}
+
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
@@ -21,14 +44,7 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: meta?.keywords || "amortization, calculator, loan schedule",
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        "x-default": getCanonicalUrl(CALCULATOR_ID, "en"),
-        en: getCanonicalUrl(CALCULATOR_ID, "en"),
-        "pt-BR": getCanonicalUrl(CALCULATOR_ID, "br"),
-        pl: getCanonicalUrl(CALCULATOR_ID, "pl"),
-        de: getCanonicalUrl(CALCULATOR_ID, "de"),
-        es: getCanonicalUrl(CALCULATOR_ID, "es"),
-      },
+      languages: amortizationHreflangLanguages(canonicalUrl, language),
     },
     openGraph: {
       title: meta?.title || "Amortization Calculator",
