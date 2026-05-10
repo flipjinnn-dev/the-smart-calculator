@@ -121,6 +121,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'sourdough-calculator') return 'sourdough-calculator';
   if (id === 'lmtd-calculator') return 'lmtd-calculator';
   if (id === 'combination-sum-calculator') return 'combination-sum-calculator';
+  if (id === 'mixed-fraction-calculator') return 'mixed-fraction-calculator';
   if (id === 'blox-fruits-wheel') return 'blox-fruits-wheel';
   if (id === 'celebrity-wheel') return 'celebrity-wheel';
   if (id === 'candy-wheel') return 'candy-wheel';
@@ -1409,6 +1410,15 @@ export const calculators: Calculator[] = [
     name: "Combination Sum Calculator",
     description: "Find all unique groups of numbers that add up to a target value. Supports number reuse, backtracking algorithm for budget & programming",
     href: "/maths/combination-sum-calculator",
+    category: "maths",
+    popular: false,
+  },
+  {
+    id: "mixed-fraction-calculator",
+    name: "Mixed Fraction Calculator",
+    description:
+      "Solve mixed numbers instantly with step-by-step answers. Add, subtract, multiply, divide, simplify, and convert fractions to decimals easily online.",
+    href: "/maths/calculator/mixed-fraction-calculator",
     category: "maths",
     popular: false,
   },

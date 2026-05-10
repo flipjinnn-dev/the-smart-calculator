@@ -3,14 +3,21 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import MixedFractionCalculatorClient from "./mixed-fraction-calculator-client";
 
+const META_DESCRIPTION =
+  "Solve mixed numbers instantly with step-by-step answers. Add, subtract, multiply, divide, simplify, and convert fractions to decimals easily online.";
+
+const SCHEMA_WEB_APPLICATION_DESCRIPTION =
+  "A mixed fraction calculator solves addition, subtraction, multiplication, and division of mixed numbers instantly. It also converts improper fractions into mixed numbers and decimals with simplified results.";
+
+const SCHEMA_PAGE_URL = "https://www.thesmartcalculator.com/maths/calculator/mixed-fraction-calculator";
+
 export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = "https://www.thesmartcalculator.com";
   const canonicalUrl = `${baseUrl}/maths/calculator/mixed-fraction-calculator`;
 
   return {
     title: "Mixed Fraction Calculator | Mixed Numbers Solver Tool",
-    description:
-      "Mixed fraction calculator for mixed numbers: all four operations, improper fraction and decimal conversion, GCF simplification, and step-by-step working — free online.",
+    description: META_DESCRIPTION,
     alternates: {
       canonical: canonicalUrl,
       languages: {
@@ -20,8 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     openGraph: {
       title: "Mixed Fraction Calculator | Mixed Numbers Solver Tool",
-      description:
-        "Mixed fraction calculator for mixed numbers: all four operations, improper fraction and decimal conversion, GCF simplification, and step-by-step working — free online.",
+      description: META_DESCRIPTION,
       url: canonicalUrl,
       type: "website",
       images: [{ url: `${baseUrl}/og-image.png`, width: 1200, height: 630, alt: "Mixed Fraction Calculator" }],
@@ -29,8 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: "Mixed Fraction Calculator | Mixed Numbers Solver Tool",
-      description:
-        "Mixed fraction calculator for mixed numbers: all four operations, improper fraction and decimal conversion, GCF simplification, and step-by-step working — free online.",
+      description: META_DESCRIPTION,
     },
   };
 }
@@ -60,29 +65,46 @@ export default async function MixedFractionCalculatorPage() {
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thesmartcalculator.com/" },
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://www.thesmartcalculator.com/",
+          },
           {
             "@type": "ListItem",
             position: 2,
             name: "Mixed Fraction Calculator",
-            item: "https://www.thesmartcalculator.com/maths/calculator/mixed-fraction-calculator",
+            item: SCHEMA_PAGE_URL,
           },
         ],
       },
       {
         "@type": "WebApplication",
         name: "Mixed Fraction Calculator | The Smart Calculator",
-        description:
-          "Mixed fraction calculator for mixed numbers: all four operations, improper fraction and decimal conversion, GCF simplification, and step-by-step working — free online.",
+        description: SCHEMA_WEB_APPLICATION_DESCRIPTION,
         applicationCategory: "CalculatorApplication",
         operatingSystem: "Web",
         softwareVersion: "9.2.1",
         url: "https://www.thesmartcalculator.com/",
-        mainEntityOfPage: "https://www.thesmartcalculator.com/maths/calculator/mixed-fraction-calculator",
+        mainEntityOfPage: SCHEMA_PAGE_URL,
         image: "https://www.thesmartcalculator.com/logo.png",
-        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-        aggregateRating: { "@type": "AggregateRating", ratingValue: "4.5", ratingCount: "2500", bestRating: "5", worstRating: "1" },
-        author: { "@type": "Organization", name: "Felix Yacoub" },
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "USD",
+        },
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "4.5",
+          ratingCount: "2500",
+          bestRating: "5",
+          worstRating: "1",
+        },
+        author: {
+          "@type": "Organization",
+          name: "Felix Yacoub",
+        },
       },
       {
         "@type": "FAQPage",
@@ -92,7 +114,7 @@ export default async function MixedFractionCalculatorPage() {
             name: "How does a mixed fraction calculator with steps work?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "It converts each mixed number to an improper fraction, applies your selected operation, finds the LCD for addition and subtraction, then simplifies using GCF — showing every stage separately.",
+              text: "It converts each mixed number to an improper fraction, applies your selected operation, finds the LCD for addition and subtraction, then simplifies using GCF showing every stage separately.",
             },
           },
           {
@@ -108,7 +130,7 @@ export default async function MixedFractionCalculatorPage() {
             name: "How does the improper fraction to mixed number calculator work?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Divide numerator by denominator. The quotient becomes the whole number, the remainder becomes the new numerator. For example 17 ÷ 5 = 3 remainder 2, so 17/5 = 3 2/5.",
+              text: "Divide numerator by denominator. Quotient becomes the whole number, remainder becomes the new numerator. For example 17 ÷ 5 = 3 remainder 2, so 17/5 = 3 2/5.",
             },
           },
           {
@@ -116,7 +138,7 @@ export default async function MixedFractionCalculatorPage() {
             name: "How do I simplify mixed fractions to lowest terms?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Find the GCF of numerator and denominator, then divide both by it. For 6/8, GCF is 2 — result is 3/4. Enable the simplify toggle to handle this automatically.",
+              text: "Find the GCF of numerator and denominator, then divide both by it. For 6/8 GCF is 2 result is 3/4. Enable the simplify toggle to handle this automatically.",
             },
           },
           {
@@ -124,7 +146,7 @@ export default async function MixedFractionCalculatorPage() {
             name: "Does the mixed fraction to decimal calculator work for all operations?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Yes. Select \"Decimal\" as output format. For example 2 3/4 becomes 2 + 0.75 = 2.75. Works for addition, subtraction, multiplication, and division results.",
+              text: "Yes. Select Decimal as output format. For example 2 3/4 becomes 2 + 0.75 = 2.75. Works for addition, subtraction, multiplication, and division results.",
             },
           },
           {

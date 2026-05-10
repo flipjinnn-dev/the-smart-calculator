@@ -4117,6 +4117,14 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "combination sum calculator, combination sum, number combination sum calculator, find combinations that equal a sum, combination sum problem, backtracking calculator, combination sum calculator online, free combination sum calculator, combination sum excel, combination sum google sheets, how to find combinations that add up to a number, combination sum algorithm, leetcode combination sum, combination sum type 1, combination sum type 2, combination sum with repetition, combination sum without repetition, budget reconciliation calculator, invoice matching calculator, combination vs permutation, combination sum vs combination formula, nCr vs combination sum, combination sum interview question, programming interview calculator, recursive combination calculator, subset sum calculator"
     }
   },
+  "mixed-fraction-calculator": {
+    en: {
+      title: "Mixed Fraction Calculator – Mixed Numbers, Operations & Step-by-Step",
+      description: "Solve mixed numbers instantly with step-by-step answers. Add, subtract, multiply, divide, simplify, and convert fractions to decimals easily online.",
+      slug: "/maths/calculator/mixed-fraction-calculator",
+      keywords: "mixed fraction calculator, mixed number calculator, mixed numbers calculator, add mixed fractions, subtract mixed fractions, multiply mixed fractions, divide mixed fractions, improper fraction to mixed number, mixed number to improper fraction, simplify mixed fractions, GCF mixed fractions, fraction calculator with steps, mixed fraction calculator with steps, decimal to mixed number, free mixed fraction calculator, online mixed number calculator"
+    }
+  },
   "blox-fruits-wheel": {
     en: {
       title: "Blox Fruits Wheel Spin – Random Fruit, Sword & Race",

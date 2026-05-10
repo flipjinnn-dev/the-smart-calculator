@@ -141,101 +141,126 @@ export default function MixedFractionCalculatorClient({ content, guideContent }:
     return toMixedText(p.res);
   }, [parsed, outputFormat]);
 
+  const inputClass =
+    "h-11 bg-white rounded-xl border-2 border-gray-200 shadow-sm focus-visible:border-purple-400 focus-visible:ring-purple-200";
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-sky-50">
-      <main className="max-w-6xl mx-auto px-4 py-8">
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-3">{content?.pageTitle || "Mixed Fraction Calculator"}</h1>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
+      <div className="container mx-auto px-4 py-12 max-w-7xl">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600 bg-clip-text text-transparent">
+            {content?.pageTitle || "Mixed Fraction Calculator"}
+          </h1>
+          <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
             {content?.pageDescription ||
               "Solve mixed numbers instantly with step-by-step answers. Add, subtract, multiply, divide, simplify, and convert fractions to decimals easily online."}
           </p>
         </div>
 
-        <Card className="shadow-xl border-0">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Calculator className="w-5 h-5 text-indigo-600" />
-              Mixed Numbers Solver
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-5">
-            <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-4 items-end">
-              <div className="grid grid-cols-3 gap-2">
-                <Input className="bg-white" value={aWhole} onChange={(e) => setAWhole(e.target.value)} placeholder="Whole" type="number" />
-                <Input className="bg-white" value={aNum} onChange={(e) => setANum(e.target.value)} placeholder="Num" type="number" />
-                <Input className="bg-white" value={aDen} onChange={(e) => setADen(e.target.value)} placeholder="Den" type="number" />
+        <div className="mb-12">
+          <Card className="border-2 border-purple-200 shadow-xl overflow-hidden">
+            <CardHeader className="py-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+              <CardTitle className="text-2xl sm:text-3xl flex items-center gap-3">
+                <Calculator className="w-8 h-8 shrink-0" aria-hidden />
+                {content?.pageTitle || "Mixed Fraction Calculator"}
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="p-6 sm:p-8 space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-4 md:gap-5 items-end">
+                <div className="grid grid-cols-3 gap-2 sm:gap-3">
+                  <Input className={inputClass} value={aWhole} onChange={(e) => setAWhole(e.target.value)} placeholder="Whole" type="number" />
+                  <Input className={inputClass} value={aNum} onChange={(e) => setANum(e.target.value)} placeholder="Num" type="number" />
+                  <Input className={inputClass} value={aDen} onChange={(e) => setADen(e.target.value)} placeholder="Den" type="number" />
+                </div>
+
+                <select
+                  value={operation}
+                  onChange={(e) => setOperation(e.target.value as Operation)}
+                  className="h-11 w-full md:w-auto min-w-[3.5rem] rounded-xl border-2 border-purple-200 bg-white px-3 text-center text-lg font-semibold text-gray-900 shadow-sm focus:border-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-200"
+                  aria-label="Operation"
+                >
+                  <option value="add">+</option>
+                  <option value="subtract">−</option>
+                  <option value="multiply">×</option>
+                  <option value="divide">÷</option>
+                </select>
+
+                <div className="grid grid-cols-3 gap-2 sm:gap-3">
+                  <Input className={inputClass} value={bWhole} onChange={(e) => setBWhole(e.target.value)} placeholder="Whole" type="number" />
+                  <Input className={inputClass} value={bNum} onChange={(e) => setBNum(e.target.value)} placeholder="Num" type="number" />
+                  <Input className={inputClass} value={bDen} onChange={(e) => setBDen(e.target.value)} placeholder="Den" type="number" />
+                </div>
               </div>
 
-              <select
-                value={operation}
-                onChange={(e) => setOperation(e.target.value as Operation)}
-                className="h-10 rounded-md border px-3 bg-white"
-              >
-                <option value="add">+</option>
-                <option value="subtract">-</option>
-                <option value="multiply">×</option>
-                <option value="divide">÷</option>
-              </select>
-
-              <div className="grid grid-cols-3 gap-2">
-                <Input className="bg-white" value={bWhole} onChange={(e) => setBWhole(e.target.value)} placeholder="Whole" type="number" />
-                <Input className="bg-white" value={bNum} onChange={(e) => setBNum(e.target.value)} placeholder="Num" type="number" />
-                <Input className="bg-white" value={bDen} onChange={(e) => setBDen(e.target.value)} placeholder="Den" type="number" />
+              <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+                <span className="text-sm font-medium text-gray-700 w-full sm:w-auto">Output format:</span>
+                <Button
+                  type="button"
+                  variant="outline"
+                  className={
+                    outputFormat === "mixed"
+                      ? "rounded-xl border-purple-600 bg-gradient-to-r from-purple-600 to-blue-600 text-white hover:from-purple-700 hover:to-blue-700 hover:text-white"
+                      : "rounded-xl border-gray-200 bg-white hover:bg-purple-50"
+                  }
+                  onClick={() => setOutputFormat("mixed")}
+                >
+                  Mixed
+                </Button>
+                <Button
+                  type="button"
+                  variant="outline"
+                  className={
+                    outputFormat === "improper"
+                      ? "rounded-xl border-purple-600 bg-gradient-to-r from-purple-600 to-blue-600 text-white hover:from-purple-700 hover:to-blue-700 hover:text-white"
+                      : "rounded-xl border-gray-200 bg-white hover:bg-purple-50"
+                  }
+                  onClick={() => setOutputFormat("improper")}
+                >
+                  Improper
+                </Button>
+                <Button
+                  type="button"
+                  variant="outline"
+                  className={
+                    outputFormat === "decimal"
+                      ? "rounded-xl border-purple-600 bg-gradient-to-r from-purple-600 to-blue-600 text-white hover:from-purple-700 hover:to-blue-700 hover:text-white"
+                      : "rounded-xl border-gray-200 bg-white hover:bg-purple-50"
+                  }
+                  onClick={() => setOutputFormat("decimal")}
+                >
+                  Decimal
+                </Button>
               </div>
-            </div>
 
-            <div className="flex flex-wrap items-center gap-3">
-              <span className="text-sm text-gray-600">Output format:</span>
-              <Button
-                variant="outline"
-                className={outputFormat === "mixed" ? "bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-700 hover:text-white" : "bg-white"}
-                onClick={() => setOutputFormat("mixed")}
-              >
-                Mixed
-              </Button>
-              <Button
-                variant="outline"
-                className={outputFormat === "improper" ? "bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-700 hover:text-white" : "bg-white"}
-                onClick={() => setOutputFormat("improper")}
-              >
-                Improper
-              </Button>
-              <Button
-                variant="outline"
-                className={outputFormat === "decimal" ? "bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-700 hover:text-white" : "bg-white"}
-                onClick={() => setOutputFormat("decimal")}
-              >
-                Decimal
-              </Button>
-            </div>
+              <Card className="bg-gradient-to-br from-purple-50 to-blue-50 border-2 border-purple-100 shadow-md">
+                <CardContent className="pt-6 sm:pt-8">
+                  {"error" in parsed ? (
+                    <p className="text-red-600 font-medium">{parsed.error}</p>
+                  ) : (
+                    <div className="space-y-4">
+                      <div className="flex flex-wrap items-center gap-3 text-xl sm:text-2xl font-bold text-gray-900">
+                        <Sigma className="w-6 h-6 text-purple-600 shrink-0" aria-hidden />
+                        <span>
+                          Result: <span className="text-purple-800">{resultText}</span>
+                        </span>
+                        <Equal className="w-6 h-6 text-purple-600 shrink-0" aria-hidden />
+                      </div>
 
-            <Card className="bg-indigo-50 border-indigo-200">
-              <CardContent className="pt-6">
-                {"error" in parsed ? (
-                  <p className="text-red-600 font-medium">{parsed.error}</p>
-                ) : (
-                  <div className="space-y-4">
-                    <div className="flex items-center gap-3 text-2xl font-bold text-gray-900">
-                      <Sigma className="w-5 h-5 text-indigo-600" />
-                      <span>Result: {resultText}</span>
-                      <Equal className="w-5 h-5 text-indigo-600" />
+                      <div className="bg-white rounded-xl p-4 sm:p-5 border-2 border-gray-200 shadow-sm">
+                        <p className="font-semibold text-gray-900 mb-2">Step-by-step</p>
+                        <ol className="list-decimal pl-5 space-y-1.5 text-sm text-gray-700 leading-relaxed">
+                          {parsed.steps.map((s, i) => (
+                            <li key={i}>{s}</li>
+                          ))}
+                        </ol>
+                      </div>
                     </div>
-
-                    <div className="bg-white rounded-lg p-4 border">
-                      <p className="font-semibold text-sm mb-2">Step-by-step</p>
-                      <ol className="list-decimal pl-5 space-y-1 text-sm text-gray-700">
-                        {parsed.steps.map((s, i) => (
-                          <li key={i}>{s}</li>
-                        ))}
-                      </ol>
-                    </div>
-                  </div>
-                )}
-              </CardContent>
-            </Card>
-          </CardContent>
-        </Card>
+                  )}
+                </CardContent>
+              </Card>
+            </CardContent>
+          </Card>
+        </div>
 
         <div className="mt-10">
           <RatingProfileSection
@@ -247,10 +272,18 @@ export default function MixedFractionCalculatorClient({ content, guideContent }:
           />
         </div>
 
-        <div className="mt-10">
-          <CalculatorGuide data={guideContent || { color: "blue", sections: [], faq: [] }} />
+        <div id="mixed-fraction-guide" className="mt-12 scroll-mt-20">
+          <CalculatorGuide
+            layout="article"
+            data={{
+              sections: [],
+              faq: [],
+              ...guideContent,
+              color: "purple",
+            }}
+          />
         </div>
-      </main>
+      </div>
     </div>
   );
 }

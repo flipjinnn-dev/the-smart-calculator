@@ -98,6 +98,7 @@ const ENGLISH_ONLY_PATHS = [
   '/food/sourdough-calculator',
   '/physics/lmtd-calculator',
   '/maths/combination-sum-calculator',
+  '/maths/calculator/mixed-fraction-calculator',
   // All games
   '/games',
   '/games/blox-fruits-wheel',

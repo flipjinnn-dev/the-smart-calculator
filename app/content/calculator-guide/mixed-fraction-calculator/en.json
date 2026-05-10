@@ -1,5 +1,5 @@
 {
-  "color": "blue",
+  "color": "purple",
   "sections": [
     {
       "heading": "What Is a Mixed Fraction Calculator?",
@@ -50,10 +50,6 @@
     {
       "heading": "Example questions",
       "content": "Here are some example problems you can try with this fraction calculator:\n\n- Find the addition of fractions: 2 1/5 + 3 1/6 = ?\n- Find the addition of fractions: 4 1/2 + 1 5/6 = ?\n- Subtract fractions: 2 1/2 − 1 1/4 = ?\n- Multiply fractions: 1 6/5 × 1 7/8 = ?\n- Find the value of: 1 3/2 ÷ 2 4/5 = ?\n- Find the value of: 2 1/2 ÷ 3 11/12 = ?"
-    },
-    {
-      "heading": "Summary",
-      "content": "Use this mixed fraction calculator and mixed numbers calculator to add, subtract, multiply, and divide mixed numbers with complete step-by-step solutions. It covers all operations, simplification, and conversion between mixed numbers, improper fractions, and decimals. Recalculate whenever your values or operation change to always verify your answer in simplest form."
     }
   ],
   "faq": [
@@ -84,6 +80,12 @@
     {
       "question": "Does this tool work with negative mixed numbers?",
       "answer": "Yes. Enter a negative sign before the whole number. The tool handles negative values across all four operations and shows correct signs throughout every step."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "Use this mixed fraction calculator and mixed numbers calculator to add, subtract, multiply, and divide mixed numbers with complete step-by-step solutions. It covers all operations, simplification, and conversion between mixed numbers, improper fractions, and decimals. Recalculate whenever your values or operation change to always verify your answer in simplest form."
     }
   ]
 }
