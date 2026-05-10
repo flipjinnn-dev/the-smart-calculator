@@ -10,7 +10,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "SILCA Tire Pressure Calculator | Find Perfect PSI",
     description:
-      "Professional bike tire pressure calculator: front & rear PSI for road, gravel & MTB using system weight, real tire width, surface & setup. SILCA-style logic — free online.",
+      "Calculate ideal tire pressure instantly with SILCA calculator. Get accurate PSI for road, gravel & MTB for better speed, grip & comfort.",
     alternates: {
       canonical: canonicalUrl,
       languages: {
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: "SILCA Tire Pressure Calculator | Find Perfect PSI",
       description:
-        "Professional bike tire pressure calculator: front & rear PSI for road, gravel & MTB using system weight, real tire width, surface & setup. SILCA-style logic — free online.",
+        "Calculate ideal tire pressure instantly with SILCA calculator. Get accurate PSI for road, gravel & MTB for better speed, grip & comfort.",
       url: canonicalUrl,
       type: "website",
       images: [{ url: `${baseUrl}/og-image.png`, width: 1200, height: 630, alt: "SILCA Tire Pressure Calculator" }],
@@ -30,7 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: "SILCA Tire Pressure Calculator | Find Perfect PSI",
       description:
-        "Professional bike tire pressure calculator: front & rear PSI for road, gravel & MTB using system weight, real tire width, surface & setup. SILCA-style logic — free online.",
+        "Calculate ideal tire pressure instantly with SILCA calculator. Get accurate PSI for road, gravel & MTB for better speed, grip & comfort.",
     },
   };
 }
@@ -54,18 +54,21 @@ export default async function SilcaTirePressurePage() {
     guideContent = (await import(`@/app/content/calculator-guide/silcatire-pressure-calculator/en.json`)).default;
   }
 
+  const base = "https://www.thesmartcalculator.com";
+  const pageUrl = `${base}/sports/silcatire-pressure-calculator`;
+
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thesmartcalculator.com/" },
+          { "@type": "ListItem", position: 1, name: "Home", item: `${base}/` },
           {
             "@type": "ListItem",
             position: 2,
             name: "SILCA Tire Pressure Calculator",
-            item: "https://www.thesmartcalculator.com/sports/silca-tire-pressure-calculator",
+            item: pageUrl,
           },
         ],
       },
@@ -73,15 +76,21 @@ export default async function SilcaTirePressurePage() {
         "@type": "WebApplication",
         name: "SILCA Tire Pressure Calculator | Find Perfect PSI",
         description:
-          "Professional bike tire pressure calculator for front and rear PSI — road, gravel, and MTB. Uses system weight, mounted tire width, surface, and tire setup. Verify against manufacturer limits.",
+          "The SILCA Tire Pressure Calculator quickly finds your ideal front and rear bike PSI using rider weight, tire width, terrain, and riding style for better speed, comfort, and grip.",
         applicationCategory: "SportsApplication",
         operatingSystem: "Web",
         softwareVersion: "9.2.1",
-        url: "https://www.thesmartcalculator.com/sports/silca-tire-pressure-calculator",
-        mainEntityOfPage: "https://www.thesmartcalculator.com/sports/silca-tire-pressure-calculator",
-        image: "https://www.thesmartcalculator.com/logo.png",
+        url: pageUrl,
+        mainEntityOfPage: pageUrl,
+        image: `${base}/logo.png`,
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-        aggregateRating: { "@type": "AggregateRating", ratingValue: "4.5", ratingCount: "3000", bestRating: "5", worstRating: "1" },
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "4.5",
+          ratingCount: "3000",
+          bestRating: "5",
+          worstRating: "1",
+        },
         author: { "@type": "Organization", name: "Felix Yacoub" },
       },
       {

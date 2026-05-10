@@ -26,3 +26,41 @@ export function alternateLanguagesForEnglishPath(englishPath: string): Record<st
     es: `${SITE_ORIGIN}/es${path}`,
   };
 }
+
+/** BCP-47 keys that match `app/layout.tsx` html lang (Portuguese → pt-BR). */
+export type HreflangLocaleKey = "en" | "de" | "pl" | "pt-BR" | "es";
+
+export function normalizePathname(pathname: string): string {
+  return pathname.startsWith("/") ? pathname : `/${pathname}`;
+}
+
+/**
+ * Locale segment from URL path (middleware `x-pathname`). English has no prefix.
+ */
+export function hreflangKeyFromPathname(pathname: string): HreflangLocaleKey {
+  const p = normalizePathname(pathname);
+  if (p === "/de" || p.startsWith("/de/")) return "de";
+  if (p === "/pl" || p.startsWith("/pl/")) return "pl";
+  if (p === "/br" || p.startsWith("/br/")) return "pt-BR";
+  if (p === "/es" || p.startsWith("/es/")) return "es";
+  return "en";
+}
+
+/**
+ * Ensures hreflang self-reference: the current URL must appear under the correct
+ * `hreflang` for this path (fixes "Not Self-Referencing" in audits).
+ * For English pages, also sets `x-default` to the canonical URL.
+ */
+export function withSelfReferencingHreflang(
+  languages: Record<string, string>,
+  canonicalUrl: string,
+  pathname: string
+): Record<string, string> {
+  const key = hreflangKeyFromPathname(pathname);
+  const out = { ...languages };
+  out[key] = canonicalUrl;
+  if (key === "en") {
+    out["x-default"] = canonicalUrl;
+  }
+  return out;
+}

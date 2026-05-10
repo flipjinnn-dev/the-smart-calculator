@@ -203,7 +203,7 @@ export default function CalculatorGuide({ data, layout = 'default' }: Calculator
               </div>
               <div className="text-[15px] leading-relaxed pt-0.5">
                 <span className="font-semibold text-gray-900">{title}</span>
-                {description ? <span className="text-gray-700"> — {description}</span> : null}
+                {description ? <span className="text-gray-700"> {description}</span> : null}
               </div>
             </li>
           );
@@ -258,17 +258,26 @@ export default function CalculatorGuide({ data, layout = 'default' }: Calculator
         if (tableLines.length >= 2) {
           const headers = parseTableRow(tableLines[0]);
           const rows = tableLines.slice(2).map((row) => parseTableRow(row));
+          const isPsiColumn = (colIdx: number) =>
+            (headers[colIdx]?.toLowerCase() ?? '').includes('psi');
           const k = blockKey++;
           result.push(
-            <div key={k} className="my-6 overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-md ring-1 ring-slate-900/5">
+            <div
+              key={k}
+              className="my-8 overflow-hidden rounded-2xl border-2 border-slate-200/90 bg-white shadow-lg shadow-slate-200/50 ring-1 ring-slate-900/[0.04]"
+            >
               <div className="overflow-x-auto">
-                <table className="min-w-full border-separate border-spacing-0">
-                  <thead className="bg-gradient-to-r from-slate-50 to-slate-100/90">
-                    <tr>
+                <table className="min-w-full border-separate border-spacing-0 text-[15px]">
+                  <thead>
+                    <tr className="bg-gradient-to-br from-slate-800 via-slate-700 to-slate-800 text-white shadow-[inset_0_-1px_0_0_rgba(255,255,255,0.08)]">
                       {headers.map((header, idx) => (
                         <th
                           key={idx}
-                          className="border-b border-slate-200 px-4 py-3.5 text-left text-sm font-bold text-slate-800 tracking-wide first:pl-5 last:pr-5 sm:px-5"
+                          className={
+                            idx === 0
+                              ? 'px-4 py-4 text-left text-xs font-bold uppercase tracking-wider text-white/95 sm:px-5 sm:py-4'
+                              : `border-l border-white/15 px-4 py-4 text-xs font-bold uppercase tracking-wider text-white/95 sm:px-5 sm:py-4 ${isPsiColumn(idx) ? 'text-center' : 'text-left'}`
+                          }
                         >
                           {header === '' ? (
                             <span className="block min-w-[1rem]" aria-hidden="true">
@@ -281,21 +290,29 @@ export default function CalculatorGuide({ data, layout = 'default' }: Calculator
                       ))}
                     </tr>
                   </thead>
-                  <tbody>
+                  <tbody className="divide-y divide-slate-200/90">
                     {rows.map((row, rowIdx) => (
-                      <tr
-                        key={rowIdx}
-                        className={`${rowIdx % 2 === 0 ? 'bg-white' : 'bg-slate-50/60'} transition-colors hover:bg-slate-100/90`}
-                      >
-                        {row.map((cell, cellIdx) => (
-                          <td
-                            key={cellIdx}
-                            className="border-b border-slate-100 px-4 py-3.5 text-[15px] text-slate-700 leading-relaxed align-top first:pl-5 last:pr-5 sm:px-5"
-                          >
-                            {renderInlineWithBold(cell)}
-                          </td>
-                        ))}
-                      </tr>
+                        <tr
+                          key={rowIdx}
+                          className={
+                            rowIdx % 2 === 0
+                              ? 'bg-white transition-colors duration-150 hover:bg-violet-50/50'
+                              : 'bg-slate-50/70 transition-colors duration-150 hover:bg-violet-50/50'
+                          }
+                        >
+                          {row.map((cell, cellIdx) => (
+                            <td
+                              key={cellIdx}
+                              className={
+                                cellIdx === 0
+                                  ? 'px-4 py-3.5 align-middle font-medium text-slate-900 sm:px-5'
+                                  : `border-l border-slate-200/80 px-4 py-3.5 align-middle sm:px-5 ${isPsiColumn(cellIdx) ? 'text-center text-[15px] font-semibold tabular-nums text-slate-900 tracking-tight' : 'text-left text-slate-600'}`
+                              }
+                            >
+                              {renderInlineWithBold(cell)}
+                            </td>
+                          ))}
+                        </tr>
                     ))}
                   </tbody>
                 </table>

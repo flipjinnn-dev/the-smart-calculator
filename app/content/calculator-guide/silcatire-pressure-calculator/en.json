@@ -1,5 +1,5 @@
 {
-  "color": "teal",
+  "color": "purple",
   "sections": [
     {
       "heading": "What is this bike tire pressure calculator?",
@@ -21,10 +21,6 @@
     {
       "heading": "Troubleshooting — common issues",
       "content": "- Results seem too low? - Use real tire width for best results — measure your actual mounted width with a caliper. Labeled width is almost always narrower than mounted width.\n- Results seem too high? - Switch your surface to a rougher category. Selecting smooth road on cracked pavement often overestimates PSI.\n- Calculator not loading? - Clear browser cache or switch browsers. The tool requires JavaScript enabled to run.\n- Hookless warning showing? - Never exceed the 73 PSI cap — going over risks tire blowout and serious injury."
-    },
-    {
-      "heading": "Summary",
-      "content": "Use this professional bike tire pressure calculator before every ride to maximize speed, comfort, and grip. Enter your system weight, actual tire width, surface type, and tire setup to get precise front and rear PSI instantly. Even a small 2 PSI change can significantly impact your performance on road, gravel, or trail.\n\nRecalculate your PSI whenever your weight, terrain, or tire setup changes to always maintain optimal performance.\n\nAlways verify output against your rim and tire manufacturer's stated maximum PSI — especially on hookless setups."
     }
   ],
   "faq": [
@@ -55,6 +51,12 @@
     {
       "question": "Is there a SILCA tire pressure calculator app?",
       "answer": "There is no standalone app currently available. The tool runs as a fully mobile-optimized web calculator — no download or account required. It works smoothly on all smartphones and tablets without any setup."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "Use this professional bike tire pressure calculator before every ride to maximize speed, comfort, and grip. Enter your system weight, actual tire width, surface type, and tire setup to get precise front and rear PSI instantly. Even a small 2 PSI change can significantly impact your performance on road, gravel, or trail.\n\nRecalculate your PSI whenever your weight, terrain, or tire setup changes to always maintain optimal performance.\n\nAlways verify output against your rim and tire manufacturer's stated maximum PSI — especially on hookless setups."
     }
   ]
 }

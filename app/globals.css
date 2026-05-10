@@ -120,6 +120,11 @@
   outline-color: rgba(var(--ring), 0.5);
 }
 
+/* Reserve scrollbar space so Radix Select/Dialog scroll-lock does not shift layout */
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   background-color: var(--background);
   color: var(--foreground);

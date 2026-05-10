@@ -111,6 +111,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'aquarium-substrate-calculator') return 'aquarium-substrate-calculator';
   if (id === 'fix-and-flip-calculator') return 'fix-and-flip-calculator';
   if (id === 'kite-size-calculator') return 'kite-size-calculator';
+  if (id === 'silcatire-pressure-calculator') return 'silcatire-pressure-calculator';
   if (id === 'crochet-calculator') return 'crochet-calculator';
   if (id === 'era-calculator') return 'era-calculator';
   if (id === 'extrapolation-calculator') return 'extrapolation-calculator';
@@ -1327,6 +1328,15 @@ export const calculators: Calculator[] = [
     name: "Kite Size Calculator",
     description: "Calculate ideal kite size for kitesurfing based on weight, wind speed, skill level, and riding style",
     href: "/sports/kite-size-calculator",
+    category: "sports",
+    popular: false,
+  },
+  {
+    id: "silcatire-pressure-calculator",
+    name: "SILCA Tire Pressure Calculator",
+    description:
+      "Calculate ideal bike tire pressure instantly. Accurate front and rear PSI for road, gravel, and MTB using SILCA-style inputs — weight, tire width, surface, and setup.",
+    href: "/sports/silcatire-pressure-calculator",
     category: "sports",
     popular: false,
   },

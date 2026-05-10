@@ -1,8 +1,7 @@
 "use client";
 
 import { useMemo, useState, useRef } from "react";
-import { Gauge, AlertTriangle, ArrowRight } from "lucide-react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Gauge, AlertTriangle, ArrowRight, Activity } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
@@ -117,7 +116,7 @@ const TIRE_WIDTH_MM = Array.from({ length: 46 }, (_, i) => String(20 + i));
 const PSI_TO_BAR = 0.0689475729;
 
 const selectTriggerClass =
-  "h-12 w-full rounded-xl border-gray-200 bg-white text-gray-900 shadow-sm focus:border-cyan-400 focus:ring-cyan-200";
+  "h-12 w-full rounded-xl border-2 border-gray-200 bg-white text-gray-900 shadow-sm focus:border-blue-500 focus:ring-blue-200";
 
 export default function SilcaTirePressureCalculatorClient({ content, guideContent }: Props) {
   const resultsRef = useRef<HTMLDivElement>(null);
@@ -203,58 +202,56 @@ export default function SilcaTirePressureCalculatorClient({ content, guideConten
     (typeof guideContent === "object" && guideContent !== null ? guideContent : {}) as Partial<CalculatorGuideData>;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-cyan-50 to-blue-50">
-      <div className="container mx-auto px-4 py-8 sm:px-6 lg:px-8 max-w-6xl">
-          <header className="text-center mb-8">
-            <div className="flex justify-center mb-4">
-              <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
-                <Gauge className="w-8 h-8 text-white" aria-hidden />
-              </div>
-            </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {content?.pageTitle || "SILCA Tire Pressure Calculator"}
-            </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{content?.pageDescription}</p>
-          </header>
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+      <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="text-center mb-10">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 bg-clip-text text-transparent">
+            {content?.pageTitle || "SILCA Tire Pressure Calculator"}
+          </h1>
+          <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">{content?.pageDescription}</p>
+        </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="lg:col-span-2">
-              <Card className="shadow-2xl border-0 bg-white p-0 overflow-hidden">
-                <CardHeader className="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-t-lg border-b border-cyan-100 px-6 sm:px-8 py-6">
-                  <CardTitle className="flex items-center gap-3 text-2xl text-gray-900">
-                    <Gauge className="w-6 h-6 text-cyan-600 shrink-0" aria-hidden />
-                    <span>{f.cardHeading || "Tire pressure inputs"}</span>
-                  </CardTitle>
-                  <CardDescription className="text-base text-gray-600">
-                    Total system weight, surface, tire width, wheel size, casing type, riding speed, and front/rear weight split —
-                    same inputs as a typical SILCA-style calculator. Results show PSI and bar.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="p-6 sm:p-8 space-y-8 sm:space-y-10">
-                  {/* Total weight — same fields as SilPSI */}
-                  <div className="max-w-lg mx-auto text-center space-y-4">
-                    <div>
-                      <p className="text-sm font-semibold text-gray-900">{f.weightHeading || "Enter total system weight"}</p>
-                      <p className="text-sm text-gray-500 italic mt-1">{f.weightSub || "(Rider + Bike + Gear)"}</p>
+        <div className="mb-12 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-stretch">
+            {/* Left: inputs (ERA-style white card) */}
+            <div className="rounded-2xl border-2 border-gray-200/90 bg-white p-6 sm:p-8 shadow-lg shadow-gray-200/40">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 flex items-center gap-2.5 mb-1">
+                <Activity className="w-6 h-6 text-blue-600 shrink-0" aria-hidden />
+                {f.cardHeading || "Tire pressure inputs"}
+              </h2>
+              <p className="text-sm text-gray-600 mb-6">
+                Enter your setup below for front and rear PSI and bar. Always stay within rim and tire pressure limits.
+              </p>
+
+              <div className="space-y-5 mb-6">
+                <div>
+                  <Label className="text-sm font-medium text-gray-800">
+                    {f.weightHeading || "Enter total system weight"}{" "}
+                    <span className="text-gray-500 font-normal italic">{f.weightSub || "(Rider + Bike + Gear)"}</span>
+                  </Label>
+                  <div className="mt-2 flex flex-col sm:flex-row gap-3 sm:items-center">
+                    <div className="relative flex-1">
+                      <Gauge
+                        className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none"
+                        aria-hidden
+                      />
+                      <Input
+                        className="h-12 pl-10 text-base rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-blue-200"
+                        type="number"
+                        inputMode="decimal"
+                        placeholder={f.weightPlaceholder || "Enter weight"}
+                        value={systemWeight}
+                        onChange={(e) => setSystemWeight(e.target.value)}
+                        aria-label="Total system weight"
+                      />
                     </div>
-                    <Input
-                      className="h-12 text-center text-lg rounded-xl border-gray-200 focus:border-cyan-400 focus:ring-cyan-200 shadow-sm"
-                      type="number"
-                      inputMode="decimal"
-                      placeholder={f.weightPlaceholder || "Enter weight"}
-                      value={systemWeight}
-                      onChange={(e) => setSystemWeight(e.target.value)}
-                      aria-label="Total system weight"
-                    />
-                    <div className="flex justify-center max-w-[220px] mx-auto rounded-xl border border-cyan-200 bg-gradient-to-r from-cyan-50 to-blue-50 p-1.5 shadow-sm gap-1">
+                    <div className="flex rounded-xl border-2 border-gray-200 bg-gray-50/80 p-1 gap-1 shrink-0 sm:w-[200px]">
                       <button
                         type="button"
                         onClick={() => setWeightUnit("lbs")}
                         className={cn(
-                          "flex-1 py-2.5 text-sm font-semibold rounded-lg transition-all duration-200",
-                          weightUnit === "lbs"
-                            ? "bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md"
-                            : "text-gray-700 hover:bg-white/80"
+                          "flex-1 py-2.5 text-sm font-semibold rounded-lg",
+                          weightUnit === "lbs" ? "bg-blue-600 text-white shadow-sm" : "text-gray-700 hover:bg-white"
                         )}
                       >
                         lbs
@@ -263,18 +260,18 @@ export default function SilcaTirePressureCalculatorClient({ content, guideConten
                         type="button"
                         onClick={() => setWeightUnit("kg")}
                         className={cn(
-                          "flex-1 py-2.5 text-sm font-semibold rounded-lg transition-all duration-200",
-                          weightUnit === "kg"
-                            ? "bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md"
-                            : "text-gray-700 hover:bg-white/80"
+                          "flex-1 py-2.5 text-sm font-semibold rounded-lg",
+                          weightUnit === "kg" ? "bg-blue-600 text-white shadow-sm" : "text-gray-700 hover:bg-white"
                         )}
                       >
                         kg
                       </button>
                     </div>
                   </div>
+                </div>
+              </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-8 md:gap-y-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-x-5 md:gap-y-6">
               {/* Surface */}
               <div className="space-y-2.5">
                 <Label className="text-sm font-medium text-gray-700 block">
@@ -399,123 +396,126 @@ export default function SilcaTirePressureCalculatorClient({ content, guideConten
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pt-2">
-              <div className="flex gap-3 items-start">
+              <div className="flex gap-3 items-start pt-1">
                 <Checkbox
                   id="silca-hookless"
                   checked={hookless}
                   onCheckedChange={(v) => setHookless(Boolean(v))}
-                  className="mt-1"
+                  className="mt-1 border-gray-300 data-[state=checked]:bg-blue-600 data-[state=checked]:border-blue-600"
                 />
                 <Label htmlFor="silca-hookless" className="text-sm text-gray-700 leading-relaxed cursor-pointer font-normal">
                   {f.hooklessLabel || "Hookless rim (cap at 73 PSI)"}
                 </Label>
               </div>
-            </div>
 
-            <Button
-              type="button"
-              className="w-full h-12 text-lg bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white shadow-md"
-              onClick={() => scrollToResults()}
-            >
-              {f.calculate || "Calculate"}
-              <ArrowRight className="h-5 w-5" aria-hidden />
-            </Button>
-                </CardContent>
-              </Card>
-            </div>
+              <div className="mt-5 rounded-xl border border-blue-100 bg-blue-50/90 px-4 py-3.5 text-sm text-gray-700 leading-relaxed">
+                <span className="font-semibold text-gray-800">Core idea: </span>
+                Base PSI ≈ total weight (lb) ÷ (tire width mm × 0.09), then adjusted for surface, casing, wheel size, speed, and
+                front/rear split.
+              </div>
 
-            <div className="lg:col-span-1">
-              <Card
-                ref={resultsRef}
-                id="silca-tire-results"
-                className="shadow-2xl border-0 bg-gradient-to-br from-cyan-50 to-blue-100 h-full min-h-[320px] flex flex-col scroll-mt-24"
+              <Button
+                type="button"
+                className="w-full mt-6 h-14 text-base font-semibold rounded-xl bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-600/20 flex items-center justify-center gap-2"
+                onClick={() => scrollToResults()}
               >
-                <CardHeader className="w-full flex flex-col items-center justify-center pb-2 pt-8 px-6">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 flex items-center justify-center mb-3 shadow-lg">
-                    <Gauge className="w-6 h-6 text-white" aria-hidden />
-                  </div>
-                  <CardTitle className="text-2xl font-bold text-cyan-800 tracking-tight text-center">
-                    {f.resultsHeading || "Recommended pressure"}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="flex-1 flex flex-col px-6 pb-8 pt-2 w-full">
-                  {result && "error" in result && result.error === "complete_fields" ? (
-                    <div className="flex flex-col items-center justify-center text-center flex-1">
-                      <Gauge className="w-8 h-8 text-cyan-300 mb-2" aria-hidden />
-                      <p className="text-gray-600 text-sm leading-relaxed max-w-xs">
-                        Enter total weight, tire width, and every option, then tap{" "}
-                        <span className="font-semibold text-cyan-700">{f.calculate || "Calculate"}</span> for front & rear PSI and bar.
-                      </p>
-                    </div>
-                  ) : result && "error" in result && result.error !== "complete_fields" ? (
-                    <p className="text-red-600 font-medium text-center py-4">{result.error}</p>
-                  ) : result && "front" in result ? (
-                    <div className="space-y-5 w-full">
-                      <div className="grid grid-cols-1 gap-3">
-                        <div className="rounded-xl border border-white bg-white p-4 shadow-sm text-center">
-                          <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-1">Front</p>
-                          <p className="text-3xl font-bold tabular-nums text-gray-900">{result.front.toFixed(1)} PSI</p>
-                          <p className="text-base text-cyan-700 font-semibold tabular-nums mt-1">{result.frontBar.toFixed(2)} bar</p>
-                        </div>
-                        <div className="rounded-xl border border-white bg-white p-4 shadow-sm text-center">
-                          <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-1">Rear</p>
-                          <p className="text-3xl font-bold tabular-nums text-gray-900">{result.rear.toFixed(1)} PSI</p>
-                          <p className="text-base text-cyan-700 font-semibold tabular-nums mt-1">{result.rearBar.toFixed(2)} bar</p>
-                        </div>
-                      </div>
-
-                      {result.hooklessCapped && (
-                        <div
-                          className="flex gap-3 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-amber-900 text-sm"
-                          role="status"
-                        >
-                          <AlertTriangle className="w-5 h-5 shrink-0 text-amber-600 mt-0.5" aria-hidden />
-                          <span>Hookless safety cap: values limited to max 73 PSI (5 bar).</span>
-                        </div>
-                      )}
-
-                      <div className="rounded-xl border border-cyan-100 bg-white p-4">
-                        <p className="font-semibold text-gray-900 mb-2 flex items-center gap-2 text-sm">
-                          <Gauge className="h-4 w-4 text-cyan-600 shrink-0" aria-hidden />
-                          Step-by-step
-                        </p>
-                        <ol className="list-decimal pl-5 space-y-1.5 text-xs text-gray-700 leading-relaxed">
-                          {result.steps.map((s, i) => (
-                            <li key={i}>{s}</li>
-                          ))}
-                        </ol>
-                      </div>
-                    </div>
-                  ) : null}
-                </CardContent>
-              </Card>
+                {f.calculate || "Calculate"}
+                <ArrowRight className="h-5 w-5 shrink-0" aria-hidden />
+              </Button>
             </div>
-          </div>
 
-          <div className="mt-10">
-            <RatingProfileSection
-              entityId="silcatire-pressure-calculator"
-              entityType="calculator"
-              creatorSlug="felix-yacoub"
-              initialRatingTotal={0}
-              initialRatingCount={0}
-            />
-          </div>
+            {/* Right: results (light blue card) */}
+            <div
+              ref={resultsRef}
+              id="silca-tire-results"
+              className="rounded-2xl border-2 border-blue-100 bg-gradient-to-b from-sky-50/90 to-blue-50/60 shadow-lg shadow-blue-100/50 min-h-[380px] flex flex-col scroll-mt-24 overflow-hidden"
+            >
+              <div className="w-full flex flex-col items-center pb-3 pt-8 px-6">
+                <div className="w-14 h-14 rounded-full bg-blue-600 flex items-center justify-center mb-4 shadow-md shadow-blue-600/25">
+                  <Gauge className="w-7 h-7 text-white" aria-hidden />
+                </div>
+                <p className="text-xl sm:text-2xl font-bold text-blue-800 tracking-tight text-center">
+                  {f.resultsHeading || "Recommended pressure"}
+                </p>
+              </div>
+              <div className="flex-1 flex flex-col px-6 pb-8 pt-2 w-full">
+                {result && "error" in result && result.error === "complete_fields" ? (
+                  <div className="flex flex-col items-center justify-center text-center flex-1 min-h-[200px]">
+                    <Gauge className="w-12 h-12 text-blue-200 mb-4 stroke-[1.25]" aria-hidden />
+                    <p className="text-gray-600 text-sm leading-relaxed max-w-[260px]">
+                      Enter total weight, tire width, and every option, then click{" "}
+                      <span className="font-semibold text-blue-600">{f.calculate || "Calculate"}</span> for front & rear PSI and bar.
+                    </p>
+                  </div>
+                ) : result && "error" in result && result.error !== "complete_fields" ? (
+                  <p className="text-red-600 font-medium text-center py-4">{result.error}</p>
+                ) : result && "front" in result ? (
+                  <div className="space-y-5 w-full">
+                    <div className="grid grid-cols-1 gap-3">
+                      <div className="rounded-xl border-2 border-blue-100 bg-white/95 p-4 shadow-sm text-center">
+                        <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-1">Front</p>
+                        <p className="text-3xl font-bold tabular-nums text-slate-900">{result.front.toFixed(1)} PSI</p>
+                        <p className="text-base text-blue-700 font-semibold tabular-nums mt-1">{result.frontBar.toFixed(2)} bar</p>
+                      </div>
+                      <div className="rounded-xl border-2 border-blue-100 bg-white/95 p-4 shadow-sm text-center">
+                        <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-1">Rear</p>
+                        <p className="text-3xl font-bold tabular-nums text-slate-900">{result.rear.toFixed(1)} PSI</p>
+                        <p className="text-base text-blue-700 font-semibold tabular-nums mt-1">{result.rearBar.toFixed(2)} bar</p>
+                      </div>
+                    </div>
 
-          <div id="silca-guide" className="mt-12 scroll-mt-20">
-            <CalculatorGuide
-              data={
-                {
-                  color: "teal",
-                  sections: [],
-                  faq: [],
-                  ...guideData,
-                } as CalculatorGuideData
-              }
-            />
+                    {result.hooklessCapped && (
+                      <div
+                        className="flex gap-3 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-amber-900 text-sm"
+                        role="status"
+                      >
+                        <AlertTriangle className="w-5 h-5 shrink-0 text-amber-600 mt-0.5" aria-hidden />
+                        <span>Hookless safety cap: values limited to max 73 PSI (5 bar).</span>
+                      </div>
+                    )}
+
+                    <div className="rounded-xl border-2 border-blue-100 bg-white/95 p-4 shadow-sm">
+                      <p className="font-semibold text-gray-900 mb-2 flex items-center gap-2 text-sm">
+                        <Gauge className="h-4 w-4 text-blue-600 shrink-0" aria-hidden />
+                        Step-by-step
+                      </p>
+                      <ol className="list-decimal pl-5 space-y-1.5 text-xs text-gray-700 leading-relaxed">
+                        {result.steps.map((s, i) => (
+                          <li key={i}>{s}</li>
+                        ))}
+                      </ol>
+                    </div>
+                  </div>
+                ) : null}
+              </div>
+            </div>
           </div>
         </div>
+
+        <div className="mt-10">
+          <RatingProfileSection
+            entityId="silcatire-pressure-calculator"
+            entityType="calculator"
+            creatorSlug="felix-yacoub"
+            initialRatingTotal={0}
+            initialRatingCount={0}
+          />
+        </div>
+
+        <div id="silca-guide" className="mt-12 scroll-mt-20">
+          <CalculatorGuide
+            layout="article"
+            data={
+              {
+                sections: [],
+                faq: [],
+                ...guideData,
+                color: "purple",
+              } as CalculatorGuideData
+            }
+          />
+        </div>
+      </div>
     </div>
   );
 }

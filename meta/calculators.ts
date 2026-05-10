@@ -4035,6 +4035,16 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "kite size calculator, kite size chart, kite size by weight, kite size chart by weight, kite size wind calculator, kite size chart knots, kite size chart m/s, what size kite do I need, how big should a kite be, kiteboard kite size calculator, kitesurfing kite size calculator, kitesurf size calculator, kite dimensions calculator, kiteboard size calculator, kite measurements, kiteboarding kite size, kite size for beginners, kite size for advanced riders, kite size chart wind speed, kite size formula, kite quiver calculator, twintip kite size, directional board kite size, foil kite size, kite size weight chart"
     }
   },
+  "silcatire-pressure-calculator": {
+    en: {
+      title: "SILCA Tire Pressure Calculator | Find Perfect PSI for Road, Gravel & MTB",
+      description:
+        "Calculate ideal tire pressure instantly with SILCA calculator. Get accurate PSI for road, gravel & MTB for better speed, grip & comfort. Front and rear bar included.",
+      slug: "/sports/silcatire-pressure-calculator",
+      keywords:
+        "SILCA tire pressure calculator, bike tire pressure calculator, cycling PSI calculator, road bike tire pressure, gravel tire pressure calculator, MTB tire pressure calculator, bicycle tire PSI, tubeless tire pressure, hookless rim PSI, tire pressure bar, optimal bike tire pressure, SILCA PSI, bike pressure calculator"
+    }
+  },
   "crochet-calculator": {
     en: {
       title: "Crochet Calculator | Free Yarn, Gauge, Pricing & Time Calculator",
