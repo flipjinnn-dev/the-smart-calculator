@@ -101,6 +101,11 @@
         "name": "Calculadora de Calorias",
         "category": "Saúde",
         "description": "Calcule necessidades diárias de calorias com base em seu estilo de vida e objetivos"
+      },
+      {
+        "name": "Calculadora de GPA da UF",
+        "category": "Outros",
+        "description": "GPA semestral e cumulativo da University of Florida com a escala oficial de notas e créditos"
       }
     ]
   },

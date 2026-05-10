@@ -1239,10 +1239,10 @@ export const calculators: Calculator[] = [
     id: "uf-gpa-calculator",
     name: "UF GPA Calculator",
     description:
-      "University of Florida GPA calculator — semester & cumulative GPA, UF grade points, credits, and grade point deficit (DPC) using the official scale.",
+      "University of Florida GPA calculator — UF grading scale, quality points, credits, and grade point deficit (GPD) for the courses you enter.",
     href: "/uf-gpa-calculator",
     category: "other",
-    popular: false,
+    popular: true,
   },
   {
     id: "cpv-calculator",

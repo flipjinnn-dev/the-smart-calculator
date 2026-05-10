@@ -101,6 +101,11 @@
         "name": "Calorie Calculator",
         "category": "Health",
         "description": "Calculate daily calorie needs based on your lifestyle and goals"
+      },
+      {
+        "name": "UF GPA Calculator",
+        "category": "Other",
+        "description": "University of Florida semester and cumulative GPA using UF's official grading scale and credits"
       }
     ]
   },

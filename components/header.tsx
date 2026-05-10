@@ -31,7 +31,7 @@ const CATEGORIES = [
 
 const OTHER_CALCULATORS = [
   'age-calculator', 'piecewise-function-calculator-grapher', 'enterprise-seo-roi-calculator',
-  'rpe-calculator', 'indiana-child-support-calculator', 'time-calculator', 'gpa-calculator',
+  'rpe-calculator', 'indiana-child-support-calculator', 'time-calculator', 'gpa-calculator', 'uf-gpa-calculator',
   'height-calculator', 'ip-subnet-calculator', 'towing-estimate-calculator',
   'calculadora-de-idade', 'calculadora-de-funcao-por-partes-e-graficador', 'calculadora-de-roi-de-seo-empresarial',
   'calculadora-de-epe', 'calculadora-de-pensao-alimenticia-de-indiana', 'calculadora-de-tempo', 'calculadora-gpa',

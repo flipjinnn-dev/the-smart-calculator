@@ -101,6 +101,11 @@
         "name": "Kalkulator Kalorii",
         "category": "Zdrowie",
         "description": "Oblicz dzienne zapotrzebowanie na kalorie w oparciu o styl życia i cele"
+      },
+      {
+        "name": "Kalkulator GPA UF",
+        "category": "Inne",
+        "description": "Semestralny i skumulowany GPA University of Florida według oficjalnej skali ocen i punktów kredytowych"
       }
     ]
   },

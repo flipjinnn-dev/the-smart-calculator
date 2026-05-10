@@ -220,6 +220,12 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       category: "Health",
       description: "Calculate daily calorie needs based on your lifestyle and goals",
       href: "/health/calorie-calculator"
+    },
+    {
+      name: "UF GPA Calculator",
+      category: "Other",
+      description: "University of Florida semester and cumulative GPA using UF's official grading scale and credits",
+      href: "/uf-gpa-calculator"
     }
   ];
 

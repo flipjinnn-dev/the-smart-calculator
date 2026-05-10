@@ -3,7 +3,7 @@
   "sections": [
     {
       "heading": "What Is the UF GPA Calculator?",
-      "content": "The UF GPA Calculator is a free online tool built specifically for University of Florida students. It uses UF's official grading scale and credit hour system to calculate your semester GPA, cumulative GPA, upper division GPA, science GPA, transfer GPA, and major GPA all in one place.\n\nWhether you are a current UF student tracking your academic standing, a transfer applicant checking UF GPA requirements, a pre-med student monitoring your science GPA, or a high school senior preparing for UF admissions, this calculator gives you instant, accurate results without any manual math."
+      "content": "The UF GPA Calculator is a free online tool built specifically for University of Florida students. It uses UF's official grading scale and credit hour system to calculate GPA, quality points, and grade point deficit for whatever courses you enter — one term, a science subset, or any custom list.\n\nWhether you are a current UF student tracking your academic standing, a transfer applicant checking UF GPA requirements, a pre-med student monitoring your science GPA, or a high school senior preparing for UF admissions, this calculator gives you instant, accurate results for those rows without manual math."
     },
     {
       "heading": "How to Use the UF GPA Calculator",
@@ -26,11 +26,7 @@
         },
         {
           "heading": "Step 5 — Calculate",
-          "content": "Press Calculate. The tool instantly shows your GPA, total credit hours, and total quality points for the rows you entered."
-        },
-        {
-          "heading": "Step 6 — Cumulative GPA (optional)",
-          "content": "Turn on Include prior cumulative GPA and enter your existing cumulative GPA and total UF credits already completed. Your overall GPA updates to reflect this term plus your prior record."
+          "content": "Press Calculate. The tool instantly shows your GPA, total credit hours, total quality points, and grade point deficit for the courses you entered."
         }
       ]
     },
@@ -47,11 +43,11 @@
       "subSections": [
         {
           "heading": "Understanding grade point deficit (GPD)",
-          "content": "A grade point deficit (GPD) at UF is the shortfall between the quality points you earned and the quality points you would need to meet a required GPA (such as the 2.0 minimum for good undergraduate standing). If your cumulative GPA falls below 2.0, you accumulate a deficit relative to that standard."
+          "content": "A **Grade Point Deficit (GPD)** at UF is the shortfall between the quality points you earned and the quality points you would need to meet a required GPA (such as the **minimum 2.0 cumulative GPA** for good undergraduate standing). If your cumulative GPA falls below 2.0, you accumulate a deficit relative to that standard."
         },
         {
           "heading": "How to calculate UF grade point deficit",
-          "content": "Use this formula:\n\nGPD = (Required GPA × Total Credit Hours Attempted) − Total Quality Points Earned\n\nExample:\n\n- Total credit hours attempted: 60\n- Required GPA: 2.0\n- Required quality points: 60 × 2.0 = 120\n- Your actual quality points: 108\n- Grade point deficit = 120 − 108 = 12 points\n\nThat means you need 12 additional quality points above the minimum path to clear the deficit and return toward good standing — always confirm with your advisor."
+          "content": "Use this formula:\n\nGPD = (Required GPA × Total Credit Hours Attempted) − Total Quality Points Earned\n\nExample:\n\n- Total credit hours attempted: 60\n- Required GPA: 2.0\n- Required quality points: 60 × 2.0 = 120\n- Your actual quality points: 108\n- **Grade Point Deficit = 120 − 108 = 12 points**\n\nThat means you need 12 additional quality points above the minimum path to clear the deficit and return toward good standing — always confirm with your advisor."
         }
       ]
     },
@@ -67,11 +63,7 @@
     },
     {
       "heading": "Troubleshooting common issues",
-      "content": "Getting an incorrect GPA result?\n\n- Wrong credit hours - Double-check each course. A 3-credit lecture and a 1-credit lab are separate rows.\n- Grade point mismatch - Confirm UF's scale (for example, A- is 3.67, not 4.0).\n- Transfer credits - Grades from other schools are not always included in UF GPA the same way; ask your advisor before mixing them into a UF cumulative estimate.\n- Repeated courses - Under grade forgiveness, enter the grade that counts in your current GPA calculation per UF policy."
-    },
-    {
-      "heading": "Summary",
-      "content": "The UF GPA Calculator gives University of Florida students a fast, free, and accurate way to estimate semester GPA, cumulative GPA, science or subset GPAs, and grade point deficit in one workflow. Enter your grades and credit hours, turn on prior GPA if needed, hit Calculate, and review your results instantly. Always verify important decisions with UF academic records and your advisor."
+      "content": "- **Wrong credit hours** Double-check each course. A 3-credit lecture and a 1-credit lab are separate rows.\n- **Grade point mismatch** Confirm UF's scale (for example, A- is 3.67, not 4.0).\n- **Transfer credits** Grades from other schools are not always included in UF GPA the same way; ask your advisor before mixing them into a UF cumulative estimate.\n- **Repeated courses** Under grade forgiveness, enter the grade that counts in your current GPA calculation per UF policy."
     }
   ],
   "faq": [
@@ -89,7 +81,7 @@
     },
     {
       "question": "How do I calculate my cumulative GPA at UF?",
-      "answer": "Enter this term's courses, then enable Include prior cumulative GPA and add your current UF cumulative GPA and completed UF credits. The calculator merges quality points and credit hours to estimate your new cumulative GPA."
+      "answer": "This tool shows GPA for the courses you enter in the table. For a full cumulative GPA across your entire transcript, use your official UF degree audit or combine prior quality points and credits with this term manually using: GPA = total quality points ÷ total attempted credits."
     },
     {
       "question": "What GPA do I need for UF grad school?",
@@ -102,6 +94,12 @@
     {
       "question": "Is this calculator free and accurate?",
       "answer": "Yes — it is free to use with no signup. It applies UF's standard grade point table and the quality-point GPA formula. It is still an estimate; your official GPA comes from UF systems."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "The UF GPA Calculator gives University of Florida students a fast, free, and accurate way to estimate GPA, quality points, credits, and grade point deficit for the courses you add. Enter your grades and credit hours, hit Calculate, and review your results instantly. For subset GPAs (such as science or major only), enter only those courses. Always verify important decisions with UF academic records and your advisor."
     }
   ]
 }
