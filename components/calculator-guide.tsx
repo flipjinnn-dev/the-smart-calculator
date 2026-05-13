@@ -455,11 +455,11 @@ export default function CalculatorGuide({ data, layout = 'default' }: Calculator
 
   if (layout === 'article') {
     const articleSectionShells = [
-      'bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg',
-      'bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg',
-      'bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg',
-      'bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg',
-      'bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg',
+      'bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg',
+      'bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg',
+      'bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg',
+      'bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg',
+      'bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg',
     ]
     const subBorderClasses = [
       'border-purple-600',
@@ -515,7 +515,7 @@ export default function CalculatorGuide({ data, layout = 'default' }: Calculator
         </div>
 
         {data.faq && data.faq.length > 0 ? (
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg mt-12">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg mt-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-purple-600 shrink-0" aria-hidden />
               Frequently Asked Questions
