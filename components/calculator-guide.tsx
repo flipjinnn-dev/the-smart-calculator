@@ -1,13 +1,16 @@
 import type { ReactElement, ReactNode } from 'react';
 
 /** Renders `**bold**` in guide strings as semantic bold. */
-function renderInlineWithBold(text: string): ReactNode {
+function renderInlineWithBold(
+  text: string,
+  strongClassName = "font-semibold text-gray-900"
+): ReactNode {
   const parts = text.split(/(\*\*[\s\S]*?\*\*)/g);
   return parts.map((part, i) => {
     const m = part.match(/^\*\*([\s\S]*?)\*\*$/);
     if (m) {
       return (
-        <strong key={i} className="font-semibold text-gray-900">
+        <strong key={i} className={strongClassName}>
           {m[1]}
         </strong>
       );
@@ -284,7 +287,7 @@ export default function CalculatorGuide({ data, layout = 'default' }: Calculator
                               &nbsp;
                             </span>
                           ) : (
-                            renderInlineWithBold(header)
+                            renderInlineWithBold(header, "font-semibold text-white")
                           )}
                         </th>
                       ))}
@@ -466,7 +469,7 @@ export default function CalculatorGuide({ data, layout = 'default' }: Calculator
     ]
 
     return (
-      <section className="w-full max-w-7xl mx-auto px-4 pb-12">
+      <section className="w-full max-w-7xl mx-auto px-2 sm:px-4 pb-12">
         <div className="space-y-12">
           {(data.sections ?? []).map((section, sectionIndex) => (
             <div
@@ -586,7 +589,7 @@ export default function CalculatorGuide({ data, layout = 'default' }: Calculator
   }
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 py-12">
+    <section className="w-full max-w-7xl mx-auto px-2 sm:px-4 py-12">
       <div className="bg-white rounded-2xl shadow-lg border border-slate-200/90 ring-1 ring-slate-900/5 overflow-hidden">
         {/* Header */}
         <div
