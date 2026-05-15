@@ -1,19 +1,41 @@
 import { NextAuthOptions } from 'next-auth';
 import GoogleProvider from 'next-auth/providers/google';
-import { client as sanityClient } from '@/lib/sanity/config';
+import CredentialsProvider from 'next-auth/providers/credentials';
+import { client as sanityClient, isSanityConfigured } from '@/lib/sanity/config';
+
+const hasGoogleOAuth =
+  Boolean(process.env.GOOGLE_CLIENT_ID) && Boolean(process.env.GOOGLE_CLIENT_SECRET);
 
 export const authOptions: NextAuthOptions = {
   providers: [
-    GoogleProvider({
-      clientId: process.env.GOOGLE_CLIENT_ID!,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
-    }),
+    ...(hasGoogleOAuth
+      ? [
+          GoogleProvider({
+            clientId: process.env.GOOGLE_CLIENT_ID!,
+            clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+          }),
+        ]
+      : [
+          CredentialsProvider({
+            name: 'Development',
+            credentials: {
+              email: { label: 'Email', type: 'text' },
+              name: { label: 'Name', type: 'text' },
+            },
+            async authorize(credentials) {
+              const email = credentials?.email?.toString() || 'dev@example.com';
+              const name = credentials?.name?.toString() || 'Dev User';
+              return { id: email, email, name };
+            },
+          }),
+        ]),
   ],
   pages: {
     signIn: '/auth/signin',
   },
   callbacks: {
     async signIn({ user, account, profile }) {
+      if (!isSanityConfigured) return true;
       if (account?.provider === 'google' && user.email) {
         try {
           const existingUser = await sanityClient.fetch(
@@ -41,6 +63,10 @@ export const authOptions: NextAuthOptions = {
     async jwt({ token, user }) {
       if (user) {
         token.email = user.email;
+      }
+
+      if (!isSanityConfigured) {
+        return token;
       }
 
       if (token.email) {

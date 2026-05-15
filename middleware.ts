@@ -71,6 +71,7 @@ export const urlMappings = {
     'calculadora-de-extremos-relativos': 'relative-extrema-calculator',
     'calculadora-de-pontos-vigilantes-do-peso': 'weight-watchers-points-calculator',
     'calculadora-de-porcentagem': 'percentage-calculator',
+    'calculadora-de-diminuicao-percentual': 'percentage-decrease',
     'calculadora-de-regra-empirica': 'empirical-rule-calculator',
     'calculadora-de-impostos-sobre-vendas': 'sales-tax-calculator',
     'calculadora-de-quitacao-de-dividas': 'debt-payoff-calculator',
@@ -211,6 +212,7 @@ export const urlMappings = {
     'kalkulator-powierzchni-ciala': 'body-surface-area-calculator',
     'kalkulator-predkosci': 'velocity-calculator',
     'kalkulator-procentowy': 'percentage-calculator',
+    'kalkulator-spadku-procentowego': 'percentage-decrease',
     'kalkulator-reguly-empirycznej': 'empirical-rule-calculator',
     'kalkulator-procentu-skladanego': 'compound-interest-calculator',
     'kalkulator-przedsiebiorstwo-seo-roi-kalkulador': 'enterprise-seo-roi-calculator',
@@ -333,6 +335,7 @@ export const urlMappings = {
     'protien-aufnahme-rechner': 'protein-calculator',
     'prozent-fehler-rechner': 'percent-error-calculator',
     'prozentrechner': 'percentage-calculator',
+    'prozentuale-abnahme-rechner': 'percentage-decrease',
     'empirischer-regelrechner': 'empirical-rule-calculator',
     'quadrat-fub-to-kubik-yards-rechner': 'square-feet-to-cubic-yards-calculator',
     'altersrentenrechner': 'retirement-calculator',
@@ -450,6 +453,7 @@ export const urlMappings = {
     'calculadora-de-embarazo': 'pregnancy-calculator',
     'calculadora-de-fecha-de-concepcion': 'pregnancy-conception-calculator',
     'calculadora-de-porcentajes': 'percentage-calculator',
+    'calculadora-de-disminucion-porcentual': 'percentage-decrease',
     'calculadora-de-error-porcentual': 'percent-error-calculator',
     'calculadora-de-puntos-criticos': 'critical-point-calculator',
     'calculadora-de-extremos-relativos': 'relative-extrema-calculator',
@@ -588,6 +592,8 @@ export const reverseUrlMappings = {
     'pension-calculator': 'calculadora-de-pensao',
     'percent-error-calculator': 'calculadora-de-erro-percentual',
     'percentage-calculator': 'calculadora-de-porcentagem',
+    'percentage-decrease-calculator': 'calculadora-de-diminuicao-percentual',
+    'percentage-decrease': 'calculadora-de-diminuicao-percentual',
     'empirical-rule-calculator': 'calculadora-de-regra-empirica',
     'period-calculator': 'calculadora-de-periodo-fertil',
     'physics': 'fisica',
@@ -712,6 +718,8 @@ export const reverseUrlMappings = {
     'pension-calculator': 'kalkulator-emerytury',
     'percent-error-calculator': 'kalkulator-bledu-procentowego',
     'percentage-calculator': 'kalkulator-procentowy',
+    'percentage-decrease-calculator': 'kalkulator-spadku-procentowego',
+    'percentage-decrease': 'kalkulator-spadku-procentowego',
     'empirical-rule-calculator': 'kalkulator-reguly-empirycznej',
     'period-calculator': 'kalkulator-okresu',
     'physics': 'fizyka',
@@ -836,6 +844,8 @@ export const reverseUrlMappings = {
     'pension-calculator': 'pensionsrechner',
     'percent-error-calculator': 'prozent-fehler-rechner',
     'percentage-calculator': 'prozentrechner',
+    'percentage-decrease-calculator': 'prozentuale-abnahme-rechner',
+    'percentage-decrease': 'prozentuale-abnahme-rechner',
     'empirical-rule-calculator': 'empirischer-regelrechner',
     'period-calculator': 'periodenrechner',
     'physics': 'physik',
@@ -949,6 +959,8 @@ export const reverseUrlMappings = {
     'pregnancy-calculator': 'calculadora-de-embarazo',
     'pregnancy-conception-calculator': 'calculadora-de-fecha-de-concepcion',
     'percentage-calculator': 'calculadora-de-porcentajes',
+    'percentage-decrease-calculator': 'calculadora-de-disminucion-porcentual',
+    'percentage-decrease': 'calculadora-de-disminucion-porcentual',
     'empirical-rule-calculator': 'calculadora-de-regla-empirica',
     'percent-error-calculator': 'calculadora-de-error-porcentual',
     'critical-point-calculator': 'calculadora-de-puntos-criticos',
@@ -1047,8 +1059,8 @@ export function middleware(request: NextRequest) {
       return response;
     }
 
-    // Remove the leading slash for processing
-    const pathParts = path.substring(1).split('/');
+    // Remove the leading slash for processing (drop empty segments from trailing slashes)
+    const pathParts = path.substring(1).split('/').filter(Boolean);
 
     // Check if this is a static page (first part is a static page name)
     const firstPart = pathParts[0];

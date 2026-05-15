@@ -1,5 +1,5 @@
 import Script from "next/script"
-import ShippingCostCalculatorClient from "./shipping-cost-calculator-client"
+import ShippingCostCalculatorIsland from "./shipping-cost-calculator-island"
 import { Globe, Info, Package, Plane, Ship, ShieldCheck, Truck } from "lucide-react"
 
 const CANONICAL_URL = "https://www.thesmartcalculator.com/shipping-cost-calculator"
@@ -126,7 +126,7 @@ export default function ShippingCostCalculatorPage() {
           </div>
 
           <div className="mb-14">
-            <ShippingCostCalculatorClient />
+            <ShippingCostCalculatorIsland />
           </div>
 
           <div className="space-y-12">

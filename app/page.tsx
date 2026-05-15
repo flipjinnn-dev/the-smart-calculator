@@ -2,6 +2,7 @@ import { headers } from "next/headers";
 import HomeClient from "./home-client";
 import { loadHomepageContent } from "@/lib/loadHomepageContent";
 import { getAllAuthors } from "@/lib/sanity/client";
+import { HOMEPAGE_FALLBACK_AUTHORS } from "@/lib/homepage-fallback-authors";
 import Script from "next/script";
 import type { Metadata } from "next";
 
@@ -60,7 +61,9 @@ export default async function HomePage() {
   const language = headersList.get('x-language') || 'en';
   
   const { content } = await loadHomepageContent(language);
-  const authors = await getAllAuthors();
+  const fetchedAuthors = await getAllAuthors();
+  const authors =
+    fetchedAuthors.length > 0 ? fetchedAuthors : HOMEPAGE_FALLBACK_AUTHORS;
 
   const jsonLd = {
   "@context": "https://schema.org",

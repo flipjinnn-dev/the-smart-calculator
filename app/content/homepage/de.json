@@ -101,6 +101,11 @@
         "name": "Kalorienrechner",
         "category": "Gesundheit",
         "description": "Berechnen Sie den täglichen Kalorienbedarf basierend auf Ihrem Lebensstil und Ihren Zielen"
+      },
+      {
+        "name": "UF-GPA-Rechner",
+        "category": "Sonstiges",
+        "description": "Semester- und Gesamt-GPA der University of Florida mit offizieller Notenskala und Credits"
       }
     ]
   },

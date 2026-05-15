@@ -1,0 +1,31 @@
+{
+  "pageTitle": "UF GPA Calculator",
+  "pageSubtitle": "Enter your grades and credit hours — this free UF GPA Calculator applies UF's official grading scale and shows your GPA, quality points, credits, and grade point deficit for the courses you enter.",
+  "form": {
+    "headers": {
+      "course": "Course",
+      "grade": "Grade (points)",
+      "credits": "Credits"
+    },
+    "placeholders": {
+      "course": "e.g. MAC2311",
+      "credits": "0"
+    },
+    "gradePlaceholder": "Select grade",
+    "addRow": "Add course",
+    "calculate": "Calculate",
+    "reset": "Reset"
+  },
+  "results": {
+    "title": "Your results",
+    "gpa": "GPA",
+    "gradePoints": "Total quality points",
+    "credits": "Total credits",
+    "dpc": "Grade Point Deficit (GPD)",
+    "dpcHint": "At the **minimum 2.0 cumulative GPA** standard: (2.0 × total credits) − total quality points when below good standing. Shown as 0 if your GPA for entered courses is 2.0 or higher."
+  },
+  "errors": {
+    "needRow": "Add at least one course with credits and a grade.",
+    "invalidCredits": "Credits must be greater than 0."
+  }
+}

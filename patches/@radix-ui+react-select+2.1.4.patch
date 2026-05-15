@@ -1,0 +1,26 @@
+diff --git a/node_modules/@radix-ui/react-select/dist/index.js b/node_modules/@radix-ui/react-select/dist/index.js
+index 486fc4e..0147acb 100644
+--- a/node_modules/@radix-ui/react-select/dist/index.js
++++ b/node_modules/@radix-ui/react-select/dist/index.js
+@@ -499,7 +499,7 @@ var SelectContentImpl = React.forwardRef(
+         position,
+         isPositioned,
+         searchRef,
+-        children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react_remove_scroll.RemoveScroll, { as: import_react_slot.Slot, allowPinchZoom: true, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
++        children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react_remove_scroll.RemoveScroll, { as: import_react_slot.Slot, allowPinchZoom: true, removeScrollBar: false, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+           import_react_focus_scope.FocusScope,
+           {
+             asChild: true,
+diff --git a/node_modules/@radix-ui/react-select/dist/index.mjs b/node_modules/@radix-ui/react-select/dist/index.mjs
+index 0ff1d62..f8590d1 100644
+--- a/node_modules/@radix-ui/react-select/dist/index.mjs
++++ b/node_modules/@radix-ui/react-select/dist/index.mjs
+@@ -432,7 +432,7 @@ var SelectContentImpl = React.forwardRef(
+         position,
+         isPositioned,
+         searchRef,
+-        children: /* @__PURE__ */ jsx(RemoveScroll, { as: Slot, allowPinchZoom: true, children: /* @__PURE__ */ jsx(
++        children: /* @__PURE__ */ jsx(RemoveScroll, { as: Slot, allowPinchZoom: true, removeScrollBar: false, children: /* @__PURE__ */ jsx(
+           FocusScope,
+           {
+             asChild: true,

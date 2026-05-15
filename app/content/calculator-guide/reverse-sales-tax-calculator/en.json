@@ -174,19 +174,6 @@
           "content": "Tax rates change. States and provinces update their rates regularly. Always use current 2026 rates before you reverse calculate sales tax on any transaction."
         }
       ]
-    },
-    {
-      "heading": "Summary",
-      "content": "A reverse sales tax calculator removes tax from a tax-inclusive price to give you the original pre-tax cost and the exact tax dollar amount paid. Here are the key takeaways:",
-      "list": [
-        "**Core formula:** Pre-Tax Price = Total ÷ (1 + Tax Rate as decimal)",
-        "**Tax amount:** Total Price − Pre-Tax Price",
-        "**Common US rates:** California 7.25–10.75%, Texas up to 8.25%, Florida 6–7.5%, NYC 8.875%, NJ 6.625%",
-        "**Common Canadian rates:** Ontario HST 13%, BC 12%, Quebec 14.975%, Alberta 5% GST only",
-        "**Excel formula:** =A2/(1+B2) where A2 = total and B2 = tax rate as decimal",
-        "**Most common mistake:** Subtracting a percentage of the total instead of dividing by (1 + rate)",
-        "Always verify the exact current 2026 combined rate for your city, county, or province before calculating"
-      ]
     }
   ],
   "faq": [
@@ -237,6 +224,12 @@
     {
       "q": "How do I find the pre-tax price from a total in Florida?",
       "a": "Florida's state base rate is 6%. Most counties add 0.5–1.5% on top. Using a 7% combined rate: Pre-Tax Price = Total ÷ 1.07. Miami-Dade and Broward County both sit at 7% combined, making this a common reference point for South Florida."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "A reverse sales tax calculator removes tax from a tax-inclusive price to give you the original pre-tax cost and the exact tax dollar amount paid. Here are the key takeaways:\n\n- **Core formula:** Pre-Tax Price = Total ÷ (1 + Tax Rate as decimal)\n- **Tax amount:** Total Price − Pre-Tax Price\n- **Common US rates:** California 7.25–10.75%, Texas up to 8.25%, Florida 6–7.5%, NYC 8.875%, NJ 6.625%\n- **Common Canadian rates:** Ontario HST 13%, BC 12%, Quebec 14.975%, Alberta 5% GST only\n- **Excel formula:** =A2/(1+B2) where A2 = total and B2 = tax rate as decimal\n- **Most common mistake:** Subtracting a percentage of the total instead of dividing by (1 + rate)\n- Always verify the exact current 2026 combined rate for your city, county, or province before calculating"
     }
   ]
 }

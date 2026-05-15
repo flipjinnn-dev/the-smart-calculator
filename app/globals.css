@@ -120,9 +120,99 @@
   outline-color: rgba(var(--ring), 0.5);
 }
 
+/* Reserve scrollbar space so Radix Select/Dialog scroll-lock does not shift layout */
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   background-color: var(--background);
   color: var(--foreground);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Global responsive typography (mobile-first; md = desktop)                  */
+/* Mobile: H1 28px, H2 22px, H3 18px, body/p 14px                             */
+/* Desktop (md+): H1 30px, H2 23px, H3 19px, body/p 15px                      */
+/* Uses :where() so Tailwind utilities on headings/body still win when set. */
+/* -------------------------------------------------------------------------- */
+@layer base {
+  :where(body) {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  :where(p) {
+    font-size: 14px;
+    line-height: 1.65;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  :where(h1) {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-top: 0;
+    margin-bottom: 0.6em;
+  }
+
+  :where(h2) {
+    font-size: 22px;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    margin-top: 1.15em;
+    margin-bottom: 0.5em;
+  }
+
+  :where(h3) {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-top: 1em;
+    margin-bottom: 0.45em;
+  }
+
+  :where(h4, h5, h6) {
+    font-size: 18px;
+    line-height: 1.35;
+    font-weight: 600;
+    margin-top: 0.9em;
+    margin-bottom: 0.4em;
+  }
+
+  :where(h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child) {
+    margin-top: 0;
+  }
+
+  @media (min-width: 768px) {
+    :where(body) {
+      font-size: 15px;
+    }
+
+    :where(p) {
+      font-size: 15px;
+    }
+
+    :where(h1) {
+      font-size: 30px;
+    }
+
+    :where(h2) {
+      font-size: 23px;
+    }
+
+    :where(h3) {
+      font-size: 19px;
+    }
+
+    :where(h4, h5, h6) {
+      font-size: 19px;
+    }
+  }
 }
 
 /* Custom animations */

@@ -1,4 +1,4 @@
-import { client } from './config';
+import { client, isSanityConfigured } from './config';
 import { blogPostsQuery, blogPostBySlugQuery, allBlogSlugsQuery, allAuthorsQuery } from './queries';
 
 export interface BlogPost {
@@ -46,6 +46,7 @@ export interface Author {
 }
 
 export async function getAllBlogPosts(): Promise<BlogPost[]> {
+  if (!isSanityConfigured) return [];
   try {
     const posts = await client.fetch(blogPostsQuery());
     return posts || [];
@@ -56,6 +57,7 @@ export async function getAllBlogPosts(): Promise<BlogPost[]> {
 }
 
 export async function getBlogPostBySlug(slug: string): Promise<BlogPost | null> {
+  if (!isSanityConfigured) return null;
   try {
     const post = await client.fetch(blogPostBySlugQuery(), { slug });
     return post || null;
@@ -66,6 +68,7 @@ export async function getBlogPostBySlug(slug: string): Promise<BlogPost | null> 
 }
 
 export async function getAllBlogSlugs(): Promise<Array<{ _id: string; slug: string }>> {
+  if (!isSanityConfigured) return [];
   try {
     const slugs = await client.fetch(allBlogSlugsQuery);
     return slugs || [];
@@ -76,6 +79,7 @@ export async function getAllBlogSlugs(): Promise<Array<{ _id: string; slug: stri
 }
 
 export async function getAuthorBySlug(slug: string) {
+  if (!isSanityConfigured) return null;
   try {
     const { authorBySlugQuery } = await import('./queries');
     const author = await client.fetch(authorBySlugQuery, { slug });
@@ -87,6 +91,7 @@ export async function getAuthorBySlug(slug: string) {
 }
 
 export async function getAllAuthors(): Promise<Author[]> {
+  if (!isSanityConfigured) return [];
   try {
     const authors = await client.fetch(allAuthorsQuery);
     return authors || [];

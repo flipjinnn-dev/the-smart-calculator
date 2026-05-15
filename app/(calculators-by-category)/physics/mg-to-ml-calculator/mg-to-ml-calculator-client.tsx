@@ -390,18 +390,18 @@ export default function MgToMlCalculatorClient({ content, guideContent }: MgToMl
               calculators={[
                 {
                   calculatorName: "Density Calculator",
-                  calculatorHref: "/physics/density-calculator",
-                  calculatorDescription: "Calculate density of materials using mass and volume"
+                  calculatorHref: "/physics/mg-to-ml-calculator",
+                  calculatorDescription: "Convert mass to volume using density (ρ = m / V)"
                 },
                 {
                   calculatorName: "Volume Calculator",
-                  calculatorHref: "/physics/volume-calculator",
+                  calculatorHref: "/maths/volume-calculator",
                   calculatorDescription: "Calculate volume of various shapes and objects"
                 },
                 {
-                  calculatorName: "Mass Calculator",
-                  calculatorHref: "/physics/mass-calculator",
-                  calculatorDescription: "Calculate mass using density and volume"
+                  calculatorName: "Size to Weight Calculator",
+                  calculatorHref: "/construction/size-to-weight-rectangular-cuboid-calculator",
+                  calculatorDescription: "Estimate weight from dimensions and material density"
                 }
               ]} 
               color="blue" 

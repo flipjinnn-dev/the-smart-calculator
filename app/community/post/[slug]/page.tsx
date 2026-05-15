@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { headers } from 'next/headers';
 import Image from 'next/image';
 import Link from 'next/link';
 import { formatDistanceToNow } from 'date-fns';
@@ -20,6 +21,109 @@ interface PostPageProps {
   }>;
 }
 
+/** Strip head-only tags from pasted HTML so meta/title/scripts do not render in the article body. */
+function stripHeadElements(html: string): string {
+  if (!html) return html;
+
+  return html
+    .replace(/<meta\s+[^>]*\/?>/gi, '')
+    .replace(/<meta\s+[^>]*>.*?<\/meta>/gi, '')
+    // `<link>` (hreflang, canonical, etc.) must live in <head> only — match multiline tags
+    .replace(/<link\b[\s\S]*?>/gi, '')
+    .replace(/<\/link>/gi, '')
+    .replace(/<title\s*[^>]*>[\s\S]*?<\/title>/gi, '')
+    .replace(/<script\s+[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, '')
+    .replace(/<script\s+[^>]*>[\s\S]*?<\/script>/gi, '')
+    .replace(/<style\s+[^>]*>[\s\S]*?<\/style>/gi, '')
+    .replace(/<base\s+[^>]*\/?>/gi, '')
+    .replace(/<noscript\s+[^>]*>[\s\S]*?<\/noscript>/gi, '')
+    .replace(/<head\s*[^>]*>[\s\S]*?<\/head>/gi, '')
+    .replace(/<\/?html[^>]*>/gi, '')
+    .replace(/<\/?body[^>]*>/gi, '')
+    .replace(/\n\s*\n\s*\n/g, '\n\n')
+    .trim();
+}
+
+function decodeBasicHtmlEntities(text: string): string {
+  return text
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+}
+
+/** If the CMS body pasted `<meta name="description" content="...">`, use that for `<head>` and strip from body. */
+function extractEmbeddedMetaDescription(html: string): string | null {
+  if (!html) return null;
+  let m = html.match(
+    /<meta\b[^>]*\bname\s*=\s*["']description["'][^>]*\bcontent\s*=\s*["']([^"']*)["'][^>]*\/?>/i,
+  );
+  if (m?.[1]) return decodeBasicHtmlEntities(m[1]).trim();
+  m = html.match(
+    /<meta\b[^>]*\bcontent\s*=\s*["']([^"']*)["'][^>]*\bname\s*=\s*["']description["'][^>]*\/?>/i,
+  );
+  if (m?.[1]) return decodeBasicHtmlEntities(m[1]).trim();
+  return null;
+}
+
+function plainTextFromHtml(html: string, maxLen: number): string {
+  if (!html) return '';
+  const text = html
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return text.length > maxLen ? text.slice(0, maxLen).trimEnd() : text;
+}
+
+function resolvePostMetaDescription(post: {
+  excerpt?: string | null;
+  content?: any;
+  htmlContent?: string | null;
+}): string {
+  const excerpt = post.excerpt?.trim();
+  if (excerpt) return excerpt.slice(0, 160);
+
+  const fromPortable =
+    post.content
+      ?.flatMap((block: any) => block.children ?? [])
+      .map((child: any) => child.text)
+      .filter(Boolean)
+      .join(' ')
+      .trim()
+      .slice(0, 160) || '';
+
+  const embedded = post.htmlContent
+    ? extractEmbeddedMetaDescription(post.htmlContent)
+    : null;
+  if (embedded) return embedded.slice(0, 160);
+
+  const cleanedHtml = post.htmlContent ? stripHeadElements(post.htmlContent) : '';
+  const fromBody = cleanedHtml ? plainTextFromHtml(cleanedHtml, 160) : '';
+
+  if (fromPortable) return fromPortable;
+  if (fromBody.length >= 20) return fromBody;
+
+  return 'Read this post on our community platform.';
+}
+
+const SITE_ORIGIN = 'https://www.thesmartcalculator.com';
+
+function communityPostHreflangLanguages(slug: string): Record<string, string> {
+  const enUrl = `${SITE_ORIGIN}/community/post/${slug}`;
+  return {
+    'x-default': enUrl,
+    en: enUrl,
+    de: `${SITE_ORIGIN}/de/community/post/${slug}`,
+    pl: `${SITE_ORIGIN}/pl/community/post/${slug}`,
+    'pt-BR': `${SITE_ORIGIN}/br/community/post/${slug}`,
+    es: `${SITE_ORIGIN}/es/community/post/${slug}`,
+  };
+}
+
 export async function generateMetadata({ params }: PostPageProps) {
   try {
     const { slug } = await params;
@@ -27,21 +131,19 @@ export async function generateMetadata({ params }: PostPageProps) {
     
     if (!post) {
       return {
-        title: 'Post Not Found - Community',
+        title: {
+          absolute: 'Post Not Found | Smart Calculator',
+        },
         description: 'The requested post could not be found.',
       };
     }
 
-    const postUrl = `https://www.thesmartcalculator.com/community/post/${slug}`;
-    
-    // Extract description safely from content blocks
-    const description = post.excerpt || 
-      post.content?.flatMap((block: any) => block.children ?? [])
-        .map((child: any) => child.text)
-        .filter(Boolean)
-        .join(' ')
-        .slice(0, 160) || 
-      'Read this post on our community platform.';
+    const headersList = await headers();
+    const pathname =
+      headersList.get('x-pathname') || `/community/post/${slug}`;
+    const path = pathname.startsWith('/') ? pathname : `/${pathname}`;
+    const canonicalUrl = `${SITE_ORIGIN}${path}`;
+    const description = resolvePostMetaDescription(post);
     
     // Use featured image if available, otherwise use default
     let ogImage = '/og-image.png';
@@ -54,20 +156,19 @@ export async function generateMetadata({ params }: PostPageProps) {
     }
 
     return {
-      title: `${post.title} - Community`,
+      title: {
+        absolute: `${post.title} | Community · Smart Calculator`,
+      },
       description: description,
       alternates: {
-        canonical: postUrl,
-        languages: {
-          'x-default': postUrl,
-          'en': postUrl,
-        }
+        canonical: canonicalUrl,
+        languages: communityPostHreflangLanguages(slug),
       },
       openGraph: {
         title: post.title,
         description: description,
         type: 'article',
-        url: postUrl,
+        url: canonicalUrl,
         siteName: 'Smart Calculator',
         images: [
           {
@@ -87,7 +188,9 @@ export async function generateMetadata({ params }: PostPageProps) {
     };
   } catch (error) {
     return {
-      title: 'Community Post',
+      title: {
+        absolute: 'Community Post | Smart Calculator',
+      },
       description: 'Community discussion platform',
     };
   }
@@ -129,49 +232,23 @@ export default async function PostPage({ params }: PostPageProps) {
     return null;
   };
 
-  // Helper to strip head-only elements from HTML content
-  const stripHeadElements = (html: string): string => {
-    if (!html) return html;
-    
-    // Remove all head-only elements that should never appear in body content:
-    // - meta tags (including Open Graph, Twitter cards, charset, viewport, etc.)
-    // - link tags (canonical, alternate, preload, dns-prefetch, etc.)
-    // - title tags
-    // - script tags (especially JSON-LD schema markup)
-    // - style tags in head
-    // - base tags
-    // - noscript tags
-    return html
-      // Remove meta tags (all variations including self-closing and non-self-closing)
-      .replace(/<meta\s+[^>]*\/?>/gi, '')
-      .replace(/<meta\s+[^>]*>.*?<\/meta>/gi, '')
-      // Remove link tags (canonical, alternate, stylesheet, preload, etc.)
-      .replace(/<link\s+[^>]*\/?>/gi, '')
-      .replace(/<link\s+[^>]*>.*?<\/link>/gi, '')
-      // Remove title tags
-      .replace(/<title\s*[^>]*>[\s\S]*?<\/title>/gi, '')
-      // Remove script tags (including JSON-LD schema markup)
-      .replace(/<script\s+[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, '')
-      .replace(/<script\s+[^>]*>[\s\S]*?<\/script>/gi, '')
-      // Remove style tags
-      .replace(/<style\s+[^>]*>[\s\S]*?<\/style>/gi, '')
-      // Remove base tags
-      .replace(/<base\s+[^>]*\/?>/gi, '')
-      // Remove noscript tags
-      .replace(/<noscript\s+[^>]*>[\s\S]*?<\/noscript>/gi, '')
-      // Remove any remaining head tags if they somehow got into content
-      .replace(/<head\s*[^>]*>[\s\S]*?<\/head>/gi, '')
-      // Remove html and body opening/closing tags if present
-      .replace(/<\/?html[^>]*>/gi, '')
-      .replace(/<\/?body[^>]*>/gi, '')
-      // Clean up multiple consecutive whitespace/newlines
-      .replace(/\n\s*\n\s*\n/g, '\n\n')
-      .trim();
+  /** Remove a leading <h1> that duplicates the post title (title belongs in <head> via metadata). */
+  const stripDuplicateLeadingH1 = (html: string, title: string): string => {
+    if (!html || !title) return html;
+    const normalizedTitle = title.trim().replace(/\s+/g, ' ');
+    const m = html.match(/^\s*<h1\b[^>]*>([\s\S]*?)<\/h1>\s*/i);
+    if (!m) return html;
+    const inner = m[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+    if (inner.toLowerCase() === normalizedTitle.toLowerCase()) {
+      return html.slice(m[0].length);
+    }
+    return html;
   };
 
   const renderContent = () => {
     if (post.htmlContent) {
-      const cleanHtml = stripHeadElements(post.htmlContent);
+      let cleanHtml = stripHeadElements(post.htmlContent);
+      cleanHtml = stripDuplicateLeadingH1(cleanHtml, post.title);
       return <div dangerouslySetInnerHTML={{ __html: cleanHtml }} />;
     }
     
@@ -179,12 +256,14 @@ export default async function PostPage({ params }: PostPageProps) {
       if (Array.isArray(post.content)) {
         const htmlContent = getHtmlFromPortableText(post.content);
         if (htmlContent) {
-          const cleanHtml = stripHeadElements(htmlContent);
+          let cleanHtml = stripHeadElements(htmlContent);
+          cleanHtml = stripDuplicateLeadingH1(cleanHtml, post.title);
           return <div dangerouslySetInnerHTML={{ __html: cleanHtml }} />;
         }
         return <PortableText value={post.content} />;
       }
-      const cleanHtml = stripHeadElements(post.content);
+      let cleanHtml = stripHeadElements(post.content);
+      cleanHtml = stripDuplicateLeadingH1(cleanHtml, post.title);
       return <div dangerouslySetInnerHTML={{ __html: cleanHtml }} />;
     }
     

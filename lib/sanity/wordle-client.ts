@@ -1,4 +1,4 @@
-import { client } from './config';
+import { client, isSanityConfigured } from './config';
 
 export interface WordleData {
     wordleNumber: number;
@@ -36,6 +36,7 @@ export interface WordleData {
  * Fetch today's Wordle from Sanity CMS
  */
 export async function getTodaysWordleFromSanity(): Promise<WordleData | null> {
+    if (!isSanityConfigured) return null;
     try {
         const today = new Date();
         today.setHours(0, 0, 0, 0);
@@ -66,6 +67,7 @@ export async function getTodaysWordleFromSanity(): Promise<WordleData | null> {
  * Fetch a specific Wordle by number from Sanity CMS
  */
 export async function getWordleByNumber(wordleNumber: number): Promise<WordleData | null> {
+    if (!isSanityConfigured) return null;
     try {
         const query = `*[_type == "wordle" && wordleNumber == $number][0]{
       wordleNumber,
@@ -92,6 +94,7 @@ export async function getWordleByNumber(wordleNumber: number): Promise<WordleDat
  * Fetch all Wordles from Sanity (for archive page)
  */
 export async function getAllWordles(limit = 100): Promise<WordleData[]> {
+    if (!isSanityConfigured) return [];
     try {
         const query = `*[_type == "wordle" && isActive == true] | order(wordleNumber desc)[0...${limit}]{
       wordleNumber,
@@ -113,6 +116,7 @@ export async function getAllWordles(limit = 100): Promise<WordleData[]> {
  * Fetch Wordles by date range
  */
 export async function getWordlesByDateRange(startDate: string, endDate: string): Promise<WordleData[]> {
+    if (!isSanityConfigured) return [];
     try {
         const query = `*[_type == "wordle" && date >= $startDate && date <= $endDate && isActive == true] | order(date desc){
       wordleNumber,

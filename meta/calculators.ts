@@ -3945,6 +3945,16 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "depop fee calculator, depop fees, depop selling fee, depop transaction fee, depop fee calculator us, depop fee calculator uk, depop fee calculator australia, depop processing fee, depop boosted listing fee, depop profit calculator, depop payout calculator, free depop calculator, depop fee and transaction fee calculator, depop seller fees 2026, depop 0 percent fee, depop vs poshmark fees, depop shipping fees, depop bundle fees, depop refund fees"
     }
   },
+  "uf-gpa-calculator": {
+    en: {
+      title: "UF GPA Calculator | Calculate GPA Instantly UF",
+      description:
+        "Use UF GPA Calculator to calculate semester, cumulative, science & transfer GPA instantly with UF grading scale. 100% free and accurate tool.",
+      slug: "/uf-gpa-calculator",
+      keywords:
+        "UF GPA calculator, University of Florida GPA, UF grading scale, UF cumulative GPA, UF semester GPA, UF grade point deficit, GPD calculator UF, UF science GPA, UF transfer GPA, GPA calculator Gainesville, UF plus minus grades, UF F grade GPA",
+    },
+  },
   "cpv-calculator": {
     en: {
       title: "CPV Calculator – Calculate Cost Per View Free Online",
@@ -4025,6 +4035,16 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "kite size calculator, kite size chart, kite size by weight, kite size chart by weight, kite size wind calculator, kite size chart knots, kite size chart m/s, what size kite do I need, how big should a kite be, kiteboard kite size calculator, kitesurfing kite size calculator, kitesurf size calculator, kite dimensions calculator, kiteboard size calculator, kite measurements, kiteboarding kite size, kite size for beginners, kite size for advanced riders, kite size chart wind speed, kite size formula, kite quiver calculator, twintip kite size, directional board kite size, foil kite size, kite size weight chart"
     }
   },
+  "silcatire-pressure-calculator": {
+    en: {
+      title: "SILCA Tire Pressure Calculator | Find Perfect PSI for Road, Gravel & MTB",
+      description:
+        "Calculate ideal tire pressure instantly with SILCA calculator. Get accurate PSI for road, gravel & MTB for better speed, grip & comfort. Front and rear bar included.",
+      slug: "/sports/silcatire-pressure-calculator",
+      keywords:
+        "SILCA tire pressure calculator, bike tire pressure calculator, cycling PSI calculator, road bike tire pressure, gravel tire pressure calculator, MTB tire pressure calculator, bicycle tire PSI, tubeless tire pressure, hookless rim PSI, tire pressure bar, optimal bike tire pressure, SILCA PSI, bike pressure calculator"
+    }
+  },
   "crochet-calculator": {
     en: {
       title: "Crochet Calculator | Free Yarn, Gauge, Pricing & Time Calculator",
@@ -4095,6 +4115,14 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Free combination sum calculator finds all unique groups of numbers that add up to your target. Supports number reuse, backtracking algorithm, Excel integration. Perfect for budget reconciliation, programming interviews & math problems.",
       slug: "/maths/combination-sum-calculator",
       keywords: "combination sum calculator, combination sum, number combination sum calculator, find combinations that equal a sum, combination sum problem, backtracking calculator, combination sum calculator online, free combination sum calculator, combination sum excel, combination sum google sheets, how to find combinations that add up to a number, combination sum algorithm, leetcode combination sum, combination sum type 1, combination sum type 2, combination sum with repetition, combination sum without repetition, budget reconciliation calculator, invoice matching calculator, combination vs permutation, combination sum vs combination formula, nCr vs combination sum, combination sum interview question, programming interview calculator, recursive combination calculator, subset sum calculator"
+    }
+  },
+  "mixed-fraction-calculator": {
+    en: {
+      title: "Mixed Fraction Calculator – Mixed Numbers, Operations & Step-by-Step",
+      description: "Solve mixed numbers instantly with step-by-step answers. Add, subtract, multiply, divide, simplify, and convert fractions to decimals easily online.",
+      slug: "/maths/calculator/mixed-fraction-calculator",
+      keywords: "mixed fraction calculator, mixed number calculator, mixed numbers calculator, add mixed fractions, subtract mixed fractions, multiply mixed fractions, divide mixed fractions, improper fraction to mixed number, mixed number to improper fraction, simplify mixed fractions, GCF mixed fractions, fraction calculator with steps, mixed fraction calculator with steps, decimal to mixed number, free mixed fraction calculator, online mixed number calculator"
     }
   },
   "blox-fruits-wheel": {

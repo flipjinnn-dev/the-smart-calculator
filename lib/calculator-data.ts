@@ -110,6 +110,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'aquarium-substrate-calculator') return 'aquarium-substrate-calculator';
   if (id === 'fix-and-flip-calculator') return 'fix-and-flip-calculator';
   if (id === 'kite-size-calculator') return 'kite-size-calculator';
+  if (id === 'silcatire-pressure-calculator') return 'silcatire-pressure-calculator';
   if (id === 'crochet-calculator') return 'crochet-calculator';
   if (id === 'era-calculator') return 'era-calculator';
   if (id === 'extrapolation-calculator') return 'extrapolation-calculator';
@@ -119,6 +120,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'sourdough-calculator') return 'sourdough-calculator';
   if (id === 'lmtd-calculator') return 'lmtd-calculator';
   if (id === 'combination-sum-calculator') return 'combination-sum-calculator';
+  if (id === 'mixed-fraction-calculator') return 'mixed-fraction-calculator';
   if (id === 'blox-fruits-wheel') return 'blox-fruits-wheel';
   if (id === 'celebrity-wheel') return 'celebrity-wheel';
   if (id === 'candy-wheel') return 'candy-wheel';
@@ -1242,6 +1244,15 @@ export const calculators: Calculator[] = [
     popular: false,
   },
   {
+    id: "uf-gpa-calculator",
+    name: "UF GPA Calculator",
+    description:
+      "University of Florida GPA calculator — UF grading scale, quality points, credits, and grade point deficit (GPD) for the courses you enter.",
+    href: "/uf-gpa-calculator",
+    category: "other",
+    popular: true,
+  },
+  {
     id: "cpv-calculator",
     name: "CPV Calculator",
     description: "Calculate cost per view for video ads. Free CPV calculator for YouTube, Google Ads with CPV to CPM converter",
@@ -1330,6 +1341,15 @@ export const calculators: Calculator[] = [
     popular: false,
   },
   {
+    id: "silcatire-pressure-calculator",
+    name: "SILCA Tire Pressure Calculator",
+    description:
+      "Calculate ideal bike tire pressure instantly. Accurate front and rear PSI for road, gravel, and MTB using SILCA-style inputs — weight, tire width, surface, and setup.",
+    href: "/sports/silcatire-pressure-calculator",
+    category: "sports",
+    popular: false,
+  },
+  {
     id: "crochet-calculator",
     name: "Crochet Calculator",
     description: "Estimate yarn yardage, project cost, time, gauge, stitch counts, and pricing for crochet projects",
@@ -1398,6 +1418,15 @@ export const calculators: Calculator[] = [
     name: "Combination Sum Calculator",
     description: "Find all unique groups of numbers that add up to a target value. Supports number reuse, backtracking algorithm for budget & programming",
     href: "/maths/combination-sum-calculator",
+    category: "maths",
+    popular: false,
+  },
+  {
+    id: "mixed-fraction-calculator",
+    name: "Mixed Fraction Calculator",
+    description:
+      "Solve mixed numbers instantly with step-by-step answers. Add, subtract, multiply, divide, simplify, and convert fractions to decimals easily online.",
+    href: "/maths/calculator/mixed-fraction-calculator",
     category: "maths",
     popular: false,
   },

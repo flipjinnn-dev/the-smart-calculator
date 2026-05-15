@@ -90,7 +90,9 @@ export default function AuthorsSection({ authors }: AuthorsSectionProps) {
                         </div>
                       ) : (
                         <div className="w-full h-full rounded-3xl bg-white flex items-center justify-center">
-                          <User className="w-16 h-16 text-gray-400" />
+                          <span className="text-4xl font-extrabold text-gray-500">
+                            {author.name?.trim()?.charAt(0)?.toUpperCase() || "U"}
+                          </span>
                         </div>
                       )}
                     </div>

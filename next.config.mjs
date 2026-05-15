@@ -105,6 +105,26 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/financial/refinance-calculator',
+        destination: '/financial/mortgage-calculator',
+        permanent: true,
+      },
+      {
+        source: '/de/financial/amortization-calculator',
+        destination: '/de/finanziell/tilgungsrechner',
+        permanent: true,
+      },
+      {
+        source: '/physics/density-calculator',
+        destination: '/physics/mg-to-ml-calculator',
+        permanent: true,
+      },
+      {
+        source: '/physics/mass-calculator',
+        destination: '/physics/mg-to-ml-calculator',
+        permanent: true,
+      },
+      {
         source: '/clash-royale-wheel',
         destination: '/games/clash-royale-wheel',
         permanent: true,
@@ -133,6 +153,15 @@ const nextConfig = {
         ],
         destination: 'https://www.thesmartcalculator.com/:path*',
         permanent: true,
+      },
+    ];
+  },
+  async rewrites() {
+    return [
+      // Flat "other" calculators live at /slug; locale middleware rewrites to /other-calculators/slug
+      {
+        source: '/other-calculators/depop-fee-calculator',
+        destination: '/depop-fee-calculator',
       },
     ];
   },
