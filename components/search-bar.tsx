@@ -7,15 +7,22 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
-import { calculators, getCalculatorFileName } from "@/lib/calculator-data"
-import { calculatorsMeta } from "@/meta/calculators"
 
 interface SearchBarProps {
   language?: string
   onFocusChange?: (focused: boolean) => void
+  calculators?: Array<{
+    id: string
+    name: string
+    description: string
+    href: string
+    category: string
+    popular?: boolean
+    englishOnly?: boolean
+  }>
 }
 
-export default function SearchBar({ language = "en", onFocusChange }: SearchBarProps) {
+export default function SearchBar({ language = "en", onFocusChange, calculators = [] }: SearchBarProps) {
   const [isOpen, setIsOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
   const [isFocused, setIsFocused] = useState(false)
@@ -23,33 +30,19 @@ export default function SearchBar({ language = "en", onFocusChange }: SearchBarP
 
   // Memoize the localized calculators list
   const localizedCalculators = useMemo(() => {
-    return calculators.map(calc => {
-      // Get metadata for this calculator using the helper to resolve ID
-      const metaKey = getCalculatorFileName(calc.id)
-      const meta = calculatorsMeta[metaKey]
-
-      // If we have metadata for the requested language, use it
-      // Otherwise fall back to English or the default data
-      if (meta) {
-        const langMeta = meta[language] || meta['en']
-        if (langMeta) {
-          return {
-            ...calc,
-            name: langMeta.title,
-            description: langMeta.description,
-            href: langMeta.slug,
-            // Keep other properties like category, id, popular
-          }
-        }
-      }
-
-      return calc
+    return calculators.map((calc) => {
+      const href =
+        language === "en" || calc.englishOnly || calc.href.match(/^\/(br|pl|de|es)(\/|$)/)
+          ? calc.href
+          : `/${language}${calc.href}`
+      return { ...calc, href }
     })
-  }, [language])
+  }, [language, calculators])
 
-  const popularCalculators = useMemo(() =>
-    localizedCalculators.filter((calc) => calc.popular),
-    [localizedCalculators])
+  const popularCalculators = useMemo(() => {
+    const popular = localizedCalculators.filter((calc) => calc.popular)
+    return popular.length > 0 ? popular : localizedCalculators
+  }, [localizedCalculators])
 
   const [filteredCalculators, setFilteredCalculators] = useState(popularCalculators)
 

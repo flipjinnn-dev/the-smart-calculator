@@ -32,7 +32,7 @@ const CATEGORIES = [
 const OTHER_CALCULATORS = [
   'age-calculator', 'piecewise-function-calculator-grapher', 'enterprise-seo-roi-calculator',
   'rpe-calculator', 'indiana-child-support-calculator', 'time-calculator', 'gpa-calculator',
-  'height-calculator', 'ip-subnet-calculator', 'towing-estimate-calculator',
+  'height-calculator', 'ip-subnet-calculator', 'towing-estimate-calculator', 'shipping-cost-calculator',
   'calculadora-de-idade', 'calculadora-de-funcao-por-partes-e-graficador', 'calculadora-de-roi-de-seo-empresarial',
   'calculadora-de-epe', 'calculadora-de-pensao-alimenticia-de-indiana', 'calculadora-de-tempo', 'calculadora-gpa',
   'calculadora-de-altura', 'calculadora-desub-rede-IP', 'calculadora-de-custo-de-reboque',
@@ -51,6 +51,7 @@ const OTHER_CALCULATORS = [
 const ENGLISH_ONLY_PATHS = [
   // English-only calculators
   '/implant-size-calculator',
+  '/shipping-cost-calculator',
   '/business/break-even-roas-calculator',
   '/health/dental-implant-cost-calculator',
   '/maths/reverse-percentage-calculator',
