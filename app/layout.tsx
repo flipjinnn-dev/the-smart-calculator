@@ -157,10 +157,7 @@ export default async function RootLayout({
           <Header />
           <main>
             {children}
-          </main>     
-          {isProduction && (
-           
-          )}
+          </main>
           {isProduction && (
             <>
               <Script
