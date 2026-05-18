@@ -159,9 +159,7 @@ export default async function RootLayout({
             {children}
           </main>     
           {isProduction && (
-            <Script id="grow-me" strategy="afterInteractive">
-              {`!(function(){window.growMe||((window.growMe=function(e){window.growMe.q.push(e);}),(window.growMe.q=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","U2l0ZTowMWYyMzhiMS1hYmU3LTQ1MjgtYjgyOC04NTNlZWM1YjMzYzI=");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();`}
-            </Script>
+           
           )}
           {isProduction && (
             <>
