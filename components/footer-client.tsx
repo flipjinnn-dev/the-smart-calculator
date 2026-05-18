@@ -3,14 +3,10 @@
 import React, { useState, useEffect } from 'react';
 import Logo from './logo'
 import Link from 'next/link'
-import { Instagram, TwitterIcon, Mail, ChevronDown } from 'lucide-react'
+import { Instagram, TwitterIcon, Mail } from 'lucide-react'
 import { FaPinterestP } from "react-icons/fa"
 import { AiOutlineLinkedin, AiOutlineYoutube } from "react-icons/ai"
 import { getLocalizedCategoryUrl } from '@/lib/url-utils'
-import { getAllCalculatorsByCategory } from '@/lib/calculator-data'
-import { getLocalizedCalculatorData, getLocalizedCalculatorHref } from '@/lib/language-utils'
-import { getCalculatorFileName } from '@/lib/calculator-data'
-import { getAllGames } from '@/lib/games-data'
 
 interface FooterProps {
   language?: string
@@ -24,7 +20,6 @@ interface FooterItem {
 const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
   const [footerContent, setFooterContent] = useState<any>(null);
   const [loading, setLoading] = useState(true);
-  const [showAllCalculators, setShowAllCalculators] = useState(false);
 
   useEffect(() => {
     const loadContent = async () => {
@@ -45,106 +40,6 @@ const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
 
   if (loading || !footerContent) {
     return <footer className="bg-gray-900 text-white py-16"><div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">Loading...</div></footer>;
-  }
-
-  // Get all calculators organized by category
-  const calculatorsByCategory = getAllCalculatorsByCategory()
-  
-  // Add games category dynamically from games-data.ts
-  const allGames = getAllGames()
-  const gamesWithCategory = allGames.map(game => ({
-    ...game,
-    category: 'games'
-  }))
-  
-  calculatorsByCategory['games'] = gamesWithCategory
-  
-  // Localize calculator names and hrefs
-  const localizedCalculatorsByCategory: Record<string, any[]> = {}
-  Object.keys(calculatorsByCategory).forEach(category => {
-    if (category === 'games') {
-      // Games are only in English, keep as is
-      localizedCalculatorsByCategory[category] = calculatorsByCategory[category]
-    } else {
-      localizedCalculatorsByCategory[category] = calculatorsByCategory[category].map(calc => {
-        const fileName = getCalculatorFileName(calc.id)
-        const localizedData = getLocalizedCalculatorData(fileName, language)
-        return {
-          ...calc,
-          name: localizedData.name,
-          href: getLocalizedCalculatorHref(fileName, language)
-        }
-      })
-    }
-  })
-
-  // Category name mappings for different languages
-  const categoryNames: Record<string, Record<string, string>> = {
-    en: {
-      financial: "Financial Calculators",
-      health: "Health & Fitness Calculators",
-      maths: "Math Calculators",
-      physics: "Physics Calculators",
-      construction: "Construction Calculators",
-      food: "Food & Nutrition Calculators",
-      sports: "Sports Calculators",
-      "other-calculators": "Other Calculators",
-      software: "Software Calculators",
-      business: "Business Calculators",
-      games: "Games & Fun"
-    },
-    br: {
-      financial: "Calculadoras Financeiras",
-      health: "Calculadoras de Saúde e Fitness",
-      maths: "Calculadoras Matemáticas",
-      physics: "Calculadoras de Física",
-      construction: "Calculadoras de Construção",
-      food: "Calculadoras de Alimentação e Nutrição",
-      sports: "Calculadoras Esportivas",
-      "other-calculators": "Outras Calculadoras",
-      software: "Calculadoras de Software",
-      business: "Calculadoras de Negócios",
-      games: "Jogos e Diversão"
-    },
-    pl: {
-      financial: "Kalkulatory Finansowe",
-      health: "Kalkulatory Zdrowia i Fitness",
-      maths: "Kalkulatory Matematyczne",
-      physics: "Kalkulatory Fizyczne",
-      construction: "Kalkulatory Budowlane",
-      food: "Kalkulatory Żywności i Odżywiania",
-      sports: "Kalkulatory Sportowe",
-      "other-calculators": "Inne Kalkulatory",
-      software: "Kalkulatory Oprogramowania",
-      business: "Kalkulatory Biznesowe",
-      games: "Gry i Zabawa"
-    },
-    de: {
-      financial: "Finanzrechner",
-      health: "Gesundheits- und Fitnessrechner",
-      maths: "Mathematikrechner",
-      physics: "Physikrechner",
-      construction: "Baurechner",
-      food: "Ernährungs- und Lebensmittelrechner",
-      sports: "Sportrechner",
-      "other-calculators": "Andere Rechner",
-      software: "Softwarerechner",
-      business: "Geschäftsrechner",
-      games: "Spiele & Spaß"
-    },
-    es: {
-      financial: "Calculadoras Financieras",
-      health: "Calculadoras de Salud y Fitness",
-      maths: "Calculadoras Matemáticas",
-      physics: "Calculadoras de Física",
-      construction: "Calculadoras de Construcción",
-      food: "Calculadoras de Alimentación y Nutrición",
-      sports: "Calculadoras Deportivas",
-      "other-calculators": "Otras Calculadoras",
-      software: "Calculadoras de Software",
-      business: "Calculadoras de Negocios",
-      games: "Juegos y Diversión"
-    }
   }
 
   const categoryItems = language === 'en' 
@@ -319,53 +214,15 @@ const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
           </div>
         </div>
 
-        {/* All Calculators Section */}
         {footerContent.allCalculators?.showInFooter && (
-          <div className="border-t border-gray-800 pt-12 mb-12">
-            <div className="flex justify-center mb-8">
-              <button
-                onClick={() => setShowAllCalculators(!showAllCalculators)}
-                className="flex items-center gap-2 font-bold text-2xl text-white hover:text-blue-400 transition-colors duration-300 group"
-                aria-expanded={showAllCalculators}
-                aria-label={showAllCalculators ? "Hide all calculators" : "Show all calculators"}
-              >
-                {footerContent.allCalculators.title}
-                <ChevronDown 
-                  className={`w-6 h-6 transition-transform duration-300 group-hover:text-blue-400 ${
-                    showAllCalculators ? 'rotate-180' : ''
-                  }`}
-                />
-              </button>
-            </div>
-            
-            <div 
-              className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 overflow-hidden transition-all duration-500 ease-in-out ${
-                showAllCalculators ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'
-              }`}
+          <div className="border-t border-gray-800 pt-12 mb-12 text-center">
+            <h3 className="font-bold mb-4 text-2xl text-white">{footerContent.allCalculators.title}</h3>
+            <Link
+              href={companyItems.find((i: FooterItem) => i.href.includes("sitemap") || i.href.includes("mapa"))?.href || "/sitemap"}
+              className="inline-block text-blue-400 hover:text-blue-300 transition-colors duration-200 font-semibold"
             >
-              {Object.keys(localizedCalculatorsByCategory).map((category) => {
-                const categoryName = categoryNames[language]?.[category] || category
-                const calcs = localizedCalculatorsByCategory[category]
-                
-                return (
-                  <div key={category}>
-                    <h4 className="font-semibold text-lg mb-4 text-blue-400">{categoryName}</h4>
-                    <ul className="space-y-2 text-gray-400 text-sm">
-                      {calcs.map((calc: any) => (
-                        <li key={calc.id}>
-                          <Link
-                            href={calc.href}
-                            className="hover:text-white transition-colors duration-200"
-                          >
-                            {calc.name}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )
-              })}
-            </div>
+              View sitemap
+            </Link>
           </div>
         )}
 

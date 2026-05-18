@@ -8,10 +8,9 @@ export interface Calculator {
   category: string
   subcategory?: string
   popular?: boolean
+  englishOnly?: boolean
 }
 
-// Function to get language-specific calculator name and description from metadata
-import { calculatorsMeta } from '../meta/calculators';
 import { getLocalizedCalculatorData, getLocalizedCalculatorHref } from './language-utils';
 
 // Helper function to convert calculator ID to file name
@@ -943,6 +942,15 @@ export const calculators: Calculator[] = [
     popular: true
   },
   {
+    id: "shipping-cost-calculator",
+    name: "Shipping Cost Calculator",
+    description: "Estimate shipping cost using weight, dimensions, destination, service speed, and optional surcharges",
+    href: "/shipping-cost-calculator",
+    category: "other",
+    popular: false,
+    englishOnly: true,
+  },
+  {
     id: "age",
     name: "Age Calculator",
     description: "Calculate age in years, months, and days",
@@ -1481,34 +1489,44 @@ export const calculators: Calculator[] = [
 ]
 
 // Helper functions to get calculators by category with multilingual support
-export function getCalculatorsByCategory(category: string, language: string = 'en'): Calculator[] {
-  return calculators.filter((calc) => calc.category === category).map(calc => {
-    // Get language-specific data
-    const fileName = getCalculatorFileName(calc.id);
-    const localizedData = getLocalizedCalculatorData(fileName, language);
+function localizeCalculator(calc: Calculator, language: string): Calculator {
+  const fileName = getCalculatorFileName(calc.id);
+  const localizedData = getLocalizedCalculatorData(fileName, language);
+  const localizedHref = getLocalizedCalculatorHref(fileName, language);
 
+  const hasMeta =
+    localizedHref !== "/" &&
+    !(localizedData.name === "Calculator" && localizedData.description === "A useful calculator");
+
+  if (hasMeta) {
     return {
       ...calc,
       name: localizedData.name,
       description: localizedData.description,
-      href: getLocalizedCalculatorHref(fileName, language)
+      href: localizedHref,
     };
-  });
+  }
+
+  if (language === "en" || calc.englishOnly) {
+    return calc;
+  }
+
+  if (calc.href.match(/^\/(br|pl|de|es)(\/|$)/)) {
+    return calc;
+  }
+
+  const normalized = calc.href.startsWith("/") ? calc.href : `/${calc.href}`;
+  return { ...calc, href: `/${language}${normalized === "/" ? "" : normalized}` };
+}
+
+export function getCalculatorsByCategory(category: string, language: string = 'en'): Calculator[] {
+  return calculators.filter((calc) => calc.category === category).map((calc) => localizeCalculator(calc, language));
 }
 
 export function getPopularCalculatorsByCategory(category: string, language: string = 'en'): Calculator[] {
-  return calculators.filter((calc) => calc.category === category && calc.popular).map(calc => {
-    // Get language-specific data
-    const fileName = getCalculatorFileName(calc.id);
-    const localizedData = getLocalizedCalculatorData(fileName, language);
-
-    return {
-      ...calc,
-      name: localizedData.name,
-      description: localizedData.description,
-      href: getLocalizedCalculatorHref(fileName, language)
-    };
-  });
+  return calculators
+    .filter((calc) => calc.category === category && calc.popular)
+    .map((calc) => localizeCalculator(calc, language));
 }
 
 export function getCalculatorCount(category: string): number {
@@ -1535,17 +1553,9 @@ export function getCalculatorByName(name: string): Calculator | undefined {
 
 // Helper functions for subcategories
 export function getCalculatorsBySubcategory(category: string, subcategory: string, language: string = 'en'): Calculator[] {
-  return calculators.filter((calc) => calc.category === category && calc.subcategory === subcategory).map(calc => {
-    const fileName = getCalculatorFileName(calc.id);
-    const localizedData = getLocalizedCalculatorData(fileName, language);
-
-    return {
-      ...calc,
-      name: localizedData.name,
-      description: localizedData.description,
-      href: getLocalizedCalculatorHref(fileName, language)
-    };
-  });
+  return calculators
+    .filter((calc) => calc.category === category && calc.subcategory === subcategory)
+    .map((calc) => localizeCalculator(calc, language));
 }
 
 export function getSubcategoriesByCategory(category: string): string[] {

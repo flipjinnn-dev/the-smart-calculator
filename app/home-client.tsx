@@ -24,7 +24,6 @@ import {
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import SearchBar from "@/components/search-bar"
-import { getCalculatorCount, getCalculatorByName, calculators } from "@/lib/calculator-data"
 import { getLocalizedCategoryUrl, getLocalizedCalculatorUrl } from "@/lib/url-utils"
 import HomepageScientificCalculator from "@/components/homepage-scientific-calculator"
 import AuthorsSection from "@/components/authors-section"
@@ -242,6 +241,26 @@ export default function HomePage({ content, language, authors }: HomeClientProps
     })
     : fallbackCalculators;
 
+  const searchCalculators = [
+    ...calculatorsToUse.map((calc: any, index: number) => ({
+      id: String(index),
+      name: String(calc.name || ""),
+      description: String(calc.description || ""),
+      href: String(calc.href || "#"),
+      category: String(calc.category || ""),
+      popular: true,
+    })),
+    {
+      id: "shipping-cost-calculator",
+      name: "Shipping Cost Calculator",
+      description: "Estimate shipping cost using weight, dimensions, destination, service speed, and optional surcharges",
+      href: "/shipping-cost-calculator",
+      category: "Other",
+      popular: false,
+      englishOnly: true,
+    },
+  ];
+
   const categories = [
     {
       id: "financial",
@@ -251,7 +270,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-green-400 to-green-600",
       bgColor: "bg-green-50",
       textColor: "text-green-600",
-      calculators: getCalculatorCount("financial"),
       href: getLocalizedCategoryUrl("financial", language),
     },
     {
@@ -262,7 +280,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-red-400 to-red-600",
       bgColor: "bg-red-50",
       textColor: "text-red-600",
-      calculators: getCalculatorCount("health"),
       href: getLocalizedCategoryUrl("health", language),
     },
     {
@@ -273,7 +290,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-blue-400 to-blue-600",
       bgColor: "bg-blue-50",
       textColor: "text-blue-600",
-      calculators: getCalculatorCount("maths"),
       href: getLocalizedCategoryUrl("maths", language),
     },
     {
@@ -284,7 +300,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-yellow-400 to-yellow-600",
       bgColor: "bg-yellow-50",
       textColor: "text-yellow-600",
-      calculators: getCalculatorCount("physics"),
       href: getLocalizedCategoryUrl("physics", language),
     },
     {
@@ -295,7 +310,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-purple-400 to-purple-600",
       bgColor: "bg-purple-50",
       textColor: "text-purple-600",
-      calculators: getCalculatorCount("construction"),
       href: getLocalizedCategoryUrl("construction", language),
     },
     {
@@ -306,7 +320,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-orange-400 to-red-500",
       bgColor: "bg-orange-50",
       textColor: "text-orange-600",
-      calculators: getCalculatorCount("food"),
       href: getLocalizedCategoryUrl("food", language),
     },
     {
@@ -317,7 +330,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-blue-400 to-cyan-500",
       bgColor: "bg-blue-50",
       textColor: "text-blue-600",
-      calculators: getCalculatorCount("sports"),
       href: getLocalizedCategoryUrl("sports", language),
     },
     {
@@ -340,7 +352,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-gray-400 to-slate-600",
       bgColor: "bg-gray-50",
       textColor: "text-gray-600",
-      calculators: getCalculatorCount("other"),
       href: getLocalizedCategoryUrl("other", language),
     },
     {
@@ -351,7 +362,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-teal-400 to-cyan-600",
       bgColor: "bg-teal-50",
       textColor: "text-teal-600",
-      calculators: getCalculatorCount("software"),
       href: getLocalizedCategoryUrl("software", language),
     },
     {
@@ -362,7 +372,6 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       color: "from-amber-400 to-orange-600",
       bgColor: "bg-amber-50",
       textColor: "text-amber-600",
-      calculators: getCalculatorCount("business"),
       href: getLocalizedCategoryUrl("business", language),
     },
   ];
@@ -396,7 +405,7 @@ export default function HomePage({ content, language, authors }: HomeClientProps
                     id="hero-search"
                     className="bg-white p-2 rounded-3xl shadow-xl shadow-blue-900/5 border border-blue-50 ring-1 ring-black/5 max-w-lg mx-auto lg:mx-0 relative z-[100] scroll-mt-24"
                   >
-                    <SearchBar language={language} onFocusChange={setIsSearchFocused} />
+                    <SearchBar language={language} onFocusChange={setIsSearchFocused} calculators={searchCalculators} />
                   </div>
                   <p className="mt-4 text-sm text-gray-400 font-medium pl-2 flex items-center justify-center lg:justify-start gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
@@ -449,7 +458,11 @@ export default function HomePage({ content, language, authors }: HomeClientProps
                       </p>
 
                       <div className="flex items-center text-xs font-semibold text-gray-400 group-hover:text-blue-500 transition-colors">
-                        <span>{category.calculators} {(category as any).itemLabel || "calculators"}</span>
+                        <span>
+                          {typeof (category as any).calculators === "number"
+                            ? `${(category as any).calculators} ${(category as any).itemLabel || "calculators"}`
+                            : "Explore"}
+                        </span>
                         <ArrowRight className="w-3 h-3 ml-1 group-hover:translate-x-0.5 transition-transform" />
                       </div>
                     </div>

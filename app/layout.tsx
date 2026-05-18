@@ -139,6 +139,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const isProduction = process.env.NODE_ENV === "production"
   // Get language from headers for dynamic lang attribute
   const headerList = await headers();
   const langHeader = headerList.get('x-language');
@@ -151,48 +152,51 @@ export default async function RootLayout({
 
   return (
     <html lang={htmlLang}>
-      <head dangerouslySetInnerHTML={{
-        __html: ``
-      }} />
       <body className={inter.className}>
         <SessionProvider>
           <Header />
           <main>
             {children}
           </main>     
-          {/* ✅ Google Analytics - Deferred */}
-          <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-18W2MEF31Q"
-            strategy="lazyOnload"
-          />
-          <Script id="google-analytics" strategy="lazyOnload">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-18W2MEF31Q', {
-                page_path: window.location.pathname,
-              });
-            `}
-          </Script>
+          {isProduction && (
+            <Script id="grow-me" strategy="afterInteractive">
+              {`!(function(){window.growMe||((window.growMe=function(e){window.growMe.q.push(e);}),(window.growMe.q=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","U2l0ZTowMWYyMzhiMS1hYmU3LTQ1MjgtYjgyOC04NTNlZWM1YjMzYzI=");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();`}
+            </Script>
+          )}
+          {isProduction && (
+            <>
+              <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-18W2MEF31Q"
+                strategy="lazyOnload"
+              />
+              <Script id="google-analytics" strategy="lazyOnload">
+                {`
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-18W2MEF31Q', {
+                    page_path: window.location.pathname,
+                  });
+                `}
+              </Script>
 
-          {/* MidJourney Code */}
-          <Script id="midjourney-code" strategy="lazyOnload">
-            {`
-              <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false" src="//scripts.scriptwrapper.com/tags/01f238b1-abe7-4528-b828-853eec5b33c2.js"></script>
-            `}
-          </Script>
+              <Script id="midjourney-code" strategy="lazyOnload">
+                {`
+                  <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false" src="//scripts.scriptwrapper.com/tags/01f238b1-abe7-4528-b828-853eec5b33c2.js"></script>
+                `}
+              </Script>
 
-          {/* ✅ Microsoft Clarity - Deferred */}
-          <Script id="microsoft-clarity" strategy="lazyOnload">
-            {`
-              (function(c,l,a,r,i,t,y){
-                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "t4gsw89qux");
-            `}
-          </Script>
+              <Script id="microsoft-clarity" strategy="lazyOnload">
+                {`
+                  (function(c,l,a,r,i,t,y){
+                      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                  })(window, document, "clarity", "script", "t4gsw89qux");
+                `}
+              </Script>
+            </>
+          )}
 
           {/* ✅ Google AdSense - Deferred */}
           {/* <Script
@@ -206,12 +210,15 @@ export default async function RootLayout({
             src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"
             strategy="lazyOnload"
           />
-          {/* ✅ Vercel tools */}
-          <SpeedInsights />
-          <Analytics />
+          {isProduction && (
+            <>
+              <SpeedInsights />
+              <Analytics />
+            </>
+          )}
 
           <BackToTop />
-          <InternalLinksSection language={language} />
+          {isProduction && <InternalLinksSection language={language} />}
           <LanguageFooter />
           <Toaster position="top-center" richColors />
         </SessionProvider>
