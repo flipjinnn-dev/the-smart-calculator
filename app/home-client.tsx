@@ -225,6 +225,32 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       category: "Other",
       description: "University of Florida semester and cumulative GPA using UF's official grading scale and credits",
       href: "/uf-gpa-calculator"
+    },
+    {
+      name: "Septic Tank Size Calculator",
+      category: "Construction",
+      description: "Most homes need a 1,000-gallon septic tank. Get exact size from bedrooms, usage, and soil type.",
+      href: "/construction/septic-tank-size-calculator"
+    },
+    {
+      name: "Tattoo Tip Calculator",
+      category: "Other",
+      description: "Calculate tattoo tip amount, total with tip, multi-session totals, and per-person split instantly.",
+      href: "/tattoo-tip-calculator/"
+    },
+    {
+      name: "Strength Level Calculator",
+      category: "Health",
+      description:
+        "Calculate your 1RM, compare strength standards, and check bench, squat, deadlift, or overhead press level.",
+      href: "/health/strength-level-calculator"
+    },
+    {
+      name: "Pool Volume Calculator",
+      category: "Other",
+      description:
+        "Calculate pool volume in gallons, litres, and m³ for rectangular, round, oval, and kidney-shaped pools.",
+      href: "/pool-volume-calculator/"
     }
   ];
 

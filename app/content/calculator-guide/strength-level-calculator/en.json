@@ -1,0 +1,164 @@
+{
+  "color": "green",
+  "sections": [
+    {
+      "heading": "What Is a Strength Level Calculator?",
+      "content": "A **strength level calculator** is an online tool that compares your lifting performance against established strength standards based on bodyweight and gender. It evaluates major lifts including bench press, squat, deadlift, and overhead press and assigns you a standardized strength level.\n\nUnlike a basic one rep max calculator, this tool goes further. It tells you where you stand relative to thousands of real lifters. Coaches, powerlifters, and gym beginners all use it to track progress, set realistic goals, and benchmark performance. It works for both powerlifting strength standards and general gym strength standards."
+    },
+    {
+      "heading": "How to Use the Strength Level Calculator",
+      "content": "Using this **bodyweight strength calculator** takes under 60 seconds. Follow these steps:",
+      "subSections": [
+        {
+          "heading": "Step 1 — Enter Your Bodyweight",
+          "content": "Input your current bodyweight in kg or lbs. The calculator adjusts all strength standards relative to your body mass."
+        },
+        {
+          "heading": "Step 2 — Select Your Gender",
+          "content": "Male and female strength standards differ. Select the correct option for accurate comparison."
+        },
+        {
+          "heading": "Step 3 — Choose Your Lift",
+          "content": "Pick from: **Bench Press**, **Squat**, **Deadlift**, or **Overhead Press**."
+        },
+        {
+          "heading": "Step 4 — Enter Your Reps + Weight",
+          "content": "Enter the weight you lifted and reps performed—the built-in **1RM calculator** auto-calculates using the **Epley formula**."
+        },
+        {
+          "heading": "Step 5 — Read Your Strength Level",
+          "content": "Your result appears instantly: **Beginner**, **Novice**, **Intermediate**, **Advanced**, or **Elite** with an estimated strength percentile ranking.\n\n**Tip:** Test all major lifts to get your overall strength profile."
+        }
+      ]
+    },
+    {
+      "heading": "Strength Level Formula",
+      "content": "The calculator uses the **Epley 1RM Formula**:\n\n**1RM = Weight × (1 + Reps ÷ 30)**\n\nYour calculated 1RM is then compared to bodyweight-relative strength standards to assign a level.\n\n**Relative strength = 1RM ÷ Bodyweight**\n\nHigher ratios indicate greater relative strength.\n\n**Example:** 100 kg × (1 + 5 ÷ 30) = **116.7 kg** estimated 1RM"
+    },
+    {
+      "heading": "Strength Standards Calculator Reference Table",
+      "content": "| Lift | Beginner | Novice | Intermediate | Advanced | Elite |\n| --- | --- | --- | --- | --- | --- |\n| Bench Press | < 0.5× BW | 0.5–0.75× BW | 0.75–1.0× BW | 1.0–1.25× BW | 1.25×+ BW |\n| Squat | < 0.75× BW | 0.75–1.0× BW | 1.0–1.25× BW | 1.25–1.5× BW | 1.5×+ BW |\n| Deadlift | < 1.0× BW | 1.0–1.25× BW | 1.25–1.5× BW | 1.5–1.75× BW | 1.75×+ BW |\n| Overhead Press | < 0.35× BW | 0.35–0.5× BW | 0.5–0.65× BW | 0.65–0.8× BW | 0.8×+ BW |\n\n**BW** = Bodyweight. Standards shown for adult males. Female standards are ~65–70% of these values."
+    },
+    {
+      "heading": "The Five Strength Levels Explained",
+      "subSections": [
+        {
+          "heading": "1. Beginner",
+          "content": "You have less than 6 months of consistent training. Your lifts fall below the average for your bodyweight. Focus on learning proper form and progressive overload basics."
+        },
+        {
+          "heading": "2. Novice",
+          "content": "You train regularly and show consistent progress. Most gym-goers fall in this range after 6–18 months. You can lift moderate weight with solid technique."
+        },
+        {
+          "heading": "3. Intermediate",
+          "content": "You have 1–3 years of structured training. Your gym strength standards are above average. Progress slows, and programming becomes more important at this stage."
+        },
+        {
+          "heading": "4. Advanced",
+          "content": "You are in the top 10–15% of lifters. You likely follow a structured powerlifting or weightlifting program. Strength gains require serious periodization and recovery management."
+        },
+        {
+          "heading": "5. Elite",
+          "content": "You represent the top 1–2% of all lifters worldwide. Elite classification often requires powerlifting competition experience and near-maximal strength relative to bodyweight."
+        }
+      ]
+    },
+    {
+      "heading": "Strength Standards Tables by Bodyweight",
+      "content": "Reference tables for male lifters (kg). Female standards scale to ~68% of male thresholds in the live calculator.",
+      "subSections": [
+        {
+          "heading": "Male Bench Press Standards by Bodyweight (kg)",
+          "content": "| Bodyweight | Beginner | Novice | Intermediate | Advanced | Elite |\n| --- | --- | --- | --- | --- | --- |\n| 60 kg | 30 kg | 45 kg | 60 kg | 75 kg | 90 kg+ |\n| 70 kg | 35 kg | 52 kg | 70 kg | 87 kg | 105 kg+ |\n| 80 kg | 40 kg | 60 kg | 80 kg | 100 kg | 120 kg+ |\n| 90 kg | 45 kg | 67 kg | 90 kg | 112 kg | 135 kg+ |\n| 100 kg | 50 kg | 75 kg | 100 kg | 125 kg | 150 kg+ |"
+        },
+        {
+          "heading": "Male Squat Standards by Bodyweight (kg)",
+          "content": "| Bodyweight | Beginner | Novice | Intermediate | Advanced | Elite |\n| --- | --- | --- | --- | --- | --- |\n| 60 kg | 45 kg | 60 kg | 75 kg | 90 kg | 110 kg+ |\n| 70 kg | 52 kg | 70 kg | 87 kg | 105 kg | 130 kg+ |\n| 80 kg | 60 kg | 80 kg | 100 kg | 120 kg | 150 kg+ |\n| 90 kg | 67 kg | 90 kg | 112 kg | 135 kg | 168 kg+ |\n| 100 kg | 75 kg | 100 kg | 125 kg | 150 kg | 185 kg+ |"
+        },
+        {
+          "heading": "Male Deadlift Standards by Bodyweight (kg)",
+          "content": "| Bodyweight | Beginner | Novice | Intermediate | Advanced | Elite |\n| --- | --- | --- | --- | --- | --- |\n| 60 kg | 60 kg | 75 kg | 90 kg | 105 kg | 130 kg+ |\n| 70 kg | 70 kg | 87 kg | 105 kg | 122 kg | 152 kg+ |\n| 80 kg | 80 kg | 100 kg | 120 kg | 140 kg | 175 kg+ |\n| 90 kg | 90 kg | 112 kg | 135 kg | 157 kg | 195 kg+ |\n| 100 kg | 100 kg | 125 kg | 150 kg | 175 kg | 215 kg+ |"
+        }
+      ]
+    },
+    {
+      "heading": "Who Should Use This Calculator?",
+      "subSections": [
+        {
+          "heading": "Gym Beginners",
+          "content": "Understand your starting point and set realistic 3-month targets. Stop guessing; use real strength standards as a roadmap."
+        },
+        {
+          "heading": "Intermediate Lifters",
+          "content": "Identify weak points across your lifts. If your squat is Intermediate but your bench press sits at Novice, you know exactly where to focus."
+        },
+        {
+          "heading": "Powerlifters",
+          "content": "Compare your numbers to powerlifting strength standards before your next competition. Use it as a quick strength percentile calculator to track meet prep progress."
+        },
+        {
+          "heading": "Personal Trainers & Coaches",
+          "content": "Assess client baselines objectively. The gym strength calculator removes guesswork from program design and gives clients measurable milestones to chase."
+        },
+        {
+          "heading": "Anyone tracking progress",
+          "content": "Use it monthly to see real, data-driven improvement."
+        }
+      ]
+    },
+    {
+      "heading": "Troubleshooting",
+      "subSections": [
+        {
+          "heading": "My result seems too low",
+          "content": "Double-check your bodyweight unit (kg vs lbs). A common input error skews results significantly."
+        },
+        {
+          "heading": "I don't know my 1RM",
+          "content": "Use the built-in rep calculator. Enter a weight you can lift for 3–8 reps for the most accurate 1RM estimate. Avoid using sets of 1–2 reps or 15+ reps as they reduce accuracy."
+        },
+        {
+          "heading": "Which lift should I test first?",
+          "content": "Always test deadlift and squat when fresh. Bench press can follow."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the strength level calculator accurate?",
+      "answer": "Yes, within reasonable margins. The calculator uses the **Epley formula** for 1RM estimation, which carries a **±5%** margin of error. For the most accurate result, use rep ranges of **3–8**. If you want maximum precision, test your actual 1RM in a gym under proper conditions."
+    },
+    {
+      "question": "Can I use this as a bench press strength calculator?",
+      "answer": "Yes. Simply select **Bench Press** from the lift options, enter your bodyweight, then input your weight and reps. The calculator estimates your 1RM and instantly compares it against bodyweight-adjusted bench press strength standards."
+    },
+    {
+      "question": "Does the calculator work for women?",
+      "answer": "Yes. The calculator applies separate **female strength standards** that account for differences in muscle mass and hormonal profile. Female lifters are compared only against female norms, giving you a fair and accurate strength level result."
+    },
+    {
+      "question": "How often should I recalculate my strength level?",
+      "answer": "Recalculate every **4–6 weeks**. This timeframe aligns with standard training blocks and gives your body enough time to make measurable strength gains. Testing too frequently can be misleading due to daily performance variation."
+    },
+    {
+      "question": "What is a good strength level for a beginner?",
+      "answer": "Reaching the **Novice** level within your first **6 months** of training is a solid and realistic goal. Most lifters who train consistently 3 times per week can achieve Novice on squat and deadlift within that window."
+    },
+    {
+      "question": "Is this calculator useful for powerlifting?",
+      "answer": "Yes. It compares your **squat**, **bench press**, and **deadlift** numbers against strength standards used by competitive powerlifting federations. You can use it to assess where you stand before entering your first competition."
+    },
+    {
+      "question": "What lifts does the calculator support?",
+      "answer": "The calculator supports **Bench Press**, **Squat**, **Deadlift**, and **Overhead Press**. Testing all lifts gives you a complete overall strength profile rather than a single lift snapshot."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "A **strength level calculator** estimates your **1RM**, compares it to **bodyweight-relative standards**, and assigns a level from **Beginner** to **Elite**. Use it every few weeks to set goals, fix weak lifts, and track real strength progress."
+    }
+  ]
+}

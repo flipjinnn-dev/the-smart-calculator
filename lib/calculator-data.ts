@@ -35,6 +35,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === '401k-calculator') return '401k-calculator';
   if (id === 'calories-burned-calculator') return 'calories-burned-calculator';
   if (id === 'one-rep-max-calculator') return 'one-rep-max-calculator';
+  if (id === 'strength-level-calculator') return 'strength-level-calculator';
   if (id === 'protein-calculator') return 'protein-calculator';
   if (id === 'sales-tax-calculator') return 'sales-tax-calculator';
   if (id === 'overweight-calculator') return 'overweight-calculator';
@@ -66,6 +67,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'mortgage-calculator') return 'mortgage-calculator';
   if (id === 'mortgage-payoff-calculator') return 'mortgage-payoff-calculator';
   if (id === 'one-rep-max-calculator') return 'one-rep-max-calculator';
+  if (id === 'strength-level-calculator') return 'strength-level-calculator';
   if (id === 'overweight-calculator') return 'overweight-calculator';
   if (id === 'ovulation-calculator') return 'ovulation-calculator';
   if (id === 'pace-calculator') return 'pace-calculator';
@@ -422,7 +424,17 @@ export const calculators: Calculator[] = [
     name: "One Rep Max Calculator",
     description: "Estimate your one-rep max for strength training exercises.",
     href: "/health/one-rep-max-calculator",
-    category: "health"
+    category: "health",
+    popular: false,
+  },
+  {
+    id: "strength-level-calculator",
+    name: "Strength Level Calculator",
+    description:
+      "Calculate your 1RM, compare strength standards, and check your bench, squat, deadlift, or overhead press strength level online.",
+    href: "/health/strength-level-calculator",
+    category: "health",
+    popular: true,
   },
   {
     id: "army-body-fat-calculator",
@@ -1242,6 +1254,24 @@ export const calculators: Calculator[] = [
     href: "/depop-fee-calculator",
     category: "other",
     popular: false,
+  },
+  {
+    id: "tattoo-tip-calculator",
+    name: "Tattoo Tip Calculator",
+    description:
+      "Use our free tattoo tip calculator to instantly find the perfect tip for your tattoo artist. Enter your tattoo cost, choose a percentage, and get quick accurate results with no guesswork.",
+    href: "/tattoo-tip-calculator/",
+    category: "other",
+    popular: true,
+  },
+  {
+    id: "pool-volume-calculator",
+    name: "Pool Volume Calculator",
+    description:
+      "Calculate pool volume in gallons, litres, and m³ for rectangular, round, oval, and kidney-shaped pools instantly.",
+    href: "/pool-volume-calculator/",
+    category: "other",
+    popular: true,
   },
   {
     id: "uf-gpa-calculator",

@@ -1,0 +1,153 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "How to Use the Pool Volume Calculator",
+      "content": "Follow these five steps to get your exact pool water capacity:",
+      "subSections": [
+        {
+          "heading": "Step 1 — Select Your Pool Shape",
+          "content": "Choose rectangular, round/circular, oval, or kidney-shaped. The pool calculator volume formula changes based on your pool's shape."
+        },
+        {
+          "heading": "Step 2 — Enter Your Pool Dimensions",
+          "content": "Use the pool dimension calculator fields to enter length and width in feet or metres. For round pools, enter the diameter only. For kidney pools, enter both the longer and shorter width measurements."
+        },
+        {
+          "heading": "Step 3 — Enter Your Shallow and Deep End Depths",
+          "content": "The pool measurement calculator automatically computes your average depth. Never enter the deep end only — this is the most common mistake pool owners make."
+        },
+        {
+          "heading": "Step 4 — Choose Your Output Unit",
+          "content": "Select US gallons, litres, or cubic metres (m³). The swimming pool volume calculator shows all three units at once so you never need to convert manually."
+        },
+        {
+          "heading": "Step 5 — Click Calculate",
+          "content": "Your pool water capacity calculator result appears instantly including gallons, litres, m³, and UK gallons for metric users."
+        },
+        {
+          "heading": "Pro Tip",
+          "content": "**Average Depth = (Shallow End Depth + Deep End Depth) ÷ 2.** A pool with a 3 ft shallow end and 8 ft deep end has a **5.5 ft** average depth — not 8 ft. Always use average depth for accurate results."
+        }
+      ]
+    },
+    {
+      "heading": "Which Shape Is Your Pool?",
+      "content": "The pool size pool volume calculator uses a different formula for each pool shape. Identify your pool type below before you start calculating.\n\n| Pool Shape | Description | Best For |\n| --- | --- | --- |\n| Rectangular | Straight edges, four right angles | Standard inground & lap pools |\n| Round / Circular | Perfect circle shape | Most above-ground pools |\n| Oval | Elongated round shape | Above-ground oval designs |\n| Kidney / Freeform | Curved, irregular inground shape | Decorative inground pools |\n\n**Irregular or custom shape?** Split your pool into two separate rectangular sections. Use the pool fill calculator for each section individually, then add both results together for the total swimming pool volume."
+    },
+    {
+      "heading": "Pool Volume Formulas",
+      "subSections": [
+        {
+          "heading": "Rectangular Pool Volume Formula",
+          "content": "The most commonly used formula in the pool volume calculator:\n\n**Volume (gallons) = Length × Width × Average Depth × 7.48**\n\n**Volume (litres) = Length × Width × Average Depth × 28.32**\n\n**Volume (m³) = Length(m) × Width(m) × Average Depth(m)**\n\n**Example:** 12 ft × 24 ft × 5 ft average depth × 7.48 = **10,771 US gallons**"
+        },
+        {
+          "heading": "Round Pool Volume Formula",
+          "content": "Use the round pool volume calculator or circle pool volume calculator for above-ground circular pools:\n\n**Volume (gallons) = π × Radius² × Average Depth × 7.48**\n\n**Radius = Diameter ÷ 2**\n\n**Example:** 15 ft diameter pool, 4 ft deep → π × 7.5² × 4 × 7.48 = **5,278 gallons**\n\nThe pool volume calculator round and pool diameter calculator both use this formula. Enter your pool's full diameter — the calculator converts it to radius automatically."
+        },
+        {
+          "heading": "Oval Pool Volume Formula",
+          "content": "Use the volume of a pool calculator set to oval shape:\n\n**Volume (gallons) = π × (Length ÷ 2) × (Width ÷ 2) × Average Depth × 7.48**\n\n**Example:** 16 ft × 10 ft oval pool, 4 ft deep → π × 8 × 5 × 4 × 7.48 = **3,748 gallons**"
+        },
+        {
+          "heading": "Kidney Pool Volume Formula",
+          "content": "The pool volume calculator kidney uses the **0.45** shape correction factor for curves:\n\n**Volume (gallons) = (Wider Width + Narrower Width) × Length × 0.45 × Average Depth × 7.48**\n\nThe 0.45 multiplier accounts for the volume lost in the kidney's curved indentation. Without it, the water pool calculator would significantly overestimate actual water capacity."
+        }
+      ]
+    },
+    {
+      "heading": "Pool Volume Calculator in Litres & m³",
+      "content": "Users in the UK, Australia, Canada, and Europe calculate pool volume in litres and m³ by default. The pool volume calculator m3 mode handles all metric conversions automatically.\n\n**Countries using metric pool volume:** 🇬🇧 United Kingdom | 🇦🇺 Australia | 🇨🇦 Canada | 🇩🇪 Germany | 🇫🇷 France | 🇮🇳 India | 🇳🇿 New Zealand\n\n| Pool Shape | Formula (m³) | To Get Litres |\n| --- | --- | --- |\n| Rectangular | L × W × Avg Depth | m³ × 1,000 |\n| Round | π × r² × Avg Depth | m³ × 1,000 |\n| Oval | π × (L/2) × (W/2) × Avg Depth | m³ × 1,000 |\n| Kidney | (W1 + W2) × L × 0.45 × Avg Depth | m³ × 1,000 |\n\nMeasure all dimensions in metres when using the metric water calculator for pool mode. The volume calculator pool result in m³ multiplied by 1,000 gives you exact litres.\n\n**UK vs US Gallons:** 1 UK gallon = 4.546 litres. 1 US gallon = 3.785 litres. Always confirm which gallon system your pool chemical labels use — the wrong unit can cause serious over or under-dosing."
+    },
+    {
+      "heading": "Pool Volume by Common Pool Sizes",
+      "content": "Use this table for a fast pool water capacity estimate. For precise results, always use the gallon in pool calculator above.\n\n| Pool Size (ft) | Shape | Avg Depth (ft) | US Gallons | Litres | m³ |\n| --- | --- | --- | --- | --- | --- |\n| 12 × 24 | Rectangular | 4.5 | 9,700 | 36,700 | 36.7 |\n| 16 × 32 | Rectangular | 5 | 19,200 | 72,700 | 72.7 |\n| 18 × 36 | Rectangular | 5.5 | 26,900 | 101,800 | 101.8 |\n| 20 × 40 | Rectangular | 5.5 | 33,000 | 124,900 | 124.9 |\n| 15 ft dia. | Round | 4 | 5,300 | 20,070 | 20.1 |\n| 18 ft dia. | Round | 4 | 7,640 | 28,900 | 28.9 |\n| 24 ft dia. | Round | 4.5 | 15,300 | 57,900 | 57.9 |\n| 16 × 32 | Oval | 4.5 | 15,100 | 57,100 | 57.1 |\n| 20 × 16 | Kidney | 5 | 13,500 | 51,100 | 51.1 |"
+    },
+    {
+      "heading": "Why Knowing Your Pool Volume Matters",
+      "content": "Accurate pool water capacity directly affects every area of pool ownership:",
+      "subSections": [
+        {
+          "heading": "Chemical Dosing",
+          "content": "Chlorine, pH adjusters, and shock treatments are dosed per gallon or litre. Wrong volume = unsafe or over-treated water."
+        },
+        {
+          "heading": "Pump & Filter Sizing",
+          "content": "Your pump must turn over full pool volume every 6–8 hours. Wrong volume = wrong pump size = cloudy water."
+        },
+        {
+          "heading": "Heater Efficiency",
+          "content": "Heater BTU ratings depend on total water volume. Underestimate and your heater runs non-stop without hitting target temperature."
+        },
+        {
+          "heading": "Water Change Scheduling",
+          "content": "Professionals recommend replacing 30–50% of pool water every 2–3 years. You need accurate volume to plan this correctly."
+        },
+        {
+          "heading": "Winterizing & Closing",
+          "content": "Antifreeze and closing chemicals require exact pool volume in gallons or litres. Approximate numbers waste money and damage equipment."
+        },
+        {
+          "heading": "Permits & HOA Compliance",
+          "content": "Many local building codes require you to declare pool water volume during inspections and permit renewals."
+        }
+      ]
+    },
+    {
+      "heading": "Common Mistakes When Using a Pool Volume Calculator",
+      "subSections": [
+        {
+          "heading": "Mistake 1 — Using Deep End Depth Only",
+          "content": "The most common error. A pool that is 3 ft shallow and 8 ft deep does NOT have an 8 ft depth. Average depth = (3 + 8) ÷ 2 = **5.5 ft**. Every pool measurement calculator should use average depth, not the maximum."
+        },
+        {
+          "heading": "Mistake 2 — Measuring Outside the Pool Walls",
+          "content": "Pool shell thickness reduces internal water volume. Measure inside wall to inside wall at the waterline. Outside measurements overestimate actual capacity by 5–10%."
+        },
+        {
+          "heading": "Mistake 3 — Using Rectangular Formula for Kidney Pools",
+          "content": "Applying the rectangular formula to a kidney or freeform pool overestimates water volume by 10–15%. Always use the correct pool volume calculator kidney formula with the 0.45 shape factor."
+        },
+        {
+          "heading": "Mistake 4 — Mixing Imperial and Metric Units",
+          "content": "Entering length in feet but depth in metres produces a completely wrong result. The pool dimension calculator requires all inputs in the same unit system. Switch to metric mode if you work in metres."
+        },
+        {
+          "heading": "Mistake 5 — Ignoring Steps, Ledges, and Attached Spas",
+          "content": "Tanning ledges, entry steps, and spa attachments each hold water that affects your total chemical dosing. Calculate the main pool body first, then add or subtract attached features separately using the pool size pool volume calculator."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do I calculate pool volume in gallons?",
+      "answer": "Multiply Length × Width × Average Depth (in feet) × 7.48 to get US gallons. For a 12 × 24 ft pool with 5 ft average depth: 12 × 24 × 5 × 7.48 = 10,771 gallons. Use the pool volume calculator above to skip the manual math — enter your dimensions and get your result instantly."
+    },
+    {
+      "question": "How many gallons of water does an average pool hold?",
+      "answer": "A standard residential inground pool holds between 10,000 and 25,000 US gallons depending on size and shape. Above-ground pools typically hold 1,500 to 5,000 gallons. Use the swimming pool volume calculator above for your exact pool size — the average range varies too widely to rely on for chemical dosing."
+    },
+    {
+      "question": "How do I use a round pool volume calculator?",
+      "answer": "Select \"Round\" or \"Circle\" in the circle pool volume calculator, enter your pool's diameter (not radius) in the width field, and enter your pool depth. The round pool volume calculator converts diameter to radius automatically and applies the π × r² × depth formula."
+    },
+    {
+      "question": "How do I calculate pool volume in litres or m³?",
+      "answer": "Enter all pool dimensions in metres and select the litres or m³ output mode in the pool volume calculator m3 settings. The volume calculator pool multiplies your m³ result × 1,000 to display litres. You can also enter dimensions in feet and use the conversion: 1 cubic foot = 28.32 litres."
+    },
+    {
+      "question": "What is the formula for kidney-shaped pool volume?",
+      "answer": "Use: (Wider Width + Narrower Width) × Length × 0.45 × Average Depth × 7.48 for US gallons. The pool volume calculator kidney applies the 0.45 correction factor automatically for the curved shape. Without this factor, the volume of pool calculator would overestimate water capacity by around 12%."
+    },
+    {
+      "question": "How do I calculate above-ground pool volume?",
+      "answer": "Select \"Round\" in the water calculator for pool, enter the pool's full diameter in the width field, and enter the water depth (not the wall height — water depth is typically 6 inches less than wall height). For an 18 ft diameter, 4 ft deep pool: π × 9² × 4 × 7.48 = 7,640 gallons."
+    },
+    {
+      "question": "Why does my pool volume result differ from my pool builder's estimate?",
+      "answer": "Pool builders use rounded estimates and often exclude steps, ledges, and tanning shelves. The pool fill calculator uses precise geometric formulas. A 3–7% difference is completely normal. Always use the calculator result — not the builder's rough figure — when dosing pool chemicals. The wrong volume means the wrong chemical dose."
+    }
+  ]
+}

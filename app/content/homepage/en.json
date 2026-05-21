@@ -111,6 +111,21 @@
         "name": "Septic Tank Size Calculator",
         "category": "Construction",
         "description": "Most homes need a 1,000-gallon septic tank. Get exact size from bedrooms, usage, and soil type."
+      },
+      {
+        "name": "Tattoo Tip Calculator",
+        "category": "Other",
+        "description": "Calculate tattoo tip amount, total with tip, multi-session totals, and per-person split instantly."
+      },
+      {
+        "name": "Strength Level Calculator",
+        "category": "Health",
+        "description": "Calculate your 1RM, compare strength standards, and check bench, squat, deadlift, or overhead press level."
+      },
+      {
+        "name": "Pool Volume Calculator",
+        "category": "Other",
+        "description": "Calculate pool volume in gallons, litres, and m³ for rectangular, round, oval, and kidney-shaped pools."
       }
     ]
   },

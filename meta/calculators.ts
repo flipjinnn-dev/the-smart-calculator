@@ -4190,5 +4190,35 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/games/clash-royale-wheel",
       keywords: "clash royale wheel, clash royale spin wheel, wheel clash royale, clash royale random wheel, spin wheel clash royale, wheel of names clash royale, clash royale wheel spinner, clash royale spinning wheel, clash royale card wheel, clash royale deck wheel, clash royale challenge wheel, clash royale evo wheel, clash royale champion wheel, clash royale card generator, clash royale deck generator, clash royale random card, clash royale spin the wheel challenge, clash royale wheel of fortune, free clash royale wheel"
     }
+  },
+  "strength-level-calculator": {
+    en: {
+      title: "Strength Level Calculator & 1RM Strength Standards",
+      description:
+        "Use our Strength Level Calculator to calculate your 1RM, compare strength standards, and check your bench, squat, or deadlift strength level online.",
+      slug: "/health/strength-level-calculator",
+      keywords:
+        "strength level calculator, 1rm strength standards, strength standards calculator, bench press strength calculator, squat strength standards, deadlift strength level, overhead press strength, epley 1rm calculator, bodyweight strength calculator, powerlifting strength standards, gym strength calculator, strength percentile calculator, lifting strength calculator, novice intermediate advanced elite strength"
+    }
+  },
+  "tattoo-tip-calculator": {
+    en: {
+      title: "Tattoo Tip Calculator",
+      description:
+        "Use our tattoo tip calculator to instantly calculate the perfect tip for your tattoo artist. Enter cost, choose %, and get fast accurate results online.",
+      slug: "/tattoo-tip-calculator/",
+      keywords:
+        "tattoo tip calculator, tattoo tip calculator online, how much to tip tattoo artist, tattoo tip percentage, calculate tattoo tip, tattoo gratuity calculator, tip for tattoo artist, 20 percent tattoo tip, tattoo session tip calculator, split tattoo bill calculator, multi session tattoo tip, tattoo cost plus tip, tattoo tipping guide, custom tattoo tip percent, tattoo artist tip amount"
+    }
+  },
+  "pool-volume-calculator": {
+    en: {
+      title: "Pool Volume Calculator | Calculate Gallons & Litres",
+      description:
+        "Calculate pool volume in gallons, litres, and m³ instantly. Use our pool volume calculator for rectangular, round, oval, and kidney pools.",
+      slug: "/pool-volume-calculator/",
+      keywords:
+        "pool volume calculator, swimming pool volume calculator, pool water capacity calculator, pool gallon calculator, pool litres calculator, pool volume m3, round pool volume calculator, kidney pool volume calculator, oval pool volume calculator, pool fill calculator, pool dimension calculator, above ground pool volume, pool measurement calculator, calculate pool gallons, pool size calculator"
+    }
   }
 };
