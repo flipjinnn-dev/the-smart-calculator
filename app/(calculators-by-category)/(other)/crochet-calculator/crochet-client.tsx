@@ -50,7 +50,7 @@ export default function CrochetCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-pink-600" />
               What Is a Crochet Calculator?
@@ -78,7 +78,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Yarn Calculator Section */}
-          <div className="bg-gradient-to-br from-pink-50 to-purple-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-pink-50 to-purple-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Crochet Yarn Calculator — How Much Yarn Do You Need?</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -154,7 +154,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Blanket Calculator Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Crochet Blanket Calculator — Size, Yarn & Yardage</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -221,7 +221,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Gauge Calculator Section */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Crochet Gauge Calculator — Swatching Made Simple</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -260,7 +260,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Size Calculator Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Crochet Size Calculator — Getting the Right Fit</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -328,7 +328,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Hat Calculator Section */}
-          <div className="bg-gradient-to-br from-orange-50 to-yellow-50 border-2 border-orange-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-orange-50 to-yellow-50 border-2 border-orange-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Crochet Hat Calculator — From Baby to Adult</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -395,7 +395,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Sweater Calculator Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Crochet Sweater Calculator — Sizing & Yarn Amounts</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -441,7 +441,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Stitch Calculator Section */}
-          <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Crochet Stitch Calculator — Increases and Decreases</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -475,7 +475,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Price Calculator Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <DollarSign className="w-8 h-8 text-green-600" />
               Crochet Price Calculator — Charge What You Are Worth
@@ -504,7 +504,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Time Calculator Section */}
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <Clock className="w-8 h-8 text-purple-600" />
               Crochet Time Calculator — Estimate Hours Per Project
@@ -558,7 +558,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Cost Calculator Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Crochet Cost Calculator — Materials, Labour & Overhead</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -615,7 +615,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Commission Calculator Section */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Crochet Commission Calculator — Pricing for Sellers</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -673,7 +673,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* Entities Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Entities and Concepts You Should Know</h2>
             <div className="space-y-3 text-gray-700 leading-relaxed">
               <p>For Google to understand and trust this content, the following entities are directly relevant to crochet calculators:</p>
@@ -694,7 +694,7 @@ export default function CrochetCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-pink-600" />
               Frequently Asked Questions

@@ -50,7 +50,7 @@ export default function ExtrapolationCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is Extrapolation Calculator */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-purple-600" />
               What Is an Extrapolation Calculator?
@@ -69,7 +69,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* Extrapolation Formula */}
-          <div className="bg-gradient-to-br from-purple-50 to-blue-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-purple-50 to-blue-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Extrapolation Formula — The Core Equation</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>The standard linear extrapolation formula uses two known coordinate pairs to project a third unknown point. The formula is:</p>
@@ -99,7 +99,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* How to Use */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Use the Extrapolation Calculator with Steps</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>Using this extrapolation calculator online is straightforward. Follow these steps to get accurate results every time.</p>
@@ -129,7 +129,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* Example */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Linear Extrapolation Calculator — Extrapolation Formula Example</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>Understanding a worked example makes the extrapolation formula much clearer. Here is a practical extrapolation formula example that demonstrates how the calculation works from start to finish.</p>
@@ -156,7 +156,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* Types of Extrapolation */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Types of Extrapolation Methods</h2>
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p>Different datasets require different extrapolation approaches. This section covers the three main types and explains when each method produces the most reliable extrapolated values.</p>
@@ -194,7 +194,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* Extrapolation vs Interpolation */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Extrapolation vs. Interpolation</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -210,7 +210,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* Retrograde Extrapolation */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Retrograde Extrapolation Calculator — BAC Back Extrapolation</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -229,7 +229,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* Vancomycin */}
-          <div className="bg-gradient-to-br from-pink-50 to-purple-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-pink-50 to-purple-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Vancomycin Extrapolated Trough Calculator</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -242,7 +242,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* Excel */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Calculate Extrapolation in Excel</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>You can perform a linear extrapolation calculation in Excel without an online calculator. Here is how to calculate extrapolation in Excel using two methods.</p>
@@ -270,7 +270,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* Applications */}
-          <div className="bg-gradient-to-br from-indigo-50 to-blue-50 border-2 border-indigo-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-indigo-50 to-blue-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Applications of Extrapolation Across Industries</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>Extrapolation calculation serves critical real-world functions across a wide range of professional fields. Below are the most significant application areas where accurate extrapolated values drive important decisions.</p>
@@ -305,7 +305,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* Accuracy and Limitations */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Accuracy, Limitations, and Best Practices</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>Every extrapolation calculation carries inherent uncertainty. Understanding how accuracy degrades helps you apply the results responsibly.</p>
@@ -325,7 +325,7 @@ export default function ExtrapolationCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-purple-600" />
               Frequently Asked Questions

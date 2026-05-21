@@ -151,7 +151,7 @@ export default function SeatimeCalculator() {
       </div>
 
       {/* Input Form */}
-      <div className="space-y-6 bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+      <div className="space-y-6 bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
         <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
           <Ship className="w-7 h-7 text-blue-600" />
           Add Voyage

@@ -43,7 +43,7 @@ export default function LoftConversionCostCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* How to Use */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <BookOpen className="w-8 h-8 text-blue-600" />
                 How to Use Our Loft Conversion Cost Calculator Online
@@ -158,7 +158,7 @@ export default function LoftConversionCostCalculatorClient() {
             </div>
 
             {/* Key Factors */}
-            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 border-2 border-orange-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 border-2 border-orange-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Ruler className="w-8 h-8 text-orange-600" />
                 Cost of Loft Conversion UK Calculator – Key Factors That Shape Your Price
@@ -231,7 +231,7 @@ export default function LoftConversionCostCalculatorClient() {
             </div>
 
             {/* Dormer Conversion */}
-            <div className="bg-white border-2 border-blue-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Dormer Loft Conversion Cost Calculator – Most Popular Choice Explained</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 You choose dormer more than any other type. Our dormer loft conversion cost calculator estimates £45,000–£60,000 for a standard rear dormer on a 30 m² space.
@@ -267,7 +267,7 @@ export default function LoftConversionCostCalculatorClient() {
             </div>
 
             {/* Velux Conversion */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Velux Loft Conversion Cost Calculator – Cheapest and Fastest Option</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 You want speed and value. The Velux loft conversion cost calculator shows £25,000–£35,000 for a typical rooflight project.
@@ -303,7 +303,7 @@ export default function LoftConversionCostCalculatorClient() {
             </div>
 
             {/* Basic vs Full Fit-Out */}
-            <div className="bg-white border-2 border-indigo-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Loft Conversion Cost Basic vs Full Fit-Out</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 You decide the spec. A loft conversion cost basic (shell only – floor, insulation, staircase, rooflights) runs £15,000–£25,000. Full fit-out adds:
@@ -320,7 +320,7 @@ export default function LoftConversionCostCalculatorClient() {
             </div>
 
             {/* Step-by-Step Process */}
-            <div className="bg-gradient-to-br from-pink-50 to-rose-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-pink-50 to-rose-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Step-by-Step Process – From Calculator to Completion</h2>
               <ol className="space-y-3 text-gray-700 text-lg ml-6">
                 <li className="flex items-start gap-2">
@@ -362,7 +362,7 @@ export default function LoftConversionCostCalculatorClient() {
             </div>
 
             {/* ROI Section */}
-            <div className="bg-white border-2 border-green-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <TrendingUp className="w-8 h-8 text-green-600" />
                 How Much Value Does a Loft Conversion Add? Real ROI
@@ -373,7 +373,7 @@ export default function LoftConversionCostCalculatorClient() {
             </div>
 
             {/* Tips to Reduce Costs */}
-            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Tips to Reduce Your Loft Conversion Costs Without Cutting Quality</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-6">
                 You keep the project affordable:
@@ -401,7 +401,7 @@ export default function LoftConversionCostCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">FAQs</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">

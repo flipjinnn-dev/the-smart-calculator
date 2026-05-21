@@ -75,7 +75,7 @@ export default function GrailedFeeCalculator() {
   return (
     <div className="space-y-8">
       {/* Input Form */}
-      <div className="space-y-6 bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+      <div className="space-y-6 bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
         <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
           <Calculator className="w-7 h-7 text-blue-600" />
           Calculate Your Grailed Fees
@@ -191,7 +191,7 @@ export default function GrailedFeeCalculator() {
           </div>
 
           {/* Fee Breakdown Card */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
               <TrendingDown className="w-6 h-6 text-red-600" />
               Fee Breakdown

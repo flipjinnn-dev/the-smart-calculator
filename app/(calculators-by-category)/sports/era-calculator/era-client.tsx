@@ -50,7 +50,7 @@ export default function ERACalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is ERA */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-blue-600" />
               What Is ERA? Understanding Earned Run Average
@@ -69,7 +69,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* ERA Formula */}
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">ERA Calculator Formula: How to Calculate ERA</h2>
             
             <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">The Standard ERA Formula</h3>
@@ -103,7 +103,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* 9 vs 7 Innings */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">ERA Calculator for 9 Innings vs. 7 Innings</h2>
             
             <h3 className="text-2xl font-bold text-gray-900 mb-4">ERA Calculator Per 9 Innings (MLB Standard)</h3>
@@ -131,7 +131,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* Softball ERA */}
-          <div className="bg-gradient-to-br from-pink-50 to-purple-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-pink-50 to-purple-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">ERA Calculator for Softball</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -156,7 +156,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* MLB ERA Standards */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">ERA Calculator MLB: Understanding MLB ERA Standards</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -225,7 +225,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* Expected ERA */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Expected ERA (xERA): The Next Level of Pitching Analysis</h2>
             
             <h3 className="text-2xl font-bold text-gray-900 mb-4">What Is Expected ERA?</h3>
@@ -258,7 +258,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* Common Scenarios */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How ERA Is Calculated: Common Scenarios and Edge Cases</h2>
             
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Partial Innings in ERA Calculation</h3>
@@ -294,7 +294,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* Japanese ERA System */}
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <Calendar className="w-8 h-8 text-purple-600" />
               ERA in Japanese History: Understanding the Japanese Historical Era System
@@ -379,7 +379,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* Geological Eras */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Era and Period Timeline: Geological and Historical Context</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -442,7 +442,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* How Many Years */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How Many Years Is an Era?</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>There is no fixed number of years in an era. The length depends entirely on the context:</p>
@@ -460,7 +460,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* Tips */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Tips for Using an ERA Calculator Accurately</h2>
             <div className="space-y-3 text-gray-700 leading-relaxed">
               <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
@@ -486,7 +486,7 @@ export default function ERACalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-blue-600" />
               Frequently Asked Questions

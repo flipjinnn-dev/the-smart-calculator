@@ -58,7 +58,7 @@ export default function WaterPotentialCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* Water Potential Formula */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Beaker className="w-8 h-8 text-blue-600" />
                 Water potential formula
@@ -112,7 +112,7 @@ export default function WaterPotentialCalculatorClient() {
             </div>
 
             {/* Water Potential Components */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Water potential components explained</h2>
               <div className="space-y-6">
                 {[
@@ -178,7 +178,7 @@ export default function WaterPotentialCalculatorClient() {
             </div>
 
             {/* Experimental Data */}
-            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Calculation of water potential from experimental data</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 In AP Biology and A-Level labs, you calculate water potential experimentally by placing tissue (like potato or zucchini cores) in sucrose solutions and observing mass changes.
@@ -246,7 +246,7 @@ export default function WaterPotentialCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently asked questions</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
@@ -333,7 +333,7 @@ export default function WaterPotentialCalculatorClient() {
             </div>
 
             {/* A-Level vs AP Biology */}
-            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Water potential formula — A-Level vs AP Biology</h2>
               <div className="overflow-x-auto">
                 <table className="w-full border-2 border-gray-300">

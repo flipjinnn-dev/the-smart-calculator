@@ -58,7 +58,7 @@ export default function EthnicityCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* What Is Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Globe className="w-8 h-8 text-purple-600" />
                 What Is an Ethnicity Calculator?
@@ -91,7 +91,7 @@ export default function EthnicityCalculatorClient() {
             </div>
 
             {/* How to Calculate */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Calculate Your Ethnicity Percentage</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Calculating your ethnicity percentage follows a simple mathematical principle: each parent contributes 50% of your genetic and cultural heritage, each grandparent contributes 25%, each great-grandparent contributes 12.5%, and so on.
@@ -212,7 +212,7 @@ export default function EthnicityCalculatorClient() {
             </div>
 
             {/* Baby Ethnicity Calculator */}
-            <div className="bg-gradient-to-br from-pink-50 to-rose-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-pink-50 to-rose-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Heart className="w-8 h-8 text-pink-600" />
                 Baby Ethnicity Calculator
@@ -335,7 +335,7 @@ export default function EthnicityCalculatorClient() {
             </div>
 
             {/* Cultural vs Genetic */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Cultural Ethnicity vs. Genetic Ethnicity</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Many people confuse cultural ethnicity with genetic ethnicity. Understanding the difference helps you use any ethnicity calculator more effectively.
@@ -454,7 +454,7 @@ export default function EthnicityCalculatorClient() {
             </div>
 
             {/* Ethnicity by Face */}
-            <div className="bg-gradient-to-br from-red-50 to-pink-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-red-50 to-pink-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <AlertCircle className="w-8 h-8 text-red-600" />
                 Ethnicity by Face & Photo — What Science Says
@@ -536,7 +536,7 @@ export default function EthnicityCalculatorClient() {
             </div>
 
             {/* Tips for Accuracy */}
-            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Tips for Accurate Ethnicity Estimation</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Whether you use a free ethnicity calculator online, a DNA test, or family research, these tips will help you get the most accurate results.
@@ -569,7 +569,7 @@ export default function EthnicityCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
@@ -665,7 +665,7 @@ export default function EthnicityCalculatorClient() {
             </div>
 
             {/* Summary */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Summary</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>

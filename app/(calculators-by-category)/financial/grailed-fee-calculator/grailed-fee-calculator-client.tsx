@@ -50,7 +50,7 @@ export default function GrailedFeeCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* What is Grailed Fee */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Info className="w-8 h-8 text-green-600" />
                 What is Grailed Fee?
@@ -137,7 +137,7 @@ export default function GrailedFeeCalculatorClient() {
             </div>
 
             {/* Calculate Grailed Fees (Step-by-Step Guide) */}
-            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 border-2 border-orange-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 border-2 border-orange-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <BookOpen className="w-8 h-8 text-orange-600" />
                 Calculate Grailed Fees (Step-by-Step Guide)
@@ -224,7 +224,7 @@ export default function GrailedFeeCalculatorClient() {
             </div>
 
             {/* Grailed Seller Fee Calculator Explained */}
-            <div className="bg-white border-2 border-blue-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <DollarSign className="w-8 h-8 text-blue-600" />
                 Grailed Seller Fee Calculator Explained
@@ -258,7 +258,7 @@ export default function GrailedFeeCalculatorClient() {
             </div>
 
             {/* Grailed Buyer Fee Calculator Explained */}
-            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Package className="w-8 h-8 text-teal-600" />
                 Grailed Buyer Fee Calculator Explained
@@ -289,7 +289,7 @@ export default function GrailedFeeCalculatorClient() {
             </div>
 
             {/* Grailed and PayPal Fee Calculator Breakdown */}
-            <div className="bg-white border-2 border-indigo-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Grailed and PayPal Fee Calculator Breakdown</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 Many sellers still search for a <strong>Grailed and PayPal fee calculator</strong> because the platform used PayPal in earlier years. Today Grailed processes payments through Stripe, but the combined fee structure feels very similar.
@@ -307,7 +307,7 @@ export default function GrailedFeeCalculatorClient() {
             </div>
 
             {/* Grailed Fees in 2026 */}
-            <div className="bg-gradient-to-br from-pink-50 to-rose-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-pink-50 to-rose-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Grailed Fees in 2026</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 As of April 2026, Grailed fees remain competitive and unchanged at their core: <strong>9% commission + Stripe processing fees</strong>. No major increases have hit sellers this year.
@@ -327,7 +327,7 @@ export default function GrailedFeeCalculatorClient() {
             </div>
 
             {/* Factors Affecting Grailed Fees */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Factors Affecting Grailed Fees</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 Several variables change your exact fees:
@@ -355,7 +355,7 @@ export default function GrailedFeeCalculatorClient() {
             </div>
 
             {/* Tips to Reduce Grailed Fees */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <TrendingUp className="w-8 h-8 text-green-600" />
                 Tips to Reduce Grailed Fees
@@ -389,7 +389,7 @@ export default function GrailedFeeCalculatorClient() {
             </div>
 
             {/* Common Mistakes */}
-            <div className="bg-white border-2 border-red-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <AlertTriangle className="w-8 h-8 text-red-600" />
                 Common Mistakes Users Make
@@ -417,7 +417,7 @@ export default function GrailedFeeCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">FAQs</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">

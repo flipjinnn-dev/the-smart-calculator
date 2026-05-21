@@ -211,7 +211,7 @@ export default function VenmoFeeCalculatorClient() {
           <div className="lg:col-span-2 space-y-8">
 
             {/* How to Use */}
-            <div className="bg-gradient-to-br from-blue-50 via-white to-purple-50 border-2 border-blue-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-gradient-to-br from-blue-50 via-white to-purple-50 border-2 border-blue-100 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="flex items-center gap-3 mb-5">
                 <div className="bg-blue-600 rounded-xl p-3">
                   <Info className="w-6 h-6 text-white" />
@@ -230,7 +230,7 @@ export default function VenmoFeeCalculatorClient() {
             </div>
 
             {/* Fee Formulas */}
-            <div className="bg-gradient-to-br from-purple-50 via-white to-pink-50 border-2 border-purple-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-gradient-to-br from-purple-50 via-white to-pink-50 border-2 border-purple-100 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="flex items-center gap-3 mb-5">
                 <div className="bg-purple-600 rounded-xl p-3">
                   <Calculator className="w-6 h-6 text-white" />

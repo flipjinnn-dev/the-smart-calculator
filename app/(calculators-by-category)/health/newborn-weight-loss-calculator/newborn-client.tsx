@@ -50,7 +50,7 @@ export default function NewbornWeightLossCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* Introduction */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               Newborn Weight Loss Calculator — How to Calculate, What's Normal, and When to Worry
             </h2>
@@ -65,7 +65,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* What Is Section */}
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-blue-600" />
               What Is Newborn Weight Loss and Why Does It Happen?
@@ -91,7 +91,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* Formula Explained */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Newborn Weight Loss Calculator — The Formula Explained</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -110,7 +110,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* Step-by-Step Calculations */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Calculate Newborn Weight Loss — Step-by-Step</h2>
 
             {/* Kilograms */}
@@ -175,7 +175,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* Normal Weight Loss Chart */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Normal Newborn Weight Loss Chart — What the Numbers Mean</h2>
             <p className="text-gray-700 mb-6">
               Use this reference table to understand where your baby's weight loss falls.
@@ -226,7 +226,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* When Does Baby Start Gaining Weight */}
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">When Does a Newborn Start Gaining Weight Again?</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -244,7 +244,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* Factors That Affect Weight Loss */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Factors That Affect How Much Weight a Newborn Loses</h2>
             <p className="text-gray-700 mb-6">
               Not all newborns lose the same amount of weight. Several factors influence this, and understanding them helps you interpret the numbers more accurately.
@@ -273,7 +273,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* Clinical Practice */}
-          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Newborn Weight Loss Calculator in Clinical Practice — What Hospitals Actually Do</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -289,7 +289,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* Tracking Weight at Home */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Track Your Newborn's Weight Accurately at Home</h2>
             <p className="text-gray-700 mb-6">
               If you want to track weight between pediatric visits, here is how to do it reliably.
@@ -320,7 +320,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* Signs Baby Not Getting Enough Milk */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <AlertTriangle className="w-8 h-8 text-orange-600" />
               Signs Your Newborn May Not Be Getting Enough Milk
@@ -349,7 +349,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* Experience-Based Insights */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Experience-Based Insights From Lactation Consultants and Neonatologists</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -368,7 +368,7 @@ export default function NewbornWeightLossCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-blue-600" />
               FAQs

@@ -58,7 +58,7 @@ export default function MSICalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* Introduction */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Zap className="w-8 h-8 text-blue-600" />
                 MSI Calculator (Power Supply, PSU, Wattage & PC Build Tool)
@@ -74,7 +74,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* What Is Section */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">What is an MSI Calculator?</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 An MSI calculator is a digital tool that helps you estimate:
@@ -121,7 +121,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* MSI PSU Calculator */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">MSI Calculator Power Supply (PSU)</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 The MSI PSU calculator estimates how much power your system needs based on:
@@ -184,7 +184,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* PC Build Calculator */}
-            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">MSI PC Build Calculator</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 The MSI PC build calculator helps you plan your entire system.
@@ -230,7 +230,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* Bottleneck Calculator */}
-            <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">MSI Bottleneck Calculator</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 The MSI bottleneck calculator analyzes CPU and GPU pairing.
@@ -281,7 +281,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* TDP Calculator */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">MSI TDP Calculator</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 TDP (Thermal Design Power) is critical for estimating heat and power usage.
@@ -332,7 +332,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* DRAM Calculator */}
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">MSI DRAM Calculator</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 This calculator helps optimize RAM timings and performance.
@@ -354,7 +354,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* Motherboard Calculator */}
-            <div className="bg-white border-2 border-purple-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">MSI Motherboard Calculator</h2>
               <p className="text-gray-700 leading-relaxed">
                 Helps evaluate motherboard compatibility and power distribution.
@@ -362,7 +362,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* Price Calculator */}
-            <div className="bg-gradient-to-br from-pink-50 to-purple-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-pink-50 to-purple-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">MSI Price Calculator</h2>
               <p className="text-gray-700 leading-relaxed">
                 Useful for estimating total PC build cost.
@@ -402,7 +402,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* Step-by-Step */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <BookOpen className="w-8 h-8 text-blue-600" />
                 MSI PC Power Supply Calculator (Step-by-Step)
@@ -458,7 +458,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* Different Languages */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">MSI Calculator in Different Languages</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 This tool is globally used:
@@ -504,7 +504,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* Real-World Experience */}
-            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-300 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-300 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <TrendingUp className="w-8 h-8 text-yellow-600" />
                 Real-World Experience & Expert Tips
@@ -532,7 +532,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">FAQs</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
@@ -583,7 +583,7 @@ export default function MSICalculatorClient() {
             </div>
 
             {/* Final Thoughts */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Final Thoughts</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>

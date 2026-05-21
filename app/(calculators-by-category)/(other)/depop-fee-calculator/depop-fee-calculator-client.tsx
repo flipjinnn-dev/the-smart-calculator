@@ -54,7 +54,7 @@ export default function DepopFeeCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* What Is a Depop Fee Calculator */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Calculator className="w-8 h-8 text-purple-600" />
                 What Is a Depop Fee Calculator and Why Do You Need One?
@@ -71,7 +71,7 @@ export default function DepopFeeCalculatorClient() {
             </div>
 
             {/* How Depop Fees Work */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <DollarSign className="w-8 h-8 text-blue-600" />
                 How Depop Fees Work in 2026 — The Complete Breakdown
@@ -201,7 +201,7 @@ export default function DepopFeeCalculatorClient() {
             </div>
 
             {/* Regional Calculators */}
-            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Depop Fee Calculator by Region — US, UK, and Australia</h2>
 
               <div className="space-y-6">
@@ -298,7 +298,7 @@ export default function DepopFeeCalculatorClient() {
             </div>
 
             {/* Shipping Fees */}
-            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Package className="w-8 h-8 text-yellow-600" />
                 How Depop Fees Apply to Shipping — A Detail Most Sellers Miss
@@ -320,7 +320,7 @@ export default function DepopFeeCalculatorClient() {
             </div>
 
             {/* Bundles and Refunds */}
-            <div className="bg-white border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Depop Fees for Bundles</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 If you sold a bundle on Depop and are based outside of the UK or US, Depop selling fees will apply for each item you sold. For US and UK sellers, bundles follow the same processing-fee-only structure as individual sales.
@@ -336,7 +336,7 @@ export default function DepopFeeCalculatorClient() {
             </div>
 
             {/* Tips to Maximize Profit */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <TrendingUp className="w-8 h-8 text-green-600" />
                 Tips to Maximise Your Depop Profit Margin
@@ -409,7 +409,7 @@ export default function DepopFeeCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">FAQs</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">

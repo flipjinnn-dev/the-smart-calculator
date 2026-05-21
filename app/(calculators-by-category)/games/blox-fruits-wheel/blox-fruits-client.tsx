@@ -52,7 +52,7 @@ export default function BloxFruitsWheelClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-purple-600" />
               What Is the Blox Fruits Wheel?
@@ -79,7 +79,7 @@ export default function BloxFruitsWheelClient() {
           </div>
 
           {/* How to Use */}
-          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Use the Blox Fruits Spin Wheel</h2>
             <p className="text-gray-700 mb-6">Using the blox fruit spin the wheel is extremely simple and takes only a few seconds. Here is exactly how it works:</p>
             
@@ -106,7 +106,7 @@ export default function BloxFruitsWheelClient() {
           </div>
 
           {/* All Fruits */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Blox Fruits Wheel All Fruits — Update 26 and Update 27</h2>
             <p className="text-gray-700 mb-6">
               The blox fruits fruit wheel covers every single fruit available in the game. This makes the all fruits in blox fruits wheel perfect for complete random challenges. Here is a full breakdown of what the wheel includes:
@@ -141,7 +141,7 @@ export default function BloxFruitsWheelClient() {
           </div>
 
           {/* Swords */}
-          <div className="bg-gradient-to-br from-cyan-50 to-blue-50 border-2 border-cyan-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-cyan-50 to-blue-50 border-2 border-cyan-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Blox Fruits Wheel Swords</h2>
             <p className="text-gray-700 mb-4">
               The Blox Fruits Wheel Swords option lets you fully randomize your weapon choice. Instead of defaulting to the same sword every single session, you spin the wheel and adapt to whatever you get.
@@ -155,7 +155,7 @@ export default function BloxFruitsWheelClient() {
           </div>
 
           {/* Guns */}
-          <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Blox Fruits Wheel Guns</h2>
             <p className="text-gray-700 mb-4">
               The Blox Fruits Wheel Guns is the perfect tool for ranged build players. You spin the blox fruits random gun wheel and get a completely random gun assignment every single time.
@@ -166,7 +166,7 @@ export default function BloxFruitsWheelClient() {
           </div>
 
           {/* Race */}
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Blox Fruits Wheel Race</h2>
             <p className="text-gray-700 mb-4">
               Your race in Blox Fruits directly affects your speed, passive abilities, and overall strategy. The Blox Fruits Wheel Race lets you randomize this important decision completely.
@@ -177,7 +177,7 @@ export default function BloxFruitsWheelClient() {
           </div>
 
           {/* Fighting Style */}
-          <div className="bg-gradient-to-br from-yellow-50 to-amber-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-amber-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Blox Fruits Wheel Fighting Style</h2>
             <p className="text-gray-700 mb-4">
               The Blox Fruits Wheel Fighting Style adds another powerful layer of randomness to your build. Instead of always going back to your main fighting style, you spin and commit to whatever comes up.
@@ -191,7 +191,7 @@ export default function BloxFruitsWheelClient() {
           </div>
 
           {/* Challenge Ideas */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <Zap className="w-8 h-8 text-yellow-600" />
               Spin the Wheel Blox Fruits — Popular Challenge Ideas
@@ -235,7 +235,7 @@ export default function BloxFruitsWheelClient() {
           </div>
 
           {/* Fair Chances */}
-          <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Blox Fruit Spin Wheel Chances — Is It Truly Fair?</h2>
             <p className="text-gray-700 mb-4">
               Yes, the blox fruit spin wheel chances are completely equal for every option on the standard wheel. Every fruit, sword, gun, race, and fighting style carries the exact same probability of being selected.
@@ -249,7 +249,7 @@ export default function BloxFruitsWheelClient() {
           </div>
 
           {/* Why This Wheel Beats Others */}
-          <div className="bg-gradient-to-br from-pink-50 to-rose-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-pink-50 to-rose-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Why This Blox Fruits Wheel Beats Every Other Option</h2>
             <p className="text-gray-700 mb-6">
               This blox fruits wheel stands out from every competitor because it combines simplicity with complete and powerful features all in one place.
@@ -288,7 +288,7 @@ export default function BloxFruitsWheelClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-purple-600" />
               Frequently Asked Questions

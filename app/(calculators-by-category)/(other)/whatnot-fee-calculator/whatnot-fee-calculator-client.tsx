@@ -55,7 +55,7 @@ export default function WhatnotFeeCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* Introduction */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <p className="text-gray-700 leading-relaxed text-lg">
                 Whether you sell trading cards, collectibles, vintage clothing, electronics, or coins on Whatnot, you need to know exactly how much the platform takes before you set your price. Guessing costs you money. This free Whatnot seller fees calculator removes the guesswork. Enter your sale price, select your region and category, and you get a clear breakdown of every fee deducted and exactly what lands in your pocket.
               </p>
@@ -65,7 +65,7 @@ export default function WhatnotFeeCalculatorClient() {
             </div>
 
             {/* What Are Whatnot Seller Fees */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <DollarSign className="w-8 h-8 text-blue-600" />
                 What Are Whatnot Seller Fees?
@@ -206,7 +206,7 @@ export default function WhatnotFeeCalculatorClient() {
             </div>
 
             {/* Regional Calculators */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Whatnot Fee Calculator for Different Regions</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Sellers outside the US need region-specific numbers. Here is what you need to know.
@@ -265,7 +265,7 @@ export default function WhatnotFeeCalculatorClient() {
             </div>
 
             {/* What Affects Payout */}
-            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <TrendingUp className="w-8 h-8 text-yellow-600" />
                 What Affects Your Whatnot Seller Payout?
@@ -322,7 +322,7 @@ export default function WhatnotFeeCalculatorClient() {
             </div>
 
             {/* Pricing Formula */}
-            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Price Your Items for Profit on Whatnot</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Now that you understand the fee structure, here is how to work backwards from your desired profit to your listing price.
@@ -374,7 +374,7 @@ export default function WhatnotFeeCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
@@ -461,7 +461,7 @@ export default function WhatnotFeeCalculatorClient() {
             </div>
 
             {/* Summary Table */}
-            <div className="bg-gradient-to-br from-gray-50 to-blue-50 border-2 border-gray-300 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-gray-50 to-blue-50 border-2 border-gray-300 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Summary</h2>
               <div className="overflow-x-auto">
                 <table className="w-full border-2 border-gray-300">

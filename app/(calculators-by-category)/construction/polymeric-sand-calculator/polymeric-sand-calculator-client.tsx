@@ -72,7 +72,7 @@ export default function PolymericSandCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* What Is Polymeric Sand */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Package className="w-8 h-8 text-purple-600" />
                 What Is Polymeric Sand?
@@ -242,7 +242,7 @@ export default function PolymericSandCalculatorClient() {
             </div>
 
             {/* Manual Calculation Formula */}
-            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 border-2 border-orange-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-orange-50 to-yellow-50 border-2 border-orange-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Calculator className="w-8 h-8 text-orange-600" />
                 Manual Calculation Formula
@@ -287,7 +287,7 @@ export default function PolymericSandCalculatorClient() {
             </div>
 
             {/* Polymeric Sand Calculator for Flagstone */}
-            <div className="bg-white border-2 border-teal-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-teal-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Layers className="w-8 h-8 text-teal-600" />
                 Polymeric Sand Calculator for Flagstone
@@ -322,7 +322,7 @@ export default function PolymericSandCalculatorClient() {
             </div>
 
             {/* 5 Factors That Change Your Sand Quantity */}
-            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">5 Factors That Change Your Sand Quantity</h2>
               
               <div className="space-y-4">
@@ -416,7 +416,7 @@ export default function PolymericSandCalculatorClient() {
             </div>
 
             {/* How to Apply Polymeric Sand */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <TrendingUp className="w-8 h-8 text-green-600" />
                 How to Apply Polymeric Sand After Calculating
@@ -450,7 +450,7 @@ export default function PolymericSandCalculatorClient() {
             </div>
 
             {/* Common Mistakes */}
-            <div className="bg-white border-2 border-red-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <AlertTriangle className="w-8 h-8 text-red-600" />
                 Common Mistakes When Estimating Paver Joint Sand
@@ -520,7 +520,7 @@ export default function PolymericSandCalculatorClient() {
             </div>
 
             {/* How Many Pounds Do I Need */}
-            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">How Many Pounds Do I Need?</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 Most polymeric sand sells in 50 lb bags. Some brands offer 40 lb or 80 lb options.
@@ -626,7 +626,7 @@ export default function PolymericSandCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">

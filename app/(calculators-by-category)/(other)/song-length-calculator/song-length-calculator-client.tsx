@@ -58,7 +58,7 @@ export default function SongLengthCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* Introduction */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Music className="w-8 h-8 text-purple-600" />
                 Song Length Calculator – Calculate Song Duration Instantly
@@ -91,7 +91,7 @@ export default function SongLengthCalculatorClient() {
             </div>
 
             {/* What Is Section */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">What is a Song Length Calculator?</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 A song length calculator online is a digital tool that calculates the total playtime of songs or playlists. You simply input durations (e.g., 3:45, 4:20), and it automatically adds them.
@@ -116,7 +116,7 @@ export default function SongLengthCalculatorClient() {
             </div>
 
             {/* How to Use */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Use a Song Time Calculator</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Using a song time duration calculator is very simple:
@@ -203,7 +203,7 @@ export default function SongLengthCalculatorClient() {
             </div>
 
             {/* Types of Calculations */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Types of Song Length Calculations</h2>
               <div className="space-y-6">
                 {[
@@ -268,7 +268,7 @@ export default function SongLengthCalculatorClient() {
             </div>
 
             {/* BPM to Song Length */}
-            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-300 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-300 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Zap className="w-8 h-8 text-yellow-600" />
                 BPM to Song Length Calculator
@@ -342,7 +342,7 @@ export default function SongLengthCalculatorClient() {
             </div>
 
             {/* For Professionals */}
-            <div className="bg-gradient-to-br from-pink-50 to-red-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-pink-50 to-red-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Song Track Length Calculator for Professionals</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 If you're a:
@@ -409,7 +409,7 @@ export default function SongLengthCalculatorClient() {
             </div>
 
             {/* Features to Look For */}
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Song Length Calculator Online — Features to Look For</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 A high-quality song playlist time calculator online should include:
@@ -465,7 +465,7 @@ export default function SongLengthCalculatorClient() {
             </div>
 
             {/* Benefits */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Benefits of Using a Song Length Calculator</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 {[
@@ -483,7 +483,7 @@ export default function SongLengthCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">FAQs</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">

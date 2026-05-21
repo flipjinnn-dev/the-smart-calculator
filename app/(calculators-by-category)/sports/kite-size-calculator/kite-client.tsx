@@ -57,7 +57,7 @@ export default function KiteSizeCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-blue-600" />
               What Is a Kite Size Calculator and Why Use One for Kitesurfing?
@@ -76,7 +76,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* How It Works */}
-          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How Our Kite Size Calculator Works: Step-by-Step Guide</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>You start by entering your details into the calculator form (imagine the interactive tool right here on the page):</p>
@@ -112,7 +112,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* Kite Size by Weight */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Kite Size by Weight: The #1 Factor You Must Get Right</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -199,7 +199,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* Wind Speed Chart */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Kite Size Chart by Wind Speed: Knots, m/s, and mph Conversions</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -271,7 +271,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* What Size Kite Do I Need */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">What Size Kite Do I Need? Factors Beyond Weight and Wind</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -312,7 +312,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* Kite Dimensions */}
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Kite Dimensions Calculator and Kite Measurements Explained</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -332,7 +332,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* Kiteboard Size Calculator */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Kiteboard Size Calculator: Pair Your Kite with the Right Board</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -354,7 +354,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* Beginner vs Advanced */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Kite Size Chart for Beginners vs. Advanced Riders</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -367,7 +367,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* Experience-Based Tips */}
-          <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <TrendingUp className="w-8 h-8 text-teal-600" />
               Real Experience-Based Tips from Seasoned Kitesurfers
@@ -383,7 +383,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* Safety First */}
-          <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <AlertTriangle className="w-8 h-8 text-red-600" />
               Safety First: How Proper Kite Sizing Prevents Accidents
@@ -396,7 +396,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* Kite Types */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Kite Types and How They Affect Size Recommendations</h2>
             <div className="space-y-3 text-gray-700 leading-relaxed">
               <div className="bg-blue-50 p-4 rounded-lg">
@@ -422,7 +422,7 @@ export default function KiteSizeCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-blue-600" />
               FAQs

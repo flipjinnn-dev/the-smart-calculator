@@ -54,7 +54,7 @@ export default function SeatimeCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* Introduction */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 Every seafarer's career depends on one critical number — total sea time. Whether you are a deck cadet counting months before your Second Mate CoC exam, an AB tracking days toward an OOW certificate, or a Captain verifying sea service for USCG license renewal, accurate seatime calculation is non-negotiable. One miscalculation means a delayed Certificate of Competency, a rejected application, or a missed career opportunity.
               </p>
@@ -64,7 +64,7 @@ export default function SeatimeCalculatorClient() {
             </div>
 
             {/* What Is a Seatime Calculator */}
-            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Ship className="w-8 h-8 text-teal-600" />
                 What Is a Seatime Calculator?
@@ -174,7 +174,7 @@ export default function SeatimeCalculatorClient() {
             </div>
 
             {/* STCW Rules */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Globe className="w-8 h-8 text-purple-600" />
                 Sea Time Calculation as per STCW — Key Rules Every Seafarer Must Know
@@ -241,7 +241,7 @@ export default function SeatimeCalculatorClient() {
             </div>
 
             {/* MCA Requirements */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Seatime Calculator MCA — Sea Time Requirements for UK Seafarers</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-6">
                 The MCA's Sea Service Testimonial (SST) verification system is strict. A poorly documented application causes delays of up to 160 days in issuing your Notice of Eligibility (NoE). Accurate seatime calculation before submission is essential.
@@ -331,7 +331,7 @@ export default function SeatimeCalculatorClient() {
             </div>
 
             {/* Clyde Marine Comparison */}
-            <div className="bg-gradient-to-br from-cyan-50 to-blue-50 border-2 border-cyan-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-cyan-50 to-blue-50 border-2 border-cyan-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Clyde Marine Seatime Calculator vs This Tool</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 The Clyde seatime calculator (seatimecalculator.com) was built by Clyde Software for MCA-based sea time calculation. It uses the same join-date to leave-date methodology and remains widely used by UK seafarers. However, it has clear limitations:
@@ -364,7 +364,7 @@ export default function SeatimeCalculatorClient() {
             </div>
 
             {/* Excel vs Online */}
-            <div className="bg-white border-2 border-yellow-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Seatime Calculator Excel vs Online — Which Should You Use?</h2>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 Many seafarers maintain a seatime calculator Excel spreadsheet. It works, but has real risks — date difference formulas break easily, cells get overwritten, and there is no mobile access on board.
@@ -375,7 +375,7 @@ export default function SeatimeCalculatorClient() {
             </div>
 
             {/* Seatime Tracker Tips */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <TrendingUp className="w-8 h-8 text-green-600" />
                 Seatime Tracker — How to Maintain an Accurate Sea Service Record
@@ -443,7 +443,7 @@ export default function SeatimeCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">

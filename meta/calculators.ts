@@ -4011,6 +4011,16 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "polymeric sand calculator, paver sand calculator, polymeric sand estimator, joint sand calculator, how much polymeric sand do i need, polymeric sand coverage, polymeric sand bags needed, dominator polymeric sand calculator, techniseal polymeric sand calculator, alliance gator calculator, gator maxx calculator, polymeric jointing sand calculator, paver joint sand calculator, flagstone sand calculator, polymeric sand for pavers, polymeric sand coverage table, 50 lb bag polymeric sand coverage, polymeric sand per square foot, patio sand calculator, driveway sand calculator, walkway sand calculator, tumbled paver sand, wide joint polymeric sand, ez sand calculator, unilock sand calculator"
     }
   },
+  "septic-tank-size-calculator": {
+    en: {
+      title: "Septic Tank Size Calculator",
+      description:
+        "Most homes need a 1,000-gallon septic tank. Use our calculator for exact size based on bedrooms, usage, and soil type.",
+      slug: "/construction/septic-tank-size-calculator",
+      keywords:
+        "septic tank size calculator, septic tank calculator, septic tank capacity calculator, septic tank gallons calculator, how to size a septic tank, septic tank sizing by bedrooms, septic tank per person gallons, residential septic tank size, septic tank volume calculator, wastewater tank size calculator, septic system size calculator, septic tank dimensions gallons, percolation soil septic sizing, garbage disposal septic tank size, septic tank estimator, septic tank capacity in gallons"
+    }
+  },
   "aquarium-substrate-calculator": {
     en: {
       title: "Aquarium Substrate Calculator: How Much Gravel, Sand, or Soil Do You Need?",

@@ -53,7 +53,7 @@ export default function ChaturbateTokenCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* Why This Calculator Is Better */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Why This Chaturbate Token Calculator Is Better Than Others</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>Most token calculators online show you a static table and call it done. This one is different and here is exactly why:</p>
@@ -71,7 +71,7 @@ export default function ChaturbateTokenCalculatorClient() {
           </div>
 
           {/* Token Value Explained */}
-          <div className="bg-gradient-to-br from-pink-50 to-purple-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-pink-50 to-purple-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <DollarSign className="w-8 h-8 text-pink-600" />
               Chaturbate Token Value Explained
@@ -143,7 +143,7 @@ export default function ChaturbateTokenCalculatorClient() {
           </div>
 
           {/* Conversion Chart */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Chaturbate Token to Dollar Conversion Chart</h2>
             <p className="text-gray-700 mb-6">
               Fast reference for the most common token amounts on Chaturbate. No calculator needed for these standard values:
@@ -217,7 +217,7 @@ export default function ChaturbateTokenCalculatorClient() {
           </div>
 
           {/* Earning Goals */}
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How Many Chaturbate Tokens Do You Need to Hit Your Earning Goal?</h2>
             <p className="text-gray-700 mb-6">
               This is one of the most searched questions from Chaturbate models. Here are the exact token targets for common income milestones:
@@ -245,7 +245,7 @@ export default function ChaturbateTokenCalculatorClient() {
           </div>
 
           {/* Model Earnings Journey */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <TrendingUp className="w-8 h-8 text-purple-600" />
               Chaturbate Model Earnings — What the Journey Actually Looks Like
@@ -293,7 +293,7 @@ export default function ChaturbateTokenCalculatorClient() {
           </div>
 
           {/* Tip Menu Strategy */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Build a Tip Menu That Works at the $0.05 Rate</h2>
             <p className="text-gray-700 mb-6">
               Your tip menu is your storefront on Chaturbate. Every item is priced in tokens but you and your viewer are both dealing in real money. Build it like a pricing strategy, not a wishlist:
@@ -349,7 +349,7 @@ export default function ChaturbateTokenCalculatorClient() {
           </div>
 
           {/* Payout System */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Chaturbate Payout System — When and How You Get Paid</h2>
 
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Payment Methods for Chaturbate Models</h3>
@@ -374,7 +374,7 @@ export default function ChaturbateTokenCalculatorClient() {
           </div>
 
           {/* Tracking Habit */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Track Every Stream — The Habit That Builds Real Income</h2>
             <p className="text-gray-700 mb-4">
               After every session on Chaturbate, enter your total tokens into the calculator. Record the dollar figure. Do this for 4–6 weeks and you will clearly see:
@@ -391,7 +391,7 @@ export default function ChaturbateTokenCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-pink-600" />
               Frequently Asked Questions

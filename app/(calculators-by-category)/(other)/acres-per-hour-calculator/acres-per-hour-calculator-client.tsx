@@ -499,7 +499,7 @@ export default function AcresPerHourCalculatorClient() {
         </section>
 
         {/* Core Formula Section */}
-        <section className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+        <section className="bg-white rounded-2xl p-4 sm:p-8 shadow-lg border border-gray-200">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
             Core Formula Behind Acres Per Hour Calculation
           </h2>
@@ -608,7 +608,7 @@ export default function AcresPerHourCalculatorClient() {
         </section>
 
         {/* Operation Types Examples */}
-        <section className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+        <section className="bg-white rounded-2xl p-4 sm:p-8 shadow-lg border border-gray-200">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
             Acres per Hour by Operation Type
           </h2>
@@ -750,7 +750,7 @@ export default function AcresPerHourCalculatorClient() {
         </section>
 
         {/* Equipment-Specific Calculators */}
-        <section className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+        <section className="bg-white rounded-2xl p-4 sm:p-8 shadow-lg border border-gray-200">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
             Equipment-Specific Acres Per Hour Calculators
           </h2>
@@ -824,7 +824,7 @@ export default function AcresPerHourCalculatorClient() {
         </section>
 
         {/* Factors Section */}
-        <section className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+        <section className="bg-white rounded-2xl p-4 sm:p-8 shadow-lg border border-gray-200">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
             Factors That Affect Acres Covered Per Hour
           </h2>
@@ -917,7 +917,7 @@ export default function AcresPerHourCalculatorClient() {
         </section>
 
         {/* FAQ Section */}
-        <section className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+        <section className="bg-white rounded-2xl p-4 sm:p-8 shadow-lg border border-gray-200">
           <div className="flex items-center gap-3 mb-8">
             <div className="bg-blue-600 p-3 rounded-xl">
               <HelpCircle className="w-6 h-6 text-white" />

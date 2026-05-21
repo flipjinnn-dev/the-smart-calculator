@@ -58,7 +58,7 @@ export default function FlangeWeightCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* Introduction */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Weight className="w-8 h-8 text-orange-600" />
                 Flange Weight Calculator (Online, Formula, Charts & Excel)
@@ -74,7 +74,7 @@ export default function FlangeWeightCalculatorClient() {
             </div>
 
             {/* What Is Section */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">What is a Flange Weight Calculator?</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 A flange weight calculator is a digital or manual tool used to calculate the weight of different types of flanges such as:
@@ -122,7 +122,7 @@ export default function FlangeWeightCalculatorClient() {
             </div>
 
             {/* Formula Section */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Flange Weight Calculator Formula</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 The standard formula used in most flange weight calculators is:
@@ -202,7 +202,7 @@ export default function FlangeWeightCalculatorClient() {
             </div>
 
             {/* Types of Calculators */}
-            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Types of Flange Weight Calculators</h2>
               <div className="space-y-6">
                 {[
@@ -244,7 +244,7 @@ export default function FlangeWeightCalculatorClient() {
             </div>
 
             {/* Pipe Flange Weight */}
-            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 border-2 border-teal-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Pipe Flange Weight Calculator</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 A pipe flange weight calculator considers both pipe size and flange dimensions. It is commonly used in:
@@ -294,7 +294,7 @@ export default function FlangeWeightCalculatorClient() {
             </div>
 
             {/* ASME Flange */}
-            <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">ASME Flange Weight Calculator</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 ASME standards define dimensions and tolerances for flanges. An ASME flange weight calculator ensures compliance with:
@@ -346,7 +346,7 @@ export default function FlangeWeightCalculatorClient() {
             </div>
 
             {/* Dimensions */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Flange Weight and Dimensions</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Understanding flange dimensions is critical for accurate weight calculation.
@@ -405,7 +405,7 @@ export default function FlangeWeightCalculatorClient() {
             </div>
 
             {/* Online vs Manual */}
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Online vs Manual Flange Weight Calculator</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border-2 border-blue-300 rounded-xl p-6">
@@ -475,7 +475,7 @@ export default function FlangeWeightCalculatorClient() {
             </div>
 
             {/* Real-World Experience */}
-            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-300 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-300 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <TrendingUp className="w-8 h-8 text-yellow-600" />
                 Real-World Experience & Insights
@@ -492,7 +492,7 @@ export default function FlangeWeightCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">FAQs</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
@@ -543,7 +543,7 @@ export default function FlangeWeightCalculatorClient() {
             </div>
 
             {/* Final Thoughts */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Final Thoughts</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>

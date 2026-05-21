@@ -85,7 +85,7 @@ export default function PolymericSandCalculator() {
   return (
     <div className="space-y-8">
       {/* Input Form */}
-      <div className="space-y-6 bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+      <div className="space-y-6 bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
         <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
           <Calculator className="w-7 h-7 text-blue-600" />
           Project Measurements
@@ -211,7 +211,7 @@ export default function PolymericSandCalculator() {
           </div>
 
           {/* Breakdown Card */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h4 className="text-xl font-bold text-gray-900 mb-4">Calculation Breakdown</h4>
             <div className="space-y-3 text-gray-700">
               <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">

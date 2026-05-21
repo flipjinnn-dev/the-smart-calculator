@@ -58,7 +58,7 @@ export default function WallPanellingCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* What Is Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Ruler className="w-8 h-8 text-blue-600" />
                 What Is a Wall Panelling Calculator?
@@ -98,7 +98,7 @@ export default function WallPanellingCalculatorClient() {
             </div>
 
             {/* How to Calculate Step by Step */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Calculate Wood Panelling Step by Step</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Calculating wood panelling correctly involves four key measurements: wall height, wall width, panel dimensions, and obstructions. Follow these steps whether you use an online panelling calculator or work it out manually.
@@ -440,7 +440,7 @@ export default function WallPanellingCalculatorClient() {
             </div>
 
             {/* Expert Measuring Tips */}
-            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-300 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-300 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <AlertCircle className="w-8 h-8 text-yellow-600" />
                 Expert Measuring Tips — What Real Projects Teach You
@@ -487,7 +487,7 @@ export default function WallPanellingCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions — Wall Panelling Calculator</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
@@ -574,7 +574,7 @@ export default function WallPanellingCalculatorClient() {
             </div>
 
             {/* Summary */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-300 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-300 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Summary — Wall Panelling Calculator: Everything You Need</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Use this concise summary as a quick reference before you start your project:

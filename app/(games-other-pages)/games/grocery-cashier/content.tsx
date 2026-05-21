@@ -1,7 +1,7 @@
 export default function GroceryCashierContent() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-12 text-left">
-      <section className="mb-12 bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-left">
+      <section className="mb-12 bg-white rounded-2xl p-4 sm:p-8 shadow-lg border border-gray-100 text-left">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent text-left">
           Grocery Cashier Game
         </h2>
@@ -73,7 +73,7 @@ export default function GroceryCashierContent() {
         </p>
       </section>
 
-      <section className="mb-8 bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-left">
+      <section className="mb-8 bg-white rounded-2xl p-4 sm:p-8 shadow-lg border border-gray-100 text-left">
         <h2 className="text-3xl font-bold mb-4 text-gray-900 text-left">Platforms and Devices</h2>
         <p className="mb-6 text-gray-700 text-lg text-left">Grocery cashier games are accessible on multiple platforms:</p>
         <div className="space-y-3">
@@ -163,7 +163,7 @@ export default function GroceryCashierContent() {
         </div>
       </section>
 
-      <section className="mb-8 bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-left">
+      <section className="mb-8 bg-white rounded-2xl p-4 sm:p-8 shadow-lg border border-gray-100 text-left">
         <h2 className="text-3xl font-bold mb-4 text-gray-900 text-left">Popular Grocery Cashier Games</h2>
         <p className="mb-6 text-gray-700 text-lg text-left">Here are some types of games you can try:</p>
         <div className="grid md:grid-cols-2 gap-4">
@@ -216,7 +216,7 @@ export default function GroceryCashierContent() {
         </div>
       </section>
 
-      <section className="mb-8 bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-left">
+      <section className="mb-8 bg-white rounded-2xl p-4 sm:p-8 shadow-lg border border-gray-100 text-left">
         <h2 className="text-3xl font-bold mb-6 text-gray-900 text-left">FAQs (Frequently Asked Questions)</h2>
         <div className="space-y-4">
           <div className="border-l-4 border-green-500 bg-green-50 p-5 rounded-lg text-left">

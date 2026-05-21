@@ -42,7 +42,7 @@ export default function AquariumSubstrateCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <Info className="w-8 h-8 text-blue-600" />
               What Is an Aquarium Substrate Calculator and Why Do You Need One?
@@ -64,7 +64,7 @@ export default function AquariumSubstrateCalculatorClient() {
           </div>
 
           {/* How It Works */}
-          <div className="bg-gradient-to-br from-blue-50 to-green-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-green-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-green-600" />
               How Our Aquarium Substrate Calculator Works
@@ -91,7 +91,7 @@ export default function AquariumSubstrateCalculatorClient() {
           </div>
 
           {/* Substrate Types */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <Droplets className="w-8 h-8 text-teal-600" />
               Understanding Different Types of Aquarium Substrates
@@ -144,7 +144,7 @@ export default function AquariumSubstrateCalculatorClient() {
           </div>
 
           {/* Recommended Depth */}
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <CheckCircle className="w-8 h-8 text-purple-600" />
               Recommended Substrate Depth and the Aquarium Substrate Depth Calculator
@@ -166,7 +166,7 @@ export default function AquariumSubstrateCalculatorClient() {
           </div>
 
           {/* Step-by-Step Guide */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Step-by-Step Guide: How Much Substrate for Aquarium Setups</h2>
             <p className="text-gray-700 mb-6">You calculate substrate needs accurately with this proven process.</p>
             <div className="space-y-4">
@@ -195,7 +195,7 @@ export default function AquariumSubstrateCalculatorClient() {
           </div>
 
           {/* Real-World Examples */}
-          <div className="bg-gradient-to-br from-green-50 to-blue-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-blue-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Real-World Examples Using the Aquarium Gravel Amount Calculator</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -208,7 +208,7 @@ export default function AquariumSubstrateCalculatorClient() {
           </div>
 
           {/* Sand Tips */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Aquarium Sand Volume Calculator: Tips for Smooth Results</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -221,7 +221,7 @@ export default function AquariumSubstrateCalculatorClient() {
           </div>
 
           {/* Planted Tank Considerations */}
-          <div className="bg-gradient-to-br from-teal-50 to-green-50 border-2 border-teal-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-teal-50 to-green-50 border-2 border-teal-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Special Considerations for Planted Aquarium Substrate Calculator Users</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -234,7 +234,7 @@ export default function AquariumSubstrateCalculatorClient() {
           </div>
 
           {/* Common Mistakes */}
-          <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <Info className="w-8 h-8 text-red-600" />
               Common Mistakes to Avoid When Calculating Substrate
@@ -252,7 +252,7 @@ export default function AquariumSubstrateCalculatorClient() {
           </div>
 
           {/* Pro Tips */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <Lightbulb className="w-8 h-8 text-yellow-600" />
               Pro Tips from Experienced Aquarists
@@ -271,7 +271,7 @@ export default function AquariumSubstrateCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-blue-600" />
               FAQs

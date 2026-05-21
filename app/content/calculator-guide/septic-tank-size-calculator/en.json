@@ -1,0 +1,111 @@
+{
+  "color": "emerald",
+  "sections": [
+    {
+      "heading": "What size septic tank do you need?",
+      "content": "Most homes need a 1,000-gallon minimum septic tank.\n\n- 3-bedroom house → 1,000–1,500 gallons\n- 4-bedroom house → 1,250–1,500 gallons\n- 6+ bedroom house → 2,000+ gallons\n\nUse the calculator below to get your exact size based on bedrooms, daily water usage, and soil type."
+    },
+    {
+      "heading": "What Is a Septic Tank Size Calculator?",
+      "content": "A septic tank size calculator helps homeowners, contractors, and engineers estimate the **liquid capacity** a septic system needs—fast.\n\nYou enter your **household size (bedroom/occupant tier)**, **daily water usage**, **soil drainage**, and **real-world factors** like a garbage disposal and laundry. The tool returns a **recommended septic tank size in gallons** (and related checks) instantly.\n\nGetting the size right matters. A tank too small overflows and can damage your **drain field**. A tank too large wastes money."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1 Household size (bedrooms / people)",
+          "content": "Select the row that matches your home. **Most local codes use bedrooms** (not current occupants) as the primary sizing metric. Each option includes a typical occupant count so daily wastewater flow stays realistic."
+        },
+        {
+          "heading": "Step 2 Daily water usage",
+          "content": "Enter **gallons per person per day** or pick a preset:\n\n- **Low (40–50 gal)** for efficient fixtures and conservative use\n- **Normal (60–80 gal)** for typical homes\n- **High (90–120 gal)** for busy households\n- **Very high (130+ gal)** for large families or high-consumption homes\n\nMore water use means a higher **gallons per day (gpd)** estimate."
+        },
+        {
+          "heading": "Step 3 Soil type",
+          "content": "Choose the option that best matches your site:\n\n- **Sandy** — fast drainage\n- **Loamy** — moderate drainage\n- **Clay** — slow drainage\n- **Heavy clay** — very slow drainage; often requires **significantly larger** effective capacity in real designs\n\nSlower soils get a larger recommendation here because effluent moves to the soil treatment area more slowly."
+        },
+        {
+          "heading": "Step 4 Additional factors",
+          "content": "**Garbage disposal — yes or no.** A disposal increases **solid load** and commonly leads professionals to **size up** (often on the order of **250–500 gallons** in practice, depending on code and designer).\n\n**Washing machine loads — low (1–3/week), medium (4–7/week), high (8+/week).** Heavy laundry increases daily wastewater flow noticeably. This calculator applies both factors to your result."
+        },
+        {
+          "heading": "Step 5 Tank dimensions (optional cross-check)",
+          "content": "For an **existing** rectangular tank, measure **length**, **width**, and **liquid depth** (the depth to the outlet or normal operating level—not total riser height above ground).\n\n**Volume (ft³) = length × width × liquid depth**\n\nThen: **1 ft³ = 7.48 US gallons**\n\nCompare that volume to the recommendation. If it is much smaller, you may be undersized for current use (confirm with a pro)."
+        },
+        {
+          "heading": "Step 6 Calculate",
+          "content": "Click **Calculate tank size** to see **estimated sewage flow**, a **retention-oriented sizing check**, **minimum vs recommended gallons**, and **common nominal tank sizes** you can buy from suppliers."
+        }
+      ]
+    },
+    {
+      "heading": "Septic Tank Volume Formula",
+      "content": "A simple planning relationship:\n\n**Tank volume ≈ daily flow (gpd) × retention time (days)**\n\n**Retention time** is often discussed around **2 days** for residential settling (local rules vary).\n\n**Example:** 400 gpd × 2 = **800 gallons** of working volume — yet **many codes still require at least 1,000 gallons** for typical homes, so the final permitted size may be larger.\n\n**Rectangular tanks:**\n\nVolume (ft³) = length × width × liquid depth → multiply by **7.48** for US gallons."
+    },
+    {
+      "heading": "Septic Tank Sizes by Bedroom Count",
+      "content": "Planning table (typical ranges — **not** a substitute for your local code):\n\n| Bedrooms | Daily flow | Recommended size |\n| --- | --- | --- |\n| 1–2 | 150–300 gpd | 750 gal |\n| 3 | 300–450 gpd | 1,000 gal |\n| 4 | 450–600 gpd | 1,250 gal |\n| 5 | 600–750 gpd | 1,500 gal |\n| 6+ | 750–1,050 gpd | 2,000 gal |\n\n**gpd** = gallons per day."
+    },
+    {
+      "heading": "Common Use Cases",
+      "subSections": [
+        {
+          "heading": "New construction",
+          "content": "Size your tank **before permit submission**. Inspectors commonly check **bedroom count** against **minimum tank size**."
+        },
+        {
+          "heading": "Existing system upgrade",
+          "content": "Check whether your **current tank volume** still matches your household wastewater load after additions, more people, or higher water use."
+        },
+        {
+          "heading": "Real estate inspections",
+          "content": "Confirm **septic capacity** before buying a property—especially if bedrooms, occupancy, or water use will change."
+        },
+        {
+          "heading": "Off-grid homes",
+          "content": "Use **actual daily usage patterns** (fixtures, guests, laundry) so the estimate reflects how the home really runs."
+        }
+      ]
+    },
+    {
+      "heading": "Troubleshooting Wrong Results",
+      "content": "- **Result too small?** You may have underestimated daily water use. Include **laundry**, **dishwasher**, and **showers** in your mental model—and consider raising the **gallons per person** value.\n- **Volume doesn’t match dimensions?** Use **liquid depth only**; space above the liquid line is not usable treatment volume.\n- **Clay or heavy clay raised your result?** **Yes — intentionally.** Those soils slow leach-field acceptance; **heavy clay** pushes the recommendation the most. When in doubt, **size up** and verify locally.\n- **Garbage disposal or heavy laundry added?** Both increase load. This calculator **bakes those into** the final recommendation automatically."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What size septic tank do I need for a 3-bedroom house?",
+      "answer": "A **minimum 1,000-gallon** tank is typical. Many professionals recommend **1,000–1,500 gallons** to handle peak flow more comfortably."
+    },
+    {
+      "question": "What size septic tank do I need for a 4-bedroom house?",
+      "answer": "Often **at least 1,250 gallons**, with **1,500 gallons** being the safer long-term choice in many areas."
+    },
+    {
+      "question": "How is septic tank size calculated?",
+      "answer": "A common planning approach is **daily sewage flow × retention time** (often around **2 days**), then compare to **code minimums** and add **safety margin**. This calculator automates that logic with soil and lifestyle adjustments—but **your jurisdiction has the final say**."
+    },
+    {
+      "question": "How many gallons septic tank do I need?",
+      "answer": "**Minimum 1,000 gallons** is common for many homes, but **750-gallon** minimums exist in some places for smaller dwellings. Enter your details above for a tailored estimate, then **confirm with local code**."
+    },
+    {
+      "question": "How big should a septic tank be for a family of 5?",
+      "answer": "Often **1,250–1,500 gallons**, because higher occupancy increases **daily wastewater flow** and the tank must handle peaks without sending undigested solids to the field."
+    },
+    {
+      "question": "Does a garbage disposal affect septic tank size?",
+      "answer": "**Yes.** A disposal increases **solids** in the tank. Many designers **size up** (commonly **250–500 gallons**, depending on rules and practice). Always follow **local guidance**."
+    },
+    {
+      "question": "What is the minimum tank size allowed by code?",
+      "answer": "Many codes land around **750–1,000 gallons** as a minimum for residential systems, but **requirements vary by state, county, and site**. Always verify with your **local health department**."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "Enter your **household size**, **daily water usage**, **soil type**, and **additional factors**—then get your **recommended septic tank size** instantly. **Size the system right the first time**, and confirm the final design with **local code** and a **licensed professional**."
+    }
+  ]
+}

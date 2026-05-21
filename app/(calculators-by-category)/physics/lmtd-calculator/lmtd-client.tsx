@@ -50,7 +50,7 @@ export default function LMTDCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is LMTD */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-red-600" />
               What Is Log Mean Temperature Difference Explained
@@ -79,7 +79,7 @@ export default function LMTDCalculatorClient() {
           </div>
 
           {/* LMTD Formula */}
-          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">LMTD Formula – The Core Equation You Need</h2>
             
             <div className="space-y-6">
@@ -123,7 +123,7 @@ export default function LMTDCalculatorClient() {
           </div>
 
           {/* How to Use Calculator */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Use This LMTD Calculator</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -154,7 +154,7 @@ export default function LMTDCalculatorClient() {
           </div>
 
           {/* Step-by-Step Method */}
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Calculate LMTD – Step-by-Step Method</h2>
             
             <div className="space-y-4">
@@ -198,7 +198,7 @@ export default function LMTDCalculatorClient() {
           </div>
 
           {/* Calculation Example */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">LMTD Calculation Example – Worked Problem</h2>
             <p className="text-gray-700 mb-6">Let's walk through a real calculation so you can see exactly how this works.</p>
             
@@ -245,7 +245,7 @@ export default function LMTDCalculatorClient() {
           </div>
 
           {/* Correction Factor */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">LMTD Correction Factor Calculator – What Is F and Why Does It Matter?</h2>
             
             <div className="space-y-6">
@@ -279,7 +279,7 @@ export default function LMTDCalculatorClient() {
           </div>
 
           {/* Different Heat Exchanger Types */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">LMTD Calculation for Different Heat Exchanger Types</h2>
             
             <div className="space-y-6">
@@ -349,7 +349,7 @@ export default function LMTDCalculatorClient() {
           </div>
 
           {/* Excel Calculator */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">LMTD Calculator in Excel – How to Build Your Own</h2>
             <p className="text-gray-700 mb-6">
               Many engineers prefer to work in Excel for documentation and record-keeping. Here is how to set up an LMTD calculator in Excel:
@@ -377,7 +377,7 @@ export default function LMTDCalculatorClient() {
           </div>
 
           {/* Common Mistakes */}
-          <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Common Mistakes Engineers Make When Calculating LMTD</h2>
             
             <div className="space-y-4">
@@ -419,7 +419,7 @@ export default function LMTDCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-red-600" />
               Frequently Asked Questions

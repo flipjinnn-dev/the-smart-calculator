@@ -50,7 +50,7 @@ export default function FixAndFlipCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-blue-600" />
               What Is a Fix and Flip Calculator?
@@ -72,7 +72,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* Why You Need Section */}
-          <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <AlertTriangle className="w-8 h-8 text-red-600" />
               Why You Need a Fix and Flip Deal Calculator on Every Single Deal
@@ -91,7 +91,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* How to Use Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Use the Fix and Flip Calculator</h2>
             <p className="text-gray-700 mb-6">Follow these steps to get accurate results from any fix and flip real estate calculator:</p>
             
@@ -163,7 +163,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* ARV Calculator Section */}
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Fix and Flip ARV Calculator — How to Calculate ARV the Right Way</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -192,7 +192,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* 70% Rule Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">The 70% Rule — The Wholesaling Fix and Flip Buy Formula Calculator</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -220,7 +220,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* ROI Section */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Fix and Flip ROI Calculator — What Is a Good ROI on a Flip?</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -244,7 +244,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* Hard Money Loan Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Fix and Flip Loan Calculator — Understanding Hard Money and Bridge Loan Costs</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -268,7 +268,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* Calculator Comparison Section */}
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Fix and Flip Calculator Excel vs. Google Sheets vs. Online Calculator vs. App</h2>
             
             <div className="space-y-6">
@@ -310,7 +310,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* Spreadsheet Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Fix and Flip Spreadsheet — What Should It Include?</h2>
             <p className="text-gray-700 mb-4">A complete fix and flip calculator spreadsheet covers seven core areas:</p>
             <div className="space-y-3">
@@ -335,7 +335,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* Common Mistakes Section */}
-          <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <AlertTriangle className="w-8 h-8 text-red-600" />
               Common Mistakes Investors Make Without a Fix and Flip Calculator
@@ -358,7 +358,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* Experience-Based Tips */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <TrendingUp className="w-8 h-8 text-yellow-600" />
               Experience-Based Tips From Active Fix and Flip Investors
@@ -380,7 +380,7 @@ export default function FixAndFlipCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-blue-600" />
               Frequently Asked Questions

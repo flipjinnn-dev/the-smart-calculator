@@ -58,7 +58,7 @@ export default function HomeInspectionCostCalculatorClient() {
         <div className="mb-12">
           <div className="space-y-8">
             {/* What Is Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-shadow">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <Home className="w-8 h-8 text-blue-600" />
                 What Is a Home Inspection Cost Calculator?
@@ -77,7 +77,7 @@ export default function HomeInspectionCostCalculatorClient() {
             </div>
 
             {/* How to Use */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Use the Home Inspection Cost Calculator</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Using our free home inspection cost estimator takes less than a minute. Follow these steps:
@@ -168,7 +168,7 @@ export default function HomeInspectionCostCalculatorClient() {
             </div>
 
             {/* Cost Per Square Foot */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Home Inspection Cost Per Square Foot — Explained</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
@@ -400,7 +400,7 @@ export default function HomeInspectionCostCalculatorClient() {
             </div>
 
             {/* What Should It Cost */}
-            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-300 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-300 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                 <AlertCircle className="w-8 h-8 text-yellow-600" />
                 What Should a Home Inspection Cost?
@@ -489,7 +489,7 @@ export default function HomeInspectionCostCalculatorClient() {
             </div>
 
             {/* How to Reduce Cost */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Reduce Your Home Inspection Cost Without Cutting Corners</h2>
               <div className="space-y-5">
                 {[
@@ -513,7 +513,7 @@ export default function HomeInspectionCostCalculatorClient() {
             </div>
 
             {/* FAQ Section */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
@@ -609,7 +609,7 @@ export default function HomeInspectionCostCalculatorClient() {
             </div>
 
             {/* Pricing Guide Summary */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-300 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-300 rounded-2xl p-4 sm:p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Home Inspection Pricing Guide</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Here is a quick-reference summary of every cost factor covered on this page:

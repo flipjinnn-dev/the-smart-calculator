@@ -42,7 +42,7 @@ export default function CombinationSumCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-purple-600" />
               What Is a Combination Sum Calculator?
@@ -61,7 +61,7 @@ export default function CombinationSumCalculatorClient() {
           </div>
 
           {/* Why It Matters */}
-          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Why the Combination Sum Problem Matters</h2>
             <p className="text-gray-700 mb-6">Before you use a combination sum calculator tool, it helps to understand why this problem is meaningful across so many fields.</p>
             
@@ -94,7 +94,7 @@ export default function CombinationSumCalculatorClient() {
           </div>
 
           {/* How It Works */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How a Combination Sum Calculator Works</h2>
             
             <h3 className="text-2xl font-bold text-gray-900 mb-4">The Core Logic Behind the Tool</h3>
@@ -137,7 +137,7 @@ export default function CombinationSumCalculatorClient() {
           </div>
 
           {/* How to Use Online */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Use a Combination Sum Calculator Online</h2>
             <p className="text-gray-700 mb-6">Using a combination sum calculator online is straightforward. Most tools follow the same basic interface:</p>
             
@@ -174,7 +174,7 @@ export default function CombinationSumCalculatorClient() {
           </div>
 
           {/* Excel and Google Sheets */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Combination Sum Calculator in Excel and Google Sheets</h2>
             <p className="text-gray-700 mb-6">
               Many professionals need to find combinations that equal a given sum directly inside a spreadsheet without switching to an external tool. Excel and Google Sheets do not have a built-in combination sum function, but you can replicate the logic using formulas or built-in features.
@@ -220,7 +220,7 @@ export default function CombinationSumCalculatorClient() {
           </div>
 
           {/* Comparison Table */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Combination Sum vs. Combination Formula — Understanding the Difference</h2>
             <p className="text-gray-700 mb-6">People sometimes confuse two related but different concepts. Here is a clear side-by-side breakdown:</p>
             
@@ -290,7 +290,7 @@ export default function CombinationSumCalculatorClient() {
           </div>
 
           {/* Types of Problems */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Types of Combination Sum Problems</h2>
             <p className="text-gray-700 mb-6">Not all combination sum problems are the same. The calculator you use should match the type of problem you have.</p>
             
@@ -325,7 +325,7 @@ export default function CombinationSumCalculatorClient() {
           </div>
 
           {/* Real-World Use Cases */}
-          <div className="bg-gradient-to-br from-pink-50 to-rose-50 border-2 border-pink-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-pink-50 to-rose-50 border-2 border-pink-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Real-World Use Cases for a Combination Sum Calculator</h2>
             
             <div className="space-y-6">
@@ -367,7 +367,7 @@ export default function CombinationSumCalculatorClient() {
           </div>
 
           {/* Common Mistakes */}
-          <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Common Mistakes When Using a Combination Sum Calculator</h2>
             
             <div className="space-y-4">
@@ -402,7 +402,7 @@ export default function CombinationSumCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-purple-600" />
               Frequently Asked Questions

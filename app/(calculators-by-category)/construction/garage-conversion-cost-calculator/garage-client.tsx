@@ -42,7 +42,7 @@ export default function GarageConversionCostCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-blue-600" />
               What Is a Garage Conversion Cost Calculator?
@@ -61,7 +61,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* Average Cost Table */}
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Average Cost of Garage Conversion in the UK (2026)</h2>
             <p className="text-gray-700 mb-6">
               Current market data from 2026 shows clear price bands that help you budget with confidence:
@@ -125,7 +125,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* Cost Per M² */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Garage Conversion Cost Per M² in the UK</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>If you want a straightforward cost-per-square-metre estimate, here is what you should expect in 2025:</p>
@@ -145,7 +145,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* Step by Step Guide */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Calculate Your Garage Conversion Cost: Step by Step</h2>
             <p className="text-gray-700 mb-6">Follow these steps to build your own garage conversion cost estimate:</p>
 
@@ -199,7 +199,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* Detailed Cost Breakdown */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Detailed Cost Breakdown: What Are You Actually Paying For?</h2>
             <p className="text-gray-700 mb-6">
               Understanding where your money goes helps you make smarter decisions and spot overpriced quotes. Here is an honest, experience-based breakdown:
@@ -275,7 +275,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* Factors That Affect Cost */}
-          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Factors That Affect Your Garage Conversion Cost</h2>
             <p className="text-gray-700 mb-6">
               Several variables push your final cost up or down. Being aware of them helps you control your budget.
@@ -327,7 +327,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* Planning Permission */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Do You Need Planning Permission for a Garage Conversion?</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -350,7 +350,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* ADU Conversion */}
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How Much Does It Cost to Convert a Garage Into an ADU?</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -373,7 +373,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* Regional Price Guide */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Garage Conversion Cost UK: Regional Price Guide</h2>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
@@ -427,7 +427,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* Is It Worth It */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <TrendingUp className="w-8 h-8 text-green-600" />
               Is a Garage Conversion Worth the Money?
@@ -449,7 +449,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* Getting Quotes */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Get Accurate Garage Conversion Quotes</h2>
             <p className="text-gray-700 mb-6">
               Getting accurate quotes from tradespeople takes a little preparation. Here is what experienced homeowners recommend:
@@ -465,7 +465,7 @@ export default function GarageConversionCostCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-blue-600" />
               FAQs

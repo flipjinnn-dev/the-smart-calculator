@@ -42,7 +42,7 @@ export default function SourdoughCalculatorClient() {
         {/* Main Content */}
         <div className="space-y-12">
           {/* What Is Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <BookOpen className="w-8 h-8 text-amber-600" />
               What Is a Sourdough Calculator?
@@ -61,7 +61,7 @@ export default function SourdoughCalculatorClient() {
           </div>
 
           {/* Hydration Section */}
-          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Hydration Is the Most Important Variable in Sourdough</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -101,7 +101,7 @@ export default function SourdoughCalculatorClient() {
           </div>
 
           {/* Baker's Percentages */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How Baker's Percentages Work And Why You Need a Calculator</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -142,7 +142,7 @@ export default function SourdoughCalculatorClient() {
           </div>
 
           {/* Starter Hydration */}
-          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-green-50 to-teal-50 border-2 border-green-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Sourdough Starter Hydration: What It Means and Why It Matters</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -176,7 +176,7 @@ export default function SourdoughCalculatorClient() {
           </div>
 
           {/* How to Use */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Use a Sourdough Calculator Step by Step</h2>
             <p className="text-gray-700 mb-6">Using a free sourdough calculator is straightforward. Here is the exact process:</p>
 
@@ -214,7 +214,7 @@ export default function SourdoughCalculatorClient() {
           </div>
 
           {/* Scaling Recipes */}
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Scaling Recipes: The Most Practical Use of a Sourdough Bread Calculator</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -237,7 +237,7 @@ export default function SourdoughCalculatorClient() {
           </div>
 
           {/* Nutrition */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Sourdough Nutrition: Understanding What's in Your Loaf</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
@@ -274,7 +274,7 @@ export default function SourdoughCalculatorClient() {
           </div>
 
           {/* Common Mistakes */}
-          <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Common Sourdough Mistakes and How the Calculator Helps Prevent Them</h2>
             
             <div className="space-y-4">
@@ -306,7 +306,7 @@ export default function SourdoughCalculatorClient() {
           </div>
 
           {/* Flour Types */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Flour Types and How They Change Your Calculations</h2>
             <p className="text-gray-700 mb-6">
               Not all flour behaves the same way. When you use a sourdough calculator, you need to choose your flour type thoughtfully.
@@ -345,7 +345,7 @@ export default function SourdoughCalculatorClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <HelpCircle className="w-8 h-8 text-amber-600" />
               Frequently Asked Questions
