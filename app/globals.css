@@ -132,9 +132,8 @@ body {
 
 /* -------------------------------------------------------------------------- */
 /* Global responsive typography (mobile-first; md = desktop)                  */
-/* Mobile: H1 28px, H2 22px, H3 18px, body/p 14px                             */
+/* Mobile (<768px): H1 28px, H2 22px, H3 19px, p 14px                         */
 /* Desktop (md+): H1 30px, H2 23px, H3 19px, body/p 15px                      */
-/* Uses :where() so Tailwind utilities on headings/body still win when set. */
 /* -------------------------------------------------------------------------- */
 @layer base {
   :where(body) {
@@ -168,7 +167,7 @@ body {
   }
 
   :where(h3) {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.3;
     font-weight: 600;
     letter-spacing: -0.01em;
@@ -177,7 +176,7 @@ body {
   }
 
   :where(h4, h5, h6) {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.35;
     font-weight: 600;
     margin-top: 0.9em;
@@ -212,6 +211,25 @@ body {
     :where(h4, h5, h6) {
       font-size: 19px;
     }
+  }
+}
+
+/* Mobile-only: override Tailwind text-* utilities on headings and paragraphs */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 28px !important;
+  }
+
+  h2 {
+    font-size: 22px !important;
+  }
+
+  h3 {
+    font-size: 19px !important;
+  }
+
+  p {
+    font-size: 14px !important;
   }
 }
 
