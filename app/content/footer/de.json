@@ -27,6 +27,14 @@
       {
         "name": "Andere Rechner",
         "href": "/de/andere"
+      },
+      {
+        "name": "Software-Rechner",
+        "href": "/de/software"
+      },
+      {
+        "name": "Geschäftsrechner",
+        "href": "/de/geschaeft"
       }
     ]
   },
@@ -47,11 +55,11 @@
       },
       {
         "name": "Sitemap",
-        "href": "/sitemap"
+        "href": "/de/sitemap"
       },
       {
         "name": "Redaktionelle Richtlinien",
-        "href": "/editorial-policy-mission-statement"
+        "href": "/de/redaktionelle-richtlinien-leitbild"
       },
       {
         "name": "Datenschutz",
@@ -59,7 +67,7 @@
       },
       {
         "name": "Allgemeine Geschäftsbedingungen",
-        "href": "/de/allgemeine-geschaftsbedingungen"
+        "href": "/de/nutzungsbedingungen"
       }
     ]
   },

@@ -686,8 +686,8 @@ export const calculators: Calculator[] = [
   },
   {
     id: "square-root-curve-calculator",
-    name: "Square Root Curve Calculator",
-    description: "Convert grades using the square root grading curve method",
+    name: "Square Root Curve Calculator – Instant Grade Curve",
+    description: "Use our square root curve calculator to instantly curve any test score. Formula: √Score × 10. Includes chart, Excel method, and grade lookup table.",
     href: "/maths/square-root-curve-calculator",
     category: "maths",
     popular: false
@@ -827,8 +827,8 @@ export const calculators: Calculator[] = [
   },
   {
     id: "gallons-per-square-foot",
-    name: "Gallons per Square Foot Calculator",
-    description: "Calculate the number of gallons needed per square foot for painting or flooring.",
+    name: "Gallons Per Square Foot Calculator – Water & Paint",
+    description: "Calculate gallons per square foot for water, paint, and coatings instantly. Use our free calculator with formulas, examples, and conversion tables.",
     href: "/construction/gallons-per-square-foot-calculator",
     category: "construction",
   },
@@ -1009,8 +1009,8 @@ export const calculators: Calculator[] = [
   },
   {
     id: "time-calculator",
-    name: "Time Calculator",
-    description: "Perform calculations related to time, such as duration and time zone conversions.",
+    name: "Time Calculator – Add, Subtract & Track Hours Fast",
+    description: "Use our free time calculator to add hours and minutes, calculate work hours, find time between two times, convert to decimal, and track payroll easily.",
     href: "/time-calculator",
     category: "other",
   },

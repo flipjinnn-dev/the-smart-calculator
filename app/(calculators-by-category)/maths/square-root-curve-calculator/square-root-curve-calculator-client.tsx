@@ -124,7 +124,7 @@ const [grade, setGrade] = useState("");
             </h1>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            {contentData.description || "Convert grades using the square root grading curve method"}
+            {contentData.description || "Square root curve = √(Score) × 10, for example if score is 64 then √64 = 8 and 8 × 10 = 80."}
           </p>
         </div>
 

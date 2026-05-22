@@ -1,6 +1,6 @@
 {
   "title": "Square Root Curve Calculator",
-  "description": "Convert grades using the square root grading curve method",
+  "description": "Square root curve = √(Score) × 10, for example if score is 64 then √64 = 8 and 8 × 10 = 80.",
   "input_section_title": "Calculate Curved Grade",
   "input_section_description": "Enter the original grade percentage",
   "label_grade": "Original Grade (%)",

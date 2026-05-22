@@ -71,6 +71,14 @@ export default function GamesPage() {
       gradient: "from-green-400 to-blue-500"
     },
     {
+      id: "what-is-the-wordle-today",
+      title: "What Is the Wordle Today?",
+      description: "Browse past Wordle answers and solutions by date. Find today's Wordle answer and explore the full archive.",
+      icon: Trophy,
+      link: "/games/what-is-the-wordle-today",
+      gradient: "from-emerald-500 to-cyan-600"
+    },
+    {
       id: "mental-maths",
       title: "Mental Math Trainer",
       description: "Challenge yourself with quick mental math quizzes and improve your speed!",

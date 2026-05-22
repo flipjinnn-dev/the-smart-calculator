@@ -78,16 +78,6 @@ export async function generateMetadata(): Promise<Metadata> {
     icons: {
       icon: '/logo.png',
     },
-    alternates: {
-      languages: {
-        'x-default': 'https://www.thesmartcalculator.com',
-        'en': 'https://www.thesmartcalculator.com',
-        'pt-BR': 'https://www.thesmartcalculator.com/br',
-        'pl': 'https://www.thesmartcalculator.com/pl',
-        'de': 'https://www.thesmartcalculator.com/de',
-        'es': 'https://www.thesmartcalculator.com/es',
-      }
-    },
     openGraph: {
       type: "website",
       locale: language === "br" ? "pt_BR" : language === "de" ? "de_DE" : language === "pl" ? "pl_PL" : language === "es" ? "es_ES" : "en_US",

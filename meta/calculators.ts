@@ -2590,10 +2590,10 @@ export const calculatorsMeta: CalculatorMeta = {
   },
   'gallons-per-square-foot-calculator': {
     en: {
-      title: "Gallons per Square Foot Calculator",
-      description: "Calculate the number of gallons needed per square foot for painting or flooring.",
+      title: "Gallons Per Square Foot Calculator – Water & Paint",
+      description: "Calculate gallons per square foot for water, paint, and coatings instantly. Use our free calculator with formulas, examples, and conversion tables.",
       slug: "/construction/gallons-per-square-foot-calculator",
-      keywords: "gallons, per, square, foot, calculator, calculate, number, needed, painting, flooring"
+      keywords: "gallons per square foot calculator, water gallons calculator, paint gallons calculator, coatings calculator, gallons per sq ft, conversion table, square feet to gallons"
     },
     pl: {
       title: "Gallons per Square Foot Kalkulator",
@@ -3243,10 +3243,10 @@ export const calculatorsMeta: CalculatorMeta = {
   },
   'time-calculator': {
     en: {
-      title: "Time Calculator",
-      description: "Perform calculations related to time, such as duration and time zone conversions.",
+      title: "Time Calculator – Add, Subtract & Track Hours Fast",
+      description: "Use our free time calculator to add hours and minutes, calculate work hours, find time between two times, convert to decimal, and track payroll easily.",
       slug: "/time-calculator",
-      keywords: "time, calculator, perform, calculations, related, such, duration, zone, conversions"
+      keywords: "time calculator, add hours and minutes, subtract time, work hours calculator, time between two times, decimal time converter, payroll hours calculator, track hours, free time calculator"
     },
     pl: {
       title: "Kalkulator Czasu – Oblicz Upływ Czasu Online",
@@ -3443,10 +3443,10 @@ export const calculatorsMeta: CalculatorMeta = {
   },
   'square-root-curve-calculator': {
     en: {
-      title: "Square Root Curve Calculator",
-      description: "Convert grades using the square root grading curve method with step-by-step calculations and instant results",
+      title: "Square Root Curve Calculator – Instant Grade Curve",
+      description: "Use our square root curve calculator to instantly curve any test score. Formula: √Score × 10. Includes chart, Excel method, and grade lookup table.",
       slug: "/maths/square-root-curve-calculator",
-      keywords: "square root curve, grade curve calculator, sqrt curve, grading curve, grade adjustment, curved grade, square root grading"
+      keywords: "square root curve calculator, grade curve calculator, test score curve, square root grading formula, curve grades, grade lookup table, excel grade curve"
     },
     pl: {
       title: "Kalkulator Krzywej Pierwiastka Kwadratowego",

@@ -24,9 +24,8 @@ export default function GallonsPerSquareFootCalculatorClient({ content, guideCon
   };
   
   const contentData = content || {};
-  
-"calculator-guide"                   // Content type  
-    const resultsRef = useRef<HTMLDivElement>(null);
+
+  const resultsRef = useRef<HTMLDivElement>(null);
   const scrollToRef = useMobileScroll();
   const [result, setResult] = useState<any>(null);
   const [showResult, setShowResult] = useState(false);

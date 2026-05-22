@@ -6,9 +6,9 @@ import Script from "next/script";
 // Multilingual SEO metadata for gallons-per-square-foot-calculator
 const gallonspersquarefootcalculatorMeta = {
   en: {
-    title: "Gallons Per Square Foot Calculator",
-    description: "Calculate gallons per square foot instantly. Convert square feet to gallons, gallons to sq ft, and find water, paint, or rainfall volume fast.",
-    keywords: "gallons per square foot calculator, painting gallons, flooring estimator, online gallons tool, material needs, home improvement, construction tool, square foot estimate"
+    title: "Gallons Per Square Foot Calculator – Water & Paint",
+    description: "Calculate gallons per square foot for water, paint, and coatings instantly. Use our free calculator with formulas, examples, and conversion tables.",
+    keywords: "gallons per square foot calculator, water gallons calculator, paint gallons calculator, coatings calculator, gallons per sq ft, conversion table, square feet to gallons"
   },
   br: {
     title: "Calculadora de Galões por Pé Quadrado",
@@ -96,117 +96,87 @@ export default async function GallonsPerSquareFootCalculatorLayout({
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebApplication",
-        "name": "The Smart Calculator",
-        "description": "Instantly calculate gallons per square foot (gal per sq ft) for water, paint, or any liquid based on area and depth.",
-        "applicationCategory": "ProductivityApplication",
-        "operatingSystem": "All",
-        "softwareVersion": "3.2.1",
-        "url": "https://www.thesmartcalculator.com/",
-        "image": "https://cdn.sanity.io/images/f0wclefz/production/b34d2fb577af1f8bf9dafb230a8b42239f90a149-800x800.jpg",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "ratingCount": "4100",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "author": {
-          "@type": "Organization",
-          "name": "Hudson Hale"
-        }
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Gallons Per Square Foot Calculator",
+            "item": "https://www.thesmartcalculator.com/construction/gallons-per-square-foot-calculator",
+          },
+        ],
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "How to calculate gallons per square foot?",
+            "name": "How many gallons per square foot of water?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "To calculate gallons per square foot, you must include depth because square feet measure area and gallons measure volume. Formula: Gallons = Square Feet × Depth (in feet) × 7.48052. If depth is in inches, divide inches by 12 first. At 1 inch depth: 1 sq ft × (1 ÷ 12) × 7.48052 = 0.623 gallons."
-            }
+              "text": "At 1 inch depth, 1 square foot holds 0.623 gallons. At 1 foot depth, 1 square foot holds 7.48 gallons. The exact volume depends on the depth of water over the surface area.",
+            },
           },
           {
             "@type": "Question",
-            "name": "How to calculate gallons of paint per square foot?",
+            "name": "How many gallons per square foot of paint?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Most paint covers 250–400 square feet per gallon depending on surface type. Gallons per sq ft = 1 ÷ Coverage Rate. If 1 gallon covers 350 sq ft: 1 ÷ 350 = 0.00285 gallons per square foot. Add 10–15% extra for textured or porous surfaces."
-            }
+              "text": "It depends on the product. Standard interior paint covers 350–400 sq ft per gallon, meaning each square foot needs roughly 0.0025 to 0.003 gallons. Thicker coatings like epoxy need more usually one gallon per 200–250 sq ft.",
+            },
           },
           {
             "@type": "Question",
-            "name": "How to calculate gallons of rainfall per square foot?",
+            "name": "How do I convert square feet to gallons for water?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "1 inch of rain over 1 square foot equals 0.623 gallons. Formula: Gallons = Sq Ft × Rainfall (in inches ÷ 12) × 7.48052. For 1,000 sq ft during 1 inch rainfall: 1,000 × 0.0833 × 7.48052 = 623 gallons."
-            }
+              "text": "Multiply square feet by depth in inches, then multiply by 0.623. This gives you US gallons.",
+            },
           },
           {
             "@type": "Question",
-            "name": "How many gallons are in 1 square foot?",
+            "name": "What does gallons per square foot per inch mean?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "There is no fixed number because gallons measure volume and square feet measure area. At 1 inch deep → 0.623 gallons. At 6 inches deep → 3.74 gallons. At 12 inches deep → 7.48 gallons."
-            }
+              "text": "It means the volume of liquid (in gallons) that occupies one square foot of surface area at one inch of depth. The value is always 0.623 gallons per square foot per inch for water.",
+            },
           },
           {
             "@type": "Question",
-            "name": "How many gallons of water per square foot at 1 inch deep?",
+            "name": "How many gallons are in a square foot of water at 1 foot depth?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "At exactly 1 inch depth: 1 square foot equals 0.623 gallons. This comes from 1 cubic foot = 7.48052 gallons and 1 inch = 1/12 foot."
-            }
+              "text": "1 cubic foot of water = 7.48052 US gallons. So a 1 sq ft column of water 1 foot deep contains 7.48 gallons.",
+            },
           },
           {
             "@type": "Question",
-            "name": "How to convert gallons to square feet?",
+            "name": "How many gallons of paint do I need for 500 square feet?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Square Feet = Gallons ÷ (Depth × 7.48052). Example: 100 gallons at 2 inches depth (2 ÷ 12 = 0.167 feet): 100 ÷ (0.167 × 7.48052) = 80 square feet."
-            }
+              "text": "At standard coverage of 400 sq ft per gallon: 500 ÷ 400 = 1.25 gallons. Buy 2 gallons to allow for a second coat and touch-ups.",
+            },
           },
           {
             "@type": "Question",
-            "name": "How many square feet does 5 gallons cover?",
+            "name": "How many gallons of water in a square inch?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "If 1 gallon covers 350 sq ft, then 5 gallons cover 5 × 350 = 1,750 square feet. Always check manufacturer coverage rates."
-            }
-          }
-        ]
+              "text": "1 square inch, 1 inch deep = 1 cubic inch. Since 1 US gallon = 231 cubic inches, 1 cubic inch = 0.00433 gallons.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "What is the formula for gallons per square foot of rainfall?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gallons = Area (sq ft) × Rainfall depth (inches) × 0.623. For example, 1 inch of rain on 1,000 sq ft = 623 gallons.",
+            },
+          },
+        ],
       },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Square Feet to Gallons Calculator",
-            "item": "https://www.thesmartcalculator.com/construction/gallons-per-square-foot-calculator"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Board Foot Calculator",
-            "item": "https://www.thesmartcalculator.com/construction/board-foot-calculator"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Cubic Yard Calculator",
-            "item": "https://www.thesmartcalculator.com/construction/cubic-yard-calculator"
-          }
-        ]
-      }
-    ]
-  }
+    ],
+  };
   return <>
     {children}
     <Script

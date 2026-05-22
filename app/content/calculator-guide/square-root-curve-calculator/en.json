@@ -1,56 +1,89 @@
 {
   "color": "purple",
-  "heading": "Square Root Curve Calculator – Student Grade Adjustment Tool",
   "sections": [
     {
-      "heading": "What is a Square Root Curve?",
-      "content": "The square root curve is a grading method designed to adjust student scores on the same scale. It is often used when an exam or assignment turns out to be more challenging than expected, helping to fairly increase the grades of students.\n\nA square root curve calculator simplifies this process by instantly converting raw percentage grades into adjusted square root curve grades, making it easier for teachers and students to understand performance improvements.\n\n![Square Root Curve Formula](/images/calculators/square-root-curve-formula.png)"
+      "heading": "What Is a Square Root Curve?",
+      "content": "A square root curve is a grading method teachers and professors use to adjust test scores upward when an exam turns out harder than expected. Instead of simply adding points to every score, the square root curve applies a mathematical transformation that helps lower scores more than higher ones — making the grading fairer for students across the board.\n\nWhen a class average falls well below the expected range, an instructor applies the square root curve formula to shift grades into a more realistic distribution. The method is especially common in university-level courses like calculus, physics, chemistry, and AP classes, where a single difficult exam can drag the entire class below passing.\n\nThe key insight behind the square root curve is that it is nonlinear. A student who scores 36 gets lifted to 60 — a jump of 24 points. A student who scores 81 gets lifted to 90 — a jump of only 9 points. This means struggling students benefit more, which is exactly the purpose of a fair curve."
     },
     {
-      "heading": "How to Use the Square Root Curve Calculator",
-      "content": "1. **Enter the Student Percentage**: Input the student's raw grade in the calculator.\n\n2. **Click \"Calculate\"**: The tool computes the square root of the grade and multiplies it by 10.\n\n3. **View the Result**: The adjusted square root curve grade is displayed instantly.\n\n4. **Optional Step**: Compare multiple students' grades to analyze performance improvements.\n\nThe calculator also provides step-by-step calculations for clarity."
+      "heading": "How to Calculate a Square Root Curve — Step by Step",
+      "content": "You do not need a special tool or app. Here is how to calculate the square root curve manually in three steps:",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Write down the original test score (out of 100)."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Calculate the square root of that score."
+        },
+        {
+          "heading": "Step 3",
+          "content": "Multiply the result by 10."
+        }
+      ]
+    },
+    {
+      "heading": "Worked Examples",
+      "content": "| Original Score | Square Root | × 10 | Curved Grade |\n| --- | --- | --- | --- |\n| 40 | 6.32 | × 10 | 63.2 |\n| 50 | 7.07 | × 10 | 70.7 |\n| 55 | 7.42 | × 10 | 74.2 |\n| 60 | 7.75 | × 10 | 77.5 |\n| 64 | 8 | × 10 | 80 |\n| 68 | 8.25 | × 10 | 82.5 |\n| 71 | 8.43 | × 10 | 84.3 |\n| 73 | 8.54 | × 10 | 85.4 |\n| 76 | 8.72 | × 10 | 87.2 |\n| 78 | 8.83 | × 10 | 88.3 |\n| 83 | 9.11 | × 10 | 91.1 |\n| 86 | 9.27 | × 10 | 92.7 |\n| 88 | 9.38 | × 10 | 93.8 |\n| 92 | 9.59 | × 10 | 95.9 |\n| 95 | 9.75 | × 10 | 97.5 |\n| 100 | 10 | × 10 | 100 |\n\nThis table works as your square root curve calculator chart — bookmark it for quick reference during exam season."
+    },
+    {
+      "heading": "How Does a Square Root Curve Work?",
+      "content": "The square root curve works by exploiting the mathematical shape of the square root function. When you graph y = √x, the curve rises steeply at first, then flattens out as x increases. This shape is the key to why the method is considered fair.\n\nA student who scored 36 out of 100 earned a failing grade. With a square root curve, that becomes √36 × 10 = 60 — a passing D. A student who scored 81 earned a B. With the curve, that becomes √81 × 10 = 90 — an A. The high scorer gains 9 points. The low scorer gains 24 points. The curve rewards everyone, but it gives more help to those who need it most.\n\nThis nonlinear boost is what separates the square root curve from simpler methods like adding a flat 10 points to every score. Flat additions treat every student identically. The square root curve scales the benefit to where grades are most strained."
+    },
+    {
+      "heading": "The Square Root Curve in AP and University Classes",
+      "content": "AP courses and college-level STEM courses use the square root curve frequently. When a physics midterm or calculus final produces a class average of 55 or 60, a professor can apply the square root formula to bring the distribution back to a normal-looking range without inflating scores at the top. Students who already performed well retain their advantage — their scores improve, but not as dramatically.\n\nThis maintains grade differentiation — the A students still stand clearly above the B students — while making the overall distribution kinder to the class as a whole."
+    },
+    {
+      "heading": "Square Root Curve on Desmos and Graphing Calculators",
+      "content": "To visualize the square root curve on Desmos, type the following into the expression bar:\n\n**y = √x · 10**\n\nThis plots the curved grade as a function of the original score. You immediately see how the curve shapes the grade transformation — steep improvement for low scores, gentle improvement for high scores. You can also plot **y = x** on the same graph as a reference line representing no curve at all, which makes the benefit visible at every point along the scale.\n\nOn a graphing calculator, enter the function as **Y1 = 10*√(X)** and set your window from X = 0 to 100 and Y = 0 to 100. The resulting graph is your square root function graph calculator view."
+    },
+    {
+      "heading": "Square Root Curve Grade Calculator — How to Reverse It",
+      "content": "Sometimes you want to know what raw score you need to earn a particular curved grade. To reverse the square root curve formula:\n\n**Raw Score = (Target Curved Grade / 10)²**\n\nFor example, if your professor uses a square root curve and you want to earn a curved grade of 90:\n\n**Raw Score = (90 / 10)² = 9² = 81**\n\nYou need to score at least 81 on the raw exam to earn a 90 after the curve applies.\n\nThis reverse calculation is useful for setting study goals before an exam when you already know the professor will apply a square root curve."
+    },
+    {
+      "heading": "When Do Professors Apply a Square Root Curve?",
+      "content": "Professors typically apply a square root curve when:\n\n- The class average falls significantly below the expected range — usually below 70\n- A single exam proves to be much harder than the professor intended\n- The test questions had poor alignment with what was taught\n- External factors (schedule conflicts, material volume) affect class performance broadly\n\nThe square root curve is not a substitute for good exam design, but it is a widely accepted correction mechanism that most students and faculty recognize as fair. Many professors announce the curve before returning exams so students understand their standing."
+    },
+    {
+      "heading": "Square Root Curve for AP Exams",
+      "content": "AP exams use their own official scoring conversions set by the College Board, not the square root curve. However, many AP teachers apply a square root curve to classroom tests and unit exams throughout the school year to align their in-class grading with the difficulty level of AP-style questions. When a student asks about an AP square root curve calculator, they are almost always referring to a teacher-applied curve on a class exam, not an official College Board conversion."
     }
   ],
   "faq": [
     {
-      "q": "How does the square root curve work?",
-      "a": "The square root curve boosts lower student grades and adjusts all scores on a consistent scale."
+      "question": "What is a square root curve?",
+      "answer": "A square root curve is a grading adjustment method where a teacher takes the square root of a student's raw score and multiplies it by 10 to produce the curved grade. It lifts all scores, with the largest benefit going to lower scores."
     },
     {
-      "q": "Is this calculator suitable for large classes?",
-      "a": "Yes, you can quickly calculate square root curve grades for all students."
+      "question": "How do you calculate a square root curve?",
+      "answer": "Take the raw score, find its square root, and multiply by 10. Example: √64 × 10 = 80."
     },
     {
-      "q": "Can I use it for homework or exams?",
-      "a": "Absolutely, it works for any graded assignment where square root curve adjustment is needed."
+      "question": "Does the square root curve always increase my grade?",
+      "answer": "Yes. For every score between 1 and 99, the curved grade is always higher than the original. Scores of 0 and 100 remain unchanged."
     },
     {
-      "q": "What if a student has a grade of 0%?",
-      "a": "The square root of 0 is 0, so the adjusted grade remains 0."
+      "question": "What is the square root curve formula?",
+      "answer": "Curved Score = √(Original Score) × 10, or equivalently, Original Score^0.5 × 10."
     },
     {
-      "q": "Can this calculator show step-by-step calculations?",
-      "a": "Yes, most calculators will show how the grade is converted using the formula."
+      "question": "How do I apply a square root curve in Excel?",
+      "answer": "Use the formula =SQRT(A2)*10, where A2 contains the original score. Drag it down to apply to the whole column."
     },
     {
-      "q": "Does the square root curve always increase the grades?",
-      "a": "Yes, it benefits students with lower grades more significantly while keeping high grades relatively consistent."
+      "question": "What is a 70 with a square root curve?",
+      "answer": "√70 × 10 = 83.7. A 70 becomes approximately an 84 after the curve."
     },
     {
-      "q": "Is the square root curve method fair?",
-      "a": "It is generally considered fair in cases where exams are unexpectedly difficult, as it raises grades proportionally."
+      "question": "What is a 50 with a square root curve?",
+      "answer": "√50 × 10 = 70.7. A 50 becomes approximately a 71 after the curve."
     },
     {
-      "q": "Can teachers use this for online grading?",
-      "a": "Yes, the calculator can be used for digital gradebooks and online assessments."
-    },
-    {
-      "q": "How is the square root curve different from a normal grading curve?",
-      "a": "Unlike linear or bell-curve adjustments, the square root curve specifically benefits lower scores and applies a mathematical square root function."
-    },
-    {
-      "q": "Can I calculate grades for multiple students at once?",
-      "a": "Yes, many square root curve calculators allow batch input for quick class-wide calculations."
+      "question": "How is the square root curve different from adding points?",
+      "answer": "Adding points lifts all scores equally. The square root curve lifts lower scores more than higher scores, creating a fairer redistribution."
     }
   ]
 }

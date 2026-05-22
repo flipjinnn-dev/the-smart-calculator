@@ -918,7 +918,7 @@ export default function CubicYardCalculatorClient({ content, guideContent }: Cub
           <SimilarCalculators calculators={[{
             calculatorName: "Gallons per Square Foot Calculator",
             calculatorHref: "/construction/gallons-per-square-foot-calculator",
-            calculatorDescription: "Calculate the number of gallons needed per square foot for painting or flooring"
+            calculatorDescription: "1 square foot of water, 1 inch deep = 0.623 gallons. Use this base conversion to calculate gallons per square foot for water, paint, or any liquid coating."
           }, {
             calculatorName: "Size to Weight Calculator",
             calculatorHref: "/construction/size-to-weight-rectangular-cuboid-calculator",

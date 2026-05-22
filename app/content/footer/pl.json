@@ -47,11 +47,11 @@
       },
       {
         "name": "Mapa Strony",
-        "href": "/sitemap"
+        "href": "/pl/mapa-strony"
       },
       {
         "name": "Polityka Redakcyjna",
-        "href": "/editorial-policy-mission-statement"
+        "href": "/pl/polityka-redakcyjna-deklaracja-misji"
       },
       {
         "name": "Polityka Prywatności",
@@ -59,7 +59,7 @@
       },
       {
         "name": "Regulamin",
-        "href": "/pl/regulamin"
+        "href": "/pl/warunki"
       }
     ]
   },

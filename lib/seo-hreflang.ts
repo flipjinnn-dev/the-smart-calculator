@@ -1,4 +1,47 @@
+import { calculatorsMeta } from "@/meta/calculators";
+import { getCanonicalUrl } from "@/lib/url-utils";
+
 export const SITE_ORIGIN = "https://www.thesmartcalculator.com";
+
+/** BCP-47 keys that match `app/layout.tsx` html lang (Portuguese → pt-BR). */
+export type HreflangLocaleKey = "en" | "de" | "pl" | "pt-BR" | "es";
+
+const CALCULATOR_LANG_TO_HREFLANG: Record<string, HreflangLocaleKey> = {
+  en: "en",
+  de: "de",
+  pl: "pl",
+  br: "pt-BR",
+  es: "es",
+};
+
+/**
+ * hreflang alternates for a calculator — only locales defined in `meta/calculators.ts`.
+ * Keeps clusters reciprocal (no homepage /de links on English-only tools like Depop).
+ */
+export function getCalculatorAlternateLanguages(
+  calculatorId: string
+): Record<string, string> {
+  const calculator = calculatorsMeta[calculatorId];
+  if (!calculator) {
+    return {};
+  }
+
+  const out: Record<string, string> = {};
+
+  for (const lang of Object.keys(CALCULATOR_LANG_TO_HREFLANG)) {
+    if (!calculator[lang as keyof typeof calculator]) {
+      continue;
+    }
+    const hreflangKey = CALCULATOR_LANG_TO_HREFLANG[lang];
+    out[hreflangKey] = getCanonicalUrl(calculatorId, lang);
+  }
+
+  if (out.en) {
+    out["x-default"] = out.en;
+  }
+
+  return out;
+}
 
 /**
  * Canonical URL for the current request path (middleware sets `x-pathname`).
@@ -26,9 +69,6 @@ export function alternateLanguagesForEnglishPath(englishPath: string): Record<st
     es: `${SITE_ORIGIN}/es${path}`,
   };
 }
-
-/** BCP-47 keys that match `app/layout.tsx` html lang (Portuguese → pt-BR). */
-export type HreflangLocaleKey = "en" | "de" | "pl" | "pt-BR" | "es";
 
 export function normalizePathname(pathname: string): string {
   return pathname.startsWith("/") ? pathname : `/${pathname}`;

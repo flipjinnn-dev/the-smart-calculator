@@ -1,10 +1,20 @@
+import { headers } from "next/headers"
 import type { Metadata } from "next"
 import { getCanonicalUrl } from "@/lib/url-utils"
+import {
+  getCalculatorAlternateLanguages,
+  withSelfReferencingHreflang,
+} from "@/lib/seo-hreflang"
 
 const CALCULATOR_ID = "depop-fee-calculator"
-const canonicalUrl = getCanonicalUrl(CALCULATOR_ID, "en")
 
 export async function generateMetadata(): Promise<Metadata> {
+  const headersList = await headers()
+  const pathname =
+    headersList.get("x-pathname") || "/depop-fee-calculator"
+  const path = pathname.startsWith("/") ? pathname : `/${pathname}`
+  const canonicalUrl = getCanonicalUrl(CALCULATOR_ID, "en")
+
   return {
     metadataBase: new URL("https://www.thesmartcalculator.com"),
     title: {
@@ -14,10 +24,11 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: "depop fee calculator, depop fees, depop selling fee, depop transaction fee, depop fee calculator us, depop fee calculator uk, depop fee calculator australia, depop processing fee, depop boosted listing fee, depop profit calculator, depop payout calculator, free depop calculator, depop fee and transaction fee calculator, depop seller fees 2026, depop 0 percent fee, depop vs poshmark fees, depop shipping fees, depop bundle fees, depop refund fees",
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        "x-default": canonicalUrl,
-        en: canonicalUrl,
-      },
+      languages: withSelfReferencingHreflang(
+        getCalculatorAlternateLanguages(CALCULATOR_ID),
+        canonicalUrl,
+        path
+      ),
     },
     openGraph: {
       title: "Depop Fee Calculator — Calculate Your Exact Profit",

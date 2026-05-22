@@ -3,21 +3,13 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { getCanonicalUrl } from "@/lib/url-utils";
 import { calculatorsMeta } from "@/meta/calculators";
-import { withSelfReferencingHreflang } from "@/lib/seo-hreflang";
+import {
+  getCalculatorAlternateLanguages,
+  withSelfReferencingHreflang,
+} from "@/lib/seo-hreflang";
 import PercentageDecreaseCalculatorClient from "./percentage-decrease-calculator-client";
 
 const CALCULATOR_ID = "percentage-decrease-calculator";
-
-function percentageDecreaseAlternateLanguages(): Record<string, string> {
-  return {
-    "x-default": getCanonicalUrl(CALCULATOR_ID, "en"),
-    en: getCanonicalUrl(CALCULATOR_ID, "en"),
-    "pt-BR": getCanonicalUrl(CALCULATOR_ID, "br"),
-    pl: getCanonicalUrl(CALCULATOR_ID, "pl"),
-    de: getCanonicalUrl(CALCULATOR_ID, "de"),
-    es: getCanonicalUrl(CALCULATOR_ID, "es"),
-  };
-}
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
@@ -40,7 +32,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: withSelfReferencingHreflang(
-        percentageDecreaseAlternateLanguages(),
+        getCalculatorAlternateLanguages(CALCULATOR_ID),
         canonicalUrl,
         path
       ),

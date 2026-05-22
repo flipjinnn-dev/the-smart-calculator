@@ -478,5 +478,21 @@
   {
     "keyword": "calculadora subnet",
     "href": "/es/calculadora-subnet"
+  },
+  {
+    "keyword": "sobre nosotros",
+    "href": "/es/sobre-nosotros"
+  },
+  {
+    "keyword": "contacto",
+    "href": "/es/contacto"
+  },
+  {
+    "keyword": "politica de privacidad",
+    "href": "/es/politica-de-privacidad"
+  },
+  {
+    "keyword": "terminos y condiciones",
+    "href": "/es/terminos-y-condiciones"
   }
 ]

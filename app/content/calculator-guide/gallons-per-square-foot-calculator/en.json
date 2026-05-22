@@ -1,199 +1,95 @@
 {
-    "color": "orange",
-    "sections": [
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Gallons Per Square Foot Calculator",
+      "content": "1 square foot of water, 1 inch deep = 0.623 gallons. Use this base conversion to calculate gallons per square foot for water, paint, or any liquid coating.\n\nThis calculator converts square feet to gallons (and gallons to square feet) using area, depth, or manufacturer coverage rates — so you get accurate volume for irrigation, pools, sealants, and paint projects without manual math."
+    },
+    {
+      "heading": "How Many Gallons Are in a Square Foot?",
+      "content": "A square foot measures **area**; a gallon measures **volume**. You cannot convert one to the other without **depth** (thickness or height).\n\n**Formula:**\nGallons = Square Feet × Depth (in feet) × 7.48052\n\nBecause 1 cubic foot = 7.48052 US liquid gallons:\n\n- 1 sq ft × (1 inch ÷ 12) × 7.48052 = **0.623 gallons**\n- 1 inch of water over 1 square foot = **0.623 gallons** (standard in US irrigation and rainfall math)\n- 12 inches (1 foot) deep over 1 sq ft = **7.48 gallons**"
+    },
+    {
+      "heading": "Gallons Per Square Foot for Water",
+      "content": "For water, coatings, or any liquid spread to a known depth, use volume math:",
+      "subSections": [
         {
-            "heading": "Gallons Per Square Foot Calculator",
-            "content": "Instantly calculate gallons per square foot (gal per sq ft) for water, paint, or any liquid based on area and depth.\n\nUse this advanced Gallons Per Square Foot Calculator to convert square feet to gallons, gallons to square feet, and determine how many gallons per square foot you need for construction, landscaping, irrigation, pools, concrete curing, waterproofing, or paint coverage."
+          "heading": "Quick depth reference",
+          "content": "| Depth | Gallons per square foot |\n| --- | --- |\n| 1 inch | 0.623 gal |\n| 2 inches | 1.247 gal |\n| 3 inches | 1.87 gal |\n| 6 inches | 3.74 gal |\n| 12 inches (1 ft) | 7.48 gal |"
         },
         {
-            "heading": "How Many Gallons Are in a Square Foot?",
-            "content": "A square foot measures area, while a gallon measures volume. You can only convert square feet to gallons when you include depth (height or thickness).\n\nFormula:\nGallons = Square Feet × Depth (in feet) × 7.48052\n\nSince:\n1 cubic foot = 7.48052 gallons (US liquid gallons)\n\nIf you pour 1 inch of water over 1 square foot, you get:\n1 sq ft × (1/12 ft) × 7.48052 = 0.623 gallons\n\n1 inch of water per square foot equals 0.623 gallons.\n\nThis is the standard used in irrigation and rainfall calculations across the United States."
-        },
-        {
-            "heading": "What is a Gallons Per Square Foot Calculator?",
-            "content": "A gallons per square foot calculator is a practical online tool that allows you to calculate the volume of liquid required to cover a given area. It is particularly useful for:",
-            "subSections": [
-                {
-                    "heading": "Painters",
-                    "content": "Painters who need to estimate paint usage accurately for walls, ceilings, and surfaces."
-                },
-                {
-                    "heading": "Gardeners and Landscapers",
-                    "content": "Gardeners or landscapers planning irrigation systems and water requirements."
-                },
-                {
-                    "heading": "Construction Projects",
-                    "content": "Construction projects requiring water or other liquid materials for various applications."
-                },
-                {
-                    "heading": "Key Calculations",
-                    "content": "By inputting either the total gallons you have or the area in square feet, the calculator can instantly tell you:\n• How many gallons per square foot are required\n• Square footage to gallons conversion\n• Gallons to square feet coverage\n\nThis eliminates guesswork and ensures efficient use of resources."
-                }
-            ]
-        },
-        {
-            "heading": "Conversion Table",
-            "content": "Here is a conversion table for quick reference:",
-            "subSections": [
-                {
-                    "heading": "Gallons to Square Feet",
-                    "content": "1 gallon = 0.133681 cubic feet\n1 cubic foot = 7.48052 gallons\n\nSquare Feet = Gallons ÷ (Depth × 7.48052)"
-                },
-                {
-                    "heading": "Square Feet to Gallons",
-                    "content": "Gallons = Square Feet × Depth (in feet) × 7.48052"
-                }
-            ]
-        },
-        {
-            "heading": "Why Gallons and Square Feet Cannot Be Directly Converted",
-            "content": "A square foot measures area (ft²).\nA gallon measures volume (liquid capacity).\n\nTo convert between them, you must include:\n• Length\n• Width\n• Depth (height or thickness)\n\nThis creates cubic feet, which then convert to gallons.\nThis concept follows dimensional analysis used in physics and engineering."
-        },
-        {
-            "heading": "How to Calculate Gallons Per Square Foot",
-            "content": "Step 1: Calculate Area in Square Feet\nArea = Length × Width\nExample: 20 ft × 10 ft = 200 sq ft\n\nStep 2: Convert Depth to Feet\nIf depth is in inches:\nDepth (feet) = Inches ÷ 12\nExample: 3 inches = 3 ÷ 12 = 0.25 ft\n\nStep 3: Calculate Volume in Cubic Feet\nVolume = Area × Depth\n200 × 0.25 = 50 cubic feet\n\nStep 4: Convert Cubic Feet to Gallons\nGallons = Cubic Feet × 7.48052\n50 × 7.48052 = 374.026 gallons\n\nStep 5: Find Gallons Per Square Foot\nGallons per sq ft = Total Gallons ÷ Area\n374.026 ÷ 200 = 1.87 gal per sq ft"
-        },
-        {
-            "heading": "Gallons Per Square Foot Formula Summary",
-            "subSections": [
-                {
-                    "heading": "Primary Formula",
-                    "content": "Gallons = Sq Ft × Depth (ft) × 7.48052"
-                },
-                {
-                    "heading": "Rearranged Formulas",
-                    "content": "Convert gallons to square feet:\nSquare Feet = Gallons ÷ (Depth × 7.48052)\n\nCalculate depth from gallons:\nDepth = Gallons ÷ (Sq Ft × 7.48052)"
-                }
-            ]
-        },
-        {
-            "heading": "Real-World Applications",
-            "subSections": [
-                {
-                    "heading": "1. Irrigation and Water Management",
-                    "content": "Farmers calculate how many gallons of water per square foot when applying 1 inch of irrigation.\n\nSince 1 inch per sq ft = 0.623 gallons:\nFor 1,000 sq ft:\n1,000 × 0.623 = 623 gallons\n\nThis is widely used in USDA water planning."
-                },
-                {
-                    "heading": "2. Swimming Pools",
-                    "content": "Pool installers convert square footage and depth into gallons to size pumps and filters."
-                },
-                {
-                    "heading": "3. Concrete Slabs",
-                    "content": "Contractors calculate water curing volume per square foot."
-                },
-                {
-                    "heading": "4. Waterproofing and Sealants",
-                    "content": "Manufacturers specify gallons per square foot coverage."
-                },
-                {
-                    "heading": "5. Paint Coverage Calculations",
-                    "content": "Most paint covers 250–400 square feet per gallon.\n\nIf 5 gallons cover 400 sq ft:\n400 ÷ 5 = 80 sq ft per gallon\n\nFor 640 sq ft:\n640 ÷ 80 = 8 gallons needed"
-                }
-            ]
-        },
-        {
-            "heading": "Conversion Table: Gallons Per Square Foot by Depth",
-            "content": "| Depth | Gallons per Square Foot |\n|-------|-------------------------|\n| 1 inch | 0.623 gal |\n| 2 inches | 1.247 gal |\n| 3 inches | 1.87 gal |\n| 6 inches | 3.74 gal |\n| 12 inches (1 ft) | 7.48 gal |"
-        },
-        {
-            "heading": "Common Conversions Users Search",
-            "list": [
-                "144 sq ft gallons",
-                "500 square feet to gallons",
-                "1000 sq ft to gallons",
-                "1 gallon to square feet",
-                "5 gallons to square feet",
-                "gallon to ft²",
-                "sq ft to gallons"
-            ],
-            "additionalContent": "All follow the same formula with depth included."
-        },
-        {
-            "heading": "Example Calculations",
-            "subSections": [
-                {
-                    "heading": "Example 1: 144 Square Feet at 2 Inches Deep",
-                    "content": "Depth in feet: 2 ÷ 12 = 0.167 ft\nGallons: 144 × 0.167 × 7.48052 = 179.7 gallons"
-                },
-                {
-                    "heading": "Example 2: 500 Square Feet at 1 Inch Deep",
-                    "content": "500 × 0.0833 × 7.48052 = 311 gallons"
-                },
-                {
-                    "heading": "Example 3: 1000 Sq Ft Lawn with 1 Inch Irrigation",
-                    "content": "1000 × 0.0833 × 7.48052 = 623 gallons"
-                }
-            ]
-        },
-        {
-            "heading": "Gallons of Water Per Square Foot",
-            "content": "Many users ask:\n• How many gallons of water are in a square foot?\n• How many gallons per square foot of water?\n\nAnswer: It depends on depth.\n\nAt:\n• 1 inch = 0.623 gallons\n• 6 inches = 3.74 gallons\n• 12 inches = 7.48 gallons"
-        },
-        {
-            "heading": "Gallons of Paint Per Square Foot",
-            "content": "Paint coverage differs from water depth.\n\nInstead of volume depth, manufacturers provide:\nSquare Feet per Gallon\n\nExample: If 1 gallon covers 350 sq ft:\nGallons per sq ft = 1 ÷ 350 = 0.00285 gallons"
-        },
-        {
-            "heading": "Difference Between Water and Paint Calculations",
-            "list": [
-                "Water uses volume conversion.",
-                "Paint uses manufacturer coverage rate.",
-                "Always check the label before calculating."
-            ]
-        },
-        {
-            "heading": "Square Feet to Gallons Calculator vs Gallons to Square Feet Calculator",
-            "content": "Both tools use the same formula, reversed.\n\n• Square feet → gallons requires depth.\n• Gallons → square feet requires depth.\n• Without depth, conversion is impossible."
-        },
-        {
-            "heading": "Understanding Cubic Feet and Gallons",
-            "list": [
-                "1 cubic foot = 7.48052 US gallons",
-                "1 US gallon = 231 cubic inches",
-                "These are standard engineering constants."
-            ]
-        },
-        {
-            "heading": "Experience-Based Insights",
-            "content": "From real construction experience:",
-            "list": [
-                "Always add 5–10% extra gallons for waste.",
-                "Uneven surfaces require more material.",
-                "Porous concrete absorbs more water.",
-                "Wind and evaporation reduce effective irrigation volume.",
-                "Paint on textured walls needs 15–20% extra."
-            ],
-            "additionalContent": "Professionals never calculate exact minimum values. They always add safety margins."
+          "heading": "Example: 1,000 sq ft at 1 inch",
+          "content": "1,000 × 0.623 = **623 gallons** of water — common for lawn irrigation or 1 inch of rainfall over an area."
         }
-    ],
-    "faq": [
+      ]
+    },
+    {
+      "heading": "Gallons Per Square Foot for Paint and Coatings",
+      "content": "Paint and liquid coatings usually list **square feet per gallon** on the label, not depth. Use coverage rate instead of the 0.623 water rule.\n\n**Gallons per sq ft** = 1 ÷ (sq ft covered per gallon)\n\nExample: If 1 gallon covers 350 sq ft → 1 ÷ 350 = **0.00285 gallons per square foot**.\n\nFor 640 sq ft at 350 sq ft/gallon: 640 ÷ 350 = **1.83 gallons** (round up 10–15% for texture or porous surfaces)."
+    },
+    {
+      "heading": "How to Calculate Gallons Per Square Foot",
+      "content": "Follow these steps for any rectangular area:",
+      "subSections": [
         {
-            "q": "How to calculate gallons per square foot?",
-            "a": "To calculate gallons per square foot, you must include depth because square feet measure area and gallons measure volume. Use this formula: Gallons = Square Feet × Depth (in feet) × 7.48052. If depth is in inches, divide inches by 12 first. For example, at 1 inch depth: 1 sq ft × (1 ÷ 12) × 7.48052 = 0.623 gallons"
+          "heading": "Step 1 — Area in square feet",
+          "content": "Area = Length × Width\nExample: 20 ft × 10 ft = 200 sq ft"
         },
         {
-            "q": "How to calculate gallons of paint per square foot?",
-            "a": "Paint calculations work differently from water. Most paint covers 250–400 square feet per gallon depending on surface type. To calculate gallons of paint per square foot: Gallons per sq ft = 1 ÷ Coverage Rate. If 1 gallon covers 350 sq ft: 1 ÷ 350 = 0.00285 gallons per square foot. For best results, add 10–15% extra for textured or porous surfaces."
+          "heading": "Step 2 — Depth in feet",
+          "content": "If depth is in inches: Depth (ft) = Inches ÷ 12\nExample: 3 inches = 0.25 ft"
         },
         {
-            "q": "How to calculate gallons of rainfall per square foot?",
-            "a": "Rainfall depth determines gallons per square foot. 1 inch of rain over 1 square foot equals 0.623 gallons. Formula: Gallons = Sq Ft × Rainfall (in inches ÷ 12) × 7.48052. For 1,000 sq ft during 1 inch rainfall: 1,000 × 0.0833 × 7.48052 = 623 gallons. This formula is widely used in irrigation planning and stormwater management."
-        },
-        {
-            "q": "How many gallons are in 1 square foot?",
-            "a": "There is no fixed number because gallons measure volume and square feet measure area. At different depths: 1 inch deep → 0.623 gallons, 6 inches deep → 3.74 gallons, 12 inches deep → 7.48 gallons. Depth always determines the final answer."
-        },
-        {
-            "q": "How many gallons of water per square foot at 1 inch deep?",
-            "a": "At exactly 1 inch depth: 1 square foot = 0.623 gallons. This value comes from: 1 cubic foot = 7.48052 gallons, 1 inch = 1/12 foot. This measurement is standard in agriculture and irrigation systems."
-        },
-        {
-            "q": "How to convert gallons to square feet?",
-            "a": "To convert gallons to square feet, you must know the depth. Use this formula: Square Feet = Gallons ÷ (Depth × 7.48052). Example: If you have 100 gallons at 2 inches depth: Depth in feet = 2 ÷ 12 = 0.167, 100 ÷ (0.167 × 7.48052) = 80 square feet"
-        },
-        {
-            "q": "How many square feet does 5 gallons cover?",
-            "a": "For paint coverage: If 1 gallon covers 350 sq ft: 5 gallons cover: 5 × 350 = 1,750 square feet. Always check manufacturer coverage rates because coverage varies by brand and surface texture."
+          "heading": "Step 3 — Volume and gallons",
+          "content": "Cubic feet = Area × Depth\nGallons = Cubic feet × 7.48052\n\nExample: 200 sq ft × 0.25 ft × 7.48052 = **374 gallons** total\n\n**Gallons per sq ft** = Total gallons ÷ Area → 374 ÷ 200 = **1.87 gal/sq ft**"
         }
-    ]
+      ]
+    },
+    {
+      "heading": "Square Feet to Gallons vs Gallons to Square Feet",
+      "content": "**Square feet → gallons:** Gallons = Sq Ft × Depth (ft) × 7.48052\n\n**Gallons → square feet:** Square Feet = Gallons ÷ (Depth × 7.48052)\n\nBoth need depth (or a paint coverage rate). Without depth, area and volume cannot be swapped."
+    },
+    {
+      "heading": "Real-World Uses",
+      "content": "- **Irrigation** — 1 inch of water per sq ft = 0.623 gal; scale by total lawn or field area\n- **Pools** — length × width × average depth → gallons for pumps and chemicals\n- **Rainfall** — stormwater and runoff estimates from inches of rain over sq ft\n- **Concrete curing & waterproofing** — liquid volume per covered area\n- **Paint & sealants** — gallons from label coverage (sq ft per gallon)"
+    },
+    {
+      "heading": "Tips for Accurate Results",
+      "content": "- Add 5–10% extra for spillage, uneven spread, or waste\n- Porous concrete and textured walls need more material than smooth surfaces\n- Confirm AM/PM or 24-hour units only when using **time** inputs — this tool uses **dimensions**, not clock time\n- For paint, always use the manufacturer’s **sq ft per gallon** on the can\n- Wind and evaporation can reduce effective irrigation volume outdoors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How many gallons per square foot of water?",
+      "answer": "At 1 inch depth, 1 square foot holds 0.623 gallons. At 1 foot depth, 1 square foot holds 7.48 gallons. The exact volume depends on the depth of water over the surface area."
+    },
+    {
+      "question": "How many gallons per square foot of paint?",
+      "answer": "It depends on the product. Standard interior paint covers 350–400 sq ft per gallon, meaning each square foot needs roughly 0.0025 to 0.003 gallons. Thicker coatings like epoxy need more — usually one gallon per 200–250 sq ft."
+    },
+    {
+      "question": "How do I convert square feet to gallons for water?",
+      "answer": "Multiply square feet by depth in inches, then multiply by 0.623. This gives you US gallons."
+    },
+    {
+      "question": "What does gallons per square foot per inch mean?",
+      "answer": "It means the volume of liquid (in gallons) that occupies one square foot of surface area at one inch of depth. The value is always 0.623 gallons per square foot per inch for water."
+    },
+    {
+      "question": "How many gallons are in a square foot of water at 1 foot depth?",
+      "answer": "1 cubic foot of water = 7.48052 US gallons. So a 1 sq ft column of water 1 foot deep contains 7.48 gallons."
+    },
+    {
+      "question": "How many gallons of paint do I need for 500 square feet?",
+      "answer": "At standard coverage of 400 sq ft per gallon: 500 ÷ 400 = 1.25 gallons. Buy 2 gallons to allow for a second coat and touch-ups."
+    },
+    {
+      "question": "How many gallons of water in a square inch?",
+      "answer": "1 square inch, 1 inch deep = 1 cubic inch. Since 1 US gallon = 231 cubic inches, 1 cubic inch = 0.00433 gallons."
+    },
+    {
+      "question": "What is the formula for gallons per square foot of rainfall?",
+      "answer": "Gallons = Area (sq ft) × Rainfall depth (inches) × 0.623. For example, 1 inch of rain on 1,000 sq ft = 623 gallons."
+    }
+  ]
 }

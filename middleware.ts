@@ -1056,6 +1056,7 @@ export function middleware(request: NextRequest) {
       // Rewrite to the homepage with language header
       const response = NextResponse.rewrite(new URL('/', request.url));
       response.headers.set('x-language', lang);
+      response.headers.set('x-pathname', pathname);
       return response;
     }
 
@@ -1110,11 +1111,13 @@ export function middleware(request: NextRequest) {
     };
 
     if (translatedStaticPages[firstPart]) {
-      // 301 Permanent redirect to the English version of the static page
       const englishPage = translatedStaticPages[firstPart];
-      const url = request.nextUrl.clone();
-      url.pathname = '/' + englishPage;
-      return NextResponse.redirect(url, 301);
+      const response = NextResponse.rewrite(
+        new URL(`/${englishPage}`, request.url)
+      );
+      response.headers.set('x-language', lang);
+      response.headers.set('x-pathname', pathname);
+      return response;
     }
 
     // Translate the path parts for non-static pages

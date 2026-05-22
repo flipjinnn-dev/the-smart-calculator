@@ -6,9 +6,9 @@ import Script from "next/script";
 // Multilingual SEO metadata for time-calculator
 const timecalculatorMeta = {
   en: {
-    title: "Time Calculator",
-    description: "Add or subtract hours and minutes using our Time Calculator for fast time calculations.",
-    keywords: "time calculator, date difference, duration tool, online time, planning calculator, study tool, project duration, free time calculator"
+    title: "Time Calculator – Add, Subtract & Track Hours Fast",
+    description: "Use our free time calculator to add hours and minutes, calculate work hours, find time between two times, convert to decimal, and track payroll easily.",
+    keywords: "time calculator, add hours and minutes, subtract time, work hours calculator, time between two times, decimal time converter, payroll hours calculator, track hours, free time calculator"
   },
   br: {
     title: "Calculadora de Tempo",
@@ -92,131 +92,96 @@ export default async function TimeCalculatorLayout({
   children: React.ReactNode;
 }) {
   const jsonLdSchema = {
-  "@context": "https://schema.org",
-  "@graph": [
-
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Time Calculation",
-          "item": "https://www.thesmartcalculator.com/time-calculator"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Age Calculator",
-          "item": "https://www.thesmartcalculator.com/age-calculator"
-        }
-      ]
-    },
-
-    {
-      "@type": "Organization",
-      "@id": "https://www.thesmartcalculator.com/#organization",
-      "name": "Time Calculation",
-      "alternateName": "Time Calculation",
-      "url": "https://www.thesmartcalculator.com/time-calculator",
-      "logo": "https://www.thesmartcalculator.com/logo.png",
-      "sameAs": [
-        "https://www.instagram.com/thesmartcalculators/",
-        "https://www.youtube.com/@TheSmartCalculators",
-        "https://www.pinterest.com/thesmartcalculators/",
-        "https://www.linkedin.com/in/smart-calculators-412288380/",
-        "https://www.thesmartcalculator.com/",
-        "https://x.com/SmartCalculat0r"
-      ]
-    },
-
-    {
-      "@type": "SoftwareApplication",
-      "name": "Time Calculator",
-      "operatingSystem": "All",
-      "applicationCategory": "CalculatorApplication",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.thesmartcalculator.com/time-calculator",
+        "name": "Time Calculator",
+        "url": "https://www.thesmartcalculator.com/time-calculator",
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "bestRating": "5",
-        "ratingCount": "1100"
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Time Calculator",
+            "item": "https://www.thesmartcalculator.com/time-calculator",
+          },
+        ],
       },
-      "review": {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Aiden Asher"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "reviewBody": "Excellent and accurate time calculator. Very useful for work hours, planning, and payroll calculations."
-      }
-    },
-
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the Time Calculator?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is a tool to add, subtract, or compare hours, minutes, and seconds."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is it free?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, it’s completely free to use."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need software?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No, it works directly in any web browser."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can it handle multiple time entries?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, you can add or subtract multiple durations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does it support hours, minutes, and seconds?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, all standard time units are supported."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is it mobile-friendly?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, it works seamlessly on smartphones, tablets, and desktops."
-          }
-        }
-      ]
-    }
-
-  ]
-}
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I calculate time between two times?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Enter your start time and end time into a time calculator. It subtracts the earlier time from the later time and returns the difference in hours, minutes, and seconds.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "How do I add hours and minutes without a calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Convert everything to minutes, add the totals, then convert back. For example, 1 hour 45 minutes plus 2 hours 30 minutes equals 4 hours 15 minutes.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "What is hours to decimal conversion?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Divide minutes by 60 and add to hours. For example, 3 hours 30 minutes = 3.5 hours.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "Can a time calculator handle seconds?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, most modern time calculators support seconds and include them in results.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "How do I calculate time for payroll with a lunch break?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Subtract break duration from total working hours to calculate net paid time.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "What is elapsed time?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Elapsed time is the total time passed between a start and end point.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "How does a running pace calculator work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It divides total time by distance to calculate average pace.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "Can I calculate time across time zones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it converts time using timezone offsets and daylight saving adjustments.",
+            },
+          },
+        ],
+      },
+    ],
+  };
   return <>
     <Script
       id="time-calculator-json-ld"

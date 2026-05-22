@@ -59,56 +59,11 @@ const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
     : footerContent.categories.items
 
   const companyItems = footerContent.companyLinks.items.map((item: FooterItem) => {
-    if (item.href === "/") {
-      if (language !== 'en') {
-        return {
-          ...item,
-          href: `/${language}`
-        }
-      }
-      return item
+    if (item.href === "/" && language !== "en") {
+      return { ...item, href: `/${language}` };
     }
-    
-    const nameToEnglishHrefMap: Record<string, string> = {
-      "Sobre Nós": "/about-us",
-      "Contate-Nos": "/contact-us",
-      "Política de Privacidade": "/privacy-policy",
-      "Termos e Condições": "/terms-and-conditions",
-      "Mapa do Site": "/sitemap",
-      "Política Editorial": "/editorial-policy-mission-statement",
-      "O Nas": "/about-us",
-      "Kontakt": "/contact-us",
-      "Polityka Prywatności": "/privacy-policy",
-      "Regulamin": "/terms-and-conditions",
-      "Mapa Strony": "/sitemap",
-      "Polityka Redakcyjna": "/editorial-policy-mission-statement",
-      "Über Uns": "/about-us",
-      "Datenschutz": "/privacy-policy",
-      "Allgemeine Geschäftsbedingungen": "/terms-and-conditions",
-      "Redaktionelle Richtlinien": "/editorial-policy-mission-statement",
-      "Sobre Nosotros": "/about-us",
-      "Contáctenos": "/contact-us",
-      "Política de Privacidad": "/privacy-policy",
-      "Términos y Condiciones": "/terms-and-conditions",
-      "Mapa del Sitio": "/sitemap",
-      "Política Editorial (ES)": "/editorial-policy-mission-statement"
-    }
-    
-    if (nameToEnglishHrefMap[item.name]) {
-      return {
-        ...item,
-        href: nameToEnglishHrefMap[item.name]
-      }
-    }
-    
-    if (item.href === "/about-us" || item.href === "/contact-us" || 
-        item.href === "/privacy-policy" || item.href === "/terms-and-conditions" ||
-        item.href === "/sitemap" || item.href === "/editorial-policy-mission-statement") {
-      return item
-    }
-    
-    return item
-  })
+    return item;
+  });
 
   return (
     <footer className="bg-gray-900 text-white py-16">
