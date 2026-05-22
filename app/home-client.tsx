@@ -25,6 +25,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import SearchBar from "@/components/search-bar"
 import { getLocalizedCategoryUrl, getLocalizedCalculatorUrl } from "@/lib/url-utils"
+import { getHomeSearchCalculators } from "@/lib/calculator-data"
 import HomepageScientificCalculator from "@/components/homepage-scientific-calculator"
 import AuthorsSection from "@/components/authors-section"
 import type { Author } from "@/lib/sanity/client"
@@ -233,6 +234,20 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       href: "/construction/septic-tank-size-calculator"
     },
     {
+      name: "Roofing Calculator",
+      category: "Construction",
+      description:
+        "Estimate roof area, pitch, materials, and cost. Get roof squares, waste %, and replacement estimate.",
+      href: "/construction/roofing-calculator"
+    },
+    {
+      name: "Crushed Stone Calculator",
+      category: "Construction",
+      description:
+        "Calculate crushed stone in cubic yards and tons for driveways, patios, drainage, and shed bases.",
+      href: "/construction/crushed-stone-calculator"
+    },
+    {
       name: "Tattoo Tip Calculator",
       category: "Other",
       description: "Calculate tattoo tip amount, total with tip, multi-session totals, and per-person split instantly.",
@@ -251,6 +266,13 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       description:
         "Calculate pool volume in gallons, litres, and m³ for rectangular, round, oval, and kidney-shaped pools.",
       href: "/pool-volume-calculator/"
+    },
+    {
+      name: "Electricity Bill Calculator",
+      category: "Other",
+      description:
+        "Calculate your electricity bill instantly using kWh, wattage, and usage hours. Free electricity cost calculator for home and business use.",
+      href: "/electricity-bill-calculator"
     }
   ];
 
@@ -258,31 +280,61 @@ export default function HomePage({ content, language, authors }: HomeClientProps
   // For translated content, we match by index position since the order is consistent
   const calculatorsToUse = contentData.popular.calculators.length > 0
     ? contentData.popular.calculators.map((calc: any, index: number) => {
-      // Get the href from the fallback calculators by index position
       const fallbackCalc = fallbackCalculators[index];
       return {
         ...calc,
-        href: fallbackCalc ? fallbackCalc.href : "#"
+        href: calc.href || (fallbackCalc ? fallbackCalc.href : "#"),
       };
     })
     : fallbackCalculators;
 
+  const homepageSearchEntries = calculatorsToUse.map((calc: any, index: number) => ({
+    id: String(index),
+    name: String(calc.name || ""),
+    description: String(calc.description || ""),
+    href: String(calc.href || "#"),
+    category: String(calc.category || ""),
+    popular: true as const,
+  }));
+
+  const seenSearchHrefs = new Set(homepageSearchEntries.map((c) => c.href));
+  const dataPopularSearch = getHomeSearchCalculators(language).filter(
+    (calc) => !seenSearchHrefs.has(calc.href)
+  );
+
+  const extraSearchById = [
+    {
+      id: "crushed-stone-calculator",
+      name: "Crushed Stone Calculator",
+      description:
+        "Calculate crushed stone in cubic yards and tons instantly. Estimate material for driveways, patios, drainage, and shed bases fast.",
+      href: "/construction/crushed-stone-calculator",
+      category: "Construction",
+      popular: true as const,
+    },
+    {
+      id: "electricity-bill-calculator",
+      name: "Electricity Bill Calculator",
+      description:
+        "Calculate your electricity bill instantly using kWh, wattage, and usage hours. Free electricity cost calculator for home and business use.",
+      href: "/electricity-bill-calculator",
+      category: "Other",
+      popular: true as const,
+    },
+  ].filter((calc) => !seenSearchHrefs.has(calc.href));
+
   const searchCalculators = [
-    ...calculatorsToUse.map((calc: any, index: number) => ({
-      id: String(index),
-      name: String(calc.name || ""),
-      description: String(calc.description || ""),
-      href: String(calc.href || "#"),
-      category: String(calc.category || ""),
-      popular: true,
-    })),
+    ...homepageSearchEntries,
+    ...dataPopularSearch,
+    ...extraSearchById,
     {
       id: "shipping-cost-calculator",
       name: "Shipping Cost Calculator",
-      description: "Estimate shipping cost using weight, dimensions, destination, service speed, and optional surcharges",
+      description:
+        "Estimate shipping cost using weight, dimensions, destination, service speed, and optional surcharges",
       href: "/shipping-cost-calculator",
       category: "Other",
-      popular: false,
+      popular: false as const,
       englishOnly: true,
     },
   ];

@@ -1,42 +1,71 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import Script from "next/script";
+import { getCanonicalUrl } from "@/lib/url-utils";
+import { calculatorsMeta } from "@/meta/calculators";
+import { withSelfReferencingHreflang } from "@/lib/seo-hreflang";
 import PercentageDecreaseCalculatorClient from "./percentage-decrease-calculator-client";
 
+const CALCULATOR_ID = "percentage-decrease-calculator";
+
+function percentageDecreaseAlternateLanguages(): Record<string, string> {
+  return {
+    "x-default": getCanonicalUrl(CALCULATOR_ID, "en"),
+    en: getCanonicalUrl(CALCULATOR_ID, "en"),
+    "pt-BR": getCanonicalUrl(CALCULATOR_ID, "br"),
+    pl: getCanonicalUrl(CALCULATOR_ID, "pl"),
+    de: getCanonicalUrl(CALCULATOR_ID, "de"),
+    es: getCanonicalUrl(CALCULATOR_ID, "es"),
+  };
+}
+
 export async function generateMetadata(): Promise<Metadata> {
-  const baseUrl = "https://www.thesmartcalculator.com";
-  const canonicalUrl = `${baseUrl}/maths/percentage-decrease`;
+  const headersList = await headers();
+  const language = headersList.get("x-language") || "en";
+  const pathname =
+    headersList.get("x-pathname") || "/maths/percentage-decrease";
+  const path = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  const canonicalUrl = getCanonicalUrl(CALCULATOR_ID, language);
+  const meta =
+    calculatorsMeta[CALCULATOR_ID]?.[language] ||
+    calculatorsMeta[CALCULATOR_ID]?.en;
 
   return {
-    title: "Percentage Decrease Calculator | Find % Decrease",
+    metadataBase: new URL("https://www.thesmartcalculator.com"),
+    title: meta?.title || "Percentage Decrease Calculator | Find % Decrease",
     description:
+      meta?.description ||
       "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
+    keywords: meta?.keywords,
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        "x-default": canonicalUrl,
-        en: canonicalUrl,
-      },
+      languages: withSelfReferencingHreflang(
+        percentageDecreaseAlternateLanguages(),
+        canonicalUrl,
+        path
+      ),
     },
     openGraph: {
-      title: "Percentage Decrease Calculator | Find % Decrease",
+      title: meta?.title || "Percentage Decrease Calculator | Find % Decrease",
       description:
+        meta?.description ||
         "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
       url: canonicalUrl,
       type: "website",
       images: [
         {
-          url: `${baseUrl}/og-image.png`,
+          url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: "Percentage Decrease Calculator",
+          alt: meta?.title || "Percentage Decrease Calculator",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Percentage Decrease Calculator | Find % Decrease",
+      title: meta?.title || "Percentage Decrease Calculator | Find % Decrease",
       description:
+        meta?.description ||
         "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
     },
     robots: {

@@ -1,0 +1,152 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Quick Answer",
+      "content": "A **10 ft × 10 ft** area at **3 inches** deep needs **0.93 cubic yards** or **1.4 US tons** including **10% waste**. Multiply length × width × depth (in feet), divide by **27** for cubic yards, multiply by **1.5** for tons. Always add **10% waste**."
+    },
+    {
+      "heading": "What Is Crushed Stone?",
+      "content": "Crushed stone is quarried rock — granite, limestone, dolomite, or traprock — crushed into angular, sharp-edged pieces. Unlike rounded gravel, its angular shape locks together and compacts tightly under pressure.\n\nContractors use it as a base for driveways, foundations, patios, and drainage systems. Common sizes are **3/4 inch** for driveways, **3/8 inch** for patios, and **crusher run** for compactable base layers."
+    },
+    {
+      "heading": "How to Use Different Crushed Stone Sizes",
+      "content": "Different stone sizes serve different jobs. Using the wrong size wastes money and causes project failure.\n\n| Stone Size | Best Use |\n| --- | --- |\n| Stone dust | Concrete blocks, wall filling, smooth pavements |\n| 3/8 inch | Patio surfaces, walkways, fine finish areas |\n| 1/2 inch | Asphalt mixes, road concrete, water tank bedding |\n| 3/4 inch | Driveways, drainage, french drains, slab bases |\n| 1 inch | Road bases, pavements, jogging tracks |\n| 1-1/4 inch | Heavy-duty driveways, construction site roads |\n| 2 inch | Dry wells, septic systems, railroad ballast |\n| 4 inch | Heavy haul roads, drain outfall, slopes |\n\n**Quick rule:** use **3/4 inch** for anything structural, **3/8 inch** for anything decorative or surface-level."
+    },
+    {
+      "heading": "How to Use the Crushed Stone Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1 — Select surface shape",
+          "content": "Choose **rectangular** for driveways and patios, **circular** for round areas, or **triangle** for wedge-shaped sections."
+        },
+        {
+          "heading": "Step 2 — Enter dimensions",
+          "content": "Enter **length** and **width** in feet, inches, or metres. For circular areas, enter **diameter** only."
+        },
+        {
+          "heading": "Step 3 — Enter depth",
+          "content": "Enter depth in the same unit system. Typical depths: **driveway new = 4–6 in**, **patio = 3–4 in**, **shed base = 4 in**, **path = 2–3 in**. (With feet selected, use 0.25 ft for 3 inches.)"
+        },
+        {
+          "heading": "Step 4 — Select material and density",
+          "content": "Pick stone type — density defaults update (crushed stone **1.5 tons/yd³**). Adjust density if your supplier quotes a different weight."
+        },
+        {
+          "heading": "Step 5 — Add waste and calculate",
+          "content": "Order **10% extra** for standard shapes; use **15–20%** for irregular cuts and heavy compaction. Click **Calculate** for cubic yards and tons instantly."
+        }
+      ]
+    },
+    {
+      "heading": "Crushed Stone Calculator Tons",
+      "content": "Use the **crushed stone calculator tons** feature to convert cubic yards into tons instantly. Most crushed stone weighs about **1.5 tons per cubic yard** depending on stone type and moisture level.\n\n| Cubic Yards | Tons |\n| --- | --- |\n| 1 yd³ | 1.5 tons |\n| 2 yd³ | 3 tons |\n| 5 yd³ | 7.5 tons |"
+    },
+    {
+      "heading": "Crushed Stone Calculator Yards",
+      "content": "The **crushed stone calculator yards** section estimates how many cubic yards you need based on area size and depth. **One cubic yard equals 27 cubic feet.**"
+    },
+    {
+      "heading": "Crushed Stone Driveway Calculator",
+      "content": "The **crushed stone driveway calculator** helps estimate stone for driveway projects. Most driveways require **4–6 inches** of compacted **3/4 inch** crushed stone for proper support and drainage."
+    },
+    {
+      "heading": "Calculate How Much Crushed Stone Do I Need Manually",
+      "content": "Use these formulas if you want to calculate without the tool:\n\n**Rectangular surface:** Volume (cu yd) = (Length ft × Width ft × Depth ft) ÷ 27\n\n**Circular surface:** Volume (cu yd) = (π × Radius ft² × Depth ft) ÷ 27\n\n**Add waste:** Final Volume = Volume × (1 + Waste% ÷ 100)\n\n**Convert to tons:** Tons = Cubic yards × 1.5\n\n**Convert depth:** divide inches by 12 to get feet. The number **27** converts cubic feet to cubic yards (3×3×3). One cubic yard = **1.5 US tons** = **3,000 lbs**.\n\n**Example:** 15 ft × 12 ft patio at 3 inches deep:\n- Depth = 3 ÷ 12 = 0.25 ft\n- Volume = (15 × 12 × 0.25) ÷ 27 = **1.67 cu yd**\n- With waste = 1.67 × 1.10 = **1.83 cu yd**\n- Weight = 1.83 × 1.5 = **2.75 US tons**"
+    },
+    {
+      "heading": "Crushed Stone Coverage Table",
+      "content": "All values include **10% waste factor**.\n\n| Area (sq ft) | Depth 2\" (yd³) | Depth 3\" (yd³) | Depth 4\" (yd³) | Depth 6\" (yd³) | Tons @ 3\" depth |\n| --- | --- | --- | --- | --- | --- |\n| 50 | 0.34 | 0.51 | 0.68 | 1.02 | 0.77 |\n| 100 | 0.68 | 1.02 | 1.36 | 2.04 | 1.53 |\n| 200 | 1.37 | 2.05 | 2.74 | 4.11 | 3.07 |\n| 500 | 3.43 | 5.14 | 6.86 | 10.3 | 7.71 |\n| 1,000 | 6.86 | 10.3 | 13.7 | 20.6 | 15.4 |\n| 2,000 | 13.7 | 20.6 | 27.4 | 41.2 | 30.9 |"
+    },
+    {
+      "heading": "Crushed Stone Use Cases",
+      "subSections": [
+        {
+          "heading": "Driveway",
+          "content": "**3/4 inch** stone at **4–6 inches**. Two layers: 4 inch base + 2 inch top. A **20×20 ft** driveway needs ~**7.5 tons**."
+        },
+        {
+          "heading": "Patio",
+          "content": "**3/8 inch** or crusher run at **3–4 inches**. Compact before laying pavers. A **12×10 ft** patio needs ~**1.7 tons**."
+        },
+        {
+          "heading": "Shed base",
+          "content": "**4 inches** of **3/4 inch** stone. Extend **6–12 inches** beyond shed edges for drainage. A **10×12 ft** base needs ~**2.5 tons**."
+        },
+        {
+          "heading": "Foundation slab",
+          "content": "**4–6 inches** compacted **3/4 inch** stone. Prevents settling and cracking under concrete."
+        },
+        {
+          "heading": "French drain",
+          "content": "**3/4 inch** or **1.5 inch** angular stone. Never use smooth pea gravel — angular edges allow water flow."
+        },
+        {
+          "heading": "Walkways and paths",
+          "content": "**2–3 inches** of **3/8 inch** stone. Compact lightly for a firm, clean walking surface."
+        }
+      ]
+    },
+    {
+      "heading": "Troubleshooting",
+      "subSections": [
+        {
+          "heading": "Result too high?",
+          "content": "You entered dimensions in **yards**, not **feet**. 1 yard = 3 feet — this inflates results **9×**."
+        },
+        {
+          "heading": "Result too low?",
+          "content": "You entered depth in **feet** when you meant **inches**. For feet mode, enter **0.25** for 3 inches — or switch unit to **inches** and enter **3**."
+        },
+        {
+          "heading": "Irregular shape?",
+          "content": "Split into rectangles. Calculate each section separately, then add totals."
+        },
+        {
+          "heading": "Ran short after ordering?",
+          "content": "Stone compacts **10–15%** after tamping. Order **15% extra** if you are compacting."
+        },
+        {
+          "heading": "Supplier sells yards, you need tons?",
+          "content": "Multiply cubic yards × **1.5** for tons. Divide tons by **1.5** for cubic yards."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much crushed stone do I need?",
+      "answer": "Multiply area by depth in feet, divide by 27 for cubic yards, multiply by 1.5 for tons, add 10% waste. A 20×10 ft area at 4 inches = 2.5 cubic yards or 3.7 tons."
+    },
+    {
+      "question": "How to calculate how much crushed stone I need manually?",
+      "answer": "Formula: (L × W × D ÷ 12) ÷ 27 = cubic yards. Multiply by 1.10 for waste, then by 1.5 for tons. Example: 10×8 ft at 4 inches = 1.09 cu yd = 1.63 tons."
+    },
+    {
+      "question": "How to calculate yards of crushed stone?",
+      "answer": "(Length × Width × Depth ft) ÷ 27. A 15×12 ft area at 3 inches = (15 × 12 × 0.25) ÷ 27 = 1.67 cu yd. Add 10% waste = 1.83 cu yd."
+    },
+    {
+      "question": "How do I calculate crushed stone for a driveway?",
+      "answer": "Measure length and width in feet. Use 4–6 inch depth for new driveway, 2 inch for top-up. A 20×20 ft driveway at 4 inches = 5 cu yd or 7.5 tons."
+    },
+    {
+      "question": "How to calculate crushed stone for a patio?",
+      "answer": "Enter patio dimensions and 3 inch depth. A 12×10 ft patio = 1.1 cu yd or 1.7 tons including waste."
+    },
+    {
+      "question": "How many tons in a cubic yard of crushed stone?",
+      "answer": "1 cubic yard = 1.5 US tons = 3,000 lbs. Multiply cubic yards by 1.5 for tons. Divide tons by 1.5 for cubic yards."
+    },
+    {
+      "question": "What is the difference between 3/4 inch and 3/8 inch crushed stone?",
+      "answer": "3/4 inch drains fast and compacts strong — use for driveways, bases, drainage. 3/8 inch is finer and smoother — use for patios, walkways, decorative surfaces."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "Use the calculator above to get cubic yards and tons instantly. **Formula:** (L × W × D ÷ 12) ÷ 27 for cubic yards, ×1.5 for tons, +10% for waste. Use **3/4 inch** for structural base layers, **3/8 inch** for surface and patio projects. Always order slightly more than your calculated amount."
+    }
+  ]
+}

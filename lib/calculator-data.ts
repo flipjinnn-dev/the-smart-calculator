@@ -1274,6 +1274,15 @@ export const calculators: Calculator[] = [
     popular: true,
   },
   {
+    id: "electricity-bill-calculator",
+    name: "Electricity Bill Calculator",
+    description:
+      "Calculate your electricity bill instantly using kWh, wattage, and usage hours. Free electricity cost calculator for home and business use.",
+    href: "/electricity-bill-calculator",
+    category: "other",
+    popular: true,
+  },
+  {
     id: "uf-gpa-calculator",
     name: "UF GPA Calculator",
     description:
@@ -1321,6 +1330,33 @@ export const calculators: Calculator[] = [
     href: "/construction/soffit-calculator",
     category: "construction",
     popular: false,
+  },
+  {
+    id: "septic-tank-size-calculator",
+    name: "Septic Tank Size Calculator",
+    description:
+      "Most homes need a 1,000-gallon septic tank. Use our calculator for exact size based on bedrooms, usage, and soil type.",
+    href: "/construction/septic-tank-size-calculator",
+    category: "construction",
+    popular: true,
+  },
+  {
+    id: "roofing-calculator",
+    name: "Roofing Calculator",
+    description:
+      "Estimate roof area, pitch, materials, and cost instantly. Get accurate roof squares, waste %, and replacement estimate.",
+    href: "/construction/roofing-calculator",
+    category: "construction",
+    popular: true,
+  },
+  {
+    id: "crushed-stone-calculator",
+    name: "Crushed Stone Calculator",
+    description:
+      "Calculate crushed stone in cubic yards and tons instantly. Estimate material for driveways, patios, drainage, and shed bases fast.",
+    href: "/construction/crushed-stone-calculator",
+    category: "construction",
+    popular: true,
   },
   {
     id: "polymeric-sand-calculator",
@@ -1547,6 +1583,36 @@ function localizeCalculator(calc: Calculator, language: string): Calculator {
 
   const normalized = calc.href.startsWith("/") ? calc.href : `/${calc.href}`;
   return { ...calc, href: `/${language}${normalized === "/" ? "" : normalized}` };
+}
+
+const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
+  financial: "Financial",
+  health: "Health",
+  maths: "Maths",
+  physics: "Physics",
+  construction: "Construction",
+  food: "Food",
+  sports: "Sports",
+  games: "Games",
+  other: "Other",
+  "more-calculators": "More Calculators",
+};
+
+export function getHomeSearchCalculators(language: string = "en") {
+  return calculators
+    .filter((calc) => calc.popular)
+    .map((calc) => {
+      const loc = localizeCalculator(calc, language);
+      return {
+        id: loc.id,
+        name: loc.name,
+        description: loc.description,
+        href: loc.href,
+        category: CATEGORY_DISPLAY_NAMES[loc.category] ?? loc.category,
+        popular: true as const,
+        englishOnly: loc.englishOnly,
+      };
+    });
 }
 
 export function getCalculatorsByCategory(category: string, language: string = 'en'): Calculator[] {

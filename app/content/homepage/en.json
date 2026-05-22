@@ -113,6 +113,17 @@
         "description": "Most homes need a 1,000-gallon septic tank. Get exact size from bedrooms, usage, and soil type."
       },
       {
+        "name": "Roofing Calculator",
+        "category": "Construction",
+        "description": "Estimate roof area, pitch, materials, and cost. Get roof squares, waste %, and replacement estimate."
+      },
+      {
+        "name": "Crushed Stone Calculator",
+        "category": "Construction",
+        "description": "Calculate crushed stone in cubic yards and tons for driveways, patios, drainage, and shed bases.",
+        "href": "/construction/crushed-stone-calculator"
+      },
+      {
         "name": "Tattoo Tip Calculator",
         "category": "Other",
         "description": "Calculate tattoo tip amount, total with tip, multi-session totals, and per-person split instantly."
@@ -126,6 +137,12 @@
         "name": "Pool Volume Calculator",
         "category": "Other",
         "description": "Calculate pool volume in gallons, litres, and m³ for rectangular, round, oval, and kidney-shaped pools."
+      },
+      {
+        "name": "Electricity Bill Calculator",
+        "category": "Other",
+        "description": "Calculate your electricity bill using kWh, wattage, and usage hours for home or business.",
+        "href": "/electricity-bill-calculator"
       }
     ]
   },

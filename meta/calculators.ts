@@ -4021,6 +4021,26 @@ export const calculatorsMeta: CalculatorMeta = {
         "septic tank size calculator, septic tank calculator, septic tank capacity calculator, septic tank gallons calculator, how to size a septic tank, septic tank sizing by bedrooms, septic tank per person gallons, residential septic tank size, septic tank volume calculator, wastewater tank size calculator, septic system size calculator, septic tank dimensions gallons, percolation soil septic sizing, garbage disposal septic tank size, septic tank estimator, septic tank capacity in gallons"
     }
   },
+  "roofing-calculator": {
+    en: {
+      title: "Roofing Calculator | Roof Area & Cost Estimate",
+      description:
+        "Estimate roof area, pitch, materials, and cost instantly with our roofing calculator. Get accurate roof squares, waste %, and replacement estimate.",
+      slug: "/construction/roofing-calculator",
+      keywords:
+        "roofing calculator, roof area calculator, roof cost calculator, roof pitch calculator, roofing squares calculator, roof replacement cost estimator, shingle calculator, metal roof cost calculator, roof material calculator, gable roof area, hip roof calculator, roof waste percentage, cost per square roofing, roof measurement calculator, roofing estimate calculator"
+    }
+  },
+  "crushed-stone-calculator": {
+    en: {
+      title: "Crushed Stone Calculator – Yards & Tons Estimate",
+      description:
+        "Calculate crushed stone in cubic yards and tons instantly. Estimate material for driveways, patios, drainage, and shed bases fast.",
+      slug: "/construction/crushed-stone-calculator",
+      keywords:
+        "crushed stone calculator, gravel calculator cubic yards, stone tonnage calculator, crushed stone tons calculator, cubic yards to tons stone, driveway stone calculator, patio gravel calculator, crushed stone yard calculator, aggregate calculator, limestone calculator tons, granite gravel calculator, river rock calculator, shed base stone calculator, drainage stone calculator"
+    }
+  },
   "aquarium-substrate-calculator": {
     en: {
       title: "Aquarium Substrate Calculator: How Much Gravel, Sand, or Soil Do You Need?",
@@ -4219,6 +4239,16 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/pool-volume-calculator/",
       keywords:
         "pool volume calculator, swimming pool volume calculator, pool water capacity calculator, pool gallon calculator, pool litres calculator, pool volume m3, round pool volume calculator, kidney pool volume calculator, oval pool volume calculator, pool fill calculator, pool dimension calculator, above ground pool volume, pool measurement calculator, calculate pool gallons, pool size calculator"
+    }
+  },
+  "electricity-bill-calculator": {
+    en: {
+      title: "Electricity Bill Calculator | Calculate Cost by kWh",
+      description:
+        "Calculate your electricity bill instantly using kWh, wattage, and usage hours. Free electricity cost calculator for home and business use.",
+      slug: "/electricity-bill-calculator",
+      keywords:
+        "electricity bill calculator, electricity cost calculator, kwh calculator, wattage to kwh, calculate electricity bill, power consumption calculator, appliance electricity cost, monthly electricity estimate, electricity rate calculator, energy cost calculator, hourly appliance cost, annual electricity cost"
     }
   }
 };

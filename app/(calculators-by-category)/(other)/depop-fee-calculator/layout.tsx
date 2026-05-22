@@ -1,29 +1,12 @@
-import { headers } from "next/headers"
 import type { Metadata } from "next"
-import { withSelfReferencingHreflang } from "@/lib/seo-hreflang"
+import { getCanonicalUrl } from "@/lib/url-utils"
 
-const SITE_ORIGIN = "https://www.thesmartcalculator.com"
-
-function depopAlternateLanguages(): Record<string, string> {
-  return {
-    "x-default": `${SITE_ORIGIN}/depop-fee-calculator`,
-    en: `${SITE_ORIGIN}/depop-fee-calculator`,
-    de: `${SITE_ORIGIN}/de/andere/depop-fee-calculator`,
-    pl: `${SITE_ORIGIN}/pl/inne/depop-fee-calculator`,
-    "pt-BR": `${SITE_ORIGIN}/br/outro/depop-fee-calculator`,
-    es: `${SITE_ORIGIN}/es/otra/depop-fee-calculator`,
-  }
-}
+const CALCULATOR_ID = "depop-fee-calculator"
+const canonicalUrl = getCanonicalUrl(CALCULATOR_ID, "en")
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headersList = await headers()
-  const pathname =
-    headersList.get("x-pathname") || "/depop-fee-calculator"
-  const path = pathname.startsWith("/") ? pathname : `/${pathname}`
-  const canonicalUrl = `${SITE_ORIGIN}${path}`
-
   return {
-    metadataBase: new URL(SITE_ORIGIN),
+    metadataBase: new URL("https://www.thesmartcalculator.com"),
     title: {
       absolute: "Depop Fee Calculator — Calculate Your Exact Profit",
     },
@@ -31,11 +14,10 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: "depop fee calculator, depop fees, depop selling fee, depop transaction fee, depop fee calculator us, depop fee calculator uk, depop fee calculator australia, depop processing fee, depop boosted listing fee, depop profit calculator, depop payout calculator, free depop calculator, depop fee and transaction fee calculator, depop seller fees 2026, depop 0 percent fee, depop vs poshmark fees, depop shipping fees, depop bundle fees, depop refund fees",
     alternates: {
       canonical: canonicalUrl,
-      languages: withSelfReferencingHreflang(
-        depopAlternateLanguages(),
-        canonicalUrl,
-        path
-      ),
+      languages: {
+        "x-default": canonicalUrl,
+        en: canonicalUrl,
+      },
     },
     openGraph: {
       title: "Depop Fee Calculator — Calculate Your Exact Profit",

@@ -1,0 +1,135 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Concise Answer",
+      "content": "An **electricity bill calculator** estimates your exact monthly electric bill using your appliance wattage, daily usage hours, and local kWh electricity rate. Based on U.S. Energy Information Administration (EIA) billing standards, this tool helps homeowners, renters, and businesses calculate electricity cost and reduce utility bills without any guesswork."
+    },
+    {
+      "heading": "What Is an Electricity Bill Calculator?",
+      "content": "An electricity bill calculator is a free online tool that calculates your **electricity cost** based on real energy consumption data and your local utility rate per kWh (kilowatt-hour). It follows the same billing methodology used by major U.S. utility providers including Duke Energy, PG&E, Con Edison, and Xcel Energy to generate monthly and annual electricity cost estimates.\n\nYou simply enter your appliance wattage, daily usage hours, and your current electricity rate. The calculator shows your total power consumption in kWh and your estimated electric bill — no complex math, no spreadsheet, no confusion. Honestly, it takes less than a minute once you have your utility bill in hand. Results align with standard residential and commercial billing practices defined by the U.S. EIA."
+    },
+    {
+      "heading": "How to Use the Electricity Bill Calculator",
+      "content": "**Step-by-Step Guide to Calculate Your Electric Bill**",
+      "subSections": [
+        {
+          "heading": "Step 1 — Enter Appliance Wattage",
+          "content": "Find the watt rating printed on your appliance label or in its manual. Enter the exact watts — not an estimate — for the most accurate electricity cost calculation."
+        },
+        {
+          "heading": "Step 2 — Enter Daily Usage Hours",
+          "content": "Input how many hours per day you use the appliance. A refrigerator runs 24 hours; a ceiling fan typically runs 6–8 hours daily."
+        },
+        {
+          "heading": "Step 3 — Select Number of Days",
+          "content": "Choose **30 days** for a monthly electric bill or **365 days** for an annual electricity cost estimate."
+        },
+        {
+          "heading": "Step 4 — Enter Your Electricity Rate per kWh",
+          "content": "Find your rate on your latest utility bill. According to the U.S. Energy Information Administration, the national average electricity rate is **$0.1611 per kWh** (2024 residential average)."
+        },
+        {
+          "heading": "Step 5 — Click Calculate Electric Bill",
+          "content": "Your kWh consumption and total electricity cost appear instantly. Add multiple appliances (using quantity) for a complete household calculation."
+        }
+      ]
+    },
+    {
+      "heading": "Electricity Bill Calculation Formula",
+      "content": "**Standard Formula to Calculate Electricity Bill**\n\n**Electricity Cost = (Watts × Daily Hours × Days) ÷ 1,000 × Rate per kWh**\n\nThis is the same formula utility companies use under standard kWh billing methodology.\n\n**Example:** 1,500W Air Conditioner × 8 hrs × 30 days ÷ 1,000 × $0.1611 = **$57.99/month**"
+    },
+    {
+      "heading": "Appliance Electricity Cost Reference Table",
+      "content": "Grouped by category — based on EIA residential energy consumption data. Costs use **$0.16/kWh** for illustration.\n\n**Cooling & Heating**\n\n| Appliance | Wattage | Daily Hours | Monthly kWh | Cost |\n| --- | --- | --- | --- | --- |\n| Central Air Conditioner | 3,500W | 8 hrs | 840 kWh | $134.40 |\n| Window AC Unit | 1,200W | 6 hrs | 216 kWh | $34.56 |\n| Space Heater | 1,500W | 5 hrs | 225 kWh | $36.00 |\n| Ceiling Fan | 75W | 8 hrs | 18 kWh | $2.88 |\n\n**Kitchen & Laundry**\n\n| Appliance | Wattage | Daily Hours | Monthly kWh | Cost |\n| --- | --- | --- | --- | --- |\n| Refrigerator | 150W | 24 hrs | 108 kWh | $17.28 |\n| Electric Oven | 2,000W | 1 hr | 60 kWh | $9.60 |\n| Washing Machine | 500W | 1 hr | 15 kWh | $2.40 |\n| Dishwasher | 1,800W | 1 hr | 54 kWh | $8.64 |\n\n**Electronics & Lighting**\n\n| Appliance | Wattage | Daily Hours | Monthly kWh | Cost |\n| --- | --- | --- | --- | --- |\n| LED TV (55\") | 100W | 5 hrs | 15 kWh | $2.40 |\n| Laptop | 65W | 8 hrs | 15.6 kWh | $2.50 |\n| LED Bulb | 10W | 6 hrs | 1.8 kWh | $0.29 |\n| Gaming Console | 200W | 4 hrs | 24 kWh | $3.84 |\n\n*Data sourced from U.S. Energy Information Administration (EIA) residential appliance benchmarks. Rates vary by state and utility provider.*"
+    },
+    {
+      "heading": "Who Should Use This Electricity Cost Calculator?",
+      "content": "**Real-World Use Cases**",
+      "subSections": [
+        {
+          "heading": "Homeowners",
+          "content": "Identify energy-hungry appliances and reduce their monthly electric bill by replacing inefficient devices with Energy Star-certified alternatives."
+        },
+        {
+          "heading": "Renters",
+          "content": "Calculate electricity costs before signing a lease to budget monthly utility bills accurately in any U.S. state."
+        },
+        {
+          "heading": "Business owners",
+          "content": "Track power consumption across HVAC systems, servers, and equipment using the same utility-grade estimation model applied by commercial electricity providers."
+        },
+        {
+          "heading": "Solar panel users",
+          "content": "Calculate current electricity consumption to determine the correct solar system size and long-term savings against your current utility rate."
+        },
+        {
+          "heading": "EV owners",
+          "content": "Estimate the monthly electricity cost of home charging versus public stations — a growing use case as EV adoption increases across the U.S."
+        },
+        {
+          "heading": "Budget planners",
+          "content": "Compare electricity rates between providers like Duke Energy, Ambit Energy, or TXU Energy before switching utility suppliers."
+        }
+      ]
+    },
+    {
+      "heading": "Why Your Electricity Bill Calculation May Be Inaccurate",
+      "content": "**Common Mistakes When Calculating Electric Bills**",
+      "subSections": [
+        {
+          "heading": "Wrong wattage",
+          "content": "Always read the label. Wattage varies by brand and model year."
+        },
+        {
+          "heading": "Ignoring standby power",
+          "content": "Most appliances draw 1–10W even when off. The Lawrence Berkeley National Laboratory estimates standby power accounts for **10%** of home electricity use."
+        },
+        {
+          "heading": "Using wrong kWh rate",
+          "content": "Tiered pricing and time-of-use rates change your actual cost. Always use the exact rate from your latest utility bill."
+        },
+        {
+          "heading": "Meter reading errors",
+          "content": "Subtract your previous meter reading from the current reading before entering kWh into the calculator."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do I calculate my electricity bill from a meter reading?",
+      "answer": "Subtract your previous meter reading from your current reading to get total kWh consumed. Multiply that figure by your electricity rate per kWh. For example: 600 kWh × $0.16 = $96.00 electricity bill for the billing period."
+    },
+    {
+      "question": "What is the average monthly electricity bill in the US?",
+      "answer": "According to the U.S. Energy Information Administration (EIA), the average American household consumes 877 kWh per month, resulting in an average monthly electric bill of approximately $137–$150 depending on state and season."
+    },
+    {
+      "question": "How do I calculate electricity cost by kWh?",
+      "answer": "Multiply your total kWh usage by your electricity rate. Formula: kWh × Rate = Cost. Example: 500 kWh × $0.1611/kWh = $80.55."
+    },
+    {
+      "question": "What uses the most electricity in a home?",
+      "answer": "Heating and cooling (HVAC) accounts for nearly 48% of total home electricity use, according to EIA residential energy data. Water heaters, refrigerators, and washers/dryers follow as the next largest consumers."
+    },
+    {
+      "question": "Can I use this calculator for commercial electricity bills?",
+      "answer": "Yes. Enter your commercial appliances, daily operating hours, and your business electricity rate. This tool applies utility-grade calculation methodology suitable for both residential and commercial electricity bill estimation."
+    },
+    {
+      "question": "How do I lower my monthly electric bill?",
+      "answer": "Switch to LED lighting, install a smart thermostat, upgrade to Energy Star appliances, use smart power strips to eliminate standby power draw, and shift laundry and dishwashing to off-peak hours when electricity rates are lower."
+    },
+    {
+      "question": "Is this electricity bill calculator free to use?",
+      "answer": "Yes. This electricity bill calculator is 100% free with no registration required. It delivers utility-aligned accuracy based on standard kWh billing methodology — the same approach used by major U.S. electricity providers."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "This electricity bill calculator uses the U.S. EIA's standard kWh billing formula to deliver accurate estimates. Enter your appliance wattage, usage hours, and local electricity rate to calculate your monthly electric bill instantly. Use the results to cut power consumption, compare appliance costs, and lower your utility bill — free, every time."
+    }
+  ]
+}

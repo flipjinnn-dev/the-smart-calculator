@@ -1,0 +1,129 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Quick Answer",
+      "content": "A roofing calculator estimates your total roof area in square feet or roofing squares based on your home's dimensions and roof pitch. Enter length, width, and roof slope. The calculator applies the slope factor and waste percentage to give an accurate material quantity and roofing cost estimate in seconds."
+    },
+    {
+      "heading": "What Is a Roofing Calculator?",
+      "content": "A **roofing calculator** is a precision tool that computes your roof's actual surface area, total material requirement, and estimated replacement or installation cost, all from three inputs: length, width, and roof pitch.\n\nUnlike flat-surface estimates, a roof's true area is always larger than your home's footprint because the slope adds extra surface. The calculator applies a slope factor automatically, so your shingle count, metal roofing panels, or tile quantity reflects reality — not guesswork.\n\nContractors, homeowners, and insurance adjusters all use this **roof estimate calculator** to plan budgets, compare quotes, and order the right amount of materials the first time."
+    },
+    {
+      "heading": "How to Use the Roofing Calculator",
+      "content": "Getting an accurate roof area estimate takes less than one minute. Follow these steps:",
+      "subSections": [
+        {
+          "heading": "Step 1 — Enter Your Roof's Base Dimensions",
+          "content": "Measure your home's footprint from the ground — length and width in feet. You do not need to climb the roof."
+        },
+        {
+          "heading": "Step 2 — Input Your Roof Pitch",
+          "content": "Roof pitch is the rise per 12 inches of horizontal run (e.g., 4/12 or 6/12). Enter it as **X:12** in the calculator (e.g. **6** for 6:12). Not sure of your pitch? Place a level on your roof, hold it horizontally, and measure the vertical rise at the 12-inch mark."
+        },
+        {
+          "heading": "Step 3 — Select Roofing Material",
+          "content": "Choose asphalt shingles, metal roofing, clay tiles, or another material. Each material uses a different coverage rate per bundle or panel — update **material cost per square** to match your quote."
+        },
+        {
+          "heading": "Step 4 — Set Waste Percentage",
+          "content": "Add **10%–15%** waste for simple gable or shed roofs. Add **15%–20%** for complex roofs with hips, valleys, skylights, or dormers."
+        },
+        {
+          "heading": "Step 5 — Read Your Results",
+          "content": "The calculator outputs total roof area (sq ft), roofing squares, waste-adjusted area, and total estimated cost including optional labor."
+        }
+      ]
+    },
+    {
+      "heading": "Roofing Area Formula",
+      "content": "**Base Area** = Length (ft) × Width (ft)\n\n**Pitch Ratio** = Rise ÷ 12\n\n**Pitch (Degrees)** = arctan(Pitch Ratio)\n\n**Roof Area** = Base Area ÷ cos(Pitch in Degrees)\n\n*(Equivalent slope factor: √(1 + (Rise ÷ 12)²))*\n\n**Roofing Squares** = Roof Area ÷ 100\n\n**Final Material** = Roofing Squares × (1 + Waste%)\n\n**Example:** A 40 × 30 ft house with a 4/12 pitch → Base: 1,200 sq ft → Roof Area: ~1,265 sq ft → **~13 roofing squares**."
+    },
+    {
+      "heading": "Roof Pitch & Slope Factor Reference Table",
+      "content": "| Roof Pitch | Angle (°) | Slope Factor | Roof Type | Recommended For |\n| --- | --- | --- | --- | --- |\n| 2/12 | 9.5° | 1.014 | Flat/Low | Dry climates |\n| 3/12 | 14.0° | 1.031 | Low Slope | Warm regions |\n| 4/12 | 18.4° | 1.054 | Standard | Most homes |\n| 5/12 | 22.6° | 1.083 | Standard | Most homes |\n| 6/12 | 26.6° | 1.118 | Moderate | Mixed climates |\n| 8/12 | 33.7° | 1.202 | Steep | Heavy rain areas |\n| 10/12 | 39.8° | 1.302 | Very Steep | Snow regions |\n| 12/12 | 45.0° | 1.414 | Extra Steep | Heavy snowfall |\n\n**Pro Tip:** Steeper roofs shed snow and water faster but require more material and skilled labor — always increasing your total **roofing labor cost**."
+    },
+    {
+      "heading": "Common Use Cases",
+      "subSections": [
+        {
+          "heading": "Full Roof Replacement Planning",
+          "content": "Use the **roof replacement cost calculator** to estimate total spend before requesting contractor quotes. Compare multiple material types to find the best value for your budget."
+        },
+        {
+          "heading": "DIY Shingle Installation",
+          "content": "Calculate exactly how many bundles of asphalt shingles you need for your roof square footage — avoid overbuying or running short mid-project."
+        },
+        {
+          "heading": "New Construction Roofing",
+          "content": "Builders use the **roofing material calculator** to prepare accurate material lists and bid jobs confidently. Inputs support multiple roof sections for complex designs."
+        },
+        {
+          "heading": "Insurance Damage Claims",
+          "content": "After storm or hail damage, document your roof area in square feet and estimated replacement cost quickly for accurate insurance submissions."
+        },
+        {
+          "heading": "Contractor Quote Comparison",
+          "content": "Verify if a contractor's quote is reasonable. The industry standard for asphalt shingles runs **$3.50–$6.50 per sq ft** installed including labor — use this tool to benchmark any quote you receive."
+        }
+      ]
+    },
+    {
+      "heading": "Troubleshooting Common Issues",
+      "subSections": [
+        {
+          "heading": "My result looks too high",
+          "content": "Re-check your pitch value. A **12/12** pitch increases surface area by **41%** over the base footprint. Verify your rise measurement carefully before re-running the calculation."
+        },
+        {
+          "heading": "My material count seems too low",
+          "content": "You likely skipped the waste factor. Always add at least **10%** for a standard gable roof and **15–20%** for roofs with cut lines, valleys, or skylights."
+        },
+        {
+          "heading": "I have multiple roof sections",
+          "content": "Calculate each section separately using its own dimensions and pitch, then add all results together for your total roofing square footage."
+        },
+        {
+          "heading": "I do not know my roof pitch",
+          "content": "Contact your local building department — most keep construction records that include the original roof pitch specifications for your home."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do I calculate roof area from the ground?",
+      "answer": "Measure your home's ground-level length and width in feet. Multiply them to get the base area, then divide by the cosine of your roof pitch angle. Example: A 50 × 30 ft home with a 25° pitch → 1,500 ÷ cos(25°) = 1,655 sq ft actual roof area. You never need to climb the roof for this calculation."
+    },
+    {
+      "question": "What is a roofing square and how many shingles does it need?",
+      "answer": "One roofing square equals 100 square feet of roof surface. Standard three-tab asphalt shingles require 3 bundles per roofing square. Always add 10%–15% extra for waste, cuts, and overlaps to avoid a shortage during installation."
+    },
+    {
+      "question": "What is the average roof replacement cost?",
+      "answer": "Asphalt shingle roof replacement typically costs $4,500–$12,000 for an average home (1,500–2,500 sq ft). Metal roofing runs $8,000–$20,000+. Final cost depends on roof size, pitch, material, local labor rates, and tear-off requirements for existing layers."
+    },
+    {
+      "question": "What roof pitch is most common on homes?",
+      "answer": "The most common residential roof pitch falls between 4/12 and 6/12 (18°–27°). This range provides good water drainage, manageable labor costs, and full compatibility with asphalt shingles, metal panels, and most standard roofing materials."
+    },
+    {
+      "question": "How much roofing waste percentage should I add?",
+      "answer": "Add 10% for simple two-slope gable or shed roofs. Add 15% for moderate complexity with one or two hips or valleys. Add 20% for highly complex roofs with multiple dormers, skylights, or irregular angles. Skipping the waste factor causes material shortages and costly re-orders mid-project."
+    },
+    {
+      "question": "Can this calculator estimate metal roofing cost?",
+      "answer": "Yes. Select metal roofing as your material type. The calculator adjusts for panel coverage and uses your material cost per square plus labor. Typical metal roofing installation runs $7–$14 per sq ft installed, depending on panel style (standing seam vs. corrugated) and your region."
+    },
+    {
+      "question": "What is the difference between a gable roof and a shed roof?",
+      "answer": "A gable roof has two sloping sides that meet at a central ridge — the most common residential roof style. A shed roof has a single slope running in one direction. Both types use the same area formula; the difference is that a gable roof has two equal sections while a shed roof calculates as one single-sloped plane."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "A **roofing calculator** eliminates guesswork from every roofing project. Enter your base dimensions, roof pitch, and material type — the tool calculates roof area in square feet, roofing squares, material quantity, and total cost in seconds. Always include a waste factor. Use the results to plan budgets, verify contractor quotes, and make confident roofing decisions every time."
+    }
+  ]
+}

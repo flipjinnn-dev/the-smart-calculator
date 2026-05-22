@@ -111,6 +111,17 @@
         "name": "Calculadora de tamaño de tanque séptico",
         "category": "Construcción",
         "description": "La mayoría de las viviendas necesitan un tanque séptico mínimo de 1,000 galones. Obtenga el tamaño según dormitorios, uso y tipo de suelo."
+      },
+      {
+        "name": "Roofing Calculator",
+        "category": "Construcción",
+        "description": "Estime el área del techo, la inclinación, los materiales y el costo. Obtenga cuadrados de techo, % de desperdicio y presupuesto de reemplazo."
+      },
+      {
+        "name": "Crushed Stone Calculator",
+        "category": "Construcción",
+        "description": "Calcule grava triturada en yardas cúbicas y toneladas para entradas, patios, drenaje y bases.",
+        "href": "/construction/crushed-stone-calculator"
       }
     ]
   },

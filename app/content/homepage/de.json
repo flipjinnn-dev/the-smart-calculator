@@ -111,6 +111,17 @@
         "name": "Septiktank-Größenrechner",
         "category": "Bauwesen",
         "description": "Die meisten Häuser benötigen mindestens einen 1.000-Gallonen-Septiktank. Berechnen Sie die Größe nach Schlafzimmern, Verbrauch und Bodentyp."
+      },
+      {
+        "name": "Roofing Calculator",
+        "category": "Bauwesen",
+        "description": "Dachfläche, Neigung, Material und Kosten schätzen. Dachquadrate, Verschnitt % und Ersatzkosten sofort berechnen."
+      },
+      {
+        "name": "Crushed Stone Calculator",
+        "category": "Bauwesen",
+        "description": "Schotter in Kubikyards und Tonnen berechnen — Einfahrt, Terrasse, Drainage und Fundament.",
+        "href": "/construction/crushed-stone-calculator"
       }
     ]
   },
