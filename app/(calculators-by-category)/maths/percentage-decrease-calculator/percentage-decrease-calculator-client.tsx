@@ -81,20 +81,15 @@ export default function PercentageDecreaseCalculatorClient({
 
         <div className="mb-12">
           <Card className="border-2 border-purple-200 shadow-xl">
-            <CardHeader className="py-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
-              <CardTitle className="text-3xl flex items-center gap-3">
-                <Calculator className="w-8 h-8 shrink-0" />
+            <CardHeader className="py-4 md:py-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+              <CardTitle className="text-lg sm:text-xl md:text-3xl leading-snug flex items-center gap-2 md:gap-3">
+                <Calculator className="w-6 h-6 md:w-8 md:h-8 shrink-0" />
                 {formTitle}
               </CardTitle>
             </CardHeader>
             <CardContent className="p-8">
               <div className="space-y-6">
                 <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-xl border-2 border-purple-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                    <Calculator className="w-5 h-5 text-purple-600 shrink-0" />
-                    {formTitle}
-                  </h3>
-
                   <div className="mb-6">
                     <Label
                       htmlFor="pct-original"

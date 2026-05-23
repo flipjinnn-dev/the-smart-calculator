@@ -321,6 +321,24 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       category: "Other",
       popular: true as const,
     },
+    {
+      id: "silcatire-pressure-calculator",
+      name: "SILCA Tire Pressure Calculator",
+      description:
+        "Calculate ideal bike tire pressure instantly. Accurate front and rear PSI for road, gravel, and MTB using SILCA-style inputs.",
+      href: "/sports/silcatire-pressure-calculator",
+      category: "Sports",
+      popular: true as const,
+    },
+    {
+      id: "mixed-fraction-calculator",
+      name: "Mixed Fraction Calculator",
+      description:
+        "Mixed numbers calculator: add, subtract, multiply, divide, simplify, and convert mixed fractions to improper fractions or decimals with steps.",
+      href: "/maths/calculator/mixed-fraction-calculator",
+      category: "Maths",
+      popular: true as const,
+    },
   ].filter((calc) => !seenSearchHrefs.has(calc.href));
 
   const searchCalculators = [

@@ -1413,7 +1413,7 @@ export const calculators: Calculator[] = [
       "Calculate ideal bike tire pressure instantly. Accurate front and rear PSI for road, gravel, and MTB using SILCA-style inputs — weight, tire width, surface, and setup.",
     href: "/sports/silcatire-pressure-calculator",
     category: "sports",
-    popular: false,
+    popular: true,
   },
   {
     id: "crochet-calculator",
@@ -1494,7 +1494,7 @@ export const calculators: Calculator[] = [
       "Solve mixed numbers instantly with step-by-step answers. Add, subtract, multiply, divide, simplify, and convert fractions to decimals easily online.",
     href: "/maths/calculator/mixed-fraction-calculator",
     category: "maths",
-    popular: false,
+    popular: true,
   },
   {
     id: "blox-fruits-wheel",
@@ -1585,7 +1585,7 @@ function localizeCalculator(calc: Calculator, language: string): Calculator {
   return { ...calc, href: `/${language}${normalized === "/" ? "" : normalized}` };
 }
 
-const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
+export const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
   financial: "Financial",
   health: "Health",
   maths: "Maths",
