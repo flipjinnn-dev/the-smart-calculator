@@ -66,12 +66,16 @@ export default function SearchBar({ language = "en", onFocusChange, calculators 
       setFilteredCalculators(popularCalculators)
     } else {
       const query = searchQuery.toLowerCase()
-      const filtered = localizedCalculators.filter(
-        (calc) =>
+      const filtered = localizedCalculators.filter((calc) => {
+        const id = (calc as { id?: string }).id?.toLowerCase() ?? "";
+        return (
           calc.name.toLowerCase().includes(query) ||
           calc.category.toLowerCase().includes(query) ||
-          calc.description.toLowerCase().includes(query),
-      )
+          calc.description.toLowerCase().includes(query) ||
+          calc.href.toLowerCase().includes(query) ||
+          id.includes(query)
+        );
+      });
       setFilteredCalculators(filtered)
     }
   }, [searchQuery, popularCalculators, localizedCalculators])

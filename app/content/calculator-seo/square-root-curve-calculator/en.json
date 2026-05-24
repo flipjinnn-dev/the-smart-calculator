@@ -1,0 +1,81 @@
+{
+  "metaTitle": "Square Root Curve Calculator – Instant Grade Curve",
+  "metaDescription": "Use our square root curve calculator to instantly curve any test score. Formula: √Score × 10. Includes chart, Excel method, and grade lookup table.",
+  "keywords": "square root curve calculator, grade curve calculator, test score curve, square root grading formula, curve grades, grade lookup table, excel grade curve",
+  "pageTitle": "Square Root Curve Calculator",
+  "pageDescription": "Square root curve = √(Score) × 10, for example if score is 64 then √64 = 8 and 8 × 10 = 80.",
+  "canonical": "https://www.thesmartcalculator.com/maths/square-root-curve-calculator",
+  "openGraph": {
+    "title": "Square Root Curve Calculator – Instant Grade Curve",
+    "description": "Use our square root curve calculator to instantly curve any test score. Formula: √Score × 10. Includes chart, Excel method, and grade lookup table.",
+    "image": "/og-image.png",
+    "siteName": "Smart Calculator"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Square Root Curve Calculator – Instant Grade Curve",
+    "description": "Use our square root curve calculator to instantly curve any test score. Formula: √Score × 10. Includes chart, Excel method, and grade lookup table.",
+    "image": "/og-image.png"
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Square Root Curve Calculator",
+            "item": "https://www.thesmartcalculator.com/maths/square-root-curve-calculator"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a square root curve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A square root curve is a grading method where the square root of a score is taken and multiplied by 10 to adjust grades, usually boosting lower scores more."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you calculate a square root curve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Take the square root of the original score and multiply it by 10. Example: √64 × 10 = 80."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the formula for a square root curve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Curved Score = √(Original Score) × 10"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does a square root curve always increase scores?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, most scores between 1 and 99 increase, while 0 and 100 remain unchanged."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is 70 on a square root curve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "√70 × 10 = 83.7 (approximately 84)."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

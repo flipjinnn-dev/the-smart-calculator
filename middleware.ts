@@ -1,5 +1,9 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
+import {
+  ADMIN_DASHBOARD_COOKIE,
+  ADMIN_DASHBOARD_SESSION_VALUE,
+} from '@/lib/admin-dashboard-auth';
 
 // Define the URL mappings for each language
 export const urlMappings = {
@@ -1025,6 +1029,17 @@ const staticPages = [
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  // Admin dashboard: hardcoded credentials (cookie), not NextAuth
+  if (pathname.startsWith('/admin') && pathname !== '/admin/login') {
+    const session = request.cookies.get(ADMIN_DASHBOARD_COOKIE)?.value;
+    if (session !== ADMIN_DASHBOARD_SESSION_VALUE) {
+      const loginUrl = request.nextUrl.clone();
+      loginUrl.pathname = '/admin/login';
+      loginUrl.searchParams.set('from', pathname);
+      return NextResponse.redirect(loginUrl);
+    }
+  }
 
   // Skip middleware for static files, API routes, and Next.js internals
   if (

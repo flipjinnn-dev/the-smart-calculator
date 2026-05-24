@@ -1,4 +1,4 @@
-import { requireAdmin } from '@/lib/auth-utils';
+import { requireDashboardAdmin } from '@/lib/admin-dashboard-auth-server';
 import { getAllAuthors, getAllCategories } from '@/lib/actions/blog-actions';
 import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
@@ -11,7 +11,7 @@ export const metadata = {
 };
 
 export default async function CreateBlogPage() {
-  await requireAdmin();
+  await requireDashboardAdmin();
 
   const [authors, categories] = await Promise.all([
     getAllAuthors(),

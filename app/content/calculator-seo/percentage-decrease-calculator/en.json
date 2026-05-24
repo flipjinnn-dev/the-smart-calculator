@@ -1,0 +1,42 @@
+{
+  "metaTitle": "Percentage Decrease Calculator | Find % Decrease",
+  "metaDescription": "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
+  "keywords": "percentage decrease calculator, percent decrease calculator, percentage drop calculator, decrease percentage formula, calculate percentage decrease",
+  "pageTitle": "Percentage Decrease Calculator",
+  "pageDescription": "Calculate percent decrease between two numbers with formula and step-by-step working",
+  "canonical": "https://www.thesmartcalculator.com/maths/percentage-decrease",
+  "openGraph": {
+    "title": "Percentage Decrease Calculator | Find % Decrease",
+    "description": "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
+    "image": "/og-image.png",
+    "siteName": "Smart Calculator"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Percentage Decrease Calculator | Find % Decrease",
+    "description": "Use our percentage decrease calculator to find percent decrease between two numbers instantly with formula, steps, and accurate results.",
+    "image": "/og-image.png"
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.thesmartcalculator.com/maths/percentage-decrease",
+        "name": "Percentage Decrease Calculator",
+        "url": "https://www.thesmartcalculator.com/maths/percentage-decrease"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Percentage Decrease Calculator",
+            "item": "https://www.thesmartcalculator.com/maths/percentage-decrease"
+          }
+        ]
+      }
+    ]
+  }
+}

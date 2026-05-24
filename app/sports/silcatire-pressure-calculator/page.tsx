@@ -101,7 +101,7 @@ export default async function SilcaTirePressurePage() {
             name: "How accurate is this PSI calculator?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "It is highly accurate when you enter correct inputs especially actual mounted tire width, not labeled width. Results land within 2–3 PSI of optimal pressure for most riders. Accuracy drops only when users enter estimated weights or incorrect surface categories.",
+              text: "It is highly accurate when you enter correct inputs, especially actual mounted tire width, not labeled width. Results land within 2-3 PSI of optimal pressure for most riders. Accuracy drops only when users enter estimated weights or incorrect surface categories.",
             },
           },
           {
@@ -109,12 +109,12 @@ export default async function SilcaTirePressurePage() {
             name: "Is this tool accurate for tubeless setups?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Yes. Tubeless mode automatically reduces PSI by 5–10 compared to clincher baseline. Tubeless tires deform more efficiently at lower pressure, which cuts rolling resistance and improves cornering grip without pinch flat risk.",
+              text: "Yes. Tubeless mode automatically reduces PSI by 5-10 compared to clincher baseline. Tubeless tires deform more efficiently at lower pressure, which cuts rolling resistance and improves cornering grip without pinch flat risk.",
             },
           },
           {
             "@type": "Question",
-            name: "SILCA vs SRAM tire pressure calculator — which is better?",
+            name: "SILCA vs SRAM tire pressure calculator: which is better?",
             acceptedAnswer: {
               "@type": "Answer",
               text: "SILCA factors in more variables surface category, casing type, riding speed, and weight distribution. SRAM AXS mainly uses rider weight and tire width. Most experienced riders agree that SILCA gives more terrain-specific results, especially for gravel and MTB riding.",

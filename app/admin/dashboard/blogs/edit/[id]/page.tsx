@@ -1,4 +1,4 @@
-import { requireAdmin } from '@/lib/auth-utils';
+import { requireDashboardAdmin } from '@/lib/admin-dashboard-auth-server';
 import { getAllAuthors, getAllCategories, getBlogById } from '@/lib/actions/blog-actions';
 import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
@@ -12,7 +12,7 @@ export const metadata = {
 };
 
 export default async function EditBlogPage({ params }: { params: Promise<{ id: string }> }) {
-  await requireAdmin();
+  await requireDashboardAdmin();
   
   const { id } = await params;
 

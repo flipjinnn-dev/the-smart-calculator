@@ -21,12 +21,12 @@
     "calculate": "Calculate",
     "hooklessLabel": "Hookless rim (cap at 73 PSI)",
     "placeholders": {
-      "surface": "— Select surface condition —",
-      "width": "— Select measured tire width —",
-      "wheel": "— Select wheel diameter —",
-      "tireType": "— Select tire type —",
-      "speed": "— Select average speed —",
-      "distribution": "— Select weight distribution —"
+      "surface": "Select surface condition",
+      "width": "Select measured tire width",
+      "wheel": "Select wheel diameter",
+      "tireType": "Select tire type",
+      "speed": "Select average speed",
+      "distribution": "Select weight distribution"
     }
   }
 }

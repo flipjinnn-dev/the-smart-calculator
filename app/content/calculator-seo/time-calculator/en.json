@@ -1,0 +1,87 @@
+{
+  "metaTitle": "Time Calculator – Add, Subtract & Track Hours Fast",
+  "metaDescription": "Use our free time calculator to add hours and minutes, calculate work hours, find time between two times, convert to decimal, and track payroll easily.",
+  "keywords": "time calculator, add hours and minutes, subtract time, work hours calculator, time between two times, decimal time converter, payroll hours calculator, track hours, free time calculator",
+  "pageTitle": "Time Calculator",
+  "pageDescription": "A time calculator helps you add, subtract, or find the difference between two times in hours, minutes, and seconds. Enter your start and end times, choose your operation, and get an instant result no manual math needed.",
+  "canonical": "https://www.thesmartcalculator.com/time-calculator",
+  "openGraph": {
+    "title": "Time Calculator – Add, Subtract & Track Hours Fast",
+    "description": "Use our free time calculator to add hours and minutes, calculate work hours, find time between two times, convert to decimal, and track payroll easily.",
+    "image": "/og-image.png",
+    "siteName": "Smart Calculator"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Time Calculator – Add, Subtract & Track Hours Fast",
+    "description": "Use our free time calculator to add hours and minutes, calculate work hours, find time between two times, convert to decimal, and track payroll easily.",
+    "image": "/og-image.png"
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.thesmartcalculator.com/time-calculator",
+        "name": "Time Calculator",
+        "url": "https://www.thesmartcalculator.com/time-calculator"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Time Calculator",
+            "item": "https://www.thesmartcalculator.com/time-calculator"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I calculate time between two times?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Enter your start time and end time into a time calculator. It subtracts the earlier time from the later time and returns the difference in hours, minutes, and seconds."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I add hours and minutes without a calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Convert everything to minutes, add the totals, then convert back. For example, 1 hour 45 minutes plus 2 hours 30 minutes equals 4 hours 15 minutes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is hours to decimal conversion?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Divide minutes by 60 and add to hours. For example, 3 hours 30 minutes = 3.5 hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a time calculator handle seconds?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, most modern time calculators support seconds and include them in results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I calculate time for payroll with a lunch break?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Subtract break duration from total working hours to calculate net paid time."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

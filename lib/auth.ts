@@ -105,5 +105,9 @@ export const authOptions: NextAuthOptions = {
   session: {
     strategy: 'jwt',
   },
-  secret: process.env.NEXTAUTH_SECRET,
+  secret:
+    process.env.NEXTAUTH_SECRET ||
+    (process.env.NODE_ENV === 'development'
+      ? 'local-dev-nextauth-secret-min-32-chars'
+      : undefined),
 };
