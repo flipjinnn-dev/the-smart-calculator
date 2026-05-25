@@ -3,19 +3,16 @@ import { headers } from "next/headers";
 import {
   loadCalculatorUiContent,
   loadCalculatorGuideContent,
+  generateCalculatorMetadata,
 } from "@/lib/calculator-page-runtime";
 
 export const dynamic = "force-dynamic";
-import TattooTipCalculatorClient from "./tattoo-tip-calculator-client";
 
-export const metadata: Metadata = {
-  title: "Tattoo Tip Calculator | Calculate Artist Tip Online",
-  description:
-    "Use our tattoo tip calculator to instantly calculate the perfect tip for your tattoo artist. Enter cost, choose %, and get fast accurate results online.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/tattoo-tip-calculator/",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("tattoo-tip-calculator");
+}
+
+import TattooTipCalculatorClient from "./tattoo-tip-calculator-client";
 
 export default async function TattooTipCalculatorPage() {
   const headersList = await headers();

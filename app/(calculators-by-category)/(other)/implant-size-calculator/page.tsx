@@ -4,49 +4,14 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
-import { Metadata } from "next";
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import BreastImplantSizeCalculatorClient from "./breast-client";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const baseUrl = "https://www.thesmartcalculator.com";
-  const canonicalUrl = `${baseUrl}/implant-size-calculator`;
+export const dynamic = "force-dynamic";
 
-  return {
-    title: "Breast Implant Size Calculator – Find Your Perfect Fit",
-    description: "Use our Breast Implant Size Calculator to find the ideal implant volume and cup size for a natural, proportional look. Calculate cc to cup size conversions instantly.",
-    keywords: "breast implant calculator, breast implant size calculator, breast implant cc calculator, implant size chart, breast augmentation calculator, breast implant cup size calculator",
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': canonicalUrl,
-        'en': canonicalUrl,
-      }
-    },
-    openGraph: {
-      title: "Breast Implant Size Calculator – Find Your Perfect Fit",
-      description: "Use our Breast Implant Size Calculator to find the ideal implant volume and cup size for a natural, proportional look.",
-      url: canonicalUrl,
-      type: "website",
-      images: [
-        {
-          url: `${baseUrl}/og-image.png`,
-          width: 1200,
-          height: 630,
-          alt: "Breast Implant Size Calculator",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Breast Implant Size Calculator – Find Your Perfect Fit",
-      description: "Calculate the ideal breast implant size for your body and desired cup size.",
-    },
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("implant-size-calculator");
 }
 
 export default async function BreastImplantSizeCalculatorPage() {

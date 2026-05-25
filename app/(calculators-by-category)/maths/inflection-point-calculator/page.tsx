@@ -1,15 +1,16 @@
-import InflectionPointCalculatorClient from "./inflection-point-calculator-client";
+import InflectionPointCalculatorClient from "./inflection-point-calculator-client"
+import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
 
+export const dynamic = "force-dynamic";
 
 export default async function InflectionPointCalculator() {
-  let content = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/inflection-point-calculator/en.json`)).default;
-  } catch {
-    content = null;
-  }
-
-
-  return <InflectionPointCalculatorClient content={content} guideContent={null} />;
+  const headersList = await headers();
+  const language = headersList.get("x-language") || "en";
+  const content = await loadCalculatorUiContent("inflection-point-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("inflection-point-calculator", language);
+  return <InflectionPointCalculatorClient content={content} guideContent={guideContent} />;
 }

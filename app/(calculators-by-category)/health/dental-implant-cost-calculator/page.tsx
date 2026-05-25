@@ -1,56 +1,13 @@
 import type { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
 import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import DentalImplantCostCalculatorClient from "./dental-implant-cost-calculator-client";
 import Image from "next/image";
 
-const dentalImplantCostCalculatorMeta = {
-  en: {
-    title: "Dental Implant Cost Calculator & Price Guide",
-    description: "Use our dental implant cost calculator to estimate per tooth, 6 teeth, 7 implants, or full mouth dental implant costs fast.",
-    keywords: "dental implant cost calculator, dental implant calculator, dental implant cost estimator, average cost of a dental implant per tooth, how much is dental implant, full mouth dental implants cost, dental implant cost 6 teeth, how much would 7 dental implants cost, ClearChoice dental implants cost, tooth implant cost estimate, dental implant price, implant cost breakdown, All-on-4 cost, dental implant surgery cost"
-  }
-};
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const meta = dentalImplantCostCalculatorMeta.en;
-  const canonicalUrl = getCanonicalUrl('dental-implant-cost-calculator', 'en');
-
-  return {
-    title: {
-      absolute: meta.title,
-    },
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': canonicalUrl,
-        'en': canonicalUrl,
-      }
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    },
-  };
+  return generateCalculatorMetadata("dental-implant-cost-calculator");
 }
 
 export default function DentalImplantCostCalculator() {

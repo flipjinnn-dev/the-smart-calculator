@@ -1,12 +1,11 @@
 import CountryWheelClient from './country-client'
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata: Metadata = {
-  title: "Country Wheel – Spin & Pick a Random Country Instantly",
-  description: "Spin the Country Wheel to pick a random country instantly. Use this fun tool for games, travel ideas, geography learning, and challenges online.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/games/country-wheel"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("country-wheel");
 }
 
 export default function CountryWheelPage() {

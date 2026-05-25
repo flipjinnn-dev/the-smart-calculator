@@ -1,11 +1,11 @@
 import SourdoughClient from "./sourdough-client"
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata = {
-  title: "Sourdough Calculator: Complete Guide to Hydration, Ratios & Loaves",
-  description: "Free sourdough calculator for perfect bread. Calculate hydration percentages, baker's ratios, and scale recipes. Get exact measurements for flour, water, starter & salt.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/food/sourdough-calculator"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("sourdough-calculator");
 }
 
 export default function SourdoughCalculatorPage() {

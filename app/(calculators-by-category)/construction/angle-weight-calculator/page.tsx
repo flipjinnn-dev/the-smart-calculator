@@ -1,13 +1,16 @@
-import AngleWeightCalculatorClient from "./angle-weight-calculator-client";
+import AngleWeightCalculatorClient from "./angle-weight-calculator-client"
+import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 
 export default async function AngleWeightCalculator() {
-  let content = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/angle-weight-calculator/en.json`)).default;
-  } catch {
-    content = null;
-  }
-
-  return <AngleWeightCalculatorClient content={content} guideContent={null} />;
+  const headersList = await headers();
+  const language = headersList.get("x-language") || "en";
+  const content = await loadCalculatorUiContent("angle-weight-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("angle-weight-calculator", language);
+  return <AngleWeightCalculatorClient content={content} guideContent={guideContent} />;
 }

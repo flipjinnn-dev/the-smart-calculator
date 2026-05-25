@@ -1,55 +1,12 @@
 import type { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
 import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import AcresPerHourCalculatorClient from "./acres-per-hour-calculator-client";
 
-const acresPerHourCalculatorMeta = {
-  en: {
-    title: "Acres Per Hour Calculator",
-    description: "Calculate acres per hour for mowing, planting, spraying, or harvesting with efficiency and overlap adjustments. Plan farm work accurately and fast.",
-    keywords: "acres per hour calculator, acre per hour calculator, mowing acres per hour, planting calculator, spraying calculator, tillage calculator, bush hog calculator, farm equipment calculator, acres covered per hour, field efficiency calculator, acres per hour mowing, acres per hour planting, combine harvesting calculator, bush hogging calculator"
-  }
-};
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const meta = acresPerHourCalculatorMeta.en;
-  const canonicalUrl = getCanonicalUrl('acres-per-hour-calculator', 'en');
-
-  return {
-    title: {
-      absolute: meta.title,
-    },
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': canonicalUrl,
-        'en': canonicalUrl,
-      }
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    },
-  };
+  return generateCalculatorMetadata("acres-per-hour-calculator");
 }
 
 export default function AcresPerHourCalculator() {

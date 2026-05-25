@@ -1,17 +1,14 @@
+import EmpiricalRuleCalculatorClient from "./empirical-rule-calculator-client"
 import { headers } from "next/headers";
-import EmpiricalRuleCalculatorClient from "./empirical-rule-calculator-client";
+import {
+  loadCalculatorUiContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 
 export default async function EmpiricalRuleCalculator() {
   const headersList = await headers();
-  const language = headersList.get('x-language') || 'en';
-  
-  let content = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/empirical-rule-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/empirical-rule-calculator/en.json`)).default;
-  }
-
+  const language = headersList.get("x-language") || "en";
+  const content = await loadCalculatorUiContent("empirical-rule-calculator", language);
   return <EmpiricalRuleCalculatorClient content={content} />;
 }

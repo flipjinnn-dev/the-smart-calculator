@@ -1,12 +1,11 @@
 import CartoonCharacterWheelClient from './cartoon-client'
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata: Metadata = {
-  title: "Cartoon Character Wheel – Random Character Picker & Spinner",
-  description: "Spin the Cartoon Character Wheel to pick random cartoon characters instantly. Free cartoon character wheel generator for drawing, games & fun. No signup needed!",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/games/cartoon-character-wheel"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("cartoon-character-wheel");
 }
 
 export default function CartoonCharacterWheelPage() {

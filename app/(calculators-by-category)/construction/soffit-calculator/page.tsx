@@ -1,11 +1,11 @@
 import SoffitClient from "./soffit-client"
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata = {
-  title: "Soffit Calculator | Area, Vent & Cost Estimate",
-  description: "Use our soffit calculator to estimate soffit area, vents, fascia, panels & cost. Free tool for soffit replacement and roofing projects 2026.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/construction/soffit-calculator"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("soffit-calculator");
 }
 
 export default function SoffitCalculatorPage() {

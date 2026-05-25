@@ -1,12 +1,11 @@
 import CandyWheelClient from './candy-client'
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata: Metadata = {
-  title: "Candy Wheel – Spin & Pick Candy Instantly Online",
-  description: "Spin the candy wheel to instantly pick a random candy. A fun, fair and interactive spinner for parties, classrooms and online games.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/games/candy-wheel"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("candy-wheel");
 }
 
 export default function CandyWheelPage() {

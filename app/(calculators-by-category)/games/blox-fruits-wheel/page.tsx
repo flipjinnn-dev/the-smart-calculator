@@ -1,11 +1,11 @@
 import BloxFruitsClient from "./blox-fruits-client"
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata = {
-  title: "Blox Fruits Wheel Spin – Random Fruit, Sword & Race",
-  description: "Spin the Blox Fruits Wheel to get random fruits, swords, guns, races, and fighting styles. Fast, free, and perfect for fun challenges.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/games/blox-fruits-wheel"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("blox-fruits-wheel");
 }
 
 export default function BloxFruitsWheelPage() {

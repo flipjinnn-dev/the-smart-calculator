@@ -3,19 +3,16 @@ import { headers } from "next/headers";
 import {
   loadCalculatorUiContent,
   loadCalculatorGuideContent,
+  generateCalculatorMetadata,
 } from "@/lib/calculator-page-runtime";
 
 export const dynamic = "force-dynamic";
-import PoolVolumeCalculatorClient from "./pool-volume-calculator-client";
 
-export const metadata: Metadata = {
-  title: "Pool Volume Calculator | Calculate Gallons & Litres",
-  description:
-    "Calculate pool volume in gallons, litres, and m³ instantly. Use our pool volume calculator for rectangular, round, oval, and kidney pools.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/pool-volume-calculator",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("pool-volume-calculator");
+}
+
+import PoolVolumeCalculatorClient from "./pool-volume-calculator-client";
 
 export default async function PoolVolumeCalculatorPage() {
   const headersList = await headers();

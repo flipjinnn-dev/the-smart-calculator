@@ -4,61 +4,14 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
-import { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import BankStatementConverterClient from "./bank-statement-converter-client";
 
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata(): Promise<Metadata> {
-  const headersList = await headers();
-  const language = headersList.get('x-language') || 'en';
-  
-  const canonicalUrl = getCanonicalUrl('bank-statement-converter', language);
-  const baseUrl = 'https://www.thesmartcalculator.com';
-  
-  return {
-    title: {
-      absolute: 'Bank Statement Converter – Convert PDF/Excel to CSV Instantly',
-    },
-    description: 'Easily convert your bank statements from PDF, Excel, or text into clean, structured CSV format. Free, secure, and runs directly in your browser.',
-    keywords: 'bank statement converter, PDF to CSV, bank statement to CSV, convert bank statement, bank statement parser, financial data converter, transaction converter, statement to excel, bank data extraction',
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': getCanonicalUrl('bank-statement-converter', 'en'),
-        'en': getCanonicalUrl('bank-statement-converter', 'en'),
-      }
-    },
-    openGraph: {
-      title: 'Bank Statement Converter – Convert PDF/Excel to CSV Instantly',
-      description: 'Easily convert your bank statements from PDF, Excel, or text into clean, structured CSV format. Free, secure, and runs directly in your browser.',
-      url: canonicalUrl,
-      siteName: 'Smart Calculator',
-      type: 'website',
-      images: [
-        {
-          url: `${baseUrl}/logo.png`,
-          width: 1200,
-          height: 630,
-          alt: 'Bank Statement Converter - Convert PDF to CSV',
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Bank Statement Converter - Convert PDF to CSV Online Free',
-      description: 'Transform any bank statement into clean CSV format. Upload PDF, Excel, or paste text. Supports all banks worldwide.',
-      images: [`${baseUrl}/logo.png`],
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-      },
-    },
-  };
+  return generateCalculatorMetadata("bank-statement-converter");
 }
 
 export default async function BankStatementConverterPage() {

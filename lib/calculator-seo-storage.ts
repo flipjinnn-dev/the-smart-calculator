@@ -14,8 +14,26 @@ export function isLocalDev(): boolean {
   return !process.env.VERCEL;
 }
 
+/** Vercel may expose the token under a store-specific env name. */
+export function getBlobReadWriteToken(): string | undefined {
+  const direct = process.env.BLOB_READ_WRITE_TOKEN?.trim();
+  if (direct) return direct;
+
+  for (const [key, value] of Object.entries(process.env)) {
+    if (
+      key.includes("BLOB") &&
+      key.includes("READ_WRITE") &&
+      typeof value === "string" &&
+      value.trim()
+    ) {
+      return value.trim();
+    }
+  }
+  return undefined;
+}
+
 export function blobStorageEnabled(): boolean {
-  return Boolean(process.env.BLOB_READ_WRITE_TOKEN?.trim());
+  return Boolean(getBlobReadWriteToken());
 }
 
 function seoFilePath(storageId: string, language: string): string {
@@ -43,29 +61,59 @@ export function getLiveSaveSetupMessage(): string {
 }
 
 async function readBlobJson(pathname: string): Promise<string | null> {
-  if (!blobStorageEnabled()) return null;
-  const { head } = await import("@vercel/blob");
+  const token = getBlobReadWriteToken();
+  if (!token) return null;
+
+  const { head, list } = await import("@vercel/blob");
+
   try {
-    const meta = await head(pathname, {
-      token: process.env.BLOB_READ_WRITE_TOKEN,
+    const meta = await head(pathname, { token });
+    const res = await fetch(meta.url, {
+      cache: "no-store",
+      next: { revalidate: 0 },
     });
-    const res = await fetch(meta.url, { cache: "no-store" });
-    if (!res.ok) return null;
-    return res.text();
+    if (res.ok) return res.text();
   } catch {
-    return null;
+    // try list fallback
   }
+
+  try {
+    const prefix = pathname.includes("/")
+      ? `${pathname.slice(0, pathname.lastIndexOf("/") + 1)}`
+      : "";
+    const { blobs } = await list({ prefix, token });
+    const match = blobs.find((b) => b.pathname === pathname);
+    if (match?.url) {
+      const res = await fetch(match.url, {
+        cache: "no-store",
+        next: { revalidate: 0 },
+      });
+      if (res.ok) return res.text();
+    }
+  } catch {
+    // ignore
+  }
+
+  return null;
 }
 
 async function writeBlobJson(pathname: string, body: string): Promise<void> {
+  const token = getBlobReadWriteToken();
+  if (!token) throw new Error(getLiveSaveSetupMessage());
+
   const { put } = await import("@vercel/blob");
   await put(pathname, body, {
     access: "public",
     addRandomSuffix: false,
     contentType: "application/json",
-    token: process.env.BLOB_READ_WRITE_TOKEN,
+    token,
     allowOverwrite: true,
   });
+}
+
+/** On Vercel with Blob, bundled repo JSON is stale after admin saves — skip it. */
+function shouldReadFilesystemFallback(): boolean {
+  return isLocalDev() || !blobStorageEnabled();
 }
 
 export async function readCalculatorSeoFile(
@@ -80,6 +128,8 @@ export async function readCalculatorSeoFile(
       // fall through
     }
   }
+
+  if (!shouldReadFilesystemFallback()) return null;
 
   try {
     const raw = await readFile(seoFilePath(storageId, language), "utf-8");
@@ -118,7 +168,8 @@ export async function writeCalculatorUiFile(
   pageTitle: string,
   pageDescription: string
 ): Promise<void> {
-  let ui: Record<string, unknown>;
+  let ui: Record<string, unknown> | null = null;
+
   const blobUi = await readBlobJson(uiBlobPath(storageId, language));
   if (blobUi) {
     try {
@@ -126,7 +177,7 @@ export async function writeCalculatorUiFile(
     } catch {
       return;
     }
-  } else {
+  } else if (shouldReadFilesystemFallback()) {
     try {
       const raw = await readFile(uiFilePath(storageId, language), "utf-8");
       ui = JSON.parse(raw) as Record<string, unknown>;
@@ -134,6 +185,8 @@ export async function writeCalculatorUiFile(
       return;
     }
   }
+
+  if (!ui) return;
 
   if ("pageTitle" in ui) {
     ui.pageTitle = pageTitle;
@@ -168,6 +221,8 @@ export async function readCalculatorUiFile(
     }
   }
 
+  if (!shouldReadFilesystemFallback()) return null;
+
   try {
     const raw = await readFile(uiFilePath(storageId, language), "utf-8");
     return JSON.parse(raw) as Record<string, unknown>;
@@ -188,12 +243,13 @@ export async function listSavedSeoStorageIds(): Promise<Set<string>> {
     // ignore
   }
 
-  if (blobStorageEnabled()) {
+  const token = getBlobReadWriteToken();
+  if (token) {
     try {
       const { list } = await import("@vercel/blob");
       const { blobs } = await list({
         prefix: `${BLOB_SEO_PREFIX}/`,
-        token: process.env.BLOB_READ_WRITE_TOKEN,
+        token,
       });
       for (const blob of blobs) {
         const match = blob.pathname.match(

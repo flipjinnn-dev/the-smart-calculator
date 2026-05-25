@@ -8,39 +8,13 @@
   import CalculatorGuide from "@/components/calculator-guide";
   import SimilarCalculators from "@/components/similar-calculators";
 
-  export const metadata: Metadata = {
-    title: "End of Service Calculator UAE, KSA & Qatar",
-    description: "Calculate end of service benefits in UAE, KSA & Qatar. Accurate gratuity calculator based on salary, contract type and labor law.",
-    keywords: "end of service calculator, gratuity calculator UAE, end of service benefits calculator, end of service calculator KSA, end of service calculator Dubai, end of service calculator Abu Dhabi, end of service gratuity calculator, end of service benefits calculator UAE, end of service benefits calculator KSA, end of service calculator Qatar",
-    alternates: {
-      canonical: "https://www.thesmartcalculator.com/end-of-service-calculator",
-      languages: {
-        'x-default': "https://www.thesmartcalculator.com/end-of-service-calculator",
-        'en': "https://www.thesmartcalculator.com/end-of-service-calculator",
-      }
-    },
-    openGraph: {
-      title: "End of Service Calculator UAE, KSA & Qatar",
-      description: "Calculate end of service benefits in UAE, KSA & Qatar. Accurate gratuity calculator based on salary, contract type and labor law.",
-      type: "website",
-      url: "https://www.thesmartcalculator.com/end-of-service-calculator",
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: "End of Service Calculator UAE, KSA & Qatar",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "End of Service Calculator UAE, KSA & Qatar",
-      description: "Calculate end of service benefits in UAE, KSA & Qatar. Accurate gratuity calculator based on salary, contract type and labor law.",
-      images: ["/og-image.png"],
-    },
-  };
+  import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+
+  export const dynamic = "force-dynamic";
+
+  export async function generateMetadata(): Promise<Metadata> {
+    return generateCalculatorMetadata("end-of-service-calculator");
+  }
 
   export default function EndOfServiceCalculatorPage() {
     return (

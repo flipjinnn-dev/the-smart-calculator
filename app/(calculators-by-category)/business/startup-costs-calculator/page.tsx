@@ -1,24 +1,16 @@
-import { headers } from "next/headers"
 import StartupCostsCalculatorClient from "./startup-costs-calculator-client"
+import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 
 export default async function StartupCostsCalculatorPage() {
-  const headersList = await headers()
-  const language = headersList.get('x-language') || 'en'
-  
-  let content = null
-  let guideContent = null
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/startup-costs-calculator/${language}.json`)).default
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/startup-costs-calculator/en.json`)).default
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/startup-costs-calculator/${language}.json`)).default
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/startup-costs-calculator/en.json`)).default
-  }
-
-  return <StartupCostsCalculatorClient uiContent={content} guideData={guideContent} />
+  const headersList = await headers();
+  const language = headersList.get("x-language") || "en";
+  const content = await loadCalculatorUiContent("startup-costs-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("startup-costs-calculator", language);
+  return <StartupCostsCalculatorClient content={content} guideContent={guideContent} />;
 }

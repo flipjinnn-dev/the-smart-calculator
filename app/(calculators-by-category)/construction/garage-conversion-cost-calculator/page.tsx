@@ -1,11 +1,11 @@
 import GarageClient from "./garage-client"
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata = {
-  title: "Garage Conversion Cost Calculator UK | Instant Estimates 2026",
-  description: "Calculate your garage conversion cost in seconds. Get accurate UK estimates for single/double garage conversions. Includes regional pricing, spec levels, and detailed breakdowns.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/construction/garage-conversion-cost-calculator"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("garage-conversion-cost-calculator");
 }
 
 export default function GarageConversionCostCalculatorPage() {

@@ -1,17 +1,14 @@
+import MortgageCalculatorClient from "./mortgage-calculator-client"
 import { headers } from "next/headers";
-import MortgageCalculatorClient from "./mortgage-calculator-client";
+import {
+  loadCalculatorUiContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 
 export default async function MortgageCalculatorPage() {
   const headersList = await headers();
-  const language = headersList.get('x-language') || 'en';
-
-  let content = null;
-
-  try {
-    content = (await import(`@/app/content/calculator-ui/mortgage-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/mortgage-calculator/en.json`)).default;
-  }
-
+  const language = headersList.get("x-language") || "en";
+  const content = await loadCalculatorUiContent("mortgage-calculator", language);
   return <MortgageCalculatorClient content={content} />;
 }

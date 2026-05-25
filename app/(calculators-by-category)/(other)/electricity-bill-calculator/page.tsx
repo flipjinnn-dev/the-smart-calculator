@@ -3,19 +3,16 @@ import { headers } from "next/headers";
 import {
   loadCalculatorUiContent,
   loadCalculatorGuideContent,
+  generateCalculatorMetadata,
 } from "@/lib/calculator-page-runtime";
 
 export const dynamic = "force-dynamic";
-import ElectricityBillCalculatorClient from "./electricity-bill-calculator-client";
 
-export const metadata: Metadata = {
-  title: "Electricity Bill Calculator | Calculate Cost by kWh",
-  description:
-    "Calculate your electricity bill instantly using kWh, wattage, and usage hours. Free electricity cost calculator for home and business use.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/electricity-bill-calculator",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("electricity-bill-calculator");
+}
+
+import ElectricityBillCalculatorClient from "./electricity-bill-calculator-client";
 
 export default async function ElectricityBillCalculatorPage() {
   const headersList = await headers();

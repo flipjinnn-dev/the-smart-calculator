@@ -1,24 +1,16 @@
-import { headers } from "next/headers"
 import BreakEvenCalculatorClient from "./break-even-calculator-client"
+import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 
 export default async function BreakEvenCalculatorPage() {
-  const headersList = await headers()
-  const language = headersList.get('x-language') || 'en'
-  
-  let content = null
-  let guideContent = null
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/break-even-calculator/${language}.json`)).default
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/break-even-calculator/en.json`)).default
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/break-even-calculator/${language}.json`)).default
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/break-even-calculator/en.json`)).default
-  }
-
-  return <BreakEvenCalculatorClient uiContent={content} guideData={guideContent} />
+  const headersList = await headers();
+  const language = headersList.get("x-language") || "en";
+  const content = await loadCalculatorUiContent("break-even-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("break-even-calculator", language);
+  return <BreakEvenCalculatorClient content={content} guideContent={guideContent} />;
 }

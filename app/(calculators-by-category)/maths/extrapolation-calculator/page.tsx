@@ -1,11 +1,11 @@
 import ExtrapolationClient from "./extrapolation-client"
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata = {
-  title: "Extrapolation Calculator | Predict Future Values Online",
-  description: "Use our extrapolation calculator to predict future values from data points using linear and exponential methods. Fast, accurate online forecasting tool.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/maths/extrapolation-calculator"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("extrapolation-calculator");
 }
 
 export default function ExtrapolationCalculatorPage() {

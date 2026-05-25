@@ -1,11 +1,11 @@
 import FixFlipClient from "./fix-flip-client"
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata = {
-  title: "Fix and Flip Calculator | ARV & ROI Tool",
-  description: "Use this fix and flip calculator to estimate profit, ROI, ARV, rehab, financing, holding and selling costs for accurate real estate deal analysis.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/financial/fix-and-flip-calculator"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("fix-and-flip-calculator");
 }
 
 export default function FixAndFlipCalculatorPage() {

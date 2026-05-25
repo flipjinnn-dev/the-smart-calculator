@@ -8,6 +8,7 @@ import type { CalculatorGuideData } from "@/components/calculator-guide";
 import {
   getCalculatorStorageId,
   loadCalculatorSeo,
+  loadOrBuildCalculatorSeo,
   buildMetadataFromSeo,
 } from "@/lib/calculator-seo";
 import { readCalculatorUiFile } from "@/lib/calculator-seo-storage";
@@ -29,7 +30,8 @@ export async function generateCalculatorMetadata(
   const path = pathname.startsWith("/") ? pathname : `/${pathname}`;
 
   if (language === "en") {
-    const seo = await loadCalculatorSeo(calculatorId, "en");
+    const saved = await loadCalculatorSeo(calculatorId, "en");
+    const seo = saved ?? (await loadOrBuildCalculatorSeo(calculatorId, "en"));
     if (seo?.metaTitle?.trim()) {
       const base = buildMetadataFromSeo(calculatorId, language, seo);
       const canonicalUrl =
@@ -91,6 +93,25 @@ export async function generateCalculatorMetadata(
   };
 }
 
+function applySeoHeroToUi(
+  ui: Record<string, unknown>,
+  seo: { pageTitle?: string; pageDescription?: string }
+): Record<string, unknown> {
+  const pageTitle = seo.pageTitle?.trim();
+  const pageDescription = seo.pageDescription?.trim();
+  if (!pageTitle && !pageDescription) return ui;
+
+  const next = { ...ui };
+  if ("pageTitle" in next || pageTitle) {
+    if (pageTitle) next.pageTitle = pageTitle;
+    if (pageDescription) next.pageDescription = pageDescription;
+  } else {
+    if (pageTitle) next.title = pageTitle;
+    if (pageDescription) next.description = pageDescription;
+  }
+  return next;
+}
+
 export async function loadCalculatorUiContent(
   calculatorId: string,
   language: string
@@ -98,24 +119,35 @@ export async function loadCalculatorUiContent(
   noStore();
   const storageId = getCalculatorStorageId(calculatorId);
 
-  const fromRuntime = await readCalculatorUiFile(storageId, language);
-  if (fromRuntime) return fromRuntime;
+  let ui: Record<string, unknown> | null =
+    await readCalculatorUiFile(storageId, language);
 
-  try {
-    return (
-      await import(
-        `@/app/content/calculator-ui/${storageId}/${language}.json`
-      )
-    ).default as Record<string, unknown>;
-  } catch {
+  if (!ui) {
     try {
-      return (
-        await import(`@/app/content/calculator-ui/${storageId}/en.json`)
+      ui = (
+        await import(
+          `@/app/content/calculator-ui/${storageId}/${language}.json`
+        )
       ).default as Record<string, unknown>;
     } catch {
-      return {};
+      try {
+        ui = (
+          await import(`@/app/content/calculator-ui/${storageId}/en.json`)
+        ).default as Record<string, unknown>;
+      } catch {
+        ui = {};
+      }
     }
   }
+
+  if (language === "en") {
+    const seo = await loadCalculatorSeo(calculatorId, "en");
+    if (seo) {
+      ui = applySeoHeroToUi(ui, seo);
+    }
+  }
+
+  return ui;
 }
 
 export async function loadCalculatorGuideContent(

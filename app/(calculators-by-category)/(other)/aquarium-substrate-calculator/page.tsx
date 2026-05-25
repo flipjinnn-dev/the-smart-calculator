@@ -1,11 +1,11 @@
 import AquariumClient from "./aquarium-client"
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata = {
-  title: "Aquarium Substrate Calculator: How Much Gravel, Sand, or Soil Do You Need?",
-  description: "Use this aquarium substrate calculator to instantly determine the exact volume and weight of substrate your aquarium requires. Free aquarium gravel calculator, sand calculator, and planted tank substrate calculator for all tank sizes.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/aquarium-substrate-calculator"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("aquarium-substrate-calculator");
 }
 
 export default function AquariumSubstrateCalculatorPage() {

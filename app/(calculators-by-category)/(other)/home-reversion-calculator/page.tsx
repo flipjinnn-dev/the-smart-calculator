@@ -1,11 +1,11 @@
 import HomeReversionClient from "./home-reversion-client"
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-export const metadata = {
-  title: "Home Reversion Calculator — Estimate Your Equity Release Payout Instantly",
-  description: "Use our free home reversion calculator to estimate your equity release payout. Calculate how much cash you can release from your property based on age, property value, and share sold.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/home-reversion-calculator"
-  }
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata("home-reversion-calculator");
 }
 
 export default function HomeReversionCalculatorPage() {

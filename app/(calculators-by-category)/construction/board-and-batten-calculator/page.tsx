@@ -1,13 +1,14 @@
-import BoardAndBattenCalculatorClient from "./board-and-batten-calculator-client";
+import BoardAndBattenCalculatorClient from "./board-and-batten-calculator-client"
+import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 
 export default async function BoardAndBattenCalculator() {
-  let content = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/board-and-batten-calculator/en.json`)).default;
-  } catch {
-    content = null;
-  }
-
+  const headersList = await headers();
+  const language = headersList.get("x-language") || "en";
+  const content = await loadCalculatorUiContent("board-and-batten-calculator", language);
   return <BoardAndBattenCalculatorClient content={content} />;
 }
