@@ -25,9 +25,9 @@ function blobPathname(storageId: string, language: string): string {
 
 export function getProductionSaveErrorMessage(): string {
   return (
-    "Cannot save on production without Vercel Blob storage. " +
-    "In Vercel: Project → Storage → Create Blob store → connect to this project → redeploy. " +
-    "(Locally, saves write to app/content/calculator-seo/.)"
+    "Cannot save on production without Vercel Blob. " +
+    "Vercel → Storage → Create Blob → connect to this project → redeploy. " +
+    "Or save locally (npm run dev), commit app/content/calculator-seo/, and deploy."
   );
 }
 
@@ -62,7 +62,7 @@ async function readFromBlob(
   }
 }
 
-/** Blob overrides win over committed repo files (production admin saves). */
+/** Production overrides: Blob, then committed repo files. */
 export async function readCalculatorSeoFile(
   storageId: string,
   language: string
@@ -92,7 +92,7 @@ async function writeToBlob(
   data: CalculatorSeoData
 ): Promise<void> {
   if (!blobStorageEnabled()) {
-    throw new Error(getProductionSaveErrorMessage());
+    throw new Error("Blob token missing");
   }
 
   const { put } = await import("@vercel/blob");
@@ -149,25 +149,9 @@ export async function listSavedSeoStorageIds(): Promise<Set<string>> {
         if (match?.[1]) ids.add(match[1]);
       }
     } catch {
-      // ignore list errors
+      // ignore
     }
   }
 
   return ids;
-}
-
-export async function hasBlobOverride(
-  storageId: string,
-  language: string
-): Promise<boolean> {
-  if (!blobStorageEnabled()) return false;
-  const { head } = await import("@vercel/blob");
-  try {
-    await head(blobPathname(storageId, language), {
-      token: process.env.BLOB_READ_WRITE_TOKEN,
-    });
-    return true;
-  } catch {
-    return false;
-  }
 }

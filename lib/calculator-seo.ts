@@ -188,12 +188,12 @@ export async function saveCalculatorSeo(
   calculatorId: string,
   language: string,
   data: CalculatorSeoData
-): Promise<void> {
+): Promise<"filesystem" | "blob"> {
   if (!isAdminCalculatorId(calculatorId)) {
     throw new Error("Unknown calculator");
   }
   const storageId = getCalculatorStorageId(calculatorId);
-  await writeCalculatorSeoFile(storageId, language, data);
+  return writeCalculatorSeoFile(storageId, language, data);
 }
 
 /** Sync on-page hero fields into calculator-ui JSON (English). */

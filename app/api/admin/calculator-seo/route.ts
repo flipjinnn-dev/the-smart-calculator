@@ -92,7 +92,7 @@ export async function POST(request: Request) {
       schema,
     };
 
-    await saveCalculatorSeo(calculatorId, language, data);
+    const storage = await saveCalculatorSeo(calculatorId, language, data);
     await syncCalculatorUiFromSeo(
       calculatorId,
       data.pageTitle,
@@ -104,24 +104,18 @@ export async function POST(request: Request) {
       data.canonical
     );
 
-    const storage =
-      process.env.VERCEL && process.env.BLOB_READ_WRITE_TOKEN
-        ? "vercel-blob"
-        : process.env.VERCEL
-          ? "vercel-blob-required"
-          : "filesystem";
-
     return NextResponse.json({ ok: true, revalidatedPaths, storage });
   } catch (e) {
     console.error("calculator-seo save error:", e);
     const message = e instanceof Error ? e.message : "Save failed";
     const needsBlob =
-      message.includes("Vercel Blob") || message.includes("ENOENT");
+      message.includes("Vercel Blob") ||
+      message.includes("ENOENT") ||
+      message.includes("Blob");
     return NextResponse.json(
       {
         error: needsBlob
-          ? message +
-            " Add a Blob store in Vercel (Storage → Blob) and redeploy."
+          ? `${message} Connect Vercel Blob (Storage → Blob) or save locally and deploy via git.`
           : message,
       },
       { status: needsBlob ? 503 : 500 }

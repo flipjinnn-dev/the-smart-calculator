@@ -66,10 +66,10 @@ export function CalculatorSeoForm({
         ? (json.revalidatedPaths as string[]).join(", ")
         : publicPath;
       const storageNote =
-        json.storage === "vercel-blob"
-          ? " Stored on Vercel Blob (production)."
+        json.storage === "blob"
+          ? " Stored on Vercel Blob."
           : json.storage === "filesystem"
-            ? " Saved to app/content/calculator-seo/ (local)."
+            ? " Saved to app/content/calculator-seo/ (commit & deploy for live)."
             : "";
       setMessage(
         `Saved. Page cache cleared${paths ? ` (${paths})` : ""}.${storageNote}`
