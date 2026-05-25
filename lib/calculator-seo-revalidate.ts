@@ -1,8 +1,7 @@
 import "server-only";
 import { revalidatePath } from "next/cache";
-import { getCalculatorById } from "@/lib/calculator-data";
 import { getCalculatorUrl } from "@/lib/url-utils";
-import { loadCalculatorSeo } from "@/lib/calculator-seo";
+import { getCalculatorById, loadCalculatorSeo } from "@/lib/calculator-seo";
 
 function toPathname(urlOrPath: string): string | null {
   const s = urlOrPath.trim();
