@@ -65,14 +65,10 @@ export function CalculatorSeoForm({
       const paths = Array.isArray(json.revalidatedPaths)
         ? (json.revalidatedPaths as string[]).join(", ")
         : publicPath;
-      const storageNote =
-        json.storage === "blob"
-          ? " Stored on Vercel Blob."
-          : json.storage === "filesystem"
-            ? " Saved to app/content/calculator-seo/ (commit & deploy for live)."
-            : "";
       setMessage(
-        `Saved. Page cache cleared${paths ? ` (${paths})` : ""}.${storageNote}`
+        `Saved to JSON files (app/content/calculator-seo/ + calculator-ui/).` +
+          (paths ? ` Cache cleared (${paths}).` : "") +
+          ` Commit & deploy for live site.`
       );
       router.refresh();
     } catch (err) {

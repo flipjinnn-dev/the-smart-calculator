@@ -12,7 +12,6 @@ import {
   readCalculatorSeoFile,
   writeCalculatorSeoFile,
   listSavedSeoStorageIds,
-  filesystemWritesEnabled,
 } from "@/lib/calculator-seo-storage";
 
 export type { CalculatorSeoData, CalculatorSeoListItem } from "@/lib/calculator-seo-types";
@@ -188,12 +187,12 @@ export async function saveCalculatorSeo(
   calculatorId: string,
   language: string,
   data: CalculatorSeoData
-): Promise<"filesystem" | "blob"> {
+): Promise<void> {
   if (!isAdminCalculatorId(calculatorId)) {
     throw new Error("Unknown calculator");
   }
   const storageId = getCalculatorStorageId(calculatorId);
-  return writeCalculatorSeoFile(storageId, language, data);
+  await writeCalculatorSeoFile(storageId, language, data);
 }
 
 /** Sync on-page hero fields into calculator-ui JSON (English). */
@@ -220,14 +219,10 @@ export async function syncCalculatorUiFromSeo(
     ui.description = pageDescription;
   }
 
-  if (!filesystemWritesEnabled()) {
-    return;
-  }
-
   try {
     await writeFile(uiPath, `${JSON.stringify(ui, null, 2)}\n`, "utf-8");
-  } catch {
-    // read-only filesystem (e.g. Vercel); SEO blob still holds page hero fields
+  } catch (e) {
+    console.error("syncCalculatorUiFromSeo:", e);
   }
 }
 

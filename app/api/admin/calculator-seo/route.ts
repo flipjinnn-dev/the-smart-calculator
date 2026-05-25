@@ -92,7 +92,7 @@ export async function POST(request: Request) {
       schema,
     };
 
-    const storage = await saveCalculatorSeo(calculatorId, language, data);
+    await saveCalculatorSeo(calculatorId, language, data);
     await syncCalculatorUiFromSeo(
       calculatorId,
       data.pageTitle,
@@ -104,21 +104,12 @@ export async function POST(request: Request) {
       data.canonical
     );
 
-    return NextResponse.json({ ok: true, revalidatedPaths, storage });
+    return NextResponse.json({ ok: true, revalidatedPaths, storage: "filesystem" });
   } catch (e) {
     console.error("calculator-seo save error:", e);
     const message = e instanceof Error ? e.message : "Save failed";
-    const needsBlob =
-      message.includes("Vercel Blob") ||
-      message.includes("ENOENT") ||
-      message.includes("Blob");
-    return NextResponse.json(
-      {
-        error: needsBlob
-          ? `${message} Connect Vercel Blob (Storage → Blob) or save locally and deploy via git.`
-          : message,
-      },
-      { status: needsBlob ? 503 : 500 }
-    );
+    const readOnly =
+      message.includes("read-only") || message.includes("localhost");
+    return NextResponse.json({ error: message }, { status: readOnly ? 503 : 500 });
   }
 }
