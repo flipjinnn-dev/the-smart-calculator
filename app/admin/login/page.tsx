@@ -8,7 +8,7 @@ export const metadata = {
   robots: { index: false, follow: false },
 };
 
-type PageProps = {
+type PageProps = { 
   searchParams: Promise<{ from?: string }>;
 };
 
