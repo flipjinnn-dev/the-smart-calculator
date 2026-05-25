@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 import { isDashboardAdminAuthenticated } from "@/lib/admin-dashboard-auth-server";
 import { AdminLoginForm } from "@/components/admin/admin-login-form";
 
-export const metadata = {
+export const metadata = { 
   title: "Admin Login",
   robots: { index: false, follow: false },
 };
