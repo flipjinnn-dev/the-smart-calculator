@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import GallonsPerSquareFootCalculatorClient from "./gallons-per-square-foot-calculator-client";
 
 export default async function GallonsPerSquareFootCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/gallons-per-square-foot-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/gallons-per-square-foot-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/gallons-per-square-foot-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/gallons-per-square-foot-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("gallons-per-square-foot", language);
+  const guideContent = await loadCalculatorGuideContent("gallons-per-square-foot", language);
 
   return <GallonsPerSquareFootCalculatorClient content={content} guideContent={guideContent} />;
 }

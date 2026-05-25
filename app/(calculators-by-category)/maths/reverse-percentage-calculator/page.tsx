@@ -1,4 +1,10 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import { Metadata } from "next";
 import ReversePercentageCalculatorClient from "./reverse-percentage-calculator-client";
 
@@ -47,20 +53,8 @@ export default async function ReversePercentageCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/reverse-percentage-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/reverse-percentage-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/reverse-percentage-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/reverse-percentage-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("reverse-percentage-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("reverse-percentage-calculator", language);
 
   return <ReversePercentageCalculatorClient content={content} guideContent={guideContent} />;
 }

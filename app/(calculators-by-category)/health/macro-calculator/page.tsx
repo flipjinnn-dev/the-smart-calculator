@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import MacroCalculatorClient from "./macro-calculator-client";
 
 export default async function MacroCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/macro-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/macro-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/macro-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/macro-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("macro-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("macro-calculator", language);
 
   return <MacroCalculatorClient content={content} guideContent={guideContent} />;
 }

@@ -1,32 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
 import FourOhOneKCalculatorClient from "./401k-calculator-client";
+
+export const dynamic = "force-dynamic";
 
 export default async function FourOhOneKCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/401k-calculator/${language}.json`)).default;
-  } catch {
-    try {
-      content = (await import(`@/app/content/calculator-ui/401k-calculator/en.json`)).default;
-    } catch {
-      content = {};
-    }
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/401k-calculator/${language}.json`)).default;
-  } catch {
-    try {
-      guideContent = (await import(`@/app/content/calculator-guide/401k-calculator/en.json`)).default;
-    } catch {
-      guideContent = { color: 'blue', sections: [], faq: [] };
-    }
-  }
+  const content = await loadCalculatorUiContent("401k-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("401k-calculator", language);
 
   return <FourOhOneKCalculatorClient content={content} guideContent={guideContent} />;
 }

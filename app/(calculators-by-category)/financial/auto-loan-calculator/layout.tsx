@@ -1,95 +1,35 @@
-import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import { loadCalculatorSeo } from "@/lib/calculator-seo";
 
-// Multilingual SEO metadata for auto-loan-calculator
-const autoloancalculatorMeta = {
-  en: {
-    title: "Auto Loan Calculator",
-    description: "Calculate car loan payments, interest, and totals using our Auto Loan Calculator before buying a vehicle.",
-    keywords: "auto loan calculator, car payments, total cost, financing tool, online auto, budget calculator, free loan tool, vehicle estimate"
-  },
-  br: {
-    title: "Simulador de financiamento de veículos",
-    description: "Use o simulador de financiamento de veículos online grátis para calcular parcelas e juros. Planeje sua compra e simule seu financiamento rapidamente!",
-    keywords: "Simulador de financiamento de veículos, parcelas carro, custo total, ferramenta financiamento, online auto, orçamento calculadora, gratuita tool"
-  },
-  pl: {
-    title: "Kalkulator Kredytu Samochodowego",
-    description: "Kalkulator Kredytu Samochodowego – oblicz ratę, odsetki i całkowity koszt auta. Sprawdź ofertę i zaplanuj zakup już dziś!",
-    keywords: "kalkulator kredytu samochodowego, obliczyć raty, odsetki koszt, narzędzie finansowe, online kredyt, proste szybkie, darmowy tool"
-  },
-  de: {
-    title: "Autokreditrechner",
-    description: "Mit dem Autokreditrechner berechnest du schnell deine monatliche Rate, Laufzeit und Zinskosten ideal für den Autokauf oder Kreditvergleich.",
-    keywords: "autokreditrechner, finanzierung berechnen, monatliche rate, gesamt kosten, laufzeit tool, fahrzeug online, hilft rechner"
-  }
-,
-  es: {
-    title: "Calculadora de Préstamos de Auto",
-    description: "Calculadora de Préstamos de Auto calcula cuota, intereses y coste total del coche al instante. Compara opciones y solicita hoy mismo.",
-    keywords: "Calculadora de Préstamos de Auto, préstamos, auto, calcula, pago, fácil, préstamo, instante, conoce, pagos, mensuales, ahorra, tiempo, planifica, compra"
-  }
-};
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "auto-loan-calculator";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const language =
-    langHeader && autoloancalculatorMeta[langHeader as keyof typeof autoloancalculatorMeta]
-      ? langHeader
-      : "en";
-
-  const meta = autoloancalculatorMeta[language as keyof typeof autoloancalculatorMeta];
-  
-  // Generate correct canonical URL using localized slug
-  const canonicalUrl = getCanonicalUrl('auto-loan-calculator', language);
-
-  return {
-    title: {
-      absolute: meta.title,
-    },
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': getCanonicalUrl('auto-loan-calculator', 'en'),
-        'en': getCanonicalUrl('auto-loan-calculator', 'en'),
-        'es': getCanonicalUrl('auto-loan-calculator', 'es'),
-        'pt-BR': getCanonicalUrl('auto-loan-calculator', 'br'),
-        'pl': getCanonicalUrl('auto-loan-calculator', 'pl'),
-        'de': getCanonicalUrl('auto-loan-calculator', 'de'),
-      }
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    },
-  };
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default async function AutoLoanCalculatorLayout({
+export default async function CalculatorLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
+  const jsonLdSchema = seo?.schema ?? null;
+
+  return (
+    <>
+      {jsonLdSchema ? (
+        <Script
+          id={`${CALCULATOR_ID}-json-ld`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+          strategy="afterInteractive"
+        />
+      ) : null}
+      {children}
+    </>
+  );
 }

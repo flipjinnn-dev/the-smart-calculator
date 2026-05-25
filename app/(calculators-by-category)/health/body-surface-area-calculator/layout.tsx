@@ -1,165 +1,35 @@
-import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
 import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import { loadCalculatorSeo } from "@/lib/calculator-seo";
 
-// Multilingual SEO metadata for body-surface-area-calculator
-const bodysurfaceareacalculatorMeta = {
-  en: {
-    title: "Body Surface Area Calculator",
-    description: "Estimate BSA accurately with our Body Surface Area Calculator for health and treatment planning.",
-    keywords: "body surface area calculator, bsa tool, methods calculation, online bsa, medical dosing, health assessment, free surface calculator, area estimate"
-  },
-  br: {
-    title: "Calculadora de Superfície Corporal",
-    description: "Use a calculadora de superfície corporal para calcular a área corporal. Planeje sua saúde e treinos e simule sua superfície agora mesmo!",
-    keywords: "calculadora área superficial, bsa tool, métodos cálculo, online bsa, dosagem médica, avaliação saúde, gratuita calculadora"
-  },
-  pl: {
-    title: "Kalkulator Powierzchni Ciała – Oblicz Online | TheSmartCalculator",
-    description: "Użyj kalkulatora powierzchni ciała online, aby obliczyć powierzchnię skóry i wskaźniki zdrowotne. Proste, szybkie i darmowe narzędzie dla każdego do medycznych celów.",
-    keywords: "kalkulator powierzchni ciała, obliczyć powierzchnia, skóry wskaźniki, narzędzie zdrowotne, online powierzchnia, szybkie darmowe, medyczne tool"
-  },
-  de: {
-    title: "Körperoberfläche Rechner – BSA Berechnen Online | TheSmartCalculator",
-    description: "Berechne mit dem Körperoberfläche Rechner (BSA) deine Körperfläche schnell & genau. Ideal für Medizin, Gesundheit und Dosierungsberechnung mit Methoden!",
-    keywords: "körperoberfläche rechner, bsa berechnen, medizin gesundheit, dosierung tool, online körper, schnell genau, kostenloser rechner"
-  }
-,
-  es: {
-    title: "Calculadora de Superficie Corporal – Calcula Fácil y Rápido",
-    description: "Calcula la superficie corporal al instante con nuestra herramienta precisa. ¡Optimiza evaluaciones médicas y controla tu salud ahora mismo!",
-    keywords: "calculadora, superficie, corporal, calcula, fácil, rápido, instante, nuestra, herramienta, precisa, optimiza, evaluaciones, médicas, controla, salud"
-  }
-};
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "body-surface-area-calculator";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const language =
-    langHeader && bodysurfaceareacalculatorMeta[langHeader as keyof typeof bodysurfaceareacalculatorMeta]
-      ? langHeader
-      : "en";
-
-  const meta = bodysurfaceareacalculatorMeta[language as keyof typeof bodysurfaceareacalculatorMeta];
-
-  // Generate correct canonical URL using localized slug
-  const canonicalUrl = getCanonicalUrl('body-surface-area-calculator', language);
-
-  return {
-    title: {
-      absolute: meta.title,
-    },
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': getCanonicalUrl('body-surface-area-calculator', 'en'),
-        'en': getCanonicalUrl('body-surface-area-calculator', 'en'),
-        'es': getCanonicalUrl('body-surface-area-calculator', 'es'),
-        'pt-BR': getCanonicalUrl('body-surface-area-calculator', 'br'),
-        'pl': getCanonicalUrl('body-surface-area-calculator', 'pl'),
-        'de': getCanonicalUrl('body-surface-area-calculator', 'de'),
-      }
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    },
-  };
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default async function BodySurfaceAreaCalculatorLayout({
+export default async function CalculatorLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const jsonLdSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "@id": "https://www.thesmartcalculator.com/health/body-surface-area-calculator",
-    "url": "https://www.thesmartcalculator.com/health/body-surface-area-calculator",
-    "name": "Body Surface Area (BSA) Calculator",
-    "description": "Free Body Surface Area (BSA) Calculator online. Estimate body surface area using Du Bois, Mosteller, Haycock, Boyd, Fujimoto, Gehan & George, and Takahira formulas. Useful for chemotherapy dosing, burn assessment, and clinical applications.",
-    "mainEntity": {
-      "@type": "SoftwareApplication",
-      "name": "Body Surface Area Calculator",
-      "applicationCategory": "HealthApplication",
-      "operatingSystem": "Any",
-      "url": "https://www.thesmartcalculator.com/health/body-surface-area-calculator",
-      "featureList": [
-        "Du Bois Formula",
-        "Mosteller Formula",
-        "Haycock Formula",
-        "Boyd Formula",
-        "Fujimoto Formula",
-        "Gehan & George Formula",
-        "Takahira Formula"
-      ],
-      "about": {
-        "@type": "MedicalEntity",
-        "name": "Body Surface Area (BSA)",
-        "description": "Body Surface Area (BSA) is the measured or calculated surface area of a human body. It is commonly used in medicine to determine drug dosages and medical indicators such as cardiac index and burn assessments."
-      }
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.thesmartcalculator.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Health",
-          "item": "https://www.thesmartcalculator.com/health/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Body Surface Area Calculator",
-          "item": "https://www.thesmartcalculator.com/health/body-surface-area-calculator"
-        }
-      ]
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "The Smart Calculator",
-      "url": "https://www.thesmartcalculator.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.thesmartcalculator.com/logo.png"
-      }
-    }
-  }
-  return <>
-    {children}
-    <Script
-      id="body-surface-area-calculator-jsonld"
-      type="application/ld+json"
-      strategy="afterInteractive"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
-    />
-  </>;
+  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
+  const jsonLdSchema = seo?.schema ?? null;
+
+  return (
+    <>
+      {jsonLdSchema ? (
+        <Script
+          id={`${CALCULATOR_ID}-json-ld`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+          strategy="afterInteractive"
+        />
+      ) : null}
+      {children}
+    </>
+  );
 }

@@ -1,199 +1,35 @@
-import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
 import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import { loadCalculatorSeo } from "@/lib/calculator-seo";
 
-// Multilingual SEO metadata for random-number-generator
-const randomnumbergeneratorMeta = {
-  en: {
-    title: "Random Number Generator Generate Random Numbers",
-    description: "Generate random numbers instantly using our Random Number Generator for math, gaming, and tasks.",
-    keywords: "random number generator, random range, number generator, online random, game tool, simulation random, free random tool, range number"
-  },
-  br: {
-    title: "Gerador de Números Aleatórios ",
-    description: "Use o gerador de números aleatórios para criar números únicos e imprevisíveis. Experimente agora e gere seus números aleatórios facilmente!",
-    keywords: "generator números aleatórios, intervalo aleatório, generator número, online aleatório, ferramenta jogo, simulação aleatório, gratuita ferramenta aleatório, número intervalo"
-  },
-  pl: {
-    title: "Generator Liczb Losowych – Zakres Online | TheSmartCalculator",
-    description: "Użyj generatora liczb losowych online, aby generować losowe liczby w określonym zakresie. Dokładne, darmowe narzędzie do gier, symulacji i testów.",
-    keywords: "generator liczb losowych, zakres losowy, generator liczby, online losowy, narzędzie gra, symulacja losowa, darmowe narzędzie losowe, liczba zakres"
-  },
-  de: {
-    title: "Zufallszahlengenerator – Bereich Online | TheSmartCalculator",
-    description: "Erzeuge mit dem Zufallszahlengenerator Zufallszahlen innerhalb eines angegebenen Bereichs. Präzises, kostenloses Tool für Spiele, Simulationen und Tests.",
-    keywords: "zufallszahlengenerator, zufallsbereich, zahl generator, online zufall, spiel tool, simulation zufall, kostenloser zufall tool, bereich zahl"
-  }
-,
-  es: {
-    title: "Generador de Números Aleatorios – Rápido y Online",
-    description: "Genera números aleatorios al instante con nuestro generador online. Ideal para estadísticas, sorteos y simulaciones. ¡Haz clic y obtén números ahora!",
-    keywords: "generador, números, aleatorios, rápido, online, genera, instante, nuestro, ideal, estadísticas, sorteos, simulaciones, clic, obtén, ahora"
-  }
-};
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "random-number-generator";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const language =
-    langHeader && randomnumbergeneratorMeta[langHeader as keyof typeof randomnumbergeneratorMeta]
-      ? langHeader
-      : "en";
-
-  const meta = randomnumbergeneratorMeta[language as keyof typeof randomnumbergeneratorMeta];
-
-  // Generate correct canonical URL using localized slug
-  const canonicalUrl = getCanonicalUrl('random-number-generator', language);
-
-  return {
-    title: {
-      absolute: meta.title,
-    },
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': getCanonicalUrl('random-number-generator', 'en'),
-        'en': getCanonicalUrl('random-number-generator', 'en'),
-        'es': getCanonicalUrl('random-number-generator', 'es'),
-        'pt-BR': getCanonicalUrl('random-number-generator', 'br'),
-        'pl': getCanonicalUrl('random-number-generator', 'pl'),
-        'de': getCanonicalUrl('random-number-generator', 'de'),
-      }
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    },
-  };
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default async function RandomNumberGeneratorLayout({
+export default async function CalculatorLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const jsonLdSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Random Number Generator",
-    "url": "https://www.thesmartcalculator.com/maths/random-number-generator",
-    "description": "Free online Random Number Generator to instantly generate numbers between any custom range. Ideal for math, statistics, coding, gaming, and everyday use.",
-    "mainEntity": [
-      {
-        "@type": "SoftwareApplication",
-        "name": "Random Number Generator",
-        "applicationCategory": "MathCalculator",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "featureList": [
-          "Instant number generation",
-          "Custom range selection",
-          "Multiple number output",
-          "Uniform random algorithm",
-          "Mobile-friendly interface"
-        ],
-        "url": "https://www.thesmartcalculator.com/maths/random-number-generator"
-      },
-      {
-        "@type": "HowTo",
-        "name": "Random Number Generator",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Random Number Generator",
-            "text": "Input the lowest number in your desired range."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Random Number Generator",
-            "text": "Add the highest number in your selected range."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Random Number Generator",
-            "text": "Choose how many random numbers you want to generate."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 4,
-            "name": "Random Number Generator",
-            "text": "Press the generate button to instantly get random numbers."
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is a Random Number Generator?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A Random Number Generator is an online tool that produces unpredictable numbers within a custom range."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is the Random Number Generator free?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, the tool is completely free to use on all devices."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I generate multiple numbers?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, you can choose the quantity and generate multiple numbers instantly."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is the output truly random?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The tool uses a pseudo-random algorithm suitable for math tasks, coding, and everyday use."
-            }
-          }
-        ]
-      }
-    ]
-  }
-  return <>
-    {children}
-    <Script
-      id="random-number-generator-json-ld"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
-      strategy="afterInteractive"
-    />
-  </>;
+  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
+  const jsonLdSchema = seo?.schema ?? null;
+
+  return (
+    <>
+      {jsonLdSchema ? (
+        <Script
+          id={`${CALCULATOR_ID}-json-ld`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+          strategy="afterInteractive"
+        />
+      ) : null}
+      {children}
+    </>
+  );
 }

@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import AutoLoanCalculatorClient from "./auto-loan-calculator-client";
 
 export default async function AutoLoanCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/auto-loan-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/auto-loan-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/auto-loan-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/auto-loan-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("auto-loan-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("auto-loan-calculator", language);
 
   return <AutoLoanCalculatorClient content={content} guideContent={guideContent} />;
 }

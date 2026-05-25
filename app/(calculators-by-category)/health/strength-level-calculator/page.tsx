@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import StrengthLevelCalculatorClient from "./strength-level-calculator-client";
 
 export const metadata: Metadata = {
@@ -15,28 +21,8 @@ export default async function StrengthLevelCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
 
-  let content = null;
-  let guideContent = null;
-
-  try {
-    content = (
-      await import(`@/app/content/calculator-ui/strength-level-calculator/${language}.json`)
-    ).default;
-  } catch {
-    content = (
-      await import(`@/app/content/calculator-ui/strength-level-calculator/en.json`)
-    ).default;
-  }
-
-  try {
-    guideContent = (
-      await import(`@/app/content/calculator-guide/strength-level-calculator/${language}.json`)
-    ).default;
-  } catch {
-    guideContent = (
-      await import(`@/app/content/calculator-guide/strength-level-calculator/en.json`)
-    ).default;
-  }
+  const content = await loadCalculatorUiContent("strength-level-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("strength-level-calculator", language);
 
   return (
     <StrengthLevelCalculatorClient content={content} guideContent={guideContent} />

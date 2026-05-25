@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import HealthyWeightCalculatorClient from "./healthy-weight-calculator-client";
 
 export default async function HealthyWeightCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/healthy-weight-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/healthy-weight-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/healthy-weight-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/healthy-weight-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("healthy-weight-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("healthy-weight-calculator", language);
 
   return <HealthyWeightCalculatorClient content={content} guideContent={guideContent} />;
 }

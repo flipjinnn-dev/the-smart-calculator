@@ -1,95 +1,35 @@
-import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import { loadCalculatorSeo } from "@/lib/calculator-seo";
 
-// Multilingual SEO metadata for savings-calculator
-const savingscalculatorMeta = {
-  en: {
-    title: "Savings Calculator Future Savings Growth",
-    description: "Estimate future savings growth with deposits and interest using our Savings Calculator to reach financial goals.",
-    keywords: "savings calculator, growth time, contributions tool, online savings, financial planning, goals calculator, free savings tool, growth estimate"
-  },
-  br: {
-    title: "Calculadora de Poupança",
-    description: "Use a calculadora de imposto sobre vendas para calcular taxas e valores rapidamente. Planeje seus pagamentos e simule agora mesmo!",
-    keywords: "calculadora poupança, crescimento tempo, ferramenta contribuições, online poupança, planejamento financeiro, calculadora metas, gratuita ferramenta poupança, estimativa crescimento"
-  },
-  pl: {
-    title: "Kalkulator Oszczędności – Oblicz Swoje Oszczędności Online",
-    description: "Użyj kalkulatora oszczędności online, aby obliczyć zyski, odsetki i plan oszczędzania. Proste, dokładne i darmowe narzędzie finansowe.",
-    keywords: "kalkulator oszczędności, wzrost czas, narzędzie wpłat, online oszczędności, planowanie finansowe, kalkulator celów, darmowe narzędzie oszczędności, estymacja wzrostu"
-  },
-  de: {
-    title: "Sparrechner – Ihr Tool für regelmäßiges Sparen",
-    description: "Mit dem Sparrechner berechnen Sie Ihre monatliche Sparrate, Laufzeit und das Endkapital – sparen Sie effektiv und erreichen Sie Ihre Ziele mit dem Sparrechner.",
-    keywords: "sparrechner, wachstum zeit, beiträge tool, online sparen, finanzplanung, ziele rechner, kostenloser spar tool, wachstum schätzung"
-  }
-,
-  es: {
-    title: "Calculadora de Ahorro – Optimiza tu Ahorro y Calcula Interés Compuesto",
-    description: "Utiliza nuestra calculadora de ahorro para gestionar tu cuenta de ahorros, calcular el interés compuesto y planificar tus finanzas de manera eficiente y sencilla.",
-    keywords: "calculadora, ahorro, optimiza, calcula, interés, compuesto, utiliza, nuestra, gestionar, cuenta, ahorros, calcular, planificar, finanzas, manera"
-  }
-};
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "savings-calculator";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const language =
-    langHeader && savingscalculatorMeta[langHeader as keyof typeof savingscalculatorMeta]
-      ? langHeader
-      : "en";
-
-  const meta = savingscalculatorMeta[language as keyof typeof savingscalculatorMeta];
-  
-  // Generate correct canonical URL using localized slug
-  const canonicalUrl = getCanonicalUrl('savings-calculator', language);
-
-  return {
-    title: {
-      absolute: meta.title,
-    },
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': getCanonicalUrl('savings-calculator', 'en'),
-        'en': getCanonicalUrl('savings-calculator', 'en'),
-        'es': getCanonicalUrl('savings-calculator', 'es'),
-        'pt-BR': getCanonicalUrl('savings-calculator', 'br'),
-        'pl': getCanonicalUrl('savings-calculator', 'pl'),
-        'de': getCanonicalUrl('savings-calculator', 'de'),
-      }
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    },
-  };
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default async function SavingsCalculatorLayout({
+export default async function CalculatorLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
+  const jsonLdSchema = seo?.schema ?? null;
+
+  return (
+    <>
+      {jsonLdSchema ? (
+        <Script
+          id={`${CALCULATOR_ID}-json-ld`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+          strategy="afterInteractive"
+        />
+      ) : null}
+      {children}
+    </>
+  );
 }

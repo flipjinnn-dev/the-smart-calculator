@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import CreditCardCalculatorClient from "./credit-card-calculator-client";
 
 export default async function CreditCardCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/credit-card-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/credit-card-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/credit-card-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/credit-card-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("credit-card-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("credit-card-calculator", language);
 
   return <CreditCardCalculatorClient content={content} guideContent={guideContent} />;
 }

@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import PiecewiseFunctionCalculatorGrapherClient from "./piecewise-function-calculator-grapher-client";
 
 export default async function PiecewiseFunctionCalculatorGrapherCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/piecewise-function-calculator-grapher/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/piecewise-function-calculator-grapher/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/piecewise-function-calculator-grapher/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/piecewise-function-calculator-grapher/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("piecewise-function-calculator-grapher", language);
+  const guideContent = await loadCalculatorGuideContent("piecewise-function-calculator-grapher", language);
 
   return <PiecewiseFunctionCalculatorGrapherClient content={content} guideContent={guideContent} />;
 }

@@ -49,7 +49,7 @@ async function readBlobJson(pathname: string): Promise<string | null> {
     const meta = await head(pathname, {
       token: process.env.BLOB_READ_WRITE_TOKEN,
     });
-    const res = await fetch(meta.url);
+    const res = await fetch(meta.url, { cache: "no-store" });
     if (!res.ok) return null;
     return res.text();
   } catch {
@@ -152,6 +152,27 @@ export async function writeCalculatorUiFile(
 
   if (blobStorageEnabled()) {
     await writeBlobJson(uiBlobPath(storageId, language), json);
+  }
+}
+
+export async function readCalculatorUiFile(
+  storageId: string,
+  language: string
+): Promise<Record<string, unknown> | null> {
+  const blobRaw = await readBlobJson(uiBlobPath(storageId, language));
+  if (blobRaw) {
+    try {
+      return JSON.parse(blobRaw) as Record<string, unknown>;
+    } catch {
+      // fall through
+    }
+  }
+
+  try {
+    const raw = await readFile(uiFilePath(storageId, language), "utf-8");
+    return JSON.parse(raw) as Record<string, unknown>;
+  } catch {
+    return null;
   }
 }
 

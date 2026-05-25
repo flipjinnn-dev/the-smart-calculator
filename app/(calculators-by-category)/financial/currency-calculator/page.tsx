@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import CurrencyCalculatorClient from "./currency-calculator-client";
 
 export default async function CurrencyCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/currency-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/currency-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/currency-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/currency-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("currency-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("currency-calculator", language);
 
   return <CurrencyCalculatorClient content={content} guideContent={guideContent} />;
 }

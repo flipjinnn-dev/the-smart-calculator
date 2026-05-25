@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import RelativeExtremaCalculatorClient from "./relative-extrema-calculator-client";
 
 export default async function RelativeExtremaCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/relative-extrema-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/relative-extrema-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/relative-extrema-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/relative-extrema-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("relative-extrema-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("relative-extrema-calculator", language);
 
   return <RelativeExtremaCalculatorClient content={content} guideContent={guideContent} />;
 }

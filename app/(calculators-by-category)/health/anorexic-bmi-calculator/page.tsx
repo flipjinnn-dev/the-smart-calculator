@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import AnorexicBmiCalculatorClient from "./anorexic-bmi-calculator-client";
 
 export default async function AnorexicBmiCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/anorexic-bmi-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/anorexic-bmi-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/anorexic-bmi-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/anorexic-bmi-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("anorexic-bmi-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("anorexic-bmi-calculator", language);
 
   return <AnorexicBmiCalculatorClient content={content} guideContent={guideContent} />;
 }

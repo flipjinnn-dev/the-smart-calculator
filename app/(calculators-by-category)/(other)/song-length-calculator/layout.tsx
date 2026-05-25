@@ -1,49 +1,35 @@
-import { headers } from "next/headers"
-import type { Metadata } from "next"
+import type { Metadata } from "next";
+import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import { loadCalculatorSeo } from "@/lib/calculator-seo";
+
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "song-length-calculator";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const canonicalUrl = "https://www.thesmartcalculator.com/song-length-calculator"
-
-  return {
-    title: {
-      absolute: "Song Length Calculator - Calculate Song Duration Instantly",
-    },
-    description: "Free song length calculator to calculate total duration of songs, playlists, and tracks. Add multiple songs, convert time formats, and estimate song length using BPM.",
-    keywords: "song length calculator, song duration calculator, playlist length calculator, song time calculator, bpm to song length calculator, average song length calculator, song playlist time calculator, music duration calculator, track length calculator, song length adder, calculate playlist time, song time duration calculator, how long is a song, playlist duration calculator",
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: "Song Length Calculator - Calculate Song Duration Instantly",
-      description: "Free song length calculator to calculate total duration of songs, playlists, and tracks. Add multiple songs, convert time formats, and estimate song length using BPM.",
-      url: canonicalUrl,
-      siteName: "The Smart Calculator",
-      locale: "en_US",
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Song Length Calculator - Calculate Song Duration Instantly",
-      description: "Free song length calculator to calculate total duration of songs, playlists, and tracks. Add multiple songs, convert time formats, and estimate song length using BPM.",
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-      },
-    },
-  }
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default function SongLengthCalculatorLayout({
+export default async function CalculatorLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  return children
+  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
+  const jsonLdSchema = seo?.schema ?? null;
+
+  return (
+    <>
+      {jsonLdSchema ? (
+        <Script
+          id={`${CALCULATOR_ID}-json-ld`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+          strategy="afterInteractive"
+        />
+      ) : null}
+      {children}
+    </>
+  );
 }

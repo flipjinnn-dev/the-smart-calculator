@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import CalorieCalculatorClient from "./calorie-calculator-client";
 
 export default async function CalorieCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/calorie-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/calorie-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/calorie-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/calorie-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("calorie-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("calorie-calculator", language);
 
   return <CalorieCalculatorClient content={content} guideContent={guideContent} />;
 }

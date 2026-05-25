@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import TattooTipCalculatorClient from "./tattoo-tip-calculator-client";
 
 export const metadata: Metadata = {
@@ -15,28 +21,8 @@ export default async function TattooTipCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
 
-  let content = null;
-  let guideContent = null;
-
-  try {
-    content = (
-      await import(`@/app/content/calculator-ui/tattoo-tip-calculator/${language}.json`)
-    ).default;
-  } catch {
-    content = (
-      await import(`@/app/content/calculator-ui/tattoo-tip-calculator/en.json`)
-    ).default;
-  }
-
-  try {
-    guideContent = (
-      await import(`@/app/content/calculator-guide/tattoo-tip-calculator/${language}.json`)
-    ).default;
-  } catch {
-    guideContent = (
-      await import(`@/app/content/calculator-guide/tattoo-tip-calculator/en.json`)
-    ).default;
-  }
+  const content = await loadCalculatorUiContent("tattoo-tip-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("tattoo-tip-calculator", language);
 
   return (
     <TattooTipCalculatorClient content={content} guideContent={guideContent} />

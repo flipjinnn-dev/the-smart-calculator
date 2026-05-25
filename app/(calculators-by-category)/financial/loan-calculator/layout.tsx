@@ -1,95 +1,35 @@
-import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import { loadCalculatorSeo } from "@/lib/calculator-seo";
 
-// Multilingual SEO metadata for loan-calculator
-const loancalculatorMeta = {
-  en: {
-    title: "Loan Calculator",
-    description: "Estimate monthly loan payments and total interest easily using our Loan Calculator for smart borrowing.",
-    keywords: "loan calculator, payments rates, payoff schedules, online loan, planning tool, budgeting calculator, free loan tool, interest calculation"
-  },
-  br: {
-    title: "Simulador de Empréstimo Grátis",
-    description: "Use o simulador de empréstimo para calcular parcelas, juros e prazos rapidamente. Planeje seu crédito e simule seu empréstimo agora mesmo!",
-    keywords: "calculadora empréstimo, taxas parcelas, cronogramas quitação, online empréstimo, ferramenta planejamento, calculadora orçamento, gratuita ferramenta empréstimo, cálculo juros"
-  },
-  pl: {
-    title: "Kalkulator Kredytowy – Oblicz Ratę Kredytu Online",
-    description: "Użyj kalkulatora kredytowego online, aby obliczyć raty, odsetki i całkowity koszt kredytu. Proste, dokładne i darmowe narzędzie finansowe.",
-    keywords: "kalkulator kredytowy, raty odsetki, harmonogramy spłaty, online kredyt, narzędzie planowania, kalkulator budżetu, darmowe narzędzie kredyt, obliczenia odsetek"
-  },
-  de: {
-    title: "Kreditrechner – Ihre Online-Kreditberechnung | TheSmartCalculator",
-    description: "Mit dem Kreditrechner berechnen Sie Zinsen, Laufzeit und Monatsrate für Darlehen. Nutzen Sie den Kreditrechner für transparente Kreditentscheidungen online.",
-    keywords: "kreditrechner, raten zinsen, tilgungspläne, online kredit, planungstool, budgetrechner, kostenloser kredit tool, zinsberechnung"
-  }
-,
-  es: {
-    title: "Calculadora de Préstamos – Calcula tu Crédito y Amortización",
-    description: "Utiliza nuestra calculadora de préstamos para planificar tu crédito, calcular la amortización y gestionar tus finanzas de manera rápida y eficiente.",
-    keywords: "calculadora, préstamos, calcula, crédito, amortización, utiliza, nuestra, planificar, calcular, gestionar, finanzas, manera, rápida, eficiente"
-  }
-};
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "loan-calculator";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const language =
-    langHeader && loancalculatorMeta[langHeader as keyof typeof loancalculatorMeta]
-      ? langHeader
-      : "en";
-
-  const meta = loancalculatorMeta[language as keyof typeof loancalculatorMeta];
-  
-  // Generate correct canonical URL using localized slug
-  const canonicalUrl = getCanonicalUrl('loan-calculator', language);
-
-  return {
-    title: {
-      absolute: meta.title,
-    },
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': getCanonicalUrl('loan-calculator', 'en'),
-        'en': getCanonicalUrl('loan-calculator', 'en'),
-        'es': getCanonicalUrl('loan-calculator', 'es'),
-        'pt-BR': getCanonicalUrl('loan-calculator', 'br'),
-        'pl': getCanonicalUrl('loan-calculator', 'pl'),
-        'de': getCanonicalUrl('loan-calculator', 'de'),
-      }
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    },
-  };
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default async function LoanCalculatorLayout({
+export default async function CalculatorLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
+  const jsonLdSchema = seo?.schema ?? null;
+
+  return (
+    <>
+      {jsonLdSchema ? (
+        <Script
+          id={`${CALCULATOR_ID}-json-ld`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+          strategy="afterInteractive"
+        />
+      ) : null}
+      {children}
+    </>
+  );
 }

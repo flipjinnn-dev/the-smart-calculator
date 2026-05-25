@@ -1,40 +1,20 @@
-import type { Metadata } from "next";
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
 import RoofingCalculatorClient from "./roofing-calculator-client";
 
-export const metadata: Metadata = {
-  title: "Roofing Calculator | Roof Area & Cost Estimate",
-  description:
-    "Estimate roof area, pitch, materials, and cost instantly with our roofing calculator. Get accurate roof squares, waste %, and replacement estimate.",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/construction/roofing-calculator",
-  },
-};
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "roofing-calculator";
 
 export default async function RoofingCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
 
-  let content = null;
-  let guideContent = null;
-
-  try {
-    content = (
-      await import(`@/app/content/calculator-ui/roofing-calculator/${language}.json`)
-    ).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/roofing-calculator/en.json`)).default;
-  }
-
-  try {
-    guideContent = (
-      await import(`@/app/content/calculator-guide/roofing-calculator/${language}.json`)
-    ).default;
-  } catch {
-    guideContent = (
-      await import(`@/app/content/calculator-guide/roofing-calculator/en.json`)
-    ).default;
-  }
+  const content = await loadCalculatorUiContent(CALCULATOR_ID, language);
+  const guideContent = await loadCalculatorGuideContent(CALCULATOR_ID, language);
 
   return <RoofingCalculatorClient content={content} guideContent={guideContent} />;
 }

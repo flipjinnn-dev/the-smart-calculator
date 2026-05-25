@@ -1,143 +1,35 @@
-import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
 import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import { loadCalculatorSeo } from "@/lib/calculator-seo";
 
-// Multilingual SEO metadata for anorexic-bmi-calculator
-const anorexicbmicalculatorMeta = {
-  en: {
-    title: "Anorexic BMI Calculator",
-    description: "Monitor BMI safely using our Anorexic BMI Calculator for awareness and nutrition planning.",
-    keywords: "anorexic bmi calculator, bmi for anorexia, health tool, online bmi, medical assessment, low weight calculator, free anorexic tool, index calculation"
-  },
-  br: {
-    title: "Calculadora de IMC",
-    description: "Use a calculadora de IMC para calcular seu índice de massa corporal com precisão. Planeje sua saúde e simule seu IMC agora mesmo!",
-    keywords: "calculadora imc anoréxico, imc anorexia, ferramenta saúde, online imc, avaliação médica, baixa peso calculadora, gratuita tool"
-  },
-  pl: {
-    title: "Kalkulator BMI Anoreksja – Oblicz Online | TheSmartCalculator",
-    description: "Użyj kalkulatora BMI anoreksja online, aby obliczyć BMI w przypadkach anoreksji. Dokładne, darmowe narzędzie do monitorowania zdrowia i oceny medycznej.",
-    keywords: "kalkulator bmi anoreksja, bmi anorexia, narzędzie zdrowie, online bmi, ocena medyczna, niska waga kalkulator, darmowy tool"
-  },
-  de: {
-    title: "Anorexie BMI Rechner – Index Berechnen Online | TheSmartCalculator",
-    description: "Berechne mit dem Anorexie BMI Rechner den BMI für Personen mit Anorexie. Präzises, kostenloses Online-Tool zur Gesundheitsüberwachung und medizinischen Bewertung.",
-    keywords: "anorexie bmi rechner, bmi anorexie, gesundheit tool, online bmi, medizinische bewertung, niedrig gewicht rechner, kostenloser tool"
-  }
-,
-  es: {
-    title: "Calculadora de IMC – Evalúa tu Peso y Salud Fácilmente",
-    description: "Calcula tu IMC al instante con nuestra herramienta precisa. ¡Monitorea tu salud y recibe orientación para mantener un peso seguro y saludable",
-    keywords: "calculadora, evalúa, peso, salud, fácilmente, calcula, instante, nuestra, herramienta, precisa, monitorea, recibe, orientación, mantener, seguro"
-  }
-};
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "anorexic-bmi-calculator";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const language =
-    langHeader && anorexicbmicalculatorMeta[langHeader as keyof typeof anorexicbmicalculatorMeta]
-      ? langHeader
-      : "en";
-
-  const meta = anorexicbmicalculatorMeta[language as keyof typeof anorexicbmicalculatorMeta];
-
-  // Generate correct canonical URL using localized slug
-  const canonicalUrl = getCanonicalUrl('anorexic-bmi-calculator', language);
-
-  return {
-    title: {
-      absolute: meta.title,
-    },
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': getCanonicalUrl('anorexic-bmi-calculator', 'en'),
-        'en': getCanonicalUrl('anorexic-bmi-calculator', 'en'),
-        'es': getCanonicalUrl('anorexic-bmi-calculator', 'es'),
-        'pt-BR': getCanonicalUrl('anorexic-bmi-calculator', 'br'),
-        'pl': getCanonicalUrl('anorexic-bmi-calculator', 'pl'),
-        'de': getCanonicalUrl('anorexic-bmi-calculator', 'de'),
-      }
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    },
-  };
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default async function AnorexicBmiCalculatorLayout({
+export default async function CalculatorLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const jsonLdSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "mainEntity": {
-      "@type": "SoftwareApplication",
-      "name": "Anorexic BMI Calculator",
-      "operatingSystem": "Web",
-      "applicationCategory": "HealthApplication",
-      "description": "Free anorexic BMI calculator that computes your Body Mass Index (BMI) and categorizes it into normal, mild, moderate, severe, or extreme anorexia based on medical thresholds. For educational purposes only.",
-      "url": "https://www.thesmartcalculator.com/health/anorexic-bmi-calculator",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
-    },
-    "name": "Anorexic BMI Calculator",
-    "url": "https://www.thesmartcalculator.com/health/anorexic-bmi-calculator",
-    "description": "Calculate your BMI and see anorexia severity levels (mild, moderate, severe, extreme). Educational tool with health warnings and FAQs.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "The Smart Calculator",
-      "url": "https://www.thesmartcalculator.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.thesmartcalculator.com/assets/logo.png"
-      }
-    },
-    "inLanguage": "en",
-    "about": {
-      "@type": "MedicalWebPage",
-      "name": "Anorexic BMI Classification",
-      "medicalSpecialty": "Nutrition",
-      "audience": {
-        "@type": "Audience",
-        "audienceType": "Adults"
-      }
-    }
-  }
-  return <>
-    {children}
-    <Script
-      id="anorexic-bmi-calculator-jsonld"
-      type="application/ld+json"
-      strategy="afterInteractive"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
-    />
-  </>;
+  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
+  const jsonLdSchema = seo?.schema ?? null;
+
+  return (
+    <>
+      {jsonLdSchema ? (
+        <Script
+          id={`${CALCULATOR_ID}-json-ld`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+          strategy="afterInteractive"
+        />
+      ) : null}
+      {children}
+    </>
+  );
 }

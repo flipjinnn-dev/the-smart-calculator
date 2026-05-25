@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
 import SepticTankSizeCalculatorClient from "./septic-tank-size-calculator-client";
 
 export const metadata: Metadata = {
@@ -16,34 +20,8 @@ export default async function SepticTankSizeCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
 
-  let content = null;
-  let guideContent = null;
-
-  try {
-    content = (
-      await import(
-        `@/app/content/calculator-ui/septic-tank-size-calculator/${language}.json`
-      )
-    ).default;
-  } catch {
-    content = (
-      await import(`@/app/content/calculator-ui/septic-tank-size-calculator/en.json`)
-    ).default;
-  }
-
-  try {
-    guideContent = (
-      await import(
-        `@/app/content/calculator-guide/septic-tank-size-calculator/${language}.json`
-      )
-    ).default;
-  } catch {
-    guideContent = (
-      await import(
-        `@/app/content/calculator-guide/septic-tank-size-calculator/en.json`
-      )
-    ).default;
-  }
+  const content = await loadCalculatorUiContent("septic-tank-size-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("septic-tank-size-calculator", language);
 
   return (
     <SepticTankSizeCalculatorClient content={content} guideContent={guideContent} />

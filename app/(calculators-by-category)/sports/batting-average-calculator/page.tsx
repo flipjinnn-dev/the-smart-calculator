@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import BattingAverageCalculatorClient from "./batting-average-calculator-client";
 
 export default async function BattingAverageCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/batting-average-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/batting-average-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/batting-average-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/batting-average-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("batting-average", language);
+  const guideContent = await loadCalculatorGuideContent("batting-average", language);
 
   return <BattingAverageCalculatorClient content={content} guideContent={guideContent} />;
 }

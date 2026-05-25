@@ -1,56 +1,28 @@
-import { Metadata } from "next";
+import { headers } from "next/headers";
+import type { Metadata } from "next";
+import {
+  generateCalculatorMetadata,
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
 import TwinFlameCalculatorClient from "./twin-flame-calculator-client";
 
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "twin-flame-calculator";
+
 export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: "Twin Flame Calculator - Free Online Tool",
-    description:
-      "Use our twin flame calculator free to check spiritual compatibility by name, date of birth, numerology, birth chart, and lunar match.",
-    alternates: {
-      canonical: "https://www.thesmartcalculator.com/twin-flame-calculator",
-      languages: {
-        'x-default': "https://www.thesmartcalculator.com/twin-flame-calculator",
-        'en': "https://www.thesmartcalculator.com/twin-flame-calculator",
-      }
-    },
-    openGraph: {
-      title: "Twin Flame Calculator - Free Online Tool",
-      description: "Use our twin flame calculator free to check spiritual compatibility by name, date of birth, numerology, birth chart, and lunar match.",
-      url: "https://www.thesmartcalculator.com/twin-flame-calculator",
-      type: "website",
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: '/og-image.png',
-          width: 1200,
-          height: 630,
-          alt: "Twin Flame Calculator - Free Online Tool",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Twin Flame Calculator - Free Online Tool",
-      description: "Use our twin flame calculator free to check spiritual compatibility by name, date of birth, numerology, birth chart, and lunar match.",
-      images: ["/og-image.png"],
-    },
-  };
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
 export default async function TwinFlameCalculatorPage() {
-  let content = null;
-  let guideContent = null;
+  const headersList = await headers();
+  const language = headersList.get("x-language") || "en";
 
-  try {
-    content = (await import(`@/app/content/calculator-ui/twin-flame-calculator/en.json`)).default;
-  } catch {
-    content = null;
-  }
+  const content = await loadCalculatorUiContent(CALCULATOR_ID, language);
+  const guideContent = await loadCalculatorGuideContent(CALCULATOR_ID, language);
 
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/twin-flame-calculator/en.json`)).default;
-  } catch {
-    guideContent = null;
-  }
-  return <TwinFlameCalculatorClient content={content} guideContent={guideContent} />;
+  return (
+    <TwinFlameCalculatorClient content={content} guideContent={guideContent} />
+  );
 }

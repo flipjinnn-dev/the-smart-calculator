@@ -10,6 +10,7 @@ import {
 } from "@/lib/calculator-data";
 import {
   readCalculatorSeoFile,
+  readCalculatorUiFile,
   writeCalculatorSeoFile,
   writeCalculatorUiFile,
   listSavedSeoStorageIds,
@@ -63,16 +64,12 @@ export async function getCalculatorSeoListItems(): Promise<CalculatorSeoListItem
 async function readUiHero(
   storageId: string
 ): Promise<{ pageTitle: string; pageDescription: string } | null> {
-  try {
-    const raw = await readFile(path.join(UI_DIR, storageId, "en.json"), "utf-8");
-    const ui = JSON.parse(raw) as Record<string, string>;
-    const pageTitle = ui.pageTitle ?? ui.title ?? "";
-    const pageDescription = ui.pageDescription ?? ui.description ?? "";
-    if (!pageTitle && !pageDescription) return null;
-    return { pageTitle, pageDescription };
-  } catch {
-    return null;
-  }
+  const ui = await readCalculatorUiFile(storageId, "en");
+  if (!ui) return null;
+  const pageTitle = String(ui.pageTitle ?? ui.title ?? "");
+  const pageDescription = String(ui.pageDescription ?? ui.description ?? "");
+  if (!pageTitle && !pageDescription) return null;
+  return { pageTitle, pageDescription };
 }
 
 function buildDefaultSchema(

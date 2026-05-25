@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import RpeCalculatorClient from "./rpe-calculator-client";
 
 export default async function RpeCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/rpe-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/rpe-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/rpe-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/rpe-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("rpe-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("rpe-calculator", language);
 
   return <RpeCalculatorClient content={content} guideContent={guideContent} />;
 }

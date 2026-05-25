@@ -1,95 +1,35 @@
-import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
+import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import { loadCalculatorSeo } from "@/lib/calculator-seo";
 
-// Multilingual SEO metadata for rent-calculator
-const rentcalculatorMeta = {
-  en: {
-    title: "Rent Calculator Monthly Rent Estimate",
-    description: "Estimate affordable monthly rent and plan your housing budget easily with our Rent Calculator.",
-    keywords: "rent calculator, monthly payments, affordability tool, online rent, housing planning, budgeting tool, free rent tool, rent estimate"
-  },
-  br: {
-    title: "Calculadora de Aluguel Grátis",
-    description: "Use a calculadora de aluguel para calcular valores e reajustes rapidamente. Planeje seus gastos e simule o aluguel agora mesmo!",
-    keywords: "calculadora aluguel, pagamentos mensais, ferramenta acessibilidade, online aluguel, planejamento habitação, ferramenta orçamento, gratuita ferramenta aluguel, estimativa aluguel"
-  },
-  pl: {
-    title: "Kalkulator Czynszu – Oblicz Wysokość Czynszu Online",
-    description: "Użyj kalkulatora czynszu online, aby obliczyć miesięczne opłaty, koszty najmu i zaliczki. Proste, dokładne i darmowe narzędzie finansowe.",
-    keywords: "kalkulator czynszu, płatności miesięczne, narzędzie dostępności, online czynsz, planowanie mieszkaniowe, narzędzie budżetowe, darmowe narzędzie czynsz, estymacja czynszu"
-  },
-  de: {
-    title: "Mietrechner – Ihre Mietkosten online berechnen",
-    description: "Mit dem Mietrechner berechnen Sie Ihre monatliche Miete, Gesamtkosten über den Mietzeitraum und Vergleichswerte. Der Mietrechner hilft bei der Wohnkosten-Planung.",
-    keywords: "mietrechner, monatszahlungen, affordabilität tool, online miete, wohnplanung, budget tool, kostenloser miete tool, miete schätzung"
-  }
-,
-  es: {
-    title: "Calculadora de Alquiler – Calcula Renta y Costos de tu Vivienda",
-    description: "Utiliza nuestra calculadora de alquiler para estimar la renta, planificar los costos de tu vivienda y gestionar tu presupuesto de manera fácil y precisa.",
-    keywords: "calculadora, alquiler, calcula, renta, costos, vivienda, utiliza, nuestra, estimar, planificar, gestionar, presupuesto, manera, fácil, precisa"
-  }
-};
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "rent-calculator";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headerList = await headers();
-  const langHeader = headerList.get('x-language');
-  const language =
-    langHeader && rentcalculatorMeta[langHeader as keyof typeof rentcalculatorMeta]
-      ? langHeader
-      : "en";
-
-  const meta = rentcalculatorMeta[language as keyof typeof rentcalculatorMeta];
-  
-  // Generate correct canonical URL using localized slug
-  const canonicalUrl = getCanonicalUrl('rent-calculator', language);
-
-  return {
-    title: {
-      absolute: meta.title,
-    },
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': getCanonicalUrl('rent-calculator', 'en'),
-        'en': getCanonicalUrl('rent-calculator', 'en'),
-        'es': getCanonicalUrl('rent-calculator', 'es'),
-        'pt-BR': getCanonicalUrl('rent-calculator', 'br'),
-        'pl': getCanonicalUrl('rent-calculator', 'pl'),
-        'de': getCanonicalUrl('rent-calculator', 'de'),
-      }
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    },
-  };
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default async function RentCalculatorLayout({
+export default async function CalculatorLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
+  const jsonLdSchema = seo?.schema ?? null;
+
+  return (
+    <>
+      {jsonLdSchema ? (
+        <Script
+          id={`${CALCULATOR_ID}-json-ld`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+          strategy="afterInteractive"
+        />
+      ) : null}
+      {children}
+    </>
+  );
 }

@@ -1,49 +1,35 @@
-import { headers } from "next/headers"
-import type { Metadata } from "next"
+import type { Metadata } from "next";
+import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import { loadCalculatorSeo } from "@/lib/calculator-seo";
+
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "home-inspection-cost-calculator";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const canonicalUrl = "https://www.thesmartcalculator.com/home-inspection-cost-calculator"
-
-  return {
-    title: {
-      absolute: "Home Inspection Cost Calculator | Estimate Prices",
-    },
-    description: "Estimate your home inspection cost instantly. Get accurate pricing based on size, age, location, and add-ons. Free calculator, no signup needed.",
-    keywords: "home inspection cost calculator, home inspection cost, inspection cost estimator, home inspector cost, home inspection price, cost of home inspection, home inspection fees, ASHI inspection cost, InterNACHI inspector, home inspection estimate, property inspection cost, house inspection cost, home inspection calculator",
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: "Home Inspection Cost Calculator | Estimate Prices",
-      description: "Estimate your home inspection cost instantly. Get accurate pricing based on size, age, location, and add-ons. Free calculator, no signup needed.",
-      url: canonicalUrl,
-      siteName: "The Smart Calculator",
-      locale: "en_US",
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Home Inspection Cost Calculator | Estimate Prices",
-      description: "Estimate your home inspection cost instantly. Get accurate pricing based on size, age, location, and add-ons. Free calculator, no signup needed.",
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-      },
-    },
-  }
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default function HomeInspectionCostCalculatorLayout({
+export default async function CalculatorLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  return children
+  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
+  const jsonLdSchema = seo?.schema ?? null;
+
+  return (
+    <>
+      {jsonLdSchema ? (
+        <Script
+          id={`${CALCULATOR_ID}-json-ld`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+          strategy="afterInteractive"
+        />
+      ) : null}
+      {children}
+    </>
+  );
 }

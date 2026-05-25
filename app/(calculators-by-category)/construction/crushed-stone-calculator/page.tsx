@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import CrushedStoneCalculatorClient from "./crushed-stone-calculator-client";
 
 export const metadata: Metadata = {
@@ -15,28 +21,8 @@ export default async function CrushedStoneCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
 
-  let content = null;
-  let guideContent = null;
-
-  try {
-    content = (
-      await import(`@/app/content/calculator-ui/crushed-stone-calculator/${language}.json`)
-    ).default;
-  } catch {
-    content = (
-      await import(`@/app/content/calculator-ui/crushed-stone-calculator/en.json`)
-    ).default;
-  }
-
-  try {
-    guideContent = (
-      await import(`@/app/content/calculator-guide/crushed-stone-calculator/${language}.json`)
-    ).default;
-  } catch {
-    guideContent = (
-      await import(`@/app/content/calculator-guide/crushed-stone-calculator/en.json`)
-    ).default;
-  }
+  const content = await loadCalculatorUiContent("crushed-stone-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("crushed-stone-calculator", language);
 
   return <CrushedStoneCalculatorClient content={content} guideContent={guideContent} />;
 }

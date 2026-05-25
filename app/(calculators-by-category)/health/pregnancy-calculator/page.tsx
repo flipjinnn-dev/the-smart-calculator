@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import PregnancyCalculatorClient from "./pregnancy-calculator-client";
 
 export default async function PregnancyCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/pregnancy-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/pregnancy-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/pregnancy-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/pregnancy-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("pregnancy-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("pregnancy-calculator", language);
 
   return <PregnancyCalculatorClient content={content} guideContent={guideContent} />;
 }

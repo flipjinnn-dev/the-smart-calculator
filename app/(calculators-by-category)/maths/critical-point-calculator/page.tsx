@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import CriticalPointCalculatorClient from "./critical-point-calculator-client";
 
 export default async function CriticalPointCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/critical-point-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/critical-point-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/critical-point-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/critical-point-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("critical-point-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("critical-point-calculator", language);
 
   return <CriticalPointCalculatorClient content={content} guideContent={guideContent} />;
 }

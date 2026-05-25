@@ -1,4 +1,10 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
 import BankStatementConverterClient from "./bank-statement-converter-client";
@@ -82,20 +88,8 @@ export default async function BankStatementConverterPage() {
     ],
   };
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/bank-statement-converter/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/bank-statement-converter/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/bank-statement-converter/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/bank-statement-converter/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("bank-statement-converter", language);
+  const guideContent = await loadCalculatorGuideContent("bank-statement-converter", language);
 
   return (
     <>

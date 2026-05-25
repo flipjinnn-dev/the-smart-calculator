@@ -1,4 +1,10 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import { Metadata } from "next";
 import BreastImplantSizeCalculatorClient from "./breast-client";
 
@@ -47,20 +53,8 @@ export default async function BreastImplantSizeCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/breast-implant-size-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/breast-implant-size-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/breast-implant-size-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/breast-implant-size-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("implant-size-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("implant-size-calculator", language);
 
   return <BreastImplantSizeCalculatorClient content={content} guideContent={guideContent} />;
 }

@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import ElectricityBillCalculatorClient from "./electricity-bill-calculator-client";
 
 export const metadata: Metadata = {
@@ -15,28 +21,8 @@ export default async function ElectricityBillCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
 
-  let content = null;
-  let guideContent = null;
-
-  try {
-    content = (
-      await import(`@/app/content/calculator-ui/electricity-bill-calculator/${language}.json`)
-    ).default;
-  } catch {
-    content = (
-      await import(`@/app/content/calculator-ui/electricity-bill-calculator/en.json`)
-    ).default;
-  }
-
-  try {
-    guideContent = (
-      await import(`@/app/content/calculator-guide/electricity-bill-calculator/${language}.json`)
-    ).default;
-  } catch {
-    guideContent = (
-      await import(`@/app/content/calculator-guide/electricity-bill-calculator/en.json`)
-    ).default;
-  }
+  const content = await loadCalculatorUiContent("electricity-bill-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("electricity-bill-calculator", language);
 
   return (
     <ElectricityBillCalculatorClient content={content} guideContent={guideContent} />

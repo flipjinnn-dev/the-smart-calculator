@@ -1,46 +1,35 @@
-import { headers } from "next/headers"
-import type { Metadata } from "next"
+import type { Metadata } from "next";
+import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import { loadCalculatorSeo } from "@/lib/calculator-seo";
+
+export const dynamic = "force-dynamic";
+
+const CALCULATOR_ID = "venmo-fee-calculator";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const canonicalUrl = "https://www.thesmartcalculator.com/financial/venmo-fee-calculator"
-
-  return {
-    title: {
-      absolute: "Venmo Fee Calculator | Instant Fee & Transfer Costs",
-    },
-    description: "Calculate Venmo fees instantly. See exact charges for instant transfers, credit card payments, and goods & services. Free, fast, no signup needed.",
-    keywords: "venmo fee calculator, venmo fees, instant transfer fee, venmo credit card fee, goods and services fee, venmo business fee, calculate venmo fees, venmo fee structure, venmo vs paypal fees",
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: "Venmo Fee Calculator | Instant Fee & Transfer Costs",
-      description: "Calculate Venmo fees instantly. See exact charges for instant transfers, credit card payments, and goods & services. Free, fast, no signup needed.",
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: "Venmo Fee Calculator",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Venmo Fee Calculator | Instant Fee & Transfer Costs",
-      description: "Calculate Venmo fees instantly. See exact charges for instant transfers, credit card payments, and goods & services. Free, fast, no signup needed.",
-      images: ["/og-image.png"],
-    },
-  }
+  return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default async function VenmoFeeCalculatorLayout({
+export default async function CalculatorLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  return <>{children}</>
+  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
+  const jsonLdSchema = seo?.schema ?? null;
+
+  return (
+    <>
+      {jsonLdSchema ? (
+        <Script
+          id={`${CALCULATOR_ID}-json-ld`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+          strategy="afterInteractive"
+        />
+      ) : null}
+      {children}
+    </>
+  );
 }

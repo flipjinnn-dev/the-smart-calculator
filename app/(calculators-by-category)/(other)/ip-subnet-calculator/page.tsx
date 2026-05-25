@@ -1,24 +1,18 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
+
+export const dynamic = "force-dynamic";
 import IpSubnetCalculatorClient from "./ip-subnet-calculator-client";
 
 export default async function IpSubnetCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
   
-  let content = null;
-  let guideContent = null;
-  
-  try {
-    content = (await import(`@/app/content/calculator-ui/ip-subnet-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/ip-subnet-calculator/en.json`)).default;
-  }
-  
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/ip-subnet-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/ip-subnet-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("ip-subnet-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("ip-subnet-calculator", language);
 
   return <IpSubnetCalculatorClient content={content} guideContent={guideContent} />;
 }

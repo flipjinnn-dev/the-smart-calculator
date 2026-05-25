@@ -1,4 +1,8 @@
 import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
 import type { Metadata } from "next";
 import Script from "next/script";
 import MixedFractionCalculatorClient from "./mixed-fraction-calculator-client";
@@ -44,20 +48,8 @@ export default async function MixedFractionCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
 
-  let content = null;
-  let guideContent = null;
-
-  try {
-    content = (await import(`@/app/content/calculator-ui/mixed-fraction-calculator/${language}.json`)).default;
-  } catch {
-    content = (await import(`@/app/content/calculator-ui/mixed-fraction-calculator/en.json`)).default;
-  }
-
-  try {
-    guideContent = (await import(`@/app/content/calculator-guide/mixed-fraction-calculator/${language}.json`)).default;
-  } catch {
-    guideContent = (await import(`@/app/content/calculator-guide/mixed-fraction-calculator/en.json`)).default;
-  }
+  const content = await loadCalculatorUiContent("mixed-fraction-calculator", language);
+  const guideContent = await loadCalculatorGuideContent("mixed-fraction-calculator", language);
 
   const schema = {
     "@context": "https://schema.org",
