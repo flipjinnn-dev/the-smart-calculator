@@ -104,12 +104,27 @@ export async function POST(request: Request) {
       data.canonical
     );
 
-    return NextResponse.json({ ok: true, revalidatedPaths });
+    const storage =
+      process.env.VERCEL && process.env.BLOB_READ_WRITE_TOKEN
+        ? "vercel-blob"
+        : process.env.VERCEL
+          ? "vercel-blob-required"
+          : "filesystem";
+
+    return NextResponse.json({ ok: true, revalidatedPaths, storage });
   } catch (e) {
     console.error("calculator-seo save error:", e);
+    const message = e instanceof Error ? e.message : "Save failed";
+    const needsBlob =
+      message.includes("Vercel Blob") || message.includes("ENOENT");
     return NextResponse.json(
-      { error: e instanceof Error ? e.message : "Save failed" },
-      { status: 500 }
+      {
+        error: needsBlob
+          ? message +
+            " Add a Blob store in Vercel (Storage → Blob) and redeploy."
+          : message,
+      },
+      { status: needsBlob ? 503 : 500 }
     );
   }
 }

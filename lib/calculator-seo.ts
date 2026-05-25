@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, readdir } from "fs/promises";
+import { readFile, writeFile } from "fs/promises";
 import path from "path";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
@@ -8,37 +8,15 @@ import {
   getCalculatorFileName,
   CATEGORY_DISPLAY_NAMES,
 } from "@/lib/calculator-data";
+import {
+  readCalculatorSeoFile,
+  writeCalculatorSeoFile,
+  listSavedSeoStorageIds,
+  filesystemWritesEnabled,
+} from "@/lib/calculator-seo-storage";
 
-export type CalculatorSeoData = {
-  metaTitle: string;
-  metaDescription: string;
-  keywords?: string;
-  pageTitle: string;
-  pageDescription: string;
-  canonical?: string;
-  openGraph: {
-    title: string;
-    description: string;
-    image: string;
-    siteName?: string;
-  };
-  twitter: {
-    card: "summary" | "summary_large_image";
-    title: string;
-    description: string;
-    image: string;
-  };
-  schema: Record<string, unknown>;
-};
-
-export type CalculatorSeoListItem = {
-  id: string;
-  name: string;
-  category: string;
-  categoryLabel: string;
-  publicPath: string;
-  hasSeoFile: boolean;
-};
+export type { CalculatorSeoData, CalculatorSeoListItem } from "@/lib/calculator-seo-types";
+import type { CalculatorSeoData, CalculatorSeoListItem } from "@/lib/calculator-seo-types";
 
 const SEO_DIR = path.join(process.cwd(), "app", "content", "calculator-seo");
 const UI_DIR = path.join(process.cwd(), "app", "content", "calculator-ui");
@@ -63,23 +41,8 @@ export function getCalculatorAdminCategories(): { id: string; label: string }[] 
   }));
 }
 
-function seoFilePath(storageId: string, language: string): string {
-  return path.join(SEO_DIR, storageId, `${language}.json`);
-}
-
-async function getSavedSeoStorageIds(): Promise<Set<string>> {
-  try {
-    const entries = await readdir(SEO_DIR, { withFileTypes: true });
-    return new Set(
-      entries.filter((e) => e.isDirectory()).map((e) => e.name)
-    );
-  } catch {
-    return new Set();
-  }
-}
-
 export async function getCalculatorSeoListItems(): Promise<CalculatorSeoListItem[]> {
-  const savedIds = await getSavedSeoStorageIds();
+  const savedIds = await listSavedSeoStorageIds();
 
   return calculators
     .map((calc) => {
@@ -184,12 +147,7 @@ export async function loadCalculatorSeo(
     return null;
   }
   const storageId = getCalculatorStorageId(calculatorId);
-  try {
-    const raw = await readFile(seoFilePath(storageId, language), "utf-8");
-    return JSON.parse(raw) as CalculatorSeoData;
-  } catch {
-    return null;
-  }
+  return readCalculatorSeoFile(storageId, language);
 }
 
 /** Load saved SEO file, or build defaults from meta + calculator-ui + registry. */
@@ -235,13 +193,7 @@ export async function saveCalculatorSeo(
     throw new Error("Unknown calculator");
   }
   const storageId = getCalculatorStorageId(calculatorId);
-  const dir = path.join(SEO_DIR, storageId);
-  await mkdir(dir, { recursive: true });
-  await writeFile(
-    seoFilePath(storageId, language),
-    `${JSON.stringify(data, null, 2)}\n`,
-    "utf-8"
-  );
+  await writeCalculatorSeoFile(storageId, language, data);
 }
 
 /** Sync on-page hero fields into calculator-ui JSON (English). */
@@ -268,7 +220,15 @@ export async function syncCalculatorUiFromSeo(
     ui.description = pageDescription;
   }
 
-  await writeFile(uiPath, `${JSON.stringify(ui, null, 2)}\n`, "utf-8");
+  if (!filesystemWritesEnabled()) {
+    return;
+  }
+
+  try {
+    await writeFile(uiPath, `${JSON.stringify(ui, null, 2)}\n`, "utf-8");
+  } catch {
+    // read-only filesystem (e.g. Vercel); SEO blob still holds page hero fields
+  }
 }
 
 export function buildMetadataFromSeo(

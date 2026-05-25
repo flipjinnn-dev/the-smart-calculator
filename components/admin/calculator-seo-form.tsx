@@ -65,8 +65,14 @@ export function CalculatorSeoForm({
       const paths = Array.isArray(json.revalidatedPaths)
         ? (json.revalidatedPaths as string[]).join(", ")
         : publicPath;
+      const storageNote =
+        json.storage === "vercel-blob"
+          ? " Stored on Vercel Blob (production)."
+          : json.storage === "filesystem"
+            ? " Saved to app/content/calculator-seo/ (local)."
+            : "";
       setMessage(
-        `Saved. JSON updated and page cache cleared${paths ? ` (${paths})` : ""}.`
+        `Saved. Page cache cleared${paths ? ` (${paths})` : ""}.${storageNote}`
       );
       router.refresh();
     } catch (err) {
