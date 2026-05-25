@@ -6,6 +6,10 @@ import {
 } from "@/lib/calculator-seo";
 import { CalculatorSeoList } from "@/components/admin/calculator-seo-list";
 import { ArrowLeft, Search } from "lucide-react";
+import {
+  blobStorageEnabled,
+  isLocalDev,
+} from "@/lib/calculator-seo-storage";
 
 export const metadata = {
   title: "Calculator SEO Admin",
@@ -20,7 +24,8 @@ export default async function CalculatorSeoAdminPage() {
     Promise.resolve(getCalculatorAdminCategories()),
   ]);
 
-  const onVercel = Boolean(process.env.VERCEL);
+  const local = isLocalDev();
+  const blob = blobStorageEnabled();
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50/30 to-purple-50/20">
@@ -44,34 +49,31 @@ export default async function CalculatorSeoAdminPage() {
                 Calculator SEO
               </h1>
               <p className="text-gray-600 mt-2 text-sm sm:text-base max-w-2xl leading-relaxed">
-                Saves go straight into JSON files under{" "}
-                <code className="text-xs bg-gray-100 px-1 rounded">
-                  app/content/calculator-seo/
-                </code>{" "}
-                and{" "}
-                <code className="text-xs bg-gray-100 px-1 rounded">
-                  calculator-ui/
-                </code>
-                . Run admin on your computer with{" "}
-                <code className="text-xs bg-gray-100 px-1 rounded">npm run dev</code>
-                , then commit and deploy.
+                {local
+                  ? "Saves write directly to app/content/ JSON files on your computer."
+                  : "Live saves use Vercel Blob (same text JSON as local files)."}
               </p>
             </div>
           </div>
         </div>
 
-        {onVercel ? (
-          <div className="mb-6 rounded-xl border-2 border-amber-300 bg-amber-50 px-5 py-4 text-sm text-amber-950">
-            <p className="font-semibold">Use local admin to edit files</p>
-            <p className="mt-2 leading-relaxed">
-              The live server cannot write to disk. Edit SEO on localhost, then push
-              to git so production picks up the JSON files.
-            </p>
-          </div>
-        ) : (
+        {local ? (
           <p className="mb-4 text-sm text-green-700 bg-green-50 border border-green-200 rounded-lg px-4 py-2">
-            Saves write directly to project JSON files on this machine.
+            Local mode: files update in the project folder.
           </p>
+        ) : blob ? (
+          <p className="mb-4 text-sm text-green-700 bg-green-50 border border-green-200 rounded-lg px-4 py-2">
+            Live save enabled (Vercel Blob connected).
+          </p>
+        ) : (
+          <div className="mb-6 rounded-xl border-2 border-amber-300 bg-amber-50 px-5 py-4 text-sm text-amber-950">
+            <p className="font-semibold">Connect Vercel Blob for live Save</p>
+            <ol className="mt-2 list-decimal pl-5 space-y-1 leading-relaxed">
+              <li>Vercel → Project → Storage → Create → Blob</li>
+              <li>Connect store to this project</li>
+              <li>Redeploy (adds BLOB_READ_WRITE_TOKEN automatically)</li>
+            </ol>
+          </div>
         )}
 
         <CalculatorSeoList items={items} categories={categories} />

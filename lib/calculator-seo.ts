@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "fs/promises";
+import { readFile } from "fs/promises";
 import path from "path";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
@@ -11,7 +11,9 @@ import {
 import {
   readCalculatorSeoFile,
   writeCalculatorSeoFile,
+  writeCalculatorUiFile,
   listSavedSeoStorageIds,
+  type SeoStorageBackend,
 } from "@/lib/calculator-seo-storage";
 
 export type { CalculatorSeoData, CalculatorSeoListItem } from "@/lib/calculator-seo-types";
@@ -187,12 +189,12 @@ export async function saveCalculatorSeo(
   calculatorId: string,
   language: string,
   data: CalculatorSeoData
-): Promise<void> {
+): Promise<SeoStorageBackend> {
   if (!isAdminCalculatorId(calculatorId)) {
     throw new Error("Unknown calculator");
   }
   const storageId = getCalculatorStorageId(calculatorId);
-  await writeCalculatorSeoFile(storageId, language, data);
+  return writeCalculatorSeoFile(storageId, language, data);
 }
 
 /** Sync on-page hero fields into calculator-ui JSON (English). */
@@ -202,25 +204,8 @@ export async function syncCalculatorUiFromSeo(
   pageDescription: string
 ): Promise<void> {
   const storageId = getCalculatorStorageId(calculatorId);
-  const uiPath = path.join(UI_DIR, storageId, "en.json");
-  let ui: Record<string, unknown>;
   try {
-    const raw = await readFile(uiPath, "utf-8");
-    ui = JSON.parse(raw) as Record<string, unknown>;
-  } catch {
-    return;
-  }
-
-  if ("pageTitle" in ui) {
-    ui.pageTitle = pageTitle;
-    ui.pageDescription = pageDescription;
-  } else {
-    ui.title = pageTitle;
-    ui.description = pageDescription;
-  }
-
-  try {
-    await writeFile(uiPath, `${JSON.stringify(ui, null, 2)}\n`, "utf-8");
+    await writeCalculatorUiFile(storageId, "en", pageTitle, pageDescription);
   } catch (e) {
     console.error("syncCalculatorUiFromSeo:", e);
   }

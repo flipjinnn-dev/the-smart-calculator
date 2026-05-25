@@ -65,10 +65,12 @@ export function CalculatorSeoForm({
       const paths = Array.isArray(json.revalidatedPaths)
         ? (json.revalidatedPaths as string[]).join(", ")
         : publicPath;
+      const storageNote =
+        json.storage === "blob"
+          ? " Saved to Vercel Blob (live meta updates work)."
+          : " Saved to app/content/ JSON files (commit & push for live).";
       setMessage(
-        `Saved to JSON files (app/content/calculator-seo/ + calculator-ui/).` +
-          (paths ? ` Cache cleared (${paths}).` : "") +
-          ` Commit & deploy for live site.`
+        `Saved.${storageNote}` + (paths ? ` Cache cleared (${paths}).` : "")
       );
       router.refresh();
     } catch (err) {
