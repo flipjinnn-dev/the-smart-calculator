@@ -1,0 +1,121 @@
+{
+  "color": "teal",
+  "sections": [
+    {
+      "heading": "Quick Answer",
+      "content": "To convert **decimal feet to inches**, multiply by **12**. Example: **3.7 ft × 12 = 44.4 inches**. One tenth of a foot (0.1 ft) equals **1.2 inches**. Use the calculator above for any value."
+    },
+    {
+      "heading": "What Is a Tenths to Inches Converter?",
+      "content": "A tenths to inches converter turns decimal foot values into standard inch measurements used in everyday construction, surveying, and engineering work.\n\nIn the imperial measurement system, one foot equals 12 inches. Surveyors and engineers often record distances in tenths of a foot for example, 5.7 feet instead of feet and inches. This is standard practice in construction measurements and engineering measurements across the U.S.\n\nHowever, tape measures display inches, not tenths. That gap creates confusion on job sites. This tenths measurement converter bridges that gap instantly, giving you accurate decimal inch values without manual calculation errors."
+    },
+    {
+      "heading": "How to Use This Tenths to Inches Calculator",
+      "content": "Using this tenths to inches calculator takes less than five seconds. Follow these simple steps:",
+      "subSections": [
+        {
+          "heading": "Step 1 Enter your decimal foot value",
+          "content": "Type your measurement in the input field. For example, enter **3.7** for 3.7 feet. This is your decimal feet to inches starting point."
+        },
+        {
+          "heading": "Step 2 Click Convert",
+          "content": "Press the **Convert** button. The decimal foot conversion calculator instantly processes your value using the standard conversion formula."
+        },
+        {
+          "heading": "Step 3 Read your result in inches",
+          "content": "Your result appears immediately. For 3.7 feet, you get **44.4 inches**. Use this figure directly on your tape measure or construction plan."
+        },
+        {
+          "heading": "Reverse conversion",
+          "content": "You can also use this tool as an **inches to tenths** converter when converting standard inch values back into decimal feet measurements. Select **Inches → Decimal feet** or use **Swap**."
+        },
+        {
+          "heading": "Pro tips for best results",
+          "content": "Always double-check your input decimal before converting.\n\nUse this surveying feet to inches converter for field measurements.\n\nFor bulk conversions, refer to the quick conversion table below.\n\nThe tool works on mobile, tablet, and desktop use it directly on site."
+        }
+      ]
+    },
+    {
+      "heading": "Tenths to Inches Formula",
+      "content": "The formula is simple:\n\n**Inches = Decimal Feet × 12**\n\n**Example:** 0.7 feet × 12 = **8.4 inches**\n\n**Reverse:** Decimal Feet = Inches ÷ 12\n\nThis tenths to inches formula applies the standard feet to inch formula used across all imperial unit conversions. No complex math just multiply by 12 every time."
+    },
+    {
+      "heading": "Quick Tenths to Inches Conversion Chart",
+      "content": "| Tenths (Decimal Feet) | Inches |\n| --- | --- |\n| 0.1 ft | 1.2 in |\n| 0.2 ft | 2.4 in |\n| 0.3 ft | 3.6 in |\n| 0.4 ft | 4.8 in |\n| 0.5 ft | 6.0 in |\n| 0.6 ft | 7.2 in |\n| 0.7 ft | 8.4 in |\n| 0.8 ft | 9.6 in |\n| 0.9 ft | 10.8 in |\n| 1.0 ft | 12.0 in |\n\nBookmark this tenths to inches conversion chart for daily use in the field."
+    },
+    {
+      "heading": "Who Uses This Calculator?",
+      "subSections": [
+        {
+          "heading": "Surveying professionals",
+          "content": "A survey tenths to inches calculator is essential for land surveyors. GPS and total station instruments record distances in decimal feet. Converting these into inches helps surveyors communicate clearly with contractors who read tape measures in standard inches."
+        },
+        {
+          "heading": "Construction workers",
+          "content": "Workers using a construction tenths to inches tool save time on site. Instead of calculating manually, they convert blueprint decimal values into tape measure readings instantly."
+        },
+        {
+          "heading": "Civil engineers",
+          "content": "Engineering tenths to inches conversion matters when reviewing grading reports, drainage plans, or elevation drawings that use decimal foot notation."
+        },
+        {
+          "heading": "DIY homeowners",
+          "content": "Even a homeowner reading a survey plat benefits from this tenths to inches tape measure reference, making layout work on their property simple and accurate."
+        }
+      ]
+    },
+    {
+      "heading": "Troubleshooting Common Conversion Issues",
+      "subSections": [
+        {
+          "heading": "Converting inches to tenths of a foot instead?",
+          "content": "Reverse the formula: **Tenths = Inches ÷ 12**. For example, 9 inches ÷ 12 = **0.75 feet**."
+        },
+        {
+          "heading": "Getting fractional inches in your result?",
+          "content": "This is normal. 0.3 feet = 3.6 inches the 0.6 is a decimal, not a fraction. Round to the nearest 1/8 inch for tape measure use."
+        },
+        {
+          "heading": "Wrong input format?",
+          "content": "Always enter values as decimal numbers (e.g., 2.5), not as fractions (e.g., 2½). The calculator reads decimal inputs only."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do surveyors convert tenths to inches?",
+      "a": "Surveyors multiply decimal foot values by 12 to get inches. For example, a GPS reading of 4.3 feet becomes 51.6 inches. This tenths to inches calculator automates that step, saving time and reducing field errors."
+    },
+    {
+      "q": "What is a tenth of a foot in inches?",
+      "a": "One tenth of a foot (0.1 ft) equals exactly 1.2 inches. This is the base unit used across all tenths-based decimal foot conversions in the imperial measurement system."
+    },
+    {
+      "q": "How many inches are in 0.1 feet?",
+      "a": "0.1 feet = 1.2 inches. Multiply any decimal foot value by 12 to find its inch equivalent. This is the same formula used in every standard measurement conversion chart."
+    },
+    {
+      "q": "How do you convert decimal feet to inches?",
+      "a": "Use the formula: Inches = Decimal Feet × 12. Enter your value in this convert decimal feet to inches calculator, and it does the math instantly no pen or paper needed."
+    },
+    {
+      "q": "Can I use this calculator for construction drawings?",
+      "a": "Yes. Construction professionals regularly use a construction tenths to inches tool to translate decimal foot measurements from drawings into standard inch values readable on any tape measure."
+    },
+    {
+      "q": "Does this tool work for engineering measurements?",
+      "a": "Absolutely. Engineering tenths to inches conversion is a daily requirement for civil and structural engineers. This tool handles all decimal foot values accurately and instantly."
+    },
+    {
+      "q": "Is this calculator accurate for surveying work?",
+      "a": "Yes. This survey tenths to inches calculator uses the exact same mathematical formula applied in professional surveying practice multiply decimal feet by 12. Results are precise to multiple decimal places."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "The tenths to inches calculator converts decimal foot values to inches by multiplying by 12. It serves surveyors, engineers, and builders daily. Use the formula, the conversion table, or this free tool for instant, accurate results. One tenth of a foot always equals 1.2 inches simple and reliable."
+    }
+  ]
+}

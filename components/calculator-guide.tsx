@@ -41,13 +41,6 @@ import {
   BookOpen,
   HelpCircle,
 } from 'lucide-react';
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from '@/components/ui/accordion';
-
 interface FAQ {
   question: string
   answer: string
@@ -520,22 +513,41 @@ export default function CalculatorGuide({ data, layout = 'default' }: Calculator
               <HelpCircle className="w-8 h-8 text-purple-600 shrink-0" aria-hidden />
               Frequently Asked Questions
             </h2>
-            <Accordion type="single" collapsible className="w-full space-y-3">
+            <div className="w-full space-y-3">
               {data.faq.map((item, index) => (
-                <AccordionItem
+                <details
                   key={index}
-                  value={`faq-article-${index}`}
-                  className="border border-gray-200 rounded-xl px-4 bg-white shadow-sm data-[state=open]:ring-2 data-[state=open]:ring-purple-100 data-[state=open]:border-purple-200"
+                  className="group rounded-xl border border-gray-200 bg-white px-4 shadow-sm transition-colors open:border-purple-200 open:ring-2 open:ring-purple-100"
                 >
-                  <AccordionTrigger className="text-left text-base font-semibold py-5 hover:no-underline hover:text-purple-700">
-                    {item.question}
-                  </AccordionTrigger>
-                  <AccordionContent className="text-gray-700 leading-relaxed pb-5 text-[15px] border-t border-gray-100">
-                    <div className="pt-4 [&>:first-child]:mt-0">{renderContent(item.answer)}</div>
-                  </AccordionContent>
-                </AccordionItem>
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-3 py-5 text-left text-base font-semibold text-gray-900 hover:text-purple-700 [&::-webkit-details-marker]:hidden">
+                    <span className="pr-2 leading-snug">{item.question}</span>
+                    <div
+                      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-purple-600 shadow-sm transition-transform group-open:rotate-180"
+                      aria-hidden
+                    >
+                      <svg
+                        className="h-4 w-4 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 9l-7 7-7-7"
+                        />
+                      </svg>
+                    </div>
+                  </summary>
+                  <div className="border-t border-gray-100 pb-5 text-[15px] leading-relaxed text-gray-700">
+                    <div className="pt-4 [&>:first-child]:mt-0">
+                      {renderContent(item.answer)}
+                    </div>
+                  </div>
+                </details>
               ))}
-            </Accordion>
+            </div>
           </div>
         ) : null}
 

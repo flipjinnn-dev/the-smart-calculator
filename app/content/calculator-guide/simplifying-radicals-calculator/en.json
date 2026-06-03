@@ -1,0 +1,125 @@
+{
+  "color": "purple",
+  "sections": [
+    {
+      "heading": "Quick Answer",
+      "content": "A simplifying radicals calculator reduces radical expressions like **√72** to their simplest radical form (**6√2**) using prime factorization. Enter the radicand and root order, and the tool returns the simplified form with step-by-step working instantly."
+    },
+    {
+      "heading": "What Is a Simplifying Radicals Calculator?",
+      "content": "A simplifying radicals calculator is a free online tool that takes any radical expression and rewrites it in simplest radical form. You enter the radicand, the number or expression under the radical symbol, along with the root order. The calculator applies prime factorization to extract perfect square or perfect cube factors. The result is a clean, simplified radical expression ready to use in algebra, geometry, or calculus.\n\nThis tool works for square roots, cube roots, nth roots, radical expressions with variables, and operations like addition, multiplication, and division of radicals."
+    },
+    {
+      "heading": "How to Use the Simplify Radicals Calculator",
+      "content": "Follow these four steps to simplify any radical expression:",
+      "subSections": [
+        {
+          "heading": "Step 1 Enter the radicand",
+          "content": "Type the number or expression under the root sign. For example, enter **72**, **200**, or **48** for a basic square root. For expressions with variables, enter values like **72x²** directly in future updates; this version uses non-negative integers."
+        },
+        {
+          "heading": "Step 2 Select the root order",
+          "content": "Choose square root (n = 2), cube root (n = 3), or any nth root. The default is square root since most problems involve simplifying square roots."
+        },
+        {
+          "heading": "Step 3 Choose the expression type",
+          "content": "Select single radical, sum, product, or quotient. The simplify radical expressions calculator handles all four operation types and adjusts the method accordingly."
+        },
+        {
+          "heading": "Step 4 Read the simplified result",
+          "content": "The radical simplifier calculator displays the simplified form immediately. Switch on the steps view to see every stage of the prime factorization and simplification process.\n\nThis simplifying radicals calculator with steps mode walks you through each factorization stage so you learn the method alongside the answer not just the final result."
+        }
+      ]
+    },
+    {
+      "heading": "Simplification Formula",
+      "content": "The core formula the radical simplifier calculator applies is:\n\n**ⁿ√(a^k × b) = a · ⁿ√(b)**\n\nwhere k is divisible by n, and b contains no remaining perfect nth-power factors. The tool uses prime factorization to split the radicand into perfect-power factors and leftover factors, then pulls the perfect powers outside the radical notation."
+    },
+    {
+      "heading": "Quick Reference Table",
+      "content": "| Original Expression | Prime Factorization | Simplified Form | Root Type |\n| --- | --- | --- | --- |\n| √72 | 2³ × 3² | 6√2 | Square root |\n| √200 | 2³ × 5² | 10√2 | Square root |\n| √48 | 2⁴ × 3 | 4√3 | Square root |\n| √288 | 2⁵ × 3² | 12√2 | Square root |\n| ³√54 | 2 × 3³ | 3∛2 | Cube root |\n| ³√128 | 2⁷ | 4∛2 | Cube root |"
+    },
+    {
+      "heading": "Example Simplifying √288 Step by Step",
+      "content": "This example shows exactly how the simplifying radicals calculator with steps works.\n\n**Input:** √288\n\n**Step 1 — Prime factorization:** 288 = 2 × 2 × 2 × 2 × 2 × 3 × 3 = 2⁵ × 3²\n\n**Step 2 — Find pairs (root order = 2):** Two pairs of 2s, one pair of 3s, one lone 2 remains inside.\n\n**Step 3 — Pull pairs outside the root:** 2 × 2 × 3 = 12 moves outside. The lone 2 stays inside.\n\n**Result:** √288 = **12√2**\n\nThis is the simplest radical form. No perfect square factor remains under the radical symbol."
+    },
+    {
+      "heading": "Who Uses a Radical Simplifier Calculator?",
+      "subSections": [
+        {
+          "heading": "Students",
+          "content": "Students use this tool for algebra homework, pre-calculus assignments, and exam preparation. Simplifying radicals with variables becomes fast and accurate without manual calculation errors."
+        },
+        {
+          "heading": "Geometry problems",
+          "content": "Diagonal lengths, Pythagorean theorem results, and area calculations frequently produce radical expressions. The simplify square roots calculator converts these into clean exact values."
+        },
+        {
+          "heading": "Engineers and scientists",
+          "content": "Engineers simplify radical notation in formulas to maintain exact values rather than decimal approximations. The simplest radical form calculator handles complex expressions quickly."
+        },
+        {
+          "heading": "Teachers",
+          "content": "Teachers use the radical expressions calculator to generate worked examples, check student answers, and demonstrate the prime factorization method on a board."
+        }
+      ]
+    },
+    {
+      "heading": "Troubleshooting",
+      "subSections": [
+        {
+          "heading": "Result is the same as the input",
+          "content": "The radicand is already in simplest form. No perfect nth-power factor exists to pull outside the root."
+        },
+        {
+          "heading": "Cannot add two radicals",
+          "content": "Addition of radical expressions only works when both terms have the same root order and the same radicand after simplification. Unlike radicals cannot combine."
+        },
+        {
+          "heading": "Decimal appears in the result",
+          "content": "Use integer values for the radicand. The simplify radical expressions calculator with steps works with non-negative integers only."
+        },
+        {
+          "heading": "Fraction appears outside the root after division",
+          "content": "This is correct. When dividing radicals, the denominator is rationalized automatically. The fraction form is the simplified result."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I simplify radicals using prime factorization?",
+      "a": "Write the radicand as a product of prime numbers. Group the primes into sets of n, where n is the root order. Each complete group moves outside the radical as one number. Leftover primes stay inside. Multiply the outside numbers together to get the coefficient of the simplified expression."
+    },
+    {
+      "q": "Can I simplify radicals with variables using this calculator?",
+      "a": "This version focuses on integer radicands. For expressions like √(72x⁴), treat the variable exponent the same way as a prime factor: x⁴ = (x²)², so x² pulls outside. The simplified result is 6x²√2."
+    },
+    {
+      "q": "What is simplest radical form?",
+      "a": "A radical expression is in simplest radical form when no perfect nth-power factor remains under the root, no fraction appears under the radical sign, and no radical expression sits in a denominator."
+    },
+    {
+      "q": "What is the difference between simplifying and evaluating a radical?",
+      "a": "Simplifying keeps the result in exact radical notation, for example 6√2. Evaluating produces a decimal approximation, for example 8.485. Simplest radical form is preferred in algebra because it is exact and easier to use in further calculations."
+    },
+    {
+      "q": "Can I add or subtract radical expressions with this tool?",
+      "a": "Yes. Select the sum expression type and enter two radicands. The calculator simplifies each radical, then adds like radicals that share the same order and the same radicand after simplification."
+    },
+    {
+      "q": "Does this calculator show steps, not just the answer?",
+      "a": "Yes. Turn on step-by-step mode to see prime factorization, factor grouping, which values move outside the root, and the final simplified expression."
+    },
+    {
+      "q": "Can I simplify cube roots and higher-order roots?",
+      "a": "Yes. Set the root order to 3 for cube roots or any integer of 2 or above for nth roots. The calculator groups primes into triples or n-tuples instead of pairs. For example, the simplest radical form of ³√54 is 3∛2."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "This simplifying radicals calculator converts any radical expression into simplest radical form using prime factorization. It supports square roots, cube roots, nth roots, and sum, product, and quotient operations with complete step-by-step working displayed clearly."
+    }
+  ]
+}

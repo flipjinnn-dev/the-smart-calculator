@@ -1,0 +1,112 @@
+{
+  "color": "indigo",
+  "sections": [
+    {
+      "heading": "Quick Answer",
+      "content": "To convert Nm to ft-lbs, multiply your Newton Meter value by **0.7376**. For example, **100 Nm equals 73.76 ft-lbs**. This single formula covers all torque conversions from spark plugs and lug nuts to engine head bolts and industrial fasteners."
+    },
+    {
+      "heading": "What Is a Newton Meter (Nm) and Foot-Pound (ft-lbs)?",
+      "content": "A **Newton Meter (Nm)** is the SI (metric) unit of torque. European and Asian car manufacturers BMW, Mercedes, Toyota, and Honda use Nm in all their service manuals and factory specifications.\n\nA **Foot-Pound (ft-lbs)** is the Imperial unit of torque. Mechanics in the United States, Canada, and the UK use ft-lbs on torque wrenches and repair guides daily.\n\nWhen you work on a European car with an American torque wrench, you must convert Nm to ft-lbs accurately. Getting the conversion wrong causes stripped threads, loose wheel bolts, blown head gaskets, and serious engine damage. This nm to ft lbs converter removes all guesswork and gives you the exact value in seconds."
+    },
+    {
+      "heading": "How to Use This Nm to Ft-Lbs Calculator",
+      "content": "This nm to ft lb calculator and torque unit converter Nm to ft-lbs takes just seconds. Follow these steps:",
+      "subSections": [
+        {
+          "heading": "Step 1 Enter your Nm value",
+          "content": "Enter your Newton Meter value in the input box for example, type 150 to convert 150 Nm to ft-lbs."
+        },
+        {
+          "heading": "Step 2 Click Convert",
+          "content": "Click the **Convert** button. Your ft-lbs result appears instantly."
+        },
+        {
+          "heading": "Step 3 Use Swap if needed",
+          "content": "Use the **Swap** button if you need to reverse the conversion from ft-lbs back to Nm."
+        },
+        {
+          "heading": "Step 4 Check the conversion table",
+          "content": "Cross-check your result with the conversion table below for common automotive torque values."
+        },
+        {
+          "heading": "Step 5 Set your torque wrench",
+          "content": "Set your calibrated torque wrench to the ft-lbs value and apply torque to the fastener."
+        },
+        {
+          "heading": "Tip for Mechanics",
+          "content": "Always confirm converted torque values against your vehicle's official service manual. Torque specs vary by bolt size, thread type, and lubrication condition."
+        }
+      ]
+    },
+    {
+      "heading": "Nm to Ft-Lbs Conversion Formula",
+      "content": "The nm to ft lbs conversion formula is:\n\n**ft-lbs = Nm × 0.737562**\n\n**Reverse formula:**\n\n**Nm = ft-lbs × 1.355818**\n\nOne Newton Meter equals exactly **0.7376 foot-pounds**. This fixed constant applies to every nm to ft lbs conversion whether you convert 10 Nm or 10,000 Nm, the multiplier never changes."
+    },
+    {
+      "heading": "Nm to Ft-Lbs Conversion Table Quick Reference Chart",
+      "content": "| Newton Meters (Nm) | Foot-Pounds (ft-lbs) | Common Application |\n| --- | --- | --- |\n| 10 Nm | 7.38 ft-lbs | Small fasteners, sensor bolts |\n| 50 Nm | 36.88 ft-lbs | Oil drain plug, spark plugs |\n| 70 Nm | 51.63 ft-lbs | Alternator bracket, gearbox bolts |\n| 90 Nm | 66.38 ft-lbs | Suspension arms, steering rack |\n| 100 Nm | 73.76 ft-lbs | Standard car wheel lug nuts |\n| 200 Nm | 147.51 ft-lbs | Heavy-duty SUV and truck lug nuts |\n| 300 Nm | 221.27 ft-lbs | Cylinder head bolts (large engines) |\n| 400 Nm | 295.02 ft-lbs | Flywheel bolts, differential nuts |\n| 500 Nm | 368.78 ft-lbs | Heavy truck wheel bolts |\n| 1000 Nm | 737.56 ft-lbs | Semi-truck axles, industrial equipment |\n\nUse this nm to ft lbs conversion chart as a quick desktop or workshop reference whenever you work with metric torque specifications."
+    },
+    {
+      "heading": "Where Do You Use Nm to Ft-Lbs Conversion?",
+      "content": "You need to convert torque Nm to ft-lbs in these real-world situations every day:\n\n**Automotive repair workshops** — European car manuals list torque in Nm. US mechanics convert those values to ft-lbs to set their imperial torque wrenches correctly.\n\n**Engine building and rebuilding** — Cylinder head bolts, connecting rod bolts, and crankshaft main caps all carry exact torque specs. A wrong conversion here destroys the engine.\n\n**Tyre fitting and wheel work** — Every wheel lug nut has a torque specification. Incorrect torque causes wheel vibration, stud damage, or wheel detachment at speed.\n\n**Engineering design** — Mechanical engineers working across metric and imperial component systems perform automotive torque conversion daily to ensure correct assembly and safety compliance.\n\nThis newton meter to ft lbs converter makes all four use cases fast, accurate, and error-free."
+    },
+    {
+      "heading": "Troubleshooting Common Conversion Mistakes",
+      "subSections": [
+        {
+          "heading": "Wrong multiplier used",
+          "content": "Always use **0.737562**, not 0.73 or 0.74. Small rounding errors become large mistakes at high torque values like 400 Nm or 500 Nm."
+        },
+        {
+          "heading": "Formula reversed accidentally",
+          "content": "If your ft-lbs result is larger than your Nm input, you have applied the formula backwards. Remember: ft-lbs is always smaller than Nm. Use the swap button and recheck."
+        },
+        {
+          "heading": "Confusing kgf·m with Nm",
+          "content": "Some older manuals list torque in kilogram-force meters. Do not treat kgf·m as Nm they are different units and produce incorrect results."
+        },
+        {
+          "heading": "Uncalibrated torque wrench",
+          "content": "Even a perfect ft-lbs conversion fails if your torque wrench drifts out of calibration. Calibrate your wrench every 12 months or every 5,000 clicks."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I convert 100 Nm to ft-lbs?",
+      "a": "Multiply 100 by 0.7376. The answer is 73.76 ft-lbs. This is the standard lug nut torque specification for most passenger cars worldwide."
+    },
+    {
+      "q": "What is 200 Nm in ft-lbs?",
+      "a": "200 Nm equals 147.51 ft-lbs. You commonly see this torque value on heavy-duty SUV wheel bolts and larger engine accessory mounts."
+    },
+    {
+      "q": "How much is 300 Nm in ft-lbs?",
+      "a": "300 Nm converts to 221.27 ft-lbs. Large petrol and diesel engine cylinder head bolts frequently carry this torque specification."
+    },
+    {
+      "q": "What is 400 Nm and 500 Nm in ft-lbs?",
+      "a": "400 Nm equals 295.02 ft-lbs and 500 Nm equals 368.78 ft-lbs. These high-torque values appear on flywheel bolts, differential pinion nuts, and heavy truck wheel fasteners."
+    },
+    {
+      "q": "How do I convert 1000 Nm to ft-lbs?",
+      "a": "1000 Nm equals 737.56 ft-lbs. This extreme torque level applies to semi-truck drive axles, crane mounting bolts, and large industrial machinery fasteners."
+    },
+    {
+      "q": "What is the exact nm to ft lbs conversion formula?",
+      "a": "The formula is ft-lbs = Nm × 0.737562. For reverse conversion use Nm = ft-lbs × 1.355818. These constants are internationally standardized and apply to all engineering torque calculator applications."
+    },
+    {
+      "q": "Is a Newton Meter bigger than a foot-pound?",
+      "a": "Yes. One Nm equals 0.7376 ft-lbs, which means a Newton Meter is approximately 35 percent larger than a foot-pound. When you convert Nm to ft-lbs, your result always decreases. If your number goes up, you have reversed the formula correct it immediately before applying torque."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "This free nm to ft lbs converter and nm to torque calculator gives you fast and accurate torque conversions every time. The formula is simple multiply Nm by **0.7376**. Use the conversion table for common values, avoid the four most common mistakes, and always verify against your official service manual. Whether you work on passenger cars, heavy trucks, or industrial machinery, this torque converter Nm to ft-lbs tool covers every situation you face."
+    }
+  ]
+}

@@ -273,6 +273,34 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       description:
         "Calculate your electricity bill instantly using kWh, wattage, and usage hours. Free electricity cost calculator for home and business use.",
       href: "/electricity-bill-calculator"
+    },
+    {
+      name: "Ski Size Calculator",
+      category: "Sports",
+      description:
+        "Find your perfect ski length by height, weight, skill level, and ski type with instant personalized recommendations.",
+      href: "/ski-size-calculator"
+    },
+    {
+      name: "Nm to Ft-Lbs Converter",
+      category: "Other",
+      description:
+        "Convert Nm to ft-lbs instantly with accurate Newton meter to foot-pound torque conversion, formula, and reference charts.",
+      href: "/nm-to-ft-lbs-converter"
+    },
+    {
+      name: "Tenths to Inches Calculator",
+      category: "Other",
+      description:
+        "Convert decimal feet (tenths) to inches instantly for surveying, construction, and engineering measurements.",
+      href: "/tenths-to-inches-converter"
+    },
+    {
+      name: "Simplifying Radicals Calculator",
+      category: "Maths",
+      description:
+        "Simplify square roots, cube roots, and nth roots with step-by-step prime factorization for algebra and exams.",
+      href: "/maths/simplifying-radicals-calculator"
     }
   ];
 
@@ -328,6 +356,42 @@ export default function HomePage({ content, language, authors }: HomeClientProps
         "Calculate ideal bike tire pressure instantly. Accurate front and rear PSI for road, gravel, and MTB using SILCA-style inputs.",
       href: "/sports/silcatire-pressure-calculator",
       category: "Sports",
+      popular: true as const,
+    },
+    {
+      id: "ski-size-calculator",
+      name: "Ski Size Calculator",
+      description:
+        "Find your perfect ski length by height, weight, skill level, and ski type with instant personalized recommendations.",
+      href: "/ski-size-calculator",
+      category: "Sports",
+      popular: true as const,
+    },
+    {
+      id: "nm-to-ft-lbs-converter",
+      name: "Nm to Ft-Lbs Converter",
+      description:
+        "Convert Nm to ft-lbs instantly with accurate Newton meter to foot-pound torque conversion, formula, and reference charts.",
+      href: "/nm-to-ft-lbs-converter",
+      category: "Other",
+      popular: true as const,
+    },
+    {
+      id: "tenths-to-inches-converter",
+      name: "Tenths to Inches Calculator",
+      description:
+        "Convert decimal feet (tenths) to inches instantly for surveying, construction, and engineering measurements.",
+      href: "/tenths-to-inches-converter",
+      category: "Other",
+      popular: true as const,
+    },
+    {
+      id: "simplifying-radicals-calculator",
+      name: "Simplifying Radicals Calculator",
+      description:
+        "Simplify square roots, cube roots, and nth roots with step-by-step prime factorization for algebra and exams.",
+      href: "/maths/simplifying-radicals-calculator",
+      category: "Maths",
       popular: true as const,
     },
     {

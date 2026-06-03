@@ -143,6 +143,30 @@
         "category": "Other",
         "description": "Calculate your electricity bill using kWh, wattage, and usage hours for home or business.",
         "href": "/electricity-bill-calculator"
+      },
+      {
+        "name": "Ski Size Calculator",
+        "category": "Sports",
+        "description": "Find your perfect ski length by height, weight, skill level, and ski type with instant personalized recommendations.",
+        "href": "/ski-size-calculator"
+      },
+      {
+        "name": "Nm to Ft-Lbs Converter",
+        "category": "Other",
+        "description": "Convert Nm to ft-lbs instantly with accurate Newton meter to foot-pound torque conversion, formula, and reference charts.",
+        "href": "/nm-to-ft-lbs-converter"
+      },
+      {
+        "name": "Tenths to Inches Calculator",
+        "category": "Other",
+        "description": "Convert decimal feet (tenths) to inches instantly for surveying, construction, and engineering measurements.",
+        "href": "/tenths-to-inches-converter"
+      },
+      {
+        "name": "Simplifying Radicals Calculator",
+        "category": "Maths",
+        "description": "Simplify square roots, cube roots, and nth roots with step-by-step prime factorization for algebra and exams.",
+        "href": "/maths/simplifying-radicals-calculator"
       }
     ]
   },

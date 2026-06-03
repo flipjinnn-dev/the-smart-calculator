@@ -112,6 +112,10 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'aquarium-substrate-calculator') return 'aquarium-substrate-calculator';
   if (id === 'fix-and-flip-calculator') return 'fix-and-flip-calculator';
   if (id === 'kite-size-calculator') return 'kite-size-calculator';
+  if (id === 'ski-size-calculator') return 'ski-size-calculator';
+  if (id === 'nm-to-ft-lbs-converter') return 'nm-to-ft-lbs-converter';
+  if (id === 'tenths-to-inches-converter') return 'tenths-to-inches-converter';
+  if (id === 'simplifying-radicals-calculator') return 'simplifying-radicals-calculator';
   if (id === 'silcatire-pressure-calculator') return 'silcatire-pressure-calculator';
   if (id === 'crochet-calculator') return 'crochet-calculator';
   if (id === 'era-calculator') return 'era-calculator';
@@ -748,6 +752,15 @@ export const calculators: Calculator[] = [
     href: "/maths/volume-calculator",
     category: "maths",
   },
+  {
+    id: "simplifying-radicals-calculator",
+    name: "Simplifying Radicals Calculator",
+    description:
+      "Simplify square roots, cube roots, and nth roots with step-by-step prime factorization for algebra and exams",
+    href: "/maths/simplifying-radicals-calculator",
+    category: "maths",
+    popular: true,
+  },
 
   // Physics Calculators
   {
@@ -943,6 +956,40 @@ export const calculators: Calculator[] = [
     href: "/sports/magic-number-calculator",
     category: "sports",
   },
+  {
+    id: "ski-size-calculator",
+    name: "Ski Size Calculator",
+    description:
+      "Find your perfect ski length by height, weight, skill level, and ski type with instant personalized recommendations",
+    href: "/ski-size-calculator",
+    category: "sports",
+    popular: true,
+  },
+  {
+    id: "kite-size-calculator",
+    name: "Kite Size Calculator",
+    description: "Calculate ideal kite size for kitesurfing based on weight, wind speed, skill level, and riding style",
+    href: "/sports/kite-size-calculator",
+    category: "sports",
+    popular: false,
+  },
+  {
+    id: "silcatire-pressure-calculator",
+    name: "SILCA Tire Pressure Calculator",
+    description:
+      "Calculate ideal bike tire pressure instantly. Accurate front and rear PSI for road, gravel, and MTB using SILCA-style inputs — weight, tire width, surface, and setup.",
+    href: "/sports/silcatire-pressure-calculator",
+    category: "sports",
+    popular: true,
+  },
+  {
+    id: "era-calculator",
+    name: "ERA Calculator",
+    description: "Calculate earned run average (ERA) for baseball and softball pitchers with 9-inning or 7-inning formulas",
+    href: "/sports/era-calculator",
+    category: "sports",
+    popular: false,
+  },
 
   // Other Calculators
   {
@@ -969,6 +1016,24 @@ export const calculators: Calculator[] = [
     href: "/age-calculator",
     category: "other",
     popular: true
+  },
+  {
+    id: "nm-to-ft-lbs-converter",
+    name: "Nm to Ft-Lbs Converter",
+    description:
+      "Convert Nm to ft-lbs instantly with accurate Newton meter to foot-pound torque conversion, formula, and reference charts",
+    href: "/nm-to-ft-lbs-converter",
+    category: "other",
+    popular: true,
+  },
+  {
+    id: "tenths-to-inches-converter",
+    name: "Tenths to Inches Calculator",
+    description:
+      "Convert decimal feet (tenths) to inches instantly for surveying, construction, and engineering measurements",
+    href: "/tenths-to-inches-converter",
+    category: "other",
+    popular: true,
   },
   {
     id: "twin-flame-calculator",
@@ -1399,36 +1464,11 @@ export const calculators: Calculator[] = [
     popular: false,
   },
   {
-    id: "kite-size-calculator",
-    name: "Kite Size Calculator",
-    description: "Calculate ideal kite size for kitesurfing based on weight, wind speed, skill level, and riding style",
-    href: "/sports/kite-size-calculator",
-    category: "sports",
-    popular: false,
-  },
-  {
-    id: "silcatire-pressure-calculator",
-    name: "SILCA Tire Pressure Calculator",
-    description:
-      "Calculate ideal bike tire pressure instantly. Accurate front and rear PSI for road, gravel, and MTB using SILCA-style inputs — weight, tire width, surface, and setup.",
-    href: "/sports/silcatire-pressure-calculator",
-    category: "sports",
-    popular: true,
-  },
-  {
     id: "crochet-calculator",
     name: "Crochet Calculator",
     description: "Estimate yarn yardage, project cost, time, gauge, stitch counts, and pricing for crochet projects",
     href: "/crochet-calculator",
     category: "other",
-    popular: false,
-  },
-  {
-    id: "era-calculator",
-    name: "ERA Calculator",
-    description: "Calculate earned run average (ERA) for baseball and softball pitchers with 9-inning or 7-inning formulas",
-    href: "/sports/era-calculator",
-    category: "sports",
     popular: false,
   },
   {

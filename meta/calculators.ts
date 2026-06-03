@@ -4057,6 +4057,46 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "fix and flip calculator, fix and flip calculator online, fix and flip calculator free, property flip calculator, real estate deal calculator, house flipping calculator, fix and flip profit calculator, fix and flip deal calculator, fix and flip real estate calculator, fix and flip ARV calculator, fix and flip rehab calculator, fix and flip loan calculator, fix and flip mortgage calculator, fix and flip house calculator, fix and flip ROI calculator, hard money fix and flip loan, hard money loan fix and flip calculator, wholesaling fix and flip buy formula calculator, fix and flip calculator Excel, fix and flip calculator Excel free download, fix and flip calculator Google Sheets, fix and flip calculator app, best fix and flip calculator online, fix and flip spreadsheet, 70% rule calculator, ARV calculator, house flip profit calculator"
     }
   },
+  "simplifying-radicals-calculator": {
+    en: {
+      title: "Simplifying Radicals Calculator | Simplify Roots Fast",
+      description:
+        "Use Simplifying Radicals Calculator to simplify square, cube, and nth roots instantly with steps. Get exact radical form using prime factorization.",
+      slug: "/maths/simplifying-radicals-calculator",
+      keywords:
+        "simplifying radicals calculator, simplify radicals, simplest radical form, simplify square roots, cube root simplifier, prime factorization radicals, radical simplifier calculator, simplify radical expressions, nth root calculator, simplify radicals with steps, algebra radical calculator"
+    }
+  },
+  "tenths-to-inches-converter": {
+    en: {
+      title: "Tenths to Inches Calculator | Decimal Feet Converter",
+      description:
+        "Free tenths to inches calculator to convert decimal feet into inches instantly. Accurate tool for surveying, construction, and engineering use.",
+      slug: "/tenths-to-inches-converter",
+      keywords:
+        "tenths to inches calculator, decimal feet to inches, tenths to inches converter, surveying feet to inches, construction tenths to inches, convert decimal feet to inches, tenths measurement converter, inches to tenths converter, tenths to inches formula, tenths to inches chart, decimal foot conversion calculator, engineering tenths to inches"
+    }
+  },
+  "nm-to-ft-lbs-converter": {
+    en: {
+      title: "Nm to Ft-Lbs Converter | Free Torque Calculator",
+      description:
+        "Convert Nm to ft-lbs instantly with this free torque calculator. Accurate Newton meter to foot-pound conversion formula, chart, and table.",
+      slug: "/nm-to-ft-lbs-converter",
+      keywords:
+        "nm to ft lbs converter, nm to ft-lbs, newton meter to foot pound, torque converter, nm to foot pounds, ft lbs to nm, torque calculator, newton meter conversion, foot pound torque, torque wrench conversion, nm ft lbs chart, convert nm to ft lbs, convert ft lbs to nm"
+    }
+  },
+  "ski-size-calculator": {
+    en: {
+      title: "Ski Size Calculator — Find Your Perfect Ski Length",
+      description:
+        "Use our free ski size calculator to find your perfect ski length by height, weight, and skill level. Get instant results for all ski types and ability levels.",
+      slug: "/ski-size-calculator",
+      keywords:
+        "ski size calculator, ski length calculator, what size skis do I need, ski size chart, ski size by height, ski size by weight, beginner ski size, powder ski length, all mountain ski size, ski sizing guide, how to choose ski length, ski size for beginners, ski size for experts, freestyle ski size, racing ski length, ski calculator height weight"
+    }
+  },
   "kite-size-calculator": {
     en: {
       title: "Kite Size Calculator | Free Kitesurfing Kite Size Chart by Weight & Wind",
