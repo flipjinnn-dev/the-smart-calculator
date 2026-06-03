@@ -196,16 +196,6 @@ export default function TenthsToInchesConverterClient({
 
   const formCard = (
     <Card className="shadow-lg border border-gray-200/80 bg-white">
-      <CardHeader className="bg-gradient-to-r from-emerald-50 to-teal-50 border-b border-teal-100/80 py-5 px-6">
-        <CardTitle className="text-xl sm:text-2xl flex items-center gap-2 text-gray-900">
-          <Calculator className="w-6 h-6 text-teal-600" />
-          Inputs
-        </CardTitle>
-        <CardDescription className="text-base text-gray-600">
-          Enter your measurement and conversion direction; defaults use common
-          field survey values.
-        </CardDescription>
-      </CardHeader>
       <CardContent className="p-6 space-y-8">
         <div className="space-y-3">
           <div className="flex items-start gap-2">

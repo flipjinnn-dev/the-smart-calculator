@@ -211,16 +211,6 @@ export default function SkiSizeCalculatorClient({
 
   const formCard = (
     <Card className="shadow-lg border border-gray-200/80 bg-white">
-      <CardHeader className="bg-gradient-to-r from-sky-50 to-blue-50 border-b border-sky-100/80 py-5 px-6">
-        <CardTitle className="text-xl sm:text-2xl flex items-center gap-2 text-gray-900">
-          <Calculator className="w-6 h-6 text-sky-600" />
-          Inputs
-        </CardTitle>
-        <CardDescription className="text-base text-gray-600">
-          Enter your measurements and skiing profile. Base length uses height × 0.875 (adults) or
-          × 0.75 (juniors), then skill, weight, and ski-type adjustments.
-        </CardDescription>
-      </CardHeader>
       <CardContent className="p-6 space-y-8">
         <div className="space-y-4">
           <div className="flex items-start gap-2">

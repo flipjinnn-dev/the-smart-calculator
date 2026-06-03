@@ -196,16 +196,6 @@ export default function NmToFtLbsConverterClient({
 
   const formCard = (
     <Card className="shadow-lg border border-gray-200/80 bg-white">
-      <CardHeader className="bg-gradient-to-r from-indigo-50 to-violet-50 border-b border-indigo-100/80 py-5 px-6">
-        <CardTitle className="text-xl sm:text-2xl flex items-center gap-2 text-gray-900">
-          <Calculator className="w-6 h-6 text-indigo-600" />
-          Inputs
-        </CardTitle>
-        <CardDescription className="text-base text-gray-600">
-          Enter your torque value and conversion direction; defaults use common
-          workshop settings.
-        </CardDescription>
-      </CardHeader>
       <CardContent className="p-6 space-y-8">
         <div className="space-y-3">
           <div className="flex items-start gap-2">

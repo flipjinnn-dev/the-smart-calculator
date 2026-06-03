@@ -289,15 +289,6 @@ export default function ElectricityBillCalculatorClient({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="space-y-6">
               <Card className="shadow-lg border border-gray-200/80 bg-white">
-                <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b border-blue-100/80 py-5 px-6">
-                  <CardTitle className="text-xl sm:text-2xl flex items-center gap-2 text-gray-900">
-                    <Calculator className="w-6 h-6 text-blue-600" />
-                    Inputs
-                  </CardTitle>
-                  <CardDescription className="text-base text-gray-600">
-                    Results update as you type.
-                  </CardDescription>
-                </CardHeader>
                 <CardContent className="p-6 space-y-6">
                   <div className="flex items-start gap-2">
                     <Plug className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
