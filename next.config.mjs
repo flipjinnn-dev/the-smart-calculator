@@ -85,6 +85,11 @@ const nextConfig = {
       //   permanent: true,
       // },
       {
+        source: '/sports/ski-size-calculator',
+        destination: '/ski-size-calculator',
+        permanent: true,
+      },
+      {
         source: '/candy-wheel',
         destination: '/games/candy-wheel',
         permanent: true,

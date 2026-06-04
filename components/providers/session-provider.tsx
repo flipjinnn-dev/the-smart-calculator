@@ -1,18 +1,21 @@
 "use client";
 
 import { SessionProvider as NextAuthSessionProvider } from "next-auth/react";
-import { usePathname } from "next/navigation";
+import type { Session } from "next-auth";
 
-export function SessionProvider({ children }: { children: React.ReactNode }) {
-  const pathname = usePathname();
-  const isAdminRoute = pathname?.startsWith("/admin");
-
-  if (isAdminRoute) {
-    return <>{children}</>;
-  }
-
+export function SessionProvider({
+  children,
+  session,
+}: {
+  children: React.ReactNode;
+  session?: Session | null;
+}) {
   return (
-    <NextAuthSessionProvider refetchOnWindowFocus={false} refetchInterval={0}>
+    <NextAuthSessionProvider
+      session={session}
+      refetchOnWindowFocus={false}
+      refetchInterval={0}
+    >
       {children}
     </NextAuthSessionProvider>
   );

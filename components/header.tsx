@@ -5,6 +5,7 @@ import Logo from "@/components/logo"
 import { usePathname } from "next/navigation"
 import { useState, useEffect, useMemo, memo } from "react"
 import DynamicBreadcrumb from "@/components/dynamic-breadcrumb"
+import { ClientOnly } from "@/components/client-only"
 import { getLanguageSwitcherUrl } from "@/lib/url-utils"
 import { useSession, signIn, signOut } from "next-auth/react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -210,11 +211,153 @@ function Header() {
   return <HeaderWithSession />
 }
 
+function HeaderAuthSlot() {
+  const { data: session, status } = useSession()
+
+  if (status === "loading") {
+    return (
+      <div className="h-10 w-10 rounded-full bg-gray-200 animate-pulse" />
+    )
+  }
+
+  if (session) {
+    return (
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Button variant="ghost" className="hidden md:flex relative h-10 w-10 rounded-full border-2 border-blue-500/30 hover:border-blue-500 transition-all">
+            <Avatar className="h-10 w-10">
+              <AvatarImage src={session.user?.image || ""} alt={session.user?.name || "User"} />
+              <AvatarFallback className="bg-gradient-to-br from-blue-500 to-purple-500 text-white">
+                <User className="h-5 w-5" />
+              </AvatarFallback>
+            </Avatar>
+          </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent className="w-56 bg-white/95 backdrop-blur-xl border-2 border-gray-200 shadow-2xl" align="end">
+          <DropdownMenuLabel className="font-normal">
+            <div className="flex flex-col space-y-1">
+              <p className="text-sm font-medium leading-none">{session.user?.name}</p>
+              <p className="text-xs leading-none text-muted-foreground">{session.user?.email}</p>
+            </div>
+          </DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem asChild>
+            <Link href="/community" className="cursor-pointer flex items-center">
+              <Users className="mr-2 h-4 w-4" />
+              <span>Community</span>
+            </Link>
+          </DropdownMenuItem>
+          {/* @ts-ignore */}
+          {session.user?.role === "admin" && (
+            <DropdownMenuItem asChild>
+              <Link href="/admin/dashboard" className="cursor-pointer flex items-center">
+                <Shield className="mr-2 h-4 w-4" />
+                <span>Admin Dashboard</span>
+              </Link>
+            </DropdownMenuItem>
+          )}
+          <DropdownMenuSeparator />
+          <DropdownMenuItem
+            className="cursor-pointer text-red-600 focus:text-red-600"
+            onClick={() => signOut({ callbackUrl: "/" })}
+          >
+            <LogOut className="mr-2 h-4 w-4" />
+            <span>Sign Out</span>
+          </DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
+    )
+  }
+
+  return (
+    <Button onClick={() => signIn()} size="sm" className="hidden md:flex bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all">
+      Sign In
+    </Button>
+  )
+}
+
+function HeaderMobileAuth({ onClose }: { onClose: () => void }) {
+  const { data: session, status } = useSession()
+
+  if (status === "loading") {
+    return null
+  }
+
+  if (!session) {
+    return (
+      <div className="px-3 mb-3">
+        <div className="px-4">
+          <Button
+            onClick={() => {
+              signIn()
+              onClose()
+            }}
+            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 rounded-lg shadow-md hover:shadow-lg transition-all"
+          >
+            Sign In
+          </Button>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="px-3 pt-3 border-t border-gray-200 mt-2">
+      <div className="px-4 mb-3">
+        <div className="flex items-center gap-3 p-3 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg">
+          <Avatar className="h-10 w-10 ring-2 ring-white shadow-sm">
+            <AvatarImage src={session.user?.image || ""} alt={session.user?.name || "User"} />
+            <AvatarFallback className="bg-gradient-to-br from-blue-500 to-purple-500 text-white text-sm">
+              <User className="h-5 w-5" />
+            </AvatarFallback>
+          </Avatar>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-gray-900 truncate">{session.user?.name}</p>
+            <p className="text-xs text-gray-600 truncate">{session.user?.email}</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="space-y-1 px-4 pb-2">
+        {/* @ts-ignore */}
+        {session.user?.role === "admin" && (
+          <Link
+            href="/admin/dashboard"
+            className="flex items-center gap-3 px-3 py-2.5 text-sm text-gray-700 hover:bg-blue-50 rounded-lg transition-colors"
+            onClick={onClose}
+          >
+            <Shield className="h-4 w-4 text-blue-600" />
+            <span>Admin Dashboard</span>
+          </Link>
+        )}
+        <button
+          onClick={() => {
+            signOut({ callbackUrl: "/" })
+            onClose()
+          }}
+          className="flex items-center gap-3 px-3 py-2.5 text-sm text-red-600 hover:bg-red-50 rounded-lg transition-colors w-full text-left"
+        >
+          <LogOut className="h-4 w-4" />
+          <span>Sign Out</span>
+        </button>
+      </div>
+    </div>
+  )
+}
+
 function HeaderWithSession() {
   const pathname = usePathname()
-  const [language, setLanguage] = useState("en")
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const { data: session, status } = useSession()
+  const [authMounted, setAuthMounted] = useState(false)
+
+  useEffect(() => {
+    setAuthMounted(true)
+  }, [])
+
+  const language = useMemo(() => {
+    const langMatch = pathname.match(/^\/(br|pl|de|es)/)
+    return langMatch ? langMatch[1] : "en"
+  }, [pathname])
 
   // Memoize expensive path calculations
   const pathWithoutLang = useMemo(() => pathname.replace(/^\/(br|pl|de|es)/, '') || '/', [pathname])
@@ -251,15 +394,6 @@ function HeaderWithSession() {
     isBlogPage || isGamesPage || isEnglishOnlyCalculator,
     [isBlogPage, isGamesPage, isEnglishOnlyCalculator]
   )
-
-  // Extract language from pathname - optimized
-  useEffect(() => {
-    const langMatch = pathname.match(/^\/(br|pl|de|es)/)
-    const newLang = langMatch ? langMatch[1] : "en"
-    if (newLang !== language) {
-      setLanguage(newLang)
-    }
-  }, [pathname, language])
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -357,59 +491,13 @@ function HeaderWithSession() {
                 {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
               </Button>
 
-              {/* User Profile Menu */}
-              {status === "loading" ? (
-                <div className="hidden md:block w-10 h-10 rounded-full bg-gray-200 animate-pulse" />
-              ) : session ? (
-                <DropdownMenu>
-                  <DropdownMenuTrigger asChild>
-                    <Button variant="ghost" className="hidden md:flex relative h-10 w-10 rounded-full border-2 border-blue-500/30 hover:border-blue-500 transition-all">
-                      <Avatar className="h-10 w-10">
-                        <AvatarImage src={session.user?.image || ""} alt={session.user?.name || "User"} />
-                        <AvatarFallback className="bg-gradient-to-br from-blue-500 to-purple-500 text-white">
-                          <User className="h-5 w-5" />
-                        </AvatarFallback>
-                      </Avatar>
-                    </Button>
-                  </DropdownMenuTrigger>
-                  <DropdownMenuContent className="w-56 bg-white/95 backdrop-blur-xl border-2 border-gray-200 shadow-2xl" align="end" forceMount>
-                    <DropdownMenuLabel className="font-normal">
-                      <div className="flex flex-col space-y-1">
-                        <p className="text-sm font-medium leading-none">{session.user?.name}</p>
-                        <p className="text-xs leading-none text-muted-foreground">{session.user?.email}</p>
-                      </div>
-                    </DropdownMenuLabel>
-                    <DropdownMenuSeparator />
-                    <DropdownMenuItem asChild>
-                      <Link href="/community" className="cursor-pointer flex items-center">
-                        <Users className="mr-2 h-4 w-4" />
-                        <span>Community</span>
-                      </Link>
-                    </DropdownMenuItem>
-                    {/* @ts-ignore */}
-                    {session.user?.role === "admin" && (
-                      <DropdownMenuItem asChild>
-                        <Link href="/admin/dashboard" className="cursor-pointer flex items-center">
-                          <Shield className="mr-2 h-4 w-4" />
-                          <span>Admin Dashboard</span>
-                        </Link>
-                      </DropdownMenuItem>
-                    )}
-                    <DropdownMenuSeparator />
-                    <DropdownMenuItem
-                      className="cursor-pointer text-red-600 focus:text-red-600"
-                      onClick={() => signOut({ callbackUrl: "/" })}
-                    >
-                      <LogOut className="mr-2 h-4 w-4" />
-                      <span>Sign Out</span>
-                    </DropdownMenuItem>
-                  </DropdownMenuContent>
-                </DropdownMenu>
-              ) : (
-                <Button onClick={() => signIn()} size="sm" className="hidden md:flex bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all">
-                  Sign In
-                </Button>
-              )}
+              {/* User Profile Menu — empty on SSR; fills in after mount (hydration-safe) */}
+              <div
+                className="hidden md:flex h-10 w-10 shrink-0 items-center justify-center"
+                suppressHydrationWarning
+              >
+                {authMounted ? <HeaderAuthSlot /> : null}
+              </div>
             </div>
           </div>
 
@@ -492,66 +580,17 @@ function HeaderWithSession() {
                   </div>
                 )}
 
-                {/* Sign In Button */}
-                {!session && (
-                  <div className="px-3 mb-3">
-                    <div className="px-4">
-                      <Button
-                        onClick={() => { signIn(); setMobileMenuOpen(false); }}
-                        className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 rounded-lg shadow-md hover:shadow-lg transition-all"
-                      >
-                        Sign In
-                      </Button>
-                    </div>
-                  </div>
-                )}
-
-                {/* User Profile Section */}
-                {session && (
-                  <div className="px-3 pt-3 border-t border-gray-200 mt-2">
-                    <div className="px-4 mb-3">
-                      <div className="flex items-center gap-3 p-3 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg">
-                        <Avatar className="h-10 w-10 ring-2 ring-white shadow-sm">
-                          <AvatarImage src={session.user?.image || ""} alt={session.user?.name || "User"} />
-                          <AvatarFallback className="bg-gradient-to-br from-blue-500 to-purple-500 text-white text-sm">
-                            <User className="h-5 w-5" />
-                          </AvatarFallback>
-                        </Avatar>
-                        <div className="flex-1 min-w-0">
-                          <p className="text-sm font-semibold text-gray-900 truncate">{session.user?.name}</p>
-                          <p className="text-xs text-gray-600 truncate">{session.user?.email}</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="space-y-1 px-4 pb-2">
-                      {/* @ts-ignore */}
-                      {session.user?.role === "admin" && (
-                        <Link
-                          href="/admin/dashboard"
-                          className="flex items-center gap-3 px-3 py-2.5 text-sm text-gray-700 hover:bg-blue-50 rounded-lg transition-colors"
-                          onClick={() => setMobileMenuOpen(false)}
-                        >
-                          <Shield className="h-4 w-4 text-blue-600" />
-                          <span>Admin Dashboard</span>
-                        </Link>
-                      )}
-                      <button
-                        onClick={() => { signOut({ callbackUrl: "/" }); setMobileMenuOpen(false); }}
-                        className="flex items-center gap-3 px-3 py-2.5 text-sm text-red-600 hover:bg-red-50 rounded-lg transition-colors w-full text-left"
-                      >
-                        <LogOut className="h-4 w-4" />
-                        <span>Sign Out</span>
-                      </button>
-                    </div>
-                  </div>
+                {authMounted && (
+                  <HeaderMobileAuth onClose={() => setMobileMenuOpen(false)} />
                 )}
               </div>
             </div>
           )}
         </div>
       </header>
-      <DynamicBreadcrumb />
+      <ClientOnly>
+        <DynamicBreadcrumb />
+      </ClientOnly>
     </>
   )
 }
