@@ -2,6 +2,8 @@
  * Language utility functions for consistent language handling across the application
  */
 
+import { getCalculatorMetaEntry } from "@/lib/calculator-meta-key";
+
 /**
  * Detect language from various sources
  * Order of precedence:
