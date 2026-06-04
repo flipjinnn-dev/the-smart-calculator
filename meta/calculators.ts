@@ -2411,7 +2411,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Geschwindigkeitsrechner – Geschwindigkeit einfach berechnen",
-      description: "Berechne mit dem Geschwindigkeitsrechner die Geschwindigkeit aus Strecke & Zeit. Schnell",
+      description: "Berechnen Sie Geschwindigkeit, Strecke und Zeit mit dem Geschwindigkeitsrechner. Kostenloses Online-Tool für Physik, Sport und Alltag.",
       slug: "/de/physik/geschwindigkeitsrechner",
       keywords: "Geschwindigkeit, Beschleunigung, Physik Rechner"
     }
@@ -2476,8 +2476,8 @@ export const calculatorsMeta: CalculatorMeta = {
       keywords: "distância salto carro, física salto, velocidade, ângulo"
     },
     de: {
-      title: "Entfernungsrechner – Strecke aus Zeit & Tempo berechnen",
-      description: "Berechne mit dem Entfernungsrechner die Strecke anhand von Zeit & Geschwindigkeit. Schnell",
+      title: "Auto-Sprungweiten-Rechner – Sprungdistanz berechnen",
+      description: "Berechnen Sie die Sprungweite eines Fahrzeugs anhand von Geschwindigkeit und Absprungwinkel. Kostenloser Physik-Rechner für Stunt- und Bewegungsaufgaben.",
       slug: "/de/physik/entfernungsrechner",
       keywords: "Sprungweite Auto, Geschwindigkeit, Absprungwinkel, Physik"
     }
@@ -2520,6 +2520,24 @@ export const calculatorsMeta: CalculatorMeta = {
       description: "Calcula la conservación del momento lineal y angular al instante con nuestra herramienta precisa. ¡Resuelve problemas de física rápida y fácilmente!",
       slug: "/es/fisica/calculadora-da-conservacao-do-momento",
       keywords: "calculadora, conservación, momento, física, fácil, calcula, lineal, angular, instante, nuestra, herramienta, precisa, resuelve, problemas, rápida"
+    }
+  },
+  'mg-to-ml-calculator': {
+    en: {
+      title: "mg to mL Calculator | Instant Conversion Tool",
+      description:
+        "Convert mg to mL instantly using density or concentration. Free calculator for medicine, syringe dosing, lab work and liquid conversions.",
+      slug: "/physics/mg-to-ml-calculator",
+      keywords:
+        "mg to ml calculator, milligrams to milliliters, mg ml conversion, density calculator, medication dosing, syringe calculator"
+    },
+    de: {
+      title: "mg zu mL Rechner | Sofortige Umrechnung",
+      description:
+        "Rechnen Sie mg in mL sofort mit Dichte oder Konzentration um. Kostenloser Rechner für Medizin, Spritzen-Dosierung, Labor und Flüssigkeiten.",
+      slug: "/de/physics/mg-to-ml-calculator",
+      keywords:
+        "mg zu ml, Milligramm in Milliliter, mg ml Umrechnung, Dichte Rechner, Medikamentendosierung"
     }
   },
   'board-foot-calculator': {
@@ -2741,7 +2759,7 @@ export const calculatorsMeta: CalculatorMeta = {
     },
     de: {
       title: "Kuchenform Rechner – Zutatenmenge einfach umrechnen",
-      description: "Berechne mit dem Kuchenform Rechner die richtige Zutatenmenge für jede Backform. Schnell",
+      description: "Rechnen Sie mit dem Kuchenform-Rechner Zutatenmengen beim Wechsel zwischen runden, quadratischen und rechteckigen Backformen um. Ideal zum Anpassen von Rezepten.",
       slug: "/de/essen/kuchenform-rechner",
       keywords: "Backform Größe, Äquivalenz Backformen, Rezept anpassen"
     }

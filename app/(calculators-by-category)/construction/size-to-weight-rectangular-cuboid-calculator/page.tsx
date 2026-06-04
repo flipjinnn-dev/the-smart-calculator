@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import SizeToWeightRectangularCuboidCalculatorClient from "./size-to-weight-rectangular-cuboid-calculator-client";
 
 export default async function SizeToWeightRectangularCuboidCalculatorCalculator() {

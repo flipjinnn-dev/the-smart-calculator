@@ -7,11 +7,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 import SkiSizeCalculatorClient from "./ski-size-calculator-client";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("ski-size-calculator");
-}
 
 export default async function SkiSizeCalculatorPage() {
   const headersList = await headers();

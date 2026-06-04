@@ -1,21 +1,13 @@
 import { headers } from "next/headers";
-import type { Metadata } from "next";
 import Script from "next/script";
 import {
-  generateCalculatorMetadata,
   loadCalculatorUiContent,
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 import { loadCalculatorSeo } from "@/lib/calculator-seo";
 import SilcaTirePressureCalculatorClient from "./silcatire-pressure-calculator-client";
 
-export const dynamic = "force-dynamic";
-
 const CALCULATOR_ID = "silcatire-pressure-calculator";
-
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata(CALCULATOR_ID);
-}
 
 export default async function SilcaTirePressurePage() {
   const headersList = await headers();

@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import LeanBodyMassCalculatorClient from "./lean-body-mass-calculator-client";
 
 export default async function LeanBodyMassCalculatorCalculator() {

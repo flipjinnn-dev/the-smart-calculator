@@ -7,13 +7,9 @@ import {
 } from "@/lib/calculator-page-runtime";
 import TwinFlameCalculatorClient from "./twin-flame-calculator-client";
 
-export const dynamic = "force-dynamic";
 
 const CALCULATOR_ID = "twin-flame-calculator";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata(CALCULATOR_ID);
-}
 
 export default async function TwinFlameCalculatorPage() {
   const headersList = await headers();

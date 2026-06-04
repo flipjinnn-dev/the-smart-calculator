@@ -6,7 +6,6 @@ import {
 
 import AmortizationCalculatorClient from "./amortization-calculator-client";
 
-export const dynamic = "force-dynamic";
 
 export default async function AmortizationCalculatorCalculator() {
   const headersList = await headers();

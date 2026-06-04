@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+
+const CALCULATOR_ID = "pool-volume-calculator";
+
+export const dynamic = "force-static";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata(CALCULATOR_ID);
+}
+
 const jsonLdSchema = {
   "@context": "https://schema.org",
   "@graph": [

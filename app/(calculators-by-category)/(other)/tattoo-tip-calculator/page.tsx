@@ -6,11 +6,7 @@ import {
   generateCalculatorMetadata,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("tattoo-tip-calculator");
-}
 
 import TattooTipCalculatorClient from "./tattoo-tip-calculator-client";
 

@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import DebtPayoffCalculatorClient from "./debt-payoff-calculator-client";
 
 export default async function DebtPayoffCalculatorCalculator() {

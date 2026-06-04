@@ -7,11 +7,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 import NmToFtLbsConverterClient from "./nm-to-ft-lbs-converter-client";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("nm-to-ft-lbs-converter");
-}
 
 export default async function NmToFtLbsConverterPage() {
   const headersList = await headers();

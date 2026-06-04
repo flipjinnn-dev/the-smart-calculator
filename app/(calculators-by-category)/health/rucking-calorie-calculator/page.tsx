@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import RuckingCalorieCalculatorClient from "./rucking-calorie-calculator-client";
 
 export default async function RuckingCalorieCalculatorCalculator() {

@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import CarbohydrateCalculatorClient from "./carbohydrate-calculator-client";
 
 export default async function CarbohydrateCalculatorCalculator() {

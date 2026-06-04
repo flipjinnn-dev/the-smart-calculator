@@ -1,35 +1,23 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
-import { loadCalculatorSeo } from "@/lib/calculator-seo";
-
-export const dynamic = "force-dynamic";
+import { CalculatorLayoutShell } from "@/components/calculator-layout-shell";
 
 const CALCULATOR_ID = "house-affordability-calculator";
+
+export const dynamic = "force-static";
 
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);
 }
 
-export default async function CalculatorLayout({
+export default function CalculatorLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const seo = await loadCalculatorSeo(CALCULATOR_ID, "en");
-  const jsonLdSchema = seo?.schema ?? null;
-
   return (
-    <>
-      {jsonLdSchema ? (
-        <Script
-          id={`${CALCULATOR_ID}-json-ld`}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
-          strategy="afterInteractive"
-        />
-      ) : null}
+    <CalculatorLayoutShell calculatorId={CALCULATOR_ID}>
       {children}
-    </>
+    </CalculatorLayoutShell>
   );
 }

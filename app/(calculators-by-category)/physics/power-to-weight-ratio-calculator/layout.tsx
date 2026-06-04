@@ -1,4 +1,13 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+
+const CALCULATOR_ID = "power-to-weight-ratio-calculator";
+
+export const dynamic = "force-static";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata(CALCULATOR_ID);
+}
 
 export const metadata: Metadata = {
   title: "Power-to-Weight Ratio Calculator - Calculate Acceleration & Efficiency",

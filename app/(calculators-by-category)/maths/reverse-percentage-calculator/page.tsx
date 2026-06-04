@@ -8,11 +8,7 @@ import type { Metadata } from "next";
 import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import ReversePercentageCalculatorClient from "./reverse-percentage-calculator-client";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("reverse-percentage-calculator");
-}
 
 export default async function ReversePercentageCalculatorPage() {
   const headersList = await headers();

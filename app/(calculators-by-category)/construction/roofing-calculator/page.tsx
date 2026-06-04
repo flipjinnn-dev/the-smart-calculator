@@ -5,7 +5,6 @@ import {
 } from "@/lib/calculator-page-runtime";
 import RoofingCalculatorClient from "./roofing-calculator-client";
 
-export const dynamic = "force-dynamic";
 
 const CALCULATOR_ID = "roofing-calculator";
 

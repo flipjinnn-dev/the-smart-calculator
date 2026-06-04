@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import SalesTaxCalculatorClient from "./sales-tax-calculator-client";
 
 export default async function SalesTaxCalculatorCalculator() {

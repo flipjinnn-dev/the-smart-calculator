@@ -1,6 +1,17 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+
+const CALCULATOR_ID = "ssc-gpa-calculator";
+
+export const dynamic = "force-static";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata(CALCULATOR_ID);
+}
+
 export const metadata: Metadata = {
   title: "SSC GPA Calculator – Fast & Accurate Results",
   description: "Use our SSC GPA calculator to compute GPA, convert to percentage or marks, and understand the SSC grading system instantly.",

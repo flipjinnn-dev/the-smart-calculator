@@ -1,5 +1,16 @@
 import type { Metadata } from "next";
 
+import type { Metadata } from "next";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+
+const CALCULATOR_ID = "uf-gpa-calculator";
+
+export const dynamic = "force-static";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata(CALCULATOR_ID);
+}
+
 const canonicalUrl = "https://www.thesmartcalculator.com/uf-gpa-calculator";
 
 export const metadata: Metadata = {

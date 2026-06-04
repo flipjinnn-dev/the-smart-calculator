@@ -1,5 +1,6 @@
 import { calculatorsMeta } from "@/meta/calculators";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import { resolveCalculatorMetaKey } from "@/lib/calculator-meta-key";
 
 export const SITE_ORIGIN = "https://www.thesmartcalculator.com";
 
@@ -21,7 +22,8 @@ const CALCULATOR_LANG_TO_HREFLANG: Record<string, HreflangLocaleKey> = {
 export function getCalculatorAlternateLanguages(
   calculatorId: string
 ): Record<string, string> {
-  const calculator = calculatorsMeta[calculatorId];
+  const metaKey = resolveCalculatorMetaKey(calculatorId);
+  const calculator = calculatorsMeta[metaKey];
   if (!calculator) {
     return {};
   }
@@ -89,7 +91,7 @@ export function hreflangKeyFromPathname(pathname: string): HreflangLocaleKey {
 /**
  * Ensures hreflang self-reference: the current URL must appear under the correct
  * `hreflang` for this path (fixes "Not Self-Referencing" in audits).
- * For English pages, also sets `x-default` to the canonical URL.
+ * `x-default` always points at the English URL when the cluster includes `en`.
  */
 export function withSelfReferencingHreflang(
   languages: Record<string, string>,
@@ -99,7 +101,9 @@ export function withSelfReferencingHreflang(
   const key = hreflangKeyFromPathname(pathname);
   const out = { ...languages };
   out[key] = canonicalUrl;
-  if (key === "en") {
+  if (out.en) {
+    out["x-default"] = out.en;
+  } else if (key === "en") {
     out["x-default"] = canonicalUrl;
   }
   return out;

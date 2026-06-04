@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import FieldingPercentageCalculatorClient from "./fielding-percentage-calculator-client";
 
 export default async function FieldingPercentageCalculatorCalculator() {

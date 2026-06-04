@@ -43,29 +43,12 @@ export function detectLanguage(pathname: string, headers?: Headers): string {
  * @returns Language-specific calculator data
  */
 export function getLocalizedCalculatorData(calculatorId: string, language: string = 'en') {
-  // Import calculator metadata
-  const { calculatorsMeta } = require('@/meta/calculators');
-  
-  // Get the calculator metadata
-  const calculator = calculatorsMeta[calculatorId];
-  
-  if (!calculator) {
-    // If no metadata found, return defaults
+  const meta = getCalculatorMetaEntry(calculatorId, language);
+
+  if (!meta) {
     return { name: "Calculator", description: "A useful calculator" };
   }
-  
-  // Get the language-specific data
-  const meta = calculator[language] || calculator["en"];
-  
-  if (!meta) {
-    // If no language-specific data found, return English defaults
-    const englishMeta = calculator["en"];
-    return { 
-      name: englishMeta?.title || "Calculator", 
-      description: englishMeta?.description || "A useful calculator" 
-    };
-  }
-  
+
   return {
     name: meta.title,
     description: meta.description
@@ -79,24 +62,12 @@ export function getLocalizedCalculatorData(calculatorId: string, language: strin
  * @returns Language-specific calculator href
  */
 export function getLocalizedCalculatorHref(calculatorId: string, language: string = 'en'): string {
-  // Import calculator metadata
-  const { calculatorsMeta } = require('@/meta/calculators');
-  
-  // Get the calculator metadata
-  const calculator = calculatorsMeta[calculatorId];
-  
-  if (!calculator) {
-    console.warn(`No metadata found for calculator: ${calculatorId}`);
-    return '/';
-  }
-  
-  // Get the language-specific slug
-  const meta = calculator[language] || calculator["en"];
-  
+  const meta = getCalculatorMetaEntry(calculatorId, language);
+
   if (!meta) {
     console.warn(`No metadata found for calculator: ${calculatorId} in language: ${language}`);
     return '/';
   }
-  
+
   return meta.slug;
 }

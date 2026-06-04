@@ -1,5 +1,4 @@
-  import type { Metadata } from "next";
-  import { Briefcase, Calculator, Globe, CheckCircle2, AlertCircle, TrendingUp, Shield, FileText } from "lucide-react";
+import { Briefcase, Calculator, Globe, CheckCircle2, AlertCircle, TrendingUp, Shield, FileText } from "lucide-react";
   import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
   import EndOfServiceCalculator from "@/components/end-of-service-calculator";
   import Link from "next/link";
@@ -8,15 +7,7 @@
   import CalculatorGuide from "@/components/calculator-guide";
   import SimilarCalculators from "@/components/similar-calculators";
 
-  import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
-
-  export const dynamic = "force-dynamic";
-
-  export async function generateMetadata(): Promise<Metadata> {
-    return generateCalculatorMetadata("end-of-service-calculator");
-  }
-
-  export default function EndOfServiceCalculatorPage() {
+export default function EndOfServiceCalculatorPage() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

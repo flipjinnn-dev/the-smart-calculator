@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import TimeCalculatorClient from "./time-calculator-client";
 
 export default async function TimeCalculatorCalculator() {

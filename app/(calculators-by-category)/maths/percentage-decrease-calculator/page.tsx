@@ -1,21 +1,15 @@
 import { headers } from "next/headers";
-import type { Metadata } from "next";
 import Script from "next/script";
 import {
-  generateCalculatorMetadata,
   loadCalculatorUiContent,
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 import { loadCalculatorSeo } from "@/lib/calculator-seo";
 import PercentageDecreaseCalculatorClient from "./percentage-decrease-calculator-client";
 
-export const dynamic = "force-dynamic";
 
 const CALCULATOR_ID = "percentage-decrease-calculator";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata(CALCULATOR_ID);
-}
 
 export default async function PercentageDecreaseCalculatorPage() {
   const headersList = await headers();

@@ -6,11 +6,7 @@ import {
   generateCalculatorMetadata,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("pool-volume-calculator");
-}
 
 import PoolVolumeCalculatorClient from "./pool-volume-calculator-client";
 

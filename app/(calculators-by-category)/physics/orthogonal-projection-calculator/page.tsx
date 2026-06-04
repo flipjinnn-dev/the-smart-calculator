@@ -6,7 +6,6 @@ import {
 
 import OrthogonalProjectionCalculatorClient from "./orthogonal-projection-calculator-client";
 
-export const dynamic = "force-dynamic";
 
 export default async function OrthogonalProjectionCalculatorCalculator() {
   const headersList = await headers();

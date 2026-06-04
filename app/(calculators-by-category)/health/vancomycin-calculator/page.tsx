@@ -4,7 +4,6 @@ import {
   loadCalculatorUiContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 
 export default async function VancomycinCalculator() {
   const headersList = await headers();

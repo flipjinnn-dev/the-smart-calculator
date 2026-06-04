@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import CupsToPoundsConverterClient from "./cups-to-pounds-converter-client";
 
 export default async function CupsToPoundsConverterCalculator() {

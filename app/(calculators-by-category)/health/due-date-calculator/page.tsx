@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import DueDateCalculatorClient from "./due-date-calculator-client";
 
 export default async function DueDateCalculatorCalculator() {

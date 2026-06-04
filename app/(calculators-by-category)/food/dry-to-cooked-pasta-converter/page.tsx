@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import DryToCookedPastaConverterClient from "./dry-to-cooked-pasta-converter-client";
 
 export default async function DryToCookedPastaConverterCalculator() {

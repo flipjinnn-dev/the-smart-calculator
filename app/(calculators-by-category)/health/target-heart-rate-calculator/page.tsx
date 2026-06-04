@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import TargetHeartRateCalculatorClient from "./target-heart-rate-calculator-client";
 
 export default async function TargetHeartRateCalculatorCalculator() {

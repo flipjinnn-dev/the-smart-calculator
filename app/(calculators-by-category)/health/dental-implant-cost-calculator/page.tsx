@@ -4,11 +4,7 @@ import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import DentalImplantCostCalculatorClient from "./dental-implant-cost-calculator-client";
 import Image from "next/image";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("dental-implant-cost-calculator");
-}
 
 export default function DentalImplantCostCalculator() {
   const jsonLdSchema = {

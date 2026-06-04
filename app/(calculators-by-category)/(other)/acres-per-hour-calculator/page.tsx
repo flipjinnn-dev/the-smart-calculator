@@ -3,11 +3,7 @@ import Script from "next/script";
 import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import AcresPerHourCalculatorClient from "./acres-per-hour-calculator-client";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("acres-per-hour-calculator");
-}
 
 export default function AcresPerHourCalculator() {
   const jsonLdSchema = {

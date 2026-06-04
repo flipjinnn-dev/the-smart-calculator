@@ -1,4 +1,5 @@
 import { calculatorsMeta } from '@/meta/calculators';
+import { getCalculatorMetaEntry, resolveCalculatorMetaKey } from '@/lib/calculator-meta-key';
 
 /**
  * Generate a language-specific URL for a calculator
@@ -7,8 +8,8 @@ import { calculatorsMeta } from '@/meta/calculators';
  * @returns The language-specific URL for the calculator
  */
 export function getCalculatorUrl(calculatorId: string, language: string = 'en'): string {
-  // Get the calculator metadata
-  const calculator = calculatorsMeta[calculatorId];
+  const metaKey = resolveCalculatorMetaKey(calculatorId);
+  const calculator = calculatorsMeta[metaKey];
 
   if (!calculator) {
     console.warn(`No metadata found for calculator: ${calculatorId}`);
@@ -16,7 +17,7 @@ export function getCalculatorUrl(calculatorId: string, language: string = 'en'):
   }
 
   // Get the language-specific slug
-  const meta = calculator[language] || calculator["en"];
+  const meta = calculator[language as keyof typeof calculator] || calculator["en"];
 
   if (!meta) {
     console.warn(`No metadata found for calculator: ${calculatorId} in language: ${language}`);
@@ -53,7 +54,8 @@ export function getLocalizedCalculatorUrl(englishUrl: string, language: string):
   }
 
   // Get the localized URL from calculator metadata
-  const calculator = calculatorsMeta[calculatorId];
+  const metaKey = resolveCalculatorMetaKey(calculatorId);
+  const calculator = calculatorsMeta[metaKey];
 
   if (!calculator) {
     console.warn(`No metadata found for calculator: ${calculatorId}`);
@@ -61,7 +63,7 @@ export function getLocalizedCalculatorUrl(englishUrl: string, language: string):
   }
 
   // Get the language-specific slug
-  const meta = calculator[language] || calculator["en"];
+  const meta = calculator[language as keyof typeof calculator] || calculator["en"];
 
   if (!meta) {
     console.warn(`No metadata found for calculator: ${calculatorId} in language: ${language}`);

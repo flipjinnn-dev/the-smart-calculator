@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import RandomNumberGeneratorClient from "./random-number-generator-client";
 
 export default async function RandomNumberGeneratorCalculator() {

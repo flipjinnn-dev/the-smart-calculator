@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import GfrCalculatorClient from "./gfr-calculator-client";
 
 export default async function GfrCalculatorCalculator() {

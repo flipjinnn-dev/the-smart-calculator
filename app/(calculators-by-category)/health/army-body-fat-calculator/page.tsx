@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import ArmyBodyFatCalculatorClient from "./army-body-fat-calculator-client";
 
 export default async function ArmyBodyFatCalculatorCalculator() {

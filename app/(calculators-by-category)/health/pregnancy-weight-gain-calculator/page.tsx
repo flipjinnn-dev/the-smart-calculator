@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import PregnancyWeightGainCalculatorClient from "./pregnancy-weight-gain-calculator-client";
 
 export default async function PregnancyWeightGainCalculatorCalculator() {

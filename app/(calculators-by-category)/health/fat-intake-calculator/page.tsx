@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import FatIntakeCalculatorClient from "./fat-intake-calculator-client";
 
 export default async function FatIntakeCalculatorCalculator() {

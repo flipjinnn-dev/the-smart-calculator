@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import WebsiteCostCalculatorClient from "./website-cost-calculator-client";
 
 export default async function WebsiteCostCalculatorPage() {

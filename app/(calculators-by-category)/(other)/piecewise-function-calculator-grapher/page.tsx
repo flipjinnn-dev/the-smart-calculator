@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import PiecewiseFunctionCalculatorGrapherClient from "./piecewise-function-calculator-grapher-client";
 
 export default async function PiecewiseFunctionCalculatorGrapherCalculator() {

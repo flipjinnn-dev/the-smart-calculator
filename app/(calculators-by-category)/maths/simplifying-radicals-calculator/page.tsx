@@ -7,11 +7,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 import SimplifyingRadicalsCalculatorClient from "./simplifying-radicals-calculator-client";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("simplifying-radicals-calculator");
-}
 
 export default async function SimplifyingRadicalsCalculatorPage() {
   const headersList = await headers();

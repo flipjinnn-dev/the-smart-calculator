@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import CreditCardPayoffCalculatorClient from "./credit-card-payoff-calculator-client";
 
 export default async function CreditCardPayoffCalculatorCalculator() {

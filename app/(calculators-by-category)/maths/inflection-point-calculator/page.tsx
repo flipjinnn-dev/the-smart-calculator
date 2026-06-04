@@ -5,7 +5,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 
 export default async function InflectionPointCalculator() {
   const headersList = await headers();

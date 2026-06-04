@@ -8,6 +8,8 @@ import { Analytics } from "@vercel/analytics/next"
 import Header from "@/components/header"
 import BackToTop from "@/components/back-to-top"
 import { SessionProvider } from "@/components/providers/session-provider"
+import { getServerSession } from "next-auth"
+import { authOptions } from "@/lib/auth"
 import { Toaster } from "sonner"
 import { headers } from "next/headers"
 import { InternalLinksSection } from "@/components/internal-links-section"
@@ -140,19 +142,26 @@ export default async function RootLayout({
   // Map language codes to proper HTML lang attributes
   const htmlLang = language === "br" ? "pt-BR" : language;
 
+  let session = null;
+  try {
+    session = await getServerSession(authOptions);
+  } catch {
+    // Avoid blocking page render if auth is misconfigured locally
+  }
+
   return (
-    <html lang={htmlLang}>
-      <head>
+    <html lang={htmlLang} suppressHydrationWarning>
+      <body className={inter.className} suppressHydrationWarning>
         {isProduction && (
-          <script
+          <Script
+            id="adsbygoogle-init"
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5433267523341571"
             crossOrigin="anonymous"
+            strategy="beforeInteractive"
           />
         )}
-      </head>
-      <body className={inter.className}>
-        <SessionProvider>
+        <SessionProvider session={session}>
           <Header />
           <main>
             {children}

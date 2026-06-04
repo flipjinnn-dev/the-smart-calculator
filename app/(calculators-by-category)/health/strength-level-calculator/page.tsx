@@ -7,11 +7,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 import StrengthLevelCalculatorClient from "./strength-level-calculator-client";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("strength-level-calculator");
-}
 
 export default async function StrengthLevelCalculatorPage() {
   const headersList = await headers();

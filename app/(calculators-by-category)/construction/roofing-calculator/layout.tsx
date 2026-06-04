@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+import Script from "next/script";
+import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+
+const CALCULATOR_ID = "roofing-calculator";
+
+export const dynamic = "force-static";
+
 const jsonLdSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -150,6 +158,10 @@ const jsonLdSchema = {
   ],
 };
 
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata(CALCULATOR_ID);
+}
+
 export default function RoofingCalculatorLayout({
   children,
 }: {
@@ -157,8 +169,10 @@ export default function RoofingCalculatorLayout({
 }) {
   return (
     <>
-      <script
+      <Script
+        id={`${CALCULATOR_ID}-json-ld`}
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
       />
       {children}

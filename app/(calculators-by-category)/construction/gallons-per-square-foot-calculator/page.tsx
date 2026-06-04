@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import GallonsPerSquareFootCalculatorClient from "./gallons-per-square-foot-calculator-client";
 
 export default async function GallonsPerSquareFootCalculatorCalculator() {

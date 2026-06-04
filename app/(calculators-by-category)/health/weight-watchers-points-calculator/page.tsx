@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import WeightWatchersPointsCalculatorClient from "./weight-watchers-points-calculator-client";
 
 export default async function WeightWatchersPointsCalculatorCalculator() {

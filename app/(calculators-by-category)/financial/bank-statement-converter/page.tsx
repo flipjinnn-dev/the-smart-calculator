@@ -8,11 +8,7 @@ import type { Metadata } from "next";
 import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import BankStatementConverterClient from "./bank-statement-converter-client";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("bank-statement-converter");
-}
 
 export default async function BankStatementConverterPage() {
   const headersList = await headers();

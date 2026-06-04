@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import IpSubnetCalculatorClient from "./ip-subnet-calculator-client";
 
 export default async function IpSubnetCalculatorCalculator() {

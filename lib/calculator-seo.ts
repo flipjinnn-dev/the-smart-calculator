@@ -2,6 +2,7 @@ import { readFile } from "fs/promises";
 import path from "path";
 import type { Metadata } from "next";
 import { getCanonicalUrl } from "@/lib/url-utils";
+import { resolveCalculatorMetaKey } from "@/lib/calculator-meta-key";
 import { calculatorsMeta } from "@/meta/calculators";
 import {
   calculators,
@@ -107,7 +108,7 @@ export function buildDefaultCalculatorSeo(
   const calc = getCalculatorById(calculatorId);
   if (!calc) return null;
 
-  const meta = calculatorsMeta[calculatorId]?.en;
+  const meta = calculatorsMeta[resolveCalculatorMetaKey(calculatorId)]?.en;
   const canonicalUrl = getCanonicalUrl(calculatorId, "en");
   const metaTitle = meta?.title?.trim() || calc.name;
   const metaDescription =

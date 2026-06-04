@@ -6,11 +6,7 @@ import {
   generateCalculatorMetadata,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("crushed-stone-calculator");
-}
 
 import CrushedStoneCalculatorClient from "./crushed-stone-calculator-client";
 

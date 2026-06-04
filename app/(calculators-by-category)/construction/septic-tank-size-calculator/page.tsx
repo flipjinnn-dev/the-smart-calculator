@@ -7,11 +7,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 import SepticTankSizeCalculatorClient from "./septic-tank-size-calculator-client";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("septic-tank-size-calculator");
-}
 
 export default async function SepticTankSizeCalculatorPage() {
   const headersList = await headers();

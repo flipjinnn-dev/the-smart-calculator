@@ -8,11 +8,7 @@ import type { Metadata } from "next";
 import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import BreastImplantSizeCalculatorClient from "./breast-client";
 
-export const dynamic = "force-dynamic";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata("implant-size-calculator");
-}
 
 export default async function BreastImplantSizeCalculatorPage() {
   const headersList = await headers();

@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import ConservationOfMomentumCalculatorClient from "./conservation-of-momentum-calculator-client";
 
 export default async function ConservationOfMomentumCalculatorCalculator() {

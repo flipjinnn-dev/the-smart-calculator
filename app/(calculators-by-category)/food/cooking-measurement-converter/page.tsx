@@ -4,7 +4,6 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-export const dynamic = "force-dynamic";
 import CookingMeasurementConverterClient from "./cooking-measurement-converter-client";
 
 export default async function CookingMeasurementConverterCalculator() {

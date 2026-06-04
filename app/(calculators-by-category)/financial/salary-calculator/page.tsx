@@ -5,7 +5,6 @@ import {
 } from "@/lib/calculator-page-runtime";
 import SalaryCalculatorClient from "./salary-calculator-client";
 
-export const dynamic = "force-dynamic";
 
 export default async function SalaryCalculatorCalculator() {
   const headersList = await headers();
