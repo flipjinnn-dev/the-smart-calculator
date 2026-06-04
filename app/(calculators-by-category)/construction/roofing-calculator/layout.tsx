@@ -4,8 +4,6 @@ import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
 const CALCULATOR_ID = "roofing-calculator";
 
-export const dynamic = "force-static";
-
 const jsonLdSchema = {
   "@context": "https://schema.org",
   "@graph": [

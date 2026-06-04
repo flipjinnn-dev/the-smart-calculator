@@ -2,64 +2,81 @@ import "server-only";
 import { unstable_noStore as noStore } from "next/cache";
 import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { calculatorsMeta } from "@/meta/calculators";
 import { getCanonicalUrl } from "@/lib/url-utils";
 import type { CalculatorGuideData } from "@/components/calculator-guide";
 import {
   getCalculatorStorageId,
   loadCalculatorSeo,
-  loadOrBuildCalculatorSeo,
-  buildMetadataFromSeo,
+  buildDefaultCalculatorSeo,
+  getCalculatorById,
 } from "@/lib/calculator-seo";
+import { getCalculatorMetaEntry, resolveCalculatorMetaKey } from "@/lib/calculator-meta-key";
 import { readCalculatorUiFile } from "@/lib/calculator-seo-storage";
 import {
   getCalculatorAlternateLanguages,
   withSelfReferencingHreflang,
+  SITE_ORIGIN,
 } from "@/lib/seo-hreflang";
+import { getLocaleFromLanguage } from "@/lib/metadata-utils";
 
-/** Use blob + fresh reads on every request (admin saves show without redeploy). */
+const DEFAULT_OG_IMAGE = `${SITE_ORIGIN}/og-image.png`;
+
+function resolveCalculatorDescription(
+  calculatorId: string,
+  language: string
+): string | undefined {
+  const localized = getCalculatorMetaEntry(calculatorId, language)?.description?.trim();
+  if (localized) return localized;
+
+  const english = getCalculatorMetaEntry(calculatorId, "en")?.description?.trim();
+  if (english) return english;
+
+  const defaults = buildDefaultCalculatorSeo(calculatorId);
+  if (defaults?.metaDescription?.trim()) return defaults.metaDescription.trim();
+
+  return getCalculatorById(calculatorId)?.description?.trim();
+}
+
+function resolveCalculatorTitle(
+  calculatorId: string,
+  language: string
+): string | undefined {
+  const localized = getCalculatorMetaEntry(calculatorId, language)?.title?.trim();
+  if (localized) return localized;
+
+  const english = getCalculatorMetaEntry(calculatorId, "en")?.title?.trim();
+  if (english) return english;
+
+  return buildDefaultCalculatorSeo(calculatorId)?.metaTitle?.trim();
+}
+
+/** Metadata for `<head>` — sync sources only so tags stay in head (no dynamic streaming). */
 export async function generateCalculatorMetadata(
   calculatorId: string
 ): Promise<Metadata> {
-  noStore();
-
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
   const pathname =
     headersList.get("x-pathname") || getCanonicalUrl(calculatorId, language);
   const path = pathname.startsWith("/") ? pathname : `/${pathname}`;
 
-  if (language === "en") {
-    const saved = await loadCalculatorSeo(calculatorId, "en");
-    const seo = saved ?? (await loadOrBuildCalculatorSeo(calculatorId, "en"));
-    if (seo?.metaTitle?.trim()) {
-      const base = buildMetadataFromSeo(calculatorId, language, seo);
-      const canonicalUrl =
-        seo.canonical?.trim() || getCanonicalUrl(calculatorId, language);
-      return {
-        ...base,
-        alternates: {
-          canonical: canonicalUrl,
-          languages: withSelfReferencingHreflang(
-            getCalculatorAlternateLanguages(calculatorId),
-            canonicalUrl,
-            path
-          ),
-        },
-      };
-    }
-  }
-
   const canonicalUrl = getCanonicalUrl(calculatorId, language);
-  const meta =
-    calculatorsMeta[calculatorId]?.[language] ||
-    calculatorsMeta[calculatorId]?.en;
+  const meta = getCalculatorMetaEntry(calculatorId, language);
+  const title =
+    resolveCalculatorTitle(calculatorId, language) ||
+    "Smart Calculator | Free Online Calculators";
+  const description =
+    resolveCalculatorDescription(calculatorId, language) ||
+    "Free online calculator tools for finance, health, math, physics, and more.";
+  const keywords =
+    meta?.keywords?.trim() ||
+    getCalculatorMetaEntry(calculatorId, "en")?.keywords?.trim();
 
   return {
-    metadataBase: new URL("https://www.thesmartcalculator.com"),
-    title: meta?.title ? { absolute: meta.title } : undefined,
-    description: meta?.description,
-    keywords: meta?.keywords,
+    metadataBase: new URL(SITE_ORIGIN),
+    title: { absolute: title },
+    description,
+    keywords,
     alternates: {
       canonical: canonicalUrl,
       languages: withSelfReferencingHreflang(
@@ -69,25 +86,26 @@ export async function generateCalculatorMetadata(
       ),
     },
     openGraph: {
-      title: meta?.title,
-      description: meta?.description,
+      title,
+      description,
       type: "website",
       url: canonicalUrl,
       siteName: "Smart Calculator",
+      locale: getLocaleFromLanguage(language),
       images: [
         {
-          url: "/og-image.png",
+          url: DEFAULT_OG_IMAGE,
           width: 1200,
           height: 630,
-          alt: meta?.title,
+          alt: title,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: meta?.title,
-      description: meta?.description,
-      images: ["/og-image.png"],
+      title,
+      description,
+      images: [DEFAULT_OG_IMAGE],
     },
     robots: { index: true, follow: true },
   };
@@ -150,6 +168,26 @@ export async function loadCalculatorUiContent(
   return ui;
 }
 
+type RawFaqItem = {
+  question?: string;
+  answer?: string;
+  q?: string;
+  a?: string;
+};
+
+/** Guide JSON may use `q`/`a` or `question`/`answer`; component expects the latter. */
+function normalizeGuideData(
+  raw: CalculatorGuideData & { faq?: RawFaqItem[] }
+): CalculatorGuideData {
+  return {
+    ...raw,
+    faq: (raw.faq ?? []).map((item) => ({
+      question: item.question ?? item.q ?? "",
+      answer: item.answer ?? item.a ?? "",
+    })),
+  };
+}
+
 export async function loadCalculatorGuideContent(
   calculatorId: string,
   language: string
@@ -157,16 +195,18 @@ export async function loadCalculatorGuideContent(
   const storageId = getCalculatorStorageId(calculatorId);
   const fallback: CalculatorGuideData = { color: "blue", sections: [], faq: [] };
   try {
-    return (
+    const raw = (
       await import(
         `@/app/content/calculator-guide/${storageId}/${language}.json`
       )
-    ).default as CalculatorGuideData;
+    ).default as CalculatorGuideData & { faq?: RawFaqItem[] };
+    return normalizeGuideData(raw);
   } catch {
     try {
-      return (
+      const raw = (
         await import(`@/app/content/calculator-guide/${storageId}/en.json`)
-      ).default as CalculatorGuideData;
+      ).default as CalculatorGuideData & { faq?: RawFaqItem[] };
+      return normalizeGuideData(raw);
     } catch {
       return fallback;
     }

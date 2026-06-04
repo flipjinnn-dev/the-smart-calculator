@@ -3,55 +3,9 @@ import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
 const CALCULATOR_ID = "uif-calculator";
 
-export const dynamic = "force-static";
-
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);
 }
-
-export const metadata: Metadata = {
-  title: "UIF Calculator South Africa Payout Tools",
-  description: "Use this UIF calculator to estimate unemployment and maternity payouts in South Africa. Calculate UIF contributions, deductions, and benefits online.",
-  keywords: [
-    "UIF calculator",
-    "UIF calculator South Africa",
-    "UIF benefits calculator",
-    "UIF unemployment calculator",
-    "UIF maternity calculator",
-    "UIF deduction calculator",
-    "UIF contribution calculator",
-    "UIF calculator online",
-    "UIF payout calculator",
-    "UIF maternity leave calculator South Africa"
-  ],
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/uif-calculator",
-    languages: {
-      'x-default': "https://www.thesmartcalculator.com/uif-calculator",
-      'en': "https://www.thesmartcalculator.com/uif-calculator",
-    }
-  },
-  openGraph: {
-    title: "UIF Calculator South Africa Payout Tools",
-    description: "Use this UIF calculator to estimate unemployment and maternity payouts in South Africa. Calculate UIF contributions, deductions, and benefits online.",
-    type: "website",
-    url: "https://www.thesmartcalculator.com/uif-calculator",
-    siteName: "Smart Calculator",
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: "UIF Calculator South Africa Payout Tools",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "UIF Calculator South Africa Payout Tools",
-    description: "Use this UIF calculator to estimate unemployment and maternity payouts in South Africa. Calculate UIF contributions, deductions, and benefits online."
-  }
-};
 
 export default function UIFCalculatorLayout({
   children,

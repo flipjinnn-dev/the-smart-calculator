@@ -3,55 +3,9 @@ import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
 const CALCULATOR_ID = "board-and-batten-calculator";
 
-export const dynamic = "force-static";
-
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);
 }
-
-export const metadata: Metadata = {
-  title: "Board and Batten Calculator - Estimate Boards, Battens & Spacing",
-  description: "Quickly calculate boards, battens, spacing, and siding materials for your wall project with our easy Board and Batten Calculator.",
-  keywords: [
-    "board and batten calculator",
-    "board and batten siding calculator",
-    "board and batten wall calculator",
-    "board and batten spacing calculator",
-    "board and batten material calculator",
-    "DIY board and batten calculator",
-    "board and batten estimator",
-    "board and batten layout calculator",
-    "farmhouse siding calculator",
-    "vertical siding calculator"
-  ],
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/construction/board-and-batten-calculator",
-    languages: {
-      'x-default': "https://www.thesmartcalculator.com/construction/board-and-batten-calculator",
-      'en': "https://www.thesmartcalculator.com/construction/board-and-batten-calculator",
-    }
-  },
-  openGraph: {
-    title: "Board and Batten Calculator - Estimate Boards, Battens & Spacing",
-    description: "Quickly calculate boards, battens, spacing, and siding materials for your wall project with our easy Board and Batten Calculator.",
-    type: "website",
-    url: "https://www.thesmartcalculator.com/construction/board-and-batten-calculator",
-    siteName: "Smart Calculator",
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: "Board and Batten Calculator - Estimate Boards, Battens & Spacing",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Board and Batten Calculator - Estimate Boards, Battens & Spacing",
-    description: "Quickly calculate boards, battens, spacing, and siding materials for your wall project with our easy Board and Batten Calculator."
-  }
-};
 
 export default function BoardAndBattenCalculatorLayout({
   children,

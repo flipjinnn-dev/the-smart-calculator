@@ -1,46 +1,13 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 
-import type { Metadata } from "next";
 import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
 const CALCULATOR_ID = "ssc-gpa-calculator";
 
-export const dynamic = "force-static";
-
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);
 }
-
-export const metadata: Metadata = {
-  title: "SSC GPA Calculator – Fast & Accurate Results",
-  description: "Use our SSC GPA calculator to compute GPA, convert to percentage or marks, and understand the SSC grading system instantly.",
-  keywords: "ssc gpa calculator, ssc gpa calculator online, how to calculate ssc gpa, ssc gpa calculation system, ssc gpa calculator with marks, ssc gpa to percentage calculator, ssc gpa to marks calculator, ssc gpa calculator and grading system, middle school gpa calculator, gpa calculator middle school no credits",
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/ssc-gpa-calculator",
-  },
-  openGraph: {
-    title: "SSC GPA Calculator – Fast & Accurate Results",
-    description: "Use our SSC GPA calculator to compute GPA, convert to percentage or marks, and understand the SSC grading system instantly.",
-    type: "website",
-    url: "https://www.thesmartcalculator.com/ssc-gpa-calculator",
-    siteName: "Smart Calculator",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "SSC GPA Calculator",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "SSC GPA Calculator – Fast & Accurate Results",
-    description: "Use our SSC GPA calculator to compute GPA, convert to percentage or marks, and understand the SSC grading system instantly.",
-    images: ["/og-image.png"],
-  },
-};
 
 export default function SscGpaCalculatorLayout({
   children,

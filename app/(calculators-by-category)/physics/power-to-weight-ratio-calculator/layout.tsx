@@ -3,55 +3,9 @@ import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
 const CALCULATOR_ID = "power-to-weight-ratio-calculator";
 
-export const dynamic = "force-static";
-
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);
 }
-
-export const metadata: Metadata = {
-  title: "Power-to-Weight Ratio Calculator - Calculate Acceleration & Efficiency",
-  description: "Calculate acceleration & efficiency of cars, bikes, F1 cars, or cyclists with our Power-to-Weight Ratio Calculator. Compare performance instantly!",
-  keywords: [
-    "power-to-weight ratio calculator",
-    "power to weight ratio",
-    "car power-to-weight ratio",
-    "cycling power-to-weight ratio",
-    "F1 car power-to-weight ratio",
-    "motorcycle power-to-weight ratio",
-    "hp/lb calculator",
-    "kW/kg calculator",
-    "vehicle performance calculator",
-    "acceleration calculator"
-  ],
-  alternates: {
-    canonical: "https://www.thesmartcalculator.com/physics/power-to-weight-ratio-calculator",
-    languages: {
-      'x-default': "https://www.thesmartcalculator.com/physics/power-to-weight-ratio-calculator",
-      'en': "https://www.thesmartcalculator.com/physics/power-to-weight-ratio-calculator",
-    }
-  },
-  openGraph: {
-    title: "Power-to-Weight Ratio Calculator - Calculate Acceleration & Efficiency",
-    description: "Calculate acceleration & efficiency of cars, bikes, F1 cars, or cyclists with our Power-to-Weight Ratio Calculator. Compare performance instantly!",
-    type: "website",
-    url: "https://www.thesmartcalculator.com/physics/power-to-weight-ratio-calculator",
-    siteName: "Smart Calculator",
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: "Power-to-Weight Ratio Calculator - Calculate Acceleration & Efficiency",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Power-to-Weight Ratio Calculator - Calculate Acceleration & Efficiency",
-    description: "Calculate acceleration & efficiency of cars, bikes, F1 cars, or cyclists with our Power-to-Weight Ratio Calculator. Compare performance instantly!"
-  }
-};
 
 export default function PowerToWeightRatioCalculatorLayout({
   children,
