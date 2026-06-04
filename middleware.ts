@@ -4,6 +4,7 @@ import {
   ADMIN_DASHBOARD_COOKIE,
   ADMIN_DASHBOARD_SESSION_VALUE,
 } from '@/lib/admin-dashboard-auth';
+import { applySecurityHeaders } from '@/lib/security-headers.mjs';
 
 // Define the URL mappings for each language
 export const urlMappings = {
@@ -1037,7 +1038,7 @@ export function middleware(request: NextRequest) {
       const loginUrl = request.nextUrl.clone();
       loginUrl.pathname = '/admin/login';
       loginUrl.searchParams.set('from', pathname);
-      return NextResponse.redirect(loginUrl);
+      return applySecurityHeaders(NextResponse.redirect(loginUrl));
     }
   }
 
@@ -1048,7 +1049,7 @@ export function middleware(request: NextRequest) {
     pathname.includes('api') || // API routes
     pathname.includes('favicon') // favicon
   ) {
-    return NextResponse.next();
+    return applySecurityHeaders(NextResponse.next());
   }
 
   // Redirect uppercase URLs to lowercase for SEO compliance
@@ -1056,7 +1057,7 @@ export function middleware(request: NextRequest) {
   if (pathname !== lowercasePathname) {
     const url = request.nextUrl.clone();
     url.pathname = lowercasePathname;
-    return NextResponse.redirect(url, 301);
+    return applySecurityHeaders(NextResponse.redirect(url, 301));
   }
 
   // Check if the URL starts with a language prefix
@@ -1072,7 +1073,7 @@ export function middleware(request: NextRequest) {
       const response = NextResponse.rewrite(new URL('/', request.url));
       response.headers.set('x-language', lang);
       response.headers.set('x-pathname', pathname);
-      return response;
+      return applySecurityHeaders(response);
     }
 
     // Remove the leading slash for processing (drop empty segments from trailing slashes)
@@ -1085,7 +1086,7 @@ export function middleware(request: NextRequest) {
       // 301 Permanent redirect to remove language prefix
       const url = request.nextUrl.clone();
       url.pathname = '/' + firstPart;
-      return NextResponse.redirect(url, 301);
+      return applySecurityHeaders(NextResponse.redirect(url, 301));
     }
 
     // Check if this is a translated static page
@@ -1132,7 +1133,7 @@ export function middleware(request: NextRequest) {
       );
       response.headers.set('x-language', lang);
       response.headers.set('x-pathname', pathname);
-      return response;
+      return applySecurityHeaders(response);
     }
 
     // Translate the path parts for non-static pages
@@ -1150,14 +1151,14 @@ export function middleware(request: NextRequest) {
     response.headers.set('x-language', lang);
     response.headers.set('x-pathname', pathname);
 
-    return response;
+    return applySecurityHeaders(response);
   }
 
   // For English URLs (no prefix), set language to 'en'
   const response = NextResponse.next();
   response.headers.set('x-language', 'en');
   response.headers.set('x-pathname', pathname);
-  return response;
+  return applySecurityHeaders(response);
 }
 
 // Configure which paths the middleware should run on

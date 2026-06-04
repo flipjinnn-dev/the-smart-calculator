@@ -1,5 +1,6 @@
 import { fileURLToPath } from 'url';
 import { dirname, resolve } from 'path';
+import { SECURITY_HEADERS } from './lib/security-headers.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -173,8 +174,13 @@ const nextConfig = {
   async headers() {
     return [
       {
+        source: '/:path*',
+        headers: SECURITY_HEADERS,
+      },
+      {
         source: '/:all*(svg|jpg|jpeg|png|gif|ico|webp)',
         headers: [
+          ...SECURITY_HEADERS,
           {
             key: 'Cache-Control',
             value: 'public, max-age=31536000, immutable',
@@ -184,6 +190,7 @@ const nextConfig = {
       {
         source: '/_next/static/:path*',
         headers: [
+          ...SECURITY_HEADERS,
           {
             key: 'Cache-Control',
             value: 'public, max-age=31536000, immutable',
@@ -193,6 +200,7 @@ const nextConfig = {
       {
         source: '/fonts/:path*',
         headers: [
+          ...SECURITY_HEADERS,
           {
             key: 'Cache-Control',
             value: 'public, max-age=31536000, immutable',
