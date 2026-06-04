@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
-import { getCachedCommunityPostMeta } from "@/lib/community-post-meta";
+import { headers } from "next/headers";
+import {
+  getCachedCommunityPostMeta,
+} from "@/lib/community-post-meta";
 import { urlFor } from "@/lib/sanity/config";
-
-const SITE_ORIGIN = "https://www.thesmartcalculator.com";
+import {
+  alternateLanguagesForEnglishPath,
+  canonicalFromRequestPathname,
+  withSelfReferencingHreflang,
+  SITE_ORIGIN,
+} from "@/lib/seo-hreflang";
 const DEFAULT_OG_IMAGE = `${SITE_ORIGIN}/og-image.png`;
 
 function stripHeadElements(html: string): string {
@@ -86,15 +93,7 @@ function resolvePostMetaDescription(post: {
 }
 
 function communityPostHreflangLanguages(slug: string): Record<string, string> {
-  const enUrl = `${SITE_ORIGIN}/community/post/${slug}`;
-  return {
-    "x-default": enUrl,
-    en: enUrl,
-    de: `${SITE_ORIGIN}/de/community/post/${slug}`,
-    pl: `${SITE_ORIGIN}/pl/community/post/${slug}`,
-    "pt-BR": `${SITE_ORIGIN}/br/community/post/${slug}`,
-    es: `${SITE_ORIGIN}/es/community/post/${slug}`,
-  };
+  return alternateLanguagesForEnglishPath(`/community/post/${slug}`);
 }
 
 export async function buildCommunityPostMetadata(
@@ -110,7 +109,10 @@ export async function buildCommunityPostMetadata(
       };
     }
 
-    const canonicalUrl = `${SITE_ORIGIN}/community/post/${slug}`;
+    const headersList = await headers();
+    const pathname =
+      headersList.get("x-pathname") || `/community/post/${slug}`;
+    const canonicalUrl = canonicalFromRequestPathname(pathname);
     const description = resolvePostMetaDescription(post);
 
     let ogImage = DEFAULT_OG_IMAGE;
@@ -128,7 +130,11 @@ export async function buildCommunityPostMetadata(
       description,
       alternates: {
         canonical: canonicalUrl,
-        languages: communityPostHreflangLanguages(slug),
+        languages: withSelfReferencingHreflang(
+          communityPostHreflangLanguages(slug),
+          canonicalUrl,
+          pathname
+        ),
       },
       openGraph: {
         title: post.title,
