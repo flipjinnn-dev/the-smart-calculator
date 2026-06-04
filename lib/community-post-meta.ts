@@ -1,6 +1,6 @@
 import "server-only";
 import { unstable_cache } from "next/cache";
-import { client as sanityClient } from "@/lib/sanity/config";
+import { client as sanityClient, isSanityConfigured } from "@/lib/sanity/config";
 import { getPostBySlug } from "@/lib/actions/post-actions";
 
 export type CommunityPostMeta = {
@@ -51,4 +51,19 @@ export function getCachedCommunityPostFull(slug: string) {
     ["community-post-full", slug],
     { revalidate: 300, tags: [`community-post-${slug}`] }
   )();
+}
+
+/** Approved community post slugs for static generation (metadata in `<head>`). */
+export async function getAllCommunityPostSlugs(): Promise<Array<{ slug: string }>> {
+  if (!isSanityConfigured) return [];
+  try {
+    const slugs = await sanityClient.fetch<Array<{ slug: string }>>(
+      `*[_type == "communityPost" && status == "approved" && defined(slug.current)] {
+        "slug": slug.current
+      }`
+    );
+    return slugs?.filter((entry) => entry.slug) ?? [];
+  } catch {
+    return [];
+  }
 }
