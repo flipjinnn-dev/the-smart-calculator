@@ -1,29 +1,37 @@
 'use client';
 
-import { useState, useOptimistic } from 'react';
+import { useState, useEffect } from 'react';
 import { ThumbsUp } from 'lucide-react';
+import { useSession } from 'next-auth/react';
 import { Button } from '@/components/ui/button';
-import { toggleReaction } from '@/lib/actions/reaction-actions';
+import { toggleReaction, hasUserReacted } from '@/lib/actions/reaction-actions';
 import { toast } from 'sonner';
 import { useRouter } from 'next/navigation';
 
 interface ReactionButtonProps {
   postId: string;
   initialCount: number;
-  hasReacted: boolean;
-  isAuthenticated: boolean;
 }
 
 export function ReactionButton({ 
   postId, 
   initialCount, 
-  hasReacted, 
-  isAuthenticated 
 }: ReactionButtonProps) {
+  const { data: session } = useSession();
+  const isAuthenticated = Boolean(session?.user);
   const [count, setCount] = useState(initialCount);
-  const [reacted, setReacted] = useState(hasReacted);
+  const [reacted, setReacted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
+
+  useEffect(() => {
+    const userId = (session?.user as { userId?: string } | undefined)?.userId;
+    if (!userId) {
+      setReacted(false);
+      return;
+    }
+    void hasUserReacted(postId, userId).then(setReacted);
+  }, [postId, session?.user]);
 
   const handleClick = async () => {
     if (!isAuthenticated) {

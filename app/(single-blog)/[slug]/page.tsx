@@ -4,7 +4,6 @@ import Link from "next/link"
 import { Calendar, ArrowLeft, Clock } from "lucide-react"
 import { getBlogPostBySlug, type BlogPost } from "@/lib/sanity/client"
 import { PortableText } from "@/components/portable-text"
-import type { Metadata } from "next"
 
 const blogContent = {
   backToBlogs: "Back to Blogs",
@@ -76,54 +75,6 @@ const stripHeadElements = (html: string): string => {
 
 export const dynamic = 'force-static';
 export const dynamicParams = true;
-
-export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
-  const { slug } = await params;
-
-  let post: BlogPost | null = null;
-  try {
-    post = await getBlogPostBySlug(slug);
-  } catch (error) {
-    console.error(`Error fetching blog post metadata for slug "${slug}":`, error);
-  }
-
-  if (!post) {
-    return {
-      title: "Blog Post Not Found | Smart Calculator",
-      description: "The requested blog post could not be found.",
-    };
-  }
-
-  const metaTitle = post.metaTitle || post.title;
-  const metaDescription = post.metaDescription || post.excerpt;
-  const keywords = post.keywords || "";
-  const canonicalUrl = `https://www.thesmartcalculator.com/${slug}`;
-
-  return {
-    title: metaTitle,
-    description: metaDescription,
-    keywords: keywords,
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: metaTitle,
-      description: metaDescription,
-      type: "article",
-      url: canonicalUrl,
-      siteName: 'Smart Calculator',
-      images: post.featuredImage ? [{ url: post.featuredImage }] : [],
-      publishedTime: post.publishedAt,
-      locale: 'en_US',
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: metaTitle,
-      description: metaDescription,
-      images: post.featuredImage ? [post.featuredImage] : [],
-    },
-  };
-}
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params

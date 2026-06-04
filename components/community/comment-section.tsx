@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { useSession } from 'next-auth/react';
 import Link from 'next/link';
 import { formatDistanceToNow } from 'date-fns';
 import { User, Send, MessageSquare, ThumbsUp, MoreVertical } from 'lucide-react';
@@ -29,10 +30,11 @@ interface Comment {
 interface CommentSectionProps {
   postId: string;
   comments: Comment[];
-  isAuthenticated: boolean;
 }
 
-export function CommentSection({ postId, comments, isAuthenticated }: CommentSectionProps) {
+export function CommentSection({ postId, comments }: CommentSectionProps) {
+  const { data: session } = useSession();
+  const isAuthenticated = Boolean(session?.user);
   const [content, setContent] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [replyingTo, setReplyingTo] = useState<string | null>(null);
