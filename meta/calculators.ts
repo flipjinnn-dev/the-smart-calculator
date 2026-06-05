@@ -3957,10 +3957,12 @@ export const calculatorsMeta: CalculatorMeta = {
   },
   "depop-fee-calculator": {
     en: {
-      title: "Depop Fee Calculator — Calculate Your Exact Profit",
-      description: "Free Depop fee calculator for US, UK & Australia sellers. Calculate selling fees, processing fees & net profit instantly. 0% fees for US/UK sellers!",
+      title: "Depop Fee Calculator Calculate Depop Fees Instantly",
+      description:
+        "Use our free Depop fee calculator to instantly find your exact payout, selling fees, and net profit. Works for US, UK, Australia, and international sellers.",
       slug: "/depop-fee-calculator",
-      keywords: "depop fee calculator, depop fees, depop selling fee, depop transaction fee, depop fee calculator us, depop fee calculator uk, depop fee calculator australia, depop processing fee, depop boosted listing fee, depop profit calculator, depop payout calculator, free depop calculator, depop fee and transaction fee calculator, depop seller fees 2026, depop 0 percent fee, depop vs poshmark fees, depop shipping fees, depop bundle fees, depop refund fees"
+      keywords:
+        "depop fee calculator, depop fees, depop selling fee, depop transaction fee, depop fee calculator us, depop fee calculator uk, depop fee calculator australia, depop processing fee, depop profit calculator, depop payout calculator, free depop calculator, depop seller fees, depop payments fee, depop paypal fee, depop net payout calculator"
     }
   },
   "uf-gpa-calculator": {
@@ -4113,6 +4115,26 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/ski-size-calculator",
       keywords:
         "ski size calculator, ski length calculator, what size skis do I need, ski size chart, ski size by height, ski size by weight, beginner ski size, powder ski length, all mountain ski size, ski sizing guide, how to choose ski length, ski size for beginners, ski size for experts, freestyle ski size, racing ski length, ski calculator height weight"
+    }
+  },
+  "snowboard-size-calculator": {
+    en: {
+      title: "Snowboard Size Calculator — Length, Width & Chart",
+      description:
+        "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+      slug: "/snowboard-size-calculator",
+      keywords:
+        "snowboard size calculator, snowboard length calculator, what size snowboard do I need, snowboard size chart, snowboard size by height, snowboard size by weight, snowboard width calculator, wide snowboard calculator, beginner snowboard size, powder snowboard length, all mountain snowboard size, freestyle snowboard size, snowboard sizing guide, snowboard boot size width, kids snowboard size, women's snowboard size"
+    }
+  },
+  "vorici-calculator": {
+    en: {
+      title: "Vorici Calculator (PoE) – Chromatic Orb Cost Calculator",
+      description:
+        "Calculate Chromatic Orb costs, socket color odds, average attempts, and success rates with our PoE Vorici Calculator for Path of Exile.",
+      slug: "/vorici-calculator",
+      keywords:
+        "vorici calculator, poe vorici calculator, chromatic orb calculator, path of exile chromatic calculator, poe socket color calculator, vorici chromatic calculator, chromatic orb cost, poe crafting calculator, socket color probability, poe chromatic spam, vorici crafting bench, path of exile calculator, poe chromatic orb average, off color sockets poe, hybrid vorici method"
     }
   },
   "kite-size-calculator": {

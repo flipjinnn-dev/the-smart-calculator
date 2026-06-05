@@ -4,13 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "next build",
+    "build": "node scripts/sync-vercel-headers.mjs && next build",
     "dev": "next dev --webpack",
     "lint": "next lint",
     "postinstall": "patch-package",
     "start": "next start",
     "add-spanish-meta": "tsx scripts/add-spanish-metadata.ts",
-    "test-spanish-meta": "tsx scripts/test-spanish-meta.ts"
+    "test-spanish-meta": "tsx scripts/test-spanish-meta.ts",
+    "sync-vercel-headers": "node scripts/sync-vercel-headers.mjs"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

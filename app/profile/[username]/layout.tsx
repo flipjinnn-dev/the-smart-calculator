@@ -4,6 +4,8 @@ import { normalizeUsername, createUsernameSlug } from "@/lib/utils/username-slug
 import {
   alternateLanguagesForEnglishPath,
   canonicalFromRequestPathname,
+  withSelfReferencingHreflang,
+  SITE_ORIGIN,
 } from "@/lib/seo-hreflang";
 
 interface ProfileLayoutParams {
@@ -26,7 +28,11 @@ export async function generateMetadata({ params }: ProfileLayoutParams): Promise
       description: `View ${username}'s profile, posts, and contributions on The Smart Calculator community.`,
       alternates: {
         canonical: canonicalUrl,
-        languages: alternateLanguagesForEnglishPath(englishPath),
+        languages: withSelfReferencingHreflang(
+          alternateLanguagesForEnglishPath(englishPath),
+          canonicalUrl,
+          pathname
+        ),
       },
       openGraph: {
         title: `${username}'s Profile`,
@@ -52,9 +58,14 @@ export async function generateMetadata({ params }: ProfileLayoutParams): Promise
     };
   } catch (error) {
     console.error("Error generating profile metadata:", error);
+    const englishPath = "/profile";
     return {
       title: "User Profile - Community",
       description: "View user profile on The Smart Calculator community.",
+      alternates: {
+        canonical: `${SITE_ORIGIN}${englishPath}`,
+        languages: alternateLanguagesForEnglishPath(englishPath),
+      },
       openGraph: {
         title: "User Profile",
         description: "View user profile on The Smart Calculator community.",

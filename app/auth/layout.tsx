@@ -3,6 +3,7 @@ import { headers } from "next/headers";
 import {
   alternateLanguagesForEnglishPath,
   canonicalFromRequestPathname,
+  withSelfReferencingHreflang,
 } from "@/lib/seo-hreflang";
 
 const AUTH_EN_PATH = "/auth/signin";
@@ -17,7 +18,11 @@ export async function generateMetadata(): Promise<Metadata> {
     description: "Sign in to access community features",
     alternates: {
       canonical: canonicalUrl,
-      languages: alternateLanguagesForEnglishPath(AUTH_EN_PATH),
+      languages: withSelfReferencingHreflang(
+        alternateLanguagesForEnglishPath(AUTH_EN_PATH),
+        canonicalUrl,
+        pathname
+      ),
     },
     robots: {
       index: false,

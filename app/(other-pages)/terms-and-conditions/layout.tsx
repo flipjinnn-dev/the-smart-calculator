@@ -1,6 +1,9 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { getStaticPageCanonicalUrl } from "@/lib/url-utils";
+import {
+  generateStaticPageMetadata,
+  languageFromStaticPathname,
+} from "@/lib/static-page-seo";
 
 type Language = "en" | "br" | "pl" | "de" | "es";
 
@@ -33,39 +36,11 @@ const termsMeta: Record<Language, { title: string; description: string; keywords
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-  // Always use English-only metadata (no multilingual support)
-  const meta = termsMeta.en;
-  const canonicalUrl = 'https://www.thesmartcalculator.com/terms-and-conditions';
+  const headerList = await headers();
+  const pathname = headerList.get("x-pathname") || "/terms-and-conditions";
+  const language = languageFromStaticPathname(pathname);
 
-  return {
-    title: meta.title,
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: 'website',
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    }
-  };
+  return generateStaticPageMetadata("terms-and-conditions", termsMeta, pathname, language);
 }
 
 export default function TermsLayout({ children }: { children: React.ReactNode }) {

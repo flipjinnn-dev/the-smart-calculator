@@ -7,6 +7,7 @@ import { useState, useEffect, useMemo, memo } from "react"
 import DynamicBreadcrumb from "@/components/dynamic-breadcrumb"
 import { ClientOnly } from "@/components/client-only"
 import { getLanguageSwitcherUrl } from "@/lib/url-utils"
+import { localeFromPathname, parseLocalePathname } from "@/lib/locale-path"
 import { useSession, signIn, signOut } from "next-auth/react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
@@ -78,6 +79,8 @@ const ENGLISH_ONLY_PATHS = [
   '/water-potential-calculator',
   '/whatnot-fee-calculator',
   '/depop-fee-calculator',
+  '/snowboard-size-calculator',
+  '/vorici-calculator',
   '/cpv-calculator',
   '/home-reversion-calculator',
   '/construction/rip-rap-calculator',
@@ -354,13 +357,12 @@ function HeaderWithSession() {
     setAuthMounted(true)
   }, [])
 
-  const language = useMemo(() => {
-    const langMatch = pathname.match(/^\/(br|pl|de|es)/)
-    return langMatch ? langMatch[1] : "en"
-  }, [pathname])
+  const language = useMemo(() => localeFromPathname(pathname), [pathname])
 
-  // Memoize expensive path calculations
-  const pathWithoutLang = useMemo(() => pathname.replace(/^\/(br|pl|de|es)/, '') || '/', [pathname])
+  const pathWithoutLang = useMemo(() => {
+    const parsed = parseLocalePathname(pathname)
+    return parsed ? parsed.restPath || "/" : pathname
+  }, [pathname])
 
   const isGamesPage = useMemo(() =>
     pathWithoutLang.startsWith('/games') || pathWithoutLang === '/games',

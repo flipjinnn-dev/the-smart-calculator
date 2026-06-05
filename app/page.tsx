@@ -5,10 +5,16 @@ import { getAllAuthors } from "@/lib/sanity/client";
 import { HOMEPAGE_FALLBACK_AUTHORS } from "@/lib/homepage-fallback-authors";
 import Script from "next/script";
 import type { Metadata } from "next";
+import {
+  alternateLanguagesForEnglishPath,
+  canonicalFromRequestPathname,
+  withSelfReferencingHreflang,
+} from "@/lib/seo-hreflang";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';
+  const pathname = headersList.get('x-pathname') || (language === 'en' ? '/' : `/${language}`);
   const { content } = await loadHomepageContent(language);
 
   const contentData = content || {
@@ -19,9 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
     }
   };
 
-  // Generate language-specific canonical URL
-  const baseUrl = "https://www.thesmartcalculator.com";
-  const canonicalUrl = language === 'en' ? baseUrl : `${baseUrl}/${language}`;
+  const canonicalUrl = canonicalFromRequestPathname(pathname);
 
   return {
     title: contentData.meta.title || "Smart Calculator - Free Online Calculators for Every Need",
@@ -44,14 +48,11 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        'x-default': baseUrl,
-        'en': baseUrl,
-        'pt-BR': `${baseUrl}/br`,
-        'pl': `${baseUrl}/pl`,
-        'de': `${baseUrl}/de`,
-        'es': `${baseUrl}/es`,
-      }
+      languages: withSelfReferencingHreflang(
+        alternateLanguagesForEnglishPath("/"),
+        canonicalUrl,
+        pathname
+      ),
     },
   };
 }

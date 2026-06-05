@@ -13,6 +13,7 @@ import { authOptions } from "@/lib/auth"
 import { Toaster } from "sonner"
 import { headers } from "next/headers"
 import { InternalLinksSection } from "@/components/internal-links-section"
+import { HreflangAlternateLinks } from "@/components/hreflang-alternate-links"
 import "./globals.css"
 import "katex/dist/katex.min.css"
 
@@ -116,6 +117,7 @@ export async function generateMetadata(): Promise<Metadata> {
     verification: {
       google: "RehqhdOImhqlzUM1_EWsYdmed39YNrO6MQyARIW9rK4",
     },
+    referrer: "strict-origin-when-cross-origin",
     generator: "Smart Calculator",
   };
 }
@@ -162,6 +164,7 @@ export default async function RootLayout({
           />
         )}
         <SessionProvider session={session}>
+          <HreflangAlternateLinks />
           <Header />
           <main>
             {children}

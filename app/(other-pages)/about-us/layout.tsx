@@ -1,6 +1,9 @@
 import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { getStaticPageCanonicalUrl } from "@/lib/url-utils";
+import {
+  generateStaticPageMetadata,
+  languageFromStaticPathname,
+} from "@/lib/static-page-seo";
 
 type Language = "en" | "br" | "pl" | "de" | "es";
 
@@ -34,49 +37,10 @@ const aboutMeta: Record<Language, { title: string; description: string; keywords
 
 export async function generateMetadata(): Promise<Metadata> {
   const headerList = await headers();
-  const langHeader = headerList.get("x-language");
-  const language: Language = langHeader && aboutMeta[langHeader as Language] ? (langHeader as Language) : "en";
+  const pathname = headerList.get("x-pathname") || "/about-us";
+  const language = languageFromStaticPathname(pathname);
 
-  const meta = aboutMeta[language];
-  const canonicalUrl = getStaticPageCanonicalUrl('about-us', language);
-
-  return {
-    title: meta.title,
-    description: meta.description,
-    keywords: meta.keywords,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        'x-default': getStaticPageCanonicalUrl('about-us', 'en'),
-        en: getStaticPageCanonicalUrl('about-us', 'en'),
-        "pt-BR": getStaticPageCanonicalUrl('about-us', 'br'),
-        pl: getStaticPageCanonicalUrl('about-us', 'pl'),
-        de: getStaticPageCanonicalUrl('about-us', 'de'),
-        es: getStaticPageCanonicalUrl('about-us', 'es')
-      }
-    },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Smart Calculator",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-      images: ["/og-image.png"],
-    }
-  };
+  return generateStaticPageMetadata("about-us", aboutMeta, pathname, language);
 }
 
 export default function AboutLayout({ children }: { children: React.ReactNode }) {

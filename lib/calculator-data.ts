@@ -113,6 +113,8 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'fix-and-flip-calculator') return 'fix-and-flip-calculator';
   if (id === 'kite-size-calculator') return 'kite-size-calculator';
   if (id === 'ski-size-calculator') return 'ski-size-calculator';
+  if (id === 'snowboard-size-calculator') return 'snowboard-size-calculator';
+  if (id === 'vorici-calculator') return 'vorici-calculator';
   if (id === 'nm-to-ft-lbs-converter') return 'nm-to-ft-lbs-converter';
   if (id === 'tenths-to-inches-converter') return 'tenths-to-inches-converter';
   if (id === 'simplifying-radicals-calculator') return 'simplifying-radicals-calculator';
@@ -1315,10 +1317,32 @@ export const calculators: Calculator[] = [
   {
     id: "depop-fee-calculator",
     name: "Depop Fee Calculator",
-    description: "Calculate Depop seller fees for US, UK & Australia. Free tool for selling fees, processing fees & net profit with 0% fees for US/UK",
+    description:
+      "Use our free Depop fee calculator to instantly find your exact payout, selling fees, and net profit. Works for US, UK, Australia, and international sellers.",
     href: "/depop-fee-calculator",
     category: "other",
-    popular: false,
+    popular: true,
+    englishOnly: true,
+  },
+  {
+    id: "snowboard-size-calculator",
+    name: "Snowboard Size Calculator",
+    description:
+      "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+    href: "/snowboard-size-calculator",
+    category: "other",
+    popular: true,
+    englishOnly: true,
+  },
+  {
+    id: "vorici-calculator",
+    name: "Vorici Calculator (PoE)",
+    description:
+      "Calculate Chromatic Orb costs, socket color odds, average attempts, and success rates with our PoE Vorici Calculator for Path of Exile.",
+    href: "/vorici-calculator",
+    category: "other",
+    popular: true,
+    englishOnly: true,
   },
   {
     id: "tattoo-tip-calculator",

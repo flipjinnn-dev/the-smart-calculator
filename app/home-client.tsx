@@ -254,6 +254,27 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       href: "/tattoo-tip-calculator/"
     },
     {
+      name: "Depop Fee Calculator",
+      category: "Other",
+      description:
+        "Use our free Depop fee calculator to instantly find your exact payout, selling fees, and net profit. Works for US, UK, Australia, and international sellers.",
+      href: "/depop-fee-calculator"
+    },
+    {
+      name: "Snowboard Size Calculator",
+      category: "Other",
+      description:
+        "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+      href: "/snowboard-size-calculator"
+    },
+    {
+      name: "Vorici Calculator (PoE)",
+      category: "Other",
+      description:
+        "Calculate Chromatic Orb costs, socket color odds, average attempts, and success rates with our PoE Vorici Calculator for Path of Exile.",
+      href: "/vorici-calculator"
+    },
+    {
       name: "Strength Level Calculator",
       category: "Health",
       description:
@@ -393,6 +414,36 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       href: "/maths/simplifying-radicals-calculator",
       category: "Maths",
       popular: true as const,
+    },
+    {
+      id: "depop-fee-calculator",
+      name: "Depop Fee Calculator",
+      description:
+        "Use our free Depop fee calculator to instantly find your exact payout, selling fees, and net profit. Works for US, UK, Australia, and international sellers.",
+      href: "/depop-fee-calculator",
+      category: "Other",
+      popular: true as const,
+      englishOnly: true,
+    },
+    {
+      id: "snowboard-size-calculator",
+      name: "Snowboard Size Calculator",
+      description:
+        "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+      href: "/snowboard-size-calculator",
+      category: "Other",
+      popular: true as const,
+      englishOnly: true,
+    },
+    {
+      id: "vorici-calculator",
+      name: "Vorici Calculator (PoE)",
+      description:
+        "Calculate Chromatic Orb costs, socket color odds, average attempts, and success rates with our PoE Vorici Calculator for Path of Exile.",
+      href: "/vorici-calculator",
+      category: "Other",
+      popular: true as const,
+      englishOnly: true,
     },
     {
       id: "mixed-fraction-calculator",

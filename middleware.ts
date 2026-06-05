@@ -5,6 +5,7 @@ import {
   ADMIN_DASHBOARD_SESSION_VALUE,
 } from '@/lib/admin-dashboard-auth';
 import { applySecurityHeaders } from '@/lib/security-headers.mjs';
+import { parseLocalePathname } from '@/lib/locale-path';
 
 // Define the URL mappings for each language
 export const urlMappings = {
@@ -1060,12 +1061,12 @@ export function middleware(request: NextRequest) {
     return applySecurityHeaders(NextResponse.redirect(url, 301));
   }
 
-  // Check if the URL starts with a language prefix
-  const langMatch = pathname.match(/^\/(br|pl|de|es)(\/.*)?/);
+  // Check if the URL starts with a language prefix (/de/foo, not /depop-fee-calculator)
+  const localePath = parseLocalePathname(pathname);
 
-  if (langMatch) {
-    const lang = langMatch[1] as keyof typeof urlMappings;
-    const path = langMatch[2] || '/';
+  if (localePath) {
+    const lang = localePath.locale;
+    const path = localePath.restPath;
 
     // Handle root path for language - show homepage instead of redirecting to calculator
     if (path === '/') {
